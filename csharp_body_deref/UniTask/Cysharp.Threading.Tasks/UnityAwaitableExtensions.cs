@@ -39,13 +39,13 @@ public static class UnityAwaitableExtensions
 		private Awaitable.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600093E")]
-		[Address(RVA = "0x29450F0", Offset = "0x29436F0", VA = "0x1829450F0", Slot = "4")]
+		[Address(RVA = "0x62F1500", Offset = "0x62F0500", VA = "0x62F1500", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600093F")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x62F1710", Offset = "0x62F0710", VA = "0x62F1710", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -86,7 +86,7 @@ public static class UnityAwaitableExtensions
 	}
 
 	[Token(Token = "0x600093C")]
-	[Address(RVA = "0x294D780", Offset = "0x294BD80", VA = "0x18294D780")]
+	[Address(RVA = "0x62F1460", Offset = "0x62F0460", VA = "0x62F1460")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__0))]
 	public static UniTask AsUniTask(this Awaitable awaitable)
 	{

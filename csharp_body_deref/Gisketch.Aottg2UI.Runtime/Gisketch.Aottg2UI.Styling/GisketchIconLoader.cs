@@ -10,21 +10,21 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Styling;
 
-[Token(Token = "0x2000024")]
+[Token(Token = "0x2000029")]
 public static class GisketchIconLoader
 {
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x40000B7")]
 	private const string Root = "Icons/kenney-icons/";
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x1885170", Offset = "0x1883770", VA = "0x181885170")]
+	[Token(Token = "0x600015A")]
+	[Address(RVA = "0x5230C50", Offset = "0x522FC50", VA = "0x5230C50")]
 	public static Sprite Load(string icon)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x1885260", Offset = "0x1883860", VA = "0x181885260")]
+	[Token(Token = "0x600015B")]
+	[Address(RVA = "0x5230CA0", Offset = "0x522FCA0", VA = "0x5230CA0")]
 	private static string ResolvePath(string icon)
 	{
 		return null;

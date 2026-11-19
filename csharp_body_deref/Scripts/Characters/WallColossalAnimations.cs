@@ -9,81 +9,81 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20006A2")]
+[Token(Token = "0x2000702")]
 internal class WallColossalAnimations : BaseTitanAnimations
 {
-	[Token(Token = "0x4001F72")]
+	[Token(Token = "0x4002125")]
 	public const string IdleValue = "Armature_VER2|wall_colossal_idle";
 
-	[Token(Token = "0x4001F73")]
+	[Token(Token = "0x4002126")]
 	public const string AttackWallSlap1LValue = "Armature_VER2|wall_attack_slap1_L";
 
-	[Token(Token = "0x4001F74")]
+	[Token(Token = "0x4002127")]
 	public const string AttackWallSlap1RValue = "Armature_VER2|wall_attack_slap1_R";
 
-	[Token(Token = "0x4001F75")]
+	[Token(Token = "0x4002128")]
 	public const string AttackWallSlap2LValue = "Armature_VER2|wall_attack_slap2_L";
 
-	[Token(Token = "0x4001F76")]
+	[Token(Token = "0x4002129")]
 	public const string AttackWallSlap2RValue = "Armature_VER2|wall_attack_slap2_R";
 
-	[Token(Token = "0x4001F77")]
+	[Token(Token = "0x400212A")]
 	public const string AttackSteamValue = "Armature_VER2|wall_attack_steam";
 
-	[Token(Token = "0x4001F78")]
+	[Token(Token = "0x400212B")]
 	public const string AttackSweepValue = "Armature_VER2|wall_attack_sweep";
 
-	[Token(Token = "0x4001F79")]
+	[Token(Token = "0x400212C")]
 	public const string AttackKickValue = "Armature_VER2|wall_colossal_kick";
 
-	[Token(Token = "0x4001F7A")]
+	[Token(Token = "0x400212D")]
 	public const string StunFallFace = "Armature_VER2|wall_colossal_stun";
 
-	[Token(Token = "0x4001F7B")]
+	[Token(Token = "0x400212E")]
 	[FieldOffset(Offset = "0x10")]
 	public string AttackWallSlap1L;
 
-	[Token(Token = "0x4001F7C")]
+	[Token(Token = "0x400212F")]
 	[FieldOffset(Offset = "0x18")]
 	public string AttackWallSlap1R;
 
-	[Token(Token = "0x4001F7D")]
+	[Token(Token = "0x4002130")]
 	[FieldOffset(Offset = "0x20")]
 	public string AttackWallSlap2L;
 
-	[Token(Token = "0x4001F7E")]
+	[Token(Token = "0x4002131")]
 	[FieldOffset(Offset = "0x28")]
 	public string AttackWallSlap2R;
 
-	[Token(Token = "0x4001F7F")]
+	[Token(Token = "0x4002132")]
 	[FieldOffset(Offset = "0x30")]
 	public string AttackSteam;
 
-	[Token(Token = "0x4001F80")]
+	[Token(Token = "0x4002133")]
 	[FieldOffset(Offset = "0x38")]
 	public string AttackSweep;
 
-	[Token(Token = "0x4001F81")]
+	[Token(Token = "0x4002134")]
 	[FieldOffset(Offset = "0x40")]
 	public string AttackKick;
 
-	[Token(Token = "0x4001F82")]
+	[Token(Token = "0x4002135")]
 	[FieldOffset(Offset = "0x48")]
 	public string StunFallFaceAnim;
 
-	[Token(Token = "0x17000B63")]
+	[Token(Token = "0x17000BAD")]
 	public override string Idle
 	{
-		[Token(Token = "0x6004108")]
-		[Address(RVA = "0x21939D0", Offset = "0x2191FD0", VA = "0x1821939D0", Slot = "4")]
+		[Token(Token = "0x60043A8")]
+		[Address(RVA = "0x5B1DC20", Offset = "0x5B1CC20", VA = "0x5B1DC20", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004109")]
-	[Address(RVA = "0x2193870", Offset = "0x2191E70", VA = "0x182193870")]
+	[Token(Token = "0x60043A9")]
+	[Address(RVA = "0x5B1DC50", Offset = "0x5B1CC50", VA = "0x5B1DC50")]
 	public WallColossalAnimations()
 	{
 	}

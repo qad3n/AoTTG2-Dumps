@@ -12,12 +12,12 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200033F")]
 public enum SinglePassStereoMode
 {
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000931")]
 	None,
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000932")]
 	SideBySide,
-	[Token(Token = "0x4000935")]
+	[Token(Token = "0x4000933")]
 	Instancing,
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000934")]
 	Multiview
 }

@@ -10,120 +10,120 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x20002C3")]
+[Token(Token = "0x200029B")]
 internal ref struct ValueStringBuilder
 {
-	[Token(Token = "0x4000BDC")]
+	[Token(Token = "0x4000B3A")]
 	[FieldOffset(Offset = "0x0")]
 	private char[] _arrayToReturnToPool;
 
-	[Token(Token = "0x4000BDD")]
+	[Token(Token = "0x4000B3B")]
 	[FieldOffset(Offset = "0x8")]
 	private Span<char> _chars;
 
-	[Token(Token = "0x4000BDE")]
+	[Token(Token = "0x4000B3C")]
 	[FieldOffset(Offset = "0x18")]
 	private int _pos;
 
-	[Token(Token = "0x17000245")]
+	[Token(Token = "0x17000244")]
 	public int Length
 	{
-		[Token(Token = "0x6001731")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6001709")]
+		[Address(RVA = "0x531DD60", Offset = "0x531CD60", VA = "0x531DD60")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000246")]
+	[Token(Token = "0x17000245")]
 	public unsafe ref char this[int index]
 	{
-		[Token(Token = "0x6001732")]
-		[Address(RVA = "0x19A1CA0", Offset = "0x19A02A0", VA = "0x1819A1CA0")]
+		[Token(Token = "0x600170A")]
+		[Address(RVA = "0x531DD70", Offset = "0x531CD70", VA = "0x531DD70")]
 		get
 		{
 			return ref *(char*)null;
 		}
 	}
 
-	[Token(Token = "0x6001730")]
-	[Address(RVA = "0x19A1C90", Offset = "0x19A0290", VA = "0x1819A1C90")]
+	[Token(Token = "0x6001708")]
+	[Address(RVA = "0x531DD40", Offset = "0x531CD40", VA = "0x531DD40")]
 	public ValueStringBuilder(Span<char> initialBuffer)
 	{
 	}
 
-	[Token(Token = "0x6001733")]
-	[Address(RVA = "0x19A1AD0", Offset = "0x19A00D0", VA = "0x1819A1AD0", Slot = "3")]
+	[Token(Token = "0x600170B")]
+	[Address(RVA = "0x531DD90", Offset = "0x531CD90", VA = "0x531DD90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001734")]
-	[Address(RVA = "0x19A1BA0", Offset = "0x19A01A0", VA = "0x1819A1BA0")]
+	[Token(Token = "0x600170C")]
+	[Address(RVA = "0x531DE30", Offset = "0x531CE30", VA = "0x531DE30")]
 	public bool TryCopyTo(Span<char> destination, out int charsWritten)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001735")]
-	[Address(RVA = "0x19A17B0", Offset = "0x199FDB0", VA = "0x1819A17B0")]
+	[Token(Token = "0x600170D")]
+	[Address(RVA = "0x531DF00", Offset = "0x531CF00", VA = "0x531DF00")]
 	public void Append(char c)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001736")]
-	[Address(RVA = "0x19A1530", Offset = "0x199FB30", VA = "0x1819A1530")]
+	[Token(Token = "0x600170E")]
+	[Address(RVA = "0x531DFD0", Offset = "0x531CFD0", VA = "0x531DFD0")]
 	public void Append(string s)
 	{
 	}
 
-	[Token(Token = "0x6001737")]
-	[Address(RVA = "0x19A1240", Offset = "0x199F840", VA = "0x1819A1240")]
+	[Token(Token = "0x600170F")]
+	[Address(RVA = "0x531E060", Offset = "0x531D060", VA = "0x531E060")]
 	private void AppendSlow(string s)
 	{
 	}
 
-	[Token(Token = "0x6001738")]
-	[Address(RVA = "0x19A16F0", Offset = "0x199FCF0", VA = "0x1819A16F0")]
+	[Token(Token = "0x6001710")]
+	[Address(RVA = "0x531E4E0", Offset = "0x531D4E0", VA = "0x531E4E0")]
 	public void Append(char c, int count)
 	{
 	}
 
-	[Token(Token = "0x6001739")]
-	[Address(RVA = "0x19A1460", Offset = "0x199FA60", VA = "0x1819A1460")]
+	[Token(Token = "0x6001711")]
+	[Address(RVA = "0x531E690", Offset = "0x531D690", VA = "0x531E690")]
 	public unsafe void Append(char* value, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600173A")]
-	[Address(RVA = "0x19A13A0", Offset = "0x199F9A0", VA = "0x1819A13A0")]
+	[Token(Token = "0x6001712")]
+	[Address(RVA = "0x531E7F0", Offset = "0x531D7F0", VA = "0x531E7F0")]
 	public Span<char> AppendSpan(int length)
 	{
 		return default(Span<char>);
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600173B")]
-	[Address(RVA = "0x19A18D0", Offset = "0x199FED0", VA = "0x1819A18D0")]
+	[Token(Token = "0x6001713")]
+	[Address(RVA = "0x531DF60", Offset = "0x531CF60", VA = "0x531DF60")]
 	private void GrowAndAppend(char c)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600173C")]
-	[Address(RVA = "0x19A1940", Offset = "0x199FF40", VA = "0x1819A1940")]
+	[Token(Token = "0x6001714")]
+	[Address(RVA = "0x531E180", Offset = "0x531D180", VA = "0x531E180")]
 	private void Grow(int requiredAdditionalCapacity)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600173D")]
-	[Address(RVA = "0x19A1830", Offset = "0x199FE30", VA = "0x1819A1830")]
+	[Token(Token = "0x6001715")]
+	[Address(RVA = "0x531E8A0", Offset = "0x531D8A0", VA = "0x531E8A0")]
 	public void Dispose()
 	{
 	}

@@ -16,19 +16,19 @@ namespace UnityEngine.Scripting.APIUpdating;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate)]
 public class MovedFromAttribute : Attribute
 {
-	[Token(Token = "0x4000753")]
+	[Token(Token = "0x4000751")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal MovedFromAttributeData data;
 
-	[Token(Token = "0x6001188")]
-	[Address(RVA = "0x2F4B540", Offset = "0x2F49B40", VA = "0x182F4B540")]
+	[Token(Token = "0x600119C")]
+	[Address(RVA = "0x6935C20", Offset = "0x6934C20", VA = "0x6935C20")]
 	public MovedFromAttribute(bool autoUpdateAPI, [Optional] string sourceNamespace, [Optional] string sourceAssembly, [Optional] string sourceClassName)
 	{
 	}
 
-	[Token(Token = "0x6001189")]
-	[Address(RVA = "0x2F4B5D0", Offset = "0x2F49BD0", VA = "0x182F4B5D0")]
+	[Token(Token = "0x600119D")]
+	[Address(RVA = "0x6935CA0", Offset = "0x6934CA0", VA = "0x6935CA0")]
 	public MovedFromAttribute(string sourceNamespace)
 	{
 	}

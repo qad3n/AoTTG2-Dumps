@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncTransformParentChangedTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000BC9")]
-	[Address(RVA = "0x29395C0", Offset = "0x2937BC0", VA = "0x1829395C0")]
+	[Address(RVA = "0x6300680", Offset = "0x62FF680", VA = "0x6300680")]
 	private void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6000BCA")]
-	[Address(RVA = "0x29392B0", Offset = "0x29378B0", VA = "0x1829392B0")]
+	[Address(RVA = "0x63006F0", Offset = "0x62FF6F0", VA = "0x63006F0")]
 	public IAsyncOnTransformParentChangedHandler GetOnTransformParentChangedAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BCB")]
-	[Address(RVA = "0x2939320", Offset = "0x2937920", VA = "0x182939320")]
+	[Address(RVA = "0x6300760", Offset = "0x62FF760", VA = "0x6300760")]
 	public IAsyncOnTransformParentChangedHandler GetOnTransformParentChangedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BCC")]
-	[Address(RVA = "0x29393A0", Offset = "0x29379A0", VA = "0x1829393A0")]
+	[Address(RVA = "0x63007D0", Offset = "0x62FF7D0", VA = "0x63007D0")]
 	public UniTask OnTransformParentChangedAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000BCD")]
-	[Address(RVA = "0x29394B0", Offset = "0x2937AB0", VA = "0x1829394B0")]
+	[Address(RVA = "0x63008C0", Offset = "0x62FF8C0", VA = "0x63008C0")]
 	public UniTask OnTransformParentChangedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000BCE")]
-	[Address(RVA = "0x2939630", Offset = "0x2937C30", VA = "0x182939630")]
+	[Address(RVA = "0x63009B0", Offset = "0x62FF9B0", VA = "0x63009B0")]
 	public AsyncTransformParentChangedTrigger()
 	{
 	}

@@ -31,7 +31,7 @@ public struct PhotonMessageInfo
 	public double timestamp
 	{
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x1D31480", Offset = "0x1D2FA80", VA = "0x181D31480")]
+		[Address(RVA = "0x56E6470", Offset = "0x56E5470", VA = "0x56E6470")]
 		get
 		{
 			return default(double);
@@ -42,7 +42,7 @@ public struct PhotonMessageInfo
 	public double SentServerTime
 	{
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x1D31480", Offset = "0x1D2FA80", VA = "0x181D31480")]
+		[Address(RVA = "0x56E6480", Offset = "0x56E5480", VA = "0x56E6480")]
 		get
 		{
 			return default(double);
@@ -53,7 +53,7 @@ public struct PhotonMessageInfo
 	public int SentServerTimestamp
 	{
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x56E6490", Offset = "0x56E5490", VA = "0x56E6490")]
 		get
 		{
 			return default(int);
@@ -61,13 +61,13 @@ public struct PhotonMessageInfo
 	}
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x1D31430", Offset = "0x1D2FA30", VA = "0x181D31430")]
+	[Address(RVA = "0x56D76B0", Offset = "0x56D66B0", VA = "0x56D76B0")]
 	public PhotonMessageInfo(Player player, int timestamp, PhotonView view)
 	{
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x1D313C0", Offset = "0x1D2F9C0", VA = "0x181D313C0", Slot = "3")]
+	[Address(RVA = "0x56E64A0", Offset = "0x56E54A0", VA = "0x56E64A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

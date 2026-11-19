@@ -14,12 +14,12 @@ namespace UnityEngine.Rendering;
 [Flags]
 public enum RenderTargetFlags
 {
-	[Token(Token = "0x40008D6")]
+	[Token(Token = "0x40008D4")]
 	None = 0,
-	[Token(Token = "0x40008D7")]
+	[Token(Token = "0x40008D5")]
 	ReadOnlyDepth = 1,
-	[Token(Token = "0x40008D8")]
+	[Token(Token = "0x40008D6")]
 	ReadOnlyStencil = 2,
-	[Token(Token = "0x40008D9")]
+	[Token(Token = "0x40008D7")]
 	ReadOnlyDepthStencil = ReadOnlyDepth | ReadOnlyStencil
 }

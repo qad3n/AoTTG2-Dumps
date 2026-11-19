@@ -21,7 +21,7 @@ public class MonoBehaviourPun : MonoBehaviour
 	public PhotonView photonView
 	{
 		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x1D2F680", Offset = "0x1D2DC80", VA = "0x181D2F680")]
+		[Address(RVA = "0x56E6140", Offset = "0x56E5140", VA = "0x56E6140")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ public class MonoBehaviourPun : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56E6210", Offset = "0x56E5210", VA = "0x56E6210")]
 	public MonoBehaviourPun()
 	{
 	}

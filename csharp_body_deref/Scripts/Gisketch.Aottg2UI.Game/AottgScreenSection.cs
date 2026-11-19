@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgScreenSection
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgScreenSection.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,90 +12,106 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002ED")]
+[Token(Token = "0x200034B")]
 public readonly struct AottgScreenSection
 {
-	[Token(Token = "0x4000EF3")]
+	[Token(Token = "0x4001089")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly Action<AottgUi, AottgScreenSectionContext> _buildContent;
 
-	[Token(Token = "0x4000EF4")]
+	[Token(Token = "0x400108A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private readonly Action<AottgUi, AottgScreenSectionContext> _buildHeaderActions;
 
-	[Token(Token = "0x4000EF5")]
+	[Token(Token = "0x400108B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly string Id;
 
-	[Token(Token = "0x4000EF6")]
+	[Token(Token = "0x400108C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-	public readonly string Label;
+	public readonly string Text;
 
-	[Token(Token = "0x4000EF7")]
+	[Token(Token = "0x400108D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public readonly string TextKey;
 
-	[Token(Token = "0x4000EF8")]
+	[Token(Token = "0x400108E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public readonly string Icon;
 
-	[Token(Token = "0x4000EF9")]
+	[Token(Token = "0x400108F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
-	public readonly string SearchTitle;
-
-	[Token(Token = "0x4000EFA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public readonly string Keywords;
 
-	[Token(Token = "0x4000EFB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4001090")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public readonly bool AutoAddKeywords;
 
-	[Token(Token = "0x4000EFC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x41")]
+	[Token(Token = "0x4001091")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x39")]
 	public readonly bool HideSearch;
 
-	[Token(Token = "0x4000EFD")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x42")]
+	[Token(Token = "0x4001092")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x3A")]
 	public readonly bool HideHeader;
 
-	[Token(Token = "0x17000202")]
+	[Token(Token = "0x1700023F")]
 	public bool HasHeaderActions
 	{
-		[Token(Token = "0x600124B")]
-		[Address(RVA = "0x1E2DAD0", Offset = "0x1E2C0D0", VA = "0x181E2DAD0")]
+		[Token(Token = "0x60014A1")]
+		[Address(RVA = "0x5815EE0", Offset = "0x5814EE0", VA = "0x5815EE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600124C")]
-	[Address(RVA = "0x1E2D750", Offset = "0x1E2BD50", VA = "0x181E2D750")]
-	public AottgScreenSection(string id, string label, string icon, Action<AottgUi> buildContent, [Optional] string textKey, [Optional] string keywords, [Optional][DefaultParameterValue(false)] bool autoAddKeywords, [Optional] string searchTitle, [Optional] Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch = false, bool hideHeader = false)
+	[Token(Token = "0x60014A2")]
+	[Address(RVA = "0x5815EF0", Offset = "0x5814EF0", VA = "0x5815EF0")]
+	public AottgScreenSection(string id, string textKey, string icon, Action<AottgUi> buildContent, [Optional] string keywords, [Optional][DefaultParameterValue(false)] bool autoAddKeywords, [Optional] Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch = false, bool hideHeader = false)
 	{
 	}
 
-	[Token(Token = "0x600124D")]
-	[Address(RVA = "0x1E2D890", Offset = "0x1E2BE90", VA = "0x181E2D890")]
-	public AottgScreenSection(string id, string label, string icon, Action<AottgUi, AottgScreenSectionContext> buildContent, [Optional] string textKey, [Optional] string keywords, [Optional][DefaultParameterValue(false)] bool autoAddKeywords, [Optional] string searchTitle, [Optional] Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch = false, bool hideHeader = false)
+	[Token(Token = "0x60014A3")]
+	[Address(RVA = "0x5816070", Offset = "0x5815070", VA = "0x5816070")]
+	public AottgScreenSection(string id, string textKey, string icon, Action<AottgUi, AottgScreenSectionContext> buildContent, [Optional] string keywords, [Optional][DefaultParameterValue(false)] bool autoAddKeywords, [Optional] Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch = false, bool hideHeader = false)
 	{
 	}
 
-	[Token(Token = "0x600124E")]
-	[Address(RVA = "0x1E2D680", Offset = "0x1E2BC80", VA = "0x181E2D680")]
+	[Token(Token = "0x60014A4")]
+	[Address(RVA = "0x5816130", Offset = "0x5815130", VA = "0x5816130")]
+	private AottgScreenSection(string id, string textKey, string text, string icon, Action<AottgUi, AottgScreenSectionContext> buildContent, string keywords, bool autoAddKeywords, Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch, bool hideHeader)
+	{
+	}
+
+	[Token(Token = "0x60014A5")]
+	[Address(RVA = "0x58162E0", Offset = "0x58152E0", VA = "0x58162E0")]
+	public static AottgScreenSection WithText(string id, string text, string icon, Action<AottgUi, AottgScreenSectionContext> buildContent, [Optional] string keywords, [Optional][DefaultParameterValue(false)] bool autoAddKeywords, [Optional] Action<AottgUi, AottgScreenSectionContext> buildHeaderActions, bool hideSearch = false, bool hideHeader = false)
+	{
+		return default(AottgScreenSection);
+	}
+
+	[Token(Token = "0x60014A6")]
+	[Address(RVA = "0x5815FB0", Offset = "0x5814FB0", VA = "0x5815FB0")]
+	private static Action<AottgUi, AottgScreenSectionContext> Adapt(Action<AottgUi> buildContent)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60014A7")]
+	[Address(RVA = "0x5816360", Offset = "0x5815360", VA = "0x5816360")]
 	public void Build(AottgUi ui, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600124F")]
-	[Address(RVA = "0x1E2D640", Offset = "0x1E2BC40", VA = "0x181E2D640")]
+	[Token(Token = "0x60014A8")]
+	[Address(RVA = "0x5816380", Offset = "0x5815380", VA = "0x5816380")]
 	public void BuildHeaderActions(AottgUi ui, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6001250")]
-	[Address(RVA = "0x1E2D6C0", Offset = "0x1E2BCC0", VA = "0x181E2D6C0")]
+	[Token(Token = "0x60014A9")]
+	[Address(RVA = "0x5816250", Offset = "0x5815250", VA = "0x5816250")]
 	private static string SafeId(string value)
 	{
 		return null;

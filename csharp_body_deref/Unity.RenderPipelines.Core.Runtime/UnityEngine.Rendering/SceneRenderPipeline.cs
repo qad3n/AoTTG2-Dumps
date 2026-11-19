@@ -13,7 +13,7 @@ namespace UnityEngine.Rendering;
 public class SceneRenderPipeline : MonoBehaviour
 {
 	[Token(Token = "0x6000E92")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x654F460", Offset = "0x654E460", VA = "0x654F460")]
 	public SceneRenderPipeline()
 	{
 	}

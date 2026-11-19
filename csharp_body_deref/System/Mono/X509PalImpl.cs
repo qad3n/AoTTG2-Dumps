@@ -14,7 +14,7 @@ namespace Mono;
 [Token(Token = "0x2000006")]
 internal abstract class X509PalImpl
 {
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000007")]
 	[FieldOffset(Offset = "0x0")]
 	private static byte[] signedData;
 
@@ -22,7 +22,7 @@ internal abstract class X509PalImpl
 	public bool SupportsLegacyBasicConstraintsExtension
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x5E2EA40", Offset = "0x5E2DA40", VA = "0x5E2EA40")]
 		get
 		{
 			return default(bool);
@@ -39,42 +39,42 @@ internal abstract class X509PalImpl
 	public abstract X509Certificate2Impl Import(X509Certificate cert);
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x24A78E0", Offset = "0x24A5EE0", VA = "0x1824A78E0")]
+	[Address(RVA = "0x5E2E830", Offset = "0x5E2D830", VA = "0x5E2E830")]
 	private static byte[] PEM(string type, byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x24A72C0", Offset = "0x24A58C0", VA = "0x1824A72C0")]
+	[Address(RVA = "0x5E2E940", Offset = "0x5E2D940", VA = "0x5E2E940")]
 	protected static byte[] ConvertData(byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x24A77A0", Offset = "0x24A5DA0", VA = "0x1824A77A0")]
+	[Address(RVA = "0x5E2DDD0", Offset = "0x5E2CDD0", VA = "0x5E2DDD0")]
 	internal X509Certificate2Impl ImportFallback(byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x24A71F0", Offset = "0x24A57F0", VA = "0x1824A71F0")]
+	[Address(RVA = "0x5E2E0D0", Offset = "0x5E2D0D0", VA = "0x5E2E0D0")]
 	internal X509Certificate2Impl ImportFallback(byte[] data, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x24A7480", Offset = "0x24A5A80", VA = "0x1824A7480")]
+	[Address(RVA = "0x5E2EA50", Offset = "0x5E2DA50", VA = "0x5E2EA50")]
 	public X509ContentType GetCertContentType(byte[] rawData)
 	{
 		return default(X509ContentType);
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5E2E820", Offset = "0x5E2D820", VA = "0x5E2E820")]
 	protected X509PalImpl()
 	{
 	}

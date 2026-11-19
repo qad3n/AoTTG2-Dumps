@@ -37,7 +37,7 @@ public class XmlSchemaObjectTable
 		internal XmlSchemaObject xso;
 
 		[Token(Token = "0x60016F7")]
-		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+		[Address(RVA = "0x602E440", Offset = "0x602D440", VA = "0x602E440")]
 		public XmlSchemaObjectEntry(XmlQualifiedName name, XmlSchemaObject value)
 		{
 		}
@@ -58,7 +58,7 @@ public class XmlSchemaObjectTable
 		public int Count
 		{
 			[Token(Token = "0x60016F9")]
-			[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "5")]
+			[Address(RVA = "0x602EC80", Offset = "0x602DC80", VA = "0x602EC80", Slot = "5")]
 			get
 			{
 				return default(int);
@@ -69,7 +69,7 @@ public class XmlSchemaObjectTable
 		public object SyncRoot
 		{
 			[Token(Token = "0x60016FA")]
-			[Address(RVA = "0x266EB00", Offset = "0x266D100", VA = "0x18266EB00", Slot = "6")]
+			[Address(RVA = "0x602EC90", Offset = "0x602DC90", VA = "0x602EC90", Slot = "6")]
 			get
 			{
 				return null;
@@ -80,7 +80,7 @@ public class XmlSchemaObjectTable
 		public bool IsSynchronized
 		{
 			[Token(Token = "0x60016FB")]
-			[Address(RVA = "0x266EAB0", Offset = "0x266D0B0", VA = "0x18266EAB0", Slot = "7")]
+			[Address(RVA = "0x602ED30", Offset = "0x602DD30", VA = "0x602ED30", Slot = "7")]
 			get
 			{
 				return default(bool);
@@ -88,19 +88,19 @@ public class XmlSchemaObjectTable
 		}
 
 		[Token(Token = "0x60016F8")]
-		[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
+		[Address(RVA = "0x602EB60", Offset = "0x602DB60", VA = "0x602EB60")]
 		internal ValuesCollection(List<XmlSchemaObjectEntry> entries, int size)
 		{
 		}
 
 		[Token(Token = "0x60016FC")]
-		[Address(RVA = "0x266E8E0", Offset = "0x266CEE0", VA = "0x18266E8E0", Slot = "4")]
+		[Address(RVA = "0x602EDD0", Offset = "0x602DDD0", VA = "0x602EDD0", Slot = "4")]
 		public void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x60016FD")]
-		[Address(RVA = "0x266EA20", Offset = "0x266D020", VA = "0x18266EA20", Slot = "8")]
+		[Address(RVA = "0x602EEE0", Offset = "0x602DEE0", VA = "0x602EEE0", Slot = "8")]
 		public IEnumerator GetEnumerator()
 		{
 			return null;
@@ -138,7 +138,7 @@ public class XmlSchemaObjectTable
 		public object Current
 		{
 			[Token(Token = "0x60016FF")]
-			[Address(RVA = "0x266F150", Offset = "0x266D750", VA = "0x18266F150", Slot = "5")]
+			[Address(RVA = "0x602EFA0", Offset = "0x602DFA0", VA = "0x602EFA0", Slot = "5")]
 			get
 			{
 				return null;
@@ -146,20 +146,20 @@ public class XmlSchemaObjectTable
 		}
 
 		[Token(Token = "0x60016FE")]
-		[Address(RVA = "0x266EB50", Offset = "0x266D150", VA = "0x18266EB50")]
+		[Address(RVA = "0x602EF50", Offset = "0x602DF50", VA = "0x602EF50")]
 		internal XSOEnumerator(List<XmlSchemaObjectEntry> entries, int size, EnumeratorType enumType)
 		{
 		}
 
 		[Token(Token = "0x6001700")]
-		[Address(RVA = "0x266F030", Offset = "0x266D630", VA = "0x18266F030", Slot = "4")]
+		[Address(RVA = "0x602F150", Offset = "0x602E150", VA = "0x602F150", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001701")]
-		[Address(RVA = "0x266F110", Offset = "0x266D710", VA = "0x18266F110", Slot = "6")]
+		[Address(RVA = "0x602F220", Offset = "0x602E220", VA = "0x602F220", Slot = "6")]
 		public void Reset()
 		{
 		}
@@ -172,7 +172,7 @@ public class XmlSchemaObjectTable
 		public DictionaryEntry Entry
 		{
 			[Token(Token = "0x6001703")]
-			[Address(RVA = "0x266EBA0", Offset = "0x266D1A0", VA = "0x18266EBA0", Slot = "9")]
+			[Address(RVA = "0x602F260", Offset = "0x602E260", VA = "0x602F260", Slot = "9")]
 			get
 			{
 				return default(DictionaryEntry);
@@ -183,7 +183,7 @@ public class XmlSchemaObjectTable
 		public object Key
 		{
 			[Token(Token = "0x6001704")]
-			[Address(RVA = "0x266ED30", Offset = "0x266D330", VA = "0x18266ED30", Slot = "7")]
+			[Address(RVA = "0x602F3B0", Offset = "0x602E3B0", VA = "0x602F3B0", Slot = "7")]
 			get
 			{
 				return null;
@@ -194,7 +194,7 @@ public class XmlSchemaObjectTable
 		public object Value
 		{
 			[Token(Token = "0x6001705")]
-			[Address(RVA = "0x266EEB0", Offset = "0x266D4B0", VA = "0x18266EEB0", Slot = "8")]
+			[Address(RVA = "0x602F4E0", Offset = "0x602E4E0", VA = "0x602F4E0", Slot = "8")]
 			get
 			{
 				return null;
@@ -202,7 +202,7 @@ public class XmlSchemaObjectTable
 		}
 
 		[Token(Token = "0x6001702")]
-		[Address(RVA = "0x266EB50", Offset = "0x266D150", VA = "0x18266EB50")]
+		[Address(RVA = "0x602EC30", Offset = "0x602DC30", VA = "0x602EC30")]
 		internal XSODictionaryEnumerator(List<XmlSchemaObjectEntry> entries, int size, EnumeratorType enumType)
 		{
 		}
@@ -220,7 +220,7 @@ public class XmlSchemaObjectTable
 	public int Count
 	{
 		[Token(Token = "0x60016F2")]
-		[Address(RVA = "0x2676180", Offset = "0x2674780", VA = "0x182676180")]
+		[Address(RVA = "0x602E9D0", Offset = "0x602D9D0", VA = "0x602E9D0")]
 		get
 		{
 			return default(int);
@@ -231,7 +231,7 @@ public class XmlSchemaObjectTable
 	public XmlSchemaObject this[XmlQualifiedName name]
 	{
 		[Token(Token = "0x60016F4")]
-		[Address(RVA = "0x26761D0", Offset = "0x26747D0", VA = "0x1826761D0")]
+		[Address(RVA = "0x602EA60", Offset = "0x602DA60", VA = "0x602EA60")]
 		get
 		{
 			return null;
@@ -242,7 +242,7 @@ public class XmlSchemaObjectTable
 	public ICollection Values
 	{
 		[Token(Token = "0x60016F5")]
-		[Address(RVA = "0x2676250", Offset = "0x2674850", VA = "0x182676250")]
+		[Address(RVA = "0x602EAD0", Offset = "0x602DAD0", VA = "0x602EAD0")]
 		get
 		{
 			return null;
@@ -250,57 +250,57 @@ public class XmlSchemaObjectTable
 	}
 
 	[Token(Token = "0x60016EB")]
-	[Address(RVA = "0x26760C0", Offset = "0x26746C0", VA = "0x1826760C0")]
+	[Address(RVA = "0x602E270", Offset = "0x602D270", VA = "0x602E270")]
 	internal XmlSchemaObjectTable()
 	{
 	}
 
 	[Token(Token = "0x60016EC")]
-	[Address(RVA = "0x26759F0", Offset = "0x2673FF0", VA = "0x1826759F0")]
+	[Address(RVA = "0x602E330", Offset = "0x602D330", VA = "0x602E330")]
 	internal void Add(XmlQualifiedName name, XmlSchemaObject value)
 	{
 	}
 
 	[Token(Token = "0x60016ED")]
-	[Address(RVA = "0x2675D80", Offset = "0x2674380", VA = "0x182675D80")]
+	[Address(RVA = "0x602E470", Offset = "0x602D470", VA = "0x602E470")]
 	internal void Insert(XmlQualifiedName name, XmlSchemaObject value)
 	{
 	}
 
 	[Token(Token = "0x60016EE")]
-	[Address(RVA = "0x2675F90", Offset = "0x2674590", VA = "0x182675F90")]
+	[Address(RVA = "0x602E6A0", Offset = "0x602D6A0", VA = "0x602E6A0")]
 	internal void Replace(XmlQualifiedName name, XmlSchemaObject value)
 	{
 	}
 
 	[Token(Token = "0x60016EF")]
-	[Address(RVA = "0x2675B20", Offset = "0x2674120", VA = "0x182675B20")]
+	[Address(RVA = "0x602E830", Offset = "0x602D830", VA = "0x602E830")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x60016F0")]
-	[Address(RVA = "0x2675ED0", Offset = "0x26744D0", VA = "0x182675ED0")]
+	[Address(RVA = "0x602E8B0", Offset = "0x602D8B0", VA = "0x602E8B0")]
 	internal void Remove(XmlQualifiedName name)
 	{
 	}
 
 	[Token(Token = "0x60016F1")]
-	[Address(RVA = "0x2675C10", Offset = "0x2674210", VA = "0x182675C10")]
+	[Address(RVA = "0x602E610", Offset = "0x602D610", VA = "0x602E610")]
 	private int FindIndexByValue(XmlSchemaObject xso)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60016F3")]
-	[Address(RVA = "0x2675BB0", Offset = "0x26741B0", VA = "0x182675BB0")]
+	[Address(RVA = "0x602EA10", Offset = "0x602DA10", VA = "0x602EA10")]
 	public bool Contains(XmlQualifiedName name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60016F6")]
-	[Address(RVA = "0x2675CD0", Offset = "0x26742D0", VA = "0x182675CD0")]
+	[Address(RVA = "0x602EB90", Offset = "0x602DB90", VA = "0x602EB90")]
 	public IDictionaryEnumerator GetEnumerator()
 	{
 		return null;

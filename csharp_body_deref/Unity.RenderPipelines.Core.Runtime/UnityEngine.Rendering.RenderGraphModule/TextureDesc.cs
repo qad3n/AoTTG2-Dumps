@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.TextureDesc
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -137,13 +137,13 @@ public struct TextureDesc
 	public DepthBits depthBufferBits
 	{
 		[Token(Token = "0x60012D7")]
-		[Address(RVA = "0x2BA6C20", Offset = "0x2BA5220", VA = "0x182BA6C20")]
+		[Address(RVA = "0x6586060", Offset = "0x6585060", VA = "0x6586060")]
 		get
 		{
 			return default(DepthBits);
 		}
 		[Token(Token = "0x60012D8")]
-		[Address(RVA = "0x2BA6C70", Offset = "0x2BA5270", VA = "0x182BA6C70")]
+		[Address(RVA = "0x65860B0", Offset = "0x65850B0", VA = "0x65860B0")]
 		set
 		{
 		}
@@ -153,69 +153,69 @@ public struct TextureDesc
 	public GraphicsFormat colorFormat
 	{
 		[Token(Token = "0x60012D9")]
-		[Address(RVA = "0x2BA6BB0", Offset = "0x2BA51B0", VA = "0x182BA6BB0")]
+		[Address(RVA = "0x6586140", Offset = "0x6585140", VA = "0x6586140")]
 		get
 		{
 			return default(GraphicsFormat);
 		}
 		[Token(Token = "0x60012DA")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x65861A0", Offset = "0x65851A0", VA = "0x65861A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60012DB")]
-	[Address(RVA = "0x2BA66F0", Offset = "0x2BA4CF0", VA = "0x182BA66F0")]
+	[Address(RVA = "0x65861B0", Offset = "0x65851B0", VA = "0x65861B0")]
 	private void InitDefaultValues(bool dynamicResolution, bool xrReady)
 	{
 	}
 
 	[Token(Token = "0x60012DC")]
-	[Address(RVA = "0x2BA68B0", Offset = "0x2BA4EB0", VA = "0x182BA68B0")]
+	[Address(RVA = "0x6586290", Offset = "0x6585290", VA = "0x6586290")]
 	public TextureDesc(int width, int height, bool dynamicResolution = false, bool xrReady = false)
 	{
 	}
 
 	[Token(Token = "0x60012DD")]
-	[Address(RVA = "0x2BA6980", Offset = "0x2BA4F80", VA = "0x182BA6980")]
+	[Address(RVA = "0x65862D0", Offset = "0x65852D0", VA = "0x65862D0")]
 	public TextureDesc(Vector2 scale, bool dynamicResolution = false, bool xrReady = false)
 	{
 	}
 
 	[Token(Token = "0x60012DE")]
-	[Address(RVA = "0x2BA6900", Offset = "0x2BA4F00", VA = "0x182BA6900")]
+	[Address(RVA = "0x6586310", Offset = "0x6585310", VA = "0x6586310")]
 	public TextureDesc(ScaleFunc func, bool dynamicResolution = false, bool xrReady = false)
 	{
 	}
 
 	[Token(Token = "0x60012DF")]
-	[Address(RVA = "0x2BA69E0", Offset = "0x2BA4FE0", VA = "0x182BA69E0")]
+	[Address(RVA = "0x6586380", Offset = "0x6585380", VA = "0x6586380")]
 	public TextureDesc(TextureDesc input)
 	{
 	}
 
 	[Token(Token = "0x60012E0")]
-	[Address(RVA = "0x2BA6A30", Offset = "0x2BA5030", VA = "0x182BA6A30")]
+	[Address(RVA = "0x65863E0", Offset = "0x65853E0", VA = "0x65863E0")]
 	public TextureDesc(RenderTextureDescriptor input)
 	{
 	}
 
 	[Token(Token = "0x60012E1")]
-	[Address(RVA = "0x2BA67C0", Offset = "0x2BA4DC0", VA = "0x182BA67C0")]
+	[Address(RVA = "0x6580F10", Offset = "0x657FF10", VA = "0x6580F10")]
 	public TextureDesc(RenderTexture input)
 	{
 	}
 
 	[Token(Token = "0x60012E2")]
-	[Address(RVA = "0x2BA6550", Offset = "0x2BA4B50", VA = "0x182BA6550", Slot = "2")]
+	[Address(RVA = "0x6586550", Offset = "0x6585550", VA = "0x6586550", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012E3")]
-	[Address(RVA = "0x2BA6450", Offset = "0x2BA4A50", VA = "0x182BA6450")]
+	[Address(RVA = "0x6581F40", Offset = "0x6580F40", VA = "0x6581F40")]
 	public Vector2Int CalculateFinalDimensions()
 	{
 		return default(Vector2Int);

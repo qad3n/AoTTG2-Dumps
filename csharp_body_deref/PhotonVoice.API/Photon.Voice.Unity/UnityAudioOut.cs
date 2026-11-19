@@ -10,54 +10,54 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000AA")]
 public class UnityAudioOut : AudioOutDelayControl<float>
 {
-	[Token(Token = "0x40002D4")]
+	[Token(Token = "0x40002C6")]
 	[FieldOffset(Offset = "0xB0")]
 	protected readonly AudioSource source;
 
-	[Token(Token = "0x40002D5")]
+	[Token(Token = "0x40002C7")]
 	[FieldOffset(Offset = "0xB8")]
 	protected AudioClip clip;
 
-	[Token(Token = "0x17000102")]
+	[Token(Token = "0x170000FF")]
 	public override long OutPos
 	{
-		[Token(Token = "0x60003C2")]
-		[Address(RVA = "0x1D87300", Offset = "0x1D85900", VA = "0x181D87300", Slot = "11")]
+		[Token(Token = "0x60003AA")]
+		[Address(RVA = "0x5724880", Offset = "0x5723880", VA = "0x5724880", Slot = "11")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x1D871F0", Offset = "0x1D857F0", VA = "0x181D871F0")]
+	[Token(Token = "0x60003A9")]
+	[Address(RVA = "0x5724770", Offset = "0x5723770", VA = "0x5724770")]
 	public UnityAudioOut(AudioSource audioSource, PlayDelayConfig playDelayConfig, ILogger logger, string logPrefix, bool debugInfo)
 	{
 	}
 
-	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x1D87010", Offset = "0x1D85610", VA = "0x181D87010", Slot = "12")]
+	[Token(Token = "0x60003AB")]
+	[Address(RVA = "0x57248A0", Offset = "0x57238A0", VA = "0x57248A0", Slot = "12")]
 	public override void OutCreate(int frequency, int channels, int bufferSamples)
 	{
 	}
 
-	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x1D870C0", Offset = "0x1D856C0", VA = "0x181D870C0", Slot = "13")]
+	[Token(Token = "0x60003AC")]
+	[Address(RVA = "0x5724950", Offset = "0x5723950", VA = "0x5724950", Slot = "13")]
 	public override void OutStart()
 	{
 	}
 
-	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x1D870F0", Offset = "0x1D856F0", VA = "0x181D870F0", Slot = "14")]
+	[Token(Token = "0x60003AD")]
+	[Address(RVA = "0x5724970", Offset = "0x5723970", VA = "0x5724970", Slot = "14")]
 	public override void OutWrite(float[] data, int offsetSamples)
 	{
 	}
 
-	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x1D87120", Offset = "0x1D85720", VA = "0x181D87120", Slot = "15")]
+	[Token(Token = "0x60003AE")]
+	[Address(RVA = "0x5724990", Offset = "0x5723990", VA = "0x5724990", Slot = "15")]
 	public override void Stop()
 	{
 	}

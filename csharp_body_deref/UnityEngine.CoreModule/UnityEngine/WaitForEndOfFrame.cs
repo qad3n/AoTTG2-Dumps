@@ -10,12 +10,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001C6")]
+[Token(Token = "0x20001C7")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class WaitForEndOfFrame : YieldInstruction
 {
-	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000EF6")]
+	[Address(RVA = "0x6923F40", Offset = "0x6922F40", VA = "0x6923F40")]
 	public WaitForEndOfFrame()
 	{
 	}

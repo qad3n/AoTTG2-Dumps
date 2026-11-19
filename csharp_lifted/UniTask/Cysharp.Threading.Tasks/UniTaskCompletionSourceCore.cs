@@ -1,0 +1,134 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskCompletionSourceCore
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Threading;
+using Il2CppDummyDll;
+
+namespace Cysharp.Threading.Tasks;
+
+[StructLayout((LayoutKind)3)]
+[Token(Token = "0x200011D")]
+public struct UniTaskCompletionSourceCore<TResult>
+{
+	[Token(Token = "0x4000432")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private TResult result;
+
+	[Token(Token = "0x4000433")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private object error;
+
+	[Token(Token = "0x4000434")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private short version;
+
+	[Token(Token = "0x4000435")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private bool hasUnhandledError;
+
+	[Token(Token = "0x4000436")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private int completedCount;
+
+	[Token(Token = "0x4000437")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private Action<object> continuation;
+
+	[Token(Token = "0x4000438")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private object continuationState;
+
+	[Token(Token = "0x1700004F")]
+	[DebuggerHidden]
+	public short Version
+	{
+		[Token(Token = "0x60006D8")]
+		get
+		{
+			return default(short);
+		}
+	}
+
+	[Token(Token = "0x60006D2")]
+	[DebuggerHidden]
+	public void Reset()
+	{
+	}
+
+	[Token(Token = "0x60006D3")]
+	private void ReportUnhandledError()
+	{
+	}
+
+	[Token(Token = "0x60006D4")]
+	internal void MarkHandled()
+	{
+	}
+
+	[Token(Token = "0x60006D5")]
+	[DebuggerHidden]
+	public bool TrySetResult(TResult result)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60006D6")]
+	[DebuggerHidden]
+	public bool TrySetException(Exception error)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60006D7")]
+	[DebuggerHidden]
+	public bool TrySetCanceled([Optional] CancellationToken cancellationToken)
+	{
+		return default(bool);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60006D9")]
+	[DebuggerHidden]
+	public UniTaskStatus GetStatus(short token)
+	{
+		return default(UniTaskStatus);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60006DA")]
+	[DebuggerHidden]
+	public UniTaskStatus UnsafeGetStatus()
+	{
+		return default(UniTaskStatus);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60006DB")]
+	[DebuggerHidden]
+	public TResult GetResult(short token)
+	{
+		return (TResult)null;
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60006DC")]
+	[DebuggerHidden]
+	public void OnCompleted(Action<object> continuation, object state, short token)
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60006DD")]
+	[DebuggerHidden]
+	private void ValidateToken(short token)
+	{
+	}
+}

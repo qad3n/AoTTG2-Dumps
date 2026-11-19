@@ -31,7 +31,7 @@ public class LayoutRebuilder : ICanvasElement
 	public Transform transform
 	{
 		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
+		[Address(RVA = "0x6CE2A60", Offset = "0x6CE1A60", VA = "0x6CE2A60", Slot = "5")]
 		get
 		{
 			return null;
@@ -39,120 +39,120 @@ public class LayoutRebuilder : ICanvasElement
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x32D36B0", Offset = "0x32D1CB0", VA = "0x1832D36B0")]
+	[Address(RVA = "0x6CE27E0", Offset = "0x6CE17E0", VA = "0x6CE27E0")]
 	private void Initialize(RectTransform controller)
 	{
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x32D3520", Offset = "0x32D1B20", VA = "0x1832D3520")]
+	[Address(RVA = "0x6CE2820", Offset = "0x6CE1820", VA = "0x6CE2820")]
 	private void Clear()
 	{
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x32D4B90", Offset = "0x32D3190", VA = "0x1832D4B90")]
+	[Address(RVA = "0x6CE2840", Offset = "0x6CE1840", VA = "0x6CE2840")]
 	static LayoutRebuilder()
 	{
 	}
 
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x32D4480", Offset = "0x32D2A80", VA = "0x1832D4480")]
+	[Address(RVA = "0x6CE2A00", Offset = "0x6CE1A00", VA = "0x6CE2A00")]
 	private static void ReapplyDrivenProperties(RectTransform driven)
 	{
 	}
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x32D3700", Offset = "0x32D1D00", VA = "0x1832D3700", Slot = "8")]
+	[Address(RVA = "0x6CE2A70", Offset = "0x6CE1A70", VA = "0x6CE2A70", Slot = "8")]
 	public bool IsDestroyed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x32D4820", Offset = "0x32D2E20", VA = "0x1832D4820")]
+	[Address(RVA = "0x6CE2AC0", Offset = "0x6CE1AC0", VA = "0x6CE2AC0")]
 	private static void StripDisabledBehavioursFromList(List<Component> components)
 	{
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x32D35B0", Offset = "0x32D1BB0", VA = "0x1832D35B0")]
+	[Address(RVA = "0x6CE2C10", Offset = "0x6CE1C10", VA = "0x6CE2C10")]
 	public static void ForceRebuildLayoutImmediate(RectTransform layoutRoot)
 	{
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x32D44D0", Offset = "0x32D2AD0", VA = "0x1832D44D0", Slot = "4")]
+	[Address(RVA = "0x6CE2D20", Offset = "0x6CE1D20", VA = "0x6CE2D20", Slot = "4")]
 	public void Rebuild(CanvasUpdate executing)
 	{
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x32D40E0", Offset = "0x32D26E0", VA = "0x1832D40E0")]
+	[Address(RVA = "0x6CE3300", Offset = "0x6CE2300", VA = "0x6CE3300")]
 	private void PerformLayoutControl(RectTransform rect, UnityAction<Component> action)
 	{
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x32D3E60", Offset = "0x32D2460", VA = "0x1832D3E60")]
+	[Address(RVA = "0x6CE3050", Offset = "0x6CE2050", VA = "0x6CE3050")]
 	private void PerformLayoutCalculation(RectTransform rect, UnityAction<Component> action)
 	{
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x32D37D0", Offset = "0x32D1DD0", VA = "0x1832D37D0")]
+	[Address(RVA = "0x6CDC690", Offset = "0x6CDB690", VA = "0x6CDC690")]
 	public static void MarkLayoutForRebuild(RectTransform rect)
 	{
 	}
 
 	[Token(Token = "0x6000315")]
-	[Address(RVA = "0x32D49A0", Offset = "0x32D2FA0", VA = "0x1832D49A0")]
+	[Address(RVA = "0x6CE3710", Offset = "0x6CE2710", VA = "0x6CE3710")]
 	private static bool ValidController(RectTransform layoutRoot, List<Component> comps)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x32D3CF0", Offset = "0x32D22F0", VA = "0x1832D3CF0")]
+	[Address(RVA = "0x6CE38D0", Offset = "0x6CE28D0", VA = "0x6CE38D0")]
 	private static void MarkLayoutRootForRebuild(RectTransform controller)
 	{
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x32D3750", Offset = "0x32D1D50", VA = "0x1832D3750", Slot = "6")]
+	[Address(RVA = "0x6CE3A40", Offset = "0x6CE2A40", VA = "0x6CE3A40", Slot = "6")]
 	public void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x6000318")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x6CE3AE0", Offset = "0x6CE2AE0", VA = "0x6CE3AE0", Slot = "7")]
 	public void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x6000319")]
-	[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "2")]
+	[Address(RVA = "0x6CE3AF0", Offset = "0x6CE2AF0", VA = "0x6CE3AF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600031A")]
-	[Address(RVA = "0x32D3550", Offset = "0x32D1B50", VA = "0x1832D3550", Slot = "0")]
+	[Address(RVA = "0x6CE3B00", Offset = "0x6CE2B00", VA = "0x6CE3B00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031B")]
-	[Address(RVA = "0x32D4940", Offset = "0x32D2F40", VA = "0x1832D4940", Slot = "3")]
+	[Address(RVA = "0x6CE3B50", Offset = "0x6CE2B50", VA = "0x6CE3B50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600031C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6CE3BB0", Offset = "0x6CE2BB0", VA = "0x6CE3BB0")]
 	public LayoutRebuilder()
 	{
 	}

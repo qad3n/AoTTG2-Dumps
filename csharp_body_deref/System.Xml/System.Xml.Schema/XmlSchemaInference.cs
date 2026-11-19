@@ -146,13 +146,13 @@ public sealed class XmlSchemaInference
 	public InferenceOption Occurrence
 	{
 		[Token(Token = "0x600125F")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x5FBFB70", Offset = "0x5FBEB70", VA = "0x5FBFB70")]
 		get
 		{
 			return default(InferenceOption);
 		}
 		[Token(Token = "0x600125E")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x5FBFB60", Offset = "0x5FBEB60", VA = "0x5FBFB60")]
 		set
 		{
 		}
@@ -162,182 +162,182 @@ public sealed class XmlSchemaInference
 	public InferenceOption TypeInference
 	{
 		[Token(Token = "0x6001260")]
-		[Address(RVA = "0x58A9A0", Offset = "0x588FA0", VA = "0x18058A9A0")]
+		[Address(RVA = "0x5FBFB80", Offset = "0x5FBEB80", VA = "0x5FBFB80")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001261")]
-	[Address(RVA = "0x261C360", Offset = "0x261A960", VA = "0x18261C360")]
+	[Address(RVA = "0x5FBFB90", Offset = "0x5FBEB90", VA = "0x5FBFB90")]
 	public XmlSchemaInference()
 	{
 	}
 
 	[Token(Token = "0x6001262")]
-	[Address(RVA = "0x2618690", Offset = "0x2616C90", VA = "0x182618690")]
+	[Address(RVA = "0x5FBFCC0", Offset = "0x5FBECC0", VA = "0x5FBFCC0")]
 	public XmlSchemaSet InferSchema(XmlReader instanceDocument)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001263")]
-	[Address(RVA = "0x2617E30", Offset = "0x2616430", VA = "0x182617E30")]
+	[Address(RVA = "0x5FBFD30", Offset = "0x5FBED30", VA = "0x5FBFD30")]
 	internal XmlSchemaSet InferSchema1(XmlReader instanceDocument, XmlSchemaSet schemas)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001264")]
-	[Address(RVA = "0x2612330", Offset = "0x2610930", VA = "0x182612330")]
+	[Address(RVA = "0x5FC2760", Offset = "0x5FC1760", VA = "0x5FC2760")]
 	private XmlSchemaAttribute AddAttribute(string localName, string prefix, string childURI, string attrValue, bool bCreatingNewType, XmlSchema parentSchema, XmlSchemaObjectCollection addLocation, XmlSchemaObjectTable compiledAttributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001265")]
-	[Address(RVA = "0x2613780", Offset = "0x2611D80", VA = "0x182613780")]
+	[Address(RVA = "0x5FC53E0", Offset = "0x5FC43E0", VA = "0x5FC53E0")]
 	private XmlSchema CreateXmlSchema(string targetNS)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001266")]
-	[Address(RVA = "0x2612C80", Offset = "0x2611280", VA = "0x182612C80")]
+	[Address(RVA = "0x5FC0870", Offset = "0x5FBF870", VA = "0x5FC0870")]
 	private XmlSchemaElement AddElement(string localName, string prefix, string childURI, XmlSchema parentSchema, XmlSchemaObjectCollection addLocation, int positionWithinCollection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001267")]
-	[Address(RVA = "0x2616260", Offset = "0x2614860", VA = "0x182616260")]
+	[Address(RVA = "0x5FC0F10", Offset = "0x5FBFF10", VA = "0x5FC0F10")]
 	internal void InferElement(XmlSchemaElement xse, bool bCreatingNewType, XmlSchema parentSchema)
 	{
 	}
 
 	[Token(Token = "0x6001268")]
-	[Address(RVA = "0x2613350", Offset = "0x2611950", VA = "0x182613350")]
+	[Address(RVA = "0x5FC6270", Offset = "0x5FC5270", VA = "0x5FC6270")]
 	private XmlSchemaSimpleContentExtension CheckSimpleContentExtension(XmlSchemaComplexType ct)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001269")]
-	[Address(RVA = "0x2615660", Offset = "0x2613C60", VA = "0x182615660")]
+	[Address(RVA = "0x5FC5830", Offset = "0x5FC4830", VA = "0x5FC5830")]
 	private XmlSchemaType GetEffectiveSchemaType(XmlSchemaElement elem, bool bCreatingNewType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600126A")]
-	[Address(RVA = "0x26141B0", Offset = "0x26127B0", VA = "0x1826141B0")]
+	[Address(RVA = "0x5FC6840", Offset = "0x5FC5840", VA = "0x5FC6840")]
 	internal XmlSchemaElement FindMatchingElement(bool bCreatingNewType, XmlReader xtr, XmlSchemaComplexType ct, ref int lastUsedSeqItem, ref bool bParticleChanged, XmlSchema parentSchema, bool setMaxoccurs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600126B")]
-	[Address(RVA = "0x2619C80", Offset = "0x2618280", VA = "0x182619C80")]
+	[Address(RVA = "0x5FC5980", Offset = "0x5FC4980", VA = "0x5FC5980")]
 	internal void ProcessAttributes(ref XmlSchemaElement xse, XmlSchemaType effectiveSchemaType, bool bCreatingNewType, XmlSchema parentSchema)
 	{
 	}
 
 	[Token(Token = "0x600126C")]
-	[Address(RVA = "0x2619920", Offset = "0x2617F20", VA = "0x182619920")]
+	[Address(RVA = "0x5FC6790", Offset = "0x5FC5790", VA = "0x5FC6790")]
 	private void MoveAttributes(XmlSchemaSimpleContentExtension scExtension, XmlSchemaComplexType ct)
 	{
 	}
 
 	[Token(Token = "0x600126D")]
-	[Address(RVA = "0x26199B0", Offset = "0x2617FB0", VA = "0x1826199B0")]
+	[Address(RVA = "0x5FC6390", Offset = "0x5FC5390", VA = "0x5FC6390")]
 	private void MoveAttributes(XmlSchemaComplexType ct, XmlSchemaSimpleContentExtension simpleContentExtension, bool bCreatingNewType)
 	{
 	}
 
 	[Token(Token = "0x600126E")]
-	[Address(RVA = "0x2613B30", Offset = "0x2612130", VA = "0x182613B30")]
+	[Address(RVA = "0x5FC34A0", Offset = "0x5FC24A0", VA = "0x5FC34A0")]
 	internal XmlSchemaAttribute FindAttribute(ICollection attributes, string attrName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600126F")]
-	[Address(RVA = "0x2613FA0", Offset = "0x26125A0", VA = "0x182613FA0")]
+	[Address(RVA = "0x5FC5470", Offset = "0x5FC4470", VA = "0x5FC5470")]
 	internal XmlSchemaElement FindGlobalElement(string namespaceURI, string localName, out XmlSchema parentSchema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001270")]
-	[Address(RVA = "0x2613E80", Offset = "0x2612480", VA = "0x182613E80")]
+	[Address(RVA = "0x5FC7AB0", Offset = "0x5FC6AB0", VA = "0x5FC7AB0")]
 	internal XmlSchemaElement FindElement(XmlSchemaObjectCollection elements, string elementName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001271")]
-	[Address(RVA = "0x26138F0", Offset = "0x2611EF0", VA = "0x1826138F0")]
+	[Address(RVA = "0x5FC30B0", Offset = "0x5FC20B0", VA = "0x5FC30B0")]
 	internal XmlSchemaAttribute FindAttributeRef(ICollection attributes, string attributeName, string nsURI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001272")]
-	[Address(RVA = "0x2613D30", Offset = "0x2612330", VA = "0x182613D30")]
+	[Address(RVA = "0x5FC7BF0", Offset = "0x5FC6BF0", VA = "0x5FC7BF0")]
 	internal XmlSchemaElement FindElementRef(XmlSchemaObjectCollection elements, string elementName, string nsURI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001273")]
-	[Address(RVA = "0x2619850", Offset = "0x2617E50", VA = "0x182619850")]
+	[Address(RVA = "0x5FC61E0", Offset = "0x5FC51E0", VA = "0x5FC61E0")]
 	internal void MakeExistingAttributesOptional(XmlSchemaComplexType ct, XmlSchemaObjectCollection attributesInInstance)
 	{
 	}
 
 	[Token(Token = "0x6001274")]
-	[Address(RVA = "0x261B330", Offset = "0x2619930", VA = "0x18261B330")]
+	[Address(RVA = "0x5FC8060", Offset = "0x5FC7060", VA = "0x5FC8060")]
 	private void SwitchUseToOptional(XmlSchemaObjectCollection attributes, XmlSchemaObjectCollection attributesInInstance)
 	{
 	}
 
 	[Token(Token = "0x6001275")]
-	[Address(RVA = "0x261A460", Offset = "0x2618A60", VA = "0x18261A460")]
+	[Address(RVA = "0x5FC3830", Offset = "0x5FC2830", VA = "0x5FC3830")]
 	internal XmlQualifiedName RefineSimpleType(string s, ref int iTypeFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001276")]
-	[Address(RVA = "0x2618700", Offset = "0x2616D00", VA = "0x182618700")]
+	[Address(RVA = "0x5FC8200", Offset = "0x5FC7200", VA = "0x5FC8200")]
 	internal static int InferSimpleType(string s, ref bool bNeedsRangeCheck)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001277")]
-	[Address(RVA = "0x2613820", Offset = "0x2611E20", VA = "0x182613820")]
+	[Address(RVA = "0x5FC95C0", Offset = "0x5FC85C0", VA = "0x5FC95C0")]
 	internal static int DateTime(string s, bool bDate, bool bTime)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001278")]
-	[Address(RVA = "0x26134D0", Offset = "0x2611AD0", VA = "0x1826134D0")]
+	[Address(RVA = "0x5FC7D50", Offset = "0x5FC6D50", VA = "0x5FC7D50")]
 	private XmlSchemaElement CreateNewElementforChoice(XmlSchemaElement copyElement)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001279")]
-	[Address(RVA = "0x26157F0", Offset = "0x2613DF0", VA = "0x1826157F0")]
+	[Address(RVA = "0x5FC4B50", Offset = "0x5FC3B50", VA = "0x5FC4B50")]
 	private static int GetSchemaType(XmlQualifiedName qname)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600127A")]
-	[Address(RVA = "0x261B150", Offset = "0x2619750", VA = "0x18261B150")]
+	[Address(RVA = "0x5FC7900", Offset = "0x5FC6900", VA = "0x5FC7900")]
 	internal void SetMinMaxOccurs(XmlSchemaElement el, bool setMaxOccurs)
 	{
 	}

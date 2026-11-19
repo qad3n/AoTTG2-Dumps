@@ -13,62 +13,62 @@ using Il2CppDummyDll;
 namespace System.Security;
 
 [Serializable]
-[Token(Token = "0x20002D0")]
-[ComVisible(true)]
+[Token(Token = "0x20002A9")]
 [System.MonoTODO("CAS support is experimental (and unsupported).")]
+[ComVisible(true)]
 public abstract class CodeAccessPermission : IPermission, ISecurityEncodable
 {
-	[Token(Token = "0x60017D8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60017B5")]
+	[Address(RVA = "0x5327170", Offset = "0x5326170", VA = "0x5327170")]
 	protected CodeAccessPermission()
 	{
 	}
 
-	[Token(Token = "0x60017D9")]
-	[Address(RVA = "0x198AB20", Offset = "0x1989120", VA = "0x18198AB20", Slot = "7")]
+	[Token(Token = "0x60017B6")]
+	[Address(RVA = "0x5327180", Offset = "0x5326180", VA = "0x5327180", Slot = "7")]
 	[Conditional("MONO_FEATURE_CAS")]
 	public void Demand()
 	{
 	}
 
-	[Token(Token = "0x60017DA")]
-	[Address(RVA = "0x198AB50", Offset = "0x1989150", VA = "0x18198AB50", Slot = "0")]
+	[Token(Token = "0x60017B7")]
+	[Address(RVA = "0x53272C0", Offset = "0x53262C0", VA = "0x53272C0", Slot = "0")]
 	[ComVisible(false)]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017DB")]
-	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
+	[Token(Token = "0x60017B8")]
+	[Address(RVA = "0x53273D0", Offset = "0x53263D0", VA = "0x53273D0", Slot = "2")]
 	[ComVisible(false)]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60017DC")]
+	[Token(Token = "0x60017B9")]
 	public abstract bool IsSubsetOf(IPermission target);
 
-	[Token(Token = "0x60017DD")]
-	[Address(RVA = "0x198AC90", Offset = "0x1989290", VA = "0x18198AC90", Slot = "3")]
+	[Token(Token = "0x60017BA")]
+	[Address(RVA = "0x53273E0", Offset = "0x53263E0", VA = "0x53273E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017DE")]
+	[Token(Token = "0x60017BB")]
 	public abstract SecurityElement ToXml();
 
-	[Token(Token = "0x60017DF")]
-	[Address(RVA = "0x198AA60", Offset = "0x1989060", VA = "0x18198AA60")]
+	[Token(Token = "0x60017BC")]
+	[Address(RVA = "0x5327420", Offset = "0x5326420", VA = "0x5327420")]
 	internal static PermissionState CheckPermissionState(PermissionState state, bool allowUnrestricted)
 	{
 		return default(PermissionState);
 	}
 
-	[Token(Token = "0x60017E0")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x60017BD")]
+	[Address(RVA = "0x53274D0", Offset = "0x53264D0", VA = "0x53274D0", Slot = "4")]
 	private void System_002ESecurity_002EIPermission_002EDemand()
 	{
 	}

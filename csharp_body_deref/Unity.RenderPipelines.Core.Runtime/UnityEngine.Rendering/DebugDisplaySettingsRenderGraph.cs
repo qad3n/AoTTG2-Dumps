@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DebugDisplaySettingsRenderGraph
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ internal class DebugDisplaySettingsRenderGraph : IDebugDisplaySettingsData, IDeb
 	private class SettingsPanel : DebugDisplaySettingsPanel
 	{
 		[Token(Token = "0x6000B50")]
-		[Address(RVA = "0x2B33070", Offset = "0x2B31670", VA = "0x182B33070")]
+		[Address(RVA = "0x651D350", Offset = "0x651C350", VA = "0x651D350")]
 		public SettingsPanel(DebugDisplaySettingsRenderGraph _)
 		{
 		}
@@ -27,7 +27,7 @@ internal class DebugDisplaySettingsRenderGraph : IDebugDisplaySettingsData, IDeb
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x6000B4F")]
-		[Address(RVA = "0x2B1F610", Offset = "0x2B1DC10", VA = "0x182B1F610", Slot = "6")]
+		[Address(RVA = "0x651D7A0", Offset = "0x651C7A0", VA = "0x651D7A0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -35,13 +35,13 @@ internal class DebugDisplaySettingsRenderGraph : IDebugDisplaySettingsData, IDeb
 	}
 
 	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x2B1F4C0", Offset = "0x2B1DAC0", VA = "0x182B1F4C0")]
+	[Address(RVA = "0x651D180", Offset = "0x651C180", VA = "0x651D180")]
 	public DebugDisplaySettingsRenderGraph()
 	{
 	}
 
 	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x2B1F460", Offset = "0x2B1DA60", VA = "0x182B1F460", Slot = "4")]
+	[Address(RVA = "0x651D310", Offset = "0x651C310", VA = "0x651D310", Slot = "4")]
 	private IDebugDisplaySettingsPanelDisposable UnityEngine_002ERendering_002EIDebugDisplaySettingsData_002ECreatePanel()
 	{
 		return null;

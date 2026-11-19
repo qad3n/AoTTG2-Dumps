@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001E6")]
+[Token(Token = "0x20001BE")]
 internal enum Handles
 {
-	[Token(Token = "0x4000952")]
+	[Token(Token = "0x40008B0")]
 	STD_INPUT = -10,
-	[Token(Token = "0x4000953")]
+	[Token(Token = "0x40008B1")]
 	STD_OUTPUT = -11,
-	[Token(Token = "0x4000954")]
+	[Token(Token = "0x40008B2")]
 	STD_ERROR = -12
 }

@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000309")]
+[Token(Token = "0x20002E2")]
 [ComVisible(true)]
 public sealed class DESCryptoServiceProvider : DES
 {
-	[Token(Token = "0x6001954")]
-	[Address(RVA = "0x19A4120", Offset = "0x19A2720", VA = "0x1819A4120")]
+	[Token(Token = "0x6001931")]
+	[Address(RVA = "0x5338C00", Offset = "0x5337C00", VA = "0x5338C00")]
 	public DESCryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001955")]
-	[Address(RVA = "0x19A3DC0", Offset = "0x19A23C0", VA = "0x1819A3DC0", Slot = "23")]
+	[Token(Token = "0x6001932")]
+	[Address(RVA = "0x5339030", Offset = "0x5338030", VA = "0x5339030", Slot = "23")]
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001956")]
-	[Address(RVA = "0x19A3C20", Offset = "0x19A2220", VA = "0x1819A3C20", Slot = "25")]
+	[Token(Token = "0x6001933")]
+	[Address(RVA = "0x5339190", Offset = "0x5338190", VA = "0x5339190", Slot = "25")]
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001957")]
-	[Address(RVA = "0x19A4000", Offset = "0x19A2600", VA = "0x1819A4000", Slot = "26")]
+	[Token(Token = "0x6001934")]
+	[Address(RVA = "0x53392E0", Offset = "0x53382E0", VA = "0x53392E0", Slot = "26")]
 	public override void GenerateKey()
 	{
 	}
 
-	[Token(Token = "0x6001958")]
-	[Address(RVA = "0x19A3F60", Offset = "0x19A2560", VA = "0x1819A3F60", Slot = "27")]
+	[Token(Token = "0x6001935")]
+	[Address(RVA = "0x5339440", Offset = "0x5338440", VA = "0x5339440", Slot = "27")]
 	public override void GenerateIV()
 	{
 	}

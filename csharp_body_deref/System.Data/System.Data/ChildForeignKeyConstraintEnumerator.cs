@@ -17,13 +17,13 @@ internal sealed class ChildForeignKeyConstraintEnumerator : ForeignKeyConstraint
 	private readonly DataTable _table;
 
 	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x24E4A80", Offset = "0x24E3080", VA = "0x1824E4A80")]
+	[Address(RVA = "0x5E90270", Offset = "0x5E8F270", VA = "0x5E90270")]
 	public ChildForeignKeyConstraintEnumerator(DataSet dataSet, DataTable inTable)
 	{
 	}
 
 	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x24E49C0", Offset = "0x24E2FC0", VA = "0x1824E49C0", Slot = "4")]
+	[Address(RVA = "0x5E90300", Offset = "0x5E8F300", VA = "0x5E90300", Slot = "4")]
 	protected override bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);

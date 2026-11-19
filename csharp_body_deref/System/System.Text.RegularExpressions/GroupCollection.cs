@@ -13,142 +13,142 @@ using Il2CppDummyDll;
 namespace System.Text.RegularExpressions;
 
 [Serializable]
-[Token(Token = "0x20000E1")]
+[Token(Token = "0x20000A2")]
 [DebuggerDisplay("Count = {Count}")]
 [DebuggerTypeProxy(typeof(CollectionDebuggerProxy<Group>))]
 public class GroupCollection : IList<Group>, ICollection<Group>, IEnumerable<Group>, IEnumerable, IReadOnlyList<Group>, IReadOnlyCollection<Group>, IList, ICollection
 {
-	[Token(Token = "0x20000E2")]
+	[Token(Token = "0x20000A3")]
 	private sealed class Enumerator : IEnumerator<Group>, IDisposable, IEnumerator
 	{
-		[Token(Token = "0x400034C")]
+		[Token(Token = "0x400027D")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly GroupCollection _collection;
 
-		[Token(Token = "0x400034D")]
+		[Token(Token = "0x400027E")]
 		[FieldOffset(Offset = "0x18")]
 		private int _index;
 
-		[Token(Token = "0x170000D3")]
+		[Token(Token = "0x170000A4")]
 		public Group Current
 		{
-			[Token(Token = "0x60004BF")]
-			[Address(RVA = "0x284A960", Offset = "0x2848F60", VA = "0x18284A960", Slot = "4")]
+			[Token(Token = "0x600030B")]
+			[Address(RVA = "0x61E0210", Offset = "0x61DF210", VA = "0x61E0210", Slot = "4")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170000D4")]
+		[Token(Token = "0x170000A5")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60004C0")]
-			[Address(RVA = "0x284A960", Offset = "0x2848F60", VA = "0x18284A960", Slot = "7")]
+			[Token(Token = "0x600030C")]
+			[Address(RVA = "0x61E0290", Offset = "0x61DF290", VA = "0x61E0290", Slot = "7")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60004BD")]
-		[Address(RVA = "0x1A7BE00", Offset = "0x1A7A400", VA = "0x181A7BE00")]
+		[Token(Token = "0x6000309")]
+		[Address(RVA = "0x61DF410", Offset = "0x61DE410", VA = "0x61DF410")]
 		internal Enumerator(GroupCollection collection)
 		{
 		}
 
-		[Token(Token = "0x60004BE")]
-		[Address(RVA = "0x284A880", Offset = "0x2848E80", VA = "0x18284A880", Slot = "6")]
+		[Token(Token = "0x600030A")]
+		[Address(RVA = "0x61E01D0", Offset = "0x61DF1D0", VA = "0x61E01D0", Slot = "6")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60004C1")]
-		[Address(RVA = "0x1B5AFF0", Offset = "0x1B595F0", VA = "0x181B5AFF0", Slot = "8")]
+		[Token(Token = "0x600030D")]
+		[Address(RVA = "0x61E02A0", Offset = "0x61DF2A0", VA = "0x61E02A0", Slot = "8")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60004C2")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x600030E")]
+		[Address(RVA = "0x61E02B0", Offset = "0x61DF2B0", VA = "0x61E02B0", Slot = "5")]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000349")]
+	[Token(Token = "0x400027A")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Match _match;
 
-	[Token(Token = "0x400034A")]
+	[Token(Token = "0x400027B")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Hashtable _captureMap;
 
-	[Token(Token = "0x400034B")]
+	[Token(Token = "0x400027C")]
 	[FieldOffset(Offset = "0x20")]
 	private Group[] _groups;
 
-	[Token(Token = "0x170000CA")]
+	[Token(Token = "0x1700009B")]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x600049D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "25")]
+		[Token(Token = "0x60002E9")]
+		[Address(RVA = "0x61DF0C0", Offset = "0x61DE0C0", VA = "0x61DF0C0", Slot = "25")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000CB")]
+	[Token(Token = "0x1700009C")]
 	public int Count
 	{
-		[Token(Token = "0x600049E")]
-		[Address(RVA = "0x284BF70", Offset = "0x284A570", VA = "0x18284BF70", Slot = "32")]
+		[Token(Token = "0x60002EA")]
+		[Address(RVA = "0x61DF0D0", Offset = "0x61DE0D0", VA = "0x61DF0D0", Slot = "32")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000CC")]
+	[Token(Token = "0x1700009D")]
 	public Group this[int groupnum]
 	{
-		[Token(Token = "0x600049F")]
-		[Address(RVA = "0x284BAF0", Offset = "0x284A0F0", VA = "0x18284BAF0", Slot = "18")]
+		[Token(Token = "0x60002EB")]
+		[Address(RVA = "0x61DF0F0", Offset = "0x61DE0F0", VA = "0x61DF0F0", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000CD")]
+	[Token(Token = "0x1700009E")]
 	public Group this[string groupname]
 	{
-		[Token(Token = "0x60004A0")]
-		[Address(RVA = "0x284BFA0", Offset = "0x284A5A0", VA = "0x18284BFA0")]
+		[Token(Token = "0x60002EC")]
+		[Address(RVA = "0x61DF1F0", Offset = "0x61DE1F0", VA = "0x61DF1F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000CE")]
+	[Token(Token = "0x1700009F")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x60004A5")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "34")]
+		[Token(Token = "0x60002F1")]
+		[Address(RVA = "0x61DF7D0", Offset = "0x61DE7D0", VA = "0x61DF7D0", Slot = "34")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000CF")]
+	[Token(Token = "0x170000A0")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x60004A6")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "33")]
+		[Token(Token = "0x60002F2")]
+		[Address(RVA = "0x61DF7E0", Offset = "0x61DE7E0", VA = "0x61DF7E0", Slot = "33")]
 		get
 		{
 			return null;
@@ -157,25 +157,25 @@ public class GroupCollection : IList<Group>, ICollection<Group>, IEnumerable<Gro
 
 	// C# has no syntax for parameterized property 'System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.Item'.
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
-	[property: Token(Token = "0x170000D0")]
-	[Token(Token = "0x60004AC")]
-	[Address(RVA = "0x284BAF0", Offset = "0x284A0F0", VA = "0x18284BAF0", Slot = "4")]
+	[property: Token(Token = "0x170000A1")]
+	[Token(Token = "0x60002F8")]
+	[Address(RVA = "0x61DFBC0", Offset = "0x61DEBC0", VA = "0x61DFBC0", Slot = "4")]
 	private Group System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002Eget_Item(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0x284BB00", Offset = "0x284A100", VA = "0x18284BB00", Slot = "5")]
+	[Token(Token = "0x60002F9")]
+	[Address(RVA = "0x61DFBD0", Offset = "0x61DEBD0", VA = "0x61DFBD0", Slot = "5")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002Eset_Item(int index, Group value)
 	{
 	}
 
-	[Token(Token = "0x170000D1")]
+	[Token(Token = "0x170000A2")]
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
-		[Token(Token = "0x60004B7")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "26")]
+		[Token(Token = "0x6000303")]
+		[Address(RVA = "0x61E0090", Offset = "0x61DF090", VA = "0x61E0090", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -184,158 +184,158 @@ public class GroupCollection : IList<Group>, ICollection<Group>, IEnumerable<Gro
 
 	// C# has no syntax for parameterized property 'System.Collections.IList.Item'.
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
-	[property: Token(Token = "0x170000D2")]
-	[Token(Token = "0x60004BA")]
-	[Address(RVA = "0x284BAF0", Offset = "0x284A0F0", VA = "0x18284BAF0", Slot = "20")]
+	[property: Token(Token = "0x170000A3")]
+	[Token(Token = "0x6000306")]
+	[Address(RVA = "0x61E0140", Offset = "0x61DF140", VA = "0x61E0140", Slot = "20")]
 	private object System_002ECollections_002EIList_002Eget_Item(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004BB")]
-	[Address(RVA = "0x284BEF0", Offset = "0x284A4F0", VA = "0x18284BEF0", Slot = "21")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x61E0150", Offset = "0x61DF150", VA = "0x61E0150", Slot = "21")]
 	private void System_002ECollections_002EIList_002Eset_Item(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x60002E8")]
+	[Address(RVA = "0x61DF080", Offset = "0x61DE080", VA = "0x61DF080")]
 	internal GroupCollection(Match match, Hashtable caps)
 	{
 	}
 
-	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x284AF10", Offset = "0x2849510", VA = "0x18284AF10", Slot = "17")]
+	[Token(Token = "0x60002ED")]
+	[Address(RVA = "0x61DF3A0", Offset = "0x61DE3A0", VA = "0x61DF3A0", Slot = "17")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004A2")]
-	[Address(RVA = "0x284B910", Offset = "0x2849F10", VA = "0x18284B910", Slot = "16")]
+	[Token(Token = "0x60002EE")]
+	[Address(RVA = "0x61DF440", Offset = "0x61DE440", VA = "0x61DF440", Slot = "16")]
 	private IEnumerator<Group> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004A3")]
-	[Address(RVA = "0x284B340", Offset = "0x2849940", VA = "0x18284B340")]
+	[Token(Token = "0x60002EF")]
+	[Address(RVA = "0x61DF100", Offset = "0x61DE100", VA = "0x61DF100")]
 	private Group GetGroup(int groupnum)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004A4")]
-	[Address(RVA = "0x284AF80", Offset = "0x2849580", VA = "0x18284AF80")]
+	[Token(Token = "0x60002F0")]
+	[Address(RVA = "0x61DF4B0", Offset = "0x61DE4B0", VA = "0x61DF4B0")]
 	private Group GetGroupImpl(int groupnum)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x284AC60", Offset = "0x2849260", VA = "0x18284AC60", Slot = "31")]
+	[Token(Token = "0x60002F3")]
+	[Address(RVA = "0x61DF7F0", Offset = "0x61DE7F0", VA = "0x61DF7F0", Slot = "31")]
 	public void CopyTo(Array array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x284AD20", Offset = "0x2849320", VA = "0x18284AD20", Slot = "14")]
+	[Token(Token = "0x60002F4")]
+	[Address(RVA = "0x61DF8B0", Offset = "0x61DE8B0", VA = "0x61DF8B0", Slot = "14")]
 	public void CopyTo(Group[] array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x284B980", Offset = "0x2849F80", VA = "0x18284B980", Slot = "6")]
+	[Token(Token = "0x60002F5")]
+	[Address(RVA = "0x61DFA50", Offset = "0x61DEA50", VA = "0x61DFA50", Slot = "6")]
 	private int System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EIndexOf(Group item)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x284BA50", Offset = "0x284A050", VA = "0x18284BA50", Slot = "7")]
+	[Token(Token = "0x60002F6")]
+	[Address(RVA = "0x61DFB20", Offset = "0x61DEB20", VA = "0x61DFB20", Slot = "7")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EInsert(int index, Group item)
 	{
 	}
 
-	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x284BAA0", Offset = "0x284A0A0", VA = "0x18284BAA0", Slot = "8")]
+	[Token(Token = "0x60002F7")]
+	[Address(RVA = "0x61DFB70", Offset = "0x61DEB70", VA = "0x61DFB70", Slot = "8")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002ERemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x60004AE")]
-	[Address(RVA = "0x284B7C0", Offset = "0x2849DC0", VA = "0x18284B7C0", Slot = "11")]
+	[Token(Token = "0x60002FA")]
+	[Address(RVA = "0x61DFC20", Offset = "0x61DEC20", VA = "0x61DFC20", Slot = "11")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EAdd(Group item)
 	{
 	}
 
-	[Token(Token = "0x60004AF")]
-	[Address(RVA = "0x284B810", Offset = "0x2849E10", VA = "0x18284B810", Slot = "12")]
+	[Token(Token = "0x60002FB")]
+	[Address(RVA = "0x61DFC70", Offset = "0x61DEC70", VA = "0x61DFC70", Slot = "12")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EClear()
 	{
 	}
 
-	[Token(Token = "0x60004B0")]
-	[Address(RVA = "0x284B860", Offset = "0x2849E60", VA = "0x18284B860", Slot = "13")]
+	[Token(Token = "0x60002FC")]
+	[Address(RVA = "0x61DFCC0", Offset = "0x61DECC0", VA = "0x61DFCC0", Slot = "13")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002EContains(Group item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004B1")]
-	[Address(RVA = "0x284B8C0", Offset = "0x2849EC0", VA = "0x18284B8C0", Slot = "15")]
+	[Token(Token = "0x60002FD")]
+	[Address(RVA = "0x61DFD70", Offset = "0x61DED70", VA = "0x61DFD70", Slot = "15")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EGroup_003E_002ERemove(Group item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004B2")]
-	[Address(RVA = "0x284BB50", Offset = "0x284A150", VA = "0x18284BB50", Slot = "22")]
+	[Token(Token = "0x60002FE")]
+	[Address(RVA = "0x61DFDC0", Offset = "0x61DEDC0", VA = "0x61DFDC0", Slot = "22")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60004B3")]
-	[Address(RVA = "0x284BBA0", Offset = "0x284A1A0", VA = "0x18284BBA0", Slot = "24")]
+	[Token(Token = "0x60002FF")]
+	[Address(RVA = "0x61DFE10", Offset = "0x61DEE10", VA = "0x61DFE10", Slot = "24")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
-	[Token(Token = "0x60004B4")]
-	[Address(RVA = "0x284BBF0", Offset = "0x284A1F0", VA = "0x18284BBF0", Slot = "23")]
+	[Token(Token = "0x6000300")]
+	[Address(RVA = "0x61DFE60", Offset = "0x61DEE60", VA = "0x61DFE60", Slot = "23")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004B5")]
-	[Address(RVA = "0x284BD30", Offset = "0x284A330", VA = "0x18284BD30", Slot = "27")]
+	[Token(Token = "0x6000301")]
+	[Address(RVA = "0x61DFF50", Offset = "0x61DEF50", VA = "0x61DFF50", Slot = "27")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60004B6")]
-	[Address(RVA = "0x284BE00", Offset = "0x284A400", VA = "0x18284BE00", Slot = "28")]
+	[Token(Token = "0x6000302")]
+	[Address(RVA = "0x61E0040", Offset = "0x61DF040", VA = "0x61E0040", Slot = "28")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x60004B8")]
-	[Address(RVA = "0x284BEA0", Offset = "0x284A4A0", VA = "0x18284BEA0", Slot = "29")]
+	[Token(Token = "0x6000304")]
+	[Address(RVA = "0x61E00A0", Offset = "0x61DF0A0", VA = "0x61E00A0", Slot = "29")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
-	[Token(Token = "0x60004B9")]
-	[Address(RVA = "0x284BE50", Offset = "0x284A450", VA = "0x18284BE50", Slot = "30")]
+	[Token(Token = "0x6000305")]
+	[Address(RVA = "0x61E00F0", Offset = "0x61DF0F0", VA = "0x61E00F0", Slot = "30")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x60004BC")]
-	[Address(RVA = "0x284BF40", Offset = "0x284A540", VA = "0x18284BF40")]
+	[Token(Token = "0x6000308")]
+	[Address(RVA = "0x61E01A0", Offset = "0x61DF1A0", VA = "0x61E01A0")]
 	internal GroupCollection()
 	{
 	}

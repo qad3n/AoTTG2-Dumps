@@ -32,7 +32,7 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public virtual bool IsSupported
 	{
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
+		[Address(RVA = "0x5704960", Offset = "0x5703960", VA = "0x5704960", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -43,14 +43,14 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public virtual string Error
 	{
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "12")]
+		[Address(RVA = "0x5704970", Offset = "0x5703970", VA = "0x5704970", Slot = "12")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0", Slot = "13")]
+		[Address(RVA = "0x5704980", Offset = "0x5703980", VA = "0x5704980", Slot = "13")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -61,26 +61,26 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public Action OnReady
 	{
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x5704B00", Offset = "0x5703B00", VA = "0x5704B00")]
 		protected get
 		{
 			return null;
 		}
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x1D68E20", Offset = "0x1D67420", VA = "0x181D68E20", Slot = "6")]
+		[Address(RVA = "0x5704B10", Offset = "0x5703B10", VA = "0x5704B10", Slot = "6")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x1D68D80", Offset = "0x1D67380", VA = "0x181D68D80")]
+	[Address(RVA = "0x57048D0", Offset = "0x57038D0", VA = "0x57048D0")]
 	public DeviceEnumeratorBase(ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x1D68CC0", Offset = "0x1D672C0", VA = "0x181D68CC0", Slot = "9")]
+	[Address(RVA = "0x5704990", Offset = "0x5703990", VA = "0x5704990", Slot = "9")]
 	public IEnumerator<DeviceInfo> GetEnumerator()
 	{
 		return null;
@@ -90,7 +90,7 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public abstract void Refresh();
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x1D68CC0", Offset = "0x1D672C0", VA = "0x181D68CC0", Slot = "10")]
+	[Address(RVA = "0x5704B60", Offset = "0x5703B60", VA = "0x5704B60", Slot = "10")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

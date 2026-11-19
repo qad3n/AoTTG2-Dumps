@@ -10,41 +10,52 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000318")]
+[Token(Token = "0x20002F1")]
 internal sealed class TailStream : Stream
 {
-	[Token(Token = "0x4000D27")]
+	[Token(Token = "0x4000C87")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] _Buffer;
 
-	[Token(Token = "0x4000D28")]
+	[Token(Token = "0x4000C88")]
 	[FieldOffset(Offset = "0x30")]
 	private int _BufferSize;
 
-	[Token(Token = "0x4000D29")]
+	[Token(Token = "0x4000C89")]
 	[FieldOffset(Offset = "0x34")]
 	private int _BufferIndex;
 
-	[Token(Token = "0x4000D2A")]
+	[Token(Token = "0x4000C8A")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _BufferFull;
 
-	[Token(Token = "0x170002B3")]
+	[Token(Token = "0x170002B2")]
 	public byte[] Buffer
 	{
-		[Token(Token = "0x60019B8")]
-		[Address(RVA = "0x19B6870", Offset = "0x19B4E70", VA = "0x1819B6870")]
+		[Token(Token = "0x6001995")]
+		[Address(RVA = "0x533DCE0", Offset = "0x533CCE0", VA = "0x533DCE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002B4")]
+	[Token(Token = "0x170002B3")]
 	public override bool CanRead
 	{
-		[Token(Token = "0x60019B9")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x6001996")]
+		[Address(RVA = "0x533DF60", Offset = "0x533CF60", VA = "0x533DF60", Slot = "7")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170002B4")]
+	public override bool CanSeek
+	{
+		[Token(Token = "0x6001997")]
+		[Address(RVA = "0x533DF70", Offset = "0x533CF70", VA = "0x533DF70", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -52,10 +63,10 @@ internal sealed class TailStream : Stream
 	}
 
 	[Token(Token = "0x170002B5")]
-	public override bool CanSeek
+	public override bool CanWrite
 	{
-		[Token(Token = "0x60019BA")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6001998")]
+		[Address(RVA = "0x533DF80", Offset = "0x533CF80", VA = "0x533DF80", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -63,89 +74,78 @@ internal sealed class TailStream : Stream
 	}
 
 	[Token(Token = "0x170002B6")]
-	public override bool CanWrite
+	public override long Length
 	{
-		[Token(Token = "0x60019BB")]
-		[Address(RVA = "0x19B68F0", Offset = "0x19B4EF0", VA = "0x1819B68F0", Slot = "10")]
+		[Token(Token = "0x6001999")]
+		[Address(RVA = "0x533DF90", Offset = "0x533CF90", VA = "0x533DF90", Slot = "11")]
 		get
 		{
-			return default(bool);
+			return default(long);
 		}
 	}
 
 	[Token(Token = "0x170002B7")]
-	public override long Length
-	{
-		[Token(Token = "0x60019BC")]
-		[Address(RVA = "0x19B6900", Offset = "0x19B4F00", VA = "0x1819B6900", Slot = "11")]
-		get
-		{
-			return default(long);
-		}
-	}
-
-	[Token(Token = "0x170002B8")]
 	public override long Position
 	{
-		[Token(Token = "0x60019BD")]
-		[Address(RVA = "0x19B6960", Offset = "0x19B4F60", VA = "0x1819B6960", Slot = "12")]
+		[Token(Token = "0x600199A")]
+		[Address(RVA = "0x533DFF0", Offset = "0x533CFF0", VA = "0x533DFF0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x60019BE")]
-		[Address(RVA = "0x19B69C0", Offset = "0x19B4FC0", VA = "0x1819B69C0", Slot = "13")]
+		[Token(Token = "0x600199B")]
+		[Address(RVA = "0x533E050", Offset = "0x533D050", VA = "0x533E050", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019B5")]
-	[Address(RVA = "0x19B67E0", Offset = "0x19B4DE0", VA = "0x1819B67E0")]
+	[Token(Token = "0x6001992")]
+	[Address(RVA = "0x533DA30", Offset = "0x533CA30", VA = "0x533DA30")]
 	public TailStream(int bufferSize)
 	{
 	}
 
-	[Token(Token = "0x60019B6")]
-	[Address(RVA = "0x198B170", Offset = "0x1989770", VA = "0x18198B170")]
+	[Token(Token = "0x6001993")]
+	[Address(RVA = "0x533DE70", Offset = "0x533CE70", VA = "0x533DE70")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x60019B7")]
-	[Address(RVA = "0x19B6480", Offset = "0x19B4A80", VA = "0x1819B6480", Slot = "19")]
+	[Token(Token = "0x6001994")]
+	[Address(RVA = "0x533DE90", Offset = "0x533CE90", VA = "0x533DE90", Slot = "20")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60019BF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "20")]
+	[Token(Token = "0x600199C")]
+	[Address(RVA = "0x533E0B0", Offset = "0x533D0B0", VA = "0x533E0B0", Slot = "21")]
 	public override void Flush()
 	{
 	}
 
-	[Token(Token = "0x60019C0")]
-	[Address(RVA = "0x19B6590", Offset = "0x19B4B90", VA = "0x1819B6590", Slot = "30")]
+	[Token(Token = "0x600199D")]
+	[Address(RVA = "0x533E0C0", Offset = "0x533D0C0", VA = "0x533E0C0", Slot = "31")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x60019C1")]
-	[Address(RVA = "0x19B65F0", Offset = "0x19B4BF0", VA = "0x1819B65F0", Slot = "31")]
+	[Token(Token = "0x600199E")]
+	[Address(RVA = "0x533E120", Offset = "0x533D120", VA = "0x533E120", Slot = "32")]
 	public override void SetLength(long value)
 	{
 	}
 
-	[Token(Token = "0x60019C2")]
-	[Address(RVA = "0x19B6530", Offset = "0x19B4B30", VA = "0x1819B6530", Slot = "32")]
+	[Token(Token = "0x600199F")]
+	[Address(RVA = "0x533E180", Offset = "0x533D180", VA = "0x533E180", Slot = "33")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60019C3")]
-	[Address(RVA = "0x19B6650", Offset = "0x19B4C50", VA = "0x1819B6650", Slot = "35")]
+	[Token(Token = "0x60019A0")]
+	[Address(RVA = "0x533E1E0", Offset = "0x533D1E0", VA = "0x533E1E0", Slot = "36")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}

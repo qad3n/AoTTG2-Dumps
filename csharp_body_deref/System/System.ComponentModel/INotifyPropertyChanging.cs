@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001F5")]
+[Token(Token = "0x20001B6")]
 public interface INotifyPropertyChanging
 {
 	[Token(Token = "0x1400000C")]

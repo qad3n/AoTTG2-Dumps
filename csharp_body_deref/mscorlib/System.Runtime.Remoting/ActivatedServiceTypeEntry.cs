@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200036A")]
+[Token(Token = "0x2000343")]
 [ComVisible(true)]
 public class ActivatedServiceTypeEntry : TypeEntry
 {
-	[Token(Token = "0x4000E78")]
+	[Token(Token = "0x4000DD8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Type obj_type;
 
-	[Token(Token = "0x1700032E")]
+	[Token(Token = "0x1700032D")]
 	public Type ObjectType
 	{
-		[Token(Token = "0x6001C85")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001C5B")]
+		[Address(RVA = "0x5368FE0", Offset = "0x5367FE0", VA = "0x5368FE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001C84")]
-	[Address(RVA = "0x19D20C0", Offset = "0x19D06C0", VA = "0x1819D20C0")]
+	[Token(Token = "0x6001C5A")]
+	[Address(RVA = "0x5368ED0", Offset = "0x5367ED0", VA = "0x5368ED0")]
 	public ActivatedServiceTypeEntry(string typeName, string assemblyName)
 	{
 	}
 
-	[Token(Token = "0x6001C86")]
-	[Address(RVA = "0x19D20B0", Offset = "0x19D06B0", VA = "0x1819D20B0", Slot = "3")]
+	[Token(Token = "0x6001C5C")]
+	[Address(RVA = "0x5368FF0", Offset = "0x5367FF0", VA = "0x5368FF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

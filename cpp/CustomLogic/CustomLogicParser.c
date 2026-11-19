@@ -1,17 +1,17 @@
 // Type: CustomLogic.CustomLogicParser
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicParser.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicParser.cs
 // --------------------------------
 
 // CustomLogic.CustomLogicParser$$get_Compiler
 // il2cpp: CustomLogic_CustomLogicCompiler_o* CustomLogic_CustomLogicParser__get_Compiler (CustomLogic_CustomLogicParser_o* __this, const MethodInfo* method);
-// 0x1805852b0
+// 0x5b7bec0
 
-CustomLogic_CustomLogicCompiler_o*
-CustomLogic_CustomLogicParser__get_Compiler(CustomLogic_CustomLogicParser_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicCompiler_o *
+CustomLogic_CustomLogicParser__get_Compiler(CustomLogic_CustomLogicParser_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._Compiler_k__BackingField;
@@ -20,21 +20,22 @@ CustomLogic_CustomLogicParser__get_Compiler(CustomLogic_CustomLogicParser_o* __t
 
 // CustomLogic.CustomLogicParser$$set_Compiler
 // il2cpp: void CustomLogic_CustomLogicParser__set_Compiler (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicCompiler_o* value, const MethodInfo* method);
-// 0x180ace2f0
+// 0x5b7bed0
 
-void
-CustomLogic_CustomLogicParser__set_Compiler(CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicCompiler_o* value, MethodInfo* method)
+void CustomLogic_CustomLogicParser__set_Compiler
+               (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicCompiler_o *value,
+               MethodInfo *method)
 
 {
   (__this->fields)._Compiler_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicParser$$.ctor
 // il2cpp: void CustomLogic_CustomLogicParser___ctor (CustomLogic_CustomLogicParser_o* __this, System_Collections_Generic_List_CustomLogicToken__o* tokens, CustomLogic_CustomLogicCompiler_o* compiler, const MethodInfo* method);
-// 0x1820e8400
+// 0x5b77f20
 
 void CustomLogic_CustomLogicParser___ctor
                (CustomLogic_CustomLogicParser_o *__this,
@@ -44,35 +45,34 @@ void CustomLogic_CustomLogicParser___ctor
 {
   System_Collections_Generic_List_CustomLogicToken__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843469c4 == '\0') {
+  if (Il2CppMethodInitialized_0754738f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_CustomLogicToken);
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843469c4 = '\x01';
+    Il2CppMethodInitialized_0754738f = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicToken);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
   (__this->fields)._tokens = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens);
   (__this->fields).Error = "";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Error,"");
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Error);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._tokens = tokens;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens,tokens);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens);
   (__this->fields)._Compiler_k__BackingField = compiler;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField,compiler);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicParser$$GetLineNumberString
 // il2cpp: System_String_o* CustomLogic_CustomLogicParser__GetLineNumberString (CustomLogic_CustomLogicParser_o* __this, int32_t line, const MethodInfo* method);
-// 0x1820e5270
+// 0x5b7bee0
 
 System_String_o *
 CustomLogic_CustomLogicParser__GetLineNumberString
@@ -81,163 +81,158 @@ CustomLogic_CustomLogicParser__GetLineNumberString
 {
   CustomLogic_CustomLogicCompiler_o *__this_00;
   System_String_o *pSVar1;
-  int32_t local_res10 [6];
+  int32_t local_4;
   
-  local_res10[0] = line;
-  if ((__this->fields)._Compiler_k__BackingField == (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    pSVar1 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-    return pSVar1;
-  }
   __this_00 = (__this->fields)._Compiler_k__BackingField;
-  if (__this_00 != (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    pSVar1 = CustomLogic_CustomLogicCompiler__FormatLineNumber(__this_00,line,(MethodInfo *)0x0);
+  if (__this_00 == (CustomLogic_CustomLogicCompiler_o *)0x0) {
+    pSVar1 = System_Int32__ToString(&local_4,(MethodInfo *)0x0);
     return pSVar1;
   }
-  ThrowNullReferenceException();
+  pSVar1 = CustomLogic_CustomLogicCompiler__FormatLineNumber(__this_00,line,method);
+  return pSVar1;
 }
 
 
 // CustomLogic.CustomLogicParser$$GetStartAst
 // il2cpp: CustomLogic_CustomLogicStartAst_o* CustomLogic_CustomLogicParser__GetStartAst (CustomLogic_CustomLogicParser_o* __this, const MethodInfo* method);
-// 0x1820e52b0
-// eh: try 0x1820e52f8..0x1820e5465 -> pad 0x1833197a0 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
-// asm: 98 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e5321: mov rbx, qword ptr [rsp + 0x30]
-// asm:   0x1820e5326: test rbx, rbx
-// asm:   0x1820e5329: je 0x1820e5458
-// asm:   0x1820e532f: mov rax, qword ptr [rbx]
-// asm:   0x1820e5332: mov rdx, qword ptr [rax + 0x190]
-// asm:   0x1820e5339: mov rcx, rbx
-// asm:   0x1820e533c: call qword ptr [rax + 0x188]  ; vtable slot 5
-// asm:   0x1820e5342: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x1820e5347: mov qword ptr [rcx + 0x18], rax
-// asm:   0x1820e534b: add rcx, 0x18
-// asm:   0x1820e534f: mov rdx, rax
-// asm:   0x1820e5352: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
-// asm:   0x1820e5357: lea rcx, [rip + 0x20174ea]  ; TypeInfo_Settings_SettingsManager
-// asm:   0x1820e535e: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e5363: mov rcx, qword ptr [rax + 0xb8]
-// asm:   0x1820e536a: cmp qword ptr [rcx + 0x28], 0
-// asm:   0x1820e536f: jne 0x1820e5375
-// asm:   0x1820e5371: xor edi, edi
-// asm:   0x1820e5373: jmp 0x1820e53b5
-// asm:   0x1820e5375: lea rcx, [rip + 0x20174cc]  ; TypeInfo_Settings_SettingsManager
-// asm:   0x1820e537c: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e5381: mov rcx, qword ptr [rax + 0xb8]
-// asm:   0x1820e5388: mov rdi, qword ptr [rcx + 0x28]
-// asm:   0x1820e538c: test rdi, rdi
-// asm:   0x1820e538f: je 0x1820e5458
-// asm:   0x1820e5395: mov rdi, qword ptr [rdi + 0x1a0]
-// asm:   0x1820e539c: test rdi, rdi
-// asm:   0x1820e539f: je 0x1820e5458
-// asm:   0x1820e53a5: lea rcx, [rip + 0x1fb07bc]  ; MethodInfo_Settings_TypedSetting_bool_get_Value
-// asm:   0x1820e53ac: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e53b1: movzx edi, byte ptr [rdi + 0x19]
-// asm:   0x1820e53b5: mov rax, qword ptr [rbx]
-// asm:   0x1820e53b8: mov rdx, qword ptr [rax + 0x190]
-// asm:   0x1820e53bf: mov rcx, rbx
-// asm:   0x1820e53c2: call qword ptr [rax + 0x188]  ; vtable slot 5
-// asm:   0x1820e53c8: mov rbx, rax
-// asm:   0x1820e53cb: lea rcx, [rip + 0x1faf0c6]  ; "Custom logic parsing error: "
-// asm:   0x1820e53d2: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e53d7: mov rcx, rax
-// asm:   0x1820e53da: xor r8d, r8d
-// asm:   0x1820e53dd: mov rdx, rbx
-// asm:   0x1820e53e0: call 0x181969e50  ; System_String__Concat()
-// asm:   0x1820e53e5: mov rbx, rax
-// asm:   0x1820e53e8: test edi, edi
-// asm:   0x1820e53ea: setne dil
-// asm:   0x1820e53ee: lea rcx, [rip + 0x20162db]  ; TypeInfo_ApplicationManagers_DebugConsole
-// asm:   0x1820e53f5: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e53fa: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x1820e5401: jne 0x1820e540b
-// asm:   0x1820e5403: mov rcx, rax
-// asm:   0x1820e5406: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x1820e540b: xor r8d, r8d
-// asm:   0x1820e540e: movzx edx, dil
-// asm:   0x1820e5412: mov rcx, rbx
-// asm:   0x1820e5415: call 0x18234c0c0  ; ApplicationManagers_DebugConsole__LogCustomLogic()
-// asm:   0x1820e541a: lea rcx, [rip + 0x200bf67]  ; TypeInfo_CustomLogic_CustomLogicStartAst
-// asm:   0x1820e5421: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820e5426: mov rcx, rax
-// asm:   0x1820e5429: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
-// asm:   0x1820e542e: mov rbx, rax
-// asm:   0x1820e5431: xor edx, edx
-// asm:   0x1820e5433: mov rcx, rax
-// asm:   0x1820e5436: call 0x181ed3eb0  ; CustomLogic_CustomLogicStartAst___ctor()
-// asm:   0x1820e543b: test rbx, rbx
-// asm:   0x1820e543e: je 0x1820e5458
-// asm:   0x1820e5440: xor edx, edx
-// asm:   0x1820e5442: mov rcx, rbx
-// asm:   0x1820e5445: call 0x181ed3b40  ; CustomLogic_CustomLogicStartAst__AddEmptyMain()
-// asm:   0x1820e5458: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x1833197a0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833197a5: push rbx
-// asm:   0x1833197a6: push rbp
-// asm:   0x1833197a7: push rdi
-// asm:   0x1833197a8: sub rsp, 0x20
-// asm:   0x1833197ac: mov rbp, rdx
-// asm:   0x1833197af: mov rdi, qword ptr [rbp + 0x28]
-// asm:   0x1833197b3: mov rax, qword ptr [rdi]
-// asm:   0x1833197b6: mov rbx, qword ptr [rax]
-// asm:   0x1833197b9: lea rcx, [rip + 0xd5f798]  ; TypeInfo_System_Exception
-// asm:   0x1833197c0: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1833197c5: mov rcx, rax
-// asm:   0x1833197c8: mov rdx, rbx
-// asm:   0x1833197cb: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x1833197d0: test al, al
-// asm:   0x1833197d2: mov rax, qword ptr [rdi]
-// asm:   0x1833197d5: je 0x1833197e7
-// asm:   0x1833197d7: mov qword ptr [rbp + 0x30], rax
-// asm:   0x1833197db: movabs rax, 0
-// asm:   0x1833197e5: jmp 0x1833197fc
-// asm:   0x1833197e7: mov qword ptr [rbp + 0x20], rax
-// asm:   0x1833197eb: lea rdx, [rip + 0xcc2796]
-// asm:   0x1833197f2: lea rcx, [rbp + 0x20]
-// asm:   0x1833197f6: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x1833197fc: add rsp, 0x20
-// asm:   0x183319800: pop rdi
-// asm:   0x183319801: pop rbp
-// asm:   0x183319802: pop rbx
-// asm:   0x183319803: ret 
+// 0x5b77ff0
+// eh: try 0x5b78032..0x5b78061 -> pad 0x5b78061 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: TypeInfo_System_Exception]
+// eh: try 0x5b7807a..0x5b781ed -> pad 0x5b781ed (+1 call sites) cleanup
+// eh: try 0x5b781f0..0x5b781f5 -> pad 0x5b781fd catch (...) [compiler noexcept guard]
+// asm: 99 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b78061: jmp 0x5b78063
+// asm:   0x5b78063: mov rbx, rax
+// asm:   0x5b78066: cmp edx, 1
+// asm:   0x5b78069: jne 0x5b781f5
+// asm:   0x5b7806f: mov rdi, rbx
+// asm:   0x5b78072: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b78077: mov rbx, rax
+// asm:   0x5b7807a: lea rdi, [rip + 0x170003f]  ; TypeInfo_System_Exception
+// asm:   0x5b78081: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b78086: mov rcx, qword ptr [rbx]
+// asm:   0x5b78089: mov rsi, qword ptr [rcx]
+// asm:   0x5b7808c: mov rdi, rax
+// asm:   0x5b7808f: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5b78094: test al, al
+// asm:   0x5b78096: je 0x5b781cc
+// asm:   0x5b7809c: mov r14, qword ptr [rbx]
+// asm:   0x5b7809f: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b780a4: test r14, r14
+// asm:   0x5b780a7: je 0x5b781c7
+// asm:   0x5b780ad: mov rax, qword ptr [r14]
+// asm:   0x5b780b0: mov rsi, qword ptr [rax + 0x190]
+// asm:   0x5b780b7: mov rdi, r14
+// asm:   0x5b780ba: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x5b780c0: mov qword ptr [r15 + 0x18], rax
+// asm:   0x5b780c4: add r15, 0x18
+// asm:   0x5b780c8: mov rdi, r15
+// asm:   0x5b780cb: mov rsi, rax
+// asm:   0x5b780ce: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x5b780d3: lea rdi, [rip + 0x1704b76]  ; TypeInfo_Settings_SettingsManager
+// asm:   0x5b780da: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b780df: mov rax, qword ptr [rax + 0xb8]
+// asm:   0x5b780e6: cmp qword ptr [rax + 0x28], 0
+// asm:   0x5b780eb: je 0x5b78133
+// asm:   0x5b780ed: lea rdi, [rip + 0x1704b5c]  ; TypeInfo_Settings_SettingsManager
+// asm:   0x5b780f4: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b780f9: mov rax, qword ptr [rax + 0xb8]
+// asm:   0x5b78100: mov rax, qword ptr [rax + 0x28]
+// asm:   0x5b78104: test rax, rax
+// asm:   0x5b78107: je 0x5b781c7
+// asm:   0x5b7810d: mov rbx, qword ptr [rax + 0x1a0]
+// asm:   0x5b78114: test rbx, rbx
+// asm:   0x5b78117: je 0x5b781c7
+// asm:   0x5b7811d: lea rdi, [rip + 0x1726c4c]  ; MethodInfo_Settings_TypedSetting_bool_get_Value
+// asm:   0x5b78124: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b78129: cmp byte ptr [rbx + 0x19], 0
+// asm:   0x5b7812d: setne bpl
+// asm:   0x5b78131: jmp 0x5b78135
+// asm:   0x5b78133: xor ebp, ebp
+// asm:   0x5b78135: mov rax, qword ptr [r14]
+// asm:   0x5b78138: mov rsi, qword ptr [rax + 0x190]
+// asm:   0x5b7813f: mov rdi, r14
+// asm:   0x5b78142: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x5b78148: mov rbx, rax
+// asm:   0x5b7814b: lea rdi, [rip + 0x1760dbe]  ; "Custom logic parsing error: "
+// asm:   0x5b78152: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b78157: mov rdi, rax
+// asm:   0x5b7815a: mov rsi, rbx
+// asm:   0x5b7815d: xor edx, edx
+// asm:   0x5b7815f: call 0x53f0320  ; System_String__Concat()
+// asm:   0x5b78164: mov rbx, rax
+// asm:   0x5b78167: lea rdi, [rip + 0x16ff4f2]  ; TypeInfo_ApplicationManagers_DebugConsole
+// asm:   0x5b7816e: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b78173: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5b7817a: jne 0x5b78184
+// asm:   0x5b7817c: mov rdi, rax
+// asm:   0x5b7817f: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5b78184: movzx esi, bpl
+// asm:   0x5b78188: mov rdi, rbx
+// asm:   0x5b7818b: xor edx, edx
+// asm:   0x5b7818d: call 0x5e0fb40  ; ApplicationManagers_DebugConsole__LogCustomLogic()
+// asm:   0x5b78192: lea rdi, [rip + 0x16feed7]  ; TypeInfo_CustomLogic_CustomLogicStartAst
+// asm:   0x5b78199: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b7819e: mov rdi, rax
+// asm:   0x5b781a1: call 0x30d6370  ; il2cpp_runtime_helper_030d6370()
+// asm:   0x5b781a6: mov rbx, rax
+// asm:   0x5b781a9: mov rdi, rax
+// asm:   0x5b781ac: xor esi, esi
+// asm:   0x5b781ae: call 0x59a92f0  ; CustomLogic_CustomLogicStartAst___ctor()
+// asm:   0x5b781b3: test rbx, rbx
+// asm:   0x5b781b6: je 0x5b781c7
+// asm:   0x5b781b8: mov rdi, rbx
+// asm:   0x5b781bb: xor esi, esi
+// asm:   0x5b781bd: call 0x59a93c0  ; CustomLogic_CustomLogicStartAst__AddEmptyMain()
+// asm:   0x5b781c2: jmp 0x5b7804e
+// asm:   0x5b781c7: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x5b781cc: mov edi, 8
+// asm:   0x5b781d1: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5b781d6: mov rcx, qword ptr [rbx]
+// asm:   0x5b781d9: mov qword ptr [rax], rcx
+// asm:   0x5b781dc: lea rsi, [rip + 0x12b531d]
+// asm:   0x5b781e3: mov rdi, rax
+// asm:   0x5b781e6: xor edx, edx
+// asm:   0x5b781e8: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5b781ed: mov rbx, rax
+// asm:   0x5b781f0: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b781f5: mov rdi, rbx
+// asm:   0x5b781f8: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b781fd: mov rdi, rax
+// asm:   0x5b78200: call 0x2ab61e0  ; __clang_call_terminate()
 
 CustomLogic_CustomLogicStartAst_o *
 CustomLogic_CustomLogicParser__GetStartAst(CustomLogic_CustomLogicParser_o *__this,MethodInfo *method)
 
 {
   CustomLogic_CustomLogicStartAst_o *__this_00;
+  MethodInfo *in_RCX;
   
-  if (Il2CppMethodInitialized_1843469c5 == '\0') {
+  if (Il2CppMethodInitialized_07547390 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicStartAst);
-    Il2CppMethodInitialized_1843469c5 = '\x01';
+    Il2CppMethodInitialized_07547390 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicStartAst);
   CustomLogic_CustomLogicStartAst___ctor(__this_00,(MethodInfo *)0x0);
-  CustomLogic_CustomLogicParser__ParseAst
-            (__this,0,(CustomLogic_CustomLogicBaseAst_o *)__this_00,(MethodInfo *)0x0);
-  if (__this_00 != (CustomLogic_CustomLogicStartAst_o *)0x0) {
-    CustomLogic_CustomLogicStartAst__AddEmptyMain(__this_00,(MethodInfo *)0x0);
-    return __this_00;
+  CustomLogic_CustomLogicParser__ParseAst(__this,0,(CustomLogic_CustomLogicBaseAst_o *)__this_00,in_RCX);
+  if (__this_00 == (CustomLogic_CustomLogicStartAst_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicStartAst__AddEmptyMain(__this_00,(MethodInfo *)0x0);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicParser$$ParseExpression
 // il2cpp: CustomLogic_CustomLogicBaseExpressionAst_o* CustomLogic_CustomLogicParser__ParseExpression (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicBaseExpressionAst_o* prev, int32_t startIndex, int32_t endIndex, const MethodInfo* method);
-// 0x1820e7940
-// asm: 11 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e7dc5: mov ebx, r15d
-// asm:   0x1820e7dc8: mov eax, r15d
-// asm:   0x1820e7dcb: nop dword ptr [rax + rax]
-// asm:   0x1820e8043: mov ebx, r15d
-// asm:   0x1820e8046: mov eax, r15d
-// asm:   0x1820e8049: nop dword ptr [rax]
-// asm:   0x1820e825c: mov edi, ebx
-// asm:   0x1820e825e: mov eax, ebx
-// asm:   0x1820e82ff: mov rdx, r15
-// asm:   0x1820e8372: mov rax, r12
-// asm:   0x1820e8375: jmp 0x1820e830a
+// 0x5b7d3e0
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7d58a: test eax, eax
+// asm:   0x5b7d58c: je 0x5b7d60c
+// asm:   0x5b7d597: jmp 0x5b7d690
+// asm:   0x5b7d681: nop word ptr cs:[rax + rax]
+// asm:   0x5b7d93f: nop 
+// asm:   0x5b7d993: jmp 0x5b7da0f
+// asm:   0x5b7da0c: mov ebp, r13d
 
 CustomLogic_CustomLogicBaseExpressionAst_o *
 CustomLogic_CustomLogicParser__ParseExpression
@@ -248,33 +243,37 @@ CustomLogic_CustomLogicParser__ParseExpression
   int32_t *piVar1;
   int iVar2;
   uint uVar3;
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar4;
-  System_String_o *pSVar5;
-  System_Collections_Generic_List_CustomLogicBaseAst__o *pSVar6;
-  CustomLogic_CustomLogicBaseAst_array *pCVar7;
-  Il2CppObject *obj;
-  MethodInfo *pMVar8;
-  int32_t iVar9;
-  CustomLogic_CustomLogicToken_o *pCVar10;
+  Il2CppObject *value;
+  System_Collections_Generic_List_CustomLogicBaseAst__o *pSVar4;
+  CustomLogic_CustomLogicBaseAst_array *pCVar5;
+  bool bVar6;
+  int32_t iVar7;
+  int iVar8;
+  CustomLogic_CustomLogicToken_o *token;
+  CustomLogic_CustomLogicToken_o *pCVar9;
+  int *piVar10;
   CustomLogic_CustomLogicToken_o *pCVar11;
-  int *piVar12;
+  CustomLogic_CustomLogicMethodCallExpressionAst_o *pCVar12;
+  System_Int32_array *pSVar13;
+  il2cpp_array_size_t iVar14;
+  CustomLogic_CustomLogicBaseExpressionAst_o *pCVar15;
   CustomLogic_CustomLogicAssignmentExpressionAst_o *__this_00;
-  CustomLogic_CustomLogicToken_o *pCVar13;
-  CustomLogic_CustomLogicAssignmentExpressionAst_o *__this_01;
-  CustomLogic_CustomLogicToken_o *pCVar14;
-  CustomLogic_CustomLogicMethodCallExpressionAst_o *__this_02;
-  System_Int32_array *pSVar15;
-  CustomLogic_CustomLogicBaseExpressionAst_o *pCVar16;
-  CustomLogic_CustomLogicFieldExpressionAst_o *__this_03;
-  CustomLogic_CustomLogicClassInstantiateExpressionAst_o *__this_04;
-  CustomLogic_CustomLogicVariableExpressionAst_o *__this_05;
-  Il2CppObject *pIVar17;
+  undefined4 in_register_0000000c;
+  MethodInfo *pMVar16;
+  MethodInfo **method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
+  System_String_o *pSVar17;
+  CustomLogic_CustomLogicAssignmentExpressionAst_o *prev_00;
+  CustomLogic_CustomLogicParser_o *__this_01;
+  System_Collections_Generic_List_CustomLogicToken__o *pSVar18;
   CustomLogic_CustomLogicToken_o **targetAddress;
-  System_String_o *name;
-  uint uVar18;
-  int iVar19;
+  ulong uVar19;
   
-  if (Il2CppMethodInitialized_1843469c6 == '\0') {
+  method_00 = (MethodInfo **)CONCAT44(in_register_0000000c,endIndex);
+label_05b7d43d:
+  if (Il2CppMethodInitialized_07547391 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicBinopExpressionAst);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicClassInstantiateExpressionAst)
@@ -296,428 +295,323 @@ CustomLogic_CustomLogicParser__ParseExpression
               (&
                FieldRva_PrivateImplementationDetails_A96D128D7C4FCB36E9F24CD74A9A916557FDB0792B43C708719409C6DE503E81
               );
-    Il2CppMethodInitialized_1843469c6 = '\x01';
+    Il2CppMethodInitialized_07547391 = '\x01';
   }
-  pSVar4 = (__this->fields)._tokens;
-  if (pSVar4 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e8377;
-  pCVar10 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                      ((System_Collections_Generic_List_object__o *)pSVar4,startIndex,
-                       (MethodInfo_92B830 *)
-                       MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+  pSVar18 = (__this->fields)._tokens;
+  if (pSVar18 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dc79;
+  token = System_Collections_Generic_List_object___get_Item
+                    ((System_Collections_Generic_List_object__o *)pSVar18,startIndex,
+                     (MethodInfo_395CF20 *)
+                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
   if (endIndex < startIndex) {
-    return prev;
+    return (CustomLogic_CustomLogicBaseExpressionAst_o *)
+           (CustomLogic_CustomLogicMethodCallExpressionAst_o *)prev;
   }
-  pSVar4 = (__this->fields)._tokens;
-  if (pSVar4 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e8377;
-  pCVar13 = (CustomLogic_CustomLogicToken_o *)0x0;
-  pCVar11 = pCVar13;
-  if (startIndex < (pSVar4->fields)._size + -1) {
-    pCVar11 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                        ((System_Collections_Generic_List_object__o *)(__this->fields)._tokens,startIndex + 1,
-                         (MethodInfo_92B830 *)
-                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-  }
-  iVar9 = CustomLogic_CustomLogicParser__FindLowestBinop(__this,startIndex,endIndex,(MethodInfo *)0x0);
-  if (iVar9 < 1) {
-    if (pCVar10 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e8377;
-    if ((pCVar10->fields).Type == 0) {
-      pIVar17 = (pCVar10->fields).Value;
-      if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-      if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-      }
-      piVar12 = il2cpp_object_unbox(pIVar17);
-      if (*piVar12 == 0xb) {
-        iVar9 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex,(MethodInfo *)0x0);
-        pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                            (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 1,
-                             iVar9 + -1,(MethodInfo *)0x0);
-        pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                            (__this,pCVar16,iVar9 + 1,endIndex,(MethodInfo *)0x0);
-        return pCVar16;
-      }
-      if (pCVar10 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e8377;
-    }
-    if ((pCVar10->fields).Type == 1) {
-      pIVar17 = (pCVar10->fields).Value;
-      iVar9 = (pCVar10->fields).Line;
-      __this_05 = (CustomLogic_CustomLogicVariableExpressionAst_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrimitiveExpressionAst);
-      CustomLogic_CustomLogicPrimitiveExpressionAst___ctor
-                ((CustomLogic_CustomLogicPrimitiveExpressionAst_o *)__this_05,pIVar17,iVar9,(MethodInfo *)0x0)
-      ;
-    }
-    else {
-      if ((pCVar10->fields).Type == 0) {
-        pIVar17 = (pCVar10->fields).Value;
-        if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-        if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-        }
-        piVar12 = il2cpp_object_unbox(pIVar17);
-        if (*piVar12 == 0x13) {
-          if (pCVar11 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e8377;
-          iVar9 = (pCVar11->fields).Line;
-          __this_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicNotExpressionAst);
-          CustomLogic_CustomLogicNotExpressionAst___ctor
-                    ((CustomLogic_CustomLogicNotExpressionAst_o *)__this_00,iVar9,(MethodInfo *)0x0);
-          __this_01 = __this_00;
-label_1820e7b60:
-          pCVar13 = (CustomLogic_CustomLogicToken_o *)
-                    CustomLogic_CustomLogicParser__ParseExpression
-                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)__this_00,startIndex + 1,
-                               endIndex,(MethodInfo *)0x0);
-          if (__this_01 == (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) goto label_1820e8377;
-          (__this_01->fields).Left = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar13;
-          targetAddress = (CustomLogic_CustomLogicToken_o **)&(__this_01->fields).Left;
-          goto label_1820e8302;
-        }
-        if ((pCVar10->fields).Type == 0) {
-          pIVar17 = (pCVar10->fields).Value;
-          if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-          if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-          }
-          piVar12 = il2cpp_object_unbox(pIVar17);
-          if (*piVar12 == 0x22) {
-label_1820e7c42:
-            iVar9 = (pCVar10->fields).Line;
-            __this_01 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
-                        il2cpp_codegen_object_new
-                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUnaryExpressionAst);
-            CustomLogic_CustomLogicUnaryExpressionAst___ctor
-                      ((CustomLogic_CustomLogicUnaryExpressionAst_o *)__this_01,pCVar10,iVar9,
-                       (MethodInfo *)0x0);
-            __this_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0;
-            goto label_1820e7b60;
-          }
-          if ((pCVar10->fields).Type == 0) {
-            pIVar17 = (pCVar10->fields).Value;
-            if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-            if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-            }
-            piVar12 = il2cpp_object_unbox(pIVar17);
-            if (*piVar12 == 0x21) goto label_1820e7c42;
-            if ((pCVar10->fields).Type == 0) {
-              pIVar17 = (pCVar10->fields).Value;
-              if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-              if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-              }
-              piVar12 = il2cpp_object_unbox(pIVar17);
-              if (*piVar12 == 0x29) {
-                CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar11,2,(MethodInfo *)0x0);
-                pSVar4 = (__this->fields)._tokens;
-                if (pSVar4 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e8377;
-                pCVar14 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                    ((System_Collections_Generic_List_object__o *)pSVar4,startIndex + 2,
-                                     (MethodInfo_92B830 *)
-                                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-                if ((pCVar14 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar14->fields).Type == 0)) {
-                  pIVar17 = (pCVar14->fields).Value;
-                  if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-                  if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                    il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-                  }
-                  piVar12 = il2cpp_object_unbox(pIVar17);
-                  if (*piVar12 == 0xb) {
-                    if (pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) {
-                      pSVar5 = (System_String_o *)(pCVar11->fields).Value;
-                      iVar9 = (pCVar10->fields).Line;
-                      __this_02 = il2cpp_codegen_object_new
-                                            ((Il2CppClass *)
-                                             TypeInfo_CustomLogic_CustomLogicMethodCallExpressionAst);
-                      name = (System_String_o *)0x0;
-                      if (pSVar5 != (System_String_o *)0x0) {
-                        if ((Il2CppClass *)pSVar5->klass == g_data_184354e50) {
-                          name = pSVar5;
-                        }
-                        if (name == (System_String_o *)0x0) {
-                          il2cpp_codegen_raise_invalid_cast_exception(pSVar5,g_data_184354e50);
-                        }
-                      }
-                      CustomLogic_CustomLogicMethodCallExpressionAst___ctor
-                                (__this_02,name,iVar9,(MethodInfo *)0x0);
-                      if (__this_02 != (CustomLogic_CustomLogicMethodCallExpressionAst_o *)0x0) {
-                        (__this_02->fields).Left = prev;
-                        Il2CppCodeGenWriteBarrier(&(__this_02->fields).Left,prev);
-                        iVar9 = CustomLogic_CustomLogicParser__FindClosingParen
-                                          (__this,startIndex + 2,(MethodInfo *)0x0);
-                        pSVar15 = CustomLogic_CustomLogicParser__FindCommas
-                                            (__this,startIndex + 3,iVar9,(MethodInfo *)0x0);
-                        if (pSVar15 != (System_Int32_array *)0x0) {
-                          iVar19 = startIndex + 3;
-                          uVar18 = 0;
-                          if (pSVar15->max_length != 0) {
-                            while ((int)uVar18 < (int)pSVar15->max_length) {
-                              if ((uint)pSVar15->max_length <= uVar18) goto label_1820e83f5;
-                              iVar2 = pSVar15->m_Items[(int)uVar18];
-                              pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                                  (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,
-                                                   iVar19,iVar2 + -1,(MethodInfo *)0x0);
-                              pMVar8 = MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
-                              pSVar6 = (__this_02->fields).Parameters;
-                              if (pSVar6 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0)
-                              goto label_1820e8377;
-                              piVar1 = &(pSVar6->fields)._version;
-                              *piVar1 = *piVar1 + 1;
-                              pCVar7 = (pSVar6->fields)._items;
-                              if (pCVar7 == (CustomLogic_CustomLogicBaseAst_array *)0x0) goto label_1820e8377;
-                              uVar3 = (pSVar6->fields)._size;
-                              if (uVar3 < (uint)pCVar7->max_length) {
-                                (pSVar6->fields)._size = uVar3 + 1;
-                                if ((uint)pCVar7->max_length <= uVar3) goto label_1820e83f5;
-                                pCVar7->m_Items[(int)uVar3] = (CustomLogic_CustomLogicBaseAst_o *)pCVar16;
-                                Il2CppCodeGenWriteBarrier(pCVar7->m_Items + (int)uVar3,pCVar16);
-                                uVar18 = uVar18 + 1;
-                                iVar19 = iVar2 + 1;
-                              }
-                              else {
-                                System_Collections_Generic_List_object___AddWithResize
-                                          ((System_Collections_Generic_List_object__o *)pSVar6,
-                                           (Il2CppObject *)pCVar16,
-                                           (MethodInfo_93DD50 *)pMVar8->klass->rgctx_data[0xe].method);
-                                uVar18 = uVar18 + 1;
-                                iVar19 = iVar2 + 1;
-                              }
-                            }
-                          }
-                          pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar19
-                                               ,iVar9 + -1,(MethodInfo *)0x0);
-                          if (pCVar16 != (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0) {
-                            pSVar6 = (__this_02->fields).Parameters;
-                            if (pSVar6 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0)
-                            goto label_1820e8377;
-                            il2cpp_runtime_helper_180012890(pSVar6,pCVar16,
-                                          MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
-                          }
-                          pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)__this_02,
-                                               iVar9 + 1,endIndex,(MethodInfo *)0x0);
-                          return pCVar16;
-                        }
-                      }
-                    }
-                    goto label_1820e8377;
-                  }
-                }
-                if (pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) {
-                  pCVar11 = (CustomLogic_CustomLogicToken_o *)(pCVar11->fields).Value;
-                  iVar9 = (pCVar10->fields).Line;
-                  __this_03 = il2cpp_codegen_object_new
-                                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicFieldExpressionAst);
-                  if (pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) {
-                    if ((Il2CppClass *)pCVar11->klass == g_data_184354e50) {
-                      pCVar13 = pCVar11;
-                    }
-                    if (pCVar13 == (CustomLogic_CustomLogicToken_o *)0x0) {
-                      il2cpp_codegen_raise_invalid_cast_exception(pCVar11,g_data_184354e50);
-                    }
-                  }
-                  CustomLogic_CustomLogicFieldExpressionAst___ctor
-                            (__this_03,(System_String_o *)pCVar13,iVar9,(MethodInfo *)0x0);
-                  if (__this_03 != (CustomLogic_CustomLogicFieldExpressionAst_o *)0x0) {
-                    (__this_03->fields).Left = prev;
-                    Il2CppCodeGenWriteBarrier(&(__this_03->fields).Left,prev);
-                    pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                        (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)__this_03,
-                                         startIndex + 2,endIndex,(MethodInfo *)0x0);
-                    return pCVar16;
-                  }
-                }
-                goto label_1820e8377;
-              }
-            }
-          }
-        }
-      }
-      if ((pCVar10->fields).Type != 2) {
-        return (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0;
-      }
-      if ((pCVar11 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar11->fields).Type != 0)) {
-        pCVar11 = (CustomLogic_CustomLogicToken_o *)(pCVar10->fields).Value;
-        iVar9 = (pCVar10->fields).Line;
-      }
-      else {
-        pIVar17 = (pCVar11->fields).Value;
-        if (pIVar17 == (Il2CppObject *)0x0) {
-label_1820e8377:
-          ThrowNullReferenceException();
-        }
-        if ((pIVar17->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar17,g_data_184354e08);
-        }
-        piVar12 = il2cpp_object_unbox(pIVar17);
-        pCVar11 = (CustomLogic_CustomLogicToken_o *)(pCVar10->fields).Value;
-        iVar9 = (pCVar10->fields).Line;
-        if (*piVar12 == 0xb) {
-          __this_04 = il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassInstantiateExpressionAst)
-          ;
-          pCVar10 = (CustomLogic_CustomLogicToken_o *)0x0;
-          if (pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) {
-            if ((Il2CppClass *)pCVar11->klass == g_data_184354e50) {
-              pCVar10 = pCVar11;
-            }
-            if (pCVar10 == (CustomLogic_CustomLogicToken_o *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pCVar11,g_data_184354e50);
-            }
-          }
-          CustomLogic_CustomLogicClassInstantiateExpressionAst___ctor
-                    (__this_04,(System_String_o *)pCVar10,iVar9,(MethodInfo *)0x0);
-          if (__this_04 != (CustomLogic_CustomLogicClassInstantiateExpressionAst_o *)0x0) {
-            (__this_04->fields).Left = prev;
-            Il2CppCodeGenWriteBarrier(&(__this_04->fields).Left,prev);
-            iVar9 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex + 1,(MethodInfo *)0x0);
-            pSVar15 = CustomLogic_CustomLogicParser__FindCommas(__this,startIndex + 2,iVar9,(MethodInfo *)0x0)
-            ;
-            if (pSVar15 != (System_Int32_array *)0x0) {
-              iVar19 = startIndex + 2;
-              uVar18 = 0;
-              if (pSVar15->max_length != 0) {
-                while ((int)uVar18 < (int)pSVar15->max_length) {
-                  if ((uint)pSVar15->max_length <= uVar18) {
-label_1820e83f5:
-                    ThrowIndexOutOfRangeException();
-                  }
-                  iVar2 = pSVar15->m_Items[(int)uVar18];
-                  pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                      (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar19,
-                                       iVar2 + -1,(MethodInfo *)0x0);
-                  pMVar8 = MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
-                  pSVar6 = (__this_04->fields).Parameters;
-                  if (pSVar6 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0)
-                  goto label_1820e8377;
-                  piVar1 = &(pSVar6->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pCVar7 = (pSVar6->fields)._items;
-                  if (pCVar7 == (CustomLogic_CustomLogicBaseAst_array *)0x0) goto label_1820e8377;
-                  uVar3 = (pSVar6->fields)._size;
-                  if (uVar3 < (uint)pCVar7->max_length) {
-                    (pSVar6->fields)._size = uVar3 + 1;
-                    if ((uint)pCVar7->max_length <= uVar3) goto label_1820e83f5;
-                    pCVar7->m_Items[(int)uVar3] = (CustomLogic_CustomLogicBaseAst_o *)pCVar16;
-                    Il2CppCodeGenWriteBarrier(pCVar7->m_Items + (int)uVar3,pCVar16);
-                    uVar18 = uVar18 + 1;
-                    iVar19 = iVar2 + 1;
-                  }
-                  else {
-                    System_Collections_Generic_List_object___AddWithResize
-                              ((System_Collections_Generic_List_object__o *)pSVar6,(Il2CppObject *)pCVar16,
-                               (MethodInfo_93DD50 *)pMVar8->klass->rgctx_data[0xe].method);
-                    uVar18 = uVar18 + 1;
-                    iVar19 = iVar2 + 1;
-                  }
-                }
-              }
-              pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                  (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar19,iVar9 + -1,
-                                   (MethodInfo *)0x0);
-              if (pCVar16 != (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0) {
-                pSVar6 = (__this_04->fields).Parameters;
-                if (pSVar6 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0)
-                goto label_1820e8377;
-                il2cpp_runtime_helper_180012890(pSVar6,pCVar16,MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add
-                             );
-              }
-              pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                                  (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)__this_04,iVar9 + 1,
-                                   endIndex,(MethodInfo *)0x0);
-              return pCVar16;
-            }
-          }
-          goto label_1820e8377;
-        }
-      }
-      __this_05 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
-      if (pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) {
-        if ((Il2CppClass *)pCVar11->klass == g_data_184354e50) {
-          pCVar13 = pCVar11;
-        }
-        if (pCVar13 == (CustomLogic_CustomLogicToken_o *)0x0) {
-          il2cpp_codegen_raise_invalid_cast_exception(pCVar11,g_data_184354e50);
-        }
-      }
-      CustomLogic_CustomLogicVariableExpressionAst___ctor
-                (__this_05,(System_String_o *)pCVar13,iVar9,(MethodInfo *)0x0);
-    }
-    __this_01 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
-                CustomLogic_CustomLogicParser__ParseExpression
-                          (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)__this_05,startIndex + 1,
-                           endIndex,(MethodInfo *)0x0);
+  pSVar18 = (__this->fields)._tokens;
+  if (pSVar18 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dc79;
+  if (startIndex < (pSVar18->fields)._size + -1) {
+    pCVar9 = System_Collections_Generic_List_object___get_Item
+                       ((System_Collections_Generic_List_object__o *)pSVar18,startIndex + 1,
+                        (MethodInfo_395CF20 *)
+                        MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
   }
   else {
-    pSVar4 = (__this->fields)._tokens;
-    if (pSVar4 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e8377;
-    pCVar11 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                        ((System_Collections_Generic_List_object__o *)pSVar4,iVar9,
-                         (MethodInfo_92B830 *)
-                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    uVar18 = 0;
-    pCVar16 = CustomLogic_CustomLogicParser__ParseExpression
-                        (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex,iVar9 + -1,
-                         (MethodInfo *)0x0);
-    pCVar13 = (CustomLogic_CustomLogicToken_o *)
+    pCVar9 = (CustomLogic_CustomLogicToken_o *)0x0;
+  }
+  __this_01 = __this;
+  iVar7 = CustomLogic_CustomLogicParser__FindLowestBinop(__this,startIndex,endIndex,(MethodInfo *)method_00);
+  if (0 < iVar7) {
+    pSVar18 = (__this->fields)._tokens;
+    if (pSVar18 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dc79;
+    pCVar9 = System_Collections_Generic_List_object___get_Item
+                       ((System_Collections_Generic_List_object__o *)pSVar18,iVar7,
+                        (MethodInfo_395CF20 *)
+                        MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+    pCVar15 = CustomLogic_CustomLogicParser__ParseExpression
+                        (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex,iVar7 + -1,method
+                        );
+    pMVar16 = (MethodInfo *)(ulong)(uint)endIndex;
+    pCVar11 = (CustomLogic_CustomLogicToken_o *)
               CustomLogic_CustomLogicParser__ParseExpression
-                        (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar9 + 1,endIndex,
-                         (MethodInfo *)0x0);
-    pIVar17 = SZArrayNew(TypeInfo_int_array,5);
-    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-              ((System_Array_o *)pIVar17,
+                        (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar7 + 1,endIndex,method);
+    pSVar13 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,5);
+    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+              ((System_Array_o *)pSVar13,
                FieldRva_PrivateImplementationDetails_A96D128D7C4FCB36E9F24CD74A9A916557FDB0792B43C708719409C6DE503E81
                ,(MethodInfo *)0x0);
-    if (pIVar17 == (Il2CppObject *)0x0) goto label_1820e8377;
-    for (; (int)uVar18 < *(int *)&pIVar17[1].monitor; uVar18 = uVar18 + 1) {
-      if (*(uint *)&pIVar17[1].monitor <= uVar18) goto label_1820e83f5;
-      if ((pCVar11 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar11->fields).Type == 0)) {
-        obj = (pCVar11->fields).Value;
-        if (obj == (Il2CppObject *)0x0) goto label_1820e8377;
-        if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
-        }
-        iVar19 = *(int *)((longlong)&pIVar17[2].klass + (longlong)(int)uVar18 * 4);
-        piVar12 = il2cpp_object_unbox(obj);
-        if (*piVar12 == iVar19) {
-          if (pCVar10 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e8377;
-          iVar9 = (pCVar10->fields).Line;
-          __this_01 = il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
-          CustomLogic_CustomLogicAssignmentExpressionAst___ctor
-                    (__this_01,pCVar16,pCVar11,iVar9,(MethodInfo *)0x0);
-          if (__this_01 == (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) goto label_1820e8377;
-          (__this_01->fields).Right = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar13;
-          targetAddress = (CustomLogic_CustomLogicToken_o **)&(__this_01->fields).Right;
-          goto label_1820e8302;
+    bVar6 = CustomLogic_CustomLogicParser__IsAnySymbolValue(__this,pCVar9,pSVar13,pMVar16);
+    if (!bVar6) {
+      if (pCVar9 != (CustomLogic_CustomLogicToken_o *)0x0) {
+        iVar7 = (pCVar9->fields).Line;
+        __this_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBinopExpressionAst);
+        CustomLogic_CustomLogicBinopExpressionAst___ctor
+                  ((CustomLogic_CustomLogicBinopExpressionAst_o *)__this_00,pCVar9,iVar7,(MethodInfo *)0x0);
+        if (__this_00 != (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) {
+          (__this_00->fields).Left = pCVar15;
+          Il2CppCodeGenWriteBarrier(&(__this_00->fields).Left);
+          targetAddress = &(__this_00->fields).Operator;
+          (__this_00->fields).Operator = pCVar11;
+          goto label_05b7dc5e;
         }
       }
+      goto label_05b7dc79;
     }
-    if (pCVar11 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e8377;
-    iVar9 = (pCVar11->fields).Line;
-    __this_01 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
-                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBinopExpressionAst);
-    CustomLogic_CustomLogicBinopExpressionAst___ctor
-              ((CustomLogic_CustomLogicBinopExpressionAst_o *)__this_01,pCVar11,iVar9,(MethodInfo *)0x0);
-    if (__this_01 == (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) goto label_1820e8377;
-    (__this_01->fields).Left = pCVar16;
-    Il2CppCodeGenWriteBarrier(&(__this_01->fields).Left,pCVar16);
-    targetAddress = &(__this_01->fields).Operator;
-    (__this_01->fields).Operator = pCVar13;
-label_1820e8302:
-    Il2CppCodeGenWriteBarrier(targetAddress,pCVar13);
+    if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7dc79;
+    iVar7 = (token->fields).Line;
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
+    CustomLogic_CustomLogicAssignmentExpressionAst___ctor(__this_00,pCVar15,pCVar9,iVar7,(MethodInfo *)0x0);
+    if (__this_00 == (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) goto label_05b7dc79;
+    targetAddress = (CustomLogic_CustomLogicToken_o **)&(__this_00->fields).Right;
+    (__this_00->fields).Right = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar11;
+    goto label_05b7dc5e;
   }
-  return (CustomLogic_CustomLogicBaseExpressionAst_o *)__this_01;
+  if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7dc79;
+  iVar8 = (token->fields).Type;
+  if (iVar8 == 0) {
+    __this_01 = (CustomLogic_CustomLogicParser_o *)(token->fields).Value;
+    if (__this_01 == (CustomLogic_CustomLogicParser_o *)0x0) goto label_05b7dc79;
+    if ((((Il2CppClass *)__this_01->klass)->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+    goto label_05b7dc83;
+    piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+    if (*piVar10 == 0xb) {
+      iVar7 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex,method_01);
+      method_00 = (MethodInfo **)(ulong)(iVar7 - 1U);
+      prev = CustomLogic_CustomLogicParser__ParseExpression
+                       (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 1,iVar7 - 1U,
+                        method);
+      startIndex = iVar7 + 1;
+      goto label_05b7d43d;
+    }
+    iVar8 = (token->fields).Type;
+  }
+  if (iVar8 != 0) {
+    if (iVar8 != 1) goto label_05b7d690;
+    value = (token->fields).Value;
+    iVar7 = (token->fields).Line;
+    prev = (CustomLogic_CustomLogicBaseExpressionAst_o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrimitiveExpressionAst);
+    method_00 = (MethodInfo **)0x0;
+    CustomLogic_CustomLogicPrimitiveExpressionAst___ctor
+              ((CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev,value,iVar7,(MethodInfo *)0x0);
+    startIndex = startIndex + 1;
+    goto label_05b7d43d;
+  }
+  __this_01 = (CustomLogic_CustomLogicParser_o *)(token->fields).Value;
+  if (__this_01 == (CustomLogic_CustomLogicParser_o *)0x0) goto label_05b7dc79;
+  if ((((Il2CppClass *)__this_01->klass)->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+label_05b7dc83:
+    il2cpp_codegen_raise_invalid_cast_exception();
+  }
+  piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+  if (*piVar10 == 0x13) {
+    if (pCVar9 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7dc79;
+    iVar7 = (pCVar9->fields).Line;
+    __this_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicNotExpressionAst);
+    CustomLogic_CustomLogicNotExpressionAst___ctor
+              ((CustomLogic_CustomLogicNotExpressionAst_o *)__this_00,iVar7,(MethodInfo *)0x0);
+    prev_00 = __this_00;
+  }
+  else {
+    if ((token->fields).Type == 0) {
+      __this_01 = (CustomLogic_CustomLogicParser_o *)(token->fields).Value;
+      if (__this_01 == (CustomLogic_CustomLogicParser_o *)0x0) goto label_05b7dc79;
+      if ((((Il2CppClass *)__this_01->klass)->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+      goto label_05b7dc83;
+      piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+      if (*piVar10 != 0x22) goto label_05b7d690;
+    }
+    else {
+label_05b7d690:
+      bVar6 = CustomLogic_CustomLogicParser__IsSymbolValue(__this_01,token,0x21,(MethodInfo *)method_00);
+      if (!bVar6) {
+        bVar6 = CustomLogic_CustomLogicParser__IsSymbolValue(__this_01,token,0x29,(MethodInfo *)method_00);
+        if (!bVar6) {
+          if ((token->fields).Type != 2) {
+            return (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0;
+          }
+          bVar6 = CustomLogic_CustomLogicParser__IsSymbolValue(__this_01,pCVar9,0xb,(MethodInfo *)method_00);
+          pSVar17 = (System_String_o *)(token->fields).Value;
+          iVar7 = (token->fields).Line;
+          if (!bVar6) {
+            prev = (CustomLogic_CustomLogicBaseExpressionAst_o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
+            if ((pSVar17 != (System_String_o *)0x0) && (pSVar17->klass != g_data_07556758)) goto label_05b7dc88;
+            method_00 = (MethodInfo **)0x0;
+            CustomLogic_CustomLogicVariableExpressionAst___ctor
+                      ((CustomLogic_CustomLogicVariableExpressionAst_o *)prev,pSVar17,iVar7,(MethodInfo *)0x0)
+            ;
+            startIndex = startIndex + 1;
+            goto label_05b7d43d;
+          }
+          pCVar12 = (CustomLogic_CustomLogicMethodCallExpressionAst_o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassInstantiateExpressionAst);
+          if ((pSVar17 != (System_String_o *)0x0) && (pSVar17->klass != g_data_07556758)) {
+label_05b7dc88:
+            il2cpp_codegen_raise_invalid_cast_exception(pSVar17);
+          }
+          pMVar16 = (MethodInfo *)0x0;
+          CustomLogic_CustomLogicClassInstantiateExpressionAst___ctor
+                    ((CustomLogic_CustomLogicClassInstantiateExpressionAst_o *)pCVar12,pSVar17,iVar7,
+                     (MethodInfo *)0x0);
+          if (pCVar12 == (CustomLogic_CustomLogicMethodCallExpressionAst_o *)0x0) goto label_05b7dc79;
+          (((CustomLogic_CustomLogicClassInstantiateExpressionAst_o *)pCVar12)->fields).Left = prev;
+          Il2CppCodeGenWriteBarrier
+                    (&(((CustomLogic_CustomLogicClassInstantiateExpressionAst_o *)pCVar12)->fields).Left);
+          iVar8 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex + 1,method_03);
+          iVar7 = startIndex + 2;
+          pSVar13 = CustomLogic_CustomLogicParser__FindCommas(__this,iVar7,iVar8,pMVar16);
+          if (pSVar13 == (System_Int32_array *)0x0) goto label_05b7dc79;
+          iVar14 = pSVar13->max_length;
+          if ((iVar14 != 0) && (0 < (int)iVar14)) {
+            uVar19 = 0;
+            do {
+              if ((iVar14 & 0xffffffff) <= uVar19) goto label_05b7dc7e;
+              iVar2 = pSVar13->m_Items[uVar19];
+              pCVar15 = CustomLogic_CustomLogicParser__ParseExpression
+                                  (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar7,iVar2 + -1,
+                                   method);
+              pSVar4 = (((CustomLogic_CustomLogicClassInstantiateExpressionAst_o *)pCVar12)->fields).
+                       Parameters;
+              if (pSVar4 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0) goto label_05b7dc79;
+              il2cpp_runtime_helper_02fd7670(pSVar4,pCVar15,MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
+              iVar7 = iVar2 + 1;
+              uVar19 = uVar19 + 1;
+              uVar3 = (uint)pSVar13->max_length;
+              iVar14 = (il2cpp_array_size_t)uVar3;
+            } while ((long)uVar19 < (long)(int)uVar3);
+          }
+label_05b7da0f:
+          method_00 = (MethodInfo **)(ulong)(iVar8 - 1U);
+          pCVar15 = CustomLogic_CustomLogicParser__ParseExpression
+                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar7,iVar8 - 1U,
+                               method);
+          if (pCVar15 != (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0) {
+            pSVar4 = (pCVar12->fields).Parameters;
+            if (pSVar4 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0) goto label_05b7dc79;
+            method_00 = &MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
+            il2cpp_runtime_helper_02fd7670(pSVar4,pCVar15,MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
+          }
+          prev = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar12;
+          startIndex = iVar8 + 1;
+          goto label_05b7d43d;
+        }
+        CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar9,2,(MethodInfo *)method_00);
+        pSVar18 = (__this->fields)._tokens;
+        if (pSVar18 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dc79;
+        iVar8 = startIndex + 2;
+        pCVar11 = System_Collections_Generic_List_object___get_Item
+                            ((System_Collections_Generic_List_object__o *)pSVar18,iVar8,
+                             (MethodInfo_395CF20 *)
+                             MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+        bVar6 = CustomLogic_CustomLogicParser__IsSymbolValue
+                          ((CustomLogic_CustomLogicParser_o *)pSVar18,pCVar11,0xb,(MethodInfo *)method_00);
+        if (bVar6) {
+          if (pCVar9 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7dc79;
+          pSVar17 = (System_String_o *)(pCVar9->fields).Value;
+          iVar7 = (token->fields).Line;
+          pCVar12 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMethodCallExpressionAst);
+          if ((pSVar17 != (System_String_o *)0x0) && (pSVar17->klass != g_data_07556758)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pSVar17);
+          }
+          pMVar16 = (MethodInfo *)0x0;
+          CustomLogic_CustomLogicMethodCallExpressionAst___ctor(pCVar12,pSVar17,iVar7,(MethodInfo *)0x0);
+          if (pCVar12 == (CustomLogic_CustomLogicMethodCallExpressionAst_o *)0x0) goto label_05b7dc79;
+          (pCVar12->fields).Left = prev;
+          Il2CppCodeGenWriteBarrier(&(pCVar12->fields).Left);
+          iVar8 = CustomLogic_CustomLogicParser__FindClosingParen(__this,iVar8,method_02);
+          iVar7 = startIndex + 3;
+          pSVar13 = CustomLogic_CustomLogicParser__FindCommas(__this,iVar7,iVar8,pMVar16);
+          if (pSVar13 == (System_Int32_array *)0x0) goto label_05b7dc79;
+          iVar14 = pSVar13->max_length;
+          if ((iVar14 != 0) && (0 < (int)iVar14)) {
+            uVar19 = 0;
+            do {
+              if ((iVar14 & 0xffffffff) <= uVar19) {
+label_05b7dc7e:
+                ThrowIndexOutOfRangeException();
+              }
+              iVar2 = pSVar13->m_Items[uVar19];
+              pCVar15 = CustomLogic_CustomLogicParser__ParseExpression
+                                  (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar7,iVar2 + -1,
+                                   method);
+              pMVar16 = MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
+              pSVar4 = (pCVar12->fields).Parameters;
+              if (pSVar4 == (System_Collections_Generic_List_CustomLogicBaseAst__o *)0x0) goto label_05b7dc79;
+              piVar1 = &(pSVar4->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pCVar5 = (pSVar4->fields)._items;
+              if (pCVar5 == (CustomLogic_CustomLogicBaseAst_array *)0x0) goto label_05b7dc79;
+              uVar3 = (pSVar4->fields)._size;
+              if (uVar3 < (uint)pCVar5->max_length) {
+                (pSVar4->fields)._size = uVar3 + 1;
+                pCVar5->m_Items[(int)uVar3] = (CustomLogic_CustomLogicBaseAst_o *)pCVar15;
+                Il2CppCodeGenWriteBarrier(pCVar5->m_Items + (int)uVar3);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)pCVar15,
+                           (MethodInfo_395D230 *)pMVar16->klass->rgctx_data[0xe].method);
+              }
+              iVar7 = iVar2 + 1;
+              uVar19 = uVar19 + 1;
+              uVar3 = (uint)pSVar13->max_length;
+              iVar14 = (il2cpp_array_size_t)uVar3;
+            } while ((long)uVar19 < (long)(int)uVar3);
+          }
+          goto label_05b7da0f;
+        }
+        if (pCVar9 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7dc79;
+        pSVar17 = (System_String_o *)(pCVar9->fields).Value;
+        iVar7 = (token->fields).Line;
+        pCVar12 = (CustomLogic_CustomLogicMethodCallExpressionAst_o *)
+                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicFieldExpressionAst)
+        ;
+        if ((pSVar17 != (System_String_o *)0x0) && (pSVar17->klass != g_data_07556758)) goto label_05b7dc88;
+        method_00 = (MethodInfo **)0x0;
+        CustomLogic_CustomLogicFieldExpressionAst___ctor
+                  ((CustomLogic_CustomLogicFieldExpressionAst_o *)pCVar12,pSVar17,iVar7,(MethodInfo *)0x0);
+        if (pCVar12 != (CustomLogic_CustomLogicMethodCallExpressionAst_o *)0x0) {
+          (pCVar12->fields).Parameters = (System_Collections_Generic_List_CustomLogicBaseAst__o *)prev;
+          Il2CppCodeGenWriteBarrier(&(pCVar12->fields).Parameters);
+          prev = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar12;
+          startIndex = iVar8;
+          goto label_05b7d43d;
+        }
+        goto label_05b7dc79;
+      }
+    }
+    iVar7 = (token->fields).Line;
+    __this_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUnaryExpressionAst);
+    CustomLogic_CustomLogicUnaryExpressionAst___ctor
+              ((CustomLogic_CustomLogicUnaryExpressionAst_o *)__this_00,token,iVar7,(MethodInfo *)0x0);
+    prev_00 = (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0;
+  }
+  pCVar15 = CustomLogic_CustomLogicParser__ParseExpression
+                      (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)prev_00,startIndex + 1,endIndex,
+                       method);
+  if (__this_00 != (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) {
+    targetAddress = (CustomLogic_CustomLogicToken_o **)&(__this_00->fields).Left;
+    (__this_00->fields).Left = pCVar15;
+label_05b7dc5e:
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    return (CustomLogic_CustomLogicBaseExpressionAst_o *)__this_00;
+  }
+label_05b7dc79:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicParser$$ParseExpressionAst
 // il2cpp: System_Object_array* CustomLogic_CustomLogicParser__ParseExpressionAst (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820e77f0
+// 0x5b7e540
 
 System_Object_array *
 CustomLogic_CustomLogicParser__ParseExpressionAst
@@ -729,42 +623,42 @@ CustomLogic_CustomLogicParser__ParseExpressionAst
   Il2CppObject *pIVar3;
   Il2CppObject *pIVar4;
   CustomLogic_CustomLogicBaseExpressionAst_o *obj;
-  int local_res10 [2];
+  MethodInfo *extraout_RDX;
+  MethodInfo *in_R8;
+  int local_2c;
   
-  if (Il2CppMethodInitialized_1843469c7 == '\0') {
+  if (Il2CppMethodInitialized_07547392 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843469c7 = '\x01';
+    Il2CppMethodInitialized_07547392 = '\x01';
+    method = extraout_RDX;
   }
-  iVar1 = CustomLogic_CustomLogicParser__FindSemicolon(__this,startIndex,(MethodInfo *)0x0);
+  iVar1 = CustomLogic_CustomLogicParser__FindSemicolon(__this,startIndex,method);
   pSVar2 = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-  local_res10[0] = iVar1 + 1;
-  pIVar3 = il2cpp_value_box(g_data_184354e08,local_res10);
+  local_2c = iVar1 + 1;
+  pIVar3 = il2cpp_vm_Object_Box(g_data_07556710,&local_2c);
   if (pSVar2 == (System_Object_array *)0x0) {
     ThrowNullReferenceException();
   }
   if (pIVar3 != (Il2CppObject *)0x0) {
     pIVar4 = il2cpp_vm_Object_IsInst(pIVar3,(((pSVar2->obj).klass)->_1).element_class);
-    if (pIVar4 == (Il2CppObject *)0x0) {
-      pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-    }
+    if (pIVar4 == (Il2CppObject *)0x0) goto label_05b7e64c;
   }
   if ((int)pSVar2->max_length != 0) {
     pSVar2->m_Items[0] = pIVar3;
-    Il2CppCodeGenWriteBarrier(pSVar2->m_Items,pIVar3);
+    Il2CppCodeGenWriteBarrier(pSVar2->m_Items);
     obj = CustomLogic_CustomLogicParser__ParseExpression
-                    (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex,iVar1 + -1,
-                     (MethodInfo *)0x0);
+                    (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex,iVar1 + -1,in_R8);
     if (obj != (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0) {
       pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)obj,(((pSVar2->obj).klass)->_1).element_class);
       if (pIVar3 == (Il2CppObject *)0x0) {
+label_05b7e64c:
         pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
         il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
       }
     }
-    if (1 < (uint)pSVar2->max_length) {
+    if ((pSVar2->max_length & 0xfffffffe) != 0) {
       pSVar2->m_Items[1] = (Il2CppObject *)obj;
-      Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 1,obj);
+      Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 1);
       return pSVar2;
     }
   }
@@ -774,76 +668,84 @@ CustomLogic_CustomLogicParser__ParseExpressionAst
 
 // CustomLogic.CustomLogicParser$$ParseAst
 // il2cpp: int32_t CustomLogic_CustomLogicParser__ParseAst (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, CustomLogic_CustomLogicBaseAst_o* prev, const MethodInfo* method);
-// 0x1820e57a0
-// asm: 22 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e5e1f: mov r14, r12
-// asm:   0x1820e5e22: jmp 0x1820e5e57
-// asm:   0x1820e6147: jmp 0x1820e6083
-// asm:   0x1820e6210: mov ebx, esi
-// asm:   0x1820e6212: jmp 0x1820e6274
-// asm:   0x1820e6272: mov esi, ebx
-// asm:   0x1820e63a6: mov rcx, r12
-// asm:   0x1820e63a9: jmp 0x1820e63df
-// asm:   0x1820e6491: mov r9, r12
-// asm:   0x1820e6494: jmp 0x1820e64c9
-// asm:   0x1820e65b0: mov r13, r12
-// asm:   0x1820e65b3: jmp 0x1820e6416
-// asm:   0x1820e667f: jmp 0x1820e6189
-// asm:   0x1820e6873: jmp 0x1820e67b7
-// asm:   0x1820e6c98: xor r9d, r9d
-// asm:   0x1820e6c9b: mov r8, r15
-// asm:   0x1820e6c9e: mov edx, esi
-// asm:   0x1820e6ca0: mov rcx, rbp
-// asm:   0x1820e6ca3: call 0x1820e57a0  ; CustomLogic_CustomLogicParser__ParseAst()
-// asm:   0x1820e6ca8: jmp 0x1820e618c
-// asm:   0x1820e6cad: mov eax, esi
-// asm:   0x1820e6caf: jmp 0x1820e618c
+// 0x5b7bf10
 
 int32_t CustomLogic_CustomLogicParser__ParseAst
                   (CustomLogic_CustomLogicParser_o *__this,int32_t startIndex,
                   CustomLogic_CustomLogicBaseAst_o *prev,MethodInfo *method)
 
 {
-  byte bVar1;
-  uint uVar2;
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar3;
-  Il2CppObject *pIVar4;
-  System_Collections_Generic_HashSet_int__o *pSVar5;
-  System_String_o *pSVar6;
-  CustomLogic_CustomLogicDecorator_array *pCVar7;
-  System_Collections_Generic_List_string__o *pSVar8;
-  System_Collections_Generic_List_CustomLogicDecorator__o *__this_00;
-  CustomLogic_CustomLogicBaseAst_c *__this_01;
-  MethodInfo *pMVar9;
-  bool bVar10;
-  int32_t iVar11;
-  int iVar12;
-  uint32_t value;
-  int32_t iVar13;
-  CustomLogic_CustomLogicToken_o *pCVar14;
-  CustomLogic_CustomLogicToken_o *pCVar15;
-  int *piVar16;
-  int32_t *piVar17;
-  CustomLogic_CustomLogicForBlockAst_o *__this_02;
-  CustomLogic_CustomLogicToken_o *pCVar18;
-  CustomLogic_CustomLogicVariableExpressionAst_o *__this_03;
-  CustomLogic_CustomLogicBaseExpressionAst_o *pCVar19;
-  CustomLogic_CustomLogicReturnExpressionAst_o *__this_04;
-  CustomLogic_CustomLogicWaitExpressionAst_o *__this_05;
-  CustomLogic_CustomLogicContinueExpressionAst_o *__this_06;
-  CustomLogic_CustomLogicConditionalBlockAst_o *__this_07;
-  System_Object_array *pSVar20;
-  System_Collections_Generic_List_CustomLogicDecorator__o *__this_08;
-  CustomLogic_CustomLogicMethodDefinitionAst_o *__this_09;
-  System_String_o *pSVar21;
-  CustomLogic_CustomLogicAssignmentExpressionAst_o *__this_10;
-  CustomLogic_CustomLogicClassDefinitionAst_o *__this_11;
+  int32_t *piVar1;
+  byte bVar2;
+  CustomLogic_CustomLogicCompiler_o *__this_00;
+  CustomLogic_CustomLogicToken_array *pCVar3;
+  System_Collections_Generic_List_CustomLogicDecorator__o *__this_01;
+  CustomLogic_CustomLogicBaseAst_c *__this_02;
+  System_Collections_Generic_List_string__o *__this_03;
+  System_String_array *pSVar4;
+  bool bVar5;
+  uint uVar6;
+  int iVar7;
+  int32_t iVar8;
   CustomLogic_CustomLogicToken_o *token;
-  Il2CppObject *pIVar22;
+  System_Object_array *pSVar9;
+  int *piVar10;
+  Il2CppObject *pIVar11;
+  CustomLogic_CustomLogicConditionalBlockAst_o *__this_04;
+  CustomLogic_CustomLogicToken_o *pCVar12;
+  CustomLogic_CustomLogicPrimitiveExpressionAst_o *pCVar13;
+  CustomLogic_CustomLogicClassDefinitionAst_o *__this_05;
+  CustomLogic_CustomLogicCompiler_FileRange_o *pCVar14;
+  System_Collections_Generic_List_CustomLogicToken__o *__this_06;
+  uint *puVar15;
+  CustomLogic_CustomLogicVariableExpressionAst_o *pCVar16;
+  CustomLogic_CustomLogicAssignmentExpressionAst_o *__this_07;
+  CustomLogic_CustomLogicBaseExpressionAst_o *pCVar17;
+  CustomLogic_CustomLogicContinueExpressionAst_o *__this_08;
+  CustomLogic_CustomLogicReturnExpressionAst_o *__this_09;
+  CustomLogic_CustomLogicMethodDefinitionAst_o *__this_10;
+  Il2CppClass *pIVar18;
+  uint *method_00;
+  MethodInfo **ppMVar19;
+  MethodInfo *pMVar20;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *extraout_RDX_04;
+  MethodInfo *extraout_RDX_05;
+  MethodInfo *extraout_RDX_06;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
+  MethodInfo *method_04;
+  MethodInfo *method_05;
+  MethodInfo *extraout_RDX_07;
+  MethodInfo *extraout_RDX_08;
+  MethodInfo *method_06;
+  MethodInfo *extraout_RDX_09;
+  MethodInfo *extraout_RDX_10;
+  MethodInfo *extraout_RDX_11;
+  MethodInfo *extraout_RDX_12;
+  MethodInfo *method_07;
+  MethodInfo *extraout_RDX_13;
+  MethodInfo *extraout_RDX_14;
+  System_String_o *name;
+  int iVar21;
+  CustomLogic_CustomLogicPrimitiveExpressionAst_o *pCVar22;
+  CustomLogic_CustomLogicSymbols_c *__this_11;
+  CustomLogic_CustomLogicConditionalBlockAst_o *__this_12;
+  System_Collections_Generic_List_CustomLogicToken__o *pSVar23;
+  void *pvVar24;
+  MethodInfo *in_R8;
+  CustomLogic_CustomLogicToken_o *local_58;
   System_Nullable_CustomLogicSourceType__Fields local_48;
   System_Nullable_CustomLogicSourceType__Fields local_40;
+  ulong local_38;
   
-  if (Il2CppMethodInitialized_1843469c8 == '\0') {
+  pCVar22 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)(ulong)(uint)startIndex;
+  if (Il2CppMethodInitialized_07547393 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicBaseExpressionAst);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicBlockAst);
@@ -881,804 +783,777 @@ int32_t CustomLogic_CustomLogicParser__ParseAst
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_CustomLogicSourceType_get_HasValue)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_CustomLogicSourceType_get_Value);
-    Il2CppMethodInitialized_1843469c8 = '\x01';
+    Il2CppMethodInitialized_07547393 = '\x01';
   }
-  pSVar3 = (__this->fields)._tokens;
-  pCVar18 = (CustomLogic_CustomLogicToken_o *)0x0;
-  local_48.hasValue = false;
-  local_48._1_3_ = 0;
-  local_48.value = 0;
-  if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-  if ((pSVar3->fields)._size <= startIndex) {
+  local_40.hasValue = false;
+  local_40._1_3_ = 0;
+  local_40.value = 0;
+  pSVar23 = (__this->fields)._tokens;
+  if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+  if ((pSVar23->fields)._size <= startIndex) {
     return startIndex;
   }
-  pCVar14 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                      ((System_Collections_Generic_List_object__o *)pSVar3,startIndex,
-                       (MethodInfo_92B830 *)
-                       MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-  pSVar3 = (__this->fields)._tokens;
-  if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-  pCVar15 = pCVar18;
-  if (startIndex < (pSVar3->fields)._size + -1) {
-    pCVar15 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                        ((System_Collections_Generic_List_object__o *)(__this->fields)._tokens,startIndex + 1,
-                         (MethodInfo_92B830 *)
-                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+  token = System_Collections_Generic_List_object___get_Item
+                    ((System_Collections_Generic_List_object__o *)pSVar23,startIndex,
+                     (MethodInfo_395CF20 *)
+                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+  pSVar23 = (__this->fields)._tokens;
+  if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+  if (startIndex < (pSVar23->fields)._size + -1) {
+    local_58 = System_Collections_Generic_List_object___get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar23,startIndex + 1,
+                          (MethodInfo_395CF20 *)
+                          MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+    pMVar20 = extraout_RDX_00;
   }
-  if (prev == (CustomLogic_CustomLogicBaseAst_o *)0x0) goto label_1820e6dd1;
-  if ((prev->fields).Type == 0) {
+  else {
+    local_58 = (CustomLogic_CustomLogicToken_o *)0x0;
+    pMVar20 = extraout_RDX;
+  }
+  if (prev == (CustomLogic_CustomLogicBaseAst_o *)0x0) goto label_05b7d2c1;
+  method_00 = &switchD_05b7c115::switchdataD_010a5954;
+  pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev;
+  switch((prev->fields).Type) {
+  case 0:
     if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
     }
-    pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols;
-    if (Il2CppMethodInitialized_1843469cf == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-      Il2CppMethodInitialized_1843469cf = '\x01';
-    }
-    pMVar9 = MethodInfo_System_Collections_Generic_HashSet_int_Contains;
-    if ((pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar14->fields).Type != 0)) {
-label_1820e6e70:
-      CustomLogic_CustomLogicParser__AssertFalse(__this,pCVar14,(MethodInfo *)0x0);
-    }
-    if ((pSVar5 == (System_Collections_Generic_HashSet_int__o *)0x0) ||
-       (pIVar4 = (pCVar14->fields).Value, pIVar4 == (Il2CppObject *)0x0)) goto label_1820e6dd1;
-    if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-    }
-    piVar17 = il2cpp_object_unbox(pIVar4);
-    bVar10 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                       ((System_Collections_Generic_HashSet_T__o *)pSVar5,*piVar17,
-                        (MethodInfo_1759C90 *)pMVar9);
-    if (!bVar10) goto label_1820e6e70;
-    iVar13 = (pCVar14->fields).Line;
-    __this_11 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst);
-    CustomLogic_CustomLogicClassDefinitionAst___ctor(__this_11,pCVar14,iVar13,(MethodInfo *)0x0);
-    if (((__this->fields)._Compiler_k__BackingField != (CustomLogic_CustomLogicCompiler_o *)0x0) &&
-       (local_48 = (System_Nullable_CustomLogicSourceType__Fields)
-                   CustomLogic_CustomLogicCompiler__GetFileTypeForLine
-                             ((__this->fields)._Compiler_k__BackingField,(pCVar14->fields).Line,
-                              (MethodInfo *)0x0), local_48.hasValue != false)) {
-      value = System_Nullable_uint___get_Value
-                        ((System_Nullable_uint__o *)&local_48,
-                         (MethodInfo_AE29B0 *)MethodInfo_System_Nullable_CustomLogicSourceType_get_Value);
-      local_40.hasValue = false;
-      local_40._1_3_ = 0;
-      local_40.value = 0;
-      System_Data_SqlTypes_SqlInt32___ctor_ae2660
-                ((System_Data_SqlTypes_SqlInt32_o *)&local_40,value,
-                 MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
-      if (__this_11 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      (__this_11->fields)._Namespace_k__BackingField.fields = local_40;
-    }
-    pSVar3 = (__this->fields)._tokens;
-    if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-    token = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                      ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 2,
-                       (MethodInfo_92B830 *)
-                       MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    CustomLogic_CustomLogicParser__AssertSymbolValue(__this,token,9,(MethodInfo *)0x0);
-    iVar12 = CustomLogic_CustomLogicParser__ParseAst
-                       (__this,startIndex + 3,(CustomLogic_CustomLogicBaseAst_o *)__this_11,(MethodInfo *)0x0)
-    ;
-    if (pCVar15 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e6dd1;
-    bVar1 = (TypeInfo_CustomLogic_CustomLogicStartAst->_2).typeHierarchyDepth;
-    if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicStartAst)) {
-      il2cpp_codegen_raise_invalid_cast_exception(prev);
-    }
-    pCVar15 = (CustomLogic_CustomLogicToken_o *)(pCVar15->fields).Value;
-    if (pCVar15 != (CustomLogic_CustomLogicToken_o *)0x0) {
-      if ((Il2CppClass *)pCVar15->klass == g_data_184354e50) {
-        pCVar18 = pCVar15;
-      }
-      if (pCVar18 == (CustomLogic_CustomLogicToken_o *)0x0) {
-        il2cpp_codegen_raise_invalid_cast_exception(pCVar15,g_data_184354e50);
-      }
-    }
-    CustomLogic_CustomLogicStartAst__AddClass
-              ((CustomLogic_CustomLogicStartAst_o *)prev,(System_String_o *)pCVar18,__this_11,
-               (MethodInfo *)0x0);
-  }
-  else {
-    iVar12 = startIndex;
-    if ((prev->fields).Type == 1) {
-      __this_08 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicDecorator);
-      System_Collections_Generic_List_object____ctor
-                ((System_Collections_Generic_LowLevelList_T__o *)__this_08,
-                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_ctor);
-      while (pCVar14 != (CustomLogic_CustomLogicToken_o *)0x0) {
-        if ((pCVar14->fields).Type != 0) goto label_1820e65f1;
-        pIVar4 = (pCVar14->fields).Value;
-        if (pIVar4 == (Il2CppObject *)0x0) break;
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
+    bVar5 = CustomLogic_CustomLogicParser__IsSymbolIn
+                      ((CustomLogic_CustomLogicParser_o *)TypeInfo_CustomLogic_CustomLogicSymbols,token,
+                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols,
+                       (MethodInfo *)method_00);
+    pMVar20 = extraout_RDX_04;
+    if (bVar5) {
+      if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+      iVar8 = (token->fields).Line;
+      __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst)
+      ;
+      pMVar20 = (MethodInfo *)0x0;
+      CustomLogic_CustomLogicClassDefinitionAst___ctor(__this_05,token,iVar8,(MethodInfo *)0x0);
+      __this_00 = (__this->fields)._Compiler_k__BackingField;
+      if (__this_00 != (CustomLogic_CustomLogicCompiler_o *)0x0) {
+        iVar8 = (token->fields).Line;
+        method_01 = extraout_RDX_05;
+        if (Il2CppMethodInitialized_0754735c == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+          Il2CppMethodInitialized_0754735c = '\x01';
+          method_01 = extraout_RDX_06;
         }
-        piVar16 = il2cpp_object_unbox(pIVar4);
-        if (*piVar16 != 0xf) {
-          if ((pCVar14->fields).Type == 0) {
-            pIVar4 = (pCVar14->fields).Value;
-            if (pIVar4 == (Il2CppObject *)0x0) break;
-            if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-            }
-            piVar16 = il2cpp_object_unbox(pIVar4);
-            if (*piVar16 != 5) goto label_1820e65f1;
-label_1820e6684:
-            CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar15,2,(MethodInfo *)0x0);
-            if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) break;
-            if ((pCVar14->fields).Type == 0) {
-              pIVar4 = (pCVar14->fields).Value;
-              if (pIVar4 == (Il2CppObject *)0x0) break;
-              if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-              }
-              piVar16 = il2cpp_object_unbox(pIVar4);
-              pCVar18 = (CustomLogic_CustomLogicToken_o *)(ulonglong)(*piVar16 == 6);
-            }
-            iVar13 = (pCVar14->fields).Line;
-            __this_09 = il2cpp_codegen_object_new
-                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMethodDefinitionAst);
-            CustomLogic_CustomLogicMethodDefinitionAst___ctor
-                      (__this_09,iVar13,SUB81(pCVar18,0),(MethodInfo *)0x0);
-            if ((pCVar15 != (CustomLogic_CustomLogicToken_o *)0x0) &&
-               (__this_09 != (CustomLogic_CustomLogicMethodDefinitionAst_o *)0x0)) {
-              pSVar6 = (System_String_o *)(pCVar15->fields).Value;
-              if (pSVar6 == (System_String_o *)0x0) {
-                (__this_09->fields).Name = (System_String_o *)0x0;
-                pSVar21 = (System_String_o *)0x0;
-              }
-              else {
-                pSVar21 = (System_String_o *)0x0;
-                if ((Il2CppClass *)pSVar6->klass == g_data_184354e50) {
-                  pSVar21 = pSVar6;
-                }
-                if (pSVar21 == (System_String_o *)0x0) {
-                  il2cpp_codegen_raise_invalid_cast_exception();
-                }
-                (__this_09->fields).Name = pSVar21;
-                pSVar21 = (System_String_o *)0x0;
-                if ((Il2CppClass *)pSVar6->klass == g_data_184354e50) {
-                  pSVar21 = pSVar6;
-                }
-                if (pSVar21 == (System_String_o *)0x0) {
-                  il2cpp_codegen_raise_invalid_cast_exception(pSVar6,g_data_184354e50);
-                }
-              }
-              Il2CppCodeGenWriteBarrier(&(__this_09->fields).Name,pSVar21);
-              pSVar3 = (__this->fields)._tokens;
-              if (pSVar3 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-                pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                    ((System_Collections_Generic_List_object__o *)pSVar3,iVar12 + 2,
-                                     (MethodInfo_92B830 *)
-                                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-                CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,0xb,(MethodInfo *)0x0);
-                pSVar3 = (__this->fields)._tokens;
-                if (pSVar3 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-                  iVar12 = iVar12 + 3;
-                  pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                      ((System_Collections_Generic_List_object__o *)pSVar3,iVar12,
-                                       (MethodInfo_92B830 *)
-                                       MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-                  if (pCVar18 != (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e67b7;
-                }
-              }
-            }
-          }
-          else {
-label_1820e65f1:
-            if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) break;
-            if ((pCVar14->fields).Type == 0) {
-              pIVar4 = (pCVar14->fields).Value;
-              if (pIVar4 == (Il2CppObject *)0x0) break;
-              if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-              }
-              piVar16 = il2cpp_object_unbox(pIVar4);
-              if (*piVar16 == 6) goto label_1820e6684;
-              if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) break;
-            }
-            if ((pCVar14->fields).Type != 2) {
-              if ((pCVar14->fields).Type == 0) {
-                pIVar4 = (pCVar14->fields).Value;
-                if (pIVar4 == (Il2CppObject *)0x0) break;
-                if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                  il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-                }
-                piVar16 = il2cpp_object_unbox(pIVar4);
-                if (*piVar16 == 10) goto label_1820e6189;
-              }
-              CustomLogic_CustomLogicParser__AssertFalse(__this,pCVar14,(MethodInfo *)0x0);
-            }
-            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar15,0x14,(MethodInfo *)0x0);
-            pSVar6 = (System_String_o *)(pCVar14->fields).Value;
-            iVar13 = (pCVar14->fields).Line;
-            local_40 = (System_Nullable_CustomLogicSourceType__Fields)
-                       il2cpp_codegen_object_new
-                                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
-            pSVar21 = (System_String_o *)0x0;
-            if (pSVar6 != (System_String_o *)0x0) {
-              if ((Il2CppClass *)pSVar6->klass == g_data_184354e50) {
-                pSVar21 = pSVar6;
-              }
-              if (pSVar21 == (System_String_o *)0x0) {
-                il2cpp_codegen_raise_invalid_cast_exception(pSVar6,g_data_184354e50);
-              }
-            }
-            CustomLogic_CustomLogicVariableExpressionAst___ctor
-                      ((CustomLogic_CustomLogicVariableExpressionAst_o *)local_40,pSVar21,iVar13,
-                       (MethodInfo *)0x0);
-            iVar13 = (pCVar14->fields).Line;
-            __this_10 = il2cpp_codegen_object_new
-                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
-            CustomLogic_CustomLogicAssignmentExpressionAst___ctor
-                      (__this_10,(CustomLogic_CustomLogicBaseExpressionAst_o *)local_40,pCVar15,iVar13,
-                       (MethodInfo *)0x0);
-            iVar13 = CustomLogic_CustomLogicParser__FindSemicolon(__this,iVar12,(MethodInfo *)0x0);
-            pCVar19 = CustomLogic_CustomLogicParser__ParseExpression
-                                (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar12 + 2,
-                                 iVar13 + -1,(MethodInfo *)0x0);
-            if (__this_10 != (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) {
-              (__this_10->fields).Right = pCVar19;
-              Il2CppCodeGenWriteBarrier(&(__this_10->fields).Right,pCVar19);
-              __this_00 = (__this_10->fields).Decorators;
-              if (__this_00 != (System_Collections_Generic_List_CustomLogicDecorator__o *)0x0) {
-                System_Collections_Generic_List_object___AddRange
-                          ((System_Collections_Generic_List_object__o *)__this_00,
-                           (System_Collections_Generic_IEnumerable_T__o *)__this_08,
-                           (MethodInfo_93DA30 *)
-                           MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_AddRange);
-                pMVar9 = MethodInfo_System_Collections_Generic_List_CustomLogicAssignmentExpressionAst_Add;
-                bVar1 = (TypeInfo_CustomLogic_CustomLogicClassDefinitionAst->_2).typeHierarchyDepth;
-                if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-                   ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                    (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst)) {
-                  il2cpp_codegen_raise_invalid_cast_exception(prev);
-                }
-                __this_01 = (*(uint64_t *)((char *)prev + 0x18));
-                if (__this_01 != (CustomLogic_CustomLogicBaseAst_c *)0x0) {
-                  piVar17 = (int32_t *)((longlong)&(__this_01->_1).namespaze + 4);
-                  *piVar17 = *piVar17 + 1;
-                  pSVar20 = ((System_Collections_Generic_List_object__Fields *)&(__this_01->_1).name)->_items;
-                  if (pSVar20 != (System_Object_array *)0x0) {
-                    uVar2 = *(uint *)&(__this_01->_1).namespaze;
-                    iVar12 = iVar13 + 1;
-                    if (uVar2 < (uint)pSVar20->max_length) {
-                      *(uint *)&(__this_01->_1).namespaze = uVar2 + 1;
-                      if ((uint)pSVar20->max_length <= uVar2) goto label_1820e6e25;
-                      pSVar20->m_Items[(int)uVar2] = (Il2CppObject *)__this_10;
-                      Il2CppCodeGenWriteBarrier(pSVar20->m_Items + (int)uVar2,__this_10);
-                    }
-                    else {
-                      System_Collections_Generic_List_object___AddWithResize
-                                ((System_Collections_Generic_List_object__o *)__this_01,
-                                 (Il2CppObject *)__this_10,
-                                 (MethodInfo_93DD50 *)pMVar9->klass->rgctx_data[0xe].method);
-                    }
-                    goto label_1820e6c8b;
-                  }
-                }
-              }
-            }
-          }
-          break;
+        pCVar14 = CustomLogic_CustomLogicCompiler__FindFileRange(__this_00,iVar8,method_01);
+        if (pCVar14 == (CustomLogic_CustomLogicCompiler_FileRange_o *)0x0) {
+          local_40.hasValue = false;
+          local_40._1_3_ = 0;
+          local_40.value = 0;
         }
-        pSVar20 = CustomLogic_CustomLogicParser__ParseDecorator(__this,iVar12,(MethodInfo *)0x0);
-        pMVar9 = MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_Add;
-        if (pSVar20 == (System_Object_array *)0x0) break;
-        if ((uint)pSVar20->max_length < 2) goto label_1820e6e25;
-        if (__this_08 == (System_Collections_Generic_List_CustomLogicDecorator__o *)0x0) break;
-        pCVar14 = (CustomLogic_CustomLogicToken_o *)pSVar20->m_Items[1];
-        pCVar15 = pCVar18;
-        if (pCVar14 != (CustomLogic_CustomLogicToken_o *)0x0) {
-          bVar1 = (TypeInfo_CustomLogic_CustomLogicDecorator->_2).typeHierarchyDepth;
-          if (((((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar14->klass)->_2).typeHierarchyDepth <
-               bVar1) ||
-             (pCVar15 = pCVar14,
-             (((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar14->klass)->_2).typeHierarchy
-             [(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicDecorator)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pCVar14);
+        else {
+          local_48.hasValue = false;
+          local_48._1_3_ = 0;
+          local_48.value = 0;
+          System_Nullable_Int32Enum____ctor
+                    ((System_Nullable_Int32Enum__o *)&local_48,(pCVar14->fields)._Type_k__BackingField,
+                     (MethodInfo_3CD4F60 *)MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+          local_40 = local_48;
+          if (local_48.hasValue != false) {
+            iVar8 = System_Nullable_Int32Enum___get_Value
+                              ((System_Nullable_Int32Enum__o *)&local_40,
+                               (MethodInfo_3CD4F80 *)
+                               MethodInfo_System_Nullable_CustomLogicSourceType_get_Value);
+            local_48.hasValue = false;
+            local_48._1_3_ = 0;
+            local_48.value = 0;
+            System_Nullable_Int32Enum____ctor
+                      ((System_Nullable_Int32Enum__o *)&local_48,iVar8,
+                       (MethodInfo_3CD4F60 *)MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+            if (__this_05 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) goto label_05b7d2c1;
+            (__this_05->fields)._Namespace_k__BackingField.fields = local_48;
           }
         }
-        piVar17 = &(__this_08->fields)._version;
-        *piVar17 = *piVar17 + 1;
-        pCVar7 = (__this_08->fields)._items;
-        if (pCVar7 == (CustomLogic_CustomLogicDecorator_array *)0x0) break;
-        uVar2 = (__this_08->fields)._size;
-        if (uVar2 < (uint)pCVar7->max_length) {
-          (__this_08->fields)._size = uVar2 + 1;
-          if ((uint)pCVar7->max_length <= uVar2) goto label_1820e6e25;
-          pCVar7->m_Items[(int)uVar2] = (CustomLogic_CustomLogicDecorator_o *)pCVar15;
-          Il2CppCodeGenWriteBarrier(pCVar7->m_Items + (int)uVar2,pCVar15);
+      }
+      pSVar23 = (__this->fields)._tokens;
+      if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+      pCVar12 = System_Collections_Generic_List_object___get_Item
+                          ((System_Collections_Generic_List_object__o *)pSVar23,startIndex + 2,
+                           (MethodInfo_395CF20 *)
+                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+      CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,9,pMVar20);
+      iVar7 = CustomLogic_CustomLogicParser__ParseAst
+                        (__this,startIndex + 3,(CustomLogic_CustomLogicBaseAst_o *)__this_05,pMVar20);
+      if (local_58 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+      bVar2 = (TypeInfo_CustomLogic_CustomLogicStartAst->_2).typeHierarchyDepth;
+      if (((prev->klass->_2).typeHierarchyDepth < bVar2) ||
+         ((prev->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicStartAst)) goto label_05b7d3c3;
+      pCVar12 = (CustomLogic_CustomLogicToken_o *)(local_58->fields).Value;
+      if ((pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0) &&
+         (pIVar18 = g_data_07556758, (Il2CppClass *)pCVar12->klass != g_data_07556758)) goto label_05b7d3ad;
+      method_00 = (uint *)0x0;
+      CustomLogic_CustomLogicStartAst__AddClass
+                ((CustomLogic_CustomLogicStartAst_o *)prev,(System_String_o *)pCVar12,__this_05,
+                 (MethodInfo *)0x0);
+      pMVar20 = extraout_RDX_10;
+      goto joined_r0x05b7cd49;
+    }
+    break;
+  case 1:
+    __this_06 = (System_Collections_Generic_List_CustomLogicToken__o *)
+                il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicDecorator);
+    pSVar23 = __this_06;
+    System_Collections_Generic_List_object____ctor
+              ((System_Collections_Generic_List_object__o *)__this_06,
+               (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_ctor);
+    if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+    iVar7 = (token->fields).Type;
+    if (__this_06 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+      if (iVar7 == 0) {
+        pSVar23 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+        if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+        if ((pSVar23->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+        piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)pSVar23);
+        if (*piVar10 == 0xf) {
+          pSVar9 = CustomLogic_CustomLogicParser__ParseDecorator(__this,startIndex,method_07);
+          if ((pSVar9 != (System_Object_array *)0x0) && ((pSVar9->max_length & 0xfffffffe) == 0))
+          goto label_05b7d07a;
+          goto label_05b7d2c1;
+        }
+      }
+    }
+    else if (iVar7 == 0) {
+      do {
+        pSVar23 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+        if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+        if ((((Il2CppClass *)pSVar23->klass)->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+        goto label_05b7d3a8;
+        piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)pSVar23);
+        if (*piVar10 != 0xf) break;
+        pSVar9 = CustomLogic_CustomLogicParser__ParseDecorator(__this,(int32_t)pCVar22,method_02);
+        method_00 = (uint *)MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_Add;
+        if (pSVar9 == (System_Object_array *)0x0) goto label_05b7d2c1;
+        if ((pSVar9->max_length & 0xfffffffe) == 0) goto label_05b7d07a;
+        pCVar12 = (CustomLogic_CustomLogicToken_o *)pSVar9->m_Items[1];
+        if (pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0) {
+          bVar2 = (TypeInfo_CustomLogic_CustomLogicDecorator->_2).typeHierarchyDepth;
+          pIVar18 = (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicDecorator;
+          if (((((Il2CppClass *)pCVar12->klass)->_2).typeHierarchyDepth < bVar2) ||
+             ((((Il2CppClass *)pCVar12->klass)->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+              (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicDecorator)) goto label_05b7d3ad;
+        }
+        piVar1 = &(__this_06->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pCVar3 = (__this_06->fields)._items;
+        if (pCVar3 == (CustomLogic_CustomLogicToken_array *)0x0) goto label_05b7d2c1;
+        uVar6 = (__this_06->fields)._size;
+        if (uVar6 < (uint)pCVar3->max_length) {
+          method_00 = (uint *)(ulong)(uVar6 + 1);
+          (__this_06->fields)._size = uVar6 + 1;
+          pCVar3->m_Items[(int)uVar6] = pCVar12;
+          Il2CppCodeGenWriteBarrier(pCVar3->m_Items + (int)uVar6);
         }
         else {
           System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)__this_08,(Il2CppObject *)pCVar15,
-                     (MethodInfo_93DD50 *)pMVar9->klass->rgctx_data[0xe].method);
+                    ((System_Collections_Generic_List_object__o *)__this_06,(Il2CppObject *)pCVar12,
+                     (MethodInfo_395D230 *)((MethodInfo *)method_00)->klass->rgctx_data[0xe].method);
         }
-        if ((int)pSVar20->max_length == 0) goto label_1820e6e25;
-        pIVar4 = pSVar20->m_Items[0];
-        if (pIVar4 == (Il2CppObject *)0x0) break;
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-        }
-        piVar16 = il2cpp_object_unbox(pIVar4);
-        pSVar3 = (__this->fields)._tokens;
-        if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
-        iVar12 = *piVar16;
-        pCVar14 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                            ((System_Collections_Generic_List_object__o *)pSVar3,iVar12,
-                             (MethodInfo_92B830 *)
-                             MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-        pSVar3 = (__this->fields)._tokens;
-        if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
-        pCVar15 = pCVar18;
-        if (iVar12 < (pSVar3->fields)._size + -1) {
-          pCVar15 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)(__this->fields)._tokens,
-                               iVar12 + 1,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-        }
-      }
-      goto label_1820e6dd1;
-    }
-    if ((((prev->fields).Type != 2) && ((prev->fields).Type != 0x10)) && ((prev->fields).Type != 0x11))
-    goto label_1820e6e46;
-    if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e6dd1;
-    if ((pCVar14->fields).Type == 0) {
-      pIVar4 = (pCVar14->fields).Value;
-      if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-      if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-      }
-      piVar16 = il2cpp_object_unbox(pIVar4);
-      if (*piVar16 == 0x10) {
-        if ((pCVar15 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar15->fields).Type != 0)) {
-label_1820e5dba:
-          pSVar20 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex + 1,(MethodInfo *)0x0)
-          ;
-          if (pSVar20 == (System_Object_array *)0x0) goto label_1820e6dd1;
-          if ((int)pSVar20->max_length == 0) goto label_1820e6e25;
-          pIVar4 = pSVar20->m_Items[0];
-          if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-          if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-          }
-          piVar16 = il2cpp_object_unbox(pIVar4);
-          if ((uint)pSVar20->max_length < 2) goto label_1820e6e25;
-          pCVar15 = (CustomLogic_CustomLogicToken_o *)pSVar20->m_Items[1];
-          if (pCVar15 != (CustomLogic_CustomLogicToken_o *)0x0) {
-            bVar1 = (TypeInfo_CustomLogic_CustomLogicBaseExpressionAst->_2).typeHierarchyDepth;
-            if (((((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar15->klass)->_2).typeHierarchyDepth
-                 < bVar1) ||
-               (pCVar18 = pCVar15,
-               (((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar15->klass)->_2).typeHierarchy
-               [(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pCVar15);
-            }
-          }
-          iVar12 = *piVar16;
+        if ((int)pSVar9->max_length == 0) goto label_05b7d07a;
+        pIVar11 = pSVar9->m_Items[0];
+        if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+        if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+        puVar15 = il2cpp_vm_Object_Unbox(pIVar11);
+        pSVar23 = (__this->fields)._tokens;
+        if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+        uVar6 = *puVar15;
+        pCVar22 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)(ulong)uVar6;
+        token = System_Collections_Generic_List_object___get_Item
+                          ((System_Collections_Generic_List_object__o *)pSVar23,uVar6,
+                           (MethodInfo_395CF20 *)
+                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+        pSVar23 = (__this->fields)._tokens;
+        if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+        if ((int)uVar6 < (pSVar23->fields)._size + -1) {
+          local_58 = System_Collections_Generic_List_object___get_Item
+                               ((System_Collections_Generic_List_object__o *)pSVar23,uVar6 + 1,
+                                (MethodInfo_395CF20 *)
+                                MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
         }
         else {
-          pIVar4 = (pCVar15->fields).Value;
-          if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-          if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
+          local_58 = (CustomLogic_CustomLogicToken_o *)0x0;
+        }
+        if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+      } while ((token->fields).Type == 0);
+    }
+    iVar7 = (token->fields).Type;
+    iVar21 = (int)pCVar22;
+    if (iVar7 == 0) {
+      pSVar23 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+      if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+      if ((pSVar23->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+      piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)pSVar23);
+      if (*piVar10 == 5) {
+label_05b7cc48:
+        CustomLogic_CustomLogicParser__AssertTokenType(__this,local_58,2,(MethodInfo *)method_00);
+        if ((token->fields).Type == 0) {
+          pIVar11 = (token->fields).Value;
+          if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+          if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+          piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+          bVar5 = *piVar10 == 6;
+        }
+        else {
+          bVar5 = false;
+        }
+        iVar8 = (token->fields).Line;
+        __this_10 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMethodDefinitionAst);
+        pMVar20 = (MethodInfo *)0x0;
+        CustomLogic_CustomLogicMethodDefinitionAst___ctor(__this_10,iVar8,bVar5,(MethodInfo *)0x0);
+        pIVar18 = g_data_07556758;
+        if ((local_58 != (CustomLogic_CustomLogicToken_o *)0x0) &&
+           (__this_10 != (CustomLogic_CustomLogicMethodDefinitionAst_o *)0x0)) {
+          pCVar12 = (CustomLogic_CustomLogicToken_o *)(local_58->fields).Value;
+          if (pCVar12 == (CustomLogic_CustomLogicToken_o *)0x0) {
+            (__this_10->fields).Name = (System_String_o *)0x0;
           }
-          piVar16 = il2cpp_object_unbox(pIVar4);
-          if (*piVar16 != 0x26) goto label_1820e5dba;
-          iVar13 = (pCVar14->fields).Line;
-          pCVar18 = (CustomLogic_CustomLogicToken_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrimitiveExpressionAst);
-          CustomLogic_CustomLogicPrimitiveExpressionAst___ctor
-                    ((CustomLogic_CustomLogicPrimitiveExpressionAst_o *)pCVar18,(Il2CppObject *)0x0,iVar13,
-                     (MethodInfo *)0x0);
-          iVar12 = startIndex + 2;
-        }
-        iVar13 = (pCVar14->fields).Line;
-        __this_04 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicReturnExpressionAst);
-        CustomLogic_CustomLogicReturnExpressionAst___ctor
-                  (__this_04,(CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar18,iVar13,(MethodInfo *)0x0);
-        bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-        if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-           ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-            (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-          il2cpp_codegen_raise_invalid_cast_exception(prev,TypeInfo_CustomLogic_CustomLogicBlockAst);
-        }
-        if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-        il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),__this_04);
-        goto label_1820e6c8b;
-      }
-      if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e6dd1;
-      if ((pCVar14->fields).Type == 0) {
-        pIVar4 = (pCVar14->fields).Value;
-        if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-        }
-        piVar16 = il2cpp_object_unbox(pIVar4);
-        if (*piVar16 == 7) {
-          pSVar20 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex + 1,(MethodInfo *)0x0)
-          ;
-          if (pSVar20 == (System_Object_array *)0x0) goto label_1820e6dd1;
-          if ((int)pSVar20->max_length == 0) goto label_1820e6e25;
-          pIVar4 = pSVar20->m_Items[0];
-          if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-          if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
+          else if (((Il2CppClass *)pCVar12->klass != g_data_07556758) ||
+                  ((__this_10->fields).Name = (System_String_o *)pCVar12,
+                  (Il2CppClass *)pCVar12->klass != pIVar18)) {
+label_05b7d3ad:
+            il2cpp_codegen_raise_invalid_cast_exception(pCVar12,pIVar18);
           }
-          piVar16 = il2cpp_object_unbox(pIVar4);
-          if ((uint)pSVar20->max_length < 2) goto label_1820e6e25;
-          iVar12 = *piVar16;
-          pCVar19 = (CustomLogic_CustomLogicBaseExpressionAst_o *)pSVar20->m_Items[1];
-          iVar13 = (pCVar14->fields).Line;
-          __this_05 = il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicWaitExpressionAst);
-          if (pCVar19 != (CustomLogic_CustomLogicBaseExpressionAst_o *)0x0) {
-            bVar1 = (TypeInfo_CustomLogic_CustomLogicBaseExpressionAst->_2).typeHierarchyDepth;
-            if (((pCVar19->klass->_2).typeHierarchyDepth < bVar1) ||
-               ((pCVar19->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pCVar19);
+          Il2CppCodeGenWriteBarrier(&(__this_10->fields).Name);
+          pSVar23 = (__this->fields)._tokens;
+          if (pSVar23 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+            pCVar12 = System_Collections_Generic_List_object___get_Item
+                                ((System_Collections_Generic_List_object__o *)pSVar23,iVar21 + 2,
+                                 (MethodInfo_395CF20 *)
+                                 MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,0xb,pMVar20);
+            pSVar23 = (__this->fields)._tokens;
+            if ((pSVar23 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) &&
+               (pCVar12 = System_Collections_Generic_List_object___get_Item
+                                    ((System_Collections_Generic_List_object__o *)pSVar23,iVar21 + 3,
+                                     (MethodInfo_395CF20 *)
+                                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
+               pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0)) {
+              iVar21 = iVar21 + 5;
+              do {
+                iVar7 = (pCVar12->fields).Type;
+                if (iVar7 == 0) {
+                  pIVar11 = (pCVar12->fields).Value;
+                  if (pIVar11 == (Il2CppObject *)0x0) break;
+                  if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+                  goto label_05b7d3a8;
+                  piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+                  if (*piVar10 == 0xc) {
+                    pSVar23 = (__this->fields)._tokens;
+                    if (pSVar23 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+                      pCVar12 = System_Collections_Generic_List_object___get_Item
+                                          ((System_Collections_Generic_List_object__o *)pSVar23,iVar21 + -1,
+                                           (MethodInfo_395CF20 *)
+                                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item
+                                          );
+                      CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,9,pMVar20);
+                      iVar7 = CustomLogic_CustomLogicParser__ParseAst
+                                        (__this,iVar21,(CustomLogic_CustomLogicBaseAst_o *)__this_10,pMVar20);
+                      bVar2 = (TypeInfo_CustomLogic_CustomLogicClassDefinitionAst->_2).typeHierarchyDepth;
+                      if (((prev->klass->_2).typeHierarchyDepth < bVar2) ||
+                         ((prev->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+                          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst))
+                      goto label_05b7d3c3;
+                      pCVar12 = (CustomLogic_CustomLogicToken_o *)(local_58->fields).Value;
+                      if ((pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0) &&
+                         (pIVar18 = g_data_07556758, (Il2CppClass *)pCVar12->klass != g_data_07556758))
+                      goto label_05b7d3ad;
+                      method_00 = (uint *)0x0;
+                      CustomLogic_CustomLogicClassDefinitionAst__AddMethod
+                                ((CustomLogic_CustomLogicClassDefinitionAst_o *)prev,
+                                 (System_String_o *)pCVar12,__this_10,(MethodInfo *)0x0);
+                      pMVar20 = extraout_RDX_13;
+                      goto joined_r0x05b7cd49;
+                    }
+                    break;
+                  }
+                  if ((pCVar12->fields).Type == 2) goto label_05b7d233;
+label_05b7d1a0:
+                  CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,0x28,pMVar20);
+                  pSVar23 = (__this->fields)._tokens;
+                }
+                else {
+                  if (iVar7 != 2) goto label_05b7d1a0;
+label_05b7d233:
+                  pMVar20 = MethodInfo_System_Collections_Generic_List_string_Add;
+                  __this_03 = (__this_10->fields).ParameterNames;
+                  if (__this_03 == (System_Collections_Generic_List_string__o *)0x0) break;
+                  pCVar12 = (CustomLogic_CustomLogicToken_o *)(pCVar12->fields).Value;
+                  if ((pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0) &&
+                     (pIVar18 = g_data_07556758, (Il2CppClass *)pCVar12->klass != g_data_07556758))
+                  goto label_05b7d3ad;
+                  piVar1 = &(__this_03->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pSVar4 = (__this_03->fields)._items;
+                  if (pSVar4 == (System_String_array *)0x0) break;
+                  uVar6 = (__this_03->fields)._size;
+                  if (uVar6 < (uint)pSVar4->max_length) {
+                    pMVar20 = (MethodInfo *)(ulong)(uVar6 + 1);
+                    (__this_03->fields)._size = uVar6 + 1;
+                    pSVar4->m_Items[(int)uVar6] = (System_String_o *)pCVar12;
+                    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar6);
+                    pSVar23 = (__this->fields)._tokens;
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              ((System_Collections_Generic_List_object__o *)__this_03,(Il2CppObject *)pCVar12,
+                               (MethodInfo_395D230 *)pMVar20->klass->rgctx_data[0xe].method);
+                    pSVar23 = (__this->fields)._tokens;
+                  }
+                }
+                if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
+                pCVar12 = System_Collections_Generic_List_object___get_Item
+                                    ((System_Collections_Generic_List_object__o *)pSVar23,iVar21 + -1,
+                                     (MethodInfo_395CF20 *)
+                                     MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+                iVar21 = iVar21 + 1;
+              } while (pCVar12 != (CustomLogic_CustomLogicToken_o *)0x0);
             }
           }
-          CustomLogic_CustomLogicWaitExpressionAst___ctor(__this_05,pCVar19,iVar13,(MethodInfo *)0x0);
-          bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-          if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-             ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-              (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-            il2cpp_codegen_raise_invalid_cast_exception(prev);
-          }
-          if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-          il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),__this_05);
-          goto label_1820e6c8b;
         }
-        if (pCVar14 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e6dd1;
+        goto label_05b7d2c1;
+      }
+      iVar7 = (token->fields).Type;
+      if (iVar7 == 0) {
+        pSVar23 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+        if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+        if ((pSVar23->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+        piVar10 = il2cpp_vm_Object_Unbox((Il2CppObject *)pSVar23);
+        if (*piVar10 == 6) goto label_05b7cc48;
+        iVar7 = (token->fields).Type;
       }
     }
-    if ((pCVar14->fields).Type == 2) {
-      pSVar20 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex,(MethodInfo *)0x0);
-      if (pSVar20 == (System_Object_array *)0x0) goto label_1820e6dd1;
-      if ((int)pSVar20->max_length == 0) {
-label_1820e6e25:
-        ThrowIndexOutOfRangeException();
-      }
-      pIVar4 = pSVar20->m_Items[0];
-      if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-      if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-      }
-      piVar16 = il2cpp_object_unbox(pIVar4);
-      bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-      if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-         ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-        il2cpp_codegen_raise_invalid_cast_exception(prev,TypeInfo_CustomLogic_CustomLogicBlockAst);
-      }
-      if ((uint)pSVar20->max_length < 2) goto label_1820e6e25;
-      if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-      pCVar15 = (CustomLogic_CustomLogicToken_o *)pSVar20->m_Items[1];
-      if (pCVar15 != (CustomLogic_CustomLogicToken_o *)0x0) {
-        bVar1 = (TypeInfo_CustomLogic_CustomLogicBaseExpressionAst->_2).typeHierarchyDepth;
-        if (((((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar15->klass)->_2).typeHierarchyDepth <
-             bVar1) ||
-           (pCVar18 = pCVar15,
-           (((CustomLogic_CustomLogicPrimitiveExpressionAst_c *)pCVar15->klass)->_2).typeHierarchy
-           [(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst)) {
+    if (iVar7 == 2) {
+      CustomLogic_CustomLogicParser__AssertSymbolValue(__this,local_58,0x14,(MethodInfo *)method_00);
+      name = (System_String_o *)(token->fields).Value;
+      iVar8 = (token->fields).Line;
+      pCVar16 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
+      if ((name != (System_String_o *)0x0) && ((Il2CppClass *)name->klass != g_data_07556758)) goto label_05b7d3cb;
+      CustomLogic_CustomLogicVariableExpressionAst___ctor(pCVar16,name,iVar8,(MethodInfo *)0x0);
+      iVar8 = (token->fields).Line;
+      __this_07 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAssignmentExpressionAst);
+      pMVar20 = (MethodInfo *)0x0;
+      CustomLogic_CustomLogicAssignmentExpressionAst___ctor
+                (__this_07,(CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar16,local_58,iVar8,
+                 (MethodInfo *)0x0);
+      iVar8 = CustomLogic_CustomLogicParser__FindSemicolon(__this,iVar21,method_05);
+      method_00 = (uint *)(ulong)(iVar8 - 1U);
+      pCVar17 = CustomLogic_CustomLogicParser__ParseExpression
+                          (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,iVar21 + 2,iVar8 - 1U,
+                           pMVar20);
+      if (__this_07 == (CustomLogic_CustomLogicAssignmentExpressionAst_o *)0x0) goto label_05b7d2c1;
+      (__this_07->fields).Right = pCVar17;
+      Il2CppCodeGenWriteBarrier(&(__this_07->fields).Right);
+      __this_01 = (__this_07->fields).Decorators;
+      if (__this_01 == (System_Collections_Generic_List_CustomLogicDecorator__o *)0x0) goto label_05b7d2c1;
+      System_Collections_Generic_List_object___AddRange
+                ((System_Collections_Generic_List_object__o *)__this_01,
+                 (System_Collections_Generic_IEnumerable_T__o *)__this_06,
+                 (MethodInfo_395D490 *)
+                 MethodInfo_System_Collections_Generic_List_CustomLogicDecorator_AddRange);
+      pIVar11 = il2cpp_codegen_is_inst_class
+                          ((Il2CppObject *)prev,
+                           (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst);
+      if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+      pIVar11 = il2cpp_codegen_is_inst_class
+                          ((Il2CppObject *)prev,
+                           (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst);
+      if (pIVar11[1].monitor == (void *)0x0) goto label_05b7d2c1;
+      iVar7 = iVar8 + 1;
+      il2cpp_runtime_helper_02fd76c0(pIVar11[1].monitor,__this_07,
+                   MethodInfo_System_Collections_Generic_List_CustomLogicAssignmentExpressionAst_Add);
+      pMVar20 = extraout_RDX_07;
+      goto joined_r0x05b7cd49;
+    }
+    bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                      ((CustomLogic_CustomLogicParser_o *)pSVar23,token,10,(MethodInfo *)method_00);
+    pMVar20 = extraout_RDX_08;
+    prev = (CustomLogic_CustomLogicBaseAst_o *)pCVar22;
+    if (bVar5) {
+      return iVar21 + 1;
+    }
+    break;
+  case 2:
+  case 0x10:
+  case 0x11:
+    if (token == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+    iVar7 = (token->fields).Type;
+    pCVar22 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev;
+    if (iVar7 != 0) goto label_05b7c130;
+    pIVar11 = (token->fields).Value;
+    if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+    pCVar22 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)&g_data_075566c8;
+    if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+    piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+    if (*piVar10 == 0x10) {
+      pMVar20 = extraout_RDX_02;
+      if ((local_58 == (CustomLogic_CustomLogicToken_o *)0x0) || ((local_58->fields).Type != 0)) {
+label_05b7c9dc:
+        pSVar9 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex + 1,pMVar20);
+        if (pSVar9 == (System_Object_array *)0x0) goto label_05b7d2c1;
+        if ((int)pSVar9->max_length == 0) goto label_05b7d07a;
+        pIVar11 = pSVar9->m_Items[0];
+        if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+        if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+label_05b7d3a8:
           il2cpp_codegen_raise_invalid_cast_exception();
         }
-      }
-      iVar12 = *piVar16;
-      il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),pCVar18);
-    }
-    else {
-      if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-      }
-      pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols;
-      if (Il2CppMethodInitialized_1843469cf == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-        Il2CppMethodInitialized_1843469cf = '\x01';
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_HashSet_int_Contains;
-      if ((pCVar14->fields).Type != 0) goto label_1820e6d59;
-      if ((pSVar5 == (System_Collections_Generic_HashSet_int__o *)0x0) ||
-         (pIVar4 = (pCVar14->fields).Value, pIVar4 == (Il2CppObject *)0x0)) goto label_1820e6dd1;
-      if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-      }
-      piVar17 = il2cpp_object_unbox(pIVar4);
-      bVar10 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                         ((System_Collections_Generic_HashSet_T__o *)pSVar5,*piVar17,
-                          (MethodInfo_1759C90 *)pMVar9);
-      if (!bVar10) {
-        if ((pCVar14->fields).Type != 0) goto label_1820e6d59;
-        pIVar4 = (pCVar14->fields).Value;
-        if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-        }
-        piVar16 = il2cpp_object_unbox(pIVar4);
-        if (*piVar16 == 0x2e) {
-          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar15,0xb,(MethodInfo *)0x0);
-          iVar11 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex,(MethodInfo *)0x0);
-          iVar13 = (pCVar14->fields).Line;
-          __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicForBlockAst);
-          CustomLogic_CustomLogicForBlockAst___ctor(__this_02,iVar13,(MethodInfo *)0x0);
-          pSVar3 = (__this->fields)._tokens;
-          if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-          pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 2,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-          CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar18,2,(MethodInfo *)0x0);
-          pSVar3 = (__this->fields)._tokens;
-          if (((pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
-              (pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                   ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 2,
-                                    (MethodInfo_92B830 *)
-                                    MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
-              pCVar18 == (CustomLogic_CustomLogicToken_o *)0x0)) ||
-             (pSVar3 = (__this->fields)._tokens,
-             pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0)) goto label_1820e6dd1;
-          pSVar6 = (System_String_o *)(pCVar18->fields).Value;
-          pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 2,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-          if (pCVar18 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e6dd1;
-          iVar13 = (pCVar18->fields).Line;
-          __this_03 = il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
-          pSVar21 = (System_String_o *)0x0;
-          if (pSVar6 != (System_String_o *)0x0) {
-            if ((Il2CppClass *)pSVar6->klass == g_data_184354e50) {
-              pSVar21 = pSVar6;
-            }
-            if (pSVar21 == (System_String_o *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pSVar6,g_data_184354e50);
-            }
-          }
-          CustomLogic_CustomLogicVariableExpressionAst___ctor(__this_03,pSVar21,iVar13,(MethodInfo *)0x0);
-          if (__this_02 == (CustomLogic_CustomLogicForBlockAst_o *)0x0) goto label_1820e6dd1;
-          (__this_02->fields).Variable = __this_03;
-          Il2CppCodeGenWriteBarrier(&(__this_02->fields).Variable,__this_03);
-          pSVar3 = (__this->fields)._tokens;
-          if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-          pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 3,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,0x2f,(MethodInfo *)0x0);
-          pCVar19 = CustomLogic_CustomLogicParser__ParseExpression
-                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 4,
-                               iVar11 + -1,(MethodInfo *)0x0);
-          (__this_02->fields).Iterable = pCVar19;
-          Il2CppCodeGenWriteBarrier(&(__this_02->fields).Iterable,pCVar19);
-          pSVar3 = (__this->fields)._tokens;
-          if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e6dd1;
-          pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar3,iVar11 + 1,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,9,(MethodInfo *)0x0);
-          iVar12 = CustomLogic_CustomLogicParser__ParseAst
-                             (__this,iVar11 + 2,(CustomLogic_CustomLogicBaseAst_o *)__this_02,
-                              (MethodInfo *)0x0);
-          bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-          if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-             ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-              (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-            il2cpp_codegen_raise_invalid_cast_exception(prev);
-          }
-          if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-          il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),__this_02);
+        piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+        if ((pSVar9->max_length & 0xfffffffe) == 0) goto label_05b7d07a;
+        iVar7 = *piVar10;
+        pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)pSVar9->m_Items[1];
+        if (pCVar13 == (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)0x0) {
+          pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)0x0;
         }
         else {
-          if ((pCVar14->fields).Type != 0) goto label_1820e6d59;
-          pIVar4 = (pCVar14->fields).Value;
-          if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-          if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-          }
-          piVar16 = il2cpp_object_unbox(pIVar4);
-          if (*piVar16 == 0x11) {
-            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar15,0x26,(MethodInfo *)0x0);
-            iVar13 = (pCVar14->fields).Line;
-            __this_06 = il2cpp_codegen_object_new
-                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicContinueExpressionAst);
-            CustomLogic_CustomLogicContinueExpressionAst___ctor(__this_06,iVar13,(MethodInfo *)0x0);
-            bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-            if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-               ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-              il2cpp_codegen_raise_invalid_cast_exception(prev,TypeInfo_CustomLogic_CustomLogicBlockAst);
-            }
-          }
-          else {
-            if ((pCVar14->fields).Type != 0) {
-label_1820e6d59:
-              CustomLogic_CustomLogicParser__AssertFalse(__this,pCVar14,(MethodInfo *)0x0);
-            }
-            pIVar4 = (pCVar14->fields).Value;
-            if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-            if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-            }
-            piVar16 = il2cpp_object_unbox(pIVar4);
-            if (*piVar16 != 0x12) {
-              if ((pCVar14->fields).Type == 0) {
-                pIVar4 = (pCVar14->fields).Value;
-                if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-                if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                  il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-                }
-                piVar16 = il2cpp_object_unbox(pIVar4);
-                if (*piVar16 == 10) {
-label_1820e6189:
-                  return iVar12 + 1;
-                }
-              }
-              goto label_1820e6d59;
-            }
-            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar15,0x26,(MethodInfo *)0x0);
-            iVar13 = (pCVar14->fields).Line;
-            __this_06 = (CustomLogic_CustomLogicContinueExpressionAst_o *)
-                        il2cpp_codegen_object_new
-                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBreakExpressionAst);
-            CustomLogic_CustomLogicBreakExpressionAst___ctor
-                      ((CustomLogic_CustomLogicBreakExpressionAst_o *)__this_06,iVar13,(MethodInfo *)0x0);
-            bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-            if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-               ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-              il2cpp_codegen_raise_invalid_cast_exception(prev,TypeInfo_CustomLogic_CustomLogicBlockAst);
-            }
-          }
-          if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-          iVar12 = startIndex + 2;
-          il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),__this_06);
+          bVar2 = (TypeInfo_CustomLogic_CustomLogicBaseExpressionAst->_2).typeHierarchyDepth;
+          if (((((CustomLogic_CustomLogicBaseExpressionAst_c *)pCVar13->klass)->_2).typeHierarchyDepth < bVar2
+              ) || ((((CustomLogic_CustomLogicBaseExpressionAst_c *)pCVar13->klass)->_2).typeHierarchy
+                    [(ulong)bVar2 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst))
+          goto label_05b7d3c3;
         }
-        goto label_1820e6c8b;
-      }
-      iVar13 = (pCVar14->fields).Line;
-      __this_07 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicConditionalBlockAst);
-      CustomLogic_CustomLogicConditionalBlockAst___ctor(__this_07,pCVar14,iVar13,(MethodInfo *)0x0);
-      if ((pCVar14->fields).Type == 0) {
-        pIVar4 = (pCVar14->fields).Value;
-        if (pIVar4 == (Il2CppObject *)0x0) goto label_1820e6dd1;
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-        }
-        piVar16 = il2cpp_object_unbox(pIVar4);
-        if (*piVar16 != 0x2b) goto label_1820e6214;
-        pSVar3 = (__this->fields)._tokens;
       }
       else {
-label_1820e6214:
-        CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar15,0xb,(MethodInfo *)0x0);
-        iVar12 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex + 1,(MethodInfo *)0x0);
-        pCVar19 = CustomLogic_CustomLogicParser__ParseExpression
-                            (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 2,
-                             iVar12 + -1,(MethodInfo *)0x0);
-        if (__this_07 == (CustomLogic_CustomLogicConditionalBlockAst_o *)0x0) goto label_1820e6dd1;
-        (__this_07->fields).Condition = pCVar19;
-        Il2CppCodeGenWriteBarrier(&(__this_07->fields).Condition,pCVar19);
-        pSVar3 = (__this->fields)._tokens;
+        pIVar11 = (local_58->fields).Value;
+        if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+        if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+        piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+        pMVar20 = extraout_RDX_03;
+        if (*piVar10 != 0x26) goto label_05b7c9dc;
+        iVar8 = (token->fields).Line;
+        pCVar13 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrimitiveExpressionAst);
+        CustomLogic_CustomLogicPrimitiveExpressionAst___ctor
+                  (pCVar13,(Il2CppObject *)0x0,iVar8,(MethodInfo *)0x0);
+        iVar7 = startIndex + 2;
       }
-      if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-label_1820e6dd1:
-        ThrowNullReferenceException();
+      iVar8 = (token->fields).Line;
+      __this_09 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicReturnExpressionAst);
+      CustomLogic_CustomLogicReturnExpressionAst___ctor
+                (__this_09,(CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar13,iVar8,(MethodInfo *)0x0);
+      method_00 = (uint *)MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
+      bVar2 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
+      pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev;
+      if (((prev->klass->_2).typeHierarchyDepth < bVar2) ||
+         ((prev->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) goto label_05b7d3c3;
+      __this_02 = (*(uint64_t *)((char *)prev + 0x18));
+      if (__this_02 == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_05b7d2c1;
+      piVar1 = (int32_t *)((long)&(__this_02->_1).namespaze + 4);
+      *piVar1 = *piVar1 + 1;
+      pSVar9 = ((System_Collections_Generic_List_object__Fields *)&(__this_02->_1).name)->_items;
+joined_r0x05b7cf34:
+      if (pSVar9 == (System_Object_array *)0x0) goto label_05b7d2c1;
+      uVar6 = *(uint *)&(__this_02->_1).namespaze;
+      if (uVar6 < (uint)pSVar9->max_length) {
+        method_00 = (uint *)(ulong)(uVar6 + 1);
+        *(uint *)&(__this_02->_1).namespaze = uVar6 + 1;
+        pSVar9->m_Items[(int)uVar6] = (Il2CppObject *)__this_09;
+        Il2CppCodeGenWriteBarrier(pSVar9->m_Items + (int)uVar6);
+        pMVar20 = extraout_RDX_11;
       }
-      pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                          ((System_Collections_Generic_List_object__o *)(__this->fields)._tokens,iVar12 + 1,
-                           (MethodInfo_92B830 *)
-                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-      CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,9,(MethodInfo *)0x0);
-      iVar12 = CustomLogic_CustomLogicParser__ParseAst
-                         (__this,iVar12 + 2,(CustomLogic_CustomLogicBaseAst_o *)__this_07,(MethodInfo *)0x0);
-      bVar1 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
-      if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-         ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) {
-        il2cpp_codegen_raise_invalid_cast_exception(prev);
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)__this_02,(Il2CppObject *)__this_09,
+                   (MethodInfo_395D230 *)((MethodInfo *)method_00)->klass->rgctx_data[0xe].method);
+        pMVar20 = extraout_RDX_12;
       }
-      if ((*(uint64_t *)((char *)prev + 0x18)) == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_1820e6dd1;
-      il2cpp_runtime_helper_180012890((*(uint64_t *)((char *)prev + 0x18)),__this_07);
-    }
-  }
-label_1820e6c8b:
-  if (iVar12 != startIndex) {
-    iVar13 = CustomLogic_CustomLogicParser__ParseAst(__this,iVar12,prev,(MethodInfo *)0x0);
-    return iVar13;
-  }
-label_1820e6e46:
-  CustomLogic_CustomLogicParser__AssertFalse(__this,pCVar14,(MethodInfo *)0x0);
-  while( true ) {
-    if ((pCVar18->fields).Type == 2) {
-      pSVar8 = (__this_09->fields).ParameterNames;
-      if (pSVar8 == (System_Collections_Generic_List_string__o *)0x0) break;
-      pIVar4 = (pCVar18->fields).Value;
-      pIVar22 = (Il2CppObject *)0x0;
-      if (pIVar4 != (Il2CppObject *)0x0) {
-        if (pIVar4->klass == g_data_184354e50) {
-          pIVar22 = pIVar4;
-        }
-        if (pIVar22 == (Il2CppObject *)0x0) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e50);
-        }
-      }
-      il2cpp_runtime_helper_180012890(pSVar8,pIVar22,MethodInfo_System_Collections_Generic_List_string_Add);
     }
     else {
-      CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,0x28,(MethodInfo *)0x0);
-    }
-    pSVar3 = (__this->fields)._tokens;
-    if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
-    iVar12 = iVar12 + 1;
-    pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                        ((System_Collections_Generic_List_object__o *)pSVar3,iVar12,
-                         (MethodInfo_92B830 *)
-                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if (pCVar18 == (CustomLogic_CustomLogicToken_o *)0x0) break;
-label_1820e67b7:
-    if ((pCVar18->fields).Type == 0) {
-      pIVar4 = (pCVar18->fields).Value;
-      if (pIVar4 == (Il2CppObject *)0x0) break;
-      if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
-      }
-      piVar16 = il2cpp_object_unbox(pIVar4);
-      if (*piVar16 == 0xc) {
-        pSVar3 = (__this->fields)._tokens;
-        if (pSVar3 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-          pCVar18 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar3,iVar12 + 1,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar18,9,(MethodInfo *)0x0);
-          iVar12 = CustomLogic_CustomLogicParser__ParseAst
-                             (__this,iVar12 + 2,(CustomLogic_CustomLogicBaseAst_o *)__this_09,
-                              (MethodInfo *)0x0);
-          bVar1 = (TypeInfo_CustomLogic_CustomLogicClassDefinitionAst->_2).typeHierarchyDepth;
-          if (((prev->klass->_2).typeHierarchyDepth < bVar1) ||
-             ((prev->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-              (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicClassDefinitionAst)) {
-            il2cpp_codegen_raise_invalid_cast_exception(prev);
+      iVar7 = (token->fields).Type;
+      pMVar20 = extraout_RDX_02;
+      if (iVar7 == 0) {
+        pIVar11 = (token->fields).Value;
+        if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+        if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+        piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+        if (*piVar10 == 7) {
+          pSVar9 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex + 1,method_04);
+          if (pSVar9 == (System_Object_array *)0x0) goto label_05b7d2c1;
+          if ((int)pSVar9->max_length == 0) goto label_05b7d07a;
+          pIVar11 = pSVar9->m_Items[0];
+          if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+          if ((pIVar11->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7d3a8;
+          piVar10 = il2cpp_vm_Object_Unbox(pIVar11);
+          if ((pSVar9->max_length & 0xfffffffe) == 0) goto label_05b7d07a;
+          iVar7 = *piVar10;
+          pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)pSVar9->m_Items[1];
+          iVar8 = (token->fields).Line;
+          __this_09 = (CustomLogic_CustomLogicReturnExpressionAst_o *)
+                      il2cpp_codegen_object_new
+                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicWaitExpressionAst);
+          if (pCVar13 != (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)0x0) {
+            bVar2 = (TypeInfo_CustomLogic_CustomLogicBaseExpressionAst->_2).typeHierarchyDepth;
+            if (((((CustomLogic_CustomLogicBaseExpressionAst_c *)pCVar13->klass)->_2).typeHierarchyDepth <
+                 bVar2) ||
+               ((((CustomLogic_CustomLogicBaseExpressionAst_c *)pCVar13->klass)->_2).typeHierarchy
+                [(ulong)bVar2 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst))
+            goto label_05b7d3c3;
           }
-          pSVar6 = (System_String_o *)(pCVar15->fields).Value;
-          pSVar21 = (System_String_o *)0x0;
-          if (pSVar6 != (System_String_o *)0x0) {
-            if ((Il2CppClass *)pSVar6->klass == g_data_184354e50) {
-              pSVar21 = pSVar6;
-            }
-            if (pSVar21 == (System_String_o *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pSVar6,g_data_184354e50);
-            }
-          }
-          CustomLogic_CustomLogicClassDefinitionAst__AddMethod
-                    ((CustomLogic_CustomLogicClassDefinitionAst_o *)prev,pSVar21,__this_09,(MethodInfo *)0x0);
-          goto label_1820e6c8b;
+          CustomLogic_CustomLogicWaitExpressionAst___ctor
+                    ((CustomLogic_CustomLogicWaitExpressionAst_o *)__this_09,
+                     (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar13,iVar8,(MethodInfo *)0x0);
+          method_00 = (uint *)MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
+          bVar2 = (TypeInfo_CustomLogic_CustomLogicBlockAst->_2).typeHierarchyDepth;
+          pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev;
+          if (((prev->klass->_2).typeHierarchyDepth < bVar2) ||
+             ((prev->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+              (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)) goto label_05b7d3c3;
+          __this_02 = (*(uint64_t *)((char *)prev + 0x18));
+          if (__this_02 == (CustomLogic_CustomLogicBaseAst_c *)0x0) goto label_05b7d2c1;
+          piVar1 = (int32_t *)((long)&(__this_02->_1).namespaze + 4);
+          *piVar1 = *piVar1 + 1;
+          pSVar9 = ((System_Collections_Generic_List_object__Fields *)&(__this_02->_1).name)->_items;
+          goto joined_r0x05b7cf34;
         }
-        break;
+        iVar7 = (token->fields).Type;
+        pMVar20 = method_04;
       }
+label_05b7c130:
+      if (iVar7 == 2) {
+        pSVar9 = CustomLogic_CustomLogicParser__ParseExpressionAst(__this,startIndex,pMVar20);
+        if (pSVar9 == (System_Object_array *)0x0) goto label_05b7d2c1;
+        if ((int)pSVar9->max_length == 0) {
+label_05b7d07a:
+          ThrowIndexOutOfRangeException();
+        }
+        piVar10 = (int *)il2cpp_runtime_helper_02abd3a0(pSVar9->m_Items[0],g_data_07556710);
+        iVar7 = *piVar10;
+        pIVar11 = il2cpp_codegen_is_inst_class
+                            ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+        if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+        pIVar11 = il2cpp_codegen_is_inst_class
+                            ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+        if ((pSVar9->max_length & 0xfffffffe) == 0) goto label_05b7d07a;
+        pvVar24 = pIVar11[1].monitor;
+        if (pvVar24 == (void *)0x0) goto label_05b7d2c1;
+        pIVar11 = il2cpp_codegen_is_inst_class
+                            (pSVar9->m_Items[1],
+                             (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBaseExpressionAst);
+        ppMVar19 = &MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add;
+        il2cpp_runtime_helper_02fd7670(pvVar24,pIVar11,MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
+        method_00 = (uint *)ppMVar19;
+        pMVar20 = extraout_RDX_01;
+      }
+      else {
+        if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+        }
+        __this_11 = TypeInfo_CustomLogic_CustomLogicSymbols;
+        bVar5 = CustomLogic_CustomLogicParser__IsSymbolIn
+                          ((CustomLogic_CustomLogicParser_o *)TypeInfo_CustomLogic_CustomLogicSymbols,token,
+                           TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols,
+                           (MethodInfo *)method_00);
+        if (bVar5) {
+          iVar8 = (token->fields).Line;
+          __this_04 = il2cpp_codegen_object_new
+                                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicConditionalBlockAst);
+          method_00 = (uint *)0x0;
+          __this_12 = __this_04;
+          CustomLogic_CustomLogicConditionalBlockAst___ctor(__this_04,token,iVar8,(MethodInfo *)0x0);
+          bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                            ((CustomLogic_CustomLogicParser_o *)__this_12,token,0x2b,(MethodInfo *)method_00);
+          if (bVar5) {
+            pSVar23 = (__this->fields)._tokens;
+            if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+            pCVar12 = System_Collections_Generic_List_object___get_Item
+                                ((System_Collections_Generic_List_object__o *)pSVar23,startIndex + 1,
+                                 (MethodInfo_395CF20 *)
+                                 MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,9,(MethodInfo *)method_00);
+            iVar7 = startIndex;
+          }
+          else {
+            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,local_58,0xb,(MethodInfo *)method_00);
+            iVar7 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex + 1,method_06);
+            method_00 = (uint *)(ulong)(iVar7 - 1U);
+            pCVar17 = CustomLogic_CustomLogicParser__ParseExpression
+                                (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 2,
+                                 iVar7 - 1U,in_R8);
+            if (__this_04 == (CustomLogic_CustomLogicConditionalBlockAst_o *)0x0) goto label_05b7d2c1;
+            (__this_04->fields).Condition = pCVar17;
+            Il2CppCodeGenWriteBarrier(&(__this_04->fields).Condition);
+            pSVar23 = (__this->fields)._tokens;
+            if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+            pCVar12 = System_Collections_Generic_List_object___get_Item
+                                ((System_Collections_Generic_List_object__o *)pSVar23,iVar7 + 1,
+                                 (MethodInfo_395CF20 *)
+                                 MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+            CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,9,(MethodInfo *)method_00);
+          }
+          iVar7 = CustomLogic_CustomLogicParser__ParseAst
+                            (__this,iVar7 + 2,(CustomLogic_CustomLogicBaseAst_o *)__this_04,
+                             (MethodInfo *)method_00);
+          pIVar11 = il2cpp_codegen_is_inst_class
+                              ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+          if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+          pIVar11 = il2cpp_codegen_is_inst_class
+                              ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+          pvVar24 = pIVar11[1].monitor;
+          if (pvVar24 == (void *)0x0) goto label_05b7d2c1;
+        }
+        else {
+          bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                            ((CustomLogic_CustomLogicParser_o *)__this_11,token,0x2e,(MethodInfo *)method_00);
+          if (!bVar5) {
+            bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                              ((CustomLogic_CustomLogicParser_o *)__this_11,token,0x11,(MethodInfo *)method_00
+                              );
+            if (bVar5) {
+              CustomLogic_CustomLogicParser__AssertSymbolValue(__this,local_58,0x26,(MethodInfo *)method_00);
+              iVar8 = (token->fields).Line;
+              __this_08 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicContinueExpressionAst);
+              CustomLogic_CustomLogicContinueExpressionAst___ctor(__this_08,iVar8,(MethodInfo *)0x0);
+            }
+            else {
+              bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                                ((CustomLogic_CustomLogicParser_o *)__this_11,token,0x12,
+                                 (MethodInfo *)method_00);
+              if (!bVar5) {
+                bVar5 = CustomLogic_CustomLogicParser__IsSymbolValue
+                                  ((CustomLogic_CustomLogicParser_o *)__this_11,token,10,
+                                   (MethodInfo *)method_00);
+                pMVar20 = extraout_RDX_14;
+                prev = (CustomLogic_CustomLogicBaseAst_o *)pCVar22;
+                if (bVar5) {
+                  return startIndex + 1;
+                }
+                break;
+              }
+              CustomLogic_CustomLogicParser__AssertSymbolValue(__this,local_58,0x26,(MethodInfo *)method_00);
+              iVar8 = (token->fields).Line;
+              __this_08 = (CustomLogic_CustomLogicContinueExpressionAst_o *)
+                          il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBreakExpressionAst);
+              CustomLogic_CustomLogicBreakExpressionAst___ctor
+                        ((CustomLogic_CustomLogicBreakExpressionAst_o *)__this_08,iVar8,(MethodInfo *)0x0);
+            }
+            pIVar11 = il2cpp_codegen_is_inst_class
+                                ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)
+            ;
+            if (pIVar11 == (Il2CppObject *)0x0) {
+label_05b7d2c1:
+              ThrowNullReferenceException();
+            }
+            pIVar11 = il2cpp_codegen_is_inst_class
+                                ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst)
+            ;
+            if (pIVar11[1].monitor == (void *)0x0) goto label_05b7d2c1;
+            iVar7 = startIndex + 2;
+            il2cpp_runtime_helper_02fd7670(pIVar11[1].monitor,__this_08,
+                         MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
+            goto label_05b7d36f;
+          }
+          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,local_58,0xb,(MethodInfo *)method_00);
+          uVar6 = CustomLogic_CustomLogicParser__FindClosingParen(__this,startIndex,method_03);
+          iVar8 = (token->fields).Line;
+          __this_04 = (CustomLogic_CustomLogicConditionalBlockAst_o *)
+                      il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicForBlockAst);
+          CustomLogic_CustomLogicForBlockAst___ctor
+                    ((CustomLogic_CustomLogicForBlockAst_o *)__this_04,iVar8,(MethodInfo *)0x0);
+          pSVar23 = (__this->fields)._tokens;
+          if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+          iVar7 = startIndex + 2;
+          pCVar12 = System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)pSVar23,iVar7,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+          CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar12,2,(MethodInfo *)method_00);
+          pSVar23 = (__this->fields)._tokens;
+          if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+          pCVar12 = System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)pSVar23,iVar7,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+          if (pCVar12 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+          pSVar23 = (__this->fields)._tokens;
+          local_38 = (ulong)uVar6;
+          if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+          name = (System_String_o *)(pCVar12->fields).Value;
+          pCVar12 = System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)pSVar23,iVar7,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+          if (pCVar12 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7d2c1;
+          iVar8 = (pCVar12->fields).Line;
+          pCVar16 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVariableExpressionAst);
+          if ((name != (System_String_o *)0x0) && ((Il2CppClass *)name->klass != g_data_07556758)) {
+label_05b7d3cb:
+            il2cpp_codegen_raise_invalid_cast_exception(name);
+          }
+          pMVar20 = (MethodInfo *)0x0;
+          CustomLogic_CustomLogicVariableExpressionAst___ctor(pCVar16,name,iVar8,(MethodInfo *)0x0);
+          if (__this_04 == (CustomLogic_CustomLogicConditionalBlockAst_o *)0x0) goto label_05b7d2c1;
+          (__this_04->fields).Condition = (CustomLogic_CustomLogicBaseExpressionAst_o *)pCVar16;
+          Il2CppCodeGenWriteBarrier(&(__this_04->fields).Condition);
+          pSVar23 = (__this->fields)._tokens;
+          if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+          pCVar12 = System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)pSVar23,startIndex + 3,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,0x2f,pMVar20);
+          iVar7 = (int)local_38;
+          method_00 = (uint *)(ulong)(iVar7 - 1U);
+          pCVar12 = (CustomLogic_CustomLogicToken_o *)
+                    CustomLogic_CustomLogicParser__ParseExpression
+                              (__this,(CustomLogic_CustomLogicBaseExpressionAst_o *)0x0,startIndex + 4,
+                               iVar7 - 1U,in_R8);
+          (__this_04->fields).Token = pCVar12;
+          Il2CppCodeGenWriteBarrier(&(__this_04->fields).Token);
+          pSVar23 = (__this->fields)._tokens;
+          if (pSVar23 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7d2c1;
+          pCVar12 = System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)pSVar23,iVar7 + 1,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+          CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar12,9,(MethodInfo *)method_00);
+          iVar7 = CustomLogic_CustomLogicParser__ParseAst
+                            (__this,iVar7 + 2,(CustomLogic_CustomLogicBaseAst_o *)__this_04,
+                             (MethodInfo *)method_00);
+          pIVar11 = il2cpp_codegen_is_inst_class
+                              ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+          if (pIVar11 == (Il2CppObject *)0x0) goto label_05b7d2c1;
+          pIVar11 = il2cpp_codegen_is_inst_class
+                              ((Il2CppObject *)prev,(Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBlockAst);
+          pvVar24 = pIVar11[1].monitor;
+          if (pvVar24 == (void *)0x0) goto label_05b7d2c1;
+        }
+        il2cpp_runtime_helper_02fd7670(pvVar24,__this_04,MethodInfo_System_Collections_Generic_List_CustomLogicBaseAst_Add);
+        pMVar20 = extraout_RDX_09;
+      }
+    }
+joined_r0x05b7cd49:
+    if (iVar7 != startIndex) {
+label_05b7d36f:
+      iVar8 = CustomLogic_CustomLogicParser__ParseAst(__this,iVar7,prev,(MethodInfo *)method_00);
+      return iVar8;
     }
   }
-  goto label_1820e6dd1;
+  CustomLogic_CustomLogicParser__AssertFalse(__this,token,pMVar20);
+  pCVar13 = (CustomLogic_CustomLogicPrimitiveExpressionAst_o *)prev;
+label_05b7d3c3:
+  il2cpp_codegen_raise_invalid_cast_exception(pCVar13);
 }
 
 
 // CustomLogic.CustomLogicParser$$ParseDecorator
 // il2cpp: System_Object_array* CustomLogic_CustomLogicParser__ParseDecorator (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820e72f0
+// 0x5b7e9f0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7ec84: jmp 0x5b7edcb
+// asm:   0x5b7ec9a: jmp 0x5b7edcb
+// asm:   0x5b7ee2b: mov rdi, rbp
 
 System_Object_array *
 CustomLogic_CustomLogicParser__ParseDecorator
@@ -1686,30 +1561,34 @@ CustomLogic_CustomLogicParser__ParseDecorator
 
 {
   int32_t *piVar1;
-  int iVar2;
-  uint uVar3;
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar4;
-  System_Collections_Generic_List_object__o *pSVar5;
-  int32_t iVar6;
-  CustomLogic_CustomLogicToken_o *pCVar7;
+  uint uVar2;
+  System_Collections_Generic_List_CustomLogicToken__o *pSVar3;
+  System_Collections_Generic_List_object__o *pSVar4;
+  int32_t endIndex;
+  CustomLogic_CustomLogicToken_o *pCVar5;
   CustomLogic_CustomLogicDecorator_o *__this_00;
-  CustomLogic_CustomLogicToken_o *pCVar8;
-  int *piVar9;
-  System_Int32_array *pSVar10;
+  CustomLogic_CustomLogicToken_o *pCVar6;
+  int *piVar7;
+  System_Int32_array *pSVar8;
+  Il2CppObject *pIVar9;
+  System_Object_array *pSVar10;
   Il2CppObject *pIVar11;
-  System_Object_array *pSVar12;
-  Il2CppObject *pIVar13;
-  System_String_o *pSVar14;
-  System_String_o *pSVar15;
-  Il2CppClass *pIVar16;
-  System_Exception_o *pSVar17;
-  MethodInfo *pMVar18;
-  uint uVar19;
-  System_String_o *pSVar20;
-  int iVar21;
-  int local_res10 [2];
+  System_String_o *pSVar12;
+  System_String_o *str0;
+  Il2CppClass *pIVar13;
+  System_Exception_o *pSVar14;
+  MethodInfo *in_RCX;
+  MethodInfo *pMVar15;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *pMVar16;
+  int iVar17;
+  int32_t startIndex_00;
+  int local_3c;
+  CustomLogic_CustomLogicDecorator_o *local_38;
   
-  if (Il2CppMethodInitialized_1843469c9 == '\0') {
+  if (Il2CppMethodInitialized_07547394 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicDecorator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1717,191 +1596,172 @@ CustomLogic_CustomLogicParser__ParseDecorator
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843469c9 = '\x01';
+    Il2CppMethodInitialized_07547394 = '\x01';
   }
-  pSVar4 = (__this->fields)._tokens;
-  if (pSVar4 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-    pCVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                       ((System_Collections_Generic_List_object__o *)pSVar4,startIndex,
-                        (MethodInfo_92B830 *)
-                        MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar7,0xf,(MethodInfo *)0x0);
-    pSVar4 = (__this->fields)._tokens;
-    if (pSVar4 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-      if ((pSVar4->fields)._size <= startIndex + 1) {
-        pIVar16 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-        pSVar17 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar16);
-        pSVar14 = il2cpp_codegen_get_runtime_metadata(&"Expected decorator name after @");
-        System_Exception___ctor_1b6abf0(pSVar17,pSVar14,(MethodInfo *)0x0);
-        pMVar18 = il2cpp_codegen_get_runtime_metadata
-                            (&MethodInfo_CustomLogic_CustomLogicParser_ParseDecorator);
-        il2cpp_codegen_raise_exception((Il2CppObject *)pSVar17,pMVar18);
-      }
-      pCVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                         ((System_Collections_Generic_List_object__o *)pSVar4,startIndex + 1,
-                          (MethodInfo_92B830 *)
-                          MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-      CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar7,2,(MethodInfo *)0x0);
-      if (pCVar7 != (CustomLogic_CustomLogicToken_o *)0x0) {
-        pSVar14 = (System_String_o *)(pCVar7->fields).Value;
-        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicDecorator);
-        pSVar20 = (System_String_o *)0x0;
-        pSVar15 = pSVar20;
-        if (pSVar14 != (System_String_o *)0x0) {
-          if ((Il2CppClass *)pSVar14->klass == g_data_184354e50) {
-            pSVar15 = pSVar14;
-          }
-          if (pSVar15 == (System_String_o *)0x0) {
-            il2cpp_codegen_raise_invalid_cast_exception(pSVar14,g_data_184354e50);
-          }
+  pSVar3 = (__this->fields)._tokens;
+  if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7edcb;
+  pCVar5 = System_Collections_Generic_List_object___get_Item
+                     ((System_Collections_Generic_List_object__o *)pSVar3,startIndex,
+                      (MethodInfo_395CF20 *)
+                      MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+  CustomLogic_CustomLogicParser__AssertSymbolValue(__this,pCVar5,0xf,in_RCX);
+  pSVar3 = (__this->fields)._tokens;
+  if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7edcb;
+  if ((pSVar3->fields)._size <= startIndex + 1) {
+    pIVar13 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+    pSVar14 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar13);
+    pSVar12 = il2cpp_codegen_get_runtime_metadata(&"Expected decorator name after @");
+    System_Exception___ctor_54fa440(pSVar14,pSVar12,(MethodInfo *)0x0);
+    pMVar15 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_ParseDecorator);
+    il2cpp_codegen_raise_exception((Il2CppObject *)pSVar14,pMVar15);
+  }
+  pCVar5 = System_Collections_Generic_List_object___get_Item
+                     ((System_Collections_Generic_List_object__o *)pSVar3,startIndex + 1,
+                      (MethodInfo_395CF20 *)
+                      MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+  CustomLogic_CustomLogicParser__AssertTokenType(__this,pCVar5,2,in_RCX);
+  if (pCVar5 == (CustomLogic_CustomLogicToken_o *)0x0) goto label_05b7edcb;
+  pSVar12 = (System_String_o *)(pCVar5->fields).Value;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicDecorator);
+  if ((pSVar12 != (System_String_o *)0x0) && (pSVar12->klass != g_data_07556758)) {
+label_05b7ee2e:
+    il2cpp_codegen_raise_invalid_cast_exception(pSVar12);
+  }
+  CustomLogic_CustomLogicDecorator___ctor(__this_00,pSVar12,(MethodInfo *)0x0);
+  pSVar3 = (__this->fields)._tokens;
+  if (pSVar3 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7edcb;
+  iVar17 = startIndex + 2;
+  if (((iVar17 < (pSVar3->fields)._size) &&
+      (pCVar6 = System_Collections_Generic_List_object___get_Item
+                          ((System_Collections_Generic_List_object__o *)pSVar3,iVar17,
+                           (MethodInfo_395CF20 *)
+                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
+      pCVar6 != (CustomLogic_CustomLogicToken_o *)0x0)) && ((pCVar6->fields).Type == 0)) {
+    pSVar12 = (System_String_o *)(pCVar6->fields).Value;
+    if (pSVar12 == (System_String_o *)0x0) goto label_05b7edcb;
+    if ((pSVar12->klass->_1).element_class != (g_data_07556710->_1).element_class) goto label_05b7ee2e;
+    piVar7 = il2cpp_vm_Object_Unbox((Il2CppObject *)pSVar12);
+    if (*piVar7 != 0xb) goto label_05b7ed1d;
+    endIndex = CustomLogic_CustomLogicParser__FindClosingParen(__this,iVar17,method_00);
+    if (endIndex < 0) {
+      NullCheck(pCVar5);
+      pSVar12 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(pCVar5->fields).Line + 1,method_02)
+      ;
+      str0 = il2cpp_codegen_get_runtime_metadata(&"Unclosed decorator parameters at line ");
+      pSVar12 = System_String__Concat_52f0320(str0,pSVar12,(MethodInfo *)0x0);
+      pIVar13 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+      pSVar14 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar13);
+      System_Exception___ctor_54fa440(pSVar14,pSVar12,(MethodInfo *)0x0);
+      pMVar15 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_ParseDecorator);
+      il2cpp_codegen_raise_exception((Il2CppObject *)pSVar14,pMVar15);
+    }
+    startIndex_00 = startIndex + 3;
+    pSVar8 = CustomLogic_CustomLogicParser__FindCommas(__this,startIndex_00,endIndex,in_RCX);
+    if (pSVar8 == (System_Int32_array *)0x0) goto label_05b7edcb;
+    pMVar15 = (MethodInfo *)pSVar8->max_length;
+    if (__this_00 == (CustomLogic_CustomLogicDecorator_o *)0x0) {
+      if ((0 < (int)pMVar15) || (startIndex_00 < endIndex)) goto label_05b7edcb;
+    }
+    else if ((int)pMVar15 < 1) {
+      if (startIndex_00 < endIndex) goto label_05b7eca4;
+    }
+    else {
+      method_01 = (MethodInfo *)((ulong)pMVar15 & 0xffffffff);
+      pMVar16 = (MethodInfo *)0x0;
+      local_38 = __this_00;
+      do {
+        if (method_01 <= pMVar16) goto label_05b7edd0;
+        iVar17 = pSVar8->m_Items[(long)pMVar16];
+        pSVar4 = (local_38->fields).Parameters;
+        pIVar9 = CustomLogic_CustomLogicParser__ParseDecoratorParameter
+                           (__this,startIndex_00,iVar17 + -1,method_01);
+        pMVar15 = MethodInfo_System_Collections_Generic_List_object_Add;
+        if (pSVar4 == (System_Collections_Generic_List_object__o *)0x0) goto label_05b7edcb;
+        piVar1 = &(pSVar4->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar10 = (pSVar4->fields)._items;
+        if (pSVar10 == (System_Object_array *)0x0) goto label_05b7edcb;
+        uVar2 = (pSVar4->fields)._size;
+        if (uVar2 < (uint)pSVar10->max_length) {
+          (pSVar4->fields)._size = uVar2 + 1;
+          pSVar10->m_Items[(int)uVar2] = pIVar9;
+          Il2CppCodeGenWriteBarrier(pSVar10->m_Items + (int)uVar2);
         }
-        CustomLogic_CustomLogicDecorator___ctor(__this_00,pSVar15,(MethodInfo *)0x0);
-        pSVar4 = (__this->fields)._tokens;
-        if (pSVar4 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-          iVar21 = startIndex + 2;
-          if (iVar21 < (pSVar4->fields)._size) {
-            pCVar8 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)pSVar4,iVar21,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-            if ((pCVar8 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar8->fields).Type == 0)) {
-              pIVar11 = (pCVar8->fields).Value;
-              if (pIVar11 == (Il2CppObject *)0x0) goto label_1820e76d8;
-              if ((pIVar11->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-                il2cpp_codegen_raise_invalid_cast_exception();
-              }
-              piVar9 = il2cpp_object_unbox(pIVar11);
-              if (*piVar9 != 0xb) goto label_1820e7611;
-              iVar6 = CustomLogic_CustomLogicParser__FindClosingParen(__this,iVar21,(MethodInfo *)0x0);
-              if (iVar6 < 0) {
-                NullCheck(pCVar7);
-                iVar6 = il2cpp_runtime_helper_180001e60((pCVar7->fields).Line,1);
-                pSVar14 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,iVar6,(MethodInfo *)0x0);
-                pSVar15 = il2cpp_codegen_get_runtime_metadata(&"Unclosed decorator parameters at line ");
-                pSVar14 = System_String__Concat_1969e50(pSVar15,pSVar14,(MethodInfo *)0x0);
-                pIVar16 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-                pSVar17 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar16);
-                System_Exception___ctor_1b6abf0(pSVar17,pSVar14,(MethodInfo *)0x0);
-                pMVar18 = il2cpp_codegen_get_runtime_metadata
-                                    (&MethodInfo_CustomLogic_CustomLogicParser_ParseDecorator);
-                il2cpp_codegen_raise_exception((Il2CppObject *)pSVar17,pMVar18);
-              }
-              pSVar10 = CustomLogic_CustomLogicParser__FindCommas
-                                  (__this,startIndex + 3,iVar6,(MethodInfo *)0x0);
-              if (pSVar10 == (System_Int32_array *)0x0) goto label_1820e76d8;
-              iVar21 = startIndex + 3;
-              while( true ) {
-                uVar19 = (uint)pSVar20;
-                if ((int)pSVar10->max_length <= (int)uVar19) break;
-                if ((uint)pSVar10->max_length <= uVar19) goto label_1820e76de;
-                if (__this_00 == (CustomLogic_CustomLogicDecorator_o *)0x0) goto label_1820e76d8;
-                pSVar5 = (__this_00->fields).Parameters;
-                iVar2 = pSVar10->m_Items[(int)uVar19];
-                pIVar11 = CustomLogic_CustomLogicParser__ParseDecoratorParameter
-                                    (__this,iVar21,iVar2 + -1,(MethodInfo *)0x0);
-                pMVar18 = MethodInfo_System_Collections_Generic_List_object_Add;
-                if (pSVar5 == (System_Collections_Generic_List_object__o *)0x0) goto label_1820e76d8;
-                piVar1 = &(pSVar5->fields)._version;
-                *piVar1 = *piVar1 + 1;
-                pSVar12 = (pSVar5->fields)._items;
-                if (pSVar12 == (System_Object_array *)0x0) goto label_1820e76d8;
-                uVar3 = (pSVar5->fields)._size;
-                if (uVar3 < (uint)pSVar12->max_length) {
-                  (pSVar5->fields)._size = uVar3 + 1;
-                  if ((uint)pSVar12->max_length <= uVar3) goto label_1820e76de;
-                  pSVar12->m_Items[(int)uVar3] = pIVar11;
-                  Il2CppCodeGenWriteBarrier(pSVar12->m_Items + (int)uVar3,pIVar11);
-                  iVar21 = iVar2 + 1;
-                  pSVar20 = (System_String_o *)(ulonglong)(uVar19 + 1);
-                }
-                else {
-                  System_Collections_Generic_List_object___AddWithResize
-                            (pSVar5,pIVar11,(MethodInfo_93DD50 *)pMVar18->klass->rgctx_data[0xe].method);
-                  iVar21 = iVar2 + 1;
-                  pSVar20 = (System_String_o *)(ulonglong)(uVar19 + 1);
-                }
-              }
-              if (iVar21 < iVar6) {
-                if (__this_00 == (CustomLogic_CustomLogicDecorator_o *)0x0) goto label_1820e76d8;
-                pSVar5 = (__this_00->fields).Parameters;
-                pIVar11 = CustomLogic_CustomLogicParser__ParseDecoratorParameter
-                                    (__this,iVar21,iVar6 + -1,(MethodInfo *)0x0);
-                pMVar18 = MethodInfo_System_Collections_Generic_List_object_Add;
-                if (pSVar5 == (System_Collections_Generic_List_object__o *)0x0) goto label_1820e76d8;
-                piVar1 = &(pSVar5->fields)._version;
-                *piVar1 = *piVar1 + 1;
-                pSVar12 = (pSVar5->fields)._items;
-                if (pSVar12 == (System_Object_array *)0x0) goto label_1820e76d8;
-                uVar19 = (pSVar5->fields)._size;
-                if (uVar19 < (uint)pSVar12->max_length) {
-                  (pSVar5->fields)._size = uVar19 + 1;
-                  if ((uint)pSVar12->max_length <= uVar19) {
-label_1820e76de:
-                    ThrowIndexOutOfRangeException();
-                  }
-                  pSVar12->m_Items[(int)uVar19] = pIVar11;
-                  Il2CppCodeGenWriteBarrier(pSVar12->m_Items + (int)uVar19,pIVar11);
-                }
-                else {
-                  System_Collections_Generic_List_object___AddWithResize
-                            (pSVar5,pIVar11,(MethodInfo_93DD50 *)pMVar18->klass->rgctx_data[0xe].method);
-                }
-              }
-              iVar21 = iVar6 + 1;
-            }
-          }
-label_1820e7611:
-          pSVar12 = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-          local_res10[0] = iVar21;
-          pIVar11 = il2cpp_value_box(g_data_184354e08,local_res10);
-          if (pSVar12 == (System_Object_array *)0x0) {
-            ThrowNullReferenceException();
-          }
-          if (pIVar11 != (Il2CppObject *)0x0) {
-            pIVar13 = il2cpp_vm_Object_IsInst(pIVar11,(((pSVar12->obj).klass)->_1).element_class);
-            if (pIVar13 == (Il2CppObject *)0x0) {
-              pIVar11 = il2cpp_codegen_get_array_type_mismatch_exception();
-              il2cpp_codegen_raise_exception(pIVar11,(MethodInfo *)0x0);
-            }
-          }
-          if ((int)pSVar12->max_length != 0) {
-            pSVar12->m_Items[0] = pIVar11;
-            Il2CppCodeGenWriteBarrier(pSVar12->m_Items,pIVar11);
-            if (__this_00 != (CustomLogic_CustomLogicDecorator_o *)0x0) {
-              pIVar11 = il2cpp_vm_Object_IsInst
-                                  ((Il2CppObject *)__this_00,(((pSVar12->obj).klass)->_1).element_class);
-              if (pIVar11 == (Il2CppObject *)0x0) {
-                pIVar11 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar11,(MethodInfo *)0x0);
-              }
-            }
-            if (1 < (uint)pSVar12->max_length) {
-              pSVar12->m_Items[1] = (Il2CppObject *)__this_00;
-              Il2CppCodeGenWriteBarrier(pSVar12->m_Items + 1,__this_00);
-              return pSVar12;
-            }
-          }
-          ThrowIndexOutOfRangeException();
+        else {
+          System_Collections_Generic_List_object___AddWithResize
+                    (pSVar4,pIVar9,(MethodInfo_395D230 *)pMVar15->klass->rgctx_data[0xe].method);
+        }
+        startIndex_00 = iVar17 + 1;
+        pMVar16 = (MethodInfo *)((long)&pMVar16->methodPointer + 1);
+        uVar2 = (uint)pSVar8->max_length;
+        method_01 = (MethodInfo *)(ulong)uVar2;
+        pMVar15 = (MethodInfo *)(long)(int)uVar2;
+      } while ((long)pMVar16 < (long)pMVar15);
+      __this_00 = local_38;
+      if (startIndex_00 < endIndex) {
+        if (local_38 == (CustomLogic_CustomLogicDecorator_o *)0x0) goto label_05b7edcb;
+label_05b7eca4:
+        pSVar4 = (__this_00->fields).Parameters;
+        pIVar9 = CustomLogic_CustomLogicParser__ParseDecoratorParameter
+                           (__this,startIndex_00,endIndex + -1,pMVar15);
+        pMVar15 = MethodInfo_System_Collections_Generic_List_object_Add;
+        if (pSVar4 == (System_Collections_Generic_List_object__o *)0x0) goto label_05b7edcb;
+        piVar1 = &(pSVar4->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar10 = (pSVar4->fields)._items;
+        if (pSVar10 == (System_Object_array *)0x0) goto label_05b7edcb;
+        uVar2 = (pSVar4->fields)._size;
+        if (uVar2 < (uint)pSVar10->max_length) {
+          (pSVar4->fields)._size = uVar2 + 1;
+          pSVar10->m_Items[(int)uVar2] = pIVar9;
+          Il2CppCodeGenWriteBarrier(pSVar10->m_Items + (int)uVar2);
+        }
+        else {
+          System_Collections_Generic_List_object___AddWithResize
+                    (pSVar4,pIVar9,(MethodInfo_395D230 *)pMVar15->klass->rgctx_data[0xe].method);
         }
       }
     }
+    iVar17 = endIndex + 1;
   }
-label_1820e76d8:
-  ThrowNullReferenceException();
+label_05b7ed1d:
+  pSVar10 = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
+  local_3c = iVar17;
+  pIVar9 = il2cpp_vm_Object_Box(g_data_07556710,&local_3c);
+  if (pSVar10 == (System_Object_array *)0x0) {
+label_05b7edcb:
+    ThrowNullReferenceException();
+  }
+  if ((pIVar9 != (Il2CppObject *)0x0) &&
+     (pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,(((pSVar10->obj).klass)->_1).element_class),
+     pIVar11 == (Il2CppObject *)0x0)) {
+label_05b7edd5:
+    pIVar9 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar9,(MethodInfo *)0x0);
+  }
+  if ((int)pSVar10->max_length != 0) {
+    pSVar10->m_Items[0] = pIVar9;
+    Il2CppCodeGenWriteBarrier(pSVar10->m_Items);
+    if ((__this_00 != (CustomLogic_CustomLogicDecorator_o *)0x0) &&
+       (pIVar9 = il2cpp_vm_Object_IsInst((Il2CppObject *)__this_00,(((pSVar10->obj).klass)->_1).element_class)
+       , pIVar9 == (Il2CppObject *)0x0)) goto label_05b7edd5;
+    if ((pSVar10->max_length & 0xfffffffe) != 0) {
+      pSVar10->m_Items[1] = (Il2CppObject *)__this_00;
+      Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 1);
+      return pSVar10;
+    }
+  }
+label_05b7edd0:
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicParser$$ParseDecoratorParameter
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicParser__ParseDecoratorParameter (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, int32_t endIndex, const MethodInfo* method);
-// 0x1820e6e80
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e7086: mov rcx, qword ptr [rip + 0x226ddab]
-// asm:   0x1820e708d: lea rdx, [rsp + 0x48]
-// asm:   0x1820e7092: movss dword ptr [rsp + 0x48], xmm6
-// asm:   0x1820e7141: mov dword ptr [rsp + 0x48], eax
-// asm:   0x1820e7145: jmp 0x1820e7098
-// asm:   0x1820e7188: mov rax, qword ptr [rax + 0x18]
-// asm:   0x1820e718c: jmp 0x1820e709d
+// 0x5b7eeb0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7f146: call 0x30d6260  ; il2cpp_runtime_helper_030d6260()
+// asm:   0x5b7f14b: jmp 0x5b7f05e
 
 Il2CppObject *
 CustomLogic_CustomLogicParser__ParseDecoratorParameter
@@ -1910,514 +1770,499 @@ CustomLogic_CustomLogicParser__ParseDecoratorParameter
 {
   uint uVar1;
   System_Collections_Generic_List_CustomLogicToken__o *pSVar2;
-  int32_t iVar3;
-  CustomLogic_CustomLogicToken_o *pCVar4;
-  int *piVar5;
+  CustomLogic_CustomLogicToken_o *pCVar3;
+  int *piVar4;
+  uint *puVar5;
+  MethodInfo_395CF20 *method_00;
   Il2CppObject *pIVar6;
-  uint *puVar7;
-  Il2CppObject *pIVar8;
-  MethodInfo_92B830 *method_00;
-  System_String_o *pSVar9;
-  System_String_o *pSVar10;
-  Il2CppClass *pIVar11;
-  System_Exception_o *pSVar12;
-  MethodInfo *pMVar13;
-  bool bVar14;
-  uint local_res10 [2];
+  System_String_o *pSVar7;
+  System_String_o *str0;
+  Il2CppClass *pIVar8;
+  System_Exception_o *__this_00;
+  MethodInfo *lastManagedFrame;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  System_String_o **metadataPointer;
+  uint local_40;
+  uint local_3c;
+  undefined1 local_38 [16];
   
-  if (Il2CppMethodInitialized_1843469ca == '\0') {
+  if (Il2CppMethodInitialized_07547395 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    Il2CppMethodInitialized_1843469ca = '\x01';
+    Il2CppMethodInitialized_07547395 = '\x01';
   }
-  if (endIndex == startIndex + 1) {
+  if (startIndex + 1 == endIndex) {
     pSVar2 = (__this->fields)._tokens;
-    if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e72e9;
-    pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+    if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7f15e;
+    pCVar3 = System_Collections_Generic_List_object___get_Item
                        ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
-                        (MethodInfo_92B830 *)
+                        (MethodInfo_395CF20 *)
                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if ((pCVar4 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar4->fields).Type != 0)) {
-label_1820e6f1d:
+    if ((pCVar3 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar3->fields).Type != 0)) {
+label_05b7ef49:
       pSVar2 = (__this->fields)._tokens;
-      if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e72e9;
-      pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+      if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7f15e;
+      pCVar3 = System_Collections_Generic_List_object___get_Item
                          ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
-                          (MethodInfo_92B830 *)
+                          (MethodInfo_395CF20 *)
                           MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-      if ((pCVar4 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar4->fields).Type == 0)) {
-        pIVar8 = (pCVar4->fields).Value;
-        if (pIVar8 == (Il2CppObject *)0x0) goto label_1820e72e9;
-        if ((pIVar8->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar8,g_data_184354e08);
-        }
-        piVar5 = il2cpp_object_unbox(pIVar8);
-        if (*piVar5 == 0x21) goto label_1820e6f7e;
+      if ((pCVar3 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar3->fields).Type == 0)) {
+        pIVar6 = (pCVar3->fields).Value;
+        if (pIVar6 == (Il2CppObject *)0x0) goto label_05b7f15e;
+        if ((pIVar6->klass->_1).element_class != (g_data_07556710->_1).element_class) goto label_05b7f217;
+        piVar4 = il2cpp_vm_Object_Unbox(pIVar6);
+        if (*piVar4 == 0x21) goto label_05b7efa7;
       }
     }
     else {
-      pIVar8 = (pCVar4->fields).Value;
-      if (pIVar8 == (Il2CppObject *)0x0) goto label_1820e72e9;
-      if ((pIVar8->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar8,g_data_184354e08);
-      }
-      piVar5 = il2cpp_object_unbox(pIVar8);
-      if (*piVar5 != 0x22) goto label_1820e6f1d;
-label_1820e6f7e:
+      pIVar6 = (pCVar3->fields).Value;
+      if (pIVar6 == (Il2CppObject *)0x0) goto label_05b7f15e;
+      if ((pIVar6->klass->_1).element_class != (g_data_07556710->_1).element_class) goto label_05b7f217;
+      piVar4 = il2cpp_vm_Object_Unbox(pIVar6);
+      if (*piVar4 != 0x22) goto label_05b7ef49;
+label_05b7efa7:
       pSVar2 = (__this->fields)._tokens;
       if ((pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
-         (pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+         (pCVar3 = System_Collections_Generic_List_object___get_Item
                              ((System_Collections_Generic_List_object__o *)pSVar2,endIndex,
-                              (MethodInfo_92B830 *)
+                              (MethodInfo_395CF20 *)
                               MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
-         pCVar4 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_1820e72e9;
-      if ((pCVar4->fields).Type == 1) {
+         pCVar3 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_05b7f15e;
+      if ((pCVar3->fields).Type == 1) {
         pSVar2 = (__this->fields)._tokens;
         if ((pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
-           (pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+           (pCVar3 = System_Collections_Generic_List_object___get_Item
                                ((System_Collections_Generic_List_object__o *)pSVar2,endIndex,
-                                (MethodInfo_92B830 *)
+                                (MethodInfo_395CF20 *)
                                 MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
-           pCVar4 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_1820e72e9;
-        pIVar8 = (pCVar4->fields).Value;
-        if (pIVar8 != (Il2CppObject *)0x0) {
-          pIVar6 = (Il2CppObject *)0x0;
-          if (pIVar8->klass == g_data_184354e08) {
-            pIVar6 = pIVar8;
-          }
-          if (pIVar6 != (Il2CppObject *)0x0) {
-            if ((pIVar8->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-              il2cpp_codegen_raise_invalid_cast_exception();
-            }
-            puVar7 = il2cpp_object_unbox(pIVar8);
+           pCVar3 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_05b7f15e;
+        pIVar6 = (pCVar3->fields).Value;
+        if (pIVar6 != (Il2CppObject *)0x0) {
+          if (pIVar6->klass == g_data_07556710) {
+            puVar5 = il2cpp_vm_Object_Unbox(pIVar6);
             pSVar2 = (__this->fields)._tokens;
-            if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e72e9;
-            uVar1 = *puVar7;
-            pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+            if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7f15e;
+            uVar1 = *puVar5;
+            pCVar3 = System_Collections_Generic_List_object___get_Item
                                ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
-                                (MethodInfo_92B830 *)
+                                (MethodInfo_395CF20 *)
                                 MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-            if ((pCVar4 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar4->fields).Type != 0)) {
-              bVar14 = false;
+            local_3c = uVar1;
+            if ((pCVar3 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar3->fields).Type == 0)) {
+              pIVar6 = (pCVar3->fields).Value;
+              if (pIVar6 == (Il2CppObject *)0x0) goto label_05b7f15e;
+              if ((pIVar6->klass->_1).element_class != (g_data_07556710->_1).element_class) {
+label_05b7f217:
+                il2cpp_codegen_raise_invalid_cast_exception();
+              }
+              piVar4 = il2cpp_vm_Object_Unbox(pIVar6);
+              if (*piVar4 == 0x22) {
+                local_3c = -uVar1;
+              }
+            }
+            puVar5 = &local_3c;
+            pIVar8 = g_data_07556710;
+            goto label_05b7f146;
+          }
+          if (pIVar6->klass == g_data_07556740) {
+            puVar5 = il2cpp_vm_Object_Unbox(pIVar6);
+            pSVar2 = (__this->fields)._tokens;
+            if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7f15e;
+            local_38 = ZEXT416(*puVar5);
+            pCVar3 = System_Collections_Generic_List_object___get_Item
+                               ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
+                                (MethodInfo_395CF20 *)
+                                MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+            if ((pCVar3 == (CustomLogic_CustomLogicToken_o *)0x0) || ((pCVar3->fields).Type != 0)) {
+label_05b7f131:
+              local_40 = local_38._0_4_;
             }
             else {
-              pIVar8 = (pCVar4->fields).Value;
-              if (pIVar8 == (Il2CppObject *)0x0) goto label_1820e72e9;
-              if ((pIVar8->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar8,g_data_184354e08);
-              }
-              piVar5 = il2cpp_object_unbox(pIVar8);
-              bVar14 = *piVar5 == 0x22;
+              pIVar6 = (pCVar3->fields).Value;
+              if (pIVar6 == (Il2CppObject *)0x0) goto label_05b7f15e;
+              if ((pIVar6->klass->_1).element_class != (g_data_07556710->_1).element_class) goto label_05b7f217;
+              piVar4 = il2cpp_vm_Object_Unbox(pIVar6);
+              if (*piVar4 != 0x22) goto label_05b7f131;
+              local_40 = local_38._0_4_ ^ 0x80000000;
             }
-            pIVar11 = g_data_184354e08;
-            local_res10[0] = -uVar1;
-            if (!bVar14) {
-              local_res10[0] = uVar1;
-            }
-label_1820e7098:
-            pIVar8 = il2cpp_value_box(pIVar11,local_res10);
-            return pIVar8;
-          }
-          pIVar6 = (Il2CppObject *)0x0;
-          if (pIVar8->klass == g_data_184354e38) {
-            pIVar6 = pIVar8;
-          }
-          if (pIVar6 != (Il2CppObject *)0x0) {
-            if ((pIVar8->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar8,g_data_184354e38);
-            }
-            puVar7 = il2cpp_object_unbox(pIVar8);
-            pSVar2 = (__this->fields)._tokens;
-            if (pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e72e9;
-            uVar1 = *puVar7;
-            pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-            pIVar11 = g_data_184354e38;
-            local_res10[0] = uVar1;
-            if ((pCVar4 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar4->fields).Type == 0)) {
-              pIVar8 = (pCVar4->fields).Value;
-              if (pIVar8 == (Il2CppObject *)0x0) goto label_1820e72e9;
-              if ((pIVar8->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar8,g_data_184354e08);
-              }
-              piVar5 = il2cpp_object_unbox(pIVar8);
-              pIVar11 = g_data_184354e38;
-              if (*piVar5 == 0x22) {
-                local_res10[0] = uVar1 ^ 0x80000000;
-              }
-            }
-            goto label_1820e7098;
+            puVar5 = &local_40;
+            pIVar8 = g_data_07556740;
+label_05b7f146:
+            pIVar6 = il2cpp_vm_Object_Box(pIVar8,puVar5);
+            return pIVar6;
           }
         }
       }
     }
   }
   pSVar2 = (__this->fields)._tokens;
-  if (startIndex != endIndex) {
+  if (startIndex == endIndex) {
+    if ((pSVar2 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
+       (pCVar3 = System_Collections_Generic_List_object___get_Item
+                           ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
+                            (MethodInfo_395CF20 *)
+                            MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
+       pCVar3 == (CustomLogic_CustomLogicToken_o *)0x0)) {
+label_05b7f15e:
+      ThrowNullReferenceException();
+    }
+    if ((pCVar3->fields).Type - 1U < 2) {
+      return (pCVar3->fields).Value;
+    }
+    NullCheck(pCVar3);
+    pSVar7 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(pCVar3->fields).Line + 1,method_02);
+    metadataPointer = &"Invalid decorator parameter at line ";
+  }
+  else {
     NullCheck(pSVar2);
-    method_00 = (MethodInfo_92B830 *)
+    method_00 = (MethodInfo_395CF20 *)
                 il2cpp_codegen_get_runtime_metadata
                           (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    pIVar8 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+    pIVar6 = System_Collections_Generic_List_object___get_Item
                        ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,method_00);
-    NullCheck(pIVar8);
-    iVar3 = il2cpp_runtime_helper_180001e60(*(undefined4 *)&pIVar8[2].klass,1);
-    pSVar9 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,iVar3,(MethodInfo *)0x0);
-    pSVar10 = il2cpp_codegen_get_runtime_metadata(&"Decorator parameters must be literal values at line ");
-    pSVar9 = System_String__Concat_1969e50(pSVar10,pSVar9,(MethodInfo *)0x0);
-    pIVar11 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-    pSVar12 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar11);
-    System_Exception___ctor_1b6abf0(pSVar12,pSVar9,(MethodInfo *)0x0);
-    pMVar13 = il2cpp_codegen_get_runtime_metadata
-                        (&MethodInfo_CustomLogic_CustomLogicParser_ParseDecoratorParameter);
-    il2cpp_codegen_raise_exception((Il2CppObject *)pSVar12,pMVar13);
+    NullCheck(pIVar6);
+    pSVar7 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,*(int *)&pIVar6[2].klass + 1,method_01)
+    ;
+    metadataPointer = &"Decorator parameters must be literal values at line ";
   }
-  if ((pSVar2 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) &&
-     (pCVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                         ((System_Collections_Generic_List_object__o *)pSVar2,startIndex,
-                          (MethodInfo_92B830 *)
-                          MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
-     pCVar4 != (CustomLogic_CustomLogicToken_o *)0x0)) {
-    if (((pCVar4->fields).Type != 1) && ((pCVar4->fields).Type != 2)) {
-      NullCheck(pCVar4);
-      iVar3 = il2cpp_runtime_helper_180001e60((pCVar4->fields).Line,1);
-      pSVar9 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,iVar3,(MethodInfo *)0x0);
-      pSVar10 = il2cpp_codegen_get_runtime_metadata(&"Invalid decorator parameter at line ");
-      pSVar9 = System_String__Concat_1969e50(pSVar10,pSVar9,(MethodInfo *)0x0);
-      pIVar11 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-      pSVar12 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar11);
-      System_Exception___ctor_1b6abf0(pSVar12,pSVar9,(MethodInfo *)0x0);
-      pMVar13 = il2cpp_codegen_get_runtime_metadata
-                          (&MethodInfo_CustomLogic_CustomLogicParser_ParseDecoratorParameter);
-      il2cpp_codegen_raise_exception((Il2CppObject *)pSVar12,pMVar13);
-    }
-    return (pCVar4->fields).Value;
-  }
-label_1820e72e9:
-  ThrowNullReferenceException();
+  str0 = il2cpp_codegen_get_runtime_metadata(metadataPointer);
+  pSVar7 = System_String__Concat_52f0320(str0,pSVar7,(MethodInfo *)0x0);
+  pIVar8 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+  __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar8);
+  System_Exception___ctor_54fa440(__this_00,pSVar7,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_ParseDecoratorParameter);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicParser$$FindLowestBinop
 // il2cpp: int32_t CustomLogic_CustomLogicParser__FindLowestBinop (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, int32_t endIndex, const MethodInfo* method);
-// 0x1820e4e90
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e4f08: nop dword ptr [rax + rax]
+// 0x5b7dca0
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7dd9f: jmp 0x5b7ddb9
+// asm:   0x5b7ddac: nop dword ptr [rax]
+// asm:   0x5b7ddb0: test r14d, r14d
+// asm:   0x5b7df1b: jmp 0x5b7ddc4
+// asm:   0x5b7df5e: jmp 0x5b7ddb9
+// asm:   0x5b7df9d: jmp 0x5b7dea8
 
 int32_t CustomLogic_CustomLogicParser__FindLowestBinop
                   (CustomLogic_CustomLogicParser_o *__this,int32_t startIndex,int32_t endIndex,
                   MethodInfo *method)
 
 {
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar1;
-  Il2CppObject *pIVar2;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *__this_00;
-  MethodInfo *method_00;
-  bool bVar3;
-  UnityEngine_LayerMask_o UVar4;
+  System_Collections_Generic_Dictionary_int__int__o *__this_00;
+  Il2CppObject *obj;
+  int32_t iVar1;
+  bool bVar2;
+  int32_t iVar3;
   CustomLogic_CustomLogicToken_o *token;
-  int *piVar5;
+  int *piVar4;
+  int32_t *piVar5;
   CustomLogic_CustomLogicToken_o *pCVar6;
-  int32_t *piVar7;
-  int index;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *pMVar7;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *extraout_RDX_04;
+  MethodInfo *extraout_RDX_05;
+  System_Collections_Generic_List_CustomLogicToken__o *__this_01;
   int iVar8;
-  UnityEngine_LayerMask_o UVar9;
-  int iVar10;
+  int iVar9;
+  int32_t local_3c;
+  int local_38;
   
-  if (Il2CppMethodInitialized_1843469cb == '\0') {
+  if (Il2CppMethodInitialized_07547396 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    Il2CppMethodInitialized_1843469cb = '\x01';
+    Il2CppMethodInitialized_07547396 = '\x01';
   }
-  iVar8 = 0;
-  iVar10 = -1;
-  UVar9.fields.m_Mask = (UnityEngine_LayerMask_Fields)0x7fffffff;
-  index = startIndex;
-  do {
-    if (endIndex <= index) {
-      return iVar10;
-    }
-    pSVar1 = (__this->fields)._tokens;
-    if (pSVar1 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e515d;
-    token = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                      ((System_Collections_Generic_List_object__o *)pSVar1,index,
-                       (MethodInfo_92B830 *)
-                       MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if (token != (CustomLogic_CustomLogicToken_o *)0x0) {
-      if ((token->fields).Type == 0) {
-        pIVar2 = (token->fields).Value;
-        if (pIVar2 == (Il2CppObject *)0x0) goto label_1820e515d;
-        if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-        }
-        piVar5 = il2cpp_object_unbox(pIVar2);
-        if (*piVar5 == 0xb) {
-          iVar8 = iVar8 + 1;
-        }
-        else if (token != (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e4f71;
+  local_3c = -1;
+  if (startIndex < endIndex) {
+    local_38 = 0x7fffffff;
+    local_3c = -1;
+    iVar9 = 0;
+    iVar8 = 0;
+    do {
+      __this_01 = (__this->fields)._tokens;
+      if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dfb5;
+      token = System_Collections_Generic_List_object___get_Item
+                        ((System_Collections_Generic_List_object__o *)__this_01,startIndex,
+                         (MethodInfo_395CF20 *)
+                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+      pMVar7 = extraout_RDX;
+      if (token == (CustomLogic_CustomLogicToken_o *)0x0) {
+        if (iVar8 < 1) goto label_05b7ddc4;
       }
       else {
-label_1820e4f71:
         if ((token->fields).Type == 0) {
-          pIVar2 = (token->fields).Value;
-          if (pIVar2 == (Il2CppObject *)0x0) goto label_1820e515d;
-          if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
+          __this_01 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+          if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dfb5;
+          if ((__this_01->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+          goto label_05b7dfba;
+          piVar4 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+          pMVar7 = extraout_RDX_00;
+          if (*piVar4 == 0xb) {
+            iVar8 = iVar8 + 1;
           }
-          piVar5 = il2cpp_object_unbox(pIVar2);
-          if (*piVar5 == 0xc) {
-            iVar8 = iVar8 + -1;
+          else if ((token->fields).Type == 0) {
+            __this_01 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+            if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dfb5;
+            if ((__this_01->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+            goto label_05b7dfba;
+            piVar4 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+            iVar8 = iVar8 - (uint)(*piVar4 == 0xc);
+            pMVar7 = extraout_RDX_04;
           }
         }
-      }
-    }
-    if (iVar8 < 1) {
-      if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == 0)) {
-        pIVar2 = (token->fields).Value;
-        if (pIVar2 == (Il2CppObject *)0x0) goto label_1820e515d;
-        if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-        }
-        piVar5 = il2cpp_object_unbox(pIVar2);
-        if (*piVar5 == 0x22) {
-label_1820e5034:
-          if (index == startIndex) goto label_1820e512a;
-          pSVar1 = (__this->fields)._tokens;
-          if ((pSVar1 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
-             (pCVar6 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                 ((System_Collections_Generic_List_object__o *)pSVar1,index + -1,
-                                  (MethodInfo_92B830 *)
-                                  MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
-             pCVar6 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_1820e515d;
-          if ((pCVar6->fields).Type == 0) {
-            pIVar2 = (pCVar6->fields).Value;
-            if (pIVar2 == (Il2CppObject *)0x0) goto label_1820e515d;
-            if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
+        if (iVar8 < 1) {
+          if ((token->fields).Type == 0) {
+            __this_01 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+            if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7dfb5;
+            if ((__this_01->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+            goto label_05b7dfba;
+            piVar4 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+            if (*piVar4 == 0x22) {
+label_05b7dea8:
+              if (iVar9 == 0) goto label_05b7dd29;
+              __this_01 = (__this->fields)._tokens;
+              if ((__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) ||
+                 (pCVar6 = System_Collections_Generic_List_object___get_Item
+                                     ((System_Collections_Generic_List_object__o *)__this_01,startIndex + -1,
+                                      (MethodInfo_395CF20 *)
+                                      MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item),
+                 pCVar6 == (CustomLogic_CustomLogicToken_o *)0x0)) goto label_05b7dfb5;
+              pMVar7 = extraout_RDX_02;
+              if ((pCVar6->fields).Type == 0) {
+                __this_01 = (System_Collections_Generic_List_CustomLogicToken__o *)(pCVar6->fields).Value;
+                if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0)
+                goto label_05b7dfb5;
+                if ((__this_01->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+                goto label_05b7dfba;
+                piVar4 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+                pMVar7 = extraout_RDX_03;
+                if (*piVar4 != 0xc) goto label_05b7dd29;
+              }
             }
-            piVar5 = il2cpp_object_unbox(pIVar2);
-            if (*piVar5 != 0xc) goto label_1820e512a;
+            else {
+              pMVar7 = extraout_RDX_01;
+              if ((token->fields).Type == 0) {
+                __this_01 = (System_Collections_Generic_List_CustomLogicToken__o *)(token->fields).Value;
+                if (__this_01 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0)
+                goto label_05b7dfb5;
+                if ((__this_01->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+                goto label_05b7dfba;
+                piVar4 = il2cpp_vm_Object_Unbox((Il2CppObject *)__this_01);
+                pMVar7 = extraout_RDX_05;
+                if (*piVar4 == 0x21) goto label_05b7dea8;
+              }
+            }
+          }
+label_05b7ddc4:
+          bVar2 = CustomLogic_CustomLogicParser__IsSymbolBinop
+                            ((CustomLogic_CustomLogicParser_o *)__this_01,token,pMVar7);
+          if (bVar2) {
+            if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+            }
+            if (((token == (CustomLogic_CustomLogicToken_o *)0x0) ||
+                (__this_00 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities,
+                __this_00 == (System_Collections_Generic_Dictionary_int__int__o *)0x0)) ||
+               (obj = (token->fields).Value, obj == (Il2CppObject *)0x0)) {
+label_05b7dfb5:
+              ThrowNullReferenceException();
+            }
+            if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+label_05b7dfba:
+              il2cpp_codegen_raise_invalid_cast_exception();
+            }
+            piVar5 = il2cpp_vm_Object_Unbox(obj);
+            iVar3 = System_Collections_Generic_Dictionary_int__int___get_Item
+                              (__this_00,*piVar5,
+                               (MethodInfo_4A03E70 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+            iVar1 = local_38;
+            if (iVar3 < local_38) {
+              iVar1 = iVar3;
+            }
+            if (iVar3 <= local_38) {
+              local_3c = startIndex;
+            }
+            local_38 = iVar1;
           }
         }
-        else if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == 0)) {
-          pIVar2 = (token->fields).Value;
-          if (pIVar2 == (Il2CppObject *)0x0) goto label_1820e515d;
-          if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-          }
-          piVar5 = il2cpp_object_unbox(pIVar2);
-          if (*piVar5 == 0x21) goto label_1820e5034;
-        }
       }
-      bVar3 = CustomLogic_CustomLogicParser__IsSymbolBinop(__this,token,(MethodInfo *)0x0);
-      if (bVar3) {
-        if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-        }
-        method_00 = MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item;
-        if (((token == (CustomLogic_CustomLogicToken_o *)0x0) ||
-            (__this_00 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)
-                         TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities,
-            __this_00 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0)) ||
-           (pIVar2 = (token->fields).Value, pIVar2 == (Il2CppObject *)0x0)) {
-label_1820e515d:
-          ThrowNullReferenceException();
-        }
-        if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-        }
-        piVar7 = il2cpp_object_unbox(pIVar2);
-        UVar4 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                          (__this_00,*piVar7,(MethodInfo_14157A0 *)method_00);
-        if ((int)UVar4.fields.m_Mask <= (int)UVar9.fields.m_Mask) {
-          UVar9 = UVar4;
-          iVar10 = index;
-        }
-      }
-    }
-label_1820e512a:
-    index = index + 1;
-  } while( true );
+label_05b7dd29:
+      startIndex = startIndex + 1;
+      iVar9 = iVar9 + -1;
+    } while (endIndex != startIndex);
+  }
+  return local_3c;
 }
 
 
 // CustomLogic.CustomLogicParser$$FindCommas
 // il2cpp: System_Int32_array* CustomLogic_CustomLogicParser__FindCommas (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, int32_t endIndex, const MethodInfo* method);
-// 0x1820e4ca0
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e4d3b: nop dword ptr [rax + rax]
-// asm:   0x1820e4d69: mov ebp, ebx
-// asm:   0x1820e4d6b: jmp 0x1820e4da4
-// asm:   0x1820e4da0: mov ebx, ecx
-// asm:   0x1820e4da2: mov ebp, ecx
-// asm:   0x1820e4ddd: jmp 0x1820e4de4
+// 0x5b7e320
 
 System_Int32_array *
 CustomLogic_CustomLogicParser__FindCommas
           (CustomLogic_CustomLogicParser_o *__this,int32_t startIndex,int32_t endIndex,MethodInfo *method)
 
 {
+  int32_t *piVar1;
+  uint uVar2;
   System_Collections_Generic_List_CustomLogicToken__o *__this_00;
-  Il2CppObject *pIVar1;
-  System_Collections_Generic_List_T__o *__this_01;
-  CustomLogic_CustomLogicToken_o *pCVar2;
-  int *piVar3;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar4;
-  int iVar5;
-  int iVar6;
+  Il2CppObject *pIVar3;
+  MethodInfo *pMVar4;
+  System_Collections_Generic_List_int__o *__this_01;
+  CustomLogic_CustomLogicToken_o *pCVar5;
+  int *piVar6;
+  System_Int32_array *pSVar7;
+  int iVar8;
   
-  if (Il2CppMethodInitialized_1843469cc == '\0') {
+  if (Il2CppMethodInitialized_07547397 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ToArray);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
-    Il2CppMethodInitialized_1843469cc = '\x01';
+    Il2CppMethodInitialized_07547397 = '\x01';
   }
-  __this_01 = (System_Collections_Generic_List_T__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
   System_Collections_Generic_List_int____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
-  iVar5 = 0;
-  for (; startIndex < endIndex; startIndex = startIndex + 1) {
-    __this_00 = (__this->fields)._tokens;
-    if (__this_00 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_1820e4e68;
-    pCVar2 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                       ((System_Collections_Generic_List_object__o *)__this_00,startIndex,
-                        (MethodInfo_92B830 *)
-                        MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if (pCVar2 == (CustomLogic_CustomLogicToken_o *)0x0) {
-label_1820e4ddf:
-      iVar6 = iVar5;
-      if (pCVar2 != (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e4de4;
-    }
-    else {
-      iVar6 = iVar5;
-      if ((pCVar2->fields).Type == 0) {
-        pIVar1 = (pCVar2->fields).Value;
-        if (pIVar1 == (Il2CppObject *)0x0) goto label_1820e4e68;
-        if ((pIVar1->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar1,g_data_184354e08);
+            (__this_01,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+  if (startIndex < endIndex) {
+    iVar8 = 0;
+    do {
+      __this_00 = (__this->fields)._tokens;
+      if (__this_00 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) goto label_05b7e530;
+      pCVar5 = System_Collections_Generic_List_object___get_Item
+                         ((System_Collections_Generic_List_object__o *)__this_00,startIndex,
+                          (MethodInfo_395CF20 *)
+                          MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+      if ((pCVar5 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar5->fields).Type == 0)) {
+        pIVar3 = (pCVar5->fields).Value;
+        if (pIVar3 == (Il2CppObject *)0x0) goto label_05b7e530;
+        if ((pIVar3->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+label_05b7e535:
+          il2cpp_codegen_raise_invalid_cast_exception();
         }
-        piVar3 = il2cpp_object_unbox(pIVar1);
-        iVar6 = iVar5 + 1;
-        if (*piVar3 != 0xb) {
-          iVar6 = iVar5;
-        }
-      }
-      iVar5 = iVar6;
-      if ((pCVar2->fields).Type != 0) goto label_1820e4ddf;
-      pIVar1 = (pCVar2->fields).Value;
-      if (pIVar1 == (Il2CppObject *)0x0) goto label_1820e4e68;
-      if ((pIVar1->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar1,g_data_184354e08);
-      }
-      piVar3 = il2cpp_object_unbox(pIVar1);
-      iVar6 = iVar5 + -1;
-      if (*piVar3 != 0xc) {
-        iVar6 = iVar5;
-      }
-label_1820e4de4:
-      iVar5 = iVar6;
-      if ((pCVar2->fields).Type == 0) {
-        pIVar1 = (pCVar2->fields).Value;
-        if (pIVar1 == (Il2CppObject *)0x0) goto label_1820e4e68;
-        if ((pIVar1->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar1,g_data_184354e08);
-        }
-        piVar3 = il2cpp_object_unbox(pIVar1);
-        if ((*piVar3 == 0x28) && (iVar6 == 0)) {
-          if (__this_01 == (System_Collections_Generic_List_T__o *)0x0) goto label_1820e4e68;
-          il2cpp_runtime_helper_180026690(__this_01,startIndex,MethodInfo_System_Collections_Generic_List_int_Add);
+        piVar6 = il2cpp_vm_Object_Unbox(pIVar3);
+        iVar8 = iVar8 + (uint)(*piVar6 == 0xb);
+        if ((pCVar5->fields).Type == 0) {
+          pIVar3 = (pCVar5->fields).Value;
+          if (pIVar3 == (Il2CppObject *)0x0) goto label_05b7e530;
+          if ((pIVar3->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7e535;
+          piVar6 = il2cpp_vm_Object_Unbox(pIVar3);
+          iVar8 = iVar8 - (uint)(*piVar6 == 0xc);
+          if ((pCVar5->fields).Type == 0) {
+            pIVar3 = (pCVar5->fields).Value;
+            if (pIVar3 == (Il2CppObject *)0x0) goto label_05b7e530;
+            if ((pIVar3->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40))
+            goto label_05b7e535;
+            piVar6 = il2cpp_vm_Object_Unbox(pIVar3);
+            pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
+            if ((*piVar6 == 0x28) && (iVar8 == 0)) {
+              if (__this_01 == (System_Collections_Generic_List_int__o *)0x0) goto label_05b7e530;
+              piVar1 = &(__this_01->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pSVar7 = (__this_01->fields)._items;
+              if (pSVar7 == (System_Int32_array *)0x0) goto label_05b7e530;
+              uVar2 = (__this_01->fields)._size;
+              if (uVar2 < (uint)pSVar7->max_length) {
+                (__this_01->fields)._size = uVar2 + 1;
+                pSVar7->m_Items[(int)uVar2] = startIndex;
+              }
+              else {
+                System_Collections_Generic_List_int___AddWithResize
+                          (__this_01,startIndex,(MethodInfo_3916AC0 *)pMVar4->klass->rgctx_data[0xe].method);
+              }
+              iVar8 = 0;
+            }
+          }
         }
       }
-    }
+      startIndex = startIndex + 1;
+    } while (endIndex != startIndex);
   }
-  if (__this_01 != (System_Collections_Generic_List_T__o *)0x0) {
-    pUVar4 = System_Collections_Generic_List_int___ToArray
-                       (__this_01,(MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_int_ToArray)
-    ;
-    return (System_Int32_array *)pUVar4;
+  if (__this_01 != (System_Collections_Generic_List_int__o *)0x0) {
+    pSVar7 = System_Collections_Generic_List_int___ToArray
+                       (__this_01,(MethodInfo_3918D60 *)MethodInfo_System_Collections_Generic_List_int_ToArray
+                       );
+    return pSVar7;
   }
-label_1820e4e68:
+label_05b7e530:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicParser$$FindClosingParen
 // il2cpp: int32_t CustomLogic_CustomLogicParser__FindClosingParen (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820e4b60
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e4c53: jmp 0x1820e4bb2
-// asm:   0x1820e4c5c: mov eax, esi
+// 0x5b7e0b0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7e190: jmp 0x5b7e197
 
 int32_t CustomLogic_CustomLogicParser__FindClosingParen
                   (CustomLogic_CustomLogicParser_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar1;
-  Il2CppObject *pIVar2;
-  CustomLogic_CustomLogicToken_o *pCVar3;
-  int *piVar4;
-  int iVar5;
+  Il2CppObject *pIVar1;
+  CustomLogic_CustomLogicToken_o *pCVar2;
+  int *piVar3;
+  System_Collections_Generic_List_CustomLogicToken__o *__this_00;
+  int iVar4;
   
-  if (Il2CppMethodInitialized_1843469cd == '\0') {
+  if (Il2CppMethodInitialized_07547398 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    Il2CppMethodInitialized_1843469cd = '\x01';
+    Il2CppMethodInitialized_07547398 = '\x01';
   }
-  iVar5 = 0;
-  pSVar1 = (__this->fields)._tokens;
-  while (pSVar1 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-    if ((pSVar1->fields)._size <= startIndex) {
-      return -1;
-    }
-    pSVar1 = (__this->fields)._tokens;
-    if (pSVar1 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
-    pCVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                       ((System_Collections_Generic_List_object__o *)pSVar1,startIndex,
-                        (MethodInfo_92B830 *)
-                        MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if (pCVar3 != (CustomLogic_CustomLogicToken_o *)0x0) {
-      if ((pCVar3->fields).Type == 0) {
-        pIVar2 = (pCVar3->fields).Value;
-        if (pIVar2 == (Il2CppObject *)0x0) break;
-        if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-        }
-        piVar4 = il2cpp_object_unbox(pIVar2);
-        if (*piVar4 == 0xb) {
-          iVar5 = iVar5 + 1;
-        }
-        else if (pCVar3 != (CustomLogic_CustomLogicToken_o *)0x0) goto label_1820e4c14;
+  __this_00 = (__this->fields)._tokens;
+  if (__this_00 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+    iVar4 = 0;
+    do {
+      if ((__this_00->fields)._size <= startIndex) {
+        return -1;
       }
-      else {
-label_1820e4c14:
-        if ((pCVar3->fields).Type == 0) {
-          pIVar2 = (pCVar3->fields).Value;
-          if (pIVar2 == (Il2CppObject *)0x0) break;
-          if ((pIVar2->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar2,g_data_184354e08);
-          }
-          piVar4 = il2cpp_object_unbox(pIVar2);
-          if ((*piVar4 == 0xc) && (iVar5 = iVar5 + -1, iVar5 == 0)) {
+      pCVar2 = System_Collections_Generic_List_object___get_Item
+                         ((System_Collections_Generic_List_object__o *)__this_00,startIndex,
+                          (MethodInfo_395CF20 *)
+                          MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
+      if ((pCVar2 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar2->fields).Type == 0)) {
+        pIVar1 = (pCVar2->fields).Value;
+        if (pIVar1 == (Il2CppObject *)0x0) break;
+        if ((pIVar1->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+label_05b7e1ad:
+          il2cpp_codegen_raise_invalid_cast_exception();
+        }
+        piVar3 = il2cpp_vm_Object_Unbox(pIVar1);
+        if (*piVar3 == 0xb) {
+          iVar4 = iVar4 + 1;
+        }
+        else if ((pCVar2->fields).Type == 0) {
+          pIVar1 = (pCVar2->fields).Value;
+          if (pIVar1 == (Il2CppObject *)0x0) break;
+          if ((pIVar1->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) goto label_05b7e1ad;
+          piVar3 = il2cpp_vm_Object_Unbox(pIVar1);
+          if ((*piVar3 == 0xc) && (iVar4 = iVar4 + -1, iVar4 == 0)) {
             return startIndex;
           }
         }
       }
-    }
-    startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._tokens;
+      startIndex = startIndex + 1;
+      __this_00 = (__this->fields)._tokens;
+    } while (__this_00 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -2425,50 +2270,51 @@ label_1820e4c14:
 
 // CustomLogic.CustomLogicParser$$FindSemicolon
 // il2cpp: int32_t CustomLogic_CustomLogicParser__FindSemicolon (CustomLogic_CustomLogicParser_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820e51a0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e523d: jmp 0x1820e51e2
+// 0x5b7e660
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7e69e: lea r15, [rip + 0x17158b3]  ; MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item
+// asm:   0x5b7e6a5: lea r12, [rip + 0x19d801c]
+// asm:   0x5b7e6ac: jmp 0x5b7e6bb
+// asm:   0x5b7e6fa: jmp 0x5b7e701
 
 int32_t CustomLogic_CustomLogicParser__FindSemicolon
                   (CustomLogic_CustomLogicParser_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar1;
+  System_Collections_Generic_List_CustomLogicToken__o *__this_00;
   Il2CppObject *obj;
-  CustomLogic_CustomLogicToken_o *pCVar2;
-  int *piVar3;
+  CustomLogic_CustomLogicToken_o *pCVar1;
+  int *piVar2;
   
-  if (Il2CppMethodInitialized_1843469ce == '\0') {
+  if (Il2CppMethodInitialized_07547399 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    Il2CppMethodInitialized_1843469ce = '\x01';
+    Il2CppMethodInitialized_07547399 = '\x01';
   }
-  pSVar1 = (__this->fields)._tokens;
-  while (pSVar1 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-    if ((pSVar1->fields)._size <= startIndex) {
+  __this_00 = (__this->fields)._tokens;
+  while (__this_00 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+    if ((__this_00->fields)._size <= startIndex) {
       return -1;
     }
-    pSVar1 = (__this->fields)._tokens;
-    if (pSVar1 == (System_Collections_Generic_List_CustomLogicToken__o *)0x0) break;
-    pCVar2 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                       ((System_Collections_Generic_List_object__o *)pSVar1,startIndex,
-                        (MethodInfo_92B830 *)
+    pCVar1 = System_Collections_Generic_List_object___get_Item
+                       ((System_Collections_Generic_List_object__o *)__this_00,startIndex,
+                        (MethodInfo_395CF20 *)
                         MethodInfo_System_Collections_Generic_List_CustomLogicToken_get_Item);
-    if ((pCVar2 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar2->fields).Type == 0)) {
-      obj = (pCVar2->fields).Value;
+    if ((pCVar1 != (CustomLogic_CustomLogicToken_o *)0x0) && ((pCVar1->fields).Type == 0)) {
+      obj = (pCVar1->fields).Value;
       if (obj == (Il2CppObject *)0x0) break;
-      if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
+      if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+        il2cpp_codegen_raise_invalid_cast_exception();
       }
-      piVar3 = il2cpp_object_unbox(obj);
-      if (*piVar3 == 0x26) {
+      piVar2 = il2cpp_vm_Object_Unbox(obj);
+      if (*piVar2 == 0x26) {
         return startIndex;
       }
     }
     startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._tokens;
+    __this_00 = (__this->fields)._tokens;
   }
   ThrowNullReferenceException();
 }
@@ -2476,7 +2322,7 @@ int32_t CustomLogic_CustomLogicParser__FindSemicolon
 
 // CustomLogic.CustomLogicParser$$IsSymbolIn
 // il2cpp: bool CustomLogic_CustomLogicParser__IsSymbolIn (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, System_Collections_Generic_HashSet_int__o* symbols, const MethodInfo* method);
-// 0x1820e56a0
+// 0x5b7e720
 
 bool CustomLogic_CustomLogicParser__IsSymbolIn
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
@@ -2484,53 +2330,50 @@ bool CustomLogic_CustomLogicParser__IsSymbolIn
 
 {
   Il2CppObject *obj;
-  MethodInfo *method_00;
   bool bVar1;
   int32_t *piVar2;
   
-  if (Il2CppMethodInitialized_1843469cf == '\0') {
+  if (Il2CppMethodInitialized_0754739a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-    Il2CppMethodInitialized_1843469cf = '\x01';
+    Il2CppMethodInitialized_0754739a = '\x01';
   }
-  method_00 = MethodInfo_System_Collections_Generic_HashSet_int_Contains;
-  if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == 0)) {
-    if ((symbols != (System_Collections_Generic_HashSet_int__o *)0x0) &&
-       (obj = (token->fields).Value, obj != (Il2CppObject *)0x0)) {
-      if ((obj->klass->_1).element_class == *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-        piVar2 = il2cpp_object_unbox(obj);
-        bVar1 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                          ((System_Collections_Generic_HashSet_T__o *)symbols,*piVar2,
-                           (MethodInfo_1759C90 *)method_00);
-        return bVar1;
-      }
-      il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
-    }
+  if ((token == (CustomLogic_CustomLogicToken_o *)0x0) || ((token->fields).Type != 0)) {
+    return false;
+  }
+  if ((symbols == (System_Collections_Generic_HashSet_int__o *)0x0) ||
+     (obj = (token->fields).Value, obj == (Il2CppObject *)0x0)) {
     ThrowNullReferenceException();
   }
-  return false;
+  if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+    il2cpp_codegen_raise_invalid_cast_exception();
+  }
+  piVar2 = il2cpp_vm_Object_Unbox(obj);
+  bVar1 = System_Collections_Generic_HashSet_int___Contains
+                    (symbols,*piVar2,
+                     (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+  return bVar1;
 }
 
 
 // CustomLogic.CustomLogicParser$$IsSymbolBinop
 // il2cpp: bool CustomLogic_CustomLogicParser__IsSymbolBinop (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, const MethodInfo* method);
-// 0x1820e55d0
+// 0x5b7f220
 
 bool CustomLogic_CustomLogicParser__IsSymbolBinop
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
                MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__float__o *__this_00;
+  System_Collections_Generic_Dictionary_int__int__o *__this_00;
   Il2CppObject *obj;
-  MethodInfo *method_00;
   bool bVar1;
   int32_t *piVar2;
   
-  if (Il2CppMethodInitialized_1843469d0 == '\0') {
+  if (Il2CppMethodInitialized_0754739b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    Il2CppMethodInitialized_1843469d0 = '\x01';
+    Il2CppMethodInitialized_0754739b = '\x01';
   }
   if ((token == (CustomLogic_CustomLogicToken_o *)0x0) || ((token->fields).Type != 0)) {
     return false;
@@ -2538,26 +2381,26 @@ bool CustomLogic_CustomLogicParser__IsSymbolBinop
   if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
   }
-  method_00 = MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey;
-  __this_00 = (System_Collections_Generic_Dictionary_int__float__o *)
-              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities;
-  if ((__this_00 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) &&
-     (obj = (token->fields).Value, obj != (Il2CppObject *)0x0)) {
-    if ((obj->klass->_1).element_class == *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-      piVar2 = il2cpp_object_unbox(obj);
-      bVar1 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                        (__this_00,*piVar2,(MethodInfo_14070E0 *)method_00);
-      return bVar1;
-    }
-    il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
+  __this_00 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities;
+  if ((__this_00 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) ||
+     (obj = (token->fields).Value, obj == (Il2CppObject *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+    il2cpp_codegen_raise_invalid_cast_exception();
+  }
+  piVar2 = il2cpp_vm_Object_Unbox(obj);
+  bVar1 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                    (__this_00,*piVar2,
+                     (MethodInfo_4A04140 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
+  return bVar1;
 }
 
 
 // CustomLogic.CustomLogicParser$$IsSymbolValue
 // il2cpp: bool CustomLogic_CustomLogicParser__IsSymbolValue (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, int32_t symbolValue, const MethodInfo* method);
-// 0x1820e5740
+// 0x5b7e060
 
 bool CustomLogic_CustomLogicParser__IsSymbolValue
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
@@ -2574,17 +2417,17 @@ bool CustomLogic_CustomLogicParser__IsSymbolValue
   if (obj == (Il2CppObject *)0x0) {
     ThrowNullReferenceException();
   }
-  if ((obj->klass->_1).element_class == *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-    piVar1 = il2cpp_object_unbox(obj);
-    return *piVar1 == symbolValue;
+  if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+    il2cpp_codegen_raise_invalid_cast_exception();
   }
-  il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
+  piVar1 = il2cpp_vm_Object_Unbox(obj);
+  return *piVar1 == symbolValue;
 }
 
 
 // CustomLogic.CustomLogicParser$$IsAnySymbolValue
 // il2cpp: bool CustomLogic_CustomLogicParser__IsAnySymbolValue (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, System_Int32_array* symbolValues, const MethodInfo* method);
-// 0x1820e5540
+// 0x5b7dfc0
 
 bool CustomLogic_CustomLogicParser__IsAnySymbolValue
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
@@ -2593,40 +2436,44 @@ bool CustomLogic_CustomLogicParser__IsAnySymbolValue
 {
   int iVar1;
   Il2CppObject *obj;
-  int *piVar2;
-  uint uVar3;
+  ulong uVar2;
+  int *piVar3;
+  ulong uVar4;
   
-  if (symbolValues != (System_Int32_array *)0x0) {
-    uVar3 = 0;
+  if (symbolValues == (System_Int32_array *)0x0) {
+label_05b7e04a:
+    ThrowNullReferenceException();
+  }
+  if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && (0 < (int)symbolValues->max_length)) {
+    uVar2 = symbolValues->max_length & 0xffffffff;
+    uVar4 = 0;
     do {
-      if ((int)symbolValues->max_length <= (int)uVar3) {
-        return false;
-      }
-      if ((uint)symbolValues->max_length <= uVar3) {
+      if (uVar2 <= uVar4) {
         ThrowIndexOutOfRangeException();
       }
-      if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == 0)) {
+      if ((token->fields).Type == 0) {
         obj = (token->fields).Value;
-        if (obj == (Il2CppObject *)0x0) break;
-        if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
+        if (obj == (Il2CppObject *)0x0) goto label_05b7e04a;
+        if ((obj->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+          il2cpp_codegen_raise_invalid_cast_exception();
         }
-        iVar1 = symbolValues->m_Items[(int)uVar3];
-        piVar2 = il2cpp_object_unbox(obj);
-        if (*piVar2 == iVar1) {
+        iVar1 = symbolValues->m_Items[uVar4];
+        piVar3 = il2cpp_vm_Object_Unbox(obj);
+        if (*piVar3 == iVar1) {
           return true;
         }
+        uVar2 = (ulong)(uint)symbolValues->max_length;
       }
-      uVar3 = uVar3 + 1;
-    } while( true );
+      uVar4 = uVar4 + 1;
+    } while ((long)uVar4 < (long)(int)uVar2);
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // CustomLogic.CustomLogicParser$$AssertSymbolValue
 // il2cpp: void CustomLogic_CustomLogicParser__AssertSymbolValue (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, int32_t symbolValue, const MethodInfo* method);
-// 0x1820e47d0
+// 0x5b7e7b0
 
 void CustomLogic_CustomLogicParser__AssertSymbolValue
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
@@ -2638,21 +2485,23 @@ void CustomLogic_CustomLogicParser__AssertSymbolValue
   System_String_array *values;
   Il2CppObject *pIVar3;
   System_String_o *pSVar4;
-  void *pvVar5;
   System_Exception_o *__this_00;
   MethodInfo *lastManagedFrame;
-  int32_t local_res10 [2];
-  System_Enum_o local_38 [2];
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  System_String_array *__this_01;
+  System_Enum_o local_38;
+  int32_t local_28;
   
   if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == 0)) {
     pIVar3 = (token->fields).Value;
     if (pIVar3 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    if ((pIVar3->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
+    if ((pIVar3->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
       il2cpp_codegen_raise_invalid_cast_exception();
     }
-    piVar1 = il2cpp_object_unbox(pIVar3);
+    piVar1 = il2cpp_vm_Object_Unbox(pIVar3);
     if (*piVar1 == symbolValue) {
       return;
     }
@@ -2663,28 +2512,25 @@ void CustomLogic_CustomLogicParser__AssertSymbolValue
   pIVar3 = il2cpp_codegen_get_runtime_metadata(&"Parsing error at line ");
   il2cpp_codegen_array_set_ref((System_Array_o *)values,0,pIVar3);
   NullCheck(token);
-  pSVar4 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,(MethodInfo *)0x0);
-  NullCheck(values);
+  pSVar4 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,method_00);
   il2cpp_codegen_array_set_ref((System_Array_o *)values,1,(Il2CppObject *)pSVar4);
-  NullCheck(values);
   pIVar3 = il2cpp_codegen_get_runtime_metadata(&", got ");
+  __this_01 = values;
   il2cpp_codegen_array_set_ref((System_Array_o *)values,2,pIVar3);
-  pSVar4 = CustomLogic_CustomLogicParser__GetTokenString(__this,token,(MethodInfo *)0x0);
-  NullCheck(values);
+  pSVar4 = CustomLogic_CustomLogicParser__GetTokenString
+                     ((CustomLogic_CustomLogicParser_o *)__this_01,token,method_01);
   il2cpp_codegen_array_set_ref((System_Array_o *)values,3,(Il2CppObject *)pSVar4);
-  NullCheck(values);
   pIVar3 = il2cpp_codegen_get_runtime_metadata(&", expected ");
   il2cpp_codegen_array_set_ref((System_Array_o *)values,4,pIVar3);
-  local_res10[0] = symbolValue;
-  pvVar5 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbol);
-  il2cpp_runtime_helper_180001e80(local_38,pvVar5,local_res10);
-  pSVar4 = System_Enum__ToString(local_38,(MethodInfo *)0x0);
-  NullCheck(values);
+  local_38.klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbol);
+  local_38.monitor = (void *)0xffffffffffffffff;
+  local_28 = symbolValue;
+  pSVar4 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
   il2cpp_codegen_array_set_ref((System_Array_o *)values,5,(Il2CppObject *)pSVar4);
-  pSVar4 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+  pSVar4 = System_String__Concat_5302910(values,(MethodInfo *)0x0);
   pIVar2 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
   __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar2);
-  System_Exception___ctor_1b6abf0(__this_00,pSVar4,(MethodInfo *)0x0);
+  System_Exception___ctor_54fa440(__this_00,pSVar4,(MethodInfo *)0x0);
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_AssertSymbolValue);
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
@@ -2693,7 +2539,7 @@ void CustomLogic_CustomLogicParser__AssertSymbolValue
 
 // CustomLogic.CustomLogicParser$$AssertTokenType
 // il2cpp: void CustomLogic_CustomLogicParser__AssertTokenType (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, int32_t type, const MethodInfo* method);
-// 0x1820e49b0
+// 0x5b7e1c0
 
 void CustomLogic_CustomLogicParser__AssertTokenType
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,int32_t type,
@@ -2704,52 +2550,51 @@ void CustomLogic_CustomLogicParser__AssertTokenType
   System_String_array *values;
   Il2CppObject *pIVar2;
   System_String_o *pSVar3;
-  void *pvVar4;
   System_Exception_o *__this_00;
   MethodInfo *lastManagedFrame;
-  int32_t local_res18 [2];
-  System_Enum_o local_28 [2];
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  System_String_array *__this_01;
+  System_Enum_o local_38;
+  int32_t local_28;
   
-  if ((token != (CustomLogic_CustomLogicToken_o *)0x0) && ((token->fields).Type == type)) {
-    return;
+  if ((token == (CustomLogic_CustomLogicToken_o *)0x0) || ((token->fields).Type != type)) {
+    pIVar1 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_string_array);
+    values = (System_String_array *)SZArrayNew(pIVar1,6);
+    NullCheck(values);
+    pIVar2 = il2cpp_codegen_get_runtime_metadata(&"Parsing error at line ");
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,0,pIVar2);
+    NullCheck(token);
+    pSVar3 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,method_00);
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,1,(Il2CppObject *)pSVar3);
+    pIVar2 = il2cpp_codegen_get_runtime_metadata(&", got ");
+    __this_01 = values;
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,2,pIVar2);
+    pSVar3 = CustomLogic_CustomLogicParser__GetTokenString
+                       ((CustomLogic_CustomLogicParser_o *)__this_01,token,method_01);
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,3,(Il2CppObject *)pSVar3);
+    pIVar2 = il2cpp_codegen_get_runtime_metadata(&", expected ");
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,4,pIVar2);
+    local_38.klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicTokenType);
+    local_38.monitor = (void *)0xffffffffffffffff;
+    local_28 = type;
+    pSVar3 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
+    il2cpp_codegen_array_set_ref((System_Array_o *)values,5,(Il2CppObject *)pSVar3);
+    pSVar3 = System_String__Concat_5302910(values,(MethodInfo *)0x0);
+    pIVar1 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+    __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar1);
+    System_Exception___ctor_54fa440(__this_00,pSVar3,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_AssertTokenType);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  local_res18[0] = type;
-  pIVar1 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_string_array);
-  values = (System_String_array *)SZArrayNew(pIVar1,6);
-  NullCheck(values);
-  pIVar2 = il2cpp_codegen_get_runtime_metadata(&"Parsing error at line ");
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,0,pIVar2);
-  NullCheck(token);
-  pSVar3 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,(MethodInfo *)0x0);
-  NullCheck(values);
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,1,(Il2CppObject *)pSVar3);
-  NullCheck(values);
-  pIVar2 = il2cpp_codegen_get_runtime_metadata(&", got ");
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,2,pIVar2);
-  pSVar3 = CustomLogic_CustomLogicParser__GetTokenString(__this,token,(MethodInfo *)0x0);
-  NullCheck(values);
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,3,(Il2CppObject *)pSVar3);
-  NullCheck(values);
-  pIVar2 = il2cpp_codegen_get_runtime_metadata(&", expected ");
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,4,pIVar2);
-  pvVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicTokenType);
-  il2cpp_runtime_helper_180001e80(local_28,pvVar4,local_res18);
-  pSVar3 = System_Enum__ToString(local_28,(MethodInfo *)0x0);
-  NullCheck(values);
-  il2cpp_codegen_array_set_ref((System_Array_o *)values,5,(Il2CppObject *)pSVar3);
-  pSVar3 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
-  pIVar1 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-  __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar1);
-  System_Exception___ctor_1b6abf0(__this_00,pSVar3,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_AssertTokenType);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+  return;
 }
 
 
 // CustomLogic.CustomLogicParser$$AssertFalse
 // il2cpp: void CustomLogic_CustomLogicParser__AssertFalse (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, const MethodInfo* method);
-// 0x1820e4710
+// 0x5b7e950
 
 void CustomLogic_CustomLogicParser__AssertFalse
                (CustomLogic_CustomLogicParser_o *__this,CustomLogic_CustomLogicToken_o *token,
@@ -2758,21 +2603,23 @@ void CustomLogic_CustomLogicParser__AssertFalse
 {
   System_String_o *pSVar1;
   System_String_o *str3;
-  System_String_o *str2;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
   System_Exception_o *__this_00;
   MethodInfo *lastManagedFrame;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
   
   NullCheck(token);
-  pSVar1 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,(MethodInfo *)0x0);
-  str3 = CustomLogic_CustomLogicParser__GetTokenString(__this,token,(MethodInfo *)0x0);
-  str2 = il2cpp_codegen_get_runtime_metadata(&", got ");
+  pSVar1 = CustomLogic_CustomLogicParser__GetLineNumberString(__this,(token->fields).Line,method_00);
+  str3 = CustomLogic_CustomLogicParser__GetTokenString(__this,token,method_01);
   str0 = il2cpp_codegen_get_runtime_metadata(&"Parsing error at line ");
-  pSVar1 = System_String__Concat_1969590(str0,pSVar1,str2,str3,(MethodInfo *)0x0);
+  str2 = il2cpp_codegen_get_runtime_metadata(&", got ");
+  pSVar1 = System_String__Concat_5302810(str0,pSVar1,str2,str3,(MethodInfo *)0x0);
   klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
   __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  System_Exception___ctor_1b6abf0(__this_00,pSVar1,(MethodInfo *)0x0);
+  System_Exception___ctor_54fa440(__this_00,pSVar1,(MethodInfo *)0x0);
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicParser_AssertFalse);
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
@@ -2781,7 +2628,7 @@ void CustomLogic_CustomLogicParser__AssertFalse
 
 // CustomLogic.CustomLogicParser$$GetTokenString
 // il2cpp: System_String_o* CustomLogic_CustomLogicParser__GetTokenString (CustomLogic_CustomLogicParser_o* __this, CustomLogic_CustomLogicToken_o* token, const MethodInfo* method);
-// 0x1820e5470
+// 0x5b7f2e0
 
 System_String_o *
 CustomLogic_CustomLogicParser__GetTokenString
@@ -2791,37 +2638,36 @@ CustomLogic_CustomLogicParser__GetTokenString
   Il2CppObject *obj;
   System_String_o *pSVar1;
   undefined4 *puVar2;
-  System_Enum_o local_28;
-  undefined4 local_18;
+  System_Enum_o local_20;
+  undefined4 local_10;
   
-  if (Il2CppMethodInitialized_1843469d1 == '\0') {
+  if (Il2CppMethodInitialized_0754739c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbol);
     il2cpp_codegen_initialize_runtime_metadata(&"null");
-    Il2CppMethodInitialized_1843469d1 = '\x01';
+    Il2CppMethodInitialized_0754739c = '\x01';
   }
   if (token == (CustomLogic_CustomLogicToken_o *)0x0) {
     return "null";
   }
   obj = (token->fields).Value;
-  if ((token->fields).Type != 0) {
+  if ((token->fields).Type == 0) {
     if (obj != (Il2CppObject *)0x0) {
-      pSVar1 = (System_String_o *)(*obj->klass->vtable[3].methodPtr)(obj,obj->klass->vtable[3].method);
+      if ((obj->klass->_1).element_class != (TypeInfo_CustomLogic_CustomLogicSymbol->_1).element_class) {
+        il2cpp_codegen_raise_invalid_cast_exception();
+      }
+      puVar2 = il2cpp_vm_Object_Unbox(obj);
+      local_10 = *puVar2;
+      local_20.klass = (System_Enum_c *)TypeInfo_CustomLogic_CustomLogicSymbol;
+      local_20.monitor = (void *)0xffffffffffffffff;
+      pSVar1 = System_Enum__ToString(&local_20,(MethodInfo *)0x0);
       return pSVar1;
     }
-    ThrowNullReferenceException();
   }
-  if (obj == (Il2CppObject *)0x0) {
-    ThrowNullReferenceException();
-  }
-  if ((obj->klass->_1).element_class == (TypeInfo_CustomLogic_CustomLogicSymbol->_1).element_class) {
-    puVar2 = il2cpp_object_unbox(obj);
-    local_18 = *puVar2;
-    local_28.klass = (System_Enum_c *)TypeInfo_CustomLogic_CustomLogicSymbol;
-    local_28.monitor = &g_data_ffffffffffffffff;
-    pSVar1 = System_Enum__ToString(&local_28,(MethodInfo *)0x0);
+  else if (obj != (Il2CppObject *)0x0) {
+    pSVar1 = (System_String_o *)(*obj->klass->vtable[3].methodPtr)(obj,obj->klass->vtable[3].method);
     return pSVar1;
   }
-  il2cpp_codegen_raise_invalid_cast_exception();
+  ThrowNullReferenceException();
 }
 
 

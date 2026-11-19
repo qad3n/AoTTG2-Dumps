@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CommandBufferHelpers
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,7 +28,7 @@ public struct CommandBufferHelpers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x2ABB270", Offset = "0x2AB9870", VA = "0x182ABB270")]
+	[Address(RVA = "0x64B4620", Offset = "0x64B3620", VA = "0x64B4620")]
 	public static RasterCommandBuffer GetRasterCommandBuffer(CommandBuffer baseBuffer)
 	{
 		return null;
@@ -36,7 +36,7 @@ public struct CommandBufferHelpers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x2ABB1E0", Offset = "0x2AB97E0", VA = "0x182ABB1E0")]
+	[Address(RVA = "0x64B46C0", Offset = "0x64B36C0", VA = "0x64B46C0")]
 	public static ComputeCommandBuffer GetComputeCommandBuffer(CommandBuffer baseBuffer)
 	{
 		return null;
@@ -44,7 +44,7 @@ public struct CommandBufferHelpers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x2ABB2F0", Offset = "0x2AB98F0", VA = "0x182ABB2F0")]
+	[Address(RVA = "0x64B4760", Offset = "0x64B3760", VA = "0x64B4760")]
 	public static UnsafeCommandBuffer GetUnsafeCommandBuffer(CommandBuffer baseBuffer)
 	{
 		return null;
@@ -52,14 +52,14 @@ public struct CommandBufferHelpers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+	[Address(RVA = "0x64B4800", Offset = "0x64B3800", VA = "0x64B4800")]
 	public static CommandBuffer GetNativeCommandBuffer(UnsafeCommandBuffer baseBuffer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x2ABB380", Offset = "0x2AB9980", VA = "0x182ABB380")]
+	[Address(RVA = "0x64B4820", Offset = "0x64B3820", VA = "0x64B4820")]
 	public static void VFXManager_ProcessCameraCommand(Camera cam, UnsafeCommandBuffer cmd, VFXCameraXRSettings camXRSettings, CullingResults results)
 	{
 	}

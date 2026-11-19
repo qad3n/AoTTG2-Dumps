@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000214")]
+[Token(Token = "0x20001EC")]
 internal class SparselyPopulatedArray<T> where T : class
 {
-	[Token(Token = "0x40009CE")]
+	[Token(Token = "0x400092C")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly System.Threading.SparselyPopulatedArrayFragment<T> _head;
 
-	[Token(Token = "0x40009CF")]
+	[Token(Token = "0x400092D")]
 	[FieldOffset(Offset = "0x0")]
 	private System.Threading.SparselyPopulatedArrayFragment<T> _tail;
 
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x170001AA")]
 	internal System.Threading.SparselyPopulatedArrayFragment<T> Tail
 	{
-		[Token(Token = "0x6001240")]
+		[Token(Token = "0x6001217")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600123F")]
+	[Token(Token = "0x6001216")]
 	internal SparselyPopulatedArray(int initialSize)
 	{
 	}
 
-	[Token(Token = "0x6001241")]
+	[Token(Token = "0x6001218")]
 	internal System.Threading.SparselyPopulatedArrayAddInfo<T> Add(T element)
 	{
 		return default(System.Threading.SparselyPopulatedArrayAddInfo<T>);

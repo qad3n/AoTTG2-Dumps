@@ -52,13 +52,13 @@ public sealed class BrotliStream : Stream
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x25B9110", Offset = "0x25B7710", VA = "0x1825B9110", Slot = "4")]
+		[Address(RVA = "0x5F61800", Offset = "0x5F60800", VA = "0x5F61800", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x25B9B50", Offset = "0x25B8150", VA = "0x1825B9B50", Slot = "5")]
+		[Address(RVA = "0x5F621C0", Offset = "0x5F611C0", VA = "0x5F621C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -99,13 +99,13 @@ public sealed class BrotliStream : Stream
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x25BA290", Offset = "0x25B8890", VA = "0x1825BA290", Slot = "4")]
+		[Address(RVA = "0x5F62210", Offset = "0x5F61210", VA = "0x5F62210", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x25BA890", Offset = "0x25B8E90", VA = "0x1825BA890", Slot = "5")]
+		[Address(RVA = "0x5F62B40", Offset = "0x5F61B40", VA = "0x5F62B40", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -142,13 +142,13 @@ public sealed class BrotliStream : Stream
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x25B9BA0", Offset = "0x25B81A0", VA = "0x1825B9BA0", Slot = "4")]
+		[Address(RVA = "0x5F62BA0", Offset = "0x5F61BA0", VA = "0x5F62BA0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x25BA230", Offset = "0x25B8830", VA = "0x1825BA230", Slot = "5")]
+		[Address(RVA = "0x5F63480", Offset = "0x5F62480", VA = "0x5F63480", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -195,7 +195,7 @@ public sealed class BrotliStream : Stream
 	public override bool CanRead
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x25B8620", Offset = "0x25B6C20", VA = "0x1825B8620", Slot = "7")]
+		[Address(RVA = "0x5F5FA00", Offset = "0x5F5EA00", VA = "0x5F5FA00", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -206,7 +206,7 @@ public sealed class BrotliStream : Stream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x25B8650", Offset = "0x25B6C50", VA = "0x1825B8650", Slot = "10")]
+		[Address(RVA = "0x5F5FA30", Offset = "0x5F5EA30", VA = "0x5F5FA30", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -217,7 +217,7 @@ public sealed class BrotliStream : Stream
 	public override bool CanSeek
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Address(RVA = "0x5F5FA60", Offset = "0x5F5EA60", VA = "0x5F5FA60", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -228,7 +228,7 @@ public sealed class BrotliStream : Stream
 	public override long Length
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x25B8680", Offset = "0x25B6C80", VA = "0x1825B8680", Slot = "11")]
+		[Address(RVA = "0x5F5FAB0", Offset = "0x5F5EAB0", VA = "0x5F5FAB0", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -239,13 +239,13 @@ public sealed class BrotliStream : Stream
 	public override long Position
 	{
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x25B86C0", Offset = "0x25B6CC0", VA = "0x1825B86C0", Slot = "12")]
+		[Address(RVA = "0x5F5FAF0", Offset = "0x5F5EAF0", VA = "0x5F5FAF0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x25B8700", Offset = "0x25B6D00", VA = "0x1825B8700", Slot = "13")]
+		[Address(RVA = "0x5F5FB30", Offset = "0x5F5EB30", VA = "0x5F5FB30", Slot = "13")]
 		set
 		{
 		}
@@ -255,7 +255,7 @@ public sealed class BrotliStream : Stream
 	private bool AsyncOperationIsActive
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x25B8610", Offset = "0x25B6C10", VA = "0x1825B8610")]
+		[Address(RVA = "0x5F5FBB0", Offset = "0x5F5EBB0", VA = "0x5F5FBB0")]
 		get
 		{
 			return default(bool);
@@ -263,116 +263,116 @@ public sealed class BrotliStream : Stream
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x25B8590", Offset = "0x25B6B90", VA = "0x1825B8590")]
+	[Address(RVA = "0x5F5F250", Offset = "0x5F5E250", VA = "0x5F5F250")]
 	public BrotliStream(Stream stream, CompressionMode mode)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x25B8320", Offset = "0x25B6920", VA = "0x1825B8320")]
+	[Address(RVA = "0x5F5F260", Offset = "0x5F5E260", VA = "0x5F5F260")]
 	public BrotliStream(Stream stream, CompressionMode mode, bool leaveOpen)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x25B67C0", Offset = "0x25B4DC0", VA = "0x1825B67C0")]
+	[Address(RVA = "0x5F5F460", Offset = "0x5F5E460", VA = "0x5F5F460")]
 	private void EnsureNotDisposed()
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x25B6580", Offset = "0x25B4B80", VA = "0x1825B6580", Slot = "19")]
+	[Address(RVA = "0x5F5F4D0", Offset = "0x5F5E4D0", VA = "0x5F5F4D0", Slot = "20")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x25B7940", Offset = "0x25B5F40", VA = "0x1825B7940")]
+	[Address(RVA = "0x5F5F8F0", Offset = "0x5F5E8F0", VA = "0x5F5F8F0")]
 	private static void ValidateParameters(byte[] array, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x25B7870", Offset = "0x25B5E70", VA = "0x1825B7870", Slot = "30")]
+	[Address(RVA = "0x5F5FA70", Offset = "0x5F5EA70", VA = "0x5F5FA70", Slot = "31")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x25B78B0", Offset = "0x25B5EB0", VA = "0x1825B78B0", Slot = "31")]
+	[Address(RVA = "0x5F5FB70", Offset = "0x5F5EB70", VA = "0x5F5FB70", Slot = "32")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x25B67A0", Offset = "0x25B4DA0", VA = "0x1825B67A0")]
+	[Address(RVA = "0x5F5FBC0", Offset = "0x5F5EBC0", VA = "0x5F5FBC0")]
 	private void EnsureNoActiveAsyncOperation()
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x25B6410", Offset = "0x25B4A10", VA = "0x1825B6410")]
+	[Address(RVA = "0x5F5FC60", Offset = "0x5F5EC60", VA = "0x5F5FC60")]
 	private void AsyncOperationStarting()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x25B63F0", Offset = "0x25B49F0", VA = "0x1825B63F0")]
+	[Address(RVA = "0x5F5FCC0", Offset = "0x5F5ECC0", VA = "0x5F5FCC0")]
 	private void AsyncOperationCompleting()
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x25B78F0", Offset = "0x25B5EF0", VA = "0x1825B78F0")]
+	[Address(RVA = "0x5F5FC10", Offset = "0x5F5EC10", VA = "0x5F5FC10")]
 	private static void ThrowInvalidBeginCall()
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x25B7340", Offset = "0x25B5940", VA = "0x1825B7340", Slot = "32")]
+	[Address(RVA = "0x5F5FCE0", Offset = "0x5F5ECE0", VA = "0x5F5FCE0", Slot = "33")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x25B7400", Offset = "0x25B5A00", VA = "0x1825B7400", Slot = "33")]
+	[Address(RVA = "0x5F5FD80", Offset = "0x5F5ED80", VA = "0x5F5FD80", Slot = "34")]
 	public override int Read(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x25B6440", Offset = "0x25B4A40", VA = "0x1825B6440", Slot = "22")]
+	[Address(RVA = "0x5F604C0", Offset = "0x5F5F4C0", VA = "0x5F604C0", Slot = "23")]
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback asyncCallback, object asyncState)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x25B6660", Offset = "0x25B4C60", VA = "0x1825B6660", Slot = "23")]
+	[Address(RVA = "0x5F60560", Offset = "0x5F5F560", VA = "0x5F60560", Slot = "24")]
 	public override int EndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x25B7230", Offset = "0x25B5830", VA = "0x1825B7230", Slot = "24")]
+	[Address(RVA = "0x5F605A0", Offset = "0x5F5F5A0", VA = "0x5F605A0", Slot = "25")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x25B6F70", Offset = "0x25B5570", VA = "0x1825B6F70", Slot = "25")]
+	[Address(RVA = "0x5F60690", Offset = "0x5F5F690", VA = "0x5F60690", Slot = "26")]
 	public override ValueTask<int> ReadAsync(Memory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask<int>);
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x25B6840", Offset = "0x25B4E40", VA = "0x1825B6840")]
+	[Address(RVA = "0x5F608A0", Offset = "0x5F5F8A0", VA = "0x5F608A0")]
 	[AsyncStateMachine(typeof(_003CFinishReadAsyncMemory_003Ed__41))]
 	private ValueTask<int> FinishReadAsyncMemory(Memory<byte> buffer, CancellationToken cancellationToken)
 	{
@@ -380,58 +380,58 @@ public sealed class BrotliStream : Stream
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x25B85B0", Offset = "0x25B6BB0", VA = "0x1825B85B0")]
+	[Address(RVA = "0x5F60A50", Offset = "0x5F5FA50", VA = "0x5F60A50")]
 	public BrotliStream(Stream stream, CompressionLevel compressionLevel, bool leaveOpen)
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x25B8240", Offset = "0x25B6840", VA = "0x1825B8240", Slot = "35")]
+	[Address(RVA = "0x5F60CE0", Offset = "0x5F5FCE0", VA = "0x5F60CE0", Slot = "36")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x25B82F0", Offset = "0x25B68F0", VA = "0x1825B82F0", Slot = "36")]
+	[Address(RVA = "0x5F60D70", Offset = "0x5F5FD70", VA = "0x5F60D70", Slot = "37")]
 	public override void Write(ReadOnlySpan<byte> buffer)
 	{
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x25B7F60", Offset = "0x25B6560", VA = "0x1825B7F60")]
+	[Address(RVA = "0x5F5F640", Offset = "0x5F5E640", VA = "0x5F5F640")]
 	internal void WriteCore(ReadOnlySpan<byte> buffer, bool isFinalBlock = false)
 	{
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x25B64E0", Offset = "0x25B4AE0", VA = "0x1825B64E0", Slot = "26")]
+	[Address(RVA = "0x5F60DA0", Offset = "0x5F5FDA0", VA = "0x5F60DA0", Slot = "27")]
 	public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback asyncCallback, object asyncState)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x25B66A0", Offset = "0x25B4CA0", VA = "0x1825B66A0", Slot = "27")]
+	[Address(RVA = "0x5F60E40", Offset = "0x5F5FE40", VA = "0x5F60E40", Slot = "28")]
 	public override void EndWrite(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x25B7E40", Offset = "0x25B6440", VA = "0x1825B7E40", Slot = "28")]
+	[Address(RVA = "0x5F60E50", Offset = "0x5F5FE50", VA = "0x5F60E50", Slot = "29")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x25B7BF0", Offset = "0x25B61F0", VA = "0x1825B7BF0", Slot = "29")]
+	[Address(RVA = "0x5F60F50", Offset = "0x5F5FF50", VA = "0x5F60F50", Slot = "30")]
 	public override ValueTask WriteAsync(ReadOnlyMemory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x25B7AC0", Offset = "0x25B60C0", VA = "0x1825B7AC0")]
+	[Address(RVA = "0x5F61160", Offset = "0x5F60160", VA = "0x5F61160")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncMemoryCore_003Ed__52))]
 	private Task WriteAsyncMemoryCore(ReadOnlyMemory<byte> buffer, CancellationToken cancellationToken)
 	{
@@ -439,20 +439,20 @@ public sealed class BrotliStream : Stream
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x25B6CF0", Offset = "0x25B52F0", VA = "0x1825B6CF0", Slot = "20")]
+	[Address(RVA = "0x5F61280", Offset = "0x5F60280", VA = "0x5F61280", Slot = "21")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x25B6AC0", Offset = "0x25B50C0", VA = "0x1825B6AC0", Slot = "21")]
+	[Address(RVA = "0x5F61550", Offset = "0x5F60550", VA = "0x5F61550", Slot = "22")]
 	public override Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x25B69B0", Offset = "0x25B4FB0", VA = "0x1825B69B0")]
+	[Address(RVA = "0x5F61710", Offset = "0x5F60710", VA = "0x5F61710")]
 	[AsyncStateMachine(typeof(_003CFlushAsyncCore_003Ed__55))]
 	private Task FlushAsyncCore(CancellationToken cancellationToken)
 	{

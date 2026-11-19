@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000642")]
+[Token(Token = "0x20006A1")]
 internal class HumanDetection : BaseDetection
 {
-	[Token(Token = "0x6003DC9")]
-	[Address(RVA = "0x2117B10", Offset = "0x2116110", VA = "0x182117B10")]
+	[Token(Token = "0x600405E")]
+	[Address(RVA = "0x5AE63C0", Offset = "0x5AE53C0", VA = "0x5AE63C0")]
 	public HumanDetection(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003DCA")]
-	[Address(RVA = "0x2117A50", Offset = "0x2116050", VA = "0x182117A50", Slot = "9")]
+	[Token(Token = "0x600405F")]
+	[Address(RVA = "0x5AE63D0", Offset = "0x5AE53D0", VA = "0x5AE63D0", Slot = "9")]
 	protected override void OnRecalculate(BaseCharacter character, float distance)
 	{
 	}

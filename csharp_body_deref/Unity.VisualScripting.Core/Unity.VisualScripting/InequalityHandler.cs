@@ -13,27 +13,27 @@ namespace Unity.VisualScripting;
 public class InequalityHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x2DF1B40", Offset = "0x2DF0140", VA = "0x182DF1B40")]
+	[Address(RVA = "0x67EFD20", Offset = "0x67EED20", VA = "0x67EFD20")]
 	public InequalityHandler()
 	{
 	}
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x2DD0440", Offset = "0x2DCEA40", VA = "0x182DD0440", Slot = "6")]
+	[Address(RVA = "0x67F5DA0", Offset = "0x67F4DA0", VA = "0x67F5DA0", Slot = "6")]
 	protected override object BothNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x2DD0440", Offset = "0x2DCEA40", VA = "0x182DD0440", Slot = "7")]
+	[Address(RVA = "0x67F5DC0", Offset = "0x67F4DC0", VA = "0x67F5DC0", Slot = "7")]
 	protected override object SingleNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x2DF1B00", Offset = "0x2DF0100", VA = "0x182DF1B00", Slot = "5")]
+	[Address(RVA = "0x67F5DE0", Offset = "0x67F4DE0", VA = "0x67F5DE0", Slot = "5")]
 	protected override object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;

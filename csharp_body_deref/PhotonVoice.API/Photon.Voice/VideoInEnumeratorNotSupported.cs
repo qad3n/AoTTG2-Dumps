@@ -13,7 +13,7 @@ namespace Photon.Voice;
 internal class VideoInEnumeratorNotSupported : DeviceEnumeratorNotSupported
 {
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x1D771C0", Offset = "0x1D757C0", VA = "0x181D771C0")]
+	[Address(RVA = "0x5704E80", Offset = "0x5703E80", VA = "0x5704E80")]
 	public VideoInEnumeratorNotSupported(ILogger logger)
 	{
 	}

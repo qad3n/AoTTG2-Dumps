@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Mono.Math.Prime.Generator;
 
-[Token(Token = "0x2000075")]
+[Token(Token = "0x2000057")]
 internal class SequentialSearchPrimeGeneratorBase : Mono.Math.Prime.Generator.PrimeGeneratorBase
 {
-	[Token(Token = "0x6000221")]
-	[Address(RVA = "0x1968350", Offset = "0x1966950", VA = "0x181968350", Slot = "8")]
+	[Token(Token = "0x600020B")]
+	[Address(RVA = "0x52FD590", Offset = "0x52FC590", VA = "0x52FD590", Slot = "8")]
 	protected virtual Mono.Math.BigInteger GenerateSearchBase(int bits, object context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700", Slot = "7")]
+	[Token(Token = "0x600020C")]
+	[Address(RVA = "0x52FD670", Offset = "0x52FC670", VA = "0x52FD670", Slot = "7")]
 	public override Mono.Math.BigInteger GenerateNewPrime(int bits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x1967FA0", Offset = "0x19665A0", VA = "0x181967FA0", Slot = "9")]
+	[Token(Token = "0x600020D")]
+	[Address(RVA = "0x52FD690", Offset = "0x52FC690", VA = "0x52FD690", Slot = "9")]
 	public virtual Mono.Math.BigInteger GenerateNewPrime(int bits, object context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+	[Token(Token = "0x600020E")]
+	[Address(RVA = "0x52FDBA0", Offset = "0x52FCBA0", VA = "0x52FDBA0", Slot = "10")]
 	protected virtual bool IsPrimeAcceptable(Mono.Math.BigInteger bi, object context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600020F")]
+	[Address(RVA = "0x52FB710", Offset = "0x52FA710", VA = "0x52FB710")]
 	public SequentialSearchPrimeGeneratorBase()
 	{
 	}

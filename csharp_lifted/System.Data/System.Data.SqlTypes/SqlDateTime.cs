@@ -1,0 +1,328 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.SqlTypes.SqlDateTime
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Xml;
+using System.Xml.Schema;
+using System.Xml.Serialization;
+using Il2CppDummyDll;
+
+namespace System.Data.SqlTypes;
+
+[Serializable]
+[Token(Token = "0x20000AF")]
+[XmlSchemaProvider("GetXsdType")]
+public struct SqlDateTime : INullable, IComparable, IXmlSerializable
+{
+	[Token(Token = "0x4000376")]
+	[FieldOffset(Offset = "0x0")]
+	private bool m_fNotNull;
+
+	[Token(Token = "0x4000377")]
+	[FieldOffset(Offset = "0x4")]
+	private int m_day;
+
+	[Token(Token = "0x4000378")]
+	[FieldOffset(Offset = "0x8")]
+	private int m_time;
+
+	[Token(Token = "0x4000379")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly double s_SQLTicksPerMillisecond;
+
+	[Token(Token = "0x400037A")]
+	[FieldOffset(Offset = "0x8")]
+	public static readonly int SQLTicksPerSecond;
+
+	[Token(Token = "0x400037B")]
+	[FieldOffset(Offset = "0xC")]
+	public static readonly int SQLTicksPerMinute;
+
+	[Token(Token = "0x400037C")]
+	[FieldOffset(Offset = "0x10")]
+	public static readonly int SQLTicksPerHour;
+
+	[Token(Token = "0x400037D")]
+	[FieldOffset(Offset = "0x14")]
+	private static readonly int s_SQLTicksPerDay;
+
+	[Token(Token = "0x400037E")]
+	[FieldOffset(Offset = "0x18")]
+	private static readonly long s_ticksPerSecond;
+
+	[Token(Token = "0x400037F")]
+	[FieldOffset(Offset = "0x20")]
+	private static readonly DateTime s_SQLBaseDate;
+
+	[Token(Token = "0x4000380")]
+	[FieldOffset(Offset = "0x28")]
+	private static readonly long s_SQLBaseDateTicks;
+
+	[Token(Token = "0x4000381")]
+	[FieldOffset(Offset = "0x30")]
+	private static readonly int s_minYear;
+
+	[Token(Token = "0x4000382")]
+	[FieldOffset(Offset = "0x34")]
+	private static readonly int s_maxYear;
+
+	[Token(Token = "0x4000383")]
+	[FieldOffset(Offset = "0x38")]
+	private static readonly int s_minDay;
+
+	[Token(Token = "0x4000384")]
+	[FieldOffset(Offset = "0x3C")]
+	private static readonly int s_maxDay;
+
+	[Token(Token = "0x4000385")]
+	[FieldOffset(Offset = "0x40")]
+	private static readonly int s_minTime;
+
+	[Token(Token = "0x4000386")]
+	[FieldOffset(Offset = "0x44")]
+	private static readonly int s_maxTime;
+
+	[Token(Token = "0x4000387")]
+	[FieldOffset(Offset = "0x48")]
+	private static readonly int s_dayBase;
+
+	[Token(Token = "0x4000388")]
+	[FieldOffset(Offset = "0x50")]
+	private static readonly int[] s_daysToMonth365;
+
+	[Token(Token = "0x4000389")]
+	[FieldOffset(Offset = "0x58")]
+	private static readonly int[] s_daysToMonth366;
+
+	[Token(Token = "0x400038A")]
+	[FieldOffset(Offset = "0x60")]
+	private static readonly DateTime s_minDateTime;
+
+	[Token(Token = "0x400038B")]
+	[FieldOffset(Offset = "0x68")]
+	private static readonly DateTime s_maxDateTime;
+
+	[Token(Token = "0x400038C")]
+	[FieldOffset(Offset = "0x70")]
+	private static readonly TimeSpan s_minTimeSpan;
+
+	[Token(Token = "0x400038D")]
+	[FieldOffset(Offset = "0x78")]
+	private static readonly TimeSpan s_maxTimeSpan;
+
+	[Token(Token = "0x400038E")]
+	[FieldOffset(Offset = "0x80")]
+	private static readonly string s_ISO8601_DateTimeFormat;
+
+	[Token(Token = "0x400038F")]
+	[FieldOffset(Offset = "0x88")]
+	private static readonly string[] s_dateTimeFormats;
+
+	[Token(Token = "0x4000390")]
+	[FieldOffset(Offset = "0x90")]
+	public static readonly SqlDateTime MinValue;
+
+	[Token(Token = "0x4000391")]
+	[FieldOffset(Offset = "0x9C")]
+	public static readonly SqlDateTime MaxValue;
+
+	[Token(Token = "0x4000392")]
+	[FieldOffset(Offset = "0xA8")]
+	public static readonly SqlDateTime Null;
+
+	[Token(Token = "0x17000187")]
+	public bool IsNull
+	{
+		[Token(Token = "0x6000990")]
+		[Address(RVA = "0x5F0A660", Offset = "0x5F09660", VA = "0x5F0A660", Slot = "4")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000188")]
+	public DateTime Value
+	{
+		[Token(Token = "0x6000995")]
+		[Address(RVA = "0x5F0AA20", Offset = "0x5F09A20", VA = "0x5F0AA20")]
+		get
+		{
+			return default(DateTime);
+		}
+	}
+
+	[Token(Token = "0x17000189")]
+	public int DayTicks
+	{
+		[Token(Token = "0x6000996")]
+		[Address(RVA = "0x5F0AAB0", Offset = "0x5F09AB0", VA = "0x5F0AAB0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x1700018A")]
+	public int TimeTicks
+	{
+		[Token(Token = "0x6000997")]
+		[Address(RVA = "0x5F0AB00", Offset = "0x5F09B00", VA = "0x5F0AB00")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x600098D")]
+	[Address(RVA = "0x5F0A3D0", Offset = "0x5F093D0", VA = "0x5F0A3D0")]
+	private SqlDateTime(bool fNull)
+	{
+	}
+
+	[Token(Token = "0x600098E")]
+	[Address(RVA = "0x5F0A3E0", Offset = "0x5F093E0", VA = "0x5F0A3E0")]
+	public SqlDateTime(DateTime value)
+	{
+	}
+
+	[Token(Token = "0x600098F")]
+	[Address(RVA = "0x5F0A530", Offset = "0x5F09530", VA = "0x5F0A530")]
+	public SqlDateTime(int dayTicks, int timeTicks)
+	{
+	}
+
+	[Token(Token = "0x6000991")]
+	[Address(RVA = "0x5F0A670", Offset = "0x5F09670", VA = "0x5F0A670")]
+	private static TimeSpan ToTimeSpan(SqlDateTime value)
+	{
+		return default(TimeSpan);
+	}
+
+	[Token(Token = "0x6000992")]
+	[Address(RVA = "0x5F0A6F0", Offset = "0x5F096F0", VA = "0x5F0A6F0")]
+	private static DateTime ToDateTime(SqlDateTime value)
+	{
+		return default(DateTime);
+	}
+
+	[Token(Token = "0x6000993")]
+	[Address(RVA = "0x5F0A840", Offset = "0x5F09840", VA = "0x5F0A840")]
+	private static SqlDateTime FromTimeSpan(TimeSpan value)
+	{
+		return default(SqlDateTime);
+	}
+
+	[Token(Token = "0x6000994")]
+	[Address(RVA = "0x5F0A440", Offset = "0x5F09440", VA = "0x5F0A440")]
+	private static SqlDateTime FromDateTime(DateTime value)
+	{
+		return default(SqlDateTime);
+	}
+
+	[Token(Token = "0x6000998")]
+	[Address(RVA = "0x5F0AB50", Offset = "0x5F09B50", VA = "0x5F0AB50")]
+	public static implicit operator SqlDateTime(DateTime value)
+	{
+		return default(SqlDateTime);
+	}
+
+	[Token(Token = "0x6000999")]
+	[Address(RVA = "0x5F0ABB0", Offset = "0x5F09BB0", VA = "0x5F0ABB0", Slot = "3")]
+	public override string ToString()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600099A")]
+	[Address(RVA = "0x5F0AC90", Offset = "0x5F09C90", VA = "0x5F0AC90")]
+	public static SqlBoolean operator ==(SqlDateTime x, SqlDateTime y)
+	{
+		return default(SqlBoolean);
+	}
+
+	[Token(Token = "0x600099B")]
+	[Address(RVA = "0x5F0AD90", Offset = "0x5F09D90", VA = "0x5F0AD90")]
+	public static SqlBoolean operator <(SqlDateTime x, SqlDateTime y)
+	{
+		return default(SqlBoolean);
+	}
+
+	[Token(Token = "0x600099C")]
+	[Address(RVA = "0x5F0AEA0", Offset = "0x5F09EA0", VA = "0x5F0AEA0")]
+	public static SqlBoolean operator >(SqlDateTime x, SqlDateTime y)
+	{
+		return default(SqlBoolean);
+	}
+
+	[Token(Token = "0x600099D")]
+	[Address(RVA = "0x5F0AFB0", Offset = "0x5F09FB0", VA = "0x5F0AFB0")]
+	public static SqlBoolean LessThan(SqlDateTime x, SqlDateTime y)
+	{
+		return default(SqlBoolean);
+	}
+
+	[Token(Token = "0x600099E")]
+	[Address(RVA = "0x5F0B010", Offset = "0x5F0A010", VA = "0x5F0B010")]
+	public static SqlBoolean GreaterThan(SqlDateTime x, SqlDateTime y)
+	{
+		return default(SqlBoolean);
+	}
+
+	[Token(Token = "0x600099F")]
+	[Address(RVA = "0x5F0B070", Offset = "0x5F0A070", VA = "0x5F0B070", Slot = "5")]
+	public int CompareTo(object value)
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x60009A0")]
+	[Address(RVA = "0x5F0B170", Offset = "0x5F0A170", VA = "0x5F0B170")]
+	public int CompareTo(SqlDateTime value)
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x60009A1")]
+	[Address(RVA = "0x5F0B300", Offset = "0x5F0A300", VA = "0x5F0B300", Slot = "0")]
+	public override bool Equals(object value)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60009A2")]
+	[Address(RVA = "0x5F0B440", Offset = "0x5F0A440", VA = "0x5F0B440", Slot = "2")]
+	public override int GetHashCode()
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x60009A3")]
+	[Address(RVA = "0x5F0B510", Offset = "0x5F0A510", VA = "0x5F0B510", Slot = "6")]
+	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60009A4")]
+	[Address(RVA = "0x5F0B520", Offset = "0x5F0A520", VA = "0x5F0B520", Slot = "7")]
+	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader reader)
+	{
+	}
+
+	[Token(Token = "0x60009A5")]
+	[Address(RVA = "0x5F0B720", Offset = "0x5F0A720", VA = "0x5F0B720", Slot = "8")]
+	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
+	{
+	}
+
+	[Token(Token = "0x60009A6")]
+	[Address(RVA = "0x5F0B8A0", Offset = "0x5F0A8A0", VA = "0x5F0B8A0")]
+	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
+	{
+		return null;
+	}
+}

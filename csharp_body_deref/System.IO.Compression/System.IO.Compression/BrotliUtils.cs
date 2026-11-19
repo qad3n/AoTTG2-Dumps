@@ -13,7 +13,7 @@ namespace System.IO.Compression;
 internal static class BrotliUtils
 {
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x25B8740", Offset = "0x25B6D40", VA = "0x1825B8740")]
+	[Address(RVA = "0x5F60A90", Offset = "0x5F5FA90", VA = "0x5F60A90")]
 	internal static int GetQualityFromCompressionLevel(CompressionLevel level)
 	{
 		return default(int);

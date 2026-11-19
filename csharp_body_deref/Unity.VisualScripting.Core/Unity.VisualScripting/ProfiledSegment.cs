@@ -18,14 +18,14 @@ public class ProfiledSegment
 	public string name
 	{
 		[Token(Token = "0x6000529")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x67A8980", Offset = "0x67A7980", VA = "0x67A8980")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600052A")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x67A8990", Offset = "0x67A7990", VA = "0x67A8990")]
 		[CompilerGenerated]
 		private set
 		{
@@ -36,14 +36,14 @@ public class ProfiledSegment
 	public Stopwatch stopwatch
 	{
 		[Token(Token = "0x600052B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x67A89A0", Offset = "0x67A79A0", VA = "0x67A89A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600052C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x67A89B0", Offset = "0x67A79B0", VA = "0x67A89B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -54,14 +54,14 @@ public class ProfiledSegment
 	public long calls
 	{
 		[Token(Token = "0x600052D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x67A89C0", Offset = "0x67A79C0", VA = "0x67A89C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600052E")]
-		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
+		[Address(RVA = "0x67A89D0", Offset = "0x67A79D0", VA = "0x67A89D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -72,14 +72,14 @@ public class ProfiledSegment
 	public ProfiledSegment parent
 	{
 		[Token(Token = "0x600052F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x67A89E0", Offset = "0x67A79E0", VA = "0x67A89E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x67A89F0", Offset = "0x67A79F0", VA = "0x67A89F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -90,14 +90,14 @@ public class ProfiledSegment
 	public ProfiledSegmentCollection children
 	{
 		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x67A8A00", Offset = "0x67A7A00", VA = "0x67A8A00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000532")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x67A8A10", Offset = "0x67A7A10", VA = "0x67A8A10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -105,7 +105,7 @@ public class ProfiledSegment
 	}
 
 	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x2DB8BC0", Offset = "0x2DB71C0", VA = "0x182DB8BC0")]
+	[Address(RVA = "0x67A8840", Offset = "0x67A7840", VA = "0x67A8840")]
 	public ProfiledSegment(ProfiledSegment parent, string name)
 	{
 	}

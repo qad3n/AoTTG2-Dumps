@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.XRSRPSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,7 +18,7 @@ public class XRSRPSettings
 	public static bool enabled
 	{
 		[Token(Token = "0x6000FCE")]
-		[Address(RVA = "0x2B86040", Offset = "0x2B84640", VA = "0x182B86040")]
+		[Address(RVA = "0x655C650", Offset = "0x655B650", VA = "0x655C650")]
 		get
 		{
 			return default(bool);
@@ -29,7 +29,7 @@ public class XRSRPSettings
 	public static bool isDeviceActive
 	{
 		[Token(Token = "0x6000FCF")]
-		[Address(RVA = "0x2B86130", Offset = "0x2B84730", VA = "0x182B86130")]
+		[Address(RVA = "0x655C660", Offset = "0x655B660", VA = "0x655C660")]
 		get
 		{
 			return default(bool);
@@ -40,7 +40,7 @@ public class XRSRPSettings
 	public static string loadedDeviceName
 	{
 		[Token(Token = "0x6000FD0")]
-		[Address(RVA = "0x2B86150", Offset = "0x2B84750", VA = "0x182B86150")]
+		[Address(RVA = "0x655C680", Offset = "0x655B680", VA = "0x655C680")]
 		get
 		{
 			return null;
@@ -51,7 +51,7 @@ public class XRSRPSettings
 	public static string[] supportedDevices
 	{
 		[Token(Token = "0x6000FD1")]
-		[Address(RVA = "0x2B862A0", Offset = "0x2B848A0", VA = "0x182B862A0")]
+		[Address(RVA = "0x655C6C0", Offset = "0x655B6C0", VA = "0x655C6C0")]
 		get
 		{
 			return null;
@@ -62,7 +62,7 @@ public class XRSRPSettings
 	public static RenderTextureDescriptor eyeTextureDesc
 	{
 		[Token(Token = "0x6000FD2")]
-		[Address(RVA = "0x2B86050", Offset = "0x2B84650", VA = "0x182B86050")]
+		[Address(RVA = "0x655C710", Offset = "0x655B710", VA = "0x655C710")]
 		get
 		{
 			return default(RenderTextureDescriptor);
@@ -73,7 +73,7 @@ public class XRSRPSettings
 	public static int eyeTextureWidth
 	{
 		[Token(Token = "0x6000FD3")]
-		[Address(RVA = "0x2B86100", Offset = "0x2B84700", VA = "0x182B86100")]
+		[Address(RVA = "0x655C790", Offset = "0x655B790", VA = "0x655C790")]
 		get
 		{
 			return default(int);
@@ -84,7 +84,7 @@ public class XRSRPSettings
 	public static int eyeTextureHeight
 	{
 		[Token(Token = "0x6000FD4")]
-		[Address(RVA = "0x2B860D0", Offset = "0x2B846D0", VA = "0x182B860D0")]
+		[Address(RVA = "0x655C7B0", Offset = "0x655B7B0", VA = "0x655C7B0")]
 		get
 		{
 			return default(int);
@@ -95,13 +95,13 @@ public class XRSRPSettings
 	public static float occlusionMeshScale
 	{
 		[Token(Token = "0x6000FD5")]
-		[Address(RVA = "0x2B86200", Offset = "0x2B84800", VA = "0x182B86200")]
+		[Address(RVA = "0x655C7D0", Offset = "0x655B7D0", VA = "0x655C7D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000FD6")]
-		[Address(RVA = "0x2B863E0", Offset = "0x2B849E0", VA = "0x182B863E0")]
+		[Address(RVA = "0x655C870", Offset = "0x655B870", VA = "0x655C870")]
 		set
 		{
 		}
@@ -111,13 +111,13 @@ public class XRSRPSettings
 	public static bool useVisibilityMesh
 	{
 		[Token(Token = "0x6000FD7")]
-		[Address(RVA = "0x2B862F0", Offset = "0x2B848F0", VA = "0x182B862F0")]
+		[Address(RVA = "0x655C930", Offset = "0x655B930", VA = "0x655C930")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FD8")]
-		[Address(RVA = "0x2B86480", Offset = "0x2B84A80", VA = "0x182B86480")]
+		[Address(RVA = "0x655C9D0", Offset = "0x655B9D0", VA = "0x655C9D0")]
 		set
 		{
 		}
@@ -127,20 +127,20 @@ public class XRSRPSettings
 	public static int mirrorViewMode
 	{
 		[Token(Token = "0x6000FD9")]
-		[Address(RVA = "0x2B861A0", Offset = "0x2B847A0", VA = "0x182B861A0")]
+		[Address(RVA = "0x655CA90", Offset = "0x655BA90", VA = "0x655CA90")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000FDA")]
-		[Address(RVA = "0x2B86380", Offset = "0x2B84980", VA = "0x182B86380")]
+		[Address(RVA = "0x655CAF0", Offset = "0x655BAF0", VA = "0x655CAF0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FDB")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x655CB60", Offset = "0x655BB60", VA = "0x655CB60")]
 	public XRSRPSettings()
 	{
 	}

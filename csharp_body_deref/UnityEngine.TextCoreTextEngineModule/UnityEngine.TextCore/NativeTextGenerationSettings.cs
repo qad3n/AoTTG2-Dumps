@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.NativeTextGenerationSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -121,7 +121,7 @@ internal struct NativeTextGenerationSettings
 	public bool hasLink
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x3016310", Offset = "0x3014910", VA = "0x183016310")]
+		[Address(RVA = "0x69FE0B0", Offset = "0x69FD0B0", VA = "0x69FE0B0")]
 		get
 		{
 			return default(bool);
@@ -132,7 +132,7 @@ internal struct NativeTextGenerationSettings
 	public static NativeTextGenerationSettings Default
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x30162B0", Offset = "0x30148B0", VA = "0x1830162B0")]
+		[Address(RVA = "0x69FE360", Offset = "0x69FD360", VA = "0x69FE360")]
 		get
 		{
 			return default(NativeTextGenerationSettings);
@@ -140,14 +140,14 @@ internal struct NativeTextGenerationSettings
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3015670", Offset = "0x3013C70", VA = "0x183015670")]
+	[Address(RVA = "0x69FE1E0", Offset = "0x69FD1E0", VA = "0x69FE1E0")]
 	public readonly TextSpan CreateTextSpan()
 	{
 		return default(TextSpan);
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x3015800", Offset = "0x3013E00", VA = "0x183015800", Slot = "3")]
+	[Address(RVA = "0x69FE3B0", Offset = "0x69FD3B0", VA = "0x69FE3B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

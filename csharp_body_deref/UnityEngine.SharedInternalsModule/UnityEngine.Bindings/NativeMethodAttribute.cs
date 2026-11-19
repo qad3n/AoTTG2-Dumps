@@ -20,7 +20,7 @@ internal class NativeMethodAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "7")]
+		[Address(RVA = "0x69F1530", Offset = "0x69F0530", VA = "0x69F1530", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -31,7 +31,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool IsThreadSafe
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0", Slot = "8")]
+		[Address(RVA = "0x69F1540", Offset = "0x69F0540", VA = "0x69F1540", Slot = "8")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,7 +42,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool IsFreeFunction
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360", Slot = "9")]
+		[Address(RVA = "0x69F1550", Offset = "0x69F0550", VA = "0x69F1550", Slot = "9")]
 		[CompilerGenerated]
 		set
 		{
@@ -53,7 +53,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool ThrowsException
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x1CB9D80", Offset = "0x1CB8380", VA = "0x181CB9D80", Slot = "10")]
+		[Address(RVA = "0x69F1560", Offset = "0x69F0560", VA = "0x69F1560", Slot = "10")]
 		[CompilerGenerated]
 		set
 		{
@@ -64,7 +64,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool HasExplicitThis
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x2DD7CD0", Offset = "0x2DD62D0", VA = "0x182DD7CD0", Slot = "11")]
+		[Address(RVA = "0x69F1570", Offset = "0x69F0570", VA = "0x69F1570", Slot = "11")]
 		[CompilerGenerated]
 		set
 		{
@@ -72,25 +72,25 @@ internal class NativeMethodAttribute : Attribute
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1580", Offset = "0x69F0580", VA = "0x69F1580")]
 	public NativeMethodAttribute()
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2FF6FE0", Offset = "0x2FF55E0", VA = "0x182FF6FE0")]
+	[Address(RVA = "0x69F1590", Offset = "0x69F0590", VA = "0x69F1590")]
 	public NativeMethodAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x2FF70F0", Offset = "0x2FF56F0", VA = "0x182FF70F0")]
+	[Address(RVA = "0x69F1690", Offset = "0x69F0690", VA = "0x69F1690")]
 	public NativeMethodAttribute(string name, bool isFreeFunction)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2FF6FA0", Offset = "0x2FF55A0", VA = "0x182FF6FA0")]
+	[Address(RVA = "0x69F16B0", Offset = "0x69F06B0", VA = "0x69F16B0")]
 	public NativeMethodAttribute(string name, bool isFreeFunction, bool isThreadSafe)
 	{
 	}

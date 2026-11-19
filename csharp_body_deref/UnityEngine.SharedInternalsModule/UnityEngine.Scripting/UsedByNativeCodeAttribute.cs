@@ -21,7 +21,7 @@ internal class UsedByNativeCodeAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x69F1A90", Offset = "0x69F0A90", VA = "0x69F1A90")]
 		[CompilerGenerated]
 		set
 		{
@@ -29,13 +29,13 @@ internal class UsedByNativeCodeAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1A50", Offset = "0x69F0A50", VA = "0x69F1A50")]
 	public UsedByNativeCodeAttribute()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x69F1A60", Offset = "0x69F0A60", VA = "0x69F1A60")]
 	public UsedByNativeCodeAttribute(string name)
 	{
 	}

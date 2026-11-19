@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000EC")]
+[Token(Token = "0x2000127")]
 public enum ShowMode
 {
-	[Token(Token = "0x400059C")]
+	[Token(Token = "0x40006DB")]
 	All,
-	[Token(Token = "0x400059D")]
+	[Token(Token = "0x40006DC")]
 	Mine,
-	[Token(Token = "0x400059E")]
+	[Token(Token = "0x40006DD")]
 	Others,
-	[Token(Token = "0x400059F")]
+	[Token(Token = "0x40006DE")]
 	None
 }

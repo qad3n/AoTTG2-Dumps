@@ -15,31 +15,31 @@ namespace UnityEngine.UI;
 public class VerticalLayoutGroup : HorizontalOrVerticalLayoutGroup
 {
 	[Token(Token = "0x600033B")]
-	[Address(RVA = "0x32C4F90", Offset = "0x32C3590", VA = "0x1832C4F90")]
+	[Address(RVA = "0x6CE5190", Offset = "0x6CE4190", VA = "0x6CE5190")]
 	protected VerticalLayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x32D9850", Offset = "0x32D7E50", VA = "0x1832D9850", Slot = "28")]
+	[Address(RVA = "0x6CE51A0", Offset = "0x6CE41A0", VA = "0x6CE51A0", Slot = "28")]
 	public override void CalculateLayoutInputHorizontal()
 	{
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x32D9880", Offset = "0x32D7E80", VA = "0x1832D9880", Slot = "29")]
+	[Address(RVA = "0x6CE51C0", Offset = "0x6CE41C0", VA = "0x6CE51C0", Slot = "29")]
 	public override void CalculateLayoutInputVertical()
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x32D9890", Offset = "0x32D7E90", VA = "0x1832D9890", Slot = "37")]
+	[Address(RVA = "0x6CE51D0", Offset = "0x6CE41D0", VA = "0x6CE51D0", Slot = "37")]
 	public override void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x32D98A0", Offset = "0x32D7EA0", VA = "0x1832D98A0", Slot = "38")]
+	[Address(RVA = "0x6CE51E0", Offset = "0x6CE41E0", VA = "0x6CE51E0", Slot = "38")]
 	public override void SetLayoutVertical()
 	{
 	}

@@ -100,7 +100,7 @@ internal struct BinXmlSqlDecimal
 	public bool IsPositive
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x25D0DF0", Offset = "0x25CF3F0", VA = "0x1825D0DF0")]
+		[Address(RVA = "0x5F8B860", Offset = "0x5F8A860", VA = "0x5F8B860")]
 		get
 		{
 			return default(bool);
@@ -108,52 +108,52 @@ internal struct BinXmlSqlDecimal
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x25D0A60", Offset = "0x25CF060", VA = "0x1825D0A60")]
+	[Address(RVA = "0x5F8B870", Offset = "0x5F8A870", VA = "0x5F8B870")]
 	public BinXmlSqlDecimal(byte[] data, int offset, bool trim)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x1A1F450", Offset = "0x1A1DA50", VA = "0x181A1F450")]
+	[Address(RVA = "0x5F8BC60", Offset = "0x5F8AC60", VA = "0x5F8BC60")]
 	private static uint UIntFromByteArray(byte[] data, int offset)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x25D00A0", Offset = "0x25CE6A0", VA = "0x1825D00A0")]
+	[Address(RVA = "0x5F8BE90", Offset = "0x5F8AE90", VA = "0x5F8BE90")]
 	private static void MpDiv1(uint[] rgulU, ref int ciulU, uint iulD, out uint iulR)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2567D40", Offset = "0x2566340", VA = "0x182567D40")]
+	[Address(RVA = "0x5F8BFB0", Offset = "0x5F8AFB0", VA = "0x5F8BFB0")]
 	private static void MpNormalize(uint[] rgulU, ref int ciulU)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x2565D90", Offset = "0x2564390", VA = "0x182565D90")]
+	[Address(RVA = "0x5F8BFF0", Offset = "0x5F8AFF0", VA = "0x5F8BFF0")]
 	private static char ChFromDigit(uint uiDigit)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x25D0190", Offset = "0x25CE790", VA = "0x1825D0190")]
+	[Address(RVA = "0x5F8C000", Offset = "0x5F8B000", VA = "0x5F8C000")]
 	public decimal ToDecimal()
 	{
 		return 0m;
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x25D05E0", Offset = "0x25CEBE0", VA = "0x1825D05E0")]
+	[Address(RVA = "0x5F8BCC0", Offset = "0x5F8ACC0", VA = "0x5F8BCC0")]
 	private void TrimTrailingZeros()
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x25D02A0", Offset = "0x25CE8A0", VA = "0x1825D02A0", Slot = "3")]
+	[Address(RVA = "0x5F8C0F0", Offset = "0x5F8B0F0", VA = "0x5F8C0F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

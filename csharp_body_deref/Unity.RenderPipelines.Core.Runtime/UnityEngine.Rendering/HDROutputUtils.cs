@@ -45,7 +45,7 @@ public static class HDROutputUtils
 		public float paperWhiteNits;
 
 		[Token(Token = "0x6000E3B")]
-		[Address(RVA = "0x2B59D90", Offset = "0x2B58390", VA = "0x182B59D90")]
+		[Address(RVA = "0x654BD70", Offset = "0x654AD70", VA = "0x654BD70")]
 		public HDRDisplayInformation(int maxFullFrameToneMapLuminance, int maxToneMapLuminance, int minToneMapLuminance, float hdrPaperWhiteNits)
 		{
 		}
@@ -96,45 +96,45 @@ public static class HDROutputUtils
 	}
 
 	[Token(Token = "0x6000E34")]
-	[Address(RVA = "0x2B5A860", Offset = "0x2B58E60", VA = "0x182B5A860")]
+	[Address(RVA = "0x654B010", Offset = "0x654A010", VA = "0x654B010")]
 	public static bool GetColorSpaceForGamut(ColorGamut gamut, out int colorspace)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E35")]
-	[Address(RVA = "0x2B5A6C0", Offset = "0x2B58CC0", VA = "0x182B5A6C0")]
+	[Address(RVA = "0x654B230", Offset = "0x654A230", VA = "0x654B230")]
 	public static bool GetColorEncodingForGamut(ColorGamut gamut, out int encoding)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E36")]
-	[Address(RVA = "0x2B5A3C0", Offset = "0x2B589C0", VA = "0x182B5A3C0")]
+	[Address(RVA = "0x654B3B0", Offset = "0x654A3B0", VA = "0x654B3B0")]
 	public static void ConfigureHDROutput(Material material, ColorGamut gamut, Operation operations)
 	{
 	}
 
 	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x2B59FF0", Offset = "0x2B585F0", VA = "0x182B59FF0")]
+	[Address(RVA = "0x654B680", Offset = "0x654A680", VA = "0x654B680")]
 	public static void ConfigureHDROutput(MaterialPropertyBlock properties, ColorGamut gamut)
 	{
 	}
 
 	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x2B59DB0", Offset = "0x2B583B0", VA = "0x182B59DB0")]
+	[Address(RVA = "0x654B740", Offset = "0x654A740", VA = "0x654B740")]
 	public static void ConfigureHDROutput(Material material, Operation operations)
 	{
 	}
 
 	[Token(Token = "0x6000E39")]
-	[Address(RVA = "0x2B5A0C0", Offset = "0x2B586C0", VA = "0x182B5A0C0")]
+	[Address(RVA = "0x654B980", Offset = "0x654A980", VA = "0x654B980")]
 	public static void ConfigureHDROutput(ComputeShader computeShader, ColorGamut gamut, Operation operations)
 	{
 	}
 
 	[Token(Token = "0x6000E3A")]
-	[Address(RVA = "0x2B5AAD0", Offset = "0x2B590D0", VA = "0x182B5AAD0")]
+	[Address(RVA = "0x654BC50", Offset = "0x654AC50", VA = "0x654BC50")]
 	public static bool IsShaderVariantValid(ShaderKeywordSet shaderKeywordSet, bool isHDREnabled)
 	{
 		return default(bool);

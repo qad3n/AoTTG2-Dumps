@@ -28,14 +28,14 @@ internal static class AsyncUtils
 	internal static readonly Task CompletedTask;
 
 	[Token(Token = "0x60004DC")]
-	[Address(RVA = "0x1C171B0", Offset = "0x1C157B0", VA = "0x181C171B0")]
+	[Address(RVA = "0x55A30C0", Offset = "0x55A20C0", VA = "0x55A30C0")]
 	internal static Task<bool> ToAsync(this bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004DD")]
-	[Address(RVA = "0x1C16EF0", Offset = "0x1C154F0", VA = "0x181C16EF0")]
+	[Address(RVA = "0x55A3130", Offset = "0x55A2130", VA = "0x55A3130")]
 	public static Task? CancelIfRequestedAsync(this CancellationToken cancellationToken)
 	{
 		return null;
@@ -48,7 +48,7 @@ internal static class AsyncUtils
 	}
 
 	[Token(Token = "0x60004DF")]
-	[Address(RVA = "0x1C16F80", Offset = "0x1C15580", VA = "0x181C16F80")]
+	[Address(RVA = "0x55A31C0", Offset = "0x55A21C0", VA = "0x55A31C0")]
 	public static Task FromCanceled(this CancellationToken cancellationToken)
 	{
 		return null;
@@ -61,35 +61,35 @@ internal static class AsyncUtils
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x1C173D0", Offset = "0x1C159D0", VA = "0x181C173D0")]
+	[Address(RVA = "0x55A32F0", Offset = "0x55A22F0", VA = "0x55A32F0")]
 	public static Task WriteAsync(this TextWriter writer, char value, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004E2")]
-	[Address(RVA = "0x1C17240", Offset = "0x1C15840", VA = "0x181C17240")]
+	[Address(RVA = "0x55A33A0", Offset = "0x55A23A0", VA = "0x55A33A0")]
 	public static Task WriteAsync(this TextWriter writer, string? value, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004E3")]
-	[Address(RVA = "0x1C17300", Offset = "0x1C15900", VA = "0x181C17300")]
+	[Address(RVA = "0x55A3450", Offset = "0x55A2450", VA = "0x55A3450")]
 	public static Task WriteAsync(this TextWriter writer, char[] value, int start, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0x1C170D0", Offset = "0x1C156D0", VA = "0x181C170D0")]
+	[Address(RVA = "0x55A3510", Offset = "0x55A2510", VA = "0x55A3510")]
 	public static Task<int> ReadAsync(this TextReader reader, char[] buffer, int index, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x1C170A0", Offset = "0x1C156A0", VA = "0x181C170A0")]
+	[Address(RVA = "0x55A35F0", Offset = "0x55A25F0", VA = "0x55A35F0")]
 	public static bool IsCompletedSuccessfully(this Task task)
 	{
 		return default(bool);

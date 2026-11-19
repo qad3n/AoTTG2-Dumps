@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005EC")]
+[Token(Token = "0x200064B")]
 internal static class CustomLogicUtils
 {
-	[Token(Token = "0x6003A00")]
-	[Address(RVA = "0x20EA8A0", Offset = "0x20E8EA0", VA = "0x1820EA8A0")]
+	[Token(Token = "0x6003C8E")]
+	[Address(RVA = "0x5A80E10", Offset = "0x5A7FE10", VA = "0x5A80E10")]
 	public static Exception OperatorException(string operatorName, object lhs, object rhs)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A01")]
-	[Address(RVA = "0x20EA960", Offset = "0x20E8F60", VA = "0x1820EA960")]
+	[Token(Token = "0x6003C8F")]
+	[Address(RVA = "0x5A80EC0", Offset = "0x5A7FEC0", VA = "0x5A80EC0")]
 	public static string SerializeAst(CustomLogicBaseAst ast)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A02")]
-	[Address(RVA = "0x20EA600", Offset = "0x20E8C00", VA = "0x1820EA600")]
+	[Token(Token = "0x6003C90")]
+	[Address(RVA = "0x5A817A0", Offset = "0x5A807A0", VA = "0x5A817A0")]
 	public static float BaseAstToFloat(CustomLogicBaseAst ast)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003A03")]
-	[Address(RVA = "0x20EA750", Offset = "0x20E8D50", VA = "0x1820EA750")]
+	[Token(Token = "0x6003C91")]
+	[Address(RVA = "0x5A81670", Offset = "0x5A80670", VA = "0x5A81670")]
 	public static int BaseAstToInt(CustomLogicBaseAst ast)
 	{
 		return default(int);

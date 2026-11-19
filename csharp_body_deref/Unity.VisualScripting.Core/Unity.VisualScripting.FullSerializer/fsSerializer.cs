@@ -27,25 +27,25 @@ public class fsSerializer
 		private HashSet<int> _references;
 
 		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x2E70BC0", Offset = "0x2E6F1C0", VA = "0x182E70BC0")]
+		[Address(RVA = "0x686D310", Offset = "0x686C310", VA = "0x686D310")]
 		public void WriteDefinition(int id, fsData data)
 		{
 		}
 
 		[Token(Token = "0x60012E8")]
-		[Address(RVA = "0x2E70D20", Offset = "0x2E6F320", VA = "0x182E70D20")]
+		[Address(RVA = "0x686CFC0", Offset = "0x686BFC0", VA = "0x686CFC0")]
 		public void WriteReference(int id, Dictionary<string, fsData> dict)
 		{
 		}
 
 		[Token(Token = "0x60012E9")]
-		[Address(RVA = "0x2E70B50", Offset = "0x2E6F150", VA = "0x182E70B50")]
+		[Address(RVA = "0x6871C70", Offset = "0x6870C70", VA = "0x6871C70")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x60012EA")]
-		[Address(RVA = "0x2E70F50", Offset = "0x2E6F550", VA = "0x182E70F50")]
+		[Address(RVA = "0x686B230", Offset = "0x686A230", VA = "0x686B230")]
 		public fsLazyCycleDefinitionWriter()
 		{
 		}
@@ -156,19 +156,19 @@ public class fsSerializer
 	private static readonly Type Type_MissingType;
 
 	[Token(Token = "0x60012BF")]
-	[Address(RVA = "0x2E792F0", Offset = "0x2E778F0", VA = "0x182E792F0")]
+	[Address(RVA = "0x686A330", Offset = "0x6869330", VA = "0x686A330")]
 	public fsSerializer()
 	{
 	}
 
 	[Token(Token = "0x60012C0")]
-	[Address(RVA = "0x2E77F00", Offset = "0x2E76500", VA = "0x182E77F00")]
+	[Address(RVA = "0x686B640", Offset = "0x686A640", VA = "0x686B640")]
 	private void RemapAbstractStorageTypeToDefaultType(ref Type storageType)
 	{
 	}
 
 	[Token(Token = "0x60012C1")]
-	[Address(RVA = "0x2E730B0", Offset = "0x2E716B0", VA = "0x182E730B0")]
+	[Address(RVA = "0x686B840", Offset = "0x686A840", VA = "0x686B840")]
 	public void AddProcessor(fsObjectProcessor processor)
 	{
 	}
@@ -179,26 +179,26 @@ public class fsSerializer
 	}
 
 	[Token(Token = "0x60012C3")]
-	[Address(RVA = "0x2E780E0", Offset = "0x2E766E0", VA = "0x182E780E0")]
+	[Address(RVA = "0x686B2F0", Offset = "0x686A2F0", VA = "0x686B2F0")]
 	public void SetDefaultStorageType(Type abstractType, Type defaultStorageType)
 	{
 	}
 
 	[Token(Token = "0x60012C4")]
-	[Address(RVA = "0x2E74F30", Offset = "0x2E73530", VA = "0x182E74F30")]
+	[Address(RVA = "0x686B920", Offset = "0x686A920", VA = "0x686B920")]
 	private List<fsObjectProcessor> GetProcessors(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x2E72DD0", Offset = "0x2E713D0", VA = "0x182E72DD0")]
+	[Address(RVA = "0x686B410", Offset = "0x686A410", VA = "0x686B410")]
 	public void AddConverter(fsBaseConverter converter)
 	{
 	}
 
 	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x2E735F0", Offset = "0x2E71BF0", VA = "0x182E735F0")]
+	[Address(RVA = "0x686BC70", Offset = "0x686AC70", VA = "0x686BC70")]
 	private fsBaseConverter GetConverter(Type type, Type overrideConverterType)
 	{
 		return null;
@@ -217,202 +217,202 @@ public class fsSerializer
 	}
 
 	[Token(Token = "0x60012C9")]
-	[Address(RVA = "0x2E78D00", Offset = "0x2E77300", VA = "0x182E78D00")]
+	[Address(RVA = "0x686C140", Offset = "0x686B140", VA = "0x686C140")]
 	public fsResult TrySerialize(Type storageType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CA")]
-	[Address(RVA = "0x2E78960", Offset = "0x2E76F60", VA = "0x182E78960")]
+	[Address(RVA = "0x686C150", Offset = "0x686B150", VA = "0x686C150")]
 	public fsResult TrySerialize(Type storageType, Type overrideConverterType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CB")]
-	[Address(RVA = "0x2E76900", Offset = "0x2E74F00", VA = "0x182E76900")]
+	[Address(RVA = "0x686C7B0", Offset = "0x686B7B0", VA = "0x686C7B0")]
 	private fsResult InternalSerialize_1_ProcessCycles(Type storageType, Type overrideConverterType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CC")]
-	[Address(RVA = "0x2E76F30", Offset = "0x2E75530", VA = "0x182E76F30")]
+	[Address(RVA = "0x686CAF0", Offset = "0x686BAF0", VA = "0x686CAF0")]
 	private fsResult InternalSerialize_2_Inheritance(Type storageType, Type overrideConverterType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CD")]
-	[Address(RVA = "0x2E77240", Offset = "0x2E75840", VA = "0x182E77240")]
+	[Address(RVA = "0x686D460", Offset = "0x686C460", VA = "0x686D460")]
 	private fsResult InternalSerialize_3_ProcessVersioning(Type overrideConverterType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CE")]
-	[Address(RVA = "0x2E77530", Offset = "0x2E75B30", VA = "0x182E77530")]
+	[Address(RVA = "0x686DCF0", Offset = "0x686CCF0", VA = "0x686DCF0")]
 	private fsResult InternalSerialize_4_Converter(Type overrideConverterType, object instance, out fsData data)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012CF")]
-	[Address(RVA = "0x2E78920", Offset = "0x2E76F20", VA = "0x182E78920")]
+	[Address(RVA = "0x686DD60", Offset = "0x686CD60", VA = "0x686DD60")]
 	public fsResult TryDeserialize(fsData data, Type storageType, ref object result)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D0")]
-	[Address(RVA = "0x2E78410", Offset = "0x2E76A10", VA = "0x182E78410")]
+	[Address(RVA = "0x686DD70", Offset = "0x686CD70", VA = "0x686DD70")]
 	public fsResult TryDeserialize(fsData data, Type storageType, Type overrideConverterType, ref object result)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D1")]
-	[Address(RVA = "0x2E751D0", Offset = "0x2E737D0", VA = "0x182E751D0")]
+	[Address(RVA = "0x686E780", Offset = "0x686D780", VA = "0x686E780")]
 	private fsResult InternalDeserialize_1_CycleReference(Type overrideConverterType, fsData data, Type storageType, ref object result, out List<fsObjectProcessor> processors)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D2")]
-	[Address(RVA = "0x2E75520", Offset = "0x2E73B20", VA = "0x182E75520")]
+	[Address(RVA = "0x686EB00", Offset = "0x686DB00", VA = "0x686EB00")]
 	private fsResult InternalDeserialize_2_Version(Type overrideConverterType, fsData data, Type storageType, ref object result, out List<fsObjectProcessor> processors)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D3")]
-	[Address(RVA = "0x2E75DF0", Offset = "0x2E743F0", VA = "0x182E75DF0")]
+	[Address(RVA = "0x686F4A0", Offset = "0x686E4A0", VA = "0x686F4A0")]
 	private fsResult InternalDeserialize_3_Inheritance(Type overrideConverterType, fsData data, Type storageType, ref object result, out List<fsObjectProcessor> processors)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D4")]
-	[Address(RVA = "0x2E76460", Offset = "0x2E74A60", VA = "0x182E76460")]
+	[Address(RVA = "0x6870FF0", Offset = "0x686FFF0", VA = "0x6870FF0")]
 	private fsResult InternalDeserialize_4_Cycles(Type overrideConverterType, fsData data, Type resultType, ref object result)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D5")]
-	[Address(RVA = "0x2E76750", Offset = "0x2E74D50", VA = "0x182E76750")]
+	[Address(RVA = "0x6871180", Offset = "0x6870180", VA = "0x6871180")]
 	private fsResult InternalDeserialize_5_Converter(Type overrideConverterType, fsData data, Type resultType, ref object result)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012D6")]
-	[Address(RVA = "0x2E73AE0", Offset = "0x2E720E0", VA = "0x182E73AE0")]
+	[Address(RVA = "0x686FD40", Offset = "0x686ED40", VA = "0x686FD40")]
 	private static Type GetDataType(ref fsData data, Type defaultType, ref fsResult deserializeResult)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012D7")]
-	[Address(RVA = "0x2E73530", Offset = "0x2E71B30", VA = "0x182E73530")]
+	[Address(RVA = "0x686D6C0", Offset = "0x686C6C0", VA = "0x686D6C0")]
 	private static void EnsureDictionary(fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012D8")]
-	[Address(RVA = "0x2E78D40", Offset = "0x2E77340", VA = "0x182E78D40")]
+	[Address(RVA = "0x6871570", Offset = "0x6870570", VA = "0x6871570")]
 	static fsSerializer()
 	{
 	}
 
 	[Token(Token = "0x60012D9")]
-	[Address(RVA = "0x2E77A40", Offset = "0x2E76040", VA = "0x182E77A40")]
+	[Address(RVA = "0x68719E0", Offset = "0x68709E0", VA = "0x68719E0")]
 	public static bool IsReservedKeyword(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DA")]
-	[Address(RVA = "0x2E77990", Offset = "0x2E75F90", VA = "0x182E77990")]
+	[Address(RVA = "0x686E950", Offset = "0x686D950", VA = "0x686E950")]
 	private static bool IsObjectReference(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DB")]
-	[Address(RVA = "0x2E778E0", Offset = "0x2E75EE0", VA = "0x182E778E0")]
+	[Address(RVA = "0x686FB90", Offset = "0x686EB90", VA = "0x686FB90")]
 	private static bool IsObjectDefinition(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DC")]
-	[Address(RVA = "0x2E77B70", Offset = "0x2E76170", VA = "0x182E77B70")]
+	[Address(RVA = "0x686F110", Offset = "0x686E110", VA = "0x686F110")]
 	private static bool IsVersioned(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DD")]
-	[Address(RVA = "0x2E77AC0", Offset = "0x2E760C0", VA = "0x182E77AC0")]
+	[Address(RVA = "0x686FC90", Offset = "0x686EC90", VA = "0x686FC90")]
 	private static bool IsTypeSpecified(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DE")]
-	[Address(RVA = "0x2E77E50", Offset = "0x2E76450", VA = "0x182E77E50")]
+	[Address(RVA = "0x68712B0", Offset = "0x68702B0", VA = "0x68712B0")]
 	private static bool IsWrappedData(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012DF")]
-	[Address(RVA = "0x2E77C20", Offset = "0x2E76220", VA = "0x182E77C20")]
+	[Address(RVA = "0x6871360", Offset = "0x6870360", VA = "0x6871360")]
 	private static bool IsVisualScriptingUnit(fsData data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012E0")]
-	[Address(RVA = "0x2E781F0", Offset = "0x2E767F0", VA = "0x182E781F0")]
+	[Address(RVA = "0x6871A80", Offset = "0x6870A80", VA = "0x6871A80")]
 	public static void StripDeserializationMetadata(ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012E1")]
-	[Address(RVA = "0x2E731A0", Offset = "0x2E717A0", VA = "0x182E731A0")]
+	[Address(RVA = "0x686E3D0", Offset = "0x686D3D0", VA = "0x686E3D0")]
 	private static void ConvertLegacyData(ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012E2")]
-	[Address(RVA = "0x2E77850", Offset = "0x2E75E50", VA = "0x182E77850")]
+	[Address(RVA = "0x686C660", Offset = "0x686B660", VA = "0x686C660")]
 	private static void Invoke_OnBeforeSerialize(List<fsObjectProcessor> processors, Type storageType, object instance)
 	{
 	}
 
 	[Token(Token = "0x60012E3")]
-	[Address(RVA = "0x2E77670", Offset = "0x2E75C70", VA = "0x182E77670")]
+	[Address(RVA = "0x686C710", Offset = "0x686B710", VA = "0x686C710")]
 	private static void Invoke_OnAfterSerialize(List<fsObjectProcessor> processors, Type storageType, object instance, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012E4")]
-	[Address(RVA = "0x2E777C0", Offset = "0x2E75DC0", VA = "0x182E777C0")]
+	[Address(RVA = "0x686E280", Offset = "0x686D280", VA = "0x686E280")]
 	private static void Invoke_OnBeforeDeserialize(List<fsObjectProcessor> processors, Type storageType, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012E5")]
-	[Address(RVA = "0x2E77720", Offset = "0x2E75D20", VA = "0x182E77720")]
+	[Address(RVA = "0x6870F40", Offset = "0x686FF40", VA = "0x6870F40")]
 	private static void Invoke_OnBeforeDeserializeAfterInstanceCreation(List<fsObjectProcessor> processors, Type storageType, object instance, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x2E775C0", Offset = "0x2E75BC0", VA = "0x182E775C0")]
+	[Address(RVA = "0x686E330", Offset = "0x686D330", VA = "0x686E330")]
 	private static void Invoke_OnAfterDeserialize(List<fsObjectProcessor> processors, Type storageType, object instance)
 	{
 	}

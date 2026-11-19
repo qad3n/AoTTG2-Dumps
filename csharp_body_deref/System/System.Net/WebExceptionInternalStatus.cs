@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002D5")]
+[Token(Token = "0x2000296")]
 internal enum WebExceptionInternalStatus
 {
-	[Token(Token = "0x4000AB9")]
+	[Token(Token = "0x40009EA")]
 	RequestFatal,
-	[Token(Token = "0x4000ABA")]
+	[Token(Token = "0x40009EB")]
 	ServicePointFatal,
-	[Token(Token = "0x4000ABB")]
+	[Token(Token = "0x40009EC")]
 	Recoverable,
-	[Token(Token = "0x4000ABC")]
+	[Token(Token = "0x40009ED")]
 	Isolated
 }

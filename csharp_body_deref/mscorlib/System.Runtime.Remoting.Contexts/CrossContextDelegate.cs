@@ -10,6 +10,6 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x200039C")]
+[Token(Token = "0x2000375")]
 [ComVisible(true)]
 public delegate void CrossContextDelegate();

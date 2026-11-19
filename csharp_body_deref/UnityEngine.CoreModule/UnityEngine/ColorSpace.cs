@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000103")]
+[Token(Token = "0x2000104")]
 public enum ColorSpace
 {
-	[Token(Token = "0x40002C2")]
+	[Token(Token = "0x40002C7")]
 	Uninitialized = -1,
-	[Token(Token = "0x40002C3")]
+	[Token(Token = "0x40002C8")]
 	Gamma,
-	[Token(Token = "0x40002C4")]
+	[Token(Token = "0x40002C9")]
 	Linear
 }

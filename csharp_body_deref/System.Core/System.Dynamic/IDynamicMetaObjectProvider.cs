@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000277")]
+[Token(Token = "0x2000278")]
 public interface IDynamicMetaObjectProvider
 {
-	[Token(Token = "0x6000C6C")]
+	[Token(Token = "0x6000C77")]
 	DynamicMetaObject GetMetaObject(Expression parameter);
 }

@@ -17,8 +17,8 @@ public struct ParticleSystemJobData
 {
 	[Token(Token = "0x4000086")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly int _003Ccount_003Ek__BackingField;
 
 	[Token(Token = "0x4000087")]
@@ -29,20 +29,20 @@ public struct ParticleSystemJobData
 
 	[Token(Token = "0x4000088")]
 	[FieldOffset(Offset = "0x38")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003Cvelocities_003Ek__BackingField;
 
 	[Token(Token = "0x4000089")]
 	[FieldOffset(Offset = "0x68")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003CaxisOfRotations_003Ek__BackingField;
 
 	[Token(Token = "0x400008A")]
 	[FieldOffset(Offset = "0x98")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003Crotations_003Ek__BackingField;
 
 	[Token(Token = "0x400008B")]
@@ -59,14 +59,14 @@ public struct ParticleSystemJobData
 
 	[Token(Token = "0x400008D")]
 	[FieldOffset(Offset = "0x128")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly NativeArray<Color32> _003CstartColors_003Ek__BackingField;
 
 	[Token(Token = "0x400008E")]
 	[FieldOffset(Offset = "0x138")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly NativeArray<float> _003CaliveTimePercent_003Ek__BackingField;
 
 	[Token(Token = "0x400008F")]
@@ -95,7 +95,7 @@ public struct ParticleSystemJobData
 
 	[Token(Token = "0x4000093")]
 	[FieldOffset(Offset = "0x1E8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly NativeArray<int> _003CmeshIndices_003Ek__BackingField;
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x2000086")]
 public enum UriIdnScope
 {
-	[Token(Token = "0x40002C6")]
+	[Token(Token = "0x40001F7")]
 	None,
-	[Token(Token = "0x40002C7")]
+	[Token(Token = "0x40001F8")]
 	AllExceptIntranet,
-	[Token(Token = "0x40002C8")]
+	[Token(Token = "0x40001F9")]
 	All
 }

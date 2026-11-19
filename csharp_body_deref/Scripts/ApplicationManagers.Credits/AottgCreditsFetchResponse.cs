@@ -10,78 +10,78 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x2000936")]
+[Token(Token = "0x200099D")]
 public sealed class AottgCreditsFetchResponse
 {
-	[Token(Token = "0x17000F92")]
+	[Token(Token = "0x17000F71")]
 	public bool Success
 	{
-		[Token(Token = "0x6005653")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x60059AC")]
+		[Address(RVA = "0x5D22A00", Offset = "0x5D21A00", VA = "0x5D22A00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6005654")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Token(Token = "0x60059AD")]
+		[Address(RVA = "0x5D22A10", Offset = "0x5D21A10", VA = "0x5D22A10")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F93")]
+	[Token(Token = "0x17000F72")]
 	public AottgCreditsResponse Credits
 	{
-		[Token(Token = "0x6005655")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60059AE")]
+		[Address(RVA = "0x5D22A20", Offset = "0x5D21A20", VA = "0x5D22A20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005656")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60059AF")]
+		[Address(RVA = "0x5D22A30", Offset = "0x5D21A30", VA = "0x5D22A30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F94")]
+	[Token(Token = "0x17000F73")]
 	public string Error
 	{
-		[Token(Token = "0x6005657")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60059B0")]
+		[Address(RVA = "0x5D22A40", Offset = "0x5D21A40", VA = "0x5D22A40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005658")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60059B1")]
+		[Address(RVA = "0x5D22A50", Offset = "0x5D21A50", VA = "0x5D22A50")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6005652")]
-	[Address(RVA = "0x2364330", Offset = "0x2362930", VA = "0x182364330")]
+	[Token(Token = "0x60059AB")]
+	[Address(RVA = "0x5D229B0", Offset = "0x5D219B0", VA = "0x5D229B0")]
 	private AottgCreditsFetchResponse(bool success, AottgCreditsResponse credits, string error)
 	{
 	}
 
-	[Token(Token = "0x6005659")]
-	[Address(RVA = "0x23642B0", Offset = "0x23628B0", VA = "0x1823642B0")]
+	[Token(Token = "0x60059B2")]
+	[Address(RVA = "0x5D22A60", Offset = "0x5D21A60", VA = "0x5D22A60")]
 	public static AottgCreditsFetchResponse Ok(AottgCreditsResponse credits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600565A")]
-	[Address(RVA = "0x2364210", Offset = "0x2362810", VA = "0x182364210")]
+	[Token(Token = "0x60059B3")]
+	[Address(RVA = "0x5D22AE0", Offset = "0x5D21AE0", VA = "0x5D22AE0")]
 	public static AottgCreditsFetchResponse Fail(string error)
 	{
 		return null;

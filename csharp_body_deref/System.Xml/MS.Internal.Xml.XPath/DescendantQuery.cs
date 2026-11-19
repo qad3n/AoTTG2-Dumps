@@ -14,36 +14,36 @@ namespace MS.Internal.Xml.XPath;
 internal class DescendantQuery : DescendantBaseQuery
 {
 	[Token(Token = "0x4000E1F")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x58")]
 	private XPathNodeIterator _nodeIterator;
 
 	[Token(Token = "0x6001AC2")]
-	[Address(RVA = "0x26B6FF0", Offset = "0x26B55F0", VA = "0x1826B6FF0")]
+	[Address(RVA = "0x607F7D0", Offset = "0x607E7D0", VA = "0x607F7D0")]
 	internal DescendantQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis)
 	{
 	}
 
 	[Token(Token = "0x6001AC3")]
-	[Address(RVA = "0x26B7820", Offset = "0x26B5E20", VA = "0x1826B7820")]
+	[Address(RVA = "0x607F800", Offset = "0x607E800", VA = "0x607F800")]
 	public DescendantQuery(DescendantQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AC4")]
-	[Address(RVA = "0x26B77C0", Offset = "0x26B5DC0", VA = "0x1826B77C0", Slot = "12")]
+	[Address(RVA = "0x607F850", Offset = "0x607E850", VA = "0x607F850", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AC5")]
-	[Address(RVA = "0x26B7580", Offset = "0x26B5B80", VA = "0x1826B7580", Slot = "15")]
+	[Address(RVA = "0x607F8B0", Offset = "0x607E8B0", VA = "0x607F8B0", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AC6")]
-	[Address(RVA = "0x26B7740", Offset = "0x26B5D40", VA = "0x1826B7740", Slot = "6")]
+	[Address(RVA = "0x607FA80", Offset = "0x607EA80", VA = "0x607FA80", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

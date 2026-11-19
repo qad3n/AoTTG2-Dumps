@@ -15,65 +15,65 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000346")]
+[Token(Token = "0x2000307")]
 internal class WebConnectionTunnel
 {
-	[Token(Token = "0x2000347")]
+	[Token(Token = "0x2000308")]
 	private enum NtlmAuthState
 	{
-		[Token(Token = "0x4000D24")]
+		[Token(Token = "0x4000C55")]
 		None,
-		[Token(Token = "0x4000D25")]
+		[Token(Token = "0x4000C56")]
 		Challenge,
-		[Token(Token = "0x4000D26")]
+		[Token(Token = "0x4000C57")]
 		Response
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x2000348")]
+	[Token(Token = "0x2000309")]
 	[CompilerGenerated]
 	private struct _003CInitialize_003Ed__42 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000D27")]
+		[Token(Token = "0x4000C58")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000D28")]
+		[Token(Token = "0x4000C59")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4000D29")]
+		[Token(Token = "0x4000C5A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public WebConnectionTunnel _003C_003E4__this;
 
-		[Token(Token = "0x4000D2A")]
+		[Token(Token = "0x4000C5B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public Stream stream;
 
-		[Token(Token = "0x4000D2B")]
+		[Token(Token = "0x4000C5C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4000D2C")]
+		[Token(Token = "0x4000C5D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private bool _003Chave_auth_003E5__2;
 
-		[Token(Token = "0x4000D2D")]
+		[Token(Token = "0x4000C5E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x4000D2E")]
+		[Token(Token = "0x4000C5F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private ConfiguredTaskAwaitable<(WebHeaderCollection, byte[], int)>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x60016CA")]
-		[Address(RVA = "0x28032C0", Offset = "0x28018C0", VA = "0x1828032C0", Slot = "4")]
+		[Token(Token = "0x600150C")]
+		[Address(RVA = "0x61979F0", Offset = "0x61969F0", VA = "0x61979F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60016CB")]
-		[Address(RVA = "0x2804120", Offset = "0x2802720", VA = "0x182804120", Slot = "5")]
+		[Token(Token = "0x600150D")]
+		[Address(RVA = "0x6198790", Offset = "0x6197790", VA = "0x6198790", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -81,77 +81,77 @@ internal class WebConnectionTunnel
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x2000349")]
+	[Token(Token = "0x200030A")]
 	[CompilerGenerated]
 	private struct _003CReadHeaders_003Ed__43 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000D2F")]
+		[Token(Token = "0x4000C60")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000D30")]
+		[Token(Token = "0x4000C61")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder<(WebHeaderCollection, byte[], int)> _003C_003Et__builder;
 
-		[Token(Token = "0x4000D31")]
+		[Token(Token = "0x4000C62")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4000D32")]
+		[Token(Token = "0x4000C63")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public Stream stream;
 
-		[Token(Token = "0x4000D33")]
+		[Token(Token = "0x4000C64")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public WebConnectionTunnel _003C_003E4__this;
 
-		[Token(Token = "0x4000D34")]
+		[Token(Token = "0x4000C65")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private byte[] _003CretBuffer_003E5__2;
 
-		[Token(Token = "0x4000D35")]
+		[Token(Token = "0x4000C66")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private int _003Cstatus_003E5__3;
 
-		[Token(Token = "0x4000D36")]
+		[Token(Token = "0x4000C67")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private byte[] _003Cbuffer_003E5__4;
 
-		[Token(Token = "0x4000D37")]
+		[Token(Token = "0x4000C68")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private MemoryStream _003Cms_003E5__5;
 
-		[Token(Token = "0x4000D38")]
+		[Token(Token = "0x4000C69")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x60016CC")]
-		[Address(RVA = "0x2806A30", Offset = "0x2805030", VA = "0x182806A30", Slot = "4")]
+		[Token(Token = "0x600150E")]
+		[Address(RVA = "0x61987F0", Offset = "0x61977F0", VA = "0x61987F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60016CD")]
-		[Address(RVA = "0x2807330", Offset = "0x2805930", VA = "0x182807330", Slot = "5")]
+		[Token(Token = "0x600150F")]
+		[Address(RVA = "0x61992D0", Offset = "0x61982D0", VA = "0x61992D0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000D19")]
+	[Token(Token = "0x4000C4A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private HttpWebRequest connectRequest;
 
-	[Token(Token = "0x4000D1A")]
+	[Token(Token = "0x4000C4B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private NtlmAuthState ntlmAuthState;
 
-	[Token(Token = "0x170004E2")]
+	[Token(Token = "0x170004B3")]
 	public HttpWebRequest Request
 	{
-		[Token(Token = "0x60016B5")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60014F7")]
+		[Address(RVA = "0x61975B0", Offset = "0x61965B0", VA = "0x61975B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -159,11 +159,11 @@ internal class WebConnectionTunnel
 		}
 	}
 
-	[Token(Token = "0x170004E3")]
+	[Token(Token = "0x170004B4")]
 	public Uri ConnectUri
 	{
-		[Token(Token = "0x60016B6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60014F8")]
+		[Address(RVA = "0x61975C0", Offset = "0x61965C0", VA = "0x61975C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -171,167 +171,167 @@ internal class WebConnectionTunnel
 		}
 	}
 
-	[Token(Token = "0x170004E4")]
+	[Token(Token = "0x170004B5")]
 	public bool Success
 	{
-		[Token(Token = "0x60016B8")]
-		[Address(RVA = "0x584AB0", Offset = "0x5830B0", VA = "0x180584AB0")]
+		[Token(Token = "0x60014FA")]
+		[Address(RVA = "0x6197610", Offset = "0x6196610", VA = "0x6197610")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60016B9")]
-		[Address(RVA = "0x584B60", Offset = "0x583160", VA = "0x180584B60")]
+		[Token(Token = "0x60014FB")]
+		[Address(RVA = "0x6197620", Offset = "0x6196620", VA = "0x6197620")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004E5")]
+	[Token(Token = "0x170004B6")]
 	public bool CloseConnection
 	{
-		[Token(Token = "0x60016BA")]
-		[Address(RVA = "0x2809E90", Offset = "0x2808490", VA = "0x182809E90")]
+		[Token(Token = "0x60014FC")]
+		[Address(RVA = "0x6197630", Offset = "0x6196630", VA = "0x6197630")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60016BB")]
-		[Address(RVA = "0x2809EA0", Offset = "0x28084A0", VA = "0x182809EA0")]
+		[Token(Token = "0x60014FD")]
+		[Address(RVA = "0x6197640", Offset = "0x6196640", VA = "0x6197640")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004E6")]
+	[Token(Token = "0x170004B7")]
 	public int StatusCode
 	{
-		[Token(Token = "0x60016BC")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Token(Token = "0x60014FE")]
+		[Address(RVA = "0x6197650", Offset = "0x6196650", VA = "0x6197650")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60016BD")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Token(Token = "0x60014FF")]
+		[Address(RVA = "0x6197660", Offset = "0x6196660", VA = "0x6197660")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004E7")]
+	[Token(Token = "0x170004B8")]
 	private string StatusDescription
 	{
-		[Token(Token = "0x60016BE")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Token(Token = "0x6001500")]
+		[Address(RVA = "0x6197670", Offset = "0x6196670", VA = "0x6197670")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004E8")]
+	[Token(Token = "0x170004B9")]
 	public string[] Challenge
 	{
-		[Token(Token = "0x60016BF")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6001501")]
+		[Address(RVA = "0x6197680", Offset = "0x6196680", VA = "0x6197680")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016C0")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Token(Token = "0x6001502")]
+		[Address(RVA = "0x6197690", Offset = "0x6196690", VA = "0x6197690")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004E9")]
+	[Token(Token = "0x170004BA")]
 	public WebHeaderCollection Headers
 	{
-		[Token(Token = "0x60016C1")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x6001503")]
+		[Address(RVA = "0x61976A0", Offset = "0x61966A0", VA = "0x61976A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016C2")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Token(Token = "0x6001504")]
+		[Address(RVA = "0x61976B0", Offset = "0x61966B0", VA = "0x61976B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004EA")]
+	[Token(Token = "0x170004BB")]
 	public Version ProxyVersion
 	{
-		[Token(Token = "0x60016C3")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Token(Token = "0x6001505")]
+		[Address(RVA = "0x61976C0", Offset = "0x61966C0", VA = "0x61976C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016C4")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Token(Token = "0x6001506")]
+		[Address(RVA = "0x61976D0", Offset = "0x61966D0", VA = "0x61976D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004EB")]
+	[Token(Token = "0x170004BC")]
 	public byte[] Data
 	{
-		[Token(Token = "0x60016C5")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Token(Token = "0x6001507")]
+		[Address(RVA = "0x61976E0", Offset = "0x61966E0", VA = "0x61976E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016C6")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Token(Token = "0x6001508")]
+		[Address(RVA = "0x61976F0", Offset = "0x61966F0", VA = "0x61976F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60016B7")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x60014F9")]
+	[Address(RVA = "0x61975D0", Offset = "0x61965D0", VA = "0x61975D0")]
 	public WebConnectionTunnel(HttpWebRequest request, Uri connectUri)
 	{
 	}
 
-	[Token(Token = "0x60016C7")]
-	[Address(RVA = "0x2809C20", Offset = "0x2808220", VA = "0x182809C20")]
+	[Token(Token = "0x6001509")]
+	[Address(RVA = "0x6197700", Offset = "0x6196700", VA = "0x6197700")]
 	[AsyncStateMachine(typeof(_003CInitialize_003Ed__42))]
 	internal Task Initialize(Stream stream, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016C8")]
-	[Address(RVA = "0x2809D40", Offset = "0x2808340", VA = "0x182809D40")]
+	[Token(Token = "0x600150A")]
+	[Address(RVA = "0x6197810", Offset = "0x6196810", VA = "0x6197810")]
 	[AsyncStateMachine(typeof(_003CReadHeaders_003Ed__43))]
 	private Task<(WebHeaderCollection, byte[], int)> ReadHeaders(Stream stream, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016C9")]
-	[Address(RVA = "0x2809BA0", Offset = "0x28081A0", VA = "0x182809BA0")]
+	[Token(Token = "0x600150B")]
+	[Address(RVA = "0x6197960", Offset = "0x6196960", VA = "0x6197960")]
 	private void FlushContents(Stream stream, int contentLength)
 	{
 	}

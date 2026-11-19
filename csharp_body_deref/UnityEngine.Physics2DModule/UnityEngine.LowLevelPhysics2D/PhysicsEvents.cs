@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsEvents
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ public readonly struct PhysicsEvents
 		public PhysicsTransform transform
 		{
 			[Token(Token = "0x6000136")]
-			[Address(RVA = "0xADC2D0", Offset = "0xADA8D0", VA = "0x180ADC2D0")]
+			[Address(RVA = "0x69CFCB0", Offset = "0x69CECB0", VA = "0x69CFCB0")]
 			get
 			{
 				return default(PhysicsTransform);
@@ -51,7 +51,7 @@ public readonly struct PhysicsEvents
 		public PhysicsBody body
 		{
 			[Token(Token = "0x6000137")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x69CFCC0", Offset = "0x69CECC0", VA = "0x69CFCC0")]
 			get
 			{
 				return default(PhysicsBody);
@@ -62,7 +62,7 @@ public readonly struct PhysicsEvents
 		public bool fellAsleep
 		{
 			[Token(Token = "0x6000138")]
-			[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+			[Address(RVA = "0x69CFCD0", Offset = "0x69CECD0", VA = "0x69CFCD0")]
 			get
 			{
 				return default(bool);
@@ -70,7 +70,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x2FCCDE0", Offset = "0x2FCB3E0", VA = "0x182FCCDE0", Slot = "3")]
+		[Address(RVA = "0x69CFCE0", Offset = "0x69CECE0", VA = "0x69CFCE0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -92,7 +92,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape triggerShape
 		{
 			[Token(Token = "0x600013A")]
-			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[Address(RVA = "0x69CFDB0", Offset = "0x69CEDB0", VA = "0x69CFDB0")]
 			get
 			{
 				return default(PhysicsShape);
@@ -103,7 +103,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape visitorShape
 		{
 			[Token(Token = "0x600013B")]
-			[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+			[Address(RVA = "0x69CFDC0", Offset = "0x69CEDC0", VA = "0x69CFDC0")]
 			get
 			{
 				return default(PhysicsShape);
@@ -111,7 +111,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x2FDB1E0", Offset = "0x2FD97E0", VA = "0x182FDB1E0", Slot = "3")]
+		[Address(RVA = "0x69CFDD0", Offset = "0x69CEDD0", VA = "0x69CFDD0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -133,7 +133,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape triggerShape
 		{
 			[Token(Token = "0x600013D")]
-			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[Address(RVA = "0x69CFE60", Offset = "0x69CEE60", VA = "0x69CFE60")]
 			get
 			{
 				return default(PhysicsShape);
@@ -144,7 +144,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape visitorShape
 		{
 			[Token(Token = "0x600013E")]
-			[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+			[Address(RVA = "0x69CFE70", Offset = "0x69CEE70", VA = "0x69CFE70")]
 			get
 			{
 				return default(PhysicsShape);
@@ -152,7 +152,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x2FDB490", Offset = "0x2FD9A90", VA = "0x182FDB490", Slot = "3")]
+		[Address(RVA = "0x69CFE80", Offset = "0x69CEE80", VA = "0x69CFE80", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -178,7 +178,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeA
 		{
 			[Token(Token = "0x6000140")]
-			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[Address(RVA = "0x69CFF10", Offset = "0x69CEF10", VA = "0x69CFF10")]
 			get
 			{
 				return default(PhysicsShape);
@@ -189,7 +189,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeB
 		{
 			[Token(Token = "0x6000141")]
-			[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+			[Address(RVA = "0x69CFF20", Offset = "0x69CEF20", VA = "0x69CFF20")]
 			get
 			{
 				return default(PhysicsShape);
@@ -200,7 +200,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape.ContactId contactId
 		{
 			[Token(Token = "0x6000142")]
-			[Address(RVA = "0x561130", Offset = "0x55F730", VA = "0x180561130")]
+			[Address(RVA = "0x69CFF30", Offset = "0x69CEF30", VA = "0x69CFF30")]
 			get
 			{
 				return default(PhysicsShape.ContactId);
@@ -208,7 +208,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x2FCD640", Offset = "0x2FCBC40", VA = "0x182FCD640", Slot = "3")]
+		[Address(RVA = "0x69CFF40", Offset = "0x69CEF40", VA = "0x69CFF40", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -234,7 +234,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeA
 		{
 			[Token(Token = "0x6000144")]
-			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[Address(RVA = "0x69D0000", Offset = "0x69CF000", VA = "0x69D0000")]
 			get
 			{
 				return default(PhysicsShape);
@@ -245,7 +245,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeB
 		{
 			[Token(Token = "0x6000145")]
-			[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+			[Address(RVA = "0x69D0010", Offset = "0x69CF010", VA = "0x69D0010")]
 			get
 			{
 				return default(PhysicsShape);
@@ -256,7 +256,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape.ContactId contactId
 		{
 			[Token(Token = "0x6000146")]
-			[Address(RVA = "0x561130", Offset = "0x55F730", VA = "0x180561130")]
+			[Address(RVA = "0x69D0020", Offset = "0x69CF020", VA = "0x69D0020")]
 			get
 			{
 				return default(PhysicsShape.ContactId);
@@ -264,7 +264,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x6000147")]
-		[Address(RVA = "0x2FCD990", Offset = "0x2FCBF90", VA = "0x182FCD990", Slot = "3")]
+		[Address(RVA = "0x69D0030", Offset = "0x69CF030", VA = "0x69D0030", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -290,7 +290,7 @@ public readonly struct PhysicsEvents
 		public PhysicsWorld physicsWorld
 		{
 			[Token(Token = "0x6000148")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+			[Address(RVA = "0x69D00F0", Offset = "0x69CF0F0", VA = "0x69D00F0")]
 			get
 			{
 				return default(PhysicsWorld);
@@ -301,7 +301,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeA
 		{
 			[Token(Token = "0x6000149")]
-			[Address(RVA = "0xADC3D0", Offset = "0xADA9D0", VA = "0x180ADC3D0")]
+			[Address(RVA = "0x69D0100", Offset = "0x69CF100", VA = "0x69D0100")]
 			get
 			{
 				return default(PhysicsShape);
@@ -312,7 +312,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeB
 		{
 			[Token(Token = "0x600014A")]
-			[Address(RVA = "0x2FCDF30", Offset = "0x2FCC530", VA = "0x182FCDF30")]
+			[Address(RVA = "0x69D0110", Offset = "0x69CF110", VA = "0x69D0110")]
 			get
 			{
 				return default(PhysicsShape);
@@ -320,7 +320,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x2FCDE70", Offset = "0x2FCC470", VA = "0x182FCDE70", Slot = "3")]
+		[Address(RVA = "0x69D0120", Offset = "0x69CF120", VA = "0x69D0120", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -354,7 +354,7 @@ public readonly struct PhysicsEvents
 		public PhysicsWorld physicsWorld
 		{
 			[Token(Token = "0x600014C")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+			[Address(RVA = "0x69D01E0", Offset = "0x69CF1E0", VA = "0x69D01E0")]
 			get
 			{
 				return default(PhysicsWorld);
@@ -365,7 +365,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeA
 		{
 			[Token(Token = "0x600014D")]
-			[Address(RVA = "0xADC3D0", Offset = "0xADA9D0", VA = "0x180ADC3D0")]
+			[Address(RVA = "0x69D01F0", Offset = "0x69CF1F0", VA = "0x69D01F0")]
 			get
 			{
 				return default(PhysicsShape);
@@ -376,7 +376,7 @@ public readonly struct PhysicsEvents
 		public PhysicsShape shapeB
 		{
 			[Token(Token = "0x600014E")]
-			[Address(RVA = "0x2FCDF30", Offset = "0x2FCC530", VA = "0x182FCDF30")]
+			[Address(RVA = "0x69D0200", Offset = "0x69CF200", VA = "0x69D0200")]
 			get
 			{
 				return default(PhysicsShape);
@@ -387,7 +387,7 @@ public readonly struct PhysicsEvents
 		public Vector2 point
 		{
 			[Token(Token = "0x600014F")]
-			[Address(RVA = "0x155C620", Offset = "0x155AC20", VA = "0x18155C620")]
+			[Address(RVA = "0x69D0210", Offset = "0x69CF210", VA = "0x69D0210")]
 			get
 			{
 				return default(Vector2);
@@ -398,7 +398,7 @@ public readonly struct PhysicsEvents
 		public Vector2 normal
 		{
 			[Token(Token = "0x6000150")]
-			[Address(RVA = "0x2FDA3C0", Offset = "0x2FD89C0", VA = "0x182FDA3C0")]
+			[Address(RVA = "0x69D0220", Offset = "0x69CF220", VA = "0x69D0220")]
 			get
 			{
 				return default(Vector2);
@@ -406,7 +406,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x2FDA130", Offset = "0x2FD8730", VA = "0x182FDA130", Slot = "3")]
+		[Address(RVA = "0x69D0230", Offset = "0x69CF230", VA = "0x69D0230", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -428,7 +428,7 @@ public readonly struct PhysicsEvents
 		public PhysicsJoint joint
 		{
 			[Token(Token = "0x6000152")]
-			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[Address(RVA = "0x69D0490", Offset = "0x69CF490", VA = "0x69D0490")]
 			get
 			{
 				return default(PhysicsJoint);
@@ -436,7 +436,7 @@ public readonly struct PhysicsEvents
 		}
 
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x2FCF100", Offset = "0x2FCD700", VA = "0x182FCF100", Slot = "3")]
+		[Address(RVA = "0x69D04A0", Offset = "0x69CF4A0", VA = "0x69D04A0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -448,32 +448,32 @@ public readonly struct PhysicsEvents
 
 	[Token(Token = "0x400010C")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static PreSimulateEventHandler s_PreSimulate;
 
 	[Token(Token = "0x400010D")]
 	[FieldOffset(Offset = "0x8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static PreSimulateEventHandler s_PostSimulate;
 
 	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x2FD1900", Offset = "0x2FCFF00", VA = "0x182FD1900")]
+	[Address(RVA = "0x69CE370", Offset = "0x69CD370", VA = "0x69CE370")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokePreSimulate(PhysicsWorld world, float deltaTime)
 	{
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x2FD1850", Offset = "0x2FCFE50", VA = "0x182FD1850")]
+	[Address(RVA = "0x69CE4C0", Offset = "0x69CD4C0", VA = "0x69CE4C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokePostSimulate(PhysicsWorld world, float deltaTime)
 	{
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x2FD19F0", Offset = "0x2FCFFF0", VA = "0x182FD19F0")]
+	[Address(RVA = "0x69CE610", Offset = "0x69CD610", VA = "0x69CE610")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool SendContactFilterCallback(object callbackTarget, ContactFilterEvent contactFilterEvent)
 	{
@@ -481,7 +481,7 @@ public readonly struct PhysicsEvents
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x2FD1AF0", Offset = "0x2FD00F0", VA = "0x182FD1AF0")]
+	[Address(RVA = "0x69CE6C0", Offset = "0x69CD6C0", VA = "0x69CE6C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool SendPreSolveCallback(object callbackTarget, PreSolveEvent preSolveEvent)
 	{
@@ -489,28 +489,28 @@ public readonly struct PhysicsEvents
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x2FD19B0", Offset = "0x2FCFFB0", VA = "0x182FD19B0")]
+	[Address(RVA = "0x69CE770", Offset = "0x69CD770", VA = "0x69CE770")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendBodyUpdateCallbacks(PhysicsWorld world)
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x2FD19D0", Offset = "0x2FCFFD0", VA = "0x182FD19D0")]
+	[Address(RVA = "0x69CEAC0", Offset = "0x69CDAC0", VA = "0x69CEAC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendContactCallbacks(PhysicsWorld world)
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x2FD1BD0", Offset = "0x2FD01D0", VA = "0x182FD1BD0")]
+	[Address(RVA = "0x69CF310", Offset = "0x69CE310", VA = "0x69CF310")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendTriggerCallbacks(PhysicsWorld world)
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x2FD1AD0", Offset = "0x2FD00D0", VA = "0x182FD1AD0")]
+	[Address(RVA = "0x69CFA00", Offset = "0x69CEA00", VA = "0x69CFA00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendJointThresholdCallbacks(PhysicsWorld world)
 	{

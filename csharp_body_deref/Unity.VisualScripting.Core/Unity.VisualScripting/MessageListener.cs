@@ -26,7 +26,7 @@ public abstract class MessageListener : MonoBehaviour
 	public static Type[] listenerTypes
 	{
 		[Token(Token = "0x6000426")]
-		[Address(RVA = "0x2DB8910", Offset = "0x2DB6F10", VA = "0x182DB8910")]
+		[Address(RVA = "0x67A4000", Offset = "0x67A3000", VA = "0x67A4000")]
 		get
 		{
 			return null;
@@ -34,20 +34,20 @@ public abstract class MessageListener : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x2DB8610", Offset = "0x2DB6C10", VA = "0x182DB8610")]
+	[Address(RVA = "0x67A4200", Offset = "0x67A3200", VA = "0x67A4200")]
 	[Obsolete("Use the overload with a messageListenerType parameter instead", false)]
 	public static void AddTo(GameObject gameObject)
 	{
 	}
 
 	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x2DB88B0", Offset = "0x2DB6EB0", VA = "0x182DB88B0")]
+	[Address(RVA = "0x67A42E0", Offset = "0x67A32E0", VA = "0x67A42E0")]
 	public static void AddTo(Type messageListenerType, GameObject gameObject)
 	{
 	}
 
 	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4330", Offset = "0x67A3330", VA = "0x67A4330")]
 	protected MessageListener()
 	{
 	}

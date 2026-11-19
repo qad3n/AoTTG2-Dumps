@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace Weather;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x2000036")]
 public enum WeatherAction
 {
-	[Token(Token = "0x4000115")]
-	BeginSchedule,
-	[Token(Token = "0x4000116")]
-	EndSchedule,
-	[Token(Token = "0x4000117")]
-	RepeatNext,
-	[Token(Token = "0x4000118")]
-	BeginRepeat,
-	[Token(Token = "0x4000119")]
-	EndRepeat,
-	[Token(Token = "0x400011A")]
-	SetDefaultAll,
-	[Token(Token = "0x400011B")]
-	SetDefault,
 	[Token(Token = "0x400011C")]
-	SetValue,
+	BeginSchedule,
 	[Token(Token = "0x400011D")]
-	SetTargetDefaultAll,
+	EndSchedule,
 	[Token(Token = "0x400011E")]
-	SetTargetDefault,
+	RepeatNext,
 	[Token(Token = "0x400011F")]
-	SetTargetValue,
+	BeginRepeat,
 	[Token(Token = "0x4000120")]
-	SetTargetTimeAll,
+	EndRepeat,
 	[Token(Token = "0x4000121")]
-	SetTargetTime,
+	SetDefaultAll,
 	[Token(Token = "0x4000122")]
-	Wait,
+	SetDefault,
 	[Token(Token = "0x4000123")]
-	Goto,
+	SetValue,
 	[Token(Token = "0x4000124")]
-	Label,
+	SetTargetDefaultAll,
 	[Token(Token = "0x4000125")]
-	Return,
+	SetTargetDefault,
 	[Token(Token = "0x4000126")]
+	SetTargetValue,
+	[Token(Token = "0x4000127")]
+	SetTargetTimeAll,
+	[Token(Token = "0x4000128")]
+	SetTargetTime,
+	[Token(Token = "0x4000129")]
+	Wait,
+	[Token(Token = "0x400012A")]
+	Goto,
+	[Token(Token = "0x400012B")]
+	Label,
+	[Token(Token = "0x400012C")]
+	Return,
+	[Token(Token = "0x400012D")]
 	LoadSkybox
 }

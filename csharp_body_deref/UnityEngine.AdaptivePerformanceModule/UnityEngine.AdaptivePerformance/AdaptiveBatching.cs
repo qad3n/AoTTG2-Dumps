@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptiveBatching
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,31 +17,31 @@ public class AdaptiveBatching : AdaptivePerformanceScaler
 	private bool m_DefaultState;
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x2E80DA0", Offset = "0x2E7F3A0", VA = "0x182E80DA0", Slot = "20")]
+	[Address(RVA = "0x688F630", Offset = "0x688E630", VA = "0x688F630", Slot = "20")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x2E80E40", Offset = "0x2E7F440", VA = "0x182E80E40", Slot = "25")]
+	[Address(RVA = "0x688F6D0", Offset = "0x688E6D0", VA = "0x688F6D0", Slot = "25")]
 	protected override void OnDisabled()
 	{
 	}
 
 	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x2E80EE0", Offset = "0x2E7F4E0", VA = "0x182E80EE0", Slot = "24")]
+	[Address(RVA = "0x688F770", Offset = "0x688E770", VA = "0x688F770", Slot = "24")]
 	protected override void OnEnabled()
 	{
 	}
 
 	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x2E80F70", Offset = "0x2E7F570", VA = "0x182E80F70", Slot = "23")]
+	[Address(RVA = "0x688F820", Offset = "0x688E820", VA = "0x688F820", Slot = "23")]
 	protected override void OnLevel()
 	{
 	}
 
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x2E81040", Offset = "0x2E7F640", VA = "0x182E81040")]
+	[Address(RVA = "0x688F9D0", Offset = "0x688E9D0", VA = "0x688F9D0")]
 	public AdaptiveBatching()
 	{
 	}

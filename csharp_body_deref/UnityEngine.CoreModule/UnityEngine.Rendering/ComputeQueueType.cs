@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200033E")]
 public enum ComputeQueueType
 {
-	[Token(Token = "0x400092F")]
+	[Token(Token = "0x400092D")]
 	Default,
-	[Token(Token = "0x4000930")]
+	[Token(Token = "0x400092E")]
 	Background,
-	[Token(Token = "0x4000931")]
+	[Token(Token = "0x400092F")]
 	Urgent
 }

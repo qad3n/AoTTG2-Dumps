@@ -28,7 +28,7 @@ internal class Datatype_short : Datatype_int
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001185")]
-		[Address(RVA = "0x27A0D60", Offset = "0x279F360", VA = "0x1827A0D60", Slot = "18")]
+		[Address(RVA = "0x61614D0", Offset = "0x61604D0", VA = "0x61614D0", Slot = "18")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class Datatype_short : Datatype_int
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001186")]
-		[Address(RVA = "0x27A0E00", Offset = "0x279F400", VA = "0x1827A0E00", Slot = "8")]
+		[Address(RVA = "0x6161540", Offset = "0x6160540", VA = "0x6161540", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -50,7 +50,7 @@ internal class Datatype_short : Datatype_int
 	public override Type ValueType
 	{
 		[Token(Token = "0x6001188")]
-		[Address(RVA = "0x27A0E10", Offset = "0x279F410", VA = "0x1827A0E10", Slot = "4")]
+		[Address(RVA = "0x61615B0", Offset = "0x61605B0", VA = "0x61615B0", Slot = "4")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ internal class Datatype_short : Datatype_int
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x6001189")]
-		[Address(RVA = "0x27A0DB0", Offset = "0x279F3B0", VA = "0x1827A0DB0", Slot = "26")]
+		[Address(RVA = "0x6161620", Offset = "0x6160620", VA = "0x6161620", Slot = "26")]
 		get
 		{
 			return null;
@@ -69,21 +69,21 @@ internal class Datatype_short : Datatype_int
 	}
 
 	[Token(Token = "0x6001187")]
-	[Address(RVA = "0x27A09D0", Offset = "0x279EFD0", VA = "0x1827A09D0", Slot = "14")]
+	[Address(RVA = "0x6161550", Offset = "0x6160550", VA = "0x6161550", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600118A")]
-	[Address(RVA = "0x27A0A30", Offset = "0x279F030", VA = "0x1827A0A30", Slot = "16")]
+	[Address(RVA = "0x6161690", Offset = "0x6160690", VA = "0x6161690", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600118B")]
-	[Address(RVA = "0x27A0D10", Offset = "0x279F310", VA = "0x1827A0D10")]
+	[Address(RVA = "0x6156190", Offset = "0x6155190", VA = "0x6156190")]
 	public Datatype_short()
 	{
 	}

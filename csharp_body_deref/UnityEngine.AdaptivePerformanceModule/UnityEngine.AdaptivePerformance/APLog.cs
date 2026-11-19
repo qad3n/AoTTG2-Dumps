@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.APLog
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,19 +26,19 @@ internal static class APLog
 	private static readonly string s_AdaptivePerformancePrefix;
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x2E80AE0", Offset = "0x2E7F0E0", VA = "0x182E80AE0")]
+	[Address(RVA = "0x687CE90", Offset = "0x687BE90", VA = "0x687CE90")]
 	public static void Debug(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2E80BA0", Offset = "0x2E7F1A0", VA = "0x182E80BA0")]
+	[Address(RVA = "0x687F060", Offset = "0x687E060", VA = "0x687F060")]
 	public static void LogMessage(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x2E80C40", Offset = "0x2E7F240", VA = "0x182E80C40")]
+	[Address(RVA = "0x6880990", Offset = "0x687F990", VA = "0x6880990")]
 	public static bool ShouldLog()
 	{
 		return default(bool);

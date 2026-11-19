@@ -48,37 +48,37 @@ internal class MeshGizmo : IDisposable
 	private Material solidMaterial;
 
 	[Token(Token = "0x6000E8A")]
-	[Address(RVA = "0x2B5F230", Offset = "0x2B5D830", VA = "0x182B5F230")]
+	[Address(RVA = "0x654EA50", Offset = "0x654DA50", VA = "0x654EA50")]
 	public MeshGizmo(int capacity = 0)
 	{
 	}
 
 	[Token(Token = "0x6000E8B")]
-	[Address(RVA = "0x2B5EA80", Offset = "0x2B5D080", VA = "0x182B5EA80")]
+	[Address(RVA = "0x654EBD0", Offset = "0x654DBD0", VA = "0x654EBD0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000E8C")]
-	[Address(RVA = "0x2B5E3A0", Offset = "0x2B5C9A0", VA = "0x182B5E3A0")]
+	[Address(RVA = "0x654EC50", Offset = "0x654DC50", VA = "0x654EC50")]
 	public void AddWireCube(Vector3 center, Vector3 size, Color color)
 	{
 	}
 
 	[Token(Token = "0x6000E8D")]
-	[Address(RVA = "0x2B5EB50", Offset = "0x2B5D150", VA = "0x182B5EB50")]
+	[Address(RVA = "0x654F190", Offset = "0x654E190", VA = "0x654F190")]
 	private void DrawMesh(Matrix4x4 trs, Material mat, MeshTopology topology, CompareFunction depthTest, string gizmoName)
 	{
 	}
 
 	[Token(Token = "0x6000E8E")]
-	[Address(RVA = "0x2B5ED10", Offset = "0x2B5D310", VA = "0x182B5ED10")]
+	[Address(RVA = "0x654F330", Offset = "0x654E330", VA = "0x654F330")]
 	public void RenderWireframe(Matrix4x4 trs, [Optional][DefaultParameterValue(4)] CompareFunction depthTest, [Optional] string gizmoName)
 	{
 	}
 
 	[Token(Token = "0x6000E8F")]
-	[Address(RVA = "0x2B5EB00", Offset = "0x2B5D100", VA = "0x182B5EB00", Slot = "4")]
+	[Address(RVA = "0x654F350", Offset = "0x654E350", VA = "0x654F350", Slot = "4")]
 	public void Dispose()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Map.MapObjectPhysicsMaterial
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapObjectPhysicsMaterial.cs
@@ -8,22 +8,24 @@
 
 // Map.MapObjectPhysicsMaterial$$.cctor
 // il2cpp: void Map_MapObjectPhysicsMaterial___cctor (const MethodInfo* method);
-// 0x181eb4d00
+// 0x599eec0
 
 void Map_MapObjectPhysicsMaterial___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843450e0 == '\0') {
+  Map_MapObjectPhysicsMaterial_StaticFields *pMVar1;
+  
+  if (Il2CppMethodInitialized_07545a78 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectPhysicsMaterial);
     il2cpp_codegen_initialize_runtime_metadata(&"IceMaterial");
     il2cpp_codegen_initialize_runtime_metadata(&"Default");
-    Il2CppMethodInitialized_1843450e0 = '\x01';
+    Il2CppMethodInitialized_07545a78 = '\x01';
   }
   TypeInfo_Map_MapObjectPhysicsMaterial->static_fields->Default = "Default";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Map_MapObjectPhysicsMaterial->static_fields->Default,"Default");
-  TypeInfo_Map_MapObjectPhysicsMaterial->static_fields->Ice = "IceMaterial";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectPhysicsMaterial->static_fields->Ice,"IceMaterial");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectPhysicsMaterial->static_fields->Default);
+  pMVar1 = TypeInfo_Map_MapObjectPhysicsMaterial->static_fields;
+  pMVar1->Ice = "IceMaterial";
+  Il2CppCodeGenWriteBarrier(&pMVar1->Ice);
   return;
 }
 

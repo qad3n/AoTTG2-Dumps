@@ -11,9 +11,9 @@ using Il2CppDummyDll;
 
 namespace System.Linq;
 
-[Token(Token = "0x2000034")]
+[Token(Token = "0x2000035")]
 public interface IOrderedEnumerable<TElement> : IEnumerable<TElement>, IEnumerable
 {
-	[Token(Token = "0x6000162")]
+	[Token(Token = "0x600016D")]
 	IOrderedEnumerable<TElement> CreateOrderedEnumerable<TKey>(Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending);
 }

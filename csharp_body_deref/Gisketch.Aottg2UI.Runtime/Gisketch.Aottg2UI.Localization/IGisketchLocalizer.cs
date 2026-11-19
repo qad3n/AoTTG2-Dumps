@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Localization;
 
-[Token(Token = "0x2000056")]
+[Token(Token = "0x200005C")]
 public interface IGisketchLocalizer
 {
-	[Token(Token = "0x6000306")]
+	[Token(Token = "0x6000351")]
 	string GetText(string key, string fallback);
 }

@@ -19,14 +19,14 @@ public sealed class InspectorAdaptiveWidthAttribute : Attribute
 	public float width
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x6792F10", Offset = "0x6791F10", VA = "0x6792F10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x6792F20", Offset = "0x6791F20", VA = "0x6792F20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -34,7 +34,7 @@ public sealed class InspectorAdaptiveWidthAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x2DB1820", Offset = "0x2DAFE20", VA = "0x182DB1820")]
+	[Address(RVA = "0x6792EE0", Offset = "0x6791EE0", VA = "0x6792EE0")]
 	public InspectorAdaptiveWidthAttribute(float width)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UxmlAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -66,7 +66,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public string fullTypeName
 	{
 		[Token(Token = "0x60026CC")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6B5AD90", Offset = "0x6B59D90", VA = "0x6B5AD90")]
 		get
 		{
 			return null;
@@ -77,13 +77,13 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public int id
 	{
 		[Token(Token = "0x60026CD")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6B5ADA0", Offset = "0x6B59DA0", VA = "0x6B5ADA0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60026CE")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6B5ADB0", Offset = "0x6B59DB0", VA = "0x6B5ADB0")]
 		set
 		{
 		}
@@ -93,7 +93,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public bool isRoot
 	{
 		[Token(Token = "0x60026CF")]
-		[Address(RVA = "0x3155400", Offset = "0x3153A00", VA = "0x183155400")]
+		[Address(RVA = "0x6B5ADC0", Offset = "0x6B59DC0", VA = "0x6B5ADC0")]
 		get
 		{
 			return default(bool);
@@ -104,7 +104,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public UxmlAsset parentAsset
 	{
 		[Token(Token = "0x60026D0")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6B5AE70", Offset = "0x6B59E70", VA = "0x6B5AE70")]
 		get
 		{
 			return null;
@@ -115,7 +115,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	internal VisualTreeAsset visualTreeAsset
 	{
 		[Token(Token = "0x60026D1")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6B5AE80", Offset = "0x6B59E80", VA = "0x6B5AE80")]
 		get
 		{
 			return null;
@@ -126,7 +126,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public int childCount
 	{
 		[Token(Token = "0x60026D2")]
-		[Address(RVA = "0x31553C0", Offset = "0x31539C0", VA = "0x1831553C0")]
+		[Address(RVA = "0x6B5AE90", Offset = "0x6B59E90", VA = "0x6B5AE90")]
 		get
 		{
 			return default(int);
@@ -137,7 +137,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public UxmlAsset this[int index]
 	{
 		[Token(Token = "0x60026D3")]
-		[Address(RVA = "0x3155360", Offset = "0x3153960", VA = "0x183155360")]
+		[Address(RVA = "0x6B5AED0", Offset = "0x6B59ED0", VA = "0x6B5AED0")]
 		get
 		{
 			return null;
@@ -148,7 +148,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	public List<UxmlNamespaceDefinition> namespaceDefinitions
 	{
 		[Token(Token = "0x60026D4")]
-		[Address(RVA = "0x31554C0", Offset = "0x3153AC0", VA = "0x1831554C0")]
+		[Address(RVA = "0x6B5AF20", Offset = "0x6B59F20", VA = "0x6B5AF20")]
 		get
 		{
 			return null;
@@ -156,120 +156,120 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	}
 
 	[Token(Token = "0x60026CB")]
-	[Address(RVA = "0xE55120", Offset = "0xE53720", VA = "0x180E55120")]
+	[Address(RVA = "0x6B5AD40", Offset = "0x6B59D40", VA = "0x6B5AD40")]
 	public UxmlAsset(string fullTypeName, [Optional] UxmlNamespaceDefinition xmlNamespace)
 	{
 	}
 
 	[Token(Token = "0x60026D5")]
-	[Address(RVA = "0x3154250", Offset = "0x3152850", VA = "0x183154250")]
+	[Address(RVA = "0x6B5AFA0", Offset = "0x6B59FA0", VA = "0x6B5AFA0")]
 	public void GetChildrenUxmlObjectAssets(List<UxmlObjectAsset> children)
 	{
 	}
 
 	[Token(Token = "0x60026D6")]
-	[Address(RVA = "0x3154390", Offset = "0x3152990", VA = "0x183154390")]
+	[Address(RVA = "0x6B5B150", Offset = "0x6B5A150", VA = "0x6B5B150")]
 	public UxmlObjectAsset GetField(string fieldName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026D7")]
-	[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+	[Address(RVA = "0x6B5B270", Offset = "0x6B5A270", VA = "0x6B5B270")]
 	internal void SetVisualTreeAssetWithOutNotify(VisualTreeAsset vta)
 	{
 	}
 
 	[Token(Token = "0x60026D8")]
-	[Address(RVA = "0x3155080", Offset = "0x3153680", VA = "0x183155080")]
+	[Address(RVA = "0x6B5B280", Offset = "0x6B5A280", VA = "0x6B5B280")]
 	internal void SetVisualTreeAsset(VisualTreeAsset vta)
 	{
 	}
 
 	[Token(Token = "0x60026D9")]
-	[Address(RVA = "0x31541A0", Offset = "0x31527A0", VA = "0x1831541A0")]
+	[Address(RVA = "0x6B5B430", Offset = "0x6B5A430", VA = "0x6B5B430")]
 	public void Add(UxmlAsset asset)
 	{
 	}
 
 	[Token(Token = "0x60026DA")]
-	[Address(RVA = "0x31545D0", Offset = "0x3152BD0", VA = "0x1831545D0")]
+	[Address(RVA = "0x6B5B4D0", Offset = "0x6B5A4D0", VA = "0x6B5B4D0")]
 	public void Insert(int index, UxmlAsset asset)
 	{
 	}
 
 	[Token(Token = "0x60026DB")]
-	[Address(RVA = "0x3154510", Offset = "0x3152B10", VA = "0x183154510")]
+	[Address(RVA = "0x6B5B990", Offset = "0x6B5A990", VA = "0x6B5B990")]
 	private void InsertInChildren(int index, UxmlAsset asset)
 	{
 	}
 
 	[Token(Token = "0x60026DC")]
-	[Address(RVA = "0x3154C80", Offset = "0x3153280", VA = "0x183154C80")]
+	[Address(RVA = "0x6B5BB00", Offset = "0x6B5AB00", VA = "0x6B5BB00")]
 	private void RemoveFromChildren(UxmlAsset child)
 	{
 	}
 
 	[Token(Token = "0x60026DD")]
-	[Address(RVA = "0x3154D10", Offset = "0x3153310", VA = "0x183154D10")]
+	[Address(RVA = "0x6B5BBE0", Offset = "0x6B5ABE0", VA = "0x6B5BBE0")]
 	private void RemoveFromChildren(int index)
 	{
 	}
 
 	[Token(Token = "0x60026DE")]
-	[Address(RVA = "0x3154FC0", Offset = "0x31535C0", VA = "0x183154FC0")]
+	[Address(RVA = "0x6B5BA40", Offset = "0x6B5AA40", VA = "0x6B5BA40")]
 	private void SetParent(UxmlAsset parent)
 	{
 	}
 
 	[Token(Token = "0x60026DF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6B5BC30", Offset = "0x6B5AC30", VA = "0x6B5BC30", Slot = "5")]
 	private protected virtual void OnVisualTreeAssetChanged(VisualTreeAsset previousVta, VisualTreeAsset newVta)
 	{
 	}
 
 	[Token(Token = "0x60026E0")]
-	[Address(RVA = "0x31544B0", Offset = "0x3152AB0", VA = "0x1831544B0")]
+	[Address(RVA = "0x6B5BB90", Offset = "0x6B5AB90", VA = "0x6B5BB90")]
 	public int IndexOf(UxmlAsset asset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60026E1")]
-	[Address(RVA = "0x3154A10", Offset = "0x3153010", VA = "0x183154A10")]
+	[Address(RVA = "0x6B5B7D0", Offset = "0x6B5A7D0", VA = "0x6B5B7D0")]
 	public bool IsAncestorOf(UxmlAsset other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026E2")]
-	[Address(RVA = "0x1A1E5D0", Offset = "0x1A1CBD0", VA = "0x181A1E5D0", Slot = "6")]
+	[Address(RVA = "0x6B5BC40", Offset = "0x6B5AC40", VA = "0x6B5BC40", Slot = "6")]
 	public virtual bool HasParent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026E3")]
-	[Address(RVA = "0x3155270", Offset = "0x3153870", VA = "0x183155270", Slot = "4")]
+	[Address(RVA = "0x6B5BC50", Offset = "0x6B5AC50", VA = "0x6B5BC50", Slot = "4")]
 	public bool TryGetAttributeValue(string propertyName, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026E4")]
-	[Address(RVA = "0x3154D70", Offset = "0x3153370", VA = "0x183154D70")]
+	[Address(RVA = "0x6B58800", Offset = "0x6B57800", VA = "0x6B58800")]
 	public void SetAttribute(string name, string value)
 	{
 	}
 
 	[Token(Token = "0x60026E5")]
-	[Address(RVA = "0x3154BB0", Offset = "0x31531B0", VA = "0x183154BB0")]
+	[Address(RVA = "0x6B58730", Offset = "0x6B57730", VA = "0x6B58730")]
 	public void RemoveAttribute(string attributeName)
 	{
 	}
 
 	[Token(Token = "0x60026E6")]
-	[Address(RVA = "0x3154D80", Offset = "0x3153380", VA = "0x183154D80")]
+	[Address(RVA = "0x6B5BD10", Offset = "0x6B5AD10", VA = "0x6B5BD10")]
 	private void SetOrAddProperty(string propertyName, string propertyValue)
 	{
 	}
@@ -278,7 +278,7 @@ internal abstract class UxmlAsset : IUxmlAttributes
 	internal abstract bool Accepts(UxmlAsset asset, out string errorMessage);
 
 	[Token(Token = "0x60026E8")]
-	[Address(RVA = "0x3155200", Offset = "0x3153800", VA = "0x183155200", Slot = "3")]
+	[Address(RVA = "0x6B5BF40", Offset = "0x6B5AF40", VA = "0x6B5BF40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

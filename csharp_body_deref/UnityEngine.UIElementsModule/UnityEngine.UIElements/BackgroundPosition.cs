@@ -26,7 +26,7 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			public override string Name
 			{
 				[Token(Token = "0x600004B")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6A7C770", Offset = "0x6A7B770", VA = "0x6A7C770", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -38,7 +38,7 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x600004C")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6A7C780", Offset = "0x6A7B780", VA = "0x6A7C780", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -47,20 +47,20 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			}
 
 			[Token(Token = "0x600004D")]
-			[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "14")]
+			[Address(RVA = "0x6A7C790", Offset = "0x6A7B790", VA = "0x6A7C790", Slot = "14")]
 			public override BackgroundPositionKeyword GetValue(ref BackgroundPosition container)
 			{
 				return default(BackgroundPositionKeyword);
 			}
 
 			[Token(Token = "0x600004E")]
-			[Address(RVA = "0x2FF6340", Offset = "0x2FF4940", VA = "0x182FF6340", Slot = "15")]
+			[Address(RVA = "0x6A7C7A0", Offset = "0x6A7B7A0", VA = "0x6A7C7A0", Slot = "15")]
 			public override void SetValue(ref BackgroundPosition container, BackgroundPositionKeyword value)
 			{
 			}
 
 			[Token(Token = "0x600004F")]
-			[Address(RVA = "0x3095D40", Offset = "0x3094340", VA = "0x183095D40")]
+			[Address(RVA = "0x6A7C6B0", Offset = "0x6A7B6B0", VA = "0x6A7C6B0")]
 			public KeywordProperty()
 			{
 			}
@@ -73,7 +73,7 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			public override string Name
 			{
 				[Token(Token = "0x6000050")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6A7C7B0", Offset = "0x6A7B7B0", VA = "0x6A7C7B0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -85,7 +85,7 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6000051")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6A7C7C0", Offset = "0x6A7B7C0", VA = "0x6A7C7C0", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -94,27 +94,27 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 			}
 
 			[Token(Token = "0x6000052")]
-			[Address(RVA = "0x3095F30", Offset = "0x3094530", VA = "0x183095F30", Slot = "14")]
+			[Address(RVA = "0x6A7C7D0", Offset = "0x6A7B7D0", VA = "0x6A7C7D0", Slot = "14")]
 			public override Length GetValue(ref BackgroundPosition container)
 			{
 				return default(Length);
 			}
 
 			[Token(Token = "0x6000053")]
-			[Address(RVA = "0x3095F40", Offset = "0x3094540", VA = "0x183095F40", Slot = "15")]
+			[Address(RVA = "0x6A7C7E0", Offset = "0x6A7B7E0", VA = "0x6A7C7E0", Slot = "15")]
 			public override void SetValue(ref BackgroundPosition container, Length value)
 			{
 			}
 
 			[Token(Token = "0x6000054")]
-			[Address(RVA = "0x3095F50", Offset = "0x3094550", VA = "0x183095F50")]
+			[Address(RVA = "0x6A7C710", Offset = "0x6A7B710", VA = "0x6A7C710")]
 			public OffsetProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x3096140", Offset = "0x3094740", VA = "0x183096140")]
+		[Address(RVA = "0x6A7C510", Offset = "0x6A7B510", VA = "0x6A7C510")]
 		public PropertyBag()
 		{
 		}
@@ -129,61 +129,61 @@ public struct BackgroundPosition : IEquatable<BackgroundPosition>
 	public Length offset;
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x307DC00", Offset = "0x307C200", VA = "0x18307DC00")]
+	[Address(RVA = "0x6A7C200", Offset = "0x6A7B200", VA = "0x6A7C200")]
 	public BackgroundPosition(BackgroundPositionKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x1028B40", Offset = "0x1027140", VA = "0x181028B40")]
+	[Address(RVA = "0x6A7C240", Offset = "0x6A7B240", VA = "0x6A7C240")]
 	public BackgroundPosition(BackgroundPositionKeyword keyword, Length offset)
 	{
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x307DB10", Offset = "0x307C110", VA = "0x18307DB10")]
+	[Address(RVA = "0x6A7C250", Offset = "0x6A7B250", VA = "0x6A7C250")]
 	internal static BackgroundPosition Initial()
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x307DA30", Offset = "0x307C030", VA = "0x18307DA30", Slot = "0")]
+	[Address(RVA = "0x6A7C2D0", Offset = "0x6A7B2D0", VA = "0x6A7C2D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x307D9E0", Offset = "0x307BFE0", VA = "0x18307D9E0", Slot = "4")]
+	[Address(RVA = "0x6A7C360", Offset = "0x6A7B360", VA = "0x6A7C360", Slot = "4")]
 	public bool Equals(BackgroundPosition other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x307DAD0", Offset = "0x307C0D0", VA = "0x18307DAD0", Slot = "2")]
+	[Address(RVA = "0x6A7C3A0", Offset = "0x6A7B3A0", VA = "0x6A7C3A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x307D9E0", Offset = "0x307BFE0", VA = "0x18307D9E0")]
+	[Address(RVA = "0x6A7C3E0", Offset = "0x6A7B3E0", VA = "0x6A7C3E0")]
 	public static bool operator ==(BackgroundPosition style1, BackgroundPosition style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x307DC40", Offset = "0x307C240", VA = "0x18307DC40")]
+	[Address(RVA = "0x6A7C420", Offset = "0x6A7B420", VA = "0x6A7C420")]
 	public static bool operator !=(BackgroundPosition style1, BackgroundPosition style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x307DB60", Offset = "0x307C160", VA = "0x18307DB60", Slot = "3")]
+	[Address(RVA = "0x6A7C470", Offset = "0x6A7B470", VA = "0x6A7C470", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

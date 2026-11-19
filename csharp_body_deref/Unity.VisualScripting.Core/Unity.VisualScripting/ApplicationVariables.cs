@@ -24,7 +24,7 @@ public static class ApplicationVariables
 	public static VariablesAsset asset
 	{
 		[Token(Token = "0x60010F7")]
-		[Address(RVA = "0x2E4F3C0", Offset = "0x2E4D9C0", VA = "0x182E4F3C0")]
+		[Address(RVA = "0x684E240", Offset = "0x684D240", VA = "0x684E240")]
 		get
 		{
 			return null;
@@ -35,14 +35,14 @@ public static class ApplicationVariables
 	public static VariableDeclarations runtime
 	{
 		[Token(Token = "0x60010F9")]
-		[Address(RVA = "0x2E4F580", Offset = "0x2E4DB80", VA = "0x182E4F580")]
+		[Address(RVA = "0x684E370", Offset = "0x684D370", VA = "0x684E370")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60010FA")]
-		[Address(RVA = "0x2E4F5C0", Offset = "0x2E4DBC0", VA = "0x182E4F5C0")]
+		[Address(RVA = "0x684E3B0", Offset = "0x684D3B0", VA = "0x684E3B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -53,7 +53,7 @@ public static class ApplicationVariables
 	public static VariableDeclarations initial
 	{
 		[Token(Token = "0x60010FB")]
-		[Address(RVA = "0x2E4F560", Offset = "0x2E4DB60", VA = "0x182E4F560")]
+		[Address(RVA = "0x684E400", Offset = "0x684D400", VA = "0x684E400")]
 		get
 		{
 			return null;
@@ -64,7 +64,7 @@ public static class ApplicationVariables
 	public static VariableDeclarations current
 	{
 		[Token(Token = "0x60010FC")]
-		[Address(RVA = "0x2E4F4D0", Offset = "0x2E4DAD0", VA = "0x182E4F4D0")]
+		[Address(RVA = "0x684E490", Offset = "0x684D490", VA = "0x684E490")]
 		get
 		{
 			return null;
@@ -72,43 +72,43 @@ public static class ApplicationVariables
 	}
 
 	[Token(Token = "0x60010F8")]
-	[Address(RVA = "0x2E4F320", Offset = "0x2E4D920", VA = "0x182E4F320")]
+	[Address(RVA = "0x684E2D0", Offset = "0x684D2D0", VA = "0x684E2D0")]
 	public static void Load()
 	{
 	}
 
 	[Token(Token = "0x60010FD")]
-	[Address(RVA = "0x2E4F2C0", Offset = "0x2E4D8C0", VA = "0x182E4F2C0")]
+	[Address(RVA = "0x684E530", Offset = "0x684D530", VA = "0x684E530")]
 	public static void OnEnterEditMode()
 	{
 	}
 
 	[Token(Token = "0x60010FE")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x684E5D0", Offset = "0x684D5D0", VA = "0x684E5D0")]
 	public static void OnExitEditMode()
 	{
 	}
 
 	[Token(Token = "0x60010FF")]
-	[Address(RVA = "0x2E4F1F0", Offset = "0x2E4D7F0", VA = "0x182E4F1F0")]
+	[Address(RVA = "0x684BB30", Offset = "0x684AB30", VA = "0x684BB30")]
 	internal static void OnEnterPlayMode()
 	{
 	}
 
 	[Token(Token = "0x6001100")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x684E700", Offset = "0x684D700", VA = "0x684E700")]
 	internal static void OnExitPlayMode()
 	{
 	}
 
 	[Token(Token = "0x6001101")]
-	[Address(RVA = "0x2E4F1F0", Offset = "0x2E4D7F0", VA = "0x182E4F1F0")]
+	[Address(RVA = "0x684E5E0", Offset = "0x684D5E0", VA = "0x684E5E0")]
 	private static void CreateRuntimeDeclarations()
 	{
 	}
 
 	[Token(Token = "0x6001102")]
-	[Address(RVA = "0x2E4F2C0", Offset = "0x2E4D8C0", VA = "0x182E4F2C0")]
+	[Address(RVA = "0x684E580", Offset = "0x684D580", VA = "0x684E580")]
 	private static void DestroyRuntimeDeclarations()
 	{
 	}

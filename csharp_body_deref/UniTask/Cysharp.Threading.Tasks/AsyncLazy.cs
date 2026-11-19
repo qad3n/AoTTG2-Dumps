@@ -41,7 +41,7 @@ public class AsyncLazy
 	public UniTask Task
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x2907320", Offset = "0x2905920", VA = "0x182907320")]
+		[Address(RVA = "0x62C1430", Offset = "0x62C0430", VA = "0x62C1430")]
 		get
 		{
 			return default(UniTask);
@@ -49,44 +49,44 @@ public class AsyncLazy
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2907260", Offset = "0x2905860", VA = "0x182907260")]
+	[Address(RVA = "0x62C0F50", Offset = "0x62BFF50", VA = "0x62C0F50")]
 	public AsyncLazy(Func<UniTask> taskFactory)
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2907060", Offset = "0x2905660", VA = "0x182907060")]
+	[Address(RVA = "0x62C1010", Offset = "0x62C0010", VA = "0x62C1010")]
 	internal AsyncLazy(UniTask task)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2906CD0", Offset = "0x29052D0", VA = "0x182906CD0")]
+	[Address(RVA = "0x62C14F0", Offset = "0x62C04F0", VA = "0x62C14F0")]
 	public UniTask.Awaiter GetAwaiter()
 	{
 		return default(UniTask.Awaiter);
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2906CA0", Offset = "0x29052A0", VA = "0x182906CA0")]
+	[Address(RVA = "0x62C1490", Offset = "0x62C0490", VA = "0x62C1490")]
 	private void EnsureInitialized()
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2906A30", Offset = "0x2905030", VA = "0x182906A30")]
+	[Address(RVA = "0x62C15D0", Offset = "0x62C05D0", VA = "0x62C15D0")]
 	private void EnsureInitializedCore()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x2906D90", Offset = "0x2905390", VA = "0x182906D90")]
+	[Address(RVA = "0x62C12D0", Offset = "0x62C02D0", VA = "0x62C12D0")]
 	private void SetCompletionSource(in UniTask.Awaiter awaiter)
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x2906E30", Offset = "0x2905430", VA = "0x182906E30")]
+	[Address(RVA = "0x62C1A00", Offset = "0x62C0A00", VA = "0x62C1A00")]
 	private static void SetCompletionSource(object state)
 	{
 	}

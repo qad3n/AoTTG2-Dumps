@@ -16,7 +16,7 @@ internal abstract class UIElementsBridge
 	public abstract void SetWantsMouseJumping(int value);
 
 	[Token(Token = "0x600252C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6B47A90", Offset = "0x6B46A90", VA = "0x6B47A90")]
 	protected UIElementsBridge()
 	{
 	}

@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000681")]
+[Token(Token = "0x20006E0")]
 internal class ShifterTransformSpecial : RechargeableUseable
 {
-	[Token(Token = "0x4001EB7")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4002065")]
+	[FieldOffset(Offset = "0x40")]
 	public float LiveTime;
 
-	[Token(Token = "0x4001EB8")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4002066")]
+	[FieldOffset(Offset = "0x48")]
 	protected string _shifter;
 
-	[Token(Token = "0x17000B2A")]
+	[Token(Token = "0x17000B74")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6004031")]
-		[Address(RVA = "0x21698F0", Offset = "0x2167EF0", VA = "0x1821698F0", Slot = "14")]
+		[Token(Token = "0x60042C9")]
+		[Address(RVA = "0x5B0DAB0", Offset = "0x5B0CAB0", VA = "0x5B0DAB0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6004032")]
-	[Address(RVA = "0x2175A70", Offset = "0x2174070", VA = "0x182175A70")]
+	[Token(Token = "0x60042CA")]
+	[Address(RVA = "0x5B0DAC0", Offset = "0x5B0CAC0", VA = "0x5B0DAC0")]
 	public ShifterTransformSpecial(BaseCharacter owner, string shifter)
 	{
 	}
 
-	[Token(Token = "0x6004033")]
-	[Address(RVA = "0x2175920", Offset = "0x2173F20", VA = "0x182175920", Slot = "9")]
+	[Token(Token = "0x60042CB")]
+	[Address(RVA = "0x5B0DB20", Offset = "0x5B0CB20", VA = "0x5B0DB20", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004034")]
-	[Address(RVA = "0x21759E0", Offset = "0x2173FE0", VA = "0x1821759E0", Slot = "10")]
+	[Token(Token = "0x60042CC")]
+	[Address(RVA = "0x5B0DBD0", Offset = "0x5B0CBD0", VA = "0x5B0DBD0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

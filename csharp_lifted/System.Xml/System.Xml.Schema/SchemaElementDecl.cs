@@ -1,0 +1,367 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SchemaElementDecl
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections;
+using System.Collections.Generic;
+using Il2CppDummyDll;
+
+namespace System.Xml.Schema;
+
+[Token(Token = "0x20001EE")]
+internal sealed class SchemaElementDecl : SchemaDeclBase, IDtdAttributeListInfo
+{
+	[Token(Token = "0x400090F")]
+	[FieldOffset(Offset = "0x60")]
+	private Dictionary<XmlQualifiedName, SchemaAttDef> attdefs;
+
+	[Token(Token = "0x4000910")]
+	[FieldOffset(Offset = "0x68")]
+	private List<IDtdDefaultAttributeInfo> defaultAttdefs;
+
+	[Token(Token = "0x4000911")]
+	[FieldOffset(Offset = "0x70")]
+	private bool isIdDeclared;
+
+	[Token(Token = "0x4000912")]
+	[FieldOffset(Offset = "0x71")]
+	private bool hasNonCDataAttribute;
+
+	[Token(Token = "0x4000913")]
+	[FieldOffset(Offset = "0x72")]
+	private bool isAbstract;
+
+	[Token(Token = "0x4000914")]
+	[FieldOffset(Offset = "0x73")]
+	private bool isNillable;
+
+	[Token(Token = "0x4000915")]
+	[FieldOffset(Offset = "0x74")]
+	private bool hasRequiredAttribute;
+
+	[Token(Token = "0x4000916")]
+	[FieldOffset(Offset = "0x75")]
+	private bool isNotationDeclared;
+
+	[Token(Token = "0x4000917")]
+	[FieldOffset(Offset = "0x78")]
+	private Dictionary<XmlQualifiedName, XmlQualifiedName> prohibitedAttributes;
+
+	[Token(Token = "0x4000918")]
+	[FieldOffset(Offset = "0x80")]
+	private ContentValidator contentValidator;
+
+	[Token(Token = "0x4000919")]
+	[FieldOffset(Offset = "0x88")]
+	private XmlSchemaAnyAttribute anyAttribute;
+
+	[Token(Token = "0x400091A")]
+	[FieldOffset(Offset = "0x90")]
+	private XmlSchemaDerivationMethod block;
+
+	[Token(Token = "0x400091B")]
+	[FieldOffset(Offset = "0x98")]
+	private CompiledIdentityConstraint[] constraints;
+
+	[Token(Token = "0x400091C")]
+	[FieldOffset(Offset = "0xA0")]
+	private XmlSchemaElement schemaElement;
+
+	[Token(Token = "0x400091D")]
+	[FieldOffset(Offset = "0x0")]
+	internal static readonly SchemaElementDecl Empty;
+
+	[Token(Token = "0x1700052E")]
+	private bool System_002EXml_002EIDtdAttributeListInfo_002EHasNonCDataAttributes
+	{
+		[Token(Token = "0x600137C")]
+		[Address(RVA = "0x5FF5A40", Offset = "0x5FF4A40", VA = "0x5FF5A40", Slot = "4")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700052F")]
+	internal bool IsIdDeclared
+	{
+		[Token(Token = "0x600137F")]
+		[Address(RVA = "0x5FF5B00", Offset = "0x5FF4B00", VA = "0x5FF5B00")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6001380")]
+		[Address(RVA = "0x5FF5B10", Offset = "0x5FF4B10", VA = "0x5FF5B10")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000530")]
+	internal bool HasNonCDataAttribute
+	{
+		[Token(Token = "0x6001381")]
+		[Address(RVA = "0x5FF5B20", Offset = "0x5FF4B20", VA = "0x5FF5B20")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6001382")]
+		[Address(RVA = "0x5FF5B30", Offset = "0x5FF4B30", VA = "0x5FF5B30")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000531")]
+	internal bool IsAbstract
+	{
+		[Token(Token = "0x6001384")]
+		[Address(RVA = "0x5FF5B90", Offset = "0x5FF4B90", VA = "0x5FF5B90")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6001385")]
+		[Address(RVA = "0x5FF5BA0", Offset = "0x5FF4BA0", VA = "0x5FF5BA0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000532")]
+	internal bool IsNillable
+	{
+		[Token(Token = "0x6001386")]
+		[Address(RVA = "0x5FF5BB0", Offset = "0x5FF4BB0", VA = "0x5FF5BB0")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6001387")]
+		[Address(RVA = "0x5FF5BC0", Offset = "0x5FF4BC0", VA = "0x5FF5BC0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000533")]
+	internal XmlSchemaDerivationMethod Block
+	{
+		[Token(Token = "0x6001388")]
+		[Address(RVA = "0x5FF5BD0", Offset = "0x5FF4BD0", VA = "0x5FF5BD0")]
+		get
+		{
+			return default(XmlSchemaDerivationMethod);
+		}
+		[Token(Token = "0x6001389")]
+		[Address(RVA = "0x5FF5BE0", Offset = "0x5FF4BE0", VA = "0x5FF5BE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000534")]
+	internal bool IsNotationDeclared
+	{
+		[Token(Token = "0x600138A")]
+		[Address(RVA = "0x5FF5BF0", Offset = "0x5FF4BF0", VA = "0x5FF5BF0")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x600138B")]
+		[Address(RVA = "0x5FF5C00", Offset = "0x5FF4C00", VA = "0x5FF5C00")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000535")]
+	internal bool HasDefaultAttribute
+	{
+		[Token(Token = "0x600138C")]
+		[Address(RVA = "0x5FF5C10", Offset = "0x5FF4C10", VA = "0x5FF5C10")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000536")]
+	internal bool HasRequiredAttribute
+	{
+		[Token(Token = "0x600138D")]
+		[Address(RVA = "0x5FF5C20", Offset = "0x5FF4C20", VA = "0x5FF5C20")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000537")]
+	internal ContentValidator ContentValidator
+	{
+		[Token(Token = "0x600138E")]
+		[Address(RVA = "0x5FF5C30", Offset = "0x5FF4C30", VA = "0x5FF5C30")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600138F")]
+		[Address(RVA = "0x5FF5C40", Offset = "0x5FF4C40", VA = "0x5FF5C40")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000538")]
+	internal XmlSchemaAnyAttribute AnyAttribute
+	{
+		[Token(Token = "0x6001390")]
+		[Address(RVA = "0x5FF5C50", Offset = "0x5FF4C50", VA = "0x5FF5C50")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001391")]
+		[Address(RVA = "0x5FF5C60", Offset = "0x5FF4C60", VA = "0x5FF5C60")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000539")]
+	internal CompiledIdentityConstraint[] Constraints
+	{
+		[Token(Token = "0x6001392")]
+		[Address(RVA = "0x5FF5C80", Offset = "0x5FF4C80", VA = "0x5FF5C80")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001393")]
+		[Address(RVA = "0x5FF5C90", Offset = "0x5FF4C90", VA = "0x5FF5C90")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700053A")]
+	internal XmlSchemaElement SchemaElement
+	{
+		[Token(Token = "0x6001394")]
+		[Address(RVA = "0x5FF5CB0", Offset = "0x5FF4CB0", VA = "0x5FF5CB0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001395")]
+		[Address(RVA = "0x5FF5CC0", Offset = "0x5FF4CC0", VA = "0x5FF5CC0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700053B")]
+	internal IList<IDtdDefaultAttributeInfo> DefaultAttDefs
+	{
+		[Token(Token = "0x6001398")]
+		[Address(RVA = "0x5FF5EA0", Offset = "0x5FF4EA0", VA = "0x5FF5EA0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700053C")]
+	internal Dictionary<XmlQualifiedName, SchemaAttDef> AttDefs
+	{
+		[Token(Token = "0x6001399")]
+		[Address(RVA = "0x5FF5EB0", Offset = "0x5FF4EB0", VA = "0x5FF5EB0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700053D")]
+	internal Dictionary<XmlQualifiedName, XmlQualifiedName> ProhibitedAttributes
+	{
+		[Token(Token = "0x600139A")]
+		[Address(RVA = "0x5FF5EC0", Offset = "0x5FF4EC0", VA = "0x5FF5EC0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6001378")]
+	[Address(RVA = "0x5FF55F0", Offset = "0x5FF45F0", VA = "0x5FF55F0")]
+	internal SchemaElementDecl()
+	{
+	}
+
+	[Token(Token = "0x6001379")]
+	[Address(RVA = "0x5FF5700", Offset = "0x5FF4700", VA = "0x5FF5700")]
+	internal SchemaElementDecl(XmlSchemaDatatype dtype)
+	{
+	}
+
+	[Token(Token = "0x600137A")]
+	[Address(RVA = "0x5FF5870", Offset = "0x5FF4870", VA = "0x5FF5870")]
+	internal SchemaElementDecl(XmlQualifiedName name, string prefix)
+	{
+	}
+
+	[Token(Token = "0x600137B")]
+	[Address(RVA = "0x5FF5950", Offset = "0x5FF4950", VA = "0x5FF5950")]
+	internal static SchemaElementDecl CreateAnyTypeElementDecl()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600137D")]
+	[Address(RVA = "0x5FF5A50", Offset = "0x5FF4A50", VA = "0x5FF5A50", Slot = "5")]
+	private IDtdAttributeInfo System_002EXml_002EIDtdAttributeListInfo_002ELookupAttribute(string prefix, string localName)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600137E")]
+	[Address(RVA = "0x5FF5AF0", Offset = "0x5FF4AF0", VA = "0x5FF5AF0", Slot = "6")]
+	private IEnumerable<IDtdDefaultAttributeInfo> System_002EXml_002EIDtdAttributeListInfo_002ELookupDefaultAttributes()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6001383")]
+	[Address(RVA = "0x5FF5B40", Offset = "0x5FF4B40", VA = "0x5FF5B40")]
+	internal SchemaElementDecl Clone()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6001396")]
+	[Address(RVA = "0x5FF5CE0", Offset = "0x5FF4CE0", VA = "0x5FF5CE0")]
+	internal void AddAttDef(SchemaAttDef attdef)
+	{
+	}
+
+	[Token(Token = "0x6001397")]
+	[Address(RVA = "0x5FF5E30", Offset = "0x5FF4E30", VA = "0x5FF5E30")]
+	internal SchemaAttDef GetAttDef(XmlQualifiedName qname)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600139B")]
+	[Address(RVA = "0x5FF5ED0", Offset = "0x5FF4ED0", VA = "0x5FF5ED0")]
+	internal void CheckAttributes(Hashtable presence, bool standalone)
+	{
+	}
+}

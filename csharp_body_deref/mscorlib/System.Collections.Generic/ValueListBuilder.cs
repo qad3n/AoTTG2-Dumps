@@ -11,56 +11,56 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200062B")]
+[Token(Token = "0x2000606")]
 [DefaultMember("Item")]
 internal ref struct ValueListBuilder<T>
 {
-	[Token(Token = "0x4001943")]
+	[Token(Token = "0x40018AA")]
 	[FieldOffset(Offset = "0x0")]
 	private Span<T> _span;
 
-	[Token(Token = "0x4001944")]
+	[Token(Token = "0x40018AB")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] _arrayFromPool;
 
-	[Token(Token = "0x4001945")]
+	[Token(Token = "0x40018AC")]
 	[FieldOffset(Offset = "0x0")]
 	private int _pos;
 
-	[Token(Token = "0x170007C2")]
+	[Token(Token = "0x170007C1")]
 	public int Length
 	{
-		[Token(Token = "0x6002F77")]
+		[Token(Token = "0x6002F56")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002F76")]
+	[Token(Token = "0x6002F55")]
 	public ValueListBuilder(Span<T> initialSpan)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002F78")]
+	[Token(Token = "0x6002F57")]
 	public void Append(T item)
 	{
 	}
 
-	[Token(Token = "0x6002F79")]
+	[Token(Token = "0x6002F58")]
 	public ReadOnlySpan<T> AsSpan()
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002F7A")]
+	[Token(Token = "0x6002F59")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6002F7B")]
+	[Token(Token = "0x6002F5A")]
 	private void Grow()
 	{
 	}

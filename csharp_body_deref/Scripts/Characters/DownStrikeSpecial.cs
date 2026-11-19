@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200067D")]
+[Token(Token = "0x20006DC")]
 internal class DownStrikeSpecial : BaseHoldAttackSpecial
 {
-	[Token(Token = "0x4001EB4")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4002062")]
+	[FieldOffset(Offset = "0x49")]
 	protected bool _needActivate;
 
-	[Token(Token = "0x600401E")]
-	[Address(RVA = "0x216B660", Offset = "0x2169C60", VA = "0x18216B660")]
+	[Token(Token = "0x60042B6")]
+	[Address(RVA = "0x5B0B520", Offset = "0x5B0A520", VA = "0x5B0B520")]
 	public DownStrikeSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x600401F")]
-	[Address(RVA = "0x216B220", Offset = "0x2169820", VA = "0x18216B220", Slot = "9")]
+	[Token(Token = "0x60042B7")]
+	[Address(RVA = "0x5B0B540", Offset = "0x5B0A540", VA = "0x5B0B540", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004020")]
-	[Address(RVA = "0x216B330", Offset = "0x2169930", VA = "0x18216B330", Slot = "16")]
+	[Token(Token = "0x60042B8")]
+	[Address(RVA = "0x5B0B630", Offset = "0x5B0A630", VA = "0x5B0B630", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6004021")]
-	[Address(RVA = "0x2166DD0", Offset = "0x21653D0", VA = "0x182166DD0", Slot = "6")]
+	[Token(Token = "0x60042B9")]
+	[Address(RVA = "0x5B0B920", Offset = "0x5B0A920", VA = "0x5B0B920", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);

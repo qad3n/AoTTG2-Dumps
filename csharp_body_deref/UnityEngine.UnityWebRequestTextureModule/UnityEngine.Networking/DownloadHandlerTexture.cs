@@ -22,8 +22,8 @@ public sealed class DownloadHandlerTexture : DownloadHandler
 	[Token(Token = "0x2000005")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Token(Token = "0x600000F")]
+		[Address(RVA = "0x6D1FB70", Offset = "0x6D1EB70", VA = "0x6D1FB70")]
 		public static IntPtr ConvertToNative(DownloadHandlerTexture handler)
 		{
 			return default(IntPtr);
@@ -34,71 +34,71 @@ public sealed class DownloadHandlerTexture : DownloadHandler
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private NativeArray<byte> m_NativeData;
 
-	[Token(Token = "0x17000003")]
+	[Token(Token = "0x17000004")]
 	public Texture2D texture
 	{
-		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x330F780", Offset = "0x330DD80", VA = "0x18330F780")]
+		[Token(Token = "0x600000A")]
+		[Address(RVA = "0x6D1F950", Offset = "0x6D1E950", VA = "0x6D1F950")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x330F500", Offset = "0x330DB00", VA = "0x18330F500")]
+	[Token(Token = "0x6000005")]
+	[Address(RVA = "0x6D1F800", Offset = "0x6D1E800", VA = "0x6D1F800")]
 	private static IntPtr Create([UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] DownloadHandlerTexture obj, DownloadedTextureParams parameters)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x330F6F0", Offset = "0x330DCF0", VA = "0x18330F6F0")]
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x6D1F880", Offset = "0x6D1E880", VA = "0x6D1F880")]
 	private void InternalCreateTexture(DownloadedTextureParams parameters)
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x330F8A0", Offset = "0x330DEA0", VA = "0x18330F8A0")]
-	public DownloadHandlerTexture(bool readable)
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x6D1F8D0", Offset = "0x6D1E8D0", VA = "0x6D1F8D0")]
+	public DownloadHandlerTexture(DownloadedTextureParams parameters)
 	{
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x330F6C0", Offset = "0x330DCC0", VA = "0x18330F6C0", Slot = "6")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x6D1F920", Offset = "0x6D1E920", VA = "0x6D1F920", Slot = "6")]
 	protected override NativeArray<byte> GetNativeData()
 	{
 		return default(NativeArray<byte>);
 	}
 
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x330F540", Offset = "0x330DB40", VA = "0x18330F540", Slot = "5")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x6D1F930", Offset = "0x6D1E930", VA = "0x6D1F930", Slot = "5")]
 	public override void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x330F780", Offset = "0x330DD80", VA = "0x18330F780")]
+	[Token(Token = "0x600000B")]
+	[Address(RVA = "0x6D1F9E0", Offset = "0x6D1E9E0", VA = "0x6D1F9E0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private Texture2D InternalGetTextureNative()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x330F570", Offset = "0x330DB70", VA = "0x18330F570")]
+	[Token(Token = "0x600000C")]
+	[Address(RVA = "0x6D1FAA0", Offset = "0x6D1EAA0", VA = "0x6D1FAA0")]
 	public static Texture2D GetContent(UnityWebRequest www)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x330F4B0", Offset = "0x330DAB0", VA = "0x18330F4B0")]
+	[Token(Token = "0x600000D")]
+	[Address(RVA = "0x6D1F840", Offset = "0x6D1E840", VA = "0x6D1F840")]
 	private static extern IntPtr Create_Injected(DownloadHandlerTexture obj, [In] ref DownloadedTextureParams parameters);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x330F740", Offset = "0x330DD40", VA = "0x18330F740")]
+	[Token(Token = "0x600000E")]
+	[Address(RVA = "0x6D1FA70", Offset = "0x6D1EA70", VA = "0x6D1FA70")]
 	private static extern IntPtr InternalGetTextureNative_Injected(IntPtr _unity_self);
 }

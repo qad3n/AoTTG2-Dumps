@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x20001FD")]
 internal sealed class AottgCreditsBrushHeader : AottgComponent
 {
-	[Token(Token = "0x4000A35")]
+	[Token(Token = "0x4000AAE")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000A36")]
+	[Token(Token = "0x4000AAF")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _text;
 
-	[Token(Token = "0x6000B1C")]
-	[Address(RVA = "0x23A8750", Offset = "0x23A6D50", VA = "0x1823A8750")]
+	[Token(Token = "0x6000BE0")]
+	[Address(RVA = "0x5D7FEC0", Offset = "0x5D7EEC0", VA = "0x5D7FEC0")]
 	public AottgCreditsBrushHeader(string id, string text)
 	{
 	}
 
-	[Token(Token = "0x6000B1D")]
-	[Address(RVA = "0x23A8430", Offset = "0x23A6A30", VA = "0x1823A8430", Slot = "4")]
+	[Token(Token = "0x6000BE1")]
+	[Address(RVA = "0x5D7FF60", Offset = "0x5D7EF60", VA = "0x5D7FF60", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}

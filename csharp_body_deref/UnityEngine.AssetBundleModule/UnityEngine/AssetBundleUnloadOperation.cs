@@ -14,8 +14,8 @@ namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000008")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/AssetBundle/Public/AssetBundleUnloadOperation.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public class AssetBundleUnloadOperation : AsyncOperation
 {
 }

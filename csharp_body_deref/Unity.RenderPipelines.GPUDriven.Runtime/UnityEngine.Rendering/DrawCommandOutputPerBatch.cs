@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DrawCommandOutputPerBatch
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -137,28 +137,28 @@ internal struct DrawCommandOutputPerBatch : IJobParallelFor
 	public NativeArray<IndirectInstanceInfo> indirectInstanceInfoGlobalArray;
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x2BC0E80", Offset = "0x2BBF480", VA = "0x182BC0E80")]
+	[Address(RVA = "0x65C45B0", Offset = "0x65C35B0", VA = "0x65C45B0")]
 	private int EncodeGPUInstanceIndexAndCrossFade(int rendererIndex, bool negateCrossFade)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x2BC1890", Offset = "0x2BBFE90", VA = "0x182BC1890")]
+	[Address(RVA = "0x65C4690", Offset = "0x65C3690", VA = "0x65C4690")]
 	private bool IsInstanceFlipped(int rendererIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x2BC1930", Offset = "0x2BBFF30", VA = "0x182BC1930")]
+	[Address(RVA = "0x65C4710", Offset = "0x65C3710", VA = "0x65C4710")]
 	private bool IsMeshLodVisible(int batchLodLevel, int rendererIndex, bool supportsCrossFade, ref bool negateCrossfade)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x2BC0F50", Offset = "0x2BBF550", VA = "0x182BC0F50", Slot = "4")]
+	[Address(RVA = "0x65C4760", Offset = "0x65C3760", VA = "0x65C4760", Slot = "4")]
 	public void Execute(int batchIndex)
 	{
 	}

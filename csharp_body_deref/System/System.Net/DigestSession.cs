@@ -10,159 +10,159 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000319")]
+[Token(Token = "0x20002DA")]
 internal class DigestSession
 {
-	[Token(Token = "0x4000BD8")]
+	[Token(Token = "0x4000B09")]
 	[FieldOffset(Offset = "0x0")]
 	private static RandomNumberGenerator rng;
 
-	[Token(Token = "0x4000BD9")]
+	[Token(Token = "0x4000B0A")]
 	[FieldOffset(Offset = "0x10")]
 	private DateTime lastUse;
 
-	[Token(Token = "0x4000BDA")]
+	[Token(Token = "0x4000B0B")]
 	[FieldOffset(Offset = "0x18")]
 	private int _nc;
 
-	[Token(Token = "0x4000BDB")]
+	[Token(Token = "0x4000B0C")]
 	[FieldOffset(Offset = "0x20")]
 	private HashAlgorithm hash;
 
-	[Token(Token = "0x4000BDC")]
+	[Token(Token = "0x4000B0D")]
 	[FieldOffset(Offset = "0x28")]
 	private DigestHeaderParser parser;
 
-	[Token(Token = "0x4000BDD")]
+	[Token(Token = "0x4000B0E")]
 	[FieldOffset(Offset = "0x30")]
 	private string _cnonce;
 
-	[Token(Token = "0x1700047E")]
+	[Token(Token = "0x1700044F")]
 	public string Algorithm
 	{
-		[Token(Token = "0x6001558")]
-		[Address(RVA = "0x27DFEA0", Offset = "0x27DE4A0", VA = "0x1827DFEA0")]
+		[Token(Token = "0x600139A")]
+		[Address(RVA = "0x6181240", Offset = "0x6180240", VA = "0x6181240")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700047F")]
+	[Token(Token = "0x17000450")]
 	public string Realm
 	{
-		[Token(Token = "0x6001559")]
-		[Address(RVA = "0x27E00A0", Offset = "0x27DE6A0", VA = "0x1827E00A0")]
+		[Token(Token = "0x600139B")]
+		[Address(RVA = "0x6181270", Offset = "0x6180270", VA = "0x6181270")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000480")]
+	[Token(Token = "0x17000451")]
 	public string Nonce
 	{
-		[Token(Token = "0x600155A")]
-		[Address(RVA = "0x27DFFE0", Offset = "0x27DE5E0", VA = "0x1827DFFE0")]
+		[Token(Token = "0x600139C")]
+		[Address(RVA = "0x61812A0", Offset = "0x61802A0", VA = "0x61812A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000481")]
+	[Token(Token = "0x17000452")]
 	public string Opaque
 	{
-		[Token(Token = "0x600155B")]
-		[Address(RVA = "0x27E0020", Offset = "0x27DE620", VA = "0x1827E0020")]
+		[Token(Token = "0x600139D")]
+		[Address(RVA = "0x61812D0", Offset = "0x61802D0", VA = "0x61812D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000482")]
+	[Token(Token = "0x17000453")]
 	public string QOP
 	{
-		[Token(Token = "0x600155C")]
-		[Address(RVA = "0x27E0060", Offset = "0x27DE660", VA = "0x1827E0060")]
+		[Token(Token = "0x600139E")]
+		[Address(RVA = "0x6181300", Offset = "0x6180300", VA = "0x6181300")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000483")]
+	[Token(Token = "0x17000454")]
 	public string CNonce
 	{
-		[Token(Token = "0x600155D")]
-		[Address(RVA = "0x27DFEE0", Offset = "0x27DE4E0", VA = "0x1827DFEE0")]
+		[Token(Token = "0x600139F")]
+		[Address(RVA = "0x6181330", Offset = "0x6180330", VA = "0x6181330")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000484")]
+	[Token(Token = "0x17000455")]
 	public DateTime LastUse
 	{
-		[Token(Token = "0x6001564")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60013A6")]
+		[Address(RVA = "0x6182060", Offset = "0x6181060", VA = "0x6182060")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x6001556")]
-	[Address(RVA = "0x27DFDE0", Offset = "0x27DE3E0", VA = "0x1827DFDE0")]
+	[Token(Token = "0x6001398")]
+	[Address(RVA = "0x6181190", Offset = "0x6180190", VA = "0x6181190")]
 	static DigestSession()
 	{
 	}
 
-	[Token(Token = "0x6001557")]
-	[Address(RVA = "0x27DFE40", Offset = "0x27DE440", VA = "0x1827DFE40")]
+	[Token(Token = "0x6001399")]
+	[Address(RVA = "0x61811E0", Offset = "0x61801E0", VA = "0x61811E0")]
 	public DigestSession()
 	{
 	}
 
-	[Token(Token = "0x600155E")]
-	[Address(RVA = "0x27DF8D0", Offset = "0x27DDED0", VA = "0x1827DF8D0")]
+	[Token(Token = "0x60013A0")]
+	[Address(RVA = "0x6181430", Offset = "0x6180430", VA = "0x6181430")]
 	public bool Parse(string challenge)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600155F")]
-	[Address(RVA = "0x27DF770", Offset = "0x27DDD70", VA = "0x1827DF770")]
+	[Token(Token = "0x60013A1")]
+	[Address(RVA = "0x6181530", Offset = "0x6180530", VA = "0x6181530")]
 	private string HashToHexString(string toBeHashed)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001560")]
-	[Address(RVA = "0x27DF520", Offset = "0x27DDB20", VA = "0x1827DF520")]
+	[Token(Token = "0x60013A2")]
+	[Address(RVA = "0x61816C0", Offset = "0x61806C0", VA = "0x61816C0")]
 	private string HA1(string username, string password)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001561")]
-	[Address(RVA = "0x27DF680", Offset = "0x27DDC80", VA = "0x1827DF680")]
+	[Token(Token = "0x60013A3")]
+	[Address(RVA = "0x6181800", Offset = "0x6180800", VA = "0x6181800")]
 	private string HA2(HttpWebRequest webRequest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001562")]
-	[Address(RVA = "0x27DFA90", Offset = "0x27DE090", VA = "0x1827DFA90")]
+	[Token(Token = "0x60013A4")]
+	[Address(RVA = "0x61818E0", Offset = "0x61808E0", VA = "0x61818E0")]
 	private string Response(string username, string password, HttpWebRequest webRequest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001563")]
-	[Address(RVA = "0x27DEF70", Offset = "0x27DD570", VA = "0x1827DEF70")]
+	[Token(Token = "0x60013A5")]
+	[Address(RVA = "0x6181A40", Offset = "0x6180A40", VA = "0x6181A40")]
 	public Authorization Authenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;

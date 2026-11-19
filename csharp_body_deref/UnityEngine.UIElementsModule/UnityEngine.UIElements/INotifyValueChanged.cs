@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x20000E1")]
 public interface INotifyValueChanged<T>
 {
-	[Token(Token = "0x1700010A")]
+	[Token(Token = "0x17000102")]
 	T value
 	{
-		[Token(Token = "0x6000653")]
+		[Token(Token = "0x6000632")]
 		get;
-		[Token(Token = "0x6000654")]
+		[Token(Token = "0x6000633")]
 		set;
 	}
 
-	[Token(Token = "0x6000655")]
+	[Token(Token = "0x6000634")]
 	void SetValueWithoutNotify(T newValue);
 }

@@ -1,0 +1,27 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Experimental.EventDebuggerLogCall
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace UnityEngine.UIElements.Experimental;
+
+[Token(Token = "0x200064B")]
+internal struct EventDebuggerLogCall : IDisposable
+{
+	[Token(Token = "0x6002E15")]
+	[Address(RVA = "0x6BFE370", Offset = "0x6BFD370", VA = "0x6BFE370")]
+	public EventDebuggerLogCall(Delegate callback, EventBase evt)
+	{
+	}
+
+	[Token(Token = "0x6002E16")]
+	[Address(RVA = "0x6BFE380", Offset = "0x6BFD380", VA = "0x6BFE380", Slot = "4")]
+	public void Dispose()
+	{
+	}
+}

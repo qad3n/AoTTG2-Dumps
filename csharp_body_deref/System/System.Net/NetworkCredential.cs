@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Net.NetworkCredential
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,110 +10,110 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002D1")]
+[Token(Token = "0x2000292")]
 public class NetworkCredential : ICredentials
 {
-	[Token(Token = "0x4000AAE")]
+	[Token(Token = "0x40009DF")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_domain;
 
-	[Token(Token = "0x4000AAF")]
+	[Token(Token = "0x40009E0")]
 	[FieldOffset(Offset = "0x18")]
 	private string m_userName;
 
-	[Token(Token = "0x4000AB0")]
+	[Token(Token = "0x40009E1")]
 	[FieldOffset(Offset = "0x20")]
 	private SecureString m_password;
 
-	[Token(Token = "0x17000410")]
+	[Token(Token = "0x170003E1")]
 	public string UserName
 	{
-		[Token(Token = "0x60013A4")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60011E6")]
+		[Address(RVA = "0x62A6CD0", Offset = "0x62A5CD0", VA = "0x62A6CD0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60013A5")]
-		[Address(RVA = "0x27D0900", Offset = "0x27CEF00", VA = "0x1827D0900")]
+		[Token(Token = "0x60011E7")]
+		[Address(RVA = "0x62A6C20", Offset = "0x62A5C20", VA = "0x62A6C20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000411")]
+	[Token(Token = "0x170003E2")]
 	public string Password
 	{
-		[Token(Token = "0x60013A6")]
-		[Address(RVA = "0x27D06C0", Offset = "0x27CECC0", VA = "0x1827D06C0")]
+		[Token(Token = "0x60011E8")]
+		[Address(RVA = "0x62A6CE0", Offset = "0x62A5CE0", VA = "0x62A6CE0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60013A7")]
-		[Address(RVA = "0x27D08D0", Offset = "0x27CEED0", VA = "0x1827D08D0")]
+		[Token(Token = "0x60011E9")]
+		[Address(RVA = "0x62A6C60", Offset = "0x62A5C60", VA = "0x62A6C60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000412")]
+	[Token(Token = "0x170003E3")]
 	public string Domain
 	{
-		[Token(Token = "0x60013A8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60011EA")]
+		[Address(RVA = "0x62A6D00", Offset = "0x62A5D00", VA = "0x62A6D00")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60013A9")]
-		[Address(RVA = "0x27D08A0", Offset = "0x27CEEA0", VA = "0x1827D08A0")]
+		[Token(Token = "0x60011EB")]
+		[Address(RVA = "0x62A6C90", Offset = "0x62A5C90", VA = "0x62A6C90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60013A1")]
-	[Address(RVA = "0x27D06D0", Offset = "0x27CECD0", VA = "0x1827D06D0")]
+	[Token(Token = "0x60011E3")]
+	[Address(RVA = "0x62A6BD0", Offset = "0x62A5BD0", VA = "0x62A6BD0")]
 	public NetworkCredential()
 	{
 	}
 
-	[Token(Token = "0x60013A2")]
-	[Address(RVA = "0x27D0800", Offset = "0x27CEE00", VA = "0x1827D0800")]
+	[Token(Token = "0x60011E4")]
+	[Address(RVA = "0x62A6C00", Offset = "0x62A5C00", VA = "0x62A6C00")]
 	public NetworkCredential(string userName, string password)
 	{
 	}
 
-	[Token(Token = "0x60013A3")]
-	[Address(RVA = "0x27D0770", Offset = "0x27CED70", VA = "0x1827D0770")]
+	[Token(Token = "0x60011E5")]
+	[Address(RVA = "0x62A59F0", Offset = "0x62A49F0", VA = "0x62A59F0")]
 	public NetworkCredential(string userName, string password, string domain)
 	{
 	}
 
-	[Token(Token = "0x60013AA")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+	[Token(Token = "0x60011EC")]
+	[Address(RVA = "0x62A6D10", Offset = "0x62A5D10", VA = "0x62A6D10")]
 	internal string InternalGetUserName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013AB")]
-	[Address(RVA = "0x27D06C0", Offset = "0x27CECC0", VA = "0x1827D06C0")]
+	[Token(Token = "0x60011ED")]
+	[Address(RVA = "0x62A6CF0", Offset = "0x62A5CF0", VA = "0x62A6CF0")]
 	internal string InternalGetPassword()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013AC")]
-	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+	[Token(Token = "0x60011EE")]
+	[Address(RVA = "0x62A6D20", Offset = "0x62A5D20", VA = "0x62A6D20")]
 	internal string InternalGetDomain()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013AD")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "4")]
+	[Token(Token = "0x60011EF")]
+	[Address(RVA = "0x62A6D30", Offset = "0x62A5D30", VA = "0x62A6D30", Slot = "4")]
 	public NetworkCredential GetCredential(Uri uri, string authType)
 	{
 		return null;

@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x200000D")]
-[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
-[UnityEngine.Bindings.StaticAccessor("XRInputDevices::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
-[UnityEngine.Bindings.NativeHeader("XRScriptingClasses.h")]
-[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("XRInputDevices::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
+[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
+[UnityEngine.Bindings.NativeHeader("XRScriptingClasses.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/XRPrefix.h")]
+[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 public struct Bone : IEquatable<Bone>
 {
 	[Token(Token = "0x400003E")]
@@ -33,7 +33,7 @@ public struct Bone : IEquatable<Bone>
 	internal ulong deviceId
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
+		[Address(RVA = "0x6D22E90", Offset = "0x6D21E90", VA = "0x6D22E90")]
 		get
 		{
 			return default(ulong);
@@ -44,7 +44,7 @@ public struct Bone : IEquatable<Bone>
 	internal uint featureIndex
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
+		[Address(RVA = "0x6D22EA0", Offset = "0x6D21EA0", VA = "0x6D22EA0")]
 		get
 		{
 			return default(uint);
@@ -52,21 +52,21 @@ public struct Bone : IEquatable<Bone>
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x3312E20", Offset = "0x3311420", VA = "0x183312E20", Slot = "0")]
+	[Address(RVA = "0x6D22EB0", Offset = "0x6D21EB0", VA = "0x6D22EB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x3312E00", Offset = "0x3311400", VA = "0x183312E00", Slot = "4")]
+	[Address(RVA = "0x6D22F20", Offset = "0x6D21F20", VA = "0x6D22F20", Slot = "4")]
 	public bool Equals(Bone other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x3312EC0", Offset = "0x33114C0", VA = "0x183312EC0", Slot = "2")]
+	[Address(RVA = "0x6D22F30", Offset = "0x6D21F30", VA = "0x6D22F30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

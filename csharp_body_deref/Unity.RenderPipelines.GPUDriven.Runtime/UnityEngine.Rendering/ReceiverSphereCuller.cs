@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ReceiverSphereCuller
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,42 +36,42 @@ internal struct ReceiverSphereCuller
 	public float3x3 worldToLightSpaceRotation;
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2BD04B0", Offset = "0x2BCEAB0", VA = "0x182BD04B0")]
+	[Address(RVA = "0x65B9930", Offset = "0x65B8930", VA = "0x65B9930")]
 	internal static ReceiverSphereCuller CreateEmptyForTesting(Allocator allocator)
 	{
 		return default(ReceiverSphereCuller);
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2BD0AB0", Offset = "0x2BCF0B0", VA = "0x182BD0AB0")]
+	[Address(RVA = "0x65B99D0", Offset = "0x65B89D0", VA = "0x65B99D0")]
 	internal JobHandle Dispose(JobHandle job)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2BD0C80", Offset = "0x2BCF280", VA = "0x182BD0C80")]
+	[Address(RVA = "0x65B9410", Offset = "0x65B8410", VA = "0x65B9410")]
 	internal bool UseReceiverPlanes()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2BD0560", Offset = "0x2BCEB60", VA = "0x182BD0560")]
+	[Address(RVA = "0x65B9A20", Offset = "0x65B8A20", VA = "0x65B9A20")]
 	internal static ReceiverSphereCuller Create(in BatchCullingContext cc, Allocator allocator)
 	{
 		return default(ReceiverSphereCuller);
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2BD0B20", Offset = "0x2BCF120", VA = "0x182BD0B20")]
+	[Address(RVA = "0x65B9F90", Offset = "0x65B8F90", VA = "0x65B9F90")]
 	internal static float DistanceUntilCylinderFullyCrossesPlane(float3 cylinderCenter, float3 cylinderDirection, float cylinderRadius, Plane plane)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x2BD0020", Offset = "0x2BCE620", VA = "0x182BD0020")]
+	[Address(RVA = "0x65BA150", Offset = "0x65B9150", VA = "0x65BA150")]
 	internal static uint ComputeSplitVisibilityMask(NativeArray<Plane> lightFacingFrustumPlanes, NativeArray<SplitInfo> splitInfos, float3x3 worldToLightSpaceRotation, in AABB bounds)
 	{
 		return default(uint);

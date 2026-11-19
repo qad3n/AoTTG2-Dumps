@@ -15,14 +15,14 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncAwakeTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x2929360", Offset = "0x2927960", VA = "0x182929360")]
+	[Address(RVA = "0x62F3860", Offset = "0x62F2860", VA = "0x62F3860")]
 	public UniTask AwakeAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000A01")]
-	[Address(RVA = "0x29294C0", Offset = "0x2927AC0", VA = "0x1829294C0")]
+	[Address(RVA = "0x62F6390", Offset = "0x62F5390", VA = "0x62F6390")]
 	public AsyncAwakeTrigger()
 	{
 	}

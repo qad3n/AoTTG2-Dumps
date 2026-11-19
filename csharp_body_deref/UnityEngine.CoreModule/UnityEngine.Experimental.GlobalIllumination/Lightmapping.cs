@@ -18,40 +18,40 @@ public static class Lightmapping
 	[Token(Token = "0x20003ED")]
 	public delegate void RequestLightsDelegate(Light[] requests, NativeArray<LightDataGI> lightsOutput);
 
-	[Token(Token = "0x4000D27")]
+	[Token(Token = "0x4000D25")]
 	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static readonly RequestLightsDelegate s_DefaultDelegate;
 
-	[Token(Token = "0x4000D28")]
+	[Token(Token = "0x4000D26")]
 	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static RequestLightsDelegate s_RequestLightsDelegate;
 
-	[Token(Token = "0x60017C9")]
-	[Address(RVA = "0x2F79530", Offset = "0x2F77B30", VA = "0x182F79530")]
+	[Token(Token = "0x60017DD")]
+	[Address(RVA = "0x696C710", Offset = "0x696B710", VA = "0x696C710")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void SetDelegate(RequestLightsDelegate del)
 	{
 	}
 
-	[Token(Token = "0x60017CA")]
-	[Address(RVA = "0x2F793A0", Offset = "0x2F779A0", VA = "0x182F793A0")]
+	[Token(Token = "0x60017DE")]
+	[Address(RVA = "0x696C7B0", Offset = "0x696B7B0", VA = "0x696C7B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static RequestLightsDelegate GetDelegate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017CB")]
-	[Address(RVA = "0x2F794C0", Offset = "0x2F77AC0", VA = "0x182F794C0")]
+	[Token(Token = "0x60017DF")]
+	[Address(RVA = "0x696C820", Offset = "0x696B820", VA = "0x696C820")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void ResetDelegate()
 	{
 	}
 
-	[Token(Token = "0x60017CC")]
-	[Address(RVA = "0x2F793F0", Offset = "0x2F779F0", VA = "0x182F793F0")]
+	[Token(Token = "0x60017E0")]
+	[Address(RVA = "0x696C870", Offset = "0x696B870", VA = "0x696C870")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RequestLights(Light[] lights, IntPtr outLightsPtr, int outLightsCount)
 	{

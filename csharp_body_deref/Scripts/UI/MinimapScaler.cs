@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200073D")]
+[Token(Token = "0x20007E5")]
 internal class MinimapScaler : IgnoreScaler
 {
-	[Token(Token = "0x60046E7")]
-	[Address(RVA = "0x22147E0", Offset = "0x2212DE0", VA = "0x1822147E0", Slot = "5")]
+	[Token(Token = "0x6004C07")]
+	[Address(RVA = "0x5BECC10", Offset = "0x5BEBC10", VA = "0x5BECC10", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x60046E8")]
-	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
+	[Token(Token = "0x6004C08")]
+	[Address(RVA = "0x5BECCD0", Offset = "0x5BEBCD0", VA = "0x5BECCD0")]
 	public MinimapScaler()
 	{
 	}

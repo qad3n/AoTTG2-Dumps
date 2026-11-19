@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public class FullScreenPassRendererFeature : ScriptableRendererFeature, ISeriali
 			internal TextureHandle inputTexture;
 
 			[Token(Token = "0x6000879")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x667F000", Offset = "0x667E000", VA = "0x667F000")]
 			public CopyPassData()
 			{
 			}
@@ -59,7 +59,7 @@ public class FullScreenPassRendererFeature : ScriptableRendererFeature, ISeriali
 			internal TextureHandle inputTexture;
 
 			[Token(Token = "0x600087A")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x667F010", Offset = "0x667E010", VA = "0x667F010")]
 			public MainPassData()
 			{
 			}
@@ -86,49 +86,49 @@ public class FullScreenPassRendererFeature : ScriptableRendererFeature, ISeriali
 		private static MaterialPropertyBlock s_SharedPropertyBlock;
 
 		[Token(Token = "0x6000870")]
-		[Address(RVA = "0x2C71F00", Offset = "0x2C70500", VA = "0x182C71F00")]
+		[Address(RVA = "0x667D440", Offset = "0x667C440", VA = "0x667D440")]
 		public FullScreenRenderPass(string passName)
 		{
 		}
 
 		[Token(Token = "0x6000871")]
-		[Address(RVA = "0x2C71E30", Offset = "0x2C70430", VA = "0x182C71E30")]
+		[Address(RVA = "0x667D700", Offset = "0x667C700", VA = "0x667D700")]
 		public void SetupMembers(Material material, int passIndex, bool fetchActiveColor, bool bindDepthStencilAttachment)
 		{
 		}
 
 		[Token(Token = "0x6000872")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x667D790", Offset = "0x667C790", VA = "0x667D790")]
 		internal void ReAllocate(RenderTextureDescriptor desc)
 		{
 		}
 
 		[Token(Token = "0x6000873")]
-		[Address(RVA = "0x2C715E0", Offset = "0x2C6FBE0", VA = "0x182C715E0")]
+		[Address(RVA = "0x667D7A0", Offset = "0x667C7A0", VA = "0x667D7A0")]
 		private static void ExecuteCopyColorPass(RasterCommandBuffer cmd, RTHandle sourceTexture)
 		{
 		}
 
 		[Token(Token = "0x6000874")]
-		[Address(RVA = "0x2C71660", Offset = "0x2C6FC60", VA = "0x182C71660")]
+		[Address(RVA = "0x667D810", Offset = "0x667C810", VA = "0x667D810")]
 		private static void ExecuteMainPass(RasterCommandBuffer cmd, RTHandle sourceTexture, Material material, int passIndex)
 		{
 		}
 
 		[Token(Token = "0x6000875")]
-		[Address(RVA = "0x2C718C0", Offset = "0x2C6FEC0", VA = "0x182C718C0", Slot = "11")]
+		[Address(RVA = "0x667DA60", Offset = "0x667CA60", VA = "0x667DA60", Slot = "11")]
 		public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 		{
 		}
 
 		[Token(Token = "0x6000876")]
-		[Address(RVA = "0x2C70C00", Offset = "0x2C6F200", VA = "0x182C70C00")]
+		[Address(RVA = "0x667E050", Offset = "0x667D050", VA = "0x667E050")]
 		private void AddFullscreenRenderPassInputPass(RenderGraph renderGraph, UniversalResourceData resourcesData, UniversalCameraData cameraData, TextureHandle source, TextureHandle destination)
 		{
 		}
 
 		[Token(Token = "0x6000877")]
-		[Address(RVA = "0x2C70850", Offset = "0x2C6EE50", VA = "0x182C70850")]
+		[Address(RVA = "0x667EB40", Offset = "0x667DB40", VA = "0x667EB40")]
 		private void AddCopyPassRenderPassFullscreen(RenderGraph renderGraph, TextureHandle source, TextureHandle destination)
 		{
 		}
@@ -150,78 +150,78 @@ public class FullScreenPassRendererFeature : ScriptableRendererFeature, ISeriali
 	}
 
 	[Token(Token = "0x4000872")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x1C")]
 	public InjectionPoint injectionPoint;
 
 	[Token(Token = "0x4000873")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x20")]
 	public bool fetchColorBuffer;
 
 	[Token(Token = "0x4000874")]
-	[FieldOffset(Offset = "0x28")]
+	[FieldOffset(Offset = "0x24")]
 	public ScriptableRenderPassInput requirements;
 
 	[Token(Token = "0x4000875")]
-	[FieldOffset(Offset = "0x30")]
+	[FieldOffset(Offset = "0x28")]
 	public Material passMaterial;
 
 	[Token(Token = "0x4000876")]
-	[FieldOffset(Offset = "0x38")]
+	[FieldOffset(Offset = "0x30")]
 	public int passIndex;
 
 	[Token(Token = "0x4000877")]
-	[FieldOffset(Offset = "0x3C")]
+	[FieldOffset(Offset = "0x34")]
 	public bool bindDepthStencilAttachment;
 
 	[Token(Token = "0x4000878")]
-	[FieldOffset(Offset = "0x40")]
+	[FieldOffset(Offset = "0x38")]
 	private FullScreenRenderPass m_FullScreenPass;
 
 	[Token(Token = "0x4000879")]
-	[FieldOffset(Offset = "0x48")]
+	[FieldOffset(Offset = "0x40")]
 	[SerializeField]
 	[HideInInspector]
 	private Version m_Version;
 
 	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x2C70740", Offset = "0x2C6ED40", VA = "0x182C70740", Slot = "7")]
+	[Address(RVA = "0x667D380", Offset = "0x667C380", VA = "0x667D380", Slot = "7")]
 	public override void Create()
 	{
 	}
 
 	[Token(Token = "0x600086A")]
-	[Address(RVA = "0x2C707F0", Offset = "0x2C6EDF0", VA = "0x182C707F0", Slot = "10")]
+	[Address(RVA = "0x667D4B0", Offset = "0x667C4B0", VA = "0x667D4B0", Slot = "10")]
 	internal override bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, out RenderingLayerUtils.Event atEvent, out RenderingLayerUtils.MaskSize maskSize)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600086B")]
-	[Address(RVA = "0x2C704F0", Offset = "0x2C6EAF0", VA = "0x182C704F0", Slot = "9")]
+	[Address(RVA = "0x667D4C0", Offset = "0x667C4C0", VA = "0x667D4C0", Slot = "9")]
 	public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x667D740", Offset = "0x667C740", VA = "0x667D740")]
 	private void UpgradeIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x600086D")]
-	[Address(RVA = "0x2C70820", Offset = "0x2C6EE20", VA = "0x182C70820", Slot = "12")]
+	[Address(RVA = "0x667D750", Offset = "0x667C750", VA = "0x667D750", Slot = "12")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x600086E")]
-	[Address(RVA = "0x2C70810", Offset = "0x2C6EE10", VA = "0x182C70810", Slot = "13")]
+	[Address(RVA = "0x667D760", Offset = "0x667C760", VA = "0x667D760", Slot = "13")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x2C70830", Offset = "0x2C6EE30", VA = "0x182C70830")]
+	[Address(RVA = "0x667D770", Offset = "0x667C770", VA = "0x667D770")]
 	public FullScreenPassRendererFeature()
 	{
 	}

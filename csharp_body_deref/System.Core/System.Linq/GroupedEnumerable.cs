@@ -11,37 +11,37 @@ using Il2CppDummyDll;
 
 namespace System.Linq;
 
-[Token(Token = "0x200003C")]
+[Token(Token = "0x200003D")]
 internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IEnumerable
 {
-	[Token(Token = "0x40000C5")]
+	[Token(Token = "0x40000CE")]
 	[FieldOffset(Offset = "0x0")]
 	private IEnumerable<TSource> source;
 
-	[Token(Token = "0x40000C6")]
+	[Token(Token = "0x40000CF")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TSource, TKey> keySelector;
 
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x40000D0")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TSource, TElement> elementSelector;
 
-	[Token(Token = "0x40000C8")]
+	[Token(Token = "0x40000D1")]
 	[FieldOffset(Offset = "0x0")]
 	private IEqualityComparer<TKey> comparer;
 
-	[Token(Token = "0x600018D")]
+	[Token(Token = "0x6000198")]
 	public GroupedEnumerable(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
 	{
 	}
 
-	[Token(Token = "0x600018E")]
+	[Token(Token = "0x6000199")]
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018F")]
+	[Token(Token = "0x600019A")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

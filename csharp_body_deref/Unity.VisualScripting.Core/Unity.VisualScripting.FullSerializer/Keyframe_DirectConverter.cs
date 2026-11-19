@@ -16,28 +16,28 @@ namespace Unity.VisualScripting.FullSerializer;
 public class Keyframe_DirectConverter : fsDirectConverter<Keyframe>
 {
 	[Token(Token = "0x6001189")]
-	[Address(RVA = "0x2E53730", Offset = "0x2E51D30", VA = "0x182E53730", Slot = "10")]
+	[Address(RVA = "0x68556D0", Offset = "0x68546D0", VA = "0x68556D0", Slot = "10")]
 	protected override fsResult DoSerialize(Keyframe model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x600118A")]
-	[Address(RVA = "0x2E533E0", Offset = "0x2E519E0", VA = "0x182E533E0", Slot = "11")]
+	[Address(RVA = "0x68558D0", Offset = "0x68548D0", VA = "0x68558D0", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Keyframe model)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x600118B")]
-	[Address(RVA = "0x2E53380", Offset = "0x2E51980", VA = "0x182E53380", Slot = "4")]
+	[Address(RVA = "0x6855B60", Offset = "0x6854B60", VA = "0x6855B60", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600118C")]
-	[Address(RVA = "0x2E539E0", Offset = "0x2E51FE0", VA = "0x182E539E0")]
+	[Address(RVA = "0x6855BB0", Offset = "0x6854BB0", VA = "0x6855BB0")]
 	public Keyframe_DirectConverter()
 	{
 	}

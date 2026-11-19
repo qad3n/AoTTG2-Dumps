@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000297")]
+[Token(Token = "0x2000298")]
 public enum SelectionType
 {
 	[Token(Token = "0x40009C4")]

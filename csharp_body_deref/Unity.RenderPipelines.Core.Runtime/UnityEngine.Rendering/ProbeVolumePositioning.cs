@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumePositioning
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,35 +21,35 @@ internal static class ProbeVolumePositioning
 	internal static Vector3[] m_AABBCorners;
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x2B2BA50", Offset = "0x2B2A050", VA = "0x182B2BA50")]
+	[Address(RVA = "0x650E1B0", Offset = "0x650D1B0", VA = "0x650E1B0")]
 	public static bool OBBIntersect(in ProbeReferenceVolume.Volume a, in ProbeReferenceVolume.Volume b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x2B2B900", Offset = "0x2B29F00", VA = "0x182B2B900")]
+	[Address(RVA = "0x650F3A0", Offset = "0x650E3A0", VA = "0x650F3A0")]
 	public static bool OBBContains(in ProbeReferenceVolume.Volume obb, Vector3 point)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AB6")]
-	[Address(RVA = "0x2B2B250", Offset = "0x2B29850", VA = "0x182B2B250")]
+	[Address(RVA = "0x650F4B0", Offset = "0x650E4B0", VA = "0x650F4B0")]
 	public static bool OBBAABBIntersect(in ProbeReferenceVolume.Volume a, in Bounds b, in Bounds aAABB)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x2B2C150", Offset = "0x2B2A750", VA = "0x182B2C150")]
+	[Address(RVA = "0x650F040", Offset = "0x650E040", VA = "0x650F040")]
 	private static Vector2 ProjectOBB(in ProbeReferenceVolume.Volume a, Vector3 axis)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x2B2C070", Offset = "0x2B2A670", VA = "0x182B2C070")]
+	[Address(RVA = "0x650FC90", Offset = "0x650EC90", VA = "0x650FC90")]
 	private static Vector2 ProjectAABB(in Vector3[] corners, Vector3 axis)
 	{
 		return default(Vector2);

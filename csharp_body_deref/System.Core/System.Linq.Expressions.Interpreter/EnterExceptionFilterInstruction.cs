@@ -10,43 +10,43 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000FA")]
+[Token(Token = "0x20000FB")]
 internal sealed class EnterExceptionFilterInstruction : Instruction
 {
-	[Token(Token = "0x4000248")]
+	[Token(Token = "0x4000251")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly EnterExceptionFilterInstruction Instance;
 
-	[Token(Token = "0x1700017F")]
+	[Token(Token = "0x17000181")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000651")]
-		[Address(RVA = "0x242D730", Offset = "0x242BD30", VA = "0x18242D730", Slot = "9")]
+		[Token(Token = "0x600065C")]
+		[Address(RVA = "0x5DDEF30", Offset = "0x5DDDF30", VA = "0x5DDEF30", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000180")]
+	[Token(Token = "0x17000182")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x600065D")]
+		[Address(RVA = "0x5DDEF60", Offset = "0x5DDDF60", VA = "0x5DDEF60", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600065B")]
+	[Address(RVA = "0x5DDEF20", Offset = "0x5DDDF20", VA = "0x5DDEF20")]
 	private EnterExceptionFilterInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "8")]
+	[Token(Token = "0x600065E")]
+	[Address(RVA = "0x5DDEF70", Offset = "0x5DDDF70", VA = "0x5DDEF70", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

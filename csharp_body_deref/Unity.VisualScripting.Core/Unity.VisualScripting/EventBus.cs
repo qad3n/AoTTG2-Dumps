@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.VisualScripting.EventBus
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ public static class EventBus
 	internal static Dictionary<EventHook, HashSet<Delegate>> testAccessEvents
 	{
 		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x2DA5EC0", Offset = "0x2DA44C0", VA = "0x182DA5EC0")]
+		[Address(RVA = "0x6797110", Offset = "0x6796110", VA = "0x6797110")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ public static class EventBus
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x2DA5E00", Offset = "0x2DA4400", VA = "0x182DA5E00")]
+	[Address(RVA = "0x6797040", Offset = "0x6796040", VA = "0x6797040")]
 	static EventBus()
 	{
 	}
@@ -42,7 +42,7 @@ public static class EventBus
 	}
 
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x2DA5CA0", Offset = "0x2DA42A0", VA = "0x182DA5CA0")]
+	[Address(RVA = "0x6797180", Offset = "0x6796180", VA = "0x6797180")]
 	public static void Unregister(EventHook hook, Delegate handler)
 	{
 	}
@@ -58,13 +58,13 @@ public static class EventBus
 	}
 
 	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x2DA5C20", Offset = "0x2DA4220", VA = "0x182DA5C20")]
+	[Address(RVA = "0x67972C0", Offset = "0x67962C0", VA = "0x67972C0")]
 	public static void Trigger(EventHook hook)
 	{
 	}
 
 	[Token(Token = "0x600028E")]
-	[Address(RVA = "0x2DA5B20", Offset = "0x2DA4120", VA = "0x182DA5B20")]
+	[Address(RVA = "0x6797320", Offset = "0x6796320", VA = "0x6797320")]
 	public static void Trigger(string name, GameObject target)
 	{
 	}

@@ -17,15 +17,15 @@ namespace Photon.Voice;
 public abstract class VoiceFollowClient : VoiceConnection
 {
 	[Token(Token = "0x4000005")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC4")]
 	public bool AutoConnectAndJoin;
 
 	[Token(Token = "0x4000006")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC9")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC5")]
 	private bool manualDisconnect;
 
 	[Token(Token = "0x4000007")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xCA")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC6")]
 	private bool errAuthOrJoin;
 
 	[Token(Token = "0x17000002")]
@@ -49,89 +49,89 @@ public abstract class VoiceFollowClient : VoiceConnection
 	protected abstract bool ConnectVoice();
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x1D98450", Offset = "0x1D96A50", VA = "0x181D98450")]
+	[Address(RVA = "0x5725240", Offset = "0x5724240", VA = "0x5725240")]
 	public bool ConnectAndJoinRoom()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x1D98950", Offset = "0x1D96F50", VA = "0x181D98950")]
+	[Address(RVA = "0x5725560", Offset = "0x5724560", VA = "0x5725560")]
 	public void Disconnect()
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x1D99820", Offset = "0x1D97E20", VA = "0x181D99820", Slot = "18")]
+	[Address(RVA = "0x5725740", Offset = "0x5724740", VA = "0x5725740", Slot = "18")]
 	protected virtual void Start()
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x1D96F50", Offset = "0x1D95550", VA = "0x181D96F50", Slot = "10")]
+	[Address(RVA = "0x5725760", Offset = "0x5724760", VA = "0x5725760", Slot = "10")]
 	protected override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x1D98FE0", Offset = "0x1D975E0", VA = "0x181D98FE0", Slot = "13")]
+	[Address(RVA = "0x57258B0", Offset = "0x57248B0", VA = "0x57258B0", Slot = "13")]
 	protected override void OnOperationResponseReceived(OperationResponse operationResponse)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x1D98EA0", Offset = "0x1D974A0", VA = "0x181D98EA0")]
+	[Address(RVA = "0x5725E70", Offset = "0x5724E70", VA = "0x5725E70")]
 	protected void LeaderStateChanged(ClientState toState)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x1D995A0", Offset = "0x1D97BA0", VA = "0x181D995A0", Slot = "12")]
+	[Address(RVA = "0x5726210", Offset = "0x5725210", VA = "0x5726210", Slot = "12")]
 	protected override void OnVoiceStateChanged(ClientState fromState, ClientState toState)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x1D98550", Offset = "0x1D96B50", VA = "0x181D98550")]
+	[Address(RVA = "0x57268C0", Offset = "0x57258C0", VA = "0x57268C0")]
 	private void ConnectOrJoinVoice()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x1D98AF0", Offset = "0x1D970F0", VA = "0x181D98AF0")]
+	[Address(RVA = "0x5727040", Offset = "0x5726040", VA = "0x5727040")]
 	public bool JoinRoom(string roomName, [Optional] string[] expectedUsers, [Optional] string password, [Optional] string hash, [Optional] string sessionID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x1D98860", Offset = "0x1D96E60", VA = "0x181D98860")]
+	[Address(RVA = "0x5727180", Offset = "0x5726180", VA = "0x5727180")]
 	public bool CreateRoom(string roomName, [Optional] RoomOptions roomOptions, [Optional] TypedLobby typedLobby, [Optional] string[] expectedUsers, [Optional] string hash, [Optional] string sessionID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x1D98C20", Offset = "0x1D97220", VA = "0x181D98C20", Slot = "19")]
+	[Address(RVA = "0x5727280", Offset = "0x5726280", VA = "0x5727280", Slot = "19")]
 	protected virtual bool JoinVoiceRoom(string voiceRoomName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x1D98A10", Offset = "0x1D97010", VA = "0x181D98A10")]
+	[Address(RVA = "0x5726020", Offset = "0x5725020", VA = "0x5726020")]
 	private void FollowLeader(ClientState toState)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x5725750", Offset = "0x5724750", VA = "0x5725750")]
 	private void FollowLeader()
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x1D99830", Offset = "0x1D97E30", VA = "0x181D99830")]
+	[Address(RVA = "0x5727620", Offset = "0x5726620", VA = "0x5727620")]
 	protected VoiceFollowClient()
 	{
 	}

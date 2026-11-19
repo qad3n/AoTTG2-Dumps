@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x20006A1")]
+[Token(Token = "0x200067B")]
 internal enum MonoFileType
 {
-	[Token(Token = "0x4001ACE")]
+	[Token(Token = "0x4001A34")]
 	Unknown = 0,
-	[Token(Token = "0x4001ACF")]
+	[Token(Token = "0x4001A35")]
 	Disk = 1,
-	[Token(Token = "0x4001AD0")]
+	[Token(Token = "0x4001A36")]
 	Char = 2,
-	[Token(Token = "0x4001AD1")]
+	[Token(Token = "0x4001A37")]
 	Pipe = 3,
-	[Token(Token = "0x4001AD2")]
+	[Token(Token = "0x4001A38")]
 	Remote = 32768
 }

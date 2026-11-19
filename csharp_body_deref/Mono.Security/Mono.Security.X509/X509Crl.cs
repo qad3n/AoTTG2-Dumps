@@ -35,8 +35,8 @@ public class X509Crl
 		[Token(Token = "0x17000026")]
 		public byte[] SerialNumber
 		{
-			[Token(Token = "0x600008A")]
-			[Address(RVA = "0x1927900", Offset = "0x1925F00", VA = "0x181927900")]
+			[Token(Token = "0x600007E")]
+			[Address(RVA = "0x52BC6D0", Offset = "0x52BB6D0", VA = "0x52BC6D0")]
 			get
 			{
 				return null;
@@ -46,8 +46,8 @@ public class X509Crl
 		[Token(Token = "0x17000027")]
 		public DateTime RevocationDate
 		{
-			[Token(Token = "0x600008B")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Token(Token = "0x600007F")]
+			[Address(RVA = "0x52BCD40", Offset = "0x52BBD40", VA = "0x52BCD40")]
 			get
 			{
 				return default(DateTime);
@@ -57,16 +57,16 @@ public class X509Crl
 		[Token(Token = "0x17000028")]
 		public X509ExtensionCollection Extensions
 		{
-			[Token(Token = "0x600008C")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Token(Token = "0x6000080")]
+			[Address(RVA = "0x52BCD50", Offset = "0x52BBD50", VA = "0x52BCD50")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x19277F0", Offset = "0x1925DF0", VA = "0x1819277F0")]
+		[Token(Token = "0x600007D")]
+		[Address(RVA = "0x52BBF50", Offset = "0x52BAF50", VA = "0x52BBF50")]
 		internal X509CrlEntry(ASN1 entry)
 		{
 		}
@@ -115,8 +115,8 @@ public class X509Crl
 	[Token(Token = "0x17000022")]
 	public X509ExtensionCollection Extensions
 	{
-		[Token(Token = "0x600007F")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x6000073")]
+		[Address(RVA = "0x52BC200", Offset = "0x52BB200", VA = "0x52BC200")]
 		get
 		{
 			return null;
@@ -126,8 +126,8 @@ public class X509Crl
 	[Token(Token = "0x17000023")]
 	public byte[] Hash
 	{
-		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x1928B40", Offset = "0x1927140", VA = "0x181928B40")]
+		[Token(Token = "0x6000074")]
+		[Address(RVA = "0x52BC210", Offset = "0x52BB210", VA = "0x52BC210")]
 		get
 		{
 			return null;
@@ -137,8 +137,8 @@ public class X509Crl
 	[Token(Token = "0x17000024")]
 	public string IssuerName
 	{
-		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000075")]
+		[Address(RVA = "0x52BC3F0", Offset = "0x52BB3F0", VA = "0x52BC3F0")]
 		get
 		{
 			return null;
@@ -148,63 +148,63 @@ public class X509Crl
 	[Token(Token = "0x17000025")]
 	public DateTime NextUpdate
 	{
-		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6000076")]
+		[Address(RVA = "0x52BC400", Offset = "0x52BB400", VA = "0x52BC400")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x1928A20", Offset = "0x1927020", VA = "0x181928A20")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x52BB640", Offset = "0x52BA640", VA = "0x52BB640")]
 	public X509Crl(byte[] crl)
 	{
 	}
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x1927C10", Offset = "0x1926210", VA = "0x181927C10")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x52BB740", Offset = "0x52BA740", VA = "0x52BB740")]
 	private void Parse(byte[] crl)
 	{
 	}
 
-	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x19241E0", Offset = "0x19227E0", VA = "0x1819241E0")]
+	[Token(Token = "0x6000077")]
+	[Address(RVA = "0x52BC410", Offset = "0x52BB410", VA = "0x52BC410")]
 	private bool Compare(byte[] array1, byte[] array2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x1927980", Offset = "0x1925F80", VA = "0x181927980")]
+	[Token(Token = "0x6000078")]
+	[Address(RVA = "0x52BC470", Offset = "0x52BB470", VA = "0x52BC470")]
 	public X509CrlEntry GetCrlEntry(X509Certificate x509)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x1927A00", Offset = "0x1926000", VA = "0x181927A00")]
+	[Token(Token = "0x6000079")]
+	[Address(RVA = "0x52BC4F0", Offset = "0x52BB4F0", VA = "0x52BC4F0")]
 	public X509CrlEntry GetCrlEntry(byte[] serialNumber)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x1928730", Offset = "0x1926D30", VA = "0x181928730")]
+	[Token(Token = "0x600007A")]
+	[Address(RVA = "0x52BC750", Offset = "0x52BB750", VA = "0x52BC750")]
 	internal bool VerifySignature(DSA dsa)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x1928650", Offset = "0x1926C50", VA = "0x181928650")]
+	[Token(Token = "0x600007B")]
+	[Address(RVA = "0x52BCB10", Offset = "0x52BBB10", VA = "0x52BCB10")]
 	internal bool VerifySignature(RSA rsa)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x19283A0", Offset = "0x19269A0", VA = "0x1819283A0")]
+	[Token(Token = "0x600007C")]
+	[Address(RVA = "0x52BCBE0", Offset = "0x52BBBE0", VA = "0x52BCBE0")]
 	public bool VerifySignature(AsymmetricAlgorithm aa)
 	{
 		return default(bool);

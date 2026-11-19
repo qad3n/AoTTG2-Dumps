@@ -32,116 +32,116 @@ internal static class ShorthandApplicator
 	private static List<EasingFunction> s_TransitionTimingFunctionList;
 
 	[Token(Token = "0x6002D1C")]
-	[Address(RVA = "0x31C3330", Offset = "0x31C1930", VA = "0x1831C3330")]
+	[Address(RVA = "0x6BC9470", Offset = "0x6BC8470", VA = "0x6BC9470")]
 	public static void ApplyBackgroundPosition(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D1D")]
-	[Address(RVA = "0x31C3400", Offset = "0x31C1A00", VA = "0x1831C3400")]
+	[Address(RVA = "0x6BC9C80", Offset = "0x6BC8C80", VA = "0x6BC9C80")]
 	public static void ApplyBorderColor(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D1E")]
-	[Address(RVA = "0x31C3970", Offset = "0x31C1F70", VA = "0x1831C3970")]
+	[Address(RVA = "0x6BC9ED0", Offset = "0x6BC8ED0", VA = "0x6BC9ED0")]
 	public static void ApplyBorderRadius(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D1F")]
-	[Address(RVA = "0x31C3B50", Offset = "0x31C2150", VA = "0x1831C3B50")]
+	[Address(RVA = "0x6BCA0E0", Offset = "0x6BC90E0", VA = "0x6BCA0E0")]
 	public static void ApplyBorderWidth(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D20")]
-	[Address(RVA = "0x31C3DE0", Offset = "0x31C23E0", VA = "0x1831C3DE0")]
+	[Address(RVA = "0x6BCA340", Offset = "0x6BC9340", VA = "0x6BCA340")]
 	public static void ApplyFlex(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D21")]
-	[Address(RVA = "0x31C3EC0", Offset = "0x31C24C0", VA = "0x1831C3EC0")]
+	[Address(RVA = "0x6BCA620", Offset = "0x6BC9620", VA = "0x6BCA620")]
 	public static void ApplyMargin(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D22")]
-	[Address(RVA = "0x31C4090", Offset = "0x31C2690", VA = "0x1831C4090")]
+	[Address(RVA = "0x6BCA860", Offset = "0x6BC9860", VA = "0x6BCA860")]
 	public static void ApplyPadding(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D23")]
-	[Address(RVA = "0x31C4270", Offset = "0x31C2870", VA = "0x1831C4270")]
+	[Address(RVA = "0x6BCA960", Offset = "0x6BC9960", VA = "0x6BCA960")]
 	public static void ApplyTransition(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D24")]
-	[Address(RVA = "0x31C43C0", Offset = "0x31C29C0", VA = "0x1831C43C0")]
+	[Address(RVA = "0x6BCB4C0", Offset = "0x6BCA4C0", VA = "0x6BCB4C0")]
 	public static void ApplyUnityBackgroundScaleMode(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D25")]
-	[Address(RVA = "0x31C4540", Offset = "0x31C2B40", VA = "0x1831C4540")]
+	[Address(RVA = "0x6BCB690", Offset = "0x6BCA690", VA = "0x6BCB690")]
 	public static void ApplyUnityTextOutline(StylePropertyReader reader, ref ComputedStyle computedStyle)
 	{
 	}
 
 	[Token(Token = "0x6002D26")]
-	[Address(RVA = "0x31C53D0", Offset = "0x31C39D0", VA = "0x1831C53D0")]
+	[Address(RVA = "0x6BCA410", Offset = "0x6BC9410", VA = "0x6BCA410")]
 	private static bool CompileFlexShorthand(StylePropertyReader reader, out float grow, out float shrink, out Length basis)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D27")]
-	[Address(RVA = "0x31C4DB0", Offset = "0x31C33B0", VA = "0x1831C4DB0")]
+	[Address(RVA = "0x6BC9FD0", Offset = "0x6BC8FD0", VA = "0x6BC9FD0")]
 	private static void CompileBorderRadius(StylePropertyReader reader, out Length top, out Length right, out Length bottom, out Length left)
 	{
 	}
 
 	[Token(Token = "0x6002D28")]
-	[Address(RVA = "0x31C46D0", Offset = "0x31C2CD0", VA = "0x1831C46D0")]
+	[Address(RVA = "0x6BC9540", Offset = "0x6BC8540", VA = "0x6BC9540")]
 	private static void CompileBackgroundPosition(StylePropertyReader reader, out BackgroundPosition backgroundPositionX, out BackgroundPosition backgroundPositionY)
 	{
 	}
 
 	[Token(Token = "0x6002D29")]
-	[Address(RVA = "0x31C60D0", Offset = "0x31C46D0", VA = "0x1831C60D0")]
+	[Address(RVA = "0x6BCB600", Offset = "0x6BCA600", VA = "0x6BCB600")]
 	public static void CompileUnityBackgroundScaleMode(StylePropertyReader reader, out BackgroundPosition backgroundPositionX, out BackgroundPosition backgroundPositionY, out BackgroundRepeat backgroundRepeat, out BackgroundSize backgroundSize)
 	{
 	}
 
 	[Token(Token = "0x6002D2A")]
-	[Address(RVA = "0x31C5260", Offset = "0x31C3860", VA = "0x1831C5260")]
+	[Address(RVA = "0x6BCA710", Offset = "0x6BC9710", VA = "0x6BCA710")]
 	private static void CompileBoxArea(StylePropertyReader reader, out Length top, out Length right, out Length bottom, out Length left)
 	{
 	}
 
 	[Token(Token = "0x6002D2B")]
-	[Address(RVA = "0x31C5090", Offset = "0x31C3690", VA = "0x1831C5090")]
+	[Address(RVA = "0x6BCA270", Offset = "0x6BC9270", VA = "0x6BCA270")]
 	private static void CompileBoxArea(StylePropertyReader reader, out float top, out float right, out float bottom, out float left)
 	{
 	}
 
 	[Token(Token = "0x6002D2C")]
-	[Address(RVA = "0x31C4ED0", Offset = "0x31C34D0", VA = "0x1831C4ED0")]
+	[Address(RVA = "0x6BC9D70", Offset = "0x6BC8D70", VA = "0x6BC9D70")]
 	private static void CompileBoxArea(StylePropertyReader reader, out Color top, out Color right, out Color bottom, out Color left)
 	{
 	}
 
 	[Token(Token = "0x6002D2D")]
-	[Address(RVA = "0x31C55E0", Offset = "0x31C3BE0", VA = "0x1831C55E0")]
+	[Address(RVA = "0x6BCB810", Offset = "0x6BCA810", VA = "0x6BCB810")]
 	private static void CompileTextOutline(StylePropertyReader reader, out Color outlineColor, out float outlineWidth)
 	{
 	}
 
 	[Token(Token = "0x6002D2E")]
-	[Address(RVA = "0x31C5680", Offset = "0x31C3C80", VA = "0x1831C5680")]
+	[Address(RVA = "0x6BCAAB0", Offset = "0x6BC9AB0", VA = "0x6BCAAB0")]
 	private static void CompileTransition(StylePropertyReader reader, out List<TimeValue> outDelay, out List<TimeValue> outDuration, out List<StylePropertyName> outProperty, out List<EasingFunction> outTimingFunction)
 	{
 	}

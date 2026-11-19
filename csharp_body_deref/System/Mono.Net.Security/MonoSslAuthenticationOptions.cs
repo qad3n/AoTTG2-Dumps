@@ -16,22 +16,54 @@ namespace Mono.Net.Security;
 [Token(Token = "0x200005E")]
 internal abstract class MonoSslAuthenticationOptions
 {
-	[Token(Token = "0x1700003F")]
+	[Token(Token = "0x1700003D")]
 	public abstract bool ServerMode
 	{
-		[Token(Token = "0x6000140")]
+		[Token(Token = "0x600013A")]
 		get;
 	}
 
+	[Token(Token = "0x1700003E")]
+	public abstract SslProtocols EnabledSslProtocols
+	{
+		[Token(Token = "0x600013B")]
+		get;
+		[Token(Token = "0x600013C")]
+		set;
+	}
+
+	[Token(Token = "0x1700003F")]
+	public abstract EncryptionPolicy EncryptionPolicy
+	{
+		[Token(Token = "0x600013D")]
+		set;
+	}
+
 	[Token(Token = "0x17000040")]
-	public abstract bool AllowRenegotiation
+	public abstract X509RevocationMode CertificateRevocationCheckMode
+	{
+		[Token(Token = "0x600013E")]
+		set;
+	}
+
+	[Token(Token = "0x17000041")]
+	public abstract string TargetHost
+	{
+		[Token(Token = "0x600013F")]
+		get;
+		[Token(Token = "0x6000140")]
+		set;
+	}
+
+	[Token(Token = "0x17000042")]
+	public abstract X509Certificate ServerCertificate
 	{
 		[Token(Token = "0x6000141")]
 		get;
 	}
 
-	[Token(Token = "0x17000041")]
-	public abstract SslProtocols EnabledSslProtocols
+	[Token(Token = "0x17000043")]
+	public abstract X509CertificateCollection ClientCertificates
 	{
 		[Token(Token = "0x6000142")]
 		get;
@@ -39,57 +71,18 @@ internal abstract class MonoSslAuthenticationOptions
 		set;
 	}
 
-	[Token(Token = "0x17000042")]
-	public abstract EncryptionPolicy EncryptionPolicy
+	[Token(Token = "0x17000044")]
+	public abstract bool ClientCertificateRequired
 	{
 		[Token(Token = "0x6000144")]
-		set;
-	}
-
-	[Token(Token = "0x17000043")]
-	public abstract X509RevocationMode CertificateRevocationCheckMode
-	{
-		[Token(Token = "0x6000145")]
-		set;
-	}
-
-	[Token(Token = "0x17000044")]
-	public abstract string TargetHost
-	{
-		[Token(Token = "0x6000146")]
 		get;
-		[Token(Token = "0x6000147")]
-		set;
 	}
 
 	[Token(Token = "0x17000045")]
-	public abstract X509Certificate ServerCertificate
-	{
-		[Token(Token = "0x6000148")]
-		get;
-	}
-
-	[Token(Token = "0x17000046")]
-	public abstract X509CertificateCollection ClientCertificates
-	{
-		[Token(Token = "0x6000149")]
-		get;
-		[Token(Token = "0x600014A")]
-		set;
-	}
-
-	[Token(Token = "0x17000047")]
-	public abstract bool ClientCertificateRequired
-	{
-		[Token(Token = "0x600014B")]
-		get;
-	}
-
-	[Token(Token = "0x17000048")]
 	internal ServerCertSelectionCallback ServerCertSelectionDelegate
 	{
-		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000145")]
+		[Address(RVA = "0x5E3D060", Offset = "0x5E3C060", VA = "0x5E3D060")]
 		[CompilerGenerated]
 		get
 		{
@@ -97,8 +90,8 @@ internal abstract class MonoSslAuthenticationOptions
 		}
 	}
 
-	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000146")]
+	[Address(RVA = "0x5E3D070", Offset = "0x5E3C070", VA = "0x5E3D070")]
 	protected MonoSslAuthenticationOptions()
 	{
 	}

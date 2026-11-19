@@ -18,14 +18,14 @@ public class ErrorContext
 	internal bool Traced
 	{
 		[Token(Token = "0x60007B4")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x55CF210", Offset = "0x55CE210", VA = "0x55CF210")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007B5")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x55CF220", Offset = "0x55CE220", VA = "0x55CF220")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,7 +36,7 @@ public class ErrorContext
 	public Exception Error
 	{
 		[Token(Token = "0x60007B6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x55CF230", Offset = "0x55CE230", VA = "0x55CF230")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,7 +48,7 @@ public class ErrorContext
 	public object? OriginalObject
 	{
 		[Token(Token = "0x60007B7")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x55CF240", Offset = "0x55CE240", VA = "0x55CF240")]
 		[CompilerGenerated]
 		get
 		{
@@ -60,7 +60,7 @@ public class ErrorContext
 	public object? Member
 	{
 		[Token(Token = "0x60007B8")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x55CF250", Offset = "0x55CE250", VA = "0x55CF250")]
 		[CompilerGenerated]
 		get
 		{
@@ -72,7 +72,7 @@ public class ErrorContext
 	public string Path
 	{
 		[Token(Token = "0x60007B9")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x55CF260", Offset = "0x55CE260", VA = "0x55CF260")]
 		[CompilerGenerated]
 		get
 		{
@@ -84,14 +84,14 @@ public class ErrorContext
 	public bool Handled
 	{
 		[Token(Token = "0x60007BA")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x55CF270", Offset = "0x55CE270", VA = "0x55CF270")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007BB")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x55CF280", Offset = "0x55CE280", VA = "0x55CF280")]
 		[CompilerGenerated]
 		set
 		{
@@ -99,7 +99,7 @@ public class ErrorContext
 	}
 
 	[Token(Token = "0x60007B3")]
-	[Address(RVA = "0x1C3DAC0", Offset = "0x1C3C0C0", VA = "0x181C3DAC0")]
+	[Address(RVA = "0x55CF1A0", Offset = "0x55CE1A0", VA = "0x55CF1A0")]
 	internal ErrorContext(object? originalObject, object? member, string path, Exception error)
 	{
 	}

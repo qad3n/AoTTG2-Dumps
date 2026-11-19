@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalEntityManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -102,7 +102,7 @@ internal class DecalEntityManager : IDisposable
 	public Material errorMaterial
 	{
 		[Token(Token = "0x600033C")]
-		[Address(RVA = "0x2C22020", Offset = "0x2C20620", VA = "0x182C22020")]
+		[Address(RVA = "0x6610D00", Offset = "0x660FD00", VA = "0x6610D00")]
 		get
 		{
 			return null;
@@ -113,7 +113,7 @@ internal class DecalEntityManager : IDisposable
 	public Mesh decalProjectorMesh
 	{
 		[Token(Token = "0x600033D")]
-		[Address(RVA = "0x2C21F40", Offset = "0x2C20540", VA = "0x182C21F40")]
+		[Address(RVA = "0x6614270", Offset = "0x6613270", VA = "0x6614270")]
 		get
 		{
 			return null;
@@ -121,58 +121,58 @@ internal class DecalEntityManager : IDisposable
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x2C21B80", Offset = "0x2C20180", VA = "0x182C21B80")]
+	[Address(RVA = "0x66154C0", Offset = "0x66144C0", VA = "0x66154C0")]
 	public DecalEntityManager()
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x2C20960", Offset = "0x2C1EF60", VA = "0x182C20960")]
+	[Address(RVA = "0x6615800", Offset = "0x6614800", VA = "0x6615800")]
 	public bool IsValid(DecalEntity decalEntity)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x2C1F550", Offset = "0x2C1DB50", VA = "0x182C1F550")]
+	[Address(RVA = "0x6615880", Offset = "0x6614880", VA = "0x6615880")]
 	public DecalEntity CreateDecalEntity(DecalProjector decalProjector)
 	{
 		return default(DecalEntity);
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x2C1EF80", Offset = "0x2C1D580", VA = "0x182C1EF80")]
+	[Address(RVA = "0x6615E40", Offset = "0x6614E40", VA = "0x6615E40")]
 	private int CreateChunkIndex(Material material)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x2C20980", Offset = "0x2C1EF80", VA = "0x182C20980")]
+	[Address(RVA = "0x6616870", Offset = "0x6615870", VA = "0x6616870")]
 	public void UpdateAllDecalEntitiesData()
 	{
 	}
 
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x2C20B50", Offset = "0x2C1F150", VA = "0x182C20B50")]
+	[Address(RVA = "0x66163F0", Offset = "0x66153F0", VA = "0x66163F0")]
 	public void UpdateDecalEntityData(DecalEntity decalEntity, DecalProjector decalProjector)
 	{
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x2C1FCA0", Offset = "0x2C1E2A0", VA = "0x182C1FCA0")]
+	[Address(RVA = "0x6616AF0", Offset = "0x6615AF0", VA = "0x6616AF0")]
 	public void DestroyDecalEntity(DecalEntity decalEntity)
 	{
 	}
 
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x2C21110", Offset = "0x2C1F710", VA = "0x182C21110")]
+	[Address(RVA = "0x6616D60", Offset = "0x6615D60", VA = "0x6616D60")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x2C1FFF0", Offset = "0x2C1E5F0", VA = "0x182C1FFF0", Slot = "4")]
+	[Address(RVA = "0x6617800", Offset = "0x6616800", VA = "0x6617800", Slot = "4")]
 	public void Dispose()
 	{
 	}

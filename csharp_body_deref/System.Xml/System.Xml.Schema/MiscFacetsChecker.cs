@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 internal class MiscFacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x600124B")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5FBF250", Offset = "0x5FBE250", VA = "0x5FBF250")]
 	public MiscFacetsChecker()
 	{
 	}

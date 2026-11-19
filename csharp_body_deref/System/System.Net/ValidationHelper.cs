@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002CC")]
+[Token(Token = "0x200028D")]
 internal static class ValidationHelper
 {
-	[Token(Token = "0x4000AA4")]
+	[Token(Token = "0x40009D5")]
 	[FieldOffset(Offset = "0x0")]
 	public static string[] EmptyArray;
 
-	[Token(Token = "0x4000AA5")]
+	[Token(Token = "0x40009D6")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly char[] InvalidMethodChars;
 
-	[Token(Token = "0x4000AA6")]
+	[Token(Token = "0x40009D7")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly char[] InvalidParamChars;
 
-	[Token(Token = "0x6001393")]
-	[Address(RVA = "0x27D4D10", Offset = "0x27D3310", VA = "0x1827D4D10")]
+	[Token(Token = "0x60011D5")]
+	[Address(RVA = "0x62A5830", Offset = "0x62A4830", VA = "0x62A5830")]
 	public static string MakeStringNull(string stringValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001394")]
-	[Address(RVA = "0x27D4D00", Offset = "0x27D3300", VA = "0x1827D4D00")]
+	[Token(Token = "0x60011D6")]
+	[Address(RVA = "0x62A6490", Offset = "0x62A5490", VA = "0x62A6490")]
 	public static bool IsBlankString(string stringValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001395")]
-	[Address(RVA = "0x27D4D20", Offset = "0x27D3320", VA = "0x1827D4D20")]
+	[Token(Token = "0x60011D7")]
+	[Address(RVA = "0x62A64A0", Offset = "0x62A54A0", VA = "0x62A64A0")]
 	public static bool ValidateTcpPort(int port)
 	{
 		return default(bool);

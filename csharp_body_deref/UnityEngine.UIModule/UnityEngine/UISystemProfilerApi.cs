@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UISystemProfilerApi
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,23 +29,23 @@ public static class UISystemProfilerApi
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x32C2640", Offset = "0x32C0C40", VA = "0x1832C2640")]
+	[Token(Token = "0x60000A4")]
+	[Address(RVA = "0x6CCE670", Offset = "0x6CCD670", VA = "0x6CCE670")]
 	public static extern void BeginSample(SampleType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x32C2680", Offset = "0x32C0C80", VA = "0x1832C2680")]
+	[Token(Token = "0x60000A5")]
+	[Address(RVA = "0x6CCE6A0", Offset = "0x6CCD6A0", VA = "0x6CCE6A0")]
 	public static extern void EndSample(SampleType type);
 
-	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x32C2480", Offset = "0x32C0A80", VA = "0x1832C2480")]
+	[Token(Token = "0x60000A6")]
+	[Address(RVA = "0x6CCE6D0", Offset = "0x6CCD6D0", VA = "0x6CCE6D0")]
 	public static void AddMarker(string name, Object obj)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x32C2430", Offset = "0x32C0A30", VA = "0x1832C2430")]
+	[Token(Token = "0x60000A7")]
+	[Address(RVA = "0x6CCE880", Offset = "0x6CCD880", VA = "0x6CCE880")]
 	private static extern void AddMarker_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper name, IntPtr obj);
 }

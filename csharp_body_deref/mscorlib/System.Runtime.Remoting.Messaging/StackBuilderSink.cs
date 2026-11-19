@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003F2")]
+[Token(Token = "0x20003CB")]
 internal class StackBuilderSink : IMessageSink
 {
-	[Token(Token = "0x4000FC7")]
+	[Token(Token = "0x4000F27")]
 	[FieldOffset(Offset = "0x10")]
 	private MarshalByRefObject _target;
 
-	[Token(Token = "0x4000FC8")]
+	[Token(Token = "0x4000F28")]
 	[FieldOffset(Offset = "0x18")]
 	private RealProxy _rp;
 
-	[Token(Token = "0x6001F83")]
-	[Address(RVA = "0x1A09760", Offset = "0x1A07D60", VA = "0x181A09760")]
+	[Token(Token = "0x6001F59")]
+	[Address(RVA = "0x5383580", Offset = "0x5382580", VA = "0x5383580")]
 	public StackBuilderSink(MarshalByRefObject obj, bool forceInternalExecute)
 	{
 	}
 
-	[Token(Token = "0x6001F84")]
-	[Address(RVA = "0x1A09650", Offset = "0x1A07C50", VA = "0x181A09650", Slot = "4")]
+	[Token(Token = "0x6001F5A")]
+	[Address(RVA = "0x539AAE0", Offset = "0x5399AE0", VA = "0x539AAE0", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F85")]
-	[Address(RVA = "0x1A08FD0", Offset = "0x1A075D0", VA = "0x181A08FD0", Slot = "5")]
+	[Token(Token = "0x6001F5B")]
+	[Address(RVA = "0x539AF80", Offset = "0x5399F80", VA = "0x539AF80", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F86")]
-	[Address(RVA = "0x1A09470", Offset = "0x1A07A70", VA = "0x181A09470")]
+	[Token(Token = "0x6001F5C")]
+	[Address(RVA = "0x539B0B0", Offset = "0x539A0B0", VA = "0x539B0B0")]
 	private void ExecuteAsyncMessage(object ob)
 	{
 	}
 
-	[Token(Token = "0x6001F87")]
-	[Address(RVA = "0x1A09110", Offset = "0x1A07710", VA = "0x181A09110")]
+	[Token(Token = "0x6001F5D")]
+	[Address(RVA = "0x539ABA0", Offset = "0x5399BA0", VA = "0x539ABA0")]
 	private void CheckParameters(IMessage msg)
 	{
 	}

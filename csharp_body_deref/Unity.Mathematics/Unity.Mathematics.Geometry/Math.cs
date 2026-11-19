@@ -15,7 +15,7 @@ public static class Math
 {
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BE")]
-	[Address(RVA = "0x2A396D0", Offset = "0x2A37CD0", VA = "0x182A396D0")]
+	[Address(RVA = "0x640FA30", Offset = "0x640EA30", VA = "0x640FA30")]
 	public static MinMaxAABB Transform(RigidTransform transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);
@@ -23,7 +23,7 @@ public static class Math
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BF")]
-	[Address(RVA = "0x2A39590", Offset = "0x2A37B90", VA = "0x182A39590")]
+	[Address(RVA = "0x640FE70", Offset = "0x640EE70", VA = "0x640FE70")]
 	public static MinMaxAABB Transform(float4x4 transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);
@@ -31,7 +31,7 @@ public static class Math
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024C0")]
-	[Address(RVA = "0x2A373C0", Offset = "0x2A359C0", VA = "0x182A373C0")]
+	[Address(RVA = "0x64101E0", Offset = "0x640F1E0", VA = "0x64101E0")]
 	public static MinMaxAABB Transform(float3x3 transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);

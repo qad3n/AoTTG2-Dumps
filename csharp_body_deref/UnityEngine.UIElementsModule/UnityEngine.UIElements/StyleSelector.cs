@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSelector
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,13 +41,13 @@ internal class StyleSelector
 	public StyleSelectorPart[] parts
 	{
 		[Token(Token = "0x6002293")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Address(RVA = "0x6B1F930", Offset = "0x6B1E930", VA = "0x6B1F930")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002294")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6B1F190", Offset = "0x6B1E190", VA = "0x6B1F190")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -58,13 +58,13 @@ internal class StyleSelector
 	public StyleSelectorRelationship previousRelationship
 	{
 		[Token(Token = "0x6002295")]
-		[Address(RVA = "0xB3E0C0", Offset = "0xB3C6C0", VA = "0x180B3E0C0")]
+		[Address(RVA = "0x6B21C70", Offset = "0x6B20C70", VA = "0x6B21C70")]
 		get
 		{
 			return default(StyleSelectorRelationship);
 		}
 		[Token(Token = "0x6002296")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x6B1F1A0", Offset = "0x6B1E1A0", VA = "0x6B1F1A0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -72,14 +72,14 @@ internal class StyleSelector
 	}
 
 	[Token(Token = "0x6002297")]
-	[Address(RVA = "0x31184E0", Offset = "0x3116AE0", VA = "0x1831184E0", Slot = "3")]
+	[Address(RVA = "0x6B21C80", Offset = "0x6B20C80", VA = "0x6B21C80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002298")]
-	[Address(RVA = "0x3118620", Offset = "0x3116C20", VA = "0x183118620")]
+	[Address(RVA = "0x6B1F180", Offset = "0x6B1E180", VA = "0x6B1F180")]
 	public StyleSelector()
 	{
 	}

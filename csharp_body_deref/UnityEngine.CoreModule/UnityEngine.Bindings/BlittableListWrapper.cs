@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Bindings.BlittableListWrapper
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,23 +15,23 @@ namespace UnityEngine.Bindings;
 [UnityEngine.Bindings.VisibleToOtherModules]
 internal ref struct BlittableListWrapper
 {
-	[Token(Token = "0x4000747")]
+	[Token(Token = "0x4000745")]
 	[FieldOffset(Offset = "0x0")]
 	private BlittableArrayWrapper arrayWrapper;
 
-	[Token(Token = "0x4000748")]
+	[Token(Token = "0x4000746")]
 	[FieldOffset(Offset = "0x10")]
 	private int listSize;
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600117D")]
-	[Address(RVA = "0x1028C90", Offset = "0x1027290", VA = "0x181028C90")]
+	[Token(Token = "0x6001191")]
+	[Address(RVA = "0x6935A40", Offset = "0x6934A40", VA = "0x6935A40")]
 	public BlittableListWrapper(BlittableArrayWrapper arrayWrapper, int listSize)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600117E")]
+	[Token(Token = "0x6001192")]
 	internal void Unmarshal<T>(List<T> list) where T : struct
 	{
 	}

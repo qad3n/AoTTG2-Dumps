@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004E4")]
+[Token(Token = "0x20004BD")]
 public enum UltimateResourceFallbackLocation
 {
-	[Token(Token = "0x400136E")]
+	[Token(Token = "0x40012CE")]
 	MainAssembly,
-	[Token(Token = "0x400136F")]
+	[Token(Token = "0x40012CF")]
 	Satellite
 }

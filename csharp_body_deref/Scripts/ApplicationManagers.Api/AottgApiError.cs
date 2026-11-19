@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x2000953")]
+[Token(Token = "0x20009BA")]
 public static class AottgApiError
 {
-	[Token(Token = "0x4002E26")]
+	[Token(Token = "0x40030D4")]
 	public const string NetworkError = "network_error";
 
-	[Token(Token = "0x4002E27")]
+	[Token(Token = "0x40030D5")]
 	public const string BadResponse = "bad_response";
 
-	[Token(Token = "0x4002E28")]
+	[Token(Token = "0x40030D6")]
 	public const string Canceled = "canceled";
 
-	[Token(Token = "0x6005706")]
-	[Address(RVA = "0x23607E0", Offset = "0x235EDE0", VA = "0x1823607E0")]
+	[Token(Token = "0x6005A5F")]
+	[Address(RVA = "0x5D2A580", Offset = "0x5D29580", VA = "0x5D2A580")]
 	public static string Http(long statusCode)
 	{
 		return null;

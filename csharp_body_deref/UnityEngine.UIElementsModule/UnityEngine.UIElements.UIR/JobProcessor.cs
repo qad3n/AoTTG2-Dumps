@@ -18,21 +18,21 @@ namespace UnityEngine.UIElements.UIR;
 internal static class JobProcessor
 {
 	[Token(Token = "0x60028A8")]
-	[Address(RVA = "0x315D3F0", Offset = "0x315B9F0", VA = "0x18315D3F0")]
+	[Address(RVA = "0x6B76FB0", Offset = "0x6B75FB0", VA = "0x6B76FB0")]
 	internal static JobHandle ScheduleNudgeJobs(IntPtr buffer, int jobCount)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60028A9")]
-	[Address(RVA = "0x315D290", Offset = "0x315B890", VA = "0x18315D290")]
+	[Address(RVA = "0x6B77040", Offset = "0x6B76040", VA = "0x6B77040")]
 	internal static JobHandle ScheduleConvertMeshJobs(IntPtr buffer, int jobCount)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60028AA")]
-	[Address(RVA = "0x315D340", Offset = "0x315B940", VA = "0x18315D340")]
+	[Address(RVA = "0x6B770D0", Offset = "0x6B760D0", VA = "0x6B770D0")]
 	internal static JobHandle ScheduleCopyMeshJobs(IntPtr buffer, int jobCount)
 	{
 		return default(JobHandle);
@@ -40,16 +40,16 @@ internal static class JobProcessor
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60028AB")]
-	[Address(RVA = "0x315D3A0", Offset = "0x315B9A0", VA = "0x18315D3A0")]
+	[Address(RVA = "0x6B77000", Offset = "0x6B76000", VA = "0x6B77000")]
 	private static extern void ScheduleNudgeJobs_Injected(IntPtr buffer, int jobCount, out JobHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60028AC")]
-	[Address(RVA = "0x315D240", Offset = "0x315B840", VA = "0x18315D240")]
+	[Address(RVA = "0x6B77090", Offset = "0x6B76090", VA = "0x6B77090")]
 	private static extern void ScheduleConvertMeshJobs_Injected(IntPtr buffer, int jobCount, out JobHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60028AD")]
-	[Address(RVA = "0x315D2F0", Offset = "0x315B8F0", VA = "0x18315D2F0")]
+	[Address(RVA = "0x6B77120", Offset = "0x6B76120", VA = "0x6B77120")]
 	private static extern void ScheduleCopyMeshJobs_Injected(IntPtr buffer, int jobCount, out JobHandle ret);
 }

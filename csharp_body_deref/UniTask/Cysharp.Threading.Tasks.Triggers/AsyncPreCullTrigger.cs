@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncPreCullTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x29366A0", Offset = "0x2934CA0", VA = "0x1829366A0")]
+	[Address(RVA = "0x62FEAB0", Offset = "0x62FDAB0", VA = "0x62FEAB0")]
 	private void OnPreCull()
 	{
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x2936390", Offset = "0x2934990", VA = "0x182936390")]
+	[Address(RVA = "0x62FEB20", Offset = "0x62FDB20", VA = "0x62FEB20")]
 	public IAsyncOnPreCullHandler GetOnPreCullAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x2936400", Offset = "0x2934A00", VA = "0x182936400")]
+	[Address(RVA = "0x62FEB90", Offset = "0x62FDB90", VA = "0x62FEB90")]
 	public IAsyncOnPreCullHandler GetOnPreCullAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x2936590", Offset = "0x2934B90", VA = "0x182936590")]
+	[Address(RVA = "0x62FEC00", Offset = "0x62FDC00", VA = "0x62FEC00")]
 	public UniTask OnPreCullAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B95")]
-	[Address(RVA = "0x2936480", Offset = "0x2934A80", VA = "0x182936480")]
+	[Address(RVA = "0x62FECF0", Offset = "0x62FDCF0", VA = "0x62FECF0")]
 	public UniTask OnPreCullAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B96")]
-	[Address(RVA = "0x2936710", Offset = "0x2934D10", VA = "0x182936710")]
+	[Address(RVA = "0x62FEDE0", Offset = "0x62FDDE0", VA = "0x62FEDE0")]
 	public AsyncPreCullTrigger()
 	{
 	}

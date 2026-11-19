@@ -29,14 +29,14 @@ public class ProfilingSampler
 	internal CustomSampler sampler
 	{
 		[Token(Token = "0x60007B3")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x64D88F0", Offset = "0x64D78F0", VA = "0x64D88F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007B4")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x64D8900", Offset = "0x64D7900", VA = "0x64D8900")]
 		[CompilerGenerated]
 		private set
 		{
@@ -47,14 +47,14 @@ public class ProfilingSampler
 	internal CustomSampler inlineSampler
 	{
 		[Token(Token = "0x60007B5")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x64D8910", Offset = "0x64D7910", VA = "0x64D8910")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007B6")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x64D8920", Offset = "0x64D7920", VA = "0x64D8920")]
 		[CompilerGenerated]
 		private set
 		{
@@ -65,14 +65,14 @@ public class ProfilingSampler
 	public string name
 	{
 		[Token(Token = "0x60007B7")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x64D8930", Offset = "0x64D7930", VA = "0x64D8930")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007B8")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x64D8940", Offset = "0x64D7940", VA = "0x64D8940")]
 		[CompilerGenerated]
 		private set
 		{
@@ -83,7 +83,7 @@ public class ProfilingSampler
 	public bool enableRecording
 	{
 		[Token(Token = "0x60007B9")]
-		[Address(RVA = "0x2AE4730", Offset = "0x2AE2D30", VA = "0x182AE4730")]
+		[Address(RVA = "0x64D8950", Offset = "0x64D7950", VA = "0x64D8950")]
 		set
 		{
 		}
@@ -93,7 +93,7 @@ public class ProfilingSampler
 	public float gpuElapsedTime
 	{
 		[Token(Token = "0x60007BA")]
-		[Address(RVA = "0x2AE45F0", Offset = "0x2AE2BF0", VA = "0x182AE45F0")]
+		[Address(RVA = "0x64D8990", Offset = "0x64D7990", VA = "0x64D8990")]
 		get
 		{
 			return default(float);
@@ -104,7 +104,7 @@ public class ProfilingSampler
 	public int gpuSampleCount
 	{
 		[Token(Token = "0x60007BB")]
-		[Address(RVA = "0x2AE4650", Offset = "0x2AE2C50", VA = "0x182AE4650")]
+		[Address(RVA = "0x64D89E0", Offset = "0x64D79E0", VA = "0x64D89E0")]
 		get
 		{
 			return default(int);
@@ -115,7 +115,7 @@ public class ProfilingSampler
 	public float cpuElapsedTime
 	{
 		[Token(Token = "0x60007BC")]
-		[Address(RVA = "0x2AE4550", Offset = "0x2AE2B50", VA = "0x182AE4550")]
+		[Address(RVA = "0x64D8A20", Offset = "0x64D7A20", VA = "0x64D8A20")]
 		get
 		{
 			return default(float);
@@ -126,7 +126,7 @@ public class ProfilingSampler
 	public int cpuSampleCount
 	{
 		[Token(Token = "0x60007BD")]
-		[Address(RVA = "0x2AE45B0", Offset = "0x2AE2BB0", VA = "0x182AE45B0")]
+		[Address(RVA = "0x64D8A70", Offset = "0x64D7A70", VA = "0x64D8A70")]
 		get
 		{
 			return default(int);
@@ -137,7 +137,7 @@ public class ProfilingSampler
 	public float inlineCpuElapsedTime
 	{
 		[Token(Token = "0x60007BE")]
-		[Address(RVA = "0x2AE4690", Offset = "0x2AE2C90", VA = "0x182AE4690")]
+		[Address(RVA = "0x64D8AB0", Offset = "0x64D7AB0", VA = "0x64D8AB0")]
 		get
 		{
 			return default(float);
@@ -148,7 +148,7 @@ public class ProfilingSampler
 	public int inlineCpuSampleCount
 	{
 		[Token(Token = "0x60007BF")]
-		[Address(RVA = "0x2AE46F0", Offset = "0x2AE2CF0", VA = "0x182AE46F0")]
+		[Address(RVA = "0x64D8B00", Offset = "0x64D7B00", VA = "0x64D8B00")]
 		get
 		{
 			return default(int);
@@ -162,32 +162,32 @@ public class ProfilingSampler
 	}
 
 	[Token(Token = "0x60007AF")]
-	[Address(RVA = "0x2AE4420", Offset = "0x2AE2A20", VA = "0x182AE4420")]
+	[Address(RVA = "0x64D86E0", Offset = "0x64D76E0", VA = "0x64D86E0")]
 	public ProfilingSampler(string name)
 	{
 	}
 
 	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x2AE4340", Offset = "0x2AE2940", VA = "0x182AE4340")]
+	[Address(RVA = "0x64D8810", Offset = "0x64D7810", VA = "0x64D8810")]
 	public void Begin(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x60007B1")]
-	[Address(RVA = "0x2AE43A0", Offset = "0x2AE29A0", VA = "0x182AE43A0")]
+	[Address(RVA = "0x64D8870", Offset = "0x64D7870", VA = "0x64D8870")]
 	public void End(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x60007B2")]
-	[Address(RVA = "0x2AE4400", Offset = "0x2AE2A00", VA = "0x182AE4400")]
+	[Address(RVA = "0x64D88D0", Offset = "0x64D78D0", VA = "0x64D88D0")]
 	internal bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007C0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64D8B40", Offset = "0x64D7B40", VA = "0x64D8B40")]
 	private ProfilingSampler()
 	{
 	}

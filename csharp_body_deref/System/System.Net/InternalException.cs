@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002CA")]
+[Token(Token = "0x200028B")]
 internal class InternalException : SystemException
 {
-	[Token(Token = "0x600138D")]
-	[Address(RVA = "0x19A1CF0", Offset = "0x19A02F0", VA = "0x1819A1CF0")]
+	[Token(Token = "0x60011CF")]
+	[Address(RVA = "0x62A5CE0", Offset = "0x62A4CE0", VA = "0x62A5CE0")]
 	internal InternalException()
 	{
 	}

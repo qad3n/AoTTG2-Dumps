@@ -13,50 +13,50 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x2000207")]
 public sealed class AottgHoverMarqueeText : AottgComponent
 {
-	[Token(Token = "0x4000A53")]
+	[Token(Token = "0x4000ACB")]
 	public const string NodeType = "AottgHoverMarqueeText";
 
-	[Token(Token = "0x4000A54")]
+	[Token(Token = "0x4000ACC")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool _registered;
 
-	[Token(Token = "0x4000A55")]
+	[Token(Token = "0x4000ACD")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000A56")]
+	[Token(Token = "0x4000ACE")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _text;
 
-	[Token(Token = "0x6000B49")]
-	[Address(RVA = "0x23B49C0", Offset = "0x23B2FC0", VA = "0x1823B49C0")]
+	[Token(Token = "0x6000C0D")]
+	[Address(RVA = "0x5D83DC0", Offset = "0x5D82DC0", VA = "0x5D83DC0")]
 	static AottgHoverMarqueeText()
 	{
 	}
 
-	[Token(Token = "0x6000B4A")]
-	[Address(RVA = "0x23B4890", Offset = "0x23B2E90", VA = "0x1823B4890")]
+	[Token(Token = "0x6000C0E")]
+	[Address(RVA = "0x5D81FF0", Offset = "0x5D80FF0", VA = "0x5D81FF0")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x23B49D0", Offset = "0x23B2FD0", VA = "0x1823B49D0")]
+	[Token(Token = "0x6000C0F")]
+	[Address(RVA = "0x5D83DD0", Offset = "0x5D82DD0", VA = "0x5D83DD0")]
 	public AottgHoverMarqueeText(string id, string text)
 	{
 	}
 
-	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x23B4660", Offset = "0x23B2C60", VA = "0x1823B4660", Slot = "4")]
+	[Token(Token = "0x6000C10")]
+	[Address(RVA = "0x5D83E30", Offset = "0x5D82E30", VA = "0x5D83E30", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x23B4500", Offset = "0x23B2B00", VA = "0x1823B4500")]
+	[Token(Token = "0x6000C11")]
+	[Address(RVA = "0x5D83FF0", Offset = "0x5D82FF0", VA = "0x5D83FF0")]
 	private static bool BuildRuntime(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

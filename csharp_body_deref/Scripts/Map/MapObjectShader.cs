@@ -9,51 +9,51 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x20003AF")]
+[Token(Token = "0x200040C")]
 public static class MapObjectShader
 {
-	[Token(Token = "0x4001340")]
+	[Token(Token = "0x40014D7")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Default;
 
-	[Token(Token = "0x4001341")]
+	[Token(Token = "0x40014D8")]
 	[FieldOffset(Offset = "0x8")]
 	public static string DefaultNoTint;
 
-	[Token(Token = "0x4001342")]
+	[Token(Token = "0x40014D9")]
 	[FieldOffset(Offset = "0x10")]
 	public static string DefaultTiled;
 
-	[Token(Token = "0x4001343")]
+	[Token(Token = "0x40014DA")]
 	[FieldOffset(Offset = "0x18")]
 	public static string Basic;
 
-	[Token(Token = "0x4001344")]
+	[Token(Token = "0x40014DB")]
 	[FieldOffset(Offset = "0x20")]
 	public static string Transparent;
 
-	[Token(Token = "0x4001345")]
+	[Token(Token = "0x40014DC")]
 	[FieldOffset(Offset = "0x28")]
 	public static string Reflective;
 
-	[Token(Token = "0x4001346")]
+	[Token(Token = "0x40014DD")]
 	[FieldOffset(Offset = "0x30")]
 	public static string OldBombExplode;
 
-	[Token(Token = "0x4001347")]
+	[Token(Token = "0x40014DE")]
 	[FieldOffset(Offset = "0x38")]
 	public static string CannonRegionMat;
 
-	[Token(Token = "0x4001348")]
+	[Token(Token = "0x40014DF")]
 	[FieldOffset(Offset = "0x40")]
 	public static string BombTexMat;
 
-	[Token(Token = "0x4001349")]
+	[Token(Token = "0x40014E0")]
 	[FieldOffset(Offset = "0x48")]
 	public static string Smoke1Mat;
 
-	[Token(Token = "0x6001766")]
-	[Address(RVA = "0x1EB4DB0", Offset = "0x1EB33B0", VA = "0x181EB4DB0")]
+	[Token(Token = "0x60019D4")]
+	[Address(RVA = "0x589E940", Offset = "0x589D940", VA = "0x589E940")]
 	public static bool IsLegacyShader(string shader)
 	{
 		return default(bool);

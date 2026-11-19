@@ -23,13 +23,13 @@ public class fsPropertyAttribute : Attribute
 	public Type Converter;
 
 	[Token(Token = "0x60012AE")]
-	[Address(RVA = "0x287CF80", Offset = "0x287B580", VA = "0x18287CF80")]
+	[Address(RVA = "0x6869840", Offset = "0x6868840", VA = "0x6869840")]
 	public fsPropertyAttribute()
 	{
 	}
 
 	[Token(Token = "0x60012AF")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x6869880", Offset = "0x6868880", VA = "0x6869880")]
 	public fsPropertyAttribute(string name)
 	{
 	}

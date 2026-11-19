@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200027C")]
+[Token(Token = "0x2000254")]
 internal sealed class ContinuationTaskFromResultTask<TAntecedentResult> : Task
 {
-	[Token(Token = "0x4000B2E")]
+	[Token(Token = "0x4000A8C")]
 	[FieldOffset(Offset = "0x0")]
 	private Task<TAntecedentResult> m_antecedent;
 
-	[Token(Token = "0x600150D")]
+	[Token(Token = "0x60014E4")]
 	public ContinuationTaskFromResultTask(Task<TAntecedentResult> antecedent, Delegate action, object state, TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions)
 	{
 	}
 
-	[Token(Token = "0x600150E")]
+	[Token(Token = "0x60014E5")]
 	internal override void InnerInvoke()
 	{
 	}

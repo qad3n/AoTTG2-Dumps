@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200022E")]
+[Token(Token = "0x20001EF")]
 internal sealed class SRCategoryAttribute : CategoryAttribute
 {
-	[Token(Token = "0x6000F4F")]
-	[Address(RVA = "0x28DBB10", Offset = "0x28DA110", VA = "0x1828DBB10")]
+	[Token(Token = "0x6000D8F")]
+	[Address(RVA = "0x627C8A0", Offset = "0x627B8A0", VA = "0x627C8A0")]
 	public SRCategoryAttribute(string category)
 	{
 	}

@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000F8")]
+[Token(Token = "0x20000F9")]
 internal sealed class EnterFaultInstruction : IndexedBranchInstruction
 {
-	[Token(Token = "0x4000246")]
+	[Token(Token = "0x400024F")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly EnterFaultInstruction[] s_cache;
 
-	[Token(Token = "0x1700017A")]
+	[Token(Token = "0x1700017C")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000645")]
-		[Address(RVA = "0x242DA50", Offset = "0x242C050", VA = "0x18242DA50", Slot = "9")]
+		[Token(Token = "0x6000650")]
+		[Address(RVA = "0x5DDEC20", Offset = "0x5DDDC20", VA = "0x5DDEC20", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700017B")]
+	[Token(Token = "0x1700017D")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000646")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "5")]
+		[Token(Token = "0x6000651")]
+		[Address(RVA = "0x5DDEC50", Offset = "0x5DDDC50", VA = "0x5DDEC50", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x600064F")]
+	[Address(RVA = "0x5DDEC00", Offset = "0x5DDDC00", VA = "0x5DDEC00")]
 	private EnterFaultInstruction(int labelIndex)
 	{
 	}
 
-	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x242D860", Offset = "0x242BE60", VA = "0x18242D860")]
+	[Token(Token = "0x6000652")]
+	[Address(RVA = "0x5DDEC60", Offset = "0x5DDDC60", VA = "0x5DDEC60")]
 	internal static EnterFaultInstruction Create(int labelIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x242D970", Offset = "0x242BF70", VA = "0x18242D970", Slot = "8")]
+	[Token(Token = "0x6000653")]
+	[Address(RVA = "0x5DDED60", Offset = "0x5DDDD60", VA = "0x5DDED60", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

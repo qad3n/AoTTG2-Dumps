@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200027F")]
+[Token(Token = "0x2000257")]
 internal class StandardTaskContinuation : System.Threading.Tasks.TaskContinuation
 {
-	[Token(Token = "0x4000B30")]
+	[Token(Token = "0x4000A8E")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly Task m_task;
 
-	[Token(Token = "0x4000B31")]
+	[Token(Token = "0x4000A8F")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly TaskContinuationOptions m_options;
 
-	[Token(Token = "0x4000B32")]
+	[Token(Token = "0x4000A90")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly TaskScheduler m_taskScheduler;
 
-	[Token(Token = "0x6001514")]
-	[Address(RVA = "0x1BB3BC0", Offset = "0x1BB21C0", VA = "0x181BB3BC0")]
+	[Token(Token = "0x60014EB")]
+	[Address(RVA = "0x5549570", Offset = "0x5548570", VA = "0x5549570")]
 	internal StandardTaskContinuation(Task task, TaskContinuationOptions options, TaskScheduler scheduler)
 	{
 	}
 
-	[Token(Token = "0x6001515")]
-	[Address(RVA = "0x1BB3A90", Offset = "0x1BB2090", VA = "0x181BB3A90", Slot = "4")]
+	[Token(Token = "0x60014EC")]
+	[Address(RVA = "0x554BF60", Offset = "0x554AF60", VA = "0x554BF60", Slot = "4")]
 	internal override void Run(Task completedTask, bool bCanInlineContinuationTask)
 	{
 	}

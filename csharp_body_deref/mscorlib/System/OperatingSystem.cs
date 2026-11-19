@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200016A")]
+[Token(Token = "0x2000142")]
 public sealed class OperatingSystem : ISerializable, ICloneable
 {
-	[Token(Token = "0x4000557")]
+	[Token(Token = "0x40004B5")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Version _version;
 
-	[Token(Token = "0x4000558")]
+	[Token(Token = "0x40004B6")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly PlatformID _platform;
 
-	[Token(Token = "0x4000559")]
+	[Token(Token = "0x40004B7")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly string _servicePack;
 
-	[Token(Token = "0x400055A")]
+	[Token(Token = "0x40004B8")]
 	[FieldOffset(Offset = "0x28")]
 	private string _versionString;
 
 	[Token(Token = "0x17000113")]
 	public PlatformID Platform
 	{
-		[Token(Token = "0x6000CC8")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6000CA3")]
+		[Address(RVA = "0x54E1B40", Offset = "0x54E0B40", VA = "0x54E1B40")]
 		get
 		{
 			return default(PlatformID);
@@ -44,41 +44,41 @@ public sealed class OperatingSystem : ISerializable, ICloneable
 	[Token(Token = "0x17000114")]
 	public string VersionString
 	{
-		[Token(Token = "0x6000CCB")]
-		[Address(RVA = "0x1B44EF0", Offset = "0x1B434F0", VA = "0x181B44EF0")]
+		[Token(Token = "0x6000CA6")]
+		[Address(RVA = "0x54E1BD0", Offset = "0x54E0BD0", VA = "0x54E1BD0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000CC5")]
-	[Address(RVA = "0x1B450D0", Offset = "0x1B436D0", VA = "0x181B450D0")]
+	[Token(Token = "0x6000CA0")]
+	[Address(RVA = "0x54E19B0", Offset = "0x54E09B0", VA = "0x54E19B0")]
 	public OperatingSystem(PlatformID platform, Version version)
 	{
 	}
 
-	[Token(Token = "0x6000CC6")]
-	[Address(RVA = "0x1B450F0", Offset = "0x1B436F0", VA = "0x181B450F0")]
+	[Token(Token = "0x6000CA1")]
+	[Address(RVA = "0x54E19C0", Offset = "0x54E09C0", VA = "0x54E19C0")]
 	internal OperatingSystem(PlatformID platform, Version version, string servicePack)
 	{
 	}
 
-	[Token(Token = "0x6000CC7")]
-	[Address(RVA = "0x1B44EB0", Offset = "0x1B434B0", VA = "0x181B44EB0", Slot = "4")]
+	[Token(Token = "0x6000CA2")]
+	[Address(RVA = "0x54E1B00", Offset = "0x54E0B00", VA = "0x54E1B00", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x1B44E40", Offset = "0x1B43440", VA = "0x181B44E40", Slot = "5")]
+	[Token(Token = "0x6000CA4")]
+	[Address(RVA = "0x54E1B50", Offset = "0x54E0B50", VA = "0x54E1B50", Slot = "5")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x1B44EF0", Offset = "0x1B434F0", VA = "0x181B44EF0", Slot = "3")]
+	[Token(Token = "0x6000CA5")]
+	[Address(RVA = "0x54E1BC0", Offset = "0x54E0BC0", VA = "0x54E1BC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

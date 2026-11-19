@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyNodeTypeHandlerBase
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,7 +27,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x6971090", Offset = "0x6970090", VA = "0x6971090")]
 		public static IntPtr ConvertToUnmanaged(HierarchyNodeTypeHandlerBase handler)
 		{
 			return default(IntPtr);
@@ -56,7 +56,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 		private static IntPtr Ptr
 		{
 			[Token(Token = "0x600002F")]
-			[Address(RVA = "0x2F7BC00", Offset = "0x2F7A200", VA = "0x182F7BC00")]
+			[Address(RVA = "0x69710B0", Offset = "0x69700B0", VA = "0x69710B0")]
 			set
 			{
 			}
@@ -66,7 +66,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 		private static Hierarchy Hierarchy
 		{
 			[Token(Token = "0x6000030")]
-			[Address(RVA = "0x2F7BBA0", Offset = "0x2F7A1A0", VA = "0x182F7BBA0")]
+			[Address(RVA = "0x69710F0", Offset = "0x69700F0", VA = "0x69710F0")]
 			set
 			{
 			}
@@ -76,20 +76,20 @@ public abstract class HierarchyNodeTypeHandlerBase
 		private static HierarchyCommandList CommandList
 		{
 			[Token(Token = "0x6000031")]
-			[Address(RVA = "0x2F7BB40", Offset = "0x2F7A140", VA = "0x182F7BB40")]
+			[Address(RVA = "0x6971150", Offset = "0x6970150", VA = "0x6971150")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2F7BA60", Offset = "0x2F7A060", VA = "0x182F7BA60")]
+		[Address(RVA = "0x69706E0", Offset = "0x696F6E0", VA = "0x69706E0")]
 		public ConstructorScope(IntPtr nativePtr, Hierarchy hierarchy, HierarchyCommandList cmdList)
 		{
 		}
 
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x2F7B990", Offset = "0x2F79F90", VA = "0x182F7B990", Slot = "4")]
+		[Address(RVA = "0x69711B0", Offset = "0x69701B0", VA = "0x69711B0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -113,19 +113,19 @@ public abstract class HierarchyNodeTypeHandlerBase
 	private static readonly Dictionary<Type, int> s_NodeTypes;
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6970040", Offset = "0x696F040", VA = "0x6970040", Slot = "4")]
 	protected virtual void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6970050", Offset = "0x696F050", VA = "0x6970050", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2F7E0F0", Offset = "0x2F7C6F0", VA = "0x182F7E0F0", Slot = "6")]
+	[Address(RVA = "0x6970060", Offset = "0x696F060", VA = "0x6970060", Slot = "6")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	public virtual string GetNodeTypeName()
 	{
@@ -133,7 +133,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x2F7E000", Offset = "0x2F7C600", VA = "0x182F7E000", Slot = "7")]
+	[Address(RVA = "0x69701C0", Offset = "0x696F1C0", VA = "0x69701C0", Slot = "7")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public virtual int GetNodeHashCode(in HierarchyNode node)
 	{
@@ -141,7 +141,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2F7DF00", Offset = "0x2F7C500", VA = "0x182F7DF00", Slot = "8")]
+	[Address(RVA = "0x69702B0", Offset = "0x696F2B0", VA = "0x69702B0", Slot = "8")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public virtual HierarchyNodeFlags GetDefaultNodeFlags(in HierarchyNode node, HierarchyNodeFlags defaultFlags = HierarchyNodeFlags.None)
 	{
@@ -149,33 +149,33 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x69703B0", Offset = "0x696F3B0", VA = "0x69703B0", Slot = "9")]
 	protected virtual void SearchBegin(HierarchySearchQueryDescriptor query)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0", Slot = "10")]
+	[Address(RVA = "0x69703C0", Offset = "0x696F3C0", VA = "0x69703C0", Slot = "10")]
 	protected virtual bool SearchMatch(in HierarchyNode node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+	[Address(RVA = "0x69703D0", Offset = "0x696F3D0", VA = "0x69703D0", Slot = "11")]
 	protected virtual void SearchEnd()
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Address(RVA = "0x69703E0", Offset = "0x696F3E0", VA = "0x69703E0", Slot = "12")]
 	protected virtual void ViewModelPostUpdate(HierarchyViewModel viewModel)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x2F7DDB0", Offset = "0x2F7C3B0", VA = "0x182F7DDB0")]
+	[Address(RVA = "0x69703F0", Offset = "0x696F3F0", VA = "0x69703F0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.HierarchyModule" })]
 	internal static HierarchyNodeTypeHandlerBase FromIntPtr(IntPtr handlePtr)
 	{
@@ -184,13 +184,13 @@ public abstract class HierarchyNodeTypeHandlerBase
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2845320", Offset = "0x2843920", VA = "0x182845320")]
+	[Address(RVA = "0x69704D0", Offset = "0x696F4D0", VA = "0x69704D0")]
 	internal void Internal_SearchBegin(HierarchySearchQueryDescriptor query)
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x2F7DB50", Offset = "0x2F7C150", VA = "0x182F7DB50")]
+	[Address(RVA = "0x69704F0", Offset = "0x696F4F0", VA = "0x69704F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static IntPtr CreateNodeTypeHandlerFromType(IntPtr nativePtr, Type handlerType, IntPtr hierarchyPtr, IntPtr cmdListPtr)
 	{
@@ -198,7 +198,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2F7E820", Offset = "0x2F7CE20", VA = "0x182F7E820")]
+	[Address(RVA = "0x69707B0", Offset = "0x696F7B0", VA = "0x69707B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool TryGetStaticNodeType(Type handlerType, out int nodeType)
 	{
@@ -206,21 +206,21 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x2F7E5A0", Offset = "0x2F7CBA0", VA = "0x182F7E5A0")]
+	[Address(RVA = "0x6970950", Offset = "0x696F950", VA = "0x6970950")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeInitialize(IntPtr handlePtr)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2F7E380", Offset = "0x2F7C980", VA = "0x182F7E380")]
+	[Address(RVA = "0x69709C0", Offset = "0x696F9C0", VA = "0x69709C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeDispose(IntPtr handlePtr)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2F7E530", Offset = "0x2F7CB30", VA = "0x182F7E530")]
+	[Address(RVA = "0x6970A70", Offset = "0x696FA70", VA = "0x6970A70")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static string InvokeGetNodeTypeName(IntPtr handlePtr)
 	{
@@ -228,7 +228,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x2F7E4B0", Offset = "0x2F7CAB0", VA = "0x182F7E4B0")]
+	[Address(RVA = "0x6970AE0", Offset = "0x696FAE0", VA = "0x6970AE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static int InvokeGetNodeHashCode(IntPtr handlePtr, in HierarchyNode node)
 	{
@@ -236,7 +236,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x2F7E420", Offset = "0x2F7CA20", VA = "0x182F7E420")]
+	[Address(RVA = "0x6970B60", Offset = "0x696FB60", VA = "0x6970B60")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static HierarchyNodeFlags InvokeGetDefaultNodeFlags(IntPtr handlePtr, in HierarchyNode node, HierarchyNodeFlags defaultFlags)
 	{
@@ -244,7 +244,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2F7E310", Offset = "0x2F7C910", VA = "0x182F7E310")]
+	[Address(RVA = "0x6970BE0", Offset = "0x696FBE0", VA = "0x6970BE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool InvokeChangesPending(IntPtr handlePtr)
 	{
@@ -252,7 +252,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x2F7E610", Offset = "0x2F7CC10", VA = "0x182F7E610")]
+	[Address(RVA = "0x6970C50", Offset = "0x696FC50", VA = "0x6970C50")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool InvokeIntegrateChanges(IntPtr handlePtr, IntPtr cmdListPtr)
 	{
@@ -260,7 +260,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x2F7E710", Offset = "0x2F7CD10", VA = "0x182F7E710")]
+	[Address(RVA = "0x6970CD0", Offset = "0x696FCD0", VA = "0x6970CD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool InvokeSearchMatch(IntPtr handlePtr, in HierarchyNode node)
 	{
@@ -268,21 +268,21 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x2F7E6A0", Offset = "0x2F7CCA0", VA = "0x182F7E6A0")]
+	[Address(RVA = "0x6970D50", Offset = "0x696FD50", VA = "0x6970D50")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeSearchEnd(IntPtr handlePtr)
 	{
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x2F7E790", Offset = "0x2F7CD90", VA = "0x182F7E790")]
+	[Address(RVA = "0x6970DC0", Offset = "0x696FDC0", VA = "0x6970DC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeViewModelPostUpdate(IntPtr handlePtr, IntPtr viewModelPtr)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2F7DAC0", Offset = "0x2F7C0C0", VA = "0x182F7DAC0", Slot = "13")]
+	[Address(RVA = "0x6970E40", Offset = "0x696FE40", VA = "0x6970E40", Slot = "13")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyNodeTypeHandlerBaseBindings::ChangesPending", HasExplicitThis = true, IsThreadSafe = true)]
 	[Obsolete("ChangesPending is obsolete, it is replaced by adding commands into the hierarchy node type handler's CommandList.", false)]
 	protected virtual bool ChangesPending()
@@ -291,7 +291,7 @@ public abstract class HierarchyNodeTypeHandlerBase
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x2F7E260", Offset = "0x2F7C860", VA = "0x182F7E260", Slot = "14")]
+	[Address(RVA = "0x6970F20", Offset = "0x696FF20", VA = "0x6970F20", Slot = "14")]
 	[Obsolete("IntegrateChanges is obsolete, it is replaced by adding commands into the hierarchy node type handler's CommandList.", false)]
 	[UnityEngine.Bindings.FreeFunction("HierarchyNodeTypeHandlerBaseBindings::IntegrateChanges", HasExplicitThis = true, IsThreadSafe = true)]
 	protected virtual bool IntegrateChanges(HierarchyCommandList cmdList)
@@ -301,26 +301,26 @@ public abstract class HierarchyNodeTypeHandlerBase
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x2F7E0A0", Offset = "0x2F7C6A0", VA = "0x182F7E0A0")]
+	[Address(RVA = "0x6970180", Offset = "0x696F180", VA = "0x6970180")]
 	private static extern void GetNodeTypeName_Injected(IntPtr _unity_self, out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x2F7DFB0", Offset = "0x2F7C5B0", VA = "0x182F7DFB0")]
+	[Address(RVA = "0x6970270", Offset = "0x696F270", VA = "0x6970270")]
 	private static extern int GetNodeHashCode_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2F7DEA0", Offset = "0x2F7C4A0", VA = "0x182F7DEA0")]
+	[Address(RVA = "0x6970370", Offset = "0x696F370", VA = "0x6970370")]
 	private static extern HierarchyNodeFlags GetDefaultNodeFlags_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags defaultFlags);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x2F7DA80", Offset = "0x2F7C080", VA = "0x182F7DA80")]
+	[Address(RVA = "0x6970EF0", Offset = "0x696FEF0", VA = "0x6970EF0")]
 	private static extern bool ChangesPending_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x2F7E210", Offset = "0x2F7C810", VA = "0x182F7E210")]
+	[Address(RVA = "0x6970FD0", Offset = "0x696FFD0", VA = "0x6970FD0")]
 	private static extern bool IntegrateChanges_Injected(IntPtr _unity_self, IntPtr cmdList);
 }

@@ -10,47 +10,47 @@ using Mono.Security.Cryptography;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200034E")]
+[Token(Token = "0x2000327")]
 internal class TripleDESTransform : Mono.Security.Cryptography.SymmetricTransform
 {
-	[Token(Token = "0x4000E1B")]
+	[Token(Token = "0x4000D7B")]
 	[FieldOffset(Offset = "0x58")]
 	private System.Security.Cryptography.DESTransform E1;
 
-	[Token(Token = "0x4000E1C")]
+	[Token(Token = "0x4000D7C")]
 	[FieldOffset(Offset = "0x60")]
 	private System.Security.Cryptography.DESTransform D2;
 
-	[Token(Token = "0x4000E1D")]
+	[Token(Token = "0x4000D7D")]
 	[FieldOffset(Offset = "0x68")]
 	private System.Security.Cryptography.DESTransform E3;
 
-	[Token(Token = "0x4000E1E")]
+	[Token(Token = "0x4000D7E")]
 	[FieldOffset(Offset = "0x70")]
 	private System.Security.Cryptography.DESTransform D1;
 
-	[Token(Token = "0x4000E1F")]
+	[Token(Token = "0x4000D7F")]
 	[FieldOffset(Offset = "0x78")]
 	private System.Security.Cryptography.DESTransform E2;
 
-	[Token(Token = "0x4000E20")]
+	[Token(Token = "0x4000D80")]
 	[FieldOffset(Offset = "0x80")]
 	private System.Security.Cryptography.DESTransform D3;
 
-	[Token(Token = "0x6001BD3")]
-	[Address(RVA = "0x19E82E0", Offset = "0x19E68E0", VA = "0x1819E82E0")]
+	[Token(Token = "0x6001BB0")]
+	[Address(RVA = "0x5361C30", Offset = "0x5360C30", VA = "0x5361C30")]
 	public TripleDESTransform(TripleDES algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
-	[Token(Token = "0x6001BD4")]
-	[Address(RVA = "0x19E80D0", Offset = "0x19E66D0", VA = "0x1819E80D0", Slot = "17")]
+	[Token(Token = "0x6001BB1")]
+	[Address(RVA = "0x5362070", Offset = "0x5361070", VA = "0x5362070", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
-	[Token(Token = "0x6001BD5")]
-	[Address(RVA = "0x19E8230", Offset = "0x19E6830", VA = "0x1819E8230")]
+	[Token(Token = "0x6001BB2")]
+	[Address(RVA = "0x5361FD0", Offset = "0x5360FD0", VA = "0x5361FD0")]
 	internal static byte[] GetStrongKey()
 	{
 		return null;

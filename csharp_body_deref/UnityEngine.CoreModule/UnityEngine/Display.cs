@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Display
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,8 +15,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x20000C6")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/DisplayManager.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/DisplayManager.h")]
 public class Display
 {
 	[Token(Token = "0x20000C7")]
@@ -44,22 +44,11 @@ public class Display
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static DisplaysUpdatedDelegate onDisplaysUpdated;
 
-	[Token(Token = "0x170000B0")]
+	[Token(Token = "0x170000B1")]
 	public int renderingWidth
 	{
-		[Token(Token = "0x600042E")]
-		[Address(RVA = "0x2EC4B40", Offset = "0x2EC3140", VA = "0x182EC4B40")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x170000B1")]
-	public int renderingHeight
-	{
-		[Token(Token = "0x600042F")]
-		[Address(RVA = "0x2EC4AC0", Offset = "0x2EC30C0", VA = "0x182EC4AC0")]
+		[Token(Token = "0x6000432")]
+		[Address(RVA = "0x68CE2B0", Offset = "0x68CD2B0", VA = "0x68CE2B0")]
 		get
 		{
 			return default(int);
@@ -67,10 +56,10 @@ public class Display
 	}
 
 	[Token(Token = "0x170000B2")]
-	public int systemWidth
+	public int renderingHeight
 	{
-		[Token(Token = "0x6000430")]
-		[Address(RVA = "0x2EC4CB0", Offset = "0x2EC32B0", VA = "0x182EC4CB0")]
+		[Token(Token = "0x6000433")]
+		[Address(RVA = "0x68CE390", Offset = "0x68CD390", VA = "0x68CE390")]
 		get
 		{
 			return default(int);
@@ -78,10 +67,10 @@ public class Display
 	}
 
 	[Token(Token = "0x170000B3")]
-	public int systemHeight
+	public int systemWidth
 	{
-		[Token(Token = "0x6000431")]
-		[Address(RVA = "0x2EC4C30", Offset = "0x2EC3230", VA = "0x182EC4C30")]
+		[Token(Token = "0x6000434")]
+		[Address(RVA = "0x68CE430", Offset = "0x68CD430", VA = "0x68CE430")]
 		get
 		{
 			return default(int);
@@ -89,81 +78,92 @@ public class Display
 	}
 
 	[Token(Token = "0x170000B4")]
+	public int systemHeight
+	{
+		[Token(Token = "0x6000435")]
+		[Address(RVA = "0x68CE510", Offset = "0x68CD510", VA = "0x68CE510")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170000B5")]
 	public bool requiresSrgbBlitToBackbuffer
 	{
-		[Token(Token = "0x6000432")]
-		[Address(RVA = "0x2EC4BC0", Offset = "0x2EC31C0", VA = "0x182EC4BC0")]
+		[Token(Token = "0x6000436")]
+		[Address(RVA = "0x68CE5B0", Offset = "0x68CD5B0", VA = "0x68CE5B0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000B5")]
+	[Token(Token = "0x170000B6")]
 	public static Display main
 	{
-		[Token(Token = "0x6000434")]
-		[Address(RVA = "0x2EC4A70", Offset = "0x2EC3070", VA = "0x182EC4A70")]
+		[Token(Token = "0x6000438")]
+		[Address(RVA = "0x68CE770", Offset = "0x68CD770", VA = "0x68CE770")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600042C")]
-	[Address(RVA = "0x2EC4A30", Offset = "0x2EC3030", VA = "0x182EC4A30")]
+	[Token(Token = "0x6000430")]
+	[Address(RVA = "0x68CE250", Offset = "0x68CD250", VA = "0x68CE250")]
 	internal Display()
 	{
 	}
 
-	[Token(Token = "0x600042D")]
-	[Address(RVA = "0x2EC4A00", Offset = "0x2EC3000", VA = "0x182EC4A00")]
+	[Token(Token = "0x6000431")]
+	[Address(RVA = "0x68CE290", Offset = "0x68CD290", VA = "0x68CE290")]
 	internal Display(IntPtr nativeDisplay)
 	{
 	}
 
-	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x2EC4760", Offset = "0x2EC2D60", VA = "0x182EC4760")]
+	[Token(Token = "0x6000437")]
+	[Address(RVA = "0x68CE660", Offset = "0x68CD660", VA = "0x68CE660")]
 	public static Vector3 RelativeMouseAt(Vector3 inputMouseCoordinates)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x2EC4530", Offset = "0x2EC2B30", VA = "0x182EC4530")]
+	[Token(Token = "0x6000439")]
+	[Address(RVA = "0x68CE7E0", Offset = "0x68CD7E0", VA = "0x68CE7E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RecreateDisplayList(IntPtr[] nativeDisplay)
 	{
 	}
 
-	[Token(Token = "0x6000436")]
-	[Address(RVA = "0x2EC43E0", Offset = "0x2EC29E0", VA = "0x182EC43E0")]
+	[Token(Token = "0x600043A")]
+	[Address(RVA = "0x68CE9B0", Offset = "0x68CD9B0", VA = "0x68CE9B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void FireDisplaysUpdated()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x2EC44D0", Offset = "0x2EC2AD0", VA = "0x182EC44D0")]
+	[Token(Token = "0x600043B")]
+	[Address(RVA = "0x68CE4D0", Offset = "0x68CD4D0", VA = "0x68CE4D0")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_DisplaySystemResolution")]
 	private static extern void GetSystemExtImpl(IntPtr nativeDisplay, out int w, out int h);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x2EC4470", Offset = "0x2EC2A70", VA = "0x182EC4470")]
+	[Token(Token = "0x600043C")]
+	[Address(RVA = "0x68CE350", Offset = "0x68CD350", VA = "0x68CE350")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_DisplayRenderingResolution")]
 	private static extern void GetRenderingExtImpl(IntPtr nativeDisplay, out int w, out int h);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x2EC4710", Offset = "0x2EC2D10", VA = "0x182EC4710")]
+	[Token(Token = "0x600043D")]
+	[Address(RVA = "0x68CE720", Offset = "0x68CD720", VA = "0x68CE720")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_RelativeMouseAt")]
 	private static extern int RelativeMouseAtImpl(int x, int y, out int rx, out int ry);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x2EC4830", Offset = "0x2EC2E30", VA = "0x182EC4830")]
+	[Token(Token = "0x600043E")]
+	[Address(RVA = "0x68CE630", Offset = "0x68CD630", VA = "0x68CE630")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_RequiresSRGBBlitToBackbuffer")]
 	private static extern bool RequiresSrgbBlitToBackbufferImpl(IntPtr nativeDisplay);
 }

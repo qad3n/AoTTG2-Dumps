@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PathRef
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ internal class PathRef
 	public unsafe ref PropertyPath path
 	{
 		[Token(Token = "0x60027D3")]
-		[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0")]
+		[Address(RVA = "0x6B6B620", Offset = "0x6B6A620", VA = "0x6B6B620")]
 		get
 		{
 			return ref *(PropertyPath*)null;
@@ -32,7 +32,7 @@ internal class PathRef
 	public bool IsEmpty
 	{
 		[Token(Token = "0x60027D4")]
-		[Address(RVA = "0x315D5F0", Offset = "0x315BBF0", VA = "0x18315D5F0")]
+		[Address(RVA = "0x6B6B630", Offset = "0x6B6A630", VA = "0x6B6B630")]
 		get
 		{
 			return default(bool);
@@ -40,7 +40,7 @@ internal class PathRef
 	}
 
 	[Token(Token = "0x60027D5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6B6B640", Offset = "0x6B6A640", VA = "0x6B6B640")]
 	public PathRef()
 	{
 	}

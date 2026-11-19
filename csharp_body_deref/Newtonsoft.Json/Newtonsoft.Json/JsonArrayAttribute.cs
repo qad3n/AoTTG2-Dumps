@@ -22,32 +22,32 @@ public sealed class JsonArrayAttribute : JsonContainerAttribute
 	public bool AllowNullItems
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x5556410", Offset = "0x5555410", VA = "0x5556410")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x12BF400", Offset = "0x12BDA00", VA = "0x1812BF400")]
+		[Address(RVA = "0x5556420", Offset = "0x5555420", VA = "0x5556420")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5556430", Offset = "0x5555430", VA = "0x5556430")]
 	public JsonArrayAttribute()
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x1BC8260", Offset = "0x1BC6860", VA = "0x181BC8260")]
+	[Address(RVA = "0x5556450", Offset = "0x5555450", VA = "0x5556450")]
 	public JsonArrayAttribute(bool allowNullItems)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x5556470", Offset = "0x5555470", VA = "0x5556470")]
 	public JsonArrayAttribute(string id)
 	{
 	}

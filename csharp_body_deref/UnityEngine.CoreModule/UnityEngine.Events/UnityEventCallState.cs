@@ -12,10 +12,10 @@ namespace UnityEngine.Events;
 [Token(Token = "0x2000228")]
 public enum UnityEventCallState
 {
-	[Token(Token = "0x4000721")]
+	[Token(Token = "0x400071F")]
 	Off,
-	[Token(Token = "0x4000722")]
+	[Token(Token = "0x4000720")]
 	EditorAndRuntime,
-	[Token(Token = "0x4000723")]
+	[Token(Token = "0x4000721")]
 	RuntimeOnly
 }

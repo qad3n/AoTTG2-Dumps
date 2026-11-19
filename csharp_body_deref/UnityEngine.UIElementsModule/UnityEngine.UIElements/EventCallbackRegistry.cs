@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.EventCallbackRegistry
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -44,14 +44,14 @@ internal class EventCallbackRegistry
 		private int m_IsInvoking;
 
 		[Token(Token = "0x6000C8F")]
-		[Address(RVA = "0x3259E50", Offset = "0x3258450", VA = "0x183259E50")]
+		[Address(RVA = "0x6C61CA0", Offset = "0x6C60CA0", VA = "0x6C61CA0")]
 		public static DynamicCallbackList Create(TrickleDown useTrickleDown)
 		{
 			return default(DynamicCallbackList);
 		}
 
 		[Token(Token = "0x6000C90")]
-		[Address(RVA = "0x325A1B0", Offset = "0x32587B0", VA = "0x18325A1B0")]
+		[Address(RVA = "0x6C61E50", Offset = "0x6C60E50", VA = "0x6C61E50")]
 		[NotNull]
 		public EventCallbackList GetCallbackListForWriting()
 		{
@@ -59,7 +59,7 @@ internal class EventCallbackRegistry
 		}
 
 		[Token(Token = "0x6000C91")]
-		[Address(RVA = "0x325A190", Offset = "0x3258790", VA = "0x18325A190")]
+		[Address(RVA = "0x6C62040", Offset = "0x6C61040", VA = "0x6C62040")]
 		[NotNull]
 		public readonly EventCallbackList GetCallbackListForReading()
 		{
@@ -67,28 +67,28 @@ internal class EventCallbackRegistry
 		}
 
 		[Token(Token = "0x6000C92")]
-		[Address(RVA = "0x325A550", Offset = "0x3258B50", VA = "0x18325A550")]
+		[Address(RVA = "0x6C62050", Offset = "0x6C61050", VA = "0x6C62050")]
 		public bool UnregisterCallback(long eventTypeId, [NotNull] Delegate callback)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C93")]
-		[Address(RVA = "0x325A2B0", Offset = "0x32588B0", VA = "0x18325A2B0")]
+		[Address(RVA = "0x6C621B0", Offset = "0x6C611B0", VA = "0x6C621B0")]
 		public void Invoke(EventBase evt, BaseVisualElementPanel panel, VisualElement target)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000C94")]
-		[Address(RVA = "0x3259E40", Offset = "0x3258440", VA = "0x183259E40")]
+		[Address(RVA = "0x6C624D0", Offset = "0x6C614D0", VA = "0x6C624D0")]
 		private void BeginInvoke()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000C95")]
-		[Address(RVA = "0x3259F30", Offset = "0x3258530", VA = "0x183259F30")]
+		[Address(RVA = "0x6C624E0", Offset = "0x6C614E0", VA = "0x6C624E0")]
 		private void EndInvoke()
 		{
 		}
@@ -107,20 +107,20 @@ internal class EventCallbackRegistry
 	internal DynamicCallbackList m_BubbleUpCallbacks;
 
 	[Token(Token = "0x6000C86")]
-	[Address(RVA = "0x325C8E0", Offset = "0x325AEE0", VA = "0x18325C8E0")]
+	[Address(RVA = "0x6C61950", Offset = "0x6C60950", VA = "0x6C61950")]
 	private static EventCallbackList GetCallbackList([Optional] EventCallbackList initializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C87")]
-	[Address(RVA = "0x325C970", Offset = "0x325AF70", VA = "0x18325C970")]
+	[Address(RVA = "0x6C619E0", Offset = "0x6C609E0", VA = "0x6C619E0")]
 	private static void ReleaseCallbackList(EventCallbackList toRelease)
 	{
 	}
 
 	[Token(Token = "0x6000C88")]
-	[Address(RVA = "0x325C950", Offset = "0x325AF50", VA = "0x18325C950")]
+	[Address(RVA = "0x6C61AC0", Offset = "0x6C60AC0", VA = "0x6C61AC0")]
 	private unsafe ref DynamicCallbackList GetDynamicCallbackList(CallbackOptions callbackOptions)
 	{
 		return ref *(DynamicCallbackList*)null;
@@ -149,7 +149,7 @@ internal class EventCallbackRegistry
 	}
 
 	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x325CB10", Offset = "0x325B110", VA = "0x18325CB10")]
+	[Address(RVA = "0x6C61AE0", Offset = "0x6C60AE0", VA = "0x6C61AE0")]
 	public EventCallbackRegistry()
 	{
 	}

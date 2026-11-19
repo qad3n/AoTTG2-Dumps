@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000287")]
+[Token(Token = "0x2000248")]
 internal interface IFileWatcher
 {
-	[Token(Token = "0x60011D4")]
+	[Token(Token = "0x6001014")]
 	void StartDispatching(object fsw);
 
-	[Token(Token = "0x60011D5")]
+	[Token(Token = "0x6001015")]
 	void StopDispatching(object fsw);
 
-	[Token(Token = "0x60011D6")]
+	[Token(Token = "0x6001016")]
 	void Dispose(object fsw);
 }

@@ -18,21 +18,21 @@ internal static class VisualElementListPool
 	private static ObjectPool<List<VisualElement>> pool;
 
 	[Token(Token = "0x60027B5")]
-	[Address(RVA = "0x3169A50", Offset = "0x3168050", VA = "0x183169A50")]
+	[Address(RVA = "0x6B69550", Offset = "0x6B68550", VA = "0x6B69550")]
 	public static List<VisualElement> Copy(List<VisualElement> elements)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60027B6")]
-	[Address(RVA = "0x3169B00", Offset = "0x3168100", VA = "0x183169B00")]
+	[Address(RVA = "0x6B69620", Offset = "0x6B68620", VA = "0x6B69620")]
 	public static List<VisualElement> Get(int initialCapacity = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60027B7")]
-	[Address(RVA = "0x3169BD0", Offset = "0x31681D0", VA = "0x183169BD0")]
+	[Address(RVA = "0x6B69710", Offset = "0x6B68710", VA = "0x6B69710")]
 	public static void Release(List<VisualElement> elements)
 	{
 	}

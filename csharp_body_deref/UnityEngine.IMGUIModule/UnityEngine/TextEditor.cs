@@ -102,7 +102,7 @@ public class TextEditor
 	public bool isMultiline
 	{
 		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x2FB21F0", Offset = "0x2FB07F0", VA = "0x182FB21F0")]
+		[Address(RVA = "0x69AD080", Offset = "0x69AC080", VA = "0x69AD080")]
 		set
 		{
 		}
@@ -112,7 +112,7 @@ public class TextEditor
 	public bool showCursor
 	{
 		[Token(Token = "0x60002E8")]
-		[Address(RVA = "0x2FB2160", Offset = "0x2FB0760", VA = "0x182FB2160")]
+		[Address(RVA = "0x69AD0A0", Offset = "0x69AC0A0", VA = "0x69AD0A0")]
 		get
 		{
 			return default(bool);
@@ -123,13 +123,13 @@ public class TextEditor
 	internal bool m_HasFocus
 	{
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x2FB20E0", Offset = "0x2FB06E0", VA = "0x182FB20E0")]
+		[Address(RVA = "0x69AD0C0", Offset = "0x69AC0C0", VA = "0x69AD0C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002EA")]
-		[Address(RVA = "0x2C00A70", Offset = "0x2BFF070", VA = "0x182C00A70")]
+		[Address(RVA = "0x69AD0D0", Offset = "0x69AC0D0", VA = "0x69AD0D0")]
 		set
 		{
 		}
@@ -139,13 +139,13 @@ public class TextEditor
 	public string text
 	{
 		[Token(Token = "0x60002EB")]
-		[Address(RVA = "0x272BA30", Offset = "0x272A030", VA = "0x18272BA30")]
+		[Address(RVA = "0x69AD0E0", Offset = "0x69AC0E0", VA = "0x69AD0E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002EC")]
-		[Address(RVA = "0x2FB2290", Offset = "0x2FB0890", VA = "0x182FB2290")]
+		[Address(RVA = "0x69AD100", Offset = "0x69AC100", VA = "0x69AD100")]
 		set
 		{
 		}
@@ -155,13 +155,13 @@ public class TextEditor
 	internal string textWithWhitespace
 	{
 		[Token(Token = "0x60002ED")]
-		[Address(RVA = "0x2FB2180", Offset = "0x2FB0780", VA = "0x182FB2180")]
+		[Address(RVA = "0x69AD400", Offset = "0x69AC400", VA = "0x69AD400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0x2FB2210", Offset = "0x2FB0810", VA = "0x182FB2210")]
+		[Address(RVA = "0x69AD210", Offset = "0x69AC210", VA = "0x69AD210")]
 		set
 		{
 		}
@@ -171,14 +171,14 @@ public class TextEditor
 	public Rect position
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x1BD8500", Offset = "0x1BD6B00", VA = "0x181BD8500")]
+		[Address(RVA = "0x69AD470", Offset = "0x69AC470", VA = "0x69AD470")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x60002F0")]
-		[Address(RVA = "0x1C613E0", Offset = "0x1C5F9E0", VA = "0x181C613E0")]
+		[Address(RVA = "0x69AD480", Offset = "0x69AC480", VA = "0x69AD480")]
 		[CompilerGenerated]
 		set
 		{
@@ -189,7 +189,7 @@ public class TextEditor
 	public int cursorIndex
 	{
 		[Token(Token = "0x60002F1")]
-		[Address(RVA = "0x2FB2070", Offset = "0x2FB0670", VA = "0x182FB2070")]
+		[Address(RVA = "0x69AD490", Offset = "0x69AC490", VA = "0x69AD490")]
 		get
 		{
 			return default(int);
@@ -200,7 +200,7 @@ public class TextEditor
 	public int selectIndex
 	{
 		[Token(Token = "0x60002F2")]
-		[Address(RVA = "0x2FB20F0", Offset = "0x2FB06F0", VA = "0x182FB20F0")]
+		[Address(RVA = "0x69AD4F0", Offset = "0x69AC4F0", VA = "0x69AD4F0")]
 		get
 		{
 			return default(int);
@@ -208,155 +208,155 @@ public class TextEditor
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x2FB1AC0", Offset = "0x2FB00C0", VA = "0x182FB1AC0")]
+	[Address(RVA = "0x69AD550", Offset = "0x69AC550", VA = "0x69AD550")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public TextEditor()
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x2FB1160", Offset = "0x2FAF760", VA = "0x182FB1160")]
+	[Address(RVA = "0x69ADAA0", Offset = "0x69ACAA0", VA = "0x69ADAA0")]
 	private void OnTextChangedHandle()
 	{
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x2FB0EA0", Offset = "0x2FAF4A0", VA = "0x182FB0EA0")]
+	[Address(RVA = "0x69ADB50", Offset = "0x69ACB50", VA = "0x69ADB50")]
 	private void OnContentTextChangedHandle()
 	{
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x2FB10B0", Offset = "0x2FAF6B0", VA = "0x182FB10B0")]
+	[Address(RVA = "0x69ADBF0", Offset = "0x69ACBF0", VA = "0x69ADBF0")]
 	public void OnFocus()
 	{
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x2FB1150", Offset = "0x2FAF750", VA = "0x182FB1150")]
+	[Address(RVA = "0x69ADD00", Offset = "0x69ACD00", VA = "0x69ADD00")]
 	public void OnLostFocus()
 	{
 	}
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x2FB0970", Offset = "0x2FAEF70", VA = "0x182FB0970")]
+	[Address(RVA = "0x69ADD10", Offset = "0x69ACD10", VA = "0x69ADD10")]
 	public bool HandleKeyEvent(Event e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x2FB11C0", Offset = "0x2FAF7C0", VA = "0x182FB11C0")]
+	[Address(RVA = "0x69ADDE0", Offset = "0x69ACDE0", VA = "0x69ADDE0")]
 	public void ReplaceSelection(string replace)
 	{
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x2FB0B50", Offset = "0x2FAF150", VA = "0x182FB0B50")]
+	[Address(RVA = "0x69ADE00", Offset = "0x69ACE00", VA = "0x69ADE00")]
 	public void Insert(char c)
 	{
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x2FB0D90", Offset = "0x2FAF390", VA = "0x182FB0D90")]
+	[Address(RVA = "0x69ADE20", Offset = "0x69ACE20", VA = "0x69ADE20")]
 	public void MoveCursorToPosition(Vector2 cursorPosition)
 	{
 	}
 
 	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x2FB0CC0", Offset = "0x2FAF2C0", VA = "0x182FB0CC0")]
+	[Address(RVA = "0x69ADE80", Offset = "0x69ACE80", VA = "0x69ADE80")]
 	protected internal void MoveCursorToPosition_Internal(Vector2 cursorPosition, bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x2FB1310", Offset = "0x2FAF910", VA = "0x182FB1310")]
+	[Address(RVA = "0x69AE040", Offset = "0x69AD040", VA = "0x69AE040")]
 	public void SelectToPosition(Vector2 cursorPosition)
 	{
 	}
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x2FB0820", Offset = "0x2FAEE20", VA = "0x182FB0820")]
+	[Address(RVA = "0x69ADEB0", Offset = "0x69ACEB0", VA = "0x69ADEB0")]
 	private Vector2 GetLocalCursorPosition(Vector2 cursorPosition)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x2FB0CA0", Offset = "0x2FAF2A0", VA = "0x182FB0CA0")]
+	[Address(RVA = "0x69AE5C0", Offset = "0x69AD5C0", VA = "0x69AE5C0")]
 	public void MouseDragSelectsWholeWords(bool on)
 	{
 	}
 
 	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x2B00770", Offset = "0x2AFED70", VA = "0x182B00770")]
+	[Address(RVA = "0x69AE7B0", Offset = "0x69AD7B0", VA = "0x69AE7B0")]
 	public void DblClickSnap(DblClickSnapping snapping)
 	{
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x2FB12F0", Offset = "0x2FAF8F0", VA = "0x182FB12F0")]
+	[Address(RVA = "0x69AE7E0", Offset = "0x69AD7E0", VA = "0x69AE7E0")]
 	public void SelectCurrentWord()
 	{
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x2FB12D0", Offset = "0x2FAF8D0", VA = "0x182FB12D0")]
+	[Address(RVA = "0x69AEA80", Offset = "0x69ADA80", VA = "0x69AEA80")]
 	public void SelectCurrentParagraph()
 	{
 	}
 
 	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x2FB1340", Offset = "0x2FAF940", VA = "0x182FB1340")]
+	[Address(RVA = "0x69AED50", Offset = "0x69ADD50", VA = "0x69AED50")]
 	public void UpdateScrollOffsetIfNeeded(Event evt)
 	{
 	}
 
 	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x2FB1910", Offset = "0x2FAFF10", VA = "0x182FB1910")]
+	[Address(RVA = "0x69AD280", Offset = "0x69AC280", VA = "0x69AD280")]
 	internal void UpdateTextHandle()
 	{
 	}
 
 	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x2FB1390", Offset = "0x2FAF990", VA = "0x182FB1390")]
+	[Address(RVA = "0x69AEDA0", Offset = "0x69ADDA0", VA = "0x69AEDA0")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal void UpdateScrollOffset()
 	{
 	}
 
 	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x2FB0380", Offset = "0x2FAE980", VA = "0x182FB0380")]
+	[Address(RVA = "0x69AF4C0", Offset = "0x69AE4C0", VA = "0x69AF4C0")]
 	public void DrawCursor(string newText)
 	{
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x2FB11E0", Offset = "0x2FAF7E0", VA = "0x182FB11E0")]
+	[Address(RVA = "0x69AFAD0", Offset = "0x69AEAD0", VA = "0x69AFAD0")]
 	public void SaveBackup()
 	{
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x1B47C10", Offset = "0x1B46210", VA = "0x181B47C10")]
+	[Address(RVA = "0x69AFBA0", Offset = "0x69AEBA0", VA = "0x69AFBA0")]
 	public void DetectFocusChange()
 	{
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x2FB0FA0", Offset = "0x2FAF5A0", VA = "0x182FB0FA0", Slot = "4")]
+	[Address(RVA = "0x69AFBC0", Offset = "0x69AEBC0", VA = "0x69AFBC0", Slot = "4")]
 	internal virtual void OnDetectFocusChange()
 	{
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x2FB0F90", Offset = "0x2FAF590", VA = "0x182FB0F90", Slot = "5")]
+	[Address(RVA = "0x69AFD00", Offset = "0x69AED00", VA = "0x69AFD00", Slot = "5")]
 	internal virtual void OnCursorIndexChange()
 	{
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x2FB0F90", Offset = "0x2FAF590", VA = "0x182FB0F90", Slot = "6")]
+	[Address(RVA = "0x69AFD10", Offset = "0x69AED10", VA = "0x69AFD10", Slot = "6")]
 	internal virtual void OnSelectIndexChange()
 	{
 	}

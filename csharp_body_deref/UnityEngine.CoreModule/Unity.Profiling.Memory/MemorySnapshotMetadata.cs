@@ -16,15 +16,15 @@ public class MemorySnapshotMetadata
 	[Token(Token = "0x17000016")]
 	public string Description
 	{
-		[Token(Token = "0x60000B6")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60000B8")]
+		[Address(RVA = "0x68B6280", Offset = "0x68B5280", VA = "0x68B6280")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x60000B9")]
+		[Address(RVA = "0x68B6290", Offset = "0x68B5290", VA = "0x68B6290")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,8 +34,8 @@ public class MemorySnapshotMetadata
 	[Token(Token = "0x17000017")]
 	internal byte[] Data
 	{
-		[Token(Token = "0x60000B8")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60000BA")]
+		[Address(RVA = "0x68B62A0", Offset = "0x68B52A0", VA = "0x68B62A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,8 +43,8 @@ public class MemorySnapshotMetadata
 		}
 	}
 
-	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0x68B62B0", Offset = "0x68B52B0", VA = "0x68B62B0")]
 	public MemorySnapshotMetadata()
 	{
 	}

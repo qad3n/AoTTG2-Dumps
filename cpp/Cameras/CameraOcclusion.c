@@ -1,48 +1,39 @@
 // Type: Cameras.CameraOcclusion
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Cameras/CameraOcclusion.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Cameras.CameraOcclusion.FallbackRenderer$$.ctor
 // il2cpp: void Cameras_CameraOcclusion_FallbackRenderer___ctor (Cameras_CameraOcclusion_FallbackRenderer_o* __this, UnityEngine_Renderer_o* renderer, UnityEngine_Bounds_o bounds, const MethodInfo* method);
-// 0x1822ef290
+// 0x5dceb10
 
 void Cameras_CameraOcclusion_FallbackRenderer___ctor
                (Cameras_CameraOcclusion_FallbackRenderer_o *__this,UnityEngine_Renderer_o *renderer,
-               UnityEngine_Bounds_o *bounds,MethodInfo *method)
+               UnityEngine_Bounds_o bounds,MethodInfo *method)
 
 {
   UnityEngine_Bounds_o *pUVar1;
-  undefined8 uVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).Renderer = renderer;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Renderer,renderer);
-  fVar3 = (bounds->fields).m_Center.fields.y;
-  uVar2 = *(undefined8 *)&(bounds->fields).m_Center.fields.z;
-  fVar4 = (bounds->fields).m_Extents.fields.y;
-  fVar5 = (bounds->fields).m_Extents.fields.z;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Renderer);
   pUVar1 = &(__this->fields).Bounds;
-  (pUVar1->fields).m_Center.fields.x = (bounds->fields).m_Center.fields.x;
-  (pUVar1->fields).m_Center.fields.y = fVar3;
-  *(undefined8 *)&(__this->fields).Bounds.fields.m_Center.fields.z = uVar2;
+  (pUVar1->fields).m_Extents.fields.y = bounds.fields.m_Extents.fields.y;
+  (pUVar1->fields).m_Extents.fields.z = bounds.fields.m_Extents.fields.z;
   pUVar1 = &(__this->fields).Bounds;
-  (pUVar1->fields).m_Extents.fields.y = fVar4;
-  (pUVar1->fields).m_Extents.fields.z = fVar5;
+  (pUVar1->fields).m_Center.fields.x = bounds.fields.m_Center.fields.x;
+  (pUVar1->fields).m_Center.fields.y = bounds.fields.m_Center.fields.y;
+  *(undefined8 *)&(__this->fields).Bounds.fields.m_Center.fields.z = bounds.fields._8_8_;
   return;
 }
 
 
 // Cameras.CameraOcclusion.FallbackGrid$$.ctor
 // il2cpp: void Cameras_CameraOcclusion_FallbackGrid___ctor (Cameras_CameraOcclusion_FallbackGrid_o* __this, float cellSize, const MethodInfo* method);
-// 0x1822ef200
+// 0x5dcea80
 
 void Cameras_CameraOcclusion_FallbackGrid___ctor
                (Cameras_CameraOcclusion_FallbackGrid_o *__this,float cellSize,MethodInfo *method)
@@ -50,7 +41,7 @@ void Cameras_CameraOcclusion_FallbackGrid___ctor
 {
   System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o *__this_00;
   
-  if (Il2CppMethodInitialized_18434768a == '\0') {
+  if (Il2CppMethodInitialized_07548207 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_ctor
@@ -59,7 +50,7 @@ void Cameras_CameraOcclusion_FallbackGrid___ctor
               (&
                TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer
               );
-    Il2CppMethodInitialized_18434768a = '\x01';
+    Il2CppMethodInitialized_07548207 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
@@ -67,13 +58,12 @@ void Cameras_CameraOcclusion_FallbackGrid___ctor
                         );
   System_Collections_Generic_Dictionary_Vector3Int__object____ctor
             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_14CF520 *)
+             (MethodInfo_4B1FD20 *)
              MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_ctor
             );
   (__this->fields).Cells = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Cells,__this_00);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Cells);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).CellSize = cellSize;
   return;
 }
@@ -81,147 +71,115 @@ void Cameras_CameraOcclusion_FallbackGrid___ctor
 
 // Cameras.CameraOcclusion.FallbackGrid$$GetCell
 // il2cpp: UnityEngine_Vector3Int_o Cameras_CameraOcclusion_FallbackGrid__GetCell (Cameras_CameraOcclusion_FallbackGrid_o* __this, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x1822ef0d0
+// 0x5dcea60
 
-UnityEngine_Vector3Int_o *
+UnityEngine_Vector3Int_o
 Cameras_CameraOcclusion_FallbackGrid__GetCell
-          (UnityEngine_Vector3Int_o *__return_storage_ptr__,Cameras_CameraOcclusion_FallbackGrid_o *__this,
-          UnityEngine_Vector3_o *position,MethodInfo *method)
+          (Cameras_CameraOcclusion_FallbackGrid_o *__this,UnityEngine_Vector3_o position,MethodInfo *method)
 
 {
   float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  char cVar5;
-  double dVar6;
-  double dVar7;
+  undefined8 in_XMM0_Qb;
+  undefined1 auVar2 [16];
+  undefined1 auVar3 [16];
+  UnityEngine_Vector3Int_o UVar4;
   
+  auVar2._0_8_ = position.fields._0_8_;
+  auVar2._8_8_ = in_XMM0_Qb;
   fVar1 = (__this->fields).CellSize;
-  fVar2 = (position->fields).x;
-  fVar3 = (position->fields).y;
-  fVar4 = (position->fields).z;
-  if (Il2CppMethodInitialized_18433df26 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-  }
-  cVar5 = Il2CppMethodInitialized_18433df26;
-  dVar6 = il2cpp_runtime_helper_1804f4690((double)(fVar2 / fVar1),(MethodInfo *)__this);
-  if (cVar5 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    cVar5 = '\x01';
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-    cVar5 = Il2CppMethodInitialized_18433df26;
-  }
-  dVar7 = il2cpp_runtime_helper_1804f4690((double)(fVar3 / fVar1),(MethodInfo *)__this);
-  if (cVar5 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-  }
-  (__return_storage_ptr__->fields).m_X = (int)dVar6;
-  (__return_storage_ptr__->fields).m_Y = (int)dVar7;
-  dVar6 = il2cpp_runtime_helper_1804f4690((double)(fVar4 / fVar1),(MethodInfo *)__this);
-  (__return_storage_ptr__->fields).m_Z = (int)dVar6;
-  return __return_storage_ptr__;
+  auVar3._4_4_ = fVar1;
+  auVar3._0_4_ = fVar1;
+  auVar3._8_4_ = fVar1;
+  auVar3._12_4_ = fVar1;
+  auVar3 = divps(auVar2,auVar3);
+  UVar4.fields = (UnityEngine_Vector3Int_Fields)il2cpp_runtime_helper_05de6ea0(auVar3._0_8_,position.fields.z / fVar1,0);
+  return (UnityEngine_Vector3Int_o)UVar4.fields;
 }
 
 
 // Cameras.CameraOcclusion.MaterialOverride$$.ctor
 // il2cpp: void Cameras_CameraOcclusion_MaterialOverride___ctor (Cameras_CameraOcclusion_MaterialOverride_o* __this, UnityEngine_Material_array* originals, const MethodInfo* method);
-// 0x1822f84f0
+// 0x5dcec40
 
 void Cameras_CameraOcclusion_MaterialOverride___ctor
                (Cameras_CameraOcclusion_MaterialOverride_o *__this,UnityEngine_Material_array *originals,
                MethodInfo *method)
 
 {
-  UnityEngine_Material_array *value;
+  UnityEngine_Material_array *pUVar1;
   
-  if (Il2CppMethodInitialized_18434768b == '\0') {
+  if (Il2CppMethodInitialized_07548208 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material_array);
-    Il2CppMethodInitialized_18434768b = '\x01';
+    Il2CppMethodInitialized_07548208 = '\x01';
   }
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).Originals = originals;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Originals,originals);
-  if (originals != (UnityEngine_Material_array *)0x0) {
-    value = (UnityEngine_Material_array *)
-            SZArrayNew(TypeInfo_UnityEngine_Material_array,(uint32_t)originals->max_length);
-    (__this->fields).Replacements = value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).Replacements,value);
-    return;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Originals);
+  if (originals == (UnityEngine_Material_array *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pUVar1 = (UnityEngine_Material_array *)
+           SZArrayNew(TypeInfo_UnityEngine_Material_array,(uint32_t)originals->max_length);
+  (__this->fields).Replacements = pUVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Replacements);
+  return;
 }
 
 
 // Cameras.CameraOcclusion.MaterialOverride$$Matches
 // il2cpp: bool Cameras_CameraOcclusion_MaterialOverride__Matches (Cameras_CameraOcclusion_MaterialOverride_o* __this, System_Collections_Generic_List_Material__o* materials, const MethodInfo* method);
-// 0x1822f83d0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822f844f: nop 
-// asm:   0x1822f84b3: jmp 0x1822f8450
+// 0x5dceb50
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcebae: nop 
 
 bool Cameras_CameraOcclusion_MaterialOverride__Matches
                (Cameras_CameraOcclusion_MaterialOverride_o *__this,
                System_Collections_Generic_List_Material__o *materials,MethodInfo *method)
 
 {
+  uint uVar1;
   UnityEngine_Material_o *x;
-  bool bVar1;
-  UnityEngine_Material_array *pUVar2;
+  bool bVar2;
+  UnityEngine_Material_array *pUVar3;
   UnityEngine_Material_o *y;
-  uint index;
+  ulong uVar4;
   
-  if (Il2CppMethodInitialized_18434768c == '\0') {
+  if (Il2CppMethodInitialized_07548209 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Material_get_Count)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Material_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434768c = '\x01';
+    Il2CppMethodInitialized_07548209 = '\x01';
   }
-  pUVar2 = (__this->fields).Originals;
-  if ((pUVar2 != (UnityEngine_Material_array *)0x0) &&
+  pUVar3 = (__this->fields).Originals;
+  if ((pUVar3 != (UnityEngine_Material_array *)0x0) &&
      (materials != (System_Collections_Generic_List_Material__o *)0x0)) {
-    if ((int)pUVar2->max_length != (materials->fields)._size) {
+    if ((materials->fields)._size != (int)pUVar3->max_length) {
       return false;
     }
-    pUVar2 = (__this->fields).Originals;
-    index = 0;
+    uVar4 = 0;
     do {
-      if ((int)pUVar2->max_length <= (int)index) {
-        return true;
+      uVar1 = (uint)pUVar3->max_length;
+      if ((long)(int)uVar1 <= (long)uVar4) {
+label_05dcec1a:
+        return (long)(int)uVar1 <= (long)uVar4;
       }
-      pUVar2 = (__this->fields).Originals;
-      if (pUVar2 == (UnityEngine_Material_array *)0x0) break;
-      if ((uint)pUVar2->max_length <= index) {
+      if (uVar1 <= uVar4) {
         ThrowIndexOutOfRangeException();
       }
-      x = pUVar2->m_Items[(int)index];
-      y = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                    ((System_Collections_Generic_List_object__o *)materials,index,
-                     (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Material_get_Item);
+      x = pUVar3->m_Items[uVar4];
+      y = System_Collections_Generic_List_object___get_Item
+                    ((System_Collections_Generic_List_object__o *)materials,(int32_t)uVar4,
+                     (MethodInfo_395CF20 *)MethodInfo_System_Collections_Generic_List_Material_get_Item);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar1 = UnityEngine_Object__op_Inequality
+      bVar2 = UnityEngine_Object__op_Inequality
                         ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)y,(MethodInfo *)0x0);
-      if (bVar1) {
-        return false;
-      }
-      pUVar2 = (__this->fields).Originals;
-      index = index + 1;
-    } while (pUVar2 != (UnityEngine_Material_array *)0x0);
+      if (bVar2) goto label_05dcec1a;
+      uVar4 = uVar4 + 1;
+      pUVar3 = (__this->fields).Originals;
+    } while (pUVar3 != (UnityEngine_Material_array *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -229,11 +187,7 @@ bool Cameras_CameraOcclusion_MaterialOverride__Matches
 
 // Cameras.CameraOcclusion$$RegisterObject
 // il2cpp: void Cameras_CameraOcclusion__RegisterObject (UnityEngine_GameObject_o* gameObject, UnityEngine_Collider_array* colliders, bool isStatic, const MethodInfo* method);
-// 0x1822ed110
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ed2bf: nop 
-// asm:   0x1822ed36f: mov r8, qword ptr [rip + 0x1e12222]  ; TypeInfo_UnityEngine_SkinnedMeshRenderer
-// asm:   0x1822ed376: mov rdx, qword ptr [rip + 0x1dd7c2b]  ; TypeInfo_UnityEngine_MeshRenderer
+// 0x5dcb8b0
 
 void Cameras_CameraOcclusion__RegisterObject
                (UnityEngine_GameObject_o *gameObject,UnityEngine_Collider_array *colliders,bool isStatic,
@@ -241,115 +195,165 @@ void Cameras_CameraOcclusion__RegisterObject
 
 {
   byte bVar1;
-  UnityEngine_Object_o *x;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *renderer;
-  UnityEngine_Renderer_c *pUVar2;
-  bool bVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *value;
-  Il2CppClass *pIVar4;
-  uint uVar5;
-  Il2CppClass *pIVar6;
+  byte bVar2;
+  uint uVar3;
+  System_Collections_Generic_HashSet_object__o *__this;
+  UnityEngine_Object_o *pUVar4;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar5;
+  UnityEngine_Renderer_o *renderer;
+  UnityEngine_Renderer_c *pUVar6;
+  bool bVar7;
+  System_Object_array *value;
+  ulong uVar8;
+  int iVar9;
+  UnityEngine_MeshRenderer_c *extraout_RDX;
+  UnityEngine_MeshRenderer_c *method_00;
+  ulong uVar10;
+  UnityEngine_Collider_array *method_01;
   
-  if (Il2CppMethodInitialized_184347679 == '\0') {
+  if (Il2CppMethodInitialized_075481f6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_set_Item);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_40c10c0);
+              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_71ab218);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Collider_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_SkinnedMeshRenderer);
-    Il2CppMethodInitialized_184347679 = '\x01';
+    Il2CppMethodInitialized_075481f6 = '\x01';
   }
-  if ((gameObject != (UnityEngine_GameObject_o *)0x0) &&
-     (value = UnityEngine_GameObject__GetComponentsInChildren___Il2CppFullySharedGenericType_
+  if ((gameObject == (UnityEngine_GameObject_o *)0x0) ||
+     (value = UnityEngine_GameObject__GetComponentsInChildren_object_
                         (gameObject,true,
-                         (MethodInfo_6F5750 *)
-                         MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_40c10c0),
-     colliders != (UnityEngine_Collider_array *)0x0)) {
-    for (uVar5 = 0; (int)uVar5 < (int)colliders->max_length; uVar5 = uVar5 + 1) {
-      if ((uint)colliders->max_length <= uVar5) goto label_1822ed3a1;
-      x = (UnityEngine_Object_o *)colliders->m_Items[(int)uVar5];
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar3 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (!bVar3) {
-        if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+                         (MethodInfo_353C0B0 *)
+                         MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_71ab218),
+     colliders == (UnityEngine_Collider_array *)0x0)) {
+label_05dcbc0e:
+    ThrowNullReferenceException();
+  }
+  iVar9 = (int)colliders->max_length;
+  uVar8 = colliders->max_length & 0xffffffff;
+  if (isStatic) {
+    if (0 < iVar9) {
+      uVar10 = 0;
+      do {
+        if (uVar8 <= uVar10) goto label_05dcbc09;
+        pUVar4 = (UnityEngine_Object_o *)colliders->m_Items[uVar10];
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        __this = (System_Collections_Generic_Dictionary_object__object__o *)
-                 TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
-        if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1822ed3a7;
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  (__this,(Il2CppObject *)x,&value->obj,
-                   (MethodInfo_147A7F0 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_set_Item);
-        if (isStatic) {
+        bVar7 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar7) {
           if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
           }
-          __this_00 = (System_Collections_Generic_HashSet_object__o *)
-                      TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders;
-          if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1822ed3a7;
+          pSVar5 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
+          if (pSVar5 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcbc0e;
+          System_Collections_Generic_Dictionary_object__object___set_Item
+                    (pSVar5,(Il2CppObject *)pUVar4,&value->obj,
+                     (MethodInfo_4AAD4C0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_set_Item);
+          if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+          }
+          __this = (System_Collections_Generic_HashSet_object__o *)
+                   TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders;
+          if (__this == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05dcbc0e;
           System_Collections_Generic_HashSet_object___Add
-                    (__this_00,(Il2CppObject *)x,
-                     (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Collider_Add);
+                    (__this,(Il2CppObject *)pUVar4,
+                     (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_Collider_Add);
         }
-      }
+        uVar10 = uVar10 + 1;
+        uVar3 = (uint)colliders->max_length;
+        uVar8 = (ulong)uVar3;
+      } while ((long)uVar10 < (long)(int)uVar3);
     }
-    if (isStatic) {
-      if (value == (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *)0x0) goto label_1822ed3a7;
-      pIVar4 = (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer;
-      pIVar6 = (Il2CppClass *)TypeInfo_UnityEngine_SkinnedMeshRenderer;
-      for (uVar5 = 0; (int)uVar5 < (int)value->max_length; uVar5 = uVar5 + 1) {
-        if ((uint)value->max_length <= uVar5) {
-label_1822ed3a1:
+  }
+  else {
+    if (iVar9 < 1) {
+      return;
+    }
+    uVar10 = 0;
+    do {
+      if (uVar8 <= uVar10) goto label_05dcbc09;
+      pUVar4 = (UnityEngine_Object_o *)colliders->m_Items[uVar10];
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar7 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (!bVar7) {
+        if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+        }
+        pSVar5 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
+        if (pSVar5 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcbc0e;
+        System_Collections_Generic_Dictionary_object__object___set_Item
+                  (pSVar5,(Il2CppObject *)pUVar4,&value->obj,
+                   (MethodInfo_4AAD4C0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_set_Item);
+      }
+      uVar10 = uVar10 + 1;
+      uVar3 = (uint)colliders->max_length;
+      uVar8 = (ulong)uVar3;
+    } while ((long)uVar10 < (long)(int)uVar3);
+  }
+  if (isStatic) {
+    if (value == (System_Object_array *)0x0) goto label_05dcbc0e;
+    if (0 < (int)value->max_length) {
+      uVar8 = value->max_length & 0xffffffff;
+      uVar10 = 0;
+      do {
+        if (uVar8 <= uVar10) {
+label_05dcbc09:
           ThrowIndexOutOfRangeException();
         }
-        renderer = (&value->m_Items[0].klass)[(int)uVar5];
-        if (renderer != (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)0x0) {
-          pUVar2 = (renderer->_1).image;
-          bVar1 = (pIVar4->_2).typeHierarchyDepth;
-          if (((bVar1 <= (pUVar2->_2).typeHierarchyDepth) &&
-              ((pUVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] == pIVar4)) ||
-             ((bVar1 = (pIVar6->_2).typeHierarchyDepth, bVar1 <= (pUVar2->_2).typeHierarchyDepth &&
-              ((pUVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] == pIVar6)))) {
+        renderer = (UnityEngine_Renderer_o *)value->m_Items[uVar10];
+        if (renderer != (UnityEngine_Renderer_o *)0x0) {
+          pUVar6 = renderer->klass;
+          bVar1 = (pUVar6->_2).typeHierarchyDepth;
+          bVar2 = (TypeInfo_UnityEngine_MeshRenderer->_2).typeHierarchyDepth;
+          if (((bVar2 <= bVar1) &&
+              (method_00 = TypeInfo_UnityEngine_MeshRenderer,
+              (pUVar6->_2).typeHierarchy[(ulong)bVar2 - 1] == (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer
+              )) || ((bVar2 = (TypeInfo_UnityEngine_SkinnedMeshRenderer->_2).typeHierarchyDepth,
+                     bVar2 <= bVar1 &&
+                     (method_00 = (UnityEngine_MeshRenderer_c *)TypeInfo_UnityEngine_SkinnedMeshRenderer,
+                     (pUVar6->_2).typeHierarchy[(ulong)bVar2 - 1] ==
+                     (Il2CppClass *)TypeInfo_UnityEngine_SkinnedMeshRenderer)))) {
             if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+              method_00 = extraout_RDX;
             }
-            bVar3 = Cameras_CameraOcclusion__HasMatchingMeshCollider
-                              ((UnityEngine_Renderer_o *)renderer,colliders,(MethodInfo *)0x0);
-            pIVar4 = (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer;
-            pIVar6 = (Il2CppClass *)TypeInfo_UnityEngine_SkinnedMeshRenderer;
-            if (!bVar3) {
+            method_01 = colliders;
+            bVar7 = Cameras_CameraOcclusion__HasMatchingMeshCollider
+                              (renderer,colliders,(MethodInfo *)method_00);
+            if (!bVar7) {
               if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
               }
-              Cameras_CameraOcclusion__RegisterFallbackRenderer
-                        ((UnityEngine_Renderer_o *)renderer,(MethodInfo *)0x0);
-              pIVar4 = (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer;
-              pIVar6 = (Il2CppClass *)TypeInfo_UnityEngine_SkinnedMeshRenderer;
+              Cameras_CameraOcclusion__RegisterFallbackRenderer(renderer,(MethodInfo *)method_01);
             }
           }
         }
-      }
+        uVar10 = uVar10 + 1;
+        uVar3 = (uint)value->max_length;
+        uVar8 = (ulong)uVar3;
+      } while ((long)uVar10 < (long)(int)uVar3);
     }
-    return;
   }
-label_1822ed3a7:
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // Cameras.CameraOcclusion$$HasMatchingMeshCollider
 // il2cpp: bool Cameras_CameraOcclusion__HasMatchingMeshCollider (UnityEngine_Renderer_o* renderer, UnityEngine_Collider_array* colliders, const MethodInfo* method);
-// 0x1822ec7b0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822eca0e: mov rdx, qword ptr [rip + 0x1dd7bf3]  ; TypeInfo_UnityEngine_MeshCollider
+// 0x5dcbc20
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcbe9b: mov bl, 1
+// asm:   0x5dcbe9d: jmp 0x5dcbd36
 
 bool Cameras_CameraOcclusion__HasMatchingMeshCollider
                (UnityEngine_Renderer_o *renderer,UnityEngine_Collider_array *colliders,MethodInfo *method)
@@ -361,95 +365,103 @@ bool Cameras_CameraOcclusion__HasMatchingMeshCollider
   bool bVar3;
   uint uVar4;
   UnityEngine_Object_o *pUVar5;
-  UnityEngine_Object_o *pUVar6;
+  ulong uVar6;
+  UnityEngine_Object_o *pUVar7;
   UnityEngine_GameObject_o *__this_00;
-  Il2CppClass *pIVar7;
-  uint uVar8;
-  UnityEngine_MeshFilter_o *local_res8;
+  ulong uVar8;
+  UnityEngine_MeshFilter_o *local_38;
   
-  if (Il2CppMethodInitialized_18434767a == '\0') {
+  if (Il2CppMethodInitialized_075481f7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_TryGetComponent_MeshFilter);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_MeshCollider);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434767a = '\x01';
+    Il2CppMethodInitialized_075481f7 = '\x01';
   }
-  local_res8 = (UnityEngine_MeshFilter_o *)0x0;
+  local_38 = (UnityEngine_MeshFilter_o *)0x0;
   if (renderer != (UnityEngine_Renderer_o *)0x0) {
     bVar1 = (TypeInfo_UnityEngine_MeshRenderer->_2).typeHierarchyDepth;
     if (((bVar1 <= (renderer->klass->_2).typeHierarchyDepth) &&
-        ((renderer->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+        ((renderer->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
          (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer)) &&
        (bVar3 = UnityEngine_Component__TryGetComponent_object_
-                          ((UnityEngine_Component_o *)renderer,(Il2CppObject **)&local_res8,
-                           (MethodInfo_6657C0 *)MethodInfo_UnityEngine_Component_TryGetComponent_MeshFilter),
+                          ((UnityEngine_Component_o *)renderer,(Il2CppObject **)&local_38,
+                           (MethodInfo_34B1690 *)MethodInfo_UnityEngine_Component_TryGetComponent_MeshFilter),
        bVar3)) {
-      if (local_res8 == (UnityEngine_MeshFilter_o *)0x0) {
-label_1822eca46:
-        ThrowNullReferenceException();
-      }
-      pUVar5 = (UnityEngine_Object_o *)UnityEngine_MeshFilter__get_sharedMesh(local_res8,(MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar3 = UnityEngine_Object__op_Equality(pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (!bVar3) {
-        if (colliders == (UnityEngine_Collider_array *)0x0) goto label_1822eca46;
-        pIVar7 = (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider;
-        for (uVar8 = 0; (int)uVar8 < (int)colliders->max_length; uVar8 = uVar8 + 1) {
-          if ((uint)colliders->max_length <= uVar8) {
-            ThrowIndexOutOfRangeException();
+      if (local_38 != (UnityEngine_MeshFilter_o *)0x0) {
+        pUVar5 = (UnityEngine_Object_o *)UnityEngine_MeshFilter__get_sharedMesh(local_38,(MethodInfo *)0x0);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar3 = UnityEngine_Object__op_Equality(pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar3) {
+          return false;
+        }
+        if (colliders != (UnityEngine_Collider_array *)0x0) {
+          if ((int)colliders->max_length < 1) {
+            return false;
           }
-          __this = colliders->m_Items[(int)uVar8];
-          if (__this != (UnityEngine_Collider_o *)0x0) {
-            bVar1 = (pIVar7->_2).typeHierarchyDepth;
-            if (((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
-                ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == pIVar7)) &&
-               (bVar3 = UnityEngine_Collider__get_enabled(__this,(MethodInfo *)0x0),
-               pIVar7 = (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider, bVar3)) {
-              pUVar5 = (UnityEngine_Object_o *)
-                       UnityEngine_Component__get_gameObject
-                                 ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-              pUVar6 = (UnityEngine_Object_o *)
-                       UnityEngine_Component__get_gameObject
-                                 ((UnityEngine_Component_o *)renderer,(MethodInfo *)0x0);
-              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-              }
-              bVar3 = UnityEngine_Object__op_Equality(pUVar5,pUVar6,(MethodInfo *)0x0);
-              pIVar7 = (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider;
-              if (bVar3) {
+          uVar6 = colliders->max_length & 0xffffffff;
+          uVar8 = 0;
+          do {
+            if (uVar6 <= uVar8) {
+              ThrowIndexOutOfRangeException();
+            }
+            __this = colliders->m_Items[uVar8];
+            if (__this != (UnityEngine_Collider_o *)0x0) {
+              bVar1 = (TypeInfo_UnityEngine_MeshCollider->_2).typeHierarchyDepth;
+              if (((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
+                  ((__this->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+                   (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider)) &&
+                 (bVar3 = UnityEngine_Collider__get_enabled(__this,(MethodInfo *)0x0), bVar3)) {
                 pUVar5 = (UnityEngine_Object_o *)
-                         UnityEngine_MeshCollider__get_sharedMesh
-                                   ((UnityEngine_MeshCollider_o *)__this,(MethodInfo *)0x0);
-                if (local_res8 == (UnityEngine_MeshFilter_o *)0x0) goto label_1822eca46;
-                pUVar6 = (UnityEngine_Object_o *)
-                         UnityEngine_MeshFilter__get_sharedMesh(local_res8,(MethodInfo *)0x0);
+                         UnityEngine_Component__get_gameObject
+                                   ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                pUVar7 = (UnityEngine_Object_o *)
+                         UnityEngine_Component__get_gameObject
+                                   ((UnityEngine_Component_o *)renderer,(MethodInfo *)0x0);
                 if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                   il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                 }
-                bVar3 = UnityEngine_Object__op_Equality(pUVar5,pUVar6,(MethodInfo *)0x0);
-                pIVar7 = (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider;
+                bVar3 = UnityEngine_Object__op_Equality(pUVar5,pUVar7,(MethodInfo *)0x0);
                 if (bVar3) {
-                  if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+                  pUVar5 = (UnityEngine_Object_o *)
+                           UnityEngine_MeshCollider__get_sharedMesh
+                                     ((UnityEngine_MeshCollider_o *)__this,(MethodInfo *)0x0);
+                  if (local_38 == (UnityEngine_MeshFilter_o *)0x0) break;
+                  pUVar7 = (UnityEngine_Object_o *)
+                           UnityEngine_MeshFilter__get_sharedMesh(local_38,(MethodInfo *)0x0);
+                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                   }
-                  uVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->MapMask;
-                  __this_00 = UnityEngine_Component__get_gameObject
-                                        ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                  if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_1822eca46;
-                  uVar4 = UnityEngine_GameObject__get_layer(__this_00,(MethodInfo *)0x0);
-                  pIVar7 = (Il2CppClass *)TypeInfo_UnityEngine_MeshCollider;
-                  if ((uVar2 >> (uVar4 & 0x1f) & 1) != 0) {
-                    return true;
+                  bVar3 = UnityEngine_Object__op_Equality(pUVar5,pUVar7,(MethodInfo *)0x0);
+                  if (bVar3) {
+                    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+                    }
+                    uVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->MapMask;
+                    __this_00 = UnityEngine_Component__get_gameObject
+                                          ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                    if (__this_00 == (UnityEngine_GameObject_o *)0x0) break;
+                    uVar4 = UnityEngine_GameObject__get_layer(__this_00,(MethodInfo *)0x0);
+                    if ((uVar2 >> (uVar4 & 0x1f) & 1) != 0) {
+                      return true;
+                    }
                   }
                 }
               }
             }
-          }
+            uVar8 = uVar8 + 1;
+            uVar2 = (uint)colliders->max_length;
+            uVar6 = (ulong)uVar2;
+            if ((long)(int)uVar2 <= (long)uVar8) {
+              return false;
+            }
+          } while( true );
         }
       }
+      ThrowNullReferenceException();
     }
   }
   return false;
@@ -458,97 +470,99 @@ label_1822eca46:
 
 // Cameras.CameraOcclusion$$RegisterCombinedRenderer
 // il2cpp: void Cameras_CameraOcclusion__RegisterCombinedRenderer (UnityEngine_Renderer_o* original, UnityEngine_Renderer_o* combined, const MethodInfo* method);
-// 0x1822eca50
+// 0x5dcc320
 
 void Cameras_CameraOcclusion__RegisterCombinedRenderer
                (UnityEngine_Renderer_o *original,UnityEngine_Renderer_o *combined,MethodInfo *method)
 
 {
+  uint32_t uVar1;
   System_Collections_Generic_Dictionary_object__object__o *__this;
   
-  if (Il2CppMethodInitialized_18434767b == '\0') {
+  if (Il2CppMethodInitialized_075481f8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_set_Item);
-    Il2CppMethodInitialized_18434767b = '\x01';
+    Il2CppMethodInitialized_075481f8 = '\x01';
+    uVar1 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+    __this = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers;
   }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)
-           TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers;
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (__this,(Il2CppObject *)original,(Il2CppObject *)combined,
-               (MethodInfo_147A7F0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_set_Item);
-    return;
+  else {
+    __this = *(System_Collections_Generic_Dictionary_object__object__o **)
+              ((long)((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion)->static_fields + 0x30);
   }
-  ThrowNullReferenceException();
+  if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_Dictionary_object__object___set_Item
+            (__this,(Il2CppObject *)original,(Il2CppObject *)combined,
+             (MethodInfo_4AAD4C0 *)MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_set_Item
+            );
+  return;
 }
 
 
 // Cameras.CameraOcclusion$$SetCapsule
 // il2cpp: void Cameras_CameraOcclusion__SetCapsule (UnityEngine_Camera_o* camera, UnityEngine_Vector3_o start, UnityEngine_Vector3_o end, float radius, UnityEngine_Vector3_o groundOrigin, const MethodInfo* method);
-// 0x1822eda40
+// 0x5dcc3c0
 
 void Cameras_CameraOcclusion__SetCapsule
-               (UnityEngine_Camera_o *camera,UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *end,
-               float radius,UnityEngine_Vector3_o *groundOrigin,MethodInfo *method)
+               (UnityEngine_Camera_o *camera,UnityEngine_Vector3_o start,UnityEngine_Vector3_o end,
+               float radius,UnityEngine_Vector3_o groundOrigin,MethodInfo *method)
 
 {
-  float fVar1;
-  Cameras_CameraOcclusion_StaticFields *pCVar2;
-  float fVar3;
-  float fVar4;
-  System_Action_T1__T2__o *pSVar5;
-  UnityEngine_Vector3_Fields local_28 [2];
+  Cameras_CameraOcclusion_StaticFields *pCVar1;
+  Cameras_CameraOcclusion_c *pCVar2;
+  System_Action_T1__T2__o *pSVar3;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_18434767c == '\0') {
+  if (Il2CppMethodInitialized_075481f9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_ScriptableRenderContext_Camera);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Cameras_CameraOcclusion_EndCameraRendering);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
-    Il2CppMethodInitialized_18434767c = '\x01';
+    Il2CppMethodInitialized_075481f9 = '\x01';
   }
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  TypeInfo_Cameras_CameraOcclusion->static_fields->_camera = camera;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->_camera,camera);
-  fVar3 = (start->fields).y;
-  pCVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-  fVar1 = (start->fields).z;
-  (pCVar2->_start).fields.x = (start->fields).x;
-  (pCVar2->_start).fields.y = fVar3;
-  fVar3 = (end->fields).x;
-  fVar4 = (end->fields).y;
-  (pCVar2->_start).fields.z = fVar1;
-  pCVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-  fVar1 = (end->fields).z;
-  (pCVar2->_end).fields.x = fVar3;
-  (pCVar2->_end).fields.y = fVar4;
-  (pCVar2->_end).fields.z = fVar1;
-  TypeInfo_Cameras_CameraOcclusion->static_fields->_radius = radius;
-  local_28[0].x = (groundOrigin->fields).x;
-  local_28[0].y = (groundOrigin->fields).y;
-  local_28[0].z = (groundOrigin->fields).z;
-  Cameras_CameraOcclusion__UpdateGroundPlane((UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+  pCVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+  pCVar1->_camera = camera;
+  method_00 = (MethodInfo *)&pCVar1->_camera;
+  Il2CppCodeGenWriteBarrier((void **)method_00);
+  pCVar2 = TypeInfo_Cameras_CameraOcclusion;
+  pCVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+  (pCVar1->_start).fields.x = start.fields.x;
+  (pCVar1->_start).fields.y = start.fields.y;
+  (pCVar1->_start).fields.z = start.fields.z;
+  pCVar1 = pCVar2->static_fields;
+  (pCVar1->_end).fields.x = end.fields.x;
+  (pCVar1->_end).fields.y = end.fields.y;
+  (pCVar1->_end).fields.z = end.fields.z;
+  pCVar2->static_fields->_radius = radius;
+  Cameras_CameraOcclusion__UpdateGroundPlane(groundOrigin,method_00);
   if (TypeInfo_Cameras_CameraOcclusion->static_fields->_subscribed == false) {
-    pSVar5 = (System_Action_T1__T2__o *)
+    pSVar3 = (System_Action_T1__T2__o *)
              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
     System_Action_ScriptableRenderContext__object____ctor
-              (pSVar5,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering,
-               (MethodInfo_1467F20 *)0x0);
+              (pSVar3,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering,
+               (MethodInfo_4A8AA40 *)0x0);
     UnityEngine_Rendering_RenderPipelineManager__add_beginCameraRendering
-              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar5,(MethodInfo *)0x0);
-    pSVar5 = (System_Action_T1__T2__o *)
+              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar3,(MethodInfo *)0x0);
+    pSVar3 = (System_Action_T1__T2__o *)
              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
     System_Action_ScriptableRenderContext__object____ctor
-              (pSVar5,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_EndCameraRendering,
-               (MethodInfo_1467F20 *)0x0);
+              (pSVar3,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_EndCameraRendering,
+               (MethodInfo_4A8AA40 *)0x0);
     UnityEngine_Rendering_RenderPipelineManager__add_endCameraRendering
-              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar5,(MethodInfo *)0x0);
+              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar3,(MethodInfo *)0x0);
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
@@ -560,332 +574,356 @@ void Cameras_CameraOcclusion__SetCapsule
 
 // Cameras.CameraOcclusion$$UpdateGroundPlane
 // il2cpp: void Cameras_CameraOcclusion__UpdateGroundPlane (UnityEngine_Vector3_o groundOrigin, const MethodInfo* method);
-// 0x1822edc20
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822eddcc: nop dword ptr [rax]
-// asm:   0x1822edf0a: movss xmm15, dword ptr [rip + 0x106ad4d]
-// asm:   0x1822edf13: movss xmm14, dword ptr [rip + 0x106ace8]
-// asm:   0x1822edf1c: nop dword ptr [rax]
-// asm:   0x1822ee186: mov r8, qword ptr [rip + 0x1decf43]  ; TypeInfo_Cameras_CameraOcclusion
-// asm:   0x1822ee18d: jmp 0x1822edf20
+// 0x5dcc570
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcca29: jmp 0x5dcca76
 
-void Cameras_CameraOcclusion__UpdateGroundPlane(UnityEngine_Vector3_o *groundOrigin,MethodInfo *method)
+void Cameras_CameraOcclusion__UpdateGroundPlane(UnityEngine_Vector3_o groundOrigin,MethodInfo *method)
 
 {
-  float *pfVar1;
-  UnityEngine_RaycastHit_o *pUVar2;
-  float fVar3;
-  float fVar4;
-  undefined8 uVar5;
-  float fVar6;
-  UnityEngine_Vector4_StaticFields *pUVar7;
-  Cameras_CameraOcclusion_StaticFields *pCVar8;
-  UnityEngine_Vector3_StaticFields *pUVar9;
-  UnityEngine_RaycastHit_array *pUVar10;
-  System_Collections_Generic_HashSet_object__o *__this;
+  undefined8 *puVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  float fVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
   undefined4 uVar11;
   undefined4 uVar12;
-  undefined4 uVar13;
-  UnityEngine_RaycastHit_Fields *pUVar14;
-  bool bVar15;
-  int32_t iVar16;
+  float fVar13;
+  int32_t layerMask;
+  uint32_t uVar14;
+  UnityEngine_Vector4_StaticFields *pUVar15;
+  UnityEngine_Vector3_StaticFields *pUVar16;
+  undefined8 uVar17;
+  System_Collections_Generic_HashSet_object__o *__this;
+  undefined8 uVar18;
+  UnityEngine_Vector3_Fields direction;
+  Cameras_CameraOcclusion_c *pCVar19;
+  bool bVar20;
+  uint uVar21;
   UnityEngine_Collider_o *item;
-  UnityEngine_Vector3_o *pUVar17;
-  uint uVar18;
-  float fVar19;
-  float fVar20;
-  float fVar21;
-  float fVar22;
-  float fVar23;
-  float fVar24;
-  UnityEngine_Vector3_Fields local_138;
-  UnityEngine_Vector3_Fields local_128;
-  UnityEngine_Vector3_o local_118;
-  UnityEngine_Vector3_o local_108;
-  UnityEngine_Touch_Fields local_f8 [3];
+  UnityEngine_RaycastHit_array *pUVar22;
+  long lVar23;
+  Cameras_CameraOcclusion_StaticFields *pCVar24;
+  ulong uVar25;
+  float fVar26;
+  UnityEngine_Vector3_o UVar27;
+  UnityEngine_Vector3_o UVar28;
+  float local_bc;
+  float local_a8;
+  float fStack_a4;
+  float local_98;
+  float fStack_94;
+  UnityEngine_RaycastHit_o local_68;
   
-  if (Il2CppMethodInitialized_18434767d == '\0') {
+  if (Il2CppMethodInitialized_075481fa == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Resize_RaycastHit);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Collider_Contains);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
-    Il2CppMethodInitialized_18434767d = '\x01';
+    Il2CppMethodInitialized_075481fa = '\x01';
   }
-  local_f8[0].m_RawPosition.fields.y = 0.0;
-  local_f8[0].m_PositionDelta.fields.x = 0.0;
-  local_f8[0].m_PositionDelta.fields.y = 0.0;
-  local_f8[0].m_TimeDelta = 0.0;
-  local_f8[0].m_TapCount = 0;
-  local_f8[0].m_Phase = 0;
-  local_f8[0].m_Type = 0;
-  local_f8[0].m_FingerId = 0;
-  local_f8[0].m_Position.fields.x = 0.0;
-  local_f8[0].m_Position.fields.y = 0.0;
-  local_f8[0].m_RawPosition.fields.x = 0.0;
-  if (Il2CppMethodInitialized_1843476c0 == '\0') {
+  local_68.fields.m_UV.fields.x = 0.0;
+  local_68.fields.m_UV.fields.y = 0.0;
+  local_68.fields.m_Collider.fields.m_Data = (UnityEngine_EntityId_Fields)0;
+  local_68.fields.m_Normal.fields.y = 0.0;
+  local_68.fields.m_Normal.fields.z = 0.0;
+  local_68.fields.m_FaceID = 0;
+  local_68.fields.m_Distance = 0.0;
+  local_68.fields.m_Point.fields.x = 0.0;
+  local_68.fields.m_Point.fields.y = 0.0;
+  local_68.fields.m_Point.fields.z = 0.0;
+  local_68.fields.m_Normal.fields.x = 0.0;
+  if (Il2CppMethodInitialized_075482a7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector4);
-    Il2CppMethodInitialized_1843476c0 = '\x01';
+    Il2CppMethodInitialized_075482a7 = '\x01';
   }
-  pUVar7 = TypeInfo_UnityEngine_Vector4->static_fields;
-  fVar24 = (pUVar7->zeroVector).fields.x;
-  fVar23 = (pUVar7->zeroVector).fields.y;
-  fVar19 = (pUVar7->zeroVector).fields.z;
-  fVar21 = (pUVar7->zeroVector).fields.w;
+  pUVar15 = TypeInfo_UnityEngine_Vector4->static_fields;
+  uVar2 = (pUVar15->zeroVector).fields.x;
+  uVar8 = (pUVar15->zeroVector).fields.y;
+  uVar3 = (pUVar15->zeroVector).fields.z;
+  uVar9 = (pUVar15->zeroVector).fields.w;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pCVar8 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-  (pCVar8->_groundPlane).fields.x = fVar24;
-  (pCVar8->_groundPlane).fields.y = fVar23;
-  (pCVar8->_groundPlane).fields.z = fVar19;
-  (pCVar8->_groundPlane).fields.w = fVar21;
-  fVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius * 0.1;
-  if (fVar24 <= 0.1) {
-    fVar24 = 0.1;
+  pCVar19 = TypeInfo_Cameras_CameraOcclusion;
+  pCVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+  (pCVar24->_groundPlane).fields.x = (float)uVar2;
+  (pCVar24->_groundPlane).fields.y = (float)uVar8;
+  (pCVar24->_groundPlane).fields.z = (float)uVar3;
+  (pCVar24->_groundPlane).fields.w = (float)uVar9;
+  fVar7 = pCVar19->static_fields->_radius;
+  fVar26 = fVar7 * 0.1;
+  if (fVar26 <= 0.1) {
+    fVar26 = 0.1;
   }
-  if (Il2CppMethodInitialized_18433de5c == '\0') {
+  if (Il2CppMethodInitialized_0753e72c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5c = '\x01';
+    Il2CppMethodInitialized_0753e72c = '\x01';
+    fVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
   }
-  pUVar9 = TypeInfo_UnityEngine_Vector3->static_fields;
-  uVar18 = 0;
-  fVar23 = (pUVar9->upVector).fields.x;
-  fVar19 = (pUVar9->upVector).fields.y;
-  fVar21 = (pUVar9->upVector).fields.z;
-  fVar22 = (groundOrigin->fields).x;
-  fVar20 = (groundOrigin->fields).y;
-  fVar3 = (groundOrigin->fields).z;
-  fVar4 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
+  pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar4 = (pUVar16->upVector).fields.x;
+  uVar10 = (pUVar16->upVector).fields.y;
+  fVar13 = (pUVar16->upVector).fields.z;
+  local_a8 = groundOrigin.fields.x;
+  fStack_a4 = groundOrigin.fields.y;
   while( true ) {
-    if (Il2CppMethodInitialized_18434494b == '\0') {
+    if (Il2CppMethodInitialized_075450a5 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18434494b = '\x01';
+      Il2CppMethodInitialized_075450a5 = '\x01';
     }
-    pUVar9 = TypeInfo_UnityEngine_Vector3->static_fields;
-    uVar5._0_4_ = (pUVar9->downVector).fields.x;
-    uVar5._4_4_ = (pUVar9->downVector).fields.y;
-    fVar6 = (pUVar9->downVector).fields.z;
+    direction = (TypeInfo_UnityEngine_Vector3->static_fields->downVector).fields;
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    pUVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
-    iVar16 = TypeInfo_Cameras_CameraOcclusion->static_fields->GroundMask;
+    pUVar22 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
+    layerMask = TypeInfo_Cameras_CameraOcclusion->static_fields->GroundMask;
     if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
     }
-    local_128.y = fVar24 * fVar19 + fVar20;
-    local_128.x = fVar24 * fVar23 + fVar22;
-    local_138._0_8_ = uVar5;
-    local_138.z = fVar6;
-    local_128.z = fVar24 * fVar21 + fVar3;
-    iVar16 = UnityEngine_Physics__RaycastNonAlloc_2fe4c30
-                       ((UnityEngine_Vector3_o *)&local_128,(UnityEngine_Vector3_o *)&local_138,pUVar10,
-                        fVar24 + fVar4,iVar16,1,(MethodInfo *)0x0);
-    pUVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
-    if (pUVar10 == (UnityEngine_RaycastHit_array *)0x0) break;
-    if (iVar16 < (int)pUVar10->max_length) {
-      fVar23 = INFINITY;
-      if (iVar16 < 1) {
+    UVar27.fields.y = fVar26 * (float)uVar10 + fStack_a4;
+    UVar27.fields.x = fVar26 * (float)uVar4 + local_a8;
+    UVar27.fields.z = fVar13 * fVar26 + groundOrigin.fields.z;
+    uVar21 = UnityEngine_Physics__RaycastNonAlloc_69dc1f0
+                       (UVar27,(UnityEngine_Vector3_o)direction,pUVar22,fVar7 + fVar26,layerMask,1,
+                        (MethodInfo *)0x0);
+    pCVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+    pUVar22 = pCVar24->_groundHits;
+    if (pUVar22 == (UnityEngine_RaycastHit_array *)0x0) break;
+    if ((int)uVar21 < (int)pUVar22->max_length) {
+      if ((int)uVar21 < 1) {
         return;
       }
-      goto label_1822edf20;
+      local_bc = INFINITY;
+      lVar23 = 0x20;
+      uVar25 = 0;
+      goto label_05dcc880;
     }
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      pCVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+      pUVar22 = pCVar24->_groundHits;
+      if (pUVar22 == (UnityEngine_RaycastHit_array *)0x0) break;
     }
-    pUVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
-    if (pUVar10 == (UnityEngine_RaycastHit_array *)0x0) break;
-    System_Array__Resize_BindingRestrictions_TestBuilder_AndNode_
-              ((System_Dynamic_BindingRestrictions_TestBuilder_AndNode_array **)
-               &TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits,(int)pUVar10->max_length * 2,
-               (MethodInfo_5EA230 *)MethodInfo_System_Array_Resize_RaycastHit);
+    System_Array__Resize_RaycastHit_
+              (&pCVar24->_groundHits,(int)pUVar22->max_length * 2,
+               (MethodInfo_33AD5F0 *)MethodInfo_System_Array_Resize_RaycastHit);
   }
-label_1822ee1e7:
+label_05dcc829:
   ThrowNullReferenceException();
-label_1822edf20:
+label_05dcc880:
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pUVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
-  if (pUVar10 == (UnityEngine_RaycastHit_array *)0x0) goto label_1822ee1e7;
-  if ((uint)pUVar10->max_length <= uVar18) {
+  pUVar22 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
+  if (pUVar22 == (UnityEngine_RaycastHit_array *)0x0) goto label_05dcc829;
+  if ((uint)pUVar22->max_length <= uVar25) {
     ThrowIndexOutOfRangeException();
   }
-  pUVar2 = pUVar10->m_Items + (int)uVar18;
-  local_f8[0].m_FingerId = (int32_t)(pUVar2->fields).m_Point.fields.x;
-  local_f8[0].m_Position.fields.x = (pUVar2->fields).m_Point.fields.y;
-  local_f8[0]._8_8_ = *(undefined8 *)&(pUVar2->fields).m_Point.fields.z;
-  pUVar14 = &pUVar10->m_Items[(int)uVar18].fields;
-  local_f8[0].m_RawPosition.fields.y = (pUVar14->m_Normal).fields.y;
-  local_f8[0].m_PositionDelta.fields.x = (pUVar14->m_Normal).fields.z;
-  uVar11 = pUVar14->m_FaceID;
-  pUVar14 = &pUVar10->m_Items[(int)uVar18].fields;
-  uVar12 = pUVar14->m_Distance;
-  uVar13 = (pUVar14->m_UV).fields.x;
-  local_f8[0]._36_8_ = *(undefined8 *)&(pUVar14->m_UV).fields.y;
+  puVar1 = (undefined8 *)((long)pUVar22->m_Items + lVar23 + -0x20);
+  local_68.fields.m_Point.fields._0_8_ = *puVar1;
+  local_68.fields._8_8_ = puVar1[1];
+  puVar1 = (undefined8 *)((long)pUVar22->m_Items + lVar23 + -0x10);
+  local_68.fields.m_Normal.fields._4_8_ = *puVar1;
+  uVar18 = puVar1[1];
+  uVar17 = *(undefined8 *)((long)&pUVar22->m_Items[0].fields.m_Point.fields.x + lVar23);
+  local_68.fields.m_Collider.fields.m_Data =
+       (UnityEngine_EntityId_Fields)
+       ((UnityEngine_EntityId_Fields *)((long)&pUVar22->m_Items[0].fields.m_Point.fields.z + lVar23))->m_Data;
+  local_68.fields.m_UV.fields.x = (float)uVar17;
+  local_68.fields.m_UV.fields.y = (float)((ulong)uVar17 >> 0x20);
+  local_68.fields.m_FaceID = (uint32_t)uVar18;
+  local_68.fields.m_Distance = (float)((ulong)uVar18 >> 0x20);
   __this = (System_Collections_Generic_HashSet_object__o *)
            TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders;
-  local_f8[0].m_PositionDelta.fields.y = (float)uVar11;
-  local_f8[0].m_TimeDelta = (float)uVar12;
-  local_f8[0].m_TapCount = uVar13;
-  item = UnityEngine_RaycastHit__get_collider((UnityEngine_RaycastHit_o *)local_f8,(MethodInfo *)0x0);
-  if (__this == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1822ee1e7;
-  bVar15 = System_Collections_Generic_HashSet_object___Contains
+  item = UnityEngine_RaycastHit__get_collider(&local_68,(MethodInfo *)0x0);
+  if (__this == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05dcc829;
+  bVar20 = System_Collections_Generic_HashSet_object___Contains
                      (__this,(Il2CppObject *)item,
-                      (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_Collider_Contains);
-  if (((bVar15) &&
-      (pUVar17 = UnityEngine_RaycastHit__get_normal
-                           ((UnityEngine_Vector3_o *)&local_128,(UnityEngine_RaycastHit_o *)local_f8,
-                            (MethodInfo *)0x0), pfVar1 = &(pUVar17->fields).y, 0.5 < *pfVar1 || *pfVar1 == 0.5
-      )) && (fVar19 = UnityEngine_Touch__get_deltaTime((UnityEngine_Touch_o *)local_f8,(MethodInfo *)0x0),
-            fVar19 < fVar23)) {
-    fVar23 = UnityEngine_Touch__get_deltaTime((UnityEngine_Touch_o *)local_f8,(MethodInfo *)0x0);
-    pUVar17 = UnityEngine_RaycastHit__get_normal
-                        ((UnityEngine_Vector3_o *)&local_138,(UnityEngine_RaycastHit_o *)local_f8,
-                         (MethodInfo *)0x0);
-    fVar19 = (pUVar17->fields).x;
-    fVar21 = (pUVar17->fields).y;
-    fVar22 = (pUVar17->fields).z;
+                      (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_Collider_Contains);
+  if (((bVar20) &&
+      (UVar27 = UnityEngine_RaycastHit__get_normal(&local_68,(MethodInfo *)0x0), 0.5 <= UVar27.fields.y)) &&
+     (fVar7 = UnityEngine_RaycastHit__get_distance(&local_68,(MethodInfo *)0x0), fVar7 < local_bc)) {
+    local_bc = UnityEngine_RaycastHit__get_distance(&local_68,(MethodInfo *)0x0);
+    UVar27 = UnityEngine_RaycastHit__get_normal(&local_68,(MethodInfo *)0x0);
+    fVar7 = UVar27.fields.z;
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    pCVar8 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-    fVar20 = (pCVar8->_end).fields.x;
-    fVar3 = (pCVar8->_end).fields.y;
-    fVar4 = (pCVar8->_end).fields.z;
-    pUVar17 = UnityEngine_RaycastHit__get_point
-                        (&local_118,(UnityEngine_RaycastHit_o *)local_f8,(MethodInfo *)0x0);
-    if (0.0 <= (fVar3 - (pUVar17->fields).y) * fVar21 + (fVar20 - (pUVar17->fields).x) * fVar19 +
-               (fVar4 - (pUVar17->fields).z) * fVar22) {
-      pUVar17 = UnityEngine_RaycastHit__get_point
-                          (&local_108,(UnityEngine_RaycastHit_o *)local_f8,(MethodInfo *)0x0);
-      fVar20 = -(fVar21 * (pUVar17->fields).y + fVar19 * (pUVar17->fields).x + fVar22 * (pUVar17->fields).z) -
-               fVar24;
+    pCVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+    uVar5 = (pCVar24->_end).fields.x;
+    uVar11 = (pCVar24->_end).fields.y;
+    fVar13 = (pCVar24->_end).fields.z;
+    UVar28 = UnityEngine_RaycastHit__get_point(&local_68,(MethodInfo *)0x0);
+    local_a8 = UVar27.fields.x;
+    fStack_a4 = UVar27.fields.y;
+    if (0.0 <= (fVar13 - UVar28.fields.z) * fVar7 +
+               ((float)uVar11 - UVar28.fields.y) * fStack_a4 + ((float)uVar5 - UVar28.fields.x) * local_a8) {
+      UVar27 = UnityEngine_RaycastHit__get_point(&local_68,(MethodInfo *)0x0);
+      fVar13 = -(UVar27.fields.z * fVar7 + UVar27.fields.y * fStack_a4 + UVar27.fields.x * local_a8) - fVar26;
+      uVar14 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
     }
     else {
-      if (Il2CppMethodInitialized_1843476c0 == '\0') {
+      if (Il2CppMethodInitialized_075482a7 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector4);
-        Il2CppMethodInitialized_1843476c0 = '\x01';
+        Il2CppMethodInitialized_075482a7 = '\x01';
       }
-      pUVar7 = TypeInfo_UnityEngine_Vector4->static_fields;
-      fVar19 = (pUVar7->zeroVector).fields.x;
-      fVar21 = (pUVar7->zeroVector).fields.y;
-      fVar22 = (pUVar7->zeroVector).fields.z;
-      fVar20 = (pUVar7->zeroVector).fields.w;
+      pUVar15 = TypeInfo_UnityEngine_Vector4->static_fields;
+      uVar6 = (pUVar15->zeroVector).fields.x;
+      uVar12 = (pUVar15->zeroVector).fields.y;
+      fVar7 = (pUVar15->zeroVector).fields.z;
+      fVar13 = (pUVar15->zeroVector).fields.w;
+      uVar14 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+      local_a8 = (float)uVar6;
+      fStack_a4 = (float)uVar12;
     }
-    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+    if (uVar14 == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    pCVar8 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-    (pCVar8->_groundPlane).fields.x = fVar19;
-    (pCVar8->_groundPlane).fields.y = fVar21;
-    (pCVar8->_groundPlane).fields.z = fVar22;
-    (pCVar8->_groundPlane).fields.w = fVar20;
+    pCVar24 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+    (pCVar24->_groundPlane).fields.x = local_a8;
+    (pCVar24->_groundPlane).fields.y = fStack_a4;
+    (pCVar24->_groundPlane).fields.z = fVar7;
+    (pCVar24->_groundPlane).fields.w = fVar13;
   }
-  uVar18 = uVar18 + 1;
-  if (iVar16 <= (int)uVar18) {
+  uVar25 = uVar25 + 1;
+  lVar23 = lVar23 + 0x2c;
+  if (uVar21 == uVar25) {
     return;
   }
-  goto label_1822edf20;
+  goto label_05dcc880;
 }
 
 
 // Cameras.CameraOcclusion$$Clear
 // il2cpp: void Cameras_CameraOcclusion__Clear (const MethodInfo* method);
-// 0x1822eb640
+// 0x5dccab0
 
 void Cameras_CameraOcclusion__Clear(MethodInfo *method)
 
 {
-  System_Action_T1__T2__o *pSVar1;
+  char cVar1;
+  uint32_t uVar2;
+  Cameras_CameraOcclusion_StaticFields *pCVar3;
+  System_Action_T1__T2__o *pSVar4;
+  Il2CppClass *klass;
   
-  if (Il2CppMethodInitialized_18434767e == '\0') {
+  if (Il2CppMethodInitialized_075481fb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_ScriptableRenderContext_Camera);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Cameras_CameraOcclusion_EndCameraRendering);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
-    Il2CppMethodInitialized_18434767e = '\x01';
+    Il2CppMethodInitialized_075481fb = '\x01';
+    uVar2 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar2 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+    cVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields->_subscribed;
+    klass = (Il2CppClass *)TypeInfo_Cameras_CameraOcclusion;
   }
-  if (TypeInfo_Cameras_CameraOcclusion->static_fields->_subscribed != false) {
-    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-    }
-    Cameras_CameraOcclusion__RestoreMaterials((MethodInfo *)0x0);
-    TypeInfo_Cameras_CameraOcclusion->static_fields->_camera = (UnityEngine_Camera_o *)0x0;
-    Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->_camera,(void *)0x0);
-    TypeInfo_Cameras_CameraOcclusion->static_fields->_radius = 0.0;
-    pSVar1 = (System_Action_T1__T2__o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
-    System_Action_ScriptableRenderContext__object____ctor
-              (pSVar1,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering,
-               (MethodInfo_1467F20 *)0x0);
-    UnityEngine_Rendering_RenderPipelineManager__remove_beginCameraRendering
-              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar1,(MethodInfo *)0x0);
-    pSVar1 = (System_Action_T1__T2__o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
-    System_Action_ScriptableRenderContext__object____ctor
-              (pSVar1,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_EndCameraRendering,
-               (MethodInfo_1467F20 *)0x0);
-    UnityEngine_Rendering_RenderPipelineManager__remove_endCameraRendering
-              ((System_Action_ScriptableRenderContext__Camera__o *)pSVar1,(MethodInfo *)0x0);
-    TypeInfo_Cameras_CameraOcclusion->static_fields->_subscribed = false;
+  else {
+    cVar1 = *(char *)((long)((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion)->static_fields + 0xb4);
+    klass = (Il2CppClass *)TypeInfo_Cameras_CameraOcclusion;
   }
+  if (cVar1 == '\0') {
+    TypeInfo_Cameras_CameraOcclusion = (Cameras_CameraOcclusion_c *)klass;
+    return;
+  }
+  TypeInfo_Cameras_CameraOcclusion = (Cameras_CameraOcclusion_c *)klass;
+  if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(klass);
+  }
+  Cameras_CameraOcclusion__RestoreMaterials((MethodInfo *)klass);
+  pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+  pCVar3->_camera = (UnityEngine_Camera_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&pCVar3->_camera);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->_radius = 0.0;
+  pSVar4 = (System_Action_T1__T2__o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
+  System_Action_ScriptableRenderContext__object____ctor
+            (pSVar4,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_BeginCameraRendering,
+             (MethodInfo_4A8AA40 *)0x0);
+  UnityEngine_Rendering_RenderPipelineManager__remove_beginCameraRendering
+            ((System_Action_ScriptableRenderContext__Camera__o *)pSVar4,(MethodInfo *)0x0);
+  pSVar4 = (System_Action_T1__T2__o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_ScriptableRenderContext_Camera);
+  System_Action_ScriptableRenderContext__object____ctor
+            (pSVar4,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Cameras_CameraOcclusion_EndCameraRendering,
+             (MethodInfo_4A8AA40 *)0x0);
+  UnityEngine_Rendering_RenderPipelineManager__remove_endCameraRendering
+            ((System_Action_ScriptableRenderContext__Camera__o *)pSVar4,(MethodInfo *)0x0);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->_subscribed = false;
   return;
 }
 
 
 // Cameras.CameraOcclusion$$Reset
 // il2cpp: void Cameras_CameraOcclusion__Reset (const MethodInfo* method);
-// 0x1822ed3b0
-// eh: try 0x1822ed530..0x1822ed591 -> pad 0x183315930 catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ed5a2: mov rdx, qword ptr [rip + 0x1dc7137]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
-// asm:   0x1822ed5a9: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822ed5ae: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822ed5b3: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822ed5b8: test rcx, rcx
-// asm:   0x1822ed5bb: jne 0x1822ed7c1
-// asm:   0x1822ed7c1: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5dcceb0
+// eh: try 0x5dcd04d..0x5dcd095 -> pad 0x5dcd27d (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5dcd299..0x5dcd29e -> pad 0x5dcd2c1 cleanup
+// eh: try 0x5dcd2c4..0x5dcd2ce -> pad 0x5dcd2d6 catch (...) [compiler noexcept guard]
+// asm: 27 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcd08e: jmp 0x5dcd040
+// asm:   0x5dcd27b: jmp 0x5dcd281
+// asm:   0x5dcd27d: jmp 0x5dcd281
+// asm:   0x5dcd27f: jmp 0x5dcd281
+// asm:   0x5dcd281: mov rbx, rax
+// asm:   0x5dcd284: cmp edx, 1
+// asm:   0x5dcd287: jne 0x5dcd2c4
+// asm:   0x5dcd289: mov rdi, rbx
+// asm:   0x5dcd28c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5dcd291: mov rbx, qword ptr [rax]
+// asm:   0x5dcd294: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5dcd299: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5dcd29e: lea rax, [rip + 0x14c2913]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
+// asm:   0x5dcd2a5: mov rsi, qword ptr [rax]
+// asm:   0x5dcd2a8: mov rdi, rsp
+// asm:   0x5dcd2ab: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x5dcd2b0: test rbx, rbx
+// asm:   0x5dcd2b3: je 0x5dcd0a9
+// asm:   0x5dcd2b9: mov rdi, rbx
+// asm:   0x5dcd2bc: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5dcd2c1: mov rbx, rax
+// asm:   0x5dcd2c4: lea rdi, [rsp + 0x18]
+// asm:   0x5dcd2c9: call 0x2fde550  ; il2cpp_runtime_helper_02fde550()
+// asm:   0x5dcd2ce: mov rdi, rbx
+// asm:   0x5dcd2d1: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5dcd2d6: mov rdi, rax
+// asm:   0x5dcd2d9: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Cameras_CameraOcclusion__Reset(MethodInfo *method)
 
 {
   int32_t *piVar1;
   int32_t iVar2;
-  System_Collections_Generic_Dictionary_Material__Material__o *pSVar3;
-  System_Collections_Generic_Dictionary_Renderer__CameraOcclusion_MaterialOverride__o *__this;
-  System_Collections_Generic_Dictionary_Collider__Renderer____o *__this_00;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar4;
-  System_Collections_Generic_Dictionary_Renderer__Renderer__o *__this_01;
-  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *pSVar5;
-  System_Collections_Generic_List_Material__o *pSVar6;
-  UnityEngine_Collider_array *pUVar7;
-  UnityEngine_RaycastHit_array *pUVar8;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  System_Collections_Generic_HashSet_object__o *__this;
+  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *pSVar4;
+  System_Collections_Generic_List_Material__o *pSVar5;
+  UnityEngine_Collider_array *array;
+  UnityEngine_RaycastHit_array *array_00;
   UnityEngine_Object_o *x;
-  bool bVar9;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_02;
+  bool bVar6;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
+  Cameras_CameraOcclusion_StaticFields *pCVar7;
+  Cameras_CameraOcclusion_c *method_00;
+  undefined1 local_58 [8];
+  undefined1 *puStack_50;
+  UnityEngine_Object_o *local_48;
   undefined1 local_40 [16];
   UnityEngine_Object_o *local_30;
-  undefined1 local_28 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
-  UnityEngine_Object_o *local_18;
   
-  if (Il2CppMethodInitialized_18434767f == '\0') {
+  if (Il2CppMethodInitialized_075481fc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Clear);
@@ -922,134 +960,137 @@ void Cameras_CameraOcclusion__Reset(MethodInfo *method)
               (&
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
               );
-    Il2CppMethodInitialized_18434767f = '\x01';
+    Il2CppMethodInitialized_075481fc = '\x01';
   }
-  local_28 = (undefined1  [8])0x0;
-  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_18 = (UnityEngine_Object_o *)0x0;
+  local_58 = (undefined1  [8])0x0;
+  puStack_50 = (undefined1 *)0x0;
+  local_48 = (UnityEngine_Object_o *)0x0;
+  method_00 = TypeInfo_Cameras_CameraOcclusion;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  Cameras_CameraOcclusion__Clear((MethodInfo *)0x0);
-  pSVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
-  if (pSVar3 != (System_Collections_Generic_Dictionary_Material__Material__o *)0x0) {
-    __this_02 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                           (MethodInfo_13C65A0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values);
-    if (__this_02 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+  Cameras_CameraOcclusion__Clear((MethodInfo *)method_00);
+  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
+  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    __this_00 = System_Collections_Generic_Dictionary_object__object___get_Values
+                          (pSVar3,(MethodInfo_4AAD2A0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values
+                          );
+    if (__this_00 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+      System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
                 ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_40,
-                 __this_02,
-                 (MethodInfo_F1E4D0 *)
+                 __this_00,
+                 (MethodInfo_43F93D0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
                 );
-      local_28 = (undefined1  [8])local_40._0_8_;
-      pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
-      local_18 = local_30;
+      local_48 = local_30;
+      local_58 = (undefined1  [8])local_40._0_8_;
+      puStack_50 = (undefined1 *)local_40._8_8_;
       local_40._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-      local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+      local_40._8_8_ = local_58;
       while( true ) {
-        bVar9 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
+        bVar6 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
                           ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *
-                           )local_28,
-                           (MethodInfo_155CFB0 *)
+                           )local_58,
+                           (MethodInfo_4CE7200 *)
                            MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_MoveNext
                           );
-        x = local_18;
-        if (!bVar9) break;
+        x = local_48;
+        if (!bVar6) break;
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar9 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar9) {
+        bVar6 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar6) {
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          UnityEngine_Object__Destroy_2f1ff70(x,(MethodInfo *)0x0);
+          UnityEngine_Object__Destroy_69214e0(x,(MethodInfo *)0x0);
         }
       }
       System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
+                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_58,
+                 (MethodInfo_4CE71F0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
                 );
       if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
       }
-      pSVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
-      if (pSVar3 != (System_Collections_Generic_Dictionary_Material__Material__o *)0x0) {
-        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                   (MethodInfo_13BF1C0 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Clear);
-        __this = TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides;
-        if (__this != (System_Collections_Generic_Dictionary_Renderer__CameraOcclusion_MaterialOverride__o *)
-                      0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-                     (MethodInfo_13BF1C0 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_Clear
+      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
+      if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        System_Collections_Generic_Dictionary_object__object___Clear
+                  (pSVar3,(MethodInfo_4AAD690 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Clear);
+        pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides;
+        if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+          System_Collections_Generic_Dictionary_object__object___Clear
+                    (pSVar3,(MethodInfo_4AAD690 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_Clear
                     );
-          __this_00 = TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
-          if (__this_00 != (System_Collections_Generic_Dictionary_Collider__Renderer____o *)0x0) {
-            System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                       (MethodInfo_13BF1C0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_Clear);
-            pSVar4 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+          pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
+          if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+            System_Collections_Generic_Dictionary_object__object___Clear
+                      (pSVar3,(MethodInfo_4AAD690 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_Clear);
+            __this = (System_Collections_Generic_HashSet_object__o *)
                      TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders;
-            if (pSVar4 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-              System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                        (pSVar4,(MethodInfo_17592A0 *)
+            if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
+              System_Collections_Generic_HashSet_object___Clear
+                        (__this,(MethodInfo_4FB36D0 *)
                                 MethodInfo_System_Collections_Generic_HashSet_Collider_Clear);
-              __this_01 = TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers;
-              if (__this_01 != (System_Collections_Generic_Dictionary_Renderer__Renderer__o *)0x0) {
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                           (MethodInfo_13BF1C0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_Clear);
-                pSVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
-                if (pSVar5 != (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) {
-                  piVar1 = &(pSVar5->fields)._version;
+              pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                       TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers;
+              if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                System_Collections_Generic_Dictionary_object__object___Clear
+                          (pSVar3,(MethodInfo_4AAD690 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_Clear);
+                pCVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+                pSVar4 = pCVar7->FallbackGrids;
+                if (pSVar4 != (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) {
+                  piVar1 = &(pSVar4->fields)._version;
                   *piVar1 = *piVar1 + 1;
-                  iVar2 = (pSVar5->fields)._size;
-                  (pSVar5->fields)._size = 0;
+                  iVar2 = (pSVar4->fields)._size;
+                  (pSVar4->fields)._size = 0;
                   if (0 < iVar2) {
-                    System_Array__Clear((System_Array_o *)(pSVar5->fields)._items,0,iVar2,(MethodInfo *)0x0);
+                    System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar2,(MethodInfo *)0x0);
+                    pCVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields;
                   }
-                  pSVar4 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                           TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates;
-                  if (pSVar4 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                    System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                              (pSVar4,(MethodInfo_17592A0 *)
-                                      MethodInfo_System_Collections_Generic_HashSet_Renderer_Clear);
-                    pSVar6 = TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials;
-                    if (pSVar6 != (System_Collections_Generic_List_Material__o *)0x0) {
-                      piVar1 = &(pSVar6->fields)._version;
+                  if ((System_Collections_Generic_HashSet_object__o *)pCVar7->Candidates !=
+                      (System_Collections_Generic_HashSet_object__o *)0x0) {
+                    System_Collections_Generic_HashSet_object___Clear
+                              ((System_Collections_Generic_HashSet_object__o *)pCVar7->Candidates,
+                               (MethodInfo_4FB36D0 *)
+                               MethodInfo_System_Collections_Generic_HashSet_Renderer_Clear);
+                    pCVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+                    pSVar5 = pCVar7->SharedMaterials;
+                    if (pSVar5 != (System_Collections_Generic_List_Material__o *)0x0) {
+                      piVar1 = &(pSVar5->fields)._version;
                       *piVar1 = *piVar1 + 1;
-                      iVar2 = (pSVar6->fields)._size;
-                      (pSVar6->fields)._size = 0;
+                      iVar2 = (pSVar5->fields)._size;
+                      (pSVar5->fields)._size = 0;
                       if (0 < iVar2) {
-                        System_Array__Clear((System_Array_o *)(pSVar6->fields)._items,0,iVar2,
+                        System_Array__Clear((System_Array_o *)(pSVar5->fields)._items,0,iVar2,
                                             (MethodInfo *)0x0);
+                        pCVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields;
                       }
-                      pSVar4 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                               TypeInfo_Cameras_CameraOcclusion->static_fields->UpdatedMaterials;
-                      if (pSVar4 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                        System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                                  (pSVar4,(MethodInfo_17592A0 *)
-                                          MethodInfo_System_Collections_Generic_HashSet_Material_Clear);
-                        pUVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
-                        if (pUVar7 != (UnityEngine_Collider_array *)0x0) {
-                          System_Array__Clear((System_Array_o *)
-                                              TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders,0,
-                                              (int32_t)pUVar7->max_length,(MethodInfo *)0x0);
-                          pUVar8 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
-                          if (pUVar8 != (UnityEngine_RaycastHit_array *)0x0) {
-                            System_Array__Clear((System_Array_o *)
-                                                TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits,0
-                                                ,(int32_t)pUVar8->max_length,(MethodInfo *)0x0);
+                      if ((System_Collections_Generic_HashSet_object__o *)pCVar7->UpdatedMaterials !=
+                          (System_Collections_Generic_HashSet_object__o *)0x0) {
+                        System_Collections_Generic_HashSet_object___Clear
+                                  ((System_Collections_Generic_HashSet_object__o *)pCVar7->UpdatedMaterials,
+                                   (MethodInfo_4FB36D0 *)
+                                   MethodInfo_System_Collections_Generic_HashSet_Material_Clear);
+                        array = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
+                        if (array != (UnityEngine_Collider_array *)0x0) {
+                          System_Array__Clear((System_Array_o *)array,0,(int32_t)array->max_length,
+                                              (MethodInfo *)0x0);
+                          array_00 = TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits;
+                          if (array_00 != (UnityEngine_RaycastHit_array *)0x0) {
+                            System_Array__Clear((System_Array_o *)array_00,0,(int32_t)array_00->max_length,
+                                                (MethodInfo *)0x0);
                             return;
                           }
                         }
@@ -1070,45 +1111,56 @@ void Cameras_CameraOcclusion__Reset(MethodInfo *method)
 
 // Cameras.CameraOcclusion$$BeginCameraRendering
 // il2cpp: void Cameras_CameraOcclusion__BeginCameraRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_o* camera, const MethodInfo* method);
-// 0x1822eb2d0
-// eh: try 0x1822eb5b0..0x1822eb5eb -> pad 0x183317f30 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822eb5ad: nop dword ptr [rax]
-// asm:   0x1822eb5fc: mov rdx, qword ptr [rip + 0x1da819d]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_Dispose
-// asm:   0x1822eb603: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1822eb608: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822eb60d: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822eb612: test rcx, rcx
-// asm:   0x1822eb615: jne 0x1822eb625
-// asm:   0x1822eb625: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317f35: push rbp
-// asm:   0x183317f36: sub rsp, 0x20
-// asm:   0x183317f3a: mov rbp, rdx
-// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183317f41: mov rcx, qword ptr [rax]
-// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317f48: movabs rax, 0
-// asm:   0x183317f52: add rsp, 0x20
-// asm:   0x183317f56: pop rbp
-// asm:   0x183317f57: ret 
+// 0x5dcd2e0
+// eh: try 0x5dcd550..0x5dcd57e -> pad 0x5dcd5a5 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5dcd5bd..0x5dcd5c2 -> pad 0x5dcd5e1 cleanup
+// eh: try 0x5dcd5e4..0x5dcd5ee -> pad 0x5dcd5f6 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcd420: jmp 0x5dcd592
+// asm:   0x5dcd5a3: jmp 0x5dcd5a5
+// asm:   0x5dcd5a5: mov rbx, rax
+// asm:   0x5dcd5a8: cmp edx, 1
+// asm:   0x5dcd5ab: jne 0x5dcd5e4
+// asm:   0x5dcd5ad: mov rdi, rbx
+// asm:   0x5dcd5b0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5dcd5b5: mov rbx, qword ptr [rax]
+// asm:   0x5dcd5b8: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5dcd5bd: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5dcd5c2: lea rax, [rip + 0x14c12ef]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_Dispose
+// asm:   0x5dcd5c9: mov rsi, qword ptr [rax]
+// asm:   0x5dcd5cc: mov rdi, rsp
+// asm:   0x5dcd5cf: call 0x4d456c0  ; System_Collections_Generic_HashSet_Enumerator_object___Dispose()
+// asm:   0x5dcd5d4: test rbx, rbx
+// asm:   0x5dcd5d7: je 0x5dcd592
+// asm:   0x5dcd5d9: mov rdi, rbx
+// asm:   0x5dcd5dc: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5dcd5e1: mov rbx, rax
+// asm:   0x5dcd5e4: lea rdi, [rsp + 0x18]
+// asm:   0x5dcd5e9: call 0x2fde580  ; il2cpp_runtime_helper_02fde580()
+// asm:   0x5dcd5ee: mov rdi, rbx
+// asm:   0x5dcd5f1: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5dcd5f6: mov rdi, rax
+// asm:   0x5dcd5f9: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Cameras_CameraOcclusion__BeginCameraRendering
                (UnityEngine_Rendering_ScriptableRenderContext_o context,UnityEngine_Camera_o *camera,
                MethodInfo *method)
 
 {
-  UnityEngine_Camera_o *pUVar1;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *__this;
-  Cameras_CameraOcclusion_StaticFields *pCVar2;
-  System_Collections_Generic_HashSet_Vector2Int__o *__this_00;
+  float fVar1;
+  UnityEngine_Camera_o *pUVar2;
+  System_Collections_Generic_HashSet_object__o *pSVar3;
   Il2CppObject *renderer;
-  bool bVar3;
-  undefined1 local_48 [16];
-  UnityEngine_Renderer_o *local_38;
-  System_Collections_Generic_HashSet_Enumerator_T__o local_28;
+  bool bVar4;
+  MethodInfo *method_00;
+  Il2CppClass *klass;
+  UnityEngine_Vector4_o value;
+  UnityEngine_Vector4_o value_00;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_48;
+  undefined8 local_30;
+  undefined1 *local_28;
   
-  if (Il2CppMethodInitialized_184347680 == '\0') {
+  if (Il2CppMethodInitialized_075481fd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_Dispose);
@@ -1120,91 +1172,92 @@ void Cameras_CameraOcclusion__BeginCameraRendering
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Renderer_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347680 = '\x01';
+    Il2CppMethodInitialized_075481fd = '\x01';
   }
-  local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
+  local_48.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_48.fields._index = 0;
+  local_48.fields._version = 0;
+  local_48.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pUVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields->_camera;
+  pUVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->_camera;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)camera,(UnityEngine_Object_o *)pUVar1,(MethodInfo *)0x0);
-  if (!bVar3) {
+  bVar4 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)camera,(UnityEngine_Object_o *)pUVar2,(MethodInfo *)0x0);
+  if (!bVar4) {
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    pUVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields->_camera;
+    pUVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->_camera;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar3) {
+    bVar4 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar4) {
       if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+        fVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
+        klass = (Il2CppClass *)TypeInfo_Cameras_CameraOcclusion;
       }
-      if (0.0 < TypeInfo_Cameras_CameraOcclusion->static_fields->_radius) {
-        if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      else {
+        fVar1 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
+        klass = (Il2CppClass *)TypeInfo_Cameras_CameraOcclusion;
+      }
+      TypeInfo_Cameras_CameraOcclusion = (Cameras_CameraOcclusion_c *)klass;
+      if (0.0 < fVar1) {
+        if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(klass);
         }
-        Cameras_CameraOcclusion__FindCandidates((MethodInfo *)0x0);
-        __this = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+        Cameras_CameraOcclusion__FindCandidates((MethodInfo *)klass);
+        pSVar3 = (System_Collections_Generic_HashSet_object__o *)
                  TypeInfo_Cameras_CameraOcclusion->static_fields->UpdatedMaterials;
-        if (__this != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-          System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                    (__this,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Clear
+        if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+          System_Collections_Generic_HashSet_object___Clear
+                    (pSVar3,(MethodInfo_4FB36D0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Clear
                     );
-          pCVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-          local_48._0_8_ = *(undefined8 *)&(pCVar2->_start).fields;
-          local_48._12_4_ = 0;
-          local_48._8_4_ = (pCVar2->_start).fields.z;
-          UnityEngine_Shader__SetGlobalColor
-                    (pCVar2->StartId,(UnityEngine_Color_o *)local_48,(MethodInfo *)0x0);
-          pCVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-          local_48._0_8_ = *(undefined8 *)&(pCVar2->_end).fields;
-          local_48._12_4_ = 0;
-          local_48._8_4_ = (pCVar2->_end).fields.z;
-          UnityEngine_Shader__SetGlobalColor(pCVar2->EndId,(UnityEngine_Color_o *)local_48,(MethodInfo *)0x0);
+          value.fields.w = 0.0;
+          value.fields._0_12_ = (TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields;
+          UnityEngine_Shader__SetGlobalVector
+                    (TypeInfo_Cameras_CameraOcclusion->static_fields->StartId,value,(MethodInfo *)0x0);
+          value_00.fields.w = 0.0;
+          value_00.fields._0_12_ = (TypeInfo_Cameras_CameraOcclusion->static_fields->_end).fields;
+          UnityEngine_Shader__SetGlobalVector
+                    (TypeInfo_Cameras_CameraOcclusion->static_fields->EndId,value_00,(MethodInfo *)0x0);
           UnityEngine_Shader__SetGlobalFloat
                     (TypeInfo_Cameras_CameraOcclusion->static_fields->RadiusId,
                      TypeInfo_Cameras_CameraOcclusion->static_fields->_radius,(MethodInfo *)0x0);
-          pCVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-          local_48._0_8_ = *(undefined8 *)&(pCVar2->_groundPlane).fields;
-          local_48._8_4_ = (pCVar2->_groundPlane).fields.z;
-          local_48._12_4_ = (pCVar2->_groundPlane).fields.w;
-          UnityEngine_Shader__SetGlobalColor
-                    (pCVar2->GroundPlaneId,(UnityEngine_Color_o *)local_48,(MethodInfo *)0x0);
-          __this_00 = (System_Collections_Generic_HashSet_Vector2Int__o *)
-                      TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates;
-          if (__this_00 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0) {
-            System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
-                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_48,__this_00,
-                       (MethodInfo_175C200 *)
+          UnityEngine_Shader__SetGlobalVector
+                    (TypeInfo_Cameras_CameraOcclusion->static_fields->GroundPlaneId,
+                     (UnityEngine_Vector4_o)
+                     (TypeInfo_Cameras_CameraOcclusion->static_fields->_groundPlane).fields,(MethodInfo *)0x0)
+          ;
+          pSVar3 = (System_Collections_Generic_HashSet_object__o *)
+                   TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates;
+          if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+            System_Collections_Generic_HashSet_object___GetEnumerator
+                      (&local_48,pSVar3,
+                       (MethodInfo_4FB3DA0 *)
                        MethodInfo_System_Collections_Generic_HashSet_Renderer_GetEnumerator);
-            local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)local_48._0_8_;
-            local_28.fields._index = local_48._8_4_;
-            local_28.fields._version = local_48._12_4_;
-            local_28.fields._current = (Il2CppObject *)local_38;
-            local_48._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-            local_48._8_8_ = &local_28;
-            while (bVar3 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                                     (&local_28,
-                                      (MethodInfo_15381F0 *)
-                                      MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_MoveNext
-                                     ), renderer = local_28.fields._current, bVar3) {
+            local_30 = 0;
+            local_28 = (undefined1 *)&local_48;
+            while (method_00 = MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_MoveNext,
+                  bVar4 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                                    (&local_48,
+                                     (MethodInfo_4C456D0 *)
+                                     MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_MoveNext
+                                    ), renderer = local_48.fields._current, bVar4) {
               if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
               }
-              Cameras_CameraOcclusion__ApplyMaterials((UnityEngine_Renderer_o *)renderer,(MethodInfo *)0x0);
+              Cameras_CameraOcclusion__ApplyMaterials((UnityEngine_Renderer_o *)renderer,method_00);
             }
             System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
+                      (&local_48,
+                       (MethodInfo_4C456C0 *)
                        MethodInfo_System_Collections_Generic_HashSet_Enumerator_Renderer_Dispose);
             return;
           }
@@ -1219,7 +1272,7 @@ void Cameras_CameraOcclusion__BeginCameraRendering
 
 // Cameras.CameraOcclusion$$EndCameraRendering
 // il2cpp: void Cameras_CameraOcclusion__EndCameraRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_o* camera, const MethodInfo* method);
-// 0x1822eb790
+// 0x5dcdce0
 
 void Cameras_CameraOcclusion__EndCameraRendering
                (UnityEngine_Rendering_ScriptableRenderContext_o context,UnityEngine_Camera_o *camera,
@@ -1228,11 +1281,12 @@ void Cameras_CameraOcclusion__EndCameraRendering
 {
   UnityEngine_Camera_o *y;
   bool bVar1;
+  Cameras_CameraOcclusion_c *method_00;
   
-  if (Il2CppMethodInitialized_184347681 == '\0') {
+  if (Il2CppMethodInitialized_075481fe == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347681 = '\x01';
+    Il2CppMethodInitialized_075481fe = '\x01';
   }
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
@@ -1245,9 +1299,13 @@ void Cameras_CameraOcclusion__EndCameraRendering
                     ((UnityEngine_Object_o *)camera,(UnityEngine_Object_o *)y,(MethodInfo *)0x0);
   if (bVar1) {
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+      method_00 = TypeInfo_Cameras_CameraOcclusion;
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      Cameras_CameraOcclusion__RestoreMaterials((MethodInfo *)method_00);
+      return;
     }
-    Cameras_CameraOcclusion__RestoreMaterials((MethodInfo *)0x0);
+    Cameras_CameraOcclusion__RestoreMaterials((MethodInfo *)TypeInfo_Cameras_CameraOcclusion);
+    return;
   }
   return;
 }
@@ -1255,265 +1313,345 @@ void Cameras_CameraOcclusion__EndCameraRendering
 
 // Cameras.CameraOcclusion$$FindCandidates
 // il2cpp: void Cameras_CameraOcclusion__FindCandidates (const MethodInfo* method);
-// 0x1822eb840
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ebaac: nop dword ptr [rax]
+// 0x5dcd600
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcd7cc: nop dword ptr [rax]
+// asm:   0x5dcd8d4: mov rdi, qword ptr [r14]
 
 void Cameras_CameraOcclusion__FindCandidates(MethodInfo *method)
 
 {
+  float fVar1;
+  float fVar2;
   float radius;
-  uint uVar1;
-  undefined8 uVar2;
   undefined8 uVar3;
-  float fVar4;
-  float fVar5;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *__this;
-  Cameras_CameraOcclusion_StaticFields *pCVar6;
-  UnityEngine_Collider_array *pUVar7;
+  undefined8 uVar4;
+  int32_t layerMask;
+  uint uVar5;
+  System_Collections_Generic_HashSet_object__o *__this;
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
   Il2CppClass *original;
-  Il2CppObject *pIVar8;
-  bool bVar9;
-  int32_t iVar10;
-  uint uVar11;
-  uint uVar12;
-  Il2CppObject *local_res10;
-  UnityEngine_Vector3_Fields local_68;
-  UnityEngine_Vector3_Fields local_58 [5];
+  Il2CppObject *pIVar6;
+  bool bVar7;
+  uint uVar8;
+  ulong uVar9;
+  Cameras_CameraOcclusion_StaticFields *pCVar10;
+  UnityEngine_Collider_array *pUVar11;
+  ulong uVar12;
+  MethodInfo *method_00;
+  Cameras_CameraOcclusion_c *method_01;
+  ulong uVar13;
+  UnityEngine_Vector3_o point0;
+  UnityEngine_Vector3_o point1;
+  Il2CppObject *local_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
   
-  if (Il2CppMethodInitialized_184347682 == '\0') {
+  if (Il2CppMethodInitialized_075481ff == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Resize_Collider);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_TryGetValue);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Renderer_Clear);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
-    Il2CppMethodInitialized_184347682 = '\x01';
+    Il2CppMethodInitialized_075481ff = '\x01';
   }
-  local_res10 = (Il2CppObject *)0x0;
+  local_60 = (Il2CppObject *)0x0;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  __this = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+  __this = (System_Collections_Generic_HashSet_object__o *)
            TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates;
-  if (__this != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-    System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-              (__this,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_Clear);
+  if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Clear
+              (__this,(MethodInfo_4FB36D0 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_Clear);
     while( true ) {
       if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
       }
-      pCVar6 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-      uVar2._0_4_ = (pCVar6->_start).fields.x;
-      uVar2._4_4_ = (pCVar6->_start).fields.y;
-      fVar4 = (pCVar6->_start).fields.z;
-      uVar3._0_4_ = (pCVar6->_end).fields.x;
-      uVar3._4_4_ = (pCVar6->_end).fields.y;
-      fVar5 = (pCVar6->_end).fields.z;
-      radius = pCVar6->_radius;
-      pUVar7 = pCVar6->_colliders;
-      iVar10 = pCVar6->MapMask;
+      pCVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+      uVar3._0_4_ = (pCVar10->_start).fields.x;
+      uVar3._4_4_ = (pCVar10->_start).fields.y;
+      fVar1 = (pCVar10->_start).fields.z;
+      uVar4._0_4_ = (pCVar10->_end).fields.x;
+      uVar4._4_4_ = (pCVar10->_end).fields.y;
+      fVar2 = (pCVar10->_end).fields.z;
+      radius = pCVar10->_radius;
+      pUVar11 = pCVar10->_colliders;
+      layerMask = pCVar10->MapMask;
       if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+        uStack_40 = 0;
+        uStack_50 = 0;
+        local_58 = uVar4;
+        local_48 = uVar3;
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
+        uVar3._0_4_ = (undefined4)local_48;
+        uVar3._4_4_ = local_48._4_4_;
+        uVar4._0_4_ = (undefined4)local_58;
+        uVar4._4_4_ = local_58._4_4_;
       }
-      local_68._0_8_ = uVar3;
-      local_68.z = fVar5;
-      local_58[0]._0_8_ = uVar2;
-      local_58[0].z = fVar4;
-      iVar10 = UnityEngine_Physics__OverlapCapsuleNonAlloc
-                         ((UnityEngine_Vector3_o *)local_58,(UnityEngine_Vector3_o *)&local_68,radius,pUVar7,
-                          iVar10,2,(MethodInfo *)0x0);
-      pUVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
-      if (pUVar7 == (UnityEngine_Collider_array *)0x0) break;
-      if (iVar10 < (int)pUVar7->max_length) {
+      point0.fields.y = (float)uVar3._4_4_;
+      point0.fields.x = (float)(undefined4)uVar3;
+      point0.fields.z = fVar1;
+      point1.fields.y = (float)uVar4._4_4_;
+      point1.fields.x = (float)(undefined4)uVar4;
+      point1.fields.z = fVar2;
+      uVar8 = UnityEngine_Physics__OverlapCapsuleNonAlloc
+                        (point0,point1,radius,pUVar11,layerMask,2,(MethodInfo *)0x0);
+      pCVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+      pUVar11 = pCVar10->_colliders;
+      if (pUVar11 == (UnityEngine_Collider_array *)0x0) break;
+      if ((int)uVar8 < (int)pUVar11->max_length) {
+        if ((int)uVar8 < 1) goto label_05dcd8d7;
         uVar12 = 0;
-        if (0 < iVar10) goto label_1822eba34;
-        goto label_1822ebb4b;
+        goto label_05dcd7d0;
       }
       if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+        pCVar10 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+        pUVar11 = pCVar10->_colliders;
+        if (pUVar11 == (UnityEngine_Collider_array *)0x0) break;
       }
-      pUVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
-      if (pUVar7 == (UnityEngine_Collider_array *)0x0) break;
-      System_Array__Resize_BindingRestrictions_TestBuilder_AndNode_
-                ((System_Dynamic_BindingRestrictions_TestBuilder_AndNode_array **)
-                 &TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders,(int)pUVar7->max_length * 2,
-                 (MethodInfo_5EA230 *)MethodInfo_System_Array_Resize_Collider);
+      System_Array__Resize_object_
+                ((System_Object_array **)&pCVar10->_colliders,(int)pUVar11->max_length * 2,
+                 (MethodInfo_33AD3D0 *)MethodInfo_System_Array_Resize_Collider);
     }
   }
-label_1822ebba8:
+label_05dcd7ba:
   ThrowNullReferenceException();
-label_1822eba34:
+label_05dcd7d0:
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pUVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
-  if (pUVar7 == (UnityEngine_Collider_array *)0x0) goto label_1822ebba8;
-  if ((uint)pUVar7->max_length <= uVar12) {
-label_1822ebbae:
+  pUVar11 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
+  if (pUVar11 == (UnityEngine_Collider_array *)0x0) goto label_05dcd7ba;
+  if ((uint)pUVar11->max_length <= uVar12) {
+label_05dcd8f9:
     ThrowIndexOutOfRangeException();
   }
   __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
               TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers;
-  if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1822ebba8;
-  bVar9 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                    (__this_00,(Il2CppObject *)pUVar7->m_Items[(int)uVar12],&local_res10,
-                     (MethodInfo_14769C0 *)
+  if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcd7ba;
+  method_00 = (MethodInfo *)pUVar11->m_Items[uVar12];
+  bVar7 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                    (__this_00,(Il2CppObject *)method_00,&local_60,
+                     (MethodInfo_4AAF440 *)
                      MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_TryGetValue);
-  pIVar8 = local_res10;
-  if (bVar9) {
-    uVar11 = 0;
-    if (local_res10 == (Il2CppObject *)0x0) goto label_1822ebba8;
-    for (; uVar1 = *(uint *)&pIVar8[1].monitor, (int)uVar11 < (int)uVar1; uVar11 = uVar11 + 1) {
-      if (uVar1 <= uVar11) goto label_1822ebbae;
-      original = (&pIVar8[2].klass)[(int)uVar11];
-      if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-      }
-      Cameras_CameraOcclusion__AddCandidate((UnityEngine_Renderer_o *)original,(MethodInfo *)0x0);
+  pIVar6 = local_60;
+  if (bVar7) {
+    if (local_60 == (Il2CppObject *)0x0) goto label_05dcd7ba;
+    if (0 < (int)local_60[1].monitor) {
+      uVar9 = (ulong)local_60[1].monitor & 0xffffffff;
+      uVar13 = 0;
+      do {
+        if (uVar9 <= uVar13) goto label_05dcd8f9;
+        original = (&pIVar6[2].klass)[uVar13];
+        if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+        }
+        Cameras_CameraOcclusion__AddCandidate((UnityEngine_Renderer_o *)original,method_00);
+        uVar13 = uVar13 + 1;
+        uVar5 = *(uint *)&pIVar6[1].monitor;
+        uVar9 = (ulong)uVar5;
+      } while ((long)uVar13 < (long)(int)uVar5);
     }
   }
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pUVar7 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
-  if (pUVar7 == (UnityEngine_Collider_array *)0x0) goto label_1822ebba8;
-  if ((uint)pUVar7->max_length <= uVar12) goto label_1822ebbae;
-  pUVar7->m_Items[(int)uVar12] = (UnityEngine_Collider_o *)0x0;
-  Il2CppCodeGenWriteBarrier(pUVar7->m_Items + (int)uVar12,(void *)0x0);
+  pUVar11 = TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders;
+  if (pUVar11 == (UnityEngine_Collider_array *)0x0) goto label_05dcd7ba;
+  if ((uint)pUVar11->max_length <= uVar12) goto label_05dcd8f9;
+  pUVar11->m_Items[uVar12] = (UnityEngine_Collider_o *)0x0;
+  Il2CppCodeGenWriteBarrier(pUVar11->m_Items + uVar12);
   uVar12 = uVar12 + 1;
-  if (iVar10 <= (int)uVar12) {
-label_1822ebb4b:
+  if (uVar12 == uVar8) {
+label_05dcd8d7:
+    method_01 = TypeInfo_Cameras_CameraOcclusion;
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    Cameras_CameraOcclusion__FindFallbackCandidates((MethodInfo *)0x0);
+    Cameras_CameraOcclusion__FindFallbackCandidates((MethodInfo *)method_01);
     return;
   }
-  goto label_1822eba34;
+  goto label_05dcd7d0;
 }
 
 
 // Cameras.CameraOcclusion$$FindFallbackCandidates
 // il2cpp: void Cameras_CameraOcclusion__FindFallbackCandidates (const MethodInfo* method);
-// 0x1822ebbc0
-// eh: try 0x1822ebeb3..0x1822ec4a5 -> pad 0x183340140 (+4 call sites) catch Il2CppExceptionWrapper
-// asm: 52 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ebec9: mov ebx, 0x88
-// asm:   0x1822ebece: nop 
-// asm:   0x1822ec10b: mov r15d, dword ptr [rsp + 0x54]
-// asm:   0x1822ec120: mov r14d, dword ptr [rsp + 0x5c]
-// asm:   0x1822ec1df: nop 
-// asm:   0x1822ec39a: mov rdx, qword ptr [rip + 0x1db4867]  ; MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackRenderer_Dispose
-// asm:   0x1822ec3a1: mov rcx, qword ptr [rsp + 0xb8]
-// asm:   0x1822ec3a9: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822ec3ae: mov rcx, qword ptr [rsp + 0xb0]
-// asm:   0x1822ec3b6: test rcx, rcx
-// asm:   0x1822ec3b9: jne 0x1822ec48b
-// asm:   0x1822ec3bf: movss xmm11, dword ptr [rsp + 0x60]
-// asm:   0x1822ec3c6: movsd xmm9, qword ptr [rsp + 0x38]
-// asm:   0x1822ec3cd: movups xmm10, xmmword ptr [rsp + 0x28]
-// asm:   0x1822ec3d3: mov r13, qword ptr [rsp + 0x40]
-// asm:   0x1822ec3d8: mov r12d, dword ptr [rsp + 0x24]
-// asm:   0x1822ec3dd: mov r15d, dword ptr [rsp + 0x20]
-// asm:   0x1822ec3e2: mov r14d, dword ptr [rsp + 0x238]
-// asm:   0x1822ec3ea: movss xmm12, dword ptr [rip + 0x106c811]
-// asm:   0x1822ec3f3: mov eax, dword ptr [rsp + 0x228]
-// asm:   0x1822ec3fa: inc r14d
-// asm:   0x1822ec3fd: jmp 0x1822ec125
-// asm:   0x1822ec425: mov rdx, qword ptr [rip + 0x1db453c]  ; MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_Dispose
-// asm:   0x1822ec42c: mov rcx, qword ptr [rsp + 0x78]
-// asm:   0x1822ec431: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822ec436: mov rcx, qword ptr [rsp + 0x70]
-// asm:   0x1822ec43b: test rcx, rcx
-// asm:   0x1822ec43e: jne 0x1822ec4a5
-// asm:   0x1822ec48b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1822ec4a5: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183340110: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340115: push rbp
-// asm:   0x183340116: sub rsp, 0x20
-// asm:   0x18334011a: mov rbp, rdx
-// asm:   0x18334011d: mov rax, qword ptr [rbp + 0x140]
-// asm:   0x183340124: mov rcx, qword ptr [rax]
-// asm:   0x183340127: mov qword ptr [rbp + 0xb0], rcx
-// asm:   0x18334012e: movabs rax, 0
-// asm:   0x183340138: add rsp, 0x20
-// asm:   0x18334013c: pop rbp
-// asm:   0x18334013d: ret 
-// asm:   0x183340140: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340145: push rbp
-// asm:   0x183340146: sub rsp, 0x20
-// asm:   0x18334014a: mov rbp, rdx
-// asm:   0x18334014d: mov rax, qword ptr [rbp + 0x148]
-// asm:   0x183340154: mov rcx, qword ptr [rax]
-// asm:   0x183340157: mov qword ptr [rbp + 0x70], rcx
-// asm:   0x18334015b: movabs rax, 0
-// asm:   0x183340165: add rsp, 0x20
-// asm:   0x183340169: pop rbp
-// asm:   0x18334016a: ret 
+// 0x5dcdf80
+// eh: try 0x5dce36a..0x5dce9c0 -> pad 0x5dce9e8 (+28 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5dce9cb..0x5dce9d8 -> pad 0x5dcea54 catch (...) [compiler noexcept guard]
+// eh: try 0x5dcea12..0x5dcea17 -> pad 0x5dcea3c cleanup
+// eh: try 0x5dcea3f..0x5dcea4c -> pad 0x5dcea54 catch (...) [compiler noexcept guard]
+// asm: 82 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dce199: mov qword ptr [rsp + 0x48], 0
+// asm:   0x5dce1a2: cmp byte ptr [rip + 0x1770580], 0
+// asm:   0x5dce1a9: je 0x5dce977
+// asm:   0x5dce20a: jmp 0x5dce24f
+// asm:   0x5dce2b9: jmp 0x5dce2f1
+// asm:   0x5dce556: mov rax, qword ptr [rsp + 0x38]
+// asm:   0x5dce55b: nop dword ptr [rax + rax]
+// asm:   0x5dce566: jmp 0x5dce360
+// asm:   0x5dce572: nop word ptr cs:[rax + rax]
+// asm:   0x5dce59f: jmp 0x5dce360
+// asm:   0x5dce852: jmp 0x5dce6d0
+// asm:   0x5dce8a9: test ebp, ebp
+// asm:   0x5dce8ab: je 0x5dce600
+// asm:   0x5dce8b1: jmp 0x5dce928
+// asm:   0x5dce8d1: jmp 0x5dce8e9
+// asm:   0x5dce8d3: jmp 0x5dce8e9
+// asm:   0x5dce8d5: jmp 0x5dce8e9
+// asm:   0x5dce8d7: jmp 0x5dce8e9
+// asm:   0x5dce8d9: jmp 0x5dce8e9
+// asm:   0x5dce8db: jmp 0x5dce8e9
+// asm:   0x5dce8dd: jmp 0x5dce8e9
+// asm:   0x5dce8df: jmp 0x5dce8e9
+// asm:   0x5dce8e1: jmp 0x5dce8e9
+// asm:   0x5dce8e3: jmp 0x5dce8e9
+// asm:   0x5dce8e5: jmp 0x5dce8e9
+// asm:   0x5dce8e7: jmp 0x5dce8e9
+// asm:   0x5dce8e9: mov rbx, rdx
+// asm:   0x5dce8ec: mov rbp, rax
+// asm:   0x5dce8ef: cmp ebx, 1
+// asm:   0x5dce8f2: jne 0x5dce9cb
+// asm:   0x5dce8f8: mov rdi, rbp
+// asm:   0x5dce8fb: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5dce900: mov rbx, qword ptr [rax]
+// asm:   0x5dce903: mov qword ptr [rsp + 0x98], rbx
+// asm:   0x5dce90b: xor ebp, ebp
+// asm:   0x5dce90d: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5dce912: jmp 0x5dce877
+// asm:   0x5dce923: jmp 0x5dce360
+// asm:   0x5dce9ae: mov rdi, rbx
+// asm:   0x5dce9b1: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5dce9c5: mov rbx, rdx
+// asm:   0x5dce9c8: mov rbp, rax
+// asm:   0x5dce9cb: lea rdi, [rsp + 0x98]
+// asm:   0x5dce9d3: call 0x2fde5b0  ; il2cpp_runtime_helper_02fde5b0()
+// asm:   0x5dce9d8: jmp 0x5dce9fa
+// asm:   0x5dce9da: jmp 0x5dce9f4
+// asm:   0x5dce9dc: jmp 0x5dce9f4
+// asm:   0x5dce9de: jmp 0x5dce9f4
+// asm:   0x5dce9e0: jmp 0x5dce9f4
+// asm:   0x5dce9e2: jmp 0x5dce9f4
+// asm:   0x5dce9e4: jmp 0x5dce9f4
+// asm:   0x5dce9e6: jmp 0x5dce9f4
+// asm:   0x5dce9e8: jmp 0x5dce9f4
+// asm:   0x5dce9ea: jmp 0x5dce9f4
+// asm:   0x5dce9ec: jmp 0x5dce9f4
+// asm:   0x5dce9ee: jmp 0x5dce9f4
+// asm:   0x5dce9f0: jmp 0x5dce9f4
+// asm:   0x5dce9f2: jmp 0x5dce9f4
+// asm:   0x5dce9f4: mov rbx, rdx
+// asm:   0x5dce9f7: mov rbp, rax
+// asm:   0x5dce9fa: cmp ebx, 1
+// asm:   0x5dce9fd: jne 0x5dcea3f
+// asm:   0x5dce9ff: mov rdi, rbp
+// asm:   0x5dcea02: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5dcea07: mov rbx, qword ptr [rax]
+// asm:   0x5dcea0a: mov qword ptr [rsp + 0x110], rbx
+// asm:   0x5dcea12: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5dcea17: lea rax, [rip + 0x14c064a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_Dispose
+// asm:   0x5dcea1e: mov rsi, qword ptr [rax]
+// asm:   0x5dcea21: lea rdi, [rsp + 0x70]
+// asm:   0x5dcea26: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5dcea2b: test rbx, rbx
+// asm:   0x5dcea2e: je 0x5dce93c
+// asm:   0x5dcea34: mov rdi, rbx
+// asm:   0x5dcea37: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5dcea3c: mov rbp, rax
+// asm:   0x5dcea3f: lea rdi, [rsp + 0x110]
+// asm:   0x5dcea47: call 0x2fde5e0  ; il2cpp_runtime_helper_02fde5e0()
+// asm:   0x5dcea4c: mov rdi, rbp
+// asm:   0x5dcea4f: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5dcea54: mov rdi, rax
+// asm:   0x5dcea57: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Cameras_CameraOcclusion__FindFallbackCandidates(MethodInfo *method)
 
 {
-  float fVar1;
-  System_Collections_Generic_List_T__o *pSVar2;
-  int iVar3;
-  Cameras_CameraOcclusion_StaticFields *pCVar4;
-  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *__this;
-  System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o *pSVar5;
-  UnityEngine_Vector3_StaticFields *pUVar6;
-  Il2CppClass *pIVar7;
-  undefined8 uVar8;
-  Il2CppObject *pIVar9;
-  Cameras_CameraOcclusion_FallbackGrid_o *__this_00;
-  Il2CppObject *pIVar10;
-  bool bVar11;
-  int32_t iVar12;
-  longlong lVar13;
-  UnityEngine_Vector3Int_o *pUVar14;
+  UnityEngine_Vector3_o *pUVar1;
+  Il2CppType *__this;
+  float fVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  float fVar5;
+  undefined4 uVar6;
+  float fVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
+  uint32_t uVar11;
+  Cameras_CameraOcclusion_StaticFields *pCVar12;
+  UnityEngine_Vector3_StaticFields *pUVar13;
+  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *__this_00;
+  Il2CppClass *pIVar14;
+  undefined1 auVar15 [16];
+  undefined1 auVar16 [16];
+  undefined1 auVar17 [16];
+  undefined4 uVar18;
+  undefined4 uVar19;
+  Il2CppObject *pIVar20;
+  bool bVar21;
+  int32_t iVar22;
+  int iVar23;
+  ulong uVar24;
   UnityEngine_GameObject_o *__this_01;
-  int iVar15;
-  int iVar16;
-  float fVar17;
-  float fVar18;
-  float fVar19;
-  float fVar20;
-  float fVar21;
-  float fVar22;
-  float local_res18 [2];
-  int local_res20;
-  float fStack_1e4;
-  float fStack_1e0;
-  float local_1dc;
-  undefined8 local_1d8;
-  float local_1d0;
-  int local_1c8;
-  int32_t local_1c4;
-  int32_t local_1c0;
-  int32_t local_1bc;
-  float local_1b8;
-  System_Collections_Generic_List_T__o *local_1b0;
-  undefined8 local_1a8;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_1a0;
-  UnityEngine_Vector3_o local_198;
-  UnityEngine_Vector3_o local_188;
-  UnityEngine_Vector3Int_o local_178;
-  undefined1 local_168 [16];
-  Cameras_CameraOcclusion_FallbackGrid_o *local_158;
-  undefined1 local_150 [8];
-  uint64_t uStack_148;
-  Cameras_CameraOcclusion_FallbackGrid_o *local_140;
-  System_Collections_Generic_List_Enumerator_object__o local_138;
-  void *local_120;
-  Il2CppClass *pIStack_118;
-  void *local_110;
-  UnityEngine_Vector3_Fields local_108;
-  System_Collections_Generic_List_Enumerator_T__o local_f8 [2];
-  UnityEngine_Vector3Int_o local_c8;
-  UnityEngine_Vector3Int_o local_b8 [10];
+  ulong uVar25;
+  uint uVar26;
+  MethodInfo *method_00;
+  int iVar27;
+  float fVar28;
+  float fVar29;
+  undefined4 extraout_XMM0_Db;
+  undefined4 uVar30;
+  float fVar31;
+  float fVar32;
+  undefined1 auVar33 [16];
+  undefined1 auVar34 [12];
+  UnityEngine_Vector3Int_o key;
+  float local_16c;
+  float local_168;
+  float fStack_164;
+  float fStack_160;
+  float fStack_15c;
+  float local_158;
+  float fStack_154;
+  float fStack_150;
+  float fStack_14c;
+  undefined8 local_140;
+  uint local_138;
+  float local_134;
+  undefined1 local_130 [20];
+  float fStack_11c;
+  undefined1 local_118 [8];
+  float fStack_110;
+  float fStack_10c;
+  System_Collections_Generic_List_Enumerator_object__o local_108;
+  ulong local_f0;
+  System_Collections_Generic_List_object__o *local_e8;
+  undefined1 local_e0 [16];
+  Il2CppObject *local_d0;
+  undefined8 local_c8;
+  undefined4 uStack_c0;
+  undefined4 uStack_bc;
+  undefined1 local_b8 [40];
+  Il2CppType *pIStack_90;
+  Il2CppObject *local_88;
+  _union_14 local_78;
+  Il2CppObject *local_70;
+  undefined8 local_68;
+  System_Collections_Generic_List_Enumerator_object__o *local_60;
+  Il2CppMethodPointer local_58;
+  float local_50;
+  System_Collections_Generic_List_T__o *local_48;
+  char *pcStack_40;
   
-  if (Il2CppMethodInitialized_184347683 == '\0') {
+  if (Il2CppMethodInitialized_07548200 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1546,317 +1684,440 @@ void Cameras_CameraOcclusion__FindFallbackCandidates(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347683 = '\x01';
+    Il2CppMethodInitialized_07548200 = '\x01';
   }
-  local_150 = (undefined1  [8])0x0;
-  uStack_148 = 0;
-  local_140 = (Cameras_CameraOcclusion_FallbackGrid_o *)0x0;
-  local_1b0 = (System_Collections_Generic_List_T__o *)0x0;
-  local_138.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_138.fields._index = 0;
-  local_138.fields._version = 0;
-  local_138.fields._current = (Il2CppObject *)0x0;
-  local_120 = (void *)0x0;
-  pIStack_118 = (Il2CppClass *)0x0;
-  local_110 = (void *)0x0;
-  local_res18[0] = 0.0;
+  local_108.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_108.fields._index = 0;
+  local_108.fields._version = 0;
+  local_108.fields._current = (Il2CppObject *)0x0;
+  local_e8 = (System_Collections_Generic_List_object__o *)0x0;
+  local_b8._32_8_ = (Il2CppClass *)0x0;
+  pIStack_90 = (Il2CppType *)0x0;
+  local_88 = (Il2CppObject *)0x0;
+  local_b8._0_8_ = (Il2CppMethodPointer)0x0;
+  local_b8._8_8_ = (Il2CppClass *)0x0;
+  local_b8._16_8_ = (InvokerMethod)0x0;
+  local_16c = 0.0;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  pCVar4 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-  fVar20 = (pCVar4->_end).fields.x - (pCVar4->_start).fields.x;
-  fVar21 = (pCVar4->_end).fields.y - (pCVar4->_start).fields.y;
-  fVar22 = (pCVar4->_end).fields.z - (pCVar4->_start).fields.z;
-  local_1d8 = (Cameras_CameraOcclusion_FallbackGrid_o *)CONCAT44(fVar21,fVar20);
-  local_1d0 = fVar22;
-  fVar17 = (float)il2cpp_runtime_helper_180546a40(&local_1d8,0);
-  pSVar2 = *(System_Collections_Generic_List_T__o **)
-            &(TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields;
-  fVar19 = (TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields.z;
-  if (Il2CppMethodInitialized_18433de5f == '\0') {
+  auVar33 = _local_118;
+  pCVar12 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+  pUVar1 = &pCVar12->_start;
+  uVar18 = (pUVar1->fields).x;
+  uVar19 = (pUVar1->fields).y;
+  local_118._4_4_ = uVar19;
+  local_118._0_4_ = uVar18;
+  local_158 = (pCVar12->_end).fields.x;
+  fStack_154 = (pCVar12->_end).fields.y;
+  fStack_150 = 0.0;
+  fStack_14c = 0.0;
+  fVar28 = (pCVar12->_end).fields.z - (pCVar12->_start).fields.z;
+  fVar31 = (pUVar1->fields).x;
+  fVar29 = (pCVar12->_start).fields.y;
+  fVar7 = 0.0;
+  fVar5 = 0.0;
+  if (g_data_0753e729 == '\0') {
+    fStack_150 = 0.0;
+    fStack_14c = 0.0;
+    _fStack_110 = 0;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    g_data_0753e729 = '\x01';
+    fVar31 = (float)local_118._0_4_;
+    fVar29 = (float)local_118._4_4_;
+    fVar7 = fStack_110;
+    fVar5 = fStack_10c;
+    auVar33 = _local_118;
+  }
+  _local_118 = auVar33;
+  local_158 = local_158 - fVar31;
+  fStack_154 = fStack_154 - fVar29;
+  fStack_150 = fStack_150 - fVar7;
+  fStack_14c = fStack_14c - fVar5;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar31 = fVar28 * fVar28 + fStack_154 * fStack_154 + local_158 * local_158;
+  local_118._0_4_ = fVar31;
+  if (fVar31 < 0.0) {
+    fVar31 = sqrtf(fVar31);
+  }
+  else {
+    fVar31 = SQRT(fVar31);
+  }
+  local_48 = *(System_Collections_Generic_List_T__o **)
+              &(TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields;
+  pcStack_40 = (char *)0x0;
+  local_134 = (TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields.z;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5f = '\x01';
+    Il2CppMethodInitialized_0753e72d = '\x01';
   }
-  fVar18 = (float)il2cpp_runtime_helper_180546a40(&local_1d8,0);
-  if (fVar18 <= 1e-05) {
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar20 = (pUVar6->zeroVector).fields.x;
-    fVar21 = (pUVar6->zeroVector).fields.y;
-    fVar22 = (pUVar6->zeroVector).fields.z;
-  }
-  else {
-    fVar20 = fVar20 / fVar18;
-    fVar21 = fVar21 / fVar18;
-    fVar22 = fVar22 / fVar18;
-  }
-  fStack_1e4 = fVar20;
-  fStack_1e0 = fVar21;
-  local_1dc = fVar22;
-  local_1dc = (float)il2cpp_runtime_helper_180546a40(&fStack_1e4,0);
-  if (1e-05 < local_1dc) {
-    fStack_1e4 = fVar20 / local_1dc;
-    fStack_1e0 = fVar21 / local_1dc;
-    local_1dc = fVar22 / local_1dc;
+  if (g_data_0753e729 == '\0') {
+    local_130._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    g_data_0753e729 = '\x01';
+    uVar11 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
   }
   else {
-    fStack_1e4 = 0.0;
-    fStack_1e0 = 0.0;
-    local_1dc = 0.0;
+    local_130._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    uVar11 = (((Il2CppClass *)TypeInfo_System_Math)->_2).cctor_finished_or_no_cctor;
   }
-  __this = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
-  if (__this == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) {
+  if (uVar11 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  uVar30 = 0;
+  if ((float)local_118._0_4_ < 0.0) {
+    fVar29 = sqrtf((float)local_118._0_4_);
+    uVar30 = extraout_XMM0_Db;
+  }
+  else {
+    fVar29 = SQRT((float)local_118._0_4_);
+  }
+  if (1e-05 < fVar29) {
+    fVar28 = fVar28 / fVar29;
+    auVar17._4_4_ = fStack_154;
+    auVar17._0_4_ = local_158;
+    auVar17._8_4_ = fStack_150;
+    auVar17._12_4_ = fStack_14c;
+    auVar33._4_4_ = fVar29;
+    auVar33._0_4_ = fVar29;
+    auVar33._8_4_ = uVar30;
+    auVar33._12_4_ = uVar30;
+    auVar33 = divps(auVar17,auVar33);
+    local_130._0_8_ = auVar33._0_8_;
+    local_168 = auVar33._0_4_;
+    fStack_164 = auVar33._4_4_;
+  }
+  else {
+    pUVar13 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar28 = (pUVar13->zeroVector).fields.z;
+    uVar3 = (pUVar13->zeroVector).fields.x;
+    uVar9 = (pUVar13->zeroVector).fields.y;
+    local_168 = (float)uVar3;
+    fStack_164 = (float)uVar9;
+  }
+  fStack_15c = 0.0;
+  fStack_160 = 0.0;
+  if (g_data_0753e729 == '\0') {
+    fStack_15c = 0.0;
+    fStack_160 = 0.0;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    g_data_0753e729 = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar29 = fVar28 * fVar28 + fStack_164 * fStack_164 + local_168 * local_168;
+  local_158 = 0.0;
+  if (fVar29 < 0.0) {
+    fVar29 = sqrtf(fVar29);
+  }
+  else {
+    fVar29 = SQRT(fVar29);
+  }
+  _local_118 = ZEXT816(0);
+  if (1e-05 < fVar29) {
+    local_158 = fVar28 / fVar29;
+    auVar16._4_4_ = fStack_164;
+    auVar16._0_4_ = local_168;
+    auVar16._8_4_ = fStack_160;
+    auVar16._12_4_ = fStack_15c;
+    auVar15._4_4_ = fVar29;
+    auVar15._0_4_ = fVar29;
+    auVar15._8_4_ = fVar29;
+    auVar15._12_4_ = fVar29;
+    _local_118 = divps(auVar16,auVar15);
+  }
+  __this_00 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
+  if (__this_00 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) {
     ThrowNullReferenceException();
   }
-  local_1b8 = fVar17;
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
-             (System_Collections_Generic_List_T__o *)__this,
-             (MethodInfo_91F180 *)
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)local_130,
+             (System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)
              MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_GetEnumerator);
-  local_150 = (undefined1  [8])local_168._0_8_;
-  uStack_148 = local_168._8_8_;
-  local_140 = local_158;
-  local_1a8 = 0;
-  local_1a0 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_150;
-  pIVar9 = (Il2CppObject *)CONCAT44(local_1dc,fStack_1e0);
-  uVar8._4_4_ = (int32_t)fStack_1e4;
-  uVar8._0_4_ = (int32_t)fVar19;
+  local_108.fields._current = (Il2CppObject *)CONCAT44(fStack_11c,local_130._16_4_);
+  local_108.fields._list = (System_Collections_Generic_List_T__o *)local_130._0_8_;
+  local_68._0_2_ = 0;
+  local_68._2_1_ = 0;
+  local_68._3_1_ = 0;
+  local_68._4_4_ = 0;
+  local_60 = &local_108;
+  __this = (Il2CppType *)(local_b8 + 0x20);
   do {
-    do {
-      bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                         ((System_Collections_Generic_List_Enumerator_object__o *)local_150,
-                          (MethodInfo_153A2A0 *)
-                          MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_MoveNext
-                         );
-      __this_00 = local_140;
-      if (!bVar11) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (local_1a0,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_Dispose)
-        ;
-        return;
-      }
-      local_1d8 = local_140;
-      if (local_140 == (Cameras_CameraOcclusion_FallbackGrid_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pSVar5 = (local_140->fields).Cells;
-      if (pSVar5 == (System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o
-                     *)0x0) {
-        ThrowNullReferenceException();
-      }
-      iVar12 = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___get_Count
-                         ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                          (MethodInfo_13CDEB0 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_get_Count
-                         );
-    } while (iVar12 == 0);
-    if (Il2CppMethodInitialized_18433dbeb == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbeb = '\x01';
-    }
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar20 = (pUVar6->oneVector).fields.x;
-    fVar21 = (pUVar6->oneVector).fields.y;
-    fVar22 = (pUVar6->oneVector).fields.z;
-    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-    }
-    pCVar4 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-    fVar19 = (__this_00->fields).CellSize * 0.5 + pCVar4->_radius;
-    fVar20 = fVar20 * fVar19;
-    fVar21 = fVar21 * fVar19;
-    fVar22 = fVar22 * fVar19;
-    fVar19 = (pCVar4->_end).fields.x;
-    fVar18 = (pCVar4->_end).fields.y;
-    fVar1 = (pCVar4->_end).fields.z;
-    local_198.fields.y = (pCVar4->_start).fields.y;
-    local_198.fields.z = (pCVar4->_start).fields.z;
-    lVar13 = 0x94;
-    if ((pCVar4->_start).fields.x <= fVar19 && fVar19 != (pCVar4->_start).fields.x) {
-      lVar13 = 0x88;
-    }
-    if (fVar18 <= local_198.fields.y) {
-      local_198.fields.y = fVar18;
-    }
-    if (fVar1 <= local_198.fields.z) {
-      local_198.fields.z = fVar1;
-    }
-    local_198.fields.x = *(float *)((longlong)&pCVar4->StartId + lVar13) - fVar20;
-    local_198.fields.y = local_198.fields.y - fVar21;
-    local_198.fields.z = local_198.fields.z - fVar22;
-    pUVar14 = Cameras_CameraOcclusion_FallbackGrid__GetCell(&local_c8,__this_00,&local_198,(MethodInfo *)0x0);
-    iVar12 = (pUVar14->fields).m_X;
-    local_1c4 = (pUVar14->fields).m_Y;
-    local_1bc = (pUVar14->fields).m_Z;
-    pCVar4 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-    fVar19 = (pCVar4->_end).fields.y;
-    fVar18 = (pCVar4->_end).fields.z;
-    local_188.fields.y = (pCVar4->_start).fields.y;
-    local_188.fields.z = (pCVar4->_start).fields.z;
-    lVar13 = 0x94;
-    fVar1 = (pCVar4->_start).fields.x;
-    if ((pCVar4->_end).fields.x <= fVar1 && fVar1 != (pCVar4->_end).fields.x) {
-      lVar13 = 0x88;
-    }
-    if (local_188.fields.y <= fVar19) {
-      local_188.fields.y = fVar19;
-    }
-    if (local_188.fields.z <= fVar18) {
-      local_188.fields.z = fVar18;
-    }
-    local_188.fields.x = fVar20 + *(float *)((longlong)&pCVar4->StartId + lVar13);
-    local_188.fields.y = fVar21 + local_188.fields.y;
-    local_188.fields.z = fVar22 + local_188.fields.z;
-    pUVar14 = Cameras_CameraOcclusion_FallbackGrid__GetCell(local_b8,__this_00,&local_188,(MethodInfo *)0x0);
-    local_1c8 = (pUVar14->fields).m_X;
-    local_1c0 = (pUVar14->fields).m_Y;
-    iVar3 = (pUVar14->fields).m_Z;
-    for (; iVar16 = local_1c4, iVar12 <= local_1c8; iVar12 = iVar12 + 1) {
-      for (; iVar15 = local_1bc, iVar16 <= local_1c0; iVar16 = iVar16 + 1) {
-        for (; local_res20 = iVar15, iVar15 <= iVar3; iVar15 = iVar15 + 1) {
-          pSVar5 = (__this_00->fields).Cells;
-          if (pSVar5 == (System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o
-                         *)0x0) {
-            ThrowNullReferenceException();
-          }
-          local_178.fields.m_X = iVar12;
-          local_178.fields.m_Y = iVar16;
-          local_178.fields.m_Z = iVar15;
-          bVar11 = System_Collections_Generic_Dictionary_Vector3Int__object___TryGetValue
-                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,&local_178,
-                              (Il2CppObject **)&local_1b0,
-                              (MethodInfo_14CA5D0 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_TryGetVal
-                             );
-          if (bVar11) {
-            if (local_1b0 == (System_Collections_Generic_List_T__o *)0x0) {
+    while( true ) {
+      while( true ) {
+        do {
+          do {
+            bVar21 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                               (&local_108,
+                                (MethodInfo_4C45C50 *)
+                                MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_MoveNext
+                               );
+            pIVar20 = local_108.fields._current;
+            if (!bVar21) {
+              System_Collections_Generic_List_Enumerator_object___Dispose
+                        (&local_108,
+                         (MethodInfo_4C45C40 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackGrid_Dispose
+                        );
+              return;
+            }
+            if (local_108.fields._current == (Il2CppObject *)0x0) {
               ThrowNullReferenceException();
             }
-            System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                      (local_f8,local_1b0,
-                       (MethodInfo_91F180 *)
+            if (local_108.fields._current[1].monitor ==
+                (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            iVar22 = System_Collections_Generic_Dictionary_Vector3Int__object___get_Count
+                               (local_108.fields._current[1].monitor,
+                                (MethodInfo_4B20520 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_get_Count
+                               );
+          } while (iVar22 == 0);
+          if (Il2CppMethodInitialized_0753e4b7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_0753e4b7 = '\x01';
+          }
+          pUVar13 = TypeInfo_UnityEngine_Vector3->static_fields;
+          uVar4 = (pUVar13->oneVector).fields.x;
+          uVar10 = (pUVar13->oneVector).fields.y;
+          fStack_160 = 0.0;
+          fStack_15c = 0.0;
+          fVar28 = (pUVar13->oneVector).fields.z;
+          local_168 = (float)uVar4;
+          fStack_164 = (float)uVar10;
+          if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+          }
+          pCVar12 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+          fVar29 = *(float *)&pIVar20[1].klass;
+          fVar7 = fVar29 * 0.5 + pCVar12->_radius;
+          fVar32 = local_168 * fVar7;
+          local_168 = fStack_164 * fVar7;
+          fVar28 = fVar28 * fVar7;
+          fVar5 = (pCVar12->_start).fields.x;
+          fVar7 = (pCVar12->_start).fields.z;
+          uVar6 = (pCVar12->_end).fields.x;
+          if ((float)uVar6 <= fVar5) {
+            fVar5 = (float)uVar6;
+          }
+          fVar2 = (pCVar12->_end).fields.z;
+          if (fVar2 <= fVar7) {
+            fVar7 = fVar2;
+          }
+          local_c8 = CONCAT44(fStack_164,fVar32);
+          uStack_c0 = fStack_160;
+          uStack_bc = fStack_15c;
+          fStack_160 = fStack_164;
+          fStack_15c = fStack_164;
+          auVar33 = il2cpp_runtime_helper_05de6ea0((fVar5 - fVar32) / fVar29,(fVar7 - fVar28) / fVar29,0);
+          uVar25 = auVar33._0_8_;
+          uVar24 = auVar33._8_8_ & 0xffffffff;
+          pCVar12 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+          fVar7 = (pCVar12->_start).fields.x;
+          fVar29 = (pCVar12->_start).fields.z;
+          uVar8 = (pCVar12->_end).fields.x;
+          if (fVar7 <= (float)uVar8) {
+            fVar7 = (float)uVar8;
+          }
+          fVar5 = (pCVar12->_end).fields.z;
+          if (fVar29 <= fVar5) {
+            fVar29 = fVar5;
+          }
+          auVar34 = il2cpp_runtime_helper_05de6ea0(((float)local_c8 + fVar7) / *(float *)&pIVar20[1].klass,
+                                 (fVar28 + fVar29) / *(float *)&pIVar20[1].klass,0);
+          local_168 = auVar34._8_4_;
+          iVar23 = auVar34._0_4_;
+        } while (iVar23 < auVar33._0_4_);
+        local_f0 = uVar25 >> 0x20;
+        iVar27 = auVar34._4_4_;
+        local_140 = auVar34._0_8_;
+        if (auVar33._4_4_ <= iVar27) break;
+        do {
+          uVar26 = (int)uVar25 + 1;
+          uVar25 = (ulong)uVar26;
+        } while ((int)uVar26 <= iVar23);
+      }
+      if ((int)auVar33._8_4_ <= (int)local_168) break;
+      do {
+        uVar24 = local_f0;
+        do {
+          uVar26 = (int)uVar24 + 1;
+          uVar24 = (ulong)uVar26;
+        } while ((int)uVar26 <= iVar27);
+        uVar26 = (int)uVar25 + 1;
+        uVar25 = (ulong)uVar26;
+      } while ((int)uVar26 <= iVar23);
+    }
+    local_70 = pIVar20;
+    local_138 = auVar33._8_4_;
+    do {
+      local_78.genericMethod = (void *)(uVar25 & 0xffffffff);
+      uVar25 = local_f0 & 0xffffffff;
+      do {
+        local_c8 = uVar25 << 0x20 | (ulong)local_78.genericMethod;
+        do {
+          local_168 = auVar34._8_4_;
+          local_140 = auVar34._0_8_;
+          if (local_70[1].monitor == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          key.fields.m_Z = (int)uVar24;
+          key.fields.m_X = (int32_t)(float)local_c8;
+          key.fields.m_Y = local_c8._4_4_;
+          bVar21 = System_Collections_Generic_Dictionary_Vector3Int__object___TryGetValue
+                             (local_70[1].monitor,key,(Il2CppObject **)&local_e8,
+                              (MethodInfo_4B22900 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_TryGetVal
+                             );
+          if (bVar21) {
+            if (local_e8 == (System_Collections_Generic_List_object__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            System_Collections_Generic_List_object___GetEnumerator
+                      ((System_Collections_Generic_List_Enumerator_T__o *)local_e0,local_e8,
+                       (MethodInfo_395E050 *)
                        MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer_GetEnumerator
                       );
-            local_138.fields._list = local_f8[0].fields._list;
-            local_138.fields._index = local_f8[0].fields._index;
-            local_138.fields._version = local_f8[0].fields._version;
-            local_138.fields._current = local_f8[0].fields._current;
-            local_168._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-            local_168._8_8_ = &local_138;
-            while (bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                      (&local_138,
-                                       (MethodInfo_153A2A0 *)
-                                       MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackRenderer_MoveNext
-                                      ), pIVar10 = local_138.fields._current, bVar11) {
-              if (local_138.fields._current == (Il2CppObject *)0x0) {
+            local_88 = local_d0;
+            local_b8._32_8_ = local_e0._0_8_;
+            pIStack_90 = (Il2CppType *)local_e0._8_8_;
+            local_e0._0_8_ = (Il2CppClass *)0x0;
+            local_e0._8_8_ = __this;
+label_05dce6d0:
+            bVar21 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                               ((System_Collections_Generic_List_Enumerator_object__o *)__this,
+                                (MethodInfo_4C45C50 *)
+                                MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackRenderer_MoveNext
+                               );
+            pIVar20 = local_88;
+            if (bVar21) {
+              if (local_88 == (Il2CppObject *)0x0) {
                 ThrowNullReferenceException();
               }
-              pIVar7 = local_138.fields._current[1].klass;
+              pIVar14 = local_88[1].klass;
               if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar11 = UnityEngine_Object__op_Equality
-                                 ((UnityEngine_Object_o *)pIVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0
-                                 );
-              if (!bVar11) {
-                if (pIVar10[1].klass == (Il2CppClass *)0x0) {
+              bVar21 = UnityEngine_Object__op_Equality
+                                 ((UnityEngine_Object_o *)pIVar14,(UnityEngine_Object_o *)0x0,
+                                  (MethodInfo *)0x0);
+              if (!bVar21) {
+                if (pIVar20[1].klass == (Il2CppClass *)0x0) {
                   ThrowNullReferenceException();
                 }
                 __this_01 = UnityEngine_Component__get_gameObject
-                                      ((UnityEngine_Component_o *)pIVar10[1].klass,(MethodInfo *)0x0);
+                                      ((UnityEngine_Component_o *)pIVar20[1].klass,(MethodInfo *)0x0);
                 if (__this_01 == (UnityEngine_GameObject_o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                bVar11 = UnityEngine_GameObject__get_activeInHierarchy(__this_01,(MethodInfo *)0x0);
-                if (bVar11) {
-                  local_120 = pIVar10[1].monitor;
-                  pIStack_118 = pIVar10[2].klass;
-                  local_110 = pIVar10[2].monitor;
+                bVar21 = UnityEngine_GameObject__get_activeInHierarchy(__this_01,(MethodInfo *)0x0);
+                if (bVar21) {
+                  local_b8._16_8_ = pIVar20[2].monitor;
+                  local_b8._0_8_ = pIVar20[1].monitor;
+                  local_b8._8_8_ = pIVar20[2].klass;
                   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
                     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
                   }
-                  fVar20 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
+                  fVar28 = TypeInfo_Cameras_CameraOcclusion->static_fields->_radius;
                   UnityEngine_Bounds__Expand
-                            ((UnityEngine_Bounds_o *)&local_120,fVar20 + fVar20,(MethodInfo *)0x0);
-                  pCVar4 = TypeInfo_Cameras_CameraOcclusion->static_fields;
-                  local_108.x = (pCVar4->_start).fields.x;
-                  local_108.y = (pCVar4->_start).fields.y;
-                  local_108.z = (pCVar4->_start).fields.z;
-                  bVar11 = UnityEngine_Bounds__Internal_Contains
-                                     ((UnityEngine_Bounds_o *)&local_120,(UnityEngine_Vector3_o *)&local_108,
+                            ((UnityEngine_Bounds_o *)local_b8,fVar28 + fVar28,(MethodInfo *)0x0);
+                  local_58 = *(Il2CppMethodPointer *)
+                              &(TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields;
+                  local_50 = (TypeInfo_Cameras_CameraOcclusion->static_fields->_start).fields.z;
+                  method_00 = (MethodInfo *)&local_58;
+                  bVar21 = UnityEngine_Bounds__Internal_Contains
+                                     ((UnityEngine_Bounds_o *)local_b8,(UnityEngine_Vector3_o *)method_00,
                                       (MethodInfo *)0x0);
-                  if ((bVar11) ||
-                     ((local_f8[0].fields._list = pSVar2, local_f8[0].fields._8_8_ = uVar8,
-                      local_f8[0].fields._current = pIVar9,
-                      bVar11 = UnityEngine_Bounds__IntersectRayAABB
-                                         ((UnityEngine_Ray_o *)local_f8,(UnityEngine_Bounds_o *)&local_120,
-                                          local_res18,(MethodInfo *)0x0), bVar11 && (local_res18[0] <= fVar17)
-                      ))) {
-                    pIVar7 = pIVar10[1].klass;
-                    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-                    }
-                    Cameras_CameraOcclusion__AddCandidate((UnityEngine_Renderer_o *)pIVar7,(MethodInfo *)0x0);
+                  if (!bVar21) {
+                    local_130._0_8_ = local_48;
+                    local_130._8_4_ = local_134;
+                    local_130._12_4_ = local_118._0_4_;
+                    local_130._16_4_ = local_118._4_4_;
+                    fStack_11c = local_158;
+                    method_00 = (MethodInfo *)local_b8;
+                    bVar21 = UnityEngine_Bounds__IntersectRayAABB
+                                       ((UnityEngine_Ray_o *)local_130,(UnityEngine_Bounds_o *)method_00,
+                                        &local_16c,(MethodInfo *)0x0);
+                    if ((!bVar21) || (fVar31 < local_16c)) goto label_05dce6d0;
                   }
+                  pIVar14 = pIVar20[1].klass;
+                  if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+                  }
+                  Cameras_CameraOcclusion__AddCandidate((UnityEngine_Renderer_o *)pIVar14,method_00);
                 }
               }
+              goto label_05dce6d0;
             }
             System_Collections_Generic_List_Enumerator_object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_138,
+                      ((System_Collections_Generic_List_Enumerator_object__o *)__this,
+                       (MethodInfo_4C45C40 *)
                        MethodInfo_System_Collections_Generic_List_Enumerator_CameraOcclusion_FallbackRenderer_Dispose
                       );
           }
-        }
-      }
-    }
+          auVar34._8_4_ = local_168;
+          auVar34._0_8_ = local_140;
+          uVar26 = (int)uVar24 + 1;
+          uVar24 = (ulong)uVar26;
+        } while ((int)uVar26 <= (int)local_168);
+        uVar26 = (int)uVar25 + 1;
+        uVar25 = (ulong)uVar26;
+        uVar24 = (ulong)local_138;
+      } while ((int)uVar26 <= iVar27);
+      uVar26 = (int)local_78.genericMethod + 1;
+      uVar25 = (ulong)uVar26;
+      bVar21 = (int)uVar26 <= (int)local_140;
+    } while (bVar21);
   } while( true );
 }
 
 
 // Cameras.CameraOcclusion$$RegisterFallbackRenderer
 // il2cpp: void Cameras_CameraOcclusion__RegisterFallbackRenderer (UnityEngine_Renderer_o* renderer, const MethodInfo* method);
-// 0x1822ecae0
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ecc78: nop dword ptr [rax + rax]
-// asm:   0x1822ecc8b: movss xmm8, dword ptr [rip + 0x106c0bc]
-// asm:   0x1822ecc94: nop dword ptr [rax]
-// asm:   0x1822ecc98: nop dword ptr [rax + rax]
+// 0x5dcbeb0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcc005: jmp 0x5dcc154
+// asm:   0x5dcc03a: jmp 0x5dcc154
 
 void Cameras_CameraOcclusion__RegisterFallbackRenderer(UnityEngine_Renderer_o *renderer,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  float fVar2;
-  float fVar3;
+  UnityEngine_Bounds_o *pUVar2;
+  uint32_t uVar3;
   uint uVar4;
-  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *pSVar5;
-  Cameras_CameraOcclusion_FallbackGrid_array *pCVar6;
-  Cameras_CameraOcclusion_FallbackRenderer_array *pCVar7;
-  double dVar8;
-  double dVar9;
-  double dVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
+  Cameras_CameraOcclusion_FallbackGrid_array *pCVar5;
+  Cameras_CameraOcclusion_FallbackRenderer_array *pCVar6;
+  float fVar7;
+  undefined1 auVar8 [16];
+  MethodInfo *pMVar9;
+  bool bVar10;
+  Cameras_CameraOcclusion_FallbackGrid_o *__this;
+  System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o *__this_00;
+  Il2CppObject *pIVar11;
+  System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *pSVar12;
+  Cameras_CameraOcclusion_FallbackRenderer_o *__this_01;
+  System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *__this_02;
+  int32_t index;
+  undefined1 auVar13 [16];
   float fVar14;
-  bool bVar15;
-  UnityEngine_Bounds_o *pUVar16;
-  Cameras_CameraOcclusion_FallbackGrid_o *item;
-  System_Collections_Generic_Dictionary_Vector3Int__List_CameraOcclusion_FallbackRenderer___o *__this;
-  Il2CppObject *pIVar17;
-  System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *pSVar18;
-  Cameras_CameraOcclusion_FallbackRenderer_o *item_00;
-  MethodInfo *pMVar19;
-  char cVar20;
-  uint uVar21;
-  float fVar22;
-  float fVar23;
-  System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *local_res8;
-  UnityEngine_Vector3Int_Fields local_e8 [2];
-  UnityEngine_Bounds_o local_c8 [6];
+  UnityEngine_Vector3Int_o key;
+  System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *local_78;
+  UnityEngine_Renderer_o *local_70;
+  undefined1 local_68 [8];
+  undefined8 uStack_60;
+  float local_58;
+  float fStack_54;
+  float fStack_50;
+  float fStack_4c;
+  UnityEngine_Bounds_o local_48;
   
-  if (Il2CppMethodInitialized_184347684 == '\0') {
+  if (Il2CppMethodInitialized_07548201 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1880,221 +2141,198 @@ void Cameras_CameraOcclusion__RegisterFallbackRenderer(UnityEngine_Renderer_o *r
               (&MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer);
-    Il2CppMethodInitialized_184347684 = '\x01';
+    Il2CppMethodInitialized_07548201 = '\x01';
   }
-  local_res8 = (System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *)0x0;
-  if (renderer == (UnityEngine_Renderer_o *)0x0) {
-label_1822ed104:
-    ThrowNullReferenceException();
-  }
-  pUVar16 = UnityEngine_Renderer__get_bounds(local_c8,renderer,(MethodInfo *)0x0);
-  fVar22 = (pUVar16->fields).m_Extents.fields.y;
-  fVar23 = (pUVar16->fields).m_Extents.fields.z;
-  fVar13 = (pUVar16->fields).m_Extents.fields.y;
-  fVar14 = (pUVar16->fields).m_Extents.fields.z;
-  fVar2 = (pUVar16->fields).m_Extents.fields.x;
-  fVar22 = fVar22 + fVar22;
-  fVar11 = (pUVar16->fields).m_Center.fields.x;
-  fVar12 = (pUVar16->fields).m_Center.fields.y;
-  local_e8[0].m_X = (int32_t)(pUVar16->fields).m_Center.fields.x;
-  local_e8[0].m_Y = (int32_t)(pUVar16->fields).m_Center.fields.y;
-  fVar3 = (pUVar16->fields).m_Center.fields.z;
-  fVar23 = fVar23 + fVar23;
-  if (fVar22 <= fVar23) {
-    fVar22 = fVar23;
-  }
-  fVar23 = fVar2 + fVar2;
-  if (fVar2 + fVar2 <= fVar22) {
-    fVar23 = fVar22;
-  }
-  uVar21 = 0;
-  fVar22 = 128.0;
-  if (128.0 < fVar23) {
-    do {
-      fVar22 = fVar22 + fVar22;
-      uVar21 = uVar21 + 1;
-    } while (fVar22 < fVar23);
-  }
-  while( true ) {
-    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+  local_78 = (System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *)0x0;
+  if (renderer != (UnityEngine_Renderer_o *)0x0) {
+    index = 0;
+    local_70 = renderer;
+    UnityEngine_Renderer__get_bounds(&local_48,renderer,(MethodInfo *)0x0);
+    fVar14 = local_48.fields.m_Extents.fields.y + local_48.fields.m_Extents.fields.y;
+    if (local_48.fields.m_Extents.fields.y + local_48.fields.m_Extents.fields.y <=
+        local_48.fields.m_Extents.fields.z + local_48.fields.m_Extents.fields.z) {
+      fVar14 = local_48.fields.m_Extents.fields.z + local_48.fields.m_Extents.fields.z;
     }
-    pSVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
-    if (pSVar5 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) goto label_1822ed104;
-    if ((int)uVar21 < (pSVar5->fields)._size) break;
-    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+    fVar7 = local_48.fields.m_Extents.fields.x + local_48.fields.m_Extents.fields.x;
+    if (local_48.fields.m_Extents.fields.x + local_48.fields.m_Extents.fields.x <= fVar14) {
+      fVar7 = fVar14;
     }
-    pSVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
-    if (pSVar5 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) goto label_1822ed104;
-    fVar22 = (float)il2cpp_runtime_helper_1804f6b50(0x40000000);
-    item = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_FallbackGrid);
-    if (Il2CppMethodInitialized_18434768a == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&
+    if (128.0 < fVar7) {
+      index = 0;
+      fVar14 = 128.0;
+      do {
+        fVar14 = fVar14 + fVar14;
+        index = index + 1;
+      } while (fVar14 < fVar7);
+    }
+    uStack_60 = 0;
+    uVar3 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+    local_58 = local_48.fields.m_Center.fields.z;
+    fStack_54 = local_48.fields.m_Extents.fields.x;
+    fStack_50 = local_48.fields.m_Extents.fields.y;
+    fStack_4c = local_48.fields.m_Extents.fields.z;
+    local_68 = (undefined1  [8])local_48.fields.m_Center.fields._0_8_;
+    while( true ) {
+      if (uVar3 == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      }
+      __this_02 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
+      if (__this_02 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0)
+      goto label_05dcc310;
+      uVar3 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+      if (index < (__this_02->fields)._size) break;
+      if (uVar3 == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+        __this_02 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
+        if (__this_02 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0)
+        goto label_05dcc310;
+      }
+      fVar14 = ldexpf(1.0,(__this_02->fields)._size);
+      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_FallbackGrid);
+      if (Il2CppMethodInitialized_07548207 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_ctor
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer
+                  );
+        Il2CppMethodInitialized_07548207 = '\x01';
+      }
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer
+                            );
+      System_Collections_Generic_Dictionary_Vector3Int__object____ctor
+                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                 (MethodInfo_4B1FD20 *)
                  MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_ctor
                 );
-      il2cpp_codegen_initialize_runtime_metadata
-                (&
-                 TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer
-                );
-      Il2CppMethodInitialized_18434768a = '\x01';
+      (__this->fields).Cells = __this_00;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).Cells);
+      System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+      (__this->fields).CellSize = fVar14 * 128.0;
+      pMVar9 = MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_Add;
+      piVar1 = &(__this_02->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pCVar5 = (__this_02->fields)._items;
+      if (pCVar5 == (Cameras_CameraOcclusion_FallbackGrid_array *)0x0) goto label_05dcc310;
+      uVar4 = (__this_02->fields)._size;
+      if (uVar4 < (uint)pCVar5->max_length) {
+        (__this_02->fields)._size = uVar4 + 1;
+        pCVar5->m_Items[(int)uVar4] = __this;
+        Il2CppCodeGenWriteBarrier(pCVar5->m_Items + (int)uVar4);
+        uVar3 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+      }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)__this_02,(Il2CppObject *)__this,
+                   (MethodInfo_395D230 *)pMVar9->klass->rgctx_data[0xe].method);
+        uVar3 = (TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor;
+      }
     }
-    __this = il2cpp_codegen_object_new
-                       ((Il2CppClass *)
-                        TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer
-                       );
-    System_Collections_Generic_Dictionary_Vector3Int__object____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-               (MethodInfo_14CF520 *)
-               MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_ctor
-              );
-    (item->fields).Cells = __this;
-    Il2CppCodeGenWriteBarrier(&(item->fields).Cells,__this);
-    System_Configuration_ConfigurationCollectionAttribute___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)item,(MethodInfo *)0x0);
-    (item->fields).CellSize = fVar22 * 128.0;
-    pMVar19 = MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_Add;
-    piVar1 = &(pSVar5->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pCVar6 = (pSVar5->fields)._items;
-    if (pCVar6 == (Cameras_CameraOcclusion_FallbackGrid_array *)0x0) goto label_1822ed104;
-    uVar4 = (pSVar5->fields)._size;
-    if (uVar4 < (uint)pCVar6->max_length) {
-      (pSVar5->fields)._size = uVar4 + 1;
-      if ((uint)pCVar6->max_length <= uVar4) goto label_1822ed10a;
-      pCVar6->m_Items[(int)uVar4] = item;
-      Il2CppCodeGenWriteBarrier(pCVar6->m_Items + (int)uVar4,item);
+    if (uVar3 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      __this_02 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
+      if (__this_02 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0)
+      goto label_05dcc310;
     }
-    else {
-      System_Collections_Generic_List_object___AddWithResize
-                ((System_Collections_Generic_List_object__o *)pSVar5,(Il2CppObject *)item,
-                 (MethodInfo_93DD50 *)pMVar19->klass->rgctx_data[0xe].method);
+    pIVar11 = System_Collections_Generic_List_object___get_Item
+                        ((System_Collections_Generic_List_object__o *)__this_02,index,
+                         (MethodInfo_395CF20 *)
+                         MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_get_Item);
+    if (pIVar11 != (Il2CppObject *)0x0) {
+      fVar14 = *(float *)&pIVar11[1].klass;
+      auVar8._8_8_ = uStack_60;
+      auVar8._0_8_ = local_68;
+      auVar13._4_4_ = fVar14;
+      auVar13._0_4_ = fVar14;
+      auVar13._8_4_ = fVar14;
+      auVar13._12_4_ = fVar14;
+      auVar13 = divps(auVar8,auVar13);
+      key.fields = (UnityEngine_Vector3Int_Fields)il2cpp_runtime_helper_05de6ea0(auVar13._0_8_,local_58 / fVar14,0);
+      if (pIVar11[1].monitor != (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
+        bVar10 = System_Collections_Generic_Dictionary_Vector3Int__object___TryGetValue
+                           (pIVar11[1].monitor,key,(Il2CppObject **)&local_78,
+                            (MethodInfo_4B22900 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_TryGetVal
+                           );
+        if (!bVar10) {
+          pSVar12 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)
+                               TypeInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer);
+          System_Collections_Generic_List_object____ctor
+                    ((System_Collections_Generic_List_object__o *)pSVar12,
+                     (MethodInfo_395C910 *)
+                     MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer_ctor);
+          local_78 = pSVar12;
+          if (pIVar11[1].monitor == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0)
+          goto label_05dcc310;
+          System_Collections_Generic_Dictionary_Vector3Int__object___Add
+                    (pIVar11[1].monitor,key,(Il2CppObject *)pSVar12,
+                     (MethodInfo_4B20950 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_Add
+                    );
+        }
+        pSVar12 = local_78;
+        __this_01 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_FallbackRenderer);
+        System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+        (__this_01->fields).Renderer = local_70;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields).Renderer);
+        pUVar2 = &(__this_01->fields).Bounds;
+        (pUVar2->fields).m_Center.fields.x = (float)local_68._0_4_;
+        (pUVar2->fields).m_Center.fields.y = (float)local_68._4_4_;
+        *(ulong *)&(__this_01->fields).Bounds.fields.m_Center.fields.z = CONCAT44(fStack_54,local_58);
+        pUVar2 = &(__this_01->fields).Bounds;
+        (pUVar2->fields).m_Extents.fields.y = fStack_50;
+        pMVar9 = MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer_Add;
+        (pUVar2->fields).m_Extents.fields.z = fStack_4c;
+        if (pSVar12 != (System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *)0x0) {
+          piVar1 = &(pSVar12->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pCVar6 = (pSVar12->fields)._items;
+          if (pCVar6 != (Cameras_CameraOcclusion_FallbackRenderer_array *)0x0) {
+            uVar4 = (pSVar12->fields)._size;
+            if (uVar4 < (uint)pCVar6->max_length) {
+              (pSVar12->fields)._size = uVar4 + 1;
+              pCVar6->m_Items[(int)uVar4] = __this_01;
+              Il2CppCodeGenWriteBarrier(pCVar6->m_Items + (int)uVar4);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)pSVar12,(Il2CppObject *)__this_01,
+                         (MethodInfo_395D230 *)pMVar9->klass->rgctx_data[0xe].method);
+            }
+            return;
+          }
+        }
+      }
     }
   }
-  if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-  }
-  pSVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids;
-  if (pSVar5 == (System_Collections_Generic_List_CameraOcclusion_FallbackGrid__o *)0x0) goto label_1822ed104;
-  pMVar19 = (MethodInfo *)(ulonglong)uVar21;
-  pIVar17 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                      ((System_Collections_Generic_List_object__o *)pSVar5,uVar21,
-                       (MethodInfo_92B830 *)
-                       MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_get_Item);
-  if (pIVar17 == (Il2CppObject *)0x0) goto label_1822ed104;
-  fVar22 = *(float *)&pIVar17[1].klass;
-  fVar23 = (float)local_e8[0].m_Y / fVar22;
-  if (Il2CppMethodInitialized_18433df26 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-  }
-  cVar20 = Il2CppMethodInitialized_18433df26;
-  dVar8 = il2cpp_runtime_helper_1804f4690((double)(fVar11 / fVar22),pMVar19);
-  if (cVar20 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    cVar20 = '\x01';
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-    cVar20 = Il2CppMethodInitialized_18433df26;
-  }
-  dVar9 = il2cpp_runtime_helper_1804f4690((double)fVar23,pMVar19);
-  if (cVar20 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    Il2CppMethodInitialized_18433df26 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-  }
-  dVar10 = il2cpp_runtime_helper_1804f4690((double)(fVar3 / fVar22),pMVar19);
-  if (pIVar17[1].monitor == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_1822ed104;
-  local_e8[0].m_Y = (int)dVar9;
-  local_e8[0].m_X = (int)dVar8;
-  local_e8[0].m_Z = (int)dVar10;
-  bVar15 = System_Collections_Generic_Dictionary_Vector3Int__object___TryGetValue
-                     (pIVar17[1].monitor,(UnityEngine_Vector3Int_o *)local_e8,(Il2CppObject **)&local_res8,
-                      (MethodInfo_14CA5D0 *)
-                      MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_TryGetVal
-                     );
-  if (!bVar15) {
-    pSVar18 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)
-                         TypeInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)pSVar18,
-               (MethodInfo_92A240 *)
-               MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer_ctor);
-    local_res8 = pSVar18;
-    if (pIVar17[1].monitor == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0)
-    goto label_1822ed104;
-    local_e8[0].m_Z = (int)dVar10;
-    System_Collections_Generic_Dictionary_Vector3Int__object___Add
-              (pIVar17[1].monitor,(UnityEngine_Vector3Int_o *)local_e8,(Il2CppObject *)pSVar18,
-               (MethodInfo_14BA090 *)
-               MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_List_CameraOcclusion_FallbackRenderer_Add
-              );
-  }
-  pSVar18 = local_res8;
-  item_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_FallbackRenderer);
-  local_e8[0].m_Z = (int32_t)fVar3;
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)item_00,(MethodInfo *)0x0);
-  (item_00->fields).Renderer = renderer;
-  Il2CppCodeGenWriteBarrier(&(item_00->fields).Renderer,renderer);
-  (item_00->fields).Bounds.fields.m_Center.fields.x = fVar11;
-  (item_00->fields).Bounds.fields.m_Center.fields.y = fVar12;
-  (item_00->fields).Bounds.fields.m_Center.fields.z = (float)local_e8[0].m_Z;
-  (item_00->fields).Bounds.fields.m_Extents.fields.x = fVar2;
-  pUVar16 = &(item_00->fields).Bounds;
-  (pUVar16->fields).m_Extents.fields.y = fVar13;
-  pMVar19 = MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackRenderer_Add;
-  (pUVar16->fields).m_Extents.fields.z = fVar14;
-  if (pSVar18 == (System_Collections_Generic_List_CameraOcclusion_FallbackRenderer__o *)0x0)
-  goto label_1822ed104;
-  piVar1 = &(pSVar18->fields)._version;
-  *piVar1 = *piVar1 + 1;
-  pCVar7 = (pSVar18->fields)._items;
-  if (pCVar7 == (Cameras_CameraOcclusion_FallbackRenderer_array *)0x0) goto label_1822ed104;
-  uVar21 = (pSVar18->fields)._size;
-  if (uVar21 < (uint)pCVar7->max_length) {
-    (pSVar18->fields)._size = uVar21 + 1;
-    if ((uint)pCVar7->max_length <= uVar21) {
-label_1822ed10a:
-      ThrowIndexOutOfRangeException();
-    }
-    pCVar7->m_Items[(int)uVar21] = item_00;
-    Il2CppCodeGenWriteBarrier(pCVar7->m_Items + (int)uVar21,item_00);
-  }
-  else {
-    System_Collections_Generic_List_object___AddWithResize
-              ((System_Collections_Generic_List_object__o *)pSVar18,(Il2CppObject *)item_00,
-               (MethodInfo_93DD50 *)pMVar19->klass->rgctx_data[0xe].method);
-  }
-  return;
+label_05dcc310:
+  ThrowNullReferenceException();
 }
 
 
 // Cameras.CameraOcclusion$$AddCandidate
 // il2cpp: void Cameras_CameraOcclusion__AddCandidate (UnityEngine_Renderer_o* original, const MethodInfo* method);
-// 0x1822eac00
+// 0x5dcdd90
 
 void Cameras_CameraOcclusion__AddCandidate(UnityEngine_Renderer_o *original,MethodInfo *method)
 
 {
   byte bVar1;
+  byte bVar2;
   System_Collections_Generic_Dictionary_object__object__o *__this;
-  UnityEngine_Object_c *pUVar2;
+  UnityEngine_Object_c *pUVar3;
   System_Collections_Generic_HashSet_object__o *__this_00;
-  bool bVar3;
+  bool bVar4;
   UnityEngine_GameObject_o *__this_01;
-  UnityEngine_Object_o *local_res8 [4];
+  UnityEngine_Object_o *local_20;
   
-  if (Il2CppMethodInitialized_184347685 == '\0') {
+  if (Il2CppMethodInitialized_07548202 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_TryGetValue);
@@ -2102,55 +2340,56 @@ void Cameras_CameraOcclusion__AddCandidate(UnityEngine_Renderer_o *original,Meth
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_SkinnedMeshRenderer);
-    Il2CppMethodInitialized_184347685 = '\x01';
+    Il2CppMethodInitialized_07548202 = '\x01';
   }
-  local_res8[0] = (UnityEngine_Object_o *)0x0;
+  local_20 = (UnityEngine_Object_o *)0x0;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Equality
+  bVar4 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)original,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar3) {
+  if (!bVar4) {
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
     __this = (System_Collections_Generic_Dictionary_object__object__o *)
              TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers;
     if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-label_1822eade4:
+label_05dcdf6f:
       ThrowNullReferenceException();
     }
-    bVar3 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      (__this,(Il2CppObject *)original,(Il2CppObject **)local_res8,
-                       (MethodInfo_14769C0 *)
+    bVar4 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                      (__this,(Il2CppObject *)original,(Il2CppObject **)&local_20,
+                       (MethodInfo_4AAF440 *)
                        MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_TryGetValue);
-    if (bVar3) {
-      original = (UnityEngine_Renderer_o *)local_res8[0];
+    if (bVar4) {
+      original = (UnityEngine_Renderer_o *)local_20;
     }
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar3 = UnityEngine_Object__op_Inequality
+    bVar4 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)original,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar3) {
-      if ((UnityEngine_Object_o *)original == (UnityEngine_Object_o *)0x0) goto label_1822eade4;
-      bVar3 = UnityEngine_Renderer__get_enabled(original,(MethodInfo *)0x0);
-      if (bVar3) {
+    if (bVar4) {
+      if ((UnityEngine_Object_o *)original == (UnityEngine_Object_o *)0x0) goto label_05dcdf6f;
+      bVar4 = UnityEngine_Renderer__get_enabled(original,(MethodInfo *)0x0);
+      if (bVar4) {
         __this_01 = UnityEngine_Component__get_gameObject
                               ((UnityEngine_Component_o *)original,(MethodInfo *)0x0);
-        if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_1822eade4;
-        bVar3 = UnityEngine_GameObject__get_activeInHierarchy(__this_01,(MethodInfo *)0x0);
-        if (bVar3) {
-          pUVar2 = ((UnityEngine_Object_o *)original)->klass;
-          bVar1 = (TypeInfo_UnityEngine_MeshRenderer->_2).typeHierarchyDepth;
-          if (((pUVar2->_2).typeHierarchyDepth < bVar1) ||
-             ((pUVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-              (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer)) {
-            bVar1 = (TypeInfo_UnityEngine_SkinnedMeshRenderer->_2).typeHierarchyDepth;
-            if ((pUVar2->_2).typeHierarchyDepth < bVar1) {
+        if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_05dcdf6f;
+        bVar4 = UnityEngine_GameObject__get_activeInHierarchy(__this_01,(MethodInfo *)0x0);
+        if (bVar4) {
+          pUVar3 = ((UnityEngine_Object_o *)original)->klass;
+          bVar1 = (pUVar3->_2).typeHierarchyDepth;
+          bVar2 = (TypeInfo_UnityEngine_MeshRenderer->_2).typeHierarchyDepth;
+          if ((bVar1 < bVar2) ||
+             ((pUVar3->_2).typeHierarchy[(ulong)bVar2 - 1] != (Il2CppClass *)TypeInfo_UnityEngine_MeshRenderer
+             )) {
+            bVar2 = (TypeInfo_UnityEngine_SkinnedMeshRenderer->_2).typeHierarchyDepth;
+            if (bVar1 < bVar2) {
               return;
             }
-            if ((pUVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+            if ((pUVar3->_2).typeHierarchy[(ulong)bVar2 - 1] !=
                 (Il2CppClass *)TypeInfo_UnityEngine_SkinnedMeshRenderer) {
               return;
             }
@@ -2160,10 +2399,10 @@ label_1822eade4:
           }
           __this_00 = (System_Collections_Generic_HashSet_object__o *)
                       TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates;
-          if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1822eade4;
+          if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05dcdf6f;
           System_Collections_Generic_HashSet_object___Add
                     (__this_00,(Il2CppObject *)original,
-                     (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_Add);
+                     (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_Add);
         }
       }
     }
@@ -2174,34 +2413,34 @@ label_1822eade4:
 
 // Cameras.CameraOcclusion$$ApplyMaterials
 // il2cpp: void Cameras_CameraOcclusion__ApplyMaterials (UnityEngine_Renderer_o* renderer, const MethodInfo* method);
-// 0x1822eadf0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822eaff7: jmp 0x1822eaf84
-// asm:   0x1822eb0ef: nop 
-// asm:   0x1822eb1e6: jmp 0x1822eb2af
+// 0x5dcd900
 
 void Cameras_CameraOcclusion__ApplyMaterials(UnityEngine_Renderer_o *renderer,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_List_Material__o *pSVar3;
-  UnityEngine_Material_o *pUVar4;
-  System_Collections_Generic_List_Renderer__o *__this;
-  UnityEngine_Renderer_array *pUVar5;
-  MethodInfo *pMVar6;
-  bool bVar7;
-  UnityEngine_Material_o *pUVar8;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *value;
-  Cameras_CameraOcclusion_MaterialOverride_o *pCVar9;
-  UnityEngine_Material_array *pUVar10;
-  Il2CppObject *pIVar11;
-  uint uVar12;
-  byte bVar13;
-  Cameras_CameraOcclusion_MaterialOverride_o *local_res8;
+  uint uVar2;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  System_Collections_Generic_List_Material__o *__this;
+  UnityEngine_Material_o *original;
+  System_Collections_Generic_List_Renderer__o *__this_00;
+  UnityEngine_Renderer_array *pUVar4;
+  UnityEngine_Renderer_o *item;
+  bool bVar5;
+  UnityEngine_Material_array *pUVar6;
+  Cameras_CameraOcclusion_MaterialOverride_o *pCVar7;
+  UnityEngine_Material_o *x;
+  Il2CppObject *pIVar8;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  long lVar9;
+  MethodInfo *pMVar10;
+  byte bVar11;
+  ulong uVar12;
+  Cameras_CameraOcclusion_MaterialOverride_o *local_40;
+  UnityEngine_Renderer_o *local_38;
   
-  if (Il2CppMethodInitialized_184347686 == '\0') {
+  if (Il2CppMethodInitialized_07548203 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2215,184 +2454,146 @@ void Cameras_CameraOcclusion__ApplyMaterials(UnityEngine_Renderer_o *renderer,Me
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Material_ToArray);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion_MaterialOverride);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347686 = '\x01';
+    Il2CppMethodInitialized_07548203 = '\x01';
   }
-  local_res8 = (Cameras_CameraOcclusion_MaterialOverride_o *)0x0;
+  local_40 = (Cameras_CameraOcclusion_MaterialOverride_o *)0x0;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
-  if (renderer != (UnityEngine_Renderer_o *)0x0) {
-    UnityEngine_Renderer__GetSharedMaterials
-              (renderer,TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials,(MethodInfo *)0x0);
-    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+  if (renderer == (UnityEngine_Renderer_o *)0x0) goto label_05dcdcbd;
+  UnityEngine_Renderer__GetSharedMaterials
+            (renderer,TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials,(MethodInfo *)0x0);
+  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides;
+  if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcdcbd;
+  bVar5 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                    (pSVar3,(Il2CppObject *)renderer,(Il2CppObject **)&local_40,
+                     (MethodInfo_4AAF440 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_TryGetValue
+                    );
+  pCVar7 = local_40;
+  if (bVar5) {
+    pMVar10 = extraout_RDX;
+    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+      pMVar10 = extraout_RDX_00;
+    }
+    if (pCVar7 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) goto label_05dcdcbd;
+    bVar5 = Cameras_CameraOcclusion_MaterialOverride__Matches
+                      (pCVar7,TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials,pMVar10);
+    if (!bVar5) goto label_05dcda26;
+  }
+  else {
+label_05dcda26:
+    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+    }
+    __this = TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials;
+    if (__this == (System_Collections_Generic_List_Material__o *)0x0) goto label_05dcdcbd;
+    pUVar6 = (UnityEngine_Material_array *)
+             System_Collections_Generic_List_object___ToArray
+                       ((System_Collections_Generic_List_object__o *)__this,
+                        (MethodInfo_395F5A0 *)MethodInfo_System_Collections_Generic_List_Material_ToArray);
+    pCVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_MaterialOverride);
+    if (Il2CppMethodInitialized_07548208 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material_array);
+      Il2CppMethodInitialized_07548208 = '\x01';
+    }
+    System_Object___ctor((Il2CppObject *)pCVar7,(MethodInfo *)0x0);
+    (pCVar7->fields).Originals = pUVar6;
+    Il2CppCodeGenWriteBarrier(&(pCVar7->fields).Originals);
+    if (pUVar6 == (UnityEngine_Material_array *)0x0) goto label_05dcdcbd;
+    pUVar6 = (UnityEngine_Material_array *)
+             SZArrayNew(TypeInfo_UnityEngine_Material_array,(uint32_t)pUVar6->max_length);
+    (pCVar7->fields).Replacements = pUVar6;
+    Il2CppCodeGenWriteBarrier(&(pCVar7->fields).Replacements);
+    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
              TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      bVar7 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        (pSVar2,(Il2CppObject *)renderer,(Il2CppObject **)&local_res8,
-                         (MethodInfo_14769C0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_TryGetValue
-                        );
-      pCVar9 = local_res8;
-      if (bVar7) {
-        if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+    local_40 = pCVar7;
+    if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcdcbd;
+    System_Collections_Generic_Dictionary_object__object___set_Item
+              (pSVar3,(Il2CppObject *)renderer,(Il2CppObject *)pCVar7,
+               (MethodInfo_4AAD4C0 *)
+               MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_set_Item
+              );
+  }
+  local_38 = renderer;
+  if (local_40 != (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) {
+    lVar9 = 0x20;
+    uVar12 = 0;
+    bVar11 = 0;
+    while (item = local_38, pUVar6 = (local_40->fields).Originals, pUVar6 != (UnityEngine_Material_array *)0x0
+          ) {
+      uVar2 = (uint)pUVar6->max_length;
+      pMVar10 = (MethodInfo *)(long)(int)uVar2;
+      if ((long)pMVar10 <= (long)uVar12) {
+        if (bVar11 != 0) {
+          UnityEngine_Renderer__set_sharedMaterials
+                    (local_38,(local_40->fields).Replacements,(MethodInfo *)0x0);
+          if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
+          }
+          pMVar10 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+          __this_00 = TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers;
+          if (__this_00 == (System_Collections_Generic_List_Renderer__o *)0x0) break;
+          piVar1 = &(__this_00->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pUVar4 = (__this_00->fields)._items;
+          if (pUVar4 == (UnityEngine_Renderer_array *)0x0) break;
+          uVar2 = (__this_00->fields)._size;
+          if (uVar2 < (uint)pUVar4->max_length) {
+            (__this_00->fields)._size = uVar2 + 1;
+            pUVar4->m_Items[(int)uVar2] = item;
+            Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2);
+          }
+          else {
+            System_Collections_Generic_List_object___AddWithResize
+                      ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
+                       (MethodInfo_395D230 *)pMVar10->klass->rgctx_data[0xe].method);
+          }
         }
-        if (pCVar9 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) goto label_1822eb2af;
-        pSVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials;
-        if (Il2CppMethodInitialized_18434768c == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_System_Collections_Generic_List_Material_get_Count);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_System_Collections_Generic_List_Material_get_Item);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-          Il2CppMethodInitialized_18434768c = '\x01';
-        }
-        pUVar10 = (pCVar9->fields).Originals;
-        if ((pUVar10 == (UnityEngine_Material_array *)0x0) ||
-           (pSVar3 == (System_Collections_Generic_List_Material__o *)0x0)) goto label_1822eb2af;
-        if ((int)pUVar10->max_length == (pSVar3->fields)._size) {
-          pUVar10 = (pCVar9->fields).Originals;
-          uVar12 = 0;
-          do {
-            if ((int)pUVar10->max_length <= (int)uVar12) goto label_1822eb0d7;
-            pUVar10 = (pCVar9->fields).Originals;
-            if (pUVar10 == (UnityEngine_Material_array *)0x0) break;
-            if ((uint)pUVar10->max_length <= uVar12) goto label_1822eb2c5;
-            pUVar4 = pUVar10->m_Items[(int)uVar12];
-            pUVar8 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)pSVar3,uVar12,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_Material_get_Item);
-            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-            }
-            bVar7 = UnityEngine_Object__op_Inequality
-                              ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)pUVar8,(MethodInfo *)0x0
-                              );
-            if (bVar7) goto label_1822eaff9;
-            pUVar10 = (pCVar9->fields).Originals;
-            uVar12 = uVar12 + 1;
-          } while (pUVar10 != (UnityEngine_Material_array *)0x0);
-          goto label_1822eb2af;
-        }
+        return;
       }
-label_1822eaff9:
+      if (uVar2 <= uVar12) {
+label_05dcdcc2:
+        ThrowIndexOutOfRangeException();
+      }
+      original = pUVar6->m_Items[uVar12];
       if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
       }
-      pSVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials;
-      if (pSVar3 != (System_Collections_Generic_List_Material__o *)0x0) {
-        value = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
-                          ((System_Collections_Generic_List_T__o *)pSVar3,
-                           (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_Material_ToArray);
-        pCVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion_MaterialOverride);
-        if (Il2CppMethodInitialized_18434768b == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material_array);
-          Il2CppMethodInitialized_18434768b = '\x01';
-        }
-        System_Object___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pCVar9,(MethodInfo *)0x0);
-        (pCVar9->fields).Originals = (UnityEngine_Material_array *)value;
-        Il2CppCodeGenWriteBarrier(&(pCVar9->fields).Originals,value);
-        if (value != (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-                      *)0x0) {
-          pUVar10 = (UnityEngine_Material_array *)
-                    SZArrayNew(TypeInfo_UnityEngine_Material_array,(uint32_t)value->max_length);
-          (pCVar9->fields).Replacements = pUVar10;
-          Il2CppCodeGenWriteBarrier(&(pCVar9->fields).Replacements,pUVar10);
-          pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
-                   TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides;
-          local_res8 = pCVar9;
-          if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-            System_Collections_Generic_Dictionary_object__object___set_Item
-                      (pSVar2,(Il2CppObject *)renderer,(Il2CppObject *)pCVar9,
-                       (MethodInfo_147A7F0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_set_Item
-                      );
-label_1822eb0d7:
-            bVar13 = 0;
-            uVar12 = 0;
-            if (local_res8 != (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) {
-              while (pUVar10 = (local_res8->fields).Originals, pUVar10 != (UnityEngine_Material_array *)0x0) {
-                if ((int)pUVar10->max_length <= (int)uVar12) {
-                  if (bVar13 != 0) {
-                    if (local_res8 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) break;
-                    UnityEngine_Renderer__set_sharedMaterials
-                              (renderer,(local_res8->fields).Replacements,(MethodInfo *)0x0);
-                    if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-                    }
-                    pMVar6 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
-                    __this = TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers;
-                    if (__this == (System_Collections_Generic_List_Renderer__o *)0x0) break;
-                    piVar1 = &(__this->fields)._version;
-                    *piVar1 = *piVar1 + 1;
-                    pUVar5 = (__this->fields)._items;
-                    if (pUVar5 == (UnityEngine_Renderer_array *)0x0) break;
-                    uVar12 = (__this->fields)._size;
-                    if (uVar12 < (uint)pUVar5->max_length) {
-                      (__this->fields)._size = uVar12 + 1;
-                      if ((uint)pUVar5->max_length <= uVar12) {
-label_1822eb2c5:
-                        ThrowIndexOutOfRangeException();
-                      }
-                      pUVar5->m_Items[(int)uVar12] = renderer;
-                      Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar12,renderer);
-                    }
-                    else {
-                      System_Collections_Generic_List_object___AddWithResize
-                                ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)renderer,
-                                 (MethodInfo_93DD50 *)pMVar6->klass->rgctx_data[0xe].method);
-                    }
-                  }
-                  return;
-                }
-                if ((local_res8 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) ||
-                   (pUVar10 = (local_res8->fields).Originals, pUVar10 == (UnityEngine_Material_array *)0x0))
-                break;
-                if ((uint)pUVar10->max_length <= uVar12) goto label_1822eb2c5;
-                pUVar4 = pUVar10->m_Items[(int)uVar12];
-                if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
-                }
-                pUVar8 = Cameras_CameraOcclusion__GetReplacement(pUVar4,(MethodInfo *)0x0);
-                if ((local_res8 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) ||
-                   (pUVar10 = (local_res8->fields).Replacements, pUVar10 == (UnityEngine_Material_array *)0x0)
-                   ) break;
-                if ((pUVar8 != (UnityEngine_Material_o *)0x0) &&
-                   (pIVar11 = il2cpp_vm_Object_IsInst
-                                        ((Il2CppObject *)pUVar8,(((pUVar10->obj).klass)->_1).element_class),
-                   pIVar11 == (Il2CppObject *)0x0)) {
-                  pIVar11 = il2cpp_codegen_get_array_type_mismatch_exception();
-                  il2cpp_codegen_raise_exception(pIVar11,(MethodInfo *)0x0);
-                }
-                if ((uint)pUVar10->max_length <= uVar12) goto label_1822eb2c5;
-                pUVar10->m_Items[(int)uVar12] = pUVar8;
-                Il2CppCodeGenWriteBarrier(pUVar10->m_Items + (int)uVar12,pUVar8);
-                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-                }
-                bVar7 = UnityEngine_Object__op_Inequality
-                                  ((UnityEngine_Object_o *)pUVar8,(UnityEngine_Object_o *)pUVar4,
-                                   (MethodInfo *)0x0);
-                bVar13 = bVar13 | bVar7;
-                uVar12 = uVar12 + 1;
-                if (local_res8 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) break;
-              }
-            }
-          }
+      x = Cameras_CameraOcclusion__GetReplacement(original,pMVar10);
+      if ((local_40 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) ||
+         (pUVar6 = (local_40->fields).Replacements, pUVar6 == (UnityEngine_Material_array *)0x0)) break;
+      if (x != (UnityEngine_Material_o *)0x0) {
+        pIVar8 = il2cpp_vm_Object_IsInst((Il2CppObject *)x,(((pUVar6->obj).klass)->_1).element_class);
+        if (pIVar8 == (Il2CppObject *)0x0) {
+          pIVar8 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar8,(MethodInfo *)0x0);
         }
       }
+      if ((uint)pUVar6->max_length <= uVar12) goto label_05dcdcc2;
+      pUVar6->m_Items[uVar12] = x;
+      Il2CppCodeGenWriteBarrier((void **)((long)pUVar6->m_Items + lVar9 + -0x20));
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar5 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)original,(MethodInfo *)0x0);
+      bVar11 = bVar11 | bVar5;
+      uVar12 = uVar12 + 1;
+      lVar9 = lVar9 + 8;
+      if (local_40 == (Cameras_CameraOcclusion_MaterialOverride_o *)0x0) break;
     }
   }
-label_1822eb2af:
+label_05dcdcbd:
   ThrowNullReferenceException();
 }
 
 
 // Cameras.CameraOcclusion$$GetReplacement
 // il2cpp: UnityEngine_Material_o* Cameras_CameraOcclusion__GetReplacement (UnityEngine_Material_o* original, const MethodInfo* method);
-// 0x1822ec4c0
+// 0x5dcecc0
 
 UnityEngine_Material_o *
 Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodInfo *method)
@@ -2404,10 +2605,10 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
   UnityEngine_Object_o *pUVar3;
   System_String_o *key;
   UnityEngine_Material_o *__this_00;
-  UnityEngine_Material_o *local_res8;
-  System_String_o *local_res18;
+  UnityEngine_Material_o *local_38;
+  System_String_o *local_30;
   
-  if (Il2CppMethodInitialized_184347687 == '\0') {
+  if (Il2CppMethodInitialized_07548204 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Add);
@@ -2418,10 +2619,10 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347687 = '\x01';
+    Il2CppMethodInitialized_07548204 = '\x01';
   }
-  local_res18 = (System_String_o *)0x0;
-  local_res8 = (UnityEngine_Material_o *)0x0;
+  local_30 = (System_String_o *)0x0;
+  local_38 = (UnityEngine_Material_o *)0x0;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
@@ -2449,8 +2650,8 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
        (key = UnityEngine_Object__get_name(pUVar3,(MethodInfo *)0x0),
        pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
       bVar2 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        (pSVar1,(Il2CppObject *)key,(Il2CppObject **)&local_res18,
-                         (MethodInfo_14769C0 *)
+                        (pSVar1,(Il2CppObject *)key,(Il2CppObject **)&local_30,
+                         (MethodInfo_4AAF440 *)
                          MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
       if (!bVar2) {
         return original;
@@ -2462,11 +2663,11 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
                TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
       if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
         bVar2 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                          (pSVar1,(Il2CppObject *)original,(Il2CppObject **)&local_res8,
-                           (MethodInfo_14769C0 *)
+                          (pSVar1,(Il2CppObject *)original,(Il2CppObject **)&local_38,
+                           (MethodInfo_4AAF440 *)
                            MethodInfo_System_Collections_Generic_Dictionary_Material_Material_TryGetValue);
         if (!bVar2) {
-          pUVar3 = (UnityEngine_Object_o *)UnityEngine_Shader__Find(local_res18,(MethodInfo *)0x0);
+          pUVar3 = (UnityEngine_Object_o *)UnityEngine_Shader__Find(local_30,(MethodInfo *)0x0);
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
@@ -2475,19 +2676,19 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
             return original;
           }
           __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Material);
-          UnityEngine_Material___ctor_2ee55e0(__this_00,original,(MethodInfo *)0x0);
-          if (__this_00 == (UnityEngine_Material_o *)0x0) goto label_1822ec7a5;
+          UnityEngine_Material___ctor_68dcfd0(__this_00,original,(MethodInfo *)0x0);
+          if (__this_00 == (UnityEngine_Material_o *)0x0) goto label_05dcef73;
           UnityEngine_Material__set_shader(__this_00,(UnityEngine_Shader_o *)pUVar3,(MethodInfo *)0x0);
-          local_res8 = __this_00;
+          local_38 = __this_00;
           if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
           }
           pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
                    TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies;
-          if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1822ec7a5;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05dcef73;
           System_Collections_Generic_Dictionary_object__object___Add
-                    (pSVar1,(Il2CppObject *)original,(Il2CppObject *)local_res8,
-                     (MethodInfo_146B4B0 *)
+                    (pSVar1,(Il2CppObject *)original,(Il2CppObject *)local_38,
+                     (MethodInfo_4AAD4E0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Add);
         }
         if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
@@ -2498,63 +2699,79 @@ Cameras_CameraOcclusion__GetReplacement(UnityEngine_Material_o *original,MethodI
         if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
           bVar2 = System_Collections_Generic_HashSet_object___Add
                             (__this,(Il2CppObject *)original,
-                             (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Add)
+                             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_Material_Add)
           ;
           if (bVar2) {
-            if (local_res8 == (UnityEngine_Material_o *)0x0) goto label_1822ec7a5;
-            UnityEngine_Material__CopyPropertiesFromMaterial(local_res8,original,(MethodInfo *)0x0);
+            if (local_38 == (UnityEngine_Material_o *)0x0) goto label_05dcef73;
+            UnityEngine_Material__CopyPropertiesFromMaterial(local_38,original,(MethodInfo *)0x0);
           }
-          return local_res8;
+          return local_38;
         }
       }
     }
   }
-label_1822ec7a5:
+label_05dcef73:
   ThrowNullReferenceException();
 }
 
 
 // Cameras.CameraOcclusion$$RestoreMaterials
 // il2cpp: void Cameras_CameraOcclusion__RestoreMaterials (const MethodInfo* method);
-// 0x1822ed7d0
-// eh: try 0x1822ed8d0..0x1822eda3a -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ed98d: mov rdx, qword ptr [rip + 0x1da60ac]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose
-// asm:   0x1822ed994: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822ed999: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822ed99e: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822ed9a3: test rcx, rcx
-// asm:   0x1822ed9a6: jne 0x1822eda3a
-// asm:   0x1822eda3a: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5dccc10
+// eh: try 0x5dccd24..0x5dcce3d -> pad 0x5dcce52 (+8 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5dcce6a..0x5dcce6f -> pad 0x5dcce92 cleanup
+// eh: try 0x5dcce95..0x5dcce9f -> pad 0x5dccea7 catch (...) [compiler noexcept guard]
+// asm: 31 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dcce42: jmp 0x5dcce52
+// asm:   0x5dcce44: jmp 0x5dcce52
+// asm:   0x5dcce46: jmp 0x5dcce52
+// asm:   0x5dcce48: jmp 0x5dcce52
+// asm:   0x5dcce4a: jmp 0x5dcce52
+// asm:   0x5dcce4c: jmp 0x5dcce52
+// asm:   0x5dcce4e: jmp 0x5dcce52
+// asm:   0x5dcce50: jmp 0x5dcce52
+// asm:   0x5dcce52: mov rbx, rax
+// asm:   0x5dcce55: cmp edx, 1
+// asm:   0x5dcce58: jne 0x5dcce95
+// asm:   0x5dcce5a: mov rdi, rbx
+// asm:   0x5dcce5d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5dcce62: mov rbx, qword ptr [rax]
+// asm:   0x5dcce65: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5dcce6a: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5dcce6f: lea rax, [rip + 0x14c1a5a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose
+// asm:   0x5dcce76: mov rsi, qword ptr [rax]
+// asm:   0x5dcce79: mov rdi, rsp
+// asm:   0x5dcce7c: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5dcce81: test rbx, rbx
+// asm:   0x5dcce84: je 0x5dccdc6
+// asm:   0x5dcce8a: mov rdi, rbx
+// asm:   0x5dcce8d: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5dcce92: mov rbx, rax
+// asm:   0x5dcce95: lea rdi, [rsp + 0x20]
+// asm:   0x5dcce9a: call 0x2fde610  ; il2cpp_runtime_helper_02fde610()
+// asm:   0x5dcce9f: mov rdi, rbx
+// asm:   0x5dccea2: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5dccea7: mov rdi, rax
+// asm:   0x5dcceaa: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int length;
+  int32_t length;
   System_Collections_Generic_List_Renderer__o *pSVar2;
   System_Collections_Generic_Dictionary_object__object__o *__this;
   UnityEngine_Object_o *x;
   bool bVar3;
   Il2CppObject *pIVar4;
-  undefined1 local_40 [16];
-  UnityEngine_Object_o *local_30;
-  undefined1 local_28 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
-  UnityEngine_Object_o *local_18;
+  Cameras_CameraOcclusion_StaticFields *pCVar5;
+  undefined1 local_68 [8];
+  undefined1 *puStack_60;
+  UnityEngine_Object_o *local_58;
+  undefined1 local_48 [16];
+  UnityEngine_Object_o *local_38;
   
-  if (Il2CppMethodInitialized_184347688 == '\0') {
+  if (Il2CppMethodInitialized_07548205 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2570,31 +2787,31 @@ void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347688 = '\x01';
+    Il2CppMethodInitialized_07548205 = '\x01';
   }
-  local_28 = (undefined1  [8])0x0;
-  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_18 = (UnityEngine_Object_o *)0x0;
+  local_68 = (undefined1  [8])0x0;
+  puStack_60 = (undefined1 *)0x0;
+  local_58 = (UnityEngine_Object_o *)0x0;
   if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
   }
   pSVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers;
   if (pSVar2 != (System_Collections_Generic_List_Renderer__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,
-               (System_Collections_Generic_List_T__o *)pSVar2,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
-    local_28 = (undefined1  [8])local_40._0_8_;
-    pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
-    local_18 = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+    System_Collections_Generic_List_object___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
+               (System_Collections_Generic_List_object__o *)pSVar2,
+               (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
+    local_58 = local_38;
+    local_68 = (undefined1  [8])local_48._0_8_;
+    puStack_60 = (undefined1 *)local_48._8_8_;
+    local_48._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    local_48._8_8_ = local_68;
     while( true ) {
       bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_28,
-                         (MethodInfo_153A2A0 *)
+                        ((System_Collections_Generic_List_Enumerator_object__o *)local_68,
+                         (MethodInfo_4C45C50 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_MoveNext);
-      x = local_18;
+      x = local_58;
       if (!bVar3) break;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -2611,7 +2828,7 @@ void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
         }
         pIVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
                            (__this,(Il2CppObject *)x,
-                            (MethodInfo_147A5B0 *)
+                            (MethodInfo_4AAD450 *)
                             MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_get_Item
                            );
         if (pIVar4 == (Il2CppObject *)0x0) {
@@ -2626,12 +2843,13 @@ void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
       }
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
-               MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose);
+              ((System_Collections_Generic_List_Enumerator_object__o *)local_68,
+               (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose);
     if ((TypeInfo_Cameras_CameraOcclusion->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Cameras_CameraOcclusion);
     }
-    pSVar2 = TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers;
+    pCVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+    pSVar2 = pCVar5->AppliedRenderers;
     if (pSVar2 != (System_Collections_Generic_List_Renderer__o *)0x0) {
       piVar1 = &(pSVar2->fields)._version;
       *piVar1 = *piVar1 + 1;
@@ -2639,9 +2857,9 @@ void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
       (pSVar2->fields)._size = 0;
       if (0 < length) {
         System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
+        pCVar5 = TypeInfo_Cameras_CameraOcclusion->static_fields;
       }
-      UnityEngine_Shader__SetGlobalFloat
-                (TypeInfo_Cameras_CameraOcclusion->static_fields->RadiusId,0.0,(MethodInfo *)0x0);
+      UnityEngine_Shader__SetGlobalFloat(pCVar5->RadiusId,0.0,(MethodInfo *)0x0);
       return;
     }
   }
@@ -2651,14 +2869,17 @@ void Cameras_CameraOcclusion__RestoreMaterials(MethodInfo *method)
 
 // Cameras.CameraOcclusion$$.cctor
 // il2cpp: void Cameras_CameraOcclusion___cctor (const MethodInfo* method);
-// 0x1822ee200
+// 0x5dcef80
 
 void Cameras_CameraOcclusion___cctor(MethodInfo *method)
 
 {
-  int32_t iVar1;
-  UnityEngine_LayerMask_o UVar2;
-  System_Int32_array *pSVar3;
+  uint uVar1;
+  Utility_PhysicsLayer_StaticFields *pUVar2;
+  Cameras_CameraOcclusion_StaticFields *pCVar3;
+  int32_t iVar4;
+  UnityEngine_LayerMask_o UVar5;
+  System_Int32_array *pSVar6;
   System_Collections_Generic_Dictionary_string__string__o *__this;
   System_Collections_Generic_Dictionary_Collider__Renderer____o *__this_00;
   System_Collections_Generic_HashSet_Collider__o *__this_01;
@@ -2670,10 +2891,10 @@ void Cameras_CameraOcclusion___cctor(MethodInfo *method)
   System_Collections_Generic_List_Renderer__o *__this_07;
   System_Collections_Generic_List_Material__o *__this_08;
   System_Collections_Generic_HashSet_Material__o *__this_09;
-  UnityEngine_Collider_array *value;
-  UnityEngine_RaycastHit_array *value_00;
+  UnityEngine_Collider_array *pUVar7;
+  UnityEngine_RaycastHit_array *pUVar8;
   
-  if (Il2CppMethodInitialized_184347689 == '\0') {
+  if (Il2CppMethodInitialized_07548206 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Cameras_CameraOcclusion);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Collider_array);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2724,170 +2945,177 @@ void Cameras_CameraOcclusion___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"_CameraOcclusionRadius");
     il2cpp_codegen_initialize_runtime_metadata(&"AoTTG/Camera Occlusion/Lit");
     il2cpp_codegen_initialize_runtime_metadata(&"AoTTG/Camera Occlusion/Simple Lit");
-    Il2CppMethodInitialized_184347689 = '\x01';
+    Il2CppMethodInitialized_07548206 = '\x01';
   }
-  iVar1 = UnityEngine_Shader__PropertyToID("_CameraOcclusionStart",(MethodInfo *)0x0);
-  TypeInfo_Cameras_CameraOcclusion->static_fields->StartId = iVar1;
-  iVar1 = UnityEngine_Shader__PropertyToID("_CameraOcclusionEnd",(MethodInfo *)0x0);
-  TypeInfo_Cameras_CameraOcclusion->static_fields->EndId = iVar1;
-  iVar1 = UnityEngine_Shader__PropertyToID("_CameraOcclusionRadius",(MethodInfo *)0x0);
-  TypeInfo_Cameras_CameraOcclusion->static_fields->RadiusId = iVar1;
-  iVar1 = UnityEngine_Shader__PropertyToID("_CameraOcclusionGroundPlane",(MethodInfo *)0x0);
-  TypeInfo_Cameras_CameraOcclusion->static_fields->GroundPlaneId = iVar1;
-  pSVar3 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,7);
+  iVar4 = UnityEngine_Shader__PropertyToID("_CameraOcclusionStart",(MethodInfo *)0x0);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->StartId = iVar4;
+  iVar4 = UnityEngine_Shader__PropertyToID("_CameraOcclusionEnd",(MethodInfo *)0x0);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->EndId = iVar4;
+  iVar4 = UnityEngine_Shader__PropertyToID("_CameraOcclusionRadius",(MethodInfo *)0x0);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->RadiusId = iVar4;
+  iVar4 = UnityEngine_Shader__PropertyToID("_CameraOcclusionGroundPlane",(MethodInfo *)0x0);
+  TypeInfo_Cameras_CameraOcclusion->static_fields->GroundPlaneId = iVar4;
+  pSVar6 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,7);
   if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
   }
-  if (pSVar3 != (System_Int32_array *)0x0) {
-    if ((((((int)pSVar3->max_length == 0) ||
-          (pSVar3->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
-          (uint)pSVar3->max_length < 2)) ||
-         (pSVar3->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
-         (uint)pSVar3->max_length < 3)) ||
-        ((pSVar3->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters,
-         (uint)pSVar3->max_length < 4 ||
-         (pSVar3->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans,
-         (uint)pSVar3->max_length < 5)))) ||
-       ((pSVar3->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans,
-        (uint)pSVar3->max_length < 6 ||
-        (pSVar3->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectProjectiles,
-        (uint)pSVar3->max_length < 7)))) {
-label_1822eea24:
-      ThrowIndexOutOfRangeException();
-    }
-    pSVar3->m_Items[6] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects;
-    UVar2 = Utility_PhysicsLayer__GetMask(pSVar3,(MethodInfo *)0x0);
-    UVar2 = UnityEngine_LayerMask__op_Implicit((int32_t)UVar2.fields.m_Mask,(MethodInfo *)0x0);
-    TypeInfo_Cameras_CameraOcclusion->static_fields->MapMask = (int32_t)UVar2.fields.m_Mask;
-    pSVar3 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,4);
-    if (pSVar3 != (System_Int32_array *)0x0) {
-      if ((((int)pSVar3->max_length == 0) ||
-          (pSVar3->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
-          (uint)pSVar3->max_length < 2)) ||
-         ((pSVar3->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
-          (uint)pSVar3->max_length < 3 ||
-          (pSVar3->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters,
-          (uint)pSVar3->max_length < 4)))) goto label_1822eea24;
-      pSVar3->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans;
-      UVar2 = Utility_PhysicsLayer__GetMask(pSVar3,(MethodInfo *)0x0);
-      UVar2 = UnityEngine_LayerMask__op_Implicit((int32_t)UVar2.fields.m_Mask,(MethodInfo *)0x0);
-      TypeInfo_Cameras_CameraOcclusion->static_fields->GroundMask = (int32_t)UVar2.fields.m_Mask;
-      __this = il2cpp_codegen_object_new
-                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
-      System_Collections_Generic_Dictionary_object__object____ctor
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-                 (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
-      if (__this != (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
-        System_Collections_Generic_Dictionary_object__object___Add
-                  ((System_Collections_Generic_Dictionary_object__object__o *)__this,
-                   (Il2CppObject *)"Universal Render Pipeline/Lit",(Il2CppObject *)"AoTTG/Camera Occlusion/Lit",
-                   (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
-        System_Collections_Generic_Dictionary_object__object___Add
-                  ((System_Collections_Generic_Dictionary_object__object__o *)__this,
-                   (Il2CppObject *)"Universal Render Pipeline/Simple Lit",(Il2CppObject *)"AoTTG/Camera Occlusion/Simple Lit",
-                   (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->ShaderReplacements = __this;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->ShaderReplacements,__this)
-        ;
-        __this_00 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array);
-        System_Collections_Generic_Dictionary_object__object____ctor
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                   (MethodInfo_1454140 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers = __this_00;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Cameras_CameraOcclusion->static_fields->ColliderRenderers,__this_00);
-        __this_01 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Collider);
-        System_Collections_Generic_HashSet_object____ctor
-                  ((System_Collections_Generic_HashSet_object__o *)__this_01,
-                   (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_Collider_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders = __this_01;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->StaticColliders,__this_01)
-        ;
-        __this_02 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Renderer_Renderer
-                              );
-        System_Collections_Generic_Dictionary_object__object____ctor
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                   (MethodInfo_1454140 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers = __this_02;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Cameras_CameraOcclusion->static_fields->CombinedRenderers,__this_02);
-        __this_03 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)__this_03,
-                   (MethodInfo_92A240 *)
-                   MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids = __this_03;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->FallbackGrids,__this_03);
-        __this_04 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Renderer);
-        System_Collections_Generic_HashSet_object____ctor
-                  ((System_Collections_Generic_HashSet_object__o *)__this_04,
-                   (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates = __this_04;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->Candidates,__this_04);
-        __this_05 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Material_Material
-                              );
-        System_Collections_Generic_Dictionary_object__object____ctor
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_05,
-                   (MethodInfo_1454140 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Material_Material_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies = __this_05;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->MaterialCopies,__this_05);
-        __this_06 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride
-                              );
-        System_Collections_Generic_Dictionary_object__object____ctor
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_06,
-                   (MethodInfo_1454140 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_ctor
-                  );
-        TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides = __this_06;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->Overrides,__this_06);
-        __this_07 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Renderer);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)__this_07,
-                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Renderer_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers = __this_07;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Cameras_CameraOcclusion->static_fields->AppliedRenderers,__this_07);
-        __this_08 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Material);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)__this_08,
-                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Material_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials = __this_08;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->SharedMaterials,__this_08)
-        ;
-        __this_09 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Material);
-        System_Collections_Generic_HashSet_object____ctor
-                  ((System_Collections_Generic_HashSet_object__o *)__this_09,
-                   (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_Material_ctor);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->UpdatedMaterials = __this_09;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Cameras_CameraOcclusion->static_fields->UpdatedMaterials,__this_09);
-        value = (UnityEngine_Collider_array *)SZArrayNew(TypeInfo_UnityEngine_Collider_array,0x80);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders = value;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->_colliders,value);
-        value_00 = (UnityEngine_RaycastHit_array *)SZArrayNew(TypeInfo_UnityEngine_RaycastHit_array,0x10);
-        TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits = value_00;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_Cameras_CameraOcclusion->static_fields->_groundHits,value_00);
-        return;
+  if (pSVar6 == (System_Int32_array *)0x0) goto label_05dcf67b;
+  uVar1 = (uint)pSVar6->max_length;
+  if (uVar1 != 0) {
+    pUVar2 = TypeInfo_Utility_PhysicsLayer->static_fields;
+    pSVar6->m_Items[0] = pUVar2->MapObjectAll;
+    if (((((uVar1 != 1) && (pSVar6->m_Items[1] = pUVar2->MapObjectEntities, 2 < uVar1)) &&
+         (pSVar6->m_Items[2] = pUVar2->MapObjectCharacters, uVar1 != 3)) &&
+        ((pSVar6->m_Items[3] = pUVar2->MapObjectTitans, 4 < uVar1 &&
+         (pSVar6->m_Items[4] = pUVar2->MapObjectHumans, uVar1 != 5)))) &&
+       (pSVar6->m_Items[5] = pUVar2->MapObjectProjectiles, 6 < uVar1)) {
+      pSVar6->m_Items[6] = pUVar2->MapObjectMapObjects;
+      UVar5 = Utility_PhysicsLayer__GetMask(pSVar6,(MethodInfo *)0x0);
+      iVar4 = UnityEngine_LayerMask__op_Implicit(UVar5,(MethodInfo *)0x0);
+      TypeInfo_Cameras_CameraOcclusion->static_fields->MapMask = iVar4;
+      pSVar6 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,4);
+      if (pSVar6 == (System_Int32_array *)0x0) {
+label_05dcf67b:
+        ThrowNullReferenceException();
+      }
+      uVar1 = (uint)pSVar6->max_length;
+      if (uVar1 != 0) {
+        pUVar2 = TypeInfo_Utility_PhysicsLayer->static_fields;
+        pSVar6->m_Items[0] = pUVar2->MapObjectAll;
+        if (((uVar1 != 1) && (pSVar6->m_Items[1] = pUVar2->MapObjectEntities, 2 < uVar1)) &&
+           (pSVar6->m_Items[2] = pUVar2->MapObjectCharacters, uVar1 != 3)) {
+          pSVar6->m_Items[3] = pUVar2->MapObjectTitans;
+          UVar5 = Utility_PhysicsLayer__GetMask(pSVar6,(MethodInfo *)0x0);
+          iVar4 = UnityEngine_LayerMask__op_Implicit(UVar5,(MethodInfo *)0x0);
+          TypeInfo_Cameras_CameraOcclusion->static_fields->GroundMask = iVar4;
+          __this = il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+          System_Collections_Generic_Dictionary_object__object____ctor
+                    ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+                     (MethodInfo_4AAC8D0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor
+                    );
+          if (__this != (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
+            System_Collections_Generic_Dictionary_object__object___Add
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+                       (Il2CppObject *)"Universal Render Pipeline/Lit",(Il2CppObject *)"AoTTG/Camera Occlusion/Lit",
+                       (MethodInfo_4AAD4E0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
+            System_Collections_Generic_Dictionary_object__object___Add
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+                       (Il2CppObject *)"Universal Render Pipeline/Simple Lit",(Il2CppObject *)"AoTTG/Camera Occlusion/Simple Lit",
+                       (MethodInfo_4AAD4E0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->ShaderReplacements = __this;
+            Il2CppCodeGenWriteBarrier(&pCVar3->ShaderReplacements);
+            __this_00 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array);
+            System_Collections_Generic_Dictionary_object__object____ctor
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
+                       (MethodInfo_4AAC8D0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_Collider_Renderer_array_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->ColliderRenderers = __this_00;
+            Il2CppCodeGenWriteBarrier(&pCVar3->ColliderRenderers);
+            __this_01 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Collider);
+            System_Collections_Generic_HashSet_object____ctor
+                      ((System_Collections_Generic_HashSet_object__o *)__this_01,
+                       (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_Collider_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->StaticColliders = __this_01;
+            Il2CppCodeGenWriteBarrier(&pCVar3->StaticColliders);
+            __this_02 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_Dictionary_Renderer_Renderer);
+            System_Collections_Generic_Dictionary_object__object____ctor
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_02,
+                       (MethodInfo_4AAC8D0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_Renderer_Renderer_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->CombinedRenderers = __this_02;
+            Il2CppCodeGenWriteBarrier(&pCVar3->CombinedRenderers);
+            __this_03 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid);
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_List_object__o *)__this_03,
+                       (MethodInfo_395C910 *)
+                       MethodInfo_System_Collections_Generic_List_CameraOcclusion_FallbackGrid_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->FallbackGrids = __this_03;
+            Il2CppCodeGenWriteBarrier(&pCVar3->FallbackGrids);
+            __this_04 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Renderer);
+            System_Collections_Generic_HashSet_object____ctor
+                      ((System_Collections_Generic_HashSet_object__o *)__this_04,
+                       (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_Renderer_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->Candidates = __this_04;
+            Il2CppCodeGenWriteBarrier(&pCVar3->Candidates);
+            __this_05 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_Dictionary_Material_Material);
+            System_Collections_Generic_Dictionary_object__object____ctor
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_05,
+                       (MethodInfo_4AAC8D0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_Material_Material_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->MaterialCopies = __this_05;
+            Il2CppCodeGenWriteBarrier(&pCVar3->MaterialCopies);
+            __this_06 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride
+                                  );
+            System_Collections_Generic_Dictionary_object__object____ctor
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_06,
+                       (MethodInfo_4AAC8D0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_Renderer_CameraOcclusion_MaterialOverride_ctor
+                      );
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->Overrides = __this_06;
+            Il2CppCodeGenWriteBarrier(&pCVar3->Overrides);
+            __this_07 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Renderer);
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_List_object__o *)__this_07,
+                       (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Renderer_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->AppliedRenderers = __this_07;
+            Il2CppCodeGenWriteBarrier(&pCVar3->AppliedRenderers);
+            __this_08 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Material);
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_List_object__o *)__this_08,
+                       (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Material_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->SharedMaterials = __this_08;
+            Il2CppCodeGenWriteBarrier(&pCVar3->SharedMaterials);
+            __this_09 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Material);
+            System_Collections_Generic_HashSet_object____ctor
+                      ((System_Collections_Generic_HashSet_object__o *)__this_09,
+                       (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_Material_ctor);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->UpdatedMaterials = __this_09;
+            Il2CppCodeGenWriteBarrier(&pCVar3->UpdatedMaterials);
+            pUVar7 = (UnityEngine_Collider_array *)SZArrayNew(TypeInfo_UnityEngine_Collider_array,0x80);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->_colliders = pUVar7;
+            Il2CppCodeGenWriteBarrier(&pCVar3->_colliders);
+            pUVar8 = (UnityEngine_RaycastHit_array *)SZArrayNew(TypeInfo_UnityEngine_RaycastHit_array,0x10);
+            pCVar3 = TypeInfo_Cameras_CameraOcclusion->static_fields;
+            pCVar3->_groundHits = pUVar8;
+            Il2CppCodeGenWriteBarrier(&pCVar3->_groundHits);
+            return;
+          }
+          goto label_05dcf67b;
+        }
       }
     }
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 

@@ -10,70 +10,70 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x200001A")]
 internal static class RuntimeStructs
 {
-	[Token(Token = "0x2000039")]
+	[Token(Token = "0x200001B")]
 	internal struct RemoteClass
 	{
-		[Token(Token = "0x4000113")]
+		[Token(Token = "0x4000091")]
 		[FieldOffset(Offset = "0x0")]
 		internal IntPtr default_vtable;
 
-		[Token(Token = "0x4000114")]
+		[Token(Token = "0x4000092")]
 		[FieldOffset(Offset = "0x8")]
 		internal IntPtr xdomain_vtable;
 
-		[Token(Token = "0x4000115")]
+		[Token(Token = "0x4000093")]
 		[FieldOffset(Offset = "0x10")]
 		internal unsafe MonoClass* proxy_class;
 
-		[Token(Token = "0x4000116")]
+		[Token(Token = "0x4000094")]
 		[FieldOffset(Offset = "0x18")]
 		internal IntPtr proxy_class_name;
 
-		[Token(Token = "0x4000117")]
+		[Token(Token = "0x4000095")]
 		[FieldOffset(Offset = "0x20")]
 		internal uint interface_count;
 	}
 
-	[Token(Token = "0x200003A")]
+	[Token(Token = "0x200001C")]
 	internal struct MonoClass
 	{
 	}
 
-	[Token(Token = "0x200003B")]
+	[Token(Token = "0x200001D")]
 	internal struct GenericParamInfo
 	{
-		[Token(Token = "0x4000118")]
+		[Token(Token = "0x4000096")]
 		[FieldOffset(Offset = "0x0")]
 		internal unsafe MonoClass* pklass;
 
-		[Token(Token = "0x4000119")]
+		[Token(Token = "0x4000097")]
 		[FieldOffset(Offset = "0x8")]
 		internal IntPtr name;
 
-		[Token(Token = "0x400011A")]
+		[Token(Token = "0x4000098")]
 		[FieldOffset(Offset = "0x10")]
 		internal ushort flags;
 
-		[Token(Token = "0x400011B")]
+		[Token(Token = "0x4000099")]
 		[FieldOffset(Offset = "0x14")]
 		internal uint token;
 
-		[Token(Token = "0x400011C")]
+		[Token(Token = "0x400009A")]
 		[FieldOffset(Offset = "0x18")]
 		internal unsafe MonoClass** constraints;
 	}
 
-	[Token(Token = "0x200003C")]
+	[Token(Token = "0x200001E")]
 	internal struct GPtrArray
 	{
-		[Token(Token = "0x400011D")]
+		[Token(Token = "0x400009B")]
 		[FieldOffset(Offset = "0x0")]
 		internal unsafe IntPtr* data;
 
-		[Token(Token = "0x400011E")]
+		[Token(Token = "0x400009C")]
 		[FieldOffset(Offset = "0x8")]
 		internal int len;
 	}

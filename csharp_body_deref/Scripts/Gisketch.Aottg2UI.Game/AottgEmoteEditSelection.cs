@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002A3")]
+[Token(Token = "0x2000300")]
 internal static class AottgEmoteEditSelection
 {
-	[Token(Token = "0x4000DBA")]
+	[Token(Token = "0x4000F4F")]
 	[FieldOffset(Offset = "0x0")]
 	public static int TextIndex;
 
-	[Token(Token = "0x4000DBB")]
+	[Token(Token = "0x4000F50")]
 	[FieldOffset(Offset = "0x4")]
 	public static int StickerIndex;
 }

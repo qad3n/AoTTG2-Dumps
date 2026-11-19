@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Metadata;
 
-[Token(Token = "0x20003BF")]
-[ComVisible(true)]
+[Token(Token = "0x2000398")]
 [AttributeUsage(AttributeTargets.Field)]
+[ComVisible(true)]
 public sealed class SoapFieldAttribute : SoapAttribute
 {
-	[Token(Token = "0x4000F2E")]
+	[Token(Token = "0x4000E8E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string _elementName;
 
-	[Token(Token = "0x4000F2F")]
+	[Token(Token = "0x4000E8F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private bool _isElement;
 
-	[Token(Token = "0x1700038C")]
+	[Token(Token = "0x1700038B")]
 	public string XmlElementName
 	{
-		[Token(Token = "0x6001E40")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001E16")]
+		[Address(RVA = "0x538C110", Offset = "0x538B110", VA = "0x538C110")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001E3F")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001E15")]
+	[Address(RVA = "0x538C100", Offset = "0x538B100", VA = "0x538C100")]
 	public SoapFieldAttribute()
 	{
 	}
 
-	[Token(Token = "0x6001E41")]
-	[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+	[Token(Token = "0x6001E17")]
+	[Address(RVA = "0x538C120", Offset = "0x538B120", VA = "0x538C120")]
 	public bool IsInteropXmlElement()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001E42")]
-	[Address(RVA = "0x1A08AE0", Offset = "0x1A070E0", VA = "0x181A08AE0", Slot = "9")]
+	[Token(Token = "0x6001E18")]
+	[Address(RVA = "0x538C130", Offset = "0x538B130", VA = "0x538C130", Slot = "9")]
 	internal override void SetReflectionObject(object reflectionObject)
 	{
 	}

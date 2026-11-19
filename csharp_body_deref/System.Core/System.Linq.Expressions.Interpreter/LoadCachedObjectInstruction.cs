@@ -10,57 +10,57 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200021D")]
+[Token(Token = "0x200021E")]
 internal sealed class LoadCachedObjectInstruction : Instruction
 {
-	[Token(Token = "0x40003F7")]
+	[Token(Token = "0x4000400")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly uint _index;
 
-	[Token(Token = "0x17000228")]
+	[Token(Token = "0x1700022A")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000AAE")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000AB9")]
+		[Address(RVA = "0x5E17730", Offset = "0x5E16730", VA = "0x5E17730", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000229")]
+	[Token(Token = "0x1700022B")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000AAF")]
-		[Address(RVA = "0x2472830", Offset = "0x2470E30", VA = "0x182472830", Slot = "9")]
+		[Token(Token = "0x6000ABA")]
+		[Address(RVA = "0x5E17740", Offset = "0x5E16740", VA = "0x5E17740", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000AB8")]
+	[Address(RVA = "0x5E17710", Offset = "0x5E16710", VA = "0x5E17710")]
 	internal LoadCachedObjectInstruction(uint index)
 	{
 	}
 
-	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0x24725F0", Offset = "0x2470BF0", VA = "0x1824725F0", Slot = "8")]
+	[Token(Token = "0x6000ABB")]
+	[Address(RVA = "0x5E17770", Offset = "0x5E16770", VA = "0x5E17770", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x24726A0", Offset = "0x2470CA0", VA = "0x1824726A0", Slot = "10")]
+	[Token(Token = "0x6000ABC")]
+	[Address(RVA = "0x5E17810", Offset = "0x5E16810", VA = "0x5E17810", Slot = "10")]
 	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0x24727D0", Offset = "0x2470DD0", VA = "0x1824727D0", Slot = "3")]
+	[Token(Token = "0x6000ABD")]
+	[Address(RVA = "0x5E17940", Offset = "0x5E16940", VA = "0x5E17940", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

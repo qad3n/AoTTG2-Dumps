@@ -33,13 +33,13 @@ public class MicrophonePermission : VoiceComponent
 	public bool HasPermission
 	{
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x5739F30", Offset = "0x5738F30", VA = "0x5739F30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x1D8A340", Offset = "0x1D88940", VA = "0x181D8A340")]
+		[Address(RVA = "0x5739F40", Offset = "0x5738F40", VA = "0x5739F40")]
 		private set
 		{
 		}
@@ -49,13 +49,13 @@ public class MicrophonePermission : VoiceComponent
 	public static event Action<bool> MicrophonePermissionCallback
 	{
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x1D8A1A0", Offset = "0x1D887A0", VA = "0x181D8A1A0")]
+		[Address(RVA = "0x5739D90", Offset = "0x5738D90", VA = "0x5739D90")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x1D8A270", Offset = "0x1D88870", VA = "0x181D8A270")]
+		[Address(RVA = "0x5739E60", Offset = "0x5738E60", VA = "0x5739E60")]
 		[CompilerGenerated]
 		remove
 		{
@@ -63,19 +63,19 @@ public class MicrophonePermission : VoiceComponent
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x1D8A0E0", Offset = "0x1D886E0", VA = "0x181D8A0E0", Slot = "4")]
+	[Address(RVA = "0x573A360", Offset = "0x5739360", VA = "0x573A360", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x1D8A120", Offset = "0x1D88720", VA = "0x181D8A120")]
+	[Address(RVA = "0x573A390", Offset = "0x5739390", VA = "0x573A390")]
 	public void InitVoice()
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x1D8A130", Offset = "0x1D88730", VA = "0x181D8A130")]
+	[Address(RVA = "0x573A3A0", Offset = "0x57393A0", VA = "0x573A3A0")]
 	public MicrophonePermission()
 	{
 	}

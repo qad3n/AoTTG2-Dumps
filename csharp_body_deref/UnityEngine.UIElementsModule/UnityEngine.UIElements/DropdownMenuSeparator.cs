@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DropdownMenuSeparator
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ public class DropdownMenuSeparator : DropdownMenuItem
 	public string subMenuPath
 	{
 		[Token(Token = "0x6000BA3")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6C5C5D0", Offset = "0x6C5B5D0", VA = "0x6C5C5D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,7 +26,7 @@ public class DropdownMenuSeparator : DropdownMenuItem
 	}
 
 	[Token(Token = "0x6000BA4")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x6C5C5E0", Offset = "0x6C5B5E0", VA = "0x6C5C5E0")]
 	public DropdownMenuSeparator(string subMenuPath)
 	{
 	}

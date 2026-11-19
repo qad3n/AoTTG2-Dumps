@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005CF")]
+[Token(Token = "0x20005AA")]
 public interface IDictionaryEnumerator : IEnumerator
 {
-	[Token(Token = "0x170006B4")]
+	[Token(Token = "0x170006B5")]
 	object Key
 	{
-		[Token(Token = "0x6002BD1")]
-		get;
-	}
-
-	[Token(Token = "0x170006B5")]
-	object Value
-	{
-		[Token(Token = "0x6002BD2")]
+		[Token(Token = "0x6002BB0")]
 		get;
 	}
 
 	[Token(Token = "0x170006B6")]
+	object Value
+	{
+		[Token(Token = "0x6002BB1")]
+		get;
+	}
+
+	[Token(Token = "0x170006B7")]
 	DictionaryEntry Entry
 	{
-		[Token(Token = "0x6002BD3")]
+		[Token(Token = "0x6002BB2")]
 		get;
 	}
 }

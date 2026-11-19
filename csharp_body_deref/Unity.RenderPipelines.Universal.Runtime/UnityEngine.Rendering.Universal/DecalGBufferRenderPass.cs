@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalGBufferRenderPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,14 +39,14 @@ internal class DecalGBufferRenderPass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x661C560", Offset = "0x661B560", VA = "0x661C560")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x40002E8")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x40002E9")]
@@ -70,37 +70,37 @@ internal class DecalGBufferRenderPass : ScriptableRenderPass
 	private bool m_DecalLayers;
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x2C24030", Offset = "0x2C22630", VA = "0x182C24030")]
+	[Address(RVA = "0x661AD60", Offset = "0x6619D60", VA = "0x661AD60")]
 	public DecalGBufferRenderPass(DecalScreenSpaceSettings settings, DecalDrawGBufferSystem drawSystem, bool decalLayers)
 	{
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x58A900", Offset = "0x588F00", VA = "0x18058A900")]
+	[Address(RVA = "0x661B010", Offset = "0x661A010", VA = "0x661B010")]
 	internal void Setup(DeferredLights deferredLights)
 	{
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x2C230F0", Offset = "0x2C216F0", VA = "0x182C230F0")]
+	[Address(RVA = "0x661B030", Offset = "0x661A030", VA = "0x661B030")]
 	private void InitPassData(UniversalCameraData cameraData, ref PassData passData)
 	{
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x2C22F70", Offset = "0x2C21570", VA = "0x182C22F70")]
+	[Address(RVA = "0x661B0B0", Offset = "0x661A0B0", VA = "0x661B0B0")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x2C23280", Offset = "0x2C21880", VA = "0x182C23280", Slot = "11")]
+	[Address(RVA = "0x661B1F0", Offset = "0x661A1F0", VA = "0x661B1F0", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x2C23180", Offset = "0x2C21780", VA = "0x182C23180", Slot = "10")]
+	[Address(RVA = "0x661C470", Offset = "0x661B470", VA = "0x661C470", Slot = "10")]
 	public override void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000401")]
+[Token(Token = "0x20003DA")]
 public interface ISurrogateSelector
 {
-	[Token(Token = "0x6001FB4")]
+	[Token(Token = "0x6001F8A")]
 	ISerializationSurrogate GetSurrogate(Type type, StreamingContext context, out ISurrogateSelector selector);
 }

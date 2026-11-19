@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class NoInterpVector4Parameter : VolumeParameter<Vector4>
 {
 	[Token(Token = "0x6000F58")]
-	[Address(RVA = "0x2B5FD60", Offset = "0x2B5E360", VA = "0x182B5FD60")]
+	[Address(RVA = "0x6556290", Offset = "0x6555290", VA = "0x6556290")]
 	public NoInterpVector4Parameter(Vector4 value, bool overrideState = false)
 	{
 	}

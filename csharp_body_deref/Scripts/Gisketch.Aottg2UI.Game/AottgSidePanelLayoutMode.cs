@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002FA")]
+[Token(Token = "0x2000358")]
 public enum AottgSidePanelLayoutMode
 {
-	[Token(Token = "0x4000F34")]
+	[Token(Token = "0x40010C8")]
 	Scroll,
-	[Token(Token = "0x4000F35")]
+	[Token(Token = "0x40010C9")]
 	Separate
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200028E")]
+[Token(Token = "0x200028F")]
 public enum LockRecursionPolicy
 {
-	[Token(Token = "0x40004C1")]
+	[Token(Token = "0x40004CA")]
 	NoRecursion,
-	[Token(Token = "0x40004C2")]
+	[Token(Token = "0x40004CB")]
 	SupportsRecursion
 }

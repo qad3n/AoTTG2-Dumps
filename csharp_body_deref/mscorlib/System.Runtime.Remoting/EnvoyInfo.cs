@@ -11,26 +11,26 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting;
 
 [Serializable]
-[Token(Token = "0x200036C")]
+[Token(Token = "0x2000345")]
 internal class EnvoyInfo : IEnvoyInfo
 {
-	[Token(Token = "0x4000E7D")]
+	[Token(Token = "0x4000DDD")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink envoySinks;
 
-	[Token(Token = "0x1700032F")]
+	[Token(Token = "0x1700032E")]
 	public IMessageSink EnvoySinks
 	{
-		[Token(Token = "0x6001C88")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Token(Token = "0x6001C5E")]
+		[Address(RVA = "0x5369040", Offset = "0x5368040", VA = "0x5369040", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001C87")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6001C5D")]
+	[Address(RVA = "0x5369010", Offset = "0x5368010", VA = "0x5369010")]
 	public EnvoyInfo(IMessageSink sinks)
 	{
 	}

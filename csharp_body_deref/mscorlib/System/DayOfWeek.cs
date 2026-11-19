@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000CD")]
+[Token(Token = "0x20000A5")]
 public enum DayOfWeek
 {
-	[Token(Token = "0x40002F5")]
+	[Token(Token = "0x4000250")]
 	Sunday,
-	[Token(Token = "0x40002F6")]
+	[Token(Token = "0x4000251")]
 	Monday,
-	[Token(Token = "0x40002F7")]
+	[Token(Token = "0x4000252")]
 	Tuesday,
-	[Token(Token = "0x40002F8")]
+	[Token(Token = "0x4000253")]
 	Wednesday,
-	[Token(Token = "0x40002F9")]
+	[Token(Token = "0x4000254")]
 	Thursday,
-	[Token(Token = "0x40002FA")]
+	[Token(Token = "0x4000255")]
 	Friday,
-	[Token(Token = "0x40002FB")]
+	[Token(Token = "0x4000256")]
 	Saturday
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.InitialStyle
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ internal static class InitialStyle
 	public static Align alignContent
 	{
 		[Token(Token = "0x6002CC4")]
-		[Address(RVA = "0x31B9E90", Offset = "0x31B8490", VA = "0x1831B9E90")]
+		[Address(RVA = "0x6BC6DE0", Offset = "0x6BC5DE0", VA = "0x6BC6DE0")]
 		get
 		{
 			return default(Align);
@@ -32,7 +32,7 @@ internal static class InitialStyle
 	public static Align alignItems
 	{
 		[Token(Token = "0x6002CC5")]
-		[Address(RVA = "0x31B9F00", Offset = "0x31B8500", VA = "0x1831B9F00")]
+		[Address(RVA = "0x6BC6E50", Offset = "0x6BC5E50", VA = "0x6BC6E50")]
 		get
 		{
 			return default(Align);
@@ -43,7 +43,7 @@ internal static class InitialStyle
 	public static Align alignSelf
 	{
 		[Token(Token = "0x6002CC6")]
-		[Address(RVA = "0x31B9F70", Offset = "0x31B8570", VA = "0x1831B9F70")]
+		[Address(RVA = "0x6BC6EC0", Offset = "0x6BC5EC0", VA = "0x6BC6EC0")]
 		get
 		{
 			return default(Align);
@@ -54,7 +54,7 @@ internal static class InitialStyle
 	public static Ratio aspectRatio
 	{
 		[Token(Token = "0x6002CC7")]
-		[Address(RVA = "0x31B9FE0", Offset = "0x31B85E0", VA = "0x1831B9FE0")]
+		[Address(RVA = "0x6BC6F30", Offset = "0x6BC5F30", VA = "0x6BC6F30")]
 		get
 		{
 			return default(Ratio);
@@ -65,7 +65,7 @@ internal static class InitialStyle
 	public static Color backgroundColor
 	{
 		[Token(Token = "0x6002CC8")]
-		[Address(RVA = "0x31BA050", Offset = "0x31B8650", VA = "0x1831BA050")]
+		[Address(RVA = "0x6BC6FA0", Offset = "0x6BC5FA0", VA = "0x6BC6FA0")]
 		get
 		{
 			return default(Color);
@@ -76,7 +76,7 @@ internal static class InitialStyle
 	public static Background backgroundImage
 	{
 		[Token(Token = "0x6002CC9")]
-		[Address(RVA = "0x31BA0D0", Offset = "0x31B86D0", VA = "0x1831BA0D0")]
+		[Address(RVA = "0x6BC7010", Offset = "0x6BC6010", VA = "0x6BC7010")]
 		get
 		{
 			return default(Background);
@@ -87,7 +87,7 @@ internal static class InitialStyle
 	public static BackgroundPosition backgroundPositionX
 	{
 		[Token(Token = "0x6002CCA")]
-		[Address(RVA = "0x31BA150", Offset = "0x31B8750", VA = "0x1831BA150")]
+		[Address(RVA = "0x6BC7090", Offset = "0x6BC6090", VA = "0x6BC7090")]
 		get
 		{
 			return default(BackgroundPosition);
@@ -98,7 +98,7 @@ internal static class InitialStyle
 	public static BackgroundPosition backgroundPositionY
 	{
 		[Token(Token = "0x6002CCB")]
-		[Address(RVA = "0x31BA1D0", Offset = "0x31B87D0", VA = "0x1831BA1D0")]
+		[Address(RVA = "0x6BC7100", Offset = "0x6BC6100", VA = "0x6BC7100")]
 		get
 		{
 			return default(BackgroundPosition);
@@ -109,7 +109,7 @@ internal static class InitialStyle
 	public static BackgroundRepeat backgroundRepeat
 	{
 		[Token(Token = "0x6002CCC")]
-		[Address(RVA = "0x31BA250", Offset = "0x31B8850", VA = "0x1831BA250")]
+		[Address(RVA = "0x6BC7170", Offset = "0x6BC6170", VA = "0x6BC7170")]
 		get
 		{
 			return default(BackgroundRepeat);
@@ -120,7 +120,7 @@ internal static class InitialStyle
 	public static BackgroundSize backgroundSize
 	{
 		[Token(Token = "0x6002CCD")]
-		[Address(RVA = "0x31BA2C0", Offset = "0x31B88C0", VA = "0x1831BA2C0")]
+		[Address(RVA = "0x6BC71E0", Offset = "0x6BC61E0", VA = "0x6BC71E0")]
 		get
 		{
 			return default(BackgroundSize);
@@ -131,7 +131,7 @@ internal static class InitialStyle
 	public static Color borderBottomColor
 	{
 		[Token(Token = "0x6002CCE")]
-		[Address(RVA = "0x31BA340", Offset = "0x31B8940", VA = "0x1831BA340")]
+		[Address(RVA = "0x6BC7260", Offset = "0x6BC6260", VA = "0x6BC7260")]
 		get
 		{
 			return default(Color);
@@ -142,7 +142,7 @@ internal static class InitialStyle
 	public static Length borderBottomLeftRadius
 	{
 		[Token(Token = "0x6002CCF")]
-		[Address(RVA = "0x31BA3C0", Offset = "0x31B89C0", VA = "0x1831BA3C0")]
+		[Address(RVA = "0x6BC72D0", Offset = "0x6BC62D0", VA = "0x6BC72D0")]
 		get
 		{
 			return default(Length);
@@ -153,7 +153,7 @@ internal static class InitialStyle
 	public static Length borderBottomRightRadius
 	{
 		[Token(Token = "0x6002CD0")]
-		[Address(RVA = "0x31BA430", Offset = "0x31B8A30", VA = "0x1831BA430")]
+		[Address(RVA = "0x6BC7340", Offset = "0x6BC6340", VA = "0x6BC7340")]
 		get
 		{
 			return default(Length);
@@ -164,7 +164,7 @@ internal static class InitialStyle
 	public static float borderBottomWidth
 	{
 		[Token(Token = "0x6002CD1")]
-		[Address(RVA = "0x31BA4A0", Offset = "0x31B8AA0", VA = "0x1831BA4A0")]
+		[Address(RVA = "0x6BC73B0", Offset = "0x6BC63B0", VA = "0x6BC73B0")]
 		get
 		{
 			return default(float);
@@ -175,7 +175,7 @@ internal static class InitialStyle
 	public static Color borderLeftColor
 	{
 		[Token(Token = "0x6002CD2")]
-		[Address(RVA = "0x31BA510", Offset = "0x31B8B10", VA = "0x1831BA510")]
+		[Address(RVA = "0x6BC7420", Offset = "0x6BC6420", VA = "0x6BC7420")]
 		get
 		{
 			return default(Color);
@@ -186,7 +186,7 @@ internal static class InitialStyle
 	public static float borderLeftWidth
 	{
 		[Token(Token = "0x6002CD3")]
-		[Address(RVA = "0x31BA590", Offset = "0x31B8B90", VA = "0x1831BA590")]
+		[Address(RVA = "0x6BC7490", Offset = "0x6BC6490", VA = "0x6BC7490")]
 		get
 		{
 			return default(float);
@@ -197,7 +197,7 @@ internal static class InitialStyle
 	public static Color borderRightColor
 	{
 		[Token(Token = "0x6002CD4")]
-		[Address(RVA = "0x31BA600", Offset = "0x31B8C00", VA = "0x1831BA600")]
+		[Address(RVA = "0x6BC7500", Offset = "0x6BC6500", VA = "0x6BC7500")]
 		get
 		{
 			return default(Color);
@@ -208,7 +208,7 @@ internal static class InitialStyle
 	public static float borderRightWidth
 	{
 		[Token(Token = "0x6002CD5")]
-		[Address(RVA = "0x31BA680", Offset = "0x31B8C80", VA = "0x1831BA680")]
+		[Address(RVA = "0x6BC7570", Offset = "0x6BC6570", VA = "0x6BC7570")]
 		get
 		{
 			return default(float);
@@ -219,7 +219,7 @@ internal static class InitialStyle
 	public static Color borderTopColor
 	{
 		[Token(Token = "0x6002CD6")]
-		[Address(RVA = "0x31BA6F0", Offset = "0x31B8CF0", VA = "0x1831BA6F0")]
+		[Address(RVA = "0x6BC75E0", Offset = "0x6BC65E0", VA = "0x6BC75E0")]
 		get
 		{
 			return default(Color);
@@ -230,7 +230,7 @@ internal static class InitialStyle
 	public static Length borderTopLeftRadius
 	{
 		[Token(Token = "0x6002CD7")]
-		[Address(RVA = "0x31BA770", Offset = "0x31B8D70", VA = "0x1831BA770")]
+		[Address(RVA = "0x6BC7650", Offset = "0x6BC6650", VA = "0x6BC7650")]
 		get
 		{
 			return default(Length);
@@ -241,7 +241,7 @@ internal static class InitialStyle
 	public static Length borderTopRightRadius
 	{
 		[Token(Token = "0x6002CD8")]
-		[Address(RVA = "0x31BA7E0", Offset = "0x31B8DE0", VA = "0x1831BA7E0")]
+		[Address(RVA = "0x6BC76C0", Offset = "0x6BC66C0", VA = "0x6BC76C0")]
 		get
 		{
 			return default(Length);
@@ -252,7 +252,7 @@ internal static class InitialStyle
 	public static float borderTopWidth
 	{
 		[Token(Token = "0x6002CD9")]
-		[Address(RVA = "0x31BA850", Offset = "0x31B8E50", VA = "0x1831BA850")]
+		[Address(RVA = "0x6BC7730", Offset = "0x6BC6730", VA = "0x6BC7730")]
 		get
 		{
 			return default(float);
@@ -263,7 +263,7 @@ internal static class InitialStyle
 	public static Length bottom
 	{
 		[Token(Token = "0x6002CDA")]
-		[Address(RVA = "0x31BA8C0", Offset = "0x31B8EC0", VA = "0x1831BA8C0")]
+		[Address(RVA = "0x6BC77A0", Offset = "0x6BC67A0", VA = "0x6BC77A0")]
 		get
 		{
 			return default(Length);
@@ -274,7 +274,7 @@ internal static class InitialStyle
 	public static Color color
 	{
 		[Token(Token = "0x6002CDB")]
-		[Address(RVA = "0x31BA930", Offset = "0x31B8F30", VA = "0x1831BA930")]
+		[Address(RVA = "0x6BC7810", Offset = "0x6BC6810", VA = "0x6BC7810")]
 		get
 		{
 			return default(Color);
@@ -285,7 +285,7 @@ internal static class InitialStyle
 	public static Cursor cursor
 	{
 		[Token(Token = "0x6002CDC")]
-		[Address(RVA = "0x31BA9A0", Offset = "0x31B8FA0", VA = "0x1831BA9A0")]
+		[Address(RVA = "0x6BC7880", Offset = "0x6BC6880", VA = "0x6BC7880")]
 		get
 		{
 			return default(Cursor);
@@ -296,7 +296,7 @@ internal static class InitialStyle
 	public static DisplayStyle display
 	{
 		[Token(Token = "0x6002CDD")]
-		[Address(RVA = "0x31BAA20", Offset = "0x31B9020", VA = "0x1831BAA20")]
+		[Address(RVA = "0x6BC7900", Offset = "0x6BC6900", VA = "0x6BC7900")]
 		get
 		{
 			return default(DisplayStyle);
@@ -307,7 +307,7 @@ internal static class InitialStyle
 	public static List<FilterFunction> filter
 	{
 		[Token(Token = "0x6002CDE")]
-		[Address(RVA = "0x31BAA90", Offset = "0x31B9090", VA = "0x1831BAA90")]
+		[Address(RVA = "0x6BC7970", Offset = "0x6BC6970", VA = "0x6BC7970")]
 		get
 		{
 			return null;
@@ -318,7 +318,7 @@ internal static class InitialStyle
 	public static Length flexBasis
 	{
 		[Token(Token = "0x6002CDF")]
-		[Address(RVA = "0x31BAB00", Offset = "0x31B9100", VA = "0x1831BAB00")]
+		[Address(RVA = "0x6BC79E0", Offset = "0x6BC69E0", VA = "0x6BC79E0")]
 		get
 		{
 			return default(Length);
@@ -329,7 +329,7 @@ internal static class InitialStyle
 	public static FlexDirection flexDirection
 	{
 		[Token(Token = "0x6002CE0")]
-		[Address(RVA = "0x31BAB70", Offset = "0x31B9170", VA = "0x1831BAB70")]
+		[Address(RVA = "0x6BC7A50", Offset = "0x6BC6A50", VA = "0x6BC7A50")]
 		get
 		{
 			return default(FlexDirection);
@@ -340,7 +340,7 @@ internal static class InitialStyle
 	public static float flexGrow
 	{
 		[Token(Token = "0x6002CE1")]
-		[Address(RVA = "0x31BABE0", Offset = "0x31B91E0", VA = "0x1831BABE0")]
+		[Address(RVA = "0x6BC7AC0", Offset = "0x6BC6AC0", VA = "0x6BC7AC0")]
 		get
 		{
 			return default(float);
@@ -351,7 +351,7 @@ internal static class InitialStyle
 	public static float flexShrink
 	{
 		[Token(Token = "0x6002CE2")]
-		[Address(RVA = "0x31BAC50", Offset = "0x31B9250", VA = "0x1831BAC50")]
+		[Address(RVA = "0x6BC7B30", Offset = "0x6BC6B30", VA = "0x6BC7B30")]
 		get
 		{
 			return default(float);
@@ -362,7 +362,7 @@ internal static class InitialStyle
 	public static Wrap flexWrap
 	{
 		[Token(Token = "0x6002CE3")]
-		[Address(RVA = "0x31BACC0", Offset = "0x31B92C0", VA = "0x1831BACC0")]
+		[Address(RVA = "0x6BC7BA0", Offset = "0x6BC6BA0", VA = "0x6BC7BA0")]
 		get
 		{
 			return default(Wrap);
@@ -373,7 +373,7 @@ internal static class InitialStyle
 	public static Length fontSize
 	{
 		[Token(Token = "0x6002CE4")]
-		[Address(RVA = "0x31BAD30", Offset = "0x31B9330", VA = "0x1831BAD30")]
+		[Address(RVA = "0x6BC7C10", Offset = "0x6BC6C10", VA = "0x6BC7C10")]
 		get
 		{
 			return default(Length);
@@ -384,7 +384,7 @@ internal static class InitialStyle
 	public static Length height
 	{
 		[Token(Token = "0x6002CE5")]
-		[Address(RVA = "0x31BADA0", Offset = "0x31B93A0", VA = "0x1831BADA0")]
+		[Address(RVA = "0x6BC7C70", Offset = "0x6BC6C70", VA = "0x6BC7C70")]
 		get
 		{
 			return default(Length);
@@ -395,7 +395,7 @@ internal static class InitialStyle
 	public static Justify justifyContent
 	{
 		[Token(Token = "0x6002CE6")]
-		[Address(RVA = "0x31BAE10", Offset = "0x31B9410", VA = "0x1831BAE10")]
+		[Address(RVA = "0x6BC7CE0", Offset = "0x6BC6CE0", VA = "0x6BC7CE0")]
 		get
 		{
 			return default(Justify);
@@ -406,7 +406,7 @@ internal static class InitialStyle
 	public static Length left
 	{
 		[Token(Token = "0x6002CE7")]
-		[Address(RVA = "0x31BAE80", Offset = "0x31B9480", VA = "0x1831BAE80")]
+		[Address(RVA = "0x6BC7D50", Offset = "0x6BC6D50", VA = "0x6BC7D50")]
 		get
 		{
 			return default(Length);
@@ -417,7 +417,7 @@ internal static class InitialStyle
 	public static Length letterSpacing
 	{
 		[Token(Token = "0x6002CE8")]
-		[Address(RVA = "0x31BAEF0", Offset = "0x31B94F0", VA = "0x1831BAEF0")]
+		[Address(RVA = "0x6BC7DC0", Offset = "0x6BC6DC0", VA = "0x6BC7DC0")]
 		get
 		{
 			return default(Length);
@@ -428,7 +428,7 @@ internal static class InitialStyle
 	public static Length marginBottom
 	{
 		[Token(Token = "0x6002CE9")]
-		[Address(RVA = "0x31BAF60", Offset = "0x31B9560", VA = "0x1831BAF60")]
+		[Address(RVA = "0x6BC7E20", Offset = "0x6BC6E20", VA = "0x6BC7E20")]
 		get
 		{
 			return default(Length);
@@ -439,7 +439,7 @@ internal static class InitialStyle
 	public static Length marginLeft
 	{
 		[Token(Token = "0x6002CEA")]
-		[Address(RVA = "0x31BAFD0", Offset = "0x31B95D0", VA = "0x1831BAFD0")]
+		[Address(RVA = "0x6BC7E90", Offset = "0x6BC6E90", VA = "0x6BC7E90")]
 		get
 		{
 			return default(Length);
@@ -450,7 +450,7 @@ internal static class InitialStyle
 	public static Length marginRight
 	{
 		[Token(Token = "0x6002CEB")]
-		[Address(RVA = "0x31BB040", Offset = "0x31B9640", VA = "0x1831BB040")]
+		[Address(RVA = "0x6BC7F00", Offset = "0x6BC6F00", VA = "0x6BC7F00")]
 		get
 		{
 			return default(Length);
@@ -461,7 +461,7 @@ internal static class InitialStyle
 	public static Length marginTop
 	{
 		[Token(Token = "0x6002CEC")]
-		[Address(RVA = "0x31BB0B0", Offset = "0x31B96B0", VA = "0x1831BB0B0")]
+		[Address(RVA = "0x6BC7F70", Offset = "0x6BC6F70", VA = "0x6BC7F70")]
 		get
 		{
 			return default(Length);
@@ -472,7 +472,7 @@ internal static class InitialStyle
 	public static Length maxHeight
 	{
 		[Token(Token = "0x6002CED")]
-		[Address(RVA = "0x31BB120", Offset = "0x31B9720", VA = "0x1831BB120")]
+		[Address(RVA = "0x6BC7FE0", Offset = "0x6BC6FE0", VA = "0x6BC7FE0")]
 		get
 		{
 			return default(Length);
@@ -483,7 +483,7 @@ internal static class InitialStyle
 	public static Length maxWidth
 	{
 		[Token(Token = "0x6002CEE")]
-		[Address(RVA = "0x31BB190", Offset = "0x31B9790", VA = "0x1831BB190")]
+		[Address(RVA = "0x6BC8050", Offset = "0x6BC7050", VA = "0x6BC8050")]
 		get
 		{
 			return default(Length);
@@ -494,7 +494,7 @@ internal static class InitialStyle
 	public static Length minHeight
 	{
 		[Token(Token = "0x6002CEF")]
-		[Address(RVA = "0x31BB200", Offset = "0x31B9800", VA = "0x1831BB200")]
+		[Address(RVA = "0x6BC80C0", Offset = "0x6BC70C0", VA = "0x6BC80C0")]
 		get
 		{
 			return default(Length);
@@ -505,7 +505,7 @@ internal static class InitialStyle
 	public static Length minWidth
 	{
 		[Token(Token = "0x6002CF0")]
-		[Address(RVA = "0x31BB270", Offset = "0x31B9870", VA = "0x1831BB270")]
+		[Address(RVA = "0x6BC8130", Offset = "0x6BC7130", VA = "0x6BC8130")]
 		get
 		{
 			return default(Length);
@@ -516,7 +516,7 @@ internal static class InitialStyle
 	public static float opacity
 	{
 		[Token(Token = "0x6002CF1")]
-		[Address(RVA = "0x31BB2E0", Offset = "0x31B98E0", VA = "0x1831BB2E0")]
+		[Address(RVA = "0x6BC81A0", Offset = "0x6BC71A0", VA = "0x6BC81A0")]
 		get
 		{
 			return default(float);
@@ -527,7 +527,7 @@ internal static class InitialStyle
 	public static OverflowInternal overflow
 	{
 		[Token(Token = "0x6002CF2")]
-		[Address(RVA = "0x31BB350", Offset = "0x31B9950", VA = "0x1831BB350")]
+		[Address(RVA = "0x6BC8210", Offset = "0x6BC7210", VA = "0x6BC8210")]
 		get
 		{
 			return default(OverflowInternal);
@@ -538,7 +538,7 @@ internal static class InitialStyle
 	public static Length paddingBottom
 	{
 		[Token(Token = "0x6002CF3")]
-		[Address(RVA = "0x31BB3C0", Offset = "0x31B99C0", VA = "0x1831BB3C0")]
+		[Address(RVA = "0x6BC8280", Offset = "0x6BC7280", VA = "0x6BC8280")]
 		get
 		{
 			return default(Length);
@@ -549,7 +549,7 @@ internal static class InitialStyle
 	public static Length paddingLeft
 	{
 		[Token(Token = "0x6002CF4")]
-		[Address(RVA = "0x31BB430", Offset = "0x31B9A30", VA = "0x1831BB430")]
+		[Address(RVA = "0x6BC82F0", Offset = "0x6BC72F0", VA = "0x6BC82F0")]
 		get
 		{
 			return default(Length);
@@ -560,7 +560,7 @@ internal static class InitialStyle
 	public static Length paddingRight
 	{
 		[Token(Token = "0x6002CF5")]
-		[Address(RVA = "0x31BB4A0", Offset = "0x31B9AA0", VA = "0x1831BB4A0")]
+		[Address(RVA = "0x6BC8360", Offset = "0x6BC7360", VA = "0x6BC8360")]
 		get
 		{
 			return default(Length);
@@ -571,7 +571,7 @@ internal static class InitialStyle
 	public static Length paddingTop
 	{
 		[Token(Token = "0x6002CF6")]
-		[Address(RVA = "0x31BB510", Offset = "0x31B9B10", VA = "0x1831BB510")]
+		[Address(RVA = "0x6BC83D0", Offset = "0x6BC73D0", VA = "0x6BC83D0")]
 		get
 		{
 			return default(Length);
@@ -582,7 +582,7 @@ internal static class InitialStyle
 	public static Position position
 	{
 		[Token(Token = "0x6002CF7")]
-		[Address(RVA = "0x31BB580", Offset = "0x31B9B80", VA = "0x1831BB580")]
+		[Address(RVA = "0x6BC8440", Offset = "0x6BC7440", VA = "0x6BC8440")]
 		get
 		{
 			return default(Position);
@@ -593,7 +593,7 @@ internal static class InitialStyle
 	public static Length right
 	{
 		[Token(Token = "0x6002CF8")]
-		[Address(RVA = "0x31BB5F0", Offset = "0x31B9BF0", VA = "0x1831BB5F0")]
+		[Address(RVA = "0x6BC84B0", Offset = "0x6BC74B0", VA = "0x6BC84B0")]
 		get
 		{
 			return default(Length);
@@ -604,7 +604,7 @@ internal static class InitialStyle
 	public static Rotate rotate
 	{
 		[Token(Token = "0x6002CF9")]
-		[Address(RVA = "0x31BB660", Offset = "0x31B9C60", VA = "0x1831BB660")]
+		[Address(RVA = "0x6BC8520", Offset = "0x6BC7520", VA = "0x6BC8520")]
 		get
 		{
 			return default(Rotate);
@@ -615,7 +615,7 @@ internal static class InitialStyle
 	public static Scale scale
 	{
 		[Token(Token = "0x6002CFA")]
-		[Address(RVA = "0x31BB6E0", Offset = "0x31B9CE0", VA = "0x1831BB6E0")]
+		[Address(RVA = "0x6BC85A0", Offset = "0x6BC75A0", VA = "0x6BC85A0")]
 		get
 		{
 			return default(Scale);
@@ -626,7 +626,7 @@ internal static class InitialStyle
 	public static TextOverflow textOverflow
 	{
 		[Token(Token = "0x6002CFB")]
-		[Address(RVA = "0x31BB760", Offset = "0x31B9D60", VA = "0x1831BB760")]
+		[Address(RVA = "0x6BC8610", Offset = "0x6BC7610", VA = "0x6BC8610")]
 		get
 		{
 			return default(TextOverflow);
@@ -637,7 +637,7 @@ internal static class InitialStyle
 	public static TextShadow textShadow
 	{
 		[Token(Token = "0x6002CFC")]
-		[Address(RVA = "0x31BB7D0", Offset = "0x31B9DD0", VA = "0x1831BB7D0")]
+		[Address(RVA = "0x6BC8680", Offset = "0x6BC7680", VA = "0x6BC8680")]
 		get
 		{
 			return default(TextShadow);
@@ -648,7 +648,7 @@ internal static class InitialStyle
 	public static Length top
 	{
 		[Token(Token = "0x6002CFD")]
-		[Address(RVA = "0x31BB850", Offset = "0x31B9E50", VA = "0x1831BB850")]
+		[Address(RVA = "0x6BC8700", Offset = "0x6BC7700", VA = "0x6BC8700")]
 		get
 		{
 			return default(Length);
@@ -659,7 +659,7 @@ internal static class InitialStyle
 	public static TransformOrigin transformOrigin
 	{
 		[Token(Token = "0x6002CFE")]
-		[Address(RVA = "0x31BB8C0", Offset = "0x31B9EC0", VA = "0x1831BB8C0")]
+		[Address(RVA = "0x6BC8770", Offset = "0x6BC7770", VA = "0x6BC8770")]
 		get
 		{
 			return default(TransformOrigin);
@@ -670,7 +670,7 @@ internal static class InitialStyle
 	public static List<TimeValue> transitionDelay
 	{
 		[Token(Token = "0x6002CFF")]
-		[Address(RVA = "0x31BB940", Offset = "0x31B9F40", VA = "0x1831BB940")]
+		[Address(RVA = "0x6BC87F0", Offset = "0x6BC77F0", VA = "0x6BC87F0")]
 		get
 		{
 			return null;
@@ -681,7 +681,7 @@ internal static class InitialStyle
 	public static List<TimeValue> transitionDuration
 	{
 		[Token(Token = "0x6002D00")]
-		[Address(RVA = "0x31BB9B0", Offset = "0x31B9FB0", VA = "0x1831BB9B0")]
+		[Address(RVA = "0x6BC8860", Offset = "0x6BC7860", VA = "0x6BC8860")]
 		get
 		{
 			return null;
@@ -692,7 +692,7 @@ internal static class InitialStyle
 	public static List<StylePropertyName> transitionProperty
 	{
 		[Token(Token = "0x6002D01")]
-		[Address(RVA = "0x31BBA20", Offset = "0x31BA020", VA = "0x1831BBA20")]
+		[Address(RVA = "0x6BC88D0", Offset = "0x6BC78D0", VA = "0x6BC88D0")]
 		get
 		{
 			return null;
@@ -703,7 +703,7 @@ internal static class InitialStyle
 	public static List<EasingFunction> transitionTimingFunction
 	{
 		[Token(Token = "0x6002D02")]
-		[Address(RVA = "0x31BBA90", Offset = "0x31BA090", VA = "0x1831BBA90")]
+		[Address(RVA = "0x6BC8940", Offset = "0x6BC7940", VA = "0x6BC8940")]
 		get
 		{
 			return null;
@@ -714,7 +714,7 @@ internal static class InitialStyle
 	public static Translate translate
 	{
 		[Token(Token = "0x6002D03")]
-		[Address(RVA = "0x31BBB00", Offset = "0x31BA100", VA = "0x1831BBB00")]
+		[Address(RVA = "0x6BC89B0", Offset = "0x6BC79B0", VA = "0x6BC89B0")]
 		get
 		{
 			return default(Translate);
@@ -725,7 +725,7 @@ internal static class InitialStyle
 	public static Color unityBackgroundImageTintColor
 	{
 		[Token(Token = "0x6002D04")]
-		[Address(RVA = "0x31BBB80", Offset = "0x31BA180", VA = "0x1831BBB80")]
+		[Address(RVA = "0x6BC8A30", Offset = "0x6BC7A30", VA = "0x6BC8A30")]
 		get
 		{
 			return default(Color);
@@ -736,7 +736,7 @@ internal static class InitialStyle
 	public static EditorTextRenderingMode unityEditorTextRenderingMode
 	{
 		[Token(Token = "0x6002D05")]
-		[Address(RVA = "0x31BBC00", Offset = "0x31BA200", VA = "0x1831BBC00")]
+		[Address(RVA = "0x6BC8AA0", Offset = "0x6BC7AA0", VA = "0x6BC8AA0")]
 		get
 		{
 			return default(EditorTextRenderingMode);
@@ -747,7 +747,7 @@ internal static class InitialStyle
 	public static Font unityFont
 	{
 		[Token(Token = "0x6002D06")]
-		[Address(RVA = "0x31BBD50", Offset = "0x31BA350", VA = "0x1831BBD50")]
+		[Address(RVA = "0x6BC8B00", Offset = "0x6BC7B00", VA = "0x6BC8B00")]
 		get
 		{
 			return null;
@@ -758,7 +758,7 @@ internal static class InitialStyle
 	public static FontDefinition unityFontDefinition
 	{
 		[Token(Token = "0x6002D07")]
-		[Address(RVA = "0x31BBC70", Offset = "0x31BA270", VA = "0x1831BBC70")]
+		[Address(RVA = "0x6BC8B60", Offset = "0x6BC7B60", VA = "0x6BC8B60")]
 		get
 		{
 			return default(FontDefinition);
@@ -769,7 +769,7 @@ internal static class InitialStyle
 	public static FontStyle unityFontStyleAndWeight
 	{
 		[Token(Token = "0x6002D08")]
-		[Address(RVA = "0x31BBCE0", Offset = "0x31BA2E0", VA = "0x1831BBCE0")]
+		[Address(RVA = "0x6BC8BD0", Offset = "0x6BC7BD0", VA = "0x6BC8BD0")]
 		get
 		{
 			return default(FontStyle);
@@ -780,7 +780,7 @@ internal static class InitialStyle
 	public static MaterialDefinition unityMaterial
 	{
 		[Token(Token = "0x6002D09")]
-		[Address(RVA = "0x31BBDC0", Offset = "0x31BA3C0", VA = "0x1831BBDC0")]
+		[Address(RVA = "0x6BC8C30", Offset = "0x6BC7C30", VA = "0x6BC8C30")]
 		get
 		{
 			return default(MaterialDefinition);
@@ -791,7 +791,7 @@ internal static class InitialStyle
 	public static OverflowClipBox unityOverflowClipBox
 	{
 		[Token(Token = "0x6002D0A")]
-		[Address(RVA = "0x31BBE30", Offset = "0x31BA430", VA = "0x1831BBE30")]
+		[Address(RVA = "0x6BC8CA0", Offset = "0x6BC7CA0", VA = "0x6BC8CA0")]
 		get
 		{
 			return default(OverflowClipBox);
@@ -802,7 +802,7 @@ internal static class InitialStyle
 	public static Length unityParagraphSpacing
 	{
 		[Token(Token = "0x6002D0B")]
-		[Address(RVA = "0x31BBEA0", Offset = "0x31BA4A0", VA = "0x1831BBEA0")]
+		[Address(RVA = "0x6BC8D10", Offset = "0x6BC7D10", VA = "0x6BC8D10")]
 		get
 		{
 			return default(Length);
@@ -813,7 +813,7 @@ internal static class InitialStyle
 	public static int unitySliceBottom
 	{
 		[Token(Token = "0x6002D0C")]
-		[Address(RVA = "0x31BBF10", Offset = "0x31BA510", VA = "0x1831BBF10")]
+		[Address(RVA = "0x6BC8D70", Offset = "0x6BC7D70", VA = "0x6BC8D70")]
 		get
 		{
 			return default(int);
@@ -824,7 +824,7 @@ internal static class InitialStyle
 	public static int unitySliceLeft
 	{
 		[Token(Token = "0x6002D0D")]
-		[Address(RVA = "0x31BBF80", Offset = "0x31BA580", VA = "0x1831BBF80")]
+		[Address(RVA = "0x6BC8DE0", Offset = "0x6BC7DE0", VA = "0x6BC8DE0")]
 		get
 		{
 			return default(int);
@@ -835,7 +835,7 @@ internal static class InitialStyle
 	public static int unitySliceRight
 	{
 		[Token(Token = "0x6002D0E")]
-		[Address(RVA = "0x31BBFF0", Offset = "0x31BA5F0", VA = "0x1831BBFF0")]
+		[Address(RVA = "0x6BC8E50", Offset = "0x6BC7E50", VA = "0x6BC8E50")]
 		get
 		{
 			return default(int);
@@ -846,7 +846,7 @@ internal static class InitialStyle
 	public static float unitySliceScale
 	{
 		[Token(Token = "0x6002D0F")]
-		[Address(RVA = "0x31BC060", Offset = "0x31BA660", VA = "0x1831BC060")]
+		[Address(RVA = "0x6BC8EC0", Offset = "0x6BC7EC0", VA = "0x6BC8EC0")]
 		get
 		{
 			return default(float);
@@ -857,7 +857,7 @@ internal static class InitialStyle
 	public static int unitySliceTop
 	{
 		[Token(Token = "0x6002D10")]
-		[Address(RVA = "0x31BC0D0", Offset = "0x31BA6D0", VA = "0x1831BC0D0")]
+		[Address(RVA = "0x6BC8F30", Offset = "0x6BC7F30", VA = "0x6BC8F30")]
 		get
 		{
 			return default(int);
@@ -868,7 +868,7 @@ internal static class InitialStyle
 	public static SliceType unitySliceType
 	{
 		[Token(Token = "0x6002D11")]
-		[Address(RVA = "0x31BC140", Offset = "0x31BA740", VA = "0x1831BC140")]
+		[Address(RVA = "0x6BC8FA0", Offset = "0x6BC7FA0", VA = "0x6BC8FA0")]
 		get
 		{
 			return default(SliceType);
@@ -879,7 +879,7 @@ internal static class InitialStyle
 	public static TextAnchor unityTextAlign
 	{
 		[Token(Token = "0x6002D12")]
-		[Address(RVA = "0x31BC1B0", Offset = "0x31BA7B0", VA = "0x1831BC1B0")]
+		[Address(RVA = "0x6BC9010", Offset = "0x6BC8010", VA = "0x6BC9010")]
 		get
 		{
 			return default(TextAnchor);
@@ -890,7 +890,7 @@ internal static class InitialStyle
 	public static TextAutoSize unityTextAutoSize
 	{
 		[Token(Token = "0x6002D13")]
-		[Address(RVA = "0x31BC220", Offset = "0x31BA820", VA = "0x1831BC220")]
+		[Address(RVA = "0x6BC9070", Offset = "0x6BC8070", VA = "0x6BC9070")]
 		get
 		{
 			return default(TextAutoSize);
@@ -901,7 +901,7 @@ internal static class InitialStyle
 	public static TextGeneratorType unityTextGenerator
 	{
 		[Token(Token = "0x6002D14")]
-		[Address(RVA = "0x31BC2A0", Offset = "0x31BA8A0", VA = "0x1831BC2A0")]
+		[Address(RVA = "0x6BC90F0", Offset = "0x6BC80F0", VA = "0x6BC90F0")]
 		get
 		{
 			return default(TextGeneratorType);
@@ -912,7 +912,7 @@ internal static class InitialStyle
 	public static Color unityTextOutlineColor
 	{
 		[Token(Token = "0x6002D15")]
-		[Address(RVA = "0x31BC310", Offset = "0x31BA910", VA = "0x1831BC310")]
+		[Address(RVA = "0x6BC9160", Offset = "0x6BC8160", VA = "0x6BC9160")]
 		get
 		{
 			return default(Color);
@@ -923,7 +923,7 @@ internal static class InitialStyle
 	public static float unityTextOutlineWidth
 	{
 		[Token(Token = "0x6002D16")]
-		[Address(RVA = "0x31BC390", Offset = "0x31BA990", VA = "0x1831BC390")]
+		[Address(RVA = "0x6BC91D0", Offset = "0x6BC81D0", VA = "0x6BC91D0")]
 		get
 		{
 			return default(float);
@@ -934,7 +934,7 @@ internal static class InitialStyle
 	public static TextOverflowPosition unityTextOverflowPosition
 	{
 		[Token(Token = "0x6002D17")]
-		[Address(RVA = "0x31BC400", Offset = "0x31BAA00", VA = "0x1831BC400")]
+		[Address(RVA = "0x6BC9240", Offset = "0x6BC8240", VA = "0x6BC9240")]
 		get
 		{
 			return default(TextOverflowPosition);
@@ -945,7 +945,7 @@ internal static class InitialStyle
 	public static Visibility visibility
 	{
 		[Token(Token = "0x6002D18")]
-		[Address(RVA = "0x31BC470", Offset = "0x31BAA70", VA = "0x1831BC470")]
+		[Address(RVA = "0x6BC92B0", Offset = "0x6BC82B0", VA = "0x6BC92B0")]
 		get
 		{
 			return default(Visibility);
@@ -956,7 +956,7 @@ internal static class InitialStyle
 	public static WhiteSpace whiteSpace
 	{
 		[Token(Token = "0x6002D19")]
-		[Address(RVA = "0x31BC4E0", Offset = "0x31BAAE0", VA = "0x1831BC4E0")]
+		[Address(RVA = "0x6BC9320", Offset = "0x6BC8320", VA = "0x6BC9320")]
 		get
 		{
 			return default(WhiteSpace);
@@ -967,7 +967,7 @@ internal static class InitialStyle
 	public static Length width
 	{
 		[Token(Token = "0x6002D1A")]
-		[Address(RVA = "0x31BC550", Offset = "0x31BAB50", VA = "0x1831BC550")]
+		[Address(RVA = "0x6BC9390", Offset = "0x6BC8390", VA = "0x6BC9390")]
 		get
 		{
 			return default(Length);
@@ -978,7 +978,7 @@ internal static class InitialStyle
 	public static Length wordSpacing
 	{
 		[Token(Token = "0x6002D1B")]
-		[Address(RVA = "0x31BC5C0", Offset = "0x31BABC0", VA = "0x1831BC5C0")]
+		[Address(RVA = "0x6BC9400", Offset = "0x6BC8400", VA = "0x6BC9400")]
 		get
 		{
 			return default(Length);
@@ -986,21 +986,21 @@ internal static class InitialStyle
 	}
 
 	[Token(Token = "0x6002CC1")]
-	[Address(RVA = "0x31B8B80", Offset = "0x31B7180", VA = "0x1831B8B80")]
+	[Address(RVA = "0x6BC5C00", Offset = "0x6BC4C00", VA = "0x6BC5C00")]
 	public unsafe static ref ComputedStyle Get()
 	{
 		return ref *(ComputedStyle*)null;
 	}
 
 	[Token(Token = "0x6002CC2")]
-	[Address(RVA = "0x31B8AE0", Offset = "0x31B70E0", VA = "0x1831B8AE0")]
+	[Address(RVA = "0x6BC5C60", Offset = "0x6BC4C60", VA = "0x6BC5C60")]
 	public static ComputedStyle Acquire()
 	{
 		return default(ComputedStyle);
 	}
 
 	[Token(Token = "0x6002CC3")]
-	[Address(RVA = "0x31B8BD0", Offset = "0x31B71D0", VA = "0x1831B8BD0")]
+	[Address(RVA = "0x6BC5D10", Offset = "0x6BC4D10", VA = "0x6BC5D10")]
 	static InitialStyle()
 	{
 	}

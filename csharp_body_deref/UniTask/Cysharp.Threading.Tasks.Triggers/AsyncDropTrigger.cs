@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncDropTrigger : AsyncTriggerBase<PointerEventData>, IDropHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C32")]
-	[Address(RVA = "0x292DB20", Offset = "0x292C120", VA = "0x18292DB20", Slot = "5")]
+	[Address(RVA = "0x6303AB0", Offset = "0x6302AB0", VA = "0x6303AB0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIDropHandler_002EOnDrop(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C33")]
-	[Address(RVA = "0x292D800", Offset = "0x292BE00", VA = "0x18292D800")]
+	[Address(RVA = "0x6303B00", Offset = "0x6302B00", VA = "0x6303B00")]
 	public IAsyncOnDropHandler GetOnDropAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C34")]
-	[Address(RVA = "0x292D870", Offset = "0x292BE70", VA = "0x18292D870")]
+	[Address(RVA = "0x6303B70", Offset = "0x6302B70", VA = "0x6303B70")]
 	public IAsyncOnDropHandler GetOnDropAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C35")]
-	[Address(RVA = "0x292D8F0", Offset = "0x292BEF0", VA = "0x18292D8F0")]
+	[Address(RVA = "0x6303BE0", Offset = "0x6302BE0", VA = "0x6303BE0")]
 	public UniTask<PointerEventData> OnDropAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C36")]
-	[Address(RVA = "0x292DA10", Offset = "0x292C010", VA = "0x18292DA10")]
+	[Address(RVA = "0x6303CE0", Offset = "0x6302CE0", VA = "0x6303CE0")]
 	public UniTask<PointerEventData> OnDropAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C37")]
-	[Address(RVA = "0x292DB70", Offset = "0x292C170", VA = "0x18292DB70")]
+	[Address(RVA = "0x6303DF0", Offset = "0x6302DF0", VA = "0x6303DF0")]
 	public AsyncDropTrigger()
 	{
 	}

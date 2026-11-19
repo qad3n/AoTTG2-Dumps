@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting;
 
 [Serializable]
-[Token(Token = "0x2000368")]
+[Token(Token = "0x2000341")]
 internal class ChannelInfo : IChannelInfo
 {
-	[Token(Token = "0x4000E75")]
+	[Token(Token = "0x4000DD5")]
 	[FieldOffset(Offset = "0x10")]
 	private object[] channelData;
 
-	[Token(Token = "0x1700032A")]
+	[Token(Token = "0x17000329")]
 	public object[] ChannelData
 	{
-		[Token(Token = "0x6001C7E")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Token(Token = "0x6001C54")]
+		[Address(RVA = "0x5368D20", Offset = "0x5367D20", VA = "0x5368D20", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001C7C")]
-	[Address(RVA = "0x19D32A0", Offset = "0x19D18A0", VA = "0x1819D32A0")]
+	[Token(Token = "0x6001C52")]
+	[Address(RVA = "0x5368C10", Offset = "0x5367C10", VA = "0x5368C10")]
 	public ChannelInfo()
 	{
 	}
 
-	[Token(Token = "0x6001C7D")]
-	[Address(RVA = "0x19D3300", Offset = "0x19D1900", VA = "0x1819D3300")]
+	[Token(Token = "0x6001C53")]
+	[Address(RVA = "0x5368C70", Offset = "0x5367C70", VA = "0x5368C70")]
 	public ChannelInfo(object remoteChannelData)
 	{
 	}

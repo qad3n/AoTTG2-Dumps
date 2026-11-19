@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015D")]
+[Token(Token = "0x200015E")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 public sealed class MinAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005A8")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x40005AD")]
+	[FieldOffset(Offset = "0x14")]
 	public readonly float min;
 
-	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x2F1BDA0", Offset = "0x2F1A3A0", VA = "0x182F1BDA0")]
+	[Token(Token = "0x6000C4F")]
+	[Address(RVA = "0x690DDC0", Offset = "0x690CDC0", VA = "0x690DDC0")]
 	public MinAttribute(float min)
 	{
 	}

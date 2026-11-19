@@ -10,60 +10,60 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FC")]
+[Token(Token = "0x20003B8")]
 public sealed class WebProxyScriptElement : ConfigurationElement
 {
-	[Token(Token = "0x170005EE")]
+	[Token(Token = "0x170005C0")]
 	public int AutoConfigUrlRetryInterval
 	{
-		[Token(Token = "0x6001ACE")]
-		[Address(RVA = "0x282C9D0", Offset = "0x282AFD0", VA = "0x18282C9D0")]
+		[Token(Token = "0x6001914")]
+		[Address(RVA = "0x61D1D30", Offset = "0x61D0D30", VA = "0x61D1D30")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001ACF")]
-		[Address(RVA = "0x282CA60", Offset = "0x282B060", VA = "0x18282CA60")]
+		[Token(Token = "0x6001915")]
+		[Address(RVA = "0x61D1D60", Offset = "0x61D0D60", VA = "0x61D1D60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005EF")]
+	[Token(Token = "0x170005C1")]
 	public TimeSpan DownloadTimeout
 	{
-		[Token(Token = "0x6001AD0")]
-		[Address(RVA = "0x282CA00", Offset = "0x282B000", VA = "0x18282CA00")]
+		[Token(Token = "0x6001916")]
+		[Address(RVA = "0x61D1D90", Offset = "0x61D0D90", VA = "0x61D1D90")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001AD1")]
-		[Address(RVA = "0x282CA90", Offset = "0x282B090", VA = "0x18282CA90")]
+		[Token(Token = "0x6001917")]
+		[Address(RVA = "0x61D1DC0", Offset = "0x61D0DC0", VA = "0x61D1DC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005F0")]
+	[Token(Token = "0x170005C2")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001AD2")]
-		[Address(RVA = "0x282CA30", Offset = "0x282B030", VA = "0x18282CA30", Slot = "4")]
+		[Token(Token = "0x6001918")]
+		[Address(RVA = "0x61D1DF0", Offset = "0x61D0DF0", VA = "0x61D1DF0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001ACD")]
-	[Address(RVA = "0x282C9A0", Offset = "0x282AFA0", VA = "0x18282C9A0")]
+	[Token(Token = "0x6001913")]
+	[Address(RVA = "0x61D1D00", Offset = "0x61D0D00", VA = "0x61D1D00")]
 	public WebProxyScriptElement()
 	{
 	}
 
-	[Token(Token = "0x6001AD3")]
-	[Address(RVA = "0x282C970", Offset = "0x282AF70", VA = "0x18282C970", Slot = "8")]
+	[Token(Token = "0x6001919")]
+	[Address(RVA = "0x61D1E20", Offset = "0x61D0E20", VA = "0x61D1E20", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

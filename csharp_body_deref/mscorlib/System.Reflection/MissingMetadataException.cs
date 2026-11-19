@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000534")]
+[Token(Token = "0x200050D")]
 public sealed class MissingMetadataException : TypeAccessException
 {
-	[Token(Token = "0x6002623")]
-	[Address(RVA = "0x1A4B0E0", Offset = "0x1A496E0", VA = "0x181A4B0E0")]
+	[Token(Token = "0x60025F1")]
+	[Address(RVA = "0x53E0B60", Offset = "0x53DFB60", VA = "0x53E0B60")]
 	public MissingMetadataException()
 	{
 	}

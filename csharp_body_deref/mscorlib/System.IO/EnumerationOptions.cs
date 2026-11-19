@@ -10,134 +10,122 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000686")]
+[Token(Token = "0x200065F")]
 public class EnumerationOptions
 {
-	[Token(Token = "0x17000807")]
+	[Token(Token = "0x17000803")]
 	internal static EnumerationOptions Compatible
 	{
-		[Token(Token = "0x6003215")]
-		[Address(RVA = "0x1AE8010", Offset = "0x1AE6610", VA = "0x181AE8010")]
+		[Token(Token = "0x60031CE")]
+		[Address(RVA = "0x5478720", Offset = "0x5477720", VA = "0x5478720")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
+		}
+	}
+
+	[Token(Token = "0x17000804")]
+	private static EnumerationOptions CompatibleRecursive
+	{
+		[Token(Token = "0x60031CF")]
+		[Address(RVA = "0x5478790", Offset = "0x5477790", VA = "0x5478790")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000805")]
+	internal static EnumerationOptions Default
+	{
+		[Token(Token = "0x60031D0")]
+		[Address(RVA = "0x5478800", Offset = "0x5477800", VA = "0x5478800")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000806")]
+	public bool RecurseSubdirectories
+	{
+		[Token(Token = "0x60031D3")]
+		[Address(RVA = "0x5478890", Offset = "0x5477890", VA = "0x5478890")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60031D4")]
+		[Address(RVA = "0x54788A0", Offset = "0x54778A0", VA = "0x54788A0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000807")]
+	public bool IgnoreInaccessible
+	{
+		[Token(Token = "0x60031D5")]
+		[Address(RVA = "0x54788B0", Offset = "0x54778B0", VA = "0x54788B0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60031D6")]
+		[Address(RVA = "0x54788C0", Offset = "0x54778C0", VA = "0x54788C0")]
+		[CompilerGenerated]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000808")]
-	private static EnumerationOptions CompatibleRecursive
-	{
-		[Token(Token = "0x6003216")]
-		[Address(RVA = "0x1AE7FC0", Offset = "0x1AE65C0", VA = "0x181AE7FC0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000809")]
-	internal static EnumerationOptions Default
-	{
-		[Token(Token = "0x6003217")]
-		[Address(RVA = "0x1AE8060", Offset = "0x1AE6660", VA = "0x181AE8060")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700080A")]
-	public bool RecurseSubdirectories
-	{
-		[Token(Token = "0x600321A")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x600321B")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700080B")]
-	public bool IgnoreInaccessible
-	{
-		[Token(Token = "0x600321C")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x600321D")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700080C")]
-	public int BufferSize
-	{
-		[Token(Token = "0x600321E")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x1700080D")]
 	public FileAttributes AttributesToSkip
 	{
-		[Token(Token = "0x600321F")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x60031D7")]
+		[Address(RVA = "0x54788D0", Offset = "0x54778D0", VA = "0x54788D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(FileAttributes);
 		}
-		[Token(Token = "0x6003220")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x60031D8")]
+		[Address(RVA = "0x54788E0", Offset = "0x54778E0", VA = "0x54788E0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700080E")]
+	[Token(Token = "0x17000809")]
 	public MatchType MatchType
 	{
-		[Token(Token = "0x6003221")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Token(Token = "0x60031D9")]
+		[Address(RVA = "0x54788F0", Offset = "0x54778F0", VA = "0x54788F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(MatchType);
 		}
-		[Token(Token = "0x6003222")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Token(Token = "0x60031DA")]
+		[Address(RVA = "0x5478900", Offset = "0x5477900", VA = "0x5478900")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700080F")]
+	[Token(Token = "0x1700080A")]
 	public MatchCasing MatchCasing
 	{
-		[Token(Token = "0x6003223")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x60031DB")]
+		[Address(RVA = "0x5478910", Offset = "0x5477910", VA = "0x5478910")]
 		[CompilerGenerated]
 		get
 		{
@@ -145,11 +133,11 @@ public class EnumerationOptions
 		}
 	}
 
-	[Token(Token = "0x17000810")]
+	[Token(Token = "0x1700080B")]
 	public bool ReturnSpecialDirectories
 	{
-		[Token(Token = "0x6003224")]
-		[Address(RVA = "0x584270", Offset = "0x582870", VA = "0x180584270")]
+		[Token(Token = "0x60031DC")]
+		[Address(RVA = "0x5478920", Offset = "0x5477920", VA = "0x5478920")]
 		[CompilerGenerated]
 		get
 		{
@@ -157,14 +145,14 @@ public class EnumerationOptions
 		}
 	}
 
-	[Token(Token = "0x6003218")]
-	[Address(RVA = "0x1AE7F90", Offset = "0x1AE6590", VA = "0x181AE7F90")]
+	[Token(Token = "0x60031D1")]
+	[Address(RVA = "0x5478870", Offset = "0x5477870", VA = "0x5478870")]
 	public EnumerationOptions()
 	{
 	}
 
-	[Token(Token = "0x6003219")]
-	[Address(RVA = "0x1AE7D10", Offset = "0x1AE6310", VA = "0x181AE7D10")]
+	[Token(Token = "0x60031D2")]
+	[Address(RVA = "0x54770C0", Offset = "0x54760C0", VA = "0x54770C0")]
 	internal static EnumerationOptions FromSearchOption(SearchOption searchOption)
 	{
 		return null;

@@ -28,14 +28,14 @@ public static class DefaultControls
 		public static IFactoryControls Default;
 
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x30698B0", Offset = "0x3067EB0", VA = "0x1830698B0", Slot = "4")]
+		[Address(RVA = "0x6A65EF0", Offset = "0x6A64EF0", VA = "0x6A65EF0", Slot = "4")]
 		public GameObject CreateGameObject(string name, params Type[] components)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6A65F50", Offset = "0x6A64F50", VA = "0x6A65F50")]
 		public DefaultRuntimeFactory()
 		{
 		}
@@ -114,7 +114,7 @@ public static class DefaultControls
 	public static IFactoryControls factory
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x3069860", Offset = "0x3067E60", VA = "0x183069860")]
+		[Address(RVA = "0x6A60A20", Offset = "0x6A5FA20", VA = "0x6A60A20")]
 		get
 		{
 			return null;
@@ -122,115 +122,115 @@ public static class DefaultControls
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x3069230", Offset = "0x3067830", VA = "0x183069230")]
+	[Address(RVA = "0x6A60A90", Offset = "0x6A5FA90", VA = "0x6A60A90")]
 	private static GameObject CreateUIElementRoot(string name, Vector2 size, params Type[] components)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x3069340", Offset = "0x3067940", VA = "0x183069340")]
+	[Address(RVA = "0x6A60C40", Offset = "0x6A5FC40", VA = "0x6A60C40")]
 	private static GameObject CreateUIObject(string name, GameObject parent, params Type[] components)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x3069470", Offset = "0x3067A70", VA = "0x183069470")]
+	[Address(RVA = "0x6A60E90", Offset = "0x6A5FE90", VA = "0x6A60E90")]
 	private static void SetDefaultTextValues(Text lbl)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3069420", Offset = "0x3067A20", VA = "0x183069420")]
+	[Address(RVA = "0x6A60F90", Offset = "0x6A5FF90", VA = "0x6A60F90")]
 	private static void SetDefaultColorTransitionValues(Selectable slider)
 	{
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3069630", Offset = "0x3067C30", VA = "0x183069630")]
+	[Address(RVA = "0x6A60DC0", Offset = "0x6A5FDC0", VA = "0x6A60DC0")]
 	private static void SetParentAndAlign(GameObject child, GameObject parent)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3069550", Offset = "0x3067B50", VA = "0x183069550")]
+	[Address(RVA = "0x6A60FE0", Offset = "0x6A5FFE0", VA = "0x6A60FE0")]
 	private static void SetLayerRecursively(GameObject go, int layer)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x3066A70", Offset = "0x3065070", VA = "0x183066A70")]
+	[Address(RVA = "0x6A610B0", Offset = "0x6A600B0", VA = "0x6A610B0")]
 	public static GameObject CreatePanel(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x30644B0", Offset = "0x3062AB0", VA = "0x1830644B0")]
+	[Address(RVA = "0x6A618B0", Offset = "0x6A608B0", VA = "0x6A618B0")]
 	public static GameObject CreateButton(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x3068950", Offset = "0x3066F50", VA = "0x183068950")]
+	[Address(RVA = "0x6A61D50", Offset = "0x6A60D50", VA = "0x6A61D50")]
 	public static GameObject CreateText(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x3066170", Offset = "0x3064770", VA = "0x183066170")]
+	[Address(RVA = "0x6A61EF0", Offset = "0x6A60EF0", VA = "0x6A61EF0")]
 	public static GameObject CreateImage(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x3066DA0", Offset = "0x30653A0", VA = "0x183066DA0")]
+	[Address(RVA = "0x6A62020", Offset = "0x6A61020", VA = "0x6A62020")]
 	public static GameObject CreateRawImage(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x3068000", Offset = "0x3066600", VA = "0x183068000")]
+	[Address(RVA = "0x6A62150", Offset = "0x6A61150", VA = "0x6A62150")]
 	public static GameObject CreateSlider(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x3067A00", Offset = "0x3066000", VA = "0x183067A00")]
+	[Address(RVA = "0x6A62970", Offset = "0x6A61970", VA = "0x6A62970")]
 	public static GameObject CreateScrollbar(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x3068B00", Offset = "0x3067100", VA = "0x183068B00")]
+	[Address(RVA = "0x6A62F00", Offset = "0x6A61F00", VA = "0x6A62F00")]
 	public static GameObject CreateToggle(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x30662B0", Offset = "0x30648B0", VA = "0x1830662B0")]
+	[Address(RVA = "0x6A63540", Offset = "0x6A62540", VA = "0x6A63540")]
 	public static GameObject CreateInputField(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x3064990", Offset = "0x3062F90", VA = "0x183064990")]
+	[Address(RVA = "0x6A63C20", Offset = "0x6A62C20", VA = "0x6A63C20")]
 	public static GameObject CreateDropdown(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x3066EE0", Offset = "0x30654E0", VA = "0x183066EE0")]
+	[Address(RVA = "0x6A65410", Offset = "0x6A64410", VA = "0x6A65410")]
 	public static GameObject CreateScrollView(Resources resources)
 	{
 		return null;

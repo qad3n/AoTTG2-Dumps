@@ -35,13 +35,13 @@ public class TMP_GlyphPairAdjustmentRecord
 	public TMP_GlyphAdjustmentRecord firstAdjustmentRecord
 	{
 		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x152F200", Offset = "0x152D800", VA = "0x18152F200")]
+		[Address(RVA = "0x66F69C0", Offset = "0x66F59C0", VA = "0x66F69C0")]
 		get
 		{
 			return default(TMP_GlyphAdjustmentRecord);
 		}
 		[Token(Token = "0x60001FD")]
-		[Address(RVA = "0x2CF7690", Offset = "0x2CF5C90", VA = "0x182CF7690")]
+		[Address(RVA = "0x66F69E0", Offset = "0x66F59E0", VA = "0x66F69E0")]
 		set
 		{
 		}
@@ -51,13 +51,13 @@ public class TMP_GlyphPairAdjustmentRecord
 	public TMP_GlyphAdjustmentRecord secondAdjustmentRecord
 	{
 		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x2CF7670", Offset = "0x2CF5C70", VA = "0x182CF7670")]
+		[Address(RVA = "0x66F6A00", Offset = "0x66F5A00", VA = "0x66F6A00")]
 		get
 		{
 			return default(TMP_GlyphAdjustmentRecord);
 		}
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x2CF76A0", Offset = "0x2CF5CA0", VA = "0x182CF76A0")]
+		[Address(RVA = "0x66F6A20", Offset = "0x66F5A20", VA = "0x66F6A20")]
 		set
 		{
 		}
@@ -67,26 +67,26 @@ public class TMP_GlyphPairAdjustmentRecord
 	public FontFeatureLookupFlags featureLookupFlags
 	{
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x66F6A40", Offset = "0x66F5A40", VA = "0x66F6A40")]
 		get
 		{
 			return default(FontFeatureLookupFlags);
 		}
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x66F6A50", Offset = "0x66F5A50", VA = "0x66F6A50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x2CF7470", Offset = "0x2CF5A70", VA = "0x182CF7470")]
+	[Address(RVA = "0x66F6A60", Offset = "0x66F5A60", VA = "0x66F6A60")]
 	public TMP_GlyphPairAdjustmentRecord(TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
 	{
 	}
 
 	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x2CF74C0", Offset = "0x2CF5AC0", VA = "0x182CF74C0")]
+	[Address(RVA = "0x66F6AA0", Offset = "0x66F5AA0", VA = "0x66F6AA0")]
 	internal TMP_GlyphPairAdjustmentRecord(GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
 	{
 	}

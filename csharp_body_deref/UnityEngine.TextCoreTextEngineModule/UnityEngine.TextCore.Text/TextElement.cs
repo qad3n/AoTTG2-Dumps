@@ -46,7 +46,7 @@ public abstract class TextElement
 	public TextElementType elementType
 	{
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x1CC78D0", Offset = "0x1CC5ED0", VA = "0x181CC78D0")]
+		[Address(RVA = "0x6A43DE0", Offset = "0x6A42DE0", VA = "0x6A43DE0")]
 		get
 		{
 			return default(TextElementType);
@@ -57,13 +57,13 @@ public abstract class TextElement
 	public uint unicode
 	{
 		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0")]
+		[Address(RVA = "0x6A3DD50", Offset = "0x6A3CD50", VA = "0x6A3DD50")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x6A43DF0", Offset = "0x6A42DF0", VA = "0x6A43DF0")]
 		set
 		{
 		}
@@ -73,13 +73,13 @@ public abstract class TextElement
 	public TextAsset textAsset
 	{
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
+		[Address(RVA = "0x6A3E9A0", Offset = "0x6A3D9A0", VA = "0x6A3E9A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6A40020", Offset = "0x6A3F020", VA = "0x6A40020")]
 		set
 		{
 		}
@@ -89,13 +89,13 @@ public abstract class TextElement
 	public Glyph glyph
 	{
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x6A43E00", Offset = "0x6A42E00", VA = "0x6A43E00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001ED")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6A40010", Offset = "0x6A3F010", VA = "0x6A40010")]
 		set
 		{
 		}
@@ -105,13 +105,13 @@ public abstract class TextElement
 	public uint glyphIndex
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
+		[Address(RVA = "0x6A40000", Offset = "0x6A3F000", VA = "0x6A40000")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6A43E10", Offset = "0x6A42E10", VA = "0x6A43E10")]
 		set
 		{
 		}
@@ -121,20 +121,20 @@ public abstract class TextElement
 	public float scale
 	{
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
+		[Address(RVA = "0x6A43E20", Offset = "0x6A42E20", VA = "0x6A43E20")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
+		[Address(RVA = "0x6A43E30", Offset = "0x6A42E30", VA = "0x6A43E30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6A41220", Offset = "0x6A40220", VA = "0x6A41220")]
 	protected TextElement()
 	{
 	}

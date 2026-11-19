@@ -22,7 +22,7 @@ public class FocusChangeDirection : IDisposable
 	public static FocusChangeDirection unspecified
 	{
 		[Token(Token = "0x6000F94")]
-		[Address(RVA = "0x32629B0", Offset = "0x3260FB0", VA = "0x1832629B0")]
+		[Address(RVA = "0x6C75890", Offset = "0x6C74890", VA = "0x6C75890")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +34,7 @@ public class FocusChangeDirection : IDisposable
 	public static FocusChangeDirection none
 	{
 		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x3262960", Offset = "0x3260F60", VA = "0x183262960")]
+		[Address(RVA = "0x6C75900", Offset = "0x6C74900", VA = "0x6C75900")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,7 +46,7 @@ public class FocusChangeDirection : IDisposable
 	protected static FocusChangeDirection lastValue
 	{
 		[Token(Token = "0x6000F96")]
-		[Address(RVA = "0x3262910", Offset = "0x3260F10", VA = "0x183262910")]
+		[Address(RVA = "0x6C75970", Offset = "0x6C74970", VA = "0x6C75970")]
 		[CompilerGenerated]
 		get
 		{
@@ -55,32 +55,32 @@ public class FocusChangeDirection : IDisposable
 	}
 
 	[Token(Token = "0x6000F97")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Address(RVA = "0x6C759E0", Offset = "0x6C749E0", VA = "0x6C759E0")]
 	protected FocusChangeDirection(int value)
 	{
 	}
 
 	[Token(Token = "0x6000F98")]
-	[Address(RVA = "0x3262A00", Offset = "0x3261000", VA = "0x183262A00")]
+	[Address(RVA = "0x6C75A00", Offset = "0x6C74A00", VA = "0x6C75A00")]
 	public static implicit operator int(FocusChangeDirection fcd)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F99")]
-	[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0", Slot = "4")]
+	[Address(RVA = "0x6C75A10", Offset = "0x6C74A10", VA = "0x6C75A10", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6C75A30", Offset = "0x6C74A30", VA = "0x6C75A30", Slot = "5")]
 	protected virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x32627B0", Offset = "0x3260DB0", VA = "0x1832627B0", Slot = "6")]
+	[Address(RVA = "0x6C75A40", Offset = "0x6C74A40", VA = "0x6C75A40", Slot = "6")]
 	internal virtual void ApplyTo(FocusController focusController, Focusable f)
 	{
 	}

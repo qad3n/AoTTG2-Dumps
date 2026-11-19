@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.PackageManagerResolveErrorPackageAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,13 +29,13 @@ public class PackageManagerResolveErrorPackageAnalytic : PackageManagerBaseAnaly
 	public string action;
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3307950", Offset = "0x3305F50", VA = "0x183307950")]
+	[Address(RVA = "0x6D18580", Offset = "0x6D17580", VA = "0x6D18580")]
 	public PackageManagerResolveErrorPackageAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x33078A0", Offset = "0x3305EA0", VA = "0x1833078A0")]
+	[Address(RVA = "0x6D185F0", Offset = "0x6D175F0", VA = "0x6D185F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static PackageManagerResolveErrorPackageAnalytic CreatePackageManagerResolveErrorPackageAnalytic()
 	{

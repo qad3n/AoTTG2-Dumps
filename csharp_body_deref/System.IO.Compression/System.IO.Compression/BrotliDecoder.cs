@@ -23,31 +23,31 @@ public struct BrotliDecoder : IDisposable
 	private bool _disposed;
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x25B5950", Offset = "0x25B3F50", VA = "0x1825B5950")]
+	[Address(RVA = "0x5F634E0", Offset = "0x5F624E0", VA = "0x5F634E0")]
 	internal void InitializeDecoder()
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x25B58A0", Offset = "0x25B3EA0", VA = "0x1825B58A0")]
+	[Address(RVA = "0x5F635B0", Offset = "0x5F625B0", VA = "0x5F635B0")]
 	internal void EnsureInitialized()
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x25B5880", Offset = "0x25B3E80", VA = "0x1825B5880", Slot = "4")]
+	[Address(RVA = "0x5F636A0", Offset = "0x5F626A0", VA = "0x5F636A0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x25B58D0", Offset = "0x25B3ED0", VA = "0x1825B58D0")]
+	[Address(RVA = "0x5F63630", Offset = "0x5F62630", VA = "0x5F63630")]
 	private void EnsureNotDisposed()
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x25B5520", Offset = "0x25B3B20", VA = "0x1825B5520")]
+	[Address(RVA = "0x5F601A0", Offset = "0x5F5F1A0", VA = "0x5F601A0")]
 	public OperationStatus Decompress(ReadOnlySpan<byte> source, Span<byte> destination, out int bytesConsumed, out int bytesWritten)
 	{
 		return default(OperationStatus);

@@ -10,55 +10,66 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Metadata;
 
-[Token(Token = "0x20003C2")]
+[Token(Token = "0x200039B")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface)]
 [ComVisible(true)]
 public sealed class SoapTypeAttribute : SoapAttribute
 {
-	[Token(Token = "0x4000F36")]
+	[Token(Token = "0x4000E96")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private bool _useAttribute;
 
-	[Token(Token = "0x4000F37")]
+	[Token(Token = "0x4000E97")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string _xmlElementName;
 
-	[Token(Token = "0x4000F38")]
+	[Token(Token = "0x4000E98")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private string _xmlNamespace;
 
-	[Token(Token = "0x4000F39")]
+	[Token(Token = "0x4000E99")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private string _xmlTypeName;
 
-	[Token(Token = "0x4000F3A")]
+	[Token(Token = "0x4000E9A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private string _xmlTypeNamespace;
 
-	[Token(Token = "0x4000F3B")]
+	[Token(Token = "0x4000E9B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private bool _isType;
 
-	[Token(Token = "0x4000F3C")]
+	[Token(Token = "0x4000E9C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x51")]
 	private bool _isElement;
 
-	[Token(Token = "0x1700038F")]
+	[Token(Token = "0x1700038E")]
 	public override bool UseAttribute
 	{
-		[Token(Token = "0x6001E49")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480", Slot = "7")]
+		[Token(Token = "0x6001E1F")]
+		[Address(RVA = "0x538C460", Offset = "0x538B460", VA = "0x538C460", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000390")]
+	[Token(Token = "0x1700038F")]
 	public string XmlElementName
 	{
-		[Token(Token = "0x6001E4A")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001E20")]
+		[Address(RVA = "0x538C470", Offset = "0x538B470", VA = "0x538C470")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000390")]
+	public override string XmlNamespace
+	{
+		[Token(Token = "0x6001E21")]
+		[Address(RVA = "0x538C480", Offset = "0x538B480", VA = "0x538C480", Slot = "8")]
 		get
 		{
 			return null;
@@ -66,10 +77,10 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	}
 
 	[Token(Token = "0x17000391")]
-	public override string XmlNamespace
+	public string XmlTypeName
 	{
-		[Token(Token = "0x6001E4B")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "8")]
+		[Token(Token = "0x6001E22")]
+		[Address(RVA = "0x538C490", Offset = "0x538B490", VA = "0x538C490")]
 		get
 		{
 			return null;
@@ -77,10 +88,10 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	}
 
 	[Token(Token = "0x17000392")]
-	public string XmlTypeName
+	public string XmlTypeNamespace
 	{
-		[Token(Token = "0x6001E4C")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6001E23")]
+		[Address(RVA = "0x538C4A0", Offset = "0x538B4A0", VA = "0x538C4A0")]
 		get
 		{
 			return null;
@@ -88,46 +99,35 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	}
 
 	[Token(Token = "0x17000393")]
-	public string XmlTypeNamespace
+	internal bool IsInteropXmlElement
 	{
-		[Token(Token = "0x6001E4D")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x6001E24")]
+		[Address(RVA = "0x538C4B0", Offset = "0x538B4B0", VA = "0x538C4B0")]
 		get
 		{
-			return null;
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000394")]
-	internal bool IsInteropXmlElement
-	{
-		[Token(Token = "0x6001E4E")]
-		[Address(RVA = "0x1A08FC0", Offset = "0x1A075C0", VA = "0x181A08FC0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000395")]
 	internal bool IsInteropXmlType
 	{
-		[Token(Token = "0x6001E4F")]
-		[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
+		[Token(Token = "0x6001E25")]
+		[Address(RVA = "0x538C4C0", Offset = "0x538B4C0", VA = "0x538C4C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001E48")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001E1E")]
+	[Address(RVA = "0x538C450", Offset = "0x538B450", VA = "0x538C450")]
 	public SoapTypeAttribute()
 	{
 	}
 
-	[Token(Token = "0x6001E50")]
-	[Address(RVA = "0x1A08D90", Offset = "0x1A07390", VA = "0x181A08D90", Slot = "9")]
+	[Token(Token = "0x6001E26")]
+	[Address(RVA = "0x538C4D0", Offset = "0x538B4D0", VA = "0x538C4D0", Slot = "9")]
 	internal override void SetReflectionObject(object reflectionObject)
 	{
 	}

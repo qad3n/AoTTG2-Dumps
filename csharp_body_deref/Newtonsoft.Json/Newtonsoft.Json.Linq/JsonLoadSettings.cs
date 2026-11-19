@@ -28,13 +28,13 @@ public class JsonLoadSettings
 	public CommentHandling CommentHandling
 	{
 		[Token(Token = "0x6000C97")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5610D80", Offset = "0x560FD80", VA = "0x5610D80")]
 		get
 		{
 			return default(CommentHandling);
 		}
 		[Token(Token = "0x6000C98")]
-		[Address(RVA = "0x1C88390", Offset = "0x1C86990", VA = "0x181C88390")]
+		[Address(RVA = "0x5610D90", Offset = "0x560FD90", VA = "0x5610D90")]
 		set
 		{
 		}
@@ -44,13 +44,13 @@ public class JsonLoadSettings
 	public LineInfoHandling LineInfoHandling
 	{
 		[Token(Token = "0x6000C99")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x5610DF0", Offset = "0x560FDF0", VA = "0x5610DF0")]
 		get
 		{
 			return default(LineInfoHandling);
 		}
 		[Token(Token = "0x6000C9A")]
-		[Address(RVA = "0x1C88470", Offset = "0x1C86A70", VA = "0x181C88470")]
+		[Address(RVA = "0x5610E00", Offset = "0x560FE00", VA = "0x5610E00")]
 		set
 		{
 		}
@@ -60,20 +60,20 @@ public class JsonLoadSettings
 	public DuplicatePropertyNameHandling DuplicatePropertyNameHandling
 	{
 		[Token(Token = "0x6000C9B")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5610E60", Offset = "0x560FE60", VA = "0x5610E60")]
 		get
 		{
 			return default(DuplicatePropertyNameHandling);
 		}
 		[Token(Token = "0x6000C9C")]
-		[Address(RVA = "0x1C88400", Offset = "0x1C86A00", VA = "0x181C88400")]
+		[Address(RVA = "0x5610E70", Offset = "0x560FE70", VA = "0x5610E70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000C96")]
-	[Address(RVA = "0x1C88360", Offset = "0x1C86960", VA = "0x181C88360")]
+	[Address(RVA = "0x5610D50", Offset = "0x560FD50", VA = "0x5610D50")]
 	public JsonLoadSettings()
 	{
 	}

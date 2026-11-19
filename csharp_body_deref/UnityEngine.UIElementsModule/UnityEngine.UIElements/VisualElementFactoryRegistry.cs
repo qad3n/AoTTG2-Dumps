@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualElementFactoryRegistry
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,7 +29,7 @@ internal class VisualElementFactoryRegistry
 	internal static Dictionary<string, List<IUxmlFactory>> factories
 	{
 		[Token(Token = "0x600270F")]
-		[Address(RVA = "0x3167840", Offset = "0x3165E40", VA = "0x183167840")]
+		[Address(RVA = "0x6B5E590", Offset = "0x6B5D590", VA = "0x6B5E590")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -38,20 +38,20 @@ internal class VisualElementFactoryRegistry
 	}
 
 	[Token(Token = "0x600270E")]
-	[Address(RVA = "0x3165580", Offset = "0x3163B80", VA = "0x183165580")]
+	[Address(RVA = "0x6B5E490", Offset = "0x6B5D490", VA = "0x6B5E490")]
 	internal static string GetMovedUIControlTypeName(Type type, MovedFromAttribute attr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002710")]
-	[Address(RVA = "0x3166F40", Offset = "0x3165540", VA = "0x183166F40")]
+	[Address(RVA = "0x6B5FFE0", Offset = "0x6B5EFE0", VA = "0x6B5FFE0")]
 	protected static void RegisterFactory(IUxmlFactory factory)
 	{
 	}
 
 	[Token(Token = "0x6002711")]
-	[Address(RVA = "0x31677A0", Offset = "0x3165DA0", VA = "0x1831677A0")]
+	[Address(RVA = "0x6B60620", Offset = "0x6B5F620", VA = "0x6B60620")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal static bool TryGetValue(string fullTypeName, out List<IUxmlFactory> factoryList)
 	{
@@ -59,13 +59,13 @@ internal class VisualElementFactoryRegistry
 	}
 
 	[Token(Token = "0x6002712")]
-	[Address(RVA = "0x3165680", Offset = "0x3163C80", VA = "0x183165680")]
+	[Address(RVA = "0x6B5E690", Offset = "0x6B5D690", VA = "0x6B5E690")]
 	private static void RegisterEngineFactories()
 	{
 	}
 
 	[Token(Token = "0x6002713")]
-	[Address(RVA = "0x31674C0", Offset = "0x3165AC0", VA = "0x1831674C0")]
+	[Address(RVA = "0x6B5FCA0", Offset = "0x6B5ECA0", VA = "0x6B5FCA0")]
 	internal static void RegisterUserFactories()
 	{
 	}

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000129")]
+[Token(Token = "0x2000101")]
 public class RankException : SystemException
 {
-	[Token(Token = "0x60009A8")]
-	[Address(RVA = "0x1B482E0", Offset = "0x1B468E0", VA = "0x181B482E0")]
+	[Token(Token = "0x6000984")]
+	[Address(RVA = "0x54CF4B0", Offset = "0x54CE4B0", VA = "0x54CF4B0")]
 	public RankException()
 	{
 	}
 
-	[Token(Token = "0x60009A9")]
-	[Address(RVA = "0x1B48370", Offset = "0x1B46970", VA = "0x181B48370")]
+	[Token(Token = "0x6000985")]
+	[Address(RVA = "0x54CF560", Offset = "0x54CE560", VA = "0x54CF560")]
 	public RankException(string message)
 	{
 	}
 
-	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
+	[Token(Token = "0x6000986")]
+	[Address(RVA = "0x54CF5C0", Offset = "0x54CE5C0", VA = "0x54CF5C0")]
 	protected RankException(SerializationInfo info, StreamingContext context)
 	{
 	}

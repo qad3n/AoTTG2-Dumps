@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.GUILayoutUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ public class GUILayoutUtility
 		private int id
 		{
 			[Token(Token = "0x6000117")]
-			[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+			[Address(RVA = "0x6990100", Offset = "0x698F100", VA = "0x6990100")]
 			[CompilerGenerated]
 			set
 			{
@@ -49,13 +49,13 @@ public class GUILayoutUtility
 		}
 
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x2FA6250", Offset = "0x2FA4850", VA = "0x182FA6250")]
+		[Address(RVA = "0x698E570", Offset = "0x698D570", VA = "0x698E570")]
 		public LayoutCache(int instanceID = -1)
 		{
 		}
 
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x2FA5FF0", Offset = "0x2FA45F0", VA = "0x182FA5FF0")]
+		[Address(RVA = "0x6990110", Offset = "0x698F110", VA = "0x6990110")]
 		public void ResetCursor()
 		{
 		}
@@ -81,14 +81,14 @@ public class GUILayoutUtility
 	internal static int unbalancedgroupscount
 	{
 		[Token(Token = "0x6000100")]
-		[Address(RVA = "0x2F8B3E0", Offset = "0x2F899E0", VA = "0x182F8B3E0")]
+		[Address(RVA = "0x698E3F0", Offset = "0x698D3F0", VA = "0x698E3F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000101")]
-		[Address(RVA = "0x2F8B430", Offset = "0x2F89A30", VA = "0x182F8B430")]
+		[Address(RVA = "0x698E460", Offset = "0x698D460", VA = "0x698E460")]
 		[CompilerGenerated]
 		set
 		{
@@ -96,27 +96,27 @@ public class GUILayoutUtility
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x2F8A2C0", Offset = "0x2F888C0", VA = "0x182F8A2C0")]
+	[Address(RVA = "0x698E250", Offset = "0x698D250", VA = "0x698E250")]
 	private static Rect Internal_GetWindowRect(int windowID)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x2F8A380", Offset = "0x2F88980", VA = "0x182F8A380")]
+	[Address(RVA = "0x698E320", Offset = "0x698D320", VA = "0x698E320")]
 	private static void Internal_MoveWindow(int windowID, Rect r)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x2F8A140", Offset = "0x2F88740", VA = "0x182F8A140")]
+	[Address(RVA = "0x698E4B0", Offset = "0x698D4B0", VA = "0x698E4B0")]
 	internal static LayoutCache GetLayoutCache(int instanceID, bool isWindow)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x2F8B040", Offset = "0x2F89640", VA = "0x182F8B040")]
+	[Address(RVA = "0x6989E00", Offset = "0x6988E00", VA = "0x6989E00")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static LayoutCache SelectIDList(int instanceID, bool isWindow)
 	{
@@ -124,103 +124,103 @@ public class GUILayoutUtility
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x2F8AF60", Offset = "0x2F89560", VA = "0x182F8AF60")]
+	[Address(RVA = "0x698E670", Offset = "0x698D670", VA = "0x698E670")]
 	internal static void RemoveSelectedIdList(int instanceID, bool isWindow)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x2F891C0", Offset = "0x2F877C0", VA = "0x182F891C0")]
+	[Address(RVA = "0x698E740", Offset = "0x698D740", VA = "0x698E740")]
 	internal static void Begin(int instanceID)
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x2F88490", Offset = "0x2F86A90", VA = "0x182F88490")]
+	[Address(RVA = "0x698EA00", Offset = "0x698DA00", VA = "0x698EA00")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void BeginContainer(LayoutCache cache)
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x2F88E00", Offset = "0x2F87400", VA = "0x182F88E00")]
+	[Address(RVA = "0x698A0C0", Offset = "0x69890C0", VA = "0x698A0C0")]
 	internal static void BeginWindow(int windowID, GUIStyle style, GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x2F8ACB0", Offset = "0x2F892B0", VA = "0x182F8ACB0")]
+	[Address(RVA = "0x698A460", Offset = "0x6989460", VA = "0x698A460")]
 	internal static void Layout()
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x2F8A790", Offset = "0x2F88D90", VA = "0x182F8A790")]
+	[Address(RVA = "0x698F140", Offset = "0x698E140", VA = "0x698F140")]
 	internal static void LayoutFromEditorWindow()
 	{
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x2F8A5B0", Offset = "0x2F88BB0", VA = "0x182F8A5B0")]
+	[Address(RVA = "0x698F3C0", Offset = "0x698E3C0", VA = "0x698F3C0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void LayoutFromContainer(float w, float h)
 	{
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x2F8A400", Offset = "0x2F88A00", VA = "0x182F8A400")]
+	[Address(RVA = "0x698EC40", Offset = "0x698DC40", VA = "0x698EC40")]
 	internal static void LayoutFreeGroup(GUILayoutGroup toplevel)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x2F8AA00", Offset = "0x2F89000", VA = "0x182F8AA00")]
+	[Address(RVA = "0x698EE00", Offset = "0x698DE00", VA = "0x698EE00")]
 	private static void LayoutSingleGroup(GUILayoutGroup i)
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x2F89480", Offset = "0x2F87A80", VA = "0x182F89480")]
+	[Address(RVA = "0x698F5B0", Offset = "0x698E5B0", VA = "0x698F5B0")]
 	private static GUILayoutGroup CreateGUILayoutGroupInstanceOfType(Type LayoutType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x2F88A30", Offset = "0x2F87030", VA = "0x182F88A30")]
+	[Address(RVA = "0x698C930", Offset = "0x698B930", VA = "0x698C930")]
 	internal static GUILayoutGroup BeginLayoutGroup(GUIStyle style, GUILayoutOption[] options, Type layoutType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x2F89DF0", Offset = "0x2F883F0", VA = "0x182F89DF0")]
+	[Address(RVA = "0x698CDD0", Offset = "0x698BDD0", VA = "0x698CDD0")]
 	internal static void EndLayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x2F88680", Offset = "0x2F86C80", VA = "0x182F88680")]
+	[Address(RVA = "0x698D470", Offset = "0x698C470", VA = "0x698D470")]
 	internal static GUILayoutGroup BeginLayoutArea(GUIStyle style, Type layoutType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x2F89C10", Offset = "0x2F88210", VA = "0x182F89C10")]
+	[Address(RVA = "0x698DA40", Offset = "0x698CA40", VA = "0x698DA40")]
 	internal static void EndLayoutArea()
 	{
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x2F8A200", Offset = "0x2F88800", VA = "0x182F8A200")]
+	[Address(RVA = "0x698BB40", Offset = "0x698AB40", VA = "0x698BB40")]
 	public static Rect GetRect(GUIContent content, GUIStyle style, params GUILayoutOption[] options)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x2F895B0", Offset = "0x2F87BB0", VA = "0x182F895B0")]
+	[Address(RVA = "0x698F7B0", Offset = "0x698E7B0", VA = "0x698F7B0")]
 	private static Rect DoGetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options)
 	{
 		return default(Rect);
@@ -228,11 +228,11 @@ public class GUILayoutUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x2F8A280", Offset = "0x2F88880", VA = "0x182F8A280")]
+	[Address(RVA = "0x698E2E0", Offset = "0x698D2E0", VA = "0x698E2E0")]
 	private static extern void Internal_GetWindowRect_Injected(int windowID, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x2F8A340", Offset = "0x2F88940", VA = "0x182F8A340")]
+	[Address(RVA = "0x698E3B0", Offset = "0x698D3B0", VA = "0x698E3B0")]
 	private static extern void Internal_MoveWindow_Injected(int windowID, [In] ref Rect r);
 }

@@ -48,7 +48,7 @@ public struct TileData
 	public Sprite sprite
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x3060D10", Offset = "0x305F310", VA = "0x183060D10")]
+		[Address(RVA = "0x6A5C460", Offset = "0x6A5B460", VA = "0x6A5C460")]
 		set
 		{
 		}
@@ -58,7 +58,7 @@ public struct TileData
 	public Color color
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x2CF7460", Offset = "0x2CF5A60", VA = "0x182CF7460")]
+		[Address(RVA = "0x6A5C4D0", Offset = "0x6A5B4D0", VA = "0x6A5C4D0")]
 		set
 		{
 		}
@@ -68,7 +68,7 @@ public struct TileData
 	public Matrix4x4 transform
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x3060DA0", Offset = "0x305F3A0", VA = "0x183060DA0")]
+		[Address(RVA = "0x6A5C4E0", Offset = "0x6A5B4E0", VA = "0x6A5C4E0")]
 		set
 		{
 		}
@@ -78,7 +78,7 @@ public struct TileData
 	public GameObject gameObject
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3060C80", Offset = "0x305F280", VA = "0x183060C80")]
+		[Address(RVA = "0x6A5C510", Offset = "0x6A5B510", VA = "0x6A5C510")]
 		set
 		{
 		}
@@ -88,7 +88,7 @@ public struct TileData
 	public TileFlags flags
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x6A5C590", Offset = "0x6A5B590", VA = "0x6A5C590")]
 		set
 		{
 		}
@@ -98,14 +98,14 @@ public struct TileData
 	public Tile.ColliderType colliderType
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x6A5C5A0", Offset = "0x6A5B5A0", VA = "0x6A5C5A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x3060A10", Offset = "0x305F010", VA = "0x183060A10")]
+	[Address(RVA = "0x6A5D1F0", Offset = "0x6A5C1F0", VA = "0x6A5D1F0")]
 	private static TileData CreateDefault()
 	{
 		return default(TileData);

@@ -19,7 +19,7 @@ public class VolumeComponentMenuForRenderPipeline : VolumeComponentMenu
 	public Type[] pipelineTypes
 	{
 		[Token(Token = "0x6000EE3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6553F00", Offset = "0x6552F00", VA = "0x6553F00")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public class VolumeComponentMenuForRenderPipeline : VolumeComponentMenu
 	}
 
 	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x2B65410", Offset = "0x2B63A10", VA = "0x182B65410")]
+	[Address(RVA = "0x6553F10", Offset = "0x6552F10", VA = "0x6553F10")]
 	public VolumeComponentMenuForRenderPipeline(string menu, params Type[] pipelineTypes)
 	{
 	}

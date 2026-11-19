@@ -13,52 +13,63 @@ namespace System.Reflection;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200051C")]
+[Token(Token = "0x20004F5")]
 public class ParameterInfo : ICustomAttributeProvider, IObjectReference, _ParameterInfo
 {
-	[Token(Token = "0x400144A")]
+	[Token(Token = "0x40013AA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	protected ParameterAttributes AttrsImpl;
 
-	[Token(Token = "0x400144B")]
+	[Token(Token = "0x40013AB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	protected Type ClassImpl;
 
-	[Token(Token = "0x400144C")]
+	[Token(Token = "0x40013AC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	protected object DefaultValueImpl;
 
-	[Token(Token = "0x400144D")]
+	[Token(Token = "0x40013AD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	protected MemberInfo MemberImpl;
 
-	[Token(Token = "0x400144E")]
+	[Token(Token = "0x40013AE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	protected string NameImpl;
 
-	[Token(Token = "0x400144F")]
+	[Token(Token = "0x40013AF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	protected int PositionImpl;
 
-	[Token(Token = "0x4001450")]
+	[Token(Token = "0x40013B0")]
 	private const int MetadataToken_ParamDef = 134217728;
 
-	[Token(Token = "0x170004D1")]
+	[Token(Token = "0x170004D0")]
 	public virtual ParameterAttributes Attributes
 	{
-		[Token(Token = "0x6002502")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "8")]
+		[Token(Token = "0x60024D0")]
+		[Address(RVA = "0x53DAFD0", Offset = "0x53D9FD0", VA = "0x53DAFD0", Slot = "8")]
 		get
 		{
 			return default(ParameterAttributes);
 		}
 	}
 
-	[Token(Token = "0x170004D2")]
+	[Token(Token = "0x170004D1")]
 	public virtual MemberInfo Member
 	{
-		[Token(Token = "0x6002503")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "9")]
+		[Token(Token = "0x60024D1")]
+		[Address(RVA = "0x53DAFE0", Offset = "0x53D9FE0", VA = "0x53DAFE0", Slot = "9")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170004D2")]
+	public virtual string Name
+	{
+		[Token(Token = "0x60024D2")]
+		[Address(RVA = "0x53DAFF0", Offset = "0x53D9FF0", VA = "0x53DAFF0", Slot = "10")]
 		get
 		{
 			return null;
@@ -66,10 +77,10 @@ public class ParameterInfo : ICustomAttributeProvider, IObjectReference, _Parame
 	}
 
 	[Token(Token = "0x170004D3")]
-	public virtual string Name
+	public virtual Type ParameterType
 	{
-		[Token(Token = "0x6002504")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "10")]
+		[Token(Token = "0x60024D3")]
+		[Address(RVA = "0x53DB000", Offset = "0x53DA000", VA = "0x53DB000", Slot = "11")]
 		get
 		{
 			return null;
@@ -77,32 +88,32 @@ public class ParameterInfo : ICustomAttributeProvider, IObjectReference, _Parame
 	}
 
 	[Token(Token = "0x170004D4")]
-	public virtual Type ParameterType
-	{
-		[Token(Token = "0x6002505")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "11")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170004D5")]
 	public virtual int Position
 	{
-		[Token(Token = "0x6002506")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "12")]
+		[Token(Token = "0x60024D4")]
+		[Address(RVA = "0x53DB010", Offset = "0x53DA010", VA = "0x53DB010", Slot = "12")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170004D6")]
+	[Token(Token = "0x170004D5")]
 	public bool IsIn
 	{
-		[Token(Token = "0x6002507")]
-		[Address(RVA = "0x1A4BEA0", Offset = "0x1A4A4A0", VA = "0x181A4BEA0")]
+		[Token(Token = "0x60024D5")]
+		[Address(RVA = "0x53DB020", Offset = "0x53DA020", VA = "0x53DB020")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170004D6")]
+	public bool IsOptional
+	{
+		[Token(Token = "0x60024D6")]
+		[Address(RVA = "0x53DB040", Offset = "0x53DA040", VA = "0x53DB040")]
 		get
 		{
 			return default(bool);
@@ -110,10 +121,10 @@ public class ParameterInfo : ICustomAttributeProvider, IObjectReference, _Parame
 	}
 
 	[Token(Token = "0x170004D7")]
-	public bool IsOptional
+	public bool IsOut
 	{
-		[Token(Token = "0x6002508")]
-		[Address(RVA = "0x1A4BEC0", Offset = "0x1A4A4C0", VA = "0x181A4BEC0")]
+		[Token(Token = "0x60024D7")]
+		[Address(RVA = "0x53DB060", Offset = "0x53DA060", VA = "0x53DB060")]
 		get
 		{
 			return default(bool);
@@ -121,74 +132,63 @@ public class ParameterInfo : ICustomAttributeProvider, IObjectReference, _Parame
 	}
 
 	[Token(Token = "0x170004D8")]
-	public bool IsOut
-	{
-		[Token(Token = "0x6002509")]
-		[Address(RVA = "0x1A4BEE0", Offset = "0x1A4A4E0", VA = "0x181A4BEE0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170004D9")]
 	public virtual object DefaultValue
 	{
-		[Token(Token = "0x600250A")]
-		[Address(RVA = "0x1A4BE40", Offset = "0x1A4A440", VA = "0x181A4BE40", Slot = "13")]
+		[Token(Token = "0x60024D8")]
+		[Address(RVA = "0x53DB080", Offset = "0x53DA080", VA = "0x53DB080", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004DA")]
+	[Token(Token = "0x170004D9")]
 	public virtual bool HasDefaultValue
 	{
-		[Token(Token = "0x600250B")]
-		[Address(RVA = "0x1A4BE70", Offset = "0x1A4A470", VA = "0x181A4BE70", Slot = "14")]
+		[Token(Token = "0x60024D9")]
+		[Address(RVA = "0x53DB0B0", Offset = "0x53DA0B0", VA = "0x53DB0B0", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002501")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60024CF")]
+	[Address(RVA = "0x53DAFC0", Offset = "0x53D9FC0", VA = "0x53DAFC0")]
 	protected ParameterInfo()
 	{
 	}
 
-	[Token(Token = "0x600250C")]
-	[Address(RVA = "0x1A4BD30", Offset = "0x1A4A330", VA = "0x181A4BD30", Slot = "15")]
+	[Token(Token = "0x60024DA")]
+	[Address(RVA = "0x53DB0E0", Offset = "0x53DA0E0", VA = "0x53DB0E0", Slot = "15")]
 	public virtual bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600250D")]
-	[Address(RVA = "0x1A4B8A0", Offset = "0x1A49EA0", VA = "0x181A4B8A0", Slot = "16")]
+	[Token(Token = "0x60024DB")]
+	[Address(RVA = "0x53DB160", Offset = "0x53DA160", VA = "0x53DB160", Slot = "16")]
 	public virtual object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600250E")]
-	[Address(RVA = "0x1A4B8D0", Offset = "0x1A49ED0", VA = "0x181A4B8D0", Slot = "17")]
+	[Token(Token = "0x60024DC")]
+	[Address(RVA = "0x53DB220", Offset = "0x53DA220", VA = "0x53DB220", Slot = "17")]
 	public virtual object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600250F")]
-	[Address(RVA = "0x1A4B980", Offset = "0x1A49F80", VA = "0x181A4B980", Slot = "7")]
+	[Token(Token = "0x60024DD")]
+	[Address(RVA = "0x53DB360", Offset = "0x53DA360", VA = "0x53DB360", Slot = "7")]
 	public object GetRealObject(StreamingContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002510")]
-	[Address(RVA = "0x1A4BDB0", Offset = "0x1A4A3B0", VA = "0x181A4BDB0", Slot = "3")]
+	[Token(Token = "0x60024DE")]
+	[Address(RVA = "0x53DB630", Offset = "0x53DA630", VA = "0x53DB630", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

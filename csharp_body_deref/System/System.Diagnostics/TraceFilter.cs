@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000108")]
+[Token(Token = "0x20000C9")]
 public abstract class TraceFilter
 {
-	[Token(Token = "0x6000658")]
+	[Token(Token = "0x60004A2")]
 	public abstract bool ShouldTrace(TraceEventCache cache, string source, TraceEventType eventType, int id, string formatOrMessage, object[] args, object data1, object[] data);
 
-	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x2874EE0", Offset = "0x28734E0", VA = "0x182874EE0")]
+	[Token(Token = "0x60004A3")]
+	[Address(RVA = "0x62017E0", Offset = "0x62007E0", VA = "0x62017E0")]
 	internal bool ShouldTrace(TraceEventCache cache, string source, TraceEventType eventType, int id, string formatOrMessage)
 	{
 		return default(bool);

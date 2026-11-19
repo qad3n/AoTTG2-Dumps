@@ -17,14 +17,14 @@ public class Region
 	public string Code
 	{
 		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x56BD240", Offset = "0x56BC240", VA = "0x56BD240")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000176")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x56BD250", Offset = "0x56BC250", VA = "0x56BD250")]
 		[CompilerGenerated]
 		private set
 		{
@@ -35,14 +35,14 @@ public class Region
 	public string Cluster
 	{
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x56BD260", Offset = "0x56BC260", VA = "0x56BD260")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000178")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x56BD270", Offset = "0x56BC270", VA = "0x56BD270")]
 		[CompilerGenerated]
 		private set
 		{
@@ -53,14 +53,14 @@ public class Region
 	public string HostAndPort
 	{
 		[Token(Token = "0x6000179")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x56BD280", Offset = "0x56BC280", VA = "0x56BD280")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600017A")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x56BD290", Offset = "0x56BC290", VA = "0x56BD290")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -71,14 +71,14 @@ public class Region
 	public int Ping
 	{
 		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x56BD2A0", Offset = "0x56BC2A0", VA = "0x56BD2A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x56BD2B0", Offset = "0x56BC2B0", VA = "0x56BD2B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -89,7 +89,7 @@ public class Region
 	public bool WasPinged
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x1D26300", Offset = "0x1D24900", VA = "0x181D26300")]
+		[Address(RVA = "0x56BD2C0", Offset = "0x56BC2C0", VA = "0x56BD2C0")]
 		get
 		{
 			return default(bool);
@@ -97,32 +97,32 @@ public class Region
 	}
 
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x1D26260", Offset = "0x1D24860", VA = "0x181D26260")]
+	[Address(RVA = "0x56BD2D0", Offset = "0x56BC2D0", VA = "0x56BD2D0")]
 	public Region(string code, string address)
 	{
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x1D262C0", Offset = "0x1D248C0", VA = "0x181D262C0")]
+	[Address(RVA = "0x56BD420", Offset = "0x56BC420", VA = "0x56BD420")]
 	public Region(string code, int ping)
 	{
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x1D25FC0", Offset = "0x1D245C0", VA = "0x181D25FC0")]
+	[Address(RVA = "0x56BD310", Offset = "0x56BC310", VA = "0x56BD310")]
 	private void SetCodeAndCluster(string codeAsString)
 	{
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x1D261B0", Offset = "0x1D247B0", VA = "0x181D261B0", Slot = "3")]
+	[Address(RVA = "0x56BD450", Offset = "0x56BC450", VA = "0x56BD450", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x1D260D0", Offset = "0x1D246D0", VA = "0x181D260D0")]
+	[Address(RVA = "0x56BD460", Offset = "0x56BC460", VA = "0x56BD460")]
 	public string ToString(bool compact = false)
 	{
 		return null;

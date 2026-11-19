@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000125")]
+[Token(Token = "0x20000E6")]
 public sealed class OidEnumerator : IEnumerator
 {
-	[Token(Token = "0x400050C")]
+	[Token(Token = "0x400043D")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly OidCollection _oids;
 
-	[Token(Token = "0x400050D")]
+	[Token(Token = "0x400043E")]
 	[FieldOffset(Offset = "0x18")]
 	private int _current;
 
-	[Token(Token = "0x17000131")]
+	[Token(Token = "0x17000102")]
 	public Oid Current
 	{
-		[Token(Token = "0x600071F")]
-		[Address(RVA = "0x287EB80", Offset = "0x287D180", VA = "0x18287EB80")]
+		[Token(Token = "0x6000568")]
+		[Address(RVA = "0x620A830", Offset = "0x6209830", VA = "0x620A830")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000132")]
+	[Token(Token = "0x17000103")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x6000720")]
-		[Address(RVA = "0x287EB80", Offset = "0x287D180", VA = "0x18287EB80", Slot = "5")]
+		[Token(Token = "0x6000569")]
+		[Address(RVA = "0x620A880", Offset = "0x6209880", VA = "0x620A880", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600071E")]
-	[Address(RVA = "0x1A7BE00", Offset = "0x1A7A400", VA = "0x181A7BE00")]
+	[Token(Token = "0x6000567")]
+	[Address(RVA = "0x620A560", Offset = "0x6209560", VA = "0x620A560")]
 	internal OidEnumerator(OidCollection oids)
 	{
 	}
 
-	[Token(Token = "0x6000721")]
-	[Address(RVA = "0x287EB00", Offset = "0x287D100", VA = "0x18287EB00", Slot = "4")]
+	[Token(Token = "0x600056A")]
+	[Address(RVA = "0x620A8D0", Offset = "0x62098D0", VA = "0x620A8D0", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000722")]
-	[Address(RVA = "0x1B5AFF0", Offset = "0x1B595F0", VA = "0x181B5AFF0", Slot = "6")]
+	[Token(Token = "0x600056B")]
+	[Address(RVA = "0x620A930", Offset = "0x6209930", VA = "0x620A930", Slot = "6")]
 	public void Reset()
 	{
 	}

@@ -9,44 +9,44 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200018D")]
+[Token(Token = "0x200018E")]
 internal sealed class ExceptionHandler
 {
-	[Token(Token = "0x400034C")]
+	[Token(Token = "0x4000355")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _exceptionType;
 
-	[Token(Token = "0x400034D")]
+	[Token(Token = "0x4000356")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly int LabelIndex;
 
-	[Token(Token = "0x400034E")]
+	[Token(Token = "0x4000357")]
 	[FieldOffset(Offset = "0x1C")]
 	public readonly int HandlerStartIndex;
 
-	[Token(Token = "0x400034F")]
+	[Token(Token = "0x4000358")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly int HandlerEndIndex;
 
-	[Token(Token = "0x4000350")]
+	[Token(Token = "0x4000359")]
 	[FieldOffset(Offset = "0x28")]
 	public readonly ExceptionFilter Filter;
 
-	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x24448E0", Offset = "0x2442EE0", VA = "0x1824448E0")]
+	[Token(Token = "0x600086D")]
+	[Address(RVA = "0x5DF4570", Offset = "0x5DF3570", VA = "0x5DF4570")]
 	internal ExceptionHandler(int labelIndex, int handlerStartIndex, int handlerEndIndex, Type exceptionType, ExceptionFilter filter)
 	{
 	}
 
-	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x24447C0", Offset = "0x2442DC0", VA = "0x1824447C0")]
+	[Token(Token = "0x600086E")]
+	[Address(RVA = "0x5DF45E0", Offset = "0x5DF35E0", VA = "0x5DF45E0")]
 	public bool Matches(Type exceptionType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x24447F0", Offset = "0x2442DF0", VA = "0x1824447F0", Slot = "3")]
+	[Token(Token = "0x600086F")]
+	[Address(RVA = "0x5DF4610", Offset = "0x5DF3610", VA = "0x5DF4610", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

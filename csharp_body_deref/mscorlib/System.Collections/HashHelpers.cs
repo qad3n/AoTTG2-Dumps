@@ -11,44 +11,44 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005CB")]
+[Token(Token = "0x20005A6")]
 internal static class HashHelpers
 {
-	[Token(Token = "0x4001868")]
+	[Token(Token = "0x40017CF")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly int[] primes;
 
-	[Token(Token = "0x4001869")]
+	[Token(Token = "0x40017D0")]
 	[FieldOffset(Offset = "0x8")]
 	private static ConditionalWeakTable<object, SerializationInfo> s_serializationInfoTable;
 
-	[Token(Token = "0x170006AB")]
+	[Token(Token = "0x170006AC")]
 	internal static ConditionalWeakTable<object, SerializationInfo> SerializationInfoTable
 	{
-		[Token(Token = "0x6002BBF")]
-		[Address(RVA = "0x1AC03F0", Offset = "0x1ABE9F0", VA = "0x181AC03F0")]
+		[Token(Token = "0x6002B9E")]
+		[Address(RVA = "0x5450860", Offset = "0x544F860", VA = "0x5450860")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002BBC")]
-	[Address(RVA = "0x1AC02B0", Offset = "0x1ABE8B0", VA = "0x181AC02B0")]
+	[Token(Token = "0x6002B9B")]
+	[Address(RVA = "0x5450530", Offset = "0x544F530", VA = "0x5450530")]
 	public static bool IsPrime(int candidate)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002BBD")]
-	[Address(RVA = "0x1AC00B0", Offset = "0x1ABE6B0", VA = "0x181AC00B0")]
+	[Token(Token = "0x6002B9C")]
+	[Address(RVA = "0x54505E0", Offset = "0x544F5E0", VA = "0x54505E0")]
 	public static int GetPrime(int min)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002BBE")]
-	[Address(RVA = "0x1AC0030", Offset = "0x1ABE630", VA = "0x181AC0030")]
+	[Token(Token = "0x6002B9D")]
+	[Address(RVA = "0x54507F0", Offset = "0x544F7F0", VA = "0x54507F0")]
 	public static int ExpandPrime(int oldSize)
 	{
 		return default(int);

@@ -12,55 +12,55 @@ using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x20003B4")]
+[Token(Token = "0x2000411")]
 internal class MapObject
 {
-	[Token(Token = "0x400135E")]
+	[Token(Token = "0x40014F5")]
 	[FieldOffset(Offset = "0x10")]
 	public int Parent;
 
-	[Token(Token = "0x400135F")]
+	[Token(Token = "0x40014F6")]
 	[FieldOffset(Offset = "0x18")]
 	public GameObject GameObject;
 
-	[Token(Token = "0x4001360")]
+	[Token(Token = "0x40014F7")]
 	[FieldOffset(Offset = "0x20")]
 	public MapScriptBaseObject ScriptObject;
 
-	[Token(Token = "0x4001361")]
+	[Token(Token = "0x40014F8")]
 	[FieldOffset(Offset = "0x28")]
 	public Vector3 BaseScale;
 
-	[Token(Token = "0x4001362")]
+	[Token(Token = "0x40014F9")]
 	[FieldOffset(Offset = "0x38")]
 	public List<CustomLogicComponentInstance> ComponentInstances;
 
-	[Token(Token = "0x4001363")]
+	[Token(Token = "0x40014FA")]
 	[FieldOffset(Offset = "0x40")]
 	public Renderer[] renderCache;
 
-	[Token(Token = "0x4001364")]
+	[Token(Token = "0x40014FB")]
 	[FieldOffset(Offset = "0x48")]
 	public Collider[] colliderCache;
 
-	[Token(Token = "0x4001365")]
+	[Token(Token = "0x40014FC")]
 	[FieldOffset(Offset = "0x50")]
 	public bool RuntimeCreated;
 
-	[Token(Token = "0x600177A")]
-	[Address(RVA = "0x1EB53C0", Offset = "0x1EB39C0", VA = "0x181EB53C0")]
+	[Token(Token = "0x60019E8")]
+	[Address(RVA = "0x58A19E0", Offset = "0x58A09E0", VA = "0x58A19E0")]
 	public MapObject(int parent, GameObject gameObject, MapScriptBaseObject scriptObject)
 	{
 	}
 
-	[Token(Token = "0x600177B")]
-	[Address(RVA = "0x1EB5310", Offset = "0x1EB3910", VA = "0x181EB5310")]
+	[Token(Token = "0x60019E9")]
+	[Address(RVA = "0x58A1B30", Offset = "0x58A0B30", VA = "0x58A1B30")]
 	public void RegisterComponentInstance(CustomLogicComponentInstance instance)
 	{
 	}
 
-	[Token(Token = "0x600177C")]
-	[Address(RVA = "0x1EB51A0", Offset = "0x1EB37A0", VA = "0x181EB51A0")]
+	[Token(Token = "0x60019EA")]
+	[Address(RVA = "0x58A1BD0", Offset = "0x58A0BD0", VA = "0x58A1BD0")]
 	public CustomLogicComponentInstance FindComponentInstance(string name)
 	{
 		return null;

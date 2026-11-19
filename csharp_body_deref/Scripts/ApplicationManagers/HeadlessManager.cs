@@ -17,26 +17,26 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000912")]
+[Token(Token = "0x200097C")]
 internal class HeadlessManager : MonoBehaviour
 {
-	[Token(Token = "0x2000913")]
+	[Token(Token = "0x200097D")]
 	[CompilerGenerated]
 	private sealed class _003CHostRoom_003Ed__30 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002D24")]
+		[Token(Token = "0x4002FE2")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002D25")]
+		[Token(Token = "0x4002FE3")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x17000F66")]
+		[Token(Token = "0x17000F4A")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600556C")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60058CF")]
+			[Address(RVA = "0x5D17F50", Offset = "0x5D16F50", VA = "0x5D17F50", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -44,11 +44,11 @@ internal class HeadlessManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000F67")]
+		[Token(Token = "0x17000F4B")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600556E")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60058D1")]
+			[Address(RVA = "0x5D17FA0", Offset = "0x5D16FA0", VA = "0x5D17FA0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -56,56 +56,56 @@ internal class HeadlessManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6005569")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60058CC")]
+		[Address(RVA = "0x5D170C0", Offset = "0x5D160C0", VA = "0x5D170C0")]
 		[DebuggerHidden]
 		public _003CHostRoom_003Ed__30(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600556A")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60058CD")]
+		[Address(RVA = "0x5D17AC0", Offset = "0x5D16AC0", VA = "0x5D17AC0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600556B")]
-		[Address(RVA = "0x2359EA0", Offset = "0x23584A0", VA = "0x182359EA0", Slot = "6")]
+		[Token(Token = "0x60058CE")]
+		[Address(RVA = "0x5D17AD0", Offset = "0x5D16AD0", VA = "0x5D17AD0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600556D")]
-		[Address(RVA = "0x235A330", Offset = "0x2358930", VA = "0x18235A330", Slot = "8")]
+		[Token(Token = "0x60058D0")]
+		[Address(RVA = "0x5D17F60", Offset = "0x5D16F60", VA = "0x5D17F60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000914")]
+	[Token(Token = "0x200097E")]
 	[CompilerGenerated]
 	private sealed class _003CTryJoinRoom_003Ed__31 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002D26")]
+		[Token(Token = "0x4002FE4")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002D27")]
+		[Token(Token = "0x4002FE5")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002D28")]
+		[Token(Token = "0x4002FE6")]
 		[FieldOffset(Offset = "0x20")]
 		public HeadlessManager _003C_003E4__this;
 
-		[Token(Token = "0x17000F68")]
+		[Token(Token = "0x17000F4C")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6005572")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60058D5")]
+			[Address(RVA = "0x5D183B0", Offset = "0x5D173B0", VA = "0x5D183B0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -113,11 +113,11 @@ internal class HeadlessManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000F69")]
+		[Token(Token = "0x17000F4D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6005574")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60058D7")]
+			[Address(RVA = "0x5D18400", Offset = "0x5D17400", VA = "0x5D18400", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -125,225 +125,225 @@ internal class HeadlessManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x600556F")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60058D2")]
+		[Address(RVA = "0x5D170E0", Offset = "0x5D160E0", VA = "0x5D170E0")]
 		[DebuggerHidden]
 		public _003CTryJoinRoom_003Ed__31(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6005570")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60058D3")]
+		[Address(RVA = "0x5D17FB0", Offset = "0x5D16FB0", VA = "0x5D17FB0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6005571")]
-		[Address(RVA = "0x235DD40", Offset = "0x235C340", VA = "0x18235DD40", Slot = "6")]
+		[Token(Token = "0x60058D4")]
+		[Address(RVA = "0x5D17FC0", Offset = "0x5D16FC0", VA = "0x5D17FC0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6005573")]
-		[Address(RVA = "0x235E130", Offset = "0x235C730", VA = "0x18235E130", Slot = "8")]
+		[Token(Token = "0x60058D6")]
+		[Address(RVA = "0x5D183C0", Offset = "0x5D173C0", VA = "0x5D183C0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002D21")]
+	[Token(Token = "0x4002FDF")]
 	[FieldOffset(Offset = "0x28")]
 	private static HeadlessManager _instance;
 
-	[Token(Token = "0x4002D22")]
+	[Token(Token = "0x4002FE0")]
 	[FieldOffset(Offset = "0x20")]
 	private bool _lobbyReady;
 
-	[Token(Token = "0x4002D23")]
+	[Token(Token = "0x4002FE1")]
 	[FieldOffset(Offset = "0x21")]
 	private bool _joining;
 
-	[Token(Token = "0x17000F60")]
+	[Token(Token = "0x17000F44")]
 	public static bool IsHeadless
 	{
-		[Token(Token = "0x6005552")]
-		[Address(RVA = "0x2350E30", Offset = "0x234F430", VA = "0x182350E30")]
+		[Token(Token = "0x60058B5")]
+		[Address(RVA = "0x5D16730", Offset = "0x5D15730", VA = "0x5D16730")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6005553")]
-		[Address(RVA = "0x2350FB0", Offset = "0x234F5B0", VA = "0x182350FB0")]
+		[Token(Token = "0x60058B6")]
+		[Address(RVA = "0x5D16770", Offset = "0x5D15770", VA = "0x5D16770")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F61")]
+	[Token(Token = "0x17000F45")]
 	public static HeadlessMode Mode
 	{
-		[Token(Token = "0x6005554")]
-		[Address(RVA = "0x2350EB0", Offset = "0x234F4B0", VA = "0x182350EB0")]
+		[Token(Token = "0x60058B7")]
+		[Address(RVA = "0x5D167B0", Offset = "0x5D157B0", VA = "0x5D167B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(HeadlessMode);
 		}
-		[Token(Token = "0x6005555")]
-		[Address(RVA = "0x2351030", Offset = "0x234F630", VA = "0x182351030")]
+		[Token(Token = "0x60058B8")]
+		[Address(RVA = "0x5D167F0", Offset = "0x5D157F0", VA = "0x5D167F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F62")]
+	[Token(Token = "0x17000F46")]
 	public static MultiplayerRegion Region
 	{
-		[Token(Token = "0x6005556")]
-		[Address(RVA = "0x2350F30", Offset = "0x234F530", VA = "0x182350F30")]
+		[Token(Token = "0x60058B9")]
+		[Address(RVA = "0x5D16830", Offset = "0x5D15830", VA = "0x5D16830")]
 		[CompilerGenerated]
 		get
 		{
 			return default(MultiplayerRegion);
 		}
-		[Token(Token = "0x6005557")]
-		[Address(RVA = "0x23510D0", Offset = "0x234F6D0", VA = "0x1823510D0")]
+		[Token(Token = "0x60058BA")]
+		[Address(RVA = "0x5D16870", Offset = "0x5D15870", VA = "0x5D16870")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F63")]
+	[Token(Token = "0x17000F47")]
 	public static string RoomName
 	{
-		[Token(Token = "0x6005558")]
-		[Address(RVA = "0x2350F70", Offset = "0x234F570", VA = "0x182350F70")]
+		[Token(Token = "0x60058BB")]
+		[Address(RVA = "0x5D168B0", Offset = "0x5D158B0", VA = "0x5D168B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005559")]
-		[Address(RVA = "0x2351110", Offset = "0x234F710", VA = "0x182351110")]
+		[Token(Token = "0x60058BC")]
+		[Address(RVA = "0x5D168F0", Offset = "0x5D158F0", VA = "0x5D168F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F64")]
+	[Token(Token = "0x17000F48")]
 	public static int MaxPlayers
 	{
-		[Token(Token = "0x600555A")]
-		[Address(RVA = "0x2350E70", Offset = "0x234F470", VA = "0x182350E70")]
+		[Token(Token = "0x60058BD")]
+		[Address(RVA = "0x5D16940", Offset = "0x5D15940", VA = "0x5D16940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600555B")]
-		[Address(RVA = "0x2350FF0", Offset = "0x234F5F0", VA = "0x182350FF0")]
+		[Token(Token = "0x60058BE")]
+		[Address(RVA = "0x5D16980", Offset = "0x5D15980", VA = "0x5D16980")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F65")]
+	[Token(Token = "0x17000F49")]
 	public static string PresetName
 	{
-		[Token(Token = "0x600555C")]
-		[Address(RVA = "0x2350EF0", Offset = "0x234F4F0", VA = "0x182350EF0")]
+		[Token(Token = "0x60058BF")]
+		[Address(RVA = "0x5D169C0", Offset = "0x5D159C0", VA = "0x5D169C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600555D")]
-		[Address(RVA = "0x2351070", Offset = "0x234F670", VA = "0x182351070")]
+		[Token(Token = "0x60058C0")]
+		[Address(RVA = "0x5D16A00", Offset = "0x5D15A00", VA = "0x5D16A00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x600555E")]
-	[Address(RVA = "0x234FB60", Offset = "0x234E160", VA = "0x18234FB60")]
+	[Token(Token = "0x60058C1")]
+	[Address(RVA = "0x5D096B0", Offset = "0x5D086B0", VA = "0x5D096B0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600555F")]
-	[Address(RVA = "0x2350120", Offset = "0x234E720", VA = "0x182350120")]
+	[Token(Token = "0x60058C2")]
+	[Address(RVA = "0x5D16D80", Offset = "0x5D15D80", VA = "0x5D16D80")]
 	public static void OnJoinedLobby()
 	{
 	}
 
-	[Token(Token = "0x6005560")]
-	[Address(RVA = "0x2350260", Offset = "0x234E860", VA = "0x182350260")]
+	[Token(Token = "0x60058C3")]
+	[Address(RVA = "0x5D16F00", Offset = "0x5D15F00", VA = "0x5D16F00")]
 	public static void OnRoomListUpdate()
 	{
 	}
 
-	[Token(Token = "0x6005561")]
-	[Address(RVA = "0x234FB10", Offset = "0x234E110", VA = "0x18234FB10")]
+	[Token(Token = "0x60058C4")]
+	[Address(RVA = "0x5D16EB0", Offset = "0x5D15EB0", VA = "0x5D16EB0")]
 	[IteratorStateMachine(typeof(_003CHostRoom_003Ed__30))]
 	private IEnumerator HostRoom()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005562")]
-	[Address(RVA = "0x2350AA0", Offset = "0x234F0A0", VA = "0x182350AA0")]
+	[Token(Token = "0x60058C5")]
+	[Address(RVA = "0x5D17050", Offset = "0x5D16050", VA = "0x5D17050")]
 	[IteratorStateMachine(typeof(_003CTryJoinRoom_003Ed__31))]
 	private IEnumerator TryJoinRoom()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005563")]
-	[Address(RVA = "0x234F920", Offset = "0x234DF20", VA = "0x18234F920")]
+	[Token(Token = "0x60058C6")]
+	[Address(RVA = "0x5D17100", Offset = "0x5D16100", VA = "0x5D17100")]
 	private static RoomInfo FindRoom(string displayName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005564")]
-	[Address(RVA = "0x23503C0", Offset = "0x234E9C0", VA = "0x1823503C0")]
+	[Token(Token = "0x60058C7")]
+	[Address(RVA = "0x5D17300", Offset = "0x5D16300", VA = "0x5D17300")]
 	private static void PrepareJoinCharacterSettings()
 	{
 	}
 
-	[Token(Token = "0x6005565")]
-	[Address(RVA = "0x2350810", Offset = "0x234EE10", VA = "0x182350810")]
+	[Token(Token = "0x60058C8")]
+	[Address(RVA = "0x5D17770", Offset = "0x5D16770", VA = "0x5D17770")]
 	private static bool TryApplyPreset(string presetName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005566")]
-	[Address(RVA = "0x2350B10", Offset = "0x234F110", VA = "0x182350B10")]
+	[Token(Token = "0x60058C9")]
+	[Address(RVA = "0x5D16A50", Offset = "0x5D15A50", VA = "0x5D16A50")]
 	private static bool TryParseArgs(out HeadlessMode mode, out MultiplayerRegion region, out string roomName, out int maxPlayers, out string preset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005567")]
-	[Address(RVA = "0x2350DD0", Offset = "0x234F3D0", VA = "0x182350DD0")]
+	[Token(Token = "0x60058CA")]
+	[Address(RVA = "0x5D17A40", Offset = "0x5D16A40", VA = "0x5D17A40")]
 	private static bool TryParseRegion(string value, out MultiplayerRegion region)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005568")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60058CB")]
+	[Address(RVA = "0x5D17AB0", Offset = "0x5D16AB0", VA = "0x5D17AB0")]
 	public HeadlessManager()
 	{
 	}

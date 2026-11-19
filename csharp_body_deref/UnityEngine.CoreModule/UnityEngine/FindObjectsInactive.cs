@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001BF")]
+[Token(Token = "0x20001C0")]
 public enum FindObjectsInactive
 {
-	[Token(Token = "0x400064A")]
+	[Token(Token = "0x400064F")]
 	Exclude,
-	[Token(Token = "0x400064B")]
+	[Token(Token = "0x4000650")]
 	Include
 }

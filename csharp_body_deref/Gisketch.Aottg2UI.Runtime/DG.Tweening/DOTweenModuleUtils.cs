@@ -14,7 +14,7 @@ namespace DG.Tweening;
 public static class DOTweenModuleUtils
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x5219E80", Offset = "0x5218E80", VA = "0x5219E80")]
 	[Preserve]
 	public static void Init()
 	{

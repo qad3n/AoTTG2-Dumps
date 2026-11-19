@@ -13,8 +13,8 @@ using UnityEngine.Bindings;
 namespace UnityEngine.UIElements;
 
 [Token(Token = "0x2000513")]
-[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 [Obsolete("UxmlObjectFactoryRegistry is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal class UxmlObjectFactoryRegistry
 {
 	[Token(Token = "0x400110E")]
@@ -25,7 +25,7 @@ internal class UxmlObjectFactoryRegistry
 	internal static Dictionary<string, List<IBaseUxmlObjectFactory>> factories
 	{
 		[Token(Token = "0x60026F0")]
-		[Address(RVA = "0x31583D0", Offset = "0x31569D0", VA = "0x1831583D0")]
+		[Address(RVA = "0x6B5C2C0", Offset = "0x6B5B2C0", VA = "0x6B5C2C0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -34,19 +34,19 @@ internal class UxmlObjectFactoryRegistry
 	}
 
 	[Token(Token = "0x60026F1")]
-	[Address(RVA = "0x3157D80", Offset = "0x3156380", VA = "0x183157D80")]
+	[Address(RVA = "0x6B5C8D0", Offset = "0x6B5B8D0", VA = "0x6B5C8D0")]
 	protected static void RegisterFactory(IBaseUxmlObjectFactory factory)
 	{
 	}
 
 	[Token(Token = "0x60026F2")]
-	[Address(RVA = "0x3157B50", Offset = "0x3156150", VA = "0x183157B50")]
+	[Address(RVA = "0x6B5C380", Offset = "0x6B5B380", VA = "0x6B5C380")]
 	private static void RegisterEngineFactories()
 	{
 	}
 
 	[Token(Token = "0x60026F3")]
-	[Address(RVA = "0x31580F0", Offset = "0x31566F0", VA = "0x1831580F0")]
+	[Address(RVA = "0x6B5C590", Offset = "0x6B5B590", VA = "0x6B5C590")]
 	private static void RegisterUserFactories()
 	{
 	}

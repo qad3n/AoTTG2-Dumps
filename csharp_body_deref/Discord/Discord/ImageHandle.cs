@@ -25,14 +25,14 @@ public struct ImageHandle
 	public uint Size;
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x530AD0", Offset = "0x52F0D0", VA = "0x180530AD0")]
+	[Address(RVA = "0x3140400", Offset = "0x313F400", VA = "0x3140400")]
 	public static ImageHandle User(long id)
 	{
 		return default(ImageHandle);
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x530AB0", Offset = "0x52F0B0", VA = "0x180530AB0")]
+	[Address(RVA = "0x3140420", Offset = "0x313F420", VA = "0x3140420")]
 	public static ImageHandle User(long id, uint size)
 	{
 		return default(ImageHandle);

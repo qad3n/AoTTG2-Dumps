@@ -24,13 +24,13 @@ public class VFXExpressionValues
 	internal IntPtr m_Ptr;
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6D201F0", Offset = "0x6D1F1F0", VA = "0x6D201F0")]
 	private VFXExpressionValues()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x33104A0", Offset = "0x330EAA0", VA = "0x1833104A0")]
+	[Address(RVA = "0x6D20200", Offset = "0x6D1F200", VA = "0x6D20200")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr)
 	{

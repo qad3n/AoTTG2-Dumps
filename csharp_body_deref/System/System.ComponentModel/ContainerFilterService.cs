@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000182")]
+[Token(Token = "0x2000143")]
 public abstract class ContainerFilterService
 {
-	[Token(Token = "0x60009C5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000805")]
+	[Address(RVA = "0x6228C70", Offset = "0x6227C70", VA = "0x6228C70")]
 	protected ContainerFilterService()
 	{
 	}
 
-	[Token(Token = "0x60009C6")]
-	[Address(RVA = "0x8E13A0", Offset = "0x8DF9A0", VA = "0x1808E13A0", Slot = "4")]
+	[Token(Token = "0x6000806")]
+	[Address(RVA = "0x6228C80", Offset = "0x6227C80", VA = "0x6228C80", Slot = "4")]
 	public virtual ComponentCollection FilterComponents(ComponentCollection components)
 	{
 		return null;

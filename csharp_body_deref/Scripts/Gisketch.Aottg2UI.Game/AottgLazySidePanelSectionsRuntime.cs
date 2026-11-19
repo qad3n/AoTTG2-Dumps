@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgLazySidePanelSectionsRuntime
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgLazySidePanelSectionsRuntime.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,172 +14,172 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002EC")]
+[Token(Token = "0x200034A")]
 internal sealed class AottgLazySidePanelSectionsRuntime : MonoBehaviour, IGisketchSectionContentProvider
 {
-	[Token(Token = "0x4000EEB")]
+	[Token(Token = "0x4001081")]
 	public const string NodeType = "LazySidePanelSections";
 
-	[Token(Token = "0x4000EEC")]
+	[Token(Token = "0x4001082")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool _registered;
 
-	[Token(Token = "0x4000EED")]
+	[Token(Token = "0x4001083")]
 	[FieldOffset(Offset = "0x20")]
 	private string _prefix;
 
-	[Token(Token = "0x4000EEE")]
+	[Token(Token = "0x4001084")]
 	[FieldOffset(Offset = "0x28")]
 	private string[] _sectionIds;
 
-	[Token(Token = "0x4000EEF")]
+	[Token(Token = "0x4001085")]
 	[FieldOffset(Offset = "0x30")]
 	private GisketchNodeDefinition[] _sectionNodes;
 
-	[Token(Token = "0x4000EF0")]
+	[Token(Token = "0x4001086")]
 	[FieldOffset(Offset = "0x38")]
 	private GisketchBuildContext _context;
 
-	[Token(Token = "0x4000EF1")]
+	[Token(Token = "0x4001087")]
 	[FieldOffset(Offset = "0x40")]
 	private GisketchView _view;
 
-	[Token(Token = "0x4000EF2")]
+	[Token(Token = "0x4001088")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly Dictionary<string, GameObject> _built;
 
-	[Token(Token = "0x17000201")]
+	[Token(Token = "0x1700023E")]
 	public string Prefix
 	{
-		[Token(Token = "0x6001237")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "4")]
+		[Token(Token = "0x600148D")]
+		[Address(RVA = "0x5814C60", Offset = "0x5813C60", VA = "0x5814C60", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001238")]
-	[Address(RVA = "0x1E2B0C0", Offset = "0x1E296C0", VA = "0x181E2B0C0")]
+	[Token(Token = "0x600148E")]
+	[Address(RVA = "0x5814C70", Offset = "0x5813C70", VA = "0x5814C70")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x6001239")]
-	[Address(RVA = "0x1E2B400", Offset = "0x1E29A00", VA = "0x181E2B400")]
+	[Token(Token = "0x600148F")]
+	[Address(RVA = "0x5814D60", Offset = "0x5813D60", VA = "0x5814D60")]
 	public static bool Select(GameObject source, string sectionId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123A")]
-	[Address(RVA = "0x1E2AEF0", Offset = "0x1E294F0", VA = "0x181E2AEF0")]
+	[Token(Token = "0x6001490")]
+	[Address(RVA = "0x5814FB0", Offset = "0x5813FB0", VA = "0x5814FB0")]
 	public static bool Invalidate(GameObject root, string prefix, string sectionId, GisketchNodeDefinition replacement)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123B")]
-	[Address(RVA = "0x1E2A550", Offset = "0x1E28B50", VA = "0x181E2A550")]
+	[Token(Token = "0x6001491")]
+	[Address(RVA = "0x5815330", Offset = "0x5814330", VA = "0x5815330")]
 	private static bool BuildRuntime(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123C")]
-	[Address(RVA = "0x1E2B6E0", Offset = "0x1E29CE0", VA = "0x181E2B6E0")]
+	[Token(Token = "0x6001492")]
+	[Address(RVA = "0x5815410", Offset = "0x5814410", VA = "0x5815410")]
 	private void Setup(GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 	}
 
-	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x1E2B960", Offset = "0x1E29F60", VA = "0x181E2B960")]
+	[Token(Token = "0x6001493")]
+	[Address(RVA = "0x5815560", Offset = "0x5814560", VA = "0x5815560")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x1E2AB20", Offset = "0x1E29120", VA = "0x181E2AB20", Slot = "5")]
+	[Token(Token = "0x6001494")]
+	[Address(RVA = "0x5815610", Offset = "0x5814610", VA = "0x5815610", Slot = "5")]
 	public bool EnsureSection(string sectionId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x1E2B080", Offset = "0x1E29680", VA = "0x181E2B080")]
+	[Token(Token = "0x6001495")]
+	[Address(RVA = "0x5815530", Offset = "0x5814530", VA = "0x5815530")]
 	private void PrimeInitialSection()
 	{
 	}
 
-	[Token(Token = "0x6001240")]
-	[Address(RVA = "0x1E2AB20", Offset = "0x1E29120", VA = "0x181E2AB20")]
+	[Token(Token = "0x6001496")]
+	[Address(RVA = "0x5814FA0", Offset = "0x5813FA0", VA = "0x5814FA0")]
 	private bool BuildSection(string sectionId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001241")]
-	[Address(RVA = "0x1E2A9F0", Offset = "0x1E28FF0", VA = "0x181E2A9F0")]
+	[Token(Token = "0x6001497")]
+	[Address(RVA = "0x5815620", Offset = "0x5814620", VA = "0x5815620")]
 	private bool BuildSection(string sectionId, bool settle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x1E2A6E0", Offset = "0x1E28CE0", VA = "0x181E2A6E0")]
+	[Token(Token = "0x6001498")]
+	[Address(RVA = "0x5815760", Offset = "0x5814760", VA = "0x5815760")]
 	private bool BuildSectionCore(string sectionId, bool settle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001243")]
-	[Address(RVA = "0x1E2B1C0", Offset = "0x1E297C0", VA = "0x181E2B1C0")]
+	[Token(Token = "0x6001499")]
+	[Address(RVA = "0x5815180", Offset = "0x5814180", VA = "0x5815180")]
 	private bool ReplaceSection(string sectionId, GisketchNodeDefinition replacement)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001244")]
-	[Address(RVA = "0x1E2B7C0", Offset = "0x1E29DC0", VA = "0x181E2B7C0")]
+	[Token(Token = "0x600149A")]
+	[Address(RVA = "0x5815A00", Offset = "0x5814A00", VA = "0x5815A00")]
 	private void ShowOnly(string sectionId)
 	{
 	}
 
-	[Token(Token = "0x6001245")]
-	[Address(RVA = "0x1E2AE50", Offset = "0x1E29450", VA = "0x181E2AE50")]
+	[Token(Token = "0x600149B")]
+	[Address(RVA = "0x5815BC0", Offset = "0x5814BC0", VA = "0x5815BC0")]
 	private int IndexOf(string sectionId)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001246")]
-	[Address(RVA = "0x1E2B610", Offset = "0x1E29C10", VA = "0x181E2B610")]
+	[Token(Token = "0x600149C")]
+	[Address(RVA = "0x5815C30", Offset = "0x5814C30", VA = "0x5815C30")]
 	private void Settle()
 	{
 	}
 
-	[Token(Token = "0x6001247")]
-	[Address(RVA = "0x1E2AD10", Offset = "0x1E29310", VA = "0x181E2AD10")]
+	[Token(Token = "0x600149D")]
+	[Address(RVA = "0x5814E30", Offset = "0x5813E30", VA = "0x5814E30")]
 	private static AottgLazySidePanelSectionsRuntime Find(GameObject source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001248")]
-	[Address(RVA = "0x1E2ABF0", Offset = "0x1E291F0", VA = "0x181E2ABF0")]
+	[Token(Token = "0x600149E")]
+	[Address(RVA = "0x5815050", Offset = "0x5814050", VA = "0x5815050")]
 	private static AottgLazySidePanelSectionsRuntime Find(GameObject root, string prefix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001249")]
-	[Address(RVA = "0x1E2AB30", Offset = "0x1E29130", VA = "0x181E2AB30")]
+	[Token(Token = "0x600149F")]
+	[Address(RVA = "0x5815D00", Offset = "0x5814D00", VA = "0x5815D00")]
 	private static void DestroyObject(GameObject go)
 	{
 	}
 
-	[Token(Token = "0x600124A")]
-	[Address(RVA = "0x1E2BA20", Offset = "0x1E2A020", VA = "0x181E2BA20")]
+	[Token(Token = "0x60014A0")]
+	[Address(RVA = "0x5815DC0", Offset = "0x5814DC0", VA = "0x5815DC0")]
 	public AottgLazySidePanelSectionsRuntime()
 	{
 	}

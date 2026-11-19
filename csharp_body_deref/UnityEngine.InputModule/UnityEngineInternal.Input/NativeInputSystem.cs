@@ -39,39 +39,39 @@ internal class NativeInputSystem
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x2FC6870", Offset = "0x2FC4E70", VA = "0x182FC6870")]
+		[Address(RVA = "0x69C1030", Offset = "0x69C0030", VA = "0x69C1030")]
 		set;
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2FC6840", Offset = "0x2FC4E40", VA = "0x182FC6840")]
+	[Address(RVA = "0x69C1000", Offset = "0x69C0000", VA = "0x69C1000")]
 	static NativeInputSystem()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2FC6620", Offset = "0x2FC4C20", VA = "0x182FC6620")]
+	[Address(RVA = "0x69C1060", Offset = "0x69C0060", VA = "0x69C1060")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyBeforeUpdate(NativeInputUpdateType updateType)
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2FC6710", Offset = "0x2FC4D10", VA = "0x182FC6710")]
+	[Address(RVA = "0x69C10F0", Offset = "0x69C00F0", VA = "0x69C10F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyUpdate(NativeInputUpdateType updateType, IntPtr eventBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2FC6690", Offset = "0x2FC4C90", VA = "0x182FC6690")]
+	[Address(RVA = "0x69C11A0", Offset = "0x69C01A0", VA = "0x69C11A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyDeviceDiscovered(int deviceId, string deviceDescriptor)
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2FC67B0", Offset = "0x2FC4DB0", VA = "0x182FC67B0")]
+	[Address(RVA = "0x69C1230", Offset = "0x69C0230", VA = "0x69C1230")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void ShouldRunUpdate(NativeInputUpdateType updateType, out bool retval)
 	{

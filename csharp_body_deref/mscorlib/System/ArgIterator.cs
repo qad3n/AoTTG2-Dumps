@@ -11,34 +11,34 @@ using Il2CppDummyDll;
 namespace System;
 
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x20001A6")]
+[Token(Token = "0x200017E")]
 public struct ArgIterator
 {
-	[Token(Token = "0x40006DA")]
+	[Token(Token = "0x4000638")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IntPtr sig;
 
-	[Token(Token = "0x40006DB")]
+	[Token(Token = "0x4000639")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private IntPtr args;
 
-	[Token(Token = "0x40006DC")]
+	[Token(Token = "0x400063A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int next_arg;
 
-	[Token(Token = "0x40006DD")]
+	[Token(Token = "0x400063B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	private int num_args;
 
-	[Token(Token = "0x6000F95")]
-	[Address(RVA = "0x1B7BC70", Offset = "0x1B7A270", VA = "0x181B7BC70", Slot = "0")]
+	[Token(Token = "0x6000F6C")]
+	[Address(RVA = "0x550B8E0", Offset = "0x550A8E0", VA = "0x550B8E0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "2")]
+	[Token(Token = "0x6000F6D")]
+	[Address(RVA = "0x550B930", Offset = "0x550A930", VA = "0x550B930", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -14,13 +14,13 @@ namespace Mono.Unity;
 internal static class CertHelper
 {
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x2490300", Offset = "0x248E900", VA = "0x182490300")]
+	[Address(RVA = "0x5E2EED0", Offset = "0x5E2DED0", VA = "0x5E2EED0")]
 	public unsafe static void AddCertificatesToNativeChain(UnityTls.unitytls_x509list* nativeCertificateChain, X509CertificateCollection certificates, UnityTls.unitytls_errorstate* errorState)
 	{
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x2490140", Offset = "0x248E740", VA = "0x182490140")]
+	[Address(RVA = "0x5E2F060", Offset = "0x5E2E060", VA = "0x5E2F060")]
 	public unsafe static void AddCertificateToNativeChain(UnityTls.unitytls_x509list* nativeCertificateChain, X509Certificate certificate, UnityTls.unitytls_errorstate* errorState)
 	{
 	}

@@ -10,132 +10,132 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000243")]
+[Token(Token = "0x200021B")]
 public static class ThreadPool
 {
-	[Token(Token = "0x170001D2")]
+	[Token(Token = "0x170001D1")]
 	internal static bool IsThreadPoolThread
 	{
-		[Token(Token = "0x6001378")]
-		[Address(RVA = "0x1BC2180", Offset = "0x1BC0780", VA = "0x181BC2180")]
+		[Token(Token = "0x600134F")]
+		[Address(RVA = "0x553CE80", Offset = "0x553BE80", VA = "0x553CE80")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001366")]
-	[Address(RVA = "0x1BC1D30", Offset = "0x1BC0330", VA = "0x181BC1D30")]
+	[Token(Token = "0x600133D")]
+	[Address(RVA = "0x553C6C0", Offset = "0x553B6C0", VA = "0x553C6C0")]
 	private static RegisteredWaitHandle RegisterWaitForSingleObject(WaitHandle waitObject, WaitOrTimerCallback callBack, object state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, bool compressStack)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001367")]
-	[Address(RVA = "0x1BC1C80", Offset = "0x1BC0280", VA = "0x181BC1C80")]
+	[Token(Token = "0x600133E")]
+	[Address(RVA = "0x553C990", Offset = "0x553B990", VA = "0x553C990")]
 	public static RegisteredWaitHandle RegisterWaitForSingleObject(WaitHandle waitObject, WaitOrTimerCallback callBack, object state, int millisecondsTimeOutInterval, bool executeOnlyOnce)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001368")]
-	[Address(RVA = "0x1BC1B00", Offset = "0x1BC0100", VA = "0x181BC1B00")]
+	[Token(Token = "0x600133F")]
+	[Address(RVA = "0x553CA20", Offset = "0x553BA20", VA = "0x553CA20")]
 	public static RegisteredWaitHandle RegisterWaitForSingleObject(WaitHandle waitObject, WaitOrTimerCallback callBack, object state, TimeSpan timeout, bool executeOnlyOnce)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001369")]
-	[Address(RVA = "0x1BC1AD0", Offset = "0x1BC00D0", VA = "0x181BC1AD0")]
+	[Token(Token = "0x6001340")]
+	[Address(RVA = "0x553C950", Offset = "0x553B950", VA = "0x553C950")]
 	public static bool QueueUserWorkItem(WaitCallback callBack, object state)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600136A")]
-	[Address(RVA = "0x1BC1AA0", Offset = "0x1BC00A0", VA = "0x181BC1AA0")]
+	[Token(Token = "0x6001341")]
+	[Address(RVA = "0x553CC30", Offset = "0x553BC30", VA = "0x553CC30")]
 	public static bool QueueUserWorkItem(WaitCallback callBack)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600136B")]
-	[Address(RVA = "0x1BC2150", Offset = "0x1BC0750", VA = "0x181BC2150")]
+	[Token(Token = "0x6001342")]
+	[Address(RVA = "0x553C970", Offset = "0x553B970", VA = "0x553C970")]
 	public static bool UnsafeQueueUserWorkItem(WaitCallback callBack, object state)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600136C")]
+	[Token(Token = "0x6001343")]
 	public static bool QueueUserWorkItem<TState>(Action<TState> callBack, TState state, bool preferLocal)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600136D")]
-	[Address(RVA = "0x1BC1970", Offset = "0x1BBFF70", VA = "0x181BC1970")]
+	[Token(Token = "0x6001344")]
+	[Address(RVA = "0x553CB20", Offset = "0x553BB20", VA = "0x553CB20")]
 	private static bool QueueUserWorkItemHelper(WaitCallback callBack, object state, ref System.Threading.StackCrawlMark stackMark, bool compressStack, bool forceGlobal = true)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600136E")]
-	[Address(RVA = "0x1BC20D0", Offset = "0x1BC06D0", VA = "0x181BC20D0")]
+	[Token(Token = "0x6001345")]
+	[Address(RVA = "0x553CD00", Offset = "0x553BD00", VA = "0x553CD00")]
 	internal static void UnsafeQueueCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem, bool forceGlobal)
 	{
 	}
 
-	[Token(Token = "0x600136F")]
-	[Address(RVA = "0x1BC1FE0", Offset = "0x1BC05E0", VA = "0x181BC1FE0")]
+	[Token(Token = "0x6001346")]
+	[Address(RVA = "0x553CD70", Offset = "0x553BD70", VA = "0x553CD70")]
 	internal static bool TryPopCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001370")]
-	[Address(RVA = "0x1BC1FD0", Offset = "0x1BC05D0", VA = "0x181BC1FD0")]
+	[Token(Token = "0x6001347")]
+	[Address(RVA = "0x553A410", Offset = "0x5539410", VA = "0x553A410")]
 	internal static extern bool RequestWorkerThread();
 
-	[Token(Token = "0x6001371")]
-	[Address(RVA = "0x1BC18A0", Offset = "0x1BBFEA0", VA = "0x181BC18A0")]
+	[Token(Token = "0x6001348")]
+	[Address(RVA = "0x553CC60", Offset = "0x553BC60", VA = "0x553CC60")]
 	private static void EnsureVMInitialized()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001372")]
-	[Address(RVA = "0x1BC1950", Offset = "0x1BBFF50", VA = "0x181BC1950")]
+	[Token(Token = "0x6001349")]
+	[Address(RVA = "0x553BD30", Offset = "0x553AD30", VA = "0x553BD30")]
 	internal static extern bool NotifyWorkItemComplete();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001373")]
-	[Address(RVA = "0x1A6DB30", Offset = "0x1A6C130", VA = "0x181A6DB30")]
+	[Token(Token = "0x600134A")]
+	[Address(RVA = "0x553CE50", Offset = "0x553BE50", VA = "0x553CE50")]
 	internal static extern void ReportThreadStatus(bool isWorking);
 
-	[Token(Token = "0x6001374")]
-	[Address(RVA = "0x1BC0330", Offset = "0x1BBE930", VA = "0x181BC0330")]
+	[Token(Token = "0x600134B")]
+	[Address(RVA = "0x553CE60", Offset = "0x553BE60", VA = "0x553CE60")]
 	internal static void NotifyWorkItemProgress()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001375")]
-	[Address(RVA = "0x1BC1960", Offset = "0x1BBFF60", VA = "0x181BC1960")]
+	[Token(Token = "0x600134C")]
+	[Address(RVA = "0x553CE70", Offset = "0x553BE70", VA = "0x553CE70")]
 	internal static extern void NotifyWorkItemProgressNative();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001376")]
-	[Address(RVA = "0x1A703C0", Offset = "0x1A6E9C0", VA = "0x181A703C0")]
+	[Token(Token = "0x600134D")]
+	[Address(RVA = "0x553AD10", Offset = "0x5539D10", VA = "0x553AD10")]
 	internal static extern void NotifyWorkItemQueued();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001377")]
-	[Address(RVA = "0x1BC1940", Offset = "0x1BBFF40", VA = "0x181BC1940")]
+	[Token(Token = "0x600134E")]
+	[Address(RVA = "0x553CE40", Offset = "0x553BE40", VA = "0x553CE40")]
 	private static extern void InitializeVMTp(ref bool enableWorkerTracking);
 }

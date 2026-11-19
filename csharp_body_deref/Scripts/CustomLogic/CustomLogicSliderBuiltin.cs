@@ -12,322 +12,322 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200059E")]
+[Token(Token = "0x20005FD")]
 [CompilerGenerated]
 internal class CustomLogicSliderBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x200059F")]
+	[Token(Token = "0x20005FE")]
 	public new static class Factory
 	{
-		[Token(Token = "0x600351D")]
-		[Address(RVA = "0x20748A0", Offset = "0x2072EA0", VA = "0x1820748A0")]
+		[Token(Token = "0x60037A9")]
+		[Address(RVA = "0x5A053E0", Offset = "0x5A043E0", VA = "0x5A053E0")]
 		public static CustomLogicSliderBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20005A0")]
+	[Token(Token = "0x20005FF")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x40017FD")]
+		[Token(Token = "0x400199D")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600351E")]
-		[Address(RVA = "0x2049B20", Offset = "0x2048120", VA = "0x182049B20")]
+		[Token(Token = "0x60037AA")]
+		[Address(RVA = "0x5A05470", Offset = "0x5A04470", VA = "0x5A05470")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600351F")]
-		[Address(RVA = "0x2062780", Offset = "0x2060D80", VA = "0x182062780")]
+		[Token(Token = "0x60037AB")]
+		[Address(RVA = "0x5A05930", Offset = "0x5A04930", VA = "0x5A05930")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__Label()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003520")]
-		[Address(RVA = "0x2063B80", Offset = "0x2062180", VA = "0x182063B80")]
+		[Token(Token = "0x60037AC")]
+		[Address(RVA = "0x5A05A10", Offset = "0x5A04A10", VA = "0x5A05A10")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__Value()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003521")]
-		[Address(RVA = "0x2062C30", Offset = "0x2061230", VA = "0x182062C30")]
+		[Token(Token = "0x60037AD")]
+		[Address(RVA = "0x5A05AF0", Offset = "0x5A04AF0", VA = "0x5A05AF0")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__LowValue()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003522")]
-		[Address(RVA = "0x2062140", Offset = "0x2060740", VA = "0x182062140")]
+		[Token(Token = "0x60037AE")]
+		[Address(RVA = "0x5A05BD0", Offset = "0x5A04BD0", VA = "0x5A05BD0")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__HighValue()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003523")]
-		[Address(RVA = "0x2062FF0", Offset = "0x20615F0", VA = "0x182062FF0")]
+		[Token(Token = "0x60037AF")]
+		[Address(RVA = "0x5A05CB0", Offset = "0x5A04CB0", VA = "0x5A05CB0")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__PageSize()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003524")]
-		[Address(RVA = "0x2061A10", Offset = "0x2060010", VA = "0x182061A10")]
+		[Token(Token = "0x60037B0")]
+		[Address(RVA = "0x5A05D90", Offset = "0x5A04D90", VA = "0x5A05D90")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__Direction()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003525")]
-		[Address(RVA = "0x20634A0", Offset = "0x2061AA0", VA = "0x1820634A0")]
+		[Token(Token = "0x60037B1")]
+		[Address(RVA = "0x5A05E70", Offset = "0x5A04E70", VA = "0x5A05E70")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__ShowInputField()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003526")]
-		[Address(RVA = "0x20626E0", Offset = "0x2060CE0", VA = "0x1820626E0")]
+		[Token(Token = "0x60037B2")]
+		[Address(RVA = "0x5A05F50", Offset = "0x5A04F50", VA = "0x5A05F50")]
 		public static CLPropertyBinding<CustomLogicSliderBuiltin> __CreatePropertyBinding__IsIntSlider()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003527")]
-		[Address(RVA = "0x205B760", Offset = "0x2059D60", VA = "0x18205B760")]
+		[Token(Token = "0x60037B3")]
+		[Address(RVA = "0x5A05FF0", Offset = "0x5A04FF0", VA = "0x5A05FF0")]
 		public static CLMethodBinding<CustomLogicSliderBuiltin> __CreateMethodBinding__OnValueChanged()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003528")]
-		[Address(RVA = "0x205F570", Offset = "0x205DB70", VA = "0x18205F570")]
+		[Token(Token = "0x60037B4")]
+		[Address(RVA = "0x5A06130", Offset = "0x5A05130", VA = "0x5A06130")]
 		public static CLMethodBinding<CustomLogicSliderBuiltin> __CreateMethodBinding__SetValueWithoutNotify()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40017F9")]
+	[Token(Token = "0x4001999")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly Slider _floatSlider;
 
-	[Token(Token = "0x40017FA")]
+	[Token(Token = "0x400199A")]
 	[FieldOffset(Offset = "0x68")]
 	private readonly SliderInt _intSlider;
 
-	[Token(Token = "0x40017FB")]
+	[Token(Token = "0x400199B")]
 	[FieldOffset(Offset = "0x70")]
 	private readonly bool _isIntSlider;
 
-	[Token(Token = "0x40017FC")]
+	[Token(Token = "0x400199C")]
 	[FieldOffset(Offset = "0x78")]
 	private UserMethod _valueChangedEvent;
 
-	[Token(Token = "0x170009CB")]
+	[Token(Token = "0x17000A13")]
 	public string Label
 	{
-		[Token(Token = "0x6003506")]
-		[Address(RVA = "0x2068F10", Offset = "0x2067510", VA = "0x182068F10")]
+		[Token(Token = "0x6003792")]
+		[Address(RVA = "0x5A04920", Offset = "0x5A03920", VA = "0x5A04920")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003507")]
-		[Address(RVA = "0x2069460", Offset = "0x2067A60", VA = "0x182069460")]
+		[Token(Token = "0x6003793")]
+		[Address(RVA = "0x5A04990", Offset = "0x5A03990", VA = "0x5A04990")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009CC")]
+	[Token(Token = "0x17000A14")]
 	public object Value
 	{
-		[Token(Token = "0x6003508")]
-		[Address(RVA = "0x20690C0", Offset = "0x20676C0", VA = "0x1820690C0")]
+		[Token(Token = "0x6003794")]
+		[Address(RVA = "0x5A04A20", Offset = "0x5A03A20", VA = "0x5A04A20")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003509")]
-		[Address(RVA = "0x2069720", Offset = "0x2067D20", VA = "0x182069720")]
+		[Token(Token = "0x6003795")]
+		[Address(RVA = "0x5A04AA0", Offset = "0x5A03AA0", VA = "0x5A04AA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009CD")]
+	[Token(Token = "0x17000A15")]
 	public object LowValue
 	{
-		[Token(Token = "0x600350A")]
-		[Address(RVA = "0x2068F90", Offset = "0x2067590", VA = "0x182068F90")]
+		[Token(Token = "0x6003796")]
+		[Address(RVA = "0x5A04B70", Offset = "0x5A03B70", VA = "0x5A04B70")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600350B")]
-		[Address(RVA = "0x20694F0", Offset = "0x2067AF0", VA = "0x1820694F0")]
+		[Token(Token = "0x6003797")]
+		[Address(RVA = "0x5A04C20", Offset = "0x5A03C20", VA = "0x5A04C20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009CE")]
+	[Token(Token = "0x17000A16")]
 	public object HighValue
 	{
-		[Token(Token = "0x600350C")]
-		[Address(RVA = "0x2068E60", Offset = "0x2067460", VA = "0x182068E60")]
+		[Token(Token = "0x6003798")]
+		[Address(RVA = "0x5A04D30", Offset = "0x5A03D30", VA = "0x5A04D30")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600350D")]
-		[Address(RVA = "0x20692B0", Offset = "0x20678B0", VA = "0x1820692B0")]
+		[Token(Token = "0x6003799")]
+		[Address(RVA = "0x5A04DE0", Offset = "0x5A03DE0", VA = "0x5A04DE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009CF")]
+	[Token(Token = "0x17000A17")]
 	public float PageSize
 	{
-		[Token(Token = "0x600350E")]
-		[Address(RVA = "0x2069040", Offset = "0x2067640", VA = "0x182069040")]
+		[Token(Token = "0x600379A")]
+		[Address(RVA = "0x5A04EF0", Offset = "0x5A03EF0", VA = "0x5A04EF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600350F")]
-		[Address(RVA = "0x20696A0", Offset = "0x2067CA0", VA = "0x1820696A0")]
+		[Token(Token = "0x600379B")]
+		[Address(RVA = "0x5A04F30", Offset = "0x5A03F30", VA = "0x5A04F30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009D0")]
+	[Token(Token = "0x17000A18")]
 	public int Direction
 	{
-		[Token(Token = "0x6003510")]
-		[Address(RVA = "0x2068DE0", Offset = "0x20673E0", VA = "0x182068DE0")]
+		[Token(Token = "0x600379C")]
+		[Address(RVA = "0x5A04F70", Offset = "0x5A03F70", VA = "0x5A04F70")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6003511")]
-		[Address(RVA = "0x2069140", Offset = "0x2067740", VA = "0x182069140")]
+		[Token(Token = "0x600379D")]
+		[Address(RVA = "0x5A04FE0", Offset = "0x5A03FE0", VA = "0x5A04FE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009D1")]
+	[Token(Token = "0x17000A19")]
 	public bool ShowInputField
 	{
-		[Token(Token = "0x6003512")]
-		[Address(RVA = "0x2069080", Offset = "0x2067680", VA = "0x182069080")]
+		[Token(Token = "0x600379E")]
+		[Address(RVA = "0x5A05160", Offset = "0x5A04160", VA = "0x5A05160")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6003513")]
-		[Address(RVA = "0x20696E0", Offset = "0x2067CE0", VA = "0x1820696E0")]
+		[Token(Token = "0x600379F")]
+		[Address(RVA = "0x5A051A0", Offset = "0x5A041A0", VA = "0x5A051A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009D2")]
+	[Token(Token = "0x17000A1A")]
 	public bool IsIntSlider
 	{
-		[Token(Token = "0x6003514")]
-		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
+		[Token(Token = "0x60037A0")]
+		[Address(RVA = "0x5A051E0", Offset = "0x5A041E0", VA = "0x5A051E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009D3")]
+	[Token(Token = "0x17000A1B")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003517")]
-		[Address(RVA = "0x2068DB0", Offset = "0x20673B0", VA = "0x182068DB0", Slot = "6")]
+		[Token(Token = "0x60037A3")]
+		[Address(RVA = "0x5A052E0", Offset = "0x5A042E0", VA = "0x5A052E0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009D4")]
+	[Token(Token = "0x17000A1C")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003518")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x60037A4")]
+		[Address(RVA = "0x5A05310", Offset = "0x5A04310", VA = "0x5A05310", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009D5")]
+	[Token(Token = "0x17000A1D")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003519")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x60037A5")]
+		[Address(RVA = "0x5A05320", Offset = "0x5A04320", VA = "0x5A05320", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009D6")]
+	[Token(Token = "0x17000A1E")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600351A")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x60037A6")]
+		[Address(RVA = "0x5A05330", Offset = "0x5A04330", VA = "0x5A05330", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003502")]
-	[Address(RVA = "0x2068CF0", Offset = "0x20672F0", VA = "0x182068CF0")]
+	[Token(Token = "0x600378E")]
+	[Address(RVA = "0x5A04580", Offset = "0x5A03580", VA = "0x5A04580")]
 	public CustomLogicSliderBuiltin(Slider slider)
 	{
 	}
 
-	[Token(Token = "0x6003503")]
-	[Address(RVA = "0x2068C30", Offset = "0x2067230", VA = "0x182068C30")]
+	[Token(Token = "0x600378F")]
+	[Address(RVA = "0x5A04630", Offset = "0x5A03630", VA = "0x5A04630")]
 	public CustomLogicSliderBuiltin(SliderInt sliderInt)
 	{
 	}
 
-	[Token(Token = "0x6003504")]
-	[Address(RVA = "0x2068570", Offset = "0x2066B70", VA = "0x182068570")]
+	[Token(Token = "0x6003790")]
+	[Address(RVA = "0x5A046E0", Offset = "0x5A036E0", VA = "0x5A046E0")]
 	private void OnValueChanged(float value)
 	{
 	}
 
-	[Token(Token = "0x6003505")]
-	[Address(RVA = "0x20686A0", Offset = "0x2066CA0", VA = "0x1820686A0")]
+	[Token(Token = "0x6003791")]
+	[Address(RVA = "0x5A04800", Offset = "0x5A03800", VA = "0x5A04800")]
 	private void OnValueChanged(int value)
 	{
 	}
 
-	[Token(Token = "0x6003515")]
-	[Address(RVA = "0x2068550", Offset = "0x2066B50", VA = "0x182068550")]
+	[Token(Token = "0x60037A1")]
+	[Address(RVA = "0x5A051F0", Offset = "0x5A041F0", VA = "0x5A051F0")]
 	public CustomLogicSliderBuiltin OnValueChanged(UserMethod valueChangedEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003516")]
-	[Address(RVA = "0x20687D0", Offset = "0x2066DD0", VA = "0x1820687D0")]
+	[Token(Token = "0x60037A2")]
+	[Address(RVA = "0x5A05210", Offset = "0x5A04210", VA = "0x5A05210")]
 	public void SetValueWithoutNotify(object value)
 	{
 	}

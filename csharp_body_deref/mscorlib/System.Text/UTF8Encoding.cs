@@ -10,340 +10,340 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x20002BD")]
+[Token(Token = "0x2000295")]
 public class UTF8Encoding : Encoding
 {
-	[Token(Token = "0x20002BE")]
+	[Token(Token = "0x2000296")]
 	internal sealed class UTF8EncodingSealed : UTF8Encoding
 	{
-		[Token(Token = "0x17000240")]
+		[Token(Token = "0x1700023F")]
 		public override ReadOnlySpan<byte> Preamble
 		{
-			[Token(Token = "0x600170A")]
-			[Address(RVA = "0x199D150", Offset = "0x199B750", VA = "0x18199D150", Slot = "7")]
+			[Token(Token = "0x60016E2")]
+			[Address(RVA = "0x5319DA0", Offset = "0x5318DA0", VA = "0x5319DA0", Slot = "7")]
 			get
 			{
 				return default(ReadOnlySpan<byte>);
 			}
 		}
 
-		[Token(Token = "0x6001709")]
-		[Address(RVA = "0x199D0F0", Offset = "0x199B6F0", VA = "0x18199D0F0")]
+		[Token(Token = "0x60016E1")]
+		[Address(RVA = "0x5319D40", Offset = "0x5318D40", VA = "0x5319D40")]
 		public UTF8EncodingSealed(bool encoderShouldEmitUTF8Identifier)
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x20002BF")]
+	[Token(Token = "0x2000297")]
 	private sealed class UTF8Encoder : System.Text.EncoderNLS
 	{
-		[Token(Token = "0x4000BD0")]
+		[Token(Token = "0x4000B2E")]
 		[FieldOffset(Offset = "0x38")]
 		internal int surrogateChar;
 
-		[Token(Token = "0x17000241")]
+		[Token(Token = "0x17000240")]
 		internal override bool HasState
 		{
-			[Token(Token = "0x600170D")]
-			[Address(RVA = "0x199D0E0", Offset = "0x199B6E0", VA = "0x18199D0E0", Slot = "11")]
+			[Token(Token = "0x60016E5")]
+			[Address(RVA = "0x5319EE0", Offset = "0x5318EE0", VA = "0x5319EE0", Slot = "11")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x600170B")]
-		[Address(RVA = "0x199D0D0", Offset = "0x199B6D0", VA = "0x18199D0D0")]
+		[Token(Token = "0x60016E3")]
+		[Address(RVA = "0x5319640", Offset = "0x5318640", VA = "0x5319640")]
 		public UTF8Encoder(UTF8Encoding encoding)
 		{
 		}
 
-		[Token(Token = "0x600170C")]
-		[Address(RVA = "0x199D0A0", Offset = "0x199B6A0", VA = "0x18199D0A0", Slot = "4")]
+		[Token(Token = "0x60016E4")]
+		[Address(RVA = "0x5319EB0", Offset = "0x5318EB0", VA = "0x5319EB0", Slot = "4")]
 		public override void Reset()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x20002C0")]
+	[Token(Token = "0x2000298")]
 	private sealed class UTF8Decoder : System.Text.DecoderNLS
 	{
-		[Token(Token = "0x4000BD1")]
+		[Token(Token = "0x4000B2F")]
 		[FieldOffset(Offset = "0x30")]
 		internal int bits;
 
-		[Token(Token = "0x17000242")]
+		[Token(Token = "0x17000241")]
 		internal override bool HasState
 		{
-			[Token(Token = "0x6001710")]
-			[Address(RVA = "0x199D090", Offset = "0x199B690", VA = "0x18199D090", Slot = "14")]
+			[Token(Token = "0x60016E8")]
+			[Address(RVA = "0x5319F20", Offset = "0x5318F20", VA = "0x5319F20", Slot = "14")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x600170E")]
-		[Address(RVA = "0x199D080", Offset = "0x199B680", VA = "0x18199D080")]
+		[Token(Token = "0x60016E6")]
+		[Address(RVA = "0x53195A0", Offset = "0x53185A0", VA = "0x53195A0")]
 		public UTF8Decoder(UTF8Encoding encoding)
 		{
 		}
 
-		[Token(Token = "0x600170F")]
-		[Address(RVA = "0x199D050", Offset = "0x199B650", VA = "0x18199D050", Slot = "4")]
+		[Token(Token = "0x60016E7")]
+		[Address(RVA = "0x5319EF0", Offset = "0x5318EF0", VA = "0x5319EF0", Slot = "4")]
 		public override void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000BCC")]
+	[Token(Token = "0x4000B2A")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly UTF8EncodingSealed s_default;
 
-	[Token(Token = "0x4000BCD")]
+	[Token(Token = "0x4000B2B")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly byte[] s_preamble;
 
-	[Token(Token = "0x4000BCE")]
+	[Token(Token = "0x4000B2C")]
 	[FieldOffset(Offset = "0x38")]
 	internal readonly bool _emitUTF8Identifier;
 
-	[Token(Token = "0x4000BCF")]
+	[Token(Token = "0x4000B2D")]
 	[FieldOffset(Offset = "0x39")]
 	private bool _isThrowException;
 
-	[Token(Token = "0x1700023F")]
+	[Token(Token = "0x1700023E")]
 	public override ReadOnlySpan<byte> Preamble
 	{
-		[Token(Token = "0x6001705")]
-		[Address(RVA = "0x198A5D0", Offset = "0x1988BD0", VA = "0x18198A5D0", Slot = "7")]
+		[Token(Token = "0x60016DD")]
+		[Address(RVA = "0x5319990", Offset = "0x5318990", VA = "0x5319990", Slot = "7")]
 		get
 		{
 			return default(ReadOnlySpan<byte>);
 		}
 	}
 
-	[Token(Token = "0x60016E7")]
-	[Address(RVA = "0x198A570", Offset = "0x1988B70", VA = "0x18198A570")]
+	[Token(Token = "0x60016BF")]
+	[Address(RVA = "0x53161A0", Offset = "0x53151A0", VA = "0x53161A0")]
 	public UTF8Encoding()
 	{
 	}
 
-	[Token(Token = "0x60016E8")]
-	[Address(RVA = "0x198A5A0", Offset = "0x1988BA0", VA = "0x18198A5A0")]
+	[Token(Token = "0x60016C0")]
+	[Address(RVA = "0x53161C0", Offset = "0x53151C0", VA = "0x53161C0")]
 	public UTF8Encoding(bool encoderShouldEmitUTF8Identifier)
 	{
 	}
 
-	[Token(Token = "0x60016E9")]
-	[Address(RVA = "0x198A510", Offset = "0x1988B10", VA = "0x18198A510")]
+	[Token(Token = "0x60016C1")]
+	[Address(RVA = "0x53161F0", Offset = "0x53151F0", VA = "0x53161F0")]
 	public UTF8Encoding(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes)
 	{
 	}
 
-	[Token(Token = "0x60016EA")]
-	[Address(RVA = "0x198A350", Offset = "0x1988950", VA = "0x18198A350", Slot = "5")]
+	[Token(Token = "0x60016C2")]
+	[Address(RVA = "0x5316240", Offset = "0x5315240", VA = "0x5316240", Slot = "5")]
 	internal override void SetDefaultFallbacks()
 	{
 	}
 
-	[Token(Token = "0x60016EB")]
-	[Address(RVA = "0x19875B0", Offset = "0x1985BB0", VA = "0x1819875B0", Slot = "12")]
+	[Token(Token = "0x60016C3")]
+	[Address(RVA = "0x53163B0", Offset = "0x53153B0", VA = "0x53163B0", Slot = "12")]
 	public override int GetByteCount(char[] chars, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016EC")]
-	[Address(RVA = "0x1986E40", Offset = "0x1985440", VA = "0x181986E40", Slot = "11")]
+	[Token(Token = "0x60016C4")]
+	[Address(RVA = "0x5316500", Offset = "0x5315500", VA = "0x5316500", Slot = "11")]
 	public override int GetByteCount(string chars)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016ED")]
-	[Address(RVA = "0x1987760", Offset = "0x1985D60", VA = "0x181987760", Slot = "13")]
+	[Token(Token = "0x60016C5")]
+	[Address(RVA = "0x5316590", Offset = "0x5315590", VA = "0x5316590", Slot = "13")]
 	[CLSCompliant(false)]
 	public unsafe override int GetByteCount(char* chars, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016EE")]
-	[Address(RVA = "0x1988440", Offset = "0x1986A40", VA = "0x181988440", Slot = "19")]
+	[Token(Token = "0x60016C6")]
+	[Address(RVA = "0x5316660", Offset = "0x5315660", VA = "0x5316660", Slot = "19")]
 	public override int GetBytes(string s, int charIndex, int charCount, byte[] bytes, int byteIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016EF")]
-	[Address(RVA = "0x1988710", Offset = "0x1986D10", VA = "0x181988710", Slot = "17")]
+	[Token(Token = "0x60016C7")]
+	[Address(RVA = "0x53168B0", Offset = "0x53158B0", VA = "0x53168B0", Slot = "17")]
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F0")]
-	[Address(RVA = "0x1988310", Offset = "0x1986910", VA = "0x181988310", Slot = "21")]
+	[Token(Token = "0x60016C8")]
+	[Address(RVA = "0x5316B30", Offset = "0x5315B30", VA = "0x5316B30", Slot = "21")]
 	[CLSCompliant(false)]
 	public unsafe override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F1")]
-	[Address(RVA = "0x1988FC0", Offset = "0x19875C0", VA = "0x181988FC0", Slot = "22")]
+	[Token(Token = "0x60016C9")]
+	[Address(RVA = "0x5316C20", Offset = "0x5315C20", VA = "0x5316C20", Slot = "22")]
 	public override int GetCharCount(byte[] bytes, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F2")]
-	[Address(RVA = "0x1988ED0", Offset = "0x19874D0", VA = "0x181988ED0", Slot = "23")]
+	[Token(Token = "0x60016CA")]
+	[Address(RVA = "0x5316D70", Offset = "0x5315D70", VA = "0x5316D70", Slot = "23")]
 	[CLSCompliant(false)]
 	public unsafe override int GetCharCount(byte* bytes, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F3")]
-	[Address(RVA = "0x1989170", Offset = "0x1987770", VA = "0x181989170", Slot = "26")]
+	[Token(Token = "0x60016CB")]
+	[Address(RVA = "0x5316E40", Offset = "0x5315E40", VA = "0x5316E40", Slot = "26")]
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F4")]
-	[Address(RVA = "0x1989C00", Offset = "0x1988200", VA = "0x181989C00", Slot = "27")]
+	[Token(Token = "0x60016CC")]
+	[Address(RVA = "0x53170B0", Offset = "0x53160B0", VA = "0x53170B0", Slot = "27")]
 	[CLSCompliant(false)]
 	public unsafe override int GetChars(byte* bytes, int byteCount, char* chars, int charCount)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F5")]
-	[Address(RVA = "0x198A170", Offset = "0x1988770", VA = "0x18198A170", Slot = "35")]
+	[Token(Token = "0x60016CD")]
+	[Address(RVA = "0x53171A0", Offset = "0x53161A0", VA = "0x53171A0", Slot = "36")]
 	public override string GetString(byte[] bytes, int index, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016F6")]
-	[Address(RVA = "0x1986EE0", Offset = "0x19854E0", VA = "0x181986EE0", Slot = "14")]
+	[Token(Token = "0x60016CE")]
+	[Address(RVA = "0x5317300", Offset = "0x5316300", VA = "0x5317300", Slot = "14")]
 	internal unsafe override int GetByteCount(char* chars, int count, System.Text.EncoderNLS baseEncoder)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F7")]
-	[Address(RVA = "0x198A340", Offset = "0x1988940", VA = "0x18198A340")]
+	[Token(Token = "0x60016CF")]
+	[Address(RVA = "0x5317AE0", Offset = "0x5316AE0", VA = "0x5317AE0")]
 	private unsafe static int PtrDiff(char* a, char* b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F8")]
-	[Address(RVA = "0x198A330", Offset = "0x1988930", VA = "0x18198A330")]
+	[Token(Token = "0x60016D0")]
+	[Address(RVA = "0x5317AF0", Offset = "0x5316AF0", VA = "0x5317AF0")]
 	private unsafe static int PtrDiff(byte* a, byte* b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016F9")]
-	[Address(RVA = "0x198A320", Offset = "0x1988920", VA = "0x18198A320")]
+	[Token(Token = "0x60016D1")]
+	[Address(RVA = "0x5317AD0", Offset = "0x5316AD0", VA = "0x5317AD0")]
 	private static bool InRange(int ch, int start, int end)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016FA")]
-	[Address(RVA = "0x1987AC0", Offset = "0x19860C0", VA = "0x181987AC0", Slot = "20")]
+	[Token(Token = "0x60016D2")]
+	[Address(RVA = "0x5317B00", Offset = "0x5316B00", VA = "0x5317B00", Slot = "20")]
 	internal unsafe override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, System.Text.EncoderNLS baseEncoder)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016FB")]
-	[Address(RVA = "0x19889D0", Offset = "0x1986FD0", VA = "0x1819889D0", Slot = "24")]
+	[Token(Token = "0x60016D3")]
+	[Address(RVA = "0x5318440", Offset = "0x5317440", VA = "0x5318440", Slot = "24")]
 	internal unsafe override int GetCharCount(byte* bytes, int count, System.Text.DecoderNLS baseDecoder)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016FC")]
-	[Address(RVA = "0x1989430", Offset = "0x1987A30", VA = "0x181989430", Slot = "28")]
+	[Token(Token = "0x60016D4")]
+	[Address(RVA = "0x5318A30", Offset = "0x5317A30", VA = "0x5318A30", Slot = "28")]
 	internal unsafe override int GetChars(byte* bytes, int byteCount, char* chars, int charCount, System.Text.DecoderNLS baseDecoder)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016FD")]
-	[Address(RVA = "0x1986DC0", Offset = "0x19853C0", VA = "0x181986DC0")]
+	[Token(Token = "0x60016D5")]
+	[Address(RVA = "0x53192A0", Offset = "0x53182A0", VA = "0x53192A0")]
 	private unsafe bool FallbackInvalidByteSequence(ref byte* pSrc, int ch, DecoderFallbackBuffer fallback, ref char* pTarget)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016FE")]
-	[Address(RVA = "0x1986D70", Offset = "0x1985370", VA = "0x181986D70")]
+	[Token(Token = "0x60016D6")]
+	[Address(RVA = "0x53189E0", Offset = "0x53179E0", VA = "0x53189E0")]
 	private unsafe int FallbackInvalidByteSequence(byte* pSrc, int ch, DecoderFallbackBuffer fallback)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60016FF")]
-	[Address(RVA = "0x1987850", Offset = "0x1985E50", VA = "0x181987850")]
+	[Token(Token = "0x60016D7")]
+	[Address(RVA = "0x5319300", Offset = "0x5318300", VA = "0x5319300")]
 	private unsafe byte[] GetBytesUnknown(ref byte* pSrc, int ch)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001700")]
-	[Address(RVA = "0x1989D30", Offset = "0x1988330", VA = "0x181989D30", Slot = "30")]
+	[Token(Token = "0x60016D8")]
+	[Address(RVA = "0x5319550", Offset = "0x5318550", VA = "0x5319550", Slot = "31")]
 	public override Decoder GetDecoder()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001701")]
-	[Address(RVA = "0x1989D90", Offset = "0x1988390", VA = "0x181989D90", Slot = "31")]
+	[Token(Token = "0x60016D9")]
+	[Address(RVA = "0x53195B0", Offset = "0x53185B0", VA = "0x53195B0", Slot = "32")]
 	public override Encoder GetEncoder()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001702")]
-	[Address(RVA = "0x1989E60", Offset = "0x1988460", VA = "0x181989E60", Slot = "32")]
+	[Token(Token = "0x60016DA")]
+	[Address(RVA = "0x53196A0", Offset = "0x53186A0", VA = "0x53196A0", Slot = "33")]
 	public override int GetMaxByteCount(int charCount)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001703")]
-	[Address(RVA = "0x1989FA0", Offset = "0x19885A0", VA = "0x181989FA0", Slot = "33")]
+	[Token(Token = "0x60016DB")]
+	[Address(RVA = "0x5319790", Offset = "0x5318790", VA = "0x5319790", Slot = "34")]
 	public override int GetMaxCharCount(int byteCount)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001704")]
-	[Address(RVA = "0x198A0E0", Offset = "0x19886E0", VA = "0x18198A0E0", Slot = "6")]
+	[Token(Token = "0x60016DC")]
+	[Address(RVA = "0x5319880", Offset = "0x5318880", VA = "0x5319880", Slot = "6")]
 	public override byte[] GetPreamble()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001706")]
-	[Address(RVA = "0x1986CA0", Offset = "0x19852A0", VA = "0x181986CA0", Slot = "0")]
+	[Token(Token = "0x60016DE")]
+	[Address(RVA = "0x5319B10", Offset = "0x5318B10", VA = "0x5319B10", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001707")]
-	[Address(RVA = "0x1989DF0", Offset = "0x19883F0", VA = "0x181989DF0", Slot = "2")]
+	[Token(Token = "0x60016DF")]
+	[Address(RVA = "0x5319BD0", Offset = "0x5318BD0", VA = "0x5319BD0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

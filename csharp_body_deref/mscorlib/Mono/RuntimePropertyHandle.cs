@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000017")]
 internal struct RuntimePropertyHandle
 {
-	[Token(Token = "0x4000111")]
+	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x0")]
 	private IntPtr value;
 
 	[Token(Token = "0x1700000A")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6000052")]
+		[Address(RVA = "0x52D9400", Offset = "0x52D8400", VA = "0x52D9400")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x6000067")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x6000051")]
+	[Address(RVA = "0x52D93F0", Offset = "0x52D83F0", VA = "0x52D93F0")]
 	internal RuntimePropertyHandle(IntPtr v)
 	{
 	}
 
-	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x194CB90", Offset = "0x194B190", VA = "0x18194CB90", Slot = "0")]
+	[Token(Token = "0x6000053")]
+	[Address(RVA = "0x52D9410", Offset = "0x52D8410", VA = "0x52D9410", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x194C610", Offset = "0x194AC10", VA = "0x18194C610", Slot = "2")]
+	[Token(Token = "0x6000054")]
+	[Address(RVA = "0x52D94F0", Offset = "0x52D84F0", VA = "0x52D94F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

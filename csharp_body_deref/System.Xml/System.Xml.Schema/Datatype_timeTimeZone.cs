@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 internal class Datatype_timeTimeZone : Datatype_dateTimeBase
 {
 	[Token(Token = "0x6001101")]
-	[Address(RVA = "0x27A10A0", Offset = "0x279F6A0", VA = "0x1827A10A0")]
+	[Address(RVA = "0x6156560", Offset = "0x6155560", VA = "0x6156560")]
 	internal Datatype_timeTimeZone()
 	{
 	}

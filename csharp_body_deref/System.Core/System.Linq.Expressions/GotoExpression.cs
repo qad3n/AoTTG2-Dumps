@@ -11,38 +11,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x2000085")]
 [DebuggerTypeProxy(typeof(GotoExpressionProxy))]
 public sealed class GotoExpression : Expression
 {
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x17000087")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60003F2")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000086")]
-	public sealed override ExpressionType NodeType
-	{
-		[Token(Token = "0x60003F3")]
-		[Address(RVA = "0x2439B90", Offset = "0x2438190", VA = "0x182439B90", Slot = "4")]
-		get
-		{
-			return default(ExpressionType);
-		}
-	}
-
-	[Token(Token = "0x17000087")]
-	public Expression Value
-	{
-		[Token(Token = "0x60003F4")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60003FD")]
+		[Address(RVA = "0x5DD12D0", Offset = "0x5DD02D0", VA = "0x5DD12D0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -51,10 +28,21 @@ public sealed class GotoExpression : Expression
 	}
 
 	[Token(Token = "0x17000088")]
-	public LabelTarget Target
+	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60003F5")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60003FE")]
+		[Address(RVA = "0x5DD12E0", Offset = "0x5DD02E0", VA = "0x5DD12E0", Slot = "4")]
+		get
+		{
+			return default(ExpressionType);
+		}
+	}
+
+	[Token(Token = "0x17000089")]
+	public Expression Value
+	{
+		[Token(Token = "0x60003FF")]
+		[Address(RVA = "0x5DD12F0", Offset = "0x5DD02F0", VA = "0x5DD12F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,11 +50,23 @@ public sealed class GotoExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x17000089")]
+	[Token(Token = "0x1700008A")]
+	public LabelTarget Target
+	{
+		[Token(Token = "0x6000400")]
+		[Address(RVA = "0x5DD1300", Offset = "0x5DD0300", VA = "0x5DD1300")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700008B")]
 	public GotoExpressionKind Kind
 	{
-		[Token(Token = "0x60003F6")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Token(Token = "0x6000401")]
+		[Address(RVA = "0x5DD1310", Offset = "0x5DD0310", VA = "0x5DD1310")]
 		[CompilerGenerated]
 		get
 		{
@@ -74,21 +74,21 @@ public sealed class GotoExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x2439B00", Offset = "0x2438100", VA = "0x182439B00")]
+	[Token(Token = "0x60003FC")]
+	[Address(RVA = "0x5DD1230", Offset = "0x5DD0230", VA = "0x5DD1230")]
 	internal GotoExpression(GotoExpressionKind kind, LabelTarget target, Expression value, Type type)
 	{
 	}
 
-	[Token(Token = "0x60003F7")]
-	[Address(RVA = "0x2439A10", Offset = "0x2438010", VA = "0x182439A10", Slot = "9")]
+	[Token(Token = "0x6000402")]
+	[Address(RVA = "0x5DD1320", Offset = "0x5DD0320", VA = "0x5DD1320", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003F8")]
-	[Address(RVA = "0x2439A40", Offset = "0x2438040", VA = "0x182439A40")]
+	[Token(Token = "0x6000403")]
+	[Address(RVA = "0x5DD02F0", Offset = "0x5DCF2F0", VA = "0x5DD02F0")]
 	public GotoExpression Update(LabelTarget target, Expression value)
 	{
 		return null;

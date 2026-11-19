@@ -74,7 +74,7 @@ internal struct XsdDuration
 	public bool IsNegative
 	{
 		[Token(Token = "0x6001A18")]
-		[Address(RVA = "0x26C8CD0", Offset = "0x26C72D0", VA = "0x1826C8CD0")]
+		[Address(RVA = "0x60768F0", Offset = "0x60758F0", VA = "0x60768F0")]
 		get
 		{
 			return default(bool);
@@ -85,7 +85,7 @@ internal struct XsdDuration
 	public int Years
 	{
 		[Token(Token = "0x6001A19")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6076900", Offset = "0x6075900", VA = "0x6076900")]
 		get
 		{
 			return default(int);
@@ -96,7 +96,7 @@ internal struct XsdDuration
 	public int Months
 	{
 		[Token(Token = "0x6001A1A")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x6076910", Offset = "0x6075910", VA = "0x6076910")]
 		get
 		{
 			return default(int);
@@ -107,7 +107,7 @@ internal struct XsdDuration
 	public int Days
 	{
 		[Token(Token = "0x6001A1B")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x6076920", Offset = "0x6075920", VA = "0x6076920")]
 		get
 		{
 			return default(int);
@@ -118,7 +118,7 @@ internal struct XsdDuration
 	public int Hours
 	{
 		[Token(Token = "0x6001A1C")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x6076930", Offset = "0x6075930", VA = "0x6076930")]
 		get
 		{
 			return default(int);
@@ -129,7 +129,7 @@ internal struct XsdDuration
 	public int Minutes
 	{
 		[Token(Token = "0x6001A1D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6076940", Offset = "0x6075940", VA = "0x6076940")]
 		get
 		{
 			return default(int);
@@ -140,7 +140,7 @@ internal struct XsdDuration
 	public int Seconds
 	{
 		[Token(Token = "0x6001A1E")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6076950", Offset = "0x6075950", VA = "0x6076950")]
 		get
 		{
 			return default(int);
@@ -151,7 +151,7 @@ internal struct XsdDuration
 	public int Nanoseconds
 	{
 		[Token(Token = "0x6001A1F")]
-		[Address(RVA = "0x26C8CE0", Offset = "0x26C72E0", VA = "0x1826C8CE0")]
+		[Address(RVA = "0x60768E0", Offset = "0x60758E0", VA = "0x60768E0")]
 		get
 		{
 			return default(int);
@@ -159,93 +159,93 @@ internal struct XsdDuration
 	}
 
 	[Token(Token = "0x6001A13")]
-	[Address(RVA = "0x26C8A30", Offset = "0x26C7030", VA = "0x1826C8A30")]
+	[Address(RVA = "0x6075BA0", Offset = "0x6074BA0", VA = "0x6075BA0")]
 	public XsdDuration(bool isNegative, int years, int months, int days, int hours, int minutes, int seconds, int nanoseconds)
 	{
 	}
 
 	[Token(Token = "0x6001A14")]
-	[Address(RVA = "0x26C8720", Offset = "0x26C6D20", VA = "0x1826C8720")]
+	[Address(RVA = "0x6075D20", Offset = "0x6074D20", VA = "0x6075D20")]
 	public XsdDuration(TimeSpan timeSpan)
 	{
 	}
 
 	[Token(Token = "0x6001A15")]
-	[Address(RVA = "0x26C8730", Offset = "0x26C6D30", VA = "0x1826C8730")]
+	[Address(RVA = "0x6075E40", Offset = "0x6074E40", VA = "0x6075E40")]
 	public XsdDuration(TimeSpan timeSpan, DurationType durationType)
 	{
 	}
 
 	[Token(Token = "0x6001A16")]
-	[Address(RVA = "0x26C8CC0", Offset = "0x26C72C0", VA = "0x1826C8CC0")]
+	[Address(RVA = "0x6076010", Offset = "0x6075010", VA = "0x6076010")]
 	public XsdDuration(string s)
 	{
 	}
 
 	[Token(Token = "0x6001A17")]
-	[Address(RVA = "0x26C8980", Offset = "0x26C6F80", VA = "0x1826C8980")]
+	[Address(RVA = "0x6076080", Offset = "0x6075080", VA = "0x6076080")]
 	public XsdDuration(string s, DurationType durationType)
 	{
 	}
 
 	[Token(Token = "0x6001A20")]
-	[Address(RVA = "0x26C73B0", Offset = "0x26C59B0", VA = "0x1826C73B0")]
+	[Address(RVA = "0x6076960", Offset = "0x6075960", VA = "0x6076960")]
 	public TimeSpan ToTimeSpan()
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001A21")]
-	[Address(RVA = "0x26C7400", Offset = "0x26C5A00", VA = "0x1826C7400")]
+	[Address(RVA = "0x60769B0", Offset = "0x60759B0", VA = "0x60769B0")]
 	public TimeSpan ToTimeSpan(DurationType durationType)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001A22")]
-	[Address(RVA = "0x26C80E0", Offset = "0x26C66E0", VA = "0x1826C80E0")]
+	[Address(RVA = "0x6076E90", Offset = "0x6075E90", VA = "0x6076E90")]
 	internal Exception TryToTimeSpan(out TimeSpan result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A23")]
-	[Address(RVA = "0x26C80F0", Offset = "0x26C66F0", VA = "0x1826C80F0")]
+	[Address(RVA = "0x6076A00", Offset = "0x6075A00", VA = "0x6076A00")]
 	internal Exception TryToTimeSpan(DurationType durationType, out TimeSpan result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A24")]
-	[Address(RVA = "0x26C6FB0", Offset = "0x26C55B0", VA = "0x1826C6FB0", Slot = "3")]
+	[Address(RVA = "0x6076EA0", Offset = "0x6075EA0", VA = "0x6076EA0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A25")]
-	[Address(RVA = "0x26C6FC0", Offset = "0x26C55C0", VA = "0x1826C6FC0")]
+	[Address(RVA = "0x6076EB0", Offset = "0x6075EB0", VA = "0x6076EB0")]
 	internal string ToString(DurationType durationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A26")]
-	[Address(RVA = "0x26C75A0", Offset = "0x26C5BA0", VA = "0x1826C75A0")]
+	[Address(RVA = "0x60772B0", Offset = "0x60762B0", VA = "0x60772B0")]
 	internal static Exception TryParse(string s, out XsdDuration result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A27")]
-	[Address(RVA = "0x26C75B0", Offset = "0x26C5BB0", VA = "0x1826C75B0")]
+	[Address(RVA = "0x60760F0", Offset = "0x60750F0", VA = "0x60760F0")]
 	internal static Exception TryParse(string s, DurationType durationType, out XsdDuration result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A28")]
-	[Address(RVA = "0x26C7450", Offset = "0x26C5A50", VA = "0x1826C7450")]
+	[Address(RVA = "0x60772C0", Offset = "0x60762C0", VA = "0x60772C0")]
 	private static string TryParseDigits(string s, ref int offset, bool eatDigits, out int result, out int numDigits)
 	{
 		return null;

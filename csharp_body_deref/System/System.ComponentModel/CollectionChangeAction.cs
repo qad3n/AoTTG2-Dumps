@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200017D")]
+[Token(Token = "0x200013E")]
 public enum CollectionChangeAction
 {
-	[Token(Token = "0x400065A")]
+	[Token(Token = "0x400058B")]
 	Add = 1,
-	[Token(Token = "0x400065B")]
+	[Token(Token = "0x400058C")]
 	Remove,
-	[Token(Token = "0x400065C")]
+	[Token(Token = "0x400058D")]
 	Refresh
 }

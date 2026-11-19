@@ -11,50 +11,50 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000191")]
-[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
+[Token(Token = "0x2000192")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/AssemblyFullName.h")]
+[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 internal struct AssemblyVersion
 {
-	[Token(Token = "0x40005FA")]
+	[Token(Token = "0x40005FF")]
 	[FieldOffset(Offset = "0x0")]
 	public ushort major;
 
-	[Token(Token = "0x40005FB")]
+	[Token(Token = "0x4000600")]
 	[FieldOffset(Offset = "0x2")]
 	public ushort minor;
 
-	[Token(Token = "0x40005FC")]
+	[Token(Token = "0x4000601")]
 	[FieldOffset(Offset = "0x4")]
 	public ushort build;
 
-	[Token(Token = "0x40005FD")]
+	[Token(Token = "0x4000602")]
 	[FieldOffset(Offset = "0x6")]
 	public ushort revision;
 
-	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x2F0E950", Offset = "0x2F0CF50", VA = "0x182F0E950")]
+	[Token(Token = "0x6000D2E")]
+	[Address(RVA = "0x6914B60", Offset = "0x6913B60", VA = "0x6914B60")]
 	public static bool operator ==(AssemblyVersion lhs, AssemblyVersion rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x2F0E750", Offset = "0x2F0CD50", VA = "0x182F0E750", Slot = "3")]
+	[Token(Token = "0x6000D2F")]
+	[Address(RVA = "0x6914B90", Offset = "0x6913B90", VA = "0x6914B90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x2F0E620", Offset = "0x2F0CC20", VA = "0x182F0E620", Slot = "0")]
+	[Token(Token = "0x6000D30")]
+	[Address(RVA = "0x6914D70", Offset = "0x6913D70", VA = "0x6914D70", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x2F0E6D0", Offset = "0x2F0CCD0", VA = "0x182F0E6D0", Slot = "2")]
+	[Token(Token = "0x6000D31")]
+	[Address(RVA = "0x6914DF0", Offset = "0x6913DF0", VA = "0x6914DF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

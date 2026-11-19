@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200013B")]
+[Token(Token = "0x200013C")]
 internal sealed class StoreFieldInstruction : FieldInstruction
 {
-	[Token(Token = "0x170001A3")]
+	[Token(Token = "0x170001A5")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60006FF")]
-		[Address(RVA = "0x2465750", Offset = "0x2463D50", VA = "0x182465750", Slot = "9")]
+		[Token(Token = "0x600070A")]
+		[Address(RVA = "0x5DE44B0", Offset = "0x5DE34B0", VA = "0x5DE44B0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001A4")]
+	[Token(Token = "0x170001A6")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000700")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
+		[Token(Token = "0x600070B")]
+		[Address(RVA = "0x5DE44E0", Offset = "0x5DE34E0", VA = "0x5DE44E0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000709")]
+	[Address(RVA = "0x5DE4480", Offset = "0x5DE3480", VA = "0x5DE4480")]
 	public StoreFieldInstruction(FieldInfo field)
 	{
 	}
 
-	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x24656D0", Offset = "0x2463CD0", VA = "0x1824656D0", Slot = "8")]
+	[Token(Token = "0x600070C")]
+	[Address(RVA = "0x5DE44F0", Offset = "0x5DE34F0", VA = "0x5DE44F0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

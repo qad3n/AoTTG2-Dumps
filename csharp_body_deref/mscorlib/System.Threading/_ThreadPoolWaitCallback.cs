@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000241")]
+[Token(Token = "0x2000219")]
 internal static class _ThreadPoolWaitCallback
 {
-	[Token(Token = "0x6001360")]
-	[Address(RVA = "0x1BC7930", Offset = "0x1BC5F30", VA = "0x181BC7930")]
+	[Token(Token = "0x6001337")]
+	[Address(RVA = "0x553C3A0", Offset = "0x553B3A0", VA = "0x553C3A0")]
 	internal static bool PerformWaitCallback()
 	{
 		return default(bool);

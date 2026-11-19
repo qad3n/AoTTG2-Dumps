@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000130")]
+[Token(Token = "0x2000131")]
 public static class HashUnsafeUtilities
 {
-	[Token(Token = "0x60009D2")]
-	[Address(RVA = "0x2F03CB0", Offset = "0x2F022B0", VA = "0x182F03CB0")]
+	[Token(Token = "0x60009E3")]
+	[Address(RVA = "0x68FA370", Offset = "0x68F9370", VA = "0x68FA370")]
 	public unsafe static void ComputeHash128(void* data, ulong dataSize, ulong* hash1, ulong* hash2)
 	{
 	}
 
-	[Token(Token = "0x60009D3")]
-	[Address(RVA = "0x2F03C40", Offset = "0x2F02240", VA = "0x182F03C40")]
+	[Token(Token = "0x60009E4")]
+	[Address(RVA = "0x68FA320", Offset = "0x68F9320", VA = "0x68FA320")]
 	public unsafe static void ComputeHash128(void* data, ulong dataSize, Hash128* hash)
 	{
 	}

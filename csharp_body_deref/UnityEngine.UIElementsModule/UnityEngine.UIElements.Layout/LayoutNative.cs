@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutNative
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,7 +53,7 @@ internal static class LayoutNative
 		public string message;
 
 		[Token(Token = "0x6002CB8")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6BC55F0", Offset = "0x6BC45F0", VA = "0x6BC55F0")]
 		public LayoutLogData()
 		{
 		}
@@ -61,18 +61,18 @@ internal static class LayoutNative
 
 	[Token(Token = "0x40016E4")]
 	[FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<LayoutLogData> onLayoutLog;
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002CB6")]
-	[Address(RVA = "0x31BE990", Offset = "0x31BCF90", VA = "0x1831BE990")]
+	[Address(RVA = "0x6BC54B0", Offset = "0x6BC44B0", VA = "0x6BC54B0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = false)]
 	internal static extern void CalculateLayout(IntPtr node, float parentWidth, float parentHeight, int parentDirection, IntPtr state, IntPtr exceptionGCHandle);
 
 	[Token(Token = "0x6002CB7")]
-	[Address(RVA = "0x31BEA00", Offset = "0x31BD000", VA = "0x1831BEA00")]
+	[Address(RVA = "0x6BC5510", Offset = "0x6BC4510", VA = "0x6BC5510")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void LayoutLog_Internal(IntPtr nodePtr, LayoutLogEventType type, string message)
 	{

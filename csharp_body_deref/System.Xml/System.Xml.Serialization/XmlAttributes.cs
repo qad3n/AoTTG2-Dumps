@@ -74,7 +74,7 @@ public class XmlAttributes
 	public XmlAnyAttributeAttribute XmlAnyAttribute
 	{
 		[Token(Token = "0x6000D2B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6114F20", Offset = "0x6113F20", VA = "0x6114F20")]
 		get
 		{
 			return null;
@@ -85,7 +85,7 @@ public class XmlAttributes
 	public XmlAnyElementAttributes XmlAnyElements
 	{
 		[Token(Token = "0x6000D2C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6114F30", Offset = "0x6113F30", VA = "0x6114F30")]
 		get
 		{
 			return null;
@@ -96,7 +96,7 @@ public class XmlAttributes
 	public XmlArrayAttribute XmlArray
 	{
 		[Token(Token = "0x6000D2D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6114F40", Offset = "0x6113F40", VA = "0x6114F40")]
 		get
 		{
 			return null;
@@ -107,7 +107,7 @@ public class XmlAttributes
 	public XmlArrayItemAttributes XmlArrayItems
 	{
 		[Token(Token = "0x6000D2E")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6114F50", Offset = "0x6113F50", VA = "0x6114F50")]
 		get
 		{
 			return null;
@@ -118,7 +118,7 @@ public class XmlAttributes
 	public XmlAttributeAttribute XmlAttribute
 	{
 		[Token(Token = "0x6000D2F")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6114F60", Offset = "0x6113F60", VA = "0x6114F60")]
 		get
 		{
 			return null;
@@ -129,7 +129,7 @@ public class XmlAttributes
 	public XmlChoiceIdentifierAttribute XmlChoiceIdentifier
 	{
 		[Token(Token = "0x6000D30")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6114F70", Offset = "0x6113F70", VA = "0x6114F70")]
 		get
 		{
 			return null;
@@ -140,7 +140,7 @@ public class XmlAttributes
 	public object XmlDefaultValue
 	{
 		[Token(Token = "0x6000D31")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6114F80", Offset = "0x6113F80", VA = "0x6114F80")]
 		get
 		{
 			return null;
@@ -151,7 +151,7 @@ public class XmlAttributes
 	public XmlElementAttributes XmlElements
 	{
 		[Token(Token = "0x6000D32")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x6114F90", Offset = "0x6113F90", VA = "0x6114F90")]
 		get
 		{
 			return null;
@@ -162,7 +162,7 @@ public class XmlAttributes
 	public bool XmlIgnore
 	{
 		[Token(Token = "0x6000D33")]
-		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
+		[Address(RVA = "0x6114FA0", Offset = "0x6113FA0", VA = "0x6114FA0")]
 		get
 		{
 			return default(bool);
@@ -173,7 +173,7 @@ public class XmlAttributes
 	public bool Xmlns
 	{
 		[Token(Token = "0x6000D34")]
-		[Address(RVA = "0x1A21E30", Offset = "0x1A20430", VA = "0x181A21E30")]
+		[Address(RVA = "0x6114FB0", Offset = "0x6113FB0", VA = "0x6114FB0")]
 		get
 		{
 			return default(bool);
@@ -184,7 +184,7 @@ public class XmlAttributes
 	public XmlRootAttribute XmlRoot
 	{
 		[Token(Token = "0x6000D35")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6114FC0", Offset = "0x6113FC0", VA = "0x6114FC0")]
 		get
 		{
 			return null;
@@ -195,7 +195,7 @@ public class XmlAttributes
 	public XmlTextAttribute XmlText
 	{
 		[Token(Token = "0x6000D36")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6114FD0", Offset = "0x6113FD0", VA = "0x6114FD0")]
 		get
 		{
 			return null;
@@ -206,7 +206,7 @@ public class XmlAttributes
 	public XmlTypeAttribute XmlType
 	{
 		[Token(Token = "0x6000D37")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x6114FE0", Offset = "0x6113FE0", VA = "0x6114FE0")]
 		get
 		{
 			return null;
@@ -217,7 +217,7 @@ public class XmlAttributes
 	internal int? Order
 	{
 		[Token(Token = "0x6000D39")]
-		[Address(RVA = "0x275C480", Offset = "0x275AA80", VA = "0x18275C480")]
+		[Address(RVA = "0x6115DA0", Offset = "0x6114DA0", VA = "0x6115DA0")]
 		get
 		{
 			return null;
@@ -228,7 +228,7 @@ public class XmlAttributes
 	internal int SortableOrder
 	{
 		[Token(Token = "0x6000D3A")]
-		[Address(RVA = "0x275C540", Offset = "0x275AB40", VA = "0x18275C540")]
+		[Address(RVA = "0x6116130", Offset = "0x6115130", VA = "0x6116130")]
 		get
 		{
 			return default(int);
@@ -236,19 +236,19 @@ public class XmlAttributes
 	}
 
 	[Token(Token = "0x6000D29")]
-	[Address(RVA = "0x275B7A0", Offset = "0x2759DA0", VA = "0x18275B7A0")]
+	[Address(RVA = "0x61144F0", Offset = "0x61134F0", VA = "0x61144F0")]
 	public XmlAttributes()
 	{
 	}
 
 	[Token(Token = "0x6000D2A")]
-	[Address(RVA = "0x275B8C0", Offset = "0x2759EC0", VA = "0x18275B8C0")]
+	[Address(RVA = "0x6114610", Offset = "0x6113610", VA = "0x6114610")]
 	public XmlAttributes(ICustomAttributeProvider provider)
 	{
 	}
 
 	[Token(Token = "0x6000D38")]
-	[Address(RVA = "0x275B080", Offset = "0x2759680", VA = "0x18275B080")]
+	[Address(RVA = "0x6114200", Offset = "0x6113200", VA = "0x6114200")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

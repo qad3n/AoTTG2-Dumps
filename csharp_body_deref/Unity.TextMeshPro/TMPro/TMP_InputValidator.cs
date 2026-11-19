@@ -19,7 +19,7 @@ public abstract class TMP_InputValidator : ScriptableObject
 	public abstract char Validate(ref string text, ref int pos, char ch);
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x672D9E0", Offset = "0x672C9E0", VA = "0x672D9E0")]
 	protected TMP_InputValidator()
 	{
 	}

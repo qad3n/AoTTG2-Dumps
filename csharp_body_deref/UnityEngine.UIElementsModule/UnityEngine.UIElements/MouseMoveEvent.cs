@@ -14,31 +14,31 @@ namespace UnityEngine.UIElements;
 public class MouseMoveEvent : MouseEventBase<MouseMoveEvent>
 {
 	[Token(Token = "0x6000D73")]
-	[Address(RVA = "0x32689A0", Offset = "0x3266FA0", VA = "0x1832689A0")]
+	[Address(RVA = "0x6C68AA0", Offset = "0x6C67AA0", VA = "0x6C68AA0")]
 	static MouseMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D74")]
-	[Address(RVA = "0x32688E0", Offset = "0x3266EE0", VA = "0x1832688E0", Slot = "13")]
+	[Address(RVA = "0x6C68B70", Offset = "0x6C67B70", VA = "0x6C68B70", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D75")]
-	[Address(RVA = "0x3268950", Offset = "0x3266F50", VA = "0x183268950")]
+	[Address(RVA = "0x6C68BD0", Offset = "0x6C67BD0", VA = "0x6C68BD0")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D76")]
-	[Address(RVA = "0x3268A80", Offset = "0x3267080", VA = "0x183268A80")]
+	[Address(RVA = "0x6C68C00", Offset = "0x6C67C00", VA = "0x6C68C00")]
 	public MouseMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D77")]
-	[Address(RVA = "0x32688A0", Offset = "0x3266EA0", VA = "0x1832688A0")]
+	[Address(RVA = "0x6C68C60", Offset = "0x6C67C60", VA = "0x6C68C60")]
 	internal static MouseMoveEvent GetPooled(PointerMoveEvent pointerEvent)
 	{
 		return null;

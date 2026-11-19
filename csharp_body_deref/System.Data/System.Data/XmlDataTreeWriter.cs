@@ -51,64 +51,64 @@ internal sealed class XmlDataTreeWriter
 	private bool _writeHierarchy;
 
 	[Token(Token = "0x60008C6")]
-	[Address(RVA = "0x254F580", Offset = "0x254DB80", VA = "0x18254F580")]
+	[Address(RVA = "0x5EFFCA0", Offset = "0x5EFECA0", VA = "0x5EFFCA0")]
 	internal XmlDataTreeWriter(DataSet ds)
 	{
 	}
 
 	[Token(Token = "0x60008C7")]
-	[Address(RVA = "0x254F390", Offset = "0x254D990", VA = "0x18254F390")]
+	[Address(RVA = "0x5EFF3A0", Offset = "0x5EFE3A0", VA = "0x5EFF3A0")]
 	internal XmlDataTreeWriter(DataTable dt, bool writeHierarchy)
 	{
 	}
 
 	[Token(Token = "0x60008C8")]
-	[Address(RVA = "0x254C9F0", Offset = "0x254AFF0", VA = "0x18254C9F0")]
+	[Address(RVA = "0x5F01C40", Offset = "0x5F00C40", VA = "0x5F01C40")]
 	private DataTable[] CreateToplevelTables()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008C9")]
-	[Address(RVA = "0x254C730", Offset = "0x254AD30", VA = "0x18254C730")]
+	[Address(RVA = "0x5F01880", Offset = "0x5F00880", VA = "0x5F01880")]
 	private void CreateTablesHierarchy(DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x60008CA")]
-	[Address(RVA = "0x254D000", Offset = "0x254B600", VA = "0x18254D000")]
+	[Address(RVA = "0x5F00D00", Offset = "0x5EFFD00", VA = "0x5F00D00")]
 	internal static bool RowHasErrors(DataRow row)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008CB")]
-	[Address(RVA = "0x254D0E0", Offset = "0x254B6E0", VA = "0x18254D0E0")]
+	[Address(RVA = "0x5EFF530", Offset = "0x5EFE530", VA = "0x5EFF530")]
 	internal void SaveDiffgramData(XmlWriter xw, Hashtable rowsOrder)
 	{
 	}
 
 	[Token(Token = "0x60008CC")]
-	[Address(RVA = "0x254D6A0", Offset = "0x254BCA0", VA = "0x18254D6A0")]
+	[Address(RVA = "0x5F03B60", Offset = "0x5F02B60", VA = "0x5F03B60")]
 	internal void Save(XmlWriter xw, bool writeSchema)
 	{
 	}
 
 	[Token(Token = "0x60008CD")]
-	[Address(RVA = "0x254CCE0", Offset = "0x254B2E0", VA = "0x18254CCE0")]
+	[Address(RVA = "0x5F04550", Offset = "0x5F03550", VA = "0x5F04550")]
 	private ArrayList GetNestedChildRelations(DataRow row)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008CE")]
-	[Address(RVA = "0x254DED0", Offset = "0x254C4D0", VA = "0x18254DED0")]
+	[Address(RVA = "0x5F01F90", Offset = "0x5F00F90", VA = "0x5F01F90")]
 	internal void XmlDataRowWriter(DataRow row, string encodedTableName)
 	{
 	}
 
 	[Token(Token = "0x60008CF")]
-	[Address(RVA = "0x254CF70", Offset = "0x254B570", VA = "0x18254CF70")]
+	[Address(RVA = "0x5F017F0", Offset = "0x5F007F0", VA = "0x5F017F0")]
 	internal static bool PreserveSpace(object value)
 	{
 		return default(bool);

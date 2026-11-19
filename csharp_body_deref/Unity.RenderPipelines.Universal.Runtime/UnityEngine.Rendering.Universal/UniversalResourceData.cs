@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalResourceData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,27 +15,27 @@ namespace UnityEngine.Rendering.Universal;
 public class UniversalResourceData : UniversalResourceDataBase
 {
 	[Token(Token = "0x40004F2")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x1C")]
 	private TextureHandle _backBufferColor;
 
 	[Token(Token = "0x40004F3")]
-	[FieldOffset(Offset = "0x30")]
+	[FieldOffset(Offset = "0x2C")]
 	private TextureHandle _backBufferDepth;
 
 	[Token(Token = "0x40004F4")]
-	[FieldOffset(Offset = "0x40")]
+	[FieldOffset(Offset = "0x3C")]
 	private TextureHandle _cameraColor;
 
 	[Token(Token = "0x40004F5")]
-	[FieldOffset(Offset = "0x50")]
+	[FieldOffset(Offset = "0x4C")]
 	private TextureHandle _cameraDepth;
 
 	[Token(Token = "0x40004F6")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private TextureHandle _mainShadowsTexture;
 
 	[Token(Token = "0x40004F7")]
-	[FieldOffset(Offset = "0x70")]
+	[FieldOffset(Offset = "0x6C")]
 	private TextureHandle _additionalShadowsTexture;
 
 	[Token(Token = "0x40004F8")]
@@ -110,14 +110,14 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal ActiveID activeColorID
 	{
 		[Token(Token = "0x60005C8")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x6641CD0", Offset = "0x6640CD0", VA = "0x6641CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActiveID);
 		}
 		[Token(Token = "0x60005C9")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x6641CE0", Offset = "0x6640CE0", VA = "0x6641CE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -128,7 +128,7 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle activeColorTexture
 	{
 		[Token(Token = "0x60005CA")]
-		[Address(RVA = "0x2C50B10", Offset = "0x2C4F110", VA = "0x182C50B10")]
+		[Address(RVA = "0x6630650", Offset = "0x662F650", VA = "0x6630650")]
 		get
 		{
 			return default(TextureHandle);
@@ -139,14 +139,14 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal ActiveID activeDepthID
 	{
 		[Token(Token = "0x60005CC")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x6641CF0", Offset = "0x6640CF0", VA = "0x6641CF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActiveID);
 		}
 		[Token(Token = "0x60005CD")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x6641D00", Offset = "0x6640D00", VA = "0x6641D00")]
 		[CompilerGenerated]
 		set
 		{
@@ -157,7 +157,7 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle activeDepthTexture
 	{
 		[Token(Token = "0x60005CE")]
-		[Address(RVA = "0x2C50C70", Offset = "0x2C4F270", VA = "0x182C50C70")]
+		[Address(RVA = "0x66307C0", Offset = "0x662F7C0", VA = "0x66307C0")]
 		get
 		{
 			return default(TextureHandle);
@@ -168,7 +168,7 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public bool isActiveTargetBackBuffer
 	{
 		[Token(Token = "0x60005CF")]
-		[Address(RVA = "0x2C51030", Offset = "0x2C4F630", VA = "0x182C51030")]
+		[Address(RVA = "0x662A0E0", Offset = "0x66290E0", VA = "0x662A0E0")]
 		get
 		{
 			return default(bool);
@@ -179,13 +179,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle backBufferColor
 	{
 		[Token(Token = "0x60005D0")]
-		[Address(RVA = "0x2C50E30", Offset = "0x2C4F430", VA = "0x182C50E30")]
+		[Address(RVA = "0x663FB10", Offset = "0x663EB10", VA = "0x663FB10")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005D1")]
-		[Address(RVA = "0x2C512C0", Offset = "0x2C4F8C0", VA = "0x182C512C0")]
+		[Address(RVA = "0x663FCE0", Offset = "0x663ECE0", VA = "0x663FCE0")]
 		internal set
 		{
 		}
@@ -195,13 +195,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle backBufferDepth
 	{
 		[Token(Token = "0x60005D2")]
-		[Address(RVA = "0x2C50E60", Offset = "0x2C4F460", VA = "0x182C50E60")]
+		[Address(RVA = "0x663EA70", Offset = "0x663DA70", VA = "0x663EA70")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x2C51340", Offset = "0x2C4F940", VA = "0x182C51340")]
+		[Address(RVA = "0x663FD60", Offset = "0x663ED60", VA = "0x663FD60")]
 		internal set
 		{
 		}
@@ -211,13 +211,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle cameraColor
 	{
 		[Token(Token = "0x60005D4")]
-		[Address(RVA = "0x2C41810", Offset = "0x2C3FE10", VA = "0x182C41810")]
+		[Address(RVA = "0x66397A0", Offset = "0x66387A0", VA = "0x66397A0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005D5")]
-		[Address(RVA = "0x2C419A0", Offset = "0x2C3FFA0", VA = "0x182C419A0")]
+		[Address(RVA = "0x663FC40", Offset = "0x663EC40", VA = "0x663FC40")]
 		set
 		{
 		}
@@ -227,13 +227,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle cameraDepth
 	{
 		[Token(Token = "0x60005D6")]
-		[Address(RVA = "0x2C41850", Offset = "0x2C3FE50", VA = "0x182C41850")]
+		[Address(RVA = "0x66398F0", Offset = "0x66388F0", VA = "0x66398F0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005D7")]
-		[Address(RVA = "0x2C41A30", Offset = "0x2C40030", VA = "0x182C41A30")]
+		[Address(RVA = "0x663FDE0", Offset = "0x663EDE0", VA = "0x663FDE0")]
 		set
 		{
 		}
@@ -243,13 +243,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle mainShadowsTexture
 	{
 		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x2C41790", Offset = "0x2C3FD90", VA = "0x182C41790")]
+		[Address(RVA = "0x6630930", Offset = "0x662F930", VA = "0x6630930")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x2C41880", Offset = "0x2C3FE80", VA = "0x182C41880")]
+		[Address(RVA = "0x663EA80", Offset = "0x663DA80", VA = "0x663EA80")]
 		set
 		{
 		}
@@ -259,13 +259,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle additionalShadowsTexture
 	{
 		[Token(Token = "0x60005DA")]
-		[Address(RVA = "0x2C50DD0", Offset = "0x2C4F3D0", VA = "0x182C50DD0")]
+		[Address(RVA = "0x6630940", Offset = "0x662F940", VA = "0x6630940")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005DB")]
-		[Address(RVA = "0x2C511C0", Offset = "0x2C4F7C0", VA = "0x182C511C0")]
+		[Address(RVA = "0x663EB00", Offset = "0x663DB00", VA = "0x663EB00")]
 		set
 		{
 		}
@@ -275,13 +275,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle[] gBuffer
 	{
 		[Token(Token = "0x60005DC")]
-		[Address(RVA = "0x2C50FC0", Offset = "0x2C4F5C0", VA = "0x182C50FC0")]
+		[Address(RVA = "0x663F830", Offset = "0x663E830", VA = "0x663F830")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005DD")]
-		[Address(RVA = "0x2C516E0", Offset = "0x2C4FCE0", VA = "0x182C516E0")]
+		[Address(RVA = "0x663F820", Offset = "0x663E820", VA = "0x663F820")]
 		set
 		{
 		}
@@ -291,13 +291,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle cameraOpaqueTexture
 	{
 		[Token(Token = "0x60005DE")]
-		[Address(RVA = "0x2C50EF0", Offset = "0x2C4F4F0", VA = "0x182C50EF0")]
+		[Address(RVA = "0x6641D10", Offset = "0x6640D10", VA = "0x6641D10")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x2C514C0", Offset = "0x2C4FAC0", VA = "0x182C514C0")]
+		[Address(RVA = "0x663FA80", Offset = "0x663EA80", VA = "0x663FA80")]
 		internal set
 		{
 		}
@@ -307,13 +307,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle cameraDepthTexture
 	{
 		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x2C50E90", Offset = "0x2C4F490", VA = "0x182C50E90")]
+		[Address(RVA = "0x6634940", Offset = "0x6633940", VA = "0x6634940")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x2C513C0", Offset = "0x2C4F9C0", VA = "0x182C513C0")]
+		[Address(RVA = "0x663FE60", Offset = "0x663EE60", VA = "0x663FE60")]
 		internal set
 		{
 		}
@@ -323,13 +323,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle cameraNormalsTexture
 	{
 		[Token(Token = "0x60005E2")]
-		[Address(RVA = "0x2C50EC0", Offset = "0x2C4F4C0", VA = "0x182C50EC0")]
+		[Address(RVA = "0x66404D0", Offset = "0x663F4D0", VA = "0x66404D0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005E3")]
-		[Address(RVA = "0x2C51440", Offset = "0x2C4FA40", VA = "0x182C51440")]
+		[Address(RVA = "0x663FFE0", Offset = "0x663EFE0", VA = "0x663FFE0")]
 		internal set
 		{
 		}
@@ -339,13 +339,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle motionVectorColor
 	{
 		[Token(Token = "0x60005E4")]
-		[Address(RVA = "0x2C510A0", Offset = "0x2C4F6A0", VA = "0x182C510A0")]
+		[Address(RVA = "0x6634D30", Offset = "0x6633D30", VA = "0x6634D30")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005E5")]
-		[Address(RVA = "0x2C51800", Offset = "0x2C4FE00", VA = "0x182C51800")]
+		[Address(RVA = "0x663FEE0", Offset = "0x663EEE0", VA = "0x663FEE0")]
 		set
 		{
 		}
@@ -355,13 +355,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle motionVectorDepth
 	{
 		[Token(Token = "0x60005E6")]
-		[Address(RVA = "0x2C510D0", Offset = "0x2C4F6D0", VA = "0x182C510D0")]
+		[Address(RVA = "0x663F6C0", Offset = "0x663E6C0", VA = "0x663F6C0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005E7")]
-		[Address(RVA = "0x2C51880", Offset = "0x2C4FE80", VA = "0x182C51880")]
+		[Address(RVA = "0x663FF60", Offset = "0x663EF60", VA = "0x663FF60")]
 		set
 		{
 		}
@@ -371,13 +371,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle internalColorLut
 	{
 		[Token(Token = "0x60005E8")]
-		[Address(RVA = "0x2C50FD0", Offset = "0x2C4F5D0", VA = "0x182C50FD0")]
+		[Address(RVA = "0x663FC30", Offset = "0x663EC30", VA = "0x663FC30")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005E9")]
-		[Address(RVA = "0x2C51700", Offset = "0x2C4FD00", VA = "0x182C51700")]
+		[Address(RVA = "0x663EB80", Offset = "0x663DB80", VA = "0x663EB80")]
 		set
 		{
 		}
@@ -387,13 +387,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal TextureHandle debugScreenColor
 	{
 		[Token(Token = "0x60005EA")]
-		[Address(RVA = "0x2C50F60", Offset = "0x2C4F560", VA = "0x182C50F60")]
+		[Address(RVA = "0x663FCC0", Offset = "0x663ECC0", VA = "0x663FCC0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005EB")]
-		[Address(RVA = "0x2C515E0", Offset = "0x2C4FBE0", VA = "0x182C515E0")]
+		[Address(RVA = "0x663FB20", Offset = "0x663EB20", VA = "0x663FB20")]
 		set
 		{
 		}
@@ -403,13 +403,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal TextureHandle debugScreenDepth
 	{
 		[Token(Token = "0x60005EC")]
-		[Address(RVA = "0x2C50F90", Offset = "0x2C4F590", VA = "0x182C50F90")]
+		[Address(RVA = "0x663FCD0", Offset = "0x663ECD0", VA = "0x663FCD0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005ED")]
-		[Address(RVA = "0x2C51660", Offset = "0x2C4FC60", VA = "0x182C51660")]
+		[Address(RVA = "0x663FBA0", Offset = "0x663EBA0", VA = "0x663FBA0")]
 		set
 		{
 		}
@@ -419,13 +419,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle afterPostProcessColor
 	{
 		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x2C50E00", Offset = "0x2C4F400", VA = "0x182C50E00")]
+		[Address(RVA = "0x663FC20", Offset = "0x663EC20", VA = "0x663FC20")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x2C51240", Offset = "0x2C4F840", VA = "0x182C51240")]
+		[Address(RVA = "0x66403D0", Offset = "0x663F3D0", VA = "0x66403D0")]
 		internal set
 		{
 		}
@@ -435,13 +435,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle overlayUITexture
 	{
 		[Token(Token = "0x60005F0")]
-		[Address(RVA = "0x2C51100", Offset = "0x2C4F700", VA = "0x182C51100")]
+		[Address(RVA = "0x663FB00", Offset = "0x663EB00", VA = "0x663FB00")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005F1")]
-		[Address(RVA = "0x2C51900", Offset = "0x2C4FF00", VA = "0x182C51900")]
+		[Address(RVA = "0x6640450", Offset = "0x663F450", VA = "0x6640450")]
 		internal set
 		{
 		}
@@ -451,13 +451,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle renderingLayersTexture
 	{
 		[Token(Token = "0x60005F2")]
-		[Address(RVA = "0x2C51130", Offset = "0x2C4F730", VA = "0x182C51130")]
+		[Address(RVA = "0x663F840", Offset = "0x663E840", VA = "0x663F840")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005F3")]
-		[Address(RVA = "0x2C51980", Offset = "0x2C4FF80", VA = "0x182C51980")]
+		[Address(RVA = "0x6640060", Offset = "0x663F060", VA = "0x6640060")]
 		internal set
 		{
 		}
@@ -467,13 +467,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle[] dBuffer
 	{
 		[Token(Token = "0x60005F4")]
-		[Address(RVA = "0x2C50F50", Offset = "0x2C4F550", VA = "0x182C50F50")]
+		[Address(RVA = "0x6630950", Offset = "0x662F950", VA = "0x6630950")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005F5")]
-		[Address(RVA = "0x2C515C0", Offset = "0x2C4FBC0", VA = "0x182C515C0")]
+		[Address(RVA = "0x6641D20", Offset = "0x6640D20", VA = "0x6641D20")]
 		set
 		{
 		}
@@ -483,13 +483,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle dBufferDepth
 	{
 		[Token(Token = "0x60005F6")]
-		[Address(RVA = "0x2C50F20", Offset = "0x2C4F520", VA = "0x182C50F20")]
+		[Address(RVA = "0x6641D30", Offset = "0x6640D30", VA = "0x6641D30")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005F7")]
-		[Address(RVA = "0x2C51540", Offset = "0x2C4FB40", VA = "0x182C51540")]
+		[Address(RVA = "0x6641D40", Offset = "0x6640D40", VA = "0x6641D40")]
 		set
 		{
 		}
@@ -499,13 +499,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	public TextureHandle ssaoTexture
 	{
 		[Token(Token = "0x60005F8")]
-		[Address(RVA = "0x2C51160", Offset = "0x2C4F760", VA = "0x182C51160")]
+		[Address(RVA = "0x6630960", Offset = "0x662F960", VA = "0x6630960")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005F9")]
-		[Address(RVA = "0x2C51A00", Offset = "0x2C50000", VA = "0x182C51A00")]
+		[Address(RVA = "0x6641DC0", Offset = "0x6640DC0", VA = "0x6641DC0")]
 		internal set
 		{
 		}
@@ -515,13 +515,13 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal TextureHandle irradianceTexture
 	{
 		[Token(Token = "0x60005FA")]
-		[Address(RVA = "0x2C51000", Offset = "0x2C4F600", VA = "0x182C51000")]
+		[Address(RVA = "0x6641E40", Offset = "0x6640E40", VA = "0x6641E40")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005FB")]
-		[Address(RVA = "0x2C51780", Offset = "0x2C4FD80", VA = "0x182C51780")]
+		[Address(RVA = "0x6641E50", Offset = "0x6640E50", VA = "0x6641E50")]
 		set
 		{
 		}
@@ -531,32 +531,32 @@ public class UniversalResourceData : UniversalResourceDataBase
 	internal TextureHandle stpDebugView
 	{
 		[Token(Token = "0x60005FC")]
-		[Address(RVA = "0x2C51190", Offset = "0x2C4F790", VA = "0x182C51190")]
+		[Address(RVA = "0x6635000", Offset = "0x6634000", VA = "0x6635000")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005FD")]
-		[Address(RVA = "0x2C51A80", Offset = "0x2C50080", VA = "0x182C51A80")]
+		[Address(RVA = "0x6641ED0", Offset = "0x6640ED0", VA = "0x6641ED0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60005CB")]
-	[Address(RVA = "0x2C50A70", Offset = "0x2C4F070", VA = "0x182C50A70")]
+	[Address(RVA = "0x6638230", Offset = "0x6637230", VA = "0x6638230")]
 	public void SwitchActiveTexturesToBackbuffer()
 	{
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x2C50290", Offset = "0x2C4E890", VA = "0x182C50290", Slot = "4")]
+	[Address(RVA = "0x6641F50", Offset = "0x6640F50", VA = "0x6641F50", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x2C50A80", Offset = "0x2C4F080", VA = "0x182C50A80")]
+	[Address(RVA = "0x6642960", Offset = "0x6641960", VA = "0x6642960")]
 	public UniversalResourceData()
 	{
 	}

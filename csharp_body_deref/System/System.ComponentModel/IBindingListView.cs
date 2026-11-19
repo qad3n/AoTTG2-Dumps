@@ -10,42 +10,42 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001A3")]
+[Token(Token = "0x2000164")]
 public interface IBindingListView : IBindingList, IList, ICollection, IEnumerable
 {
-	[Token(Token = "0x1700021E")]
+	[Token(Token = "0x170001EF")]
 	string Filter
 	{
-		[Token(Token = "0x6000AC7")]
+		[Token(Token = "0x6000907")]
 		get;
-		[Token(Token = "0x6000AC8")]
+		[Token(Token = "0x6000908")]
 		set;
 	}
 
-	[Token(Token = "0x1700021F")]
+	[Token(Token = "0x170001F0")]
 	ListSortDescriptionCollection SortDescriptions
 	{
-		[Token(Token = "0x6000AC9")]
+		[Token(Token = "0x6000909")]
 		get;
 	}
 
-	[Token(Token = "0x17000220")]
+	[Token(Token = "0x170001F1")]
 	bool SupportsAdvancedSorting
 	{
-		[Token(Token = "0x6000ACB")]
+		[Token(Token = "0x600090B")]
 		get;
 	}
 
-	[Token(Token = "0x17000221")]
+	[Token(Token = "0x170001F2")]
 	bool SupportsFiltering
 	{
-		[Token(Token = "0x6000ACC")]
+		[Token(Token = "0x600090C")]
 		get;
 	}
 
-	[Token(Token = "0x6000AC6")]
+	[Token(Token = "0x6000906")]
 	void ApplySort(ListSortDescriptionCollection sorts);
 
-	[Token(Token = "0x6000ACA")]
+	[Token(Token = "0x600090A")]
 	void RemoveFilter();
 }

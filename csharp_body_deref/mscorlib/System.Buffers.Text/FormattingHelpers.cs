@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.Buffers.Text;
 
-[Token(Token = "0x200065D")]
+[Token(Token = "0x2000638")]
 internal static class FormattingHelpers
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003087")]
-	[Address(RVA = "0x1AD0970", Offset = "0x1ACEF70", VA = "0x181AD0970")]
+	[Token(Token = "0x6003066")]
+	[Address(RVA = "0x54623F0", Offset = "0x54613F0", VA = "0x54623F0")]
 	public static int CountDigits(ulong value)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003088")]
-	[Address(RVA = "0x1AD0A90", Offset = "0x1ACF090", VA = "0x181AD0A90")]
+	[Token(Token = "0x6003067")]
+	[Address(RVA = "0x5462490", Offset = "0x5461490", VA = "0x5462490")]
 	public static int CountDigits(uint value)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003089")]
-	[Address(RVA = "0x1AD0B30", Offset = "0x1ACF130", VA = "0x181AD0B30")]
+	[Token(Token = "0x6003068")]
+	[Address(RVA = "0x54624E0", Offset = "0x54614E0", VA = "0x54624E0")]
 	public static int CountHexDigits(ulong value)
 	{
 		return default(int);

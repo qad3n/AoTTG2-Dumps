@@ -24,14 +24,14 @@ public class PhysicsRaycaster : BaseRaycaster
 		public static RaycastHitComparer instance;
 
 		[Token(Token = "0x600079F")]
-		[Address(RVA = "0x2336490", Offset = "0x2334A90", VA = "0x182336490", Slot = "4")]
+		[Address(RVA = "0x6D16D50", Offset = "0x6D15D50", VA = "0x6D16D50", Slot = "4")]
 		public int Compare(RaycastHit x, RaycastHit y)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60007A0")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6D16D80", Offset = "0x6D15D80", VA = "0x6D16D80")]
 		public RaycastHitComparer()
 		{
 		}
@@ -66,7 +66,7 @@ public class PhysicsRaycaster : BaseRaycaster
 	public override Camera eventCamera
 	{
 		[Token(Token = "0x6000796")]
-		[Address(RVA = "0x32FAE80", Offset = "0x32F9480", VA = "0x1832FAE80", Slot = "18")]
+		[Address(RVA = "0x6D16650", Offset = "0x6D15650", VA = "0x6D16650", Slot = "18")]
 		get
 		{
 			return null;
@@ -77,7 +77,7 @@ public class PhysicsRaycaster : BaseRaycaster
 	public virtual int depth
 	{
 		[Token(Token = "0x6000797")]
-		[Address(RVA = "0x32FADD0", Offset = "0x32F93D0", VA = "0x1832FADD0", Slot = "22")]
+		[Address(RVA = "0x6D16720", Offset = "0x6D15720", VA = "0x6D16720", Slot = "22")]
 		get
 		{
 			return default(int);
@@ -88,7 +88,7 @@ public class PhysicsRaycaster : BaseRaycaster
 	public int finalEventMask
 	{
 		[Token(Token = "0x6000798")]
-		[Address(RVA = "0x32FAF50", Offset = "0x32F9550", VA = "0x1832FAF50")]
+		[Address(RVA = "0x6D165A0", Offset = "0x6D155A0", VA = "0x6D165A0")]
 		get
 		{
 			return default(int);
@@ -99,13 +99,13 @@ public class PhysicsRaycaster : BaseRaycaster
 	public LayerMask eventMask
 	{
 		[Token(Token = "0x6000799")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x6D167C0", Offset = "0x6D157C0", VA = "0x6D167C0")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600079A")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x6D167D0", Offset = "0x6D157D0", VA = "0x6D167D0")]
 		set
 		{
 		}
@@ -115,33 +115,33 @@ public class PhysicsRaycaster : BaseRaycaster
 	public int maxRayIntersections
 	{
 		[Token(Token = "0x600079B")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x6D167E0", Offset = "0x6D157E0", VA = "0x6D167E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600079C")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x6D167F0", Offset = "0x6D157F0", VA = "0x6D167F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000795")]
-	[Address(RVA = "0x32FA490", Offset = "0x32F8A90", VA = "0x1832FA490")]
+	[Address(RVA = "0x6D156D0", Offset = "0x6D146D0", VA = "0x6D156D0")]
 	protected PhysicsRaycaster()
 	{
 	}
 
 	[Token(Token = "0x600079D")]
-	[Address(RVA = "0x32FA4C0", Offset = "0x32F8AC0", VA = "0x1832FA4C0")]
+	[Address(RVA = "0x6D161C0", Offset = "0x6D151C0", VA = "0x6D161C0")]
 	protected bool ComputeRayAndDistance(PointerEventData eventData, ref Ray ray, ref int eventDisplayIndex, ref float distanceToClipPlane)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600079E")]
-	[Address(RVA = "0x32FA890", Offset = "0x32F8E90", VA = "0x1832FA890", Slot = "17")]
+	[Address(RVA = "0x6D16800", Offset = "0x6D15800", VA = "0x6D16800", Slot = "17")]
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
 	{
 	}

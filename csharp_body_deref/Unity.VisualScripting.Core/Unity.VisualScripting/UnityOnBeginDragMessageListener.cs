@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnBeginDragMessageListener : MessageListener, IBeginDragHandler, IEventSystemHandler
 {
 	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x2DBD630", Offset = "0x2DBBC30", VA = "0x182DBD630", Slot = "4")]
+	[Address(RVA = "0x67A5F10", Offset = "0x67A4F10", VA = "0x67A5F10", Slot = "4")]
 	public void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5FA0", Offset = "0x67A4FA0", VA = "0x67A5FA0")]
 	public UnityOnBeginDragMessageListener()
 	{
 	}

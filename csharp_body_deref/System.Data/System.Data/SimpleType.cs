@@ -78,7 +78,7 @@ internal sealed class SimpleType : ISerializable
 	internal string BaseType
 	{
 		[Token(Token = "0x60007C2")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5ECCAB0", Offset = "0x5ECBAB0", VA = "0x5ECCAB0")]
 		get
 		{
 			return null;
@@ -89,7 +89,7 @@ internal sealed class SimpleType : ISerializable
 	internal XmlQualifiedName XmlBaseType
 	{
 		[Token(Token = "0x60007C3")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5ECCAC0", Offset = "0x5ECBAC0", VA = "0x5ECCAC0")]
 		get
 		{
 			return null;
@@ -100,7 +100,7 @@ internal sealed class SimpleType : ISerializable
 	internal string Name
 	{
 		[Token(Token = "0x60007C4")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x5ECCAD0", Offset = "0x5ECBAD0", VA = "0x5ECCAD0")]
 		get
 		{
 			return null;
@@ -111,7 +111,7 @@ internal sealed class SimpleType : ISerializable
 	internal string Namespace
 	{
 		[Token(Token = "0x60007C5")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x5ECCAE0", Offset = "0x5ECBAE0", VA = "0x5ECCAE0")]
 		get
 		{
 			return null;
@@ -122,7 +122,7 @@ internal sealed class SimpleType : ISerializable
 	internal int Length
 	{
 		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x5ECCAF0", Offset = "0x5ECBAF0", VA = "0x5ECCAF0")]
 		get
 		{
 			return default(int);
@@ -133,13 +133,13 @@ internal sealed class SimpleType : ISerializable
 	internal int MaxLength
 	{
 		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x5ECCB00", Offset = "0x5ECBB00", VA = "0x5ECCB00")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x5ECCB10", Offset = "0x5ECBB10", VA = "0x5ECCB10")]
 		set
 		{
 		}
@@ -149,7 +149,7 @@ internal sealed class SimpleType : ISerializable
 	internal SimpleType BaseSimpleType
 	{
 		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5ECCB20", Offset = "0x5ECBB20", VA = "0x5ECCB20")]
 		get
 		{
 			return null;
@@ -160,7 +160,7 @@ internal sealed class SimpleType : ISerializable
 	public string SimpleTypeQualifiedName
 	{
 		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x2526DA0", Offset = "0x25253A0", VA = "0x182526DA0")]
+		[Address(RVA = "0x5ECCB30", Offset = "0x5ECBB30", VA = "0x5ECCB30")]
 		get
 		{
 			return null;
@@ -168,94 +168,94 @@ internal sealed class SimpleType : ISerializable
 	}
 
 	[Token(Token = "0x60007BD")]
-	[Address(RVA = "0x2526A80", Offset = "0x2525080", VA = "0x182526A80")]
+	[Address(RVA = "0x5ECBD00", Offset = "0x5ECAD00", VA = "0x5ECBD00")]
 	internal SimpleType(string baseType)
 	{
 	}
 
 	[Token(Token = "0x60007BE")]
-	[Address(RVA = "0x2526BC0", Offset = "0x25251C0", VA = "0x182526BC0")]
+	[Address(RVA = "0x5ECBE40", Offset = "0x5ECAE40", VA = "0x5ECBE40")]
 	internal SimpleType(XmlSchemaSimpleType node)
 	{
 	}
 
 	[Token(Token = "0x60007BF")]
-	[Address(RVA = "0x2526530", Offset = "0x2524B30", VA = "0x182526530", Slot = "4")]
+	[Address(RVA = "0x5ECC960", Offset = "0x5ECB960", VA = "0x5ECC960", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60007C0")]
-	[Address(RVA = "0x2525C60", Offset = "0x2524260", VA = "0x182525C60")]
+	[Address(RVA = "0x5ECC020", Offset = "0x5ECB020", VA = "0x5ECC020")]
 	internal void LoadTypeValues(XmlSchemaSimpleType node)
 	{
 	}
 
 	[Token(Token = "0x60007C1")]
-	[Address(RVA = "0x2525B50", Offset = "0x2524150", VA = "0x182525B50")]
+	[Address(RVA = "0x5ECC9A0", Offset = "0x5ECB9A0", VA = "0x5ECC9A0")]
 	internal bool IsPlainString()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007CB")]
-	[Address(RVA = "0x25264C0", Offset = "0x2524AC0", VA = "0x1825264C0")]
+	[Address(RVA = "0x5ECCB80", Offset = "0x5ECBB80", VA = "0x5ECCB80")]
 	internal string QualifiedName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007CC")]
-	[Address(RVA = "0x2526570", Offset = "0x2524B70", VA = "0x182526570")]
+	[Address(RVA = "0x5ECCBE0", Offset = "0x5ECBBE0", VA = "0x5ECCBE0")]
 	internal XmlNode ToNode(XmlDocument dc, Hashtable prefixes, bool inRemoting)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007CD")]
-	[Address(RVA = "0x2525860", Offset = "0x2523E60", VA = "0x182525860")]
+	[Address(RVA = "0x5ECD130", Offset = "0x5ECC130", VA = "0x5ECD130")]
 	internal static SimpleType CreateEnumeratedType(string values)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007CE")]
-	[Address(RVA = "0x2525800", Offset = "0x2523E00", VA = "0x182525800")]
+	[Address(RVA = "0x5ECD1B0", Offset = "0x5ECC1B0", VA = "0x5ECD1B0")]
 	internal static SimpleType CreateByteArrayType(string encoding)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x25258E0", Offset = "0x2523EE0", VA = "0x1825258E0")]
+	[Address(RVA = "0x5ECD210", Offset = "0x5ECC210", VA = "0x5ECD210")]
 	internal static SimpleType CreateLimitedStringType(int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x2525960", Offset = "0x2523F60", VA = "0x182525960")]
+	[Address(RVA = "0x5ECD280", Offset = "0x5ECC280", VA = "0x5ECD280")]
 	internal static SimpleType CreateSimpleType(StorageType typeCode, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D1")]
-	[Address(RVA = "0x2525A30", Offset = "0x2524030", VA = "0x182525A30")]
+	[Address(RVA = "0x5ECD340", Offset = "0x5ECC340", VA = "0x5ECD340")]
 	internal string HasConflictingDefinition(SimpleType otherSimpleType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x25256E0", Offset = "0x2523CE0", VA = "0x1825256E0")]
+	[Address(RVA = "0x5ECD420", Offset = "0x5ECC420", VA = "0x5ECD420")]
 	internal bool CanHaveMaxLength()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D3")]
-	[Address(RVA = "0x2525750", Offset = "0x2523D50", VA = "0x182525750")]
+	[Address(RVA = "0x5ECD480", Offset = "0x5ECC480", VA = "0x5ECD480")]
 	internal void ConvertToAnnonymousSimpleType()
 	{
 	}

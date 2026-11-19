@@ -38,234 +38,234 @@ internal abstract class BinXmlDateTime
 	private static readonly int SQLTicksPerDay;
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x1B07C60", Offset = "0x1B06260", VA = "0x181B07C60")]
+	[Address(RVA = "0x5F8C9B0", Offset = "0x5F8B9B0", VA = "0x5F8C9B0")]
 	private static void Write2Dig(StringBuilder sb, int val)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x25CE0D0", Offset = "0x25CC6D0", VA = "0x1825CE0D0")]
+	[Address(RVA = "0x5F8CA20", Offset = "0x5F8BA20", VA = "0x5F8CA20")]
 	private static void Write4DigNeg(StringBuilder sb, int val)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x25CE000", Offset = "0x25CC600", VA = "0x1825CE000")]
+	[Address(RVA = "0x5F8CB60", Offset = "0x5F8BB60", VA = "0x5F8CB60")]
 	private static void Write3Dec(StringBuilder sb, int val)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x25CE220", Offset = "0x25CC820", VA = "0x1825CE220")]
+	[Address(RVA = "0x5F8CC20", Offset = "0x5F8BC20", VA = "0x5F8CC20")]
 	private static void WriteDate(StringBuilder sb, int yr, int mnth, int day)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x25CE800", Offset = "0x25CCE00", VA = "0x1825CE800")]
+	[Address(RVA = "0x5F8CD30", Offset = "0x5F8BD30", VA = "0x5F8CD30")]
 	private static void WriteTime(StringBuilder sb, int hr, int min, int sec, int ms)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x25CE350", Offset = "0x25CC950", VA = "0x1825CE350")]
+	[Address(RVA = "0x5F8CF90", Offset = "0x5F8BF90", VA = "0x5F8CF90")]
 	private static void WriteTimeFullPrecision(StringBuilder sb, int hr, int min, int sec, int fraction)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x25CE710", Offset = "0x25CCD10", VA = "0x1825CE710")]
+	[Address(RVA = "0x5F8D220", Offset = "0x5F8C220", VA = "0x5F8D220")]
 	private static void WriteTimeZone(StringBuilder sb, TimeSpan zone)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x25CE5D0", Offset = "0x25CCBD0", VA = "0x1825CE5D0")]
+	[Address(RVA = "0x5F8D340", Offset = "0x5F8C340", VA = "0x5F8D340")]
 	private static void WriteTimeZone(StringBuilder sb, bool negTimeZone, int hr, int min)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x25CD1B0", Offset = "0x25CB7B0", VA = "0x1825CD1B0")]
+	[Address(RVA = "0x5F8D470", Offset = "0x5F8C470", VA = "0x5F8D470")]
 	private static void BreakDownXsdDateTime(long val, out int yr, out int mnth, out int day, out int hr, out int min, out int sec, out int ms)
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x25CD3A0", Offset = "0x25CB9A0", VA = "0x1825CD3A0")]
+	[Address(RVA = "0x5F8D640", Offset = "0x5F8C640", VA = "0x5F8D640")]
 	private static void BreakDownXsdDate(long val, out int yr, out int mnth, out int day, out bool negTimeZone, out int hr, out int min)
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x25CD580", Offset = "0x25CBB80", VA = "0x1825CD580")]
+	[Address(RVA = "0x5F8D790", Offset = "0x5F8C790", VA = "0x5F8D790")]
 	private static void BreakDownXsdTime(long val, out int hr, out int min, out int sec, out int ms)
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x25CEA40", Offset = "0x25CD040", VA = "0x1825CEA40")]
+	[Address(RVA = "0x5F8D890", Offset = "0x5F8C890", VA = "0x5F8D890")]
 	public static string XsdDateTimeToString(long val)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x25CECE0", Offset = "0x25CD2E0", VA = "0x1825CECE0")]
+	[Address(RVA = "0x5F8D9E0", Offset = "0x5F8C9E0", VA = "0x5F8D9E0")]
 	public static string XsdDateToString(long val)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x25CFDB0", Offset = "0x25CE3B0", VA = "0x1825CFDB0")]
+	[Address(RVA = "0x5F8DAF0", Offset = "0x5F8CAF0", VA = "0x5F8DAF0")]
 	public static string XsdTimeToString(long val)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x25CDD60", Offset = "0x25CC360", VA = "0x1825CDD60")]
+	[Address(RVA = "0x5F8DCC0", Offset = "0x5F8CCC0", VA = "0x5F8DCC0")]
 	public static string SqlDateTimeToString(int dateticks, uint timeticks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x25CDC80", Offset = "0x25CC280", VA = "0x1825CDC80")]
+	[Address(RVA = "0x5F8DDE0", Offset = "0x5F8CDE0", VA = "0x5F8DDE0")]
 	public static DateTime SqlDateTimeToDateTime(int dateticks, uint timeticks)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x25CDEE0", Offset = "0x25CC4E0", VA = "0x1825CDEE0")]
+	[Address(RVA = "0x5F8DEC0", Offset = "0x5F8CEC0", VA = "0x5F8DEC0")]
 	public static string SqlSmallDateTimeToString(short dateticks, ushort timeticks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x25CDE70", Offset = "0x25CC470", VA = "0x1825CDE70")]
+	[Address(RVA = "0x5F8E020", Offset = "0x5F8D020", VA = "0x5F8E020")]
 	public static DateTime SqlSmallDateTimeToDateTime(short dateticks, ushort timeticks)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x25CF770", Offset = "0x25CDD70", VA = "0x1825CF770")]
+	[Address(RVA = "0x5F8E080", Offset = "0x5F8D080", VA = "0x5F8E080")]
 	public static DateTime XsdKatmaiDateToDateTime(byte[] data, int offset)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x25CF510", Offset = "0x25CDB10", VA = "0x1825CF510")]
+	[Address(RVA = "0x5F8E1D0", Offset = "0x5F8D1D0", VA = "0x5F8E1D0")]
 	public static DateTime XsdKatmaiDateTimeToDateTime(byte[] data, int offset)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x25CFBF0", Offset = "0x25CE1F0", VA = "0x1825CFBF0")]
+	[Address(RVA = "0x5F8E4E0", Offset = "0x5F8D4E0", VA = "0x5F8E4E0")]
 	public static DateTime XsdKatmaiTimeToDateTime(byte[] data, int offset)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x25CF030", Offset = "0x25CD630", VA = "0x1825CF030")]
+	[Address(RVA = "0x5F8E530", Offset = "0x5F8D530", VA = "0x5F8E530")]
 	public static DateTimeOffset XsdKatmaiDateOffsetToDateTimeOffset(byte[] data, int offset)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x25CF220", Offset = "0x25CD820", VA = "0x1825CF220")]
+	[Address(RVA = "0x5F8E580", Offset = "0x5F8D580", VA = "0x5F8E580")]
 	public static DateTimeOffset XsdKatmaiDateTimeOffsetToDateTimeOffset(byte[] data, int offset)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x25CF9F0", Offset = "0x25CDFF0", VA = "0x1825CF9F0")]
+	[Address(RVA = "0x5F8E6F0", Offset = "0x5F8D6F0", VA = "0x5F8E6F0")]
 	public static DateTimeOffset XsdKatmaiTimeOffsetToDateTimeOffset(byte[] data, int offset)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x25CF830", Offset = "0x25CDE30", VA = "0x1825CF830")]
+	[Address(RVA = "0x5F8E740", Offset = "0x5F8D740", VA = "0x5F8E740")]
 	public static string XsdKatmaiDateToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x25CF5E0", Offset = "0x25CDBE0", VA = "0x1825CF5E0")]
+	[Address(RVA = "0x5F8E840", Offset = "0x5F8D840", VA = "0x5F8E840")]
 	public static string XsdKatmaiDateTimeToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x25CFC50", Offset = "0x25CE250", VA = "0x1825CFC50")]
+	[Address(RVA = "0x5F8EA90", Offset = "0x5F8DA90", VA = "0x5F8EA90")]
 	public static string XsdKatmaiTimeToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x25CF0B0", Offset = "0x25CD6B0", VA = "0x1825CF0B0")]
+	[Address(RVA = "0x5F8EC20", Offset = "0x5F8DC20", VA = "0x5F8EC20")]
 	public static string XsdKatmaiDateOffsetToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x25CF350", Offset = "0x25CD950", VA = "0x1825CF350")]
+	[Address(RVA = "0x5F8EDB0", Offset = "0x5F8DDB0", VA = "0x5F8EDB0")]
 	public static string XsdKatmaiDateTimeOffsetToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x25CFA70", Offset = "0x25CE070", VA = "0x1825CFA70")]
+	[Address(RVA = "0x5F8F070", Offset = "0x5F8E070", VA = "0x5F8F070")]
 	public static string XsdKatmaiTimeOffsetToString(byte[] data, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x25CD940", Offset = "0x25CBF40", VA = "0x1825CD940")]
+	[Address(RVA = "0x5F8E170", Offset = "0x5F8D170", VA = "0x5F8E170")]
 	private static long GetKatmaiDateTicks(byte[] data, ref int pos)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x25CD9B0", Offset = "0x25CBFB0", VA = "0x1825CD9B0")]
+	[Address(RVA = "0x5F8E2A0", Offset = "0x5F8D2A0", VA = "0x5F8E2A0")]
 	private static long GetKatmaiTimeTicks(byte[] data, ref int pos)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x25CDC30", Offset = "0x25CC230", VA = "0x1825CDC30")]
+	[Address(RVA = "0x5F8E6A0", Offset = "0x5F8D6A0", VA = "0x5F8E6A0")]
 	private static long GetKatmaiTimeZoneTicks(byte[] data, int pos)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x25CD810", Offset = "0x25CBE10", VA = "0x1825CD810")]
+	[Address(RVA = "0x5F8E990", Offset = "0x5F8D990", VA = "0x5F8E990")]
 	private static int GetFractions(DateTime dt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x25CD6D0", Offset = "0x25CBCD0", VA = "0x1825CD6D0")]
+	[Address(RVA = "0x5F8EF40", Offset = "0x5F8DF40", VA = "0x5F8EF40")]
 	private static int GetFractions(DateTimeOffset dt)
 	{
 		return default(int);

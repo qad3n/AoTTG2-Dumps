@@ -27,69 +27,69 @@ internal sealed class XMLDiffLoader
 	private DataTable _dataTable;
 
 	[Token(Token = "0x6000803")]
-	[Address(RVA = "0x252CF90", Offset = "0x252B590", VA = "0x18252CF90")]
+	[Address(RVA = "0x5ED26C0", Offset = "0x5ED16C0", VA = "0x5ED26C0")]
 	internal void LoadDiffGram(DataSet ds, XmlReader dataTextReader)
 	{
 	}
 
 	[Token(Token = "0x6000804")]
-	[Address(RVA = "0x252CAD0", Offset = "0x252B0D0", VA = "0x18252CAD0")]
+	[Address(RVA = "0x5ED3060", Offset = "0x5ED2060", VA = "0x5ED3060")]
 	private void CreateTablesHierarchy(DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x6000805")]
-	[Address(RVA = "0x252D110", Offset = "0x252B710", VA = "0x18252D110")]
+	[Address(RVA = "0x5ED3420", Offset = "0x5ED2420", VA = "0x5ED3420")]
 	internal void LoadDiffGram(DataTable dt, XmlReader dataTextReader)
 	{
 	}
 
 	[Token(Token = "0x6000806")]
-	[Address(RVA = "0x252D2F0", Offset = "0x252B8F0", VA = "0x18252D2F0")]
+	[Address(RVA = "0x5ED2880", Offset = "0x5ED1880", VA = "0x5ED2880")]
 	internal void ProcessDiffs(DataSet ds, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x6000807")]
-	[Address(RVA = "0x252D680", Offset = "0x252BC80", VA = "0x18252D680")]
+	[Address(RVA = "0x5ED3640", Offset = "0x5ED2640", VA = "0x5ED3640")]
 	internal void ProcessDiffs(ArrayList tableList, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x6000808")]
-	[Address(RVA = "0x252DEC0", Offset = "0x252C4C0", VA = "0x18252DEC0")]
+	[Address(RVA = "0x5ED2C50", Offset = "0x5ED1C50", VA = "0x5ED2C50")]
 	internal void ProcessErrors(DataSet ds, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x6000809")]
-	[Address(RVA = "0x252D9C0", Offset = "0x252BFC0", VA = "0x18252D9C0")]
+	[Address(RVA = "0x5ED39F0", Offset = "0x5ED29F0", VA = "0x5ED39F0")]
 	internal void ProcessErrors(ArrayList dt, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x600080A")]
-	[Address(RVA = "0x252CD90", Offset = "0x252B390", VA = "0x18252CD90")]
+	[Address(RVA = "0x5ED4F60", Offset = "0x5ED3F60", VA = "0x5ED4F60")]
 	private DataTable GetTable(string tableName, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x252E2B0", Offset = "0x252C8B0", VA = "0x18252E2B0")]
+	[Address(RVA = "0x5ED3F80", Offset = "0x5ED2F80", VA = "0x5ED3F80")]
 	private int ReadOldRowData(DataSet ds, ref DataTable table, ref int pos, XmlReader row)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x252F110", Offset = "0x252D710", VA = "0x18252F110")]
+	[Address(RVA = "0x5ED3F20", Offset = "0x5ED2F20", VA = "0x5ED3F20")]
 	internal void SkipWhitespaces(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x600080D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5ED5140", Offset = "0x5ED4140", VA = "0x5ED5140")]
 	public XMLDiffLoader()
 	{
 	}

@@ -15,21 +15,21 @@ namespace Cysharp.Threading.Tasks;
 public static class UniTaskCancellationExtensions
 {
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x291A610", Offset = "0x2918C10", VA = "0x18291A610")]
+	[Address(RVA = "0x62CA280", Offset = "0x62C9280", VA = "0x62CA280")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this MonoBehaviour monoBehaviour)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x291A6C0", Offset = "0x2918CC0", VA = "0x18291A6C0")]
+	[Address(RVA = "0x62CA2A0", Offset = "0x62C92A0", VA = "0x62CA2A0")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this GameObject gameObject)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x291A630", Offset = "0x2918C30", VA = "0x18291A630")]
+	[Address(RVA = "0x62CA2C0", Offset = "0x62C92C0", VA = "0x62CA2C0")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this Component component)
 	{
 		return default(CancellationToken);

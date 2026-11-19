@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005C8")]
+[Token(Token = "0x20005B3")]
 internal class MeshWriteDataPool : ImplicitPool<MeshWriteData>
 {
-	[Token(Token = "0x4001546")]
+	[Token(Token = "0x4001488")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Func<MeshWriteData> k_CreateAction;
 
-	[Token(Token = "0x6002AD0")]
-	[Address(RVA = "0x31A6120", Offset = "0x31A4720", VA = "0x1831A6120")]
+	[Token(Token = "0x6002A6F")]
+	[Address(RVA = "0x6BA4E00", Offset = "0x6BA3E00", VA = "0x6BA4E00")]
 	public MeshWriteDataPool()
 	{
 	}

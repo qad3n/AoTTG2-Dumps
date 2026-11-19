@@ -10,43 +10,43 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005D1")]
+[Token(Token = "0x2000630")]
 internal abstract class BuiltinComponentInstance : BuiltinClassInstance
 {
-	[Token(Token = "0x40018FD")]
+	[Token(Token = "0x4001A9D")]
 	[FieldOffset(Offset = "0x30")]
 	public Component Component;
 
-	[Token(Token = "0x17000A15")]
+	[Token(Token = "0x17000A5D")]
 	public new bool Enabled
 	{
-		[Token(Token = "0x600387E")]
-		[Address(RVA = "0x209B350", Offset = "0x2099950", VA = "0x18209B350")]
+		[Token(Token = "0x6003B0A")]
+		[Address(RVA = "0x5A6A6C0", Offset = "0x5A696C0", VA = "0x5A6A6C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600387F")]
-		[Address(RVA = "0x209B3C0", Offset = "0x20999C0", VA = "0x18209B3C0")]
+		[Token(Token = "0x6003B0B")]
+		[Address(RVA = "0x5A6A720", Offset = "0x5A69720", VA = "0x5A6A720")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600387C")]
-	[Address(RVA = "0x209B2E0", Offset = "0x20998E0", VA = "0x18209B2E0")]
+	[Token(Token = "0x6003B08")]
+	[Address(RVA = "0x5A6A660", Offset = "0x5A69660", VA = "0x5A6A660")]
 	protected BuiltinComponentInstance(Component component)
 	{
 	}
 
-	[Token(Token = "0x600387D")]
+	[Token(Token = "0x6003B09")]
 	protected static T GetOrAddComponent<T>(GameObject gameObject) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003880")]
-	[Address(RVA = "0x209B240", Offset = "0x2099840", VA = "0x18209B240")]
+	[Token(Token = "0x6003B0C")]
+	[Address(RVA = "0x5A6A790", Offset = "0x5A69790", VA = "0x5A6A790")]
 	public void Unload()
 	{
 	}

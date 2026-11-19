@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,14 +16,14 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 {
 	[Token(Token = "0x40000F9")]
 	[FieldOffset(Offset = "0x18")]
-	[Tooltip("Enable Logging in Devmode")]
 	[SerializeField]
+	[Tooltip("Enable Logging in Devmode")]
 	private bool m_Logging;
 
 	[Token(Token = "0x40000FA")]
 	[FieldOffset(Offset = "0x19")]
-	[SerializeField]
 	[Tooltip("Automatic Performance Mode")]
+	[SerializeField]
 	private bool m_AutomaticPerformanceModeEnabled;
 
 	[Token(Token = "0x40000FB")]
@@ -34,15 +34,15 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 
 	[Token(Token = "0x40000FC")]
 	[FieldOffset(Offset = "0x1B")]
-	[Tooltip("Enables the CPU and GPU boost mode before engine startup to decrease startup time.")]
 	[SerializeField]
+	[Tooltip("Enables the CPU and GPU boost mode before engine startup to decrease startup time.")]
 	private bool m_EnableBoostOnStartup;
 
 	[Token(Token = "0x40000FD")]
 	[FieldOffset(Offset = "0x1C")]
-	[Tooltip("Logging Frequency (Development mode only)")]
-	[Min(1f)]
 	[SerializeField]
+	[Min(1f)]
+	[Tooltip("Logging Frequency (Development mode only)")]
 	private int m_StatsLoggingFrequencyInFrames;
 
 	[Token(Token = "0x40000FE")]
@@ -86,13 +86,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public bool logging
 	{
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x2E85230", Offset = "0x2E83830", VA = "0x182E85230")]
+		[Address(RVA = "0x68829B0", Offset = "0x68819B0", VA = "0x68829B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x688E370", Offset = "0x688D370", VA = "0x688E370")]
 		set
 		{
 		}
@@ -102,13 +102,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public bool automaticPerformanceMode
 	{
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x2E85210", Offset = "0x2E83810", VA = "0x182E85210")]
+		[Address(RVA = "0x6882990", Offset = "0x6881990", VA = "0x6882990")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
+		[Address(RVA = "0x688E380", Offset = "0x688D380", VA = "0x688E380")]
 		set
 		{
 		}
@@ -118,13 +118,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public bool automaticGameMode
 	{
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x2E85220", Offset = "0x2E83820", VA = "0x182E85220")]
+		[Address(RVA = "0x6882BE0", Offset = "0x6881BE0", VA = "0x6882BE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x1CB9D80", Offset = "0x1CB8380", VA = "0x181CB9D80")]
+		[Address(RVA = "0x688E390", Offset = "0x688D390", VA = "0x688E390")]
 		set
 		{
 		}
@@ -134,13 +134,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public bool enableBoostOnStartup
 	{
 		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x2E926D0", Offset = "0x2E90CD0", VA = "0x182E926D0")]
+		[Address(RVA = "0x688E3A0", Offset = "0x688D3A0", VA = "0x688E3A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x2DD7CD0", Offset = "0x2DD62D0", VA = "0x182DD7CD0")]
+		[Address(RVA = "0x688E3B0", Offset = "0x688D3B0", VA = "0x688E3B0")]
 		set
 		{
 		}
@@ -150,13 +150,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public int statsLoggingFrequencyInFrames
 	{
 		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0xAD35F0", Offset = "0xAD1BF0", VA = "0x180AD35F0")]
+		[Address(RVA = "0x68829A0", Offset = "0x68819A0", VA = "0x68829A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x688E3C0", Offset = "0x688D3C0", VA = "0x688E3C0")]
 		set
 		{
 		}
@@ -166,13 +166,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public AdaptivePerformanceIndexerSettings indexerSettings
 	{
 		[Token(Token = "0x60001E3")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x6887740", Offset = "0x6886740", VA = "0x6887740")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001E4")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x688E3D0", Offset = "0x688D3D0", VA = "0x688E3D0")]
 		set
 		{
 		}
@@ -182,13 +182,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public AdaptivePerformanceScalerSettings scalerSettings
 	{
 		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x688E3E0", Offset = "0x688D3E0", VA = "0x688E3E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x688E3F0", Offset = "0x688D3F0", VA = "0x688E3F0")]
 		set
 		{
 		}
@@ -198,7 +198,7 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public AdaptivePerformanceScalerProfile[] ScalerProfiles
 	{
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0xAD2BF0", Offset = "0xAD11F0", VA = "0x180AD2BF0")]
+		[Address(RVA = "0x6883F90", Offset = "0x6882F90", VA = "0x6883F90")]
 		get
 		{
 			return null;
@@ -209,13 +209,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public AdaptivePerformanceScalerProfile ActiveScalerProfile
 	{
 		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0xAD2BE0", Offset = "0xAD11E0", VA = "0x180AD2BE0")]
+		[Address(RVA = "0x688E400", Offset = "0x688D400", VA = "0x688E400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x688E410", Offset = "0x688D410", VA = "0x688E410")]
 		set
 		{
 		}
@@ -226,13 +226,13 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	internal List<AdaptivePerformanceScaler> AddedScalerViaScan
 	{
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Address(RVA = "0x68843B0", Offset = "0x68833B0", VA = "0x68843B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x688E420", Offset = "0x688D420", VA = "0x688E420")]
 		set
 		{
 		}
@@ -242,58 +242,58 @@ public class IAdaptivePerformanceSettings : ScriptableObject
 	public int defaultScalerProfilerIndex
 	{
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x2E926C0", Offset = "0x2E90CC0", VA = "0x182E926C0")]
+		[Address(RVA = "0x68821A0", Offset = "0x68811A0", VA = "0x68821A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001F2")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x688EF20", Offset = "0x688DF20", VA = "0x688EF20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x2E91640", Offset = "0x2E8FC40", VA = "0x182E91640")]
+	[Address(RVA = "0x688E430", Offset = "0x688D430", VA = "0x688E430")]
 	public void AddScalerProfileWithDefaultScalers(string name = "")
 	{
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x2E91EB0", Offset = "0x2E904B0", VA = "0x182E91EB0")]
+	[Address(RVA = "0x688E640", Offset = "0x688D640", VA = "0x688E640")]
 	public void DeleteScalerProfileAt(int index)
 	{
 	}
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x2E92140", Offset = "0x2E90740", VA = "0x182E92140")]
+	[Address(RVA = "0x68821B0", Offset = "0x68811B0", VA = "0x68821B0")]
 	public void LoadScalerProfile(string scalerProfileName)
 	{
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x2E91830", Offset = "0x2E8FE30", VA = "0x182E91830")]
+	[Address(RVA = "0x688E7C0", Offset = "0x688D7C0", VA = "0x688E7C0")]
 	private bool ApplyScalerProfileToAllScalers()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x2E91FF0", Offset = "0x2E905F0", VA = "0x182E91FF0")]
+	[Address(RVA = "0x6881FC0", Offset = "0x6880FC0", VA = "0x6881FC0")]
 	public string[] GetAvailableScalerProfiles()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x2E92550", Offset = "0x2E90B50", VA = "0x182E92550")]
+	[Address(RVA = "0x688EF30", Offset = "0x688DF30", VA = "0x688EF30")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x2E92560", Offset = "0x2E90B60", VA = "0x182E92560")]
+	[Address(RVA = "0x688EF40", Offset = "0x688DF40", VA = "0x688EF40")]
 	public IAdaptivePerformanceSettings()
 	{
 	}

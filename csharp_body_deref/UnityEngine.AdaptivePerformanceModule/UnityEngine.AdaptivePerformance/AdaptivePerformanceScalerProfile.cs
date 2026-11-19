@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,21 +22,21 @@ public class AdaptivePerformanceScalerProfile : AdaptivePerformanceScalerSetting
 
 	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0xA8")]
-	[Tooltip("Name of the scaler profile.")]
 	[SerializeField]
+	[Tooltip("Name of the scaler profile.")]
 	private string m_Name;
 
 	[Token(Token = "0x17000087")]
 	public string Name
 	{
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x2E8CB60", Offset = "0x2E8B160", VA = "0x182E8CB60")]
+		[Address(RVA = "0x688BF40", Offset = "0x688AF40", VA = "0x688BF40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
+		[Address(RVA = "0x688BF50", Offset = "0x688AF50", VA = "0x688BF50")]
 		set
 		{
 		}
@@ -46,7 +46,7 @@ public class AdaptivePerformanceScalerProfile : AdaptivePerformanceScalerSetting
 	public List<AdaptivePerformanceScaler> AddedScalers
 	{
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x2E8CB50", Offset = "0x2E8B150", VA = "0x182E8CB50")]
+		[Address(RVA = "0x6884190", Offset = "0x6883190", VA = "0x6884190")]
 		get
 		{
 			return null;
@@ -54,19 +54,19 @@ public class AdaptivePerformanceScalerProfile : AdaptivePerformanceScalerSetting
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x2E8C7D0", Offset = "0x2E8ADD0", VA = "0x182E8C7D0")]
+	[Address(RVA = "0x68841A0", Offset = "0x68831A0", VA = "0x68841A0")]
 	internal void EnableAddedScalers()
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x2E8C930", Offset = "0x2E8AF30", VA = "0x182E8C930")]
+	[Address(RVA = "0x688BF70", Offset = "0x688AF70", VA = "0x688BF70")]
 	internal void RemoveAllAddedScalersFromIndexer()
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x2E8CA80", Offset = "0x2E8B080", VA = "0x182E8CA80")]
+	[Address(RVA = "0x688C110", Offset = "0x688B110", VA = "0x688C110")]
 	public AdaptivePerformanceScalerProfile()
 	{
 	}

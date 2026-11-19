@@ -12,75 +12,75 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200019B")]
+[Token(Token = "0x2000173")]
 [ComVisible(true)]
 public class TypeLoadException : SystemException, ISerializable
 {
-	[Token(Token = "0x4000662")]
+	[Token(Token = "0x40005C0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private string ClassName;
 
-	[Token(Token = "0x4000663")]
+	[Token(Token = "0x40005C1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private string AssemblyName;
 
-	[Token(Token = "0x4000664")]
+	[Token(Token = "0x40005C2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private string MessageArg;
 
-	[Token(Token = "0x4000665")]
+	[Token(Token = "0x40005C3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	internal int ResourceId;
 
 	[Token(Token = "0x17000152")]
 	public override string Message
 	{
-		[Token(Token = "0x6000F2E")]
-		[Address(RVA = "0x1B916D0", Offset = "0x1B8FCD0", VA = "0x181B916D0", Slot = "5")]
+		[Token(Token = "0x6000F08")]
+		[Address(RVA = "0x5506A90", Offset = "0x5505A90", VA = "0x5506A90", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x1B915E0", Offset = "0x1B8FBE0", VA = "0x181B915E0")]
+	[Token(Token = "0x6000F06")]
+	[Address(RVA = "0x5506A20", Offset = "0x5505A20", VA = "0x5506A20")]
 	public TypeLoadException()
 	{
 	}
 
-	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x1B915B0", Offset = "0x1B8FBB0", VA = "0x181B915B0")]
+	[Token(Token = "0x6000F07")]
+	[Address(RVA = "0x5506A70", Offset = "0x5505A70", VA = "0x5506A70")]
 	public TypeLoadException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x1B91270", Offset = "0x1B8F870", VA = "0x181B91270")]
+	[Token(Token = "0x6000F09")]
+	[Address(RVA = "0x5506AA0", Offset = "0x5505AA0", VA = "0x5506AA0")]
 	private void SetMessageField()
 	{
 	}
 
-	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x1B91630", Offset = "0x1B8FC30", VA = "0x181B91630")]
+	[Token(Token = "0x6000F0A")]
+	[Address(RVA = "0x5506BD0", Offset = "0x5505BD0", VA = "0x5506BD0")]
 	private TypeLoadException(string className, string assemblyName)
 	{
 	}
 
-	[Token(Token = "0x6000F31")]
-	[Address(RVA = "0x1B913B0", Offset = "0x1B8F9B0", VA = "0x181B913B0")]
+	[Token(Token = "0x6000F0B")]
+	[Address(RVA = "0x5506C60", Offset = "0x5505C60", VA = "0x5506C60")]
 	private TypeLoadException(string className, string assemblyName, string messageArg, int resourceId)
 	{
 	}
 
-	[Token(Token = "0x6000F32")]
-	[Address(RVA = "0x1B91440", Offset = "0x1B8FA40", VA = "0x181B91440")]
+	[Token(Token = "0x6000F0C")]
+	[Address(RVA = "0x5506CF0", Offset = "0x5505CF0", VA = "0x5506CF0")]
 	protected TypeLoadException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000F33")]
-	[Address(RVA = "0x1B910B0", Offset = "0x1B8F6B0", VA = "0x181B910B0", Slot = "11")]
+	[Token(Token = "0x6000F0D")]
+	[Address(RVA = "0x5506E50", Offset = "0x5505E50", VA = "0x5506E50", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

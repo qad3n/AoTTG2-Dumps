@@ -10,169 +10,169 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000F6")]
+[Token(Token = "0x20000B7")]
 internal sealed class RegexNode
 {
-	[Token(Token = "0x40003F7")]
+	[Token(Token = "0x4000328")]
 	[FieldOffset(Offset = "0x10")]
 	public int NType;
 
-	[Token(Token = "0x40003F8")]
+	[Token(Token = "0x4000329")]
 	[FieldOffset(Offset = "0x18")]
 	public List<RegexNode> Children;
 
-	[Token(Token = "0x40003F9")]
+	[Token(Token = "0x400032A")]
 	[FieldOffset(Offset = "0x20")]
 	public string Str;
 
-	[Token(Token = "0x40003FA")]
+	[Token(Token = "0x400032B")]
 	[FieldOffset(Offset = "0x28")]
 	public char Ch;
 
-	[Token(Token = "0x40003FB")]
+	[Token(Token = "0x400032C")]
 	[FieldOffset(Offset = "0x2C")]
 	public int M;
 
-	[Token(Token = "0x40003FC")]
+	[Token(Token = "0x400032D")]
 	[FieldOffset(Offset = "0x30")]
 	public int N;
 
-	[Token(Token = "0x40003FD")]
+	[Token(Token = "0x400032E")]
 	[FieldOffset(Offset = "0x34")]
 	public readonly RegexOptions Options;
 
-	[Token(Token = "0x40003FE")]
+	[Token(Token = "0x400032F")]
 	[FieldOffset(Offset = "0x38")]
 	public RegexNode Next;
 
-	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x2869380", Offset = "0x2867980", VA = "0x182869380")]
+	[Token(Token = "0x60003F6")]
+	[Address(RVA = "0x61F49B0", Offset = "0x61F39B0", VA = "0x61F49B0")]
 	public RegexNode(int type, RegexOptions options)
 	{
 	}
 
-	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x28693C0", Offset = "0x28679C0", VA = "0x1828693C0")]
+	[Token(Token = "0x60003F7")]
+	[Address(RVA = "0x61F49D0", Offset = "0x61F39D0", VA = "0x61F49D0")]
 	public RegexNode(int type, RegexOptions options, char ch)
 	{
 	}
 
-	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x28692D0", Offset = "0x28678D0", VA = "0x1828692D0")]
+	[Token(Token = "0x60003F8")]
+	[Address(RVA = "0x61F4A00", Offset = "0x61F3A00", VA = "0x61F4A00")]
 	public RegexNode(int type, RegexOptions options, string str)
 	{
 	}
 
-	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x2869310", Offset = "0x2867910", VA = "0x182869310")]
+	[Token(Token = "0x60003F9")]
+	[Address(RVA = "0x61F4A40", Offset = "0x61F3A40", VA = "0x61F4A40")]
 	public RegexNode(int type, RegexOptions options, int m)
 	{
 	}
 
-	[Token(Token = "0x60005B0")]
-	[Address(RVA = "0x2869340", Offset = "0x2867940", VA = "0x182869340")]
+	[Token(Token = "0x60003FA")]
+	[Address(RVA = "0x61F4A70", Offset = "0x61F3A70", VA = "0x61F4A70")]
 	public RegexNode(int type, RegexOptions options, int m, int n)
 	{
 	}
 
-	[Token(Token = "0x60005B1")]
-	[Address(RVA = "0x28692C0", Offset = "0x28678C0", VA = "0x1828692C0")]
+	[Token(Token = "0x60003FB")]
+	[Address(RVA = "0x61F4AB0", Offset = "0x61F3AB0", VA = "0x61F4AB0")]
 	public bool UseOptionR()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005B2")]
-	[Address(RVA = "0x2869160", Offset = "0x2867760", VA = "0x182869160")]
+	[Token(Token = "0x60003FC")]
+	[Address(RVA = "0x61F4AC0", Offset = "0x61F3AC0", VA = "0x61F4AC0")]
 	public RegexNode ReverseLeft()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B3")]
-	[Address(RVA = "0x28683C0", Offset = "0x28669C0", VA = "0x1828683C0")]
+	[Token(Token = "0x60003FD")]
+	[Address(RVA = "0x61F4B20", Offset = "0x61F3B20", VA = "0x61F4B20")]
 	private void MakeRep(int type, int min, int max)
 	{
 	}
 
-	[Token(Token = "0x60005B4")]
-	[Address(RVA = "0x2868F20", Offset = "0x2867520", VA = "0x182868F20")]
+	[Token(Token = "0x60003FE")]
+	[Address(RVA = "0x61F4B40", Offset = "0x61F3B40", VA = "0x61F4B40")]
 	private RegexNode Reduce()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B5")]
-	[Address(RVA = "0x28691D0", Offset = "0x28677D0", VA = "0x1828691D0")]
+	[Token(Token = "0x60003FF")]
+	[Address(RVA = "0x61F57B0", Offset = "0x61F47B0", VA = "0x61F57B0")]
 	private RegexNode StripEnation(int emptyType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B6")]
-	[Address(RVA = "0x2868BB0", Offset = "0x28671B0", VA = "0x182868BB0")]
+	[Token(Token = "0x6000400")]
+	[Address(RVA = "0x61F5600", Offset = "0x61F4600", VA = "0x61F5600")]
 	private RegexNode ReduceGroup()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B7")]
-	[Address(RVA = "0x2868C20", Offset = "0x2867220", VA = "0x182868C20")]
+	[Token(Token = "0x6000401")]
+	[Address(RVA = "0x61F5460", Offset = "0x61F4460", VA = "0x61F5460")]
 	private RegexNode ReduceRep()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B8")]
-	[Address(RVA = "0x2868DC0", Offset = "0x28673C0", VA = "0x182868DC0")]
+	[Token(Token = "0x6000402")]
+	[Address(RVA = "0x61F5670", Offset = "0x61F4670", VA = "0x61F5670")]
 	private RegexNode ReduceSet()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005B9")]
-	[Address(RVA = "0x28683D0", Offset = "0x28669D0", VA = "0x1828683D0")]
+	[Token(Token = "0x6000403")]
+	[Address(RVA = "0x61F4BF0", Offset = "0x61F3BF0", VA = "0x61F4BF0")]
 	private RegexNode ReduceAlternation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005BA")]
-	[Address(RVA = "0x28687E0", Offset = "0x2866DE0", VA = "0x1828687E0")]
+	[Token(Token = "0x6000404")]
+	[Address(RVA = "0x61F5030", Offset = "0x61F4030", VA = "0x61F5030")]
 	private RegexNode ReduceConcatenation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005BB")]
-	[Address(RVA = "0x28682B0", Offset = "0x28668B0", VA = "0x1828682B0")]
+	[Token(Token = "0x6000405")]
+	[Address(RVA = "0x61F5890", Offset = "0x61F4890", VA = "0x61F5890")]
 	public RegexNode MakeQuantifier(bool lazy, int min, int max)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005BC")]
-	[Address(RVA = "0x28680D0", Offset = "0x28666D0", VA = "0x1828680D0")]
+	[Token(Token = "0x6000406")]
+	[Address(RVA = "0x61F5980", Offset = "0x61F4980", VA = "0x61F5980")]
 	public void AddChild(RegexNode newChild)
 	{
 	}
 
-	[Token(Token = "0x60005BD")]
-	[Address(RVA = "0x2868250", Offset = "0x2866850", VA = "0x182868250")]
+	[Token(Token = "0x6000407")]
+	[Address(RVA = "0x61F00B0", Offset = "0x61EF0B0", VA = "0x61F00B0")]
 	public RegexNode Child(int i)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005BE")]
-	[Address(RVA = "0x2868200", Offset = "0x2866800", VA = "0x182868200")]
+	[Token(Token = "0x6000408")]
+	[Address(RVA = "0x61F0070", Offset = "0x61EF070", VA = "0x61F0070")]
 	public int ChildCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005BF")]
-	[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+	[Token(Token = "0x6000409")]
+	[Address(RVA = "0x61F5AB0", Offset = "0x61F4AB0", VA = "0x61F5AB0")]
 	public int Type()
 	{
 		return default(int);

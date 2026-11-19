@@ -37,74 +37,74 @@ internal sealed class Merger
 	private bool _IgnoreNSforTableLookup;
 
 	[Token(Token = "0x60006E6")]
-	[Address(RVA = "0x2521FB0", Offset = "0x25205B0", VA = "0x182521FB0")]
+	[Address(RVA = "0x5EC27B0", Offset = "0x5EC17B0", VA = "0x5EC27B0")]
 	internal Merger(DataSet dataSet, bool preserveChanges, MissingSchemaAction missingSchemaAction)
 	{
 	}
 
 	[Token(Token = "0x60006E7")]
-	[Address(RVA = "0x2521F60", Offset = "0x2520560", VA = "0x182521F60")]
+	[Address(RVA = "0x5EC2800", Offset = "0x5EC1800", VA = "0x5EC2800")]
 	internal Merger(DataTable dataTable, bool preserveChanges, MissingSchemaAction missingSchemaAction)
 	{
 	}
 
 	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x251F740", Offset = "0x251DD40", VA = "0x18251F740")]
+	[Address(RVA = "0x5EC2850", Offset = "0x5EC1850", VA = "0x5EC2850")]
 	internal void MergeDataSet(DataSet source)
 	{
 	}
 
 	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0x2521760", Offset = "0x251FD60", VA = "0x182521760")]
+	[Address(RVA = "0x5EC4820", Offset = "0x5EC3820", VA = "0x5EC4820")]
 	internal void MergeTable(DataTable src)
 	{
 	}
 
 	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x25219D0", Offset = "0x251FFD0", VA = "0x1825219D0")]
+	[Address(RVA = "0x5EC4A90", Offset = "0x5EC3A90", VA = "0x5EC4A90")]
 	private void MergeTable(DataTable src, DataTable dst)
 	{
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x2520D30", Offset = "0x251F330", VA = "0x182520D30")]
+	[Address(RVA = "0x5EC5180", Offset = "0x5EC4180", VA = "0x5EC5180")]
 	private DataTable MergeSchema(DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x25216B0", Offset = "0x251FCB0", VA = "0x1825216B0")]
+	[Address(RVA = "0x5EC3A40", Offset = "0x5EC2A40", VA = "0x5EC3A40")]
 	private void MergeTableData(DataTable src)
 	{
 	}
 
 	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x251F410", Offset = "0x251DA10", VA = "0x18251F410")]
+	[Address(RVA = "0x5EC3AE0", Offset = "0x5EC2AE0", VA = "0x5EC3AE0")]
 	private void MergeConstraints(DataSet source)
 	{
 	}
 
 	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x251F490", Offset = "0x251DA90", VA = "0x18251F490")]
+	[Address(RVA = "0x5EC59D0", Offset = "0x5EC49D0", VA = "0x5EC59D0")]
 	private void MergeConstraints(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x2520500", Offset = "0x251EB00", VA = "0x182520500")]
+	[Address(RVA = "0x5EC3B50", Offset = "0x5EC2B50", VA = "0x5EC3B50")]
 	private void MergeRelation(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x2520350", Offset = "0x251E950", VA = "0x182520350")]
+	[Address(RVA = "0x5EC4590", Offset = "0x5EC3590", VA = "0x5EC4590")]
 	private void MergeExtendedProperties(PropertyCollection src, PropertyCollection dst)
 	{
 	}
 
 	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x251F290", Offset = "0x251D890", VA = "0x18251F290")]
+	[Address(RVA = "0x5EC4FF0", Offset = "0x5EC3FF0", VA = "0x5EC4FF0")]
 	private DataKey GetSrcKey(DataTable src, DataTable dst)
 	{
 		return default(DataKey);

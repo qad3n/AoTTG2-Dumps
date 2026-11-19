@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncDrawGizmosSelectedTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B1A")]
-	[Address(RVA = "0x292D390", Offset = "0x292B990", VA = "0x18292D390")]
+	[Address(RVA = "0x62FB010", Offset = "0x62FA010", VA = "0x62FB010")]
 	private void OnDrawGizmosSelected()
 	{
 	}
 
 	[Token(Token = "0x6000B1B")]
-	[Address(RVA = "0x292D100", Offset = "0x292B700", VA = "0x18292D100")]
+	[Address(RVA = "0x62FB080", Offset = "0x62FA080", VA = "0x62FB080")]
 	public IAsyncOnDrawGizmosSelectedHandler GetOnDrawGizmosSelectedAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B1C")]
-	[Address(RVA = "0x292D080", Offset = "0x292B680", VA = "0x18292D080")]
+	[Address(RVA = "0x62FB0F0", Offset = "0x62FA0F0", VA = "0x62FB0F0")]
 	public IAsyncOnDrawGizmosSelectedHandler GetOnDrawGizmosSelectedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B1D")]
-	[Address(RVA = "0x292D280", Offset = "0x292B880", VA = "0x18292D280")]
+	[Address(RVA = "0x62FB160", Offset = "0x62FA160", VA = "0x62FB160")]
 	public UniTask OnDrawGizmosSelectedAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B1E")]
-	[Address(RVA = "0x292D170", Offset = "0x292B770", VA = "0x18292D170")]
+	[Address(RVA = "0x62FB250", Offset = "0x62FA250", VA = "0x62FB250")]
 	public UniTask OnDrawGizmosSelectedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x292D400", Offset = "0x292BA00", VA = "0x18292D400")]
+	[Address(RVA = "0x62FB340", Offset = "0x62FA340", VA = "0x62FB340")]
 	public AsyncDrawGizmosSelectedTrigger()
 	{
 	}

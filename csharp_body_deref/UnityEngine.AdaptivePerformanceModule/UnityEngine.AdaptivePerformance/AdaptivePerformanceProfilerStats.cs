@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceProfilerStats
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -148,13 +148,13 @@ public static class AdaptivePerformanceProfilerStats
 	private static Dictionary<string, int> scalerInfosIndex;
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x2E8AD40", Offset = "0x2E89340", VA = "0x182E8AD40")]
+	[Address(RVA = "0x6888FE0", Offset = "0x6887FE0", VA = "0x6888FE0")]
 	public static void EmitScalerDataToProfilerStream(string scalerName, bool enabled, int overrideLevel, int currentLevel, float scale, bool applied, int maxLevel)
 	{
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x68893F0", Offset = "0x68883F0", VA = "0x68893F0")]
 	public static void FlushScalerDataToProfilerStream()
 	{
 	}

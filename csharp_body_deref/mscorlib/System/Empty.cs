@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000189")]
+[Token(Token = "0x2000161")]
 internal sealed class Empty : ISerializable
 {
-	[Token(Token = "0x400059E")]
+	[Token(Token = "0x40004FC")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly System.Empty Value;
 
-	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000DEF")]
+	[Address(RVA = "0x54F5900", Offset = "0x54F4900", VA = "0x54F5900")]
 	private Empty()
 	{
 	}
 
-	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "3")]
+	[Token(Token = "0x6000DF0")]
+	[Address(RVA = "0x54F5910", Offset = "0x54F4910", VA = "0x54F5910", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x1B648C0", Offset = "0x1B62EC0", VA = "0x181B648C0", Slot = "4")]
+	[Token(Token = "0x6000DF1")]
+	[Address(RVA = "0x54F5930", Offset = "0x54F4930", VA = "0x54F5930", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

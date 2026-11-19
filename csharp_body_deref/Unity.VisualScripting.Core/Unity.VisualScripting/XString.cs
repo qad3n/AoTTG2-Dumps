@@ -13,14 +13,14 @@ namespace Unity.VisualScripting;
 internal static class XString
 {
 	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x1917780", Offset = "0x1915D80", VA = "0x181917780")]
+	[Address(RVA = "0x6794B00", Offset = "0x6793B00", VA = "0x6794B00")]
 	internal static string Inject(this string format, params object[] formattingArgs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2DBFAE0", Offset = "0x2DBE0E0", VA = "0x182DBFAE0")]
+	[Address(RVA = "0x6793FE0", Offset = "0x6792FE0", VA = "0x6793FE0")]
 	internal static string Inject(this string format, params string[] formattingArgs)
 	{
 		return null;

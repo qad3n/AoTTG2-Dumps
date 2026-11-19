@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.BurstCompileAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,14 +37,14 @@ public class BurstCompileAttribute : Attribute
 	public FloatMode FloatMode
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x630D5C0", Offset = "0x630C5C0", VA = "0x630D5C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(FloatMode);
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x630D5D0", Offset = "0x630C5D0", VA = "0x630D5D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -55,14 +55,14 @@ public class BurstCompileAttribute : Attribute
 	public FloatPrecision FloatPrecision
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x630D5E0", Offset = "0x630C5E0", VA = "0x630D5E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(FloatPrecision);
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x630D5F0", Offset = "0x630C5F0", VA = "0x630D5F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -73,13 +73,13 @@ public class BurstCompileAttribute : Attribute
 	public bool CompileSynchronously
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x2950530", Offset = "0x294EB30", VA = "0x182950530")]
+		[Address(RVA = "0x630D600", Offset = "0x630C600", VA = "0x630D600")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x29506B0", Offset = "0x294ECB0", VA = "0x1829506B0")]
+		[Address(RVA = "0x630D650", Offset = "0x630C650", VA = "0x630D650")]
 		set
 		{
 		}
@@ -89,13 +89,13 @@ public class BurstCompileAttribute : Attribute
 	public bool Debug
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x2950590", Offset = "0x294EB90", VA = "0x182950590")]
+		[Address(RVA = "0x630D6A0", Offset = "0x630C6A0", VA = "0x630D6A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x2950710", Offset = "0x294ED10", VA = "0x182950710")]
+		[Address(RVA = "0x630D6F0", Offset = "0x630C6F0", VA = "0x630D6F0")]
 		set
 		{
 		}
@@ -105,13 +105,13 @@ public class BurstCompileAttribute : Attribute
 	public bool DisableSafetyChecks
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x2950650", Offset = "0x294EC50", VA = "0x182950650")]
+		[Address(RVA = "0x630D740", Offset = "0x630C740", VA = "0x630D740")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x29507D0", Offset = "0x294EDD0", VA = "0x1829507D0")]
+		[Address(RVA = "0x630D790", Offset = "0x630C790", VA = "0x630D790")]
 		set
 		{
 		}
@@ -121,13 +121,13 @@ public class BurstCompileAttribute : Attribute
 	public bool DisableDirectCall
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x29505F0", Offset = "0x294EBF0", VA = "0x1829505F0")]
+		[Address(RVA = "0x630D7E0", Offset = "0x630C7E0", VA = "0x630D7E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x2950770", Offset = "0x294ED70", VA = "0x182950770")]
+		[Address(RVA = "0x630D830", Offset = "0x630C830", VA = "0x630D830")]
 		set
 		{
 		}
@@ -137,14 +137,14 @@ public class BurstCompileAttribute : Attribute
 	public OptimizeFor OptimizeFor
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x630D880", Offset = "0x630C880", VA = "0x630D880")]
 		[CompilerGenerated]
 		get
 		{
 			return default(OptimizeFor);
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x630D890", Offset = "0x630C890", VA = "0x630D890")]
 		[CompilerGenerated]
 		set
 		{
@@ -155,14 +155,14 @@ public class BurstCompileAttribute : Attribute
 	internal string[] Options
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x630D8A0", Offset = "0x630C8A0", VA = "0x630D8A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x630D8B0", Offset = "0x630C8B0", VA = "0x630D8B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -170,19 +170,19 @@ public class BurstCompileAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x630D8C0", Offset = "0x630C8C0", VA = "0x630D8C0")]
 	public BurstCompileAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x29504F0", Offset = "0x294EAF0", VA = "0x1829504F0")]
+	[Address(RVA = "0x630D8D0", Offset = "0x630C8D0", VA = "0x630D8D0")]
 	public BurstCompileAttribute(FloatPrecision floatPrecision, FloatMode floatMode)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x28DDE00", Offset = "0x28DC400", VA = "0x1828DDE00")]
+	[Address(RVA = "0x630D8F0", Offset = "0x630C8F0", VA = "0x630D8F0")]
 	internal BurstCompileAttribute(string[] options)
 	{
 	}

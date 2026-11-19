@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x2000934")]
+[Token(Token = "0x200099B")]
 public enum AottgCreditsResultState
 {
-	[Token(Token = "0x4002DC4")]
+	[Token(Token = "0x4003072")]
 	LoadingNoCache,
-	[Token(Token = "0x4002DC5")]
+	[Token(Token = "0x4003073")]
 	ReadyFresh,
-	[Token(Token = "0x4002DC6")]
+	[Token(Token = "0x4003074")]
 	ReadyStaleRefreshing,
-	[Token(Token = "0x4002DC7")]
+	[Token(Token = "0x4003075")]
 	FailedNoCache,
-	[Token(Token = "0x4002DC8")]
+	[Token(Token = "0x4003076")]
 	FailedRefreshStale
 }

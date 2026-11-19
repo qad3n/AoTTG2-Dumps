@@ -9,26 +9,37 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200044F")]
+[Token(Token = "0x2000428")]
 internal sealed class TypeInformation
 {
-	[Token(Token = "0x400118C")]
+	[Token(Token = "0x40010EC")]
 	[FieldOffset(Offset = "0x10")]
 	private string fullTypeName;
 
-	[Token(Token = "0x400118D")]
+	[Token(Token = "0x40010ED")]
 	[FieldOffset(Offset = "0x18")]
 	private string assemblyString;
 
-	[Token(Token = "0x400118E")]
+	[Token(Token = "0x40010EE")]
 	[FieldOffset(Offset = "0x20")]
 	private bool hasTypeForwardedFrom;
 
-	[Token(Token = "0x17000451")]
+	[Token(Token = "0x17000450")]
 	internal string FullTypeName
 	{
-		[Token(Token = "0x600217B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6002151")]
+		[Address(RVA = "0x53B5090", Offset = "0x53B4090", VA = "0x53B5090")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000451")]
+	internal string AssemblyString
+	{
+		[Token(Token = "0x6002152")]
+		[Address(RVA = "0x53B50A0", Offset = "0x53B40A0", VA = "0x53B50A0")]
 		get
 		{
 			return null;
@@ -36,29 +47,18 @@ internal sealed class TypeInformation
 	}
 
 	[Token(Token = "0x17000452")]
-	internal string AssemblyString
-	{
-		[Token(Token = "0x600217C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000453")]
 	internal bool HasTypeForwardedFrom
 	{
-		[Token(Token = "0x600217D")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6002153")]
+		[Address(RVA = "0x53B50B0", Offset = "0x53B40B0", VA = "0x53B50B0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600217E")]
-	[Address(RVA = "0x1A1E5E0", Offset = "0x1A1CBE0", VA = "0x181A1E5E0")]
+	[Token(Token = "0x6002154")]
+	[Address(RVA = "0x53B0220", Offset = "0x53AF220", VA = "0x53B0220")]
 	internal TypeInformation(string fullTypeName, string assemblyString, bool hasTypeForwardedFrom)
 	{
 	}

@@ -11,43 +11,43 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x200005E")]
+[Token(Token = "0x2000064")]
 public sealed class GisketchSearchDefinition
 {
-	[Token(Token = "0x40001FC")]
+	[Token(Token = "0x4000220")]
 	[FieldOffset(Offset = "0x10")]
 	public string title;
 
-	[Token(Token = "0x40001FD")]
+	[Token(Token = "0x4000221")]
 	[FieldOffset(Offset = "0x18")]
 	public string keywords;
 
-	[Token(Token = "0x40001FE")]
+	[Token(Token = "0x4000222")]
 	[FieldOffset(Offset = "0x20")]
 	public string icon;
 
-	[Token(Token = "0x40001FF")]
+	[Token(Token = "0x4000223")]
 	[FieldOffset(Offset = "0x28")]
 	public string kind;
 
-	[Token(Token = "0x4000200")]
+	[Token(Token = "0x4000224")]
 	[FieldOffset(Offset = "0x30")]
 	public string sectionId;
 
-	[Token(Token = "0x4000201")]
+	[Token(Token = "0x4000225")]
 	[FieldOffset(Offset = "0x38")]
 	public string sectionTitle;
 
-	[Token(Token = "0x4000202")]
+	[Token(Token = "0x4000226")]
 	[FieldOffset(Offset = "0x40")]
 	public bool autoAddKeywords;
 
-	[Token(Token = "0x4000203")]
+	[Token(Token = "0x4000227")]
 	[FieldOffset(Offset = "0x41")]
 	public bool hidden;
 
-	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600036C")]
+	[Address(RVA = "0x52610F0", Offset = "0x52600F0", VA = "0x52610F0")]
 	public GisketchSearchDefinition()
 	{
 	}

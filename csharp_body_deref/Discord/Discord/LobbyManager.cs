@@ -506,7 +506,7 @@ public class LobbyManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x536F80", Offset = "0x535580", VA = "0x180536F80")]
+		[Address(RVA = "0x314B8E0", Offset = "0x314A8E0", VA = "0x314B8E0")]
 		get
 		{
 			return default(FFIMethods);
@@ -517,13 +517,13 @@ public class LobbyManager
 	public event LobbyUpdateHandler OnLobbyUpdate
 	{
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x536BC0", Offset = "0x5351C0", VA = "0x180536BC0")]
+		[Address(RVA = "0x314B9F0", Offset = "0x314A9F0", VA = "0x314B9F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0x537240", Offset = "0x535840", VA = "0x180537240")]
+		[Address(RVA = "0x314BA80", Offset = "0x314AA80", VA = "0x314BA80")]
 		[CompilerGenerated]
 		remove
 		{
@@ -534,13 +534,13 @@ public class LobbyManager
 	public event LobbyDeleteHandler OnLobbyDelete
 	{
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x536A80", Offset = "0x535080", VA = "0x180536A80")]
+		[Address(RVA = "0x314BB10", Offset = "0x314AB10", VA = "0x314BB10")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x537100", Offset = "0x535700", VA = "0x180537100")]
+		[Address(RVA = "0x314BBA0", Offset = "0x314ABA0", VA = "0x314BBA0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -551,13 +551,13 @@ public class LobbyManager
 	public event MemberConnectHandler OnMemberConnect
 	{
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x536C60", Offset = "0x535260", VA = "0x180536C60")]
+		[Address(RVA = "0x314BC30", Offset = "0x314AC30", VA = "0x314BC30")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x5372E0", Offset = "0x5358E0", VA = "0x1805372E0")]
+		[Address(RVA = "0x314BCC0", Offset = "0x314ACC0", VA = "0x314BCC0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -568,13 +568,13 @@ public class LobbyManager
 	public event MemberUpdateHandler OnMemberUpdate
 	{
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x536DA0", Offset = "0x5353A0", VA = "0x180536DA0")]
+		[Address(RVA = "0x314BD50", Offset = "0x314AD50", VA = "0x314BD50")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x537420", Offset = "0x535A20", VA = "0x180537420")]
+		[Address(RVA = "0x314BDE0", Offset = "0x314ADE0", VA = "0x314BDE0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -585,13 +585,13 @@ public class LobbyManager
 	public event MemberDisconnectHandler OnMemberDisconnect
 	{
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x536D00", Offset = "0x535300", VA = "0x180536D00")]
+		[Address(RVA = "0x314BE70", Offset = "0x314AE70", VA = "0x314BE70")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x537380", Offset = "0x535980", VA = "0x180537380")]
+		[Address(RVA = "0x314BF00", Offset = "0x314AF00", VA = "0x314BF00")]
 		[CompilerGenerated]
 		remove
 		{
@@ -602,13 +602,13 @@ public class LobbyManager
 	public event LobbyMessageHandler OnLobbyMessage
 	{
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x536B20", Offset = "0x535120", VA = "0x180536B20")]
+		[Address(RVA = "0x314BF90", Offset = "0x314AF90", VA = "0x314BF90")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x5371A0", Offset = "0x5357A0", VA = "0x1805371A0")]
+		[Address(RVA = "0x314C020", Offset = "0x314B020", VA = "0x314C020")]
 		[CompilerGenerated]
 		remove
 		{
@@ -619,13 +619,13 @@ public class LobbyManager
 	public event SpeakingHandler OnSpeaking
 	{
 		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x536EE0", Offset = "0x5354E0", VA = "0x180536EE0")]
+		[Address(RVA = "0x314C0B0", Offset = "0x314B0B0", VA = "0x314C0B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x537560", Offset = "0x535B60", VA = "0x180537560")]
+		[Address(RVA = "0x314C140", Offset = "0x314B140", VA = "0x314C140")]
 		[CompilerGenerated]
 		remove
 		{
@@ -636,13 +636,13 @@ public class LobbyManager
 	public event NetworkMessageHandler OnNetworkMessage
 	{
 		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x536E40", Offset = "0x535440", VA = "0x180536E40")]
+		[Address(RVA = "0x314C1D0", Offset = "0x314B1D0", VA = "0x314C1D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0x5374C0", Offset = "0x535AC0", VA = "0x1805374C0")]
+		[Address(RVA = "0x314C260", Offset = "0x314B260", VA = "0x314C260")]
 		[CompilerGenerated]
 		remove
 		{
@@ -650,374 +650,374 @@ public class LobbyManager
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x5369B0", Offset = "0x534FB0", VA = "0x1805369B0")]
+	[Address(RVA = "0x31434B0", Offset = "0x31424B0", VA = "0x31434B0")]
 	internal LobbyManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x534430", Offset = "0x532A30", VA = "0x180534430")]
+	[Address(RVA = "0x314C2F0", Offset = "0x314B2F0", VA = "0x314C2F0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x533070", Offset = "0x531670", VA = "0x180533070")]
+	[Address(RVA = "0x314CE20", Offset = "0x314BE20", VA = "0x314CE20")]
 	public LobbyTransaction GetLobbyCreateTransaction()
 	{
 		return default(LobbyTransaction);
 	}
 
 	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x5335A0", Offset = "0x531BA0", VA = "0x1805335A0")]
+	[Address(RVA = "0x314CEC0", Offset = "0x314BEC0", VA = "0x314CEC0")]
 	public LobbyTransaction GetLobbyUpdateTransaction(long lobbyId)
 	{
 		return default(LobbyTransaction);
 	}
 
 	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x533AE0", Offset = "0x5320E0", VA = "0x180533AE0")]
+	[Address(RVA = "0x314CF60", Offset = "0x314BF60", VA = "0x314CF60")]
 	public LobbyMemberTransaction GetMemberUpdateTransaction(long lobbyId, long userId)
 	{
 		return default(LobbyMemberTransaction);
 	}
 
 	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x5321D0", Offset = "0x5307D0", VA = "0x1805321D0")]
+	[Address(RVA = "0x314A530", Offset = "0x3149530", VA = "0x314A530")]
 	[MonoPInvokeCallback]
 	private static void CreateLobbyCallbackImpl(IntPtr ptr, Result result, ref Lobby lobby)
 	{
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x5322F0", Offset = "0x5308F0", VA = "0x1805322F0")]
+	[Address(RVA = "0x314D010", Offset = "0x314C010", VA = "0x314D010")]
 	public void CreateLobby(LobbyTransaction transaction, CreateLobbyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x536410", Offset = "0x534A10", VA = "0x180536410")]
+	[Address(RVA = "0x314A620", Offset = "0x3149620", VA = "0x314A620")]
 	[MonoPInvokeCallback]
 	private static void UpdateLobbyCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x536520", Offset = "0x534B20", VA = "0x180536520")]
+	[Address(RVA = "0x314D1F0", Offset = "0x314C1F0", VA = "0x314D1F0")]
 	public void UpdateLobby(long lobbyId, LobbyTransaction transaction, UpdateLobbyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x5324A0", Offset = "0x530AA0", VA = "0x1805324A0")]
+	[Address(RVA = "0x314A700", Offset = "0x3149700", VA = "0x314A700")]
 	[MonoPInvokeCallback]
 	private static void DeleteLobbyCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x5325B0", Offset = "0x530BB0", VA = "0x1805325B0")]
+	[Address(RVA = "0x314D3E0", Offset = "0x314C3E0", VA = "0x314D3E0")]
 	public void DeleteLobby(long lobbyId, DeleteLobbyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x531860", Offset = "0x52FE60", VA = "0x180531860")]
+	[Address(RVA = "0x314A7E0", Offset = "0x31497E0", VA = "0x314A7E0")]
 	[MonoPInvokeCallback]
 	private static void ConnectLobbyCallbackImpl(IntPtr ptr, Result result, ref Lobby lobby)
 	{
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x531C50", Offset = "0x530250", VA = "0x180531C50")]
+	[Address(RVA = "0x314D5C0", Offset = "0x314C5C0", VA = "0x314D5C0")]
 	public void ConnectLobby(long lobbyId, string secret, ConnectLobbyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x531980", Offset = "0x52FF80", VA = "0x180531980")]
+	[Address(RVA = "0x314A8D0", Offset = "0x31498D0", VA = "0x314A8D0")]
 	[MonoPInvokeCallback]
 	private static void ConnectLobbyWithActivitySecretCallbackImpl(IntPtr ptr, Result result, ref Lobby lobby)
 	{
 	}
 
 	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x531AA0", Offset = "0x5300A0", VA = "0x180531AA0")]
+	[Address(RVA = "0x314D7B0", Offset = "0x314C7B0", VA = "0x314D7B0")]
 	public void ConnectLobbyWithActivitySecret(string activitySecret, ConnectLobbyWithActivitySecretHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x532760", Offset = "0x530D60", VA = "0x180532760")]
+	[Address(RVA = "0x314A9C0", Offset = "0x31499C0", VA = "0x314A9C0")]
 	[MonoPInvokeCallback]
 	private static void DisconnectLobbyCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x532870", Offset = "0x530E70", VA = "0x180532870")]
+	[Address(RVA = "0x314D990", Offset = "0x314C990", VA = "0x314D990")]
 	public void DisconnectLobby(long lobbyId, DisconnectLobbyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x5336D0", Offset = "0x531CD0", VA = "0x1805336D0")]
+	[Address(RVA = "0x314DB70", Offset = "0x314CB70", VA = "0x314DB70")]
 	public Lobby GetLobby(long lobbyId)
 	{
 		return default(Lobby);
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x532F00", Offset = "0x531500", VA = "0x180532F00")]
+	[Address(RVA = "0x314DC30", Offset = "0x314CC30", VA = "0x314DC30")]
 	public string GetLobbyActivitySecret(long lobbyId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x533430", Offset = "0x531A30", VA = "0x180533430")]
+	[Address(RVA = "0x314DD20", Offset = "0x314CD20", VA = "0x314DD20")]
 	public string GetLobbyMetadataValue(long lobbyId, string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x5332C0", Offset = "0x5318C0", VA = "0x1805332C0")]
+	[Address(RVA = "0x314DE20", Offset = "0x314CE20", VA = "0x314DE20")]
 	public string GetLobbyMetadataKey(long lobbyId, int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x534B90", Offset = "0x533190", VA = "0x180534B90")]
+	[Address(RVA = "0x314DF20", Offset = "0x314CF20", VA = "0x314DF20")]
 	public int LobbyMetadataCount(long lobbyId)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x534CC0", Offset = "0x5332C0", VA = "0x180534CC0")]
+	[Address(RVA = "0x314DFC0", Offset = "0x314CFC0", VA = "0x314DFC0")]
 	public int MemberCount(long lobbyId)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x533C10", Offset = "0x532210", VA = "0x180533C10")]
+	[Address(RVA = "0x314E060", Offset = "0x314D060", VA = "0x314E060")]
 	public long GetMemberUserId(long lobbyId, int index)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x533D50", Offset = "0x532350", VA = "0x180533D50")]
+	[Address(RVA = "0x314E110", Offset = "0x314D110", VA = "0x314E110")]
 	public User GetMemberUser(long lobbyId, long userId)
 	{
 		return default(User);
 	}
 
 	[Token(Token = "0x60001FC")]
-	[Address(RVA = "0x533970", Offset = "0x531F70", VA = "0x180533970")]
+	[Address(RVA = "0x314E1E0", Offset = "0x314D1E0", VA = "0x314E1E0")]
 	public string GetMemberMetadataValue(long lobbyId, long userId, string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x533800", Offset = "0x531E00", VA = "0x180533800")]
+	[Address(RVA = "0x314E2F0", Offset = "0x314D2F0", VA = "0x314E2F0")]
 	public string GetMemberMetadataKey(long lobbyId, long userId, int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x534DF0", Offset = "0x5333F0", VA = "0x180534DF0")]
+	[Address(RVA = "0x314E400", Offset = "0x314D400", VA = "0x314E400")]
 	public int MemberMetadataCount(long lobbyId, long userId)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x5366D0", Offset = "0x534CD0", VA = "0x1805366D0")]
+	[Address(RVA = "0x314AAA0", Offset = "0x3149AA0", VA = "0x314AAA0")]
 	[MonoPInvokeCallback]
 	private static void UpdateMemberCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x5367E0", Offset = "0x534DE0", VA = "0x1805367E0")]
+	[Address(RVA = "0x314E4B0", Offset = "0x314D4B0", VA = "0x314E4B0")]
 	public void UpdateMember(long lobbyId, long userId, LobbyMemberTransaction transaction, UpdateMemberHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x535DD0", Offset = "0x5343D0", VA = "0x180535DD0")]
+	[Address(RVA = "0x314AB80", Offset = "0x3149B80", VA = "0x314AB80")]
 	[MonoPInvokeCallback]
 	private static void SendLobbyMessageCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x5360D0", Offset = "0x5346D0", VA = "0x1805360D0")]
+	[Address(RVA = "0x314E6B0", Offset = "0x314D6B0", VA = "0x314E6B0")]
 	public void SendLobbyMessage(long lobbyId, byte[] data, SendLobbyMessageHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x534310", Offset = "0x532910", VA = "0x180534310")]
+	[Address(RVA = "0x314E8B0", Offset = "0x314D8B0", VA = "0x314E8B0")]
 	public LobbySearchQuery GetSearchQuery()
 	{
 		return default(LobbySearchQuery);
 	}
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x535B10", Offset = "0x534110", VA = "0x180535B10")]
+	[Address(RVA = "0x314AC60", Offset = "0x3149C60", VA = "0x314AC60")]
 	[MonoPInvokeCallback]
 	private static void SearchCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x535C20", Offset = "0x534220", VA = "0x180535C20")]
+	[Address(RVA = "0x314E950", Offset = "0x314D950", VA = "0x314E950")]
 	public void Search(LobbySearchQuery query, SearchHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x534AB0", Offset = "0x5330B0", VA = "0x180534AB0")]
+	[Address(RVA = "0x314EB40", Offset = "0x314DB40", VA = "0x314EB40")]
 	public int LobbyCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x533190", Offset = "0x531790", VA = "0x180533190")]
+	[Address(RVA = "0x314EBA0", Offset = "0x314DBA0", VA = "0x314EBA0")]
 	public long GetLobbyId(int index)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x531F10", Offset = "0x530510", VA = "0x180531F10")]
+	[Address(RVA = "0x314AD40", Offset = "0x3149D40", VA = "0x314AD40")]
 	[MonoPInvokeCallback]
 	private static void ConnectVoiceCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x532020", Offset = "0x530620", VA = "0x180532020")]
+	[Address(RVA = "0x314EC40", Offset = "0x314DC40", VA = "0x314EC40")]
 	public void ConnectVoice(long lobbyId, ConnectVoiceHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x532B30", Offset = "0x531130", VA = "0x180532B30")]
+	[Address(RVA = "0x314AE20", Offset = "0x3149E20", VA = "0x314AE20")]
 	[MonoPInvokeCallback]
 	private static void DisconnectVoiceCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x532C40", Offset = "0x531240", VA = "0x180532C40")]
+	[Address(RVA = "0x314EE30", Offset = "0x314DE30", VA = "0x314EE30")]
 	public void DisconnectVoice(long lobbyId, DisconnectVoiceHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x531E00", Offset = "0x530400", VA = "0x180531E00")]
+	[Address(RVA = "0x314F020", Offset = "0x314E020", VA = "0x314F020")]
 	public void ConnectNetwork(long lobbyId)
 	{
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x532A20", Offset = "0x531020", VA = "0x180532A20")]
+	[Address(RVA = "0x314F0B0", Offset = "0x314E0B0", VA = "0x314F0B0")]
 	public void DisconnectNetwork(long lobbyId)
 	{
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x532DF0", Offset = "0x5313F0", VA = "0x180532DF0")]
+	[Address(RVA = "0x314F140", Offset = "0x314E140", VA = "0x314F140")]
 	public void FlushNetwork()
 	{
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x5359E0", Offset = "0x533FE0", VA = "0x1805359E0")]
+	[Address(RVA = "0x314F1D0", Offset = "0x314E1D0", VA = "0x314F1D0")]
 	public void OpenNetworkChannel(long lobbyId, byte channelId, bool reliable)
 	{
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x5362D0", Offset = "0x5348D0", VA = "0x1805362D0")]
+	[Address(RVA = "0x314F270", Offset = "0x314E270", VA = "0x314F270")]
 	public void SendNetworkMessage(long lobbyId, long userId, byte channelId, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x535220", Offset = "0x533820", VA = "0x180535220")]
+	[Address(RVA = "0x314AF00", Offset = "0x3149F00", VA = "0x314AF00")]
 	[MonoPInvokeCallback]
 	private static void OnLobbyUpdateImpl(IntPtr ptr, long lobbyId)
 	{
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x534F30", Offset = "0x533530", VA = "0x180534F30")]
+	[Address(RVA = "0x314B010", Offset = "0x314A010", VA = "0x314B010")]
 	[MonoPInvokeCallback]
 	private static void OnLobbyDeleteImpl(IntPtr ptr, long lobbyId, uint reason)
 	{
 	}
 
 	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x535340", Offset = "0x533940", VA = "0x180535340")]
+	[Address(RVA = "0x314B120", Offset = "0x314A120", VA = "0x314B120")]
 	[MonoPInvokeCallback]
 	private static void OnMemberConnectImpl(IntPtr ptr, long lobbyId, long userId)
 	{
 	}
 
 	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x5355A0", Offset = "0x533BA0", VA = "0x1805355A0")]
+	[Address(RVA = "0x314B230", Offset = "0x314A230", VA = "0x314B230")]
 	[MonoPInvokeCallback]
 	private static void OnMemberUpdateImpl(IntPtr ptr, long lobbyId, long userId)
 	{
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x535470", Offset = "0x533A70", VA = "0x180535470")]
+	[Address(RVA = "0x314B340", Offset = "0x314A340", VA = "0x314B340")]
 	[MonoPInvokeCallback]
 	private static void OnMemberDisconnectImpl(IntPtr ptr, long lobbyId, long userId)
 	{
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x535060", Offset = "0x533660", VA = "0x180535060")]
+	[Address(RVA = "0x314B450", Offset = "0x314A450", VA = "0x314B450")]
 	[MonoPInvokeCallback]
 	private static void OnLobbyMessageImpl(IntPtr ptr, long lobbyId, long userId, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x5358A0", Offset = "0x533EA0", VA = "0x1805358A0")]
+	[Address(RVA = "0x314B600", Offset = "0x314A600", VA = "0x314B600")]
 	[MonoPInvokeCallback]
 	private static void OnSpeakingImpl(IntPtr ptr, long lobbyId, long userId, bool speaking)
 	{
 	}
 
 	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x5356D0", Offset = "0x533CD0", VA = "0x1805356D0")]
+	[Address(RVA = "0x314B720", Offset = "0x314A720", VA = "0x314B720")]
 	[MonoPInvokeCallback]
 	private static void OnNetworkMessageImpl(IntPtr ptr, long lobbyId, long userId, byte channelId, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x533E70", Offset = "0x532470", VA = "0x180533E70")]
+	[Address(RVA = "0x314F330", Offset = "0x314E330", VA = "0x314F330")]
 	public IEnumerable<User> GetMemberUsers(long lobbyID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x535EE0", Offset = "0x5344E0", VA = "0x180535EE0")]
+	[Address(RVA = "0x314F500", Offset = "0x314E500", VA = "0x314F500")]
 	public void SendLobbyMessage(long lobbyID, string data, SendLobbyMessageHandler handler)
 	{
 	}

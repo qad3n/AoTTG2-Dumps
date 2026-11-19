@@ -24,20 +24,20 @@ public class XmlSchemaXPath : XmlSchemaAnnotated
 	public string XPath
 	{
 		[Token(Token = "0x6001693")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x602D280", Offset = "0x602C280", VA = "0x602D280")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001694")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x602D290", Offset = "0x602C290", VA = "0x602D290")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001695")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x602D2A0", Offset = "0x602C2A0", VA = "0x602D2A0")]
 	public XmlSchemaXPath()
 	{
 	}

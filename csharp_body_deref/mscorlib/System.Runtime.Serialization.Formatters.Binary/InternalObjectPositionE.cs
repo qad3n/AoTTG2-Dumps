@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200042B")]
+[Token(Token = "0x2000404")]
 internal enum InternalObjectPositionE
 {
-	[Token(Token = "0x4001082")]
+	[Token(Token = "0x4000FE2")]
 	Empty,
-	[Token(Token = "0x4001083")]
+	[Token(Token = "0x4000FE3")]
 	Top,
-	[Token(Token = "0x4001084")]
+	[Token(Token = "0x4000FE4")]
 	Child,
-	[Token(Token = "0x4001085")]
+	[Token(Token = "0x4000FE5")]
 	Headers
 }

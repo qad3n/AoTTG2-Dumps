@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: RenderGraphCompilationCache
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -68,7 +68,7 @@ internal class RenderGraphCompilationCache
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2AC5620", Offset = "0x2AC3C20", VA = "0x182AC5620")]
+	[Address(RVA = "0x64A4AC0", Offset = "0x64A3AC0", VA = "0x64A4AC0")]
 	public RenderGraphCompilationCache()
 	{
 	}
@@ -80,27 +80,27 @@ internal class RenderGraphCompilationCache
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2AC5480", Offset = "0x2AC3A80", VA = "0x182AC5480")]
+	[Address(RVA = "0x64A4CF0", Offset = "0x64A3CF0", VA = "0x64A4CF0")]
 	public bool GetCompilationCache(int hash, int frameIndex, out RenderGraph.CompiledGraph outGraph)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2AC53D0", Offset = "0x2AC39D0", VA = "0x182AC53D0")]
+	[Address(RVA = "0x64A4DA0", Offset = "0x64A3DA0", VA = "0x64A4DA0")]
 	public bool GetCompilationCache(int hash, int frameIndex, out CompilerContextData outGraph)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2AC5210", Offset = "0x2AC3810", VA = "0x182AC5210")]
+	[Address(RVA = "0x64A4E50", Offset = "0x64A3E50", VA = "0x64A4E50")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x2AC5000", Offset = "0x2AC3600", VA = "0x182AC5000")]
+	[Address(RVA = "0x64A5000", Offset = "0x64A4000", VA = "0x64A5000")]
 	public void Cleanup()
 	{
 	}

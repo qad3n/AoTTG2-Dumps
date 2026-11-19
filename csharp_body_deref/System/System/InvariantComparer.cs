@@ -12,25 +12,25 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000B9")]
+[Token(Token = "0x200007A")]
 internal class InvariantComparer : IComparer
 {
-	[Token(Token = "0x4000236")]
+	[Token(Token = "0x4000167")]
 	[FieldOffset(Offset = "0x10")]
 	private CompareInfo m_compareInfo;
 
-	[Token(Token = "0x4000237")]
+	[Token(Token = "0x4000168")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly InvariantComparer Default;
 
-	[Token(Token = "0x6000378")]
-	[Address(RVA = "0x2830D20", Offset = "0x282F320", VA = "0x182830D20")]
+	[Token(Token = "0x60001C4")]
+	[Address(RVA = "0x61D52E0", Offset = "0x61D42E0", VA = "0x61D52E0")]
 	internal InvariantComparer()
 	{
 	}
 
-	[Token(Token = "0x6000379")]
-	[Address(RVA = "0x2830B70", Offset = "0x282F170", VA = "0x182830B70", Slot = "4")]
+	[Token(Token = "0x60001C5")]
+	[Address(RVA = "0x61D5360", Offset = "0x61D4360", VA = "0x61D5360", Slot = "4")]
 	public int Compare(object a, object b)
 	{
 		return default(int);

@@ -12,13 +12,13 @@ namespace Unity.Collections;
 [Token(Token = "0x2000061")]
 public static class NativeSliceExtensions
 {
-	[Token(Token = "0x6000131")]
+	[Token(Token = "0x6000133")]
 	public static NativeSlice<T> Slice<T>(this NativeArray<T> thisArray, int start, int length) where T : struct
 	{
 		return default(NativeSlice<T>);
 	}
 
-	[Token(Token = "0x6000132")]
+	[Token(Token = "0x6000134")]
 	public static NativeSlice<T> Slice<T>(this NativeSlice<T> thisSlice, int start, int length) where T : struct
 	{
 		return default(NativeSlice<T>);

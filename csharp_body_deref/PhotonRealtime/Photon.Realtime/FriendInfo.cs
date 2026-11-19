@@ -19,7 +19,7 @@ public class FriendInfo
 	public string Name
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x56AAA00", Offset = "0x56A9A00", VA = "0x56AAA00")]
 		get
 		{
 			return null;
@@ -30,14 +30,14 @@ public class FriendInfo
 	public string UserId
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x56AAA10", Offset = "0x56A9A10", VA = "0x56AAA10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x56AAA20", Offset = "0x56A9A20", VA = "0x56AAA20")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -48,14 +48,14 @@ public class FriendInfo
 	public bool IsOnline
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Address(RVA = "0x56AAA30", Offset = "0x56A9A30", VA = "0x56AAA30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x56AAA40", Offset = "0x56A9A40", VA = "0x56AAA40")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -66,14 +66,14 @@ public class FriendInfo
 	public string Room
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x56AAA50", Offset = "0x56A9A50", VA = "0x56AAA50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x56AAA60", Offset = "0x56A9A60", VA = "0x56AAA60")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -84,7 +84,7 @@ public class FriendInfo
 	public bool IsInRoom
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x1D15B10", Offset = "0x1D14110", VA = "0x181D15B10")]
+		[Address(RVA = "0x56AAA70", Offset = "0x56A9A70", VA = "0x56AAA70")]
 		get
 		{
 			return default(bool);
@@ -92,14 +92,14 @@ public class FriendInfo
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x1D15A60", Offset = "0x1D14060", VA = "0x181D15A60", Slot = "3")]
+	[Address(RVA = "0x56AAA90", Offset = "0x56A9A90", VA = "0x56AAA90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56AAB30", Offset = "0x56A9B30", VA = "0x56AAB30")]
 	public FriendInfo()
 	{
 	}

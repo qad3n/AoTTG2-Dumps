@@ -30,7 +30,7 @@ internal sealed class BooleanExpr : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001A79")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "16")]
+		[Address(RVA = "0x607DC50", Offset = "0x607CC50", VA = "0x607DC50", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -38,32 +38,32 @@ internal sealed class BooleanExpr : ValueQuery
 	}
 
 	[Token(Token = "0x6001A74")]
-	[Address(RVA = "0x26B4D60", Offset = "0x26B3360", VA = "0x1826B4D60")]
+	[Address(RVA = "0x607D8F0", Offset = "0x607C8F0", VA = "0x607D8F0")]
 	public BooleanExpr(Operator.Op op, Query opnd1, Query opnd2)
 	{
 	}
 
 	[Token(Token = "0x6001A75")]
-	[Address(RVA = "0x26B4CF0", Offset = "0x26B32F0", VA = "0x1826B4CF0")]
+	[Address(RVA = "0x607DA50", Offset = "0x607CA50", VA = "0x607DA50")]
 	private BooleanExpr(BooleanExpr other)
 	{
 	}
 
 	[Token(Token = "0x6001A76")]
-	[Address(RVA = "0x26B4C90", Offset = "0x26B3290", VA = "0x1826B4C90", Slot = "13")]
+	[Address(RVA = "0x607DAC0", Offset = "0x607CAC0", VA = "0x607DAC0", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001A77")]
-	[Address(RVA = "0x26B4BD0", Offset = "0x26B31D0", VA = "0x1826B4BD0", Slot = "14")]
+	[Address(RVA = "0x607DB10", Offset = "0x607CB10", VA = "0x607DB10", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A78")]
-	[Address(RVA = "0x26B4B30", Offset = "0x26B3130", VA = "0x1826B4B30", Slot = "6")]
+	[Address(RVA = "0x607DBB0", Offset = "0x607CBB0", VA = "0x607DBB0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

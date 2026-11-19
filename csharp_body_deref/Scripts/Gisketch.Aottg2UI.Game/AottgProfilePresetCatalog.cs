@@ -10,101 +10,101 @@ using SimpleJSONFixed;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002C3")]
+[Token(Token = "0x2000320")]
 internal static class AottgProfilePresetCatalog
 {
-	[Token(Token = "0x4000E24")]
+	[Token(Token = "0x4000FB5")]
 	private const string DefaultAvatar = "Gisketch1";
 
-	[Token(Token = "0x4000E25")]
+	[Token(Token = "0x4000FB6")]
 	private const string DefaultBanner = "MainBackground2Texture";
 
-	[Token(Token = "0x6001148")]
-	[Address(RVA = "0x1E19D00", Offset = "0x1E18300", VA = "0x181E19D00")]
+	[Token(Token = "0x6001399")]
+	[Address(RVA = "0x57FC190", Offset = "0x57FB190", VA = "0x57FC190")]
 	public static AottgProfilePreset[] Avatars()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001149")]
-	[Address(RVA = "0x1E1A410", Offset = "0x1E18A10", VA = "0x181E1A410")]
+	[Token(Token = "0x600139A")]
+	[Address(RVA = "0x57FCA20", Offset = "0x57FBA20", VA = "0x57FCA20")]
 	public static AottgProfilePreset[] Banners()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114A")]
-	[Address(RVA = "0x1E19C00", Offset = "0x1E18200", VA = "0x181E19C00")]
+	[Token(Token = "0x600139B")]
+	[Address(RVA = "0x5804C80", Offset = "0x5803C80", VA = "0x5804C80")]
 	public static string AvatarSprite(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114B")]
-	[Address(RVA = "0x1E1A330", Offset = "0x1E18930", VA = "0x181E1A330")]
+	[Token(Token = "0x600139C")]
+	[Address(RVA = "0x5804DA0", Offset = "0x5803DA0", VA = "0x5804DA0")]
 	public static string BannerSprite(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114C")]
-	[Address(RVA = "0x1E1AE30", Offset = "0x1E19430", VA = "0x181E1AE30")]
+	[Token(Token = "0x600139D")]
+	[Address(RVA = "0x5804E00", Offset = "0x5803E00", VA = "0x5804E00")]
 	public static string PublicAvatarSprite(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114D")]
-	[Address(RVA = "0x1E1AF00", Offset = "0x1E19500", VA = "0x181E1AF00")]
+	[Token(Token = "0x600139E")]
+	[Address(RVA = "0x5804F10", Offset = "0x5803F10", VA = "0x5804F10")]
 	public static string PublicBannerSprite(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114E")]
-	[Address(RVA = "0x1E1AA60", Offset = "0x1E19060", VA = "0x181E1AA60")]
+	[Token(Token = "0x600139F")]
+	[Address(RVA = "0x5804F60", Offset = "0x5803F60", VA = "0x5804F60")]
 	public static string FirstAvatarKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600114F")]
-	[Address(RVA = "0x1E1AAC0", Offset = "0x1E190C0", VA = "0x181E1AAC0")]
+	[Token(Token = "0x60013A0")]
+	[Address(RVA = "0x5804FE0", Offset = "0x5803FE0", VA = "0x5804FE0")]
 	public static string FirstBannerKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001150")]
-	[Address(RVA = "0x1E1AFD0", Offset = "0x1E195D0", VA = "0x181E1AFD0")]
+	[Token(Token = "0x60013A1")]
+	[Address(RVA = "0x5804E50", Offset = "0x5803E50", VA = "0x5804E50")]
 	private static bool TryPresetSprite(string key, AottgProfilePreset[] presets, out string sprite)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001151")]
-	[Address(RVA = "0x1E19B70", Offset = "0x1E18170", VA = "0x181E19B70")]
+	[Token(Token = "0x60013A2")]
+	[Address(RVA = "0x5804D00", Offset = "0x5803D00", VA = "0x5804D00")]
 	private static string AllowedKey(string key, AottgProfilePreset[] presets, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001152")]
-	[Address(RVA = "0x1E1AB20", Offset = "0x1E19120", VA = "0x181E1AB20")]
+	[Token(Token = "0x60013A3")]
+	[Address(RVA = "0x5804FB0", Offset = "0x5803FB0", VA = "0x5804FB0")]
 	private static string FirstKey(AottgProfilePreset[] presets, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001153")]
-	[Address(RVA = "0x1E1ABD0", Offset = "0x1E191D0", VA = "0x181E1ABD0")]
+	[Token(Token = "0x60013A4")]
+	[Address(RVA = "0x5804990", Offset = "0x5803990", VA = "0x5804990")]
 	private static JSONNode LoadJson(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001154")]
-	[Address(RVA = "0x1E1AB50", Offset = "0x1E19150", VA = "0x181E1AB50")]
+	[Token(Token = "0x60013A5")]
+	[Address(RVA = "0x5804C00", Offset = "0x5803C00", VA = "0x5804C00")]
 	private static string Label(string key)
 	{
 		return null;

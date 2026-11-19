@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003D4")]
+[Token(Token = "0x2000433")]
 internal class CustomLogicBinopExpressionAst : CustomLogicBaseExpressionAst
 {
-	[Token(Token = "0x40013E3")]
+	[Token(Token = "0x4001583")]
 	[FieldOffset(Offset = "0x18")]
 	public CustomLogicBaseExpressionAst Left;
 
-	[Token(Token = "0x40013E4")]
+	[Token(Token = "0x4001584")]
 	[FieldOffset(Offset = "0x20")]
 	public CustomLogicBaseExpressionAst Right;
 
-	[Token(Token = "0x40013E5")]
+	[Token(Token = "0x4001585")]
 	[FieldOffset(Offset = "0x28")]
 	public CustomLogicToken Token;
 
-	[Token(Token = "0x60017F0")]
-	[Address(RVA = "0x1ECDA60", Offset = "0x1ECC060", VA = "0x181ECDA60")]
+	[Token(Token = "0x6001A67")]
+	[Address(RVA = "0x58A8990", Offset = "0x58A7990", VA = "0x58A8990")]
 	public CustomLogicBinopExpressionAst(CustomLogicToken token, int line)
 	{
 	}

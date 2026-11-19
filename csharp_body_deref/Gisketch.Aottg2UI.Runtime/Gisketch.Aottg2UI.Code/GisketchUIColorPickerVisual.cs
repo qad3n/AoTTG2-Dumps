@@ -15,102 +15,102 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200009C")]
+[Token(Token = "0x20000A2")]
 internal sealed class GisketchUIColorPickerVisual : MonoBehaviour
 {
-	[Token(Token = "0x200009D")]
+	[Token(Token = "0x20000A3")]
 	private sealed class DragTarget : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler
 	{
-		[Token(Token = "0x4000361")]
+		[Token(Token = "0x4000388")]
 		[FieldOffset(Offset = "0x20")]
 		private Action<PointerEventData> _drag;
 
-		[Token(Token = "0x60004D1")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x600051E")]
+		[Address(RVA = "0x527AFD0", Offset = "0x5279FD0", VA = "0x527AFD0")]
 		public void Setup(Action<PointerEventData> drag)
 		{
 		}
 
-		[Token(Token = "0x60004D2")]
-		[Address(RVA = "0x18DA480", Offset = "0x18D8A80", VA = "0x1818DA480", Slot = "4")]
+		[Token(Token = "0x600051F")]
+		[Address(RVA = "0x527AFE0", Offset = "0x5279FE0", VA = "0x527AFE0", Slot = "4")]
 		public void OnPointerDown(PointerEventData eventData)
 		{
 		}
 
-		[Token(Token = "0x60004D3")]
-		[Address(RVA = "0x18DA480", Offset = "0x18D8A80", VA = "0x1818DA480", Slot = "5")]
+		[Token(Token = "0x6000520")]
+		[Address(RVA = "0x527B000", Offset = "0x527A000", VA = "0x527B000", Slot = "5")]
 		public void OnDrag(PointerEventData eventData)
 		{
 		}
 
-		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+		[Token(Token = "0x6000521")]
+		[Address(RVA = "0x527B020", Offset = "0x527A020", VA = "0x527B020")]
 		public DragTarget()
 		{
 		}
 	}
 
-	[Token(Token = "0x400034F")]
+	[Token(Token = "0x4000376")]
 	private const float BarHeight = 22f;
 
-	[Token(Token = "0x4000350")]
+	[Token(Token = "0x4000377")]
 	private const int AlphaTextureWidth = 384;
 
-	[Token(Token = "0x4000351")]
+	[Token(Token = "0x4000378")]
 	private const int AlphaTextureHeight = 22;
 
-	[Token(Token = "0x4000352")]
+	[Token(Token = "0x4000379")]
 	private const int CheckerSize = 6;
 
-	[Token(Token = "0x4000353")]
+	[Token(Token = "0x400037A")]
 	[FieldOffset(Offset = "0x20")]
 	private RawImage _square;
 
-	[Token(Token = "0x4000354")]
+	[Token(Token = "0x400037B")]
 	[FieldOffset(Offset = "0x28")]
 	private RawImage _hue;
 
-	[Token(Token = "0x4000355")]
+	[Token(Token = "0x400037C")]
 	[FieldOffset(Offset = "0x30")]
 	private RawImage _alpha;
 
-	[Token(Token = "0x4000356")]
+	[Token(Token = "0x400037D")]
 	[FieldOffset(Offset = "0x38")]
 	private RectTransform _squareMarker;
 
-	[Token(Token = "0x4000357")]
+	[Token(Token = "0x400037E")]
 	[FieldOffset(Offset = "0x40")]
 	private RectTransform _hueMarker;
 
-	[Token(Token = "0x4000358")]
+	[Token(Token = "0x400037F")]
 	[FieldOffset(Offset = "0x48")]
 	private RectTransform _alphaMarker;
 
-	[Token(Token = "0x4000359")]
+	[Token(Token = "0x4000380")]
 	[FieldOffset(Offset = "0x50")]
 	private Texture2D _squareTexture;
 
-	[Token(Token = "0x400035A")]
+	[Token(Token = "0x4000381")]
 	[FieldOffset(Offset = "0x58")]
 	private Texture2D _hueTexture;
 
-	[Token(Token = "0x400035B")]
+	[Token(Token = "0x4000382")]
 	[FieldOffset(Offset = "0x60")]
 	private Texture2D _alphaTexture;
 
-	[Token(Token = "0x400035C")]
+	[Token(Token = "0x4000383")]
 	[FieldOffset(Offset = "0x68")]
 	private Texture2D _circleTexture;
 
-	[Token(Token = "0x400035D")]
+	[Token(Token = "0x4000384")]
 	[FieldOffset(Offset = "0x70")]
 	private Sprite _circleSprite;
 
-	[Token(Token = "0x400035E")]
+	[Token(Token = "0x4000385")]
 	[FieldOffset(Offset = "0x78")]
 	private GisketchUIColorPickerValue _value;
 
-	[Token(Token = "0x400035F")]
+	[Token(Token = "0x4000386")]
 	[FieldOffset(Offset = "0x88")]
 	[CompilerGenerated]
 	private Action<GisketchUIColorPickerValue> m_Changed;
@@ -118,15 +118,15 @@ internal sealed class GisketchUIColorPickerVisual : MonoBehaviour
 	[Token(Token = "0x17000094")]
 	public bool EnableAlpha
 	{
-		[Token(Token = "0x60004B9")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Token(Token = "0x6000506")]
+		[Address(RVA = "0x5278C10", Offset = "0x5277C10", VA = "0x5278C10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60004BA")]
-		[Address(RVA = "0xB5BDB0", Offset = "0xB5A3B0", VA = "0x180B5BDB0")]
+		[Token(Token = "0x6000507")]
+		[Address(RVA = "0x5278C20", Offset = "0x5277C20", VA = "0x5278C20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -136,148 +136,148 @@ internal sealed class GisketchUIColorPickerVisual : MonoBehaviour
 	[Token(Token = "0x14000003")]
 	public event Action<GisketchUIColorPickerValue> Changed
 	{
-		[Token(Token = "0x60004B7")]
-		[Address(RVA = "0x18F2FE0", Offset = "0x18F15E0", VA = "0x1818F2FE0")]
+		[Token(Token = "0x6000504")]
+		[Address(RVA = "0x5277440", Offset = "0x5276440", VA = "0x5277440")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60004B8")]
-		[Address(RVA = "0x18F3090", Offset = "0x18F1690", VA = "0x1818F3090")]
+		[Token(Token = "0x6000505")]
+		[Address(RVA = "0x5277900", Offset = "0x5276900", VA = "0x5277900")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60004BB")]
-	[Address(RVA = "0x18F2DE0", Offset = "0x18F13E0", VA = "0x1818F2DE0")]
+	[Token(Token = "0x6000508")]
+	[Address(RVA = "0x5275EB0", Offset = "0x5274EB0", VA = "0x5275EB0")]
 	public void Setup(string id, bool enableAlpha, GisketchTheme theme)
 	{
 	}
 
-	[Token(Token = "0x60004BC")]
-	[Address(RVA = "0x18F2D80", Offset = "0x18F1380", VA = "0x1818F2D80")]
+	[Token(Token = "0x6000509")]
+	[Address(RVA = "0x52774F0", Offset = "0x52764F0", VA = "0x52774F0")]
 	public void SetValue(GisketchUIColorPickerValue value, bool notify)
 	{
 	}
 
-	[Token(Token = "0x60004BD")]
-	[Address(RVA = "0x18F0F50", Offset = "0x18EF550", VA = "0x1818F0F50")]
+	[Token(Token = "0x600050A")]
+	[Address(RVA = "0x5278C30", Offset = "0x5277C30", VA = "0x5278C30")]
 	private void Build(GisketchTheme theme)
 	{
 	}
 
-	[Token(Token = "0x60004BE")]
-	[Address(RVA = "0x18F23D0", Offset = "0x18F09D0", VA = "0x1818F23D0")]
+	[Token(Token = "0x600050B")]
+	[Address(RVA = "0x5279D50", Offset = "0x5278D50", VA = "0x5279D50")]
 	private void OnSquareDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004BF")]
-	[Address(RVA = "0x18F22A0", Offset = "0x18F08A0", VA = "0x1818F22A0")]
+	[Token(Token = "0x600050C")]
+	[Address(RVA = "0x527A010", Offset = "0x5279010", VA = "0x527A010")]
 	private void OnHueDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004C0")]
-	[Address(RVA = "0x18F1F90", Offset = "0x18F0590", VA = "0x1818F1F90")]
+	[Token(Token = "0x600050D")]
+	[Address(RVA = "0x527A170", Offset = "0x5279170", VA = "0x527A170")]
 	private void OnAlphaDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004C1")]
-	[Address(RVA = "0x18F2360", Offset = "0x18F0960", VA = "0x1818F2360")]
+	[Token(Token = "0x600050E")]
+	[Address(RVA = "0x527A370", Offset = "0x5279370", VA = "0x527A370")]
 	private void OnRectTransformDimensionsChange()
 	{
 	}
 
-	[Token(Token = "0x60004C2")]
-	[Address(RVA = "0x18F2900", Offset = "0x18F0F00", VA = "0x1818F2900")]
+	[Token(Token = "0x600050F")]
+	[Address(RVA = "0x5279020", Offset = "0x5278020", VA = "0x5279020")]
 	private void RefreshTextures()
 	{
 	}
 
-	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x18F2840", Offset = "0x18F0E40", VA = "0x1818F2840")]
+	[Token(Token = "0x6000510")]
+	[Address(RVA = "0x5279250", Offset = "0x5278250", VA = "0x5279250")]
 	private void RefreshMarkers()
 	{
 	}
 
-	[Token(Token = "0x60004C4")]
-	[Address(RVA = "0x18F25D0", Offset = "0x18F0BD0", VA = "0x1818F25D0")]
+	[Token(Token = "0x6000511")]
+	[Address(RVA = "0x5279500", Offset = "0x5278500", VA = "0x5279500")]
 	private static RawImage RawImage(string name, RectTransform parent, float bottom, float height, Color fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004C5")]
-	[Address(RVA = "0x18F1350", Offset = "0x18EF950", VA = "0x1818F1350")]
+	[Token(Token = "0x6000512")]
+	[Address(RVA = "0x5279770", Offset = "0x5278770", VA = "0x5279770")]
 	private RectTransform CircleMarker(RectTransform parent, GisketchTheme theme)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x18F1A80", Offset = "0x18F0080", VA = "0x1818F1A80")]
+	[Token(Token = "0x6000513")]
+	[Address(RVA = "0x5279A80", Offset = "0x5278A80", VA = "0x5279A80")]
 	private static RectTransform LineMarker(RectTransform parent, GisketchTheme theme)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x18F1DC0", Offset = "0x18F03C0", VA = "0x1818F1DC0")]
+	[Token(Token = "0x6000514")]
+	[Address(RVA = "0x5279EB0", Offset = "0x5278EB0", VA = "0x5279EB0")]
 	private static Vector2 Normalized(RectTransform rect, PointerEventData eventData)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x18F2490", Offset = "0x18F0A90", VA = "0x1818F2490")]
+	[Token(Token = "0x6000515")]
+	[Address(RVA = "0x527A5C0", Offset = "0x52795C0", VA = "0x527A5C0")]
 	private static void Place(RectTransform marker, float x, float y)
 	{
 	}
 
-	[Token(Token = "0x60004C9")]
-	[Address(RVA = "0x18F2B70", Offset = "0x18F1170", VA = "0x1818F2B70")]
+	[Token(Token = "0x6000516")]
+	[Address(RVA = "0x527A3E0", Offset = "0x52793E0", VA = "0x527A3E0")]
 	private static void SetTexture(ref Texture2D texture, RawImage target, int width, int height, Func<int, int, Color32> pixel)
 	{
 	}
 
-	[Token(Token = "0x60004CA")]
-	[Address(RVA = "0x18F20F0", Offset = "0x18F06F0", VA = "0x1818F20F0")]
+	[Token(Token = "0x6000517")]
+	[Address(RVA = "0x527AA20", Offset = "0x5279A20", VA = "0x527AA20")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x18F16D0", Offset = "0x18EFCD0", VA = "0x1818F16D0")]
+	[Token(Token = "0x6000518")]
+	[Address(RVA = "0x527A690", Offset = "0x5279690", VA = "0x527A690")]
 	private Sprite CircleSprite()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004CC")]
-	[Address(RVA = "0x18F0EF0", Offset = "0x18EF4F0", VA = "0x1818F0EF0")]
+	[Token(Token = "0x6000519")]
+	[Address(RVA = "0x527AD80", Offset = "0x5279D80", VA = "0x527AD80")]
 	private static byte Blend(byte back, byte front, float t)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x60004CD")]
-	[Address(RVA = "0x18F1980", Offset = "0x18EFF80", VA = "0x1818F1980")]
+	[Token(Token = "0x600051A")]
+	[Address(RVA = "0x527AC80", Offset = "0x5279C80", VA = "0x527AC80")]
 	private static void DestroyTexture(Texture2D texture)
 	{
 	}
 
-	[Token(Token = "0x60004CE")]
-	[Address(RVA = "0x18F19E0", Offset = "0x18EFFE0", VA = "0x1818F19E0")]
+	[Token(Token = "0x600051B")]
+	[Address(RVA = "0x527ACE0", Offset = "0x5279CE0", VA = "0x527ACE0")]
 	private static void DestroyUnityObject(UnityEngine.Object target)
 	{
 	}
 
-	[Token(Token = "0x60004CF")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x600051C")]
+	[Address(RVA = "0x527AED0", Offset = "0x5279ED0", VA = "0x527AED0")]
 	public GisketchUIColorPickerVisual()
 	{
 	}

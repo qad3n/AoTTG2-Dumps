@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000094")]
+[Token(Token = "0x2000095")]
 internal static class ExpressionCreator<TDelegate>
 {
-	[Token(Token = "0x600044B")]
+	[Token(Token = "0x6000456")]
 	public static LambdaExpression CreateExpressionFunc(Expression body, string name, bool tailCall, ReadOnlyCollection<ParameterExpression> parameters)
 	{
 		return null;

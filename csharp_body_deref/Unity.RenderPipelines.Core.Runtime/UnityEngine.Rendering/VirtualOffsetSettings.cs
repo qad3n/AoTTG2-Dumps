@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VirtualOffsetSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,13 +43,13 @@ internal struct VirtualOffsetSettings
 	public LayerMask collisionMask;
 
 	[Token(Token = "0x6000A51")]
-	[Address(RVA = "0x2B1A670", Offset = "0x2B18C70", VA = "0x182B1A670")]
+	[Address(RVA = "0x6507E70", Offset = "0x6506E70", VA = "0x6507E70")]
 	internal void SetDefaults()
 	{
 	}
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x2B1A6B0", Offset = "0x2B18CB0", VA = "0x182B1A6B0")]
+	[Address(RVA = "0x6507EA0", Offset = "0x6506EA0", VA = "0x6507EA0")]
 	internal void UpgradeFromTo(ProbeVolumeBakingProcessSettings.SettingsVersion from, ProbeVolumeBakingProcessSettings.SettingsVersion to)
 	{
 	}

@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004FF")]
+[Token(Token = "0x20004D8")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyTrademarkAttribute : Attribute
 {
-	[Token(Token = "0x40013BA")]
+	[Token(Token = "0x400131A")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CTrademark_003Ek__BackingField;
 
-	[Token(Token = "0x600245E")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x600242C")]
+	[Address(RVA = "0x53D7960", Offset = "0x53D6960", VA = "0x53D7960")]
 	public AssemblyTrademarkAttribute(string trademark)
 	{
 	}

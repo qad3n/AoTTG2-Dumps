@@ -18,20 +18,20 @@ internal struct SafeHandleAccess
 	private IntPtr m_Handle;
 
 	[Token(Token = "0x60012D2")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Address(RVA = "0x6CBB150", Offset = "0x6CBA150", VA = "0x6CBB150")]
 	public SafeHandleAccess(IntPtr ptr)
 	{
 	}
 
 	[Token(Token = "0x60012D3")]
-	[Address(RVA = "0x32B62B0", Offset = "0x32B48B0", VA = "0x1832B62B0")]
+	[Address(RVA = "0x6CBB160", Offset = "0x6CBA160", VA = "0x6CBB160")]
 	public bool IsNull()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012D4")]
-	[Address(RVA = "0x32B62C0", Offset = "0x32B48C0", VA = "0x1832B62C0")]
+	[Address(RVA = "0x6CBB170", Offset = "0x6CBA170", VA = "0x6CBB170")]
 	public static implicit operator IntPtr(SafeHandleAccess a)
 	{
 		return default(IntPtr);

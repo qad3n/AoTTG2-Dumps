@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Tilemaps;
 
 [Token(Token = "0x200000F")]
-[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/TilemapScripting.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/TilemapScripting.h")]
 public struct TileAnimationData
 {
 	[Token(Token = "0x4000039")]

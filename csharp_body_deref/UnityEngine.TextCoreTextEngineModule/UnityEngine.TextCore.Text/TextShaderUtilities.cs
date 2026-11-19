@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextShaderUtilities
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -334,7 +334,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_MobileSDF
 	{
 		[Token(Token = "0x600034E")]
-		[Address(RVA = "0x305BF90", Offset = "0x305A590", VA = "0x18305BF90")]
+		[Address(RVA = "0x6A56FA0", Offset = "0x6A55FA0", VA = "0x6A56FA0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 		get
 		{
@@ -346,7 +346,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_MobileBitmap
 	{
 		[Token(Token = "0x600034F")]
-		[Address(RVA = "0x305BE70", Offset = "0x305A470", VA = "0x18305BE70")]
+		[Address(RVA = "0x6A570A0", Offset = "0x6A560A0", VA = "0x6A570A0")]
 		get
 		{
 			return null;
@@ -357,7 +357,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_Sprite
 	{
 		[Token(Token = "0x6000350")]
-		[Address(RVA = "0x305C080", Offset = "0x305A680", VA = "0x18305C080")]
+		[Address(RVA = "0x6A57190", Offset = "0x6A56190", VA = "0x6A57190")]
 		get
 		{
 			return null;
@@ -365,13 +365,13 @@ public static class TextShaderUtilities
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x305BA50", Offset = "0x305A050", VA = "0x18305BA50")]
+	[Address(RVA = "0x6A57310", Offset = "0x6A56310", VA = "0x6A57310")]
 	static TextShaderUtilities()
 	{
 	}
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x305AF60", Offset = "0x3059560", VA = "0x18305AF60")]
+	[Address(RVA = "0x6A575F0", Offset = "0x6A565F0", VA = "0x6A575F0")]
 	internal static void GetShaderPropertyIDs()
 	{
 	}

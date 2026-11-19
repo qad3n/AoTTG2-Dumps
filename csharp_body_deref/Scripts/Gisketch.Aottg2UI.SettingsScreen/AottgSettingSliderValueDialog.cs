@@ -13,125 +13,118 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x200017D")]
 [AottgDialog("setting-slider-value")]
 public sealed class AottgSettingSliderValueDialog : AottgDialog
 {
-	[Token(Token = "0x4000856")]
+	[Token(Token = "0x40008A0")]
 	public const string Id = "setting-slider-value";
 
-	[Token(Token = "0x4000857")]
+	[Token(Token = "0x40008A1")]
 	private const string InputId = "setting-slider-value-input";
 
-	[Token(Token = "0x4000858")]
+	[Token(Token = "0x40008A2")]
 	[FieldOffset(Offset = "0x0")]
 	private static AottgSettingDescriptor _descriptor;
 
-	[Token(Token = "0x17000105")]
+	[Token(Token = "0x17000108")]
 	protected override string Title
 	{
-		[Token(Token = "0x60007CE")]
-		[Address(RVA = "0x2312DD0", Offset = "0x23113D0", VA = "0x182312DD0", Slot = "4")]
+		[Token(Token = "0x6000843")]
+		[Address(RVA = "0x5D38C60", Offset = "0x5D37C60", VA = "0x5D38C60", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000106")]
+	[Token(Token = "0x17000109")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x60007CF")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Token(Token = "0x6000844")]
+		[Address(RVA = "0x5D38CE0", Offset = "0x5D37CE0", VA = "0x5D38CE0", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000107")]
+	[Token(Token = "0x1700010A")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60007D0")]
-		[Address(RVA = "0x2312CD0", Offset = "0x23112D0", VA = "0x182312CD0", Slot = "15")]
+		[Token(Token = "0x6000845")]
+		[Address(RVA = "0x5D38CF0", Offset = "0x5D37CF0", VA = "0x5D38CF0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000108")]
+	[Token(Token = "0x1700010B")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x60007D1")]
-		[Address(RVA = "0x2312BE0", Offset = "0x23111E0", VA = "0x182312BE0", Slot = "17")]
+		[Token(Token = "0x6000846")]
+		[Address(RVA = "0x5D38DB0", Offset = "0x5D37DB0", VA = "0x5D38DB0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x23125D0", Offset = "0x2310BD0", VA = "0x1823125D0")]
+	[Token(Token = "0x6000847")]
+	[Address(RVA = "0x5D38E60", Offset = "0x5D37E60", VA = "0x5D38E60")]
 	internal static void Open(GisketchActionContext context, AottgSettingDescriptor descriptor)
 	{
 	}
 
-	[Token(Token = "0x60007D3")]
-	[Address(RVA = "0x2311FF0", Offset = "0x23105F0", VA = "0x182311FF0", Slot = "20")]
+	[Token(Token = "0x6000848")]
+	[Address(RVA = "0x5D38F30", Offset = "0x5D37F30", VA = "0x5D38F30", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60007D4")]
-	[Address(RVA = "0x2312260", Offset = "0x2310860", VA = "0x182312260", Slot = "21")]
+	[Token(Token = "0x6000849")]
+	[Address(RVA = "0x5D39840", Offset = "0x5D38840", VA = "0x5D39840", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x2312870", Offset = "0x2310E70", VA = "0x182312870")]
+	[Token(Token = "0x600084A")]
+	[Address(RVA = "0x5D39910", Offset = "0x5D38910", VA = "0x5D39910")]
 	private static void Save(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x23123D0", Offset = "0x23109D0", VA = "0x1823123D0")]
+	[Token(Token = "0x600084B")]
+	[Address(RVA = "0x5D39C20", Offset = "0x5D38C20", VA = "0x5D39C20")]
 	private static string InputText(GameObject source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x2312570", Offset = "0x2310B70", VA = "0x182312570")]
+	[Token(Token = "0x600084C")]
+	[Address(RVA = "0x5D391E0", Offset = "0x5D381E0", VA = "0x5D391E0")]
 	private static AottgInputType InputType(IAottgSettingAdapter adapter)
 	{
 		return default(AottgInputType);
 	}
 
-	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x2312690", Offset = "0x2310C90", VA = "0x182312690")]
+	[Token(Token = "0x600084D")]
+	[Address(RVA = "0x5D39230", Offset = "0x5D38230", VA = "0x5D39230")]
 	private static string RangeCallout(IAottgSettingAdapter adapter)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x2312B80", Offset = "0x2311180", VA = "0x182312B80")]
-	private static string Text(string key, string fallback)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x2312360", Offset = "0x2310960", VA = "0x182312360")]
+	[Token(Token = "0x600084E")]
+	[Address(RVA = "0x5D39DD0", Offset = "0x5D38DD0", VA = "0x5D39DD0")]
 	private static string Format(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600084F")]
+	[Address(RVA = "0x5D39E40", Offset = "0x5D38E40", VA = "0x5D39E40")]
 	public AottgSettingSliderValueDialog()
 	{
 	}

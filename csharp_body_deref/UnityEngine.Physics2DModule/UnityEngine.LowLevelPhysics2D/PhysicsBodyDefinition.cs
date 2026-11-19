@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsBodyDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -51,8 +51,8 @@ public struct PhysicsBodyDefinition
 
 	[Token(Token = "0x40000F2")]
 	[FieldOffset(Offset = "0x28")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_LinearDamping;
 
 	[Token(Token = "0x40000F3")]
@@ -107,7 +107,7 @@ public struct PhysicsBodyDefinition
 	public static PhysicsBodyDefinition defaultDefinition
 	{
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x2FD0EB0", Offset = "0x2FCF4B0", VA = "0x182FD0EB0")]
+		[Address(RVA = "0x69CD720", Offset = "0x69CC720", VA = "0x69CD720")]
 		get
 		{
 			return default(PhysicsBodyDefinition);
@@ -115,13 +115,13 @@ public struct PhysicsBodyDefinition
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x2FD0DA0", Offset = "0x2FCF3A0", VA = "0x182FD0DA0")]
+	[Address(RVA = "0x69CD670", Offset = "0x69CC670", VA = "0x69CD670")]
 	public PhysicsBodyDefinition()
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x2FD0E20", Offset = "0x2FCF420", VA = "0x182FD0E20")]
+	[Address(RVA = "0x69C8BF0", Offset = "0x69C7BF0", VA = "0x69C8BF0")]
 	public PhysicsBodyDefinition(bool useSettings)
 	{
 	}

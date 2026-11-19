@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.GroupBox
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,7 +19,7 @@ public class GroupBox : BindableElement, IGroupBox
 	public new class UxmlFactory : UxmlFactory<GroupBox, UxmlTraits>
 	{
 		[Token(Token = "0x6000611")]
-		[Address(RVA = "0x31E3CC0", Offset = "0x31E22C0", VA = "0x1831E3CC0")]
+		[Address(RVA = "0x6BE4E10", Offset = "0x6BE3E10", VA = "0x6BE4E10")]
 		public UxmlFactory()
 		{
 		}
@@ -34,13 +34,13 @@ public class GroupBox : BindableElement, IGroupBox
 		private UxmlStringAttributeDescription m_Text;
 
 		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x31E59D0", Offset = "0x31E3FD0", VA = "0x1831E59D0", Slot = "4")]
+		[Address(RVA = "0x6BE4E50", Offset = "0x6BE3E50", VA = "0x6BE4E50", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x31E6EF0", Offset = "0x31E54F0", VA = "0x1831E6EF0")]
+		[Address(RVA = "0x6BE4F50", Offset = "0x6BE3F50", VA = "0x6BE4F50")]
 		public UxmlTraits()
 		{
 		}
@@ -67,38 +67,38 @@ public class GroupBox : BindableElement, IGroupBox
 	public string text
 	{
 		[Token(Token = "0x600060A")]
-		[Address(RVA = "0x31D8700", Offset = "0x31D6D00", VA = "0x1831D8700")]
+		[Address(RVA = "0x6BE49C0", Offset = "0x6BE39C0", VA = "0x6BE49C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600060B")]
-		[Address(RVA = "0x31D8720", Offset = "0x31D6D20", VA = "0x1831D8720")]
+		[Address(RVA = "0x6BE49F0", Offset = "0x6BE39F0", VA = "0x6BE49F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0x31D8680", Offset = "0x31D6C80", VA = "0x1831D8680")]
+	[Address(RVA = "0x6BE4BC0", Offset = "0x6BE3BC0", VA = "0x6BE4BC0")]
 	public GroupBox()
 	{
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x31D85F0", Offset = "0x31D6BF0", VA = "0x1831D85F0")]
+	[Address(RVA = "0x6BE4C40", Offset = "0x6BE3C40", VA = "0x6BE4C40")]
 	public GroupBox(string text)
 	{
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "143")]
+	[Address(RVA = "0x6BE4CC0", Offset = "0x6BE3CC0", VA = "0x6BE4CC0", Slot = "143")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionAdded(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x600060F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "144")]
+	[Address(RVA = "0x6BE4CD0", Offset = "0x6BE3CD0", VA = "0x6BE4CD0", Slot = "144")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionRemoved(IGroupBoxOption option)
 	{
 	}

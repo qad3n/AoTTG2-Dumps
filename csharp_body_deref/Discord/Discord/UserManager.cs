@@ -90,7 +90,7 @@ public class UserManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x53CA00", Offset = "0x53B000", VA = "0x18053CA00")]
+		[Address(RVA = "0x3146A80", Offset = "0x3145A80", VA = "0x3146A80")]
 		get
 		{
 			return default(FFIMethods);
@@ -101,13 +101,13 @@ public class UserManager
 	public event CurrentUserUpdateHandler OnCurrentUserUpdate
 	{
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x53C960", Offset = "0x53AF60", VA = "0x18053C960")]
+		[Address(RVA = "0x3146B90", Offset = "0x3145B90", VA = "0x3146B90")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x53CB10", Offset = "0x53B110", VA = "0x18053CB10")]
+		[Address(RVA = "0x3146C20", Offset = "0x3145C20", VA = "0x3146C20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -115,53 +115,53 @@ public class UserManager
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x53C770", Offset = "0x53AD70", VA = "0x18053C770")]
+	[Address(RVA = "0x3142FC0", Offset = "0x3141FC0", VA = "0x3142FC0")]
 	internal UserManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x53C530", Offset = "0x53AB30", VA = "0x18053C530")]
+	[Address(RVA = "0x3146CB0", Offset = "0x3145CB0", VA = "0x3146CB0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x53C230", Offset = "0x53A830", VA = "0x18053C230")]
+	[Address(RVA = "0x3146E80", Offset = "0x3145E80", VA = "0x3146E80")]
 	public User GetCurrentUser()
 	{
 		return default(User);
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x53C2D0", Offset = "0x53A8D0", VA = "0x18053C2D0")]
+	[Address(RVA = "0x31468A0", Offset = "0x31458A0", VA = "0x31468A0")]
 	[MonoPInvokeCallback]
 	private static void GetUserCallbackImpl(IntPtr ptr, Result result, ref User user)
 	{
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x53C3F0", Offset = "0x53A9F0", VA = "0x18053C3F0")]
+	[Address(RVA = "0x3146F30", Offset = "0x3145F30", VA = "0x3146F30")]
 	public void GetUser(long userId, GetUserHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x53C190", Offset = "0x53A790", VA = "0x18053C190")]
+	[Address(RVA = "0x3147110", Offset = "0x3146110", VA = "0x3147110")]
 	public PremiumType GetCurrentUserPremiumType()
 	{
 		return default(PremiumType);
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x53C0E0", Offset = "0x53A6E0", VA = "0x18053C0E0")]
+	[Address(RVA = "0x31471A0", Offset = "0x31461A0", VA = "0x31471A0")]
 	public bool CurrentUserHasFlag(UserFlag flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x53C660", Offset = "0x53AC60", VA = "0x18053C660")]
+	[Address(RVA = "0x3146990", Offset = "0x3145990", VA = "0x3146990")]
 	[MonoPInvokeCallback]
 	private static void OnCurrentUserUpdateImpl(IntPtr ptr)
 	{

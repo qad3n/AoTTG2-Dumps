@@ -34,13 +34,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public MemberSerialization MemberSerialization
 	{
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0xA4D530", Offset = "0xA4BB30", VA = "0x180A4D530")]
+		[Address(RVA = "0x555B600", Offset = "0x555A600", VA = "0x555B600")]
 		get
 		{
 			return default(MemberSerialization);
 		}
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0xA4D6E0", Offset = "0xA4BCE0", VA = "0x180A4D6E0")]
+		[Address(RVA = "0x555B610", Offset = "0x555A610", VA = "0x555B610")]
 		set
 		{
 		}
@@ -50,13 +50,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public MissingMemberHandling MissingMemberHandling
 	{
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x1BCD420", Offset = "0x1BCBA20", VA = "0x181BCD420")]
+		[Address(RVA = "0x555B620", Offset = "0x555A620", VA = "0x555B620")]
 		get
 		{
 			return default(MissingMemberHandling);
 		}
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x1BCD520", Offset = "0x1BCBB20", VA = "0x181BCD520")]
+		[Address(RVA = "0x555B650", Offset = "0x555A650", VA = "0x555B650")]
 		set
 		{
 		}
@@ -66,13 +66,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public NullValueHandling ItemNullValueHandling
 	{
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x1BCD3A0", Offset = "0x1BCB9A0", VA = "0x181BCD3A0")]
+		[Address(RVA = "0x555B6A0", Offset = "0x555A6A0", VA = "0x555B6A0")]
 		get
 		{
 			return default(NullValueHandling);
 		}
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x1BCD460", Offset = "0x1BCBA60", VA = "0x181BCD460")]
+		[Address(RVA = "0x555B6D0", Offset = "0x555A6D0", VA = "0x555B6D0")]
 		set
 		{
 		}
@@ -82,32 +82,32 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public Required ItemRequired
 	{
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x1BCD3E0", Offset = "0x1BCB9E0", VA = "0x181BCD3E0")]
+		[Address(RVA = "0x555B720", Offset = "0x555A720", VA = "0x555B720")]
 		get
 		{
 			return default(Required);
 		}
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x1BCD4C0", Offset = "0x1BCBAC0", VA = "0x181BCD4C0")]
+		[Address(RVA = "0x555B750", Offset = "0x555A750", VA = "0x555B750")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x555B7A0", Offset = "0x555A7A0", VA = "0x555B7A0")]
 	public JsonObjectAttribute()
 	{
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x1BCD370", Offset = "0x1BCB970", VA = "0x181BCD370")]
+	[Address(RVA = "0x555B7B0", Offset = "0x555A7B0", VA = "0x555B7B0")]
 	public JsonObjectAttribute(MemberSerialization memberSerialization)
 	{
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x555B7D0", Offset = "0x555A7D0", VA = "0x555B7D0")]
 	public JsonObjectAttribute(string id)
 	{
 	}

@@ -41,7 +41,7 @@ internal sealed class ConstraintStruct
 	internal int TableDim
 	{
 		[Token(Token = "0x6000F9D")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x61427E0", Offset = "0x61417E0", VA = "0x61427E0")]
 		get
 		{
 			return default(int);
@@ -49,7 +49,7 @@ internal sealed class ConstraintStruct
 	}
 
 	[Token(Token = "0x6000F9E")]
-	[Address(RVA = "0x277CBA0", Offset = "0x277B1A0", VA = "0x18277CBA0")]
+	[Address(RVA = "0x61427F0", Offset = "0x61417F0", VA = "0x61427F0")]
 	internal ConstraintStruct(CompiledIdentityConstraint constraint)
 	{
 	}

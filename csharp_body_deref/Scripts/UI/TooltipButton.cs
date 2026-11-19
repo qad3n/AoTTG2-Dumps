@@ -10,33 +10,33 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200075A")]
+[Token(Token = "0x2000802")]
 internal class TooltipButton : Button
 {
-	[Token(Token = "0x4002474")]
+	[Token(Token = "0x40027E5")]
 	[FieldOffset(Offset = "0x108")]
 	private string _tooltipMessage;
 
-	[Token(Token = "0x6004799")]
-	[Address(RVA = "0x22396C0", Offset = "0x2237CC0", VA = "0x1822396C0")]
+	[Token(Token = "0x6004CBB")]
+	[Address(RVA = "0x5BF94D0", Offset = "0x5BF84D0", VA = "0x5BF94D0")]
 	private new void Awake()
 	{
 	}
 
-	[Token(Token = "0x600479A")]
-	[Address(RVA = "0x22398E0", Offset = "0x2237EE0", VA = "0x1822398E0", Slot = "43")]
+	[Token(Token = "0x6004CBC")]
+	[Address(RVA = "0x5BF9520", Offset = "0x5BF8520", VA = "0x5BF9520", Slot = "43")]
 	public virtual void Setup(string tooltipMessage, ElementStyle style)
 	{
 	}
 
-	[Token(Token = "0x600479B")]
-	[Address(RVA = "0x2239720", Offset = "0x2237D20", VA = "0x182239720", Slot = "26")]
+	[Token(Token = "0x6004CBD")]
+	[Address(RVA = "0x5BF9640", Offset = "0x5BF8640", VA = "0x5BF9640", Slot = "26")]
 	protected override void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
-	[Token(Token = "0x600479C")]
-	[Address(RVA = "0x18F43B0", Offset = "0x18F29B0", VA = "0x1818F43B0")]
+	[Token(Token = "0x6004CBE")]
+	[Address(RVA = "0x5BF97D0", Offset = "0x5BF87D0", VA = "0x5BF97D0")]
 	public TooltipButton()
 	{
 	}

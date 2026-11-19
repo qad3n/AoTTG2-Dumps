@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000520")]
+[Token(Token = "0x20004F9")]
 [Flags]
 public enum PropertyAttributes
 {
-	[Token(Token = "0x400145C")]
+	[Token(Token = "0x40013BC")]
 	None = 0,
-	[Token(Token = "0x400145D")]
+	[Token(Token = "0x40013BD")]
 	SpecialName = 0x200,
-	[Token(Token = "0x400145E")]
+	[Token(Token = "0x40013BE")]
 	RTSpecialName = 0x400,
-	[Token(Token = "0x400145F")]
+	[Token(Token = "0x40013BF")]
 	HasDefault = 0x1000,
-	[Token(Token = "0x4001460")]
+	[Token(Token = "0x40013C0")]
 	Reserved2 = 0x2000,
-	[Token(Token = "0x4001461")]
+	[Token(Token = "0x40013C1")]
 	Reserved3 = 0x4000,
-	[Token(Token = "0x4001462")]
+	[Token(Token = "0x40013C2")]
 	Reserved4 = 0x8000,
-	[Token(Token = "0x4001463")]
+	[Token(Token = "0x40013C3")]
 	ReservedMask = RTSpecialName | HasDefault | Reserved2 | Reserved3 | Reserved4
 }

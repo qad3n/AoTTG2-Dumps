@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.RaycastHit
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,9 +13,9 @@ namespace UnityEngine;
 
 [Token(Token = "0x200001E")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Interfaces/IPhysics.h")]
-[UnityEngine.Bindings.NativeHeader("PhysicsScriptingClasses.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Physics/RaycastHit.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Physics/RaycastHit.h")]
+[UnityEngine.Bindings.NativeHeader("PhysicsScriptingClasses.h")]
 public struct RaycastHit
 {
 	[Token(Token = "0x4000070")]
@@ -52,7 +52,7 @@ public struct RaycastHit
 	public Collider collider
 	{
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x2FE6A00", Offset = "0x2FE5000", VA = "0x182FE6A00")]
+		[Address(RVA = "0x69E1D90", Offset = "0x69E0D90", VA = "0x69E1D90")]
 		get
 		{
 			return null;
@@ -63,7 +63,7 @@ public struct RaycastHit
 	public Vector3 point
 	{
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x2FDEB80", Offset = "0x2FDD180", VA = "0x182FDEB80")]
+		[Address(RVA = "0x69E1E30", Offset = "0x69E0E30", VA = "0x69E1E30")]
 		get
 		{
 			return default(Vector3);
@@ -74,7 +74,7 @@ public struct RaycastHit
 	public Vector3 normal
 	{
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x2FDEB60", Offset = "0x2FDD160", VA = "0x182FDEB60")]
+		[Address(RVA = "0x69E1E40", Offset = "0x69E0E40", VA = "0x69E1E40")]
 		get
 		{
 			return default(Vector3);
@@ -85,7 +85,7 @@ public struct RaycastHit
 	public float distance
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x2E8CC00", Offset = "0x2E8B200", VA = "0x182E8CC00")]
+		[Address(RVA = "0x69E1E50", Offset = "0x69E0E50", VA = "0x69E1E50")]
 		get
 		{
 			return default(float);

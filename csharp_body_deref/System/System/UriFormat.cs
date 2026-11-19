@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000C4")]
+[Token(Token = "0x2000085")]
 public enum UriFormat
 {
-	[Token(Token = "0x40002C2")]
+	[Token(Token = "0x40001F3")]
 	UriEscaped = 1,
-	[Token(Token = "0x40002C3")]
+	[Token(Token = "0x40001F4")]
 	Unescaped,
-	[Token(Token = "0x40002C4")]
+	[Token(Token = "0x40001F5")]
 	SafeUnescaped
 }

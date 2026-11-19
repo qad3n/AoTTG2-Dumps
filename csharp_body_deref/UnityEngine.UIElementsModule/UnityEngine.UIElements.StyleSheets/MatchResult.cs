@@ -24,7 +24,7 @@ internal struct MatchResult
 	public bool success
 	{
 		[Token(Token = "0x6002D9E")]
-		[Address(RVA = "0x31ED1A0", Offset = "0x31EB7A0", VA = "0x1831ED1A0")]
+		[Address(RVA = "0x6BF80E0", Offset = "0x6BF70E0", VA = "0x6BF80E0")]
 		get
 		{
 			return default(bool);

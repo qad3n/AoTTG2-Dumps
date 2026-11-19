@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncJointBreakTrigger : AsyncTriggerBase<float>
 {
 	[Token(Token = "0x6000B2F")]
-	[Address(RVA = "0x2930C30", Offset = "0x292F230", VA = "0x182930C30")]
+	[Address(RVA = "0x62FBA60", Offset = "0x62FAA60", VA = "0x62FBA60")]
 	private void OnJointBreak(float breakForce)
 	{
 	}
 
 	[Token(Token = "0x6000B30")]
-	[Address(RVA = "0x29309A0", Offset = "0x292EFA0", VA = "0x1829309A0")]
+	[Address(RVA = "0x62FBAB0", Offset = "0x62FAAB0", VA = "0x62FBAB0")]
 	public IAsyncOnJointBreakHandler GetOnJointBreakAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B31")]
-	[Address(RVA = "0x2930920", Offset = "0x292EF20", VA = "0x182930920")]
+	[Address(RVA = "0x62FBB20", Offset = "0x62FAB20", VA = "0x62FBB20")]
 	public IAsyncOnJointBreakHandler GetOnJointBreakAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x2930A10", Offset = "0x292F010", VA = "0x182930A10")]
+	[Address(RVA = "0x62FBB90", Offset = "0x62FAB90", VA = "0x62FBB90")]
 	public UniTask<float> OnJointBreakAsync()
 	{
 		return default(UniTask<float>);
 	}
 
 	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x2930B20", Offset = "0x292F120", VA = "0x182930B20")]
+	[Address(RVA = "0x62FBC80", Offset = "0x62FAC80", VA = "0x62FBC80")]
 	public UniTask<float> OnJointBreakAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<float>);
 	}
 
 	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x2930C80", Offset = "0x292F280", VA = "0x182930C80")]
+	[Address(RVA = "0x62FBD70", Offset = "0x62FAD70", VA = "0x62FBD70")]
 	public AsyncJointBreakTrigger()
 	{
 	}

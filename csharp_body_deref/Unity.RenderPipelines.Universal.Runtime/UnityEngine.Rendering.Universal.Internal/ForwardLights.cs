@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.ForwardLights
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -77,7 +77,7 @@ public class ForwardLights
 		public bool forwardPlus;
 
 		[Token(Token = "0x6000BE2")]
-		[Address(RVA = "0x2CD7550", Offset = "0x2CD5B50", VA = "0x182CD7550")]
+		[Address(RVA = "0x66CC160", Offset = "0x66CB160", VA = "0x66CC160")]
 		internal static InitParams Create()
 		{
 			return default(InitParams);
@@ -104,7 +104,7 @@ public class ForwardLights
 		internal ForwardLights forwardLights;
 
 		[Token(Token = "0x6000BE3")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66D0FB0", Offset = "0x66CFFB0", VA = "0x66D0FB0")]
 		public SetupLightPassData()
 		{
 		}
@@ -241,7 +241,7 @@ public class ForwardLights
 	internal ReflectionProbeManager reflectionProbeManager
 	{
 		[Token(Token = "0x6000BD3")]
-		[Address(RVA = "0x2CD58E0", Offset = "0x2CD3EE0", VA = "0x182CD58E0")]
+		[Address(RVA = "0x66CC860", Offset = "0x66CB860", VA = "0x66CC860")]
 		get
 		{
 			return default(ReflectionProbeManager);
@@ -249,100 +249,100 @@ public class ForwardLights
 	}
 
 	[Token(Token = "0x6000BCF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66CC130", Offset = "0x66CB130", VA = "0x66CC130")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public void Setup(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000BD0")]
-	[Address(RVA = "0x2CD5320", Offset = "0x2CD3920", VA = "0x182CD5320")]
+	[Address(RVA = "0x66CC140", Offset = "0x66CB140", VA = "0x66CC140")]
 	public ForwardLights()
 	{
 	}
 
 	[Token(Token = "0x6000BD1")]
-	[Address(RVA = "0x2CD5460", Offset = "0x2CD3A60", VA = "0x182CD5460")]
+	[Address(RVA = "0x66CC270", Offset = "0x66CB270", VA = "0x66CC270")]
 	internal ForwardLights(InitParams initParams)
 	{
 	}
 
 	[Token(Token = "0x6000BD2")]
-	[Address(RVA = "0x2CD0A20", Offset = "0x2CCF020", VA = "0x182CD0A20")]
+	[Address(RVA = "0x66CC680", Offset = "0x66CB680", VA = "0x66CC680")]
 	private void CreateForwardPlusBuffers()
 	{
 	}
 
 	[Token(Token = "0x6000BD4")]
-	[Address(RVA = "0x2CD0900", Offset = "0x2CCEF00", VA = "0x182CD0900")]
+	[Address(RVA = "0x66CC880", Offset = "0x66CB880", VA = "0x66CC880")]
 	private static int AlignByteCount(int count, int align)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BD5")]
-	[Address(RVA = "0x2CD0C20", Offset = "0x2CCF220", VA = "0x182CD0C20")]
+	[Address(RVA = "0x66CC890", Offset = "0x66CB890", VA = "0x66CC890")]
 	private static void GetViewParams(bool isOrthographic, float4x4 viewToClip, out float viewPlaneBot, out float viewPlaneTop, out float4 viewToViewportScaleBias)
 	{
 	}
 
 	[Token(Token = "0x6000BD6")]
-	[Address(RVA = "0x2CD1A40", Offset = "0x2CD0040", VA = "0x182CD1A40")]
+	[Address(RVA = "0x66CC9E0", Offset = "0x66CB9E0", VA = "0x66CC9E0")]
 	internal static JobHandle ScheduleClusteringJobs(bool hasMainLight, bool supportsAdditionalLights, NativeArray<VisibleLight> lights, NativeArray<VisibleReflectionProbe> probes, NativeArray<uint> zBins, NativeArray<uint> tileMasks, Fixed2<float4x4> worldToViews, Fixed2<float4x4> viewToClips, int viewCount, int2 screenResolution, float nearClipPlane, float farClipPlane, bool isOrthographic, out int localLightCount, out int directionalLightCount, out int binCount, out float zBinScale, out float zBinOffset, out int2 tileResolution, out int actualTileWidth, out int wordsPerTile)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x6000BD7")]
-	[Address(RVA = "0x2CD0FF0", Offset = "0x2CCF5F0", VA = "0x182CD0FF0")]
+	[Address(RVA = "0x66CE0A0", Offset = "0x66CD0A0", VA = "0x66CE0A0")]
 	internal void PreSetup(UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BD8")]
-	[Address(RVA = "0x2CD4BA0", Offset = "0x2CD31A0", VA = "0x182CD4BA0")]
+	[Address(RVA = "0x66CED00", Offset = "0x66CDD00", VA = "0x66CED00")]
 	internal void SetupRenderGraphLights(RenderGraph renderGraph, UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BD9")]
-	[Address(RVA = "0x2CD37C0", Offset = "0x2CD1DC0", VA = "0x182CD37C0")]
+	[Address(RVA = "0x66CF150", Offset = "0x66CE150", VA = "0x66CF150")]
 	internal void SetupLights(UnsafeCommandBuffer cmd, UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x2CD0920", Offset = "0x2CCEF20", VA = "0x182CD0920")]
+	[Address(RVA = "0x66CFF20", Offset = "0x66CEF20", VA = "0x66CFF20")]
 	internal void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x2CD0DC0", Offset = "0x2CCF3C0", VA = "0x182CD0DC0")]
+	[Address(RVA = "0x66D0030", Offset = "0x66CF030", VA = "0x66D0030")]
 	private void InitializeLightConstants(NativeArray<VisibleLight> lights, int lightIndex, bool supportsLightLayers, out Vector4 lightPos, out Vector4 lightColor, out Vector4 lightAttenuation, out Vector4 lightSpotDir, out Vector4 lightOcclusionProbeChannel, out uint lightLayerMask, out bool isSubtractive)
 	{
 	}
 
 	[Token(Token = "0x6000BDC")]
-	[Address(RVA = "0x2CD4F40", Offset = "0x2CD3540", VA = "0x182CD4F40")]
+	[Address(RVA = "0x66CFEE0", Offset = "0x66CEEE0", VA = "0x66CFEE0")]
 	private void SetupShaderLightConstants(UnsafeCommandBuffer cmd, ref CullingResults cullResults, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BDD")]
-	[Address(RVA = "0x2CD4510", Offset = "0x2CD2B10", VA = "0x182CD4510")]
+	[Address(RVA = "0x66D0270", Offset = "0x66CF270", VA = "0x66D0270")]
 	private void SetupMainLightConstants(UnsafeCommandBuffer cmd, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BDE")]
-	[Address(RVA = "0x2CD3150", Offset = "0x2CD1750", VA = "0x182CD3150")]
+	[Address(RVA = "0x66D03F0", Offset = "0x66CF3F0", VA = "0x66D03F0")]
 	private void SetupAdditionalLightConstants(UnsafeCommandBuffer cmd, ref CullingResults cullResults, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000BDF")]
-	[Address(RVA = "0x2CD4860", Offset = "0x2CD2E60", VA = "0x182CD4860")]
+	[Address(RVA = "0x66D0A40", Offset = "0x66CFA40", VA = "0x66D0A40")]
 	private int SetupPerObjectLightIndices(CullingResults cullResults, UniversalLightData lightData)
 	{
 		return default(int);

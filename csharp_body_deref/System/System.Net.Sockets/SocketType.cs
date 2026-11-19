@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000390")]
+[Token(Token = "0x200034C")]
 public enum SocketType
 {
-	[Token(Token = "0x4000F69")]
+	[Token(Token = "0x4000E81")]
 	Stream = 1,
-	[Token(Token = "0x4000F6A")]
+	[Token(Token = "0x4000E82")]
 	Dgram = 2,
-	[Token(Token = "0x4000F6B")]
+	[Token(Token = "0x4000E83")]
 	Raw = 3,
-	[Token(Token = "0x4000F6C")]
+	[Token(Token = "0x4000E84")]
 	Rdm = 4,
-	[Token(Token = "0x4000F6D")]
+	[Token(Token = "0x4000E85")]
 	Seqpacket = 5,
-	[Token(Token = "0x4000F6E")]
+	[Token(Token = "0x4000E86")]
 	Unknown = -1
 }

@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001E0")]
+[Token(Token = "0x20001A1")]
 public class StringConverter : TypeConverter
 {
-	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x2892810", Offset = "0x2890E10", VA = "0x182892810", Slot = "4")]
+	[Token(Token = "0x6000AFE")]
+	[Address(RVA = "0x62499C0", Offset = "0x62489C0", VA = "0x62499C0", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x28C9540", Offset = "0x28C7B40", VA = "0x1828C9540", Slot = "6")]
+	[Token(Token = "0x6000AFF")]
+	[Address(RVA = "0x6249A40", Offset = "0x6248A40", VA = "0x6249A40", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CC0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000B00")]
+	[Address(RVA = "0x6249A70", Offset = "0x6248A70", VA = "0x6249A70")]
 	public StringConverter()
 	{
 	}

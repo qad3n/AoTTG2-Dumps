@@ -1,14 +1,14 @@
 // Type: CustomLogic.CustomLogicLanguageEnum
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicLanguageEnum.cs
 // Prior real C# source: none
 // --------------------------------
 
 // CustomLogic.CustomLogicLanguageEnum.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicLanguageEnum_o* CustomLogic_CustomLogicLanguageEnum_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x181ff04e0
+// 0x5a92260
 
 CustomLogic_CustomLogicLanguageEnum_o *
 CustomLogic_CustomLogicLanguageEnum_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
@@ -16,53 +16,51 @@ CustomLogic_CustomLogicLanguageEnum_Factory__CreateInstance(System_Object_array 
 {
   CustomLogic_BuiltinClassInstance_o *__this;
   System_String_o *pSVar1;
-  System_String_o *str2;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
   System_ArgumentException_o *__this_00;
   MethodInfo *lastManagedFrame;
-  int32_t local_res8 [2];
+  int32_t local_14;
   
-  if (Il2CppMethodInitialized_184345e88 == '\0') {
+  if (Il2CppMethodInitialized_075467f6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicLanguageEnum);
-    Il2CppMethodInitialized_184345e88 = '\x01';
+    Il2CppMethodInitialized_075467f6 = '\x01';
   }
-  local_res8[0] = 0;
-  if (args != (System_Object_array *)0x0) {
-    if (args->max_length == 0) {
-      __this = (CustomLogic_BuiltinClassInstance_o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum);
-      if (Il2CppMethodInitialized_184345e73 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-        Il2CppMethodInitialized_184345e73 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-      }
-      CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
-      return (CustomLogic_CustomLogicLanguageEnum_o *)__this;
-    }
+  if (args == (System_Object_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (args->max_length != 0) {
     NullCheck(args);
-    local_res8[0] = (int32_t)args->max_length;
-    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    pSVar1 = System_Int32__ToString(&local_14,(MethodInfo *)0x0);
     str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicLanguageEnum constructor found that takes ");
-    pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    pSVar1 = System_String__Concat_5301f10(str0,pSVar1,str2,(MethodInfo *)0x0);
     klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
     __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-    System_ArgumentException___ctor_1a77cc0(__this_00,pSVar1,(MethodInfo *)0x0);
+    System_ArgumentException___ctor_54186d0(__this_00,pSVar1,(MethodInfo *)0x0);
     lastManagedFrame =
          il2cpp_codegen_get_runtime_metadata
                    (&MethodInfo_CustomLogic_CustomLogicLanguageEnum_Factory_CreateInstance);
     il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  ThrowNullReferenceException();
+  __this = (CustomLogic_BuiltinClassInstance_o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum);
+  if (Il2CppMethodInitialized_075467db == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_075467db = '\x01';
+  }
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+  }
+  CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
+  return (CustomLogic_CustomLogicLanguageEnum_o *)__this;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicLanguageEnum_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x181fcee40
+// 0x5a92380
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicLanguageEnum_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
@@ -70,23 +68,27 @@ CustomLogic_CustomLogicLanguageEnum_Bindings__CreateMemberBinding(System_String_
 {
   bool bVar1;
   uint32_t uVar2;
-  System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *__this;
-  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
-  System_String_o *pSVar3;
-  System_String_o *str0;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *pCVar3;
+  System_String_o *pSVar4;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_Exception_o *__this_01;
-  MethodInfo *pMVar4;
+  System_Exception_o *__this;
+  MethodInfo *lastManagedFrame;
+  CustomLogic_CustomLogicLanguageEnum_Bindings_c *pCVar5;
   
-  if (Il2CppMethodInitialized_184345e89 == '\0') {
+  if (Il2CppMethodInitialized_075467f7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"Romanian");
     il2cpp_codegen_initialize_runtime_metadata(&"Czech");
     il2cpp_codegen_initialize_runtime_metadata(&"Turkish");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hungarian");
     il2cpp_codegen_initialize_runtime_metadata(&"Russian");
     il2cpp_codegen_initialize_runtime_metadata(&"Spanish");
     il2cpp_codegen_initialize_runtime_metadata(&"TraditionalChinese");
     il2cpp_codegen_initialize_runtime_metadata(&"Italian");
     il2cpp_codegen_initialize_runtime_metadata(&"Japanese");
+    il2cpp_codegen_initialize_runtime_metadata(&"Catalan");
+    il2cpp_codegen_initialize_runtime_metadata(&"Finnish");
     il2cpp_codegen_initialize_runtime_metadata(&"German");
     il2cpp_codegen_initialize_runtime_metadata(&"BrazilianPortuguese");
     il2cpp_codegen_initialize_runtime_metadata(&"Indonesian");
@@ -94,130 +96,96 @@ CustomLogic_CustomLogicLanguageEnum_Bindings__CreateMemberBinding(System_String_
     il2cpp_codegen_initialize_runtime_metadata(&"Chinese");
     il2cpp_codegen_initialize_runtime_metadata(&"Polish");
     il2cpp_codegen_initialize_runtime_metadata(&"Arabic");
+    il2cpp_codegen_initialize_runtime_metadata(&"Thai");
     il2cpp_codegen_initialize_runtime_metadata(&"Ukrainian");
+    il2cpp_codegen_initialize_runtime_metadata(&"Vietnamese");
     il2cpp_codegen_initialize_runtime_metadata(&"English");
     il2cpp_codegen_initialize_runtime_metadata(&"Korean");
     il2cpp_codegen_initialize_runtime_metadata(&"Greek");
     il2cpp_codegen_initialize_runtime_metadata(&"French");
-    Il2CppMethodInitialized_184345e89 = '\x01';
+    Il2CppMethodInitialized_075467f7 = '\x01';
   }
   uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar2 < 0xa4f06666) {
+  if (uVar2 < 0x940c2e0b) {
     if (uVar2 < 0x47592387) {
-      if (uVar2 < 0x1b9ae0bc) {
-        if (uVar2 == 0x11100833) {
-          bVar1 = System_String__op_Equality(name,"German",(MethodInfo *)0x0);
+      if (uVar2 < 0x1a8c6dbb) {
+        if (uVar2 == 0xcd9bfaa) {
+          bVar1 = System_String__op_Equality(name,"Romanian",(MethodInfo *)0x0);
           if (bVar1) {
+            pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
             if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init
                         ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
             }
-            if (Il2CppMethodInitialized_184345e91 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&
-                         MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_9_0
-                        );
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-              ;
-              Il2CppMethodInitialized_184345e91 = '\x01';
-            }
-            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                     il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            pMVar4 = 
-            MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_9_0
-            ;
-            goto label_181fcfa7a;
+            pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Romanian
+                               ((MethodInfo *)pCVar5);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
         }
-        else if (uVar2 == 0x1b9ae0bb) {
-          bVar1 = System_String__op_Equality(name,"English",(MethodInfo *)0x0);
+        else if (uVar2 == 0x11100833) {
+          bVar1 = System_String__op_Equality(name,"German",(MethodInfo *)0x0);
           if (bVar1) {
+            pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
             if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init
                         ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
             }
-            if (Il2CppMethodInitialized_184345e8f == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&
-                         MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_7_0
-                        );
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-              ;
-              Il2CppMethodInitialized_184345e8f = '\x01';
-            }
-            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                     il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            pMVar4 = 
-            MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_7_0
-            ;
-            goto label_181fcfa7a;
+            pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__German
+                               ((MethodInfo *)pCVar5);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
+        }
+        else if (uVar2 == 0x1a8c6dba) {
+          bVar1 = System_String__op_Equality(name,"Vietnamese",(MethodInfo *)0x0);
+          if (bVar1) {
+            pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+            if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+            }
+            pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Vietnamese
+                               ((MethodInfo *)pCVar5);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+          }
+        }
+      }
+      else if (uVar2 == 0x1b9ae0bb) {
+        bVar1 = System_String__op_Equality(name,"English",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__English
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
       else if (uVar2 == 0x3342300c) {
         bVar1 = System_String__op_Equality(name,"Czech",(MethodInfo *)0x0);
         if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          if (Il2CppMethodInitialized_184345e8d == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_5_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e8d = '\x01';
-          }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_5_0
-          ;
-          goto label_181fcfa7a;
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Czech
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
       else if (uVar2 == 0x47592386) {
         bVar1 = System_String__op_Equality(name,"Russian",(MethodInfo *)0x0);
         if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          if (Il2CppMethodInitialized_184345e98 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_16_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e98 = '\x01';
-          }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_16_0
-          ;
-          goto label_181fcfa7a;
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Russian
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
     }
@@ -225,453 +193,276 @@ CustomLogic_CustomLogicLanguageEnum_Bindings__CreateMemberBinding(System_String_
       if (uVar2 == 0x4fbe5a5d) {
         bVar1 = System_String__op_Equality(name,"Ukrainian",(MethodInfo *)0x0);
         if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          if (Il2CppMethodInitialized_184345e9c == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_20_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e9c = '\x01';
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Ukrainian
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+      else if (uVar2 == 0x6044a05b) {
+        bVar1 = System_String__op_Equality(name,"Thai",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_20_0
-          ;
-          goto label_181fcfa7a;
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Thai
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
       else if (uVar2 == 0x7cbd6ca5) {
         bVar1 = System_String__op_Equality(name,"French",(MethodInfo *)0x0);
         if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          if (Il2CppMethodInitialized_184345e90 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_8_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e90 = '\x01';
-          }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_8_0
-          ;
-          goto label_181fcfa7a;
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__French
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
     }
-    else if (uVar2 == 0x7e11ec68) {
-      bVar1 = System_String__op_Equality(name,"Chinese",(MethodInfo *)0x0);
+    else if (uVar2 == 0x8099edda) {
+      bVar1 = System_String__op_Equality(name,"Hungarian",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e8c == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_4_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e8c = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_4_0
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Hungarian
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x940c2e0a) {
       bVar1 = System_String__op_Equality(name,"Japanese",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e95 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_13_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e95 = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_13_0
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Japanese
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
-    else if (uVar2 == 0xa4f06665) {
-      bVar1 = System_String__op_Equality(name,"TraditionalChinese",(MethodInfo *)0x0);
+    else if (uVar2 == 0x7e11ec68) {
+      bVar1 = System_String__op_Equality(name,"Chinese",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e9a == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__TraditionalChinese_g____ge
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e9a = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__TraditionalChinese_g____ge
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Chinese
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
-    goto label_181fcfabc;
   }
-  if (uVar2 < 0xb819825c) {
-    if (uVar2 < 0xaaf50d6d) {
-      if (uVar2 == 0xa653c2a3) {
+  else if (uVar2 < 0xb297e9d2) {
+    if (uVar2 < 0xa653c2a4) {
+      if (uVar2 == 0x9faffb3d) {
+        bVar1 = System_String__op_Equality(name,"Catalan",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Catalan
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+      else if (uVar2 == 0xa4f06665) {
+        bVar1 = System_String__op_Equality(name,"TraditionalChinese",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__TraditionalChinese
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+      else if (uVar2 == 0xa653c2a3) {
         bVar1 = System_String__op_Equality(name,"Greek",(MethodInfo *)0x0);
         if (bVar1) {
+          pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
           }
-          if (Il2CppMethodInitialized_184345e92 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_10_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e92 = '\x01';
-          }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_10_0
-          ;
-          goto label_181fcfa7a;
+          pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Greek
+                             ((MethodInfo *)pCVar5);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
-      else if (uVar2 == 0xaaf50d6c) {
-        bVar1 = System_String__op_Equality(name,"Polish",(MethodInfo *)0x0);
-        if (bVar1) {
-          if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
-          }
-          if (Il2CppMethodInitialized_184345e97 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_15_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-            Il2CppMethodInitialized_184345e97 = '\x01';
-          }
-          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_15_0
-          ;
-          goto label_181fcfa7a;
+    }
+    else if (uVar2 == 0xaaf50d6c) {
+      bVar1 = System_String__op_Equality(name,"Polish",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Polish
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0xad70bf21) {
       bVar1 = System_String__op_Equality(name,"Korean",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e96 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_14_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e96 = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_14_0
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Korean
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0xb297e9d1) {
       bVar1 = System_String__op_Equality(name,"Dutch",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e8e == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_6_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e8e = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_6_0
-        ;
-        goto label_181fcfa7a;
-      }
-    }
-    else if (uVar2 == 0xb819825b) {
-      bVar1 = System_String__op_Equality(name,"Spanish",(MethodInfo *)0x0);
-      if (bVar1) {
-        if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
-        }
-        if (Il2CppMethodInitialized_184345e99 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_17_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e99 = '\x01';
-        }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_17_0
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Dutch
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
   }
   else if (uVar2 < 0xc1122286) {
-    if (uVar2 == 0xb94e7b5b) {
-      bVar1 = System_String__op_Equality(name,"Turkish",(MethodInfo *)0x0);
+    if (uVar2 == 0xb819825b) {
+      bVar1 = System_String__op_Equality(name,"Spanish",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e9b == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_19_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e9b = '\x01';
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Spanish
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+    else if (uVar2 == 0xb94e7b5b) {
+      bVar1 = System_String__op_Equality(name,"Turkish",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_19_0
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Turkish
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0xc1122285) {
       bVar1 = System_String__op_Equality(name,"Indonesian",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        if (Il2CppMethodInitialized_184345e93 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_11
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-          Il2CppMethodInitialized_184345e93 = '\x01';
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Indonesian
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+  }
+  else if (uVar2 < 0xd7e15c2a) {
+    if (uVar2 == 0xd5499884) {
+      bVar1 = System_String__op_Equality(name,"BrazilianPortuguese",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
         }
-        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object)
-        ;
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_11
-        ;
-        goto label_181fcfa7a;
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__BrazilianPortuguese
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
-  }
-  else if (uVar2 == 0xd5499884) {
-    bVar1 = System_String__op_Equality(name,"BrazilianPortuguese",(MethodInfo *)0x0);
-    if (bVar1) {
-      if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+    else if (uVar2 == 0xd7e15c29) {
+      bVar1 = System_String__op_Equality(name,"Arabic",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+        }
+        pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Arabic
+                           ((MethodInfo *)pCVar5);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
-      if (Il2CppMethodInitialized_184345e8b == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__BrazilianPortuguese_g____g
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-        Il2CppMethodInitialized_184345e8b = '\x01';
-      }
-      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-      pMVar4 = 
-      MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__BrazilianPortuguese_g____g
-      ;
-label_181fcfa7a:
-      System_Func_object__object____ctor
-                (__this,(Il2CppObject *)0x0,(intptr_t)pMVar4,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
-                 (System_Action_T__object__o *)0x0,
-                 (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-      return (CustomLogic_ICLMemberBinding_o *)__this_00;
-    }
-  }
-  else if (uVar2 == 0xd7e15c29) {
-    bVar1 = System_String__op_Equality(name,"Arabic",(MethodInfo *)0x0);
-    if (bVar1) {
-      if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
-      }
-      if (Il2CppMethodInitialized_184345e8a == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Arabic_g____getter_2_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-        Il2CppMethodInitialized_184345e8a = '\x01';
-      }
-      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-      pMVar4 = 
-      MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Arabic_g____getter_2_0;
-      goto label_181fcfa7a;
     }
   }
   else if (uVar2 == 0xf039952b) {
     bVar1 = System_String__op_Equality(name,"Italian",(MethodInfo *)0x0);
     if (bVar1) {
+      pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
       if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init
                   ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
       }
-      if (Il2CppMethodInitialized_184345e94 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_12_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-        Il2CppMethodInitialized_184345e94 = '\x01';
-      }
-      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-      pMVar4 = 
-      MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_12_0
-      ;
-      goto label_181fcfa7a;
+      pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Italian
+                         ((MethodInfo *)pCVar5);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
     }
   }
-label_181fcfabc:
-  pSVar3 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicLanguageEnum not found");
-  str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
-  pSVar3 = System_String__Concat_1969b70(str0,name,pSVar3,(MethodInfo *)0x0);
+  else if (uVar2 == 0xf1231814) {
+    bVar1 = System_String__op_Equality(name,"Finnish",(MethodInfo *)0x0);
+    if (bVar1) {
+      pCVar5 = TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings;
+      if ((TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
+      }
+      pCVar3 = CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Finnish
+                         ((MethodInfo *)pCVar5);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+    }
+  }
+  pSVar4 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  str2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicLanguageEnum not found");
+  pSVar4 = System_String__Concat_5301f10(pSVar4,name,str2,(MethodInfo *)0x0);
   klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-  __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  System_Exception___ctor_1b6abf0(__this_01,pSVar3,(MethodInfo *)0x0);
-  pMVar4 = il2cpp_codegen_get_runtime_metadata
-                     (&MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings_CreateMemberBinding);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,pMVar4);
+  __this = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_54fa440(__this,pSVar4,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Arabic
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Arabic (const MethodInfo* method);
-// 0x181fdf380
+// 0x5a92cf0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Arabic(MethodInfo *method)
@@ -680,7 +471,7 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Arabic(Me
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8a == '\0') {
+  if (Il2CppMethodInitialized_075467f8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Arabic_g____getter_2_0
@@ -690,27 +481,27 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Arabic(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8a = '\x01';
+    Il2CppMethodInitialized_075467f8 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Arabic_g____getter_2_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__BrazilianPortuguese
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__BrazilianPortuguese (const MethodInfo* method);
-// 0x181fe0820
+// 0x5a92d90
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__BrazilianPortuguese(MethodInfo *method)
@@ -719,7 +510,7 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Brazilian
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8b == '\0') {
+  if (Il2CppMethodInitialized_075467f9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__BrazilianPortuguese_g____g
@@ -729,27 +520,66 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Brazilian
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8b = '\x01';
+    Il2CppMethodInitialized_075467f9 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__BrazilianPortuguese_g____g
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Catalan
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Catalan (const MethodInfo* method);
+// 0x5a92e30
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Catalan(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_075467fa == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Catalan_g____getter_4_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_075467fa = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Catalan_g____getter_4_0
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Chinese
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Chinese (const MethodInfo* method);
-// 0x181fe0b40
+// 0x5a92ed0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Chinese(MethodInfo *method)
@@ -758,37 +588,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Chinese(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8c == '\0') {
+  if (Il2CppMethodInitialized_075467fb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_4_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_5_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8c = '\x01';
+    Il2CppMethodInitialized_075467fb = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_4_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Chinese_g____getter_5_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Czech
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Czech (const MethodInfo* method);
-// 0x181fe1040
+// 0x5a92f70
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Czech(MethodInfo *method)
@@ -797,37 +627,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Czech(Met
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8d == '\0') {
+  if (Il2CppMethodInitialized_075467fc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_5_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_6_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8d = '\x01';
+    Il2CppMethodInitialized_075467fc = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_5_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Czech_g____getter_6_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Dutch
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Dutch (const MethodInfo* method);
-// 0x181fe1540
+// 0x5a93010
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Dutch(MethodInfo *method)
@@ -836,37 +666,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Dutch(Met
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8e == '\0') {
+  if (Il2CppMethodInitialized_075467fd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_6_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_7_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8e = '\x01';
+    Il2CppMethodInitialized_075467fd = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_6_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Dutch_g____getter_7_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__English
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__English (const MethodInfo* method);
-// 0x181fe1b80
+// 0x5a930b0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__English(MethodInfo *method)
@@ -875,37 +705,76 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__English(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e8f == '\0') {
+  if (Il2CppMethodInitialized_075467fe == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_7_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_8_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e8f = '\x01';
+    Il2CppMethodInitialized_075467fe = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_7_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__English_g____getter_8_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Finnish
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Finnish (const MethodInfo* method);
+// 0x5a93150
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Finnish(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_075467ff == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Finnish_g____getter_9_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_075467ff = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Finnish_g____getter_9_0
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__French
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__French (const MethodInfo* method);
-// 0x181fe2f80
+// 0x5a931f0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__French(MethodInfo *method)
@@ -914,37 +783,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__French(Me
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e90 == '\0') {
+  if (Il2CppMethodInitialized_07546800 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_8_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_10_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e90 = '\x01';
+    Il2CppMethodInitialized_07546800 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_8_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__French_g____getter_10_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__German
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__German (const MethodInfo* method);
-// 0x181fe3200
+// 0x5a93290
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__German(MethodInfo *method)
@@ -953,37 +822,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__German(Me
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e91 == '\0') {
+  if (Il2CppMethodInitialized_07546801 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_9_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_11_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e91 = '\x01';
+    Il2CppMethodInitialized_07546801 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_9_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__German_g____getter_11_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Greek
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Greek (const MethodInfo* method);
-// 0x181fe3340
+// 0x5a93330
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Greek(MethodInfo *method)
@@ -992,37 +861,76 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Greek(Met
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e92 == '\0') {
+  if (Il2CppMethodInitialized_07546802 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_10_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_12_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e92 = '\x01';
+    Il2CppMethodInitialized_07546802 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_10_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Greek_g____getter_12_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Hungarian
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Hungarian (const MethodInfo* method);
+// 0x5a933d0
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Hungarian(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_07546803 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Hungarian_g____getter_13_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_07546803 = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Hungarian_g____getter_13_0
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Indonesian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Indonesian (const MethodInfo* method);
-// 0x181fe4240
+// 0x5a93470
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Indonesian(MethodInfo *method)
@@ -1031,37 +939,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Indonesia
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e93 == '\0') {
+  if (Il2CppMethodInitialized_07546804 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_11
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_14
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e93 = '\x01';
+    Il2CppMethodInitialized_07546804 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_11
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Indonesian_g____getter_14
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Italian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Italian (const MethodInfo* method);
-// 0x181fe4380
+// 0x5a93510
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Italian(MethodInfo *method)
@@ -1070,37 +978,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Italian(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e94 == '\0') {
+  if (Il2CppMethodInitialized_07546805 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_12_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_15_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e94 = '\x01';
+    Il2CppMethodInitialized_07546805 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_12_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Italian_g____getter_15_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Japanese
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Japanese (const MethodInfo* method);
-// 0x181fe4420
+// 0x5a935b0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Japanese(MethodInfo *method)
@@ -1109,37 +1017,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Japanese(
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e95 == '\0') {
+  if (Il2CppMethodInitialized_07546806 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_13_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_16_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e95 = '\x01';
+    Il2CppMethodInitialized_07546806 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_13_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Japanese_g____getter_16_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Korean
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Korean (const MethodInfo* method);
-// 0x181fe49c0
+// 0x5a93650
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Korean(MethodInfo *method)
@@ -1148,37 +1056,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Korean(Me
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e96 == '\0') {
+  if (Il2CppMethodInitialized_07546807 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_14_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_17_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e96 = '\x01';
+    Il2CppMethodInitialized_07546807 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_14_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Korean_g____getter_17_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Polish
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Polish (const MethodInfo* method);
-// 0x181fe6680
+// 0x5a936f0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Polish(MethodInfo *method)
@@ -1187,37 +1095,76 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Polish(Me
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e97 == '\0') {
+  if (Il2CppMethodInitialized_07546808 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_15_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_18_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e97 = '\x01';
+    Il2CppMethodInitialized_07546808 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_15_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Polish_g____getter_18_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Romanian
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Romanian (const MethodInfo* method);
+// 0x5a93790
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Romanian(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_07546809 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Romanian_g____getter_19_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_07546809 = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Romanian_g____getter_19_0
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Russian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Russian (const MethodInfo* method);
-// 0x181fe6cc0
+// 0x5a93830
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Russian(MethodInfo *method)
@@ -1226,37 +1173,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Russian(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e98 == '\0') {
+  if (Il2CppMethodInitialized_0754680a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_16_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_20_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e98 = '\x01';
+    Il2CppMethodInitialized_0754680a = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_16_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Russian_g____getter_20_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Spanish
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Spanish (const MethodInfo* method);
-// 0x181fe76c0
+// 0x5a938d0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Spanish(MethodInfo *method)
@@ -1265,37 +1212,76 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Spanish(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e99 == '\0') {
+  if (Il2CppMethodInitialized_0754680b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_17_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_21_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e99 = '\x01';
+    Il2CppMethodInitialized_0754680b = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_17_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Spanish_g____getter_21_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Thai
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Thai (const MethodInfo* method);
+// 0x5a93970
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Thai(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_0754680c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Thai_g____getter_22_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_0754680c = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Thai_g____getter_22_0
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__TraditionalChinese
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__TraditionalChinese (const MethodInfo* method);
-// 0x181fe8c00
+// 0x5a93a10
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__TraditionalChinese(MethodInfo *method)
@@ -1304,7 +1290,7 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Tradition
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e9a == '\0') {
+  if (Il2CppMethodInitialized_0754680d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__TraditionalChinese_g____ge
@@ -1314,27 +1300,27 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Tradition
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e9a = '\x01';
+    Il2CppMethodInitialized_0754680d = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__TraditionalChinese_g____ge
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Turkish
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Turkish (const MethodInfo* method);
-// 0x181fe8d40
+// 0x5a93ab0
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Turkish(MethodInfo *method)
@@ -1343,37 +1329,37 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Turkish(M
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e9b == '\0') {
+  if (Il2CppMethodInitialized_0754680e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_19_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_24_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e9b = '\x01';
+    Il2CppMethodInitialized_0754680e = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_19_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Turkish_g____getter_24_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Ukrainian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Ukrainian (const MethodInfo* method);
-// 0x181fe8e80
+// 0x5a93b50
 
 CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
 CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Ukrainian(MethodInfo *method)
@@ -1382,55 +1368,98 @@ CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Ukrainian
   System_Func_CustomLogicLanguageEnum__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345e9c == '\0') {
+  if (Il2CppMethodInitialized_0754680f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_20_0
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_25_0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
-    Il2CppMethodInitialized_184345e9c = '\x01';
+    Il2CppMethodInitialized_0754680f = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
-             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_20_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Ukrainian_g____getter_25_0
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+  return __this_00;
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$__CreatePropertyBinding__Vietnamese
+// il2cpp: CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o* CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Vietnamese (const MethodInfo* method);
+// 0x5a93bf0
+
+CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *
+CustomLogic_CustomLogicLanguageEnum_Bindings____CreatePropertyBinding__Vietnamese(MethodInfo *method)
+
+{
+  System_Func_CustomLogicLanguageEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum__o *__this_00;
+  
+  if (Il2CppMethodInitialized_07546810 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Vietnamese_g____getter_26
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+    Il2CppMethodInitialized_07546810 = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicLanguageEnum_object);
+  System_Func_object__object____ctor
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicLanguageEnum_Bindings___CreatePropertyBinding__Vietnamese_g____getter_26
+             ,(MethodInfo_4F19B50 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicLanguageEnum_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicLanguageEnum_Bindings___cctor (const MethodInfo* method);
-// 0x181fec860
+// 0x5a93c90
 
 void CustomLogic_CustomLogicLanguageEnum_Bindings___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_184345e9d == '\0') {
+  if (Il2CppMethodInitialized_07546811 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"Romanian");
     il2cpp_codegen_initialize_runtime_metadata(&"Czech");
     il2cpp_codegen_initialize_runtime_metadata(&"Turkish");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hungarian");
     il2cpp_codegen_initialize_runtime_metadata(&"Russian");
     il2cpp_codegen_initialize_runtime_metadata(&"Spanish");
     il2cpp_codegen_initialize_runtime_metadata(&"TraditionalChinese");
     il2cpp_codegen_initialize_runtime_metadata(&"Italian");
     il2cpp_codegen_initialize_runtime_metadata(&"Japanese");
+    il2cpp_codegen_initialize_runtime_metadata(&"Catalan");
+    il2cpp_codegen_initialize_runtime_metadata(&"Finnish");
     il2cpp_codegen_initialize_runtime_metadata(&"German");
     il2cpp_codegen_initialize_runtime_metadata(&"BrazilianPortuguese");
     il2cpp_codegen_initialize_runtime_metadata(&"Indonesian");
@@ -1438,402 +1467,551 @@ void CustomLogic_CustomLogicLanguageEnum_Bindings___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"Chinese");
     il2cpp_codegen_initialize_runtime_metadata(&"Polish");
     il2cpp_codegen_initialize_runtime_metadata(&"Arabic");
+    il2cpp_codegen_initialize_runtime_metadata(&"Thai");
     il2cpp_codegen_initialize_runtime_metadata(&"Ukrainian");
+    il2cpp_codegen_initialize_runtime_metadata(&"Vietnamese");
     il2cpp_codegen_initialize_runtime_metadata(&"English");
     il2cpp_codegen_initialize_runtime_metadata(&"Korean");
     il2cpp_codegen_initialize_runtime_metadata(&"Greek");
     il2cpp_codegen_initialize_runtime_metadata(&"French");
-    Il2CppMethodInitialized_184345e9d = '\x01';
+    Il2CppMethodInitialized_07546811 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Arabic",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"BrazilianPortuguese",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Chinese",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Czech",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Dutch",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"English",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"French",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"German",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Greek",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Indonesian",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Italian",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Japanese",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Korean",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Polish",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Russian",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Spanish",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"TraditionalChinese",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Turkish",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Ukrainian",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->static_fields->MemberNames = __this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->static_fields->MemberNames,__this);
-    return;
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Arabic",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"BrazilianPortuguese",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Catalan",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Chinese",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Czech",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Dutch",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"English",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Finnish",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"French",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"German",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Greek",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Hungarian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Indonesian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Italian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Japanese",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Korean",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Polish",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Romanian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Russian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Spanish",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Thai",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"TraditionalChinese",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Turkish",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Ukrainian",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Vietnamese",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->static_fields->MemberNames = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicLanguageEnum_Bindings->static_fields->MemberNames);
+  return;
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Arabic>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Arabic_g____getter_2_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdaec0
+// 0x5a94080
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Arabic_g____getter_2_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Arabic_g____getter_2_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e74 == '\0') {
+  if (Il2CppMethodInitialized_075467dc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9");
-    Il2CppMethodInitialized_184345e74 = '\x01';
+    Il2CppMethodInitialized_075467dc = '\x01';
   }
-  return "\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9";
+  return (Il2CppObject *)"\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9";
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__BrazilianPortuguese>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__BrazilianPortuguese_g____getter_3_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdbe40
+// 0x5a940b0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__BrazilianPortuguese_g____getter_3_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__BrazilianPortuguese_g____getter_3_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e75 == '\0') {
+  if (Il2CppMethodInitialized_075467dd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"PT-BR");
-    Il2CppMethodInitialized_184345e75 = '\x01';
+    Il2CppMethodInitialized_075467dd = '\x01';
   }
-  return "PT-BR";
+  return (Il2CppObject *)"PT-BR";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Chinese>g____getter|4_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Chinese_g____getter_4_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdbf20
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Catalan>g____getter|4_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Catalan_g____getter_4_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a940e0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Chinese_g____getter_4_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Catalan_g____getter_4_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e76 == '\0') {
+  if (Il2CppMethodInitialized_075467de == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Catal\xc3\xa0");
+    Il2CppMethodInitialized_075467de = '\x01';
+  }
+  return (Il2CppObject *)"Catal\xc3\xa0";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Chinese>g____getter|5_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Chinese_g____getter_5_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94110
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Chinese_g____getter_5_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467df == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe7\xae\x80\xe4\xbd\x93\xe4\xb8\xad\xe6\x96\x87");
-    Il2CppMethodInitialized_184345e76 = '\x01';
+    Il2CppMethodInitialized_075467df = '\x01';
   }
-  return "\xe7\xae\x80\xe4\xbd\x93\xe4\xb8\xad\xe6\x96\x87";
+  return (Il2CppObject *)"\xe7\xae\x80\xe4\xbd\x93\xe4\xb8\xad\xe6\x96\x87";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Czech>g____getter|5_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Czech_g____getter_5_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdc110
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Czech>g____getter|6_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Czech_g____getter_6_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94140
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Czech_g____getter_5_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Czech_g____getter_6_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e77 == '\0') {
+  if (Il2CppMethodInitialized_075467e0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xc4\x8ce\xc5\xa1tina");
-    Il2CppMethodInitialized_184345e77 = '\x01';
+    Il2CppMethodInitialized_075467e0 = '\x01';
   }
-  return "\xc4\x8ce\xc5\xa1tina";
+  return (Il2CppObject *)"\xc4\x8ce\xc5\xa1tina";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Dutch>g____getter|6_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Dutch_g____getter_6_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdc250
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Dutch>g____getter|7_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Dutch_g____getter_7_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94170
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Dutch_g____getter_6_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Dutch_g____getter_7_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e78 == '\0') {
+  if (Il2CppMethodInitialized_075467e1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Dutch");
-    Il2CppMethodInitialized_184345e78 = '\x01';
+    Il2CppMethodInitialized_075467e1 = '\x01';
   }
-  return "Dutch";
+  return (Il2CppObject *)"Dutch";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__English>g____getter|7_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__English_g____getter_7_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdc400
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__English>g____getter|8_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__English_g____getter_8_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a941a0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__English_g____getter_7_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__English_g____getter_8_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e79 == '\0') {
+  if (Il2CppMethodInitialized_075467e2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"English");
-    Il2CppMethodInitialized_184345e79 = '\x01';
+    Il2CppMethodInitialized_075467e2 = '\x01';
   }
-  return "English";
+  return (Il2CppObject *)"English";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__French>g____getter|8_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__French_g____getter_8_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdc9e0
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Finnish>g____getter|9_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Finnish_g____getter_9_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a941d0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__French_g____getter_8_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Finnish_g____getter_9_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7a == '\0') {
+  if (Il2CppMethodInitialized_075467e3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Suomi");
+    Il2CppMethodInitialized_075467e3 = '\x01';
+  }
+  return (Il2CppObject *)"Suomi";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__French>g____getter|10_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__French_g____getter_10_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94200
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__French_g____getter_10_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467e4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Fran\xc3\xa7ais");
-    Il2CppMethodInitialized_184345e7a = '\x01';
+    Il2CppMethodInitialized_075467e4 = '\x01';
   }
-  return "Fran\xc3\xa7ais";
+  return (Il2CppObject *)"Fran\xc3\xa7ais";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__German>g____getter|9_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__German_g____getter_9_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdcaa0
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__German>g____getter|11_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__German_g____getter_11_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94230
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__German_g____getter_9_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__German_g____getter_11_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7b == '\0') {
+  if (Il2CppMethodInitialized_075467e5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Deutsch");
-    Il2CppMethodInitialized_184345e7b = '\x01';
+    Il2CppMethodInitialized_075467e5 = '\x01';
   }
-  return "Deutsch";
+  return (Il2CppObject *)"Deutsch";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Greek>g____getter|10_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Greek_g____getter_10_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdcb00
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Greek>g____getter|12_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Greek_g____getter_12_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94260
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Greek_g____getter_10_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Greek_g____getter_12_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7c == '\0') {
+  if (Il2CppMethodInitialized_075467e6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac");
-    Il2CppMethodInitialized_184345e7c = '\x01';
+    Il2CppMethodInitialized_075467e6 = '\x01';
   }
-  return "\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac";
+  return (Il2CppObject *)"\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Indonesian>g____getter|11_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Indonesian_g____getter_11_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdd100
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Hungarian>g____getter|13_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Hungarian_g____getter_13_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94290
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Indonesian_g____getter_11_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Hungarian_g____getter_13_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7d == '\0') {
+  if (Il2CppMethodInitialized_075467e7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Magyar");
+    Il2CppMethodInitialized_075467e7 = '\x01';
+  }
+  return (Il2CppObject *)"Magyar";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Indonesian>g____getter|14_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Indonesian_g____getter_14_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a942c0
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Indonesian_g____getter_14_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467e8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Indonesian");
-    Il2CppMethodInitialized_184345e7d = '\x01';
+    Il2CppMethodInitialized_075467e8 = '\x01';
   }
-  return "Indonesian";
+  return (Il2CppObject *)"Indonesian";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Italian>g____getter|12_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Italian_g____getter_12_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdd160
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Italian>g____getter|15_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Italian_g____getter_15_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a942f0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Italian_g____getter_12_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Italian_g____getter_15_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7e == '\0') {
+  if (Il2CppMethodInitialized_075467e9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Italiano");
-    Il2CppMethodInitialized_184345e7e = '\x01';
+    Il2CppMethodInitialized_075467e9 = '\x01';
   }
-  return "Italiano";
+  return (Il2CppObject *)"Italiano";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Japanese>g____getter|13_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Japanese_g____getter_13_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdd190
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Japanese>g____getter|16_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Japanese_g____getter_16_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94320
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Japanese_g____getter_13_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Japanese_g____getter_16_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7f == '\0') {
+  if (Il2CppMethodInitialized_075467ea == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e");
-    Il2CppMethodInitialized_184345e7f = '\x01';
+    Il2CppMethodInitialized_075467ea = '\x01';
   }
-  return "\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e";
+  return (Il2CppObject *)"\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Korean>g____getter|14_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Korean_g____getter_14_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fdd400
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Korean>g____getter|17_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Korean_g____getter_17_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94350
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Korean_g____getter_14_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Korean_g____getter_17_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e80 == '\0') {
+  if (Il2CppMethodInitialized_075467eb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4");
-    Il2CppMethodInitialized_184345e80 = '\x01';
+    Il2CppMethodInitialized_075467eb = '\x01';
   }
-  return "\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4";
+  return (Il2CppObject *)"\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Polish>g____getter|15_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Polish_g____getter_15_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fddd30
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Polish>g____getter|18_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Polish_g____getter_18_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94380
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Polish_g____getter_15_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Polish_g____getter_18_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e81 == '\0') {
+  if (Il2CppMethodInitialized_075467ec == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Polski");
-    Il2CppMethodInitialized_184345e81 = '\x01';
+    Il2CppMethodInitialized_075467ec = '\x01';
   }
-  return "Polski";
+  return (Il2CppObject *)"Polski";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Russian>g____getter|16_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Russian_g____getter_16_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fddf20
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Romanian>g____getter|19_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Romanian_g____getter_19_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a943b0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Russian_g____getter_16_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Romanian_g____getter_19_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e82 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&"Russian");
-    Il2CppMethodInitialized_184345e82 = '\x01';
+  if (Il2CppMethodInitialized_075467ed == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Rom\xc3\xa2n\xc4\x83");
+    Il2CppMethodInitialized_075467ed = '\x01';
   }
-  return "Russian";
+  return (Il2CppObject *)"Rom\xc3\xa2n\xc4\x83";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Spanish>g____getter|17_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Spanish_g____getter_17_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fde1e0
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Russian>g____getter|20_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Russian_g____getter_20_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a943e0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Spanish_g____getter_17_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Russian_g____getter_20_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e83 == '\0') {
+  if (Il2CppMethodInitialized_075467ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"\xd0\xa0\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9");
+    Il2CppMethodInitialized_075467ee = '\x01';
+  }
+  return (Il2CppObject *)"\xd0\xa0\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Spanish>g____getter|21_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Spanish_g____getter_21_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94410
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Spanish_g____getter_21_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467ef == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Espa\xc3\xb1ol");
-    Il2CppMethodInitialized_184345e83 = '\x01';
+    Il2CppMethodInitialized_075467ef = '\x01';
   }
-  return "Espa\xc3\xb1ol";
+  return (Il2CppObject *)"Espa\xc3\xb1ol";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__TraditionalChinese>g____getter|18_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__TraditionalChinese_g____getter_18_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fde900
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Thai>g____getter|22_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Thai_g____getter_22_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94440
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__TraditionalChinese_g____getter_18_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Thai_g____getter_22_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e84 == '\0') {
+  if (Il2CppMethodInitialized_075467f0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2");
+    Il2CppMethodInitialized_075467f0 = '\x01';
+  }
+  return (Il2CppObject *)"\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__TraditionalChinese>g____getter|23_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__TraditionalChinese_g____getter_23_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94470
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__TraditionalChinese_g____getter_23_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467f1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe7\xb9\x81\xe9\xab\x94\xe4\xb8\xad\xe6\x96\x87");
-    Il2CppMethodInitialized_184345e84 = '\x01';
+    Il2CppMethodInitialized_075467f1 = '\x01';
   }
-  return "\xe7\xb9\x81\xe9\xab\x94\xe4\xb8\xad\xe6\x96\x87";
+  return (Il2CppObject *)"\xe7\xb9\x81\xe9\xab\x94\xe4\xb8\xad\xe6\x96\x87";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Turkish>g____getter|19_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Turkish_g____getter_19_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fde930
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Turkish>g____getter|24_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Turkish_g____getter_24_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a944a0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Turkish_g____getter_19_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Turkish_g____getter_24_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e85 == '\0') {
+  if (Il2CppMethodInitialized_075467f2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"T\xc3\xbcrk\xc3\xa7e");
-    Il2CppMethodInitialized_184345e85 = '\x01';
+    Il2CppMethodInitialized_075467f2 = '\x01';
   }
-  return "T\xc3\xbcrk\xc3\xa7e";
+  return (Il2CppObject *)"T\xc3\xbcrk\xc3\xa7e";
 }
 
 
-// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Ukrainian>g____getter|20_0
-// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Ukrainian_g____getter_20_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
-// 0x181fde960
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Ukrainian>g____getter|25_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Ukrainian_g____getter_25_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a944d0
 
-Il2CppObject*
-CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Ukrainian_g____getter_20_0(CustomLogic_CustomLogicLanguageEnum_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Ukrainian_g____getter_25_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e86 == '\0') {
+  if (Il2CppMethodInitialized_075467f3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0");
-    Il2CppMethodInitialized_184345e86 = '\x01';
+    Il2CppMethodInitialized_075467f3 = '\x01';
   }
-  return "\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0";
+  return (Il2CppObject *)"\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0";
+}
+
+
+// CustomLogic.CustomLogicLanguageEnum.Bindings$$<__CreatePropertyBinding__Vietnamese>g____getter|26_0
+// il2cpp: Il2CppObject* CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Vietnamese_g____getter_26_0 (CustomLogic_CustomLogicLanguageEnum_o* __i, const MethodInfo* method);
+// 0x5a94500
+
+Il2CppObject *
+CustomLogic_CustomLogicLanguageEnum_Bindings_____CreatePropertyBinding__Vietnamese_g____getter_26_0
+          (CustomLogic_CustomLogicLanguageEnum_o *__i,MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467f4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Ti\xe1\xba\xbfng Vi\xe1\xbb\x87t");
+    Il2CppMethodInitialized_075467f4 = '\x01';
+  }
+  return (Il2CppObject *)"Ti\xe1\xba\xbfng Vi\xe1\xbb\x87t";
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum$$.ctor
 // il2cpp: void CustomLogic_CustomLogicLanguageEnum___ctor (CustomLogic_CustomLogicLanguageEnum_o* __this, const MethodInfo* method);
-// 0x181fedfd0
+// 0x5a91ce0
 
 void CustomLogic_CustomLogicLanguageEnum___ctor
                (CustomLogic_CustomLogicLanguageEnum_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e73 == '\0') {
+  uint32_t uVar1;
+  
+  if (Il2CppMethodInitialized_075467db == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_184345e73 = '\x01';
+    Il2CppMethodInitialized_075467db = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
+    return;
   }
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
@@ -1842,14 +2020,14 @@ void CustomLogic_CustomLogicLanguageEnum___ctor
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Arabic
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Arabic (const MethodInfo* method);
-// 0x181fdaec0
+// 0x5a91d50
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Arabic(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e74 == '\0') {
+  if (Il2CppMethodInitialized_075467dc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9");
-    Il2CppMethodInitialized_184345e74 = '\x01';
+    Il2CppMethodInitialized_075467dc = '\x01';
   }
   return "\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9";
 }
@@ -1857,29 +2035,44 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Arabic(MethodInfo *me
 
 // CustomLogic.CustomLogicLanguageEnum$$get_BrazilianPortuguese
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_BrazilianPortuguese (const MethodInfo* method);
-// 0x181fdbe40
+// 0x5a91d80
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_BrazilianPortuguese(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e75 == '\0') {
+  if (Il2CppMethodInitialized_075467dd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"PT-BR");
-    Il2CppMethodInitialized_184345e75 = '\x01';
+    Il2CppMethodInitialized_075467dd = '\x01';
   }
   return "PT-BR";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Catalan
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Catalan (const MethodInfo* method);
+// 0x5a91db0
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Catalan(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467de == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Catal\xc3\xa0");
+    Il2CppMethodInitialized_075467de = '\x01';
+  }
+  return "Catal\xc3\xa0";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_Chinese
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Chinese (const MethodInfo* method);
-// 0x181fdbf20
+// 0x5a91de0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Chinese(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e76 == '\0') {
+  if (Il2CppMethodInitialized_075467df == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe7\xae\x80\xe4\xbd\x93\xe4\xb8\xad\xe6\x96\x87");
-    Il2CppMethodInitialized_184345e76 = '\x01';
+    Il2CppMethodInitialized_075467df = '\x01';
   }
   return "\xe7\xae\x80\xe4\xbd\x93\xe4\xb8\xad\xe6\x96\x87";
 }
@@ -1887,14 +2080,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Chinese(MethodInfo *m
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Czech
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Czech (const MethodInfo* method);
-// 0x181fdc110
+// 0x5a91e10
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Czech(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e77 == '\0') {
+  if (Il2CppMethodInitialized_075467e0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xc4\x8ce\xc5\xa1tina");
-    Il2CppMethodInitialized_184345e77 = '\x01';
+    Il2CppMethodInitialized_075467e0 = '\x01';
   }
   return "\xc4\x8ce\xc5\xa1tina";
 }
@@ -1902,14 +2095,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Czech(MethodInfo *met
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Dutch
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Dutch (const MethodInfo* method);
-// 0x181fdc250
+// 0x5a91e40
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Dutch(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e78 == '\0') {
+  if (Il2CppMethodInitialized_075467e1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Dutch");
-    Il2CppMethodInitialized_184345e78 = '\x01';
+    Il2CppMethodInitialized_075467e1 = '\x01';
   }
   return "Dutch";
 }
@@ -1917,29 +2110,44 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Dutch(MethodInfo *met
 
 // CustomLogic.CustomLogicLanguageEnum$$get_English
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_English (const MethodInfo* method);
-// 0x181fdc400
+// 0x5a91e70
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_English(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e79 == '\0') {
+  if (Il2CppMethodInitialized_075467e2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"English");
-    Il2CppMethodInitialized_184345e79 = '\x01';
+    Il2CppMethodInitialized_075467e2 = '\x01';
   }
   return "English";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Finnish
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Finnish (const MethodInfo* method);
+// 0x5a91ea0
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Finnish(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467e3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Suomi");
+    Il2CppMethodInitialized_075467e3 = '\x01';
+  }
+  return "Suomi";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_French
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_French (const MethodInfo* method);
-// 0x181fdc9e0
+// 0x5a91ed0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_French(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7a == '\0') {
+  if (Il2CppMethodInitialized_075467e4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Fran\xc3\xa7ais");
-    Il2CppMethodInitialized_184345e7a = '\x01';
+    Il2CppMethodInitialized_075467e4 = '\x01';
   }
   return "Fran\xc3\xa7ais";
 }
@@ -1947,14 +2155,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_French(MethodInfo *me
 
 // CustomLogic.CustomLogicLanguageEnum$$get_German
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_German (const MethodInfo* method);
-// 0x181fdcaa0
+// 0x5a91f00
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_German(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7b == '\0') {
+  if (Il2CppMethodInitialized_075467e5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Deutsch");
-    Il2CppMethodInitialized_184345e7b = '\x01';
+    Il2CppMethodInitialized_075467e5 = '\x01';
   }
   return "Deutsch";
 }
@@ -1962,29 +2170,44 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_German(MethodInfo *me
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Greek
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Greek (const MethodInfo* method);
-// 0x181fdcb00
+// 0x5a91f30
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Greek(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7c == '\0') {
+  if (Il2CppMethodInitialized_075467e6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac");
-    Il2CppMethodInitialized_184345e7c = '\x01';
+    Il2CppMethodInitialized_075467e6 = '\x01';
   }
   return "\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Hungarian
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Hungarian (const MethodInfo* method);
+// 0x5a91f60
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Hungarian(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467e7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Magyar");
+    Il2CppMethodInitialized_075467e7 = '\x01';
+  }
+  return "Magyar";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_Indonesian
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Indonesian (const MethodInfo* method);
-// 0x181fdd100
+// 0x5a91f90
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Indonesian(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7d == '\0') {
+  if (Il2CppMethodInitialized_075467e8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Indonesian");
-    Il2CppMethodInitialized_184345e7d = '\x01';
+    Il2CppMethodInitialized_075467e8 = '\x01';
   }
   return "Indonesian";
 }
@@ -1992,14 +2215,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Indonesian(MethodInfo
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Italian
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Italian (const MethodInfo* method);
-// 0x181fdd160
+// 0x5a91fc0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Italian(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7e == '\0') {
+  if (Il2CppMethodInitialized_075467e9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Italiano");
-    Il2CppMethodInitialized_184345e7e = '\x01';
+    Il2CppMethodInitialized_075467e9 = '\x01';
   }
   return "Italiano";
 }
@@ -2007,14 +2230,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Italian(MethodInfo *m
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Japanese
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Japanese (const MethodInfo* method);
-// 0x181fdd190
+// 0x5a91ff0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Japanese(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e7f == '\0') {
+  if (Il2CppMethodInitialized_075467ea == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e");
-    Il2CppMethodInitialized_184345e7f = '\x01';
+    Il2CppMethodInitialized_075467ea = '\x01';
   }
   return "\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e";
 }
@@ -2022,14 +2245,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Japanese(MethodInfo *
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Korean
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Korean (const MethodInfo* method);
-// 0x181fdd400
+// 0x5a92020
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Korean(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e80 == '\0') {
+  if (Il2CppMethodInitialized_075467eb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4");
-    Il2CppMethodInitialized_184345e80 = '\x01';
+    Il2CppMethodInitialized_075467eb = '\x01';
   }
   return "\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4";
 }
@@ -2037,59 +2260,89 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Korean(MethodInfo *me
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Polish
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Polish (const MethodInfo* method);
-// 0x181fddd30
+// 0x5a92050
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Polish(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e81 == '\0') {
+  if (Il2CppMethodInitialized_075467ec == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Polski");
-    Il2CppMethodInitialized_184345e81 = '\x01';
+    Il2CppMethodInitialized_075467ec = '\x01';
   }
   return "Polski";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Romanian
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Romanian (const MethodInfo* method);
+// 0x5a92080
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Romanian(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467ed == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Rom\xc3\xa2n\xc4\x83");
+    Il2CppMethodInitialized_075467ed = '\x01';
+  }
+  return "Rom\xc3\xa2n\xc4\x83";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_Russian
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Russian (const MethodInfo* method);
-// 0x181fddf20
+// 0x5a920b0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Russian(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e82 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&"Russian");
-    Il2CppMethodInitialized_184345e82 = '\x01';
+  if (Il2CppMethodInitialized_075467ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"\xd0\xa0\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9");
+    Il2CppMethodInitialized_075467ee = '\x01';
   }
-  return "Russian";
+  return "\xd0\xa0\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9";
 }
 
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Spanish
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Spanish (const MethodInfo* method);
-// 0x181fde1e0
+// 0x5a920e0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Spanish(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e83 == '\0') {
+  if (Il2CppMethodInitialized_075467ef == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Espa\xc3\xb1ol");
-    Il2CppMethodInitialized_184345e83 = '\x01';
+    Il2CppMethodInitialized_075467ef = '\x01';
   }
   return "Espa\xc3\xb1ol";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Thai
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Thai (const MethodInfo* method);
+// 0x5a92110
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Thai(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467f0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2");
+    Il2CppMethodInitialized_075467f0 = '\x01';
+  }
+  return "\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_TraditionalChinese
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_TraditionalChinese (const MethodInfo* method);
-// 0x181fde900
+// 0x5a92140
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_TraditionalChinese(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e84 == '\0') {
+  if (Il2CppMethodInitialized_075467f1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xe7\xb9\x81\xe9\xab\x94\xe4\xb8\xad\xe6\x96\x87");
-    Il2CppMethodInitialized_184345e84 = '\x01';
+    Il2CppMethodInitialized_075467f1 = '\x01';
   }
   return "\xe7\xb9\x81\xe9\xab\x94\xe4\xb8\xad\xe6\x96\x87";
 }
@@ -2097,14 +2350,14 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_TraditionalChinese(Me
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Turkish
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Turkish (const MethodInfo* method);
-// 0x181fde930
+// 0x5a92170
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Turkish(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e85 == '\0') {
+  if (Il2CppMethodInitialized_075467f2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"T\xc3\xbcrk\xc3\xa7e");
-    Il2CppMethodInitialized_184345e85 = '\x01';
+    Il2CppMethodInitialized_075467f2 = '\x01';
   }
   return "T\xc3\xbcrk\xc3\xa7e";
 }
@@ -2112,31 +2365,46 @@ System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Turkish(MethodInfo *m
 
 // CustomLogic.CustomLogicLanguageEnum$$get_Ukrainian
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Ukrainian (const MethodInfo* method);
-// 0x181fde960
+// 0x5a921a0
 
 System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Ukrainian(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e86 == '\0') {
+  if (Il2CppMethodInitialized_075467f3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0");
-    Il2CppMethodInitialized_184345e86 = '\x01';
+    Il2CppMethodInitialized_075467f3 = '\x01';
   }
   return "\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0";
 }
 
 
+// CustomLogic.CustomLogicLanguageEnum$$get_Vietnamese
+// il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_Vietnamese (const MethodInfo* method);
+// 0x5a921d0
+
+System_String_o * CustomLogic_CustomLogicLanguageEnum__get_Vietnamese(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_075467f4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Ti\xe1\xba\xbfng Vi\xe1\xbb\x87t");
+    Il2CppMethodInitialized_075467f4 = '\x01';
+  }
+  return "Ti\xe1\xba\xbfng Vi\xe1\xbb\x87t";
+}
+
+
 // CustomLogic.CustomLogicLanguageEnum$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicLanguageEnum__get_ClassName (CustomLogic_CustomLogicLanguageEnum_o* __this, const MethodInfo* method);
-// 0x181fee020
+// 0x5a92200
 
 System_String_o *
 CustomLogic_CustomLogicLanguageEnum__get_ClassName
           (CustomLogic_CustomLogicLanguageEnum_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345e87 == '\0') {
+  if (Il2CppMethodInitialized_075467f5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"LanguageEnum");
-    Il2CppMethodInitialized_184345e87 = '\x01';
+    Il2CppMethodInitialized_075467f5 = '\x01';
   }
   return "LanguageEnum";
 }
@@ -2144,10 +2412,10 @@ CustomLogic_CustomLogicLanguageEnum__get_ClassName
 
 // CustomLogic.CustomLogicLanguageEnum$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicLanguageEnum__get_IsAbstract (CustomLogic_CustomLogicLanguageEnum_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5a92230
 
-bool
-CustomLogic_CustomLogicLanguageEnum__get_IsAbstract(CustomLogic_CustomLogicLanguageEnum_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicLanguageEnum__get_IsAbstract
+               (CustomLogic_CustomLogicLanguageEnum_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -2156,10 +2424,10 @@ CustomLogic_CustomLogicLanguageEnum__get_IsAbstract(CustomLogic_CustomLogicLangu
 
 // CustomLogic.CustomLogicLanguageEnum$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicLanguageEnum__get_IsStatic (CustomLogic_CustomLogicLanguageEnum_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5a92240
 
-bool
-CustomLogic_CustomLogicLanguageEnum__get_IsStatic(CustomLogic_CustomLogicLanguageEnum_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicLanguageEnum__get_IsStatic
+               (CustomLogic_CustomLogicLanguageEnum_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -2168,10 +2436,10 @@ CustomLogic_CustomLogicLanguageEnum__get_IsStatic(CustomLogic_CustomLogicLanguag
 
 // CustomLogic.CustomLogicLanguageEnum$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicLanguageEnum__get_InheritBaseMembers (CustomLogic_CustomLogicLanguageEnum_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5a92250
 
-bool
-CustomLogic_CustomLogicLanguageEnum__get_InheritBaseMembers(CustomLogic_CustomLogicLanguageEnum_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicLanguageEnum__get_InheritBaseMembers
+               (CustomLogic_CustomLogicLanguageEnum_o *__this,MethodInfo *method)
 
 {
   return true;

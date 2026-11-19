@@ -88,7 +88,7 @@ public class ChatParameterCode
 	public const byte UniqueRoomId = 29;
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56A5710", Offset = "0x56A4710", VA = "0x56A5710")]
 	public ChatParameterCode()
 	{
 	}

@@ -41,7 +41,7 @@ internal class SerializedVirtualizationData
 	public float anchorOffset;
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6AA9A90", Offset = "0x6AA8A90", VA = "0x6AA9A90")]
 	public SerializedVirtualizationData()
 	{
 	}

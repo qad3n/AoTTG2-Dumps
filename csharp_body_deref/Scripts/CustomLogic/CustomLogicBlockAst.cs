@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003D5")]
+[Token(Token = "0x2000434")]
 internal class CustomLogicBlockAst : CustomLogicBaseAst
 {
-	[Token(Token = "0x40013E6")]
+	[Token(Token = "0x4001586")]
 	[FieldOffset(Offset = "0x18")]
 	public List<CustomLogicBaseAst> Statements;
 
-	[Token(Token = "0x60017F1")]
-	[Address(RVA = "0x1ECDAB0", Offset = "0x1ECC0B0", VA = "0x181ECDAB0")]
+	[Token(Token = "0x6001A68")]
+	[Address(RVA = "0x58A89D0", Offset = "0x58A79D0", VA = "0x58A89D0")]
 	public CustomLogicBlockAst(CustomLogicAstType type, int line)
 	{
 	}

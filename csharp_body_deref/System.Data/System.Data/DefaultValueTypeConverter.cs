@@ -15,20 +15,20 @@ namespace System.Data;
 internal sealed class DefaultValueTypeConverter : StringConverter
 {
 	[Token(Token = "0x60005CB")]
-	[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
+	[Address(RVA = "0x5EACA10", Offset = "0x5EABA10", VA = "0x5EACA10")]
 	public DefaultValueTypeConverter()
 	{
 	}
 
 	[Token(Token = "0x60005CC")]
-	[Address(RVA = "0x2511C30", Offset = "0x2510230", VA = "0x182511C30", Slot = "7")]
+	[Address(RVA = "0x5EACA20", Offset = "0x5EABA20", VA = "0x5EACA20", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005CD")]
-	[Address(RVA = "0x2511AC0", Offset = "0x25100C0", VA = "0x182511AC0", Slot = "6")]
+	[Address(RVA = "0x5EACBB0", Offset = "0x5EABBB0", VA = "0x5EACBB0", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;

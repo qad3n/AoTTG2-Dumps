@@ -11,39 +11,39 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000AB")]
+[Token(Token = "0x20000AC")]
 internal sealed class MethodCallExpression1 : MethodCallExpression, IArgumentProvider
 {
-	[Token(Token = "0x40001BC")]
+	[Token(Token = "0x40001C5")]
 	[FieldOffset(Offset = "0x18")]
 	private object _arg0;
 
-	[Token(Token = "0x170000D2")]
+	[Token(Token = "0x170000D4")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x600049D")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "15")]
+		[Token(Token = "0x60004A8")]
+		[Address(RVA = "0x5DD3850", Offset = "0x5DD2850", VA = "0x5DD3850", Slot = "15")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x243AAA0", Offset = "0x24390A0", VA = "0x18243AAA0")]
+	[Token(Token = "0x60004A6")]
+	[Address(RVA = "0x5DD3740", Offset = "0x5DD2740", VA = "0x5DD3740")]
 	public MethodCallExpression1(MethodInfo method, Expression arg0)
 	{
 	}
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x243C620", Offset = "0x243AC20", VA = "0x18243C620", Slot = "14")]
+	[Token(Token = "0x60004A7")]
+	[Address(RVA = "0x5DD37C0", Offset = "0x5DD27C0", VA = "0x5DD37C0", Slot = "14")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x243C6C0", Offset = "0x243ACC0", VA = "0x18243C6C0", Slot = "13")]
+	[Token(Token = "0x60004A9")]
+	[Address(RVA = "0x5DD3860", Offset = "0x5DD2860", VA = "0x5DD3860", Slot = "13")]
 	internal override MethodCallExpression Rewrite(Expression instance, IReadOnlyList<Expression> args)
 	{
 		return null;

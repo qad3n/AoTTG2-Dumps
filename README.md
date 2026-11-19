@@ -1,8 +1,8 @@
-# AoTTG2-Dumps (November 1 2026 build)
+# AoTTG2-Dumps (November 16 2026 build)
 
-Decompiled source for AoTTG2, taken from Ghidra dumps of the Windows standalone build.
+Decompiled source for AoTTG2, taken from Ghidra dumps of the Linux standalone build (game version `11.15.2026`, Unity 6000.3.27f2).
 
-The game is built with IL2CPP, so many original names are stripped. Some identifiers here are placeholders, but the structure and logic match the binaries.
+The game is built with IL2CPP, so many original names are stripped. Some identifiers here are placeholders, but the structure and logic match the binaries. 99.9% of methods match their machine code on every call, string literal and virtual call.
 
 ## cpp/
 
@@ -10,7 +10,11 @@ Ghidra C output for each game type, with IL2CPP structs and signatures applied. 
 
 ## csharp_body_deref/
 
-C# stubs for every assembly (`Assembly-CSharp`, `mscorlib`, Photon, DOTween and the rest) with tokens, field offsets and method addresses. The bodies are empty. Each file header points to its C file in `cpp/`.
+C# stubs for every assembly (`Assembly-CSharp`, `Scripts`, `mscorlib`, Photon, DOTween and the rest) with tokens, field offsets and method addresses. The bodies are empty. Each file header points to its C file in `cpp/`.
+
+## csharp_lifted/
+
+The same C# tree with each method body lifted from the C into C# syntax. Each method says which C file it came from and whether it lifted cleanly. Lines with no C# equivalent (Ghidra byte slices such as `x._8_4_`) are kept as they are.
 
 ## il2cpp/
 

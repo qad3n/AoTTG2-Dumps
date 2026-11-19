@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000245")]
+[Token(Token = "0x2000246")]
 internal static class DelegateHelpers
 {
-	[Token(Token = "0x6000B2D")]
-	[Address(RVA = "0x246A4C0", Offset = "0x2468AC0", VA = "0x18246A4C0")]
+	[Token(Token = "0x6000B38")]
+	[Address(RVA = "0x5E08B20", Offset = "0x5E07B20", VA = "0x5E08B20")]
 	internal static Type MakeDelegate(Type[] types)
 	{
 		return null;

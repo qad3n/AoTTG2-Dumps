@@ -24,7 +24,7 @@ public static class ColorUtils
 	public static float lensImperfectionExposureScale
 	{
 		[Token(Token = "0x6000D8F")]
-		[Address(RVA = "0x2B40A40", Offset = "0x2B3F040", VA = "0x182B40A40")]
+		[Address(RVA = "0x653F430", Offset = "0x653E430", VA = "0x653F430")]
 		get
 		{
 			return default(float);
@@ -32,98 +32,98 @@ public static class ColorUtils
 	}
 
 	[Token(Token = "0x6000D90")]
-	[Address(RVA = "0x2B408B0", Offset = "0x2B3EEB0", VA = "0x182B408B0")]
+	[Address(RVA = "0x653F490", Offset = "0x653E490", VA = "0x653F490")]
 	public static float StandardIlluminantY(float x)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D91")]
-	[Address(RVA = "0x2B3FBB0", Offset = "0x2B3E1B0", VA = "0x182B3FBB0")]
+	[Address(RVA = "0x653F4C0", Offset = "0x653E4C0", VA = "0x653F4C0")]
 	public static Vector3 CIExyToLMS(float x, float y)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000D92")]
-	[Address(RVA = "0x2B3FC40", Offset = "0x2B3E240", VA = "0x182B3FC40")]
+	[Address(RVA = "0x653F540", Offset = "0x653E540", VA = "0x653F540")]
 	public static Vector3 ColorBalanceToLMSCoeffs(float temperature, float tint)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000D93")]
-	[Address(RVA = "0x2B404E0", Offset = "0x2B3EAE0", VA = "0x182B404E0")]
+	[Address(RVA = "0x653F6B0", Offset = "0x653E6B0", VA = "0x653F6B0")]
 	public static (Vector4, Vector4, Vector4) PrepareShadowsMidtonesHighlights(in Vector4 inShadows, in Vector4 inMidtones, in Vector4 inHighlights)
 	{
 		return default((Vector4, Vector4, Vector4));
 	}
 
 	[Token(Token = "0x6000D94")]
-	[Address(RVA = "0x2B40150", Offset = "0x2B3E750", VA = "0x182B40150")]
+	[Address(RVA = "0x653F950", Offset = "0x653E950", VA = "0x653F950")]
 	public static (Vector4, Vector4, Vector4) PrepareLiftGammaGain(in Vector4 inLift, in Vector4 inGamma, in Vector4 inGain)
 	{
 		return default((Vector4, Vector4, Vector4));
 	}
 
 	[Token(Token = "0x6000D95")]
-	[Address(RVA = "0x2B407D0", Offset = "0x2B3EDD0", VA = "0x182B407D0")]
+	[Address(RVA = "0x653FCB0", Offset = "0x653ECB0", VA = "0x653FCB0")]
 	public static (Vector4, Vector4) PrepareSplitToning(in Vector4 inShadows, in Vector4 inHighlights, float balance)
 	{
 		return default((Vector4, Vector4));
 	}
 
 	[Token(Token = "0x6000D96")]
-	[Address(RVA = "0x2B40120", Offset = "0x2B3E720", VA = "0x182B40120")]
+	[Address(RVA = "0x653FC80", Offset = "0x653EC80", VA = "0x653FC80")]
 	public static float Luminance(in Color color)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D97")]
-	[Address(RVA = "0x2B3FE80", Offset = "0x2B3E480", VA = "0x182B3FE80")]
+	[Address(RVA = "0x653FD40", Offset = "0x653ED40", VA = "0x653FD40")]
 	public static float ComputeEV100(float aperture, float shutterSpeed, float ISO)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D98")]
-	[Address(RVA = "0x2B3FF50", Offset = "0x2B3E550", VA = "0x182B3FF50")]
+	[Address(RVA = "0x653FE10", Offset = "0x653EE10", VA = "0x653FE10")]
 	public static float ConvertEV100ToExposure(float EV100)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D99")]
-	[Address(RVA = "0x2B40020", Offset = "0x2B3E620", VA = "0x182B40020")]
+	[Address(RVA = "0x653FF20", Offset = "0x653EF20", VA = "0x653FF20")]
 	public static float ConvertExposureToEV100(float exposure)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D9A")]
-	[Address(RVA = "0x2B3FDD0", Offset = "0x2B3E3D0", VA = "0x182B3FDD0")]
+	[Address(RVA = "0x65400B0", Offset = "0x653F0B0", VA = "0x65400B0")]
 	public static float ComputeEV100FromAvgLuminance(float avgLuminance)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D9B")]
-	[Address(RVA = "0x2B3FF00", Offset = "0x2B3E500", VA = "0x182B3FF00")]
+	[Address(RVA = "0x65401D0", Offset = "0x653F1D0", VA = "0x65401D0")]
 	public static float ComputeISO(float aperture, float shutterSpeed, float targetEV100)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D9C")]
-	[Address(RVA = "0x2B408E0", Offset = "0x2B3EEE0", VA = "0x182B408E0")]
+	[Address(RVA = "0x6540210", Offset = "0x653F210", VA = "0x6540210")]
 	public static uint ToHex(Color c)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000D9D")]
-	[Address(RVA = "0x2B40970", Offset = "0x2B3EF70", VA = "0x182B40970")]
+	[Address(RVA = "0x65402A0", Offset = "0x653F2A0", VA = "0x65402A0")]
 	public static Color ToRGBA(uint hex)
 	{
 		return default(Color);

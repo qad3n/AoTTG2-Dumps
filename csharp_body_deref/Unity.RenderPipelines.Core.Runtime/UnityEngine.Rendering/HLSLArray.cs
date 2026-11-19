@@ -23,7 +23,7 @@ public class HLSLArray : Attribute
 	public Type elementType;
 
 	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x246F640", Offset = "0x246DC40", VA = "0x18246F640")]
+	[Address(RVA = "0x6525AF0", Offset = "0x6524AF0", VA = "0x6525AF0")]
 	public HLSLArray(int arraySize, Type elementType)
 	{
 	}

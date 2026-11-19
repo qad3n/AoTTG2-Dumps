@@ -17,14 +17,14 @@ public class CellTree
 	public CellTreeNode RootNode
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x56E8590", Offset = "0x56E7590", VA = "0x56E8590")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x56E85A0", Offset = "0x56E75A0", VA = "0x56E85A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -32,13 +32,13 @@ public class CellTree
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56E85B0", Offset = "0x56E75B0", VA = "0x56E85B0")]
 	public CellTree()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x56E7EB0", Offset = "0x56E6EB0", VA = "0x56E7EB0")]
 	public CellTree(CellTreeNode root)
 	{
 	}

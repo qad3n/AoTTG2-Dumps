@@ -32,49 +32,49 @@ public class ConnectAndJoinRandom : MonoBehaviourPunCallbacks
 	public int playerTTL;
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x1D50770", Offset = "0x1D4ED70", VA = "0x181D50770")]
+	[Address(RVA = "0x56F37F0", Offset = "0x56F27F0", VA = "0x56F37F0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x1D50300", Offset = "0x1D4E900", VA = "0x181D50300")]
+	[Address(RVA = "0x56F3800", Offset = "0x56F2800", VA = "0x56F3800")]
 	public void ConnectNow()
 	{
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x1D50380", Offset = "0x1D4E980", VA = "0x181D50380", Slot = "45")]
+	[Address(RVA = "0x56F3890", Offset = "0x56F2890", VA = "0x56F3890", Slot = "45")]
 	public override void OnConnectedToMaster()
 	{
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x1D50610", Offset = "0x1D4EC10", VA = "0x181D50610", Slot = "36")]
+	[Address(RVA = "0x56F3940", Offset = "0x56F2940", VA = "0x56F3940", Slot = "36")]
 	public override void OnJoinedLobby()
 	{
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x1D504E0", Offset = "0x1D4EAE0", VA = "0x181D504E0", Slot = "44")]
+	[Address(RVA = "0x56F39F0", Offset = "0x56F29F0", VA = "0x56F39F0", Slot = "44")]
 	public override void OnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x1D50430", Offset = "0x1D4EA30", VA = "0x181D50430", Slot = "38")]
+	[Address(RVA = "0x56F3B20", Offset = "0x56F2B20", VA = "0x56F3B20", Slot = "38")]
 	public override void OnDisconnected(DisconnectCause cause)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x1D506C0", Offset = "0x1D4ECC0", VA = "0x181D506C0", Slot = "41")]
+	[Address(RVA = "0x56F3BE0", Offset = "0x56F2BE0", VA = "0x56F3BE0", Slot = "41")]
 	public override void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x1D50800", Offset = "0x1D4EE00", VA = "0x181D50800")]
+	[Address(RVA = "0x56F3C90", Offset = "0x56F2C90", VA = "0x56F3C90")]
 	public ConnectAndJoinRandom()
 	{
 	}

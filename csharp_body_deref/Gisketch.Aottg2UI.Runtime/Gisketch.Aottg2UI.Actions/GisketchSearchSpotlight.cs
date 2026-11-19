@@ -10,46 +10,46 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000ED")]
+[Token(Token = "0x20000F3")]
 public static class GisketchSearchSpotlight
 {
-	[Token(Token = "0x40004B6")]
+	[Token(Token = "0x40004DD")]
 	private const float Padding = 10f;
 
-	[Token(Token = "0x6000724")]
-	[Address(RVA = "0x1906AE0", Offset = "0x19050E0", VA = "0x181906AE0")]
+	[Token(Token = "0x6000772")]
+	[Address(RVA = "0x52A5BB0", Offset = "0x52A4BB0", VA = "0x52A5BB0")]
 	public static void Play(GameObject target)
 	{
 	}
 
-	[Token(Token = "0x6000725")]
-	[Address(RVA = "0x1907310", Offset = "0x1905910", VA = "0x181907310")]
+	[Token(Token = "0x6000773")]
+	[Address(RVA = "0x52A6900", Offset = "0x52A5900", VA = "0x52A6900")]
 	private static Rect TargetRect(RectTransform root, RectTransform target)
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6000726")]
-	[Address(RVA = "0x19065D0", Offset = "0x1904BD0", VA = "0x1819065D0")]
+	[Token(Token = "0x6000774")]
+	[Address(RVA = "0x52A69C0", Offset = "0x52A59C0", VA = "0x52A69C0")]
 	private static void AddDimPanels(Transform parent, Rect root, Rect cutout)
 	{
 	}
 
-	[Token(Token = "0x6000727")]
-	[Address(RVA = "0x1906780", Offset = "0x1904D80", VA = "0x181906780")]
+	[Token(Token = "0x6000775")]
+	[Address(RVA = "0x52A6B40", Offset = "0x52A5B40", VA = "0x52A6B40")]
 	private static void AddPanel(Transform parent, Color color, Rect rect)
 	{
 	}
 
-	[Token(Token = "0x6000728")]
-	[Address(RVA = "0x19068B0", Offset = "0x1904EB0", VA = "0x1819068B0")]
+	[Token(Token = "0x6000776")]
+	[Address(RVA = "0x52A6CA0", Offset = "0x52A5CA0", VA = "0x52A6CA0")]
 	private static RectTransform NewRect(Transform parent, string name, Rect rect)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000729")]
-	[Address(RVA = "0x189B1D0", Offset = "0x18997D0", VA = "0x18189B1D0")]
+	[Token(Token = "0x6000777")]
+	[Address(RVA = "0x52A6800", Offset = "0x52A5800", VA = "0x52A6800")]
 	private static void Stretch(RectTransform rect)
 	{
 	}

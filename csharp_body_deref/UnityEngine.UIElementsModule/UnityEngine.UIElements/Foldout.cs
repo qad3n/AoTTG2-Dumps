@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Foldout
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public new class UxmlFactory : UxmlFactory<Foldout, UxmlTraits>
 	{
 		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x31E3C80", Offset = "0x31E2280", VA = "0x1831E3C80")]
+		[Address(RVA = "0x6BE0360", Offset = "0x6BDF360", VA = "0x6BE0360")]
 		public UxmlFactory()
 		{
 		}
@@ -39,13 +39,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 		private UxmlBoolAttributeDescription m_Value;
 
 		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x31E4020", Offset = "0x31E2620", VA = "0x1831E4020", Slot = "4")]
+		[Address(RVA = "0x6BE03A0", Offset = "0x6BDF3A0", VA = "0x6BE03A0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x31E6870", Offset = "0x31E4E70", VA = "0x1831E6870")]
+		[Address(RVA = "0x6BE0510", Offset = "0x6BDF510", VA = "0x6BE0510")]
 		public UxmlTraits()
 		{
 		}
@@ -121,7 +121,7 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	internal Toggle toggle
 	{
 		[Token(Token = "0x60005CD")]
-		[Address(RVA = "0x312F010", Offset = "0x312D610", VA = "0x18312F010")]
+		[Address(RVA = "0x6BDF150", Offset = "0x6BDE150", VA = "0x6BDF150")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -133,7 +133,7 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60005CE")]
-		[Address(RVA = "0x2D076E0", Offset = "0x2D05CE0", VA = "0x182D076E0", Slot = "138")]
+		[Address(RVA = "0x6BDF160", Offset = "0x6BDE160", VA = "0x6BDF160", Slot = "138")]
 		get
 		{
 			return null;
@@ -144,13 +144,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public override bool focusable
 	{
 		[Token(Token = "0x60005CF")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "16")]
+		[Address(RVA = "0x6BDF170", Offset = "0x6BDE170", VA = "0x6BDF170", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005D0")]
-		[Address(RVA = "0x31D3C40", Offset = "0x31D2240", VA = "0x1831D3C40", Slot = "17")]
+		[Address(RVA = "0x6BDF180", Offset = "0x6BDE180", VA = "0x6BDF180", Slot = "17")]
 		set
 		{
 		}
@@ -161,13 +161,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public bool toggleOnLabelClick
 	{
 		[Token(Token = "0x60005D1")]
-		[Address(RVA = "0x31D3C00", Offset = "0x31D2200", VA = "0x1831D3C00")]
+		[Address(RVA = "0x6BDF1C0", Offset = "0x6BDE1C0", VA = "0x6BDF1C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005D2")]
-		[Address(RVA = "0x31D3E40", Offset = "0x31D2440", VA = "0x1831D3E40")]
+		[Address(RVA = "0x6BDF1E0", Offset = "0x6BDE1E0", VA = "0x6BDF1E0")]
 		set
 		{
 		}
@@ -178,13 +178,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public string text
 	{
 		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x31D3BD0", Offset = "0x31D21D0", VA = "0x1831D3BD0")]
+		[Address(RVA = "0x6BDF270", Offset = "0x6BDE270", VA = "0x6BDF270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005D4")]
-		[Address(RVA = "0x31D3C90", Offset = "0x31D2290", VA = "0x1831D3C90")]
+		[Address(RVA = "0x6BDF290", Offset = "0x6BDE290", VA = "0x6BDF290")]
 		set
 		{
 		}
@@ -195,51 +195,51 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public bool value
 	{
 		[Token(Token = "0x60005D5")]
-		[Address(RVA = "0x31D3C30", Offset = "0x31D2230", VA = "0x1831D3C30", Slot = "143")]
+		[Address(RVA = "0x6BDF430", Offset = "0x6BDE430", VA = "0x6BDF430", Slot = "143")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005D6")]
-		[Address(RVA = "0x31D3EE0", Offset = "0x31D24E0", VA = "0x1831D3EE0", Slot = "144")]
+		[Address(RVA = "0x6BDF440", Offset = "0x6BDE440", VA = "0x6BDF440", Slot = "144")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60005D7")]
-	[Address(RVA = "0x31D3000", Offset = "0x31D1600", VA = "0x1831D3000", Slot = "145")]
+	[Address(RVA = "0x6BDF640", Offset = "0x6BDE640", VA = "0x6BDF640", Slot = "145")]
 	public void SetValueWithoutNotify(bool newValue)
 	{
 	}
 
 	[Token(Token = "0x60005D8")]
-	[Address(RVA = "0x31D2FB0", Offset = "0x31D15B0", VA = "0x1831D2FB0", Slot = "135")]
+	[Address(RVA = "0x6BDF790", Offset = "0x6BDE790", VA = "0x6BDF790", Slot = "135")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x60005D9")]
-	[Address(RVA = "0x31D2C50", Offset = "0x31D1250", VA = "0x1831D2C50")]
+	[Address(RVA = "0x6BDF7D0", Offset = "0x6BDE7D0", VA = "0x6BDF7D0")]
 	private void Apply(KeyboardNavigationOperation op, EventBase sourceEvent)
 	{
 	}
 
 	[Token(Token = "0x60005DA")]
-	[Address(RVA = "0x31D2B40", Offset = "0x31D1140", VA = "0x1831D2B40")]
+	[Address(RVA = "0x6BDF830", Offset = "0x6BDE830", VA = "0x6BDF830")]
 	private bool Apply(KeyboardNavigationOperation op)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005DB")]
-	[Address(RVA = "0x31D3770", Offset = "0x31D1D70", VA = "0x1831D3770")]
+	[Address(RVA = "0x6BDF8E0", Offset = "0x6BDE8E0", VA = "0x6BDF8E0")]
 	public Foldout()
 	{
 	}
 
 	[Token(Token = "0x60005DC")]
-	[Address(RVA = "0x31D2D90", Offset = "0x31D1390", VA = "0x1831D2D90")]
+	[Address(RVA = "0x6BDFD30", Offset = "0x6BDED30", VA = "0x6BDFD30")]
 	private void OnAttachToPanel(AttachToPanelEvent evt)
 	{
 	}

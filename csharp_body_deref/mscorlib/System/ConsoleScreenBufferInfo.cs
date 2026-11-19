@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001E5")]
+[Token(Token = "0x20001BD")]
 internal struct ConsoleScreenBufferInfo
 {
-	[Token(Token = "0x400094C")]
+	[Token(Token = "0x40008AA")]
 	[FieldOffset(Offset = "0x0")]
 	public System.Coord Size;
 
-	[Token(Token = "0x400094D")]
+	[Token(Token = "0x40008AB")]
 	[FieldOffset(Offset = "0x4")]
 	public System.Coord CursorPosition;
 
-	[Token(Token = "0x400094E")]
+	[Token(Token = "0x40008AC")]
 	[FieldOffset(Offset = "0x8")]
 	public short Attribute;
 
-	[Token(Token = "0x400094F")]
+	[Token(Token = "0x40008AD")]
 	[FieldOffset(Offset = "0xA")]
 	public System.SmallRect Window;
 
-	[Token(Token = "0x4000950")]
+	[Token(Token = "0x40008AE")]
 	[FieldOffset(Offset = "0x12")]
 	public System.Coord MaxWindowSize;
 }

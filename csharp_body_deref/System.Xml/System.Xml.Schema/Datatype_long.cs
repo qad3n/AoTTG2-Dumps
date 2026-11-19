@@ -28,7 +28,7 @@ internal class Datatype_long : Datatype_integer
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001174")]
-		[Address(RVA = "0x27A01D0", Offset = "0x279E7D0", VA = "0x1827A01D0", Slot = "18")]
+		[Address(RVA = "0x6160BD0", Offset = "0x615FBD0", VA = "0x6160BD0", Slot = "18")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class Datatype_long : Datatype_integer
 	internal override bool HasValueFacets
 	{
 		[Token(Token = "0x6001175")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
+		[Address(RVA = "0x6160C40", Offset = "0x615FC40", VA = "0x6160C40", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -50,7 +50,7 @@ internal class Datatype_long : Datatype_integer
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001176")]
-		[Address(RVA = "0x27A0270", Offset = "0x279E870", VA = "0x1827A0270", Slot = "8")]
+		[Address(RVA = "0x6160C50", Offset = "0x615FC50", VA = "0x6160C50", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -61,7 +61,7 @@ internal class Datatype_long : Datatype_integer
 	public override Type ValueType
 	{
 		[Token(Token = "0x6001178")]
-		[Address(RVA = "0x27A0280", Offset = "0x279E880", VA = "0x1827A0280", Slot = "4")]
+		[Address(RVA = "0x6160CC0", Offset = "0x615FCC0", VA = "0x6160CC0", Slot = "4")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ internal class Datatype_long : Datatype_integer
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x6001179")]
-		[Address(RVA = "0x27A0220", Offset = "0x279E820", VA = "0x1827A0220", Slot = "26")]
+		[Address(RVA = "0x6160D30", Offset = "0x615FD30", VA = "0x6160D30", Slot = "26")]
 		get
 		{
 			return null;
@@ -80,21 +80,21 @@ internal class Datatype_long : Datatype_integer
 	}
 
 	[Token(Token = "0x6001177")]
-	[Address(RVA = "0x279FE80", Offset = "0x279E480", VA = "0x18279FE80", Slot = "14")]
+	[Address(RVA = "0x6160C60", Offset = "0x615FC60", VA = "0x6160C60", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600117A")]
-	[Address(RVA = "0x279FEE0", Offset = "0x279E4E0", VA = "0x18279FEE0", Slot = "16")]
+	[Address(RVA = "0x6160DA0", Offset = "0x615FDA0", VA = "0x6160DA0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600117B")]
-	[Address(RVA = "0x279FE30", Offset = "0x279E430", VA = "0x18279FE30")]
+	[Address(RVA = "0x6155900", Offset = "0x6154900", VA = "0x6155900")]
 	public Datatype_long()
 	{
 	}

@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000DA")]
+[Token(Token = "0x2000115")]
 internal abstract class PresetSettingsContainer : SaveableSettingsContainer
 {
-	[Token(Token = "0x170000A8")]
+	[Token(Token = "0x170000C5")]
 	protected virtual string PresetFolderPath
 	{
-		[Token(Token = "0x6000460")]
-		[Address(RVA = "0x1F24560", Offset = "0x1F22B60", VA = "0x181F24560", Slot = "23")]
+		[Token(Token = "0x60005DE")]
+		[Address(RVA = "0x5B7B940", Offset = "0x5B7A940", VA = "0x5B7B940", Slot = "23")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x1F23F40", Offset = "0x1F22540", VA = "0x181F23F40", Slot = "19")]
+	[Token(Token = "0x60005DF")]
+	[Address(RVA = "0x5B7B9B0", Offset = "0x5B7A9B0", VA = "0x5B7B9B0", Slot = "19")]
 	public override void Load()
 	{
 	}
 
-	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x1F23EC0", Offset = "0x1F224C0", VA = "0x181F23EC0", Slot = "24")]
+	[Token(Token = "0x60005E0")]
+	[Address(RVA = "0x5B7C3C0", Offset = "0x5B7B3C0", VA = "0x5B7C3C0", Slot = "24")]
 	protected virtual string GetPresetFilePath()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x1F24550", Offset = "0x1F22B50", VA = "0x181F24550")]
+	[Token(Token = "0x60005E1")]
+	[Address(RVA = "0x5B7C430", Offset = "0x5B7B430", VA = "0x5B7C430")]
 	protected PresetSettingsContainer()
 	{
 	}

@@ -26,13 +26,13 @@ public sealed class InspectorTextAreaAttribute : Attribute
 	public float minLines
 	{
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x2DB1950", Offset = "0x2DAFF50", VA = "0x182DB1950")]
+		[Address(RVA = "0x67930A0", Offset = "0x67920A0", VA = "0x67930A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x2DB19F0", Offset = "0x2DAFFF0", VA = "0x182DB19F0")]
+		[Address(RVA = "0x67930D0", Offset = "0x67920D0", VA = "0x67930D0")]
 		set
 		{
 		}
@@ -42,7 +42,7 @@ public sealed class InspectorTextAreaAttribute : Attribute
 	public bool hasMinLines
 	{
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x2DB18D0", Offset = "0x2DAFED0", VA = "0x182DB18D0")]
+		[Address(RVA = "0x6793130", Offset = "0x6792130", VA = "0x6793130")]
 		get
 		{
 			return default(bool);
@@ -53,13 +53,13 @@ public sealed class InspectorTextAreaAttribute : Attribute
 	public float maxLines
 	{
 		[Token(Token = "0x6000202")]
-		[Address(RVA = "0x2DB1910", Offset = "0x2DAFF10", VA = "0x182DB1910")]
+		[Address(RVA = "0x6793160", Offset = "0x6792160", VA = "0x6793160")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000203")]
-		[Address(RVA = "0x2DB1990", Offset = "0x2DAFF90", VA = "0x182DB1990")]
+		[Address(RVA = "0x6793190", Offset = "0x6792190", VA = "0x6793190")]
 		set
 		{
 		}
@@ -69,7 +69,7 @@ public sealed class InspectorTextAreaAttribute : Attribute
 	public bool hasMaxLines
 	{
 		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x2DB1890", Offset = "0x2DAFE90", VA = "0x182DB1890")]
+		[Address(RVA = "0x67931F0", Offset = "0x67921F0", VA = "0x67931F0")]
 		get
 		{
 			return default(bool);
@@ -77,7 +77,7 @@ public sealed class InspectorTextAreaAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6793220", Offset = "0x6792220", VA = "0x6793220")]
 	public InspectorTextAreaAttribute()
 	{
 	}

@@ -10,144 +10,170 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000687")]
+[Token(Token = "0x2000660")]
 public static class File
 {
-	[Token(Token = "0x6003226")]
-	[Address(RVA = "0x1AEEAF0", Offset = "0x1AED0F0", VA = "0x181AEEAF0")]
+	[Token(Token = "0x60031DE")]
+	[Address(RVA = "0x5478A20", Offset = "0x5477A20", VA = "0x5478A20")]
 	public static StreamReader OpenText(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003227")]
-	[Address(RVA = "0x1AEE150", Offset = "0x1AEC750", VA = "0x181AEE150")]
+	[Token(Token = "0x60031DF")]
+	[Address(RVA = "0x5478AC0", Offset = "0x5477AC0", VA = "0x5478AC0")]
+	public static void Copy(string sourceFileName, string destFileName)
+	{
+	}
+
+	[Token(Token = "0x60031E0")]
+	[Address(RVA = "0x5478AD0", Offset = "0x5477AD0", VA = "0x5478AD0")]
+	public static void Copy(string sourceFileName, string destFileName, bool overwrite)
+	{
+	}
+
+	[Token(Token = "0x60031E1")]
+	[Address(RVA = "0x5478CF0", Offset = "0x5477CF0", VA = "0x5478CF0")]
+	public static FileStream Create(string path)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60031E2")]
+	[Address(RVA = "0x5478D60", Offset = "0x5477D60", VA = "0x5478D60")]
+	public static FileStream Create(string path, int bufferSize)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60031E3")]
+	[Address(RVA = "0x5478DF0", Offset = "0x5477DF0", VA = "0x5478DF0")]
 	public static void Delete(string path)
 	{
 	}
 
-	[Token(Token = "0x6003228")]
-	[Address(RVA = "0x1AEE230", Offset = "0x1AEC830", VA = "0x181AEE230")]
+	[Token(Token = "0x60031E4")]
+	[Address(RVA = "0x5478EE0", Offset = "0x5477EE0", VA = "0x5478EE0")]
 	public static bool Exists(string path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003229")]
-	[Address(RVA = "0x1AEEC20", Offset = "0x1AED220", VA = "0x181AEEC20")]
+	[Token(Token = "0x60031E5")]
+	[Address(RVA = "0x54790C0", Offset = "0x54780C0", VA = "0x54790C0")]
 	public static FileStream Open(string path, FileMode mode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600322A")]
-	[Address(RVA = "0x1AEECB0", Offset = "0x1AED2B0", VA = "0x181AEECB0")]
+	[Token(Token = "0x60031E6")]
+	[Address(RVA = "0x5479190", Offset = "0x5478190", VA = "0x5479190")]
 	public static FileStream Open(string path, FileMode mode, FileAccess access, FileShare share)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600322B")]
-	[Address(RVA = "0x1AEE3E0", Offset = "0x1AEC9E0", VA = "0x181AEE3E0")]
+	[Token(Token = "0x60031E7")]
+	[Address(RVA = "0x5479230", Offset = "0x5478230", VA = "0x5479230")]
 	public static DateTime GetCreationTime(string path)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x600322C")]
-	[Address(RVA = "0x1AEE4C0", Offset = "0x1AECAC0", VA = "0x181AEE4C0")]
+	[Token(Token = "0x60031E8")]
+	[Address(RVA = "0x5479320", Offset = "0x5478320", VA = "0x5479320")]
 	public static DateTime GetLastWriteTime(string path)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x600322D")]
-	[Address(RVA = "0x1AEE350", Offset = "0x1AEC950", VA = "0x181AEE350")]
+	[Token(Token = "0x60031E9")]
+	[Address(RVA = "0x5479410", Offset = "0x5478410", VA = "0x5479410")]
 	public static FileAttributes GetAttributes(string path)
 	{
 		return default(FileAttributes);
 	}
 
-	[Token(Token = "0x600322E")]
-	[Address(RVA = "0x1AEEA70", Offset = "0x1AED070", VA = "0x181AEEA70")]
+	[Token(Token = "0x60031EA")]
+	[Address(RVA = "0x54794D0", Offset = "0x54784D0", VA = "0x54794D0")]
 	public static FileStream OpenRead(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600322F")]
-	[Address(RVA = "0x1AEEBA0", Offset = "0x1AED1A0", VA = "0x181AEEBA0")]
+	[Token(Token = "0x60031EB")]
+	[Address(RVA = "0x5479540", Offset = "0x5478540", VA = "0x5479540")]
 	public static FileStream OpenWrite(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003230")]
-	[Address(RVA = "0x1AEF3F0", Offset = "0x1AED9F0", VA = "0x181AEF3F0")]
+	[Token(Token = "0x60031EC")]
+	[Address(RVA = "0x54795B0", Offset = "0x54785B0", VA = "0x54795B0")]
 	public static string ReadAllText(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003231")]
-	[Address(RVA = "0x1AEE5A0", Offset = "0x1AECBA0", VA = "0x181AEE5A0")]
+	[Token(Token = "0x60031ED")]
+	[Address(RVA = "0x5479670", Offset = "0x5478670", VA = "0x5479670")]
 	private static string InternalReadAllText(string path, Encoding encoding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003232")]
-	[Address(RVA = "0x1AEF9B0", Offset = "0x1AEDFB0", VA = "0x181AEF9B0")]
+	[Token(Token = "0x60031EE")]
+	[Address(RVA = "0x54797F0", Offset = "0x54787F0", VA = "0x54797F0")]
 	public static void WriteAllText(string path, string contents)
 	{
 	}
 
-	[Token(Token = "0x6003233")]
-	[Address(RVA = "0x1AEF190", Offset = "0x1AED790", VA = "0x181AEF190")]
+	[Token(Token = "0x60031EF")]
+	[Address(RVA = "0x54799F0", Offset = "0x54789F0", VA = "0x54799F0")]
 	public static byte[] ReadAllBytes(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003234")]
-	[Address(RVA = "0x1AEED30", Offset = "0x1AED330", VA = "0x181AEED30")]
+	[Token(Token = "0x60031F0")]
+	[Address(RVA = "0x5479C80", Offset = "0x5478C80", VA = "0x5479C80")]
 	private static byte[] ReadAllBytesUnknownLength(FileStream fs)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003235")]
-	[Address(RVA = "0x1AEF880", Offset = "0x1AEDE80", VA = "0x181AEF880")]
+	[Token(Token = "0x60031F1")]
+	[Address(RVA = "0x547A0C0", Offset = "0x54790C0", VA = "0x547A0C0")]
 	public static void WriteAllBytes(string path, byte[] bytes)
 	{
 	}
 
-	[Token(Token = "0x6003236")]
-	[Address(RVA = "0x1AEE6B0", Offset = "0x1AECCB0", VA = "0x181AEE6B0")]
+	[Token(Token = "0x60031F2")]
+	[Address(RVA = "0x547A1C0", Offset = "0x54791C0", VA = "0x547A1C0")]
 	private static void InternalWriteAllBytes(string path, byte[] bytes)
 	{
 	}
 
-	[Token(Token = "0x6003237")]
-	[Address(RVA = "0x1AEDFA0", Offset = "0x1AEC5A0", VA = "0x181AEDFA0")]
+	[Token(Token = "0x60031F3")]
+	[Address(RVA = "0x547A350", Offset = "0x5479350", VA = "0x547A350")]
 	public static void AppendAllText(string path, string contents)
 	{
 	}
 
-	[Token(Token = "0x6003238")]
-	[Address(RVA = "0x1AEF4D0", Offset = "0x1AEDAD0", VA = "0x181AEF4D0")]
+	[Token(Token = "0x60031F4")]
+	[Address(RVA = "0x547A550", Offset = "0x5479550", VA = "0x547A550")]
 	public static void Replace(string sourceFileName, string destinationFileName, string destinationBackupFileName)
 	{
 	}
 
-	[Token(Token = "0x6003239")]
-	[Address(RVA = "0x1AEF6B0", Offset = "0x1AEDCB0", VA = "0x181AEF6B0")]
+	[Token(Token = "0x60031F5")]
+	[Address(RVA = "0x547A560", Offset = "0x5479560", VA = "0x547A560")]
 	public static void Replace(string sourceFileName, string destinationFileName, string destinationBackupFileName, bool ignoreMetadataErrors)
 	{
 	}
 
-	[Token(Token = "0x600323A")]
-	[Address(RVA = "0x1AEE7F0", Offset = "0x1AECDF0", VA = "0x181AEE7F0")]
+	[Token(Token = "0x60031F6")]
+	[Address(RVA = "0x547A780", Offset = "0x5479780", VA = "0x547A780")]
 	public static void Move(string sourceFileName, string destFileName)
 	{
 	}

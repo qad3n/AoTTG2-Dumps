@@ -12,41 +12,41 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D1")]
+[Token(Token = "0x20000D7")]
 internal sealed class GisketchButtonInputSource : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, ISubmitHandler
 {
 	[Token(Token = "0x170000A8")]
 	public GisketchActionInputSource Source
 	{
-		[Token(Token = "0x600066B")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x60006B8")]
+		[Address(RVA = "0x529E6F0", Offset = "0x529D6F0", VA = "0x529E6F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(GisketchActionInputSource);
 		}
-		[Token(Token = "0x600066C")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Token(Token = "0x60006B9")]
+		[Address(RVA = "0x529E700", Offset = "0x529D700", VA = "0x529E700")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x18FCDA0", Offset = "0x18FB3A0", VA = "0x1818FCDA0", Slot = "4")]
+	[Token(Token = "0x60006BA")]
+	[Address(RVA = "0x529E710", Offset = "0x529D710", VA = "0x529E710", Slot = "4")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x18FCDB0", Offset = "0x18FB3B0", VA = "0x1818FCDB0", Slot = "5")]
+	[Token(Token = "0x60006BB")]
+	[Address(RVA = "0x529E7C0", Offset = "0x529D7C0", VA = "0x529E7C0", Slot = "5")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60006BC")]
+	[Address(RVA = "0x529E870", Offset = "0x529D870", VA = "0x529E870")]
 	public GisketchButtonInputSource()
 	{
 	}

@@ -29,20 +29,20 @@ internal class ChameleonKey
 	private int hashCode;
 
 	[Token(Token = "0x6000F94")]
-	[Address(RVA = "0x277A310", Offset = "0x2778910", VA = "0x18277A310")]
+	[Address(RVA = "0x6141F10", Offset = "0x6140F10", VA = "0x6141F10")]
 	public ChameleonKey(string ns, XmlSchema originalSchema)
 	{
 	}
 
 	[Token(Token = "0x6000F95")]
-	[Address(RVA = "0x277A280", Offset = "0x2778880", VA = "0x18277A280", Slot = "2")]
+	[Address(RVA = "0x6141F90", Offset = "0x6140F90", VA = "0x6141F90", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x277A1A0", Offset = "0x27787A0", VA = "0x18277A1A0", Slot = "0")]
+	[Address(RVA = "0x6142010", Offset = "0x6141010", VA = "0x6142010", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);

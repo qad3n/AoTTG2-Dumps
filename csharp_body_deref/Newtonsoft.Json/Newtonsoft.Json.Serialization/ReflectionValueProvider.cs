@@ -18,19 +18,19 @@ public class ReflectionValueProvider : IValueProvider
 	private readonly MemberInfo _memberInfo;
 
 	[Token(Token = "0x6000991")]
-	[Address(RVA = "0x1C6C690", Offset = "0x1C6AC90", VA = "0x181C6C690")]
+	[Address(RVA = "0x55EBEF0", Offset = "0x55EAEF0", VA = "0x55EBEF0")]
 	public ReflectionValueProvider(MemberInfo memberInfo)
 	{
 	}
 
 	[Token(Token = "0x6000992")]
-	[Address(RVA = "0x1C6C540", Offset = "0x1C6AB40", VA = "0x181C6C540", Slot = "4")]
+	[Address(RVA = "0x55EBF50", Offset = "0x55EAF50", VA = "0x55EBF50", Slot = "4")]
 	public void SetValue(object target, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000993")]
-	[Address(RVA = "0x1C6C300", Offset = "0x1C6A900", VA = "0x181C6C300", Slot = "5")]
+	[Address(RVA = "0x55EC0F0", Offset = "0x55EB0F0", VA = "0x55EC0F0", Slot = "5")]
 	public object GetValue(object target)
 	{
 		return null;

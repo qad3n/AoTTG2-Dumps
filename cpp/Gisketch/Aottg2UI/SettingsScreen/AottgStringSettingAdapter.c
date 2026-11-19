@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgStringSettingAdapter
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgStringSettingAdapter.cs
@@ -8,79 +8,93 @@
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgStringSettingAdapter$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o* __this, Settings_StringSetting_o* setting, const MethodInfo* method);
-// 0x180577fb0
+// 0x5dc6320
 
-void
-Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter___ctor(Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o* __this, Settings_StringSetting_o* setting, MethodInfo* method)
+void Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter___ctor
+               (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o *__this,
+               Settings_StringSetting_o *setting,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._setting = method;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._setting,method);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields)._setting = setting;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._setting);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgStringSettingAdapter$$get_TextValue
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__get_TextValue (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o* __this, const MethodInfo* method);
-// 0x18231f440
+// 0x5dc6350
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__get_TextValue
           (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18434771d == '\0') {
+  Settings_StringSetting_o *pSVar1;
+  
+  if (Il2CppMethodInitialized_075481c2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    Il2CppMethodInitialized_18434771d = '\x01';
+    Il2CppMethodInitialized_075481c2 = '\x01';
   }
-  if ((__this->fields)._setting != (Settings_StringSetting_o *)0x0) {
-    return (((__this->fields)._setting)->fields)._value;
+  pSVar1 = (__this->fields)._setting;
+  if (pSVar1 == (Settings_StringSetting_o *)0x0) {
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
-  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  return (pSVar1->fields)._value;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgStringSettingAdapter$$get_MaxCharacters
 // il2cpp: int32_t Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__get_MaxCharacters (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o* __this, const MethodInfo* method);
-// 0x18231f420
+// 0x5dc63a0
 
 int32_t Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__get_MaxCharacters
                   (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  Settings_StringSetting_o *pSVar1;
+  int iVar1;
+  Settings_StringSetting_o *pSVar2;
+  int iVar3;
   
-  if (((__this->fields)._setting != (Settings_StringSetting_o *)0x0) &&
-     (pSVar1 = (__this->fields)._setting, (pSVar1->fields).MaxLength != 0x7fffffff)) {
-    return (pSVar1->fields).MaxLength;
+  pSVar2 = (__this->fields)._setting;
+  if (pSVar2 == (Settings_StringSetting_o *)0x0) {
+    return 0;
   }
-  return 0;
+  iVar1 = (pSVar2->fields).MaxLength;
+  iVar3 = 0;
+  if (iVar1 != 0x7fffffff) {
+    iVar3 = iVar1;
+  }
+  return iVar3;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgStringSettingAdapter$$SetText
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__SetText (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x18231f3b0
+// 0x5dc63c0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter__SetText
                (Gisketch_Aottg2UI_SettingsScreen_AottgStringSettingAdapter_o *__this,System_String_o *value,
                MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18434771e == '\0') {
+  Settings_StringSetting_o *__this_00;
+  
+  if (Il2CppMethodInitialized_075481c3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
-    Il2CppMethodInitialized_18434771e = '\x01';
+    Il2CppMethodInitialized_075481c3 = '\x01';
   }
-  if ((__this->fields)._setting != (Settings_StringSetting_o *)0x0) {
-    if (value == (System_String_o *)0x0) {
-      value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-    }
-    Settings_TypedSetting_object___set_Value
-              ((Settings_TypedSetting_T__o *)(__this->fields)._setting,(Il2CppObject *)value,
-               (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+  __this_00 = (__this->fields)._setting;
+  if (__this_00 == (Settings_StringSetting_o *)0x0) {
+    return;
   }
+  if (value == (System_String_o *)0x0) {
+    value = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  }
+  Settings_TypedSetting_object___set_Value
+            ((Settings_TypedSetting_T__o *)__this_00,(Il2CppObject *)value,
+             (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
   return;
 }
 

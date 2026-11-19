@@ -9,59 +9,59 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002CB")]
+[Token(Token = "0x200028C")]
 internal static class NclUtilities
 {
-	[Token(Token = "0x4000AA1")]
+	[Token(Token = "0x40009D2")]
 	[FieldOffset(Offset = "0x0")]
 	private static IPAddress[] _LocalAddresses;
 
-	[Token(Token = "0x4000AA2")]
+	[Token(Token = "0x40009D3")]
 	[FieldOffset(Offset = "0x8")]
 	private static object _LocalAddressesLock;
 
-	[Token(Token = "0x4000AA3")]
+	[Token(Token = "0x40009D4")]
 	[FieldOffset(Offset = "0x10")]
 	internal static string _LocalDomainName;
 
-	[Token(Token = "0x17000408")]
+	[Token(Token = "0x170003D9")]
 	internal static IPAddress[] LocalAddresses
 	{
-		[Token(Token = "0x6001391")]
-		[Address(RVA = "0x27CFF50", Offset = "0x27CE550", VA = "0x1827CFF50")]
+		[Token(Token = "0x60011D3")]
+		[Address(RVA = "0x62A5E10", Offset = "0x62A4E10", VA = "0x62A5E10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000409")]
+	[Token(Token = "0x170003DA")]
 	private static object LocalAddressesLock
 	{
-		[Token(Token = "0x6001392")]
-		[Address(RVA = "0x27CFEB0", Offset = "0x27CE4B0", VA = "0x1827CFEB0")]
+		[Token(Token = "0x60011D4")]
+		[Address(RVA = "0x62A63F0", Offset = "0x62A53F0", VA = "0x62A63F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600138E")]
-	[Address(RVA = "0x27CFE00", Offset = "0x27CE400", VA = "0x1827CFE00")]
+	[Token(Token = "0x60011D0")]
+	[Address(RVA = "0x62A5CF0", Offset = "0x62A4CF0", VA = "0x62A5CF0")]
 	internal static bool IsFatal(Exception exception)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600138F")]
-	[Address(RVA = "0x27CFD70", Offset = "0x27CE370", VA = "0x1827CFD70")]
+	[Token(Token = "0x60011D1")]
+	[Address(RVA = "0x62A5D90", Offset = "0x62A4D90", VA = "0x62A5D90")]
 	internal static bool IsAddressLocal(IPAddress ipAddress)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001390")]
-	[Address(RVA = "0x27CFD50", Offset = "0x27CE350", VA = "0x1827CFD50")]
+	[Token(Token = "0x60011D2")]
+	[Address(RVA = "0x62A63D0", Offset = "0x62A53D0", VA = "0x62A63D0")]
 	private static IPHostEntry GetLocalHost()
 	{
 		return null;

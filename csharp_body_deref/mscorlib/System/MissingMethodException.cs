@@ -11,40 +11,40 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000115")]
+[Token(Token = "0x20000ED")]
 public class MissingMethodException : MissingMemberException
 {
 	[Token(Token = "0x17000098")]
 	public override string Message
 	{
-		[Token(Token = "0x60008EF")]
-		[Address(RVA = "0x1B2E230", Offset = "0x1B2C830", VA = "0x181B2E230", Slot = "5")]
+		[Token(Token = "0x60008CA")]
+		[Address(RVA = "0x54BC950", Offset = "0x54BB950", VA = "0x54BC950", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x1B2E1C0", Offset = "0x1B2C7C0", VA = "0x181B2E1C0")]
+	[Token(Token = "0x60008C6")]
+	[Address(RVA = "0x54BC890", Offset = "0x54BB890", VA = "0x54BC890")]
 	public MissingMethodException()
 	{
 	}
 
-	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x1B2E210", Offset = "0x1B2C810", VA = "0x181B2E210")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x54BC8D0", Offset = "0x54BB8D0", VA = "0x54BC8D0")]
 	public MissingMethodException(string message)
 	{
 	}
 
-	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x1B2E140", Offset = "0x1B2C740", VA = "0x181B2E140")]
+	[Token(Token = "0x60008C8")]
+	[Address(RVA = "0x54BC8F0", Offset = "0x54BB8F0", VA = "0x54BC8F0")]
 	public MissingMethodException(string className, string methodName)
 	{
 	}
 
-	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x1B2E1A0", Offset = "0x1B2C7A0", VA = "0x181B2E1A0")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x54BC940", Offset = "0x54BB940", VA = "0x54BC940")]
 	protected MissingMethodException(SerializationInfo info, StreamingContext context)
 	{
 	}

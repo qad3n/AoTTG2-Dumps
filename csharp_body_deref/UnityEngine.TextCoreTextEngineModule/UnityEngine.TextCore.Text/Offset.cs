@@ -36,7 +36,7 @@ internal struct Offset
 	public float left
 	{
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
+		[Address(RVA = "0x6A48850", Offset = "0x6A47850", VA = "0x6A48850")]
 		get
 		{
 			return default(float);
@@ -47,7 +47,7 @@ internal struct Offset
 	public float right
 	{
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
+		[Address(RVA = "0x6A48860", Offset = "0x6A47860", VA = "0x6A48860")]
 		get
 		{
 			return default(float);
@@ -58,7 +58,7 @@ internal struct Offset
 	public float top
 	{
 		[Token(Token = "0x600024D")]
-		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
+		[Address(RVA = "0x6A48870", Offset = "0x6A47870", VA = "0x6A48870")]
 		get
 		{
 			return default(float);
@@ -69,7 +69,7 @@ internal struct Offset
 	public float bottom
 	{
 		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
+		[Address(RVA = "0x6A48880", Offset = "0x6A47880", VA = "0x6A48880")]
 		get
 		{
 			return default(float);
@@ -80,7 +80,7 @@ internal struct Offset
 	public static Offset zero
 	{
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x30431E0", Offset = "0x30417E0", VA = "0x1830431E0")]
+		[Address(RVA = "0x6A48890", Offset = "0x6A47890", VA = "0x6A48890")]
 		get
 		{
 			return default(Offset);
@@ -88,34 +88,34 @@ internal struct Offset
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x6A488E0", Offset = "0x6A478E0", VA = "0x6A488E0")]
 	public Offset(float left, float right, float top, float bottom)
 	{
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x25B49C0", Offset = "0x25B2FC0", VA = "0x1825B49C0")]
+	[Address(RVA = "0x6A48900", Offset = "0x6A47900", VA = "0x6A48900")]
 	public static bool operator ==(Offset lhs, Offset rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x3043240", Offset = "0x3041840", VA = "0x183043240")]
+	[Address(RVA = "0x6A48930", Offset = "0x6A47930", VA = "0x6A48930")]
 	public static Offset operator *(Offset a, float b)
 	{
 		return default(Offset);
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x3043150", Offset = "0x3041750", VA = "0x183043150", Slot = "2")]
+	[Address(RVA = "0x6A48950", Offset = "0x6A47950", VA = "0x6A48950", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x30430F0", Offset = "0x30416F0", VA = "0x1830430F0", Slot = "0")]
+	[Address(RVA = "0x6A489A0", Offset = "0x6A479A0", VA = "0x6A489A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);

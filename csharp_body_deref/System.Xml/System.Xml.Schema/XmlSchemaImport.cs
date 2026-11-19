@@ -26,26 +26,26 @@ public class XmlSchemaImport : XmlSchemaExternal
 	public string Namespace
 	{
 		[Token(Token = "0x600169C")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x602D400", Offset = "0x602C400", VA = "0x602D400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600169D")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x602D410", Offset = "0x602C410", VA = "0x602D410")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600169B")]
-	[Address(RVA = "0x266C790", Offset = "0x266AD90", VA = "0x18266C790")]
+	[Address(RVA = "0x602D3E0", Offset = "0x602C3E0", VA = "0x602D3E0")]
 	public XmlSchemaImport()
 	{
 	}
 
 	[Token(Token = "0x600169E")]
-	[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780", Slot = "10")]
+	[Address(RVA = "0x602D420", Offset = "0x602C420", VA = "0x602D420", Slot = "10")]
 	internal override void AddAnnotation(XmlSchemaAnnotation annotation)
 	{
 	}

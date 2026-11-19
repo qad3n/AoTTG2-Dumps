@@ -17,41 +17,41 @@ namespace UnityEngine.Experimental.Rendering;
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/ReflectionProbes.h")]
 internal class BuiltinRuntimeReflectionSystem : IScriptableRuntimeReflectionSystem, IDisposable
 {
-	[Token(Token = "0x60017D9")]
-	[Address(RVA = "0x2F76B90", Offset = "0x2F75190", VA = "0x182F76B90", Slot = "4")]
+	[Token(Token = "0x60017ED")]
+	[Address(RVA = "0x696D340", Offset = "0x696C340", VA = "0x696D340", Slot = "4")]
 	public bool TickRealtimeProbes()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017DA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x60017EE")]
+	[Address(RVA = "0x696D3A0", Offset = "0x696C3A0", VA = "0x696D3A0", Slot = "5")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60017DB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60017EF")]
+	[Address(RVA = "0x696D3B0", Offset = "0x696C3B0", VA = "0x696D3B0")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60017DC")]
-	[Address(RVA = "0x2F76B90", Offset = "0x2F75190", VA = "0x182F76B90")]
+	[Token(Token = "0x60017F0")]
+	[Address(RVA = "0x696D370", Offset = "0x696C370", VA = "0x696D370")]
 	[UnityEngine.Bindings.StaticAccessor("GetReflectionProbes()", Type = UnityEngine.Bindings.StaticAccessorType.Dot)]
 	private static extern bool BuiltinUpdate();
 
-	[Token(Token = "0x60017DD")]
-	[Address(RVA = "0x2F76BC0", Offset = "0x2F751C0", VA = "0x182F76BC0")]
+	[Token(Token = "0x60017F1")]
+	[Address(RVA = "0x696D3C0", Offset = "0x696C3C0", VA = "0x696D3C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static BuiltinRuntimeReflectionSystem Internal_BuiltinRuntimeReflectionSystem_New()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017DE")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60017F2")]
+	[Address(RVA = "0x696D400", Offset = "0x696C400", VA = "0x696D400")]
 	public BuiltinRuntimeReflectionSystem()
 	{
 	}

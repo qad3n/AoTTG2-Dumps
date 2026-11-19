@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -98,21 +98,21 @@ public class ScreenSpaceLensFlare : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter chromaticAbberationIntensity;
 
 	[Token(Token = "0x60006D0")]
-	[Address(RVA = "0x2C55830", Offset = "0x2C53E30", VA = "0x182C55830", Slot = "8")]
+	[Address(RVA = "0x664BCE0", Offset = "0x664ACE0", VA = "0x664BCE0", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006D1")]
-	[Address(RVA = "0x2C6D8F0", Offset = "0x2C6BEF0", VA = "0x182C6D8F0")]
+	[Address(RVA = "0x664BD10", Offset = "0x664AD10", VA = "0x664BD10")]
 	public bool IsStreaksActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006D2")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x664BD40", Offset = "0x664AD40", VA = "0x664BD40", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -120,7 +120,7 @@ public class ScreenSpaceLensFlare : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006D3")]
-	[Address(RVA = "0x2C6D930", Offset = "0x2C6BF30", VA = "0x182C6D930")]
+	[Address(RVA = "0x664BD50", Offset = "0x664AD50", VA = "0x664BD50")]
 	public ScreenSpaceLensFlare()
 	{
 	}

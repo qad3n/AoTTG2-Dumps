@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000162")]
+[Token(Token = "0x2000123")]
 public interface ISite : IServiceProvider
 {
-	[Token(Token = "0x170001B1")]
+	[Token(Token = "0x17000182")]
 	IComponent Component
 	{
-		[Token(Token = "0x60008EC")]
+		[Token(Token = "0x600072C")]
 		get;
 	}
 
-	[Token(Token = "0x170001B2")]
+	[Token(Token = "0x17000183")]
 	IContainer Container
 	{
-		[Token(Token = "0x60008ED")]
+		[Token(Token = "0x600072D")]
 		get;
 	}
 
-	[Token(Token = "0x170001B3")]
+	[Token(Token = "0x17000184")]
 	bool DesignMode
 	{
-		[Token(Token = "0x60008EE")]
+		[Token(Token = "0x600072E")]
 		get;
 	}
 
-	[Token(Token = "0x170001B4")]
+	[Token(Token = "0x17000185")]
 	string Name
 	{
-		[Token(Token = "0x60008EF")]
+		[Token(Token = "0x600072F")]
 		get;
-		[Token(Token = "0x60008F0")]
+		[Token(Token = "0x6000730")]
 		set;
 	}
 }

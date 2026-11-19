@@ -41,14 +41,14 @@ public class HableCurve
 		public float B;
 
 		[Token(Token = "0x6000E4D")]
-		[Address(RVA = "0x2B60CE0", Offset = "0x2B5F2E0", VA = "0x182B60CE0")]
+		[Address(RVA = "0x654C2D0", Offset = "0x654B2D0", VA = "0x654C2D0")]
 		public float Eval(float x)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6000E4E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x654C1E0", Offset = "0x654B1E0", VA = "0x654C1E0")]
 		public Segment()
 		{
 		}
@@ -101,7 +101,7 @@ public class HableCurve
 		public Vector4 curve
 		{
 			[Token(Token = "0x6000E50")]
-			[Address(RVA = "0x2B64250", Offset = "0x2B62850", VA = "0x182B64250")]
+			[Address(RVA = "0x654CA60", Offset = "0x654BA60", VA = "0x654CA60")]
 			get
 			{
 				return default(Vector4);
@@ -112,7 +112,7 @@ public class HableCurve
 		public Vector4 toeSegmentA
 		{
 			[Token(Token = "0x6000E51")]
-			[Address(RVA = "0x2B64470", Offset = "0x2B62A70", VA = "0x182B64470")]
+			[Address(RVA = "0x654CA80", Offset = "0x654BA80", VA = "0x654CA80")]
 			get
 			{
 				return default(Vector4);
@@ -123,7 +123,7 @@ public class HableCurve
 		public Vector4 toeSegmentB
 		{
 			[Token(Token = "0x6000E52")]
-			[Address(RVA = "0x2B644F0", Offset = "0x2B62AF0", VA = "0x182B644F0")]
+			[Address(RVA = "0x654CAC0", Offset = "0x654BAC0", VA = "0x654CAC0")]
 			get
 			{
 				return default(Vector4);
@@ -134,7 +134,7 @@ public class HableCurve
 		public Vector4 midSegmentA
 		{
 			[Token(Token = "0x6000E53")]
-			[Address(RVA = "0x2B64290", Offset = "0x2B62890", VA = "0x182B64290")]
+			[Address(RVA = "0x654CB00", Offset = "0x654BB00", VA = "0x654CB00")]
 			get
 			{
 				return default(Vector4);
@@ -145,7 +145,7 @@ public class HableCurve
 		public Vector4 midSegmentB
 		{
 			[Token(Token = "0x6000E54")]
-			[Address(RVA = "0x2B64310", Offset = "0x2B62910", VA = "0x182B64310")]
+			[Address(RVA = "0x654CB40", Offset = "0x654BB40", VA = "0x654CB40")]
 			get
 			{
 				return default(Vector4);
@@ -156,7 +156,7 @@ public class HableCurve
 		public Vector4 shoSegmentA
 		{
 			[Token(Token = "0x6000E55")]
-			[Address(RVA = "0x2B64380", Offset = "0x2B62980", VA = "0x182B64380")]
+			[Address(RVA = "0x654CB80", Offset = "0x654BB80", VA = "0x654CB80")]
 			get
 			{
 				return default(Vector4);
@@ -167,7 +167,7 @@ public class HableCurve
 		public Vector4 shoSegmentB
 		{
 			[Token(Token = "0x6000E56")]
-			[Address(RVA = "0x2B64400", Offset = "0x2B62A00", VA = "0x182B64400")]
+			[Address(RVA = "0x654CBC0", Offset = "0x654BBC0", VA = "0x654CBC0")]
 			get
 			{
 				return default(Vector4);
@@ -175,7 +175,7 @@ public class HableCurve
 		}
 
 		[Token(Token = "0x6000E4F")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x654C1F0", Offset = "0x654B1F0", VA = "0x654C1F0")]
 		internal Uniforms(HableCurve parent)
 		{
 		}
@@ -193,14 +193,14 @@ public class HableCurve
 	public float whitePoint
 	{
 		[Token(Token = "0x6000E3E")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x654BF70", Offset = "0x654AF70", VA = "0x654BF70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E3F")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x654BF80", Offset = "0x654AF80", VA = "0x654BF80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -211,14 +211,14 @@ public class HableCurve
 	public float inverseWhitePoint
 	{
 		[Token(Token = "0x6000E40")]
-		[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
+		[Address(RVA = "0x654BF90", Offset = "0x654AF90", VA = "0x654BF90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E41")]
-		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
+		[Address(RVA = "0x654BFA0", Offset = "0x654AFA0", VA = "0x654BFA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -229,14 +229,14 @@ public class HableCurve
 	public float x0
 	{
 		[Token(Token = "0x6000E42")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0")]
+		[Address(RVA = "0x654BFB0", Offset = "0x654AFB0", VA = "0x654BFB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E43")]
-		[Address(RVA = "0x585060", Offset = "0x583660", VA = "0x180585060")]
+		[Address(RVA = "0x654BFC0", Offset = "0x654AFC0", VA = "0x654BFC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -247,14 +247,14 @@ public class HableCurve
 	public float x1
 	{
 		[Token(Token = "0x6000E44")]
-		[Address(RVA = "0xE8F460", Offset = "0xE8DA60", VA = "0x180E8F460")]
+		[Address(RVA = "0x654BFD0", Offset = "0x654AFD0", VA = "0x654BFD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E45")]
-		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
+		[Address(RVA = "0x654BFE0", Offset = "0x654AFE0", VA = "0x654BFE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -262,44 +262,44 @@ public class HableCurve
 	}
 
 	[Token(Token = "0x6000E46")]
-	[Address(RVA = "0x2B5B4B0", Offset = "0x2B59AB0", VA = "0x182B5B4B0")]
+	[Address(RVA = "0x654BFF0", Offset = "0x654AFF0", VA = "0x654BFF0")]
 	public HableCurve()
 	{
 	}
 
 	[Token(Token = "0x6000E47")]
-	[Address(RVA = "0x2B5ACF0", Offset = "0x2B592F0", VA = "0x182B5ACF0")]
+	[Address(RVA = "0x654C220", Offset = "0x654B220", VA = "0x654C220")]
 	public float Eval(float x)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000E48")]
-	[Address(RVA = "0x2B5B270", Offset = "0x2B59870", VA = "0x182B5B270")]
+	[Address(RVA = "0x654C330", Offset = "0x654B330", VA = "0x654C330")]
 	public void Init(float toeStrength, float toeLength, float shoulderStrength, float shoulderLength, float shoulderAngle, float gamma)
 	{
 	}
 
 	[Token(Token = "0x6000E49")]
-	[Address(RVA = "0x2B5AD90", Offset = "0x2B59390", VA = "0x182B5AD90")]
+	[Address(RVA = "0x654C4F0", Offset = "0x654B4F0", VA = "0x654C4F0")]
 	private void InitSegments(DirectParams srcParams)
 	{
 	}
 
 	[Token(Token = "0x6000E4A")]
-	[Address(RVA = "0x2B5B440", Offset = "0x2B59A40", VA = "0x182B5B440")]
+	[Address(RVA = "0x654CA00", Offset = "0x654BA00", VA = "0x654CA00")]
 	private void SolveAB(out float lnA, out float B, float x0, float y0, float m)
 	{
 	}
 
 	[Token(Token = "0x6000E4B")]
-	[Address(RVA = "0x2B5AC40", Offset = "0x2B59240", VA = "0x182B5AC40")]
+	[Address(RVA = "0x654C980", Offset = "0x654B980", VA = "0x654C980")]
 	private void AsSlopeIntercept(out float m, out float b, float x0, float x1, float y0, float y1)
 	{
 	}
 
 	[Token(Token = "0x6000E4C")]
-	[Address(RVA = "0x2B5ACA0", Offset = "0x2B592A0", VA = "0x182B5ACA0")]
+	[Address(RVA = "0x654C9C0", Offset = "0x654B9C0", VA = "0x654C9C0")]
 	private float EvalDerivativeLinearGamma(float m, float b, float g, float x)
 	{
 		return default(float);

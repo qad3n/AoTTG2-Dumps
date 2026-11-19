@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnInputFieldEndEditMessageListener : MessageListener
 {
 	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x2DBDFF0", Offset = "0x2DBC5F0", VA = "0x182DBDFF0")]
+	[Address(RVA = "0x67A56D0", Offset = "0x67A46D0", VA = "0x67A56D0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5790", Offset = "0x67A4790", VA = "0x67A5790")]
 	public UnityOnInputFieldEndEditMessageListener()
 	{
 	}

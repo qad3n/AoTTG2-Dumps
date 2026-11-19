@@ -11,23 +11,23 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000DD")]
+[Token(Token = "0x20000E3")]
 internal sealed class GisketchFocusInputSource : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, ISubmitHandler
 {
-	[Token(Token = "0x60006C3")]
-	[Address(RVA = "0x18FF010", Offset = "0x18FD610", VA = "0x1818FF010", Slot = "4")]
+	[Token(Token = "0x6000711")]
+	[Address(RVA = "0x52A1650", Offset = "0x52A0650", VA = "0x52A1650", Slot = "4")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x18FA410", Offset = "0x18F8A10", VA = "0x1818FA410", Slot = "5")]
+	[Token(Token = "0x6000712")]
+	[Address(RVA = "0x52A1700", Offset = "0x52A0700", VA = "0x52A1700", Slot = "5")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006C5")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000713")]
+	[Address(RVA = "0x52A17B0", Offset = "0x52A07B0", VA = "0x52A17B0")]
 	public GisketchFocusInputSource()
 	{
 	}

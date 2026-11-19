@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CoreUnsafeUtils
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,14 +43,14 @@ public static class CoreUnsafeUtils
 		public int Count
 		{
 			[Token(Token = "0x60004A2")]
-			[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+			[Address(RVA = "0x64BC470", Offset = "0x64BB470", VA = "0x64BC470")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60004A3")]
-			[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+			[Address(RVA = "0x64BC480", Offset = "0x64BB480", VA = "0x64BC480")]
 			[CompilerGenerated]
 			private set
 			{
@@ -58,27 +58,27 @@ public static class CoreUnsafeUtils
 		}
 
 		[Token(Token = "0x60004A4")]
-		[Address(RVA = "0x2AC12E0", Offset = "0x2ABF8E0", VA = "0x182AC12E0")]
+		[Address(RVA = "0x64BC490", Offset = "0x64BB490", VA = "0x64BC490")]
 		public unsafe FixedBufferStringQueue(byte* ptr, int length)
 		{
 		}
 
 		[Token(Token = "0x60004A5")]
-		[Address(RVA = "0x2AC1230", Offset = "0x2ABF830", VA = "0x182AC1230")]
+		[Address(RVA = "0x64BC4E0", Offset = "0x64BB4E0", VA = "0x64BC4E0")]
 		public bool TryPush(string v)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004A6")]
-		[Address(RVA = "0x2AC1170", Offset = "0x2ABF770", VA = "0x182AC1170")]
+		[Address(RVA = "0x64BC580", Offset = "0x64BB580", VA = "0x64BC580")]
 		public bool TryPop(out string v)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004A7")]
-		[Address(RVA = "0x2AC1140", Offset = "0x2ABF740", VA = "0x182AC1140")]
+		[Address(RVA = "0x64BC4C0", Offset = "0x64BB4C0", VA = "0x64BC4C0")]
 		public void Clear()
 		{
 		}
@@ -105,7 +105,7 @@ public static class CoreUnsafeUtils
 	internal struct UintKeyGetter : IKeyGetter<uint, uint>
 	{
 		[Token(Token = "0x60004AA")]
-		[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "4")]
+		[Address(RVA = "0x64BC5F0", Offset = "0x64BB5F0", VA = "0x64BC5F0", Slot = "4")]
 		public uint Get(ref uint v)
 		{
 			return default(uint);
@@ -116,7 +116,7 @@ public static class CoreUnsafeUtils
 	internal struct UlongKeyGetter : IKeyGetter<ulong, ulong>
 	{
 		[Token(Token = "0x60004AB")]
-		[Address(RVA = "0x8EBC10", Offset = "0x8EA210", VA = "0x1808EBC10", Slot = "4")]
+		[Address(RVA = "0x64BC600", Offset = "0x64BB600", VA = "0x64BC600", Slot = "4")]
 		public ulong Get(ref ulong v)
 		{
 			return default(ulong);
@@ -134,86 +134,86 @@ public static class CoreUnsafeUtils
 	}
 
 	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x2ABE140", Offset = "0x2ABC740", VA = "0x182ABE140")]
+	[Address(RVA = "0x64BB510", Offset = "0x64BA510", VA = "0x64BB510")]
 	private static void CalculateRadixParams(int radixBits, out int bitStates)
 	{
 	}
 
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x2ABE190", Offset = "0x2ABC790", VA = "0x182ABE190")]
+	[Address(RVA = "0x64BB520", Offset = "0x64BA520", VA = "0x64BB520")]
 	private static int CalculateRadixSupportSize(int bitStates, int arrayLength)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x2ABE150", Offset = "0x2ABC750", VA = "0x182ABE150")]
+	[Address(RVA = "0x64BB530", Offset = "0x64BA530", VA = "0x64BB530")]
 	private unsafe static void CalculateRadixSortSupportArrays(int bitStates, int arrayLength, uint* supportArray, out uint* bucketIndices, out uint* bucketSizes, out uint* bucketPrefix, out uint* arrayOutput)
 	{
 	}
 
 	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x2ABE6C0", Offset = "0x2ABCCC0", VA = "0x182ABE6C0")]
+	[Address(RVA = "0x64BB560", Offset = "0x64BA560", VA = "0x64BB560")]
 	private unsafe static void MergeSort(uint* array, uint* support, int length)
 	{
 	}
 
 	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x2ABE840", Offset = "0x2ABCE40", VA = "0x182ABE840")]
+	[Address(RVA = "0x64BB800", Offset = "0x64BA800", VA = "0x64BB800")]
 	public static void MergeSort(uint[] arr, int sortSize, ref uint[] supportArray)
 	{
 	}
 
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x2ABE5C0", Offset = "0x2ABCBC0", VA = "0x182ABE5C0")]
+	[Address(RVA = "0x64BB8D0", Offset = "0x64BA8D0", VA = "0x64BB8D0")]
 	public static void MergeSort(NativeArray<uint> arr, int sortSize, ref NativeArray<uint> supportArray)
 	{
 	}
 
 	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x2ABE470", Offset = "0x2ABCA70", VA = "0x182ABE470")]
+	[Address(RVA = "0x64BB9C0", Offset = "0x64BA9C0", VA = "0x64BB9C0")]
 	private unsafe static void InsertionSort(uint* arr, int length)
 	{
 	}
 
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x2ABE4D0", Offset = "0x2ABCAD0", VA = "0x182ABE4D0")]
+	[Address(RVA = "0x64BBA30", Offset = "0x64BAA30", VA = "0x64BBA30")]
 	public static void InsertionSort(uint[] arr, int sortSize)
 	{
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x2ABE390", Offset = "0x2ABC990", VA = "0x182ABE390")]
+	[Address(RVA = "0x64BBAE0", Offset = "0x64BAAE0", VA = "0x64BBAE0")]
 	public static void InsertionSort(NativeArray<uint> arr, int sortSize)
 	{
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x2ABEA10", Offset = "0x2ABD010", VA = "0x182ABEA10")]
+	[Address(RVA = "0x64BBBC0", Offset = "0x64BABC0", VA = "0x64BBBC0")]
 	private unsafe static void RadixSort(uint* array, uint* support, int radixBits, int bitStates, int length)
 	{
 	}
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x2ABEB90", Offset = "0x2ABD190", VA = "0x182ABEB90")]
+	[Address(RVA = "0x64BBF90", Offset = "0x64BAF90", VA = "0x64BBF90")]
 	public static void RadixSort(uint[] arr, int sortSize, ref uint[] supportArray, int radixBits = 8)
 	{
 	}
 
 	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x2ABECB0", Offset = "0x2ABD2B0", VA = "0x182ABECB0")]
+	[Address(RVA = "0x64BC090", Offset = "0x64BB090", VA = "0x64BC090")]
 	public static void RadixSort(NativeArray<uint> array, int sortSize, ref NativeArray<uint> supportArray, int radixBits = 8)
 	{
 	}
 
 	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x2ABE9A0", Offset = "0x2ABCFA0", VA = "0x182ABE9A0")]
+	[Address(RVA = "0x64BC1B0", Offset = "0x64BB1B0", VA = "0x64BC1B0")]
 	public static void QuickSort(uint[] arr, int left, int right)
 	{
 	}
 
 	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x2ABE930", Offset = "0x2ABCF30", VA = "0x182ABE930")]
+	[Address(RVA = "0x64BC210", Offset = "0x64BB210", VA = "0x64BC210")]
 	public static void QuickSort(ulong[] arr, int left, int right)
 	{
 	}
@@ -246,7 +246,7 @@ public static class CoreUnsafeUtils
 	}
 
 	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x2ABE200", Offset = "0x2ABC800", VA = "0x182ABE200")]
+	[Address(RVA = "0x64BC270", Offset = "0x64BB270", VA = "0x64BC270")]
 	public unsafe static int CompareHashes(int oldHashCount, Hash128* oldHashes, int newHashCount, Hash128* newHashes, int* addIndices, int* removeIndices, out int addCount, out int remCount)
 	{
 		return default(int);
@@ -258,7 +258,7 @@ public static class CoreUnsafeUtils
 	}
 
 	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x2ABE1A0", Offset = "0x2ABC7A0", VA = "0x182ABE1A0")]
+	[Address(RVA = "0x64BC300", Offset = "0x64BB300", VA = "0x64BC300")]
 	public unsafe static void CombineHashes(int count, Hash128* hashes, Hash128* outHash)
 	{
 	}
@@ -270,7 +270,7 @@ public static class CoreUnsafeUtils
 	}
 
 	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x2ABE260", Offset = "0x2ABC860", VA = "0x182ABE260")]
+	[Address(RVA = "0x64BC350", Offset = "0x64BB350", VA = "0x64BC350")]
 	public static bool HaveDuplicates(int[] arr)
 	{
 		return default(bool);

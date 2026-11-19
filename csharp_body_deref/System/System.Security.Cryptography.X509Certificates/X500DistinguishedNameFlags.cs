@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200012C")]
+[Token(Token = "0x20000ED")]
 [Flags]
 public enum X500DistinguishedNameFlags
 {
-	[Token(Token = "0x4000536")]
+	[Token(Token = "0x4000467")]
 	None = 0,
-	[Token(Token = "0x4000537")]
+	[Token(Token = "0x4000468")]
 	Reversed = 1,
-	[Token(Token = "0x4000538")]
+	[Token(Token = "0x4000469")]
 	UseSemicolons = 0x10,
-	[Token(Token = "0x4000539")]
+	[Token(Token = "0x400046A")]
 	DoNotUsePlusSign = 0x20,
-	[Token(Token = "0x400053A")]
+	[Token(Token = "0x400046B")]
 	DoNotUseQuotes = 0x40,
-	[Token(Token = "0x400053B")]
+	[Token(Token = "0x400046C")]
 	UseCommas = 0x80,
-	[Token(Token = "0x400053C")]
+	[Token(Token = "0x400046D")]
 	UseNewLines = 0x100,
-	[Token(Token = "0x400053D")]
+	[Token(Token = "0x400046E")]
 	UseUTF8Encoding = 0x1000,
-	[Token(Token = "0x400053E")]
+	[Token(Token = "0x400046F")]
 	UseT61Encoding = 0x2000,
-	[Token(Token = "0x400053F")]
+	[Token(Token = "0x4000470")]
 	ForceUTF8Encoding = 0x4000
 }

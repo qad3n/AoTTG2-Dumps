@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.AllocateBinsPerBatch
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -94,28 +94,28 @@ internal struct AllocateBinsPerBatch : IJobParallelFor
 	public NativeArray<int> splitDebugCounters;
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x2BBC700", Offset = "0x2BBAD00", VA = "0x182BBC700")]
+	[Address(RVA = "0x65C3620", Offset = "0x65C2620", VA = "0x65C3620")]
 	private bool IsInstanceFlipped(int rendererIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x2BBC790", Offset = "0x2BBAD90", VA = "0x182BBC790")]
+	[Address(RVA = "0x65C36A0", Offset = "0x65C26A0", VA = "0x65C36A0")]
 	private bool IsMeshLodVisible(int batchLodLevel, int rendererIndex, bool supportsCrossFade)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x2BBC690", Offset = "0x2BBAC90", VA = "0x182BBC690")]
+	[Address(RVA = "0x65C36F0", Offset = "0x65C26F0", VA = "0x65C36F0")]
 	private static int GetPrimitiveCount(int indexCount, MeshTopology topology, bool nativeQuads)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x2BBBFF0", Offset = "0x2BBA5F0", VA = "0x182BBBFF0", Slot = "4")]
+	[Address(RVA = "0x65C3760", Offset = "0x65C2760", VA = "0x65C3760", Slot = "4")]
 	public void Execute(int batchIndex)
 	{
 	}

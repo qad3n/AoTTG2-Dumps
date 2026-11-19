@@ -12,361 +12,361 @@ using UnityEngine.Video;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200044E")]
+[Token(Token = "0x20004AD")]
 [CompilerGenerated]
 internal class CustomLogicVideoPlayerBuiltin : BuiltinComponentInstance
 {
-	[Token(Token = "0x200044F")]
+	[Token(Token = "0x20004AE")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001E12")]
-		[Address(RVA = "0x1F56B00", Offset = "0x1F55100", VA = "0x181F56B00")]
+		[Token(Token = "0x6002089")]
+		[Address(RVA = "0x5909CE0", Offset = "0x5908CE0", VA = "0x5909CE0")]
 		public static CustomLogicVideoPlayerBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000450")]
+	[Token(Token = "0x20004AF")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001533")]
+		[Token(Token = "0x40016D3")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001E13")]
-		[Address(RVA = "0x1F2CA60", Offset = "0x1F2B060", VA = "0x181F2CA60")]
+		[Token(Token = "0x600208A")]
+		[Address(RVA = "0x5909DD0", Offset = "0x5908DD0", VA = "0x5909DD0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E14")]
-		[Address(RVA = "0x1F47C00", Offset = "0x1F46200", VA = "0x181F47C00")]
+		[Token(Token = "0x600208B")]
+		[Address(RVA = "0x590A3F0", Offset = "0x59093F0", VA = "0x590A3F0")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__Frame()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E15")]
-		[Address(RVA = "0x1F47AC0", Offset = "0x1F460C0", VA = "0x181F47AC0")]
+		[Token(Token = "0x600208C")]
+		[Address(RVA = "0x590A4D0", Offset = "0x59094D0", VA = "0x590A4D0")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__FrameCount()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E16")]
-		[Address(RVA = "0x1F47B60", Offset = "0x1F46160", VA = "0x181F47B60")]
+		[Token(Token = "0x600208D")]
+		[Address(RVA = "0x590A570", Offset = "0x5909570", VA = "0x590A570")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__FrameRate()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E17")]
-		[Address(RVA = "0x1F49500", Offset = "0x1F47B00", VA = "0x181F49500")]
+		[Token(Token = "0x600208E")]
+		[Address(RVA = "0x590A610", Offset = "0x5909610", VA = "0x590A610")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__IsLooping()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E18")]
-		[Address(RVA = "0x1F497D0", Offset = "0x1F47DD0", VA = "0x181F497D0")]
+		[Token(Token = "0x600208F")]
+		[Address(RVA = "0x590A6F0", Offset = "0x59096F0", VA = "0x590A6F0")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__IsPaused()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E19")]
-		[Address(RVA = "0x1F49870", Offset = "0x1F47E70", VA = "0x181F49870")]
+		[Token(Token = "0x6002090")]
+		[Address(RVA = "0x590A790", Offset = "0x5909790", VA = "0x590A790")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__IsPlaying()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1A")]
-		[Address(RVA = "0x1F49910", Offset = "0x1F47F10", VA = "0x181F49910")]
+		[Token(Token = "0x6002091")]
+		[Address(RVA = "0x590A830", Offset = "0x5909830", VA = "0x590A830")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__IsPrepared()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1B")]
-		[Address(RVA = "0x1F49CD0", Offset = "0x1F482D0", VA = "0x181F49CD0")]
+		[Token(Token = "0x6002092")]
+		[Address(RVA = "0x590A8D0", Offset = "0x59098D0", VA = "0x590A8D0")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__Length()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1C")]
-		[Address(RVA = "0x1F4A8B0", Offset = "0x1F48EB0", VA = "0x181F4A8B0")]
+		[Token(Token = "0x6002093")]
+		[Address(RVA = "0x590A970", Offset = "0x5909970", VA = "0x590A970")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__PlaybackSpeed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1D")]
-		[Address(RVA = "0x1F4BDF0", Offset = "0x1F4A3F0", VA = "0x181F4BDF0")]
+		[Token(Token = "0x6002094")]
+		[Address(RVA = "0x590AA50", Offset = "0x5909A50", VA = "0x590AA50")]
 		public static CLPropertyBinding<CustomLogicVideoPlayerBuiltin> __CreatePropertyBinding__Time()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1E")]
-		[Address(RVA = "0x1F43A70", Offset = "0x1F42070", VA = "0x181F43A70")]
+		[Token(Token = "0x6002095")]
+		[Address(RVA = "0x590AB30", Offset = "0x5909B30", VA = "0x590AB30")]
 		public static CLMethodBinding<CustomLogicVideoPlayerBuiltin> __CreateMethodBinding__Pause()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E1F")]
-		[Address(RVA = "0x1F43F00", Offset = "0x1F42500", VA = "0x181F43F00")]
+		[Token(Token = "0x6002096")]
+		[Address(RVA = "0x590AC70", Offset = "0x5909C70", VA = "0x590AC70")]
 		public static CLMethodBinding<CustomLogicVideoPlayerBuiltin> __CreateMethodBinding__Play()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E20")]
-		[Address(RVA = "0x1F44020", Offset = "0x1F42620", VA = "0x181F44020")]
+		[Token(Token = "0x6002097")]
+		[Address(RVA = "0x590ADB0", Offset = "0x5909DB0", VA = "0x590ADB0")]
 		public static CLMethodBinding<CustomLogicVideoPlayerBuiltin> __CreateMethodBinding__Prepare()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E21")]
-		[Address(RVA = "0x1F45860", Offset = "0x1F43E60", VA = "0x181F45860")]
+		[Token(Token = "0x6002098")]
+		[Address(RVA = "0x590AEF0", Offset = "0x5909EF0", VA = "0x590AEF0")]
 		public static CLMethodBinding<CustomLogicVideoPlayerBuiltin> __CreateMethodBinding__StepForward()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001E22")]
-		[Address(RVA = "0x1F45AB0", Offset = "0x1F440B0", VA = "0x181F45AB0")]
+		[Token(Token = "0x6002099")]
+		[Address(RVA = "0x590B030", Offset = "0x590A030", VA = "0x590B030")]
 		public static CLMethodBinding<CustomLogicVideoPlayerBuiltin> __CreateMethodBinding__Stop()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001531")]
+	[Token(Token = "0x40016D1")]
 	[FieldOffset(Offset = "0x38")]
 	public VideoPlayer Value;
 
-	[Token(Token = "0x4001532")]
+	[Token(Token = "0x40016D2")]
 	[FieldOffset(Offset = "0x40")]
 	public BuiltinClassInstance OwnerBuiltin;
 
-	[Token(Token = "0x17000389")]
+	[Token(Token = "0x170003CA")]
 	public int Frame
 	{
-		[Token(Token = "0x6001DFC")]
-		[Address(RVA = "0x1F56950", Offset = "0x1F54F50", VA = "0x181F56950")]
+		[Token(Token = "0x6002073")]
+		[Address(RVA = "0x5909A40", Offset = "0x5908A40", VA = "0x5909A40")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001DFB")]
-		[Address(RVA = "0x1F56A60", Offset = "0x1F55060", VA = "0x181F56A60")]
+		[Token(Token = "0x6002072")]
+		[Address(RVA = "0x5909A20", Offset = "0x5908A20", VA = "0x5909A20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700038A")]
+	[Token(Token = "0x170003CB")]
 	public ulong FrameCount
 	{
-		[Token(Token = "0x6001DFD")]
-		[Address(RVA = "0x1F56910", Offset = "0x1F54F10", VA = "0x181F56910")]
+		[Token(Token = "0x6002074")]
+		[Address(RVA = "0x5909A60", Offset = "0x5908A60", VA = "0x5909A60")]
 		get
 		{
 			return default(ulong);
 		}
 	}
 
-	[Token(Token = "0x1700038B")]
+	[Token(Token = "0x170003CC")]
 	public float FrameRate
 	{
-		[Token(Token = "0x6001DFE")]
-		[Address(RVA = "0x1F56930", Offset = "0x1F54F30", VA = "0x181F56930")]
+		[Token(Token = "0x6002075")]
+		[Address(RVA = "0x5909A80", Offset = "0x5908A80", VA = "0x5909A80")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700038C")]
+	[Token(Token = "0x170003CD")]
 	public bool IsLooping
 	{
-		[Token(Token = "0x6001E00")]
-		[Address(RVA = "0x1F56970", Offset = "0x1F54F70", VA = "0x181F56970")]
+		[Token(Token = "0x6002077")]
+		[Address(RVA = "0x5909AC0", Offset = "0x5908AC0", VA = "0x5909AC0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001DFF")]
-		[Address(RVA = "0x1F56A90", Offset = "0x1F55090", VA = "0x181F56A90")]
+		[Token(Token = "0x6002076")]
+		[Address(RVA = "0x5909AA0", Offset = "0x5908AA0", VA = "0x5909AA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700038D")]
+	[Token(Token = "0x170003CE")]
 	public bool IsPaused
 	{
-		[Token(Token = "0x6001E01")]
-		[Address(RVA = "0x1F56990", Offset = "0x1F54F90", VA = "0x181F56990")]
+		[Token(Token = "0x6002078")]
+		[Address(RVA = "0x5909AE0", Offset = "0x5908AE0", VA = "0x5909AE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700038E")]
+	[Token(Token = "0x170003CF")]
 	public bool IsPlaying
 	{
-		[Token(Token = "0x6001E02")]
-		[Address(RVA = "0x1F569B0", Offset = "0x1F54FB0", VA = "0x181F569B0")]
+		[Token(Token = "0x6002079")]
+		[Address(RVA = "0x5909B00", Offset = "0x5908B00", VA = "0x5909B00")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700038F")]
+	[Token(Token = "0x170003D0")]
 	public bool IsPrepared
 	{
-		[Token(Token = "0x6001E03")]
-		[Address(RVA = "0x1F569D0", Offset = "0x1F54FD0", VA = "0x181F569D0")]
+		[Token(Token = "0x600207A")]
+		[Address(RVA = "0x5909B20", Offset = "0x5908B20", VA = "0x5909B20")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000390")]
+	[Token(Token = "0x170003D1")]
 	public double Length
 	{
-		[Token(Token = "0x6001E04")]
-		[Address(RVA = "0x1F569F0", Offset = "0x1F54FF0", VA = "0x181F569F0")]
+		[Token(Token = "0x600207B")]
+		[Address(RVA = "0x5909B40", Offset = "0x5908B40", VA = "0x5909B40")]
 		get
 		{
 			return default(double);
 		}
 	}
 
-	[Token(Token = "0x17000391")]
+	[Token(Token = "0x170003D2")]
 	public float PlaybackSpeed
 	{
-		[Token(Token = "0x6001E06")]
-		[Address(RVA = "0x1F56A10", Offset = "0x1F55010", VA = "0x181F56A10")]
+		[Token(Token = "0x600207D")]
+		[Address(RVA = "0x5909B80", Offset = "0x5908B80", VA = "0x5909B80")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001E05")]
-		[Address(RVA = "0x1F56AB0", Offset = "0x1F550B0", VA = "0x181F56AB0")]
+		[Token(Token = "0x600207C")]
+		[Address(RVA = "0x5909B60", Offset = "0x5908B60", VA = "0x5909B60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000392")]
+	[Token(Token = "0x170003D3")]
 	public float Time
 	{
-		[Token(Token = "0x6001E08")]
-		[Address(RVA = "0x1F56A30", Offset = "0x1F55030", VA = "0x181F56A30")]
+		[Token(Token = "0x600207F")]
+		[Address(RVA = "0x5909BC0", Offset = "0x5908BC0", VA = "0x5909BC0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001E07")]
-		[Address(RVA = "0x1F56AD0", Offset = "0x1F550D0", VA = "0x181F56AD0")]
+		[Token(Token = "0x600207E")]
+		[Address(RVA = "0x5909BA0", Offset = "0x5908BA0", VA = "0x5909BA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000393")]
+	[Token(Token = "0x170003D4")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001E0E")]
-		[Address(RVA = "0x1F568E0", Offset = "0x1F54EE0", VA = "0x181F568E0", Slot = "6")]
+		[Token(Token = "0x6002085")]
+		[Address(RVA = "0x5909C80", Offset = "0x5908C80", VA = "0x5909C80", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000394")]
+	[Token(Token = "0x170003D5")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001E0F")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002086")]
+		[Address(RVA = "0x5909CB0", Offset = "0x5908CB0", VA = "0x5909CB0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000395")]
+	[Token(Token = "0x170003D6")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001E10")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6002087")]
+		[Address(RVA = "0x5909CC0", Offset = "0x5908CC0", VA = "0x5909CC0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000396")]
+	[Token(Token = "0x170003D7")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001E11")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002088")]
+		[Address(RVA = "0x5909CD0", Offset = "0x5908CD0", VA = "0x5909CD0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001DF9")]
-	[Address(RVA = "0x1F01510", Offset = "0x1EFFB10", VA = "0x181F01510")]
+	[Token(Token = "0x6002070")]
+	[Address(RVA = "0x5909980", Offset = "0x5908980", VA = "0x5909980")]
 	public CustomLogicVideoPlayerBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6001DFA")]
-	[Address(RVA = "0x1F56820", Offset = "0x1F54E20", VA = "0x181F56820")]
+	[Token(Token = "0x6002071")]
+	[Address(RVA = "0x5909990", Offset = "0x5908990", VA = "0x5909990")]
 	public CustomLogicVideoPlayerBuiltin(BuiltinClassInstance owner, VideoPlayer videoPlayer)
 	{
 	}
 
-	[Token(Token = "0x6001E09")]
-	[Address(RVA = "0x1F56780", Offset = "0x1F54D80", VA = "0x181F56780")]
+	[Token(Token = "0x6002080")]
+	[Address(RVA = "0x5909BE0", Offset = "0x5908BE0", VA = "0x5909BE0")]
 	public void Pause()
 	{
 	}
 
-	[Token(Token = "0x6001E0A")]
-	[Address(RVA = "0x1F567A0", Offset = "0x1F54DA0", VA = "0x181F567A0")]
+	[Token(Token = "0x6002081")]
+	[Address(RVA = "0x5909C00", Offset = "0x5908C00", VA = "0x5909C00")]
 	public void Play()
 	{
 	}
 
-	[Token(Token = "0x6001E0B")]
-	[Address(RVA = "0x1F567C0", Offset = "0x1F54DC0", VA = "0x181F567C0")]
+	[Token(Token = "0x6002082")]
+	[Address(RVA = "0x5909C20", Offset = "0x5908C20", VA = "0x5909C20")]
 	public void Prepare()
 	{
 	}
 
-	[Token(Token = "0x6001E0C")]
-	[Address(RVA = "0x1F567E0", Offset = "0x1F54DE0", VA = "0x181F567E0")]
+	[Token(Token = "0x6002083")]
+	[Address(RVA = "0x5909C40", Offset = "0x5908C40", VA = "0x5909C40")]
 	public void StepForward()
 	{
 	}
 
-	[Token(Token = "0x6001E0D")]
-	[Address(RVA = "0x1F56800", Offset = "0x1F54E00", VA = "0x181F56800")]
+	[Token(Token = "0x6002084")]
+	[Address(RVA = "0x5909C60", Offset = "0x5908C60", VA = "0x5909C60")]
 	public void Stop()
 	{
 	}

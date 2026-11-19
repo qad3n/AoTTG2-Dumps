@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -84,7 +84,7 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public int version
 	{
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x678CD50", Offset = "0x678BD50", VA = "0x678CD50", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -95,13 +95,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader GeometryPoolKernels
 	{
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x678CD60", Offset = "0x678BD60", VA = "0x678CD60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600018D")]
-		[Address(RVA = "0x2D98170", Offset = "0x2D96770", VA = "0x182D98170")]
+		[Address(RVA = "0x678CD70", Offset = "0x678BD70", VA = "0x678CD70")]
 		set
 		{
 		}
@@ -111,13 +111,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader CopyBuffer
 	{
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x678CDD0", Offset = "0x678BDD0", VA = "0x678CDD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600018F")]
-		[Address(RVA = "0x2D98090", Offset = "0x2D96690", VA = "0x182D98090")]
+		[Address(RVA = "0x678CDE0", Offset = "0x678BDE0", VA = "0x678CDE0")]
 		set
 		{
 		}
@@ -127,13 +127,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader CopyPositions
 	{
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x678CE40", Offset = "0x678BE40", VA = "0x678CE40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0x2D98100", Offset = "0x2D96700", VA = "0x182D98100")]
+		[Address(RVA = "0x678CE50", Offset = "0x678BE50", VA = "0x678CE50")]
 		set
 		{
 		}
@@ -143,13 +143,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader BitHistogram
 	{
 		[Token(Token = "0x6000192")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x678CEB0", Offset = "0x678BEB0", VA = "0x678CEB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x2D97ED0", Offset = "0x2D964D0", VA = "0x182D97ED0")]
+		[Address(RVA = "0x678CEC0", Offset = "0x678BEC0", VA = "0x678CEC0")]
 		set
 		{
 		}
@@ -159,13 +159,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader BlockReducePart
 	{
 		[Token(Token = "0x6000194")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x678CF20", Offset = "0x678BF20", VA = "0x678CF20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x2D97F40", Offset = "0x2D96540", VA = "0x182D97F40")]
+		[Address(RVA = "0x678CF30", Offset = "0x678BF30", VA = "0x678CF30")]
 		set
 		{
 		}
@@ -175,13 +175,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader BlockScan
 	{
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x678CF90", Offset = "0x678BF90", VA = "0x678CF90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x2D97FB0", Offset = "0x2D965B0", VA = "0x182D97FB0")]
+		[Address(RVA = "0x678CFA0", Offset = "0x678BFA0", VA = "0x678CFA0")]
 		set
 		{
 		}
@@ -191,13 +191,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader BuildHlbvh
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x678D000", Offset = "0x678C000", VA = "0x678D000")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x2D98020", Offset = "0x2D96620", VA = "0x182D98020")]
+		[Address(RVA = "0x678D010", Offset = "0x678C010", VA = "0x678D010")]
 		set
 		{
 		}
@@ -207,13 +207,13 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader RestructureBvh
 	{
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x678D070", Offset = "0x678C070", VA = "0x678D070")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x2D981E0", Offset = "0x2D967E0", VA = "0x182D981E0")]
+		[Address(RVA = "0x678D080", Offset = "0x678C080", VA = "0x678D080")]
 		set
 		{
 		}
@@ -223,20 +223,20 @@ public sealed class RayTracingRenderPipelineResources : IRenderPipelineResources
 	public ComputeShader Scatter
 	{
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x678D0E0", Offset = "0x678C0E0", VA = "0x678D0E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x2D98250", Offset = "0x2D96850", VA = "0x182D98250")]
+		[Address(RVA = "0x678D0F0", Offset = "0x678C0F0", VA = "0x678D0F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x18D09C0", Offset = "0x18CEFC0", VA = "0x1818D09C0")]
+	[Address(RVA = "0x678D150", Offset = "0x678C150", VA = "0x678D150")]
 	public RayTracingRenderPipelineResources()
 	{
 	}

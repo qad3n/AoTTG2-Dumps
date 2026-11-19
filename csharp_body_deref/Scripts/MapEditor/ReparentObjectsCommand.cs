@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: MapEditor.ReparentObjectsCommand
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/MapEditor/ReparentObjectsCommand.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,84 +12,84 @@ using UnityEngine;
 
 namespace MapEditor;
 
-[Token(Token = "0x200013D")]
+[Token(Token = "0x2000145")]
 internal class ReparentObjectsCommand : BaseCommand
 {
-	[Token(Token = "0x200013E")]
+	[Token(Token = "0x2000146")]
 	private class ObjectState
 	{
-		[Token(Token = "0x4000724")]
+		[Token(Token = "0x4000770")]
 		[FieldOffset(Offset = "0x10")]
 		public int Parent;
 
-		[Token(Token = "0x4000725")]
+		[Token(Token = "0x4000771")]
 		[FieldOffset(Offset = "0x14")]
 		public Vector3 Position;
 
-		[Token(Token = "0x4000726")]
+		[Token(Token = "0x4000772")]
 		[FieldOffset(Offset = "0x20")]
 		public Vector3 Rotation;
 
-		[Token(Token = "0x4000727")]
+		[Token(Token = "0x4000773")]
 		[FieldOffset(Offset = "0x2C")]
 		public Vector3 Scale;
 
-		[Token(Token = "0x600062B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6000697")]
+		[Address(RVA = "0x5B8FE60", Offset = "0x5B8EE60", VA = "0x5B8FE60")]
 		public ObjectState()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x400076C")]
 	[FieldOffset(Offset = "0x10")]
 	private Dictionary<int, ObjectState> _oldStates;
 
-	[Token(Token = "0x4000721")]
+	[Token(Token = "0x400076D")]
 	[FieldOffset(Offset = "0x18")]
 	private Dictionary<int, ObjectState> _newStates;
 
-	[Token(Token = "0x4000722")]
+	[Token(Token = "0x400076E")]
 	[FieldOffset(Offset = "0x20")]
 	private Dictionary<int, int> _targetParents;
 
-	[Token(Token = "0x4000723")]
+	[Token(Token = "0x400076F")]
 	[FieldOffset(Offset = "0x28")]
 	private bool _capturedNewState;
 
-	[Token(Token = "0x6000625")]
-	[Address(RVA = "0x21FACC0", Offset = "0x21F92C0", VA = "0x1821FACC0")]
+	[Token(Token = "0x6000691")]
+	[Address(RVA = "0x5B8C480", Offset = "0x5B8B480", VA = "0x5B8C480")]
 	public ReparentObjectsCommand(List<MapObject> mapObjects, int newParentId)
 	{
 	}
 
-	[Token(Token = "0x6000626")]
-	[Address(RVA = "0x21FA7F0", Offset = "0x21F8DF0", VA = "0x1821FA7F0", Slot = "4")]
+	[Token(Token = "0x6000692")]
+	[Address(RVA = "0x5B8F2A0", Offset = "0x5B8E2A0", VA = "0x5B8F2A0", Slot = "4")]
 	public override void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000627")]
-	[Address(RVA = "0x21FACB0", Offset = "0x21F92B0", VA = "0x1821FACB0", Slot = "5")]
+	[Token(Token = "0x6000693")]
+	[Address(RVA = "0x5B8FE50", Offset = "0x5B8EE50", VA = "0x5B8FE50", Slot = "5")]
 	public override void Unexecute()
 	{
 	}
 
-	[Token(Token = "0x6000628")]
-	[Address(RVA = "0x21FA150", Offset = "0x21F8750", VA = "0x1821FA150")]
+	[Token(Token = "0x6000694")]
+	[Address(RVA = "0x5B8F990", Offset = "0x5B8E990", VA = "0x5B8F990")]
 	private void ApplyStates(Dictionary<int, ObjectState> states)
 	{
 	}
 
-	[Token(Token = "0x6000629")]
-	[Address(RVA = "0x21FA5C0", Offset = "0x21F8BC0", VA = "0x1821FA5C0")]
+	[Token(Token = "0x6000695")]
+	[Address(RVA = "0x5B8F0F0", Offset = "0x5B8E0F0", VA = "0x5B8F0F0")]
 	private ObjectState CaptureState(MapObject obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600062A")]
-	[Address(RVA = "0x21F9F00", Offset = "0x21F8500", VA = "0x1821F9F00")]
+	[Token(Token = "0x6000696")]
+	[Address(RVA = "0x5B8F7D0", Offset = "0x5B8E7D0", VA = "0x5B8F7D0")]
 	private void ApplyState(MapObject obj, ObjectState state)
 	{
 	}

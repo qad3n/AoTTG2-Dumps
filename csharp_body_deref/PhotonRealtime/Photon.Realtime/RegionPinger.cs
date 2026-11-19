@@ -53,7 +53,7 @@ public class RegionPinger
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60001A9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x56C0370", Offset = "0x56BF370", VA = "0x56C0370", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,7 +65,7 @@ public class RegionPinger
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60001AB")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x56C03C0", Offset = "0x56BF3C0", VA = "0x56C03C0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,28 +74,28 @@ public class RegionPinger
 		}
 
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x56BFBD0", Offset = "0x56BEBD0", VA = "0x56BFBD0")]
 		[DebuggerHidden]
 		public _003CRegionPingCoroutine_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x56BFC50", Offset = "0x56BEC50", VA = "0x56BFC50", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x1D2DFE0", Offset = "0x1D2C5E0", VA = "0x181D2DFE0", Slot = "6")]
+		[Address(RVA = "0x56BFC60", Offset = "0x56BEC60", VA = "0x56BFC60", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x1D2E690", Offset = "0x1D2CC90", VA = "0x181D2E690", Slot = "8")]
+		[Address(RVA = "0x56C0380", Offset = "0x56BF380", VA = "0x56C0380", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -142,14 +142,14 @@ public class RegionPinger
 	public bool Done
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x56BF300", Offset = "0x56BE300", VA = "0x56BF300")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x56BF310", Offset = "0x56BE310", VA = "0x56BF310")]
 		[CompilerGenerated]
 		private set
 		{
@@ -160,14 +160,14 @@ public class RegionPinger
 	public bool Aborted
 	{
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x1A78700", Offset = "0x1A76D00", VA = "0x181A78700")]
+		[Address(RVA = "0x56BF320", Offset = "0x56BE320", VA = "0x56BF320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x1A78720", Offset = "0x1A76D20", VA = "0x181A78720")]
+		[Address(RVA = "0x56BF330", Offset = "0x56BE330", VA = "0x56BF330")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -175,40 +175,40 @@ public class RegionPinger
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x1D297B0", Offset = "0x1D27DB0", VA = "0x181D297B0")]
+	[Address(RVA = "0x56BE8D0", Offset = "0x56BD8D0", VA = "0x56BE8D0")]
 	public RegionPinger(Region region, Action<Region> onDoneCallback)
 	{
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x1D28BA0", Offset = "0x1D271A0", VA = "0x181D28BA0")]
+	[Address(RVA = "0x56BF340", Offset = "0x56BE340", VA = "0x56BF340")]
 	private PhotonPing GetPingImplementation()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x1D29370", Offset = "0x1D27970", VA = "0x181D29370")]
+	[Address(RVA = "0x56BE980", Offset = "0x56BD980", VA = "0x56BE980")]
 	public bool Start()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x1D28B70", Offset = "0x1D27170", VA = "0x181D28B70")]
+	[Address(RVA = "0x56BEF20", Offset = "0x56BDF20", VA = "0x56BEF20")]
 	protected internal void Abort()
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x1D28E70", Offset = "0x1D27470", VA = "0x181D28E70")]
+	[Address(RVA = "0x56BF730", Offset = "0x56BE730", VA = "0x56BF730")]
 	protected internal bool RegionPingThreaded()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x1D28E00", Offset = "0x1D27400", VA = "0x181D28E00")]
+	[Address(RVA = "0x56BFB60", Offset = "0x56BEB60", VA = "0x56BFB60")]
 	[IteratorStateMachine(typeof(_003CRegionPingCoroutine_003Ed__22))]
 	protected internal IEnumerator RegionPingCoroutine()
 	{
@@ -216,14 +216,14 @@ public class RegionPinger
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x1D28D30", Offset = "0x1D27330", VA = "0x181D28D30")]
+	[Address(RVA = "0x56BDA90", Offset = "0x56BCA90", VA = "0x56BDA90")]
 	public string GetResults()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x1D29190", Offset = "0x1D27790", VA = "0x181D29190")]
+	[Address(RVA = "0x56BF4D0", Offset = "0x56BE4D0", VA = "0x56BF4D0")]
 	public static string ResolveHost(string hostName)
 	{
 		return null;

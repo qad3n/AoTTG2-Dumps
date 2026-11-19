@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.ExcludeFromBurstCompatTestingAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,14 +19,14 @@ public class ExcludeFromBurstCompatTestingAttribute : Attribute
 	public string Reason
 	{
 		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x637C900", Offset = "0x637B900", VA = "0x637C900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x637C910", Offset = "0x637B910", VA = "0x637C910")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,7 +34,7 @@ public class ExcludeFromBurstCompatTestingAttribute : Attribute
 	}
 
 	[Token(Token = "0x60006DB")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x637C920", Offset = "0x637B920", VA = "0x637C920")]
 	public ExcludeFromBurstCompatTestingAttribute(string _reason)
 	{
 	}

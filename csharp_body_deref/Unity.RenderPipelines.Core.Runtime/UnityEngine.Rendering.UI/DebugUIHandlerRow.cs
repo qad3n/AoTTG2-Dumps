@@ -17,40 +17,40 @@ public class DebugUIHandlerRow : DebugUIHandlerFoldout
 	private float m_Timer;
 
 	[Token(Token = "0x60014A5")]
-	[Address(RVA = "0x16F6DE0", Offset = "0x16F53E0", VA = "0x1816F6DE0", Slot = "4")]
+	[Address(RVA = "0x65ABAD0", Offset = "0x65AAAD0", VA = "0x65ABAD0", Slot = "4")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60014A6")]
-	[Address(RVA = "0x2BB03A0", Offset = "0x2BAE9A0", VA = "0x182BB03A0")]
+	[Address(RVA = "0x65ABAE0", Offset = "0x65AAAE0", VA = "0x65ABAE0")]
 	private GameObject GetChild(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014A7")]
-	[Address(RVA = "0x2BB0620", Offset = "0x2BAEC20", VA = "0x182BB0620")]
+	[Address(RVA = "0x65ABC00", Offset = "0x65AAC00", VA = "0x65ABC00")]
 	private bool TryGetChild(int index, out GameObject child)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014A8")]
-	[Address(RVA = "0x2BB04D0", Offset = "0x2BAEAD0", VA = "0x182BB04D0")]
+	[Address(RVA = "0x65ABC70", Offset = "0x65AAC70", VA = "0x65ABC70")]
 	private bool IsActive(DebugUI.Table table, int index, GameObject child)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014A9")]
-	[Address(RVA = "0x2BB06B0", Offset = "0x2BAECB0", VA = "0x182BB06B0")]
+	[Address(RVA = "0x65ABDA0", Offset = "0x65AADA0", VA = "0x65ABDA0")]
 	protected void Update()
 	{
 	}
 
 	[Token(Token = "0x60014AA")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AC360", Offset = "0x65AB360", VA = "0x65AC360")]
 	public DebugUIHandlerRow()
 	{
 	}

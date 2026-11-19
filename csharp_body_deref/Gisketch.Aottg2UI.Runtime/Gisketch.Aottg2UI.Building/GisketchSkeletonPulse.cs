@@ -12,109 +12,109 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x20000BC")]
 public sealed class GisketchSkeletonPulse : MonoBehaviour
 {
-	[Token(Token = "0x40003B9")]
+	[Token(Token = "0x40003E0")]
 	private const string ShimmerName = "AoTTG Skeleton Shimmer";
 
-	[Token(Token = "0x40003BA")]
+	[Token(Token = "0x40003E1")]
 	private const float Duration = 1.18f;
 
-	[Token(Token = "0x40003BB")]
+	[Token(Token = "0x40003E2")]
 	private const float WidthRatio = 0.42f;
 
-	[Token(Token = "0x40003BC")]
+	[Token(Token = "0x40003E3")]
 	private const float HeightRatio = 1.35f;
 
-	[Token(Token = "0x40003BD")]
+	[Token(Token = "0x40003E4")]
 	private const int FeatherTextureWidth = 64;
 
-	[Token(Token = "0x40003BE")]
+	[Token(Token = "0x40003E5")]
 	[FieldOffset(Offset = "0x0")]
 	private static Sprite _featherSprite;
 
-	[Token(Token = "0x40003BF")]
+	[Token(Token = "0x40003E6")]
 	[FieldOffset(Offset = "0x20")]
 	private Image _image;
 
-	[Token(Token = "0x40003C0")]
+	[Token(Token = "0x40003E7")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform _root;
 
-	[Token(Token = "0x40003C1")]
+	[Token(Token = "0x40003E8")]
 	[FieldOffset(Offset = "0x30")]
 	private RectTransform _shimmer;
 
-	[Token(Token = "0x40003C2")]
+	[Token(Token = "0x40003E9")]
 	[FieldOffset(Offset = "0x38")]
 	private Color _baseColor;
 
-	[Token(Token = "0x40003C3")]
+	[Token(Token = "0x40003EA")]
 	[FieldOffset(Offset = "0x48")]
 	private Color _pulseColor;
 
-	[Token(Token = "0x40003C4")]
+	[Token(Token = "0x40003EB")]
 	[FieldOffset(Offset = "0x58")]
 	private Tween _pulse;
 
-	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x1908100", Offset = "0x1906700", VA = "0x181908100")]
+	[Token(Token = "0x60005E9")]
+	[Address(RVA = "0x5291F20", Offset = "0x5290F20", VA = "0x5291F20")]
 	public void Setup(Image image, Color baseColor, Color pulseColor)
 	{
 	}
 
-	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x19080F0", Offset = "0x19066F0", VA = "0x1819080F0")]
+	[Token(Token = "0x60005EA")]
+	[Address(RVA = "0x5292580", Offset = "0x5291580", VA = "0x5292580")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x19080B0", Offset = "0x19066B0", VA = "0x1819080B0")]
+	[Token(Token = "0x60005EB")]
+	[Address(RVA = "0x5292590", Offset = "0x5291590", VA = "0x5292590")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x19080B0", Offset = "0x19066B0", VA = "0x1819080B0")]
+	[Token(Token = "0x60005EC")]
+	[Address(RVA = "0x52925F0", Offset = "0x52915F0", VA = "0x52925F0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x19081D0", Offset = "0x19067D0", VA = "0x1819081D0")]
+	[Token(Token = "0x60005ED")]
+	[Address(RVA = "0x52923F0", Offset = "0x52913F0", VA = "0x52923F0")]
 	private void StartPulse()
 	{
 	}
 
-	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x19080B0", Offset = "0x19066B0", VA = "0x1819080B0")]
+	[Token(Token = "0x60005EE")]
+	[Address(RVA = "0x52925C0", Offset = "0x52915C0", VA = "0x52925C0")]
 	private void StopPulse()
 	{
 	}
 
-	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x1907850", Offset = "0x1905E50", VA = "0x181907850")]
+	[Token(Token = "0x60005EF")]
+	[Address(RVA = "0x5292010", Offset = "0x5291010", VA = "0x5292010")]
 	private void EnsureShimmer()
 	{
 	}
 
-	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x1908360", Offset = "0x1906960", VA = "0x181908360")]
+	[Token(Token = "0x60005F0")]
+	[Address(RVA = "0x5292850", Offset = "0x5291850", VA = "0x5292850")]
 	private void UpdateShimmer(float value)
 	{
 	}
 
-	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x1907DB0", Offset = "0x19063B0", VA = "0x181907DB0")]
+	[Token(Token = "0x60005F1")]
+	[Address(RVA = "0x5292620", Offset = "0x5291620", VA = "0x5292620")]
 	private static Sprite FeatherSprite()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005A5")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60005F2")]
+	[Address(RVA = "0x52929C0", Offset = "0x52919C0", VA = "0x52929C0")]
 	public GisketchSkeletonPulse()
 	{
 	}

@@ -22,20 +22,20 @@ internal class ExceptionHolder
 	private bool calledGet;
 
 	[Token(Token = "0x60006CF")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x62D9DC0", Offset = "0x62D8DC0", VA = "0x62D9DC0")]
 	public ExceptionHolder(ExceptionDispatchInfo exception)
 	{
 	}
 
 	[Token(Token = "0x60006D0")]
-	[Address(RVA = "0x290DEA0", Offset = "0x290C4A0", VA = "0x18290DEA0")]
+	[Address(RVA = "0x62D9DF0", Offset = "0x62D8DF0", VA = "0x62D9DF0")]
 	public ExceptionDispatchInfo GetException()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006D1")]
-	[Address(RVA = "0x290DDF0", Offset = "0x290C3F0", VA = "0x18290DDF0", Slot = "1")]
+	[Address(RVA = "0x62D9E50", Offset = "0x62D8E50", VA = "0x62D9E50", Slot = "1")]
 	~ExceptionHolder()
 	{
 	}

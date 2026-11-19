@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public static class RuntimeVSUsageUtility
 {
 	[Token(Token = "0x60010B1")]
-	[Address(RVA = "0x2E556A0", Offset = "0x2E53CA0", VA = "0x182E556A0")]
+	[Address(RVA = "0x684B990", Offset = "0x684A990", VA = "0x684B990")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 	private static void RuntimeInitializeOnLoadBeforeSceneLoad()
 	{

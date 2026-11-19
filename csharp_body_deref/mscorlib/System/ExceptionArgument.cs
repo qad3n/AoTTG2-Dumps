@@ -9,109 +9,109 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000198")]
+[Token(Token = "0x2000170")]
 internal enum ExceptionArgument
 {
-	[Token(Token = "0x40005F8")]
+	[Token(Token = "0x4000556")]
 	obj,
-	[Token(Token = "0x40005F9")]
+	[Token(Token = "0x4000557")]
 	dictionary,
-	[Token(Token = "0x40005FA")]
+	[Token(Token = "0x4000558")]
 	dictionaryCreationThreshold,
-	[Token(Token = "0x40005FB")]
+	[Token(Token = "0x4000559")]
 	array,
-	[Token(Token = "0x40005FC")]
+	[Token(Token = "0x400055A")]
 	info,
-	[Token(Token = "0x40005FD")]
+	[Token(Token = "0x400055B")]
 	key,
-	[Token(Token = "0x40005FE")]
+	[Token(Token = "0x400055C")]
 	collection,
-	[Token(Token = "0x40005FF")]
+	[Token(Token = "0x400055D")]
 	list,
-	[Token(Token = "0x4000600")]
+	[Token(Token = "0x400055E")]
 	match,
-	[Token(Token = "0x4000601")]
+	[Token(Token = "0x400055F")]
 	converter,
-	[Token(Token = "0x4000602")]
+	[Token(Token = "0x4000560")]
 	queue,
-	[Token(Token = "0x4000603")]
+	[Token(Token = "0x4000561")]
 	stack,
-	[Token(Token = "0x4000604")]
+	[Token(Token = "0x4000562")]
 	capacity,
-	[Token(Token = "0x4000605")]
+	[Token(Token = "0x4000563")]
 	index,
-	[Token(Token = "0x4000606")]
+	[Token(Token = "0x4000564")]
 	startIndex,
-	[Token(Token = "0x4000607")]
+	[Token(Token = "0x4000565")]
 	value,
-	[Token(Token = "0x4000608")]
+	[Token(Token = "0x4000566")]
 	count,
-	[Token(Token = "0x4000609")]
+	[Token(Token = "0x4000567")]
 	arrayIndex,
-	[Token(Token = "0x400060A")]
+	[Token(Token = "0x4000568")]
 	name,
-	[Token(Token = "0x400060B")]
+	[Token(Token = "0x4000569")]
 	mode,
-	[Token(Token = "0x400060C")]
+	[Token(Token = "0x400056A")]
 	item,
-	[Token(Token = "0x400060D")]
+	[Token(Token = "0x400056B")]
 	options,
-	[Token(Token = "0x400060E")]
+	[Token(Token = "0x400056C")]
 	view,
-	[Token(Token = "0x400060F")]
+	[Token(Token = "0x400056D")]
 	sourceBytesToCopy,
-	[Token(Token = "0x4000610")]
+	[Token(Token = "0x400056E")]
 	start,
-	[Token(Token = "0x4000611")]
+	[Token(Token = "0x400056F")]
 	pointer,
-	[Token(Token = "0x4000612")]
+	[Token(Token = "0x4000570")]
 	ownedMemory,
-	[Token(Token = "0x4000613")]
+	[Token(Token = "0x4000571")]
 	text,
-	[Token(Token = "0x4000614")]
+	[Token(Token = "0x4000572")]
 	length,
-	[Token(Token = "0x4000615")]
+	[Token(Token = "0x4000573")]
 	comparer,
-	[Token(Token = "0x4000616")]
+	[Token(Token = "0x4000574")]
 	comparable,
-	[Token(Token = "0x4000617")]
+	[Token(Token = "0x4000575")]
 	exceptions,
-	[Token(Token = "0x4000618")]
+	[Token(Token = "0x4000576")]
 	exception,
-	[Token(Token = "0x4000619")]
+	[Token(Token = "0x4000577")]
 	action,
-	[Token(Token = "0x400061A")]
+	[Token(Token = "0x4000578")]
 	comparison,
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x4000579")]
 	startSegment,
-	[Token(Token = "0x400061C")]
+	[Token(Token = "0x400057A")]
 	endSegment,
-	[Token(Token = "0x400061D")]
+	[Token(Token = "0x400057B")]
 	endIndex,
-	[Token(Token = "0x400061E")]
+	[Token(Token = "0x400057C")]
 	task,
-	[Token(Token = "0x400061F")]
+	[Token(Token = "0x400057D")]
 	source,
-	[Token(Token = "0x4000620")]
+	[Token(Token = "0x400057E")]
 	state,
-	[Token(Token = "0x4000621")]
+	[Token(Token = "0x400057F")]
 	culture,
-	[Token(Token = "0x4000622")]
+	[Token(Token = "0x4000580")]
 	destination,
-	[Token(Token = "0x4000623")]
+	[Token(Token = "0x4000581")]
 	byteOffset,
-	[Token(Token = "0x4000624")]
+	[Token(Token = "0x4000582")]
 	minimumBufferSize,
-	[Token(Token = "0x4000625")]
+	[Token(Token = "0x4000583")]
 	offset,
-	[Token(Token = "0x4000626")]
+	[Token(Token = "0x4000584")]
 	values,
-	[Token(Token = "0x4000627")]
+	[Token(Token = "0x4000585")]
 	comparisonType,
-	[Token(Token = "0x4000628")]
+	[Token(Token = "0x4000586")]
 	s,
-	[Token(Token = "0x4000629")]
+	[Token(Token = "0x4000587")]
 	input,
-	[Token(Token = "0x400062A")]
+	[Token(Token = "0x4000588")]
 	format
 }

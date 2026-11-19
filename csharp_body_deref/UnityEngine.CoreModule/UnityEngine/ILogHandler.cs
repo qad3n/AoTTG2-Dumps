@@ -13,9 +13,9 @@ namespace UnityEngine;
 [Token(Token = "0x2000138")]
 public interface ILogHandler
 {
-	[Token(Token = "0x60009E9")]
+	[Token(Token = "0x60009F3")]
 	void LogFormat(LogType logType, Object context, string format, params object[] args);
 
-	[Token(Token = "0x60009EA")]
+	[Token(Token = "0x60009F4")]
 	void LogException(Exception exception, Object context);
 }

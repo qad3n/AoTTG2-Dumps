@@ -11,27 +11,27 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001AD")]
-[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
+[Token(Token = "0x20001AE")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
 public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute
 {
-	[Token(Token = "0x4000630")]
+	[Token(Token = "0x4000635")]
 	[FieldOffset(Offset = "0x10")]
 	private RuntimeInitializeLoadType m_LoadType;
 
-	[Token(Token = "0x17000246")]
+	[Token(Token = "0x1700024B")]
 	private RuntimeInitializeLoadType loadType
 	{
-		[Token(Token = "0x6000E20")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x6000E32")]
+		[Address(RVA = "0x691D3E0", Offset = "0x691C3E0", VA = "0x691D3E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000E1F")]
-	[Address(RVA = "0x2F266C0", Offset = "0x2F24CC0", VA = "0x182F266C0")]
+	[Token(Token = "0x6000E31")]
+	[Address(RVA = "0x691D3C0", Offset = "0x691C3C0", VA = "0x691D3C0")]
 	public RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeLoadType loadType)
 	{
 	}

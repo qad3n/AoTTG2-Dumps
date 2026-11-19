@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x2000084")]
 public enum GotoExpressionKind
 {
-	[Token(Token = "0x400017A")]
+	[Token(Token = "0x4000183")]
 	Goto,
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x4000184")]
 	Return,
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x4000185")]
 	Break,
-	[Token(Token = "0x400017D")]
+	[Token(Token = "0x4000186")]
 	Continue
 }

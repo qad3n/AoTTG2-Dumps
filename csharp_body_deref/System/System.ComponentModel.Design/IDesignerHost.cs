@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000234")]
+[Token(Token = "0x20001F5")]
 public interface IDesignerHost : IServiceProvider
 {
-	[Token(Token = "0x17000301")]
+	[Token(Token = "0x170002D2")]
 	IComponent RootComponent
 	{
-		[Token(Token = "0x6000F5C")]
+		[Token(Token = "0x6000D9C")]
 		get;
 	}
 
-	[Token(Token = "0x6000F5D")]
+	[Token(Token = "0x6000D9D")]
 	IDesigner GetDesigner(IComponent component);
 }

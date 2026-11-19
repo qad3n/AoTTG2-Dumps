@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001FE")]
+[Token(Token = "0x20001BF")]
 public class CollectionConverter : TypeConverter
 {
-	[Token(Token = "0x6000D4F")]
-	[Address(RVA = "0x28AF110", Offset = "0x28AD710", VA = "0x1828AF110", Slot = "7")]
+	[Token(Token = "0x6000B8F")]
+	[Address(RVA = "0x624D6F0", Offset = "0x624C6F0", VA = "0x624D6F0", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D50")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+	[Token(Token = "0x6000B90")]
+	[Address(RVA = "0x624D850", Offset = "0x624C850", VA = "0x624D850", Slot = "10")]
 	public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D51")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
+	[Token(Token = "0x6000B91")]
+	[Address(RVA = "0x624D860", Offset = "0x624C860", VA = "0x624D860", Slot = "11")]
 	public override bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D52")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000B92")]
+	[Address(RVA = "0x624D870", Offset = "0x624C870", VA = "0x624D870")]
 	public CollectionConverter()
 	{
 	}

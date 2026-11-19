@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextStyle
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,7 +62,7 @@ public class TextStyle
 	public int hashCode
 	{
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0xB3E0C0", Offset = "0xB3C6C0", VA = "0x180B3E0C0")]
+		[Address(RVA = "0x6A43530", Offset = "0x6A42530", VA = "0x6A43530")]
 		get
 		{
 			return default(int);
@@ -73,7 +73,7 @@ public class TextStyle
 	public string styleOpeningDefinition
 	{
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x6A43540", Offset = "0x6A42540", VA = "0x6A43540")]
 		get
 		{
 			return null;
@@ -84,7 +84,7 @@ public class TextStyle
 	public string styleClosingDefinition
 	{
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x6A43550", Offset = "0x6A42550", VA = "0x6A43550")]
 		get
 		{
 			return null;
@@ -95,7 +95,7 @@ public class TextStyle
 	public uint[] styleOpeningTagArray
 	{
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Address(RVA = "0x6A43560", Offset = "0x6A42560", VA = "0x6A43560")]
 		get
 		{
 			return null;
@@ -106,7 +106,7 @@ public class TextStyle
 	public uint[] styleClosingTagArray
 	{
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0xAD2BE0", Offset = "0xAD11E0", VA = "0x180AD2BE0")]
+		[Address(RVA = "0x6A43570", Offset = "0x6A42570", VA = "0x6A43570")]
 		get
 		{
 			return null;
@@ -114,13 +114,13 @@ public class TextStyle
 	}
 
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x30562B0", Offset = "0x30548B0", VA = "0x1830562B0")]
+	[Address(RVA = "0x6A43580", Offset = "0x6A42580", VA = "0x6A43580")]
 	internal TextStyle(string styleName, string styleOpeningDefinition, string styleClosingDefinition)
 	{
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x30560E0", Offset = "0x30546E0", VA = "0x1830560E0")]
+	[Address(RVA = "0x6A435F0", Offset = "0x6A425F0", VA = "0x6A435F0")]
 	public void RefreshStyle()
 	{
 	}

@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x20000EB")]
 internal class TitanCustomSettings : PresetSettingsContainer
 {
-	[Token(Token = "0x40003E9")]
+	[Token(Token = "0x400051E")]
 	[FieldOffset(Offset = "0x38")]
 	public SetSettingsContainer<TitanCustomSet> TitanCustomSets;
 
-	[Token(Token = "0x17000098")]
+	[Token(Token = "0x170000B5")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60003BC")]
-		[Address(RVA = "0x1F285F0", Offset = "0x1F26BF0", VA = "0x181F285F0", Slot = "15")]
+		[Token(Token = "0x600052D")]
+		[Address(RVA = "0x5A4A130", Offset = "0x5A49130", VA = "0x5A4A130", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x1F28570", Offset = "0x1F26B70", VA = "0x181F28570")]
+	[Token(Token = "0x600052E")]
+	[Address(RVA = "0x5A4A160", Offset = "0x5A49160", VA = "0x5A4A160")]
 	public TitanCustomSettings()
 	{
 	}

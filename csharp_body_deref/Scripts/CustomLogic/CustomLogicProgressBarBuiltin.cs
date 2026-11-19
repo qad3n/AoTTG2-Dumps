@@ -12,242 +12,242 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000596")]
+[Token(Token = "0x20005F5")]
 [CompilerGenerated]
 internal class CustomLogicProgressBarBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x2000597")]
+	[Token(Token = "0x20005F6")]
 	public new static class Factory
 	{
-		[Token(Token = "0x60034B7")]
-		[Address(RVA = "0x2074580", Offset = "0x2072B80", VA = "0x182074580")]
+		[Token(Token = "0x6003743")]
+		[Address(RVA = "0x5A01280", Offset = "0x5A00280", VA = "0x5A01280")]
 		public static CustomLogicProgressBarBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000598")]
+	[Token(Token = "0x20005F7")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x40017EB")]
+		[Token(Token = "0x400198B")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60034B8")]
-		[Address(RVA = "0x2052190", Offset = "0x2050790", VA = "0x182052190")]
+		[Token(Token = "0x6003744")]
+		[Address(RVA = "0x5A01310", Offset = "0x5A00310", VA = "0x5A01310")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034B9")]
-		[Address(RVA = "0x20639F0", Offset = "0x2061FF0", VA = "0x1820639F0")]
+		[Token(Token = "0x6003745")]
+		[Address(RVA = "0x5A01700", Offset = "0x5A00700", VA = "0x5A01700")]
 		public static CLPropertyBinding<CustomLogicProgressBarBuiltin> __CreatePropertyBinding__Title()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BA")]
-		[Address(RVA = "0x2063F40", Offset = "0x2062540", VA = "0x182063F40")]
+		[Token(Token = "0x6003746")]
+		[Address(RVA = "0x5A017E0", Offset = "0x5A007E0", VA = "0x5A017E0")]
 		public static CLPropertyBinding<CustomLogicProgressBarBuiltin> __CreatePropertyBinding__Value()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BB")]
-		[Address(RVA = "0x2062D20", Offset = "0x2061320", VA = "0x182062D20")]
+		[Token(Token = "0x6003747")]
+		[Address(RVA = "0x5A018C0", Offset = "0x5A008C0", VA = "0x5A018C0")]
 		public static CLPropertyBinding<CustomLogicProgressBarBuiltin> __CreatePropertyBinding__LowValue()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BC")]
-		[Address(RVA = "0x2062050", Offset = "0x2060650", VA = "0x182062050")]
+		[Token(Token = "0x6003748")]
+		[Address(RVA = "0x5A019A0", Offset = "0x5A009A0", VA = "0x5A019A0")]
 		public static CLPropertyBinding<CustomLogicProgressBarBuiltin> __CreatePropertyBinding__HighValue()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BD")]
-		[Address(RVA = "0x205B9A0", Offset = "0x2059FA0", VA = "0x18205B9A0")]
+		[Token(Token = "0x6003749")]
+		[Address(RVA = "0x5A01A80", Offset = "0x5A00A80", VA = "0x5A01A80")]
 		public static CLMethodBinding<CustomLogicProgressBarBuiltin> __CreateMethodBinding__OnValueChanged()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BE")]
-		[Address(RVA = "0x205F0F0", Offset = "0x205D6F0", VA = "0x18205F0F0")]
+		[Token(Token = "0x600374A")]
+		[Address(RVA = "0x5A01BC0", Offset = "0x5A00BC0", VA = "0x5A01BC0")]
 		public static CLMethodBinding<CustomLogicProgressBarBuiltin> __CreateMethodBinding__SetValueWithoutNotify()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034BF")]
-		[Address(RVA = "0x2059D80", Offset = "0x2058380", VA = "0x182059D80")]
+		[Token(Token = "0x600374B")]
+		[Address(RVA = "0x5A01D00", Offset = "0x5A00D00", VA = "0x5A01D00")]
 		public static CLMethodBinding<CustomLogicProgressBarBuiltin> __CreateMethodBinding__GetPercentage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034C0")]
-		[Address(RVA = "0x205E8F0", Offset = "0x205CEF0", VA = "0x18205E8F0")]
+		[Token(Token = "0x600374C")]
+		[Address(RVA = "0x5A01E40", Offset = "0x5A00E40", VA = "0x5A01E40")]
 		public static CLMethodBinding<CustomLogicProgressBarBuiltin> __CreateMethodBinding__SetPercentage()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40017E9")]
+	[Token(Token = "0x4001989")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly ProgressBar _progressBar;
 
-	[Token(Token = "0x40017EA")]
+	[Token(Token = "0x400198A")]
 	[FieldOffset(Offset = "0x68")]
 	private UserMethod _valueChangedEvent;
 
-	[Token(Token = "0x170009BA")]
+	[Token(Token = "0x17000A02")]
 	public string Title
 	{
-		[Token(Token = "0x60034A6")]
-		[Address(RVA = "0x2067EB0", Offset = "0x20664B0", VA = "0x182067EB0")]
+		[Token(Token = "0x6003732")]
+		[Address(RVA = "0x5A00F90", Offset = "0x59FFF90", VA = "0x5A00F90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60034A7")]
-		[Address(RVA = "0x2067F40", Offset = "0x2066540", VA = "0x182067F40")]
+		[Token(Token = "0x6003733")]
+		[Address(RVA = "0x5A00FB0", Offset = "0x59FFFB0", VA = "0x5A00FB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009BB")]
+	[Token(Token = "0x17000A03")]
 	public float Value
 	{
-		[Token(Token = "0x60034A8")]
-		[Address(RVA = "0x2067ED0", Offset = "0x20664D0", VA = "0x182067ED0")]
+		[Token(Token = "0x6003734")]
+		[Address(RVA = "0x5A00FD0", Offset = "0x59FFFD0", VA = "0x5A00FD0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60034A9")]
-		[Address(RVA = "0x2067F60", Offset = "0x2066560", VA = "0x182067F60")]
+		[Token(Token = "0x6003735")]
+		[Address(RVA = "0x5A01000", Offset = "0x5A00000", VA = "0x5A01000")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009BC")]
+	[Token(Token = "0x17000A04")]
 	public float LowValue
 	{
-		[Token(Token = "0x60034AA")]
-		[Address(RVA = "0x2067E90", Offset = "0x2066490", VA = "0x182067E90")]
+		[Token(Token = "0x6003736")]
+		[Address(RVA = "0x5A01030", Offset = "0x5A00030", VA = "0x5A01030")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60034AB")]
-		[Address(RVA = "0x2067F20", Offset = "0x2066520", VA = "0x182067F20")]
+		[Token(Token = "0x6003737")]
+		[Address(RVA = "0x5A01050", Offset = "0x5A00050", VA = "0x5A01050")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009BD")]
+	[Token(Token = "0x17000A05")]
 	public float HighValue
 	{
-		[Token(Token = "0x60034AC")]
-		[Address(RVA = "0x2067E70", Offset = "0x2066470", VA = "0x182067E70")]
+		[Token(Token = "0x6003738")]
+		[Address(RVA = "0x5A01070", Offset = "0x5A00070", VA = "0x5A01070")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60034AD")]
-		[Address(RVA = "0x2067F00", Offset = "0x2066500", VA = "0x182067F00")]
+		[Token(Token = "0x6003739")]
+		[Address(RVA = "0x5A01090", Offset = "0x5A00090", VA = "0x5A01090")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009BE")]
+	[Token(Token = "0x17000A06")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60034B2")]
-		[Address(RVA = "0x2067E40", Offset = "0x2066440", VA = "0x182067E40", Slot = "6")]
+		[Token(Token = "0x600373E")]
+		[Address(RVA = "0x5A011D0", Offset = "0x5A001D0", VA = "0x5A011D0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009BF")]
+	[Token(Token = "0x17000A07")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60034B3")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x600373F")]
+		[Address(RVA = "0x5A01200", Offset = "0x5A00200", VA = "0x5A01200", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009C0")]
+	[Token(Token = "0x17000A08")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60034B4")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003740")]
+		[Address(RVA = "0x5A01210", Offset = "0x5A00210", VA = "0x5A01210", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009C1")]
+	[Token(Token = "0x17000A09")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60034B5")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003741")]
+		[Address(RVA = "0x5A01220", Offset = "0x5A00220", VA = "0x5A01220", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60034A4")]
-	[Address(RVA = "0x2067D90", Offset = "0x2066390", VA = "0x182067D90")]
+	[Token(Token = "0x6003730")]
+	[Address(RVA = "0x5A00DC0", Offset = "0x59FFDC0", VA = "0x5A00DC0")]
 	public CustomLogicProgressBarBuiltin(ProgressBar progressBar)
 	{
 	}
 
-	[Token(Token = "0x60034A5")]
-	[Address(RVA = "0x2067A60", Offset = "0x2066060", VA = "0x182067A60")]
+	[Token(Token = "0x6003731")]
+	[Address(RVA = "0x5A00E70", Offset = "0x59FFE70", VA = "0x5A00E70")]
 	private void OnValueChanged(float value)
 	{
 	}
 
-	[Token(Token = "0x60034AE")]
-	[Address(RVA = "0x55DEB0", Offset = "0x55C4B0", VA = "0x18055DEB0")]
+	[Token(Token = "0x600373A")]
+	[Address(RVA = "0x5A010B0", Offset = "0x5A000B0", VA = "0x5A010B0")]
 	public CustomLogicProgressBarBuiltin OnValueChanged(UserMethod valueChangedEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034AF")]
-	[Address(RVA = "0x2067C10", Offset = "0x2066210", VA = "0x182067C10")]
+	[Token(Token = "0x600373B")]
+	[Address(RVA = "0x5A010D0", Offset = "0x5A000D0", VA = "0x5A010D0")]
 	public void SetValueWithoutNotify(float value)
 	{
 	}
 
-	[Token(Token = "0x60034B0")]
-	[Address(RVA = "0x20679E0", Offset = "0x2065FE0", VA = "0x1820679E0")]
+	[Token(Token = "0x600373C")]
+	[Address(RVA = "0x5A010F0", Offset = "0x5A000F0", VA = "0x5A010F0")]
 	public float GetPercentage()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60034B1")]
-	[Address(RVA = "0x2067B90", Offset = "0x2066190", VA = "0x182067B90")]
+	[Token(Token = "0x600373D")]
+	[Address(RVA = "0x5A01160", Offset = "0x5A00160", VA = "0x5A01160")]
 	public CustomLogicProgressBarBuiltin SetPercentage(float percentage)
 	{
 		return null;

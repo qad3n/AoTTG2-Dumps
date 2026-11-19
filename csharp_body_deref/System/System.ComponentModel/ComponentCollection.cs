@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000158")]
+[Token(Token = "0x2000119")]
 public class ComponentCollection : ReadOnlyCollectionBase
 {
-	[Token(Token = "0x170001A5")]
+	[Token(Token = "0x17000176")]
 	public virtual IComponent this[string name]
 	{
-		[Token(Token = "0x60008B5")]
-		[Address(RVA = "0x287C320", Offset = "0x287A920", VA = "0x18287C320", Slot = "11")]
+		[Token(Token = "0x60006F5")]
+		[Address(RVA = "0x6221BF0", Offset = "0x6220BF0", VA = "0x6221BF0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001A6")]
+	[Token(Token = "0x17000177")]
 	public virtual IComponent this[int index]
 	{
-		[Token(Token = "0x60008B6")]
-		[Address(RVA = "0x287C290", Offset = "0x287A890", VA = "0x18287C290", Slot = "12")]
+		[Token(Token = "0x60006F6")]
+		[Address(RVA = "0x62221E0", Offset = "0x62211E0", VA = "0x62221E0", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60008B4")]
-	[Address(RVA = "0x287C240", Offset = "0x287A840", VA = "0x18287C240")]
+	[Token(Token = "0x60006F4")]
+	[Address(RVA = "0x6221BA0", Offset = "0x6220BA0", VA = "0x6221BA0")]
 	public ComponentCollection(IComponent[] components)
 	{
 	}
 
-	[Token(Token = "0x60008B7")]
-	[Address(RVA = "0x287C1F0", Offset = "0x287A7F0", VA = "0x18287C1F0")]
+	[Token(Token = "0x60006F7")]
+	[Address(RVA = "0x6222270", Offset = "0x6221270", VA = "0x6222270")]
 	public void CopyTo(IComponent[] array, int index)
 	{
 	}

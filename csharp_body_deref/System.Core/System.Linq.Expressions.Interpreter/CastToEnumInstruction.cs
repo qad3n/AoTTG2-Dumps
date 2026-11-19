@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000241")]
+[Token(Token = "0x2000242")]
 internal sealed class CastToEnumInstruction : CastInstruction
 {
-	[Token(Token = "0x4000423")]
+	[Token(Token = "0x400042C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _t;
 
-	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6000B2A")]
+	[Address(RVA = "0x5E1B4A0", Offset = "0x5E1A4A0", VA = "0x5E1B4A0")]
 	public CastToEnumInstruction(Type t)
 	{
 	}
 
-	[Token(Token = "0x6000B20")]
-	[Address(RVA = "0x2468260", Offset = "0x2466860", VA = "0x182468260", Slot = "8")]
+	[Token(Token = "0x6000B2B")]
+	[Address(RVA = "0x5E1B4D0", Offset = "0x5E1A4D0", VA = "0x5E1B4D0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

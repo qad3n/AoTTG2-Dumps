@@ -19,34 +19,34 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000697")]
+[Token(Token = "0x20006F6")]
 internal class BaseShifter : BaseTitan
 {
-	[Token(Token = "0x2000698")]
+	[Token(Token = "0x20006F8")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndBecomeHuman_003Ed__42 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndBecomeHuman_003Ed__45 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001F25")]
+		[Token(Token = "0x40020D7")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001F26")]
+		[Token(Token = "0x40020D8")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001F27")]
+		[Token(Token = "0x40020D9")]
 		[FieldOffset(Offset = "0x20")]
 		public float time;
 
-		[Token(Token = "0x4001F28")]
+		[Token(Token = "0x40020DA")]
 		[FieldOffset(Offset = "0x28")]
 		public BaseShifter _003C_003E4__this;
 
-		[Token(Token = "0x17000B55")]
+		[Token(Token = "0x17000B9F")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60040D2")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004372")]
+			[Address(RVA = "0x5B18920", Offset = "0x5B17920", VA = "0x5B18920", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,11 +54,11 @@ internal class BaseShifter : BaseTitan
 			}
 		}
 
-		[Token(Token = "0x17000B56")]
+		[Token(Token = "0x17000BA0")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60040D4")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004374")]
+			[Address(RVA = "0x5B18970", Offset = "0x5B17970", VA = "0x5B18970", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,56 +66,60 @@ internal class BaseShifter : BaseTitan
 			}
 		}
 
-		[Token(Token = "0x60040CF")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x600436F")]
+		[Address(RVA = "0x5B16F40", Offset = "0x5B15F40", VA = "0x5B16F40")]
 		[DebuggerHidden]
-		public _003CWaitAndBecomeHuman_003Ed__42(int _003C_003E1__state)
+		public _003CWaitAndBecomeHuman_003Ed__45(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60040D0")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004370")]
+		[Address(RVA = "0x5B184B0", Offset = "0x5B174B0", VA = "0x5B184B0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60040D1")]
-		[Address(RVA = "0x2179370", Offset = "0x2177970", VA = "0x182179370", Slot = "6")]
+		[Token(Token = "0x6004371")]
+		[Address(RVA = "0x5B184C0", Offset = "0x5B174C0", VA = "0x5B184C0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60040D3")]
-		[Address(RVA = "0x2179700", Offset = "0x2177D00", VA = "0x182179700", Slot = "8")]
+		[Token(Token = "0x6004373")]
+		[Address(RVA = "0x5B18930", Offset = "0x5B17930", VA = "0x5B18930", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000699")]
+	[Token(Token = "0x20006F9")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndDie_003Ed__43 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitForDeathVisuals_003Ed__47 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001F29")]
+		[Token(Token = "0x40020DB")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001F2A")]
+		[Token(Token = "0x40020DC")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001F2B")]
+		[Token(Token = "0x40020DD")]
 		[FieldOffset(Offset = "0x20")]
 		public BaseShifter _003C_003E4__this;
 
-		[Token(Token = "0x17000B57")]
+		[Token(Token = "0x40020DE")]
+		[FieldOffset(Offset = "0x28")]
+		public float delay;
+
+		[Token(Token = "0x17000BA1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60040D8")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004378")]
+			[Address(RVA = "0x5B18B80", Offset = "0x5B17B80", VA = "0x5B18B80", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -123,11 +127,11 @@ internal class BaseShifter : BaseTitan
 			}
 		}
 
-		[Token(Token = "0x17000B58")]
+		[Token(Token = "0x17000BA2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60040DA")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x600437A")]
+			[Address(RVA = "0x5B18BD0", Offset = "0x5B17BD0", VA = "0x5B18BD0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -135,336 +139,387 @@ internal class BaseShifter : BaseTitan
 			}
 		}
 
-		[Token(Token = "0x60040D5")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004375")]
+		[Address(RVA = "0x5B170B0", Offset = "0x5B160B0", VA = "0x5B170B0")]
 		[DebuggerHidden]
-		public _003CWaitAndDie_003Ed__43(int _003C_003E1__state)
+		public _003CWaitForDeathVisuals_003Ed__47(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60040D6")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004376")]
+		[Address(RVA = "0x5B18980", Offset = "0x5B17980", VA = "0x5B18980", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60040D7")]
-		[Address(RVA = "0x2179740", Offset = "0x2177D40", VA = "0x182179740", Slot = "6")]
+		[Token(Token = "0x6004377")]
+		[Address(RVA = "0x5B18990", Offset = "0x5B17990", VA = "0x5B18990", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60040D9")]
-		[Address(RVA = "0x2179B00", Offset = "0x2178100", VA = "0x182179B00", Slot = "8")]
+		[Token(Token = "0x6004379")]
+		[Address(RVA = "0x5B18B90", Offset = "0x5B17B90", VA = "0x5B18B90", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001F1B")]
-	[FieldOffset(Offset = "0x288")]
+	[Token(Token = "0x40020C9")]
+	[FieldOffset(Offset = "0x299")]
 	protected bool _needRoar;
 
-	[Token(Token = "0x4001F1C")]
-	[FieldOffset(Offset = "0x289")]
+	[Token(Token = "0x40020CA")]
+	[FieldOffset(Offset = "0x29A")]
 	public bool TransformingToHuman;
 
-	[Token(Token = "0x4001F1D")]
-	[FieldOffset(Offset = "0x28C")]
+	[Token(Token = "0x40020CB")]
+	[FieldOffset(Offset = "0x29C")]
 	public float PreviousHumanGas;
 
-	[Token(Token = "0x4001F1E")]
-	[FieldOffset(Offset = "0x290")]
+	[Token(Token = "0x40020CC")]
+	[FieldOffset(Offset = "0x2A0")]
 	public BaseUseable PreviousHumanWeapon;
 
-	[Token(Token = "0x4001F1F")]
-	[FieldOffset(Offset = "0x298")]
+	[Token(Token = "0x40020CD")]
+	[FieldOffset(Offset = "0x2A8")]
 	public float DeathAnimationLength;
 
-	[Token(Token = "0x4001F20")]
-	[FieldOffset(Offset = "0x2A0")]
+	[Token(Token = "0x40020CE")]
+	private const float DeathDissolveDuration = 6f;
+
+	[Token(Token = "0x40020CF")]
+	[FieldOffset(Offset = "0x2AC")]
+	private bool _deathVisualsStarted;
+
+	[Token(Token = "0x40020D0")]
+	[FieldOffset(Offset = "0x2B0")]
+	private float _deathVisualsTime;
+
+	[Token(Token = "0x40020D1")]
+	[FieldOffset(Offset = "0x2B8")]
 	protected BaseCustomSkinLoader _customSkinLoader;
 
-	[Token(Token = "0x4001F21")]
-	[FieldOffset(Offset = "0x2A8")]
+	[Token(Token = "0x40020D2")]
+	[FieldOffset(Offset = "0x2C0")]
 	private bool _forceEmote;
 
-	[Token(Token = "0x4001F22")]
-	[FieldOffset(Offset = "0x2AC")]
+	[Token(Token = "0x40020D3")]
+	[FieldOffset(Offset = "0x2C4")]
 	private float _liveTime;
 
-	[Token(Token = "0x4001F23")]
-	[FieldOffset(Offset = "0x2B0")]
+	[Token(Token = "0x40020D4")]
+	[FieldOffset(Offset = "0x2C8")]
 	private float _liveTimeEnd;
 
-	[Token(Token = "0x17000B48")]
+	[Token(Token = "0x17000B92")]
 	protected override int DefaultMaxHealth
 	{
-		[Token(Token = "0x60040AF")]
-		[Address(RVA = "0x2168BB0", Offset = "0x21671B0", VA = "0x182168BB0", Slot = "57")]
+		[Token(Token = "0x6004347")]
+		[Address(RVA = "0x5B15E40", Offset = "0x5B14E40", VA = "0x5B15E40", Slot = "57")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000B49")]
+	[Token(Token = "0x17000B93")]
 	protected override float DefaultRunSpeed
 	{
-		[Token(Token = "0x60040B0")]
-		[Address(RVA = "0x1DA8AF0", Offset = "0x1DA70F0", VA = "0x181DA8AF0", Slot = "130")]
+		[Token(Token = "0x6004348")]
+		[Address(RVA = "0x5B15E50", Offset = "0x5B14E50", VA = "0x5B15E50", Slot = "130")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4A")]
+	[Token(Token = "0x17000B94")]
 	protected override float DefaultWalkSpeed
 	{
-		[Token(Token = "0x60040B1")]
-		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "131")]
+		[Token(Token = "0x6004349")]
+		[Address(RVA = "0x5B15E60", Offset = "0x5B14E60", VA = "0x5B15E60", Slot = "131")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4B")]
+	[Token(Token = "0x17000B95")]
 	protected override float DefaultRotateSpeed
 	{
-		[Token(Token = "0x60040B2")]
-		[Address(RVA = "0x20B9980", Offset = "0x20B7F80", VA = "0x1820B9980", Slot = "133")]
+		[Token(Token = "0x600434A")]
+		[Address(RVA = "0x5B15E70", Offset = "0x5B14E70", VA = "0x5B15E70", Slot = "133")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4C")]
+	[Token(Token = "0x17000B96")]
 	protected override float DefaultJumpForce
 	{
-		[Token(Token = "0x60040B3")]
-		[Address(RVA = "0x210FBA0", Offset = "0x210E1A0", VA = "0x18210FBA0", Slot = "132")]
+		[Token(Token = "0x600434B")]
+		[Address(RVA = "0x5B15E80", Offset = "0x5B14E80", VA = "0x5B15E80", Slot = "132")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4D")]
+	[Token(Token = "0x17000B97")]
 	protected override float SizeMultiplier
 	{
-		[Token(Token = "0x60040B4")]
-		[Address(RVA = "0x2161410", Offset = "0x215FA10", VA = "0x182161410", Slot = "134")]
+		[Token(Token = "0x600434C")]
+		[Address(RVA = "0x5B15E90", Offset = "0x5B14E90", VA = "0x5B15E90", Slot = "134")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4E")]
+	[Token(Token = "0x17000B98")]
 	public override float DefaultCrippleTime
 	{
-		[Token(Token = "0x60040B5")]
-		[Address(RVA = "0x2168BA0", Offset = "0x21671A0", VA = "0x182168BA0", Slot = "121")]
+		[Token(Token = "0x600434D")]
+		[Address(RVA = "0x5B15EA0", Offset = "0x5B14EA0", VA = "0x5B15EA0", Slot = "121")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4F")]
+	[Token(Token = "0x17000B99")]
 	public override float LaunchForce
 	{
-		[Token(Token = "0x60040B6")]
-		[Address(RVA = "0x2168BD0", Offset = "0x21671D0", VA = "0x182168BD0", Slot = "126")]
+		[Token(Token = "0x600434E")]
+		[Address(RVA = "0x5B15EB0", Offset = "0x5B14EB0", VA = "0x5B15EB0", Slot = "126")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B50")]
+	[Token(Token = "0x17000B9A")]
 	public override float LaunchTime
 	{
-		[Token(Token = "0x60040B7")]
-		[Address(RVA = "0x2168BF0", Offset = "0x21671F0", VA = "0x182168BF0", Slot = "127")]
+		[Token(Token = "0x600434F")]
+		[Address(RVA = "0x5B15ED0", Offset = "0x5B14ED0", VA = "0x5B15ED0", Slot = "127")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B51")]
+	[Token(Token = "0x17000B9B")]
 	protected override float DisableCooldown
 	{
-		[Token(Token = "0x60040B8")]
-		[Address(RVA = "0x18B56E0", Offset = "0x18B3CE0", VA = "0x1818B56E0", Slot = "135")]
+		[Token(Token = "0x6004350")]
+		[Address(RVA = "0x5B15EF0", Offset = "0x5B14EF0", VA = "0x5B15EF0", Slot = "135")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B52")]
+	[Token(Token = "0x17000B9C")]
 	public string SpecialIcon
 	{
-		[Token(Token = "0x60040B9")]
-		[Address(RVA = "0x2168CD0", Offset = "0x21672D0", VA = "0x182168CD0")]
+		[Token(Token = "0x6004351")]
+		[Address(RVA = "0x5B15F00", Offset = "0x5B14F00", VA = "0x5B15F00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60040BA")]
-		[Address(RVA = "0x2168CE0", Offset = "0x21672E0", VA = "0x182168CE0")]
+		[Token(Token = "0x6004352")]
+		[Address(RVA = "0x5B15F10", Offset = "0x5B14F10", VA = "0x5B15F10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000B53")]
+	[Token(Token = "0x17000B9D")]
 	public float LiveTimeRatio
 	{
-		[Token(Token = "0x60040BB")]
-		[Address(RVA = "0x2168C10", Offset = "0x2167210", VA = "0x182168C10")]
+		[Token(Token = "0x6004353")]
+		[Address(RVA = "0x5B15F30", Offset = "0x5B14F30", VA = "0x5B15F30")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B54")]
+	[Token(Token = "0x17000B9E")]
 	protected override string MeleeHitType
 	{
-		[Token(Token = "0x60040BE")]
-		[Address(RVA = "0x2168CA0", Offset = "0x21672A0", VA = "0x182168CA0", Slot = "141")]
+		[Token(Token = "0x6004356")]
+		[Address(RVA = "0x5B16AD0", Offset = "0x5B15AD0", VA = "0x5B16AD0", Slot = "141")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60040BC")]
-	[Address(RVA = "0x2168640", Offset = "0x2166C40", VA = "0x182168640", Slot = "104")]
+	[Token(Token = "0x6004354")]
+	[Address(RVA = "0x5B15FA0", Offset = "0x5B14FA0", VA = "0x5B15FA0", Slot = "104")]
 	protected override void Start()
 	{
 	}
 
-	[Token(Token = "0x60040BD")]
-	[Address(RVA = "0x2167BB0", Offset = "0x21661B0", VA = "0x182167BB0", Slot = "153")]
+	[Token(Token = "0x6004355")]
+	[Address(RVA = "0x5B16A80", Offset = "0x5B15A80", VA = "0x5B16A80", Slot = "153")]
 	public override void Kick()
 	{
 	}
 
-	[Token(Token = "0x60040BF")]
-	[Address(RVA = "0x2167290", Offset = "0x2165890", VA = "0x182167290", Slot = "144")]
+	[Token(Token = "0x6004357")]
+	[Address(RVA = "0x5B16B00", Offset = "0x5B15B00", VA = "0x5B16B00", Slot = "144")]
 	protected override string GetFinisherReaction(bool kick, bool smallVictim, bool headHit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040C0")]
-	[Address(RVA = "0x2168280", Offset = "0x2166880", VA = "0x182168280")]
+	[Token(Token = "0x6004358")]
+	[Address(RVA = "0x5B16B80", Offset = "0x5B15B80", VA = "0x5B16B80")]
 	[PunRPC]
 	public void MarkTransformingRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60040C1")]
-	[Address(RVA = "0x21678D0", Offset = "0x2165ED0", VA = "0x1821678D0", Slot = "203")]
+	[Token(Token = "0x6004359")]
+	[Address(RVA = "0x5B16BC0", Offset = "0x5B15BC0", VA = "0x5B16BC0", Slot = "204")]
 	public virtual void Init(bool ai, string team, JSONNode data, float liveTime)
 	{
 	}
 
-	[Token(Token = "0x60040C2")]
-	[Address(RVA = "0x2168AB0", Offset = "0x21670B0", VA = "0x182168AB0")]
-	[IteratorStateMachine(typeof(_003CWaitAndBecomeHuman_003Ed__42))]
+	[Token(Token = "0x600435A")]
+	[Address(RVA = "0x5B16EC0", Offset = "0x5B15EC0", VA = "0x5B16EC0")]
+	[IteratorStateMachine(typeof(_003CWaitAndBecomeHuman_003Ed__45))]
 	protected IEnumerator WaitAndBecomeHuman(float time)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040C3")]
-	[Address(RVA = "0x2168B30", Offset = "0x2167130", VA = "0x182168B30", Slot = "84")]
-	[IteratorStateMachine(typeof(_003CWaitAndDie_003Ed__43))]
+	[Token(Token = "0x600435B")]
+	[Address(RVA = "0x5B16F60", Offset = "0x5B15F60", VA = "0x5B16F60", Slot = "84")]
 	protected override IEnumerator WaitAndDie()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040C4")]
-	[Address(RVA = "0x2167230", Offset = "0x2165830", VA = "0x182167230", Slot = "101")]
+	[Token(Token = "0x600435C")]
+	[Address(RVA = "0x5B17030", Offset = "0x5B16030", VA = "0x5B17030")]
+	[IteratorStateMachine(typeof(_003CWaitForDeathVisuals_003Ed__47))]
+	protected IEnumerator WaitForDeathVisuals(float delay)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600435D")]
+	[Address(RVA = "0x5B170D0", Offset = "0x5B160D0", VA = "0x5B170D0")]
+	[PunRPC]
+	public void StartDeathVisualsRPC(float delay, PhotonMessageInfo info)
+	{
+	}
+
+	[Token(Token = "0x600435E")]
+	[Address(RVA = "0x5B171E0", Offset = "0x5B161E0", VA = "0x5B171E0")]
+	protected void UpdateDeathVisuals()
+	{
+	}
+
+	[Token(Token = "0x600435F")]
+	[Address(RVA = "0x5B173B0", Offset = "0x5B163B0", VA = "0x5B173B0")]
+	private SkinnedMeshRenderer FindBodyRenderer()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6004360")]
+	[Address(RVA = "0x5B17520", Offset = "0x5B16520", VA = "0x5B17520")]
+	private float GetDeathDissolveScale()
+	{
+		return default(float);
+	}
+
+	[Token(Token = "0x6004361")]
+	[Address(RVA = "0x5B17670", Offset = "0x5B16670", VA = "0x5B17670", Slot = "101")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60040C5")]
-	[Address(RVA = "0x2167330", Offset = "0x2165930", VA = "0x182167330", Slot = "90")]
+	[Token(Token = "0x6004362")]
+	[Address(RVA = "0x5B176B0", Offset = "0x5B166B0", VA = "0x5B176B0", Slot = "90")]
 	[PunRPC]
 	public override void GetHitRPC(int viewId, string name, int damage, string type, string collider)
 	{
 	}
 
-	[Token(Token = "0x60040C6")]
-	[Address(RVA = "0x21682C0", Offset = "0x21668C0", VA = "0x1821682C0", Slot = "89")]
+	[Token(Token = "0x6004363")]
+	[Address(RVA = "0x5B17C70", Offset = "0x5B16C70", VA = "0x5B17C70", Slot = "89")]
 	public override void OnHit(BaseHitbox hitbox, object victim, Collider collider, string type, bool firstHit)
 	{
 	}
 
-	[Token(Token = "0x60040C7")]
-	[Address(RVA = "0x2168A10", Offset = "0x2167010", VA = "0x182168A10", Slot = "184")]
+	[Token(Token = "0x6004364")]
+	[Address(RVA = "0x5B17F30", Offset = "0x5B16F30", VA = "0x5B17F30", Slot = "184")]
 	protected override void Update()
 	{
 	}
 
-	[Token(Token = "0x60040C8")]
-	[Address(RVA = "0x2167270", Offset = "0x2165870", VA = "0x182167270", Slot = "146")]
+	[Token(Token = "0x6004365")]
+	[Address(RVA = "0x5B15DB0", Offset = "0x5B14DB0", VA = "0x5B15DB0", Slot = "114")]
+	protected override void LateUpdate()
+	{
+	}
+
+	[Token(Token = "0x6004366")]
+	[Address(RVA = "0x5B17FC0", Offset = "0x5B16FC0", VA = "0x5B17FC0", Slot = "146")]
 	public override bool CanEmote()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60040C9")]
-	[Address(RVA = "0x2167C00", Offset = "0x2166200", VA = "0x182167C00", Slot = "165")]
+	[Token(Token = "0x6004367")]
+	[Address(RVA = "0x5B17FE0", Offset = "0x5B16FE0", VA = "0x5B17FE0", Slot = "165")]
 	public override void Land()
 	{
 	}
 
-	[Token(Token = "0x60040CA")]
-	[Address(RVA = "0x2168090", Offset = "0x2166690", VA = "0x182168090")]
+	[Token(Token = "0x6004368")]
+	[Address(RVA = "0x5B16310", Offset = "0x5B15310", VA = "0x5B16310")]
 	protected void LoadSkin()
 	{
 	}
 
-	[Token(Token = "0x60040CB")]
-	[Address(RVA = "0x21678A0", Offset = "0x2165EA0", VA = "0x1821678A0", Slot = "204")]
+	[Token(Token = "0x6004369")]
+	[Address(RVA = "0x5B18230", Offset = "0x5B17230", VA = "0x5B18230", Slot = "205")]
 	protected virtual string GetSkinURL(ShifterCustomSkinSet set)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040CC")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "205")]
+	[Token(Token = "0x600436A")]
+	[Address(RVA = "0x5B18260", Offset = "0x5B17260", VA = "0x5B18260", Slot = "206")]
 	protected virtual BaseCustomSkinLoader CreateCustomSkinLoader()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040CD")]
-	[Address(RVA = "0x2167EB0", Offset = "0x21664B0", VA = "0x182167EB0")]
+	[Token(Token = "0x600436B")]
+	[Address(RVA = "0x5B18270", Offset = "0x5B17270", VA = "0x5B18270")]
 	[PunRPC]
 	public void LoadSkinRPC(string url, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60040CE")]
-	[Address(RVA = "0x21662A0", Offset = "0x21648A0", VA = "0x1821662A0")]
+	[Token(Token = "0x600436C")]
+	[Address(RVA = "0x5B156B0", Offset = "0x5B146B0", VA = "0x5B156B0")]
 	public BaseShifter()
 	{
 	}

@@ -9,85 +9,85 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000F4")]
+[Token(Token = "0x20000F5")]
 internal sealed class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
 {
-	[Token(Token = "0x4000241")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x400024A")]
+	[FieldOffset(Offset = "0x14")]
 	private readonly bool _hasFinally;
 
-	[Token(Token = "0x4000242")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x400024B")]
+	[FieldOffset(Offset = "0x18")]
 	private TryCatchFinallyHandler _tryHandler;
 
-	[Token(Token = "0x1700016F")]
+	[Token(Token = "0x17000171")]
 	internal TryCatchFinallyHandler Handler
 	{
-		[Token(Token = "0x600062A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000635")]
+		[Address(RVA = "0x5DDDF50", Offset = "0x5DDCF50", VA = "0x5DDDF50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x17000172")]
 	public override int ProducedContinuations
 	{
-		[Token(Token = "0x600062B")]
-		[Address(RVA = "0x2429AE0", Offset = "0x24280E0", VA = "0x182429AE0", Slot = "7")]
+		[Token(Token = "0x6000636")]
+		[Address(RVA = "0x5DDDF60", Offset = "0x5DDCF60", VA = "0x5DDDF60", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000171")]
+	[Token(Token = "0x17000173")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000630")]
-		[Address(RVA = "0x242E240", Offset = "0x242C840", VA = "0x18242E240", Slot = "9")]
+		[Token(Token = "0x600063B")]
+		[Address(RVA = "0x5DDE520", Offset = "0x5DDD520", VA = "0x5DDE520", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000629")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+	[Token(Token = "0x6000634")]
+	[Address(RVA = "0x5DDDF40", Offset = "0x5DDCF40", VA = "0x5DDDF40")]
 	internal void SetTryHandler(TryCatchFinallyHandler tryHandler)
 	{
 	}
 
-	[Token(Token = "0x600062C")]
-	[Address(RVA = "0x242E200", Offset = "0x242C800", VA = "0x18242E200")]
+	[Token(Token = "0x6000637")]
+	[Address(RVA = "0x5DDDF70", Offset = "0x5DDCF70", VA = "0x5DDDF70")]
 	private EnterTryCatchFinallyInstruction(int targetIndex, bool hasFinally)
 	{
 	}
 
-	[Token(Token = "0x600062D")]
-	[Address(RVA = "0x242DD10", Offset = "0x242C310", VA = "0x18242DD10")]
+	[Token(Token = "0x6000638")]
+	[Address(RVA = "0x5DDDF90", Offset = "0x5DDCF90", VA = "0x5DDDF90")]
 	internal static EnterTryCatchFinallyInstruction CreateTryFinally(int labelIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600062E")]
-	[Address(RVA = "0x242DCC0", Offset = "0x242C2C0", VA = "0x18242DCC0")]
+	[Token(Token = "0x6000639")]
+	[Address(RVA = "0x5DDDFE0", Offset = "0x5DDCFE0", VA = "0x5DDDFE0")]
 	internal static EnterTryCatchFinallyInstruction CreateTryCatch()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600062F")]
-	[Address(RVA = "0x242DD70", Offset = "0x242C370", VA = "0x18242DD70", Slot = "8")]
+	[Token(Token = "0x600063A")]
+	[Address(RVA = "0x5DDE030", Offset = "0x5DDD030", VA = "0x5DDE030", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000631")]
-	[Address(RVA = "0x242E180", Offset = "0x242C780", VA = "0x18242E180", Slot = "3")]
+	[Token(Token = "0x600063C")]
+	[Address(RVA = "0x5DDE570", Offset = "0x5DDD570", VA = "0x5DDE570", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

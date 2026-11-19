@@ -12,8 +12,8 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.PlayerLoop;
 
 [Token(Token = "0x20002B5")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct PostLateUpdate
 {
 	[Token(Token = "0x20002B6")]

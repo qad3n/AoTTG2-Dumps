@@ -26,13 +26,13 @@ internal struct DataPlayableOutput
 	private PlayableOutputHandle m_Handle;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2F7AD40", Offset = "0x2F79340", VA = "0x182F7AD40")]
+	[Address(RVA = "0x696EB20", Offset = "0x696DB20", VA = "0x696EB20")]
 	internal DataPlayableOutput(PlayableOutputHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2F7AAF0", Offset = "0x2F790F0", VA = "0x182F7AAF0")]
+	[Address(RVA = "0x696EC10", Offset = "0x696DC10", VA = "0x696EC10")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_CallOnPlayerChanged(PlayableOutputHandle handle, object previousPlayer, object currentPlayer)
 	{

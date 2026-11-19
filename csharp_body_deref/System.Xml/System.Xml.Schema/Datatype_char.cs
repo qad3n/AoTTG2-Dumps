@@ -24,7 +24,7 @@ internal class Datatype_char : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x60011CA")]
-		[Address(RVA = "0x279CD40", Offset = "0x279B340", VA = "0x18279CD40", Slot = "4")]
+		[Address(RVA = "0x6163AE0", Offset = "0x6162AE0", VA = "0x6163AE0", Slot = "4")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class Datatype_char : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60011CB")]
-		[Address(RVA = "0x279CCF0", Offset = "0x279B2F0", VA = "0x18279CCF0", Slot = "26")]
+		[Address(RVA = "0x6163B50", Offset = "0x6162B50", VA = "0x6163B50", Slot = "26")]
 		get
 		{
 			return null;
@@ -46,7 +46,7 @@ internal class Datatype_char : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x60011CC")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "27")]
+		[Address(RVA = "0x6163BC0", Offset = "0x6162BC0", VA = "0x6163BC0", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -54,28 +54,28 @@ internal class Datatype_char : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x60011CD")]
-	[Address(RVA = "0x279C920", Offset = "0x279AF20", VA = "0x18279C920", Slot = "14")]
+	[Address(RVA = "0x6163BD0", Offset = "0x6162BD0", VA = "0x6163BD0", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60011CE")]
-	[Address(RVA = "0x279C9A0", Offset = "0x279AFA0", VA = "0x18279C9A0", Slot = "6")]
+	[Address(RVA = "0x6163C50", Offset = "0x6162C50", VA = "0x6163C50", Slot = "6")]
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011CF")]
-	[Address(RVA = "0x279CB00", Offset = "0x279B100", VA = "0x18279CB00", Slot = "16")]
+	[Address(RVA = "0x6163E00", Offset = "0x6162E00", VA = "0x6163E00", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011D0")]
-	[Address(RVA = "0x279CC70", Offset = "0x279B270", VA = "0x18279CC70")]
+	[Address(RVA = "0x6154400", Offset = "0x6153400", VA = "0x6154400")]
 	public Datatype_char()
 	{
 	}

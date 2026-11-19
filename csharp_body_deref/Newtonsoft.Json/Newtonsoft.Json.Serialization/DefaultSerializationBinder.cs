@@ -25,41 +25,41 @@ public class DefaultSerializationBinder : SerializationBinder, ISerializationBin
 	private readonly ThreadSafeStore<StructMultiKey<string?, string>, Type> _typeCache;
 
 	[Token(Token = "0x60007A7")]
-	[Address(RVA = "0x1C3D550", Offset = "0x1C3BB50", VA = "0x181C3D550")]
+	[Address(RVA = "0x55CE1B0", Offset = "0x55CD1B0", VA = "0x55CE1B0")]
 	public DefaultSerializationBinder()
 	{
 	}
 
 	[Token(Token = "0x60007A8")]
-	[Address(RVA = "0x1C3D020", Offset = "0x1C3B620", VA = "0x181C3D020")]
+	[Address(RVA = "0x55CE270", Offset = "0x55CD270", VA = "0x55CE270")]
 	private Type GetTypeFromTypeNameKey(StructMultiKey<string?, string> typeNameKey)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x1C3CD30", Offset = "0x1C3B330", VA = "0x181C3CD30")]
+	[Address(RVA = "0x55CE680", Offset = "0x55CD680", VA = "0x55CE680")]
 	private Type GetGenericTypeFromTypeName(string typeName, Assembly assembly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007AA")]
-	[Address(RVA = "0x1C3CFC0", Offset = "0x1C3B5C0", VA = "0x181C3CFC0")]
+	[Address(RVA = "0x55CEA30", Offset = "0x55CDA30", VA = "0x55CEA30")]
 	private Type GetTypeByName(StructMultiKey<string?, string> typeNameKey)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007AB")]
-	[Address(RVA = "0x1C3CC70", Offset = "0x1C3B270", VA = "0x181C3CC70", Slot = "5")]
+	[Address(RVA = "0x55CEA90", Offset = "0x55CDA90", VA = "0x55CEA90", Slot = "5")]
 	public override Type BindToType(string? assemblyName, string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007AC")]
-	[Address(RVA = "0x1C3CBE0", Offset = "0x1C3B1E0", VA = "0x181C3CBE0", Slot = "4")]
+	[Address(RVA = "0x55CEB30", Offset = "0x55CDB30", VA = "0x55CEB30", Slot = "4")]
 	public override void BindToName(Type serializedType, out string? assemblyName, out string? typeName)
 	{
 	}

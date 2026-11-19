@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x2000136")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class BindableAttribute : Attribute
 {
-	[Token(Token = "0x400063F")]
+	[Token(Token = "0x4000570")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly BindableAttribute Yes;
 
-	[Token(Token = "0x4000640")]
+	[Token(Token = "0x4000571")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly BindableAttribute No;
 
-	[Token(Token = "0x4000641")]
+	[Token(Token = "0x4000572")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly BindableAttribute Default;
 
-	[Token(Token = "0x4000642")]
+	[Token(Token = "0x4000573")]
 	[FieldOffset(Offset = "0x10")]
 	private bool _isDefault;
 
-	[Token(Token = "0x170001C8")]
+	[Token(Token = "0x17000199")]
 	public bool Bindable
 	{
-		[Token(Token = "0x600095C")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Token(Token = "0x600079C")]
+		[Address(RVA = "0x6226AE0", Offset = "0x6225AE0", VA = "0x6226AE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,11 +42,11 @@ public sealed class BindableAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170001C9")]
+	[Token(Token = "0x1700019A")]
 	public BindingDirection Direction
 	{
-		[Token(Token = "0x600095D")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Token(Token = "0x600079D")]
+		[Address(RVA = "0x6226AF0", Offset = "0x6225AF0", VA = "0x6226AF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,46 +54,46 @@ public sealed class BindableAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x2893170", Offset = "0x2891770", VA = "0x182893170")]
+	[Token(Token = "0x6000798")]
+	[Address(RVA = "0x6226A30", Offset = "0x6225A30", VA = "0x6226A30")]
 	public BindableAttribute(bool bindable)
 	{
 	}
 
-	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x28930F0", Offset = "0x28916F0", VA = "0x1828930F0")]
+	[Token(Token = "0x6000799")]
+	[Address(RVA = "0x6226A60", Offset = "0x6225A60", VA = "0x6226A60")]
 	public BindableAttribute(bool bindable, BindingDirection direction)
 	{
 	}
 
-	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x2893130", Offset = "0x2891730", VA = "0x182893130")]
+	[Token(Token = "0x600079A")]
+	[Address(RVA = "0x6226A80", Offset = "0x6225A80", VA = "0x6226A80")]
 	public BindableAttribute(BindableSupport flags)
 	{
 	}
 
-	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x28931A0", Offset = "0x28917A0", VA = "0x1828931A0")]
+	[Token(Token = "0x600079B")]
+	[Address(RVA = "0x6226AB0", Offset = "0x6225AB0", VA = "0x6226AB0")]
 	public BindableAttribute(BindableSupport flags, BindingDirection direction)
 	{
 	}
 
-	[Token(Token = "0x600095E")]
-	[Address(RVA = "0x2892EA0", Offset = "0x28914A0", VA = "0x182892EA0", Slot = "0")]
+	[Token(Token = "0x600079E")]
+	[Address(RVA = "0x6226B00", Offset = "0x6225B00", VA = "0x6226B00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600095F")]
-	[Address(RVA = "0x2892F40", Offset = "0x2891540", VA = "0x182892F40", Slot = "2")]
+	[Token(Token = "0x600079F")]
+	[Address(RVA = "0x6226B70", Offset = "0x6225B70", VA = "0x6226B70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000960")]
-	[Address(RVA = "0x2892F80", Offset = "0x2891580", VA = "0x182892F80", Slot = "6")]
+	[Token(Token = "0x60007A0")]
+	[Address(RVA = "0x6226BA0", Offset = "0x6225BA0", VA = "0x6226BA0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

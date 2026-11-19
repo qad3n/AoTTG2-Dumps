@@ -29,13 +29,13 @@ internal sealed class AutoIncrementBigInteger : AutoIncrementValue
 	internal override object Current
 	{
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x24C1370", Offset = "0x24BF970", VA = "0x1824C1370", Slot = "4")]
+		[Address(RVA = "0x5E6B390", Offset = "0x5E6A390", VA = "0x5E6B390", Slot = "4")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x24C1470", Offset = "0x24BFA70", VA = "0x1824C1470", Slot = "5")]
+		[Address(RVA = "0x5E6B3E0", Offset = "0x5E6A3E0", VA = "0x5E6B3E0", Slot = "5")]
 		set
 		{
 		}
@@ -45,7 +45,7 @@ internal sealed class AutoIncrementBigInteger : AutoIncrementValue
 	internal override Type DataType
 	{
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x24C13C0", Offset = "0x24BF9C0", VA = "0x1824C13C0", Slot = "10")]
+		[Address(RVA = "0x5E6B460", Offset = "0x5E6A460", VA = "0x5E6B460", Slot = "10")]
 		get
 		{
 			return null;
@@ -56,13 +56,13 @@ internal sealed class AutoIncrementBigInteger : AutoIncrementValue
 	internal override long Seed
 	{
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "6")]
+		[Address(RVA = "0x5E6B4C0", Offset = "0x5E6A4C0", VA = "0x5E6B4C0", Slot = "6")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x24C14F0", Offset = "0x24BFAF0", VA = "0x1824C14F0", Slot = "7")]
+		[Address(RVA = "0x5E6B4D0", Offset = "0x5E6A4D0", VA = "0x5E6B4D0", Slot = "7")]
 		set
 		{
 		}
@@ -72,45 +72,45 @@ internal sealed class AutoIncrementBigInteger : AutoIncrementValue
 	internal override long Step
 	{
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x24C1410", Offset = "0x24BFA10", VA = "0x1824C1410", Slot = "8")]
+		[Address(RVA = "0x5E6B6E0", Offset = "0x5E6A6E0", VA = "0x5E6B6E0", Slot = "8")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x24C15F0", Offset = "0x24BFBF0", VA = "0x1824C15F0", Slot = "9")]
+		[Address(RVA = "0x5E6B740", Offset = "0x5E6A740", VA = "0x5E6B740", Slot = "9")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x24C1150", Offset = "0x24BF750", VA = "0x1824C1150", Slot = "13")]
+	[Address(RVA = "0x5E6B8F0", Offset = "0x5E6A8F0", VA = "0x5E6B8F0", Slot = "13")]
 	internal override void MoveAfter()
 	{
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x24C12D0", Offset = "0x24BF8D0", VA = "0x1824C12D0", Slot = "11")]
+	[Address(RVA = "0x5E6B980", Offset = "0x5E6A980", VA = "0x5E6B980", Slot = "11")]
 	internal override void SetCurrent(object value, IFormatProvider formatProvider)
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x24C11E0", Offset = "0x24BF7E0", VA = "0x1824C11E0", Slot = "12")]
+	[Address(RVA = "0x5E6B9B0", Offset = "0x5E6A9B0", VA = "0x5E6B9B0", Slot = "12")]
 	internal override void SetCurrentAndIncrement(object value)
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x24C1010", Offset = "0x24BF610", VA = "0x1824C1010")]
+	[Address(RVA = "0x5E6B5B0", Offset = "0x5E6A5B0", VA = "0x5E6B5B0")]
 	private bool BoundaryCheck(BigInteger value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x24C1300", Offset = "0x24BF900", VA = "0x1824C1300")]
+	[Address(RVA = "0x5E64320", Offset = "0x5E63320", VA = "0x5E64320")]
 	public AutoIncrementBigInteger()
 	{
 	}

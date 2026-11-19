@@ -51,7 +51,7 @@ internal class CompiledIdentityConstraint
 	public ConstraintRole Role
 	{
 		[Token(Token = "0x6000F97")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x61420D0", Offset = "0x61410D0", VA = "0x61420D0")]
 		get
 		{
 			return default(ConstraintRole);
@@ -62,7 +62,7 @@ internal class CompiledIdentityConstraint
 	public Asttree Selector
 	{
 		[Token(Token = "0x6000F98")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x61420E0", Offset = "0x61410E0", VA = "0x61420E0")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ internal class CompiledIdentityConstraint
 	public Asttree[] Fields
 	{
 		[Token(Token = "0x6000F99")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x61420F0", Offset = "0x61410F0", VA = "0x61420F0")]
 		get
 		{
 			return null;
@@ -81,13 +81,13 @@ internal class CompiledIdentityConstraint
 	}
 
 	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x277C670", Offset = "0x277AC70", VA = "0x18277C670")]
+	[Address(RVA = "0x6142100", Offset = "0x6141100", VA = "0x6142100")]
 	private CompiledIdentityConstraint()
 	{
 	}
 
 	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x277C700", Offset = "0x277AD00", VA = "0x18277C700")]
+	[Address(RVA = "0x6142190", Offset = "0x6141190", VA = "0x6142190")]
 	public CompiledIdentityConstraint(XmlSchemaIdentityConstraint constraint, XmlNamespaceManager nsmgr)
 	{
 	}

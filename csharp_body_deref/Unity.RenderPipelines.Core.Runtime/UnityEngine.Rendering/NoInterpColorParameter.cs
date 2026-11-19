@@ -17,27 +17,27 @@ namespace UnityEngine.Rendering;
 public class NoInterpColorParameter : VolumeParameter<Color>
 {
 	[Token(Token = "0x40009A8")]
-	[FieldOffset(Offset = "0x28")]
+	[FieldOffset(Offset = "0x24")]
 	public bool hdr;
 
 	[NonSerialized]
 	[Token(Token = "0x40009A9")]
-	[FieldOffset(Offset = "0x29")]
+	[FieldOffset(Offset = "0x25")]
 	public bool showAlpha;
 
 	[NonSerialized]
 	[Token(Token = "0x40009AA")]
-	[FieldOffset(Offset = "0x2A")]
+	[FieldOffset(Offset = "0x26")]
 	public bool showEyeDropper;
 
 	[Token(Token = "0x6000F4E")]
-	[Address(RVA = "0x2B5F4B0", Offset = "0x2B5DAB0", VA = "0x182B5F4B0")]
+	[Address(RVA = "0x6555F60", Offset = "0x6554F60", VA = "0x6555F60")]
 	public NoInterpColorParameter(Color value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F4F")]
-	[Address(RVA = "0x2B5F520", Offset = "0x2B5DB20", VA = "0x182B5F520")]
+	[Address(RVA = "0x6555FC0", Offset = "0x6554FC0", VA = "0x6555FC0")]
 	public NoInterpColorParameter(Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState = false)
 	{
 	}

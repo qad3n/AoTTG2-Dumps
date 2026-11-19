@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.DebugMessageHandler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ internal class DebugMessageHandler : ScriptableObject
 		public bool isCompatible
 		{
 			[Token(Token = "0x6000FEE")]
-			[Address(RVA = "0xC84280", Offset = "0xC82880", VA = "0x180C84280")]
+			[Address(RVA = "0x655E100", Offset = "0x655D100", VA = "0x655E100")]
 			get
 			{
 				return default(bool);
@@ -45,7 +45,7 @@ internal class DebugMessageHandler : ScriptableObject
 		}
 
 		[Token(Token = "0x6000FEF")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x655E290", Offset = "0x655D290", VA = "0x655E290")]
 		protected IPayload()
 		{
 		}
@@ -67,7 +67,7 @@ internal class DebugMessageHandler : ScriptableObject
 		public RenderGraph.DebugData debugData;
 
 		[Token(Token = "0x6000FF0")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x655E0F0", Offset = "0x655D0F0", VA = "0x655E0F0")]
 		public DebugDataPayload()
 		{
 		}
@@ -77,11 +77,11 @@ internal class DebugMessageHandler : ScriptableObject
 	public class AnalyticsPayload : IPayload
 	{
 		[Token(Token = "0x4000A0C")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 		public GraphicsDeviceType graphicsDeviceType;
 
 		[Token(Token = "0x4000A0D")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public DeviceType deviceType;
 
 		[Token(Token = "0x4000A0E")]
@@ -97,7 +97,7 @@ internal class DebugMessageHandler : ScriptableObject
 		public string gpuName;
 
 		[Token(Token = "0x6000FF1")]
-		[Address(RVA = "0x2B68350", Offset = "0x2B66950", VA = "0x182B68350")]
+		[Address(RVA = "0x655E160", Offset = "0x655D160", VA = "0x655E160")]
 		public AnalyticsPayload()
 		{
 		}
@@ -119,45 +119,45 @@ internal class DebugMessageHandler : ScriptableObject
 	private Action<MessageType, IPayload> m_UserCallback;
 
 	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x2B6A780", Offset = "0x2B68D80", VA = "0x182B6A780")]
+	[Address(RVA = "0x655D100", Offset = "0x655C100", VA = "0x655D100")]
 	private void InternalCallback(MessageEventArgs msg)
 	{
 	}
 
 	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x2B6A810", Offset = "0x2B68E10", VA = "0x182B6A810")]
+	[Address(RVA = "0x655D8B0", Offset = "0x655C8B0", VA = "0x655D8B0")]
 	public void Register(Action<MessageType, IPayload> callback)
 	{
 	}
 
 	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x2B6AE90", Offset = "0x2B69490", VA = "0x182B6AE90")]
+	[Address(RVA = "0x655D990", Offset = "0x655C990", VA = "0x655D990")]
 	public void UnregisterAll()
 	{
 	}
 
 	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x2B6A900", Offset = "0x2B68F00", VA = "0x182B6A900")]
+	[Address(RVA = "0x655DA60", Offset = "0x655CA60", VA = "0x655DA60")]
 	public void Send(MessageType messageType, [Optional] IPayload payload)
 	{
 	}
 
 	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x2B6A9B0", Offset = "0x2B68FB0", VA = "0x182B6A9B0")]
+	[Address(RVA = "0x655DB00", Offset = "0x655CB00", VA = "0x655DB00")]
 	internal static byte[] SerializeMessage(MessageType type, [Optional] IPayload payload)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FEB")]
-	[Address(RVA = "0x2B6A0D0", Offset = "0x2B686D0", VA = "0x182B6A0D0")]
+	[Address(RVA = "0x655D180", Offset = "0x655C180", VA = "0x655D180")]
 	internal static (MessageType, IPayload) DeserializeMessage(byte[] data)
 	{
 		return default((MessageType, IPayload));
 	}
 
 	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x655E1D0", Offset = "0x655D1D0", VA = "0x655E1D0")]
 	public DebugMessageHandler()
 	{
 	}

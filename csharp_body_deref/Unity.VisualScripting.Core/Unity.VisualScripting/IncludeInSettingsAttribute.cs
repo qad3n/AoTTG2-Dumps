@@ -19,14 +19,14 @@ public sealed class IncludeInSettingsAttribute : Attribute
 	public bool include
 	{
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6792DE0", Offset = "0x6791DE0", VA = "0x6792DE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6792DF0", Offset = "0x6791DF0", VA = "0x6792DF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -34,7 +34,7 @@ public sealed class IncludeInSettingsAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Address(RVA = "0x6792DC0", Offset = "0x6791DC0", VA = "0x6792DC0")]
 	public IncludeInSettingsAttribute(bool include)
 	{
 	}

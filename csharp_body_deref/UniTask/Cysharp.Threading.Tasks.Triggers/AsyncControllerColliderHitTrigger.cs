@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncControllerColliderHitTrigger : AsyncTriggerBase<ControllerColliderHit>
 {
 	[Token(Token = "0x6000B05")]
-	[Address(RVA = "0x292C0E0", Offset = "0x292A6E0", VA = "0x18292C0E0")]
+	[Address(RVA = "0x62FA5B0", Offset = "0x62F95B0", VA = "0x62FA5B0")]
 	private void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 	}
 
 	[Token(Token = "0x6000B06")]
-	[Address(RVA = "0x292BDC0", Offset = "0x292A3C0", VA = "0x18292BDC0")]
+	[Address(RVA = "0x62FA600", Offset = "0x62F9600", VA = "0x62FA600")]
 	public IAsyncOnControllerColliderHitHandler GetOnControllerColliderHitAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B07")]
-	[Address(RVA = "0x292BE30", Offset = "0x292A430", VA = "0x18292BE30")]
+	[Address(RVA = "0x62FA670", Offset = "0x62F9670", VA = "0x62FA670")]
 	public IAsyncOnControllerColliderHitHandler GetOnControllerColliderHitAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B08")]
-	[Address(RVA = "0x292BFC0", Offset = "0x292A5C0", VA = "0x18292BFC0")]
+	[Address(RVA = "0x62FA6E0", Offset = "0x62F96E0", VA = "0x62FA6E0")]
 	public UniTask<ControllerColliderHit> OnControllerColliderHitAsync()
 	{
 		return default(UniTask<ControllerColliderHit>);
 	}
 
 	[Token(Token = "0x6000B09")]
-	[Address(RVA = "0x292BEB0", Offset = "0x292A4B0", VA = "0x18292BEB0")]
+	[Address(RVA = "0x62FA7E0", Offset = "0x62F97E0", VA = "0x62FA7E0")]
 	public UniTask<ControllerColliderHit> OnControllerColliderHitAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<ControllerColliderHit>);
 	}
 
 	[Token(Token = "0x6000B0A")]
-	[Address(RVA = "0x292C130", Offset = "0x292A730", VA = "0x18292C130")]
+	[Address(RVA = "0x62FA8F0", Offset = "0x62F98F0", VA = "0x62FA8F0")]
 	public AsyncControllerColliderHitTrigger()
 	{
 	}

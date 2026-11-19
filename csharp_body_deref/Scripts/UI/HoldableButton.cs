@@ -12,71 +12,71 @@ using UnityEngine.EventSystems;
 
 namespace UI;
 
-[Token(Token = "0x2000749")]
+[Token(Token = "0x20007F1")]
 internal class HoldableButton : EventTrigger
 {
-	[Token(Token = "0x4002426")]
+	[Token(Token = "0x4002797")]
 	[FieldOffset(Offset = "0x28")]
 	public float ClickSpeed;
 
-	[Token(Token = "0x4002427")]
+	[Token(Token = "0x4002798")]
 	[FieldOffset(Offset = "0x2C")]
 	public float HoldDelay;
 
-	[Token(Token = "0x4002428")]
+	[Token(Token = "0x4002799")]
 	[FieldOffset(Offset = "0x30")]
 	private bool isHeld;
 
-	[Token(Token = "0x4002429")]
+	[Token(Token = "0x400279A")]
 	[FieldOffset(Offset = "0x34")]
 	private float holdTime;
 
-	[Token(Token = "0x400242A")]
+	[Token(Token = "0x400279B")]
 	[FieldOffset(Offset = "0x38")]
 	private float nextClickTime;
 
-	[Token(Token = "0x400242B")]
+	[Token(Token = "0x400279C")]
 	[FieldOffset(Offset = "0x40")]
 	[CompilerGenerated]
 	private Action m_OnClick;
 
-	[Token(Token = "0x14000004")]
+	[Token(Token = "0x14000007")]
 	public event Action OnClick
 	{
-		[Token(Token = "0x6004728")]
-		[Address(RVA = "0x22117A0", Offset = "0x220FDA0", VA = "0x1822117A0")]
+		[Token(Token = "0x6004C4A")]
+		[Address(RVA = "0x5BF0910", Offset = "0x5BEF910", VA = "0x5BF0910")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6004729")]
-		[Address(RVA = "0x2211840", Offset = "0x220FE40", VA = "0x182211840")]
+		[Token(Token = "0x6004C4B")]
+		[Address(RVA = "0x5BF09A0", Offset = "0x5BEF9A0", VA = "0x5BF09A0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x600472A")]
-	[Address(RVA = "0x2211700", Offset = "0x220FD00", VA = "0x182211700")]
+	[Token(Token = "0x6004C4C")]
+	[Address(RVA = "0x5BF0A30", Offset = "0x5BEFA30", VA = "0x5BF0A30")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x600472B")]
-	[Address(RVA = "0x22116B0", Offset = "0x220FCB0", VA = "0x1822116B0", Slot = "25")]
+	[Token(Token = "0x6004C4D")]
+	[Address(RVA = "0x5BF0AB0", Offset = "0x5BEFAB0", VA = "0x5BF0AB0", Slot = "25")]
 	public override void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600472C")]
-	[Address(RVA = "0xACCA60", Offset = "0xACB060", VA = "0x180ACCA60", Slot = "26")]
+	[Token(Token = "0x6004C4E")]
+	[Address(RVA = "0x5BF0AF0", Offset = "0x5BEFAF0", VA = "0x5BF0AF0", Slot = "26")]
 	public override void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600472D")]
-	[Address(RVA = "0x2211780", Offset = "0x220FD80", VA = "0x182211780")]
+	[Token(Token = "0x6004C4F")]
+	[Address(RVA = "0x5BF0B00", Offset = "0x5BEFB00", VA = "0x5BF0B00")]
 	public HoldableButton()
 	{
 	}

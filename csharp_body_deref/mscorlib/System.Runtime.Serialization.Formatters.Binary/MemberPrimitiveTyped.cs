@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200043D")]
+[Token(Token = "0x2000416")]
 internal sealed class MemberPrimitiveTyped
 {
-	[Token(Token = "0x40010D3")]
+	[Token(Token = "0x4001033")]
 	[FieldOffset(Offset = "0x10")]
 	internal System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum;
 
-	[Token(Token = "0x40010D4")]
+	[Token(Token = "0x4001034")]
 	[FieldOffset(Offset = "0x18")]
 	internal object value;
 
-	[Token(Token = "0x60020CF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60020A5")]
+	[Address(RVA = "0x53AACE0", Offset = "0x53A9CE0", VA = "0x53AACE0")]
 	internal MemberPrimitiveTyped()
 	{
 	}
 
-	[Token(Token = "0x60020D0")]
-	[Address(RVA = "0x1A0C0F0", Offset = "0x1A0A6F0", VA = "0x181A0C0F0")]
+	[Token(Token = "0x60020A6")]
+	[Address(RVA = "0x53AACF0", Offset = "0x53A9CF0", VA = "0x53AACF0")]
 	internal void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, object value)
 	{
 	}
 
-	[Token(Token = "0x60020D1")]
-	[Address(RVA = "0x1A14DA0", Offset = "0x1A133A0", VA = "0x181A14DA0", Slot = "4")]
+	[Token(Token = "0x60020A7")]
+	[Address(RVA = "0x53AAD10", Offset = "0x53A9D10", VA = "0x53AAD10", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x60020D2")]
-	[Address(RVA = "0x1A14D50", Offset = "0x1A13350", VA = "0x181A14D50", Slot = "5")]
+	[Token(Token = "0x60020A8")]
+	[Address(RVA = "0x53AAD80", Offset = "0x53A9D80", VA = "0x53AAD80", Slot = "5")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}
 
-	[Token(Token = "0x60020D3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60020A9")]
+	[Address(RVA = "0x53AADD0", Offset = "0x53A9DD0", VA = "0x53AADD0")]
 	public void Dump()
 	{
 	}

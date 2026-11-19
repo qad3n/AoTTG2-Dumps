@@ -22,14 +22,14 @@ public class DynamicAtlasSettings
 
 	[Token(Token = "0x40008EC")]
 	[FieldOffset(Offset = "0x14")]
-	[SerializeField]
 	[HideInInspector]
+	[SerializeField]
 	private int m_MaxAtlasSize;
 
 	[Token(Token = "0x40008ED")]
 	[FieldOffset(Offset = "0x18")]
-	[HideInInspector]
 	[SerializeField]
+	[HideInInspector]
 	private int m_MaxSubTextureSize;
 
 	[Token(Token = "0x40008EE")]
@@ -46,13 +46,13 @@ public class DynamicAtlasSettings
 	public int minAtlasSize
 	{
 		[Token(Token = "0x600104B")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6C837C0", Offset = "0x6C827C0", VA = "0x6C837C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600104C")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6C837D0", Offset = "0x6C827D0", VA = "0x6C837D0")]
 		set
 		{
 		}
@@ -62,13 +62,13 @@ public class DynamicAtlasSettings
 	public int maxAtlasSize
 	{
 		[Token(Token = "0x600104D")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6C837E0", Offset = "0x6C827E0", VA = "0x6C837E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600104E")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x6C837F0", Offset = "0x6C827F0", VA = "0x6C837F0")]
 		set
 		{
 		}
@@ -78,13 +78,13 @@ public class DynamicAtlasSettings
 	public int maxSubTextureSize
 	{
 		[Token(Token = "0x600104F")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x6C83800", Offset = "0x6C82800", VA = "0x6C83800")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001050")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x6C83810", Offset = "0x6C82810", VA = "0x6C83810")]
 		set
 		{
 		}
@@ -94,13 +94,13 @@ public class DynamicAtlasSettings
 	public DynamicAtlasFilters activeFilters
 	{
 		[Token(Token = "0x6001051")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x6C83820", Offset = "0x6C82820", VA = "0x6C83820")]
 		get
 		{
 			return default(DynamicAtlasFilters);
 		}
 		[Token(Token = "0x6001052")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x6C83830", Offset = "0x6C82830", VA = "0x6C83830")]
 		set
 		{
 		}
@@ -110,7 +110,7 @@ public class DynamicAtlasSettings
 	public static DynamicAtlasFilters defaultFilters
 	{
 		[Token(Token = "0x6001053")]
-		[Address(RVA = "0x3273BA0", Offset = "0x32721A0", VA = "0x183273BA0")]
+		[Address(RVA = "0x6C83840", Offset = "0x6C82840", VA = "0x6C83840")]
 		get
 		{
 			return default(DynamicAtlasFilters);
@@ -121,13 +121,13 @@ public class DynamicAtlasSettings
 	public DynamicAtlasCustomFilter customFilter
 	{
 		[Token(Token = "0x6001054")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6C83850", Offset = "0x6C82850", VA = "0x6C83850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001055")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6C83860", Offset = "0x6C82860", VA = "0x6C83860")]
 		set
 		{
 		}
@@ -137,7 +137,7 @@ public class DynamicAtlasSettings
 	public static DynamicAtlasSettings defaults
 	{
 		[Token(Token = "0x6001056")]
-		[Address(RVA = "0x3273BB0", Offset = "0x32721B0", VA = "0x183273BB0")]
+		[Address(RVA = "0x6C83870", Offset = "0x6C82870", VA = "0x6C83870")]
 		get
 		{
 			return null;
@@ -145,7 +145,7 @@ public class DynamicAtlasSettings
 	}
 
 	[Token(Token = "0x6001057")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C838F0", Offset = "0x6C828F0", VA = "0x6C838F0")]
 	public DynamicAtlasSettings()
 	{
 	}

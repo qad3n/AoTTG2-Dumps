@@ -11,98 +11,98 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor;
 
-[Token(Token = "0x20005FE")]
+[Token(Token = "0x200065D")]
 public static class CustomLogicReflectionUtils
 {
-	[Token(Token = "0x6003A91")]
-	[Address(RVA = "0x20FB530", Offset = "0x20F9B30", VA = "0x1820FB530")]
+	[Token(Token = "0x6003D1F")]
+	[Address(RVA = "0x5A91D30", Offset = "0x5A90D30", VA = "0x5A91D30")]
 	public static bool IsCustomLogicType(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A92")]
-	[Address(RVA = "0x20FB4F0", Offset = "0x20F9AF0", VA = "0x1820FB4F0")]
+	[Token(Token = "0x6003D20")]
+	[Address(RVA = "0x5A91DB0", Offset = "0x5A90DB0", VA = "0x5A91DB0")]
 	public static bool IsCustomLogicProperty(MemberInfo member)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A93")]
-	[Address(RVA = "0x20FB4B0", Offset = "0x20F9AB0", VA = "0x1820FB4B0")]
+	[Token(Token = "0x6003D21")]
+	[Address(RVA = "0x5A91DF0", Offset = "0x5A90DF0", VA = "0x5A91DF0")]
 	public static bool IsCustomLogicMethod(MethodInfo methodInfo)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A94")]
-	[Address(RVA = "0x20FB600", Offset = "0x20F9C00", VA = "0x1820FB600")]
+	[Token(Token = "0x6003D22")]
+	[Address(RVA = "0x5A91E30", Offset = "0x5A90E30", VA = "0x5A91E30")]
 	public static bool IsObsolete(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A95")]
-	[Address(RVA = "0x20FB5C0", Offset = "0x20F9BC0", VA = "0x1820FB5C0")]
+	[Token(Token = "0x6003D23")]
+	[Address(RVA = "0x5A91E70", Offset = "0x5A90E70", VA = "0x5A91E70")]
 	public static bool IsObsolete(MemberInfo member)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A96")]
-	[Address(RVA = "0x20FB3F0", Offset = "0x20F99F0", VA = "0x1820FB3F0")]
+	[Token(Token = "0x6003D24")]
+	[Address(RVA = "0x5A91EB0", Offset = "0x5A90EB0", VA = "0x5A91EB0")]
 	public static string GetObsoleteMessage(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A97")]
-	[Address(RVA = "0x20FB330", Offset = "0x20F9930", VA = "0x1820FB330")]
+	[Token(Token = "0x6003D25")]
+	[Address(RVA = "0x5A91F70", Offset = "0x5A90F70", VA = "0x5A91F70")]
 	public static string GetObsoleteMessage(MemberInfo member)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A98")]
+	[Token(Token = "0x6003D26")]
 	public static bool HasAttribute<T>(Type type, bool inherit = false) where T : Attribute
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A99")]
+	[Token(Token = "0x6003D27")]
 	public static T GetAttribute<T>(Type type, bool inherit = false) where T : Attribute
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A9A")]
+	[Token(Token = "0x6003D28")]
 	public static bool HasAttribute<T>(MemberInfo member, bool inherit = false) where T : Attribute
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A9B")]
+	[Token(Token = "0x6003D29")]
 	public static T GetAttribute<T>(MemberInfo member, bool inherit = false) where T : Attribute
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A9C")]
-	[Address(RVA = "0x20FB640", Offset = "0x20F9C40", VA = "0x1820FB640")]
+	[Token(Token = "0x6003D2A")]
+	[Address(RVA = "0x5A92030", Offset = "0x5A91030", VA = "0x5A92030")]
 	public static bool IsPropertyStatic(PropertyInfo propertyInfo)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A9D")]
-	[Address(RVA = "0x20FB220", Offset = "0x20F9820", VA = "0x1820FB220")]
+	[Token(Token = "0x6003D2B")]
+	[Address(RVA = "0x5A920A0", Offset = "0x5A910A0", VA = "0x5A920A0")]
 	public static string GetDefaultValueAsString(ParameterInfo parameterInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A9E")]
-	[Address(RVA = "0x20FB6B0", Offset = "0x20F9CB0", VA = "0x1820FB6B0")]
+	[Token(Token = "0x6003D2C")]
+	[Address(RVA = "0x5A921B0", Offset = "0x5A911B0", VA = "0x5A921B0")]
 	public static bool IsVariadicParameter(ParameterInfo parameterInfo)
 	{
 		return default(bool);

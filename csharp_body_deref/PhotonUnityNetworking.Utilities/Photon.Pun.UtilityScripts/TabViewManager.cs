@@ -22,7 +22,7 @@ public class TabViewManager : MonoBehaviour
 	public class TabChangeEvent : UnityEvent<string>
 	{
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x1D5F2E0", Offset = "0x1D5D8E0", VA = "0x181D5F2E0")]
+		[Address(RVA = "0x56F8B50", Offset = "0x56F7B50", VA = "0x56F8B50")]
 		public TabChangeEvent()
 		{
 		}
@@ -45,7 +45,7 @@ public class TabViewManager : MonoBehaviour
 		public RectTransform View;
 
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x1D5F730", Offset = "0x1D5DD30", VA = "0x181D5F730")]
+		[Address(RVA = "0x56F8B90", Offset = "0x56F7B90", VA = "0x56F8B90")]
 		public Tab()
 		{
 		}
@@ -72,25 +72,25 @@ public class TabViewManager : MonoBehaviour
 	private Dictionary<Toggle, Tab> Tab_lut;
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x1D5F4D0", Offset = "0x1D5DAD0", VA = "0x181D5F4D0")]
+	[Address(RVA = "0x56F86F0", Offset = "0x56F76F0", VA = "0x56F86F0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x1D5F450", Offset = "0x1D5DA50", VA = "0x181D5F450")]
+	[Address(RVA = "0x56F8980", Offset = "0x56F7980", VA = "0x56F8980")]
 	public void SelectTab(string id)
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x1D5F320", Offset = "0x1D5D920", VA = "0x181D5F320")]
+	[Address(RVA = "0x56F8A10", Offset = "0x56F7A10", VA = "0x56F8A10")]
 	private void OnTabSelected(Tab tab)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F8B40", Offset = "0x56F7B40", VA = "0x56F8B40")]
 	public TabViewManager()
 	{
 	}

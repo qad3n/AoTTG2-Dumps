@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DynamicResolutionHandler
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -158,14 +158,14 @@ public class DynamicResolutionHandler
 	public DynamicResUpscaleFilter filter
 	{
 		[Token(Token = "0x60004E2")]
-		[Address(RVA = "0x1CC5A60", Offset = "0x1CC4060", VA = "0x181CC5A60")]
+		[Address(RVA = "0x64BC760", Offset = "0x64BB760", VA = "0x64BC760")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DynamicResUpscaleFilter);
 		}
 		[Token(Token = "0x60004E3")]
-		[Address(RVA = "0x1CC5C30", Offset = "0x1CC4230", VA = "0x181CC5C30")]
+		[Address(RVA = "0x64BC770", Offset = "0x64BB770", VA = "0x64BC770")]
 		[CompilerGenerated]
 		private set
 		{
@@ -176,14 +176,14 @@ public class DynamicResolutionHandler
 	public Vector2Int finalViewport
 	{
 		[Token(Token = "0x60004E4")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x64BC780", Offset = "0x64BB780", VA = "0x64BC780")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2Int);
 		}
 		[Token(Token = "0x60004E5")]
-		[Address(RVA = "0x1C613B0", Offset = "0x1C5F9B0", VA = "0x181C613B0")]
+		[Address(RVA = "0x64BC790", Offset = "0x64BB790", VA = "0x64BC790")]
 		[CompilerGenerated]
 		set
 		{
@@ -194,13 +194,13 @@ public class DynamicResolutionHandler
 	public bool runUpscalerFilterOnFullResolution
 	{
 		[Token(Token = "0x60004E7")]
-		[Address(RVA = "0x2AC0E40", Offset = "0x2ABF440", VA = "0x182AC0E40")]
+		[Address(RVA = "0x64BC7B0", Offset = "0x64BB7B0", VA = "0x64BC7B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60004E6")]
-		[Address(RVA = "0x15736C0", Offset = "0x1571CC0", VA = "0x1815736C0")]
+		[Address(RVA = "0x64BC7A0", Offset = "0x64BB7A0", VA = "0x64BC7A0")]
 		set
 		{
 		}
@@ -210,7 +210,7 @@ public class DynamicResolutionHandler
 	public bool forcingResolution
 	{
 		[Token(Token = "0x60004E8")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x64BC7D0", Offset = "0x64BB7D0", VA = "0x64BC7D0")]
 		get
 		{
 			return default(bool);
@@ -221,13 +221,13 @@ public class DynamicResolutionHandler
 	public UpsamplerScheduleType upsamplerSchedule
 	{
 		[Token(Token = "0x60004EC")]
-		[Address(RVA = "0xB5B990", Offset = "0xB59F90", VA = "0x180B5B990")]
+		[Address(RVA = "0x64BCF70", Offset = "0x64BBF70", VA = "0x64BCF70")]
 		get
 		{
 			return default(UpsamplerScheduleType);
 		}
 		[Token(Token = "0x60004EB")]
-		[Address(RVA = "0xB5BDE0", Offset = "0xB5A3E0", VA = "0x180B5BDE0")]
+		[Address(RVA = "0x64BCF60", Offset = "0x64BBF60", VA = "0x64BCF60")]
 		set
 		{
 		}
@@ -237,7 +237,7 @@ public class DynamicResolutionHandler
 	public static DynamicResolutionHandler instance
 	{
 		[Token(Token = "0x60004ED")]
-		[Address(RVA = "0x2AC0DF0", Offset = "0x2ABF3F0", VA = "0x182AC0DF0")]
+		[Address(RVA = "0x64BCF80", Offset = "0x64BBF80", VA = "0x64BCF80")]
 		get
 		{
 			return null;
@@ -245,184 +245,184 @@ public class DynamicResolutionHandler
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x2ABFF20", Offset = "0x2ABE520", VA = "0x182ABFF20")]
+	[Address(RVA = "0x64BC720", Offset = "0x64BB720", VA = "0x64BC720")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x2ABF240", Offset = "0x2ABD840", VA = "0x182ABF240")]
+	[Address(RVA = "0x64BC7E0", Offset = "0x64BB7E0", VA = "0x64BC7E0")]
 	private bool FlushScalableBufferManagerState()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x2ABF550", Offset = "0x2ABDB50", VA = "0x182ABF550")]
+	[Address(RVA = "0x64BC960", Offset = "0x64BB960", VA = "0x64BC960")]
 	private static DynamicResolutionHandler GetOrCreateDrsInstanceHandler(Camera camera)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x2AC0CE0", Offset = "0x2ABF2E0", VA = "0x182AC0CE0")]
+	[Address(RVA = "0x64BCEC0", Offset = "0x64BBEC0", VA = "0x64BCEC0")]
 	private DynamicResolutionHandler()
 	{
 	}
 
 	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x20CF430", Offset = "0x20CDA30", VA = "0x1820CF430")]
+	[Address(RVA = "0x64BCFF0", Offset = "0x64BBFF0", VA = "0x64BCFF0")]
 	private static float DefaultDynamicResMethod()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x2ABFCA0", Offset = "0x2ABE2A0", VA = "0x182ABFCA0")]
+	[Address(RVA = "0x64BD000", Offset = "0x64BC000", VA = "0x64BD000")]
 	private void ProcessSettings(GlobalDynamicResolutionSettings settings)
 	{
 	}
 
 	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x2ABFA50", Offset = "0x2ABE050", VA = "0x182ABFA50")]
+	[Address(RVA = "0x64BD200", Offset = "0x64BC200", VA = "0x64BD200")]
 	public Vector2 GetResolvedScale()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x2ABF0F0", Offset = "0x2ABD6F0", VA = "0x182ABF0F0")]
+	[Address(RVA = "0x64BD260", Offset = "0x64BC260", VA = "0x64BD260")]
 	public float CalculateMipBias(Vector2Int inputResolution, Vector2Int outputResolution, bool forceApply = false)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x2ABFFD0", Offset = "0x2ABE5D0", VA = "0x182ABFFD0")]
+	[Address(RVA = "0x64BD2F0", Offset = "0x64BC2F0", VA = "0x64BD2F0")]
 	public static void SetDynamicResScaler(PerformDynamicRes scaler, DynamicResScalePolicyType scalerType = DynamicResScalePolicyType.ReturnsMinMaxLerpFactor)
 	{
 	}
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x2AC0090", Offset = "0x2ABE690", VA = "0x182AC0090")]
+	[Address(RVA = "0x64BD3A0", Offset = "0x64BC3A0", VA = "0x64BD3A0")]
 	public static void SetSystemDynamicResScaler(PerformDynamicRes scaler, DynamicResScalePolicyType scalerType = DynamicResScalePolicyType.ReturnsMinMaxLerpFactor)
 	{
 	}
 
 	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x2ABFF70", Offset = "0x2ABE570", VA = "0x182ABFF70")]
+	[Address(RVA = "0x64BD450", Offset = "0x64BC450", VA = "0x64BD450")]
 	public static void SetActiveDynamicScalerSlot(DynamicResScalerSlot slot)
 	{
 	}
 
 	[Token(Token = "0x60004F6")]
-	[Address(RVA = "0x2ABF180", Offset = "0x2ABD780", VA = "0x182ABF180")]
+	[Address(RVA = "0x64BD4A0", Offset = "0x64BC4A0", VA = "0x64BD4A0")]
 	public static void ClearSelectedCamera()
 	{
 	}
 
 	[Token(Token = "0x60004F7")]
-	[Address(RVA = "0x2AC0150", Offset = "0x2ABE750", VA = "0x182AC0150")]
+	[Address(RVA = "0x64BD510", Offset = "0x64BC510", VA = "0x64BD510")]
 	public static void SetUpscaleFilter(Camera camera, DynamicResUpscaleFilter filter)
 	{
 	}
 
 	[Token(Token = "0x60004F8")]
-	[Address(RVA = "0x1991EB0", Offset = "0x19904B0", VA = "0x181991EB0")]
+	[Address(RVA = "0x64BD630", Offset = "0x64BC630", VA = "0x64BD630")]
 	public void SetCurrentCameraRequest(bool cameraRequest)
 	{
 	}
 
 	[Token(Token = "0x60004F9")]
-	[Address(RVA = "0x2AC02D0", Offset = "0x2ABE8D0", VA = "0x182AC02D0")]
+	[Address(RVA = "0x64BD640", Offset = "0x64BC640", VA = "0x64BD640")]
 	public static void UpdateAndUseCamera(Camera camera, [Optional] GlobalDynamicResolutionSettings? settings, [Optional] Action OnResolutionChange)
 	{
 	}
 
 	[Token(Token = "0x60004FA")]
-	[Address(RVA = "0x2AC05A0", Offset = "0x2ABEBA0", VA = "0x182AC05A0")]
+	[Address(RVA = "0x64BD880", Offset = "0x64BC880", VA = "0x64BD880")]
 	public void Update(GlobalDynamicResolutionSettings settings, [Optional] Action OnResolutionChange)
 	{
 	}
 
 	[Token(Token = "0x60004FB")]
-	[Address(RVA = "0x2AC0290", Offset = "0x2ABE890", VA = "0x182AC0290")]
+	[Address(RVA = "0x64BDB30", Offset = "0x64BCB30", VA = "0x64BDB30")]
 	public bool SoftwareDynamicResIsEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FC")]
-	[Address(RVA = "0x2ABFC80", Offset = "0x2ABE280", VA = "0x182ABFC80")]
+	[Address(RVA = "0x64BC940", Offset = "0x64BB940", VA = "0x64BC940")]
 	public bool HardwareDynamicResIsEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FD")]
-	[Address(RVA = "0x2ABFF00", Offset = "0x2ABE500", VA = "0x182ABFF00")]
+	[Address(RVA = "0x64BDB70", Offset = "0x64BCB70", VA = "0x64BDB70")]
 	public bool RequestsHardwareDynamicResolution()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FE")]
-	[Address(RVA = "0x2ABF210", Offset = "0x2ABD810", VA = "0x182ABF210")]
+	[Address(RVA = "0x64BDB90", Offset = "0x64BCB90", VA = "0x64BDB90")]
 	public bool DynamicResolutionEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x2ABF3A0", Offset = "0x2ABD9A0", VA = "0x182ABF3A0")]
+	[Address(RVA = "0x64BDBC0", Offset = "0x64BCBC0", VA = "0x64BDBC0")]
 	public void ForceSoftwareFallback()
 	{
 	}
 
 	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x2ABFAC0", Offset = "0x2ABE0C0", VA = "0x182ABFAC0")]
+	[Address(RVA = "0x64BDBD0", Offset = "0x64BCBD0", VA = "0x64BDBD0")]
 	public Vector2Int GetScaledSize(Vector2Int size)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x2ABEDE0", Offset = "0x2ABD3E0", VA = "0x182ABEDE0")]
+	[Address(RVA = "0x64BDC40", Offset = "0x64BCC40", VA = "0x64BDC40")]
 	public Vector2Int ApplyScalesOnSize(Vector2Int size)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x2ABEF90", Offset = "0x2ABD590", VA = "0x182ABEF90")]
+	[Address(RVA = "0x64BDCB0", Offset = "0x64BCCB0", VA = "0x64BDCB0")]
 	internal Vector2Int ApplyScalesOnSize(Vector2Int size, Vector2 scales)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x2ABF3B0", Offset = "0x2ABD9B0", VA = "0x182ABF3B0")]
+	[Address(RVA = "0x64BDE50", Offset = "0x64BCE50", VA = "0x64BDE50")]
 	public float GetCurrentScale()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000504")]
-	[Address(RVA = "0x187BCB0", Offset = "0x187A2B0", VA = "0x18187BCB0")]
+	[Address(RVA = "0x64BDE70", Offset = "0x64BCE70", VA = "0x64BDE70")]
 	public Vector2Int GetLastScaledSize()
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000505")]
-	[Address(RVA = "0x2ABF490", Offset = "0x2ABDA90", VA = "0x182ABF490")]
+	[Address(RVA = "0x64BDE80", Offset = "0x64BCE80", VA = "0x64BDE80")]
 	public float GetLowResMultiplier(float targetLowRes)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000506")]
-	[Address(RVA = "0x2ABF3D0", Offset = "0x2ABD9D0", VA = "0x182ABF3D0")]
+	[Address(RVA = "0x64BDF50", Offset = "0x64BCF50", VA = "0x64BDF50")]
 	public float GetLowResMultiplier(float targetLowRes, float minimumThreshold)
 	{
 		return default(float);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsWorld
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -178,7 +178,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 			public readonly Color color;
 
 			[Token(Token = "0x6000169")]
-			[Address(RVA = "0x2FDA090", Offset = "0x2FD8690", VA = "0x182FDA090")]
+			[Address(RVA = "0x69D0CC0", Offset = "0x69CFCC0", VA = "0x69D0CC0")]
 			public static int Size()
 			{
 				return default(int);
@@ -209,7 +209,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 			public readonly Color color;
 
 			[Token(Token = "0x600016A")]
-			[Address(RVA = "0x2FCD630", Offset = "0x2FCBC30", VA = "0x182FCD630")]
+			[Address(RVA = "0x69D0CD0", Offset = "0x69CFCD0", VA = "0x69D0CD0")]
 			public static int Size()
 			{
 				return default(int);
@@ -244,7 +244,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 			public readonly Color color;
 
 			[Token(Token = "0x600016B")]
-			[Address(RVA = "0x2FCD2C0", Offset = "0x2FCB8C0", VA = "0x182FCD2C0")]
+			[Address(RVA = "0x69D0CE0", Offset = "0x69CFCE0", VA = "0x69D0CE0")]
 			public static int Size()
 			{
 				return default(int);
@@ -271,7 +271,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 			public readonly Color color;
 
 			[Token(Token = "0x600016C")]
-			[Address(RVA = "0x2FCF8A0", Offset = "0x2FCDEA0", VA = "0x182FCF8A0")]
+			[Address(RVA = "0x69D0CF0", Offset = "0x69CFCF0", VA = "0x69D0CF0")]
 			public static int Size()
 			{
 				return default(int);
@@ -298,7 +298,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 			public readonly Color color;
 
 			[Token(Token = "0x600016D")]
-			[Address(RVA = "0x2FD9D20", Offset = "0x2FD8320", VA = "0x182FD9D20")]
+			[Address(RVA = "0x69D0D00", Offset = "0x69CFD00", VA = "0x69D0D00")]
 			public static int Size()
 			{
 				return default(int);
@@ -329,7 +329,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		public NativeArray<PolygonGeometryElement> polygonGeometryArray
 		{
 			[Token(Token = "0x6000164")]
-			[Address(RVA = "0x2FCE5C0", Offset = "0x2FCCBC0", VA = "0x182FCE5C0")]
+			[Address(RVA = "0x69D0B80", Offset = "0x69CFB80", VA = "0x69D0B80")]
 			get
 			{
 				return default(NativeArray<PolygonGeometryElement>);
@@ -340,7 +340,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		public NativeArray<CircleGeometryElement> circleGeometryArray
 		{
 			[Token(Token = "0x6000165")]
-			[Address(RVA = "0x2FCE4A0", Offset = "0x2FCCAA0", VA = "0x182FCE4A0")]
+			[Address(RVA = "0x69D0BC0", Offset = "0x69CFBC0", VA = "0x69D0BC0")]
 			get
 			{
 				return default(NativeArray<CircleGeometryElement>);
@@ -351,7 +351,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		public NativeArray<CapsuleGeometryElement> capsuleGeometryArray
 		{
 			[Token(Token = "0x6000166")]
-			[Address(RVA = "0x2FCE440", Offset = "0x2FCCA40", VA = "0x182FCE440")]
+			[Address(RVA = "0x69D0C00", Offset = "0x69CFC00", VA = "0x69D0C00")]
 			get
 			{
 				return default(NativeArray<CapsuleGeometryElement>);
@@ -362,7 +362,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		public NativeArray<LineElement> lineArray
 		{
 			[Token(Token = "0x6000167")]
-			[Address(RVA = "0x2FCE500", Offset = "0x2FCCB00", VA = "0x182FCE500")]
+			[Address(RVA = "0x69D0C40", Offset = "0x69CFC40", VA = "0x69D0C40")]
 			get
 			{
 				return default(NativeArray<LineElement>);
@@ -373,7 +373,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		public NativeArray<PointElement> pointArray
 		{
 			[Token(Token = "0x6000168")]
-			[Address(RVA = "0x2FCE560", Offset = "0x2FCCB60", VA = "0x182FCE560")]
+			[Address(RVA = "0x69D0C80", Offset = "0x69CFC80", VA = "0x69D0C80")]
 			get
 			{
 				return default(NativeArray<PointElement>);
@@ -381,7 +381,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 		}
 
 		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x2FCE1B0", Offset = "0x2FCC7B0", VA = "0x182FCE1B0", Slot = "3")]
+		[Address(RVA = "0x69D0940", Offset = "0x69CF940", VA = "0x69D0940", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -594,7 +594,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 	public static bool bypassLowLevel
 	{
 		[Token(Token = "0x600015A")]
-		[Address(RVA = "0x2FD2A50", Offset = "0x2FD1050", VA = "0x182FD2A50")]
+		[Address(RVA = "0x69D07E0", Offset = "0x69CF7E0", VA = "0x69D07E0")]
 		get
 		{
 			return default(bool);
@@ -605,7 +605,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 	public static bool isRenderingAllowed
 	{
 		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x2FD2A80", Offset = "0x2FD1080", VA = "0x182FD2A80")]
+		[Address(RVA = "0x69D0810", Offset = "0x69CF810", VA = "0x69D0810")]
 		get
 		{
 			return default(bool);
@@ -616,7 +616,7 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 	public bool isValid
 	{
 		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x2FD99D0", Offset = "0x2FD7FD0", VA = "0x182FD99D0")]
+		[Address(RVA = "0x69D06B0", Offset = "0x69CF6B0", VA = "0x69D06B0")]
 		get
 		{
 			return default(bool);
@@ -624,65 +624,65 @@ public readonly struct PhysicsWorld : IEquatable<PhysicsWorld>
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x2FD9900", Offset = "0x2FD7F00", VA = "0x182FD9900", Slot = "3")]
+	[Address(RVA = "0x69D05D0", Offset = "0x69CF5D0", VA = "0x69D05D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x2FD8AE0", Offset = "0x2FD70E0", VA = "0x182FD8AE0", Slot = "0")]
+	[Address(RVA = "0x69D06F0", Offset = "0x69CF6F0", VA = "0x69D06F0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x2F728E0", Offset = "0x2F70EE0", VA = "0x182F728E0", Slot = "4")]
+	[Address(RVA = "0x69D0750", Offset = "0x69CF750", VA = "0x69D0750", Slot = "4")]
 	public bool Equals(PhysicsWorld other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x2FD8B40", Offset = "0x2FD7140", VA = "0x182FD8B40", Slot = "2")]
+	[Address(RVA = "0x69D0770", Offset = "0x69CF770", VA = "0x69D0770", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x2FD9860", Offset = "0x2FD7E60", VA = "0x182FD9860")]
+	[Address(RVA = "0x69D0840", Offset = "0x69CF840", VA = "0x69D0840")]
 	internal void SetTransformWriteTweens(ReadOnlySpan<PhysicsBody.TransformWriteTween> transformWriteTweens)
 	{
 	}
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x2FD8BB0", Offset = "0x2FD71B0", VA = "0x182FD8BB0")]
+	[Address(RVA = "0x69CE780", Offset = "0x69CD780", VA = "0x69CE780")]
 	public void SendBodyUpdateCallbacks()
 	{
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x2FD8E00", Offset = "0x2FD7400", VA = "0x182FD8E00")]
+	[Address(RVA = "0x69CEAD0", Offset = "0x69CDAD0", VA = "0x69CEAD0")]
 	public void SendContactCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x2FD9460", Offset = "0x2FD7A60", VA = "0x182FD9460")]
+	[Address(RVA = "0x69CF320", Offset = "0x69CE320", VA = "0x69CF320")]
 	public void SendTriggerCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x2FD9240", Offset = "0x2FD7840", VA = "0x182FD9240")]
+	[Address(RVA = "0x69CFA10", Offset = "0x69CEA10", VA = "0x69CFA10")]
 	public void SendJointThresholdCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x2FD8AA0", Offset = "0x2FD70A0", VA = "0x182FD8AA0")]
+	[Address(RVA = "0x69D08F0", Offset = "0x69CF8F0", VA = "0x69D08F0")]
 	internal static void DrawAllWorlds(PhysicsAABB drawAABB)
 	{
 	}

@@ -17,7 +17,7 @@ internal static class LayoutProcessor
 	private static ILayoutProcessor s_Processor;
 
 	[Token(Token = "0x6002C5E")]
-	[Address(RVA = "0x31C2C00", Offset = "0x31C1200", VA = "0x1831C2C00")]
+	[Address(RVA = "0x6BC2AB0", Offset = "0x6BC1AB0", VA = "0x6BC2AB0")]
 	public static void CalculateLayout(LayoutNode node, float parentWidth, float parentHeight, LayoutDirection parentDirection)
 	{
 	}

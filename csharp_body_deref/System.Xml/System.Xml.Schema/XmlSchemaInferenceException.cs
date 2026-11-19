@@ -15,31 +15,31 @@ namespace System.Xml.Schema;
 public class XmlSchemaInferenceException : XmlSchemaException
 {
 	[Token(Token = "0x600127C")]
-	[Address(RVA = "0x2612300", Offset = "0x2610900", VA = "0x182612300")]
+	[Address(RVA = "0x5FCA2B0", Offset = "0x5FC92B0", VA = "0x5FCA2B0")]
 	protected XmlSchemaInferenceException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600127D")]
-	[Address(RVA = "0x2612210", Offset = "0x2610810", VA = "0x182612210", Slot = "11")]
+	[Address(RVA = "0x5FCA2C0", Offset = "0x5FC92C0", VA = "0x5FCA2C0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600127E")]
-	[Address(RVA = "0x2612320", Offset = "0x2610920", VA = "0x182612320")]
+	[Address(RVA = "0x5FCA2D0", Offset = "0x5FC92D0", VA = "0x5FCA2D0")]
 	public XmlSchemaInferenceException()
 	{
 	}
 
 	[Token(Token = "0x600127F")]
-	[Address(RVA = "0x2612260", Offset = "0x2610860", VA = "0x182612260")]
+	[Address(RVA = "0x5FC7FC0", Offset = "0x5FC6FC0", VA = "0x5FC7FC0")]
 	internal XmlSchemaInferenceException(string res, string arg)
 	{
 	}
 
 	[Token(Token = "0x6001280")]
-	[Address(RVA = "0x2612230", Offset = "0x2610830", VA = "0x182612230")]
+	[Address(RVA = "0x5FC0840", Offset = "0x5FBF840", VA = "0x5FC0840")]
 	internal XmlSchemaInferenceException(string res, int lineNumber, int linePosition)
 	{
 	}

@@ -65,7 +65,7 @@ internal static class JsonTypeReflector
 	public static bool DynamicCodeGeneration
 	{
 		[Token(Token = "0x6000968")]
-		[Address(RVA = "0x1C6B610", Offset = "0x1C69C10", VA = "0x181C6B610")]
+		[Address(RVA = "0x55EAB80", Offset = "0x55E9B80", VA = "0x55EAB80")]
 		get
 		{
 			return default(bool);
@@ -76,7 +76,7 @@ internal static class JsonTypeReflector
 	public static bool FullyTrusted
 	{
 		[Token(Token = "0x6000969")]
-		[Address(RVA = "0x1C6B700", Offset = "0x1C69D00", VA = "0x181C6B700")]
+		[Address(RVA = "0x55E8CC0", Offset = "0x55E7CC0", VA = "0x55E8CC0")]
 		get
 		{
 			return default(bool);
@@ -87,7 +87,7 @@ internal static class JsonTypeReflector
 	public static ReflectionDelegateFactory ReflectionDelegateFactory
 	{
 		[Token(Token = "0x600096A")]
-		[Address(RVA = "0x1C6B820", Offset = "0x1C69E20", VA = "0x181C6B820")]
+		[Address(RVA = "0x55EA730", Offset = "0x55E9730", VA = "0x55EA730")]
 		get
 		{
 			return null;
@@ -101,77 +101,77 @@ internal static class JsonTypeReflector
 	}
 
 	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x1C6A3E0", Offset = "0x1C689E0", VA = "0x181C6A3E0")]
+	[Address(RVA = "0x55E6CD0", Offset = "0x55E5CD0", VA = "0x55E6CD0")]
 	public static bool CanTypeDescriptorConvertString(Type type, out TypeConverter typeConverter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x1C6ADA0", Offset = "0x1C693A0", VA = "0x181C6ADA0")]
+	[Address(RVA = "0x55E9BF0", Offset = "0x55E8BF0", VA = "0x55E9BF0")]
 	public static DataContractAttribute GetDataContractAttribute(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x1C6AE50", Offset = "0x1C69450", VA = "0x181C6AE50")]
+	[Address(RVA = "0x55E9CC0", Offset = "0x55E8CC0", VA = "0x55E9CC0")]
 	public static DataMemberAttribute GetDataMemberAttribute(MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x1C6B1F0", Offset = "0x1C697F0", VA = "0x181C6B1F0")]
+	[Address(RVA = "0x55E9F60", Offset = "0x55E8F60", VA = "0x55E9F60")]
 	public static MemberSerialization GetObjectMemberSerialization(Type objectType, bool ignoreSerializableAttribute)
 	{
 		return default(MemberSerialization);
 	}
 
 	[Token(Token = "0x600095C")]
-	[Address(RVA = "0x1C6B0D0", Offset = "0x1C696D0", VA = "0x181C6B0D0")]
+	[Address(RVA = "0x55EA0F0", Offset = "0x55E90F0", VA = "0x55EA0F0")]
 	public static JsonConverter GetJsonConverter(object attributeProvider)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x1C6A5D0", Offset = "0x1C68BD0", VA = "0x181C6A5D0")]
+	[Address(RVA = "0x55EA210", Offset = "0x55E9210", VA = "0x55EA210")]
 	public static JsonConverter CreateJsonConverterInstance(Type converterType, object[]? args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095E")]
-	[Address(RVA = "0x1C6A6C0", Offset = "0x1C68CC0", VA = "0x181C6A6C0")]
+	[Address(RVA = "0x55EA310", Offset = "0x55E9310", VA = "0x55EA310")]
 	public static NamingStrategy CreateNamingStrategyInstance(Type namingStrategyType, object[]? args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095F")]
-	[Address(RVA = "0x1C6AAA0", Offset = "0x1C690A0", VA = "0x181C6AAA0")]
+	[Address(RVA = "0x55EA410", Offset = "0x55E9410", VA = "0x55EA410")]
 	public static NamingStrategy GetContainerNamingStrategy(JsonContainerAttribute containerAttribute)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000960")]
-	[Address(RVA = "0x1C6AC30", Offset = "0x1C69230", VA = "0x181C6AC30")]
+	[Address(RVA = "0x55EA4D0", Offset = "0x55E94D0", VA = "0x55EA4D0")]
 	private static Func<object[], object> GetCreator(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000961")]
-	[Address(RVA = "0x1C6AA20", Offset = "0x1C69020", VA = "0x181C6AA20")]
+	[Address(RVA = "0x55EA7E0", Offset = "0x55E97E0", VA = "0x55EA7E0")]
 	private static Type GetAssociatedMetadataType(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000962")]
-	[Address(RVA = "0x1C6A7B0", Offset = "0x1C68DB0", VA = "0x181C6A7B0")]
+	[Address(RVA = "0x55EA880", Offset = "0x55E9880", VA = "0x55EA880")]
 	private static Type GetAssociateMetadataTypeFromAttribute(Type type)
 	{
 		return null;
@@ -190,14 +190,14 @@ internal static class JsonTypeReflector
 	}
 
 	[Token(Token = "0x6000965")]
-	[Address(RVA = "0x1C6B3C0", Offset = "0x1C699C0", VA = "0x181C6B3C0")]
+	[Address(RVA = "0x55EAB20", Offset = "0x55E9B20", VA = "0x55EAB20")]
 	public static bool IsNonSerializable(object provider)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000966")]
-	[Address(RVA = "0x1C6B430", Offset = "0x1C69A30", VA = "0x181C6B430")]
+	[Address(RVA = "0x55EA090", Offset = "0x55E9090", VA = "0x55EA090")]
 	public static bool IsSerializable(object provider)
 	{
 		return default(bool);

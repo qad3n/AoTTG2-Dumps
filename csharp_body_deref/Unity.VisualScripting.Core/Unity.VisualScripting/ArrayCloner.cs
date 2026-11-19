@@ -14,27 +14,27 @@ namespace Unity.VisualScripting;
 public sealed class ArrayCloner : Cloner<Array>
 {
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x2D994F0", Offset = "0x2D97AF0", VA = "0x182D994F0", Slot = "9")]
+	[Address(RVA = "0x678DA10", Offset = "0x678CA10", VA = "0x678DA10", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2D99340", Offset = "0x2D97940", VA = "0x182D99340", Slot = "11")]
+	[Address(RVA = "0x678DA30", Offset = "0x678CA30", VA = "0x678DA30", Slot = "11")]
 	public override Array ConstructClone(Type type, Array original)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x2D99380", Offset = "0x2D97980", VA = "0x182D99380", Slot = "12")]
+	[Address(RVA = "0x678DA60", Offset = "0x678CA60", VA = "0x678DA60", Slot = "12")]
 	public override void FillClone(Type type, ref Array clone, Array original, CloningContext context)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2D99510", Offset = "0x2D97B10", VA = "0x182D99510")]
+	[Address(RVA = "0x678DC30", Offset = "0x678CC30", VA = "0x678DC30")]
 	public ArrayCloner()
 	{
 	}

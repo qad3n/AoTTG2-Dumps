@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000333")]
+[Token(Token = "0x200030C")]
 [ComVisible(true)]
 public abstract class SHA512 : HashAlgorithm
 {
-	[Token(Token = "0x6001AE2")]
-	[Address(RVA = "0x19CE700", Offset = "0x19CCD00", VA = "0x1819CE700")]
+	[Token(Token = "0x6001ABF")]
+	[Address(RVA = "0x5351B70", Offset = "0x5350B70", VA = "0x5351B70")]
 	protected SHA512()
 	{
 	}
 
-	[Token(Token = "0x6001AE3")]
-	[Address(RVA = "0x19CE6B0", Offset = "0x19CCCB0", VA = "0x1819CE6B0")]
+	[Token(Token = "0x6001AC0")]
+	[Address(RVA = "0x534B7B0", Offset = "0x534A7B0", VA = "0x534B7B0")]
 	public new static SHA512 Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AE4")]
-	[Address(RVA = "0x19CE5E0", Offset = "0x19CCBE0", VA = "0x1819CE5E0")]
+	[Token(Token = "0x6001AC1")]
+	[Address(RVA = "0x5351C70", Offset = "0x5350C70", VA = "0x5351C70")]
 	public new static SHA512 Create(string hashName)
 	{
 		return null;

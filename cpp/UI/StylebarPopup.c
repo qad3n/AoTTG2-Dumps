@@ -1,17 +1,16 @@
 // Type: UI.StylebarPopup
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/StylebarPopup.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/StylebarPopup.cs
 // --------------------------------
 
 // UI.StylebarPopup$$get_EscapeBehavior
 // il2cpp: int32_t UI_StylebarPopup__get_EscapeBehavior (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180846f80
+// 0x5d51b70
 
-int32_t
-UI_StylebarPopup__get_EscapeBehavior(UI_StylebarPopup_o* __this, MethodInfo* method)
+int32_t UI_StylebarPopup__get_EscapeBehavior(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 2;
@@ -20,22 +19,20 @@ UI_StylebarPopup__get_EscapeBehavior(UI_StylebarPopup_o* __this, MethodInfo* met
 
 // UI.StylebarPopup$$get_Title
 // il2cpp: System_String_o* UI_StylebarPopup__get_Title (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x1818c6010
+// 0x5d51b80
 
-System_String_o*
-UI_StylebarPopup__get_Title(UI_StylebarPopup_o* __this, MethodInfo* method)
+System_String_o * UI_StylebarPopup__get_Title(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
-  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
 }
 
 
 // UI.StylebarPopup$$get_Width
 // il2cpp: float UI_StylebarPopup__get_Width (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d51ba0
 
-float
-UI_StylebarPopup__get_Width(UI_StylebarPopup_o* __this, MethodInfo* method)
+float UI_StylebarPopup__get_Width(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -44,10 +41,9 @@ UI_StylebarPopup__get_Width(UI_StylebarPopup_o* __this, MethodInfo* method)
 
 // UI.StylebarPopup$$get_Height
 // il2cpp: float UI_StylebarPopup__get_Height (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d51bb0
 
-float
-UI_StylebarPopup__get_Height(UI_StylebarPopup_o* __this, MethodInfo* method)
+float UI_StylebarPopup__get_Height(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -56,10 +52,9 @@ UI_StylebarPopup__get_Height(UI_StylebarPopup_o* __this, MethodInfo* method)
 
 // UI.StylebarPopup$$get_TopBarHeight
 // il2cpp: float UI_StylebarPopup__get_TopBarHeight (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d51bc0
 
-float
-UI_StylebarPopup__get_TopBarHeight(UI_StylebarPopup_o* __this, MethodInfo* method)
+float UI_StylebarPopup__get_TopBarHeight(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -68,10 +63,9 @@ UI_StylebarPopup__get_TopBarHeight(UI_StylebarPopup_o* __this, MethodInfo* metho
 
 // UI.StylebarPopup$$get_BottomBarHeight
 // il2cpp: float UI_StylebarPopup__get_BottomBarHeight (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d51bd0
 
-float
-UI_StylebarPopup__get_BottomBarHeight(UI_StylebarPopup_o* __this, MethodInfo* method)
+float UI_StylebarPopup__get_BottomBarHeight(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -80,10 +74,9 @@ UI_StylebarPopup__get_BottomBarHeight(UI_StylebarPopup_o* __this, MethodInfo* me
 
 // UI.StylebarPopup$$get_PopupAnimationType
 // il2cpp: int32_t UI_StylebarPopup__get_PopupAnimationType (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x180564040
+// 0x5d51be0
 
-int32_t
-UI_StylebarPopup__get_PopupAnimationType(UI_StylebarPopup_o* __this, MethodInfo* method)
+int32_t UI_StylebarPopup__get_PopupAnimationType(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 1;
@@ -92,10 +85,9 @@ UI_StylebarPopup__get_PopupAnimationType(UI_StylebarPopup_o* __this, MethodInfo*
 
 // UI.StylebarPopup$$get_AnimationTime
 // il2cpp: float UI_StylebarPopup__get_AnimationTime (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x182245d40
+// 0x5d51bf0
 
-float
-UI_StylebarPopup__get_AnimationTime(UI_StylebarPopup_o* __this, MethodInfo* method)
+float UI_StylebarPopup__get_AnimationTime(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
   return 0.2;
@@ -104,7 +96,7 @@ UI_StylebarPopup__get_AnimationTime(UI_StylebarPopup_o* __this, MethodInfo* meth
 
 // UI.StylebarPopup$$Setup
 // il2cpp: void UI_StylebarPopup__Setup (UI_StylebarPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x182281190
+// 0x5d51c00
 
 void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -116,7 +108,7 @@ void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,M
   UnityEngine_UI_Image_o *pUVar4;
   UnityEngine_Sprite_array *pUVar5;
   
-  if (Il2CppMethodInitialized_184347388 == '\0') {
+  if (Il2CppMethodInitialized_07547f01 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Image);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Resources_LoadAll_Sprite);
@@ -129,7 +121,7 @@ void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,M
     il2cpp_codegen_initialize_runtime_metadata(&"LetterLabel");
     il2cpp_codegen_initialize_runtime_metadata(&"BladeBackground");
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/InGame/StylebarLabel");
-    Il2CppMethodInitialized_184347388 = '\x01';
+    Il2CppMethodInitialized_07547f01 = '\x01';
   }
   UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,(MethodInfo *)0x0);
   pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
@@ -141,37 +133,38 @@ void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,M
       if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
         pUVar3 = UnityEngine_Component__GetComponent_object_
                            ((UnityEngine_Component_o *)pUVar2,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+                            (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
         (__this->fields)._letterLabel = pUVar3;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._letterLabel,pUVar3);
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._letterLabel);
         pUVar2 = UnityEngine_Transform__Find(pUVar1,"SentenceLabel",(MethodInfo *)0x0);
         if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
           pUVar3 = UnityEngine_Component__GetComponent_object_
                              ((UnityEngine_Component_o *)pUVar2,
-                              (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+                              (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
           (__this->fields)._sentenceLabel = pUVar3;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._sentenceLabel,pUVar3);
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._sentenceLabel);
           pUVar2 = UnityEngine_Transform__Find(pUVar1,"ScoreLabel",(MethodInfo *)0x0);
           if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
             pUVar3 = UnityEngine_Component__GetComponent_object_
                                ((UnityEngine_Component_o *)pUVar2,
-                                (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+                                (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
             (__this->fields)._scoreLabel = pUVar3;
-            Il2CppCodeGenWriteBarrier(&(__this->fields)._scoreLabel,pUVar3);
+            Il2CppCodeGenWriteBarrier(&(__this->fields)._scoreLabel);
             pUVar2 = UnityEngine_Transform__Find(pUVar1,"BottomLabel",(MethodInfo *)0x0);
             if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
               pUVar3 = UnityEngine_Component__GetComponent_object_
                                  ((UnityEngine_Component_o *)pUVar2,
-                                  (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+                                  (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
               (__this->fields)._bottomLabel = pUVar3;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._bottomLabel,pUVar3);
+              Il2CppCodeGenWriteBarrier(&(__this->fields)._bottomLabel);
               pUVar1 = UnityEngine_Transform__Find(pUVar1,"BladeFill",(MethodInfo *)0x0);
               if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
                 pUVar4 = UnityEngine_Component__GetComponent_object_
                                    ((UnityEngine_Component_o *)pUVar1,
-                                    (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+                                    (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Image)
+                ;
                 (__this->fields)._bladeFill = pUVar4;
-                Il2CppCodeGenWriteBarrier(&(__this->fields)._bladeFill,pUVar4);
+                Il2CppCodeGenWriteBarrier(&(__this->fields)._bladeFill);
                 pUVar4 = (__this->fields)._bladeFill;
                 if (pUVar4 != (UnityEngine_UI_Image_o *)0x0) {
                   pUVar1 = UnityEngine_Component__get_transform
@@ -181,24 +174,24 @@ void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,M
                     if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
                       pUVar4 = UnityEngine_Component__GetComponent_object_
                                          ((UnityEngine_Component_o *)pUVar1,
-                                          (MethodInfo_6651A0 *)
+                                          (MethodInfo_34B0830 *)
                                           MethodInfo_UnityEngine_Component_GetComponent_Image);
                       (__this->fields)._bladeBackground = pUVar4;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields)._bladeBackground,pUVar4);
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._bladeBackground);
                       pUVar5 = (UnityEngine_Sprite_array *)
                                UnityEngine_Resources__LoadAll_object_
                                          ("UI/Sprites/HUD/StyleMeterBarSpriteSheet",
-                                          (MethodInfo_7964F0 *)MethodInfo_UnityEngine_Resources_LoadAll_Sprite
-                                         );
+                                          (MethodInfo_3665CE0 *)
+                                          MethodInfo_UnityEngine_Resources_LoadAll_Sprite);
                       (__this->fields)._fillSprites = pUVar5;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields)._fillSprites,pUVar5);
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._fillSprites);
                       pUVar5 = (UnityEngine_Sprite_array *)
                                UnityEngine_Resources__LoadAll_object_
                                          ("UI/Sprites/HUD/StyleMeterSpriteSheet",
-                                          (MethodInfo_7964F0 *)MethodInfo_UnityEngine_Resources_LoadAll_Sprite
-                                         );
+                                          (MethodInfo_3665CE0 *)
+                                          MethodInfo_UnityEngine_Resources_LoadAll_Sprite);
                       (__this->fields)._backgroundSprites = pUVar5;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields)._backgroundSprites,pUVar5);
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._backgroundSprites);
                       return;
                     }
                   }
@@ -216,7 +209,7 @@ void UI_StylebarPopup__Setup(UI_StylebarPopup_o *__this,UI_BasePanel_o *parent,M
 
 // UI.StylebarPopup$$SetText
 // il2cpp: void UI_StylebarPopup__SetText (UI_StylebarPopup_o* __this, System_String_o* letter, System_String_o* sentence, const MethodInfo* method);
-// 0x182281130
+// 0x5d50c70
 
 void UI_StylebarPopup__SetText
                (UI_StylebarPopup_o *__this,System_String_o *letter,System_String_o *sentence,
@@ -242,31 +235,26 @@ void UI_StylebarPopup__SetText
 
 // UI.StylebarPopup$$SetColor
 // il2cpp: void UI_StylebarPopup__SetColor (UI_StylebarPopup_o* __this, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x182280fc0
+// 0x5d51f00
 
-void UI_StylebarPopup__SetColor(UI_StylebarPopup_o *__this,UnityEngine_Color_o *color,MethodInfo *method)
+void UI_StylebarPopup__SetColor(UI_StylebarPopup_o *__this,UnityEngine_Color_o color,MethodInfo *method)
 
 {
   UnityEngine_UI_Text_o *pUVar1;
-  UnityEngine_Color_o local_18;
   
   pUVar1 = (__this->fields)._letterLabel;
-  if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-    local_18.fields.r = (color->fields).r;
-    local_18.fields.g = (color->fields).g;
-    local_18.fields.b = (color->fields).b;
-    local_18.fields.a = (color->fields).a;
-    (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
-              (pUVar1,&local_18,(pUVar1->klass->vtable)._23_set_color.method);
-    return;
+  if (pUVar1 == (UnityEngine_UI_Text_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
+            (pUVar1,color,(pUVar1->klass->vtable)._23_set_color.method);
+  return;
 }
 
 
 // UI.StylebarPopup$$SetScore
 // il2cpp: void UI_StylebarPopup__SetScore (UI_StylebarPopup_o* __this, System_String_o* score, System_String_o* bottom, const MethodInfo* method);
-// 0x1822810d0
+// 0x5d50c10
 
 void UI_StylebarPopup__SetScore
                (UI_StylebarPopup_o *__this,System_String_o *score,System_String_o *bottom,MethodInfo *method)
@@ -291,7 +279,7 @@ void UI_StylebarPopup__SetScore
 
 // UI.StylebarPopup$$SetFill
 // il2cpp: void UI_StylebarPopup__SetFill (UI_StylebarPopup_o* __this, float fill, const MethodInfo* method);
-// 0x182281000
+// 0x5d50bf0
 
 void UI_StylebarPopup__SetFill(UI_StylebarPopup_o *__this,float fill,MethodInfo *method)
 
@@ -299,17 +287,17 @@ void UI_StylebarPopup__SetFill(UI_StylebarPopup_o *__this,float fill,MethodInfo 
   UnityEngine_UI_Image_o *__this_00;
   
   __this_00 = (__this->fields)._bladeFill;
-  if (__this_00 != (UnityEngine_UI_Image_o *)0x0) {
-    UnityEngine_UI_Image__set_fillAmount(__this_00,fill,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (UnityEngine_UI_Image_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UnityEngine_UI_Image__set_fillAmount(__this_00,fill,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UI.StylebarPopup$$SetRank
 // il2cpp: void UI_StylebarPopup__SetRank (UI_StylebarPopup_o* __this, int32_t rank, const MethodInfo* method);
-// 0x182281030
+// 0x5d50cd0
 
 void UI_StylebarPopup__SetRank(UI_StylebarPopup_o *__this,int32_t rank,MethodInfo *method)
 
@@ -317,34 +305,36 @@ void UI_StylebarPopup__SetRank(UI_StylebarPopup_o *__this,int32_t rank,MethodInf
   UnityEngine_Sprite_array *pUVar1;
   UnityEngine_UI_Image_o *pUVar2;
   uint uVar3;
+  uint uVar4;
   
-  uVar3 = 0;
-  if (-1 < rank) {
-    uVar3 = rank;
+  uVar4 = 0;
+  if (0 < rank) {
+    uVar4 = rank;
   }
-  if (9 < (int)uVar3) {
-    uVar3 = 9;
+  uVar3 = 9;
+  if (uVar4 < 9) {
+    uVar3 = uVar4;
   }
   if (uVar3 == (__this->fields)._rank) {
     return;
   }
-  pUVar1 = (__this->fields)._fillSprites;
   (__this->fields)._rank = uVar3;
+  pUVar1 = (__this->fields)._fillSprites;
   if (pUVar1 != (UnityEngine_Sprite_array *)0x0) {
     if ((uint)pUVar1->max_length <= uVar3) {
-label_1822810c8:
+label_05d50d57:
       ThrowIndexOutOfRangeException();
     }
     pUVar2 = (__this->fields)._bladeFill;
     if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
-      UnityEngine_UI_Image__set_sprite(pUVar2,pUVar1->m_Items[(int)uVar3],(MethodInfo *)0x0);
+      UnityEngine_UI_Image__set_sprite(pUVar2,pUVar1->m_Items[uVar3],(MethodInfo *)0x0);
       pUVar1 = (__this->fields)._backgroundSprites;
       if (pUVar1 != (UnityEngine_Sprite_array *)0x0) {
-        uVar3 = (__this->fields)._rank;
-        if ((uint)pUVar1->max_length <= uVar3) goto label_1822810c8;
+        uVar4 = (__this->fields)._rank;
+        if ((uint)pUVar1->max_length <= uVar4) goto label_05d50d57;
         pUVar2 = (__this->fields)._bladeBackground;
         if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
-          UnityEngine_UI_Image__set_sprite(pUVar2,pUVar1->m_Items[(int)uVar3],(MethodInfo *)0x0);
+          UnityEngine_UI_Image__set_sprite(pUVar2,pUVar1->m_Items[(int)uVar4],(MethodInfo *)0x0);
           return;
         }
       }
@@ -356,13 +346,12 @@ label_1822810c8:
 
 // UI.StylebarPopup$$.ctor
 // il2cpp: void UI_StylebarPopup___ctor (UI_StylebarPopup_o* __this, const MethodInfo* method);
-// 0x1821c11a0
+// 0x5d51f30
 
-void
-UI_StylebarPopup___ctor(UI_StylebarPopup_o* __this, MethodInfo* method)
+void UI_StylebarPopup___ctor(UI_StylebarPopup_o *__this,MethodInfo *method)
 
 {
-  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
+  UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

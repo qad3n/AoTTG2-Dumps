@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002B5")]
+[Token(Token = "0x2000312")]
 internal static class AottgProfileDialogSelection
 {
-	[Token(Token = "0x4000DFA")]
+	[Token(Token = "0x4000F8D")]
 	[FieldOffset(Offset = "0x0")]
 	public static string AvatarKey;
 
-	[Token(Token = "0x4000DFB")]
+	[Token(Token = "0x4000F8E")]
 	[FieldOffset(Offset = "0x8")]
 	public static string BannerKey;
 
-	[Token(Token = "0x60010E1")]
-	[Address(RVA = "0x1E15B70", Offset = "0x1E14170", VA = "0x181E15B70")]
+	[Token(Token = "0x6001332")]
+	[Address(RVA = "0x57FB490", Offset = "0x57FA490", VA = "0x57FB490")]
 	public static void Set(string pickerId, string key)
 	{
 	}

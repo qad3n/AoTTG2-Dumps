@@ -10,118 +10,118 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000335")]
+[Token(Token = "0x200030E")]
 [ComVisible(true)]
 public class SignatureDescription
 {
-	[Token(Token = "0x4000D8C")]
+	[Token(Token = "0x4000CEC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string _strKey;
 
-	[Token(Token = "0x4000D8D")]
+	[Token(Token = "0x4000CED")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string _strDigest;
 
-	[Token(Token = "0x4000D8E")]
+	[Token(Token = "0x4000CEE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private string _strFormatter;
 
-	[Token(Token = "0x4000D8F")]
+	[Token(Token = "0x4000CEF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string _strDeformatter;
 
-	[Token(Token = "0x170002DB")]
+	[Token(Token = "0x170002DA")]
 	public string KeyAlgorithm
 	{
-		[Token(Token = "0x6001AF8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001AD5")]
+		[Address(RVA = "0x5353390", Offset = "0x5352390", VA = "0x5353390")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001AF9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6001AD6")]
+		[Address(RVA = "0x53533A0", Offset = "0x53523A0", VA = "0x53533A0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002DB")]
+	public string DigestAlgorithm
+	{
+		[Token(Token = "0x6001AD7")]
+		[Address(RVA = "0x53533B0", Offset = "0x53523B0", VA = "0x53533B0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001AD8")]
+		[Address(RVA = "0x53533C0", Offset = "0x53523C0", VA = "0x53533C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002DC")]
-	public string DigestAlgorithm
+	public string FormatterAlgorithm
 	{
-		[Token(Token = "0x6001AFA")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001AD9")]
+		[Address(RVA = "0x53533D0", Offset = "0x53523D0", VA = "0x53533D0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001AFB")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001ADA")]
+		[Address(RVA = "0x53533E0", Offset = "0x53523E0", VA = "0x53533E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002DD")]
-	public string FormatterAlgorithm
-	{
-		[Token(Token = "0x6001AFC")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6001AFD")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002DE")]
 	public string DeformatterAlgorithm
 	{
-		[Token(Token = "0x6001AFE")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001ADB")]
+		[Address(RVA = "0x53533F0", Offset = "0x53523F0", VA = "0x53533F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001AFF")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6001ADC")]
+		[Address(RVA = "0x5353400", Offset = "0x5352400", VA = "0x5353400")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001AF6")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001AD3")]
+	[Address(RVA = "0x5353240", Offset = "0x5352240", VA = "0x5353240")]
 	public SignatureDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AF7")]
-	[Address(RVA = "0x19CE9F0", Offset = "0x19CCFF0", VA = "0x1819CE9F0")]
+	[Token(Token = "0x6001AD4")]
+	[Address(RVA = "0x5353250", Offset = "0x5352250", VA = "0x5353250")]
 	public SignatureDescription(SecurityElement el)
 	{
 	}
 
-	[Token(Token = "0x6001B00")]
-	[Address(RVA = "0x19CE720", Offset = "0x19CCD20", VA = "0x1819CE720", Slot = "4")]
+	[Token(Token = "0x6001ADD")]
+	[Address(RVA = "0x5353410", Offset = "0x5352410", VA = "0x5353410", Slot = "4")]
 	public virtual AsymmetricSignatureDeformatter CreateDeformatter(AsymmetricAlgorithm key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B01")]
-	[Address(RVA = "0x19CE8F0", Offset = "0x19CCEF0", VA = "0x1819CE8F0", Slot = "5")]
+	[Token(Token = "0x6001ADE")]
+	[Address(RVA = "0x5353520", Offset = "0x5352520", VA = "0x5353520", Slot = "5")]
 	public virtual AsymmetricSignatureFormatter CreateFormatter(AsymmetricAlgorithm key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B02")]
-	[Address(RVA = "0x19CE820", Offset = "0x19CCE20", VA = "0x1819CE820", Slot = "6")]
+	[Token(Token = "0x6001ADF")]
+	[Address(RVA = "0x5353630", Offset = "0x5352630", VA = "0x5353630", Slot = "6")]
 	public virtual HashAlgorithm CreateDigest()
 	{
 		return null;

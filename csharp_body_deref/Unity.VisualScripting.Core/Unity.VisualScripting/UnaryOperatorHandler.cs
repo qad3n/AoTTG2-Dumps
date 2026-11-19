@@ -28,20 +28,20 @@ public abstract class UnaryOperatorHandler : OperatorHandler
 	private readonly Dictionary<Type, Type> userDefinedOperandTypes;
 
 	[Token(Token = "0x6000D3B")]
-	[Address(RVA = "0x2E4DE70", Offset = "0x2E4C470", VA = "0x182E4DE70")]
+	[Address(RVA = "0x682BAD0", Offset = "0x682AAD0", VA = "0x682BAD0")]
 	protected UnaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
 	[Token(Token = "0x6000D3C")]
-	[Address(RVA = "0x2E4DA70", Offset = "0x2E4C070", VA = "0x182E4DA70")]
+	[Address(RVA = "0x682BC10", Offset = "0x682AC10", VA = "0x682BC10")]
 	public object Operate(object operand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3D")]
-	[Address(RVA = "0x2E4D9F0", Offset = "0x2E4BFF0", VA = "0x182E4D9F0", Slot = "4")]
+	[Address(RVA = "0x682C120", Offset = "0x682B120", VA = "0x682C120", Slot = "4")]
 	protected virtual object CustomHandling(object operand)
 	{
 		return null;
@@ -53,7 +53,7 @@ public abstract class UnaryOperatorHandler : OperatorHandler
 	}
 
 	[Token(Token = "0x6000D3F")]
-	[Address(RVA = "0x2E4DE20", Offset = "0x2E4C420", VA = "0x182E4DE20")]
+	[Address(RVA = "0x682C070", Offset = "0x682B070", VA = "0x682C070")]
 	private static Type ResolveUserDefinedOperandType(MethodInfo userDefinedOperator)
 	{
 		return null;

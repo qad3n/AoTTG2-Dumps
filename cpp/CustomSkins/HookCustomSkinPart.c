@@ -1,5 +1,5 @@
 // Type: CustomSkins.HookCustomSkinPart
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomSkins/HookCustomSkinPart.cs
@@ -8,23 +8,19 @@
 
 // CustomSkins.HookCustomSkinPart$$.ctor
 // il2cpp: void CustomSkins_HookCustomSkinPart___ctor (CustomSkins_HookCustomSkinPart_o* __this, CustomSkins_BaseCustomSkinLoader_o* loader, System_Collections_Generic_List_Renderer__o* renderers, System_String_o* rendererId, int32_t maxSize, float tiling, System_Nullable_Vector2__o textureScale, const MethodInfo* method);
-// 0x181e8b090
+// 0x5961580
 
 void CustomSkins_HookCustomSkinPart___ctor
                (CustomSkins_HookCustomSkinPart_o *__this,CustomSkins_BaseCustomSkinLoader_o *loader,
                System_Collections_Generic_List_Renderer__o *renderers,System_String_o *rendererId,
-               int32_t maxSize,float tiling,System_Nullable_Vector2__o *textureScale,MethodInfo *method)
+               int32_t maxSize,float tiling,System_Nullable_Vector2__o textureScale,MethodInfo *method)
 
 {
-  System_Nullable_Vector2__Fields local_18;
+  MethodInfo *in_stack_ffffffffffffffe0;
   
-  local_18.hasValue = (textureScale->fields).hasValue;
-  local_18._1_3_ = *(undefined3 *)&(textureScale->fields).field_0x1;
-  local_18.value.fields.x = (textureScale->fields).value.fields.x;
-  local_18.value.fields.y = (textureScale->fields).value.fields.y;
   CustomSkins_BaseCustomSkinPart___ctor
-            ((CustomSkins_BaseCustomSkinPart_o *)__this,loader,renderers,rendererId,maxSize,
-             (System_Nullable_Vector2__o *)&local_18,true,(MethodInfo *)0x0);
+            ((CustomSkins_BaseCustomSkinPart_o *)__this,loader,renderers,rendererId,maxSize,textureScale,true,
+             in_stack_ffffffffffffffe0);
   (__this->fields)._tiling = tiling;
   return;
 }
@@ -32,27 +28,39 @@ void CustomSkins_HookCustomSkinPart___ctor
 
 // CustomSkins.HookCustomSkinPart$$SetMaterial
 // il2cpp: void CustomSkins_HookCustomSkinPart__SetMaterial (CustomSkins_HookCustomSkinPart_o* __this, UnityEngine_Material_o* material, const MethodInfo* method);
-// 0x181e8ae40
-// eh: try 0x181e8aef2..0x181e8af80 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e8af4f: mov rdx, qword ptr [rip + 0x2208aea]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose
-// asm:   0x181e8af56: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e8af5b: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e8af60: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e8af65: test rcx, rcx
-// asm:   0x181e8af68: jne 0x181e8af80
-// asm:   0x181e8af80: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5964ce0
+// eh: try 0x5964d94..0x5964e04 -> pad 0x5964e11 (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5964e29..0x5964e2e -> pad 0x5964e4d cleanup
+// eh: try 0x5964e50..0x5964e5a -> pad 0x5964e62 catch (...) [compiler noexcept guard]
+// asm: 28 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5964d8f: nop 
+// asm:   0x5964e09: jmp 0x5964e11
+// asm:   0x5964e0b: jmp 0x5964e11
+// asm:   0x5964e0d: jmp 0x5964e11
+// asm:   0x5964e0f: jmp 0x5964e11
+// asm:   0x5964e11: mov rbx, rax
+// asm:   0x5964e14: cmp edx, 1
+// asm:   0x5964e17: jne 0x5964e50
+// asm:   0x5964e19: mov rdi, rbx
+// asm:   0x5964e1c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5964e21: mov rbx, qword ptr [rax]
+// asm:   0x5964e24: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5964e29: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5964e2e: lea rax, [rip + 0x1929a9b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose
+// asm:   0x5964e35: mov rsi, qword ptr [rax]
+// asm:   0x5964e38: mov rdi, rsp
+// asm:   0x5964e3b: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5964e40: test rbx, rbx
+// asm:   0x5964e43: je 0x5964deb
+// asm:   0x5964e45: mov rdi, rbx
+// asm:   0x5964e48: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5964e4d: mov rbx, rax
+// asm:   0x5964e50: lea rdi, [rsp + 0x18]
+// asm:   0x5964e55: call 0x2fd3b30  ; il2cpp_runtime_helper_02fd3b30()
+// asm:   0x5964e5a: mov rdi, rbx
+// asm:   0x5964e5d: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5964e62: mov rdi, rax
+// asm:   0x5964e65: call 0x2ab61e0  ; __clang_call_terminate()
 
 void CustomSkins_HookCustomSkinPart__SetMaterial
                (CustomSkins_HookCustomSkinPart_o *__this,UnityEngine_Material_o *material,MethodInfo *method)
@@ -62,11 +70,11 @@ void CustomSkins_HookCustomSkinPart__SetMaterial
   Il2CppObject *__this_01;
   bool bVar1;
   Characters_Hook_o *pCVar2;
-  undefined1 local_60 [16];
-  UnityEngine_Renderer_o *local_50;
-  System_Collections_Generic_List_Enumerator_object__o local_48;
+  System_Collections_Generic_List_Enumerator_T__o SStack_58;
+  undefined8 uStack_40;
+  undefined1 *puStack_38;
   
-  if (Il2CppMethodInitialized_184344faf == '\0') {
+  if (Il2CppMethodInitialized_0754593d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Hook);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose);
@@ -76,48 +84,44 @@ void CustomSkins_HookCustomSkinPart__SetMaterial
               (&MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_get_Current);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
-    Il2CppMethodInitialized_184344faf = '\x01';
+    Il2CppMethodInitialized_0754593d = '\x01';
   }
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
+  SStack_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  SStack_58.fields._index = 0;
+  SStack_58.fields._version = 0;
+  SStack_58.fields._current = (Il2CppObject *)0x0;
   __this_00 = (__this->fields)._renderers;
-  if (__this_00 != (System_Collections_Generic_List_Renderer__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
-               (System_Collections_Generic_List_T__o *)__this_00,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
-    local_48.fields._list = (System_Collections_Generic_List_T__o *)local_60._0_8_;
-    local_48.fields._index = local_60._8_4_;
-    local_48.fields._version = local_60._12_4_;
-    local_48.fields._current = (Il2CppObject *)local_50;
-    local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_60._8_8_ = &local_48;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_48,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_MoveNext);
-      __this_01 = local_48.fields._current;
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose);
-        return;
-      }
-      if ((UnityEngine_Renderer_o *)local_48.fields._current == (UnityEngine_Renderer_o *)0x0) break;
-      UnityEngine_Renderer__set_sharedMaterial
-                ((UnityEngine_Renderer_o *)local_48.fields._current,material,(MethodInfo *)0x0);
-      pCVar2 = UnityEngine_Component__GetComponent_object_
-                         ((UnityEngine_Component_o *)__this_01,
-                          (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Hook);
-      if (pCVar2 == (Characters_Hook_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      (pCVar2->fields)._tiling = (__this->fields)._tiling;
-    }
+  if (__this_00 == (System_Collections_Generic_List_Renderer__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&SStack_58,(System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Renderer_GetEnumerator);
+  uStack_40 = 0;
+  puStack_38 = (undefined1 *)&SStack_58;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_58,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_MoveNext);
+    __this_01 = SStack_58.fields._current;
+    if (!bVar1) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_58,
+                 (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Renderer_Dispose)
+      ;
+      return;
+    }
+    if ((UnityEngine_Renderer_o *)SStack_58.fields._current == (UnityEngine_Renderer_o *)0x0) break;
+    UnityEngine_Renderer__set_material
+              ((UnityEngine_Renderer_o *)SStack_58.fields._current,material,(MethodInfo *)0x0);
+    pCVar2 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)__this_01,
+                        (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Hook);
+    if (pCVar2 == (Characters_Hook_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (pCVar2->fields)._tiling = (__this->fields)._tiling;
   }
   ThrowNullReferenceException();
 }
@@ -125,7 +129,7 @@ void CustomSkins_HookCustomSkinPart__SetMaterial
 
 // CustomSkins.HookCustomSkinPart$$SetNewTexture
 // il2cpp: UnityEngine_Material_o* CustomSkins_HookCustomSkinPart__SetNewTexture (CustomSkins_HookCustomSkinPart_o* __this, UnityEngine_Texture2D_o* texture, const MethodInfo* method);
-// 0x181e8af90
+// 0x5964e70
 
 UnityEngine_Material_o *
 CustomSkins_HookCustomSkinPart__SetNewTexture
@@ -135,13 +139,13 @@ CustomSkins_HookCustomSkinPart__SetNewTexture
   System_String_o *path;
   UnityEngine_Material_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344fb0 == '\0') {
+  if (Il2CppMethodInitialized_0754593e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
     il2cpp_codegen_initialize_runtime_metadata(&"Materials/TransparentMaterial");
-    Il2CppMethodInitialized_184344fb0 = '\x01';
+    Il2CppMethodInitialized_0754593e = '\x01';
   }
   if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
@@ -151,16 +155,16 @@ CustomSkins_HookCustomSkinPart__SetNewTexture
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
   __this_00 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                        (path,"Materials/TransparentMaterial",true,
-                         (MethodInfo_795F00 *)
+                        (path,"Materials/TransparentMaterial",true,false,
+                         (MethodInfo_3665790 *)
                          MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
-  if (__this_00 != (UnityEngine_Material_o *)0x0) {
-    UnityEngine_Material__set_mainTexture(__this_00,(UnityEngine_Texture_o *)texture,(MethodInfo *)0x0);
-    (*(__this->klass->vtable)._6_SetMaterial.methodPtr)
-              (__this,__this_00,(__this->klass->vtable)._6_SetMaterial.method);
-    return __this_00;
+  if (__this_00 == (UnityEngine_Material_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UnityEngine_Material__set_mainTexture(__this_00,(UnityEngine_Texture_o *)texture,(MethodInfo *)0x0);
+  (*(__this->klass->vtable)._6_SetMaterial.methodPtr)
+            (__this,__this_00,(__this->klass->vtable)._6_SetMaterial.method);
+  return __this_00;
 }
 
 

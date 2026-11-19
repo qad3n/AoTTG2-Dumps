@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x20002A6")]
+[Token(Token = "0x200027E")]
 internal class InternalEncoderBestFitFallback : EncoderFallback
 {
-	[Token(Token = "0x4000B8A")]
+	[Token(Token = "0x4000AE8")]
 	[FieldOffset(Offset = "0x10")]
 	internal Encoding _encoding;
 
-	[Token(Token = "0x4000B8B")]
+	[Token(Token = "0x4000AE9")]
 	[FieldOffset(Offset = "0x18")]
 	internal char[] _arrayBestFit;
 
-	[Token(Token = "0x17000225")]
+	[Token(Token = "0x17000224")]
 	public override int MaxCharCount
 	{
-		[Token(Token = "0x60015F0")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x60015C7")]
+		[Address(RVA = "0x55551D0", Offset = "0x55541D0", VA = "0x55551D0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60015EE")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x60015C5")]
+	[Address(RVA = "0x5554F90", Offset = "0x5553F90", VA = "0x5554F90")]
 	internal InternalEncoderBestFitFallback(Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x60015EF")]
-	[Address(RVA = "0x197BD70", Offset = "0x197A370", VA = "0x18197BD70", Slot = "4")]
+	[Token(Token = "0x60015C6")]
+	[Address(RVA = "0x5554FC0", Offset = "0x5553FC0", VA = "0x5554FC0", Slot = "4")]
 	public override EncoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60015F1")]
-	[Address(RVA = "0x197BDD0", Offset = "0x197A3D0", VA = "0x18197BDD0", Slot = "0")]
+	[Token(Token = "0x60015C8")]
+	[Address(RVA = "0x55551E0", Offset = "0x55541E0", VA = "0x55551E0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F2")]
-	[Address(RVA = "0x197BE90", Offset = "0x197A490", VA = "0x18197BE90", Slot = "2")]
+	[Token(Token = "0x60015C9")]
+	[Address(RVA = "0x5555280", Offset = "0x5554280", VA = "0x5555280", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

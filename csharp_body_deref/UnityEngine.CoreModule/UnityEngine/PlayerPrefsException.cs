@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000155")]
+[Token(Token = "0x2000156")]
 public class PlayerPrefsException : Exception
 {
-	[Token(Token = "0x6000C29")]
-	[Address(RVA = "0x2F23E40", Offset = "0x2F22440", VA = "0x182F23E40")]
+	[Token(Token = "0x6000C3B")]
+	[Address(RVA = "0x690D220", Offset = "0x690C220", VA = "0x690D220")]
 	public PlayerPrefsException(string error)
 	{
 	}

@@ -27,7 +27,7 @@ internal class JPropertyKeyedCollection : Collection<JToken>
 	public JToken this[string key]
 	{
 		[Token(Token = "0x6000C83")]
-		[Address(RVA = "0x1C7A7E0", Offset = "0x1C78DE0", VA = "0x181C7A7E0")]
+		[Address(RVA = "0x560FF80", Offset = "0x560EF80", VA = "0x560FF80")]
 		get
 		{
 			return null;
@@ -38,7 +38,7 @@ internal class JPropertyKeyedCollection : Collection<JToken>
 	public ICollection<string> Keys
 	{
 		[Token(Token = "0x6000C85")]
-		[Address(RVA = "0x1C7A8D0", Offset = "0x1C78ED0", VA = "0x181C7A8D0")]
+		[Address(RVA = "0x560AAB0", Offset = "0x5609AB0", VA = "0x560AAB0")]
 		get
 		{
 			return null;
@@ -49,7 +49,7 @@ internal class JPropertyKeyedCollection : Collection<JToken>
 	public ICollection<JToken> Values
 	{
 		[Token(Token = "0x6000C86")]
-		[Address(RVA = "0x1C7A920", Offset = "0x1C78F20", VA = "0x181C7A920")]
+		[Address(RVA = "0x5610040", Offset = "0x560F040", VA = "0x5610040")]
 		get
 		{
 			return null;
@@ -57,103 +57,103 @@ internal class JPropertyKeyedCollection : Collection<JToken>
 	}
 
 	[Token(Token = "0x6000C76")]
-	[Address(RVA = "0x1C7A760", Offset = "0x1C78D60", VA = "0x181C7A760")]
+	[Address(RVA = "0x5608440", Offset = "0x5607440", VA = "0x5608440")]
 	public JPropertyKeyedCollection()
 	{
 	}
 
 	[Token(Token = "0x6000C77")]
-	[Address(RVA = "0x1C79670", Offset = "0x1C77C70", VA = "0x181C79670")]
+	[Address(RVA = "0x560F3C0", Offset = "0x560E3C0", VA = "0x560F3C0")]
 	private void AddKey(string key, JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000C78")]
-	[Address(RVA = "0x1C796E0", Offset = "0x1C77CE0", VA = "0x181C796E0")]
+	[Address(RVA = "0x560F4D0", Offset = "0x560E4D0", VA = "0x560F4D0")]
 	protected void ChangeItemKey(JToken item, string newKey)
 	{
 	}
 
 	[Token(Token = "0x6000C79")]
-	[Address(RVA = "0x1C79920", Offset = "0x1C77F20", VA = "0x181C79920", Slot = "35")]
+	[Address(RVA = "0x560F890", Offset = "0x560E890", VA = "0x560F890", Slot = "35")]
 	protected override void ClearItems()
 	{
 	}
 
 	[Token(Token = "0x6000C7A")]
-	[Address(RVA = "0x1C79DB0", Offset = "0x1C783B0", VA = "0x181C79DB0")]
+	[Address(RVA = "0x560A9C0", Offset = "0x56099C0", VA = "0x560A9C0")]
 	public bool Contains(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C7B")]
-	[Address(RVA = "0x1C79CE0", Offset = "0x1C782E0", VA = "0x181C79CE0")]
+	[Address(RVA = "0x560F710", Offset = "0x560E710", VA = "0x560F710")]
 	private bool ContainsItem(JToken item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C7C")]
-	[Address(RVA = "0x1C79E60", Offset = "0x1C78460", VA = "0x181C79E60")]
+	[Address(RVA = "0x560F420", Offset = "0x560E420", VA = "0x560F420")]
 	private void EnsureDictionary()
 	{
 	}
 
 	[Token(Token = "0x6000C7D")]
-	[Address(RVA = "0x1C79F20", Offset = "0x1C78520", VA = "0x181C79F20")]
+	[Address(RVA = "0x560F7D0", Offset = "0x560E7D0", VA = "0x560F7D0")]
 	private string GetKeyForItem(JToken item)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C7E")]
-	[Address(RVA = "0x1C7A030", Offset = "0x1C78630", VA = "0x181C7A030", Slot = "36")]
+	[Address(RVA = "0x560F8F0", Offset = "0x560E8F0", VA = "0x560F8F0", Slot = "36")]
 	protected override void InsertItem(int index, JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000C7F")]
-	[Address(RVA = "0x1C7A2B0", Offset = "0x1C788B0", VA = "0x181C7A2B0")]
+	[Address(RVA = "0x560FA00", Offset = "0x560EA00", VA = "0x560FA00")]
 	public bool Remove(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C80")]
-	[Address(RVA = "0x1C7A140", Offset = "0x1C78740", VA = "0x181C7A140", Slot = "37")]
+	[Address(RVA = "0x560FAD0", Offset = "0x560EAD0", VA = "0x560FAD0", Slot = "37")]
 	protected override void RemoveItem(int index)
 	{
 	}
 
 	[Token(Token = "0x6000C81")]
-	[Address(RVA = "0x1C7A260", Offset = "0x1C78860", VA = "0x181C7A260")]
+	[Address(RVA = "0x560F840", Offset = "0x560E840", VA = "0x560F840")]
 	private void RemoveKey(string key)
 	{
 	}
 
 	[Token(Token = "0x6000C82")]
-	[Address(RVA = "0x1C7A390", Offset = "0x1C78990", VA = "0x181C7A390", Slot = "38")]
+	[Address(RVA = "0x560FC40", Offset = "0x560EC40", VA = "0x560FC40", Slot = "38")]
 	protected override void SetItem(int index, JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000C84")]
-	[Address(RVA = "0x1C7A620", Offset = "0x1C78C20", VA = "0x181C7A620")]
+	[Address(RVA = "0x5608FB0", Offset = "0x5607FB0", VA = "0x5608FB0")]
 	public bool TryGetValue(string key, [NotNullWhen(true)] out JToken? value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C87")]
-	[Address(RVA = "0x1C79F90", Offset = "0x1C78590", VA = "0x181C79F90")]
+	[Address(RVA = "0x5608C70", Offset = "0x5607C70", VA = "0x5608C70")]
 	public int IndexOfReference(JToken t)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C88")]
-	[Address(RVA = "0x1C79980", Offset = "0x1C77F80", VA = "0x181C79980")]
+	[Address(RVA = "0x5608830", Offset = "0x5607830", VA = "0x5608830")]
 	public bool Compare(JPropertyKeyedCollection other)
 	{
 		return default(bool);

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace SimpleJSONFixed;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000042")]
 public enum JSONNodeType
 {
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x4000199")]
 	Array = 1,
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x400019A")]
 	Object = 2,
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x400019B")]
 	String = 3,
-	[Token(Token = "0x400018D")]
+	[Token(Token = "0x400019C")]
 	Number = 4,
-	[Token(Token = "0x400018E")]
+	[Token(Token = "0x400019D")]
 	NullValue = 5,
-	[Token(Token = "0x400018F")]
+	[Token(Token = "0x400019E")]
 	Boolean = 6,
-	[Token(Token = "0x4000190")]
+	[Token(Token = "0x400019F")]
 	None = 7,
-	[Token(Token = "0x4000191")]
+	[Token(Token = "0x40001A0")]
 	Custom = 255
 }

@@ -12,123 +12,123 @@ using SimpleJSONFixed;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005BF")]
+[Token(Token = "0x200061E")]
 [CompilerGenerated]
 internal class CustomLogicJsonBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x20005C0")]
+	[Token(Token = "0x200061F")]
 	public static class Factory
 	{
-		[Token(Token = "0x600377E")]
-		[Address(RVA = "0x20AB400", Offset = "0x20A9A00", VA = "0x1820AB400")]
+		[Token(Token = "0x6003A0A")]
+		[Address(RVA = "0x5A2C9E0", Offset = "0x5A2B9E0", VA = "0x5A2C9E0")]
 		public static CustomLogicJsonBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20005C1")]
+	[Token(Token = "0x2000620")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40018B2")]
+		[Token(Token = "0x4001A52")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600377F")]
-		[Address(RVA = "0x2090AB0", Offset = "0x208F0B0", VA = "0x182090AB0")]
+		[Token(Token = "0x6003A0B")]
+		[Address(RVA = "0x5A2CB00", Offset = "0x5A2BB00", VA = "0x5A2CB00")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003780")]
-		[Address(RVA = "0x2097010", Offset = "0x2095610", VA = "0x182097010")]
+		[Token(Token = "0x6003A0C")]
+		[Address(RVA = "0x5A2CC40", Offset = "0x5A2BC40", VA = "0x5A2CC40")]
 		public static CLMethodBinding<CustomLogicJsonBuiltin> __CreateMethodBinding__LoadFromString()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003781")]
-		[Address(RVA = "0x2098810", Offset = "0x2096E10", VA = "0x182098810")]
+		[Token(Token = "0x6003A0D")]
+		[Address(RVA = "0x5A2CD80", Offset = "0x5A2BD80", VA = "0x5A2CD80")]
 		public static CLMethodBinding<CustomLogicJsonBuiltin> __CreateMethodBinding__SaveToString()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009F9")]
+	[Token(Token = "0x17000A41")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600377A")]
-		[Address(RVA = "0x20A18E0", Offset = "0x209FEE0", VA = "0x1820A18E0", Slot = "6")]
+		[Token(Token = "0x6003A06")]
+		[Address(RVA = "0x5A2C980", Offset = "0x5A2B980", VA = "0x5A2C980", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009FA")]
+	[Token(Token = "0x17000A42")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600377B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003A07")]
+		[Address(RVA = "0x5A2C9B0", Offset = "0x5A2B9B0", VA = "0x5A2C9B0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009FB")]
+	[Token(Token = "0x17000A43")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600377C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003A08")]
+		[Address(RVA = "0x5A2C9C0", Offset = "0x5A2B9C0", VA = "0x5A2C9C0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009FC")]
+	[Token(Token = "0x17000A44")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600377D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003A09")]
+		[Address(RVA = "0x5A2C9D0", Offset = "0x5A2B9D0", VA = "0x5A2C9D0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003775")]
-	[Address(RVA = "0x20A1890", Offset = "0x209FE90", VA = "0x1820A1890")]
+	[Token(Token = "0x6003A01")]
+	[Address(RVA = "0x5A2B2E0", Offset = "0x5A2A2E0", VA = "0x5A2B2E0")]
 	public CustomLogicJsonBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6003776")]
-	[Address(RVA = "0x20A0190", Offset = "0x209E790", VA = "0x1820A0190")]
+	[Token(Token = "0x6003A02")]
+	[Address(RVA = "0x5A2B350", Offset = "0x5A2A350", VA = "0x5A2B350")]
 	public static object LoadFromString(string json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003777")]
-	[Address(RVA = "0x20A1850", Offset = "0x209FE50", VA = "0x1820A1850")]
+	[Token(Token = "0x6003A03")]
+	[Address(RVA = "0x5A2BE10", Offset = "0x5A2AE10", VA = "0x5A2BE10")]
 	public static string SaveToString(object obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003778")]
-	[Address(RVA = "0x20A0200", Offset = "0x209E800", VA = "0x1820A0200")]
+	[Token(Token = "0x6003A04")]
+	[Address(RVA = "0x5A2B490", Offset = "0x5A2A490", VA = "0x5A2B490")]
 	protected static object LoadJSON(JSONNode json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003779")]
-	[Address(RVA = "0x20A0B70", Offset = "0x209F170", VA = "0x1820A0B70")]
+	[Token(Token = "0x6003A05")]
+	[Address(RVA = "0x5A2BE40", Offset = "0x5A2AE40", VA = "0x5A2BE40")]
 	protected static JSONNode SaveJSON(object obj)
 	{
 		return null;

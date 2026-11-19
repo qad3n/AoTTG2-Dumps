@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Map.MapVersionConverter1_0To1_1
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Map/MapVersionConverter1_0To1_1.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,71 +10,71 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x20003C4")]
+[Token(Token = "0x2000423")]
 public sealed class MapVersionConverter1_0To1_1 : IMapVersionConverter
 {
-	[Token(Token = "0x40013A1")]
+	[Token(Token = "0x4001541")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly IReadOnlyList<string> ChangeList;
 
-	[Token(Token = "0x17000281")]
+	[Token(Token = "0x170002C2")]
 	public string FromVersion
 	{
-		[Token(Token = "0x60017BF")]
-		[Address(RVA = "0x1EDD630", Offset = "0x1EDBC30", VA = "0x181EDD630", Slot = "4")]
+		[Token(Token = "0x6001A36")]
+		[Address(RVA = "0x58A5DB0", Offset = "0x58A4DB0", VA = "0x58A5DB0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000282")]
+	[Token(Token = "0x170002C3")]
 	public string ToVersion
 	{
-		[Token(Token = "0x60017C0")]
-		[Address(RVA = "0x1EDD660", Offset = "0x1EDBC60", VA = "0x181EDD660", Slot = "5")]
+		[Token(Token = "0x6001A37")]
+		[Address(RVA = "0x58A5DE0", Offset = "0x58A4DE0", VA = "0x58A5DE0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000283")]
+	[Token(Token = "0x170002C4")]
 	public bool IsReversible
 	{
-		[Token(Token = "0x60017C1")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
+		[Token(Token = "0x6001A38")]
+		[Address(RVA = "0x58A5E10", Offset = "0x58A4E10", VA = "0x58A5E10", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000284")]
+	[Token(Token = "0x170002C5")]
 	public IReadOnlyList<string> Changes
 	{
-		[Token(Token = "0x60017C2")]
-		[Address(RVA = "0x1EDD5E0", Offset = "0x1EDBBE0", VA = "0x181EDD5E0", Slot = "7")]
+		[Token(Token = "0x6001A39")]
+		[Address(RVA = "0x58A5E20", Offset = "0x58A4E20", VA = "0x58A5E20", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017C3")]
-	[Address(RVA = "0x1EDD2D0", Offset = "0x1EDB8D0", VA = "0x181EDD2D0", Slot = "8")]
+	[Token(Token = "0x6001A3A")]
+	[Address(RVA = "0x58A5E90", Offset = "0x58A4E90", VA = "0x58A5E90", Slot = "8")]
 	public void Upgrade(MapScript mapScript)
 	{
 	}
 
-	[Token(Token = "0x60017C4")]
-	[Address(RVA = "0x1EDD160", Offset = "0x1EDB760", VA = "0x181EDD160", Slot = "9")]
+	[Token(Token = "0x6001A3B")]
+	[Address(RVA = "0x58A6020", Offset = "0x58A5020", VA = "0x58A6020", Slot = "9")]
 	public void Downgrade(MapScript mapScript)
 	{
 	}
 
-	[Token(Token = "0x60017C5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001A3C")]
+	[Address(RVA = "0x58A5AF0", Offset = "0x58A4AF0", VA = "0x58A5AF0")]
 	public MapVersionConverter1_0To1_1()
 	{
 	}

@@ -18,14 +18,14 @@ public class JsonSelectSettings
 	public TimeSpan? RegexMatchTimeout
 	{
 		[Token(Token = "0x6000CA4")]
-		[Address(RVA = "0x561300", Offset = "0x55F900", VA = "0x180561300")]
+		[Address(RVA = "0x5611040", Offset = "0x5610040", VA = "0x5611040")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CA5")]
-		[Address(RVA = "0x561310", Offset = "0x55F910", VA = "0x180561310")]
+		[Address(RVA = "0x5611050", Offset = "0x5610050", VA = "0x5611050")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ public class JsonSelectSettings
 	public bool ErrorWhenNoMatch
 	{
 		[Token(Token = "0x6000CA6")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x5611060", Offset = "0x5610060", VA = "0x5611060")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000CA7")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x5611070", Offset = "0x5610070", VA = "0x5611070")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,7 +51,7 @@ public class JsonSelectSettings
 	}
 
 	[Token(Token = "0x6000CA8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5611080", Offset = "0x5610080", VA = "0x5611080")]
 	public JsonSelectSettings()
 	{
 	}

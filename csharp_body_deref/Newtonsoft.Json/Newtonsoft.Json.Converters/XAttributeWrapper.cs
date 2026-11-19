@@ -17,7 +17,7 @@ internal class XAttributeWrapper : XObjectWrapper
 	private XAttribute Attribute
 	{
 		[Token(Token = "0x6000F93")]
-		[Address(RVA = "0x1CAFD40", Offset = "0x1CAE340", VA = "0x181CAFD40")]
+		[Address(RVA = "0x563D670", Offset = "0x563C670", VA = "0x563D670")]
 		get
 		{
 			return null;
@@ -28,13 +28,13 @@ internal class XAttributeWrapper : XObjectWrapper
 	public override string? Value
 	{
 		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x1CAFF60", Offset = "0x1CAE560", VA = "0x181CAFF60", Slot = "19")]
+		[Address(RVA = "0x563D6D0", Offset = "0x563C6D0", VA = "0x563D6D0", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F96")]
-		[Address(RVA = "0x1CAFFE0", Offset = "0x1CAE5E0", VA = "0x181CAFFE0", Slot = "20")]
+		[Address(RVA = "0x563D740", Offset = "0x563C740", VA = "0x563D740", Slot = "20")]
 		set
 		{
 		}
@@ -44,7 +44,7 @@ internal class XAttributeWrapper : XObjectWrapper
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000F97")]
-		[Address(RVA = "0x1CAFDB0", Offset = "0x1CAE3B0", VA = "0x181CAFDB0", Slot = "15")]
+		[Address(RVA = "0x563D7E0", Offset = "0x563C7E0", VA = "0x563D7E0", Slot = "15")]
 		get
 		{
 			return null;
@@ -55,7 +55,7 @@ internal class XAttributeWrapper : XObjectWrapper
 	public override string? NamespaceUri
 	{
 		[Token(Token = "0x6000F98")]
-		[Address(RVA = "0x1CAFE30", Offset = "0x1CAE430", VA = "0x181CAFE30", Slot = "22")]
+		[Address(RVA = "0x563D850", Offset = "0x563C850", VA = "0x563D850", Slot = "22")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ internal class XAttributeWrapper : XObjectWrapper
 	public override IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F99")]
-		[Address(RVA = "0x1CAFEB0", Offset = "0x1CAE4B0", VA = "0x181CAFEB0", Slot = "18")]
+		[Address(RVA = "0x563D8C0", Offset = "0x563C8C0", VA = "0x563D8C0", Slot = "18")]
 		get
 		{
 			return null;
@@ -74,7 +74,7 @@ internal class XAttributeWrapper : XObjectWrapper
 	}
 
 	[Token(Token = "0x6000F94")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x563C560", Offset = "0x563B560", VA = "0x563C560")]
 	public XAttributeWrapper(XAttribute attribute)
 	{
 	}

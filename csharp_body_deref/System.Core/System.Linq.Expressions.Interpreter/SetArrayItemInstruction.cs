@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E5")]
+[Token(Token = "0x20000E6")]
 internal sealed class SetArrayItemInstruction : Instruction
 {
-	[Token(Token = "0x4000228")]
+	[Token(Token = "0x4000231")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly SetArrayItemInstruction Instance;
 
-	[Token(Token = "0x1700014F")]
+	[Token(Token = "0x17000151")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005D7")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
+		[Token(Token = "0x60005E2")]
+		[Address(RVA = "0x5DDB4A0", Offset = "0x5DDA4A0", VA = "0x5DDB4A0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000150")]
+	[Token(Token = "0x17000152")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x243F1F0", Offset = "0x243D7F0", VA = "0x18243F1F0", Slot = "9")]
+		[Token(Token = "0x60005E3")]
+		[Address(RVA = "0x5DDB4B0", Offset = "0x5DDA4B0", VA = "0x5DDB4B0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005D6")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60005E1")]
+	[Address(RVA = "0x5DDB490", Offset = "0x5DDA490", VA = "0x5DDB490")]
 	private SetArrayItemInstruction()
 	{
 	}
 
-	[Token(Token = "0x60005D9")]
-	[Address(RVA = "0x243F0C0", Offset = "0x243D6C0", VA = "0x18243F0C0", Slot = "8")]
+	[Token(Token = "0x60005E4")]
+	[Address(RVA = "0x5DDB4E0", Offset = "0x5DDA4E0", VA = "0x5DDB4E0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

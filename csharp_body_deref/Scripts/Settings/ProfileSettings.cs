@@ -9,118 +9,118 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000C7")]
+[Token(Token = "0x2000101")]
 internal class ProfileSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x40004DA")]
+	[Token(Token = "0x4000618")]
 	[FieldOffset(Offset = "0x38")]
 	public StringSetting ProfileIcon;
 
-	[Token(Token = "0x40004DB")]
+	[Token(Token = "0x4000619")]
 	[FieldOffset(Offset = "0x40")]
 	public StringSetting ProfileBanner;
 
-	[Token(Token = "0x40004DC")]
+	[Token(Token = "0x400061A")]
 	[FieldOffset(Offset = "0x48")]
 	public NameSetting Name;
 
-	[Token(Token = "0x40004DD")]
+	[Token(Token = "0x400061B")]
 	[FieldOffset(Offset = "0x50")]
 	public NameSetting Guild;
 
-	[Token(Token = "0x40004DE")]
+	[Token(Token = "0x400061C")]
 	[FieldOffset(Offset = "0x58")]
 	public StringSetting GuildRoleSprite;
 
-	[Token(Token = "0x40004DF")]
+	[Token(Token = "0x400061D")]
 	[FieldOffset(Offset = "0x60")]
 	public StringSetting Social;
 
-	[Token(Token = "0x40004E0")]
+	[Token(Token = "0x400061E")]
 	[FieldOffset(Offset = "0x68")]
 	public StringSetting SocialLinksJson;
 
-	[Token(Token = "0x40004E1")]
+	[Token(Token = "0x400061F")]
 	[FieldOffset(Offset = "0x70")]
 	public StringSetting About;
 
-	[Token(Token = "0x40004E2")]
+	[Token(Token = "0x4000620")]
 	[FieldOffset(Offset = "0x78")]
 	public StringSetting CharacterInfoJson;
 
-	[Token(Token = "0x40004E3")]
+	[Token(Token = "0x4000621")]
 	[FieldOffset(Offset = "0x80")]
 	public StringSetting ID;
 
-	[Token(Token = "0x40004E4")]
+	[Token(Token = "0x4000622")]
 	[FieldOffset(Offset = "0x88")]
 	public StringSetting NameFont;
 
-	[Token(Token = "0x40004E5")]
+	[Token(Token = "0x4000623")]
 	[FieldOffset(Offset = "0x90")]
 	public StringSetting GuildFont;
 
-	[Token(Token = "0x40004E6")]
+	[Token(Token = "0x4000624")]
 	[FieldOffset(Offset = "0x98")]
 	public BoolSetting NameEffectEnabled;
 
-	[Token(Token = "0x40004E7")]
+	[Token(Token = "0x4000625")]
 	[FieldOffset(Offset = "0xA0")]
 	public StringSetting NameEffect;
 
-	[Token(Token = "0x40004E8")]
+	[Token(Token = "0x4000626")]
 	[FieldOffset(Offset = "0xA8")]
 	public ColorSetting NameEffectColorA;
 
-	[Token(Token = "0x40004E9")]
+	[Token(Token = "0x4000627")]
 	[FieldOffset(Offset = "0xB0")]
 	public ColorSetting NameEffectColorB;
 
-	[Token(Token = "0x40004EA")]
+	[Token(Token = "0x4000628")]
 	[FieldOffset(Offset = "0xB8")]
 	public ColorSetting NameEffectColorC;
 
-	[Token(Token = "0x40004EB")]
+	[Token(Token = "0x4000629")]
 	[FieldOffset(Offset = "0xC0")]
 	public ColorSetting NameEffectColorD;
 
-	[Token(Token = "0x40004EC")]
+	[Token(Token = "0x400062A")]
 	[FieldOffset(Offset = "0xC8")]
 	public BoolSetting GuildEffectEnabled;
 
-	[Token(Token = "0x40004ED")]
+	[Token(Token = "0x400062B")]
 	[FieldOffset(Offset = "0xD0")]
 	public StringSetting GuildEffect;
 
-	[Token(Token = "0x40004EE")]
+	[Token(Token = "0x400062C")]
 	[FieldOffset(Offset = "0xD8")]
 	public ColorSetting GuildEffectColorA;
 
-	[Token(Token = "0x40004EF")]
+	[Token(Token = "0x400062D")]
 	[FieldOffset(Offset = "0xE0")]
 	public ColorSetting GuildEffectColorB;
 
-	[Token(Token = "0x40004F0")]
+	[Token(Token = "0x400062E")]
 	[FieldOffset(Offset = "0xE8")]
 	public ColorSetting GuildEffectColorC;
 
-	[Token(Token = "0x40004F1")]
+	[Token(Token = "0x400062F")]
 	[FieldOffset(Offset = "0xF0")]
 	public ColorSetting GuildEffectColorD;
 
-	[Token(Token = "0x170000A5")]
+	[Token(Token = "0x170000C2")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60003E6")]
-		[Address(RVA = "0x1F25090", Offset = "0x1F23690", VA = "0x181F25090", Slot = "15")]
+		[Token(Token = "0x6000562")]
+		[Address(RVA = "0x5A53DF0", Offset = "0x5A52DF0", VA = "0x5A53DF0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003E7")]
-	[Address(RVA = "0x1F245C0", Offset = "0x1F22BC0", VA = "0x181F245C0")]
+	[Token(Token = "0x6000563")]
+	[Address(RVA = "0x5A53E20", Offset = "0x5A52E20", VA = "0x5A53E20")]
 	public ProfileSettings()
 	{
 	}

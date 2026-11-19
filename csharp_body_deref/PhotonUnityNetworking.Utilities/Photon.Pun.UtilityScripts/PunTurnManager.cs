@@ -48,13 +48,13 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public int Turn
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x1D5D180", Offset = "0x1D5B780", VA = "0x181D5D180")]
+		[Address(RVA = "0x56F66B0", Offset = "0x56F56B0", VA = "0x56F66B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x1D5D2F0", Offset = "0x1D5B8F0", VA = "0x181D5D2F0")]
+		[Address(RVA = "0x56F6830", Offset = "0x56F5830", VA = "0x56F6830")]
 		private set
 		{
 		}
@@ -64,7 +64,7 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public float ElapsedTimeInTurn
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x1D5CB70", Offset = "0x1D5B170", VA = "0x181D5CB70")]
+		[Address(RVA = "0x56F6A30", Offset = "0x56F5A30", VA = "0x56F6A30")]
 		get
 		{
 			return default(float);
@@ -75,7 +75,7 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public float RemainingSecondsInTurn
 	{
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x1D5CFE0", Offset = "0x1D5B5E0", VA = "0x181D5CFE0")]
+		[Address(RVA = "0x56F6BC0", Offset = "0x56F5BC0", VA = "0x56F6BC0")]
 		get
 		{
 			return default(float);
@@ -86,7 +86,7 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public bool IsCompletedByAll
 	{
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x1D5CD00", Offset = "0x1D5B300", VA = "0x181D5CD00")]
+		[Address(RVA = "0x56F6BF0", Offset = "0x56F5BF0", VA = "0x56F6BF0")]
 		get
 		{
 			return default(bool);
@@ -97,7 +97,7 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public bool IsFinishedByMe
 	{
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x1D5CDB0", Offset = "0x1D5B3B0", VA = "0x181D5CDB0")]
+		[Address(RVA = "0x56F6D10", Offset = "0x56F5D10", VA = "0x56F6D10")]
 		get
 		{
 			return default(bool);
@@ -108,7 +108,7 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	public bool IsOver
 	{
 		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x1D5CE30", Offset = "0x1D5B430", VA = "0x181D5CE30")]
+		[Address(RVA = "0x56F6D80", Offset = "0x56F5D80", VA = "0x56F6D80")]
 		get
 		{
 			return default(bool);
@@ -116,56 +116,56 @@ public class PunTurnManager : MonoBehaviourPunCallbacks, IOnEventCallback
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x56F6DB0", Offset = "0x56F5DB0", VA = "0x56F6DB0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x1D5C8C0", Offset = "0x1D5AEC0", VA = "0x181D5C8C0")]
+	[Address(RVA = "0x56F6DC0", Offset = "0x56F5DC0", VA = "0x56F6DC0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x1D5BDC0", Offset = "0x1D5A3C0", VA = "0x181D5BDC0")]
+	[Address(RVA = "0x56F6FC0", Offset = "0x56F5FC0", VA = "0x56F6FC0")]
 	public void BeginTurn()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x1D5C4A0", Offset = "0x1D5AAA0", VA = "0x181D5C4A0")]
+	[Address(RVA = "0x56F70B0", Offset = "0x56F60B0", VA = "0x56F70B0")]
 	public void SendMove(object move, bool finished)
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x1D5BFA0", Offset = "0x1D5A5A0", VA = "0x181D5BFA0")]
+	[Address(RVA = "0x56F7B10", Offset = "0x56F6B10", VA = "0x56F7B10")]
 	public bool GetPlayerFinishedTurn(Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x1D5C140", Offset = "0x1D5A740", VA = "0x181D5C140")]
+	[Address(RVA = "0x56F7600", Offset = "0x56F6600", VA = "0x56F7600")]
 	private void ProcessOnEvent(byte eventCode, object content, int senderId)
 	{
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x1D5C010", Offset = "0x1D5A610", VA = "0x181D5C010", Slot = "54")]
+	[Address(RVA = "0x56F7B70", Offset = "0x56F6B70", VA = "0x56F7B70", Slot = "54")]
 	public void OnEvent(EventData photonEvent)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x1D5C080", Offset = "0x1D5A680", VA = "0x181D5C080", Slot = "46")]
+	[Address(RVA = "0x56F7BC0", Offset = "0x56F6BC0", VA = "0x56F7BC0", Slot = "46")]
 	public override void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x1D5CAF0", Offset = "0x1D5B0F0", VA = "0x181D5CAF0")]
+	[Address(RVA = "0x56F7D50", Offset = "0x56F6D50", VA = "0x56F7D50")]
 	public PunTurnManager()
 	{
 	}

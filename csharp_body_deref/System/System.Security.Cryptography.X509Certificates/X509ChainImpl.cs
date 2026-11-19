@@ -9,65 +9,65 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000145")]
+[Token(Token = "0x2000106")]
 internal abstract class X509ChainImpl : IDisposable
 {
-	[Token(Token = "0x1700017B")]
+	[Token(Token = "0x1700014C")]
 	public abstract bool IsValid
 	{
-		[Token(Token = "0x60007ED")]
+		[Token(Token = "0x600062E")]
 		get;
 	}
 
-	[Token(Token = "0x1700017C")]
+	[Token(Token = "0x1700014D")]
 	public abstract X509ChainElementCollection ChainElements
 	{
-		[Token(Token = "0x60007EF")]
+		[Token(Token = "0x6000630")]
 		get;
 	}
 
-	[Token(Token = "0x1700017D")]
+	[Token(Token = "0x1700014E")]
 	public abstract X509ChainPolicy ChainPolicy
 	{
-		[Token(Token = "0x60007F0")]
+		[Token(Token = "0x6000631")]
 		get;
 	}
 
-	[Token(Token = "0x60007EE")]
-	[Address(RVA = "0x288D2F0", Offset = "0x288B8F0", VA = "0x18288D2F0")]
+	[Token(Token = "0x600062F")]
+	[Address(RVA = "0x6217A40", Offset = "0x6216A40", VA = "0x6217A40")]
 	protected void ThrowIfContextInvalid()
 	{
 	}
 
-	[Token(Token = "0x60007F1")]
+	[Token(Token = "0x6000632")]
 	public abstract bool Build(X509Certificate2 certificate);
 
-	[Token(Token = "0x60007F2")]
+	[Token(Token = "0x6000633")]
 	public abstract void AddStatus(X509ChainStatusFlags errorCode);
 
-	[Token(Token = "0x60007F3")]
+	[Token(Token = "0x6000634")]
 	public abstract void Reset();
 
-	[Token(Token = "0x60007F4")]
-	[Address(RVA = "0x288D290", Offset = "0x288B890", VA = "0x18288D290", Slot = "4")]
+	[Token(Token = "0x6000635")]
+	[Address(RVA = "0x6215EA0", Offset = "0x6214EA0", VA = "0x6215EA0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60007F5")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+	[Token(Token = "0x6000636")]
+	[Address(RVA = "0x6217A80", Offset = "0x6216A80", VA = "0x6217A80", Slot = "11")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60007F6")]
-	[Address(RVA = "0x1974960", Offset = "0x1972F60", VA = "0x181974960", Slot = "1")]
+	[Token(Token = "0x6000637")]
+	[Address(RVA = "0x6217A90", Offset = "0x6216A90", VA = "0x6217A90", Slot = "1")]
 	~X509ChainImpl()
 	{
 	}
 
-	[Token(Token = "0x60007F7")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000638")]
+	[Address(RVA = "0x6217B30", Offset = "0x6216B30", VA = "0x6217B30")]
 	protected X509ChainImpl()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: GameManagers.CharacterEditorGameManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/GameManagers/CharacterEditorGameManager.c
 // Prior real C# source (older reference): Assets/Scripts/GameManagers/CharacterEditorGameManager.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,46 +17,46 @@ using UnityEngine;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000314")]
+[Token(Token = "0x2000375")]
 internal class CharacterEditorGameManager : BaseGameManager
 {
-	[Token(Token = "0x2000315")]
+	[Token(Token = "0x2000376")]
 	[CompilerGenerated]
 	private sealed class _003CGenerateHumanPreviewsCoroutine_003Ed__10 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000FB3")]
+		[Token(Token = "0x4001152")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000FB4")]
+		[Token(Token = "0x4001153")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000FB5")]
+		[Token(Token = "0x4001154")]
 		[FieldOffset(Offset = "0x20")]
 		public CharacterEditorGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000FB6")]
+		[Token(Token = "0x4001155")]
 		[FieldOffset(Offset = "0x28")]
 		private HumanCustomSet _003Cset_003E5__2;
 
-		[Token(Token = "0x4000FB7")]
+		[Token(Token = "0x4001156")]
 		[FieldOffset(Offset = "0x30")]
 		private int _003Ci_003E5__3;
 
-		[Token(Token = "0x4000FB8")]
+		[Token(Token = "0x4001157")]
 		[FieldOffset(Offset = "0x38")]
 		private List<BaseSetting>.Enumerator _003C_003E7__wrap3;
 
-		[Token(Token = "0x4000FB9")]
+		[Token(Token = "0x4001158")]
 		[FieldOffset(Offset = "0x50")]
 		private HumanCustomSet _003Cpreset_003E5__5;
 
-		[Token(Token = "0x17000212")]
+		[Token(Token = "0x17000259")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6001312")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6001584")]
+			[Address(RVA = "0x58283E0", Offset = "0x58273E0", VA = "0x58283E0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -64,11 +64,11 @@ internal class CharacterEditorGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000213")]
+		[Token(Token = "0x1700025A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6001314")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6001586")]
+			[Address(RVA = "0x5828430", Offset = "0x5827430", VA = "0x5828430", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -76,78 +76,78 @@ internal class CharacterEditorGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x600130E")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6001580")]
+		[Address(RVA = "0x58260F0", Offset = "0x58250F0", VA = "0x58260F0")]
 		[DebuggerHidden]
 		public _003CGenerateHumanPreviewsCoroutine_003Ed__10(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600130F")]
-		[Address(RVA = "0x1E3C160", Offset = "0x1E3A760", VA = "0x181E3C160", Slot = "5")]
+		[Token(Token = "0x6001581")]
+		[Address(RVA = "0x5826410", Offset = "0x5825410", VA = "0x5826410", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6001310")]
-		[Address(RVA = "0x1E3A380", Offset = "0x1E38980", VA = "0x181E3A380", Slot = "6")]
+		[Token(Token = "0x6001582")]
+		[Address(RVA = "0x5826470", Offset = "0x5825470", VA = "0x5826470", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001311")]
-		[Address(RVA = "0x1E3C1F0", Offset = "0x1E3A7F0", VA = "0x181E3C1F0")]
+		[Token(Token = "0x6001583")]
+		[Address(RVA = "0x58283A0", Offset = "0x58273A0", VA = "0x58283A0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6001313")]
-		[Address(RVA = "0x1E3C120", Offset = "0x1E3A720", VA = "0x181E3C120", Slot = "8")]
+		[Token(Token = "0x6001585")]
+		[Address(RVA = "0x58283F0", Offset = "0x58273F0", VA = "0x58283F0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000316")]
+	[Token(Token = "0x2000377")]
 	[CompilerGenerated]
 	private sealed class _003CGenerateTitanPreviewsCoroutine_003Ed__11 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000FBA")]
+		[Token(Token = "0x4001159")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000FBB")]
+		[Token(Token = "0x400115A")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000FBC")]
+		[Token(Token = "0x400115B")]
 		[FieldOffset(Offset = "0x20")]
 		public CharacterEditorGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000FBD")]
+		[Token(Token = "0x400115C")]
 		[FieldOffset(Offset = "0x28")]
 		private TitanCustomSet _003Cset_003E5__2;
 
-		[Token(Token = "0x4000FBE")]
+		[Token(Token = "0x400115D")]
 		[FieldOffset(Offset = "0x30")]
 		private int _003Ci_003E5__3;
 
-		[Token(Token = "0x4000FBF")]
+		[Token(Token = "0x400115E")]
 		[FieldOffset(Offset = "0x38")]
 		private List<string>.Enumerator _003C_003E7__wrap3;
 
-		[Token(Token = "0x4000FC0")]
+		[Token(Token = "0x400115F")]
 		[FieldOffset(Offset = "0x50")]
 		private string _003Chair_003E5__5;
 
-		[Token(Token = "0x17000214")]
+		[Token(Token = "0x1700025B")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6001319")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x600158B")]
+			[Address(RVA = "0x5828E60", Offset = "0x5827E60", VA = "0x5828E60", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -155,11 +155,11 @@ internal class CharacterEditorGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000215")]
+		[Token(Token = "0x1700025C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600131B")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x600158D")]
+			[Address(RVA = "0x5828EB0", Offset = "0x5827EB0", VA = "0x5828EB0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -167,110 +167,110 @@ internal class CharacterEditorGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6001315")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6001587")]
+		[Address(RVA = "0x5826110", Offset = "0x5825110", VA = "0x5826110")]
 		[DebuggerHidden]
 		public _003CGenerateTitanPreviewsCoroutine_003Ed__11(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6001316")]
-		[Address(RVA = "0x1E61310", Offset = "0x1E5F910", VA = "0x181E61310", Slot = "5")]
+		[Token(Token = "0x6001588")]
+		[Address(RVA = "0x5828440", Offset = "0x5827440", VA = "0x5828440", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6001317")]
-		[Address(RVA = "0x1E60890", Offset = "0x1E5EE90", VA = "0x181E60890", Slot = "6")]
+		[Token(Token = "0x6001589")]
+		[Address(RVA = "0x5828490", Offset = "0x5827490", VA = "0x5828490", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001318")]
-		[Address(RVA = "0x1E613A0", Offset = "0x1E5F9A0", VA = "0x181E613A0")]
+		[Token(Token = "0x600158A")]
+		[Address(RVA = "0x5828E20", Offset = "0x5827E20", VA = "0x5828E20")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x600131A")]
-		[Address(RVA = "0x1E612D0", Offset = "0x1E5F8D0", VA = "0x181E612D0", Slot = "8")]
+		[Token(Token = "0x600158C")]
+		[Address(RVA = "0x5828E70", Offset = "0x5827E70", VA = "0x5828E70", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000FAC")]
+	[Token(Token = "0x400114B")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool HumanMode;
 
-	[Token(Token = "0x4000FAD")]
+	[Token(Token = "0x400114C")]
 	[FieldOffset(Offset = "0x28")]
 	public DummyHuman Human;
 
-	[Token(Token = "0x4000FAE")]
+	[Token(Token = "0x400114D")]
 	[FieldOffset(Offset = "0x30")]
 	public DummyTitan Titan;
 
-	[Token(Token = "0x4000FAF")]
+	[Token(Token = "0x400114E")]
 	[FieldOffset(Offset = "0x38")]
 	public DummyCharacter Character;
 
-	[Token(Token = "0x4000FB0")]
+	[Token(Token = "0x400114F")]
 	[FieldOffset(Offset = "0x8")]
 	private static string PreviewFolderPath;
 
-	[Token(Token = "0x4000FB1")]
+	[Token(Token = "0x4001150")]
 	private const string TitanPreviewHair = "HairM1";
 
-	[Token(Token = "0x4000FB2")]
+	[Token(Token = "0x4001151")]
 	[FieldOffset(Offset = "0x40")]
 	private GameObject platform;
 
-	[Token(Token = "0x6001306")]
-	[Address(RVA = "0x1E32310", Offset = "0x1E30910", VA = "0x181E32310", Slot = "54")]
+	[Token(Token = "0x6001578")]
+	[Address(RVA = "0x5825410", Offset = "0x5824410", VA = "0x5825410", Slot = "54")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6001307")]
-	[Address(RVA = "0x1E32920", Offset = "0x1E30F20", VA = "0x181E32920")]
+	[Token(Token = "0x6001579")]
+	[Address(RVA = "0x5825800", Offset = "0x5824800", VA = "0x5825800")]
 	public void ReinstantiateCharacter(bool applySkins = true)
 	{
 	}
 
-	[Token(Token = "0x6001308")]
-	[Address(RVA = "0x1E32730", Offset = "0x1E30D30", VA = "0x181E32730")]
+	[Token(Token = "0x600157A")]
+	[Address(RVA = "0x5825EC0", Offset = "0x5824EC0", VA = "0x5825EC0")]
 	public void GeneratePreviews()
 	{
 	}
 
-	[Token(Token = "0x6001309")]
-	[Address(RVA = "0x1E326C0", Offset = "0x1E30CC0", VA = "0x181E326C0")]
+	[Token(Token = "0x600157B")]
+	[Address(RVA = "0x5826010", Offset = "0x5825010", VA = "0x5826010")]
 	[IteratorStateMachine(typeof(_003CGenerateHumanPreviewsCoroutine_003Ed__10))]
 	private IEnumerator GenerateHumanPreviewsCoroutine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600130A")]
-	[Address(RVA = "0x1E328B0", Offset = "0x1E30EB0", VA = "0x181E328B0")]
+	[Token(Token = "0x600157C")]
+	[Address(RVA = "0x5826080", Offset = "0x5825080", VA = "0x5826080")]
 	[IteratorStateMachine(typeof(_003CGenerateTitanPreviewsCoroutine_003Ed__11))]
 	private IEnumerator GenerateTitanPreviewsCoroutine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600130B")]
-	[Address(RVA = "0x1E32F60", Offset = "0x1E31560", VA = "0x181E32F60")]
+	[Token(Token = "0x600157D")]
+	[Address(RVA = "0x5826130", Offset = "0x5825130", VA = "0x5826130")]
 	private void Screenshot(float x, float y, float w, float h, string file)
 	{
 	}
 
-	[Token(Token = "0x600130C")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Token(Token = "0x600157E")]
+	[Address(RVA = "0x5826350", Offset = "0x5825350", VA = "0x5826350")]
 	public CharacterEditorGameManager()
 	{
 	}

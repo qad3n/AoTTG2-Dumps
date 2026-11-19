@@ -13,7 +13,7 @@ namespace UnityEngine.Rendering;
 public static class ShaderDebugPrintInputProducer
 {
 	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x2B19430", Offset = "0x2B17A30", VA = "0x182B19430")]
+	[Address(RVA = "0x64F6540", Offset = "0x64F5540", VA = "0x64F6540")]
 	public static ShaderDebugPrintInput Get()
 	{
 		return default(ShaderDebugPrintInput);

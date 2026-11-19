@@ -15,19 +15,19 @@ namespace System.Data;
 public class ReadOnlyException : DataException
 {
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BDB0", Offset = "0x5E6ADB0", VA = "0x5E6BDB0")]
 	protected ReadOnlyException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x24E4580", Offset = "0x24E2B80", VA = "0x1824E4580")]
+	[Address(RVA = "0x5E6BDC0", Offset = "0x5E6ADC0", VA = "0x5E6BDC0")]
 	public ReadOnlyException()
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x24E45D0", Offset = "0x24E2BD0", VA = "0x1824E45D0")]
+	[Address(RVA = "0x5E6BE00", Offset = "0x5E6AE00", VA = "0x5E6BE00")]
 	public ReadOnlyException(string s)
 	{
 	}

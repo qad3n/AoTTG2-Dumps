@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003CA")]
+[Token(Token = "0x200039E")]
 public struct SortingLayerRange : IEquatable<SortingLayerRange>
 {
-	[Token(Token = "0x4000C37")]
+	[Token(Token = "0x4000B17")]
 	[FieldOffset(Offset = "0x0")]
 	private short m_LowerBound;
 
-	[Token(Token = "0x4000C38")]
+	[Token(Token = "0x4000B18")]
 	[FieldOffset(Offset = "0x2")]
 	private short m_UpperBound;
 
-	[Token(Token = "0x1700039D")]
+	[Token(Token = "0x1700038B")]
 	public static SortingLayerRange all
 	{
-		[Token(Token = "0x6001714")]
-		[Address(RVA = "0x2F729B0", Offset = "0x2F70FB0", VA = "0x182F729B0")]
+		[Token(Token = "0x60016B9")]
+		[Address(RVA = "0x695AF90", Offset = "0x6959F90", VA = "0x695AF90")]
 		get
 		{
 			return default(SortingLayerRange);
 		}
 	}
 
-	[Token(Token = "0x6001715")]
-	[Address(RVA = "0x2F728E0", Offset = "0x2F70EE0", VA = "0x182F728E0", Slot = "4")]
+	[Token(Token = "0x60016BA")]
+	[Address(RVA = "0x6962830", Offset = "0x6961830", VA = "0x6962830", Slot = "4")]
 	public bool Equals(SortingLayerRange other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001716")]
-	[Address(RVA = "0x2F72900", Offset = "0x2F70F00", VA = "0x182F72900", Slot = "0")]
+	[Token(Token = "0x60016BB")]
+	[Address(RVA = "0x6962850", Offset = "0x6961850", VA = "0x6962850", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001717")]
-	[Address(RVA = "0x2F729A0", Offset = "0x2F70FA0", VA = "0x182F729A0", Slot = "2")]
+	[Token(Token = "0x60016BC")]
+	[Address(RVA = "0x69628C0", Offset = "0x69618C0", VA = "0x69628C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

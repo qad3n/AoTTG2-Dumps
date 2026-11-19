@@ -10,70 +10,70 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200033D")]
+[Token(Token = "0x2000316")]
 [ComVisible(true)]
 public abstract class TripleDES : SymmetricAlgorithm
 {
-	[Token(Token = "0x4000D9A")]
+	[Token(Token = "0x4000CFA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalBlockSizes;
 
-	[Token(Token = "0x4000D9B")]
+	[Token(Token = "0x4000CFB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x170002E8")]
+	[Token(Token = "0x170002E7")]
 	public override byte[] Key
 	{
-		[Token(Token = "0x6001B29")]
-		[Address(RVA = "0x19D04B0", Offset = "0x19CEAB0", VA = "0x1819D04B0", Slot = "12")]
+		[Token(Token = "0x6001B06")]
+		[Address(RVA = "0x53547D0", Offset = "0x53537D0", VA = "0x53547D0", Slot = "12")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001B2A")]
-		[Address(RVA = "0x19D0580", Offset = "0x19CEB80", VA = "0x1819D0580", Slot = "13")]
+		[Token(Token = "0x6001B07")]
+		[Address(RVA = "0x5354A20", Offset = "0x5353A20", VA = "0x5354A20", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001B28")]
-	[Address(RVA = "0x19D0400", Offset = "0x19CEA00", VA = "0x1819D0400")]
+	[Token(Token = "0x6001B05")]
+	[Address(RVA = "0x5354720", Offset = "0x5353720", VA = "0x5354720")]
 	protected TripleDES()
 	{
 	}
 
-	[Token(Token = "0x6001B2B")]
-	[Address(RVA = "0x19CFDE0", Offset = "0x19CE3E0", VA = "0x1819CFDE0")]
+	[Token(Token = "0x6001B08")]
+	[Address(RVA = "0x5354C80", Offset = "0x5353C80", VA = "0x5354C80")]
 	public new static TripleDES Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B2C")]
-	[Address(RVA = "0x19CFD10", Offset = "0x19CE310", VA = "0x1819CFD10")]
+	[Token(Token = "0x6001B09")]
+	[Address(RVA = "0x5354DB0", Offset = "0x5353DB0", VA = "0x5354DB0")]
 	public new static TripleDES Create(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B2D")]
-	[Address(RVA = "0x19D0070", Offset = "0x19CE670", VA = "0x1819D0070")]
+	[Token(Token = "0x6001B0A")]
+	[Address(RVA = "0x53548B0", Offset = "0x53538B0", VA = "0x53548B0")]
 	public static bool IsWeakKey(byte[] rgbKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B2E")]
-	[Address(RVA = "0x19CFE30", Offset = "0x19CE430", VA = "0x1819CFE30")]
+	[Token(Token = "0x6001B0B")]
+	[Address(RVA = "0x5354FB0", Offset = "0x5353FB0", VA = "0x5354FB0")]
 	private static bool EqualBytes(byte[] rgbKey, int start1, int start2, int count)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B2F")]
-	[Address(RVA = "0x19D0050", Offset = "0x19CE650", VA = "0x1819D0050")]
+	[Token(Token = "0x6001B0C")]
+	[Address(RVA = "0x5354EC0", Offset = "0x5353EC0", VA = "0x5354EC0")]
 	private static bool IsLegalKeySize(byte[] rgbKey)
 	{
 		return default(bool);

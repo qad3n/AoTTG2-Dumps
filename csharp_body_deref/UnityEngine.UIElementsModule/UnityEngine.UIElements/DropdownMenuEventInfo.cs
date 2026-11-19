@@ -16,8 +16,8 @@ public class DropdownMenuEventInfo
 {
 	[Token(Token = "0x4000734")]
 	[FieldOffset(Offset = "0x10")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly EventModifiers _003Cmodifiers_003Ek__BackingField;
 
 	[Token(Token = "0x4000735")]
@@ -34,18 +34,18 @@ public class DropdownMenuEventInfo
 
 	[Token(Token = "0x4000737")]
 	[FieldOffset(Offset = "0x24")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly char _003Ccharacter_003Ek__BackingField;
 
 	[Token(Token = "0x4000738")]
 	[FieldOffset(Offset = "0x28")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly KeyCode _003CkeyCode_003Ek__BackingField;
 
 	[Token(Token = "0x6000BA1")]
-	[Address(RVA = "0x3241680", Offset = "0x323FC80", VA = "0x183241680")]
+	[Address(RVA = "0x6C5C0F0", Offset = "0x6C5B0F0", VA = "0x6C5C0F0")]
 	public DropdownMenuEventInfo(EventBase e)
 	{
 	}

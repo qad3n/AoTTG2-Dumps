@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000205")]
+[Token(Token = "0x2000206")]
 public enum SpeechError
 {
-	[Token(Token = "0x40006DB")]
-	NoError,
-	[Token(Token = "0x40006DC")]
-	TopicLanguageNotSupported,
-	[Token(Token = "0x40006DD")]
-	GrammarLanguageMismatch,
-	[Token(Token = "0x40006DE")]
-	GrammarCompilationFailure,
-	[Token(Token = "0x40006DF")]
-	AudioQualityFailure,
 	[Token(Token = "0x40006E0")]
-	PauseLimitExceeded,
+	NoError,
 	[Token(Token = "0x40006E1")]
-	TimeoutExceeded,
+	TopicLanguageNotSupported,
 	[Token(Token = "0x40006E2")]
-	NetworkFailure,
+	GrammarLanguageMismatch,
 	[Token(Token = "0x40006E3")]
-	MicrophoneUnavailable,
+	GrammarCompilationFailure,
 	[Token(Token = "0x40006E4")]
+	AudioQualityFailure,
+	[Token(Token = "0x40006E5")]
+	PauseLimitExceeded,
+	[Token(Token = "0x40006E6")]
+	TimeoutExceeded,
+	[Token(Token = "0x40006E7")]
+	NetworkFailure,
+	[Token(Token = "0x40006E8")]
+	MicrophoneUnavailable,
+	[Token(Token = "0x40006E9")]
 	UnknownError
 }

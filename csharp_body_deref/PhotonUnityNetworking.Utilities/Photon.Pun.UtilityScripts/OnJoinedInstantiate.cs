@@ -85,93 +85,93 @@ public class OnJoinedInstantiate : MonoBehaviour, IMatchmakingCallbacks
 	protected int lastUsedSpawnPointIndex;
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x1D54520", Offset = "0x1D52B20", VA = "0x181D54520", Slot = "11")]
+	[Address(RVA = "0x56F4E80", Offset = "0x56F3E80", VA = "0x56F4E80", Slot = "11")]
 	public virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x1D544D0", Offset = "0x1D52AD0", VA = "0x181D544D0", Slot = "12")]
+	[Address(RVA = "0x56F4EF0", Offset = "0x56F3EF0", VA = "0x56F4EF0", Slot = "12")]
 	public virtual void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x1D54570", Offset = "0x1D52B70", VA = "0x181D54570", Slot = "13")]
+	[Address(RVA = "0x56F4F60", Offset = "0x56F3F60", VA = "0x56F4F60", Slot = "13")]
 	public virtual void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x1D545F0", Offset = "0x1D52BF0", VA = "0x181D545F0", Slot = "14")]
+	[Address(RVA = "0x56F4FD0", Offset = "0x56F3FD0", VA = "0x56F4FD0", Slot = "14")]
 	public virtual void SpawnObjects()
 	{
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x1D53FB0", Offset = "0x1D525B0", VA = "0x181D53FB0", Slot = "15")]
+	[Address(RVA = "0x56F5260", Offset = "0x56F4260", VA = "0x56F5260", Slot = "15")]
 	public virtual void DespawnObjects(bool localOnly)
 	{
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "16")]
+	[Address(RVA = "0x56F53B0", Offset = "0x56F43B0", VA = "0x56F53B0", Slot = "16")]
 	public virtual void OnFriendListUpdate(List<FriendInfo> friendList)
 	{
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "17")]
+	[Address(RVA = "0x56F53C0", Offset = "0x56F43C0", VA = "0x56F53C0", Slot = "17")]
 	public virtual void OnCreatedRoom()
 	{
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "18")]
+	[Address(RVA = "0x56F53D0", Offset = "0x56F43D0", VA = "0x56F53D0", Slot = "18")]
 	public virtual void OnCreateRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "19")]
+	[Address(RVA = "0x56F53E0", Offset = "0x56F43E0", VA = "0x56F53E0", Slot = "19")]
 	public virtual void OnJoinRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "20")]
+	[Address(RVA = "0x56F53F0", Offset = "0x56F43F0", VA = "0x56F53F0", Slot = "20")]
 	public virtual void OnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "21")]
+	[Address(RVA = "0x56F5400", Offset = "0x56F4400", VA = "0x56F5400", Slot = "21")]
 	public virtual void OnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x1D54230", Offset = "0x1D52830", VA = "0x181D54230", Slot = "22")]
+	[Address(RVA = "0x56F5410", Offset = "0x56F4410", VA = "0x56F5410", Slot = "22")]
 	public virtual void GetSpawnPoint(out Vector3 spawnPos, out Quaternion spawnRot)
 	{
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x1D54370", Offset = "0x1D52970", VA = "0x181D54370", Slot = "23")]
+	[Address(RVA = "0x56F5550", Offset = "0x56F4550", VA = "0x56F5550", Slot = "23")]
 	protected virtual Transform GetSpawnPoint()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x1D540D0", Offset = "0x1D526D0", VA = "0x181D540D0", Slot = "24")]
+	[Address(RVA = "0x56F5650", Offset = "0x56F4650", VA = "0x56F5650", Slot = "24")]
 	protected virtual Vector3 GetRandomOffset()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x1D54840", Offset = "0x1D52E40", VA = "0x181D54840")]
+	[Address(RVA = "0x56F57E0", Offset = "0x56F47E0", VA = "0x56F57E0")]
 	public OnJoinedInstantiate()
 	{
 	}

@@ -18,7 +18,7 @@ namespace Photon.Voice.Unity;
 public class UnityVoiceClient : VoiceConnection
 {
 	[Token(Token = "0x4000050")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC4")]
 	[SerializeField]
 	public bool UseVoiceAppSettings;
 
@@ -26,7 +26,7 @@ public class UnityVoiceClient : VoiceConnection
 	public override bool AlwaysUsePrimaryRecorder
 	{
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
+		[Address(RVA = "0x5733730", Offset = "0x5732730", VA = "0x5733730", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -34,27 +34,27 @@ public class UnityVoiceClient : VoiceConnection
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x1D95640", Offset = "0x1D93C40", VA = "0x181D95640", Slot = "14")]
+	[Address(RVA = "0x5733740", Offset = "0x5732740", VA = "0x5733740", Slot = "14")]
 	protected virtual void Start()
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x1D95540", Offset = "0x1D93B40", VA = "0x181D95540", Slot = "7")]
+	[Address(RVA = "0x57339E0", Offset = "0x57329E0", VA = "0x57339E0", Slot = "7")]
 	public override bool ConnectUsingSettings([Optional] AppSettings overwriteSettings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x1D95610", Offset = "0x1D93C10", VA = "0x181D95610", Slot = "11")]
+	[Address(RVA = "0x5734060", Offset = "0x5733060", VA = "0x5734060", Slot = "11")]
 	protected override Speaker InstantiateSpeakerForRemoteVoice(int playerId, byte voiceId, object userData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x1D956C0", Offset = "0x1D93CC0", VA = "0x181D956C0")]
+	[Address(RVA = "0x57348B0", Offset = "0x57338B0", VA = "0x57348B0")]
 	public UnityVoiceClient()
 	{
 	}

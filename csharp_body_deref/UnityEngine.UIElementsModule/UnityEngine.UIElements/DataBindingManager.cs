@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DataBindingManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,13 +33,13 @@ internal sealed class DataBindingManager : IDisposable
 		public readonly bool shouldProcess;
 
 		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x3085C60", Offset = "0x3084260", VA = "0x183085C60")]
+		[Address(RVA = "0x6A850F0", Offset = "0x6A840F0", VA = "0x6A850F0")]
 		public BindingRequest(in BindingId bindingId, Binding binding, bool shouldProcess = true)
 		{
 		}
 
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x3085B70", Offset = "0x3084170", VA = "0x183085B70")]
+		[Address(RVA = "0x6A85060", Offset = "0x6A84060", VA = "0x6A85060")]
 		public BindingRequest CancelRequest()
 		{
 			return default(BindingRequest);
@@ -58,48 +58,48 @@ internal sealed class DataBindingManager : IDisposable
 		private List<BindingData> m_Bindings;
 
 		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x3084ED0", Offset = "0x30834D0", VA = "0x183084ED0")]
+		[Address(RVA = "0x6A86620", Offset = "0x6A85620", VA = "0x6A86620")]
 		public static BindingDataCollection Create()
 		{
 			return default(BindingDataCollection);
 		}
 
 		[Token(Token = "0x600010F")]
-		[Address(RVA = "0x3084CC0", Offset = "0x30832C0", VA = "0x183084CC0")]
+		[Address(RVA = "0x6A866F0", Offset = "0x6A856F0", VA = "0x6A866F0")]
 		public void AddBindingData(BindingData bindingData)
 		{
 		}
 
 		[Token(Token = "0x6000110")]
-		[Address(RVA = "0x3085280", Offset = "0x3083880", VA = "0x183085280")]
+		[Address(RVA = "0x6A825D0", Offset = "0x6A815D0", VA = "0x6A825D0")]
 		public bool TryGetBindingData(in BindingId bindingId, out BindingData data)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000111")]
-		[Address(RVA = "0x30850C0", Offset = "0x30836C0", VA = "0x1830850C0")]
+		[Address(RVA = "0x6A86860", Offset = "0x6A85860", VA = "0x6A86860")]
 		public bool RemoveBindingData(BindingData bindingData)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0")]
+		[Address(RVA = "0x6A824A0", Offset = "0x6A814A0", VA = "0x6A824A0")]
 		public List<BindingData> GetBindings()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x3085080", Offset = "0x3083680", VA = "0x183085080")]
+		[Address(RVA = "0x6A86970", Offset = "0x6A85970", VA = "0x6A86970")]
 		public int GetBindingCount()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x3084FA0", Offset = "0x30835A0", VA = "0x183084FA0", Slot = "4")]
+		[Address(RVA = "0x6A869B0", Offset = "0x6A859B0", VA = "0x6A869B0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -136,14 +136,14 @@ internal sealed class DataBindingManager : IDisposable
 		public object localDataSource
 		{
 			[Token(Token = "0x6000115")]
-			[Address(RVA = "0x3012390", Offset = "0x3010990", VA = "0x183012390")]
+			[Address(RVA = "0x6A86A90", Offset = "0x6A85A90", VA = "0x6A86A90")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000116")]
-			[Address(RVA = "0x30126B0", Offset = "0x3010CB0", VA = "0x1830126B0")]
+			[Address(RVA = "0x6A86AA0", Offset = "0x6A85AA0", VA = "0x6A86AA0")]
 			[CompilerGenerated]
 			set
 			{
@@ -154,20 +154,20 @@ internal sealed class DataBindingManager : IDisposable
 		public DataSourceContext context
 		{
 			[Token(Token = "0x6000118")]
-			[Address(RVA = "0x3085420", Offset = "0x3083A20", VA = "0x183085420")]
+			[Address(RVA = "0x6A86AC0", Offset = "0x6A85AC0", VA = "0x6A86AC0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x3085360", Offset = "0x3083960", VA = "0x183085360")]
+		[Address(RVA = "0x6A863F0", Offset = "0x6A853F0", VA = "0x6A863F0")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6A863E0", Offset = "0x6A853E0", VA = "0x6A863E0")]
 		public BindingData()
 		{
 		}
@@ -192,7 +192,7 @@ internal sealed class DataBindingManager : IDisposable
 		public bool IsValid
 		{
 			[Token(Token = "0x600011B")]
-			[Address(RVA = "0x3088A50", Offset = "0x3087050", VA = "0x183088A50")]
+			[Address(RVA = "0x6A86CC0", Offset = "0x6A85CC0", VA = "0x6A86CC0")]
 			get
 			{
 				return default(bool);
@@ -200,7 +200,7 @@ internal sealed class DataBindingManager : IDisposable
 		}
 
 		[Token(Token = "0x600011A")]
-		[Address(RVA = "0x3088A00", Offset = "0x3087000", VA = "0x183088A00")]
+		[Address(RVA = "0x6A86C70", Offset = "0x6A85C70", VA = "0x6A86C70")]
 		public ChangesFromUI(BindingData bindingData)
 		{
 		}
@@ -216,14 +216,14 @@ internal sealed class DataBindingManager : IDisposable
 			public HashSet<VisualElement> boundElements
 			{
 				[Token(Token = "0x6000128")]
-				[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+				[Address(RVA = "0x6A87280", Offset = "0x6A86280", VA = "0x6A87280")]
 				[CompilerGenerated]
 				get
 				{
 					return null;
 				}
 				[Token(Token = "0x6000129")]
-				[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+				[Address(RVA = "0x6A87290", Offset = "0x6A86290", VA = "0x6A87290")]
 				[CompilerGenerated]
 				set
 				{
@@ -234,14 +234,14 @@ internal sealed class DataBindingManager : IDisposable
 			public List<VisualElement> results
 			{
 				[Token(Token = "0x600012A")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+				[Address(RVA = "0x6A872A0", Offset = "0x6A862A0", VA = "0x6A872A0")]
 				[CompilerGenerated]
 				get
 				{
 					return null;
 				}
 				[Token(Token = "0x600012B")]
-				[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+				[Address(RVA = "0x6A872B0", Offset = "0x6A862B0", VA = "0x6A872B0")]
 				[CompilerGenerated]
 				set
 				{
@@ -249,13 +249,13 @@ internal sealed class DataBindingManager : IDisposable
 			}
 
 			[Token(Token = "0x600012C")]
-			[Address(RVA = "0x3091B30", Offset = "0x3090130", VA = "0x183091B30", Slot = "5")]
+			[Address(RVA = "0x6A872C0", Offset = "0x6A862C0", VA = "0x6A872C0", Slot = "5")]
 			public override void TraverseRecursive(VisualElement element, int depth)
 			{
 			}
 
 			[Token(Token = "0x600012D")]
-			[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+			[Address(RVA = "0x6A86DA0", Offset = "0x6A85DA0", VA = "0x6A86DA0")]
 			public HierarchicalBindingsSorter()
 			{
 			}
@@ -290,77 +290,77 @@ internal sealed class DataBindingManager : IDisposable
 		private EventCallback<PropertyChangedEvent, Dictionary<VisualElement, BindingDataCollection>> m_OnPropertyChanged;
 
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x3091EC0", Offset = "0x30904C0", VA = "0x183091EC0")]
+		[Address(RVA = "0x6A81DA0", Offset = "0x6A80DA0", VA = "0x6A81DA0")]
 		public int GetTrackedElementsCount()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x3091DD0", Offset = "0x30903D0", VA = "0x183091DD0")]
+		[Address(RVA = "0x6A81E20", Offset = "0x6A80E20", VA = "0x6A81E20")]
 		public List<VisualElement> GetBoundElements()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x3092B50", Offset = "0x3091150", VA = "0x183092B50")]
+		[Address(RVA = "0x6A80DE0", Offset = "0x6A7FDE0", VA = "0x6A80DE0")]
 		public HierarchyBindingTracker(BaseVisualElementPanel panel)
 		{
 		}
 
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0xCD9BE0", Offset = "0xCD81E0", VA = "0x180CD9BE0")]
+		[Address(RVA = "0x6A85CC0", Offset = "0x6A84CC0", VA = "0x6A85CC0")]
 		public void SetDirty()
 		{
 		}
 
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x3092AE0", Offset = "0x30910E0", VA = "0x183092AE0")]
+		[Address(RVA = "0x6A82440", Offset = "0x6A81440", VA = "0x6A82440")]
 		public bool TryGetBindingCollection(VisualElement element, out BindingDataCollection collection)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x3091F00", Offset = "0x3090500", VA = "0x183091F00")]
+		[Address(RVA = "0x6A84440", Offset = "0x6A83440", VA = "0x6A84440")]
 		public bool IsTrackingElement(VisualElement element)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x3092600", Offset = "0x3090C00", VA = "0x183092600")]
+		[Address(RVA = "0x6A836A0", Offset = "0x6A826A0", VA = "0x6A836A0")]
 		public void StartTrackingBinding(VisualElement element, BindingData binding)
 		{
 		}
 
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x3091F60", Offset = "0x3090560", VA = "0x183091F60")]
+		[Address(RVA = "0x6A86DB0", Offset = "0x6A85DB0", VA = "0x6A86DB0")]
 		private void OnPropertyChanged(PropertyChangedEvent evt, Dictionary<VisualElement, BindingDataCollection> bindingCollection)
 		{
 		}
 
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x3092880", Offset = "0x3090E80", VA = "0x183092880")]
+		[Address(RVA = "0x6A83F90", Offset = "0x6A82F90", VA = "0x6A83F90")]
 		public void StopTrackingBinding(VisualElement element, BindingData binding)
 		{
 		}
 
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x3092A20", Offset = "0x3091020", VA = "0x183092A20")]
+		[Address(RVA = "0x6A84980", Offset = "0x6A83980", VA = "0x6A84980")]
 		public void StopTrackingElement(VisualElement element)
 		{
 		}
 
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x3091C00", Offset = "0x3090200", VA = "0x183091C00", Slot = "4")]
+		[Address(RVA = "0x6A84DA0", Offset = "0x6A83DA0", VA = "0x6A84DA0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0x3092540", Offset = "0x3090B40", VA = "0x183092540")]
+		[Address(RVA = "0x6A86CF0", Offset = "0x6A85CF0", VA = "0x6A86CF0")]
 		private void OrderBindings(VisualElement root)
 		{
 		}
@@ -380,14 +380,14 @@ internal sealed class DataBindingManager : IDisposable
 			public long lastVersion
 			{
 				[Token(Token = "0x6000143")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+				[Address(RVA = "0x6A87FE0", Offset = "0x6A86FE0", VA = "0x6A87FE0")]
 				[CompilerGenerated]
 				get
 				{
 					return default(long);
 				}
 				[Token(Token = "0x6000144")]
-				[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
+				[Address(RVA = "0x6A87FF0", Offset = "0x6A86FF0", VA = "0x6A87FF0")]
 				[CompilerGenerated]
 				set
 				{
@@ -398,14 +398,14 @@ internal sealed class DataBindingManager : IDisposable
 			public int refCount
 			{
 				[Token(Token = "0x6000145")]
-				[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+				[Address(RVA = "0x6A88000", Offset = "0x6A87000", VA = "0x6A88000")]
 				[CompilerGenerated]
 				get
 				{
 					return default(int);
 				}
 				[Token(Token = "0x6000146")]
-				[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+				[Address(RVA = "0x6A88010", Offset = "0x6A87010", VA = "0x6A88010")]
 				[CompilerGenerated]
 				set
 				{
@@ -416,7 +416,7 @@ internal sealed class DataBindingManager : IDisposable
 			public HashSet<PropertyPath> detectedChanges
 			{
 				[Token(Token = "0x6000147")]
-				[Address(RVA = "0x3096C80", Offset = "0x3095280", VA = "0x183096C80")]
+				[Address(RVA = "0x6A87F10", Offset = "0x6A86F10", VA = "0x6A87F10")]
 				get
 				{
 					return null;
@@ -427,7 +427,7 @@ internal sealed class DataBindingManager : IDisposable
 			public HashSet<PropertyPath> detectedChangesNoAlloc
 			{
 				[Token(Token = "0x6000148")]
-				[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+				[Address(RVA = "0x6A88020", Offset = "0x6A87020", VA = "0x6A88020")]
 				get
 				{
 					return null;
@@ -435,7 +435,7 @@ internal sealed class DataBindingManager : IDisposable
 			}
 
 			[Token(Token = "0x6000149")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x6A87480", Offset = "0x6A86480", VA = "0x6A87480")]
 			public SourceInfo()
 			{
 			}
@@ -453,19 +453,19 @@ internal sealed class DataBindingManager : IDisposable
 			private readonly HashSet<VisualElement> m_VisitedElements;
 
 			[Token(Token = "0x600014A")]
-			[Address(RVA = "0x3095CB0", Offset = "0x30942B0", VA = "0x183095CB0")]
+			[Address(RVA = "0x6A87580", Offset = "0x6A86580", VA = "0x6A87580")]
 			public InvalidateDataSourcesTraversal(HierarchyDataSourceTracker dataSourceTracker)
 			{
 			}
 
 			[Token(Token = "0x600014B")]
-			[Address(RVA = "0x30959E0", Offset = "0x3093FE0", VA = "0x1830959E0")]
+			[Address(RVA = "0x6A87820", Offset = "0x6A86820", VA = "0x6A87820")]
 			public void Invalidate(List<VisualElement> addedOrMovedElements, HashSet<VisualElement> removedElements)
 			{
 			}
 
 			[Token(Token = "0x600014C")]
-			[Address(RVA = "0x3095BB0", Offset = "0x30941B0", VA = "0x183095BB0", Slot = "5")]
+			[Address(RVA = "0x6A88030", Offset = "0x6A87030", VA = "0x6A88030", Slot = "5")]
 			public override void TraverseRecursive(VisualElement element, int depth)
 			{
 			}
@@ -475,21 +475,21 @@ internal sealed class DataBindingManager : IDisposable
 		private class ObjectComparer : IEqualityComparer<object>
 		{
 			[Token(Token = "0x600014D")]
-			[Address(RVA = "0x3095DB0", Offset = "0x30943B0", VA = "0x183095DB0", Slot = "4")]
+			[Address(RVA = "0x6A88130", Offset = "0x6A87130", VA = "0x6A88130", Slot = "4")]
 			private bool System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EEquals(object x, object y)
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x600014E")]
-			[Address(RVA = "0x1C51D90", Offset = "0x1C50390", VA = "0x181C51D90", Slot = "5")]
+			[Address(RVA = "0x6A881B0", Offset = "0x6A871B0", VA = "0x6A881B0", Slot = "5")]
 			private int System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EGetHashCode(object obj)
 			{
 				return default(int);
 			}
 
 			[Token(Token = "0x600014F")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x6A87570", Offset = "0x6A86570", VA = "0x6A87570")]
 			public ObjectComparer()
 			{
 			}
@@ -532,133 +532,133 @@ internal sealed class DataBindingManager : IDisposable
 		private readonly EventCallback<PropertyChangedEvent, VisualElement> m_VisualElementHandler;
 
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x3093C00", Offset = "0x3092200", VA = "0x183093C00")]
+		[Address(RVA = "0x6A873C0", Offset = "0x6A863C0", VA = "0x6A873C0")]
 		private SourceInfo GetPooledSourceInfo()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x3094DA0", Offset = "0x30933A0", VA = "0x183094DA0")]
+		[Address(RVA = "0x6A87490", Offset = "0x6A86490", VA = "0x6A87490")]
 		private void ReleasePooledSourceInfo(SourceInfo info)
 		{
 		}
 
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3095320", Offset = "0x3093920", VA = "0x183095320")]
+		[Address(RVA = "0x6A80B10", Offset = "0x6A7FB10", VA = "0x6A80B10")]
 		public HierarchyDataSourceTracker(DataBindingManager manager)
 		{
 		}
 
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3094600", Offset = "0x3092C00", VA = "0x183094600")]
+		[Address(RVA = "0x6A834C0", Offset = "0x6A824C0", VA = "0x6A834C0")]
 		internal void IncreaseBindingRefCount(ref BindingData bindingData)
 		{
 		}
 
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x30930A0", Offset = "0x30916A0", VA = "0x1830930A0")]
+		[Address(RVA = "0x6A831F0", Offset = "0x6A821F0", VA = "0x6A831F0")]
 		internal void DecreaseBindingRefCount(ref BindingData bindingData)
 		{
 		}
 
 		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x3094730", Offset = "0x3092D30", VA = "0x183094730")]
+		[Address(RVA = "0x6A85F20", Offset = "0x6A84F20", VA = "0x6A85F20")]
 		internal void IncreaseRefCount(object dataSource)
 		{
 		}
 
 		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x3094C20", Offset = "0x3093220", VA = "0x183094C20")]
+		[Address(RVA = "0x6A87610", Offset = "0x6A86610", VA = "0x6A87610")]
 		private void OnVisualElementPropertyChanged(PropertyChangedEvent evt, VisualElement element)
 		{
 		}
 
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x3093200", Offset = "0x3091800", VA = "0x183093200")]
+		[Address(RVA = "0x6A85D10", Offset = "0x6A84D10", VA = "0x6A85D10")]
 		internal void DecreaseRefCount(object dataSource)
 		{
 		}
 
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x30945B0", Offset = "0x3092BB0", VA = "0x1830945B0")]
+		[Address(RVA = "0x6A80FE0", Offset = "0x6A7FFE0", VA = "0x6A80FE0")]
 		public int GetTrackedDataSourcesCount()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x30934A0", Offset = "0x3091AA0", VA = "0x1830934A0")]
+		[Address(RVA = "0x6A82240", Offset = "0x6A81240", VA = "0x6A82240")]
 		public HashSet<PropertyPath> GetChangesFromSource(object dataSource)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x3092CF0", Offset = "0x30912F0", VA = "0x183092CF0")]
+		[Address(RVA = "0x6A822E0", Offset = "0x6A812E0", VA = "0x6A822E0")]
 		public void ClearChangesFromSource(object dataSource)
 		{
 		}
 
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x3094980", Offset = "0x3092F80", VA = "0x183094980")]
+		[Address(RVA = "0x6A84A60", Offset = "0x6A83A60", VA = "0x6A84A60")]
 		public void InvalidateCachedDataSource(HashSet<VisualElement> elements, HashSet<VisualElement> removedElements)
 		{
 		}
 
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x3093CE0", Offset = "0x30922E0", VA = "0x183093CE0")]
+		[Address(RVA = "0x6A81530", Offset = "0x6A80530", VA = "0x6A81530")]
 		public DataSourceContext GetResolvedDataSourceContext(VisualElement element, BindingData bindingData)
 		{
 			return default(DataSourceContext);
 		}
 
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x3094EF0", Offset = "0x30934F0", VA = "0x183094EF0")]
+		[Address(RVA = "0x6A87E60", Offset = "0x6A86E60", VA = "0x6A87E60")]
 		private void TrackPropertyChanges(object sender, BindablePropertyChangedEventArgs args)
 		{
 		}
 
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x3095060", Offset = "0x3093660", VA = "0x183095060")]
+		[Address(RVA = "0x6A876C0", Offset = "0x6A866C0", VA = "0x6A876C0")]
 		private void TrackPropertyChanges(object sender, PropertyPath propertyPath)
 		{
 		}
 
 		[Token(Token = "0x600013D")]
-		[Address(RVA = "0x30951E0", Offset = "0x30937E0", VA = "0x1830951E0")]
+		[Address(RVA = "0x6A810B0", Offset = "0x6A800B0", VA = "0x6A810B0")]
 		public bool TryGetLastVersion(object source, out long version)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x3095280", Offset = "0x3093880", VA = "0x183095280")]
+		[Address(RVA = "0x6A81160", Offset = "0x6A80160", VA = "0x6A81160")]
 		public void UpdateVersion(object source, long version)
 		{
 		}
 
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x3093530", Offset = "0x3091B30", VA = "0x183093530")]
+		[Address(RVA = "0x6A87A30", Offset = "0x6A86A30", VA = "0x6A87A30")]
 		internal DataSourceContext GetHierarchicalDataSourceContext(VisualElement element)
 		{
 			return default(DataSourceContext);
 		}
 
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x3094E90", Offset = "0x3093490", VA = "0x183094E90")]
+		[Address(RVA = "0x6A87F90", Offset = "0x6A86F90", VA = "0x6A87F90")]
 		internal void RemoveHierarchyDataSourceContextFromElement(VisualElement element)
 		{
 		}
 
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x30933C0", Offset = "0x30919C0", VA = "0x1830933C0", Slot = "4")]
+		[Address(RVA = "0x6A84F80", Offset = "0x6A83F80", VA = "0x6A84F80", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x3092D90", Offset = "0x3091390", VA = "0x183092D90")]
+		[Address(RVA = "0x6A86120", Offset = "0x6A85120", VA = "0x6A86120")]
 		public void ClearSourceCache()
 		{
 		}
@@ -680,7 +680,7 @@ internal sealed class DataBindingManager : IDisposable
 		public BindingId bindingId;
 
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x3095630", Offset = "0x3093C30", VA = "0x183095630")]
+		[Address(RVA = "0x6A87200", Offset = "0x6A86200", VA = "0x6A87200")]
 		public bool ShouldIgnoreChange(VisualElement ve, Binding b, BindingId id)
 		{
 			return default(bool);
@@ -699,13 +699,13 @@ internal sealed class DataBindingManager : IDisposable
 		private DataBindingManager manager;
 
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x3095790", Offset = "0x3093D90", VA = "0x183095790")]
+		[Address(RVA = "0x6A82080", Offset = "0x6A81080", VA = "0x6A82080")]
 		internal IgnoreUIChangesScope(DataBindingManager manager, VisualElement target, BindingId bindingId, Binding binding)
 		{
 		}
 
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x30956B0", Offset = "0x3093CB0", VA = "0x1830956B0", Slot = "4")]
+		[Address(RVA = "0x6A881C0", Offset = "0x6A871C0", VA = "0x6A881C0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -759,227 +759,227 @@ internal sealed class DataBindingManager : IDisposable
 	internal BindingLogLevel logLevel
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x308F160", Offset = "0x308D760", VA = "0x18308F160")]
+		[Address(RVA = "0x6A7DF90", Offset = "0x6A7CF90", VA = "0x6A7DF90")]
 		get
 		{
 			return default(BindingLogLevel);
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x308F1F0", Offset = "0x308D7F0", VA = "0x18308F1F0")]
+		[Address(RVA = "0x6A7DE60", Offset = "0x6A7CE60", VA = "0x6A7DE60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x1CBB7C0", Offset = "0x1CB9DC0", VA = "0x181CBB7C0")]
+	[Address(RVA = "0x6A7E090", Offset = "0x6A7D090", VA = "0x6A7E090")]
 	internal void ResetLogLevel()
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x308EEA0", Offset = "0x308D4A0", VA = "0x18308EEA0")]
+	[Address(RVA = "0x6A809C0", Offset = "0x6A7F9C0", VA = "0x6A809C0")]
 	internal DataBindingManager(BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x308C200", Offset = "0x308A800", VA = "0x18308C200")]
+	[Address(RVA = "0x6A80F90", Offset = "0x6A7FF90", VA = "0x6A80F90")]
 	internal int GetTrackedDataSourcesCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x308DEA0", Offset = "0x308C4A0", VA = "0x18308DEA0")]
+	[Address(RVA = "0x6A81020", Offset = "0x6A80020", VA = "0x6A81020")]
 	internal bool TryGetLastVersion(object source, out long version)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x308EC30", Offset = "0x308D230", VA = "0x18308EC30")]
+	[Address(RVA = "0x6A81140", Offset = "0x6A80140", VA = "0x6A81140")]
 	internal void UpdateVersion(object source, long version)
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x308B200", Offset = "0x3089800", VA = "0x18308B200")]
+	[Address(RVA = "0x6A811F0", Offset = "0x6A801F0", VA = "0x6A811F0")]
 	internal void CacheUIBindingResult(BindingData bindingData, BindingResult result)
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x308DE00", Offset = "0x308C400", VA = "0x18308DE00")]
+	[Address(RVA = "0x6A81280", Offset = "0x6A80280", VA = "0x6A81280")]
 	internal bool TryGetLastUIBindingResult(BindingData bindingData, out BindingResult result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x308B160", Offset = "0x3089760", VA = "0x18308B160")]
+	[Address(RVA = "0x6A81310", Offset = "0x6A80310", VA = "0x6A81310")]
 	internal void CacheSourceBindingResult(BindingData bindingData, BindingResult result)
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x308DD60", Offset = "0x308C360", VA = "0x18308DD60")]
+	[Address(RVA = "0x6A813A0", Offset = "0x6A803A0", VA = "0x6A813A0")]
 	internal bool TryGetLastSourceBindingResult(BindingData bindingData, out BindingResult result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x308C0B0", Offset = "0x308A6B0", VA = "0x18308C0B0")]
+	[Address(RVA = "0x6A81430", Offset = "0x6A80430", VA = "0x6A81430")]
 	internal DataSourceContext GetResolvedDataSourceContext(VisualElement element, BindingData bindingData)
 	{
 		return default(DataSourceContext);
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x308BD50", Offset = "0x308A350", VA = "0x18308BD50")]
+	[Address(RVA = "0x6A81D60", Offset = "0x6A80D60", VA = "0x6A81D60")]
 	internal int GetBoundElementsCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x308BDA0", Offset = "0x308A3A0", VA = "0x18308BDA0")]
+	[Address(RVA = "0x6A81DE0", Offset = "0x6A80DE0", VA = "0x6A81DE0")]
 	internal IEnumerable<VisualElement> GetBoundElements()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x308C250", Offset = "0x308A850", VA = "0x18308C250")]
+	[Address(RVA = "0x6A81E60", Offset = "0x6A80E60", VA = "0x6A81E60")]
 	public IgnoreUIChangesScope IgnoreChangesScope(VisualElement target, BindingId bindingId, Binding binding)
 	{
 		return default(IgnoreUIChangesScope);
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0xAD2BE0", Offset = "0xAD11E0", VA = "0x180AD2BE0")]
+	[Address(RVA = "0x6A821B0", Offset = "0x6A811B0", VA = "0x6A821B0")]
 	internal List<ChangesFromUI> GetChangedDetectedFromUI()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x308BEA0", Offset = "0x308A4A0", VA = "0x18308BEA0")]
+	[Address(RVA = "0x6A821C0", Offset = "0x6A811C0", VA = "0x6A821C0")]
 	internal HashSet<PropertyPath> GetChangedDetectedFromSource(object dataSource)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x308B4D0", Offset = "0x3089AD0", VA = "0x18308B4D0")]
+	[Address(RVA = "0x6A822C0", Offset = "0x6A812C0", VA = "0x6A822C0")]
 	internal void ClearChangesFromSource(object dataSource)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x308BC60", Offset = "0x308A260", VA = "0x18308BC60")]
+	[Address(RVA = "0x6A82370", Offset = "0x6A81370", VA = "0x6A82370")]
 	internal List<BindingData> GetBindingData(VisualElement element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x308DA80", Offset = "0x308C080", VA = "0x18308DA80")]
+	[Address(RVA = "0x6A824B0", Offset = "0x6A814B0", VA = "0x6A824B0")]
 	internal bool TryGetBindingData(VisualElement element, in BindingId bindingId, out BindingData bindingData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x308C940", Offset = "0x308AF40", VA = "0x18308C940")]
+	[Address(RVA = "0x6A82640", Offset = "0x6A81640", VA = "0x6A82640")]
 	internal void RegisterBinding(VisualElement element, in BindingId bindingId, Binding binding)
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x308DF50", Offset = "0x308C550", VA = "0x18308DF50")]
+	[Address(RVA = "0x6A83850", Offset = "0x6A82850", VA = "0x6A83850")]
 	internal void UnregisterBinding(VisualElement element, in BindingId bindingId)
 	{
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x308D8D0", Offset = "0x308BED0", VA = "0x18308D8D0")]
+	[Address(RVA = "0x6A84290", Offset = "0x6A83290", VA = "0x6A84290")]
 	internal void TransferBindingRequests(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x308C390", Offset = "0x308A990", VA = "0x18308C390")]
+	[Address(RVA = "0x6A84A40", Offset = "0x6A83A40", VA = "0x6A84A40")]
 	public void InvalidateCachedDataSource(HashSet<VisualElement> addedOrMovedElements, HashSet<VisualElement> removedElements)
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x308BB00", Offset = "0x308A100", VA = "0x18308BB00", Slot = "4")]
+	[Address(RVA = "0x6A84D30", Offset = "0x6A83D30", VA = "0x6A84D30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x308B590", Offset = "0x3089B90", VA = "0x18308B590")]
+	[Address(RVA = "0x6A84490", Offset = "0x6A83490", VA = "0x6A84490")]
 	private static void CreateBindingRequest(VisualElement target, in BindingId bindingId, Binding binding, bool isTransferring)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x308C3B0", Offset = "0x308A9B0", VA = "0x18308C3B0")]
+	[Address(RVA = "0x6A85140", Offset = "0x6A84140", VA = "0x6A85140")]
 	public void ProcessBindingRequests(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x308B2A0", Offset = "0x30898A0", VA = "0x18308B2A0")]
+	[Address(RVA = "0x6A85720", Offset = "0x6A84720", VA = "0x6A85720")]
 	private void ClearAllBindings(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x308B090", Offset = "0x3089690", VA = "0x18308B090")]
+	[Address(RVA = "0x6A859A0", Offset = "0x6A849A0", VA = "0x6A859A0")]
 	internal static bool AnyPendingBindingRequests(VisualElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x308DB50", Offset = "0x308C150", VA = "0x18308DB50")]
+	[Address(RVA = "0x6A85A90", Offset = "0x6A84A90", VA = "0x6A85A90")]
 	internal static bool TryGetBindingRequest(VisualElement element, in BindingId bindingId, out Binding binding)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x308BAE0", Offset = "0x308A0E0", VA = "0x18308BAE0")]
+	[Address(RVA = "0x6A85CA0", Offset = "0x6A84CA0", VA = "0x6A85CA0")]
 	public void DirtyBindingOrder()
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x308D880", Offset = "0x308BE80", VA = "0x18308D880")]
+	[Address(RVA = "0x6A85CD0", Offset = "0x6A84CD0", VA = "0x6A85CD0")]
 	public void TrackDataSource(object previous, object current)
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x308B570", Offset = "0x3089B70", VA = "0x18308B570")]
+	[Address(RVA = "0x6A86100", Offset = "0x6A85100", VA = "0x6A86100")]
 	public void ClearSourceCache()
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x308BF30", Offset = "0x308A530", VA = "0x18308BF30")]
+	[Address(RVA = "0x6A833B0", Offset = "0x6A823B0", VA = "0x6A833B0")]
 	public BindingData GetPooledBindingData(BindingTarget target, Binding binding)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x308D710", Offset = "0x308BD10", VA = "0x18308D710")]
+	[Address(RVA = "0x6A84120", Offset = "0x6A83120", VA = "0x6A84120")]
 	public void ReleasePoolBindingData(BindingData data)
 	{
 	}

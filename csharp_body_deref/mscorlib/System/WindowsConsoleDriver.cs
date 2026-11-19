@@ -10,53 +10,53 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001E7")]
+[Token(Token = "0x20001BF")]
 internal class WindowsConsoleDriver : System.IConsoleDriver
 {
-	[Token(Token = "0x4000955")]
+	[Token(Token = "0x40008B3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IntPtr inputHandle;
 
-	[Token(Token = "0x4000956")]
+	[Token(Token = "0x40008B4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private IntPtr outputHandle;
 
-	[Token(Token = "0x4000957")]
+	[Token(Token = "0x40008B5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private short defaultAttribute;
 
-	[Token(Token = "0x6001109")]
-	[Address(RVA = "0x1BA9BD0", Offset = "0x1BA81D0", VA = "0x181BA9BD0")]
+	[Token(Token = "0x60010E0")]
+	[Address(RVA = "0x5521050", Offset = "0x5520050", VA = "0x5521050")]
 	public WindowsConsoleDriver()
 	{
 	}
 
-	[Token(Token = "0x600110A")]
-	[Address(RVA = "0x1BA99C0", Offset = "0x1BA7FC0", VA = "0x181BA99C0", Slot = "4")]
+	[Token(Token = "0x60010E1")]
+	[Address(RVA = "0x5521310", Offset = "0x5520310", VA = "0x5521310", Slot = "4")]
 	public ConsoleKeyInfo ReadKey(bool intercept)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
-	[Token(Token = "0x600110B")]
-	[Address(RVA = "0x1BA9880", Offset = "0x1BA7E80", VA = "0x181BA9880")]
+	[Token(Token = "0x60010E2")]
+	[Address(RVA = "0x5521610", Offset = "0x5520610", VA = "0x5521610")]
 	private static bool IsModifierKey(short virtualKeyCode)
 	{
 		return default(bool);
 	}
 
 	[PreserveSig]
-	[Token(Token = "0x600110C")]
-	[Address(RVA = "0x1BA97F0", Offset = "0x1BA7DF0", VA = "0x181BA97F0")]
+	[Token(Token = "0x60010E3")]
+	[Address(RVA = "0x5521200", Offset = "0x5520200", VA = "0x5521200")]
 	private static extern IntPtr GetStdHandle(System.Handles handle);
 
 	[PreserveSig]
-	[Token(Token = "0x600110D")]
-	[Address(RVA = "0x1BA9750", Offset = "0x1BA7D50", VA = "0x181BA9750")]
+	[Token(Token = "0x60010E4")]
+	[Address(RVA = "0x5521280", Offset = "0x5520280", VA = "0x5521280")]
 	private static extern bool GetConsoleScreenBufferInfo(IntPtr handle, out System.ConsoleScreenBufferInfo info);
 
 	[PreserveSig]
-	[Token(Token = "0x600110E")]
-	[Address(RVA = "0x1BA98B0", Offset = "0x1BA7EB0", VA = "0x181BA98B0")]
+	[Token(Token = "0x60010E5")]
+	[Address(RVA = "0x5521510", Offset = "0x5520510", VA = "0x5521510")]
 	private static extern bool ReadConsoleInput(IntPtr handle, out System.InputRecord record, int length, out int nread);
 }

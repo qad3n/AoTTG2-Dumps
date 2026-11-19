@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.XRDepthMotionPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ public class XRDepthMotionPass : ScriptableRenderPass
 		internal Material xrMotionVector;
 
 		[Token(Token = "0x60007CC")]
-		[Address(RVA = "0x2C71FF0", Offset = "0x2C705F0", VA = "0x182C71FF0")]
+		[Address(RVA = "0x6675770", Offset = "0x6674770", VA = "0x6675770")]
 		public PassData()
 		{
 		}
@@ -101,56 +101,56 @@ public class XRDepthMotionPass : ScriptableRenderPass
 	private Material m_XRMotionVectorMaterial;
 
 	[Token(Token = "0x60007C2")]
-	[Address(RVA = "0x2C90BD0", Offset = "0x2C8F1D0", VA = "0x182C90BD0")]
+	[Address(RVA = "0x6672F80", Offset = "0x6671F80", VA = "0x6672F80")]
 	public XRDepthMotionPass(RenderPassEvent evt, Shader xrMotionVector)
 	{
 	}
 
 	[Token(Token = "0x60007C3")]
-	[Address(RVA = "0x2C8EDB0", Offset = "0x2C8D3B0", VA = "0x182C8EDB0")]
+	[Address(RVA = "0x66734D0", Offset = "0x66724D0", VA = "0x66734D0")]
 	private static DrawingSettings GetObjectMotionDrawingSettings(Camera camera)
 	{
 		return default(DrawingSettings);
 	}
 
 	[Token(Token = "0x60007C4")]
-	[Address(RVA = "0x2C8F630", Offset = "0x2C8DC30", VA = "0x182C8F630")]
+	[Address(RVA = "0x6673740", Offset = "0x6672740", VA = "0x6673740")]
 	private void InitObjectMotionRendererLists(ref PassData passData, ref CullingResults cullResults, RenderGraph renderGraph, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x60007C5")]
-	[Address(RVA = "0x2C8FC40", Offset = "0x2C8E240", VA = "0x182C8FC40")]
+	[Address(RVA = "0x6673E00", Offset = "0x6672E00", VA = "0x6673E00")]
 	private void InitPassData(ref PassData passData, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60007C6")]
-	[Address(RVA = "0x2C8F010", Offset = "0x2C8D610", VA = "0x182C8F010")]
+	[Address(RVA = "0x6673F00", Offset = "0x6672F00", VA = "0x6673F00")]
 	private void ImportXRMotionColorAndDepth(RenderGraph renderGraph, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60007C7")]
-	[Address(RVA = "0x2C8FD60", Offset = "0x2C8E360", VA = "0x182C8FD60")]
+	[Address(RVA = "0x6674640", Offset = "0x6673640", VA = "0x6674640")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x60007C8")]
-	[Address(RVA = "0x2C90500", Offset = "0x2C8EB00", VA = "0x182C90500")]
+	[Address(RVA = "0x6673210", Offset = "0x6672210", VA = "0x6673210")]
 	private void ResetMotionData()
 	{
 	}
 
 	[Token(Token = "0x60007C9")]
-	[Address(RVA = "0x2C90630", Offset = "0x2C8EC30", VA = "0x182C90630")]
+	[Address(RVA = "0x6674E40", Offset = "0x6673E40", VA = "0x6674E40")]
 	public void Update(ref UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60007CA")]
-	[Address(RVA = "0x2C8ED40", Offset = "0x2C8D340", VA = "0x182C8ED40")]
+	[Address(RVA = "0x6675650", Offset = "0x6674650", VA = "0x6675650")]
 	public void Dispose()
 	{
 	}

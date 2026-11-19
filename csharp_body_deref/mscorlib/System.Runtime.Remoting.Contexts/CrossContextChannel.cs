@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x200039A")]
+[Token(Token = "0x2000373")]
 internal class CrossContextChannel : IMessageSink
 {
-	[Token(Token = "0x200039B")]
+	[Token(Token = "0x2000374")]
 	private class ContextRestoreSink : IMessageSink
 	{
-		[Token(Token = "0x4000F10")]
+		[Token(Token = "0x4000E70")]
 		[FieldOffset(Offset = "0x10")]
 		private IMessageSink _next;
 
-		[Token(Token = "0x4000F11")]
+		[Token(Token = "0x4000E71")]
 		[FieldOffset(Offset = "0x18")]
 		private Context _context;
 
-		[Token(Token = "0x4000F12")]
+		[Token(Token = "0x4000E72")]
 		[FieldOffset(Offset = "0x20")]
 		private IMessage _call;
 
-		[Token(Token = "0x6001DD9")]
-		[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+		[Token(Token = "0x6001DAF")]
+		[Address(RVA = "0x53851F0", Offset = "0x53841F0", VA = "0x53851F0")]
 		public ContextRestoreSink(IMessageSink next, Context context, IMessage call)
 		{
 		}
 
-		[Token(Token = "0x6001DDA")]
-		[Address(RVA = "0x19F5DB0", Offset = "0x19F43B0", VA = "0x1819F5DB0", Slot = "4")]
+		[Token(Token = "0x6001DB0")]
+		[Address(RVA = "0x5385260", Offset = "0x5384260", VA = "0x5385260", Slot = "4")]
 		public IMessage SyncProcessMessage(IMessage msg)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001DDB")]
-		[Address(RVA = "0x19F5D70", Offset = "0x19F4370", VA = "0x1819F5D70", Slot = "5")]
+		[Token(Token = "0x6001DB1")]
+		[Address(RVA = "0x5385520", Offset = "0x5384520", VA = "0x5385520", Slot = "5")]
 		public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001DD6")]
-	[Address(RVA = "0x19F9900", Offset = "0x19F7F00", VA = "0x1819F9900", Slot = "4")]
+	[Token(Token = "0x6001DAC")]
+	[Address(RVA = "0x53849A0", Offset = "0x53839A0", VA = "0x53849A0", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DD7")]
-	[Address(RVA = "0x19F94F0", Offset = "0x19F7AF0", VA = "0x1819F94F0", Slot = "5")]
+	[Token(Token = "0x6001DAD")]
+	[Address(RVA = "0x5384DB0", Offset = "0x5383DB0", VA = "0x5384DB0", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DD8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001DAE")]
+	[Address(RVA = "0x5385250", Offset = "0x5384250", VA = "0x5385250")]
 	public CrossContextChannel()
 	{
 	}

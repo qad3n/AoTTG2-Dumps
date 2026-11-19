@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ToggleButtonGroup
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 	public new class UxmlFactory : UxmlFactory<ToggleButtonGroup, UxmlTraits>
 	{
 		[Token(Token = "0x6000A54")]
-		[Address(RVA = "0x3254BC0", Offset = "0x32531C0", VA = "0x183254BC0")]
+		[Address(RVA = "0x6C44040", Offset = "0x6C43040", VA = "0x6C44040")]
 		public UxmlFactory()
 		{
 		}
@@ -40,13 +40,13 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 		private UxmlBoolAttributeDescription m_AllowEmptySelection;
 
 		[Token(Token = "0x6000A55")]
-		[Address(RVA = "0x3255070", Offset = "0x3253670", VA = "0x183255070", Slot = "4")]
+		[Address(RVA = "0x6C44080", Offset = "0x6C43080", VA = "0x6C44080", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000A56")]
-		[Address(RVA = "0x3255650", Offset = "0x3253C50", VA = "0x183255650")]
+		[Address(RVA = "0x6C441F0", Offset = "0x6C431F0", VA = "0x6C441F0")]
 		public UxmlTraits()
 		{
 		}
@@ -60,19 +60,19 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 		private readonly ToggleButtonGroup m_Group;
 
 		[Token(Token = "0x6000A57")]
-		[Address(RVA = "0x323EAC0", Offset = "0x323D0C0", VA = "0x18323EAC0")]
+		[Address(RVA = "0x6C42AC0", Offset = "0x6C41AC0", VA = "0x6C42AC0")]
 		public ButtonGroupContainer(ToggleButtonGroup group)
 		{
 		}
 
 		[Token(Token = "0x6000A58")]
-		[Address(RVA = "0x323EA60", Offset = "0x323D060", VA = "0x18323EA60", Slot = "139")]
+		[Address(RVA = "0x6C44300", Offset = "0x6C43300", VA = "0x6C44300", Slot = "139")]
 		internal override void OnChildAdded(VisualElement ve)
 		{
 		}
 
 		[Token(Token = "0x6000A59")]
-		[Address(RVA = "0x323EA90", Offset = "0x323D090", VA = "0x18323EA90", Slot = "140")]
+		[Address(RVA = "0x6C44320", Offset = "0x6C43320", VA = "0x6C44320", Slot = "140")]
 		internal override void OnChildRemoved(VisualElement ve)
 		{
 		}
@@ -151,13 +151,13 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 	public bool isMultipleSelection
 	{
 		[Token(Token = "0x6000A43")]
-		[Address(RVA = "0x324B0F0", Offset = "0x32496F0", VA = "0x18324B0F0")]
+		[Address(RVA = "0x6C41F70", Offset = "0x6C40F70", VA = "0x6C41F70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A44")]
-		[Address(RVA = "0x324B360", Offset = "0x3249960", VA = "0x18324B360")]
+		[Address(RVA = "0x6C41F80", Offset = "0x6C40F80", VA = "0x6C41F80")]
 		set
 		{
 		}
@@ -168,13 +168,13 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 	public bool allowEmptySelection
 	{
 		[Token(Token = "0x6000A45")]
-		[Address(RVA = "0x324B0E0", Offset = "0x32496E0", VA = "0x18324B0E0")]
+		[Address(RVA = "0x6C42370", Offset = "0x6C41370", VA = "0x6C42370")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A46")]
-		[Address(RVA = "0x324B100", Offset = "0x3249700", VA = "0x18324B100")]
+		[Address(RVA = "0x6C42380", Offset = "0x6C41380", VA = "0x6C42380")]
 		set
 		{
 		}
@@ -184,7 +184,7 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x6000A4A")]
-		[Address(RVA = "0x32229A0", Offset = "0x3220FA0", VA = "0x1832229A0", Slot = "138")]
+		[Address(RVA = "0x6C42B30", Offset = "0x6C41B30", VA = "0x6C42B30", Slot = "138")]
 		get
 		{
 			return null;
@@ -192,67 +192,67 @@ public class ToggleButtonGroup : BaseField<ToggleButtonGroupState>
 	}
 
 	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x324ADB0", Offset = "0x32493B0", VA = "0x18324ADB0")]
+	[Address(RVA = "0x6C42500", Offset = "0x6C41500", VA = "0x6C42500")]
 	public ToggleButtonGroup()
 	{
 	}
 
 	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x324ADF0", Offset = "0x32493F0", VA = "0x18324ADF0")]
+	[Address(RVA = "0x6C42510", Offset = "0x6C41510", VA = "0x6C42510")]
 	public ToggleButtonGroup(string label)
 	{
 	}
 
 	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x324AE30", Offset = "0x3249430", VA = "0x18324AE30")]
+	[Address(RVA = "0x6C42810", Offset = "0x6C41810", VA = "0x6C42810")]
 	public ToggleButtonGroup(string label, ToggleButtonGroupState toggleButtonGroupState)
 	{
 	}
 
 	[Token(Token = "0x6000A4B")]
-	[Address(RVA = "0x3249F60", Offset = "0x3248560", VA = "0x183249F60", Slot = "135")]
+	[Address(RVA = "0x6C42B40", Offset = "0x6C41B40", VA = "0x6C42B40", Slot = "135")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x324A690", Offset = "0x3248C90", VA = "0x18324A690", Slot = "158")]
+	[Address(RVA = "0x6C42D60", Offset = "0x6C41D60", VA = "0x6C42D60", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x3249FD0", Offset = "0x32485D0", VA = "0x183249FD0", Slot = "159")]
+	[Address(RVA = "0x6C42F10", Offset = "0x6C41F10", VA = "0x6C42F10", Slot = "159")]
 	public override void SetValueWithoutNotify(ToggleButtonGroupState newValue)
 	{
 	}
 
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0x3249440", Offset = "0x3247A40", VA = "0x183249440")]
+	[Address(RVA = "0x6C430F0", Offset = "0x6C420F0", VA = "0x6C430F0")]
 	private void OnButtonGroupContainerElementAdded(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x3249880", Offset = "0x3247E80", VA = "0x183249880")]
+	[Address(RVA = "0x6C435F0", Offset = "0x6C425F0", VA = "0x6C435F0")]
 	private void OnButtonGroupContainerElementRemoved(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6000A50")]
-	[Address(RVA = "0x324A1A0", Offset = "0x32487A0", VA = "0x18324A1A0")]
+	[Address(RVA = "0x6C42BA0", Offset = "0x6C41BA0", VA = "0x6C42BA0")]
 	private void UpdateButtonStates(ToggleButtonGroupState options)
 	{
 	}
 
 	[Token(Token = "0x6000A51")]
-	[Address(RVA = "0x3249C90", Offset = "0x3248290", VA = "0x183249C90")]
+	[Address(RVA = "0x6C438E0", Offset = "0x6C428E0", VA = "0x6C438E0")]
 	private void OnOptionChange(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x324A4A0", Offset = "0x3248AA0", VA = "0x18324A4A0")]
+	[Address(RVA = "0x6C43420", Offset = "0x6C42420", VA = "0x6C43420")]
 	private void UpdateButtonsStyling()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.CommandList
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -69,14 +69,14 @@ internal class CommandList : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x60028FA")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x6B7AEF0", Offset = "0x6B79EF0", VA = "0x6B7AEF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60028FB")]
-		[Address(RVA = "0x12BF400", Offset = "0x12BDA00", VA = "0x1812BF400")]
+		[Address(RVA = "0x6B7AF00", Offset = "0x6B79F00", VA = "0x6B7AF00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -84,61 +84,61 @@ internal class CommandList : IDisposable
 	}
 
 	[Token(Token = "0x60028F2")]
-	[Address(RVA = "0x3179D10", Offset = "0x3178310", VA = "0x183179D10")]
+	[Address(RVA = "0x6B79EA0", Offset = "0x6B78EA0", VA = "0x6B79EA0")]
 	public CommandList(IntPtr vertexDecl, IntPtr stencilState)
 	{
 	}
 
 	[Token(Token = "0x60028F3")]
-	[Address(RVA = "0x3179AA0", Offset = "0x31780A0", VA = "0x183179AA0")]
+	[Address(RVA = "0x6B7A070", Offset = "0x6B79070", VA = "0x6B7A070")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60028F4")]
-	[Address(RVA = "0x3179940", Offset = "0x3177F40", VA = "0x183179940")]
+	[Address(RVA = "0x6B7A130", Offset = "0x6B79130", VA = "0x6B7A130")]
 	public void Init(VisualElement owner, Material material, CommandFlags commandFlags)
 	{
 	}
 
 	[Token(Token = "0x60028F5")]
-	[Address(RVA = "0x31794A0", Offset = "0x3177AA0", VA = "0x1831794A0")]
+	[Address(RVA = "0x6B7A2A0", Offset = "0x6B792A0", VA = "0x6B7A2A0")]
 	public void Execute()
 	{
 	}
 
 	[Token(Token = "0x60028F6")]
-	[Address(RVA = "0x3179B60", Offset = "0x3178160", VA = "0x183179B60")]
+	[Address(RVA = "0x6B7A730", Offset = "0x6B79730", VA = "0x6B7A730")]
 	public void SetTexture(int name, Texture texture, int gpuDataOffset, Vector4 gpuData0, Vector4 gpuData1)
 	{
 	}
 
 	[Token(Token = "0x60028F7")]
-	[Address(RVA = "0x3179120", Offset = "0x3177720", VA = "0x183179120")]
+	[Address(RVA = "0x6B7A940", Offset = "0x6B79940", VA = "0x6B7A940")]
 	public void ApplyUserProps(MaterialPropertyBlock userProps)
 	{
 	}
 
 	[Token(Token = "0x60028F8")]
-	[Address(RVA = "0x3179050", Offset = "0x3177650", VA = "0x183179050")]
+	[Address(RVA = "0x6B7AB30", Offset = "0x6B79B30", VA = "0x6B7AB30")]
 	public void ApplyBatchProps()
 	{
 	}
 
 	[Token(Token = "0x60028F9")]
-	[Address(RVA = "0x3179320", Offset = "0x3177920", VA = "0x183179320")]
+	[Address(RVA = "0x6B7ACA0", Offset = "0x6B79CA0", VA = "0x6B7ACA0")]
 	public void DrawRanges(Utility.GPUBuffer<ushort> ib, Utility.GPUBuffer<Vertex> vb, NativeSlice<DrawBufferRange> ranges)
 	{
 	}
 
 	[Token(Token = "0x60028FC")]
-	[Address(RVA = "0x31792A0", Offset = "0x31778A0", VA = "0x1831792A0", Slot = "4")]
+	[Address(RVA = "0x6B7AF10", Offset = "0x6B79F10", VA = "0x6B7AF10", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60028FD")]
-	[Address(RVA = "0x3179210", Offset = "0x3177810", VA = "0x183179210")]
+	[Address(RVA = "0x6B7AFA0", Offset = "0x6B79FA0", VA = "0x6B7AFA0")]
 	protected void Dispose(bool disposing)
 	{
 	}

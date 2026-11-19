@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E8")]
+[Token(Token = "0x20000E9")]
 internal readonly struct RuntimeLabel
 {
-	[Token(Token = "0x400022A")]
+	[Token(Token = "0x4000233")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly int Index;
 
-	[Token(Token = "0x400022B")]
+	[Token(Token = "0x4000234")]
 	[FieldOffset(Offset = "0x4")]
 	public readonly int StackDepth;
 
-	[Token(Token = "0x400022C")]
+	[Token(Token = "0x4000235")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly int ContinuationStackDepth;
 
-	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x243EA00", Offset = "0x243D000", VA = "0x18243EA00")]
+	[Token(Token = "0x60005ED")]
+	[Address(RVA = "0x5DDB720", Offset = "0x5DDA720", VA = "0x5DDB720")]
 	public RuntimeLabel(int index, int continuationStackDepth, int stackDepth)
 	{
 	}
 
-	[Token(Token = "0x60005E3")]
-	[Address(RVA = "0x243E920", Offset = "0x243CF20", VA = "0x18243E920", Slot = "3")]
+	[Token(Token = "0x60005EE")]
+	[Address(RVA = "0x5DDB730", Offset = "0x5DDA730", VA = "0x5DDB730", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

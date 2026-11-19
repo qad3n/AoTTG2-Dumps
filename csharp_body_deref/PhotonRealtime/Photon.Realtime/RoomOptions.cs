@@ -58,13 +58,13 @@ public class RoomOptions
 	public bool IsVisible
 	{
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x56BB540", Offset = "0x56BA540", VA = "0x56BB540")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x56BB550", Offset = "0x56BA550", VA = "0x56BB550")]
 		set
 		{
 		}
@@ -74,13 +74,13 @@ public class RoomOptions
 	public bool IsOpen
 	{
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x56BB560", Offset = "0x56BA560", VA = "0x56BB560")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x56BB570", Offset = "0x56BA570", VA = "0x56BB570")]
 		set
 		{
 		}
@@ -90,13 +90,13 @@ public class RoomOptions
 	public bool CleanupCacheOnLeave
 	{
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x56BB580", Offset = "0x56BA580", VA = "0x56BB580")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x56BB590", Offset = "0x56BA590", VA = "0x56BB590")]
 		set
 		{
 		}
@@ -106,14 +106,14 @@ public class RoomOptions
 	public bool SuppressRoomEvents
 	{
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Address(RVA = "0x56BB5A0", Offset = "0x56BA5A0", VA = "0x56BB5A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0xA374F0", Offset = "0xA35AF0", VA = "0x180A374F0")]
+		[Address(RVA = "0x56BB5B0", Offset = "0x56BA5B0", VA = "0x56BB5B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -124,14 +124,14 @@ public class RoomOptions
 	public bool SuppressPlayerInfo
 	{
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x1AD8270", Offset = "0x1AD6870", VA = "0x181AD8270")]
+		[Address(RVA = "0x56BB5C0", Offset = "0x56BA5C0", VA = "0x56BB5C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x1D263A0", Offset = "0x1D249A0", VA = "0x181D263A0")]
+		[Address(RVA = "0x56BB5D0", Offset = "0x56BA5D0", VA = "0x56BB5D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -142,14 +142,14 @@ public class RoomOptions
 	public bool PublishUserId
 	{
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x1D26370", Offset = "0x1D24970", VA = "0x181D26370")]
+		[Address(RVA = "0x56BB5E0", Offset = "0x56BA5E0", VA = "0x56BB5E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x1D26390", Offset = "0x1D24990", VA = "0x181D26390")]
+		[Address(RVA = "0x56BB5F0", Offset = "0x56BA5F0", VA = "0x56BB5F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -160,14 +160,14 @@ public class RoomOptions
 	public bool DeleteNullProperties
 	{
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x1AD8260", Offset = "0x1AD6860", VA = "0x181AD8260")]
+		[Address(RVA = "0x56BB600", Offset = "0x56BA600", VA = "0x56BB600")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x1D26380", Offset = "0x1D24980", VA = "0x181D26380")]
+		[Address(RVA = "0x56BB610", Offset = "0x56BA610", VA = "0x56BB610")]
 		[CompilerGenerated]
 		set
 		{
@@ -178,20 +178,20 @@ public class RoomOptions
 	public bool BroadcastPropsChangeToAll
 	{
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x1CC5A60", Offset = "0x1CC4060", VA = "0x181CC5A60")]
+		[Address(RVA = "0x56BB620", Offset = "0x56BA620", VA = "0x56BB620")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x1CC5C30", Offset = "0x1CC4230", VA = "0x181CC5C30")]
+		[Address(RVA = "0x56BB630", Offset = "0x56BA630", VA = "0x56BB630")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x1D26310", Offset = "0x1D24910", VA = "0x181D26310")]
+	[Address(RVA = "0x56B8C70", Offset = "0x56B7C70", VA = "0x56B8C70")]
 	public RoomOptions()
 	{
 	}

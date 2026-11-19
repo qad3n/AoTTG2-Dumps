@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemRegistry
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,14 +14,14 @@ namespace UnityEngine.AdaptivePerformance.Provider;
 internal static class AdaptivePerformanceSubsystemRegistry
 {
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x2E943E0", Offset = "0x2E929E0", VA = "0x182E943E0")]
+	[Address(RVA = "0x6892D50", Offset = "0x6891D50", VA = "0x6892D50")]
 	public static AdaptivePerformanceSubsystemDescriptor RegisterDescriptor(AdaptivePerformanceSubsystemDescriptor.Cinfo cinfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x2E94340", Offset = "0x2E92940", VA = "0x182E94340")]
+	[Address(RVA = "0x6892EC0", Offset = "0x6891EC0", VA = "0x6892EC0")]
 	public static List<AdaptivePerformanceSubsystemDescriptor> GetRegisteredDescriptors()
 	{
 		return null;

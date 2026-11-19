@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.BatchRendererGroup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,145 +17,145 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Rendering;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000384")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+[Token(Token = "0x20003C0")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/Math/Matrix4x4.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 public class BatchRendererGroup : IDisposable
 {
-	[Token(Token = "0x2000385")]
+	[Token(Token = "0x20003C1")]
 	public delegate JobHandle OnPerformCulling(BatchRendererGroup rendererGroup, BatchCullingContext cullingContext, BatchCullingOutput cullingOutput, IntPtr userContext);
 
-	[Token(Token = "0x2000386")]
+	[Token(Token = "0x20003C2")]
 	public delegate void OnFinishedCulling(IntPtr customCullingResult);
 
-	[Token(Token = "0x2000387")]
+	[Token(Token = "0x20003C3")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x6001596")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Token(Token = "0x600174C")]
+		[Address(RVA = "0x6965CB0", Offset = "0x6964CB0", VA = "0x6965CB0")]
 		public static IntPtr ConvertToNative(BatchRendererGroup batchRendererGroup)
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x4000A99")]
+	[Token(Token = "0x4000C1D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IntPtr m_GroupHandle;
 
-	[Token(Token = "0x4000A9A")]
+	[Token(Token = "0x4000C1E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private OnPerformCulling m_PerformCulling;
 
-	[Token(Token = "0x4000A9B")]
+	[Token(Token = "0x4000C1F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private OnFinishedCulling m_FinishedCulling;
 
-	[Token(Token = "0x17000328")]
+	[Token(Token = "0x170003BA")]
 	public static BatchBufferTarget BufferTarget
 	{
-		[Token(Token = "0x6001585")]
-		[Address(RVA = "0x2F605A0", Offset = "0x2F5EBA0", VA = "0x182F605A0")]
+		[Token(Token = "0x600173B")]
+		[Address(RVA = "0x6965600", Offset = "0x6964600", VA = "0x6965600")]
 		get
 		{
 			return default(BatchBufferTarget);
 		}
 	}
 
-	[Token(Token = "0x600157A")]
-	[Address(RVA = "0x2F61020", Offset = "0x2F5F620", VA = "0x182F61020")]
+	[Token(Token = "0x6001730")]
+	[Address(RVA = "0x6964D70", Offset = "0x6963D70", VA = "0x6964D70")]
 	public BatchRendererGroup(BatchRendererGroupCreateInfo info)
 	{
 	}
 
-	[Token(Token = "0x600157B")]
-	[Address(RVA = "0x2F60550", Offset = "0x2F5EB50", VA = "0x182F60550", Slot = "4")]
+	[Token(Token = "0x6001731")]
+	[Address(RVA = "0x6964E40", Offset = "0x6963E40", VA = "0x6964E40", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600157C")]
-	[Address(RVA = "0x2F60420", Offset = "0x2F5EA20", VA = "0x182F60420")]
+	[Token(Token = "0x6001732")]
+	[Address(RVA = "0x6964EB0", Offset = "0x6963EB0", VA = "0x6964EB0")]
 	private BatchID AddDrawCommandBatch(IntPtr values, int count, GraphicsBufferHandle buffer, uint bufferOffset, uint windowSize)
 	{
 		return default(BatchID);
 	}
 
-	[Token(Token = "0x600157D")]
-	[Address(RVA = "0x2F602E0", Offset = "0x2F5E8E0", VA = "0x182F602E0")]
+	[Token(Token = "0x6001733")]
+	[Address(RVA = "0x6964FB0", Offset = "0x6963FB0", VA = "0x6964FB0")]
 	public BatchID AddBatch(NativeArray<MetadataValue> batchMetadata, GraphicsBufferHandle buffer)
 	{
 		return default(BatchID);
 	}
 
-	[Token(Token = "0x600157E")]
-	[Address(RVA = "0x2F60E60", Offset = "0x2F5F460", VA = "0x182F60E60")]
+	[Token(Token = "0x6001734")]
+	[Address(RVA = "0x6965090", Offset = "0x6964090", VA = "0x6965090")]
 	private void RemoveDrawCommandBatch(BatchID batchID)
 	{
 	}
 
-	[Token(Token = "0x600157F")]
-	[Address(RVA = "0x2F60DB0", Offset = "0x2F5F3B0", VA = "0x182F60DB0")]
+	[Token(Token = "0x6001735")]
+	[Address(RVA = "0x6965130", Offset = "0x6964130", VA = "0x6965130")]
 	public void RemoveBatch(BatchID batchID)
 	{
 	}
 
-	[Token(Token = "0x6001580")]
-	[Address(RVA = "0x2F60AD0", Offset = "0x2F5F0D0", VA = "0x182F60AD0")]
+	[Token(Token = "0x6001736")]
+	[Address(RVA = "0x6965190", Offset = "0x6964190", VA = "0x6965190")]
 	internal void RegisterMaterials(ReadOnlySpan<EntityId> materialID, Span<BatchMaterialID> batchMaterialID)
 	{
 	}
 
-	[Token(Token = "0x6001581")]
-	[Address(RVA = "0x2F60F10", Offset = "0x2F5F510", VA = "0x182F60F10")]
+	[Token(Token = "0x6001737")]
+	[Address(RVA = "0x6965310", Offset = "0x6964310", VA = "0x6965310")]
 	public void UnregisterMaterial(BatchMaterialID material)
 	{
 	}
 
-	[Token(Token = "0x6001582")]
-	[Address(RVA = "0x2F60C70", Offset = "0x2F5F270", VA = "0x182F60C70")]
+	[Token(Token = "0x6001738")]
+	[Address(RVA = "0x69653B0", Offset = "0x69643B0", VA = "0x69653B0")]
 	internal void RegisterMeshes(ReadOnlySpan<EntityId> meshID, Span<BatchMeshID> batchMeshID)
 	{
 	}
 
-	[Token(Token = "0x6001583")]
-	[Address(RVA = "0x2F60FC0", Offset = "0x2F5F5C0", VA = "0x182F60FC0")]
+	[Token(Token = "0x6001739")]
+	[Address(RVA = "0x6965530", Offset = "0x6964530", VA = "0x6965530")]
 	public void UnregisterMesh(BatchMeshID mesh)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001584")]
-	[Address(RVA = "0x2F605A0", Offset = "0x2F5EBA0", VA = "0x182F605A0")]
+	[Token(Token = "0x600173A")]
+	[Address(RVA = "0x69655D0", Offset = "0x69645D0", VA = "0x69655D0")]
 	private static extern BatchBufferTarget GetBufferTarget();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001586")]
-	[Address(RVA = "0x2F604C0", Offset = "0x2F5EAC0", VA = "0x182F604C0")]
+	[Token(Token = "0x600173C")]
+	[Address(RVA = "0x6964E00", Offset = "0x6963E00", VA = "0x6964E00")]
 	private unsafe static extern IntPtr Create([UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] BatchRendererGroup group, void* userContext);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001587")]
-	[Address(RVA = "0x2F60510", Offset = "0x2F5EB10", VA = "0x182F60510")]
+	[Token(Token = "0x600173D")]
+	[Address(RVA = "0x6964E80", Offset = "0x6963E80", VA = "0x6964E80")]
 	private static extern void Destroy(IntPtr groupHandle);
 
-	[Token(Token = "0x6001588")]
-	[Address(RVA = "0x2F60630", Offset = "0x2F5EC30", VA = "0x182F60630")]
+	[Token(Token = "0x600173E")]
+	[Address(RVA = "0x6965630", Offset = "0x6964630", VA = "0x6965630")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnPerformCulling(BatchRendererGroup group, ref BatchRendererCullingOutput context, ref LODParameters lodParameters, IntPtr userContext)
 	{
 	}
 
-	[Token(Token = "0x6001589")]
-	[Address(RVA = "0x2F605D0", Offset = "0x2F5EBD0", VA = "0x182F605D0")]
+	[Token(Token = "0x600173F")]
+	[Address(RVA = "0x6965980", Offset = "0x6964980", VA = "0x6965980")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnFinishedCulling(BatchRendererGroup group, IntPtr customCullingResult)
 	{
 	}
 
-	[Token(Token = "0x600158A")]
-	[Address(RVA = "0x2F60A20", Offset = "0x2F5F020", VA = "0x182F60A20")]
+	[Token(Token = "0x6001740")]
+	[Address(RVA = "0x6965A50", Offset = "0x6964A50", VA = "0x6965A50")]
 	[UnityEngine.Bindings.FreeFunction("BatchRendererGroup::OcclusionTestAABB", IsThreadSafe = true)]
 	internal static bool OcclusionTestAABB(IntPtr occlusionBuffer, Bounds aabb)
 	{
@@ -163,37 +163,37 @@ public class BatchRendererGroup : IDisposable
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600158B")]
-	[Address(RVA = "0x2F603D0", Offset = "0x2F5E9D0", VA = "0x182F603D0")]
+	[Token(Token = "0x6001741")]
+	[Address(RVA = "0x6964F50", Offset = "0x6963F50", VA = "0x6964F50")]
 	private static extern void AddDrawCommandBatch_Injected(IntPtr _unity_self, IntPtr values, int count, [In] ref GraphicsBufferHandle buffer, uint bufferOffset, uint windowSize, out BatchID ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600158C")]
-	[Address(RVA = "0x2F60E10", Offset = "0x2F5F410", VA = "0x182F60E10")]
+	[Token(Token = "0x6001742")]
+	[Address(RVA = "0x69650F0", Offset = "0x69640F0", VA = "0x69650F0")]
 	private static extern void RemoveDrawCommandBatch_Injected(IntPtr _unity_self, [In] ref BatchID batchID);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600158D")]
-	[Address(RVA = "0x2F60A70", Offset = "0x2F5F070", VA = "0x182F60A70")]
+	[Token(Token = "0x6001743")]
+	[Address(RVA = "0x69652D0", Offset = "0x69642D0", VA = "0x69652D0")]
 	private static extern void RegisterMaterials_Injected(IntPtr _unity_self, ref ManagedSpanWrapper materialID, ref ManagedSpanWrapper batchMaterialID);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600158E")]
-	[Address(RVA = "0x2F60EC0", Offset = "0x2F5F4C0", VA = "0x182F60EC0")]
+	[Token(Token = "0x6001744")]
+	[Address(RVA = "0x6965370", Offset = "0x6964370", VA = "0x6965370")]
 	private static extern void UnregisterMaterial_Injected(IntPtr _unity_self, [In] ref BatchMaterialID material);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600158F")]
-	[Address(RVA = "0x2F60C10", Offset = "0x2F5F210", VA = "0x182F60C10")]
+	[Token(Token = "0x6001745")]
+	[Address(RVA = "0x69654F0", Offset = "0x69644F0", VA = "0x69654F0")]
 	private static extern void RegisterMeshes_Injected(IntPtr _unity_self, ref ManagedSpanWrapper meshID, ref ManagedSpanWrapper batchMeshID);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001590")]
-	[Address(RVA = "0x2F60F70", Offset = "0x2F5F570", VA = "0x182F60F70")]
+	[Token(Token = "0x6001746")]
+	[Address(RVA = "0x6965590", Offset = "0x6964590", VA = "0x6965590")]
 	private static extern void UnregisterMesh_Injected(IntPtr _unity_self, [In] ref BatchMeshID mesh);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001591")]
-	[Address(RVA = "0x2F609D0", Offset = "0x2F5EFD0", VA = "0x182F609D0")]
+	[Token(Token = "0x6001747")]
+	[Address(RVA = "0x6965A90", Offset = "0x6964A90", VA = "0x6965A90")]
 	private static extern bool OcclusionTestAABB_Injected(IntPtr occlusionBuffer, [In] ref Bounds aabb);
 }

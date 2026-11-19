@@ -24,7 +24,7 @@ internal class Datatype_QNameXdr : Datatype_anySimpleType
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x60011C2")]
-		[Address(RVA = "0x1B56090", Offset = "0x1B54690", VA = "0x181B56090", Slot = "5")]
+		[Address(RVA = "0x61636D0", Offset = "0x61626D0", VA = "0x61636D0", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -35,7 +35,7 @@ internal class Datatype_QNameXdr : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x60011C4")]
-		[Address(RVA = "0x279AF00", Offset = "0x2799500", VA = "0x18279AF00", Slot = "4")]
+		[Address(RVA = "0x6163930", Offset = "0x6162930", VA = "0x6163930", Slot = "4")]
 		get
 		{
 			return null;
@@ -46,7 +46,7 @@ internal class Datatype_QNameXdr : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60011C5")]
-		[Address(RVA = "0x279AEB0", Offset = "0x27994B0", VA = "0x18279AEB0", Slot = "26")]
+		[Address(RVA = "0x61639A0", Offset = "0x61629A0", VA = "0x61639A0", Slot = "26")]
 		get
 		{
 			return null;
@@ -54,14 +54,14 @@ internal class Datatype_QNameXdr : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x60011C3")]
-	[Address(RVA = "0x279AB50", Offset = "0x2799150", VA = "0x18279AB50", Slot = "6")]
+	[Address(RVA = "0x61636E0", Offset = "0x61626E0", VA = "0x61636E0", Slot = "6")]
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011C6")]
-	[Address(RVA = "0x279AE30", Offset = "0x2799430", VA = "0x18279AE30")]
+	[Address(RVA = "0x61560D0", Offset = "0x61550D0", VA = "0x61560D0")]
 	public Datatype_QNameXdr()
 	{
 	}

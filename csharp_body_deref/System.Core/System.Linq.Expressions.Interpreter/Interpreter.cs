@@ -11,34 +11,34 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000166")]
+[Token(Token = "0x2000167")]
 internal sealed class Interpreter
 {
-	[Token(Token = "0x40002F7")]
+	[Token(Token = "0x4000300")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly object NoValue;
 
-	[Token(Token = "0x40002F8")]
+	[Token(Token = "0x4000301")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly InstructionArray _instructions;
 
-	[Token(Token = "0x40002F9")]
+	[Token(Token = "0x4000302")]
 	[FieldOffset(Offset = "0x38")]
 	internal readonly object[] _objects;
 
-	[Token(Token = "0x40002FA")]
+	[Token(Token = "0x4000303")]
 	[FieldOffset(Offset = "0x40")]
 	internal readonly RuntimeLabel[] _labels;
 
-	[Token(Token = "0x40002FB")]
+	[Token(Token = "0x4000304")]
 	[FieldOffset(Offset = "0x48")]
 	internal readonly DebugInfo[] _debugInfos;
 
-	[Token(Token = "0x170001BE")]
+	[Token(Token = "0x170001C0")]
 	internal string Name
 	{
-		[Token(Token = "0x60007FA")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Token(Token = "0x6000805")]
+		[Address(RVA = "0x5DF0BE0", Offset = "0x5DEFBE0", VA = "0x5DF0BE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,11 +46,11 @@ internal sealed class Interpreter
 		}
 	}
 
-	[Token(Token = "0x170001BF")]
+	[Token(Token = "0x170001C1")]
 	internal int LocalCount
 	{
-		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Token(Token = "0x6000806")]
+		[Address(RVA = "0x5DF0BF0", Offset = "0x5DEFBF0", VA = "0x5DF0BF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -58,33 +58,33 @@ internal sealed class Interpreter
 		}
 	}
 
-	[Token(Token = "0x170001C0")]
+	[Token(Token = "0x170001C2")]
 	internal int ClosureSize
 	{
-		[Token(Token = "0x60007FC")]
-		[Address(RVA = "0x244FCB0", Offset = "0x244E2B0", VA = "0x18244FCB0")]
+		[Token(Token = "0x6000807")]
+		[Address(RVA = "0x5DF0C00", Offset = "0x5DEFC00", VA = "0x5DF0C00")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001C1")]
+	[Token(Token = "0x170001C3")]
 	internal InstructionArray Instructions
 	{
-		[Token(Token = "0x60007FD")]
-		[Address(RVA = "0x152F080", Offset = "0x152D680", VA = "0x18152F080")]
+		[Token(Token = "0x6000808")]
+		[Address(RVA = "0x5DF0C40", Offset = "0x5DEFC40", VA = "0x5DF0C40")]
 		get
 		{
 			return default(InstructionArray);
 		}
 	}
 
-	[Token(Token = "0x170001C2")]
+	[Token(Token = "0x170001C4")]
 	internal Dictionary<ParameterExpression, LocalVariable> ClosureVariables
 	{
-		[Token(Token = "0x60007FE")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Token(Token = "0x6000809")]
+		[Address(RVA = "0x5DF0C60", Offset = "0x5DEFC60", VA = "0x5DF0C60")]
 		[CompilerGenerated]
 		get
 		{
@@ -92,15 +92,15 @@ internal sealed class Interpreter
 		}
 	}
 
-	[Token(Token = "0x60007F9")]
-	[Address(RVA = "0x244FC00", Offset = "0x244E200", VA = "0x18244FC00")]
+	[Token(Token = "0x6000804")]
+	[Address(RVA = "0x5DF0B20", Offset = "0x5DEFB20", VA = "0x5DF0B20")]
 	internal Interpreter(string name, LocalVariables locals, InstructionArray instructions, DebugInfo[] debugInfos)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x60007FF")]
-	[Address(RVA = "0x244FB10", Offset = "0x244E110", VA = "0x18244FB10")]
+	[Token(Token = "0x600080A")]
+	[Address(RVA = "0x5DF0C70", Offset = "0x5DEFC70", VA = "0x5DF0C70")]
 	public void Run(InterpretedFrame frame)
 	{
 	}

@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001C9")]
+[Token(Token = "0x20001CA")]
 public class WaitForSecondsRealtime : CustomYieldInstruction
 {
-	[Token(Token = "0x400065F")]
+	[Token(Token = "0x4000664")]
 	[FieldOffset(Offset = "0x14")]
 	private float m_WaitUntilTime;
 
-	[Token(Token = "0x1700024D")]
+	[Token(Token = "0x17000252")]
 	public float waitTime
 	{
-		[Token(Token = "0x6000EE7")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Token(Token = "0x6000EF9")]
+		[Address(RVA = "0x6923F90", Offset = "0x6922F90", VA = "0x6923F90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000EE8")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Token(Token = "0x6000EFA")]
+		[Address(RVA = "0x6923FA0", Offset = "0x6922FA0", VA = "0x6923FA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700024E")]
+	[Token(Token = "0x17000253")]
 	public override bool keepWaiting
 	{
-		[Token(Token = "0x6000EE9")]
-		[Address(RVA = "0x2F2D5A0", Offset = "0x2F2BBA0", VA = "0x182F2D5A0", Slot = "7")]
+		[Token(Token = "0x6000EFB")]
+		[Address(RVA = "0x6923FB0", Offset = "0x6922FB0", VA = "0x6923FB0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000EEA")]
-	[Address(RVA = "0x2F2D570", Offset = "0x2F2BB70", VA = "0x182F2D570")]
+	[Token(Token = "0x6000EFC")]
+	[Address(RVA = "0x6924020", Offset = "0x6923020", VA = "0x6924020")]
 	public WaitForSecondsRealtime(float time)
 	{
 	}
 
-	[Token(Token = "0x6000EEB")]
-	[Address(RVA = "0x2F2D560", Offset = "0x2F2BB60", VA = "0x182F2D560", Slot = "8")]
+	[Token(Token = "0x6000EFD")]
+	[Address(RVA = "0x6924050", Offset = "0x6923050", VA = "0x6924050", Slot = "8")]
 	public override void Reset()
 	{
 	}

@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200021B")]
+[Token(Token = "0x200021C")]
 internal sealed class RuntimeVariables : IRuntimeVariables
 {
-	[Token(Token = "0x40003F5")]
+	[Token(Token = "0x40003FE")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly IStrongBox[] _boxes;
 
-	[Token(Token = "0x6000AA6")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000AB1")]
+	[Address(RVA = "0x5E17550", Offset = "0x5E16550", VA = "0x5E17550")]
 	private RuntimeVariables(IStrongBox[] boxes)
 	{
 	}
 
-	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x247E220", Offset = "0x247C820", VA = "0x18247E220")]
+	[Token(Token = "0x6000AB2")]
+	[Address(RVA = "0x5E0CA30", Offset = "0x5E0BA30", VA = "0x5E0CA30")]
 	internal static IRuntimeVariables Create(IStrongBox[] boxes)
 	{
 		return null;

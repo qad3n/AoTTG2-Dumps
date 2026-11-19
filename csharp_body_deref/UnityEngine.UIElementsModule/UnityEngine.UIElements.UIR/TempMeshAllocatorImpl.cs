@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.TempMeshAllocatorImpl
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,89 +14,89 @@ using Unity.Collections;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005D7")]
+[Token(Token = "0x20005C2")]
 internal class TempMeshAllocatorImpl : IDisposable
 {
-	[Token(Token = "0x20005D8")]
+	[Token(Token = "0x20005C3")]
 	private struct ThreadData
 	{
-		[Token(Token = "0x40015B1")]
+		[Token(Token = "0x40014F3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public List<IntPtr> allocations;
 	}
 
-	[Token(Token = "0x40015AC")]
+	[Token(Token = "0x40014EE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private GCHandle m_GCHandle;
 
-	[Token(Token = "0x40015AD")]
+	[Token(Token = "0x40014EF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private ThreadData[] m_ThreadData;
 
-	[Token(Token = "0x40015AE")]
+	[Token(Token = "0x40014F0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private TempAllocator<Vertex> m_VertexPool;
 
-	[Token(Token = "0x40015AF")]
+	[Token(Token = "0x40014F1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private TempAllocator<ushort> m_IndexPool;
 
-	[Token(Token = "0x17000AA6")]
+	[Token(Token = "0x17000A9A")]
 	protected bool disposed
 	{
-		[Token(Token = "0x6002B60")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Token(Token = "0x6002AFF")]
+		[Address(RVA = "0x6BAAC20", Offset = "0x6BA9C20", VA = "0x6BAAC20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002B61")]
-		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
+		[Token(Token = "0x6002B00")]
+		[Address(RVA = "0x6BAAC30", Offset = "0x6BA9C30", VA = "0x6BAAC30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002B5B")]
-	[Address(RVA = "0x31B0D60", Offset = "0x31AF360", VA = "0x1831B0D60")]
+	[Token(Token = "0x6002AFA")]
+	[Address(RVA = "0x6BAA590", Offset = "0x6BA9590", VA = "0x6BAA590")]
 	public TempMeshAllocatorImpl()
 	{
 	}
 
-	[Token(Token = "0x6002B5C")]
-	[Address(RVA = "0x31B0BF0", Offset = "0x31AF1F0", VA = "0x1831B0BF0")]
+	[Token(Token = "0x6002AFB")]
+	[Address(RVA = "0x6BAA760", Offset = "0x6BA9760", VA = "0x6BAA760")]
 	public void CreateNativeHandle(out TempMeshAllocator allocator)
 	{
 	}
 
-	[Token(Token = "0x6002B5D")]
+	[Token(Token = "0x6002AFC")]
 	private NativeSlice<T> Allocate<T>(int count, int alignment) where T : struct
 	{
 		return default(NativeSlice<T>);
 	}
 
-	[Token(Token = "0x6002B5E")]
-	[Address(RVA = "0x31B0770", Offset = "0x31AED70", VA = "0x1831B0770")]
+	[Token(Token = "0x6002AFD")]
+	[Address(RVA = "0x6BAA770", Offset = "0x6BA9770", VA = "0x6BAA770")]
 	public void AllocateTempMesh(int vertexCount, int indexCount, out NativeSlice<Vertex> vertices, out NativeSlice<ushort> indices)
 	{
 	}
 
-	[Token(Token = "0x6002B5F")]
-	[Address(RVA = "0x31B0A00", Offset = "0x31AF000", VA = "0x1831B0A00")]
+	[Token(Token = "0x6002AFE")]
+	[Address(RVA = "0x6BAA9F0", Offset = "0x6BA99F0", VA = "0x6BAA9F0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6002B62")]
-	[Address(RVA = "0x31B0C00", Offset = "0x31AF200", VA = "0x1831B0C00", Slot = "4")]
+	[Token(Token = "0x6002B01")]
+	[Address(RVA = "0x6BAAC40", Offset = "0x6BA9C40", VA = "0x6BAAC40", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6002B63")]
-	[Address(RVA = "0x31B0CC0", Offset = "0x31AF2C0", VA = "0x1831B0CC0")]
+	[Token(Token = "0x6002B02")]
+	[Address(RVA = "0x6BAACA0", Offset = "0x6BA9CA0", VA = "0x6BAACA0")]
 	protected void Dispose(bool disposing)
 	{
 	}

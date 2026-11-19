@@ -17,13 +17,13 @@ internal abstract class QueryExpression
 	internal QueryOperator Operator;
 
 	[Token(Token = "0x6000E55")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Address(RVA = "0x562C1E0", Offset = "0x562B1E0", VA = "0x562C1E0")]
 	public QueryExpression(QueryOperator @operator)
 	{
 	}
 
 	[Token(Token = "0x6000E56")]
-	[Address(RVA = "0x1CA26C0", Offset = "0x1CA0CC0", VA = "0x181CA26C0")]
+	[Address(RVA = "0x562C200", Offset = "0x562B200", VA = "0x562C200")]
 	public bool IsMatch(JToken root, JToken t)
 	{
 		return default(bool);

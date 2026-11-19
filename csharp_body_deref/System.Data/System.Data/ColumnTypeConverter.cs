@@ -23,55 +23,55 @@ internal sealed class ColumnTypeConverter : TypeConverter
 	private StandardValuesCollection _values;
 
 	[Token(Token = "0x6000338")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5E8A740", Offset = "0x5E89740", VA = "0x5E8A740")]
 	public ColumnTypeConverter()
 	{
 	}
 
 	[Token(Token = "0x6000339")]
-	[Address(RVA = "0x24E4B80", Offset = "0x24E3180", VA = "0x1824E4B80", Slot = "5")]
+	[Address(RVA = "0x5E8A750", Offset = "0x5E89750", VA = "0x5E8A750", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600033A")]
-	[Address(RVA = "0x24E4E10", Offset = "0x24E3410", VA = "0x1824E4E10", Slot = "7")]
+	[Address(RVA = "0x5E8A7F0", Offset = "0x5E897F0", VA = "0x5E8A7F0", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600033B")]
-	[Address(RVA = "0x24E4B10", Offset = "0x24E3110", VA = "0x1824E4B10", Slot = "4")]
+	[Address(RVA = "0x5E8AD20", Offset = "0x5E89D20", VA = "0x5E8AD20", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x24E4C10", Offset = "0x24E3210", VA = "0x1824E4C10", Slot = "6")]
+	[Address(RVA = "0x5E8ADA0", Offset = "0x5E89DA0", VA = "0x5E8ADA0", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x24E5350", Offset = "0x24E3950", VA = "0x1824E5350", Slot = "12")]
+	[Address(RVA = "0x5E8AFC0", Offset = "0x5E89FC0", VA = "0x5E8AFC0", Slot = "12")]
 	public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+	[Address(RVA = "0x5E8B0F0", Offset = "0x5E8A0F0", VA = "0x5E8B0F0", Slot = "13")]
 	public override bool GetStandardValuesExclusive(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
+	[Address(RVA = "0x5E8B100", Offset = "0x5E8A100", VA = "0x5E8B100", Slot = "14")]
 	public override bool GetStandardValuesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005DD")]
+[Token(Token = "0x20005CD")]
 internal class VectorImageRenderInfoPool : LinkedPool<VectorImageRenderInfo>
 {
-	[Token(Token = "0x6002B7F")]
-	[Address(RVA = "0x31B7280", Offset = "0x31B5880", VA = "0x1831B7280")]
+	[Token(Token = "0x6002B4A")]
+	[Address(RVA = "0x6BAFBE0", Offset = "0x6BAEBE0", VA = "0x6BAFBE0")]
 	public VectorImageRenderInfoPool()
 	{
 	}

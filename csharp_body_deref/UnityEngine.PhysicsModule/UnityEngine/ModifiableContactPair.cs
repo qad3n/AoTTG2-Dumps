@@ -12,8 +12,8 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000010")]
-[UnityEngine.Bindings.NativeHeader("Modules/Physics/PhysicsCollisionGeometry.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/PhysXContactModification.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Physics/PhysicsCollisionGeometry.h")]
 public struct ModifiableContactPair
 {
 	[Token(Token = "0x4000021")]

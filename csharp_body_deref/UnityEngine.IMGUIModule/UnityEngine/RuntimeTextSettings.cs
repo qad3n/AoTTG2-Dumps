@@ -21,7 +21,7 @@ internal class RuntimeTextSettings : TextSettings
 	internal static RuntimeTextSettings defaultTextSettings
 	{
 		[Token(Token = "0x6000295")]
-		[Address(RVA = "0x2FA9ED0", Offset = "0x2FA84D0", VA = "0x182FA9ED0")]
+		[Address(RVA = "0x69A30F0", Offset = "0x69A20F0", VA = "0x69A30F0")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ internal class RuntimeTextSettings : TextSettings
 	}
 
 	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x2FA9EC0", Offset = "0x2FA84C0", VA = "0x182FA9EC0")]
+	[Address(RVA = "0x69A31B0", Offset = "0x69A21B0", VA = "0x69A31B0")]
 	public RuntimeTextSettings()
 	{
 	}

@@ -5,176 +5,114 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
-using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200066C")]
+[Token(Token = "0x2000645")]
 internal static class PathInternal
 {
-	[Token(Token = "0x40019BB")]
+	[Token(Token = "0x400191E")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly bool s_isCaseSensitive;
 
-	[Token(Token = "0x170007EC")]
-	internal static StringComparison StringComparison
-	{
-		[Token(Token = "0x600310F")]
-		[Address(RVA = "0x1AD9DD0", Offset = "0x1AD83D0", VA = "0x181AD9DD0")]
-		get
-		{
-			return default(StringComparison);
-		}
-	}
-
-	[Token(Token = "0x170007ED")]
+	[Token(Token = "0x170007E9")]
 	internal static bool IsCaseSensitive
 	{
-		[Token(Token = "0x6003110")]
-		[Address(RVA = "0x1AD9D80", Offset = "0x1AD8380", VA = "0x181AD9D80")]
+		[Token(Token = "0x60030CE")]
+		[Address(RVA = "0x5468600", Offset = "0x5467600", VA = "0x5468600")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60030FD")]
-	[Address(RVA = "0x1AD98C0", Offset = "0x1AD7EC0", VA = "0x181AD98C0")]
-	internal static bool IsValidDriveChar(char value)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x60030FE")]
-	[Address(RVA = "0x1AD89B0", Offset = "0x1AD6FB0", VA = "0x181AD89B0")]
-	internal static bool EndsWithPeriodOrSpace(string path)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x60030FF")]
-	[Address(RVA = "0x1AD8A10", Offset = "0x1AD7010", VA = "0x181AD8A10")]
-	internal static string EnsureExtendedPrefixIfNeeded(string path)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6003100")]
-	[Address(RVA = "0x1AD8AB0", Offset = "0x1AD70B0", VA = "0x181AD8AB0")]
-	internal static string EnsureExtendedPrefix(string path)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6003101")]
-	[Address(RVA = "0x1AD9590", Offset = "0x1AD7B90", VA = "0x181AD9590")]
-	internal static bool IsDevice(ReadOnlySpan<char> path)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6003102")]
-	[Address(RVA = "0x1AD94A0", Offset = "0x1AD7AA0", VA = "0x181AD94A0")]
-	internal static bool IsDeviceUNC(ReadOnlySpan<char> path)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6003103")]
-	[Address(RVA = "0x1AD97D0", Offset = "0x1AD7DD0", VA = "0x181AD97D0")]
-	internal static bool IsExtended(ReadOnlySpan<char> path)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6003104")]
-	[Address(RVA = "0x1AD9120", Offset = "0x1AD7720", VA = "0x181AD9120")]
+	[Token(Token = "0x60030C3")]
+	[Address(RVA = "0x5463B10", Offset = "0x5462B10", VA = "0x5463B10")]
 	internal static int GetRootLength(ReadOnlySpan<char> path)
 	{
 		return default(int);
 	}
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003105")]
-	[Address(RVA = "0x1AD9730", Offset = "0x1AD7D30", VA = "0x181AD9730")]
+	[Token(Token = "0x60030C4")]
+	[Address(RVA = "0x5463AE0", Offset = "0x5462AE0", VA = "0x5463AE0")]
 	internal static bool IsDirectorySeparator(char c)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003106")]
-	[Address(RVA = "0x1AD9750", Offset = "0x1AD7D50", VA = "0x181AD9750")]
+	[Token(Token = "0x60030C5")]
+	[Address(RVA = "0x5467F40", Offset = "0x5466F40", VA = "0x5467F40")]
 	internal static bool IsEffectivelyEmpty(ReadOnlySpan<char> path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003107")]
-	[Address(RVA = "0x1AD8920", Offset = "0x1AD6F20", VA = "0x181AD8920")]
+	[Token(Token = "0x60030C6")]
+	[Address(RVA = "0x5463A70", Offset = "0x5462A70", VA = "0x5463A70")]
 	internal static bool EndsInDirectorySeparator(ReadOnlySpan<char> path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003108")]
-	[Address(RVA = "0x1AD98E0", Offset = "0x1AD7EE0", VA = "0x181AD98E0")]
+	[Token(Token = "0x60030C7")]
+	[Address(RVA = "0x5467F90", Offset = "0x5466F90", VA = "0x5467F90")]
 	internal static bool StartsWithDirectorySeparator(ReadOnlySpan<char> path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003109")]
-	[Address(RVA = "0x1AD9960", Offset = "0x1AD7F60", VA = "0x181AD9960")]
+	[Token(Token = "0x60030C8")]
+	[Address(RVA = "0x5463000", Offset = "0x5462000", VA = "0x5463000")]
 	internal static string TrimEndingDirectorySeparator(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600310A")]
-	[Address(RVA = "0x1AD9B80", Offset = "0x1AD8180", VA = "0x181AD9B80")]
+	[Token(Token = "0x60030C9")]
+	[Address(RVA = "0x5464400", Offset = "0x5463400", VA = "0x5464400")]
 	internal static ReadOnlySpan<char> TrimEndingDirectorySeparator(ReadOnlySpan<char> path)
 	{
 		return default(ReadOnlySpan<char>);
 	}
 
-	[Token(Token = "0x600310B")]
-	[Address(RVA = "0x1AD9850", Offset = "0x1AD7E50", VA = "0x181AD9850")]
+	[Token(Token = "0x60030CA")]
+	[Address(RVA = "0x5468000", Offset = "0x5467000", VA = "0x5468000")]
 	internal static bool IsRoot(ReadOnlySpan<char> path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600310C")]
-	[Address(RVA = "0x1AD8D30", Offset = "0x1AD7330", VA = "0x181AD8D30")]
+	[Token(Token = "0x60030CB")]
+	[Address(RVA = "0x54680E0", Offset = "0x54670E0", VA = "0x54680E0")]
 	internal static int GetCommonPathLength(string first, string second, bool ignoreCase)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600310D")]
-	[Address(RVA = "0x1AD8C00", Offset = "0x1AD7200", VA = "0x181AD8C00")]
+	[Token(Token = "0x60030CC")]
+	[Address(RVA = "0x5468240", Offset = "0x5467240", VA = "0x5468240")]
 	internal static int EqualStartingCharacterCount(string first, string second, bool ignoreCase)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600310E")]
-	[Address(RVA = "0x1AD87D0", Offset = "0x1AD6DD0", VA = "0x181AD87D0")]
+	[Token(Token = "0x60030CD")]
+	[Address(RVA = "0x54683D0", Offset = "0x54673D0", VA = "0x54683D0")]
 	internal static bool AreRootsEqual(string first, string second, StringComparison comparisonType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003111")]
-	[Address(RVA = "0x1AD8F60", Offset = "0x1AD7560", VA = "0x181AD8F60")]
+	[Token(Token = "0x60030CF")]
+	[Address(RVA = "0x5468670", Offset = "0x5467670", VA = "0x5468670")]
 	private static bool GetIsCaseSensitive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003112")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Token(Token = "0x60030D0")]
+	[Address(RVA = "0x5468920", Offset = "0x5467920", VA = "0x5468920")]
 	public static bool IsPartiallyQualified(string path)
 	{
 		return default(bool);

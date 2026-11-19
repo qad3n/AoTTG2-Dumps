@@ -43,7 +43,7 @@ public class ChatOperationCode
 	public const byte SetProperties = 8;
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56A5700", Offset = "0x56A4700", VA = "0x56A5700")]
 	public ChatOperationCode()
 	{
 	}

@@ -10,86 +10,86 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002AC")]
+[Token(Token = "0x200026D")]
 internal class ResponseDescription
 {
-	[Token(Token = "0x40009B9")]
+	[Token(Token = "0x40008EA")]
 	[FieldOffset(Offset = "0x10")]
 	internal bool Multiline;
 
-	[Token(Token = "0x40009BA")]
+	[Token(Token = "0x40008EB")]
 	[FieldOffset(Offset = "0x14")]
 	internal int Status;
 
-	[Token(Token = "0x40009BB")]
+	[Token(Token = "0x40008EC")]
 	[FieldOffset(Offset = "0x18")]
 	internal string StatusDescription;
 
-	[Token(Token = "0x40009BC")]
+	[Token(Token = "0x40008ED")]
 	[FieldOffset(Offset = "0x20")]
 	internal StringBuilder StatusBuffer;
 
-	[Token(Token = "0x40009BD")]
+	[Token(Token = "0x40008EE")]
 	[FieldOffset(Offset = "0x28")]
 	internal string StatusCodeString;
 
-	[Token(Token = "0x170003C3")]
+	[Token(Token = "0x17000394")]
 	internal bool PositiveIntermediate
 	{
-		[Token(Token = "0x60012C9")]
-		[Address(RVA = "0x2905030", Offset = "0x2903630", VA = "0x182905030")]
+		[Token(Token = "0x600110B")]
+		[Address(RVA = "0x62975C0", Offset = "0x62965C0", VA = "0x62975C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003C4")]
+	[Token(Token = "0x17000395")]
 	internal bool PositiveCompletion
 	{
-		[Token(Token = "0x60012CA")]
-		[Address(RVA = "0x2905010", Offset = "0x2903610", VA = "0x182905010")]
+		[Token(Token = "0x600110C")]
+		[Address(RVA = "0x62975D0", Offset = "0x62965D0", VA = "0x62975D0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003C5")]
+	[Token(Token = "0x17000396")]
 	internal bool TransientFailure
 	{
-		[Token(Token = "0x60012CB")]
-		[Address(RVA = "0x2905050", Offset = "0x2903650", VA = "0x182905050")]
+		[Token(Token = "0x600110D")]
+		[Address(RVA = "0x62975E0", Offset = "0x62965E0", VA = "0x62975E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003C6")]
+	[Token(Token = "0x17000397")]
 	internal bool PermanentFailure
 	{
-		[Token(Token = "0x60012CC")]
-		[Address(RVA = "0x2904FF0", Offset = "0x29035F0", VA = "0x182904FF0")]
+		[Token(Token = "0x600110E")]
+		[Address(RVA = "0x62975F0", Offset = "0x62965F0", VA = "0x62975F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003C7")]
+	[Token(Token = "0x17000398")]
 	internal bool InvalidStatusCode
 	{
-		[Token(Token = "0x60012CD")]
-		[Address(RVA = "0x2904FD0", Offset = "0x29035D0", VA = "0x182904FD0")]
+		[Token(Token = "0x600110F")]
+		[Address(RVA = "0x6297600", Offset = "0x6296600", VA = "0x6297600")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60012CE")]
-	[Address(RVA = "0x2904F60", Offset = "0x2903560", VA = "0x182904F60")]
+	[Token(Token = "0x6001110")]
+	[Address(RVA = "0x6297620", Offset = "0x6296620", VA = "0x6297620")]
 	public ResponseDescription()
 	{
 	}

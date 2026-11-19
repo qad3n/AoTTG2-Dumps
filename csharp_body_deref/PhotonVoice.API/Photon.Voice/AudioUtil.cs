@@ -411,7 +411,7 @@ public static class AudioUtil
 		public float CurrentAvgAmp
 		{
 			[Token(Token = "0x600008A")]
-			[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "4")]
+			[Address(RVA = "0x5703840", Offset = "0x5702840", VA = "0x5703840", Slot = "4")]
 			get
 			{
 				return default(float);
@@ -422,7 +422,7 @@ public static class AudioUtil
 		public float CurrentPeakAmp
 		{
 			[Token(Token = "0x600008B")]
-			[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "5")]
+			[Address(RVA = "0x5703850", Offset = "0x5702850", VA = "0x5703850", Slot = "5")]
 			get
 			{
 				return default(float);
@@ -433,7 +433,7 @@ public static class AudioUtil
 		public float AccumAvgPeakAmp
 		{
 			[Token(Token = "0x600008C")]
-			[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "6")]
+			[Address(RVA = "0x5703860", Offset = "0x5702860", VA = "0x5703860", Slot = "6")]
 			get
 			{
 				return default(float);
@@ -441,13 +441,13 @@ public static class AudioUtil
 		}
 
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Address(RVA = "0x5703870", Offset = "0x5702870", VA = "0x5703870", Slot = "7")]
 		public void ResetAccumAvgPeakAmp()
 		{
 		}
 
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x5703880", Offset = "0x5702880", VA = "0x5703880")]
 		public LevelMeterDummy()
 		{
 		}
@@ -549,13 +549,13 @@ public static class AudioUtil
 	public class LevelMeterFloat : LevelMeter<float>
 	{
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x1D6B0D0", Offset = "0x1D696D0", VA = "0x181D6B0D0")]
+		[Address(RVA = "0x5703890", Offset = "0x5702890", VA = "0x5703890")]
 		public LevelMeterFloat(int samplingRate, int numChannels)
 		{
 		}
 
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x1D6AFF0", Offset = "0x1D695F0", VA = "0x181D6AFF0", Slot = "10")]
+		[Address(RVA = "0x57038E0", Offset = "0x57028E0", VA = "0x57038E0", Slot = "10")]
 		public override float[] Process(float[] buf)
 		{
 			return null;
@@ -566,13 +566,13 @@ public static class AudioUtil
 	public class LevelMeterShort : LevelMeter<short>
 	{
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x1D6B260", Offset = "0x1D69860", VA = "0x181D6B260")]
+		[Address(RVA = "0x57039B0", Offset = "0x57029B0", VA = "0x57039B0")]
 		public LevelMeterShort(int samplingRate, int numChannels)
 		{
 		}
 
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x1D6B130", Offset = "0x1D69730", VA = "0x181D6B130", Slot = "10")]
+		[Address(RVA = "0x5703A00", Offset = "0x5702A00", VA = "0x5703A00", Slot = "10")]
 		public override short[] Process(short[] buf)
 		{
 			return null;
@@ -689,13 +689,13 @@ public static class AudioUtil
 		public bool On
 		{
 			[Token(Token = "0x60000AA")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+			[Address(RVA = "0x5703AE0", Offset = "0x5702AE0", VA = "0x5703AE0", Slot = "4")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x60000AB")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+			[Address(RVA = "0x5703AF0", Offset = "0x5702AF0", VA = "0x5703AF0", Slot = "5")]
 			set
 			{
 			}
@@ -705,13 +705,13 @@ public static class AudioUtil
 		public float Threshold
 		{
 			[Token(Token = "0x60000AC")]
-			[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "6")]
+			[Address(RVA = "0x5703B00", Offset = "0x5702B00", VA = "0x5703B00", Slot = "6")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60000AD")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+			[Address(RVA = "0x5703B10", Offset = "0x5702B10", VA = "0x5703B10", Slot = "7")]
 			set
 			{
 			}
@@ -721,7 +721,7 @@ public static class AudioUtil
 		public bool Detected
 		{
 			[Token(Token = "0x60000AE")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+			[Address(RVA = "0x5703B20", Offset = "0x5702B20", VA = "0x5703B20", Slot = "8")]
 			get
 			{
 				return default(bool);
@@ -732,13 +732,13 @@ public static class AudioUtil
 		public int ActivityDelayMs
 		{
 			[Token(Token = "0x60000AF")]
-			[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
+			[Address(RVA = "0x5703B30", Offset = "0x5702B30", VA = "0x5703B30", Slot = "12")]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60000B0")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
+			[Address(RVA = "0x5703B40", Offset = "0x5702B40", VA = "0x5703B40", Slot = "13")]
 			set
 			{
 			}
@@ -748,14 +748,14 @@ public static class AudioUtil
 		public DateTime DetectedTime
 		{
 			[Token(Token = "0x60000B1")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "9")]
+			[Address(RVA = "0x5703B50", Offset = "0x5702B50", VA = "0x5703B50", Slot = "9")]
 			[CompilerGenerated]
 			get
 			{
 				return default(DateTime);
 			}
 			[Token(Token = "0x60000B2")]
-			[Address(RVA = "0x560EC0", Offset = "0x55F4C0", VA = "0x180560EC0")]
+			[Address(RVA = "0x5703B60", Offset = "0x5702B60", VA = "0x5703B60")]
 			[CompilerGenerated]
 			private set
 			{
@@ -766,19 +766,19 @@ public static class AudioUtil
 		public event Action OnDetected
 		{
 			[Token(Token = "0x60000B3")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+			[Address(RVA = "0x5703B70", Offset = "0x5702B70", VA = "0x5703B70", Slot = "10")]
 			add
 			{
 			}
 			[Token(Token = "0x60000B4")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+			[Address(RVA = "0x5703B80", Offset = "0x5702B80", VA = "0x5703B80", Slot = "11")]
 			remove
 			{
 			}
 		}
 
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x5703B90", Offset = "0x5702B90", VA = "0x5703B90")]
 		public VoiceDetectorDummy()
 		{
 		}
@@ -927,13 +927,13 @@ public static class AudioUtil
 	public class VoiceDetectorFloat : VoiceDetector<float>
 	{
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x1D7C750", Offset = "0x1D7AD50", VA = "0x181D7C750")]
+		[Address(RVA = "0x5703BA0", Offset = "0x5702BA0", VA = "0x5703BA0")]
 		public VoiceDetectorFloat(int samplingRate, int numChannels)
 		{
 		}
 
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x1D7C650", Offset = "0x1D7AC50", VA = "0x181D7C650", Slot = "16")]
+		[Address(RVA = "0x5703BF0", Offset = "0x5702BF0", VA = "0x5703BF0", Slot = "16")]
 		public override float[] Process(float[] buffer)
 		{
 			return null;
@@ -944,13 +944,13 @@ public static class AudioUtil
 	public class VoiceDetectorShort : VoiceDetector<short>
 	{
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x1D7C8B0", Offset = "0x1D7AEB0", VA = "0x181D7C8B0")]
+		[Address(RVA = "0x5703CF0", Offset = "0x5702CF0", VA = "0x5703CF0")]
 		public VoiceDetectorShort(int samplingRate, int numChannels)
 		{
 		}
 
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x1D7C7B0", Offset = "0x1D7ADB0", VA = "0x181D7C7B0", Slot = "16")]
+		[Address(RVA = "0x5703D40", Offset = "0x5702D40", VA = "0x5703D40", Slot = "16")]
 		public override short[] Process(short[] buffer)
 		{
 			return null;
@@ -1062,25 +1062,25 @@ public static class AudioUtil
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x1D680F0", Offset = "0x1D666F0", VA = "0x181D680F0")]
+	[Address(RVA = "0x5703370", Offset = "0x5702370", VA = "0x5703370")]
 	public static void ResampleAndConvert(short[] src, float[] dst, int dstCount, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x1D67ED0", Offset = "0x1D664D0", VA = "0x181D67ED0")]
+	[Address(RVA = "0x5703580", Offset = "0x5702580", VA = "0x5703580")]
 	public static void ResampleAndConvert(float[] src, short[] dst, int dstCount, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x1D67E60", Offset = "0x1D66460", VA = "0x181D67E60")]
+	[Address(RVA = "0x5703780", Offset = "0x5702780", VA = "0x5703780")]
 	public static void Convert(float[] src, short[] dst, int dstCount)
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x1D67DF0", Offset = "0x1D663F0", VA = "0x181D67DF0")]
+	[Address(RVA = "0x57037E0", Offset = "0x57027E0", VA = "0x57037E0")]
 	public static void Convert(short[] src, float[] dst, int dstCount)
 	{
 	}

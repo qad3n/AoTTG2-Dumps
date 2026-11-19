@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.OccluderContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -99,7 +99,7 @@ internal struct OccluderContext : IDisposable
 	public int subviewCount
 	{
 		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x65E5560", Offset = "0x65E4560", VA = "0x65E5560")]
 		get
 		{
 			return default(int);
@@ -110,7 +110,7 @@ internal struct OccluderContext : IDisposable
 	public Vector2 depthBufferSizeInOccluderPixels
 	{
 		[Token(Token = "0x6000302")]
-		[Address(RVA = "0x2BF3E00", Offset = "0x2BF2400", VA = "0x182BF3E00")]
+		[Address(RVA = "0x65E5590", Offset = "0x65E4590", VA = "0x65E5590")]
 		get
 		{
 			return default(Vector2);
@@ -118,64 +118,64 @@ internal struct OccluderContext : IDisposable
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x2BF35E0", Offset = "0x2BF1BE0", VA = "0x182BF35E0")]
+	[Address(RVA = "0x65E5570", Offset = "0x65E4570", VA = "0x65E5570")]
 	public bool IsSubviewValid(int subviewIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x2BF3220", Offset = "0x2BF1820", VA = "0x182BF3220", Slot = "4")]
+	[Address(RVA = "0x65E55A0", Offset = "0x65E45A0", VA = "0x65E55A0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x2BF3C10", Offset = "0x2BF2210", VA = "0x182BF3C10")]
+	[Address(RVA = "0x65E56D0", Offset = "0x65E46D0", VA = "0x65E56D0")]
 	private void UpdateMipBounds()
 	{
 	}
 
 	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x2BF28C0", Offset = "0x2BF0EC0", VA = "0x182BF28C0")]
+	[Address(RVA = "0x65E5A40", Offset = "0x65E4A40", VA = "0x65E5A40")]
 	private void AllocateTexturesIfNecessary(bool debugOverlayEnabled)
 	{
 	}
 
 	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x2BF36E0", Offset = "0x2BF1CE0", VA = "0x182BF36E0")]
+	[Address(RVA = "0x65E5CD0", Offset = "0x65E4CD0", VA = "0x65E5CD0")]
 	internal static void SetKeyword(ComputeCommandBuffer cmd, ComputeShader cs, in LocalKeyword keyword, bool value)
 	{
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x2BF3710", Offset = "0x2BF1D10", VA = "0x182BF3710")]
+	[Address(RVA = "0x65E5D00", Offset = "0x65E4D00", VA = "0x65E5D00")]
 	private OccluderDepthPyramidConstants SetupFarDepthPyramidConstants(ReadOnlySpan<OccluderSubviewUpdate> occluderSubviewUpdates, NativeArray<Plane> silhouettePlanes)
 	{
 		return default(OccluderDepthPyramidConstants);
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x2BF2BC0", Offset = "0x2BF11C0", VA = "0x182BF2BC0")]
+	[Address(RVA = "0x65E63B0", Offset = "0x65E53B0", VA = "0x65E63B0")]
 	public void CreateFarDepthPyramid(ComputeCommandBuffer cmd, in OccluderParameters occluderParams, ReadOnlySpan<OccluderSubviewUpdate> occluderSubviewUpdates, in OccluderHandles occluderHandles, NativeArray<Plane> silhouettePlanes, ComputeShader occluderDepthPyramidCS, int occluderDepthDownscaleKernel)
 	{
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x2BF34D0", Offset = "0x2BF1AD0", VA = "0x182BF34D0")]
+	[Address(RVA = "0x65E6B00", Offset = "0x65E5B00", VA = "0x65E6B00")]
 	public OccluderHandles Import(RenderGraph renderGraph)
 	{
 		return default(OccluderHandles);
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x2BF3600", Offset = "0x2BF1C00", VA = "0x182BF3600")]
+	[Address(RVA = "0x65E6BC0", Offset = "0x65E5BC0", VA = "0x65E6BC0")]
 	public void PrepareOccluders(in OccluderParameters occluderParams)
 	{
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x2BF3340", Offset = "0x2BF1940", VA = "0x182BF3340")]
+	[Address(RVA = "0x65E6CB0", Offset = "0x65E5CB0", VA = "0x65E6CB0")]
 	internal OcclusionCullingDebugOutput GetDebugOutput()
 	{
 		return default(OcclusionCullingDebugOutput);

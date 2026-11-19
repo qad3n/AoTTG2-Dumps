@@ -19,21 +19,21 @@ public class CancellationTokenEqualityComparer : IEqualityComparer<CancellationT
 	public static readonly IEqualityComparer<CancellationToken> Default;
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2909780", Offset = "0x2907D80", VA = "0x182909780", Slot = "4")]
+	[Address(RVA = "0x62C1D70", Offset = "0x62C0D70", VA = "0x62C1D70", Slot = "4")]
 	public bool Equals(CancellationToken x, CancellationToken y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x29097E0", Offset = "0x2907DE0", VA = "0x1829097E0", Slot = "5")]
+	[Address(RVA = "0x62C1DD0", Offset = "0x62C0DD0", VA = "0x62C1DD0", Slot = "5")]
 	public int GetHashCode(CancellationToken obj)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x62C1E20", Offset = "0x62C0E20", VA = "0x62C1E20")]
 	public CancellationTokenEqualityComparer()
 	{
 	}

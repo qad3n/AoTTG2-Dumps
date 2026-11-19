@@ -12,12 +12,12 @@ using UnityEngine.Scripting;
 namespace Unity.Profiling;
 
 [Token(Token = "0x2000024")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method, AllowMultiple = false)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class IgnoredByDeepProfilerAttribute : Attribute
 {
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x68B4AC0", Offset = "0x68B3AC0", VA = "0x68B4AC0")]
 	public IgnoredByDeepProfilerAttribute()
 	{
 	}

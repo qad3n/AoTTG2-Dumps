@@ -99,7 +99,7 @@ internal class Function : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B07")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "4")]
+		[Address(RVA = "0x6081BE0", Offset = "0x6080BE0", VA = "0x6081BE0", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -110,7 +110,7 @@ internal class Function : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B08")]
-		[Address(RVA = "0x26BAA20", Offset = "0x26B9020", VA = "0x1826BAA20", Slot = "5")]
+		[Address(RVA = "0x6081BF0", Offset = "0x6080BF0", VA = "0x6081BF0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -121,7 +121,7 @@ internal class Function : AstNode
 	public FunctionType TypeOfFunction
 	{
 		[Token(Token = "0x6001B09")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6081C80", Offset = "0x6080C80", VA = "0x6081C80")]
 		get
 		{
 			return default(FunctionType);
@@ -132,7 +132,7 @@ internal class Function : AstNode
 	public List<AstNode> ArgumentList
 	{
 		[Token(Token = "0x6001B0A")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6081C90", Offset = "0x6080C90", VA = "0x6081C90")]
 		get
 		{
 			return null;
@@ -143,7 +143,7 @@ internal class Function : AstNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001B0B")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6081CA0", Offset = "0x6080CA0", VA = "0x6081CA0")]
 		get
 		{
 			return null;
@@ -154,7 +154,7 @@ internal class Function : AstNode
 	public string Name
 	{
 		[Token(Token = "0x6001B0C")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6081CB0", Offset = "0x6080CB0", VA = "0x6081CB0")]
 		get
 		{
 			return null;
@@ -162,19 +162,19 @@ internal class Function : AstNode
 	}
 
 	[Token(Token = "0x6001B04")]
-	[Address(RVA = "0x26BA8E0", Offset = "0x26B8EE0", VA = "0x1826BA8E0")]
+	[Address(RVA = "0x60819B0", Offset = "0x60809B0", VA = "0x60819B0")]
 	public Function(FunctionType ftype, List<AstNode> argumentList)
 	{
 	}
 
 	[Token(Token = "0x6001B05")]
-	[Address(RVA = "0x26BA970", Offset = "0x26B8F70", VA = "0x1826BA970")]
+	[Address(RVA = "0x6081A30", Offset = "0x6080A30", VA = "0x6081A30")]
 	public Function(string prefix, string name, List<AstNode> argumentList)
 	{
 	}
 
 	[Token(Token = "0x6001B06")]
-	[Address(RVA = "0x26BA7D0", Offset = "0x26B8DD0", VA = "0x1826BA7D0")]
+	[Address(RVA = "0x6081AF0", Offset = "0x6080AF0", VA = "0x6081AF0")]
 	public Function(FunctionType ftype, AstNode arg)
 	{
 	}

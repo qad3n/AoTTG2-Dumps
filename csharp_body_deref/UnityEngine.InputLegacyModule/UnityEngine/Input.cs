@@ -12,99 +12,112 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x200000B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Input/InputBindings.h")]
 public class Input
 {
-	[Token(Token = "0x1700000F")]
+	[Token(Token = "0x4000030")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	private static Gyroscope s_MainGyro;
+
+	[Token(Token = "0x17000011")]
+	public static extern bool simulateMouseWithTouches
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x600002D")]
+		[Address(RVA = "0x69BEA90", Offset = "0x69BDA90", VA = "0x69BEA90")]
+		set;
+	}
+
+	[Token(Token = "0x17000012")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern bool anyKey
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x2FC4670", Offset = "0x2FC2C70", VA = "0x182FC4670")]
+		[Token(Token = "0x600002E")]
+		[Address(RVA = "0x69BEAC0", Offset = "0x69BDAC0", VA = "0x69BEAC0")]
 		get;
 	}
 
-	[Token(Token = "0x17000010")]
+	[Token(Token = "0x17000013")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern bool anyKeyDown
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x2FC4640", Offset = "0x2FC2C40", VA = "0x182FC4640")]
+		[Token(Token = "0x600002F")]
+		[Address(RVA = "0x69BEAF0", Offset = "0x69BDAF0", VA = "0x69BEAF0")]
 		get;
 	}
 
-	[Token(Token = "0x17000011")]
+	[Token(Token = "0x17000014")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static Vector3 mousePosition
 	{
-		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x2FC4880", Offset = "0x2FC2E80", VA = "0x182FC4880")]
+		[Token(Token = "0x6000030")]
+		[Address(RVA = "0x69BEB20", Offset = "0x69BDB20", VA = "0x69BEB20")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x17000012")]
+	[Token(Token = "0x17000015")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static Vector2 mouseScrollDelta
 	{
-		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x2FC4970", Offset = "0x2FC2F70", VA = "0x182FC4970")]
+		[Token(Token = "0x6000031")]
+		[Address(RVA = "0x69BEBA0", Offset = "0x69BDBA0", VA = "0x69BEBA0")]
 		get
 		{
 			return default(Vector2);
 		}
 	}
 
-	[Token(Token = "0x17000013")]
+	[Token(Token = "0x17000016")]
 	public static extern IMECompositionMode imeCompositionMode
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x2FC4810", Offset = "0x2FC2E10", VA = "0x182FC4810")]
+		[Token(Token = "0x6000032")]
+		[Address(RVA = "0x69BEC10", Offset = "0x69BDC10", VA = "0x69BEC10")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x2FC4C30", Offset = "0x2FC3230", VA = "0x182FC4C30")]
+		[Token(Token = "0x6000033")]
+		[Address(RVA = "0x69BEC40", Offset = "0x69BDC40", VA = "0x69BEC40")]
 		set;
 	}
 
-	[Token(Token = "0x17000014")]
+	[Token(Token = "0x17000017")]
 	public static string compositionString
 	{
-		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x2FC4760", Offset = "0x2FC2D60", VA = "0x182FC4760")]
+		[Token(Token = "0x6000034")]
+		[Address(RVA = "0x69BEC70", Offset = "0x69BDC70", VA = "0x69BEC70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000015")]
+	[Token(Token = "0x17000018")]
 	public static Vector2 compositionCursorPos
 	{
-		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x2FC46E0", Offset = "0x2FC2CE0", VA = "0x182FC46E0")]
+		[Token(Token = "0x6000035")]
+		[Address(RVA = "0x69BED60", Offset = "0x69BDD60", VA = "0x69BED60")]
 		get
 		{
 			return default(Vector2);
 		}
-		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x2FC4BF0", Offset = "0x2FC31F0", VA = "0x182FC4BF0")]
+		[Token(Token = "0x6000036")]
+		[Address(RVA = "0x69BEDD0", Offset = "0x69BDDD0", VA = "0x69BEDD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000016")]
+	[Token(Token = "0x17000019")]
 	internal static bool simulateTouchEnabled
 	{
-		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x2FC49B0", Offset = "0x2FC2FB0", VA = "0x182FC49B0")]
+		[Token(Token = "0x6000037")]
+		[Address(RVA = "0x69BEE40", Offset = "0x69BDE40", VA = "0x69BEE40")]
 		[CompilerGenerated]
 		get
 		{
@@ -112,130 +125,141 @@ public class Input
 		}
 	}
 
-	[Token(Token = "0x17000017")]
+	[Token(Token = "0x1700001A")]
 	public static bool mousePresent
 	{
-		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x2FC48C0", Offset = "0x2FC2EC0", VA = "0x182FC48C0")]
+		[Token(Token = "0x600003A")]
+		[Address(RVA = "0x69BEEE0", Offset = "0x69BDEE0", VA = "0x69BEEE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000018")]
+	[Token(Token = "0x1700001B")]
 	public static bool touchSupported
 	{
-		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x2FC4A20", Offset = "0x2FC3020", VA = "0x182FC4A20")]
+		[Token(Token = "0x600003B")]
+		[Address(RVA = "0x69BEF40", Offset = "0x69BDF40", VA = "0x69BEF40")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x1700001C")]
 	public static extern int touchCount
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x2FC49F0", Offset = "0x2FC2FF0", VA = "0x182FC49F0")]
+		[Token(Token = "0x600003C")]
+		[Address(RVA = "0x69BEFA0", Offset = "0x69BDFA0", VA = "0x69BEFA0")]
 		[UnityEngine.Bindings.FreeFunction("GetTouchCount")]
 		get;
 	}
 
-	[Token(Token = "0x1700001A")]
-	public static Touch[] touches
+	[Token(Token = "0x1700001D")]
+	public static Gyroscope gyro
 	{
-		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x2FC4A90", Offset = "0x2FC3090", VA = "0x182FC4A90")]
+		[Token(Token = "0x600003E")]
+		[Address(RVA = "0x69BF000", Offset = "0x69BE000", VA = "0x69BF000")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x2FC42F0", Offset = "0x2FC28F0", VA = "0x182FC42F0")]
+	[Token(Token = "0x1700001E")]
+	public static Touch[] touches
+	{
+		[Token(Token = "0x600003F")]
+		[Address(RVA = "0x69BF0C0", Offset = "0x69BE0C0", VA = "0x69BF0C0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600001C")]
+	[Address(RVA = "0x69BDFE0", Offset = "0x69BCFE0", VA = "0x69BDFE0")]
 	public static float GetAxis(string axisName)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x2FC42E0", Offset = "0x2FC28E0", VA = "0x182FC42E0")]
+	[Token(Token = "0x600001D")]
+	[Address(RVA = "0x69BE150", Offset = "0x69BD150", VA = "0x69BE150")]
 	public static float GetAxisRaw(string axisName)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x2FC4320", Offset = "0x2FC2920", VA = "0x182FC4320")]
+	[Token(Token = "0x600001E")]
+	[Address(RVA = "0x69BE2C0", Offset = "0x69BD2C0", VA = "0x69BE2C0")]
 	public static bool GetButton(string buttonName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2FC4300", Offset = "0x2FC2900", VA = "0x182FC4300")]
+	[Token(Token = "0x600001F")]
+	[Address(RVA = "0x69BE440", Offset = "0x69BD440", VA = "0x69BE440")]
 	public static bool GetButtonDown(string buttonName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x2FC4310", Offset = "0x2FC2910", VA = "0x182FC4310")]
+	[Token(Token = "0x6000020")]
+	[Address(RVA = "0x69BE5C0", Offset = "0x69BD5C0", VA = "0x69BE5C0")]
 	public static bool GetButtonUp(string buttonName)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2FC4370", Offset = "0x2FC2970", VA = "0x182FC4370")]
+	[Token(Token = "0x6000021")]
+	[Address(RVA = "0x69BE740", Offset = "0x69BD740", VA = "0x69BE740")]
 	[UnityEngine.Bindings.NativeThrows]
 	private static extern bool GetKeyInt(KeyCode key);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x2FC43B0", Offset = "0x2FC29B0", VA = "0x182FC43B0")]
+	[Token(Token = "0x6000022")]
+	[Address(RVA = "0x69BE770", Offset = "0x69BD770", VA = "0x69BE770")]
 	[UnityEngine.Bindings.NativeThrows]
 	private static extern bool GetKeyUpInt(KeyCode key);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2FC4330", Offset = "0x2FC2930", VA = "0x182FC4330")]
+	[Token(Token = "0x6000023")]
+	[Address(RVA = "0x69BE7A0", Offset = "0x69BD7A0", VA = "0x69BE7A0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private static extern bool GetKeyDownInt(KeyCode key);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2FC4500", Offset = "0x2FC2B00", VA = "0x182FC4500")]
+	[Token(Token = "0x6000024")]
+	[Address(RVA = "0x69BE7D0", Offset = "0x69BD7D0", VA = "0x69BE7D0")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern bool GetMouseButton(int button);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x2FC4480", Offset = "0x2FC2A80", VA = "0x182FC4480")]
+	[Token(Token = "0x6000025")]
+	[Address(RVA = "0x69BE800", Offset = "0x69BD800", VA = "0x69BE800")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern bool GetMouseButtonDown(int button);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x2FC44C0", Offset = "0x2FC2AC0", VA = "0x182FC44C0")]
+	[Token(Token = "0x6000026")]
+	[Address(RVA = "0x69BE830", Offset = "0x69BD830", VA = "0x69BE830")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern bool GetMouseButtonUp(int button);
 
-	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2FC45E0", Offset = "0x2FC2BE0", VA = "0x182FC45E0")]
+	[Token(Token = "0x6000027")]
+	[Address(RVA = "0x69BE860", Offset = "0x69BD860", VA = "0x69BE860")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static Touch GetTouch(int index)
 	{
 		return default(Touch);
 	}
 
-	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x2FC4430", Offset = "0x2FC2A30", VA = "0x182FC4430")]
+	[Token(Token = "0x6000028")]
+	[Address(RVA = "0x69BE930", Offset = "0x69BD930", VA = "0x69BE930")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static PenData GetLastPenContactEvent()
 	{
@@ -243,81 +267,87 @@ public class Input
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x2FC42B0", Offset = "0x2FC28B0", VA = "0x182FC42B0")]
+	[Token(Token = "0x6000029")]
+	[Address(RVA = "0x69BE9D0", Offset = "0x69BD9D0", VA = "0x69BE9D0")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static extern void ClearLastPenContactEvent();
 
-	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x2FC4370", Offset = "0x2FC2970", VA = "0x182FC4370")]
+	[Token(Token = "0x600002A")]
+	[Address(RVA = "0x69BEA00", Offset = "0x69BDA00", VA = "0x69BEA00")]
 	public static bool GetKey(KeyCode key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x2FC43B0", Offset = "0x2FC29B0", VA = "0x182FC43B0")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x69BEA30", Offset = "0x69BDA30", VA = "0x69BEA30")]
 	public static bool GetKeyUp(KeyCode key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2FC4330", Offset = "0x2FC2930", VA = "0x182FC4330")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x69BEA60", Offset = "0x69BDA60", VA = "0x69BEA60")]
 	public static bool GetKeyDown(KeyCode key)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x2FC4540", Offset = "0x2FC2B40", VA = "0x182FC4540")]
+	[Token(Token = "0x6000038")]
+	[Address(RVA = "0x69BEE80", Offset = "0x69BDE80", VA = "0x69BEE80")]
 	[UnityEngine.Bindings.FreeFunction("GetMousePresent")]
 	private static extern bool GetMousePresentInternal();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x2FC4570", Offset = "0x2FC2B70", VA = "0x182FC4570")]
+	[Token(Token = "0x6000039")]
+	[Address(RVA = "0x69BEEB0", Offset = "0x69BDEB0", VA = "0x69BEEB0")]
 	[UnityEngine.Bindings.FreeFunction("IsTouchSupported")]
 	private static extern bool GetTouchSupportedInternal();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x2FC4280", Offset = "0x2FC2880", VA = "0x182FC4280")]
+	[Token(Token = "0x600003D")]
+	[Address(RVA = "0x69BEFD0", Offset = "0x69BDFD0", VA = "0x69BEFD0")]
+	[UnityEngine.Bindings.FreeFunction("GetGyro")]
+	private static extern int GetGyroInternal();
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000040")]
+	[Address(RVA = "0x69BF290", Offset = "0x69BE290", VA = "0x69BF290")]
 	internal static extern bool CheckDisabled();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x2FC45A0", Offset = "0x2FC2BA0", VA = "0x182FC45A0")]
+	[Token(Token = "0x6000041")]
+	[Address(RVA = "0x69BE8F0", Offset = "0x69BD8F0", VA = "0x69BE8F0")]
 	private static extern void GetTouch_Injected(int index, out Touch ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x2FC43F0", Offset = "0x2FC29F0", VA = "0x182FC43F0")]
+	[Token(Token = "0x6000042")]
+	[Address(RVA = "0x69BE9A0", Offset = "0x69BD9A0", VA = "0x69BE9A0")]
 	private static extern void GetLastPenContactEvent_Injected(out PenData ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x2FC4840", Offset = "0x2FC2E40", VA = "0x182FC4840")]
+	[Token(Token = "0x6000043")]
+	[Address(RVA = "0x69BEB70", Offset = "0x69BDB70", VA = "0x69BEB70")]
 	private static extern void get_mousePosition_Injected(out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2FC4930", Offset = "0x2FC2F30", VA = "0x182FC4930")]
+	[Token(Token = "0x6000044")]
+	[Address(RVA = "0x69BEBE0", Offset = "0x69BDBE0", VA = "0x69BEBE0")]
 	private static extern void get_mouseScrollDelta_Injected(out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x2FC4720", Offset = "0x2FC2D20", VA = "0x182FC4720")]
+	[Token(Token = "0x6000045")]
+	[Address(RVA = "0x69BED30", Offset = "0x69BDD30", VA = "0x69BED30")]
 	private static extern void get_compositionString_Injected(out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x2FC46A0", Offset = "0x2FC2CA0", VA = "0x182FC46A0")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x69BEDA0", Offset = "0x69BDDA0", VA = "0x69BEDA0")]
 	private static extern void get_compositionCursorPos_Injected(out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2FC4BB0", Offset = "0x2FC31B0", VA = "0x182FC4BB0")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x69BEE10", Offset = "0x69BDE10", VA = "0x69BEE10")]
 	private static extern void set_compositionCursorPos_Injected([In] ref Vector2 value);
 }

@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x200039B")]
+[Token(Token = "0x2000357")]
 internal static class MailAddressParser
 {
-	[Token(Token = "0x60018D2")]
-	[Address(RVA = "0x2812D50", Offset = "0x2811350", VA = "0x182812D50")]
+	[Token(Token = "0x6001719")]
+	[Address(RVA = "0x61BC5D0", Offset = "0x61BB5D0", VA = "0x61BC5D0")]
 	internal static MailAddress ParseAddress(string data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018D3")]
-	[Address(RVA = "0x2812810", Offset = "0x2810E10", VA = "0x182812810")]
+	[Token(Token = "0x600171A")]
+	[Address(RVA = "0x61BC600", Offset = "0x61BB600", VA = "0x61BC600")]
 	private static MailAddress ParseAddress(string data, bool expectMultipleAddresses, ref int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018D4")]
-	[Address(RVA = "0x2813630", Offset = "0x2811C30", VA = "0x182813630")]
+	[Token(Token = "0x600171B")]
+	[Address(RVA = "0x61BC9A0", Offset = "0x61BB9A0", VA = "0x61BC9A0")]
 	private static int ReadCfwsAndThrowIfIncomplete(string data, int index)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018D5")]
-	[Address(RVA = "0x28130D0", Offset = "0x28116D0", VA = "0x1828130D0")]
+	[Token(Token = "0x600171C")]
+	[Address(RVA = "0x61BCA00", Offset = "0x61BBA00", VA = "0x61BCA00")]
 	private static string ParseDomain(string data, ref int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018D6")]
-	[Address(RVA = "0x2813260", Offset = "0x2811860", VA = "0x182813260")]
+	[Token(Token = "0x600171D")]
+	[Address(RVA = "0x61BCB40", Offset = "0x61BBB40", VA = "0x61BCB40")]
 	private static string ParseLocalPart(string data, ref int index, bool expectAngleBracket, bool expectMultipleAddresses)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018D7")]
-	[Address(RVA = "0x2812D80", Offset = "0x2811380", VA = "0x182812D80")]
+	[Token(Token = "0x600171E")]
+	[Address(RVA = "0x61BCE40", Offset = "0x61BBE40", VA = "0x61BCE40")]
 	private static string ParseDisplayName(string data, ref int index, bool expectMultipleAddresses)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018D8")]
-	[Address(RVA = "0x2812780", Offset = "0x2810D80", VA = "0x182812780")]
+	[Token(Token = "0x600171F")]
+	[Address(RVA = "0x61BD3E0", Offset = "0x61BC3E0", VA = "0x61BD3E0")]
 	internal static string NormalizeOrThrow(string input)
 	{
 		return null;

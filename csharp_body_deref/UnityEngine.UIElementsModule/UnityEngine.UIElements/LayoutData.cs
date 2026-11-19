@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.LayoutData
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -150,41 +150,41 @@ internal struct LayoutData : IStyleDataGroup<LayoutData>, IEquatable<LayoutData>
 	public Length width;
 
 	[Token(Token = "0x6001D7A")]
-	[Address(RVA = "0x30EF2B0", Offset = "0x30ED8B0", VA = "0x1830EF2B0", Slot = "4")]
+	[Address(RVA = "0x6AF8670", Offset = "0x6AF7670", VA = "0x6AF8670", Slot = "4")]
 	public LayoutData Copy()
 	{
 		return default(LayoutData);
 	}
 
 	[Token(Token = "0x6001D7B")]
-	[Address(RVA = "0x30EF1C0", Offset = "0x30ED7C0", VA = "0x1830EF1C0", Slot = "5")]
+	[Address(RVA = "0x6AF8690", Offset = "0x6AF7690", VA = "0x6AF8690", Slot = "5")]
 	public void CopyFrom(ref LayoutData other)
 	{
 	}
 
 	[Token(Token = "0x6001D7C")]
-	[Address(RVA = "0x30EF890", Offset = "0x30EDE90", VA = "0x1830EF890")]
+	[Address(RVA = "0x6AF86A0", Offset = "0x6AF76A0", VA = "0x6AF86A0")]
 	public static bool operator ==(LayoutData lhs, LayoutData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D7D")]
-	[Address(RVA = "0x30EF4A0", Offset = "0x30EDAA0", VA = "0x1830EF4A0", Slot = "6")]
+	[Address(RVA = "0x6AF89B0", Offset = "0x6AF79B0", VA = "0x6AF89B0", Slot = "6")]
 	public bool Equals(LayoutData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D7E")]
-	[Address(RVA = "0x30EF350", Offset = "0x30ED950", VA = "0x1830EF350", Slot = "0")]
+	[Address(RVA = "0x6AF8A20", Offset = "0x6AF7A20", VA = "0x6AF8A20", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D7F")]
-	[Address(RVA = "0x30EF5F0", Offset = "0x30EDBF0", VA = "0x1830EF5F0", Slot = "2")]
+	[Address(RVA = "0x6AF8AF0", Offset = "0x6AF7AF0", VA = "0x6AF8AF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

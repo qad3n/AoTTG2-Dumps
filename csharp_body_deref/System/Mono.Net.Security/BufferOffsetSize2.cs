@@ -12,30 +12,30 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000047")]
 internal class BufferOffsetSize2 : BufferOffsetSize
 {
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x400009D")]
 	[FieldOffset(Offset = "0x28")]
 	public readonly int InitialSize;
 
-	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x248FCA0", Offset = "0x248E2A0", VA = "0x18248FCA0")]
+	[Token(Token = "0x60000AE")]
+	[Address(RVA = "0x5E36120", Offset = "0x5E35120", VA = "0x5E36120")]
 	public BufferOffsetSize2(int size)
 	{
 	}
 
-	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x248FC40", Offset = "0x248E240", VA = "0x18248FC40")]
+	[Token(Token = "0x60000AF")]
+	[Address(RVA = "0x5E36170", Offset = "0x5E35170", VA = "0x5E36170")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x248FB70", Offset = "0x248E170", VA = "0x18248FB70")]
+	[Token(Token = "0x60000B0")]
+	[Address(RVA = "0x5E361D0", Offset = "0x5E351D0", VA = "0x5E361D0")]
 	public void MakeRoom(int size)
 	{
 	}
 
-	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x248FA80", Offset = "0x248E080", VA = "0x18248FA80")]
+	[Token(Token = "0x60000B1")]
+	[Address(RVA = "0x5E36270", Offset = "0x5E35270", VA = "0x5E36270")]
 	public void AppendData(byte[] buffer, int offset, int size)
 	{
 	}

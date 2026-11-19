@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -90,7 +90,7 @@ internal class LayoutManager : IDisposable
 	public static bool IsSharedManagerCreated
 	{
 		[Token(Token = "0x6002BD8")]
-		[Address(RVA = "0x31A5E80", Offset = "0x31A4480", VA = "0x1831A5E80")]
+		[Address(RVA = "0x6BBB970", Offset = "0x6BBA970", VA = "0x6BBB970")]
 		get
 		{
 			return default(bool);
@@ -101,7 +101,7 @@ internal class LayoutManager : IDisposable
 	public static LayoutManager SharedManager
 	{
 		[Token(Token = "0x6002BD9")]
-		[Address(RVA = "0x31A5EE0", Offset = "0x31A44E0", VA = "0x1831A5EE0")]
+		[Address(RVA = "0x6BBB9C0", Offset = "0x6BBA9C0", VA = "0x6BBB9C0")]
 		get
 		{
 			return null;
@@ -112,7 +112,7 @@ internal class LayoutManager : IDisposable
 	private static int DefaultCapacity
 	{
 		[Token(Token = "0x6002BDC")]
-		[Address(RVA = "0x846EF0", Offset = "0x8454F0", VA = "0x180846EF0")]
+		[Address(RVA = "0x6BBBFC0", Offset = "0x6BBAFC0", VA = "0x6BBBFC0")]
 		get
 		{
 			return default(int);
@@ -120,142 +120,142 @@ internal class LayoutManager : IDisposable
 	}
 
 	[Token(Token = "0x6002BDA")]
-	[Address(RVA = "0x31A4EB0", Offset = "0x31A34B0", VA = "0x1831A4EB0")]
+	[Address(RVA = "0x6BBBA10", Offset = "0x6BBAA10", VA = "0x6BBBA10")]
 	private static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6002BDB")]
-	[Address(RVA = "0x31A52C0", Offset = "0x31A38C0", VA = "0x1831A52C0")]
+	[Address(RVA = "0x6BBBCD0", Offset = "0x6BBACD0", VA = "0x6BBBCD0")]
 	private static void Shutdown()
 	{
 	}
 
 	[Token(Token = "0x6002BDD")]
-	[Address(RVA = "0x31A4B70", Offset = "0x31A3170", VA = "0x1831A4B70")]
+	[Address(RVA = "0x6BBBFD0", Offset = "0x6BBAFD0", VA = "0x6BBBFD0")]
 	internal static LayoutManager GetManager(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002BDE")]
-	[Address(RVA = "0x31A5E20", Offset = "0x31A4420", VA = "0x1831A5E20")]
+	[Address(RVA = "0x6BBBC70", Offset = "0x6BBAC70", VA = "0x6BBBC70")]
 	public LayoutManager(Allocator allocator)
 	{
 	}
 
 	[Token(Token = "0x6002BDF")]
-	[Address(RVA = "0x31A5740", Offset = "0x31A3D40", VA = "0x1831A5740")]
+	[Address(RVA = "0x6BBC0C0", Offset = "0x6BBB0C0", VA = "0x6BBC0C0")]
 	public LayoutManager(Allocator allocator, int initialNodeCapacity)
 	{
 	}
 
 	[Token(Token = "0x6002BE0")]
-	[Address(RVA = "0x31A4520", Offset = "0x31A2B20", VA = "0x1831A4520", Slot = "4")]
+	[Address(RVA = "0x6BBBD70", Offset = "0x6BBAD70", VA = "0x6BBBD70", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002BE1")]
-	[Address(RVA = "0x31A1E70", Offset = "0x31A0470", VA = "0x1831A1E70")]
+	[Address(RVA = "0x6BBC8C0", Offset = "0x6BBB8C0", VA = "0x6BBC8C0")]
 	private LayoutDataAccess GetAccess()
 	{
 		return default(LayoutDataAccess);
 	}
 
 	[Token(Token = "0x6002BE2")]
-	[Address(RVA = "0x31A4AE0", Offset = "0x31A30E0", VA = "0x1831A4AE0")]
+	[Address(RVA = "0x6BBC950", Offset = "0x6BBB950", VA = "0x6BBC950")]
 	public LayoutConfig GetDefaultConfig()
 	{
 		return default(LayoutConfig);
 	}
 
 	[Token(Token = "0x6002BE3")]
-	[Address(RVA = "0x31A3FF0", Offset = "0x31A25F0", VA = "0x1831A3FF0")]
+	[Address(RVA = "0x6BBC7A0", Offset = "0x6BBB7A0", VA = "0x6BBC7A0")]
 	public LayoutConfig CreateConfig()
 	{
 		return default(LayoutConfig);
 	}
 
 	[Token(Token = "0x6002BE4")]
-	[Address(RVA = "0x31A44D0", Offset = "0x31A2AD0", VA = "0x1831A44D0")]
+	[Address(RVA = "0x6BBC9F0", Offset = "0x6BBB9F0", VA = "0x6BBC9F0")]
 	public void DestroyConfig(ref LayoutConfig config)
 	{
 	}
 
 	[Token(Token = "0x6002BE5")]
-	[Address(RVA = "0x31A4470", Offset = "0x31A2A70", VA = "0x1831A4470")]
+	[Address(RVA = "0x6BBCA30", Offset = "0x6BBBA30", VA = "0x6BBCA30")]
 	public LayoutNode CreateNode()
 	{
 		return default(LayoutNode);
 	}
 
 	[Token(Token = "0x6002BE6")]
-	[Address(RVA = "0x31A40E0", Offset = "0x31A26E0", VA = "0x1831A40E0")]
+	[Address(RVA = "0x6BBCA70", Offset = "0x6BBBA70", VA = "0x6BBCA70")]
 	private LayoutNode CreateNodeInternal(LayoutHandle configHandle)
 	{
 		return default(LayoutNode);
 	}
 
 	[Token(Token = "0x6002BE7")]
-	[Address(RVA = "0x31A5640", Offset = "0x31A3C40", VA = "0x1831A5640")]
+	[Address(RVA = "0x6BBCEC0", Offset = "0x6BBBEC0", VA = "0x6BBCEC0")]
 	private void TryRecycleSingleNode()
 	{
 	}
 
 	[Token(Token = "0x6002BE8")]
-	[Address(RVA = "0x31A5360", Offset = "0x31A3960", VA = "0x1831A5360")]
+	[Address(RVA = "0x6BBD220", Offset = "0x6BBC220", VA = "0x6BBD220")]
 	private void TryRecycleNodes()
 	{
 	}
 
 	[Token(Token = "0x6002BE9")]
-	[Address(RVA = "0x31A4740", Offset = "0x31A2D40", VA = "0x1831A4740")]
+	[Address(RVA = "0x6BBD2A0", Offset = "0x6BBC2A0", VA = "0x6BBD2A0")]
 	public void EnqueueNodeForRecycling(ref LayoutNode node)
 	{
 	}
 
 	[Token(Token = "0x6002BEA")]
-	[Address(RVA = "0x31A47D0", Offset = "0x31A2DD0", VA = "0x1831A47D0")]
+	[Address(RVA = "0x6BBCF30", Offset = "0x6BBBF30", VA = "0x6BBCF30")]
 	private void FreeNode(LayoutHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6002BEB")]
-	[Address(RVA = "0x31A3F60", Offset = "0x31A2560", VA = "0x1831A3F60")]
+	[Address(RVA = "0x6BBD330", Offset = "0x6BBC330", VA = "0x6BBD330")]
 	public void Collect()
 	{
 	}
 
 	[Token(Token = "0x6002BEC")]
-	[Address(RVA = "0x31A4CE0", Offset = "0x31A32E0", VA = "0x1831A4CE0")]
+	[Address(RVA = "0x6BBD440", Offset = "0x6BBC440", VA = "0x6BBD440")]
 	public VisualElement GetOwner(LayoutHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002BED")]
-	[Address(RVA = "0x31A51B0", Offset = "0x31A37B0", VA = "0x1831A51B0")]
+	[Address(RVA = "0x6BBD670", Offset = "0x6BBC670", VA = "0x6BBD670")]
 	public void SetOwner(LayoutHandle handle, VisualElement value)
 	{
 	}
 
 	[Token(Token = "0x6002BEE")]
-	[Address(RVA = "0x31A4C30", Offset = "0x31A3230", VA = "0x1831A4C30")]
+	[Address(RVA = "0x6BBD7D0", Offset = "0x6BBC7D0", VA = "0x6BBD7D0")]
 	public LayoutMeasureFunction GetMeasureFunction(LayoutHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002BEF")]
-	[Address(RVA = "0x31A5110", Offset = "0x31A3710", VA = "0x1831A5110")]
+	[Address(RVA = "0x6BBD8B0", Offset = "0x6BBC8B0", VA = "0x6BBD8B0")]
 	public void SetMeasureFunction(LayoutHandle handle, LayoutMeasureFunction value)
 	{
 	}
 
 	[Token(Token = "0x6002BF0")]
-	[Address(RVA = "0x31A4A30", Offset = "0x31A3030", VA = "0x1831A4A30")]
+	[Address(RVA = "0x6BBD9A0", Offset = "0x6BBC9A0", VA = "0x6BBD9A0")]
 	public LayoutBaselineFunction GetBaselineFunction(LayoutHandle handle)
 	{
 		return null;

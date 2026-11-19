@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x200069D")]
+[Token(Token = "0x20006FD")]
 internal class ShifterComponentCache : BaseTitanComponentCache
 {
-	[Token(Token = "0x60040F1")]
-	[Address(RVA = "0x2171960", Offset = "0x216FF60", VA = "0x182171960")]
+	[Token(Token = "0x6004391")]
+	[Address(RVA = "0x5B14180", Offset = "0x5B13180", VA = "0x5B14180")]
 	public ShifterComponentCache(GameObject owner)
 	{
 	}

@@ -10,23 +10,23 @@ using Settings;
 
 namespace Characters;
 
-[Token(Token = "0x200063B")]
+[Token(Token = "0x200069A")]
 internal abstract class SimpleUseable : BaseUseable
 {
-	[Token(Token = "0x6003D9C")]
-	[Address(RVA = "0x21177E0", Offset = "0x2115DE0", VA = "0x1821177E0")]
+	[Token(Token = "0x600402E")]
+	[Address(RVA = "0x5AE19C0", Offset = "0x5AE09C0", VA = "0x5AE19C0")]
 	public SimpleUseable(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003D9D")]
-	[Address(RVA = "0x2117730", Offset = "0x2115D30", VA = "0x182117730", Slot = "11")]
+	[Token(Token = "0x600402F")]
+	[Address(RVA = "0x5AE19D0", Offset = "0x5AE09D0", VA = "0x5AE19D0", Slot = "11")]
 	public override void ReadInput(KeybindSetting keybind)
 	{
 	}
 
-	[Token(Token = "0x6003D9E")]
-	[Address(RVA = "0x211CFE0", Offset = "0x211B5E0", VA = "0x18211CFE0", Slot = "12")]
+	[Token(Token = "0x6004030")]
+	[Address(RVA = "0x5AE1A10", Offset = "0x5AE0A10", VA = "0x5AE1A10", Slot = "12")]
 	public override void SetInput(bool key)
 	{
 	}

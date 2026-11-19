@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005D5")]
+[Token(Token = "0x20005B0")]
 public interface IStructuralEquatable
 {
-	[Token(Token = "0x6002BE6")]
+	[Token(Token = "0x6002BC5")]
 	bool Equals(object other, IEqualityComparer comparer);
 
-	[Token(Token = "0x6002BE7")]
+	[Token(Token = "0x6002BC6")]
 	int GetHashCode(IEqualityComparer comparer);
 }

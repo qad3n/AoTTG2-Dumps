@@ -18,12 +18,12 @@ public sealed class JobProducerTypeAttribute : Attribute
 {
 	[Token(Token = "0x400000F")]
 	[FieldOffset(Offset = "0x10")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly Type _003CProducerType_003Ek__BackingField;
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x68B3130", Offset = "0x68B2130", VA = "0x68B3130")]
 	public JobProducerTypeAttribute(Type producerType)
 	{
 	}

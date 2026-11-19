@@ -9,117 +9,117 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000150")]
+[Token(Token = "0x2000111")]
 public sealed class X509SubjectKeyIdentifierExtension : X509Extension
 {
-	[Token(Token = "0x40005E8")]
+	[Token(Token = "0x4000519")]
 	internal const string oid = "2.5.29.14";
 
-	[Token(Token = "0x40005E9")]
+	[Token(Token = "0x400051A")]
 	internal const string friendlyName = "Subject Key Identifier";
 
-	[Token(Token = "0x40005EA")]
+	[Token(Token = "0x400051B")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] _subjectKeyIdentifier;
 
-	[Token(Token = "0x40005EB")]
+	[Token(Token = "0x400051C")]
 	[FieldOffset(Offset = "0x30")]
 	private string _ski;
 
-	[Token(Token = "0x40005EC")]
+	[Token(Token = "0x400051D")]
 	[FieldOffset(Offset = "0x38")]
 	private AsnDecodeStatus _status;
 
-	[Token(Token = "0x1700019A")]
+	[Token(Token = "0x1700016B")]
 	public string SubjectKeyIdentifier
 	{
-		[Token(Token = "0x6000863")]
-		[Address(RVA = "0x2892420", Offset = "0x2890A20", VA = "0x182892420")]
+		[Token(Token = "0x60006A3")]
+		[Address(RVA = "0x621F800", Offset = "0x621E800", VA = "0x621F800")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600085D")]
-	[Address(RVA = "0x2892370", Offset = "0x2890970", VA = "0x182892370")]
+	[Token(Token = "0x600069D")]
+	[Address(RVA = "0x621EAD0", Offset = "0x621DAD0", VA = "0x621EAD0")]
 	public X509SubjectKeyIdentifierExtension()
 	{
 	}
 
-	[Token(Token = "0x600085E")]
-	[Address(RVA = "0x2891DA0", Offset = "0x28903A0", VA = "0x182891DA0")]
+	[Token(Token = "0x600069E")]
+	[Address(RVA = "0x621EB60", Offset = "0x621DB60", VA = "0x621EB60")]
 	public X509SubjectKeyIdentifierExtension(AsnEncodedData encodedSubjectKeyIdentifier, bool critical)
 	{
 	}
 
-	[Token(Token = "0x600085F")]
-	[Address(RVA = "0x2891E90", Offset = "0x2890490", VA = "0x182891E90")]
+	[Token(Token = "0x600069F")]
+	[Address(RVA = "0x621ED90", Offset = "0x621DD90", VA = "0x621ED90")]
 	public X509SubjectKeyIdentifierExtension(byte[] subjectKeyIdentifier, bool critical)
 	{
 	}
 
-	[Token(Token = "0x6000860")]
-	[Address(RVA = "0x28920B0", Offset = "0x28906B0", VA = "0x1828920B0")]
+	[Token(Token = "0x60006A0")]
+	[Address(RVA = "0x621F050", Offset = "0x621E050", VA = "0x621F050")]
 	public X509SubjectKeyIdentifierExtension(string subjectKeyIdentifier, bool critical)
 	{
 	}
 
-	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x2891D80", Offset = "0x2890380", VA = "0x182891D80")]
+	[Token(Token = "0x60006A1")]
+	[Address(RVA = "0x621F3A0", Offset = "0x621E3A0", VA = "0x621F3A0")]
 	public X509SubjectKeyIdentifierExtension(PublicKey key, bool critical)
 	{
 	}
 
-	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x2891930", Offset = "0x288FF30", VA = "0x182891930")]
+	[Token(Token = "0x60006A2")]
+	[Address(RVA = "0x621F3B0", Offset = "0x621E3B0", VA = "0x621F3B0")]
 	public X509SubjectKeyIdentifierExtension(PublicKey key, X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical)
 	{
 	}
 
-	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x28910E0", Offset = "0x288F6E0", VA = "0x1828910E0", Slot = "4")]
+	[Token(Token = "0x60006A4")]
+	[Address(RVA = "0x621F880", Offset = "0x621E880", VA = "0x621F880", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
-	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x28914D0", Offset = "0x288FAD0", VA = "0x1828914D0")]
+	[Token(Token = "0x60006A5")]
+	[Address(RVA = "0x621FA30", Offset = "0x621EA30", VA = "0x621FA30")]
 	internal static byte FromHexChar(char c)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x6000866")]
-	[Address(RVA = "0x2891500", Offset = "0x288FB00", VA = "0x182891500")]
+	[Token(Token = "0x60006A6")]
+	[Address(RVA = "0x621FA70", Offset = "0x621EA70", VA = "0x621FA70")]
 	internal static byte FromHexChars(char c1, char c2)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x6000867")]
-	[Address(RVA = "0x2891580", Offset = "0x288FB80", VA = "0x182891580")]
+	[Token(Token = "0x60006A7")]
+	[Address(RVA = "0x621F210", Offset = "0x621E210", VA = "0x621F210")]
 	internal static byte[] FromHex(string hex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000868")]
-	[Address(RVA = "0x2891310", Offset = "0x288F910", VA = "0x182891310")]
+	[Token(Token = "0x60006A8")]
+	[Address(RVA = "0x621EC30", Offset = "0x621DC30", VA = "0x621EC30")]
 	internal AsnDecodeStatus Decode(byte[] extension)
 	{
 		return default(AsnDecodeStatus);
 	}
 
-	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x2891450", Offset = "0x288FA50", VA = "0x182891450")]
+	[Token(Token = "0x60006A9")]
+	[Address(RVA = "0x621EFD0", Offset = "0x621DFD0", VA = "0x621EFD0")]
 	internal byte[] Encode()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600086A")]
-	[Address(RVA = "0x28916E0", Offset = "0x288FCE0", VA = "0x1828916E0", Slot = "6")]
+	[Token(Token = "0x60006AA")]
+	[Address(RVA = "0x621FAF0", Offset = "0x621EAF0", VA = "0x621FAF0", Slot = "6")]
 	internal override string ToString(bool multiLine)
 	{
 		return null;

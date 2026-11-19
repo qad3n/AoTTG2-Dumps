@@ -50,13 +50,13 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	public string Name
 	{
 		[Token(Token = "0x6001560")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x60271F0", Offset = "0x60261F0", VA = "0x60271F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001561")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x6027200", Offset = "0x6026200", VA = "0x6027200")]
 		set
 		{
 		}
@@ -68,7 +68,7 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	public XmlSchemaObjectCollection Attributes
 	{
 		[Token(Token = "0x6001562")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6027210", Offset = "0x6026210", VA = "0x6027210")]
 		get
 		{
 			return null;
@@ -80,13 +80,13 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	public XmlSchemaAnyAttribute AnyAttribute
 	{
 		[Token(Token = "0x6001563")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6027220", Offset = "0x6026220", VA = "0x6027220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001564")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x6027230", Offset = "0x6026230", VA = "0x6027230")]
 		set
 		{
 		}
@@ -97,7 +97,7 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	public XmlQualifiedName QualifiedName
 	{
 		[Token(Token = "0x6001565")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6027240", Offset = "0x6026240", VA = "0x6027240")]
 		get
 		{
 			return null;
@@ -109,7 +109,7 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	internal XmlSchemaObjectTable AttributeUses
 	{
 		[Token(Token = "0x6001566")]
-		[Address(RVA = "0x26662B0", Offset = "0x26648B0", VA = "0x1826662B0")]
+		[Address(RVA = "0x6027250", Offset = "0x6026250", VA = "0x6027250")]
 		get
 		{
 			return null;
@@ -121,13 +121,13 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	internal XmlSchemaAnyAttribute AttributeWildcard
 	{
 		[Token(Token = "0x6001567")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x60272D0", Offset = "0x60262D0", VA = "0x60272D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001568")]
-		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
+		[Address(RVA = "0x60272E0", Offset = "0x60262E0", VA = "0x60272E0")]
 		set
 		{
 		}
@@ -138,7 +138,7 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	public XmlSchemaAttributeGroup RedefinedAttributeGroup
 	{
 		[Token(Token = "0x6001569")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x60272F0", Offset = "0x60262F0", VA = "0x60272F0")]
 		get
 		{
 			return null;
@@ -150,13 +150,13 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	internal XmlSchemaAttributeGroup Redefined
 	{
 		[Token(Token = "0x600156A")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x6027300", Offset = "0x6026300", VA = "0x6027300")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600156B")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x6027310", Offset = "0x6026310", VA = "0x6027310")]
 		set
 		{
 		}
@@ -167,13 +167,13 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	internal int SelfReferenceCount
 	{
 		[Token(Token = "0x600156C")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0")]
+		[Address(RVA = "0x6027320", Offset = "0x6026320", VA = "0x6027320")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600156D")]
-		[Address(RVA = "0xA4D5A0", Offset = "0xA4BBA0", VA = "0x180A4D5A0")]
+		[Address(RVA = "0x6027330", Offset = "0x6026330", VA = "0x6027330")]
 		set
 		{
 		}
@@ -184,33 +184,33 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated
 	internal override string NameAttribute
 	{
 		[Token(Token = "0x600156E")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "11")]
+		[Address(RVA = "0x6027340", Offset = "0x6026340", VA = "0x6027340", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600156F")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "12")]
+		[Address(RVA = "0x6027350", Offset = "0x6026350", VA = "0x6027350", Slot = "12")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001570")]
-	[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+	[Address(RVA = "0x6027360", Offset = "0x6026360", VA = "0x6027360")]
 	internal void SetQualifiedName(XmlQualifiedName value)
 	{
 	}
 
 	[Token(Token = "0x6001571")]
-	[Address(RVA = "0x26660E0", Offset = "0x26646E0", VA = "0x1826660E0", Slot = "13")]
+	[Address(RVA = "0x6027370", Offset = "0x6026370", VA = "0x6027370", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001572")]
-	[Address(RVA = "0x2666200", Offset = "0x2664800", VA = "0x182666200")]
+	[Address(RVA = "0x60278C0", Offset = "0x60268C0", VA = "0x60278C0")]
 	public XmlSchemaAttributeGroup()
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace SimpleJSONFixed;
 
-[Token(Token = "0x2000044")]
+[Token(Token = "0x2000043")]
 public enum JSONTextMode
 {
-	[Token(Token = "0x4000193")]
+	[Token(Token = "0x40001A2")]
 	Compact,
-	[Token(Token = "0x4000194")]
+	[Token(Token = "0x40001A3")]
 	Indent
 }

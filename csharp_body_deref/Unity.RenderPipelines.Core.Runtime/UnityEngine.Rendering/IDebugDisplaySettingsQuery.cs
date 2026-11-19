@@ -23,7 +23,7 @@ public interface IDebugDisplaySettingsQuery
 	bool IsPostProcessingAllowed
 	{
 		[Token(Token = "0x6000791")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "1")]
+		[Address(RVA = "0x64D8590", Offset = "0x64D7590", VA = "0x64D8590", Slot = "1")]
 		get
 		{
 			return default(bool);
@@ -34,7 +34,7 @@ public interface IDebugDisplaySettingsQuery
 	bool IsLightingActive
 	{
 		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "2")]
+		[Address(RVA = "0x64D85A0", Offset = "0x64D75A0", VA = "0x64D85A0", Slot = "2")]
 		get
 		{
 			return default(bool);
@@ -42,7 +42,7 @@ public interface IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000793")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "3")]
+	[Address(RVA = "0x64D85B0", Offset = "0x64D75B0", VA = "0x64D85B0", Slot = "3")]
 	bool TryGetScreenClearColor(ref Color color)
 	{
 		return default(bool);

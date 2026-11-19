@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Security.Util;
 
-[Token(Token = "0x20002DF")]
+[Token(Token = "0x20002B8")]
 internal sealed class TokenizerShortBlock
 {
-	[Token(Token = "0x4000C56")]
+	[Token(Token = "0x4000BB6")]
 	[FieldOffset(Offset = "0x10")]
 	internal short[] m_block;
 
-	[Token(Token = "0x4000C57")]
+	[Token(Token = "0x4000BB7")]
 	[FieldOffset(Offset = "0x18")]
 	internal System.Security.Util.TokenizerShortBlock m_next;
 
-	[Token(Token = "0x6001838")]
-	[Address(RVA = "0x199BAB0", Offset = "0x199A0B0", VA = "0x18199BAB0")]
+	[Token(Token = "0x6001815")]
+	[Address(RVA = "0x532D2A0", Offset = "0x532C2A0", VA = "0x532D2A0")]
 	public TokenizerShortBlock()
 	{
 	}

@@ -10,58 +10,58 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E3")]
+[Token(Token = "0x20002A4")]
 internal class HeaderInfoTable
 {
-	[Token(Token = "0x4000B0A")]
+	[Token(Token = "0x4000A3B")]
 	[FieldOffset(Offset = "0x0")]
 	private static Hashtable HeaderHashTable;
 
-	[Token(Token = "0x4000B0B")]
+	[Token(Token = "0x4000A3C")]
 	[FieldOffset(Offset = "0x8")]
 	private static HeaderInfo UnknownHeaderInfo;
 
-	[Token(Token = "0x4000B0C")]
+	[Token(Token = "0x4000A3D")]
 	[FieldOffset(Offset = "0x10")]
 	private static HeaderParser SingleParser;
 
-	[Token(Token = "0x4000B0D")]
+	[Token(Token = "0x4000A3E")]
 	[FieldOffset(Offset = "0x18")]
 	private static HeaderParser MultiParser;
 
-	[Token(Token = "0x1700042C")]
+	[Token(Token = "0x170003FD")]
 	internal HeaderInfo this[string name]
 	{
-		[Token(Token = "0x600142D")]
-		[Address(RVA = "0x27CF140", Offset = "0x27CD740", VA = "0x1827CF140")]
+		[Token(Token = "0x600126F")]
+		[Address(RVA = "0x62A8310", Offset = "0x62A7310", VA = "0x62A8310")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600142A")]
-	[Address(RVA = "0x27CC990", Offset = "0x27CAF90", VA = "0x1827CC990")]
+	[Token(Token = "0x600126C")]
+	[Address(RVA = "0x62ACD50", Offset = "0x62ABD50", VA = "0x62ACD50")]
 	private static string[] ParseSingleValue(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600142B")]
-	[Address(RVA = "0x27CC790", Offset = "0x27CAD90", VA = "0x1827CC790")]
+	[Token(Token = "0x600126D")]
+	[Address(RVA = "0x62ACDC0", Offset = "0x62ABDC0", VA = "0x62ACDC0")]
 	private static string[] ParseMultiValue(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600142C")]
-	[Address(RVA = "0x27CCA10", Offset = "0x27CB010", VA = "0x1827CCA10")]
+	[Token(Token = "0x600126E")]
+	[Address(RVA = "0x62AD0F0", Offset = "0x62AC0F0", VA = "0x62AD0F0")]
 	static HeaderInfoTable()
 	{
 	}
 
-	[Token(Token = "0x600142E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001270")]
+	[Address(RVA = "0x62AA9C0", Offset = "0x62A99C0", VA = "0x62AA9C0")]
 	public HeaderInfoTable()
 	{
 	}

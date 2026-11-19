@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000F9")]
+[Token(Token = "0x20000D1")]
 public interface IEquatable<T>
 {
-	[Token(Token = "0x60007DD")]
+	[Token(Token = "0x60007B8")]
 	bool Equals(T other);
 }

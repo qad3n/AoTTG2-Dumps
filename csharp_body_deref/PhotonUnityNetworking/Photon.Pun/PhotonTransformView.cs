@@ -61,37 +61,37 @@ public class PhotonTransformView : MonoBehaviourPun, IPunObservable
 	private bool m_firstTake;
 
 	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x1D668D0", Offset = "0x1D64ED0", VA = "0x181D668D0")]
+	[Address(RVA = "0x56FCF30", Offset = "0x56FBF30", VA = "0x56FCF30")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x1D67080", Offset = "0x1D65680", VA = "0x181D67080")]
+	[Address(RVA = "0x56FCFE0", Offset = "0x56FBFE0", VA = "0x56FCFE0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x1D66980", Offset = "0x1D64F80", VA = "0x181D66980")]
+	[Address(RVA = "0x56FCFF0", Offset = "0x56FBFF0", VA = "0x56FCFF0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x1D67090", Offset = "0x1D65690", VA = "0x181D67090")]
+	[Address(RVA = "0x56FD000", Offset = "0x56FC000", VA = "0x56FD000")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x1D66990", Offset = "0x1D64F90", VA = "0x181D66990", Slot = "4")]
+	[Address(RVA = "0x56FD670", Offset = "0x56FC670", VA = "0x56FD670", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x1D674F0", Offset = "0x1D65AF0", VA = "0x181D674F0")]
+	[Address(RVA = "0x56FDCA0", Offset = "0x56FCCA0", VA = "0x56FDCA0")]
 	public PhotonTransformView()
 	{
 	}

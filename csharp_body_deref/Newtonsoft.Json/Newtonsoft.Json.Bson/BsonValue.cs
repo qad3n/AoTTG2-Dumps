@@ -24,7 +24,7 @@ internal class BsonValue : BsonToken
 	public object Value
 	{
 		[Token(Token = "0x6001014")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x564BB10", Offset = "0x564AB10", VA = "0x564BB10")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class BsonValue : BsonToken
 	public override BsonType Type
 	{
 		[Token(Token = "0x6001015")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480", Slot = "4")]
+		[Address(RVA = "0x564BB20", Offset = "0x564AB20", VA = "0x564BB20", Slot = "4")]
 		get
 		{
 			return default(BsonType);
@@ -43,7 +43,7 @@ internal class BsonValue : BsonToken
 	}
 
 	[Token(Token = "0x6001013")]
-	[Address(RVA = "0x1CAC710", Offset = "0x1CAAD10", VA = "0x181CAC710")]
+	[Address(RVA = "0x564BAE0", Offset = "0x564AAE0", VA = "0x564BAE0")]
 	public BsonValue(object value, BsonType type)
 	{
 	}

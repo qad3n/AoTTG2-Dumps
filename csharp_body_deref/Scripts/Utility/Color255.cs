@@ -10,73 +10,73 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x20008B0")]
+[Token(Token = "0x200091B")]
 public class Color255
 {
-	[Token(Token = "0x4002B32")]
+	[Token(Token = "0x4002DE9")]
 	[FieldOffset(Offset = "0x10")]
 	public int R;
 
-	[Token(Token = "0x4002B33")]
+	[Token(Token = "0x4002DEA")]
 	[FieldOffset(Offset = "0x14")]
 	public int G;
 
-	[Token(Token = "0x4002B34")]
+	[Token(Token = "0x4002DEB")]
 	[FieldOffset(Offset = "0x18")]
 	public int B;
 
-	[Token(Token = "0x4002B35")]
+	[Token(Token = "0x4002DEC")]
 	[FieldOffset(Offset = "0x1C")]
 	public int A;
 
-	[Token(Token = "0x60052EA")]
-	[Address(RVA = "0x2332760", Offset = "0x2330D60", VA = "0x182332760")]
+	[Token(Token = "0x6005641")]
+	[Address(RVA = "0x5CE7730", Offset = "0x5CE6730", VA = "0x5CE7730")]
 	public Color255(int r, int g, int b, int a = 255)
 	{
 	}
 
-	[Token(Token = "0x60052EB")]
-	[Address(RVA = "0x2332720", Offset = "0x2330D20", VA = "0x182332720")]
+	[Token(Token = "0x6005642")]
+	[Address(RVA = "0x5CE7770", Offset = "0x5CE6770", VA = "0x5CE7770")]
 	public Color255()
 	{
 	}
 
-	[Token(Token = "0x60052EC")]
-	[Address(RVA = "0x23327A0", Offset = "0x2330DA0", VA = "0x1823327A0")]
+	[Token(Token = "0x6005643")]
+	[Address(RVA = "0x5CE7790", Offset = "0x5CE6790", VA = "0x5CE7790")]
 	public Color255(Color color)
 	{
 	}
 
-	[Token(Token = "0x60052ED")]
-	[Address(RVA = "0x23326D0", Offset = "0x2330CD0", VA = "0x1823326D0")]
+	[Token(Token = "0x6005644")]
+	[Address(RVA = "0x5CE77D0", Offset = "0x5CE67D0", VA = "0x5CE77D0")]
 	public Color ToColor()
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x60052EE")]
-	[Address(RVA = "0x2332520", Offset = "0x2330B20", VA = "0x182332520")]
+	[Token(Token = "0x6005645")]
+	[Address(RVA = "0x5CE77F0", Offset = "0x5CE67F0", VA = "0x5CE77F0")]
 	public static Color255 Lerp(Color255 from, Color255 to, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60052EF")]
-	[Address(RVA = "0x23323E0", Offset = "0x23309E0", VA = "0x1823323E0")]
+	[Token(Token = "0x6005646")]
+	[Address(RVA = "0x5CE78A0", Offset = "0x5CE68A0", VA = "0x5CE78A0")]
 	public static Color255 Gradient(GradientColorKey[] colorKeys, GradientAlphaKey[] alphakeys, GradientMode mode, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60052F0")]
-	[Address(RVA = "0x2332290", Offset = "0x2330890", VA = "0x182332290", Slot = "0")]
+	[Token(Token = "0x6005647")]
+	[Address(RVA = "0x5CE7970", Offset = "0x5CE6970", VA = "0x5CE7970", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60052F1")]
-	[Address(RVA = "0x2332350", Offset = "0x2330950", VA = "0x182332350", Slot = "2")]
+	[Token(Token = "0x6005648")]
+	[Address(RVA = "0x5CE7A00", Offset = "0x5CE6A00", VA = "0x5CE7A00", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

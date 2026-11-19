@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchySearchQueryDescriptor
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,14 +47,14 @@ public sealed class HierarchySearchQueryDescriptor
 	public HierarchySearchFilter[] SystemFilters
 	{
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6974CA0", Offset = "0x6973CA0", VA = "0x6974CA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6974CB0", Offset = "0x6973CB0", VA = "0x6974CB0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -65,14 +65,14 @@ public sealed class HierarchySearchQueryDescriptor
 	public HierarchySearchFilter[] Filters
 	{
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6974CC0", Offset = "0x6973CC0", VA = "0x6974CC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000DE")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6974CD0", Offset = "0x6973CD0", VA = "0x6974CD0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -83,14 +83,14 @@ public sealed class HierarchySearchQueryDescriptor
 	public string[] TextValues
 	{
 		[Token(Token = "0x60000DF")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6974CE0", Offset = "0x6973CE0", VA = "0x6974CE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000E0")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6974CF0", Offset = "0x6973CF0", VA = "0x6974CF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -101,7 +101,7 @@ public sealed class HierarchySearchQueryDescriptor
 	public bool Strict
 	{
 		[Token(Token = "0x60000E1")]
-		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
+		[Address(RVA = "0x6974D00", Offset = "0x6973D00", VA = "0x6974D00")]
 		[CompilerGenerated]
 		set
 		{
@@ -112,7 +112,7 @@ public sealed class HierarchySearchQueryDescriptor
 	public bool Invalid
 	{
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x20FB170", Offset = "0x20F9770", VA = "0x1820FB170")]
+		[Address(RVA = "0x6974D10", Offset = "0x6973D10", VA = "0x6974D10")]
 		[CompilerGenerated]
 		set
 		{
@@ -123,7 +123,7 @@ public sealed class HierarchySearchQueryDescriptor
 	public string Query
 	{
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x2F7FBA0", Offset = "0x2F7E1A0", VA = "0x182F7FBA0")]
+		[Address(RVA = "0x6974D20", Offset = "0x6973D20", VA = "0x6974D20")]
 		get
 		{
 			return null;
@@ -131,20 +131,20 @@ public sealed class HierarchySearchQueryDescriptor
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x2F7FE10", Offset = "0x2F7E410", VA = "0x182F7FE10")]
+	[Address(RVA = "0x6974F50", Offset = "0x6973F50", VA = "0x6974F50")]
 	public HierarchySearchQueryDescriptor([Optional] HierarchySearchFilter[] filters, [Optional] string[] textValues)
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x2F7FBA0", Offset = "0x2F7E1A0", VA = "0x182F7FBA0", Slot = "3")]
+	[Address(RVA = "0x6975490", Offset = "0x6974490", VA = "0x6975490", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x2F7F630", Offset = "0x2F7DC30", VA = "0x182F7F630")]
+	[Address(RVA = "0x69754A0", Offset = "0x69744A0", VA = "0x69754A0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.HierarchyModule" })]
 	internal string BuildFilterQuery()
 	{
@@ -152,21 +152,21 @@ public sealed class HierarchySearchQueryDescriptor
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x2F7F9A0", Offset = "0x2F7DFA0", VA = "0x182F7F9A0")]
+	[Address(RVA = "0x69754F0", Offset = "0x69744F0", VA = "0x69754F0")]
 	internal string BuildSystemFilterQuery()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x2F7F9F0", Offset = "0x2F7DFF0", VA = "0x182F7F9F0")]
+	[Address(RVA = "0x6975540", Offset = "0x6974540", VA = "0x6975540")]
 	internal string BuildTextQuery()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x2F7F680", Offset = "0x2F7DC80", VA = "0x182F7F680")]
+	[Address(RVA = "0x6974DC0", Offset = "0x6973DC0", VA = "0x6974DC0")]
 	internal string BuildQuery()
 	{
 		return null;

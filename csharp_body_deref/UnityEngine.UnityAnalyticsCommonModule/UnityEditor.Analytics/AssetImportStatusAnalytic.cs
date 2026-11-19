@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.AssetImportStatusAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,13 +62,13 @@ internal class AssetImportStatusAnalytic : AnalyticsEventBase
 	public string[] selected_asset_extensions;
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x3306D10", Offset = "0x3305310", VA = "0x183306D10")]
+	[Address(RVA = "0x6D187A0", Offset = "0x6D177A0", VA = "0x6D187A0")]
 	public AssetImportStatusAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x3306C70", Offset = "0x3305270", VA = "0x183306C70")]
+	[Address(RVA = "0x6D18800", Offset = "0x6D17800", VA = "0x6D18800")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static AssetImportStatusAnalytic CreateAssetImportStatusAnalytic()
 	{

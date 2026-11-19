@@ -10,58 +10,58 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200006A")]
+[Token(Token = "0x200006B")]
 internal sealed class Block4 : BlockExpression
 {
-	[Token(Token = "0x40000FA")]
+	[Token(Token = "0x4000103")]
 	[FieldOffset(Offset = "0x10")]
 	private object _arg0;
 
-	[Token(Token = "0x40000FB")]
+	[Token(Token = "0x4000104")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Expression _arg1;
 
-	[Token(Token = "0x40000FC")]
+	[Token(Token = "0x4000105")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Expression _arg2;
 
-	[Token(Token = "0x40000FD")]
+	[Token(Token = "0x4000106")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly Expression _arg3;
 
-	[Token(Token = "0x17000061")]
+	[Token(Token = "0x17000063")]
 	internal override int ExpressionCount
 	{
-		[Token(Token = "0x60002C9")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "11")]
+		[Token(Token = "0x60002D4")]
+		[Address(RVA = "0x5DC4980", Offset = "0x5DC3980", VA = "0x5DC4980", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x2428800", Offset = "0x2426E00", VA = "0x182428800")]
+	[Token(Token = "0x60002D2")]
+	[Address(RVA = "0x5DC4820", Offset = "0x5DC3820", VA = "0x5DC4820")]
 	internal Block4(Expression arg0, Expression arg1, Expression arg2, Expression arg3)
 	{
 	}
 
-	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x2428610", Offset = "0x2426C10", VA = "0x182428610", Slot = "10")]
+	[Token(Token = "0x60002D3")]
+	[Address(RVA = "0x5DC48D0", Offset = "0x5DC38D0", VA = "0x5DC48D0", Slot = "10")]
 	internal override Expression GetExpression(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x2428240", Offset = "0x2426840", VA = "0x182428240", Slot = "12")]
+	[Token(Token = "0x60002D5")]
+	[Address(RVA = "0x5DC4990", Offset = "0x5DC3990", VA = "0x5DC4990", Slot = "12")]
 	internal override ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x24286D0", Offset = "0x2426CD0", VA = "0x1824286D0", Slot = "14")]
+	[Token(Token = "0x60002D6")]
+	[Address(RVA = "0x5DC49A0", Offset = "0x5DC39A0", VA = "0x5DC49A0", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

@@ -13,53 +13,53 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200032A")]
 public enum BuiltinRenderTextureType
 {
-	[Token(Token = "0x4000873")]
+	[Token(Token = "0x4000871")]
 	PropertyName = -4,
-	[Token(Token = "0x4000874")]
+	[Token(Token = "0x4000872")]
 	BufferPtr = -3,
-	[Token(Token = "0x4000875")]
+	[Token(Token = "0x4000873")]
 	RenderTexture = -2,
-	[Token(Token = "0x4000876")]
+	[Token(Token = "0x4000874")]
 	BindableTexture = -1,
-	[Token(Token = "0x4000877")]
+	[Token(Token = "0x4000875")]
 	None = 0,
-	[Token(Token = "0x4000878")]
+	[Token(Token = "0x4000876")]
 	CurrentActive = 1,
-	[Token(Token = "0x4000879")]
+	[Token(Token = "0x4000877")]
 	CameraTarget = 2,
-	[Token(Token = "0x400087A")]
+	[Token(Token = "0x4000878")]
 	Depth = 3,
-	[Token(Token = "0x400087B")]
+	[Token(Token = "0x4000879")]
 	DepthNormals = 4,
-	[Token(Token = "0x400087C")]
+	[Token(Token = "0x400087A")]
 	ResolvedDepth = 5,
-	[Token(Token = "0x400087D")]
+	[Token(Token = "0x400087B")]
 	[Obsolete("Deferred Lighting has been removed, so PrepassNormalsSpec built-in render texture type is never used now.", false)]
 	PrepassNormalsSpec = 7,
-	[Token(Token = "0x400087E")]
+	[Token(Token = "0x400087C")]
 	[Obsolete("Deferred Lighting has been removed, so PrepassLight built-in render texture type is never used now.", false)]
 	PrepassLight = 8,
-	[Token(Token = "0x400087F")]
+	[Token(Token = "0x400087D")]
 	[Obsolete("Deferred Lighting has been removed, so PrepassLightSpec built-in render texture type is never used now.", false)]
 	PrepassLightSpec = 9,
-	[Token(Token = "0x4000880")]
+	[Token(Token = "0x400087E")]
 	GBuffer0 = 10,
-	[Token(Token = "0x4000881")]
+	[Token(Token = "0x400087F")]
 	GBuffer1 = 11,
-	[Token(Token = "0x4000882")]
+	[Token(Token = "0x4000880")]
 	GBuffer2 = 12,
-	[Token(Token = "0x4000883")]
+	[Token(Token = "0x4000881")]
 	GBuffer3 = 13,
-	[Token(Token = "0x4000884")]
+	[Token(Token = "0x4000882")]
 	Reflections = 14,
-	[Token(Token = "0x4000885")]
+	[Token(Token = "0x4000883")]
 	MotionVectors = 15,
-	[Token(Token = "0x4000886")]
+	[Token(Token = "0x4000884")]
 	GBuffer4 = 16,
-	[Token(Token = "0x4000887")]
+	[Token(Token = "0x4000885")]
 	GBuffer5 = 17,
-	[Token(Token = "0x4000888")]
+	[Token(Token = "0x4000886")]
 	GBuffer6 = 18,
-	[Token(Token = "0x4000889")]
+	[Token(Token = "0x4000887")]
 	GBuffer7 = 19
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.ViewportScaler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/ViewportScaler.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,27 +10,27 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000740")]
+[Token(Token = "0x20007E8")]
 internal class ViewportScaler : IgnoreScaler
 {
-	[Token(Token = "0x4002409")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4002779")]
+	[FieldOffset(Offset = "0x24")]
 	public Vector2 ContentSize;
 
-	[Token(Token = "0x60046ED")]
-	[Address(RVA = "0x221B790", Offset = "0x2219D90", VA = "0x18221B790", Slot = "5")]
+	[Token(Token = "0x6004C0D")]
+	[Address(RVA = "0x5BECEA0", Offset = "0x5BEBEA0", VA = "0x5BECEA0", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x60046EE")]
-	[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0")]
+	[Token(Token = "0x6004C0E")]
+	[Address(RVA = "0x5BED100", Offset = "0x5BEC100", VA = "0x5BED100")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60046EF")]
-	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
+	[Token(Token = "0x6004C0F")]
+	[Address(RVA = "0x5BED120", Offset = "0x5BEC120", VA = "0x5BED120")]
 	public ViewportScaler()
 	{
 	}

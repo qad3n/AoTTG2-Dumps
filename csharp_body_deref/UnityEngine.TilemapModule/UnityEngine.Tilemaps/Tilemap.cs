@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Tilemaps.Tilemap
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,13 +17,13 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Tilemaps;
 
 [Token(Token = "0x2000006")]
-[UnityEngine.Bindings.NativeHeader("Modules/Grid/Public/Grid.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Tilemap/Public/TilemapTile.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
-[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/Public/Tilemap.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/SpriteFrame.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Grid/Public/Grid.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
 [RequireComponent(typeof(Transform))]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/SpriteFrame.h")]
+[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/Public/Tilemap.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
 public sealed class Tilemap : GridLayout
 {
 	[Token(Token = "0x2000007")]
@@ -67,8 +67,8 @@ public sealed class Tilemap : GridLayout
 
 	[Token(Token = "0x4000011")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<Tilemap, NativeArray<Vector3Int>> tilemapPositionsChanged;
 
 	[Token(Token = "0x4000012")]
@@ -85,7 +85,7 @@ public sealed class Tilemap : GridLayout
 	internal bool bufferSyncTile
 	{
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x2E85230", Offset = "0x2E83830", VA = "0x182E85230")]
+		[Address(RVA = "0x6A5C7C0", Offset = "0x6A5B7C0", VA = "0x6A5C7C0")]
 		get
 		{
 			return default(bool);
@@ -93,106 +93,106 @@ public sealed class Tilemap : GridLayout
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x30614A0", Offset = "0x305FAA0", VA = "0x1830614A0")]
+	[Address(RVA = "0x6A5C7D0", Offset = "0x6A5B7D0", VA = "0x6A5C7D0")]
 	internal static bool HasLoopEndedForTileAnimationCallback()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3061200", Offset = "0x305F800", VA = "0x183061200")]
+	[Address(RVA = "0x6A5C810", Offset = "0x6A5B810", VA = "0x6A5C810")]
 	private void HandleLoopEndedForTileAnimationCallback(int count, IntPtr positionsIntPtr)
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3061740", Offset = "0x305FD40", VA = "0x183061740")]
+	[Address(RVA = "0x6A5C8A0", Offset = "0x6A5B8A0", VA = "0x6A5C8A0")]
 	private void SendLoopEndedForTileAnimationCallback(NativeArray<Vector3Int> positions)
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3061520", Offset = "0x305FB20", VA = "0x183061520")]
+	[Address(RVA = "0x6A5C9B0", Offset = "0x6A5B9B0", VA = "0x6A5C9B0")]
 	internal static bool HasSyncTileCallback()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x30614E0", Offset = "0x305FAE0", VA = "0x1830614E0")]
+	[Address(RVA = "0x6A5C9F0", Offset = "0x6A5B9F0", VA = "0x6A5C9F0")]
 	internal static bool HasPositionsChangedCallback()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x3061360", Offset = "0x305F960", VA = "0x183061360")]
+	[Address(RVA = "0x6A5CA30", Offset = "0x6A5BA30", VA = "0x6A5CA30")]
 	private void HandleSyncTileCallback(SyncTile[] syncTiles)
 	{
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x30612B0", Offset = "0x305F8B0", VA = "0x1830612B0")]
+	[Address(RVA = "0x6A5CBA0", Offset = "0x6A5BBA0", VA = "0x6A5CBA0")]
 	private void HandlePositionsChangedCallback(int count, IntPtr positionsIntPtr)
 	{
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x30618A0", Offset = "0x305FEA0", VA = "0x1830618A0")]
+	[Address(RVA = "0x6A5CA90", Offset = "0x6A5BA90", VA = "0x6A5CA90")]
 	private void SendTilemapTileChangedCallback(SyncTile[] syncTiles)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x30617F0", Offset = "0x305FDF0", VA = "0x1830617F0")]
+	[Address(RVA = "0x6A5CC30", Offset = "0x6A5BC30", VA = "0x6A5CC30")]
 	private void SendTilemapPositionsChangedCallback(NativeArray<Vector3Int> positions)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x30615B0", Offset = "0x305FBB0", VA = "0x1830615B0")]
+	[Address(RVA = "0x6A5BA60", Offset = "0x6A5AA60", VA = "0x6A5BA60")]
 	[UnityEngine.Bindings.NativeMethod(Name = "RefreshTileAsset")]
 	public void RefreshTile(Vector3Int position)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x30616A0", Offset = "0x305FCA0", VA = "0x1830616A0")]
+	[Address(RVA = "0x6A5BF00", Offset = "0x6A5AF00", VA = "0x6A5BF00")]
 	[UnityEngine.Bindings.FreeFunction(Name = "TilemapBindings::RefreshTileAssetsNative", HasExplicitThis = true)]
 	internal unsafe void RefreshTilesNative(void* positions, int count)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x30613C0", Offset = "0x305F9C0", VA = "0x1830613C0")]
+	[Address(RVA = "0x6A5CDC0", Offset = "0x6A5BDC0", VA = "0x6A5CDC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void GetLoopEndedForTileAnimationCallbackSettings(ref bool hasEndLoopForTileAnimationCallback)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3061200", Offset = "0x305F800", VA = "0x183061200")]
+	[Address(RVA = "0x6A5CE00", Offset = "0x6A5BE00", VA = "0x6A5CE00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void DoLoopEndedForTileAnimationCallback(int count, IntPtr positionsIntPtr)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x3061410", Offset = "0x305FA10", VA = "0x183061410")]
+	[Address(RVA = "0x6A5CE90", Offset = "0x6A5BE90", VA = "0x6A5CE90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void GetSyncTileCallbackSettings(ref SyncTileCallbackSettings settings)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x3061360", Offset = "0x305F960", VA = "0x183061360")]
+	[Address(RVA = "0x6A5CF10", Offset = "0x6A5BF10", VA = "0x6A5CF10")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void DoSyncTileCallback(SyncTile[] syncTiles)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x30612B0", Offset = "0x305F8B0", VA = "0x1830612B0")]
+	[Address(RVA = "0x6A5CF70", Offset = "0x6A5BF70", VA = "0x6A5CF70")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void DoPositionsChangedCallback(int count, IntPtr positionsIntPtr)
 	{
@@ -200,11 +200,11 @@ public sealed class Tilemap : GridLayout
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3061560", Offset = "0x305FB60", VA = "0x183061560")]
+	[Address(RVA = "0x6A5CD40", Offset = "0x6A5BD40", VA = "0x6A5CD40")]
 	private static extern void RefreshTile_Injected(IntPtr _unity_self, [In] ref Vector3Int position);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x3061640", Offset = "0x305FC40", VA = "0x183061640")]
+	[Address(RVA = "0x6A5CD80", Offset = "0x6A5BD80", VA = "0x6A5CD80")]
 	private unsafe static extern void RefreshTilesNative_Injected(IntPtr _unity_self, void* positions, int count);
 }

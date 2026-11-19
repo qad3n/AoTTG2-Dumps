@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000160")]
+[Token(Token = "0x2000161")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 public sealed class DelayedAttribute : PropertyAttribute
 {
-	[Token(Token = "0x6000C40")]
-	[Address(RVA = "0x28AA8F0", Offset = "0x28A8EF0", VA = "0x1828AA8F0")]
+	[Token(Token = "0x6000C52")]
+	[Address(RVA = "0x690DE40", Offset = "0x690CE40", VA = "0x690DE40")]
 	public DelayedAttribute()
 	{
 	}

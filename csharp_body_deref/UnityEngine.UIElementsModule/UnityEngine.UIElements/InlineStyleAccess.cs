@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.InlineStyleAccess
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,10 +13,10 @@ using UnityEngine.UIElements.StyleSheets;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000307")]
+[Token(Token = "0x2000309")]
 internal class InlineStyleAccess : StyleValueCollection, IStyle
 {
-	[Token(Token = "0x2000308")]
+	[Token(Token = "0x200030A")]
 	internal struct InlineRule
 	{
 		[Token(Token = "0x4000BE7")]
@@ -112,1771 +112,1771 @@ internal class InlineStyleAccess : StyleValueCollection, IStyle
 	[FieldOffset(Offset = "0x138")]
 	private InlineRule m_InlineRule;
 
-	[Token(Token = "0x17000482")]
+	[Token(Token = "0x1700052D")]
 	private StyleEnum<Align> UnityEngine_002EUIElements_002EIStyle_002EalignContent
 	{
-		[Token(Token = "0x6001518")]
-		[Address(RVA = "0x30C4D40", Offset = "0x30C3340", VA = "0x1830C4D40", Slot = "4")]
+		[Token(Token = "0x600161B")]
+		[Address(RVA = "0x6AB3470", Offset = "0x6AB2470", VA = "0x6AB3470", Slot = "4")]
 		get
 		{
 			return default(StyleEnum<Align>);
 		}
-		[Token(Token = "0x6001519")]
-		[Address(RVA = "0x30C6960", Offset = "0x30C4F60", VA = "0x1830C6960", Slot = "5")]
+		[Token(Token = "0x600161C")]
+		[Address(RVA = "0x6AB3500", Offset = "0x6AB2500", VA = "0x6AB3500", Slot = "5")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000483")]
+	[Token(Token = "0x1700052E")]
 	private StyleEnum<Align> UnityEngine_002EUIElements_002EIStyle_002EalignItems
 	{
-		[Token(Token = "0x600151A")]
-		[Address(RVA = "0x30C4DD0", Offset = "0x30C33D0", VA = "0x1830C4DD0", Slot = "6")]
+		[Token(Token = "0x600161D")]
+		[Address(RVA = "0x6AB3600", Offset = "0x6AB2600", VA = "0x6AB3600", Slot = "6")]
 		get
 		{
 			return default(StyleEnum<Align>);
 		}
-		[Token(Token = "0x600151B")]
-		[Address(RVA = "0x30C6A10", Offset = "0x30C5010", VA = "0x1830C6A10", Slot = "7")]
+		[Token(Token = "0x600161E")]
+		[Address(RVA = "0x6AB3690", Offset = "0x6AB2690", VA = "0x6AB3690", Slot = "7")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000484")]
+	[Token(Token = "0x1700052F")]
 	private StyleEnum<Align> UnityEngine_002EUIElements_002EIStyle_002EalignSelf
 	{
-		[Token(Token = "0x600151C")]
-		[Address(RVA = "0x30C4E60", Offset = "0x30C3460", VA = "0x1830C4E60", Slot = "8")]
+		[Token(Token = "0x600161F")]
+		[Address(RVA = "0x6AB3740", Offset = "0x6AB2740", VA = "0x6AB3740", Slot = "8")]
 		get
 		{
 			return default(StyleEnum<Align>);
 		}
-		[Token(Token = "0x600151D")]
-		[Address(RVA = "0x30C6AC0", Offset = "0x30C50C0", VA = "0x1830C6AC0", Slot = "9")]
+		[Token(Token = "0x6001620")]
+		[Address(RVA = "0x6AB37D0", Offset = "0x6AB27D0", VA = "0x6AB37D0", Slot = "9")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000485")]
+	[Token(Token = "0x17000530")]
 	private StyleRatio UnityEngine_002EUIElements_002EIStyle_002EaspectRatio
 	{
-		[Token(Token = "0x600151E")]
-		[Address(RVA = "0x30C4EF0", Offset = "0x30C34F0", VA = "0x1830C4EF0", Slot = "10")]
+		[Token(Token = "0x6001621")]
+		[Address(RVA = "0x6AB3880", Offset = "0x6AB2880", VA = "0x6AB3880", Slot = "10")]
 		get
 		{
 			return default(StyleRatio);
 		}
-		[Token(Token = "0x600151F")]
-		[Address(RVA = "0x30C6B70", Offset = "0x30C5170", VA = "0x1830C6B70", Slot = "11")]
+		[Token(Token = "0x6001622")]
+		[Address(RVA = "0x6AB3890", Offset = "0x6AB2890", VA = "0x6AB3890", Slot = "11")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000486")]
+	[Token(Token = "0x17000531")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EbackgroundColor
 	{
-		[Token(Token = "0x6001520")]
-		[Address(RVA = "0x30C4F00", Offset = "0x30C3500", VA = "0x1830C4F00", Slot = "12")]
+		[Token(Token = "0x6001623")]
+		[Address(RVA = "0x6AB3A50", Offset = "0x6AB2A50", VA = "0x6AB3A50", Slot = "12")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x6001521")]
-		[Address(RVA = "0x30C6D30", Offset = "0x30C5330", VA = "0x1830C6D30", Slot = "13")]
+		[Token(Token = "0x6001624")]
+		[Address(RVA = "0x6AB3A90", Offset = "0x6AB2A90", VA = "0x6AB3A90", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000487")]
+	[Token(Token = "0x17000532")]
 	private StyleBackground UnityEngine_002EUIElements_002EIStyle_002EbackgroundImage
 	{
-		[Token(Token = "0x6001522")]
-		[Address(RVA = "0x30C4F40", Offset = "0x30C3540", VA = "0x1830C4F40", Slot = "14")]
+		[Token(Token = "0x6001625")]
+		[Address(RVA = "0x6AB3C50", Offset = "0x6AB2C50", VA = "0x6AB3C50", Slot = "14")]
 		get
 		{
 			return default(StyleBackground);
 		}
-		[Token(Token = "0x6001523")]
-		[Address(RVA = "0x30C6DA0", Offset = "0x30C53A0", VA = "0x1830C6DA0", Slot = "15")]
+		[Token(Token = "0x6001626")]
+		[Address(RVA = "0x6AB3C90", Offset = "0x6AB2C90", VA = "0x6AB3C90", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000488")]
+	[Token(Token = "0x17000533")]
 	private StyleBackgroundPosition UnityEngine_002EUIElements_002EIStyle_002EbackgroundPositionX
 	{
-		[Token(Token = "0x6001524")]
-		[Address(RVA = "0x30C4F90", Offset = "0x30C3590", VA = "0x1830C4F90", Slot = "16")]
+		[Token(Token = "0x6001627")]
+		[Address(RVA = "0x6AB4400", Offset = "0x6AB3400", VA = "0x6AB4400", Slot = "16")]
 		get
 		{
 			return default(StyleBackgroundPosition);
 		}
-		[Token(Token = "0x6001525")]
-		[Address(RVA = "0x30C6E20", Offset = "0x30C5420", VA = "0x1830C6E20", Slot = "17")]
+		[Token(Token = "0x6001628")]
+		[Address(RVA = "0x6AB4410", Offset = "0x6AB3410", VA = "0x6AB4410", Slot = "17")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000489")]
+	[Token(Token = "0x17000534")]
 	private StyleBackgroundPosition UnityEngine_002EUIElements_002EIStyle_002EbackgroundPositionY
 	{
-		[Token(Token = "0x6001526")]
-		[Address(RVA = "0x30C4FD0", Offset = "0x30C35D0", VA = "0x1830C4FD0", Slot = "18")]
+		[Token(Token = "0x6001629")]
+		[Address(RVA = "0x6AB4590", Offset = "0x6AB3590", VA = "0x6AB4590", Slot = "18")]
 		get
 		{
 			return default(StyleBackgroundPosition);
 		}
-		[Token(Token = "0x6001527")]
-		[Address(RVA = "0x30C6E90", Offset = "0x30C5490", VA = "0x1830C6E90", Slot = "19")]
+		[Token(Token = "0x600162A")]
+		[Address(RVA = "0x6AB45A0", Offset = "0x6AB35A0", VA = "0x6AB45A0", Slot = "19")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048A")]
+	[Token(Token = "0x17000535")]
 	private StyleBackgroundRepeat UnityEngine_002EUIElements_002EIStyle_002EbackgroundRepeat
 	{
-		[Token(Token = "0x6001528")]
-		[Address(RVA = "0x30C5010", Offset = "0x30C3610", VA = "0x1830C5010", Slot = "20")]
+		[Token(Token = "0x600162B")]
+		[Address(RVA = "0x6AB45F0", Offset = "0x6AB35F0", VA = "0x6AB45F0", Slot = "20")]
 		get
 		{
 			return default(StyleBackgroundRepeat);
 		}
-		[Token(Token = "0x6001529")]
-		[Address(RVA = "0x30C6F00", Offset = "0x30C5500", VA = "0x1830C6F00", Slot = "21")]
+		[Token(Token = "0x600162C")]
+		[Address(RVA = "0x6AB4600", Offset = "0x6AB3600", VA = "0x6AB4600", Slot = "21")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048B")]
+	[Token(Token = "0x17000536")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EborderBottomColor
 	{
-		[Token(Token = "0x600152A")]
-		[Address(RVA = "0x30C50C0", Offset = "0x30C36C0", VA = "0x1830C50C0", Slot = "24")]
+		[Token(Token = "0x600162D")]
+		[Address(RVA = "0x6AB4770", Offset = "0x6AB3770", VA = "0x6AB4770", Slot = "24")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x600152B")]
-		[Address(RVA = "0x30C7200", Offset = "0x30C5800", VA = "0x1830C7200", Slot = "25")]
+		[Token(Token = "0x600162E")]
+		[Address(RVA = "0x6AB47B0", Offset = "0x6AB37B0", VA = "0x6AB47B0", Slot = "25")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048C")]
+	[Token(Token = "0x17000537")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EborderBottomLeftRadius
 	{
-		[Token(Token = "0x600152C")]
-		[Address(RVA = "0x30C5100", Offset = "0x30C3700", VA = "0x1830C5100", Slot = "26")]
+		[Token(Token = "0x600162F")]
+		[Address(RVA = "0x6AB4820", Offset = "0x6AB3820", VA = "0x6AB4820", Slot = "26")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600152D")]
-		[Address(RVA = "0x30C7270", Offset = "0x30C5870", VA = "0x1830C7270", Slot = "27")]
+		[Token(Token = "0x6001630")]
+		[Address(RVA = "0x6AB4830", Offset = "0x6AB3830", VA = "0x6AB4830", Slot = "27")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048D")]
+	[Token(Token = "0x17000538")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EborderBottomRightRadius
 	{
-		[Token(Token = "0x600152E")]
-		[Address(RVA = "0x30C5140", Offset = "0x30C3740", VA = "0x1830C5140", Slot = "28")]
+		[Token(Token = "0x6001631")]
+		[Address(RVA = "0x6AB49B0", Offset = "0x6AB39B0", VA = "0x6AB49B0", Slot = "28")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600152F")]
-		[Address(RVA = "0x30C72E0", Offset = "0x30C58E0", VA = "0x1830C72E0", Slot = "29")]
+		[Token(Token = "0x6001632")]
+		[Address(RVA = "0x6AB49C0", Offset = "0x6AB39C0", VA = "0x6AB49C0", Slot = "29")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048E")]
+	[Token(Token = "0x17000539")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EborderBottomWidth
 	{
-		[Token(Token = "0x6001530")]
-		[Address(RVA = "0x30C5180", Offset = "0x30C3780", VA = "0x1830C5180", Slot = "30")]
+		[Token(Token = "0x6001633")]
+		[Address(RVA = "0x6AB4A10", Offset = "0x6AB3A10", VA = "0x6AB4A10", Slot = "30")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x6001531")]
-		[Address(RVA = "0x30C7350", Offset = "0x30C5950", VA = "0x1830C7350", Slot = "31")]
+		[Token(Token = "0x6001634")]
+		[Address(RVA = "0x6AB4A20", Offset = "0x6AB3A20", VA = "0x6AB4A20", Slot = "31")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700048F")]
+	[Token(Token = "0x1700053A")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EborderLeftColor
 	{
-		[Token(Token = "0x6001532")]
-		[Address(RVA = "0x30C5190", Offset = "0x30C3790", VA = "0x1830C5190", Slot = "32")]
+		[Token(Token = "0x6001635")]
+		[Address(RVA = "0x6AB4BC0", Offset = "0x6AB3BC0", VA = "0x6AB4BC0", Slot = "32")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x6001533")]
-		[Address(RVA = "0x30C73E0", Offset = "0x30C59E0", VA = "0x1830C73E0", Slot = "33")]
+		[Token(Token = "0x6001636")]
+		[Address(RVA = "0x6AB4C00", Offset = "0x6AB3C00", VA = "0x6AB4C00", Slot = "33")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000490")]
+	[Token(Token = "0x1700053B")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EborderLeftWidth
 	{
-		[Token(Token = "0x6001534")]
-		[Address(RVA = "0x30C51D0", Offset = "0x30C37D0", VA = "0x1830C51D0", Slot = "34")]
+		[Token(Token = "0x6001637")]
+		[Address(RVA = "0x6AB4C70", Offset = "0x6AB3C70", VA = "0x6AB4C70", Slot = "34")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x6001535")]
-		[Address(RVA = "0x30C7450", Offset = "0x30C5A50", VA = "0x1830C7450", Slot = "35")]
+		[Token(Token = "0x6001638")]
+		[Address(RVA = "0x6AB4C80", Offset = "0x6AB3C80", VA = "0x6AB4C80", Slot = "35")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000491")]
+	[Token(Token = "0x1700053C")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EborderRightColor
 	{
-		[Token(Token = "0x6001536")]
-		[Address(RVA = "0x30C51E0", Offset = "0x30C37E0", VA = "0x1830C51E0", Slot = "36")]
+		[Token(Token = "0x6001639")]
+		[Address(RVA = "0x6AB4D00", Offset = "0x6AB3D00", VA = "0x6AB4D00", Slot = "36")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x6001537")]
-		[Address(RVA = "0x30C74E0", Offset = "0x30C5AE0", VA = "0x1830C74E0", Slot = "37")]
+		[Token(Token = "0x600163A")]
+		[Address(RVA = "0x6AB4D40", Offset = "0x6AB3D40", VA = "0x6AB4D40", Slot = "37")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000492")]
+	[Token(Token = "0x1700053D")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EborderRightWidth
 	{
-		[Token(Token = "0x6001538")]
-		[Address(RVA = "0x30C5220", Offset = "0x30C3820", VA = "0x1830C5220", Slot = "38")]
+		[Token(Token = "0x600163B")]
+		[Address(RVA = "0x6AB4DB0", Offset = "0x6AB3DB0", VA = "0x6AB4DB0", Slot = "38")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x6001539")]
-		[Address(RVA = "0x30C7550", Offset = "0x30C5B50", VA = "0x1830C7550", Slot = "39")]
+		[Token(Token = "0x600163C")]
+		[Address(RVA = "0x6AB4DC0", Offset = "0x6AB3DC0", VA = "0x6AB4DC0", Slot = "39")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000493")]
+	[Token(Token = "0x1700053E")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EborderTopColor
 	{
-		[Token(Token = "0x600153A")]
-		[Address(RVA = "0x30C5230", Offset = "0x30C3830", VA = "0x1830C5230", Slot = "40")]
+		[Token(Token = "0x600163D")]
+		[Address(RVA = "0x6AB4E40", Offset = "0x6AB3E40", VA = "0x6AB4E40", Slot = "40")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x600153B")]
-		[Address(RVA = "0x30C75E0", Offset = "0x30C5BE0", VA = "0x1830C75E0", Slot = "41")]
+		[Token(Token = "0x600163E")]
+		[Address(RVA = "0x6AB4E80", Offset = "0x6AB3E80", VA = "0x6AB4E80", Slot = "41")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000494")]
+	[Token(Token = "0x1700053F")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EborderTopLeftRadius
 	{
-		[Token(Token = "0x600153C")]
-		[Address(RVA = "0x30C5270", Offset = "0x30C3870", VA = "0x1830C5270", Slot = "42")]
+		[Token(Token = "0x600163F")]
+		[Address(RVA = "0x6AB4EF0", Offset = "0x6AB3EF0", VA = "0x6AB4EF0", Slot = "42")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600153D")]
-		[Address(RVA = "0x30C7650", Offset = "0x30C5C50", VA = "0x1830C7650", Slot = "43")]
+		[Token(Token = "0x6001640")]
+		[Address(RVA = "0x6AB4F00", Offset = "0x6AB3F00", VA = "0x6AB4F00", Slot = "43")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000495")]
+	[Token(Token = "0x17000540")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EborderTopRightRadius
 	{
-		[Token(Token = "0x600153E")]
-		[Address(RVA = "0x30C52B0", Offset = "0x30C38B0", VA = "0x1830C52B0", Slot = "44")]
+		[Token(Token = "0x6001641")]
+		[Address(RVA = "0x6AB4F50", Offset = "0x6AB3F50", VA = "0x6AB4F50", Slot = "44")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600153F")]
-		[Address(RVA = "0x30C76C0", Offset = "0x30C5CC0", VA = "0x1830C76C0", Slot = "45")]
+		[Token(Token = "0x6001642")]
+		[Address(RVA = "0x6AB4F60", Offset = "0x6AB3F60", VA = "0x6AB4F60", Slot = "45")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000496")]
+	[Token(Token = "0x17000541")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EborderTopWidth
 	{
-		[Token(Token = "0x6001540")]
-		[Address(RVA = "0x30C52F0", Offset = "0x30C38F0", VA = "0x1830C52F0", Slot = "46")]
+		[Token(Token = "0x6001643")]
+		[Address(RVA = "0x6AB4FB0", Offset = "0x6AB3FB0", VA = "0x6AB4FB0", Slot = "46")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x6001541")]
-		[Address(RVA = "0x30C7730", Offset = "0x30C5D30", VA = "0x1830C7730", Slot = "47")]
+		[Token(Token = "0x6001644")]
+		[Address(RVA = "0x6AB4FC0", Offset = "0x6AB3FC0", VA = "0x6AB4FC0", Slot = "47")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000497")]
+	[Token(Token = "0x17000542")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Ebottom
 	{
-		[Token(Token = "0x6001542")]
-		[Address(RVA = "0x30C5300", Offset = "0x30C3900", VA = "0x1830C5300", Slot = "48")]
+		[Token(Token = "0x6001645")]
+		[Address(RVA = "0x6AB5040", Offset = "0x6AB4040", VA = "0x6AB5040", Slot = "48")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001543")]
-		[Address(RVA = "0x30C77C0", Offset = "0x30C5DC0", VA = "0x1830C77C0", Slot = "49")]
+		[Token(Token = "0x6001646")]
+		[Address(RVA = "0x6AB5050", Offset = "0x6AB4050", VA = "0x6AB5050", Slot = "49")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000498")]
+	[Token(Token = "0x17000543")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002Ecolor
 	{
-		[Token(Token = "0x6001544")]
-		[Address(RVA = "0x30C5340", Offset = "0x30C3940", VA = "0x1830C5340", Slot = "50")]
+		[Token(Token = "0x6001647")]
+		[Address(RVA = "0x6AB50E0", Offset = "0x6AB40E0", VA = "0x6AB50E0", Slot = "50")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x6001545")]
-		[Address(RVA = "0x30C7870", Offset = "0x30C5E70", VA = "0x1830C7870", Slot = "51")]
+		[Token(Token = "0x6001648")]
+		[Address(RVA = "0x6AB5120", Offset = "0x6AB4120", VA = "0x6AB5120", Slot = "51")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000499")]
+	[Token(Token = "0x17000544")]
 	private StyleEnum<DisplayStyle> UnityEngine_002EUIElements_002EIStyle_002Edisplay
 	{
-		[Token(Token = "0x6001546")]
-		[Address(RVA = "0x30C5410", Offset = "0x30C3A10", VA = "0x1830C5410", Slot = "54")]
+		[Token(Token = "0x6001649")]
+		[Address(RVA = "0x6AB5190", Offset = "0x6AB4190", VA = "0x6AB5190", Slot = "54")]
 		get
 		{
 			return default(StyleEnum<DisplayStyle>);
 		}
-		[Token(Token = "0x6001547")]
-		[Address(RVA = "0x30C7950", Offset = "0x30C5F50", VA = "0x1830C7950", Slot = "55")]
+		[Token(Token = "0x600164A")]
+		[Address(RVA = "0x6AB5220", Offset = "0x6AB4220", VA = "0x6AB5220", Slot = "55")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049A")]
+	[Token(Token = "0x17000545")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EflexBasis
 	{
-		[Token(Token = "0x6001548")]
-		[Address(RVA = "0x30C5540", Offset = "0x30C3B40", VA = "0x1830C5540", Slot = "58")]
+		[Token(Token = "0x600164B")]
+		[Address(RVA = "0x6AB52D0", Offset = "0x6AB42D0", VA = "0x6AB52D0", Slot = "58")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001549")]
-		[Address(RVA = "0x30C7B80", Offset = "0x30C6180", VA = "0x1830C7B80", Slot = "59")]
+		[Token(Token = "0x600164C")]
+		[Address(RVA = "0x6AB52E0", Offset = "0x6AB42E0", VA = "0x6AB52E0", Slot = "59")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049B")]
+	[Token(Token = "0x17000546")]
 	private StyleEnum<FlexDirection> UnityEngine_002EUIElements_002EIStyle_002EflexDirection
 	{
-		[Token(Token = "0x600154A")]
-		[Address(RVA = "0x30C5580", Offset = "0x30C3B80", VA = "0x1830C5580", Slot = "60")]
+		[Token(Token = "0x600164D")]
+		[Address(RVA = "0x6AB5370", Offset = "0x6AB4370", VA = "0x6AB5370", Slot = "60")]
 		get
 		{
 			return default(StyleEnum<FlexDirection>);
 		}
-		[Token(Token = "0x600154B")]
-		[Address(RVA = "0x30C7C30", Offset = "0x30C6230", VA = "0x1830C7C30", Slot = "61")]
+		[Token(Token = "0x600164E")]
+		[Address(RVA = "0x6AB5400", Offset = "0x6AB4400", VA = "0x6AB5400", Slot = "61")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049C")]
+	[Token(Token = "0x17000547")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EflexGrow
 	{
-		[Token(Token = "0x600154C")]
-		[Address(RVA = "0x30C5610", Offset = "0x30C3C10", VA = "0x1830C5610", Slot = "62")]
+		[Token(Token = "0x600164F")]
+		[Address(RVA = "0x6AB54B0", Offset = "0x6AB44B0", VA = "0x6AB54B0", Slot = "62")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x600154D")]
-		[Address(RVA = "0x30C7CE0", Offset = "0x30C62E0", VA = "0x1830C7CE0", Slot = "63")]
+		[Token(Token = "0x6001650")]
+		[Address(RVA = "0x6AB54C0", Offset = "0x6AB44C0", VA = "0x6AB54C0", Slot = "63")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049D")]
+	[Token(Token = "0x17000548")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EflexShrink
 	{
-		[Token(Token = "0x600154E")]
-		[Address(RVA = "0x30C5620", Offset = "0x30C3C20", VA = "0x1830C5620", Slot = "64")]
+		[Token(Token = "0x6001651")]
+		[Address(RVA = "0x6AB5540", Offset = "0x6AB4540", VA = "0x6AB5540", Slot = "64")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x600154F")]
-		[Address(RVA = "0x30C7D70", Offset = "0x30C6370", VA = "0x1830C7D70", Slot = "65")]
+		[Token(Token = "0x6001652")]
+		[Address(RVA = "0x6AB5550", Offset = "0x6AB4550", VA = "0x6AB5550", Slot = "65")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049E")]
+	[Token(Token = "0x17000549")]
 	private StyleEnum<Wrap> UnityEngine_002EUIElements_002EIStyle_002EflexWrap
 	{
-		[Token(Token = "0x6001550")]
-		[Address(RVA = "0x30C5630", Offset = "0x30C3C30", VA = "0x1830C5630", Slot = "66")]
+		[Token(Token = "0x6001653")]
+		[Address(RVA = "0x6AB55D0", Offset = "0x6AB45D0", VA = "0x6AB55D0", Slot = "66")]
 		get
 		{
 			return default(StyleEnum<Wrap>);
 		}
-		[Token(Token = "0x6001551")]
-		[Address(RVA = "0x30C7E00", Offset = "0x30C6400", VA = "0x1830C7E00", Slot = "67")]
+		[Token(Token = "0x6001654")]
+		[Address(RVA = "0x6AB5660", Offset = "0x6AB4660", VA = "0x6AB5660", Slot = "67")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700049F")]
+	[Token(Token = "0x1700054A")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EfontSize
 	{
-		[Token(Token = "0x6001552")]
-		[Address(RVA = "0x30C56C0", Offset = "0x30C3CC0", VA = "0x1830C56C0", Slot = "68")]
+		[Token(Token = "0x6001655")]
+		[Address(RVA = "0x6AB5710", Offset = "0x6AB4710", VA = "0x6AB5710", Slot = "68")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001553")]
-		[Address(RVA = "0x30C7EB0", Offset = "0x30C64B0", VA = "0x1830C7EB0", Slot = "69")]
+		[Token(Token = "0x6001656")]
+		[Address(RVA = "0x6AB5720", Offset = "0x6AB4720", VA = "0x6AB5720", Slot = "69")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A0")]
+	[Token(Token = "0x1700054B")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Eheight
 	{
-		[Token(Token = "0x6001554")]
-		[Address(RVA = "0x30C5700", Offset = "0x30C3D00", VA = "0x1830C5700", Slot = "70")]
+		[Token(Token = "0x6001657")]
+		[Address(RVA = "0x6AB5770", Offset = "0x6AB4770", VA = "0x6AB5770", Slot = "70")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001555")]
-		[Address(RVA = "0x30C7F20", Offset = "0x30C6520", VA = "0x1830C7F20", Slot = "71")]
+		[Token(Token = "0x6001658")]
+		[Address(RVA = "0x6AB5780", Offset = "0x6AB4780", VA = "0x6AB5780", Slot = "71")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A1")]
+	[Token(Token = "0x1700054C")]
 	private StyleEnum<Justify> UnityEngine_002EUIElements_002EIStyle_002EjustifyContent
 	{
-		[Token(Token = "0x6001556")]
-		[Address(RVA = "0x30C5740", Offset = "0x30C3D40", VA = "0x1830C5740", Slot = "72")]
+		[Token(Token = "0x6001659")]
+		[Address(RVA = "0x6AB5810", Offset = "0x6AB4810", VA = "0x6AB5810", Slot = "72")]
 		get
 		{
 			return default(StyleEnum<Justify>);
 		}
-		[Token(Token = "0x6001557")]
-		[Address(RVA = "0x30C7FD0", Offset = "0x30C65D0", VA = "0x1830C7FD0", Slot = "73")]
+		[Token(Token = "0x600165A")]
+		[Address(RVA = "0x6AB58A0", Offset = "0x6AB48A0", VA = "0x6AB58A0", Slot = "73")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A2")]
+	[Token(Token = "0x1700054D")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Eleft
 	{
-		[Token(Token = "0x6001558")]
-		[Address(RVA = "0x30C57D0", Offset = "0x30C3DD0", VA = "0x1830C57D0", Slot = "74")]
+		[Token(Token = "0x600165B")]
+		[Address(RVA = "0x6AB5950", Offset = "0x6AB4950", VA = "0x6AB5950", Slot = "74")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001559")]
-		[Address(RVA = "0x30C8080", Offset = "0x30C6680", VA = "0x1830C8080", Slot = "75")]
+		[Token(Token = "0x600165C")]
+		[Address(RVA = "0x6AB5960", Offset = "0x6AB4960", VA = "0x6AB5960", Slot = "75")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A3")]
+	[Token(Token = "0x1700054E")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EletterSpacing
 	{
-		[Token(Token = "0x600155A")]
-		[Address(RVA = "0x30C5810", Offset = "0x30C3E10", VA = "0x1830C5810", Slot = "76")]
+		[Token(Token = "0x600165D")]
+		[Address(RVA = "0x6AB59F0", Offset = "0x6AB49F0", VA = "0x6AB59F0", Slot = "76")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600155B")]
-		[Address(RVA = "0x30C8130", Offset = "0x30C6730", VA = "0x1830C8130", Slot = "77")]
+		[Token(Token = "0x600165E")]
+		[Address(RVA = "0x6AB5A00", Offset = "0x6AB4A00", VA = "0x6AB5A00", Slot = "77")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A4")]
+	[Token(Token = "0x1700054F")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmarginBottom
 	{
-		[Token(Token = "0x600155C")]
-		[Address(RVA = "0x30C5850", Offset = "0x30C3E50", VA = "0x1830C5850", Slot = "78")]
+		[Token(Token = "0x600165F")]
+		[Address(RVA = "0x6AB5A50", Offset = "0x6AB4A50", VA = "0x6AB5A50", Slot = "78")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600155D")]
-		[Address(RVA = "0x30C81A0", Offset = "0x30C67A0", VA = "0x1830C81A0", Slot = "79")]
+		[Token(Token = "0x6001660")]
+		[Address(RVA = "0x6AB5A60", Offset = "0x6AB4A60", VA = "0x6AB5A60", Slot = "79")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A5")]
+	[Token(Token = "0x17000550")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmarginLeft
 	{
-		[Token(Token = "0x600155E")]
-		[Address(RVA = "0x30C5890", Offset = "0x30C3E90", VA = "0x1830C5890", Slot = "80")]
+		[Token(Token = "0x6001661")]
+		[Address(RVA = "0x6AB5AF0", Offset = "0x6AB4AF0", VA = "0x6AB5AF0", Slot = "80")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600155F")]
-		[Address(RVA = "0x30C8250", Offset = "0x30C6850", VA = "0x1830C8250", Slot = "81")]
+		[Token(Token = "0x6001662")]
+		[Address(RVA = "0x6AB5B00", Offset = "0x6AB4B00", VA = "0x6AB5B00", Slot = "81")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A6")]
+	[Token(Token = "0x17000551")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmarginRight
 	{
-		[Token(Token = "0x6001560")]
-		[Address(RVA = "0x30C58D0", Offset = "0x30C3ED0", VA = "0x1830C58D0", Slot = "82")]
+		[Token(Token = "0x6001663")]
+		[Address(RVA = "0x6AB5B90", Offset = "0x6AB4B90", VA = "0x6AB5B90", Slot = "82")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001561")]
-		[Address(RVA = "0x30C8300", Offset = "0x30C6900", VA = "0x1830C8300", Slot = "83")]
+		[Token(Token = "0x6001664")]
+		[Address(RVA = "0x6AB5BA0", Offset = "0x6AB4BA0", VA = "0x6AB5BA0", Slot = "83")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A7")]
+	[Token(Token = "0x17000552")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmarginTop
 	{
-		[Token(Token = "0x6001562")]
-		[Address(RVA = "0x30C5910", Offset = "0x30C3F10", VA = "0x1830C5910", Slot = "84")]
+		[Token(Token = "0x6001665")]
+		[Address(RVA = "0x6AB5C30", Offset = "0x6AB4C30", VA = "0x6AB5C30", Slot = "84")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001563")]
-		[Address(RVA = "0x30C83B0", Offset = "0x30C69B0", VA = "0x1830C83B0", Slot = "85")]
+		[Token(Token = "0x6001666")]
+		[Address(RVA = "0x6AB5C40", Offset = "0x6AB4C40", VA = "0x6AB5C40", Slot = "85")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A8")]
+	[Token(Token = "0x17000553")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmaxHeight
 	{
-		[Token(Token = "0x6001564")]
-		[Address(RVA = "0x30C5950", Offset = "0x30C3F50", VA = "0x1830C5950", Slot = "86")]
+		[Token(Token = "0x6001667")]
+		[Address(RVA = "0x6AB5CD0", Offset = "0x6AB4CD0", VA = "0x6AB5CD0", Slot = "86")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001565")]
-		[Address(RVA = "0x30C8460", Offset = "0x30C6A60", VA = "0x1830C8460", Slot = "87")]
+		[Token(Token = "0x6001668")]
+		[Address(RVA = "0x6AB5CE0", Offset = "0x6AB4CE0", VA = "0x6AB5CE0", Slot = "87")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004A9")]
+	[Token(Token = "0x17000554")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EmaxWidth
 	{
-		[Token(Token = "0x6001566")]
-		[Address(RVA = "0x30C5990", Offset = "0x30C3F90", VA = "0x1830C5990", Slot = "88")]
+		[Token(Token = "0x6001669")]
+		[Address(RVA = "0x6AB5D70", Offset = "0x6AB4D70", VA = "0x6AB5D70", Slot = "88")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001567")]
-		[Address(RVA = "0x30C8510", Offset = "0x30C6B10", VA = "0x1830C8510", Slot = "89")]
+		[Token(Token = "0x600166A")]
+		[Address(RVA = "0x6AB5D80", Offset = "0x6AB4D80", VA = "0x6AB5D80", Slot = "89")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AA")]
+	[Token(Token = "0x17000555")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EminHeight
 	{
-		[Token(Token = "0x6001568")]
-		[Address(RVA = "0x30C59D0", Offset = "0x30C3FD0", VA = "0x1830C59D0", Slot = "90")]
+		[Token(Token = "0x600166B")]
+		[Address(RVA = "0x6AB5E10", Offset = "0x6AB4E10", VA = "0x6AB5E10", Slot = "90")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001569")]
-		[Address(RVA = "0x30C85C0", Offset = "0x30C6BC0", VA = "0x1830C85C0", Slot = "91")]
+		[Token(Token = "0x600166C")]
+		[Address(RVA = "0x6AB5E20", Offset = "0x6AB4E20", VA = "0x6AB5E20", Slot = "91")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AB")]
+	[Token(Token = "0x17000556")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EminWidth
 	{
-		[Token(Token = "0x600156A")]
-		[Address(RVA = "0x30C5A10", Offset = "0x30C4010", VA = "0x1830C5A10", Slot = "92")]
+		[Token(Token = "0x600166D")]
+		[Address(RVA = "0x6AB5EB0", Offset = "0x6AB4EB0", VA = "0x6AB5EB0", Slot = "92")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600156B")]
-		[Address(RVA = "0x30C8670", Offset = "0x30C6C70", VA = "0x1830C8670", Slot = "93")]
+		[Token(Token = "0x600166E")]
+		[Address(RVA = "0x6AB5EC0", Offset = "0x6AB4EC0", VA = "0x6AB5EC0", Slot = "93")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AC")]
+	[Token(Token = "0x17000557")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002Eopacity
 	{
-		[Token(Token = "0x600156C")]
-		[Address(RVA = "0x30C5A50", Offset = "0x30C4050", VA = "0x1830C5A50", Slot = "94")]
+		[Token(Token = "0x600166F")]
+		[Address(RVA = "0x6AB5F50", Offset = "0x6AB4F50", VA = "0x6AB5F50", Slot = "94")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x600156D")]
-		[Address(RVA = "0x30C8720", Offset = "0x30C6D20", VA = "0x1830C8720", Slot = "95")]
+		[Token(Token = "0x6001670")]
+		[Address(RVA = "0x6AB5F60", Offset = "0x6AB4F60", VA = "0x6AB5F60", Slot = "95")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AD")]
+	[Token(Token = "0x17000558")]
 	private StyleEnum<Overflow> UnityEngine_002EUIElements_002EIStyle_002Eoverflow
 	{
-		[Token(Token = "0x600156E")]
-		[Address(RVA = "0x30C5A60", Offset = "0x30C4060", VA = "0x1830C5A60", Slot = "96")]
+		[Token(Token = "0x6001671")]
+		[Address(RVA = "0x6AB5FB0", Offset = "0x6AB4FB0", VA = "0x6AB5FB0", Slot = "96")]
 		get
 		{
 			return default(StyleEnum<Overflow>);
 		}
-		[Token(Token = "0x600156F")]
-		[Address(RVA = "0x30C8780", Offset = "0x30C6D80", VA = "0x1830C8780", Slot = "97")]
+		[Token(Token = "0x6001672")]
+		[Address(RVA = "0x6AB6040", Offset = "0x6AB5040", VA = "0x6AB6040", Slot = "97")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AE")]
+	[Token(Token = "0x17000559")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EpaddingBottom
 	{
-		[Token(Token = "0x6001570")]
-		[Address(RVA = "0x30C5AF0", Offset = "0x30C40F0", VA = "0x1830C5AF0", Slot = "98")]
+		[Token(Token = "0x6001673")]
+		[Address(RVA = "0x6AB6160", Offset = "0x6AB5160", VA = "0x6AB6160", Slot = "98")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001571")]
-		[Address(RVA = "0x30C88A0", Offset = "0x30C6EA0", VA = "0x1830C88A0", Slot = "99")]
+		[Token(Token = "0x6001674")]
+		[Address(RVA = "0x6AB6170", Offset = "0x6AB5170", VA = "0x6AB6170", Slot = "99")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004AF")]
+	[Token(Token = "0x1700055A")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EpaddingLeft
 	{
-		[Token(Token = "0x6001572")]
-		[Address(RVA = "0x30C5B30", Offset = "0x30C4130", VA = "0x1830C5B30", Slot = "100")]
+		[Token(Token = "0x6001675")]
+		[Address(RVA = "0x6AB6200", Offset = "0x6AB5200", VA = "0x6AB6200", Slot = "100")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001573")]
-		[Address(RVA = "0x30C8950", Offset = "0x30C6F50", VA = "0x1830C8950", Slot = "101")]
+		[Token(Token = "0x6001676")]
+		[Address(RVA = "0x6AB6210", Offset = "0x6AB5210", VA = "0x6AB6210", Slot = "101")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B0")]
+	[Token(Token = "0x1700055B")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EpaddingRight
 	{
-		[Token(Token = "0x6001574")]
-		[Address(RVA = "0x30C5B70", Offset = "0x30C4170", VA = "0x1830C5B70", Slot = "102")]
+		[Token(Token = "0x6001677")]
+		[Address(RVA = "0x6AB62A0", Offset = "0x6AB52A0", VA = "0x6AB62A0", Slot = "102")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001575")]
-		[Address(RVA = "0x30C8A00", Offset = "0x30C7000", VA = "0x1830C8A00", Slot = "103")]
+		[Token(Token = "0x6001678")]
+		[Address(RVA = "0x6AB62B0", Offset = "0x6AB52B0", VA = "0x6AB62B0", Slot = "103")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B1")]
+	[Token(Token = "0x1700055C")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EpaddingTop
 	{
-		[Token(Token = "0x6001576")]
-		[Address(RVA = "0x30C5BB0", Offset = "0x30C41B0", VA = "0x1830C5BB0", Slot = "104")]
+		[Token(Token = "0x6001679")]
+		[Address(RVA = "0x6AB6340", Offset = "0x6AB5340", VA = "0x6AB6340", Slot = "104")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001577")]
-		[Address(RVA = "0x30C8AB0", Offset = "0x30C70B0", VA = "0x1830C8AB0", Slot = "105")]
+		[Token(Token = "0x600167A")]
+		[Address(RVA = "0x6AB6350", Offset = "0x6AB5350", VA = "0x6AB6350", Slot = "105")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B2")]
+	[Token(Token = "0x1700055D")]
 	private StyleEnum<Position> UnityEngine_002EUIElements_002EIStyle_002Eposition
 	{
-		[Token(Token = "0x6001578")]
-		[Address(RVA = "0x30C5BF0", Offset = "0x30C41F0", VA = "0x1830C5BF0", Slot = "106")]
+		[Token(Token = "0x600167B")]
+		[Address(RVA = "0x6AB63E0", Offset = "0x6AB53E0", VA = "0x6AB63E0", Slot = "106")]
 		get
 		{
 			return default(StyleEnum<Position>);
 		}
-		[Token(Token = "0x6001579")]
-		[Address(RVA = "0x30C8B60", Offset = "0x30C7160", VA = "0x1830C8B60", Slot = "107")]
+		[Token(Token = "0x600167C")]
+		[Address(RVA = "0x6AB6470", Offset = "0x6AB5470", VA = "0x6AB6470", Slot = "107")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B3")]
+	[Token(Token = "0x1700055E")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Eright
 	{
-		[Token(Token = "0x600157A")]
-		[Address(RVA = "0x30C5C80", Offset = "0x30C4280", VA = "0x1830C5C80", Slot = "108")]
+		[Token(Token = "0x600167D")]
+		[Address(RVA = "0x6AB6520", Offset = "0x6AB5520", VA = "0x6AB6520", Slot = "108")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600157B")]
-		[Address(RVA = "0x30C8C10", Offset = "0x30C7210", VA = "0x1830C8C10", Slot = "109")]
+		[Token(Token = "0x600167E")]
+		[Address(RVA = "0x6AB6530", Offset = "0x6AB5530", VA = "0x6AB6530", Slot = "109")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B4")]
+	[Token(Token = "0x1700055F")]
 	private StyleEnum<TextOverflow> UnityEngine_002EUIElements_002EIStyle_002EtextOverflow
 	{
-		[Token(Token = "0x600157C")]
-		[Address(RVA = "0x30C5D90", Offset = "0x30C4390", VA = "0x1830C5D90", Slot = "114")]
+		[Token(Token = "0x600167F")]
+		[Address(RVA = "0x6AB65C0", Offset = "0x6AB55C0", VA = "0x6AB65C0", Slot = "114")]
 		get
 		{
 			return default(StyleEnum<TextOverflow>);
 		}
-		[Token(Token = "0x600157D")]
-		[Address(RVA = "0x30C8FF0", Offset = "0x30C75F0", VA = "0x1830C8FF0", Slot = "115")]
+		[Token(Token = "0x6001680")]
+		[Address(RVA = "0x6AB6650", Offset = "0x6AB5650", VA = "0x6AB6650", Slot = "115")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B5")]
+	[Token(Token = "0x17000560")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Etop
 	{
-		[Token(Token = "0x600157E")]
-		[Address(RVA = "0x30C5E80", Offset = "0x30C4480", VA = "0x1830C5E80", Slot = "118")]
+		[Token(Token = "0x6001681")]
+		[Address(RVA = "0x6AB66E0", Offset = "0x6AB56E0", VA = "0x6AB66E0", Slot = "118")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x600157F")]
-		[Address(RVA = "0x30C9250", Offset = "0x30C7850", VA = "0x1830C9250", Slot = "119")]
+		[Token(Token = "0x6001682")]
+		[Address(RVA = "0x6AB66F0", Offset = "0x6AB56F0", VA = "0x6AB66F0", Slot = "119")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B6")]
+	[Token(Token = "0x17000561")]
 	private StyleList<TimeValue> UnityEngine_002EUIElements_002EIStyle_002EtransitionDelay
 	{
-		[Token(Token = "0x6001580")]
-		[Address(RVA = "0x30C5F30", Offset = "0x30C4530", VA = "0x1830C5F30", Slot = "122")]
+		[Token(Token = "0x6001683")]
+		[Address(RVA = "0x6AB6780", Offset = "0x6AB5780", VA = "0x6AB6780", Slot = "122")]
 		get
 		{
 			return default(StyleList<TimeValue>);
 		}
-		[Token(Token = "0x6001581")]
-		[Address(RVA = "0x30C9490", Offset = "0x30C7A90", VA = "0x1830C9490", Slot = "123")]
+		[Token(Token = "0x6001684")]
+		[Address(RVA = "0x6AB67C0", Offset = "0x6AB57C0", VA = "0x6AB67C0", Slot = "123")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B7")]
+	[Token(Token = "0x17000562")]
 	private StyleList<TimeValue> UnityEngine_002EUIElements_002EIStyle_002EtransitionDuration
 	{
-		[Token(Token = "0x6001582")]
-		[Address(RVA = "0x30C5FA0", Offset = "0x30C45A0", VA = "0x1830C5FA0", Slot = "124")]
+		[Token(Token = "0x6001685")]
+		[Address(RVA = "0x6AB6850", Offset = "0x6AB5850", VA = "0x6AB6850", Slot = "124")]
 		get
 		{
 			return default(StyleList<TimeValue>);
 		}
-		[Token(Token = "0x6001583")]
-		[Address(RVA = "0x30C9520", Offset = "0x30C7B20", VA = "0x1830C9520", Slot = "125")]
+		[Token(Token = "0x6001686")]
+		[Address(RVA = "0x6AB6890", Offset = "0x6AB5890", VA = "0x6AB6890", Slot = "125")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B8")]
+	[Token(Token = "0x17000563")]
 	private StyleList<StylePropertyName> UnityEngine_002EUIElements_002EIStyle_002EtransitionProperty
 	{
-		[Token(Token = "0x6001584")]
-		[Address(RVA = "0x30C6010", Offset = "0x30C4610", VA = "0x1830C6010", Slot = "126")]
+		[Token(Token = "0x6001687")]
+		[Address(RVA = "0x6AB6920", Offset = "0x6AB5920", VA = "0x6AB6920", Slot = "126")]
 		get
 		{
 			return default(StyleList<StylePropertyName>);
 		}
-		[Token(Token = "0x6001585")]
-		[Address(RVA = "0x30C95B0", Offset = "0x30C7BB0", VA = "0x1830C95B0", Slot = "127")]
+		[Token(Token = "0x6001688")]
+		[Address(RVA = "0x6AB6960", Offset = "0x6AB5960", VA = "0x6AB6960", Slot = "127")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004B9")]
+	[Token(Token = "0x17000564")]
 	private StyleList<EasingFunction> UnityEngine_002EUIElements_002EIStyle_002EtransitionTimingFunction
 	{
-		[Token(Token = "0x6001586")]
-		[Address(RVA = "0x30C6080", Offset = "0x30C4680", VA = "0x1830C6080", Slot = "128")]
+		[Token(Token = "0x6001689")]
+		[Address(RVA = "0x6AB69F0", Offset = "0x6AB59F0", VA = "0x6AB69F0", Slot = "128")]
 		get
 		{
 			return default(StyleList<EasingFunction>);
 		}
-		[Token(Token = "0x6001587")]
-		[Address(RVA = "0x30C9640", Offset = "0x30C7C40", VA = "0x1830C9640", Slot = "129")]
+		[Token(Token = "0x600168A")]
+		[Address(RVA = "0x6AB6A30", Offset = "0x6AB5A30", VA = "0x6AB6A30", Slot = "129")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BA")]
+	[Token(Token = "0x17000565")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EunityBackgroundImageTintColor
 	{
-		[Token(Token = "0x6001588")]
-		[Address(RVA = "0x30C6160", Offset = "0x30C4760", VA = "0x1830C6160", Slot = "132")]
+		[Token(Token = "0x600168B")]
+		[Address(RVA = "0x6AB6AC0", Offset = "0x6AB5AC0", VA = "0x6AB6AC0", Slot = "132")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x6001589")]
-		[Address(RVA = "0x30C9880", Offset = "0x30C7E80", VA = "0x1830C9880", Slot = "133")]
+		[Token(Token = "0x600168C")]
+		[Address(RVA = "0x6AB6B00", Offset = "0x6AB5B00", VA = "0x6AB6B00", Slot = "133")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BB")]
+	[Token(Token = "0x17000566")]
 	private StyleEnum<EditorTextRenderingMode> UnityEngine_002EUIElements_002EIStyle_002EunityEditorTextRenderingMode
 	{
-		[Token(Token = "0x600158A")]
-		[Address(RVA = "0x30C61A0", Offset = "0x30C47A0", VA = "0x1830C61A0", Slot = "134")]
+		[Token(Token = "0x600168D")]
+		[Address(RVA = "0x6AB6B70", Offset = "0x6AB5B70", VA = "0x6AB6B70", Slot = "134")]
 		get
 		{
 			return default(StyleEnum<EditorTextRenderingMode>);
 		}
-		[Token(Token = "0x600158B")]
-		[Address(RVA = "0x30C98F0", Offset = "0x30C7EF0", VA = "0x1830C98F0", Slot = "135")]
+		[Token(Token = "0x600168E")]
+		[Address(RVA = "0x6AB6C00", Offset = "0x6AB5C00", VA = "0x6AB6C00", Slot = "135")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BC")]
+	[Token(Token = "0x17000567")]
 	private StyleFont UnityEngine_002EUIElements_002EIStyle_002EunityFont
 	{
-		[Token(Token = "0x600158C")]
-		[Address(RVA = "0x30C6310", Offset = "0x30C4910", VA = "0x1830C6310", Slot = "136")]
+		[Token(Token = "0x600168F")]
+		[Address(RVA = "0x6AB6C90", Offset = "0x6AB5C90", VA = "0x6AB6C90", Slot = "136")]
 		get
 		{
 			return default(StyleFont);
 		}
-		[Token(Token = "0x600158D")]
-		[Address(RVA = "0x30C9A80", Offset = "0x30C8080", VA = "0x1830C9A80", Slot = "137")]
+		[Token(Token = "0x6001690")]
+		[Address(RVA = "0x6AB6CA0", Offset = "0x6AB5CA0", VA = "0x6AB6CA0", Slot = "137")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BD")]
+	[Token(Token = "0x17000568")]
 	private StyleFontDefinition UnityEngine_002EUIElements_002EIStyle_002EunityFontDefinition
 	{
-		[Token(Token = "0x600158E")]
-		[Address(RVA = "0x30C6230", Offset = "0x30C4830", VA = "0x1830C6230", Slot = "138")]
+		[Token(Token = "0x6001691")]
+		[Address(RVA = "0x6AB6F10", Offset = "0x6AB5F10", VA = "0x6AB6F10", Slot = "138")]
 		get
 		{
 			return default(StyleFontDefinition);
 		}
-		[Token(Token = "0x600158F")]
-		[Address(RVA = "0x30C9980", Offset = "0x30C7F80", VA = "0x1830C9980", Slot = "139")]
+		[Token(Token = "0x6001692")]
+		[Address(RVA = "0x6AB6F50", Offset = "0x6AB5F50", VA = "0x6AB6F50", Slot = "139")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BE")]
+	[Token(Token = "0x17000569")]
 	private StyleEnum<FontStyle> UnityEngine_002EUIElements_002EIStyle_002EunityFontStyleAndWeight
 	{
-		[Token(Token = "0x6001590")]
-		[Address(RVA = "0x30C6280", Offset = "0x30C4880", VA = "0x1830C6280", Slot = "140")]
+		[Token(Token = "0x6001693")]
+		[Address(RVA = "0x6AB72C0", Offset = "0x6AB62C0", VA = "0x6AB72C0", Slot = "140")]
 		get
 		{
 			return default(StyleEnum<FontStyle>);
 		}
-		[Token(Token = "0x6001591")]
-		[Address(RVA = "0x30C99F0", Offset = "0x30C7FF0", VA = "0x1830C99F0", Slot = "141")]
+		[Token(Token = "0x6001694")]
+		[Address(RVA = "0x6AB7350", Offset = "0x6AB6350", VA = "0x6AB7350", Slot = "141")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004BF")]
+	[Token(Token = "0x1700056A")]
 	private StyleMaterialDefinition UnityEngine_002EUIElements_002EIStyle_002EunityMaterial
 	{
-		[Token(Token = "0x6001592")]
-		[Address(RVA = "0x30C6350", Offset = "0x30C4950", VA = "0x1830C6350", Slot = "142")]
+		[Token(Token = "0x6001695")]
+		[Address(RVA = "0x6AB73E0", Offset = "0x6AB63E0", VA = "0x6AB73E0", Slot = "142")]
 		get
 		{
 			return default(StyleMaterialDefinition);
 		}
-		[Token(Token = "0x6001593")]
-		[Address(RVA = "0x30C9AF0", Offset = "0x30C80F0", VA = "0x1830C9AF0", Slot = "143")]
+		[Token(Token = "0x6001696")]
+		[Address(RVA = "0x6AB7420", Offset = "0x6AB6420", VA = "0x6AB7420", Slot = "143")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C0")]
+	[Token(Token = "0x1700056B")]
 	private StyleEnum<OverflowClipBox> UnityEngine_002EUIElements_002EIStyle_002EunityOverflowClipBox
 	{
-		[Token(Token = "0x6001594")]
-		[Address(RVA = "0x30C63A0", Offset = "0x30C49A0", VA = "0x1830C63A0", Slot = "144")]
+		[Token(Token = "0x6001697")]
+		[Address(RVA = "0x6AB76E0", Offset = "0x6AB66E0", VA = "0x6AB76E0", Slot = "144")]
 		get
 		{
 			return default(StyleEnum<OverflowClipBox>);
 		}
-		[Token(Token = "0x6001595")]
-		[Address(RVA = "0x30C9B60", Offset = "0x30C8160", VA = "0x1830C9B60", Slot = "145")]
+		[Token(Token = "0x6001698")]
+		[Address(RVA = "0x6AB7770", Offset = "0x6AB6770", VA = "0x6AB7770", Slot = "145")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C1")]
+	[Token(Token = "0x1700056C")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EunityParagraphSpacing
 	{
-		[Token(Token = "0x6001596")]
-		[Address(RVA = "0x30C6430", Offset = "0x30C4A30", VA = "0x1830C6430", Slot = "146")]
+		[Token(Token = "0x6001699")]
+		[Address(RVA = "0x6AB7800", Offset = "0x6AB6800", VA = "0x6AB7800", Slot = "146")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x6001597")]
-		[Address(RVA = "0x30C9BF0", Offset = "0x30C81F0", VA = "0x1830C9BF0", Slot = "147")]
+		[Token(Token = "0x600169A")]
+		[Address(RVA = "0x6AB7810", Offset = "0x6AB6810", VA = "0x6AB7810", Slot = "147")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C2")]
+	[Token(Token = "0x1700056D")]
 	private StyleInt UnityEngine_002EUIElements_002EIStyle_002EunitySliceBottom
 	{
-		[Token(Token = "0x6001598")]
-		[Address(RVA = "0x30C6470", Offset = "0x30C4A70", VA = "0x1830C6470", Slot = "148")]
+		[Token(Token = "0x600169B")]
+		[Address(RVA = "0x6AB7860", Offset = "0x6AB6860", VA = "0x6AB7860", Slot = "148")]
 		get
 		{
 			return default(StyleInt);
 		}
-		[Token(Token = "0x6001599")]
-		[Address(RVA = "0x30C9C60", Offset = "0x30C8260", VA = "0x1830C9C60", Slot = "149")]
+		[Token(Token = "0x600169C")]
+		[Address(RVA = "0x6AB7870", Offset = "0x6AB6870", VA = "0x6AB7870", Slot = "149")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C3")]
+	[Token(Token = "0x1700056E")]
 	private StyleInt UnityEngine_002EUIElements_002EIStyle_002EunitySliceLeft
 	{
-		[Token(Token = "0x600159A")]
-		[Address(RVA = "0x30C6480", Offset = "0x30C4A80", VA = "0x1830C6480", Slot = "150")]
+		[Token(Token = "0x600169D")]
+		[Address(RVA = "0x6AB79F0", Offset = "0x6AB69F0", VA = "0x6AB79F0", Slot = "150")]
 		get
 		{
 			return default(StyleInt);
 		}
-		[Token(Token = "0x600159B")]
-		[Address(RVA = "0x30C9CC0", Offset = "0x30C82C0", VA = "0x1830C9CC0", Slot = "151")]
+		[Token(Token = "0x600169E")]
+		[Address(RVA = "0x6AB7A00", Offset = "0x6AB6A00", VA = "0x6AB7A00", Slot = "151")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C4")]
+	[Token(Token = "0x1700056F")]
 	private StyleInt UnityEngine_002EUIElements_002EIStyle_002EunitySliceRight
 	{
-		[Token(Token = "0x600159C")]
-		[Address(RVA = "0x30C6490", Offset = "0x30C4A90", VA = "0x1830C6490", Slot = "152")]
+		[Token(Token = "0x600169F")]
+		[Address(RVA = "0x6AB7A50", Offset = "0x6AB6A50", VA = "0x6AB7A50", Slot = "152")]
 		get
 		{
 			return default(StyleInt);
 		}
-		[Token(Token = "0x600159D")]
-		[Address(RVA = "0x30C9D20", Offset = "0x30C8320", VA = "0x1830C9D20", Slot = "153")]
+		[Token(Token = "0x60016A0")]
+		[Address(RVA = "0x6AB7A60", Offset = "0x6AB6A60", VA = "0x6AB7A60", Slot = "153")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C5")]
+	[Token(Token = "0x17000570")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EunitySliceScale
 	{
-		[Token(Token = "0x600159E")]
-		[Address(RVA = "0x30C64A0", Offset = "0x30C4AA0", VA = "0x1830C64A0", Slot = "154")]
+		[Token(Token = "0x60016A1")]
+		[Address(RVA = "0x6AB7AB0", Offset = "0x6AB6AB0", VA = "0x6AB7AB0", Slot = "154")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x600159F")]
-		[Address(RVA = "0x30C9D80", Offset = "0x30C8380", VA = "0x1830C9D80", Slot = "155")]
+		[Token(Token = "0x60016A2")]
+		[Address(RVA = "0x6AB7AC0", Offset = "0x6AB6AC0", VA = "0x6AB7AC0", Slot = "155")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C6")]
+	[Token(Token = "0x17000571")]
 	private StyleInt UnityEngine_002EUIElements_002EIStyle_002EunitySliceTop
 	{
-		[Token(Token = "0x60015A0")]
-		[Address(RVA = "0x30C64B0", Offset = "0x30C4AB0", VA = "0x1830C64B0", Slot = "156")]
+		[Token(Token = "0x60016A3")]
+		[Address(RVA = "0x6AB7B10", Offset = "0x6AB6B10", VA = "0x6AB7B10", Slot = "156")]
 		get
 		{
 			return default(StyleInt);
 		}
-		[Token(Token = "0x60015A1")]
-		[Address(RVA = "0x30C9DE0", Offset = "0x30C83E0", VA = "0x1830C9DE0", Slot = "157")]
+		[Token(Token = "0x60016A4")]
+		[Address(RVA = "0x6AB7B20", Offset = "0x6AB6B20", VA = "0x6AB7B20", Slot = "157")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C7")]
+	[Token(Token = "0x17000572")]
 	private StyleEnum<SliceType> UnityEngine_002EUIElements_002EIStyle_002EunitySliceType
 	{
-		[Token(Token = "0x60015A2")]
-		[Address(RVA = "0x30C64C0", Offset = "0x30C4AC0", VA = "0x1830C64C0", Slot = "158")]
+		[Token(Token = "0x60016A5")]
+		[Address(RVA = "0x6AB7B70", Offset = "0x6AB6B70", VA = "0x6AB7B70", Slot = "158")]
 		get
 		{
 			return default(StyleEnum<SliceType>);
 		}
-		[Token(Token = "0x60015A3")]
-		[Address(RVA = "0x30C9E40", Offset = "0x30C8440", VA = "0x1830C9E40", Slot = "159")]
+		[Token(Token = "0x60016A6")]
+		[Address(RVA = "0x6AB7C00", Offset = "0x6AB6C00", VA = "0x6AB7C00", Slot = "159")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C8")]
+	[Token(Token = "0x17000573")]
 	private StyleEnum<TextAnchor> UnityEngine_002EUIElements_002EIStyle_002EunityTextAlign
 	{
-		[Token(Token = "0x60015A4")]
-		[Address(RVA = "0x30C6550", Offset = "0x30C4B50", VA = "0x1830C6550", Slot = "160")]
+		[Token(Token = "0x60016A7")]
+		[Address(RVA = "0x6AB7C90", Offset = "0x6AB6C90", VA = "0x6AB7C90", Slot = "160")]
 		get
 		{
 			return default(StyleEnum<TextAnchor>);
 		}
-		[Token(Token = "0x60015A5")]
-		[Address(RVA = "0x30C9ED0", Offset = "0x30C84D0", VA = "0x1830C9ED0", Slot = "161")]
+		[Token(Token = "0x60016A8")]
+		[Address(RVA = "0x6AB7D20", Offset = "0x6AB6D20", VA = "0x6AB7D20", Slot = "161")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004C9")]
+	[Token(Token = "0x17000574")]
 	private StyleEnum<TextGeneratorType> UnityEngine_002EUIElements_002EIStyle_002EunityTextGenerator
 	{
-		[Token(Token = "0x60015A6")]
-		[Address(RVA = "0x30C6650", Offset = "0x30C4C50", VA = "0x1830C6650", Slot = "164")]
+		[Token(Token = "0x60016A9")]
+		[Address(RVA = "0x6AB7DB0", Offset = "0x6AB6DB0", VA = "0x6AB7DB0", Slot = "164")]
 		get
 		{
 			return default(StyleEnum<TextGeneratorType>);
 		}
-		[Token(Token = "0x60015A7")]
-		[Address(RVA = "0x30CA160", Offset = "0x30C8760", VA = "0x1830CA160", Slot = "165")]
+		[Token(Token = "0x60016AA")]
+		[Address(RVA = "0x6AB7E40", Offset = "0x6AB6E40", VA = "0x6AB7E40", Slot = "165")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CA")]
+	[Token(Token = "0x17000575")]
 	private StyleColor UnityEngine_002EUIElements_002EIStyle_002EunityTextOutlineColor
 	{
-		[Token(Token = "0x60015A8")]
-		[Address(RVA = "0x30C66E0", Offset = "0x30C4CE0", VA = "0x1830C66E0", Slot = "166")]
+		[Token(Token = "0x60016AB")]
+		[Address(RVA = "0x6AB7ED0", Offset = "0x6AB6ED0", VA = "0x6AB7ED0", Slot = "166")]
 		get
 		{
 			return default(StyleColor);
 		}
-		[Token(Token = "0x60015A9")]
-		[Address(RVA = "0x30CA1F0", Offset = "0x30C87F0", VA = "0x1830CA1F0", Slot = "167")]
+		[Token(Token = "0x60016AC")]
+		[Address(RVA = "0x6AB7F10", Offset = "0x6AB6F10", VA = "0x6AB7F10", Slot = "167")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CB")]
+	[Token(Token = "0x17000576")]
 	private StyleFloat UnityEngine_002EUIElements_002EIStyle_002EunityTextOutlineWidth
 	{
-		[Token(Token = "0x60015AA")]
-		[Address(RVA = "0x30C6720", Offset = "0x30C4D20", VA = "0x1830C6720", Slot = "168")]
+		[Token(Token = "0x60016AD")]
+		[Address(RVA = "0x6AB7F80", Offset = "0x6AB6F80", VA = "0x6AB7F80", Slot = "168")]
 		get
 		{
 			return default(StyleFloat);
 		}
-		[Token(Token = "0x60015AB")]
-		[Address(RVA = "0x30CA260", Offset = "0x30C8860", VA = "0x1830CA260", Slot = "169")]
+		[Token(Token = "0x60016AE")]
+		[Address(RVA = "0x6AB7F90", Offset = "0x6AB6F90", VA = "0x6AB7F90", Slot = "169")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CC")]
+	[Token(Token = "0x17000577")]
 	private StyleEnum<TextOverflowPosition> UnityEngine_002EUIElements_002EIStyle_002EunityTextOverflowPosition
 	{
-		[Token(Token = "0x60015AC")]
-		[Address(RVA = "0x30C6730", Offset = "0x30C4D30", VA = "0x1830C6730", Slot = "170")]
+		[Token(Token = "0x60016AF")]
+		[Address(RVA = "0x6AB7FE0", Offset = "0x6AB6FE0", VA = "0x6AB7FE0", Slot = "170")]
 		get
 		{
 			return default(StyleEnum<TextOverflowPosition>);
 		}
-		[Token(Token = "0x60015AD")]
-		[Address(RVA = "0x30CA2C0", Offset = "0x30C88C0", VA = "0x1830CA2C0", Slot = "171")]
+		[Token(Token = "0x60016B0")]
+		[Address(RVA = "0x6AB8070", Offset = "0x6AB7070", VA = "0x6AB8070", Slot = "171")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CD")]
+	[Token(Token = "0x17000578")]
 	private StyleEnum<Visibility> UnityEngine_002EUIElements_002EIStyle_002Evisibility
 	{
-		[Token(Token = "0x60015AE")]
-		[Address(RVA = "0x30C67C0", Offset = "0x30C4DC0", VA = "0x1830C67C0", Slot = "172")]
+		[Token(Token = "0x60016B1")]
+		[Address(RVA = "0x6AB8100", Offset = "0x6AB7100", VA = "0x6AB8100", Slot = "172")]
 		get
 		{
 			return default(StyleEnum<Visibility>);
 		}
-		[Token(Token = "0x60015AF")]
-		[Address(RVA = "0x30CA350", Offset = "0x30C8950", VA = "0x1830CA350", Slot = "173")]
+		[Token(Token = "0x60016B2")]
+		[Address(RVA = "0x6AB8190", Offset = "0x6AB7190", VA = "0x6AB8190", Slot = "173")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CE")]
+	[Token(Token = "0x17000579")]
 	private StyleEnum<WhiteSpace> UnityEngine_002EUIElements_002EIStyle_002EwhiteSpace
 	{
-		[Token(Token = "0x60015B0")]
-		[Address(RVA = "0x30C6850", Offset = "0x30C4E50", VA = "0x1830C6850", Slot = "174")]
+		[Token(Token = "0x60016B3")]
+		[Address(RVA = "0x6AB8220", Offset = "0x6AB7220", VA = "0x6AB8220", Slot = "174")]
 		get
 		{
 			return default(StyleEnum<WhiteSpace>);
 		}
-		[Token(Token = "0x60015B1")]
-		[Address(RVA = "0x30CA3E0", Offset = "0x30C89E0", VA = "0x1830CA3E0", Slot = "175")]
+		[Token(Token = "0x60016B4")]
+		[Address(RVA = "0x6AB82B0", Offset = "0x6AB72B0", VA = "0x6AB82B0", Slot = "175")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004CF")]
+	[Token(Token = "0x1700057A")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002Ewidth
 	{
-		[Token(Token = "0x60015B2")]
-		[Address(RVA = "0x30C68E0", Offset = "0x30C4EE0", VA = "0x1830C68E0", Slot = "176")]
+		[Token(Token = "0x60016B5")]
+		[Address(RVA = "0x6AB8340", Offset = "0x6AB7340", VA = "0x6AB8340", Slot = "176")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x60015B3")]
-		[Address(RVA = "0x30CA470", Offset = "0x30C8A70", VA = "0x1830CA470", Slot = "177")]
+		[Token(Token = "0x60016B6")]
+		[Address(RVA = "0x6AB8350", Offset = "0x6AB7350", VA = "0x6AB8350", Slot = "177")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D0")]
+	[Token(Token = "0x1700057B")]
 	private StyleLength UnityEngine_002EUIElements_002EIStyle_002EwordSpacing
 	{
-		[Token(Token = "0x60015B4")]
-		[Address(RVA = "0x30C6920", Offset = "0x30C4F20", VA = "0x1830C6920", Slot = "178")]
+		[Token(Token = "0x60016B7")]
+		[Address(RVA = "0x6AB83E0", Offset = "0x6AB73E0", VA = "0x6AB83E0", Slot = "178")]
 		get
 		{
 			return default(StyleLength);
 		}
-		[Token(Token = "0x60015B5")]
-		[Address(RVA = "0x30CA520", Offset = "0x30C8B20", VA = "0x1830CA520", Slot = "179")]
+		[Token(Token = "0x60016B8")]
+		[Address(RVA = "0x6AB83F0", Offset = "0x6AB73F0", VA = "0x6AB83F0", Slot = "179")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D1")]
+	[Token(Token = "0x1700057C")]
 	private VisualElement ve
 	{
-		[Token(Token = "0x60015B6")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60016B9")]
+		[Address(RVA = "0x6AB8440", Offset = "0x6AB7440", VA = "0x6AB8440")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60015B7")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60016BA")]
+		[Address(RVA = "0x6AB8450", Offset = "0x6AB7450", VA = "0x6AB8450")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D2")]
+	[Token(Token = "0x1700057D")]
 	private StyleCursor UnityEngine_002EUIElements_002EIStyle_002Ecursor
 	{
-		[Token(Token = "0x60015BD")]
-		[Address(RVA = "0x30C5380", Offset = "0x30C3980", VA = "0x1830C5380", Slot = "52")]
+		[Token(Token = "0x60016C0")]
+		[Address(RVA = "0x6AB9D30", Offset = "0x6AB8D30", VA = "0x6AB9D30", Slot = "52")]
 		get
 		{
 			return default(StyleCursor);
 		}
-		[Token(Token = "0x60015BE")]
-		[Address(RVA = "0x30C78E0", Offset = "0x30C5EE0", VA = "0x1830C78E0", Slot = "53")]
+		[Token(Token = "0x60016C1")]
+		[Address(RVA = "0x6AB9DE0", Offset = "0x6AB8DE0", VA = "0x6AB9DE0", Slot = "53")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D3")]
+	[Token(Token = "0x1700057E")]
 	private StyleTextShadow UnityEngine_002EUIElements_002EIStyle_002EtextShadow
 	{
-		[Token(Token = "0x60015BF")]
-		[Address(RVA = "0x30C5E20", Offset = "0x30C4420", VA = "0x1830C5E20", Slot = "116")]
+		[Token(Token = "0x60016C2")]
+		[Address(RVA = "0x6AB9FF0", Offset = "0x6AB8FF0", VA = "0x6AB9FF0", Slot = "116")]
 		get
 		{
 			return default(StyleTextShadow);
 		}
-		[Token(Token = "0x60015C0")]
-		[Address(RVA = "0x30C9080", Offset = "0x30C7680", VA = "0x1830C9080", Slot = "117")]
+		[Token(Token = "0x60016C3")]
+		[Address(RVA = "0x6ABA070", Offset = "0x6AB9070", VA = "0x6ABA070", Slot = "117")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D4")]
+	[Token(Token = "0x1700057F")]
 	private StyleTextAutoSize UnityEngine_002EUIElements_002EIStyle_002EunityTextAutoSize
 	{
-		[Token(Token = "0x60015C1")]
-		[Address(RVA = "0x30C65E0", Offset = "0x30C4BE0", VA = "0x1830C65E0", Slot = "162")]
+		[Token(Token = "0x60016C4")]
+		[Address(RVA = "0x6ABA270", Offset = "0x6AB9270", VA = "0x6ABA270", Slot = "162")]
 		get
 		{
 			return default(StyleTextAutoSize);
 		}
-		[Token(Token = "0x60015C2")]
-		[Address(RVA = "0x30C9F60", Offset = "0x30C8560", VA = "0x1830C9F60", Slot = "163")]
+		[Token(Token = "0x60016C5")]
+		[Address(RVA = "0x6ABA2F0", Offset = "0x6AB92F0", VA = "0x6ABA2F0", Slot = "163")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D5")]
+	[Token(Token = "0x17000580")]
 	private StyleBackgroundSize UnityEngine_002EUIElements_002EIStyle_002EbackgroundSize
 	{
-		[Token(Token = "0x60015C3")]
-		[Address(RVA = "0x30C5050", Offset = "0x30C3650", VA = "0x1830C5050", Slot = "22")]
+		[Token(Token = "0x60016C6")]
+		[Address(RVA = "0x6ABA530", Offset = "0x6AB9530", VA = "0x6ABA530", Slot = "22")]
 		get
 		{
 			return default(StyleBackgroundSize);
 		}
-		[Token(Token = "0x60015C4")]
-		[Address(RVA = "0x30C7070", Offset = "0x30C5670", VA = "0x1830C7070", Slot = "23")]
+		[Token(Token = "0x60016C7")]
+		[Address(RVA = "0x6ABA5D0", Offset = "0x6AB95D0", VA = "0x6ABA5D0", Slot = "23")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D6")]
+	[Token(Token = "0x17000581")]
 	private StyleList<FilterFunction> UnityEngine_002EUIElements_002EIStyle_002Efilter
 	{
-		[Token(Token = "0x60015C5")]
-		[Address(RVA = "0x30C54A0", Offset = "0x30C3AA0", VA = "0x1830C54A0", Slot = "56")]
+		[Token(Token = "0x60016C8")]
+		[Address(RVA = "0x6ABA780", Offset = "0x6AB9780", VA = "0x6ABA780", Slot = "56")]
 		get
 		{
 			return default(StyleList<FilterFunction>);
 		}
-		[Token(Token = "0x60015C6")]
-		[Address(RVA = "0x30C7A00", Offset = "0x30C6000", VA = "0x1830C7A00", Slot = "57")]
+		[Token(Token = "0x60016C9")]
+		[Address(RVA = "0x6ABA820", Offset = "0x6AB9820", VA = "0x6ABA820", Slot = "57")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D7")]
+	[Token(Token = "0x17000582")]
 	private StyleTransformOrigin UnityEngine_002EUIElements_002EIStyle_002EtransformOrigin
 	{
-		[Token(Token = "0x60015CA")]
-		[Address(RVA = "0x30C5EC0", Offset = "0x30C44C0", VA = "0x1830C5EC0", Slot = "120")]
+		[Token(Token = "0x60016CD")]
+		[Address(RVA = "0x6ABACE0", Offset = "0x6AB9CE0", VA = "0x6ABACE0", Slot = "120")]
 		get
 		{
 			return default(StyleTransformOrigin);
 		}
-		[Token(Token = "0x60015CB")]
-		[Address(RVA = "0x30C9300", Offset = "0x30C7900", VA = "0x1830C9300", Slot = "121")]
+		[Token(Token = "0x60016CE")]
+		[Address(RVA = "0x6ABAD80", Offset = "0x6AB9D80", VA = "0x6ABAD80", Slot = "121")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D8")]
+	[Token(Token = "0x17000583")]
 	private StyleTranslate UnityEngine_002EUIElements_002EIStyle_002Etranslate
 	{
-		[Token(Token = "0x60015CC")]
-		[Address(RVA = "0x30C60F0", Offset = "0x30C46F0", VA = "0x1830C60F0", Slot = "130")]
+		[Token(Token = "0x60016CF")]
+		[Address(RVA = "0x6ABAF30", Offset = "0x6AB9F30", VA = "0x6ABAF30", Slot = "130")]
 		get
 		{
 			return default(StyleTranslate);
 		}
-		[Token(Token = "0x60015CD")]
-		[Address(RVA = "0x30C96D0", Offset = "0x30C7CD0", VA = "0x1830C96D0", Slot = "131")]
+		[Token(Token = "0x60016D0")]
+		[Address(RVA = "0x6ABAFC0", Offset = "0x6AB9FC0", VA = "0x6ABAFC0", Slot = "131")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004D9")]
+	[Token(Token = "0x17000584")]
 	private StyleRotate UnityEngine_002EUIElements_002EIStyle_002Erotate
 	{
-		[Token(Token = "0x60015CE")]
-		[Address(RVA = "0x30C5CC0", Offset = "0x30C42C0", VA = "0x1830C5CC0", Slot = "110")]
+		[Token(Token = "0x60016D1")]
+		[Address(RVA = "0x6ABB180", Offset = "0x6ABA180", VA = "0x6ABB180", Slot = "110")]
 		get
 		{
 			return default(StyleRotate);
 		}
-		[Token(Token = "0x60015CF")]
-		[Address(RVA = "0x30C8CC0", Offset = "0x30C72C0", VA = "0x1830C8CC0", Slot = "111")]
+		[Token(Token = "0x60016D2")]
+		[Address(RVA = "0x6ABB210", Offset = "0x6ABA210", VA = "0x6ABB210", Slot = "111")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004DA")]
+	[Token(Token = "0x17000585")]
 	private StyleScale UnityEngine_002EUIElements_002EIStyle_002Escale
 	{
-		[Token(Token = "0x60015D0")]
-		[Address(RVA = "0x30C5D30", Offset = "0x30C4330", VA = "0x1830C5D30", Slot = "112")]
+		[Token(Token = "0x60016D3")]
+		[Address(RVA = "0x6ABB3D0", Offset = "0x6ABA3D0", VA = "0x6ABB3D0", Slot = "112")]
 		get
 		{
 			return default(StyleScale);
 		}
-		[Token(Token = "0x60015D1")]
-		[Address(RVA = "0x30C8E70", Offset = "0x30C7470", VA = "0x1830C8E70", Slot = "113")]
+		[Token(Token = "0x60016D4")]
+		[Address(RVA = "0x6ABB450", Offset = "0x6ABA450", VA = "0x6ABB450", Slot = "113")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60015B8")]
-	[Address(RVA = "0x30CA610", Offset = "0x30C8C10", VA = "0x1830CA610")]
+	[Token(Token = "0x60016BB")]
+	[Address(RVA = "0x6AB8460", Offset = "0x6AB7460", VA = "0x6AB8460")]
 	public InlineStyleAccess(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x60015B9")]
-	[Address(RVA = "0x30C1C70", Offset = "0x30C0270", VA = "0x1830C1C70", Slot = "1")]
+	[Token(Token = "0x60016BC")]
+	[Address(RVA = "0x6AB8490", Offset = "0x6AB7490", VA = "0x6AB8490", Slot = "1")]
 	~InlineStyleAccess()
 	{
 	}
 
-	[Token(Token = "0x60015BA")]
-	[Address(RVA = "0x30C28D0", Offset = "0x30C0ED0", VA = "0x1830C28D0")]
+	[Token(Token = "0x60016BD")]
+	[Address(RVA = "0x6AB8580", Offset = "0x6AB7580", VA = "0x6AB8580")]
 	public void SetInlineRule(StyleSheet sheet, StyleRule rule)
 	{
 	}
 
-	[Token(Token = "0x60015BB")]
-	[Address(RVA = "0x30C1D30", Offset = "0x30C0330", VA = "0x1830C1D30")]
+	[Token(Token = "0x60016BE")]
+	[Address(RVA = "0x6AB9960", Offset = "0x6AB8960", VA = "0x6AB9960")]
 	public bool IsValueSet(StylePropertyId id)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015BC")]
-	[Address(RVA = "0x30BF580", Offset = "0x30BDB80", VA = "0x1830BF580")]
+	[Token(Token = "0x60016BF")]
+	[Address(RVA = "0x6AB85E0", Offset = "0x6AB75E0", VA = "0x6AB85E0")]
 	public void ApplyInlineStyles(ref ComputedStyle computedStyle)
 	{
 	}
 
-	[Token(Token = "0x60015C7")]
+	[Token(Token = "0x60016CA")]
 	private StyleList<T> GetStyleList<T>(StylePropertyId id)
 	{
 		return default(StyleList<T>);
 	}
 
-	[Token(Token = "0x60015C8")]
-	[Address(RVA = "0x30C3110", Offset = "0x30C1710", VA = "0x1830C3110")]
+	[Token(Token = "0x60016CB")]
+	[Address(RVA = "0x6ABA9B0", Offset = "0x6AB99B0", VA = "0x6ABA9B0")]
 	private void SetStyleValueManaged(StyleValueManaged value)
 	{
 	}
 
-	[Token(Token = "0x60015C9")]
-	[Address(RVA = "0x30C4BF0", Offset = "0x30C31F0", VA = "0x1830C4BF0")]
+	[Token(Token = "0x60016CC")]
+	[Address(RVA = "0x6ABAB70", Offset = "0x6AB9B70", VA = "0x6ABAB70")]
 	private bool TryGetStyleValueManaged(StylePropertyId id, ref StyleValueManaged value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D2")]
-	[Address(RVA = "0x30C3320", Offset = "0x30C1920", VA = "0x1830C3320")]
+	[Token(Token = "0x60016D5")]
+	[Address(RVA = "0x6AB4460", Offset = "0x6AB3460", VA = "0x6AB4460")]
 	private bool SetStyleValue(StylePropertyId id, StyleBackgroundPosition inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D3")]
-	[Address(RVA = "0x30C3B30", Offset = "0x30C2130", VA = "0x1830C3B30")]
+	[Token(Token = "0x60016D6")]
+	[Address(RVA = "0x6AB4650", Offset = "0x6AB3650", VA = "0x6AB4650")]
 	private bool SetStyleValue(StylePropertyId id, StyleBackgroundRepeat inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D4")]
-	[Address(RVA = "0x30C34A0", Offset = "0x30C1AA0", VA = "0x1830C34A0")]
+	[Token(Token = "0x60016D7")]
+	[Address(RVA = "0x6AB4880", Offset = "0x6AB3880", VA = "0x6AB4880")]
 	private bool SetStyleValue(StylePropertyId id, StyleLength inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D5")]
-	[Address(RVA = "0x30C4310", Offset = "0x30C2910", VA = "0x1830C4310")]
+	[Token(Token = "0x60016D8")]
+	[Address(RVA = "0x6AB4AA0", Offset = "0x6AB3AA0", VA = "0x6AB4AA0")]
 	private bool SetStyleValue(StylePropertyId id, StyleFloat inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D6")]
-	[Address(RVA = "0x30C3FA0", Offset = "0x30C25A0", VA = "0x1830C3FA0")]
+	[Token(Token = "0x60016D9")]
+	[Address(RVA = "0x6AB78C0", Offset = "0x6AB68C0", VA = "0x6AB78C0")]
 	private bool SetStyleValue(StylePropertyId id, StyleInt inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D7")]
-	[Address(RVA = "0x30C3DD0", Offset = "0x30C23D0", VA = "0x1830C3DD0")]
+	[Token(Token = "0x60016DA")]
+	[Address(RVA = "0x6AB3B00", Offset = "0x6AB2B00", VA = "0x6AB3B00")]
 	private bool SetStyleValue(StylePropertyId id, StyleColor inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D8")]
+	[Token(Token = "0x60016DB")]
 	private bool SetStyleValue<T>(StylePropertyId id, StyleEnum<T> inlineValue) where T : struct, IConvertible
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D9")]
-	[Address(RVA = "0x30C4470", Offset = "0x30C2A70", VA = "0x1830C4470")]
+	[Token(Token = "0x60016DC")]
+	[Address(RVA = "0x6AB3D10", Offset = "0x6AB2D10", VA = "0x6AB3D10")]
 	private bool SetStyleValue(StylePropertyId id, StyleBackground inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DA")]
-	[Address(RVA = "0x30C35E0", Offset = "0x30C1BE0", VA = "0x1830C35E0")]
+	[Token(Token = "0x60016DD")]
+	[Address(RVA = "0x6AB6FC0", Offset = "0x6AB5FC0", VA = "0x6AB6FC0")]
 	private bool SetStyleValue(StylePropertyId id, StyleFontDefinition inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DB")]
-	[Address(RVA = "0x30C4110", Offset = "0x30C2710", VA = "0x1830C4110")]
+	[Token(Token = "0x60016DE")]
+	[Address(RVA = "0x6AB6CF0", Offset = "0x6AB5CF0", VA = "0x6AB6CF0")]
 	private bool SetStyleValue(StylePropertyId id, StyleFont inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DC")]
-	[Address(RVA = "0x30C38E0", Offset = "0x30C1EE0", VA = "0x1830C38E0")]
+	[Token(Token = "0x60016DF")]
+	[Address(RVA = "0x6AB7490", Offset = "0x6AB6490", VA = "0x6AB7490")]
 	private bool SetStyleValue(StylePropertyId id, StyleMaterialDefinition inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DD")]
+	[Token(Token = "0x60016E0")]
 	private bool SetStyleValue<T>(StylePropertyId id, StyleList<T> inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DE")]
-	[Address(RVA = "0x30C3C50", Offset = "0x30C2250", VA = "0x1830C3C50")]
+	[Token(Token = "0x60016E1")]
+	[Address(RVA = "0x6AB3910", Offset = "0x6AB2910", VA = "0x6AB3910")]
 	private bool SetStyleValue(StylePropertyId id, StyleRatio inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015DF")]
-	[Address(RVA = "0x30C2290", Offset = "0x30C0890", VA = "0x1830C2290")]
+	[Token(Token = "0x60016E2")]
+	[Address(RVA = "0x6AB9E50", Offset = "0x6AB8E50", VA = "0x6AB9E50")]
 	private bool SetInlineCursor(StyleCursor inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E0")]
-	[Address(RVA = "0x30C0B80", Offset = "0x30BF180", VA = "0x1830C0B80")]
+	[Token(Token = "0x60016E3")]
+	[Address(RVA = "0x6ABB950", Offset = "0x6ABA950", VA = "0x6ABB950")]
 	private void ApplyStyleCursor(StyleCursor cursor)
 	{
 	}
 
-	[Token(Token = "0x60015E1")]
-	[Address(RVA = "0x30C2C70", Offset = "0x30C1270", VA = "0x1830C2C70")]
+	[Token(Token = "0x60016E4")]
+	[Address(RVA = "0x6ABA0E0", Offset = "0x6AB90E0", VA = "0x6ABA0E0")]
 	private bool SetInlineTextShadow(StyleTextShadow inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E2")]
-	[Address(RVA = "0x30C1390", Offset = "0x30BF990", VA = "0x1830C1390")]
+	[Token(Token = "0x60016E5")]
+	[Address(RVA = "0x6ABBB10", Offset = "0x6ABAB10", VA = "0x6ABBB10")]
 	private void ApplyStyleTextShadow(StyleTextShadow textShadow)
 	{
 	}
 
-	[Token(Token = "0x60015E3")]
-	[Address(RVA = "0x30C2AA0", Offset = "0x30C10A0", VA = "0x1830C2AA0")]
+	[Token(Token = "0x60016E6")]
+	[Address(RVA = "0x6ABA360", Offset = "0x6AB9360", VA = "0x6ABA360")]
 	private bool SetInlineTextAutoSize(StyleTextAutoSize inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E4")]
-	[Address(RVA = "0x30C1340", Offset = "0x30BF940", VA = "0x1830C1340")]
+	[Token(Token = "0x60016E7")]
+	[Address(RVA = "0x6ABBD30", Offset = "0x6ABAD30", VA = "0x6ABBD30")]
 	private void ApplyStyleTextAutoSize(StyleTextAutoSize textAutoSize)
 	{
 	}
 
-	[Token(Token = "0x60015E5")]
-	[Address(RVA = "0x30C2E10", Offset = "0x30C1410", VA = "0x1830C2E10")]
+	[Token(Token = "0x60016E8")]
+	[Address(RVA = "0x6ABADF0", Offset = "0x6AB9DF0", VA = "0x6ABADF0")]
 	private bool SetInlineTransformOrigin(StyleTransformOrigin inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E6")]
-	[Address(RVA = "0x30C1570", Offset = "0x30BFB70", VA = "0x1830C1570")]
+	[Token(Token = "0x60016E9")]
+	[Address(RVA = "0x6ABBD80", Offset = "0x6ABAD80", VA = "0x6ABBD80")]
 	private void ApplyStyleTransformOrigin(StyleTransformOrigin transformOrigin)
 	{
 	}
 
-	[Token(Token = "0x60015E7")]
-	[Address(RVA = "0x30C2F70", Offset = "0x30C1570", VA = "0x1830C2F70")]
+	[Token(Token = "0x60016EA")]
+	[Address(RVA = "0x6ABB030", Offset = "0x6ABA030", VA = "0x6ABB030")]
 	private bool SetInlineTranslate(StyleTranslate inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E8")]
-	[Address(RVA = "0x30C1750", Offset = "0x30BFD50", VA = "0x1830C1750")]
+	[Token(Token = "0x60016EB")]
+	[Address(RVA = "0x6ABBF80", Offset = "0x6ABAF80", VA = "0x6ABBF80")]
 	private void ApplyStyleTranslate(StyleTranslate translate)
 	{
 	}
 
-	[Token(Token = "0x60015E9")]
-	[Address(RVA = "0x30C2930", Offset = "0x30C0F30", VA = "0x1830C2930")]
+	[Token(Token = "0x60016EC")]
+	[Address(RVA = "0x6ABB4B0", Offset = "0x6ABA4B0", VA = "0x6ABB4B0")]
 	private bool SetInlineScale(StyleScale inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015EA")]
-	[Address(RVA = "0x30C1180", Offset = "0x30BF780", VA = "0x1830C1180")]
+	[Token(Token = "0x60016ED")]
+	[Address(RVA = "0x6ABC180", Offset = "0x6ABB180", VA = "0x6ABC180")]
 	private void ApplyStyleScale(StyleScale scale)
 	{
 	}
 
-	[Token(Token = "0x60015EB")]
-	[Address(RVA = "0x30C2730", Offset = "0x30C0D30", VA = "0x1830C2730")]
+	[Token(Token = "0x60016EE")]
+	[Address(RVA = "0x6ABB280", Offset = "0x6ABA280", VA = "0x6ABB280")]
 	private bool SetInlineRotate(StyleRotate inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015EC")]
-	[Address(RVA = "0x30C0F30", Offset = "0x30BF530", VA = "0x1830C0F30")]
+	[Token(Token = "0x60016EF")]
+	[Address(RVA = "0x6ABC370", Offset = "0x6ABB370", VA = "0x6ABC370")]
 	private void ApplyStyleRotate(StyleRotate rotate)
 	{
 	}
 
-	[Token(Token = "0x60015ED")]
-	[Address(RVA = "0x30C2130", Offset = "0x30C0730", VA = "0x1830C2130")]
+	[Token(Token = "0x60016F0")]
+	[Address(RVA = "0x6ABA640", Offset = "0x6AB9640", VA = "0x6ABA640")]
 	private bool SetInlineBackgroundSize(StyleBackgroundSize inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015EE")]
-	[Address(RVA = "0x30C09A0", Offset = "0x30BEFA0", VA = "0x1830C09A0")]
+	[Token(Token = "0x60016F1")]
+	[Address(RVA = "0x6ABC5C0", Offset = "0x6ABB5C0", VA = "0x6ABC5C0")]
 	private void ApplyStyleBackgroundSize(StyleBackgroundSize backgroundSize)
 	{
 	}
 
-	[Token(Token = "0x60015EF")]
-	[Address(RVA = "0x30C25C0", Offset = "0x30C0BC0", VA = "0x1830C25C0")]
+	[Token(Token = "0x60016F2")]
+	[Address(RVA = "0x6ABA870", Offset = "0x6AB9870", VA = "0x6ABA870")]
 	private bool SetInlineFilter(StyleList<FilterFunction> inlineValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F0")]
-	[Address(RVA = "0x30C0D60", Offset = "0x30BF360", VA = "0x1830C0D60")]
+	[Token(Token = "0x60016F3")]
+	[Address(RVA = "0x6ABC7C0", Offset = "0x6ABB7C0", VA = "0x6ABC7C0")]
 	private void ApplyStyleFilter(StyleList<FilterFunction> filter)
 	{
 	}
 
-	[Token(Token = "0x60015F1")]
-	[Address(RVA = "0x30C1930", Offset = "0x30BFF30", VA = "0x1830C1930")]
+	[Token(Token = "0x60016F4")]
+	[Address(RVA = "0x6ABB6B0", Offset = "0x6ABA6B0", VA = "0x6ABB6B0")]
 	private void ApplyStyleValue(StyleValue value)
 	{
 	}
 
-	[Token(Token = "0x60015F2")]
-	[Address(RVA = "0x30C1BB0", Offset = "0x30C01B0", VA = "0x1830C1BB0")]
+	[Token(Token = "0x60016F5")]
+	[Address(RVA = "0x6ABC9D0", Offset = "0x6ABB9D0", VA = "0x6ABC9D0")]
 	private void ApplyStyleValue(StyleValueManaged value)
 	{
 	}
 
-	[Token(Token = "0x60015F3")]
-	[Address(RVA = "0x30C2040", Offset = "0x30C0640", VA = "0x1830C2040")]
+	[Token(Token = "0x60016F6")]
+	[Address(RVA = "0x6ABB5D0", Offset = "0x6ABA5D0", VA = "0x6ABB5D0")]
 	private bool RemoveInlineStyle(StylePropertyId id)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F4")]
-	[Address(RVA = "0x30BF3B0", Offset = "0x30BD9B0", VA = "0x1830BF3B0")]
+	[Token(Token = "0x60016F7")]
+	[Address(RVA = "0x6ABCA90", Offset = "0x6ABBA90", VA = "0x6ABCA90")]
 	private void ApplyFromComputedStyle(StylePropertyId id, ref ComputedStyle newStyle)
 	{
 	}
 
-	[Token(Token = "0x60015F5")]
-	[Address(RVA = "0x30C4A60", Offset = "0x30C3060", VA = "0x1830C4A60")]
+	[Token(Token = "0x60016F8")]
+	[Address(RVA = "0x6AB9DB0", Offset = "0x6AB8DB0", VA = "0x6AB9DB0")]
 	public bool TryGetInlineCursor(ref StyleCursor value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F6")]
-	[Address(RVA = "0x30C4B60", Offset = "0x30C3160", VA = "0x1830C4B60")]
+	[Token(Token = "0x60016F9")]
+	[Address(RVA = "0x6ABA050", Offset = "0x6AB9050", VA = "0x6ABA050")]
 	public bool TryGetInlineTextShadow(ref StyleTextShadow value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F7")]
-	[Address(RVA = "0x30C4B40", Offset = "0x30C3140", VA = "0x1830C4B40")]
+	[Token(Token = "0x60016FA")]
+	[Address(RVA = "0x6ABA2D0", Offset = "0x6AB92D0", VA = "0x6ABA2D0")]
 	public bool TryGetInlineTextAutoSize(ref StyleTextAutoSize value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F8")]
-	[Address(RVA = "0x30C4B80", Offset = "0x30C3180", VA = "0x1830C4B80")]
+	[Token(Token = "0x60016FB")]
+	[Address(RVA = "0x6ABAD50", Offset = "0x6AB9D50", VA = "0x6ABAD50")]
 	public bool TryGetInlineTransformOrigin(ref StyleTransformOrigin value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015F9")]
-	[Address(RVA = "0x30C4BB0", Offset = "0x30C31B0", VA = "0x1830C4BB0")]
+	[Token(Token = "0x60016FC")]
+	[Address(RVA = "0x6ABAF90", Offset = "0x6AB9F90", VA = "0x6ABAF90")]
 	public bool TryGetInlineTranslate(ref StyleTranslate value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015FA")]
-	[Address(RVA = "0x30C4AD0", Offset = "0x30C30D0", VA = "0x1830C4AD0")]
+	[Token(Token = "0x60016FD")]
+	[Address(RVA = "0x6ABB1E0", Offset = "0x6ABA1E0", VA = "0x6ABB1E0")]
 	public bool TryGetInlineRotate(ref StyleRotate value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015FB")]
-	[Address(RVA = "0x30C4B10", Offset = "0x30C3110", VA = "0x1830C4B10")]
+	[Token(Token = "0x60016FE")]
+	[Address(RVA = "0x6ABB430", Offset = "0x6ABA430", VA = "0x6ABB430")]
 	public bool TryGetInlineScale(ref StyleScale value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015FC")]
-	[Address(RVA = "0x30C4A30", Offset = "0x30C3030", VA = "0x1830C4A30")]
+	[Token(Token = "0x60016FF")]
+	[Address(RVA = "0x6ABA5A0", Offset = "0x6AB95A0", VA = "0x6ABA5A0")]
 	public bool TryGetInlineBackgroundSize(ref StyleBackgroundSize value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015FD")]
-	[Address(RVA = "0x30C4AA0", Offset = "0x30C30A0", VA = "0x1830C4AA0")]
+	[Token(Token = "0x6001700")]
+	[Address(RVA = "0x6ABA7F0", Offset = "0x6AB97F0", VA = "0x6ABA7F0")]
 	public bool TryGetInlineFilter(ref StyleList<FilterFunction> value)
 	{
 		return default(bool);

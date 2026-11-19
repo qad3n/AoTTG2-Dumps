@@ -17,26 +17,26 @@ public static class GraphsExceptionUtility
 	private const string handledKey = "Bolt.Core.Handled";
 
 	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x2DB1000", Offset = "0x2DAF600", VA = "0x182DB1000")]
+	[Address(RVA = "0x67A2470", Offset = "0x67A1470", VA = "0x67A2470")]
 	public static Exception GetException(this IGraphElementWithDebugData element, GraphPointer pointer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x2DB16D0", Offset = "0x2DAFCD0", VA = "0x182DB16D0")]
+	[Address(RVA = "0x67A2590", Offset = "0x67A1590", VA = "0x67A2590")]
 	public static void SetException(this IGraphElementWithDebugData element, GraphPointer pointer, Exception ex)
 	{
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x2DB1140", Offset = "0x2DAF740", VA = "0x182DB1140")]
+	[Address(RVA = "0x67A26C0", Offset = "0x67A16C0", VA = "0x67A26C0")]
 	public static void HandleException(this IGraphElementWithDebugData element, GraphPointer pointer, Exception ex)
 	{
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x2DB1420", Offset = "0x2DAFA20", VA = "0x182DB1420")]
+	[Address(RVA = "0x67A29E0", Offset = "0x67A19E0", VA = "0x67A29E0")]
 	private static bool HandledIn(this Exception ex, GraphReference reference)
 	{
 		return default(bool);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.NotBurstCompatible.Extensions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/Extensions.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,14 +20,14 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000DD8")]
-	[Address(RVA = "0x29B3750", Offset = "0x29B1D50", VA = "0x1829B3750")]
+	[Address(RVA = "0x638E9A0", Offset = "0x638D9A0", VA = "0x638E9A0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static void AddNBC(this ref UnsafeAppendBuffer buffer, string value)
 	{
 	}
 
 	[Token(Token = "0x6000DD9")]
-	[Address(RVA = "0x29B3900", Offset = "0x29B1F00", VA = "0x1829B3900")]
+	[Address(RVA = "0x638EA40", Offset = "0x638DA40", VA = "0x638EA40")]
 	[ExcludeFromBurstCompatTesting("Returns managed array")]
 	public static byte[] ToBytesNBC(this ref UnsafeAppendBuffer buffer)
 	{
@@ -35,7 +35,7 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000DDA")]
-	[Address(RVA = "0x29B3800", Offset = "0x29B1E00", VA = "0x1829B3800")]
+	[Address(RVA = "0x638EAB0", Offset = "0x638DAB0", VA = "0x638EAB0")]
 	[ExcludeFromBurstCompatTesting("Managed string out argument")]
 	public static void ReadNextNBC(this ref UnsafeAppendBuffer.Reader reader, out string value)
 	{

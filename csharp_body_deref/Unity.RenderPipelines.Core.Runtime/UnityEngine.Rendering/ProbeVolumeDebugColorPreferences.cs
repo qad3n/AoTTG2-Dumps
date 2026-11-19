@@ -62,13 +62,13 @@ internal class ProbeVolumeDebugColorPreferences
 	internal static Color s_SparsestSubdivision;
 
 	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x2B18ED0", Offset = "0x2B174D0", VA = "0x182B18ED0")]
+	[Address(RVA = "0x6507BB0", Offset = "0x6506BB0", VA = "0x6507BB0")]
 	static ProbeVolumeDebugColorPreferences()
 	{
 	}
 
 	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6507C50", Offset = "0x6506C50", VA = "0x6507C50")]
 	public ProbeVolumeDebugColorPreferences()
 	{
 	}

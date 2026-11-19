@@ -1,123 +1,110 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Styling.GisketchTypography
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Styling/GisketchTypography.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using TMPro;
+using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Styling;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x2000031")]
 public static class GisketchTypography
 {
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40000FA")]
 	private const string FontRoot = "UI/Fonts/";
 
-	[Token(Token = "0x40000DD")]
-	private const string ProbeCharacters = "Aa0";
-
-	[Token(Token = "0x40000DE")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-	public static readonly string[] BodyFallbackAssetNames;
-
-	[Token(Token = "0x40000DF")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
-	public static readonly string[] DisplayFallbackAssetNames;
-
-	[Token(Token = "0x40000E0")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-	public static readonly string[] GlobalFallbackAssetNames;
-
-	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x18BB1E0", Offset = "0x18B97E0", VA = "0x1818BB1E0")]
-	public static TMP_FontAsset Resolve(string family, int weight, [Optional] string requiredText, bool useLocaleDisplayFont = false)
+	[Token(Token = "0x60001A7")]
+	[Address(RVA = "0x5241DB0", Offset = "0x5240DB0", VA = "0x5241DB0")]
+	public static TMP_FontAsset Resolve(string family, int weight, [Optional] string requiredText)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x18BADE0", Offset = "0x18B93E0", VA = "0x1818BADE0")]
+	[Token(Token = "0x60001A8")]
+	[Address(RVA = "0x5242230", Offset = "0x5241230", VA = "0x5242230")]
+	public static TMP_FontAsset Load(string key)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60001A9")]
+	[Address(RVA = "0x5242460", Offset = "0x5241460", VA = "0x5242460")]
 	public static string Key(string family, int weight)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x18BAD10", Offset = "0x18B9310", VA = "0x1818BAD10")]
+	[Token(Token = "0x60001AA")]
+	[Address(RVA = "0x5242650", Offset = "0x5241650", VA = "0x5242650")]
+	public static float FontSize(string family, int weight, float size)
+	{
+		return default(float);
+	}
+
+	[Token(Token = "0x60001AB")]
+	[Address(RVA = "0x5242390", Offset = "0x5241390", VA = "0x5242390")]
+	public static TMP_FontAsset ForText(string text, TMP_FontAsset preferred)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60001AC")]
+	[Address(RVA = "0x5242B20", Offset = "0x5241B20", VA = "0x5242B20")]
+	public static Font LegacyFont(Font designed, string languageLetters)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60001AD")]
+	[Address(RVA = "0x52421D0", Offset = "0x52411D0", VA = "0x52421D0")]
 	public static string KeyForLanguage(string family, int weight, string languageName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x18BAC70", Offset = "0x18B9270", VA = "0x1818BAC70")]
-	public static string KeyForLanguage(string family, int weight, string languageName, bool useLocaleDisplayFont)
+	[Token(Token = "0x60001AE")]
+	[Address(RVA = "0x5242F80", Offset = "0x5241F80", VA = "0x5242F80")]
+	private static Font SourceFont(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x18BAAA0", Offset = "0x18B90A0", VA = "0x1818BAAA0")]
-	public static string[] FallbackAssetNamesFor(string family, int weight)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x18BA9B0", Offset = "0x18B8FB0", VA = "0x1818BA9B0")]
-	public static string[] FallbackAssetNamesForKey(string key)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x18BAC00", Offset = "0x18B9200", VA = "0x1818BAC00")]
-	private static bool IsDisplayKey(string key)
+	[Token(Token = "0x60001AF")]
+	[Address(RVA = "0x5242CF0", Offset = "0x5241CF0", VA = "0x5242CF0")]
+	private static bool Covers(Font font, string characters)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x18BB400", Offset = "0x18B9A00", VA = "0x1818BB400")]
-	private static void ValidateFallbacks(TMP_FontAsset font, string[] assetNames)
-	{
-	}
-
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x18BAB10", Offset = "0x18B9110", VA = "0x1818BAB10")]
-	private static bool FallbacksMatch(List<TMP_FontAsset> current, List<TMP_FontAsset> expected)
+	[Token(Token = "0x60001B0")]
+	[Address(RVA = "0x5242890", Offset = "0x5241890", VA = "0x5242890")]
+	private static bool IsAscii(string text)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x18BA640", Offset = "0x18B8C40", VA = "0x1818BA640")]
-	private static bool CanRender(TMP_FontAsset font, string requiredText, bool includeProbeCharacters, out string error)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x18BB010", Offset = "0x18B9610", VA = "0x1818BB010")]
-	private static string RequiredCharacters(string requiredText, bool includeProbeCharacters)
+	[Token(Token = "0x60001B1")]
+	[Address(RVA = "0x52428E0", Offset = "0x52418E0", VA = "0x52428E0")]
+	private static string VisibleCharacters(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60001B2")]
+	[Address(RVA = "0x52422A0", Offset = "0x52412A0", VA = "0x52422A0")]
+	private static bool HasUsableMaterial(TMP_FontAsset font, out string error)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60001B3")]
+	[Address(RVA = "0x5242290", Offset = "0x5241290", VA = "0x5242290")]
 	private static void ReportError(string message)
-	{
-	}
-
-	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
-	private static void ReportWarning(string message)
 	{
 	}
 }

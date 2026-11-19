@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200027E")]
+[Token(Token = "0x2000256")]
 internal abstract class TaskContinuation
 {
-	[Token(Token = "0x6001511")]
+	[Token(Token = "0x60014E8")]
 	internal abstract void Run(Task completedTask, bool bCanInlineContinuationTask);
 
-	[Token(Token = "0x6001512")]
-	[Address(RVA = "0x1BB4AC0", Offset = "0x1BB30C0", VA = "0x181BB4AC0")]
+	[Token(Token = "0x60014E9")]
+	[Address(RVA = "0x554BE00", Offset = "0x554AE00", VA = "0x554BE00")]
 	protected static void InlineIfPossibleOrElseQueue(Task task, bool needsProtection)
 	{
 	}
 
-	[Token(Token = "0x6001513")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60014EA")]
+	[Address(RVA = "0x554BF50", Offset = "0x554AF50", VA = "0x554BF50")]
 	protected TaskContinuation()
 	{
 	}

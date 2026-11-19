@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncMoveTrigger : AsyncTriggerBase<AxisEventData>, IMoveHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0x2932DE0", Offset = "0x29313E0", VA = "0x182932DE0", Slot = "5")]
+	[Address(RVA = "0x6304530", Offset = "0x6303530", VA = "0x6304530", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIMoveHandler_002EOnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C48")]
-	[Address(RVA = "0x2932B40", Offset = "0x2931140", VA = "0x182932B40")]
+	[Address(RVA = "0x6304580", Offset = "0x6303580", VA = "0x6304580")]
 	public IAsyncOnMoveHandler GetOnMoveAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x2932AC0", Offset = "0x29310C0", VA = "0x182932AC0")]
+	[Address(RVA = "0x63045F0", Offset = "0x63035F0", VA = "0x63045F0")]
 	public IAsyncOnMoveHandler GetOnMoveAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x2932CC0", Offset = "0x29312C0", VA = "0x182932CC0")]
+	[Address(RVA = "0x6304660", Offset = "0x6303660", VA = "0x6304660")]
 	public UniTask<AxisEventData> OnMoveAsync()
 	{
 		return default(UniTask<AxisEventData>);
 	}
 
 	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x2932BB0", Offset = "0x29311B0", VA = "0x182932BB0")]
+	[Address(RVA = "0x6304760", Offset = "0x6303760", VA = "0x6304760")]
 	public UniTask<AxisEventData> OnMoveAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<AxisEventData>);
 	}
 
 	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x2932E30", Offset = "0x2931430", VA = "0x182932E30")]
+	[Address(RVA = "0x6304870", Offset = "0x6303870", VA = "0x6304870")]
 	public AsyncMoveTrigger()
 	{
 	}

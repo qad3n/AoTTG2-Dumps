@@ -1,5 +1,5 @@
 // Type: Assets.Scripts.Utility.SetItem
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Assets.Scripts.Utility/SetItem.cs
@@ -7,11 +7,12 @@
 // --------------------------------
 
 // Assets.Scripts.Utility.SetItem<object, object>$$get_Key
-// il2cpp: Il2CppObject* Assets_Scripts_Utility_SetItem_object__object___get_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_8FB3A0* method);
-// 0x1808fb3a0
+// il2cpp: Il2CppObject* Assets_Scripts_Utility_SetItem_object__object___get_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046480* method);
+// 0x4146480
 
-Il2CppObject*
-Assets_Scripts_Utility_SetItem_object__object___get_Key(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_8FB3A0* method)
+Il2CppObject *
+Assets_Scripts_Utility_SetItem_object__object___get_Key
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046480 *method)
 
 {
   return (__this->fields)._Key_k__BackingField;
@@ -19,97 +20,88 @@ Assets_Scripts_Utility_SetItem_object__object___get_Key(Assets_Scripts_Utility_S
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$get_Key
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_8F5550* method);
-// 0x1808f5550
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046650* method);
+// 0x4146650
 
 Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
-Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Key(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_8F5550* method)
+Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Key
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046650 *method)
 
 {
-  longlong lVar1;
-  ulonglong uVar2;
-  void *pvVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar4;
-  ulonglong size;
-  undefined8 auStack_50 [5];
+  uint uVar1;
+  long *plVar2;
+  void *__src;
+  long in_RDX;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar3;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1__value_j__TPar->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x1808f5597;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  pvVar3 = (method->klass->rgctx_data->_0___f__AnonymousType0__value_j__TPar___index_j__TPar_->_1).fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808f55bc;
-  pvVar3 = il2cpp_codegen_get_instance_field_data_pointer(__return_storage_ptr__,pvVar3);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808f55ca;
-  memcpy(&stack0xffffffffffffffd8 + lVar1,pvVar3,size);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808f55d8;
-  pUVar4 = memcpy(__this,&stack0xffffffffffffffd8 + lVar1,size);
-  return pUVar4;
+  plVar2 = *(long **)(*(long *)(in_RDX + 0x20) + 0xc0);
+  uVar1 = *(uint *)(plVar2[1] + 0xfc);
+  __src = il2cpp_codegen_get_instance_field_data_pointer(__this,*(void **)(*plVar2 + 0x80));
+  UVar3.klass = memmove(method,__src,(ulong)uVar1);
+  UVar3.monitor = UVar3.monitor;
+  return UVar3;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$set_Key
-// il2cpp: void Assets_Scripts_Utility_SetItem_object__object___set_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, const MethodInfo_B8AC00* method);
-// 0x180b8ac00
+// il2cpp: void Assets_Scripts_Utility_SetItem_object__object___set_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, const MethodInfo_4046490* method);
+// 0x4146490
 
-void
-Assets_Scripts_Utility_SetItem_object__object___set_Key(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, MethodInfo_B8AC00* method)
+void Assets_Scripts_Utility_SetItem_object__object___set_Key
+               (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,Il2CppObject *value,
+               MethodInfo_4046490 *method)
 
 {
   (__this->fields)._Key_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Key_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Key_k__BackingField);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$set_Key
-// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_C8DCB0* method);
-// 0x180c8dcb0
+// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Key (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_4046690* method);
+// 0x4146690
 
-void
-Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Key(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, MethodInfo_C8DCB0* method)
+void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Key
+               (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_4046690 *method)
 
 {
-  uint uVar1;
-  void *pvVar2;
-  longlong lVar3;
-  ulonglong uVar4;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res10;
-  undefined8 auStack_40 [5];
+  uint size;
+  long lVar1;
+  long lVar2;
+  void *field;
+  long lVar3;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  undefined8 uStack_40;
+  undefined1 auStack_38 [8];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_30;
   
-  uVar1 = (method->klass->rgctx_data->_1_TKey->_2).stack_slot_size;
-  size = (ulonglong)uVar1;
-  uVar4 = size + 0xf;
-  if (uVar4 <= size) {
-    uVar4 = 0xffffffffffffff0;
+  local_30 = value.klass;
+  lVar1 = *(long *)((long)value.monitor + 0x20);
+  lVar2 = *(long *)(*(long *)(lVar1 + 0xc0) + 8);
+  size = *(uint *)(lVar2 + 0xfc);
+  lVar3 = -((ulong)size + 0xf & 0xfffffffffffffff0);
+  __src = local_30;
+  if (-1 < *(int *)(lVar2 + 0x28)) {
+    __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_30;
   }
-  auStack_40[0] = 0x180c8dd04;
-  lVar3 = -(uVar4 & 0xfffffffffffffff0);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&local_res10;
-  if ((int)(method->klass->rgctx_data->_1_TKey->_1).byval_arg.bits < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x180c8dd32;
-  local_res10 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  memcpy(&stack0xffffffffffffffe8 + lVar3,source,size);
-  pvVar2 = (method->klass->rgctx_data->_0_Assets_Scripts_Utility_SetItem_TKey__TValue_->_1).fields;
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x180c8dd55;
-  il2cpp_runtime_helper_180417320(__this,pvVar2,&stack0xffffffffffffffe8 + lVar3,uVar1);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x41466e5;
+  memcpy(auStack_38 + lVar3,__src,(ulong)size);
+  field = *(void **)(**(long **)(lVar1 + 0xc0) + 0x80);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x4146705;
+  il2cpp_codegen_write_instance_field_data(__this,field,auStack_38 + lVar3,size);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$get_Value
-// il2cpp: Il2CppObject* Assets_Scripts_Utility_SetItem_object__object___get_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_573E90* method);
-// 0x180573e90
+// il2cpp: Il2CppObject* Assets_Scripts_Utility_SetItem_object__object___get_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_40464A0* method);
+// 0x41464a0
 
-Il2CppObject*
-Assets_Scripts_Utility_SetItem_object__object___get_Value(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_573E90* method)
+Il2CppObject *
+Assets_Scripts_Utility_SetItem_object__object___get_Value
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_40464A0 *method)
 
 {
   return (__this->fields)._Value_k__BackingField;
@@ -117,226 +109,213 @@ Assets_Scripts_Utility_SetItem_object__object___get_Value(Assets_Scripts_Utility
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$get_Value
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_8E79B0* method);
-// 0x1808e79b0
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046720* method);
+// 0x4146720
 
 Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
-Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Value(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_8E79B0* method)
+Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___get_Value
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046720 *method)
 
 {
-  longlong lVar1;
-  ulonglong uVar2;
-  void *pvVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar4;
-  ulonglong size;
-  undefined8 auStack_50 [5];
+  uint uVar1;
+  long *plVar2;
+  void *__src;
+  long in_RDX;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar3;
   
-  size = (ulonglong)(method->klass->rgctx_data->_2__index_j__TPar->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x1808e79f7;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  pvVar3 = (method->klass->rgctx_data->_0___f__AnonymousType0__value_j__TPar___index_j__TPar_->_1).fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808e7a20;
-  pvVar3 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__return_storage_ptr__,(void *)((longlong)pvVar3 + 0x20));
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808e7a2e;
-  memcpy(&stack0xffffffffffffffd8 + lVar1,pvVar3,size);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x1808e7a3c;
-  pUVar4 = memcpy(__this,&stack0xffffffffffffffd8 + lVar1,size);
-  return pUVar4;
+  plVar2 = *(long **)(*(long *)(in_RDX + 0x20) + 0xc0);
+  uVar1 = *(uint *)(plVar2[2] + 0xfc);
+  __src = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)(*(long *)(*plVar2 + 0x80) + 0x20));
+  UVar3.klass = memmove(method,__src,(ulong)uVar1);
+  UVar3.monitor = UVar3.monitor;
+  return UVar3;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$set_Value
-// il2cpp: void Assets_Scripts_Utility_SetItem_object__object___set_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, const MethodInfo_C8DE30* method);
-// 0x180c8de30
+// il2cpp: void Assets_Scripts_Utility_SetItem_object__object___set_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, const MethodInfo_40464B0* method);
+// 0x41464b0
 
-void
-Assets_Scripts_Utility_SetItem_object__object___set_Value(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* value, MethodInfo_C8DE30* method)
+void Assets_Scripts_Utility_SetItem_object__object___set_Value
+               (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,Il2CppObject *value,
+               MethodInfo_40464B0 *method)
 
 {
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$set_Value
-// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_C8DD70* method);
-// 0x180c8dd70
+// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Value (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_4046770* method);
+// 0x4146770
 
 void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___set_Value
                (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,MethodInfo_C8DD70 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_4046770 *method)
 
 {
-  uint uVar1;
-  void *pvVar2;
-  longlong lVar3;
-  ulonglong uVar4;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res10;
-  undefined8 auStack_40 [5];
+  uint size;
+  long lVar1;
+  long lVar2;
+  long lVar3;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  undefined8 uStack_40;
+  undefined1 auStack_38 [8];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_30;
   
-  uVar1 = (method->klass->rgctx_data->_2_TValue->_2).stack_slot_size;
-  size = (ulonglong)uVar1;
-  uVar4 = size + 0xf;
-  if (uVar4 <= size) {
-    uVar4 = 0xffffffffffffff0;
+  local_30 = value.klass;
+  lVar1 = *(long *)((long)value.monitor + 0x20);
+  lVar2 = *(long *)(*(long *)(lVar1 + 0xc0) + 0x10);
+  size = *(uint *)(lVar2 + 0xfc);
+  lVar3 = -((ulong)size + 0xf & 0xfffffffffffffff0);
+  __src = local_30;
+  if (-1 < *(int *)(lVar2 + 0x28)) {
+    __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_30;
   }
-  auStack_40[0] = 0x180c8ddc4;
-  lVar3 = -(uVar4 & 0xfffffffffffffff0);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&local_res10;
-  if ((int)(method->klass->rgctx_data->_2_TValue->_1).byval_arg.bits < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x180c8ddf2;
-  local_res10 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  memcpy(&stack0xffffffffffffffe8 + lVar3,source,size);
-  pvVar2 = (method->klass->rgctx_data->_0_Assets_Scripts_Utility_SetItem_TKey__TValue_->_1).fields;
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x180c8de19;
-  il2cpp_runtime_helper_180417320(__this,(longlong)pvVar2 + 0x20,&stack0xffffffffffffffe8 + lVar3,uVar1);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x41467c5;
+  memcpy(auStack_38 + lVar3,__src,(ulong)size);
+  lVar1 = *(long *)(**(long **)(lVar1 + 0xc0) + 0x80);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x41467e9;
+  il2cpp_codegen_write_instance_field_data(__this,(void *)(lVar1 + 0x20),auStack_38 + lVar3,size);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$.ctor
-// il2cpp: void Assets_Scripts_Utility_SetItem_object__object____ctor (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo_C8DAD0* method);
-// 0x180c8dad0
+// il2cpp: void Assets_Scripts_Utility_SetItem_object__object____ctor (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo_40464C0* method);
+// 0x41464c0
 
-void
-Assets_Scripts_Utility_SetItem_object__object____ctor(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject* value, MethodInfo_C8DAD0* method)
+void Assets_Scripts_Utility_SetItem_object__object____ctor
+               (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,Il2CppObject *key,Il2CppObject *value,
+               MethodInfo_40464C0 *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._Key_k__BackingField = _country;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Key_k__BackingField,_country);
-  (__this->fields)._Value_k__BackingField = _language;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,_language);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields)._Key_k__BackingField = key;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Key_k__BackingField);
+  (__this->fields)._Value_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____ctor (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o key, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_C8DB20* method);
-// 0x180c8db20
+// il2cpp: void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____ctor (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o key, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_4046800* method);
+// 0x4146800
 
 void Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____ctor
                (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *key,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,MethodInfo_C8DB20 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o key,
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_4046800 *method)
 
 {
-  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar1;
-  MethodInfo *pMVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  longlong lVar5;
-  longlong lVar6;
-  ulonglong uVar7;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUVar8;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *destination;
-  ulonglong size;
-  ulonglong size_00;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res10;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res18 [2];
-  undefined8 auStack_70 [5];
-  undefined8 auStack_48 [2];
+  long lVar1;
+  void *pvVar2;
+  undefined8 uVar3;
+  code *pcVar4;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__o *pAVar5;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUVar6;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  char ****__src_00;
+  undefined8 *__dest;
+  undefined8 *puVar7;
+  ulong uVar8;
+  undefined8 *puVar9;
+  undefined8 auStack_80 [2];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_70;
+  char ****local_68;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__o *local_60;
+  char ****local_58;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_50;
+  ulong local_48;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_40;
+  undefined8 *local_38;
   
-  size = (ulonglong)(method->klass->rgctx_data->_2_TValue->_2).stack_slot_size;
-  size_00 = (ulonglong)(method->klass->rgctx_data->_1_TKey->_2).stack_slot_size;
-  uVar7 = size_00 + 0xf;
-  if (uVar7 <= size_00) {
-    uVar7 = 0xffffffffffffff0;
+  pUVar6 = value.klass;
+  local_68 = key.monitor;
+  local_70 = key.klass;
+  lVar1 = *(long *)((long)(pUVar6->_1).byval_arg.data + 0xc0);
+  uVar8 = (ulong)*(uint *)(*(long *)(lVar1 + 8) + 0xfc);
+  local_48 = (ulong)*(uint *)(*(long *)(lVar1 + 0x10) + 0xfc);
+  puVar9 = (undefined8 *)((long)auStack_80 + (8 - (uVar8 + 0xf & 0xfffffffffffffff0)));
+  __dest = (undefined8 *)((long)puVar9 - (local_48 + 0xf & 0xfffffffffffffff0));
+  local_60 = __this;
+  local_58 = local_68;
+  local_40 = local_70;
+  __dest[-1] = 0x4146875;
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  pvVar2 = (pUVar6->_1).byval_arg.data;
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_70;
+  if (*(int *)(*(long *)(*(long *)((long)pvVar2 + 0xc0) + 8) + 0x28) < 0) {
+    __src = local_40;
   }
-  auStack_70[0] = 0x180c8db96;
-  lVar5 = -(uVar7 & 0xfffffffffffffff0);
-  uVar7 = size + 0xf;
-  pUVar8 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)(&stack0xffffffffffffffc8 + lVar5);
-  if (uVar7 <= size) {
-    uVar7 = 0xffffffffffffff0;
+  local_50 = pUVar6;
+  __dest[-1] = 0x41468a1;
+  memcpy(puVar9,__src,uVar8);
+  pAVar5 = local_60;
+  lVar1 = *(long *)((long)pvVar2 + 0xc0);
+  puVar7 = *(undefined8 **)(lVar1 + 0x18);
+  uVar3 = *puVar7;
+  if (-1 < *(int *)(*(long *)(lVar1 + 8) + 0x28)) {
+    puVar9 = (undefined8 *)*puVar9;
   }
-  *(undefined8 *)((longlong)auStack_70 + lVar5) = 0x180c8dbb3;
-  lVar6 = -(uVar7 & 0xfffffffffffffff0);
-  destination = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)
-                (&stack0xffffffffffffffc8 + lVar6 + lVar5);
-  *(undefined8 *)((longlong)auStack_70 + lVar6 + lVar5) = 0x180c8dbc5;
-  local_res10 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)key;
-  local_res18[0] = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&stack0x00000010;
-  if ((int)(method->klass->rgctx_data->_1_TKey->_1).byval_arg.bits < 0) {
-    source = key;
+  pcVar4 = (code *)puVar7[2];
+  local_38 = puVar9;
+  __dest[-1] = 0x41468d2;
+  (*pcVar4)(uVar3,puVar7,pAVar5,&local_38,puVar9);
+  uVar8 = local_48;
+  pvVar2 = (local_50->_1).byval_arg.data;
+  __src_00 = (char ****)&local_68;
+  if (*(int *)(*(long *)(*(long *)((long)pvVar2 + 0xc0) + 0x10) + 0x28) < 0) {
+    __src_00 = local_58;
   }
-  *(undefined8 *)((longlong)auStack_70 + lVar6 + lVar5) = 0x180c8dbeb;
-  memcpy(pUVar8,source,size_00);
-  if (-1 < (int)(method->klass->rgctx_data->_1_TKey->_1).byval_arg.bits) {
-    pUVar8 = (pUVar8->_1).image;
+  __dest[-1] = 0x41468fe;
+  memcpy(__dest,__src_00,uVar8);
+  lVar1 = *(long *)((long)pvVar2 + 0xc0);
+  puVar9 = *(undefined8 **)(lVar1 + 0x20);
+  uVar3 = *puVar9;
+  puVar7 = __dest;
+  if (-1 < *(int *)(*(long *)(lVar1 + 0x10) + 0x28)) {
+    puVar7 = (undefined8 *)*__dest;
   }
-  pAVar1 = method->klass;
-  *(Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c **)((longlong)auStack_48 + lVar6 + lVar5) = pUVar8;
-  pMVar2 = pAVar1->rgctx_data->_3_Assets_Scripts_Utility_SetItem_TKey__TValue__set_Key;
-  pIVar3 = pMVar2->methodPointer;
-  pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_70 + lVar6 + lVar5) = 0x180c8dc30;
-  local_res10 = pUVar8;
-  (*pIVar4)(pIVar3,pMVar2,__this,&stack0x00000010,*(void **)((longlong)auStack_48 + lVar6 + lVar5));
-  pUVar8 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)local_res18;
-  if ((int)(method->klass->rgctx_data->_2_TValue->_1).byval_arg.bits < 0) {
-    pUVar8 = local_res18[0];
-  }
-  *(undefined8 *)((longlong)auStack_70 + lVar6 + lVar5) = 0x180c8dc57;
-  memcpy(destination,pUVar8,size);
-  if (-1 < (int)(method->klass->rgctx_data->_2_TValue->_1).byval_arg.bits) {
-    destination = (destination->_1).image;
-  }
-  pAVar1 = method->klass;
-  *(Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c **)((longlong)auStack_48 + lVar6 + lVar5) =
-       destination;
-  pMVar2 = pAVar1->rgctx_data->_4_Assets_Scripts_Utility_SetItem_TKey__TValue__set_Value;
-  pIVar3 = pMVar2->methodPointer;
-  pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_70 + lVar6 + lVar5) = 0x180c8dc9c;
-  local_res18[0] = destination;
-  (*pIVar4)(pIVar3,pMVar2,__this,local_res18,*(void **)((longlong)auStack_48 + lVar6 + lVar5));
+  pcVar4 = (code *)puVar9[2];
+  local_38 = puVar7;
+  __dest[-1] = 0x414692b;
+  (*pcVar4)(uVar3,puVar9,pAVar5,&local_38,puVar7);
   return;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$Equals
-// il2cpp: bool Assets_Scripts_Utility_SetItem_object__object___Equals (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* obj, const MethodInfo_C8D3E0* method);
-// 0x180c8d3e0
+// il2cpp: bool Assets_Scripts_Utility_SetItem_object__object___Equals (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* obj, const MethodInfo_4046500* method);
+// 0x4146500
 
 bool Assets_Scripts_Utility_SetItem_object__object___Equals
                (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,Il2CppObject *obj,
-               MethodInfo_C8D3E0 *method)
+               MethodInfo_4046500 *method)
 
 {
   byte bVar1;
   Il2CppObject *pIVar2;
+  Il2CppMethodPointer vtableDispatch;
   bool bVar3;
   undefined1 uVar4;
-  System_Xml_Linq_XNamespace_o *left;
-  System_Xml_Linq_XNamespace_o *right;
+  System_Type_o *left;
+  System_Type_o *right;
   Il2CppClass *klass;
   
   if (obj == (Il2CppObject *)0x0) {
     return false;
   }
   if (__this != (Assets_Scripts_Utility_SetItem_TKey__TValue__o *)0x0) {
-    left = (System_Xml_Linq_XNamespace_o *)System_Object__GetType((Il2CppObject *)__this,(MethodInfo *)0x0);
-    right = (System_Xml_Linq_XNamespace_o *)System_Object__GetType(obj,(MethodInfo *)0x0);
-    if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+    left = System_Object__GetType((Il2CppObject *)__this,(MethodInfo *)0x0);
+    right = System_Object__GetType(obj,(MethodInfo *)0x0);
+    if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(g_data_075567a8);
     }
-    bVar3 = System_Xml_Linq_XNamespace__op_Inequality(left,right,(MethodInfo *)0x0);
+    bVar3 = System_Type__op_Inequality(left,right,(MethodInfo *)0x0);
     if (bVar3) {
       return false;
     }
@@ -346,12 +325,14 @@ bool Assets_Scripts_Utility_SetItem_object__object___Equals
     }
     bVar1 = (klass->_2).typeHierarchyDepth;
     if (((obj->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((obj->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != klass)) {
+       ((obj->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != klass)) {
       il2cpp_codegen_raise_invalid_cast_exception(obj,klass);
     }
     pIVar2 = (__this->fields)._Key_k__BackingField;
     if (pIVar2 != (Il2CppObject *)0x0) {
-      uVar4 = (*pIVar2->klass->vtable[0].methodPtr)(pIVar2,obj[1].klass,pIVar2->klass->vtable[0].method);
+      vtableDispatch = pIVar2->klass->vtable[0].methodPtr;
+      uVar4 = (*vtableDispatch)
+                        (pIVar2,obj[1].klass,pIVar2->klass->vtable[0].method,vtableDispatch);
       return (bool)uVar4;
     }
   }
@@ -360,349 +341,304 @@ bool Assets_Scripts_Utility_SetItem_object__object___Equals
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$Equals
-// il2cpp: bool Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___Equals (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* obj, const MethodInfo_C8D4F0* method);
-// 0x180c8d4f0
+// il2cpp: bool Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___Equals (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, Il2CppObject* obj, const MethodInfo_4046940* method);
+// 0x4146940
 
 bool Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___Equals
                (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,Il2CppObject *obj,
-               MethodInfo_C8D4F0 *method)
+               MethodInfo_4046940 *method)
 
 {
-  undefined1 *destination;
   byte bVar1;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar2;
-  MethodInfo *pMVar3;
-  Il2CppMethodPointer pIVar4;
-  InvokerMethod pIVar5;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar6;
-  Il2CppClass *pIVar7;
-  longlong lVar8;
-  longlong lVar9;
-  longlong lVar10;
-  longlong lVar11;
-  bool bVar12;
-  uint uVar13;
-  Il2CppClass *pIVar14;
-  ulonglong uVar15;
-  System_Xml_Linq_XNamespace_o *left;
-  System_Xml_Linq_XNamespace_o *right;
+  MethodInfo *pMVar2;
+  Il2CppMethodPointer pIVar3;
+  InvokerMethod pIVar4;
+  Il2CppClass *pIVar5;
+  void *pvVar6;
+  System_Type_o *left;
+  MethodInfo_4046940 *pMVar7;
+  ulong uVar8;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__o *pAVar9;
+  Il2CppObject *pIVar10;
+  bool bVar11;
+  uint uVar12;
+  Il2CppClass *pIVar13;
+  ulong uVar14;
+  System_Type_o *right;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar15;
+  void *__s;
   Il2CppObject *pIVar16;
-  ulonglong size;
-  Il2CppObject *local_res10;
-  Il2CppObject *local_res18;
-  undefined1 *local_res20;
-  undefined8 auStack_70 [5];
-  longlong alStack_48 [2];
+  Il2CppObject *data;
+  bool bVar17;
+  undefined8 uStack_80;
+  Il2CppObject IStack_78;
+  System_Type_o *local_68;
+  MethodInfo_4046940 *local_60;
+  ulong local_58;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__o *local_50;
+  Il2CppObject *local_48;
+  Il2CppObject *local_40;
+  char local_31;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_TKey->_2).stack_slot_size;
-  pIVar14 = method->klass->rgctx_data->_1_TKey;
-  if (((pIVar14->_2).bitflags1 & 1) == 0) {
-    auStack_70[0] = 0x180c8d547;
-    pIVar14 = il2cpp_codegen_class_init_checked(pIVar14);
+  pIVar13 = method->klass->rgctx_data->_1_TKey;
+  uVar12 = (pIVar13->_2).stack_slot_size;
+  local_58 = (ulong)uVar12;
+  local_50 = __this;
+  local_40 = obj;
+  if (((pIVar13->_2).bitflags1 & 1) == 0) {
+    uStack_80 = 0x4146983;
+    pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+    uVar12 = (pIVar13->_2).stack_slot_size;
   }
-  uVar13 = (pIVar14->_2).stack_slot_size + 0x10;
-  uVar15 = (ulonglong)uVar13 + 0xf;
-  if (uVar15 <= uVar13) {
-    uVar15 = 0xffffffffffffff0;
-  }
-  auStack_70[0] = 0x180c8d571;
-  lVar8 = -(uVar15 & 0xfffffffffffffff0);
-  uVar15 = size + 0xf;
-  local_res20 = &stack0xffffffffffffffc8 + lVar8;
-  if (uVar15 <= size) {
-    uVar15 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_70 + lVar8) = 0x180c8d595;
-  lVar9 = -(uVar15 & 0xfffffffffffffff0);
-  uVar15 = size + 0xf;
-  local_res10 = (Il2CppObject *)(&stack0xffffffffffffffc8 + lVar9 + lVar8);
-  if (uVar15 <= size) {
-    uVar15 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180c8d5b9;
-  lVar10 = -(uVar15 & 0xfffffffffffffff0);
-  uVar15 = size + 0xf;
-  local_res18 = (Il2CppObject *)(&stack0xffffffffffffffc8 + lVar10 + lVar9 + lVar8);
-  if (uVar15 <= size) {
-    uVar15 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_70 + lVar10 + lVar9 + lVar8) = 0x180c8d5dd;
-  lVar11 = -(uVar15 & 0xfffffffffffffff0);
-  destination = &stack0xffffffffffffffc8 + lVar11 + lVar10 + lVar9 + lVar8;
-  *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d5f2;
-  il2cpp_runtime_helper_180522500(destination);
-  if (obj != (Il2CppObject *)0x0) {
-    if (__this == (Assets_Scripts_Utility_SetItem_TKey__TValue__o *)0x0) {
-      *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d78e;
+  uVar8 = local_58;
+  IStack_78.monitor = (void *)((long)&IStack_78 - ((ulong)(uVar12 + 0x10) + 0xf & 0xfffffffffffffff0));
+  uVar14 = local_58 + 0xf & 0xfffffffffffffff0;
+  pIVar16 = (Il2CppObject *)((long)IStack_78.monitor - uVar14);
+  data = (Il2CppObject *)((long)pIVar16 - uVar14);
+  __s = (void *)((long)data - uVar14);
+  bVar17 = false;
+  *(undefined8 *)((long)__s + -8) = 0x41469d5;
+  memset(__s,0,uVar8);
+  pAVar9 = local_50;
+  if (local_40 != (Il2CppObject *)0x0) {
+    local_60 = method;
+    if (local_50 == (Assets_Scripts_Utility_SetItem_TKey__TValue__o *)0x0) {
+      *(undefined8 *)((long)__s + -8) = 0x4146b6b;
       ThrowNullReferenceException();
     }
-    *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d60e;
-    left = (System_Xml_Linq_XNamespace_o *)System_Object__GetType((Il2CppObject *)__this,(MethodInfo *)0x0);
-    *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d61b;
-    right = (System_Xml_Linq_XNamespace_o *)System_Object__GetType(obj,(MethodInfo *)0x0);
-    if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-      *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d633;
-      il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+    *(undefined8 *)((long)__s + -8) = 0x41469f8;
+    local_68 = System_Object__GetType((Il2CppObject *)pAVar9,(MethodInfo *)0x0);
+    pIVar10 = local_40;
+    *(undefined8 *)((long)__s + -8) = 0x4146a07;
+    right = System_Object__GetType(pIVar10,(MethodInfo *)0x0);
+    if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+      *(undefined8 *)((long)__s + -8) = 0x4146a26;
+      il2cpp_codegen_runtime_class_init(g_data_075567a8);
     }
-    *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d641;
-    bVar12 = System_Xml_Linq_XNamespace__op_Inequality(left,right,(MethodInfo *)0x0);
-    if (!bVar12) {
-      pIVar14 = method->klass->rgctx_data->_0_Assets_Scripts_Utility_SetItem_TKey__TValue_;
-      if (((pIVar14->_2).bitflags1 & 1) == 0) {
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d668;
-        pIVar14 = il2cpp_codegen_class_init_checked(pIVar14);
+    left = local_68;
+    bVar17 = false;
+    *(undefined8 *)((long)__s + -8) = 0x4146a37;
+    bVar11 = System_Type__op_Inequality(left,right,(MethodInfo *)0x0);
+    pMVar7 = local_60;
+    if (!bVar11) {
+      pIVar13 = local_60->klass->rgctx_data->_0_Assets_Scripts_Utility_SetItem_TKey__TValue_;
+      if (((pIVar13->_2).bitflags1 & 1) == 0) {
+        *(undefined8 *)((long)__s + -8) = 0x4146a63;
+        pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
       }
-      pIVar16 = local_res10;
-      bVar1 = (pIVar14->_2).typeHierarchyDepth;
-      if ((bVar1 <= (obj->klass->_2).typeHierarchyDepth) &&
-         ((obj->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == pIVar14)) {
-        pAVar2 = method->klass;
-        *(Il2CppObject **)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8) = local_res10;
-        pMVar3 = pAVar2->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
-        pIVar4 = pMVar3->methodPointer;
-        pIVar5 = pMVar3->invoker_method;
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d6c1;
-        (*pIVar5)(pIVar4,pMVar3,__this,&local_res10,
-                  *(void **)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8));
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d6cf;
-        memcpy(destination,pIVar16,size);
-        pIVar16 = local_res18;
-        pAVar2 = method->klass;
-        local_res10 = local_res18;
-        *(Il2CppObject **)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8) = local_res18;
-        pMVar3 = pAVar2->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
-        pIVar4 = pMVar3->methodPointer;
-        pIVar5 = pMVar3->invoker_method;
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d6fc;
-        (*pIVar5)(pIVar4,pMVar3,obj,&local_res10,
-                  *(void **)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8));
-        pIVar14 = method->klass->rgctx_data->_1_TKey;
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d713;
-        pIVar16 = il2cpp_value_box(pIVar14,pIVar16);
-        pAVar6 = method->klass->rgctx_data;
-        pIVar14 = pAVar6->_1_TKey;
-        pIVar7 = pAVar6[1]._0_Assets_Scripts_Utility_SetItem_TKey__TValue_;
-        if (((pIVar14->_2).bitflags1 & 1) == 0) {
-          *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d73a;
-          pIVar14 = il2cpp_codegen_class_init_checked(pIVar14);
-        }
-        *(Il2CppObject ***)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8 + 8) = &local_res10;
-        *(Il2CppObject ***)((longlong)alStack_48 + lVar11 + lVar10 + lVar9 + lVar8) = &local_res18;
-        *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d762;
-        local_res18 = pIVar16;
-        il2cpp_runtime_helper_1804171d0(pIVar14,pIVar7,local_res20,destination);
-        return (bool)local_res10._0_1_;
+      pIVar10 = local_40;
+      pAVar9 = local_50;
+      bVar1 = (pIVar13->_2).typeHierarchyDepth;
+      if (((local_40->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((local_40->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != pIVar13)) {
+        *(undefined8 *)((long)__s + -8) = 0x4146b77;
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar10,pIVar13);
       }
-      *(undefined8 *)((longlong)auStack_70 + lVar11 + lVar10 + lVar9 + lVar8) = 0x180c8d788;
-      il2cpp_codegen_raise_invalid_cast_exception(obj,pIVar14);
+      pMVar2 = pMVar7->klass->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
+      pIVar3 = pMVar2->methodPointer;
+      pIVar4 = pMVar2->invoker_method;
+      local_48 = pIVar16;
+      *(undefined8 *)((long)__s + -8) = 0x4146ab4;
+      (*pIVar4)(pIVar3,pMVar2,pAVar9,&local_48,pIVar16);
+      uVar8 = local_58;
+      *(undefined8 *)((long)__s + -8) = 0x4146ac3;
+      memcpy(__s,pIVar16,uVar8);
+      pIVar16 = local_40;
+      pMVar2 = pMVar7->klass->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
+      pIVar3 = pMVar2->methodPointer;
+      pIVar4 = pMVar2->invoker_method;
+      local_48 = data;
+      *(undefined8 *)((long)__s + -8) = 0x4146ae8;
+      (*pIVar4)(pIVar3,pMVar2,pIVar16,&local_48,data);
+      pIVar13 = pMVar7->klass->rgctx_data->_1_TKey;
+      *(undefined8 *)((long)__s + -8) = 0x4146b00;
+      pIVar16 = il2cpp_vm_Object_Box(pIVar13,data);
+      pAVar15 = pMVar7->klass->rgctx_data;
+      pIVar13 = pAVar15->_1_TKey;
+      if (((pIVar13->_2).bitflags1 & 1) == 0) {
+        *(undefined8 *)((long)__s + -8) = 0x4146b21;
+        pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+        pAVar15 = pMVar7->klass->rgctx_data;
+      }
+      pvVar6 = IStack_78.monitor;
+      pIVar5 = pAVar15[1]._0_Assets_Scripts_Utility_SetItem_TKey__TValue_;
+      local_48 = pIVar16;
+      *(undefined8 *)((long)__s + -8) = 0x4146b4c;
+      il2cpp_runtime_helper_030d6e00(pIVar13,pIVar5,pvVar6,__s,&local_48,&local_31);
+      bVar17 = local_31 != '\0';
     }
   }
-  return false;
+  return bVar17;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$GetHashCode
-// il2cpp: int32_t Assets_Scripts_Utility_SetItem_object__object___GetHashCode (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_C8D900* method);
-// 0x180c8d900
+// il2cpp: int32_t Assets_Scripts_Utility_SetItem_object__object___GetHashCode (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_40465F0* method);
+// 0x41465f0
 
-int32_t
-Assets_Scripts_Utility_SetItem_object__object___GetHashCode(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_C8D900* method)
+int32_t Assets_Scripts_Utility_SetItem_object__object___GetHashCode
+                  (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_40465F0 *method)
 
 {
-  System_Type_o *pSVar1;
+  Il2CppObject *pIVar1;
+  Il2CppMethodPointer vtableDispatch;
   int32_t iVar2;
+  undefined8 in_RDX;
   
-  pSVar1 = (__this->fields)._Key_k__BackingField;
-  if (pSVar1 != (System_Type_o *)0x0) {
-    iVar2 = (*(pSVar1->klass->vtable)._2_GetHashCode.methodPtr)
-                      (pSVar1,(pSVar1->klass->vtable)._2_GetHashCode.method);
-    return iVar2;
+  pIVar1 = (__this->fields)._Key_k__BackingField;
+  if (pIVar1 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  vtableDispatch = pIVar1->klass->vtable[2].methodPtr;
+  iVar2 = (*vtableDispatch)(pIVar1,pIVar1->klass->vtable[2].method,in_RDX,vtableDispatch);
+  return iVar2;
 }
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$GetHashCode
-// il2cpp: int32_t Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___GetHashCode (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_C8D790* method);
-// 0x180c8d790
+// il2cpp: int32_t Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___GetHashCode (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046B80* method);
+// 0x4146b80
 
 int32_t Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___GetHashCode
-                  (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_C8D790 *method)
+                  (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046B80 *method)
 
 {
-  undefined1 *source;
-  undefined1 *destination;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar1;
-  MethodInfo *pMVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar5;
-  Il2CppClass *pIVar6;
-  longlong lVar7;
-  longlong lVar8;
-  longlong lVar9;
-  uint uVar10;
-  Il2CppClass *pIVar11;
-  ulonglong uVar12;
-  ulonglong size;
-  undefined1 *local_res10;
-  undefined8 auStack_60 [5];
-  longlong alStack_38 [2];
+  MethodInfo *pMVar1;
+  Il2CppMethodPointer pIVar2;
+  InvokerMethod pIVar3;
+  Il2CppClass *pIVar4;
+  Il2CppClass *pIVar5;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar6;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar7;
+  uint uVar8;
+  ulong uVar9;
+  undefined1 *__dest;
+  undefined1 *__src;
+  ulong __n;
+  undefined8 uStack_50;
+  undefined1 auStack_48 [8];
+  undefined1 *local_40;
+  int32_t local_34;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_TKey->_2).stack_slot_size;
-  pIVar11 = method->klass->rgctx_data->_1_TKey;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    auStack_60[0] = 0x180c8d7e5;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
+  pAVar6 = method->klass;
+  pIVar5 = pAVar6->rgctx_data->_1_TKey;
+  uVar8 = (pIVar5->_2).stack_slot_size;
+  __n = (ulong)uVar8;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    uStack_50 = 0x4146bc1;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    uVar8 = (pIVar5->_2).stack_slot_size;
+    pAVar6 = method->klass;
   }
-  uVar10 = (pIVar11->_2).stack_slot_size + 0x10;
-  uVar12 = (ulonglong)uVar10 + 0xf;
-  if (uVar12 <= uVar10) {
-    uVar12 = 0xffffffffffffff0;
+  uVar9 = __n + 0xf & 0xfffffffffffffff0;
+  __src = auStack_48 + -((ulong)(uVar8 + 0x10) + 0xf & 0xfffffffffffffff0) + -uVar9;
+  __dest = __src + -uVar9;
+  pMVar1 = pAVar6->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
+  pIVar2 = pMVar1->methodPointer;
+  pIVar3 = pMVar1->invoker_method;
+  local_40 = __src;
+  *(undefined8 *)(__dest + -8) = 0x4146c18;
+  (*pIVar3)(pIVar2,pMVar1,__this,&local_40,__src);
+  *(undefined8 *)(__dest + -8) = 0x4146c26;
+  memcpy(__dest,__src,__n);
+  pAVar7 = method->klass->rgctx_data;
+  pIVar5 = pAVar7->_1_TKey;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)(__dest + -8) = 0x4146c43;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pAVar7 = method->klass->rgctx_data;
   }
-  auStack_60[0] = 0x180c8d80f;
-  lVar7 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar7) = 0x180c8d82c;
-  lVar8 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  source = &stack0xffffffffffffffd8 + lVar8 + lVar7;
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar8 + lVar7) = 0x180c8d849;
-  lVar9 = -(uVar12 & 0xfffffffffffffff0);
-  destination = &stack0xffffffffffffffd8 + lVar9 + lVar8 + lVar7;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8d85e;
-  il2cpp_runtime_helper_180522500(destination,0,size);
-  pAVar1 = method->klass;
-  *(undefined1 **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = source;
-  pMVar2 = pAVar1->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
-  pIVar3 = pMVar2->methodPointer;
-  pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8d887;
-  local_res10 = source;
-  (*pIVar4)(pIVar3,pMVar2,__this,&local_res10,*(void **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7));
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8d895;
-  memcpy(destination,source,size);
-  pAVar5 = method->klass->rgctx_data;
-  pIVar11 = pAVar5->_1_TKey;
-  pIVar6 = pAVar5[1]._1_TKey;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8d8b9;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
-  }
-  *(undefined1 ***)((longlong)alStack_38 + lVar9 + lVar8 + lVar7 + 8) = &local_res10;
-  *(undefined8 *)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = 0;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8d8dc;
-  il2cpp_runtime_helper_1804171d0(pIVar11,pIVar6,&stack0xffffffffffffffd8 + lVar7,destination);
-  return (int32_t)local_res10;
+  pIVar4 = pAVar7[1]._1_TKey;
+  *(undefined8 *)(__dest + -8) = 0x4146c67;
+  il2cpp_runtime_helper_030d6e00(pIVar5,pIVar4,auStack_48 + -((ulong)(uVar8 + 0x10) + 0xf & 0xfffffffffffffff0),__dest,0,
+               &local_34);
+  return local_34;
 }
 
 
 // Assets.Scripts.Utility.SetItem<object, object>$$ToString
-// il2cpp: System_String_o* Assets_Scripts_Utility_SetItem_object__object___ToString (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_C8D930* method);
-// 0x180c8d930
+// il2cpp: System_String_o* Assets_Scripts_Utility_SetItem_object__object___ToString (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046620* method);
+// 0x4146620
 
-System_String_o*
-Assets_Scripts_Utility_SetItem_object__object___ToString(Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, MethodInfo_C8D930* method)
+System_String_o *
+Assets_Scripts_Utility_SetItem_object__object___ToString
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046620 *method)
 
 {
-  System_Text_StringBuilder_o *pSVar1;
+  Il2CppObject *pIVar1;
+  Il2CppMethodPointer vtableDispatch;
   System_String_o *pSVar2;
+  undefined8 in_RDX;
   
-  pSVar1 = (__this->fields)._Key_k__BackingField;
-  if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-    pSVar2 = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)
-                       (pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
-    return pSVar2;
+  pIVar1 = (__this->fields)._Key_k__BackingField;
+  if (pIVar1 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  vtableDispatch = pIVar1->klass->vtable[3].methodPtr;
+  pSVar2 = (System_String_o *)
+           (*vtableDispatch)(pIVar1,pIVar1->klass->vtable[3].method,in_RDX,vtableDispatch);
+  return pSVar2;
 }
 
 
 // Assets.Scripts.Utility.SetItem<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>$$ToString
-// il2cpp: System_String_o* Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___ToString (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_C8D960* method);
-// 0x180c8d960
+// il2cpp: System_String_o* Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___ToString (Assets_Scripts_Utility_SetItem_TKey__TValue__o* __this, const MethodInfo_4046C80* method);
+// 0x4146c80
 
 System_String_o *
 Assets_Scripts_Utility_SetItem___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___ToString
-          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_C8D960 *method)
+          (Assets_Scripts_Utility_SetItem_TKey__TValue__o *__this,MethodInfo_4046C80 *method)
 
 {
-  System_String_o *source;
-  undefined1 *destination;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar1;
-  MethodInfo *pMVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar5;
-  Il2CppClass *pIVar6;
-  longlong lVar7;
-  longlong lVar8;
-  longlong lVar9;
-  uint uVar10;
-  Il2CppClass *pIVar11;
-  ulonglong uVar12;
-  ulonglong size;
-  System_String_o *local_res10;
-  undefined8 auStack_60 [5];
-  longlong alStack_38 [2];
+  MethodInfo *pMVar1;
+  Il2CppMethodPointer pIVar2;
+  InvokerMethod pIVar3;
+  Il2CppClass *pIVar4;
+  Il2CppClass *pIVar5;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__c *pAVar6;
+  Assets_Scripts_Utility_SetItem_TKey__TValue__RGCTXs *pAVar7;
+  uint uVar8;
+  ulong uVar9;
+  void *__dest;
+  System_String_o *__src;
+  long lVar10;
+  ulong __n;
+  undefined8 uStack_40;
+  System_String_o *local_38;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_TKey->_2).stack_slot_size;
-  pIVar11 = method->klass->rgctx_data->_1_TKey;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    auStack_60[0] = 0x180c8d9b5;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
+  pAVar6 = method->klass;
+  pIVar5 = pAVar6->rgctx_data->_1_TKey;
+  uVar8 = (pIVar5->_2).stack_slot_size;
+  __n = (ulong)uVar8;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    uStack_40 = 0x4146cbe;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    uVar8 = (pIVar5->_2).stack_slot_size;
+    pAVar6 = method->klass;
   }
-  uVar10 = (pIVar11->_2).stack_slot_size + 0x10;
-  uVar12 = (ulonglong)uVar10 + 0xf;
-  if (uVar12 <= uVar10) {
-    uVar12 = 0xffffffffffffff0;
+  lVar10 = (long)&local_38 - ((ulong)(uVar8 + 0x10) + 0xf & 0xfffffffffffffff0);
+  uVar9 = __n + 0xf & 0xfffffffffffffff0;
+  __src = (System_String_o *)(lVar10 - uVar9);
+  __dest = (void *)((long)__src - uVar9);
+  pMVar1 = pAVar6->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
+  pIVar2 = pMVar1->methodPointer;
+  pIVar3 = pMVar1->invoker_method;
+  local_38 = __src;
+  *(undefined8 *)((long)__dest + -8) = 0x4146d15;
+  (*pIVar3)(pIVar2,pMVar1,__this,&local_38,__src);
+  *(undefined8 *)((long)__dest + -8) = 0x4146d23;
+  memcpy(__dest,__src,__n);
+  pAVar7 = method->klass->rgctx_data;
+  pIVar5 = pAVar7->_1_TKey;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)((long)__dest + -8) = 0x4146d40;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pAVar7 = method->klass->rgctx_data;
   }
-  auStack_60[0] = 0x180c8d9df;
-  lVar7 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar7) = 0x180c8d9fc;
-  lVar8 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  source = (System_String_o *)(&stack0xffffffffffffffd8 + lVar8 + lVar7);
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar8 + lVar7) = 0x180c8da19;
-  lVar9 = -(uVar12 & 0xfffffffffffffff0);
-  destination = &stack0xffffffffffffffd8 + lVar9 + lVar8 + lVar7;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8da2e;
-  il2cpp_runtime_helper_180522500(destination,0,size);
-  pAVar1 = method->klass;
-  *(System_String_o **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = source;
-  pMVar2 = pAVar1->rgctx_data->_5_Assets_Scripts_Utility_SetItem_TKey__TValue__get_Key;
-  pIVar3 = pMVar2->methodPointer;
-  pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8da57;
-  local_res10 = source;
-  (*pIVar4)(pIVar3,pMVar2,__this,&local_res10,*(void **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7));
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8da65;
-  memcpy(destination,source,size);
-  pAVar5 = method->klass->rgctx_data;
-  pIVar11 = pAVar5->_1_TKey;
-  pIVar6 = pAVar5[1]._2_TValue;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8da89;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
-  }
-  *(System_String_o ***)((longlong)alStack_38 + lVar9 + lVar8 + lVar7 + 8) = &local_res10;
-  *(undefined8 *)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = 0;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180c8daac;
-  il2cpp_runtime_helper_1804171d0(pIVar11,pIVar6,&stack0xffffffffffffffd8 + lVar7,destination);
-  return local_res10;
+  pIVar4 = pAVar7[1]._2_TValue;
+  *(undefined8 *)((long)__dest + -8) = 0x4146d64;
+  il2cpp_runtime_helper_030d6e00(pIVar5,pIVar4,lVar10,__dest,0,&local_38);
+  return local_38;
 }
 
 

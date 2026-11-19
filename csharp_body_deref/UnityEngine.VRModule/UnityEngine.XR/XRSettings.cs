@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.XR.XRSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x3312B90", Offset = "0x3311190", VA = "0x183312B90")]
+		[Address(RVA = "0x6D225B0", Offset = "0x6D215B0", VA = "0x6D225B0")]
 		[UnityEngine.Bindings.StaticAccessor("GetIVRDeviceScripting()", UnityEngine.Bindings.StaticAccessorType.ArrowWithDefaultReturnIfNull)]
 		get;
 	}
@@ -36,7 +36,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x3312CB0", Offset = "0x33112B0", VA = "0x183312CB0")]
+		[Address(RVA = "0x6D225E0", Offset = "0x6D215E0", VA = "0x6D225E0")]
 		get;
 	}
 
@@ -46,7 +46,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x3312C80", Offset = "0x3311280", VA = "0x183312C80")]
+		[Address(RVA = "0x6D22610", Offset = "0x6D21610", VA = "0x6D22610")]
 		get;
 	}
 
@@ -56,18 +56,18 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x3312C50", Offset = "0x3311250", VA = "0x183312C50")]
+		[Address(RVA = "0x6D22640", Offset = "0x6D21640", VA = "0x6D22640")]
 		get;
 	}
 
 	[Token(Token = "0x17000005")]
 	[UnityEngine.Bindings.NativeName("IntermediateEyeTextureDesc")]
-	[UnityEngine.Bindings.NativeConditional("ENABLE_VR", "RenderTextureDesc()")]
 	[UnityEngine.Bindings.StaticAccessor("GetIVRDeviceScripting()", UnityEngine.Bindings.StaticAccessorType.ArrowWithDefaultReturnIfNull)]
+	[UnityEngine.Bindings.NativeConditional("ENABLE_VR", "RenderTextureDesc()")]
 	public static RenderTextureDescriptor eyeTextureDesc
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x3312C00", Offset = "0x3311200", VA = "0x183312C00")]
+		[Address(RVA = "0x6D22670", Offset = "0x6D21670", VA = "0x6D22670")]
 		get
 		{
 			return default(RenderTextureDescriptor);
@@ -80,7 +80,7 @@ public static class XRSettings
 	public static string loadedDeviceName
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x3312D20", Offset = "0x3311320", VA = "0x183312D20")]
+		[Address(RVA = "0x6D22710", Offset = "0x6D21710", VA = "0x6D22710")]
 		get
 		{
 			return null;
@@ -92,17 +92,17 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x3312DD0", Offset = "0x33113D0", VA = "0x183312DD0")]
+		[Address(RVA = "0x6D22800", Offset = "0x6D21800", VA = "0x6D22800")]
 		get;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x3312BC0", Offset = "0x33111C0", VA = "0x183312BC0")]
+	[Address(RVA = "0x6D226E0", Offset = "0x6D216E0", VA = "0x6D226E0")]
 	private static extern void get_eyeTextureDesc_Injected(out RenderTextureDescriptor ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x3312CE0", Offset = "0x33112E0", VA = "0x183312CE0")]
+	[Address(RVA = "0x6D227D0", Offset = "0x6D217D0", VA = "0x6D227D0")]
 	private static extern void get_loadedDeviceName_Injected(out UnityEngine.Bindings.ManagedSpanWrapper ret);
 }

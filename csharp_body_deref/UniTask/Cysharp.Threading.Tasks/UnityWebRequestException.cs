@@ -24,7 +24,7 @@ public class UnityWebRequestException : Exception
 	public UnityWebRequest UnityWebRequest
 	{
 		[Token(Token = "0x6000957")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x62F3120", Offset = "0x62F2120", VA = "0x62F3120")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ public class UnityWebRequestException : Exception
 	public UnityWebRequest.Result Result
 	{
 		[Token(Token = "0x6000958")]
-		[Address(RVA = "0xB5B9F0", Offset = "0xB59FF0", VA = "0x180B5B9F0")]
+		[Address(RVA = "0x62F3130", Offset = "0x62F2130", VA = "0x62F3130")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,7 +48,7 @@ public class UnityWebRequestException : Exception
 	public string Error
 	{
 		[Token(Token = "0x6000959")]
-		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
+		[Address(RVA = "0x62F3140", Offset = "0x62F2140", VA = "0x62F3140")]
 		[CompilerGenerated]
 		get
 		{
@@ -60,7 +60,7 @@ public class UnityWebRequestException : Exception
 	public string Text
 	{
 		[Token(Token = "0x600095A")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Address(RVA = "0x62F3150", Offset = "0x62F2150", VA = "0x62F3150")]
 		[CompilerGenerated]
 		get
 		{
@@ -72,7 +72,7 @@ public class UnityWebRequestException : Exception
 	public long ResponseCode
 	{
 		[Token(Token = "0x600095B")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[Address(RVA = "0x62F3160", Offset = "0x62F2160", VA = "0x62F3160")]
 		[CompilerGenerated]
 		get
 		{
@@ -84,7 +84,7 @@ public class UnityWebRequestException : Exception
 	public Dictionary<string, string> ResponseHeaders
 	{
 		[Token(Token = "0x600095C")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Address(RVA = "0x62F3170", Offset = "0x62F2170", VA = "0x62F3170")]
 		[CompilerGenerated]
 		get
 		{
@@ -96,7 +96,7 @@ public class UnityWebRequestException : Exception
 	public override string Message
 	{
 		[Token(Token = "0x600095E")]
-		[Address(RVA = "0x294FF00", Offset = "0x294E500", VA = "0x18294FF00", Slot = "5")]
+		[Address(RVA = "0x62F3180", Offset = "0x62F2180", VA = "0x62F3180", Slot = "5")]
 		get
 		{
 			return null;
@@ -104,7 +104,7 @@ public class UnityWebRequestException : Exception
 	}
 
 	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x294FDC0", Offset = "0x294E3C0", VA = "0x18294FDC0")]
+	[Address(RVA = "0x62E85E0", Offset = "0x62E75E0", VA = "0x62E85E0")]
 	public UnityWebRequestException(UnityWebRequest unityWebRequest)
 	{
 	}

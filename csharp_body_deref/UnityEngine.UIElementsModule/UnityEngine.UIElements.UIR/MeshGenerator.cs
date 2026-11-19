@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.MeshGenerator
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,633 +17,633 @@ using UnityEngine.TextCore.Text;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005A9")]
+[Token(Token = "0x2000594")]
 internal class MeshGenerator : IMeshGenerator, IDisposable
 {
-	[Token(Token = "0x20005AA")]
+	[Token(Token = "0x2000595")]
 	private struct RepeatRectUV
 	{
-		[Token(Token = "0x400143D")]
+		[Token(Token = "0x400137F")]
 		[FieldOffset(Offset = "0x0")]
 		public Rect rect;
 
-		[Token(Token = "0x400143E")]
+		[Token(Token = "0x4001380")]
 		[FieldOffset(Offset = "0x10")]
 		public Rect uv;
 	}
 
-	[Token(Token = "0x20005AB")]
+	[Token(Token = "0x2000596")]
 	public struct BackgroundRepeatInstance
 	{
-		[Token(Token = "0x400143F")]
+		[Token(Token = "0x4001381")]
 		[FieldOffset(Offset = "0x0")]
 		public Rect rect;
 
-		[Token(Token = "0x4001440")]
+		[Token(Token = "0x4001382")]
 		[FieldOffset(Offset = "0x10")]
 		public Rect backgroundRepeatRect;
 
-		[Token(Token = "0x4001441")]
+		[Token(Token = "0x4001383")]
 		[FieldOffset(Offset = "0x20")]
 		public Rect uv;
 	}
 
-	[Token(Token = "0x20005AC")]
+	[Token(Token = "0x2000597")]
 	public struct BorderParams
 	{
-		[Token(Token = "0x4001442")]
+		[Token(Token = "0x4001384")]
 		[FieldOffset(Offset = "0x0")]
 		public Rect rect;
 
-		[Token(Token = "0x4001443")]
+		[Token(Token = "0x4001385")]
 		[FieldOffset(Offset = "0x10")]
 		public Color playmodeTintColor;
 
-		[Token(Token = "0x4001444")]
+		[Token(Token = "0x4001386")]
 		[FieldOffset(Offset = "0x20")]
 		public Color leftColor;
 
-		[Token(Token = "0x4001445")]
+		[Token(Token = "0x4001387")]
 		[FieldOffset(Offset = "0x30")]
 		public Color topColor;
 
-		[Token(Token = "0x4001446")]
+		[Token(Token = "0x4001388")]
 		[FieldOffset(Offset = "0x40")]
 		public Color rightColor;
 
-		[Token(Token = "0x4001447")]
+		[Token(Token = "0x4001389")]
 		[FieldOffset(Offset = "0x50")]
 		public Color bottomColor;
 
-		[Token(Token = "0x4001448")]
+		[Token(Token = "0x400138A")]
 		[FieldOffset(Offset = "0x60")]
 		public float leftWidth;
 
-		[Token(Token = "0x4001449")]
+		[Token(Token = "0x400138B")]
 		[FieldOffset(Offset = "0x64")]
 		public float topWidth;
 
-		[Token(Token = "0x400144A")]
+		[Token(Token = "0x400138C")]
 		[FieldOffset(Offset = "0x68")]
 		public float rightWidth;
 
-		[Token(Token = "0x400144B")]
+		[Token(Token = "0x400138D")]
 		[FieldOffset(Offset = "0x6C")]
 		public float bottomWidth;
 
-		[Token(Token = "0x400144C")]
+		[Token(Token = "0x400138E")]
 		[FieldOffset(Offset = "0x70")]
 		public Vector2 topLeftRadius;
 
-		[Token(Token = "0x400144D")]
+		[Token(Token = "0x400138F")]
 		[FieldOffset(Offset = "0x78")]
 		public Vector2 topRightRadius;
 
-		[Token(Token = "0x400144E")]
+		[Token(Token = "0x4001390")]
 		[FieldOffset(Offset = "0x80")]
 		public Vector2 bottomRightRadius;
 
-		[Token(Token = "0x400144F")]
+		[Token(Token = "0x4001391")]
 		[FieldOffset(Offset = "0x88")]
 		public Vector2 bottomLeftRadius;
 
-		[Token(Token = "0x4001450")]
+		[Token(Token = "0x4001392")]
 		[FieldOffset(Offset = "0x90")]
 		internal ColorPage leftColorPage;
 
-		[Token(Token = "0x4001451")]
+		[Token(Token = "0x4001393")]
 		[FieldOffset(Offset = "0x98")]
 		internal ColorPage topColorPage;
 
-		[Token(Token = "0x4001452")]
+		[Token(Token = "0x4001394")]
 		[FieldOffset(Offset = "0xA0")]
 		internal ColorPage rightColorPage;
 
-		[Token(Token = "0x4001453")]
+		[Token(Token = "0x4001395")]
 		[FieldOffset(Offset = "0xA8")]
 		internal ColorPage bottomColorPage;
 
-		[Token(Token = "0x6002A2A")]
-		[Address(RVA = "0x318E100", Offset = "0x318C700", VA = "0x18318E100")]
+		[Token(Token = "0x60029C9")]
+		[Address(RVA = "0x6B92800", Offset = "0x6B91800", VA = "0x6B92800")]
 		internal void ToNativeParams(out MeshBuilderNative.NativeBorderParams nativeBorderParams)
 		{
 		}
 	}
 
-	[Token(Token = "0x20005AD")]
+	[Token(Token = "0x2000598")]
 	public struct RectangleParams
 	{
-		[Token(Token = "0x4001454")]
+		[Token(Token = "0x4001396")]
 		[FieldOffset(Offset = "0x0")]
 		public Rect rect;
 
-		[Token(Token = "0x4001455")]
+		[Token(Token = "0x4001397")]
 		[FieldOffset(Offset = "0x10")]
 		public Rect uv;
 
-		[Token(Token = "0x4001456")]
+		[Token(Token = "0x4001398")]
 		[FieldOffset(Offset = "0x20")]
 		public Color color;
 
-		[Token(Token = "0x4001457")]
+		[Token(Token = "0x4001399")]
 		[FieldOffset(Offset = "0x30")]
 		public Rect subRect;
 
-		[Token(Token = "0x4001458")]
+		[Token(Token = "0x400139A")]
 		[FieldOffset(Offset = "0x40")]
 		public Rect backgroundRepeatRect;
 
-		[Token(Token = "0x4001459")]
+		[Token(Token = "0x400139B")]
 		[FieldOffset(Offset = "0x50")]
 		public NativePagedList<BackgroundRepeatInstance> backgroundRepeatInstanceList;
 
-		[Token(Token = "0x400145A")]
+		[Token(Token = "0x400139C")]
 		[FieldOffset(Offset = "0x58")]
 		public int backgroundRepeatInstanceListStartIndex;
 
-		[Token(Token = "0x400145B")]
+		[Token(Token = "0x400139D")]
 		[FieldOffset(Offset = "0x5C")]
 		public int backgroundRepeatInstanceListEndIndex;
 
-		[Token(Token = "0x400145C")]
+		[Token(Token = "0x400139E")]
 		[FieldOffset(Offset = "0x60")]
 		public BackgroundPosition backgroundPositionX;
 
-		[Token(Token = "0x400145D")]
+		[Token(Token = "0x400139F")]
 		[FieldOffset(Offset = "0x6C")]
 		public BackgroundPosition backgroundPositionY;
 
-		[Token(Token = "0x400145E")]
+		[Token(Token = "0x40013A0")]
 		[FieldOffset(Offset = "0x78")]
 		public BackgroundRepeat backgroundRepeat;
 
-		[Token(Token = "0x400145F")]
+		[Token(Token = "0x40013A1")]
 		[FieldOffset(Offset = "0x80")]
 		public BackgroundSize backgroundSize;
 
-		[Token(Token = "0x4001460")]
+		[Token(Token = "0x40013A2")]
 		[FieldOffset(Offset = "0x98")]
 		public Texture texture;
 
-		[Token(Token = "0x4001461")]
+		[Token(Token = "0x40013A3")]
 		[FieldOffset(Offset = "0xA0")]
 		public Sprite sprite;
 
-		[Token(Token = "0x4001462")]
+		[Token(Token = "0x40013A4")]
 		[FieldOffset(Offset = "0xA8")]
 		public VectorImage vectorImage;
 
-		[Token(Token = "0x4001463")]
+		[Token(Token = "0x40013A5")]
 		[FieldOffset(Offset = "0xB0")]
 		public ScaleMode scaleMode;
 
-		[Token(Token = "0x4001464")]
+		[Token(Token = "0x40013A6")]
 		[FieldOffset(Offset = "0xB4")]
 		public Color playmodeTintColor;
 
-		[Token(Token = "0x4001465")]
+		[Token(Token = "0x40013A7")]
 		[FieldOffset(Offset = "0xC4")]
 		public Vector2 topLeftRadius;
 
-		[Token(Token = "0x4001466")]
+		[Token(Token = "0x40013A8")]
 		[FieldOffset(Offset = "0xCC")]
 		public Vector2 topRightRadius;
 
-		[Token(Token = "0x4001467")]
+		[Token(Token = "0x40013A9")]
 		[FieldOffset(Offset = "0xD4")]
 		public Vector2 bottomRightRadius;
 
-		[Token(Token = "0x4001468")]
+		[Token(Token = "0x40013AA")]
 		[FieldOffset(Offset = "0xDC")]
 		public Vector2 bottomLeftRadius;
 
-		[Token(Token = "0x4001469")]
+		[Token(Token = "0x40013AB")]
 		[FieldOffset(Offset = "0xE4")]
 		public Vector2 contentSize;
 
-		[Token(Token = "0x400146A")]
+		[Token(Token = "0x40013AC")]
 		[FieldOffset(Offset = "0xEC")]
 		public Vector2 textureSize;
 
-		[Token(Token = "0x400146B")]
+		[Token(Token = "0x40013AD")]
 		[FieldOffset(Offset = "0xF4")]
 		public int leftSlice;
 
-		[Token(Token = "0x400146C")]
+		[Token(Token = "0x40013AE")]
 		[FieldOffset(Offset = "0xF8")]
 		public int topSlice;
 
-		[Token(Token = "0x400146D")]
+		[Token(Token = "0x40013AF")]
 		[FieldOffset(Offset = "0xFC")]
 		public int rightSlice;
 
-		[Token(Token = "0x400146E")]
+		[Token(Token = "0x40013B0")]
 		[FieldOffset(Offset = "0x100")]
 		public int bottomSlice;
 
-		[Token(Token = "0x400146F")]
+		[Token(Token = "0x40013B1")]
 		[FieldOffset(Offset = "0x104")]
 		public float sliceScale;
 
-		[Token(Token = "0x4001470")]
+		[Token(Token = "0x40013B2")]
 		[FieldOffset(Offset = "0x108")]
 		internal Rect spriteGeomRect;
 
-		[Token(Token = "0x4001471")]
+		[Token(Token = "0x40013B3")]
 		[FieldOffset(Offset = "0x118")]
 		public Vector4 rectInset;
 
-		[Token(Token = "0x4001472")]
+		[Token(Token = "0x40013B4")]
 		[FieldOffset(Offset = "0x128")]
 		internal ColorPage colorPage;
 
-		[Token(Token = "0x4001473")]
+		[Token(Token = "0x40013B5")]
 		[FieldOffset(Offset = "0x130")]
 		internal MeshGenerationContext.MeshFlags meshFlags;
 
-		[Token(Token = "0x6002A2B")]
-		[Address(RVA = "0x3197FA0", Offset = "0x31965A0", VA = "0x183197FA0")]
+		[Token(Token = "0x60029CA")]
+		[Address(RVA = "0x6B92920", Offset = "0x6B91920", VA = "0x6B92920")]
 		private static void AdjustUVsForScaleMode(Rect rect, Rect uv, Texture texture, ScaleMode scaleMode, out Rect rectOut, out Rect uvOut)
 		{
 		}
 
-		[Token(Token = "0x6002A2C")]
-		[Address(RVA = "0x31979D0", Offset = "0x3195FD0", VA = "0x1831979D0")]
+		[Token(Token = "0x60029CB")]
+		[Address(RVA = "0x6B92C50", Offset = "0x6B91C50", VA = "0x6B92C50")]
 		private static void AdjustSpriteUVsForScaleMode(Rect containerRect, Rect srcRect, Rect spriteGeomRect, Sprite sprite, ScaleMode scaleMode, out Rect rectOut, out Rect uvOut)
 		{
 		}
 
-		[Token(Token = "0x6002A2D")]
-		[Address(RVA = "0x3199870", Offset = "0x3197E70", VA = "0x183199870")]
+		[Token(Token = "0x60029CC")]
+		[Address(RVA = "0x6B93380", Offset = "0x6B92380", VA = "0x6B93380")]
 		internal static Rect RectIntersection(Rect a, Rect b)
 		{
 			return default(Rect);
 		}
 
-		[Token(Token = "0x6002A2E")]
-		[Address(RVA = "0x3198370", Offset = "0x3196970", VA = "0x183198370")]
+		[Token(Token = "0x60029CD")]
+		[Address(RVA = "0x6B93690", Offset = "0x6B92690", VA = "0x6B93690")]
 		private static Rect ComputeGeomRect(Sprite sprite)
 		{
 			return default(Rect);
 		}
 
-		[Token(Token = "0x6002A2F")]
-		[Address(RVA = "0x3198440", Offset = "0x3196A40", VA = "0x183198440")]
+		[Token(Token = "0x60029CE")]
+		[Address(RVA = "0x6B93770", Offset = "0x6B92770", VA = "0x6B93770")]
 		private static Rect ComputeUVRect(Sprite sprite)
 		{
 			return default(Rect);
 		}
 
-		[Token(Token = "0x6002A30")]
-		[Address(RVA = "0x3198220", Offset = "0x3196820", VA = "0x183198220")]
+		[Token(Token = "0x60029CF")]
+		[Address(RVA = "0x6B93850", Offset = "0x6B92850", VA = "0x6B93850")]
 		private static Rect ApplyPackingRotation(Rect uv, SpritePackingRotation rotation)
 		{
 			return default(Rect);
 		}
 
-		[Token(Token = "0x6002A31")]
-		[Address(RVA = "0x3199480", Offset = "0x3197A80", VA = "0x183199480")]
+		[Token(Token = "0x60029D0")]
+		[Address(RVA = "0x6B93980", Offset = "0x6B92980", VA = "0x6B93980")]
 		public static RectangleParams MakeTextured(Rect rect, Rect uv, Texture texture, ScaleMode scaleMode, Color playModeTintColor)
 		{
 			return default(RectangleParams);
 		}
 
-		[Token(Token = "0x6002A32")]
-		[Address(RVA = "0x31985E0", Offset = "0x3196BE0", VA = "0x1831985E0")]
+		[Token(Token = "0x60029D1")]
+		[Address(RVA = "0x6B93AD0", Offset = "0x6B92AD0", VA = "0x6B93AD0")]
 		public static RectangleParams MakeSprite(Rect containerRect, Rect subRect, Sprite sprite, ScaleMode scaleMode, Color playModeTintColor, bool hasRadius, ref Vector4 slices, bool useForRepeat = false)
 		{
 			return default(RectangleParams);
 		}
 
-		[Token(Token = "0x6002A33")]
-		[Address(RVA = "0x31996B0", Offset = "0x3197CB0", VA = "0x1831996B0")]
+		[Token(Token = "0x60029D2")]
+		[Address(RVA = "0x6B94820", Offset = "0x6B93820", VA = "0x6B94820")]
 		public static RectangleParams MakeVectorTextured(Rect rect, Rect uv, VectorImage vectorImage, ScaleMode scaleMode, Color playModeTintColor)
 		{
 			return default(RectangleParams);
 		}
 
-		[Token(Token = "0x6002A34")]
-		[Address(RVA = "0x3198510", Offset = "0x3196B10", VA = "0x183198510")]
+		[Token(Token = "0x60029D3")]
+		[Address(RVA = "0x6B94980", Offset = "0x6B93980", VA = "0x6B94980")]
 		internal bool HasRadius(float epsilon)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002A35")]
-		[Address(RVA = "0x3198590", Offset = "0x3196B90", VA = "0x183198590")]
+		[Token(Token = "0x60029D4")]
+		[Address(RVA = "0x6B94A00", Offset = "0x6B93A00", VA = "0x6B94A00")]
 		internal bool HasSlices(float epsilon)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002A36")]
-		[Address(RVA = "0x3199AF0", Offset = "0x31980F0", VA = "0x183199AF0")]
+		[Token(Token = "0x60029D5")]
+		[Address(RVA = "0x6B94A50", Offset = "0x6B93A50", VA = "0x6B94A50")]
 		internal void ToNativeParams(out MeshBuilderNative.NativeRectParams nativeRectParams)
 		{
 		}
 	}
 
-	[Token(Token = "0x20005AE")]
+	[Token(Token = "0x2000599")]
 	private struct TessellationJobParameters
 	{
-		[Token(Token = "0x4001474")]
+		[Token(Token = "0x40013B6")]
 		[FieldOffset(Offset = "0x0")]
 		public bool isBorderJob;
 
-		[Token(Token = "0x4001475")]
+		[Token(Token = "0x40013B7")]
 		[FieldOffset(Offset = "0x8")]
 		public MeshBuilderNative.NativeRectParams rectParams;
 
-		[Token(Token = "0x4001476")]
+		[Token(Token = "0x40013B8")]
 		[FieldOffset(Offset = "0x120")]
 		public BorderParams borderParams;
 
-		[Token(Token = "0x4001477")]
+		[Token(Token = "0x40013B9")]
 		[FieldOffset(Offset = "0x1D0")]
 		public UnsafeMeshGenerationNode node;
 	}
 
-	[Token(Token = "0x20005AF")]
+	[Token(Token = "0x200059A")]
 	private struct TessellationJob : IJobParallelFor
 	{
-		[Token(Token = "0x4001478")]
+		[Token(Token = "0x40013BA")]
 		[FieldOffset(Offset = "0x0")]
 		[ReadOnly]
 		public TempMeshAllocator allocator;
 
-		[Token(Token = "0x4001479")]
+		[Token(Token = "0x40013BB")]
 		[FieldOffset(Offset = "0x8")]
 		[ReadOnly]
 		public NativeSlice<TessellationJobParameters> jobParameters;
 
-		[Token(Token = "0x6002A37")]
-		[Address(RVA = "0x31A1B70", Offset = "0x31A0170", VA = "0x1831A1B70", Slot = "4")]
+		[Token(Token = "0x60029D6")]
+		[Address(RVA = "0x6B94C50", Offset = "0x6B93C50", VA = "0x6B94C50", Slot = "4")]
 		public void Execute(int i)
 		{
 		}
 
-		[Token(Token = "0x6002A38")]
+		[Token(Token = "0x60029D7")]
 		private T ExtractHandle<T>(IntPtr handlePtr) where T : class
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A39")]
-		[Address(RVA = "0x31A0050", Offset = "0x319E650", VA = "0x1831A0050")]
+		[Token(Token = "0x60029D8")]
+		[Address(RVA = "0x6B94DA0", Offset = "0x6B93DA0", VA = "0x6B94DA0")]
 		private void DrawBorder(UnsafeMeshGenerationNode node, ref BorderParams borderParams)
 		{
 		}
 
-		[Token(Token = "0x6002A3A")]
-		[Address(RVA = "0x31A03E0", Offset = "0x319E9E0", VA = "0x1831A03E0")]
+		[Token(Token = "0x60029D9")]
+		[Address(RVA = "0x6B95B40", Offset = "0x6B94B40", VA = "0x6B95B40")]
 		private void DrawRectangle(UnsafeMeshGenerationNode node, ref MeshBuilderNative.NativeRectParams rectParams, Texture tex)
 		{
 		}
 
-		[Token(Token = "0x6002A3B")]
-		[Address(RVA = "0x31A0EE0", Offset = "0x319F4E0", VA = "0x1831A0EE0")]
+		[Token(Token = "0x60029DA")]
+		[Address(RVA = "0x6B95640", Offset = "0x6B94640", VA = "0x6B95640")]
 		private void DrawSprite(UnsafeMeshGenerationNode node, ref MeshBuilderNative.NativeRectParams rectParams, Sprite sprite)
 		{
 		}
 
-		[Token(Token = "0x6002A3C")]
-		[Address(RVA = "0x31A1480", Offset = "0x319FA80", VA = "0x1831A1480")]
+		[Token(Token = "0x60029DB")]
+		[Address(RVA = "0x6B95190", Offset = "0x6B94190", VA = "0x6B95190")]
 		private void DrawVectorImage(UnsafeMeshGenerationNode node, ref MeshBuilderNative.NativeRectParams rectParams, VectorImage vi)
 		{
 		}
 	}
 
-	[Token(Token = "0x4001427")]
+	[Token(Token = "0x4001369")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly MemoryLabel k_MemoryLabel;
 
-	[Token(Token = "0x4001428")]
+	[Token(Token = "0x400136A")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly ProfilerMarker k_MarkerDrawRectangle;
 
-	[Token(Token = "0x4001429")]
+	[Token(Token = "0x400136B")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly ProfilerMarker k_MarkerDrawBorder;
 
-	[Token(Token = "0x400142A")]
+	[Token(Token = "0x400136C")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly ProfilerMarker k_MarkerDrawVectorImage;
 
-	[Token(Token = "0x400142B")]
+	[Token(Token = "0x400136D")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly ProfilerMarker k_MarkerDrawRectangleRepeat;
 
-	[Token(Token = "0x400142C")]
+	[Token(Token = "0x400136E")]
 	[FieldOffset(Offset = "0x10")]
 	private MeshGenerationContext m_MeshGenerationContext;
 
-	[Token(Token = "0x400142D")]
+	[Token(Token = "0x400136F")]
 	[FieldOffset(Offset = "0x18")]
 	private List<RepeatRectUV>[] m_RepeatRectUVList;
 
-	[Token(Token = "0x400142E")]
+	[Token(Token = "0x4001370")]
 	[FieldOffset(Offset = "0x20")]
 	private NativePagedList<BackgroundRepeatInstance> m_BackgroundRepeatInstanceList;
 
-	[Token(Token = "0x400142F")]
+	[Token(Token = "0x4001371")]
 	[FieldOffset(Offset = "0x28")]
 	private GCHandlePool m_GCHandlePool;
 
-	[Token(Token = "0x4001430")]
+	[Token(Token = "0x4001372")]
 	[FieldOffset(Offset = "0x30")]
 	private NativeArray<TessellationJobParameters> m_JobParameters;
 
-	[Token(Token = "0x4001433")]
+	[Token(Token = "0x4001375")]
 	[FieldOffset(Offset = "0x50")]
 	private UnityEngine.TextCore.Text.TextInfo m_TextInfo;
 
-	[Token(Token = "0x4001434")]
+	[Token(Token = "0x4001376")]
 	[FieldOffset(Offset = "0x58")]
 	private UnityEngine.TextCore.Text.TextGenerationSettings m_Settings;
 
-	[Token(Token = "0x4001435")]
+	[Token(Token = "0x4001377")]
 	[FieldOffset(Offset = "0x60")]
 	private List<NativeSlice<Vertex>> m_VerticesArray;
 
-	[Token(Token = "0x4001436")]
+	[Token(Token = "0x4001378")]
 	[FieldOffset(Offset = "0x68")]
 	private List<NativeSlice<ushort>> m_IndicesArray;
 
-	[Token(Token = "0x4001437")]
+	[Token(Token = "0x4001379")]
 	[FieldOffset(Offset = "0x70")]
 	private List<Texture2D> m_Atlases;
 
-	[Token(Token = "0x4001438")]
+	[Token(Token = "0x400137A")]
 	[FieldOffset(Offset = "0x78")]
 	private List<float> m_SdfScales;
 
-	[Token(Token = "0x4001439")]
+	[Token(Token = "0x400137B")]
 	[FieldOffset(Offset = "0x80")]
 	private List<GlyphRenderMode> m_RenderModes;
 
-	[Token(Token = "0x400143A")]
+	[Token(Token = "0x400137C")]
 	[FieldOffset(Offset = "0x88")]
 	private MeshGenerationCallback m_OnMeshGenerationDelegate;
 
-	[Token(Token = "0x400143B")]
+	[Token(Token = "0x400137D")]
 	[FieldOffset(Offset = "0x90")]
 	private List<TessellationJobParameters> m_TesselationJobParameters;
 
-	[Token(Token = "0x17000A6C")]
+	[Token(Token = "0x17000A60")]
 	public VisualElement currentElement
 	{
-		[Token(Token = "0x6002A13")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700", Slot = "4")]
+		[Token(Token = "0x60029B2")]
+		[Address(RVA = "0x6B894C0", Offset = "0x6B884C0", VA = "0x6B894C0", Slot = "4")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A6D")]
+	[Token(Token = "0x17000A61")]
 	public TextJobSystem textJobSystem
 	{
-		[Token(Token = "0x6002A14")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50", Slot = "5")]
+		[Token(Token = "0x60029B3")]
+		[Address(RVA = "0x6B894D0", Offset = "0x6B884D0", VA = "0x6B894D0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002A15")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10", Slot = "13")]
+		[Token(Token = "0x60029B4")]
+		[Address(RVA = "0x6B894E0", Offset = "0x6B884E0", VA = "0x6B894E0", Slot = "13")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A6E")]
+	[Token(Token = "0x17000A62")]
 	internal bool disposed
 	{
-		[Token(Token = "0x6002A25")]
-		[Address(RVA = "0xA4D590", Offset = "0xA4BB90", VA = "0x180A4D590")]
+		[Token(Token = "0x60029C4")]
+		[Address(RVA = "0x6B8E660", Offset = "0x6B8D660", VA = "0x6B8E660")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002A26")]
-		[Address(RVA = "0xA4D740", Offset = "0xA4BD40", VA = "0x180A4D740")]
+		[Token(Token = "0x60029C5")]
+		[Address(RVA = "0x6B8E670", Offset = "0x6B8D670", VA = "0x6B8E670")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002A12")]
-	[Address(RVA = "0x3196F40", Offset = "0x3195540", VA = "0x183196F40")]
+	[Token(Token = "0x60029B1")]
+	[Address(RVA = "0x6B89020", Offset = "0x6B88020", VA = "0x6B89020")]
 	public MeshGenerator(MeshGenerationContext mgc)
 	{
 	}
 
-	[Token(Token = "0x6002A16")]
-	[Address(RVA = "0x3191CA0", Offset = "0x31902A0", VA = "0x183191CA0")]
+	[Token(Token = "0x60029B5")]
+	[Address(RVA = "0x6B894F0", Offset = "0x6B884F0", VA = "0x6B894F0")]
 	private static Vector2 ConvertBorderRadiusPercentToPoints(Vector2 borderRectSize, Length length)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6002A17")]
-	[Address(RVA = "0x3195B00", Offset = "0x3194100", VA = "0x183195B00")]
+	[Token(Token = "0x60029B6")]
+	[Address(RVA = "0x6B7FC50", Offset = "0x6B7EC50", VA = "0x6B7FC50")]
 	public static void GetVisualElementRadii(VisualElement ve, out Vector2 topLeft, out Vector2 bottomLeft, out Vector2 topRight, out Vector2 bottomRight)
 	{
 	}
 
-	[Token(Token = "0x6002A18")]
-	[Address(RVA = "0x31914C0", Offset = "0x318FAC0", VA = "0x1831914C0")]
+	[Token(Token = "0x60029B7")]
+	[Address(RVA = "0x6B7FF30", Offset = "0x6B7EF30", VA = "0x6B7FF30")]
 	public static void AdjustBackgroundSizeForBorders(VisualElement visualElement, ref RectangleParams rectParams)
 	{
 	}
 
-	[Token(Token = "0x6002A19")]
-	[Address(RVA = "0x3195810", Offset = "0x3193E10", VA = "0x183195810", Slot = "7")]
+	[Token(Token = "0x60029B8")]
+	[Address(RVA = "0x6B89520", Offset = "0x6B88520", VA = "0x6B89520", Slot = "7")]
 	public void DrawText(List<NativeSlice<Vertex>> vertices, List<NativeSlice<ushort>> indices, List<Material> materials, List<GlyphRenderMode> renderModes)
 	{
 	}
 
-	[Token(Token = "0x6002A1A")]
-	[Address(RVA = "0x31954D0", Offset = "0x3193AD0", VA = "0x1831954D0", Slot = "6")]
+	[Token(Token = "0x60029B9")]
+	[Address(RVA = "0x6B89860", Offset = "0x6B88860", VA = "0x6B89860", Slot = "6")]
 	public void DrawText(List<NativeSlice<Vertex>> vertices, List<NativeSlice<ushort>> indices, List<Texture2D> atlases, List<GlyphRenderMode> renderModes, List<float> sdfScales)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002A1B")]
-	[Address(RVA = "0x3191D10", Offset = "0x3190310", VA = "0x183191D10")]
+	[Token(Token = "0x60029BA")]
+	[Address(RVA = "0x6B89C90", Offset = "0x6B88C90", VA = "0x6B89C90")]
 	internal static Vertex ConvertTextVertexToUIRVertex(ref UnityEngine.TextCore.Text.TextCoreVertex vertex, Vector2 posOffset, float inverseScale, bool isDynamicColor = false, bool isColorGlyph = false, bool isTextCore = false)
 	{
 		return default(Vertex);
 	}
 
-	[Token(Token = "0x6002A1C")]
-	[Address(RVA = "0x3195DF0", Offset = "0x31943F0", VA = "0x183195DF0")]
+	[Token(Token = "0x60029BB")]
+	[Address(RVA = "0x6B89B10", Offset = "0x6B88B10", VA = "0x6B89B10")]
 	private void MakeText(Texture texture, NativeSlice<Vertex> vertices, NativeSlice<ushort> indices, bool isSdf, float sdfScale, float sharpness, bool multiChannel)
 	{
 	}
 
-	[Token(Token = "0x6002A1D")]
-	[Address(RVA = "0x3194900", Offset = "0x3192F00", VA = "0x183194900", Slot = "8")]
+	[Token(Token = "0x60029BC")]
+	[Address(RVA = "0x6B89F70", Offset = "0x6B88F70", VA = "0x6B89F70", Slot = "8")]
 	public void DrawRectangle(RectangleParams rectParams)
 	{
 	}
 
-	[Token(Token = "0x6002A1E")]
-	[Address(RVA = "0x3194650", Offset = "0x3192C50", VA = "0x183194650", Slot = "9")]
+	[Token(Token = "0x60029BD")]
+	[Address(RVA = "0x6B8A4C0", Offset = "0x6B894C0", VA = "0x6B8A4C0", Slot = "9")]
 	public void DrawBorder(BorderParams borderParams)
 	{
 	}
 
-	[Token(Token = "0x6002A1F")]
-	[Address(RVA = "0x31948D0", Offset = "0x3192ED0", VA = "0x1831948D0", Slot = "10")]
+	[Token(Token = "0x60029BE")]
+	[Address(RVA = "0x6B8A670", Offset = "0x6B89670", VA = "0x6B8A670", Slot = "10")]
 	public void DrawRectangleRepeat(RectangleParams rectParams, Rect totalRect, float scaledPixelsPerPoint)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002A20")]
-	[Address(RVA = "0x31920E0", Offset = "0x31906E0", VA = "0x1831920E0")]
+	[Token(Token = "0x60029BF")]
+	[Address(RVA = "0x6B8A720", Offset = "0x6B89720", VA = "0x6B8A720")]
 	private void DoDrawRectangleRepeat(ref RectangleParams rectParams, Rect totalRect, float scaledPixelsPerPoint)
 	{
 	}
 
-	[Token(Token = "0x6002A21")]
-	[Address(RVA = "0x3196370", Offset = "0x3194970", VA = "0x183196370")]
+	[Token(Token = "0x60029C0")]
+	[Address(RVA = "0x6B8D7D0", Offset = "0x6B8C7D0", VA = "0x6B8D7D0")]
 	private void StampRectangleWithSubRect(RectangleParams rectParams, Rect targetRect, Rect totalRect, Rect targetUV, ref NativePagedList<BackgroundRepeatInstance> backgroundRepeatInstanceList)
 	{
 	}
 
-	[Token(Token = "0x6002A22")]
-	[Address(RVA = "0x31918B0", Offset = "0x318FEB0", VA = "0x1831918B0")]
+	[Token(Token = "0x60029C1")]
+	[Address(RVA = "0x6B8DF50", Offset = "0x6B8CF50", VA = "0x6B8DF50")]
 	private static void AdjustSpriteWinding(Vector2[] vertices, ushort[] indices, NativeSlice<ushort> newIndices)
 	{
 	}
 
-	[Token(Token = "0x6002A23")]
-	[Address(RVA = "0x3195F90", Offset = "0x3194590", VA = "0x183195F90", Slot = "11")]
+	[Token(Token = "0x60029C2")]
+	[Address(RVA = "0x6B8E3A0", Offset = "0x6B8D3A0", VA = "0x6B8E3A0", Slot = "11")]
 	public void ScheduleJobs(MeshGenerationContext mgc)
 	{
 	}
 
-	[Token(Token = "0x6002A24")]
-	[Address(RVA = "0x3195F30", Offset = "0x3194530", VA = "0x183195F30")]
+	[Token(Token = "0x60029C3")]
+	[Address(RVA = "0x6B8E610", Offset = "0x6B8D610", VA = "0x6B8E610")]
 	private void OnMeshGeneration(MeshGenerationContext ctx, object data)
 	{
 	}
 
-	[Token(Token = "0x6002A27")]
-	[Address(RVA = "0x3191F80", Offset = "0x3190580", VA = "0x183191F80", Slot = "12")]
+	[Token(Token = "0x60029C6")]
+	[Address(RVA = "0x6B8E680", Offset = "0x6B8D680", VA = "0x6B8E680", Slot = "12")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6002A28")]
-	[Address(RVA = "0x3192040", Offset = "0x3190640", VA = "0x183192040")]
+	[Token(Token = "0x60029C7")]
+	[Address(RVA = "0x6B8E6E0", Offset = "0x6B8D6E0", VA = "0x6B8E6E0")]
 	private void Dispose(bool disposing)
 	{
 	}

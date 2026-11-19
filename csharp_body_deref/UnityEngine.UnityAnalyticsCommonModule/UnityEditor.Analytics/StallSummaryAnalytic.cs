@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.StallSummaryAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,8 +17,8 @@ namespace UnityEditor.Analytics;
 [Serializable]
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000020")]
-[ExcludeFromDocs]
 [UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
+[ExcludeFromDocs]
 public class StallSummaryAnalytic : AnalyticsEventBase
 {
 	[Token(Token = "0x400005A")]
@@ -26,13 +26,13 @@ public class StallSummaryAnalytic : AnalyticsEventBase
 	public double Duration;
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x33080F0", Offset = "0x33066F0", VA = "0x1833080F0")]
+	[Address(RVA = "0x6D18A70", Offset = "0x6D17A70", VA = "0x6D18A70")]
 	public StallSummaryAnalytic()
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x3308060", Offset = "0x3306660", VA = "0x183308060")]
+	[Address(RVA = "0x6D18AD0", Offset = "0x6D17AD0", VA = "0x6D18AD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static StallSummaryAnalytic CreateStallSummaryAnalytic()
 	{

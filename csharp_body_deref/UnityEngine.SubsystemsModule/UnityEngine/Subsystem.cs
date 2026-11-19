@@ -15,7 +15,7 @@ namespace UnityEngine;
 public abstract class Subsystem : ISubsystem
 {
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69F1E10", Offset = "0x69F0E10", VA = "0x69F1E10")]
 	protected Subsystem()
 	{
 	}

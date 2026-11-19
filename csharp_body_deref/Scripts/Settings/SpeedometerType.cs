@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000EB")]
+[Token(Token = "0x2000126")]
 public enum SpeedometerType
 {
-	[Token(Token = "0x4000598")]
+	[Token(Token = "0x40006D7")]
 	Off,
-	[Token(Token = "0x4000599")]
+	[Token(Token = "0x40006D8")]
 	Speed,
-	[Token(Token = "0x400059A")]
+	[Token(Token = "0x40006D9")]
 	Damage
 }

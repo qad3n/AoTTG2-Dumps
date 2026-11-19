@@ -20,14 +20,14 @@ public sealed class VariableDeclaration
 	public string name
 	{
 		[Token(Token = "0x6001128")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6850880", Offset = "0x684F880", VA = "0x6850880")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001129")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6850890", Offset = "0x684F890", VA = "0x6850890")]
 		[CompilerGenerated]
 		private set
 		{
@@ -40,14 +40,14 @@ public sealed class VariableDeclaration
 	public object value
 	{
 		[Token(Token = "0x600112A")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x68508A0", Offset = "0x684F8A0", VA = "0x68508A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600112B")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x68508B0", Offset = "0x684F8B0", VA = "0x68508B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -59,14 +59,14 @@ public sealed class VariableDeclaration
 	public SerializableType typeHandle
 	{
 		[Token(Token = "0x600112C")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x68508C0", Offset = "0x684F8C0", VA = "0x68508C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(SerializableType);
 		}
 		[Token(Token = "0x600112D")]
-		[Address(RVA = "0x2D7E6D0", Offset = "0x2D7CCD0", VA = "0x182D7E6D0")]
+		[Address(RVA = "0x68508D0", Offset = "0x684F8D0", VA = "0x68508D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -74,14 +74,14 @@ public sealed class VariableDeclaration
 	}
 
 	[Token(Token = "0x6001126")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6850830", Offset = "0x684F830", VA = "0x6850830")]
 	[Obsolete("This parameterless constructor is only made public for serialization. Use another constructor instead.")]
 	public VariableDeclaration()
 	{
 	}
 
 	[Token(Token = "0x6001127")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x6850840", Offset = "0x684F840", VA = "0x6850840")]
 	public VariableDeclaration(string name, object value)
 	{
 	}

@@ -12,47 +12,47 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002CF")]
+[Token(Token = "0x200032C")]
 public sealed class AottgProfileStatsPanel : AottgComponent
 {
-	[Token(Token = "0x600119A")]
-	[Address(RVA = "0x1E201B0", Offset = "0x1E1E7B0", VA = "0x181E201B0", Slot = "4")]
+	[Token(Token = "0x60013EC")]
+	[Address(RVA = "0x580A1A0", Offset = "0x58091A0", VA = "0x580A1A0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x600119B")]
-	[Address(RVA = "0x1E1F510", Offset = "0x1E1DB10", VA = "0x181E1F510")]
+	[Token(Token = "0x60013ED")]
+	[Address(RVA = "0x580A420", Offset = "0x5809420", VA = "0x580A420")]
 	private static void BuildRows(AottgUi ui, GameStatContainer stat, AchievementCount achievements)
 	{
 	}
 
-	[Token(Token = "0x600119C")]
-	[Address(RVA = "0x1E20690", Offset = "0x1E1EC90", VA = "0x181E20690")]
-	private static void Header(AottgUi ui, string key, string label, [Optional] GameStatRecord? record, [Optional] string id)
+	[Token(Token = "0x60013EE")]
+	[Address(RVA = "0x580B580", Offset = "0x580A580", VA = "0x580B580")]
+	private static void Header(AottgUi ui, string key, [Optional] GameStatRecord? record, [Optional] string id)
 	{
 	}
 
-	[Token(Token = "0x600119D")]
-	[Address(RVA = "0x1E20890", Offset = "0x1E1EE90", VA = "0x181E20890")]
-	private static void Stat(AottgUi ui, string label, string value)
+	[Token(Token = "0x60013EF")]
+	[Address(RVA = "0x580B740", Offset = "0x580A740", VA = "0x580B740")]
+	private static void Stat(AottgUi ui, string key, string value, [Optional] GameStatRecord? record, [Optional] string id)
 	{
 	}
 
-	[Token(Token = "0x600119E")]
-	[Address(RVA = "0x1E208C0", Offset = "0x1E1EEC0", VA = "0x181E208C0")]
-	private static void Stat(AottgUi ui, string key, string label, string value, [Optional] GameStatRecord? record, [Optional] string id)
+	[Token(Token = "0x60013F0")]
+	[Address(RVA = "0x580B7C0", Offset = "0x580A7C0", VA = "0x580B7C0")]
+	private static void Stat(AottgUi ui, string key, string label, string value, GameStatRecord? record, string id)
 	{
 	}
 
-	[Token(Token = "0x600119F")]
-	[Address(RVA = "0x1E20440", Offset = "0x1E1EA40", VA = "0x181E20440")]
+	[Token(Token = "0x60013F1")]
+	[Address(RVA = "0x580B9E0", Offset = "0x580A9E0", VA = "0x580B9E0")]
 	private static void ClearButton(AottgUi ui, GameStatRecord record, string label, string id)
 	{
 	}
 
-	[Token(Token = "0x60011A0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60013F2")]
+	[Address(RVA = "0x5807240", Offset = "0x5806240", VA = "0x5807240")]
 	public AottgProfileStatsPanel()
 	{
 	}

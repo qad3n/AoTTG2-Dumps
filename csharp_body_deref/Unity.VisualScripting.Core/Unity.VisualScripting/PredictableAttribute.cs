@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public sealed class PredictableAttribute : Attribute
 {
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x67932A0", Offset = "0x67922A0", VA = "0x67932A0")]
 	public PredictableAttribute()
 	{
 	}

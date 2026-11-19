@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnCollisionEnterMessageListener : MessageListener
 {
 	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x2DBD900", Offset = "0x2DBBF00", VA = "0x182DBD900")]
+	[Address(RVA = "0x67A4670", Offset = "0x67A3670", VA = "0x67A4670")]
 	private void OnCollisionEnter(Collision collision)
 	{
 	}
 
 	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4700", Offset = "0x67A3700", VA = "0x67A4700")]
 	public UnityOnCollisionEnterMessageListener()
 	{
 	}

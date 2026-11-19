@@ -14,11 +14,11 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x2000025")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.StaticAccessor("AnimationOffsetPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationOffsetPlayable.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationOffsetPlayable.bindings.h")]
+[UnityEngine.Bindings.StaticAccessor("AnimationOffsetPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationOffsetPlayable.h")]
 internal struct AnimationOffsetPlayable : IEquatable<AnimationOffsetPlayable>
 {
 	[Token(Token = "0x400005E")]
@@ -30,20 +30,20 @@ internal struct AnimationOffsetPlayable : IEquatable<AnimationOffsetPlayable>
 	private static readonly AnimationOffsetPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x2EABEC0", Offset = "0x2EAA4C0", VA = "0x182EABEC0")]
+	[Address(RVA = "0x68ACA40", Offset = "0x68ABA40", VA = "0x68ACA40")]
 	internal AnimationOffsetPlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68ACB30", Offset = "0x68ABB30", VA = "0x68ACB30", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x2EABCE0", Offset = "0x2EAA2E0", VA = "0x182EABCE0", Slot = "4")]
+	[Address(RVA = "0x68ACB40", Offset = "0x68ABB40", VA = "0x68ACB40", Slot = "4")]
 	public bool Equals(AnimationOffsetPlayable other)
 	{
 		return default(bool);

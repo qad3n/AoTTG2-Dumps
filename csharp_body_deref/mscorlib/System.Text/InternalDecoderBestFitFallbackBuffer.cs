@@ -9,86 +9,86 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x200029C")]
+[Token(Token = "0x2000274")]
 internal sealed class InternalDecoderBestFitFallbackBuffer : DecoderFallbackBuffer
 {
-	[Token(Token = "0x4000B75")]
+	[Token(Token = "0x4000AD3")]
 	[FieldOffset(Offset = "0x20")]
 	private char _cBestFit;
 
-	[Token(Token = "0x4000B76")]
+	[Token(Token = "0x4000AD4")]
 	[FieldOffset(Offset = "0x24")]
 	private int _iCount;
 
-	[Token(Token = "0x4000B77")]
+	[Token(Token = "0x4000AD5")]
 	[FieldOffset(Offset = "0x28")]
 	private int _iSize;
 
-	[Token(Token = "0x4000B78")]
+	[Token(Token = "0x4000AD6")]
 	[FieldOffset(Offset = "0x30")]
 	private System.Text.InternalDecoderBestFitFallback _oFallback;
 
-	[Token(Token = "0x4000B79")]
+	[Token(Token = "0x4000AD7")]
 	[FieldOffset(Offset = "0x0")]
 	private static object s_InternalSyncObject;
 
-	[Token(Token = "0x17000215")]
+	[Token(Token = "0x17000214")]
 	private static object InternalSyncObject
 	{
-		[Token(Token = "0x60015A3")]
-		[Address(RVA = "0x1BAFCA0", Offset = "0x1BAE2A0", VA = "0x181BAFCA0")]
+		[Token(Token = "0x600157A")]
+		[Address(RVA = "0x5552A40", Offset = "0x5551A40", VA = "0x5552A40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000216")]
+	[Token(Token = "0x17000215")]
 	public override int Remaining
 	{
-		[Token(Token = "0x60015A7")]
-		[Address(RVA = "0x1977080", Offset = "0x1975680", VA = "0x181977080", Slot = "6")]
+		[Token(Token = "0x600157E")]
+		[Address(RVA = "0x5552CB0", Offset = "0x5551CB0", VA = "0x5552CB0", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60015A4")]
-	[Address(RVA = "0x1BAFA80", Offset = "0x1BAE080", VA = "0x181BAFA80")]
+	[Token(Token = "0x600157B")]
+	[Address(RVA = "0x55527B0", Offset = "0x55517B0", VA = "0x55527B0")]
 	public InternalDecoderBestFitFallbackBuffer(System.Text.InternalDecoderBestFitFallback fallback)
 	{
 	}
 
-	[Token(Token = "0x60015A5")]
-	[Address(RVA = "0x1BAF820", Offset = "0x1BADE20", VA = "0x181BAF820", Slot = "4")]
+	[Token(Token = "0x600157C")]
+	[Address(RVA = "0x5552AF0", Offset = "0x5551AF0", VA = "0x5552AF0", Slot = "4")]
 	public override bool Fallback(byte[] bytesUnknown, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015A6")]
-	[Address(RVA = "0x1BAF870", Offset = "0x1BADE70", VA = "0x181BAF870", Slot = "5")]
+	[Token(Token = "0x600157D")]
+	[Address(RVA = "0x5552C90", Offset = "0x5551C90", VA = "0x5552C90", Slot = "5")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60015A8")]
-	[Address(RVA = "0x1977060", Offset = "0x1975660", VA = "0x181977060", Slot = "7")]
+	[Token(Token = "0x600157F")]
+	[Address(RVA = "0x5552CC0", Offset = "0x5551CC0", VA = "0x5552CC0", Slot = "7")]
 	public override void Reset()
 	{
 	}
 
-	[Token(Token = "0x60015A9")]
-	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "9")]
+	[Token(Token = "0x6001580")]
+	[Address(RVA = "0x5552CD0", Offset = "0x5551CD0", VA = "0x5552CD0", Slot = "9")]
 	internal unsafe override int InternalFallback(byte[] bytes, byte* pBytes)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60015AA")]
-	[Address(RVA = "0x1BAF8A0", Offset = "0x1BADEA0", VA = "0x181BAF8A0")]
+	[Token(Token = "0x6001581")]
+	[Address(RVA = "0x5552B30", Offset = "0x5551B30", VA = "0x5552B30")]
 	private char TryBestFit(byte[] bytesCheck)
 	{
 		return default(char);

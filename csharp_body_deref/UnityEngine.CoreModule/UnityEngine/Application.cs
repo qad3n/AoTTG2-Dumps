@@ -16,24 +16,24 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000091")]
+[UnityEngine.Bindings.NativeHeader("Runtime/BaseClasses/IsPlaying.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Application/Application.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Misc/BuildSettings.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Misc/SystemInfo.h")]
+[UnityEngine.Bindings.NativeHeader("NativeKernel/Logging/LogSystem.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Misc/PlayerSettings.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Input/InputManager.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Input/GetInput.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Input/TargetFrameRate.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/File/ApplicationSpecificPersistentDataPath.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Misc/SystemInfo.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Misc/BuildSettings.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Application/AdsIdHandler.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Application/ApplicationInfo.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Network/NetworkUtility.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/PreloadManager/LoadSceneOperation.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/PreloadManager/PreloadManager.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Utilities/Argv.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Utilities/URLUtility.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Misc/Player.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/File/ApplicationSpecificPersistentDataPath.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Application/ApplicationInfo.h")]
-[UnityEngine.Bindings.NativeHeader("NativeKernel/Logging/LogSystem.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Input/TargetFrameRate.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Input/InputManager.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Application/AdsIdHandler.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Input/GetInput.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/BaseClasses/IsPlaying.h")]
 public class Application
 {
 	[Token(Token = "0x2000092")]
@@ -53,8 +53,8 @@ public class Application
 
 	[Token(Token = "0x4000147")]
 	[FieldOffset(Offset = "0x8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static MemoryUsageChangedCallback memoryUsageChanged;
 
 	[Token(Token = "0x4000148")]
@@ -67,8 +67,8 @@ public class Application
 
 	[Token(Token = "0x400014A")]
 	[FieldOffset(Offset = "0x20")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<bool> m_focusChanged;
 
 	[Token(Token = "0x400014B")]
@@ -79,14 +79,14 @@ public class Application
 
 	[Token(Token = "0x400014C")]
 	[FieldOffset(Offset = "0x30")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Func<bool> wantsToQuit;
 
 	[Token(Token = "0x400014D")]
 	[FieldOffset(Offset = "0x38")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action m_quitting;
 
 	[Token(Token = "0x400014E")]
@@ -103,8 +103,8 @@ public class Application
 	public static extern bool isPlaying
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000225")]
-		[Address(RVA = "0x2EBA850", Offset = "0x2EB8E50", VA = "0x182EBA850")]
+		[Token(Token = "0x6000227")]
+		[Address(RVA = "0x68BC0D0", Offset = "0x68BB0D0", VA = "0x68BC0D0")]
 		[UnityEngine.Bindings.FreeFunction("IsWorldPlaying")]
 		get;
 	}
@@ -113,37 +113,49 @@ public class Application
 	public static extern bool isFocused
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x2EBA780", Offset = "0x2EB8D80", VA = "0x182EBA780")]
+		[Token(Token = "0x6000228")]
+		[Address(RVA = "0x68BC100", Offset = "0x68BB100", VA = "0x68BC100")]
 		[UnityEngine.Bindings.FreeFunction("IsPlayerFocused")]
 		get;
 	}
 
 	[Token(Token = "0x17000047")]
+	public static string buildGUID
+	{
+		[Token(Token = "0x6000229")]
+		[Address(RVA = "0x68BC130", Offset = "0x68BB130", VA = "0x68BC130")]
+		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetBuildGUID")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000048")]
 	public static extern bool runInBackground
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x2EBB120", Offset = "0x2EB9720", VA = "0x182EBB120")]
+		[Token(Token = "0x600022A")]
+		[Address(RVA = "0x68BC260", Offset = "0x68BB260", VA = "0x68BC260")]
 		[UnityEngine.Bindings.FreeFunction("SetPlayerSettingsRunInBackground")]
 		set;
 	}
 
-	[Token(Token = "0x17000048")]
+	[Token(Token = "0x17000049")]
 	public static extern bool isBatchMode
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000228")]
-		[Address(RVA = "0x2EBA750", Offset = "0x2EB8D50", VA = "0x182EBA750")]
+		[Token(Token = "0x600022B")]
+		[Address(RVA = "0x68BC290", Offset = "0x68BB290", VA = "0x68BC290")]
 		[UnityEngine.Bindings.FreeFunction("::IsBatchmode")]
 		get;
 	}
 
-	[Token(Token = "0x17000049")]
+	[Token(Token = "0x1700004A")]
 	public static string dataPath
 	{
-		[Token(Token = "0x6000229")]
-		[Address(RVA = "0x2EBA5E0", Offset = "0x2EB8BE0", VA = "0x182EBA5E0")]
+		[Token(Token = "0x600022C")]
+		[Address(RVA = "0x68BC2C0", Offset = "0x68BB2C0", VA = "0x68BC2C0")]
 		[UnityEngine.Bindings.FreeFunction("GetAppDataPath", IsThreadSafe = true)]
 		get
 		{
@@ -151,11 +163,11 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x1700004A")]
+	[Token(Token = "0x1700004B")]
 	public static string streamingAssetsPath
 	{
-		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x2EBAB90", Offset = "0x2EB9190", VA = "0x182EBAB90")]
+		[Token(Token = "0x600022D")]
+		[Address(RVA = "0x68BC3F0", Offset = "0x68BB3F0", VA = "0x68BC3F0")]
 		[UnityEngine.Bindings.FreeFunction("GetStreamingAssetsPath", IsThreadSafe = true)]
 		get
 		{
@@ -163,11 +175,11 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x1700004B")]
+	[Token(Token = "0x1700004C")]
 	public static string persistentDataPath
 	{
-		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x2EBA920", Offset = "0x2EB8F20", VA = "0x182EBA920")]
+		[Token(Token = "0x600022E")]
+		[Address(RVA = "0x68BC520", Offset = "0x68BB520", VA = "0x68BC520")]
 		[UnityEngine.Bindings.FreeFunction("GetPersistentDataPathApplicationSpecific")]
 		get
 		{
@@ -175,11 +187,11 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x1700004C")]
+	[Token(Token = "0x1700004D")]
 	public static string unityVersion
 	{
-		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x2EBAD40", Offset = "0x2EB9340", VA = "0x182EBAD40")]
+		[Token(Token = "0x600022F")]
+		[Address(RVA = "0x68BC650", Offset = "0x68BB650", VA = "0x68BC650")]
 		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetUnityVersion", IsThreadSafe = true)]
 		get
 		{
@@ -187,33 +199,33 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x1700004D")]
+	[Token(Token = "0x1700004E")]
 	internal static extern int unityVersionVer
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x2EBACD0", Offset = "0x2EB92D0", VA = "0x182EBACD0")]
+		[Token(Token = "0x6000230")]
+		[Address(RVA = "0x68BC780", Offset = "0x68BB780", VA = "0x68BC780")]
+		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetUnityVersionVer", IsThreadSafe = true)]
-		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
-		get;
-	}
-
-	[Token(Token = "0x1700004E")]
-	internal static extern int unityVersionMaj
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x2EBACA0", Offset = "0x2EB92A0", VA = "0x182EBACA0")]
-		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetUnityVersionMaj", IsThreadSafe = true)]
-		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get;
 	}
 
 	[Token(Token = "0x1700004F")]
+	internal static extern int unityVersionMaj
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000231")]
+		[Address(RVA = "0x68BC7B0", Offset = "0x68BB7B0", VA = "0x68BC7B0")]
+		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetUnityVersionMaj", IsThreadSafe = true)]
+		get;
+	}
+
+	[Token(Token = "0x17000050")]
 	public static string productName
 	{
-		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x2EBAA70", Offset = "0x2EB9070", VA = "0x182EBAA70")]
+		[Token(Token = "0x6000232")]
+		[Address(RVA = "0x68BC7E0", Offset = "0x68BB7E0", VA = "0x68BC7E0")]
 		[UnityEngine.Bindings.FreeFunction("GetPlayerSettings().GetProductName")]
 		get
 		{
@@ -221,26 +233,26 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x17000050")]
+	[Token(Token = "0x17000051")]
 	public static extern int targetFrameRate
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x2EBAC70", Offset = "0x2EB9270", VA = "0x182EBAC70")]
+		[Token(Token = "0x6000234")]
+		[Address(RVA = "0x68BCAD0", Offset = "0x68BBAD0", VA = "0x68BCAD0")]
 		[UnityEngine.Bindings.FreeFunction("GetTargetFrameRate")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000232")]
-		[Address(RVA = "0x2EBB160", Offset = "0x2EB9760", VA = "0x182EBB160")]
+		[Token(Token = "0x6000235")]
+		[Address(RVA = "0x68BCB00", Offset = "0x68BBB00", VA = "0x68BCB00")]
 		[UnityEngine.Bindings.FreeFunction("SetTargetFrameRate")]
 		set;
 	}
 
-	[Token(Token = "0x17000051")]
+	[Token(Token = "0x17000052")]
 	public static string consoleLogPath
 	{
-		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x2EBA4C0", Offset = "0x2EB8AC0", VA = "0x182EBA4C0")]
+		[Token(Token = "0x6000237")]
+		[Address(RVA = "0x68BCB60", Offset = "0x68BBB60", VA = "0x68BCB60")]
 		[UnityEngine.Bindings.FreeFunction("GetConsoleLogPath")]
 		get
 		{
@@ -248,65 +260,65 @@ public class Application
 		}
 	}
 
-	[Token(Token = "0x17000052")]
+	[Token(Token = "0x17000053")]
 	public static extern RuntimePlatform platform
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000235")]
-		[Address(RVA = "0x2EBAA00", Offset = "0x2EB9000", VA = "0x182EBAA00")]
+		[Token(Token = "0x6000238")]
+		[Address(RVA = "0x68BCC90", Offset = "0x68BBC90", VA = "0x68BCC90")]
 		[UnityEngine.Bindings.FreeFunction("systeminfo::GetRuntimePlatform", IsThreadSafe = true)]
 		get;
 	}
 
-	[Token(Token = "0x17000053")]
+	[Token(Token = "0x17000054")]
 	public static bool isMobilePlatform
 	{
-		[Token(Token = "0x6000236")]
-		[Address(RVA = "0x2EBA7B0", Offset = "0x2EB8DB0", VA = "0x182EBA7B0")]
+		[Token(Token = "0x6000239")]
+		[Address(RVA = "0x68BCCC0", Offset = "0x68BBCC0", VA = "0x68BCCC0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000054")]
+	[Token(Token = "0x17000055")]
 	public static extern NetworkReachability internetReachability
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000237")]
-		[Address(RVA = "0x2EBA720", Offset = "0x2EB8D20", VA = "0x182EBA720")]
+		[Token(Token = "0x600023A")]
+		[Address(RVA = "0x68BCD80", Offset = "0x68BBD80", VA = "0x68BCD80")]
 		[UnityEngine.Bindings.FreeFunction("GetInternetReachability")]
 		get;
 	}
 
-	[Token(Token = "0x17000055")]
+	[Token(Token = "0x17000056")]
 	public static CancellationToken exitCancellationToken
 	{
-		[Token(Token = "0x6000242")]
-		[Address(RVA = "0x2EBA6C0", Offset = "0x2EB8CC0", VA = "0x182EBA6C0")]
+		[Token(Token = "0x6000245")]
+		[Address(RVA = "0x68BD970", Offset = "0x68BC970", VA = "0x68BD970")]
 		get
 		{
 			return default(CancellationToken);
 		}
 	}
 
-	[Token(Token = "0x17000056")]
+	[Token(Token = "0x17000057")]
 	[Obsolete("Use SceneManager to determine what scenes have been loaded")]
 	public static int loadedLevel
 	{
-		[Token(Token = "0x600024A")]
-		[Address(RVA = "0x2EBA880", Offset = "0x2EB8E80", VA = "0x182EBA880")]
+		[Token(Token = "0x600024D")]
+		[Address(RVA = "0x68BE050", Offset = "0x68BD050", VA = "0x68BE050")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000057")]
+	[Token(Token = "0x17000058")]
 	public static bool isEditor
 	{
-		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0")]
+		[Token(Token = "0x600024E")]
+		[Address(RVA = "0x68BE0A0", Offset = "0x68BD0A0", VA = "0x68BE0A0")]
 		get
 		{
 			return default(bool);
@@ -316,13 +328,13 @@ public class Application
 	[Token(Token = "0x14000002")]
 	public static event LogCallback logMessageReceived
 	{
-		[Token(Token = "0x600023A")]
-		[Address(RVA = "0x2EBA260", Offset = "0x2EB8860", VA = "0x182EBA260")]
+		[Token(Token = "0x600023D")]
+		[Address(RVA = "0x68BCF80", Offset = "0x68BBF80", VA = "0x68BCF80")]
 		add
 		{
 		}
-		[Token(Token = "0x600023B")]
-		[Address(RVA = "0x2EBAF30", Offset = "0x2EB9530", VA = "0x182EBAF30")]
+		[Token(Token = "0x600023E")]
+		[Address(RVA = "0x68BD060", Offset = "0x68BC060", VA = "0x68BD060")]
 		remove
 		{
 		}
@@ -331,14 +343,14 @@ public class Application
 	[Token(Token = "0x14000003")]
 	public static event Action<bool> focusChanged
 	{
-		[Token(Token = "0x600023D")]
-		[Address(RVA = "0x2EBA150", Offset = "0x2EB8750", VA = "0x182EBA150")]
+		[Token(Token = "0x6000240")]
+		[Address(RVA = "0x68BD220", Offset = "0x68BC220", VA = "0x68BD220")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600023E")]
-		[Address(RVA = "0x2EBAE20", Offset = "0x2EB9420", VA = "0x182EBAE20")]
+		[Token(Token = "0x6000241")]
+		[Address(RVA = "0x68BD310", Offset = "0x68BC310", VA = "0x68BD310")]
 		[CompilerGenerated]
 		remove
 		{
@@ -348,14 +360,14 @@ public class Application
 	[Token(Token = "0x14000004")]
 	public static event Action quitting
 	{
-		[Token(Token = "0x600023F")]
-		[Address(RVA = "0x2EBA380", Offset = "0x2EB8980", VA = "0x182EBA380")]
+		[Token(Token = "0x6000242")]
+		[Address(RVA = "0x68BD400", Offset = "0x68BC400", VA = "0x68BD400")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000240")]
-		[Address(RVA = "0x2EBB020", Offset = "0x2EB9620", VA = "0x182EBB020")]
+		[Token(Token = "0x6000243")]
+		[Address(RVA = "0x68BD4E0", Offset = "0x68BC4E0", VA = "0x68BD4E0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -363,141 +375,146 @@ public class Application
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x2EB9FF0", Offset = "0x2EB85F0", VA = "0x182EB9FF0")]
+	[Token(Token = "0x6000225")]
+	[Address(RVA = "0x68BC020", Offset = "0x68BB020", VA = "0x68BC020")]
 	[UnityEngine.Bindings.FreeFunction("GetInputManager().QuitApplication")]
 	public static extern void Quit(int exitCode);
 
-	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x2EBA030", Offset = "0x2EB8630", VA = "0x182EBA030")]
+	[Token(Token = "0x6000226")]
+	[Address(RVA = "0x68BC050", Offset = "0x68BB050", VA = "0x68BC050")]
 	public static void Quit()
 	{
 	}
 
-	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x2EB9E50", Offset = "0x2EB8450", VA = "0x182EB9E50")]
+	[Token(Token = "0x6000233")]
+	[Address(RVA = "0x68BC910", Offset = "0x68BB910", VA = "0x68BC910")]
 	[UnityEngine.Bindings.FreeFunction("OpenURL")]
 	public static void OpenURL(string url)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x2EBA090", Offset = "0x2EB8690", VA = "0x182EBA090")]
+	[Token(Token = "0x6000236")]
+	[Address(RVA = "0x68BCB30", Offset = "0x68BBB30", VA = "0x68BCB30")]
 	[UnityEngine.Bindings.FreeFunction("Application_Bindings::SetLogCallbackDefined")]
 	private static extern void SetLogCallbackDefined(bool defined);
 
-	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x2EB96B0", Offset = "0x2EB7CB0", VA = "0x182EB96B0")]
+	[Token(Token = "0x600023B")]
+	[Address(RVA = "0x68BCDB0", Offset = "0x68BBDB0", VA = "0x68BCDB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CallLowMemory(ApplicationMemoryUsage usage)
 	{
 	}
 
-	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x2EB97F0", Offset = "0x2EB7DF0", VA = "0x182EB97F0")]
+	[Token(Token = "0x600023C")]
+	[Address(RVA = "0x68BCEE0", Offset = "0x68BBEE0", VA = "0x68BCEE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool HasLogCallback()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x2EB95E0", Offset = "0x2EB7BE0", VA = "0x182EB95E0")]
+	[Token(Token = "0x600023F")]
+	[Address(RVA = "0x68BD120", Offset = "0x68BC120", VA = "0x68BD120")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void CallLogCallback(string logString, string stackTrace, LogType type, bool invokedOnMainThread)
 	{
 	}
 
-	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x2EB9990", Offset = "0x2EB7F90", VA = "0x182EB9990")]
+	[Token(Token = "0x6000244")]
+	[Address(RVA = "0x68BD5C0", Offset = "0x68BC5C0", VA = "0x68BD5C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool Internal_ApplicationWantsToQuit()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x2EB9B30", Offset = "0x2EB8130", VA = "0x182EB9B30")]
+	[Token(Token = "0x6000246")]
+	[Address(RVA = "0x68BD9F0", Offset = "0x68BC9F0", VA = "0x68BD9F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_InitializeExitCancellationToken()
 	{
 	}
 
-	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x2EB9C30", Offset = "0x2EB8230", VA = "0x182EB9C30")]
+	[Token(Token = "0x6000247")]
+	[Address(RVA = "0x68BDB00", Offset = "0x68BCB00", VA = "0x68BDB00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_RaiseExitCancellationToken()
 	{
 	}
 
-	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x2EB9870", Offset = "0x2EB7E70", VA = "0x182EB9870")]
+	[Token(Token = "0x6000248")]
+	[Address(RVA = "0x68BDB80", Offset = "0x68BCB80", VA = "0x68BDB80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_ApplicationQuit()
 	{
 	}
 
-	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x2EB9900", Offset = "0x2EB7F00", VA = "0x182EB9900")]
+	[Token(Token = "0x6000249")]
+	[Address(RVA = "0x68BDC30", Offset = "0x68BCC30", VA = "0x68BDC30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_ApplicationUnload()
 	{
 	}
 
-	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x2EB9DD0", Offset = "0x2EB83D0", VA = "0x182EB9DD0")]
+	[Token(Token = "0x600024A")]
+	[Address(RVA = "0x68BDCE0", Offset = "0x68BCCE0", VA = "0x68BDCE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeOnBeforeRender()
 	{
 	}
 
-	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x2EB9D30", Offset = "0x2EB8330", VA = "0x182EB9D30")]
+	[Token(Token = "0x600024B")]
+	[Address(RVA = "0x68BDED0", Offset = "0x68BCED0", VA = "0x68BDED0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeFocusChanged(bool focus)
 	{
 	}
 
-	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x2EB9C90", Offset = "0x2EB8290", VA = "0x182EB9C90")]
+	[Token(Token = "0x600024C")]
+	[Address(RVA = "0x68BDF90", Offset = "0x68BCF90", VA = "0x68BDF90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeDeepLinkActivated(string url)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x2EBA5A0", Offset = "0x2EB8BA0", VA = "0x182EBA5A0")]
-	private static extern void get_dataPath_Injected(out ManagedSpanWrapper ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x2EBAB50", Offset = "0x2EB9150", VA = "0x182EBAB50")]
-	private static extern void get_streamingAssetsPath_Injected(out ManagedSpanWrapper ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x2EBA8E0", Offset = "0x2EB8EE0", VA = "0x182EBA8E0")]
-	private static extern void get_persistentDataPath_Injected(out ManagedSpanWrapper ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x2EBAD00", Offset = "0x2EB9300", VA = "0x182EBAD00")]
-	private static extern void get_unityVersion_Injected(out ManagedSpanWrapper ret);
+	[Address(RVA = "0x68BC230", Offset = "0x68BB230", VA = "0x68BC230")]
+	private static extern void get_buildGUID_Injected(out ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x2EBAA30", Offset = "0x2EB9030", VA = "0x182EBAA30")]
-	private static extern void get_productName_Injected(out ManagedSpanWrapper ret);
+	[Address(RVA = "0x68BC3C0", Offset = "0x68BB3C0", VA = "0x68BC3C0")]
+	private static extern void get_dataPath_Injected(out ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x2EB9E10", Offset = "0x2EB8410", VA = "0x182EB9E10")]
-	private static extern void OpenURL_Injected(ref ManagedSpanWrapper url);
+	[Address(RVA = "0x68BC4F0", Offset = "0x68BB4F0", VA = "0x68BC4F0")]
+	private static extern void get_streamingAssetsPath_Injected(out ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x2EBA480", Offset = "0x2EB8A80", VA = "0x182EBA480")]
+	[Address(RVA = "0x68BC620", Offset = "0x68BB620", VA = "0x68BC620")]
+	private static extern void get_persistentDataPath_Injected(out ManagedSpanWrapper ret);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000254")]
+	[Address(RVA = "0x68BC750", Offset = "0x68BB750", VA = "0x68BC750")]
+	private static extern void get_unityVersion_Injected(out ManagedSpanWrapper ret);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000255")]
+	[Address(RVA = "0x68BC8E0", Offset = "0x68BB8E0", VA = "0x68BC8E0")]
+	private static extern void get_productName_Injected(out ManagedSpanWrapper ret);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000256")]
+	[Address(RVA = "0x68BCAA0", Offset = "0x68BBAA0", VA = "0x68BCAA0")]
+	private static extern void OpenURL_Injected(ref ManagedSpanWrapper url);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000257")]
+	[Address(RVA = "0x68BCC60", Offset = "0x68BBC60", VA = "0x68BCC60")]
 	private static extern void get_consoleLogPath_Injected(out ManagedSpanWrapper ret);
 }

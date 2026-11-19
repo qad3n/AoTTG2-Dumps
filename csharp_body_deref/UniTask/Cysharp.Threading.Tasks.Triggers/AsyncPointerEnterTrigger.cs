@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncPointerEnterTrigger : AsyncTriggerBase<PointerEventData>, IPointerEnterHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C5C")]
-	[Address(RVA = "0x29357E0", Offset = "0x2933DE0", VA = "0x1829357E0", Slot = "5")]
+	[Address(RVA = "0x6304FB0", Offset = "0x6303FB0", VA = "0x6304FB0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerEnterHandler_002EOnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C5D")]
-	[Address(RVA = "0x29354C0", Offset = "0x2933AC0", VA = "0x1829354C0")]
+	[Address(RVA = "0x6305000", Offset = "0x6304000", VA = "0x6305000")]
 	public IAsyncOnPointerEnterHandler GetOnPointerEnterAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C5E")]
-	[Address(RVA = "0x2935530", Offset = "0x2933B30", VA = "0x182935530")]
+	[Address(RVA = "0x6305070", Offset = "0x6304070", VA = "0x6305070")]
 	public IAsyncOnPointerEnterHandler GetOnPointerEnterAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C5F")]
-	[Address(RVA = "0x29356C0", Offset = "0x2933CC0", VA = "0x1829356C0")]
+	[Address(RVA = "0x63050E0", Offset = "0x63040E0", VA = "0x63050E0")]
 	public UniTask<PointerEventData> OnPointerEnterAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C60")]
-	[Address(RVA = "0x29355B0", Offset = "0x2933BB0", VA = "0x1829355B0")]
+	[Address(RVA = "0x63051E0", Offset = "0x63041E0", VA = "0x63051E0")]
 	public UniTask<PointerEventData> OnPointerEnterAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C61")]
-	[Address(RVA = "0x2935830", Offset = "0x2933E30", VA = "0x182935830")]
+	[Address(RVA = "0x63052F0", Offset = "0x63042F0", VA = "0x63052F0")]
 	public AsyncPointerEnterTrigger()
 	{
 	}

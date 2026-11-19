@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.FixedString4096Bytes
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,7 +42,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x600051A")]
-			[Address(RVA = "0x299BE20", Offset = "0x299A420", VA = "0x18299BE20")]
+			[Address(RVA = "0x636F910", Offset = "0x636E910", VA = "0x636F910")]
 			get
 			{
 				return default(Unicode.Rune);
@@ -53,7 +53,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600051B")]
-			[Address(RVA = "0x299BB20", Offset = "0x299A120", VA = "0x18299BB20", Slot = "5")]
+			[Address(RVA = "0x636F920", Offset = "0x636E920", VA = "0x636F920", Slot = "5")]
 			get
 			{
 				return null;
@@ -61,27 +61,27 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 		}
 
 		[Token(Token = "0x6000516")]
-		[Address(RVA = "0x299BD40", Offset = "0x299A340", VA = "0x18299BD40")]
+		[Address(RVA = "0x636DB00", Offset = "0x636CB00", VA = "0x636DB00")]
 		public Enumerator(FixedString4096Bytes other)
 		{
 		}
 
 		[Token(Token = "0x6000517")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x636F8B0", Offset = "0x636E8B0", VA = "0x636F8B0")]
 		public void Dispose()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000518")]
-		[Address(RVA = "0x299B9F0", Offset = "0x2999FF0", VA = "0x18299B9F0", Slot = "4")]
+		[Address(RVA = "0x636F8C0", Offset = "0x636E8C0", VA = "0x636F8C0", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000519")]
-		[Address(RVA = "0x299BAF0", Offset = "0x299A0F0", VA = "0x18299BAF0", Slot = "6")]
+		[Address(RVA = "0x636F900", Offset = "0x636E900", VA = "0x636F900", Slot = "6")]
 		public void Reset()
 		{
 		}
@@ -104,7 +104,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	public static int UTF8MaxLengthInBytes
 	{
 		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x29A0DE0", Offset = "0x299F3E0", VA = "0x1829A0DE0")]
+		[Address(RVA = "0x636D930", Offset = "0x636C930", VA = "0x636D930")]
 		get
 		{
 			return default(int);
@@ -118,7 +118,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	public string Value
 	{
 		[Token(Token = "0x60004D5")]
-		[Address(RVA = "0x29A0940", Offset = "0x299EF40", VA = "0x1829A0940")]
+		[Address(RVA = "0x636D940", Offset = "0x636C940", VA = "0x636D940")]
 		get
 		{
 			return null;
@@ -130,13 +130,13 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x846ED0", Offset = "0x8454D0", VA = "0x180846ED0", Slot = "10")]
+		[Address(RVA = "0x636D9D0", Offset = "0x636C9D0", VA = "0x636D9D0", Slot = "10")]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60004D8")]
-		[Address(RVA = "0x299DC40", Offset = "0x299C240", VA = "0x18299DC40", Slot = "11")]
+		[Address(RVA = "0x636D9E0", Offset = "0x636C9E0", VA = "0x636D9E0", Slot = "11")]
 		set
 		{
 		}
@@ -147,13 +147,13 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x29A0DE0", Offset = "0x299F3E0", VA = "0x1829A0DE0", Slot = "4")]
+		[Address(RVA = "0x636D9F0", Offset = "0x636C9F0", VA = "0x636D9F0", Slot = "4")]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x636DA00", Offset = "0x636CA00", VA = "0x636DA00", Slot = "5")]
 		set
 		{
 		}
@@ -164,7 +164,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x299D490", Offset = "0x299BA90", VA = "0x18299D490", Slot = "13")]
+		[Address(RVA = "0x636DA70", Offset = "0x636CA70", VA = "0x636DA70", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -176,14 +176,14 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x299D4A0", Offset = "0x299BAA0", VA = "0x18299D4A0", Slot = "7")]
+		[Address(RVA = "0x636DA80", Offset = "0x636CA80", VA = "0x636DA80", Slot = "7")]
 		readonly get
 		{
 			return default(byte);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60004DE")]
-		[Address(RVA = "0x299DC30", Offset = "0x299C230", VA = "0x18299DC30", Slot = "8")]
+		[Address(RVA = "0x636DA90", Offset = "0x636CA90", VA = "0x636DA90", Slot = "8")]
 		set
 		{
 		}
@@ -191,7 +191,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60004D6")]
-	[Address(RVA = "0x1704750", Offset = "0x1702D50", VA = "0x181704750", Slot = "14")]
+	[Address(RVA = "0x636D9C0", Offset = "0x636C9C0", VA = "0x636D9C0", Slot = "14")]
 	public unsafe readonly byte* GetUnsafePtr()
 	{
 		//IL_0002: Expected I, but got O
@@ -199,7 +199,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x60004DB")]
-	[Address(RVA = "0x29A0980", Offset = "0x299EF80", VA = "0x1829A0980", Slot = "15")]
+	[Address(RVA = "0x636DA10", Offset = "0x636CA10", VA = "0x636DA10", Slot = "15")]
 	public bool TryResize(int newLength, NativeArrayOptions clearOptions = NativeArrayOptions.ClearMemory)
 	{
 		return default(bool);
@@ -207,33 +207,33 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60004DF")]
-	[Address(RVA = "0x299C4A0", Offset = "0x299AAA0", VA = "0x18299C4A0", Slot = "12")]
+	[Address(RVA = "0x636DAA0", Offset = "0x636CAA0", VA = "0x636DAA0", Slot = "12")]
 	public unsafe ref byte ElementAt(int index)
 	{
 		return ref *(byte*)null;
 	}
 
 	[Token(Token = "0x60004E0")]
-	[Address(RVA = "0x299C2A0", Offset = "0x299A8A0", VA = "0x18299C2A0", Slot = "9")]
+	[Address(RVA = "0x636DAB0", Offset = "0x636CAB0", VA = "0x636DAB0", Slot = "9")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x299BE30", Offset = "0x299A430", VA = "0x18299BE30")]
+	[Address(RVA = "0x636DAC0", Offset = "0x636CAC0", VA = "0x636DAC0")]
 	public void Add(in byte value)
 	{
 	}
 
 	[Token(Token = "0x60004E2")]
-	[Address(RVA = "0x29A03B0", Offset = "0x299E9B0", VA = "0x1829A03B0")]
+	[Address(RVA = "0x636DAE0", Offset = "0x636CAE0", VA = "0x636DAE0")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x60004E3")]
-	[Address(RVA = "0x299FD80", Offset = "0x299E380", VA = "0x18299FD80", Slot = "16")]
+	[Address(RVA = "0x636DB20", Offset = "0x636CB20", VA = "0x636DB20", Slot = "16")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public int CompareTo(string other)
 	{
@@ -241,7 +241,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0x299FE00", Offset = "0x299E400", VA = "0x18299FE00", Slot = "17")]
+	[Address(RVA = "0x636DB80", Offset = "0x636CB80", VA = "0x636DB80", Slot = "17")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public bool Equals(string other)
 	{
@@ -249,21 +249,21 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x299F7B0", Offset = "0x299DDB0", VA = "0x18299F7B0")]
+	[Address(RVA = "0x636DC10", Offset = "0x636CC10", VA = "0x636DC10")]
 	public unsafe ref FixedList4096Bytes<byte> AsFixedList()
 	{
 		return ref *(FixedList4096Bytes<byte>*)null;
 	}
 
 	[Token(Token = "0x60004E6")]
-	[Address(RVA = "0x29A0A80", Offset = "0x299F080", VA = "0x1829A0A80")]
+	[Address(RVA = "0x636DC40", Offset = "0x636CC40", VA = "0x636DC40")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public FixedString4096Bytes(string source)
 	{
 	}
 
 	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x29A08F0", Offset = "0x299EEF0", VA = "0x1829A08F0")]
+	[Address(RVA = "0x636DC90", Offset = "0x636CC90", VA = "0x636DC90")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	internal CopyError Initialize(string source)
 	{
@@ -271,244 +271,244 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x29A0AE0", Offset = "0x299F0E0", VA = "0x1829A0AE0")]
+	[Address(RVA = "0x636DCE0", Offset = "0x636CCE0", VA = "0x636DCE0")]
 	public FixedString4096Bytes(Unicode.Rune rune, int count = 1)
 	{
 	}
 
 	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x29A0880", Offset = "0x299EE80", VA = "0x1829A0880")]
+	[Address(RVA = "0x636DD40", Offset = "0x636CD40", VA = "0x636DD40")]
 	internal FormatError Initialize(Unicode.Rune rune, int count = 1)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x29A0750", Offset = "0x299ED50", VA = "0x1829A0750")]
+	[Address(RVA = "0x636DDA0", Offset = "0x636CDA0", VA = "0x636DDA0")]
 	internal unsafe FormatError Initialize(byte* srcBytes, int srcLength)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x29A0C20", Offset = "0x299F220", VA = "0x1829A0C20")]
+	[Address(RVA = "0x636DE10", Offset = "0x636CE10", VA = "0x636DE10")]
 	public FixedString4096Bytes(NativeText.ReadOnly other)
 	{
 	}
 
 	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x29A0D00", Offset = "0x299F300", VA = "0x1829A0D00")]
+	[Address(RVA = "0x636DEF0", Offset = "0x636CEF0", VA = "0x636DEF0")]
 	public FixedString4096Bytes(in UnsafeText other)
 	{
 	}
 
 	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x299FCE0", Offset = "0x299E2E0", VA = "0x18299FCE0", Slot = "18")]
+	[Address(RVA = "0x636DFE0", Offset = "0x636CFE0", VA = "0x636DFE0", Slot = "18")]
 	public int CompareTo(FixedString32Bytes other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x29A0A00", Offset = "0x299F000", VA = "0x1829A0A00")]
+	[Address(RVA = "0x6365DE0", Offset = "0x6364DE0", VA = "0x6365DE0")]
 	public FixedString4096Bytes(in FixedString32Bytes other)
 	{
 	}
 
 	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x29A05F0", Offset = "0x299EBF0", VA = "0x1829A05F0")]
+	[Address(RVA = "0x636E030", Offset = "0x636D030", VA = "0x636E030")]
 	internal FormatError Initialize(in FixedString32Bytes other)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x29A0F00", Offset = "0x299F500", VA = "0x1829A0F00")]
+	[Address(RVA = "0x636E0D0", Offset = "0x636D0D0", VA = "0x636E0D0")]
 	public static bool operator ==(in FixedString4096Bytes a, in FixedString32Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x29A12E0", Offset = "0x299F8E0", VA = "0x1829A12E0")]
+	[Address(RVA = "0x636E170", Offset = "0x636D170", VA = "0x636E170")]
 	public static bool operator !=(in FixedString4096Bytes a, in FixedString32Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x29A0370", Offset = "0x299E970", VA = "0x1829A0370", Slot = "19")]
+	[Address(RVA = "0x636E220", Offset = "0x636D220", VA = "0x636E220", Slot = "19")]
 	public bool Equals(FixedString32Bytes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x299FD30", Offset = "0x299E330", VA = "0x18299FD30", Slot = "20")]
+	[Address(RVA = "0x636E2D0", Offset = "0x636D2D0", VA = "0x636E2D0", Slot = "20")]
 	public int CompareTo(FixedString64Bytes other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x29A0B60", Offset = "0x299F160", VA = "0x1829A0B60")]
+	[Address(RVA = "0x6368470", Offset = "0x6367470", VA = "0x6368470")]
 	public FixedString4096Bytes(in FixedString64Bytes other)
 	{
 	}
 
 	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x29A0490", Offset = "0x299EA90", VA = "0x1829A0490")]
+	[Address(RVA = "0x636E320", Offset = "0x636D320", VA = "0x636E320")]
 	internal FormatError Initialize(in FixedString64Bytes other)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x60004F6")]
-	[Address(RVA = "0x29A0E70", Offset = "0x299F470", VA = "0x1829A0E70")]
+	[Address(RVA = "0x636E3C0", Offset = "0x636D3C0", VA = "0x636E3C0")]
 	public static bool operator ==(in FixedString4096Bytes a, in FixedString64Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F7")]
-	[Address(RVA = "0x29A1320", Offset = "0x299F920", VA = "0x1829A1320")]
+	[Address(RVA = "0x636E460", Offset = "0x636D460", VA = "0x636E460")]
 	public static bool operator !=(in FixedString4096Bytes a, in FixedString64Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F8")]
-	[Address(RVA = "0x29A0390", Offset = "0x299E990", VA = "0x1829A0390", Slot = "21")]
+	[Address(RVA = "0x636E510", Offset = "0x636D510", VA = "0x636E510", Slot = "21")]
 	public bool Equals(FixedString64Bytes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F9")]
-	[Address(RVA = "0x299FC90", Offset = "0x299E290", VA = "0x18299FC90", Slot = "22")]
+	[Address(RVA = "0x636E5C0", Offset = "0x636D5C0", VA = "0x636E5C0", Slot = "22")]
 	public int CompareTo(FixedString128Bytes other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004FA")]
-	[Address(RVA = "0x29A0A40", Offset = "0x299F040", VA = "0x1829A0A40")]
+	[Address(RVA = "0x636AAA0", Offset = "0x6369AA0", VA = "0x636AAA0")]
 	public FixedString4096Bytes(in FixedString128Bytes other)
 	{
 	}
 
 	[Token(Token = "0x60004FB")]
-	[Address(RVA = "0x29A06A0", Offset = "0x299ECA0", VA = "0x1829A06A0")]
+	[Address(RVA = "0x636E610", Offset = "0x636D610", VA = "0x636E610")]
 	internal FormatError Initialize(in FixedString128Bytes other)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x60004FC")]
-	[Address(RVA = "0x29A0F90", Offset = "0x299F590", VA = "0x1829A0F90")]
+	[Address(RVA = "0x636E6B0", Offset = "0x636D6B0", VA = "0x636E6B0")]
 	public static bool operator ==(in FixedString4096Bytes a, in FixedString128Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FD")]
-	[Address(RVA = "0x29A12C0", Offset = "0x299F8C0", VA = "0x1829A12C0")]
+	[Address(RVA = "0x636E750", Offset = "0x636D750", VA = "0x636E750")]
 	public static bool operator !=(in FixedString4096Bytes a, in FixedString128Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FE")]
-	[Address(RVA = "0x299FEA0", Offset = "0x299E4A0", VA = "0x18299FEA0", Slot = "23")]
+	[Address(RVA = "0x636E800", Offset = "0x636D800", VA = "0x636E800", Slot = "23")]
 	public bool Equals(FixedString128Bytes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x299FBF0", Offset = "0x299E1F0", VA = "0x18299FBF0", Slot = "24")]
+	[Address(RVA = "0x636E8B0", Offset = "0x636D8B0", VA = "0x636E8B0", Slot = "24")]
 	public int CompareTo(FixedString512Bytes other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x29A0BE0", Offset = "0x299F1E0", VA = "0x1829A0BE0")]
+	[Address(RVA = "0x636CDD0", Offset = "0x636BDD0", VA = "0x636CDD0")]
 	public FixedString4096Bytes(in FixedString512Bytes other)
 	{
 	}
 
 	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x29A07D0", Offset = "0x299EDD0", VA = "0x1829A07D0")]
+	[Address(RVA = "0x636E900", Offset = "0x636D900", VA = "0x636E900")]
 	internal FormatError Initialize(in FixedString512Bytes other)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x29A1020", Offset = "0x299F620", VA = "0x1829A1020")]
+	[Address(RVA = "0x636E9A0", Offset = "0x636D9A0", VA = "0x636E9A0")]
 	public static bool operator ==(in FixedString4096Bytes a, in FixedString512Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x29A1440", Offset = "0x299FA40", VA = "0x1829A1440")]
+	[Address(RVA = "0x636EA40", Offset = "0x636DA40", VA = "0x636EA40")]
 	public static bool operator !=(in FixedString4096Bytes a, in FixedString512Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000504")]
-	[Address(RVA = "0x299FEC0", Offset = "0x299E4C0", VA = "0x18299FEC0", Slot = "25")]
+	[Address(RVA = "0x636EAF0", Offset = "0x636DAF0", VA = "0x636EAF0", Slot = "25")]
 	public bool Equals(FixedString512Bytes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000505")]
-	[Address(RVA = "0x299FC40", Offset = "0x299E240", VA = "0x18299FC40", Slot = "26")]
+	[Address(RVA = "0x636EBA0", Offset = "0x636DBA0", VA = "0x636EBA0", Slot = "26")]
 	public int CompareTo(FixedString4096Bytes other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000506")]
-	[Address(RVA = "0x29A0BA0", Offset = "0x299F1A0", VA = "0x1829A0BA0")]
+	[Address(RVA = "0x636EBF0", Offset = "0x636DBF0", VA = "0x636EBF0")]
 	public FixedString4096Bytes(in FixedString4096Bytes other)
 	{
 	}
 
 	[Token(Token = "0x6000507")]
-	[Address(RVA = "0x29A0540", Offset = "0x299EB40", VA = "0x1829A0540")]
+	[Address(RVA = "0x636ECA0", Offset = "0x636DCA0", VA = "0x636ECA0")]
 	internal FormatError Initialize(in FixedString4096Bytes other)
 	{
 		return default(FormatError);
 	}
 
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x29A0DF0", Offset = "0x299F3F0", VA = "0x1829A0DF0")]
+	[Address(RVA = "0x636ED40", Offset = "0x636DD40", VA = "0x636ED40")]
 	public static bool operator ==(in FixedString4096Bytes a, in FixedString4096Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000509")]
-	[Address(RVA = "0x29A1300", Offset = "0x299F900", VA = "0x1829A1300")]
+	[Address(RVA = "0x636EDC0", Offset = "0x636DDC0", VA = "0x636EDC0")]
 	public static bool operator !=(in FixedString4096Bytes a, in FixedString4096Bytes b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600050A")]
-	[Address(RVA = "0x299FDE0", Offset = "0x299E3E0", VA = "0x18299FDE0", Slot = "27")]
+	[Address(RVA = "0x636EE40", Offset = "0x636DE40", VA = "0x636EE40", Slot = "27")]
 	public bool Equals(FixedString4096Bytes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600050B")]
-	[Address(RVA = "0x29A10B0", Offset = "0x299F6B0", VA = "0x1829A10B0")]
+	[Address(RVA = "0x636EEC0", Offset = "0x636DEC0", VA = "0x636EEC0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static bool operator ==(in FixedString4096Bytes a, string b)
 	{
@@ -516,7 +516,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x600050C")]
-	[Address(RVA = "0x29A1340", Offset = "0x299F940", VA = "0x1829A1340")]
+	[Address(RVA = "0x636F030", Offset = "0x636E030", VA = "0x636F030")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static bool operator !=(in FixedString4096Bytes a, string b)
 	{
@@ -524,7 +524,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x600050D")]
-	[Address(RVA = "0x29A1230", Offset = "0x299F830", VA = "0x1829A1230")]
+	[Address(RVA = "0x636EFD0", Offset = "0x636DFD0", VA = "0x636EFD0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static implicit operator FixedString4096Bytes(string b)
 	{
@@ -532,7 +532,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x600050E")]
-	[Address(RVA = "0x29A0940", Offset = "0x299EF40", VA = "0x1829A0940", Slot = "3")]
+	[Address(RVA = "0x636D980", Offset = "0x636C980", VA = "0x636D980", Slot = "3")]
 	[ExcludeFromBurstCompatTesting("Returns managed string")]
 	public override string ToString()
 	{
@@ -540,14 +540,14 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x600050F")]
-	[Address(RVA = "0x29A0450", Offset = "0x299EA50", VA = "0x1829A0450", Slot = "2")]
+	[Address(RVA = "0x636F120", Offset = "0x636E120", VA = "0x636F120", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000510")]
-	[Address(RVA = "0x299FEE0", Offset = "0x299E4E0", VA = "0x18299FEE0", Slot = "0")]
+	[Address(RVA = "0x636F160", Offset = "0x636E160", VA = "0x636F160", Slot = "0")]
 	[ExcludeFromBurstCompatTesting("Takes managed object")]
 	public override bool Equals(object obj)
 	{
@@ -556,7 +556,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000511")]
-	[Address(RVA = "0x299F990", Offset = "0x299DF90", VA = "0x18299F990")]
+	[Address(RVA = "0x636F560", Offset = "0x636E560", VA = "0x636F560")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private readonly void CheckIndexInRange(int index)
@@ -564,7 +564,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x299FAC0", Offset = "0x299E0C0", VA = "0x18299FAC0")]
+	[Address(RVA = "0x636F650", Offset = "0x636E650", VA = "0x636F650")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private void CheckLengthInRange(int length)
@@ -572,7 +572,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x299F7E0", Offset = "0x299DDE0", VA = "0x18299F7E0")]
+	[Address(RVA = "0x636F730", Offset = "0x636E730", VA = "0x636F730")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private void CheckCapacityInRange(int capacity)
@@ -580,7 +580,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x299F890", Offset = "0x299DE90", VA = "0x18299F890")]
+	[Address(RVA = "0x636F7D0", Offset = "0x636E7D0", VA = "0x636F7D0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckCopyError(CopyError error, string source)
@@ -588,7 +588,7 @@ public struct FixedString4096Bytes : INativeList<byte>, IIndexable<byte>, IUTF8B
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x299F930", Offset = "0x299DF30", VA = "0x18299F930")]
+	[Address(RVA = "0x636F860", Offset = "0x636E860", VA = "0x636F860")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckFormatError(FormatError error)

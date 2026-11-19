@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnScrollbarValueChangedMessageListener : MessageListener
 {
 	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x2DBEC90", Offset = "0x2DBD290", VA = "0x182DBEC90")]
+	[Address(RVA = "0x67A5AF0", Offset = "0x67A4AF0", VA = "0x67A5AF0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5BB0", Offset = "0x67A4BB0", VA = "0x67A5BB0")]
 	public UnityOnScrollbarValueChangedMessageListener()
 	{
 	}

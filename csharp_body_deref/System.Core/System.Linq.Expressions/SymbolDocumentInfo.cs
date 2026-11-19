@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000C2")]
+[Token(Token = "0x20000C3")]
 public class SymbolDocumentInfo
 {
-	[Token(Token = "0x40001E2")]
+	[Token(Token = "0x40001EB")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Guid DocumentType_Text;
 
-	[Token(Token = "0x17000127")]
+	[Token(Token = "0x17000129")]
 	public string FileName
 	{
-		[Token(Token = "0x600055F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600056A")]
+		[Address(RVA = "0x5DD5FF0", Offset = "0x5DD4FF0", VA = "0x5DD5FF0")]
 		[CompilerGenerated]
 		get
 		{

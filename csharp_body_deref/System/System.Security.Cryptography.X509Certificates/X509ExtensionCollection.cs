@@ -10,89 +10,89 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200014B")]
+[Token(Token = "0x200010C")]
 public sealed class X509ExtensionCollection : ICollection, IEnumerable
 {
-	[Token(Token = "0x40005DB")]
+	[Token(Token = "0x400050C")]
 	[FieldOffset(Offset = "0x0")]
 	private static byte[] Empty;
 
-	[Token(Token = "0x40005DC")]
+	[Token(Token = "0x400050D")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList _list;
 
-	[Token(Token = "0x17000190")]
+	[Token(Token = "0x17000161")]
 	public int Count
 	{
-		[Token(Token = "0x600083A")]
-		[Address(RVA = "0x1AB8C80", Offset = "0x1AB7280", VA = "0x181AB8C80", Slot = "5")]
+		[Token(Token = "0x600067A")]
+		[Address(RVA = "0x621CC00", Offset = "0x621BC00", VA = "0x621CC00", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000191")]
+	[Token(Token = "0x17000162")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x600083B")]
-		[Address(RVA = "0x1A1F360", Offset = "0x1A1D960", VA = "0x181A1F360", Slot = "7")]
+		[Token(Token = "0x600067B")]
+		[Address(RVA = "0x621CC30", Offset = "0x621BC30", VA = "0x621CC30", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000192")]
+	[Token(Token = "0x17000163")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x600083C")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
+		[Token(Token = "0x600067C")]
+		[Address(RVA = "0x621CC60", Offset = "0x621BC60", VA = "0x621CC60", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000193")]
+	[Token(Token = "0x17000164")]
 	public X509Extension this[string oid]
 	{
-		[Token(Token = "0x600083D")]
-		[Address(RVA = "0x288F3F0", Offset = "0x288D9F0", VA = "0x18288F3F0")]
+		[Token(Token = "0x600067D")]
+		[Address(RVA = "0x621CC70", Offset = "0x621BC70", VA = "0x621CC70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x288F380", Offset = "0x288D980", VA = "0x18288F380")]
+	[Token(Token = "0x6000679")]
+	[Address(RVA = "0x621CB90", Offset = "0x621BB90", VA = "0x621CB90")]
 	public X509ExtensionCollection()
 	{
 	}
 
-	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x288F020", Offset = "0x288D620", VA = "0x18288F020")]
+	[Token(Token = "0x600067E")]
+	[Address(RVA = "0x621D020", Offset = "0x621C020", VA = "0x621D020")]
 	public int Add(X509Extension extension)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x288F130", Offset = "0x288D730", VA = "0x18288F130", Slot = "4")]
+	[Token(Token = "0x600067F")]
+	[Address(RVA = "0x621D090", Offset = "0x621C090", VA = "0x621D090", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x288F0A0", Offset = "0x288D6A0", VA = "0x18288F0A0")]
+	[Token(Token = "0x6000680")]
+	[Address(RVA = "0x621D180", Offset = "0x621C180", VA = "0x621D180")]
 	public X509ExtensionEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x288F280", Offset = "0x288D880", VA = "0x18288F280", Slot = "8")]
+	[Token(Token = "0x6000681")]
+	[Address(RVA = "0x621D250", Offset = "0x621C250", VA = "0x621D250", Slot = "8")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

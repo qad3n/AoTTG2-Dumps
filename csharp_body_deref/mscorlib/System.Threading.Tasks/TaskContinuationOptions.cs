@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000275")]
+[Token(Token = "0x200024D")]
 [Flags]
 public enum TaskContinuationOptions
 {
-	[Token(Token = "0x4000B19")]
+	[Token(Token = "0x4000A77")]
 	None = 0,
-	[Token(Token = "0x4000B1A")]
+	[Token(Token = "0x4000A78")]
 	PreferFairness = 1,
-	[Token(Token = "0x4000B1B")]
+	[Token(Token = "0x4000A79")]
 	LongRunning = 2,
-	[Token(Token = "0x4000B1C")]
+	[Token(Token = "0x4000A7A")]
 	AttachedToParent = 4,
-	[Token(Token = "0x4000B1D")]
+	[Token(Token = "0x4000A7B")]
 	DenyChildAttach = 8,
-	[Token(Token = "0x4000B1E")]
+	[Token(Token = "0x4000A7C")]
 	HideScheduler = 0x10,
-	[Token(Token = "0x4000B1F")]
+	[Token(Token = "0x4000A7D")]
 	LazyCancellation = 0x20,
-	[Token(Token = "0x4000B20")]
+	[Token(Token = "0x4000A7E")]
 	RunContinuationsAsynchronously = 0x40,
-	[Token(Token = "0x4000B21")]
+	[Token(Token = "0x4000A7F")]
 	NotOnRanToCompletion = 0x10000,
-	[Token(Token = "0x4000B22")]
+	[Token(Token = "0x4000A80")]
 	NotOnFaulted = 0x20000,
-	[Token(Token = "0x4000B23")]
+	[Token(Token = "0x4000A81")]
 	NotOnCanceled = 0x40000,
-	[Token(Token = "0x4000B24")]
+	[Token(Token = "0x4000A82")]
 	OnlyOnRanToCompletion = NotOnFaulted | NotOnCanceled,
-	[Token(Token = "0x4000B25")]
+	[Token(Token = "0x4000A83")]
 	OnlyOnFaulted = NotOnRanToCompletion | NotOnCanceled,
-	[Token(Token = "0x4000B26")]
+	[Token(Token = "0x4000A84")]
 	OnlyOnCanceled = NotOnRanToCompletion | NotOnFaulted,
-	[Token(Token = "0x4000B27")]
+	[Token(Token = "0x4000A85")]
 	ExecuteSynchronously = 0x80000
 }

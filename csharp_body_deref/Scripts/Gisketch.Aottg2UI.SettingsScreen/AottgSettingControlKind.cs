@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x200016E")]
+[Token(Token = "0x2000176")]
 internal enum AottgSettingControlKind
 {
-	[Token(Token = "0x4000819")]
+	[Token(Token = "0x4000862")]
 	Switch,
-	[Token(Token = "0x400081A")]
+	[Token(Token = "0x4000863")]
 	Dropdown,
-	[Token(Token = "0x400081B")]
+	[Token(Token = "0x4000864")]
 	Select,
-	[Token(Token = "0x400081C")]
+	[Token(Token = "0x4000865")]
 	Slider,
-	[Token(Token = "0x400081D")]
+	[Token(Token = "0x4000866")]
 	Input,
-	[Token(Token = "0x400081E")]
+	[Token(Token = "0x4000867")]
 	ActionButton,
-	[Token(Token = "0x400081F")]
+	[Token(Token = "0x4000868")]
 	ReadOnlyInfo
 }

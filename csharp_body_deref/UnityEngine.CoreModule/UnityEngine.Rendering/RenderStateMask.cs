@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003C1")]
+[Token(Token = "0x2000392")]
 [Flags]
 public enum RenderStateMask
 {
-	[Token(Token = "0x4000C04")]
+	[Token(Token = "0x4000AD1")]
 	Nothing = 0,
-	[Token(Token = "0x4000C05")]
+	[Token(Token = "0x4000AD2")]
 	Blend = 1,
-	[Token(Token = "0x4000C06")]
+	[Token(Token = "0x4000AD3")]
 	Raster = 2,
-	[Token(Token = "0x4000C07")]
+	[Token(Token = "0x4000AD4")]
 	Depth = 4,
-	[Token(Token = "0x4000C08")]
+	[Token(Token = "0x4000AD5")]
 	Stencil = 8,
-	[Token(Token = "0x4000C09")]
+	[Token(Token = "0x4000AD6")]
 	Everything = Blend | Raster | Depth | Stencil
 }

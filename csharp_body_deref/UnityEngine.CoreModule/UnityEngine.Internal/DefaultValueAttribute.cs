@@ -15,36 +15,36 @@ namespace UnityEngine.Internal;
 [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.GenericParameter)]
 public class DefaultValueAttribute : Attribute
 {
-	[Token(Token = "0x4000790")]
+	[Token(Token = "0x400078E")]
 	[FieldOffset(Offset = "0x10")]
 	private object DefaultValue;
 
-	[Token(Token = "0x170002E2")]
+	[Token(Token = "0x170002E7")]
 	public object Value
 	{
-		[Token(Token = "0x6001215")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Token(Token = "0x6001229")]
+		[Address(RVA = "0x693A8B0", Offset = "0x69398B0", VA = "0x693A8B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001214")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6001228")]
+	[Address(RVA = "0x693A880", Offset = "0x6939880", VA = "0x693A880")]
 	public DefaultValueAttribute(string value)
 	{
 	}
 
-	[Token(Token = "0x6001216")]
-	[Address(RVA = "0x2F48E00", Offset = "0x2F47400", VA = "0x182F48E00", Slot = "0")]
+	[Token(Token = "0x600122A")]
+	[Address(RVA = "0x693A8C0", Offset = "0x69398C0", VA = "0x693A8C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001217")]
-	[Address(RVA = "0x2F48EB0", Offset = "0x2F474B0", VA = "0x182F48EB0", Slot = "2")]
+	[Token(Token = "0x600122B")]
+	[Address(RVA = "0x693A960", Offset = "0x6939960", VA = "0x693A960", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

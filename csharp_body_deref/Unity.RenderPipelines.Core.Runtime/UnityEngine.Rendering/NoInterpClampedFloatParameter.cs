@@ -18,32 +18,32 @@ public class NoInterpClampedFloatParameter : VolumeParameter<float>
 {
 	[NonSerialized]
 	[Token(Token = "0x400099F")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float min;
 
 	[NonSerialized]
 	[Token(Token = "0x40009A0")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x1C")]
 	public float max;
 
 	[Token(Token = "0x170001F7")]
 	public override float value
 	{
 		[Token(Token = "0x6000F41")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x6555C00", Offset = "0x6554C00", VA = "0x6555C00", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F42")]
-		[Address(RVA = "0x2B4FF20", Offset = "0x2B4E520", VA = "0x182B4FF20", Slot = "15")]
+		[Address(RVA = "0x6555C10", Offset = "0x6554C10", VA = "0x6555C10", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F43")]
-	[Address(RVA = "0x2B5F3D0", Offset = "0x2B5D9D0", VA = "0x182B5F3D0")]
+	[Address(RVA = "0x6555C40", Offset = "0x6554C40", VA = "0x6555C40")]
 	public NoInterpClampedFloatParameter(float value, float min, float max, bool overrideState = false)
 	{
 	}

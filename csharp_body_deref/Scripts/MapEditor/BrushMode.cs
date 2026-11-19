@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000122")]
+[Token(Token = "0x200012A")]
 public enum BrushMode
 {
-	[Token(Token = "0x400069F")]
+	[Token(Token = "0x40006E8")]
 	Scatter,
-	[Token(Token = "0x40006A0")]
+	[Token(Token = "0x40006E9")]
 	Grid
 }

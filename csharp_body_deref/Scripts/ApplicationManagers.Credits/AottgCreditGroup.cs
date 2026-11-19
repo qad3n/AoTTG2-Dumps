@@ -11,65 +11,65 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x2000932")]
+[Token(Token = "0x2000999")]
 public sealed class AottgCreditGroup
 {
-	[Token(Token = "0x17000F85")]
+	[Token(Token = "0x17000F64")]
 	public string Title
 	{
-		[Token(Token = "0x6005633")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600598C")]
+		[Address(RVA = "0x5D22780", Offset = "0x5D21780", VA = "0x5D22780")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005634")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x600598D")]
+		[Address(RVA = "0x5D22790", Offset = "0x5D21790", VA = "0x5D22790")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F86")]
+	[Token(Token = "0x17000F65")]
 	public string Description
 	{
-		[Token(Token = "0x6005635")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600598E")]
+		[Address(RVA = "0x5D227A0", Offset = "0x5D217A0", VA = "0x5D227A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005636")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x600598F")]
+		[Address(RVA = "0x5D227B0", Offset = "0x5D217B0", VA = "0x5D227B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F87")]
+	[Token(Token = "0x17000F66")]
 	public IReadOnlyList<AottgCreditContributor> Contributors
 	{
-		[Token(Token = "0x6005637")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6005990")]
+		[Address(RVA = "0x5D227C0", Offset = "0x5D217C0", VA = "0x5D227C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005638")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6005991")]
+		[Address(RVA = "0x5D227D0", Offset = "0x5D217D0", VA = "0x5D227D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6005632")]
-	[Address(RVA = "0x2363950", Offset = "0x2361F50", VA = "0x182363950")]
+	[Token(Token = "0x600598B")]
+	[Address(RVA = "0x5D226D0", Offset = "0x5D216D0", VA = "0x5D226D0")]
 	public AottgCreditGroup(string title, string description, AottgCreditContributor[] contributors)
 	{
 	}

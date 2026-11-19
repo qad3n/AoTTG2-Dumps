@@ -12,78 +12,89 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003EE")]
+[Token(Token = "0x20003C7")]
 [ComVisible(true)]
 public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, System.Runtime.Remoting.Messaging.IInternalMessage
 {
-	[Token(Token = "0x4000FB7")]
+	[Token(Token = "0x4000F17")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private object[] _outArgs;
 
-	[Token(Token = "0x4000FB8")]
+	[Token(Token = "0x4000F18")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private object[] _args;
 
-	[Token(Token = "0x4000FB9")]
+	[Token(Token = "0x4000F19")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private LogicalCallContext _callCtx;
 
-	[Token(Token = "0x4000FBA")]
+	[Token(Token = "0x4000F1A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private object _returnValue;
 
-	[Token(Token = "0x4000FBB")]
+	[Token(Token = "0x4000F1B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string _uri;
 
-	[Token(Token = "0x4000FBC")]
+	[Token(Token = "0x4000F1C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private Exception _exception;
 
-	[Token(Token = "0x4000FBD")]
+	[Token(Token = "0x4000F1D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private MethodBase _methodBase;
 
-	[Token(Token = "0x4000FBE")]
+	[Token(Token = "0x4000F1E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private string _methodName;
 
-	[Token(Token = "0x4000FBF")]
+	[Token(Token = "0x4000F1F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private Type[] _methodSignature;
 
-	[Token(Token = "0x4000FC0")]
+	[Token(Token = "0x4000F20")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private string _typeName;
 
-	[Token(Token = "0x4000FC1")]
+	[Token(Token = "0x4000F21")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private System.Runtime.Remoting.Messaging.MethodReturnDictionary _properties;
 
-	[Token(Token = "0x4000FC2")]
+	[Token(Token = "0x4000F22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private System.Runtime.Remoting.Identity _targetIdentity;
 
-	[Token(Token = "0x4000FC3")]
+	[Token(Token = "0x4000F23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo;
 
-	[Token(Token = "0x17000404")]
+	[Token(Token = "0x17000403")]
 	public int ArgCount
 	{
-		[Token(Token = "0x6001F68")]
-		[Address(RVA = "0x1A07BE0", Offset = "0x1A061E0", VA = "0x181A07BE0", Slot = "7")]
+		[Token(Token = "0x6001F3E")]
+		[Address(RVA = "0x5399F60", Offset = "0x5398F60", VA = "0x5399F60", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000405")]
+	[Token(Token = "0x17000404")]
 	public object[] Args
 	{
-		[Token(Token = "0x6001F69")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
+		[Token(Token = "0x6001F3F")]
+		[Address(RVA = "0x5399F80", Offset = "0x5398F80", VA = "0x5399F80", Slot = "8")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000405")]
+	public LogicalCallContext LogicalCallContext
+	{
+		[Token(Token = "0x6001F40")]
+		[Address(RVA = "0x5399F90", Offset = "0x5398F90", VA = "0x5399F90", Slot = "9")]
 		get
 		{
 			return null;
@@ -91,10 +102,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x17000406")]
-	public LogicalCallContext LogicalCallContext
+	public MethodBase MethodBase
 	{
-		[Token(Token = "0x6001F6A")]
-		[Address(RVA = "0x1A07C00", Offset = "0x1A06200", VA = "0x181A07C00", Slot = "9")]
+		[Token(Token = "0x6001F41")]
+		[Address(RVA = "0x539A010", Offset = "0x5399010", VA = "0x539A010", Slot = "10")]
 		get
 		{
 			return null;
@@ -102,10 +113,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x17000407")]
-	public MethodBase MethodBase
+	public string MethodName
 	{
-		[Token(Token = "0x6001F6B")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "10")]
+		[Token(Token = "0x6001F42")]
+		[Address(RVA = "0x539A020", Offset = "0x5399020", VA = "0x539A020", Slot = "11")]
 		get
 		{
 			return null;
@@ -113,10 +124,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x17000408")]
-	public string MethodName
+	public object MethodSignature
 	{
-		[Token(Token = "0x6001F6C")]
-		[Address(RVA = "0x1A07C70", Offset = "0x1A06270", VA = "0x181A07C70", Slot = "11")]
+		[Token(Token = "0x6001F43")]
+		[Address(RVA = "0x539A080", Offset = "0x5399080", VA = "0x539A080", Slot = "12")]
 		get
 		{
 			return null;
@@ -124,10 +135,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x17000409")]
-	public object MethodSignature
+	public virtual IDictionary Properties
 	{
-		[Token(Token = "0x6001F6D")]
-		[Address(RVA = "0x1A07CD0", Offset = "0x1A062D0", VA = "0x181A07CD0", Slot = "12")]
+		[Token(Token = "0x6001F44")]
+		[Address(RVA = "0x539A1E0", Offset = "0x53991E0", VA = "0x539A1E0", Slot = "21")]
 		get
 		{
 			return null;
@@ -135,10 +146,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x1700040A")]
-	public virtual IDictionary Properties
+	public string TypeName
 	{
-		[Token(Token = "0x6001F6E")]
-		[Address(RVA = "0x1A07EF0", Offset = "0x1A064F0", VA = "0x181A07EF0", Slot = "21")]
+		[Token(Token = "0x6001F45")]
+		[Address(RVA = "0x539A260", Offset = "0x5399260", VA = "0x539A260", Slot = "13")]
 		get
 		{
 			return null;
@@ -146,53 +157,53 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x1700040B")]
-	public string TypeName
+	public string Uri
 	{
-		[Token(Token = "0x6001F6F")]
-		[Address(RVA = "0x1A07F60", Offset = "0x1A06560", VA = "0x181A07F60", Slot = "13")]
+		[Token(Token = "0x6001F46")]
+		[Address(RVA = "0x539A2E0", Offset = "0x53992E0", VA = "0x539A2E0", Slot = "14")]
 		get
 		{
 			return null;
+		}
+		[Token(Token = "0x6001F47")]
+		[Address(RVA = "0x539A2F0", Offset = "0x53992F0", VA = "0x539A2F0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700040C")]
-	public string Uri
+	private string System_002ERuntime_002ERemoting_002EMessaging_002EIInternalMessage_002EUri
 	{
-		[Token(Token = "0x6001F70")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "14")]
+		[Token(Token = "0x6001F48")]
+		[Address(RVA = "0x539A300", Offset = "0x5399300", VA = "0x539A300", Slot = "19")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001F71")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Token(Token = "0x6001F49")]
+		[Address(RVA = "0x539A310", Offset = "0x5399310", VA = "0x539A310", Slot = "20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700040D")]
-	private string System_002ERuntime_002ERemoting_002EMessaging_002EIInternalMessage_002EUri
+	public Exception Exception
 	{
-		[Token(Token = "0x6001F72")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "19")]
+		[Token(Token = "0x6001F4B")]
+		[Address(RVA = "0x539A350", Offset = "0x5399350", VA = "0x539A350", Slot = "4")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001F73")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00", Slot = "20")]
-		set
-		{
-		}
 	}
 
 	[Token(Token = "0x1700040E")]
-	public Exception Exception
+	public object[] OutArgs
 	{
-		[Token(Token = "0x6001F75")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "4")]
+		[Token(Token = "0x6001F4C")]
+		[Address(RVA = "0x539A360", Offset = "0x5399360", VA = "0x539A360", Slot = "5")]
 		get
 		{
 			return null;
@@ -200,10 +211,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x1700040F")]
-	public object[] OutArgs
+	public virtual object ReturnValue
 	{
-		[Token(Token = "0x6001F76")]
-		[Address(RVA = "0x1A07E30", Offset = "0x1A06430", VA = "0x181A07E30", Slot = "5")]
+		[Token(Token = "0x6001F4D")]
+		[Address(RVA = "0x539A420", Offset = "0x5399420", VA = "0x539A420", Slot = "22")]
 		get
 		{
 			return null;
@@ -211,46 +222,35 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, Sys
 	}
 
 	[Token(Token = "0x17000410")]
-	public virtual object ReturnValue
-	{
-		[Token(Token = "0x6001F77")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "22")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000411")]
 	private System.Runtime.Remoting.Identity System_002ERuntime_002ERemoting_002EMessaging_002EIInternalMessage_002ETargetIdentity
 	{
-		[Token(Token = "0x6001F78")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0", Slot = "17")]
+		[Token(Token = "0x6001F4E")]
+		[Address(RVA = "0x539A430", Offset = "0x5399430", VA = "0x539A430", Slot = "17")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001F79")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790", Slot = "18")]
+		[Token(Token = "0x6001F4F")]
+		[Address(RVA = "0x539A440", Offset = "0x5399440", VA = "0x539A440", Slot = "18")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001F66")]
-	[Address(RVA = "0x1A07AE0", Offset = "0x1A060E0", VA = "0x181A07AE0")]
+	[Token(Token = "0x6001F3C")]
+	[Address(RVA = "0x537C1A0", Offset = "0x537B1A0", VA = "0x537C1A0")]
 	public ReturnMessage(object ret, object[] outArgs, int outArgsCount, LogicalCallContext callCtx, IMethodCallMessage mcm)
 	{
 	}
 
-	[Token(Token = "0x6001F67")]
-	[Address(RVA = "0x1A07A00", Offset = "0x1A06000", VA = "0x181A07A00")]
+	[Token(Token = "0x6001F3D")]
+	[Address(RVA = "0x537C020", Offset = "0x537B020", VA = "0x537C020")]
 	public ReturnMessage(Exception e, IMethodCallMessage mcm)
 	{
 	}
 
-	[Token(Token = "0x6001F74")]
-	[Address(RVA = "0x1A079D0", Offset = "0x1A05FD0", VA = "0x181A079D0", Slot = "15")]
+	[Token(Token = "0x6001F4A")]
+	[Address(RVA = "0x539A320", Offset = "0x5399320", VA = "0x539A320", Slot = "15")]
 	public object GetArg(int argNum)
 	{
 		return null;

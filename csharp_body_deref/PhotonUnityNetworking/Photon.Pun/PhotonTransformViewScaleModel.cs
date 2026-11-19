@@ -42,7 +42,7 @@ public class PhotonTransformViewScaleModel
 	public float InterpolateLerpSpeed;
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x1D668C0", Offset = "0x1D64EC0", VA = "0x181D668C0")]
+	[Address(RVA = "0x56FF6E0", Offset = "0x56FE6E0", VA = "0x56FF6E0")]
 	public PhotonTransformViewScaleModel()
 	{
 	}

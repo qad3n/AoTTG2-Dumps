@@ -1,5 +1,5 @@
 // Type: UI.CategoryPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/CategoryPanel.cs
@@ -8,7 +8,7 @@
 
 // UI.CategoryPanel$$GetWidth
 // il2cpp: float UI_CategoryPanel__GetWidth (UI_CategoryPanel_o* __this, const MethodInfo* method);
-// 0x1821bc8f0
+// 0x5cb8300
 
 float UI_CategoryPanel__GetWidth(UI_CategoryPanel_o *__this,MethodInfo *method)
 
@@ -17,44 +17,43 @@ float UI_CategoryPanel__GetWidth(UI_CategoryPanel_o *__this,MethodInfo *method)
   float fVar2;
   
   pUVar1 = (__this->fields).Parent;
-  if (pUVar1 != (UI_BasePanel_o *)0x0) {
-    fVar2 = (*(pUVar1->klass->vtable)._30_GetPanelWidth.methodPtr)
-                      (pUVar1,(pUVar1->klass->vtable)._30_GetPanelWidth.method);
-    return fVar2;
+  if (pUVar1 == (UI_BasePanel_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  fVar2 = (*(pUVar1->klass->vtable)._30_GetPanelWidth.methodPtr)
+                    (pUVar1,(pUVar1->klass->vtable)._30_GetPanelWidth.method);
+  return fVar2;
 }
 
 
 // UI.CategoryPanel$$GetHeight
 // il2cpp: float UI_CategoryPanel__GetHeight (UI_CategoryPanel_o* __this, const MethodInfo* method);
-// 0x1821bc8c0
+// 0x5cb8330
 
 float UI_CategoryPanel__GetHeight(UI_CategoryPanel_o *__this,MethodInfo *method)
 
 {
   UI_BasePanel_o *pUVar1;
-  Unity_VisualScripting_IGraph_o *pUVar2;
+  float fVar2;
   
   pUVar1 = (__this->fields).Parent;
-  if (pUVar1 != (UI_BasePanel_o *)0x0) {
-    pUVar2._0_4_ = (*(pUVar1->klass->vtable)._31_GetPanelHeight.methodPtr)
-                             (pUVar1,(pUVar1->klass->vtable)._31_GetPanelHeight.method);
-    return (float)pUVar2._0_4_;
+  if (pUVar1 == (UI_BasePanel_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  fVar2 = (*(pUVar1->klass->vtable)._31_GetPanelHeight.methodPtr)
+                    (pUVar1,(pUVar1->klass->vtable)._31_GetPanelHeight.method);
+  return fVar2;
 }
 
 
 // UI.CategoryPanel$$.ctor
 // il2cpp: void UI_CategoryPanel___ctor (UI_CategoryPanel_o* __this, const MethodInfo* method);
-// 0x1821bc920
+// 0x5cb8360
 
-void
-UI_CategoryPanel___ctor(UI_CategoryPanel_o* __this, MethodInfo* method)
+void UI_CategoryPanel___ctor(UI_CategoryPanel_o *__this,MethodInfo *method)
 
 {
-  UI_BasePanel___ctor((UI_BasePanel_o *)__this,(MethodInfo *)0x0);
+  UI_BasePanel___ctor((UI_SimplePanel_o *)__this,method);
   return;
 }
 

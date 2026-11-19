@@ -1,69 +1,67 @@
 // Type: Weather.WeatherManager
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Weather/WeatherManager.cs
 // Prior real C# source (older reference): Assets/Scripts/Weather/WeatherManager.cs
 // --------------------------------
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$.ctor
-// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__31___ctor (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$.ctor
+// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__35___ctor (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x585ed00
 
-void
-Weather_WeatherManager__UpdateReflectionTexture_d__31___ctor(Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, int32_t __1__state, MethodInfo* method)
+void Weather_WeatherManager__UpdateReflectionTexture_d__35___ctor
+               (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$System.IDisposable.Dispose
-// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__31__System_IDisposable_Dispose (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, const MethodInfo* method);
-// 0x180547020
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$System.IDisposable.Dispose
+// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__35__System_IDisposable_Dispose (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, const MethodInfo* method);
+// 0x585ed20
 
-void
-Weather_WeatherManager__UpdateReflectionTexture_d__31__System_IDisposable_Dispose(Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, MethodInfo* method)
+void Weather_WeatherManager__UpdateReflectionTexture_d__35__System_IDisposable_Dispose
+               (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$MoveNext
-// il2cpp: bool Weather_WeatherManager__UpdateReflectionTexture_d__31__MoveNext (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, const MethodInfo* method);
-// 0x181dd0680
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$MoveNext
+// il2cpp: bool Weather_WeatherManager__UpdateReflectionTexture_d__35__MoveNext (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, const MethodInfo* method);
+// 0x585ed30
 
-bool Weather_WeatherManager__UpdateReflectionTexture_d__31__MoveNext
-               (Weather_WeatherManager__UpdateReflectionTexture_d__31_o *__this,MethodInfo *method)
+bool Weather_WeatherManager__UpdateReflectionTexture_d__35__MoveNext
+               (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,MethodInfo *method)
 
 {
   int iVar1;
   Weather_WeatherManager_o *pWVar2;
   UnityEngine_ReflectionProbe_o *__this_00;
-  Il2CppObject *__this_01;
   UnityEngine_Texture_o *value;
+  Il2CppObject *__this_01;
   
-  if (Il2CppMethodInitialized_18434494c == '\0') {
+  if (Il2CppMethodInitialized_075450a6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
-    Il2CppMethodInitialized_18434494c = '\x01';
+    Il2CppMethodInitialized_075450a6 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
   if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
     __this_01 = (Il2CppObject *)
                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_01,(MethodInfo *)0x0);
+    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)__this_01,(MethodInfo *)0x0);
     (__this->fields).__2__current = __this_01;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
     (__this->fields).__1__state = 1;
-    return true;
   }
-  if (iVar1 == 1) {
+  else if (iVar1 == 1) {
     pWVar2 = (__this->fields).__4__this;
     (__this->fields).__1__state = -1;
     if ((pWVar2 == (Weather_WeatherManager_o *)0x0) ||
@@ -73,28 +71,29 @@ bool Weather_WeatherManager__UpdateReflectionTexture_d__31__MoveNext
     value = UnityEngine_ReflectionProbe__get_texture(__this_00,(MethodInfo *)0x0);
     UnityEngine_RenderSettings__set_customReflectionTexture(value,(MethodInfo *)0x0);
   }
-  return false;
+  return iVar1 == 0;
 }
 
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, const MethodInfo* method);
+// 0x585ede0
 
-Il2CppObject*
-Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current(Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$System.Collections.IEnumerator.Reset
-// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_IEnumerator_Reset (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, const MethodInfo* method);
-// 0x181dd0740
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$System.Collections.IEnumerator.Reset
+// il2cpp: void Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_IEnumerator_Reset (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, const MethodInfo* method);
+// 0x585edf0
 
-void Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_IEnumerator_Reset
-               (Weather_WeatherManager__UpdateReflectionTexture_d__31_o *__this,MethodInfo *method)
+void Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_IEnumerator_Reset
+               (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -107,110 +106,101 @@ void Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_I
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_Weather_WeatherManager_UpdateReflectionTexture_d__31_System_Collections_IEnumerator_Reset
+                  MethodInfo_Weather_WeatherManager_UpdateReflectionTexture_d__35_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// Weather.WeatherManager.<UpdateReflectionTexture>d__31$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<UpdateReflectionTexture>d__35$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__UpdateReflectionTexture_d__35_o* __this, const MethodInfo* method);
+// 0x585ee30
 
-Il2CppObject*
-Weather_WeatherManager__UpdateReflectionTexture_d__31__System_Collections_IEnumerator_get_Current(Weather_WeatherManager__UpdateReflectionTexture_d__31_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__UpdateReflectionTexture_d__35__System_Collections_IEnumerator_get_Current
+          (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$.ctor
-// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__52___ctor (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$.ctor
+// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__57___ctor (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x585ee40
 
-void
-Weather_WeatherManager__WaitAndApplySkybox_d__52___ctor(Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, int32_t __1__state, MethodInfo* method)
+void Weather_WeatherManager__WaitAndApplySkybox_d__57___ctor
+               (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$System.IDisposable.Dispose
-// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__52__System_IDisposable_Dispose (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, const MethodInfo* method);
-// 0x180547020
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$System.IDisposable.Dispose
+// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__57__System_IDisposable_Dispose (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, const MethodInfo* method);
+// 0x585ee60
 
-void
-Weather_WeatherManager__WaitAndApplySkybox_d__52__System_IDisposable_Dispose(Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, MethodInfo* method)
+void Weather_WeatherManager__WaitAndApplySkybox_d__57__System_IDisposable_Dispose
+               (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$MoveNext
-// il2cpp: bool Weather_WeatherManager__WaitAndApplySkybox_d__52__MoveNext (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, const MethodInfo* method);
-// 0x181dd0780
-// eh: try 0x181dd0bc0..0x181dd0c60 -> pad 0x183317f30 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181dd0bbe: nop 
-// asm:   0x181dd0c20: mov rdx, qword ptr [rip + 0x22a7589]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Camera_Dispose
-// asm:   0x181dd0c27: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181dd0c2c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181dd0c31: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181dd0c36: test rcx, rcx
-// asm:   0x181dd0c39: jne 0x181dd0c60
-// asm:   0x181dd0c60: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317f35: push rbp
-// asm:   0x183317f36: sub rsp, 0x20
-// asm:   0x183317f3a: mov rbp, rdx
-// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183317f41: mov rcx, qword ptr [rax]
-// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317f48: movabs rax, 0
-// asm:   0x183317f52: add rsp, 0x20
-// asm:   0x183317f56: pop rbp
-// asm:   0x183317f57: ret 
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$MoveNext
+// il2cpp: bool Weather_WeatherManager__WaitAndApplySkybox_d__57__MoveNext (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, const MethodInfo* method);
+// 0x585ee70
+// eh: try 0x585f154..0x585f1a4 -> pad 0x585f1b5 (+6 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x585f1cc..0x585f1d1 -> pad 0x585f1ed cleanup
+// eh: try 0x585f1f0..0x585f1f8 -> pad 0x585f200 catch (...) [compiler noexcept guard]
+// asm: 21 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585f1a9: jmp 0x585f1b5
+// asm:   0x585f1ab: jmp 0x585f1b5
+// asm:   0x585f1ad: jmp 0x585f1b5
+// asm:   0x585f1af: jmp 0x585f1b5
+// asm:   0x585f1b1: jmp 0x585f1b5
+// asm:   0x585f1b3: jmp 0x585f1b5
+// asm:   0x585f1b5: mov rbx, rax
+// asm:   0x585f1b8: cmp edx, 1
+// asm:   0x585f1bb: jne 0x585f1f0
+// asm:   0x585f1bd: mov rdi, rbx
+// asm:   0x585f1c0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585f1c5: mov rax, qword ptr [rax]
+// asm:   0x585f1c8: mov qword ptr [rsp], rax
+// asm:   0x585f1cc: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585f1ed: mov rbx, rax
+// asm:   0x585f1f0: mov rdi, rsp
+// asm:   0x585f1f3: call 0x2fceaa0  ; il2cpp_runtime_helper_02fceaa0()
+// asm:   0x585f1f8: mov rdi, rbx
+// asm:   0x585f1fb: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585f200: mov rdi, rax
+// asm:   0x585f203: call 0x2ab61e0  ; __clang_call_terminate()
 
-bool Weather_WeatherManager__WaitAndApplySkybox_d__52__MoveNext
-               (Weather_WeatherManager__WaitAndApplySkybox_d__52_o *__this,MethodInfo *method)
+bool Weather_WeatherManager__WaitAndApplySkybox_d__57__MoveNext
+               (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,MethodInfo *method)
 
 {
   int iVar1;
   Weather_WeatherManager_o *__this_00;
-  Weather_WeatherManager_o *pWVar2;
-  Settings_WeatherSet_o *pSVar3;
-  Settings_StringSetting_o *pSVar4;
-  Settings_StringSetting_o *pSVar5;
   System_Collections_Generic_Dictionary_object__object__o *__this_01;
-  Cameras_BaseCamera_o *pCVar6;
-  Settings_ColorSetting_o *pSVar7;
-  Utility_Color255_o *__this_02;
-  Weather_WeatherManager_StaticFields *pWVar8;
-  System_Collections_Generic_List_Camera__o *__this_03;
-  System_String_o *name;
-  bool bVar9;
+  Cameras_BaseCamera_o *pCVar2;
+  System_Collections_Generic_List_Camera__o *__this_02;
+  bool bVar3;
+  UnityEngine_Material_o *__this_03;
   Il2CppObject *__this_04;
-  UnityEngine_Material_o *__this_05;
-  UnityEngine_Material_o *pUVar10;
-  UnityEngine_Color_o *pUVar11;
-  UnityEngine_GameObject_o *__this_06;
-  UnityEngine_Skybox_o *pUVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  undefined1 local_48 [8];
-  undefined8 uStack_40;
-  UnityEngine_Component_o *local_38;
-  System_Collections_Generic_List_Enumerator_object__o local_28;
+  UnityEngine_Material_o *pUVar4;
+  UnityEngine_GameObject_o *__this_05;
+  UnityEngine_Skybox_o *pUVar5;
+  undefined8 uStack_58;
+  System_Collections_Generic_List_Enumerator_T__o *pSStack_50;
+  System_Collections_Generic_List_Enumerator_T__o SStack_48;
   
-  if (Il2CppMethodInitialized_18434494d == '\0') {
+  if (Il2CppMethodInitialized_075450a7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
@@ -226,208 +216,143 @@ bool Weather_WeatherManager__WaitAndApplySkybox_d__52__MoveNext
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinLoader);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&"CaveMap1");
-    il2cpp_codegen_initialize_runtime_metadata(&"Day1");
     il2cpp_codegen_initialize_runtime_metadata(&"_Tint");
-    Il2CppMethodInitialized_18434494d = '\x01';
+    Il2CppMethodInitialized_075450a7 = '\x01';
   }
-  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
+  SStack_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  SStack_48.fields._index = 0;
+  SStack_48.fields._version = 0;
+  SStack_48.fields._current = (Il2CppObject *)0x0;
   iVar1 = (__this->fields).__1__state;
   if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
     __this_04 = (Il2CppObject *)
                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_04,(MethodInfo *)0x0);
+    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)__this_04,(MethodInfo *)0x0);
     (__this->fields).__2__current = __this_04;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_04);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
     (__this->fields).__1__state = 1;
-    return true;
   }
-  if (iVar1 != 1) {
-    return false;
-  }
-  __this_00 = (__this->fields).__4__this;
-  (__this->fields).__1__state = -1;
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-  }
-  pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar2 != (Weather_WeatherManager_o *)0x0) {
-    if ((pWVar2->fields)._isCaveMap == false) {
-      if (__this_00 == (Weather_WeatherManager_o *)0x0) goto label_181dd0c66;
-      bVar9 = Weather_WeatherManager__IsWeatherEnabled(__this_00,(MethodInfo *)0x0);
-      if (bVar9) {
-        pSVar3 = (__this_00->fields)._currentWeather;
-        if ((((pSVar3 == (Settings_WeatherSet_o *)0x0) ||
-             (pSVar4 = (pSVar3->fields).Skybox, pSVar4 == (Settings_StringSetting_o *)0x0)) ||
-            (pSVar3 = (__this_00->fields)._targetWeather, pSVar3 == (Settings_WeatherSet_o *)0x0)) ||
-           (pSVar5 = (pSVar3->fields).Skybox, pSVar5 == (Settings_StringSetting_o *)0x0)) goto label_181dd0c66;
-        __this_05 = Weather_WeatherManager__GetBlendedSkybox
-                              (__this_00,(pSVar4->fields)._value,(pSVar5->fields)._value,(MethodInfo *)0x0);
+  else if (iVar1 == 1) {
+    __this_00 = (__this->fields).__4__this;
+    (__this->fields).__1__state = -1;
+    if (__this_00 != (Weather_WeatherManager_o *)0x0) {
+      if ((__this_00->fields)._isCaveMap == false) {
+        __this_03 = Weather_WeatherManager__GetBlendedSkybox
+                              (__this_00,(__this->fields).skybox1,(__this->fields).skybox2,(MethodInfo *)0x0);
       }
       else {
-        __this_05 = Weather_WeatherManager__GetBlendedSkybox
-                              (__this_00,"Day1","Day1",(MethodInfo *)0x0);
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
+                    TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+        if (__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_0585f1a4;
+        __this_03 = System_Collections_Generic_Dictionary_object__object___get_Item
+                              (__this_01,(Il2CppObject *)"CaveMap1",
+                               (MethodInfo_4AAD450 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
       }
-    }
-    else {
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
-                  TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
-      if (__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181dd0c66;
-      __this_05 = System_Collections_Generic_Dictionary_object__object___get_Item
-                            (__this_01,(Il2CppObject *)"CaveMap1",
-                             (MethodInfo_147A5B0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
-    }
-    pCVar6 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
-    if (pCVar6 != (Cameras_BaseCamera_o *)0x0) {
-      pUVar12 = (pCVar6->fields).Skybox;
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar9 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)__this_05,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar9) {
-        if (pUVar12 == (UnityEngine_Skybox_o *)0x0) goto label_181dd0c66;
-        pUVar10 = UnityEngine_Skybox__get_material(pUVar12,(MethodInfo *)0x0);
+      pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+      if (pCVar2 != (Cameras_BaseCamera_o *)0x0) {
+        pUVar5 = (pCVar2->fields).Skybox;
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar9 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pUVar10,(UnityEngine_Object_o *)__this_05,(MethodInfo *)0x0
-                          );
-        if (bVar9) {
-          pUVar10 = TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial;
+        bVar3 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)__this_03,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar3) {
+          if (pUVar5 == (UnityEngine_Skybox_o *)0x0) goto label_0585f1a4;
+          pUVar4 = UnityEngine_Skybox__get_material(pUVar5,(MethodInfo *)0x0);
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          bVar9 = UnityEngine_Object__op_Equality
-                            ((UnityEngine_Object_o *)pUVar10,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if (bVar9) {
-            if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+          bVar3 = UnityEngine_Object__op_Inequality
+                            ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)__this_03,
+                             (MethodInfo *)0x0);
+          if (bVar3) {
+            pUVar4 = TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial;
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
             }
-            pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-            if ((pWVar2 != (Weather_WeatherManager_o *)0x0) && (__this_00 != (Weather_WeatherManager_o *)0x0))
-            {
-              if ((pWVar2->fields)._isCaveMap == false) {
-                bVar9 = Weather_WeatherManager__IsWeatherEnabled(__this_00,(MethodInfo *)0x0);
-                name = "_Tint";
-                if (bVar9) {
-                  pSVar3 = (__this_00->fields)._currentWeather;
-                  if (((pSVar3 == (Settings_WeatherSet_o *)0x0) ||
-                      (pSVar7 = (pSVar3->fields).SkyboxColor, pSVar7 == (Settings_ColorSetting_o *)0x0)) ||
-                     (__this_02 = (pSVar7->fields)._value, __this_02 == (Utility_Color255_o *)0x0))
-                  goto label_181dd0c66;
-                  pUVar11 = Utility_Color255__ToColor
-                                      ((UnityEngine_Color_o *)local_48,__this_02,(MethodInfo *)0x0);
-                  fVar13 = (pUVar11->fields).r;
-                  fVar14 = (pUVar11->fields).g;
-                  fVar15 = (pUVar11->fields).b;
-                  fVar16 = (pUVar11->fields).a;
-                }
-                else {
-                  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-                  }
-                  pWVar8 = TypeInfo_Weather_WeatherManager->static_fields;
-                  fVar13 = (pWVar8->DefaultSkyboxTint).fields.r;
-                  fVar14 = (pWVar8->DefaultSkyboxTint).fields.g;
-                  fVar15 = (pWVar8->DefaultSkyboxTint).fields.b;
-                  fVar16 = (pWVar8->DefaultSkyboxTint).fields.a;
-                }
-                if (__this_05 == (UnityEngine_Material_o *)0x0) goto label_181dd0c66;
-                local_48._4_4_ = fVar14;
-                local_48._0_4_ = fVar13;
-                uStack_40._4_4_ = (int32_t)fVar16;
-                uStack_40._0_4_ = (int32_t)fVar15;
-                UnityEngine_Material__SetVector
-                          (__this_05,name,(UnityEngine_Vector4_o *)local_48,(MethodInfo *)0x0);
+            bVar3 = UnityEngine_Object__op_Equality
+                              ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            if (bVar3) {
+              if ((__this_00->fields)._isCaveMap == false) {
+                if (__this_03 == (UnityEngine_Material_o *)0x0) goto label_0585f1a4;
+                UnityEngine_Material__SetColor
+                          (__this_03,"_Tint",(UnityEngine_Color_o)(__this->fields).tint.fields,
+                           (MethodInfo *)0x0);
               }
-              __this_03 = (__this_00->fields)._skyboxCameras;
-              if (__this_03 != (System_Collections_Generic_List_Camera__o *)0x0) {
-                System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                          ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
-                           (System_Collections_Generic_List_T__o *)__this_03,
-                           (MethodInfo_91F180 *)
-                           MethodInfo_System_Collections_Generic_List_Camera_GetEnumerator);
-                local_28.fields._list = (System_Collections_Generic_List_T__o *)local_48;
-                local_28.fields._index = (int32_t)uStack_40;
-                local_28.fields._version = uStack_40._4_4_;
-                local_28.fields._current = (Il2CppObject *)local_38;
-                local_48 = (undefined1  [8])0x0;
-                uStack_40 = &local_28;
-                while( true ) {
-                  bVar9 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                    (&local_28,
-                                     (MethodInfo_153A2A0 *)
-                                     MethodInfo_System_Collections_Generic_List_Enumerator_Camera_MoveNext);
-                  if (!bVar9) {
-                    System_Collections_Generic_List_Enumerator_object___Dispose
-                              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
-                               MethodInfo_System_Collections_Generic_List_Enumerator_Camera_Dispose);
-                    return false;
-                  }
-                  if ((UnityEngine_Component_o *)local_28.fields._current == (UnityEngine_Component_o *)0x0) {
-                    ThrowNullReferenceException();
-                  }
-                  __this_06 = UnityEngine_Component__get_gameObject
-                                        ((UnityEngine_Component_o *)local_28.fields._current,(MethodInfo *)0x0
-                                        );
-                  if (__this_06 == (UnityEngine_GameObject_o *)0x0) {
-                    ThrowNullReferenceException();
-                  }
-                  pUVar12 = UnityEngine_GameObject__GetComponentInChildren_object_
-                                      (__this_06,
-                                       (MethodInfo_6F5040 *)
-                                       MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Skybox);
-                  if (pUVar12 == (UnityEngine_Skybox_o *)0x0) break;
-                  UnityEngine_Skybox__set_material(pUVar12,__this_05,(MethodInfo *)0x0);
+              __this_02 = (__this_00->fields)._skyboxCameras;
+              if (__this_02 == (System_Collections_Generic_List_Camera__o *)0x0) goto label_0585f1a4;
+              System_Collections_Generic_List_object___GetEnumerator
+                        (&SStack_48,(System_Collections_Generic_List_object__o *)__this_02,
+                         (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Camera_GetEnumerator
+                        );
+              uStack_58 = 0;
+              pSStack_50 = &SStack_48;
+              while( true ) {
+                bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                  ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_48,
+                                   (MethodInfo_4C45C50 *)
+                                   MethodInfo_System_Collections_Generic_List_Enumerator_Camera_MoveNext);
+                if (!bVar3) break;
+                if ((UnityEngine_Component_o *)SStack_48.fields._current == (UnityEngine_Component_o *)0x0) {
+                  ThrowNullReferenceException();
                 }
-                ThrowNullReferenceException();
+                __this_05 = UnityEngine_Component__get_gameObject
+                                      ((UnityEngine_Component_o *)SStack_48.fields._current,(MethodInfo *)0x0)
+                ;
+                if (__this_05 == (UnityEngine_GameObject_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                pUVar5 = UnityEngine_GameObject__GetComponentInChildren_object_
+                                   (__this_05,
+                                    (MethodInfo_353B8D0 *)
+                                    MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Skybox);
+                if (pUVar5 == (UnityEngine_Skybox_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                UnityEngine_Skybox__set_material(pUVar5,__this_03,(MethodInfo *)0x0);
               }
+              il2cpp_runtime_helper_02fceaa0(&uStack_58);
             }
-            goto label_181dd0c66;
           }
         }
+        goto label_0585f1d9;
       }
-      return false;
     }
+label_0585f1a4:
+    ThrowNullReferenceException();
   }
-label_181dd0c66:
-  ThrowNullReferenceException();
+label_0585f1d9:
+  return iVar1 == 0;
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, const MethodInfo* method);
+// 0x585f210
 
-Il2CppObject*
-Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_Generic_IEnumerator_System_Object__get_Current(Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$System.Collections.IEnumerator.Reset
-// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_IEnumerator_Reset (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, const MethodInfo* method);
-// 0x181dd0c70
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$System.Collections.IEnumerator.Reset
+// il2cpp: void Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_IEnumerator_Reset (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, const MethodInfo* method);
+// 0x585f220
 
-void Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_IEnumerator_Reset
-               (Weather_WeatherManager__WaitAndApplySkybox_d__52_o *__this,MethodInfo *method)
+void Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_IEnumerator_Reset
+               (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -440,151 +365,148 @@ void Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_IEnume
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_Weather_WeatherManager_WaitAndApplySkybox_d__52_System_Collections_IEnumerator_Reset
+                  MethodInfo_Weather_WeatherManager_WaitAndApplySkybox_d__57_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// Weather.WeatherManager.<WaitAndApplySkybox>d__52$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<WaitAndApplySkybox>d__57$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__WaitAndApplySkybox_d__57_o* __this, const MethodInfo* method);
+// 0x585f260
 
-Il2CppObject*
-Weather_WeatherManager__WaitAndApplySkybox_d__52__System_Collections_IEnumerator_get_Current(Weather_WeatherManager__WaitAndApplySkybox_d__52_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__WaitAndApplySkybox_d__57__System_Collections_IEnumerator_get_Current
+          (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$.ctor
-// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55___ctor (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$.ctor
+// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61___ctor (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x585f270
 
-void
-Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55___ctor(Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, int32_t __1__state, MethodInfo* method)
+void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61___ctor
+               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$System.IDisposable.Dispose
-// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_IDisposable_Dispose (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, const MethodInfo* method);
-// 0x180547020
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$System.IDisposable.Dispose
+// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_IDisposable_Dispose (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, const MethodInfo* method);
+// 0x585f290
 
-void
-Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_IDisposable_Dispose(Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, MethodInfo* method)
+void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_IDisposable_Dispose
+               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$MoveNext
-// il2cpp: bool Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__MoveNext (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, const MethodInfo* method);
-// 0x181dd0cb0
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$MoveNext
+// il2cpp: bool Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__MoveNext (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, const MethodInfo* method);
+// 0x585f2a0
 
-bool Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__MoveNext
-               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *__this,MethodInfo *method)
+bool Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__MoveNext
+               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,MethodInfo *method)
 
 {
   Weather_WeatherManager_o *__this_00;
   Settings_WeatherSet_o *pSVar1;
   Utility_Algorithms_CompressionAlgorithm_o *pUVar2;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o *pSVar3;
   
-  if (Il2CppMethodInitialized_18434494e == '\0') {
+  if (Il2CppMethodInitialized_075450a8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_DataCompressors);
-    Il2CppMethodInitialized_18434494e = '\x01';
+    Il2CppMethodInitialized_075450a8 = '\x01';
   }
-  if ((uint)(__this->fields).__1__state < 2) {
-    __this_00 = (__this->fields).__4__this;
-    (__this->fields).__1__state = -1;
-    if (__this_00 != (Weather_WeatherManager_o *)0x0) {
-      if ((__this_00->fields)._finishedLoading == false) {
-        (__this->fields).__2__current = (Il2CppObject *)0x0;
-        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
-        (__this->fields).__1__state = 1;
-        return true;
-      }
-      pSVar1 = (__this_00->fields)._currentWeather;
-      if ((TypeInfo_Utility_DataCompressors->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_DataCompressors);
-      }
+  if (1 < (uint)(__this->fields).__1__state) {
+    return false;
+  }
+  __this_00 = (__this->fields).__4__this;
+  (__this->fields).__1__state = -1;
+  if (__this_00 != (Weather_WeatherManager_o *)0x0) {
+    if ((__this_00->fields)._finishedLoading == false) {
+      (__this->fields).__2__current = (Il2CppObject *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+      (__this->fields).__1__state = 1;
+      return true;
+    }
+    pSVar1 = (__this_00->fields)._currentWeather;
+    if ((TypeInfo_Utility_DataCompressors->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_DataCompressors);
+    }
+    pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
+             TypeInfo_Utility_DataCompressors->static_fields->Brotli;
+    if ((pUVar2 != (Utility_Algorithms_CompressionAlgorithm_o *)0x0) &&
+       (pSVar3 = Utility_Algorithms_CompressionAlgorithm__DecompressString
+                           (pUVar2,(__this->fields).currentWeatherJson,0x1000,0xa00000,(MethodInfo *)0x0),
+       pSVar1 != (Settings_WeatherSet_o *)0x0)) {
+      (*(pSVar1->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
+                (pSVar1,pSVar3,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
       pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
                TypeInfo_Utility_DataCompressors->static_fields->Brotli;
       if (pUVar2 != (Utility_Algorithms_CompressionAlgorithm_o *)0x0) {
-        pSVar4 = Utility_Algorithms_CompressionAlgorithm__DecompressString
-                           (pUVar2,(__this->fields).currentWeatherJson,0x1000,0xa00000,(MethodInfo *)0x0);
+        pSVar1 = (__this_00->fields)._startWeather;
+        pSVar3 = Utility_Algorithms_CompressionAlgorithm__DecompressString
+                           (pUVar2,(__this->fields).startWeatherJson,0x1000,0xa00000,(MethodInfo *)0x0);
         if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
           (*(pSVar1->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
-                    (pSVar1,pSVar4,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
+                    (pSVar1,pSVar3,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
           pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
                    TypeInfo_Utility_DataCompressors->static_fields->Brotli;
           if (pUVar2 != (Utility_Algorithms_CompressionAlgorithm_o *)0x0) {
-            pSVar1 = (__this_00->fields)._startWeather;
-            pSVar4 = Utility_Algorithms_CompressionAlgorithm__DecompressString
-                               (pUVar2,(__this->fields).startWeatherJson,0x1000,0xa00000,(MethodInfo *)0x0);
+            pSVar1 = (__this_00->fields)._targetWeather;
+            pSVar3 = Utility_Algorithms_CompressionAlgorithm__DecompressString
+                               (pUVar2,(__this->fields).targetWeatherJson,0x1000,0xa00000,(MethodInfo *)0x0);
             if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
               (*(pSVar1->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
-                        (pSVar1,pSVar4,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
-              pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
-                       TypeInfo_Utility_DataCompressors->static_fields->Brotli;
-              if (pUVar2 != (Utility_Algorithms_CompressionAlgorithm_o *)0x0) {
-                pSVar1 = (__this_00->fields)._targetWeather;
-                pSVar4 = Utility_Algorithms_CompressionAlgorithm__DecompressString
-                                   (pUVar2,(__this->fields).targetWeatherJson,0x1000,0xa00000,
-                                    (MethodInfo *)0x0);
-                if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
-                  (*(pSVar1->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
-                            (pSVar1,pSVar4,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
-                  pSVar3 = (__this->fields).targetWeatherStartTimes;
-                  (__this_00->fields)._targetWeatherStartTimes = pSVar3;
-                  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._targetWeatherStartTimes,pSVar3);
-                  pSVar3 = (__this->fields).targetWeatherEndTimes;
-                  (__this_00->fields)._targetWeatherEndTimes = pSVar3;
-                  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._targetWeatherEndTimes,pSVar3);
-                  (__this_00->fields)._currentTime = (__this->fields).currentTime;
-                  Weather_WeatherManager__LerpCurrentWeatherToTarget(__this_00,(MethodInfo *)0x0);
-                  Weather_WeatherManager__ApplyCurrentWeather(__this_00,false,true,(MethodInfo *)0x0);
-                  return false;
-                }
-              }
+                        (pSVar1,pSVar3,(pSVar1->klass->vtable)._9_DeserializeFromJsonString.method);
+              (__this_00->fields)._targetWeatherStartTimes = (__this->fields).targetWeatherStartTimes;
+              Il2CppCodeGenWriteBarrier(&(__this_00->fields)._targetWeatherStartTimes);
+              (__this_00->fields)._targetWeatherEndTimes = (__this->fields).targetWeatherEndTimes;
+              Il2CppCodeGenWriteBarrier(&(__this_00->fields)._targetWeatherEndTimes);
+              (__this_00->fields)._currentTime = (__this->fields).currentTime;
+              Weather_WeatherManager__LerpCurrentWeatherToTarget(__this_00,(MethodInfo *)0x0);
+              Weather_WeatherManager__ApplyCurrentWeather(__this_00,false,true,(MethodInfo *)0x0);
+              return false;
             }
           }
         }
       }
     }
-    ThrowNullReferenceException();
   }
-  return false;
+  ThrowNullReferenceException();
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_Generic_IEnumerator_System_Object__get_Current (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, const MethodInfo* method);
+// 0x585f480
 
-Il2CppObject*
-Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_Generic_IEnumerator_System_Object__get_Current(Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$System.Collections.IEnumerator.Reset
-// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_IEnumerator_Reset (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, const MethodInfo* method);
-// 0x181dd0ec0
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$System.Collections.IEnumerator.Reset
+// il2cpp: void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_IEnumerator_Reset (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, const MethodInfo* method);
+// 0x585f490
 
-void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_IEnumerator_Reset
-               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *__this,MethodInfo *method)
+void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_IEnumerator_Reset
+               (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -597,18 +519,19 @@ void Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__55_System_Collections_IEnumerator_Reset
+                  MethodInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__61_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__55$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, const MethodInfo* method);
-// 0x180573e90
+// Weather.WeatherManager.<WaitAndFinishOnSetWeather>d__61$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_IEnumerator_get_Current (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o* __this, const MethodInfo* method);
+// 0x585f4d0
 
-Il2CppObject*
-Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_IEnumerator_get_Current(Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o* __this, MethodInfo* method)
+Il2CppObject *
+Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61__System_Collections_IEnumerator_get_Current
+          (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -617,104 +540,130 @@ Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55__System_Collections_IEnu
 
 // Weather.WeatherManager$$Init
 // il2cpp: void Weather_WeatherManager__Init (const MethodInfo* method);
-// 0x181db5930
+// 0x5858180
 
 void Weather_WeatherManager__Init(MethodInfo *method)
 
 {
-  Weather_WeatherManager_o *value;
-  Events_OnPreLoadScene_o *value_00;
+  Weather_WeatherManager_o *pWVar1;
+  Events_OnPreLoadScene_o *__this;
+  Weather_ThunderWeatherEffect_c *method_00;
   
-  if (Il2CppMethodInitialized_18434492b == '\0') {
+  if (Il2CppMethodInitialized_07545083 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Events_OnPreLoadScene);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Utility_SingletonFactory_CreateSingleton_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_ThunderWeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Weather_WeatherManager_OnPreLoadScene);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_18434492b = '\x01';
+    Il2CppMethodInitialized_07545083 = '\x01';
   }
   if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
   }
-  value = Utility_SingletonFactory__CreateSingleton_object_
-                    ((Il2CppObject *)TypeInfo_Weather_WeatherManager->static_fields->_instance,
-                     (MethodInfo_798ED0 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_WeatherManager);
-  TypeInfo_Weather_WeatherManager->static_fields->_instance = value;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherManager->static_fields->_instance,value);
+  pWVar1 = Utility_SingletonFactory__CreateSingleton_object_
+                     ((Il2CppObject *)TypeInfo_Weather_WeatherManager->static_fields->_instance,
+                      (MethodInfo_3680650 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_WeatherManager
+                     );
+  TypeInfo_Weather_WeatherManager->static_fields->_instance = pWVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherManager->static_fields->_instance);
+  method_00 = TypeInfo_Weather_ThunderWeatherEffect;
   if ((TypeInfo_Weather_ThunderWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_ThunderWeatherEffect);
   }
-  Weather_ThunderWeatherEffect__OnFinishInit((MethodInfo *)0x0);
-  Weather_WeatherManager__LoadSkyboxes((MethodInfo *)0x0);
-  value_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnPreLoadScene);
+  Weather_ThunderWeatherEffect__OnFinishInit((MethodInfo *)method_00);
+  Weather_WeatherManager__LoadSkyboxes((MethodInfo *)method_00);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnPreLoadScene);
   Events_OnPreLoadScene___ctor
-            ((UnityEngine_AudioClip_PCMSetPositionCallback_o *)value_00,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Weather_WeatherManager_OnPreLoadScene,(MethodInfo *)0x0);
-  Events_EventManager__add_OnPreLoadScene(value_00,(MethodInfo *)0x0);
+            (__this,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Weather_WeatherManager_OnPreLoadScene,
+             (MethodInfo *)0x0);
+  Events_EventManager__add_OnPreLoadScene(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.WeatherManager$$OnPreLoadScene
 // il2cpp: void Weather_WeatherManager__OnPreLoadScene (int32_t sceneName, const MethodInfo* method);
-// 0x181db6ec0
-// eh: try 0x181db7014..0x181db7201 -> pad 0x183318130 (+4 call sites) catch Il2CppExceptionWrapper
-// asm: 38 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db70c0: mov rdx, qword ptr [rip + 0x22d36e1]  ; MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_Dispose
-// asm:   0x181db70c7: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181db70cc: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db70d1: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181db70d6: test rcx, rcx
-// asm:   0x181db70d9: jne 0x181db71f6
-// asm:   0x181db70df: xor edi, edi
-// asm:   0x181db70e1: jmp 0x181db7014
-// asm:   0x181db70f9: mov rdx, qword ptr [rip + 0x22b92b8]  ; MethodInfo_System_Collections_Generic_List_Enumerator_List_LightningParticle_Dispose
-// asm:   0x181db7100: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db7105: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db710a: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181db710f: test rcx, rcx
-// asm:   0x181db7112: jne 0x181db7201
-// asm:   0x181db71f6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db7201: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183318130: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183318135: push rbp
-// asm:   0x183318136: sub rsp, 0x20
-// asm:   0x18331813a: mov rbp, rdx
-// asm:   0x18331813d: mov rax, qword ptr [rbp + 0x80]
-// asm:   0x183318144: mov rcx, qword ptr [rax]
-// asm:   0x183318147: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18331814b: movabs rax, 0
-// asm:   0x183318155: add rsp, 0x20
-// asm:   0x183318159: pop rbp
-// asm:   0x18331815a: ret 
-// asm:   0x1833398d0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833398d5: push rbp
-// asm:   0x1833398d6: sub rsp, 0x20
-// asm:   0x1833398da: mov rbp, rdx
-// asm:   0x1833398dd: mov rax, qword ptr [rbp + 0x78]
-// asm:   0x1833398e1: mov rcx, qword ptr [rax]
-// asm:   0x1833398e4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x1833398e8: movabs rax, 0
-// asm:   0x1833398f2: add rsp, 0x20
-// asm:   0x1833398f6: pop rbp
-// asm:   0x1833398f7: ret 
+// 0x5858720
+// eh: try 0x5858884..0x5858922 -> pad 0x58589d7 (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5858943..0x5858948 -> pad 0x58589c7 catch Il2CppExceptionWrapper, cleanup
+// eh: try 0x58589a6..0x58589b0 -> pad 0x5858a33 catch (...) [compiler noexcept guard]
+// eh: try 0x58589b5..0x58589c2 -> pad 0x58589d1 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x58589ef..0x58589f4 -> pad 0x5858a1e cleanup
+// eh: try 0x5858a21..0x5858a2b -> pad 0x5858a33 catch (...) [compiler noexcept guard]
+// asm: 52 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585887f: nop 
+// asm:   0x5858918: jmp 0x58589b5
+// asm:   0x5858927: jmp 0x585892b
+// asm:   0x5858929: jmp 0x585892b
+// asm:   0x585892b: mov r12, rax
+// asm:   0x585892e: cmp edx, 1
+// asm:   0x5858931: jne 0x58589a3
+// asm:   0x5858933: mov rdi, r12
+// asm:   0x5858936: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585893b: mov r12, qword ptr [rax]
+// asm:   0x585893e: mov qword ptr [rsp + 8], r12
+// asm:   0x5858943: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5858948: jmp 0x5858903
+// asm:   0x58589a3: mov rbx, rdx
+// asm:   0x58589a6: lea rdi, [rsp + 8]
+// asm:   0x58589ab: call 0x2fce6f0  ; il2cpp_runtime_helper_02fce6f0()
+// asm:   0x58589b0: mov rdi, r12
+// asm:   0x58589b3: jmp 0x58589dd
+// asm:   0x58589b5: mov rdi, r12
+// asm:   0x58589b8: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x58589c7: mov rbx, rdx
+// asm:   0x58589ca: mov r12, rax
+// asm:   0x58589cd: jmp 0x58589a6
+// asm:   0x58589cf: jmp 0x58589d7
+// asm:   0x58589d1: jmp 0x58589d7
+// asm:   0x58589d3: jmp 0x58589d7
+// asm:   0x58589d5: jmp 0x58589d7
+// asm:   0x58589d7: mov rbx, rdx
+// asm:   0x58589da: mov rdi, rax
+// asm:   0x58589dd: cmp ebx, 1
+// asm:   0x58589e0: jne 0x5858a19
+// asm:   0x58589e2: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x58589e7: mov rbx, qword ptr [rax]
+// asm:   0x58589ea: mov qword ptr [rsp + 0x58], rbx
+// asm:   0x58589ef: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x58589f4: lea rax, [rip + 0x1a34a1d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_List_LightningParticle_Dispose
+// asm:   0x58589fb: mov rsi, qword ptr [rax]
+// asm:   0x58589fe: lea rdi, [rsp + 0x40]
+// asm:   0x5858a03: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5858a08: test rbx, rbx
+// asm:   0x5858a0b: je 0x585895e
+// asm:   0x5858a11: mov rdi, rbx
+// asm:   0x5858a14: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5858a19: mov rbx, rdi
+// asm:   0x5858a1c: jmp 0x5858a21
+// asm:   0x5858a1e: mov rbx, rax
+// asm:   0x5858a21: lea rdi, [rsp + 0x58]
+// asm:   0x5858a26: call 0x2fce720  ; il2cpp_runtime_helper_02fce720()
+// asm:   0x5858a2b: mov rdi, rbx
+// asm:   0x5858a2e: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5858a33: mov rdi, rax
+// asm:   0x5858a36: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__OnPreLoadScene(int32_t sceneName,MethodInfo *method)
 
 {
   System_Collections_Generic_List_List_LightningParticle___o *__this;
   Weather_WeatherManager_o *pWVar1;
+  Weather_WeatherManager_c *method_00;
   bool bVar2;
-  undefined1 local_78 [16];
-  System_Collections_Generic_List_T__o *local_68;
-  undefined1 local_60 [8];
-  System_Collections_Generic_List_Enumerator_object__o *pSStack_58;
-  System_Collections_Generic_List_T__o *local_50;
-  System_Collections_Generic_List_Enumerator_object__o local_48;
-  System_Collections_Generic_List_Enumerator_T__o local_20;
+  MethodInfo *method_01;
+  undefined1 auStack_90 [16];
+  Weather_LightningParticle_o *pWStack_80;
+  undefined1 auStack_78 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_70;
+  Weather_LightningParticle_o *pWStack_68;
+  undefined1 auStack_58 [16];
+  Weather_LightningParticle_o *pWStack_48;
+  undefined8 uStack_40;
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_38;
   
-  if (Il2CppMethodInitialized_18434492c == '\0') {
+  if (Il2CppMethodInitialized_07545084 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -734,15 +683,11 @@ void Weather_WeatherManager__OnPreLoadScene(int32_t sceneName,MethodInfo *method
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_ThunderWeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WindWeatherEffect);
-    Il2CppMethodInitialized_18434492c = '\x01';
+    Il2CppMethodInitialized_07545084 = '\x01';
   }
-  local_60 = (undefined1  [8])0x0;
-  pSStack_58 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
-  local_50 = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
+  auStack_78 = (undefined1  [8])0x0;
+  pSStack_70 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pWStack_68 = (Weather_LightningParticle_o *)0x0;
   if ((TypeInfo_Weather_WindWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WindWeatherEffect);
   }
@@ -752,76 +697,63 @@ void Weather_WeatherManager__OnPreLoadScene(int32_t sceneName,MethodInfo *method
   }
   __this = TypeInfo_Weather_ThunderWeatherEffect->static_fields->LightningPool;
   if (__this != (System_Collections_Generic_List_List_LightningParticle___o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_78,
-               (System_Collections_Generic_List_T__o *)__this,
-               (MethodInfo_91F180 *)
+    System_Collections_Generic_List_object___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)auStack_90,
+               (System_Collections_Generic_List_object__o *)__this,
+               (MethodInfo_395E050 *)
                MethodInfo_System_Collections_Generic_List_List_LightningParticle_GetEnumerator);
-    local_60 = (undefined1  [8])local_78._0_8_;
-    pSStack_58 = (System_Collections_Generic_List_Enumerator_object__o *)local_78._8_8_;
-    local_50 = local_68;
-    while( true ) {
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_60,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_List_LightningParticle_MoveNext
-                        );
-      if (!bVar2) break;
-      if (local_50 == (System_Collections_Generic_List_T__o *)0x0) {
+    pWStack_48 = pWStack_80;
+    auStack_58._0_8_ = auStack_90._0_8_;
+    auStack_58._8_8_ = auStack_90._8_8_;
+    uStack_40 = 0;
+    pSStack_38 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_58;
+    while (bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                             ((System_Collections_Generic_List_Enumerator_object__o *)auStack_58,
+                              (MethodInfo_4C45C50 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_List_LightningParticle_MoveNext
+                             ), bVar2) {
+      if (pWStack_48 == (Weather_LightningParticle_o *)0x0) {
         ThrowNullReferenceException();
       }
-      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                (&local_20,local_50,
-                 (MethodInfo_91F180 *)
+      System_Collections_Generic_List_object___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)auStack_90,
+                 (System_Collections_Generic_List_object__o *)pWStack_48,
+                 (MethodInfo_395E050 *)
                  MethodInfo_System_Collections_Generic_List_LightningParticle_GetEnumerator);
-      local_48.fields._list = local_20.fields._list;
-      local_48.fields._index = local_20.fields._index;
-      local_48.fields._version = local_20.fields._version;
-      local_48.fields._current = local_20.fields._current;
-      local_78._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-      local_78._8_8_ = &local_48;
-      while( true ) {
-        bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                          (&local_48,
-                           (MethodInfo_153A2A0 *)
-                           MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_MoveNext);
-        if (!bVar2) break;
-        if ((Weather_LightningParticle_o *)local_48.fields._current == (Weather_LightningParticle_o *)0x0) {
+      pWStack_68 = pWStack_80;
+      auStack_78 = (undefined1  [8])auStack_90._0_8_;
+      pSStack_70 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_90._8_8_;
+      auStack_90._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+      auStack_90._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_78;
+      while (method_01 = MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_MoveNext,
+            bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                              ((System_Collections_Generic_List_Enumerator_object__o *)auStack_78,
+                               (MethodInfo_4C45C50 *)
+                               MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_MoveNext
+                              ), bVar2) {
+        if (pWStack_68 == (Weather_LightningParticle_o *)0x0) {
           ThrowNullReferenceException();
         }
-        Weather_LightningParticle__Disable
-                  ((Weather_LightningParticle_o *)local_48.fields._current,(MethodInfo *)0x0);
+        Weather_LightningParticle__Disable(pWStack_68,method_01);
       }
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
+                ((System_Collections_Generic_List_Enumerator_object__o *)auStack_78,
+                 (MethodInfo_4C45C40 *)
                  MethodInfo_System_Collections_Generic_List_Enumerator_LightningParticle_Dispose);
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60,
+              ((System_Collections_Generic_List_Enumerator_object__o *)auStack_58,
+               (MethodInfo_4C45C40 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_List_LightningParticle_Dispose);
     if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
     }
+    method_00 = TypeInfo_Weather_WeatherManager;
     pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
     if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
       (pWVar1->fields)._finishedLoading = false;
-      if (Il2CppMethodInitialized_18434492f == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-        Il2CppMethodInitialized_18434492f = '\x01';
-      }
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-        (pWVar1->fields)._isCaveMap = false;
-        UnityEngine_RenderSettings__set_skybox((UnityEngine_Material_o *)0x0,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_defaultReflectionMode(0,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_ambientMode(3,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_ambientIntensity(1.0,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_reflectionIntensity(0.0,(MethodInfo *)0x0);
-        return;
-      }
+      Weather_WeatherManager__DisableCaveMap((MethodInfo *)method_00);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -830,19 +762,21 @@ void Weather_WeatherManager__OnPreLoadScene(int32_t sceneName,MethodInfo *method
 
 // Weather.WeatherManager$$EnableCaveMap
 // il2cpp: void Weather_WeatherManager__EnableCaveMap (const MethodInfo* method);
-// 0x181db4a90
+// 0x5858af0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5858b20: jmp 0x5858e04
 
 void Weather_WeatherManager__EnableCaveMap(MethodInfo *method)
 
 {
-  Weather_WeatherManager_o *pWVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
+  Weather_WeatherManager_StaticFields *pWVar1;
   UnityEngine_Material_o *value;
-  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_GameObject_o *__this;
   UnityEngine_ReflectionProbe_o *pUVar2;
-  Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *__this_01;
+  Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this_00;
+  Weather_WeatherManager_o *pWVar3;
   
-  if (Il2CppMethodInitialized_18434492d == '\0') {
+  if (Il2CppMethodInitialized_07545085 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
@@ -850,87 +784,92 @@ void Weather_WeatherManager__EnableCaveMap(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&"CaveMap1");
-    Il2CppMethodInitialized_18434492d = '\x01';
+    Il2CppMethodInitialized_07545085 = '\x01';
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) goto label_05858b7b;
+label_05858b11:
+    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+    pWVar3 = pWVar1->_instance;
   }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor != 0) goto label_05858b11;
+label_05858b7b:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+    pWVar3 = pWVar1->_instance;
   }
-  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-    if ((pWVar1->fields)._isCaveMap != false) {
+  if (pWVar3 != (Weather_WeatherManager_o *)0x0) {
+    if ((pWVar3->fields)._isCaveMap != false) {
       return;
     }
-    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    if ((((Il2CppClass *)TypeInfo_Weather_WeatherManager)->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+      pWVar3 = pWVar1->_instance;
+      if (pWVar3 == (Weather_WeatherManager_o *)0x0) goto label_05858e04;
     }
-    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-    if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-      (pWVar1->fields)._isCaveMap = true;
-      __this = (System_Collections_Generic_Dictionary_object__object__o *)
-               TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
-      if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        value = System_Collections_Generic_Dictionary_object__object___get_Item
-                          (__this,(Il2CppObject *)"CaveMap1",
-                           (MethodInfo_147A5B0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
-        UnityEngine_RenderSettings__set_skybox(value,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_defaultReflectionMode(1,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_ambientMode(0,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_ambientIntensity(1.0,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_reflectionIntensity(1.0,(MethodInfo *)0x0);
-        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-        UnityEngine_GameObject___ctor_2f1ad20(__this_00,(MethodInfo *)0x0);
-        if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-          pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-          pUVar2 = UnityEngine_GameObject__AddComponent_object_
-                             (__this_00,
-                              (MethodInfo_6F4D60 *)
-                              MethodInfo_UnityEngine_GameObject_AddComponent_ReflectionProbe);
-          if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-            (pWVar1->fields)._baker = pUVar2;
-            Il2CppCodeGenWriteBarrier(&(pWVar1->fields)._baker,pUVar2);
-            pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-            if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-               (pUVar2 = (pWVar1->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
-              UnityEngine_ReflectionProbe__set_cullingMask(pUVar2,0,(MethodInfo *)0x0);
-              pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-              if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-                 (pUVar2 = (pWVar1->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
-                UnityEngine_ReflectionProbe__set_refreshMode(pUVar2,2,(MethodInfo *)0x0);
-                pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-                if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-                   (pUVar2 = (pWVar1->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
-                  UnityEngine_ReflectionProbe__set_mode(pUVar2,1,(MethodInfo *)0x0);
-                  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-                  if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-                     (pUVar2 = (pWVar1->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
-                    UnityEngine_ReflectionProbe__set_timeSlicingMode(pUVar2,2,(MethodInfo *)0x0);
-                    UnityEngine_DynamicGI__UpdateEnvironment((MethodInfo *)0x0);
-                    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-                    if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-                       (pUVar2 = (pWVar1->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
-                      UnityEngine_ReflectionProbe__RenderProbe(pUVar2,(MethodInfo *)0x0);
-                      pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-                      if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-                        if (Il2CppMethodInitialized_18434492e == '\0') {
-                          il2cpp_codegen_initialize_runtime_metadata
-                                    (&TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__31);
-                          Il2CppMethodInitialized_18434492e = '\x01';
-                        }
-                        __this_01 = (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)
-                                    il2cpp_codegen_object_new
-                                              ((Il2CppClass *)
-                                               TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__31);
-                        Weather_WeatherManager__UpdateReflectionTexture_d__31___ctor
-                                  (__this_01,0,(MethodInfo *)0x0);
-                        if (__this_01 != (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)0x0) {
-                          (__this_01->fields).__4__this = (Photon_Pun_UtilityScripts_OnClickRpc_o *)pWVar1;
-                          Il2CppCodeGenWriteBarrier(&(__this_01->fields).__4__this,pWVar1);
-                          UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                                    ((UnityEngine_MonoBehaviour_o *)pWVar1,
-                                     (System_Collections_IEnumerator_o *)__this_01,(MethodInfo *)0x0);
-                          return;
-                        }
+    (pWVar3->fields)._isCaveMap = true;
+    if ((System_Collections_Generic_Dictionary_object__object__o *)pWVar1->SkyboxMaterials !=
+        (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      value = System_Collections_Generic_Dictionary_object__object___get_Item
+                        ((System_Collections_Generic_Dictionary_object__object__o *)pWVar1->SkyboxMaterials,
+                         (Il2CppObject *)"CaveMap1",
+                         (MethodInfo_4AAD450 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+      UnityEngine_RenderSettings__set_skybox(value,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_defaultReflectionMode(1,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_ambientMode(0,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_ambientIntensity(1.0,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_reflectionIntensity(1.0,(MethodInfo *)0x0);
+      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_691aa10(__this,(MethodInfo *)0x0);
+      if (__this != (UnityEngine_GameObject_o *)0x0) {
+        pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+        pUVar2 = UnityEngine_GameObject__AddComponent_object_
+                           (__this,(MethodInfo_353B6A0 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_ReflectionProbe);
+        if (pWVar3 != (Weather_WeatherManager_o *)0x0) {
+          (pWVar3->fields)._baker = pUVar2;
+          Il2CppCodeGenWriteBarrier(&(pWVar3->fields)._baker);
+          pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+          if ((pWVar3 != (Weather_WeatherManager_o *)0x0) &&
+             (pUVar2 = (pWVar3->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
+            UnityEngine_ReflectionProbe__set_cullingMask(pUVar2,0,(MethodInfo *)0x0);
+            pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+            if ((pWVar3 != (Weather_WeatherManager_o *)0x0) &&
+               (pUVar2 = (pWVar3->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
+              UnityEngine_ReflectionProbe__set_refreshMode(pUVar2,2,(MethodInfo *)0x0);
+              pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+              if ((pWVar3 != (Weather_WeatherManager_o *)0x0) &&
+                 (pUVar2 = (pWVar3->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
+                UnityEngine_ReflectionProbe__set_mode(pUVar2,1,(MethodInfo *)0x0);
+                pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+                if ((pWVar3 != (Weather_WeatherManager_o *)0x0) &&
+                   (pUVar2 = (pWVar3->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
+                  UnityEngine_ReflectionProbe__set_timeSlicingMode(pUVar2,2,(MethodInfo *)0x0);
+                  UnityEngine_DynamicGI__UpdateEnvironment((MethodInfo *)0x0);
+                  pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+                  if ((pWVar3 != (Weather_WeatherManager_o *)0x0) &&
+                     (pUVar2 = (pWVar3->fields)._baker, pUVar2 != (UnityEngine_ReflectionProbe_o *)0x0)) {
+                    UnityEngine_ReflectionProbe__RenderProbe(pUVar2,(MethodInfo *)0x0);
+                    pWVar3 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+                    if (pWVar3 != (Weather_WeatherManager_o *)0x0) {
+                      if (Il2CppMethodInitialized_07545086 == '\0') {
+                        il2cpp_codegen_initialize_runtime_metadata
+                                  (&TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__35);
+                        Il2CppMethodInitialized_07545086 = '\x01';
+                      }
+                      __this_00 = il2cpp_codegen_object_new
+                                            ((Il2CppClass *)
+                                             TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__35);
+                      Weather_WeatherManager__UpdateReflectionTexture_d__35___ctor
+                                (__this_00,0,(MethodInfo *)0x0);
+                      if (__this_00 != (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *)0x0) {
+                        (__this_00->fields).__4__this = pWVar3;
+                        Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+                        UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                                  ((UnityEngine_MonoBehaviour_o *)pWVar3,
+                                   (System_Collections_IEnumerator_o *)__this_00,(MethodInfo *)0x0);
+                        return;
                       }
                     }
                   }
@@ -942,114 +881,135 @@ void Weather_WeatherManager__EnableCaveMap(MethodInfo *method)
       }
     }
   }
+label_05858e04:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$UpdateReflectionTexture
 // il2cpp: System_Collections_IEnumerator_o* Weather_WeatherManager__UpdateReflectionTexture (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db8810
+// 0x5858e10
 
 System_Collections_IEnumerator_o *
 Weather_WeatherManager__UpdateReflectionTexture(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
-  Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *__this_00;
+  Weather_WeatherManager__UpdateReflectionTexture_d__35_o *__this_00;
   
-  if (Il2CppMethodInitialized_18434492e == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__31)
+  if (Il2CppMethodInitialized_07545086 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__35)
     ;
-    Il2CppMethodInitialized_18434492e = '\x01';
+    Il2CppMethodInitialized_07545086 = '\x01';
   }
-  __this_00 = (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)
-              il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__31);
-  Weather_WeatherManager__UpdateReflectionTexture_d__31___ctor(__this_00,0,(MethodInfo *)0x0);
-  if (__this_00 != (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)0x0) {
-    (__this_00->fields).__4__this = (Photon_Pun_UtilityScripts_OnClickRpc_o *)__this;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_UpdateReflectionTexture_d__35);
+  Weather_WeatherManager__UpdateReflectionTexture_d__35___ctor(__this_00,0,(MethodInfo *)0x0);
+  if (__this_00 == (Weather_WeatherManager__UpdateReflectionTexture_d__35_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Weather.WeatherManager$$DisableCaveMap
 // il2cpp: void Weather_WeatherManager__DisableCaveMap (const MethodInfo* method);
-// 0x181db49f0
+// 0x5858a40
 
 void Weather_WeatherManager__DisableCaveMap(MethodInfo *method)
 
 {
-  Weather_WeatherManager_o *pWVar1;
+  uint32_t uVar1;
+  Weather_WeatherManager_o *pWVar2;
   
-  if (Il2CppMethodInitialized_18434492f == '\0') {
+  if (Il2CppMethodInitialized_07545087 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_18434492f = '\x01';
+    Il2CppMethodInitialized_07545087 = '\x01';
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
-  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-    (pWVar1->fields)._isCaveMap = false;
-    UnityEngine_RenderSettings__set_skybox((UnityEngine_Material_o *)0x0,(MethodInfo *)0x0);
-    UnityEngine_RenderSettings__set_defaultReflectionMode(0,(MethodInfo *)0x0);
-    UnityEngine_RenderSettings__set_ambientMode(3,(MethodInfo *)0x0);
-    UnityEngine_RenderSettings__set_ambientIntensity(1.0,(MethodInfo *)0x0);
-    UnityEngine_RenderSettings__set_reflectionIntensity(0.0,(MethodInfo *)0x0);
-    return;
+  else {
+    pWVar2 = *(Weather_WeatherManager_o **)((Il2CppClass *)TypeInfo_Weather_WeatherManager)->static_fields;
   }
-  ThrowNullReferenceException();
+  if (pWVar2 == (Weather_WeatherManager_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (pWVar2->fields)._isCaveMap = false;
+  UnityEngine_RenderSettings__set_skybox((UnityEngine_Material_o *)0x0,(MethodInfo *)0x0);
+  UnityEngine_RenderSettings__set_defaultReflectionMode(0,(MethodInfo *)0x0);
+  UnityEngine_RenderSettings__set_ambientMode(3,(MethodInfo *)0x0);
+  UnityEngine_RenderSettings__set_ambientIntensity(1.0,(MethodInfo *)0x0);
+  UnityEngine_RenderSettings__set_reflectionIntensity(0.0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Weather.WeatherManager$$OnFinishLoading
 // il2cpp: void Weather_WeatherManager__OnFinishLoading (const MethodInfo* method);
-// 0x181db6a80
+// 0x5858e80
 
 void Weather_WeatherManager__OnFinishLoading(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Weather_WeatherManager_o *__this;
+  MethodInfo *in_RSI;
   
-  if (Il2CppMethodInitialized_184344930 == '\0') {
+  if (Il2CppMethodInitialized_07545088 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344930 = '\x01';
+    Il2CppMethodInitialized_07545088 = '\x01';
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    __this = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
-  __this = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (__this != (Weather_WeatherManager_o *)0x0) {
-    Weather_WeatherManager__RestartWeather(__this,(MethodInfo *)0x0);
-    return;
+  else {
+    __this = *(Weather_WeatherManager_o **)((Il2CppClass *)TypeInfo_Weather_WeatherManager)->static_fields;
   }
-  ThrowNullReferenceException();
+  if (__this == (Weather_WeatherManager_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  Weather_WeatherManager__RestartWeather(__this,in_RSI);
+  return;
 }
 
 
 // Weather.WeatherManager$$LoadSkyboxes
 // il2cpp: void Weather_WeatherManager__LoadSkyboxes (const MethodInfo* method);
-// 0x181db6600
+// 0x5858280
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db677e: nop 
+// asm:   0x58585dd: nop dword ptr [rax]
 
 void Weather_WeatherManager__LoadSkyboxes(MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  Weather_WeatherManager_StaticFields *pWVar1;
+  System_String_o *pSVar2;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
   System_String_o *path;
-  UnityEngine_Shader_o *value;
-  System_String_array *pSVar3;
+  UnityEngine_Shader_o *pUVar4;
+  System_String_array *pSVar5;
   System_String_array *values;
-  System_String_o *pSVar4;
-  UnityEngine_Material_o *pUVar5;
+  System_String_o *pSVar6;
+  UnityEngine_Material_o *pUVar7;
   System_Collections_Generic_Dictionary_string__Material__o *__this;
-  uint uVar6;
+  il2cpp_array_size_t iVar8;
+  ulong uVar9;
+  ulong uVar10;
+  uint uVar11;
   
-  if (Il2CppMethodInitialized_184344931 == '\0') {
+  if (Il2CppMethodInitialized_07545089 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1072,192 +1032,215 @@ void Weather_WeatherManager__LoadSkyboxes(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"/");
     il2cpp_codegen_initialize_runtime_metadata(&"Skybox");
     il2cpp_codegen_initialize_runtime_metadata(&"Skyboxes/CaveMap1/CaveMap1Skybox");
-    Il2CppMethodInitialized_184344931 = '\x01';
+    Il2CppMethodInitialized_07545089 = '\x01';
   }
-  value = UnityEngine_Shader__Find("Skybox/Blended",(MethodInfo *)0x0);
+  pUVar4 = UnityEngine_Shader__Find("Skybox/Blended",(MethodInfo *)0x0);
   if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
   }
-  TypeInfo_Weather_WeatherManager->static_fields->_blendedShader = value;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherManager->static_fields->_blendedShader,value);
+  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+  pWVar1->_blendedShader = pUVar4;
+  Il2CppCodeGenWriteBarrier(&pWVar1->_blendedShader);
   if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
   }
-  pSVar3 = Utility_Util__EnumToStringArray___Il2CppFullySharedGenericType_
-                     ((MethodInfo_869FD0 *)MethodInfo_Utility_Util_EnumToStringArray_WeatherSkybox);
-  if (pSVar3 != (System_String_array *)0x0) {
-    for (uVar6 = 0; (int)uVar6 < (int)pSVar3->max_length; uVar6 = uVar6 + 1) {
-      if ((uint)pSVar3->max_length <= uVar6) goto label_181db6a79;
-      pSVar1 = pSVar3->m_Items[(int)uVar6];
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
-               TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
-      if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
-      }
-      path = TypeInfo_Utility_ResourcePaths->static_fields->Weather;
-      values = (System_String_array *)SZArrayNew(TypeInfo_string_array,5);
-      pSVar4 = "Skyboxes/";
-      if (values == (System_String_array *)0x0) goto label_181db6a73;
-      if ((int)values->max_length == 0) goto label_181db6a79;
-      values->m_Items[0] = "Skyboxes/";
-      Il2CppCodeGenWriteBarrier(values->m_Items,pSVar4);
-      if (pSVar1 == (System_String_o *)0x0) goto label_181db6a73;
-      pSVar4 = (System_String_o *)
-               (*((Il2CppClass *)pSVar1->klass)->vtable[3].methodPtr)
-                         (pSVar1,((Il2CppClass *)pSVar1->klass)->vtable[3].method);
-      if ((uint)values->max_length < 2) goto label_181db6a79;
-      values->m_Items[1] = pSVar4;
-      Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar4);
-      pSVar4 = "/";
-      if ((uint)values->max_length < 3) goto label_181db6a79;
-      values->m_Items[2] = "/";
-      Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar4);
-      pSVar4 = (System_String_o *)
-               (*((Il2CppClass *)pSVar1->klass)->vtable[3].methodPtr)
-                         (pSVar1,((Il2CppClass *)pSVar1->klass)->vtable[3].method);
-      if ((uint)values->max_length < 4) goto label_181db6a79;
-      values->m_Items[3] = pSVar4;
-      Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar4);
-      pSVar4 = "Skybox";
-      if ((uint)values->max_length < 5) goto label_181db6a79;
-      values->m_Items[4] = "Skybox";
-      Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar4);
-      pSVar4 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
-      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
-      }
-      pUVar5 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                         (path,pSVar4,false,
-                          (MethodInfo_795F00 *)
-                          MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
-      if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181db6a73;
-      System_Collections_Generic_Dictionary_object__object___Add
-                (pSVar2,(Il2CppObject *)pSVar1,(Il2CppObject *)pUVar5,
-                 (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
+  pSVar5 = Utility_Util__EnumToStringArray_Int32Enum_
+                     ((MethodInfo_377C8A0 *)MethodInfo_Utility_Util_EnumToStringArray_WeatherSkybox);
+  if (pSVar5 != (System_String_array *)0x0) {
+    iVar8 = pSVar5->max_length;
+    if (0 < (int)iVar8) {
+      uVar11 = 0;
+      do {
+        if ((uint)iVar8 <= uVar11) goto label_0585870f;
+        pSVar2 = pSVar5->m_Items[(int)uVar11];
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+        if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+        }
+        path = TypeInfo_Utility_ResourcePaths->static_fields->Weather;
+        values = (System_String_array *)SZArrayNew(TypeInfo_string_array,5);
+        if (values == (System_String_array *)0x0) goto label_05858714;
+        if ((int)values->max_length == 0) goto label_0585870f;
+        values->m_Items[0] = "Skyboxes/";
+        Il2CppCodeGenWriteBarrier(values->m_Items);
+        if (pSVar2 == (System_String_o *)0x0) goto label_05858714;
+        pSVar6 = (System_String_o *)
+                 (*((Il2CppClass *)pSVar2->klass)->vtable[3].methodPtr)
+                           (pSVar2,((Il2CppClass *)pSVar2->klass)->vtable[3].method);
+        if ((values->max_length & 0xfffffffe) == 0) goto label_0585870f;
+        values->m_Items[1] = pSVar6;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 1);
+        if ((uint)values->max_length < 3) goto label_0585870f;
+        values->m_Items[2] = "/";
+        Il2CppCodeGenWriteBarrier(values->m_Items + 2);
+        pSVar6 = (System_String_o *)
+                 (*((Il2CppClass *)pSVar2->klass)->vtable[3].methodPtr)
+                           (pSVar2,((Il2CppClass *)pSVar2->klass)->vtable[3].method);
+        if ((values->max_length & 0xfffffffc) == 0) goto label_0585870f;
+        values->m_Items[3] = pSVar6;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 3);
+        if ((uint)values->max_length < 5) goto label_0585870f;
+        values->m_Items[4] = "Skybox";
+        Il2CppCodeGenWriteBarrier(values->m_Items + 4);
+        pSVar6 = System_String__Concat_5302910(values,(MethodInfo *)0x0);
+        if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+        }
+        pUVar7 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                           (path,pSVar6,false,false,
+                            (MethodInfo_3665790 *)
+                            MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
+        if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05858714;
+        System_Collections_Generic_Dictionary_object__object___Add
+                  (pSVar3,(Il2CppObject *)pSVar2,(Il2CppObject *)pUVar7,
+                   (MethodInfo_4AAD4E0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add)
+        ;
+        uVar11 = uVar11 + 1;
+        iVar8 = pSVar5->max_length;
+      } while ((int)uVar11 < (int)iVar8);
     }
-    for (uVar6 = 0; (int)uVar6 < (int)pSVar3->max_length; uVar6 = uVar6 + 1) {
-      if ((uint)pSVar3->max_length <= uVar6) {
-label_181db6a79:
-        ThrowIndexOutOfRangeException();
-      }
-      pSVar1 = pSVar3->m_Items[(int)uVar6];
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
-               TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-      __this = il2cpp_codegen_object_new
-                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Material);
-      System_Collections_Generic_Dictionary_object__object____ctor
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-                 (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
-      if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181db6a73;
-      System_Collections_Generic_Dictionary_object__object___Add
-                (pSVar2,(Il2CppObject *)pSVar1,(Il2CppObject *)__this,
-                 (MethodInfo_146B4B0 *)
-                 MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_Add);
+    uVar9 = iVar8 & 0xffffffff;
+    if (0 < (int)iVar8) {
+      uVar10 = 0;
+      do {
+        if (uVar9 <= uVar10) {
+label_0585870f:
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar2 = pSVar5->m_Items[uVar10];
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+        __this = il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Material);
+        System_Collections_Generic_Dictionary_object__object____ctor
+                  ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+                   (MethodInfo_4AAC8D0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor
+                  );
+        if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_05858714;
+        System_Collections_Generic_Dictionary_object__object___Add
+                  (pSVar3,(Il2CppObject *)pSVar2,(Il2CppObject *)__this,
+                   (MethodInfo_4AAD4E0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_Add);
+        uVar10 = uVar10 + 1;
+        uVar11 = (uint)pSVar5->max_length;
+        uVar9 = (ulong)uVar11;
+      } while ((long)uVar10 < (long)(int)uVar11);
     }
     if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
     }
-    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
              TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
     if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
     }
-    pSVar1 = TypeInfo_Utility_ResourcePaths->static_fields->Weather;
+    pSVar2 = TypeInfo_Utility_ResourcePaths->static_fields->Weather;
     if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
     }
-    pUVar5 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                       (pSVar1,"Skyboxes/CaveMap1/CaveMap1Skybox",false,
-                        (MethodInfo_795F00 *)
+    pUVar7 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                       (pSVar2,"Skyboxes/CaveMap1/CaveMap1Skybox",false,false,
+                        (MethodInfo_3665790 *)
                         MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
       System_Collections_Generic_Dictionary_object__object___Add
-                (pSVar2,(Il2CppObject *)"CaveMap1",(Il2CppObject *)pUVar5,
-                 (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
+                (pSVar3,(Il2CppObject *)"CaveMap1",(Il2CppObject *)pUVar7,
+                 (MethodInfo_4AAD4E0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
       return;
     }
   }
-label_181db6a73:
+label_05858714:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$TakeFlashlight
 // il2cpp: void Weather_WeatherManager__TakeFlashlight (UnityEngine_Transform_o* parent, const MethodInfo* method);
-// 0x181db8670
+// 0x5859580
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x58595b6: jmp 0x585972d
 
 void Weather_WeatherManager__TakeFlashlight(UnityEngine_Transform_o *parent,MethodInfo *method)
 
 {
-  Weather_WeatherManager_o *pWVar1;
-  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar2;
-  bool bVar3;
-  Weather_BaseWeatherEffect_o *pWVar4;
+  uint32_t uVar1;
+  Weather_WeatherManager_o *pWVar2;
+  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar3;
+  bool bVar4;
+  Weather_BaseWeatherEffect_o *pWVar5;
   
-  if (Il2CppMethodInitialized_184344932 == '\0') {
+  if (Il2CppMethodInitialized_0754508a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344932 = '\x01';
+    Il2CppMethodInitialized_0754508a = '\x01';
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
-  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-     (pSVar2 = (pWVar1->fields)._effects,
-     pSVar2 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
-    bVar3 = System_Collections_Generic_Dictionary_Int32Enum__object___ContainsKey
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,7,
-                       (MethodInfo_1443DB0 *)
+  else {
+    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+  }
+  if ((pWVar2 != (Weather_WeatherManager_o *)0x0) &&
+     (pSVar3 = (pWVar2->fields)._effects,
+     pSVar3 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
+    bVar4 = System_Collections_Generic_Dictionary_Int32Enum__object___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,7,
+                       (MethodInfo_4A551F0 *)
                        MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ContainsKey
                       );
-    if (!bVar3) {
+    if (!bVar4) {
       return;
     }
     if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
     }
-    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-    if ((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-       (pSVar2 = (pWVar1->fields)._effects,
-       pSVar2 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
-      pWVar4 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                         ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,7,
-                          (MethodInfo_1454ED0 *)
+    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+    if ((pWVar2 != (Weather_WeatherManager_o *)0x0) &&
+       (pSVar3 = (pWVar2->fields)._effects,
+       pSVar3 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
+      pWVar5 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                         ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,7,
+                          (MethodInfo_4A54F30 *)
                           MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                          );
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar3 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)pWVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (!bVar3) {
+      bVar4 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)pWVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (!bVar4) {
         return;
       }
       if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (((pWVar1 != (Weather_WeatherManager_o *)0x0) &&
-          (pSVar2 = (pWVar1->fields)._effects,
-          pSVar2 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) &&
-         (pWVar4 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,7,
-                              (MethodInfo_1454ED0 *)
+      pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (((pWVar2 != (Weather_WeatherManager_o *)0x0) &&
+          (pSVar3 = (pWVar2->fields)._effects,
+          pSVar3 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) &&
+         (pWVar5 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,7,
+                              (MethodInfo_4A54F30 *)
                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                             ), pWVar4 != (Weather_BaseWeatherEffect_o *)0x0)) {
-        (*(pWVar4->klass->vtable)._9_SetParent.methodPtr)
-                  (pWVar4,(System_Type_o *)parent,(pWVar4->klass->vtable)._9_SetParent.method);
+                             ), pWVar5 != (Weather_BaseWeatherEffect_o *)0x0)) {
+        (*(pWVar5->klass->vtable)._9_SetParent.methodPtr)
+                  (pWVar5,parent,(pWVar5->klass->vtable)._9_SetParent.method);
         return;
       }
     }
@@ -1268,7 +1251,11 @@ void Weather_WeatherManager__TakeFlashlight(UnityEngine_Transform_o *parent,Meth
 
 // Weather.WeatherManager$$CreateBlendedSkybox
 // il2cpp: UnityEngine_Material_o* Weather_WeatherManager__CreateBlendedSkybox (UnityEngine_Shader_o* shader, System_String_array* parts, System_String_o* skybox1, System_String_o* skybox2, const MethodInfo* method);
-// 0x181db3d90
+// 0x5859740
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585995c: cmp byte ptr [rip + 0x1ceb729], 0
+// asm:   0x5859963: jne 0x5859978
+// asm:   0x58599af: jmp 0x5859978
 
 UnityEngine_Material_o *
 Weather_WeatherManager__CreateBlendedSkybox
@@ -1276,16 +1263,19 @@ Weather_WeatherManager__CreateBlendedSkybox
           System_String_o *skybox2,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  UnityEngine_Material_o *__this;
+  uint uVar1;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  int iVar3;
+  UnityEngine_Material_o *pUVar4;
+  ulong uVar5;
+  System_String_o *pSVar6;
+  UnityEngine_Material_o *pUVar7;
+  UnityEngine_Texture_o *pUVar8;
   System_String_o *name;
-  UnityEngine_Material_o *pUVar2;
-  UnityEngine_Texture_o *pUVar3;
-  System_String_o *name_00;
-  uint uVar4;
-  UnityEngine_Vector4_Fields local_28;
+  ulong uVar9;
+  UnityEngine_Color_o value;
   
-  if (Il2CppMethodInitialized_184344933 == '\0') {
+  if (Il2CppMethodInitialized_0754508b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material);
@@ -1294,89 +1284,117 @@ Weather_WeatherManager__CreateBlendedSkybox
     il2cpp_codegen_initialize_runtime_metadata(&"_");
     il2cpp_codegen_initialize_runtime_metadata(&"Tex");
     il2cpp_codegen_initialize_runtime_metadata(&"_Tint");
-    Il2CppMethodInitialized_184344933 = '\x01';
+    Il2CppMethodInitialized_0754508b = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Material);
-  UnityEngine_Material___ctor(__this,shader,(MethodInfo *)0x0);
+  pUVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Material);
+  UnityEngine_Material___ctor(pUVar4,shader,(MethodInfo *)0x0);
   if (parts != (System_String_array *)0x0) {
-    for (uVar4 = 0; (int)uVar4 < (int)parts->max_length; uVar4 = uVar4 + 1) {
-      if ((uint)parts->max_length <= uVar4) {
-        ThrowIndexOutOfRangeException();
+    iVar3 = (int)parts->max_length;
+    if (pUVar4 == (UnityEngine_Material_o *)0x0) {
+      if (0 < iVar3) {
+        pSVar6 = System_String__Concat_5301f10
+                           ("_",parts->m_Items[0],"Tex",(MethodInfo *)0x0);
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+        if ((pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
+           (pUVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
+                               (pSVar2,(Il2CppObject *)skybox1,
+                                (MethodInfo_4AAD450 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item),
+           pUVar4 != (UnityEngine_Material_o *)0x0)) {
+          UnityEngine_Material__GetTexture(pUVar4,pSVar6,(MethodInfo *)0x0);
+          ThrowNullReferenceException();
+        }
       }
-      name = System_String__Concat_1969b70
-                       ("_",parts->m_Items[(int)uVar4],"Tex",
-                        (MethodInfo *)0x0);
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
-               TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181db3fee;
-      pUVar2 = System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar1,(Il2CppObject *)skybox1,
-                          (MethodInfo_147A5B0 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
-      if (pUVar2 == (UnityEngine_Material_o *)0x0) goto label_181db3fee;
-      pUVar3 = UnityEngine_Material__GetTexture(pUVar2,name,(MethodInfo *)0x0);
-      if (__this == (UnityEngine_Material_o *)0x0) goto label_181db3fee;
-      UnityEngine_Material__SetTexture(__this,name,pUVar3,(MethodInfo *)0x0);
-      name_00 = System_String__Concat_1969e50(name,"2",(MethodInfo *)0x0);
-      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
-               TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181db3fee;
-      pUVar2 = System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar1,(Il2CppObject *)skybox2,
-                          (MethodInfo_147A5B0 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
-      if (pUVar2 == (UnityEngine_Material_o *)0x0) goto label_181db3fee;
-      pUVar3 = UnityEngine_Material__GetTexture(pUVar2,name,(MethodInfo *)0x0);
-      UnityEngine_Material__SetTexture(__this,name_00,pUVar3,(MethodInfo *)0x0);
     }
-    if (__this != (UnityEngine_Material_o *)0x0) {
-      local_28.x = 0.5;
-      local_28.y = 0.5;
-      local_28.z = 0.5;
-      local_28.w = 1.0;
-      UnityEngine_Material__SetVector
-                (__this,"_Tint",(UnityEngine_Vector4_o *)&local_28,(MethodInfo *)0x0);
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    else {
+      if (0 < iVar3) {
+        uVar5 = parts->max_length & 0xffffffff;
+        uVar9 = 0;
+        do {
+          if (uVar5 <= uVar9) {
+            ThrowIndexOutOfRangeException();
+          }
+          pSVar6 = System_String__Concat_5301f10
+                             ("_",parts->m_Items[uVar9],"Tex",
+                              (MethodInfo *)0x0);
+          if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+          }
+          pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+          if ((pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+             (pUVar7 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                 (pSVar2,(Il2CppObject *)skybox1,
+                                  (MethodInfo_4AAD450 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item),
+             pUVar7 == (UnityEngine_Material_o *)0x0)) goto label_05859a22;
+          pUVar8 = UnityEngine_Material__GetTexture(pUVar7,pSVar6,(MethodInfo *)0x0);
+          UnityEngine_Material__SetTexture(pUVar4,pSVar6,pUVar8,(MethodInfo *)0x0);
+          name = System_String__Concat_52f0320(pSVar6,"2",(MethodInfo *)0x0);
+          pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+          if ((pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+             (pUVar7 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                 (pSVar2,(Il2CppObject *)skybox2,
+                                  (MethodInfo_4AAD450 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item),
+             pUVar7 == (UnityEngine_Material_o *)0x0)) goto label_05859a22;
+          pUVar8 = UnityEngine_Material__GetTexture(pUVar7,pSVar6,(MethodInfo *)0x0);
+          UnityEngine_Material__SetTexture(pUVar4,name,pUVar8,(MethodInfo *)0x0);
+          uVar9 = uVar9 + 1;
+          uVar1 = (uint)parts->max_length;
+          uVar5 = (ulong)uVar1;
+        } while ((long)uVar9 < (long)(int)uVar1);
       }
-      if (Il2CppMethodInitialized_184344934 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&"_Blend");
-        Il2CppMethodInitialized_184344934 = '\x01';
+      if (pUVar4 != (UnityEngine_Material_o *)0x0) {
+        value.fields.b = 0.5;
+        value.fields.a = 1.0;
+        value.fields.r = 0.5;
+        value.fields.g = 0.5;
+        UnityEngine_Material__SetColor(pUVar4,"_Tint",value,(MethodInfo *)0x0);
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        if (Il2CppMethodInitialized_0754508c == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&"_Blend");
+          Il2CppMethodInitialized_0754508c = '\x01';
+        }
+        UnityEngine_Material__SetFloat(pUVar4,"_Blend",0.0,(MethodInfo *)0x0);
+        return pUVar4;
       }
-      UnityEngine_Material__SetFloat(__this,"_Blend",0.0,(MethodInfo *)0x0);
-      return __this;
     }
   }
-label_181db3fee:
+label_05859a22:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$SetSkyboxBlend
 // il2cpp: void Weather_WeatherManager__SetSkyboxBlend (UnityEngine_Material_o* skybox, float blend, const MethodInfo* method);
-// 0x181db8230
+// 0x5859a40
 
 void Weather_WeatherManager__SetSkyboxBlend(UnityEngine_Material_o *skybox,float blend,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344934 == '\0') {
+  if (Il2CppMethodInitialized_0754508c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"_Blend");
-    Il2CppMethodInitialized_184344934 = '\x01';
+    Il2CppMethodInitialized_0754508c = '\x01';
   }
-  if (skybox != (UnityEngine_Material_o *)0x0) {
-    UnityEngine_Material__SetFloat(skybox,"_Blend",blend,(MethodInfo *)0x0);
-    return;
+  if (skybox == (UnityEngine_Material_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UnityEngine_Material__SetFloat(skybox,"_Blend",blend,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Weather.WeatherManager$$ResetCameras
 // il2cpp: void Weather_WeatherManager__ResetCameras (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db73f0
+// 0x5859aa0
 
 void Weather_WeatherManager__ResetCameras(Weather_WeatherManager_o *__this,MethodInfo *method)
 
@@ -1391,18 +1409,18 @@ void Weather_WeatherManager__ResetCameras(Weather_WeatherManager_o *__this,Metho
   UnityEngine_Camera_array *pUVar6;
   MethodInfo *pMVar7;
   
-  if (Il2CppMethodInitialized_184344935 == '\0') {
+  if (Il2CppMethodInitialized_0754508d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Camera_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Camera_Clear);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344935 = '\x01';
+    Il2CppMethodInitialized_0754508d = '\x01';
   }
   pSVar3 = (__this->fields)._skyboxCameras;
   if (pSVar3 != (System_Collections_Generic_List_Camera__o *)0x0) {
-    length = (pSVar3->fields)._size;
     piVar1 = &(pSVar3->fields)._version;
     *piVar1 = *piVar1 + 1;
+    length = (pSVar3->fields)._size;
     (pSVar3->fields)._size = 0;
     if (0 < length) {
       System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,length,(MethodInfo *)0x0);
@@ -1423,19 +1441,16 @@ void Weather_WeatherManager__ResetCameras(Weather_WeatherManager_o *__this,Metho
       pUVar6 = (pSVar3->fields)._items;
       if (pUVar6 != (UnityEngine_Camera_array *)0x0) {
         uVar2 = (pSVar3->fields)._size;
-        if ((uint)pUVar6->max_length <= uVar2) {
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)item,
-                     (MethodInfo_93DD50 *)pMVar7->klass->rgctx_data[0xe].method);
-          return;
-        }
-        (pSVar3->fields)._size = uVar2 + 1;
         if (uVar2 < (uint)pUVar6->max_length) {
+          (pSVar3->fields)._size = uVar2 + 1;
           pUVar6->m_Items[(int)uVar2] = item;
-          Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)uVar2,item);
+          Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)uVar2);
           return;
         }
-        ThrowIndexOutOfRangeException();
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)item,
+                   (MethodInfo_395D230 *)pMVar7->klass->rgctx_data[0xe].method);
+        return;
       }
     }
   }
@@ -1445,68 +1460,93 @@ void Weather_WeatherManager__ResetCameras(Weather_WeatherManager_o *__this,Metho
 
 // Weather.WeatherManager$$ResetSkyboxColors
 // il2cpp: void Weather_WeatherManager__ResetSkyboxColors (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db75c0
-// eh: try 0x181db7734..0x181db7948 -> pad 0x1833245a0 (+4 call sites) catch Il2CppExceptionWrapper
-// asm: 40 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db773c: nop dword ptr [rax]
-// asm:   0x181db77fd: nop dword ptr [rax]
-// asm:   0x181db78bc: mov rdx, qword ptr [rip + 0x230577d]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Material_Dispose
-// asm:   0x181db78c3: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x181db78c8: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db78cd: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181db78d2: test rcx, rcx
-// asm:   0x181db78d5: jne 0x181db7933
-// asm:   0x181db78d7: xor r14d, r14d
-// asm:   0x181db78da: jmp 0x181db7734
-// asm:   0x181db78f2: mov rdx, qword ptr [rip + 0x22ff0e7]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material
-// asm:   0x181db78f9: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db78fe: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db7903: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181db7908: test rcx, rcx
-// asm:   0x181db790b: jne 0x181db7948
-// asm:   0x181db7933: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db7948: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833245a0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833245a5: push rbp
-// asm:   0x1833245a6: sub rsp, 0x20
-// asm:   0x1833245aa: mov rbp, rdx
-// asm:   0x1833245ad: mov rax, qword ptr [rbp + 0x98]
-// asm:   0x1833245b4: mov rcx, qword ptr [rax]
-// asm:   0x1833245b7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x1833245bb: movabs rax, 0
-// asm:   0x1833245c5: add rsp, 0x20
-// asm:   0x1833245c9: pop rbp
-// asm:   0x1833245ca: ret 
-// asm:   0x183325880: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183325885: push rbp
-// asm:   0x183325886: sub rsp, 0x20
-// asm:   0x18332588a: mov rbp, rdx
-// asm:   0x18332588d: mov rax, qword ptr [rbp + 0x90]
-// asm:   0x183325894: mov rcx, qword ptr [rax]
-// asm:   0x183325897: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x18332589b: movabs rax, 0
-// asm:   0x1833258a5: add rsp, 0x20
-// asm:   0x1833258a9: pop rbp
-// asm:   0x1833258aa: ret 
+// 0x5859bc0
+// eh: try 0x5859d5a..0x5859f3e -> pad 0x5859f67 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5859f49..0x5859f53 -> pad 0x5859fc1 catch (...) [compiler noexcept guard]
+// eh: try 0x5859f82..0x5859f87 -> pad 0x5859fac cleanup
+// eh: try 0x5859faf..0x5859fb9 -> pad 0x5859fc1 catch (...) [compiler noexcept guard]
+// asm: 58 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5859ebd: jmp 0x5859f2c
+// asm:   0x5859ed4: jmp 0x5859ee2
+// asm:   0x5859ed6: jmp 0x5859ee2
+// asm:   0x5859ed8: jmp 0x5859ee2
+// asm:   0x5859eda: jmp 0x5859ee2
+// asm:   0x5859edc: jmp 0x5859ee2
+// asm:   0x5859ede: jmp 0x5859ee2
+// asm:   0x5859ee0: jmp 0x5859ee2
+// asm:   0x5859ee2: mov rbx, rdx
+// asm:   0x5859ee5: mov r13, rax
+// asm:   0x5859ee8: cmp ebx, 1
+// asm:   0x5859eeb: jne 0x5859f49
+// asm:   0x5859eed: mov rdi, r13
+// asm:   0x5859ef0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5859ef5: mov rbx, qword ptr [rax]
+// asm:   0x5859ef8: mov qword ptr [rsp + 8], rbx
+// asm:   0x5859efd: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5859f02: jmp 0x5859ea2
+// asm:   0x5859f2c: mov rdi, rbx
+// asm:   0x5859f2f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5859f43: mov rbx, rdx
+// asm:   0x5859f46: mov r13, rax
+// asm:   0x5859f49: lea rdi, [rsp + 8]
+// asm:   0x5859f4e: call 0x2fce750  ; il2cpp_runtime_helper_02fce750()
+// asm:   0x5859f53: jmp 0x5859f6d
+// asm:   0x5859f55: jmp 0x5859f67
+// asm:   0x5859f57: jmp 0x5859f67
+// asm:   0x5859f59: jmp 0x5859f67
+// asm:   0x5859f5b: jmp 0x5859f67
+// asm:   0x5859f5d: jmp 0x5859f67
+// asm:   0x5859f5f: jmp 0x5859f67
+// asm:   0x5859f61: jmp 0x5859f67
+// asm:   0x5859f63: jmp 0x5859f67
+// asm:   0x5859f65: jmp 0x5859f67
+// asm:   0x5859f67: mov rbx, rdx
+// asm:   0x5859f6a: mov r13, rax
+// asm:   0x5859f6d: cmp ebx, 1
+// asm:   0x5859f70: jne 0x5859faf
+// asm:   0x5859f72: mov rdi, r13
+// asm:   0x5859f75: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5859f7a: mov rbx, qword ptr [rax]
+// asm:   0x5859f7d: mov qword ptr [rsp + 0x58], rbx
+// asm:   0x5859f82: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5859f87: lea rax, [rip + 0x1a35d6a]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material
+// asm:   0x5859f8e: mov rsi, qword ptr [rax]
+// asm:   0x5859f91: lea rdi, [rsp + 0x20]
+// asm:   0x5859f96: call 0x4de7070  ; System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose()
+// asm:   0x5859f9b: test rbx, rbx
+// asm:   0x5859f9e: je 0x5859f18
+// asm:   0x5859fa4: mov rdi, rbx
+// asm:   0x5859fa7: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5859fac: mov r13, rax
+// asm:   0x5859faf: lea rdi, [rsp + 0x58]
+// asm:   0x5859fb4: call 0x2fce780  ; il2cpp_runtime_helper_02fce780()
+// asm:   0x5859fb9: mov rdi, r13
+// asm:   0x5859fbc: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5859fc1: mov rdi, rax
+// asm:   0x5859fc4: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__ResetSkyboxColors(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *__this_00;
   Il2CppObject *key;
   Il2CppObject *key_00;
   bool bVar1;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *pSVar2;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *__this_01;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *pSVar2;
   System_Collections_Generic_Dictionary_object__object__o *pSVar3;
-  UnityEngine_Material_o *__this_02;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_a8;
-  undefined8 local_88;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *local_80;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o local_78;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o local_60 [2];
+  UnityEngine_Material_o *__this_00;
+  UnityEngine_Color_o value;
+  undefined1 local_90 [16];
+  Il2CppObject *local_80;
+  undefined1 local_78 [8];
+  undefined8 uStack_70;
+  Il2CppObject *local_68;
+  undefined1 local_58 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_50;
+  Il2CppObject *local_48;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_184344936 == '\0') {
+  if (Il2CppMethodInitialized_0754508e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1529,11 +1569,11 @@ void Weather_WeatherManager__ResetSkyboxColors(Weather_WeatherManager_o *__this,
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_40b6ac0
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_718fd00
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_40b6ba0
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_718fd08
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1547,130 +1587,128 @@ void Weather_WeatherManager__ResetSkyboxColors(Weather_WeatherManager_o *__this,
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&"_Tint");
-    Il2CppMethodInitialized_184344936 = '\x01';
+    Il2CppMethodInitialized_0754508e = '\x01';
   }
-  local_78.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_78.fields._index = 0;
-  local_78.fields._version = 0;
-  local_78.fields._currentKey = (Il2CppObject *)0x0;
-  local_60[0].fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_60[0].fields._index = 0;
-  local_60[0].fields._version = 0;
-  local_60[0].fields._currentKey = (Il2CppObject *)0x0;
+  local_78 = (undefined1  [8])0x0;
+  uStack_70._0_4_ = 0;
+  uStack_70._4_4_ = 0;
+  local_68 = (Il2CppObject *)0x0;
+  local_58 = (undefined1  [8])0x0;
+  pSStack_50 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_48 = (Il2CppObject *)0x0;
   if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
   }
-  __this_00 = TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-  if (__this_00 != (System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *)0x0) {
-    pSVar2 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-             System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                       ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                        (MethodInfo_13C6500 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Keys
-                       );
-    if (pSVar2 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                (&local_a8,pSVar2,
-                 (MethodInfo_F1E4D0 *)
-                 MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_Dictionary_string_Material_GetEnumera
+  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+  if ((pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+     (pSVar2 = System_Collections_Generic_Dictionary_object__object___get_Keys
+                         (pSVar3,(MethodInfo_4AAD0F0 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Keys
+                         ),
+     pSVar2 == (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
+            ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_90,pSVar2
+             ,(MethodInfo_511A520 *)
+              MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_Dictionary_string_Material_GetEnumera
+            );
+  local_68 = local_80;
+  local_78 = (undefined1  [8])local_90._0_8_;
+  uStack_70 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_90._8_8_
+  ;
+  local_40 = 0;
+  local_38 = local_78;
+  while( true ) {
+    bVar1 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
+                      ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                       local_78,(MethodInfo_4CE7080 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_718fd00
+                      );
+    key = local_68;
+    if (!bVar1) {
+      System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
+                ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_78,
+                 (MethodInfo_4CE7070 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material
                 );
-      local_78.fields._dictionary = local_a8.fields._dictionary;
-      local_78.fields._index = local_a8.fields._index;
-      local_78.fields._version = local_a8.fields._version;
-      local_78.fields._currentKey = local_a8.fields._currentValue;
-      while( true ) {
-        bVar1 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
-                          (&local_78,
-                           (MethodInfo_156BDD0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material_40b6ac0
-                          );
-        key = local_78.fields._currentKey;
-        if (!bVar1) {
-          System_Configuration_ConfigurationCollectionAttribute___ctor
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_78,
-                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Dictionary_string_Material
-                    );
-          return;
-        }
-        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-        }
-        pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        __this_01 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
-                    System_Collections_Generic_Dictionary_object__object___get_Item
-                              (pSVar3,key,
-                               (MethodInfo_147A5B0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
-                              );
-        if (__this_01 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pSVar2 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                 System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                           (__this_01,
-                            (MethodInfo_13C6500 *)
-                            MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Keys);
-        if (pSVar2 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) break;
-        System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                  (&local_a8,pSVar2,
-                   (MethodInfo_F1E4D0 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_Material_GetEnumerator
-                  );
-        local_60[0].fields._dictionary = local_a8.fields._dictionary;
-        local_60[0].fields._index = local_a8.fields._index;
-        local_60[0].fields._version = local_a8.fields._version;
-        local_60[0].fields._currentKey = local_a8.fields._currentValue;
-        local_88 = 0;
-        local_80 = local_60;
-        while( true ) {
-          bVar1 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
-                            (local_60,(MethodInfo_156BDD0 *)
-                                      MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Material_MoveNext
-                            );
-          key_00 = local_60[0].fields._currentKey;
-          if (!bVar1) break;
-          if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-          }
-          pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                   TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-          if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                   System_Collections_Generic_Dictionary_object__object___get_Item
-                             (pSVar3,key,
-                              (MethodInfo_147A5B0 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
-                             );
-          if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          __this_02 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                (pSVar3,key_00,
-                                 (MethodInfo_147A5B0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
-          if (__this_02 == (UnityEngine_Material_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          local_a8.fields._dictionary =
-               (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x3f0000003f000000;
-          local_a8.fields._index = 0x3f000000;
-          local_a8.fields._version = 0x3f800000;
-          UnityEngine_Material__SetVector
-                    (__this_02,"_Tint",(UnityEngine_Vector4_o *)&local_a8,(MethodInfo *)0x0);
-        }
-        System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60,
-                   MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Material_Dispose
-                  );
-      }
+      return;
+    }
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    }
+    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+    if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
       ThrowNullReferenceException();
     }
+    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+             System_Collections_Generic_Dictionary_object__object___get_Item
+                       (pSVar3,key,
+                        (MethodInfo_4AAD450 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
+                       );
+    if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar2 = System_Collections_Generic_Dictionary_object__object___get_Keys
+                       (pSVar3,(MethodInfo_4AAD0F0 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Keys);
+    if (pSVar2 == (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0) break;
+    System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
+              ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_90,
+               pSVar2,(MethodInfo_511A520 *)
+                      MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_Material_GetEnumerator
+              );
+    local_48 = local_80;
+    local_58 = (undefined1  [8])local_90._0_8_;
+    pSStack_50 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                 local_90._8_8_;
+    local_90._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+    local_90._8_8_ =
+         (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_58;
+    while (bVar1 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
+                             ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                               *)local_58,
+                              (MethodInfo_4CE7080 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Material_MoveNext
+                             ), key_00 = local_48, bVar1) {
+      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      }
+      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+      if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+               System_Collections_Generic_Dictionary_object__object___get_Item
+                         (pSVar3,key,
+                          (MethodInfo_4AAD450 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
+                         );
+      if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      __this_00 = System_Collections_Generic_Dictionary_object__object___get_Item
+                            (pSVar3,key_00,
+                             (MethodInfo_4AAD450 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+      if (__this_00 == (UnityEngine_Material_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      value.fields.b = 0.5;
+      value.fields.a = 1.0;
+      value.fields.r = 0.5;
+      value.fields.g = 0.5;
+      UnityEngine_Material__SetColor(__this_00,"_Tint",value,(MethodInfo *)0x0);
+    }
+    System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
+              ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_58,
+               (MethodInfo_4CE7070 *)
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_Material_Dispose
+              );
   }
   ThrowNullReferenceException();
 }
@@ -1678,43 +1716,44 @@ void Weather_WeatherManager__ResetSkyboxColors(Weather_WeatherManager_o *__this,
 
 // Weather.WeatherManager$$ResetPhysics
 // il2cpp: void Weather_WeatherManager__ResetPhysics (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db7520
+// 0x5859fd0
 
 void Weather_WeatherManager__ResetPhysics(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
-  Weather_WeatherManager_o *pWVar1;
+  uint32_t uVar1;
+  Weather_WeatherManager_o *pWVar2;
   
-  if (Il2CppMethodInitialized_184344937 == '\0') {
+  if (Il2CppMethodInitialized_0754508f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344937 = '\x01';
+    Il2CppMethodInitialized_0754508f = '\x01';
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
-  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-    (pWVar1->fields)._currentWindForce = 0.0;
-    pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-    if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-      (pWVar1->fields)._currentRainForce = 0.0;
-      pWVar1 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (pWVar1 != (Weather_WeatherManager_o *)0x0) {
-        (pWVar1->fields)._currentSnowForce = 0.0;
-        return;
-      }
-    }
+  else {
+    pWVar2 = *(Weather_WeatherManager_o **)((Il2CppClass *)TypeInfo_Weather_WeatherManager)->static_fields;
   }
-  ThrowNullReferenceException();
+  if (pWVar2 == (Weather_WeatherManager_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (pWVar2->fields)._currentWindForce = 0.0;
+  (pWVar2->fields)._currentRainForce = 0.0;
+  (pWVar2->fields)._currentSnowForce = 0.0;
+  return;
 }
 
 
 // Weather.WeatherManager$$GetWeatherForce
 // il2cpp: UnityEngine_Vector3_o Weather_WeatherManager__GetWeatherForce (const MethodInfo* method);
-// 0x181db54a0
+// 0x585a060
 
-UnityEngine_Vector3_o *
-Weather_WeatherManager__GetWeatherForce(UnityEngine_Vector3_o *__return_storage_ptr__,MethodInfo *method)
+UnityEngine_Vector3_o Weather_WeatherManager__GetWeatherForce(MethodInfo *method)
 
 {
   float fVar1;
@@ -1724,248 +1763,225 @@ Weather_WeatherManager__GetWeatherForce(UnityEngine_Vector3_o *__return_storage_
   undefined4 uVar5;
   undefined4 uVar6;
   undefined4 uVar7;
-  undefined4 uVar8;
-  undefined4 uVar9;
-  undefined4 uVar10;
-  undefined4 uVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  uint32_t uVar14;
-  float fVar15;
-  UnityEngine_Vector3_StaticFields *pUVar16;
-  Weather_WeatherManager_o *pWVar17;
-  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar18;
-  Weather_WindWeatherEffect_StaticFields *pWVar19;
-  Weather_BaseWeatherEffect_o *pWVar20;
-  Il2CppClass *klass;
-  bool bVar21;
+  UnityEngine_Vector3_StaticFields *pUVar8;
+  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar9;
+  Weather_WindWeatherEffect_StaticFields *pWVar10;
+  Weather_BaseWeatherEffect_o *pWVar11;
+  Weather_WeatherManager_o *pWVar12;
+  UnityEngine_Vector3_o UVar13;
+  float local_3c;
+  undefined8 local_38;
   
-  if (Il2CppMethodInitialized_184344938 == '\0') {
+  if (Il2CppMethodInitialized_07545090 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WindWeatherEffect);
-    Il2CppMethodInitialized_184344938 = '\x01';
+    Il2CppMethodInitialized_07545090 = '\x01';
   }
-  bVar21 = g_data_18433dbea == '\0';
-  (__return_storage_ptr__->fields).x = 0.0;
-  (__return_storage_ptr__->fields).y = 0.0;
-  (__return_storage_ptr__->fields).z = 0.0;
-  if (bVar21) {
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    g_data_18433dbea = '\x01';
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
   }
-  klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-  pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
-  uVar14 = (TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor;
-  fVar1 = (pUVar16->zeroVector).fields.y;
-  fVar15 = (pUVar16->zeroVector).fields.z;
-  (__return_storage_ptr__->fields).x = (pUVar16->zeroVector).fields.x;
-  (__return_storage_ptr__->fields).y = fVar1;
-  (__return_storage_ptr__->fields).z = fVar15;
-  if (uVar14 == 0) {
-    il2cpp_codegen_runtime_class_init(klass);
-    klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
+  pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
+  local_38._0_4_ = (pUVar8->zeroVector).fields.x;
+  local_38._4_4_ = (pUVar8->zeroVector).fields.y;
+  local_3c = (pUVar8->zeroVector).fields.z;
+  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
   }
-  if (*(longlong *)klass->static_fields != 0) {
-    if (0.0 < *(float *)(*(longlong *)klass->static_fields + 0x94)) {
-      if ((klass->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(klass);
-        klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-      }
-      pWVar17 = klass->static_fields->_instance;
-      if (((pWVar17 == (Weather_WeatherManager_o *)0x0) ||
-          (pSVar18 = (pWVar17->fields)._effects,
-          pSVar18 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) ||
-         (pWVar20 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar18,10,
-                               (MethodInfo_1454ED0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                              ), pWVar20 == (Weather_BaseWeatherEffect_o *)0x0)) goto label_181db5921;
-      klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-      if (0.0 < (pWVar20->fields)._level) {
-        fVar15 = (__return_storage_ptr__->fields).x;
-        uVar2 = (__return_storage_ptr__->fields).y;
-        uVar8 = (__return_storage_ptr__->fields).z;
-        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-        }
-        pWVar17 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-        if (pWVar17 == (Weather_WeatherManager_o *)0x0) goto label_181db5921;
-        fVar1 = (pWVar17->fields)._currentRainForce;
-        if (Il2CppMethodInitialized_18434494b == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18434494b = '\x01';
-        }
-        klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-        pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
-        uVar3 = (pUVar16->downVector).fields.y;
-        uVar9 = (pUVar16->downVector).fields.z;
-        (__return_storage_ptr__->fields).x = fVar1 * (pUVar16->downVector).fields.x + fVar15;
-        (__return_storage_ptr__->fields).y = (float)uVar3 * fVar1 + (float)uVar2;
-        (__return_storage_ptr__->fields).z = (float)uVar9 * fVar1 + (float)uVar8;
-      }
+  pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+  if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+  if (0.0 < (pWVar12->fields)._currentRainForce) {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
     }
-    if ((klass->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(klass);
-      klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
+    pSVar9 = (pWVar12->fields)._effects;
+    if (pSVar9 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)
+    goto label_0585a46f;
+    pWVar11 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar9,10,
+                         (MethodInfo_4A54F30 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                        );
+    if (pWVar11 == (Weather_BaseWeatherEffect_o *)0x0) goto label_0585a46f;
+    if (0.0 < (pWVar11->fields)._level) {
+      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      }
+      pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+      fVar1 = (pWVar12->fields)._currentRainForce;
+      if (Il2CppMethodInitialized_075450a5 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+        Il2CppMethodInitialized_075450a5 = '\x01';
+      }
+      pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
+      uVar2 = (pUVar8->downVector).fields.x;
+      uVar5 = (pUVar8->downVector).fields.y;
+      local_38 = CONCAT44(local_38._4_4_ + fVar1 * (float)uVar5,(float)local_38 + fVar1 * (float)uVar2);
+      local_3c = local_3c + (pUVar8->downVector).fields.z * fVar1;
     }
-    if (*(longlong *)klass->static_fields != 0) {
-      if (0.0 < *(float *)(*(longlong *)klass->static_fields + 0x98)) {
-        if ((klass->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init(klass);
-          klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-        }
-        pWVar17 = klass->static_fields->_instance;
-        if (((pWVar17 == (Weather_WeatherManager_o *)0x0) ||
-            (pSVar18 = (pWVar17->fields)._effects,
-            pSVar18 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) ||
-           (pWVar20 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar18,0xc,
-                                 (MethodInfo_1454ED0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                                ), pWVar20 == (Weather_BaseWeatherEffect_o *)0x0)) goto label_181db5921;
-        klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-        if (0.0 < (pWVar20->fields)._level) {
-          fVar15 = (__return_storage_ptr__->fields).x;
-          uVar4 = (__return_storage_ptr__->fields).y;
-          uVar10 = (__return_storage_ptr__->fields).z;
+  }
+  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+  }
+  pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+  if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+  if (0.0 < (pWVar12->fields)._currentSnowForce) {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+    }
+    pSVar9 = (pWVar12->fields)._effects;
+    if (pSVar9 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)
+    goto label_0585a46f;
+    pWVar11 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar9,0xc,
+                         (MethodInfo_4A54F30 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                        );
+    if (pWVar11 == (Weather_BaseWeatherEffect_o *)0x0) goto label_0585a46f;
+    if (0.0 < (pWVar11->fields)._level) {
+      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      }
+      pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+      fVar1 = (pWVar12->fields)._currentSnowForce;
+      if (Il2CppMethodInitialized_075450a5 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+        Il2CppMethodInitialized_075450a5 = '\x01';
+      }
+      pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
+      uVar3 = (pUVar8->downVector).fields.x;
+      uVar6 = (pUVar8->downVector).fields.y;
+      local_38 = CONCAT44(local_38._4_4_ + fVar1 * (float)uVar6,(float)local_38 + fVar1 * (float)uVar3);
+      local_3c = local_3c + (pUVar8->downVector).fields.z * fVar1;
+    }
+  }
+  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+  }
+  pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+  if (pWVar12 != (Weather_WeatherManager_o *)0x0) {
+    if ((pWVar12->fields)._currentWindForce <= 0.0) goto label_0585a45c;
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+      pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+    }
+    pSVar9 = (pWVar12->fields)._effects;
+    if (pSVar9 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+      pWVar11 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar9,0xd,
+                           (MethodInfo_4A54F30 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                          );
+      if (pWVar11 != (Weather_BaseWeatherEffect_o *)0x0) {
+        if (0.0 < (pWVar11->fields)._level) {
           if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
           }
-          pWVar17 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-          if (pWVar17 == (Weather_WeatherManager_o *)0x0) goto label_181db5921;
-          fVar1 = (pWVar17->fields)._currentSnowForce;
-          if (Il2CppMethodInitialized_18434494b == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-            Il2CppMethodInitialized_18434494b = '\x01';
+          pWVar12 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+          if (pWVar12 == (Weather_WeatherManager_o *)0x0) goto label_0585a46f;
+          fVar1 = (pWVar12->fields)._currentWindForce;
+          if ((TypeInfo_Weather_WindWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WindWeatherEffect);
           }
-          klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-          pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
-          uVar5 = (pUVar16->downVector).fields.y;
-          uVar11 = (pUVar16->downVector).fields.z;
-          (__return_storage_ptr__->fields).x = fVar1 * (pUVar16->downVector).fields.x + fVar15;
-          (__return_storage_ptr__->fields).y = (float)uVar5 * fVar1 + (float)uVar4;
-          (__return_storage_ptr__->fields).z = (float)uVar11 * fVar1 + (float)uVar10;
+          pWVar10 = TypeInfo_Weather_WindWeatherEffect->static_fields;
+          uVar4 = (pWVar10->WindDirection).fields.x;
+          uVar7 = (pWVar10->WindDirection).fields.y;
+          local_38 = CONCAT44(local_38._4_4_ + fVar1 * (float)uVar7,(float)local_38 + fVar1 * (float)uVar4);
+          local_3c = local_3c + (pWVar10->WindDirection).fields.z * fVar1;
         }
-      }
-      if ((klass->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(klass);
-        klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-      }
-      if (*(longlong *)klass->static_fields != 0) {
-        if (*(float *)(*(longlong *)klass->static_fields + 0x9c) <= 0.0) {
-          return __return_storage_ptr__;
-        }
-        if ((klass->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init(klass);
-          klass = (Il2CppClass *)TypeInfo_Weather_WeatherManager;
-        }
-        pWVar17 = klass->static_fields->_instance;
-        if (((pWVar17 != (Weather_WeatherManager_o *)0x0) &&
-            (pSVar18 = (pWVar17->fields)._effects,
-            pSVar18 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) &&
-           (pWVar20 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar18,0xd,
-                                 (MethodInfo_1454ED0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                                ), pWVar20 != (Weather_BaseWeatherEffect_o *)0x0)) {
-          if (0.0 < (pWVar20->fields)._level) {
-            fVar15 = (__return_storage_ptr__->fields).x;
-            uVar6 = (__return_storage_ptr__->fields).y;
-            uVar12 = (__return_storage_ptr__->fields).z;
-            if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-            }
-            pWVar17 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-            if (pWVar17 == (Weather_WeatherManager_o *)0x0) goto label_181db5921;
-            fVar1 = (pWVar17->fields)._currentWindForce;
-            if ((TypeInfo_Weather_WindWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WindWeatherEffect);
-            }
-            pWVar19 = TypeInfo_Weather_WindWeatherEffect->static_fields;
-            uVar7 = (pWVar19->WindDirection).fields.y;
-            uVar13 = (pWVar19->WindDirection).fields.z;
-            (__return_storage_ptr__->fields).x = fVar1 * (pWVar19->WindDirection).fields.x + fVar15;
-            (__return_storage_ptr__->fields).y = (float)uVar7 * fVar1 + (float)uVar6;
-            (__return_storage_ptr__->fields).z = (float)uVar13 * fVar1 + (float)uVar12;
-          }
-          return __return_storage_ptr__;
-        }
+label_0585a45c:
+        UVar13.fields.z = local_3c;
+        UVar13.fields.x = (float)local_38;
+        UVar13.fields.y = local_38._4_4_;
+        return (UnityEngine_Vector3_o)UVar13.fields;
       }
     }
   }
-label_181db5921:
+label_0585a46f:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$RestartWeather
 // il2cpp: void Weather_WeatherManager__RestartWeather (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db7960
-// eh: try 0x181db8090..0x181db8142 -> pad 0x183315a20 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db7ea6: mov rbx, r14
-// asm:   0x181db7ea9: jmp 0x181db7ede
-// asm:   0x181db80da: mov rdx, qword ptr [rip + 0x22e6907]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose
-// asm:   0x181db80e1: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x181db80e6: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db80eb: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181db80f0: test rcx, rcx
-// asm:   0x181db80f3: jne 0x181db8142
-// asm:   0x181db80f5: mov rdi, qword ptr [rsp + 0xa0]
-// asm:   0x181db8142: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315a25: push rbp
-// asm:   0x183315a26: sub rsp, 0x30
-// asm:   0x183315a2a: mov rbp, rdx
-// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315a31: mov rcx, qword ptr [rax]
-// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
-// asm:   0x183315a38: movabs rax, 0
-// asm:   0x183315a42: add rsp, 0x30
-// asm:   0x183315a46: pop rbp
-// asm:   0x183315a47: ret 
+// 0x5858f00
+// eh: try 0x5859494..0x5859513 -> pad 0x585951d (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5859537..0x585953c -> pad 0x585955f cleanup
+// eh: try 0x5859562..0x585956c -> pad 0x5859574 catch (...) [compiler noexcept guard]
+// asm: 29 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585904e: jmp 0x5859509
+// asm:   0x5859210: jmp 0x58594ea
+// asm:   0x58592eb: jmp 0x58593ae
+// asm:   0x5859320: jmp 0x58593ae
+// asm:   0x585951b: jmp 0x585951f
+// asm:   0x585951d: jmp 0x585951f
+// asm:   0x585951f: mov rbx, rax
+// asm:   0x5859522: cmp edx, 1
+// asm:   0x5859525: jne 0x5859562
+// asm:   0x5859527: mov rdi, rbx
+// asm:   0x585952a: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585952f: mov rbx, qword ptr [rax]
+// asm:   0x5859532: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5859537: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585953c: lea rax, [rip + 0x1a359d5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose
+// asm:   0x5859543: mov rsi, qword ptr [rax]
+// asm:   0x5859546: mov rdi, rsp
+// asm:   0x5859549: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585954e: test rbx, rbx
+// asm:   0x5859551: je 0x58594d2
+// asm:   0x5859557: mov rdi, rbx
+// asm:   0x585955a: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585955f: mov rbx, rax
+// asm:   0x5859562: lea rdi, [rsp + 0x18]
+// asm:   0x5859567: call 0x2fce7b0  ; il2cpp_runtime_helper_02fce7b0()
+// asm:   0x585956c: mov rdi, rbx
+// asm:   0x585956f: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5859574: mov rdi, rax
+// asm:   0x5859577: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__RestartWeather(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
   byte bVar2;
-  int32_t iVar3;
-  uint uVar4;
-  System_Collections_Generic_List_Camera__o *pSVar5;
-  Weather_WeatherManager_o *pWVar6;
-  Cameras_BaseCamera_o *pCVar7;
-  UnityEngine_Camera_o *item;
-  UnityEngine_Camera_array *pUVar8;
-  System_Collections_Generic_List_WeatherScheduleRunner__o *pSVar9;
+  int32_t length;
+  System_Collections_Generic_List_WeatherScheduleRunner__o *pSVar3;
   System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *__this_00;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar10;
-  System_Collections_Generic_List_WeatherEffect__o *pSVar11;
+  System_Collections_Generic_Dictionary_int__float__o *pSVar4;
+  System_Collections_Generic_List_WeatherEffect__o *pSVar5;
   System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *__this_01;
-  Settings_ColorSetting_o *__this_02;
-  Settings_WeatherSettings_o *pSVar12;
-  Settings_SetSettingsContainer_WeatherSet__o *pSVar13;
-  Settings_InGameSet_o *pSVar14;
-  Settings_IntSetting_o *pSVar15;
-  Settings_ListSetting_T__o *__this_03;
-  Settings_StringSetting_o *pSVar16;
-  Settings_BoolSetting_o *pSVar17;
-  MethodInfo *pMVar18;
-  Weather_WeatherScheduleRunner_o *__this_04;
-  bool bVar19;
-  Utility_Color255_o *__this_05;
-  Settings_WeatherSet_o *pSVar20;
-  Settings_WeatherSet_c *pSVar21;
-  Settings_WeatherSet_o *pSVar22;
-  undefined1 local_60 [16];
-  Weather_WeatherScheduleRunner_o *local_50;
-  undefined1 local_48 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_40;
-  Weather_WeatherScheduleRunner_o *local_38;
+  Settings_WeatherSettings_o *pSVar6;
+  Settings_SetSettingsContainer_WeatherSet__o *pSVar7;
+  Settings_InGameSet_o *pSVar8;
+  Settings_IntSetting_o *pSVar9;
+  Settings_ListSetting_T__o *__this_02;
+  Settings_StringSetting_o *pSVar10;
+  Settings_StringSetting_c *pSVar11;
+  Settings_BoolSetting_o *pSVar12;
+  Il2CppObject *__this_03;
+  bool bVar13;
+  Settings_WeatherSet_o *pSVar14;
+  Map_MapLoader_StaticFields *pMVar15;
+  Settings_WeatherSet_c *pSVar16;
+  MethodInfo *in_RCX;
+  MethodInfo *pMVar17;
+  MethodInfo *method_00;
+  Weather_WeatherManager_o *pWVar18;
+  Settings_WeatherSet_o *pSVar19;
+  System_Collections_Generic_List_Enumerator_T__o SStack_48;
+  undefined8 uStack_30;
+  undefined1 *puStack_28;
   
-  if (Il2CppMethodInitialized_184344939 == '\0') {
+  if (Il2CppMethodInitialized_07545091 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1994,332 +2010,571 @@ void Weather_WeatherManager__RestartWeather(Weather_WeatherManager_o *__this,Met
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_WeatherSet);
     il2cpp_codegen_initialize_runtime_metadata(&"Map Default*");
-    Il2CppMethodInitialized_184344939 = '\x01';
+    Il2CppMethodInitialized_07545091 = '\x01';
   }
-  local_48 = (undefined1  [8])0x0;
-  pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_38 = (Weather_WeatherScheduleRunner_o *)0x0;
-  if (Il2CppMethodInitialized_184344935 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Camera_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Camera_Clear);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+  SStack_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  SStack_48.fields._index = 0;
+  SStack_48.fields._version = 0;
+  SStack_48.fields._current = (Il2CppObject *)0x0;
+  pWVar18 = __this;
+  Weather_WeatherManager__ResetCameras(__this,method);
+  Weather_WeatherManager__ResetSkyboxColors(pWVar18,method);
+  if (Il2CppMethodInitialized_0754508f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344935 = '\x01';
-  }
-  pSVar5 = (__this->fields)._skyboxCameras;
-  if (pSVar5 == (System_Collections_Generic_List_Camera__o *)0x0) goto label_181db8130;
-  piVar1 = &(pSVar5->fields)._version;
-  *piVar1 = *piVar1 + 1;
-  iVar3 = (pSVar5->fields)._size;
-  pSVar22 = (Settings_WeatherSet_o *)0x0;
-  (pSVar5->fields)._size = 0;
-  if (0 < iVar3) {
-    System_Array__Clear((System_Array_o *)(pSVar5->fields)._items,0,iVar3,(MethodInfo *)0x0);
-  }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-  }
-  pMVar18 = MethodInfo_System_Collections_Generic_List_Camera_Add;
-  pWVar6 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (((pWVar6 == (Weather_WeatherManager_o *)0x0) ||
-      (pCVar7 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera,
-      pCVar7 == (Cameras_BaseCamera_o *)0x0)) ||
-     (pSVar5 = (pWVar6->fields)._skyboxCameras, pSVar5 == (System_Collections_Generic_List_Camera__o *)0x0))
-  goto label_181db8130;
-  item = (pCVar7->fields).Camera;
-  piVar1 = &(pSVar5->fields)._version;
-  *piVar1 = *piVar1 + 1;
-  pUVar8 = (pSVar5->fields)._items;
-  if (pUVar8 == (UnityEngine_Camera_array *)0x0) goto label_181db8130;
-  uVar4 = (pSVar5->fields)._size;
-  if (uVar4 < (uint)pUVar8->max_length) {
-    (pSVar5->fields)._size = uVar4 + 1;
-    if ((uint)pUVar8->max_length <= uVar4) {
-      ThrowIndexOutOfRangeException();
-    }
-    pUVar8->m_Items[(int)uVar4] = item;
-    Il2CppCodeGenWriteBarrier(pUVar8->m_Items + (int)uVar4,item);
+    Il2CppMethodInitialized_0754508f = '\x01';
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) goto label_05859079;
+label_0585903f:
+    pWVar18 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
   else {
-    System_Collections_Generic_List_object___AddWithResize
-              ((System_Collections_Generic_List_object__o *)pSVar5,(Il2CppObject *)item,
-               (MethodInfo_93DD50 *)pMVar18->klass->rgctx_data[0xe].method);
-  }
-  Weather_WeatherManager__ResetSkyboxColors(__this,(MethodInfo *)0x0);
-  if (Il2CppMethodInitialized_184344937 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344937 = '\x01';
-  }
-  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor != 0) goto label_0585903f;
+label_05859079:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    pWVar18 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
   }
-  pWVar6 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar6 == (Weather_WeatherManager_o *)0x0) goto label_181db8130;
-  (pWVar6->fields)._currentWindForce = 0.0;
-  pWVar6 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar6 == (Weather_WeatherManager_o *)0x0) goto label_181db8130;
-  (pWVar6->fields)._currentRainForce = 0.0;
-  pWVar6 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-  if (pWVar6 == (Weather_WeatherManager_o *)0x0) goto label_181db8130;
-  (pWVar6->fields)._currentSnowForce = 0.0;
-  pSVar9 = (__this->fields)._scheduleRunners;
-  if (pSVar9 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) goto label_181db8130;
-  piVar1 = &(pSVar9->fields)._version;
+  if (pWVar18 == (Weather_WeatherManager_o *)0x0) goto label_05859509;
+  (pWVar18->fields)._currentWindForce = 0.0;
+  (pWVar18->fields)._currentRainForce = 0.0;
+  (pWVar18->fields)._currentSnowForce = 0.0;
+  pSVar3 = (__this->fields)._scheduleRunners;
+  if (pSVar3 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) goto label_05859509;
+  piVar1 = &(pSVar3->fields)._version;
   *piVar1 = *piVar1 + 1;
-  iVar3 = (pSVar9->fields)._size;
-  (pSVar9->fields)._size = 0;
-  if (0 < iVar3) {
-    System_Array__Clear((System_Array_o *)(pSVar9->fields)._items,0,iVar3,(MethodInfo *)0x0);
+  length = (pSVar3->fields)._size;
+  (pSVar3->fields)._size = 0;
+  if (0 < length) {
+    in_RCX = (MethodInfo *)0x0;
+    System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,length,(MethodInfo *)0x0);
   }
   __this_00 = (__this->fields)._effects;
   if (__this_00 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)
-  goto label_181db8130;
-  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+  goto label_05859509;
+  System_Collections_Generic_Dictionary_Int32Enum__object___Clear
             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_13BF1C0 *)
+             (MethodInfo_4A55190 *)
              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Clear);
-  pSVar20 = (__this->fields)._currentWeather;
-  if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-  (*(pSVar20->klass->vtable)._4_SetDefault.methodPtr)(pSVar20,(pSVar20->klass->vtable)._4_SetDefault.method);
-  pSVar20 = (__this->fields)._startWeather;
-  if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-  (*(pSVar20->klass->vtable)._4_SetDefault.methodPtr)(pSVar20,(pSVar20->klass->vtable)._4_SetDefault.method);
-  pSVar20 = (__this->fields)._targetWeather;
-  if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-  (*(pSVar20->klass->vtable)._4_SetDefault.methodPtr)(pSVar20,(pSVar20->klass->vtable)._4_SetDefault.method);
-  pSVar10 = (__this->fields)._targetWeatherStartTimes;
-  if (pSVar10 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_181db8130;
-  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10,
-             (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Clear);
-  pSVar10 = (__this->fields)._targetWeatherEndTimes;
-  if (pSVar10 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_181db8130;
-  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10,
-             (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Clear);
-  pSVar11 = (__this->fields)._needApply;
-  if (pSVar11 == (System_Collections_Generic_List_WeatherEffect__o *)0x0) goto label_181db8130;
-  piVar1 = &(pSVar11->fields)._version;
+  pSVar14 = (__this->fields)._currentWeather;
+  if (pSVar14 == (Settings_WeatherSet_o *)0x0) goto label_05859509;
+  (*(pSVar14->klass->vtable)._4_SetDefault.methodPtr)(pSVar14,(pSVar14->klass->vtable)._4_SetDefault.method);
+  pSVar14 = (__this->fields)._startWeather;
+  if (pSVar14 == (Settings_WeatherSet_o *)0x0) goto label_05859509;
+  (*(pSVar14->klass->vtable)._4_SetDefault.methodPtr)(pSVar14,(pSVar14->klass->vtable)._4_SetDefault.method);
+  pSVar14 = (__this->fields)._targetWeather;
+  if (pSVar14 == (Settings_WeatherSet_o *)0x0) goto label_05859509;
+  (*(pSVar14->klass->vtable)._4_SetDefault.methodPtr)(pSVar14,(pSVar14->klass->vtable)._4_SetDefault.method);
+  pSVar4 = (__this->fields)._targetWeatherStartTimes;
+  if (pSVar4 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_05859509;
+  System_Collections_Generic_Dictionary_int__float___Clear
+            (pSVar4,(MethodInfo_4A17650 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Clear);
+  pSVar4 = (__this->fields)._targetWeatherEndTimes;
+  if (pSVar4 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_05859509;
+  System_Collections_Generic_Dictionary_int__float___Clear
+            (pSVar4,(MethodInfo_4A17650 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Clear);
+  pSVar5 = (__this->fields)._needApply;
+  if (pSVar5 == (System_Collections_Generic_List_WeatherEffect__o *)0x0) goto label_05859509;
+  piVar1 = &(pSVar5->fields)._version;
   *piVar1 = *piVar1 + 1;
-  (pSVar11->fields)._size = 0;
+  (pSVar5->fields)._size = 0;
   (__this->fields)._currentTime = 0.0;
   __this_01 = (__this->fields)._currentScheduleWait;
   if (__this_01 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0)
-  goto label_181db8130;
-  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+  goto label_05859509;
+  pMVar17 = MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_Clear;
+  System_Collections_Generic_Dictionary_object__float___Clear
             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-             (MethodInfo_13BF1C0 *)
+             (MethodInfo_4AB5620 *)
              MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_Clear);
-  Weather_WeatherManager__CreateEffects(__this,(MethodInfo *)0x0);
-  if (Il2CppMethodInitialized_18434493a == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_set_Value);
-    Il2CppMethodInitialized_18434493a = '\x01';
-  }
-  if ((TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName == 4) ||
-     (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName == 3)) {
-    pSVar20 = (__this->fields)._currentWeather;
-    if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-    __this_02 = (pSVar20->fields).AmbientLight;
-    __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
-    Utility_Color255___ctor
-              ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)__this_05,0xff,0xff,0xff,0xff,
-               (MethodInfo *)0x0);
-    if (__this_02 == (Settings_ColorSetting_o *)0x0) goto label_181db8130;
-    Settings_TypedSetting_object___set_Value
-              ((Settings_TypedSetting_T__o *)__this_02,(Il2CppObject *)__this_05,
-               (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
-  }
-  Weather_WeatherManager__ApplyCurrentWeather(__this,true,true,(MethodInfo *)0x0);
-  if (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName != 2) goto label_181db8115;
+  Weather_WeatherManager__CreateEffects(__this,pMVar17);
+  Weather_WeatherManager__SetSceneWeather(__this,pMVar17);
+  Weather_WeatherManager__ApplyCurrentWeather(__this,true,true,in_RCX);
+  if (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName != 2) goto label_058594ea;
   if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    bVar13 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
   }
-  bVar19 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
-  if (!bVar19) goto label_181db8115;
-  pSVar12 = TypeInfo_Settings_SettingsManager->static_fields->WeatherSettings;
-  if (((pSVar12 == (Settings_WeatherSettings_o *)0x0) ||
-      (pSVar13 = (pSVar12->fields).WeatherSets, pSVar13 == (Settings_SetSettingsContainer_WeatherSet__o *)0x0)
-      ) || ((pSVar14 = TypeInfo_Settings_SettingsManager->static_fields->InGameCurrent,
-            pSVar14 == (Settings_InGameSet_o *)0x0 ||
-            ((pSVar15 = (pSVar14->fields).WeatherIndex, pSVar15 == (Settings_IntSetting_o *)0x0 ||
-             (__this_03 = (pSVar13->fields).Sets, __this_03 == (Settings_ListSetting_T__o *)0x0))))))
-  goto label_181db8130;
-  pSVar20 = (Settings_WeatherSet_o *)
+  else {
+    bVar13 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+  }
+  if (!bVar13) goto label_058594ea;
+  pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->WeatherSettings;
+  if ((((pSVar6 == (Settings_WeatherSettings_o *)0x0) ||
+       (pSVar7 = (pSVar6->fields).WeatherSets, pSVar7 == (Settings_SetSettingsContainer_WeatherSet__o *)0x0))
+      || (pSVar8 = TypeInfo_Settings_SettingsManager->static_fields->InGameCurrent,
+         pSVar8 == (Settings_InGameSet_o *)0x0)) ||
+     ((pSVar9 = (pSVar8->fields).WeatherIndex, pSVar9 == (Settings_IntSetting_o *)0x0 ||
+      (__this_02 = (pSVar7->fields).Sets, __this_02 == (Settings_ListSetting_T__o *)0x0)))) goto label_05859509;
+  pSVar14 = (Settings_WeatherSet_o *)
             Settings_ListSetting_object___GetItemAt
-                      (__this_03,(pSVar15->fields)._value,
-                       (MethodInfo_182B120 *)MethodInfo_Settings_ListSetting_WeatherSet_GetItemAt);
-  if (pSVar20 != (Settings_WeatherSet_o *)0x0) {
+                      (__this_02,(pSVar9->fields)._value,
+                       (MethodInfo_515DEA0 *)MethodInfo_Settings_ListSetting_WeatherSet_GetItemAt);
+  if (pSVar14 != (Settings_WeatherSet_o *)0x0) {
     bVar2 = (TypeInfo_Settings_WeatherSet->_2).typeHierarchyDepth;
-    if (((pSVar20->klass->_2).typeHierarchyDepth < bVar2) ||
-       (pSVar22 = pSVar20,
-       (pSVar20->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] != (Il2CppClass *)TypeInfo_Settings_WeatherSet
-       )) {
-      il2cpp_codegen_raise_invalid_cast_exception(pSVar20);
+    if (((pSVar14->klass->_2).typeHierarchyDepth < bVar2) ||
+       ((pSVar14->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != (Il2CppClass *)TypeInfo_Settings_WeatherSet))
+    {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar14);
     }
   }
   if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-  }
-  if (TypeInfo_Map_MapLoader->static_fields->HasWeather == false) {
-label_181db7fa2:
-    pSVar20 = (__this->fields)._currentWeather;
-    if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-    pSVar21 = pSVar20->klass;
+    pMVar15 = TypeInfo_Map_MapLoader->static_fields;
+    if (pMVar15->HasWeather != false) goto label_0585930d;
+label_058593ae:
+    pSVar19 = (__this->fields)._currentWeather;
+    if (pSVar19 == (Settings_WeatherSet_o *)0x0) goto label_05859509;
+    pSVar16 = pSVar19->klass;
+    pMVar17 = (pSVar16->vtable)._10_Copy.method;
   }
   else {
+    pMVar15 = TypeInfo_Map_MapLoader->static_fields;
+    if (pMVar15->HasWeather == false) goto label_058593ae;
+label_0585930d:
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+      if (TypeInfo_Map_MapLoader->static_fields->Weather != (Settings_WeatherSet_o *)0x0) goto label_0585933f;
+      goto label_058593ae;
+    }
+    if (pMVar15->Weather == (Settings_WeatherSet_o *)0x0) goto label_058593ae;
+label_0585933f:
+    if ((pSVar14 == (Settings_WeatherSet_o *)0x0) ||
+       (pSVar10 = (pSVar14->fields).Name, pSVar10 == (Settings_StringSetting_o *)0x0)) goto label_05859509;
+    bVar13 = System_String__op_Equality((pSVar10->fields)._value,"Map Default*",(MethodInfo *)0x0);
+    if (!bVar13) goto label_058593ae;
+    pSVar19 = (__this->fields)._currentWeather;
     if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
     }
-    if (TypeInfo_Map_MapLoader->static_fields->Weather == (Settings_WeatherSet_o *)0x0) goto label_181db7fa2;
-    if ((pSVar22 == (Settings_WeatherSet_o *)0x0) ||
-       (pSVar16 = (pSVar22->fields).Name, pSVar16 == (Settings_StringSetting_o *)0x0)) goto label_181db8130;
-    bVar19 = System_String__op_Equality((pSVar16->fields)._value,"Map Default*",(MethodInfo *)0x0);
-    if (!bVar19) goto label_181db7fa2;
-    pSVar20 = (__this->fields)._currentWeather;
-    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-    }
-    if (pSVar20 == (Settings_WeatherSet_o *)0x0) goto label_181db8130;
-    pSVar21 = pSVar20->klass;
-    pSVar22 = TypeInfo_Map_MapLoader->static_fields->Weather;
+    if (pSVar19 == (Settings_WeatherSet_o *)0x0) goto label_05859509;
+    pSVar14 = TypeInfo_Map_MapLoader->static_fields->Weather;
+    pSVar16 = pSVar19->klass;
+    pMVar17 = (pSVar16->vtable)._10_Copy.method;
   }
-  (*(pSVar21->vtable)._10_Copy.methodPtr)
-            (pSVar20,(Settings_BaseSetting_o *)pSVar22,(pSVar21->vtable)._10_Copy.method);
-  pSVar22 = (__this->fields)._currentWeather;
-  if ((pSVar22 != (Settings_WeatherSet_o *)0x0) &&
-     (pSVar16 = (pSVar22->fields).Schedule, pSVar16 != (Settings_StringSetting_o *)0x0)) {
-    Weather_WeatherManager__CreateScheduleRunners(__this,(pSVar16->fields)._value,(MethodInfo *)0x0);
-    pSVar22 = (__this->fields)._currentWeather;
-    if ((pSVar22 != (Settings_WeatherSet_o *)0x0) &&
-       (pSVar16 = (pSVar22->fields).Schedule, pSVar16 != (Settings_StringSetting_o *)0x0)) {
-      (*(pSVar16->klass->vtable)._4_SetDefault.methodPtr)();
-      pSVar22 = (__this->fields)._currentWeather;
-      if ((pSVar22 != (Settings_WeatherSet_o *)0x0) &&
-         (pSVar17 = (pSVar22->fields).UseSchedule, pSVar17 != (Settings_BoolSetting_o *)0x0)) {
-        if ((pSVar17->fields)._value != false) {
-          pSVar9 = (__this->fields)._scheduleRunners;
-          if (pSVar9 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) goto label_181db8130;
-          System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                    ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
-                     (System_Collections_Generic_List_T__o *)pSVar9,
-                     (MethodInfo_91F180 *)
+  (*(pSVar16->vtable)._10_Copy.methodPtr)(pSVar19,(Settings_BaseSetting_o *)pSVar14,pMVar17);
+  pSVar14 = (__this->fields)._currentWeather;
+  if ((pSVar14 != (Settings_WeatherSet_o *)0x0) &&
+     (pSVar10 = (pSVar14->fields).Schedule, pSVar10 != (Settings_StringSetting_o *)0x0)) {
+    Weather_WeatherManager__CreateScheduleRunners(__this,(pSVar10->fields)._value,method_00);
+    pSVar14 = (__this->fields)._currentWeather;
+    if ((pSVar14 != (Settings_WeatherSet_o *)0x0) &&
+       (pSVar10 = (pSVar14->fields).Schedule, pSVar10 != (Settings_StringSetting_o *)0x0)) {
+      pSVar11 = pSVar10->klass;
+      pMVar17 = (pSVar11->vtable)._4_SetDefault.method;
+      (*(pSVar11->vtable)._4_SetDefault.methodPtr)();
+      pSVar14 = (__this->fields)._currentWeather;
+      if ((pSVar14 != (Settings_WeatherSet_o *)0x0) &&
+         (pSVar12 = (pSVar14->fields).UseSchedule, pSVar12 != (Settings_BoolSetting_o *)0x0)) {
+        if ((pSVar12->fields)._value != false) {
+          pSVar3 = (__this->fields)._scheduleRunners;
+          if (pSVar3 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) goto label_05859509;
+          System_Collections_Generic_List_object___GetEnumerator
+                    (&SStack_48,(System_Collections_Generic_List_object__o *)pSVar3,
+                     (MethodInfo_395E050 *)
                      MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_GetEnumerator);
-          local_48 = (undefined1  [8])local_60._0_8_;
-          pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60._8_8_;
-          local_38 = local_50;
-          local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-          local_60._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48;
-          while (bVar19 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                    ((System_Collections_Generic_List_Enumerator_object__o *)local_48,
-                                     (MethodInfo_153A2A0 *)
+          uStack_30 = 0;
+          puStack_28 = (undefined1 *)&SStack_48;
+          while (bVar13 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                    ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_48,
+                                     (MethodInfo_4C45C50 *)
                                      MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_MoveNext
-                                    ), __this_04 = local_38, bVar19) {
-            if (local_38 == (Weather_WeatherScheduleRunner_o *)0x0) {
+                                    ), __this_03 = SStack_48.fields._current, bVar13) {
+            if ((Weather_WeatherScheduleRunner_o *)SStack_48.fields._current ==
+                (Weather_WeatherScheduleRunner_o *)0x0) {
               ThrowNullReferenceException();
             }
-            Weather_WeatherScheduleRunner__ProcessSchedule(local_38,(MethodInfo *)0x0);
-            Weather_WeatherScheduleRunner__ConsumeSchedule(__this_04,(MethodInfo *)0x0);
+            Weather_WeatherScheduleRunner__ProcessSchedule
+                      ((Weather_WeatherScheduleRunner_o *)SStack_48.fields._current,(MethodInfo *)0x0);
+            Weather_WeatherScheduleRunner__ConsumeSchedule
+                      ((Weather_WeatherScheduleRunner_o *)__this_03,(MethodInfo *)0x0);
           }
+          pMVar17 = MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose;
           System_Collections_Generic_List_Enumerator_object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48,
+                    ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_48,
+                     (MethodInfo_4C45C40 *)
                      MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose);
         }
-        Weather_WeatherManager__SyncWeather(__this,(MethodInfo *)0x0);
+        Weather_WeatherManager__SyncWeather(__this,pMVar17);
         (__this->fields)._currentSyncWait = 5.0;
         (__this->fields)._needSync = false;
-label_181db8115:
+label_058594ea:
         (__this->fields)._currentLerpWait = 0.05;
         (__this->fields)._finishedLoading = true;
         return;
       }
     }
   }
-label_181db8130:
+label_05859509:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$SetSceneWeather
 // il2cpp: void Weather_WeatherManager__SetSceneWeather (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db8160
+// 0x585a8d0
 
 void Weather_WeatherManager__SetSceneWeather(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
-  Settings_WeatherSet_o *pSVar1;
+  int iVar1;
+  Settings_WeatherSet_o *pSVar2;
   Settings_ColorSetting_o *__this_00;
+  Settings_GraphicsSettings_o *pSVar3;
+  Settings_IntSetting_o *pSVar4;
   Utility_Color255_o *__this_01;
   
-  if (Il2CppMethodInitialized_18434493a == '\0') {
+  if (Il2CppMethodInitialized_07545092 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_set_Value);
-    Il2CppMethodInitialized_18434493a = '\x01';
+    Il2CppMethodInitialized_07545092 = '\x01';
   }
-  if ((TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName != 4) &&
-     (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName != 3)) {
-    return;
+  iVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName;
+  if (iVar1 - 3U < 2) {
+    pSVar2 = (__this->fields)._currentWeather;
+    if (pSVar2 != (Settings_WeatherSet_o *)0x0) {
+      __this_00 = (pSVar2->fields).AmbientLight;
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+      Utility_Color255___ctor(__this_01,0xff,0xff,0xff,0xff,(MethodInfo *)0x0);
+      if (__this_00 != (Settings_ColorSetting_o *)0x0) {
+        Settings_TypedSetting_object___set_Value
+                  ((Settings_TypedSetting_T__o *)__this_00,(Il2CppObject *)__this_01,
+                   (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
+        return;
+      }
+    }
+label_0585a9ff:
+    ThrowNullReferenceException();
   }
-  pSVar1 = (__this->fields)._currentWeather;
-  if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
-    __this_00 = (pSVar1->fields).AmbientLight;
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
-    Utility_Color255___ctor
-              ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)__this_01,0xff,0xff,0xff,0xff,
-               (MethodInfo *)0x0);
-    if (__this_00 != (Settings_ColorSetting_o *)0x0) {
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)__this_00,(Il2CppObject *)__this_01,
-                 (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
+  if (iVar1 == 2) {
+    if (Il2CppMethodInitialized_075450a1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+      Il2CppMethodInitialized_075450a1 = '\x01';
+    }
+    pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
+    if ((pSVar3 == (Settings_GraphicsSettings_o *)0x0) ||
+       (pSVar4 = (pSVar3->fields).WeatherEffects, pSVar4 == (Settings_IntSetting_o *)0x0)) goto label_0585a9ff;
+    if ((pSVar4->fields)._value == 0) {
+      Weather_WeatherManager__ApplyMapDefaultLighting(__this,method);
       return;
     }
   }
-  ThrowNullReferenceException();
+  return;
+}
+
+
+// Weather.WeatherManager$$ApplyMapDefaultLighting
+// il2cpp: void Weather_WeatherManager__ApplyMapDefaultLighting (Weather_WeatherManager_o* __this, const MethodInfo* method);
+// 0x585c570
+// eh: try 0x585c71a..0x585c9b9 -> pad 0x585c9e0 (+20 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585c9c4..0x585c9ce -> pad 0x585ca3c catch (...) [compiler noexcept guard]
+// eh: try 0x585c9fd..0x585ca02 -> pad 0x585ca27 cleanup
+// eh: try 0x585ca2a..0x585ca34 -> pad 0x585ca3c catch (...) [compiler noexcept guard]
+// asm: 59 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585c70e: nop 
+// asm:   0x585c93f: jmp 0x585c94d
+// asm:   0x585c941: jmp 0x585c94d
+// asm:   0x585c943: jmp 0x585c94d
+// asm:   0x585c945: jmp 0x585c94d
+// asm:   0x585c947: jmp 0x585c94d
+// asm:   0x585c949: jmp 0x585c94d
+// asm:   0x585c94b: jmp 0x585c94d
+// asm:   0x585c94d: mov rbp, rdx
+// asm:   0x585c950: mov rbx, rax
+// asm:   0x585c953: cmp ebp, 1
+// asm:   0x585c956: jne 0x585c9c4
+// asm:   0x585c958: mov rdi, rbx
+// asm:   0x585c95b: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585c960: mov rbx, qword ptr [rax]
+// asm:   0x585c963: mov qword ptr [rsp + 0x58], rbx
+// asm:   0x585c968: mov bpl, 1
+// asm:   0x585c96b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585c970: jmp 0x585c8f4
+// asm:   0x585c9ac: mov rdi, rbx
+// asm:   0x585c9af: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585c9be: mov rbp, rdx
+// asm:   0x585c9c1: mov rbx, rax
+// asm:   0x585c9c4: lea rdi, [rsp + 0x58]
+// asm:   0x585c9c9: call 0x2fce7e0  ; il2cpp_runtime_helper_02fce7e0()
+// asm:   0x585c9ce: jmp 0x585c9e8
+// asm:   0x585c9d0: jmp 0x585c9e2
+// asm:   0x585c9d2: jmp 0x585c9e2
+// asm:   0x585c9d4: jmp 0x585c9e2
+// asm:   0x585c9d6: jmp 0x585c9e2
+// asm:   0x585c9d8: jmp 0x585c9e2
+// asm:   0x585c9da: jmp 0x585c9e2
+// asm:   0x585c9dc: jmp 0x585c9e2
+// asm:   0x585c9de: jmp 0x585c9e2
+// asm:   0x585c9e0: jmp 0x585c9e2
+// asm:   0x585c9e2: mov rbp, rdx
+// asm:   0x585c9e5: mov rbx, rax
+// asm:   0x585c9e8: cmp ebp, 1
+// asm:   0x585c9eb: jne 0x585ca2a
+// asm:   0x585c9ed: mov rdi, rbx
+// asm:   0x585c9f0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585c9f5: mov rbx, qword ptr [rax]
+// asm:   0x585c9f8: mov qword ptr [rsp + 0x68], rbx
+// asm:   0x585c9fd: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585ca02: lea rax, [rip + 0x1a30d9f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose
+// asm:   0x585ca09: mov rsi, qword ptr [rax]
+// asm:   0x585ca0c: lea rdi, [rsp + 0x20]
+// asm:   0x585ca11: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585ca16: test rbx, rbx
+// asm:   0x585ca19: je 0x585c986
+// asm:   0x585ca1f: mov rdi, rbx
+// asm:   0x585ca22: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585ca27: mov rbx, rax
+// asm:   0x585ca2a: lea rdi, [rsp + 0x68]
+// asm:   0x585ca2f: call 0x2fce810  ; il2cpp_runtime_helper_02fce810()
+// asm:   0x585ca34: mov rdi, rbx
+// asm:   0x585ca37: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585ca3c: mov rdi, rax
+// asm:   0x585ca3f: call 0x2ab61e0  ; __clang_call_terminate()
+
+void Weather_WeatherManager__ApplyMapDefaultLighting(Weather_WeatherManager_o *__this,MethodInfo *method)
+
+{
+  byte bVar1;
+  Settings_WeatherSettings_o *pSVar2;
+  Settings_SetSettingsContainer_WeatherSet__o *pSVar3;
+  Settings_ListSetting_T__o *__this_00;
+  System_Collections_Generic_HashSet_WeatherEffect__o *__this_01;
+  Settings_WeatherSet_o *pSVar4;
+  System_Collections_Specialized_OrderedDictionary_o *__this_02;
+  Il2CppClass *pIVar5;
+  Il2CppObject *pIVar6;
+  bool bVar7;
+  System_Collections_Generic_List_BaseSetting__o *__this_03;
+  System_String_o *key;
+  Il2CppObject *pIVar8;
+  Il2CppObject *pIVar9;
+  undefined1 auStack_a0 [8];
+  void *pvStack_98;
+  undefined4 uStack_90;
+  undefined4 uStack_8c;
+  undefined1 auStack_88 [8];
+  undefined8 uStack_80;
+  Il2CppObject *pIStack_78;
+  undefined1 auStack_68 [8];
+  void *pvStack_60;
+  Il2CppObject *pIStack_58;
+  undefined8 uStack_50;
+  System_Collections_Generic_HashSet_Enumerator_T__o *pSStack_48;
+  undefined8 uStack_40;
+  undefined1 *puStack_38;
+  
+  if (Il2CppMethodInitialized_07545093 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseSetting);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_WeatherEffect_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_WeatherEffect_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_WeatherEffect_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_WeatherSet_GetItems);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_WeatherSet);
+    il2cpp_codegen_initialize_runtime_metadata(&"Map Default*");
+    Il2CppMethodInitialized_07545093 = '\x01';
+  }
+  auStack_88 = (undefined1  [8])0x0;
+  uStack_80._0_4_ = 0;
+  uStack_80._4_4_ = 0;
+  pIStack_78 = (Il2CppObject *)0x0;
+  auStack_68 = (undefined1  [8])0x0;
+  pvStack_60 = (void *)0x0;
+  pIStack_58 = (Il2CppObject *)0x0;
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->WeatherSettings;
+  if ((((pSVar2 == (Settings_WeatherSettings_o *)0x0) ||
+       (pSVar3 = (pSVar2->fields).WeatherSets, pSVar3 == (Settings_SetSettingsContainer_WeatherSet__o *)0x0))
+      || (__this_00 = (pSVar3->fields).Sets, __this_00 == (Settings_ListSetting_T__o *)0x0)) ||
+     (__this_03 = Settings_ListSetting_object___GetItems
+                            (__this_00,
+                             (MethodInfo_515DED0 *)MethodInfo_Settings_ListSetting_WeatherSet_GetItems),
+     __this_03 == (System_Collections_Generic_List_BaseSetting__o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)auStack_a0,
+             (System_Collections_Generic_List_object__o *)__this_03,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
+  pIStack_78 = (Il2CppObject *)CONCAT44(uStack_8c,uStack_90);
+  auStack_88 = auStack_a0;
+  uStack_80 = pvStack_98;
+  uStack_40 = 0;
+  puStack_38 = auStack_88;
+  do {
+    do {
+      bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                        ((System_Collections_Generic_List_Enumerator_object__o *)auStack_88,
+                         (MethodInfo_4C45C50 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext);
+      pIVar6 = pIStack_78;
+      if (!bVar7) goto label_0585c972;
+      if (pIStack_78 == (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
+      }
+      bVar1 = (TypeInfo_Settings_WeatherSet->_2).typeHierarchyDepth;
+      if (((pIStack_78->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pIStack_78->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+          (Il2CppClass *)TypeInfo_Settings_WeatherSet)) {
+        il2cpp_codegen_raise_invalid_cast_exception(pIStack_78);
+      }
+      if (pIStack_78[3].monitor == (void *)0x0) {
+        ThrowNullReferenceException();
+      }
+    } while (*(char *)((long)pIStack_78[3].monitor + 0x19) == '\0');
+    if (pIStack_78[3].klass == (Il2CppClass *)0x0) {
+      ThrowNullReferenceException();
+    }
+    bVar7 = System_String__op_Inequality
+                      (((pIStack_78[3].klass)->_1).byval_arg.data,"Map Default*",(MethodInfo *)0x0);
+  } while (bVar7);
+  __this_01 = (__this->fields).LowEffects;
+  if (__this_01 == (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_HashSet_Int32Enum___GetEnumerator
+            ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_a0,
+             (System_Collections_Generic_HashSet_T__o *)__this_01,
+             (MethodInfo_4FAE100 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_GetEnumerator);
+  pIStack_58 = (Il2CppObject *)CONCAT44(uStack_8c,uStack_90);
+  auStack_68 = auStack_a0;
+  pvStack_60 = pvStack_98;
+  uStack_50 = 0;
+  pSStack_48 = (System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_68;
+  do {
+    bVar7 = System_Collections_Generic_HashSet_Enumerator_Int32Enum___MoveNext
+                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_68,
+                       (MethodInfo_4C3C760 *)
+                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_WeatherEffect_MoveNext);
+    if (!bVar7) {
+      System_Collections_Generic_HashSet_Enumerator_Int32Enum___Dispose
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_68,
+                 (MethodInfo_4C3C750 *)
+                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_WeatherEffect_Dispose);
+label_0585c972:
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)auStack_88,
+                 (MethodInfo_4C45C40 *)
+                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
+      return;
+    }
+    auStack_a0 = (undefined1  [8])TypeInfo_Weather_WeatherEffect;
+    pvStack_98 = (void *)0xffffffffffffffff;
+    uStack_90 = pIStack_58._0_4_;
+    key = System_Enum__ToString((System_Enum_o *)auStack_a0,(MethodInfo *)0x0);
+    pSVar4 = (__this->fields)._currentWeather;
+    if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    __this_02 = (pSVar4->fields).Settings;
+    if (__this_02 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar8 = System_Collections_Specialized_OrderedDictionary__get_Item
+                       (__this_02,(Il2CppObject *)key,(MethodInfo *)0x0);
+    if (pIVar6[1].monitor == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar9 = System_Collections_Specialized_OrderedDictionary__get_Item
+                       (pIVar6[1].monitor,(Il2CppObject *)key,(MethodInfo *)0x0);
+    if (pIVar8 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar5 = pIVar8->klass;
+    bVar1 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
+    if (((pIVar5->_2).typeHierarchyDepth < bVar1) ||
+       ((pIVar5->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
+label_0585c8e0:
+      il2cpp_codegen_raise_invalid_cast_exception(pIVar8);
+    }
+    if ((pIVar9 != (Il2CppObject *)0x0) &&
+       (((pIVar9->klass->_2).typeHierarchyDepth < bVar1 ||
+        ((pIVar9->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_BaseSetting))
+       )) {
+      pIVar8 = pIVar9;
+      goto label_0585c8e0;
+    }
+    (*pIVar5->vtable[10].methodPtr)(pIVar8,pIVar9,pIVar5->vtable[10].method);
+  } while( true );
 }
 
 
 // Weather.WeatherManager$$CreateScheduleRunners
 // il2cpp: void Weather_WeatherManager__CreateScheduleRunners (Weather_WeatherManager_o* __this, System_String_o* schedule, const MethodInfo* method);
-// 0x181db47a0
-// eh: try 0x181db48d0..0x181db49d5 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db4990: mov rdx, qword ptr [rip + 0x22e9db1]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose
-// asm:   0x181db4997: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181db499c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db49a1: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db49a6: test rcx, rcx
-// asm:   0x181db49a9: jne 0x181db49d5
-// asm:   0x181db49d5: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x585be20
+// eh: try 0x585bf6f..0x585c0df -> pad 0x585c0f4 (+11 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585c110..0x585c115 -> pad 0x585c134 cleanup
+// eh: try 0x585c137..0x585c141 -> pad 0x585c149 catch (...) [compiler noexcept guard]
+// asm: 33 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585c0e4: jmp 0x585c0f8
+// asm:   0x585c0e6: jmp 0x585c0f8
+// asm:   0x585c0e8: jmp 0x585c0f8
+// asm:   0x585c0ea: jmp 0x585c0f8
+// asm:   0x585c0ec: jmp 0x585c0f8
+// asm:   0x585c0ee: jmp 0x585c0f8
+// asm:   0x585c0f0: jmp 0x585c0f8
+// asm:   0x585c0f2: jmp 0x585c0f8
+// asm:   0x585c0f4: jmp 0x585c0f8
+// asm:   0x585c0f6: jmp 0x585c0f8
+// asm:   0x585c0f8: mov rbx, rax
+// asm:   0x585c0fb: cmp edx, 1
+// asm:   0x585c0fe: jne 0x585c137
+// asm:   0x585c100: mov rdi, rbx
+// asm:   0x585c103: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585c108: mov rbx, qword ptr [rax]
+// asm:   0x585c10b: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x585c110: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585c115: lea rax, [rip + 0x1a32de4]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose
+// asm:   0x585c11c: mov rsi, qword ptr [rax]
+// asm:   0x585c11f: mov rdi, rsp
+// asm:   0x585c122: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585c127: test rbx, rbx
+// asm:   0x585c12a: je 0x585c0b2
+// asm:   0x585c12c: mov rdi, rbx
+// asm:   0x585c12f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585c134: mov rbx, rax
+// asm:   0x585c137: lea rdi, [rsp + 0x20]
+// asm:   0x585c13c: call 0x2fce840  ; il2cpp_runtime_helper_02fce840()
+// asm:   0x585c141: mov rdi, rbx
+// asm:   0x585c144: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585c149: mov rdi, rax
+// asm:   0x585c14c: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__CreateScheduleRunners
                (Weather_WeatherManager_o *__this,System_String_o *schedule,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_WeatherEvent__o *pSVar1;
-  System_Collections_Generic_List_WeatherScheduleRunner__o *pSVar2;
-  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *__this_00;
-  Il2CppObject *pIVar3;
-  bool bVar4;
-  Weather_WeatherScheduleRunner_o *__this_01;
-  Weather_WeatherSchedule_o *pWVar5;
-  undefined1 local_60 [16];
-  Il2CppObject *local_50;
-  System_Collections_Generic_List_Enumerator_object__o local_48;
+  int32_t *piVar1;
+  uint uVar2;
+  System_Collections_Generic_List_WeatherEvent__o *pSVar3;
+  System_Collections_Generic_List_WeatherScheduleRunner__o *__this_00;
+  Weather_WeatherScheduleRunner_array *pWVar4;
+  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *__this_01;
+  Weather_WeatherEvent_array *pWVar5;
+  MethodInfo *pMVar6;
+  Il2CppObject *item;
+  bool bVar7;
+  Weather_WeatherScheduleRunner_o *__this_02;
+  Weather_WeatherSchedule_o *pWVar8;
+  System_Collections_Generic_List_Enumerator_object__o local_68;
+  undefined1 local_48 [16];
+  Weather_WeatherEvent_o *local_38;
   
-  if (Il2CppMethodInitialized_18434493b == '\0') {
+  if (Il2CppMethodInitialized_07545094 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2335,101 +2590,146 @@ void Weather_WeatherManager__CreateScheduleRunners
               (&MethodInfo_System_Collections_Generic_List_WeatherEvent_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherScheduleRunner);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherSchedule);
-    Il2CppMethodInitialized_18434493b = '\x01';
+    Il2CppMethodInitialized_07545094 = '\x01';
   }
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
-  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherScheduleRunner);
-  Weather_WeatherScheduleRunner___ctor(__this_01,__this,(MethodInfo *)0x0);
-  pWVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherSchedule);
-  Weather_WeatherSchedule___ctor_1dd5250(pWVar5,schedule,(MethodInfo *)0x0);
-  if ((pWVar5 == (Weather_WeatherSchedule_o *)0x0) ||
-     (pSVar1 = (pWVar5->fields).Events, pSVar1 == (System_Collections_Generic_List_WeatherEvent__o *)0x0)) {
+  local_68.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_68.fields._index = 0;
+  local_68.fields._version = 0;
+  local_68.fields._current = (Il2CppObject *)0x0;
+  __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherScheduleRunner);
+  Weather_WeatherScheduleRunner___ctor(__this_02,__this,(MethodInfo *)0x0);
+  pWVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherSchedule);
+  Weather_WeatherSchedule___ctor_575f560(pWVar8,schedule,(MethodInfo *)0x0);
+  if ((pWVar8 == (Weather_WeatherSchedule_o *)0x0) ||
+     (pSVar3 = (pWVar8->fields).Events, pSVar3 == (System_Collections_Generic_List_WeatherEvent__o *)0x0)) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
-             (System_Collections_Generic_List_T__o *)pSVar1,
-             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_WeatherEvent_GetEnumerator);
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)local_60._0_8_;
-  local_48.fields._index = local_60._8_4_;
-  local_48.fields._version = local_60._12_4_;
-  local_48.fields._current = local_50;
-  local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_60._8_8_ = &local_48;
-  while( true ) {
-    bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                      (&local_48,
-                       (MethodInfo_153A2A0 *)
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
+             (System_Collections_Generic_List_object__o *)pSVar3,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_WeatherEvent_GetEnumerator);
+  local_68.fields._current = (Il2CppObject *)local_38;
+  local_68.fields._list = (System_Collections_Generic_List_T__o *)local_48._0_8_;
+  local_68.fields._index = local_48._8_4_;
+  local_68.fields._version = local_48._12_4_;
+  local_48._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  local_48._8_8_ = &local_68;
+  do {
+    bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      (&local_68,
+                       (MethodInfo_4C45C50 *)
                        MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_MoveNext);
-    pIVar3 = local_48.fields._current;
-    if (!bVar4) {
+    item = local_68.fields._current;
+    if (!bVar7) {
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
+                (&local_68,
+                 (MethodInfo_4C45C40 *)
                  MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose);
       return;
     }
-    if (local_48.fields._current == (Il2CppObject *)0x0) {
+    if ((Weather_WeatherEvent_o *)local_68.fields._current == (Weather_WeatherEvent_o *)0x0) {
       ThrowNullReferenceException();
     }
-    if (*(int *)&local_48.fields._current[1].klass == 0) {
-      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherScheduleRunner);
-      Weather_WeatherScheduleRunner___ctor(__this_01,__this,(MethodInfo *)0x0);
-      pSVar2 = (__this->fields)._scheduleRunners;
-      if (pSVar2 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) {
+    if (((Weather_WeatherEvent_Fields *)((long)local_68.fields._current + 0x10))->Action == 0) {
+      __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherScheduleRunner);
+      Weather_WeatherScheduleRunner___ctor(__this_02,__this,(MethodInfo *)0x0);
+      pMVar6 = MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_Add;
+      __this_00 = (__this->fields)._scheduleRunners;
+      if (__this_00 == (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) {
+label_0585c0d5:
         ThrowNullReferenceException();
       }
-      il2cpp_runtime_helper_180012890(pSVar2,__this_01,MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_Add);
-      __this_00 = (__this->fields)._currentScheduleWait;
-      if (__this_00 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
+      piVar1 = &(__this_00->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pWVar4 = (__this_00->fields)._items;
+      if (pWVar4 == (Weather_WeatherScheduleRunner_array *)0x0) goto label_0585c0d5;
+      uVar2 = (__this_00->fields)._size;
+      if (uVar2 < (uint)pWVar4->max_length) {
+        (__this_00->fields)._size = uVar2 + 1;
+        pWVar4->m_Items[(int)uVar2] = __this_02;
+        Il2CppCodeGenWriteBarrier(pWVar4->m_Items + (int)uVar2);
+      }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)__this_02,
+                   (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+      }
+      __this_01 = (__this->fields)._currentScheduleWait;
+      if (__this_01 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
         ThrowNullReferenceException();
       }
       System_Collections_Generic_Dictionary_object__float___Add
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)__this_01,
-                 0.0,(MethodInfo_147AAD0 *)
+                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,(Il2CppObject *)__this_02,
+                 0.0,(MethodInfo_4AB5470 *)
                      MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_Add);
     }
-    if (__this_01 == (Weather_WeatherScheduleRunner_o *)0x0) {
+    pMVar6 = MethodInfo_System_Collections_Generic_List_WeatherEvent_Add;
+    if (__this_02 == (Weather_WeatherScheduleRunner_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pWVar5 = (__this_01->fields).Schedule;
-    if (pWVar5 == (Weather_WeatherSchedule_o *)0x0) break;
-    pSVar1 = (pWVar5->fields).Events;
-    if (pSVar1 == (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
+    pWVar8 = (__this_02->fields).Schedule;
+    if (pWVar8 == (Weather_WeatherSchedule_o *)0x0) {
       ThrowNullReferenceException();
     }
-    il2cpp_runtime_helper_180012890(pSVar1,pIVar3);
-  }
-  ThrowNullReferenceException();
+    pSVar3 = (pWVar8->fields).Events;
+    if (pSVar3 == (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
+label_0585c0c1:
+      ThrowNullReferenceException();
+    }
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pWVar5 = (pSVar3->fields)._items;
+    if (pWVar5 == (Weather_WeatherEvent_array *)0x0) goto label_0585c0c1;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pWVar5->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      pWVar5->m_Items[(int)uVar2] = (Weather_WeatherEvent_o *)item;
+      Il2CppCodeGenWriteBarrier(pWVar5->m_Items + (int)uVar2);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,item,
+                 (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+    }
+  } while( true );
 }
 
 
 // Weather.WeatherManager$$CreateEffects
 // il2cpp: void Weather_WeatherManager__CreateEffects (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db4000
-// eh: try 0x181db4331..0x181db4425 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db43d1: mov rdx, qword ptr [rip + 0x230f028]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect
-// asm:   0x181db43d8: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181db43dd: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db43e2: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db43e7: test rcx, rcx
-// asm:   0x181db43ea: jne 0x181db4425
-// asm:   0x181db43ec: mov rsi, qword ptr [rsp + 0x70]
-// asm:   0x181db4425: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x585a480
+// eh: try 0x585a7b4..0x585a864 -> pad 0x585a871 (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585a88b..0x585a890 -> pad 0x585a8af cleanup
+// eh: try 0x585a8b2..0x585a8bc -> pad 0x585a8c4 catch (...) [compiler noexcept guard]
+// asm: 28 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585a869: jmp 0x585a873
+// asm:   0x585a86b: jmp 0x585a873
+// asm:   0x585a86d: jmp 0x585a873
+// asm:   0x585a86f: jmp 0x585a873
+// asm:   0x585a871: jmp 0x585a873
+// asm:   0x585a873: mov rbx, rax
+// asm:   0x585a876: cmp edx, 1
+// asm:   0x585a879: jne 0x585a8b2
+// asm:   0x585a87b: mov rdi, rbx
+// asm:   0x585a87e: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585a883: mov rbx, qword ptr [rax]
+// asm:   0x585a886: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x585a88b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585a890: lea rax, [rip + 0x1a35bc9]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect
+// asm:   0x585a897: mov rsi, qword ptr [rax]
+// asm:   0x585a89a: mov rdi, rsp
+// asm:   0x585a89d: call 0x4ddc060  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Int32Enum__object___Dispose()
+// asm:   0x585a8a2: test rbx, rbx
+// asm:   0x585a8a5: je 0x585a83e
+// asm:   0x585a8a7: mov rdi, rbx
+// asm:   0x585a8aa: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585a8af: mov rbx, rax
+// asm:   0x585a8b2: lea rdi, [rsp + 0x18]
+// asm:   0x585a8b7: call 0x2fce870  ; il2cpp_runtime_helper_02fce870()
+// asm:   0x585a8bc: mov rdi, rbx
+// asm:   0x585a8bf: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585a8c4: mov rdi, rax
+// asm:   0x585a8c7: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,MethodInfo *method)
 
@@ -2446,11 +2746,12 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
   Weather_WindWeatherEffect_o *value_01;
   Weather_ThunderWeatherEffect_o *value_02;
   System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
-  undefined1 local_40 [16];
-  Il2CppObject *local_30;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_28;
+  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_58;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_18434493c == '\0') {
+  if (Il2CppMethodInitialized_07545095 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2461,11 +2762,11 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_40c34e0
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_7190468
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_40c35c0
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_7190470
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_RainWeatherEffect);
@@ -2488,12 +2789,12 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/SnowEffect");
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/RainEffect");
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/WindEffect");
-    Il2CppMethodInitialized_18434493c = '\x01';
+    Il2CppMethodInitialized_07545095 = '\x01';
   }
-  local_28.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._currentValue = (Il2CppObject *)0x0;
+  local_58.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._currentValue = (Il2CppObject *)0x0;
   pSVar1 = (__this->fields)._effects;
   if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
@@ -2503,59 +2804,59 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
   pUVar6 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                     (path,"Prefabs/RainEffect",false,
-                      (MethodInfo_795F00 *)
+                     (path,"Prefabs/RainEffect",false,false,
+                      (MethodInfo_3665790 *)
                       MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
   if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
     value = UnityEngine_GameObject__AddComponent_object_
-                      (pUVar6,(MethodInfo_6F4D60 *)
+                      (pUVar6,(MethodInfo_353B6A0 *)
                               MethodInfo_UnityEngine_GameObject_AddComponent_RainWeatherEffect);
     if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
       System_Collections_Generic_Dictionary_Int32Enum__object___Add
                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,10,(Il2CppObject *)value,
-                 (MethodInfo_1443C70 *)
+                 (MethodInfo_4A54FE0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
       pSVar1 = (__this->fields)._effects;
       pUVar6 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
                          (TypeInfo_Utility_ResourcePaths->static_fields->Weather,"Prefabs/SnowEffect",false,
-                          (MethodInfo_795F00 *)
-                          MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+                          false,(MethodInfo_3665790 *)
+                                MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
       if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
         value_00 = UnityEngine_GameObject__AddComponent_object_
-                             (pUVar6,(MethodInfo_6F4D60 *)
+                             (pUVar6,(MethodInfo_353B6A0 *)
                                      MethodInfo_UnityEngine_GameObject_AddComponent_SnowWeatherEffect);
         if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
           System_Collections_Generic_Dictionary_Int32Enum__object___Add
                     ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,0xc,
                      (Il2CppObject *)value_00,
-                     (MethodInfo_1443C70 *)
+                     (MethodInfo_4A54FE0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
           pSVar1 = (__this->fields)._effects;
           pUVar6 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
                              (TypeInfo_Utility_ResourcePaths->static_fields->Weather,"Prefabs/WindEffect",
-                              false,(MethodInfo_795F00 *)
-                                    MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject
-                             );
+                              false,false,
+                              (MethodInfo_3665790 *)
+                              MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
           if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
             value_01 = UnityEngine_GameObject__AddComponent_object_
-                                 (pUVar6,(MethodInfo_6F4D60 *)
+                                 (pUVar6,(MethodInfo_353B6A0 *)
                                          MethodInfo_UnityEngine_GameObject_AddComponent_WindWeatherEffect);
             if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
               System_Collections_Generic_Dictionary_Int32Enum__object___Add
                         ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,0xd,
                          (Il2CppObject *)value_01,
-                         (MethodInfo_1443C70 *)
+                         (MethodInfo_4A54FE0 *)
                          MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add)
               ;
               pSVar1 = (__this->fields)._effects;
               pUVar6 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
                                  (TypeInfo_Utility_ResourcePaths->static_fields->Weather,"Prefabs/ThunderEffect"
-                                  ,false,(MethodInfo_795F00 *)
-                                         MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject
-                                 );
+                                  ,false,false,
+                                  (MethodInfo_3665790 *)
+                                  MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
               if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
                 value_02 = UnityEngine_GameObject__AddComponent_object_
-                                     (pUVar6,(MethodInfo_6F4D60 *)
+                                     (pUVar6,(MethodInfo_353B6A0 *)
                                              MethodInfo_UnityEngine_GameObject_AddComponent_ThunderWeatherEffect
                                      );
                 if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0
@@ -2563,46 +2864,43 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
                   System_Collections_Generic_Dictionary_Int32Enum__object___Add
                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,0xb,
                              (Il2CppObject *)value_02,
-                             (MethodInfo_1443C70 *)
+                             (MethodInfo_4A54FE0 *)
                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add
                             );
                   pSVar1 = (__this->fields)._effects;
                   if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)
                                 0x0) {
-                    __this_00 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
+                    __this_00 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Values
                                           ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-                                           (MethodInfo_13C65A0 *)
+                                           (MethodInfo_4A54D80 *)
                                            MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Values
                                           );
                     if (__this_00 !=
                         (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-                      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                                  *)local_40,__this_00,
-                                 (MethodInfo_F1E4D0 *)
+                      System_Collections_Generic_Dictionary_ValueCollection_Int32Enum__object___GetEnumerator
+                                (&local_58,__this_00,
+                                 (MethodInfo_43F1210 *)
                                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_WeatherEffect_BaseWeatherEffect_GetEnumera
                                 );
-                      local_28.fields._dictionary =
-                           (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_40._0_8_;
-                      local_28.fields._index = local_40._8_4_;
-                      local_28.fields._version = local_40._12_4_;
-                      local_28.fields._currentValue = local_30;
-                      local_40._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-                      local_40._8_8_ = &local_28;
+                      local_40 = 0;
+                      local_38 = (undefined1 *)&local_58;
                       while( true ) {
-                        bVar5 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                                          (&local_28,
-                                           (MethodInfo_155CFB0 *)
-                                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_40c34e0
+                        bVar5 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Int32Enum__object___MoveNext
+                                          (&local_58,
+                                           (MethodInfo_4CDC070 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect_7190468
                                           );
-                        pIVar4 = local_28.fields._currentValue;
+                        pIVar4 = local_58.fields._currentValue;
                         if (!bVar5) {
-                          System_Configuration_ConfigurationCollectionAttribute___ctor
-                                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
+                          method_00 = 
+                          MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect
+                          ;
+                          System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Int32Enum__object___Dispose
+                                    (&local_58,
+                                     (MethodInfo_4CDC060 *)
                                      MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_WeatherEffect_BaseWeatherEffect
                                     );
-                          Weather_WeatherManager__CreateFlashlight(__this,(MethodInfo *)0x0);
+                          Weather_WeatherManager__CreateFlashlight(__this,method_00);
                           return;
                         }
                         pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
@@ -2613,10 +2911,10 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
                         if (pUVar3 == (Utility_BaseComponentCache_o *)0x0) {
                           ThrowNullReferenceException();
                         }
-                        if (local_28.fields._currentValue == (Il2CppObject *)0x0) break;
-                        (*(local_28.fields._currentValue)->klass->vtable[0xb].methodPtr)
-                                  (local_28.fields._currentValue,(pUVar3->fields).Transform,
-                                   (local_28.fields._currentValue)->klass->vtable[0xb].method);
+                        if (local_58.fields._currentValue == (Il2CppObject *)0x0) break;
+                        (*(local_58.fields._currentValue)->klass->vtable[0xb].methodPtr)
+                                  (local_58.fields._currentValue,(pUVar3->fields).Transform,
+                                   (local_58.fields._currentValue)->klass->vtable[0xb].method);
                         (*pIVar4->klass->vtable[8].methodPtr)(pIVar4,pIVar4->klass->vtable[8].method);
                         (*pIVar4->klass->vtable[6].methodPtr)(pIVar4,0,pIVar4->klass->vtable[6].method);
                       }
@@ -2637,7 +2935,7 @@ void Weather_WeatherManager__CreateEffects(Weather_WeatherManager_o *__this,Meth
 
 // Weather.WeatherManager$$CreateFlashlight
 // il2cpp: void Weather_WeatherManager__CreateFlashlight (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db4430
+// 0x585ca50
 
 void Weather_WeatherManager__CreateFlashlight(Weather_WeatherManager_o *__this,MethodInfo *method)
 
@@ -2646,14 +2944,13 @@ void Weather_WeatherManager__CreateFlashlight(Weather_WeatherManager_o *__this,M
   System_String_o *path;
   Cameras_BaseCamera_o *pCVar2;
   Utility_BaseComponentCache_o *pUVar3;
-  System_Type_o *pSVar4;
-  Weather_WeatherManager_o *pWVar5;
-  bool bVar6;
+  UnityEngine_Transform_o *parent;
   UnityEngine_GameObject_o *__this_00;
   Weather_FlashlightWeatherEffect_o *value;
-  Weather_BaseWeatherEffect_o *pWVar7;
+  Weather_BaseWeatherEffect_o *pWVar4;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_18434493d == '\0') {
+  if (Il2CppMethodInitialized_07545096 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2667,7 +2964,7 @@ void Weather_WeatherManager__CreateFlashlight(Weather_WeatherManager_o *__this,M
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/FlashlightEffect");
-    Il2CppMethodInitialized_18434493d = '\x01';
+    Il2CppMethodInitialized_07545096 = '\x01';
   }
   pSVar1 = (__this->fields)._effects;
   if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
@@ -2678,107 +2975,48 @@ void Weather_WeatherManager__CreateFlashlight(Weather_WeatherManager_o *__this,M
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
   __this_00 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                        (path,"Prefabs/FlashlightEffect",false,
-                         (MethodInfo_795F00 *)
+                        (path,"Prefabs/FlashlightEffect",false,false,
+                         (MethodInfo_3665790 *)
                          MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
-  if ((__this_00 != (UnityEngine_GameObject_o *)0x0) &&
-     (value = UnityEngine_GameObject__AddComponent_object_
-                        (__this_00,
-                         (MethodInfo_6F4D60 *)
-                         MethodInfo_UnityEngine_GameObject_AddComponent_FlashlightWeatherEffect),
-     pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
-    System_Collections_Generic_Dictionary_Int32Enum__object___Add
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,(Il2CppObject *)value,
-               (MethodInfo_1443C70 *)
-               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
-    pSVar1 = (__this->fields)._effects;
-    if ((pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) &&
-       (pWVar7 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                           ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
-                            (MethodInfo_1454ED0 *)
-                            MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                           ), pWVar7 != (Weather_BaseWeatherEffect_o *)0x0)) {
-      (*(pWVar7->klass->vtable)._11_Setup.methodPtr)
-                (pWVar7,(UnityEngine_Transform_o *)0x0,(pWVar7->klass->vtable)._11_Setup.method);
+  if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+    value = UnityEngine_GameObject__AddComponent_object_
+                      (__this_00,
+                       (MethodInfo_353B6A0 *)
+                       MethodInfo_UnityEngine_GameObject_AddComponent_FlashlightWeatherEffect);
+    if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+      System_Collections_Generic_Dictionary_Int32Enum__object___Add
+                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,(Il2CppObject *)value,
+                 (MethodInfo_4A54FE0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_Add);
       pSVar1 = (__this->fields)._effects;
-      if ((pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) &&
-         (pWVar7 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
-                              (MethodInfo_1454ED0 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                             ), pWVar7 != (Weather_BaseWeatherEffect_o *)0x0)) {
-        (*(pWVar7->klass->vtable)._6_Disable.methodPtr)
-                  (pWVar7,false,(pWVar7->klass->vtable)._6_Disable.method);
-        pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
-        if ((pCVar2 != (Cameras_BaseCamera_o *)0x0) &&
-           (pUVar3 = (pCVar2->fields).Cache, pUVar3 != (Utility_BaseComponentCache_o *)0x0)) {
-          pSVar4 = (System_Type_o *)(pUVar3->fields).Transform;
-          if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-          }
-          if (Il2CppMethodInitialized_184344932 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ContainsKey
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                      );
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-            Il2CppMethodInitialized_184344932 = '\x01';
-          }
-          if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-          }
-          pWVar5 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-          if ((pWVar5 != (Weather_WeatherManager_o *)0x0) &&
-             (pSVar1 = (pWVar5->fields)._effects,
-             pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
-            bVar6 = System_Collections_Generic_Dictionary_Int32Enum__object___ContainsKey
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
-                               (MethodInfo_1443DB0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ContainsKey
-                              );
-            if (!bVar6) {
-              return;
-            }
-            if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-            }
-            pWVar5 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-            if ((pWVar5 != (Weather_WeatherManager_o *)0x0) &&
-               (pSVar1 = (pWVar5->fields)._effects,
-               pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0)) {
-              pWVar7 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
-                                  (MethodInfo_1454ED0 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                                 );
-              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-              }
-              bVar6 = UnityEngine_Object__op_Inequality
-                                ((UnityEngine_Object_o *)pWVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
-              ;
-              if (!bVar6) {
-                return;
-              }
-              if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-              }
-              pWVar5 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-              if (((pWVar5 != (Weather_WeatherManager_o *)0x0) &&
-                  (pSVar1 = (pWVar5->fields)._effects,
-                  pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0))
-                 && (pWVar7 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
-                                         (MethodInfo_1454ED0 *)
-                                         MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                                        ), pWVar7 != (Weather_BaseWeatherEffect_o *)0x0)) {
-                (*(pWVar7->klass->vtable)._9_SetParent.methodPtr)
-                          (pWVar7,pSVar4,(pWVar7->klass->vtable)._9_SetParent.method);
+      if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+        pWVar4 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                           ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
+                            (MethodInfo_4A54F30 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                           );
+        if (pWVar4 != (Weather_BaseWeatherEffect_o *)0x0) {
+          (*(pWVar4->klass->vtable)._11_Setup.methodPtr)
+                    (pWVar4,(UnityEngine_Transform_o *)0x0,(pWVar4->klass->vtable)._11_Setup.method);
+          pSVar1 = (__this->fields)._effects;
+          if (pSVar1 != (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+            pWVar4 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                               ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,7,
+                                (MethodInfo_4A54F30 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                               );
+            if (pWVar4 != (Weather_BaseWeatherEffect_o *)0x0) {
+              method_00 = (MethodInfo *)0x0;
+              (*(pWVar4->klass->vtable)._6_Disable.methodPtr)
+                        (pWVar4,false,(pWVar4->klass->vtable)._6_Disable.method);
+              pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+              if ((pCVar2 != (Cameras_BaseCamera_o *)0x0) &&
+                 (pUVar3 = (pCVar2->fields).Cache, pUVar3 != (Utility_BaseComponentCache_o *)0x0)) {
+                parent = (pUVar3->fields).Transform;
+                if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+                }
+                Weather_WeatherManager__TakeFlashlight(parent,method_00);
                 return;
               }
             }
@@ -2793,50 +3031,65 @@ void Weather_WeatherManager__CreateFlashlight(Weather_WeatherManager_o *__this,M
 
 // Weather.WeatherManager$$FixedUpdate
 // il2cpp: void Weather_WeatherManager__FixedUpdate (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db4dd0
-// eh: try 0x181db5030..0x181db5184 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db4f54: xorps xmm7, xmm7
-// asm:   0x181db50e4: mov rdx, qword ptr [rip + 0x22e98fd]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose
-// asm:   0x181db50eb: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181db50f0: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db50f5: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db50fa: test rcx, rcx
-// asm:   0x181db50fd: jne 0x181db5184
-// asm:   0x181db5103: mov rdi, qword ptr [rsp + 0xb0]
-// asm:   0x181db510b: xorps xmm7, xmm7
-// asm:   0x181db5184: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x585cc40
+// eh: try 0x585cefa..0x585d021 -> pad 0x585d032 (+7 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585d04c..0x585d051 -> pad 0x585d076 cleanup
+// eh: try 0x585d079..0x585d083 -> pad 0x585d08b catch (...) [compiler noexcept guard]
+// asm: 31 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585cdd7: jmp 0x585d003
+// asm:   0x585d026: jmp 0x585d034
+// asm:   0x585d028: jmp 0x585d034
+// asm:   0x585d02a: jmp 0x585d034
+// asm:   0x585d02c: jmp 0x585d034
+// asm:   0x585d02e: jmp 0x585d034
+// asm:   0x585d030: jmp 0x585d034
+// asm:   0x585d032: jmp 0x585d034
+// asm:   0x585d034: mov r14, rax
+// asm:   0x585d037: cmp edx, 1
+// asm:   0x585d03a: jne 0x585d079
+// asm:   0x585d03c: mov rdi, r14
+// asm:   0x585d03f: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585d044: mov rbx, qword ptr [rax]
+// asm:   0x585d047: mov qword ptr [rsp + 8], rbx
+// asm:   0x585d04c: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585d051: lea rax, [rip + 0x1a31ec0]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose
+// asm:   0x585d058: mov rsi, qword ptr [rax]
+// asm:   0x585d05b: lea rdi, [rsp + 0x20]
+// asm:   0x585d060: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585d065: test rbx, rbx
+// asm:   0x585d068: je 0x585cfab
+// asm:   0x585d06e: mov rdi, rbx
+// asm:   0x585d071: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585d076: mov r14, rax
+// asm:   0x585d079: lea rdi, [rsp + 8]
+// asm:   0x585d07e: call 0x2fce8a0  ; il2cpp_runtime_helper_02fce8a0()
+// asm:   0x585d083: mov rdi, r14
+// asm:   0x585d086: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585d08b: mov rdi, rax
+// asm:   0x585d08e: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__FixedUpdate(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
+  int32_t *piVar1;
   System_Collections_Generic_Dictionary_int__float__o *__this_00;
-  Settings_WeatherSet_o *pSVar1;
-  Settings_BoolSetting_o *pSVar2;
-  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *pSVar3;
+  Settings_WeatherSet_o *pSVar2;
+  Settings_BoolSetting_o *pSVar3;
+  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *pSVar4;
   Il2CppObject *__this_01;
-  bool bVar4;
-  int32_t iVar5;
-  System_Collections_Generic_IEnumerable_TKey__o *collection;
-  System_Collections_Generic_List_WeatherScheduleRunner__o *__this_02;
-  float fVar6;
-  float fVar7;
-  undefined1 local_80 [16];
-  Weather_WeatherScheduleRunner_o *local_70;
-  System_Collections_Generic_List_Enumerator_object__o local_68 [3];
+  bool bVar5;
+  int32_t iVar6;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *collection;
+  MethodInfo *in_RCX;
+  System_Collections_Generic_List_WeatherScheduleRunner__o *pSVar7;
+  MethodInfo *pMVar8;
+  float fVar9;
+  float fVar10;
+  undefined1 auStack_60 [16];
+  Weather_WeatherScheduleRunner_o *pWStack_50;
+  System_Collections_Generic_List_Enumerator_object__o SStack_48;
   
-  if (Il2CppMethodInitialized_18434493e == '\0') {
+  if (Il2CppMethodInitialized_07545097 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_float_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2852,137 +3105,153 @@ void Weather_WeatherManager__FixedUpdate(Weather_WeatherManager_o *__this,Method
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_get_Current);
     il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_AddRange);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_GetEnumerator);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor_40f61c8);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
-    Il2CppMethodInitialized_18434493e = '\x01';
+    Il2CppMethodInitialized_07545097 = '\x01';
   }
-  local_68[0].fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_68[0].fields._index = 0;
-  local_68[0].fields._version = 0;
-  local_68[0].fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName != 2) ||
      ((__this->fields)._finishedLoading == false)) {
     return;
   }
-  fVar7 = (__this->fields)._currentTime;
-  fVar6 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-  (__this->fields)._currentTime = fVar6 + fVar7;
+  fVar10 = (__this->fields)._currentTime;
+  fVar9 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+  (__this->fields)._currentTime = fVar9 + fVar10;
   __this_00 = (__this->fields)._targetWeatherStartTimes;
   if (__this_00 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
-    iVar5 = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___get_Count
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                       (MethodInfo_13CDEB0 *)
+    pMVar8 = MethodInfo_System_Collections_Generic_Dictionary_int_float_get_Count;
+    iVar6 = System_Collections_Generic_Dictionary_int__float___get_Count
+                      (__this_00,
+                       (MethodInfo_4A17070 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_float_get_Count);
-    if (0 < iVar5) {
-      fVar7 = (__this->fields)._currentLerpWait;
-      fVar6 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-      (__this->fields)._currentLerpWait = fVar7 - fVar6;
-      if (fVar7 - fVar6 <= 0.0) {
-        Weather_WeatherManager__LerpCurrentWeatherToTarget(__this,(MethodInfo *)0x0);
-        Weather_WeatherManager__ApplyCurrentWeather(__this,false,false,(MethodInfo *)0x0);
+    if (0 < iVar6) {
+      fVar10 = (__this->fields)._currentLerpWait;
+      fVar9 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+      fVar10 = fVar10 - fVar9;
+      (__this->fields)._currentLerpWait = fVar10;
+      if (fVar10 <= 0.0) {
+        Weather_WeatherManager__LerpCurrentWeatherToTarget(__this,pMVar8);
+        Weather_WeatherManager__ApplyCurrentWeather(__this,false,false,in_RCX);
         (__this->fields)._currentLerpWait = 0.05;
       }
     }
     if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+      bVar5 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
     }
-    bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
-    if (!bVar4) {
+    else {
+      bVar5 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+    }
+    if (!bVar5) {
       return;
     }
-    pSVar1 = (__this->fields)._currentWeather;
-    if ((pSVar1 != (Settings_WeatherSet_o *)0x0) &&
-       (pSVar2 = (pSVar1->fields).UseSchedule, pSVar2 != (Settings_BoolSetting_o *)0x0)) {
-      if ((pSVar2->fields)._value == false) {
+    pSVar2 = (__this->fields)._currentWeather;
+    if ((pSVar2 != (Settings_WeatherSet_o *)0x0) &&
+       (pSVar3 = (pSVar2->fields).UseSchedule, pSVar3 != (Settings_BoolSetting_o *)0x0)) {
+      if ((pSVar3->fields)._value == false) {
         return;
       }
-      pSVar3 = (__this->fields)._currentScheduleWait;
-      if (pSVar3 != (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
-        collection = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                               ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                                (MethodInfo_13C6500 *)
-                                MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Keys
-                               );
-        __this_02 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
-        System_Collections_Generic_List_object____ctor_94fb10
-                  ((System_Collections_Generic_List_object__o *)__this_02,
-                   (System_Collections_Generic_IEnumerable_T__o *)collection,
-                   (MethodInfo_94FB10 *)
-                   MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor_40f61c8);
-        if (__this_02 != (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) {
-          System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                    ((System_Collections_Generic_List_Enumerator_T__o *)local_80,
-                     (System_Collections_Generic_List_T__o *)__this_02,
-                     (MethodInfo_91F180 *)
-                     MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_GetEnumerator);
-          local_68[0].fields._list = (System_Collections_Generic_List_T__o *)local_80._0_8_;
-          local_68[0].fields._index = local_80._8_4_;
-          local_68[0].fields._version = local_80._12_4_;
-          local_68[0].fields._current = (Il2CppObject *)local_70;
-          local_80._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-          local_80._8_8_ = local_68;
-          while (bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                   (local_68,(MethodInfo_153A2A0 *)
-                                             MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_MoveNext
-                                   ), __this_01 = local_68[0].fields._current, bVar4) {
-            pSVar3 = (__this->fields)._currentScheduleWait;
-            if (pSVar3 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            fVar7 = System_Collections_Generic_Dictionary_object__float___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                               local_68[0].fields._current,
-                               (MethodInfo_1488BA0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Item
-                              );
-            fVar6 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-            System_Collections_Generic_Dictionary_object__float___set_Item
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,__this_01,fVar7 - fVar6
-                       ,(MethodInfo_1488DA0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_set_Item)
-            ;
-            pSVar3 = (__this->fields)._currentScheduleWait;
-            if (pSVar3 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            fVar7 = System_Collections_Generic_Dictionary_object__float___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,__this_01,
-                               (MethodInfo_1488BA0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Item
-                              );
-            if (fVar7 <= 0.0) {
-              if ((Weather_WeatherScheduleRunner_o *)__this_01 == (Weather_WeatherScheduleRunner_o *)0x0) {
+      pSVar7 = (__this->fields)._scheduleKeys;
+      if (pSVar7 != (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) {
+        piVar1 = &(pSVar7->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        iVar6 = (pSVar7->fields)._size;
+        (pSVar7->fields)._size = 0;
+        if (0 < iVar6) {
+          System_Array__Clear((System_Array_o *)(pSVar7->fields)._items,0,iVar6,(MethodInfo *)0x0);
+          pSVar7 = (__this->fields)._scheduleKeys;
+        }
+        pSVar4 = (__this->fields)._currentScheduleWait;
+        if ((pSVar4 != (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) &&
+           (collection = System_Collections_Generic_Dictionary_object__float___get_Keys
+                                   ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,
+                                    (MethodInfo_4AB5080 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Keys
+                                   ),
+           pSVar7 != (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0)) {
+          System_Collections_Generic_List_object___AddRange
+                    ((System_Collections_Generic_List_object__o *)pSVar7,
+                     (System_Collections_Generic_IEnumerable_T__o *)collection,
+                     (MethodInfo_395D490 *)
+                     MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_AddRange);
+          pSVar7 = (__this->fields)._scheduleKeys;
+          if (pSVar7 != (System_Collections_Generic_List_WeatherScheduleRunner__o *)0x0) {
+            System_Collections_Generic_List_object___GetEnumerator
+                      ((System_Collections_Generic_List_Enumerator_T__o *)auStack_60,
+                       (System_Collections_Generic_List_object__o *)pSVar7,
+                       (MethodInfo_395E050 *)
+                       MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_GetEnumerator);
+            SStack_48.fields._current = (Il2CppObject *)pWStack_50;
+            SStack_48.fields._list = (System_Collections_Generic_List_T__o *)auStack_60._0_8_;
+            SStack_48.fields._index = auStack_60._8_4_;
+            SStack_48.fields._version = auStack_60._12_4_;
+            auStack_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+            auStack_60._8_8_ = &SStack_48;
+            while (bVar5 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                     (&SStack_48,
+                                      (MethodInfo_4C45C50 *)
+                                      MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_MoveNext
+                                     ), __this_01 = SStack_48.fields._current, bVar5) {
+              pSVar4 = (__this->fields)._currentScheduleWait;
+              if (pSVar4 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              Weather_WeatherScheduleRunner__ConsumeSchedule
-                        ((Weather_WeatherScheduleRunner_o *)__this_01,(MethodInfo *)0x0);
+              fVar10 = System_Collections_Generic_Dictionary_object__float___get_Item
+                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,
+                                  SStack_48.fields._current,
+                                  (MethodInfo_4AB53E0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Item
+                                 );
+              fVar9 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+              System_Collections_Generic_Dictionary_object__float___set_Item
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,__this_01,
+                         fVar10 - fVar9,
+                         (MethodInfo_4AB5450 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_set_Item
+                        );
+              pSVar4 = (__this->fields)._currentScheduleWait;
+              if (pSVar4 == (System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              fVar10 = System_Collections_Generic_Dictionary_object__float___get_Item
+                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,__this_01,
+                                  (MethodInfo_4AB53E0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_get_Item
+                                 );
+              if (fVar10 <= 0.0) {
+                if ((Weather_WeatherScheduleRunner_o *)__this_01 == (Weather_WeatherScheduleRunner_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                Weather_WeatherScheduleRunner__ConsumeSchedule
+                          ((Weather_WeatherScheduleRunner_o *)__this_01,(MethodInfo *)0x0);
+              }
             }
-          }
-          System_Collections_Generic_List_Enumerator_object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_68,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose);
-          fVar7 = (__this->fields)._currentSyncWait;
-          fVar6 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-          fVar7 = fVar7 - fVar6;
-          (__this->fields)._currentSyncWait = fVar7;
-          if (0.0 < fVar7) {
+            pMVar8 = MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose;
+            System_Collections_Generic_List_Enumerator_object___Dispose
+                      (&SStack_48,
+                       (MethodInfo_4C45C40 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_WeatherScheduleRunner_Dispose);
+            fVar10 = (__this->fields)._currentSyncWait;
+            fVar9 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+            fVar10 = fVar10 - fVar9;
+            (__this->fields)._currentSyncWait = fVar10;
+            if (0.0 < fVar10) {
+              return;
+            }
+            if ((__this->fields)._needSync == false) {
+              return;
+            }
+            Weather_WeatherManager__LerpCurrentWeatherToTarget(__this,pMVar8);
+            Weather_WeatherManager__SyncWeather(__this,pMVar8);
+            (__this->fields)._needSync = false;
+            (__this->fields)._currentSyncWait = 5.0;
             return;
           }
-          if ((__this->fields)._needSync == false) {
-            return;
-          }
-          Weather_WeatherManager__LerpCurrentWeatherToTarget(__this,(MethodInfo *)0x0);
-          Weather_WeatherManager__SyncWeather(__this,(MethodInfo *)0x0);
-          (__this->fields)._needSync = false;
-          (__this->fields)._currentSyncWait = 5.0;
-          return;
         }
       }
     }
@@ -2993,7 +3262,9 @@ void Weather_WeatherManager__FixedUpdate(Weather_WeatherManager_o *__this,Method
 
 // Weather.WeatherManager$$SyncWeather
 // il2cpp: void Weather_WeatherManager__SyncWeather (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db8290
+// 0x585c160
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585c1e9: jmp 0x585c4e3
 
 void Weather_WeatherManager__SyncWeather(Weather_WeatherManager_o *__this,MethodInfo *method)
 
@@ -3008,21 +3279,25 @@ void Weather_WeatherManager__SyncWeather(Weather_WeatherManager_o *__this,Method
   System_Byte_array *pSVar6;
   Il2CppObject *pIVar7;
   Il2CppObject *pIVar8;
-  float local_res18 [2];
+  MethodInfo *in_RCX;
+  float local_2c;
   
-  if (Il2CppMethodInitialized_18434493f == '\0') {
+  if (Il2CppMethodInitialized_07545098 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_DataCompressors);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_RPCManager);
     il2cpp_codegen_initialize_runtime_metadata(&"SetWeatherRPC");
-    Il2CppMethodInitialized_18434493f = '\x01';
+    Il2CppMethodInitialized_07545098 = '\x01';
   }
-  Weather_WeatherManager__ApplyCurrentWeather(__this,false,true,(MethodInfo *)0x0);
+  Weather_WeatherManager__ApplyCurrentWeather(__this,false,true,in_RCX);
   if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
   }
-  bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+  else {
+    bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+  }
   if (!bVar4) {
     return;
   }
@@ -3042,13 +3317,10 @@ void Weather_WeatherManager__SyncWeather(Weather_WeatherManager_o *__this,Method
        parameters != (System_Object_array *)0x0)) {
       if ((pSVar6 != (System_Byte_array *)0x0) &&
          (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class),
-         pIVar7 == (Il2CppObject *)0x0)) {
-        pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-        il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-      }
-      if ((int)parameters->max_length == 0) goto label_181db866a;
+         pIVar7 == (Il2CppObject *)0x0)) goto label_0585c4fb;
+      if ((int)parameters->max_length == 0) goto label_0585c4f6;
       parameters->m_Items[0] = &pSVar6->obj;
-      Il2CppCodeGenWriteBarrier(parameters->m_Items,pSVar6);
+      Il2CppCodeGenWriteBarrier(parameters->m_Items);
       pSVar1 = (__this->fields)._startWeather;
       if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
         pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
@@ -3059,16 +3331,10 @@ void Weather_WeatherManager__SyncWeather(Weather_WeatherManager_o *__this,Method
           pSVar6 = Utility_Algorithms_CompressionAlgorithm__CompressString(pUVar2,pSVar5,1,(MethodInfo *)0x0);
           if ((pSVar6 != (System_Byte_array *)0x0) &&
              (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class),
-             pIVar7 == (Il2CppObject *)0x0)) {
-            pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-          }
-          if ((uint)parameters->max_length < 2) {
-label_181db866a:
-            ThrowIndexOutOfRangeException();
-          }
+             pIVar7 == (Il2CppObject *)0x0)) goto label_0585c4fb;
+          if ((parameters->max_length & 0xfffffffe) == 0) goto label_0585c4f6;
           parameters->m_Items[1] = &pSVar6->obj;
-          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,pSVar6);
+          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
           pSVar1 = (__this->fields)._targetWeather;
           if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
             pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
@@ -3081,70 +3347,65 @@ label_181db866a:
               if ((pSVar6 != (System_Byte_array *)0x0) &&
                  (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class)
                  , pIVar7 == (Il2CppObject *)0x0)) {
+label_0585c4fb:
                 pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
                 il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
               }
               if (2 < (uint)parameters->max_length) {
                 parameters->m_Items[2] = &pSVar6->obj;
-                Il2CppCodeGenWriteBarrier(parameters->m_Items + 2,pSVar6);
+                Il2CppCodeGenWriteBarrier(parameters->m_Items + 2);
                 pSVar3 = (__this->fields)._targetWeatherStartTimes;
                 if ((pSVar3 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) &&
                    (pIVar7 = il2cpp_vm_Object_IsInst
                                        ((Il2CppObject *)pSVar3,(((parameters->obj).klass)->_1).element_class),
-                   pIVar7 == (Il2CppObject *)0x0)) {
-                  pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                  il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                }
-                if (3 < (uint)parameters->max_length) {
+                   pIVar7 == (Il2CppObject *)0x0)) goto label_0585c4fb;
+                if ((parameters->max_length & 0xfffffffc) != 0) {
                   parameters->m_Items[3] = (Il2CppObject *)pSVar3;
-                  Il2CppCodeGenWriteBarrier(parameters->m_Items + 3,pSVar3);
+                  Il2CppCodeGenWriteBarrier(parameters->m_Items + 3);
                   pSVar3 = (__this->fields)._targetWeatherEndTimes;
                   if ((pSVar3 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) &&
                      (pIVar7 = il2cpp_vm_Object_IsInst
                                          ((Il2CppObject *)pSVar3,(((parameters->obj).klass)->_1).element_class
-                                         ), pIVar7 == (Il2CppObject *)0x0)) {
-                    pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                    il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                  }
+                                         ), pIVar7 == (Il2CppObject *)0x0)) goto label_0585c4fb;
                   if (4 < (uint)parameters->max_length) {
                     parameters->m_Items[4] = (Il2CppObject *)pSVar3;
-                    Il2CppCodeGenWriteBarrier(parameters->m_Items + 4,pSVar3);
-                    local_res18[0] = (__this->fields)._currentTime;
-                    pIVar7 = il2cpp_value_box(g_data_184354e38,local_res18);
+                    Il2CppCodeGenWriteBarrier(parameters->m_Items + 4);
+                    local_2c = (__this->fields)._currentTime;
+                    pIVar7 = il2cpp_vm_Object_Box(g_data_07556740,&local_2c);
                     if ((pIVar7 != (Il2CppObject *)0x0) &&
                        (pIVar8 = il2cpp_vm_Object_IsInst(pIVar7,(((parameters->obj).klass)->_1).element_class)
-                       , pIVar8 == (Il2CppObject *)0x0)) {
-                      pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                      il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                    }
+                       , pIVar8 == (Il2CppObject *)0x0)) goto label_0585c4fb;
                     if (5 < (uint)parameters->max_length) {
                       parameters->m_Items[5] = pIVar7;
-                      Il2CppCodeGenWriteBarrier(parameters->m_Items + 5,pIVar7);
+                      Il2CppCodeGenWriteBarrier(parameters->m_Items + 5);
                       if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
                         Photon_Pun_PhotonView__RPC
                                   (__this_00,"SetWeatherRPC",1,parameters,(MethodInfo *)0x0);
                         return;
                       }
-                      goto label_181db8604;
+                      goto label_0585c4f1;
                     }
                   }
                 }
               }
-              goto label_181db866a;
+label_0585c4f6:
+              ThrowIndexOutOfRangeException();
             }
           }
         }
       }
     }
   }
-label_181db8604:
+label_0585c4f1:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$OnPlayerEnteredRoom
 // il2cpp: void Weather_WeatherManager__OnPlayerEnteredRoom (Weather_WeatherManager_o* __this, Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x181db6ae0
+// 0x585dc90
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585dcc8: jmp 0x585e00b
 
 void Weather_WeatherManager__OnPlayerEnteredRoom
                (Weather_WeatherManager_o *__this,Photon_Realtime_Player_o *player,MethodInfo *method)
@@ -3155,25 +3416,32 @@ void Weather_WeatherManager__OnPlayerEnteredRoom
   Utility_Algorithms_CompressionAlgorithm_o *pUVar2;
   System_Collections_Generic_Dictionary_int__float__o *pSVar3;
   bool bVar4;
+  undefined8 in_RAX;
   System_Object_array *parameters;
   System_String_o *pSVar5;
   System_Byte_array *pSVar6;
   Il2CppObject *pIVar7;
   Il2CppObject *pIVar8;
-  float local_res20 [2];
+  undefined8 uStack_38;
   
-  if (Il2CppMethodInitialized_184344940 == '\0') {
+  uStack_38 = in_RAX;
+  if (Il2CppMethodInitialized_07545099 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_DataCompressors);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_RPCManager);
     il2cpp_codegen_initialize_runtime_metadata(&"SetWeatherRPC");
-    Il2CppMethodInitialized_184344940 = '\x01';
-  }
-  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    Il2CppMethodInitialized_07545099 = '\x01';
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor != 0) goto label_0585dcbd;
+label_0585dd23:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
   }
-  bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+  else {
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) goto label_0585dd23;
+label_0585dcbd:
+    bVar4 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+  }
   if (!bVar4) {
     return;
   }
@@ -3193,13 +3461,10 @@ void Weather_WeatherManager__OnPlayerEnteredRoom
        parameters != (System_Object_array *)0x0)) {
       if ((pSVar6 != (System_Byte_array *)0x0) &&
          (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class),
-         pIVar7 == (Il2CppObject *)0x0)) {
-        pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-        il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-      }
-      if ((int)parameters->max_length == 0) goto label_181db6eae;
+         pIVar7 == (Il2CppObject *)0x0)) goto label_0585e024;
+      if ((int)parameters->max_length == 0) goto label_0585e01f;
       parameters->m_Items[0] = &pSVar6->obj;
-      Il2CppCodeGenWriteBarrier(parameters->m_Items,pSVar6);
+      Il2CppCodeGenWriteBarrier(parameters->m_Items);
       pSVar1 = (__this->fields)._startWeather;
       if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
         pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
@@ -3210,16 +3475,10 @@ void Weather_WeatherManager__OnPlayerEnteredRoom
           pSVar6 = Utility_Algorithms_CompressionAlgorithm__CompressString(pUVar2,pSVar5,1,(MethodInfo *)0x0);
           if ((pSVar6 != (System_Byte_array *)0x0) &&
              (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class),
-             pIVar7 == (Il2CppObject *)0x0)) {
-            pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-          }
-          if ((uint)parameters->max_length < 2) {
-label_181db6eae:
-            ThrowIndexOutOfRangeException();
-          }
+             pIVar7 == (Il2CppObject *)0x0)) goto label_0585e024;
+          if ((parameters->max_length & 0xfffffffe) == 0) goto label_0585e01f;
           parameters->m_Items[1] = &pSVar6->obj;
-          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,pSVar6);
+          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
           pSVar1 = (__this->fields)._targetWeather;
           if (pSVar1 != (Settings_WeatherSet_o *)0x0) {
             pUVar2 = (Utility_Algorithms_CompressionAlgorithm_o *)
@@ -3232,154 +3491,205 @@ label_181db6eae:
               if ((pSVar6 != (System_Byte_array *)0x0) &&
                  (pIVar7 = il2cpp_vm_Object_IsInst(&pSVar6->obj,(((parameters->obj).klass)->_1).element_class)
                  , pIVar7 == (Il2CppObject *)0x0)) {
+label_0585e024:
                 pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
                 il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
               }
               if (2 < (uint)parameters->max_length) {
                 parameters->m_Items[2] = &pSVar6->obj;
-                Il2CppCodeGenWriteBarrier(parameters->m_Items + 2,pSVar6);
+                Il2CppCodeGenWriteBarrier(parameters->m_Items + 2);
                 pSVar3 = (__this->fields)._targetWeatherStartTimes;
                 if ((pSVar3 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) &&
                    (pIVar7 = il2cpp_vm_Object_IsInst
                                        ((Il2CppObject *)pSVar3,(((parameters->obj).klass)->_1).element_class),
-                   pIVar7 == (Il2CppObject *)0x0)) {
-                  pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                  il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                }
-                if (3 < (uint)parameters->max_length) {
+                   pIVar7 == (Il2CppObject *)0x0)) goto label_0585e024;
+                if ((parameters->max_length & 0xfffffffc) != 0) {
                   parameters->m_Items[3] = (Il2CppObject *)pSVar3;
-                  Il2CppCodeGenWriteBarrier(parameters->m_Items + 3,pSVar3);
+                  Il2CppCodeGenWriteBarrier(parameters->m_Items + 3);
                   pSVar3 = (__this->fields)._targetWeatherEndTimes;
                   if ((pSVar3 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) &&
                      (pIVar7 = il2cpp_vm_Object_IsInst
                                          ((Il2CppObject *)pSVar3,(((parameters->obj).klass)->_1).element_class
-                                         ), pIVar7 == (Il2CppObject *)0x0)) {
-                    pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                    il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                  }
+                                         ), pIVar7 == (Il2CppObject *)0x0)) goto label_0585e024;
                   if (4 < (uint)parameters->max_length) {
                     parameters->m_Items[4] = (Il2CppObject *)pSVar3;
-                    Il2CppCodeGenWriteBarrier(parameters->m_Items + 4,pSVar3);
-                    local_res20[0] = (__this->fields)._currentTime;
-                    pIVar7 = il2cpp_value_box(g_data_184354e38,local_res20);
+                    Il2CppCodeGenWriteBarrier(parameters->m_Items + 4);
+                    uStack_38 = CONCAT44((__this->fields)._currentTime,(undefined4)uStack_38);
+                    pIVar7 = il2cpp_vm_Object_Box(g_data_07556740,(void *)((long)&uStack_38 + 4));
                     if ((pIVar7 != (Il2CppObject *)0x0) &&
                        (pIVar8 = il2cpp_vm_Object_IsInst(pIVar7,(((parameters->obj).klass)->_1).element_class)
-                       , pIVar8 == (Il2CppObject *)0x0)) {
-                      pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
-                      il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
-                    }
+                       , pIVar8 == (Il2CppObject *)0x0)) goto label_0585e024;
                     if (5 < (uint)parameters->max_length) {
                       parameters->m_Items[5] = pIVar7;
-                      Il2CppCodeGenWriteBarrier(parameters->m_Items + 5,pIVar7);
+                      Il2CppCodeGenWriteBarrier(parameters->m_Items + 5);
                       if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
-                        Photon_Pun_PhotonView__RPC_1d4d8d0
+                        Photon_Pun_PhotonView__RPC_56e5850
                                   (__this_00,"SetWeatherRPC",player,parameters,(MethodInfo *)0x0);
                         return;
                       }
-                      goto label_181db6e48;
+                      goto label_0585e01a;
                     }
                   }
                 }
               }
-              goto label_181db6eae;
+label_0585e01f:
+              ThrowIndexOutOfRangeException();
             }
           }
         }
       }
     }
   }
-label_181db6e48:
+label_0585e01a:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$LerpCurrentWeatherToTarget
 // il2cpp: void Weather_WeatherManager__LerpCurrentWeatherToTarget (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db5aa0
-// eh: try 0x181db5cef..0x181db5f0c -> pad 0x1833245a0 catch Il2CppExceptionWrapper
-// eh: try 0x181db5f0c..0x181db5f50 -> pad 0x1801ac6d0 cleanup
-// eh: try 0x181db5f50..0x181db65a2 -> pad 0x1833245a0 (+3 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x181db65b0..0x181db65f4 -> pad 0x1801ac6d0 cleanup
-// asm: 40 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db5cfc: nop dword ptr [rax]
-// asm:   0x181db5d80: jmp 0x181db5da1
-// asm:   0x181db637b: mov rdx, qword ptr [rip + 0x22faee6]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_Dispose
-// asm:   0x181db6382: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db6387: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db638c: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181db6391: test rcx, rcx
-// asm:   0x181db6394: jne 0x181db6591
-// asm:   0x181db639a: mov r13, qword ptr [rsp + 0x130]
-// asm:   0x181db63a2: mov r12, qword ptr [rsp + 0x148]
-// asm:   0x181db6452: mov rdx, qword ptr [rip + 0x22d1e8f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x181db6459: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db645e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db6463: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181db6468: test rcx, rcx
-// asm:   0x181db646b: jne 0x181db65a2
-// asm:   0x181db6591: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db65a2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833245a0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833245a5: push rbp
-// asm:   0x1833245a6: sub rsp, 0x20
-// asm:   0x1833245aa: mov rbp, rdx
-// asm:   0x1833245ad: mov rax, qword ptr [rbp + 0x98]
-// asm:   0x1833245b4: mov rcx, qword ptr [rax]
-// asm:   0x1833245b7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x1833245bb: movabs rax, 0
-// asm:   0x1833245c5: add rsp, 0x20
-// asm:   0x1833245c9: pop rbp
-// asm:   0x1833245ca: ret 
-// asm:   0x18333bd70: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bd75: push rbp
-// asm:   0x18333bd76: sub rsp, 0x20
-// asm:   0x18333bd7a: mov rbp, rdx
-// asm:   0x18333bd7d: mov rax, qword ptr [rbp + 0xa0]
-// asm:   0x18333bd84: mov rcx, qword ptr [rax]
-// asm:   0x18333bd87: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18333bd8b: movabs rax, 0
-// asm:   0x18333bd95: add rsp, 0x20
-// asm:   0x18333bd99: pop rbp
-// asm:   0x18333bd9a: ret 
+// 0x585d0a0
+// eh: try 0x585d2d5..0x585db36 -> pad 0x585dbcc (+61 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585dbe6..0x585dbeb -> pad 0x585dc0a cleanup
+// eh: try 0x585dc0d..0x585dc17 -> pad 0x585dc7c catch (...) [compiler noexcept guard]
+// eh: try 0x585dc3d..0x585dc42 -> pad 0x585dc67 cleanup
+// eh: try 0x585dc6a..0x585dc74 -> pad 0x585dc7c catch (...) [compiler noexcept guard]
+// asm: 92 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585d9c9: nop dword ptr [rax]
+// asm:   0x585db36: jmp 0x585dc25
+// asm:   0x585db3b: jmp 0x585dc25
+// asm:   0x585db40: jmp 0x585dc25
+// asm:   0x585db45: jmp 0x585dc25
+// asm:   0x585db4a: jmp 0x585dc25
+// asm:   0x585db4f: jmp 0x585dc25
+// asm:   0x585db54: jmp 0x585dc25
+// asm:   0x585db59: jmp 0x585dc25
+// asm:   0x585db5e: jmp 0x585dc25
+// asm:   0x585db63: jmp 0x585dc25
+// asm:   0x585db68: jmp 0x585dc25
+// asm:   0x585db6d: jmp 0x585dc25
+// asm:   0x585db72: jmp 0x585dc25
+// asm:   0x585db77: jmp 0x585dc25
+// asm:   0x585db7c: jmp 0x585dc25
+// asm:   0x585db81: jmp 0x585dc25
+// asm:   0x585db86: jmp 0x585dc25
+// asm:   0x585db8b: jmp 0x585dc25
+// asm:   0x585db90: jmp 0x585dc25
+// asm:   0x585db95: jmp 0x585dc25
+// asm:   0x585db9a: jmp 0x585dc25
+// asm:   0x585db9f: jmp 0x585dc25
+// asm:   0x585dba4: jmp 0x585dc25
+// asm:   0x585dba6: jmp 0x585dc25
+// asm:   0x585dba8: jmp 0x585dc25
+// asm:   0x585dbaa: jmp 0x585dc25
+// asm:   0x585dbac: jmp 0x585dc25
+// asm:   0x585dbae: jmp 0x585dc25
+// asm:   0x585dbb0: jmp 0x585dc25
+// asm:   0x585dbb2: jmp 0x585dc25
+// asm:   0x585dbb4: jmp 0x585dc25
+// asm:   0x585dbb6: jmp 0x585dc25
+// asm:   0x585dbb8: jmp 0x585dc25
+// asm:   0x585dbba: jmp 0x585dc25
+// asm:   0x585dbbc: jmp 0x585dc25
+// asm:   0x585dbbe: jmp 0x585dc25
+// asm:   0x585dbc0: jmp 0x585dc25
+// asm:   0x585dbc2: jmp 0x585dc25
+// asm:   0x585dbc4: jmp 0x585dbce
+// asm:   0x585dbc6: jmp 0x585dbce
+// asm:   0x585dbc8: jmp 0x585dbce
+// asm:   0x585dbca: jmp 0x585dbce
+// asm:   0x585dbcc: jmp 0x585dc25
+// asm:   0x585dbce: mov rbx, rax
+// asm:   0x585dbd1: cmp edx, 1
+// asm:   0x585dbd4: jne 0x585dc0d
+// asm:   0x585dbd6: mov rdi, rbx
+// asm:   0x585dbd9: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585dbde: mov rbx, qword ptr [rax]
+// asm:   0x585dbe1: mov qword ptr [rsp + 0x10], rbx
+// asm:   0x585dbe6: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585dbeb: lea rax, [rip + 0x1a30606]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x585dbf2: mov rsi, qword ptr [rax]
+// asm:   0x585dbf5: lea rdi, [rsp + 0x50]
+// asm:   0x585dbfa: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x585dbff: test rbx, rbx
+// asm:   0x585dc02: je 0x585da21
+// asm:   0x585dc08: jmp 0x585dc5f
+// asm:   0x585dc0a: mov rbx, rax
+// asm:   0x585dc0d: lea rdi, [rsp + 0x10]
+// asm:   0x585dc12: call 0x2fce900  ; il2cpp_runtime_helper_02fce900()
+// asm:   0x585dc17: jmp 0x585dc74
+// asm:   0x585dc19: jmp 0x585dc25
+// asm:   0x585dc1b: jmp 0x585dc25
+// asm:   0x585dc1d: jmp 0x585dc25
+// asm:   0x585dc1f: jmp 0x585dc25
+// asm:   0x585dc21: jmp 0x585dc25
+// asm:   0x585dc23: jmp 0x585dc25
+// asm:   0x585dc25: mov rbx, rax
+// asm:   0x585dc28: cmp edx, 1
+// asm:   0x585dc2b: jne 0x585dc6a
+// asm:   0x585dc2d: mov rdi, rbx
+// asm:   0x585dc30: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585dc35: mov rbx, qword ptr [rax]
+// asm:   0x585dc38: mov qword ptr [rsp + 0x10], rbx
+// asm:   0x585dc3d: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585dc42: lea rax, [rip + 0x1a31da7]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_Dispose
+// asm:   0x585dc49: mov rsi, qword ptr [rax]
+// asm:   0x585dc4c: lea rdi, [rsp + 0x30]
+// asm:   0x585dc51: call 0x4da4000  ; System_Collections_Generic_Dictionary_Enumerator_int__float___Dispose()
+// asm:   0x585dc56: test rbx, rbx
+// asm:   0x585dc59: je 0x585d985
+// asm:   0x585dc5f: mov rdi, rbx
+// asm:   0x585dc62: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585dc67: mov rbx, rax
+// asm:   0x585dc6a: lea rdi, [rsp + 0x10]
+// asm:   0x585dc6f: call 0x2fce8d0  ; il2cpp_runtime_helper_02fce8d0()
+// asm:   0x585dc74: mov rdi, rbx
+// asm:   0x585dc77: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585dc7c: mov rdi, rax
+// asm:   0x585dc7f: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__LerpCurrentWeatherToTarget(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  byte bVar2;
-  System_Collections_Generic_Dictionary_uint__int__o *__this_00;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar3;
-  Settings_WeatherSet_o *pSVar4;
-  System_Collections_Specialized_OrderedDictionary_o *pSVar5;
-  Settings_StringSetting_o *pSVar6;
-  Settings_StringSetting_o *pSVar7;
-  System_Collections_Generic_List_WeatherEffect__o *pSVar8;
-  Il2CppObject *pIVar9;
-  bool bVar10;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_01;
+  int32_t *piVar1;
+  undefined8 uVar2;
+  byte bVar3;
+  uint uVar4;
+  System_Collections_Generic_List_int__o *pSVar5;
+  System_Collections_Generic_Dictionary_int__float__o *pSVar6;
+  System_Int32_array *pSVar7;
+  System_String_array *pSVar8;
+  Settings_WeatherSet_o *pSVar9;
+  System_Collections_Specialized_OrderedDictionary_o *pSVar10;
   System_String_o *key;
-  Il2CppObject *pIVar11;
-  Settings_TypedSetting_Vector3__o *__this_02;
-  Il2CppObject *pIVar12;
-  UnityEngine_Material_o *__this_03;
+  Settings_StringSetting_o *pSVar11;
+  MethodInfo *pMVar12;
+  System_Collections_Generic_List_T__o *__this_00;
+  System_Object_array *pSVar13;
+  uint item;
+  int32_t key_00;
+  bool bVar14;
+  Il2CppObject *pIVar15;
+  Settings_TypedSetting_Vector3__o *__this_01;
+  Il2CppObject *pIVar16;
   Utility_Color255_o *value;
-  int32_t iVar13;
-  float fVar14;
-  float fStackX_1c;
-  UnityEngine_Vector3_o local_f8;
-  undefined1 local_e8 [16];
-  int32_t local_d8;
-  undefined4 uStack_d4;
-  Il2CppObject *pIStack_d0;
-  undefined1 local_c8 [8];
-  uint64_t uStack_c0;
-  Il2CppObject *local_b8;
-  undefined1 local_b0 [8];
-  undefined1 *puStack_a8;
-  Il2CppObject *local_a0;
-  Il2CppObject *pIStack_98;
+  UnityEngine_Material_o *__this_02;
+  Weather_WeatherManager_o *__this_03;
+  float fVar17;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  float fVar21;
+  UnityEngine_Vector3_o value_00;
+  undefined1 local_88 [16];
+  Il2CppObject *local_78;
+  Il2CppObject *pIStack_70;
+  undefined1 local_68 [8];
+  undefined1 *puStack_60;
+  undefined8 local_58;
+  Il2CppObject *pIStack_50;
+  System_Collections_Generic_List_Enumerator_T__o local_48;
   
-  if (Il2CppMethodInitialized_184344941 == '\0') {
+  if (Il2CppMethodInitialized_0754509a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ColorSetting);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3407,9 +3717,8 @@ void Weather_WeatherManager__LerpCurrentWeatherToTarget(Weather_WeatherManager_o
               (&MethodInfo_System_Collections_Generic_KeyValuePair_int_float_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEffect_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Clear);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
@@ -3421,363 +3730,397 @@ void Weather_WeatherManager__LerpCurrentWeatherToTarget(Weather_WeatherManager_o
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_Vector3Setting);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344941 = '\x01';
+    Il2CppMethodInitialized_0754509a = '\x01';
   }
-  local_b0 = (undefined1  [8])0x0;
-  puStack_a8 = (undefined1 *)0x0;
-  local_a0 = (Il2CppObject *)0x0;
-  pIStack_98 = (Il2CppObject *)0x0;
-  local_c8 = (undefined1  [8])0x0;
-  uStack_c0 = 0;
-  local_b8 = (Il2CppObject *)0x0;
-  __this_01 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-  System_Collections_Generic_List_int____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
-  __this_00 = (System_Collections_Generic_Dictionary_uint__int__o *)(__this->fields)._targetWeatherEndTimes;
-  if (__this_00 != (System_Collections_Generic_Dictionary_uint__int__o *)0x0) {
-    System_Collections_Generic_Dictionary_uint__int___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_e8,__this_00,
-               (MethodInfo_13E5010 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_GetEnumerator)
-    ;
-    local_b0 = (undefined1  [8])local_e8._0_8_;
-    puStack_a8 = (undefined1 *)local_e8._8_8_;
-    local_a0 = (Il2CppObject *)CONCAT44(uStack_d4,local_d8);
-    pIStack_98 = pIStack_d0;
-    while (bVar10 = System_Collections_Generic_Dictionary_Enumerator_Int32Enum__float___MoveNext
-                              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_b0,
-                               (MethodInfo_1564AA0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_MoveNext)
-          , pIVar9 = local_a0, bVar10) {
-      fStackX_1c = (float)((ulonglong)local_a0 >> 0x20);
-      iVar13 = (int32_t)local_a0;
-      if (fStackX_1c <= (__this->fields)._currentTime) {
-        if (__this_01 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        il2cpp_runtime_helper_180026690(__this_01);
-label_181db5da1:
-        fStackX_1c = 1.0;
-      }
-      else {
-        pSVar3 = (__this->fields)._targetWeatherStartTimes;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        fVar14 = System_Collections_Generic_Dictionary_int__float___get_Item
-                           (pSVar3,iVar13,
-                            (MethodInfo_1423460 *)
-                            MethodInfo_System_Collections_Generic_Dictionary_int_float_get_Item);
-        fStackX_1c = fStackX_1c - fVar14;
-        if (fStackX_1c <= 1.0) {
-          fStackX_1c = 1.0;
-        }
-        fStackX_1c = ((__this->fields)._currentTime - fVar14) / fStackX_1c;
-        if (fStackX_1c < 0.0) {
-          fStackX_1c = 0.0;
-        }
-        else if (1.0 < fStackX_1c) goto label_181db5da1;
-      }
-      local_e8._0_8_ = TypeInfo_Weather_WeatherEffect;
-      local_e8._8_8_ = &g_data_ffffffffffffffff;
-      local_d8 = iVar13;
-      key = System_Enum__ToString((System_Enum_o *)local_e8,(MethodInfo *)0x0);
-      pSVar4 = (__this->fields)._startWeather;
-      if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pSVar5 = (pSVar4->fields).Settings;
-      if (pSVar5 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pIVar11 = System_Collections_Specialized_OrderedDictionary__get_Item
-                          (pSVar5,(Il2CppObject *)key,(MethodInfo *)0x0);
-      if (pIVar11 != (Il2CppObject *)0x0) {
-        bVar2 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
-        if (((pIVar11->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar11->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar11);
-        }
-      }
-      pSVar4 = (__this->fields)._currentWeather;
-      if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pSVar5 = (pSVar4->fields).Settings;
-      if (pSVar5 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      __this_02 = (Settings_TypedSetting_Vector3__o *)
-                  System_Collections_Specialized_OrderedDictionary__get_Item
-                            (pSVar5,(Il2CppObject *)key,(MethodInfo *)0x0);
-      if (__this_02 != (Settings_TypedSetting_Vector3__o *)0x0) {
-        bVar2 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
-        if (((__this_02->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(__this_02);
-        }
-      }
-      pSVar4 = (__this->fields)._targetWeather;
-      if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pSVar5 = (pSVar4->fields).Settings;
-      if (pSVar5 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pIVar12 = System_Collections_Specialized_OrderedDictionary__get_Item
-                          (pSVar5,(Il2CppObject *)key,(MethodInfo *)0x0);
-      if (pIVar12 != (Il2CppObject *)0x0) {
-        bVar2 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
-        if (((pIVar12->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar12->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar12);
-        }
-      }
-      switch(iVar13) {
-      case 1:
-      case 4:
-      case 6:
-      case 7:
-      case 9:
-        if (pIVar11 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_ColorSetting->_2).typeHierarchyDepth;
-        if (((pIVar11->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar11->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar11,TypeInfo_Settings_ColorSetting);
-        }
-        if (pIVar12 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_ColorSetting->_2).typeHierarchyDepth;
-        if (((pIVar12->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar12->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar12,TypeInfo_Settings_ColorSetting);
-        }
-        value = Utility_Color255__Lerp
-                          ((Utility_Color255_o *)pIVar11[2].klass,(Utility_Color255_o *)pIVar12[2].klass,
-                           fStackX_1c,(MethodInfo *)0x0);
-        if (__this_02 == (Settings_TypedSetting_Vector3__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_ColorSetting->_2).typeHierarchyDepth;
-        if (((__this_02->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(__this_02);
-        }
-        Settings_TypedSetting_object___set_Value
-                  ((Settings_TypedSetting_T__o *)__this_02,(Il2CppObject *)value,
-                   (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
-        break;
-      case 2:
-      case 8:
-      case 10:
-      case 0xb:
-      case 0xc:
-      case 0xd:
-      case 0xf:
-      case 0x10:
-      case 0x11:
-        if (pIVar11 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-        if (((pIVar11->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar11->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar11);
-        }
-        if (pIVar12 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-        if (((pIVar12->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar12->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar12);
-        }
-        fVar14 = *(float *)((longlong)&pIVar11[1].monitor + 4);
-        if (fStackX_1c < 0.0) {
-          fStackX_1c = 0.0;
-        }
-        else if (1.0 < fStackX_1c) {
-          fStackX_1c = 1.0;
-        }
-        if (__this_02 == (Settings_TypedSetting_Vector3__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-        if (((__this_02->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(__this_02);
-        }
-        Settings_TypedSetting_float___set_Value
-                  ((Settings_TypedSetting_float__o *)__this_02,
-                   fVar14 + (*(float *)((longlong)&pIVar12[1].monitor + 4) - fVar14) * fStackX_1c,
-                   (MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value);
-        break;
-      case 3:
-      case 0xe:
-        if (pIVar11 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_Vector3Setting->_2).typeHierarchyDepth;
-        if (((pIVar11->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar11->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar11);
-        }
-        if (pIVar12 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_Vector3Setting->_2).typeHierarchyDepth;
-        if (((pIVar12->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((pIVar12->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar12);
-        }
-        fVar14 = *(float *)((longlong)&pIVar11[2].klass + 4);
-        fVar1 = *(float *)((longlong)&pIVar11[2].monitor + 4);
-        if (fStackX_1c < 0.0) {
-          fStackX_1c = 0.0;
-        }
-        else if (1.0 < fStackX_1c) {
-          fStackX_1c = 1.0;
-        }
-        if (__this_02 == (Settings_TypedSetting_Vector3__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar2 = (TypeInfo_Settings_Vector3Setting->_2).typeHierarchyDepth;
-        if (((__this_02->klass->_2).typeHierarchyDepth < bVar2) ||
-           ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-            (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
-          il2cpp_codegen_raise_invalid_cast_exception(__this_02);
-        }
-        local_f8.fields.x = (*(float *)((longlong)&pIVar12[2].klass + 4) - fVar14) * fStackX_1c + fVar14;
-        local_f8.fields.y =
-             (*(float *)&pIVar12[2].monitor - *(float *)&pIVar11[2].monitor) * fStackX_1c +
-             *(float *)&pIVar11[2].monitor;
-        local_f8.fields.z = (*(float *)((longlong)&pIVar12[2].monitor + 4) - fVar1) * fStackX_1c + fVar1;
-        Settings_TypedSetting_Vector3___set_Value
-                  (__this_02,&local_f8,(MethodInfo_E8F4F0 *)MethodInfo_Settings_TypedSetting_Vector3_set_Value
-                  );
-        break;
-      case 5:
-        pSVar4 = (__this->fields)._currentWeather;
-        if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pSVar6 = (pSVar4->fields).Skybox;
-        if (pSVar6 == (Settings_StringSetting_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pSVar4 = (__this->fields)._targetWeather;
-        if (pSVar4 == (Settings_WeatherSet_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pSVar7 = (pSVar4->fields).Skybox;
-        if (pSVar7 == (Settings_StringSetting_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        __this_03 = Weather_WeatherManager__GetBlendedSkybox
-                              (__this,(pSVar6->fields)._value,(pSVar7->fields)._value,(MethodInfo *)0x0);
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar10 = UnityEngine_Object__op_Inequality
-                           ((UnityEngine_Object_o *)__this_03,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar10) {
-          if (1.0 <= fStackX_1c) {
-            if (pIVar12 == (Il2CppObject *)0x0) {
-              ThrowNullReferenceException();
-            }
-            bVar2 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
-            if (((pIVar12->klass->_2).typeHierarchyDepth < bVar2) ||
-               ((pIVar12->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar12);
-            }
-            if (__this_02 == (Settings_TypedSetting_Vector3__o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            bVar2 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
-            if (((__this_02->klass->_2).typeHierarchyDepth < bVar2) ||
-               ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
-              il2cpp_codegen_raise_invalid_cast_exception(__this_02);
-            }
-            Settings_TypedSetting_object___set_Value
-                      ((Settings_TypedSetting_T__o *)__this_02,(Il2CppObject *)pIVar12[2].klass,
-                       (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
-          }
-          if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-          }
-          if (Il2CppMethodInitialized_184344934 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"_Blend");
-            Il2CppMethodInitialized_184344934 = '\x01';
-          }
-          if (__this_03 == (UnityEngine_Material_o *)0x0) {
+  local_58 = (Il2CppObject *)0x0;
+  pIStack_50 = (Il2CppObject *)0x0;
+  local_68 = (undefined1  [8])0x0;
+  puStack_60 = (undefined1 *)0x0;
+  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_48.fields._index = 0;
+  local_48.fields._version = 0;
+  local_48.fields._current = (Il2CppObject *)0x0;
+  pSVar5 = (__this->fields)._finishedLerps;
+  if (pSVar5 != (System_Collections_Generic_List_int__o *)0x0) {
+    piVar1 = &(pSVar5->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (pSVar5->fields)._size = 0;
+    pSVar6 = (__this->fields)._targetWeatherEndTimes;
+    if (pSVar6 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
+      System_Collections_Generic_Dictionary_int__float___GetEnumerator
+                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_88,pSVar6,
+                 (MethodInfo_4A178B0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_int_float_GetEnumerator);
+      local_58 = local_78;
+      pIStack_50 = pIStack_70;
+      local_68 = (undefined1  [8])local_88._0_8_;
+      puStack_60 = (undefined1 *)local_88._8_8_;
+      local_88._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_88._8_8_ = local_68;
+      while (bVar14 = System_Collections_Generic_Dictionary_Enumerator_int__float___MoveNext
+                                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_68,
+                                 (MethodInfo_4CA3EE0 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_MoveNext
+                                ), pMVar12 = MethodInfo_System_Collections_Generic_List_int_Add, bVar14) {
+        item = (uint)local_58;
+        fVar21 = local_58._4_4_;
+        if (local_58._4_4_ <= (__this->fields)._currentTime) {
+          pSVar5 = (__this->fields)._finishedLerps;
+          if (pSVar5 == (System_Collections_Generic_List_int__o *)0x0) {
+label_0585da7f:
             ThrowNullReferenceException();
           }
-          UnityEngine_Material__SetFloat(__this_03,"_Blend",fStackX_1c,(MethodInfo *)0x0);
+          piVar1 = &(pSVar5->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar7 = (pSVar5->fields)._items;
+          if (pSVar7 == (System_Int32_array *)0x0) goto label_0585da7f;
+          uVar4 = (pSVar5->fields)._size;
+          if (uVar4 < (uint)pSVar7->max_length) {
+            (pSVar5->fields)._size = uVar4 + 1;
+            pSVar7->m_Items[(int)uVar4] = (uint)local_58;
+            fVar17 = 1.0;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (pSVar5,(uint)local_58,(MethodInfo_3916AC0 *)pMVar12->klass->rgctx_data[0xe].method);
+            fVar17 = 1.0;
+          }
         }
-      }
-      pSVar8 = (__this->fields)._needApply;
-      if (pSVar8 == (System_Collections_Generic_List_WeatherEffect__o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      il2cpp_runtime_helper_180039440(pSVar8,(ulonglong)pIVar9 & 0xffffffff,
-                    MethodInfo_System_Collections_Generic_List_WeatherEffect_Add);
-    }
-    System_Collections_Generic_Dictionary_Enumerator_int__float___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_b0,
-               MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_Dispose);
-    if (__this_01 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-      System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_e8,__this_01,
-                 (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-      local_c8 = (undefined1  [8])local_e8._0_8_;
-      uStack_c0 = local_e8._8_8_;
-      local_b8 = (Il2CppObject *)CONCAT44(uStack_d4,local_d8);
-      while( true ) {
-        bVar10 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                           ((System_Collections_Generic_List_Enumerator_T__o *)local_c8,
-                            (MethodInfo_1530180 *)
-                            MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-        if (!bVar10) {
-          System_Collections_Generic_List_Enumerator_int___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_c8,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-          return;
+        else {
+          pSVar6 = (__this->fields)._targetWeatherStartTimes;
+          if (pSVar6 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          fVar17 = System_Collections_Generic_Dictionary_int__float___get_Item
+                             (pSVar6,(uint)local_58,
+                              (MethodInfo_4A173E0 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_float_get_Item);
+          fVar21 = fVar21 - fVar17;
+          if (fVar21 <= 1.0) {
+            fVar21 = 1.0;
+          }
+          fVar21 = ((__this->fields)._currentTime - fVar17) / fVar21;
+          fVar17 = 1.0;
+          if (fVar21 <= 1.0) {
+            fVar17 = fVar21;
+          }
+          fVar17 = (float)(-(uint)(0.0 <= fVar21) & (uint)fVar17);
         }
-        pSVar3 = (__this->fields)._targetWeatherStartTimes;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) break;
-        iVar13 = (int32_t)local_b8;
-        System_Collections_Generic_Dictionary_int__float___Remove
-                  (pSVar3,(int32_t)local_b8,
-                   (MethodInfo_140B8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Remove);
-        pSVar3 = (__this->fields)._targetWeatherEndTimes;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        pSVar8 = TypeInfo_Weather_WeatherManager->static_fields->EffectNames;
+        if (pSVar8 == (System_String_array *)0x0) {
           ThrowNullReferenceException();
         }
-        System_Collections_Generic_Dictionary_int__float___Remove
-                  (pSVar3,iVar13,
-                   (MethodInfo_140B8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Remove);
+        if ((uint)pSVar8->max_length <= item) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar9 = (__this->fields)._startWeather;
+        if (pSVar9 == (Settings_WeatherSet_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar10 = (pSVar9->fields).Settings;
+        if (pSVar10 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        key = pSVar8->m_Items[(int)item];
+        pIVar15 = System_Collections_Specialized_OrderedDictionary__get_Item
+                            (pSVar10,(Il2CppObject *)key,(MethodInfo *)0x0);
+        if (pIVar15 != (Il2CppObject *)0x0) {
+          bVar3 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
+          if (((pIVar15->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar15);
+          }
+        }
+        pSVar9 = (__this->fields)._currentWeather;
+        if (pSVar9 == (Settings_WeatherSet_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar10 = (pSVar9->fields).Settings;
+        if (pSVar10 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        __this_01 = (Settings_TypedSetting_Vector3__o *)
+                    System_Collections_Specialized_OrderedDictionary__get_Item
+                              (pSVar10,(Il2CppObject *)key,(MethodInfo *)0x0);
+        if (__this_01 != (Settings_TypedSetting_Vector3__o *)0x0) {
+          bVar3 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
+          if (((__this_01->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_01);
+          }
+        }
+        pSVar9 = (__this->fields)._targetWeather;
+        if (pSVar9 == (Settings_WeatherSet_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        __this_03 = (Weather_WeatherManager_o *)(pSVar9->fields).Settings;
+        if (__this_03 == (Weather_WeatherManager_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar16 = System_Collections_Specialized_OrderedDictionary__get_Item
+                            ((System_Collections_Specialized_OrderedDictionary_o *)__this_03,
+                             (Il2CppObject *)key,(MethodInfo *)0x0);
+        if (pIVar16 != (Il2CppObject *)0x0) {
+          bVar3 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
+          if (((pIVar16->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar16->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar16);
+          }
+        }
+        switch(item) {
+        case 1:
+        case 4:
+        case 6:
+        case 7:
+        case 9:
+          if (pIVar15 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar3 = (TypeInfo_Settings_ColorSetting->_2).typeHierarchyDepth;
+          if (((pIVar15->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar15);
+          }
+          if (pIVar16 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (((pIVar16->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar16->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar16);
+          }
+          value = Utility_Color255__Lerp
+                            ((Utility_Color255_o *)pIVar15[2].klass,(Utility_Color255_o *)pIVar16[2].klass,
+                             fVar17,(MethodInfo *)0x0);
+          if (__this_01 == (Settings_TypedSetting_Vector3__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar3 = (TypeInfo_Settings_ColorSetting->_2).typeHierarchyDepth;
+          if (((__this_01->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_ColorSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_01);
+          }
+          Settings_TypedSetting_object___set_Value
+                    ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)value,
+                     (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
+          break;
+        case 2:
+        case 8:
+        case 10:
+        case 0xb:
+        case 0xc:
+        case 0xd:
+        case 0xf:
+        case 0x10:
+        case 0x11:
+          if (pIVar15 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar3 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
+          if (((pIVar15->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar15);
+          }
+          if (pIVar16 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (((pIVar16->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar16->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar16);
+          }
+          if (__this_01 == (Settings_TypedSetting_Vector3__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (((__this_01->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_01);
+          }
+          fVar21 = *(float *)((long)&pIVar15[1].monitor + 4);
+          fVar18 = 0.0;
+          if (0.0 <= fVar17) {
+            fVar18 = fVar17;
+          }
+          Settings_TypedSetting_float___set_Value
+                    ((Settings_TypedSetting_float__o *)__this_01,
+                     (*(float *)((long)&pIVar16[1].monitor + 4) - fVar21) * fVar18 + fVar21,
+                     (MethodInfo_42DA3B0 *)MethodInfo_Settings_TypedSetting_float_set_Value);
+          break;
+        case 3:
+        case 0xe:
+          if (pIVar15 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar3 = (TypeInfo_Settings_Vector3Setting->_2).typeHierarchyDepth;
+          if (((pIVar15->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar15);
+          }
+          if (pIVar16 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (((pIVar16->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((pIVar16->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar16);
+          }
+          if (__this_01 == (Settings_TypedSetting_Vector3__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (((__this_01->klass->_2).typeHierarchyDepth < bVar3) ||
+             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_Vector3Setting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_01);
+          }
+          uVar2 = *(undefined8 *)((long)&pIVar15[2].klass + 4);
+          fVar19 = (float)uVar2;
+          fVar20 = (float)((ulong)uVar2 >> 0x20);
+          fVar21 = *(float *)((long)&pIVar15[2].monitor + 4);
+          uVar2 = *(undefined8 *)((long)&pIVar16[2].klass + 4);
+          fVar18 = 0.0;
+          if (0.0 <= fVar17) {
+            fVar18 = fVar17;
+          }
+          value_00.fields.x = fVar18 * ((float)uVar2 - fVar19) + fVar19;
+          value_00.fields.y = fVar18 * ((float)((ulong)uVar2 >> 0x20) - fVar20) + fVar20;
+          value_00.fields.z = (*(float *)((long)&pIVar16[2].monitor + 4) - fVar21) * fVar18 + fVar21;
+          Settings_TypedSetting_Vector3___set_Value
+                    (__this_01,value_00,
+                     (MethodInfo_42DA4D0 *)MethodInfo_Settings_TypedSetting_Vector3_set_Value);
+          break;
+        case 5:
+          pSVar9 = (__this->fields)._currentWeather;
+          if (pSVar9 == (Settings_WeatherSet_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar11 = (pSVar9->fields).Skybox;
+          if (pSVar11 == (Settings_StringSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar9 = (__this->fields)._targetWeather;
+          if (pSVar9 == (Settings_WeatherSet_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pMVar12 = (MethodInfo *)(pSVar9->fields).Skybox;
+          if (pMVar12 == (MethodInfo *)0x0) {
+            ThrowNullReferenceException();
+          }
+          __this_02 = Weather_WeatherManager__GetBlendedSkybox
+                                (__this_03,(pSVar11->fields)._value,(System_String_o *)pMVar12->klass,pMVar12)
+          ;
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar14 = UnityEngine_Object__op_Inequality
+                             ((UnityEngine_Object_o *)__this_02,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
+          ;
+          if (bVar14) {
+            if (1.0 <= fVar17) {
+              if (pIVar16 == (Il2CppObject *)0x0) {
+                ThrowNullReferenceException();
+              }
+              bVar3 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
+              if (((pIVar16->klass->_2).typeHierarchyDepth < bVar3) ||
+                 ((pIVar16->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+                  (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
+                il2cpp_codegen_raise_invalid_cast_exception(pIVar16);
+              }
+              if (__this_01 == (Settings_TypedSetting_Vector3__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              if (((__this_01->klass->_2).typeHierarchyDepth < bVar3) ||
+                 ((__this_01->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+                  (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
+                il2cpp_codegen_raise_invalid_cast_exception(__this_01);
+              }
+              Settings_TypedSetting_object___set_Value
+                        ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)pIVar16[2].klass,
+                         (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+            }
+            if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+            }
+            if (Il2CppMethodInitialized_0754508c == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&"_Blend");
+              Il2CppMethodInitialized_0754508c = '\x01';
+            }
+            if (__this_02 == (UnityEngine_Material_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            UnityEngine_Material__SetFloat(__this_02,"_Blend",fVar17,(MethodInfo *)0x0);
+          }
+        }
+        pMVar12 = MethodInfo_System_Collections_Generic_List_WeatherEffect_Add;
+        __this_00 = (System_Collections_Generic_List_T__o *)(__this->fields)._needApply;
+        if (__this_00 == (System_Collections_Generic_List_T__o *)0x0) {
+label_0585da30:
+          ThrowNullReferenceException();
+        }
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar13 = (__this_00->fields)._items;
+        if (pSVar13 == (System_Object_array *)0x0) goto label_0585da30;
+        uVar4 = (__this_00->fields)._size;
+        if (uVar4 < (uint)pSVar13->max_length) {
+          (__this_00->fields)._size = uVar4 + 1;
+          *(uint *)((long)pSVar13->m_Items + (long)(int)uVar4 * 4) = item;
+        }
+        else {
+          System_Collections_Generic_List_Int32Enum___AddWithResize
+                    (__this_00,item,(MethodInfo_3919BE0 *)pMVar12->klass->rgctx_data[0xe].method);
+        }
       }
-      ThrowNullReferenceException();
+      System_Collections_Generic_Dictionary_Enumerator_int__float___Dispose
+                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_68,
+                 (MethodInfo_4CA4000 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_float_Dispose);
+      pSVar5 = (__this->fields)._finishedLerps;
+      if (pSVar5 != (System_Collections_Generic_List_int__o *)0x0) {
+        System_Collections_Generic_List_int___GetEnumerator
+                  (&local_48,pSVar5,
+                   (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+        local_88._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+        local_88._8_8_ = &local_48;
+        while( true ) {
+          bVar14 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                             ((System_Collections_Generic_List_Enumerator_int__o *)&local_48,
+                              (MethodInfo_4C3B4A0 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+          if (!bVar14) {
+            System_Collections_Generic_List_Enumerator_int___Dispose
+                      ((System_Collections_Generic_List_Enumerator_int__o *)&local_48,
+                       (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+                      );
+            return;
+          }
+          pSVar6 = (__this->fields)._targetWeatherStartTimes;
+          if (pSVar6 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) break;
+          key_00 = (int32_t)local_48.fields._current;
+          System_Collections_Generic_Dictionary_int__float___Remove
+                    (pSVar6,(int32_t)local_48.fields._current,
+                     (MethodInfo_4A18A90 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Remove);
+          pSVar6 = (__this->fields)._targetWeatherEndTimes;
+          if (pSVar6 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          System_Collections_Generic_Dictionary_int__float___Remove
+                    (pSVar6,key_00,
+                     (MethodInfo_4A18A90 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_Remove);
+        }
+        ThrowNullReferenceException();
+      }
     }
   }
   ThrowNullReferenceException();
@@ -3786,244 +4129,370 @@ label_181db5da1:
 
 // Weather.WeatherManager$$ApplyCurrentWeather
 // il2cpp: void Weather_WeatherManager__ApplyCurrentWeather (Weather_WeatherManager_o* __this, bool firstStart, bool applyAll, const MethodInfo* method);
-// 0x181db2b50
-// eh: try 0x181db2e3b..0x181db2eec -> pad 0x18333bd10 catch Il2CppExceptionWrapper
-// eh: try 0x181db2eec..0x181db2f01 -> pad 0x1803531b0 cleanup
-// eh: try 0x181db2f01..0x181db3d45 -> pad 0x18333bd10 (+13 call sites) catch Il2CppExceptionWrapper
-// asm: 233 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db2fe9: mov rdx, qword ptr [rip + 0x22d7518]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
-// asm:   0x181db2ff0: mov rcx, qword ptr [rsp + 0x98]
-// asm:   0x181db2ff8: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db2ffd: mov rcx, qword ptr [rsp + 0x90]
-// asm:   0x181db3005: test rcx, rcx
-// asm:   0x181db3008: jne 0x181db3bcd
-// asm:   0x181db300e: lea r14, [rip - 0x1db3015]
-// asm:   0x181db3015: mov rsi, qword ptr [rsp + 0x210]
-// asm:   0x181db301d: movss xmm7, dword ptr [rip + 0x15a5bdb]
-// asm:   0x181db3025: xorps xmm8, xmm8
-// asm:   0x181db3029: movss xmm11, dword ptr [rip + 0x15a5bd6]
-// asm:   0x181db3032: movss xmm12, dword ptr [rip + 0x15a5b45]
-// asm:   0x181db303b: movss xmm10, dword ptr [rip + 0x168cbd8]
-// asm:   0x181db3044: movss xmm9, dword ptr [rip + 0x15a5bab]
-// asm:   0x181db304d: mov rax, qword ptr [rip + 0x230d094]  ; TypeInfo_Map_MapLoader
-// asm:   0x181db3054: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x181db305b: jne 0x181db306c
-// asm:   0x181db305d: mov rcx, rax
-// asm:   0x181db3060: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x181db3065: mov rax, qword ptr [rip + 0x230d07c]  ; TypeInfo_Map_MapLoader
-// asm:   0x181db306c: mov rax, qword ptr [rax + 0xb8]
-// asm:   0x181db3073: mov rdx, qword ptr [rax + 0x30]
-// asm:   0x181db3077: test rdx, rdx
-// asm:   0x181db307a: je 0x181db3bed
-// asm:   0x181db3080: mov r8, qword ptr [rip + 0x2306801]  ; MethodInfo_System_Collections_Generic_List_Light_GetEnumerator
-// asm:   0x181db3087: lea rcx, [rsp + 0x20]
-// asm:   0x181db308c: call 0x18091f180  ; System_Collections_Generic_List_Nullable_int____GetEnumerator()
-// asm:   0x181db3091: movups xmm0, xmmword ptr [rsp + 0x20]
-// asm:   0x181db3096: movups xmmword ptr [rsp + 0x40], xmm0
-// asm:   0x181db309b: movsd xmm1, qword ptr [rsp + 0x30]
-// asm:   0x181db30a1: movsd qword ptr [rsp + 0x50], xmm1
-// asm:   0x181db30a7: mov qword ptr [rsp + 0xa0], 0
-// asm:   0x181db30b3: lea rbx, [rsp + 0x40]
-// asm:   0x181db30b8: mov qword ptr [rsp + 0xa8], rbx
-// asm:   0x181db30c0: mov rdx, qword ptr [rip + 0x22d7521]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext
-// asm:   0x181db30c7: lea rcx, [rsp + 0x40]
-// asm:   0x181db30cc: call 0x18153a2a0  ; System_Collections_Generic_List_Enumerator_object___MoveNext()
-// asm:   0x181db30d1: test al, al
-// asm:   0x181db30d3: je 0x181db310c
-// asm:   0x181db30d5: mov rax, qword ptr [rsi + 0x48]
-// asm:   0x181db30d9: test rax, rax
-// asm:   0x181db30dc: je 0x181db3be2
-// asm:   0x181db30e2: mov rdx, qword ptr [rax + 0x60]
-// asm:   0x181db30e6: test rdx, rdx
-// asm:   0x181db30e9: je 0x181db3bdd
-// asm:   0x181db30ef: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181db30f4: test rcx, rcx
-// asm:   0x181db30f7: je 0x181db3bd8
-// asm:   0x181db30fd: xor r8d, r8d
-// asm:   0x181db3100: movss xmm1, dword ptr [rdx + 0x1c]
-// asm:   0x181db3105: call 0x182edcf80  ; UnityEngine_Light__set_intensity()
-// asm:   0x181db310a: jmp 0x181db30c0
-// asm:   0x181db310c: mov rdx, qword ptr [rip + 0x22d73f5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
-// asm:   0x181db3113: mov rcx, rbx
-// asm:   0x181db3116: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db311b: jmp 0x181db32c2
-// asm:   0x181db3120: mov rdx, qword ptr [rip + 0x22d73e1]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
-// asm:   0x181db3127: mov rcx, qword ptr [rsp + 0xa8]
-// asm:   0x181db312f: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db3134: mov rcx, qword ptr [rsp + 0xa0]
-// asm:   0x181db313c: test rcx, rcx
-// asm:   0x181db313f: jne 0x181db3be8
-// asm:   0x181db3145: lea r14, [rip - 0x1db314c]
-// asm:   0x181db314c: mov rsi, qword ptr [rsp + 0x210]
-// asm:   0x181db3154: movss xmm7, dword ptr [rip + 0x15a5aa4]
-// asm:   0x181db315c: xorps xmm8, xmm8
-// asm:   0x181db3160: movss xmm11, dword ptr [rip + 0x15a5a9f]
-// asm:   0x181db3169: movss xmm12, dword ptr [rip + 0x15a5a0e]
-// asm:   0x181db3172: movss xmm10, dword ptr [rip + 0x168caa1]
-// asm:   0x181db317b: movss xmm9, dword ptr [rip + 0x15a5a74]
-// asm:   0x181db3184: mov rax, qword ptr [rip + 0x230cf5d]  ; TypeInfo_Map_MapLoader
-// asm:   0x181db318b: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x181db3192: jne 0x181db31a3
-// asm:   0x181db3194: mov rcx, rax
-// asm:   0x181db3197: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x181db319c: mov rax, qword ptr [rip + 0x230cf45]  ; TypeInfo_Map_MapLoader
-// asm:   0x181db31a3: mov rax, qword ptr [rax + 0xb8]
-// asm:   0x181db31aa: mov rdx, qword ptr [rax + 0x30]
-// asm:   0x181db31ae: test rdx, rdx
-// asm:   0x181db31b1: je 0x181db3c0d
-// asm:   0x181db31b7: mov r8, qword ptr [rip + 0x23066ca]  ; MethodInfo_System_Collections_Generic_List_Light_GetEnumerator
-// asm:   0x181db31be: lea rcx, [rsp + 0x20]
-// asm:   0x181db31c3: call 0x18091f180  ; System_Collections_Generic_List_Nullable_int____GetEnumerator()
-// asm:   0x181db31c8: movups xmm0, xmmword ptr [rsp + 0x20]
-// asm:   0x181db31cd: movups xmmword ptr [rsp + 0x40], xmm0
-// asm:   0x181db31d2: movsd xmm1, qword ptr [rsp + 0x30]
-// asm:   0x181db31d8: movsd qword ptr [rsp + 0x50], xmm1
-// asm:   0x181db31de: mov qword ptr [rsp + 0xb0], 0
-// asm:   0x181db31ea: lea rbx, [rsp + 0x40]
-// asm:   0x181db31ef: mov qword ptr [rsp + 0xb8], rbx
-// asm:   0x181db31f7: nop word ptr [rax + rax]
-// asm:   0x181db3200: mov rdx, qword ptr [rip + 0x22d73e1]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext
-// asm:   0x181db3207: lea rcx, [rsp + 0x40]
-// asm:   0x181db320c: call 0x18153a2a0  ; System_Collections_Generic_List_Enumerator_object___MoveNext()
-// asm:   0x181db3211: test al, al
-// asm:   0x181db3213: je 0x181db32b3
-// asm:   0x181db3219: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181db321e: test rcx, rcx
-// asm:   0x181db3221: je 0x181db3c02
-// asm:   0x181db3227: xor edx, edx
-// asm:   0x181db3229: call 0x182f14a90  ; UnityEngine_Component__get_transform()
-// asm:   0x181db322e: mov rdi, rax
-// asm:   0x181db3231: mov rcx, qword ptr [rsi + 0x48]
-// asm:   0x181db3235: test rcx, rcx
-// asm:   0x181db3238: je 0x181db3bfd
-// asm:   0x181db323e: mov rcx, qword ptr [rcx + 0x68]
-// asm:   0x181db3242: test rcx, rcx
-// asm:   0x181db3245: je 0x181db3bf8
-// asm:   0x181db324b: movss xmm0, dword ptr [rcx + 0x24]
-// asm:   0x181db3250: mulss xmm0, xmm7
-// asm:   0x181db3254: movss dword ptr [rsp + 0x70], xmm0
-// asm:   0x181db325a: movss xmm1, dword ptr [rcx + 0x28]
-// asm:   0x181db325f: mulss xmm1, xmm7
-// asm:   0x181db3263: movss dword ptr [rsp + 0x74], xmm1
-// asm:   0x181db3269: movss xmm0, dword ptr [rcx + 0x2c]
-// asm:   0x181db326e: mulss xmm0, xmm7
-// asm:   0x181db3272: movss dword ptr [rsp + 0x78], xmm0
-// asm:   0x181db3278: xor r8d, r8d
-// asm:   0x181db327b: lea rdx, [rsp + 0x70]
-// asm:   0x181db3280: lea rcx, [rsp + 0x128]
-// asm:   0x181db3288: call 0x182f079f0  ; UnityEngine_Quaternion__Internal_FromEulerRad()
-// asm:   0x181db328d: test rdi, rdi
-// asm:   0x181db3290: je 0x181db3bf3
-// asm:   0x181db3296: movups xmm0, xmmword ptr [rax]
-// asm:   0x181db3299: movaps xmmword ptr [rsp + 0x20], xmm0
-// asm:   0x181db329e: xor r8d, r8d
-// asm:   0x181db32a1: lea rdx, [rsp + 0x20]
-// asm:   0x181db32a6: mov rcx, rdi
-// asm:   0x181db32a9: call 0x182f5c560  ; UnityEngine_Transform__set_rotation()
-// asm:   0x181db32ae: jmp 0x181db3200
-// asm:   0x181db32b3: mov rdx, qword ptr [rip + 0x22d724e]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
-// asm:   0x181db32ba: mov rcx, rbx
-// asm:   0x181db32bd: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db32c2: jmp 0x181db2e80
-// asm:   0x181db32c7: mov rdx, qword ptr [rip + 0x22d723a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
-// asm:   0x181db32ce: mov rcx, qword ptr [rsp + 0xb8]
-// asm:   0x181db32d6: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db32db: mov rcx, qword ptr [rsp + 0xb0]
-// asm:   0x181db32e3: test rcx, rcx
-// asm:   0x181db32e6: jne 0x181db3c08
-// asm:   0x181db32ec: lea r14, [rip - 0x1db32f3]
-// asm:   0x181db32f3: mov rsi, qword ptr [rsp + 0x210]
-// asm:   0x181db32fb: movss xmm7, dword ptr [rip + 0x15a58fd]
-// asm:   0x181db3303: xorps xmm8, xmm8
-// asm:   0x181db3307: movss xmm11, dword ptr [rip + 0x15a58f8]
-// asm:   0x181db3310: movss xmm12, dword ptr [rip + 0x15a5867]
-// asm:   0x181db3319: movss xmm10, dword ptr [rip + 0x168c8fa]
-// asm:   0x181db3322: movss xmm9, dword ptr [rip + 0x15a58cd]
-// asm:   0x181db332b: mov rax, qword ptr [rsi + 0x48]
-// asm:   0x181db332f: test rax, rax
-// asm:   0x181db3332: je 0x181db3c1c
-// asm:   0x181db3338: mov rcx, qword ptr [rax + 0x70]
-// asm:   0x181db333c: test rcx, rcx
-// asm:   0x181db333f: je 0x181db3c17
-// asm:   0x181db3345: mov rdx, qword ptr [rcx + 0x20]
-// asm:   0x181db3349: test rdx, rdx
-// asm:   0x181db334c: je 0x181db3c12
-// asm:   0x181db3352: xor r8d, r8d
-// asm:   0x181db3355: lea rcx, [rsp + 0x138]
-// asm:   0x181db335d: call 0x1823326d0  ; Utility_Color255__ToColor()
-// asm:   0x181db3362: movups xmm0, xmmword ptr [rax]
-// asm:   0x181db3365: movaps xmmword ptr [rsp + 0x20], xmm0
-// asm:   0x181db336a: xor edx, edx
-// asm:   0x181db336c: lea rcx, [rsp + 0x20]
-// asm:   0x181db3371: call 0x182eef9e0  ; UnityEngine_RenderSettings__set_ambientLight()
-// asm:   0x181db3376: jmp 0x181db2e80
-// asm:   0x181db3b3b: mov rdx, qword ptr [rip + 0x22ea966]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEffect_Dispose
-// asm:   0x181db3b42: mov rcx, qword ptr [rsp + 0x68]
-// asm:   0x181db3b47: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181db3b4c: mov rcx, qword ptr [rsp + 0x60]
-// asm:   0x181db3b51: test rcx, rcx
-// asm:   0x181db3b54: jne 0x181db3d45
-// asm:   0x181db3b5a: mov rsi, qword ptr [rsp + 0x210]
-// asm:   0x181db3bcd: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db3bd8: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3bdd: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3be2: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3be8: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db3bed: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3bf3: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3bf8: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3bfd: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3c02: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3c08: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181db3c0d: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3c12: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3c17: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3c1c: call 0x180417120  ; ThrowNullReferenceException()
-// asm:   0x181db3d45: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333bc80: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bc85: push rbp
-// asm:   0x18333bc86: sub rsp, 0x20
-// asm:   0x18333bc8a: mov rbp, rdx
-// asm:   0x18333bc8d: mov rax, qword ptr [rbp + 0xf8]
-// asm:   0x18333bc94: mov rcx, qword ptr [rax]
-// asm:   0x18333bc97: mov qword ptr [rbp + 0x90], rcx
-// asm:   0x18333bc9e: movabs rax, 0
-// asm:   0x18333bca8: add rsp, 0x20
-// asm:   0x18333bcac: pop rbp
-// asm:   0x18333bcad: ret 
-// asm:   0x18333bcb0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bcb5: push rbp
-// asm:   0x18333bcb6: sub rsp, 0x20
-// asm:   0x18333bcba: mov rbp, rdx
-// asm:   0x18333bcbd: mov rax, qword ptr [rbp + 0x100]
-// asm:   0x18333bcc4: mov rcx, qword ptr [rax]
-// asm:   0x18333bcc7: mov qword ptr [rbp + 0xa0], rcx
-// asm:   0x18333bcce: movabs rax, 0
-// asm:   0x18333bcd8: add rsp, 0x20
-// asm:   0x18333bcdc: pop rbp
-// asm:   0x18333bcdd: ret 
-// asm:   0x18333bce0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bce5: push rbp
-// asm:   0x18333bce6: sub rsp, 0x20
-// asm:   0x18333bcea: mov rbp, rdx
-// asm:   0x18333bced: mov rax, qword ptr [rbp + 0x108]
-// asm:   0x18333bcf4: mov rcx, qword ptr [rax]
-// asm:   0x18333bcf7: mov qword ptr [rbp + 0xb0], rcx
-// asm:   0x18333bcfe: movabs rax, 0
-// asm:   0x18333bd08: add rsp, 0x20
-// asm:   0x18333bd0c: pop rbp
-// asm:   0x18333bd0d: ret 
-// asm:   0x18333bd10: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bd15: push rbp
-// asm:   0x18333bd16: sub rsp, 0x20
-// asm:   0x18333bd1a: mov rbp, rdx
-// asm:   0x18333bd1d: mov rax, qword ptr [rbp + 0x110]
-// asm:   0x18333bd24: mov rcx, qword ptr [rax]
-// asm:   0x18333bd27: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x18333bd2b: movabs rax, 0
-// asm:   0x18333bd35: add rsp, 0x20
-// asm:   0x18333bd39: pop rbp
-// asm:   0x18333bd3a: ret 
+// 0x585aa10
+// eh: try 0x585acfa..0x585bbf7 -> pad 0x585bdb4 (+144 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x585bbfd..0x585bc31 -> pad 0x585be0d catch (...) [compiler noexcept guard]
+// eh: try 0x585bdce..0x585bdd3 -> pad 0x585bdf8 cleanup
+// eh: try 0x585bdfb..0x585be05 -> pad 0x585be0d catch (...) [compiler noexcept guard]
+// asm: 358 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585b543: lea rax, [rip + 0x1a32de6]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
+// asm:   0x585b54a: mov rsi, qword ptr [rax]
+// asm:   0x585b54d: mov rdi, r12
+// asm:   0x585b550: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585b555: test rbp, rbp
+// asm:   0x585b558: jne 0x585baf5
+// asm:   0x585b55e: test bl, bl
+// asm:   0x585b560: je 0x585acf0
+// asm:   0x585b566: lea rax, [rip + 0x1a1f423]  ; TypeInfo_Map_MapLoader
+// asm:   0x585b56d: mov rdi, qword ptr [rax]
+// asm:   0x585b570: cmp dword ptr [rdi + 0xe4], 0
+// asm:   0x585b577: jne 0x585b588
+// asm:   0x585b579: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x585b57e: lea rax, [rip + 0x1a1f40b]  ; TypeInfo_Map_MapLoader
+// asm:   0x585b585: mov rdi, qword ptr [rax]
+// asm:   0x585b588: mov rax, qword ptr [rdi + 0xb8]
+// asm:   0x585b58f: mov rsi, qword ptr [rax + 0x30]
+// asm:   0x585b593: test rsi, rsi
+// asm:   0x585b596: je 0x585bae6
+// asm:   0x585b59c: lea rax, [rip + 0x1a39ef5]  ; MethodInfo_System_Collections_Generic_List_Light_GetEnumerator
+// asm:   0x585b5a3: mov rdx, qword ptr [rax]
+// asm:   0x585b5a6: lea rdi, [rsp + 8]
+// asm:   0x585b5ab: call 0x3a5e050  ; System_Collections_Generic_List_object___GetEnumerator()
+// asm:   0x585b5b0: mov rax, qword ptr [rsp + 0x18]
+// asm:   0x585b5b5: mov qword ptr [rsp + 0x30], rax
+// asm:   0x585b5ba: movups xmm0, xmmword ptr [rsp + 8]
+// asm:   0x585b5bf: movaps xmmword ptr [rsp + 0x20], xmm0
+// asm:   0x585b5c4: mov qword ptr [rsp + 8], 0
+// asm:   0x585b5cd: mov qword ptr [rsp + 0x10], r12
+// asm:   0x585b5d2: nop word ptr cs:[rax + rax]
+// asm:   0x585b5e0: mov rsi, qword ptr [r13]
+// asm:   0x585b5e4: mov rdi, r12
+// asm:   0x585b5e7: call 0x4d45c50  ; System_Collections_Generic_List_Enumerator_object___MoveNext()
+// asm:   0x585b5ec: test al, al
+// asm:   0x585b5ee: je 0x585b626
+// asm:   0x585b5f0: mov rax, qword ptr [r15 + 0x48]
+// asm:   0x585b5f4: test rax, rax
+// asm:   0x585b5f7: je 0x585b95e
+// asm:   0x585b5fd: mov rax, qword ptr [rax + 0x60]
+// asm:   0x585b601: test rax, rax
+// asm:   0x585b604: je 0x585b968
+// asm:   0x585b60a: mov rdi, qword ptr [rsp + 0x30]
+// asm:   0x585b60f: test rdi, rdi
+// asm:   0x585b612: je 0x585b954
+// asm:   0x585b618: movss xmm0, dword ptr [rax + 0x1c]
+// asm:   0x585b61d: xor esi, esi
+// asm:   0x585b61f: call 0x69e3030  ; UnityEngine_Light__set_intensity()
+// asm:   0x585b624: jmp 0x585b5e0
+// asm:   0x585b626: xor ebp, ebp
+// asm:   0x585b628: xor ebx, ebx
+// asm:   0x585b62a: lea rax, [rip + 0x1a32cff]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
+// asm:   0x585b631: mov rsi, qword ptr [rax]
+// asm:   0x585b634: mov rdi, r12
+// asm:   0x585b637: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585b63c: test rbp, rbp
+// asm:   0x585b63f: jne 0x585bade
+// asm:   0x585b645: test bl, bl
+// asm:   0x585b647: je 0x585acf0
+// asm:   0x585b64d: lea rax, [rip + 0x1a1f33c]  ; TypeInfo_Map_MapLoader
+// asm:   0x585b654: mov rdi, qword ptr [rax]
+// asm:   0x585b657: cmp dword ptr [rdi + 0xe4], 0
+// asm:   0x585b65e: jne 0x585b66f
+// asm:   0x585b660: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x585b665: lea rax, [rip + 0x1a1f324]  ; TypeInfo_Map_MapLoader
+// asm:   0x585b66c: mov rdi, qword ptr [rax]
+// asm:   0x585b66f: mov rax, qword ptr [rdi + 0xb8]
+// asm:   0x585b676: mov rsi, qword ptr [rax + 0x30]
+// asm:   0x585b67a: test rsi, rsi
+// asm:   0x585b67d: je 0x585bad1
+// asm:   0x585b683: lea rax, [rip + 0x1a39e0e]  ; MethodInfo_System_Collections_Generic_List_Light_GetEnumerator
+// asm:   0x585b68a: mov rdx, qword ptr [rax]
+// asm:   0x585b68d: lea rdi, [rsp + 8]
+// asm:   0x585b692: call 0x3a5e050  ; System_Collections_Generic_List_object___GetEnumerator()
+// asm:   0x585b697: mov rax, qword ptr [rsp + 0x18]
+// asm:   0x585b69c: mov qword ptr [rsp + 0x30], rax
+// asm:   0x585b6a1: movups xmm0, xmmword ptr [rsp + 8]
+// asm:   0x585b6a6: movaps xmmword ptr [rsp + 0x20], xmm0
+// asm:   0x585b6ab: mov qword ptr [rsp + 8], 0
+// asm:   0x585b6b4: mov qword ptr [rsp + 0x10], r12
+// asm:   0x585b6b9: nop dword ptr [rax]
+// asm:   0x585b6c0: mov rsi, qword ptr [r13]
+// asm:   0x585b6c4: mov rdi, r12
+// asm:   0x585b6c7: call 0x4d45c50  ; System_Collections_Generic_List_Enumerator_object___MoveNext()
+// asm:   0x585b6cc: test al, al
+// asm:   0x585b6ce: je 0x585b757
+// asm:   0x585b6d4: mov rdi, qword ptr [rsp + 0x30]
+// asm:   0x585b6d9: test rdi, rdi
+// asm:   0x585b6dc: je 0x585b940
+// asm:   0x585b6e2: xor esi, esi
+// asm:   0x585b6e4: call 0x6a15190  ; UnityEngine_Component__get_transform()
+// asm:   0x585b6e9: mov rbp, rax
+// asm:   0x585b6ec: mov rax, qword ptr [r15 + 0x48]
+// asm:   0x585b6f0: test rax, rax
+// asm:   0x585b6f3: je 0x585b94a
+// asm:   0x585b6f9: mov rax, qword ptr [rax + 0x68]
+// asm:   0x585b6fd: test rax, rax
+// asm:   0x585b700: je 0x585b92c
+// asm:   0x585b706: movsd xmm0, qword ptr [rax + 0x24]
+// asm:   0x585b70b: mulps xmm0, xmmword ptr [rip - 0x4853d92]
+// asm:   0x585b712: movss xmm1, dword ptr [rax + 0x2c]
+// asm:   0x585b717: mulss xmm1, dword ptr [rip - 0x4899ba3]
+// asm:   0x585b71f: movlps qword ptr [rsp + 0x88], xmm0
+// asm:   0x585b727: movss dword ptr [rsp + 0x90], xmm1
+// asm:   0x585b730: lea rdi, [rsp + 0x88]
+// asm:   0x585b738: xor esi, esi
+// asm:   0x585b73a: call 0x6a050e0  ; UnityEngine_Quaternion__Internal_FromEulerRad()
+// asm:   0x585b73f: test rbp, rbp
+// asm:   0x585b742: je 0x585b936
+// asm:   0x585b748: mov rdi, rbp
+// asm:   0x585b74b: xor esi, esi
+// asm:   0x585b74d: call 0x6a2c8c0  ; UnityEngine_Transform__set_rotation()
+// asm:   0x585b752: jmp 0x585b6c0
+// asm:   0x585b757: xor ebp, ebp
+// asm:   0x585b759: xor ebx, ebx
+// asm:   0x585b75b: lea rax, [rip + 0x1a32bce]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose
+// asm:   0x585b762: mov rsi, qword ptr [rax]
+// asm:   0x585b765: mov rdi, r12
+// asm:   0x585b768: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x585b76d: test rbp, rbp
+// asm:   0x585b770: jne 0x585bad6
+// asm:   0x585b776: test bl, bl
+// asm:   0x585b778: je 0x585acf0
+// asm:   0x585b77e: mov rax, qword ptr [r15 + 0x48]
+// asm:   0x585b782: test rax, rax
+// asm:   0x585b785: je 0x585bac2
+// asm:   0x585b78b: mov rax, qword ptr [rax + 0x70]
+// asm:   0x585b78f: test rax, rax
+// asm:   0x585b792: je 0x585bac7
+// asm:   0x585b798: mov rdi, qword ptr [rax + 0x20]
+// asm:   0x585b79c: test rdi, rdi
+// asm:   0x585b79f: je 0x585bacc
+// asm:   0x585b7a5: xor esi, esi
+// asm:   0x585b7a7: call 0x5de77d0  ; Utility_Color255__ToColor()
+// asm:   0x585b7ac: xor edi, edi
+// asm:   0x585b7ae: call 0x69db020  ; UnityEngine_RenderSettings__set_ambientLight()
+// asm:   0x585b7b3: jmp 0x585acf0
+// asm:   0x585b92c: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b936: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b940: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b94a: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b954: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b95e: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b968: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585b99a: jmp 0x585b9a6
+// asm:   0x585b99c: jmp 0x585b9a6
+// asm:   0x585b99e: jmp 0x585b9a6
+// asm:   0x585b9a0: jmp 0x585b9a6
+// asm:   0x585b9a2: jmp 0x585b9a6
+// asm:   0x585b9a4: jmp 0x585b9a6
+// asm:   0x585b9a6: mov rbx, rdx
+// asm:   0x585b9a9: mov rbp, rax
+// asm:   0x585b9ac: cmp ebx, 1
+// asm:   0x585b9af: jne 0x585bc12
+// asm:   0x585b9b5: mov rdi, rbp
+// asm:   0x585b9b8: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585b9bd: mov rbp, qword ptr [rax]
+// asm:   0x585b9c0: mov qword ptr [rsp + 8], rbp
+// asm:   0x585b9c5: mov bl, 1
+// asm:   0x585b9c7: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585b9cc: jmp 0x585b543
+// asm:   0x585b9d1: jmp 0x585b9d9
+// asm:   0x585b9d3: jmp 0x585b9d9
+// asm:   0x585b9d5: jmp 0x585b9d9
+// asm:   0x585b9d7: jmp 0x585b9d9
+// asm:   0x585b9d9: mov rbx, rdx
+// asm:   0x585b9dc: mov rbp, rax
+// asm:   0x585b9df: cmp ebx, 1
+// asm:   0x585b9e2: jne 0x585bbfd
+// asm:   0x585b9e8: mov rdi, rbp
+// asm:   0x585b9eb: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585b9f0: mov rbp, qword ptr [rax]
+// asm:   0x585b9f3: mov qword ptr [rsp + 8], rbp
+// asm:   0x585b9f8: mov bl, 1
+// asm:   0x585b9fa: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585b9ff: jmp 0x585b62a
+// asm:   0x585ba04: jmp 0x585ba12
+// asm:   0x585ba06: jmp 0x585ba12
+// asm:   0x585ba08: jmp 0x585ba12
+// asm:   0x585ba0a: jmp 0x585ba12
+// asm:   0x585ba0c: jmp 0x585ba12
+// asm:   0x585ba0e: jmp 0x585ba12
+// asm:   0x585ba10: jmp 0x585ba12
+// asm:   0x585ba12: mov rbx, rdx
+// asm:   0x585ba15: mov rbp, rax
+// asm:   0x585ba18: cmp ebx, 1
+// asm:   0x585ba1b: jne 0x585bc27
+// asm:   0x585ba21: mov rdi, rbp
+// asm:   0x585ba24: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585ba29: mov rbp, qword ptr [rax]
+// asm:   0x585ba2c: mov qword ptr [rsp + 8], rbp
+// asm:   0x585ba31: mov bl, 1
+// asm:   0x585ba33: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585ba38: jmp 0x585b75b
+// asm:   0x585bac2: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585bac7: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585bacc: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585bad1: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585bad6: mov rdi, rbp
+// asm:   0x585bad9: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585bade: mov rdi, rbp
+// asm:   0x585bae1: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585bae6: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x585baf5: mov rdi, rbp
+// asm:   0x585baf8: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585bbf7: mov rbx, rdx
+// asm:   0x585bbfa: mov rbp, rax
+// asm:   0x585bbfd: lea rdi, [rsp + 8]
+// asm:   0x585bc02: call 0x2fce960  ; il2cpp_runtime_helper_02fce960()
+// asm:   0x585bc07: jmp 0x585bdb9
+// asm:   0x585bc0c: mov rbx, rdx
+// asm:   0x585bc0f: mov rbp, rax
+// asm:   0x585bc12: lea rdi, [rsp + 8]
+// asm:   0x585bc17: call 0x2fce930  ; il2cpp_runtime_helper_02fce930()
+// asm:   0x585bc1c: jmp 0x585bdb9
+// asm:   0x585bc21: mov rbx, rdx
+// asm:   0x585bc24: mov rbp, rax
+// asm:   0x585bc27: lea rdi, [rsp + 8]
+// asm:   0x585bc2c: call 0x2fce990  ; il2cpp_runtime_helper_02fce990()
+// asm:   0x585bc31: jmp 0x585bdb9
+// asm:   0x585bc36: jmp 0x585bdac
+// asm:   0x585bc3b: jmp 0x585bdac
+// asm:   0x585bc40: jmp 0x585bdac
+// asm:   0x585bc45: jmp 0x585bdac
+// asm:   0x585bc4a: jmp 0x585bdac
+// asm:   0x585bc4f: jmp 0x585bdac
+// asm:   0x585bc54: jmp 0x585bdac
+// asm:   0x585bc59: jmp 0x585bdac
+// asm:   0x585bc5e: jmp 0x585bdac
+// asm:   0x585bc63: jmp 0x585bdac
+// asm:   0x585bc68: jmp 0x585bdb4
+// asm:   0x585bc6d: jmp 0x585bdac
+// asm:   0x585bc72: jmp 0x585bdac
+// asm:   0x585bc77: jmp 0x585bdac
+// asm:   0x585bc7c: jmp 0x585bdac
+// asm:   0x585bc81: jmp 0x585bdac
+// asm:   0x585bc86: jmp 0x585bdac
+// asm:   0x585bc8b: jmp 0x585bdac
+// asm:   0x585bc90: jmp 0x585bdac
+// asm:   0x585bc95: jmp 0x585bdac
+// asm:   0x585bc9a: jmp 0x585bdac
+// asm:   0x585bc9f: jmp 0x585bdac
+// asm:   0x585bca4: jmp 0x585bdac
+// asm:   0x585bca9: jmp 0x585bdac
+// asm:   0x585bcae: jmp 0x585bdac
+// asm:   0x585bcb3: jmp 0x585bdac
+// asm:   0x585bcb8: jmp 0x585bdac
+// asm:   0x585bcbd: jmp 0x585bdac
+// asm:   0x585bcc2: jmp 0x585bdb4
+// asm:   0x585bcc7: jmp 0x585bdac
+// asm:   0x585bccc: jmp 0x585bdac
+// asm:   0x585bcd1: jmp 0x585bdac
+// asm:   0x585bcd6: jmp 0x585bdac
+// asm:   0x585bcdb: jmp 0x585bdac
+// asm:   0x585bce0: jmp 0x585bdac
+// asm:   0x585bce5: jmp 0x585bdac
+// asm:   0x585bcea: jmp 0x585bdb4
+// asm:   0x585bcef: jmp 0x585bdac
+// asm:   0x585bcf4: jmp 0x585bdac
+// asm:   0x585bcf9: jmp 0x585bdac
+// asm:   0x585bcfe: jmp 0x585bdb4
+// asm:   0x585bd03: jmp 0x585bdac
+// asm:   0x585bd08: jmp 0x585bdac
+// asm:   0x585bd0d: jmp 0x585bdac
+// asm:   0x585bd12: jmp 0x585bdb4
+// asm:   0x585bd17: jmp 0x585bdac
+// asm:   0x585bd1c: jmp 0x585bdac
+// asm:   0x585bd21: jmp 0x585bdb4
+// asm:   0x585bd26: jmp 0x585bdac
+// asm:   0x585bd2b: jmp 0x585bdac
+// asm:   0x585bd2d: jmp 0x585bdac
+// asm:   0x585bd2f: jmp 0x585bdb4
+// asm:   0x585bd34: jmp 0x585bdac
+// asm:   0x585bd36: jmp 0x585bdac
+// asm:   0x585bd38: jmp 0x585bdac
+// asm:   0x585bd3a: jmp 0x585bdb4
+// asm:   0x585bd3c: jmp 0x585bdb4
+// asm:   0x585bd3e: jmp 0x585bdb4
+// asm:   0x585bd40: jmp 0x585bdac
+// asm:   0x585bd42: jmp 0x585bdac
+// asm:   0x585bd44: jmp 0x585bdb4
+// asm:   0x585bd46: jmp 0x585bdac
+// asm:   0x585bd48: jmp 0x585bdb4
+// asm:   0x585bd4a: jmp 0x585bdac
+// asm:   0x585bd4c: jmp 0x585bdac
+// asm:   0x585bd4e: jmp 0x585bdb4
+// asm:   0x585bd50: jmp 0x585bdb4
+// asm:   0x585bd52: jmp 0x585bdac
+// asm:   0x585bd54: jmp 0x585bdb4
+// asm:   0x585bd56: jmp 0x585bdac
+// asm:   0x585bd58: jmp 0x585bdac
+// asm:   0x585bd5a: jmp 0x585bdb4
+// asm:   0x585bd5c: jmp 0x585bdac
+// asm:   0x585bd5e: jmp 0x585bdac
+// asm:   0x585bd60: jmp 0x585bdac
+// asm:   0x585bd62: jmp 0x585bdac
+// asm:   0x585bd64: jmp 0x585bdac
+// asm:   0x585bd66: jmp 0x585bdac
+// asm:   0x585bd68: jmp 0x585bdac
+// asm:   0x585bd6a: jmp 0x585bdac
+// asm:   0x585bd6c: jmp 0x585bdac
+// asm:   0x585bd6e: jmp 0x585bdac
+// asm:   0x585bd70: jmp 0x585bdac
+// asm:   0x585bd72: jmp 0x585bdac
+// asm:   0x585bd74: jmp 0x585bdac
+// asm:   0x585bd76: jmp 0x585bdac
+// asm:   0x585bd78: jmp 0x585bdac
+// asm:   0x585bd7a: jmp 0x585bdac
+// asm:   0x585bd7c: jmp 0x585bdac
+// asm:   0x585bd7e: jmp 0x585bdac
+// asm:   0x585bd80: jmp 0x585bdac
+// asm:   0x585bd82: jmp 0x585bdb4
+// asm:   0x585bd84: jmp 0x585bdac
+// asm:   0x585bd86: jmp 0x585bdac
+// asm:   0x585bd88: jmp 0x585bdb4
+// asm:   0x585bd8a: jmp 0x585bdac
+// asm:   0x585bd8c: jmp 0x585bdac
+// asm:   0x585bd8e: jmp 0x585bdac
+// asm:   0x585bd90: jmp 0x585bdac
+// asm:   0x585bd92: jmp 0x585bdac
+// asm:   0x585bd94: jmp 0x585bdac
+// asm:   0x585bd96: jmp 0x585bdac
+// asm:   0x585bd98: jmp 0x585bdac
+// asm:   0x585bd9a: jmp 0x585bdac
+// asm:   0x585bd9c: jmp 0x585bdac
+// asm:   0x585bd9e: jmp 0x585bdac
+// asm:   0x585bda0: jmp 0x585bdac
+// asm:   0x585bda2: jmp 0x585bdac
+// asm:   0x585bda4: jmp 0x585bdac
+// asm:   0x585bda6: jmp 0x585bdac
+// asm:   0x585bda8: jmp 0x585bdac
+// asm:   0x585bdaa: jmp 0x585bdac
+// asm:   0x585bdac: mov rbx, rdx
+// asm:   0x585bdaf: mov rbp, rax
+// asm:   0x585bdb2: jmp 0x585bdb9
+// asm:   0x585bdb4: mov rbp, rax
+// asm:   0x585bdb7: mov ebx, edx
+// asm:   0x585bdb9: cmp ebx, 1
+// asm:   0x585bdbc: jne 0x585bdfb
+// asm:   0x585bdbe: mov rdi, rbp
+// asm:   0x585bdc1: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x585bdc6: mov rbp, qword ptr [rax]
+// asm:   0x585bdc9: mov qword ptr [rsp + 0x78], rbp
+// asm:   0x585bdce: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x585bdd3: lea rax, [rip + 0x1a3310e]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEffect_Dispose
+// asm:   0x585bdda: mov rsi, qword ptr [rax]
+// asm:   0x585bddd: lea rdi, [rsp + 0x40]
+// asm:   0x585bde2: call 0x4d3c9b0  ; System_Collections_Generic_List_Enumerator_Int32Enum___Dispose()
+// asm:   0x585bde7: test rbp, rbp
+// asm:   0x585bdea: je 0x585ba51
+// asm:   0x585bdf0: mov rdi, rbp
+// asm:   0x585bdf3: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x585bdf8: mov rbp, rax
+// asm:   0x585bdfb: lea rdi, [rsp + 0x78]
+// asm:   0x585be00: call 0x2fce9c0  ; il2cpp_runtime_helper_02fce9c0()
+// asm:   0x585be05: mov rdi, rbp
+// asm:   0x585be08: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x585be0d: mov rdi, rax
+// asm:   0x585be10: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Weather_WeatherManager__ApplyCurrentWeather
                (Weather_WeatherManager_o *__this,bool firstStart,bool applyAll,MethodInfo *method)
@@ -4031,72 +4500,71 @@ void Weather_WeatherManager__ApplyCurrentWeather
 {
   int32_t *piVar1;
   float fVar2;
-  undefined8 uVar3;
-  float fVar4;
-  byte bVar5;
-  Settings_GraphicsSettings_o *pSVar6;
-  Settings_IntSetting_o *pSVar7;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_00;
-  System_Collections_Generic_HashSet_WeatherEffect__o *__this_01;
-  System_Collections_Generic_List_Light__o *pSVar8;
-  Settings_StringSetting_o *pSVar9;
-  Settings_StringSetting_o *pSVar10;
-  Settings_ColorSetting_o *pSVar11;
-  Utility_Color255_o *pUVar12;
-  System_Collections_Specialized_OrderedDictionary_o *__this_02;
-  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar13;
-  Weather_BaseWeatherEffect_c *pWVar14;
-  Settings_Vector3Setting_o *pSVar15;
-  UnityEngine_Vector3_StaticFields *pUVar16;
-  Weather_WindWeatherEffect_StaticFields *pWVar17;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  byte bVar9;
+  int iVar10;
+  uint32_t uVar11;
+  Settings_GraphicsSettings_o *pSVar12;
+  Settings_IntSetting_o *pSVar13;
+  System_Collections_Generic_List_T__o *pSVar14;
+  System_Collections_Specialized_OrderedDictionary_o *__this_00;
+  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *pSVar15;
+  Settings_WeatherSet_o *pSVar16;
+  Settings_FloatSetting_o *pSVar17;
   Settings_WeatherSet_o *pSVar18;
-  Settings_FloatSetting_o *pSVar19;
-  Weather_WeatherManager_o *pWVar20;
-  System_Collections_Generic_List_WeatherEffect__o *pSVar21;
-  UnityEngine_Light_o *__this_03;
-  int32_t key;
-  bool bVar22;
-  System_Collections_Generic_List_T__o *value;
-  UnityEngine_Transform_o *__this_04;
-  UnityEngine_Quaternion_o *pUVar23;
+  Settings_StringSetting_o *pSVar19;
+  System_String_o *skybox2;
+  Settings_StringSetting_o *pSVar20;
+  Weather_BaseWeatherEffect_c *pWVar21;
+  Settings_ColorSetting_o *pSVar22;
+  Utility_Color255_o *pUVar23;
+  Settings_Vector3Setting_o *pSVar24;
+  System_Collections_Generic_List_Light__o *pSVar25;
+  Weather_WindWeatherEffect_StaticFields *pWVar26;
+  System_Collections_Generic_List_WeatherEffect__o *pSVar27;
+  undefined1 auVar28 [16];
+  UnityEngine_Light_o *__this_01;
+  bool bVar29;
+  System_String_o *pSVar30;
+  Il2CppObject *pIVar31;
+  Weather_BaseWeatherEffect_o *pWVar32;
+  UnityEngine_GameObject_o *pUVar33;
   System_Collections_IEnumerator_o *routine;
-  UnityEngine_Material_o *__this_05;
-  UnityEngine_Color_o *pUVar24;
-  System_String_o *key_00;
-  Il2CppObject *pIVar25;
-  Weather_BaseWeatherEffect_o *pWVar26;
-  UnityEngine_GameObject_o *pUVar27;
-  float fVar28;
-  float fVar29;
-  undefined1 local_1e8 [16];
-  int32_t local_1d8;
-  undefined4 uStack_1d4;
-  undefined1 local_1c8 [8];
-  undefined1 *puStack_1c0;
-  UnityEngine_Light_o *local_1b8;
-  int32_t local_1b0;
-  undefined8 local_1a8;
-  System_Collections_Generic_List_Enumerator_T__o *local_1a0;
-  UnityEngine_Vector3_o local_198;
-  undefined8 local_188;
-  float local_180;
-  undefined8 local_178;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_170;
-  undefined8 local_168;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_160;
-  undefined8 local_158;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_150;
-  System_Collections_Generic_List_Enumerator_T__o local_148;
-  Weather_WeatherManager_o *local_130;
-  System_Collections_Generic_List_Enumerator_T__o local_128 [2];
-  UnityEngine_Color_o local_f0;
-  UnityEngine_Quaternion_o local_e0;
-  UnityEngine_Color_o local_d0;
-  UnityEngine_Color_o local_c0;
-  UnityEngine_Color_o local_b0;
-  UnityEngine_Color_o local_a0 [8];
+  UnityEngine_Material_o *__this_02;
+  UnityEngine_Transform_o *__this_03;
+  UnityEngine_Vector3_StaticFields *pUVar34;
+  MethodInfo *pMVar35;
+  Weather_WeatherManager_o *pWVar36;
+  float fVar37;
+  undefined4 uVar38;
+  undefined4 extraout_XMM0_Db;
+  undefined1 auVar39 [16];
+  UnityEngine_Color_o UVar40;
+  UnityEngine_Quaternion_o value;
+  float local_c8;
+  undefined1 local_c0 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_b8;
+  float local_b0;
+  float fStack_ac;
+  undefined1 local_a8 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_a0;
+  UnityEngine_Light_o *local_98;
+  undefined1 local_88 [16];
+  Il2CppObject *local_78;
+  float local_68;
+  float fStack_64;
+  System_Collections_Generic_HashSet_WeatherEffect__o *pSStack_60;
+  System_Collections_Generic_List_Camera__o *local_50;
+  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *local_48;
+  Settings_WeatherSet_o *local_40;
+  float local_38;
   
-  if (Il2CppMethodInitialized_184344942 == '\0') {
+  if (Il2CppMethodInitialized_0754509b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
@@ -4116,6 +4584,8 @@ void Weather_WeatherManager__ApplyCurrentWeather
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Contains);
     il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_WeatherEffect_AddRange);
+    il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_WeatherEffect_Clear);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_WeatherEffect_GetEnumerator);
@@ -4129,685 +4599,810 @@ void Weather_WeatherManager__ApplyCurrentWeather
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Vector3_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_get_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_EnumToList_WeatherEffect);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WindWeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&"_Tint");
-    Il2CppMethodInitialized_184344942 = '\x01';
+    Il2CppMethodInitialized_0754509b = '\x01';
   }
-  local_148.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_148.fields._index = 0;
-  local_148.fields._version = 0;
-  local_148.fields._current = (Il2CppObject *)0x0;
-  local_1c8 = (undefined1  [8])0x0;
-  puStack_1c0 = (undefined1 *)0x0;
-  local_1b8 = (UnityEngine_Light_o *)0x0;
+  local_88._0_8_ = (Weather_WeatherManager_c *)0x0;
+  local_88._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  local_78 = (Il2CppObject *)0x0;
+  local_a8 = (undefined1  [8])0x0;
+  pSStack_a0 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  local_98 = (UnityEngine_Light_o *)0x0;
   if (!firstStart) {
-    if (Il2CppMethodInitialized_184344947 == '\0') {
+    if (Il2CppMethodInitialized_075450a1 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-      Il2CppMethodInitialized_184344947 = '\x01';
+      Il2CppMethodInitialized_075450a1 = '\x01';
     }
-    pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
-    if ((pSVar6 == (Settings_GraphicsSettings_o *)0x0) ||
-       (pSVar7 = (pSVar6->fields).WeatherEffects, pSVar7 == (Settings_IntSetting_o *)0x0)) goto label_181db3bac;
-    if ((pSVar7->fields)._value == 0) {
+    pSVar12 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
+    if ((pSVar12 == (Settings_GraphicsSettings_o *)0x0) ||
+       (pSVar13 = (pSVar12->fields).WeatherEffects, pSVar13 == (Settings_IntSetting_o *)0x0))
+    goto label_0585ba83;
+    if ((pSVar13->fields)._value == 0) {
       return;
     }
   }
   if (applyAll) {
-    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+    pSVar14 = (System_Collections_Generic_List_T__o *)(__this->fields)._needApply;
+    if (pSVar14 == (System_Collections_Generic_List_T__o *)0x0) goto label_0585ba83;
+    piVar1 = &(pSVar14->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (pSVar14->fields)._size = 0;
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
     }
-    value = Utility_Util__EnumToList_Int32Enum_
-                      ((MethodInfo_869C70 *)MethodInfo_Utility_Util_EnumToList_WeatherEffect);
-    (__this->fields)._needApply = (System_Collections_Generic_List_WeatherEffect__o *)value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._needApply,value);
+    System_Collections_Generic_List_Int32Enum___AddRange
+              (pSVar14,(System_Collections_Generic_IEnumerable_T__o *)
+                       TypeInfo_Weather_WeatherManager->static_fields->AllEffects,
+               (MethodInfo_3919E10 *)MethodInfo_System_Collections_Generic_List_WeatherEffect_AddRange);
   }
-  pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
-  if (((pSVar6 != (Settings_GraphicsSettings_o *)0x0) &&
-      (pSVar7 = (pSVar6->fields).WeatherEffects, pSVar7 != (Settings_IntSetting_o *)0x0)) &&
-     (__this_00 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)(__this->fields)._needApply
-     , __this_00 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)) {
-    local_1b0 = (pSVar7->fields)._value;
-    local_130 = __this;
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              (local_128,__this_00,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_WeatherEffect_GetEnumerator);
-    local_148.fields._list = local_128[0].fields._list;
-    local_148.fields._index = local_128[0].fields._index;
-    local_148.fields._version = local_128[0].fields._version;
-    local_148.fields._current = local_128[0].fields._current;
-    local_1a8 = 0;
-    local_1a0 = &local_148;
-switchD_181db2eec_default:
-    bVar22 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                       (&local_148,
-                        (MethodInfo_1530180 *)
+  pSVar12 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
+  if (((pSVar12 != (Settings_GraphicsSettings_o *)0x0) &&
+      (pSVar13 = (pSVar12->fields).WeatherEffects, pSVar13 != (Settings_IntSetting_o *)0x0)) &&
+     (pSVar14 = (System_Collections_Generic_List_T__o *)(__this->fields)._needApply,
+     pSVar14 != (System_Collections_Generic_List_T__o *)0x0)) {
+    iVar10 = (pSVar13->fields)._value;
+    System_Collections_Generic_List_Int32Enum___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_c0,pSVar14,
+               (MethodInfo_391A9A0 *)MethodInfo_System_Collections_Generic_List_WeatherEffect_GetEnumerator);
+    local_78 = (Il2CppObject *)CONCAT44(fStack_ac,local_b0);
+    local_88._0_8_ = local_c0;
+    local_88._8_8_ = pSStack_b8;
+    local_50 = (System_Collections_Generic_List_Camera__o *)0x0;
+    local_48 = (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)local_88;
+switchD_0585ad4f_default:
+    pWVar36 = (Weather_WeatherManager_o *)local_88;
+    bVar29 = System_Collections_Generic_List_Enumerator_Int32Enum___MoveNext
+                       ((System_Collections_Generic_List_Enumerator_T__o *)pWVar36,
+                        (MethodInfo_4C3C9C0 *)
                         MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEffect_MoveNext);
-    if (bVar22) {
-      key = (int32_t)local_148.fields._current;
-      if ((!firstStart) && (local_1b0 == 1)) goto code_r0x000181db2eb4;
-      goto label_181db2ed3;
+    if (bVar29) {
+      fVar37 = local_78._0_4_;
+      if (iVar10 == 1 && !firstStart) goto code_r0x0585ad17;
+      goto label_0585ad39;
     }
-    System_Configuration_ConfigurationCollectionAttribute___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1a0,
+    System_Collections_Generic_List_Enumerator_Int32Enum___Dispose
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_88,
+               (MethodInfo_4C3C9B0 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEffect_Dispose);
-    pSVar21 = (__this->fields)._needApply;
-    if (pSVar21 != (System_Collections_Generic_List_WeatherEffect__o *)0x0) {
-      piVar1 = &(pSVar21->fields)._version;
+    pSVar27 = (__this->fields)._needApply;
+    if (pSVar27 != (System_Collections_Generic_List_WeatherEffect__o *)0x0) {
+      piVar1 = &(pSVar27->fields)._version;
       *piVar1 = *piVar1 + 1;
-      (pSVar21->fields)._size = 0;
+      (pSVar27->fields)._size = 0;
       return;
     }
   }
-label_181db3bac:
+label_0585ba83:
   ThrowNullReferenceException();
-code_r0x000181db2eb4:
-  __this_01 = (__this->fields).LowEffects;
-  if (__this_01 == (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0) {
+code_r0x0585ad17:
+  pWVar36 = (Weather_WeatherManager_o *)(__this->fields).LowEffects;
+  if (pWVar36 == (Weather_WeatherManager_o *)0x0) {
     ThrowNullReferenceException();
   }
-  bVar22 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                     ((System_Collections_Generic_HashSet_T__o *)__this_01,(int32_t)local_148.fields._current,
-                      (MethodInfo_1759C90 *)
+  bVar29 = System_Collections_Generic_HashSet_Int32Enum___Contains
+                     ((System_Collections_Generic_HashSet_T__o *)pWVar36,(int32_t)local_78._0_4_,
+                      (MethodInfo_4FADAC0 *)
                       MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Contains);
-  if (bVar22) {
-label_181db2ed3:
-    switch(key) {
-    case 1:
+  if (bVar29) {
+label_0585ad39:
+    switch(fVar37) {
+    case 1.4013e-45:
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar8 = TypeInfo_Map_MapLoader->static_fields->Daylight;
-      if (pSVar8 == (System_Collections_Generic_List_Light__o *)0x0) {
+      pSVar25 = TypeInfo_Map_MapLoader->static_fields->Daylight;
+      if (pSVar25 == (System_Collections_Generic_List_Light__o *)0x0) {
         ThrowNullReferenceException();
       }
-      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_1e8,
-                 (System_Collections_Generic_List_T__o *)pSVar8,
-                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
-      local_1c8 = (undefined1  [8])local_1e8._0_8_;
-      puStack_1c0 = (undefined1 *)local_1e8._8_8_;
-      local_1b8 = (UnityEngine_Light_o *)CONCAT44(uStack_1d4,local_1d8);
-      local_178 = 0;
-      local_170 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8;
-      while (bVar22 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                ((System_Collections_Generic_List_Enumerator_object__o *)local_1c8,
-                                 (MethodInfo_153A2A0 *)
+      System_Collections_Generic_List_object___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_c0,
+                 (System_Collections_Generic_List_object__o *)pSVar25,
+                 (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
+      local_98 = (UnityEngine_Light_o *)CONCAT44(fStack_ac,local_b0);
+      local_a8 = local_c0;
+      pSStack_a0 = pSStack_b8;
+      local_c0 = (undefined1  [8])0x0;
+      pSStack_b8 = (System_Collections_Generic_List_Enumerator_object__o *)local_a8;
+      while (bVar29 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                                 (MethodInfo_4C45C50 *)
                                  MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext),
-            __this_03 = local_1b8, bVar22) {
-        pSVar18 = (__this->fields)._currentWeather;
-        if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+            __this_01 = local_98, bVar29) {
+        pSVar16 = (__this->fields)._currentWeather;
+        if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar11 = (pSVar18->fields).Daylight;
-        if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+        pSVar22 = (pSVar16->fields).Daylight;
+        if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar12 = (pSVar11->fields)._value;
-        if (pUVar12 == (Utility_Color255_o *)0x0) {
+        pUVar23 = (pSVar22->fields)._value;
+        if (pUVar23 == (Utility_Color255_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar24 = Utility_Color255__ToColor(&local_f0,pUVar12,(MethodInfo *)0x0);
-        if (__this_03 == (UnityEngine_Light_o *)0x0) {
+        UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0);
+        if (__this_01 == (UnityEngine_Light_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_1e8._0_8_ = *(undefined8 *)&pUVar24->fields;
-        local_1e8._8_8_ = *(undefined8 *)&(pUVar24->fields).b;
-        UnityEngine_Light__set_color(__this_03,(UnityEngine_Color_o *)local_1e8,(MethodInfo *)0x0);
+        UnityEngine_Light__set_color(__this_01,UVar40,(MethodInfo *)0x0);
       }
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8,
-                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
+                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                 (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
       break;
-    case 2:
+    case 2.8026e-45:
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar8 = TypeInfo_Map_MapLoader->static_fields->Daylight;
-      if (pSVar8 == (System_Collections_Generic_List_Light__o *)0x0) {
+      pSVar25 = TypeInfo_Map_MapLoader->static_fields->Daylight;
+      if (pSVar25 == (System_Collections_Generic_List_Light__o *)0x0) {
         ThrowNullReferenceException();
       }
-      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_1e8,
-                 (System_Collections_Generic_List_T__o *)pSVar8,
-                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
-      local_1c8 = (undefined1  [8])local_1e8._0_8_;
-      puStack_1c0 = (undefined1 *)local_1e8._8_8_;
-      local_1b8 = (UnityEngine_Light_o *)CONCAT44(uStack_1d4,local_1d8);
-      local_168 = 0;
-      local_160 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8;
-      while (bVar22 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                ((System_Collections_Generic_List_Enumerator_object__o *)local_1c8,
-                                 (MethodInfo_153A2A0 *)
-                                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext), bVar22
+      System_Collections_Generic_List_object___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_c0,
+                 (System_Collections_Generic_List_object__o *)pSVar25,
+                 (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
+      local_98 = (UnityEngine_Light_o *)CONCAT44(fStack_ac,local_b0);
+      local_a8 = local_c0;
+      pSStack_a0 = pSStack_b8;
+      local_c0 = (undefined1  [8])0x0;
+      pSStack_b8 = (System_Collections_Generic_List_Enumerator_object__o *)local_a8;
+      while (bVar29 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                                 (MethodInfo_4C45C50 *)
+                                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext), bVar29
             ) {
-        pSVar18 = (__this->fields)._currentWeather;
-        if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+        pSVar16 = (__this->fields)._currentWeather;
+        if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar19 = (pSVar18->fields).DaylightIntensity;
-        if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
+        pSVar17 = (pSVar16->fields).DaylightIntensity;
+        if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
           ThrowNullReferenceException();
         }
-        if (local_1b8 == (UnityEngine_Light_o *)0x0) {
+        if (local_98 == (UnityEngine_Light_o *)0x0) {
           ThrowNullReferenceException();
         }
-        UnityEngine_Light__set_intensity(local_1b8,(pSVar19->fields)._value,(MethodInfo *)0x0);
+        UnityEngine_Light__set_intensity(local_98,(pSVar17->fields)._value,(MethodInfo *)0x0);
       }
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8,
-                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
+                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                 (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
       break;
-    case 3:
+    case 4.2039e-45:
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar8 = TypeInfo_Map_MapLoader->static_fields->Daylight;
-      if (pSVar8 == (System_Collections_Generic_List_Light__o *)0x0) {
+      pSVar25 = TypeInfo_Map_MapLoader->static_fields->Daylight;
+      if (pSVar25 == (System_Collections_Generic_List_Light__o *)0x0) {
         ThrowNullReferenceException();
       }
-      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_1e8,
-                 (System_Collections_Generic_List_T__o *)pSVar8,
-                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
-      local_1c8 = (undefined1  [8])local_1e8._0_8_;
-      puStack_1c0 = (undefined1 *)local_1e8._8_8_;
-      local_1b8 = (UnityEngine_Light_o *)CONCAT44(uStack_1d4,local_1d8);
-      local_158 = 0;
-      local_150 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8;
-      while (bVar22 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                ((System_Collections_Generic_List_Enumerator_object__o *)local_1c8,
-                                 (MethodInfo_153A2A0 *)
-                                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext), bVar22
+      System_Collections_Generic_List_object___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_c0,
+                 (System_Collections_Generic_List_object__o *)pSVar25,
+                 (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Light_GetEnumerator);
+      local_98 = (UnityEngine_Light_o *)CONCAT44(fStack_ac,local_b0);
+      local_a8 = local_c0;
+      pSStack_a0 = pSStack_b8;
+      local_c0 = (undefined1  [8])0x0;
+      pSStack_b8 = (System_Collections_Generic_List_Enumerator_object__o *)local_a8;
+      while (bVar29 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                                 (MethodInfo_4C45C50 *)
+                                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_MoveNext), bVar29
             ) {
-        if (local_1b8 == (UnityEngine_Light_o *)0x0) {
+        if (local_98 == (UnityEngine_Light_o *)0x0) {
           ThrowNullReferenceException();
         }
-        __this_04 = UnityEngine_Component__get_transform
-                              ((UnityEngine_Component_o *)local_1b8,(MethodInfo *)0x0);
-        pSVar18 = (__this->fields)._currentWeather;
-        if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+        __this_03 = UnityEngine_Component__get_transform
+                              ((UnityEngine_Component_o *)local_98,(MethodInfo *)0x0);
+        pSVar16 = (__this->fields)._currentWeather;
+        if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar15 = (pSVar18->fields).DaylightDirection;
-        if (pSVar15 == (Settings_Vector3Setting_o *)0x0) {
+        pSVar24 = (pSVar16->fields).DaylightDirection;
+        if (pSVar24 == (Settings_Vector3Setting_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_198.fields.x = (pSVar15->fields)._value.fields.x * 0.017453292;
-        local_198.fields.y = (pSVar15->fields)._value.fields.y * 0.017453292;
-        local_198.fields.z = (pSVar15->fields)._value.fields.z * 0.017453292;
-        pUVar23 = UnityEngine_Quaternion__Internal_FromEulerRad(&local_e0,&local_198,(MethodInfo *)0x0);
-        if (__this_04 == (UnityEngine_Transform_o *)0x0) {
+        uVar4 = (pSVar24->fields)._value.fields.x;
+        uVar7 = (pSVar24->fields)._value.fields.y;
+        local_38 = (pSVar24->fields)._value.fields.z * 0.017453292;
+        local_40 = (Settings_WeatherSet_o *)CONCAT44((float)uVar7 * 0.017453292,(float)uVar4 * 0.017453292);
+        value = UnityEngine_Quaternion__Internal_FromEulerRad
+                          ((UnityEngine_Vector3_o *)&local_40,(MethodInfo *)0x0);
+        if (__this_03 == (UnityEngine_Transform_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_1e8._0_8_ = *(undefined8 *)&pUVar23->fields;
-        local_1e8._8_8_ = *(undefined8 *)&(pUVar23->fields).z;
-        UnityEngine_Transform__set_rotation(__this_04,(UnityEngine_Quaternion_o *)local_1e8,(MethodInfo *)0x0)
-        ;
+        UnityEngine_Transform__set_rotation(__this_03,value,(MethodInfo *)0x0);
       }
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8,
-                 MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
+                ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                 (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Light_Dispose);
       break;
-    case 4:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 5.60519e-45:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar11 = (pSVar18->fields).AmbientLight;
-      if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+      pSVar22 = (pSVar16->fields).AmbientLight;
+      if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar12 = (pSVar11->fields)._value;
-      if (pUVar12 == (Utility_Color255_o *)0x0) {
+      pUVar23 = (pSVar22->fields)._value;
+      if (pUVar23 == (Utility_Color255_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar24 = Utility_Color255__ToColor(&local_d0,pUVar12,(MethodInfo *)0x0);
-      local_1e8._0_8_ = *(undefined8 *)&pUVar24->fields;
-      local_1e8._8_8_ = *(undefined8 *)&(pUVar24->fields).b;
-      UnityEngine_RenderSettings__set_ambientLight((UnityEngine_Color_o *)local_1e8,(MethodInfo *)0x0);
+      UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_ambientLight(UVar40,(MethodInfo *)0x0);
       break;
-    case 5:
-      routine = Weather_WeatherManager__WaitAndApplySkybox(__this,(MethodInfo *)0x0);
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
-      break;
-    case 6:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 7.00649e-45:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar9 = (pSVar18->fields).Skybox;
-      if (pSVar9 == (Settings_StringSetting_o *)0x0) {
+      pSVar20 = (pSVar16->fields).Skybox;
+      if (pSVar20 == (Settings_StringSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
       pSVar18 = (__this->fields)._targetWeather;
       if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar10 = (pSVar18->fields).Skybox;
-      if (pSVar10 == (Settings_StringSetting_o *)0x0) {
+      pSVar19 = (pSVar18->fields).Skybox;
+      if (pSVar19 == (Settings_StringSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      __this_05 = Weather_WeatherManager__GetBlendedSkybox
-                            (__this,(pSVar9->fields)._value,(pSVar10->fields)._value,(MethodInfo *)0x0);
+      pMVar35 = (MethodInfo *)(pSVar16->fields).SkyboxColor;
+      if (pMVar35 == (MethodInfo *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if (pMVar35->klass == (Il2CppClass *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar30 = (pSVar20->fields)._value;
+      skybox2 = (pSVar19->fields)._value;
+      UVar40 = Utility_Color255__ToColor((Utility_Color255_o *)pMVar35->klass,(MethodInfo *)0x0);
+      routine = Weather_WeatherManager__WaitAndApplySkybox(__this,pSVar30,skybox2,UVar40,pMVar35);
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
+      break;
+    case 8.40779e-45:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar20 = (pSVar16->fields).Skybox;
+      if (pSVar20 == (Settings_StringSetting_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar16 = (__this->fields)._targetWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pMVar35 = (MethodInfo *)(pSVar16->fields).Skybox;
+      if (pMVar35 == (MethodInfo *)0x0) {
+        ThrowNullReferenceException();
+      }
+      __this_02 = Weather_WeatherManager__GetBlendedSkybox
+                            (pWVar36,(pSVar20->fields)._value,(System_String_o *)pMVar35->klass,pMVar35);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar22 = UnityEngine_Object__op_Inequality
-                         ((UnityEngine_Object_o *)__this_05,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar22) {
-        pSVar18 = (__this->fields)._currentWeather;
-        if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      bVar29 = UnityEngine_Object__op_Inequality
+                         ((UnityEngine_Object_o *)__this_02,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar29) {
+        pSVar16 = (__this->fields)._currentWeather;
+        if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar11 = (pSVar18->fields).SkyboxColor;
-        if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+        pSVar22 = (pSVar16->fields).SkyboxColor;
+        if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar12 = (pSVar11->fields)._value;
-        if (pUVar12 == (Utility_Color255_o *)0x0) {
+        pUVar23 = (pSVar22->fields)._value;
+        if (pUVar23 == (Utility_Color255_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar24 = Utility_Color255__ToColor(&local_c0,pUVar12,(MethodInfo *)0x0);
-        if (__this_05 == (UnityEngine_Material_o *)0x0) {
+        UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0);
+        if (__this_02 == (UnityEngine_Material_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_1e8._0_8_ = *(undefined8 *)&pUVar24->fields;
-        local_1e8._8_8_ = *(undefined8 *)&(pUVar24->fields).b;
-        UnityEngine_Material__SetVector
-                  (__this_05,"_Tint",(UnityEngine_Vector4_o *)local_1e8,(MethodInfo *)0x0);
+        UnityEngine_Material__SetColor(__this_02,"_Tint",UVar40,(MethodInfo *)0x0);
       }
       break;
-    case 7:
-      pSVar13 = (__this->fields)._effects;
-      if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+    case 9.80909e-45:
+      pSVar15 = (__this->fields)._effects;
+      if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
         ThrowNullReferenceException();
       }
-      pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,7,
-                           (MethodInfo_1454ED0 *)
+      pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,7,
+                           (MethodInfo_4A54F30 *)
                            MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                           );
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar11 = (pSVar18->fields).Flashlight;
-      if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+      pSVar22 = (pSVar16->fields).Flashlight;
+      if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar12 = (pSVar11->fields)._value;
-      if (pUVar12 == (Utility_Color255_o *)0x0) {
+      pUVar23 = (pSVar22->fields)._value;
+      if (pUVar23 == (Utility_Color255_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar24 = Utility_Color255__ToColor(&local_b0,pUVar12,(MethodInfo *)0x0);
-      if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+      UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0);
+      if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pWVar14 = pWVar26->klass;
-      bVar5 = (TypeInfo_Weather_FlashlightWeatherEffect->_2).typeHierarchyDepth;
-      if (((pWVar14->_2).typeHierarchyDepth < bVar5) ||
-         ((pWVar14->_2).typeHierarchy[(ulonglong)bVar5 - 1] !=
+      pWVar21 = pWVar32->klass;
+      bVar9 = (TypeInfo_Weather_FlashlightWeatherEffect->_2).typeHierarchyDepth;
+      if (((pWVar21->_2).typeHierarchyDepth < bVar9) ||
+         ((pWVar21->_2).typeHierarchy[(ulong)bVar9 - 1] !=
           (Il2CppClass *)TypeInfo_Weather_FlashlightWeatherEffect)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pWVar26);
+        il2cpp_codegen_raise_invalid_cast_exception(UVar40.fields.r,pWVar32);
       }
-      local_1e8._0_8_ = *(undefined8 *)&pUVar24->fields;
-      local_1e8._8_8_ = *(undefined8 *)&(pUVar24->fields).b;
-      (*((Il2CppClass *)pWVar14)->vtable[22].methodPtr)(pWVar26,local_1e8);
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      (*((Il2CppClass *)pWVar21)->vtable[22].methodPtr)(UVar40.fields.r,UVar40.fields._8_8_,pWVar32);
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar11 = (pSVar18->fields).Flashlight;
-      if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+      pSVar22 = (pSVar16->fields).Flashlight;
+      if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar12 = (pSVar11->fields)._value;
-      if (pUVar12 == (Utility_Color255_o *)0x0) {
+      pUVar23 = (pSVar22->fields)._value;
+      if (pUVar23 == (Utility_Color255_o *)0x0) {
         ThrowNullReferenceException();
       }
-      if (((pUVar12->fields).A < 1) ||
-         (pUVar24 = Utility_Color255__ToColor
-                              (local_a0,(((((__this->fields)._currentWeather)->fields).Flashlight)->fields).
-                                        _value,(MethodInfo *)0x0), fVar4 = (pUVar24->fields).r - 0.0,
-         fVar28 = (pUVar24->fields).g - 0.0, fVar2 = (pUVar24->fields).b - 0.0,
-         fVar29 = (pUVar24->fields).a - 1.0,
-         fVar29 * fVar29 + fVar2 * fVar2 + fVar28 * fVar28 + fVar4 * fVar4 < 9.9999994e-11)) {
-        pSVar13 = (__this->fields)._effects;
-        if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+      if (((pUVar23->fields).A < 1) ||
+         (UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0), fVar37 = UVar40.fields.a + -1.0,
+         fVar37 * fVar37 +
+         UVar40.fields.b * UVar40.fields.b +
+         UVar40.fields.g * UVar40.fields.g + UVar40.fields.r * UVar40.fields.r < 9.9999994e-11)) {
+        pSVar15 = (__this->fields)._effects;
+        if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
           ThrowNullReferenceException();
         }
-        pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,7,
-                             (MethodInfo_1454ED0 *)
+        pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,7,
+                             (MethodInfo_4A54F30 *)
                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                             );
-        if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+        if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
           ThrowNullReferenceException();
         }
-        (*(pWVar26->klass->vtable)._6_Disable.methodPtr)
-                  (pWVar26,false,(pWVar26->klass->vtable)._6_Disable.method);
+        (*(pWVar32->klass->vtable)._6_Disable.methodPtr)
+                  (pWVar32,false,(pWVar32->klass->vtable)._6_Disable.method);
       }
       else {
-        pSVar13 = (__this->fields)._effects;
-        if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+        pSVar15 = (__this->fields)._effects;
+        if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
           ThrowNullReferenceException();
         }
-        pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,7,
-                             (MethodInfo_1454ED0 *)
+        pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,7,
+                             (MethodInfo_4A54F30 *)
                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                             );
-        if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+        if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar27 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar26,(MethodInfo *)0x0);
-        if (pUVar27 == (UnityEngine_GameObject_o *)0x0) {
+        pUVar33 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar32,(MethodInfo *)0x0);
+        if (pUVar33 == (UnityEngine_GameObject_o *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar22 = UnityEngine_GameObject__get_activeSelf(pUVar27,(MethodInfo *)0x0);
-        if (!bVar22) {
-          pSVar13 = (__this->fields)._effects;
-          if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+        bVar29 = UnityEngine_GameObject__get_activeSelf(pUVar33,(MethodInfo *)0x0);
+        if (!bVar29) {
+          pSVar15 = (__this->fields)._effects;
+          if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
             ThrowNullReferenceException();
           }
-          pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,7,
-                               (MethodInfo_1454ED0 *)
+          pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,7,
+                               (MethodInfo_4A54F30 *)
                                MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                               );
-          if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+          if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
             ThrowNullReferenceException();
           }
-          (*(pWVar26->klass->vtable)._7_Enable.methodPtr)(pWVar26,(pWVar26->klass->vtable)._7_Enable.method);
+          (*(pWVar32->klass->vtable)._7_Enable.methodPtr)(pWVar32,(pWVar32->klass->vtable)._7_Enable.method);
         }
       }
       break;
-    case 8:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 1.12104e-44:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar19 = (pSVar18->fields).FogDensity;
-      if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
+      pSVar17 = (pSVar16->fields).FogDensity;
+      if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      if (0.0 < (pSVar19->fields)._value) {
-        UnityEngine_RenderSettings__set_fog(true,(MethodInfo *)0x0);
-        UnityEngine_RenderSettings__set_fogMode(2,(MethodInfo *)0x0);
-        pSVar18 = (__this->fields)._currentWeather;
-        if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pSVar19 = (pSVar18->fields).FogDensity;
-        if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        UnityEngine_RenderSettings__set_fogDensity((pSVar19->fields)._value * 0.02,(MethodInfo *)0x0);
-      }
-      else {
+      if ((pSVar17->fields)._value <= 0.0) {
         UnityEngine_RenderSettings__set_fog(false,(MethodInfo *)0x0);
       }
+      else {
+        UnityEngine_RenderSettings__set_fog(true,(MethodInfo *)0x0);
+        UnityEngine_RenderSettings__set_fogMode(2,(MethodInfo *)0x0);
+        pSVar16 = (__this->fields)._currentWeather;
+        if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar17 = (pSVar16->fields).FogDensity;
+        if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        UnityEngine_RenderSettings__set_fogDensity((pSVar17->fields)._value * 0.02,(MethodInfo *)0x0);
+      }
       break;
-    case 9:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 1.26117e-44:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar11 = (pSVar18->fields).FogColor;
-      if (pSVar11 == (Settings_ColorSetting_o *)0x0) {
+      pSVar22 = (pSVar16->fields).FogColor;
+      if (pSVar22 == (Settings_ColorSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar12 = (pSVar11->fields)._value;
-      if (pUVar12 == (Utility_Color255_o *)0x0) {
+      pUVar23 = (pSVar22->fields)._value;
+      if (pUVar23 == (Utility_Color255_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar24 = Utility_Color255__ToColor((UnityEngine_Color_o *)local_128,pUVar12,(MethodInfo *)0x0);
-      local_1e8._0_8_ = *(undefined8 *)&pUVar24->fields;
-      local_1e8._8_8_ = *(undefined8 *)&(pUVar24->fields).b;
-      UnityEngine_RenderSettings__set_fogColor((UnityEngine_Color_o *)local_1e8,(MethodInfo *)0x0);
+      UVar40 = Utility_Color255__ToColor(pUVar23,(MethodInfo *)0x0);
+      UnityEngine_RenderSettings__set_fogColor(UVar40,(MethodInfo *)0x0);
       break;
-    case 10:
-    case 0xb:
-    case 0xc:
-    case 0xd:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 1.4013e-44:
+    case 1.54143e-44:
+    case 1.68156e-44:
+    case 1.82169e-44:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      __this_02 = (pSVar18->fields).Settings;
-      local_1e8._0_8_ = TypeInfo_Weather_WeatherEffect;
-      local_1e8._8_8_ = &g_data_ffffffffffffffff;
-      local_1d8 = key;
-      key_00 = System_Enum__ToString((System_Enum_o *)local_1e8,(MethodInfo *)0x0);
-      if (__this_02 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
+      __this_00 = (pSVar16->fields).Settings;
+      local_c0 = (undefined1  [8])TypeInfo_Weather_WeatherEffect;
+      pSStack_b8 = (System_Collections_Generic_List_Enumerator_object__o *)0xffffffffffffffff;
+      local_b0 = fVar37;
+      pSVar30 = System_Enum__ToString((System_Enum_o *)local_c0,(MethodInfo *)0x0);
+      if (__this_00 == (System_Collections_Specialized_OrderedDictionary_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pIVar25 = System_Collections_Specialized_OrderedDictionary__get_Item
-                          (__this_02,(Il2CppObject *)key_00,(MethodInfo *)0x0);
-      if (pIVar25 == (Il2CppObject *)0x0) {
+      pIVar31 = System_Collections_Specialized_OrderedDictionary__get_Item
+                          (__this_00,(Il2CppObject *)pSVar30,(MethodInfo *)0x0);
+      if (pIVar31 == (Il2CppObject *)0x0) {
         ThrowNullReferenceException();
       }
-      bVar5 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-      if (((pIVar25->klass->_2).typeHierarchyDepth < bVar5) ||
-         ((pIVar25->klass->_2).typeHierarchy[(ulonglong)bVar5 - 1] !=
+      bVar9 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
+      if (((pIVar31->klass->_2).typeHierarchyDepth < bVar9) ||
+         ((pIVar31->klass->_2).typeHierarchy[(ulong)bVar9 - 1] !=
           (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar25);
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar31);
       }
-      pSVar13 = (__this->fields)._effects;
-      if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+      pSVar15 = (__this->fields)._effects;
+      if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
         ThrowNullReferenceException();
       }
-      fVar29 = *(float *)((longlong)&pIVar25[1].monitor + 4);
-      pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,key,
-                           (MethodInfo_1454ED0 *)
+      fVar2 = *(float *)((long)&pIVar31[1].monitor + 4);
+      pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,(int32_t)fVar37,
+                           (MethodInfo_4A54F30 *)
                            MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                           );
-      if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+      if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
         ThrowNullReferenceException();
       }
-      (*(pWVar26->klass->vtable)._10_SetLevel.methodPtr)
-                (pWVar26,fVar29,(pWVar26->klass->vtable)._10_SetLevel.method);
-      pSVar13 = (local_130->fields)._effects;
-      if (0.0 < fVar29) {
-        if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+      (*(pWVar32->klass->vtable)._10_SetLevel.methodPtr)
+                (pWVar32,fVar2,(pWVar32->klass->vtable)._10_SetLevel.method);
+      pSVar15 = (__this->fields)._effects;
+      if (fVar2 <= 0.0) {
+        if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
           ThrowNullReferenceException();
         }
-        pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,key,
-                             (MethodInfo_1454ED0 *)
+        pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,(int32_t)fVar37,
+                             (MethodInfo_4A54F30 *)
                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                             );
-        if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+        if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pUVar27 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar26,(MethodInfo *)0x0);
-        if (pUVar27 == (UnityEngine_GameObject_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar22 = UnityEngine_GameObject__get_activeSelf(pUVar27,(MethodInfo *)0x0);
-        if (!bVar22) {
-          pSVar13 = (__this->fields)._effects;
-          if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,key,
-                               (MethodInfo_1454ED0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                              );
-          if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          pWVar14 = pWVar26->klass;
-          (*(pWVar14->vtable)._8_Randomize.methodPtr)
-                    (pWVar26,(System_Type_o *)(pWVar14->vtable)._8_Randomize.method,(MethodInfo *)pWVar14);
-          pSVar13 = (__this->fields)._effects;
-          if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,key,
-                               (MethodInfo_1454ED0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
-                              );
-          if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          (*(pWVar26->klass->vtable)._7_Enable.methodPtr)(pWVar26,(pWVar26->klass->vtable)._7_Enable.method);
-        }
+        (*(pWVar32->klass->vtable)._6_Disable.methodPtr)
+                  (pWVar32,true,(pWVar32->klass->vtable)._6_Disable.method);
       }
       else {
-        if (pSVar13 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+        if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
           ThrowNullReferenceException();
         }
-        pWVar26 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar13,key,
-                             (MethodInfo_1454ED0 *)
+        pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,(int32_t)fVar37,
+                             (MethodInfo_4A54F30 *)
                              MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
                             );
-        if (pWVar26 == (Weather_BaseWeatherEffect_o *)0x0) {
+        if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
           ThrowNullReferenceException();
         }
-        (*(pWVar26->klass->vtable)._6_Disable.methodPtr)
-                  (pWVar26,true,(pWVar26->klass->vtable)._6_Disable.method);
+        pUVar33 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar32,(MethodInfo *)0x0);
+        if (pUVar33 == (UnityEngine_GameObject_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        bVar29 = UnityEngine_GameObject__get_activeSelf(pUVar33,(MethodInfo *)0x0);
+        if (!bVar29) {
+          pSVar15 = (__this->fields)._effects;
+          if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,
+                               (int32_t)fVar37,
+                               (MethodInfo_4A54F30 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                              );
+          if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          (*(pWVar32->klass->vtable)._8_Randomize.methodPtr)
+                    (pWVar32,(pWVar32->klass->vtable)._8_Randomize.method);
+          pSVar15 = (__this->fields)._effects;
+          if (pSVar15 == (System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pWVar32 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Item
+                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar15,
+                               (int32_t)fVar37,
+                               (MethodInfo_4A54F30 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_get_Item
+                              );
+          if (pWVar32 == (Weather_BaseWeatherEffect_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          (*(pWVar32->klass->vtable)._7_Enable.methodPtr)(pWVar32,(pWVar32->klass->vtable)._7_Enable.method);
+        }
       }
       break;
-    case 0xe:
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+    case 1.96182e-44:
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar15 = (pSVar18->fields).WindDirection;
-      if (pSVar15 == (Settings_Vector3Setting_o *)0x0) {
+      pSVar24 = (pSVar16->fields).WindDirection;
+      if (pSVar24 == (Settings_Vector3Setting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      uVar3._0_4_ = (pSVar15->fields)._value.fields.x;
-      uVar3._4_4_ = (pSVar15->fields)._value.fields.y;
-      fVar29 = (pSVar15->fields)._value.fields.z;
-      local_188 = uVar3;
-      local_180 = fVar29;
-      if (Il2CppMethodInitialized_18433de5f == '\0') {
+      uVar3 = (pSVar24->fields)._value.fields.x;
+      uVar6 = (pSVar24->fields)._value.fields.y;
+      local_68 = (float)uVar3;
+      fStack_64 = (float)uVar6;
+      pSStack_60 = (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0;
+      local_c8 = (pSVar24->fields)._value.fields.z;
+      if (Il2CppMethodInitialized_0753e72d == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433de5f = '\x01';
-      }
-      local_1e8._0_8_ = (System_Enum_c *)0x0;
-      local_1e8._8_8_ = local_1e8._8_8_ & 0xffffffff00000000;
-      fVar28 = (float)il2cpp_runtime_helper_180546a40(&local_188,0);
-      if (fVar28 <= 1e-05) {
-        pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
-        fVar2 = (pUVar16->zeroVector).fields.x;
-        fVar4 = (pUVar16->zeroVector).fields.y;
-        fVar29 = (pUVar16->zeroVector).fields.z;
+        Il2CppMethodInitialized_0753e72d = '\x01';
+        local_c0 = (undefined1  [8])0x0;
       }
       else {
-        fVar2 = (float)(undefined4)uVar3 / fVar28;
-        fVar4 = local_188._4_4_ / fVar28;
-        fVar29 = fVar29 / fVar28;
+        local_c0 = (undefined1  [8])0x0;
       }
-      if ((TypeInfo_Weather_WindWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
+      if (g_data_0753e729 == '\0') {
+        local_c0 = (undefined1  [8])0x0;
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+        g_data_0753e729 = '\x01';
+        uVar11 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+      }
+      else {
+        local_c0 = (undefined1  [8])0x0;
+        uVar11 = (((Il2CppClass *)TypeInfo_System_Math)->_2).cctor_finished_or_no_cctor;
+      }
+      if (uVar11 == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+      }
+      uVar38 = 0;
+      fVar37 = local_c8 * local_c8 + fStack_64 * fStack_64 + local_68 * local_68;
+      if (fVar37 < 0.0) {
+        fVar37 = sqrtf(fVar37);
+        uVar38 = extraout_XMM0_Db;
+      }
+      else {
+        fVar37 = SQRT(fVar37);
+      }
+      if (1e-05 < fVar37) {
+        local_c8 = local_c8 / fVar37;
+        auVar28._4_4_ = fStack_64;
+        auVar28._0_4_ = local_68;
+        auVar28._8_8_ = pSStack_60;
+        auVar39._4_4_ = fVar37;
+        auVar39._0_4_ = fVar37;
+        auVar39._8_4_ = uVar38;
+        auVar39._12_4_ = uVar38;
+        auVar39 = divps(auVar28,auVar39);
+        local_c0 = (undefined1  [8])auVar39._0_8_;
+        pUVar34 = (UnityEngine_Vector3_StaticFields *)local_c0;
+      }
+      else {
+        pUVar34 = TypeInfo_UnityEngine_Vector3->static_fields;
+        local_c8 = (pUVar34->zeroVector).fields.z;
+      }
+      uVar5 = (pUVar34->zeroVector).fields.x;
+      uVar8 = (pUVar34->zeroVector).fields.y;
+      pSStack_60 = (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0;
+      local_68 = (float)uVar5;
+      fStack_64 = (float)uVar8;
+      if ((((Il2CppClass *)TypeInfo_Weather_WindWeatherEffect)->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WindWeatherEffect);
       }
-      pWVar17 = TypeInfo_Weather_WindWeatherEffect->static_fields;
-      (pWVar17->WindDirection).fields.x = fVar2;
-      (pWVar17->WindDirection).fields.y = fVar4;
-      (pWVar17->WindDirection).fields.z = fVar29;
+      pWVar26 = TypeInfo_Weather_WindWeatherEffect->static_fields;
+      (pWVar26->WindDirection).fields.x = local_68;
+      (pWVar26->WindDirection).fields.y = fStack_64;
+      (pWVar26->WindDirection).fields.z = local_c8;
       break;
-    case 0xf:
+    case 2.10195e-44:
       if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar19 = (pSVar18->fields).RainForce;
-      if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
+      pSVar17 = (pSVar16->fields).RainForce;
+      if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pWVar20 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (pWVar20 == (Weather_WeatherManager_o *)0x0) {
+      pWVar36 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar36 == (Weather_WeatherManager_o *)0x0) {
         ThrowNullReferenceException();
       }
-      (pWVar20->fields)._currentRainForce = (pSVar19->fields)._value;
+      (pWVar36->fields)._currentRainForce = (pSVar17->fields)._value;
       break;
-    case 0x10:
+    case 2.24208e-44:
       if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar19 = (pSVar18->fields).SnowForce;
-      if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
+      pSVar17 = (pSVar16->fields).SnowForce;
+      if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pWVar20 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (pWVar20 == (Weather_WeatherManager_o *)0x0) {
+      pWVar36 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar36 == (Weather_WeatherManager_o *)0x0) {
         ThrowNullReferenceException();
       }
-      (pWVar20->fields)._currentSnowForce = (pSVar19->fields)._value;
+      (pWVar36->fields)._currentSnowForce = (pSVar17->fields)._value;
       break;
-    case 0x11:
+    case 2.38221e-44:
       if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      pSVar18 = (__this->fields)._currentWeather;
-      if (pSVar18 == (Settings_WeatherSet_o *)0x0) {
+      pSVar16 = (__this->fields)._currentWeather;
+      if (pSVar16 == (Settings_WeatherSet_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pSVar19 = (pSVar18->fields).WindForce;
-      if (pSVar19 == (Settings_FloatSetting_o *)0x0) {
+      pSVar17 = (pSVar16->fields).WindForce;
+      if (pSVar17 == (Settings_FloatSetting_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pWVar20 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (pWVar20 == (Weather_WeatherManager_o *)0x0) {
+      pWVar36 = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+      if (pWVar36 == (Weather_WeatherManager_o *)0x0) {
         ThrowNullReferenceException();
       }
-      (pWVar20->fields)._currentWindForce = (pSVar19->fields)._value;
+      (pWVar36->fields)._currentWindForce = (pSVar17->fields)._value;
     }
   }
-  goto switchD_181db2eec_default;
+  goto switchD_0585ad4f_default;
 }
 
 
 // Weather.WeatherManager$$WaitAndApplySkybox
-// il2cpp: System_Collections_IEnumerator_o* Weather_WeatherManager__WaitAndApplySkybox (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db8880
+// il2cpp: System_Collections_IEnumerator_o* Weather_WeatherManager__WaitAndApplySkybox (Weather_WeatherManager_o* __this, System_String_o* skybox1, System_String_o* skybox2, UnityEngine_Color_o tint, const MethodInfo* method);
+// 0x585e2f0
 
 System_Collections_IEnumerator_o *
-Weather_WeatherManager__WaitAndApplySkybox(Weather_WeatherManager_o *__this,MethodInfo *method)
+Weather_WeatherManager__WaitAndApplySkybox
+          (Weather_WeatherManager_o *__this,System_String_o *skybox1,System_String_o *skybox2,
+          UnityEngine_Color_o tint,MethodInfo *method)
 
 {
-  Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *__this_00;
+  Weather_WeatherManager__WaitAndApplySkybox_d__57_o *__this_00;
+  float local_48;
+  float fStack_44;
   
-  if (Il2CppMethodInitialized_184344943 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager_WaitAndApplySkybox_d__52);
-    Il2CppMethodInitialized_184344943 = '\x01';
+  if (Il2CppMethodInitialized_0754509c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager_WaitAndApplySkybox_d__57);
+    Il2CppMethodInitialized_0754509c = '\x01';
   }
-  __this_00 = (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)
-              il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_WaitAndApplySkybox_d__52);
-  Weather_WeatherManager__WaitAndApplySkybox_d__52___ctor(__this_00,0,(MethodInfo *)0x0);
-  if (__this_00 != (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)0x0) {
-    (__this_00->fields).__4__this = (Photon_Pun_UtilityScripts_OnClickRpc_o *)__this;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_WaitAndApplySkybox_d__57);
+  Weather_WeatherManager__WaitAndApplySkybox_d__57___ctor(__this_00,0,(MethodInfo *)0x0);
+  if (__this_00 == (Weather_WeatherManager__WaitAndApplySkybox_d__57_o *)0x0) {
+    ThrowNullReferenceException();
   }
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  (__this_00->fields).skybox1 = skybox1;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).skybox1);
+  (__this_00->fields).skybox2 = skybox2;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).skybox2);
+  local_48 = tint.fields.r;
+  fStack_44 = tint.fields.g;
+  (__this_00->fields).tint.fields.r = local_48;
+  (__this_00->fields).tint.fields.g = fStack_44;
+  (__this_00->fields).tint.fields.b = tint.fields.b;
+  (__this_00->fields).tint.fields.a = tint.fields.a;
+  return (System_Collections_IEnumerator_o *)__this_00;
+}
+
+
+// Weather.WeatherManager$$ResolveSkyboxName
+// il2cpp: System_String_o* Weather_WeatherManager__ResolveSkyboxName (System_String_o* skybox, const MethodInfo* method);
+// 0x585e3b0
+
+System_String_o * Weather_WeatherManager__ResolveSkyboxName(System_String_o *skybox,MethodInfo *method)
+
+{
+  System_Collections_Generic_Dictionary_object__object__o *__this;
+  bool bVar1;
+  uint16_t c;
+  System_String_o *pSVar2;
+  
+  if (Il2CppMethodInitialized_0754509d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"1");
+    Il2CppMethodInitialized_0754509d = '\x01';
+  }
+  bVar1 = System_String__IsNullOrEmpty(skybox,(MethodInfo *)0x0);
+  if (bVar1) {
+    return (System_String_o *)0x0;
+  }
+  if (skybox == (System_String_o *)0x0) goto label_0585e4ce;
+  c = System_String__get_Chars(skybox,(skybox->fields)._stringLength + -1,(MethodInfo *)0x0);
+  if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_07556750);
+  }
+  bVar1 = System_Char__IsDigit(c,(MethodInfo *)0x0);
+  if (bVar1) {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor != 0) goto label_0585e457;
+label_0585e4b6:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    __this = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+  }
+  else {
+    skybox = System_String__Concat_52f0320(skybox,"1",(MethodInfo *)0x0);
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) goto label_0585e4b6;
+label_0585e457:
+    __this = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials;
+  }
+  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      (__this,(Il2CppObject *)skybox,
+                       (MethodInfo_4AAD6F0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    pSVar2 = (System_String_o *)0x0;
+    if (bVar1) {
+      pSVar2 = skybox;
+    }
+    return pSVar2;
+  }
+label_0585e4ce:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$GetBlendedSkybox
 // il2cpp: UnityEngine_Material_o* Weather_WeatherManager__GetBlendedSkybox (Weather_WeatherManager_o* __this, System_String_o* skybox1, System_String_o* skybox2, const MethodInfo* method);
-// 0x181db5190
+// 0x585e040
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585e081: jmp 0x585e2db
 
 UnityEngine_Material_o *
 Weather_WeatherManager__GetBlendedSkybox
@@ -4815,15 +5410,17 @@ Weather_WeatherManager__GetBlendedSkybox
           MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *__this_00;
   bool bVar1;
-  uint16_t uVar2;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *__this_01;
+  System_String_o *skybox1_00;
+  System_String_o *skybox2_00;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
   System_String_array *parts;
   UnityEngine_Material_o *pUVar3;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar4;
+  MethodInfo *pMVar4;
+  MethodInfo *in_R8;
   
-  if (Il2CppMethodInitialized_184344944 == '\0') {
+  pMVar4 = (MethodInfo *)skybox1;
+  if (Il2CppMethodInitialized_0754509e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -4839,200 +5436,175 @@ Weather_WeatherManager__GetBlendedSkybox
               (&MethodInfo_Utility_Util_EnumToStringArray_SkyboxCustomSkinPartId);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    il2cpp_codegen_initialize_runtime_metadata(&"1");
-    Il2CppMethodInitialized_184344944 = '\x01';
+    Il2CppMethodInitialized_0754509e = '\x01';
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor != 0) goto label_0585e070;
+label_0585e105:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    skybox1_00 = Weather_WeatherManager__ResolveSkyboxName(skybox1,pMVar4);
   }
-  if (skybox1 != (System_String_o *)0x0) {
-    uVar2 = System_String__get_Chars(skybox1,(skybox1->fields)._stringLength + -1,(MethodInfo *)0x0);
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar1 = System_Char__IsDigit(uVar2,(MethodInfo *)0x0);
+  else {
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) goto label_0585e105;
+label_0585e070:
+    skybox1_00 = Weather_WeatherManager__ResolveSkyboxName(skybox1,pMVar4);
+  }
+  if (skybox1_00 == (System_String_o *)0x0) {
+    return (UnityEngine_Material_o *)0x0;
+  }
+  if ((((Il2CppClass *)TypeInfo_Weather_WeatherManager)->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+  }
+  skybox2_00 = Weather_WeatherManager__ResolveSkyboxName(skybox2,pMVar4);
+  if (skybox2_00 == (System_String_o *)0x0) {
+    skybox2_00 = skybox1_00;
+  }
+  if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+  }
+  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      (pSVar2,(Il2CppObject *)skybox1_00,
+                       (MethodInfo_4AAD6F0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_ContainsKey
+                      );
     if (!bVar1) {
-      skybox1 = System_String__Concat_1969e50(skybox1,"1",(MethodInfo *)0x0);
+      return (UnityEngine_Material_o *)0x0;
     }
-    if (skybox2 != (System_String_o *)0x0) {
-      uVar2 = System_String__get_Chars(skybox2,(skybox2->fields)._stringLength + -1,(MethodInfo *)0x0);
-      if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(g_data_184354e48);
-      }
-      bVar1 = System_Char__IsDigit(uVar2,(MethodInfo *)0x0);
+    if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    }
+    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+    if ((pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
+       (pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 System_Collections_Generic_Dictionary_object__object___get_Item
+                           (pSVar2,(Il2CppObject *)skybox1_00,
+                            (MethodInfo_4AAD450 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
+                           ), pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
+      bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                        (pSVar2,(Il2CppObject *)skybox2_00,
+                         (MethodInfo_4AAD6F0 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
       if (!bVar1) {
-        skybox2 = System_String__Concat_1969e50(skybox2,"1",(MethodInfo *)0x0);
+        if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+        }
+        parts = Utility_Util__EnumToStringArray_Int32Enum_
+                          ((MethodInfo_377C8A0 *)
+                           MethodInfo_Utility_Util_EnumToStringArray_SkyboxCustomSkinPartId);
+        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+        }
+        pUVar3 = Weather_WeatherManager__CreateBlendedSkybox
+                           (TypeInfo_Weather_WeatherManager->static_fields->_blendedShader,parts,skybox1_00,
+                            skybox2_00,in_R8);
+        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+        if ((pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+           (pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                     System_Collections_Generic_Dictionary_object__object___get_Item
+                               (pSVar2,(Il2CppObject *)skybox1_00,
+                                (MethodInfo_4AAD450 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
+                               ), pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0))
+        goto label_0585e2e7;
+        System_Collections_Generic_Dictionary_object__object___Add
+                  (pSVar2,(Il2CppObject *)skybox2_00,(Il2CppObject *)pUVar3,
+                   (MethodInfo_4AAD4E0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add)
+        ;
       }
       if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      __this_00 = TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-      if (__this_00 != (System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *)0x0) {
-        bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                           (Il2CppObject *)skybox1,
-                           (MethodInfo_1455450 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_ContainsKey
-                          );
-        if (!bVar1) {
-          return (UnityEngine_Material_o *)0x0;
-        }
-        if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-        }
-        pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)
-                 TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-        if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-          __this_01 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
-                      System_Collections_Generic_Dictionary_object__object___get_Item
-                                (pSVar4,(Il2CppObject *)skybox1,
-                                 (MethodInfo_147A5B0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
-                                );
-          if (__this_01 != (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
-            bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                              (__this_01,(Il2CppObject *)skybox2,
-                               (MethodInfo_1455450 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
-            if (!bVar1) {
-              if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
-              }
-              parts = Utility_Util__EnumToStringArray___Il2CppFullySharedGenericType_
-                                ((MethodInfo_869FD0 *)
-                                 MethodInfo_Utility_Util_EnumToStringArray_SkyboxCustomSkinPartId);
-              if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-              }
-              pUVar3 = Weather_WeatherManager__CreateBlendedSkybox
-                                 (TypeInfo_Weather_WeatherManager->static_fields->_blendedShader,parts,skybox1
-                                  ,skybox2,(MethodInfo *)0x0);
-              pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)
-                       TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-              if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-              goto label_181db5493;
-              pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)
-                       System_Collections_Generic_Dictionary_object__object___get_Item
-                                 (pSVar4,(Il2CppObject *)skybox1,
-                                  (MethodInfo_147A5B0 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
-                                 );
-              if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-              goto label_181db5493;
-              System_Collections_Generic_Dictionary_object__object___Add
-                        (pSVar4,(Il2CppObject *)skybox2,(Il2CppObject *)pUVar3,
-                         (MethodInfo_146B4B0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_string_Material_Add);
-            }
-            if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-            }
-            pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)
-                     TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
-            if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-              pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)
-                       System_Collections_Generic_Dictionary_object__object___get_Item
-                                 (pSVar4,(Il2CppObject *)skybox1,
-                                  (MethodInfo_147A5B0 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
-                                 );
-              if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                pUVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                   (pSVar4,(Il2CppObject *)skybox2,
-                                    (MethodInfo_147A5B0 *)
-                                    MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item)
-                ;
-                return pUVar3;
-              }
-            }
-          }
-        }
+      pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials;
+      if ((pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
+         (pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   System_Collections_Generic_Dictionary_object__object___get_Item
+                             (pSVar2,(Il2CppObject *)skybox1_00,
+                              (MethodInfo_4AAD450 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_get_Item
+                             ), pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
+        pUVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                           (pSVar2,(Il2CppObject *)skybox2_00,
+                            (MethodInfo_4AAD450 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+        return pUVar3;
       }
     }
   }
-label_181db5493:
+label_0585e2e7:
   ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$OnSetWeatherRPC
 // il2cpp: void Weather_WeatherManager__OnSetWeatherRPC (System_Byte_array* currentWeatherJson, System_Byte_array* startWeatherJson, System_Byte_array* targetWeatherJson, System_Collections_Generic_Dictionary_int__float__o* targetWeatherStartTimes, System_Collections_Generic_Dictionary_int__float__o* targetWeatherEndTimes, float currentTime, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x181db7210
+// 0x585e4e0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x585e56f: jmp 0x585e586
 
 void Weather_WeatherManager__OnSetWeatherRPC
                (System_Byte_array *currentWeatherJson,System_Byte_array *startWeatherJson,
                System_Byte_array *targetWeatherJson,
                System_Collections_Generic_Dictionary_int__float__o *targetWeatherStartTimes,
                System_Collections_Generic_Dictionary_int__float__o *targetWeatherEndTimes,float currentTime,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
   Settings_GraphicsSettings_o *pSVar1;
   Settings_IntSetting_o *pSVar2;
   Weather_WeatherManager_o *__this;
   Photon_Realtime_Player_o *pPVar3;
-  Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *__this_00;
+  System_Collections_IEnumerator_o *routine;
+  MethodInfo *in_stack_ffffffffffffffb8;
   
-  if (Il2CppMethodInitialized_184344945 == '\0') {
+  if (Il2CppMethodInitialized_0754509f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    Il2CppMethodInitialized_184344945 = '\x01';
+    Il2CppMethodInitialized_0754509f = '\x01';
   }
   if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    pPVar3 = Photon_Pun_PhotonNetwork__get_MasterClient((MethodInfo *)0x0);
   }
-  pPVar3 = Photon_Pun_PhotonNetwork__get_MasterClient((MethodInfo *)0x0);
-  if ((info->fields).Sender == pPVar3) {
-    pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
-    if ((pSVar1 != (Settings_GraphicsSettings_o *)0x0) &&
-       (pSVar2 = (pSVar1->fields).WeatherEffects, pSVar2 != (Settings_IntSetting_o *)0x0)) {
-      if ((pSVar2->fields)._value == 0) {
-        return;
-      }
-      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
-      }
-      __this = TypeInfo_Weather_WeatherManager->static_fields->_instance;
-      if (__this != (Weather_WeatherManager_o *)0x0) {
-        if (Il2CppMethodInitialized_184344946 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__55);
-          Il2CppMethodInitialized_184344946 = '\x01';
-        }
-        __this_00 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__55)
-        ;
-        Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8___ctor
-                  ((Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)__this_00,0,(MethodInfo *)0x0);
-        if (__this_00 != (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *)0x0) {
-          (__this_00->fields).__4__this = __this;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-          (__this_00->fields).currentWeatherJson = currentWeatherJson;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).currentWeatherJson,currentWeatherJson);
-          (__this_00->fields).startWeatherJson = startWeatherJson;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).startWeatherJson,startWeatherJson);
-          (__this_00->fields).targetWeatherJson = targetWeatherJson;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherJson,targetWeatherJson);
-          (__this_00->fields).targetWeatherStartTimes = targetWeatherStartTimes;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherStartTimes,targetWeatherStartTimes);
-          (__this_00->fields).targetWeatherEndTimes = targetWeatherEndTimes;
-          Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherEndTimes,targetWeatherEndTimes);
-          (__this_00->fields).currentTime = currentTime;
-          UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                    ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
-                     (MethodInfo *)0x0);
-          return;
-        }
-      }
+  else {
+    pPVar3 = Photon_Pun_PhotonNetwork__get_MasterClient((MethodInfo *)0x0);
+  }
+  if (info.fields.Sender != pPVar3) {
+    return;
+  }
+  pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
+  if ((pSVar1 != (Settings_GraphicsSettings_o *)0x0) &&
+     (pSVar2 = (pSVar1->fields).WeatherEffects, pSVar2 != (Settings_IntSetting_o *)0x0)) {
+    if ((pSVar2->fields)._value == 0) {
+      return;
     }
-    ThrowNullReferenceException();
+    if ((((Il2CppClass *)TypeInfo_Weather_WeatherManager)->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
+    }
+    __this = TypeInfo_Weather_WeatherManager->static_fields->_instance;
+    if (__this != (Weather_WeatherManager_o *)0x0) {
+      routine = Weather_WeatherManager__WaitAndFinishOnSetWeather
+                          (__this,currentWeatherJson,startWeatherJson,targetWeatherJson,
+                           targetWeatherStartTimes,targetWeatherEndTimes,currentTime,in_stack_ffffffffffffffb8
+                          );
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
+      return;
+    }
   }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherManager$$WaitAndFinishOnSetWeather
 // il2cpp: System_Collections_IEnumerator_o* Weather_WeatherManager__WaitAndFinishOnSetWeather (Weather_WeatherManager_o* __this, System_Byte_array* currentWeatherJson, System_Byte_array* startWeatherJson, System_Byte_array* targetWeatherJson, System_Collections_Generic_Dictionary_int__float__o* targetWeatherStartTimes, System_Collections_Generic_Dictionary_int__float__o* targetWeatherEndTimes, float currentTime, const MethodInfo* method);
-// 0x181db88f0
+// 0x585e630
 
 System_Collections_IEnumerator_o *
 Weather_WeatherManager__WaitAndFinishOnSetWeather
@@ -5043,40 +5615,39 @@ Weather_WeatherManager__WaitAndFinishOnSetWeather
           MethodInfo *method)
 
 {
-  Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *__this_00;
+  Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344946 == '\0') {
+  if (Il2CppMethodInitialized_075450a0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__55);
-    Il2CppMethodInitialized_184344946 = '\x01';
+              (&TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__61);
+    Il2CppMethodInitialized_075450a0 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__55);
-  Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55___ctor
-            ((Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)__this_00,0,(MethodInfo *)0x0);
-  if (__this_00 != (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__55_o *)0x0) {
-    (__this_00->fields).__4__this = __this;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-    (__this_00->fields).currentWeatherJson = currentWeatherJson;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).currentWeatherJson,currentWeatherJson);
-    (__this_00->fields).startWeatherJson = startWeatherJson;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).startWeatherJson,startWeatherJson);
-    (__this_00->fields).targetWeatherJson = targetWeatherJson;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherJson,targetWeatherJson);
-    (__this_00->fields).targetWeatherStartTimes = targetWeatherStartTimes;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherStartTimes,targetWeatherStartTimes);
-    (__this_00->fields).targetWeatherEndTimes = targetWeatherEndTimes;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherEndTimes,targetWeatherEndTimes);
-    (__this_00->fields).currentTime = currentTime;
-    return (System_Collections_IEnumerator_o *)__this_00;
+                        ((Il2CppClass *)TypeInfo_Weather_WeatherManager_WaitAndFinishOnSetWeather_d__61);
+  Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61___ctor(__this_00,0,(MethodInfo *)0x0);
+  if (__this_00 == (Weather_WeatherManager__WaitAndFinishOnSetWeather_d__61_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  (__this_00->fields).currentWeatherJson = currentWeatherJson;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).currentWeatherJson);
+  (__this_00->fields).startWeatherJson = startWeatherJson;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).startWeatherJson);
+  (__this_00->fields).targetWeatherJson = targetWeatherJson;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherJson);
+  (__this_00->fields).targetWeatherStartTimes = targetWeatherStartTimes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherStartTimes);
+  (__this_00->fields).targetWeatherEndTimes = targetWeatherEndTimes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).targetWeatherEndTimes);
+  (__this_00->fields).currentTime = currentTime;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Weather.WeatherManager$$IsWeatherEnabled
 // il2cpp: bool Weather_WeatherManager__IsWeatherEnabled (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db5a30
+// 0x585c510
 
 bool Weather_WeatherManager__IsWeatherEnabled(Weather_WeatherManager_o *__this,MethodInfo *method)
 
@@ -5084,37 +5655,38 @@ bool Weather_WeatherManager__IsWeatherEnabled(Weather_WeatherManager_o *__this,M
   Settings_GraphicsSettings_o *pSVar1;
   Settings_IntSetting_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184344947 == '\0') {
+  if (Il2CppMethodInitialized_075450a1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184344947 = '\x01';
+    Il2CppMethodInitialized_075450a1 = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
-  if ((pSVar1 != (Settings_GraphicsSettings_o *)0x0) &&
-     (pSVar2 = (pSVar1->fields).WeatherEffects, pSVar2 != (Settings_IntSetting_o *)0x0)) {
-    return (pSVar2->fields)._value != 0;
+  if ((pSVar1 == (Settings_GraphicsSettings_o *)0x0) ||
+     (pSVar2 = (pSVar1->fields).WeatherEffects, pSVar2 == (Settings_IntSetting_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pSVar2->fields)._value != 0;
 }
 
 
 // Weather.WeatherManager$$.ctor
 // il2cpp: void Weather_WeatherManager___ctor (Weather_WeatherManager_o* __this, const MethodInfo* method);
-// 0x181db8b40
+// 0x585e730
 
 void Weather_WeatherManager___ctor(Weather_WeatherManager_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_WeatherEffect__o *__this_00;
-  System_Collections_Generic_List_WeatherScheduleRunner__o *__this_01;
-  System_Collections_Generic_List_Camera__o *__this_02;
-  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *__this_03;
-  Settings_WeatherSet_o *pSVar1;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar2;
-  System_Collections_Generic_List_WeatherEffect__o *__this_04;
-  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *__this_05;
+  System_Collections_Generic_List_WeatherScheduleRunner__o *pSVar1;
+  System_Collections_Generic_List_Camera__o *__this_01;
+  System_Collections_Generic_Dictionary_WeatherEffect__BaseWeatherEffect__o *__this_02;
+  Settings_WeatherSet_o *pSVar2;
+  System_Collections_Generic_Dictionary_int__float__o *pSVar3;
+  System_Collections_Generic_List_T__o *__this_03;
+  System_Collections_Generic_Dictionary_WeatherScheduleRunner__float__o *__this_04;
+  System_Collections_Generic_List_int__o *__this_05;
   
-  if (Il2CppMethodInitialized_184344948 == '\0') {
+  if (Il2CppMethodInitialized_075450a2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -5131,135 +5703,145 @@ void Weather_WeatherManager___ctor(Weather_WeatherManager_o *__this,MethodInfo *
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_WeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Camera_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEffect_ctor)
     ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_WeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Camera);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_WeatherSet);
-    Il2CppMethodInitialized_184344948 = '\x01';
+    Il2CppMethodInitialized_075450a2 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_WeatherEffect);
   System_Collections_Generic_HashSet_Int32Enum____ctor
             ((System_Collections_Generic_HashSet_T__o *)__this_00,
-             (MethodInfo_176DB60 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_ctor);
-  if (__this_00 != (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0) {
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,1,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,4,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,7,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,5,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,3,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
-    (__this->fields).LowEffects = __this_00;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).LowEffects,__this_00);
-    __this_01 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor);
-    (__this->fields)._scheduleRunners = __this_01;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._scheduleRunners,__this_01);
-    __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Camera);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Camera_ctor);
-    (__this->fields)._skyboxCameras = __this_02;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._skyboxCameras,__this_02);
-    __this_03 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)
-                           TypeInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect);
-    System_Collections_Generic_Dictionary_Int32Enum__float____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-               (MethodInfo_14421B0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ctor);
-    (__this->fields)._effects = __this_03;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._effects,__this_03);
-    pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
-    Settings_WeatherSet___ctor(pSVar1,(MethodInfo *)0x0);
-    (__this->fields)._currentWeather = pSVar1;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._currentWeather,pSVar1);
-    pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
-    Settings_WeatherSet___ctor(pSVar1,(MethodInfo *)0x0);
-    (__this->fields)._targetWeather = pSVar1;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeather,pSVar1);
-    pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
-    Settings_WeatherSet___ctor(pSVar1,(MethodInfo *)0x0);
-    (__this->fields)._startWeather = pSVar1;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._startWeather,pSVar1);
-    pSVar2 = il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_float);
-    System_Collections_Generic_Dictionary_int__float____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-               (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_ctor);
-    (__this->fields)._targetWeatherStartTimes = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeatherStartTimes,pSVar2);
-    pSVar2 = il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_float);
-    System_Collections_Generic_Dictionary_int__float____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-               (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_ctor);
-    (__this->fields)._targetWeatherEndTimes = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeatherEndTimes,pSVar2);
-    __this_04 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherEffect);
-    System_Collections_Generic_LowLevelList___Il2CppFullySharedGenericType____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)__this_04,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_WeatherEffect_ctor);
-    (__this->fields)._needApply = __this_04;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._needApply,__this_04);
-    __this_05 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)
-                           TypeInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float);
-    System_Collections_Generic_Dictionary_object__float____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_05,
-               (MethodInfo_1454140 *)
-               MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_ctor);
-    (__this->fields)._currentScheduleWait = __this_05;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._currentScheduleWait,__this_05);
-    Photon_Pun_MonoBehaviourPunCallbacks___ctor((GetParentPosition_o *)__this,(MethodInfo *)0x0);
-    return;
+             (MethodInfo_4FAD1E0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_ctor);
+  if (__this_00 == (System_Collections_Generic_HashSet_WeatherEffect__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,1,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,4,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,7,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,5,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,6,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,3,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_WeatherEffect_Add);
+  (__this->fields).LowEffects = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).LowEffects);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)pSVar1,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor);
+  (__this->fields)._scheduleRunners = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._scheduleRunners);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Camera);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)__this_01,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Camera_ctor);
+  (__this->fields)._skyboxCameras = __this_01;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._skyboxCameras);
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect);
+  System_Collections_Generic_Dictionary_Int32Enum__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
+             (MethodInfo_4A543B0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_WeatherEffect_BaseWeatherEffect_ctor);
+  (__this->fields)._effects = __this_02;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._effects);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
+  Settings_WeatherSet___ctor(pSVar2,(MethodInfo *)0x0);
+  (__this->fields)._currentWeather = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._currentWeather);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
+  Settings_WeatherSet___ctor(pSVar2,(MethodInfo *)0x0);
+  (__this->fields)._targetWeather = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeather);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
+  Settings_WeatherSet___ctor(pSVar2,(MethodInfo *)0x0);
+  (__this->fields)._startWeather = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._startWeather);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_float);
+  System_Collections_Generic_Dictionary_int__float____ctor
+            (pSVar3,(MethodInfo_4A16850 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_ctor);
+  (__this->fields)._targetWeatherStartTimes = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeatherStartTimes);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_float);
+  System_Collections_Generic_Dictionary_int__float____ctor
+            (pSVar3,(MethodInfo_4A16850 *)MethodInfo_System_Collections_Generic_Dictionary_int_float_ctor);
+  (__this->fields)._targetWeatherEndTimes = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._targetWeatherEndTimes);
+  __this_03 = (System_Collections_Generic_List_T__o *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherEffect)
+  ;
+  System_Collections_Generic_List_Int32Enum____ctor
+            (__this_03,(MethodInfo_39192E0 *)MethodInfo_System_Collections_Generic_List_WeatherEffect_ctor);
+  (__this->fields)._needApply = (System_Collections_Generic_List_WeatherEffect__o *)__this_03;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._needApply);
+  __this_04 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float);
+  System_Collections_Generic_Dictionary_object__float____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_04,
+             (MethodInfo_4AB4860 *)
+             MethodInfo_System_Collections_Generic_Dictionary_WeatherScheduleRunner_float_ctor);
+  (__this->fields)._currentScheduleWait = __this_04;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._currentScheduleWait);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherScheduleRunner);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)pSVar1,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_WeatherScheduleRunner_ctor);
+  (__this->fields)._scheduleKeys = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._scheduleKeys);
+  __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+  System_Collections_Generic_List_int____ctor
+            (__this_05,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+  (__this->fields)._finishedLerps = __this_05;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._finishedLerps);
+  Photon_Pun_MonoBehaviourPunCallbacks___ctor
+            ((Photon_Pun_MonoBehaviourPunCallbacks_o *)__this,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Weather.WeatherManager$$.cctor
 // il2cpp: void Weather_WeatherManager___cctor (const MethodInfo* method);
-// 0x181db89d0
+// 0x585eb50
 
 void Weather_WeatherManager___cctor(MethodInfo *method)
 
 {
-  Settings_ColorSetting_o *pSVar1;
-  Utility_Color255_o *__this;
-  Weather_WeatherManager_StaticFields *pWVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  Settings_WeatherSet_o *__this_00;
-  UnityEngine_Color_o *pUVar6;
-  System_Collections_Generic_Dictionary_string__Material__o *__this_01;
-  System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *__this_02;
-  UnityEngine_Color_o local_18;
+  Weather_WeatherManager_StaticFields *pWVar1;
+  Il2CppType *handle;
+  System_Collections_Generic_Dictionary_string__Material__o *__this;
+  System_Collections_Generic_Dictionary_string__Dictionary_string__Material___o *__this_00;
+  System_Type_o *enumType;
+  System_String_array *pSVar2;
+  System_Collections_Generic_List_T__o *pSVar3;
   
-  if (Il2CppMethodInitialized_184344949 == '\0') {
+  if (Il2CppMethodInitialized_075450a3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -5268,45 +5850,51 @@ void Weather_WeatherManager___cctor(MethodInfo *method)
               (&TypeInfo_System_Collections_Generic_Dictionary_string_Material);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_EnumToList_WeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_Weather_WeatherEffect);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_WeatherSet);
-    Il2CppMethodInitialized_184344949 = '\x01';
+    Il2CppMethodInitialized_075450a3 = '\x01';
   }
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_WeatherSet);
-  Settings_WeatherSet___ctor(__this_00,(MethodInfo *)0x0);
-  if (((__this_00 != (Settings_WeatherSet_o *)0x0) &&
-      (pSVar1 = (__this_00->fields).SkyboxColor, pSVar1 != (Settings_ColorSetting_o *)0x0)) &&
-     (__this = (pSVar1->fields)._value, __this != (Utility_Color255_o *)0x0)) {
-    pUVar6 = Utility_Color255__ToColor(&local_18,__this,(MethodInfo *)0x0);
-    fVar3 = (pUVar6->fields).g;
-    fVar4 = (pUVar6->fields).b;
-    fVar5 = (pUVar6->fields).a;
-    pWVar2 = TypeInfo_Weather_WeatherManager->static_fields;
-    (pWVar2->DefaultSkyboxTint).fields.r = (pUVar6->fields).r;
-    (pWVar2->DefaultSkyboxTint).fields.g = fVar3;
-    (pWVar2->DefaultSkyboxTint).fields.b = fVar4;
-    (pWVar2->DefaultSkyboxTint).fields.a = fVar5;
-    __this_01 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Material);
-    System_Collections_Generic_Dictionary_object__object____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-               (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
-    TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials = __this_01;
-    Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherManager->static_fields->SkyboxMaterials,__this_01);
-    __this_02 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)
-                           TypeInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material);
-    System_Collections_Generic_Dictionary_object__object____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-               (MethodInfo_1454140 *)
-               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_ctor);
-    TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials = __this_02;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_Weather_WeatherManager->static_fields->SkyboxBlendedMaterials,__this_02);
-    return;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Material);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+             (MethodInfo_4AAC8D0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
+  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+  pWVar1->SkyboxMaterials = __this;
+  Il2CppCodeGenWriteBarrier(&pWVar1->SkyboxMaterials);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
+             (MethodInfo_4AAC8D0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_string_Material_ctor);
+  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+  pWVar1->SkyboxBlendedMaterials = __this_00;
+  Il2CppCodeGenWriteBarrier(&pWVar1->SkyboxBlendedMaterials);
+  handle = TypeRef_Weather_WeatherEffect;
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
-  ThrowNullReferenceException();
+  enumType = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if ((g_data_07556760->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_07556760);
+  }
+  pSVar2 = System_Enum__GetNames(enumType,(MethodInfo *)0x0);
+  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+  pWVar1->EffectNames = pSVar2;
+  Il2CppCodeGenWriteBarrier(&pWVar1->EffectNames);
+  if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+  }
+  pSVar3 = Utility_Util__EnumToList_Int32Enum_
+                     ((MethodInfo_377C780 *)MethodInfo_Utility_Util_EnumToList_WeatherEffect);
+  pWVar1 = TypeInfo_Weather_WeatherManager->static_fields;
+  pWVar1->AllEffects = (System_Collections_Generic_List_WeatherEffect__o *)pSVar3;
+  Il2CppCodeGenWriteBarrier(&pWVar1->AllEffects);
+  return;
 }
 
 

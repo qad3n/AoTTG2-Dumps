@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncParticleCollisionTrigger : AsyncTriggerBase<GameObject>
 {
 	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x29340F0", Offset = "0x29326F0", VA = "0x1829340F0")]
+	[Address(RVA = "0x62FD940", Offset = "0x62FC940", VA = "0x62FD940")]
 	private void OnParticleCollision(GameObject other)
 	{
 	}
 
 	[Token(Token = "0x6000B6F")]
-	[Address(RVA = "0x2933DD0", Offset = "0x29323D0", VA = "0x182933DD0")]
+	[Address(RVA = "0x62FD990", Offset = "0x62FC990", VA = "0x62FD990")]
 	public IAsyncOnParticleCollisionHandler GetOnParticleCollisionAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B70")]
-	[Address(RVA = "0x2933E40", Offset = "0x2932440", VA = "0x182933E40")]
+	[Address(RVA = "0x62FDA00", Offset = "0x62FCA00", VA = "0x62FDA00")]
 	public IAsyncOnParticleCollisionHandler GetOnParticleCollisionAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B71")]
-	[Address(RVA = "0x2933EC0", Offset = "0x29324C0", VA = "0x182933EC0")]
+	[Address(RVA = "0x62FDA70", Offset = "0x62FCA70", VA = "0x62FDA70")]
 	public UniTask<GameObject> OnParticleCollisionAsync()
 	{
 		return default(UniTask<GameObject>);
 	}
 
 	[Token(Token = "0x6000B72")]
-	[Address(RVA = "0x2933FE0", Offset = "0x29325E0", VA = "0x182933FE0")]
+	[Address(RVA = "0x62FDB70", Offset = "0x62FCB70", VA = "0x62FDB70")]
 	public UniTask<GameObject> OnParticleCollisionAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<GameObject>);
 	}
 
 	[Token(Token = "0x6000B73")]
-	[Address(RVA = "0x2934140", Offset = "0x2932740", VA = "0x182934140")]
+	[Address(RVA = "0x62FDC80", Offset = "0x62FCC80", VA = "0x62FDC80")]
 	public AsyncParticleCollisionTrigger()
 	{
 	}

@@ -12,12 +12,12 @@ using UnityEngine.Scripting;
 namespace Unity.Collections.LowLevel.Unsafe;
 
 [Token(Token = "0x200006B")]
-[AttributeUsage(AttributeTargets.Struct)]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Struct)]
 public sealed class NativeContainerIsReadOnlyAttribute : Attribute
 {
-	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x68B7CC0", Offset = "0x68B6CC0", VA = "0x68B7CC0")]
 	public NativeContainerIsReadOnlyAttribute()
 	{
 	}

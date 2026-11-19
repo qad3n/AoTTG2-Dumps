@@ -65,13 +65,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Mode mode
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6CE8920", Offset = "0x6CE7920", VA = "0x6CE8920")]
 		get
 		{
 			return default(Mode);
 		}
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x6CE8930", Offset = "0x6CE7930", VA = "0x6CE8930")]
 		set
 		{
 		}
@@ -81,13 +81,13 @@ public struct Navigation : IEquatable<Navigation>
 	public bool wrapAround
 	{
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x180D610", Offset = "0x180BC10", VA = "0x18180D610")]
+		[Address(RVA = "0x6CE8940", Offset = "0x6CE7940", VA = "0x6CE8940")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x2F73AD0", Offset = "0x2F720D0", VA = "0x182F73AD0")]
+		[Address(RVA = "0x6CE8950", Offset = "0x6CE7950", VA = "0x6CE8950")]
 		set
 		{
 		}
@@ -97,13 +97,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnUp
 	{
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6CE8960", Offset = "0x6CE7960", VA = "0x6CE8960")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000376")]
-		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
+		[Address(RVA = "0x6CE8970", Offset = "0x6CE7970", VA = "0x6CE8970")]
 		set
 		{
 		}
@@ -113,13 +113,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnDown
 	{
 		[Token(Token = "0x6000377")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6CE8980", Offset = "0x6CE7980", VA = "0x6CE8980")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6CE8990", Offset = "0x6CE7990", VA = "0x6CE8990")]
 		set
 		{
 		}
@@ -129,13 +129,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnLeft
 	{
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6CE89A0", Offset = "0x6CE79A0", VA = "0x6CE89A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6CE89B0", Offset = "0x6CE79B0", VA = "0x6CE89B0")]
 		set
 		{
 		}
@@ -145,13 +145,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnRight
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6CE89C0", Offset = "0x6CE79C0", VA = "0x6CE89C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6CE89D0", Offset = "0x6CE79D0", VA = "0x6CE89D0")]
 		set
 		{
 		}
@@ -161,7 +161,7 @@ public struct Navigation : IEquatable<Navigation>
 	public static Navigation defaultNavigation
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x32DAAC0", Offset = "0x32D90C0", VA = "0x1832DAAC0")]
+		[Address(RVA = "0x6CE89E0", Offset = "0x6CE79E0", VA = "0x6CE89E0")]
 		get
 		{
 			return default(Navigation);
@@ -169,7 +169,7 @@ public struct Navigation : IEquatable<Navigation>
 	}
 
 	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x32DA9B0", Offset = "0x32D8FB0", VA = "0x1832DA9B0", Slot = "4")]
+	[Address(RVA = "0x6CE8A00", Offset = "0x6CE7A00", VA = "0x6CE8A00", Slot = "4")]
 	public bool Equals(Navigation other)
 	{
 		return default(bool);

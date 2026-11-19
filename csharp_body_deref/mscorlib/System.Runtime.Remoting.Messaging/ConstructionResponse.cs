@@ -14,36 +14,36 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x20003D6")]
-[ComVisible(true)]
+[Token(Token = "0x20003AF")]
 [CLSCompliant(false)]
+[ComVisible(true)]
 public class ConstructionResponse : MethodResponse, IConstructionReturnMessage, IMethodReturnMessage, IMethodMessage, IMessage
 {
-	[Token(Token = "0x170003B4")]
+	[Token(Token = "0x170003B3")]
 	public override IDictionary Properties
 	{
-		[Token(Token = "0x6001EC7")]
-		[Address(RVA = "0x19F5AA0", Offset = "0x19F40A0", VA = "0x1819F5AA0", Slot = "22")]
+		[Token(Token = "0x6001E9D")]
+		[Address(RVA = "0x5394990", Offset = "0x5393990", VA = "0x5394990", Slot = "22")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001EC4")]
-	[Address(RVA = "0x19F5950", Offset = "0x19F3F50", VA = "0x1819F5950")]
+	[Token(Token = "0x6001E9A")]
+	[Address(RVA = "0x537EDA0", Offset = "0x537DDA0", VA = "0x537EDA0")]
 	internal ConstructionResponse(object resultObject, LogicalCallContext callCtx, IMethodCallMessage msg)
 	{
 	}
 
-	[Token(Token = "0x6001EC5")]
-	[Address(RVA = "0x19F5A10", Offset = "0x19F4010", VA = "0x1819F5A10")]
+	[Token(Token = "0x6001E9B")]
+	[Address(RVA = "0x538B2A0", Offset = "0x538A2A0", VA = "0x538B2A0")]
 	internal ConstructionResponse(Exception e, IMethodCallMessage msg)
 	{
 	}
 
-	[Token(Token = "0x6001EC6")]
-	[Address(RVA = "0x19F5A20", Offset = "0x19F4020", VA = "0x1819F5A20")]
+	[Token(Token = "0x6001E9C")]
+	[Address(RVA = "0x53948F0", Offset = "0x53938F0", VA = "0x53948F0")]
 	internal ConstructionResponse(SerializationInfo info, StreamingContext context)
 	{
 	}

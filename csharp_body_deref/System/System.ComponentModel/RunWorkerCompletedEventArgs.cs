@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000212")]
+[Token(Token = "0x20001D3")]
 public class RunWorkerCompletedEventArgs : AsyncCompletedEventArgs
 {
-	[Token(Token = "0x40007CF")]
+	[Token(Token = "0x4000700")]
 	[FieldOffset(Offset = "0x28")]
 	private object result;
 
-	[Token(Token = "0x170002ED")]
+	[Token(Token = "0x170002BE")]
 	public object Result
 	{
-		[Token(Token = "0x6000E2D")]
-		[Address(RVA = "0x28DB220", Offset = "0x28D9820", VA = "0x1828DB220")]
+		[Token(Token = "0x6000C6D")]
+		[Address(RVA = "0x62646D0", Offset = "0x62636D0", VA = "0x62646D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002EE")]
+	[Token(Token = "0x170002BF")]
 	[Browsable(false)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public new object UserState
 	{
-		[Token(Token = "0x6000E2E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000C6E")]
+		[Address(RVA = "0x62646F0", Offset = "0x62636F0", VA = "0x62646F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x28DB1D0", Offset = "0x28D97D0", VA = "0x1828DB1D0")]
+	[Token(Token = "0x6000C6C")]
+	[Address(RVA = "0x6264690", Offset = "0x6263690", VA = "0x6264690")]
 	public RunWorkerCompletedEventArgs(object result, Exception error, bool cancelled)
 	{
 	}

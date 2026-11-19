@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000C4")]
+[Token(Token = "0x200009B")]
 [AttributeUsage(AttributeTargets.All, Inherited = true, AllowMultiple = false)]
 public sealed class CLSCompliantAttribute : Attribute
 {
-	[Token(Token = "0x40002AD")]
+	[Token(Token = "0x4000204")]
 	[FieldOffset(Offset = "0x10")]
 	private bool _compliant;
 
 	[Token(Token = "0x17000064")]
 	public bool IsCompliant
 	{
-		[Token(Token = "0x60004B3")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x6000488")]
+		[Address(RVA = "0x541E1E0", Offset = "0x541D1E0", VA = "0x541E1E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60004B2")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x541E1C0", Offset = "0x541D1C0", VA = "0x541E1C0")]
 	public CLSCompliantAttribute(bool isCompliant)
 	{
 	}

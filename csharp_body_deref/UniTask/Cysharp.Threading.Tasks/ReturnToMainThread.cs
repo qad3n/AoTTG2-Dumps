@@ -30,7 +30,7 @@ public struct ReturnToMainThread
 		public bool IsCompleted
 		{
 			[Token(Token = "0x6000673")]
-			[Address(RVA = "0x29095B0", Offset = "0x2907BB0", VA = "0x1829095B0")]
+			[Address(RVA = "0x62D8ED0", Offset = "0x62D7ED0", VA = "0x62D8ED0")]
 			get
 			{
 				return default(bool);
@@ -38,32 +38,32 @@ public struct ReturnToMainThread
 		}
 
 		[Token(Token = "0x6000671")]
-		[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
+		[Address(RVA = "0x62D8EA0", Offset = "0x62D7EA0", VA = "0x62D8EA0")]
 		public Awaiter(PlayerLoopTiming timing, CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x6000672")]
-		[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
+		[Address(RVA = "0x62D8EC0", Offset = "0x62D7EC0", VA = "0x62D8EC0")]
 		public Awaiter GetAwaiter()
 		{
 			return default(Awaiter);
 		}
 
 		[Token(Token = "0x6000674")]
-		[Address(RVA = "0x2908530", Offset = "0x2906B30", VA = "0x182908530")]
+		[Address(RVA = "0x62D8F90", Offset = "0x62D7F90", VA = "0x62D8F90")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x6000675")]
-		[Address(RVA = "0x2908810", Offset = "0x2906E10", VA = "0x182908810", Slot = "5")]
+		[Address(RVA = "0x62D8FE0", Offset = "0x62D7FE0", VA = "0x62D8FE0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000676")]
-		[Address(RVA = "0x2908F00", Offset = "0x2907500", VA = "0x182908F00", Slot = "4")]
+		[Address(RVA = "0x62D9030", Offset = "0x62D8030", VA = "0x62D9030", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
@@ -78,13 +78,13 @@ public struct ReturnToMainThread
 	private readonly CancellationToken cancellationToken;
 
 	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
+	[Address(RVA = "0x62CDD90", Offset = "0x62CCD90", VA = "0x62CDD90")]
 	public ReturnToMainThread(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x2911D30", Offset = "0x2910330", VA = "0x182911D30")]
+	[Address(RVA = "0x62D8E60", Offset = "0x62D7E60", VA = "0x62D8E60")]
 	public Awaiter DisposeAsync()
 	{
 		return default(Awaiter);

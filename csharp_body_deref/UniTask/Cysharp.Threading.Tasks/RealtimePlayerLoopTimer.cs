@@ -24,20 +24,20 @@ internal sealed class RealtimePlayerLoopTimer : PlayerLoopTimer
 	private long intervalTicks;
 
 	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x2911C60", Offset = "0x2910260", VA = "0x182911C60")]
+	[Address(RVA = "0x62C8B20", Offset = "0x62C7B20", VA = "0x62C8B20")]
 	public RealtimePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x2911B50", Offset = "0x2910150", VA = "0x182911B50", Slot = "7")]
+	[Address(RVA = "0x62C9310", Offset = "0x62C8310", VA = "0x62C9310", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x2911BB0", Offset = "0x29101B0", VA = "0x182911BB0", Slot = "6")]
+	[Address(RVA = "0x62C9360", Offset = "0x62C8360", VA = "0x62C9360", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

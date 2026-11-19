@@ -11,136 +11,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004E6")]
+[Token(Token = "0x2000545")]
 [CompilerGenerated]
 internal class CustomLogicLineAlignmentEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20004E7")]
+	[Token(Token = "0x2000546")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002B06")]
-		[Address(RVA = "0x1FEFDC0", Offset = "0x1FEE3C0", VA = "0x181FEFDC0")]
+		[Token(Token = "0x6002D92")]
+		[Address(RVA = "0x5994630", Offset = "0x5993630", VA = "0x5994630")]
 		public static CustomLogicLineAlignmentEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20004E8")]
+	[Token(Token = "0x2000547")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016CA")]
+		[Token(Token = "0x400186A")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002B07")]
-		[Address(RVA = "0x1FD9B60", Offset = "0x1FD8160", VA = "0x181FD9B60")]
+		[Token(Token = "0x6002D93")]
+		[Address(RVA = "0x5994750", Offset = "0x5993750", VA = "0x5994750")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B08")]
-		[Address(RVA = "0x1FE9100", Offset = "0x1FE7700", VA = "0x181FE9100")]
+		[Token(Token = "0x6002D94")]
+		[Address(RVA = "0x59948E0", Offset = "0x59938E0", VA = "0x59948E0")]
 		public static CLPropertyBinding<CustomLogicLineAlignmentEnum> __CreatePropertyBinding__View()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B09")]
-		[Address(RVA = "0x1FE5500", Offset = "0x1FE3B00", VA = "0x181FE5500")]
+		[Token(Token = "0x6002D95")]
+		[Address(RVA = "0x5994980", Offset = "0x5993980", VA = "0x5994980")]
 		public static CLPropertyBinding<CustomLogicLineAlignmentEnum> __CreatePropertyBinding__Local()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B0A")]
-		[Address(RVA = "0x1FE8CA0", Offset = "0x1FE72A0", VA = "0x181FE8CA0")]
+		[Token(Token = "0x6002D96")]
+		[Address(RVA = "0x5994A20", Offset = "0x5993A20", VA = "0x5994A20")]
 		public static CLPropertyBinding<CustomLogicLineAlignmentEnum> __CreatePropertyBinding__TransformZ()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006FD")]
+	[Token(Token = "0x17000745")]
 	public static int View
 	{
-		[Token(Token = "0x6002AFF")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x6002D8B")]
+		[Address(RVA = "0x59945A0", Offset = "0x59935A0", VA = "0x59945A0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006FE")]
+	[Token(Token = "0x17000746")]
 	public static int Local
 	{
-		[Token(Token = "0x6002B00")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6002D8C")]
+		[Address(RVA = "0x59945B0", Offset = "0x59935B0", VA = "0x59945B0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006FF")]
+	[Token(Token = "0x17000747")]
 	public static int TransformZ
 	{
-		[Token(Token = "0x6002B01")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6002D8D")]
+		[Address(RVA = "0x59945C0", Offset = "0x59935C0", VA = "0x59945C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000700")]
+	[Token(Token = "0x17000748")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002B02")]
-		[Address(RVA = "0x1FEE0A0", Offset = "0x1FEC6A0", VA = "0x181FEE0A0", Slot = "6")]
+		[Token(Token = "0x6002D8E")]
+		[Address(RVA = "0x59945D0", Offset = "0x59935D0", VA = "0x59945D0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000701")]
+	[Token(Token = "0x17000749")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002B03")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002D8F")]
+		[Address(RVA = "0x5994600", Offset = "0x5993600", VA = "0x5994600", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000702")]
+	[Token(Token = "0x1700074A")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002B04")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6002D90")]
+		[Address(RVA = "0x5994610", Offset = "0x5993610", VA = "0x5994610", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000703")]
+	[Token(Token = "0x1700074B")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002B05")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002D91")]
+		[Address(RVA = "0x5994620", Offset = "0x5993620", VA = "0x5994620", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002AFE")]
-	[Address(RVA = "0x1FEE050", Offset = "0x1FEC650", VA = "0x181FEE050")]
+	[Token(Token = "0x6002D8A")]
+	[Address(RVA = "0x5994530", Offset = "0x5993530", VA = "0x5994530")]
 	public CustomLogicLineAlignmentEnum()
 	{
 	}

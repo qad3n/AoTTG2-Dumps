@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.CSSSpec
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,21 +20,21 @@ internal static class CSSSpec
 	private static readonly Regex rgx;
 
 	[Token(Token = "0x6002D3A")]
-	[Address(RVA = "0x31EB890", Offset = "0x31E9E90", VA = "0x1831EB890")]
+	[Address(RVA = "0x6BEE720", Offset = "0x6BED720", VA = "0x6BEE720")]
 	public static int GetSelectorSpecificity(string selector)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002D3B")]
-	[Address(RVA = "0x31EB9E0", Offset = "0x31E9FE0", VA = "0x1831EB9E0")]
+	[Address(RVA = "0x6BEED70", Offset = "0x6BEDD70", VA = "0x6BEED70")]
 	public static int GetSelectorSpecificity(StyleSelectorPart[] parts)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002D3C")]
-	[Address(RVA = "0x31EBAC0", Offset = "0x31EA0C0", VA = "0x1831EBAC0")]
+	[Address(RVA = "0x6BEE7A0", Offset = "0x6BED7A0", VA = "0x6BEE7A0")]
 	public static bool ParseSelector(string selector, out StyleSelectorPart[] parts)
 	{
 		return default(bool);

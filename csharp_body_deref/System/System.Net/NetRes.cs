@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E8")]
+[Token(Token = "0x20002A9")]
 internal class NetRes
 {
-	[Token(Token = "0x6001445")]
-	[Address(RVA = "0x27D0610", Offset = "0x27CEC10", VA = "0x1827D0610")]
+	[Token(Token = "0x6001287")]
+	[Address(RVA = "0x62A67A0", Offset = "0x62A57A0", VA = "0x62A67A0")]
 	public static string GetWebStatusString(string Res, WebExceptionStatus Status)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001446")]
-	[Address(RVA = "0x27D05B0", Offset = "0x27CEBB0", VA = "0x1827D05B0")]
+	[Token(Token = "0x6001288")]
+	[Address(RVA = "0x62B00E0", Offset = "0x62AF0E0", VA = "0x62B00E0")]
 	public static string GetWebStatusString(WebExceptionStatus Status)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001447")]
-	[Address(RVA = "0x27D0460", Offset = "0x27CEA60", VA = "0x1827D0460")]
+	[Token(Token = "0x6001289")]
+	[Address(RVA = "0x62B0130", Offset = "0x62AF130", VA = "0x62B0130")]
 	public static string GetWebStatusCodeString(FtpStatusCode statusCode, string statusDescription)
 	{
 		return null;

@@ -13,151 +13,145 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200011A")]
+[Token(Token = "0x200011B")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Mesh/SkinnedMeshRenderer.h")]
 public class SkinnedMeshRenderer : Renderer
 {
-	[Token(Token = "0x1700014A")]
+	[Token(Token = "0x17000150")]
 	public SkinQuality quality
 	{
-		[Token(Token = "0x6000726")]
-		[Address(RVA = "0x2EF8320", Offset = "0x2EF6920", VA = "0x182EF8320")]
+		[Token(Token = "0x6000736")]
+		[Address(RVA = "0x68E4820", Offset = "0x68E3820", VA = "0x68E4820")]
 		get
 		{
 			return default(SkinQuality);
 		}
-		[Token(Token = "0x6000727")]
-		[Address(RVA = "0x2EF8680", Offset = "0x2EF6C80", VA = "0x182EF8680")]
+		[Token(Token = "0x6000737")]
+		[Address(RVA = "0x68E48D0", Offset = "0x68E38D0", VA = "0x68E48D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014B")]
+	[Token(Token = "0x17000151")]
 	public bool updateWhenOffscreen
 	{
-		[Token(Token = "0x6000728")]
-		[Address(RVA = "0x2EF8980", Offset = "0x2EF6F80", VA = "0x182EF8980")]
+		[Token(Token = "0x6000738")]
+		[Address(RVA = "0x68E4990", Offset = "0x68E3990", VA = "0x68E4990")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014C")]
+	[Token(Token = "0x17000152")]
 	public Transform rootBone
 	{
-		[Token(Token = "0x6000729")]
-		[Address(RVA = "0x2EF83E0", Offset = "0x2EF69E0", VA = "0x182EF83E0")]
+		[Token(Token = "0x6000739")]
+		[Address(RVA = "0x68E4A50", Offset = "0x68E3A50", VA = "0x68E4A50")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600072A")]
-		[Address(RVA = "0x2EF8760", Offset = "0x2EF6D60", VA = "0x182EF8760")]
+		[Token(Token = "0x600073A")]
+		[Address(RVA = "0x68E4B20", Offset = "0x68E3B20", VA = "0x68E4B20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014D")]
+	[Token(Token = "0x17000153")]
 	public Transform[] bones
 	{
-		[Token(Token = "0x600072B")]
-		[Address(RVA = "0x2EF8260", Offset = "0x2EF6860", VA = "0x182EF8260")]
+		[Token(Token = "0x600073B")]
+		[Address(RVA = "0x68E4C30", Offset = "0x68E3C30", VA = "0x68E4C30")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600072C")]
-		[Address(RVA = "0x2EF85B0", Offset = "0x2EF6BB0", VA = "0x182EF85B0")]
+		[Token(Token = "0x600073C")]
+		[Address(RVA = "0x68E4CE0", Offset = "0x68E3CE0", VA = "0x68E4CE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014E")]
+	[Token(Token = "0x17000154")]
 	[UnityEngine.Bindings.NativeProperty("Mesh")]
 	public Mesh sharedMesh
 	{
-		[Token(Token = "0x600072D")]
-		[Address(RVA = "0x2EF84C0", Offset = "0x2EF6AC0", VA = "0x182EF84C0")]
+		[Token(Token = "0x600073D")]
+		[Address(RVA = "0x68E4DA0", Offset = "0x68E3DA0", VA = "0x68E4DA0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600072E")]
-		[Address(RVA = "0x2EF8870", Offset = "0x2EF6E70", VA = "0x182EF8870")]
+		[Token(Token = "0x600073E")]
+		[Address(RVA = "0x68E4E70", Offset = "0x68E3E70", VA = "0x68E4E70")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x2EF8050", Offset = "0x2EF6650", VA = "0x182EF8050")]
-	public void BakeMesh(Mesh mesh)
-	{
-	}
-
-	[Token(Token = "0x6000730")]
-	[Address(RVA = "0x2EF8130", Offset = "0x2EF6730", VA = "0x182EF8130")]
+	[Token(Token = "0x600073F")]
+	[Address(RVA = "0x68E4F80", Offset = "0x68E3F80", VA = "0x68E4F80")]
 	public void BakeMesh([UnityEngine.Bindings.NotNull] Mesh mesh, bool useScale)
 	{
 	}
 
-	[Token(Token = "0x6000731")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000740")]
+	[Address(RVA = "0x68E50B0", Offset = "0x68E40B0", VA = "0x68E50B0")]
 	public SkinnedMeshRenderer()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x2EF82E0", Offset = "0x2EF68E0", VA = "0x182EF82E0")]
+	[Token(Token = "0x6000741")]
+	[Address(RVA = "0x68E48A0", Offset = "0x68E38A0", VA = "0x68E48A0")]
 	private static extern SkinQuality get_quality_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x2EF8640", Offset = "0x2EF6C40", VA = "0x182EF8640")]
+	[Token(Token = "0x6000742")]
+	[Address(RVA = "0x68E4950", Offset = "0x68E3950", VA = "0x68E4950")]
 	private static extern void set_quality_Injected(IntPtr _unity_self, SkinQuality value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000734")]
-	[Address(RVA = "0x2EF8930", Offset = "0x2EF6F30", VA = "0x182EF8930")]
+	[Token(Token = "0x6000743")]
+	[Address(RVA = "0x68E4A10", Offset = "0x68E3A10", VA = "0x68E4A10")]
 	private static extern void set_updateWhenOffscreen_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x2EF83A0", Offset = "0x2EF69A0", VA = "0x182EF83A0")]
+	[Token(Token = "0x6000744")]
+	[Address(RVA = "0x68E4AF0", Offset = "0x68E3AF0", VA = "0x68E4AF0")]
 	private static extern IntPtr get_rootBone_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x2EF8710", Offset = "0x2EF6D10", VA = "0x182EF8710")]
+	[Token(Token = "0x6000745")]
+	[Address(RVA = "0x68E4BF0", Offset = "0x68E3BF0", VA = "0x68E4BF0")]
 	private static extern void set_rootBone_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x2EF8220", Offset = "0x2EF6820", VA = "0x182EF8220")]
+	[Token(Token = "0x6000746")]
+	[Address(RVA = "0x68E4CB0", Offset = "0x68E3CB0", VA = "0x68E4CB0")]
 	private static extern Transform[] get_bones_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x2EF8560", Offset = "0x2EF6B60", VA = "0x182EF8560")]
+	[Token(Token = "0x6000747")]
+	[Address(RVA = "0x68E4D60", Offset = "0x68E3D60", VA = "0x68E4D60")]
 	private static extern void set_bones_Injected(IntPtr _unity_self, Transform[] value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x2EF8480", Offset = "0x2EF6A80", VA = "0x182EF8480")]
+	[Token(Token = "0x6000748")]
+	[Address(RVA = "0x68E4E40", Offset = "0x68E3E40", VA = "0x68E4E40")]
 	private static extern IntPtr get_sharedMesh_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x2EF8820", Offset = "0x2EF6E20", VA = "0x182EF8820")]
+	[Token(Token = "0x6000749")]
+	[Address(RVA = "0x68E4F40", Offset = "0x68E3F40", VA = "0x68E4F40")]
 	private static extern void set_sharedMesh_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x2EF7FF0", Offset = "0x2EF65F0", VA = "0x182EF7FF0")]
+	[Token(Token = "0x600074A")]
+	[Address(RVA = "0x68E5070", Offset = "0x68E4070", VA = "0x68E5070")]
 	private static extern void BakeMesh_Injected(IntPtr _unity_self, IntPtr mesh, bool useScale);
 }

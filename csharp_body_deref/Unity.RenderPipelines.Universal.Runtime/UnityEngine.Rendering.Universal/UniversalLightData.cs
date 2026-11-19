@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalLightData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -58,13 +58,13 @@ public class UniversalLightData : ContextItem
 	public bool supportsAdditionalLights;
 
 	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x2C41AB0", Offset = "0x2C400B0", VA = "0x182C41AB0", Slot = "4")]
+	[Address(RVA = "0x6641B40", Offset = "0x6640B40", VA = "0x6641B40", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6641B70", Offset = "0x6640B70", VA = "0x6641B70")]
 	public UniversalLightData()
 	{
 	}

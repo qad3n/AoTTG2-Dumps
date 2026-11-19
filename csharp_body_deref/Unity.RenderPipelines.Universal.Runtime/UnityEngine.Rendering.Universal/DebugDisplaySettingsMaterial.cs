@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugDisplaySettingsMaterial
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -141,98 +141,98 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	internal static class WidgetFactory
 	{
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x2C14CA0", Offset = "0x2C132A0", VA = "0x182C14CA0")]
+		[Address(RVA = "0x65FCDD0", Offset = "0x65FBDD0", VA = "0x65FCDD0")]
 		internal static DebugUI.Widget CreateMaterialOverride(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x2C18C50", Offset = "0x2C17250", VA = "0x182C18C50")]
+		[Address(RVA = "0x65FD060", Offset = "0x65FC060", VA = "0x65FD060")]
 		internal static DebugUI.Widget CreateVertexAttribute(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x2C14F20", Offset = "0x2C13520", VA = "0x182C14F20")]
+		[Address(RVA = "0x65FD2F0", Offset = "0x65FC2F0", VA = "0x65FD2F0")]
 		internal static DebugUI.Widget CreateMaterialValidationMode(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x2C18210", Offset = "0x2C16810", VA = "0x182C18210")]
+		[Address(RVA = "0x65FD650", Offset = "0x65FC650", VA = "0x65FD650")]
 		internal static DebugUI.Widget CreateRenderingLayersSelectedLight(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x2C183C0", Offset = "0x2C169C0", VA = "0x182C183C0")]
+		[Address(RVA = "0x65FD800", Offset = "0x65FC800", VA = "0x65FD800")]
 		internal static DebugUI.Widget CreateSelectedLightShadowLayerMask(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x2C139A0", Offset = "0x2C11FA0", VA = "0x182C139A0")]
+		[Address(RVA = "0x65FDA00", Offset = "0x65FCA00", VA = "0x65FDA00")]
 		internal static DebugUI.RenderingLayerField CreateFilterRenderingLayerMasks(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x2C13460", Offset = "0x2C11A60", VA = "0x182C13460")]
+		[Address(RVA = "0x65FDCB0", Offset = "0x65FCCB0", VA = "0x65FDCB0")]
 		internal static DebugUI.Widget CreateAlbedoPreset(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x2C12D00", Offset = "0x2C11300", VA = "0x182C12D00")]
+		[Address(RVA = "0x65FE010", Offset = "0x65FD010", VA = "0x65FE010")]
 		internal static DebugUI.Widget CreateAlbedoCustomColor(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013D")]
-		[Address(RVA = "0x2C132B0", Offset = "0x2C118B0", VA = "0x182C132B0")]
+		[Address(RVA = "0x65FE210", Offset = "0x65FD210", VA = "0x65FE210")]
 		internal static DebugUI.Widget CreateAlbedoMinLuminance(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x2C13100", Offset = "0x2C11700", VA = "0x182C13100")]
+		[Address(RVA = "0x65FE3D0", Offset = "0x65FD3D0", VA = "0x65FE3D0")]
 		internal static DebugUI.Widget CreateAlbedoMaxLuminance(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x2C12F00", Offset = "0x2C11500", VA = "0x182C12F00")]
+		[Address(RVA = "0x65FE590", Offset = "0x65FD590", VA = "0x65FE590")]
 		internal static DebugUI.Widget CreateAlbedoHueTolerance(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x2C137A0", Offset = "0x2C11DA0", VA = "0x182C137A0")]
+		[Address(RVA = "0x65FE7A0", Offset = "0x65FD7A0", VA = "0x65FE7A0")]
 		internal static DebugUI.Widget CreateAlbedoSaturationTolerance(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x2C157F0", Offset = "0x2C13DF0", VA = "0x182C157F0")]
+		[Address(RVA = "0x65FE9B0", Offset = "0x65FD9B0", VA = "0x65FE9B0")]
 		internal static DebugUI.Widget CreateMetallicMinValue(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x2C15640", Offset = "0x2C13C40", VA = "0x182C15640")]
+		[Address(RVA = "0x65FEB70", Offset = "0x65FDB70", VA = "0x65FEB70")]
 		internal static DebugUI.Widget CreateMetallicMaxValue(SettingsPanel panel)
 		{
 			return null;
@@ -244,7 +244,7 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	internal class SettingsPanel : DebugDisplaySettingsPanel<DebugDisplaySettingsMaterial>
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x2C09390", Offset = "0x2C07990", VA = "0x182C09390")]
+		[Address(RVA = "0x65FB570", Offset = "0x65FA570", VA = "0x65FB570")]
 		public SettingsPanel(DebugDisplaySettingsMaterial data)
 		{
 		}
@@ -274,13 +274,13 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public AlbedoDebugValidationPreset albedoValidationPreset
 	{
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x65FB2A0", Offset = "0x65FA2A0", VA = "0x65FB2A0")]
 		get
 		{
 			return default(AlbedoDebugValidationPreset);
 		}
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x2C00790", Offset = "0x2BFED90", VA = "0x182C00790")]
+		[Address(RVA = "0x65FB2B0", Offset = "0x65FA2B0", VA = "0x65FB2B0")]
 		set
 		{
 		}
@@ -290,14 +290,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float albedoMinLuminance
 	{
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0xE8F460", Offset = "0xE8DA60", VA = "0x180E8F460")]
+		[Address(RVA = "0x65FB2F0", Offset = "0x65FA2F0", VA = "0x65FB2F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
+		[Address(RVA = "0x65FB300", Offset = "0x65FA300", VA = "0x65FB300")]
 		[CompilerGenerated]
 		set
 		{
@@ -308,14 +308,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float albedoMaxLuminance
 	{
 		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x584280", Offset = "0x582880", VA = "0x180584280")]
+		[Address(RVA = "0x65FB310", Offset = "0x65FA310", VA = "0x65FB310")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x5842A0", Offset = "0x5828A0", VA = "0x1805842A0")]
+		[Address(RVA = "0x65FB320", Offset = "0x65FA320", VA = "0x65FB320")]
 		[CompilerGenerated]
 		set
 		{
@@ -326,13 +326,13 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float albedoHueTolerance
 	{
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x2C00740", Offset = "0x2BFED40", VA = "0x182C00740")]
+		[Address(RVA = "0x65FB330", Offset = "0x65FA330", VA = "0x65FB330")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
+		[Address(RVA = "0x65FB350", Offset = "0x65FA350", VA = "0x65FB350")]
 		set
 		{
 		}
@@ -342,13 +342,13 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float albedoSaturationTolerance
 	{
 		[Token(Token = "0x600011A")]
-		[Address(RVA = "0x2C00760", Offset = "0x2BFED60", VA = "0x182C00760")]
+		[Address(RVA = "0x65FB360", Offset = "0x65FA360", VA = "0x65FB360")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x584B70", Offset = "0x583170", VA = "0x180584B70")]
+		[Address(RVA = "0x65FB380", Offset = "0x65FA380", VA = "0x65FB380")]
 		set
 		{
 		}
@@ -358,14 +358,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public Color albedoCompareColor
 	{
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x20B97A0", Offset = "0x20B7DA0", VA = "0x1820B97A0")]
+		[Address(RVA = "0x65FB390", Offset = "0x65FA390", VA = "0x65FB390")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x2C00780", Offset = "0x2BFED80", VA = "0x182C00780")]
+		[Address(RVA = "0x65FB3A0", Offset = "0x65FA3A0", VA = "0x65FB3A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -376,14 +376,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float metallicMinValue
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Address(RVA = "0x65FB3B0", Offset = "0x65FA3B0", VA = "0x65FB3B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x1ED2F20", Offset = "0x1ED1520", VA = "0x181ED2F20")]
+		[Address(RVA = "0x65FB3C0", Offset = "0x65FA3C0", VA = "0x65FB3C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -394,14 +394,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public float metallicMaxValue
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
+		[Address(RVA = "0x65FB3D0", Offset = "0x65FA3D0", VA = "0x65FB3D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0xE8F730", Offset = "0xE8DD30", VA = "0x180E8F730")]
+		[Address(RVA = "0x65FB3E0", Offset = "0x65FA3E0", VA = "0x65FB3E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -412,14 +412,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public bool renderingLayersSelectedLight
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x1CC5A60", Offset = "0x1CC4060", VA = "0x181CC5A60")]
+		[Address(RVA = "0x65FB3F0", Offset = "0x65FA3F0", VA = "0x65FB3F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x1CC5C30", Offset = "0x1CC4230", VA = "0x181CC5C30")]
+		[Address(RVA = "0x65FB400", Offset = "0x65FA400", VA = "0x65FB400")]
 		[CompilerGenerated]
 		set
 		{
@@ -430,14 +430,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public bool selectedLightShadowLayerMask
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x12B3A90", Offset = "0x12B2090", VA = "0x1812B3A90")]
+		[Address(RVA = "0x65FB410", Offset = "0x65FA410", VA = "0x65FB410")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x2C00800", Offset = "0x2BFEE00", VA = "0x182C00800")]
+		[Address(RVA = "0x65FB420", Offset = "0x65FA420", VA = "0x65FB420")]
 		[CompilerGenerated]
 		set
 		{
@@ -448,14 +448,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public uint renderingLayerMask
 	{
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x65FB430", Offset = "0x65FA430", VA = "0x65FB430")]
 		[CompilerGenerated]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x65FB440", Offset = "0x65FA440", VA = "0x65FB440")]
 		[CompilerGenerated]
 		set
 		{
@@ -466,14 +466,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public DebugMaterialValidationMode materialValidationMode
 	{
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x65FB460", Offset = "0x65FA460", VA = "0x65FB460")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugMaterialValidationMode);
 		}
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x65FB470", Offset = "0x65FA470", VA = "0x65FB470")]
 		[CompilerGenerated]
 		set
 		{
@@ -484,14 +484,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public DebugMaterialMode materialDebugMode
 	{
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x65FB480", Offset = "0x65FA480", VA = "0x65FB480")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugMaterialMode);
 		}
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x65FB490", Offset = "0x65FA490", VA = "0x65FB490")]
 		[CompilerGenerated]
 		set
 		{
@@ -502,14 +502,14 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public DebugVertexAttributeMode vertexAttributeDebugMode
 	{
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x65FB4A0", Offset = "0x65FA4A0", VA = "0x65FB4A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugVertexAttributeMode);
 		}
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
+		[Address(RVA = "0x65FB4B0", Offset = "0x65FA4B0", VA = "0x65FB4B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -520,7 +520,7 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x2C00700", Offset = "0x2BFED00", VA = "0x182C00700", Slot = "6")]
+		[Address(RVA = "0x65FB4C0", Offset = "0x65FA4C0", VA = "0x65FB4C0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -531,7 +531,7 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public bool IsPostProcessingAllowed
 	{
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x2C00720", Offset = "0x2BFED20", VA = "0x182C00720", Slot = "7")]
+		[Address(RVA = "0x65FB4E0", Offset = "0x65FA4E0", VA = "0x65FB4E0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -542,7 +542,7 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	public bool IsLightingActive
 	{
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x2C00720", Offset = "0x2BFED20", VA = "0x182C00720", Slot = "8")]
+		[Address(RVA = "0x65FB500", Offset = "0x65FA500", VA = "0x65FB500", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -550,21 +550,21 @@ public class DebugDisplaySettingsMaterial : IDebugDisplaySettingsData, IDebugDis
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x1A5F210", Offset = "0x1A5D810", VA = "0x181A5F210")]
+	[Address(RVA = "0x65FB450", Offset = "0x65FA450", VA = "0x65FB450")]
 	public uint GetDebugLightLayersMask()
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x2BFFA10", Offset = "0x2BFE010", VA = "0x182BFFA10", Slot = "4")]
+	[Address(RVA = "0x65FB520", Offset = "0x65FA520", VA = "0x65FB520", Slot = "4")]
 	private IDebugDisplaySettingsPanelDisposable UnityEngine_002ERendering_002EIDebugDisplaySettingsData_002ECreatePanel()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x2BFFA70", Offset = "0x2BFE070", VA = "0x182BFFA70")]
+	[Address(RVA = "0x65FBB30", Offset = "0x65FAB30", VA = "0x65FBB30")]
 	public DebugDisplaySettingsMaterial()
 	{
 	}

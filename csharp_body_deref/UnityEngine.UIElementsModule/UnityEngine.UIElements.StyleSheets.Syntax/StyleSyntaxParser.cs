@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,114 +32,114 @@ internal class StyleSyntaxParser
 	private Dictionary<string, Expression> m_ParsedExpressionCache;
 
 	[Token(Token = "0x6002DDF")]
-	[Address(RVA = "0x31F9870", Offset = "0x31F7E70", VA = "0x1831F9870")]
+	[Address(RVA = "0x6BFA4D0", Offset = "0x6BF94D0", VA = "0x6BFA4D0")]
 	public Expression Parse(string syntax)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE0")]
-	[Address(RVA = "0x31F84D0", Offset = "0x31F6AD0", VA = "0x1831F84D0")]
+	[Address(RVA = "0x6BFB2F0", Offset = "0x6BFA2F0", VA = "0x6BFB2F0")]
 	private Expression ParseExpression(StyleSyntaxTokenizer tokenizer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE1")]
-	[Address(RVA = "0x31F9A20", Offset = "0x31F8020", VA = "0x1831F9A20")]
+	[Address(RVA = "0x6BFBF10", Offset = "0x6BFAF10", VA = "0x6BFBF10")]
 	private void ProcessCombinatorStack()
 	{
 	}
 
 	[Token(Token = "0x6002DE2")]
-	[Address(RVA = "0x31F96C0", Offset = "0x31F7CC0", VA = "0x1831F96C0")]
+	[Address(RVA = "0x6BFB770", Offset = "0x6BFA770", VA = "0x6BFB770")]
 	private Expression ParseTerm(StyleSyntaxTokenizer tokenizer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE3")]
-	[Address(RVA = "0x31F7C30", Offset = "0x31F6230", VA = "0x1831F7C30")]
+	[Address(RVA = "0x6BFBD40", Offset = "0x6BFAD40", VA = "0x6BFBD40")]
 	private ExpressionCombinator ParseCombinatorType(StyleSyntaxTokenizer tokenizer)
 	{
 		return default(ExpressionCombinator);
 	}
 
 	[Token(Token = "0x6002DE4")]
-	[Address(RVA = "0x31F8760", Offset = "0x31F6D60", VA = "0x1831F8760")]
+	[Address(RVA = "0x6BFB9A0", Offset = "0x6BFA9A0", VA = "0x6BFB9A0")]
 	private Expression ParseGroup(StyleSyntaxTokenizer tokenizer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE5")]
-	[Address(RVA = "0x31F7E60", Offset = "0x31F6460", VA = "0x1831F7E60")]
+	[Address(RVA = "0x6BFC250", Offset = "0x6BFB250", VA = "0x6BFC250")]
 	private Expression ParseDataType(StyleSyntaxTokenizer tokenizer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE6")]
-	[Address(RVA = "0x31F8F60", Offset = "0x31F7560", VA = "0x1831F8F60")]
+	[Address(RVA = "0x6BFCD80", Offset = "0x6BFBD80", VA = "0x6BFCD80")]
 	private Expression ParseNonTerminalValue(string syntax)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE7")]
-	[Address(RVA = "0x31F9100", Offset = "0x31F7700", VA = "0x1831F9100")]
+	[Address(RVA = "0x6BFCF20", Offset = "0x6BFBF20", VA = "0x6BFCF20")]
 	private Expression ParseProperty(StyleSyntaxTokenizer tokenizer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE8")]
-	[Address(RVA = "0x31F8D00", Offset = "0x31F7300", VA = "0x1831F8D00")]
+	[Address(RVA = "0x6BFCA60", Offset = "0x6BFBA60", VA = "0x6BFCA60")]
 	private void ParseMultiplier(StyleSyntaxTokenizer tokenizer, ref ExpressionMultiplier multiplier)
 	{
 	}
 
 	[Token(Token = "0x6002DE9")]
-	[Address(RVA = "0x31F8A60", Offset = "0x31F7060", VA = "0x1831F8A60")]
+	[Address(RVA = "0x6BFD300", Offset = "0x6BFC300", VA = "0x6BFD300")]
 	private void ParseLimits(StyleSyntaxTokenizer tokenizer, out float min, out float max)
 	{
 	}
 
 	[Token(Token = "0x6002DEA")]
-	[Address(RVA = "0x31F9580", Offset = "0x31F7B80", VA = "0x1831F9580")]
+	[Address(RVA = "0x6BFD510", Offset = "0x6BFC510", VA = "0x6BFD510")]
 	private void ParseRanges(StyleSyntaxTokenizer tokenizer, out int min, out int max)
 	{
 	}
 
 	[Token(Token = "0x6002DEB")]
-	[Address(RVA = "0x31F7BA0", Offset = "0x31F61A0", VA = "0x1831F7BA0")]
+	[Address(RVA = "0x6BFCCB0", Offset = "0x6BFBCB0", VA = "0x6BFCCB0")]
 	private static void EatSpace(StyleSyntaxTokenizer tokenizer)
 	{
 	}
 
 	[Token(Token = "0x6002DEC")]
-	[Address(RVA = "0x31F7BF0", Offset = "0x31F61F0", VA = "0x1831F7BF0")]
+	[Address(RVA = "0x6BFC230", Offset = "0x6BFB230", VA = "0x6BFC230")]
 	private static bool IsExpressionEnd(StyleSyntaxToken token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002DED")]
-	[Address(RVA = "0x31F7BE0", Offset = "0x31F61E0", VA = "0x1831F7BE0")]
+	[Address(RVA = "0x6BFCCA0", Offset = "0x6BFBCA0", VA = "0x6BFCCA0")]
 	private static bool IsCombinator(StyleSyntaxToken token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002DEE")]
-	[Address(RVA = "0x31F7C10", Offset = "0x31F6210", VA = "0x1831F7C10")]
+	[Address(RVA = "0x6BFD4F0", Offset = "0x6BFC4F0", VA = "0x6BFD4F0")]
 	private static bool IsMultiplier(StyleSyntaxToken token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002DEF")]
-	[Address(RVA = "0x31F9D70", Offset = "0x31F8370", VA = "0x1831F9D70")]
+	[Address(RVA = "0x6BFD6D0", Offset = "0x6BFC6D0", VA = "0x6BFD6D0")]
 	public StyleSyntaxParser()
 	{
 	}

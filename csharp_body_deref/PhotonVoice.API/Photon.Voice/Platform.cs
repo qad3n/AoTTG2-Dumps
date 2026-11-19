@@ -15,14 +15,14 @@ namespace Photon.Voice;
 public static class Platform
 {
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x1D705E0", Offset = "0x1D6EBE0", VA = "0x181D705E0")]
+	[Address(RVA = "0x5705B60", Offset = "0x5704B60", VA = "0x5705B60")]
 	public static IDeviceEnumerator CreateAudioInEnumerator(ILogger logger)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x1D70590", Offset = "0x1D6EB90", VA = "0x181D70590")]
+	[Address(RVA = "0x5705BF0", Offset = "0x5704BF0", VA = "0x5705BF0")]
 	public static IAudioInChangeNotifier CreateAudioInChangeNotifier(Action callback, ILogger logger)
 	{
 		return null;
@@ -35,7 +35,7 @@ public static class Platform
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x1D70640", Offset = "0x1D6EC40", VA = "0x181D70640")]
+	[Address(RVA = "0x5705C30", Offset = "0x5704C30", VA = "0x5705C30")]
 	public static IAudioDesc CreateDefaultAudioSource(ILogger logger, DeviceInfo dev, int samplingRate, int channels, [Optional] object otherParams)
 	{
 		return null;

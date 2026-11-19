@@ -9,179 +9,179 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200069A")]
+[Token(Token = "0x20006FA")]
 internal class ErenAnimations : BaseTitanAnimations
 {
-	[Token(Token = "0x4001F2C")]
+	[Token(Token = "0x40020DF")]
 	public const string IdleValue = "ErenRig_VER2|et_idle";
 
-	[Token(Token = "0x4001F2D")]
+	[Token(Token = "0x40020E0")]
 	public const string RunValue = "ErenRig_VER2|et_run";
 
-	[Token(Token = "0x4001F2E")]
+	[Token(Token = "0x40020E1")]
 	public const string WalkValue = "ErenRig_VER2|et_walk";
 
-	[Token(Token = "0x4001F2F")]
+	[Token(Token = "0x40020E2")]
 	public const string JumpValue = "ErenRig_VER2|et_jump_start";
 
-	[Token(Token = "0x4001F30")]
+	[Token(Token = "0x40020E3")]
 	public const string FallValue = "ErenRig_VER2|et_jump_air";
 
-	[Token(Token = "0x4001F31")]
+	[Token(Token = "0x40020E4")]
 	public const string LandValue = "ErenRig_VER2|et_jump_land";
 
-	[Token(Token = "0x4001F32")]
+	[Token(Token = "0x40020E5")]
 	public const string DieValue = "ErenRig_VER2|et_die";
 
-	[Token(Token = "0x4001F33")]
+	[Token(Token = "0x40020E6")]
 	public const string AttackComboValue = "ErenRig_VER2|et_attack_combo_full";
 
-	[Token(Token = "0x4001F34")]
+	[Token(Token = "0x40020E7")]
 	public const string AttackKickValue = "ErenRig_VER2|et_attack_kick";
 
-	[Token(Token = "0x4001F35")]
+	[Token(Token = "0x40020E8")]
 	public const string StunValue = "ErenRig_VER2|et_hit_titan";
 
-	[Token(Token = "0x4001F36")]
+	[Token(Token = "0x40020E9")]
 	public const string EmoteNodValue = "ErenRig_VER2|et_yes";
 
-	[Token(Token = "0x4001F37")]
+	[Token(Token = "0x40020EA")]
 	public const string EmoteRoarValue = "ErenRig_VER2|et_born";
 
-	[Token(Token = "0x4001F38")]
+	[Token(Token = "0x40020EB")]
 	public const string RockLiftValue = "ErenRig_VER2|et_rock_lift";
 
-	[Token(Token = "0x4001F39")]
+	[Token(Token = "0x40020EC")]
 	public const string RockLift001Value = "ErenRig_VER2|et_rock_lift.001";
 
-	[Token(Token = "0x4001F3A")]
+	[Token(Token = "0x40020ED")]
 	public const string RockWalkValue = "ErenRig_VER2|et_rock_walk";
 
-	[Token(Token = "0x4001F3B")]
+	[Token(Token = "0x40020EE")]
 	public const string RockFixHoleValue = "ErenRig_VER2|et_rock_fix_hole";
 
-	[Token(Token = "0x4001F3C")]
+	[Token(Token = "0x40020EF")]
 	[FieldOffset(Offset = "0x10")]
 	public string AttackCombo;
 
-	[Token(Token = "0x4001F3D")]
+	[Token(Token = "0x40020F0")]
 	[FieldOffset(Offset = "0x18")]
 	public string AttackKick;
 
-	[Token(Token = "0x4001F3E")]
+	[Token(Token = "0x40020F1")]
 	[FieldOffset(Offset = "0x20")]
 	public string EmoteNod;
 
-	[Token(Token = "0x4001F3F")]
+	[Token(Token = "0x40020F2")]
 	[FieldOffset(Offset = "0x28")]
 	public string EmoteRoar;
 
-	[Token(Token = "0x4001F40")]
+	[Token(Token = "0x40020F3")]
 	[FieldOffset(Offset = "0x30")]
 	public string RockLift;
 
-	[Token(Token = "0x4001F41")]
+	[Token(Token = "0x40020F4")]
 	[FieldOffset(Offset = "0x38")]
 	public string RockLift001;
 
-	[Token(Token = "0x4001F42")]
+	[Token(Token = "0x40020F5")]
 	[FieldOffset(Offset = "0x40")]
 	public string RockWalk;
 
-	[Token(Token = "0x4001F43")]
+	[Token(Token = "0x40020F6")]
 	[FieldOffset(Offset = "0x48")]
 	public string RockFixHole;
 
-	[Token(Token = "0x17000B59")]
+	[Token(Token = "0x17000BA3")]
 	public override string Idle
 	{
-		[Token(Token = "0x60040DB")]
-		[Address(RVA = "0x216B840", Offset = "0x2169E40", VA = "0x18216B840", Slot = "4")]
+		[Token(Token = "0x600437B")]
+		[Address(RVA = "0x5B18BE0", Offset = "0x5B17BE0", VA = "0x5B18BE0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5A")]
+	[Token(Token = "0x17000BA4")]
 	public override string Run
 	{
-		[Token(Token = "0x60040DC")]
-		[Address(RVA = "0x216B8D0", Offset = "0x2169ED0", VA = "0x18216B8D0", Slot = "5")]
+		[Token(Token = "0x600437C")]
+		[Address(RVA = "0x5B18C10", Offset = "0x5B17C10", VA = "0x5B18C10", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5B")]
+	[Token(Token = "0x17000BA5")]
 	public override string Walk
 	{
-		[Token(Token = "0x60040DD")]
-		[Address(RVA = "0x216B930", Offset = "0x2169F30", VA = "0x18216B930", Slot = "7")]
+		[Token(Token = "0x600437D")]
+		[Address(RVA = "0x5B18C40", Offset = "0x5B17C40", VA = "0x5B18C40", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5C")]
+	[Token(Token = "0x17000BA6")]
 	public override string Jump
 	{
-		[Token(Token = "0x60040DE")]
-		[Address(RVA = "0x216B870", Offset = "0x2169E70", VA = "0x18216B870", Slot = "8")]
+		[Token(Token = "0x600437E")]
+		[Address(RVA = "0x5B18C70", Offset = "0x5B17C70", VA = "0x5B18C70", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5D")]
+	[Token(Token = "0x17000BA7")]
 	public override string Fall
 	{
-		[Token(Token = "0x60040DF")]
-		[Address(RVA = "0x216B810", Offset = "0x2169E10", VA = "0x18216B810", Slot = "9")]
+		[Token(Token = "0x600437F")]
+		[Address(RVA = "0x5B18CA0", Offset = "0x5B17CA0", VA = "0x5B18CA0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5E")]
+	[Token(Token = "0x17000BA8")]
 	public override string Land
 	{
-		[Token(Token = "0x60040E0")]
-		[Address(RVA = "0x216B8A0", Offset = "0x2169EA0", VA = "0x18216B8A0", Slot = "10")]
+		[Token(Token = "0x6004380")]
+		[Address(RVA = "0x5B18CD0", Offset = "0x5B17CD0", VA = "0x5B18CD0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B5F")]
+	[Token(Token = "0x17000BA9")]
 	public override string Die
 	{
-		[Token(Token = "0x60040E1")]
-		[Address(RVA = "0x216B7E0", Offset = "0x2169DE0", VA = "0x18216B7E0", Slot = "12")]
+		[Token(Token = "0x6004381")]
+		[Address(RVA = "0x5B18D00", Offset = "0x5B17D00", VA = "0x5B18D00", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B60")]
+	[Token(Token = "0x17000BAA")]
 	public override string Stun
 	{
-		[Token(Token = "0x60040E2")]
-		[Address(RVA = "0x216B900", Offset = "0x2169F00", VA = "0x18216B900", Slot = "11")]
+		[Token(Token = "0x6004382")]
+		[Address(RVA = "0x5B18D30", Offset = "0x5B17D30", VA = "0x5B18D30", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60040E3")]
-	[Address(RVA = "0x216B680", Offset = "0x2169C80", VA = "0x18216B680")]
+	[Token(Token = "0x6004383")]
+	[Address(RVA = "0x5B18D60", Offset = "0x5B17D60", VA = "0x5B18D60")]
 	public ErenAnimations()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextGenerationSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -169,13 +169,13 @@ internal class TextGenerationSettings : IEquatable<TextGenerationSettings>
 	public RenderedText renderedText
 	{
 		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x5608C0", Offset = "0x55EEC0", VA = "0x1805608C0")]
+		[Address(RVA = "0x6A45FD0", Offset = "0x6A44FD0", VA = "0x6A45FD0")]
 		get
 		{
 			return default(RenderedText);
 		}
 		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x304A320", Offset = "0x3048920", VA = "0x18304A320")]
+		[Address(RVA = "0x6A45FF0", Offset = "0x6A44FF0", VA = "0x6A45FF0")]
 		set
 		{
 		}
@@ -185,54 +185,54 @@ internal class TextGenerationSettings : IEquatable<TextGenerationSettings>
 	public string text
 	{
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x304A2A0", Offset = "0x30488A0", VA = "0x18304A2A0")]
+		[Address(RVA = "0x6A46030", Offset = "0x6A45030", VA = "0x6A46030")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x304A360", Offset = "0x3048960", VA = "0x18304A360")]
+		[Address(RVA = "0x6A463D0", Offset = "0x6A453D0", VA = "0x6A463D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x304A220", Offset = "0x3048820", VA = "0x18304A220")]
+	[Address(RVA = "0x6A465B0", Offset = "0x6A455B0", VA = "0x6A465B0")]
 	public TextGenerationSettings()
 	{
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x3048710", Offset = "0x3046D10", VA = "0x183048710", Slot = "4")]
+	[Address(RVA = "0x6A46620", Offset = "0x6A45620", VA = "0x6A46620", Slot = "4")]
 	public bool Equals(TextGenerationSettings other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x3048AB0", Offset = "0x30470B0", VA = "0x183048AB0", Slot = "0")]
+	[Address(RVA = "0x6A469C0", Offset = "0x6A459C0", VA = "0x6A469C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x3048BB0", Offset = "0x30471B0", VA = "0x183048BB0", Slot = "2")]
+	[Address(RVA = "0x6A46AA0", Offset = "0x6A45AA0", VA = "0x6A46AA0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x304A300", Offset = "0x3048900", VA = "0x18304A300")]
+	[Address(RVA = "0x6A46D50", Offset = "0x6A45D50", VA = "0x6A46D50")]
 	public static bool operator !=(TextGenerationSettings left, TextGenerationSettings right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x3048E90", Offset = "0x3047490", VA = "0x183048E90", Slot = "3")]
+	[Address(RVA = "0x6A46D60", Offset = "0x6A45D60", VA = "0x6A46D60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000097")]
+[Token(Token = "0x20000CE")]
 public enum ChromaticAberrationLevel
 {
-	[Token(Token = "0x4000302")]
+	[Token(Token = "0x4000438")]
 	Off,
-	[Token(Token = "0x4000303")]
+	[Token(Token = "0x4000439")]
 	Low,
-	[Token(Token = "0x4000304")]
+	[Token(Token = "0x400043A")]
 	High
 }

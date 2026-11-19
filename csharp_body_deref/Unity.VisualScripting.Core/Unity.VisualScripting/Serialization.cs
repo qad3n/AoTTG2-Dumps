@@ -40,14 +40,14 @@ public static class Serialization
 	public static bool isUnitySerializing
 	{
 		[Token(Token = "0x6000F83")]
-		[Address(RVA = "0x2E3CC50", Offset = "0x2E3B250", VA = "0x182E3CC50")]
+		[Address(RVA = "0x6843240", Offset = "0x6842240", VA = "0x6843240")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000F84")]
-		[Address(RVA = "0x2E3CCA0", Offset = "0x2E3B2A0", VA = "0x182E3CCA0")]
+		[Address(RVA = "0x68432B0", Offset = "0x68422B0", VA = "0x68432B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -58,7 +58,7 @@ public static class Serialization
 	public static bool isCustomSerializing
 	{
 		[Token(Token = "0x6000F85")]
-		[Address(RVA = "0x2E3CB30", Offset = "0x2E3B130", VA = "0x182E3CB30")]
+		[Address(RVA = "0x6843300", Offset = "0x6842300", VA = "0x6843300")]
 		get
 		{
 			return default(bool);
@@ -69,7 +69,7 @@ public static class Serialization
 	public static bool isSerializing
 	{
 		[Token(Token = "0x6000F86")]
-		[Address(RVA = "0x2E3CBA0", Offset = "0x2E3B1A0", VA = "0x182E3CBA0")]
+		[Address(RVA = "0x6843390", Offset = "0x6842390", VA = "0x6843390")]
 		get
 		{
 			return default(bool);
@@ -77,20 +77,20 @@ public static class Serialization
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x2E3C9A0", Offset = "0x2E3AFA0", VA = "0x182E3C9A0")]
+	[Address(RVA = "0x68430E0", Offset = "0x68420E0", VA = "0x68430E0")]
 	static Serialization()
 	{
 	}
 
 	[Token(Token = "0x6000F87")]
-	[Address(RVA = "0x2E3C750", Offset = "0x2E3AD50", VA = "0x182E3C750")]
+	[Address(RVA = "0x68434D0", Offset = "0x68424D0", VA = "0x68434D0")]
 	private static SerializationOperation StartOperation()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F88")]
-	[Address(RVA = "0x2E3B3C0", Offset = "0x2E399C0", VA = "0x182E3B3C0")]
+	[Address(RVA = "0x68439B0", Offset = "0x68429B0", VA = "0x68439B0")]
 	private static void EndOperation(SerializationOperation operation)
 	{
 	}
@@ -107,96 +107,96 @@ public static class Serialization
 	}
 
 	[Token(Token = "0x6000F8B")]
-	[Address(RVA = "0x2E3C460", Offset = "0x2E3AA60", VA = "0x182E3C460")]
+	[Address(RVA = "0x6843C70", Offset = "0x6842C70", VA = "0x6843C70")]
 	public static SerializationData Serialize(this object value, bool forceReflected = false)
 	{
 		return default(SerializationData);
 	}
 
 	[Token(Token = "0x6000F8C")]
-	[Address(RVA = "0x2E3AC20", Offset = "0x2E39220", VA = "0x182E3AC20")]
+	[Address(RVA = "0x68441E0", Offset = "0x68431E0", VA = "0x68441E0")]
 	public static void DeserializeInto(this SerializationData data, ref object instance, bool forceReflected = false)
 	{
 	}
 
 	[Token(Token = "0x6000F8D")]
-	[Address(RVA = "0x2E3B340", Offset = "0x2E39940", VA = "0x182E3B340")]
+	[Address(RVA = "0x6844F70", Offset = "0x6843F70", VA = "0x6844F70")]
 	public static object Deserialize(this SerializationData data, bool forceReflected = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F8E")]
-	[Address(RVA = "0x2E3C1E0", Offset = "0x2E3A7E0", VA = "0x182E3C1E0")]
+	[Address(RVA = "0x6843F70", Offset = "0x6842F70", VA = "0x6843F70")]
 	private static string SerializeJson(fsSerializer serializer, object instance, bool forceReflected)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F8F")]
-	[Address(RVA = "0x2E3AFB0", Offset = "0x2E395B0", VA = "0x182E3AFB0")]
+	[Address(RVA = "0x6845480", Offset = "0x6844480", VA = "0x6845480")]
 	private static fsResult DeserializeJsonUtil(fsSerializer serializer, string json, ref object instance, bool forceReflected)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F90")]
-	[Address(RVA = "0x2E3B0E0", Offset = "0x2E396E0", VA = "0x182E3B0E0")]
+	[Address(RVA = "0x6844640", Offset = "0x6843640", VA = "0x6844640")]
 	private static void DeserializeJson(fsSerializer serializer, string json, ref object instance, bool forceReflected)
 	{
 	}
 
 	[Token(Token = "0x6000F91")]
-	[Address(RVA = "0x2E3B620", Offset = "0x2E39C20", VA = "0x182E3B620")]
+	[Address(RVA = "0x6844FE0", Offset = "0x6843FE0", VA = "0x6844FE0")]
 	private static void HandleResult(string label, fsResult result, [Optional] Object context)
 	{
 	}
 
 	[Token(Token = "0x6000F92")]
-	[Address(RVA = "0x2E3C1C0", Offset = "0x2E3A7C0", VA = "0x182E3C1C0")]
+	[Address(RVA = "0x6845570", Offset = "0x6844570", VA = "0x6845570")]
 	public static string PrettyPrint(string json)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F93")]
-	[Address(RVA = "0x2E3A960", Offset = "0x2E38F60", VA = "0x182E3A960")]
+	[Address(RVA = "0x6845590", Offset = "0x6844590", VA = "0x6845590")]
 	public static void AwaitDependencies(ISerializationDepender depender)
 	{
 	}
 
 	[Token(Token = "0x6000F94")]
-	[Address(RVA = "0x2E3C0F0", Offset = "0x2E3A6F0", VA = "0x182E3C0F0")]
+	[Address(RVA = "0x6845B00", Offset = "0x6844B00", VA = "0x6845B00")]
 	public static void NotifyDependencyDeserializing(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F95")]
-	[Address(RVA = "0x2E3BF70", Offset = "0x2E3A570", VA = "0x182E3BF70")]
+	[Address(RVA = "0x6845CA0", Offset = "0x6844CA0", VA = "0x6845CA0")]
 	public static void NotifyDependencyDeserialized(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x2E3C170", Offset = "0x2E3A770", VA = "0x182E3C170")]
+	[Address(RVA = "0x6845C00", Offset = "0x6844C00", VA = "0x6845C00")]
 	public static void NotifyDependencyUnavailable(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F97")]
-	[Address(RVA = "0x2E3BE20", Offset = "0x2E3A420", VA = "0x182E3BE20")]
+	[Address(RVA = "0x6845D00", Offset = "0x6844D00", VA = "0x6845D00")]
 	public static void NotifyDependencyAvailable(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F98")]
-	[Address(RVA = "0x2E3A9F0", Offset = "0x2E38FF0", VA = "0x182E3A9F0")]
+	[Address(RVA = "0x6845640", Offset = "0x6844640", VA = "0x6845640")]
 	private static void CheckIfDependenciesMet(ISerializationDepender depender)
 	{
 	}
 
 	[Token(Token = "0x6000F99")]
-	[Address(RVA = "0x2E3B950", Offset = "0x2E39F50", VA = "0x182E3B950")]
+	[Address(RVA = "0x6845EA0", Offset = "0x6844EA0", VA = "0x6845EA0")]
 	public static void LogStuckDependers()
 	{
 	}

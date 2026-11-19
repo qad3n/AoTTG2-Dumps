@@ -31,7 +31,7 @@ public class TMP_StyleSheet : ScriptableObject
 	internal List<TMP_Style> styles
 	{
 		[Token(Token = "0x60003E6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x673D390", Offset = "0x673C390", VA = "0x673D390")]
 		get
 		{
 			return null;
@@ -39,39 +39,39 @@ public class TMP_StyleSheet : ScriptableObject
 	}
 
 	[Token(Token = "0x60003E7")]
-	[Address(RVA = "0x2D42F20", Offset = "0x2D41520", VA = "0x182D42F20")]
+	[Address(RVA = "0x673D3A0", Offset = "0x673C3A0", VA = "0x673D3A0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x60003E8")]
-	[Address(RVA = "0x2D42AF0", Offset = "0x2D410F0", VA = "0x182D42AF0")]
+	[Address(RVA = "0x673D6F0", Offset = "0x673C6F0", VA = "0x673D6F0")]
 	public TMP_Style GetStyle(int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003E9")]
-	[Address(RVA = "0x2D42A40", Offset = "0x2D41040", VA = "0x182D42A40")]
+	[Address(RVA = "0x673D770", Offset = "0x673C770", VA = "0x673D770")]
 	public TMP_Style GetStyle(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EA")]
-	[Address(RVA = "0x2D42F20", Offset = "0x2D41520", VA = "0x182D42F20")]
+	[Address(RVA = "0x673D850", Offset = "0x673C850", VA = "0x673D850")]
 	public void RefreshStyles()
 	{
 	}
 
 	[Token(Token = "0x60003EB")]
-	[Address(RVA = "0x2D42B80", Offset = "0x2D41180", VA = "0x182D42B80")]
+	[Address(RVA = "0x673D3B0", Offset = "0x673C3B0", VA = "0x673D3B0")]
 	private void LoadStyleDictionaryInternal()
 	{
 	}
 
 	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x2D42F30", Offset = "0x2D41530", VA = "0x182D42F30")]
+	[Address(RVA = "0x673D860", Offset = "0x673C860", VA = "0x673D860")]
 	public TMP_StyleSheet()
 	{
 	}

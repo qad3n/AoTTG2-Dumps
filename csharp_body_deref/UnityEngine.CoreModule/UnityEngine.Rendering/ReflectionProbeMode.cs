@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000336")]
 public enum ReflectionProbeMode
 {
-	[Token(Token = "0x40008E2")]
+	[Token(Token = "0x40008E0")]
 	Baked,
-	[Token(Token = "0x40008E3")]
+	[Token(Token = "0x40008E1")]
 	Realtime,
-	[Token(Token = "0x40008E4")]
+	[Token(Token = "0x40008E2")]
 	Custom
 }

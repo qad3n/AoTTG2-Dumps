@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002C5")]
+[Token(Token = "0x2000286")]
 public interface IAuthenticationModule
 {
-	[Token(Token = "0x17000404")]
+	[Token(Token = "0x170003D5")]
 	string AuthenticationType
 	{
-		[Token(Token = "0x6001383")]
+		[Token(Token = "0x60011C5")]
 		get;
 	}
 
-	[Token(Token = "0x6001381")]
+	[Token(Token = "0x60011C3")]
 	Authorization Authenticate(string challenge, WebRequest request, ICredentials credentials);
 
-	[Token(Token = "0x6001382")]
+	[Token(Token = "0x60011C4")]
 	Authorization PreAuthenticate(WebRequest request, ICredentials credentials);
 }

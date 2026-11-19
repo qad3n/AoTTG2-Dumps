@@ -17,7 +17,7 @@ internal class LinearDecoder : ABSPathDecoder
 	internal override int minInputWaypoints
 	{
 		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "6")]
+		[Address(RVA = "0x31926A0", Offset = "0x31916A0", VA = "0x31926A0", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -25,32 +25,32 @@ internal class LinearDecoder : ABSPathDecoder
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x569510", Offset = "0x567B10", VA = "0x180569510", Slot = "4")]
+	[Address(RVA = "0x31926B0", Offset = "0x31916B0", VA = "0x31926B0", Slot = "4")]
 	internal override void FinalizePath(Path p, Vector3[] wps, bool isClosedPath)
 	{
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x569580", Offset = "0x567B80", VA = "0x180569580", Slot = "5")]
+	[Address(RVA = "0x3192A60", Offset = "0x3191A60", VA = "0x3192A60", Slot = "5")]
 	internal override Vector3 GetPoint(float perc, Vector3[] wps, Path p, ControlPoint[] controlPoints)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x569710", Offset = "0x567D10", VA = "0x180569710")]
+	[Address(RVA = "0x3192700", Offset = "0x3191700", VA = "0x3192700")]
 	internal void SetTimeToLengthTables(Path p, int subdivisions)
 	{
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x3192CE0", Offset = "0x3191CE0", VA = "0x3192CE0")]
 	internal void SetWaypointsLengths(Path p, int subdivisions)
 	{
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x3192CF0", Offset = "0x3191CF0", VA = "0x3192CF0")]
 	public LinearDecoder()
 	{
 	}

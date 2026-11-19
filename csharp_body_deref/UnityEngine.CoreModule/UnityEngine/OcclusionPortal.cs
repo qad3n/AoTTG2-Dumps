@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000EB")]
+[Token(Token = "0x20000EC")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/OcclusionPortal.h")]
 public sealed class OcclusionPortal : Component
 {

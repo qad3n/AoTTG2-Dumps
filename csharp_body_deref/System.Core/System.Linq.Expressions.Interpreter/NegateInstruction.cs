@@ -9,155 +9,155 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001D4")]
+[Token(Token = "0x20001D5")]
 internal abstract class NegateInstruction : Instruction
 {
-	[Token(Token = "0x20001D5")]
+	[Token(Token = "0x20001D6")]
 	private sealed class NegateInt16 : NegateInstruction
 	{
-		[Token(Token = "0x60009F1")]
-		[Address(RVA = "0x2477DC0", Offset = "0x24763C0", VA = "0x182477DC0", Slot = "8")]
+		[Token(Token = "0x60009FC")]
+		[Address(RVA = "0x5E109A0", Offset = "0x5E0F9A0", VA = "0x5E109A0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009F2")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x60009FD")]
+		[Address(RVA = "0x5E10950", Offset = "0x5E0F950", VA = "0x5E10950")]
 		public NegateInt16()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001D6")]
+	[Token(Token = "0x20001D7")]
 	private sealed class NegateInt32 : NegateInstruction
 	{
-		[Token(Token = "0x60009F3")]
-		[Address(RVA = "0x2477E40", Offset = "0x2476440", VA = "0x182477E40", Slot = "8")]
+		[Token(Token = "0x60009FE")]
+		[Address(RVA = "0x5E10A20", Offset = "0x5E0FA20", VA = "0x5E10A20", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009F4")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x60009FF")]
+		[Address(RVA = "0x5E10960", Offset = "0x5E0F960", VA = "0x5E10960")]
 		public NegateInt32()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001D7")]
+	[Token(Token = "0x20001D8")]
 	private sealed class NegateInt64 : NegateInstruction
 	{
-		[Token(Token = "0x60009F5")]
-		[Address(RVA = "0x2477EC0", Offset = "0x24764C0", VA = "0x182477EC0", Slot = "8")]
+		[Token(Token = "0x6000A00")]
+		[Address(RVA = "0x5E10A90", Offset = "0x5E0FA90", VA = "0x5E10A90", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009F6")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x6000A01")]
+		[Address(RVA = "0x5E10970", Offset = "0x5E0F970", VA = "0x5E10970")]
 		public NegateInt64()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001D8")]
+	[Token(Token = "0x20001D9")]
 	private sealed class NegateSingle : NegateInstruction
 	{
-		[Token(Token = "0x60009F7")]
-		[Address(RVA = "0x2477F50", Offset = "0x2476550", VA = "0x182477F50", Slot = "8")]
+		[Token(Token = "0x6000A02")]
+		[Address(RVA = "0x5E10B10", Offset = "0x5E0FB10", VA = "0x5E10B10", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009F8")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x6000A03")]
+		[Address(RVA = "0x5E10980", Offset = "0x5E0F980", VA = "0x5E10980")]
 		public NegateSingle()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001D9")]
+	[Token(Token = "0x20001DA")]
 	private sealed class NegateDouble : NegateInstruction
 	{
-		[Token(Token = "0x60009F9")]
-		[Address(RVA = "0x24779E0", Offset = "0x2475FE0", VA = "0x1824779E0", Slot = "8")]
+		[Token(Token = "0x6000A04")]
+		[Address(RVA = "0x5E10BA0", Offset = "0x5E0FBA0", VA = "0x5E10BA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009FA")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x6000A05")]
+		[Address(RVA = "0x5E10990", Offset = "0x5E0F990", VA = "0x5E10990")]
 		public NegateDouble()
 		{
 		}
 	}
 
-	[Token(Token = "0x40003B4")]
+	[Token(Token = "0x40003BD")]
 	[FieldOffset(Offset = "0x0")]
 	private static Instruction s_Int16;
 
-	[Token(Token = "0x40003B5")]
+	[Token(Token = "0x40003BE")]
 	[FieldOffset(Offset = "0x8")]
 	private static Instruction s_Int32;
 
-	[Token(Token = "0x40003B6")]
+	[Token(Token = "0x40003BF")]
 	[FieldOffset(Offset = "0x10")]
 	private static Instruction s_Int64;
 
-	[Token(Token = "0x40003B7")]
+	[Token(Token = "0x40003C0")]
 	[FieldOffset(Offset = "0x18")]
 	private static Instruction s_Single;
 
-	[Token(Token = "0x40003B8")]
+	[Token(Token = "0x40003C1")]
 	[FieldOffset(Offset = "0x20")]
 	private static Instruction s_Double;
 
-	[Token(Token = "0x17000207")]
+	[Token(Token = "0x17000209")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60009EC")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x60009F7")]
+		[Address(RVA = "0x5E10650", Offset = "0x5E0F650", VA = "0x5E10650", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000208")]
+	[Token(Token = "0x1700020A")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60009ED")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x60009F8")]
+		[Address(RVA = "0x5E10660", Offset = "0x5E0F660", VA = "0x5E10660", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000209")]
+	[Token(Token = "0x1700020B")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60009EE")]
-		[Address(RVA = "0x2477D90", Offset = "0x2476390", VA = "0x182477D90", Slot = "9")]
+		[Token(Token = "0x60009F9")]
+		[Address(RVA = "0x5E10670", Offset = "0x5E0F670", VA = "0x5E10670", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009EF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60009FA")]
+	[Address(RVA = "0x5E106A0", Offset = "0x5E0F6A0", VA = "0x5E106A0")]
 	private NegateInstruction()
 	{
 	}
 
-	[Token(Token = "0x60009F0")]
-	[Address(RVA = "0x2477A70", Offset = "0x2476070", VA = "0x182477A70")]
+	[Token(Token = "0x60009FB")]
+	[Address(RVA = "0x5E106B0", Offset = "0x5E0F6B0", VA = "0x5E106B0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

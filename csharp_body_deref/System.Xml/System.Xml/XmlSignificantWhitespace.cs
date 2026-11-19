@@ -17,7 +17,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override string Name
 	{
 		[Token(Token = "0x6000A35")]
-		[Address(RVA = "0x273BF80", Offset = "0x273A580", VA = "0x18273BF80", Slot = "8")]
+		[Address(RVA = "0x60E7220", Offset = "0x60E6220", VA = "0x60E7220", Slot = "8")]
 		get
 		{
 			return null;
@@ -28,7 +28,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override string LocalName
 	{
 		[Token(Token = "0x6000A36")]
-		[Address(RVA = "0x273BF80", Offset = "0x273A580", VA = "0x18273BF80", Slot = "39")]
+		[Address(RVA = "0x60E7250", Offset = "0x60E6250", VA = "0x60E7250", Slot = "39")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000A37")]
-		[Address(RVA = "0x847160", Offset = "0x845760", VA = "0x180847160", Slot = "11")]
+		[Address(RVA = "0x60E7280", Offset = "0x60E6280", VA = "0x60E7280", Slot = "11")]
 		get
 		{
 			return default(XmlNodeType);
@@ -50,7 +50,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override XmlNode ParentNode
 	{
 		[Token(Token = "0x6000A38")]
-		[Address(RVA = "0x273BFB0", Offset = "0x273A5B0", VA = "0x18273BFB0", Slot = "12")]
+		[Address(RVA = "0x60E7290", Offset = "0x60E6290", VA = "0x60E7290", Slot = "12")]
 		get
 		{
 			return null;
@@ -61,13 +61,13 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override string Value
 	{
 		[Token(Token = "0x6000A3A")]
-		[Address(RVA = "0x270E920", Offset = "0x270CF20", VA = "0x18270E920", Slot = "9")]
+		[Address(RVA = "0x60E7370", Offset = "0x60E6370", VA = "0x60E7370", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A3B")]
-		[Address(RVA = "0x273C080", Offset = "0x273A680", VA = "0x18273C080", Slot = "10")]
+		[Address(RVA = "0x60E7390", Offset = "0x60E6390", VA = "0x60E7390", Slot = "10")]
 		set
 		{
 		}
@@ -77,7 +77,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	internal override XPathNodeType XPNodeType
 	{
 		[Token(Token = "0x6000A3E")]
-		[Address(RVA = "0x273C050", Offset = "0x273A650", VA = "0x18273C050", Slot = "58")]
+		[Address(RVA = "0x60E7470", Offset = "0x60E6470", VA = "0x60E7470", Slot = "58")]
 		get
 		{
 			return default(XPathNodeType);
@@ -88,7 +88,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	internal override bool IsText
 	{
 		[Token(Token = "0x6000A3F")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "60")]
+		[Address(RVA = "0x60E7490", Offset = "0x60E6490", VA = "0x60E7490", Slot = "60")]
 		get
 		{
 			return default(bool);
@@ -99,7 +99,7 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	public override XmlNode PreviousText
 	{
 		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x270E7B0", Offset = "0x270CDB0", VA = "0x18270E7B0", Slot = "61")]
+		[Address(RVA = "0x60E74A0", Offset = "0x60E64A0", VA = "0x60E74A0", Slot = "61")]
 		get
 		{
 			return null;
@@ -107,26 +107,26 @@ public class XmlSignificantWhitespace : XmlCharacterData
 	}
 
 	[Token(Token = "0x6000A34")]
-	[Address(RVA = "0x273BED0", Offset = "0x273A4D0", VA = "0x18273BED0")]
+	[Address(RVA = "0x60DBA60", Offset = "0x60DAA60", VA = "0x60DBA60")]
 	protected internal XmlSignificantWhitespace(string strData, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x6000A39")]
-	[Address(RVA = "0x273BE30", Offset = "0x273A430", VA = "0x18273BE30", Slot = "34")]
+	[Address(RVA = "0x60E7310", Offset = "0x60E6310", VA = "0x60E7310", Slot = "34")]
 	public override XmlNode CloneNode(bool deep)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A3C")]
-	[Address(RVA = "0x273BE90", Offset = "0x273A490", VA = "0x18273BE90", Slot = "46")]
+	[Address(RVA = "0x60E7420", Offset = "0x60E6420", VA = "0x60E7420", Slot = "46")]
 	public override void WriteTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "47")]
+	[Address(RVA = "0x60E7460", Offset = "0x60E6460", VA = "0x60E7460", Slot = "47")]
 	public override void WriteContentTo(XmlWriter w)
 	{
 	}

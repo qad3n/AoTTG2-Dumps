@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.MemoryProfiler.DefaultMetadataCollect
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,19 +14,19 @@ namespace Unity.MemoryProfiler;
 internal class DefaultMetadataCollect : MetadataCollect
 {
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2AB8950", Offset = "0x2AB6F50", VA = "0x182AB8950")]
+	[Address(RVA = "0x64A4480", Offset = "0x64A3480", VA = "0x64A4480")]
 	public DefaultMetadataCollect()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2AB8440", Offset = "0x2AB6A40", VA = "0x182AB8440", Slot = "5")]
+	[Address(RVA = "0x64A45C0", Offset = "0x64A35C0", VA = "0x64A45C0", Slot = "5")]
 	public override void CollectMetadata(MemorySnapshotMetadata data)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2AB86C0", Offset = "0x2AB6CC0", VA = "0x182AB86C0")]
+	[Address(RVA = "0x64A4840", Offset = "0x64A3840", VA = "0x64A4840")]
 	private string FormatSecondsToTime(double timeInSeconds)
 	{
 		return null;

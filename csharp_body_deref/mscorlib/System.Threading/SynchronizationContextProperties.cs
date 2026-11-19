@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200022D")]
+[Token(Token = "0x2000205")]
 [Flags]
 internal enum SynchronizationContextProperties
 {
-	[Token(Token = "0x4000A1C")]
+	[Token(Token = "0x400097A")]
 	None = 0,
-	[Token(Token = "0x4000A1D")]
+	[Token(Token = "0x400097B")]
 	RequireWaitNotification = 1
 }

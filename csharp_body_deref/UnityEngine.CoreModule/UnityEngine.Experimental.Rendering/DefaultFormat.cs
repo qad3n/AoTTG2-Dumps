@@ -12,14 +12,14 @@ namespace UnityEngine.Experimental.Rendering;
 [Token(Token = "0x20003FA")]
 public enum DefaultFormat
 {
-	[Token(Token = "0x4000D57")]
+	[Token(Token = "0x4000D55")]
 	LDR,
-	[Token(Token = "0x4000D58")]
+	[Token(Token = "0x4000D56")]
 	HDR,
-	[Token(Token = "0x4000D59")]
+	[Token(Token = "0x4000D57")]
 	DepthStencil,
-	[Token(Token = "0x4000D5A")]
+	[Token(Token = "0x4000D58")]
 	Shadow,
-	[Token(Token = "0x4000D5B")]
+	[Token(Token = "0x4000D59")]
 	Video
 }

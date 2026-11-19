@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,35 +16,35 @@ public interface IGisketchVirtualContentSource
 	[Token(Token = "0x17000017")]
 	int ItemCount
 	{
-		[Token(Token = "0x60000A2")]
+		[Token(Token = "0x60000A3")]
 		get;
 	}
 
 	[Token(Token = "0x17000018")]
 	GisketchVirtualContentMetrics Metrics
 	{
-		[Token(Token = "0x60000A3")]
+		[Token(Token = "0x60000A4")]
 		get;
 	}
 
-	[Token(Token = "0x60000A4")]
+	[Token(Token = "0x60000A5")]
 	string ItemId(int itemIndex);
 
-	[Token(Token = "0x60000A5")]
+	[Token(Token = "0x60000A6")]
 	GameObject CreateSlot(Transform parent, int slotIndex);
 
-	[Token(Token = "0x60000A6")]
+	[Token(Token = "0x60000A7")]
 	void BindSlot(GameObject slot, int itemIndex);
 
-	[Token(Token = "0x60000A7")]
+	[Token(Token = "0x60000A8")]
 	void UnbindSlot(GameObject slot);
 
-	[Token(Token = "0x60000A8")]
+	[Token(Token = "0x60000A9")]
 	bool CanRecycleSlot(GameObject slot);
 
-	[Token(Token = "0x60000A9")]
+	[Token(Token = "0x60000AA")]
 	bool TryGetSearchTargetItemIndex(string targetId, out int itemIndex);
 
-	[Token(Token = "0x60000AA")]
+	[Token(Token = "0x60000AB")]
 	bool TryResolveSearchTarget(string targetId, int itemIndex, GameObject slot, out GameObject target);
 }

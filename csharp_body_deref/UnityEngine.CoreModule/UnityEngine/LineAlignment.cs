@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000119")]
+[Token(Token = "0x200011A")]
 public enum LineAlignment
 {
-	[Token(Token = "0x400038A")]
+	[Token(Token = "0x400038F")]
 	View = 0,
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x4000390")]
 	[Obsolete("Enum member Local has been deprecated. Use TransformZ instead (UnityUpgradable) -> TransformZ", false)]
 	Local = 1,
-	[Token(Token = "0x400038C")]
+	[Token(Token = "0x4000391")]
 	TransformZ = Local
 }

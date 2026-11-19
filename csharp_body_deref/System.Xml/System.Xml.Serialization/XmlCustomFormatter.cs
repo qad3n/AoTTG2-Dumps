@@ -17,35 +17,35 @@ internal class XmlCustomFormatter
 	private static string[] allTimeFormats;
 
 	[Token(Token = "0x6000D3D")]
-	[Address(RVA = "0x275C640", Offset = "0x275AC40", VA = "0x18275C640")]
+	[Address(RVA = "0x61161D0", Offset = "0x61151D0", VA = "0x61161D0")]
 	internal static string FromEnum(long value, string[] values, long[] ids, string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3E")]
-	[Address(RVA = "0x275C940", Offset = "0x275AF40", VA = "0x18275C940")]
+	[Address(RVA = "0x61165A0", Offset = "0x61155A0", VA = "0x61165A0")]
 	internal static string FromXmlName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3F")]
-	[Address(RVA = "0x275C8F0", Offset = "0x275AEF0", VA = "0x18275C8F0")]
+	[Address(RVA = "0x6116610", Offset = "0x6115610", VA = "0x6116610")]
 	internal static string FromXmlNCName(string ncName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D40")]
-	[Address(RVA = "0x275D310", Offset = "0x275B910", VA = "0x18275D310")]
+	[Address(RVA = "0x61150A0", Offset = "0x61140A0", VA = "0x61150A0")]
 	internal static string ToXmlString(TypeData type, object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D41")]
-	[Address(RVA = "0x275C990", Offset = "0x275AF90", VA = "0x18275C990")]
+	[Address(RVA = "0x6116680", Offset = "0x6115680", VA = "0x6116680")]
 	internal static object FromXmlString(TypeData type, string value)
 	{
 		return null;

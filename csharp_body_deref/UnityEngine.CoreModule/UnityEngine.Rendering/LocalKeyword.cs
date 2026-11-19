@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.LocalKeyword
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,107 +19,107 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Scripting.UsedByNativeCode]
 public readonly struct LocalKeyword : IEquatable<LocalKeyword>
 {
-	[Token(Token = "0x4000C93")]
+	[Token(Token = "0x4000C91")]
 	[FieldOffset(Offset = "0x0")]
 	internal readonly LocalKeywordSpace m_SpaceInfo;
 
-	[Token(Token = "0x4000C94")]
+	[Token(Token = "0x4000C92")]
 	[FieldOffset(Offset = "0x8")]
 	internal readonly string m_Name;
 
-	[Token(Token = "0x4000C95")]
+	[Token(Token = "0x4000C93")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly uint m_Index;
 
-	[Token(Token = "0x600177D")]
-	[Address(RVA = "0x2F67F80", Offset = "0x2F66580", VA = "0x182F67F80")]
+	[Token(Token = "0x6001791")]
+	[Address(RVA = "0x69686D0", Offset = "0x69676D0", VA = "0x69686D0")]
 	[UnityEngine.Bindings.FreeFunction("ShaderScripting::GetKeywordCount")]
 	private static uint GetShaderKeywordCount(Shader shader)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x600177E")]
-	[Address(RVA = "0x2F68040", Offset = "0x2F66640", VA = "0x182F68040")]
+	[Token(Token = "0x6001792")]
+	[Address(RVA = "0x6968790", Offset = "0x6967790", VA = "0x6968790")]
 	[UnityEngine.Bindings.FreeFunction("ShaderScripting::GetKeywordIndex")]
 	private static uint GetShaderKeywordIndex(Shader shader, string keyword)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x600177F")]
-	[Address(RVA = "0x2F67C70", Offset = "0x2F66270", VA = "0x182F67C70")]
+	[Token(Token = "0x6001793")]
+	[Address(RVA = "0x6968980", Offset = "0x6967980", VA = "0x6968980")]
 	[UnityEngine.Bindings.FreeFunction("ShaderScripting::GetKeywordCount")]
 	private static uint GetComputeShaderKeywordCount(ComputeShader shader)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6001780")]
-	[Address(RVA = "0x2F67D30", Offset = "0x2F66330", VA = "0x182F67D30")]
+	[Token(Token = "0x6001794")]
+	[Address(RVA = "0x6968A40", Offset = "0x6967A40", VA = "0x6968A40")]
 	[UnityEngine.Bindings.FreeFunction("ShaderScripting::GetKeywordIndex")]
 	private static uint GetComputeShaderKeywordIndex(ComputeShader shader, string keyword)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6001781")]
-	[Address(RVA = "0x2F68400", Offset = "0x2F66A00", VA = "0x182F68400")]
+	[Token(Token = "0x6001795")]
+	[Address(RVA = "0x6968C30", Offset = "0x6967C30", VA = "0x6968C30")]
 	public LocalKeyword(Shader shader, string name)
 	{
 	}
 
-	[Token(Token = "0x6001782")]
-	[Address(RVA = "0x2F68210", Offset = "0x2F66810", VA = "0x182F68210")]
+	[Token(Token = "0x6001796")]
+	[Address(RVA = "0x6968E50", Offset = "0x6967E50", VA = "0x6968E50")]
 	public LocalKeyword(ComputeShader shader, string name)
 	{
 	}
 
-	[Token(Token = "0x6001783")]
-	[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0", Slot = "3")]
+	[Token(Token = "0x6001797")]
+	[Address(RVA = "0x6969070", Offset = "0x6968070", VA = "0x6969070", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001784")]
-	[Address(RVA = "0x2F67B60", Offset = "0x2F66160", VA = "0x182F67B60", Slot = "0")]
+	[Token(Token = "0x6001798")]
+	[Address(RVA = "0x6969080", Offset = "0x6968080", VA = "0x6969080", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001785")]
-	[Address(RVA = "0x2F67C00", Offset = "0x2F66200", VA = "0x182F67C00", Slot = "4")]
+	[Token(Token = "0x6001799")]
+	[Address(RVA = "0x69690F0", Offset = "0x69680F0", VA = "0x69690F0", Slot = "4")]
 	public bool Equals(LocalKeyword rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001786")]
-	[Address(RVA = "0x2F67F00", Offset = "0x2F66500", VA = "0x182F67F00", Slot = "2")]
+	[Token(Token = "0x600179A")]
+	[Address(RVA = "0x6969120", Offset = "0x6968120", VA = "0x6969120", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001787")]
-	[Address(RVA = "0x2F67F40", Offset = "0x2F66540", VA = "0x182F67F40")]
+	[Token(Token = "0x600179B")]
+	[Address(RVA = "0x6968760", Offset = "0x6967760", VA = "0x6968760")]
 	private static extern uint GetShaderKeywordCount_Injected(IntPtr shader);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001788")]
-	[Address(RVA = "0x2F67FF0", Offset = "0x2F665F0", VA = "0x182F67FF0")]
+	[Token(Token = "0x600179C")]
+	[Address(RVA = "0x6968940", Offset = "0x6967940", VA = "0x6968940")]
 	private static extern uint GetShaderKeywordIndex_Injected(IntPtr shader, ref ManagedSpanWrapper keyword);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001789")]
-	[Address(RVA = "0x2F67C30", Offset = "0x2F66230", VA = "0x182F67C30")]
+	[Token(Token = "0x600179D")]
+	[Address(RVA = "0x6968A10", Offset = "0x6967A10", VA = "0x6968A10")]
 	private static extern uint GetComputeShaderKeywordCount_Injected(IntPtr shader);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600178A")]
-	[Address(RVA = "0x2F67CE0", Offset = "0x2F662E0", VA = "0x182F67CE0")]
+	[Token(Token = "0x600179E")]
+	[Address(RVA = "0x6968BF0", Offset = "0x6967BF0", VA = "0x6968BF0")]
 	private static extern uint GetComputeShaderKeywordIndex_Injected(IntPtr shader, ref ManagedSpanWrapper keyword);
 }

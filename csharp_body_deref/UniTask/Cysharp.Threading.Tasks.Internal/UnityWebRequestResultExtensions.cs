@@ -14,7 +14,7 @@ namespace Cysharp.Threading.Tasks.Internal;
 internal static class UnityWebRequestResultExtensions
 {
 	[Token(Token = "0x6000D34")]
-	[Address(RVA = "0x294FFA0", Offset = "0x294E5A0", VA = "0x18294FFA0")]
+	[Address(RVA = "0x62E85C0", Offset = "0x62E75C0", VA = "0x62E85C0")]
 	public static bool IsError(this UnityWebRequest unityWebRequest)
 	{
 		return default(bool);

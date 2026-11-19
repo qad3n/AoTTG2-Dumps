@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200036E")]
+[Token(Token = "0x2000347")]
 [ComVisible(true)]
 public interface IEnvoyInfo
 {
-	[Token(Token = "0x17000331")]
+	[Token(Token = "0x17000330")]
 	IMessageSink EnvoySinks
 	{
-		[Token(Token = "0x6001C8A")]
+		[Token(Token = "0x6001C60")]
 		get;
 	}
 }

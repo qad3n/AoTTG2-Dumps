@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Translate
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x6002135")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B16FA0", Offset = "0x6B15FA0", VA = "0x6B16FA0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -38,7 +38,7 @@ public struct Translate : IEquatable<Translate>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002136")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B16FB0", Offset = "0x6B15FB0", VA = "0x6B16FB0", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -47,20 +47,20 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x6002137")]
-			[Address(RVA = "0x8EBC10", Offset = "0x8EA210", VA = "0x1808EBC10", Slot = "14")]
+			[Address(RVA = "0x6B16FC0", Offset = "0x6B15FC0", VA = "0x6B16FC0", Slot = "14")]
 			public override Length GetValue(ref Translate container)
 			{
 				return default(Length);
 			}
 
 			[Token(Token = "0x6002138")]
-			[Address(RVA = "0x310DC70", Offset = "0x310C270", VA = "0x18310DC70", Slot = "15")]
+			[Address(RVA = "0x6B16FD0", Offset = "0x6B15FD0", VA = "0x6B16FD0", Slot = "15")]
 			public override void SetValue(ref Translate container, Length value)
 			{
 			}
 
 			[Token(Token = "0x6002139")]
-			[Address(RVA = "0x3124F40", Offset = "0x3123540", VA = "0x183124F40")]
+			[Address(RVA = "0x6B16E80", Offset = "0x6B15E80", VA = "0x6B16E80")]
 			public XProperty()
 			{
 			}
@@ -73,7 +73,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x600213A")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B16FE0", Offset = "0x6B15FE0", VA = "0x6B16FE0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -85,7 +85,7 @@ public struct Translate : IEquatable<Translate>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x600213B")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B16FF0", Offset = "0x6B15FF0", VA = "0x6B16FF0", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -94,20 +94,20 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x600213C")]
-			[Address(RVA = "0x8EBCB0", Offset = "0x8EA2B0", VA = "0x1808EBCB0", Slot = "14")]
+			[Address(RVA = "0x6B17000", Offset = "0x6B16000", VA = "0x6B17000", Slot = "14")]
 			public override Length GetValue(ref Translate container)
 			{
 				return default(Length);
 			}
 
 			[Token(Token = "0x600213D")]
-			[Address(RVA = "0x3125020", Offset = "0x3123620", VA = "0x183125020", Slot = "15")]
+			[Address(RVA = "0x6B17010", Offset = "0x6B16010", VA = "0x6B17010", Slot = "15")]
 			public override void SetValue(ref Translate container, Length value)
 			{
 			}
 
 			[Token(Token = "0x600213E")]
-			[Address(RVA = "0x31250A0", Offset = "0x31236A0", VA = "0x1831250A0")]
+			[Address(RVA = "0x6B16EE0", Offset = "0x6B15EE0", VA = "0x6B16EE0")]
 			public YProperty()
 			{
 			}
@@ -120,7 +120,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x600213F")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B17020", Offset = "0x6B16020", VA = "0x6B17020", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -132,7 +132,7 @@ public struct Translate : IEquatable<Translate>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002140")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B17030", Offset = "0x6B16030", VA = "0x6B17030", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -141,27 +141,27 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x6002141")]
-			[Address(RVA = "0x3125110", Offset = "0x3123710", VA = "0x183125110", Slot = "14")]
+			[Address(RVA = "0x6B17040", Offset = "0x6B16040", VA = "0x6B17040", Slot = "14")]
 			public override float GetValue(ref Translate container)
 			{
 				return default(float);
 			}
 
 			[Token(Token = "0x6002142")]
-			[Address(RVA = "0x3125120", Offset = "0x3123720", VA = "0x183125120", Slot = "15")]
+			[Address(RVA = "0x6B17050", Offset = "0x6B16050", VA = "0x6B17050", Slot = "15")]
 			public override void SetValue(ref Translate container, float value)
 			{
 			}
 
 			[Token(Token = "0x6002143")]
-			[Address(RVA = "0x3125130", Offset = "0x3123730", VA = "0x183125130")]
+			[Address(RVA = "0x6B16F40", Offset = "0x6B15F40", VA = "0x6B16F40")]
 			public ZProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6002134")]
-		[Address(RVA = "0x310F9A0", Offset = "0x310DFA0", VA = "0x18310F9A0")]
+		[Address(RVA = "0x6B16C60", Offset = "0x6B15C60", VA = "0x6B16C60")]
 		public PropertyBag()
 		{
 		}
@@ -191,13 +191,13 @@ public struct Translate : IEquatable<Translate>
 	public Length x
 	{
 		[Token(Token = "0x6002128")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6B16910", Offset = "0x6B15910", VA = "0x6B16910")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6002129")]
-		[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+		[Address(RVA = "0x6B16920", Offset = "0x6B15920", VA = "0x6B16920")]
 		set
 		{
 		}
@@ -207,13 +207,13 @@ public struct Translate : IEquatable<Translate>
 	public Length y
 	{
 		[Token(Token = "0x600212A")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6B16930", Offset = "0x6B15930", VA = "0x6B16930")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x600212B")]
-		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
+		[Address(RVA = "0x6B16940", Offset = "0x6B15940", VA = "0x6B16940")]
 		set
 		{
 		}
@@ -223,81 +223,81 @@ public struct Translate : IEquatable<Translate>
 	public float z
 	{
 		[Token(Token = "0x600212C")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x6B16950", Offset = "0x6B15950", VA = "0x6B16950")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600212D")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x6B16960", Offset = "0x6B15960", VA = "0x6B16960")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002124")]
-	[Address(RVA = "0x311E810", Offset = "0x311CE10", VA = "0x18311E810")]
+	[Address(RVA = "0x6B168B0", Offset = "0x6B158B0", VA = "0x6B168B0")]
 	public Translate(Length x, Length y, float z)
 	{
 	}
 
 	[Token(Token = "0x6002125")]
-	[Address(RVA = "0x311E7A0", Offset = "0x311CDA0", VA = "0x18311E7A0")]
+	[Address(RVA = "0x6B168D0", Offset = "0x6B158D0", VA = "0x6B168D0")]
 	internal Translate(Vector3 v)
 	{
 	}
 
 	[Token(Token = "0x6002126")]
-	[Address(RVA = "0x311E8E0", Offset = "0x311CEE0", VA = "0x18311E8E0")]
+	[Address(RVA = "0x6B15170", Offset = "0x6B14170", VA = "0x6B15170")]
 	public static implicit operator Translate(Vector3 v)
 	{
 		return default(Translate);
 	}
 
 	[Token(Token = "0x6002127")]
-	[Address(RVA = "0x311E600", Offset = "0x311CC00", VA = "0x18311E600")]
+	[Address(RVA = "0x6B14F60", Offset = "0x6B13F60", VA = "0x6B14F60")]
 	public static Translate None()
 	{
 		return default(Translate);
 	}
 
 	[Token(Token = "0x600212E")]
-	[Address(RVA = "0x311E830", Offset = "0x311CE30", VA = "0x18311E830")]
+	[Address(RVA = "0x6B15080", Offset = "0x6B14080", VA = "0x6B15080")]
 	public static bool operator ==(Translate lhs, Translate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600212F")]
-	[Address(RVA = "0x311E980", Offset = "0x311CF80", VA = "0x18311E980")]
+	[Address(RVA = "0x6B16970", Offset = "0x6B15970", VA = "0x6B16970")]
 	public static bool operator !=(Translate lhs, Translate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002130")]
-	[Address(RVA = "0x311E430", Offset = "0x311CA30", VA = "0x18311E430", Slot = "4")]
+	[Address(RVA = "0x6B169D0", Offset = "0x6B159D0", VA = "0x6B169D0", Slot = "4")]
 	public bool Equals(Translate other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002131")]
-	[Address(RVA = "0x311E4E0", Offset = "0x311CAE0", VA = "0x18311E4E0", Slot = "0")]
+	[Address(RVA = "0x6B16A20", Offset = "0x6B15A20", VA = "0x6B16A20", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002132")]
-	[Address(RVA = "0x311E040", Offset = "0x311C640", VA = "0x18311E040", Slot = "2")]
+	[Address(RVA = "0x6B15340", Offset = "0x6B14340", VA = "0x6B15340", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002133")]
-	[Address(RVA = "0x311E630", Offset = "0x311CC30", VA = "0x18311E630", Slot = "3")]
+	[Address(RVA = "0x6B16AD0", Offset = "0x6B15AD0", VA = "0x6B16AD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

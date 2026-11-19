@@ -12,8 +12,8 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200034B")]
 public enum GraphicsFenceType
 {
-	[Token(Token = "0x400097D")]
+	[Token(Token = "0x400097B")]
 	AsyncQueueSynchronisation,
-	[Token(Token = "0x400097E")]
+	[Token(Token = "0x400097C")]
 	CPUSynchronisation
 }

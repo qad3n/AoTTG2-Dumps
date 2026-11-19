@@ -13,240 +13,240 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000080")]
+[Token(Token = "0x2000081")]
 internal sealed class ExpressionStringBuilder : ExpressionVisitor
 {
-	[Token(Token = "0x4000121")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly StringBuilder _out;
 
-	[Token(Token = "0x4000122")]
+	[Token(Token = "0x400012B")]
 	[FieldOffset(Offset = "0x18")]
 	private Dictionary<object, int> _ids;
 
-	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x2437FB0", Offset = "0x24365B0", VA = "0x182437FB0")]
+	[Token(Token = "0x60003BA")]
+	[Address(RVA = "0x5DCD480", Offset = "0x5DCC480", VA = "0x5DCD480")]
 	private ExpressionStringBuilder()
 	{
 	}
 
-	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0xC8D930", Offset = "0xC8BF30", VA = "0x180C8D930", Slot = "3")]
+	[Token(Token = "0x60003BB")]
+	[Address(RVA = "0x5DCD500", Offset = "0x5DCC500", VA = "0x5DCD500", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x2435CE0", Offset = "0x24342E0", VA = "0x182435CE0")]
+	[Token(Token = "0x60003BC")]
+	[Address(RVA = "0x5DCD530", Offset = "0x5DCC530", VA = "0x5DCD530")]
 	private int GetLabelId(LabelTarget label)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x2435CE0", Offset = "0x24342E0", VA = "0x182435CE0")]
+	[Token(Token = "0x60003BD")]
+	[Address(RVA = "0x5DCD650", Offset = "0x5DCC650", VA = "0x5DCD650")]
 	private int GetParamId(ParameterExpression p)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x2435BD0", Offset = "0x24341D0", VA = "0x182435BD0")]
+	[Token(Token = "0x60003BE")]
+	[Address(RVA = "0x5DCD540", Offset = "0x5DCC540", VA = "0x5DCD540")]
 	private int GetId(object o)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x2435EC0", Offset = "0x24344C0", VA = "0x182435EC0")]
+	[Token(Token = "0x60003BF")]
+	[Address(RVA = "0x5DCD660", Offset = "0x5DCC660", VA = "0x5DCD660")]
 	private void Out(string s)
 	{
 	}
 
-	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x2435EE0", Offset = "0x24344E0", VA = "0x182435EE0")]
+	[Token(Token = "0x60003C0")]
+	[Address(RVA = "0x5DCD680", Offset = "0x5DCC680", VA = "0x5DCD680")]
 	private void Out(char c)
 	{
 	}
 
-	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x2435B00", Offset = "0x2434100", VA = "0x182435B00")]
+	[Token(Token = "0x60003C1")]
+	[Address(RVA = "0x5DCD6A0", Offset = "0x5DCC6A0", VA = "0x5DCD6A0")]
 	internal static string ExpressionToString(Expression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x242B040", Offset = "0x2429640", VA = "0x18242B040")]
+	[Token(Token = "0x60003C2")]
+	[Address(RVA = "0x5DC61B0", Offset = "0x5DC51B0", VA = "0x5DC61B0")]
 	internal static string CatchBlockToString(CatchBlock node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B8")]
+	[Token(Token = "0x60003C3")]
 	private void VisitExpressions<T>(char open, ReadOnlyCollection<T> expressions, char close) where T : Expression
 	{
 	}
 
-	[Token(Token = "0x60003B9")]
+	[Token(Token = "0x60003C4")]
 	private void VisitExpressions<T>(char open, ReadOnlyCollection<T> expressions, char close, string seperator) where T : Expression
 	{
 	}
 
-	[Token(Token = "0x60003BA")]
-	[Address(RVA = "0x2435F00", Offset = "0x2434500", VA = "0x182435F00", Slot = "5")]
+	[Token(Token = "0x60003C5")]
+	[Address(RVA = "0x5DCD760", Offset = "0x5DCC760", VA = "0x5DCD760", Slot = "5")]
 	protected internal override Expression VisitBinary(BinaryExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BB")]
-	[Address(RVA = "0x2437830", Offset = "0x2435E30", VA = "0x182437830", Slot = "21")]
+	[Token(Token = "0x60003C6")]
+	[Address(RVA = "0x5DCDD80", Offset = "0x5DCCD80", VA = "0x5DCDD80", Slot = "21")]
 	protected internal override Expression VisitParameter(ParameterExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BC")]
+	[Token(Token = "0x60003C7")]
 	protected internal override Expression VisitLambda<T>(Expression<T> node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x24368E0", Offset = "0x2434EE0", VA = "0x1824368E0", Slot = "7")]
+	[Token(Token = "0x60003C8")]
+	[Address(RVA = "0x5DCDE90", Offset = "0x5DCCE90", VA = "0x5DCDE90", Slot = "7")]
 	protected internal override Expression VisitConditional(ConditionalExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x2436A00", Offset = "0x2435000", VA = "0x182436A00", Slot = "8")]
+	[Token(Token = "0x60003C9")]
+	[Address(RVA = "0x5DCDFA0", Offset = "0x5DCCFA0", VA = "0x5DCDFA0", Slot = "8")]
 	protected internal override Expression VisitConstant(ConstantExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x2435DF0", Offset = "0x24343F0", VA = "0x182435DF0")]
+	[Token(Token = "0x60003CA")]
+	[Address(RVA = "0x5DCE110", Offset = "0x5DCD110", VA = "0x5DCE110")]
 	private void OutMember(Expression instance, MemberInfo member)
 	{
 	}
 
-	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x2437410", Offset = "0x2435A10", VA = "0x182437410", Slot = "17")]
+	[Token(Token = "0x60003CB")]
+	[Address(RVA = "0x5DCE1E0", Offset = "0x5DCD1E0", VA = "0x5DCE1E0", Slot = "17")]
 	protected internal override Expression VisitMember(MemberExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x24371F0", Offset = "0x24357F0", VA = "0x1824371F0", Slot = "12")]
+	[Token(Token = "0x60003CC")]
+	[Address(RVA = "0x5DCE250", Offset = "0x5DCD250", VA = "0x5DCE250", Slot = "12")]
 	protected internal override Expression VisitInvocation(InvocationExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x2437510", Offset = "0x2435B10", VA = "0x182437510", Slot = "19")]
+	[Token(Token = "0x60003CD")]
+	[Address(RVA = "0x5DCE360", Offset = "0x5DCD360", VA = "0x5DCE360", Slot = "19")]
 	protected internal override Expression VisitMethodCall(MethodCallExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x2437700", Offset = "0x2435D00", VA = "0x182437700", Slot = "20")]
+	[Token(Token = "0x60003CE")]
+	[Address(RVA = "0x5DCE5B0", Offset = "0x5DCD5B0", VA = "0x5DCE5B0", Slot = "20")]
 	protected internal override Expression VisitNewArray(NewArrayExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x2437990", Offset = "0x2435F90", VA = "0x182437990", Slot = "24")]
+	[Token(Token = "0x60003CF")]
+	[Address(RVA = "0x5DCE6F0", Offset = "0x5DCD6F0", VA = "0x5DCE6F0", Slot = "24")]
 	protected internal override Expression VisitTypeBinary(TypeBinaryExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x2437AA0", Offset = "0x24360A0", VA = "0x182437AA0", Slot = "25")]
+	[Token(Token = "0x60003D0")]
+	[Address(RVA = "0x5DCE800", Offset = "0x5DCD800", VA = "0x5DCE800", Slot = "25")]
 	protected internal override Expression VisitUnary(UnaryExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x2436520", Offset = "0x2434B20", VA = "0x182436520", Slot = "6")]
+	[Token(Token = "0x60003D1")]
+	[Address(RVA = "0x5DCEC00", Offset = "0x5DCDC00", VA = "0x5DCEC00", Slot = "6")]
 	protected internal override Expression VisitBlock(BlockExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x2436BB0", Offset = "0x24351B0", VA = "0x182436BB0", Slot = "9")]
+	[Token(Token = "0x60003D2")]
+	[Address(RVA = "0x5DCEF40", Offset = "0x5DCDF40", VA = "0x5DCEF40", Slot = "9")]
 	protected internal override Expression VisitDefault(DefaultExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x2437320", Offset = "0x2435920", VA = "0x182437320", Slot = "14")]
+	[Token(Token = "0x60003D3")]
+	[Address(RVA = "0x5DCEFF0", Offset = "0x5DCDFF0", VA = "0x5DCEFF0", Slot = "14")]
 	protected internal override Expression VisitLabel(LabelExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x2436E70", Offset = "0x2435470", VA = "0x182436E70", Slot = "11")]
+	[Token(Token = "0x60003D4")]
+	[Address(RVA = "0x5DCF120", Offset = "0x5DCE120", VA = "0x5DCF120", Slot = "11")]
 	protected internal override Expression VisitGoto(GotoExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x24373B0", Offset = "0x24359B0", VA = "0x1824373B0", Slot = "16")]
+	[Token(Token = "0x60003D5")]
+	[Address(RVA = "0x5DCF280", Offset = "0x5DCE280", VA = "0x5DCF280", Slot = "16")]
 	protected internal override Expression VisitLoop(LoopExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x24367D0", Offset = "0x2434DD0", VA = "0x1824367D0", Slot = "22")]
+	[Token(Token = "0x60003D6")]
+	[Address(RVA = "0x5DCF2D0", Offset = "0x5DCE2D0", VA = "0x5DCF2D0", Slot = "22")]
 	protected override CatchBlock VisitCatchBlock(CatchBlock node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x2437930", Offset = "0x2435F30", VA = "0x182437930", Slot = "23")]
+	[Token(Token = "0x60003D7")]
+	[Address(RVA = "0x5DCF3E0", Offset = "0x5DCE3E0", VA = "0x5DCF3E0", Slot = "23")]
 	protected internal override Expression VisitTry(TryExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x2437000", Offset = "0x2435600", VA = "0x182437000", Slot = "18")]
+	[Token(Token = "0x60003D8")]
+	[Address(RVA = "0x5DCF430", Offset = "0x5DCE430", VA = "0x5DCF430", Slot = "18")]
 	protected internal override Expression VisitIndex(IndexExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x2436C70", Offset = "0x2435270", VA = "0x182436C70", Slot = "10")]
+	[Token(Token = "0x60003D9")]
+	[Address(RVA = "0x5DCF850", Offset = "0x5DCE850", VA = "0x5DCF850", Slot = "10")]
 	protected internal override Expression VisitExtension(Expression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x2435A40", Offset = "0x2434040", VA = "0x182435A40")]
+	[Token(Token = "0x60003DA")]
+	[Address(RVA = "0x5DCF070", Offset = "0x5DCE070", VA = "0x5DCF070")]
 	private void DumpLabel(LabelTarget target)
 	{
 	}
 
-	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x2435CF0", Offset = "0x24342F0", VA = "0x182435CF0")]
+	[Token(Token = "0x60003DB")]
+	[Address(RVA = "0x5DCDC80", Offset = "0x5DCCC80", VA = "0x5DCDC80")]
 	private static bool IsBool(Expression node)
 	{
 		return default(bool);

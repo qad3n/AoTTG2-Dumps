@@ -35,31 +35,31 @@ public struct ProfilingSample : IDisposable
 	private CustomSampler m_Sampler;
 
 	[Token(Token = "0x60007C5")]
-	[Address(RVA = "0x2AE4120", Offset = "0x2AE2720", VA = "0x182AE4120")]
+	[Address(RVA = "0x64D8B90", Offset = "0x64D7B90", VA = "0x64D8B90")]
 	public ProfilingSample(CommandBuffer cmd, string name, [Optional] CustomSampler sampler)
 	{
 	}
 
 	[Token(Token = "0x60007C6")]
-	[Address(RVA = "0x2AE41C0", Offset = "0x2AE27C0", VA = "0x182AE41C0")]
+	[Address(RVA = "0x64D8C30", Offset = "0x64D7C30", VA = "0x64D8C30")]
 	public ProfilingSample(CommandBuffer cmd, string format, object arg)
 	{
 	}
 
 	[Token(Token = "0x60007C7")]
-	[Address(RVA = "0x2AE4280", Offset = "0x2AE2880", VA = "0x182AE4280")]
+	[Address(RVA = "0x64D8CD0", Offset = "0x64D7CD0", VA = "0x64D8CD0")]
 	public ProfilingSample(CommandBuffer cmd, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60007C8")]
-	[Address(RVA = "0x2AE40B0", Offset = "0x2AE26B0", VA = "0x182AE40B0", Slot = "4")]
+	[Address(RVA = "0x64D8D70", Offset = "0x64D7D70", VA = "0x64D8D70", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60007C9")]
-	[Address(RVA = "0x2AE4030", Offset = "0x2AE2630", VA = "0x182AE4030")]
+	[Address(RVA = "0x64D8DE0", Offset = "0x64D7DE0", VA = "0x64D8DE0")]
 	private void Dispose(bool disposing)
 	{
 	}

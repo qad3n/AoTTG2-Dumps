@@ -11,118 +11,118 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004AC")]
+[Token(Token = "0x200050B")]
 [CompilerGenerated]
 internal class CustomLogicFontScaleModeEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20004AD")]
+	[Token(Token = "0x200050C")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002667")]
-		[Address(RVA = "0x1FA4520", Offset = "0x1FA2B20", VA = "0x181FA4520")]
+		[Token(Token = "0x60028E1")]
+		[Address(RVA = "0x5963DE0", Offset = "0x5962DE0", VA = "0x5963DE0")]
 		public static CustomLogicFontScaleModeEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20004AE")]
+	[Token(Token = "0x200050D")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400162A")]
+		[Token(Token = "0x40017CA")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002668")]
-		[Address(RVA = "0x1F80C50", Offset = "0x1F7F250", VA = "0x181F80C50")]
+		[Token(Token = "0x60028E2")]
+		[Address(RVA = "0x5963F00", Offset = "0x5962F00", VA = "0x5963F00")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002669")]
-		[Address(RVA = "0x1F97B60", Offset = "0x1F96160", VA = "0x181F97B60")]
+		[Token(Token = "0x60028E3")]
+		[Address(RVA = "0x5964040", Offset = "0x5963040", VA = "0x5964040")]
 		public static CLPropertyBinding<CustomLogicFontScaleModeEnum> __CreatePropertyBinding__Height()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600266A")]
-		[Address(RVA = "0x1F9C8E0", Offset = "0x1F9AEE0", VA = "0x181F9C8E0")]
+		[Token(Token = "0x60028E4")]
+		[Address(RVA = "0x59640E0", Offset = "0x59630E0", VA = "0x59640E0")]
 		public static CLPropertyBinding<CustomLogicFontScaleModeEnum> __CreatePropertyBinding__Width()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055C")]
+	[Token(Token = "0x1700059E")]
 	public static int Height
 	{
-		[Token(Token = "0x6002661")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x60028DB")]
+		[Address(RVA = "0x5963D60", Offset = "0x5962D60", VA = "0x5963D60")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700055D")]
+	[Token(Token = "0x1700059F")]
 	public static int Width
 	{
-		[Token(Token = "0x6002662")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x60028DC")]
+		[Address(RVA = "0x5963D70", Offset = "0x5962D70", VA = "0x5963D70")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700055E")]
+	[Token(Token = "0x170005A0")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002663")]
-		[Address(RVA = "0x1FA0F20", Offset = "0x1F9F520", VA = "0x181FA0F20", Slot = "6")]
+		[Token(Token = "0x60028DD")]
+		[Address(RVA = "0x5963D80", Offset = "0x5962D80", VA = "0x5963D80", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055F")]
+	[Token(Token = "0x170005A1")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002664")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x60028DE")]
+		[Address(RVA = "0x5963DB0", Offset = "0x5962DB0", VA = "0x5963DB0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000560")]
+	[Token(Token = "0x170005A2")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002665")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x60028DF")]
+		[Address(RVA = "0x5963DC0", Offset = "0x5962DC0", VA = "0x5963DC0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000561")]
+	[Token(Token = "0x170005A3")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002666")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x60028E0")]
+		[Address(RVA = "0x5963DD0", Offset = "0x5962DD0", VA = "0x5963DD0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002660")]
-	[Address(RVA = "0x1FA0ED0", Offset = "0x1F9F4D0", VA = "0x181FA0ED0")]
+	[Token(Token = "0x60028DA")]
+	[Address(RVA = "0x5963CF0", Offset = "0x5962CF0", VA = "0x5963CF0")]
 	public CustomLogicFontScaleModeEnum()
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001F0")]
+[Token(Token = "0x20001B1")]
 public interface IEditableObject
 {
-	[Token(Token = "0x6000D12")]
+	[Token(Token = "0x6000B52")]
 	void BeginEdit();
 
-	[Token(Token = "0x6000D13")]
+	[Token(Token = "0x6000B53")]
 	void EndEdit();
 
-	[Token(Token = "0x6000D14")]
+	[Token(Token = "0x6000B54")]
 	void CancelEdit();
 }

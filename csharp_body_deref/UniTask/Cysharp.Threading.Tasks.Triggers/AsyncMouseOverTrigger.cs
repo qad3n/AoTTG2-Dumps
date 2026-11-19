@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncMouseOverTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x2932290", Offset = "0x2930890", VA = "0x182932290")]
+	[Address(RVA = "0x62FCEF0", Offset = "0x62FBEF0", VA = "0x62FCEF0")]
 	private void OnMouseOver()
 	{
 	}
 
 	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x2931F80", Offset = "0x2930580", VA = "0x182931F80")]
+	[Address(RVA = "0x62FCF60", Offset = "0x62FBF60", VA = "0x62FCF60")]
 	public IAsyncOnMouseOverHandler GetOnMouseOverAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x2931FF0", Offset = "0x29305F0", VA = "0x182931FF0")]
+	[Address(RVA = "0x62FCFD0", Offset = "0x62FBFD0", VA = "0x62FCFD0")]
 	public IAsyncOnMouseOverHandler GetOnMouseOverAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x2932180", Offset = "0x2930780", VA = "0x182932180")]
+	[Address(RVA = "0x62FD040", Offset = "0x62FC040", VA = "0x62FD040")]
 	public UniTask OnMouseOverAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x2932070", Offset = "0x2930670", VA = "0x182932070")]
+	[Address(RVA = "0x62FD130", Offset = "0x62FC130", VA = "0x62FD130")]
 	public UniTask OnMouseOverAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x2932300", Offset = "0x2930900", VA = "0x182932300")]
+	[Address(RVA = "0x62FD220", Offset = "0x62FC220", VA = "0x62FD220")]
 	public AsyncMouseOverTrigger()
 	{
 	}

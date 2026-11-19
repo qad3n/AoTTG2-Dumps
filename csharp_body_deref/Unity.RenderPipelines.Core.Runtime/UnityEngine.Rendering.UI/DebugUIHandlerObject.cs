@@ -22,26 +22,26 @@ public class DebugUIHandlerObject : DebugUIHandlerWidget
 	public Text valueLabel;
 
 	[Token(Token = "0x6001470")]
-	[Address(RVA = "0x2BAE930", Offset = "0x2BACF30", VA = "0x182BAE930", Slot = "5")]
+	[Address(RVA = "0x65A9C90", Offset = "0x65A8C90", VA = "0x65A9C90", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6001471")]
-	[Address(RVA = "0x2BACCA0", Offset = "0x2BAB2A0", VA = "0x182BACCA0", Slot = "6")]
+	[Address(RVA = "0x65A9DB0", Offset = "0x65A8DB0", VA = "0x65A9DB0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001472")]
-	[Address(RVA = "0x2BACC20", Offset = "0x2BAB220", VA = "0x182BACC20", Slot = "7")]
+	[Address(RVA = "0x65A9E10", Offset = "0x65A8E10", VA = "0x65A9E10", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6001473")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65A9E70", Offset = "0x65A8E70", VA = "0x65A9E70")]
 	public DebugUIHandlerObject()
 	{
 	}

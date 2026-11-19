@@ -21,21 +21,21 @@ public class fsCyclicReferenceManager
 		public static readonly IEqualityComparer<object> Instance;
 
 		[Token(Token = "0x60012F3")]
-		[Address(RVA = "0xC7E810", Offset = "0xC7CE10", VA = "0x180C7E810", Slot = "4")]
+		[Address(RVA = "0x6871E50", Offset = "0x6870E50", VA = "0x6871E50", Slot = "4")]
 		private bool System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EEquals(object x, object y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012F4")]
-		[Address(RVA = "0x1C51D90", Offset = "0x1C50390", VA = "0x181C51D90", Slot = "5")]
+		[Address(RVA = "0x6871E60", Offset = "0x6870E60", VA = "0x6871E60", Slot = "5")]
 		private int System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EGetHashCode(object obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60012F5")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6871E70", Offset = "0x6870E70", VA = "0x6871E70")]
 		public ObjectReferenceEqualityComparator()
 		{
 		}
@@ -58,53 +58,53 @@ public class fsCyclicReferenceManager
 	private int _depth;
 
 	[Token(Token = "0x60012EB")]
-	[Address(RVA = "0xE47CB0", Offset = "0xE462B0", VA = "0x180E47CB0")]
+	[Address(RVA = "0x686CAE0", Offset = "0x686BAE0", VA = "0x686CAE0")]
 	public void Enter()
 	{
 	}
 
 	[Token(Token = "0x60012EC")]
-	[Address(RVA = "0x2E705A0", Offset = "0x2E6EBA0", VA = "0x182E705A0")]
+	[Address(RVA = "0x6871CE0", Offset = "0x6870CE0", VA = "0x6871CE0")]
 	public bool Exit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012ED")]
-	[Address(RVA = "0x2E707B0", Offset = "0x2E6EDB0", VA = "0x182E707B0")]
+	[Address(RVA = "0x686EA00", Offset = "0x686DA00", VA = "0x686EA00")]
 	public object GetReferenceObject(int id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012EE")]
-	[Address(RVA = "0x2E70530", Offset = "0x2E6EB30", VA = "0x182E70530")]
+	[Address(RVA = "0x686FC40", Offset = "0x686EC40", VA = "0x686FC40")]
 	public void AddReferenceWithId(int id, object reference)
 	{
 	}
 
 	[Token(Token = "0x60012EF")]
-	[Address(RVA = "0x2E70710", Offset = "0x2E6ED10", VA = "0x182E70710")]
+	[Address(RVA = "0x686CF20", Offset = "0x686BF20", VA = "0x686CF20")]
 	public int GetReferenceId(object item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012F0")]
-	[Address(RVA = "0x2E708B0", Offset = "0x2E6EEB0", VA = "0x182E708B0")]
+	[Address(RVA = "0x686CEC0", Offset = "0x686BEC0", VA = "0x686CEC0")]
 	public bool IsReference(object item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012F1")]
-	[Address(RVA = "0x2E70920", Offset = "0x2E6EF20", VA = "0x182E70920")]
+	[Address(RVA = "0x686D200", Offset = "0x686C200", VA = "0x686D200")]
 	public void MarkSerialized(object item)
 	{
 	}
 
 	[Token(Token = "0x60012F2")]
-	[Address(RVA = "0x2E70A50", Offset = "0x2E6F050", VA = "0x182E70A50")]
+	[Address(RVA = "0x686B130", Offset = "0x686A130", VA = "0x686B130")]
 	public fsCyclicReferenceManager()
 	{
 	}

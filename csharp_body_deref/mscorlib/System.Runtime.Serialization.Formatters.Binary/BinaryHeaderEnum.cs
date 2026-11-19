@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000425")]
+[Token(Token = "0x20003FE")]
 internal enum BinaryHeaderEnum
 {
-	[Token(Token = "0x4001045")]
+	[Token(Token = "0x4000FA5")]
 	SerializedStreamHeader,
-	[Token(Token = "0x4001046")]
+	[Token(Token = "0x4000FA6")]
 	Object,
-	[Token(Token = "0x4001047")]
+	[Token(Token = "0x4000FA7")]
 	ObjectWithMap,
-	[Token(Token = "0x4001048")]
+	[Token(Token = "0x4000FA8")]
 	ObjectWithMapAssemId,
-	[Token(Token = "0x4001049")]
+	[Token(Token = "0x4000FA9")]
 	ObjectWithMapTyped,
-	[Token(Token = "0x400104A")]
+	[Token(Token = "0x4000FAA")]
 	ObjectWithMapTypedAssemId,
-	[Token(Token = "0x400104B")]
+	[Token(Token = "0x4000FAB")]
 	ObjectString,
-	[Token(Token = "0x400104C")]
+	[Token(Token = "0x4000FAC")]
 	Array,
-	[Token(Token = "0x400104D")]
+	[Token(Token = "0x4000FAD")]
 	MemberPrimitiveTyped,
-	[Token(Token = "0x400104E")]
+	[Token(Token = "0x4000FAE")]
 	MemberReference,
-	[Token(Token = "0x400104F")]
+	[Token(Token = "0x4000FAF")]
 	ObjectNull,
-	[Token(Token = "0x4001050")]
+	[Token(Token = "0x4000FB0")]
 	MessageEnd,
-	[Token(Token = "0x4001051")]
+	[Token(Token = "0x4000FB1")]
 	Assembly,
-	[Token(Token = "0x4001052")]
+	[Token(Token = "0x4000FB2")]
 	ObjectNullMultiple256,
-	[Token(Token = "0x4001053")]
+	[Token(Token = "0x4000FB3")]
 	ObjectNullMultiple,
-	[Token(Token = "0x4001054")]
+	[Token(Token = "0x4000FB4")]
 	ArraySinglePrimitive,
-	[Token(Token = "0x4001055")]
+	[Token(Token = "0x4000FB5")]
 	ArraySingleObject,
-	[Token(Token = "0x4001056")]
+	[Token(Token = "0x4000FB6")]
 	ArraySingleString,
-	[Token(Token = "0x4001057")]
+	[Token(Token = "0x4000FB7")]
 	CrossAppDomainMap,
-	[Token(Token = "0x4001058")]
+	[Token(Token = "0x4000FB8")]
 	CrossAppDomainString,
-	[Token(Token = "0x4001059")]
+	[Token(Token = "0x4000FB9")]
 	CrossAppDomainAssembly,
-	[Token(Token = "0x400105A")]
+	[Token(Token = "0x4000FBA")]
 	MethodCall,
-	[Token(Token = "0x400105B")]
+	[Token(Token = "0x4000FBB")]
 	MethodReturn
 }

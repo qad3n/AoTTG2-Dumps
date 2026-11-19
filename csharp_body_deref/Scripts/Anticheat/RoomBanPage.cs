@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x200097B")]
+[Token(Token = "0x20009E1")]
 internal class RoomBanPage
 {
-	[Token(Token = "0x4002EC3")]
+	[Token(Token = "0x4003173")]
 	[FieldOffset(Offset = "0x10")]
 	public int Count;
 
-	[Token(Token = "0x4002EC4")]
+	[Token(Token = "0x4003174")]
 	[FieldOffset(Offset = "0x14")]
 	public int EndIndex;
 
-	[Token(Token = "0x4002EC5")]
+	[Token(Token = "0x4003175")]
 	[FieldOffset(Offset = "0x18")]
 	public RoomBanEntry[] Entries;
 
-	[Token(Token = "0x60057E0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005B37")]
+	[Address(RVA = "0x5D37AB0", Offset = "0x5D36AB0", VA = "0x5D37AB0")]
 	public RoomBanPage()
 	{
 	}

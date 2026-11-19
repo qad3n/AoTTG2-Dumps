@@ -18,19 +18,19 @@ public static class FontUpdateTracker
 	private static Dictionary<Font, HashSet<Text>> m_Tracked;
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x306D520", Offset = "0x306BB20", VA = "0x18306D520")]
+	[Address(RVA = "0x6A69D10", Offset = "0x6A68D10", VA = "0x6A69D10")]
 	public static void TrackText(Text t)
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x306D320", Offset = "0x306B920", VA = "0x18306D320")]
+	[Address(RVA = "0x6A69F60", Offset = "0x6A68F60", VA = "0x6A69F60")]
 	private static void RebuildForFont(Font f)
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x306D770", Offset = "0x306BD70", VA = "0x18306D770")]
+	[Address(RVA = "0x6A6A1A0", Offset = "0x6A691A0", VA = "0x6A6A1A0")]
 	public static void UntrackText(Text t)
 	{
 	}

@@ -14,8 +14,8 @@ namespace JetBrains.Annotations;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Parameter | AttributeTargets.Delegate | AttributeTargets.GenericParameter)]
 public sealed class CanBeNullAttribute : Attribute
 {
-	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60001A2")]
+	[Address(RVA = "0x68B8C00", Offset = "0x68B7C00", VA = "0x68B8C00")]
 	public CanBeNullAttribute()
 	{
 	}

@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002BE")]
+[Token(Token = "0x200027F")]
 [Flags]
 public enum SecurityProtocolType
 {
-	[Token(Token = "0x4000A43")]
+	[Token(Token = "0x4000974")]
 	SystemDefault = 0,
-	[Token(Token = "0x4000A44")]
+	[Token(Token = "0x4000975")]
 	Ssl3 = 0x30,
-	[Token(Token = "0x4000A45")]
+	[Token(Token = "0x4000976")]
 	Tls = 0xC0,
-	[Token(Token = "0x4000A46")]
+	[Token(Token = "0x4000977")]
 	Tls11 = 0x300,
-	[Token(Token = "0x4000A47")]
+	[Token(Token = "0x4000978")]
 	Tls12 = 0xC00,
-	[Token(Token = "0x4000A48")]
+	[Token(Token = "0x4000979")]
 	Tls13 = 0x3000
 }

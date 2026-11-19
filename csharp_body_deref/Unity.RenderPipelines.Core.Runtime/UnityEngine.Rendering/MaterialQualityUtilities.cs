@@ -27,40 +27,40 @@ public static class MaterialQualityUtilities
 	public static ShaderKeyword[] Keywords;
 
 	[Token(Token = "0x6000E83")]
-	[Address(RVA = "0x2B5DC70", Offset = "0x2B5C270", VA = "0x182B5DC70")]
+	[Address(RVA = "0x654E280", Offset = "0x654D280", VA = "0x654E280")]
 	public static MaterialQuality GetHighestQuality(this MaterialQuality levels)
 	{
 		return default(MaterialQuality);
 	}
 
 	[Token(Token = "0x6000E84")]
-	[Address(RVA = "0x2B5DAB0", Offset = "0x2B5C0B0", VA = "0x182B5DAB0")]
+	[Address(RVA = "0x654E330", Offset = "0x654D330", VA = "0x654E330")]
 	public static MaterialQuality GetClosestQuality(this MaterialQuality availableLevels, MaterialQuality requestedLevel)
 	{
 		return default(MaterialQuality);
 	}
 
 	[Token(Token = "0x6000E85")]
-	[Address(RVA = "0x2B5DCF0", Offset = "0x2B5C2F0", VA = "0x182B5DCF0")]
+	[Address(RVA = "0x654E560", Offset = "0x654D560", VA = "0x654E560")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level)
 	{
 	}
 
 	[Token(Token = "0x6000E86")]
-	[Address(RVA = "0x2B5DE00", Offset = "0x2B5C400", VA = "0x182B5DE00")]
+	[Address(RVA = "0x654E650", Offset = "0x654D650", VA = "0x654E650")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level, CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000E87")]
-	[Address(RVA = "0x2B5DF40", Offset = "0x2B5C540", VA = "0x182B5DF40")]
+	[Address(RVA = "0x654E480", Offset = "0x654D480", VA = "0x654E480")]
 	public static int ToFirstIndex(this MaterialQuality level)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E88")]
-	[Address(RVA = "0x2B5DAA0", Offset = "0x2B5C0A0", VA = "0x182B5DAA0")]
+	[Address(RVA = "0x654E550", Offset = "0x654D550", VA = "0x654E550")]
 	public static MaterialQuality FromIndex(int index)
 	{
 		return default(MaterialQuality);

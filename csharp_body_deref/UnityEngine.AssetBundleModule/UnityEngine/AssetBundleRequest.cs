@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AssetBundleRequest
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ public class AssetBundleRequest : ResourceRequest
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x68AE010", Offset = "0x68AD010", VA = "0x68AE010")]
 		public static IntPtr ConvertToNative(AssetBundleRequest request)
 		{
 			return default(IntPtr);
@@ -35,7 +35,7 @@ public class AssetBundleRequest : ResourceRequest
 	public new Object asset
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x1B47C10", Offset = "0x1B46210", VA = "0x181B47C10")]
+		[Address(RVA = "0x68ADF60", Offset = "0x68ACF60", VA = "0x68ADF60")]
 		get
 		{
 			return null;
@@ -46,7 +46,7 @@ public class AssetBundleRequest : ResourceRequest
 	public Object[] allAssets
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x2EB1590", Offset = "0x2EAFB90", VA = "0x182EB1590")]
+		[Address(RVA = "0x68ADF80", Offset = "0x68ACF80", VA = "0x68ADF80")]
 		[UnityEngine.Bindings.NativeMethod("GetAllLoadedAssets")]
 		get
 		{
@@ -56,6 +56,6 @@ public class AssetBundleRequest : ResourceRequest
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2EB1550", Offset = "0x2EAFB50", VA = "0x182EB1550")]
+	[Address(RVA = "0x68ADFE0", Offset = "0x68ACFE0", VA = "0x68ADFE0")]
 	private static extern Object[] get_allAssets_Injected(IntPtr _unity_self);
 }

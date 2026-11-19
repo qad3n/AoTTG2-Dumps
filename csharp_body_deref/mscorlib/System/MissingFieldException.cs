@@ -11,40 +11,40 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200016B")]
+[Token(Token = "0x2000143")]
 public class MissingFieldException : MissingMemberException, ISerializable
 {
 	[Token(Token = "0x17000115")]
 	public override string Message
 	{
-		[Token(Token = "0x6000CD0")]
-		[Address(RVA = "0x1B442A0", Offset = "0x1B428A0", VA = "0x181B442A0", Slot = "5")]
+		[Token(Token = "0x6000CAB")]
+		[Address(RVA = "0x54E2090", Offset = "0x54E1090", VA = "0x54E2090", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000CCC")]
-	[Address(RVA = "0x1B441A0", Offset = "0x1B427A0", VA = "0x181B441A0")]
+	[Token(Token = "0x6000CA7")]
+	[Address(RVA = "0x54E1D80", Offset = "0x54E0D80", VA = "0x54E1D80")]
 	public MissingFieldException()
 	{
 	}
 
-	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x1B44280", Offset = "0x1B42880", VA = "0x181B44280")]
+	[Token(Token = "0x6000CA8")]
+	[Address(RVA = "0x54E1DE0", Offset = "0x54E0DE0", VA = "0x54E1DE0")]
 	public MissingFieldException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x1B441F0", Offset = "0x1B427F0", VA = "0x181B441F0")]
+	[Token(Token = "0x6000CA9")]
+	[Address(RVA = "0x54E1E00", Offset = "0x54E0E00", VA = "0x54E1E00")]
 	public MissingFieldException(string className, string fieldName)
 	{
 	}
 
-	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x1B2E1A0", Offset = "0x1B2C7A0", VA = "0x181B2E1A0")]
+	[Token(Token = "0x6000CAA")]
+	[Address(RVA = "0x54E1EC0", Offset = "0x54E0EC0", VA = "0x54E1EC0")]
 	protected MissingFieldException(SerializationInfo info, StreamingContext context)
 	{
 	}

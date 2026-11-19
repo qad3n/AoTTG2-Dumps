@@ -17,14 +17,14 @@ public abstract class NamingStrategy
 	public bool ProcessDictionaryKeys
 	{
 		[Token(Token = "0x600097B")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x55EBA90", Offset = "0x55EAA90", VA = "0x55EBA90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600097C")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x55EBAA0", Offset = "0x55EAAA0", VA = "0x55EBAA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ public abstract class NamingStrategy
 	public bool ProcessExtensionDataNames
 	{
 		[Token(Token = "0x600097D")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x55EBAB0", Offset = "0x55EAAB0", VA = "0x55EBAB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600097E")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x55EBAC0", Offset = "0x55EAAC0", VA = "0x55EBAC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -53,14 +53,14 @@ public abstract class NamingStrategy
 	public bool OverrideSpecifiedNames
 	{
 		[Token(Token = "0x600097F")]
-		[Address(RVA = "0xE5A340", Offset = "0xE58940", VA = "0x180E5A340")]
+		[Address(RVA = "0x55EBAD0", Offset = "0x55EAAD0", VA = "0x55EBAD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000980")]
-		[Address(RVA = "0x1C6C1B0", Offset = "0x1C6A7B0", VA = "0x181C6C1B0")]
+		[Address(RVA = "0x55EBAE0", Offset = "0x55EAAE0", VA = "0x55EBAE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -68,21 +68,21 @@ public abstract class NamingStrategy
 	}
 
 	[Token(Token = "0x6000981")]
-	[Address(RVA = "0x1C6C190", Offset = "0x1C6A790", VA = "0x181C6C190", Slot = "4")]
+	[Address(RVA = "0x55EBAF0", Offset = "0x55EAAF0", VA = "0x55EBAF0", Slot = "4")]
 	public virtual string GetPropertyName(string name, bool hasSpecifiedName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000982")]
-	[Address(RVA = "0x1C6C0A0", Offset = "0x1C6A6A0", VA = "0x181C6C0A0", Slot = "5")]
+	[Address(RVA = "0x55EBB20", Offset = "0x55EAB20", VA = "0x55EBB20", Slot = "5")]
 	public virtual string GetExtensionDataName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x1C6C080", Offset = "0x1C6A680", VA = "0x181C6C080", Slot = "6")]
+	[Address(RVA = "0x55EBB40", Offset = "0x55EAB40", VA = "0x55EBB40", Slot = "6")]
 	public virtual string GetDictionaryKey(string key)
 	{
 		return null;
@@ -92,28 +92,28 @@ public abstract class NamingStrategy
 	protected abstract string ResolvePropertyName(string name);
 
 	[Token(Token = "0x6000985")]
-	[Address(RVA = "0x1C6C0C0", Offset = "0x1C6A6C0", VA = "0x181C6C0C0", Slot = "2")]
+	[Address(RVA = "0x55EBB60", Offset = "0x55EAB60", VA = "0x55EBB60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000986")]
-	[Address(RVA = "0x1C6BF90", Offset = "0x1C6A590", VA = "0x181C6BF90", Slot = "0")]
+	[Address(RVA = "0x55EBC20", Offset = "0x55EAC20", VA = "0x55EBC20", Slot = "0")]
 	public override bool Equals(object? obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000987")]
-	[Address(RVA = "0x1C6BEF0", Offset = "0x1C6A4F0", VA = "0x181C6BEF0")]
+	[Address(RVA = "0x55EBD10", Offset = "0x55EAD10", VA = "0x55EBD10")]
 	protected bool Equals(NamingStrategy? other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000988")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x55EB3B0", Offset = "0x55EA3B0", VA = "0x55EB3B0")]
 	protected NamingStrategy()
 	{
 	}

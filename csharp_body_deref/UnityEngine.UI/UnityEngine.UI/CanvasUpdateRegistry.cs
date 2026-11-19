@@ -49,7 +49,7 @@ public class CanvasUpdateRegistry
 	public static CanvasUpdateRegistry instance
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x3063640", Offset = "0x3061C40", VA = "0x183063640")]
+		[Address(RVA = "0x6A5DCE0", Offset = "0x6A5CCE0", VA = "0x6A5DCE0")]
 		get
 		{
 			return null;
@@ -57,129 +57,129 @@ public class CanvasUpdateRegistry
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3063430", Offset = "0x3061A30", VA = "0x183063430")]
+	[Address(RVA = "0x6A5DAC0", Offset = "0x6A5CAC0", VA = "0x6A5DAC0")]
 	protected CanvasUpdateRegistry()
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3062700", Offset = "0x3060D00", VA = "0x183062700")]
+	[Address(RVA = "0x6A5DDC0", Offset = "0x6A5CDC0", VA = "0x6A5DDC0")]
 	private bool ObjectValidForUpdate(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x3061CD0", Offset = "0x30602D0", VA = "0x183061CD0")]
+	[Address(RVA = "0x6A5DE90", Offset = "0x6A5CE90", VA = "0x6A5DE90")]
 	private void CleanInvalidItems()
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x30628A0", Offset = "0x3060EA0", VA = "0x1830628A0")]
+	[Address(RVA = "0x6A5E1F0", Offset = "0x6A5D1F0", VA = "0x6A5E1F0")]
 	private void PerformUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x30627D0", Offset = "0x3060DD0", VA = "0x1830627D0")]
+	[Address(RVA = "0x6A5EDC0", Offset = "0x6A5DDC0", VA = "0x6A5EDC0")]
 	private static int ParentCount(Transform child)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x3062FF0", Offset = "0x30615F0", VA = "0x183062FF0")]
+	[Address(RVA = "0x6A5EE60", Offset = "0x6A5DE60", VA = "0x6A5EE60")]
 	private static int SortLayoutList(ICanvasElement x, ICanvasElement y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x3062F90", Offset = "0x3061590", VA = "0x183062F90")]
+	[Address(RVA = "0x6A5EFD0", Offset = "0x6A5DFD0", VA = "0x6A5EFD0")]
 	public static void RegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x3063100", Offset = "0x3061700", VA = "0x183063100")]
+	[Address(RVA = "0x6A5F150", Offset = "0x6A5E150", VA = "0x6A5F150")]
 	public static bool TryRegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x30623B0", Offset = "0x30609B0", VA = "0x1830623B0")]
+	[Address(RVA = "0x6A5F0C0", Offset = "0x6A5E0C0", VA = "0x6A5F0C0")]
 	private bool InternalRegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x3062F30", Offset = "0x3061530", VA = "0x183062F30")]
+	[Address(RVA = "0x6A5F240", Offset = "0x6A5E240", VA = "0x6A5F240")]
 	public static void RegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x30630A0", Offset = "0x30616A0", VA = "0x1830630A0")]
+	[Address(RVA = "0x6A5F370", Offset = "0x6A5E370", VA = "0x6A5F370")]
 	public static bool TryRegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x30622F0", Offset = "0x30608F0", VA = "0x1830622F0")]
+	[Address(RVA = "0x6A5F2B0", Offset = "0x6A5E2B0", VA = "0x6A5F2B0")]
 	private bool InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x3063160", Offset = "0x3061760", VA = "0x183063160")]
+	[Address(RVA = "0x6A5F3E0", Offset = "0x6A5E3E0", VA = "0x6A5F3E0")]
 	public static void UnRegisterCanvasElementForRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3061E90", Offset = "0x3060490", VA = "0x183061E90")]
+	[Address(RVA = "0x6A5F730", Offset = "0x6A5E730", VA = "0x6A5F730")]
 	public static void DisableCanvasElementForRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3062550", Offset = "0x3060B50", VA = "0x183062550")]
+	[Address(RVA = "0x6A5F470", Offset = "0x6A5E470", VA = "0x6A5F470")]
 	private void InternalUnRegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x3062440", Offset = "0x3060A40", VA = "0x183062440")]
+	[Address(RVA = "0x6A5F5D0", Offset = "0x6A5E5D0", VA = "0x6A5F5D0")]
 	private void InternalUnRegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x30621E0", Offset = "0x30607E0", VA = "0x1830621E0")]
+	[Address(RVA = "0x6A5F7C0", Offset = "0x6A5E7C0", VA = "0x6A5F7C0")]
 	private void InternalDisableCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x30620D0", Offset = "0x30606D0", VA = "0x1830620D0")]
+	[Address(RVA = "0x6A5F920", Offset = "0x6A5E920", VA = "0x6A5F920")]
 	private void InternalDisableCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x30626B0", Offset = "0x3060CB0", VA = "0x1830626B0")]
+	[Address(RVA = "0x6A5FA80", Offset = "0x6A5EA80", VA = "0x6A5FA80")]
 	public static bool IsRebuildingLayout()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x3062660", Offset = "0x3060C60", VA = "0x183062660")]
+	[Address(RVA = "0x6A5FAF0", Offset = "0x6A5EAF0", VA = "0x6A5FAF0")]
 	public static bool IsRebuildingGraphics()
 	{
 		return default(bool);

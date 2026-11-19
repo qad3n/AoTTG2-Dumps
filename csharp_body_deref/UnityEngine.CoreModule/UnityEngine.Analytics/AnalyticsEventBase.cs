@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Analytics.AnalyticsEventBase
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,24 +16,24 @@ namespace UnityEngine.Analytics;
 [UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 public class AnalyticsEventBase
 {
-	[Token(Token = "0x40007BF")]
+	[Token(Token = "0x40007BD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string eventName;
 
-	[Token(Token = "0x40007C0")]
+	[Token(Token = "0x40007BE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private int eventVersion;
 
-	[Token(Token = "0x40007C1")]
+	[Token(Token = "0x40007BF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private string eventPrefix;
 
-	[Token(Token = "0x40007C2")]
+	[Token(Token = "0x40007C0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private SendEventOptions sendEventOptions;
 
-	[Token(Token = "0x600126C")]
-	[Address(RVA = "0x2F2DD50", Offset = "0x2F2C350", VA = "0x182F2DD50")]
+	[Token(Token = "0x6001280")]
+	[Address(RVA = "0x693C3D0", Offset = "0x693B3D0", VA = "0x693C3D0")]
 	public AnalyticsEventBase(string eventName, int eventVersion, SendEventOptions sendEventOptions = SendEventOptions.kAppendNone, string eventPrefix = "")
 	{
 	}

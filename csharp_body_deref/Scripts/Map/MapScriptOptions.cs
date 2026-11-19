@@ -10,45 +10,45 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x20003BB")]
+[Token(Token = "0x200041A")]
 public class MapScriptOptions : BaseCSVRow
 {
-	[Token(Token = "0x400138C")]
+	[Token(Token = "0x400152C")]
 	[FieldOffset(Offset = "0x10")]
 	public string EditorVersion;
 
-	[Token(Token = "0x400138D")]
+	[Token(Token = "0x400152D")]
 	[FieldOffset(Offset = "0x18")]
 	public string Description;
 
-	[Token(Token = "0x400138E")]
+	[Token(Token = "0x400152E")]
 	[FieldOffset(Offset = "0x20")]
 	public bool HasWeather;
 
-	[Token(Token = "0x17000275")]
+	[Token(Token = "0x170002B6")]
 	protected override bool NamedParams
 	{
-		[Token(Token = "0x600179C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
+		[Token(Token = "0x6001A13")]
+		[Address(RVA = "0x58A4870", Offset = "0x58A3870", VA = "0x58A4870", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000276")]
+	[Token(Token = "0x170002B7")]
 	public override char Delimiter
 	{
-		[Token(Token = "0x600179D")]
-		[Address(RVA = "0x1EDA2E0", Offset = "0x1ED88E0", VA = "0x181EDA2E0", Slot = "4")]
+		[Token(Token = "0x6001A14")]
+		[Address(RVA = "0x58A4880", Offset = "0x58A3880", VA = "0x58A4880", Slot = "4")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x600179E")]
-	[Address(RVA = "0x1EDA270", Offset = "0x1ED8870", VA = "0x181EDA270")]
+	[Token(Token = "0x6001A15")]
+	[Address(RVA = "0x58A2DE0", Offset = "0x58A1DE0", VA = "0x58A2DE0")]
 	public MapScriptOptions()
 	{
 	}

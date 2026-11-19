@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000795")]
+[Token(Token = "0x2000840")]
 internal class InGameBackgroundMenu : BaseMenu
 {
-	[Token(Token = "0x40025F0")]
+	[Token(Token = "0x4002963")]
 	[FieldOffset(Offset = "0x98")]
 	private BloodBackgroundPanel _bloodBackgroundPanel;
 
-	[Token(Token = "0x6004991")]
-	[Address(RVA = "0x224B970", Offset = "0x2249F70", VA = "0x18224B970", Slot = "4")]
+	[Token(Token = "0x6004EB8")]
+	[Address(RVA = "0x5C281B0", Offset = "0x5C271B0", VA = "0x5C281B0", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x6004992")]
-	[Address(RVA = "0x224B9D0", Offset = "0x2249FD0", VA = "0x18224B9D0")]
+	[Token(Token = "0x6004EB9")]
+	[Address(RVA = "0x5C28210", Offset = "0x5C27210", VA = "0x5C28210")]
 	public void ShowBlood()
 	{
 	}
 
-	[Token(Token = "0x6004993")]
-	[Address(RVA = "0x224B940", Offset = "0x2249F40", VA = "0x18224B940")]
+	[Token(Token = "0x6004EBA")]
+	[Address(RVA = "0x5C28240", Offset = "0x5C27240", VA = "0x5C28240")]
 	public void HideBlood()
 	{
 	}
 
-	[Token(Token = "0x6004994")]
-	[Address(RVA = "0x21DA7E0", Offset = "0x21D8DE0", VA = "0x1821DA7E0")]
+	[Token(Token = "0x6004EBB")]
+	[Address(RVA = "0x5C28270", Offset = "0x5C27270", VA = "0x5C28270")]
 	public InGameBackgroundMenu()
 	{
 	}

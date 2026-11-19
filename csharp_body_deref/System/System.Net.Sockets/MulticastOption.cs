@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000387")]
+[Token(Token = "0x2000343")]
 public class MulticastOption
 {
 }

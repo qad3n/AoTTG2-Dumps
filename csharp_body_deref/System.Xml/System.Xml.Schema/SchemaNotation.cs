@@ -28,7 +28,7 @@ internal sealed class SchemaNotation
 	internal XmlQualifiedName Name
 	{
 		[Token(Token = "0x60013EB")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5FFE460", Offset = "0x5FFD460", VA = "0x5FFE460")]
 		get
 		{
 			return null;
@@ -39,13 +39,13 @@ internal sealed class SchemaNotation
 	internal string SystemLiteral
 	{
 		[Token(Token = "0x60013EC")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5FFE470", Offset = "0x5FFD470", VA = "0x5FFE470")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013ED")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x5FFE480", Offset = "0x5FFD480", VA = "0x5FFE480")]
 		set
 		{
 		}
@@ -55,20 +55,20 @@ internal sealed class SchemaNotation
 	internal string Pubid
 	{
 		[Token(Token = "0x60013EE")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5FFE490", Offset = "0x5FFD490", VA = "0x5FFE490")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013EF")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x5FFE4A0", Offset = "0x5FFD4A0", VA = "0x5FFE4A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60013EA")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x5FFE430", Offset = "0x5FFD430", VA = "0x5FFE430")]
 	internal SchemaNotation(XmlQualifiedName name)
 	{
 	}

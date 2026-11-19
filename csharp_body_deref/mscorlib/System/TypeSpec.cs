@@ -13,146 +13,146 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001DA")]
+[Token(Token = "0x20001B2")]
 internal class TypeSpec
 {
-	[Token(Token = "0x20001DB")]
+	[Token(Token = "0x20001B3")]
 	[Flags]
 	internal enum DisplayNameFormat
 	{
-		[Token(Token = "0x400091E")]
+		[Token(Token = "0x400087C")]
 		Default = 0,
-		[Token(Token = "0x400091F")]
+		[Token(Token = "0x400087D")]
 		WANT_ASSEMBLY = 1,
-		[Token(Token = "0x4000920")]
+		[Token(Token = "0x400087E")]
 		NO_MODIFIERS = 2
 	}
 
-	[Token(Token = "0x4000916")]
+	[Token(Token = "0x4000874")]
 	[FieldOffset(Offset = "0x10")]
 	private System.TypeIdentifier name;
 
-	[Token(Token = "0x4000917")]
+	[Token(Token = "0x4000875")]
 	[FieldOffset(Offset = "0x18")]
 	private string assembly_name;
 
-	[Token(Token = "0x4000918")]
+	[Token(Token = "0x4000876")]
 	[FieldOffset(Offset = "0x20")]
 	private List<System.TypeIdentifier> nested;
 
-	[Token(Token = "0x4000919")]
+	[Token(Token = "0x4000877")]
 	[FieldOffset(Offset = "0x28")]
 	private List<System.TypeSpec> generic_params;
 
-	[Token(Token = "0x400091A")]
+	[Token(Token = "0x4000878")]
 	[FieldOffset(Offset = "0x30")]
 	private List<System.ModifierSpec> modifier_spec;
 
-	[Token(Token = "0x400091B")]
+	[Token(Token = "0x4000879")]
 	[FieldOffset(Offset = "0x38")]
 	private bool is_byref;
 
-	[Token(Token = "0x400091C")]
+	[Token(Token = "0x400087A")]
 	[FieldOffset(Offset = "0x40")]
 	private string display_fullname;
 
-	[Token(Token = "0x17000181")]
+	[Token(Token = "0x17000180")]
 	internal bool HasModifiers
 	{
-		[Token(Token = "0x60010D0")]
-		[Address(RVA = "0x1A1E5D0", Offset = "0x1A1CBD0", VA = "0x181A1E5D0")]
+		[Token(Token = "0x60010A7")]
+		[Address(RVA = "0x551EEB0", Offset = "0x551DEB0", VA = "0x551EEB0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000182")]
+	[Token(Token = "0x17000181")]
 	internal string DisplayFullName
 	{
-		[Token(Token = "0x60010D3")]
-		[Address(RVA = "0x1BA8230", Offset = "0x1BA6830", VA = "0x181BA8230")]
+		[Token(Token = "0x60010AA")]
+		[Address(RVA = "0x551F420", Offset = "0x551E420", VA = "0x551F420")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60010D1")]
-	[Address(RVA = "0x1BA6110", Offset = "0x1BA4710", VA = "0x181BA6110")]
+	[Token(Token = "0x60010A8")]
+	[Address(RVA = "0x551EEC0", Offset = "0x551DEC0", VA = "0x551EEC0")]
 	private string GetDisplayFullName(DisplayNameFormat flags)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D2")]
-	[Address(RVA = "0x1BA65B0", Offset = "0x1BA4BB0", VA = "0x181BA65B0")]
+	[Token(Token = "0x60010A9")]
+	[Address(RVA = "0x551F460", Offset = "0x551E460", VA = "0x551F460")]
 	private StringBuilder GetModifierString(StringBuilder sb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D4")]
-	[Address(RVA = "0x1BA76B0", Offset = "0x1BA5CB0", VA = "0x181BA76B0")]
+	[Token(Token = "0x60010AB")]
+	[Address(RVA = "0x550ADC0", Offset = "0x5509DC0", VA = "0x550ADC0")]
 	internal static System.TypeSpec Parse(string typeName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D5")]
-	[Address(RVA = "0x1BA8150", Offset = "0x1BA6750", VA = "0x181BA8150")]
+	[Token(Token = "0x60010AC")]
+	[Address(RVA = "0x551EB10", Offset = "0x551DB10", VA = "0x551EB10")]
 	internal static string UnescapeInternalName(string displayName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D6")]
-	[Address(RVA = "0x1BA77B0", Offset = "0x1BA5DB0", VA = "0x181BA77B0")]
+	[Token(Token = "0x60010AD")]
+	[Address(RVA = "0x550AE90", Offset = "0x5509E90", VA = "0x550AE90")]
 	internal Type Resolve(Func<AssemblyName, Assembly> assemblyResolver, Func<Assembly, string, bool, Type> typeResolver, bool throwOnError, bool ignoreCase, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D7")]
-	[Address(RVA = "0x1BA5F30", Offset = "0x1BA4530", VA = "0x181BA5F30")]
+	[Token(Token = "0x60010AE")]
+	[Address(RVA = "0x5520330", Offset = "0x551F330", VA = "0x5520330")]
 	private void AddName(string type_name)
 	{
 	}
 
-	[Token(Token = "0x60010D8")]
-	[Address(RVA = "0x1BA5E30", Offset = "0x1BA4430", VA = "0x181BA5E30")]
+	[Token(Token = "0x60010AF")]
+	[Address(RVA = "0x5520580", Offset = "0x551F580", VA = "0x5520580")]
 	private void AddModifier(System.ModifierSpec md)
 	{
 	}
 
-	[Token(Token = "0x60010D9")]
-	[Address(RVA = "0x1BA80D0", Offset = "0x1BA66D0", VA = "0x181BA80D0")]
+	[Token(Token = "0x60010B0")]
+	[Address(RVA = "0x5520670", Offset = "0x551F670", VA = "0x5520670")]
 	private static void SkipSpace(string name, ref int pos)
 	{
 	}
 
-	[Token(Token = "0x60010DA")]
-	[Address(RVA = "0x1BA6080", Offset = "0x1BA4680", VA = "0x181BA6080")]
+	[Token(Token = "0x60010B1")]
+	[Address(RVA = "0x55206F0", Offset = "0x551F6F0", VA = "0x55206F0")]
 	private static void BoundCheck(int idx, string s)
 	{
 	}
 
-	[Token(Token = "0x60010DB")]
-	[Address(RVA = "0x1BA77A0", Offset = "0x1BA5DA0", VA = "0x181BA77A0")]
+	[Token(Token = "0x60010B2")]
+	[Address(RVA = "0x5520510", Offset = "0x551F510", VA = "0x5520510")]
 	private static System.TypeIdentifier ParsedTypeIdentifier(string displayName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010DC")]
-	[Address(RVA = "0x1BA67A0", Offset = "0x1BA4DA0", VA = "0x181BA67A0")]
+	[Token(Token = "0x60010B3")]
+	[Address(RVA = "0x551F650", Offset = "0x551E650", VA = "0x551F650")]
 	private static System.TypeSpec Parse(string name, ref int p, bool is_recurse, bool allow_aqn)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010DD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60010B4")]
+	[Address(RVA = "0x5520770", Offset = "0x551F770", VA = "0x5520770")]
 	public TypeSpec()
 	{
 	}

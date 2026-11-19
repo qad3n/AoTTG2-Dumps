@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000319")]
+[Token(Token = "0x20002F2")]
 [ComVisible(true)]
 public abstract class MaskGenerationMethod
 {
-	[Token(Token = "0x60019C4")]
+	[Token(Token = "0x60019A1")]
 	[ComVisible(true)]
 	public abstract byte[] GenerateMask(byte[] rgbSeed, int cbReturn);
 
-	[Token(Token = "0x60019C5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60019A2")]
+	[Address(RVA = "0x533E310", Offset = "0x533D310", VA = "0x533E310")]
 	protected MaskGenerationMethod()
 	{
 	}

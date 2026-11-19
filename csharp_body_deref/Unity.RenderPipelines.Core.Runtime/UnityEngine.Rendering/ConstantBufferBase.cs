@@ -16,7 +16,7 @@ public abstract class ConstantBufferBase
 	public abstract void Release();
 
 	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64BB230", Offset = "0x64BA230", VA = "0x64BB230")]
 	protected ConstantBufferBase()
 	{
 	}

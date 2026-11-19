@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_MeshInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -71,73 +71,73 @@ public struct TMP_MeshInfo
 	public Material material;
 
 	[Token(Token = "0x6000339")]
-	[Address(RVA = "0x2D3C090", Offset = "0x2D3A690", VA = "0x182D3C090")]
+	[Address(RVA = "0x67317A0", Offset = "0x67307A0", VA = "0x67317A0")]
 	public TMP_MeshInfo(Mesh mesh, int size)
 	{
 	}
 
 	[Token(Token = "0x600033A")]
-	[Address(RVA = "0x2D3C630", Offset = "0x2D3AC30", VA = "0x182D3C630")]
+	[Address(RVA = "0x6731DC0", Offset = "0x6730DC0", VA = "0x6731DC0")]
 	public TMP_MeshInfo(Mesh mesh, int size, bool isVolumetric)
 	{
 	}
 
 	[Token(Token = "0x600033B")]
-	[Address(RVA = "0x2D3A560", Offset = "0x2D38B60", VA = "0x182D3A560")]
+	[Address(RVA = "0x67326A0", Offset = "0x67316A0", VA = "0x67326A0")]
 	public void ResizeMeshInfo(int size)
 	{
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x2D3AA70", Offset = "0x2D39070", VA = "0x182D3AA70")]
+	[Address(RVA = "0x6732B80", Offset = "0x6731B80", VA = "0x6732B80")]
 	public void ResizeMeshInfo(int size, bool isVolumetric)
 	{
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x2D3A370", Offset = "0x2D38970", VA = "0x182D3A370")]
+	[Address(RVA = "0x6733540", Offset = "0x6732540", VA = "0x6733540")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x2D3A420", Offset = "0x2D38A20", VA = "0x182D3A420")]
+	[Address(RVA = "0x67335E0", Offset = "0x67325E0", VA = "0x67335E0")]
 	public void Clear(bool uploadChanges)
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x2D3A330", Offset = "0x2D38930", VA = "0x182D3A330")]
+	[Address(RVA = "0x6733710", Offset = "0x6732710", VA = "0x6733710")]
 	public void ClearUnusedVertices()
 	{
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x2D3A240", Offset = "0x2D38840", VA = "0x182D3A240")]
+	[Address(RVA = "0x6733740", Offset = "0x6732740", VA = "0x6733740")]
 	public void ClearUnusedVertices(int startIndex)
 	{
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x2D3A280", Offset = "0x2D38880", VA = "0x182D3A280")]
+	[Address(RVA = "0x6733770", Offset = "0x6732770", VA = "0x6733770")]
 	public void ClearUnusedVertices(int startIndex, bool updateMesh)
 	{
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x2D3B630", Offset = "0x2D39C30", VA = "0x182D3B630")]
+	[Address(RVA = "0x6733810", Offset = "0x6732810", VA = "0x6733810")]
 	public void SortGeometry(VertexSortingOrder order)
 	{
 	}
 
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x2D3B6F0", Offset = "0x2D39CF0", VA = "0x182D3B6F0")]
+	[Address(RVA = "0x6733F10", Offset = "0x6732F10", VA = "0x6733F10")]
 	public void SortGeometry(IList<int> sortingOrder)
 	{
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x2D3B890", Offset = "0x2D39E90", VA = "0x182D3B890")]
+	[Address(RVA = "0x67338B0", Offset = "0x67328B0", VA = "0x67338B0")]
 	public void SwapVertexData(int src, int dst)
 	{
 	}

@@ -13,7 +13,7 @@ namespace Microsoft.CSharp;
 internal class CodeDomProvider
 {
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5F8A7B0", Offset = "0x5F897B0", VA = "0x5F8A7B0")]
 	public CodeDomProvider()
 	{
 	}

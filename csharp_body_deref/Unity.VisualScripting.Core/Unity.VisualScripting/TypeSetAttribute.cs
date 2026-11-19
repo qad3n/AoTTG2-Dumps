@@ -19,7 +19,7 @@ public class TypeSetAttribute : Attribute
 	public TypeSet typeSet
 	{
 		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6793470", Offset = "0x6792470", VA = "0x6793470")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public class TypeSetAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x6793450", Offset = "0x6792450", VA = "0x6793450")]
 	public TypeSetAttribute(TypeSet typeSet)
 	{
 	}

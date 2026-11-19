@@ -1,5 +1,5 @@
 // Type: UI.SliderInputSettingElement
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/SliderInputSettingElement.cs
@@ -8,14 +8,14 @@
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$.ctor
 // il2cpp: void UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5cf6c60
 
-void
-UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor(UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, int32_t __1__state, MethodInfo* method)
+void UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor
+               (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor(UI_SliderInputSet
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$System.IDisposable.Dispose
 // il2cpp: void UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_IDisposable_Dispose (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5cf7270
 
-void
-UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_IDisposable_Dispose(UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, MethodInfo* method)
+void UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_IDisposable_Dispose
+               (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,MethodInfo *method)
 
 {
   return;
@@ -35,7 +35,7 @@ UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_IDisposable_Disp
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$MoveNext
 // il2cpp: bool UI_SliderInputSettingElement__WaitAndFixInputField_d__9__MoveNext (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, const MethodInfo* method);
-// 0x18223a4e0
+// 0x5cf7280
 
 bool UI_SliderInputSettingElement__WaitAndFixInputField_d__9__MoveNext
                (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,MethodInfo *method)
@@ -44,49 +44,53 @@ bool UI_SliderInputSettingElement__WaitAndFixInputField_d__9__MoveNext
   int iVar1;
   UI_SliderInputSettingElement_o *pUVar2;
   UnityEngine_UI_InputField_o *pUVar3;
-  UnityEngine_GameObject_o *pUVar4;
-  Il2CppObject *pIVar5;
+  Il2CppObject *pIVar4;
+  UnityEngine_GameObject_o *pUVar5;
+  bool bVar6;
   
-  if (Il2CppMethodInitialized_18434714b == '\0') {
+  if (Il2CppMethodInitialized_07547cb8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
-    Il2CppMethodInitialized_18434714b = '\x01';
+    Il2CppMethodInitialized_07547cb8 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 0) {
-    (__this->fields).__1__state = -1;
-    pIVar5 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar5,(MethodInfo *)0x0);
-    (__this->fields).__2__current = pIVar5;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar5);
-    (__this->fields).__1__state = 1;
-    return true;
-  }
-  if (iVar1 == 1) {
-    (__this->fields).__1__state = -1;
-    pIVar5 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar5,(MethodInfo *)0x0);
-    (__this->fields).__2__current = pIVar5;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar5);
-    (__this->fields).__1__state = 2;
-    return true;
-  }
   if (iVar1 != 2) {
-    return false;
+    if (iVar1 == 1) {
+      (__this->fields).__1__state = -1;
+      pIVar4 = (Il2CppObject *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+      UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
+      (__this->fields).__2__current = pIVar4;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+      (__this->fields).__1__state = 2;
+      bVar6 = true;
+    }
+    else if (iVar1 == 0) {
+      (__this->fields).__1__state = -1;
+      pIVar4 = (Il2CppObject *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+      UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
+      (__this->fields).__2__current = pIVar4;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+      (__this->fields).__1__state = 1;
+      bVar6 = true;
+    }
+    else {
+      bVar6 = false;
+    }
+    return bVar6;
   }
   pUVar2 = (__this->fields).__4__this;
   (__this->fields).__1__state = -1;
   if (((pUVar2 != (UI_SliderInputSettingElement_o *)0x0) &&
       (pUVar3 = (pUVar2->fields)._inputField, pUVar3 != (UnityEngine_UI_InputField_o *)0x0)) &&
-     (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
-     pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
-    UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
+     (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
+     pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
+    UnityEngine_GameObject__SetActive(pUVar5,false,(MethodInfo *)0x0);
     pUVar3 = (pUVar2->fields)._inputField;
     if ((pUVar3 != (UnityEngine_UI_InputField_o *)0x0) &&
-       (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
-       pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
-      UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
+       (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
+       pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
+      UnityEngine_GameObject__SetActive(pUVar5,true,(MethodInfo *)0x0);
       (pUVar2->fields)._fixedInputField = true;
       return false;
     }
@@ -97,10 +101,11 @@ bool UI_SliderInputSettingElement__WaitAndFixInputField_d__9__MoveNext
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5cf73c0
 
-Il2CppObject*
-UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -109,7 +114,7 @@ UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_Gene
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnumerator_Reset (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, const MethodInfo* method);
-// 0x18223a630
+// 0x5cf73d0
 
 void UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnumerator_Reset
                (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,MethodInfo *method)
@@ -133,10 +138,11 @@ void UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections
 
 // UI.SliderInputSettingElement.<WaitAndFixInputField>d__9$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnumerator_get_Current (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5cf7410
 
-Il2CppObject*
-UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnumerator_get_Current(UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnumerator_get_Current
+          (UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -145,7 +151,7 @@ UI_SliderInputSettingElement__WaitAndFixInputField_d__9__System_Collections_IEnu
 
 // UI.SliderInputSettingElement$$get_SupportedSettingTypes
 // il2cpp: System_Collections_Generic_HashSet_SettingType__o* UI_SliderInputSettingElement__get_SupportedSettingTypes (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a860
+// 0x5cf6000
 
 System_Collections_Generic_HashSet_SettingType__o *
 UI_SliderInputSettingElement__get_SupportedSettingTypes
@@ -154,35 +160,35 @@ UI_SliderInputSettingElement__get_SupportedSettingTypes
 {
   System_Collections_Generic_HashSet_SettingType__o *__this_00;
   
-  if (Il2CppMethodInitialized_184347143 == '\0') {
+  if (Il2CppMethodInitialized_07547cb0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_SettingType_Add)
     ;
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_SettingType);
-    Il2CppMethodInitialized_184347143 = '\x01';
+    Il2CppMethodInitialized_07547cb0 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_SettingType);
   System_Collections_Generic_HashSet_Int32Enum____ctor
             ((System_Collections_Generic_HashSet_T__o *)__this_00,
-             (MethodInfo_176DB60 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
-  if (__this_00 != (System_Collections_Generic_HashSet_SettingType__o *)0x0) {
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,3,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
-    return __this_00;
+             (MethodInfo_4FAD1E0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
+  if (__this_00 == (System_Collections_Generic_HashSet_SettingType__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,3,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
+  return __this_00;
 }
 
 
 // UI.SliderInputSettingElement$$Setup
 // il2cpp: void UI_SliderInputSettingElement__Setup (UI_SliderInputSettingElement_o* __this, Settings_BaseSetting_o* setting, UI_ElementStyle_o* style, System_String_o* title, System_String_o* tooltip, float sliderWidth, float sliderHeight, float inputWidth, float inputHeight, int32_t decimalPlaces, const MethodInfo* method);
-// 0x1822198e0
+// 0x5cf60a0
 
 void UI_SliderInputSettingElement__Setup
                (UI_SliderInputSettingElement_o *__this,Settings_BaseSetting_o *setting,
@@ -190,28 +196,32 @@ void UI_SliderInputSettingElement__Setup
                float sliderHeight,float inputWidth,float inputHeight,int32_t decimalPlaces,MethodInfo *method)
 
 {
+  UnityEngine_UI_Slider_o **targetAddress;
+  UnityEngine_UI_InputField_o **targetAddress_00;
   byte bVar1;
+  UnityEngine_Events_UnityEvent_float__o *__this_00;
+  UnityEngine_UI_InputField_EndEditEvent_o *__this_01;
   System_String_o *panel;
+  UnityEngine_UI_ColorBlock_o value;
   int32_t iVar2;
   System_Globalization_NumberFormatInfo_o *pSVar3;
   UnityEngine_Transform_o *pUVar4;
   UnityEngine_UI_Slider_o *pUVar5;
   UnityEngine_UI_LayoutElement_o *pUVar6;
-  DG_Tweening_Core_DOSetter_float__o *__this_00;
-  UnityEngine_UI_InputField_o *pUVar7;
-  UnityEngine_UI_Text_o *pUVar8;
-  UnityEngine_Events_UnityEvent_Vector2__o *pUVar9;
-  DG_Tweening_Core_DOSetter_T__o *pDVar10;
-  UnityEngine_UI_Image_o *pUVar11;
-  UnityEngine_Color_o *pUVar12;
-  UnityEngine_UI_ColorBlock_o *pUVar13;
-  Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *__this_01;
-  float value;
-  UnityEngine_Color_Fields local_108;
-  UnityEngine_UI_ColorBlock_o local_f8;
-  UnityEngine_UI_ColorBlock_o local_98;
+  UnityEngine_Events_UnityAction_T0__o *pUVar7;
+  UnityEngine_UI_InputField_o *pUVar8;
+  UnityEngine_UI_Text_o *pUVar9;
+  UnityEngine_UI_InputField_OnChangeEvent_o *__this_02;
+  UnityEngine_UI_Image_o *pUVar10;
+  UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this_03;
+  undefined4 in_register_0000008c;
+  MethodInfo *method_00;
+  float value_00;
+  UnityEngine_Color_o UVar11;
+  UnityEngine_UI_ColorBlock_o local_88;
   
-  if (Il2CppMethodInitialized_184347144 == '\0') {
+  method_00 = (MethodInfo *)CONCAT44(in_register_0000008c,decimalPlaces);
+  if (Il2CppMethodInitialized_07547cb1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Image);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_InputField);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
@@ -242,185 +252,170 @@ void UI_SliderInputSettingElement__Setup
     il2cpp_codegen_initialize_runtime_metadata(&"SliderHandleColor");
     il2cpp_codegen_initialize_runtime_metadata(&"InputSelectionColor");
     il2cpp_codegen_initialize_runtime_metadata(&"SliderFillColor");
-    Il2CppMethodInitialized_184347144 = '\x01';
+    Il2CppMethodInitialized_07547cb1 = '\x01';
   }
   pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Globalization_NumberFormatInfo);
   System_Globalization_NumberFormatInfo___ctor(pSVar3,(MethodInfo *)0x0);
   (__this->fields)._formatInfo = pSVar3;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._formatInfo,pSVar3);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._formatInfo);
   pSVar3 = (__this->fields)._formatInfo;
-  if (pSVar3 == (System_Globalization_NumberFormatInfo_o *)0x0) goto label_18221a38d;
+  if (pSVar3 == (System_Globalization_NumberFormatInfo_o *)0x0) goto label_05cf6b30;
   System_Globalization_NumberFormatInfo__set_NumberDecimalDigits(pSVar3,decimalPlaces,(MethodInfo *)0x0);
   pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
   pUVar4 = UnityEngine_Transform__Find(pUVar4,"Slider",(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
   pUVar5 = UnityEngine_Component__GetComponent_object_
                      ((UnityEngine_Component_o *)pUVar4,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Slider);
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Slider);
+  targetAddress = &(__this->fields)._slider;
   (__this->fields)._slider = pUVar5;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._slider,pUVar5);
+  Il2CppCodeGenWriteBarrier(targetAddress);
   iVar2 = Settings_SettingsUtil__GetSettingType(setting,(MethodInfo *)0x0);
   (__this->fields)._settingType = iVar2;
-  if (iVar2 == 2) {
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    UnityEngine_UI_Slider__set_wholeNumbers(pUVar5,true,(MethodInfo *)0x0);
-    if (setting == (Settings_BaseSetting_o *)0x0) goto label_18221a38d;
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-    if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((setting->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(setting);
-    }
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    UnityEngine_UI_Slider__set_minValue(pUVar5,(float)*(int *)&(*(uint64_t *)((char *)setting + 0x20)),(MethodInfo *)0x0);
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-    if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((setting->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(setting);
-    }
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    value = (float)*(int *)((longlong)&(*(uint64_t *)((char *)setting + 0x20)) + 4);
-label_182219ca4:
-    UnityEngine_UI_Slider__set_maxValue(pUVar5,value,(MethodInfo *)0x0);
-  }
-  else if (iVar2 == 3) {
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    UnityEngine_UI_Slider__set_wholeNumbers(pUVar5,false,(MethodInfo *)0x0);
-    if (setting == (Settings_BaseSetting_o *)0x0) goto label_18221a38d;
+  if (iVar2 == 3) {
+    if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    UnityEngine_UI_Slider__set_wholeNumbers(*targetAddress,false,(MethodInfo *)0x0);
+    if (setting == (Settings_BaseSetting_o *)0x0) goto label_05cf6b30;
     bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
     if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((setting->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
+       ((setting->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_FloatSetting)
+       ) {
+label_05cf6b35:
       il2cpp_codegen_raise_invalid_cast_exception(setting);
     }
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    UnityEngine_UI_Slider__set_minValue(pUVar5,*(float *)&(*(uint64_t *)((char *)setting + 0x20)),(MethodInfo *)0x0);
+    if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    UnityEngine_UI_Slider__set_minValue(*targetAddress,*(float *)&(*(uint64_t *)((char *)setting + 0x20)),(MethodInfo *)0x0);
     bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
     if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((setting->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(setting);
-    }
-    pUVar5 = (__this->fields)._slider;
-    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-    value = *(float *)((longlong)&(*(uint64_t *)((char *)setting + 0x20)) + 4);
-    goto label_182219ca4;
+       ((setting->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_FloatSetting)
+       ) goto label_05cf6b35;
+    pUVar5 = *targetAddress;
+    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    value_00 = *(float *)((long)&(*(uint64_t *)((char *)setting + 0x20)) + 4);
+label_05cf6478:
+    UnityEngine_UI_Slider__set_maxValue(pUVar5,value_00,(MethodInfo *)0x0);
   }
-  pUVar5 = (__this->fields)._slider;
-  if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
+  else if (iVar2 == 2) {
+    if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    UnityEngine_UI_Slider__set_wholeNumbers(*targetAddress,true,(MethodInfo *)0x0);
+    if (setting == (Settings_BaseSetting_o *)0x0) goto label_05cf6b30;
+    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+    if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((setting->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting))
+    goto label_05cf6b35;
+    if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    UnityEngine_UI_Slider__set_minValue(*targetAddress,(float)*(int *)&(*(uint64_t *)((char *)setting + 0x20)),(MethodInfo *)0x0);
+    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+    if (((setting->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((setting->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting))
+    goto label_05cf6b35;
+    pUVar5 = *targetAddress;
+    if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+    value_00 = (float)*(int *)((long)&(*(uint64_t *)((char *)setting + 0x20)) + 4);
+    goto label_05cf6478;
+  }
+  if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
   pUVar6 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)pUVar5,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
-  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_18221a38d;
+                     ((UnityEngine_Component_o *)*targetAddress,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05cf6b30;
   (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
             (pUVar6,sliderWidth,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
-  pUVar5 = (__this->fields)._slider;
-  if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
+  if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
   pUVar6 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)pUVar5,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
-  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_18221a38d;
+                     ((UnityEngine_Component_o *)*targetAddress,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05cf6b30;
   (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
             (pUVar6,sliderHeight,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
-  pUVar5 = (__this->fields)._slider;
-  if (pUVar5 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a38d;
-  pUVar9 = (UnityEngine_Events_UnityEvent_Vector2__o *)(pUVar5->fields).m_OnValueChanged;
-  __this_00 = (DG_Tweening_Core_DOSetter_float__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_float);
+  if (*targetAddress == (UnityEngine_UI_Slider_o *)0x0) goto label_05cf6b30;
+  __this_00 = (UnityEngine_Events_UnityEvent_float__o *)((*targetAddress)->fields).m_OnValueChanged;
+  pUVar7 = (UnityEngine_Events_UnityAction_T0__o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_float);
   UnityEngine_Events_UnityAction_float____ctor
-            (__this_00,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_0,
-             (MethodInfo_E5A750 *)0x0);
-  if (pUVar9 == (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) goto label_18221a38d;
-  UnityEngine_Events_UnityEvent_Vector2___AddListener
-            (pUVar9,(UnityEngine_Events_UnityAction_T0__o *)__this_00,
-             (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_float_AddListener);
+            ((UnityEngine_Events_UnityAction_float__o *)pUVar7,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_0,(MethodInfo_4311C00 *)0x0);
+  if (__this_00 == (UnityEngine_Events_UnityEvent_float__o *)0x0) goto label_05cf6b30;
+  UnityEngine_Events_UnityEvent_float___AddListener
+            (__this_00,pUVar7,(MethodInfo_43194E0 *)MethodInfo_UnityEngine_Events_UnityEvent_float_AddListener
+            );
   pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
   pUVar4 = UnityEngine_Transform__Find(pUVar4,"InputField",(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
-  pUVar7 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)pUVar4,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_InputField);
-  (__this->fields)._inputField = pUVar7;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._inputField,pUVar7);
-  pUVar7 = (__this->fields)._inputField;
-  if (pUVar7 == (UnityEngine_UI_InputField_o *)0x0) goto label_18221a38d;
-  pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
-  pUVar4 = UnityEngine_Transform__Find(pUVar4,"Text",(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_18221a38d;
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
   pUVar8 = UnityEngine_Component__GetComponent_object_
                      ((UnityEngine_Component_o *)pUVar4,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
-  if ((style == (UI_ElementStyle_o *)0x0) || (pUVar8 == (UnityEngine_UI_Text_o *)0x0)) goto label_18221a38d;
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_InputField);
+  targetAddress_00 = &(__this->fields)._inputField;
+  (__this->fields)._inputField = pUVar8;
+  Il2CppCodeGenWriteBarrier(targetAddress_00);
+  pUVar8 = (__this->fields)._inputField;
+  if (pUVar8 == (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6b30;
+  pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar8,(MethodInfo *)0x0);
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
+  pUVar4 = UnityEngine_Transform__Find(pUVar4,"Text",(MethodInfo *)0x0);
+  if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_05cf6b30;
+  pUVar9 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)pUVar4,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+  if ((style == (UI_ElementStyle_o *)0x0) || (pUVar9 == (UnityEngine_UI_Text_o *)0x0)) goto label_05cf6b30;
   UnityEngine_UI_Text__set_fontSize
-            (pUVar8,(__this->fields)._inputFontSizeOffset + (style->fields).FontSize,(MethodInfo *)0x0);
-  pUVar7 = (__this->fields)._inputField;
-  if (pUVar7 == (UnityEngine_UI_InputField_o *)0x0) goto label_18221a38d;
+            (pUVar9,(style->fields).FontSize + (__this->fields)._inputFontSizeOffset,(MethodInfo *)0x0);
+  pUVar8 = (__this->fields)._inputField;
+  if (pUVar8 == (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6b30;
   pUVar6 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)pUVar7,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
-  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_18221a38d;
+                     ((UnityEngine_Component_o *)pUVar8,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05cf6b30;
   (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
             (pUVar6,inputWidth,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
-  pUVar7 = (__this->fields)._inputField;
-  if (pUVar7 == (UnityEngine_UI_InputField_o *)0x0) goto label_18221a38d;
+  if (*targetAddress_00 == (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6b30;
   pUVar6 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)pUVar7,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
-  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_18221a38d;
+                     ((UnityEngine_Component_o *)*targetAddress_00,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+  if (pUVar6 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05cf6b30;
   (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
             (pUVar6,inputHeight,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
   iVar2 = Settings_SettingsUtil__GetSettingType(setting,(MethodInfo *)0x0);
   (__this->fields)._settingType = iVar2;
-  if (iVar2 == 3) {
-    pUVar7 = (__this->fields)._inputField;
-    if (pUVar7 == (UnityEngine_UI_InputField_o *)0x0) goto label_18221a38d;
-    iVar2 = 3;
-label_182219edc:
-    UnityEngine_UI_InputField__set_contentType(pUVar7,iVar2,(MethodInfo *)0x0);
-  }
-  else if (iVar2 == 2) {
-    pUVar7 = (__this->fields)._inputField;
-    if (pUVar7 == (UnityEngine_UI_InputField_o *)0x0) goto label_18221a38d;
+  if (iVar2 == 2) {
+    pUVar8 = *targetAddress_00;
+    if (pUVar8 == (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6b30;
     iVar2 = 2;
-    goto label_182219edc;
+label_05cf66ca:
+    UnityEngine_UI_InputField__set_contentType(pUVar8,iVar2,(MethodInfo *)0x0);
   }
-  pUVar7 = (__this->fields)._inputField;
-  if (pUVar7 != (UnityEngine_UI_InputField_o *)0x0) {
-    pUVar9 = (UnityEngine_Events_UnityEvent_Vector2__o *)
-             Photon_Realtime_LoadBalancingClient__get_CurrentCluster
-                       ((Photon_Realtime_LoadBalancingClient_o *)pUVar7,(MethodInfo *)0x0);
-    pDVar10 = (DG_Tweening_Core_DOSetter_T__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_string);
+  else if (iVar2 == 3) {
+    pUVar8 = *targetAddress_00;
+    if (pUVar8 == (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6b30;
+    iVar2 = 3;
+    goto label_05cf66ca;
+  }
+  if (*targetAddress_00 != (UnityEngine_UI_InputField_o *)0x0) {
+    __this_02 = UnityEngine_UI_InputField__get_onValueChange(*targetAddress_00,(MethodInfo *)0x0);
+    pUVar7 = (UnityEngine_Events_UnityAction_T0__o *)
+             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_string);
     UnityEngine_Events_UnityAction_object____ctor
-              (pDVar10,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_1,
-               (MethodInfo_EB6EC0 *)0x0);
-    if (pUVar9 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
-      UnityEngine_Events_UnityEvent_Vector2___AddListener
-                (pUVar9,(UnityEngine_Events_UnityAction_T0__o *)pDVar10,
-                 (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_string_AddListener);
-      pUVar7 = (__this->fields)._inputField;
-      if (pUVar7 != (UnityEngine_UI_InputField_o *)0x0) {
-        pUVar9 = (UnityEngine_Events_UnityEvent_Vector2__o *)(pUVar7->fields).m_OnDidEndEdit;
-        pDVar10 = (DG_Tweening_Core_DOSetter_T__o *)
-                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_string);
+              (pUVar7,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_1,
+               (MethodInfo_4311A10 *)0x0);
+    if (__this_02 != (UnityEngine_UI_InputField_OnChangeEvent_o *)0x0) {
+      UnityEngine_Events_UnityEvent_object___AddListener
+                ((UnityEngine_Events_UnityEvent_T0__o *)__this_02,pUVar7,
+                 (MethodInfo_4318F80 *)MethodInfo_UnityEngine_Events_UnityEvent_string_AddListener);
+      if (*targetAddress_00 != (UnityEngine_UI_InputField_o *)0x0) {
+        __this_01 = ((*targetAddress_00)->fields).m_OnDidEndEdit;
+        pUVar7 = (UnityEngine_Events_UnityAction_T0__o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_string);
         UnityEngine_Events_UnityAction_object____ctor
-                  (pDVar10,(Il2CppObject *)__this,
-                   (intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_2,(MethodInfo_EB6EC0 *)0x0);
-        if (pUVar9 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
-          UnityEngine_Events_UnityEvent_Vector2___AddListener
-                    (pUVar9,(UnityEngine_Events_UnityAction_T0__o *)pDVar10,
-                     (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_string_AddListener);
+                  (pUVar7,(Il2CppObject *)__this,
+                   (intptr_t)MethodInfo_UI_SliderInputSettingElement_Setup_b__7_2,(MethodInfo_4311A10 *)0x0);
+        if (__this_01 != (UnityEngine_UI_InputField_EndEditEvent_o *)0x0) {
+          UnityEngine_Events_UnityEvent_object___AddListener
+                    ((UnityEngine_Events_UnityEvent_T0__o *)__this_01,pUVar7,
+                     (MethodInfo_4318F80 *)MethodInfo_UnityEngine_Events_UnityEvent_string_AddListener);
           UI_BaseSettingElement__Setup
-                    ((UI_BaseSettingElement_o *)__this,setting,style,title,tooltip,(MethodInfo *)0x0);
+                    ((UI_BaseSettingElement_o *)__this,setting,style,title,tooltip,method_00);
           pUVar5 = (__this->fields)._slider;
           if (pUVar5 != (UnityEngine_UI_Slider_o *)0x0) {
             pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0)
@@ -428,194 +423,154 @@ label_182219edc:
             if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
               pUVar4 = UnityEngine_Transform__Find(pUVar4,"Background",(MethodInfo *)0x0);
               if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                pUVar11 = UnityEngine_Component__GetComponent_object_
+                pUVar10 = UnityEngine_Component__GetComponent_object_
                                     ((UnityEngine_Component_o *)pUVar4,
-                                     (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image)
-                ;
+                                     (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Image
+                                    );
                 panel = (style->fields).ThemePanel;
                 if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
                   il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
                 }
-                pUVar12 = UI_UIManager__GetThemeColor
-                                    ((UnityEngine_Color_o *)&local_108,panel,"DefaultSetting",
-                                     "SliderBackgroundColor","DefaultPanel",(MethodInfo *)0x0);
-                if (pUVar11 != (UnityEngine_UI_Image_o *)0x0) {
-                  local_108.r = (pUVar12->fields).r;
-                  local_108.g = (pUVar12->fields).g;
-                  local_108.b = (pUVar12->fields).b;
-                  local_108.a = (pUVar12->fields).a;
-                  (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
-                            (pUVar11,(UnityEngine_Color_o *)&local_108,
-                             (pUVar11->klass->vtable)._23_set_color.method);
-                  pUVar5 = (__this->fields)._slider;
-                  if (pUVar5 != (UnityEngine_UI_Slider_o *)0x0) {
+                UVar11 = UI_UIManager__GetThemeColor
+                                   (panel,"DefaultSetting","SliderBackgroundColor","DefaultPanel",
+                                    (MethodInfo *)0x0);
+                if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
+                  (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                            (pUVar10,UVar11,(pUVar10->klass->vtable)._23_set_color.method);
+                  if (*targetAddress != (UnityEngine_UI_Slider_o *)0x0) {
                     pUVar4 = UnityEngine_Component__get_transform
-                                       ((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0);
+                                       ((UnityEngine_Component_o *)*targetAddress,(MethodInfo *)0x0);
                     if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
                       pUVar4 = UnityEngine_Transform__Find(pUVar4,"Fill Area/Fill",(MethodInfo *)0x0);
                       if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                        pUVar11 = UnityEngine_Component__GetComponent_object_
+                        pUVar10 = UnityEngine_Component__GetComponent_object_
                                             ((UnityEngine_Component_o *)pUVar4,
-                                             (MethodInfo_6651A0 *)
+                                             (MethodInfo_34B0830 *)
                                              MethodInfo_UnityEngine_Component_GetComponent_Image);
-                        pUVar12 = UI_UIManager__GetThemeColor
-                                            ((UnityEngine_Color_o *)&local_108,(style->fields).ThemePanel,
-                                             "DefaultSetting","SliderFillColor","DefaultPanel"
-                                             ,(MethodInfo *)0x0);
-                        if (pUVar11 != (UnityEngine_UI_Image_o *)0x0) {
-                          local_108.r = (pUVar12->fields).r;
-                          local_108.g = (pUVar12->fields).g;
-                          local_108.b = (pUVar12->fields).b;
-                          local_108.a = (pUVar12->fields).a;
-                          (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
-                                    (pUVar11,(UnityEngine_Color_o *)&local_108,
-                                     (pUVar11->klass->vtable)._23_set_color.method);
-                          pUVar5 = (__this->fields)._slider;
-                          if (pUVar5 != (UnityEngine_UI_Slider_o *)0x0) {
+                        UVar11 = UI_UIManager__GetThemeColor
+                                           ((style->fields).ThemePanel,"DefaultSetting",
+                                            "SliderFillColor","DefaultPanel",(MethodInfo *)0x0);
+                        if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
+                          (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                                    (pUVar10,UVar11,(pUVar10->klass->vtable)._23_set_color.method);
+                          if (*targetAddress != (UnityEngine_UI_Slider_o *)0x0) {
                             pUVar4 = UnityEngine_Component__get_transform
-                                               ((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0);
+                                               ((UnityEngine_Component_o *)*targetAddress,(MethodInfo *)0x0);
                             if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
                               pUVar4 = UnityEngine_Transform__Find
                                                  (pUVar4,"Handle Slide Area/Handle",(MethodInfo *)0x0);
                               if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                                pUVar11 = UnityEngine_Component__GetComponent_object_
+                                pUVar10 = UnityEngine_Component__GetComponent_object_
                                                     ((UnityEngine_Component_o *)pUVar4,
-                                                     (MethodInfo_6651A0 *)
+                                                     (MethodInfo_34B0830 *)
                                                      MethodInfo_UnityEngine_Component_GetComponent_Image);
-                                pUVar12 = UI_UIManager__GetThemeColor
-                                                    ((UnityEngine_Color_o *)&local_108,
-                                                     (style->fields).ThemePanel,"DefaultSetting",
-                                                     "SliderHandleColor","DefaultPanel",
-                                                     (MethodInfo *)0x0);
-                                if (pUVar11 != (UnityEngine_UI_Image_o *)0x0) {
-                                  local_108.r = (pUVar12->fields).r;
-                                  local_108.g = (pUVar12->fields).g;
-                                  local_108.b = (pUVar12->fields).b;
-                                  local_108.a = (pUVar12->fields).a;
-                                  (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
-                                            (pUVar11,(UnityEngine_Color_o *)&local_108,
-                                             (pUVar11->klass->vtable)._23_set_color.method);
-                                  pUVar7 = (__this->fields)._inputField;
-                                  pUVar13 = UI_UIManager__GetThemeColorBlock
-                                                      (&local_98,(style->fields).ThemePanel,
-                                                       "DefaultSetting","Input",
-                                                       "DefaultPanel",(MethodInfo *)0x0);
-                                  if (pUVar7 != (UnityEngine_UI_InputField_o *)0x0) {
-                                    local_f8.fields.m_NormalColor.fields.r =
-                                         (pUVar13->fields).m_NormalColor.fields.r;
-                                    local_f8.fields.m_NormalColor.fields.g =
-                                         (pUVar13->fields).m_NormalColor.fields.g;
-                                    local_f8.fields.m_NormalColor.fields.b =
-                                         (pUVar13->fields).m_NormalColor.fields.b;
-                                    local_f8.fields.m_NormalColor.fields.a =
-                                         (pUVar13->fields).m_NormalColor.fields.a;
-                                    local_f8.fields.m_HighlightedColor.fields.r =
-                                         (pUVar13->fields).m_HighlightedColor.fields.r;
-                                    local_f8.fields.m_HighlightedColor.fields.g =
-                                         (pUVar13->fields).m_HighlightedColor.fields.g;
-                                    local_f8.fields.m_HighlightedColor.fields.b =
-                                         (pUVar13->fields).m_HighlightedColor.fields.b;
-                                    local_f8.fields.m_HighlightedColor.fields.a =
-                                         (pUVar13->fields).m_HighlightedColor.fields.a;
-                                    local_f8.fields.m_PressedColor.fields.r =
-                                         (pUVar13->fields).m_PressedColor.fields.r;
-                                    local_f8.fields.m_PressedColor.fields.g =
-                                         (pUVar13->fields).m_PressedColor.fields.g;
-                                    local_f8.fields.m_PressedColor.fields.b =
-                                         (pUVar13->fields).m_PressedColor.fields.b;
-                                    local_f8.fields.m_PressedColor.fields.a =
-                                         (pUVar13->fields).m_PressedColor.fields.a;
-                                    local_f8.fields.m_SelectedColor.fields.r =
-                                         (pUVar13->fields).m_SelectedColor.fields.r;
-                                    local_f8.fields.m_SelectedColor.fields.g =
-                                         (pUVar13->fields).m_SelectedColor.fields.g;
-                                    local_f8.fields.m_SelectedColor.fields.b =
-                                         (pUVar13->fields).m_SelectedColor.fields.b;
-                                    local_f8.fields.m_SelectedColor.fields.a =
-                                         (pUVar13->fields).m_SelectedColor.fields.a;
-                                    local_f8.fields.m_DisabledColor.fields.r =
-                                         (pUVar13->fields).m_DisabledColor.fields.r;
-                                    local_f8.fields.m_DisabledColor.fields.g =
-                                         (pUVar13->fields).m_DisabledColor.fields.g;
-                                    local_f8.fields.m_DisabledColor.fields.b =
-                                         (pUVar13->fields).m_DisabledColor.fields.b;
-                                    local_f8.fields.m_DisabledColor.fields.a =
-                                         (pUVar13->fields).m_DisabledColor.fields.a;
-                                    local_f8.fields.m_ColorMultiplier = (pUVar13->fields).m_ColorMultiplier;
-                                    local_f8.fields.m_FadeDuration = (pUVar13->fields).m_FadeDuration;
+                                UVar11 = UI_UIManager__GetThemeColor
+                                                   ((style->fields).ThemePanel,"DefaultSetting",
+                                                    "SliderHandleColor","DefaultPanel",
+                                                    (MethodInfo *)0x0);
+                                if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
+                                  (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                                            (pUVar10,UVar11,(pUVar10->klass->vtable)._23_set_color.method);
+                                  pUVar8 = *targetAddress_00;
+                                  UI_UIManager__GetThemeColorBlock
+                                            (&local_88,(style->fields).ThemePanel,"DefaultSetting",
+                                             "Input","DefaultPanel",(MethodInfo *)0x0);
+                                  if (pUVar8 != (UnityEngine_UI_InputField_o *)0x0) {
+                                    value.fields.m_NormalColor.fields.b =
+                                         local_88.fields.m_NormalColor.fields.b;
+                                    value.fields.m_NormalColor.fields.a =
+                                         local_88.fields.m_NormalColor.fields.a;
+                                    value.fields.m_NormalColor.fields.r =
+                                         local_88.fields.m_NormalColor.fields.r;
+                                    value.fields.m_NormalColor.fields.g =
+                                         local_88.fields.m_NormalColor.fields.g;
+                                    value.fields.m_HighlightedColor.fields.r =
+                                         local_88.fields.m_HighlightedColor.fields.r;
+                                    value.fields.m_HighlightedColor.fields.g =
+                                         local_88.fields.m_HighlightedColor.fields.g;
+                                    value.fields.m_HighlightedColor.fields.b =
+                                         local_88.fields.m_HighlightedColor.fields.b;
+                                    value.fields.m_HighlightedColor.fields.a =
+                                         local_88.fields.m_HighlightedColor.fields.a;
+                                    value.fields.m_PressedColor.fields.r =
+                                         local_88.fields.m_PressedColor.fields.r;
+                                    value.fields.m_PressedColor.fields.g =
+                                         local_88.fields.m_PressedColor.fields.g;
+                                    value.fields.m_PressedColor.fields.b =
+                                         local_88.fields.m_PressedColor.fields.b;
+                                    value.fields.m_PressedColor.fields.a =
+                                         local_88.fields.m_PressedColor.fields.a;
+                                    value.fields.m_SelectedColor.fields.r =
+                                         local_88.fields.m_SelectedColor.fields.r;
+                                    value.fields.m_SelectedColor.fields.g =
+                                         local_88.fields.m_SelectedColor.fields.g;
+                                    value.fields.m_SelectedColor.fields.b =
+                                         local_88.fields.m_SelectedColor.fields.b;
+                                    value.fields.m_SelectedColor.fields.a =
+                                         local_88.fields.m_SelectedColor.fields.a;
+                                    value.fields.m_DisabledColor.fields.r =
+                                         local_88.fields.m_DisabledColor.fields.r;
+                                    value.fields.m_DisabledColor.fields.g =
+                                         local_88.fields.m_DisabledColor.fields.g;
+                                    value.fields.m_DisabledColor.fields.b =
+                                         local_88.fields.m_DisabledColor.fields.b;
+                                    value.fields.m_DisabledColor.fields.a =
+                                         local_88.fields.m_DisabledColor.fields.a;
+                                    value.fields.m_ColorMultiplier = local_88.fields.m_ColorMultiplier;
+                                    value.fields.m_FadeDuration = local_88.fields.m_FadeDuration;
                                     UnityEngine_UI_Selectable__set_colors
-                                              ((UnityEngine_UI_Selectable_o *)pUVar7,&local_f8,
-                                               (MethodInfo *)0x0);
-                                    pUVar7 = (__this->fields)._inputField;
-                                    if (pUVar7 != (UnityEngine_UI_InputField_o *)0x0) {
+                                              ((UnityEngine_UI_Selectable_o *)pUVar8,value,(MethodInfo *)0x0);
+                                    if (*targetAddress_00 != (UnityEngine_UI_InputField_o *)0x0) {
                                       pUVar4 = UnityEngine_Component__get_transform
-                                                         ((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0)
-                                      ;
+                                                         ((UnityEngine_Component_o *)*targetAddress_00,
+                                                          (MethodInfo *)0x0);
                                       if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
                                         pUVar4 = UnityEngine_Transform__Find
                                                            (pUVar4,"Text",(MethodInfo *)0x0);
                                         if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                                          pUVar8 = UnityEngine_Component__GetComponent_object_
+                                          pUVar9 = UnityEngine_Component__GetComponent_object_
                                                              ((UnityEngine_Component_o *)pUVar4,
-                                                              (MethodInfo_6651A0 *)
+                                                              (MethodInfo_34B0830 *)
                                                                                                                             
                                                        MethodInfo_UnityEngine_Component_GetComponent_Text);
-                                          pUVar12 = UI_UIManager__GetThemeColor
-                                                              ((UnityEngine_Color_o *)&local_108,
-                                                               (style->fields).ThemePanel,
-                                                               "DefaultSetting","InputTextColor",
-                                                               "DefaultPanel",(MethodInfo *)0x0);
-                                          if (pUVar8 != (UnityEngine_UI_Text_o *)0x0) {
-                                            local_108.r = (pUVar12->fields).r;
-                                            local_108.g = (pUVar12->fields).g;
-                                            local_108.b = (pUVar12->fields).b;
-                                            local_108.a = (pUVar12->fields).a;
-                                            (*(pUVar8->klass->vtable)._23_set_color.methodPtr)
-                                                      (pUVar8,(UnityEngine_Color_o *)&local_108,
-                                                       (pUVar8->klass->vtable)._23_set_color.method);
-                                            pUVar7 = (__this->fields)._inputField;
-                                            pUVar12 = UI_UIManager__GetThemeColor
-                                                                ((UnityEngine_Color_o *)&local_108,
-                                                                 (style->fields).ThemePanel,
-                                                                 "DefaultSetting","InputSelectionColor",
-                                                                 "DefaultPanel",(MethodInfo *)0x0);
-                                            if (pUVar7 != (UnityEngine_UI_InputField_o *)0x0) {
-                                              local_108.r = (pUVar12->fields).r;
-                                              local_108.g = (pUVar12->fields).g;
-                                              local_108.b = (pUVar12->fields).b;
-                                              local_108.a = (pUVar12->fields).a;
+                                          UVar11 = UI_UIManager__GetThemeColor
+                                                             ((style->fields).ThemePanel,"DefaultSetting"
+                                                              ,"InputTextColor","DefaultPanel",
+                                                              (MethodInfo *)0x0);
+                                          if (pUVar9 != (UnityEngine_UI_Text_o *)0x0) {
+                                            (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
+                                                      (pUVar9,UVar11,
+                                                       (pUVar9->klass->vtable)._23_set_color.method);
+                                            pUVar8 = *targetAddress_00;
+                                            UVar11 = UI_UIManager__GetThemeColor
+                                                               ((style->fields).ThemePanel,
+                                                                "DefaultSetting","InputSelectionColor",
+                                                                "DefaultPanel",(MethodInfo *)0x0);
+                                            if (pUVar8 != (UnityEngine_UI_InputField_o *)0x0) {
                                               UnityEngine_UI_InputField__set_selectionColor
-                                                        (pUVar7,(UnityEngine_Color_o *)&local_108,
-                                                         (MethodInfo *)0x0);
-                                              if (Il2CppMethodInitialized_184347146 == '\0') {
+                                                        (pUVar8,UVar11,(MethodInfo *)0x0);
+                                              if (Il2CppMethodInitialized_07547cb3 == '\0') {
                                                 il2cpp_codegen_initialize_runtime_metadata
                                                           (&
                                                        TypeInfo_UI_SliderInputSettingElement_WaitAndFixInputField_d__9
                                                        );
-                                                Il2CppMethodInitialized_184347146 = '\x01';
+                                                Il2CppMethodInitialized_07547cb3 = '\x01';
                                               }
-                                              __this_01 = (
-                                                       Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o
-                                                       *)il2cpp_codegen_object_new
-                                                                   ((Il2CppClass *)
-                                                                                                                                        
+                                              __this_03 = il2cpp_codegen_object_new
+                                                                    ((Il2CppClass *)
+                                                                                                                                          
                                                        TypeInfo_UI_SliderInputSettingElement_WaitAndFixInputField_d__9
                                                        );
-                                              UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor
-                                                        (__this_01,0,(MethodInfo *)0x0);
-                                              if (__this_01 !=
-                                                  (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)
-                                                  0x0) {
-                                                (__this_01->fields).__4__this =
-                                                     (Photon_Pun_UtilityScripts_OnClickRpc_o *)__this;
-                                                Il2CppCodeGenWriteBarrier
-                                                          (&(__this_01->fields).__4__this,__this);
-                                                UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                                                          ((UnityEngine_MonoBehaviour_o *)__this,
-                                                           (System_Collections_IEnumerator_o *)__this_01,
-                                                           (MethodInfo *)0x0);
-                                                return;
-                                              }
+                                              System_Object___ctor
+                                                        ((Il2CppObject *)__this_03,(MethodInfo *)0x0);
+                                              (__this_03->fields).__1__state = 0;
+                                              (__this_03->fields).__4__this = __this;
+                                              Il2CppCodeGenWriteBarrier(&(__this_03->fields).__4__this);
+                                              UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                                                        ((UnityEngine_MonoBehaviour_o *)__this,
+                                                         (System_Collections_IEnumerator_o *)__this_03,
+                                                         (MethodInfo *)0x0);
+                                              return;
                                             }
                                           }
                                         }
@@ -638,14 +593,14 @@ label_182219edc:
       }
     }
   }
-label_18221a38d:
+label_05cf6b30:
   ThrowNullReferenceException();
 }
 
 
 // UI.SliderInputSettingElement$$OnEnable
 // il2cpp: void UI_SliderInputSettingElement__OnEnable (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x182219520
+// 0x5cf6bb0
 
 void UI_SliderInputSettingElement__OnEnable(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
@@ -654,9 +609,9 @@ void UI_SliderInputSettingElement__OnEnable(UI_SliderInputSettingElement_o *__th
   bool bVar2;
   UnityEngine_GameObject_o *pUVar3;
   
-  if (Il2CppMethodInitialized_184347145 == '\0') {
+  if (Il2CppMethodInitialized_07547cb2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347145 = '\x01';
+    Il2CppMethodInitialized_07547cb2 = '\x01';
   }
   pUVar1 = (__this->fields)._inputField;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -666,16 +621,18 @@ void UI_SliderInputSettingElement__OnEnable(UI_SliderInputSettingElement_o *__th
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if ((bVar2) && ((__this->fields)._fixedInputField == false)) {
     pUVar1 = (__this->fields)._inputField;
-    if ((pUVar1 != (UnityEngine_UI_InputField_o *)0x0) &&
-       (pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
-       pUVar3 != (UnityEngine_GameObject_o *)0x0)) {
-      UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
-      pUVar1 = (__this->fields)._inputField;
-      if ((pUVar1 != (UnityEngine_UI_InputField_o *)0x0) &&
-         (pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
-         pUVar3 != (UnityEngine_GameObject_o *)0x0)) {
-        UnityEngine_GameObject__SetActive(pUVar3,true,(MethodInfo *)0x0);
-        return;
+    if (pUVar1 != (UnityEngine_UI_InputField_o *)0x0) {
+      pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
+      if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+        UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
+        pUVar1 = (__this->fields)._inputField;
+        if (pUVar1 != (UnityEngine_UI_InputField_o *)0x0) {
+          pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
+          if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+            UnityEngine_GameObject__SetActive(pUVar3,true,(MethodInfo *)0x0);
+            return;
+          }
+        }
       }
     }
     ThrowNullReferenceException();
@@ -686,164 +643,170 @@ void UI_SliderInputSettingElement__OnEnable(UI_SliderInputSettingElement_o *__th
 
 // UI.SliderInputSettingElement$$WaitAndFixInputField
 // il2cpp: System_Collections_IEnumerator_o* UI_SliderInputSettingElement__WaitAndFixInputField (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a7e0
+// 0x5cf6b40
 
 System_Collections_IEnumerator_o *
 UI_SliderInputSettingElement__WaitAndFixInputField(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
 {
-  Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *__this_00;
+  UI_SliderInputSettingElement__WaitAndFixInputField_d__9_o *__this_00;
   
-  if (Il2CppMethodInitialized_184347146 == '\0') {
+  if (Il2CppMethodInitialized_07547cb3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_UI_SliderInputSettingElement_WaitAndFixInputField_d__9);
-    Il2CppMethodInitialized_184347146 = '\x01';
+    Il2CppMethodInitialized_07547cb3 = '\x01';
   }
-  __this_00 = (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_UI_SliderInputSettingElement_WaitAndFixInputField_d__9);
-  UI_SliderInputSettingElement__WaitAndFixInputField_d__9___ctor(__this_00,0,(MethodInfo *)0x0);
-  if (__this_00 != (Photon_Pun_UtilityScripts_OnClickRpc__ClickFlash_d__8_o *)0x0) {
-    (__this_00->fields).__4__this = (Photon_Pun_UtilityScripts_OnClickRpc_o *)__this;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.SliderInputSettingElement$$OnSliderValueChanged
 // il2cpp: void UI_SliderInputSettingElement__OnSliderValueChanged (UI_SliderInputSettingElement_o* __this, float value, const MethodInfo* method);
-// 0x1822197c0
+// 0x5cf6c80
 
-void
-UI_SliderInputSettingElement__OnSliderValueChanged(UI_SliderInputSettingElement_o* __this, float value, MethodInfo* method)
+void UI_SliderInputSettingElement__OnSliderValueChanged
+               (UI_SliderInputSettingElement_o *__this,float value,MethodInfo *method)
 
 {
   byte bVar1;
-  Settings_TypedSetting_int__o *__this_00;
-  Settings_TypedSetting_float__o *__this_01;
+  int iVar2;
+  Settings_TypedSetting_float__o *__this_00;
+  Settings_TypedSetting_int__o *__this_01;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347147 == '\0') {
+  if (Il2CppMethodInitialized_07547cb4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347147 = '\x01';
+    Il2CppMethodInitialized_07547cb4 = '\x01';
   }
-  if ((__this->fields)._settingType == 3) {
-    __this_01 = (Settings_TypedSetting_float__o *)(__this->fields)._setting;
-    if (__this_01 == (Settings_TypedSetting_float__o *)0x0) {
-label_1822198c8:
-      ThrowNullReferenceException();
+  iVar2 = (__this->fields)._settingType;
+  if (iVar2 == 2) {
+    __this_01 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
+    if (__this_01 != (Settings_TypedSetting_int__o *)0x0) {
+      bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+      if ((bVar1 <= (__this_01->klass->_2).typeHierarchyDepth) &&
+         ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+          (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
+        method_00 = (MethodInfo *)(ulong)(uint)(int)value;
+        Settings_TypedSetting_int___set_Value
+                  (__this_01,(int)value,(MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+        UI_SliderInputSettingElement__SyncInput(__this,method_00);
+        return;
+      }
+label_05cf6d87:
+      il2cpp_codegen_raise_invalid_cast_exception();
     }
+label_05cf6d8c:
+    ThrowNullReferenceException();
+  }
+  if (iVar2 == 3) {
+    __this_00 = (Settings_TypedSetting_float__o *)(__this->fields)._setting;
+    if (__this_00 == (Settings_TypedSetting_float__o *)0x0) goto label_05cf6d8c;
     bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-    if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_Settings_FloatSetting);
-    }
-    Settings_TypedSetting_float___set_Value
-              (__this_01,value,(MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value);
-  }
-  else if ((__this->fields)._settingType == 2) {
-    __this_00 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
-    if (__this_00 == (Settings_TypedSetting_int__o *)0x0) goto label_1822198c8;
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
     if (((__this_00->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_Settings_IntSetting);
-    }
-    Settings_TypedSetting_int___set_Value
-              (__this_00,(int)value,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+       ((__this_00->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) goto label_05cf6d87;
+    method = MethodInfo_Settings_TypedSetting_float_set_Value;
+    Settings_TypedSetting_float___set_Value
+              (__this_00,value,(MethodInfo_42DA3B0 *)MethodInfo_Settings_TypedSetting_float_set_Value);
   }
-  UI_SliderInputSettingElement__SyncInput(__this,(MethodInfo *)0x0);
+  UI_SliderInputSettingElement__SyncInput(__this,method);
   return;
 }
 
 
 // UI.SliderInputSettingElement$$OnInputValueChanged
 // il2cpp: void UI_SliderInputSettingElement__OnInputValueChanged (UI_SliderInputSettingElement_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x1822195d0
+// 0x5cf6f00
 
 void UI_SliderInputSettingElement__OnInputValueChanged
                (UI_SliderInputSettingElement_o *__this,System_String_o *value,MethodInfo *method)
 
 {
-  byte bVar1;
-  UnityEngine_UI_Slider_o *pUVar2;
-  Settings_TypedSetting_int__o *__this_00;
-  Settings_TypedSetting_float__o *__this_01;
-  bool bVar3;
-  float fVar4;
-  float fVar5;
-  int32_t local_res10 [4];
-  float local_res20 [2];
+  float fVar1;
+  byte bVar2;
+  int iVar3;
+  UnityEngine_UI_Slider_o *pUVar4;
+  Settings_TypedSetting_float__o *__this_00;
+  Settings_TypedSetting_int__o *__this_01;
+  bool bVar5;
+  uint uVar6;
+  float fVar7;
+  float fVar8;
+  int iStack_18;
+  float fStack_14;
   
-  if (Il2CppMethodInitialized_184347148 == '\0') {
+  if (Il2CppMethodInitialized_07547cb5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347148 = '\x01';
+    Il2CppMethodInitialized_07547cb5 = '\x01';
   }
-  local_res20[0] = 0.0;
-  local_res10[0] = 0;
-  bVar3 = System_String__op_Equality
-                    (value,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-  if (!bVar3) {
-    if ((__this->fields)._settingType == 3) {
-      bVar3 = System_Single__TryParse(value,local_res20,(MethodInfo *)0x0);
-      if (bVar3) {
-        pUVar2 = (__this->fields)._slider;
-        if (pUVar2 != (UnityEngine_UI_Slider_o *)0x0) {
-          fVar4 = (pUVar2->fields).m_MinValue;
-          __this_01 = (Settings_TypedSetting_float__o *)(__this->fields)._setting;
-          if ((fVar4 <= local_res20[0]) && (fVar4 = (pUVar2->fields).m_MaxValue, local_res20[0] <= fVar4)) {
-            fVar4 = local_res20[0];
-          }
-          if (__this_01 != (Settings_TypedSetting_float__o *)0x0) {
-            bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-            if ((bVar1 <= (__this_01->klass->_2).typeHierarchyDepth) &&
-               ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-                (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-              Settings_TypedSetting_float___set_Value
-                        (__this_01,fVar4,(MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value
-                        );
-              return;
-            }
-            il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_Settings_FloatSetting);
-          }
-        }
-        goto label_18221979b;
-      }
-    }
-    else if (((__this->fields)._settingType == 2) &&
-            (bVar3 = System_Int32__TryParse(value,local_res10,(MethodInfo *)0x0), bVar3)) {
-      pUVar2 = (__this->fields)._slider;
-      if (pUVar2 != (UnityEngine_UI_Slider_o *)0x0) {
-        fVar4 = (pUVar2->fields).m_MinValue;
-        __this_00 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
-        fVar5 = (float)local_res10[0];
-        if ((fVar4 <= fVar5) && (fVar4 = (pUVar2->fields).m_MaxValue, fVar5 <= fVar4)) {
-          fVar4 = fVar5;
-        }
-        if (__this_00 != (Settings_TypedSetting_int__o *)0x0) {
-          bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-          if ((bVar1 <= (__this_00->klass->_2).typeHierarchyDepth) &&
-             ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+  _iStack_18 = 0;
+  bVar5 = System_String__op_Equality
+                    (value,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+  if (!bVar5) {
+    iVar3 = (__this->fields)._settingType;
+    if (iVar3 == 2) {
+      bVar5 = System_Int32__TryParse(value,&iStack_18,(MethodInfo *)0x0);
+      if (bVar5) {
+        pUVar4 = (__this->fields)._slider;
+        if ((pUVar4 != (UnityEngine_UI_Slider_o *)0x0) &&
+           (__this_01 = (Settings_TypedSetting_int__o *)(__this->fields)._setting,
+           __this_01 != (Settings_TypedSetting_int__o *)0x0)) {
+          bVar2 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+          if ((bVar2 <= (__this_01->klass->_2).typeHierarchyDepth) &&
+             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar2 - 1] ==
               (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
+            fVar1 = (pUVar4->fields).m_MinValue;
+            fVar7 = (pUVar4->fields).m_MaxValue;
+            fVar8 = (float)iStack_18;
+            if (fVar8 <= fVar7) {
+              fVar7 = fVar8;
+            }
+            uVar6 = -(uint)(fVar1 <= fVar8);
             Settings_TypedSetting_int___set_Value
-                      (__this_00,(int)fVar4,
-                       (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+                      (__this_01,(int)(float)(~uVar6 & (uint)fVar1 | (uint)fVar7 & uVar6),
+                       (MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
             return;
           }
-          il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_Settings_IntSetting);
+label_05cf70cf:
+          il2cpp_codegen_raise_invalid_cast_exception();
         }
+label_05cf70ca:
+        ThrowNullReferenceException();
       }
-label_18221979b:
-      ThrowNullReferenceException();
+    }
+    else if (iVar3 == 3) {
+      bVar5 = System_Single__TryParse(value,&fStack_14,(MethodInfo *)0x0);
+      if (bVar5) {
+        pUVar4 = (__this->fields)._slider;
+        if ((pUVar4 == (UnityEngine_UI_Slider_o *)0x0) ||
+           (__this_00 = (Settings_TypedSetting_float__o *)(__this->fields)._setting,
+           __this_00 == (Settings_TypedSetting_float__o *)0x0)) goto label_05cf70ca;
+        bVar2 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
+        if (((__this_00->klass->_2).typeHierarchyDepth < bVar2) ||
+           ((__this_00->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+            (Il2CppClass *)TypeInfo_Settings_FloatSetting)) goto label_05cf70cf;
+        fVar1 = (pUVar4->fields).m_MinValue;
+        fVar7 = (pUVar4->fields).m_MaxValue;
+        if (fStack_14 <= fVar7) {
+          fVar7 = fStack_14;
+        }
+        uVar6 = -(uint)(fVar1 <= fStack_14);
+        Settings_TypedSetting_float___set_Value
+                  (__this_00,(float)(~uVar6 & (uint)fVar1 | (uint)fVar7 & uVar6),
+                   (MethodInfo_42DA3B0 *)MethodInfo_Settings_TypedSetting_float_set_Value);
+      }
     }
   }
   return;
@@ -852,72 +815,71 @@ label_18221979b:
 
 // UI.SliderInputSettingElement$$OnInputFinishEditing
 // il2cpp: void UI_SliderInputSettingElement__OnInputFinishEditing (UI_SliderInputSettingElement_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x1821b9e00
+// 0x5cf70e0
 
-void
-UI_SliderInputSettingElement__OnInputFinishEditing_21b9e00(UI_SliderInputSettingElement_o* __this, System_String_o* value, MethodInfo* method)
+void UI_SliderInputSettingElement__OnInputFinishEditing
+               (UI_SliderInputSettingElement_o *__this,System_String_o *value,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  
-  pIVar1 = (*(__this->klass->vtable)._6_Eval.methodPtr)(__this,(__this->klass->vtable)._6_Eval.method);
-  return pIVar1;
+  (*(__this->klass->vtable)._6_SyncElement.methodPtr)(__this,(__this->klass->vtable)._6_SyncElement.method);
+  return;
 }
 
 
 // UI.SliderInputSettingElement$$SyncSlider
 // il2cpp: void UI_SliderInputSettingElement__SyncSlider (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a690
+// 0x5cf7100
 
 void UI_SliderInputSettingElement__SyncSlider(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
-  Settings_BaseSetting_o *pSVar2;
-  UnityEngine_UI_Slider_o *pUVar3;
+  int iVar2;
+  Settings_BaseSetting_o *pSVar3;
+  UnityEngine_UI_Slider_o *pUVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184347149 == '\0') {
+  if (Il2CppMethodInitialized_07547cb6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347149 = '\x01';
+    Il2CppMethodInitialized_07547cb6 = '\x01';
   }
-  if ((__this->fields)._settingType == 3) {
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 != (Settings_BaseSetting_o *)0x0) {
-      bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-      if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-         ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
-      }
-      pUVar3 = (__this->fields)._slider;
-      if (pUVar3 != (UnityEngine_UI_Slider_o *)0x0) {
-        (*(pUVar3->klass->vtable)._47_set_value.methodPtr)
-                  (pUVar3,*(float *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4),
-                   (pUVar3->klass->vtable)._47_set_value.method);
-        return;
+  iVar2 = (__this->fields)._settingType;
+  if (iVar2 == 2) {
+    pSVar3 = (__this->fields)._setting;
+    if (pSVar3 != (Settings_BaseSetting_o *)0x0) {
+      bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+      if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pSVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting))
+      goto label_05cf71f6;
+      pUVar4 = (__this->fields)._slider;
+      if (pUVar4 != (UnityEngine_UI_Slider_o *)0x0) {
+        fVar5 = (float)*(int *)((long)&(*(uint64_t *)((char *)pSVar3 + 0x18)) + 4);
+        goto label_05cf71dd;
       }
     }
   }
   else {
-    if ((__this->fields)._settingType != 2) {
+    if (iVar2 != 3) {
       return;
     }
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 != (Settings_BaseSetting_o *)0x0) {
-      bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-      if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-         ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
+    pSVar3 = (__this->fields)._setting;
+    if (pSVar3 != (Settings_BaseSetting_o *)0x0) {
+      bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
+      if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pSVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_FloatSetting
+         )) {
+label_05cf71f6:
+        il2cpp_codegen_raise_invalid_cast_exception();
       }
-      pUVar3 = (__this->fields)._slider;
-      if (pUVar3 != (UnityEngine_UI_Slider_o *)0x0) {
-        (*(pUVar3->klass->vtable)._47_set_value.methodPtr)
-                  (pUVar3,(float)*(int *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4),
-                   (pUVar3->klass->vtable)._47_set_value.method);
+      pUVar4 = (__this->fields)._slider;
+      if (pUVar4 != (UnityEngine_UI_Slider_o *)0x0) {
+        fVar5 = *(float *)((long)&(*(uint64_t *)((char *)pSVar3 + 0x18)) + 4);
+label_05cf71dd:
+        (*(pUVar4->klass->vtable)._47_set_value.methodPtr)
+                  (pUVar4,fVar5,(pUVar4->klass->vtable)._47_set_value.method);
         return;
       }
     }
@@ -928,68 +890,72 @@ void UI_SliderInputSettingElement__SyncSlider(UI_SliderInputSettingElement_o *__
 
 // UI.SliderInputSettingElement$$SyncInput
 // il2cpp: void UI_SliderInputSettingElement__SyncInput (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a4f0
+// 0x5cf6da0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5cf6e88: mov rdi, r14
+// asm:   0x5cf6e8b: jmp 0x5cf6edf
+// asm:   0x5cf6edc: mov rdi, rbx
 
 void UI_SliderInputSettingElement__SyncInput(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
-  Settings_BaseSetting_o *pSVar2;
-  UnityEngine_UI_InputField_o *pUVar3;
+  int iVar2;
+  Settings_BaseSetting_o *pSVar3;
   System_Globalization_NumberFormatInfo_o *provider;
-  System_String_o *pSVar4;
+  undefined8 in_RAX;
   Il2CppObject *arg0;
-  int32_t local_res8 [2];
-  undefined4 local_res18 [4];
+  System_String_o *value;
+  UnityEngine_UI_InputField_o *__this_00;
+  undefined8 uStack_18;
   
-  if (Il2CppMethodInitialized_18434714a == '\0') {
+  uStack_18 = in_RAX;
+  if (Il2CppMethodInitialized_07547cb7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"{0:N}");
-    Il2CppMethodInitialized_18434714a = '\x01';
+    Il2CppMethodInitialized_07547cb7 = '\x01';
   }
-  local_res8[0] = 0;
-  if ((__this->fields)._settingType == 3) {
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 != (Settings_BaseSetting_o *)0x0) {
+  iVar2 = (__this->fields)._settingType;
+  if (iVar2 == 2) {
+    pSVar3 = (__this->fields)._setting;
+    if (pSVar3 != (Settings_BaseSetting_o *)0x0) {
+      bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+      if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pSVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting))
+      goto label_05cf6ef1;
+      __this_00 = (__this->fields)._inputField;
+      uStack_18 = CONCAT44(*(undefined4 *)((long)&(*(uint64_t *)((char *)pSVar3 + 0x18)) + 4),(undefined4)uStack_18);
+      value = System_Int32__ToString((int32_t *)((long)&uStack_18 + 4),(MethodInfo *)0x0);
+      if (__this_00 != (UnityEngine_UI_InputField_o *)0x0) goto label_05cf6edf;
+    }
+  }
+  else {
+    if (iVar2 != 3) {
+      return;
+    }
+    pSVar3 = (__this->fields)._setting;
+    if (pSVar3 != (Settings_BaseSetting_o *)0x0) {
       bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-      if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-         ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-        il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
+      if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pSVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_FloatSetting
+         )) {
+label_05cf6ef1:
+        il2cpp_codegen_raise_invalid_cast_exception();
       }
-      local_res18[0] = *(undefined4 *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4);
-      pUVar3 = (__this->fields)._inputField;
+      __this_00 = (__this->fields)._inputField;
       provider = (__this->fields)._formatInfo;
-      arg0 = il2cpp_value_box(g_data_184354e38,local_res18);
-      pSVar4 = System_String__Format_196ca50
-                         ((System_IFormatProvider_o *)provider,"{0:N}",arg0,(MethodInfo *)0x0);
-      if (pUVar3 != (UnityEngine_UI_InputField_o *)0x0) {
-        UnityEngine_UI_InputField__set_text(pUVar3,pSVar4,(MethodInfo *)0x0);
+      uStack_18 = CONCAT44(uStack_18._4_4_,*(undefined4 *)((long)&(*(uint64_t *)((char *)pSVar3 + 0x18)) + 4));
+      arg0 = il2cpp_vm_Object_Box(g_data_07556740,&uStack_18);
+      value = System_String__Format_5302da0
+                        ((System_IFormatProvider_o *)provider,"{0:N}",arg0,(MethodInfo *)0x0);
+      if (__this_00 != (UnityEngine_UI_InputField_o *)0x0) {
+label_05cf6edf:
+        UnityEngine_UI_InputField__set_text(__this_00,value,(MethodInfo *)0x0);
         return;
       }
-    }
-    ThrowNullReferenceException();
-  }
-  if ((__this->fields)._settingType != 2) {
-    return;
-  }
-  pSVar2 = (__this->fields)._setting;
-  if (pSVar2 != (Settings_BaseSetting_o *)0x0) {
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-    if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting
-       )) {
-      il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
-    }
-    local_res8[0] = *(int32_t *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4);
-    pUVar3 = (__this->fields)._inputField;
-    pSVar4 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-    if (pUVar3 != (UnityEngine_UI_InputField_o *)0x0) {
-      UnityEngine_UI_InputField__set_text(pUVar3,pSVar4,(MethodInfo *)0x0);
-      return;
     }
   }
   ThrowNullReferenceException();
@@ -998,64 +964,20 @@ void UI_SliderInputSettingElement__SyncInput(UI_SliderInputSettingElement_o *__t
 
 // UI.SliderInputSettingElement$$SyncElement
 // il2cpp: void UI_SliderInputSettingElement__SyncElement (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a3c0
+// 0x5cf7200
 
 void UI_SliderInputSettingElement__SyncElement(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
-  Settings_BaseSetting_o *pSVar2;
-  UnityEngine_UI_Slider_o *pUVar3;
-  float fVar4;
-  
-  if (Il2CppMethodInitialized_184347149 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347149 = '\x01';
-  }
-  if ((__this->fields)._settingType == 3) {
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 == (Settings_BaseSetting_o *)0x0) {
-label_18221a4cb:
-      ThrowNullReferenceException();
-    }
-    bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-    if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
-    }
-    pUVar3 = (__this->fields)._slider;
-    if (pUVar3 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a4cb;
-    fVar4 = *(float *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4);
-  }
-  else {
-    if ((__this->fields)._settingType != 2) goto label_18221a4bc;
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 == (Settings_BaseSetting_o *)0x0) goto label_18221a4cb;
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-    if (((pSVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((pSVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting
-       )) {
-      il2cpp_codegen_raise_invalid_cast_exception(pSVar2);
-    }
-    pUVar3 = (__this->fields)._slider;
-    if (pUVar3 == (UnityEngine_UI_Slider_o *)0x0) goto label_18221a4cb;
-    fVar4 = (float)*(int *)((longlong)&(*(uint64_t *)((char *)pSVar2 + 0x18)) + 4);
-  }
-  (*(pUVar3->klass->vtable)._47_set_value.methodPtr)
-            (pUVar3,fVar4,(pUVar3->klass->vtable)._47_set_value.method);
-label_18221a4bc:
-  UI_SliderInputSettingElement__SyncInput(__this,(MethodInfo *)0x0);
+  UI_SliderInputSettingElement__SyncSlider(__this,method);
+  UI_SliderInputSettingElement__SyncInput(__this,method);
   return;
 }
 
 
 // UI.SliderInputSettingElement$$.ctor
 // il2cpp: void UI_SliderInputSettingElement___ctor (UI_SliderInputSettingElement_o* __this, const MethodInfo* method);
-// 0x18221a850
+// 0x5cf7220
 
 void UI_SliderInputSettingElement___ctor(UI_SliderInputSettingElement_o *__this,MethodInfo *method)
 
@@ -1068,80 +990,40 @@ void UI_SliderInputSettingElement___ctor(UI_SliderInputSettingElement_o *__this,
 
 // UI.SliderInputSettingElement$$<Setup>b__7_0
 // il2cpp: void UI_SliderInputSettingElement___Setup_b__7_0 (UI_SliderInputSettingElement_o* __this, float value, const MethodInfo* method);
-// 0x1822197c0
+// 0x5cf7230
 
 void UI_SliderInputSettingElement___Setup_b__7_0
                (UI_SliderInputSettingElement_o *__this,float value,MethodInfo *method)
 
 {
-  byte bVar1;
-  Settings_TypedSetting_int__o *__this_00;
-  Settings_TypedSetting_float__o *__this_01;
-  
-  if (Il2CppMethodInitialized_184347147 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_set_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347147 = '\x01';
-  }
-  if ((__this->fields)._settingType == 3) {
-    __this_01 = (Settings_TypedSetting_float__o *)(__this->fields)._setting;
-    if (__this_01 == (Settings_TypedSetting_float__o *)0x0) {
-label_1822198c8:
-      ThrowNullReferenceException();
-    }
-    bVar1 = (TypeInfo_Settings_FloatSetting->_2).typeHierarchyDepth;
-    if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_FloatSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_Settings_FloatSetting);
-    }
-    Settings_TypedSetting_float___set_Value
-              (__this_01,value,(MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value);
-  }
-  else if ((__this->fields)._settingType == 2) {
-    __this_00 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
-    if (__this_00 == (Settings_TypedSetting_int__o *)0x0) goto label_1822198c8;
-    bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-    if (((__this_00->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_Settings_IntSetting);
-    }
-    Settings_TypedSetting_int___set_Value
-              (__this_00,(int)value,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
-  }
-  UI_SliderInputSettingElement__SyncInput(__this,(MethodInfo *)0x0);
+  UI_SliderInputSettingElement__OnSliderValueChanged(__this,value,method);
   return;
 }
 
 
 // UI.SliderInputSettingElement$$<Setup>b__7_1
 // il2cpp: void UI_SliderInputSettingElement___Setup_b__7_1 (UI_SliderInputSettingElement_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x18221a7d0
+// 0x5cf7240
 
 void UI_SliderInputSettingElement___Setup_b__7_1
                (UI_SliderInputSettingElement_o *__this,System_String_o *value,MethodInfo *method)
 
 {
-  UI_SliderInputSettingElement__OnInputValueChanged(__this,value,(MethodInfo *)0x0);
+  UI_SliderInputSettingElement__OnInputValueChanged(__this,value,method);
   return;
 }
 
 
 // UI.SliderInputSettingElement$$<Setup>b__7_2
 // il2cpp: void UI_SliderInputSettingElement___Setup_b__7_2 (UI_SliderInputSettingElement_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x1821b9e00
+// 0x5cf7250
 
-void
-UI_SliderInputSettingElement___Setup_b__7_2_21b9e00(UI_SliderInputSettingElement_o* __this, System_String_o* value, MethodInfo* method)
+void UI_SliderInputSettingElement___Setup_b__7_2
+               (UI_SliderInputSettingElement_o *__this,System_String_o *value,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  
-  pIVar1 = (*(__this->klass->vtable)._6_Eval.methodPtr)(__this,(__this->klass->vtable)._6_Eval.method);
-  return pIVar1;
+  (*(__this->klass->vtable)._6_SyncElement.methodPtr)(__this,(__this->klass->vtable)._6_SyncElement.method);
+  return;
 }
 
 

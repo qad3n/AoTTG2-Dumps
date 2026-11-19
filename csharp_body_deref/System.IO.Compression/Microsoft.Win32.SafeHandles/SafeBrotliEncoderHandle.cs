@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x200003E")]
 internal sealed class SafeBrotliEncoderHandle : SafeHandle
 {
-	[Token(Token = "0x1700000B")]
+	[Token(Token = "0x17000054")]
 	public override bool IsInvalid
 	{
-		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2498690", Offset = "0x2496C90", VA = "0x182498690", Slot = "5")]
+		[Token(Token = "0x60001B0")]
+		[Address(RVA = "0x5F76230", Offset = "0x5F75230", VA = "0x5F76230", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x1967BE0", Offset = "0x19661E0", VA = "0x181967BE0")]
+	[Token(Token = "0x60001AE")]
+	[Address(RVA = "0x5F76210", Offset = "0x5F75210", VA = "0x5F76210")]
 	public SafeBrotliEncoderHandle()
 	{
 	}
 
-	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x25B8C30", Offset = "0x25B7230", VA = "0x1825B8C30", Slot = "7")]
+	[Token(Token = "0x60001AF")]
+	[Address(RVA = "0x5F76220", Offset = "0x5F75220", VA = "0x5F76220", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);

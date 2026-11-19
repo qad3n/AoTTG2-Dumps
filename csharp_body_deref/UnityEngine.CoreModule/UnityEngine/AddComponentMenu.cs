@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000173")]
+[Token(Token = "0x2000174")]
 public sealed class AddComponentMenu : Attribute
 {
-	[Token(Token = "0x40005C4")]
+	[Token(Token = "0x40005C9")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_AddComponentMenu;
 
-	[Token(Token = "0x40005C5")]
+	[Token(Token = "0x40005CA")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_Ordering;
 
-	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x2F0E240", Offset = "0x2F0C840", VA = "0x182F0E240")]
+	[Token(Token = "0x6000CC9")]
+	[Address(RVA = "0x69112A0", Offset = "0x69102A0", VA = "0x69112A0")]
 	public AddComponentMenu(string menuName)
 	{
 	}
 
-	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
+	[Token(Token = "0x6000CCA")]
+	[Address(RVA = "0x69112D0", Offset = "0x69102D0", VA = "0x69112D0")]
 	public AddComponentMenu(string menuName, int order)
 	{
 	}

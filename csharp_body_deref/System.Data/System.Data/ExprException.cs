@@ -13,371 +13,371 @@ namespace System.Data;
 internal sealed class ExprException
 {
 	[Token(Token = "0x600064E")]
-	[Address(RVA = "0x2517BB0", Offset = "0x25161B0", VA = "0x182517BB0")]
+	[Address(RVA = "0x5EBAC40", Offset = "0x5EB9C40", VA = "0x5EBAC40")]
 	private static OverflowException _Overflow(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x2517B50", Offset = "0x2516150", VA = "0x182517B50")]
+	[Address(RVA = "0x5EBACA0", Offset = "0x5EB9CA0", VA = "0x5EBACA0")]
 	private static InvalidExpressionException _Expr(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x2517C10", Offset = "0x2516210", VA = "0x182517C10")]
+	[Address(RVA = "0x5EBAD00", Offset = "0x5EB9D00", VA = "0x5EBAD00")]
 	private static SyntaxErrorException _Syntax(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x2517AF0", Offset = "0x25160F0", VA = "0x182517AF0")]
+	[Address(RVA = "0x5EBAD60", Offset = "0x5EB9D60", VA = "0x5EBAD60")]
 	private static EvaluateException _Eval(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000652")]
-	[Address(RVA = "0x2517A90", Offset = "0x2516090", VA = "0x182517A90")]
+	[Address(RVA = "0x5EBADC0", Offset = "0x5EB9DC0", VA = "0x5EBADC0")]
 	private static EvaluateException _Eval(string error, Exception innerException)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x2516D70", Offset = "0x2515370", VA = "0x182516D70")]
+	[Address(RVA = "0x5EBAE20", Offset = "0x5EB9E20", VA = "0x5EBAE20")]
 	public static Exception InvokeArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x2517120", Offset = "0x2515720", VA = "0x182517120")]
+	[Address(RVA = "0x5EBAE50", Offset = "0x5EB9E50", VA = "0x5EBAE50")]
 	public static Exception NYI(string moreinfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000655")]
-	[Address(RVA = "0x2516F40", Offset = "0x2515540", VA = "0x182516F40")]
+	[Address(RVA = "0x5EBAEE0", Offset = "0x5EB9EE0", VA = "0x5EBAEE0")]
 	public static Exception MissingOperand(OperatorInfo before)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x2517010", Offset = "0x2515610", VA = "0x182517010")]
+	[Address(RVA = "0x5EBB090", Offset = "0x5EBA090", VA = "0x5EBB090")]
 	public static Exception MissingOperator(string token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x2517500", Offset = "0x2515B00", VA = "0x182517500")]
+	[Address(RVA = "0x5EBB120", Offset = "0x5EBA120", VA = "0x5EBB120")]
 	public static Exception TypeMismatch(string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000658")]
-	[Address(RVA = "0x25166B0", Offset = "0x2514CB0", VA = "0x1825166B0")]
+	[Address(RVA = "0x5EBB1B0", Offset = "0x5EBA1B0", VA = "0x5EBB1B0")]
 	public static Exception FunctionArgumentOutOfRange(string arg, string func)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x2516480", Offset = "0x2514A80", VA = "0x182516480")]
+	[Address(RVA = "0x5EBB200", Offset = "0x5EBA200", VA = "0x5EBB200")]
 	public static Exception ExpressionTooComplex()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x2517590", Offset = "0x2515B90", VA = "0x182517590")]
+	[Address(RVA = "0x5EBB280", Offset = "0x5EBA280", VA = "0x5EBB280")]
 	public static Exception UnboundName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x2516BD0", Offset = "0x25151D0", VA = "0x182516BD0")]
+	[Address(RVA = "0x5EBB310", Offset = "0x5EBA310", VA = "0x5EBB310")]
 	public static Exception InvalidString(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065C")]
-	[Address(RVA = "0x2517620", Offset = "0x2515C20", VA = "0x182517620")]
+	[Address(RVA = "0x5EBB3A0", Offset = "0x5EBA3A0", VA = "0x5EBB3A0")]
 	public static Exception UndefinedFunction(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x25172E0", Offset = "0x25158E0", VA = "0x1825172E0")]
+	[Address(RVA = "0x5EBB430", Offset = "0x5EBA430", VA = "0x5EBB430")]
 	public static Exception SyntaxError()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065E")]
-	[Address(RVA = "0x2516620", Offset = "0x2514C20", VA = "0x182516620")]
+	[Address(RVA = "0x5EBB4B0", Offset = "0x5EBA4B0", VA = "0x5EBB4B0")]
 	public static Exception FunctionArgumentCount(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x25170A0", Offset = "0x25156A0", VA = "0x1825170A0")]
+	[Address(RVA = "0x5EBB540", Offset = "0x5EBA540", VA = "0x5EBB540")]
 	public static Exception MissingRightParen()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x25177F0", Offset = "0x2515DF0", VA = "0x1825177F0")]
+	[Address(RVA = "0x5EBB5C0", Offset = "0x5EBA5C0", VA = "0x5EBB5C0")]
 	public static Exception UnknownToken(string token, int position)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x25176B0", Offset = "0x2515CB0", VA = "0x1825176B0")]
+	[Address(RVA = "0x5EBB690", Offset = "0x5EBA690", VA = "0x5EBB690")]
 	public static Exception UnknownToken(Tokens tokExpected, Tokens tokCurr, int position)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x2516240", Offset = "0x2514840", VA = "0x182516240")]
+	[Address(RVA = "0x5EBB7D0", Offset = "0x5EBA7D0", VA = "0x5EBB7D0")]
 	public static Exception DatatypeConvertion(Type type1, Type type2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x2516320", Offset = "0x2514920", VA = "0x182516320")]
+	[Address(RVA = "0x5EBB8A0", Offset = "0x5EBA8A0", VA = "0x5EBB8A0")]
 	public static Exception DatavalueConvertion(object value, Type type, Exception innerException)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x2516AB0", Offset = "0x25150B0", VA = "0x182516AB0")]
+	[Address(RVA = "0x5EBB970", Offset = "0x5EBA970", VA = "0x5EBB970")]
 	public static Exception InvalidName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x2516810", Offset = "0x2514E10", VA = "0x182516810")]
+	[Address(RVA = "0x5EBBA00", Offset = "0x5EBAA00", VA = "0x5EBBA00")]
 	public static Exception InvalidDate(string date)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x25171B0", Offset = "0x25157B0", VA = "0x1825171B0")]
+	[Address(RVA = "0x5EBBA90", Offset = "0x5EBAA90", VA = "0x5EBBA90")]
 	public static Exception NonConstantArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x2516B40", Offset = "0x2515140", VA = "0x182516B40")]
+	[Address(RVA = "0x5EBBB10", Offset = "0x5EBAB10", VA = "0x5EBBB10")]
 	public static Exception InvalidPattern(string pat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x2516790", Offset = "0x2514D90", VA = "0x182516790")]
+	[Address(RVA = "0x5EBBBA0", Offset = "0x5EBABA0", VA = "0x5EBBBA0")]
 	public static Exception InWithoutParentheses()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x2516710", Offset = "0x2514D10", VA = "0x182516710")]
+	[Address(RVA = "0x5EBBC20", Offset = "0x5EBAC20", VA = "0x5EBBC20")]
 	public static Exception InWithoutList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x2516920", Offset = "0x2514F20", VA = "0x182516920")]
+	[Address(RVA = "0x5EBBCA0", Offset = "0x5EBACA0", VA = "0x5EBBCA0")]
 	public static Exception InvalidIsSyntax()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x2517230", Offset = "0x2515830", VA = "0x182517230")]
+	[Address(RVA = "0x5EBBD20", Offset = "0x5EBAD20", VA = "0x5EBBD20")]
 	public static Exception Overflow(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x2516010", Offset = "0x2514610", VA = "0x182516010")]
+	[Address(RVA = "0x5EBBDD0", Offset = "0x5EBADD0", VA = "0x5EBBDD0")]
 	public static Exception ArgumentType(string function, int arg, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x2515F40", Offset = "0x2514540", VA = "0x182515F40")]
+	[Address(RVA = "0x5EBBED0", Offset = "0x5EBAED0", VA = "0x5EBBED0")]
 	public static Exception ArgumentTypeInteger(string function, int arg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x25173E0", Offset = "0x25159E0", VA = "0x1825173E0")]
+	[Address(RVA = "0x5EBBFA0", Offset = "0x5EBAFA0", VA = "0x5EBBFA0")]
 	public static Exception TypeMismatchInBinop(int op, Type type1, Type type2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x2515E20", Offset = "0x2514420", VA = "0x182515E20")]
+	[Address(RVA = "0x5EBC0D0", Offset = "0x5EBB0D0", VA = "0x5EBC0D0")]
 	public static Exception AmbiguousBinop(int op, Type type1, Type type2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x25179D0", Offset = "0x2515FD0", VA = "0x1825179D0")]
+	[Address(RVA = "0x5EBC200", Offset = "0x5EBB200", VA = "0x5EBC200")]
 	public static Exception UnsupportedOperator(int op)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x2516A20", Offset = "0x2515020", VA = "0x182516A20")]
+	[Address(RVA = "0x5EBC2C0", Offset = "0x5EBB2C0", VA = "0x5EBC2C0")]
 	public static Exception InvalidNameBracketing(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x2516EB0", Offset = "0x25154B0", VA = "0x182516EB0")]
+	[Address(RVA = "0x5EBC350", Offset = "0x5EBB350", VA = "0x5EBC350")]
 	public static Exception MissingOperandBefore(string op)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x2517360", Offset = "0x2515960", VA = "0x182517360")]
+	[Address(RVA = "0x5EBC3E0", Offset = "0x5EBB3E0", VA = "0x5EBC3E0")]
 	public static Exception TooManyRightParentheses()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000674")]
-	[Address(RVA = "0x25178C0", Offset = "0x2515EC0", VA = "0x1825178C0")]
+	[Address(RVA = "0x5EBC460", Offset = "0x5EBB460", VA = "0x5EBC460")]
 	public static Exception UnresolvedRelation(string name, string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000675")]
-	[Address(RVA = "0x2516120", Offset = "0x2514720", VA = "0x182516120")]
+	[Address(RVA = "0x5EBC4F0", Offset = "0x5EBB4F0", VA = "0x5EBC4F0")]
 	internal static EvaluateException BindFailure(string relationName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x2515D10", Offset = "0x2514310", VA = "0x182515D10")]
+	[Address(RVA = "0x5EBC580", Offset = "0x5EBB580", VA = "0x5EBC580")]
 	public static Exception AggregateArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x2515D90", Offset = "0x2514390", VA = "0x182515D90")]
+	[Address(RVA = "0x5EBC600", Offset = "0x5EBB600", VA = "0x5EBC600")]
 	public static Exception AggregateUnbound(string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x2516400", Offset = "0x2514A00", VA = "0x182516400")]
+	[Address(RVA = "0x5EBC690", Offset = "0x5EBB690", VA = "0x5EBC690")]
 	public static Exception EvalNoContext()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x2516500", Offset = "0x2514B00", VA = "0x182516500")]
+	[Address(RVA = "0x5EBC710", Offset = "0x5EBB710", VA = "0x5EBC710")]
 	public static Exception ExpressionUnbound(string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x25161B0", Offset = "0x25147B0", VA = "0x1825161B0")]
+	[Address(RVA = "0x5EBC7A0", Offset = "0x5EBB7A0", VA = "0x5EBC7A0")]
 	public static Exception ComputeNotAggregate(string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x2516590", Offset = "0x2514B90", VA = "0x182516590")]
+	[Address(RVA = "0x5EBC830", Offset = "0x5EBB830", VA = "0x5EBC830")]
 	public static Exception FilterConvertion(string expr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067C")]
-	[Address(RVA = "0x2516DB0", Offset = "0x25153B0", VA = "0x182516DB0")]
+	[Address(RVA = "0x5EBC8C0", Offset = "0x5EBB8C0", VA = "0x5EBC8C0")]
 	public static Exception LookupArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067D")]
-	[Address(RVA = "0x2516CE0", Offset = "0x25152E0", VA = "0x182516CE0")]
+	[Address(RVA = "0x5EBC940", Offset = "0x5EBB940", VA = "0x5EBC940")]
 	public static Exception InvalidType(string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x25168A0", Offset = "0x2514EA0", VA = "0x1825168A0")]
+	[Address(RVA = "0x5EBC9D0", Offset = "0x5EBB9D0", VA = "0x5EBC9D0")]
 	public static Exception InvalidHoursArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x25169A0", Offset = "0x2514FA0", VA = "0x1825169A0")]
+	[Address(RVA = "0x5EBCA50", Offset = "0x5EBBA50", VA = "0x5EBCA50")]
 	public static Exception InvalidMinutesArgument()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x2516C60", Offset = "0x2515260", VA = "0x182516C60")]
+	[Address(RVA = "0x5EBCAD0", Offset = "0x5EBBAD0", VA = "0x5EBCAD0")]
 	public static Exception InvalidTimeZoneRange()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x2516E30", Offset = "0x2515430", VA = "0x182516E30")]
+	[Address(RVA = "0x5EBCB50", Offset = "0x5EBBB50", VA = "0x5EBCB50")]
 	public static Exception MismatchKindandTimeSpan()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x2517960", Offset = "0x2515F60", VA = "0x182517960")]
+	[Address(RVA = "0x5EBCBD0", Offset = "0x5EBBBD0", VA = "0x5EBCBD0")]
 	public static Exception UnsupportedDataType(Type type)
 	{
 		return null;

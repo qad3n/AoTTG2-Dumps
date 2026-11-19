@@ -10,137 +10,137 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Changelog;
 
-[Token(Token = "0x200093F")]
+[Token(Token = "0x20009A6")]
 public sealed class ChangelogEntryResponse
 {
-	[Token(Token = "0x17000FA5")]
+	[Token(Token = "0x17000F84")]
 	public string Id
 	{
-		[Token(Token = "0x6005696")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60059EF")]
+		[Address(RVA = "0x5D25090", Offset = "0x5D24090", VA = "0x5D25090")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005697")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x60059F0")]
+		[Address(RVA = "0x5D250A0", Offset = "0x5D240A0", VA = "0x5D250A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FA6")]
+	[Token(Token = "0x17000F85")]
 	public string Version
 	{
-		[Token(Token = "0x6005698")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60059F1")]
+		[Address(RVA = "0x5D250B0", Offset = "0x5D240B0", VA = "0x5D250B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005699")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60059F2")]
+		[Address(RVA = "0x5D250C0", Offset = "0x5D240C0", VA = "0x5D250C0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FA7")]
+	[Token(Token = "0x17000F86")]
 	public string ContentMarkdown
 	{
-		[Token(Token = "0x600569A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60059F3")]
+		[Address(RVA = "0x5D250D0", Offset = "0x5D240D0", VA = "0x5D250D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600569B")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60059F4")]
+		[Address(RVA = "0x5D250E0", Offset = "0x5D240E0", VA = "0x5D250E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FA8")]
+	[Token(Token = "0x17000F87")]
 	public string ContentHash
 	{
-		[Token(Token = "0x600569C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x60059F5")]
+		[Address(RVA = "0x5D250F0", Offset = "0x5D240F0", VA = "0x5D250F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600569D")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x60059F6")]
+		[Address(RVA = "0x5D25100", Offset = "0x5D24100", VA = "0x5D25100")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FA9")]
+	[Token(Token = "0x17000F88")]
 	public string PublishedAt
 	{
-		[Token(Token = "0x600569E")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x60059F7")]
+		[Address(RVA = "0x5D25110", Offset = "0x5D24110", VA = "0x5D25110")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600569F")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Token(Token = "0x60059F8")]
+		[Address(RVA = "0x5D25120", Offset = "0x5D24120", VA = "0x5D25120")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FAA")]
+	[Token(Token = "0x17000F89")]
 	public string CreatedAt
 	{
-		[Token(Token = "0x60056A0")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x60059F9")]
+		[Address(RVA = "0x5D25130", Offset = "0x5D24130", VA = "0x5D25130")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60056A1")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Token(Token = "0x60059FA")]
+		[Address(RVA = "0x5D25140", Offset = "0x5D24140", VA = "0x5D25140")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FAB")]
+	[Token(Token = "0x17000F8A")]
 	public string UpdatedAt
 	{
-		[Token(Token = "0x60056A2")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x60059FB")]
+		[Address(RVA = "0x5D25150", Offset = "0x5D24150", VA = "0x5D25150")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60056A3")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Token(Token = "0x60059FC")]
+		[Address(RVA = "0x5D25160", Offset = "0x5D24160", VA = "0x5D25160")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6005695")]
-	[Address(RVA = "0x236A350", Offset = "0x2368950", VA = "0x18236A350")]
+	[Token(Token = "0x60059EE")]
+	[Address(RVA = "0x5D24FD0", Offset = "0x5D23FD0", VA = "0x5D24FD0")]
 	public ChangelogEntryResponse(string id, string version, string contentMarkdown, string contentHash, string publishedAt, string createdAt, string updatedAt)
 	{
 	}

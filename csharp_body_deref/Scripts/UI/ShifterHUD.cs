@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.ShifterHUD
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/ShifterHUD.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,113 +13,113 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20007C1")]
+[Token(Token = "0x200086D")]
 internal class ShifterHUD : MonoBehaviour
 {
-	[Token(Token = "0x4002729")]
+	[Token(Token = "0x4002AA9")]
 	private const int Columns = 4;
 
-	[Token(Token = "0x400272A")]
+	[Token(Token = "0x4002AAA")]
 	private const int Rows = 7;
 
-	[Token(Token = "0x400272B")]
+	[Token(Token = "0x4002AAB")]
 	private const int RestFrame = 21;
 
-	[Token(Token = "0x400272C")]
+	[Token(Token = "0x4002AAC")]
 	private const float Width = 1024f;
 
-	[Token(Token = "0x400272D")]
+	[Token(Token = "0x4002AAD")]
 	private const float FramePixelWidth = 480f;
 
-	[Token(Token = "0x400272E")]
+	[Token(Token = "0x4002AAE")]
 	private const float BoxPixelSize = 64f;
 
-	[Token(Token = "0x400272F")]
+	[Token(Token = "0x4002AAF")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Color BackdropColor;
 
-	[Token(Token = "0x4002730")]
+	[Token(Token = "0x4002AB0")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly string[] SpecialElements;
 
-	[Token(Token = "0x4002731")]
+	[Token(Token = "0x4002AB1")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly float[] FrameDurations;
 
-	[Token(Token = "0x4002732")]
+	[Token(Token = "0x4002AB2")]
 	[FieldOffset(Offset = "0x20")]
 	private RawImage _image;
 
-	[Token(Token = "0x4002733")]
+	[Token(Token = "0x4002AB3")]
 	[FieldOffset(Offset = "0x28")]
 	private BaseShifter _shifter;
 
-	[Token(Token = "0x4002734")]
+	[Token(Token = "0x4002AB4")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly List<Image> _timers;
 
-	[Token(Token = "0x4002735")]
+	[Token(Token = "0x4002AB5")]
 	[FieldOffset(Offset = "0x38")]
 	private Sprite _icon;
 
-	[Token(Token = "0x4002736")]
+	[Token(Token = "0x4002AB6")]
 	[FieldOffset(Offset = "0x40")]
 	private Sprite _fill;
 
-	[Token(Token = "0x4002737")]
+	[Token(Token = "0x4002AB7")]
 	[FieldOffset(Offset = "0x48")]
 	private int _frame;
 
-	[Token(Token = "0x4002738")]
+	[Token(Token = "0x4002AB8")]
 	[FieldOffset(Offset = "0x4C")]
 	private float _frameTime;
 
-	[Token(Token = "0x6004B42")]
-	[Address(RVA = "0x227E6A0", Offset = "0x227CCA0", VA = "0x18227E6A0")]
+	[Token(Token = "0x6005062")]
+	[Address(RVA = "0x5C4E7B0", Offset = "0x5C4D7B0", VA = "0x5C4E7B0")]
 	public static GameObject Create(Transform parent, BaseShifter shifter)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004B43")]
-	[Address(RVA = "0x227DFB0", Offset = "0x227C5B0", VA = "0x18227DFB0")]
+	[Token(Token = "0x6005063")]
+	[Address(RVA = "0x5C4EBA0", Offset = "0x5C4DBA0", VA = "0x5C4EBA0")]
 	private void CreateTimer(string iconName)
 	{
 	}
 
-	[Token(Token = "0x6004B44")]
-	[Address(RVA = "0x227DF20", Offset = "0x227C520", VA = "0x18227DF20")]
+	[Token(Token = "0x6005064")]
+	[Address(RVA = "0x5C4F360", Offset = "0x5C4E360", VA = "0x5C4F360")]
 	private static Sprite CreateSprite(Texture2D texture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004B45")]
-	[Address(RVA = "0x227EC10", Offset = "0x227D210", VA = "0x18227EC10")]
+	[Token(Token = "0x6005065")]
+	[Address(RVA = "0x5C4F3C0", Offset = "0x5C4E3C0", VA = "0x5C4F3C0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6004B46")]
-	[Address(RVA = "0x227EC20", Offset = "0x227D220", VA = "0x18227EC20")]
+	[Token(Token = "0x6005066")]
+	[Address(RVA = "0x5C4F450", Offset = "0x5C4E450", VA = "0x5C4F450")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6004B47")]
-	[Address(RVA = "0x227EB80", Offset = "0x227D180", VA = "0x18227EB80")]
+	[Token(Token = "0x6005067")]
+	[Address(RVA = "0x5C4F3F0", Offset = "0x5C4E3F0", VA = "0x5C4F3F0")]
 	private void ShowFrame(int frame)
 	{
 	}
 
-	[Token(Token = "0x6004B48")]
-	[Address(RVA = "0x227EAB0", Offset = "0x227D0B0", VA = "0x18227EAB0")]
+	[Token(Token = "0x6005068")]
+	[Address(RVA = "0x5C4F770", Offset = "0x5C4E770", VA = "0x5C4F770")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6004B49")]
-	[Address(RVA = "0x227F0B0", Offset = "0x227D6B0", VA = "0x18227F0B0")]
+	[Token(Token = "0x6005069")]
+	[Address(RVA = "0x5C4F830", Offset = "0x5C4E830", VA = "0x5C4F830")]
 	public ShifterHUD()
 	{
 	}

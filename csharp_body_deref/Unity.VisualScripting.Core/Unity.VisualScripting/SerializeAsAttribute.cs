@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public class SerializeAsAttribute : fsPropertyAttribute
 {
 	[Token(Token = "0x6000FA9")]
-	[Address(RVA = "0x2E3CD00", Offset = "0x2E3B300", VA = "0x182E3CD00")]
+	[Address(RVA = "0x6846980", Offset = "0x6845980", VA = "0x6846980")]
 	public SerializeAsAttribute(string name)
 	{
 	}

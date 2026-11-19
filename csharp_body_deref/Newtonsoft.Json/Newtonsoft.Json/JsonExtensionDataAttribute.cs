@@ -19,14 +19,14 @@ public class JsonExtensionDataAttribute : Attribute
 	public bool WriteData
 	{
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x555B590", Offset = "0x555A590", VA = "0x555B590")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x555B5A0", Offset = "0x555A5A0", VA = "0x555B5A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,14 +37,14 @@ public class JsonExtensionDataAttribute : Attribute
 	public bool ReadData
 	{
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x555B5B0", Offset = "0x555A5B0", VA = "0x555B5B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x555B5C0", Offset = "0x555A5C0", VA = "0x555B5C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -52,7 +52,7 @@ public class JsonExtensionDataAttribute : Attribute
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x1BCD350", Offset = "0x1BCB950", VA = "0x181BCD350")]
+	[Address(RVA = "0x555B5D0", Offset = "0x555A5D0", VA = "0x555B5D0")]
 	public JsonExtensionDataAttribute()
 	{
 	}

@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x20003A3")]
+[Token(Token = "0x200037C")]
 [ComVisible(true)]
 public interface IContributeServerContextSink
 {
-	[Token(Token = "0x6001DE7")]
+	[Token(Token = "0x6001DBD")]
 	IMessageSink GetServerContextSink(IMessageSink nextSink);
 }

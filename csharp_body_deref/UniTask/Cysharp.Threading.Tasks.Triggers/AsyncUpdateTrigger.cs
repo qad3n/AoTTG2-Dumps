@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncUpdateTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000C0F")]
-	[Address(RVA = "0x293F0B0", Offset = "0x293D6B0", VA = "0x18293F0B0")]
+	[Address(RVA = "0x6302940", Offset = "0x6301940", VA = "0x6302940")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000C10")]
-	[Address(RVA = "0x293EE20", Offset = "0x293D420", VA = "0x18293EE20")]
+	[Address(RVA = "0x63029B0", Offset = "0x63019B0", VA = "0x63029B0")]
 	public IAsyncUpdateHandler GetUpdateAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C11")]
-	[Address(RVA = "0x293EDA0", Offset = "0x293D3A0", VA = "0x18293EDA0")]
+	[Address(RVA = "0x6302A20", Offset = "0x6301A20", VA = "0x6302A20")]
 	public IAsyncUpdateHandler GetUpdateAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C12")]
-	[Address(RVA = "0x293EE90", Offset = "0x293D490", VA = "0x18293EE90")]
+	[Address(RVA = "0x6302A90", Offset = "0x6301A90", VA = "0x6302A90")]
 	public UniTask UpdateAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000C13")]
-	[Address(RVA = "0x293EFA0", Offset = "0x293D5A0", VA = "0x18293EFA0")]
+	[Address(RVA = "0x6302B80", Offset = "0x6301B80", VA = "0x6302B80")]
 	public UniTask UpdateAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000C14")]
-	[Address(RVA = "0x293F120", Offset = "0x293D720", VA = "0x18293F120")]
+	[Address(RVA = "0x6302C70", Offset = "0x6301C70", VA = "0x6302C70")]
 	public AsyncUpdateTrigger()
 	{
 	}

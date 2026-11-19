@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection.Emit;
 
-[Token(Token = "0x200055C")]
+[Token(Token = "0x2000535")]
 public class ModuleBuilder : Module
 {
 }

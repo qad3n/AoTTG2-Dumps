@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000014")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
 public struct AnimatorTransitionInfo
 {
 	[Token(Token = "0x400003F")]
@@ -60,7 +60,7 @@ public struct AnimatorTransitionInfo
 	public float duration
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x2EAE470", Offset = "0x2EACA70", VA = "0x182EAE470")]
+		[Address(RVA = "0x68A9A80", Offset = "0x68A8A80", VA = "0x68A9A80")]
 		get
 		{
 			return default(float);
@@ -71,7 +71,7 @@ public struct AnimatorTransitionInfo
 	public float normalizedTime
 	{
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x15477A0", Offset = "0x1545DA0", VA = "0x1815477A0")]
+		[Address(RVA = "0x68A9A90", Offset = "0x68A8A90", VA = "0x68A9A90")]
 		get
 		{
 			return default(float);

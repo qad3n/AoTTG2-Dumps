@@ -16,7 +16,7 @@ internal sealed class StarNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FFD")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
+		[Address(RVA = "0x61477F0", Offset = "0x61467F0", VA = "0x61477F0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -24,13 +24,13 @@ internal sealed class StarNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FFC")]
-	[Address(RVA = "0x27836B0", Offset = "0x2781CB0", VA = "0x1827836B0", Slot = "5")]
+	[Address(RVA = "0x6147670", Offset = "0x6146670", VA = "0x6147670", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FFE")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6147800", Offset = "0x6146800", VA = "0x6147800")]
 	public StarNode()
 	{
 	}

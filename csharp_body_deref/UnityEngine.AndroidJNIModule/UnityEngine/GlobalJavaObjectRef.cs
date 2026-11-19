@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000009")]
 internal class GlobalJavaObjectRef
 {
-	[Token(Token = "0x4000002")]
+	[Token(Token = "0x400000F")]
 	[FieldOffset(Offset = "0x10")]
 	private bool m_disposed;
 
-	[Token(Token = "0x4000003")]
+	[Token(Token = "0x4000010")]
 	[FieldOffset(Offset = "0x18")]
 	protected IntPtr m_jobject;
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2EA5690", Offset = "0x2EA3C90", VA = "0x182EA5690")]
+	[Token(Token = "0x60000E1")]
+	[Address(RVA = "0x689E860", Offset = "0x689D860", VA = "0x689E860")]
 	public GlobalJavaObjectRef(IntPtr jobject)
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2EA5600", Offset = "0x2EA3C00", VA = "0x182EA5600", Slot = "1")]
+	[Token(Token = "0x60000E2")]
+	[Address(RVA = "0x689E8C0", Offset = "0x689D8C0", VA = "0x689E8C0", Slot = "1")]
 	~GlobalJavaObjectRef()
 	{
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x111BC10", Offset = "0x111A210", VA = "0x18111BC10")]
+	[Token(Token = "0x60000E3")]
+	[Address(RVA = "0x689E9D0", Offset = "0x689D9D0", VA = "0x689E9D0")]
 	public static implicit operator IntPtr(GlobalJavaObjectRef obj)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2EA55B0", Offset = "0x2EA3BB0", VA = "0x182EA55B0")]
+	[Token(Token = "0x60000E4")]
+	[Address(RVA = "0x689E980", Offset = "0x689D980", VA = "0x689E980")]
 	public void Dispose()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgBombStatSettingRow.cs
@@ -7,22 +7,20 @@
 // --------------------------------
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, System_String_o* id, System_String_o* label, Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
-// 0x1821ebc70
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, System_String_o* id, Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
+// 0x5dbad40
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___ctor
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,System_String_o *id,
-               System_String_o *label,Settings_IntSetting_o *setting,int32_t kind,MethodInfo *method)
+               Settings_IntSetting_o *setting,int32_t kind,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_Code_AottgComponent___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
+            ((Gisketch_Aottg2UI_Code_AottgComponent_o *)__this,(MethodInfo *)0x0);
   (__this->fields)._id = id;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._id,id);
-  (__this->fields)._label = label;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._label,label);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._id);
   (__this->fields)._setting = setting;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._setting,setting);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._setting);
   (__this->fields)._kind = kind;
   return;
 }
@@ -30,29 +28,29 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___ctor
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$Build
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Build (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* ui, const MethodInfo* method);
-// 0x1821ea620
+// 0x5dbad90
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Build
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *ui,MethodInfo *method)
 
 {
-  int32_t layoutMode;
+  int32_t iVar1;
   System_String_o *id;
-  System_String_o *searchTitle;
-  System_String_o *pSVar1;
+  Settings_IntSetting_o *setting;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_Fields searchContext;
   System_String_o *pSVar2;
   System_String_o *pSVar3;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  System_String_o *label;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
-  System_String_o *labelBindKey;
-  DG_Tweening_Core_DOGetter_Vector2__o *__this_01;
+  System_Action_AottgUi__o *__this_00;
+  System_String_o *searchTitle;
+  System_Func_string__o *__this_01;
   Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame_o *__this_02;
-  Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o local_98 [2];
+  MethodInfo *method_00;
+  MethodInfo *pMVar4;
+  MethodInfo *in_stack_ffffffffffffff80;
   
-  if (Il2CppMethodInitialized_18434706f == '\0') {
+  pMVar4 = (MethodInfo *)ui;
+  if (Il2CppMethodInitialized_0754814a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper);
@@ -61,145 +59,137 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Build
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string);
-    Il2CppMethodInitialized_18434706f = '\x01';
+    Il2CppMethodInitialized_0754814a = '\x01';
   }
   id = (__this->fields)._id;
-  label = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText_21eaaa0
-                    ((__this->fields)._label,(__this->fields)._setting,(__this->fields)._kind,
-                     (MethodInfo *)0x0);
-  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-  System_Action_object____ctor
-            (__this_00,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper,
-             (MethodInfo *)0x0);
-  searchTitle = (__this->fields)._label;
-  pSVar1 = (__this->fields)._id;
-  if (Il2CppMethodInitialized_184347079 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&".label");
-    Il2CppMethodInitialized_184347079 = '\x01';
+  setting = (__this->fields)._setting;
+  iVar1 = (__this->fields)._kind;
+  if (Il2CppMethodInitialized_0754814c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&")");
+    il2cpp_codegen_initialize_runtime_metadata(&" (");
+    Il2CppMethodInitialized_0754814c = '\x01';
   }
-  labelBindKey = System_String__Concat_1969e50(pSVar1,".label",(MethodInfo *)0x0);
-  pSVar2 = (__this->fields)._searchContext.fields.ScreenTitle;
-  pSVar3 = (__this->fields)._searchContext.fields.CategoryId;
-  pSVar4 = (__this->fields)._searchContext.fields.CategoryTitle;
-  pSVar5 = (__this->fields)._searchContext.fields.GroupId;
-  pSVar1 = (__this->fields)._searchContext.fields.GroupTitle;
-  __this_01 = (DG_Tweening_Core_DOGetter_Vector2__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string);
+  pSVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel(iVar1,pMVar4);
+  pSVar3 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue(setting,iVar1,method_00);
+  pSVar3 = System_String__Concat_5302810
+                     (pSVar2," (",pSVar3,")",(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  pMVar4 = (MethodInfo *)__this;
+  System_Action_object____ctor
+            ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper,
+             (MethodInfo_4A81BE0 *)0x0);
+  searchTitle = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel
+                          ((__this->fields)._kind,pMVar4);
+  pSVar2 = (__this->fields)._id;
+  if (Il2CppMethodInitialized_07548155 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&".label");
+    Il2CppMethodInitialized_07548155 = '\x01';
+  }
+  pSVar2 = System_String__Concat_52f0320(pSVar2,".label",(MethodInfo *)0x0);
+  searchContext = (__this->fields)._searchContext.fields;
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string);
   System_Func_object____ctor
-            (__this_01,(Il2CppObject *)__this,
+            ((System_Func_object__o *)__this_01,(Il2CppObject *)__this,
              (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_DirtyValue,
-             (MethodInfo_1387740 *)0x0);
-  layoutMode = (__this->fields)._layoutMode;
+             (MethodInfo_4F0C6A0 *)0x0);
+  iVar1 = (__this->fields)._layoutMode;
   __this_02 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame);
-  local_98[0].fields.ScreenTitle = pSVar2;
-  local_98[0].fields.CategoryId = pSVar3;
-  local_98[0].fields.CategoryTitle = pSVar4;
-  local_98[0].fields.GroupId = pSVar5;
-  local_98[0].fields.GroupTitle = pSVar1;
   Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame___ctor
-            (__this_02,id,label,220.0,(System_Action_AottgUi__o *)__this_00,(System_String_o *)0x0,searchTitle
-             ,(System_String_o *)0x0,(System_String_o *)0x0,(System_Nullable_float__o)0x0,
-             (System_String_o *)0x0,(System_String_o *)0x0,labelBindKey,local_98,
-             (System_Func_string__o *)__this_01,(System_String_o *)0x0,(System_String_o *)0x0,layoutMode,
-             (MethodInfo *)0x0);
-  if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Component
-              (ui,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_02,(MethodInfo *)0x0);
-    return;
+            (__this_02,id,pSVar3,220.0,__this_00,(System_String_o *)0x0,searchTitle,(System_String_o *)0x0,
+             (System_String_o *)0x0,(System_Nullable_float__o)0x0,(System_String_o *)0x0,
+             (System_String_o *)0x0,pSVar2,
+             (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o)searchContext,__this_01,
+             (System_String_o *)0x0,(System_String_o *)0x0,iVar1,in_stack_ffffffffffffff80);
+  if (ui == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Component
+            (ui,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_02,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$ApplySearchContext
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplySearchContext (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o context, const MethodInfo* method);
-// 0x1821ea430
+// 0x5dbb170
 
-void
-Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplySearchContext(Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o context, MethodInfo* method)
+void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplySearchContext
+               (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
+               Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o context,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  System_String_o *pSVar2;
-  System_String_o *pSVar3;
-  
-  pSVar1 = (context->fields).CategoryId;
-  pSVar2 = (context->fields).CategoryTitle;
-  pSVar3 = (context->fields).GroupId;
-  (__this->fields)._searchContext.fields.ScreenTitle = (context->fields).ScreenTitle;
-  (__this->fields)._searchContext.fields.CategoryId = pSVar1;
-  pSVar1 = (context->fields).GroupTitle;
-  (__this->fields)._searchContext.fields.CategoryTitle = pSVar2;
-  (__this->fields)._searchContext.fields.GroupId = pSVar3;
-  (__this->fields)._searchContext.fields.GroupTitle = pSVar1;
-  Il2CppCodeGenWriteBarrier((void **)&(__this->fields)._searchContext,(void *)0x0);
+  (__this->fields)._searchContext.fields.GroupTitle = context.fields.GroupTitle;
+  (__this->fields)._searchContext.fields.CategoryTitle = context.fields.CategoryTitle;
+  (__this->fields)._searchContext.fields.GroupId = context.fields.GroupId;
+  (__this->fields)._searchContext.fields.ScreenTitle = context.fields.ScreenTitle;
+  (__this->fields)._searchContext.fields.CategoryId = context.fields.CategoryId;
+  Il2CppCodeGenWriteBarrier((void **)&(__this->fields)._searchContext);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$ApplyLayoutMode
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplyLayoutMode (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, int32_t mode, const MethodInfo* method);
-// 0x181adfeb0
+// 0x5dbb1a0
 
-void
-Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplyLayoutMode(Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, int32_t mode, MethodInfo* method)
+void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ApplyLayoutMode
+               (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,int32_t mode,
+               MethodInfo *method)
 
 {
-  (__this->fields)._layoutMode = value;
+  (__this->fields)._layoutMode = mode;
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$SyncState
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncState (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_GisketchUIRoot_o* root, const MethodInfo* method);
-// 0x1821eb3a0
+// 0x5dbb1b0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncState
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
                Gisketch_Aottg2UI_GisketchUIRoot_o *root,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,(MethodInfo *)root);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$BuildStepper
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__BuildStepper (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* control, const MethodInfo* method);
-// 0x1821ea460
+// 0x5dbb410
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__BuildStepper
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *control,MethodInfo *method)
 
 {
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  System_Action_AottgUi__o *__this_00;
   System_String_o *id;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *maxWidth;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184347070 == '\0') {
+  if (Il2CppMethodInitialized_0754814b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_0);
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_0);
     il2cpp_codegen_initialize_runtime_metadata(&"clear");
     il2cpp_codegen_initialize_runtime_metadata(&"Center");
     il2cpp_codegen_initialize_runtime_metadata(&"-bomb-stepper");
     il2cpp_codegen_initialize_runtime_metadata(&"Row");
-    Il2CppMethodInitialized_184347070 = '\x01';
+    Il2CppMethodInitialized_0754814b = '\x01';
   }
-  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
   System_Action_object____ctor
-            (__this_00,(Il2CppObject *)__this,
+            ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
              (intptr_t)
-             MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_0,
-             (MethodInfo *)0x0);
-  id = System_String__Concat_1969e50((__this->fields)._id,"-bomb-stepper",(MethodInfo *)0x0);
+             MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_0,
+             (MethodInfo_4A81BE0 *)0x0);
+  id = System_String__Concat_52f0320((__this->fields)._id,"-bomb-stepper",(MethodInfo *)0x0);
   width = Gisketch_Aottg2UI_Code_AottgUi__Points(220.0,(MethodInfo *)0x0);
   maxWidth = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
@@ -209,61 +199,115 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__BuildStepper
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,maxWidth,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       1.0,(MethodInfo *)0x0);
-  if (control != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (control,"clear",(System_Action_AottgUi__o *)__this_00,id,layout,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (control == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (control,"clear",__this_00,id,layout,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$LabelText
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, const MethodInfo* method);
-// 0x1821eab20
+// 0x5dbaff0
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText
           (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,MethodInfo *method)
 
 {
+  int32_t kind;
+  Settings_IntSetting_o *setting;
   System_String_o *pSVar1;
+  System_String_o *str2;
+  MethodInfo *method_00;
   
-  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText_21eaaa0
-                     ((__this->fields)._label,(__this->fields)._setting,(__this->fields)._kind,
-                      (MethodInfo *)0x0);
+  setting = (__this->fields)._setting;
+  kind = (__this->fields)._kind;
+  if (Il2CppMethodInitialized_0754814c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&")");
+    il2cpp_codegen_initialize_runtime_metadata(&" (");
+    Il2CppMethodInitialized_0754814c = '\x01';
+  }
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel(kind,method);
+  str2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue(setting,kind,method_00);
+  pSVar1 = System_String__Concat_5302810
+                     (pSVar1," (",str2,")",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$LabelText
-// il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText (System_String_o* label, Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
-// 0x1821eaaa0
+// il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText (Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
+// 0x5dbb5b0
 
 System_String_o *
-Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText_21eaaa0
-          (System_String_o *label,Settings_IntSetting_o *setting,int32_t kind,MethodInfo *method)
+Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText_5cbb5b0
+          (Settings_IntSetting_o *setting,int32_t kind,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
+  System_String_o *str2;
+  MethodInfo *method_00;
+  undefined4 in_register_00000034;
+  MethodInfo *method_01;
   
-  if (Il2CppMethodInitialized_184347071 == '\0') {
+  method_01 = (MethodInfo *)CONCAT44(in_register_00000034,kind);
+  if (Il2CppMethodInitialized_0754814c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&")");
     il2cpp_codegen_initialize_runtime_metadata(&" (");
-    Il2CppMethodInitialized_184347071 = '\x01';
+    Il2CppMethodInitialized_0754814c = '\x01';
   }
-  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue(setting,kind,(MethodInfo *)0x0)
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel(kind,method_01);
+  str2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue(setting,kind,method_00);
+  pSVar1 = System_String__Concat_5302810
+                     (pSVar1," (",str2,")",(MethodInfo *)0x0);
+  return pSVar1;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$StatLabel
+// il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel (int32_t kind, const MethodInfo* method);
+// 0x5dbb060
+
+System_String_o *
+Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel(int32_t kind,MethodInfo *method)
+
+{
+  System_String_o *pSVar1;
+  System_Enum_o local_20;
+  int32_t local_10;
+  
+  if (Il2CppMethodInitialized_0754814d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_StatKind);
+    il2cpp_codegen_initialize_runtime_metadata(&"Ability");
+    il2cpp_codegen_initialize_runtime_metadata(&"Bomb");
+    Il2CppMethodInitialized_0754814d = '\x01';
+  }
+  local_20.klass = (System_Enum_c *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_StatKind
   ;
-  pSVar1 = System_String__Concat_1969590
-                     (label," (",pSVar1,")",(MethodInfo *)0x0);
+  local_20.monitor = (void *)0xffffffffffffffff;
+  local_10 = kind;
+  pSVar1 = System_Enum__ToString(&local_20,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320("Bomb",pSVar1,(MethodInfo *)0x0);
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsRows__Key
+                     ("Ability",pSVar1,(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+  }
+  pSVar1 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text(pSVar1,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$StatValue
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue (Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
-// 0x1821eabc0
+// 0x5dbb620
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue
@@ -272,135 +316,144 @@ Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue
 {
   System_String_o *pSVar1;
   System_String_o *str2;
-  int iVar2;
-  System_String_o *str3;
+  System_String_o **ppSVar2;
   float fVar3;
-  float pointsSpent;
-  float local_res8 [2];
+  float local_18;
+  float local_14;
   
-  if (Il2CppMethodInitialized_184347072 == '\0') {
+  if (Il2CppMethodInitialized_0754814e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"k");
     il2cpp_codegen_initialize_runtime_metadata(&"0.##");
     il2cpp_codegen_initialize_runtime_metadata(&" / ");
     il2cpp_codegen_initialize_runtime_metadata(&"m");
     il2cpp_codegen_initialize_runtime_metadata(&"s");
-    Il2CppMethodInitialized_184347072 = '\x01';
+    Il2CppMethodInitialized_0754814e = '\x01';
   }
-  local_res8[0] = 0.0;
   if (setting == (Settings_IntSetting_o *)0x0) {
-    iVar2 = 0;
+    local_14 = 0.0;
   }
   else {
-    iVar2 = (setting->fields)._value;
+    local_14 = (float)(setting->fields)._value;
   }
-  fVar3 = (float)iVar2;
-  pointsSpent = (float)iVar2;
-  if (kind == 0) {
-    fVar3 = BombUtil__GetBombRadius(fVar3,5.4,7.4,7.0,(MethodInfo *)0x0);
-    local_res8[0] = BombUtil__GetOldRadiusCost(fVar3,(MethodInfo *)0x0);
-    pSVar1 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-    local_res8[0] = BombUtil__GetBombRadius(pointsSpent,5.4,7.4,7.0,(MethodInfo *)0x0);
+  if (kind == 2) {
+    fVar3 = BombUtil__GetBombSpeed(local_14,3.0,10.5,10.5,(MethodInfo *)0x0);
+    local_18 = BombUtil__GetOldSpeedCost(fVar3,(MethodInfo *)0x0);
+    pSVar1 = System_Single__ToString_54d0a60(&local_18,"0.##",(MethodInfo *)0x0);
+    fVar3 = BombUtil__GetBombSpeed(local_14,3.0,10.5,10.5,(MethodInfo *)0x0);
+    _local_18 = CONCAT44(local_14,fVar3 / 100.0);
+    ppSVar2 = &"k";
   }
   else {
-    if (kind != 1) {
-      if (kind == 2) {
-        fVar3 = BombUtil__GetBombSpeed(fVar3,3.0,10.5,10.5,(MethodInfo *)0x0);
-        local_res8[0] = BombUtil__GetOldRangeCost(fVar3,(MethodInfo *)0x0);
-        pSVar1 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-        local_res8[0] = BombUtil__GetBombSpeed(pointsSpent,3.0,10.5,10.5,(MethodInfo *)0x0);
-        local_res8[0] = local_res8[0] / 100.0;
-        str2 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-        str3 = "k";
-      }
-      else {
-        fVar3 = BombUtil__GetBombCooldown(fVar3,4.0,7.0,7.0,(MethodInfo *)0x0);
-        local_res8[0] = BombUtil__GetOldCooldownCost(fVar3,(MethodInfo *)0x0);
-        pSVar1 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-        local_res8[0] = BombUtil__GetBombCooldown(pointsSpent,4.0,7.0,7.0,(MethodInfo *)0x0);
-        str2 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-        str3 = "s";
-      }
-      goto label_1821eae67;
+    if (kind == 1) {
+      fVar3 = BombUtil__GetBombRange(local_14,0.0,4.0,7.0,(MethodInfo *)0x0);
+      local_18 = BombUtil__GetOldRangeCost(fVar3,(MethodInfo *)0x0);
+      pSVar1 = System_Single__ToString_54d0a60(&local_18,"0.##",(MethodInfo *)0x0);
+      fVar3 = BombUtil__GetBombRange(local_14,0.0,4.0,7.0,(MethodInfo *)0x0);
     }
-    fVar3 = BombUtil__GetBombSpeed(fVar3,0.0,4.0,7.0,(MethodInfo *)0x0);
-    local_res8[0] = BombUtil__GetOldRangeCost(fVar3,(MethodInfo *)0x0);
-    pSVar1 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-    local_res8[0] = BombUtil__GetBombSpeed(pointsSpent,0.0,4.0,7.0,(MethodInfo *)0x0);
+    else {
+      if (kind != 0) {
+        fVar3 = BombUtil__GetBombCooldown(local_14,4.0,7.0,7.0,(MethodInfo *)0x0);
+        local_18 = BombUtil__GetOldCooldownCost(fVar3,(MethodInfo *)0x0);
+        pSVar1 = System_Single__ToString_54d0a60(&local_18,"0.##",(MethodInfo *)0x0);
+        fVar3 = BombUtil__GetBombCooldown(local_14,4.0,7.0,7.0,(MethodInfo *)0x0);
+        _local_18 = CONCAT44(local_14,fVar3);
+        ppSVar2 = &"s";
+        goto label_05dbb876;
+      }
+      fVar3 = BombUtil__GetBombRadius(local_14,5.4,7.4,7.0,(MethodInfo *)0x0);
+      local_18 = BombUtil__GetOldRadiusCost(fVar3,(MethodInfo *)0x0);
+      pSVar1 = System_Single__ToString_54d0a60(&local_18,"0.##",(MethodInfo *)0x0);
+      fVar3 = BombUtil__GetBombRadius(local_14,5.4,7.4,7.0,(MethodInfo *)0x0);
+    }
+    _local_18 = CONCAT44(local_14,fVar3);
+    ppSVar2 = &"m";
   }
-  str2 = System_Single__ToString_1b49f60(local_res8,"0.##",(MethodInfo *)0x0);
-  str3 = "m";
-label_1821eae67:
-  pSVar1 = System_String__Concat_1969590(pSVar1," / ",str2,str3,(MethodInfo *)0x0);
+label_05dbb876:
+  str2 = System_Single__ToString_54d0a60(&local_18,"0.##",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_5302810(pSVar1," / ",str2,*ppSVar2,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$Change
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Change (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, int32_t delta, const MethodInfo* method);
-// 0x1821ea8e0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821ea9cf: mov rdi, qword ptr [rsp + 0x30]
+// 0x5dbb8b0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Change
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
-               Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,int32_t delta,MethodInfo *method)
+               Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,int32_t delta,MethodInfo *method)
 
 {
-  int iVar1;
-  Settings_IntSetting_o *pSVar2;
-  UnityEngine_GameObject_o *__this_00;
-  int32_t iVar3;
+  uint uVar1;
+  uint uVar2;
+  int iVar3;
+  int32_t iVar4;
   Gisketch_Aottg2UI_GisketchUIRoot_o *root;
-  int iVar4;
-  int value;
+  uint uVar5;
+  Settings_IntSetting_o *__this_00;
+  uint value;
+  MethodInfo *method_00;
+  MethodInfo **method_01;
   
-  if (Il2CppMethodInitialized_184347073 == '\0') {
+  method_01 = (MethodInfo **)__this;
+  if (Il2CppMethodInitialized_0754814f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    method_01 = &MethodInfo_Settings_TypedSetting_int_set_Value;
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347073 = '\x01';
+    Il2CppMethodInitialized_0754814f = '\x01';
   }
-  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
-    pSVar2 = (__this->fields)._setting;
-    iVar1 = (pSVar2->fields).MinValue;
-    iVar4 = (pSVar2->fields)._value + delta;
-    if (((iVar4 < iVar1) || (value = (pSVar2->fields).MaxValue, iVar4 <= value)) &&
-       (value = iVar4, iVar4 < iVar1)) {
-      value = iVar1;
+  __this_00 = (__this->fields)._setting;
+  if (__this_00 != (Settings_IntSetting_o *)0x0) {
+    iVar3 = (__this_00->fields)._value;
+    uVar2 = (__this_00->fields).MinValue;
+    uVar5 = (__this_00->fields).MaxValue;
+    uVar1 = iVar3 + delta;
+    value = uVar5;
+    if ((int)uVar1 < (int)uVar5) {
+      value = uVar1;
     }
-    if (0 < delta) {
-      if (Il2CppMethodInitialized_184347075 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-        Il2CppMethodInitialized_184347075 = '\x01';
+    if ((int)uVar1 < (int)uVar2) {
+      value = uVar2;
+    }
+    if (delta < 1) {
+label_05dbb955:
+      method_00 = (MethodInfo *)(ulong)value;
+      Settings_TypedSetting_int___set_Value
+                ((Settings_TypedSetting_int__o *)__this_00,value,
+                 (MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      if (context.fields.GameObject == (UnityEngine_GameObject_o *)0x0) {
+        root = (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0;
       }
-      if ((pSVar2->fields).MaxValue <= (pSVar2->fields)._value) {
-        return;
+      else {
+        method_00 = MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot;
+        root = UnityEngine_GameObject__GetComponentInParent_object_
+                         (context.fields.GameObject,
+                          (MethodInfo_353BB40 *)
+                          MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
       }
-      iVar3 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-      if (0x13 < iVar3) {
-        return;
+      Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,method_00);
+      return;
+    }
+    if (g_data_07548151 == '\0') {
+      method_01 = &MethodInfo_Settings_TypedSetting_int_get_Value;
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+      g_data_07548151 = '\x01';
+      iVar3 = (__this_00->fields)._value;
+      uVar5 = (__this_00->fields).MaxValue;
+    }
+    if (iVar3 < (int)uVar5) {
+      iVar4 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)method_01);
+      if (iVar4 < 0x14) {
+        __this_00 = (__this->fields)._setting;
+        if (__this_00 == (Settings_IntSetting_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        goto label_05dbb955;
       }
     }
-    pSVar2 = (__this->fields)._setting;
-    if (pSVar2 == (Settings_IntSetting_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    Settings_TypedSetting_int___set_Value
-              ((Settings_TypedSetting_int__o *)pSVar2,value,
-               (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
-    __this_00 = (context->fields).GameObject;
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
-      root = (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0;
-    }
-    else {
-      root = UnityEngine_GameObject__GetComponentInParent_object_
-                       (__this_00,
-                        (MethodInfo_6F53B0 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
-    }
-    Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,(MethodInfo *)0x0);
   }
   return;
 }
@@ -408,32 +461,34 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Change
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$DirtyValue
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__DirtyValue (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, const MethodInfo* method);
-// 0x1821ea9f0
+// 0x5dbb9f0
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__DirtyValue
           (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  int32_t local_res8 [8];
+  Settings_IntSetting_o *pSVar1;
+  System_String_o *pSVar2;
+  int32_t local_c;
   
-  if (Il2CppMethodInitialized_184347074 == '\0') {
+  if (Il2CppMethodInitialized_07548150 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347074 = '\x01';
+    Il2CppMethodInitialized_07548150 = '\x01';
   }
-  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
-    local_res8[0] = (((__this->fields)._setting)->fields)._value;
-    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-    return pSVar1;
+  pSVar1 = (__this->fields)._setting;
+  if (pSVar1 == (Settings_IntSetting_o *)0x0) {
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
-  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  local_c = (pSVar1->fields)._value;
+  pSVar2 = System_Int32__ToString(&local_c,(MethodInfo *)0x0);
+  return pSVar2;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$CanIncrement
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, const MethodInfo* method);
-// 0x1821ea840
+// 0x5dbb9b0
 
 bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,MethodInfo *method)
@@ -441,45 +496,51 @@ bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement
 {
   Settings_IntSetting_o *pSVar1;
   int32_t iVar2;
+  MethodInfo **ppMVar3;
   
   pSVar1 = (__this->fields)._setting;
-  if (Il2CppMethodInitialized_184347075 == '\0') {
+  if (g_data_07548151 == '\0') {
+    ppMVar3 = &MethodInfo_Settings_TypedSetting_int_get_Value;
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347075 = '\x01';
+    g_data_07548151 = '\x01';
+    __this = (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *)ppMVar3;
   }
-  if ((pSVar1 != (Settings_IntSetting_o *)0x0) && ((pSVar1->fields)._value < (pSVar1->fields).MaxValue)) {
-    iVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-    return iVar2 < 0x14;
+  if ((pSVar1 == (Settings_IntSetting_o *)0x0) || ((pSVar1->fields).MaxValue <= (pSVar1->fields)._value)) {
+    return false;
   }
-  return false;
+  iVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)__this);
+  return iVar2 < 0x14;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$CanIncrement
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement (Settings_IntSetting_o* setting, const MethodInfo* method);
-// 0x1821ea890
+// 0x5dbba60
 
-bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement_21ea890
+bool Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__CanIncrement_5cbba60
                (Settings_IntSetting_o *setting,MethodInfo *method)
 
 {
   int32_t iVar1;
+  MethodInfo **method_00;
   
-  if (Il2CppMethodInitialized_184347075 == '\0') {
+  method_00 = (MethodInfo **)setting;
+  if (g_data_07548151 == '\0') {
+    method_00 = &MethodInfo_Settings_TypedSetting_int_get_Value;
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347075 = '\x01';
+    g_data_07548151 = '\x01';
   }
-  if ((setting != (Settings_IntSetting_o *)0x0) && ((setting->fields)._value < (setting->fields).MaxValue)) {
-    iVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-    return iVar1 < 0x14;
+  if ((setting == (Settings_IntSetting_o *)0x0) || ((setting->fields).MaxValue <= (setting->fields)._value)) {
+    return false;
   }
-  return false;
+  iVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)method_00);
+  return iVar1 < 0x14;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$TotalPoints
 // il2cpp: int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints (const MethodInfo* method);
-// 0x1821eb3b0
+// 0x5dbbaa0
 
 int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints(MethodInfo *method)
 
@@ -490,30 +551,30 @@ int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints(Me
   Settings_IntSetting_o *pSVar4;
   Settings_IntSetting_o *pSVar5;
   
-  if (Il2CppMethodInitialized_184347076 == '\0') {
+  if (Il2CppMethodInitialized_07548152 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_184347076 = '\x01';
+    Il2CppMethodInitialized_07548152 = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->AbilitySettings;
-  if (pSVar1 != (Settings_AbilitySettings_o *)0x0) {
-    pSVar2 = (pSVar1->fields).BombRadius;
-    if ((((pSVar2 != (Settings_IntSetting_o *)0x0) &&
-         (pSVar3 = (pSVar1->fields).BombRange, pSVar3 != (Settings_IntSetting_o *)0x0)) &&
-        (pSVar4 = (pSVar1->fields).BombSpeed, pSVar4 != (Settings_IntSetting_o *)0x0)) &&
-       (pSVar5 = (pSVar1->fields).BombCooldown, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-      return (pSVar5->fields)._value + (pSVar4->fields)._value + (pSVar3->fields)._value +
-             (pSVar2->fields)._value;
-    }
+  if (pSVar1 == (Settings_AbilitySettings_o *)0x0) {
+    return 0;
+  }
+  pSVar2 = (pSVar1->fields).BombRadius;
+  if ((((pSVar2 == (Settings_IntSetting_o *)0x0) ||
+       (pSVar3 = (pSVar1->fields).BombRange, pSVar3 == (Settings_IntSetting_o *)0x0)) ||
+      (pSVar4 = (pSVar1->fields).BombSpeed, pSVar4 == (Settings_IntSetting_o *)0x0)) ||
+     (pSVar5 = (pSVar1->fields).BombCooldown, pSVar5 == (Settings_IntSetting_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  return 0;
+  return (pSVar2->fields)._value + (pSVar3->fields)._value + (pSVar4->fields)._value + (pSVar5->fields)._value
+  ;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$UnusedPoints
 // il2cpp: int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__UnusedPoints (const MethodInfo* method);
-// 0x1821ebc10
+// 0x5dbbb20
 
 int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__UnusedPoints(MethodInfo *method)
 
@@ -521,9 +582,9 @@ int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__UnusedPoints(M
   int32_t iVar1;
   int32_t iVar2;
   
-  iVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
+  iVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints(method);
   iVar2 = 0;
-  if (-1 < 0x14 - iVar1) {
+  if (0 < 0x14 - iVar1) {
     iVar2 = 0x14 - iVar1;
   }
   return iVar2;
@@ -532,9 +593,7 @@ int32_t Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__UnusedPoints(M
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$SyncAll
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll (Gisketch_Aottg2UI_GisketchUIRoot_o* root, const MethodInfo* method);
-// 0x1821eaea0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821eb147: mov rdi, qword ptr [rsp + 0x48]
+// 0x5dbb1c0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll
                (Gisketch_Aottg2UI_GisketchUIRoot_o *root,MethodInfo *method)
@@ -545,10 +604,12 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll
   bool bVar2;
   int32_t iVar3;
   System_String_o *value;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *method_00;
+  MethodInfo *in_R8;
   Settings_IntSetting_o *setting;
-  int32_t local_res8 [2];
+  int local_2c;
   
-  if (Il2CppMethodInitialized_184347077 == '\0') {
+  if (Il2CppMethodInitialized_07548153 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
@@ -557,15 +618,9 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll
     il2cpp_codegen_initialize_runtime_metadata(&"settings-ability-bomb-cooldown");
     il2cpp_codegen_initialize_runtime_metadata(&"settings-ability-bomb-speed");
     il2cpp_codegen_initialize_runtime_metadata(&"settings-ability-bomb-unused-points.value");
-    il2cpp_codegen_initialize_runtime_metadata(&"Bomb Range");
     il2cpp_codegen_initialize_runtime_metadata(&"settings-ability-bomb-range");
-    il2cpp_codegen_initialize_runtime_metadata(&"Bomb Cooldown");
-    il2cpp_codegen_initialize_runtime_metadata(&"Bomb Radius");
-    il2cpp_codegen_initialize_runtime_metadata(&"Bomb Speed");
-    Il2CppMethodInitialized_184347077 = '\x01';
+    Il2CppMethodInitialized_07548153 = '\x01';
   }
-  setting = (Settings_IntSetting_o *)0x0;
-  local_res8[0] = 0;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
@@ -573,44 +628,40 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (!bVar2) {
     if (root == (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) {
-label_1821eb157:
+label_05dbb400:
       ThrowNullReferenceException();
     }
     if ((root->fields)._State_k__BackingField != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
       pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->AbilitySettings;
       if (pSVar1 == (Settings_AbilitySettings_o *)0x0) {
+        setting = (Settings_IntSetting_o *)0x0;
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-radius","Bomb Radius",(Settings_IntSetting_o *)0x0,0,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-radius",(Settings_IntSetting_o *)0x0,0,in_R8);
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-range","Bomb Range",(Settings_IntSetting_o *)0x0,1,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-range",(Settings_IntSetting_o *)0x0,1,in_R8);
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-speed","Bomb Speed",(Settings_IntSetting_o *)0x0,2,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-speed",(Settings_IntSetting_o *)0x0,2,in_R8);
       }
       else {
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-radius","Bomb Radius",(pSVar1->fields).BombRadius,0,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-radius",(pSVar1->fields).BombRadius,0,in_R8);
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-range","Bomb Range",(pSVar1->fields).BombRange,1,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-range",(pSVar1->fields).BombRange,1,in_R8);
         Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                  (root,"settings-ability-bomb-speed","Bomb Speed",(pSVar1->fields).BombSpeed,2,
-                   (MethodInfo *)0x0);
+                  (root,"settings-ability-bomb-speed",(pSVar1->fields).BombSpeed,2,in_R8);
         setting = (pSVar1->fields).BombCooldown;
       }
+      method_00 = root;
       Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-                (root,"settings-ability-bomb-cooldown","Bomb Cooldown",setting,3,(MethodInfo *)0x0);
+                (root,"settings-ability-bomb-cooldown",setting,3,in_R8);
       __this = (root->fields)._State_k__BackingField;
-      iVar3 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-      local_res8[0] = 0;
-      if (-1 < 0x14 - iVar3) {
-        local_res8[0] = 0x14 - iVar3;
+      iVar3 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)method_00);
+      local_2c = 0x14 - iVar3;
+      if (0x14 - iVar3 < 1) {
+        local_2c = 0;
       }
-      value = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-      if (__this == (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) goto label_1821eb157;
+      value = System_Int32__ToString(&local_2c,(MethodInfo *)0x0);
+      if (__this == (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) goto label_05dbb400;
       Gisketch_Aottg2UI_State_GisketchUIState__Set(__this,"settings-ability-bomb-unused-points.value",value,(MethodInfo *)0x0);
       if ((TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry->_2).
           cctor_finished_or_no_cctor == 0) {
@@ -632,87 +683,112 @@ label_1821eb157:
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$SyncRow
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow (Gisketch_Aottg2UI_GisketchUIRoot_o* root, System_String_o* id, System_String_o* label, Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
-// 0x1821eb160
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821eb273: mov rax, qword ptr [rip + 0x1efe7d6]  ; "0"
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow (Gisketch_Aottg2UI_GisketchUIRoot_o* root, System_String_o* id, Settings_IntSetting_o* setting, int32_t kind, const MethodInfo* method);
+// 0x5dbbb40
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5dbbcb6: jmp 0x5dbbdb8
+// asm:   0x5dbbcbb: lea rax, [rip + 0x1515ad6]  ; "0"
+// asm:   0x5dbbcc2: mov rdx, qword ptr [rax]
+// asm:   0x5dbbcc5: test rbx, rbx
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
-               (Gisketch_Aottg2UI_GisketchUIRoot_o *root,System_String_o *id,System_String_o *label,
-               Settings_IntSetting_o *setting,int32_t kind,MethodInfo *method)
+               (Gisketch_Aottg2UI_GisketchUIRoot_o *root,System_String_o *id,Settings_IntSetting_o *setting,
+               int32_t kind,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_State_GisketchUIState_o *pGVar1;
-  int32_t iVar2;
-  System_String_o *pSVar3;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *pGVar2;
+  int32_t iVar3;
   System_String_o *pSVar4;
-  bool bVar5;
-  int32_t local_res8 [2];
+  System_String_o *pSVar5;
+  System_String_o *str2;
+  MethodInfo *method_00;
+  bool bVar6;
+  MethodInfo *method_01;
+  MethodInfo **method_02;
+  int32_t local_44;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *local_40;
+  MethodInfo *local_38;
   
-  if (Il2CppMethodInitialized_184347078 == '\0') {
+  if (Il2CppMethodInitialized_07548154 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"0");
-    Il2CppMethodInitialized_184347078 = '\x01';
+    Il2CppMethodInitialized_07548154 = '\x01';
   }
-  local_res8[0] = 0;
+  local_44 = 0;
   if (root != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) {
     pGVar1 = (root->fields)._State_k__BackingField;
-    if (Il2CppMethodInitialized_184347079 == '\0') {
+    local_40 = root;
+    if (Il2CppMethodInitialized_07548155 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&".label");
-      Il2CppMethodInitialized_184347079 = '\x01';
+      Il2CppMethodInitialized_07548155 = '\x01';
     }
-    pSVar3 = System_String__Concat_1969e50(id,".label",(MethodInfo *)0x0);
-    pSVar4 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelText_21eaaa0
-                       (label,setting,kind,(MethodInfo *)0x0);
+    method_01 = (MethodInfo *)".label";
+    local_38 = (MethodInfo *)id;
+    pSVar4 = System_String__Concat_52f0320(id,".label",(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_0754814c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&")");
+      il2cpp_codegen_initialize_runtime_metadata(&" (");
+      Il2CppMethodInitialized_0754814c = '\x01';
+    }
+    pSVar5 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatLabel(kind,method_01);
+    str2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__StatValue(setting,kind,method_00);
+    pSVar5 = System_String__Concat_5302810
+                       (pSVar5," (",str2,")",(MethodInfo *)0x0);
     if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-      Gisketch_Aottg2UI_State_GisketchUIState__Set(pGVar1,pSVar3,pSVar4,(MethodInfo *)0x0);
-      pGVar1 = (root->fields)._State_k__BackingField;
-      if (Il2CppMethodInitialized_18434707a == '\0') {
+      Gisketch_Aottg2UI_State_GisketchUIState__Set(pGVar1,pSVar4,pSVar5,(MethodInfo *)0x0);
+      method_02 = (MethodInfo **)local_38;
+      pGVar2 = local_40;
+      pGVar1 = (local_40->fields)._State_k__BackingField;
+      if (Il2CppMethodInitialized_07548156 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&".value");
-        Il2CppMethodInitialized_18434707a = '\x01';
+        Il2CppMethodInitialized_07548156 = '\x01';
       }
-      pSVar4 = System_String__Concat_1969e50(id,".value",(MethodInfo *)0x0);
-      pSVar3 = "0";
+      pSVar5 = System_String__Concat_52f0320
+                         ((System_String_o *)method_02,".value",(MethodInfo *)0x0);
+      pSVar4 = "0";
       if (setting != (Settings_IntSetting_o *)0x0) {
-        local_res8[0] = (setting->fields)._value;
-        pSVar3 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+        local_44 = (setting->fields)._value;
+        pSVar4 = System_Int32__ToString(&local_44,(MethodInfo *)0x0);
       }
       if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-        Gisketch_Aottg2UI_State_GisketchUIState__Set(pGVar1,pSVar4,pSVar3,(MethodInfo *)0x0);
-        pGVar1 = (root->fields)._State_k__BackingField;
-        if (Il2CppMethodInitialized_18434707b == '\0') {
+        Gisketch_Aottg2UI_State_GisketchUIState__Set(pGVar1,pSVar5,pSVar4,(MethodInfo *)0x0);
+        pGVar1 = (pGVar2->fields)._State_k__BackingField;
+        if (Il2CppMethodInitialized_07548157 == '\0') {
           il2cpp_codegen_initialize_runtime_metadata(&".minus.enabled");
-          Il2CppMethodInitialized_18434707b = '\x01';
+          Il2CppMethodInitialized_07548157 = '\x01';
         }
-        pSVar3 = System_String__Concat_1969e50(id,".minus.enabled",(MethodInfo *)0x0);
-        if (setting == (Settings_IntSetting_o *)0x0) {
-          bVar5 = false;
-        }
-        else {
-          bVar5 = (setting->fields).MinValue < (setting->fields)._value;
+        bVar6 = false;
+        pSVar4 = System_String__Concat_52f0320
+                           ((System_String_o *)method_02,".minus.enabled",(MethodInfo *)0x0);
+        if (setting != (Settings_IntSetting_o *)0x0) {
+          bVar6 = (setting->fields).MinValue < (setting->fields)._value;
         }
         if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-          Gisketch_Aottg2UI_State_GisketchUIState__SetBool(pGVar1,pSVar3,bVar5,(MethodInfo *)0x0);
-          pGVar1 = (root->fields)._State_k__BackingField;
-          if (Il2CppMethodInitialized_18434707c == '\0') {
+          Gisketch_Aottg2UI_State_GisketchUIState__SetBool(pGVar1,pSVar4,bVar6,(MethodInfo *)0x0);
+          pGVar1 = (pGVar2->fields)._State_k__BackingField;
+          if (Il2CppMethodInitialized_07548158 == '\0') {
             il2cpp_codegen_initialize_runtime_metadata(&".plus.enabled");
-            Il2CppMethodInitialized_18434707c = '\x01';
+            Il2CppMethodInitialized_07548158 = '\x01';
           }
-          pSVar3 = System_String__Concat_1969e50(id,".plus.enabled",(MethodInfo *)0x0);
-          if (Il2CppMethodInitialized_184347075 == '\0') {
+          pSVar4 = System_String__Concat_52f0320
+                             ((System_String_o *)method_02,".plus.enabled",(MethodInfo *)0x0);
+          if (g_data_07548151 == '\0') {
+            method_02 = &MethodInfo_Settings_TypedSetting_int_get_Value;
             il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-            Il2CppMethodInitialized_184347075 = '\x01';
+            g_data_07548151 = '\x01';
           }
           if ((setting == (Settings_IntSetting_o *)0x0) ||
              ((setting->fields).MaxValue <= (setting->fields)._value)) {
-            bVar5 = false;
+            bVar6 = false;
           }
           else {
-            iVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-            bVar5 = iVar2 < 0x14;
+            iVar3 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints
+                              ((MethodInfo *)method_02);
+            bVar6 = iVar3 < 0x14;
           }
           if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-            Gisketch_Aottg2UI_State_GisketchUIState__SetBool(pGVar1,pSVar3,bVar5,(MethodInfo *)0x0);
+            Gisketch_Aottg2UI_State_GisketchUIState__SetBool(pGVar1,pSVar4,bVar6,(MethodInfo *)0x0);
             return;
           }
         }
@@ -725,7 +801,7 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncRow
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$LabelKey
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelKey (System_String_o* id, const MethodInfo* method);
-// 0x1821eaa60
+// 0x5dbb130
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelKey(System_String_o *id,MethodInfo *method)
@@ -733,18 +809,18 @@ Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__LabelKey(System_String
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_184347079 == '\0') {
+  if (Il2CppMethodInitialized_07548155 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&".label");
-    Il2CppMethodInitialized_184347079 = '\x01';
+    Il2CppMethodInitialized_07548155 = '\x01';
   }
-  pSVar1 = System_String__Concat_1969e50(id,".label",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320(id,".label",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$ValueKey
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ValueKey (System_String_o* id, const MethodInfo* method);
-// 0x1821ebc30
+// 0x5dbbdf0
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ValueKey(System_String_o *id,MethodInfo *method)
@@ -752,18 +828,18 @@ Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__ValueKey(System_String
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_18434707a == '\0') {
+  if (Il2CppMethodInitialized_07548156 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&".value");
-    Il2CppMethodInitialized_18434707a = '\x01';
+    Il2CppMethodInitialized_07548156 = '\x01';
   }
-  pSVar1 = System_String__Concat_1969e50(id,".value",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320(id,".value",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$MinusEnabledKey
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__MinusEnabledKey (System_String_o* id, const MethodInfo* method);
-// 0x1821eab40
+// 0x5dbbe30
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__MinusEnabledKey
@@ -772,18 +848,18 @@ Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__MinusEnabledKey
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_18434707b == '\0') {
+  if (Il2CppMethodInitialized_07548157 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&".minus.enabled");
-    Il2CppMethodInitialized_18434707b = '\x01';
+    Il2CppMethodInitialized_07548157 = '\x01';
   }
-  pSVar1 = System_String__Concat_1969e50(id,".minus.enabled",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320(id,".minus.enabled",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$PlusEnabledKey
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__PlusEnabledKey (System_String_o* id, const MethodInfo* method);
-// 0x1821eab80
+// 0x5dbbe70
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__PlusEnabledKey
@@ -792,31 +868,27 @@ Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__PlusEnabledKey
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_18434707c == '\0') {
+  if (Il2CppMethodInitialized_07548158 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&".plus.enabled");
-    Il2CppMethodInitialized_18434707c = '\x01';
+    Il2CppMethodInitialized_07548158 = '\x01';
   }
-  pSVar1 = System_String__Concat_1969e50(id,".plus.enabled",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320(id,".plus.enabled",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__17_0
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_0 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* row, const MethodInfo* method);
-// 0x1821eb440
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821eb59b: mov edx, r15d
-// asm:   0x1821eb59e: jmp 0x1821eb5b0
-// asm:   0x1821eb758: mov rbx, qword ptr [rip + 0x1efe2f1]  ; "0"
+// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__16_0
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_0 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* row, const MethodInfo* method);
+// 0x5dbbeb0
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_0
+void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_0
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *row,MethodInfo *method)
 
 {
   Settings_IntSetting_o *pSVar1;
   int32_t iVar2;
-  DG_Tweening_Core_DOSetter_Color2__o *pDVar3;
+  System_Action_GisketchActionContext__o *pSVar3;
   System_String_o *pSVar4;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar5;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *pGVar6;
@@ -824,15 +896,17 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar8;
   System_String_o *id;
   bool bVar9;
-  System_Nullable_bool__Fields local_res8 [4];
-  int32_t local_res10 [2];
+  MethodInfo **ppMVar10;
+  System_Nullable_bool__Fields aSStack_40 [4];
+  System_Nullable_bool__Fields aSStack_38 [2];
+  int32_t iStack_34;
   
-  if (Il2CppMethodInitialized_18434707d == '\0') {
+  if (Il2CppMethodInitialized_07548159 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_GisketchActionContext);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_1);
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_1);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_2);
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_2);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
@@ -844,238 +918,238 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__
     il2cpp_codegen_initialize_runtime_metadata(&"-plus");
     il2cpp_codegen_initialize_runtime_metadata(&"-value");
     il2cpp_codegen_initialize_runtime_metadata(&"0");
-    Il2CppMethodInitialized_18434707d = '\x01';
+    Il2CppMethodInitialized_07548159 = '\x01';
   }
-  bVar9 = false;
-  local_res10[0] = 0;
-  pDVar3 = (DG_Tweening_Core_DOSetter_Color2__o *)
-           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
+  iStack_34 = 0;
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
   System_Action_GisketchActionContext____ctor
-            (pDVar3,(Il2CppObject *)__this,
+            (pSVar3,(Il2CppObject *)__this,
              (intptr_t)
-             MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_1,
-             (MethodInfo_1387DC0 *)0x0);
-  pSVar4 = System_String__Concat_1969e50((__this->fields)._id,"-minus",(MethodInfo *)0x0);
-  if (row == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    ThrowNullReferenceException();
-  }
-  pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Button_18c6fe0
-                     (row,5,"-",(System_Action_GisketchActionContext__o *)pDVar3,pSVar4,
-                      (System_String_o *)0x0,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
-                      (System_String_o *)0x0,(MethodInfo *)0x0);
-  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
+             MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_1,
+             (MethodInfo_4A803E0 *)0x0);
+  pSVar4 = System_String__Concat_52f0320((__this->fields)._id,"-minus",(MethodInfo *)0x0);
+  if (row != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    bVar9 = false;
+    pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Button_5265860
+                       (row,5,"-",pSVar3,pSVar4,(System_String_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(System_String_o *)0x0,
+                        (MethodInfo *)0x0);
     pSVar1 = (__this->fields)._setting;
-    bVar9 = (pSVar1->fields).MinValue < (pSVar1->fields)._value;
-  }
-  local_res8[0].hasValue = false;
-  local_res8[0].value = false;
-  System_Nullable_bool____ctor
-            ((System_Data_SqlTypes_SqlByte_o *)local_res8,bVar9,MethodInfo_System_Nullable_bool_ctor);
-  if (pGVar5 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-    (pGVar5->fields).enabled.fields = local_res8[0];
-    pGVar6 = il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-    Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pGVar6,(MethodInfo *)0x0);
-    pSVar4 = (__this->fields)._id;
-    if (Il2CppMethodInitialized_18434707b == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&".minus.enabled");
-      Il2CppMethodInitialized_18434707b = '\x01';
+    if (pSVar1 != (Settings_IntSetting_o *)0x0) {
+      bVar9 = (pSVar1->fields).MinValue < (pSVar1->fields)._value;
     }
-    pSVar4 = System_String__Concat_1969e50(pSVar4,".minus.enabled",(MethodInfo *)0x0);
-    if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-      (pGVar6->fields).enabled = pSVar4;
-      Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enabled,pSVar4);
-      (pGVar5->fields).bind = pGVar6;
-      Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind,pGVar6);
-      pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(54.0,(MethodInfo *)0x0);
-      pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                         ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                          (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
-                          0.0,0.0,(MethodInfo *)0x0);
-      (pGVar5->fields).layout = pGVar8;
-      Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout,pGVar8);
-      pSVar4 = "0";
-      if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
-        local_res10[0] = (((__this->fields)._setting)->fields)._value;
-        pSVar4 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-      }
-      id = System_String__Concat_1969e50((__this->fields)._id,"-value",(MethodInfo *)0x0);
-      pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Text
-                         (row,pSVar4,"settingStepperValue",id,(System_String_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+    aSStack_38[0].hasValue = false;
+    aSStack_38[0].value = false;
+    System_Nullable_bool____ctor
+              ((System_Nullable_bool__o *)aSStack_38,bVar9,
+               (MethodInfo_3CCFD20 *)MethodInfo_System_Nullable_bool_ctor);
+    if (pGVar5 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
+      (pGVar5->fields).enabled.fields = aSStack_38[0];
       pGVar6 = il2cpp_codegen_object_new
                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pGVar6,(MethodInfo *)0x0);
+      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(pGVar6,(MethodInfo *)0x0);
       pSVar4 = (__this->fields)._id;
-      if (Il2CppMethodInitialized_18434707a == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&".value");
-        Il2CppMethodInitialized_18434707a = '\x01';
+      if (Il2CppMethodInitialized_07548157 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&".minus.enabled");
+        Il2CppMethodInitialized_07548157 = '\x01';
       }
-      pSVar4 = System_String__Concat_1969e50(pSVar4,".value",(MethodInfo *)0x0);
+      pSVar4 = System_String__Concat_52f0320(pSVar4,".minus.enabled",(MethodInfo *)0x0);
       if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-        (pGVar6->fields).text = pSVar4;
-        Il2CppCodeGenWriteBarrier(&(pGVar6->fields).text,pSVar4);
-        if (pGVar5 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-          (pGVar5->fields).bind = pGVar6;
-          Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind,pGVar6);
-          pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(70.0,(MethodInfo *)0x0);
-          pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                             ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                              (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
-                              (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                              (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                              (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                              (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                              (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
-                              0.0,0.0,0.0,(MethodInfo *)0x0);
-          (pGVar5->fields).layout = pGVar8;
-          Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout,pGVar8);
-          pDVar3 = (DG_Tweening_Core_DOSetter_Color2__o *)
-                   il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
-          System_Action_GisketchActionContext____ctor
-                    (pDVar3,(Il2CppObject *)__this,
-                     (intptr_t)
-                     MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__17_2,
-                     (MethodInfo_1387DC0 *)0x0);
-          pSVar4 = System_String__Concat_1969e50((__this->fields)._id,"-plus",(MethodInfo *)0x0)
-          ;
-          pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Button_18c6fe0
-                             (row,5,"+",(System_Action_GisketchActionContext__o *)pDVar3,
-                              pSVar4,(System_String_o *)0x0,
-                              (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(System_String_o *)0x0,
-                              (MethodInfo *)0x0);
-          pSVar1 = (__this->fields)._setting;
-          if (Il2CppMethodInitialized_184347075 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-            Il2CppMethodInitialized_184347075 = '\x01';
-          }
-          if ((pSVar1 == (Settings_IntSetting_o *)0x0) ||
-             ((pSVar1->fields).MaxValue <= (pSVar1->fields)._value)) {
-            bVar9 = false;
-          }
-          else {
-            iVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)0x0);
-            bVar9 = iVar2 < 0x14;
-          }
-          local_res8[0].hasValue = false;
-          local_res8[0].value = false;
-          System_Nullable_bool____ctor
-                    ((System_Data_SqlTypes_SqlByte_o *)local_res8,bVar9,MethodInfo_System_Nullable_bool_ctor);
+        (pGVar6->fields).enabled = pSVar4;
+        Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enabled);
+        (pGVar5->fields).bind = pGVar6;
+        Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind);
+        pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(54.0,(MethodInfo *)0x0);
+        pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                           ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                            (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
+                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+                            ,0.0,0.0,(MethodInfo *)0x0);
+        (pGVar5->fields).layout = pGVar8;
+        Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout);
+        pSVar1 = (__this->fields)._setting;
+        if (pSVar1 == (Settings_IntSetting_o *)0x0) {
+          pSVar4 = "0";
+        }
+        else {
+          iStack_34 = (pSVar1->fields)._value;
+          pSVar4 = System_Int32__ToString(&iStack_34,(MethodInfo *)0x0);
+        }
+        id = System_String__Concat_52f0320((__this->fields)._id,"-value",(MethodInfo *)0x0);
+        pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Text
+                           (row,pSVar4,"settingStepperValue",id,(System_String_o *)0x0,
+                            (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+        pGVar6 = il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
+        Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(pGVar6,(MethodInfo *)0x0);
+        pSVar4 = (__this->fields)._id;
+        if (Il2CppMethodInitialized_07548156 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&".value");
+          Il2CppMethodInitialized_07548156 = '\x01';
+        }
+        pSVar4 = System_String__Concat_52f0320(pSVar4,".value",(MethodInfo *)0x0);
+        if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
+          (pGVar6->fields).text = pSVar4;
+          Il2CppCodeGenWriteBarrier(&(pGVar6->fields).text);
           if (pGVar5 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-            (pGVar5->fields).enabled.fields = local_res8[0];
-            pGVar6 = il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-            Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                      ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pGVar6,(MethodInfo *)0x0);
-            pSVar4 = (__this->fields)._id;
-            if (Il2CppMethodInitialized_18434707c == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata(&".plus.enabled");
-              Il2CppMethodInitialized_18434707c = '\x01';
+            (pGVar5->fields).bind = pGVar6;
+            Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind);
+            pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(70.0,(MethodInfo *)0x0);
+            pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                               ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                                (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
+                                (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+                                ,0.0,0.0,0.0,(MethodInfo *)0x0);
+            (pGVar5->fields).layout = pGVar8;
+            Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout);
+            pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
+            System_Action_GisketchActionContext____ctor
+                      (pSVar3,(Il2CppObject *)__this,
+                       (intptr_t)
+                       MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_BuildStepper_b__16_2
+                       ,(MethodInfo_4A803E0 *)0x0);
+            pSVar4 = System_String__Concat_52f0320
+                               ((__this->fields)._id,"-plus",(MethodInfo *)0x0);
+            pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Button_5265860
+                               (row,5,"+",pSVar3,pSVar4,(System_String_o *)0x0,
+                                (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+                                (System_String_o *)0x0,(MethodInfo *)0x0);
+            pSVar1 = (__this->fields)._setting;
+            if (g_data_07548151 == '\0') {
+              ppMVar10 = &MethodInfo_Settings_TypedSetting_int_get_Value;
+              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+              g_data_07548151 = '\x01';
+              row = (Gisketch_Aottg2UI_Code_AottgUi_o *)ppMVar10;
             }
-            pSVar4 = System_String__Concat_1969e50(pSVar4,".plus.enabled",(MethodInfo *)0x0);
-            if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-              (pGVar6->fields).enabled = pSVar4;
-              Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enabled,pSVar4);
-              (pGVar5->fields).bind = pGVar6;
-              Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind,pGVar6);
-              pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(54.0,(MethodInfo *)0x0);
-              pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                                 ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                                  (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
-                                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
-                                  0.0,0.0,0.0,0.0,(MethodInfo *)0x0);
-              (pGVar5->fields).layout = pGVar8;
-              Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout,pGVar8);
-              return;
+            if ((pSVar1 == (Settings_IntSetting_o *)0x0) ||
+               ((pSVar1->fields).MaxValue <= (pSVar1->fields)._value)) {
+              bVar9 = false;
+            }
+            else {
+              iVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__TotalPoints((MethodInfo *)row)
+              ;
+              bVar9 = iVar2 < 0x14;
+            }
+            aSStack_40[0].hasValue = false;
+            aSStack_40[0].value = false;
+            System_Nullable_bool____ctor
+                      ((System_Nullable_bool__o *)aSStack_40,bVar9,
+                       (MethodInfo_3CCFD20 *)MethodInfo_System_Nullable_bool_ctor);
+            if (pGVar5 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
+              (pGVar5->fields).enabled.fields = aSStack_40[0];
+              pGVar6 = il2cpp_codegen_object_new
+                                 ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
+              Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(pGVar6,(MethodInfo *)0x0);
+              pSVar4 = (__this->fields)._id;
+              if (Il2CppMethodInitialized_07548158 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&".plus.enabled");
+                Il2CppMethodInitialized_07548158 = '\x01';
+              }
+              pSVar4 = System_String__Concat_52f0320(pSVar4,".plus.enabled",(MethodInfo *)0x0);
+              if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
+                (pGVar6->fields).enabled = pSVar4;
+                Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enabled);
+                (pGVar5->fields).bind = pGVar6;
+                Il2CppCodeGenWriteBarrier(&(pGVar5->fields).bind);
+                pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Points(54.0,(MethodInfo *)0x0);
+                pGVar8 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                                   ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                                    (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar7,
+                                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+                                    ,0.0,0.0,0.0,0.0,(MethodInfo *)0x0);
+                (pGVar5->fields).layout = pGVar8;
+                Il2CppCodeGenWriteBarrier(&(pGVar5->fields).layout);
+                return;
+              }
             }
           }
         }
       }
-      ThrowNullReferenceException();
     }
   }
   ThrowNullReferenceException();
 }
 
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__17_1
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_1 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
-// 0x1821ebb30
+// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__16_1
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_1 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
+// 0x5dbc520
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_1
+void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_1
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
-               Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,MethodInfo *method)
+               Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,MethodInfo *method)
 
 {
-  int iVar1;
+  uint uVar1;
   Settings_IntSetting_o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
+  uint uVar2;
   Gisketch_Aottg2UI_GisketchUIRoot_o *root;
-  int iVar2;
-  int value;
+  uint value;
+  MethodInfo *pMVar3;
   
-  if (Il2CppMethodInitialized_184347073 == '\0') {
+  if (Il2CppMethodInitialized_0754814f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347073 = '\x01';
+    Il2CppMethodInitialized_0754814f = '\x01';
   }
-  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
-    __this_00 = (__this->fields)._setting;
-    iVar1 = (__this_00->fields).MinValue;
-    iVar2 = (__this_00->fields)._value + -1;
-    if (((iVar2 < iVar1) || (value = (__this_00->fields).MaxValue, iVar2 <= value)) &&
-       (value = iVar2, iVar2 < iVar1)) {
-      value = iVar1;
-    }
-    __this_01 = (context->fields).GameObject;
-    Settings_TypedSetting_int___set_Value
-              ((Settings_TypedSetting_int__o *)__this_00,value,
-               (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
-    if (__this_01 == (UnityEngine_GameObject_o *)0x0) {
-      root = (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0;
-    }
-    else {
-      root = UnityEngine_GameObject__GetComponentInParent_object_
-                       (__this_01,
-                        (MethodInfo_6F53B0 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
-    }
-    Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,(MethodInfo *)0x0);
+  __this_00 = (__this->fields)._setting;
+  if (__this_00 == (Settings_IntSetting_o *)0x0) {
+    return;
   }
+  uVar1 = (__this_00->fields).MinValue;
+  value = (__this_00->fields).MaxValue;
+  uVar2 = (__this_00->fields)._value - 1;
+  if ((int)uVar2 < (int)value) {
+    value = uVar2;
+  }
+  if ((int)uVar2 < (int)uVar1) {
+    value = uVar1;
+  }
+  pMVar3 = (MethodInfo *)(ulong)value;
+  Settings_TypedSetting_int___set_Value
+            ((Settings_TypedSetting_int__o *)__this_00,value,
+             (MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+  if (context.fields.GameObject == (UnityEngine_GameObject_o *)0x0) {
+    Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll
+              ((Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0,pMVar3);
+    return;
+  }
+  pMVar3 = MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot;
+  root = UnityEngine_GameObject__GetComponentInParent_object_
+                   (context.fields.GameObject,
+                    (MethodInfo_353BB40 *)
+                    MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+  Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__SyncAll(root,pMVar3);
   return;
 }
 
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__17_2
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_2 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
-// 0x1821ebbe0
+// Gisketch.Aottg2UI.SettingsScreen.AottgBombStatSettingRow$$<BuildStepper>b__16_2
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_2 (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
+// 0x5dbc5d0
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__17_2
+void Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow___BuildStepper_b__16_2
                (Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow_o *__this,
-               Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,MethodInfo *method)
+               Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_28;
+  MethodInfo *in_RDX;
   
-  local_28.fields.ElementId = (context->fields).ElementId;
-  local_28.fields.GameObject = (context->fields).GameObject;
-  local_28.fields.Node = (context->fields).Node;
-  local_28.fields.InputSource = (context->fields).InputSource;
-  local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
-  Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Change(__this,&local_28,1,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_SettingsScreen_AottgBombStatSettingRow__Change(__this,context,1,in_RDX);
   return;
 }
 

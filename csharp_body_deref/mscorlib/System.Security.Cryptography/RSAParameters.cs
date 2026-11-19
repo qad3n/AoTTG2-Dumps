@@ -11,45 +11,45 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000326")]
+[Token(Token = "0x20002FF")]
 [ComVisible(true)]
 public struct RSAParameters
 {
-	[Token(Token = "0x4000D5B")]
+	[Token(Token = "0x4000CBB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public byte[] Exponent;
 
-	[Token(Token = "0x4000D5C")]
+	[Token(Token = "0x4000CBC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public byte[] Modulus;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D5D")]
+	[Token(Token = "0x4000CBD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public byte[] P;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D5E")]
+	[Token(Token = "0x4000CBE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public byte[] Q;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D5F")]
+	[Token(Token = "0x4000CBF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public byte[] DP;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D60")]
+	[Token(Token = "0x4000CC0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public byte[] DQ;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D61")]
+	[Token(Token = "0x4000CC1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public byte[] InverseQ;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D62")]
+	[Token(Token = "0x4000CC2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public byte[] D;
 }

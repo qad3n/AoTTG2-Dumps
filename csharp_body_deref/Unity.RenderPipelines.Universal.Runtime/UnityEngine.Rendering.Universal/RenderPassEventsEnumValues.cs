@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderPassEventsEnumValues
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ internal static class RenderPassEventsEnumValues
 	public static int[] values;
 
 	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x2C77BF0", Offset = "0x2C761F0", VA = "0x182C77BF0")]
+	[Address(RVA = "0x6672090", Offset = "0x6671090", VA = "0x6672090")]
 	static RenderPassEventsEnumValues()
 	{
 	}

@@ -35,7 +35,7 @@ public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnume
 	internal class UxmlObjectFactory : UxmlObjectFactory<SortColumnDescriptions>
 	{
 		[Token(Token = "0x60008A0")]
-		[Address(RVA = "0x3224F20", Offset = "0x3223520", VA = "0x183224F20")]
+		[Address(RVA = "0x6C26580", Offset = "0x6C25580", VA = "0x6C26580")]
 		public UxmlObjectFactory()
 		{
 		}
@@ -75,7 +75,7 @@ public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnume
 	public int Count
 	{
 		[Token(Token = "0x600089B")]
-		[Address(RVA = "0x3224A00", Offset = "0x3223000", VA = "0x183224A00", Slot = "4")]
+		[Address(RVA = "0x6C26450", Offset = "0x6C25450", VA = "0x6C26450", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -86,7 +86,7 @@ public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnume
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x600089C")]
-		[Address(RVA = "0x3224A50", Offset = "0x3223050", VA = "0x183224A50", Slot = "5")]
+		[Address(RVA = "0x6C264E0", Offset = "0x6C254E0", VA = "0x6C264E0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -97,13 +97,13 @@ public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnume
 	internal event Action changed
 	{
 		[Token(Token = "0x6000891")]
-		[Address(RVA = "0x3224960", Offset = "0x3222F60", VA = "0x183224960")]
+		[Address(RVA = "0x6C25AC0", Offset = "0x6C24AC0", VA = "0x6C25AC0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000892")]
-		[Address(RVA = "0x3224AA0", Offset = "0x32230A0", VA = "0x183224AA0")]
+		[Address(RVA = "0x6C25B50", Offset = "0x6C24B50", VA = "0x6C25B50")]
 		[CompilerGenerated]
 		remove
 		{
@@ -111,65 +111,65 @@ public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnume
 	}
 
 	[Token(Token = "0x6000893")]
-	[Address(RVA = "0x3224430", Offset = "0x3222A30", VA = "0x183224430", Slot = "11")]
+	[Address(RVA = "0x6C25BE0", Offset = "0x6C24BE0", VA = "0x6C25BE0", Slot = "11")]
 	public IEnumerator<SortColumnDescription> GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000894")]
-	[Address(RVA = "0x3224430", Offset = "0x3222A30", VA = "0x183224430", Slot = "12")]
+	[Address(RVA = "0x6C25C70", Offset = "0x6C24C70", VA = "0x6C25C70", Slot = "12")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000895")]
-	[Address(RVA = "0x3223F70", Offset = "0x3222570", VA = "0x183223F70", Slot = "6")]
+	[Address(RVA = "0x6C25D00", Offset = "0x6C24D00", VA = "0x6C25D00", Slot = "6")]
 	public void Add(SortColumnDescription item)
 	{
 	}
 
 	[Token(Token = "0x6000896")]
-	[Address(RVA = "0x3223FE0", Offset = "0x32225E0", VA = "0x183223FE0", Slot = "7")]
+	[Address(RVA = "0x6C22780", Offset = "0x6C21780", VA = "0x6C22780", Slot = "7")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000897")]
-	[Address(RVA = "0x3224300", Offset = "0x3222900", VA = "0x183224300", Slot = "8")]
+	[Address(RVA = "0x6C262C0", Offset = "0x6C252C0", VA = "0x6C262C0", Slot = "8")]
 	public bool Contains(SortColumnDescription item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000898")]
-	[Address(RVA = "0x3224360", Offset = "0x3222960", VA = "0x183224360", Slot = "9")]
+	[Address(RVA = "0x6C26370", Offset = "0x6C25370", VA = "0x6C26370", Slot = "9")]
 	public void CopyTo(SortColumnDescription[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000899")]
-	[Address(RVA = "0x3224720", Offset = "0x3222D20", VA = "0x183224720", Slot = "10")]
+	[Address(RVA = "0x6C260A0", Offset = "0x6C250A0", VA = "0x6C260A0", Slot = "10")]
 	public bool Remove(SortColumnDescription desc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600089A")]
-	[Address(RVA = "0x2952A50", Offset = "0x2951050", VA = "0x182952A50")]
+	[Address(RVA = "0x6C26430", Offset = "0x6C25430", VA = "0x6C26430")]
 	private void OnDescriptionChanged(SortColumnDescription desc)
 	{
 	}
 
 	[Token(Token = "0x600089D")]
-	[Address(RVA = "0x3224480", Offset = "0x3222A80", VA = "0x183224480")]
+	[Address(RVA = "0x6C25DC0", Offset = "0x6C24DC0", VA = "0x6C25DC0")]
 	public void Insert(int index, SortColumnDescription desc)
 	{
 	}
 
 	[Token(Token = "0x600089E")]
-	[Address(RVA = "0x32248E0", Offset = "0x3222EE0", VA = "0x1832248E0")]
+	[Address(RVA = "0x6C22D50", Offset = "0x6C21D50", VA = "0x6C22D50")]
 	public SortColumnDescriptions()
 	{
 	}

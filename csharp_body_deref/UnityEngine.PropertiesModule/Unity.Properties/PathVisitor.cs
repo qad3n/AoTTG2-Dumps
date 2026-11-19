@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.PathVisitor
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,13 +26,13 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 		private readonly IProperty m_Property;
 
 		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x2FF1D40", Offset = "0x2FF0340", VA = "0x182FF1D40")]
+		[Address(RVA = "0x69E9C80", Offset = "0x69E8C80", VA = "0x69E9C80")]
 		public PropertyScope(PathVisitor visitor, IProperty property)
 		{
 		}
 
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x2FF1D10", Offset = "0x2FF0310", VA = "0x182FF1D10", Slot = "4")]
+		[Address(RVA = "0x69E9CE0", Offset = "0x69E8CE0", VA = "0x69E9CE0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -46,14 +46,14 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	public PropertyPath Path
 	{
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x2FEB690", Offset = "0x2FE9C90", VA = "0x182FEB690")]
+		[Address(RVA = "0x69E9BC0", Offset = "0x69E8BC0", VA = "0x69E9BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PropertyPath);
 		}
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x2FEB6F0", Offset = "0x2FE9CF0", VA = "0x182FEB6F0")]
+		[Address(RVA = "0x69E9BE0", Offset = "0x69E8BE0", VA = "0x69E9BE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -64,14 +64,14 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	private IProperty Property
 	{
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Address(RVA = "0x69E9C10", Offset = "0x69E8C10", VA = "0x69E9C10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
+		[Address(RVA = "0x69E9C20", Offset = "0x69E8C20", VA = "0x69E9C20")]
 		[CompilerGenerated]
 		set
 		{
@@ -82,14 +82,14 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	public bool ReadonlyVisit
 	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x560590", Offset = "0x55EB90", VA = "0x180560590")]
+		[Address(RVA = "0x69E9C40", Offset = "0x69E8C40", VA = "0x69E9C40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x560600", Offset = "0x55EC00", VA = "0x180560600")]
+		[Address(RVA = "0x69E9C50", Offset = "0x69E8C50", VA = "0x69E9C50")]
 		[CompilerGenerated]
 		set
 		{
@@ -100,14 +100,14 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	public VisitReturnCode ReturnCode
 	{
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x1AAAB30", Offset = "0x1AA9130", VA = "0x181AAAB30")]
+		[Address(RVA = "0x69E9C60", Offset = "0x69E8C60", VA = "0x69E9C60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(VisitReturnCode);
 		}
 		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x2C12350", Offset = "0x2C10950", VA = "0x182C12350")]
+		[Address(RVA = "0x69E9C70", Offset = "0x69E8C70", VA = "0x69E9C70")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -115,7 +115,7 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x2FEB630", Offset = "0x2FE9C30", VA = "0x182FEB630", Slot = "6")]
+	[Address(RVA = "0x69E4500", Offset = "0x69E3500", VA = "0x69E4500", Slot = "6")]
 	public virtual void Reset()
 	{
 	}
@@ -136,7 +136,7 @@ public abstract class PathVisitor : IPropertyBagVisitor, IPropertyVisitor
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69E4570", Offset = "0x69E3570", VA = "0x69E4570")]
 	protected PathVisitor()
 	{
 	}

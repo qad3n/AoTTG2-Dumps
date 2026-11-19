@@ -15,25 +15,25 @@ namespace UnityEngine.Experimental.Playables;
 
 [Token(Token = "0x20003EF")]
 [UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/CameraPlayable.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera//Director/CameraPlayable.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.StaticAccessor("CameraPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/CameraPlayable.bindings.h")]
 public struct CameraPlayable : IEquatable<CameraPlayable>
 {
-	[Token(Token = "0x4000D2A")]
+	[Token(Token = "0x4000D28")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x60017D3")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Token(Token = "0x60017E7")]
+	[Address(RVA = "0x696D1C0", Offset = "0x696C1C0", VA = "0x696D1C0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60017D4")]
-	[Address(RVA = "0x2F76C10", Offset = "0x2F75210", VA = "0x182F76C10", Slot = "4")]
+	[Token(Token = "0x60017E8")]
+	[Address(RVA = "0x696D1D0", Offset = "0x696C1D0", VA = "0x696D1D0", Slot = "4")]
 	public bool Equals(CameraPlayable other)
 	{
 		return default(bool);

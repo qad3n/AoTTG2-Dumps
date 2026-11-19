@@ -78,7 +78,7 @@ internal class Axis : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001A5B")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x607D580", Offset = "0x607C580", VA = "0x607D580", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -89,7 +89,7 @@ internal class Axis : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001A5C")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "5")]
+		[Address(RVA = "0x607D590", Offset = "0x607C590", VA = "0x607D590", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -100,13 +100,13 @@ internal class Axis : AstNode
 	public AstNode Input
 	{
 		[Token(Token = "0x6001A5D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x607D5A0", Offset = "0x607C5A0", VA = "0x607D5A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001A5E")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x607D5B0", Offset = "0x607C5B0", VA = "0x607D5B0")]
 		set
 		{
 		}
@@ -116,7 +116,7 @@ internal class Axis : AstNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001A5F")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x607D5C0", Offset = "0x607C5C0", VA = "0x607D5C0")]
 		get
 		{
 			return null;
@@ -127,7 +127,7 @@ internal class Axis : AstNode
 	public string Name
 	{
 		[Token(Token = "0x6001A60")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x607D5D0", Offset = "0x607C5D0", VA = "0x607D5D0")]
 		get
 		{
 			return null;
@@ -138,7 +138,7 @@ internal class Axis : AstNode
 	public XPathNodeType NodeType
 	{
 		[Token(Token = "0x6001A61")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x607D5E0", Offset = "0x607C5E0", VA = "0x607D5E0")]
 		get
 		{
 			return default(XPathNodeType);
@@ -149,7 +149,7 @@ internal class Axis : AstNode
 	public AxisType TypeOfAxis
 	{
 		[Token(Token = "0x6001A62")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x607D5F0", Offset = "0x607C5F0", VA = "0x607D5F0")]
 		get
 		{
 			return default(AxisType);
@@ -160,7 +160,7 @@ internal class Axis : AstNode
 	public bool AbbrAxis
 	{
 		[Token(Token = "0x6001A63")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Address(RVA = "0x607D600", Offset = "0x607C600", VA = "0x607D600")]
 		get
 		{
 			return default(bool);
@@ -171,26 +171,26 @@ internal class Axis : AstNode
 	public string Urn
 	{
 		[Token(Token = "0x6001A64")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x607D610", Offset = "0x607C610", VA = "0x607D610")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001A65")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x607D620", Offset = "0x607C620", VA = "0x607D620")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001A59")]
-	[Address(RVA = "0x26B4690", Offset = "0x26B2C90", VA = "0x1826B4690")]
+	[Address(RVA = "0x607D450", Offset = "0x607C450", VA = "0x607D450")]
 	public Axis(AxisType axisType, AstNode input, string prefix, string name, XPathNodeType nodetype)
 	{
 	}
 
 	[Token(Token = "0x6001A5A")]
-	[Address(RVA = "0x26B4720", Offset = "0x26B2D20", VA = "0x1826B4720")]
+	[Address(RVA = "0x607D4F0", Offset = "0x607C4F0", VA = "0x607D4F0")]
 	public Axis(AxisType axisType, AstNode input)
 	{
 	}

@@ -15,37 +15,37 @@ namespace System.Xml.Schema;
 public class XmlSchemaValidationException : XmlSchemaException
 {
 	[Token(Token = "0x60017A7")]
-	[Address(RVA = "0x2612300", Offset = "0x2610900", VA = "0x182612300")]
+	[Address(RVA = "0x603ADC0", Offset = "0x6039DC0", VA = "0x603ADC0")]
 	protected XmlSchemaValidationException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60017A8")]
-	[Address(RVA = "0x2612210", Offset = "0x2610810", VA = "0x182612210", Slot = "11")]
+	[Address(RVA = "0x603ADD0", Offset = "0x6039DD0", VA = "0x603ADD0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60017A9")]
-	[Address(RVA = "0x2612320", Offset = "0x2610920", VA = "0x182612320")]
+	[Address(RVA = "0x603ADE0", Offset = "0x6039DE0", VA = "0x603ADE0")]
 	public XmlSchemaValidationException()
 	{
 	}
 
 	[Token(Token = "0x60017AA")]
-	[Address(RVA = "0x267FFE0", Offset = "0x267E5E0", VA = "0x18267FFE0")]
+	[Address(RVA = "0x603ADF0", Offset = "0x6039DF0", VA = "0x603ADF0")]
 	internal XmlSchemaValidationException(string res, string arg, string sourceUri, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x60017AB")]
-	[Address(RVA = "0x266B760", Offset = "0x2669D60", VA = "0x18266B760")]
+	[Address(RVA = "0x603AEA0", Offset = "0x6039EA0", VA = "0x603AEA0")]
 	internal XmlSchemaValidationException(string res, string[] args, string sourceUri, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x60017AC")]
-	[Address(RVA = "0x267FFA0", Offset = "0x267E5A0", VA = "0x18267FFA0")]
+	[Address(RVA = "0x603AED0", Offset = "0x6039ED0", VA = "0x603AED0")]
 	internal XmlSchemaValidationException(string res, string[] args, Exception innerException, string sourceUri, int lineNumber, int linePosition)
 	{
 	}

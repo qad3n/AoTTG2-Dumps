@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Experimental.Rendering.XRBuiltinShaderConstants
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -90,25 +90,25 @@ public static class XRBuiltinShaderConstants
 	private static Vector4[] s_worldSpaceCameraPos;
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x2AC75E0", Offset = "0x2AC5BE0", VA = "0x182AC75E0")]
+	[Address(RVA = "0x64A72C0", Offset = "0x64A62C0", VA = "0x64A72C0")]
 	public static void UpdateBuiltinShaderConstants(Matrix4x4 viewMatrix, Matrix4x4 projMatrix, bool renderIntoTexture, int viewIndex)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2AC7460", Offset = "0x2AC5A60", VA = "0x182AC7460")]
+	[Address(RVA = "0x64A7950", Offset = "0x64A6950", VA = "0x64A7950")]
 	public static void SetBuiltinShaderConstants(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x2AC7290", Offset = "0x2AC5890", VA = "0x182AC7290")]
+	[Address(RVA = "0x64A7AC0", Offset = "0x64A6AC0", VA = "0x64A7AC0")]
 	public static void SetBuiltinShaderConstants(RasterCommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2AC7AE0", Offset = "0x2AC60E0", VA = "0x182AC7AE0")]
+	[Address(RVA = "0x64A7B20", Offset = "0x64A6B20", VA = "0x64A7B20")]
 	public static void Update(XRPass xrPass, CommandBuffer cmd, bool renderIntoTexture)
 	{
 	}

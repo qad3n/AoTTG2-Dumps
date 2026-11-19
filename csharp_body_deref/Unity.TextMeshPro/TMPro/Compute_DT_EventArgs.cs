@@ -26,13 +26,13 @@ public class Compute_DT_EventArgs
 	public Color[] Colors;
 
 	[Token(Token = "0x600063A")]
-	[Address(RVA = "0x2D60E30", Offset = "0x2D5F430", VA = "0x182D60E30")]
+	[Address(RVA = "0x675FD20", Offset = "0x675ED20", VA = "0x675FD20")]
 	public Compute_DT_EventArgs(Compute_DistanceTransform_EventTypes type, float progress)
 	{
 	}
 
 	[Token(Token = "0x600063B")]
-	[Address(RVA = "0xC83FB0", Offset = "0xC825B0", VA = "0x180C83FB0")]
+	[Address(RVA = "0x675FD50", Offset = "0x675ED50", VA = "0x675FD50")]
 	public Compute_DT_EventArgs(Compute_DistanceTransform_EventTypes type, Color[] colors)
 	{
 	}

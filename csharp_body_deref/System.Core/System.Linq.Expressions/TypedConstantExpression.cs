@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200007B")]
+[Token(Token = "0x200007C")]
 internal class TypedConstantExpression : ConstantExpression
 {
-	[Token(Token = "0x1700007B")]
+	[Token(Token = "0x1700007D")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x600031C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
+		[Token(Token = "0x6000327")]
+		[Address(RVA = "0x5DC6CA0", Offset = "0x5DC5CA0", VA = "0x5DC6CA0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal class TypedConstantExpression : ConstantExpression
 		}
 	}
 
-	[Token(Token = "0x600031B")]
-	[Address(RVA = "0x24419E0", Offset = "0x243FFE0", VA = "0x1824419E0")]
+	[Token(Token = "0x6000326")]
+	[Address(RVA = "0x5DC6C20", Offset = "0x5DC5C20", VA = "0x5DC6C20")]
 	internal TypedConstantExpression(object value, Type type)
 	{
 	}

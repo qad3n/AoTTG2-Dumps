@@ -12,9 +12,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000019")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "MonoSkeletonBone")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/HumanDescription.h")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 public struct SkeletonBone
 {
 	[Token(Token = "0x4000048")]

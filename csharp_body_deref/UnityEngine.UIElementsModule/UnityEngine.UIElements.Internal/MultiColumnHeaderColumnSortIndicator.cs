@@ -32,14 +32,14 @@ internal class MultiColumnHeaderColumnSortIndicator : VisualElement
 	public string sortOrderLabel
 	{
 		[Token(Token = "0x6002F30")]
-		[Address(RVA = "0x3204820", Offset = "0x3202E20", VA = "0x183204820")]
+		[Address(RVA = "0x6C0B1B0", Offset = "0x6C0A1B0", VA = "0x6C0B1B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002F31")]
-	[Address(RVA = "0x3204690", Offset = "0x3202C90", VA = "0x183204690")]
+	[Address(RVA = "0x6C0B1E0", Offset = "0x6C0A1E0", VA = "0x6C0B1E0")]
 	public MultiColumnHeaderColumnSortIndicator()
 	{
 	}

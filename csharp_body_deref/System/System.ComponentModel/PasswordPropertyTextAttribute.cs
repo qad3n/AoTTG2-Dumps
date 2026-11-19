@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001D1")]
+[Token(Token = "0x2000192")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class PasswordPropertyTextAttribute : Attribute
 {
-	[Token(Token = "0x400071E")]
+	[Token(Token = "0x400064F")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly PasswordPropertyTextAttribute Yes;
 
-	[Token(Token = "0x400071F")]
+	[Token(Token = "0x4000650")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly PasswordPropertyTextAttribute No;
 
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x4000651")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly PasswordPropertyTextAttribute Default;
 
-	[Token(Token = "0x17000270")]
+	[Token(Token = "0x17000241")]
 	public bool Password
 	{
-		[Token(Token = "0x6000C1E")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x6000A5E")]
+		[Address(RVA = "0x6240D70", Offset = "0x623FD70", VA = "0x6240D70")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,34 +38,34 @@ public sealed class PasswordPropertyTextAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000C1C")]
-	[Address(RVA = "0x28AA8F0", Offset = "0x28A8EF0", VA = "0x1828AA8F0")]
+	[Token(Token = "0x6000A5C")]
+	[Address(RVA = "0x6240D30", Offset = "0x623FD30", VA = "0x6240D30")]
 	public PasswordPropertyTextAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000C1D")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6000A5D")]
+	[Address(RVA = "0x6240D50", Offset = "0x623FD50", VA = "0x6240D50")]
 	public PasswordPropertyTextAttribute(bool password)
 	{
 	}
 
-	[Token(Token = "0x6000C1F")]
-	[Address(RVA = "0x28AA700", Offset = "0x28A8D00", VA = "0x1828AA700", Slot = "0")]
+	[Token(Token = "0x6000A5F")]
+	[Address(RVA = "0x6240D80", Offset = "0x623FD80", VA = "0x6240D80", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C20")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x6000A60")]
+	[Address(RVA = "0x6240DE0", Offset = "0x623FDE0", VA = "0x6240DE0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000C21")]
-	[Address(RVA = "0x28AA790", Offset = "0x28A8D90", VA = "0x1828AA790", Slot = "6")]
+	[Token(Token = "0x6000A61")]
+	[Address(RVA = "0x6240DF0", Offset = "0x623FDF0", VA = "0x6240DF0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

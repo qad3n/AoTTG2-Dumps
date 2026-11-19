@@ -15,19 +15,19 @@ namespace System.Data;
 public class VersionNotFoundException : DataException
 {
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BE90", Offset = "0x5E6AE90", VA = "0x5E6BE90")]
 	protected VersionNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x24E48F0", Offset = "0x24E2EF0", VA = "0x1824E48F0")]
+	[Address(RVA = "0x5E6BEA0", Offset = "0x5E6AEA0", VA = "0x5E6BEA0")]
 	public VersionNotFoundException()
 	{
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x24E4940", Offset = "0x24E2F40", VA = "0x1824E4940")]
+	[Address(RVA = "0x5E6BEE0", Offset = "0x5E6AEE0", VA = "0x5E6BEE0")]
 	public VersionNotFoundException(string s)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.RenderGraphDebugParams
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -90,7 +90,7 @@ internal class RenderGraphDebugParams : IDebugDisplaySettingsQuery
 	public bool enableLogging
 	{
 		[Token(Token = "0x60010B2")]
-		[Address(RVA = "0x2B71740", Offset = "0x2B6FD40", VA = "0x182B71740")]
+		[Address(RVA = "0x65621A0", Offset = "0x65611A0", VA = "0x65621A0")]
 		get
 		{
 			return default(bool);
@@ -101,7 +101,7 @@ internal class RenderGraphDebugParams : IDebugDisplaySettingsQuery
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x60010B9")]
-		[Address(RVA = "0x2B71710", Offset = "0x2B6FD10", VA = "0x182B71710", Slot = "4")]
+		[Address(RVA = "0x6560360", Offset = "0x655F360", VA = "0x6560360", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -109,45 +109,45 @@ internal class RenderGraphDebugParams : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x60010B3")]
-	[Address(RVA = "0x2B71530", Offset = "0x2B6FB30", VA = "0x182B71530")]
+	[Address(RVA = "0x6560A40", Offset = "0x655FA40", VA = "0x6560A40")]
 	public void ResetLogging()
 	{
 	}
 
 	[Token(Token = "0x60010B4")]
-	[Address(RVA = "0x2B71540", Offset = "0x2B6FB40", VA = "0x182B71540")]
+	[Address(RVA = "0x656F220", Offset = "0x656E220", VA = "0x656F220")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x60010B5")]
-	[Address(RVA = "0x2B709C0", Offset = "0x2B6EFC0", VA = "0x182B709C0")]
+	[Address(RVA = "0x655F9F0", Offset = "0x655E9F0", VA = "0x655F9F0")]
 	internal List<DebugUI.Widget> GetWidgetList(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010B6")]
-	[Address(RVA = "0x2B712A0", Offset = "0x2B6F8A0", VA = "0x182B712A0")]
+	[Address(RVA = "0x656F230", Offset = "0x656E230", VA = "0x656F230")]
 	private bool IsImmediateModeSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010B7")]
-	[Address(RVA = "0x2B71390", Offset = "0x2B6F990", VA = "0x182B71390")]
+	[Address(RVA = "0x65603C0", Offset = "0x655F3C0", VA = "0x65603C0")]
 	public void RegisterDebug(string name, [Optional] DebugUI.Panel debugPanel)
 	{
 	}
 
 	[Token(Token = "0x60010B8")]
-	[Address(RVA = "0x2B71690", Offset = "0x2B6FC90", VA = "0x182B71690")]
+	[Address(RVA = "0x65605F0", Offset = "0x655F5F0", VA = "0x65605F0")]
 	public void UnRegisterDebug(string name)
 	{
 	}
 
 	[Token(Token = "0x60010BA")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x655F440", Offset = "0x655E440", VA = "0x655F440")]
 	public RenderGraphDebugParams()
 	{
 	}

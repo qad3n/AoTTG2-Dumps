@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.BitField32DebugView
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ internal sealed class BitField32DebugView
 	public bool[] Bits
 	{
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x29959B0", Offset = "0x2993FB0", VA = "0x1829959B0")]
+		[Address(RVA = "0x635F110", Offset = "0x635E110", VA = "0x635F110")]
 		get
 		{
 			return null;
@@ -28,7 +28,7 @@ internal sealed class BitField32DebugView
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x2995980", Offset = "0x2993F80", VA = "0x182995980")]
+	[Address(RVA = "0x635F0F0", Offset = "0x635E0F0", VA = "0x635F0F0")]
 	public BitField32DebugView(BitField32 bitfield)
 	{
 	}

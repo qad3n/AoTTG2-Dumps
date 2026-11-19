@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -107,7 +107,7 @@ internal struct NativePassData
 	public bool hasShadingRateImage
 	{
 		[Token(Token = "0x60013B4")]
-		[Address(RVA = "0x2BB7CA0", Offset = "0x2BB62A0", VA = "0x182BB7CA0")]
+		[Address(RVA = "0x659E3E0", Offset = "0x659D3E0", VA = "0x659E3E0")]
 		get
 		{
 			return default(bool);
@@ -115,27 +115,27 @@ internal struct NativePassData
 	}
 
 	[Token(Token = "0x60013B5")]
-	[Address(RVA = "0x2BB7880", Offset = "0x2BB5E80", VA = "0x182BB7880")]
+	[Address(RVA = "0x659E3F0", Offset = "0x659D3F0", VA = "0x659E3F0")]
 	public NativePassData(ref PassData pass, CompilerContextData ctx)
 	{
 	}
 
 	[Token(Token = "0x60013B6")]
-	[Address(RVA = "0x2BB64A0", Offset = "0x2BB4AA0", VA = "0x182BB64A0")]
+	[Address(RVA = "0x659EF30", Offset = "0x659DF30", VA = "0x659EF30")]
 	public SubPassFlags GetSubPassFlagForMerging()
 	{
 		return default(SubPassFlags);
 	}
 
 	[Token(Token = "0x60013B7")]
-	[Address(RVA = "0x2BB6210", Offset = "0x2BB4810", VA = "0x182BB6210")]
+	[Address(RVA = "0x659EF90", Offset = "0x659DF90", VA = "0x659EF90")]
 	public void Clear()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013B8")]
-	[Address(RVA = "0x2BB67B0", Offset = "0x2BB4DB0", VA = "0x182BB67B0")]
+	[Address(RVA = "0x659F0E0", Offset = "0x659E0E0", VA = "0x659F0E0")]
 	public readonly bool IsValid()
 	{
 		return default(bool);
@@ -143,7 +143,7 @@ internal struct NativePassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013B9")]
-	[Address(RVA = "0x2BB6510", Offset = "0x2BB4B10", VA = "0x182BB6510")]
+	[Address(RVA = "0x659F0F0", Offset = "0x659E0F0", VA = "0x659F0F0")]
 	public readonly ReadOnlySpan<PassData> GraphPasses(CompilerContextData ctx, out NativeArray<PassData> actualPasses)
 	{
 		return default(ReadOnlySpan<PassData>);
@@ -151,60 +151,60 @@ internal struct NativePassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013BA")]
-	[Address(RVA = "0x2BB6340", Offset = "0x2BB4940", VA = "0x182BB6340")]
+	[Address(RVA = "0x659F340", Offset = "0x659E340", VA = "0x659F340")]
 	public readonly void GetGraphPassNames(CompilerContextData ctx, DynamicArray<Name> dest)
 	{
 	}
 
 	[Token(Token = "0x60013BB")]
-	[Address(RVA = "0x2BB5050", Offset = "0x2BB3650", VA = "0x182BB5050")]
+	[Address(RVA = "0x659F4D0", Offset = "0x659E4D0", VA = "0x659F4D0")]
 	private static bool CanMergeMSAASamples(ref NativePassData nativePass, ref PassData passToMerge)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013BC")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x659F4F0", Offset = "0x659E4F0", VA = "0x659F4F0")]
 	private static bool AreExtendedFeatureFlagsCompatible(ExtendedFeatureFlags flags0, ExtendedFeatureFlags flags1)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013BD")]
-	[Address(RVA = "0x2BB5700", Offset = "0x2BB3D00", VA = "0x182BB5700")]
+	[Address(RVA = "0x659F500", Offset = "0x659E500", VA = "0x659F500")]
 	public static PassBreakAudit CanMerge(CompilerContextData contextData, int activeNativePassId, int passIdToMerge)
 	{
 		return default(PassBreakAudit);
 	}
 
 	[Token(Token = "0x60013BE")]
-	[Address(RVA = "0x2BB6920", Offset = "0x2BB4F20", VA = "0x182BB6920")]
+	[Address(RVA = "0x65A0230", Offset = "0x659F230", VA = "0x65A0230")]
 	private static bool TotalAttachmentsSizeExceedPixelStorageLimit(CompilerContextData contextData, ref NativePassData nativePass, ref FixedAttachmentArray<PassFragmentData> attachmentsToTryAdding)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013BF")]
-	[Address(RVA = "0x2BB5070", Offset = "0x2BB3670", VA = "0x182BB5070")]
+	[Address(RVA = "0x65A04C0", Offset = "0x659F4C0", VA = "0x65A04C0")]
 	private static bool CanMergeNativeSubPass(CompilerContextData contextData, ref NativePassData nativePass, ref PassData passToMerge)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013C0")]
-	[Address(RVA = "0x2BB6C70", Offset = "0x2BB5270", VA = "0x182BB6C70")]
+	[Address(RVA = "0x659E820", Offset = "0x659D820", VA = "0x659E820")]
 	public static void TryMergeNativeSubPass(CompilerContextData contextData, ref NativePassData nativePass, ref PassData passToMerge)
 	{
 	}
 
 	[Token(Token = "0x60013C1")]
-	[Address(RVA = "0x2BB4CF0", Offset = "0x2BB32F0", VA = "0x182BB4CF0")]
+	[Address(RVA = "0x65A0AE0", Offset = "0x659FAE0", VA = "0x65A0AE0")]
 	private void AddDepthAttachmentFirstDuringMerge(CompilerContextData contextData, in PassFragmentData depthAttachment)
 	{
 	}
 
 	[Token(Token = "0x60013C2")]
-	[Address(RVA = "0x2BB71D0", Offset = "0x2BB57D0", VA = "0x182BB71D0")]
+	[Address(RVA = "0x65A0E40", Offset = "0x659FE40", VA = "0x65A0E40")]
 	public static PassBreakAudit TryMerge(CompilerContextData contextData, int activeNativePassId, int passIdToMerge)
 	{
 		return default(PassBreakAudit);
@@ -212,7 +212,7 @@ internal struct NativePassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013C3")]
-	[Address(RVA = "0x2BB67C0", Offset = "0x2BB4DC0", VA = "0x182BB67C0")]
+	[Address(RVA = "0x65A14B0", Offset = "0x65A04B0", VA = "0x65A14B0")]
 	public static void SetPassStatesForNativePass(CompilerContextData contextData, int nativePassId)
 	{
 	}

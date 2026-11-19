@@ -40,31 +40,31 @@ public class PhotonVoiceLagSimulationGui : MonoBehaviour
 	private float debugLostPercent;
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x1D8B270", Offset = "0x1D89870", VA = "0x181D8B270")]
+	[Address(RVA = "0x573A410", Offset = "0x5739410", VA = "0x573A410")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x1D8B150", Offset = "0x1D89750", VA = "0x181D8B150")]
+	[Address(RVA = "0x573A620", Offset = "0x5739620", VA = "0x573A620")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x1D8AB30", Offset = "0x1D89130", VA = "0x181D8AB30")]
+	[Address(RVA = "0x573A7B0", Offset = "0x57397B0", VA = "0x573A7B0")]
 	private void NetSimHasNoPeerWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x1D8AB80", Offset = "0x1D89180", VA = "0x181D8AB80")]
+	[Address(RVA = "0x573A880", Offset = "0x5739880", VA = "0x573A880")]
 	private void NetSimWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x1D8B490", Offset = "0x1D89A90", VA = "0x181D8B490")]
+	[Address(RVA = "0x573B450", Offset = "0x573A450", VA = "0x573B450")]
 	public PhotonVoiceLagSimulationGui()
 	{
 	}

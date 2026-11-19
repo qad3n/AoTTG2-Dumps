@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x200039A")]
+[Token(Token = "0x2000356")]
 internal static class DotAtomReader
 {
-	[Token(Token = "0x60018D1")]
-	[Address(RVA = "0x2812360", Offset = "0x2810960", VA = "0x182812360")]
+	[Token(Token = "0x6001718")]
+	[Address(RVA = "0x61BC370", Offset = "0x61BB370", VA = "0x61BC370")]
 	internal static int ReadReverse(string data, int index)
 	{
 		return default(int);

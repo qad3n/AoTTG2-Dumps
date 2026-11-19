@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000523")]
+[Token(Token = "0x20004FC")]
 [Flags]
 public enum ResourceLocation
 {
-	[Token(Token = "0x4001467")]
+	[Token(Token = "0x40013C7")]
 	ContainedInAnotherAssembly = 2,
-	[Token(Token = "0x4001468")]
+	[Token(Token = "0x40013C8")]
 	ContainedInManifestFile = 4,
-	[Token(Token = "0x4001469")]
+	[Token(Token = "0x40013C9")]
 	Embedded = 1
 }

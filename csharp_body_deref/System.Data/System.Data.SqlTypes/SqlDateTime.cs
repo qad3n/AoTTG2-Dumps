@@ -137,7 +137,7 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable
 	public bool IsNull
 	{
 		[Token(Token = "0x6000990")]
-		[Address(RVA = "0x12906C0", Offset = "0x128ECC0", VA = "0x1812906C0", Slot = "4")]
+		[Address(RVA = "0x5F0A660", Offset = "0x5F09660", VA = "0x5F0A660", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -148,7 +148,7 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable
 	public DateTime Value
 	{
 		[Token(Token = "0x6000995")]
-		[Address(RVA = "0x2564A10", Offset = "0x2563010", VA = "0x182564A10")]
+		[Address(RVA = "0x5F0AA20", Offset = "0x5F09A20", VA = "0x5F0AA20")]
 		get
 		{
 			return default(DateTime);
@@ -159,7 +159,7 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable
 	public int DayTicks
 	{
 		[Token(Token = "0x6000996")]
-		[Address(RVA = "0x2564950", Offset = "0x2562F50", VA = "0x182564950")]
+		[Address(RVA = "0x5F0AAB0", Offset = "0x5F09AB0", VA = "0x5F0AAB0")]
 		get
 		{
 			return default(int);
@@ -170,7 +170,7 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable
 	public int TimeTicks
 	{
 		[Token(Token = "0x6000997")]
-		[Address(RVA = "0x25649B0", Offset = "0x2562FB0", VA = "0x1825649B0")]
+		[Address(RVA = "0x5F0AB00", Offset = "0x5F09B00", VA = "0x5F0AB00")]
 		get
 		{
 			return default(int);
@@ -178,149 +178,149 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable
 	}
 
 	[Token(Token = "0x600098D")]
-	[Address(RVA = "0x2564810", Offset = "0x2562E10", VA = "0x182564810")]
+	[Address(RVA = "0x5F0A3D0", Offset = "0x5F093D0", VA = "0x5F0A3D0")]
 	private SqlDateTime(bool fNull)
 	{
 	}
 
 	[Token(Token = "0x600098E")]
-	[Address(RVA = "0x25647A0", Offset = "0x2562DA0", VA = "0x1825647A0")]
+	[Address(RVA = "0x5F0A3E0", Offset = "0x5F093E0", VA = "0x5F0A3E0")]
 	public SqlDateTime(DateTime value)
 	{
 	}
 
 	[Token(Token = "0x600098F")]
-	[Address(RVA = "0x2564820", Offset = "0x2562E20", VA = "0x182564820")]
+	[Address(RVA = "0x5F0A530", Offset = "0x5F09530", VA = "0x5F0A530")]
 	public SqlDateTime(int dayTicks, int timeTicks)
 	{
 	}
 
 	[Token(Token = "0x6000991")]
-	[Address(RVA = "0x2564100", Offset = "0x2562700", VA = "0x182564100")]
+	[Address(RVA = "0x5F0A670", Offset = "0x5F09670", VA = "0x5F0A670")]
 	private static TimeSpan ToTimeSpan(SqlDateTime value)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6000992")]
-	[Address(RVA = "0x2563F40", Offset = "0x2562540", VA = "0x182563F40")]
+	[Address(RVA = "0x5F0A6F0", Offset = "0x5F096F0", VA = "0x5F0A6F0")]
 	private static DateTime ToDateTime(SqlDateTime value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000993")]
-	[Address(RVA = "0x2563620", Offset = "0x2561C20", VA = "0x182563620")]
+	[Address(RVA = "0x5F0A840", Offset = "0x5F09840", VA = "0x5F0A840")]
 	private static SqlDateTime FromTimeSpan(TimeSpan value)
 	{
 		return default(SqlDateTime);
 	}
 
 	[Token(Token = "0x6000994")]
-	[Address(RVA = "0x25634F0", Offset = "0x2561AF0", VA = "0x1825634F0")]
+	[Address(RVA = "0x5F0A440", Offset = "0x5F09440", VA = "0x5F0A440")]
 	private static SqlDateTime FromDateTime(DateTime value)
 	{
 		return default(SqlDateTime);
 	}
 
 	[Token(Token = "0x6000998")]
-	[Address(RVA = "0x2564C90", Offset = "0x2563290", VA = "0x182564C90")]
+	[Address(RVA = "0x5F0AB50", Offset = "0x5F09B50", VA = "0x5F0AB50")]
 	public static implicit operator SqlDateTime(DateTime value)
 	{
 		return default(SqlDateTime);
 	}
 
 	[Token(Token = "0x6000999")]
-	[Address(RVA = "0x2564030", Offset = "0x2562630", VA = "0x182564030", Slot = "3")]
+	[Address(RVA = "0x5F0ABB0", Offset = "0x5F09BB0", VA = "0x5F0ABB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600099A")]
-	[Address(RVA = "0x2564AC0", Offset = "0x25630C0", VA = "0x182564AC0")]
+	[Address(RVA = "0x5F0AC90", Offset = "0x5F09C90", VA = "0x5F0AC90")]
 	public static SqlBoolean operator ==(SqlDateTime x, SqlDateTime y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x600099B")]
-	[Address(RVA = "0x2564D10", Offset = "0x2563310", VA = "0x182564D10")]
+	[Address(RVA = "0x5F0AD90", Offset = "0x5F09D90", VA = "0x5F0AD90")]
 	public static SqlBoolean operator <(SqlDateTime x, SqlDateTime y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x600099C")]
-	[Address(RVA = "0x2564BA0", Offset = "0x25631A0", VA = "0x182564BA0")]
+	[Address(RVA = "0x5F0AEA0", Offset = "0x5F09EA0", VA = "0x5F0AEA0")]
 	public static SqlBoolean operator >(SqlDateTime x, SqlDateTime y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x600099D")]
-	[Address(RVA = "0x2563A80", Offset = "0x2562080", VA = "0x182563A80")]
+	[Address(RVA = "0x5F0AFB0", Offset = "0x5F09FB0", VA = "0x5F0AFB0")]
 	public static SqlBoolean LessThan(SqlDateTime x, SqlDateTime y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x600099E")]
-	[Address(RVA = "0x2563950", Offset = "0x2561F50", VA = "0x182563950")]
+	[Address(RVA = "0x5F0B010", Offset = "0x5F0A010", VA = "0x5F0B010")]
 	public static SqlBoolean GreaterThan(SqlDateTime x, SqlDateTime y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x600099F")]
-	[Address(RVA = "0x2563000", Offset = "0x2561600", VA = "0x182563000", Slot = "5")]
+	[Address(RVA = "0x5F0B070", Offset = "0x5F0A070", VA = "0x5F0B070", Slot = "5")]
 	public int CompareTo(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009A0")]
-	[Address(RVA = "0x2563130", Offset = "0x2561730", VA = "0x182563130")]
+	[Address(RVA = "0x5F0B170", Offset = "0x5F0A170", VA = "0x5F0B170")]
 	public int CompareTo(SqlDateTime value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009A1")]
-	[Address(RVA = "0x25632E0", Offset = "0x25618E0", VA = "0x1825632E0", Slot = "0")]
+	[Address(RVA = "0x5F0B300", Offset = "0x5F0A300", VA = "0x5F0B300", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x2563830", Offset = "0x2561E30", VA = "0x182563830", Slot = "2")]
+	[Address(RVA = "0x5F0B440", Offset = "0x5F0A440", VA = "0x5F0B440", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009A3")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x5F0B510", Offset = "0x5F0A510", VA = "0x5F0B510", Slot = "6")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009A4")]
-	[Address(RVA = "0x2563BB0", Offset = "0x25621B0", VA = "0x182563BB0", Slot = "7")]
+	[Address(RVA = "0x5F0B520", Offset = "0x5F0A520", VA = "0x5F0B520", Slot = "7")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60009A5")]
-	[Address(RVA = "0x2563DE0", Offset = "0x25623E0", VA = "0x182563DE0", Slot = "8")]
+	[Address(RVA = "0x5F0B720", Offset = "0x5F0A720", VA = "0x5F0B720", Slot = "8")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60009A6")]
-	[Address(RVA = "0x25638E0", Offset = "0x2561EE0", VA = "0x1825638E0")]
+	[Address(RVA = "0x5F0B8A0", Offset = "0x5F0A8A0", VA = "0x5F0B8A0")]
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
 	{
 		return null;

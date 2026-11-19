@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.GenericDropdownMenu
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public class GenericDropdownMenu : AbstractGenericMenu
 		public Action<object> actionUserData;
 
 		[Token(Token = "0x6000609")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6BE2300", Offset = "0x6BE1300", VA = "0x6BE2300")]
 		public MenuItem()
 		{
 		}
@@ -151,14 +151,14 @@ public class GenericDropdownMenu : AbstractGenericMenu
 	internal bool isSingleSelectionDropdown
 	{
 		[Token(Token = "0x60005E7")]
-		[Address(RVA = "0x2510380", Offset = "0x250E980", VA = "0x182510380")]
+		[Address(RVA = "0x6BE0640", Offset = "0x6BDF640", VA = "0x6BE0640")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005E8")]
-		[Address(RVA = "0x2CBC330", Offset = "0x2CBA930", VA = "0x182CBC330")]
+		[Address(RVA = "0x6BE0650", Offset = "0x6BDF650", VA = "0x6BE0650")]
 		[CompilerGenerated]
 		set
 		{
@@ -169,14 +169,14 @@ public class GenericDropdownMenu : AbstractGenericMenu
 	internal bool closeOnParentResize
 	{
 		[Token(Token = "0x60005E9")]
-		[Address(RVA = "0x2510370", Offset = "0x250E970", VA = "0x182510370")]
+		[Address(RVA = "0x6BE0660", Offset = "0x6BDF660", VA = "0x6BE0660")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005EA")]
-		[Address(RVA = "0x31D8410", Offset = "0x31D6A10", VA = "0x1831D8410")]
+		[Address(RVA = "0x6BE0670", Offset = "0x6BDF670", VA = "0x6BE0670")]
 		[CompilerGenerated]
 		set
 		{
@@ -187,7 +187,7 @@ public class GenericDropdownMenu : AbstractGenericMenu
 	public VisualElement contentContainer
 	{
 		[Token(Token = "0x60005EB")]
-		[Address(RVA = "0x31D83E0", Offset = "0x31D69E0", VA = "0x1831D83E0")]
+		[Address(RVA = "0x6BE0680", Offset = "0x6BDF680", VA = "0x6BE0680")]
 		get
 		{
 			return null;
@@ -195,160 +195,160 @@ public class GenericDropdownMenu : AbstractGenericMenu
 	}
 
 	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x31D8080", Offset = "0x31D6680", VA = "0x1831D8080")]
+	[Address(RVA = "0x6BE06B0", Offset = "0x6BDF6B0", VA = "0x6BE06B0")]
 	public GenericDropdownMenu()
 	{
 	}
 
 	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x31D6DD0", Offset = "0x31D53D0", VA = "0x1831D6DD0")]
+	[Address(RVA = "0x6BE0A20", Offset = "0x6BDFA20", VA = "0x6BE0A20")]
 	private void OnAttachToPanel(AttachToPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005EE")]
-	[Address(RVA = "0x31D71E0", Offset = "0x31D57E0", VA = "0x1831D71E0")]
+	[Address(RVA = "0x6BE0E80", Offset = "0x6BDFE80", VA = "0x6BE0E80")]
 	private void OnDetachFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x31D6C50", Offset = "0x31D5250", VA = "0x1831D6C50")]
+	[Address(RVA = "0x6BE1210", Offset = "0x6BE0210", VA = "0x6BE1210")]
 	private void Hide(bool giveFocusBack = false)
 	{
 	}
 
 	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x31D48A0", Offset = "0x31D2EA0", VA = "0x1831D48A0")]
+	[Address(RVA = "0x6BE1380", Offset = "0x6BE0380", VA = "0x6BE1380")]
 	private void Apply(KeyboardNavigationOperation op, EventBase sourceEvent)
 	{
 	}
 
 	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x31D4570", Offset = "0x31D2B70", VA = "0x1831D4570")]
+	[Address(RVA = "0x6BE13B0", Offset = "0x6BE03B0", VA = "0x6BE13B0")]
 	private bool Apply(KeyboardNavigationOperation op)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x31D7680", Offset = "0x31D5C80", VA = "0x1831D7680")]
+	[Address(RVA = "0x6BE1730", Offset = "0x6BE0730", VA = "0x6BE1730")]
 	private void OnPointerDown(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x31D7790", Offset = "0x31D5D90", VA = "0x1831D7790")]
+	[Address(RVA = "0x6BE1950", Offset = "0x6BE0950", VA = "0x6BE1950")]
 	private void OnPointerMove(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x31D78A0", Offset = "0x31D5EA0", VA = "0x1831D78A0")]
+	[Address(RVA = "0x6BE1A30", Offset = "0x6BE0A30", VA = "0x6BE1A30")]
 	private void OnPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x31D7500", Offset = "0x31D5B00", VA = "0x1831D7500")]
+	[Address(RVA = "0x6BE1B80", Offset = "0x6BE0B80", VA = "0x6BE1B80")]
 	private void OnFocusOut(FocusOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005F6")]
-	[Address(RVA = "0x31D7660", Offset = "0x31D5C60", VA = "0x1831D7660")]
+	[Address(RVA = "0x6BE1CE0", Offset = "0x6BE0CE0", VA = "0x6BE1CE0")]
 	private void OnParentResized(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60005F7")]
-	[Address(RVA = "0x31D7BF0", Offset = "0x31D61F0", VA = "0x1831D7BF0")]
+	[Address(RVA = "0x6BE1810", Offset = "0x6BE0810", VA = "0x6BE1810")]
 	private void UpdateSelection(VisualElement target)
 	{
 	}
 
 	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x31D48E0", Offset = "0x31D2EE0", VA = "0x1831D48E0")]
+	[Address(RVA = "0x6BE1D00", Offset = "0x6BE0D00", VA = "0x6BE1D00")]
 	private void ChangeSelectedIndex(int newIndex, int previousIndex)
 	{
 	}
 
 	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x31D6BB0", Offset = "0x31D51B0", VA = "0x1831D6BB0")]
+	[Address(RVA = "0x6BE1540", Offset = "0x6BE0540", VA = "0x6BE1540")]
 	private int GetSelectedIndex()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x31D4080", Offset = "0x31D2680", VA = "0x1831D4080", Slot = "4")]
+	[Address(RVA = "0x6BE1E30", Offset = "0x6BE0E30", VA = "0x6BE1E30", Slot = "4")]
 	public override void AddItem(string itemName, bool isChecked, Action action)
 	{
 	}
 
 	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x31D4460", Offset = "0x31D2A60", VA = "0x1831D4460", Slot = "5")]
+	[Address(RVA = "0x6BE2220", Offset = "0x6BE1220", VA = "0x6BE2220", Slot = "5")]
 	public override void AddItem(string itemName, bool isChecked, Action<object> action, object data)
 	{
 	}
 
 	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x31D44B0", Offset = "0x31D2AB0", VA = "0x1831D44B0", Slot = "6")]
+	[Address(RVA = "0x6BE2250", Offset = "0x6BE1250", VA = "0x6BE2250", Slot = "6")]
 	public override void AddSeparator(string path)
 	{
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x31D40C0", Offset = "0x31D26C0", VA = "0x1831D40C0")]
+	[Address(RVA = "0x6BE1E60", Offset = "0x6BE0E60", VA = "0x6BE1E60")]
 	private MenuItem AddItem(string itemName, bool isChecked, bool isEnabled, [Optional] object data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x31D5810", Offset = "0x31D3E10", VA = "0x1831D5810", Slot = "7")]
+	[Address(RVA = "0x6BE2310", Offset = "0x6BE1310", VA = "0x6BE2310", Slot = "7")]
 	public override void DropDown(Rect position, VisualElement targetElement, DropdownMenuSizeMode dropdownMenuSizeMode = DropdownMenuSizeMode.Auto)
 	{
 	}
 
 	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x31D4A10", Offset = "0x31D3010", VA = "0x1831D4A10")]
+	[Address(RVA = "0x6BE24C0", Offset = "0x6BE14C0", VA = "0x6BE24C0")]
 	private void DoDropDown(Rect position, VisualElement targetElement, bool anchored)
 	{
 	}
 
 	[Token(Token = "0x6000600")]
-	[Address(RVA = "0x31D7A10", Offset = "0x31D6010", VA = "0x1831D7A10")]
+	[Address(RVA = "0x6BE2440", Offset = "0x6BE1440", VA = "0x6BE2440")]
 	private void SetFitContentWidth(bool fit)
 	{
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x31D7A00", Offset = "0x31D6000", VA = "0x1831D7A00")]
+	[Address(RVA = "0x6BE3E80", Offset = "0x6BE2E80", VA = "0x6BE3E80")]
 	private void OnTargetElementDetachFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x31D71D0", Offset = "0x31D57D0", VA = "0x1831D71D0")]
+	[Address(RVA = "0x6BE3E90", Offset = "0x6BE2E90", VA = "0x6BE3E90")]
 	private void OnContainerGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x31D7630", Offset = "0x31D5C30", VA = "0x1831D7630")]
+	[Address(RVA = "0x6BE3EA0", Offset = "0x6BE2EA0", VA = "0x6BE3EA0")]
 	private void OnInitialDisplay(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x31D58A0", Offset = "0x31D3EA0", VA = "0x1831D58A0")]
+	[Address(RVA = "0x6BE31E0", Offset = "0x6BE21E0", VA = "0x6BE31E0")]
 	private void EnsureVisibilityInParent()
 	{
 	}
 
 	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x31D64B0", Offset = "0x31D4AB0", VA = "0x1831D64B0")]
+	[Address(RVA = "0x6BE3EC0", Offset = "0x6BE2EC0", VA = "0x6BE3EC0")]
 	private float GetLargestItemWidth()
 	{
 		return default(float);

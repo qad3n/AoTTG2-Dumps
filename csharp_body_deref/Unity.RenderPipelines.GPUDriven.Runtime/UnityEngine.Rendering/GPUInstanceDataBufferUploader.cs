@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUInstanceDataBufferUploader
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -109,19 +109,19 @@ internal struct GPUInstanceDataBufferUploader : IDisposable
 		private int m_ValidComponentIndicesCount;
 
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x2BDD250", Offset = "0x2BDB850", VA = "0x182BDD250")]
+		[Address(RVA = "0x65D28F0", Offset = "0x65D18F0", VA = "0x65D28F0")]
 		public void LoadShaders(GPUResidentDrawerResources resources)
 		{
 		}
 
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x2BDCF60", Offset = "0x2BDB560", VA = "0x182BDCF60")]
+		[Address(RVA = "0x65D2260", Offset = "0x65D1260", VA = "0x65D2260")]
 		public void CreateResources(int newInstanceCount, int sizePerInstance, int newComponentCounts, int validComponentIndicesCount)
 		{
 		}
 
 		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x2BDD130", Offset = "0x2BDB730", VA = "0x182BDD130", Slot = "4")]
+		[Address(RVA = "0x65D2990", Offset = "0x65D1990", VA = "0x65D2990", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -179,7 +179,7 @@ internal struct GPUInstanceDataBufferUploader : IDisposable
 		public NativeArray<uint> tmpDataBuffer;
 
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x2BEB5F0", Offset = "0x2BE9BF0", VA = "0x182BEB5F0", Slot = "4")]
+		[Address(RVA = "0x65D29F0", Offset = "0x65D19F0", VA = "0x65D29F0", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -222,27 +222,27 @@ internal struct GPUInstanceDataBufferUploader : IDisposable
 	private NativeArray<int> m_DummyArray;
 
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x2BDC3D0", Offset = "0x2BDA9D0", VA = "0x182BDC3D0")]
+	[Address(RVA = "0x65D1A70", Offset = "0x65D0A70", VA = "0x65D1A70")]
 	public GPUInstanceDataBufferUploader(in NativeArray<GPUInstanceComponentDesc> descriptions, int capacity, InstanceType instanceType)
 	{
 	}
 
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x2BDBC30", Offset = "0x2BDA230", VA = "0x182BDBC30")]
+	[Address(RVA = "0x65D1CC0", Offset = "0x65D0CC0", VA = "0x65D1CC0")]
 	public IntPtr GetUploadBufferPtr()
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+	[Address(RVA = "0x65D1D00", Offset = "0x65D0D00", VA = "0x65D1D00")]
 	public int GetUIntPerInstance()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x2BDBC20", Offset = "0x2BDA220", VA = "0x182BDBC20")]
+	[Address(RVA = "0x65D1D10", Offset = "0x65D0D10", VA = "0x65D1D10")]
 	public int GetParamUIntOffset(int parameterIndex)
 	{
 		return default(int);
@@ -255,7 +255,7 @@ internal struct GPUInstanceDataBufferUploader : IDisposable
 	}
 
 	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+	[Address(RVA = "0x65D1D20", Offset = "0x65D0D20", VA = "0x65D1D20")]
 	public void AllocateUploadHandles(int handlesLength)
 	{
 	}
@@ -273,19 +273,19 @@ internal struct GPUInstanceDataBufferUploader : IDisposable
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x2BDBC80", Offset = "0x2BDA280", VA = "0x182BDBC80")]
+	[Address(RVA = "0x65D1D30", Offset = "0x65D0D30", VA = "0x65D1D30")]
 	public void SubmitToGpu(GPUInstanceDataBuffer instanceDataBuffer, NativeArray<GPUInstanceIndex> gpuInstanceIndices, ref GPUResources gpuResources, bool submitOnlyWrittenParams)
 	{
 	}
 
 	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x2BDC210", Offset = "0x2BDA810", VA = "0x182BDC210")]
+	[Address(RVA = "0x65D2450", Offset = "0x65D1450", VA = "0x65D2450")]
 	public void SubmitToGpu(GPUInstanceDataBuffer instanceDataBuffer, NativeArray<InstanceHandle> instances, ref GPUResources gpuResources, bool submitOnlyWrittenParams)
 	{
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x2BDBB10", Offset = "0x2BDA110", VA = "0x182BDBB10", Slot = "4")]
+	[Address(RVA = "0x65D25D0", Offset = "0x65D15D0", VA = "0x65D25D0", Slot = "4")]
 	public void Dispose()
 	{
 	}

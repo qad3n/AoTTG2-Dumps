@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000176")]
+[Token(Token = "0x2000177")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public sealed class ExecuteInEditMode : Attribute
 {
-	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000CD1")]
+	[Address(RVA = "0x69113F0", Offset = "0x69103F0", VA = "0x69113F0")]
 	public ExecuteInEditMode()
 	{
 	}

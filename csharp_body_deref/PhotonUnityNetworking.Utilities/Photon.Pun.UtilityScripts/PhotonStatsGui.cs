@@ -42,31 +42,31 @@ public class PhotonStatsGui : MonoBehaviour
 	public int WindowId;
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x1D55560", Offset = "0x1D53B60", VA = "0x181D55560")]
+	[Address(RVA = "0x56EA1F0", Offset = "0x56E91F0", VA = "0x56EA1F0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x56EA280", Offset = "0x56E9280", VA = "0x56EA280")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x1D553C0", Offset = "0x1D539C0", VA = "0x181D553C0")]
+	[Address(RVA = "0x56EA290", Offset = "0x56E9290", VA = "0x56EA290")]
 	public void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x1D555D0", Offset = "0x1D53BD0", VA = "0x181D555D0")]
+	[Address(RVA = "0x56EA4C0", Offset = "0x56E94C0", VA = "0x56EA4C0")]
 	public void TrafficStatsWindow(int windowID)
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x1D563C0", Offset = "0x1D549C0", VA = "0x181D563C0")]
+	[Address(RVA = "0x56EBCC0", Offset = "0x56EACC0", VA = "0x56EBCC0")]
 	public PhotonStatsGui()
 	{
 	}

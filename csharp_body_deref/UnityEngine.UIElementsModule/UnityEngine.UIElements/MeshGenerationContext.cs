@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MeshGenerationContext
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -64,14 +64,14 @@ public class MeshGenerationContext
 	public VisualElement visualElement
 	{
 		[Token(Token = "0x6001315")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6CBDD20", Offset = "0x6CBCD20", VA = "0x6CBDD20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001316")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6CBDD30", Offset = "0x6CBCD30", VA = "0x6CBDD30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -82,14 +82,14 @@ public class MeshGenerationContext
 	internal RenderData renderData
 	{
 		[Token(Token = "0x6001317")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6CBDD40", Offset = "0x6CBCD40", VA = "0x6CBDD40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001318")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6CBDD50", Offset = "0x6CBCD50", VA = "0x6CBDD50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -100,7 +100,7 @@ public class MeshGenerationContext
 	public Painter2D painter2D
 	{
 		[Token(Token = "0x6001319")]
-		[Address(RVA = "0x32AFD40", Offset = "0x32AE340", VA = "0x1832AFD40")]
+		[Address(RVA = "0x6CBDD60", Offset = "0x6CBCD60", VA = "0x6CBDD60")]
 		get
 		{
 			return null;
@@ -111,7 +111,7 @@ public class MeshGenerationContext
 	internal bool hasPainter2D
 	{
 		[Token(Token = "0x600131A")]
-		[Address(RVA = "0x2450AE0", Offset = "0x244F0E0", VA = "0x182450AE0")]
+		[Address(RVA = "0x6CBE020", Offset = "0x6CBD020", VA = "0x6CBE020")]
 		get
 		{
 			return default(bool);
@@ -122,14 +122,14 @@ public class MeshGenerationContext
 	internal IMeshGenerator meshGenerator
 	{
 		[Token(Token = "0x600131B")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x6CBE030", Offset = "0x6CBD030", VA = "0x6CBE030")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600131C")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x6CBE040", Offset = "0x6CBD040", VA = "0x6CBE040")]
 		[CompilerGenerated]
 		set
 		{
@@ -140,14 +140,14 @@ public class MeshGenerationContext
 	internal EntryRecorder entryRecorder
 	{
 		[Token(Token = "0x600131D")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6CBE050", Offset = "0x6CBD050", VA = "0x6CBE050")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600131E")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x6CBE060", Offset = "0x6CBD060", VA = "0x6CBE060")]
 		[CompilerGenerated]
 		private set
 		{
@@ -158,14 +158,14 @@ public class MeshGenerationContext
 	internal Entry parentEntry
 	{
 		[Token(Token = "0x600131F")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6CBE070", Offset = "0x6CBD070", VA = "0x6CBE070")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001320")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6CBE080", Offset = "0x6CBD080", VA = "0x6CBE080")]
 		[CompilerGenerated]
 		private set
 		{
@@ -176,14 +176,14 @@ public class MeshGenerationContext
 	internal bool disposed
 	{
 		[Token(Token = "0x600132A")]
-		[Address(RVA = "0x198C740", Offset = "0x198AD40", VA = "0x18198C740")]
+		[Address(RVA = "0x6CBE6C0", Offset = "0x6CBD6C0", VA = "0x6CBE6C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600132B")]
-		[Address(RVA = "0x1D1FF10", Offset = "0x1D1E510", VA = "0x181D1FF10")]
+		[Address(RVA = "0x6CBE6D0", Offset = "0x6CBD6D0", VA = "0x6CBE6D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -191,67 +191,67 @@ public class MeshGenerationContext
 	}
 
 	[Token(Token = "0x6001321")]
-	[Address(RVA = "0x32AFC70", Offset = "0x32AE270", VA = "0x1832AFC70")]
+	[Address(RVA = "0x6CBE090", Offset = "0x6CBD090", VA = "0x6CBE090")]
 	internal MeshGenerationContext(MeshWriteDataPool meshWriteDataPool, EntryRecorder entryRecorder, TempMeshAllocatorImpl allocator, MeshGenerationDeferrer meshGenerationDeferrer, MeshGenerationNodeManager meshGenerationNodeManager)
 	{
 	}
 
 	[Token(Token = "0x6001322")]
-	[Address(RVA = "0x32AF590", Offset = "0x32ADB90", VA = "0x1832AF590")]
+	[Address(RVA = "0x6CBE170", Offset = "0x6CBD170", VA = "0x6CBE170")]
 	public void AllocateTempMesh(int vertexCount, int indexCount, out NativeSlice<Vertex> vertices, out NativeSlice<ushort> indices)
 	{
 	}
 
 	[Token(Token = "0x6001323")]
-	[Address(RVA = "0x32AFAF0", Offset = "0x32AE0F0", VA = "0x1832AFAF0")]
+	[Address(RVA = "0x6CBE190", Offset = "0x6CBD190", VA = "0x6CBE190")]
 	public void GetTempMeshAllocator(out TempMeshAllocator allocator)
 	{
 	}
 
 	[Token(Token = "0x6001324")]
-	[Address(RVA = "0x32AFB10", Offset = "0x32AE110", VA = "0x1832AFB10")]
+	[Address(RVA = "0x6CBE1B0", Offset = "0x6CBD1B0", VA = "0x6CBE1B0")]
 	public void InsertMeshGenerationNode(out MeshGenerationNode node)
 	{
 	}
 
 	[Token(Token = "0x6001325")]
-	[Address(RVA = "0x32AFB70", Offset = "0x32AE170", VA = "0x1832AFB70")]
+	[Address(RVA = "0x6CBE230", Offset = "0x6CBD230", VA = "0x6CBE230")]
 	internal void InsertUnsafeMeshGenerationNode(out UnsafeMeshGenerationNode node)
 	{
 	}
 
 	[Token(Token = "0x6001326")]
-	[Address(RVA = "0x32AF560", Offset = "0x32ADB60", VA = "0x1832AF560")]
+	[Address(RVA = "0x6CBE2A0", Offset = "0x6CBD2A0", VA = "0x6CBE2A0")]
 	public void AddMeshGenerationJob(JobHandle jobHandle)
 	{
 	}
 
 	[Token(Token = "0x6001327")]
-	[Address(RVA = "0x32AF530", Offset = "0x32ADB30", VA = "0x1832AF530")]
+	[Address(RVA = "0x6CBE2C0", Offset = "0x6CBD2C0", VA = "0x6CBE2C0")]
 	internal void AddMeshGenerationCallback(MeshGenerationCallback callback, object userData, MeshGenerationCallbackType callbackType, bool isJobDependent)
 	{
 	}
 
 	[Token(Token = "0x6001328")]
-	[Address(RVA = "0x32AF5C0", Offset = "0x32ADBC0", VA = "0x1832AF5C0")]
+	[Address(RVA = "0x6CBE2E0", Offset = "0x6CBD2E0", VA = "0x6CBE2E0")]
 	internal void Begin(Entry parentEntry, VisualElement ve, RenderData renderData)
 	{
 	}
 
 	[Token(Token = "0x6001329")]
-	[Address(RVA = "0x32AFA10", Offset = "0x32AE010", VA = "0x1832AFA10")]
+	[Address(RVA = "0x6CBE490", Offset = "0x6CBD490", VA = "0x6CBE490")]
 	internal void End()
 	{
 	}
 
 	[Token(Token = "0x600132C")]
-	[Address(RVA = "0x32AF740", Offset = "0x32ADD40", VA = "0x1832AF740")]
+	[Address(RVA = "0x6CBE6E0", Offset = "0x6CBD6E0", VA = "0x6CBE6E0")]
 	internal void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600132D")]
-	[Address(RVA = "0x32AF8C0", Offset = "0x32ADEC0", VA = "0x1832AF8C0")]
+	[Address(RVA = "0x6CBE740", Offset = "0x6CBD740", VA = "0x6CBE740")]
 	private void Dispose(bool disposing)
 	{
 	}

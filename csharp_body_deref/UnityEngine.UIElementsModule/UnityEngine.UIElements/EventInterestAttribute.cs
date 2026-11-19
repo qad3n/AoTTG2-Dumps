@@ -23,19 +23,19 @@ public class EventInterestAttribute : Attribute
 	internal EventCategoryFlags categoryFlags;
 
 	[Token(Token = "0x60027EF")]
-	[Address(RVA = "0x315C4B0", Offset = "0x315AAB0", VA = "0x18315C4B0")]
+	[Address(RVA = "0x6B6C600", Offset = "0x6B6B600", VA = "0x6B6C600")]
 	public EventInterestAttribute(params Type[] eventTypes)
 	{
 	}
 
 	[Token(Token = "0x60027F0")]
-	[Address(RVA = "0x315C480", Offset = "0x315AA80", VA = "0x18315C480")]
+	[Address(RVA = "0x6B6C640", Offset = "0x6B6B640", VA = "0x6B6C640")]
 	public EventInterestAttribute(EventInterestOptions interests)
 	{
 	}
 
 	[Token(Token = "0x60027F1")]
-	[Address(RVA = "0x315C480", Offset = "0x315AA80", VA = "0x18315C480")]
+	[Address(RVA = "0x6B6C660", Offset = "0x6B6B660", VA = "0x6B6C660")]
 	internal EventInterestAttribute(EventInterestOptionsInternal interests)
 	{
 	}

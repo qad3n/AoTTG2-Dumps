@@ -17,14 +17,14 @@ internal class CursorManager : ICursorManager
 	public bool isCursorOverriden
 	{
 		[Token(Token = "0x6000B00")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6C4E3A0", Offset = "0x6C4D3A0", VA = "0x6C4E3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B01")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6C4E3B0", Offset = "0x6C4D3B0", VA = "0x6C4E3B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -32,19 +32,19 @@ internal class CursorManager : ICursorManager
 	}
 
 	[Token(Token = "0x6000B02")]
-	[Address(RVA = "0x323ECD0", Offset = "0x323D2D0", VA = "0x18323ECD0", Slot = "4")]
+	[Address(RVA = "0x6C4E3C0", Offset = "0x6C4D3C0", VA = "0x6C4E3C0", Slot = "4")]
 	public void SetCursor(Cursor cursor)
 	{
 	}
 
 	[Token(Token = "0x6000B03")]
-	[Address(RVA = "0x323EC70", Offset = "0x323D270", VA = "0x18323EC70", Slot = "5")]
+	[Address(RVA = "0x6C4E4D0", Offset = "0x6C4D4D0", VA = "0x6C4E4D0", Slot = "5")]
 	public void ResetCursor()
 	{
 	}
 
 	[Token(Token = "0x6000B04")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C4E520", Offset = "0x6C4D520", VA = "0x6C4E520")]
 	public CursorManager()
 	{
 	}

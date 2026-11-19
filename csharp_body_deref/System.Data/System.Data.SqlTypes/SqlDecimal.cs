@@ -261,7 +261,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	public bool IsNull
 	{
 		[Token(Token = "0x60009AF")]
-		[Address(RVA = "0x256AB70", Offset = "0x2569170", VA = "0x18256AB70", Slot = "4")]
+		[Address(RVA = "0x5F0CE30", Offset = "0x5F0BE30", VA = "0x5F0CE30", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -272,7 +272,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	public decimal Value
 	{
 		[Token(Token = "0x60009B0")]
-		[Address(RVA = "0x256ADD0", Offset = "0x25693D0", VA = "0x18256ADD0")]
+		[Address(RVA = "0x5F0CE90", Offset = "0x5F0BE90", VA = "0x5F0CE90")]
 		get
 		{
 			return 0m;
@@ -283,7 +283,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	public bool IsPositive
 	{
 		[Token(Token = "0x60009B1")]
-		[Address(RVA = "0x256ABD0", Offset = "0x25691D0", VA = "0x18256ABD0")]
+		[Address(RVA = "0x5F0D0D0", Offset = "0x5F0C0D0", VA = "0x5F0D0D0")]
 		get
 		{
 			return default(bool);
@@ -294,7 +294,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	public byte Scale
 	{
 		[Token(Token = "0x60009B4")]
-		[Address(RVA = "0x256ACE0", Offset = "0x25692E0", VA = "0x18256ACE0")]
+		[Address(RVA = "0x5F0D290", Offset = "0x5F0C290", VA = "0x5F0D290")]
 		get
 		{
 			return default(byte);
@@ -305,7 +305,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	public int[] Data
 	{
 		[Token(Token = "0x60009B5")]
-		[Address(RVA = "0x256AA20", Offset = "0x2569020", VA = "0x18256AA20")]
+		[Address(RVA = "0x5F0D390", Offset = "0x5F0C390", VA = "0x5F0D390")]
 		get
 		{
 			return null;
@@ -313,440 +313,440 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable
 	}
 
 	[Token(Token = "0x60009A8")]
-	[Address(RVA = "0x2565950", Offset = "0x2563F50", VA = "0x182565950")]
+	[Address(RVA = "0x5F0BE00", Offset = "0x5F0AE00", VA = "0x5F0BE00")]
 	private byte CalculatePrecision()
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60009A9")]
-	[Address(RVA = "0x2569810", Offset = "0x2567E10", VA = "0x182569810")]
+	[Address(RVA = "0x5F0C030", Offset = "0x5F0B030", VA = "0x5F0C030")]
 	private bool VerifyPrecision(byte precision)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x256A4E0", Offset = "0x2568AE0", VA = "0x18256A4E0")]
+	[Address(RVA = "0x5F0C240", Offset = "0x5F0B240", VA = "0x5F0C240")]
 	private SqlDecimal(bool fNull)
 	{
 	}
 
 	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x256A8A0", Offset = "0x2568EA0", VA = "0x18256A8A0")]
+	[Address(RVA = "0x5F0C2B0", Offset = "0x5F0B2B0", VA = "0x5F0C2B0")]
 	public SqlDecimal(decimal value)
 	{
 	}
 
 	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x256A260", Offset = "0x2568860", VA = "0x18256A260")]
+	[Address(RVA = "0x5F0C400", Offset = "0x5F0B400", VA = "0x5F0C400")]
 	public SqlDecimal(int value)
 	{
 	}
 
 	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x256A550", Offset = "0x2568B50", VA = "0x18256A550")]
+	[Address(RVA = "0x5F0C6A0", Offset = "0x5F0B6A0", VA = "0x5F0C6A0")]
 	public SqlDecimal(long value)
 	{
 	}
 
 	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x256A650", Offset = "0x2568C50", VA = "0x18256A650")]
+	[Address(RVA = "0x5F0CB30", Offset = "0x5F0BB30", VA = "0x5F0CB30")]
 	private SqlDecimal(uint[] rglData, byte bLen, byte bPrec, byte bScale, bool fPositive)
 	{
 	}
 
 	[Token(Token = "0x60009B2")]
-	[Address(RVA = "0x25687A0", Offset = "0x2566DA0", VA = "0x1825687A0")]
+	[Address(RVA = "0x5F0CDD0", Offset = "0x5F0BDD0", VA = "0x5F0CDD0")]
 	private void SetPositive()
 	{
 	}
 
 	[Token(Token = "0x60009B3")]
-	[Address(RVA = "0x2568810", Offset = "0x2566E10", VA = "0x182568810")]
+	[Address(RVA = "0x5F0D210", Offset = "0x5F0C210", VA = "0x5F0D210")]
 	private void SetSignBit(bool fPositive)
 	{
 	}
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x2569420", Offset = "0x2567A20", VA = "0x182569420", Slot = "3")]
+	[Address(RVA = "0x5F0D520", Offset = "0x5F0C520", VA = "0x5F0D520", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x2568070", Offset = "0x2566670", VA = "0x182568070")]
+	[Address(RVA = "0x5F0DB30", Offset = "0x5F0CB30", VA = "0x5F0DB30")]
 	public static SqlDecimal Parse(string s)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x2568E30", Offset = "0x2567430", VA = "0x182568E30")]
+	[Address(RVA = "0x5F0E710", Offset = "0x5F0D710", VA = "0x5F0E710")]
 	public double ToDouble()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x2568C70", Offset = "0x2567270", VA = "0x182568C70")]
+	[Address(RVA = "0x5F0CEF0", Offset = "0x5F0BEF0", VA = "0x5F0CEF0")]
 	private decimal ToDecimal()
 	{
 		return 0m;
 	}
 
 	[Token(Token = "0x60009BA")]
-	[Address(RVA = "0x256BF50", Offset = "0x256A550", VA = "0x18256BF50")]
+	[Address(RVA = "0x5F0E930", Offset = "0x5F0D930", VA = "0x5F0E930")]
 	public static implicit operator SqlDecimal(decimal x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009BB")]
-	[Address(RVA = "0x256BF90", Offset = "0x256A590", VA = "0x18256BF90")]
+	[Address(RVA = "0x5F0E950", Offset = "0x5F0D950", VA = "0x5F0E950")]
 	public static implicit operator SqlDecimal(long x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009BC")]
-	[Address(RVA = "0x256D570", Offset = "0x256BB70", VA = "0x18256D570")]
+	[Address(RVA = "0x5F0E990", Offset = "0x5F0D990", VA = "0x5F0E990")]
 	public static SqlDecimal operator -(SqlDecimal x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009BD")]
-	[Address(RVA = "0x256AE40", Offset = "0x2569440", VA = "0x18256AE40")]
+	[Address(RVA = "0x5F0EC10", Offset = "0x5F0DC10", VA = "0x5F0EC10")]
 	public static SqlDecimal operator +(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009BE")]
-	[Address(RVA = "0x256D2D0", Offset = "0x256B8D0", VA = "0x18256D2D0")]
+	[Address(RVA = "0x5F0F9C0", Offset = "0x5F0E9C0", VA = "0x5F0F9C0")]
 	public static SqlDecimal operator -(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009BF")]
-	[Address(RVA = "0x256C660", Offset = "0x256AC60", VA = "0x18256C660")]
+	[Address(RVA = "0x5F0FA80", Offset = "0x5F0EA80", VA = "0x5F0FA80")]
 	public static SqlDecimal operator *(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C0")]
-	[Address(RVA = "0x256B5D0", Offset = "0x2569BD0", VA = "0x18256B5D0")]
+	[Address(RVA = "0x5F10710", Offset = "0x5F0F710", VA = "0x5F10710")]
 	public static SqlDecimal operator /(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C1")]
-	[Address(RVA = "0x256C1E0", Offset = "0x256A7E0", VA = "0x18256C1E0")]
+	[Address(RVA = "0x5F11990", Offset = "0x5F10990", VA = "0x5F11990")]
 	public static implicit operator SqlDecimal(SqlByte x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C2")]
-	[Address(RVA = "0x256BFE0", Offset = "0x256A5E0", VA = "0x18256BFE0")]
+	[Address(RVA = "0x5F11A70", Offset = "0x5F10A70", VA = "0x5F11A70")]
 	public static implicit operator SqlDecimal(SqlInt16 x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C3")]
-	[Address(RVA = "0x256C3B0", Offset = "0x256A9B0", VA = "0x18256C3B0")]
+	[Address(RVA = "0x5F11BB0", Offset = "0x5F10BB0", VA = "0x5F11BB0")]
 	public static implicit operator SqlDecimal(SqlInt32 x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C4")]
-	[Address(RVA = "0x256C0C0", Offset = "0x256A6C0", VA = "0x18256C0C0")]
+	[Address(RVA = "0x5F11D40", Offset = "0x5F10D40", VA = "0x5F11D40")]
 	public static implicit operator SqlDecimal(SqlInt64 x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C5")]
-	[Address(RVA = "0x256C2C0", Offset = "0x256A8C0", VA = "0x18256C2C0")]
+	[Address(RVA = "0x5F11E20", Offset = "0x5F10E20", VA = "0x5F11E20")]
 	public static implicit operator SqlDecimal(SqlMoney x)
 	{
 		return default(SqlDecimal);
 	}
 
 	[Token(Token = "0x60009C6")]
-	[Address(RVA = "0x2569A50", Offset = "0x2568050", VA = "0x182569A50")]
+	[Address(RVA = "0x5F11920", Offset = "0x5F10920", VA = "0x5F11920")]
 	private static void ZeroToMaxLen(uint[] rgulData, int cUI4sCur)
 	{
 	}
 
 	[Token(Token = "0x60009C7")]
-	[Address(RVA = "0x2566AA0", Offset = "0x25650A0", VA = "0x182566AA0")]
+	[Address(RVA = "0x5F0CDB0", Offset = "0x5F0BDB0", VA = "0x5F0CDB0")]
 	private bool FZero()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009C8")]
-	[Address(RVA = "0x2566A10", Offset = "0x2565010", VA = "0x182566A10")]
+	[Address(RVA = "0x5F0F980", Offset = "0x5F0E980", VA = "0x5F0F980")]
 	private bool FGt10_38()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009C9")]
-	[Address(RVA = "0x2566A50", Offset = "0x2565050", VA = "0x182566A50")]
+	[Address(RVA = "0x5F12030", Offset = "0x5F11030", VA = "0x5F12030")]
 	private bool FGt10_38(uint[] rglData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009CA")]
-	[Address(RVA = "0x2565420", Offset = "0x2563A20", VA = "0x182565420")]
+	[Address(RVA = "0x5F0C4D0", Offset = "0x5F0B4D0", VA = "0x5F0C4D0")]
 	private static byte BGetPrecUI4(uint value)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60009CB")]
-	[Address(RVA = "0x25655C0", Offset = "0x2563BC0", VA = "0x1825655C0")]
+	[Address(RVA = "0x5F0C770", Offset = "0x5F0B770", VA = "0x5F0C770")]
 	private static byte BGetPrecUI8(ulong dwlVal)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60009CC")]
-	[Address(RVA = "0x2564E00", Offset = "0x2563400", VA = "0x182564E00")]
+	[Address(RVA = "0x5F0E4E0", Offset = "0x5F0D4E0", VA = "0x5F0E4E0")]
 	private void AddULong(uint ulAdd)
 	{
 	}
 
 	[Token(Token = "0x60009CD")]
-	[Address(RVA = "0x2567DB0", Offset = "0x25663B0", VA = "0x182567DB0")]
+	[Address(RVA = "0x5F0E250", Offset = "0x5F0D250", VA = "0x5F0E250")]
 	private void MultByULong(uint uiMultiplier)
 	{
 	}
 
 	[Token(Token = "0x60009CE")]
-	[Address(RVA = "0x2566440", Offset = "0x2564A40", VA = "0x182566440")]
+	[Address(RVA = "0x5F120C0", Offset = "0x5F110C0", VA = "0x5F120C0")]
 	private uint DivByULong(uint iDivisor)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60009CF")]
-	[Address(RVA = "0x2565060", Offset = "0x2563660", VA = "0x182565060")]
+	[Address(RVA = "0x5F0F420", Offset = "0x5F0E420", VA = "0x5F0F420")]
 	internal void AdjustScale(int digits, bool fRound)
 	{
 	}
 
 	[Token(Token = "0x60009D0")]
-	[Address(RVA = "0x2566D10", Offset = "0x2565310", VA = "0x182566D10")]
+	[Address(RVA = "0x5F0F840", Offset = "0x5F0E840", VA = "0x5F0F840")]
 	private int LAbsCmp(SqlDecimal snumOp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009D1")]
-	[Address(RVA = "0x2567C00", Offset = "0x2566200", VA = "0x182567C00")]
+	[Address(RVA = "0x5F122F0", Offset = "0x5F112F0", VA = "0x5F122F0")]
 	private static void MpMove(uint[] rgulS, int ciulS, uint[] rgulD, out int ciulD)
 	{
 	}
 
 	[Token(Token = "0x60009D2")]
-	[Address(RVA = "0x2567D80", Offset = "0x2566380", VA = "0x182567D80")]
+	[Address(RVA = "0x5F12340", Offset = "0x5F11340", VA = "0x5F12340")]
 	private static void MpSet(uint[] rgulD, out int ciulD, uint iulN)
 	{
 	}
 
 	[Token(Token = "0x60009D3")]
-	[Address(RVA = "0x2567D40", Offset = "0x2566340", VA = "0x182567D40")]
+	[Address(RVA = "0x5F12370", Offset = "0x5F11370", VA = "0x5F12370")]
 	private static void MpNormalize(uint[] rgulU, ref int ciulU)
 	{
 	}
 
 	[Token(Token = "0x60009D4")]
-	[Address(RVA = "0x2567C60", Offset = "0x2566260", VA = "0x182567C60")]
+	[Address(RVA = "0x5F123B0", Offset = "0x5F113B0", VA = "0x5F123B0")]
 	private static void MpMul1(uint[] piulD, ref int ciulD, uint iulX)
 	{
 	}
 
 	[Token(Token = "0x60009D5")]
-	[Address(RVA = "0x2566F30", Offset = "0x2565530", VA = "0x182566F30")]
+	[Address(RVA = "0x5F0DA00", Offset = "0x5F0CA00", VA = "0x5F0DA00")]
 	private static void MpDiv1(uint[] rgulU, ref int ciulU, uint iulD, out uint iulR)
 	{
 	}
 
 	[Token(Token = "0x60009D6")]
-	[Address(RVA = "0x2566430", Offset = "0x2564A30", VA = "0x182566430")]
+	[Address(RVA = "0x5F124C0", Offset = "0x5F114C0", VA = "0x5F124C0")]
 	internal static ulong DWL(uint lo, uint hi)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x60009D7")]
-	[Address(RVA = "0x1B31180", Offset = "0x1B2F780", VA = "0x181B31180")]
+	[Address(RVA = "0x5F124A0", Offset = "0x5F114A0", VA = "0x5F124A0")]
 	private static uint HI(ulong x)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60009D8")]
-	[Address(RVA = "0x611500", Offset = "0x60FB00", VA = "0x180611500")]
+	[Address(RVA = "0x5F124B0", Offset = "0x5F114B0", VA = "0x5F124B0")]
 	private static uint LO(ulong x)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60009D9")]
-	[Address(RVA = "0x2567020", Offset = "0x2565620", VA = "0x182567020")]
+	[Address(RVA = "0x5F10D40", Offset = "0x5F0FD40", VA = "0x5F10D40")]
 	private static void MpDiv(uint[] rgulU, int ciulU, uint[] rgulD, int ciulD, uint[] rgulQ, out int ciulQ, uint[] rgulR, out int ciulR)
 	{
 	}
 
 	[Token(Token = "0x60009DA")]
-	[Address(RVA = "0x2565E80", Offset = "0x2564480", VA = "0x182565E80")]
+	[Address(RVA = "0x5F124D0", Offset = "0x5F114D0", VA = "0x5F124D0")]
 	private EComparison CompareNm(SqlDecimal snumOp)
 	{
 		return default(EComparison);
 	}
 
 	[Token(Token = "0x60009DB")]
-	[Address(RVA = "0x2565DA0", Offset = "0x25643A0", VA = "0x182565DA0")]
+	[Address(RVA = "0x5F0CCF0", Offset = "0x5F0BCF0", VA = "0x5F0CCF0")]
 	private static void CheckValidPrecScale(byte bPrec, byte bScale)
 	{
 	}
 
 	[Token(Token = "0x60009DC")]
-	[Address(RVA = "0x256BC10", Offset = "0x256A210", VA = "0x18256BC10")]
+	[Address(RVA = "0x5F12930", Offset = "0x5F11930", VA = "0x5F12930")]
 	public static SqlBoolean operator ==(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x60009DD")]
-	[Address(RVA = "0x256C4C0", Offset = "0x256AAC0", VA = "0x18256C4C0")]
+	[Address(RVA = "0x5F12B20", Offset = "0x5F11B20", VA = "0x5F12B20")]
 	public static SqlBoolean operator <(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x60009DE")]
-	[Address(RVA = "0x256BDB0", Offset = "0x256A3B0", VA = "0x18256BDB0")]
+	[Address(RVA = "0x5F12D10", Offset = "0x5F11D10", VA = "0x5F12D10")]
 	public static SqlBoolean operator >(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x60009DF")]
-	[Address(RVA = "0x2566EB0", Offset = "0x25654B0", VA = "0x182566EB0")]
+	[Address(RVA = "0x5F12F00", Offset = "0x5F11F00", VA = "0x5F12F00")]
 	public static SqlBoolean LessThan(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x60009E0")]
-	[Address(RVA = "0x2566C90", Offset = "0x2565290", VA = "0x182566C90")]
+	[Address(RVA = "0x5F12F60", Offset = "0x5F11F60", VA = "0x5F12F60")]
 	public static SqlBoolean GreaterThan(SqlDecimal x, SqlDecimal y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x60009E1")]
-	[Address(RVA = "0x2569010", Offset = "0x2567610", VA = "0x182569010")]
+	[Address(RVA = "0x5F12FC0", Offset = "0x5F11FC0", VA = "0x5F12FC0")]
 	public SqlDouble ToSqlDouble()
 	{
 		return default(SqlDouble);
 	}
 
 	[Token(Token = "0x60009E2")]
-	[Address(RVA = "0x25691E0", Offset = "0x25677E0", VA = "0x1825691E0")]
+	[Address(RVA = "0x5F131D0", Offset = "0x5F121D0", VA = "0x5F131D0")]
 	public SqlInt64 ToSqlInt64()
 	{
 		return default(SqlInt64);
 	}
 
 	[Token(Token = "0x60009E3")]
-	[Address(RVA = "0x2569260", Offset = "0x2567860", VA = "0x182569260")]
+	[Address(RVA = "0x5F134A0", Offset = "0x5F124A0", VA = "0x5F134A0")]
 	public SqlMoney ToSqlMoney()
 	{
 		return default(SqlMoney);
 	}
 
 	[Token(Token = "0x60009E4")]
-	[Address(RVA = "0x2565D90", Offset = "0x2564390", VA = "0x182565D90")]
+	[Address(RVA = "0x5F0DB20", Offset = "0x5F0CB20", VA = "0x5F0DB20")]
 	private static char ChFromDigit(uint uiDigit)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x60009E5")]
-	[Address(RVA = "0x2568930", Offset = "0x2566F30", VA = "0x182568930")]
+	[Address(RVA = "0x5F12080", Offset = "0x5F11080", VA = "0x5F12080")]
 	private void StoreFromWorkingArray(uint[] rguiData)
 	{
 	}
 
 	[Token(Token = "0x60009E6")]
-	[Address(RVA = "0x25688C0", Offset = "0x2566EC0", VA = "0x1825688C0")]
+	[Address(RVA = "0x5F0E1E0", Offset = "0x5F0D1E0", VA = "0x5F0E1E0")]
 	private void SetToZero()
 	{
 	}
 
 	[Token(Token = "0x60009E7")]
-	[Address(RVA = "0x2566300", Offset = "0x2564900", VA = "0x182566300", Slot = "5")]
+	[Address(RVA = "0x5F136B0", Offset = "0x5F126B0", VA = "0x5F136B0", Slot = "5")]
 	public int CompareTo(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x2566060", Offset = "0x2564660", VA = "0x182566060")]
+	[Address(RVA = "0x5F137C0", Offset = "0x5F127C0", VA = "0x5F137C0")]
 	public int CompareTo(SqlDecimal value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009E9")]
-	[Address(RVA = "0x2566620", Offset = "0x2564C20", VA = "0x182566620", Slot = "0")]
+	[Address(RVA = "0x5F13AB0", Offset = "0x5F12AB0", VA = "0x5F13AB0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x2566AC0", Offset = "0x25650C0", VA = "0x182566AC0", Slot = "2")]
+	[Address(RVA = "0x5F13DF0", Offset = "0x5F12DF0", VA = "0x5F13DF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60009EB")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x5F13F80", Offset = "0x5F12F80", VA = "0x5F13F80", Slot = "6")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009EC")]
-	[Address(RVA = "0x2568980", Offset = "0x2566F80", VA = "0x182568980", Slot = "7")]
+	[Address(RVA = "0x5F13F90", Offset = "0x5F12F90", VA = "0x5F13F90", Slot = "7")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60009ED")]
-	[Address(RVA = "0x2568B10", Offset = "0x2567110", VA = "0x182568B10", Slot = "8")]
+	[Address(RVA = "0x5F140E0", Offset = "0x5F130E0", VA = "0x5F140E0", Slot = "8")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60009EE")]
-	[Address(RVA = "0x2566C20", Offset = "0x2565220", VA = "0x182566C20")]
+	[Address(RVA = "0x5F14290", Offset = "0x5F13290", VA = "0x5F14290")]
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.MarkupElement
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,13 +20,13 @@ internal struct MarkupElement
 	public int NameHashCode
 	{
 		[Token(Token = "0x60005C6")]
-		[Address(RVA = "0x2D611E0", Offset = "0x2D5F7E0", VA = "0x182D611E0")]
+		[Address(RVA = "0x6758560", Offset = "0x6757560", VA = "0x6758560")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005C7")]
-		[Address(RVA = "0x2D612A0", Offset = "0x2D5F8A0", VA = "0x182D612A0")]
+		[Address(RVA = "0x6758580", Offset = "0x6757580", VA = "0x6758580")]
 		set
 		{
 		}
@@ -36,13 +36,13 @@ internal struct MarkupElement
 	public int ValueHashCode
 	{
 		[Token(Token = "0x60005C8")]
-		[Address(RVA = "0x2D61210", Offset = "0x2D5F810", VA = "0x182D61210")]
+		[Address(RVA = "0x67585F0", Offset = "0x67575F0", VA = "0x67585F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005C9")]
-		[Address(RVA = "0x2D61320", Offset = "0x2D5F920", VA = "0x182D61320")]
+		[Address(RVA = "0x6758610", Offset = "0x6757610", VA = "0x6758610")]
 		set
 		{
 		}
@@ -52,13 +52,13 @@ internal struct MarkupElement
 	public int ValueStartIndex
 	{
 		[Token(Token = "0x60005CA")]
-		[Address(RVA = "0x2D61270", Offset = "0x2D5F870", VA = "0x182D61270")]
+		[Address(RVA = "0x6758630", Offset = "0x6757630", VA = "0x6758630")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005CB")]
-		[Address(RVA = "0x2D61380", Offset = "0x2D5F980", VA = "0x182D61380")]
+		[Address(RVA = "0x6758650", Offset = "0x6757650", VA = "0x6758650")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ internal struct MarkupElement
 	public int ValueLength
 	{
 		[Token(Token = "0x60005CC")]
-		[Address(RVA = "0x2D61240", Offset = "0x2D5F840", VA = "0x182D61240")]
+		[Address(RVA = "0x6758670", Offset = "0x6757670", VA = "0x6758670")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005CD")]
-		[Address(RVA = "0x2D61350", Offset = "0x2D5F950", VA = "0x182D61350")]
+		[Address(RVA = "0x6758690", Offset = "0x6757690", VA = "0x6758690")]
 		set
 		{
 		}
@@ -84,20 +84,20 @@ internal struct MarkupElement
 	public MarkupAttribute[] Attributes
 	{
 		[Token(Token = "0x60005CE")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x67586B0", Offset = "0x67576B0", VA = "0x67586B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005CF")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Address(RVA = "0x67586C0", Offset = "0x67576C0", VA = "0x67586C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60005D0")]
-	[Address(RVA = "0x2D61140", Offset = "0x2D5F740", VA = "0x182D61140")]
+	[Address(RVA = "0x67586D0", Offset = "0x67576D0", VA = "0x67586D0")]
 	public MarkupElement(int nameHashCode, int startIndex, int length)
 	{
 	}

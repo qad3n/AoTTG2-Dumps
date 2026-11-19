@@ -70,13 +70,13 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public float damping
 	{
 		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0")]
+		[Address(RVA = "0x31A87B0", Offset = "0x31A77B0", VA = "0x31A87B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x585400", Offset = "0x583A00", VA = "0x180585400")]
+		[Address(RVA = "0x31A87C0", Offset = "0x31A77C0", VA = "0x31A87C0")]
 		set
 		{
 		}
@@ -86,7 +86,7 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public AnimationCurve dampingCurve
 	{
 		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x31A87E0", Offset = "0x31A77E0", VA = "0x31A87E0")]
 		get
 		{
 			return null;
@@ -97,13 +97,13 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public float stiffness
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x584AC0", Offset = "0x5830C0", VA = "0x180584AC0")]
+		[Address(RVA = "0x31A87F0", Offset = "0x31A77F0", VA = "0x31A87F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x585490", Offset = "0x583A90", VA = "0x180585490")]
+		[Address(RVA = "0x31A8800", Offset = "0x31A7800", VA = "0x31A8800")]
 		set
 		{
 		}
@@ -113,7 +113,7 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public AnimationCurve stiffnessCurve
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x31A8820", Offset = "0x31A7820", VA = "0x31A8820")]
 		get
 		{
 			return null;
@@ -124,13 +124,13 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public float resistance
 	{
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
+		[Address(RVA = "0x31A8830", Offset = "0x31A7830", VA = "0x31A8830")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x585430", Offset = "0x583A30", VA = "0x180585430")]
+		[Address(RVA = "0x31A8840", Offset = "0x31A7840", VA = "0x31A8840")]
 		set
 		{
 		}
@@ -140,7 +140,7 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public AnimationCurve resistanceCurve
 	{
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x31A8860", Offset = "0x31A7860", VA = "0x31A8860")]
 		get
 		{
 			return null;
@@ -151,13 +151,13 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public float slackness
 	{
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x5853E0", Offset = "0x5839E0", VA = "0x1805853E0")]
+		[Address(RVA = "0x31A8870", Offset = "0x31A7870", VA = "0x31A8870")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x585460", Offset = "0x583A60", VA = "0x180585460")]
+		[Address(RVA = "0x31A8880", Offset = "0x31A7880", VA = "0x31A8880")]
 		set
 		{
 		}
@@ -167,7 +167,7 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public AnimationCurve slacknessCurve
 	{
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x31A88A0", Offset = "0x31A78A0", VA = "0x31A88A0")]
 		get
 		{
 			return null;
@@ -178,7 +178,7 @@ public class EZSoftBoneMaterial : ScriptableObject
 	public static EZSoftBoneMaterial defaultMaterial
 	{
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x5852C0", Offset = "0x5838C0", VA = "0x1805852C0")]
+		[Address(RVA = "0x31A2950", Offset = "0x31A1950", VA = "0x31A2950")]
 		get
 		{
 			return null;
@@ -186,35 +186,35 @@ public class EZSoftBoneMaterial : ScriptableObject
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x5850B0", Offset = "0x5836B0", VA = "0x1805850B0")]
+	[Address(RVA = "0x31A6B90", Offset = "0x31A5B90", VA = "0x31A6B90")]
 	public float GetDamping(float t)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x585170", Offset = "0x583770", VA = "0x180585170")]
+	[Address(RVA = "0x31A6BC0", Offset = "0x31A5BC0", VA = "0x31A6BC0")]
 	public float GetStiffness(float t)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x5850F0", Offset = "0x5836F0", VA = "0x1805850F0")]
+	[Address(RVA = "0x31A6BF0", Offset = "0x31A5BF0", VA = "0x31A6BF0")]
 	public float GetResistance(float t)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x585130", Offset = "0x583730", VA = "0x180585130")]
+	[Address(RVA = "0x31A6C20", Offset = "0x31A5C20", VA = "0x31A6C20")]
 	public float GetSlackness(float t)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x5851B0", Offset = "0x5837B0", VA = "0x1805851B0")]
+	[Address(RVA = "0x31A88B0", Offset = "0x31A78B0", VA = "0x31A88B0")]
 	public EZSoftBoneMaterial()
 	{
 	}

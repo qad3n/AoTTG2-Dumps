@@ -10,51 +10,51 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000262")]
+[Token(Token = "0x200023A")]
 internal readonly struct ForceAsyncAwaiter : ICriticalNotifyCompletion, INotifyCompletion
 {
-	[Token(Token = "0x4000AC4")]
+	[Token(Token = "0x4000A22")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Task _task;
 
-	[Token(Token = "0x170001E3")]
+	[Token(Token = "0x170001E2")]
 	public bool IsCompleted
 	{
-		[Token(Token = "0x6001428")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Token(Token = "0x60013FF")]
+		[Address(RVA = "0x5542470", Offset = "0x5541470", VA = "0x5542470")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001426")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Token(Token = "0x60013FD")]
+	[Address(RVA = "0x5542450", Offset = "0x5541450", VA = "0x5542450")]
 	internal ForceAsyncAwaiter(Task task)
 	{
 	}
 
-	[Token(Token = "0x6001427")]
-	[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+	[Token(Token = "0x60013FE")]
+	[Address(RVA = "0x5542460", Offset = "0x5541460", VA = "0x5542460")]
 	public System.Threading.Tasks.ForceAsyncAwaiter GetAwaiter()
 	{
 		return default(System.Threading.Tasks.ForceAsyncAwaiter);
 	}
 
-	[Token(Token = "0x6001429")]
-	[Address(RVA = "0x1BAF580", Offset = "0x1BADB80", VA = "0x181BAF580")]
+	[Token(Token = "0x6001400")]
+	[Address(RVA = "0x5542480", Offset = "0x5541480", VA = "0x5542480")]
 	public void GetResult()
 	{
 	}
 
-	[Token(Token = "0x600142A")]
-	[Address(RVA = "0x1BAF5D0", Offset = "0x1BADBD0", VA = "0x181BAF5D0", Slot = "5")]
+	[Token(Token = "0x6001401")]
+	[Address(RVA = "0x55424B0", Offset = "0x55414B0", VA = "0x55424B0", Slot = "5")]
 	public void OnCompleted(Action action)
 	{
 	}
 
-	[Token(Token = "0x600142B")]
-	[Address(RVA = "0x1BAF630", Offset = "0x1BADC30", VA = "0x181BAF630", Slot = "4")]
+	[Token(Token = "0x6001402")]
+	[Address(RVA = "0x5542510", Offset = "0x5541510", VA = "0x5542510", Slot = "4")]
 	public void UnsafeOnCompleted(Action action)
 	{
 	}

@@ -17,7 +17,7 @@ internal class MultiColumnHeaderColumnMovePreview : VisualElement
 	public static readonly string ussClassName;
 
 	[Token(Token = "0x6002EC0")]
-	[Address(RVA = "0x3204080", Offset = "0x3202680", VA = "0x183204080")]
+	[Address(RVA = "0x6C00FD0", Offset = "0x6BFFFD0", VA = "0x6C00FD0")]
 	public MultiColumnHeaderColumnMovePreview()
 	{
 	}

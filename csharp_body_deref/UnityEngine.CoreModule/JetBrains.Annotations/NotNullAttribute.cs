@@ -14,8 +14,8 @@ namespace JetBrains.Annotations;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Parameter | AttributeTargets.Delegate | AttributeTargets.GenericParameter)]
 public sealed class NotNullAttribute : Attribute
 {
-	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60001A3")]
+	[Address(RVA = "0x68B8C10", Offset = "0x68B7C10", VA = "0x68B8C10")]
 	public NotNullAttribute()
 	{
 	}

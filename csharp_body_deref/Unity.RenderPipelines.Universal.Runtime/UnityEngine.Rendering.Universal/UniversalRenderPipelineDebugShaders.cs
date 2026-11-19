@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineDebugShaders
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ public class UniversalRenderPipelineDebugShaders : IRenderPipelineResources, IRe
 	public int version
 	{
 		[Token(Token = "0x60007FD")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x667B020", Offset = "0x667A020", VA = "0x667B020", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -51,7 +51,7 @@ public class UniversalRenderPipelineDebugShaders : IRenderPipelineResources, IRe
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x60007FE")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
+		[Address(RVA = "0x667B030", Offset = "0x667A030", VA = "0x667B030", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -62,13 +62,13 @@ public class UniversalRenderPipelineDebugShaders : IRenderPipelineResources, IRe
 	public Shader debugReplacementPS
 	{
 		[Token(Token = "0x60007FF")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x667B040", Offset = "0x667A040", VA = "0x667B040")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000800")]
-		[Address(RVA = "0x2C8DC10", Offset = "0x2C8C210", VA = "0x182C8DC10")]
+		[Address(RVA = "0x667B050", Offset = "0x667A050", VA = "0x667B050")]
 		set
 		{
 		}
@@ -78,13 +78,13 @@ public class UniversalRenderPipelineDebugShaders : IRenderPipelineResources, IRe
 	public Shader hdrDebugViewPS
 	{
 		[Token(Token = "0x6000801")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667B0B0", Offset = "0x667A0B0", VA = "0x667B0B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000802")]
-		[Address(RVA = "0x2C8DC80", Offset = "0x2C8C280", VA = "0x182C8DC80")]
+		[Address(RVA = "0x667B0C0", Offset = "0x667A0C0", VA = "0x667B0C0")]
 		set
 		{
 		}
@@ -94,20 +94,20 @@ public class UniversalRenderPipelineDebugShaders : IRenderPipelineResources, IRe
 	public ComputeShader probeVolumeSamplingDebugComputeShader
 	{
 		[Token(Token = "0x6000803")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667B120", Offset = "0x667A120", VA = "0x667B120")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000804")]
-		[Address(RVA = "0x2C8DCF0", Offset = "0x2C8C2F0", VA = "0x182C8DCF0")]
+		[Address(RVA = "0x667B130", Offset = "0x667A130", VA = "0x667B130")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000805")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667B190", Offset = "0x667A190", VA = "0x667B190")]
 	public UniversalRenderPipelineDebugShaders()
 	{
 	}

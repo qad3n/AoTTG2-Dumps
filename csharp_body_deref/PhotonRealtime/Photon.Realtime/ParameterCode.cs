@@ -234,7 +234,7 @@ public class ParameterCode
 	public const byte SessionID = 12;
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB520", Offset = "0x56BA520", VA = "0x56BB520")]
 	public ParameterCode()
 	{
 	}

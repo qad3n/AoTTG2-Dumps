@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ChannelMixer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,14 +62,14 @@ public sealed class ChannelMixer : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter blueOutBlueIn;
 
 	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x2C553F0", Offset = "0x2C539F0", VA = "0x182C553F0", Slot = "8")]
+	[Address(RVA = "0x6649E20", Offset = "0x6648E20", VA = "0x6649E20", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006AB")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+	[Address(RVA = "0x6649FC0", Offset = "0x6648FC0", VA = "0x6649FC0", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -77,7 +77,7 @@ public sealed class ChannelMixer : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006AC")]
-	[Address(RVA = "0x2C55590", Offset = "0x2C53B90", VA = "0x182C55590")]
+	[Address(RVA = "0x6649FD0", Offset = "0x6648FD0", VA = "0x6649FD0")]
 	public ChannelMixer()
 	{
 	}

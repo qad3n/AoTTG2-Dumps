@@ -56,13 +56,13 @@ public class JConstructor : JContainer
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B59")]
-		[Address(RVA = "0x1C8A550", Offset = "0x1C88B50", VA = "0x181C8A550", Slot = "4")]
+		[Address(RVA = "0x5600B00", Offset = "0x55FFB00", VA = "0x5600B00", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B5A")]
-		[Address(RVA = "0x1C8ABD0", Offset = "0x1C891D0", VA = "0x181C8ABD0", Slot = "5")]
+		[Address(RVA = "0x56012F0", Offset = "0x56002F0", VA = "0x56012F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -107,13 +107,13 @@ public class JConstructor : JContainer
 		private int _003Ci_003E5__2;
 
 		[Token(Token = "0x6000B5B")]
-		[Address(RVA = "0x1C8D220", Offset = "0x1C8B820", VA = "0x181C8D220", Slot = "4")]
+		[Address(RVA = "0x5601360", Offset = "0x5600360", VA = "0x5601360", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B5C")]
-		[Address(RVA = "0x1C8D640", Offset = "0x1C8BC40", VA = "0x181C8D640", Slot = "5")]
+		[Address(RVA = "0x5601800", Offset = "0x5600800", VA = "0x5601800", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -132,7 +132,7 @@ public class JConstructor : JContainer
 	protected override IList<JToken> ChildrenTokens
 	{
 		[Token(Token = "0x6000B45")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220", Slot = "75")]
+		[Address(RVA = "0x55FE120", Offset = "0x55FD120", VA = "0x55FE120", Slot = "75")]
 		get
 		{
 			return null;
@@ -143,13 +143,13 @@ public class JConstructor : JContainer
 	public string? Name
 	{
 		[Token(Token = "0x6000B48")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x55FF340", Offset = "0x55FE340", VA = "0x55FF340")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B49")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x55FF350", Offset = "0x55FE350", VA = "0x55FF350")]
 		set
 		{
 		}
@@ -159,7 +159,7 @@ public class JConstructor : JContainer
 	public override JTokenType Type
 	{
 		[Token(Token = "0x6000B4A")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "15")]
+		[Address(RVA = "0x55FF360", Offset = "0x55FE360", VA = "0x55FF360", Slot = "15")]
 		get
 		{
 			return default(JTokenType);
@@ -170,20 +170,20 @@ public class JConstructor : JContainer
 	public override JToken? this[object key]
 	{
 		[Token(Token = "0x6000B54")]
-		[Address(RVA = "0x1C71080", Offset = "0x1C6F680", VA = "0x181C71080", Slot = "17")]
+		[Address(RVA = "0x5600050", Offset = "0x55FF050", VA = "0x5600050", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B55")]
-		[Address(RVA = "0x1C711A0", Offset = "0x1C6F7A0", VA = "0x181C711A0", Slot = "18")]
+		[Address(RVA = "0x5600150", Offset = "0x55FF150", VA = "0x5600150", Slot = "18")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x1C70AA0", Offset = "0x1C6F0A0", VA = "0x181C70AA0", Slot = "12")]
+	[Address(RVA = "0x55FDEA0", Offset = "0x55FCEA0", VA = "0x55FDEA0", Slot = "12")]
 	[AsyncStateMachine(typeof(_003CWriteToAsync_003Ed__0))]
 	public override Task WriteToAsync(JsonWriter writer, CancellationToken cancellationToken, params JsonConverter[] converters)
 	{
@@ -191,14 +191,14 @@ public class JConstructor : JContainer
 	}
 
 	[Token(Token = "0x6000B43")]
-	[Address(RVA = "0x1C707C0", Offset = "0x1C6EDC0", VA = "0x181C707C0")]
+	[Address(RVA = "0x55FDFD0", Offset = "0x55FCFD0", VA = "0x55FDFD0")]
 	public new static Task<JConstructor> LoadAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B44")]
-	[Address(RVA = "0x1C70670", Offset = "0x1C6EC70", VA = "0x181C70670")]
+	[Address(RVA = "0x55FDFE0", Offset = "0x55FCFE0", VA = "0x55FDFE0")]
 	[AsyncStateMachine(typeof(_003CLoadAsync_003Ed__2))]
 	public new static Task<JConstructor> LoadAsync(JsonReader reader, JsonLoadSettings? settings, [Optional] CancellationToken cancellationToken)
 	{
@@ -206,90 +206,90 @@ public class JConstructor : JContainer
 	}
 
 	[Token(Token = "0x6000B46")]
-	[Address(RVA = "0x1C70610", Offset = "0x1C6EC10", VA = "0x181C70610", Slot = "80")]
+	[Address(RVA = "0x55FE130", Offset = "0x55FD130", VA = "0x55FE130", Slot = "80")]
 	internal override int IndexOfItem(JToken? item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B47")]
-	[Address(RVA = "0x1C70A00", Offset = "0x1C6F000", VA = "0x181C70A00", Slot = "92")]
+	[Address(RVA = "0x55FE190", Offset = "0x55FD190", VA = "0x55FE190", Slot = "92")]
 	internal override void MergeItem(object content, JsonMergeSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x1C70FD0", Offset = "0x1C6F5D0", VA = "0x181C70FD0")]
+	[Address(RVA = "0x55FF370", Offset = "0x55FE370", VA = "0x55FF370")]
 	public JConstructor()
 	{
 	}
 
 	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x1C70D00", Offset = "0x1C6F300", VA = "0x181C70D00")]
+	[Address(RVA = "0x55FF490", Offset = "0x55FE490", VA = "0x55FF490")]
 	public JConstructor(JConstructor other)
 	{
 	}
 
 	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x1C70F30", Offset = "0x1C6F530", VA = "0x181C70F30")]
+	[Address(RVA = "0x55FF8F0", Offset = "0x55FE8F0", VA = "0x55FF8F0")]
 	internal JConstructor(JConstructor other, JsonCloneSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x1C70CC0", Offset = "0x1C6F2C0", VA = "0x181C70CC0")]
+	[Address(RVA = "0x55FF9A0", Offset = "0x55FE9A0", VA = "0x55FF9A0")]
 	public JConstructor(string name, params object[] content)
 	{
 	}
 
 	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x1C70CC0", Offset = "0x1C6F2C0", VA = "0x181C70CC0")]
+	[Address(RVA = "0x55FF9D0", Offset = "0x55FE9D0", VA = "0x55FF9D0")]
 	public JConstructor(string name, object content)
 	{
 	}
 
 	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x1C70DB0", Offset = "0x1C6F3B0", VA = "0x181C70DB0")]
+	[Address(RVA = "0x55FFA00", Offset = "0x55FEA00", VA = "0x55FFA00")]
 	public JConstructor(string name)
 	{
 	}
 
 	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x1C70520", Offset = "0x1C6EB20", VA = "0x181C70520", Slot = "14")]
+	[Address(RVA = "0x55FFB60", Offset = "0x55FEB60", VA = "0x55FFB60", Slot = "14")]
 	internal override bool DeepEquals(JToken node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x1C70450", Offset = "0x1C6EA50", VA = "0x181C70450", Slot = "13")]
+	[Address(RVA = "0x55FFF10", Offset = "0x55FEF10", VA = "0x55FFF10", Slot = "13")]
 	internal override JToken CloneToken([Optional] JsonCloneSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x1C70BD0", Offset = "0x1C6F1D0", VA = "0x181C70BD0", Slot = "24")]
+	[Address(RVA = "0x55FFF60", Offset = "0x55FEF60", VA = "0x55FFF60", Slot = "24")]
 	public override void WriteTo(JsonWriter writer, params JsonConverter[] converters)
 	{
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x1C705C0", Offset = "0x1C6EBC0", VA = "0x181C705C0", Slot = "25")]
+	[Address(RVA = "0x5600260", Offset = "0x55FF260", VA = "0x5600260", Slot = "25")]
 	internal override int GetDeepHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x1C707D0", Offset = "0x1C6EDD0", VA = "0x181C707D0")]
+	[Address(RVA = "0x56005C0", Offset = "0x55FF5C0", VA = "0x56005C0")]
 	public new static JConstructor Load(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x1C707E0", Offset = "0x1C6EDE0", VA = "0x181C707E0")]
+	[Address(RVA = "0x56005D0", Offset = "0x55FF5D0", VA = "0x56005D0")]
 	public new static JConstructor Load(JsonReader reader, JsonLoadSettings? settings)
 	{
 		return null;

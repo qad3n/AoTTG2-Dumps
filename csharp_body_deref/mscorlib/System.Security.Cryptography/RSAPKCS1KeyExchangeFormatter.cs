@@ -10,87 +10,87 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200032C")]
+[Token(Token = "0x2000305")]
 [ComVisible(true)]
 public class RSAPKCS1KeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 {
-	[Token(Token = "0x4000D76")]
+	[Token(Token = "0x4000CD6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private RandomNumberGenerator RngValue;
 
-	[Token(Token = "0x4000D77")]
+	[Token(Token = "0x4000CD7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private RSA _rsaKey;
 
-	[Token(Token = "0x4000D78")]
+	[Token(Token = "0x4000CD8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private bool? _rsaOverridesEncrypt;
 
-	[Token(Token = "0x170002D8")]
+	[Token(Token = "0x170002D7")]
 	public override string Parameters
 	{
-		[Token(Token = "0x6001AA7")]
-		[Address(RVA = "0x19C5EB0", Offset = "0x19C44B0", VA = "0x1819C5EB0", Slot = "4")]
+		[Token(Token = "0x6001A84")]
+		[Address(RVA = "0x534D220", Offset = "0x534C220", VA = "0x534D220", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002D9")]
+	[Token(Token = "0x170002D8")]
 	public RandomNumberGenerator Rng
 	{
-		[Token(Token = "0x6001AA8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001A85")]
+		[Address(RVA = "0x534D250", Offset = "0x534C250", VA = "0x534D250")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001AA9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6001A86")]
+		[Address(RVA = "0x534D260", Offset = "0x534C260", VA = "0x534D260")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002DA")]
+	[Token(Token = "0x170002D9")]
 	private bool OverridesEncrypt
 	{
-		[Token(Token = "0x6001AAD")]
-		[Address(RVA = "0x19C5CB0", Offset = "0x19C42B0", VA = "0x1819C5CB0")]
+		[Token(Token = "0x6001A8A")]
+		[Address(RVA = "0x534D6C0", Offset = "0x534C6C0", VA = "0x534D6C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001AA5")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001A82")]
+	[Address(RVA = "0x534D210", Offset = "0x534C210", VA = "0x534D210")]
 	public RSAPKCS1KeyExchangeFormatter()
 	{
 	}
 
-	[Token(Token = "0x6001AA6")]
-	[Address(RVA = "0x19C5BA0", Offset = "0x19C41A0", VA = "0x1819C5BA0")]
+	[Token(Token = "0x6001A83")]
+	[Address(RVA = "0x534AB10", Offset = "0x5349B10", VA = "0x534AB10")]
 	public RSAPKCS1KeyExchangeFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001AAA")]
-	[Address(RVA = "0x19C5A90", Offset = "0x19C4090", VA = "0x1819C5A90", Slot = "5")]
+	[Token(Token = "0x6001A87")]
+	[Address(RVA = "0x534D270", Offset = "0x534C270", VA = "0x534D270", Slot = "5")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001AAB")]
-	[Address(RVA = "0x19C5760", Offset = "0x19C3D60", VA = "0x1819C5760", Slot = "6")]
+	[Token(Token = "0x6001A88")]
+	[Address(RVA = "0x534D350", Offset = "0x534C350", VA = "0x534D350", Slot = "6")]
 	public override byte[] CreateKeyExchange(byte[] rgbData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AAC")]
-	[Address(RVA = "0x19C4B60", Offset = "0x19C3160", VA = "0x1819C4B60", Slot = "7")]
+	[Token(Token = "0x6001A89")]
+	[Address(RVA = "0x534D8C0", Offset = "0x534C8C0", VA = "0x534D8C0", Slot = "7")]
 	public override byte[] CreateKeyExchange(byte[] rgbData, Type symAlgType)
 	{
 		return null;

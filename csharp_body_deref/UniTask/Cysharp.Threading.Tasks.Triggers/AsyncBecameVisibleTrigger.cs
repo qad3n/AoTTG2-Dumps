@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncBecameVisibleTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000AC6")]
-	[Address(RVA = "0x2929BD0", Offset = "0x29281D0", VA = "0x182929BD0")]
+	[Address(RVA = "0x62F8660", Offset = "0x62F7660", VA = "0x62F8660")]
 	private void OnBecameVisible()
 	{
 	}
 
 	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x2929940", Offset = "0x2927F40", VA = "0x182929940")]
+	[Address(RVA = "0x62F86D0", Offset = "0x62F76D0", VA = "0x62F86D0")]
 	public IAsyncOnBecameVisibleHandler GetOnBecameVisibleAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AC8")]
-	[Address(RVA = "0x29298C0", Offset = "0x2927EC0", VA = "0x1829298C0")]
+	[Address(RVA = "0x62F8740", Offset = "0x62F7740", VA = "0x62F8740")]
 	public IAsyncOnBecameVisibleHandler GetOnBecameVisibleAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AC9")]
-	[Address(RVA = "0x2929AC0", Offset = "0x29280C0", VA = "0x182929AC0")]
+	[Address(RVA = "0x62F87B0", Offset = "0x62F77B0", VA = "0x62F87B0")]
 	public UniTask OnBecameVisibleAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000ACA")]
-	[Address(RVA = "0x29299B0", Offset = "0x2927FB0", VA = "0x1829299B0")]
+	[Address(RVA = "0x62F88A0", Offset = "0x62F78A0", VA = "0x62F88A0")]
 	public UniTask OnBecameVisibleAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000ACB")]
-	[Address(RVA = "0x2929C40", Offset = "0x2928240", VA = "0x182929C40")]
+	[Address(RVA = "0x62F8990", Offset = "0x62F7990", VA = "0x62F8990")]
 	public AsyncBecameVisibleTrigger()
 	{
 	}

@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000064")]
+[Token(Token = "0x200009D")]
 internal class AbilitySettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x40001FE")]
+	[Token(Token = "0x4000333")]
 	[FieldOffset(Offset = "0x38")]
 	public ColorSetting BombColor;
 
-	[Token(Token = "0x40001FF")]
+	[Token(Token = "0x4000334")]
 	[FieldOffset(Offset = "0x40")]
 	public IntSetting BombRadius;
 
-	[Token(Token = "0x4000200")]
+	[Token(Token = "0x4000335")]
 	[FieldOffset(Offset = "0x48")]
 	public IntSetting BombRange;
 
-	[Token(Token = "0x4000201")]
+	[Token(Token = "0x4000336")]
 	[FieldOffset(Offset = "0x50")]
 	public IntSetting BombSpeed;
 
-	[Token(Token = "0x4000202")]
+	[Token(Token = "0x4000337")]
 	[FieldOffset(Offset = "0x58")]
 	public IntSetting BombCooldown;
 
-	[Token(Token = "0x4000203")]
+	[Token(Token = "0x4000338")]
 	[FieldOffset(Offset = "0x60")]
 	public BoolSetting CursorCooldown;
 
-	[Token(Token = "0x4000204")]
+	[Token(Token = "0x4000339")]
 	[FieldOffset(Offset = "0x68")]
 	public BoolSetting ShowBombColors;
 
-	[Token(Token = "0x4000205")]
+	[Token(Token = "0x400033A")]
 	[FieldOffset(Offset = "0x70")]
 	public BoolSetting UseOldEffect;
 
-	[Token(Token = "0x4000206")]
+	[Token(Token = "0x400033B")]
 	[FieldOffset(Offset = "0x78")]
 	public BoolSetting BombCollision;
 
-	[Token(Token = "0x17000086")]
+	[Token(Token = "0x170000A3")]
 	protected override string FileName
 	{
-		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x1DB9620", Offset = "0x1DB7C20", VA = "0x181DB9620", Slot = "15")]
+		[Token(Token = "0x600047A")]
+		[Address(RVA = "0x58D1150", Offset = "0x58D0150", VA = "0x58D1150", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x1DB93C0", Offset = "0x1DB79C0", VA = "0x181DB93C0")]
+	[Token(Token = "0x600047B")]
+	[Address(RVA = "0x58D1180", Offset = "0x58D0180", VA = "0x58D1180")]
 	public AbilitySettings()
 	{
 	}

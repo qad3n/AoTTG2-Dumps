@@ -14,7 +14,7 @@ namespace System.Diagnostics.CodeAnalysis;
 internal sealed class AllowNullAttribute : Attribute
 {
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5555B30", Offset = "0x5554B30", VA = "0x5555B30")]
 	public AllowNullAttribute()
 	{
 	}

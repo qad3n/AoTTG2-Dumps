@@ -10,20 +10,20 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200013E")]
+[Token(Token = "0x200013F")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct GradientColorKey
 {
-	[Token(Token = "0x4000522")]
+	[Token(Token = "0x4000527")]
 	[FieldOffset(Offset = "0x0")]
 	public Color color;
 
-	[Token(Token = "0x4000523")]
+	[Token(Token = "0x4000528")]
 	[FieldOffset(Offset = "0x10")]
 	public float time;
 
-	[Token(Token = "0x6000A40")]
-	[Address(RVA = "0x2F02B50", Offset = "0x2F01150", VA = "0x182F02B50")]
+	[Token(Token = "0x6000A51")]
+	[Address(RVA = "0x68FF3E0", Offset = "0x68FE3E0", VA = "0x68FF3E0")]
 	public GradientColorKey(Color col, float time)
 	{
 	}

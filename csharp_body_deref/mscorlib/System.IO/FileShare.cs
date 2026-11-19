@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000669")]
+[Token(Token = "0x2000642")]
 [Flags]
 public enum FileShare
 {
-	[Token(Token = "0x40019AB")]
+	[Token(Token = "0x400190E")]
 	None = 0,
-	[Token(Token = "0x40019AC")]
+	[Token(Token = "0x400190F")]
 	Read = 1,
-	[Token(Token = "0x40019AD")]
+	[Token(Token = "0x4001910")]
 	Write = 2,
-	[Token(Token = "0x40019AE")]
+	[Token(Token = "0x4001911")]
 	ReadWrite = Read | Write,
-	[Token(Token = "0x40019AF")]
+	[Token(Token = "0x4001912")]
 	Delete = 4,
-	[Token(Token = "0x40019B0")]
+	[Token(Token = "0x4001913")]
 	Inheritable = 0x10
 }

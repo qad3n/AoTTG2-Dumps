@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003CC")]
+[Token(Token = "0x20003A5")]
 internal class CADArgHolder
 {
-	[Token(Token = "0x4000F5E")]
+	[Token(Token = "0x4000EBE")]
 	[FieldOffset(Offset = "0x10")]
 	public int index;
 
-	[Token(Token = "0x6001E8B")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Token(Token = "0x6001E61")]
+	[Address(RVA = "0x538EB60", Offset = "0x538DB60", VA = "0x538EB60")]
 	public CADArgHolder(int i)
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x2000078")]
 public enum AottgCalloutVariant
 {
-	[Token(Token = "0x4000286")]
+	[Token(Token = "0x40002AA")]
 	Primary,
-	[Token(Token = "0x4000287")]
+	[Token(Token = "0x40002AB")]
 	Success,
-	[Token(Token = "0x4000288")]
+	[Token(Token = "0x40002AC")]
 	Warning,
-	[Token(Token = "0x4000289")]
+	[Token(Token = "0x40002AD")]
 	Error
 }

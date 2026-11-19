@@ -12,99 +12,99 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000C")]
 internal class SendMouseEvents
 {
-	[Token(Token = "0x200000C")]
+	[Token(Token = "0x200000D")]
 	private struct HitInfo
 	{
-		[Token(Token = "0x4000038")]
+		[Token(Token = "0x400003A")]
 		[FieldOffset(Offset = "0x0")]
 		public GameObject target;
 
-		[Token(Token = "0x4000039")]
+		[Token(Token = "0x400003B")]
 		[FieldOffset(Offset = "0x8")]
 		public Camera camera;
 
-		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x2FC36A0", Offset = "0x2FC1CA0", VA = "0x182FC36A0")]
+		[Token(Token = "0x600004D")]
+		[Address(RVA = "0x69C0A90", Offset = "0x69BFA90", VA = "0x69C0A90")]
 		public void SendMessage(string name)
 		{
 		}
 
-		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x2FC36D0", Offset = "0x2FC1CD0", VA = "0x182FC36D0")]
+		[Token(Token = "0x600004E")]
+		[Address(RVA = "0x69C0A10", Offset = "0x69BFA10", VA = "0x69C0A10")]
 		public static implicit operator bool(HitInfo exists)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x2FC3610", Offset = "0x2FC1C10", VA = "0x182FC3610")]
+		[Token(Token = "0x600004F")]
+		[Address(RVA = "0x69C0AB0", Offset = "0x69BFAB0", VA = "0x69C0AB0")]
 		public static bool Compare(HitInfo lhs, HitInfo rhs)
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool s_MouseUsed;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000032")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly HitInfo[] m_LastHit;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000033")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly HitInfo[] m_MouseDownHit;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000034")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly HitInfo[] m_CurrentHit;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x4000035")]
 	[FieldOffset(Offset = "0x20")]
 	private static Camera[] m_Cameras;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x4000036")]
 	[FieldOffset(Offset = "0x28")]
 	public static Func<KeyValuePair<int, Vector2>> s_GetMouseState;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000037")]
 	[FieldOffset(Offset = "0x30")]
 	private static Vector2 s_MousePosition;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x4000038")]
 	[FieldOffset(Offset = "0x38")]
 	private static bool s_MouseButtonPressedThisFrame;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x39")]
 	private static bool s_MouseButtonIsPressed;
 
-	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2FC6220", Offset = "0x2FC4820", VA = "0x182FC6220")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x69BF2C0", Offset = "0x69BE2C0", VA = "0x69BF2C0")]
 	private static void UpdateMouse()
 	{
 	}
 
-	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2FC61D0", Offset = "0x2FC47D0", VA = "0x182FC61D0")]
+	[Token(Token = "0x6000049")]
+	[Address(RVA = "0x69BF500", Offset = "0x69BE500", VA = "0x69BF500")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SetMouseMoved()
 	{
 	}
 
-	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2FC4C70", Offset = "0x2FC3270", VA = "0x182FC4C70")]
+	[Token(Token = "0x600004A")]
+	[Address(RVA = "0x69BF570", Offset = "0x69BE570", VA = "0x69BF570")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DoSendMouseEvents(int skipRTCameras)
 	{
 	}
 
-	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2FC58C0", Offset = "0x2FC3EC0", VA = "0x182FC58C0")]
+	[Token(Token = "0x600004B")]
+	[Address(RVA = "0x69C0180", Offset = "0x69BF180", VA = "0x69C0180")]
 	private static void SendEvents(int i, HitInfo hit)
 	{
 	}

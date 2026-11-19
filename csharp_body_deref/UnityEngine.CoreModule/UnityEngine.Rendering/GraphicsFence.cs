@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GraphicsFence
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,48 +18,48 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct GraphicsFence
 {
-	[Token(Token = "0x400097F")]
+	[Token(Token = "0x400097D")]
 	[FieldOffset(Offset = "0x0")]
 	internal IntPtr m_Ptr;
 
-	[Token(Token = "0x4000980")]
+	[Token(Token = "0x400097E")]
 	[FieldOffset(Offset = "0x8")]
 	internal int m_Version;
 
-	[Token(Token = "0x4000981")]
+	[Token(Token = "0x400097F")]
 	[FieldOffset(Offset = "0xC")]
 	internal GraphicsFenceType m_FenceType;
 
-	[Token(Token = "0x60012BB")]
-	[Address(RVA = "0x2F491D0", Offset = "0x2F477D0", VA = "0x182F491D0")]
+	[Token(Token = "0x60012CF")]
+	[Address(RVA = "0x693E140", Offset = "0x693D140", VA = "0x693E140")]
 	internal void InitPostAllocation()
 	{
 	}
 
-	[Token(Token = "0x60012BC")]
-	[Address(RVA = "0x2F49280", Offset = "0x2F47880", VA = "0x182F49280")]
+	[Token(Token = "0x60012D0")]
+	[Address(RVA = "0x693E220", Offset = "0x693D220", VA = "0x693E220")]
 	internal bool IsFencePending()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012BD")]
-	[Address(RVA = "0x2F492E0", Offset = "0x2F478E0", VA = "0x182F492E0")]
+	[Token(Token = "0x60012D1")]
+	[Address(RVA = "0x693E270", Offset = "0x693D270", VA = "0x693E270")]
 	internal void Validate()
 	{
 	}
 
-	[Token(Token = "0x60012BE")]
-	[Address(RVA = "0x2E962A0", Offset = "0x2E948A0", VA = "0x182E962A0")]
+	[Token(Token = "0x60012D2")]
+	[Address(RVA = "0x693E1E0", Offset = "0x693D1E0", VA = "0x693E1E0")]
 	private int GetPlatformNotSupportedVersion()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012BF")]
-	[Address(RVA = "0x2F49190", Offset = "0x2F47790", VA = "0x182F49190")]
-	[UnityEngine.Bindings.NativeThrows]
+	[Token(Token = "0x60012D3")]
+	[Address(RVA = "0x693E1F0", Offset = "0x693D1F0", VA = "0x693E1F0")]
 	[UnityEngine.Bindings.FreeFunction("GPUFenceInternals::GetVersionNumber")]
+	[UnityEngine.Bindings.NativeThrows]
 	private static extern int GetVersionNumber(IntPtr fencePtr);
 }

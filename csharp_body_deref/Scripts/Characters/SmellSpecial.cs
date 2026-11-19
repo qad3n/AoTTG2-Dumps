@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000682")]
+[Token(Token = "0x20006E1")]
 internal class SmellSpecial : BaseEmoteSpecial
 {
-	[Token(Token = "0x4001EB9")]
+	[Token(Token = "0x4002067")]
 	[FieldOffset(Offset = "0x48")]
 	protected float Range;
 
-	[Token(Token = "0x4001EBA")]
+	[Token(Token = "0x4002068")]
 	[FieldOffset(Offset = "0x4C")]
 	protected float Delay;
 
-	[Token(Token = "0x17000B2B")]
+	[Token(Token = "0x17000B75")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6004035")]
-		[Address(RVA = "0x2175ED0", Offset = "0x21744D0", VA = "0x182175ED0", Slot = "14")]
+		[Token(Token = "0x60042CD")]
+		[Address(RVA = "0x5B0DC50", Offset = "0x5B0CC50", VA = "0x5B0DC50", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B2C")]
+	[Token(Token = "0x17000B76")]
 	protected override bool GroundedOnly
 	{
-		[Token(Token = "0x6004036")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "17")]
+		[Token(Token = "0x60042CE")]
+		[Address(RVA = "0x5B0DC60", Offset = "0x5B0CC60", VA = "0x5B0DC60", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004037")]
-	[Address(RVA = "0x2175EA0", Offset = "0x21744A0", VA = "0x182175EA0")]
+	[Token(Token = "0x60042CF")]
+	[Address(RVA = "0x5B0DC70", Offset = "0x5B0CC70", VA = "0x5B0DC70")]
 	public SmellSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6004038")]
-	[Address(RVA = "0x2175AE0", Offset = "0x21740E0", VA = "0x182175AE0", Slot = "9")]
+	[Token(Token = "0x60042D0")]
+	[Address(RVA = "0x5B0DC90", Offset = "0x5B0CC90", VA = "0x5B0DC90", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004039")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Token(Token = "0x60042D1")]
+	[Address(RVA = "0x5B0E090", Offset = "0x5B0D090", VA = "0x5B0E090", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

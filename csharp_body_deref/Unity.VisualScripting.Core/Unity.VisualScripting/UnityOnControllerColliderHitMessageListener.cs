@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnControllerColliderHitMessageListener : MessageListener
 {
 	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x2DBDBD0", Offset = "0x2DBC1D0", VA = "0x182DBDBD0")]
+	[Address(RVA = "0x67A4990", Offset = "0x67A3990", VA = "0x67A4990")]
 	private void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 	}
 
 	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4A20", Offset = "0x67A3A20", VA = "0x67A4A20")]
 	public UnityOnControllerColliderHitMessageListener()
 	{
 	}

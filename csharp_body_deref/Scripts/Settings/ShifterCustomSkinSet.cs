@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200006D")]
+[Token(Token = "0x20000A4")]
 internal class ShifterCustomSkinSet : BaseSetSetting
 {
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x4000366")]
 	[FieldOffset(Offset = "0x48")]
 	public StringSetting Eren;
 
-	[Token(Token = "0x400023A")]
+	[Token(Token = "0x4000367")]
 	[FieldOffset(Offset = "0x50")]
 	public StringSetting Annie;
 
-	[Token(Token = "0x400023B")]
+	[Token(Token = "0x4000368")]
 	[FieldOffset(Offset = "0x58")]
 	public StringSetting Colossal;
 
-	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x1DCEF60", Offset = "0x1DCD560", VA = "0x181DCEF60")]
+	[Token(Token = "0x600048D")]
+	[Address(RVA = "0x58D21E0", Offset = "0x58D11E0", VA = "0x58D21E0")]
 	public ShifterCustomSkinSet()
 	{
 	}

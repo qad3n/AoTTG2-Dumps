@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 namespace System.ComponentModel;
 
 [Serializable]
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x20001A4")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
 public sealed class ToolboxItemFilterAttribute : Attribute
 {
-	[Token(Token = "0x400074C")]
+	[Token(Token = "0x400067D")]
 	[FieldOffset(Offset = "0x10")]
 	private string _typeId;
 
-	[Token(Token = "0x17000298")]
+	[Token(Token = "0x17000269")]
 	public string FilterString
 	{
-		[Token(Token = "0x6000CCB")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000B0B")]
+		[Address(RVA = "0x624A2D0", Offset = "0x62492D0", VA = "0x624A2D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,11 +31,11 @@ public sealed class ToolboxItemFilterAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x17000299")]
+	[Token(Token = "0x1700026A")]
 	public ToolboxItemFilterType FilterType
 	{
-		[Token(Token = "0x6000CCC")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x6000B0C")]
+		[Address(RVA = "0x624A2E0", Offset = "0x62492E0", VA = "0x624A2E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,52 +43,52 @@ public sealed class ToolboxItemFilterAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700029A")]
+	[Token(Token = "0x1700026B")]
 	public override object TypeId
 	{
-		[Token(Token = "0x6000CCD")]
-		[Address(RVA = "0x28C9F90", Offset = "0x28C8590", VA = "0x1828C9F90", Slot = "4")]
+		[Token(Token = "0x6000B0D")]
+		[Address(RVA = "0x624A2F0", Offset = "0x62492F0", VA = "0x624A2F0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x28C9F30", Offset = "0x28C8530", VA = "0x1828C9F30")]
+	[Token(Token = "0x6000B09")]
+	[Address(RVA = "0x624A210", Offset = "0x6249210", VA = "0x624A210")]
 	public ToolboxItemFilterAttribute(string filterString)
 	{
 	}
 
-	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x28C9EC0", Offset = "0x28C84C0", VA = "0x1828C9EC0")]
+	[Token(Token = "0x6000B0A")]
+	[Address(RVA = "0x624A270", Offset = "0x6249270", VA = "0x624A270")]
 	public ToolboxItemFilterAttribute(string filterString, ToolboxItemFilterType filterType)
 	{
 	}
 
-	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x28C9C60", Offset = "0x28C8260", VA = "0x1828C9C60", Slot = "0")]
+	[Token(Token = "0x6000B0E")]
+	[Address(RVA = "0x624A360", Offset = "0x6249360", VA = "0x624A360", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x24F5110", Offset = "0x24F3710", VA = "0x1824F5110", Slot = "2")]
+	[Token(Token = "0x6000B0F")]
+	[Address(RVA = "0x624A430", Offset = "0x6249430", VA = "0x624A430", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x28C9D60", Offset = "0x28C8360", VA = "0x1828C9D60", Slot = "5")]
+	[Token(Token = "0x6000B10")]
+	[Address(RVA = "0x624A460", Offset = "0x6249460", VA = "0x624A460", Slot = "5")]
 	public override bool Match(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x28C9DE0", Offset = "0x28C83E0", VA = "0x1828C9DE0", Slot = "3")]
+	[Token(Token = "0x6000B11")]
+	[Address(RVA = "0x624A4D0", Offset = "0x62494D0", VA = "0x624A4D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

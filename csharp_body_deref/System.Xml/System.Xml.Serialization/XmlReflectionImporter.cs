@@ -51,170 +51,170 @@ public class XmlReflectionImporter
 	private static readonly string errSimple2;
 
 	[Token(Token = "0x6000D66")]
-	[Address(RVA = "0x2765FE0", Offset = "0x27645E0", VA = "0x182765FE0")]
+	[Address(RVA = "0x6117AA0", Offset = "0x6116AA0", VA = "0x6117AA0")]
 	public XmlReflectionImporter(XmlAttributeOverrides attributeOverrides, string defaultNamespace)
 	{
 	}
 
 	[Token(Token = "0x6000D67")]
-	[Address(RVA = "0x2765350", Offset = "0x2763950", VA = "0x182765350")]
+	[Address(RVA = "0x6117C30", Offset = "0x6116C30", VA = "0x6117C30")]
 	public XmlTypeMapping ImportTypeMapping(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x2765370", Offset = "0x2763970", VA = "0x182765370")]
+	[Address(RVA = "0x6117DE0", Offset = "0x6116DE0", VA = "0x6117DE0")]
 	public XmlTypeMapping ImportTypeMapping(Type type, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D69")]
-	[Address(RVA = "0x2765390", Offset = "0x2763990", VA = "0x182765390")]
+	[Address(RVA = "0x6117C40", Offset = "0x6116C40", VA = "0x6117C40")]
 	public XmlTypeMapping ImportTypeMapping(Type type, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6A")]
-	[Address(RVA = "0x2764F20", Offset = "0x2763520", VA = "0x182764F20")]
+	[Address(RVA = "0x6117DF0", Offset = "0x6116DF0", VA = "0x6117DF0")]
 	private XmlTypeMapping ImportTypeMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6B")]
-	[Address(RVA = "0x275F9B0", Offset = "0x275DFB0", VA = "0x18275F9B0")]
+	[Address(RVA = "0x611AD60", Offset = "0x6119D60", VA = "0x611AD60")]
 	private XmlTypeMapping CreateTypeMapping(TypeData typeData, XmlRootAttribute root, string defaultXmlType, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x27612C0", Offset = "0x275F8C0", VA = "0x1827612C0")]
+	[Address(RVA = "0x611B250", Offset = "0x611A250", VA = "0x611B250")]
 	private XmlTypeMapping ImportClassMapping(Type type, XmlRootAttribute root, string defaultNamespace, bool isBaseType = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x2761350", Offset = "0x275F950", VA = "0x182761350")]
+	[Address(RVA = "0x6118200", Offset = "0x6117200", VA = "0x6118200")]
 	private XmlTypeMapping ImportClassMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace, bool isBaseType = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6E")]
-	[Address(RVA = "0x2765E30", Offset = "0x2764430", VA = "0x182765E30")]
+	[Address(RVA = "0x611CF70", Offset = "0x611BF70", VA = "0x611CF70")]
 	private void RegisterDerivedMap(XmlTypeMapping map, XmlTypeMapping derivedMap)
 	{
 	}
 
 	[Token(Token = "0x6000D6F")]
-	[Address(RVA = "0x2760C70", Offset = "0x275F270", VA = "0x182760C70")]
+	[Address(RVA = "0x611B2D0", Offset = "0x611A2D0", VA = "0x611B2D0")]
 	private string GetTypeNamespace(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D70")]
-	[Address(RVA = "0x2763C00", Offset = "0x2762200", VA = "0x182763C00")]
+	[Address(RVA = "0x611D1A0", Offset = "0x611C1A0", VA = "0x611D1A0")]
 	private XmlTypeMapping ImportListMapping(Type type, XmlRootAttribute root, string defaultNamespace, XmlAttributes atts, int nestingLevel)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D71")]
-	[Address(RVA = "0x2763C80", Offset = "0x2762280", VA = "0x182763C80")]
+	[Address(RVA = "0x6119530", Offset = "0x6118530", VA = "0x6119530")]
 	private XmlTypeMapping ImportListMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace, XmlAttributes atts, int nestingLevel)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D72")]
-	[Address(RVA = "0x2765550", Offset = "0x2763B50", VA = "0x182765550")]
+	[Address(RVA = "0x611A410", Offset = "0x6119410", VA = "0x611A410")]
 	private XmlTypeMapping ImportXmlNodeMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D73")]
-	[Address(RVA = "0x27649F0", Offset = "0x2762FF0", VA = "0x1827649F0")]
+	[Address(RVA = "0x611A5B0", Offset = "0x61195B0", VA = "0x611A5B0")]
 	private XmlTypeMapping ImportPrimitiveMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D74")]
-	[Address(RVA = "0x2763470", Offset = "0x2761A70", VA = "0x182763470")]
+	[Address(RVA = "0x611A660", Offset = "0x6119660", VA = "0x611A660")]
 	private XmlTypeMapping ImportEnumMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D75")]
-	[Address(RVA = "0x27657F0", Offset = "0x2763DF0", VA = "0x1827657F0")]
+	[Address(RVA = "0x611AC60", Offset = "0x6119C60", VA = "0x611AC60")]
 	private XmlTypeMapping ImportXmlSerializableMapping(TypeData typeData, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D76")]
-	[Address(RVA = "0x2763AF0", Offset = "0x27620F0", VA = "0x182763AF0")]
+	[Address(RVA = "0x611D090", Offset = "0x611C090", VA = "0x611D090")]
 	private void ImportIncludedTypes(Type type, string defaultNamespace)
 	{
 	}
 
 	[Token(Token = "0x6000D77")]
-	[Address(RVA = "0x2760010", Offset = "0x275E610", VA = "0x182760010")]
+	[Address(RVA = "0x611B3F0", Offset = "0x611A3F0", VA = "0x611B3F0")]
 	private List<XmlReflectionMember> GetReflectionMembers(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D78")]
-	[Address(RVA = "0x275EC50", Offset = "0x275D250", VA = "0x18275EC50")]
+	[Address(RVA = "0x611C4A0", Offset = "0x611B4A0", VA = "0x611C4A0")]
 	private XmlTypeMapMember CreateMapMember(Type declaringType, XmlReflectionMember rmember, string defaultNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D79")]
-	[Address(RVA = "0x27624D0", Offset = "0x2760AD0", VA = "0x1827624D0")]
+	[Address(RVA = "0x611D8D0", Offset = "0x611C8D0", VA = "0x611D8D0")]
 	private XmlTypeMapElementInfoList ImportElementInfo(Type cls, string defaultName, string defaultNamespace, Type defaultType, XmlTypeMapMemberElement member, XmlAttributes atts)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D7A")]
-	[Address(RVA = "0x2760DA0", Offset = "0x275F3A0", VA = "0x182760DA0")]
+	[Address(RVA = "0x611D290", Offset = "0x611C290", VA = "0x611D290")]
 	private XmlTypeMapElementInfoList ImportAnyElementInfo(string defaultNamespace, XmlReflectionMember rmember, XmlTypeMapMemberElement member, XmlAttributes atts)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D7B")]
-	[Address(RVA = "0x2764BA0", Offset = "0x27631A0", VA = "0x182764BA0")]
+	[Address(RVA = "0x611EAF0", Offset = "0x611DAF0", VA = "0x611EAF0")]
 	private void ImportTextElementInfo(XmlTypeMapElementInfoList list, Type defaultType, XmlTypeMapMemberElement member, XmlAttributes atts, string defaultNamespace)
 	{
 	}
 
 	[Token(Token = "0x6000D7C")]
-	[Address(RVA = "0x275EC10", Offset = "0x275D210", VA = "0x18275EC10")]
+	[Address(RVA = "0x611B1E0", Offset = "0x611A1E0", VA = "0x611B1E0")]
 	private bool CanBeNull(TypeData type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D7D")]
-	[Address(RVA = "0x2765A00", Offset = "0x2764000", VA = "0x182765A00")]
+	[Address(RVA = "0x611EE50", Offset = "0x611DE50", VA = "0x611EE50")]
 	public void IncludeType(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000D7E")]
-	[Address(RVA = "0x275FE50", Offset = "0x275E450", VA = "0x18275FE50")]
+	[Address(RVA = "0x611E920", Offset = "0x611D920", VA = "0x611E920")]
 	private object GetDefaultValue(TypeData typeData, object defaultValue)
 	{
 		return null;

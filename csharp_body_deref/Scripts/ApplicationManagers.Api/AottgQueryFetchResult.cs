@@ -10,70 +10,70 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x200095E")]
+[Token(Token = "0x20009C5")]
 public sealed class AottgQueryFetchResult<TValue>
 {
-	[Token(Token = "0x17000FBC")]
+	[Token(Token = "0x17000F9B")]
 	public bool Success
 	{
-		[Token(Token = "0x600572A")]
+		[Token(Token = "0x6005A83")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600572B")]
+		[Token(Token = "0x6005A84")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FBD")]
+	[Token(Token = "0x17000F9C")]
 	public TValue Value
 	{
-		[Token(Token = "0x600572C")]
+		[Token(Token = "0x6005A85")]
 		[CompilerGenerated]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x600572D")]
+		[Token(Token = "0x6005A86")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FBE")]
+	[Token(Token = "0x17000F9D")]
 	public string Error
 	{
-		[Token(Token = "0x600572E")]
+		[Token(Token = "0x6005A87")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600572F")]
+		[Token(Token = "0x6005A88")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6005730")]
+	[Token(Token = "0x6005A89")]
 	public static AottgQueryFetchResult<TValue> Ok(TValue value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005731")]
+	[Token(Token = "0x6005A8A")]
 	public static AottgQueryFetchResult<TValue> Fail(string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005732")]
+	[Token(Token = "0x6005A8B")]
 	public AottgQueryFetchResult()
 	{
 	}

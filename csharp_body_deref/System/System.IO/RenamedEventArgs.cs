@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200027A")]
+[Token(Token = "0x200023B")]
 public class RenamedEventArgs : FileSystemEventArgs
 {
-	[Token(Token = "0x40008C0")]
+	[Token(Token = "0x40007F1")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly string _oldName;
 
-	[Token(Token = "0x40008C1")]
+	[Token(Token = "0x40007F2")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly string _oldFullPath;
 
-	[Token(Token = "0x6001191")]
-	[Address(RVA = "0x28DAFF0", Offset = "0x28D95F0", VA = "0x1828DAFF0")]
+	[Token(Token = "0x6000FD1")]
+	[Address(RVA = "0x6286270", Offset = "0x6285270", VA = "0x6286270")]
 	public RenamedEventArgs(WatcherChangeTypes changeType, string directory, string name, string oldName)
 	{
 	}

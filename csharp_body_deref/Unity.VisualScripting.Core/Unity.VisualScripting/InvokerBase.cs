@@ -24,7 +24,7 @@ public abstract class InvokerBase : IOptimizedInvoker
 	protected readonly MethodInfo methodInfo;
 
 	[Token(Token = "0x6000DC5")]
-	[Address(RVA = "0x2E2E810", Offset = "0x2E2CE10", VA = "0x182E2E810")]
+	[Address(RVA = "0x682C180", Offset = "0x682B180", VA = "0x682C180")]
 	protected InvokerBase(MethodInfo methodInfo)
 	{
 	}
@@ -35,13 +35,13 @@ public abstract class InvokerBase : IOptimizedInvoker
 	}
 
 	[Token(Token = "0x6000DC7")]
-	[Address(RVA = "0x2E2E290", Offset = "0x2E2C890", VA = "0x182E2E290", Slot = "4")]
+	[Address(RVA = "0x682C2D0", Offset = "0x682B2D0", VA = "0x682C2D0", Slot = "4")]
 	public void Compile()
 	{
 	}
 
 	[Token(Token = "0x6000DC8")]
-	[Address(RVA = "0x2E2E3A0", Offset = "0x2E2C9A0", VA = "0x182E2E3A0")]
+	[Address(RVA = "0x682C410", Offset = "0x682B410", VA = "0x682C410")]
 	protected ParameterExpression[] GetParameterExpressions()
 	{
 		return null;
@@ -54,42 +54,42 @@ public abstract class InvokerBase : IOptimizedInvoker
 	public abstract object Invoke(object target, params object[] args);
 
 	[Token(Token = "0x6000DCB")]
-	[Address(RVA = "0x2E2E750", Offset = "0x2E2CD50", VA = "0x182E2E750", Slot = "14")]
+	[Address(RVA = "0x682C720", Offset = "0x682B720", VA = "0x682C720", Slot = "14")]
 	public virtual object Invoke(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DCC")]
-	[Address(RVA = "0x2E2E7D0", Offset = "0x2E2CDD0", VA = "0x182E2E7D0", Slot = "15")]
+	[Address(RVA = "0x682C760", Offset = "0x682B760", VA = "0x682C760", Slot = "15")]
 	public virtual object Invoke(object target, object arg0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DCD")]
-	[Address(RVA = "0x2E2E790", Offset = "0x2E2CD90", VA = "0x182E2E790", Slot = "16")]
+	[Address(RVA = "0x682C7A0", Offset = "0x682B7A0", VA = "0x682C7A0", Slot = "16")]
 	public virtual object Invoke(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DCE")]
-	[Address(RVA = "0x2E2E6D0", Offset = "0x2E2CCD0", VA = "0x182E2E6D0", Slot = "17")]
+	[Address(RVA = "0x682C7E0", Offset = "0x682B7E0", VA = "0x682C7E0", Slot = "17")]
 	public virtual object Invoke(object target, object arg0, object arg1, object arg2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DCF")]
-	[Address(RVA = "0x2E2E710", Offset = "0x2E2CD10", VA = "0x182E2E710", Slot = "18")]
+	[Address(RVA = "0x682C820", Offset = "0x682B820", VA = "0x682C820", Slot = "18")]
 	public virtual object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD0")]
-	[Address(RVA = "0x2E2E690", Offset = "0x2E2CC90", VA = "0x182E2E690", Slot = "19")]
+	[Address(RVA = "0x682C860", Offset = "0x682B860", VA = "0x682C860", Slot = "19")]
 	public virtual object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return null;

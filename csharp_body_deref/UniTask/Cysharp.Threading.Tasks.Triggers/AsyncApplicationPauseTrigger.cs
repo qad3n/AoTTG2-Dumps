@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncApplicationPauseTrigger : AsyncTriggerBase<bool>
 {
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x2928B20", Offset = "0x2927120", VA = "0x182928B20")]
+	[Address(RVA = "0x62F7880", Offset = "0x62F6880", VA = "0x62F7880")]
 	private void OnApplicationPause(bool pauseStatus)
 	{
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x2928890", Offset = "0x2926E90", VA = "0x182928890")]
+	[Address(RVA = "0x62F78C0", Offset = "0x62F68C0", VA = "0x62F78C0")]
 	public IAsyncOnApplicationPauseHandler GetOnApplicationPauseAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x2928810", Offset = "0x2926E10", VA = "0x182928810")]
+	[Address(RVA = "0x62F7930", Offset = "0x62F6930", VA = "0x62F7930")]
 	public IAsyncOnApplicationPauseHandler GetOnApplicationPauseAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x2928A10", Offset = "0x2927010", VA = "0x182928A10")]
+	[Address(RVA = "0x62F79A0", Offset = "0x62F69A0", VA = "0x62F79A0")]
 	public UniTask<bool> OnApplicationPauseAsync()
 	{
 		return default(UniTask<bool>);
 	}
 
 	[Token(Token = "0x6000AAE")]
-	[Address(RVA = "0x2928900", Offset = "0x2926F00", VA = "0x182928900")]
+	[Address(RVA = "0x62F7A90", Offset = "0x62F6A90", VA = "0x62F7A90")]
 	public UniTask<bool> OnApplicationPauseAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<bool>);
 	}
 
 	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0x2928B70", Offset = "0x2927170", VA = "0x182928B70")]
+	[Address(RVA = "0x62F7B80", Offset = "0x62F6B80", VA = "0x62F7B80")]
 	public AsyncApplicationPauseTrigger()
 	{
 	}

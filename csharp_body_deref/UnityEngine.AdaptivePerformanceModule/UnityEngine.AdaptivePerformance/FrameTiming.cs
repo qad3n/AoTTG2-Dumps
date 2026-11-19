@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.FrameTiming
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,111 +10,111 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x2000021")]
 public struct FrameTiming
 {
-	[Token(Token = "0x17000068")]
+	[Token(Token = "0x17000049")]
 	public float CurrentFrameTime
 	{
-		[Token(Token = "0x6000147")]
-		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
+		[Token(Token = "0x60000DF")]
+		[Address(RVA = "0x68863D0", Offset = "0x68853D0", VA = "0x68863D0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
+		[Token(Token = "0x60000E0")]
+		[Address(RVA = "0x68863E0", Offset = "0x68853E0", VA = "0x68863E0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000069")]
+	[Token(Token = "0x1700004A")]
 	public float AverageFrameTime
 	{
-		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x562BB0", Offset = "0x5611B0", VA = "0x180562BB0")]
+		[Token(Token = "0x60000E1")]
+		[Address(RVA = "0x68863F0", Offset = "0x68853F0", VA = "0x68863F0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Token(Token = "0x60000E2")]
+		[Address(RVA = "0x6886400", Offset = "0x6885400", VA = "0x6886400")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006A")]
+	[Token(Token = "0x1700004B")]
 	public float CurrentGpuFrameTime
 	{
-		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Token(Token = "0x60000E3")]
+		[Address(RVA = "0x6886410", Offset = "0x6885410", VA = "0x6886410")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Token(Token = "0x60000E4")]
+		[Address(RVA = "0x6886420", Offset = "0x6885420", VA = "0x6886420")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006B")]
+	[Token(Token = "0x1700004C")]
 	public float AverageGpuFrameTime
 	{
-		[Token(Token = "0x600014D")]
-		[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
+		[Token(Token = "0x60000E5")]
+		[Address(RVA = "0x6886430", Offset = "0x6885430", VA = "0x6886430")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
+		[Token(Token = "0x60000E6")]
+		[Address(RVA = "0x6886440", Offset = "0x6885440", VA = "0x6886440")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006C")]
+	[Token(Token = "0x1700004D")]
 	public float CurrentCpuFrameTime
 	{
-		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Token(Token = "0x60000E7")]
+		[Address(RVA = "0x6886450", Offset = "0x6885450", VA = "0x6886450")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Token(Token = "0x60000E8")]
+		[Address(RVA = "0x6886460", Offset = "0x6885460", VA = "0x6886460")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006D")]
+	[Token(Token = "0x1700004E")]
 	public float AverageCpuFrameTime
 	{
-		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
+		[Token(Token = "0x60000E9")]
+		[Address(RVA = "0x6886470", Offset = "0x6885470", VA = "0x6886470")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
+		[Token(Token = "0x60000EA")]
+		[Address(RVA = "0x6886480", Offset = "0x6885480", VA = "0x6886480")]
 		[CompilerGenerated]
 		set
 		{

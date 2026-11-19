@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.OnDemandRendering
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,53 +16,53 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class OnDemandRendering
 {
-	[Token(Token = "0x400099D")]
+	[Token(Token = "0x400099B")]
 	[FieldOffset(Offset = "0x0")]
 	private static int m_RenderFrameInterval;
 
-	[Token(Token = "0x1700030D")]
+	[Token(Token = "0x17000312")]
 	public static bool willCurrentFrameRender
 	{
-		[Token(Token = "0x60012DF")]
-		[Address(RVA = "0x2F4BAB0", Offset = "0x2F4A0B0", VA = "0x182F4BAB0")]
+		[Token(Token = "0x60012F3")]
+		[Address(RVA = "0x693F800", Offset = "0x693E800", VA = "0x693F800")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700030E")]
+	[Token(Token = "0x17000313")]
 	public static int renderFrameInterval
 	{
-		[Token(Token = "0x60012E0")]
-		[Address(RVA = "0x2F4BA60", Offset = "0x2F4A060", VA = "0x182F4BA60")]
+		[Token(Token = "0x60012F4")]
+		[Address(RVA = "0x693F8C0", Offset = "0x693E8C0", VA = "0x693F8C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700030F")]
+	[Token(Token = "0x17000314")]
 	public static int effectiveRenderFrameRate
 	{
-		[Token(Token = "0x60012E3")]
-		[Address(RVA = "0x2F4B9E0", Offset = "0x2F49FE0", VA = "0x182F4B9E0")]
+		[Token(Token = "0x60012F7")]
+		[Address(RVA = "0x693FA10", Offset = "0x693EA10", VA = "0x693FA10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60012E1")]
-	[Address(RVA = "0x2F4B910", Offset = "0x2F49F10", VA = "0x182F4B910")]
+	[Token(Token = "0x60012F5")]
+	[Address(RVA = "0x693F930", Offset = "0x693E930", VA = "0x693F930")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void GetRenderFrameInterval(out int frameInterval)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012E2")]
-	[Address(RVA = "0x2F4B8E0", Offset = "0x2F49EE0", VA = "0x182F4B8E0")]
+	[Token(Token = "0x60012F6")]
+	[Address(RVA = "0x693F9E0", Offset = "0x693E9E0", VA = "0x693F9E0")]
 	[UnityEngine.Bindings.FreeFunction]
 	internal static extern float GetEffectiveRenderFrameRate();
 }

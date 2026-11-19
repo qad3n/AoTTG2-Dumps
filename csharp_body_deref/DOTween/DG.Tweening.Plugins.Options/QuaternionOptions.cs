@@ -34,7 +34,7 @@ public struct QuaternionOptions : IPlugOptions
 	public Vector3 dynamicLookAtWorldPosition;
 
 	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x56E9A0", Offset = "0x56CFA0", VA = "0x18056E9A0", Slot = "4")]
+	[Address(RVA = "0x318FE00", Offset = "0x318EE00", VA = "0x318FE00", Slot = "4")]
 	public void Reset()
 	{
 	}

@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FD")]
+[Token(Token = "0x20003B9")]
 public sealed class WebUtilityElement : ConfigurationElement
 {
-	[Token(Token = "0x170005F1")]
+	[Token(Token = "0x170005C3")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001AD5")]
-		[Address(RVA = "0x282CFD0", Offset = "0x282B5D0", VA = "0x18282CFD0", Slot = "4")]
+		[Token(Token = "0x600191B")]
+		[Address(RVA = "0x61D1E80", Offset = "0x61D0E80", VA = "0x61D1E80", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005F2")]
+	[Token(Token = "0x170005C4")]
 	public UnicodeDecodingConformance UnicodeDecodingConformance
 	{
-		[Token(Token = "0x6001AD6")]
-		[Address(RVA = "0x282D000", Offset = "0x282B600", VA = "0x18282D000")]
+		[Token(Token = "0x600191C")]
+		[Address(RVA = "0x61D1EB0", Offset = "0x61D0EB0", VA = "0x61D1EB0")]
 		get
 		{
 			return default(UnicodeDecodingConformance);
 		}
-		[Token(Token = "0x6001AD7")]
-		[Address(RVA = "0x282D060", Offset = "0x282B660", VA = "0x18282D060")]
+		[Token(Token = "0x600191D")]
+		[Address(RVA = "0x61D1EE0", Offset = "0x61D0EE0", VA = "0x61D1EE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005F3")]
+	[Token(Token = "0x170005C5")]
 	public UnicodeEncodingConformance UnicodeEncodingConformance
 	{
-		[Token(Token = "0x6001AD8")]
-		[Address(RVA = "0x282D030", Offset = "0x282B630", VA = "0x18282D030")]
+		[Token(Token = "0x600191E")]
+		[Address(RVA = "0x61D1F10", Offset = "0x61D0F10", VA = "0x61D1F10")]
 		get
 		{
 			return default(UnicodeEncodingConformance);
 		}
-		[Token(Token = "0x6001AD9")]
-		[Address(RVA = "0x282D090", Offset = "0x282B690", VA = "0x18282D090")]
+		[Token(Token = "0x600191F")]
+		[Address(RVA = "0x61D1F40", Offset = "0x61D0F40", VA = "0x61D1F40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001AD4")]
-	[Address(RVA = "0x282CFA0", Offset = "0x282B5A0", VA = "0x18282CFA0")]
+	[Token(Token = "0x600191A")]
+	[Address(RVA = "0x61D1E50", Offset = "0x61D0E50", VA = "0x61D1E50")]
 	public WebUtilityElement()
 	{
 	}

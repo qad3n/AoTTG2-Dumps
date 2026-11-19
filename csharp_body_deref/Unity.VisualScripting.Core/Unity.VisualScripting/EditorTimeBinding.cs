@@ -25,7 +25,7 @@ public static class EditorTimeBinding
 	public static int frame
 	{
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x2DA2B60", Offset = "0x2DA1160", VA = "0x182DA2B60")]
+		[Address(RVA = "0x67928C0", Offset = "0x67918C0", VA = "0x67928C0")]
 		get
 		{
 			return default(int);
@@ -36,7 +36,7 @@ public static class EditorTimeBinding
 	public static float time
 	{
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x2DA2C30", Offset = "0x2DA1230", VA = "0x182DA2C30")]
+		[Address(RVA = "0x67929A0", Offset = "0x67919A0", VA = "0x67929A0")]
 		get
 		{
 			return default(float);
@@ -44,7 +44,7 @@ public static class EditorTimeBinding
 	}
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x2DA2A10", Offset = "0x2DA1010", VA = "0x182DA2A10")]
+	[Address(RVA = "0x6792A90", Offset = "0x6791A90", VA = "0x6792A90")]
 	static EditorTimeBinding()
 	{
 	}

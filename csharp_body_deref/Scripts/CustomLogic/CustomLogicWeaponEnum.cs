@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicWeaponEnum
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicWeaponEnum.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,190 +11,190 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200053D")]
+[Token(Token = "0x200059C")]
 [CompilerGenerated]
 internal class CustomLogicWeaponEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x200053E")]
+	[Token(Token = "0x200059D")]
 	public static class Factory
 	{
-		[Token(Token = "0x60030C8")]
-		[Address(RVA = "0x2017350", Offset = "0x2015950", VA = "0x182017350")]
+		[Token(Token = "0x6003354")]
+		[Address(RVA = "0x59C3700", Offset = "0x59C2700", VA = "0x59C3700")]
 		public static CustomLogicWeaponEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200053F")]
+	[Token(Token = "0x200059E")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016F7")]
+		[Token(Token = "0x4001897")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60030C9")]
-		[Address(RVA = "0x1FF15A0", Offset = "0x1FEFBA0", VA = "0x181FF15A0")]
+		[Token(Token = "0x6003355")]
+		[Address(RVA = "0x59C3820", Offset = "0x59C2820", VA = "0x59C3820")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CA")]
-		[Address(RVA = "0x2002D30", Offset = "0x2001330", VA = "0x182002D30")]
+		[Token(Token = "0x6003356")]
+		[Address(RVA = "0x59C3A90", Offset = "0x59C2A90", VA = "0x59C3A90")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__Blade()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CB")]
-		[Address(RVA = "0x20005D0", Offset = "0x1FFEBD0", VA = "0x1820005D0")]
+		[Token(Token = "0x6003357")]
+		[Address(RVA = "0x59C3B30", Offset = "0x59C2B30", VA = "0x59C3B30")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__AHSS()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CC")]
-		[Address(RVA = "0x2000670", Offset = "0x1FFEC70", VA = "0x182000670")]
+		[Token(Token = "0x6003358")]
+		[Address(RVA = "0x59C3BD0", Offset = "0x59C2BD0", VA = "0x59C3BD0")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__APG()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CD")]
-		[Address(RVA = "0x2007F60", Offset = "0x2006560", VA = "0x182007F60")]
+		[Token(Token = "0x6003359")]
+		[Address(RVA = "0x59C3C70", Offset = "0x59C2C70", VA = "0x59C3C70")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__Thunderspear()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CE")]
-		[Address(RVA = "0x20085A0", Offset = "0x2006BA0", VA = "0x1820085A0")]
+		[Token(Token = "0x600335A")]
+		[Address(RVA = "0x59C3D10", Offset = "0x59C2D10", VA = "0x59C3D10")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__Unarmed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60030CF")]
-		[Address(RVA = "0x2003230", Offset = "0x2001830", VA = "0x182003230")]
+		[Token(Token = "0x600335B")]
+		[Address(RVA = "0x59C3DB0", Offset = "0x59C2DB0", VA = "0x59C3DB0")]
 		public static CLPropertyBinding<CustomLogicWeaponEnum> __CreatePropertyBinding__Civilian()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700090D")]
+	[Token(Token = "0x17000955")]
 	public static string Blade
 	{
-		[Token(Token = "0x60030BE")]
-		[Address(RVA = "0x2016610", Offset = "0x2014C10", VA = "0x182016610")]
+		[Token(Token = "0x600334A")]
+		[Address(RVA = "0x59C3400", Offset = "0x59C2400", VA = "0x59C3400")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700090E")]
+	[Token(Token = "0x17000956")]
 	public static string AHSS
 	{
-		[Token(Token = "0x60030BF")]
-		[Address(RVA = "0x2016570", Offset = "0x2014B70", VA = "0x182016570")]
+		[Token(Token = "0x600334B")]
+		[Address(RVA = "0x59C3470", Offset = "0x59C2470", VA = "0x59C3470")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700090F")]
+	[Token(Token = "0x17000957")]
 	public static string APG
 	{
-		[Token(Token = "0x60030C0")]
-		[Address(RVA = "0x20165C0", Offset = "0x2014BC0", VA = "0x1820165C0")]
+		[Token(Token = "0x600334C")]
+		[Address(RVA = "0x59C34E0", Offset = "0x59C24E0", VA = "0x59C34E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000910")]
+	[Token(Token = "0x17000958")]
 	public static string Thunderspear
 	{
-		[Token(Token = "0x60030C1")]
-		[Address(RVA = "0x20166E0", Offset = "0x2014CE0", VA = "0x1820166E0")]
+		[Token(Token = "0x600334D")]
+		[Address(RVA = "0x59C3550", Offset = "0x59C2550", VA = "0x59C3550")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000911")]
+	[Token(Token = "0x17000959")]
 	public static string Unarmed
 	{
-		[Token(Token = "0x60030C2")]
-		[Address(RVA = "0x2016730", Offset = "0x2014D30", VA = "0x182016730")]
+		[Token(Token = "0x600334E")]
+		[Address(RVA = "0x59C35C0", Offset = "0x59C25C0", VA = "0x59C35C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000912")]
+	[Token(Token = "0x1700095A")]
 	public static string Civilian
 	{
-		[Token(Token = "0x60030C3")]
-		[Address(RVA = "0x2016660", Offset = "0x2014C60", VA = "0x182016660")]
+		[Token(Token = "0x600334F")]
+		[Address(RVA = "0x59C3630", Offset = "0x59C2630", VA = "0x59C3630")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000913")]
+	[Token(Token = "0x1700095B")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60030C4")]
-		[Address(RVA = "0x20166B0", Offset = "0x2014CB0", VA = "0x1820166B0", Slot = "6")]
+		[Token(Token = "0x6003350")]
+		[Address(RVA = "0x59C36A0", Offset = "0x59C26A0", VA = "0x59C36A0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000914")]
+	[Token(Token = "0x1700095C")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60030C5")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003351")]
+		[Address(RVA = "0x59C36D0", Offset = "0x59C26D0", VA = "0x59C36D0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000915")]
+	[Token(Token = "0x1700095D")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60030C6")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003352")]
+		[Address(RVA = "0x59C36E0", Offset = "0x59C26E0", VA = "0x59C36E0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000916")]
+	[Token(Token = "0x1700095E")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60030C7")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003353")]
+		[Address(RVA = "0x59C36F0", Offset = "0x59C26F0", VA = "0x59C36F0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60030BD")]
-	[Address(RVA = "0x2016520", Offset = "0x2014B20", VA = "0x182016520")]
+	[Token(Token = "0x6003349")]
+	[Address(RVA = "0x59C3390", Offset = "0x59C2390", VA = "0x59C3390")]
 	public CustomLogicWeaponEnum()
 	{
 	}

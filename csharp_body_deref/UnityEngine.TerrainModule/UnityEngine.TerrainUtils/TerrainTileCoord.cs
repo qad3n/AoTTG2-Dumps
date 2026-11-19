@@ -21,7 +21,7 @@ public readonly struct TerrainTileCoord
 	public readonly int tileZ;
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x69F4C70", Offset = "0x69F3C70", VA = "0x69F4C70")]
 	public TerrainTileCoord(int tileX, int tileZ)
 	{
 	}

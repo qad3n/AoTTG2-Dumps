@@ -10,142 +10,142 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000666")]
+[Token(Token = "0x20006C5")]
 internal class HumanStats
 {
-	[Token(Token = "0x4001E29")]
+	[Token(Token = "0x4001FD7")]
 	[FieldOffset(Offset = "0x10")]
 	public int Speed;
 
-	[Token(Token = "0x4001E2A")]
+	[Token(Token = "0x4001FD8")]
 	[FieldOffset(Offset = "0x14")]
 	public int Gas;
 
-	[Token(Token = "0x4001E2B")]
+	[Token(Token = "0x4001FD9")]
 	[FieldOffset(Offset = "0x18")]
 	public int Ammunition;
 
-	[Token(Token = "0x4001E2C")]
+	[Token(Token = "0x4001FDA")]
 	[FieldOffset(Offset = "0x1C")]
 	public int Acceleration;
 
-	[Token(Token = "0x4001E2D")]
+	[Token(Token = "0x4001FDB")]
 	[FieldOffset(Offset = "0x20")]
 	public Dictionary<string, BasePerk> Perks;
 
-	[Token(Token = "0x4001E2E")]
+	[Token(Token = "0x4001FDC")]
 	[FieldOffset(Offset = "0x0")]
 	public static int MaxPerkPoints;
 
-	[Token(Token = "0x4001E2F")]
+	[Token(Token = "0x4001FDD")]
 	[FieldOffset(Offset = "0x28")]
 	public float CurrentGas;
 
-	[Token(Token = "0x4001E30")]
+	[Token(Token = "0x4001FDE")]
 	[FieldOffset(Offset = "0x2C")]
 	public float MaxGas;
 
-	[Token(Token = "0x4001E31")]
+	[Token(Token = "0x4001FDF")]
 	[FieldOffset(Offset = "0x30")]
 	public float GasUsage;
 
-	[Token(Token = "0x4001E32")]
+	[Token(Token = "0x4001FE0")]
 	[FieldOffset(Offset = "0x34")]
 	public float HorseSpeed;
 
-	[Token(Token = "0x4001E33")]
+	[Token(Token = "0x4001FE1")]
 	[FieldOffset(Offset = "0x38")]
 	public float RunSpeed;
 
-	[Token(Token = "0x4001E34")]
+	[Token(Token = "0x4001FE2")]
 	[FieldOffset(Offset = "0x40")]
 	protected Human _human;
 
-	[Token(Token = "0x4001E35")]
+	[Token(Token = "0x4001FE3")]
 	[FieldOffset(Offset = "0x48")]
 	public VerticalDashPerk VerticalDashPerk;
 
-	[Token(Token = "0x4001E36")]
+	[Token(Token = "0x4001FE4")]
 	[FieldOffset(Offset = "0x50")]
 	public OmniDashPerk OmniDashPerk;
 
-	[Token(Token = "0x6003F60")]
-	[Address(RVA = "0x2160350", Offset = "0x215E950", VA = "0x182160350")]
+	[Token(Token = "0x60041F8")]
+	[Address(RVA = "0x5AF9090", Offset = "0x5AF8090", VA = "0x5AF9090")]
 	public HumanStats(Human human)
 	{
 	}
 
-	[Token(Token = "0x6003F61")]
-	[Address(RVA = "0x215F790", Offset = "0x215DD90", VA = "0x18215F790")]
+	[Token(Token = "0x60041F9")]
+	[Address(RVA = "0x5AF98A0", Offset = "0x5AF88A0", VA = "0x5AF98A0")]
 	public void DisablePerks()
 	{
 	}
 
-	[Token(Token = "0x6003F62")]
-	[Address(RVA = "0x215F8D0", Offset = "0x215DED0", VA = "0x18215F8D0")]
+	[Token(Token = "0x60041FA")]
+	[Address(RVA = "0x5AF9A10", Offset = "0x5AF8A10", VA = "0x5AF9A10")]
 	public int GetPerkPoints()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003F63")]
-	[Address(RVA = "0x215FE90", Offset = "0x215E490", VA = "0x18215FE90")]
+	[Token(Token = "0x60041FB")]
+	[Address(RVA = "0x5AF97D0", Offset = "0x5AF87D0", VA = "0x5AF97D0")]
 	public void UpdateStats()
 	{
 	}
 
-	[Token(Token = "0x6003F64")]
-	[Address(RVA = "0x215FA50", Offset = "0x215E050", VA = "0x18215FA50")]
+	[Token(Token = "0x60041FC")]
+	[Address(RVA = "0x5AF97B0", Offset = "0x5AF87B0", VA = "0x5AF97B0")]
 	public void ResetGas()
 	{
 	}
 
-	[Token(Token = "0x6003F65")]
-	[Address(RVA = "0x215FF60", Offset = "0x215E560", VA = "0x18215FF60")]
+	[Token(Token = "0x60041FD")]
+	[Address(RVA = "0x5AF9BC0", Offset = "0x5AF8BC0", VA = "0x5AF9BC0")]
 	public void UseDashGas()
 	{
 	}
 
-	[Token(Token = "0x6003F66")]
-	[Address(RVA = "0x215FF80", Offset = "0x215E580", VA = "0x18215FF80")]
+	[Token(Token = "0x60041FE")]
+	[Address(RVA = "0x5AF9C00", Offset = "0x5AF8C00", VA = "0x5AF9C00")]
 	public void UseFrameGas()
 	{
 	}
 
-	[Token(Token = "0x6003F67")]
-	[Address(RVA = "0x215FFE0", Offset = "0x215E5E0", VA = "0x18215FFE0")]
+	[Token(Token = "0x60041FF")]
+	[Address(RVA = "0x5AEFBD0", Offset = "0x5AEEBD0", VA = "0x5AEFBD0")]
 	public void UseHookGas()
 	{
 	}
 
-	[Token(Token = "0x6003F68")]
-	[Address(RVA = "0x2160000", Offset = "0x215E600", VA = "0x182160000")]
+	[Token(Token = "0x6004200")]
+	[Address(RVA = "0x5AF9C40", Offset = "0x5AF8C40", VA = "0x5AF9C40")]
 	public void UseTSGas()
 	{
 	}
 
-	[Token(Token = "0x6003F69")]
-	[Address(RVA = "0x215FFC0", Offset = "0x215E5C0", VA = "0x18215FFC0")]
+	[Token(Token = "0x6004201")]
+	[Address(RVA = "0x5AF9BE0", Offset = "0x5AF8BE0", VA = "0x5AF9BE0")]
 	private void UseGas(float amount)
 	{
 	}
 
-	[Token(Token = "0x6003F6A")]
-	[Address(RVA = "0x215F2C0", Offset = "0x215D8C0", VA = "0x18215F2C0")]
+	[Token(Token = "0x6004202")]
+	[Address(RVA = "0x5AF9D50", Offset = "0x5AF8D50", VA = "0x5AF9D50")]
 	public static HumanStats Deserialize(HumanStats stats, string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003F6B")]
-	[Address(RVA = "0x215FA70", Offset = "0x215E070", VA = "0x18215FA70")]
+	[Token(Token = "0x6004203")]
+	[Address(RVA = "0x5AFA4E0", Offset = "0x5AF94E0", VA = "0x5AFA4E0")]
 	public string Serialize()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003F6C")]
-	[Address(RVA = "0x21600F0", Offset = "0x215E6F0", VA = "0x1821600F0")]
+	[Token(Token = "0x6004204")]
+	[Address(RVA = "0x5AFA2D0", Offset = "0x5AF92D0", VA = "0x5AFA2D0")]
 	public bool Validate()
 	{
 		return default(bool);

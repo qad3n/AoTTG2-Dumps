@@ -11,70 +11,70 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000162")]
+[Token(Token = "0x2000163")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct PropertyName : IEquatable<PropertyName>
 {
-	[Token(Token = "0x40005AC")]
+	[Token(Token = "0x40005B1")]
 	[FieldOffset(Offset = "0x0")]
 	internal int id;
 
-	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x2F24C80", Offset = "0x2F23280", VA = "0x182F24C80")]
+	[Token(Token = "0x6000C55")]
+	[Address(RVA = "0x690E020", Offset = "0x690D020", VA = "0x690E020")]
 	public PropertyName(string name)
 	{
 	}
 
-	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+	[Token(Token = "0x6000C56")]
+	[Address(RVA = "0x690E030", Offset = "0x690D030", VA = "0x690E030")]
 	public PropertyName(PropertyName other)
 	{
 	}
 
-	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x2F24C10", Offset = "0x2F23210", VA = "0x182F24C10")]
+	[Token(Token = "0x6000C57")]
+	[Address(RVA = "0x690E040", Offset = "0x690D040", VA = "0x690E040")]
 	public static bool IsNullOrEmpty(PropertyName prop)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x2F24CA0", Offset = "0x2F232A0", VA = "0x182F24CA0")]
+	[Token(Token = "0x6000C58")]
+	[Address(RVA = "0x690E050", Offset = "0x690D050", VA = "0x690E050")]
 	public static bool operator ==(PropertyName lhs, PropertyName rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930", Slot = "2")]
+	[Token(Token = "0x6000C59")]
+	[Address(RVA = "0x690E060", Offset = "0x690D060", VA = "0x690E060", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000C48")]
-	[Address(RVA = "0x2F24B80", Offset = "0x2F23180", VA = "0x182F24B80", Slot = "0")]
+	[Token(Token = "0x6000C5A")]
+	[Address(RVA = "0x690E070", Offset = "0x690D070", VA = "0x690E070", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x2ED9400", Offset = "0x2ED7A00", VA = "0x182ED9400", Slot = "4")]
+	[Token(Token = "0x6000C5B")]
+	[Address(RVA = "0x690E0D0", Offset = "0x690D0D0", VA = "0x690E0D0", Slot = "4")]
 	public bool Equals(PropertyName other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x2F24CB0", Offset = "0x2F232B0", VA = "0x182F24CB0")]
+	[Token(Token = "0x6000C5C")]
+	[Address(RVA = "0x690E0E0", Offset = "0x690D0E0", VA = "0x690E0E0")]
 	public static implicit operator PropertyName(string name)
 	{
 		return default(PropertyName);
 	}
 
-	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x2F24C20", Offset = "0x2F23220", VA = "0x182F24C20", Slot = "3")]
+	[Token(Token = "0x6000C5D")]
+	[Address(RVA = "0x690E0F0", Offset = "0x690D0F0", VA = "0x690E0F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

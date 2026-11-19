@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeStream
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public UnsafeStream Container;
 
 		[Token(Token = "0x6000DA6")]
-		[Address(RVA = "0x29B35E0", Offset = "0x29B1BE0", VA = "0x1829B35E0", Slot = "4")]
+		[Address(RVA = "0x638E010", Offset = "0x638D010", VA = "0x638E010", Slot = "4")]
 		public void Execute()
 		{
 		}
@@ -47,7 +47,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public unsafe UntypedUnsafeList* List;
 
 		[Token(Token = "0x6000DA7")]
-		[Address(RVA = "0x29B3280", Offset = "0x29B1880", VA = "0x1829B3280", Slot = "4")]
+		[Address(RVA = "0x638E020", Offset = "0x638D020", VA = "0x638E020", Slot = "4")]
 		public void Execute()
 		{
 		}
@@ -67,7 +67,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public NativeArray<int> Length;
 
 		[Token(Token = "0x6000DA8")]
-		[Address(RVA = "0x29B32B0", Offset = "0x29B18B0", VA = "0x1829B32B0", Slot = "4")]
+		[Address(RVA = "0x638E040", Offset = "0x638D040", VA = "0x638E040", Slot = "4")]
 		public void Execute()
 		{
 		}
@@ -127,7 +127,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public int ForEachCount
 		{
 			[Token(Token = "0x6000DAA")]
-			[Address(RVA = "0x29B5B70", Offset = "0x29B4170", VA = "0x1829B5B70")]
+			[Address(RVA = "0x637E730", Offset = "0x637D730", VA = "0x637E730")]
 			get
 			{
 				return default(int);
@@ -135,19 +135,19 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000DA9")]
-		[Address(RVA = "0x29C13F0", Offset = "0x29BF9F0", VA = "0x1829C13F0")]
+		[Address(RVA = "0x638DDA0", Offset = "0x638CDA0", VA = "0x638DDA0")]
 		internal Writer(ref UnsafeStream stream)
 		{
 		}
 
 		[Token(Token = "0x6000DAB")]
-		[Address(RVA = "0x29C12F0", Offset = "0x29BF8F0", VA = "0x1829C12F0")]
+		[Address(RVA = "0x637E790", Offset = "0x637D790", VA = "0x637E790")]
 		public void BeginForEachIndex(int foreachIndex)
 		{
 		}
 
 		[Token(Token = "0x6000DAC")]
-		[Address(RVA = "0x29C1320", Offset = "0x29BF920", VA = "0x1829C1320")]
+		[Address(RVA = "0x637E820", Offset = "0x637D820", VA = "0x637E820")]
 		public void EndForEachIndex()
 		{
 		}
@@ -166,7 +166,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000DAF")]
-		[Address(RVA = "0x29C1240", Offset = "0x29BF840", VA = "0x1829C1240")]
+		[Address(RVA = "0x637E890", Offset = "0x637D890", VA = "0x637E890")]
 		public unsafe byte* Allocate(int size)
 		{
 			//IL_0002: Expected I, but got O
@@ -210,7 +210,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public int ForEachCount
 		{
 			[Token(Token = "0x6000DB3")]
-			[Address(RVA = "0x29B5B70", Offset = "0x29B4170", VA = "0x1829B5B70")]
+			[Address(RVA = "0x637EAE0", Offset = "0x637DAE0", VA = "0x637EAE0")]
 			get
 			{
 				return default(int);
@@ -221,7 +221,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		public int RemainingItemCount
 		{
 			[Token(Token = "0x6000DB4")]
-			[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+			[Address(RVA = "0x638E050", Offset = "0x638D050", VA = "0x638E050")]
 			get
 			{
 				return default(int);
@@ -229,26 +229,26 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000DB0")]
-		[Address(RVA = "0x29B8FB0", Offset = "0x29B75B0", VA = "0x1829B8FB0")]
+		[Address(RVA = "0x638DD80", Offset = "0x638CD80", VA = "0x638DD80")]
 		internal Reader(ref UnsafeStream stream)
 		{
 		}
 
 		[Token(Token = "0x6000DB1")]
-		[Address(RVA = "0x29B8C00", Offset = "0x29B7200", VA = "0x1829B8C00")]
+		[Address(RVA = "0x637EA30", Offset = "0x637DA30", VA = "0x637EA30")]
 		public int BeginForEachIndex(int foreachIndex)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000DB2")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x637EAB0", Offset = "0x637DAB0", VA = "0x637EAB0")]
 		public void EndForEachIndex()
 		{
 		}
 
 		[Token(Token = "0x6000DB5")]
-		[Address(RVA = "0x29B8F10", Offset = "0x29B7510", VA = "0x1829B8F10")]
+		[Address(RVA = "0x638E060", Offset = "0x638D060", VA = "0x638E060")]
 		public unsafe byte* ReadUnsafePtr(int size)
 		{
 			//IL_0002: Expected I, but got O
@@ -270,7 +270,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000DB8")]
-		[Address(RVA = "0x29B8E00", Offset = "0x29B7400", VA = "0x1829B8E00")]
+		[Address(RVA = "0x637EBC0", Offset = "0x637DBC0", VA = "0x637EBC0")]
 		public int Count()
 		{
 			return default(int);
@@ -287,7 +287,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000D9D")]
-		[Address(RVA = "0xA507A0", Offset = "0xA4EDA0", VA = "0x180A507A0")]
+		[Address(RVA = "0x638DD70", Offset = "0x638CD70", VA = "0x638DD70")]
 		get
 		{
 			return default(bool);
@@ -298,7 +298,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 	public readonly int ForEachCount
 	{
 		[Token(Token = "0x6000D9E")]
-		[Address(RVA = "0x29B5B70", Offset = "0x29B4170", VA = "0x1829B5B70")]
+		[Address(RVA = "0x637E240", Offset = "0x637D240", VA = "0x637E240")]
 		get
 		{
 			return default(int);
@@ -306,7 +306,7 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000D97")]
-	[Address(RVA = "0x29B5B30", Offset = "0x29B4130", VA = "0x1829B5B30")]
+	[Address(RVA = "0x638DCA0", Offset = "0x638CCA0", VA = "0x638DCA0")]
 	public UnsafeStream(int bufferCount, AllocatorManager.AllocatorHandle allocator)
 	{
 	}
@@ -319,47 +319,47 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000D99")]
-	[Address(RVA = "0x29C04B0", Offset = "0x29BEAB0", VA = "0x1829C04B0")]
+	[Address(RVA = "0x638DCC0", Offset = "0x638CCC0", VA = "0x638DCC0")]
 	public static JobHandle ScheduleConstruct(out UnsafeStream stream, NativeArray<int> bufferCount, JobHandle dependency, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x6000D9A")]
-	[Address(RVA = "0x29BFFB0", Offset = "0x29BE5B0", VA = "0x1829BFFB0")]
+	[Address(RVA = "0x637E4D0", Offset = "0x637D4D0", VA = "0x637E4D0")]
 	internal static void AllocateBlock(out UnsafeStream stream, AllocatorManager.AllocatorHandle allocator)
 	{
 	}
 
 	[Token(Token = "0x6000D9B")]
-	[Address(RVA = "0x29C0110", Offset = "0x29BE710", VA = "0x1829C0110")]
+	[Address(RVA = "0x637DFA0", Offset = "0x637CFA0", VA = "0x637DFA0")]
 	internal void AllocateForEach(int forEachCount)
 	{
 	}
 
 	[Token(Token = "0x6000D9C")]
-	[Address(RVA = "0x29C0430", Offset = "0x29BEA30", VA = "0x1829C0430")]
+	[Address(RVA = "0x637E1A0", Offset = "0x637D1A0", VA = "0x637E1A0")]
 	public readonly bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D9F")]
-	[Address(RVA = "0x29C01F0", Offset = "0x29BE7F0", VA = "0x1829C01F0")]
+	[Address(RVA = "0x637E9A0", Offset = "0x637D9A0", VA = "0x637E9A0")]
 	public Reader AsReader()
 	{
 		return default(Reader);
 	}
 
 	[Token(Token = "0x6000DA0")]
-	[Address(RVA = "0x29C0220", Offset = "0x29BE820", VA = "0x1829C0220")]
+	[Address(RVA = "0x637E6D0", Offset = "0x637D6D0", VA = "0x637E6D0")]
 	public Writer AsWriter()
 	{
 		return default(Writer);
 	}
 
 	[Token(Token = "0x6000DA1")]
-	[Address(RVA = "0x29C0260", Offset = "0x29BE860", VA = "0x1829C0260")]
+	[Address(RVA = "0x637E3D0", Offset = "0x637D3D0", VA = "0x637E3D0")]
 	public int Count()
 	{
 		return default(int);
@@ -373,19 +373,19 @@ public struct UnsafeStream : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000DA3")]
-	[Address(RVA = "0x29C02D0", Offset = "0x29BE8D0", VA = "0x1829C02D0")]
+	[Address(RVA = "0x638DDE0", Offset = "0x638CDE0", VA = "0x638DDE0")]
 	private void Deallocate()
 	{
 	}
 
 	[Token(Token = "0x6000DA4")]
-	[Address(RVA = "0x29B5850", Offset = "0x29B3E50", VA = "0x1829B5850", Slot = "5")]
+	[Address(RVA = "0x637E440", Offset = "0x637D440", VA = "0x637E440", Slot = "5")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000DA5")]
-	[Address(RVA = "0x29C0390", Offset = "0x29BE990", VA = "0x1829C0390", Slot = "4")]
+	[Address(RVA = "0x638DF90", Offset = "0x638CF90", VA = "0x638DF90", Slot = "4")]
 	public JobHandle Dispose(JobHandle inputDeps)
 	{
 		return default(JobHandle);

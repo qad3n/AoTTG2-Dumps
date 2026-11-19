@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ITextEdition
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -146,13 +146,13 @@ public interface ITextEdition
 	bool autoCorrection
 	{
 		[Token(Token = "0x60024F3")]
-		[Address(RVA = "0x313CA10", Offset = "0x313B010", VA = "0x18313CA10", Slot = "32")]
+		[Address(RVA = "0x6B46C00", Offset = "0x6B45C00", VA = "0x6B46C00", Slot = "32")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60024F4")]
-		[Address(RVA = "0x313CD80", Offset = "0x313B380", VA = "0x18313CD80", Slot = "33")]
+		[Address(RVA = "0x6B46CB0", Offset = "0x6B45CB0", VA = "0x6B46CB0", Slot = "33")]
 		set
 		{
 		}
@@ -162,13 +162,13 @@ public interface ITextEdition
 	bool hideSoftKeyboard
 	{
 		[Token(Token = "0x60024F5")]
-		[Address(RVA = "0x313CB70", Offset = "0x313B170", VA = "0x18313CB70", Slot = "34")]
+		[Address(RVA = "0x6B46D60", Offset = "0x6B45D60", VA = "0x6B46D60", Slot = "34")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60024F6")]
-		[Address(RVA = "0x313CEE0", Offset = "0x313B4E0", VA = "0x18313CEE0", Slot = "35")]
+		[Address(RVA = "0x6B46E10", Offset = "0x6B45E10", VA = "0x6B46E10", Slot = "35")]
 		set
 		{
 		}
@@ -178,13 +178,13 @@ public interface ITextEdition
 	bool hideMobileInput
 	{
 		[Token(Token = "0x60024F7")]
-		[Address(RVA = "0x313CAC0", Offset = "0x313B0C0", VA = "0x18313CAC0", Slot = "36")]
+		[Address(RVA = "0x6B46EC0", Offset = "0x6B45EC0", VA = "0x6B46EC0", Slot = "36")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60024F8")]
-		[Address(RVA = "0x313CE30", Offset = "0x313B430", VA = "0x18313CE30", Slot = "37")]
+		[Address(RVA = "0x6B46F70", Offset = "0x6B45F70", VA = "0x6B46F70", Slot = "37")]
 		set
 		{
 		}
@@ -194,7 +194,7 @@ public interface ITextEdition
 	TouchScreenKeyboard touchScreenKeyboard
 	{
 		[Token(Token = "0x60024F9")]
-		[Address(RVA = "0x313CCD0", Offset = "0x313B2D0", VA = "0x18313CCD0", Slot = "38")]
+		[Address(RVA = "0x6B47020", Offset = "0x6B46020", VA = "0x6B47020", Slot = "38")]
 		get
 		{
 			return null;
@@ -205,13 +205,13 @@ public interface ITextEdition
 	TouchScreenKeyboardType keyboardType
 	{
 		[Token(Token = "0x60024FA")]
-		[Address(RVA = "0x313CC20", Offset = "0x313B220", VA = "0x18313CC20", Slot = "39")]
+		[Address(RVA = "0x6B470D0", Offset = "0x6B460D0", VA = "0x6B470D0", Slot = "39")]
 		get
 		{
 			return default(TouchScreenKeyboardType);
 		}
 		[Token(Token = "0x60024FB")]
-		[Address(RVA = "0x313CF90", Offset = "0x313B590", VA = "0x18313CF90", Slot = "40")]
+		[Address(RVA = "0x6B47180", Offset = "0x6B46180", VA = "0x6B47180", Slot = "40")]
 		set
 		{
 		}

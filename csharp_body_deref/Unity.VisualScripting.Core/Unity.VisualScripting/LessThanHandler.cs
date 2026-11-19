@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public class LessThanHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000A55")]
-	[Address(RVA = "0x2DF9EC0", Offset = "0x2DF84C0", VA = "0x182DF9EC0")]
+	[Address(RVA = "0x67FA480", Offset = "0x67F9480", VA = "0x67FA480")]
 	public LessThanHandler()
 	{
 	}

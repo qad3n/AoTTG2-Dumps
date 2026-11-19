@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x2000399")]
+[Token(Token = "0x2000372")]
 internal class ContextCallbackObject : ContextBoundObject
 {
-	[Token(Token = "0x6001DD4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6001DAA")]
+	[Address(RVA = "0x5384350", Offset = "0x5383350", VA = "0x5384350")]
 	public void DoCallBack(CrossContextDelegate deleg)
 	{
 	}
 
-	[Token(Token = "0x6001DD5")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001DAB")]
+	[Address(RVA = "0x5384340", Offset = "0x5383340", VA = "0x5384340")]
 	public ContextCallbackObject()
 	{
 	}

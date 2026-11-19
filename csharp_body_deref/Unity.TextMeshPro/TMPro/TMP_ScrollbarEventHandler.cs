@@ -20,25 +20,25 @@ public class TMP_ScrollbarEventHandler : MonoBehaviour, IPointerClickHandler, IE
 	public bool isSelected;
 
 	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x2D3E3B0", Offset = "0x2D3C9B0", VA = "0x182D3E3B0", Slot = "4")]
+	[Address(RVA = "0x6735530", Offset = "0x6734530", VA = "0x6735530", Slot = "4")]
 	public void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x2D3E410", Offset = "0x2D3CA10", VA = "0x182D3E410", Slot = "5")]
+	[Address(RVA = "0x6735590", Offset = "0x6734590", VA = "0x6735590", Slot = "5")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x2D3E350", Offset = "0x2D3C950", VA = "0x182D3E350", Slot = "6")]
+	[Address(RVA = "0x67355F0", Offset = "0x67345F0", VA = "0x67355F0", Slot = "6")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6735650", Offset = "0x6734650", VA = "0x6735650")]
 	public TMP_ScrollbarEventHandler()
 	{
 	}

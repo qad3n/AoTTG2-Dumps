@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeBrickBlendingPool
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -125,7 +125,7 @@ internal class ProbeBrickBlendingPool
 	internal bool isAllocated
 	{
 		[Token(Token = "0x60008AD")]
-		[Address(RVA = "0x2450AE0", Offset = "0x244F0E0", VA = "0x182450AE0")]
+		[Address(RVA = "0x6501150", Offset = "0x6500150", VA = "0x6501150")]
 		get
 		{
 			return default(bool);
@@ -136,7 +136,7 @@ internal class ProbeBrickBlendingPool
 	internal int estimatedVMemCost
 	{
 		[Token(Token = "0x60008AE")]
-		[Address(RVA = "0x2B0E030", Offset = "0x2B0C630", VA = "0x182B0E030")]
+		[Address(RVA = "0x6501160", Offset = "0x6500160", VA = "0x6501160")]
 		get
 		{
 			return default(int);
@@ -144,95 +144,95 @@ internal class ProbeBrickBlendingPool
 	}
 
 	[Token(Token = "0x60008AC")]
-	[Address(RVA = "0x2B0CB50", Offset = "0x2B0B150", VA = "0x182B0CB50")]
+	[Address(RVA = "0x6500FC0", Offset = "0x64FFFC0", VA = "0x6500FC0")]
 	internal static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x60008AF")]
-	[Address(RVA = "0x2B0CB30", Offset = "0x2B0B130", VA = "0x182B0CB30")]
+	[Address(RVA = "0x6501290", Offset = "0x6500290", VA = "0x6501290")]
 	internal int GetPoolWidth()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008B0")]
-	[Address(RVA = "0x2B0CB10", Offset = "0x2B0B110", VA = "0x182B0CB10")]
+	[Address(RVA = "0x65012B0", Offset = "0x65002B0", VA = "0x65012B0")]
 	internal int GetPoolHeight()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008B1")]
-	[Address(RVA = "0x2B0CAF0", Offset = "0x2B0B0F0", VA = "0x182B0CAF0")]
+	[Address(RVA = "0x65012D0", Offset = "0x65002D0", VA = "0x65012D0")]
 	internal int GetPoolDepth()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008B2")]
-	[Address(RVA = "0x2B0E000", Offset = "0x2B0C600", VA = "0x182B0E000")]
+	[Address(RVA = "0x65012F0", Offset = "0x65002F0", VA = "0x65012F0")]
 	internal ProbeBrickBlendingPool(ProbeVolumeBlendingTextureMemoryBudget memoryBudget, ProbeVolumeSHBands shBands, bool probeOcclusion)
 	{
 	}
 
 	[Token(Token = "0x60008B3")]
-	[Address(RVA = "0x2B0C4E0", Offset = "0x2B0AAE0", VA = "0x182B0C4E0")]
+	[Address(RVA = "0x6501320", Offset = "0x6500320", VA = "0x6501320")]
 	internal void AllocateResourcesIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x60008B4")]
-	[Address(RVA = "0x2B0DAC0", Offset = "0x2B0C0C0", VA = "0x182B0DAC0")]
+	[Address(RVA = "0x6501490", Offset = "0x6500490", VA = "0x6501490")]
 	internal void Update(ProbeBrickPool.DataLocation source, List<ProbeBrickPool.BrickChunkAlloc> srcLocations, List<ProbeBrickPool.BrickChunkAlloc> dstLocations, int destStartIndex, ProbeVolumeSHBands bands, int state)
 	{
 	}
 
 	[Token(Token = "0x60008B5")]
-	[Address(RVA = "0x2B0DB60", Offset = "0x2B0C160", VA = "0x182B0DB60")]
+	[Address(RVA = "0x65014B0", Offset = "0x65004B0", VA = "0x65014B0")]
 	internal void Update(CommandBuffer cmd, ProbeReferenceVolume.CellStreamingScratchBuffer dataBuffer, ProbeReferenceVolume.CellStreamingScratchBufferLayout layout, List<ProbeBrickPool.BrickChunkAlloc> dstLocations, ProbeVolumeSHBands bands, int state, Texture validityTexture, bool skyOcclusion, Texture skyOcclusionTexture, bool skyShadingDirections, Texture skyShadingDirectionsTexture, bool probeOcclusion)
 	{
 	}
 
 	[Token(Token = "0x60008B6")]
-	[Address(RVA = "0x2B0CCE0", Offset = "0x2B0B2E0", VA = "0x182B0CCE0")]
+	[Address(RVA = "0x65015B0", Offset = "0x65005B0", VA = "0x65015B0")]
 	internal void PerformBlending(CommandBuffer cmd, float factor, ProbeBrickPool dstPool)
 	{
 	}
 
 	[Token(Token = "0x60008B7")]
-	[Address(RVA = "0x2B0C840", Offset = "0x2B0AE40", VA = "0x182B0C840")]
+	[Address(RVA = "0x6502390", Offset = "0x6501390", VA = "0x6502390")]
 	internal void BlendChunks(ProbeReferenceVolume.Cell cell, ProbeBrickPool dstPool)
 	{
 	}
 
 	[Token(Token = "0x60008B8")]
-	[Address(RVA = "0x2B0C9F0", Offset = "0x2B0AFF0", VA = "0x182B0C9F0")]
+	[Address(RVA = "0x6502520", Offset = "0x6501520", VA = "0x6502520")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x60008B9")]
-	[Address(RVA = "0x2B0C660", Offset = "0x2B0AC60", VA = "0x182B0C660")]
+	[Address(RVA = "0x6502580", Offset = "0x6501580", VA = "0x6502580")]
 	internal bool Allocate(int numberOfBrickChunks, List<ProbeBrickPool.BrickChunkAlloc> outAllocations)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008BA")]
-	[Address(RVA = "0x2B0CA50", Offset = "0x2B0B050", VA = "0x182B0CA50")]
+	[Address(RVA = "0x65025C0", Offset = "0x65015C0", VA = "0x65025C0")]
 	internal void Deallocate(List<ProbeBrickPool.BrickChunkAlloc> allocations)
 	{
 	}
 
 	[Token(Token = "0x60008BB")]
-	[Address(RVA = "0x2B0CAB0", Offset = "0x2B0B0B0", VA = "0x182B0CAB0")]
+	[Address(RVA = "0x6502620", Offset = "0x6501620", VA = "0x6502620")]
 	internal void EnsureTextureValidity()
 	{
 	}
 
 	[Token(Token = "0x60008BC")]
-	[Address(RVA = "0x2B0C9A0", Offset = "0x2B0AFA0", VA = "0x182B0C9A0")]
+	[Address(RVA = "0x6502720", Offset = "0x6501720", VA = "0x6502720")]
 	internal void Cleanup()
 	{
 	}

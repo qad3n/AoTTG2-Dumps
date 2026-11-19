@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.ContactPoint
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ public struct ContactPoint
 	public Vector3 point
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x2FDEB80", Offset = "0x2FDD180", VA = "0x182FDEB80")]
+		[Address(RVA = "0x69D6470", Offset = "0x69D5470", VA = "0x69D6470")]
 		get
 		{
 			return default(Vector3);
@@ -51,7 +51,7 @@ public struct ContactPoint
 	public Vector3 normal
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x2FDEB60", Offset = "0x2FDD160", VA = "0x182FDEB60")]
+		[Address(RVA = "0x69D6480", Offset = "0x69D5480", VA = "0x69D6480")]
 		get
 		{
 			return default(Vector3);
@@ -62,7 +62,7 @@ public struct ContactPoint
 	public Vector3 impulse
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x2FDEB40", Offset = "0x2FDD140", VA = "0x182FDEB40")]
+		[Address(RVA = "0x69D6490", Offset = "0x69D5490", VA = "0x69D6490")]
 		get
 		{
 			return default(Vector3);
@@ -73,7 +73,7 @@ public struct ContactPoint
 	public float separation
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
+		[Address(RVA = "0x69D64A0", Offset = "0x69D54A0", VA = "0x69D64A0")]
 		get
 		{
 			return default(float);
@@ -81,7 +81,7 @@ public struct ContactPoint
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2FDEAF0", Offset = "0x2FDD0F0", VA = "0x182FDEAF0")]
+	[Address(RVA = "0x69D64B0", Offset = "0x69D54B0", VA = "0x69D64B0")]
 	internal ContactPoint(Vector3 point, Vector3 normal, Vector3 impulse, float separation, EntityId thisEntityId, EntityId otherEntityId)
 	{
 	}

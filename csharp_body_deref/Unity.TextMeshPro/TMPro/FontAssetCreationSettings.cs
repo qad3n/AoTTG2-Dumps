@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.FontAssetCreationSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -87,7 +87,7 @@ public struct FontAssetCreationSettings
 	public bool includeFontFeatures;
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x2CF4410", Offset = "0x2CF2A10", VA = "0x182CF4410")]
+	[Address(RVA = "0x66F3320", Offset = "0x66F2320", VA = "0x66F3320")]
 	internal FontAssetCreationSettings(string sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, string characterSet, int renderMode)
 	{
 	}

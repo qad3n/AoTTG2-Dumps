@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicSymbol
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicSymbols.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,103 +9,103 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005E9")]
+[Token(Token = "0x2000648")]
 public enum CustomLogicSymbol
 {
-	[Token(Token = "0x4001A05")]
+	[Token(Token = "0x4001BA6")]
 	Component,
-	[Token(Token = "0x4001A06")]
+	[Token(Token = "0x4001BA7")]
 	Class,
-	[Token(Token = "0x4001A07")]
+	[Token(Token = "0x4001BA8")]
 	Extension,
-	[Token(Token = "0x4001A08")]
+	[Token(Token = "0x4001BA9")]
 	Addon,
-	[Token(Token = "0x4001A09")]
+	[Token(Token = "0x4001BAA")]
 	Cutscene,
-	[Token(Token = "0x4001A0A")]
+	[Token(Token = "0x4001BAB")]
 	Function,
-	[Token(Token = "0x4001A0B")]
+	[Token(Token = "0x4001BAC")]
 	Coroutine,
-	[Token(Token = "0x4001A0C")]
+	[Token(Token = "0x4001BAD")]
 	Wait,
-	[Token(Token = "0x4001A0D")]
+	[Token(Token = "0x4001BAE")]
 	Null,
-	[Token(Token = "0x4001A0E")]
+	[Token(Token = "0x4001BAF")]
 	LeftCurly,
-	[Token(Token = "0x4001A0F")]
+	[Token(Token = "0x4001BB0")]
 	RightCurly,
-	[Token(Token = "0x4001A10")]
+	[Token(Token = "0x4001BB1")]
 	LeftParen,
-	[Token(Token = "0x4001A11")]
+	[Token(Token = "0x4001BB2")]
 	RightParen,
-	[Token(Token = "0x4001A12")]
+	[Token(Token = "0x4001BB3")]
 	LeftBracket,
-	[Token(Token = "0x4001A13")]
+	[Token(Token = "0x4001BB4")]
 	RightBracket,
-	[Token(Token = "0x4001A14")]
+	[Token(Token = "0x4001BB5")]
 	At,
-	[Token(Token = "0x4001A15")]
+	[Token(Token = "0x4001BB6")]
 	Return,
-	[Token(Token = "0x4001A16")]
+	[Token(Token = "0x4001BB7")]
 	Continue,
-	[Token(Token = "0x4001A17")]
+	[Token(Token = "0x4001BB8")]
 	Break,
-	[Token(Token = "0x4001A18")]
+	[Token(Token = "0x4001BB9")]
 	Not,
-	[Token(Token = "0x4001A19")]
+	[Token(Token = "0x4001BBA")]
 	SetEquals,
-	[Token(Token = "0x4001A1A")]
+	[Token(Token = "0x4001BBB")]
 	PlusEquals,
-	[Token(Token = "0x4001A1B")]
+	[Token(Token = "0x4001BBC")]
 	MinusEquals,
-	[Token(Token = "0x4001A1C")]
+	[Token(Token = "0x4001BBD")]
 	TimesEquals,
-	[Token(Token = "0x4001A1D")]
+	[Token(Token = "0x4001BBE")]
 	DivideEquals,
-	[Token(Token = "0x4001A1E")]
+	[Token(Token = "0x4001BBF")]
 	And,
-	[Token(Token = "0x4001A1F")]
+	[Token(Token = "0x4001BC0")]
 	Or,
-	[Token(Token = "0x4001A20")]
+	[Token(Token = "0x4001BC1")]
 	LessThan,
-	[Token(Token = "0x4001A21")]
+	[Token(Token = "0x4001BC2")]
 	GreaterThan,
-	[Token(Token = "0x4001A22")]
+	[Token(Token = "0x4001BC3")]
 	LessThanOrEquals,
-	[Token(Token = "0x4001A23")]
+	[Token(Token = "0x4001BC4")]
 	GreaterThanOrEquals,
-	[Token(Token = "0x4001A24")]
+	[Token(Token = "0x4001BC5")]
 	Equals,
-	[Token(Token = "0x4001A25")]
+	[Token(Token = "0x4001BC6")]
 	NotEquals,
-	[Token(Token = "0x4001A26")]
+	[Token(Token = "0x4001BC7")]
 	Plus,
-	[Token(Token = "0x4001A27")]
+	[Token(Token = "0x4001BC8")]
 	Minus,
-	[Token(Token = "0x4001A28")]
+	[Token(Token = "0x4001BC9")]
 	Times,
-	[Token(Token = "0x4001A29")]
+	[Token(Token = "0x4001BCA")]
 	Divide,
-	[Token(Token = "0x4001A2A")]
+	[Token(Token = "0x4001BCB")]
 	Modulo,
-	[Token(Token = "0x4001A2B")]
+	[Token(Token = "0x4001BCC")]
 	Semicolon,
-	[Token(Token = "0x4001A2C")]
+	[Token(Token = "0x4001BCD")]
 	DoubleQuote,
-	[Token(Token = "0x4001A2D")]
+	[Token(Token = "0x4001BCE")]
 	Comma,
-	[Token(Token = "0x4001A2E")]
+	[Token(Token = "0x4001BCF")]
 	Dot,
-	[Token(Token = "0x4001A2F")]
+	[Token(Token = "0x4001BD0")]
 	If,
-	[Token(Token = "0x4001A30")]
+	[Token(Token = "0x4001BD1")]
 	Else,
-	[Token(Token = "0x4001A31")]
+	[Token(Token = "0x4001BD2")]
 	ElseIf,
-	[Token(Token = "0x4001A32")]
+	[Token(Token = "0x4001BD3")]
 	While,
-	[Token(Token = "0x4001A33")]
+	[Token(Token = "0x4001BD4")]
 	For,
-	[Token(Token = "0x4001A34")]
+	[Token(Token = "0x4001BD5")]
 	In
 }

@@ -15,13 +15,13 @@ namespace UnityEngine.UIElements;
 public abstract class UxmlTraits : BaseUxmlTraits
 {
 	[Token(Token = "0x60026AE")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6B5A7F0", Offset = "0x6B597F0", VA = "0x6B5A7F0", Slot = "4")]
 	public virtual void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 	{
 	}
 
 	[Token(Token = "0x60026AF")]
-	[Address(RVA = "0x1C88340", Offset = "0x1C86940", VA = "0x181C88340")]
+	[Address(RVA = "0x6B57060", Offset = "0x6B56060", VA = "0x6B57060")]
 	protected UxmlTraits()
 	{
 	}

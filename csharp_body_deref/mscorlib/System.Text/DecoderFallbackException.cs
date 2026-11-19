@@ -11,31 +11,31 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x200029F")]
+[Token(Token = "0x2000277")]
 public sealed class DecoderFallbackException : ArgumentException
 {
-	[Token(Token = "0x4000B7A")]
+	[Token(Token = "0x4000AD8")]
 	[FieldOffset(Offset = "0x98")]
 	private byte[] _bytesUnknown;
 
-	[Token(Token = "0x4000B7B")]
+	[Token(Token = "0x4000AD9")]
 	[FieldOffset(Offset = "0xA0")]
 	private int _index;
 
-	[Token(Token = "0x60015B5")]
-	[Address(RVA = "0x1BAE560", Offset = "0x1BACB60", VA = "0x181BAE560")]
+	[Token(Token = "0x600158C")]
+	[Address(RVA = "0x5552FD0", Offset = "0x5551FD0", VA = "0x5552FD0")]
 	public DecoderFallbackException()
 	{
 	}
 
-	[Token(Token = "0x60015B6")]
-	[Address(RVA = "0x1BAE510", Offset = "0x1BACB10", VA = "0x181BAE510")]
+	[Token(Token = "0x600158D")]
+	[Address(RVA = "0x5552F90", Offset = "0x5551F90", VA = "0x5552F90")]
 	public DecoderFallbackException(string message, byte[] bytesUnknown, int index)
 	{
 	}
 
-	[Token(Token = "0x60015B7")]
-	[Address(RVA = "0x1977AB0", Offset = "0x19760B0", VA = "0x181977AB0")]
+	[Token(Token = "0x600158E")]
+	[Address(RVA = "0x5553010", Offset = "0x5552010", VA = "0x5553010")]
 	private DecoderFallbackException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

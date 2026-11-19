@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CompactVisibilityMasksJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ internal struct CompactVisibilityMasksJob : IJobParallelForBatch
 	public ParallelBitArray compactedVisibilityMasks;
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x2BBCF80", Offset = "0x2BBB580", VA = "0x182BBCF80", Slot = "4")]
+	[Address(RVA = "0x65C4FF0", Offset = "0x65C3FF0", VA = "0x65C4FF0", Slot = "4")]
 	public void Execute(int startIndex, int count)
 	{
 	}

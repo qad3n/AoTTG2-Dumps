@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x200047B")]
+[Token(Token = "0x2000454")]
 [AttributeUsage(AttributeTargets.Field, Inherited = false)]
 [ComVisible(true)]
 public sealed class FieldOffsetAttribute : Attribute
 {
-	[Token(Token = "0x40012C3")]
+	[Token(Token = "0x4001223")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal int _val;
 
-	[Token(Token = "0x600224C")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6002222")]
+	[Address(RVA = "0x53C4EE0", Offset = "0x53C3EE0", VA = "0x53C4EE0")]
 	public FieldOffsetAttribute(int offset)
 	{
 	}

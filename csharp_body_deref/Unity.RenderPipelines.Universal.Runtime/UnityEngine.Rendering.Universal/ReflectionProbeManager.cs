@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ReflectionProbeManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -153,7 +153,7 @@ internal struct ReflectionProbeManager : IDisposable
 	public RenderTexture atlasRT
 	{
 		[Token(Token = "0x60007E4")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6677CE0", Offset = "0x6676CE0", VA = "0x6677CE0")]
 		get
 		{
 			return null;
@@ -164,7 +164,7 @@ internal struct ReflectionProbeManager : IDisposable
 	public RTHandle atlasRTHandle
 	{
 		[Token(Token = "0x60007E5")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6677CF0", Offset = "0x6676CF0", VA = "0x6677CF0")]
 		get
 		{
 			return null;
@@ -172,33 +172,33 @@ internal struct ReflectionProbeManager : IDisposable
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x2C74D00", Offset = "0x2C73300", VA = "0x182C74D00")]
+	[Address(RVA = "0x6677D00", Offset = "0x6676D00", VA = "0x6677D00")]
 	public static ReflectionProbeManager Create()
 	{
 		return default(ReflectionProbeManager);
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x2C74F80", Offset = "0x2C73580", VA = "0x182C74F80")]
+	[Address(RVA = "0x6677D70", Offset = "0x6676D70", VA = "0x6677D70")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x2C754E0", Offset = "0x2C73AE0", VA = "0x182C754E0")]
+	[Address(RVA = "0x66782F0", Offset = "0x66772F0", VA = "0x66782F0")]
 	public void UpdateGpuData(CommandBuffer cmd, ref CullingResults cullResults)
 	{
 	}
 
 	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x2C74E40", Offset = "0x2C73440", VA = "0x182C74E40")]
+	[Address(RVA = "0x667A9E0", Offset = "0x66799E0", VA = "0x667A9E0")]
 	private float4 GetScaleOffset(int level, int dataIndex, bool includePadding, bool yflip)
 	{
 		return default(float4);
 	}
 
 	[Token(Token = "0x60007EA")]
-	[Address(RVA = "0x2C74D50", Offset = "0x2C73350", VA = "0x182C74D50", Slot = "4")]
+	[Address(RVA = "0x667AAB0", Offset = "0x6679AB0", VA = "0x667AAB0", Slot = "4")]
 	public void Dispose()
 	{
 	}

@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x200000D")]
 public class AndroidJavaClass : AndroidJavaObject
 {
-	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x2EA22B0", Offset = "0x2EA08B0", VA = "0x182EA22B0")]
+	[Token(Token = "0x6000111")]
+	[Address(RVA = "0x689F080", Offset = "0x689E080", VA = "0x689F080")]
 	public AndroidJavaClass(string className)
 	{
 	}
 
-	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2EA2020", Offset = "0x2EA0620", VA = "0x182EA2020")]
+	[Token(Token = "0x6000112")]
+	[Address(RVA = "0x68A26D0", Offset = "0x68A16D0", VA = "0x68A26D0")]
 	private void _AndroidJavaClass(string className)
 	{
 	}
 
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x2EA21B0", Offset = "0x2EA07B0", VA = "0x182EA21B0")]
+	[Token(Token = "0x6000113")]
+	[Address(RVA = "0x68A25D0", Offset = "0x68A15D0", VA = "0x68A25D0")]
 	internal AndroidJavaClass(IntPtr jclass)
 	{
 	}

@@ -24,20 +24,20 @@ public struct ControlPoint
 	public Vector3 b;
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x565080", Offset = "0x563680", VA = "0x180565080")]
+	[Address(RVA = "0x3190BD0", Offset = "0x318FBD0", VA = "0x3190BD0")]
 	public ControlPoint(Vector3 a, Vector3 b)
 	{
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x5650A0", Offset = "0x5636A0", VA = "0x1805650A0")]
+	[Address(RVA = "0x3191630", Offset = "0x3190630", VA = "0x3191630")]
 	public static ControlPoint operator +(ControlPoint cp, Vector3 v)
 	{
 		return default(ControlPoint);
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x564F60", Offset = "0x563560", VA = "0x180564F60", Slot = "3")]
+	[Address(RVA = "0x3191670", Offset = "0x3190670", VA = "0x3191670", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

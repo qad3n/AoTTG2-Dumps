@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200036D")]
+[Token(Token = "0x2000346")]
 [ComVisible(true)]
 public interface IChannelInfo
 {
-	[Token(Token = "0x17000330")]
+	[Token(Token = "0x1700032F")]
 	object[] ChannelData
 	{
-		[Token(Token = "0x6001C89")]
+		[Token(Token = "0x6001C5F")]
 		get;
 	}
 }

@@ -10,74 +10,74 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000167")]
+[Token(Token = "0x200016F")]
 internal interface IAottgSettingAdapter
 {
-	[Token(Token = "0x170000E1")]
+	[Token(Token = "0x170000E4")]
 	string TextValue
 	{
-		[Token(Token = "0x6000753")]
-		get;
-	}
-
-	[Token(Token = "0x170000E2")]
-	float FloatValue
-	{
-		[Token(Token = "0x6000754")]
-		get;
-	}
-
-	[Token(Token = "0x170000E3")]
-	bool BoolValue
-	{
-		[Token(Token = "0x6000755")]
-		get;
-	}
-
-	[Token(Token = "0x170000E4")]
-	float MinValue
-	{
-		[Token(Token = "0x6000756")]
+		[Token(Token = "0x60007C9")]
 		get;
 	}
 
 	[Token(Token = "0x170000E5")]
-	float MaxValue
+	float FloatValue
 	{
-		[Token(Token = "0x6000757")]
+		[Token(Token = "0x60007CA")]
 		get;
 	}
 
 	[Token(Token = "0x170000E6")]
-	bool HasMinValue
+	bool BoolValue
 	{
-		[Token(Token = "0x6000758")]
+		[Token(Token = "0x60007CB")]
 		get;
 	}
 
 	[Token(Token = "0x170000E7")]
-	bool HasMaxValue
+	float MinValue
 	{
-		[Token(Token = "0x6000759")]
+		[Token(Token = "0x60007CC")]
 		get;
 	}
 
 	[Token(Token = "0x170000E8")]
-	int MaxCharacters
+	float MaxValue
 	{
-		[Token(Token = "0x600075A")]
+		[Token(Token = "0x60007CD")]
 		get;
 	}
 
-	[Token(Token = "0x600075B")]
+	[Token(Token = "0x170000E9")]
+	bool HasMinValue
+	{
+		[Token(Token = "0x60007CE")]
+		get;
+	}
+
+	[Token(Token = "0x170000EA")]
+	bool HasMaxValue
+	{
+		[Token(Token = "0x60007CF")]
+		get;
+	}
+
+	[Token(Token = "0x170000EB")]
+	int MaxCharacters
+	{
+		[Token(Token = "0x60007D0")]
+		get;
+	}
+
+	[Token(Token = "0x60007D1")]
 	void SetBool(bool value);
 
-	[Token(Token = "0x600075C")]
+	[Token(Token = "0x60007D2")]
 	void SetFloat(float value);
 
-	[Token(Token = "0x600075D")]
+	[Token(Token = "0x60007D3")]
 	void SetText(string value);
 
-	[Token(Token = "0x600075E")]
+	[Token(Token = "0x60007D4")]
 	void SetValueFromContext(GisketchActionContext context);
 }

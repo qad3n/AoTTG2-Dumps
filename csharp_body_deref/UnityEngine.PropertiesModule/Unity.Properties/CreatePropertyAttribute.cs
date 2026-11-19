@@ -20,14 +20,14 @@ public class CreatePropertyAttribute : RequiredMemberAttribute
 	public bool ReadOnly
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x69E47E0", Offset = "0x69E37E0", VA = "0x69E47E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x69E47F0", Offset = "0x69E37F0", VA = "0x69E47F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,7 +35,7 @@ public class CreatePropertyAttribute : RequiredMemberAttribute
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2FEAB40", Offset = "0x2FE9140", VA = "0x182FEAB40")]
+	[Address(RVA = "0x69E4800", Offset = "0x69E3800", VA = "0x69E4800")]
 	public CreatePropertyAttribute()
 	{
 	}

@@ -12,19 +12,19 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000196")]
+[Token(Token = "0x2000197")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal class SetupCoroutine
 {
-	[Token(Token = "0x6000D64")]
-	[Address(RVA = "0x2F26C30", Offset = "0x2F25230", VA = "0x182F26C30")]
+	[Token(Token = "0x6000D76")]
+	[Address(RVA = "0x6916EC0", Offset = "0x6915EC0", VA = "0x6916EC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void InvokeMoveNext(IEnumerator enumerator, IntPtr returnValueAddress)
 	{
 	}
 
-	[Token(Token = "0x6000D65")]
-	[Address(RVA = "0x2F26B20", Offset = "0x2F25120", VA = "0x182F26B20")]
+	[Token(Token = "0x6000D77")]
+	[Address(RVA = "0x6916FE0", Offset = "0x6915FE0", VA = "0x6916FE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static object InvokeMember(object behaviour, string name, object variable)
 	{

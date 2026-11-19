@@ -21,7 +21,7 @@ internal struct Extents
 	public Vector2 max;
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3003360", Offset = "0x3001960", VA = "0x183003360", Slot = "3")]
+	[Address(RVA = "0x6A0E160", Offset = "0x6A0D160", VA = "0x6A0E160", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

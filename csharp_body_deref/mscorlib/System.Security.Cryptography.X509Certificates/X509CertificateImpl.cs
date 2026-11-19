@@ -6,149 +6,145 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
-using Microsoft.Win32.SafeHandles;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000357")]
+[Token(Token = "0x2000330")]
 internal abstract class X509CertificateImpl : IDisposable
 {
-	[Token(Token = "0x1700030F")]
+	[Token(Token = "0x1700030E")]
 	public abstract bool IsValid
 	{
-		[Token(Token = "0x6001C15")]
+		[Token(Token = "0x6001BED")]
+		get;
+	}
+
+	[Token(Token = "0x1700030F")]
+	public abstract string Issuer
+	{
+		[Token(Token = "0x6001BF0")]
 		get;
 	}
 
 	[Token(Token = "0x17000310")]
-	public abstract string Issuer
+	public abstract string Subject
 	{
-		[Token(Token = "0x6001C18")]
+		[Token(Token = "0x6001BF1")]
 		get;
 	}
 
 	[Token(Token = "0x17000311")]
-	public abstract string Subject
+	public abstract byte[] RawData
 	{
-		[Token(Token = "0x6001C19")]
+		[Token(Token = "0x6001BF2")]
 		get;
 	}
 
 	[Token(Token = "0x17000312")]
-	public abstract byte[] RawData
+	public abstract DateTime NotAfter
 	{
-		[Token(Token = "0x6001C1A")]
+		[Token(Token = "0x6001BF3")]
 		get;
 	}
 
 	[Token(Token = "0x17000313")]
-	public abstract DateTime NotAfter
+	public abstract DateTime NotBefore
 	{
-		[Token(Token = "0x6001C1B")]
+		[Token(Token = "0x6001BF4")]
 		get;
 	}
 
 	[Token(Token = "0x17000314")]
-	public abstract DateTime NotBefore
+	public abstract byte[] Thumbprint
 	{
-		[Token(Token = "0x6001C1C")]
+		[Token(Token = "0x6001BF5")]
 		get;
 	}
 
 	[Token(Token = "0x17000315")]
-	public abstract byte[] Thumbprint
+	public abstract string KeyAlgorithm
 	{
-		[Token(Token = "0x6001C1D")]
+		[Token(Token = "0x6001BF7")]
 		get;
 	}
 
 	[Token(Token = "0x17000316")]
-	public abstract string KeyAlgorithm
+	public abstract byte[] KeyAlgorithmParameters
 	{
-		[Token(Token = "0x6001C1F")]
+		[Token(Token = "0x6001BF8")]
 		get;
 	}
 
 	[Token(Token = "0x17000317")]
-	public abstract byte[] KeyAlgorithmParameters
+	public abstract byte[] PublicKeyValue
 	{
-		[Token(Token = "0x6001C20")]
+		[Token(Token = "0x6001BF9")]
 		get;
 	}
 
 	[Token(Token = "0x17000318")]
-	public abstract byte[] PublicKeyValue
+	public abstract byte[] SerialNumber
 	{
-		[Token(Token = "0x6001C21")]
+		[Token(Token = "0x6001BFA")]
 		get;
 	}
 
 	[Token(Token = "0x17000319")]
-	public abstract byte[] SerialNumber
-	{
-		[Token(Token = "0x6001C22")]
-		get;
-	}
-
-	[Token(Token = "0x1700031A")]
 	public abstract bool HasPrivateKey
 	{
-		[Token(Token = "0x6001C23")]
+		[Token(Token = "0x6001BFB")]
 		get;
 	}
 
-	[Token(Token = "0x6001C16")]
-	[Address(RVA = "0x19E9D20", Offset = "0x19E8320", VA = "0x1819E9D20")]
+	[Token(Token = "0x6001BEE")]
+	[Address(RVA = "0x5364090", Offset = "0x5363090", VA = "0x5364090")]
 	protected void ThrowIfContextInvalid()
 	{
 	}
 
-	[Token(Token = "0x6001C17")]
+	[Token(Token = "0x6001BEF")]
 	public abstract System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone();
 
-	[Token(Token = "0x6001C1E")]
-	[Address(RVA = "0x19E9C90", Offset = "0x19E8290", VA = "0x1819E9C90", Slot = "2")]
+	[Token(Token = "0x6001BF6")]
+	[Address(RVA = "0x5364140", Offset = "0x5363140", VA = "0x5364140", Slot = "2")]
 	public sealed override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001C24")]
+	[Token(Token = "0x6001BFC")]
 	public abstract RSA GetRSAPrivateKey();
 
-	[Token(Token = "0x6001C25")]
+	[Token(Token = "0x6001BFD")]
 	public abstract DSA GetDSAPrivateKey();
 
-	[Token(Token = "0x6001C26")]
-	public abstract byte[] Export(X509ContentType contentType, Microsoft.Win32.SafeHandles.SafePasswordHandle password);
-
-	[Token(Token = "0x6001C27")]
-	[Address(RVA = "0x19E9A90", Offset = "0x19E8090", VA = "0x1819E9A90", Slot = "0")]
+	[Token(Token = "0x6001BFE")]
+	[Address(RVA = "0x53641D0", Offset = "0x53631D0", VA = "0x53641D0", Slot = "0")]
 	public sealed override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001C28")]
-	[Address(RVA = "0x19E9A30", Offset = "0x19E8030", VA = "0x1819E9A30", Slot = "4")]
+	[Token(Token = "0x6001BFF")]
+	[Address(RVA = "0x5362940", Offset = "0x5361940", VA = "0x5362940", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001C29")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "21")]
+	[Token(Token = "0x6001C00")]
+	[Address(RVA = "0x5364340", Offset = "0x5363340", VA = "0x5364340", Slot = "20")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001C2A")]
-	[Address(RVA = "0x19E9C20", Offset = "0x19E8220", VA = "0x1819E9C20", Slot = "1")]
+	[Token(Token = "0x6001C01")]
+	[Address(RVA = "0x5364350", Offset = "0x5363350", VA = "0x5364350", Slot = "1")]
 	~X509CertificateImpl()
 	{
 	}
 
-	[Token(Token = "0x6001C2B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001C02")]
+	[Address(RVA = "0x53643F0", Offset = "0x53633F0", VA = "0x53643F0")]
 	protected X509CertificateImpl()
 	{
 	}

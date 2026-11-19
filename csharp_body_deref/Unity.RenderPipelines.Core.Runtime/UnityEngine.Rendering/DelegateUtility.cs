@@ -14,7 +14,7 @@ namespace UnityEngine.Rendering;
 public static class DelegateUtility
 {
 	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x2B57E70", Offset = "0x2B56470", VA = "0x182B57E70")]
+	[Address(RVA = "0x6547EA0", Offset = "0x6546EA0", VA = "0x6547EA0")]
 	public static Delegate Cast(Delegate source, Type type)
 	{
 		return null;

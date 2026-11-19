@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000788")]
+[Token(Token = "0x2000833")]
 internal enum VideoUrlPopupResult
 {
-	[Token(Token = "0x4002575")]
+	[Token(Token = "0x40028E6")]
 	None,
-	[Token(Token = "0x4002576")]
+	[Token(Token = "0x40028E7")]
 	Confirm,
-	[Token(Token = "0x4002577")]
+	[Token(Token = "0x40028E8")]
 	Cancel,
-	[Token(Token = "0x4002578")]
+	[Token(Token = "0x40028E9")]
 	Quit
 }

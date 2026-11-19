@@ -47,8 +47,8 @@ public readonly struct ProfilerRecorderDescription
 	[Token(Token = "0x17000014")]
 	public MarkerFlags Flags
 	{
-		[Token(Token = "0x600009D")]
-		[Address(RVA = "0xADC160", Offset = "0xADA760", VA = "0x180ADC160")]
+		[Token(Token = "0x600009F")]
+		[Address(RVA = "0x68B5940", Offset = "0x68B4940", VA = "0x68B5940")]
 		get
 		{
 			return default(MarkerFlags);

@@ -72,13 +72,13 @@ public static class UniTaskValueTaskExtensions
 		private ValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x29132C0", Offset = "0x29118C0", VA = "0x1829132C0", Slot = "4")]
+		[Address(RVA = "0x62CA4E0", Offset = "0x62C94E0", VA = "0x62CA4E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60001A1")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62CA860", Offset = "0x62C9860", VA = "0x62CA860", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -86,7 +86,7 @@ public static class UniTaskValueTaskExtensions
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x291EAA0", Offset = "0x291D0A0", VA = "0x18291EAA0")]
+	[Address(RVA = "0x62CA340", Offset = "0x62C9340", VA = "0x62CA340")]
 	public static ValueTask AsValueTask(this in UniTask task)
 	{
 		return default(ValueTask);
@@ -106,7 +106,7 @@ public static class UniTaskValueTaskExtensions
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x291E9D0", Offset = "0x291CFD0", VA = "0x18291E9D0")]
+	[Address(RVA = "0x62CA430", Offset = "0x62C9430", VA = "0x62CA430")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__3))]
 	public static UniTask AsUniTask(this ValueTask task)
 	{

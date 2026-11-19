@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Changelog.AottgChangelogResult
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Changelog/AottgChangelogResult.cs
@@ -7,22 +7,21 @@
 // --------------------------------
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$.ctor
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object____ctor (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t state, Il2CppObject* value, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, const MethodInfo_1573360* method);
-// 0x181573360
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object____ctor (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t state, Il2CppObject* value, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, const MethodInfo_4CAF440* method);
+// 0x4daf440
 
 void ApplicationManagers_Changelog_AottgChangelogResult_object____ctor
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,int32_t state,
                Il2CppObject *value,System_String_o *error,bool isFromCache,bool isStale,bool isRefreshing,
-               MethodInfo_1573360 *method)
+               MethodInfo_4CAF440 *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = state;
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = isFromCache;
   (__this->fields)._IsStale_k__BackingField = isStale;
   (__this->fields)._IsRefreshing_k__BackingField = isRefreshing;
@@ -31,91 +30,94 @@ void ApplicationManagers_Changelog_AottgChangelogResult_object____ctor
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType____ctor (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t state, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, const MethodInfo_15731F0* method);
-// 0x1815731f0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType____ctor (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t state, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, const MethodInfo_4CAF940* method);
+// 0x4daf940
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType____ctor
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,int32_t state,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,System_String_o *error,
-               bool isFromCache,bool isStale,bool isRefreshing,MethodInfo_15731F0 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,System_String_o *error,
+               bool isFromCache,bool isStale,bool isRefreshing,MethodInfo_4CAF940 *method)
 
 {
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__c *pAVar3;
-  InvokerMethod pIVar4;
-  longlong lVar5;
-  ulonglong uVar6;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *destination;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res18;
-  undefined8 auStack_80 [5];
-  void *apvStack_58 [2];
-  undefined1 local_48 [8];
+  code *pcVar1;
+  long lVar2;
+  undefined8 *puVar3;
+  undefined8 uVar4;
+  long lVar5;
+  void *pvVar6;
+  undefined1 uVar7;
+  int32_t iVar8;
+  undefined8 *__dest;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  undefined3 in_register_00000089;
+  ulong __n;
+  undefined7 in_stack_00000011;
+  undefined8 *apuStack_60 [2];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_50;
+  void *local_48;
+  undefined4 local_3c;
+  undefined4 local_38;
+  int32_t local_34;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_TValue->_2).stack_slot_size;
-  uVar6 = size + 0xf;
-  if (uVar6 <= size) {
-    uVar6 = 0xffffffffffffff0;
+  local_3c = CONCAT31(in_register_00000089,isFromCache);
+  local_48 = value.monitor;
+  local_38 = SUB84(error,0);
+  lVar2 = CONCAT71(in_stack_00000011,isRefreshing);
+  __n = (ulong)*(uint *)(*(long *)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 8) + 0xfc);
+  lVar5 = -(__n + 0xf & 0xfffffffffffffff0);
+  __dest = (undefined8 *)((long)apuStack_60 + lVar5 + 8);
+  local_50 = value.klass;
+  local_34 = state;
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4daf99d;
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  iVar8 = local_34;
+  pcVar1 = *(code **)**(undefined8 **)(*(long *)(lVar2 + 0x20) + 0xc0);
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4daf9b4;
+  (*pcVar1)(__this,iVar8);
+  lVar2 = *(long *)(lVar2 + 0x20);
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_50;
+  if (*(int *)(*(long *)(*(long *)(lVar2 + 0xc0) + 8) + 0x28) < 0) {
+    __src = value.klass;
   }
-  auStack_80[0] = 0x18157324e;
-  lVar5 = -(uVar6 & 0xfffffffffffffff0);
-  destination = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)(local_48 + lVar5);
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x18157325d;
-  local_res18 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  pMVar1 = method->klass->rgctx_data->_0_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_State;
-  pIVar2 = pMVar1->methodPointer;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x181573276;
-  (*pIVar2)(__this,(ulonglong)(uint)state,pMVar1);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&stack0x00000018;
-  if ((int)(method->klass->rgctx_data->_1_TValue->_1).byval_arg.bits < 0) {
-    source = value;
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4daf9dc;
+  memcpy(__dest,__src,__n);
+  lVar2 = *(long *)(lVar2 + 0xc0);
+  puVar3 = *(undefined8 **)(lVar2 + 0x10);
+  uVar4 = *puVar3;
+  if (-1 < *(int *)(*(long *)(lVar2 + 8) + 0x28)) {
+    __dest = (undefined8 *)*__dest;
   }
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x18157329c;
-  memcpy(destination,source,size);
-  if (-1 < (int)(method->klass->rgctx_data->_1_TValue->_1).byval_arg.bits) {
-    destination = (destination->_1).image;
-  }
-  pAVar3 = method->klass;
-  *(Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c **)((longlong)apvStack_58 + lVar5) = destination;
-  pMVar1 = pAVar3->rgctx_data->_2_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_Value;
-  pIVar2 = pMVar1->methodPointer;
-  pIVar4 = pMVar1->invoker_method;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x1815732e1;
-  local_res18 = destination;
-  (*pIVar4)(pIVar2,pMVar1,__this,&stack0x00000018,*(void **)((longlong)apvStack_58 + lVar5));
-  pMVar1 = method->klass->rgctx_data->_3_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_Error;
-  pIVar2 = pMVar1->methodPointer;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x1815732fb;
-  (*pIVar2)(__this,error,pMVar1);
-  pMVar1 = method->klass->rgctx_data->
-           _4_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_IsFromCache;
-  pIVar2 = pMVar1->methodPointer;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x181573316;
-  (*pIVar2)(__this,(ulonglong)isFromCache,pMVar1);
-  pMVar1 = method->klass->rgctx_data->
-           _5_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_IsStale;
-  pIVar2 = pMVar1->methodPointer;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x181573331;
-  (*pIVar2)(__this,(ulonglong)isStale,pMVar1);
-  pMVar1 = method->klass->rgctx_data->
-           _6_ApplicationManagers_Changelog_AottgChangelogResult_TValue__set_IsRefreshing;
-  pIVar2 = pMVar1->methodPointer;
-  *(undefined8 *)((longlong)auStack_80 + lVar5) = 0x18157334f;
-  (*pIVar2)(__this,(ulonglong)isRefreshing,pMVar1);
+  pcVar1 = (code *)puVar3[2];
+  apuStack_60[1] = __dest;
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4dafa09;
+  (*pcVar1)(uVar4,puVar3,__this,apuStack_60 + 1,__dest);
+  pvVar6 = local_48;
+  lVar2 = CONCAT71(in_stack_00000011,isRefreshing);
+  pcVar1 = (code *)**(undefined8 **)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x18);
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4dafa25;
+  (*pcVar1)(__this,pvVar6);
+  uVar7 = (undefined1)local_38;
+  pcVar1 = (code *)**(undefined8 **)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x20);
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4dafa3d;
+  (*pcVar1)(__this,uVar7);
+  uVar7 = (undefined1)local_3c;
+  pcVar1 = (code *)**(undefined8 **)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x28);
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4dafa55;
+  (*pcVar1)(__this,uVar7);
+  pcVar1 = (code *)**(undefined8 **)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x30);
+  *(undefined8 *)((long)apuStack_60 + lVar5) = 0x4dafa6d;
+  (*pcVar1)(__this,isStale);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_State
-// il2cpp: int32_t ApplicationManagers_Changelog_AottgChangelogResult_object___get_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_546860* method);
-// 0x180546860
+// il2cpp: int32_t ApplicationManagers_Changelog_AottgChangelogResult_object___get_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF4B0* method);
+// 0x4daf4b0
 
-int32_t
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_State(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_546860* method)
+int32_t ApplicationManagers_Changelog_AottgChangelogResult_object___get_State
+                  (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
+                  MethodInfo_4CAF4B0 *method)
 
 {
   return (__this->fields)._State_k__BackingField;
@@ -123,12 +125,12 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_State(Applicatio
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_State
-// il2cpp: int32_t ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_15734B0* method);
-// 0x1815734b0
+// il2cpp: int32_t ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFA80* method);
+// 0x4dafa80
 
 int32_t ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_State
                   (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
-                  MethodInfo_15734B0 *method)
+                  MethodInfo_4CAFA80 *method)
 
 {
   int32_t *piVar1;
@@ -141,11 +143,12 @@ int32_t ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGe
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_State
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t value, const MethodInfo_560B20* method);
-// 0x180560b20
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t value, const MethodInfo_4CAF4C0* method);
+// 0x4daf4c0
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_State(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t value, MethodInfo_560B20* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_State
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,int32_t value,
+               MethodInfo_4CAF4C0 *method)
 
 {
   (__this->fields)._State_k__BackingField = value;
@@ -154,35 +157,34 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___set_State(Applicatio
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_State
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t value, const MethodInfo_1573740* method);
-// 0x181573740
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_State (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, int32_t value, const MethodInfo_4CAFAA0* method);
+// 0x4dafaa0
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_State
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,int32_t value,
-               MethodInfo_1573740 *method)
+               MethodInfo_4CAFAA0 *method)
 
 {
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__RGCTXs *message;
   void *field;
   int32_t *piVar1;
-  MethodInfo *in_R9;
   
-  message = method->klass->rgctx_data;
-  field = (message->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).fields;
-  _guard_check_icall((int32_t)field,(System_String_o **)0x4,(System_String_o **)message,in_R9);
+  field = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
+          fields;
+  il2cpp_runtime_helper_030d6090(field,4);
   piVar1 = il2cpp_codegen_get_instance_field_data_pointer(__this,field);
   *piVar1 = value;
-  il2cpp_runtime_helper_180416190(*(undefined8 *)((longlong)field + 8),piVar1,0);
+  il2cpp_runtime_helper_030d5fc0(*(undefined8 *)((long)field + 8),piVar1,0);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_Value
-// il2cpp: Il2CppObject* ApplicationManagers_Changelog_AottgChangelogResult_object___get_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_573E90* method);
-// 0x180573e90
+// il2cpp: Il2CppObject* ApplicationManagers_Changelog_AottgChangelogResult_object___get_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF4D0* method);
+// 0x4daf4d0
 
-Il2CppObject*
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_Value(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_573E90* method)
+Il2CppObject *
+ApplicationManagers_Changelog_AottgChangelogResult_object___get_Value
+          (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_4CAF4D0 *method)
 
 {
   return (__this->fields)._Value_k__BackingField;
@@ -190,103 +192,88 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_Value(Applicatio
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_Value
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_15734E0* method);
-// 0x1815734e0
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFAF0* method);
+// 0x4dafaf0
 
-Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *
+Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Value
-          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *__return_storage_ptr__,
-          ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_15734E0 *method)
+          (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_4CAFAF0 *method)
 
 {
-  longlong lVar1;
-  ulonglong uVar2;
-  void *pvVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar4;
-  ulonglong size;
-  undefined8 auStack_50 [5];
+  uint uVar1;
+  long lVar2;
+  void *__src;
+  long in_RDX;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar3;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_TValue->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x181573527;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  pvVar3 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-           fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x181573551;
-  pvVar3 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__return_storage_ptr__,(void *)((longlong)pvVar3 + 0x20));
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x18157355f;
-  memcpy(&stack0xffffffffffffffd8 + lVar1,pvVar3,size);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x18157356d;
-  pUVar4 = memcpy(__this,&stack0xffffffffffffffd8 + lVar1,size);
-  return pUVar4;
+  lVar2 = *(long *)(*(long *)(in_RDX + 0x20) + 0xc0);
+  uVar1 = *(uint *)(*(long *)(lVar2 + 8) + 0xfc);
+  __src = il2cpp_codegen_get_instance_field_data_pointer
+                    (__this,(void *)(*(long *)(*(long *)(lVar2 + 0x38) + 0x80) + 0x20));
+  UVar3.klass = memmove(method,__src,(ulong)uVar1);
+  UVar3.monitor = UVar3.monitor;
+  return UVar3;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_Value
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, Il2CppObject* value, const MethodInfo_C8DE30* method);
-// 0x180c8de30
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, Il2CppObject* value, const MethodInfo_4CAF4E0* method);
+// 0x4daf4e0
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_Value(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, Il2CppObject* value, MethodInfo_C8DE30* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Value
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,Il2CppObject *value,
+               MethodInfo_4CAF4E0 *method)
 
 {
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_Value
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_15737B0* method);
-// 0x1815737b0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Value (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_4CAFB40* method);
+// 0x4dafb40
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Value
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,MethodInfo_15737B0 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_4CAFB40 *method)
 
 {
-  uint uVar1;
-  void *pvVar2;
-  longlong lVar3;
-  ulonglong uVar4;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res10;
-  undefined8 auStack_40 [5];
+  uint size;
+  long lVar1;
+  long lVar2;
+  long lVar3;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  undefined8 uStack_40;
+  undefined1 auStack_38 [8];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_30;
   
-  uVar1 = (method->klass->rgctx_data->_1_TValue->_2).stack_slot_size;
-  size = (ulonglong)uVar1;
-  uVar4 = size + 0xf;
-  if (uVar4 <= size) {
-    uVar4 = 0xffffffffffffff0;
+  local_30 = value.klass;
+  lVar1 = *(long *)((long)value.monitor + 0x20);
+  lVar2 = *(long *)(*(long *)(lVar1 + 0xc0) + 8);
+  size = *(uint *)(lVar2 + 0xfc);
+  lVar3 = -((ulong)size + 0xf & 0xfffffffffffffff0);
+  __src = local_30;
+  if (-1 < *(int *)(lVar2 + 0x28)) {
+    __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_30;
   }
-  auStack_40[0] = 0x181573804;
-  lVar3 = -(uVar4 & 0xfffffffffffffff0);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&local_res10;
-  if ((int)(method->klass->rgctx_data->_1_TValue->_1).byval_arg.bits < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x181573832;
-  local_res10 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  memcpy(&stack0xffffffffffffffe8 + lVar3,source,size);
-  pvVar2 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-           fields;
-  *(undefined8 *)((longlong)auStack_40 + lVar3) = 0x18157385a;
-  il2cpp_runtime_helper_180417320(__this,(longlong)pvVar2 + 0x20,&stack0xffffffffffffffe8 + lVar3,uVar1);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x4dafb95;
+  memcpy(auStack_38 + lVar3,__src,(ulong)size);
+  lVar1 = *(long *)(*(long *)(*(long *)(lVar1 + 0xc0) + 0x38) + 0x80);
+  *(undefined8 *)(auStack_38 + lVar3 + -8) = 0x4dafbba;
+  il2cpp_codegen_write_instance_field_data(__this,(void *)(lVar1 + 0x20),auStack_38 + lVar3,size);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_Error
-// il2cpp: System_String_o* ApplicationManagers_Changelog_AottgChangelogResult_object___get_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_5852B0* method);
-// 0x1805852b0
+// il2cpp: System_String_o* ApplicationManagers_Changelog_AottgChangelogResult_object___get_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF4F0* method);
+// 0x4daf4f0
 
-System_String_o*
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_Error(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_5852B0* method)
+System_String_o *
+ApplicationManagers_Changelog_AottgChangelogResult_object___get_Error
+          (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_4CAF4F0 *method)
 
 {
   return (__this->fields)._Error_k__BackingField;
@@ -294,69 +281,70 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_Error(Applicatio
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_Error
-// il2cpp: System_String_o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_15733D0* method);
-// 0x1815733d0
+// il2cpp: System_String_o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFBD0* method);
+// 0x4dafbd0
 
 System_String_o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_Error
-          (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_15733D0 *method)
+          (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,MethodInfo_4CAFBD0 *method)
 
 {
   undefined8 *puVar1;
   
   puVar1 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__this,(void *)((longlong)
-                                      (method->klass->rgctx_data->
-                                       _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-                                      fields + 0x40));
+                     (__this,(void *)((long)(method->klass->rgctx_data->
+                                             _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1
+                                            ).fields + 0x40));
   return (System_String_o *)*puVar1;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_Error
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, System_String_o* value, const MethodInfo_ACE2F0* method);
-// 0x180ace2f0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, System_String_o* value, const MethodInfo_4CAF500* method);
+// 0x4daf500
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_Error(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, System_String_o* value, MethodInfo_ACE2F0* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_Error
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,System_String_o *value,
+               MethodInfo_4CAF500 *method)
 
 {
   (__this->fields)._Error_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_Error
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, System_String_o* value, const MethodInfo_1573580* method);
-// 0x181573580
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Error (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, System_String_o* value, const MethodInfo_4CAFC00* method);
+// 0x4dafc00
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_Error
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,System_String_o *value,
-               MethodInfo_1573580 *method)
+               MethodInfo_4CAFC00 *method)
 
 {
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__RGCTXs *message;
+  void *field;
   void *pvVar1;
   undefined8 *puVar2;
-  MethodInfo *in_R9;
   
-  message = method->klass->rgctx_data;
-  pvVar1 = (message->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).fields;
-  _guard_check_icall((int)pvVar1 + 0x40,(System_String_o **)&g_data_00000008,(System_String_o **)message,in_R9);
-  puVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)((longlong)pvVar1 + 0x40));
+  pvVar1 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
+           fields;
+  field = (void *)((long)pvVar1 + 0x40);
+  il2cpp_runtime_helper_030d6090(field,8);
+  puVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,field);
   *puVar2 = value;
-  il2cpp_runtime_helper_180416190(*(undefined8 *)((longlong)pvVar1 + 0x48),puVar2,0);
+  il2cpp_runtime_helper_030d5fc0(*(undefined8 *)((long)pvVar1 + 0x48),puVar2,0);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_IsFromCache
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_F1D480* method);
-// 0x180f1d480
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF510* method);
+// 0x4daf510
 
-bool
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsFromCache(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_F1D480* method)
+bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsFromCache
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
+               MethodInfo_4CAF510 *method)
 
 {
   return (__this->fields)._IsFromCache_k__BackingField;
@@ -364,31 +352,31 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsFromCache(Appl
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_IsFromCache
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_1573400* method);
-// 0x181573400
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFC60* method);
+// 0x4dafc60
 
 bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsFromCache
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
-               MethodInfo_1573400 *method)
+               MethodInfo_4CAFC60 *method)
 
 {
   undefined1 *puVar1;
   
   puVar1 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__this,(void *)((longlong)
-                                      (method->klass->rgctx_data->
-                                       _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-                                      fields + 0x60));
+                     (__this,(void *)((long)(method->klass->rgctx_data->
+                                             _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1
+                                            ).fields + 0x60));
   return (bool)*puVar1;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_IsFromCache
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_F1D940* method);
-// 0x180f1d940
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAF520* method);
+// 0x4daf520
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsFromCache(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, MethodInfo_F1D940* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsFromCache
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
+               MethodInfo_4CAF520 *method)
 
 {
   (__this->fields)._IsFromCache_k__BackingField = value;
@@ -397,35 +385,35 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsFromCache(Appl
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_IsFromCache
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_15735E0* method);
-// 0x1815735e0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsFromCache (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAFC90* method);
+// 0x4dafc90
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsFromCache
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
-               MethodInfo_15735E0 *method)
+               MethodInfo_4CAFC90 *method)
 
 {
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__RGCTXs *message;
   void *pvVar1;
   void *pvVar2;
-  MethodInfo *in_R9;
   
-  message = method->klass->rgctx_data;
-  pvVar1 = (message->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).fields;
-  _guard_check_icall((int)pvVar1 + 0x60,(System_String_o **)0x1,(System_String_o **)message,in_R9);
-  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)((longlong)pvVar1 + 0x60));
+  pvVar1 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
+           fields;
+  pvVar2 = (void *)((long)pvVar1 + 0x60);
+  il2cpp_runtime_helper_030d6090(pvVar2,1);
+  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar2);
   *(bool *)pvVar2 = value;
-  il2cpp_runtime_helper_180416190(*(undefined8 *)((longlong)pvVar1 + 0x68),pvVar2,0);
+  il2cpp_runtime_helper_030d5fc0(*(undefined8 *)((long)pvVar1 + 0x68),pvVar2,0);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_IsStale
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_1573470* method);
-// 0x181573470
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF530* method);
+// 0x4daf530
 
-bool
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsStale(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_1573470* method)
+bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsStale
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
+               MethodInfo_4CAF530 *method)
 
 {
   return (__this->fields)._IsStale_k__BackingField;
@@ -433,31 +421,31 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsStale(Applicat
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_IsStale
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_1573480* method);
-// 0x181573480
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFCF0* method);
+// 0x4dafcf0
 
 bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsStale
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
-               MethodInfo_1573480 *method)
+               MethodInfo_4CAFCF0 *method)
 
 {
   undefined1 *puVar1;
   
   puVar1 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__this,(void *)((longlong)
-                                      (method->klass->rgctx_data->
-                                       _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-                                      fields + 0x80));
+                     (__this,(void *)((long)(method->klass->rgctx_data->
+                                             _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1
+                                            ).fields + 0x80));
   return (bool)*puVar1;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_IsStale
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_15736C0* method);
-// 0x1815736c0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAF540* method);
+// 0x4daf540
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsStale(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, MethodInfo_15736C0* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsStale
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
+               MethodInfo_4CAF540 *method)
 
 {
   (__this->fields)._IsStale_k__BackingField = value;
@@ -466,35 +454,35 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsStale(Applicat
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_IsStale
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_15736D0* method);
-// 0x1815736d0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsStale (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAFD20* method);
+// 0x4dafd20
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsStale
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
-               MethodInfo_15736D0 *method)
+               MethodInfo_4CAFD20 *method)
 
 {
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__RGCTXs *message;
   void *pvVar1;
   void *pvVar2;
-  MethodInfo *in_R9;
   
-  message = method->klass->rgctx_data;
-  pvVar1 = (message->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).fields;
-  _guard_check_icall((int)pvVar1 + 0x80,(System_String_o **)0x1,(System_String_o **)message,in_R9);
-  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)((longlong)pvVar1 + 0x80));
+  pvVar1 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
+           fields;
+  pvVar2 = (void *)((long)pvVar1 + 0x80);
+  il2cpp_runtime_helper_030d6090(pvVar2,1);
+  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar2);
   *(bool *)pvVar2 = value;
-  il2cpp_runtime_helper_180416190(*(undefined8 *)((longlong)pvVar1 + 0x88),pvVar2,0);
+  il2cpp_runtime_helper_030d5fc0(*(undefined8 *)((long)pvVar1 + 0x88),pvVar2,0);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$get_IsRefreshing
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_1573430* method);
-// 0x181573430
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAF550* method);
+// 0x4daf550
 
-bool
-ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsRefreshing(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, MethodInfo_1573430* method)
+bool ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsRefreshing
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
+               MethodInfo_4CAF550 *method)
 
 {
   return (__this->fields)._IsRefreshing_k__BackingField;
@@ -502,31 +490,31 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___get_IsRefreshing(App
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$get_IsRefreshing
-// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_1573440* method);
-// 0x181573440
+// il2cpp: bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, const MethodInfo_4CAFD80* method);
+// 0x4dafd80
 
 bool ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___get_IsRefreshing
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,
-               MethodInfo_1573440 *method)
+               MethodInfo_4CAFD80 *method)
 
 {
   undefined1 *puVar1;
   
   puVar1 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__this,(void *)((longlong)
-                                      (method->klass->rgctx_data->
-                                       _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
-                                      fields + 0xa0));
+                     (__this,(void *)((long)(method->klass->rgctx_data->
+                                             _7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1
+                                            ).fields + 0xa0));
   return (bool)*puVar1;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$set_IsRefreshing
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_15736B0* method);
-// 0x1815736b0
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAF560* method);
+// 0x4daf560
 
-void
-ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsRefreshing(ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, MethodInfo_15736B0* method)
+void ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsRefreshing
+               (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
+               MethodInfo_4CAF560 *method)
 
 {
   (__this->fields)._IsRefreshing_k__BackingField = value;
@@ -535,35 +523,34 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___set_IsRefreshing(App
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$set_IsRefreshing
-// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_1573640* method);
-// 0x181573640
+// il2cpp: void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsRefreshing (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* __this, bool value, const MethodInfo_4CAFDB0* method);
+// 0x4dafdb0
 
 void ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___set_IsRefreshing
                (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this,bool value,
-               MethodInfo_1573640 *method)
+               MethodInfo_4CAFDB0 *method)
 
 {
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__RGCTXs *message;
   void *pvVar1;
   void *pvVar2;
-  MethodInfo *in_R9;
   
-  message = method->klass->rgctx_data;
-  pvVar1 = (message->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).fields;
-  _guard_check_icall((int)pvVar1 + 0xa0,(System_String_o **)0x1,(System_String_o **)message,in_R9);
-  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)((longlong)pvVar1 + 0xa0));
+  pvVar1 = (method->klass->rgctx_data->_7_ApplicationManagers_Changelog_AottgChangelogResult_TValue_->_1).
+           fields;
+  pvVar2 = (void *)((long)pvVar1 + 0xa0);
+  il2cpp_runtime_helper_030d6090(pvVar2,1);
+  pvVar2 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar2);
   *(bool *)pvVar2 = value;
-  il2cpp_runtime_helper_180416190(*(undefined8 *)((longlong)pvVar1 + 0xa8),pvVar2,0);
+  il2cpp_runtime_helper_030d5fc0(*(undefined8 *)((long)pvVar1 + 0xa8),pvVar2,0);
   return;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$LoadingNoCache
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache (const MethodInfo_1572AC0* method);
-// 0x181572ac0
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache (const MethodInfo_4CAF570* method);
+// 0x4daf570
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
-ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache(MethodInfo_1572AC0 *method)
+ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache(MethodInfo_4CAF570 *method)
 
 {
   Il2CppClass *pIVar1;
@@ -581,13 +568,12 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache(Metho
   if (((((Il2CppClass *)method->klass)->_2).bitflags1 & 1) == 0) {
     il2cpp_codegen_class_init_checked((Il2CppClass *)method->klass);
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 0;
   (__this->fields)._Value_k__BackingField = (Il2CppObject *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = false;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = true;
@@ -596,123 +582,119 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___LoadingNoCache(Metho
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$LoadingNoCache
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___LoadingNoCache (const MethodInfo_1572B60* method);
-// 0x181572b60
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___LoadingNoCache (const MethodInfo_4CAFE10* method);
+// 0x4dafe10
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4dafefe: jmp 0x4daff1b
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___LoadingNoCache
-          (MethodInfo_1572B60 *method)
+          (MethodInfo_4CAFE10 *method)
 
 {
-  longlong lVar1;
+  Il2CppMethodPointer pIVar1;
   MethodInfo *pMVar2;
-  MethodInfo *pMVar3;
-  Il2CppMethodPointer pIVar4;
-  InvokerMethod pIVar5;
-  longlong lVar6;
-  longlong lVar7;
-  Il2CppClass *pIVar8;
-  ulonglong uVar9;
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar10;
-  ulonglong uVar11;
-  longlong *plVar12;
-  undefined1 local_res8 [8];
-  undefined1 local_res10 [8];
-  undefined1 local_res18 [8];
-  undefined4 local_res20 [2];
-  undefined8 auStack_90 [5];
-  longlong alStack_68 [2];
-  undefined4 *local_58;
-  longlong local_50;
-  undefined8 local_48;
+  InvokerMethod pIVar3;
+  long lVar4;
+  Il2CppClass *pIVar5;
+  Il2CppClass *pIVar6;
+  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar7;
+  ushort uVar8;
+  ulong __n;
+  undefined1 *puVar9;
+  undefined8 *__s;
+  undefined8 uStack_70;
+  undefined1 *local_68 [4];
+  undefined1 *local_48;
   undefined1 *local_40;
-  undefined1 *local_38;
-  undefined1 *local_30;
+  undefined4 local_38;
+  undefined1 local_33;
+  undefined1 local_32;
+  undefined1 local_31;
   
-  pIVar8 = (Il2CppClass *)method->klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    auStack_90[0] = 0x181572b88;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  pIVar5 = (Il2CppClass *)method->klass;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    uStack_70 = 0x4dafe39;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = (Il2CppClass *)method->klass;
   }
-  uVar11 = (ulonglong)((pIVar8->rgctx_data[1].klass)->_2).stack_slot_size;
-  uVar9 = uVar11 + 0xf;
-  if (uVar9 <= uVar11) {
-    uVar9 = 0xffffffffffffff0;
+  else {
+    pIVar6 = pIVar5;
   }
-  auStack_90[0] = 0x181572bb8;
-  lVar6 = -(uVar9 & 0xfffffffffffffff0);
-  uVar9 = uVar11 + 0xf;
-  plVar12 = (longlong *)((longlong)&local_58 + lVar6);
-  if (uVar9 <= uVar11) {
-    uVar9 = 0xffffffffffffff0;
+  __n = (ulong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
+  lVar4 = -(__n + 0xf & 0xfffffffffffffff0);
+  __s = (undefined8 *)((long)local_68 + lVar4);
+  *(undefined8 *)((long)local_68 + lVar4 + -8) = 0x4dafe6e;
+  memset(__s,0,__n);
+  puVar9 = (undefined1 *)((long)local_68 + lVar4);
+  if (((pIVar6->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)((long)local_68 + lVar4 + -8) = 0x4dafe7f;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    puVar9 = (undefined1 *)((long)local_68 + lVar4);
   }
-  *(undefined8 *)((longlong)auStack_90 + lVar6) = 0x181572bd5;
-  lVar7 = -(uVar9 & 0xfffffffffffffff0);
-  lVar1 = (longlong)&local_58 + lVar7 + lVar6;
-  *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572bea;
-  il2cpp_runtime_helper_180522500(lVar1,0,uVar11);
-  *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572bf7;
-  il2cpp_runtime_helper_180522500(lVar1,0,uVar11);
-  *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c04;
-  il2cpp_runtime_helper_180522500(plVar12,0,uVar11);
-  pIVar8 = (Il2CppClass *)method->klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c19;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  pIVar5 = pIVar6->rgctx_data[7].klass;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)(puVar9 + -8) = 0x4dafe9b;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
-  pIVar8 = pIVar8->rgctx_data[7].klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c35;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  *(undefined8 *)(puVar9 + -8) = 0x4dafea3;
+  pAVar7 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar5);
+  pIVar5 = (Il2CppClass *)method->klass;
+  uVar8._0_1_ = (pIVar5->_2).bitflags1;
+  uVar8._1_1_ = (pIVar5->_2).bitflags2;
+  if ((uVar8 & 1) == 0) {
+    *(undefined8 *)(puVar9 + -8) = 0x4dafebb;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = (Il2CppClass *)method->klass;
+    uVar8._0_1_ = (pIVar6->_2).bitflags1;
+    uVar8._1_1_ = (pIVar6->_2).bitflags2;
   }
-  *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c3d;
-  pAVar10 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar8);
-  pIVar8 = (Il2CppClass *)method->klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c55;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  else {
+    pIVar6 = pIVar5;
   }
-  if (-1 < *(int *)&(pIVar8->rgctx_data[1].method)->return_type) {
-    plVar12 = (longlong *)*plVar12;
+  pIVar1 = (pIVar5->rgctx_data[8].method)->methodPointer;
+  if ((uVar8 & 1) == 0) {
+    *(undefined8 *)(puVar9 + -8) = 0x4dafee3;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar6 = (Il2CppClass *)method->klass;
+    uVar8._0_1_ = (pIVar6->_2).bitflags1;
+    uVar8._1_1_ = (pIVar6->_2).bitflags2;
+    pMVar2 = pIVar5->rgctx_data[8].method;
   }
-  pIVar8 = (Il2CppClass *)method->klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572c82;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  else {
+    pMVar2 = pIVar6->rgctx_data[8].method;
   }
-  pMVar2 = pIVar8->rgctx_data[8].method;
-  pIVar8 = (Il2CppClass *)method->klass;
-  if (((pIVar8->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572ca2;
-    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  if ((uVar8 & 1) == 0) {
+    *(undefined8 *)(puVar9 + -8) = 0x4daff18;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
   }
-  local_58 = local_res20;
-  local_res8[0] = 1;
-  local_res20[0] = 0;
-  local_40 = local_res10;
-  local_48 = 0;
-  local_38 = local_res18;
-  local_res18[0] = 0;
-  local_30 = local_res8;
-  pMVar3 = pIVar8->rgctx_data[8].method;
-  local_res10[0] = 0;
-  local_50 = (longlong)plVar12;
-  *(undefined1 **)((longlong)alStack_68 + lVar7 + lVar6) = local_res8;
-  pIVar4 = pMVar3->methodPointer;
-  pIVar5 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_90 + lVar7 + lVar6) = 0x181572cff;
-  (*pIVar5)(pIVar4,pMVar2,pAVar10,&local_58,*(void **)((longlong)alStack_68 + lVar7 + lVar6));
-  return pAVar10;
+  if (-1 < (int)pIVar6->rgctx_data[1].type[2].bits) {
+    __s = (undefined8 *)*__s;
+  }
+  local_38 = 0;
+  local_33 = 0;
+  local_32 = 0;
+  local_31 = 1;
+  local_68[0] = (undefined1 *)&local_38;
+  local_68[2] = (undefined1 *)0x0;
+  local_68[3] = &local_33;
+  local_48 = &local_32;
+  pIVar3 = pMVar2->invoker_method;
+  local_68[1] = (undefined1 *)__s;
+  local_40 = &local_31;
+  *(undefined8 *)(puVar9 + -8) = 0x4daff80;
+  (*pIVar3)(pIVar1,pMVar2,pAVar7,local_68,&local_31);
+  return pAVar7;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$ReadyFresh
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyFresh (Il2CppObject* value, bool isFromCache, const MethodInfo_1572ED0* method);
-// 0x181572ed0
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyFresh (Il2CppObject* value, bool isFromCache, const MethodInfo_4CAF620* method);
+// 0x4daf620
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyFresh
-          (Il2CppObject *value,bool isFromCache,MethodInfo_1572ED0 *method)
+          (Il2CppObject *value,bool isFromCache,MethodInfo_4CAF620 *method)
 
 {
   Il2CppClass *pIVar1;
@@ -730,13 +712,12 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyFresh
   if (((((Il2CppClass *)method->klass)->_2).bitflags1 & 1) == 0) {
     il2cpp_codegen_class_init_checked((Il2CppClass *)method->klass);
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 1;
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = isFromCache;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = false;
@@ -745,118 +726,147 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyFresh
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$ReadyFresh
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyFresh (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, bool isFromCache, const MethodInfo_1572D10* method);
-// 0x181572d10
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyFresh (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, bool isFromCache, const MethodInfo_4CAFFA0* method);
+// 0x4daffa0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4db00d1: jmp 0x4db00ee
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyFresh
-          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,bool isFromCache,
-          MethodInfo_1572D10 *method)
+          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,bool isFromCache,
+          MethodInfo_4CAFFA0 *method)
 
 {
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
+  Il2CppMethodPointer pIVar1;
+  MethodInfo *pMVar2;
   InvokerMethod pIVar3;
-  longlong lVar4;
+  long lVar4;
+  ushort uVar8;
+  ushort uVar9;
   Il2CppClass *pIVar5;
-  ulonglong uVar6;
+  Il2CppClass *pIVar6;
   ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar7;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  undefined8 *destination;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o local_res8;
-  undefined1 local_res18 [8];
-  undefined4 local_res20 [2];
-  undefined8 auStack_a0 [5];
-  longlong alStack_78 [2];
-  void *local_68 [3];
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *local_50;
-  undefined1 *local_48;
-  void **local_40;
+  undefined7 in_register_00000011;
+  long lVar10;
+  undefined8 *puVar11;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUVar12;
+  ulong __n;
+  undefined8 *__dest;
+  undefined8 uStack_80;
+  undefined1 *local_78 [4];
+  undefined1 *local_58;
+  undefined1 *local_50;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_48;
+  undefined4 local_3c;
+  undefined4 local_38;
+  undefined1 local_33;
+  undefined1 local_32;
+  undefined1 local_31;
   
-  pIVar5 = (Il2CppClass *)method->klass;
-  local_res8.klass = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    auStack_a0[0] = 0x181572d45;
+  lVar10 = CONCAT71(in_register_00000011,isFromCache);
+  pUVar12 = value.klass;
+  pIVar5 = *(Il2CppClass **)(lVar10 + 0x20);
+  uVar8._0_1_ = (pIVar5->_2).bitflags1;
+  uVar8._1_1_ = (pIVar5->_2).bitflags2;
+  local_38 = value.monitor._0_4_;
+  local_48 = pUVar12;
+  if ((uVar8 & 1) == 0) {
+    uStack_80 = 0x4daffd6;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = *(Il2CppClass **)(lVar10 + 0x20);
+    uVar8._0_1_ = (pIVar6->_2).bitflags1;
+    uVar8._1_1_ = (pIVar6->_2).bitflags2;
   }
-  size = (ulonglong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
-  uVar6 = size + 0xf;
-  if (uVar6 <= size) {
-    uVar6 = 0xffffffffffffff0;
+  else {
+    pIVar6 = pIVar5;
   }
-  auStack_a0[0] = 0x181572d72;
-  lVar4 = -(uVar6 & 0xfffffffffffffff0);
-  pIVar5 = (Il2CppClass *)method->klass;
-  destination = (undefined8 *)((longlong)local_68 + lVar4);
+  __n = (ulong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
+  lVar4 = -(__n + 0xf & 0xfffffffffffffff0);
+  __dest = (undefined8 *)((long)local_78 + lVar4);
+  if ((uVar8 & 1) == 0) {
+    *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db0016;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar5 = *(Il2CppClass **)(lVar10 + 0x20);
+    puVar11 = (undefined8 *)((long)local_78 + lVar4);
+  }
+  else {
+    pIVar5 = pIVar6;
+    puVar11 = __dest;
+  }
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_48;
+  if ((int)pIVar6->rgctx_data[1].type[2].bits < 0) {
+    __src = pUVar12;
+  }
+  puVar11[-1] = 0x4db0041;
+  memcpy(__dest,__src,__n);
   if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572d8f;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
-  }
-  source = &local_res8;
-  if (*(int *)&(pIVar5->rgctx_data[1].method)->return_type < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572db1;
-  memcpy(destination,source,size);
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572dc6;
+    puVar11[-1] = 0x4db0052;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
   pIVar5 = pIVar5->rgctx_data[7].klass;
   if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572de2;
+    puVar11[-1] = 0x4db006e;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
-  *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572dea;
+  puVar11[-1] = 0x4db0076;
   pAVar7 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar5);
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572e02;
+  pIVar5 = *(Il2CppClass **)(lVar10 + 0x20);
+  uVar9._0_1_ = (pIVar5->_2).bitflags1;
+  uVar9._1_1_ = (pIVar5->_2).bitflags2;
+  if ((uVar9 & 1) == 0) {
+    puVar11[-1] = 0x4db008e;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = *(Il2CppClass **)(lVar10 + 0x20);
+    uVar9._0_1_ = (pIVar6->_2).bitflags1;
+    uVar9._1_1_ = (pIVar6->_2).bitflags2;
   }
-  if (-1 < *(int *)&(pIVar5->rgctx_data[1].method)->return_type) {
-    destination = (undefined8 *)*destination;
+  else {
+    pIVar6 = pIVar5;
   }
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572e2f;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+  pIVar1 = (pIVar5->rgctx_data[8].method)->methodPointer;
+  if ((uVar9 & 1) == 0) {
+    puVar11[-1] = 0x4db00b6;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar6 = *(Il2CppClass **)(lVar10 + 0x20);
+    uVar9._0_1_ = (pIVar6->_2).bitflags1;
+    uVar9._1_1_ = (pIVar6->_2).bitflags2;
+    pMVar2 = pIVar5->rgctx_data[8].method;
   }
-  pMVar1 = pIVar5->rgctx_data[8].method;
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572e4f;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+  else {
+    pMVar2 = pIVar6->rgctx_data[8].method;
   }
-  local_68[0] = local_res20;
-  local_res8.monitor._0_1_ = 0;
-  local_50 = &local_res8;
-  local_res18[0] = 0;
-  local_48 = local_res18;
-  local_res8.klass =
-       (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)CONCAT71(local_res8.klass._1_7_,isFromCache);
-  local_40 = &local_res8.monitor;
-  local_res20[0] = 1;
-  local_68[1] = destination;
-  local_68[2] = (void *)0x0;
-  pIVar2 = (pIVar5->rgctx_data[8].method)->methodPointer;
-  *(void ***)((longlong)alStack_78 + lVar4) = &local_res8.monitor;
-  pIVar3 = pMVar1->invoker_method;
-  *(undefined8 *)((longlong)auStack_a0 + lVar4) = 0x181572ebe;
-  (*pIVar3)(pIVar2,pMVar1,pAVar7,local_68,*(void **)((longlong)alStack_78 + lVar4));
+  if ((uVar9 & 1) == 0) {
+    puVar11[-1] = 0x4db00eb;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+  }
+  if (-1 < (int)pIVar6->rgctx_data[1].type[2].bits) {
+    __dest = (undefined8 *)*__dest;
+  }
+  local_3c = 1;
+  local_33 = (undefined1)local_38;
+  local_32 = 0;
+  local_31 = 0;
+  local_78[0] = (undefined1 *)&local_3c;
+  local_78[2] = (undefined1 *)0x0;
+  local_78[3] = &local_33;
+  local_58 = &local_32;
+  pIVar3 = pMVar2->invoker_method;
+  local_78[1] = (undefined1 *)__dest;
+  local_50 = &local_31;
+  puVar11[-1] = 0x4db0153;
+  (*pIVar3)(pIVar1,pMVar2,pAVar7,local_78,&local_31);
   return pAVar7;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$ReadyStaleRefreshing
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyStaleRefreshing (Il2CppObject* value, const MethodInfo_1573130* method);
-// 0x181573130
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyStaleRefreshing (Il2CppObject* value, const MethodInfo_4CAF6D0* method);
+// 0x4daf6d0
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyStaleRefreshing
-          (Il2CppObject *value,MethodInfo_1573130 *method)
+          (Il2CppObject *value,MethodInfo_4CAF6D0 *method)
 
 {
   Il2CppClass *pIVar1;
@@ -874,13 +884,12 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyStaleRefreshing
   if (((((Il2CppClass *)method->klass)->_2).bitflags1 & 1) == 0) {
     il2cpp_codegen_class_init_checked((Il2CppClass *)method->klass);
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 2;
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = true;
   (__this->fields)._IsStale_k__BackingField = true;
   (__this->fields)._IsRefreshing_k__BackingField = true;
@@ -889,150 +898,177 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___ReadyStaleRefreshing
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$ReadyStaleRefreshing
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyStaleRefreshing (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_1572F80* method);
-// 0x181572f80
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyStaleRefreshing (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_4CB0170* method);
+// 0x4db0170
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4db029e: jmp 0x4db02bb
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___ReadyStaleRefreshing
-          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,MethodInfo_1572F80 *method)
+          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_4CB0170 *method)
 
 {
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
+  Il2CppMethodPointer pIVar1;
+  MethodInfo *pMVar2;
   InvokerMethod pIVar3;
-  longlong lVar4;
+  long lVar4;
   Il2CppClass *pIVar5;
-  ulonglong uVar6;
+  Il2CppClass *pIVar6;
   ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar7;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  undefined8 *destination;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o local_res8;
-  undefined1 local_res18 [8];
-  undefined4 local_res20 [2];
-  undefined8 auStack_90 [5];
-  longlong alStack_68 [2];
-  void *local_58 [3];
-  void **local_40;
-  undefined1 *local_38;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *local_30;
+  ushort uVar8;
+  ushort uVar9;
+  undefined8 *puVar10;
+  void *pvVar11;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUVar12;
+  undefined8 *__dest;
+  ulong __n;
+  undefined8 uStack_80;
+  undefined1 *local_78 [4];
+  undefined1 *local_58;
+  undefined1 *local_50;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_40;
+  undefined4 local_38;
+  undefined1 local_33;
+  undefined1 local_32;
+  undefined1 local_31;
   
-  pIVar5 = (Il2CppClass *)method->klass;
-  local_res8.klass = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    auStack_90[0] = 0x181572faf;
+  pvVar11 = value.monitor;
+  pUVar12 = value.klass;
+  pIVar5 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+  uVar8._0_1_ = (pIVar5->_2).bitflags1;
+  uVar8._1_1_ = (pIVar5->_2).bitflags2;
+  local_40 = pUVar12;
+  if ((uVar8 & 1) == 0) {
+    uStack_80 = 0x4db01a3;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+    uVar8._0_1_ = (pIVar6->_2).bitflags1;
+    uVar8._1_1_ = (pIVar6->_2).bitflags2;
   }
-  size = (ulonglong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
-  uVar6 = size + 0xf;
-  if (uVar6 <= size) {
-    uVar6 = 0xffffffffffffff0;
+  else {
+    pIVar6 = pIVar5;
   }
-  auStack_90[0] = 0x181572fdc;
-  lVar4 = -(uVar6 & 0xfffffffffffffff0);
-  pIVar5 = (Il2CppClass *)method->klass;
-  destination = (undefined8 *)((longlong)local_58 + lVar4);
+  __n = (ulong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
+  lVar4 = -(__n + 0xf & 0xfffffffffffffff0);
+  __dest = (undefined8 *)((long)local_78 + lVar4);
+  if ((uVar8 & 1) == 0) {
+    *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db01e3;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar5 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+    puVar10 = (undefined8 *)((long)local_78 + lVar4);
+  }
+  else {
+    pIVar5 = pIVar6;
+    puVar10 = __dest;
+  }
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_40;
+  if ((int)pIVar6->rgctx_data[1].type[2].bits < 0) {
+    __src = pUVar12;
+  }
+  puVar10[-1] = 0x4db020e;
+  memcpy(__dest,__src,__n);
   if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x181572ff9;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
-  }
-  source = &local_res8;
-  if (*(int *)&(pIVar5->rgctx_data[1].method)->return_type < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x18157301b;
-  memcpy(destination,source,size);
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x181573030;
+    puVar10[-1] = 0x4db021f;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
   pIVar5 = pIVar5->rgctx_data[7].klass;
   if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x18157304c;
+    puVar10[-1] = 0x4db023b;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
-  *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x181573054;
+  puVar10[-1] = 0x4db0243;
   pAVar7 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar5);
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x18157306c;
+  pIVar5 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+  uVar9._0_1_ = (pIVar5->_2).bitflags1;
+  uVar9._1_1_ = (pIVar5->_2).bitflags2;
+  if ((uVar9 & 1) == 0) {
+    puVar10[-1] = 0x4db025b;
     pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pIVar6 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+    uVar9._0_1_ = (pIVar6->_2).bitflags1;
+    uVar9._1_1_ = (pIVar6->_2).bitflags2;
   }
-  if (-1 < *(int *)&(pIVar5->rgctx_data[1].method)->return_type) {
-    destination = (undefined8 *)*destination;
+  else {
+    pIVar6 = pIVar5;
   }
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x181573099;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+  pIVar1 = (pIVar5->rgctx_data[8].method)->methodPointer;
+  if ((uVar9 & 1) == 0) {
+    puVar10[-1] = 0x4db0283;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar6 = *(Il2CppClass **)((long)pvVar11 + 0x20);
+    uVar9._0_1_ = (pIVar6->_2).bitflags1;
+    uVar9._1_1_ = (pIVar6->_2).bitflags2;
+    pMVar2 = pIVar5->rgctx_data[8].method;
   }
-  pMVar1 = pIVar5->rgctx_data[8].method;
-  pIVar5 = (Il2CppClass *)method->klass;
-  if (((pIVar5->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x1815730b9;
-    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+  else {
+    pMVar2 = pIVar6->rgctx_data[8].method;
   }
-  local_58[0] = local_res20;
-  local_res8.klass =
-       (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)CONCAT71(local_res8.klass._1_7_,1);
-  local_40 = &local_res8.monitor;
-  local_res18[0] = 1;
-  local_38 = local_res18;
-  local_res8.monitor._0_1_ = 1;
-  local_30 = &local_res8;
-  local_res20[0] = 2;
-  local_58[1] = destination;
-  local_58[2] = (void *)0x0;
-  pIVar2 = (pIVar5->rgctx_data[8].method)->methodPointer;
-  *(Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o **)((longlong)alStack_68 + lVar4) = &local_res8;
-  pIVar3 = pMVar1->invoker_method;
-  *(undefined8 *)((longlong)auStack_90 + lVar4) = 0x18157311c;
-  (*pIVar3)(pIVar2,pMVar1,pAVar7,local_58,*(void **)((longlong)alStack_68 + lVar4));
+  if ((uVar9 & 1) == 0) {
+    puVar10[-1] = 0x4db02b8;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+  }
+  if (-1 < (int)pIVar6->rgctx_data[1].type[2].bits) {
+    __dest = (undefined8 *)*__dest;
+  }
+  local_38 = 2;
+  local_33 = 1;
+  local_32 = 1;
+  local_31 = 1;
+  local_78[0] = (undefined1 *)&local_38;
+  local_78[2] = (undefined1 *)0x0;
+  local_78[3] = &local_33;
+  local_58 = &local_32;
+  pIVar3 = pMVar2->invoker_method;
+  local_78[1] = (undefined1 *)__dest;
+  local_50 = &local_31;
+  puVar10[-1] = 0x4db031f;
+  (*pIVar3)(pIVar1,pMVar2,pAVar7,local_78,&local_31);
   return pAVar7;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$FailedNoCache
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___FailedNoCache (System_String_o* error, const MethodInfo_1572340* method);
-// 0x181572340
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___FailedNoCache (System_String_o* error, const MethodInfo_4CAF770* method);
+// 0x4daf770
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult_object___FailedNoCache
-          (System_String_o *error,MethodInfo_1572340 *method)
+          (System_String_o *error,MethodInfo_4CAF770 *method)
 
 {
-  bool bVar1;
-  Il2CppClass *pIVar2;
+  System_String_o *pSVar1;
+  bool bVar2;
+  Il2CppClass *pIVar3;
   ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this;
   
-  if (Il2CppMethodInitialized_184341487 == '\0') {
+  if (Il2CppMethodInitialized_07541dc4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
-    Il2CppMethodInitialized_184341487 = '\x01';
+    Il2CppMethodInitialized_07541dc4 = '\x01';
   }
-  bVar1 = System_String__IsNullOrEmpty(error,(MethodInfo *)0x0);
-  if (bVar1) {
-    error = "unknown_error";
+  bVar2 = System_String__IsNullOrEmpty(error,(MethodInfo *)0x0);
+  pSVar1 = "unknown_error";
+  pIVar3 = (Il2CppClass *)method->klass;
+  if (((pIVar3->_2).bitflags1 & 1) == 0) {
+    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
   }
-  pIVar2 = (Il2CppClass *)method->klass;
-  if (((pIVar2->_2).bitflags1 & 1) == 0) {
-    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
+  pIVar3 = pIVar3->rgctx_data[7].klass;
+  if (((pIVar3->_2).bitflags1 & 1) == 0) {
+    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
   }
-  pIVar2 = pIVar2->rgctx_data[7].klass;
-  if (((pIVar2->_2).bitflags1 & 1) == 0) {
-    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
-  }
-  __this = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar2);
+  __this = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar3);
   if (((((Il2CppClass *)method->klass)->_2).bitflags1 & 1) == 0) {
     il2cpp_codegen_class_init_checked((Il2CppClass *)method->klass);
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  if (bVar2) {
+    error = pSVar1;
+  }
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 3;
   (__this->fields)._Value_k__BackingField = (Il2CppObject *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = false;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = false;
@@ -1041,211 +1077,165 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___FailedNoCache
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$FailedNoCache
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedNoCache (System_String_o* error, const MethodInfo_1572430* method);
-// 0x181572430
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedNoCache (System_String_o* error, const MethodInfo_4CB0340* method);
+// 0x4db0340
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4db0470: jmp 0x4db048d
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedNoCache
-          (System_String_o *error,MethodInfo_1572430 *method)
+          (System_String_o *error,MethodInfo_4CB0340 *method)
 
 {
-  void *source;
-  void *destination;
-  void *destination_00;
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
+  Il2CppMethodPointer pIVar1;
+  MethodInfo *pMVar2;
   InvokerMethod pIVar3;
-  longlong lVar4;
-  longlong lVar5;
-  longlong lVar6;
-  longlong lVar7;
-  longlong lVar8;
-  bool bVar9;
-  Il2CppClass *pIVar10;
-  ulonglong uVar11;
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar12;
-  ulonglong size;
-  System_String_o *pSVar13;
-  undefined8 *destination_01;
-  System_String_o *local_res8;
-  ulonglong local_res10;
-  undefined1 local_res18 [8];
-  undefined4 local_res20 [2];
-  undefined8 auStack_b0 [5];
-  longlong alStack_88 [2];
-  void *local_78 [2];
-  System_String_o *local_68;
-  ulonglong *local_60;
+  long lVar4;
+  Il2CppClass *pIVar5;
+  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar6;
+  Il2CppClass *klass;
+  ushort uVar7;
+  ulong __n;
+  undefined1 *puVar8;
+  undefined8 *__s;
+  undefined8 uStack_80;
+  System_String_o *local_78 [4];
   undefined1 *local_58;
-  System_String_o **local_50;
+  undefined1 *local_50;
+  System_String_o *local_40;
+  undefined4 local_38;
+  undefined1 local_34;
+  undefined1 local_33;
+  undefined1 local_32;
+  char local_31;
   
-  local_res8 = error;
-  if (g_data_184341489 == '\0') {
-    auStack_b0[0] = 0x181572462;
+  if (g_data_07541dc6 == '\0') {
+    uStack_80 = 0x4db036c;
     il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
-    g_data_184341489 = '\x01';
+    g_data_07541dc6 = '\x01';
   }
-  pIVar10 = (Il2CppClass *)method->klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    auStack_b0[0] = 0x18157247e;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  pIVar5 = (Il2CppClass *)method->klass;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    uStack_80 = 0x4db0388;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
-  size = (ulonglong)((pIVar10->rgctx_data[1].klass)->_2).stack_slot_size;
-  uVar11 = size + 0xf;
-  if (uVar11 <= size) {
-    uVar11 = 0xffffffffffffff0;
+  __n = (ulong)((pIVar5->rgctx_data[1].klass)->_2).stack_slot_size;
+  lVar4 = -(__n + 0xf & 0xfffffffffffffff0);
+  __s = (undefined8 *)((long)local_78 + lVar4);
+  *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db03b7;
+  memset(__s,0,__n);
+  *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db03c1;
+  local_31 = System_String__IsNullOrEmpty(error,(MethodInfo *)0x0);
+  local_40 = "unknown_error";
+  *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db03df;
+  memset(__s,0,__n);
+  puVar8 = (undefined1 *)((long)local_78 + lVar4);
+  pIVar5 = (Il2CppClass *)method->klass;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)((long)local_78 + lVar4 + -8) = 0x4db03f4;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    puVar8 = (undefined1 *)((long)local_78 + lVar4);
   }
-  auStack_b0[0] = 0x1815724ae;
-  lVar4 = -(uVar11 & 0xfffffffffffffff0);
-  uVar11 = size + 0xf;
-  source = (void *)((longlong)local_78 + lVar4);
-  if (uVar11 <= size) {
-    uVar11 = 0xffffffffffffff0;
+  pIVar5 = pIVar5->rgctx_data[7].klass;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)(puVar8 + -8) = 0x4db040d;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar4) = 0x1815724cb;
-  lVar5 = -(uVar11 & 0xfffffffffffffff0);
-  local_res10 = (longlong)local_78 + lVar5 + lVar4;
-  *(undefined8 *)((longlong)auStack_b0 + lVar5 + lVar4) = 0x1815724e7;
-  il2cpp_runtime_helper_180522500(local_res10,0,size);
-  uVar11 = size + 0xf;
-  if (uVar11 <= size) {
-    uVar11 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar5 + lVar4) = 0x1815724ff;
-  lVar6 = -(uVar11 & 0xfffffffffffffff0);
-  destination = (void *)((longlong)local_78 + lVar6 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar6 + lVar5 + lVar4) = 0x181572514;
-  il2cpp_runtime_helper_180522500(destination,0,size);
-  uVar11 = size + 0xf;
-  if (uVar11 <= size) {
-    uVar11 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar6 + lVar5 + lVar4) = 0x18157252c;
-  lVar7 = -(uVar11 & 0xfffffffffffffff0);
-  destination_00 = (void *)((longlong)local_78 + lVar7 + lVar6 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572541;
-  il2cpp_runtime_helper_180522500(destination_00,0,size);
-  uVar11 = size + 0xf;
-  if (uVar11 <= size) {
-    uVar11 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572559;
-  lVar8 = -(uVar11 & 0xfffffffffffffff0);
-  destination_01 = (undefined8 *)((longlong)local_78 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157256e;
-  il2cpp_runtime_helper_180522500(destination_01,0,size);
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157257f;
-  il2cpp_runtime_helper_180522500(local_res10,0,size);
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157258c;
-  il2cpp_runtime_helper_180522500(source,0,size);
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157259d;
-  bVar9 = System_String__IsNullOrEmpty(local_res8,(MethodInfo *)0x0);
-  if (bVar9) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815725af;
-    memcpy(destination,source,size);
-    pSVar13 = "unknown_error";
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815725c4;
-    memcpy(destination_01,destination,size);
+  *(undefined8 *)(puVar8 + -8) = 0x4db0415;
+  pAVar6 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar5);
+  pIVar5 = (Il2CppClass *)method->klass;
+  uVar7._0_1_ = (pIVar5->_2).bitflags1;
+  uVar7._1_1_ = (pIVar5->_2).bitflags2;
+  if ((uVar7 & 1) == 0) {
+    *(undefined8 *)(puVar8 + -8) = 0x4db042d;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    klass = (Il2CppClass *)method->klass;
+    uVar7._0_1_ = (klass->_2).bitflags1;
+    uVar7._1_1_ = (klass->_2).bitflags2;
   }
   else {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815725ce;
-    memcpy(destination_00,source,size);
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815725dc;
-    memcpy(destination_01,destination_00,size);
-    pSVar13 = local_res8;
+    klass = pIVar5;
   }
-  pIVar10 = (Il2CppClass *)method->klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815725f8;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  pIVar1 = (pIVar5->rgctx_data[8].method)->methodPointer;
+  if ((uVar7 & 1) == 0) {
+    *(undefined8 *)(puVar8 + -8) = 0x4db0455;
+    pIVar5 = il2cpp_codegen_class_init_checked(klass);
+    klass = (Il2CppClass *)method->klass;
+    uVar7._0_1_ = (klass->_2).bitflags1;
+    uVar7._1_1_ = (klass->_2).bitflags2;
+    pMVar2 = pIVar5->rgctx_data[8].method;
   }
-  pIVar10 = pIVar10->rgctx_data[7].klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572614;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  else {
+    pMVar2 = klass->rgctx_data[8].method;
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157261c;
-  pAVar12 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar10)
-  ;
-  pIVar10 = (Il2CppClass *)method->klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572634;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  if ((uVar7 & 1) == 0) {
+    *(undefined8 *)(puVar8 + -8) = 0x4db048a;
+    klass = il2cpp_codegen_class_init_checked(klass);
   }
-  if (-1 < *(int *)&(pIVar10->rgctx_data[1].method)->return_type) {
-    destination_01 = (undefined8 *)*destination_01;
+  if (-1 < (int)klass->rgctx_data[1].type[2].bits) {
+    __s = (undefined8 *)*__s;
   }
-  pIVar10 = (Il2CppClass *)method->klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572661;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  if (local_31 != '\0') {
+    error = local_40;
   }
-  pMVar1 = pIVar10->rgctx_data[8].method;
-  pIVar10 = (Il2CppClass *)method->klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572681;
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
-  }
-  local_78[0] = local_res20;
-  local_res8 = (System_String_o *)((ulonglong)local_res8 & 0xffffffffffffff00);
-  local_60 = &local_res10;
-  local_res18[0] = 0;
-  local_58 = local_res18;
-  local_res10 = local_res10 & 0xffffffffffffff00;
-  local_50 = &local_res8;
-  local_res20[0] = 3;
-  local_78[1] = destination_01;
-  local_68 = pSVar13;
-  pIVar2 = (pIVar10->rgctx_data[8].method)->methodPointer;
-  *(System_String_o ***)((longlong)alStack_88 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = &local_res8;
-  pIVar3 = pMVar1->invoker_method;
-  *(undefined8 *)((longlong)auStack_b0 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815726fb;
-  (*pIVar3)(pIVar2,pMVar1,pAVar12,local_78,
-            *(void **)((longlong)alStack_88 + lVar8 + lVar7 + lVar6 + lVar5 + lVar4));
-  return pAVar12;
+  local_38 = 3;
+  local_34 = 0;
+  local_33 = 0;
+  local_32 = 0;
+  local_78[0] = (System_String_o *)&local_38;
+  local_78[3] = (System_String_o *)&local_34;
+  local_58 = &local_33;
+  pIVar3 = pMVar2->invoker_method;
+  local_78[1] = (System_String_o *)__s;
+  local_78[2] = error;
+  local_50 = &local_32;
+  *(undefined8 *)(puVar8 + -8) = 0x4db04fc;
+  (*pIVar3)(pIVar1,pMVar2,pAVar6,local_78,&local_32);
+  return pAVar6;
 }
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<object>$$FailedRefreshStale
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___FailedRefreshStale (Il2CppObject* value, System_String_o* error, const MethodInfo_15729E0* method);
-// 0x1815729e0
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult_object___FailedRefreshStale (Il2CppObject* value, System_String_o* error, const MethodInfo_4CAF850* method);
+// 0x4daf850
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult_object___FailedRefreshStale
-          (Il2CppObject *value,System_String_o *error,MethodInfo_15729E0 *method)
+          (Il2CppObject *value,System_String_o *error,MethodInfo_4CAF850 *method)
 
 {
-  bool bVar1;
-  Il2CppClass *pIVar2;
+  System_String_o *pSVar1;
+  bool bVar2;
+  Il2CppClass *pIVar3;
   ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *__this;
   
-  if (Il2CppMethodInitialized_184341488 == '\0') {
+  if (Il2CppMethodInitialized_07541dc5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
-    Il2CppMethodInitialized_184341488 = '\x01';
+    Il2CppMethodInitialized_07541dc5 = '\x01';
   }
-  bVar1 = System_String__IsNullOrEmpty(error,(MethodInfo *)0x0);
-  if (bVar1) {
-    error = "unknown_error";
+  bVar2 = System_String__IsNullOrEmpty(error,(MethodInfo *)0x0);
+  pSVar1 = "unknown_error";
+  pIVar3 = (Il2CppClass *)method->klass;
+  if (((pIVar3->_2).bitflags1 & 1) == 0) {
+    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
   }
-  pIVar2 = (Il2CppClass *)method->klass;
-  if (((pIVar2->_2).bitflags1 & 1) == 0) {
-    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
+  pIVar3 = pIVar3->rgctx_data[7].klass;
+  if (((pIVar3->_2).bitflags1 & 1) == 0) {
+    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
   }
-  pIVar2 = pIVar2->rgctx_data[7].klass;
-  if (((pIVar2->_2).bitflags1 & 1) == 0) {
-    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
-  }
-  __this = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar2);
+  __this = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar3);
   if (((((Il2CppClass *)method->klass)->_2).bitflags1 & 1) == 0) {
     il2cpp_codegen_class_init_checked((Il2CppClass *)method->klass);
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  if (bVar2) {
+    error = pSVar1;
+  }
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 4;
   (__this->fields)._Value_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Value_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = true;
   (__this->fields)._IsStale_k__BackingField = true;
   (__this->fields)._IsRefreshing_k__BackingField = false;
@@ -1254,166 +1244,147 @@ ApplicationManagers_Changelog_AottgChangelogResult_object___FailedRefreshStale
 
 
 // ApplicationManagers.Changelog.AottgChangelogResult<__Il2CppFullySharedGenericType>$$FailedRefreshStale
-// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedRefreshStale (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, System_String_o* error, const MethodInfo_1572710* method);
-// 0x181572710
+// il2cpp: ApplicationManagers_Changelog_AottgChangelogResult_TValue__o* ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedRefreshStale (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, System_String_o* error, const MethodInfo_4CB0510* method);
+// 0x4db0510
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4db069d: jmp 0x4db06ba
 
 ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *
 ApplicationManagers_Changelog_AottgChangelogResult___Il2CppFullySharedGenericType___FailedRefreshStale
-          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,System_String_o *error,
-          MethodInfo_1572710 *method)
+          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,System_String_o *error,
+          MethodInfo_4CB0510 *method)
 
 {
-  void *destination;
-  void *destination_00;
-  void *destination_01;
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
+  Il2CppMethodPointer pIVar1;
+  MethodInfo *pMVar2;
   InvokerMethod pIVar3;
-  longlong lVar4;
-  longlong lVar5;
-  longlong lVar6;
-  longlong lVar7;
-  bool bVar8;
-  Il2CppClass *pIVar9;
-  ulonglong uVar10;
-  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar11;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  undefined8 *destination_02;
-  System_String_o *pSVar12;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o local_res8;
-  undefined1 local_res18 [8];
-  undefined4 local_res20 [2];
-  undefined8 auStack_b0 [5];
-  longlong alStack_88 [2];
-  void *local_78 [2];
-  System_String_o *local_68;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *local_60;
-  undefined1 *local_58;
-  void **local_50;
+  System_String_o *pSVar4;
+  ushort uVar10;
+  bool bVar5;
+  Il2CppClass *pIVar6;
+  ulong uVar7;
+  Il2CppClass *pIVar8;
+  ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *pAVar9;
+  void *__dest;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUVar11;
+  ulong __n;
+  undefined8 *__s;
+  undefined8 uStack_90;
+  System_String_o *local_88 [4];
+  undefined1 *local_68;
+  undefined1 *local_60;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_58;
+  System_String_o *local_50;
+  System_String_o *local_48;
+  System_String_o *local_40;
+  undefined4 local_38;
+  undefined1 local_33;
+  undefined1 local_32;
+  undefined1 local_31;
   
-  local_res8.klass = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  local_res8.monitor = error;
-  if (g_data_18434148a == '\0') {
-    auStack_b0[0] = 0x18157274a;
+  local_48 = value.monitor;
+  pUVar11 = value.klass;
+  local_58 = pUVar11;
+  if (g_data_07541dc7 == '\0') {
+    uStack_90 = 0x4db0544;
     il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
-    g_data_18434148a = '\x01';
+    g_data_07541dc7 = '\x01';
   }
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    auStack_b0[0] = 0x181572766;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
-  }
-  size = (ulonglong)((pIVar9->rgctx_data[1].klass)->_2).stack_slot_size;
-  uVar10 = size + 0xf;
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  auStack_b0[0] = 0x181572796;
-  lVar4 = -(uVar10 & 0xfffffffffffffff0);
-  uVar10 = size + 0xf;
-  destination = (void *)((longlong)local_78 + lVar4);
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar4) = 0x1815727b3;
-  lVar5 = -(uVar10 & 0xfffffffffffffff0);
-  destination_00 = (void *)((longlong)local_78 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar5 + lVar4) = 0x1815727c8;
-  il2cpp_runtime_helper_180522500(destination_00,0,size);
-  uVar10 = size + 0xf;
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar5 + lVar4) = 0x1815727dd;
-  lVar6 = -(uVar10 & 0xfffffffffffffff0);
-  destination_01 = (void *)((longlong)local_78 + lVar6 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar6 + lVar5 + lVar4) = 0x1815727f2;
-  il2cpp_runtime_helper_180522500(destination_01,0,size);
-  uVar10 = size + 0xf;
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar6 + lVar5 + lVar4) = 0x181572807;
-  lVar7 = -(uVar10 & 0xfffffffffffffff0);
-  destination_02 = (undefined8 *)((longlong)local_78 + lVar7 + lVar6 + lVar5 + lVar4);
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157281c;
-  il2cpp_runtime_helper_180522500(destination_02,0,size);
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572831;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
-  }
-  source = &local_res8;
-  if (*(int *)&(pIVar9->rgctx_data[1].method)->return_type < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572856;
-  memcpy(destination,source,size);
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572864;
-  bVar8 = System_String__IsNullOrEmpty(local_res8.monitor,(MethodInfo *)0x0);
-  if (bVar8) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572876;
-    memcpy(destination_00,destination,size);
-    pSVar12 = "unknown_error";
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x18157288b;
-    memcpy(destination_02,destination_00,size);
+  pIVar6 = (*(uint64_t *)((char *)error + 0x20));
+  local_50 = error;
+  if (((pIVar6->_2).bitflags1 & 1) == 0) {
+    uStack_90 = 0x4db0565;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar8 = (*(uint64_t *)((char *)error + 0x20));
   }
   else {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572895;
-    memcpy(destination_01,destination,size);
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815728a3;
-    memcpy(destination_02,destination_01,size);
-    pSVar12 = local_res8.monitor;
+    pIVar8 = pIVar6;
   }
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815728bf;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
+  __n = (ulong)((pIVar6->rgctx_data[1].klass)->_2).stack_slot_size;
+  uVar7 = __n + 0xf & 0xfffffffffffffff0;
+  __dest = (void *)((long)local_88 - uVar7);
+  __s = (undefined8 *)((long)__dest - uVar7);
+  __s[-1] = 0x4db05a7;
+  memset(__s,0,__n);
+  if (((pIVar8->_2).bitflags1 & 1) == 0) {
+    __s[-1] = 0x4db05b9;
+    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
   }
-  pIVar9 = pIVar9->rgctx_data[7].klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815728db;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_58;
+  if ((int)pIVar8->rgctx_data[1].type[2].bits < 0) {
+    __src = pUVar11;
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815728e3;
-  pAVar11 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar9);
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815728fb;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
+  __s[-1] = 0x4db05de;
+  memcpy(__dest,__src,__n);
+  pSVar4 = local_48;
+  __s[-1] = 0x4db05e9;
+  bVar5 = System_String__IsNullOrEmpty(pSVar4,(MethodInfo *)0x0);
+  local_40 = "unknown_error";
+  __s[-1] = 0x4db0608;
+  memcpy(__s,__dest,__n);
+  pSVar4 = local_50;
+  pIVar6 = (*(uint64_t *)((char *)local_50 + 0x20));
+  if (((pIVar6->_2).bitflags1 & 1) == 0) {
+    __s[-1] = 0x4db0621;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
   }
-  if (-1 < *(int *)&(pIVar9->rgctx_data[1].method)->return_type) {
-    destination_02 = (undefined8 *)*destination_02;
+  pIVar6 = pIVar6->rgctx_data[7].klass;
+  if (((pIVar6->_2).bitflags1 & 1) == 0) {
+    __s[-1] = 0x4db063a;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
   }
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572928;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
+  __s[-1] = 0x4db0642;
+  pAVar9 = (ApplicationManagers_Changelog_AottgChangelogResult_TValue__o *)il2cpp_codegen_object_new(pIVar6);
+  pIVar6 = (*(uint64_t *)((char *)pSVar4 + 0x20));
+  uVar10._0_1_ = (pIVar6->_2).bitflags1;
+  uVar10._1_1_ = (pIVar6->_2).bitflags2;
+  if ((uVar10 & 1) == 0) {
+    __s[-1] = 0x4db065a;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    pIVar8 = (*(uint64_t *)((char *)pSVar4 + 0x20));
+    uVar10._0_1_ = (pIVar8->_2).bitflags1;
+    uVar10._1_1_ = (pIVar8->_2).bitflags2;
   }
-  pMVar1 = pIVar9->rgctx_data[8].method;
-  pIVar9 = (Il2CppClass *)method->klass;
-  if (((pIVar9->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x181572948;
-    pIVar9 = il2cpp_codegen_class_init_checked(pIVar9);
+  else {
+    pIVar8 = pIVar6;
   }
-  local_78[0] = local_res20;
-  local_res8.monitor = (void *)((ulonglong)local_res8.monitor & 0xffffffffffffff00);
-  local_60 = &local_res8;
-  local_res18[0] = 1;
-  local_58 = local_res18;
-  local_res8.klass =
-       (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)CONCAT71(local_res8.klass._1_7_,1);
-  local_50 = &local_res8.monitor;
-  local_res20[0] = 4;
-  local_78[1] = destination_02;
-  local_68 = pSVar12;
-  pIVar2 = (pIVar9->rgctx_data[8].method)->methodPointer;
-  *(void ***)((longlong)alStack_88 + lVar7 + lVar6 + lVar5 + lVar4) = &local_res8.monitor;
-  pIVar3 = pMVar1->invoker_method;
-  *(undefined8 *)((longlong)auStack_b0 + lVar7 + lVar6 + lVar5 + lVar4) = 0x1815729c2;
-  (*pIVar3)(pIVar2,pMVar1,pAVar11,local_78,*(void **)((longlong)alStack_88 + lVar7 + lVar6 + lVar5 + lVar4));
-  return pAVar11;
+  pIVar1 = (pIVar6->rgctx_data[8].method)->methodPointer;
+  if ((uVar10 & 1) == 0) {
+    __s[-1] = 0x4db0682;
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar8);
+    pIVar8 = (*(uint64_t *)((char *)pSVar4 + 0x20));
+    uVar10._0_1_ = (pIVar8->_2).bitflags1;
+    uVar10._1_1_ = (pIVar8->_2).bitflags2;
+    pMVar2 = pIVar6->rgctx_data[8].method;
+  }
+  else {
+    pMVar2 = pIVar8->rgctx_data[8].method;
+  }
+  if ((uVar10 & 1) == 0) {
+    __s[-1] = 0x4db06b7;
+    pIVar8 = il2cpp_codegen_class_init_checked(pIVar8);
+  }
+  local_88[1] = (System_String_o *)__s;
+  if (-1 < (int)pIVar8->rgctx_data[1].type[2].bits) {
+    local_88[1] = (System_String_o *)*__s;
+  }
+  local_88[2] = local_48;
+  if (bVar5) {
+    local_88[2] = local_40;
+  }
+  local_38 = 4;
+  local_33 = 1;
+  local_32 = 1;
+  local_31 = 0;
+  local_88[0] = (System_String_o *)&local_38;
+  local_88[3] = (System_String_o *)&local_33;
+  local_68 = &local_32;
+  pIVar3 = pMVar2->invoker_method;
+  local_60 = &local_31;
+  __s[-1] = 0x4db0728;
+  (*pIVar3)(pIVar1,pMVar2,pAVar9,local_88,&local_31);
+  return pAVar9;
 }
 
 

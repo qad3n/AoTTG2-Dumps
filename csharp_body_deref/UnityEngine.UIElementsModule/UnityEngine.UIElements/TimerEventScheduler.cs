@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TimerEventScheduler
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -49,52 +49,52 @@ internal class TimerEventScheduler
 	public long FrameCount
 	{
 		[Token(Token = "0x60013BD")]
-		[Address(RVA = "0xAD2BF0", Offset = "0xAD11F0", VA = "0x180AD2BF0")]
+		[Address(RVA = "0x6CC3B40", Offset = "0x6CC2B40", VA = "0x6CC3B40")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013BE")]
-		[Address(RVA = "0xE8F710", Offset = "0xE8DD10", VA = "0x180E8F710")]
+		[Address(RVA = "0x6CC3B50", Offset = "0x6CC2B50", VA = "0x6CC3B50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60013B8")]
-	[Address(RVA = "0x32B83D0", Offset = "0x32B69D0", VA = "0x1832B83D0")]
+	[Address(RVA = "0x6CB4210", Offset = "0x6CB3210", VA = "0x6CB4210")]
 	public TimerEventScheduler(BaseVisualElementPanel p)
 	{
 	}
 
 	[Token(Token = "0x60013B9")]
-	[Address(RVA = "0x32B79A0", Offset = "0x32B5FA0", VA = "0x1832B79A0")]
+	[Address(RVA = "0x6CC36A0", Offset = "0x6CC26A0", VA = "0x6CC36A0")]
 	public void Schedule(ScheduledItem item)
 	{
 	}
 
 	[Token(Token = "0x60013BA")]
-	[Address(RVA = "0x32B7930", Offset = "0x32B5F30", VA = "0x1832B7930")]
+	[Address(RVA = "0x6CC3860", Offset = "0x6CC2860", VA = "0x6CC3860")]
 	private bool RemovedScheduledItemAt(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013BB")]
-	[Address(RVA = "0x32B7B80", Offset = "0x32B6180", VA = "0x1832B7B80")]
+	[Address(RVA = "0x6CC38D0", Offset = "0x6CC28D0", VA = "0x6CC38D0")]
 	public void Unschedule(ScheduledItem item)
 	{
 	}
 
 	[Token(Token = "0x60013BC")]
-	[Address(RVA = "0x32B7850", Offset = "0x32B5E50", VA = "0x1832B7850")]
+	[Address(RVA = "0x6CC3A70", Offset = "0x6CC2A70", VA = "0x6CC3A70")]
 	private bool PrivateUnSchedule(ScheduledItem sItem)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013BF")]
-	[Address(RVA = "0x32B7DF0", Offset = "0x32B63F0", VA = "0x1832B7DF0")]
+	[Address(RVA = "0x6CB7740", Offset = "0x6CB6740", VA = "0x6CB7740")]
 	public void UpdateScheduledEvents()
 	{
 	}

@@ -15,7 +15,7 @@ namespace UnityEngine.Rendering;
 public sealed class APVLeakReductionModeParameter : VolumeParameter<APVLeakReductionMode>
 {
 	[Token(Token = "0x6000AE0")]
-	[Address(RVA = "0x2B1F400", Offset = "0x2B1DA00", VA = "0x182B1F400")]
+	[Address(RVA = "0x6511720", Offset = "0x6510720", VA = "0x6511720")]
 	public APVLeakReductionModeParameter(APVLeakReductionMode value, bool overrideState = false)
 	{
 	}

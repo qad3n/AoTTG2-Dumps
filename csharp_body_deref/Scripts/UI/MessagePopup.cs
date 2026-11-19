@@ -12,114 +12,114 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20006F2")]
+[Token(Token = "0x200079B")]
 internal class MessagePopup : PromptPopup
 {
-	[Token(Token = "0x40022F3")]
+	[Token(Token = "0x400266D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Text _label;
 
-	[Token(Token = "0x40022F4")]
+	[Token(Token = "0x400266E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private GameObject _button;
 
-	[Token(Token = "0x17000C26")]
+	[Token(Token = "0x17000CAA")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004457")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
+		[Token(Token = "0x600497C")]
+		[Address(RVA = "0x5BC18D0", Offset = "0x5BC08D0", VA = "0x5BC18D0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C27")]
+	[Token(Token = "0x17000CAB")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004458")]
-		[Address(RVA = "0x21C1230", Offset = "0x21BF830", VA = "0x1821C1230", Slot = "5")]
+		[Token(Token = "0x600497D")]
+		[Address(RVA = "0x5BC18F0", Offset = "0x5BC08F0", VA = "0x5BC18F0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C28")]
+	[Token(Token = "0x17000CAC")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004459")]
-		[Address(RVA = "0x21C11B0", Offset = "0x21BF7B0", VA = "0x1821C11B0", Slot = "6")]
+		[Token(Token = "0x600497E")]
+		[Address(RVA = "0x5BC1900", Offset = "0x5BC0900", VA = "0x5BC1900", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C29")]
+	[Token(Token = "0x17000CAD")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x600445A")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "9")]
+		[Token(Token = "0x600497F")]
+		[Address(RVA = "0x5BC1910", Offset = "0x5BC0910", VA = "0x5BC1910", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C2A")]
+	[Token(Token = "0x17000CAE")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x600445B")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "10")]
+		[Token(Token = "0x6004980")]
+		[Address(RVA = "0x5BC1920", Offset = "0x5BC0920", VA = "0x5BC1920", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C2B")]
+	[Token(Token = "0x17000CAF")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x600445C")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "12")]
+		[Token(Token = "0x6004981")]
+		[Address(RVA = "0x5BC1930", Offset = "0x5BC0930", VA = "0x5BC1930", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x17000C2C")]
+	[Token(Token = "0x17000CB0")]
 	protected virtual float LabelHeight
 	{
-		[Token(Token = "0x600445D")]
-		[Address(RVA = "0x21C11C0", Offset = "0x21BF7C0", VA = "0x1821C11C0", Slot = "62")]
+		[Token(Token = "0x6004982")]
+		[Address(RVA = "0x5BC1940", Offset = "0x5BC0940", VA = "0x5BC1940", Slot = "62")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x600445E")]
-	[Address(RVA = "0x21C5850", Offset = "0x21C3E50", VA = "0x1821C5850", Slot = "20")]
+	[Token(Token = "0x6004983")]
+	[Address(RVA = "0x5BC1950", Offset = "0x5BC0950", VA = "0x5BC1950", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600445F")]
-	[Address(RVA = "0x21C5B40", Offset = "0x21C4140", VA = "0x1821C5B40")]
+	[Token(Token = "0x6004984")]
+	[Address(RVA = "0x5BC1C30", Offset = "0x5BC0C30", VA = "0x5BC1C30")]
 	public void Show(string message, bool allowDismiss = true)
 	{
 	}
 
-	[Token(Token = "0x6004460")]
-	[Address(RVA = "0xA37400", Offset = "0xA35A00", VA = "0x180A37400")]
+	[Token(Token = "0x6004985")]
+	[Address(RVA = "0x5BC1C90", Offset = "0x5BC0C90", VA = "0x5BC1C90")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004461")]
-	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
+	[Token(Token = "0x6004986")]
+	[Address(RVA = "0x5BC1CB0", Offset = "0x5BC0CB0", VA = "0x5BC1CB0")]
 	public MessagePopup()
 	{
 	}

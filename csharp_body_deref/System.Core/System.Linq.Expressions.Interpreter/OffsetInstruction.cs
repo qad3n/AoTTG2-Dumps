@@ -10,43 +10,43 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000ED")]
+[Token(Token = "0x20000EE")]
 internal abstract class OffsetInstruction : Instruction
 {
-	[Token(Token = "0x4000235")]
+	[Token(Token = "0x400023E")]
 	[FieldOffset(Offset = "0x10")]
 	protected int _offset;
 
-	[Token(Token = "0x1700015D")]
+	[Token(Token = "0x1700015F")]
 	public abstract Instruction[] Cache
 	{
-		[Token(Token = "0x6000602")]
+		[Token(Token = "0x600060D")]
 		get;
 	}
 
-	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x243DED0", Offset = "0x243C4D0", VA = "0x18243DED0")]
+	[Token(Token = "0x600060E")]
+	[Address(RVA = "0x5DDD1B0", Offset = "0x5DDC1B0", VA = "0x5DDD1B0")]
 	public Instruction Fixup(int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x243DF70", Offset = "0x243C570", VA = "0x18243DF70", Slot = "10")]
+	[Token(Token = "0x600060F")]
+	[Address(RVA = "0x5DDD240", Offset = "0x5DDC240", VA = "0x5DDD240", Slot = "10")]
 	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x243E030", Offset = "0x243C630", VA = "0x18243E030", Slot = "3")]
+	[Token(Token = "0x6000610")]
+	[Address(RVA = "0x5DDD2F0", Offset = "0x5DDC2F0", VA = "0x5DDD2F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x24296B0", Offset = "0x2427CB0", VA = "0x1824296B0")]
+	[Token(Token = "0x6000611")]
+	[Address(RVA = "0x5DDD3A0", Offset = "0x5DDC3A0", VA = "0x5DDD3A0")]
 	protected OffsetInstruction()
 	{
 	}

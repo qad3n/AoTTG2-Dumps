@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DataSourceContextChanged
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,7 +29,7 @@ public readonly struct DataSourceContextChanged
 	private readonly DataSourceContext m_NewContext;
 
 	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x3090510", Offset = "0x308EB10", VA = "0x183090510")]
+	[Address(RVA = "0x6A83160", Offset = "0x6A82160", VA = "0x6A83160")]
 	internal DataSourceContextChanged(VisualElement element, in BindingId bindingId, in DataSourceContext previousContext, in DataSourceContext newContext)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.TextureAccess
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,13 +29,13 @@ internal readonly struct TextureAccess
 	public readonly AccessFlags flags;
 
 	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x2BA6410", Offset = "0x2BA4A10", VA = "0x182BA6410")]
+	[Address(RVA = "0x657B4D0", Offset = "0x657A4D0", VA = "0x657B4D0")]
 	public TextureAccess(in TextureHandle handle, AccessFlags flags, int mipLevel, int depthSlice)
 	{
 	}
 
 	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x2BA6430", Offset = "0x2BA4A30", VA = "0x182BA6430")]
+	[Address(RVA = "0x657B1E0", Offset = "0x657A1E0", VA = "0x657B1E0")]
 	public TextureAccess(in TextureAccess access, in TextureHandle handle)
 	{
 	}

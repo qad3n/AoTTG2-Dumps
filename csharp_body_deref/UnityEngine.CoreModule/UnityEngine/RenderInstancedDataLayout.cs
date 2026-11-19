@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000DA")]
+[Token(Token = "0x20000DB")]
 internal readonly struct RenderInstancedDataLayout
 {
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x400023E")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly int _003Csize_003Ek__BackingField;
 
-	[Token(Token = "0x400023A")]
+	[Token(Token = "0x400023F")]
 	[FieldOffset(Offset = "0x4")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly int _003CoffsetObjectToWorld_003Ek__BackingField;
 
-	[Token(Token = "0x400023B")]
+	[Token(Token = "0x4000240")]
 	[FieldOffset(Offset = "0x8")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly int _003CoffsetPrevObjectToWorld_003Ek__BackingField;
 
-	[Token(Token = "0x400023C")]
+	[Token(Token = "0x4000241")]
 	[FieldOffset(Offset = "0xC")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]

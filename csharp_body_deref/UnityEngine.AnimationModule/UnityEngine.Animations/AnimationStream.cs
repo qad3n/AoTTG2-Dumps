@@ -14,10 +14,10 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x200002A")]
-[MovedFrom("UnityEngine.Experimental.Animations")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationStream.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationStream.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationStream.bindings.h")]
+[MovedFrom("UnityEngine.Experimental.Animations")]
 public struct AnimationStream
 {
 	[Token(Token = "0x4000067")]

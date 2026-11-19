@@ -11,24 +11,24 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200037F")]
+[Token(Token = "0x2000358")]
 internal class SingleCallIdentity : System.Runtime.Remoting.ServerIdentity
 {
-	[Token(Token = "0x6001D2D")]
-	[Address(RVA = "0x19E67A0", Offset = "0x19E4DA0", VA = "0x1819E67A0")]
+	[Token(Token = "0x6001D03")]
+	[Address(RVA = "0x5376E10", Offset = "0x5375E10", VA = "0x5376E10")]
 	public SingleCallIdentity(string objectUri, Context context, Type objectType)
 	{
 	}
 
-	[Token(Token = "0x6001D2E")]
-	[Address(RVA = "0x19E69A0", Offset = "0x19E4FA0", VA = "0x1819E69A0", Slot = "6")]
+	[Token(Token = "0x6001D04")]
+	[Address(RVA = "0x5378400", Offset = "0x5377400", VA = "0x5378400", Slot = "6")]
 	public override IMessage SyncObjectProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D2F")]
-	[Address(RVA = "0x19E6800", Offset = "0x19E4E00", VA = "0x1819E6800", Slot = "7")]
+	[Token(Token = "0x6001D05")]
+	[Address(RVA = "0x5378620", Offset = "0x5377620", VA = "0x5378620", Slot = "7")]
 	public override IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

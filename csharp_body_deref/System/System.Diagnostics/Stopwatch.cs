@@ -10,67 +10,67 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x200011C")]
+[Token(Token = "0x20000DD")]
 public class Stopwatch
 {
-	[Token(Token = "0x40004DF")]
+	[Token(Token = "0x4000410")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly long Frequency;
 
-	[Token(Token = "0x40004E0")]
+	[Token(Token = "0x4000411")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly bool IsHighResolution;
 
-	[Token(Token = "0x40004E1")]
+	[Token(Token = "0x4000412")]
 	[FieldOffset(Offset = "0x10")]
 	private long elapsed;
 
-	[Token(Token = "0x40004E2")]
+	[Token(Token = "0x4000413")]
 	[FieldOffset(Offset = "0x18")]
 	private long started;
 
-	[Token(Token = "0x40004E3")]
+	[Token(Token = "0x4000414")]
 	[FieldOffset(Offset = "0x20")]
 	private bool is_running;
 
-	[Token(Token = "0x17000125")]
+	[Token(Token = "0x170000F6")]
 	public TimeSpan Elapsed
 	{
-		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x2873F00", Offset = "0x2872500", VA = "0x182873F00")]
+		[Token(Token = "0x6000523")]
+		[Address(RVA = "0x6208050", Offset = "0x6207050", VA = "0x6208050")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x17000126")]
+	[Token(Token = "0x170000F7")]
 	public long ElapsedMilliseconds
 	{
-		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0x2873BB0", Offset = "0x28721B0", VA = "0x182873BB0")]
+		[Token(Token = "0x6000524")]
+		[Address(RVA = "0x62082B0", Offset = "0x62072B0", VA = "0x62082B0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x17000127")]
+	[Token(Token = "0x170000F8")]
 	public long ElapsedTicks
 	{
-		[Token(Token = "0x60006DB")]
-		[Address(RVA = "0x2873EA0", Offset = "0x28724A0", VA = "0x182873EA0")]
+		[Token(Token = "0x6000525")]
+		[Address(RVA = "0x6208250", Offset = "0x6207250", VA = "0x6208250")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x17000128")]
+	[Token(Token = "0x170000F9")]
 	public bool IsRunning
 	{
-		[Token(Token = "0x60006DC")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6000526")]
+		[Address(RVA = "0x6208470", Offset = "0x6207470", VA = "0x6208470")]
 		get
 		{
 			return default(bool);
@@ -78,43 +78,43 @@ public class Stopwatch
 	}
 
 	[MethodImpl(MethodImplOptions.InternalCall)]
-	[Token(Token = "0x60006D6")]
-	[Address(RVA = "0x1BC3DB0", Offset = "0x1BC23B0", VA = "0x181BC3DB0")]
+	[Token(Token = "0x6000520")]
+	[Address(RVA = "0x62012D0", Offset = "0x62002D0", VA = "0x62012D0")]
 	public static extern long GetTimestamp();
 
-	[Token(Token = "0x60006D7")]
-	[Address(RVA = "0x28739E0", Offset = "0x2871FE0", VA = "0x1828739E0")]
+	[Token(Token = "0x6000521")]
+	[Address(RVA = "0x6207F40", Offset = "0x6206F40", VA = "0x6207F40")]
 	public static Stopwatch StartNew()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006D8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000522")]
+	[Address(RVA = "0x6207FE0", Offset = "0x6206FE0", VA = "0x6207FE0")]
 	public Stopwatch()
 	{
 	}
 
-	[Token(Token = "0x60006DD")]
-	[Address(RVA = "0x2873970", Offset = "0x2871F70", VA = "0x182873970")]
+	[Token(Token = "0x6000527")]
+	[Address(RVA = "0x6208480", Offset = "0x6207480", VA = "0x6208480")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x60006DE")]
-	[Address(RVA = "0x2873A80", Offset = "0x2872080", VA = "0x182873A80")]
+	[Token(Token = "0x6000528")]
+	[Address(RVA = "0x6207FF0", Offset = "0x6206FF0", VA = "0x6207FF0")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x60006DF")]
-	[Address(RVA = "0x2873AE0", Offset = "0x28720E0", VA = "0x182873AE0")]
+	[Token(Token = "0x6000529")]
+	[Address(RVA = "0x6208490", Offset = "0x6207490", VA = "0x6208490")]
 	public void Stop()
 	{
 	}
 
-	[Token(Token = "0x60006E0")]
-	[Address(RVA = "0x2873980", Offset = "0x2871F80", VA = "0x182873980")]
+	[Token(Token = "0x600052A")]
+	[Address(RVA = "0x6208500", Offset = "0x6207500", VA = "0x6208500")]
 	public void Restart()
 	{
 	}

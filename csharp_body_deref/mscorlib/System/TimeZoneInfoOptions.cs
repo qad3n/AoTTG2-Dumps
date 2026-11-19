@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200009A")]
+[Token(Token = "0x2000119")]
 [Flags]
 internal enum TimeZoneInfoOptions
 {
-	[Token(Token = "0x4000281")]
+	[Token(Token = "0x40003B3")]
 	None = 1,
-	[Token(Token = "0x4000282")]
+	[Token(Token = "0x40003B4")]
 	NoThrowOnInvalidTime = 2
 }

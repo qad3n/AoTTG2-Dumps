@@ -70,13 +70,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public float force
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0")]
+		[Address(RVA = "0x31A83D0", Offset = "0x31A73D0", VA = "0x31A83D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x585060", Offset = "0x583660", VA = "0x180585060")]
+		[Address(RVA = "0x31A83E0", Offset = "0x31A73E0", VA = "0x31A83E0")]
 		set
 		{
 		}
@@ -86,13 +86,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public Vector3 turbulence
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x585040", Offset = "0x583640", VA = "0x180585040")]
+		[Address(RVA = "0x31A83F0", Offset = "0x31A73F0", VA = "0x31A83F0")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x5850A0", Offset = "0x5836A0", VA = "0x1805850A0")]
+		[Address(RVA = "0x31A8400", Offset = "0x31A7400", VA = "0x31A8400")]
 		set
 		{
 		}
@@ -102,13 +102,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public TurbulenceMode turbulenceMode
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x31A8410", Offset = "0x31A7410", VA = "0x31A8410")]
 		get
 		{
 			return default(TurbulenceMode);
 		}
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x31A8420", Offset = "0x31A7420", VA = "0x31A8420")]
 		set
 		{
 		}
@@ -118,13 +118,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public Vector3 frequency
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x585000", Offset = "0x583600", VA = "0x180585000")]
+		[Address(RVA = "0x31A8430", Offset = "0x31A7430", VA = "0x31A8430")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x585070", Offset = "0x583670", VA = "0x180585070")]
+		[Address(RVA = "0x31A8440", Offset = "0x31A7440", VA = "0x31A8440")]
 		set
 		{
 		}
@@ -134,41 +134,41 @@ public class EZSoftBoneForce : ScriptableObject
 	public float timeCycle
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
+		[Address(RVA = "0x31A8450", Offset = "0x31A7450", VA = "0x31A8450")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x585080", Offset = "0x583680", VA = "0x180585080")]
+		[Address(RVA = "0x31A8460", Offset = "0x31A7460", VA = "0x31A8460")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x584CF0", Offset = "0x5832F0", VA = "0x180584CF0")]
+	[Address(RVA = "0x31A8470", Offset = "0x31A7470", VA = "0x31A8470")]
 	public Vector3 GetForce(float time)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x584ED0", Offset = "0x5834D0", VA = "0x180584ED0")]
+	[Address(RVA = "0x31A8630", Offset = "0x31A7630", VA = "0x31A8630")]
 	private float Perlin(float x, float y)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x584CC0", Offset = "0x5832C0", VA = "0x180584CC0")]
+	[Address(RVA = "0x31A8610", Offset = "0x31A7610", VA = "0x31A8610")]
 	private float Curve(AnimationCurve curve, float time)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x584F00", Offset = "0x583500", VA = "0x180584F00")]
+	[Address(RVA = "0x31A8650", Offset = "0x31A7650", VA = "0x31A8650")]
 	public EZSoftBoneForce()
 	{
 	}

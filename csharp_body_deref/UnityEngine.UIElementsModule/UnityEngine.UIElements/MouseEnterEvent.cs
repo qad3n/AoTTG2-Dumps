@@ -14,31 +14,31 @@ namespace UnityEngine.UIElements;
 public class MouseEnterEvent : MouseEventBase<MouseEnterEvent>
 {
 	[Token(Token = "0x6000D8F")]
-	[Address(RVA = "0x3267AB0", Offset = "0x32660B0", VA = "0x183267AB0")]
+	[Address(RVA = "0x6C69650", Offset = "0x6C68650", VA = "0x6C69650")]
 	static MouseEnterEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D90")]
-	[Address(RVA = "0x3267A50", Offset = "0x3266050", VA = "0x183267A50", Slot = "13")]
+	[Address(RVA = "0x6C69720", Offset = "0x6C68720", VA = "0x6C69720", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D91")]
-	[Address(RVA = "0x3267AA0", Offset = "0x32660A0", VA = "0x183267AA0")]
+	[Address(RVA = "0x6C69760", Offset = "0x6C68760", VA = "0x6C69760")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D92")]
-	[Address(RVA = "0x3267B90", Offset = "0x3266190", VA = "0x183267B90")]
+	[Address(RVA = "0x6C69770", Offset = "0x6C68770", VA = "0x6C69770")]
 	public MouseEnterEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D93")]
-	[Address(RVA = "0x31ED1B0", Offset = "0x31EB7B0", VA = "0x1831ED1B0", Slot = "10")]
+	[Address(RVA = "0x6C697B0", Offset = "0x6C687B0", VA = "0x6C697B0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

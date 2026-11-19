@@ -17,7 +17,7 @@ internal struct FloatTween : ITweenValue
 	public class FloatTweenCallback : UnityEvent<float>
 	{
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x2CDD890", Offset = "0x2CDBE90", VA = "0x182CDD890")]
+		[Address(RVA = "0x66DD820", Offset = "0x66DC820", VA = "0x66DD820")]
 		public FloatTweenCallback()
 		{
 		}
@@ -47,13 +47,13 @@ internal struct FloatTween : ITweenValue
 	public float startValue
 	{
 		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Address(RVA = "0x66DD660", Offset = "0x66DC660", VA = "0x66DD660")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Address(RVA = "0x66DD670", Offset = "0x66DC670", VA = "0x66DD670")]
 		set
 		{
 		}
@@ -63,13 +63,13 @@ internal struct FloatTween : ITweenValue
 	public float targetValue
 	{
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
+		[Address(RVA = "0x66DD680", Offset = "0x66DC680", VA = "0x66DD680")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
+		[Address(RVA = "0x66DD690", Offset = "0x66DC690", VA = "0x66DD690")]
 		set
 		{
 		}
@@ -79,13 +79,13 @@ internal struct FloatTween : ITweenValue
 	public float duration
 	{
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0", Slot = "6")]
+		[Address(RVA = "0x66DD6A0", Offset = "0x66DC6A0", VA = "0x66DD6A0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x66DD6B0", Offset = "0x66DC6B0", VA = "0x66DD6B0")]
 		set
 		{
 		}
@@ -95,46 +95,46 @@ internal struct FloatTween : ITweenValue
 	public bool ignoreTimeScale
 	{
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420", Slot = "5")]
+		[Address(RVA = "0x66DD6C0", Offset = "0x66DC6C0", VA = "0x66DD6C0", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x66DD6D0", Offset = "0x66DC6D0", VA = "0x66DD6D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2CDD990", Offset = "0x2CDBF90", VA = "0x182CDD990", Slot = "4")]
+	[Address(RVA = "0x66DD6E0", Offset = "0x66DC6E0", VA = "0x66DD6E0", Slot = "4")]
 	public void TweenValue(float floatPercentage)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2CDD8D0", Offset = "0x2CDBED0", VA = "0x182CDD8D0")]
+	[Address(RVA = "0x66DD770", Offset = "0x66DC770", VA = "0x66DD770")]
 	public void AddOnChangedCallback(UnityAction<float> callback)
 	{
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+	[Address(RVA = "0x66DD860", Offset = "0x66DC860", VA = "0x66DD860")]
 	public bool GetIgnoreTimescale()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+	[Address(RVA = "0x66DD870", Offset = "0x66DC870", VA = "0x66DD870")]
 	public float GetDuration()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x1B96F50", Offset = "0x1B95550", VA = "0x181B96F50", Slot = "7")]
+	[Address(RVA = "0x66DD760", Offset = "0x66DC760", VA = "0x66DD760", Slot = "7")]
 	public bool ValidTarget()
 	{
 		return default(bool);

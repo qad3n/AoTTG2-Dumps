@@ -16,25 +16,25 @@ namespace TMPro;
 public class TMP_Character : TMP_TextElement
 {
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x2CDFBF0", Offset = "0x2CDE1F0", VA = "0x182CDFBF0")]
+	[Address(RVA = "0x66DC950", Offset = "0x66DB950", VA = "0x66DC950")]
 	public TMP_Character()
 	{
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2CDFC80", Offset = "0x2CDE280", VA = "0x182CDFC80")]
+	[Address(RVA = "0x66DC970", Offset = "0x66DB970", VA = "0x66DC970")]
 	public TMP_Character(uint unicode, Glyph glyph)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2CDFD00", Offset = "0x2CDE300", VA = "0x182CDFD00")]
+	[Address(RVA = "0x66DC9D0", Offset = "0x66DB9D0", VA = "0x66DC9D0")]
 	public TMP_Character(uint unicode, TMP_FontAsset fontAsset, Glyph glyph)
 	{
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2CDFC20", Offset = "0x2CDE220", VA = "0x182CDFC20")]
+	[Address(RVA = "0x66DCA40", Offset = "0x66DBA40", VA = "0x66DCA40")]
 	internal TMP_Character(uint unicode, uint glyphIndex)
 	{
 	}

@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002A3")]
+[Token(Token = "0x2000264")]
 public class HttpVersion
 {
-	[Token(Token = "0x4000988")]
+	[Token(Token = "0x40008B9")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Version Unknown;
 
-	[Token(Token = "0x4000989")]
+	[Token(Token = "0x40008BA")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly Version Version10;
 
-	[Token(Token = "0x400098A")]
+	[Token(Token = "0x40008BB")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly Version Version11;
 
-	[Token(Token = "0x400098B")]
+	[Token(Token = "0x40008BC")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly Version Version20;
 }

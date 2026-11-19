@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001AF")]
+[Token(Token = "0x2000187")]
 internal static class EmptyArray<T>
 {
-	[Token(Token = "0x4000702")]
+	[Token(Token = "0x4000660")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly T[] Value;
 }

@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace Weather;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x2000037")]
 public enum WeatherEffect
 {
-	[Token(Token = "0x4000128")]
-	None,
-	[Token(Token = "0x4000129")]
-	Daylight,
-	[Token(Token = "0x400012A")]
-	DaylightIntensity,
-	[Token(Token = "0x400012B")]
-	DaylightDirection,
-	[Token(Token = "0x400012C")]
-	AmbientLight,
-	[Token(Token = "0x400012D")]
-	Skybox,
-	[Token(Token = "0x400012E")]
-	SkyboxColor,
 	[Token(Token = "0x400012F")]
-	Flashlight,
+	None,
 	[Token(Token = "0x4000130")]
-	FogDensity,
+	Daylight,
 	[Token(Token = "0x4000131")]
-	FogColor,
+	DaylightIntensity,
 	[Token(Token = "0x4000132")]
-	Rain,
+	DaylightDirection,
 	[Token(Token = "0x4000133")]
-	Thunder,
+	AmbientLight,
 	[Token(Token = "0x4000134")]
-	Snow,
+	Skybox,
 	[Token(Token = "0x4000135")]
-	Wind,
+	SkyboxColor,
 	[Token(Token = "0x4000136")]
-	WindDirection,
+	Flashlight,
 	[Token(Token = "0x4000137")]
-	RainForce,
+	FogDensity,
 	[Token(Token = "0x4000138")]
-	SnowForce,
+	FogColor,
 	[Token(Token = "0x4000139")]
+	Rain,
+	[Token(Token = "0x400013A")]
+	Thunder,
+	[Token(Token = "0x400013B")]
+	Snow,
+	[Token(Token = "0x400013C")]
+	Wind,
+	[Token(Token = "0x400013D")]
+	WindDirection,
+	[Token(Token = "0x400013E")]
+	RainForce,
+	[Token(Token = "0x400013F")]
+	SnowForce,
+	[Token(Token = "0x4000140")]
 	WindForce
 }

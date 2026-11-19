@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003C7")]
+[Token(Token = "0x2000383")]
 public enum WebSocketState
 {
-	[Token(Token = "0x40010C1")]
+	[Token(Token = "0x4000FD9")]
 	None,
-	[Token(Token = "0x40010C2")]
+	[Token(Token = "0x4000FDA")]
 	Connecting,
-	[Token(Token = "0x40010C3")]
+	[Token(Token = "0x4000FDB")]
 	Open,
-	[Token(Token = "0x40010C4")]
+	[Token(Token = "0x4000FDC")]
 	CloseSent,
-	[Token(Token = "0x40010C5")]
+	[Token(Token = "0x4000FDD")]
 	CloseReceived,
-	[Token(Token = "0x40010C6")]
+	[Token(Token = "0x4000FDE")]
 	Closed,
-	[Token(Token = "0x40010C7")]
+	[Token(Token = "0x4000FDF")]
 	Aborted
 }

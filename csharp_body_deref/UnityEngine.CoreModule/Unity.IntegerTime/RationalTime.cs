@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.IntegerTime.RationalTime
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -84,40 +84,40 @@ public struct RationalTime
 		internal static readonly TicksPerSecond DiscreteTimeRate;
 
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x2ED6190", Offset = "0x2ED4790", VA = "0x182ED6190")]
+		[Address(RVA = "0x68B3F40", Offset = "0x68B2F40", VA = "0x68B3F40")]
 		public TicksPerSecond(uint num, uint den = 1u)
 		{
 		}
 
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x2ED5CB0", Offset = "0x2ED42B0", VA = "0x182ED5CB0", Slot = "4")]
+		[Address(RVA = "0x68B40B0", Offset = "0x68B30B0", VA = "0x68B40B0", Slot = "4")]
 		public readonly bool Equals(TicksPerSecond rhs)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x2ED5CD0", Offset = "0x2ED42D0", VA = "0x182ED5CD0", Slot = "0")]
+		[Address(RVA = "0x68B40D0", Offset = "0x68B30D0", VA = "0x68B40D0", Slot = "0")]
 		public override readonly bool Equals(object rhs)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x2ED5DB0", Offset = "0x2ED43B0", VA = "0x182ED5DB0", Slot = "2")]
+		[Address(RVA = "0x68B4150", Offset = "0x68B3150", VA = "0x68B4150", Slot = "2")]
 		public override readonly int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x2ED5E20", Offset = "0x2ED4420", VA = "0x182ED5E20")]
+		[Address(RVA = "0x68B4020", Offset = "0x68B3020", VA = "0x68B4020")]
 		private static void Simplify(ref uint num, ref uint den)
 		{
 		}
 
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x2ED5D80", Offset = "0x2ED4380", VA = "0x182ED5D80")]
+		[Address(RVA = "0x68B41C0", Offset = "0x68B31C0", VA = "0x68B41C0")]
 		private static uint Gcd(uint a, uint b)
 		{
 			return default(uint);
@@ -138,7 +138,7 @@ public struct RationalTime
 	public long Count
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x68B3E00", Offset = "0x68B2E00", VA = "0x68B3E00")]
 		get
 		{
 			return default(long);
@@ -146,7 +146,7 @@ public struct RationalTime
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x2ECF800", Offset = "0x2ECDE00", VA = "0x182ECF800")]
+	[Address(RVA = "0x68B3E10", Offset = "0x68B2E10", VA = "0x68B3E10")]
 	public static explicit operator DiscreteTime(RationalTime t)
 	{
 		return default(DiscreteTime);

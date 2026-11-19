@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIElementsRuntimeUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -73,14 +73,14 @@ internal static class UIElementsRuntimeUtility
 	internal static Object activeEventSystem
 	{
 		[Token(Token = "0x600258A")]
-		[Address(RVA = "0x314D7E0", Offset = "0x314BDE0", VA = "0x18314D7E0")]
+		[Address(RVA = "0x6B50DA0", Offset = "0x6B4FDA0", VA = "0x6B50DA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600258B")]
-		[Address(RVA = "0x314DBF0", Offset = "0x314C1F0", VA = "0x18314DBF0")]
+		[Address(RVA = "0x6B50E10", Offset = "0x6B4FE10", VA = "0x6B50E10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -91,7 +91,7 @@ internal static class UIElementsRuntimeUtility
 	internal static bool useDefaultEventSystem
 	{
 		[Token(Token = "0x600258C")]
-		[Address(RVA = "0x314D9A0", Offset = "0x314BFA0", VA = "0x18314D9A0")]
+		[Address(RVA = "0x6B50E70", Offset = "0x6B4FE70", VA = "0x6B50E70")]
 		get
 		{
 			return default(bool);
@@ -102,14 +102,14 @@ internal static class UIElementsRuntimeUtility
 	internal static bool? overrideUseDefaultEventSystem
 	{
 		[Token(Token = "0x600258D")]
-		[Address(RVA = "0x314D950", Offset = "0x314BF50", VA = "0x18314D950")]
+		[Address(RVA = "0x6B51000", Offset = "0x6B50000", VA = "0x6B51000")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600258E")]
-		[Address(RVA = "0x314DC60", Offset = "0x314C260", VA = "0x18314DC60")]
+		[Address(RVA = "0x6B51070", Offset = "0x6B50070", VA = "0x6B51070")]
 		[CompilerGenerated]
 		set
 		{
@@ -120,7 +120,7 @@ internal static class UIElementsRuntimeUtility
 	internal static bool autoUpdateEventSystem
 	{
 		[Token(Token = "0x600258F")]
-		[Address(RVA = "0x314D830", Offset = "0x314BE30", VA = "0x18314D830")]
+		[Address(RVA = "0x6B510C0", Offset = "0x6B500C0", VA = "0x6B510C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -132,7 +132,7 @@ internal static class UIElementsRuntimeUtility
 	internal static DefaultEventSystem defaultEventSystem
 	{
 		[Token(Token = "0x6002592")]
-		[Address(RVA = "0x314D880", Offset = "0x314BE80", VA = "0x18314D880")]
+		[Address(RVA = "0x6B51590", Offset = "0x6B50590", VA = "0x6B51590")]
 		get
 		{
 			return null;
@@ -143,13 +143,13 @@ internal static class UIElementsRuntimeUtility
 	public static event Action<BaseRuntimePanel> onCreatePanel
 	{
 		[Token(Token = "0x600257A")]
-		[Address(RVA = "0x314D6D0", Offset = "0x314BCD0", VA = "0x18314D6D0")]
+		[Address(RVA = "0x6B4E2A0", Offset = "0x6B4D2A0", VA = "0x6B4E2A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600257B")]
-		[Address(RVA = "0x314DAE0", Offset = "0x314C0E0", VA = "0x18314DAE0")]
+		[Address(RVA = "0x6B4E390", Offset = "0x6B4D390", VA = "0x6B4E390")]
 		[CompilerGenerated]
 		remove
 		{
@@ -157,229 +157,229 @@ internal static class UIElementsRuntimeUtility
 	}
 
 	[Token(Token = "0x600257C")]
-	[Address(RVA = "0x314D2E0", Offset = "0x314B8E0", VA = "0x18314D2E0")]
+	[Address(RVA = "0x6B4E480", Offset = "0x6B4D480", VA = "0x6B4E480")]
 	static UIElementsRuntimeUtility()
 	{
 	}
 
 	[Token(Token = "0x600257D")]
-	[Address(RVA = "0x314A450", Offset = "0x3148A50", VA = "0x18314A450")]
+	[Address(RVA = "0x6B4E7D0", Offset = "0x6B4D7D0", VA = "0x6B4E7D0")]
 	public static EventBase CreateEvent(Event systemEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600257E")]
-	[Address(RVA = "0x314A820", Offset = "0x3148E20", VA = "0x18314A820")]
+	[Address(RVA = "0x6B4EAE0", Offset = "0x6B4DAE0", VA = "0x6B4EAE0")]
 	public static BaseRuntimePanel FindOrCreateRuntimePanel(ScriptableObject ownerObject, CreateRuntimePanelDelegate createDelegate)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600257F")]
-	[Address(RVA = "0x314A550", Offset = "0x3148B50", VA = "0x18314A550")]
+	[Address(RVA = "0x6B4F1E0", Offset = "0x6B4E1E0", VA = "0x6B4F1E0")]
 	public static void DisposeRuntimePanel(ScriptableObject ownerObject)
 	{
 	}
 
 	[Token(Token = "0x6002580")]
-	[Address(RVA = "0x314AA60", Offset = "0x3149060", VA = "0x18314AA60")]
+	[Address(RVA = "0x6B4F3C0", Offset = "0x6B4E3C0", VA = "0x6B4F3C0")]
 	private static void GetPlayerPanelsByRenderMode(List<BaseRuntimePanel> outScreenSpaceOverlayPanels, List<BaseRuntimePanel> outWorldSpacePanels)
 	{
 	}
 
 	[Token(Token = "0x6002581")]
-	[Address(RVA = "0x314B4E0", Offset = "0x3149AE0", VA = "0x18314B4E0")]
+	[Address(RVA = "0x6B4F020", Offset = "0x6B4E020", VA = "0x6B4F020")]
 	private static void RegisterCachedPanelInternal(int instanceID, IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6002582")]
-	[Address(RVA = "0x314B950", Offset = "0x3149F50", VA = "0x18314B950")]
+	[Address(RVA = "0x6B4ED90", Offset = "0x6B4DD90", VA = "0x6B4ED90")]
 	private static void RemoveCachedPanelInternal(int instanceID)
 	{
 	}
 
 	[Token(Token = "0x6002583")]
-	[Address(RVA = "0x314BDE0", Offset = "0x314A3E0", VA = "0x18314BDE0")]
+	[Address(RVA = "0x6B502B0", Offset = "0x6B4F2B0", VA = "0x6B502B0")]
 	public static void RenderOffscreenPanels()
 	{
 	}
 
 	[Token(Token = "0x6002584")]
-	[Address(RVA = "0x314C310", Offset = "0x314A910", VA = "0x18314C310")]
+	[Address(RVA = "0x6B50630", Offset = "0x6B4F630", VA = "0x6B50630")]
 	public static void RepaintPanel(BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x6002585")]
-	[Address(RVA = "0x314C230", Offset = "0x314A830", VA = "0x18314C230")]
+	[Address(RVA = "0x6B50560", Offset = "0x6B4F560", VA = "0x6B50560")]
 	public static void RenderPanel(BaseRuntimePanel panel, bool restoreState = true)
 	{
 	}
 
 	[Token(Token = "0x6002586")]
-	[Address(RVA = "0x314A3F0", Offset = "0x31489F0", VA = "0x18314A3F0")]
+	[Address(RVA = "0x6B50690", Offset = "0x6B4F690", VA = "0x6B50690")]
 	internal static void BeginRenderOverlays(int displayIndex)
 	{
 	}
 
 	[Token(Token = "0x6002587")]
-	[Address(RVA = "0x314BFD0", Offset = "0x314A5D0", VA = "0x18314BFD0")]
+	[Address(RVA = "0x6B50700", Offset = "0x6B4F700", VA = "0x6B50700")]
 	internal static void RenderOverlaysBeforePriority(int displayIndex, float maxPriority)
 	{
 	}
 
 	[Token(Token = "0x6002588")]
-	[Address(RVA = "0x314A7B0", Offset = "0x3148DB0", VA = "0x18314A7B0")]
+	[Address(RVA = "0x6B50990", Offset = "0x6B4F990", VA = "0x6B50990")]
 	internal static void EndRenderOverlays(int displayIndex)
 	{
 	}
 
 	[Token(Token = "0x6002589")]
-	[Address(RVA = "0x314C390", Offset = "0x314A990", VA = "0x18314C390")]
+	[Address(RVA = "0x6B50A00", Offset = "0x6B4FA00", VA = "0x6B50A00")]
 	public static void RepaintPanels(bool onlyOffscreen)
 	{
 	}
 
 	[Token(Token = "0x6002590")]
-	[Address(RVA = "0x314B700", Offset = "0x3149D00", VA = "0x18314B700")]
+	[Address(RVA = "0x6B51130", Offset = "0x6B50130", VA = "0x6B51130")]
 	public static void RegisterEventSystem(Object eventSystem)
 	{
 	}
 
 	[Token(Token = "0x6002591")]
-	[Address(RVA = "0x314CD00", Offset = "0x314B300", VA = "0x18314CD00")]
+	[Address(RVA = "0x6B51400", Offset = "0x6B50400", VA = "0x6B51400")]
 	public static void UnregisterEventSystem(Object eventSystem)
 	{
 	}
 
 	[Token(Token = "0x6002593")]
-	[Address(RVA = "0x314D0C0", Offset = "0x314B6C0", VA = "0x18314D0C0")]
+	[Address(RVA = "0x6B51670", Offset = "0x6B50670", VA = "0x6B51670")]
 	public static void UpdatePanels()
 	{
 	}
 
 	[Token(Token = "0x6002594")]
-	[Address(RVA = "0x314CE40", Offset = "0x314B440", VA = "0x18314CE40")]
+	[Address(RVA = "0x6B51B10", Offset = "0x6B50B10", VA = "0x6B51B10")]
 	internal static void UpdateEventSystem()
 	{
 	}
 
 	[Token(Token = "0x6002595")]
-	[Address(RVA = "0x314AFC0", Offset = "0x31495C0", VA = "0x18314AFC0")]
+	[Address(RVA = "0x6B51C80", Offset = "0x6B50C80", VA = "0x6B51C80")]
 	internal static void MarkPotentiallyEmpty(PanelSettings settings)
 	{
 	}
 
 	[Token(Token = "0x6002596")]
-	[Address(RVA = "0x314BBF0", Offset = "0x314A1F0", VA = "0x18314BBF0")]
+	[Address(RVA = "0x6B518D0", Offset = "0x6B508D0", VA = "0x6B518D0")]
 	internal static void RemoveUnusedPanels()
 	{
 	}
 
 	[Token(Token = "0x6002597")]
-	[Address(RVA = "0x314A700", Offset = "0x3148D00", VA = "0x18314A700")]
+	[Address(RVA = "0x6B4FA60", Offset = "0x6B4EA60", VA = "0x6B4FA60")]
 	public static void EnableRenderingAndInputCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002598")]
-	[Address(RVA = "0x314A4C0", Offset = "0x3148AC0", VA = "0x18314A4C0")]
+	[Address(RVA = "0x6B50210", Offset = "0x6B4F210", VA = "0x6B50210")]
 	public static void DisableRenderingAndInputCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002599")]
-	[Address(RVA = "0x314C620", Offset = "0x314AC20", VA = "0x18314C620")]
+	[Address(RVA = "0x6B51DC0", Offset = "0x6B50DC0", VA = "0x6B51DC0")]
 	internal static void SetPanelOrderingDirty()
 	{
 	}
 
 	[Token(Token = "0x600259A")]
-	[Address(RVA = "0x314C670", Offset = "0x314AC70", VA = "0x18314C670")]
+	[Address(RVA = "0x6B51E30", Offset = "0x6B50E30", VA = "0x6B51E30")]
 	internal static void SetPanelsDrawInCameraDirty()
 	{
 	}
 
 	[Token(Token = "0x600259B")]
-	[Address(RVA = "0x314AF20", Offset = "0x3149520", VA = "0x18314AF20")]
+	[Address(RVA = "0x6B51EA0", Offset = "0x6B50EA0", VA = "0x6B51EA0")]
 	internal static List<BaseRuntimePanel> GetWorldSpacePlayerPanels()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600259C")]
-	[Address(RVA = "0x314AE80", Offset = "0x3149480", VA = "0x18314AE80")]
+	[Address(RVA = "0x6B504B0", Offset = "0x6B4F4B0", VA = "0x6B504B0")]
 	public static List<BaseRuntimePanel> GetSortedScreenOverlayPlayerPanels()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600259D")]
-	[Address(RVA = "0x314ADE0", Offset = "0x31493E0", VA = "0x18314ADE0")]
+	[Address(RVA = "0x6B50CF0", Offset = "0x6B4FCF0", VA = "0x6B50CF0")]
 	public static List<BaseRuntimePanel> GetSortedPlayerPanels()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600259E")]
-	[Address(RVA = "0x314C6C0", Offset = "0x314ACC0", VA = "0x18314C6C0")]
+	[Address(RVA = "0x6B4FBB0", Offset = "0x6B4EBB0", VA = "0x6B4FBB0")]
 	private static void SortPanels()
 	{
 	}
 
 	[Token(Token = "0x600259F")]
-	[Address(RVA = "0x314B0F0", Offset = "0x31496F0", VA = "0x18314B0F0")]
+	[Address(RVA = "0x6B51F50", Offset = "0x6B50F50", VA = "0x6B51F50")]
 	internal static Vector2 MultiDisplayBottomLeftToPanelPosition(Vector2 position, out int? targetDisplay)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A0")]
-	[Address(RVA = "0x314B2F0", Offset = "0x31498F0", VA = "0x18314B2F0")]
+	[Address(RVA = "0x6B52170", Offset = "0x6B51170", VA = "0x6B52170")]
 	internal static Vector2 MultiDisplayToLocalScreenPosition(Vector2 position, out int? targetDisplay)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A1")]
-	[Address(RVA = "0x314C5B0", Offset = "0x314ABB0", VA = "0x18314C5B0")]
+	[Address(RVA = "0x6B522A0", Offset = "0x6B512A0", VA = "0x6B522A0")]
 	internal static Vector2 ScreenBottomLeftToPanelPosition(Vector2 position, int targetDisplay)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A2")]
-	[Address(RVA = "0x314C540", Offset = "0x314AB40", VA = "0x18314C540")]
+	[Address(RVA = "0x6B523E0", Offset = "0x6B513E0", VA = "0x6B523E0")]
 	internal static Vector2 ScreenBottomLeftToPanelDelta(Vector2 delta)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A3")]
-	[Address(RVA = "0x314B470", Offset = "0x3149A70", VA = "0x18314B470")]
+	[Address(RVA = "0x6B52470", Offset = "0x6B51470", VA = "0x6B52470")]
 	internal static Vector2 PanelToScreenBottomLeftPosition(Vector2 panelPosition, int targetDisplay)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A4")]
-	[Address(RVA = "0x314AA30", Offset = "0x3149030", VA = "0x18314AA30")]
+	[Address(RVA = "0x6B523C0", Offset = "0x6B513C0", VA = "0x6B523C0")]
 	internal static Vector2 FlipY(Vector2 p, float displayHeight)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A5")]
-	[Address(RVA = "0x2FC06D0", Offset = "0x2FBECD0", VA = "0x182FC06D0")]
+	[Address(RVA = "0x6B52450", Offset = "0x6B51450", VA = "0x6B52450")]
 	private static Vector2 FlipDeltaY(Vector2 delta)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60025A6")]
-	[Address(RVA = "0x314AD20", Offset = "0x3149320", VA = "0x18314AD20")]
+	[Address(RVA = "0x6B52310", Offset = "0x6B51310", VA = "0x6B52310")]
 	private static float GetRuntimeDisplayHeight(int targetDisplay)
 	{
 		return default(float);

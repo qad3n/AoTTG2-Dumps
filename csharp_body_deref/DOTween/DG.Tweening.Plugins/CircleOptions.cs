@@ -43,13 +43,13 @@ public struct CircleOptions : IPlugOptions
 	internal bool initialized;
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x546D00", Offset = "0x545300", VA = "0x180546D00", Slot = "4")]
+	[Address(RVA = "0x31810B0", Offset = "0x31800B0", VA = "0x31810B0", Slot = "4")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x546BD0", Offset = "0x5451D0", VA = "0x180546BD0")]
+	[Address(RVA = "0x31810D0", Offset = "0x31800D0", VA = "0x31810D0")]
 	public void Initialize(Vector2 startValue, Vector2 endValue)
 	{
 	}

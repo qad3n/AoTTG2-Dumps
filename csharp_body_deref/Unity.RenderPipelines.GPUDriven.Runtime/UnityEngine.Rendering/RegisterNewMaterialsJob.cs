@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RegisterNewMaterialsJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,7 +45,7 @@ internal struct RegisterNewMaterialsJob : IJobParallelFor
 	public NativeParallelHashMap<EntityId, UnityEngine.Rendering.GPUDrivenPackedMaterialData>.ParallelWriter packedMaterialHashMap;
 
 	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x2BE9910", Offset = "0x2BE7F10", VA = "0x182BE9910", Slot = "4")]
+	[Address(RVA = "0x65CAE50", Offset = "0x65C9E50", VA = "0x65CAE50", Slot = "4")]
 	public void Execute(int index)
 	{
 	}

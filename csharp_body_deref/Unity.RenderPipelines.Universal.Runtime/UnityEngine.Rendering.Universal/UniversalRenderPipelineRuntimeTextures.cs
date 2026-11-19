@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -50,7 +50,7 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	public int version
 	{
 		[Token(Token = "0x6000826")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667BA60", Offset = "0x667AA60", VA = "0x667BA60", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -61,7 +61,7 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000827")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667BA70", Offset = "0x667AA70", VA = "0x667BA70", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -72,13 +72,13 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	public Texture2D blueNoise64LTex
 	{
 		[Token(Token = "0x6000828")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667BA80", Offset = "0x667AA80", VA = "0x667BA80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000829")]
-		[Address(RVA = "0x2C8E7A0", Offset = "0x2C8CDA0", VA = "0x182C8E7A0")]
+		[Address(RVA = "0x667BA90", Offset = "0x667AA90", VA = "0x667BA90")]
 		set
 		{
 		}
@@ -88,13 +88,13 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	public Texture2D bayerMatrixTex
 	{
 		[Token(Token = "0x600082A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667BAF0", Offset = "0x667AAF0", VA = "0x667BAF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600082B")]
-		[Address(RVA = "0x2C8E730", Offset = "0x2C8CD30", VA = "0x182C8E730")]
+		[Address(RVA = "0x667BB00", Offset = "0x667AB00", VA = "0x667BB00")]
 		set
 		{
 		}
@@ -104,13 +104,13 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	public Texture2D debugFontTexture
 	{
 		[Token(Token = "0x600082C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x667BB60", Offset = "0x667AB60", VA = "0x667BB60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600082D")]
-		[Address(RVA = "0x2C8E810", Offset = "0x2C8CE10", VA = "0x182C8E810")]
+		[Address(RVA = "0x667BB70", Offset = "0x667AB70", VA = "0x667BB70")]
 		set
 		{
 		}
@@ -120,7 +120,7 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	public Texture2D stencilDitherTex
 	{
 		[Token(Token = "0x600082E")]
-		[Address(RVA = "0x2C8E5A0", Offset = "0x2C8CBA0", VA = "0x182C8E5A0")]
+		[Address(RVA = "0x667BBD0", Offset = "0x667ABD0", VA = "0x667BBD0")]
 		get
 		{
 			return null;
@@ -128,7 +128,7 @@ public class UniversalRenderPipelineRuntimeTextures : IRenderPipelineResources, 
 	}
 
 	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x18D09C0", Offset = "0x18CEFC0", VA = "0x1818D09C0")]
+	[Address(RVA = "0x667BD40", Offset = "0x667AD40", VA = "0x667BD40")]
 	public UniversalRenderPipelineRuntimeTextures()
 	{
 	}

@@ -16,7 +16,7 @@ public abstract class XmlSerializerImplementation
 	public virtual XmlSerializationWriter Writer
 	{
 		[Token(Token = "0x6000E76")]
-		[Address(RVA = "0x278BBA0", Offset = "0x278A1A0", VA = "0x18278BBA0", Slot = "4")]
+		[Address(RVA = "0x6136FF0", Offset = "0x6135FF0", VA = "0x6136FF0", Slot = "4")]
 		get
 		{
 			return null;

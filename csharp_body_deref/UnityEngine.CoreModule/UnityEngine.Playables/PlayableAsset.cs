@@ -14,51 +14,51 @@ namespace UnityEngine.Playables;
 
 [Serializable]
 [Token(Token = "0x2000303")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.AssetFileNameExtension("playable", new string[] { })]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public abstract class PlayableAsset : ScriptableObject
 {
-	[Token(Token = "0x170002E4")]
+	[Token(Token = "0x170002E9")]
 	public virtual double duration
 	{
-		[Token(Token = "0x6001228")]
-		[Address(RVA = "0x2F4D7E0", Offset = "0x2F4BDE0", VA = "0x182F4D7E0", Slot = "5")]
+		[Token(Token = "0x600123C")]
+		[Address(RVA = "0x693AC70", Offset = "0x6939C70", VA = "0x693AC70", Slot = "5")]
 		get
 		{
 			return default(double);
 		}
 	}
 
-	[Token(Token = "0x170002E5")]
+	[Token(Token = "0x170002EA")]
 	public virtual IEnumerable<PlayableBinding> outputs
 	{
-		[Token(Token = "0x6001229")]
-		[Address(RVA = "0x2F4D830", Offset = "0x2F4BE30", VA = "0x182F4D830", Slot = "6")]
+		[Token(Token = "0x600123D")]
+		[Address(RVA = "0x693ACE0", Offset = "0x6939CE0", VA = "0x693ACE0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001227")]
+	[Token(Token = "0x600123B")]
 	public abstract Playable CreatePlayable(PlayableGraph graph, GameObject owner);
 
-	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x2F4D690", Offset = "0x2F4BC90", VA = "0x182F4D690")]
+	[Token(Token = "0x600123E")]
+	[Address(RVA = "0x693AD50", Offset = "0x6939D50", VA = "0x693AD50")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void Internal_CreatePlayable(PlayableAsset asset, PlayableGraph graph, GameObject go, IntPtr ptr)
 	{
 	}
 
-	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x2F4D7B0", Offset = "0x2F4BDB0", VA = "0x182F4D7B0")]
+	[Token(Token = "0x600123F")]
+	[Address(RVA = "0x693AE60", Offset = "0x6939E60", VA = "0x693AE60")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void Internal_GetPlayableAssetDuration(PlayableAsset asset, IntPtr ptrToDouble)
 	{
 	}
 
-	[Token(Token = "0x600122C")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Token(Token = "0x6001240")]
+	[Address(RVA = "0x693AE90", Offset = "0x6939E90", VA = "0x693AE90")]
 	protected PlayableAsset()
 	{
 	}

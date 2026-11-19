@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.EventInterestReflectionUtils
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,20 +43,20 @@ internal static class EventInterestReflectionUtils
 	private static readonly Dictionary<Type, EventCategory> s_EventCategories;
 
 	[Token(Token = "0x60027EB")]
-	[Address(RVA = "0x315C700", Offset = "0x315AD00", VA = "0x18315C700")]
+	[Address(RVA = "0x6B6BE50", Offset = "0x6B6AE50", VA = "0x6B6BE50")]
 	internal static void GetDefaultEventInterests(Type elementType, out int defaultActionCategories, out int defaultActionAtTargetCategories, out int handleEventTrickleDownCategories, out int handleEventBubbleUpCategories)
 	{
 	}
 
 	[Token(Token = "0x60027EC")]
-	[Address(RVA = "0x315C4F0", Offset = "0x315AAF0", VA = "0x18315C4F0")]
+	[Address(RVA = "0x6B6C140", Offset = "0x6B6B140", VA = "0x6B6C140")]
 	private static int ComputeDefaultEventInterests(Type elementType, string methodName)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60027ED")]
-	[Address(RVA = "0x315C9F0", Offset = "0x315AFF0", VA = "0x18315C9F0")]
+	[Address(RVA = "0x6B6C320", Offset = "0x6B6B320", VA = "0x6B6C320")]
 	internal static EventCategory GetEventCategory(Type eventType)
 	{
 		return default(EventCategory);

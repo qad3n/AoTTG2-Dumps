@@ -13,14 +13,14 @@ namespace System.Xml.Schema;
 internal class Datatype_doubleXdr : Datatype_double
 {
 	[Token(Token = "0x60011BE")]
-	[Address(RVA = "0x279DE10", Offset = "0x279C410", VA = "0x18279DE10", Slot = "6")]
+	[Address(RVA = "0x6163300", Offset = "0x6162300", VA = "0x6163300", Slot = "6")]
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011BF")]
-	[Address(RVA = "0x279DFC0", Offset = "0x279C5C0", VA = "0x18279DFC0")]
+	[Address(RVA = "0x6154C30", Offset = "0x6153C30", VA = "0x6154C30")]
 	public Datatype_doubleXdr()
 	{
 	}

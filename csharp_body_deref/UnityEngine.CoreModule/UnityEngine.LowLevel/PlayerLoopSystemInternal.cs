@@ -19,23 +19,23 @@ namespace UnityEngine.LowLevel;
 [MovedFrom("UnityEngine.Experimental.LowLevel")]
 internal struct PlayerLoopSystemInternal
 {
-	[Token(Token = "0x4000765")]
+	[Token(Token = "0x4000763")]
 	[FieldOffset(Offset = "0x0")]
 	public Type type;
 
-	[Token(Token = "0x4000766")]
+	[Token(Token = "0x4000764")]
 	[FieldOffset(Offset = "0x8")]
 	public PlayerLoopSystem.UpdateFunction updateDelegate;
 
-	[Token(Token = "0x4000767")]
+	[Token(Token = "0x4000765")]
 	[FieldOffset(Offset = "0x10")]
 	public IntPtr updateFunction;
 
-	[Token(Token = "0x4000768")]
+	[Token(Token = "0x4000766")]
 	[FieldOffset(Offset = "0x18")]
 	public IntPtr loopConditionFunction;
 
-	[Token(Token = "0x4000769")]
+	[Token(Token = "0x4000767")]
 	[FieldOffset(Offset = "0x20")]
 	public int numSubSystems;
 }

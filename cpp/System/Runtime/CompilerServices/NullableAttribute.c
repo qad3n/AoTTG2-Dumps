@@ -1,5 +1,5 @@
 // Type: System.Runtime.CompilerServices.NullableAttribute
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // Prior real C# source: none
@@ -7,172 +7,168 @@
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_o* __this, uint8_t , const MethodInfo* method);
-// 0x181da8b10
+// 0x5843290
 
 void System_Runtime_CompilerServices_NullableAttribute___ctor
                (System_Runtime_CompilerServices_NullableAttribute_o *__this,uint8_t param_2,MethodInfo *method
                )
 
 {
-  System_Byte_array *value;
+  System_Byte_array *pSVar1;
   
-  if (Il2CppMethodInitialized_184344890 == '\0') {
+  if (Il2CppMethodInitialized_07544fdf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_byte_array);
-    Il2CppMethodInitialized_184344890 = '\x01';
+    Il2CppMethodInitialized_07544fdf = '\x01';
   }
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  value = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
-  if (value != (System_Byte_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      value->m_Items[0] = param_2;
-      (__this->fields).NullableFlags = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,value);
-      return;
-    }
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  pSVar1 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
+  if (pSVar1 == (System_Byte_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar1->max_length == 0) {
     ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  pSVar1->m_Items[0] = param_2;
+  (__this->fields).NullableFlags = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
+  return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_o* __this, System_Byte_array* , const MethodInfo* method);
-// 0x1812b8cd0
+// 0x5843310
 
-void
-System_Runtime_CompilerServices_NullableAttribute___ctor_12b8cd0(System_Runtime_CompilerServices_NullableAttribute_o* __this, System_Byte_array* , MethodInfo* method)
+void System_Runtime_CompilerServices_NullableAttribute___ctor_5743310
+               (System_Runtime_CompilerServices_NullableAttribute_o *__this,System_Byte_array *param_2,
+               MethodInfo *method)
 
 {
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  (__this->fields).NullableFlags = method;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,method);
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).NullableFlags = param_2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
   return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_1_o* __this, uint8_t , const MethodInfo* method);
-// 0x181be7820
+// 0x5655a10
 
-void System_Runtime_CompilerServices_NullableAttribute___ctor_1be7820
+void System_Runtime_CompilerServices_NullableAttribute___ctor_5555a10
                (System_Runtime_CompilerServices_NullableAttribute_1_o *__this,uint8_t param_2,
                MethodInfo *method)
 
 {
-  System_Byte_array *value;
+  System_Byte_array *pSVar1;
   
-  if (Il2CppMethodInitialized_18434397b == '\0') {
+  if (Il2CppMethodInitialized_07544119 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_byte_array);
-    Il2CppMethodInitialized_18434397b = '\x01';
+    Il2CppMethodInitialized_07544119 = '\x01';
   }
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  value = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
-  if (value != (System_Byte_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      value->m_Items[0] = param_2;
-      (__this->fields).NullableFlags = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,value);
-      return;
-    }
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  pSVar1 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
+  if (pSVar1 == (System_Byte_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar1->max_length == 0) {
     ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  pSVar1->m_Items[0] = param_2;
+  (__this->fields).NullableFlags = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
+  return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_1_o* __this, System_Byte_array* , const MethodInfo* method);
-// 0x1812b8cd0
+// 0x5655a90
 
-void
-System_Runtime_CompilerServices_NullableAttribute___ctor_12b8cd0(System_Runtime_CompilerServices_NullableAttribute_1_o* __this, System_Byte_array* , MethodInfo* method)
+void System_Runtime_CompilerServices_NullableAttribute___ctor_5555a90
+               (System_Runtime_CompilerServices_NullableAttribute_1_o *__this,System_Byte_array *param_2,
+               MethodInfo *method)
 
 {
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  (__this->fields).NullableFlags = method;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,method);
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).NullableFlags = param_2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
   return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_2_o* __this, uint8_t , const MethodInfo* method);
-// 0x1824e4500
+// 0x5f613b0
 
-void System_Runtime_CompilerServices_NullableAttribute___ctor_24e4500
+void System_Runtime_CompilerServices_NullableAttribute___ctor_5e613b0
                (System_Runtime_CompilerServices_NullableAttribute_2_o *__this,uint8_t param_2,
                MethodInfo *method)
 
 {
-  System_Byte_array *value;
+  System_Byte_array *pSVar1;
   
-  if (Il2CppMethodInitialized_18434862a == '\0') {
+  if (Il2CppMethodInitialized_07548f3f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_byte_array);
-    Il2CppMethodInitialized_18434862a = '\x01';
+    Il2CppMethodInitialized_07548f3f = '\x01';
   }
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  value = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
-  if (value != (System_Byte_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      value->m_Items[0] = param_2;
-      (__this->fields).NullableFlags = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,value);
-      return;
-    }
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  pSVar1 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
+  if (pSVar1 == (System_Byte_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar1->max_length == 0) {
     ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  pSVar1->m_Items[0] = param_2;
+  (__this->fields).NullableFlags = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
+  return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_3_o* __this, uint8_t , const MethodInfo* method);
-// 0x1830164c0
+// 0x6afdfe0
 
-void System_Runtime_CompilerServices_NullableAttribute___ctor_30164c0
+void System_Runtime_CompilerServices_NullableAttribute___ctor_69fdfe0
                (System_Runtime_CompilerServices_NullableAttribute_3_o *__this,uint8_t param_2,
                MethodInfo *method)
 
 {
-  System_Byte_array *value;
+  System_Byte_array *pSVar1;
   
-  if (Il2CppMethodInitialized_18435246b == '\0') {
+  if (Il2CppMethodInitialized_07552b63 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_byte_array);
-    Il2CppMethodInitialized_18435246b = '\x01';
+    Il2CppMethodInitialized_07552b63 = '\x01';
   }
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  value = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
-  if (value != (System_Byte_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      value->m_Items[0] = param_2;
-      (__this->fields).NullableFlags = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,value);
-      return;
-    }
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  pSVar1 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,1);
+  if (pSVar1 == (System_Byte_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar1->max_length == 0) {
     ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  pSVar1->m_Items[0] = param_2;
+  (__this->fields).NullableFlags = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
+  return;
 }
 
 
 // System.Runtime.CompilerServices.NullableAttribute$$.ctor
 // il2cpp: void System_Runtime_CompilerServices_NullableAttribute___ctor (System_Runtime_CompilerServices_NullableAttribute_3_o* __this, System_Byte_array* , const MethodInfo* method);
-// 0x1812b8cd0
+// 0x6afe060
 
-void
-System_Runtime_CompilerServices_NullableAttribute___ctor_12b8cd0(System_Runtime_CompilerServices_NullableAttribute_3_o* __this, System_Byte_array* , MethodInfo* method)
+void System_Runtime_CompilerServices_NullableAttribute___ctor_69fe060
+               (System_Runtime_CompilerServices_NullableAttribute_3_o *__this,System_Byte_array *param_2,
+               MethodInfo *method)
 
 {
-  System_Attribute___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  (__this->fields).NullableFlags = method;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags,method);
+  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).NullableFlags = param_2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NullableFlags);
   return;
 }
 

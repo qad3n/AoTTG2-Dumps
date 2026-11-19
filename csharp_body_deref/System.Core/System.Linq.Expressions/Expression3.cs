@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000098")]
+[Token(Token = "0x2000099")]
 internal sealed class Expression3<TDelegate> : Expression<TDelegate>
 {
-	[Token(Token = "0x400019F")]
+	[Token(Token = "0x40001A8")]
 	[FieldOffset(Offset = "0x0")]
 	private object _par0;
 
-	[Token(Token = "0x40001A0")]
+	[Token(Token = "0x40001A9")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ParameterExpression _par1;
 
-	[Token(Token = "0x40001A1")]
+	[Token(Token = "0x40001AA")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ParameterExpression _par2;
 
-	[Token(Token = "0x170000B3")]
+	[Token(Token = "0x170000B5")]
 	internal override int ParameterCount
 	{
-		[Token(Token = "0x6000459")]
+		[Token(Token = "0x6000464")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000458")]
+	[Token(Token = "0x6000463")]
 	public Expression3(Expression body, ParameterExpression par0, ParameterExpression par1, ParameterExpression par2)
 	{
 	}
 
-	[Token(Token = "0x600045A")]
+	[Token(Token = "0x6000465")]
 	internal override ParameterExpression GetParameter(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045B")]
+	[Token(Token = "0x6000466")]
 	internal override Expression<TDelegate> Rewrite(Expression body, ParameterExpression[] parameters)
 	{
 		return null;

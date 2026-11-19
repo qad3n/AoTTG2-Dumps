@@ -32,14 +32,14 @@ internal class BsonBinaryWriter
 	public DateTimeKind DateTimeKindHandling
 	{
 		[Token(Token = "0x6000FCE")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x5647550", Offset = "0x5646550", VA = "0x5647550")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DateTimeKind);
 		}
 		[Token(Token = "0x6000FCF")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x5647560", Offset = "0x5646560", VA = "0x5647560")]
 		[CompilerGenerated]
 		set
 		{
@@ -47,63 +47,63 @@ internal class BsonBinaryWriter
 	}
 
 	[Token(Token = "0x6000FD0")]
-	[Address(RVA = "0x1CA9B80", Offset = "0x1CA8180", VA = "0x181CA9B80")]
+	[Address(RVA = "0x5647570", Offset = "0x5646570", VA = "0x5647570")]
 	public BsonBinaryWriter(BinaryWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x1CA8960", Offset = "0x1CA6F60", VA = "0x181CA8960")]
+	[Address(RVA = "0x56475B0", Offset = "0x56465B0", VA = "0x56475B0")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000FD2")]
-	[Address(RVA = "0x1C702C0", Offset = "0x1C6E8C0", VA = "0x181C702C0")]
+	[Address(RVA = "0x56475E0", Offset = "0x56465E0", VA = "0x56475E0")]
 	public void Close()
 	{
 	}
 
 	[Token(Token = "0x6000FD3")]
-	[Address(RVA = "0x1CA9940", Offset = "0x1CA7F40", VA = "0x181CA9940")]
+	[Address(RVA = "0x5647610", Offset = "0x5646610", VA = "0x5647610")]
 	public void WriteToken(BsonToken t)
 	{
 	}
 
 	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x1CA8B80", Offset = "0x1CA7180", VA = "0x181CA8B80")]
+	[Address(RVA = "0x5647FD0", Offset = "0x5646FD0", VA = "0x5647FD0")]
 	private void WriteTokenInternal(BsonToken t)
 	{
 	}
 
 	[Token(Token = "0x6000FD5")]
-	[Address(RVA = "0x1CA8990", Offset = "0x1CA6F90", VA = "0x181CA8990")]
+	[Address(RVA = "0x5649060", Offset = "0x5648060", VA = "0x5649060")]
 	private void WriteString(string s, int byteCount, int? calculatedlengthPrefix)
 	{
 	}
 
 	[Token(Token = "0x6000FD6")]
-	[Address(RVA = "0x1CA9970", Offset = "0x1CA7F70", VA = "0x181CA9970")]
+	[Address(RVA = "0x5649180", Offset = "0x5648180", VA = "0x5649180")]
 	public void WriteUtf8Bytes(string s, int byteCount)
 	{
 	}
 
 	[Token(Token = "0x6000FD7")]
-	[Address(RVA = "0x1CA8280", Offset = "0x1CA6880", VA = "0x181CA8280")]
+	[Address(RVA = "0x5649330", Offset = "0x5648330", VA = "0x5649330")]
 	private int CalculateSize(int stringByteCount)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FD8")]
-	[Address(RVA = "0x1CA8270", Offset = "0x1CA6870", VA = "0x181CA8270")]
+	[Address(RVA = "0x5649340", Offset = "0x5648340", VA = "0x5649340")]
 	private int CalculateSizeWithLength(int stringByteCount, bool includeSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FD9")]
-	[Address(RVA = "0x1CA8290", Offset = "0x1CA6890", VA = "0x181CA8290")]
+	[Address(RVA = "0x5647640", Offset = "0x5646640", VA = "0x5647640")]
 	private int CalculateSize(BsonToken t)
 	{
 		return default(int);

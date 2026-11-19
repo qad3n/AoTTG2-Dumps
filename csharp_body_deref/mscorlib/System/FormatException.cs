@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000D8")]
+[Token(Token = "0x20000B0")]
 public class FormatException : SystemException
 {
-	[Token(Token = "0x60006DA")]
-	[Address(RVA = "0x1B22F00", Offset = "0x1B21500", VA = "0x181B22F00")]
+	[Token(Token = "0x60006B5")]
+	[Address(RVA = "0x549EC90", Offset = "0x549DC90", VA = "0x549EC90")]
 	public FormatException()
 	{
 	}
 
-	[Token(Token = "0x60006DB")]
-	[Address(RVA = "0x1B22EC0", Offset = "0x1B214C0", VA = "0x181B22EC0")]
+	[Token(Token = "0x60006B6")]
+	[Address(RVA = "0x549ECD0", Offset = "0x549DCD0", VA = "0x549ECD0")]
 	public FormatException(string message)
 	{
 	}
 
-	[Token(Token = "0x60006DC")]
-	[Address(RVA = "0x1B22EE0", Offset = "0x1B214E0", VA = "0x181B22EE0")]
+	[Token(Token = "0x60006B7")]
+	[Address(RVA = "0x549ECF0", Offset = "0x549DCF0", VA = "0x549ECF0")]
 	public FormatException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60006DD")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60006B8")]
+	[Address(RVA = "0x549ED10", Offset = "0x549DD10", VA = "0x549ED10")]
 	protected FormatException(SerializationInfo info, StreamingContext context)
 	{
 	}

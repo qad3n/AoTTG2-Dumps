@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class Texture3DParameter : VolumeParameter<Texture>
 {
 	[Token(Token = "0x6000F60")]
-	[Address(RVA = "0x2B62670", Offset = "0x2B60C70", VA = "0x182B62670")]
+	[Address(RVA = "0x65566E0", Offset = "0x65556E0", VA = "0x65566E0")]
 	public Texture3DParameter(Texture value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F61")]
-	[Address(RVA = "0x2B62580", Offset = "0x2B60B80", VA = "0x182B62580", Slot = "2")]
+	[Address(RVA = "0x6556730", Offset = "0x6555730", VA = "0x6556730", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

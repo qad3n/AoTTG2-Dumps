@@ -7,7 +7,7 @@ namespace Unity;
 internal sealed class ThrowStub : ObjectDisposedException
 {
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x25E4BD0", Offset = "0x25E31D0", VA = "0x1825E4BD0")]
+	[Address(RVA = "0x5FA87E0", Offset = "0x5FA77E0", VA = "0x5FA87E0")]
 	public static void ThrowNotSupportedException()
 	{
 	}

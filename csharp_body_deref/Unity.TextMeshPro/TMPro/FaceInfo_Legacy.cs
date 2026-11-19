@@ -99,7 +99,7 @@ public class FaceInfo_Legacy
 	public float AtlasHeight;
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x66F3280", Offset = "0x66F2280", VA = "0x66F3280")]
 	public FaceInfo_Legacy()
 	{
 	}

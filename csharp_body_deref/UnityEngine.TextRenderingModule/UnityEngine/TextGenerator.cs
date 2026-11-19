@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextGenerator
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public sealed class TextGenerator : IDisposable
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x6A5A860", Offset = "0x6A59860", VA = "0x6A5A860")]
 		public static IntPtr ConvertToNative(TextGenerator textGenerator)
 		{
 			return default(IntPtr);
@@ -80,7 +80,7 @@ public sealed class TextGenerator : IDisposable
 	public int characterCountVisible
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x305F140", Offset = "0x305D740", VA = "0x18305F140")]
+		[Address(RVA = "0x6A58CF0", Offset = "0x6A57CF0", VA = "0x6A58CF0")]
 		get
 		{
 			return default(int);
@@ -91,7 +91,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UIVertex> verts
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x305F4C0", Offset = "0x305DAC0", VA = "0x18305F4C0")]
+		[Address(RVA = "0x6A5A180", Offset = "0x6A59180", VA = "0x6A5A180")]
 		get
 		{
 			return null;
@@ -102,7 +102,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UICharInfo> characters
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x305F240", Offset = "0x305D840", VA = "0x18305F240")]
+		[Address(RVA = "0x6A5A200", Offset = "0x6A59200", VA = "0x6A5A200")]
 		get
 		{
 			return null;
@@ -113,7 +113,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UILineInfo> lines
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x305F370", Offset = "0x305D970", VA = "0x18305F370")]
+		[Address(RVA = "0x6A5A280", Offset = "0x6A59280", VA = "0x6A5A280")]
 		get
 		{
 			return null;
@@ -124,7 +124,7 @@ public sealed class TextGenerator : IDisposable
 	public Rect rectExtents
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x305F450", Offset = "0x305DA50", VA = "0x18305F450")]
+		[Address(RVA = "0x6A59710", Offset = "0x6A58710", VA = "0x6A59710")]
 		get
 		{
 			return default(Rect);
@@ -135,7 +135,7 @@ public sealed class TextGenerator : IDisposable
 	public int characterCount
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x305F1E0", Offset = "0x305D7E0", VA = "0x18305F1E0")]
+		[Address(RVA = "0x6A58D50", Offset = "0x6A57D50", VA = "0x6A58D50")]
 		get
 		{
 			return default(int);
@@ -146,7 +146,7 @@ public sealed class TextGenerator : IDisposable
 	public int lineCount
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x305F310", Offset = "0x305D910", VA = "0x18305F310")]
+		[Address(RVA = "0x6A5A370", Offset = "0x6A59370", VA = "0x6A5A370")]
 		get
 		{
 			return default(int);
@@ -154,97 +154,97 @@ public sealed class TextGenerator : IDisposable
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x305EFF0", Offset = "0x305D5F0", VA = "0x18305EFF0")]
+	[Address(RVA = "0x6A589B0", Offset = "0x6A579B0", VA = "0x6A589B0")]
 	public TextGenerator()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x305EE90", Offset = "0x305D490", VA = "0x18305EE90")]
+	[Address(RVA = "0x6A589C0", Offset = "0x6A579C0", VA = "0x6A589C0")]
 	public TextGenerator(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x305D5A0", Offset = "0x305BBA0", VA = "0x18305D5A0", Slot = "1")]
+	[Address(RVA = "0x6A58B60", Offset = "0x6A57B60", VA = "0x6A58B60", Slot = "1")]
 	~TextGenerator()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x305EAD0", Offset = "0x305D0D0", VA = "0x18305EAD0", Slot = "4")]
+	[Address(RVA = "0x6A58C70", Offset = "0x6A57C70", VA = "0x6A58C70", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x305EB20", Offset = "0x305D120", VA = "0x18305EB20")]
+	[Address(RVA = "0x6A58DB0", Offset = "0x6A57DB0", VA = "0x6A58DB0")]
 	private TextGenerationSettings ValidatedSettings(TextGenerationSettings settings)
 	{
 		return default(TextGenerationSettings);
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x305DB30", Offset = "0x305C130", VA = "0x18305DB30")]
+	[Address(RVA = "0x6A59190", Offset = "0x6A58190", VA = "0x6A59190")]
 	public void Invalidate()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x305D6D0", Offset = "0x305BCD0", VA = "0x18305D6D0")]
+	[Address(RVA = "0x6A591A0", Offset = "0x6A581A0", VA = "0x6A591A0")]
 	public void GetCharacters(List<UICharInfo> characters)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x305D780", Offset = "0x305BD80", VA = "0x18305D780")]
+	[Address(RVA = "0x6A59260", Offset = "0x6A58260", VA = "0x6A59260")]
 	public void GetLines(List<UILineInfo> lines)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x305DA60", Offset = "0x305C060", VA = "0x18305DA60")]
+	[Address(RVA = "0x6A59320", Offset = "0x6A58320", VA = "0x6A59320")]
 	public void GetVertices(List<UIVertex> vertices)
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x305D8F0", Offset = "0x305BEF0", VA = "0x18305D8F0")]
+	[Address(RVA = "0x6A593E0", Offset = "0x6A583E0", VA = "0x6A593E0")]
 	public float GetPreferredWidth(string str, TextGenerationSettings settings)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x305D7E0", Offset = "0x305BDE0", VA = "0x18305D7E0")]
+	[Address(RVA = "0x6A59780", Offset = "0x6A58780", VA = "0x6A59780")]
 	public float GetPreferredHeight(string str, TextGenerationSettings settings)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x305E290", Offset = "0x305C890", VA = "0x18305E290")]
+	[Address(RVA = "0x6A59980", Offset = "0x6A58980", VA = "0x6A59980")]
 	public bool PopulateWithErrors(string str, TextGenerationSettings settings, GameObject context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x305EA70", Offset = "0x305D070", VA = "0x18305EA70")]
+	[Address(RVA = "0x6A595E0", Offset = "0x6A585E0", VA = "0x6A595E0")]
 	public bool Populate(string str, TextGenerationSettings settings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x305DEA0", Offset = "0x305C4A0", VA = "0x18305DEA0")]
+	[Address(RVA = "0x6A59C50", Offset = "0x6A58C50", VA = "0x6A59C50")]
 	private TextGenerationError PopulateWithError(string str, TextGenerationSettings settings)
 	{
 		return default(TextGenerationError);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x305DB40", Offset = "0x305C140", VA = "0x18305DB40")]
+	[Address(RVA = "0x6A59D20", Offset = "0x6A58D20", VA = "0x6A59D20")]
 	private TextGenerationError PopulateAlways(string str, TextGenerationSettings settings)
 	{
 		return default(TextGenerationError);
@@ -252,46 +252,46 @@ public sealed class TextGenerator : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x305DAC0", Offset = "0x305C0C0", VA = "0x18305DAC0")]
+	[Address(RVA = "0x6A58B30", Offset = "0x6A57B30", VA = "0x6A58B30")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern IntPtr Internal_Create();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x305DAF0", Offset = "0x305C0F0", VA = "0x18305DAF0")]
+	[Address(RVA = "0x6A58CC0", Offset = "0x6A57CC0", VA = "0x6A58CC0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern void Internal_Destroy(IntPtr ptr);
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x305E720", Offset = "0x305CD20", VA = "0x18305E720")]
+	[Address(RVA = "0x6A5A400", Offset = "0x6A59400", VA = "0x6A5A400")]
 	internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, out uint error)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x305E540", Offset = "0x305CB40", VA = "0x18305E540")]
+	[Address(RVA = "0x6A5A010", Offset = "0x6A59010", VA = "0x6A5A010")]
 	internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, VerticalWrapMode verticalOverFlow, HorizontalWrapMode horizontalOverflow, bool updateBounds, TextAnchor anchor, Vector2 extents, Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, out TextGenerationError error)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x305DA60", Offset = "0x305C060", VA = "0x18305DA60")]
+	[Address(RVA = "0x6A59380", Offset = "0x6A58380", VA = "0x6A59380")]
 	[UnityEngine.Bindings.NativeThrows]
 	private void GetVerticesInternal(object vertices)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x305D6D0", Offset = "0x305BCD0", VA = "0x18305D6D0")]
+	[Address(RVA = "0x6A59200", Offset = "0x6A58200", VA = "0x6A59200")]
 	[UnityEngine.Bindings.NativeThrows]
 	private void GetCharactersInternal(object characters)
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x305D780", Offset = "0x305BD80", VA = "0x18305D780")]
+	[Address(RVA = "0x6A592C0", Offset = "0x6A582C0", VA = "0x6A592C0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private void GetLinesInternal(object lines)
 	{
@@ -299,36 +299,36 @@ public sealed class TextGenerator : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x305F400", Offset = "0x305DA00", VA = "0x18305F400")]
+	[Address(RVA = "0x6A5A300", Offset = "0x6A59300", VA = "0x6A5A300")]
 	private static extern void get_rectExtents_Injected(IntPtr _unity_self, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x305F1A0", Offset = "0x305D7A0", VA = "0x18305F1A0")]
+	[Address(RVA = "0x6A5A340", Offset = "0x6A59340", VA = "0x6A5A340")]
 	private static extern int get_characterCount_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x305F2D0", Offset = "0x305D8D0", VA = "0x18305F2D0")]
+	[Address(RVA = "0x6A5A3D0", Offset = "0x6A593D0", VA = "0x6A5A3D0")]
 	private static extern int get_lineCount_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x305E4A0", Offset = "0x305CAA0", VA = "0x18305E4A0")]
+	[Address(RVA = "0x6A5A6F0", Offset = "0x6A596F0", VA = "0x6A5A6F0")]
 	private static extern bool Populate_Internal_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper str, IntPtr font, [In] ref Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, out uint error);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x305DA10", Offset = "0x305C010", VA = "0x18305DA10")]
+	[Address(RVA = "0x6A5A7A0", Offset = "0x6A597A0", VA = "0x6A5A7A0")]
 	private static extern void GetVerticesInternal_Injected(IntPtr _unity_self, object vertices);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x305D680", Offset = "0x305BC80", VA = "0x18305D680")]
+	[Address(RVA = "0x6A5A7E0", Offset = "0x6A597E0", VA = "0x6A5A7E0")]
 	private static extern void GetCharactersInternal_Injected(IntPtr _unity_self, object characters);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x305D730", Offset = "0x305BD30", VA = "0x18305D730")]
+	[Address(RVA = "0x6A5A820", Offset = "0x6A59820", VA = "0x6A5A820")]
 	private static extern void GetLinesInternal_Injected(IntPtr _unity_self, object lines);
 }

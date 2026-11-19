@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DepthOfField
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -72,14 +72,14 @@ public sealed class DepthOfField : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter bladeRotation;
 
 	[Token(Token = "0x60006BA")]
-	[Address(RVA = "0x2C56730", Offset = "0x2C54D30", VA = "0x182C56730", Slot = "8")]
+	[Address(RVA = "0x664AFD0", Offset = "0x6649FD0", VA = "0x664AFD0", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006BB")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x664B040", Offset = "0x664A040", VA = "0x664B040", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -87,7 +87,7 @@ public sealed class DepthOfField : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x2C567B0", Offset = "0x2C54DB0", VA = "0x182C567B0")]
+	[Address(RVA = "0x664B050", Offset = "0x664A050", VA = "0x664B050")]
 	public DepthOfField()
 	{
 	}

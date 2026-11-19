@@ -12,58 +12,58 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000143")]
+[Token(Token = "0x200011C")]
 public static class Tuple
 {
-	[Token(Token = "0x6000AA8")]
+	[Token(Token = "0x6000A85")]
 	public static Tuple<T1, T2> Create<T1, T2>(T1 item1, T2 item2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AA9")]
+	[Token(Token = "0x6000A86")]
 	public static Tuple<T1, T2, T3> Create<T1, T2, T3>(T1 item1, T2 item2, T3 item3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0xA43250", Offset = "0xA41850", VA = "0x180A43250")]
+	[Token(Token = "0x6000A87")]
+	[Address(RVA = "0x54D71F0", Offset = "0x54D61F0", VA = "0x54D71F0")]
 	internal static int CombineHashCodes(int h1, int h2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x1B500F0", Offset = "0x1B4E6F0", VA = "0x181B500F0")]
+	[Token(Token = "0x6000A88")]
+	[Address(RVA = "0x54D7200", Offset = "0x54D6200", VA = "0x54D7200")]
 	internal static int CombineHashCodes(int h1, int h2, int h3)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x1B500D0", Offset = "0x1B4E6D0", VA = "0x181B500D0")]
+	[Token(Token = "0x6000A89")]
+	[Address(RVA = "0x54D7220", Offset = "0x54D6220", VA = "0x54D7220")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4)
 	{
 		return default(int);
 	}
 }
 [Serializable]
-[Token(Token = "0x2000144")]
+[Token(Token = "0x200011D")]
 public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, IComparable, System.ITupleInternal, ITuple
 {
-	[Token(Token = "0x4000457")]
+	[Token(Token = "0x40003B5")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T1 m_Item1;
 
-	[Token(Token = "0x4000458")]
+	[Token(Token = "0x40003B6")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T2 m_Item2;
 
 	[Token(Token = "0x170000BA")]
 	public T1 Item1
 	{
-		[Token(Token = "0x6000AAD")]
+		[Token(Token = "0x6000A8A")]
 		get
 		{
 			return (T1)null;
@@ -73,7 +73,7 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	[Token(Token = "0x170000BB")]
 	public T2 Item2
 	{
-		[Token(Token = "0x6000AAE")]
+		[Token(Token = "0x6000A8B")]
 		get
 		{
 			return (T2)null;
@@ -83,86 +83,86 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	[Token(Token = "0x170000BC")]
 	private int System_002ERuntime_002ECompilerServices_002EITuple_002ELength
 	{
-		[Token(Token = "0x6000AB8")]
+		[Token(Token = "0x6000A95")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000AAF")]
+	[Token(Token = "0x6000A8C")]
 	public Tuple(T1 item1, T2 item2)
 	{
 	}
 
-	[Token(Token = "0x6000AB0")]
+	[Token(Token = "0x6000A8D")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AB1")]
+	[Token(Token = "0x6000A8E")]
 	private bool System_002ECollections_002EIStructuralEquatable_002EEquals(object other, IEqualityComparer comparer)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AB2")]
+	[Token(Token = "0x6000A8F")]
 	private int System_002EIComparable_002ECompareTo(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AB3")]
+	[Token(Token = "0x6000A90")]
 	private int System_002ECollections_002EIStructuralComparable_002ECompareTo(object other, IComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AB4")]
+	[Token(Token = "0x6000A91")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AB5")]
+	[Token(Token = "0x6000A92")]
 	private int System_002ECollections_002EIStructuralEquatable_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AB6")]
+	[Token(Token = "0x6000A93")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB7")]
+	[Token(Token = "0x6000A94")]
 	private string System_002EITupleInternal_002EToString(StringBuilder sb)
 	{
 		return null;
 	}
 }
 [Serializable]
-[Token(Token = "0x2000145")]
+[Token(Token = "0x200011E")]
 public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IComparable, System.ITupleInternal, ITuple
 {
-	[Token(Token = "0x4000459")]
+	[Token(Token = "0x40003B7")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T1 m_Item1;
 
-	[Token(Token = "0x400045A")]
+	[Token(Token = "0x40003B8")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T2 m_Item2;
 
-	[Token(Token = "0x400045B")]
+	[Token(Token = "0x40003B9")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T3 m_Item3;
 
 	[Token(Token = "0x170000BD")]
 	public T1 Item1
 	{
-		[Token(Token = "0x6000AB9")]
+		[Token(Token = "0x6000A96")]
 		get
 		{
 			return (T1)null;
@@ -172,7 +172,7 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	[Token(Token = "0x170000BE")]
 	public T2 Item2
 	{
-		[Token(Token = "0x6000ABA")]
+		[Token(Token = "0x6000A97")]
 		get
 		{
 			return (T2)null;
@@ -182,7 +182,7 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	[Token(Token = "0x170000BF")]
 	public T3 Item3
 	{
-		[Token(Token = "0x6000ABB")]
+		[Token(Token = "0x6000A98")]
 		get
 		{
 			return (T3)null;
@@ -192,90 +192,90 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	[Token(Token = "0x170000C0")]
 	private int System_002ERuntime_002ECompilerServices_002EITuple_002ELength
 	{
-		[Token(Token = "0x6000AC5")]
+		[Token(Token = "0x6000AA2")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000ABC")]
+	[Token(Token = "0x6000A99")]
 	public Tuple(T1 item1, T2 item2, T3 item3)
 	{
 	}
 
-	[Token(Token = "0x6000ABD")]
+	[Token(Token = "0x6000A9A")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000ABE")]
+	[Token(Token = "0x6000A9B")]
 	private bool System_002ECollections_002EIStructuralEquatable_002EEquals(object other, IEqualityComparer comparer)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000ABF")]
+	[Token(Token = "0x6000A9C")]
 	private int System_002EIComparable_002ECompareTo(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AC0")]
+	[Token(Token = "0x6000A9D")]
 	private int System_002ECollections_002EIStructuralComparable_002ECompareTo(object other, IComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AC1")]
+	[Token(Token = "0x6000A9E")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AC2")]
+	[Token(Token = "0x6000A9F")]
 	private int System_002ECollections_002EIStructuralEquatable_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AC3")]
+	[Token(Token = "0x6000AA0")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AC4")]
+	[Token(Token = "0x6000AA1")]
 	private string System_002EITupleInternal_002EToString(StringBuilder sb)
 	{
 		return null;
 	}
 }
 [Serializable]
-[Token(Token = "0x2000146")]
+[Token(Token = "0x200011F")]
 public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable, IComparable, System.ITupleInternal, ITuple
 {
-	[Token(Token = "0x400045C")]
+	[Token(Token = "0x40003BA")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T1 m_Item1;
 
-	[Token(Token = "0x400045D")]
+	[Token(Token = "0x40003BB")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T2 m_Item2;
 
-	[Token(Token = "0x400045E")]
+	[Token(Token = "0x40003BC")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T3 m_Item3;
 
-	[Token(Token = "0x400045F")]
+	[Token(Token = "0x40003BD")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T4 m_Item4;
 
 	[Token(Token = "0x170000C1")]
 	public T1 Item1
 	{
-		[Token(Token = "0x6000AC6")]
+		[Token(Token = "0x6000AA3")]
 		get
 		{
 			return (T1)null;
@@ -285,7 +285,7 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	[Token(Token = "0x170000C2")]
 	public T2 Item2
 	{
-		[Token(Token = "0x6000AC7")]
+		[Token(Token = "0x6000AA4")]
 		get
 		{
 			return (T2)null;
@@ -295,7 +295,7 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	[Token(Token = "0x170000C3")]
 	public T3 Item3
 	{
-		[Token(Token = "0x6000AC8")]
+		[Token(Token = "0x6000AA5")]
 		get
 		{
 			return (T3)null;
@@ -305,7 +305,7 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	[Token(Token = "0x170000C4")]
 	public T4 Item4
 	{
-		[Token(Token = "0x6000AC9")]
+		[Token(Token = "0x6000AA6")]
 		get
 		{
 			return (T4)null;
@@ -315,61 +315,61 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	[Token(Token = "0x170000C5")]
 	private int System_002ERuntime_002ECompilerServices_002EITuple_002ELength
 	{
-		[Token(Token = "0x6000AD3")]
+		[Token(Token = "0x6000AB0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000ACA")]
+	[Token(Token = "0x6000AA7")]
 	public Tuple(T1 item1, T2 item2, T3 item3, T4 item4)
 	{
 	}
 
-	[Token(Token = "0x6000ACB")]
+	[Token(Token = "0x6000AA8")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000ACC")]
+	[Token(Token = "0x6000AA9")]
 	private bool System_002ECollections_002EIStructuralEquatable_002EEquals(object other, IEqualityComparer comparer)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000ACD")]
+	[Token(Token = "0x6000AAA")]
 	private int System_002EIComparable_002ECompareTo(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000ACE")]
+	[Token(Token = "0x6000AAB")]
 	private int System_002ECollections_002EIStructuralComparable_002ECompareTo(object other, IComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000ACF")]
+	[Token(Token = "0x6000AAC")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AD0")]
+	[Token(Token = "0x6000AAD")]
 	private int System_002ECollections_002EIStructuralEquatable_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AD1")]
+	[Token(Token = "0x6000AAE")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AD2")]
+	[Token(Token = "0x6000AAF")]
 	private string System_002EITupleInternal_002EToString(StringBuilder sb)
 	{
 		return null;

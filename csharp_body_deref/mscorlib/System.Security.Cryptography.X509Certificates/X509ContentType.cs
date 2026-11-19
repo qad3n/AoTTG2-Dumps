@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000354")]
+[Token(Token = "0x200032D")]
 public enum X509ContentType
 {
-	[Token(Token = "0x4000E2B")]
+	[Token(Token = "0x4000D8B")]
 	Unknown = 0,
-	[Token(Token = "0x4000E2C")]
+	[Token(Token = "0x4000D8C")]
 	Cert = 1,
-	[Token(Token = "0x4000E2D")]
+	[Token(Token = "0x4000D8D")]
 	SerializedCert = 2,
-	[Token(Token = "0x4000E2E")]
+	[Token(Token = "0x4000D8E")]
 	Pfx = 3,
-	[Token(Token = "0x4000E2F")]
+	[Token(Token = "0x4000D8F")]
 	Pkcs12 = Pfx,
-	[Token(Token = "0x4000E30")]
+	[Token(Token = "0x4000D90")]
 	SerializedStore = 4,
-	[Token(Token = "0x4000E31")]
+	[Token(Token = "0x4000D91")]
 	Pkcs7 = 5,
-	[Token(Token = "0x4000E32")]
+	[Token(Token = "0x4000D92")]
 	Authenticode = 6
 }

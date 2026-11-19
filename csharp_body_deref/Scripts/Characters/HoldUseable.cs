@@ -10,29 +10,29 @@ using Settings;
 
 namespace Characters;
 
-[Token(Token = "0x2000639")]
+[Token(Token = "0x2000698")]
 internal class HoldUseable : ExtendedUseable
 {
-	[Token(Token = "0x6003D96")]
-	[Address(RVA = "0x21177E0", Offset = "0x2115DE0", VA = "0x1821177E0")]
+	[Token(Token = "0x6004028")]
+	[Address(RVA = "0x5ABCDE0", Offset = "0x5ABBDE0", VA = "0x5ABCDE0")]
 	public HoldUseable(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003D97")]
-	[Address(RVA = "0x2117830", Offset = "0x2115E30", VA = "0x182117830", Slot = "13")]
+	[Token(Token = "0x6004029")]
+	[Address(RVA = "0x5ABCE20", Offset = "0x5ABBE20", VA = "0x5ABCE20", Slot = "13")]
 	public override void OnFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6003D98")]
-	[Address(RVA = "0x2117890", Offset = "0x2115E90", VA = "0x182117890", Slot = "12")]
+	[Token(Token = "0x600402A")]
+	[Address(RVA = "0x5ABCE40", Offset = "0x5ABBE40", VA = "0x5ABCE40", Slot = "12")]
 	public override void SetInput(bool key)
 	{
 	}
 
-	[Token(Token = "0x6003D99")]
-	[Address(RVA = "0x2117850", Offset = "0x2115E50", VA = "0x182117850", Slot = "11")]
+	[Token(Token = "0x600402B")]
+	[Address(RVA = "0x5ABCED0", Offset = "0x5ABBED0", VA = "0x5ABCED0", Slot = "11")]
 	public override void ReadInput(KeybindSetting keybind)
 	{
 	}

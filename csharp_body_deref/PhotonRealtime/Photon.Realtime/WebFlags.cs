@@ -36,13 +36,13 @@ public class WebFlags
 	public bool HttpForward
 	{
 		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x1BB4570", Offset = "0x1BB2B70", VA = "0x181BB4570")]
+		[Address(RVA = "0x56C52F0", Offset = "0x56C42F0", VA = "0x56C52F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x1D2E9C0", Offset = "0x1D2CFC0", VA = "0x181D2E9C0")]
+		[Address(RVA = "0x56C5300", Offset = "0x56C4300", VA = "0x56C5300")]
 		set
 		{
 		}
@@ -52,13 +52,13 @@ public class WebFlags
 	public bool SendAuthCookie
 	{
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x1D2E990", Offset = "0x1D2CF90", VA = "0x181D2E990")]
+		[Address(RVA = "0x56C5310", Offset = "0x56C4310", VA = "0x56C5310")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x1D2E9F0", Offset = "0x1D2CFF0", VA = "0x181D2E9F0")]
+		[Address(RVA = "0x56C5320", Offset = "0x56C4320", VA = "0x56C5320")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ public class WebFlags
 	public bool SendSync
 	{
 		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x1D2E9B0", Offset = "0x1D2CFB0", VA = "0x181D2E9B0")]
+		[Address(RVA = "0x56C5340", Offset = "0x56C4340", VA = "0x56C5340")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000230")]
-		[Address(RVA = "0x1D2EA50", Offset = "0x1D2D050", VA = "0x181D2EA50")]
+		[Address(RVA = "0x56C5350", Offset = "0x56C4350", VA = "0x56C5350")]
 		set
 		{
 		}
@@ -84,20 +84,20 @@ public class WebFlags
 	public bool SendState
 	{
 		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x1D2E9A0", Offset = "0x1D2CFA0", VA = "0x181D2E9A0")]
+		[Address(RVA = "0x56C5370", Offset = "0x56C4370", VA = "0x56C5370")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000232")]
-		[Address(RVA = "0x1D2EA20", Offset = "0x1D2D020", VA = "0x181D2EA20")]
+		[Address(RVA = "0x56C5380", Offset = "0x56C4380", VA = "0x56C5380")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x1CAE600", Offset = "0x1CACC00", VA = "0x181CAE600")]
+	[Address(RVA = "0x56C53A0", Offset = "0x56C43A0", VA = "0x56C53A0")]
 	public WebFlags(byte webhookFlags)
 	{
 	}

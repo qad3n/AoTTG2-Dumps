@@ -1,27 +1,27 @@
 // Type: UI.LeaderboardPopup
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/LeaderboardPopup.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/LeaderboardPopup.cs
 // --------------------------------
 
 // UI.LeaderboardPopup$$get_Title
 // il2cpp: System_String_o* UI_LeaderboardPopup__get_Title (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d440
+// 0x5d56d80
 
 System_String_o * UI_LeaderboardPopup__get_Title(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_18434742c == '\0') {
+  if (Il2CppMethodInitialized_07547f31 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&"MainMenu");
     il2cpp_codegen_initialize_runtime_metadata(&"Title");
     il2cpp_codegen_initialize_runtime_metadata(&"LeaderboardPopup");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_18434742c = '\x01';
+    Il2CppMethodInitialized_07547f31 = '\x01';
   }
   if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
@@ -35,10 +35,9 @@ System_String_o * UI_LeaderboardPopup__get_Title(UI_LeaderboardPopup_o *__this,M
 
 // UI.LeaderboardPopup$$get_Width
 // il2cpp: float UI_LeaderboardPopup__get_Width (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x1821bb440
+// 0x5d56e20
 
-float
-UI_LeaderboardPopup__get_Width(UI_LeaderboardPopup_o* __this, MethodInfo* method)
+float UI_LeaderboardPopup__get_Width(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   return 800.0;
@@ -47,10 +46,9 @@ UI_LeaderboardPopup__get_Width(UI_LeaderboardPopup_o* __this, MethodInfo* method
 
 // UI.LeaderboardPopup$$get_Height
 // il2cpp: float UI_LeaderboardPopup__get_Height (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d430
+// 0x5d56e30
 
-float
-UI_LeaderboardPopup__get_Height(UI_LeaderboardPopup_o* __this, MethodInfo* method)
+float UI_LeaderboardPopup__get_Height(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   return 630.0;
@@ -59,10 +57,9 @@ UI_LeaderboardPopup__get_Height(UI_LeaderboardPopup_o* __this, MethodInfo* metho
 
 // UI.LeaderboardPopup$$get_CategoryPanel
 // il2cpp: bool UI_LeaderboardPopup__get_CategoryPanel (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5d56e40
 
-bool
-UI_LeaderboardPopup__get_CategoryPanel(UI_LeaderboardPopup_o* __this, MethodInfo* method)
+bool UI_LeaderboardPopup__get_CategoryPanel(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -71,15 +68,15 @@ UI_LeaderboardPopup__get_CategoryPanel(UI_LeaderboardPopup_o* __this, MethodInfo
 
 // UI.LeaderboardPopup$$get_DefaultCategoryPanel
 // il2cpp: System_String_o* UI_LeaderboardPopup__get_DefaultCategoryPanel (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d400
+// 0x5d56e50
 
 System_String_o *
 UI_LeaderboardPopup__get_DefaultCategoryPanel(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18434742d == '\0') {
+  if (Il2CppMethodInitialized_07547f32 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Default");
-    Il2CppMethodInitialized_18434742d = '\x01';
+    Il2CppMethodInitialized_07547f32 = '\x01';
   }
   return "Default";
 }
@@ -87,10 +84,9 @@ UI_LeaderboardPopup__get_DefaultCategoryPanel(UI_LeaderboardPopup_o *__this,Meth
 
 // UI.LeaderboardPopup$$get_UseSound
 // il2cpp: bool UI_LeaderboardPopup__get_UseSound (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5d56e80
 
-bool
-UI_LeaderboardPopup__get_UseSound(UI_LeaderboardPopup_o* __this, MethodInfo* method)
+bool UI_LeaderboardPopup__get_UseSound(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -99,7 +95,7 @@ UI_LeaderboardPopup__get_UseSound(UI_LeaderboardPopup_o* __this, MethodInfo* met
 
 // UI.LeaderboardPopup$$Setup
 // il2cpp: void UI_LeaderboardPopup__Setup (UI_LeaderboardPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x18228d0f0
+// 0x5d56e90
 
 void UI_LeaderboardPopup__Setup(UI_LeaderboardPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -111,16 +107,17 @@ void UI_LeaderboardPopup__Setup(UI_LeaderboardPopup_o *__this,UI_BasePanel_o *pa
   UI_ElementStyle_o *__this_01;
   UnityEngine_Events_UnityAction_o *__this_02;
   
-  if (Il2CppMethodInitialized_18434742e == '\0') {
+  if (Il2CppMethodInitialized_07547f33 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_LeaderboardPopup_Setup_b__14_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_LeaderboardPopup_Setup_b__12_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
     il2cpp_codegen_initialize_runtime_metadata(&"Back");
-    Il2CppMethodInitialized_18434742e = '\x01';
+    Il2CppMethodInitialized_07547f33 = '\x01';
   }
   UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,(MethodInfo *)0x0);
-  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)(__this);
+  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
+                       (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
   pSVar1 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
@@ -136,8 +133,8 @@ void UI_LeaderboardPopup__Setup(UI_LeaderboardPopup_o *__this,UI_BasePanel_o *pa
   pSVar1 = UI_UIManager__GetLocaleCommon("Back",(MethodInfo *)0x0);
   __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
   UnityEngine_Events_UnityAction___ctor
-            ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_02,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_UI_LeaderboardPopup_Setup_b__14_0,(MethodInfo *)0x0);
+            (__this_02,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_LeaderboardPopup_Setup_b__12_0,
+             (MethodInfo *)0x0);
   UI_ElementFactory__CreateTextButton(parent_00,__this_00,pSVar1,0.0,__this_02,(MethodInfo *)0x0);
   return;
 }
@@ -145,7 +142,7 @@ void UI_LeaderboardPopup__Setup(UI_LeaderboardPopup_o *__this,UI_BasePanel_o *pa
 
 // UI.LeaderboardPopup$$RegisterCategoryPanels
 // il2cpp: void UI_LeaderboardPopup__RegisterCategoryPanels (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d050
+// 0x5d57010
 
 void UI_LeaderboardPopup__RegisterCategoryPanels(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
@@ -154,32 +151,32 @@ void UI_LeaderboardPopup__RegisterCategoryPanels(UI_LeaderboardPopup_o *__this,M
   Il2CppType *handle;
   System_Type_o *value;
   
-  if (Il2CppMethodInitialized_18434742f == '\0') {
+  if (Il2CppMethodInitialized_07547f34 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UI_LeaderboardDefaultPanel);
     il2cpp_codegen_initialize_runtime_metadata(&"Default");
-    Il2CppMethodInitialized_18434742f = '\x01';
+    Il2CppMethodInitialized_07547f34 = '\x01';
   }
   handle = TypeRef_UI_LeaderboardDefaultPanel;
   __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._categoryPanelTypes;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
   value = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-  if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Add
-              (__this_00,(Il2CppObject *)"Default",(Il2CppObject *)value,
-               (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
-    return;
+  if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_Dictionary_object__object___Add
+            (__this_00,(Il2CppObject *)"Default",(Il2CppObject *)value,
+             (MethodInfo_4AAD4E0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
+  return;
 }
 
 
 // UI.LeaderboardPopup$$OnButtonClick
 // il2cpp: void UI_LeaderboardPopup__OnButtonClick (UI_LeaderboardPopup_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x18228cff0
+// 0x5d570b0
 
 void UI_LeaderboardPopup__OnButtonClick
                (UI_LeaderboardPopup_o *__this,System_String_o *name,MethodInfo *method)
@@ -187,13 +184,14 @@ void UI_LeaderboardPopup__OnButtonClick
 {
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184347430 == '\0') {
+  if (Il2CppMethodInitialized_07547f35 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Back");
-    Il2CppMethodInitialized_184347430 = '\x01';
+    Il2CppMethodInitialized_07547f35 = '\x01';
   }
   bVar1 = System_String__op_Equality(name,"Back",(MethodInfo *)0x0);
   if (bVar1) {
     (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
+    return;
   }
   return;
 }
@@ -201,55 +199,39 @@ void UI_LeaderboardPopup__OnButtonClick
 
 // UI.LeaderboardPopup$$.ctor
 // il2cpp: void UI_LeaderboardPopup___ctor (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d320
+// 0x5d57120
 
 void UI_LeaderboardPopup___ctor(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  Settings_StringSetting_o *pSVar2;
-  
-  if (Il2CppMethodInitialized_184347431 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
-    Il2CppMethodInitialized_184347431 = '\x01';
-  }
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
-  Settings_StringSetting___ctor_1f27ee0(pSVar2,pSVar1,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).CurrentCategory = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CurrentCategory,pSVar2);
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
-  Settings_StringSetting___ctor_1f27ee0(pSVar2,pSVar1,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).CurrentSubcategory = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CurrentSubcategory,pSVar2);
-  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
+  UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.LeaderboardPopup$$<Setup>b__14_0
-// il2cpp: void UI_LeaderboardPopup___Setup_b__14_0 (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
-// 0x18228d290
+// UI.LeaderboardPopup$$<Setup>b__12_0
+// il2cpp: void UI_LeaderboardPopup___Setup_b__12_0 (UI_LeaderboardPopup_o* __this, const MethodInfo* method);
+// 0x5d57130
 
-void UI_LeaderboardPopup___Setup_b__14_0(UI_LeaderboardPopup_o *__this,MethodInfo *method)
+void UI_LeaderboardPopup___Setup_b__12_0(UI_LeaderboardPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *a;
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184347432 == '\0') {
+  if (Il2CppMethodInitialized_07547f36 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Back");
-    Il2CppMethodInitialized_184347432 = '\x01';
+    Il2CppMethodInitialized_07547f36 = '\x01';
   }
   a = "Back";
-  if (Il2CppMethodInitialized_184347430 == '\0') {
+  if (Il2CppMethodInitialized_07547f35 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Back");
-    Il2CppMethodInitialized_184347430 = '\x01';
+    Il2CppMethodInitialized_07547f35 = '\x01';
   }
   bVar1 = System_String__op_Equality(a,"Back",(MethodInfo *)0x0);
   if (bVar1) {
     (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
+    return;
   }
   return;
 }

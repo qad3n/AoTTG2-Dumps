@@ -17,7 +17,7 @@ public struct NavMeshDataInstance
 	internal int id
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x6895810", Offset = "0x6894810", VA = "0x6895810")]
 		[CompilerGenerated]
 		set
 		{

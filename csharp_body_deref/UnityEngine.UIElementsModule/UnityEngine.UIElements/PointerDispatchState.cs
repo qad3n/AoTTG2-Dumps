@@ -25,69 +25,69 @@ internal class PointerDispatchState
 	private bool[] m_ShouldSendCompatibilityMouseEvents;
 
 	[Token(Token = "0x60012C3")]
-	[Address(RVA = "0x32B54C0", Offset = "0x32B3AC0", VA = "0x1832B54C0")]
+	[Address(RVA = "0x6CBABD0", Offset = "0x6CB9BD0", VA = "0x6CBABD0")]
 	public PointerDispatchState()
 	{
 	}
 
 	[Token(Token = "0x60012C4")]
-	[Address(RVA = "0x32B5360", Offset = "0x32B3960", VA = "0x1832B5360")]
+	[Address(RVA = "0x6CBACC0", Offset = "0x6CB9CC0", VA = "0x6CBACC0")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x277EF80", Offset = "0x277D580", VA = "0x18277EF80")]
+	[Address(RVA = "0x6CB9D30", Offset = "0x6CB8D30", VA = "0x6CB9D30")]
 	public IEventHandler GetCapturingElement(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x32B4CF0", Offset = "0x32B32F0", VA = "0x1832B4CF0")]
+	[Address(RVA = "0x6CB99C0", Offset = "0x6CB89C0", VA = "0x6CB99C0")]
 	public bool HasPointerCapture(IEventHandler handler, int pointerId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012C7")]
-	[Address(RVA = "0x32B4B20", Offset = "0x32B3120", VA = "0x1832B4B20")]
+	[Address(RVA = "0x6CB99F0", Offset = "0x6CB89F0", VA = "0x6CB99F0")]
 	public void CapturePointer(IEventHandler handler, int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012C8")]
-	[Address(RVA = "0x32B5260", Offset = "0x32B3860", VA = "0x1832B5260")]
+	[Address(RVA = "0x6CB9E30", Offset = "0x6CB8E30", VA = "0x6CB9E30")]
 	public void ReleasePointer(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012C9")]
-	[Address(RVA = "0x32B5320", Offset = "0x32B3920", VA = "0x1832B5320")]
+	[Address(RVA = "0x6CB9C20", Offset = "0x6CB8C20", VA = "0x6CB9C20")]
 	public void ReleasePointer(IEventHandler handler, int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012CA")]
-	[Address(RVA = "0x32B4D50", Offset = "0x32B3350", VA = "0x1832B4D50")]
+	[Address(RVA = "0x6CBA360", Offset = "0x6CB9360", VA = "0x6CBA360")]
 	public void ProcessPointerCapture(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012CB")]
-	[Address(RVA = "0x32B4AF0", Offset = "0x32B30F0", VA = "0x1832B4AF0")]
+	[Address(RVA = "0x6CB9FC0", Offset = "0x6CB8FC0", VA = "0x6CB9FC0")]
 	public void ActivateCompatibilityMouseEvents(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012CC")]
-	[Address(RVA = "0x32B4D20", Offset = "0x32B3320", VA = "0x1832B4D20")]
+	[Address(RVA = "0x6CBA0D0", Offset = "0x6CB90D0", VA = "0x6CBA0D0")]
 	public void PreventCompatibilityMouseEvents(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012CD")]
-	[Address(RVA = "0x32B5420", Offset = "0x32B3A20", VA = "0x1832B5420")]
+	[Address(RVA = "0x6CBA220", Offset = "0x6CB9220", VA = "0x6CBA220")]
 	public bool ShouldSendCompatibilityMouseEvents(IPointerEvent evt)
 	{
 		return default(bool);

@@ -84,7 +84,7 @@ public class AppSettings
 	public bool IsMasterServerAddress
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x1BC3220", Offset = "0x1BC1820", VA = "0x181BC3220")]
+		[Address(RVA = "0x56A61F0", Offset = "0x56A51F0", VA = "0x56A61F0")]
 		get
 		{
 			return default(bool);
@@ -95,7 +95,7 @@ public class AppSettings
 	public bool IsBestRegion
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x1D11B90", Offset = "0x1D10190", VA = "0x181D11B90")]
+		[Address(RVA = "0x56A6200", Offset = "0x56A5200", VA = "0x56A6200")]
 		get
 		{
 			return default(bool);
@@ -106,7 +106,7 @@ public class AppSettings
 	public bool IsDefaultNameServer
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x1D11BB0", Offset = "0x1D101B0", VA = "0x181D11BB0")]
+		[Address(RVA = "0x56A6220", Offset = "0x56A5220", VA = "0x56A6220")]
 		get
 		{
 			return default(bool);
@@ -117,7 +117,7 @@ public class AppSettings
 	public bool IsDefaultPort
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x1D11BD0", Offset = "0x1D101D0", VA = "0x181D11BD0")]
+		[Address(RVA = "0x56A6240", Offset = "0x56A5240", VA = "0x56A6240")]
 		get
 		{
 			return default(bool);
@@ -125,35 +125,35 @@ public class AppSettings
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x1D112C0", Offset = "0x1D0F8C0", VA = "0x181D112C0")]
+	[Address(RVA = "0x56A6250", Offset = "0x56A5250", VA = "0x56A6250")]
 	public string ToStringFull()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x1D11290", Offset = "0x1D0F890", VA = "0x181D11290")]
+	[Address(RVA = "0x56A6B50", Offset = "0x56A5B50", VA = "0x56A6B50")]
 	public static bool IsAppId(string val)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x1D11210", Offset = "0x1D0F810", VA = "0x181D11210")]
+	[Address(RVA = "0x56A6AE0", Offset = "0x56A5AE0", VA = "0x56A6AE0")]
 	private string HideAppId(string appId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x1D11110", Offset = "0x1D0F710", VA = "0x181D11110")]
+	[Address(RVA = "0x56A6BF0", Offset = "0x56A5BF0", VA = "0x56A6BF0")]
 	public AppSettings CopyTo(AppSettings d)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x1D11B70", Offset = "0x1D10170", VA = "0x181D11B70")]
+	[Address(RVA = "0x56A6CF0", Offset = "0x56A5CF0", VA = "0x56A6CF0")]
 	public AppSettings()
 	{
 	}

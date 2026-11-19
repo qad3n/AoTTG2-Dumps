@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicTitanSoundEnum
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicTitanSoundEnum.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,892 +11,892 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200052E")]
+[Token(Token = "0x200058D")]
 [CompilerGenerated]
 internal class CustomLogicTitanSoundEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x200052F")]
+	[Token(Token = "0x200058E")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002FEF")]
-		[Address(RVA = "0x2017810", Offset = "0x2015E10", VA = "0x182017810")]
+		[Token(Token = "0x600327B")]
+		[Address(RVA = "0x59BB520", Offset = "0x59BA520", VA = "0x59BB520")]
 		public static CustomLogicTitanSoundEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000530")]
+	[Token(Token = "0x200058F")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016F2")]
+		[Token(Token = "0x4001892")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002FF0")]
-		[Address(RVA = "0x1FF28F0", Offset = "0x1FF0EF0", VA = "0x181FF28F0")]
+		[Token(Token = "0x600327C")]
+		[Address(RVA = "0x59BB640", Offset = "0x59BA640", VA = "0x59BB640")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF1")]
-		[Address(RVA = "0x2004400", Offset = "0x2002A00", VA = "0x182004400")]
+		[Token(Token = "0x600327D")]
+		[Address(RVA = "0x59BC6C0", Offset = "0x59BB6C0", VA = "0x59BC6C0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Footstep1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF2")]
-		[Address(RVA = "0x20044A0", Offset = "0x2002AA0", VA = "0x1820044A0")]
+		[Token(Token = "0x600327E")]
+		[Address(RVA = "0x59BC760", Offset = "0x59BB760", VA = "0x59BC760")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Footstep2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF3")]
-		[Address(RVA = "0x2004540", Offset = "0x2002B40", VA = "0x182004540")]
+		[Token(Token = "0x600327F")]
+		[Address(RVA = "0x59BC800", Offset = "0x59BB800", VA = "0x59BC800")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Footstep3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF4")]
-		[Address(RVA = "0x2007CE0", Offset = "0x20062E0", VA = "0x182007CE0")]
+		[Token(Token = "0x6003280")]
+		[Address(RVA = "0x59BC8A0", Offset = "0x59BB8A0", VA = "0x59BC8A0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Swing1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF5")]
-		[Address(RVA = "0x2007D80", Offset = "0x2006380", VA = "0x182007D80")]
+		[Token(Token = "0x6003281")]
+		[Address(RVA = "0x59BC940", Offset = "0x59BB940", VA = "0x59BC940")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Swing2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF6")]
-		[Address(RVA = "0x2007E20", Offset = "0x2006420", VA = "0x182007E20")]
+		[Token(Token = "0x6003282")]
+		[Address(RVA = "0x59BC9E0", Offset = "0x59BB9E0", VA = "0x59BC9E0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Swing3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF7")]
-		[Address(RVA = "0x20052B0", Offset = "0x20038B0", VA = "0x1820052B0")]
+		[Token(Token = "0x6003283")]
+		[Address(RVA = "0x59BCA80", Offset = "0x59BBA80", VA = "0x59BCA80")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF8")]
-		[Address(RVA = "0x2005350", Offset = "0x2003950", VA = "0x182005350")]
+		[Token(Token = "0x6003284")]
+		[Address(RVA = "0x59BCB20", Offset = "0x59BBB20", VA = "0x59BCB20")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FF9")]
-		[Address(RVA = "0x20053F0", Offset = "0x20039F0", VA = "0x1820053F0")]
+		[Token(Token = "0x6003285")]
+		[Address(RVA = "0x59BCBC0", Offset = "0x59BBBC0", VA = "0x59BCBC0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFA")]
-		[Address(RVA = "0x2005490", Offset = "0x2003A90", VA = "0x182005490")]
+		[Token(Token = "0x6003286")]
+		[Address(RVA = "0x59BCC60", Offset = "0x59BBC60", VA = "0x59BCC60")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt4()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFB")]
-		[Address(RVA = "0x2005530", Offset = "0x2003B30", VA = "0x182005530")]
+		[Token(Token = "0x6003287")]
+		[Address(RVA = "0x59BCD00", Offset = "0x59BBD00", VA = "0x59BCD00")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt5()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFC")]
-		[Address(RVA = "0x20055D0", Offset = "0x2003BD0", VA = "0x1820055D0")]
+		[Token(Token = "0x6003288")]
+		[Address(RVA = "0x59BCDA0", Offset = "0x59BBDA0", VA = "0x59BCDA0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt6()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFD")]
-		[Address(RVA = "0x2005670", Offset = "0x2003C70", VA = "0x182005670")]
+		[Token(Token = "0x6003289")]
+		[Address(RVA = "0x59BCE40", Offset = "0x59BBE40", VA = "0x59BCE40")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt7()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFE")]
-		[Address(RVA = "0x2005710", Offset = "0x2003D10", VA = "0x182005710")]
+		[Token(Token = "0x600328A")]
+		[Address(RVA = "0x59BCEE0", Offset = "0x59BBEE0", VA = "0x59BCEE0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hurt8()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FFF")]
-		[Address(RVA = "0x2004810", Offset = "0x2002E10", VA = "0x182004810")]
+		[Token(Token = "0x600328B")]
+		[Address(RVA = "0x59BCF80", Offset = "0x59BBF80", VA = "0x59BCF80")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003000")]
-		[Address(RVA = "0x20048B0", Offset = "0x2002EB0", VA = "0x1820048B0")]
+		[Token(Token = "0x600328C")]
+		[Address(RVA = "0x59BD020", Offset = "0x59BC020", VA = "0x59BD020")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003001")]
-		[Address(RVA = "0x2004950", Offset = "0x2002F50", VA = "0x182004950")]
+		[Token(Token = "0x600328D")]
+		[Address(RVA = "0x59BD0C0", Offset = "0x59BC0C0", VA = "0x59BD0C0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003002")]
-		[Address(RVA = "0x20049F0", Offset = "0x2002FF0", VA = "0x1820049F0")]
+		[Token(Token = "0x600328E")]
+		[Address(RVA = "0x59BD160", Offset = "0x59BC160", VA = "0x59BD160")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt4()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003003")]
-		[Address(RVA = "0x2004A90", Offset = "0x2003090", VA = "0x182004A90")]
+		[Token(Token = "0x600328F")]
+		[Address(RVA = "0x59BD200", Offset = "0x59BC200", VA = "0x59BD200")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt5()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003004")]
-		[Address(RVA = "0x2004B30", Offset = "0x2003130", VA = "0x182004B30")]
+		[Token(Token = "0x6003290")]
+		[Address(RVA = "0x59BD2A0", Offset = "0x59BC2A0", VA = "0x59BD2A0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt6()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003005")]
-		[Address(RVA = "0x2004BD0", Offset = "0x20031D0", VA = "0x182004BD0")]
+		[Token(Token = "0x6003291")]
+		[Address(RVA = "0x59BD340", Offset = "0x59BC340", VA = "0x59BD340")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt7()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003006")]
-		[Address(RVA = "0x2004C70", Offset = "0x2003270", VA = "0x182004C70")]
+		[Token(Token = "0x6003292")]
+		[Address(RVA = "0x59BD3E0", Offset = "0x59BC3E0", VA = "0x59BD3E0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt8()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003007")]
-		[Address(RVA = "0x2004D10", Offset = "0x2003310", VA = "0x182004D10")]
+		[Token(Token = "0x6003293")]
+		[Address(RVA = "0x59BD480", Offset = "0x59BC480", VA = "0x59BD480")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt9()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003008")]
-		[Address(RVA = "0x2004770", Offset = "0x2002D70", VA = "0x182004770")]
+		[Token(Token = "0x6003294")]
+		[Address(RVA = "0x59BD520", Offset = "0x59BC520", VA = "0x59BD520")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Grunt10()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003009")]
-		[Address(RVA = "0x2004DB0", Offset = "0x20033B0", VA = "0x182004DB0")]
+		[Token(Token = "0x6003295")]
+		[Address(RVA = "0x59BD5C0", Offset = "0x59BC5C0", VA = "0x59BD5C0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Hit()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300A")]
-		[Address(RVA = "0x2006DE0", Offset = "0x20053E0", VA = "0x182006DE0")]
+		[Token(Token = "0x6003296")]
+		[Address(RVA = "0x59BD660", Offset = "0x59BC660", VA = "0x59BD660")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Roar1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300B")]
-		[Address(RVA = "0x2006E80", Offset = "0x2005480", VA = "0x182006E80")]
+		[Token(Token = "0x6003297")]
+		[Address(RVA = "0x59BD700", Offset = "0x59BC700", VA = "0x59BD700")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Roar2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300C")]
-		[Address(RVA = "0x2003550", Offset = "0x2001B50", VA = "0x182003550")]
+		[Token(Token = "0x6003298")]
+		[Address(RVA = "0x59BD7A0", Offset = "0x59BC7A0", VA = "0x59BD7A0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__DeathFall()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300D")]
-		[Address(RVA = "0x20035F0", Offset = "0x2001BF0", VA = "0x1820035F0")]
+		[Token(Token = "0x6003299")]
+		[Address(RVA = "0x59BD840", Offset = "0x59BC840", VA = "0x59BD840")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__DeathNoFall()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300E")]
-		[Address(RVA = "0x2007920", Offset = "0x2005F20", VA = "0x182007920")]
+		[Token(Token = "0x600329A")]
+		[Address(RVA = "0x59BD8E0", Offset = "0x59BC8E0", VA = "0x59BD8E0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Steam()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600300F")]
-		[Address(RVA = "0x2002BF0", Offset = "0x20011F0", VA = "0x182002BF0")]
+		[Token(Token = "0x600329B")]
+		[Address(RVA = "0x59BD980", Offset = "0x59BC980", VA = "0x59BD980")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Bite1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003010")]
-		[Address(RVA = "0x2002C90", Offset = "0x2001290", VA = "0x182002C90")]
+		[Token(Token = "0x600329C")]
+		[Address(RVA = "0x59BDA20", Offset = "0x59BCA20", VA = "0x59BDA20")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Bite2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003011")]
-		[Address(RVA = "0x2005E90", Offset = "0x2004490", VA = "0x182005E90")]
+		[Token(Token = "0x600329D")]
+		[Address(RVA = "0x59BDAC0", Offset = "0x59BCAC0", VA = "0x59BDAC0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Laugh1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003012")]
-		[Address(RVA = "0x2005F30", Offset = "0x2004530", VA = "0x182005F30")]
+		[Token(Token = "0x600329E")]
+		[Address(RVA = "0x59BDB60", Offset = "0x59BCB60", VA = "0x59BDB60")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Laugh2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003013")]
-		[Address(RVA = "0x2004E50", Offset = "0x2003450", VA = "0x182004E50")]
+		[Token(Token = "0x600329F")]
+		[Address(RVA = "0x59BDC00", Offset = "0x59BCC00", VA = "0x59BDC00")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003014")]
-		[Address(RVA = "0x2004EF0", Offset = "0x20034F0", VA = "0x182004EF0")]
+		[Token(Token = "0x60032A0")]
+		[Address(RVA = "0x59BDCA0", Offset = "0x59BCCA0", VA = "0x59BDCA0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003015")]
-		[Address(RVA = "0x2004F90", Offset = "0x2003590", VA = "0x182004F90")]
+		[Token(Token = "0x60032A1")]
+		[Address(RVA = "0x59BDD40", Offset = "0x59BCD40", VA = "0x59BDD40")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003016")]
-		[Address(RVA = "0x2005030", Offset = "0x2003630", VA = "0x182005030")]
+		[Token(Token = "0x60032A2")]
+		[Address(RVA = "0x59BDDE0", Offset = "0x59BCDE0", VA = "0x59BDDE0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff4()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003017")]
-		[Address(RVA = "0x20050D0", Offset = "0x20036D0", VA = "0x1820050D0")]
+		[Token(Token = "0x60032A3")]
+		[Address(RVA = "0x59BDE80", Offset = "0x59BCE80", VA = "0x59BDE80")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff5()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003018")]
-		[Address(RVA = "0x2005170", Offset = "0x2003770", VA = "0x182005170")]
+		[Token(Token = "0x60032A4")]
+		[Address(RVA = "0x59BDF20", Offset = "0x59BCF20", VA = "0x59BDF20")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Huff6()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003019")]
-		[Address(RVA = "0x2008000", Offset = "0x2006600", VA = "0x182008000")]
+		[Token(Token = "0x60032A5")]
+		[Address(RVA = "0x59BDFC0", Offset = "0x59BCFC0", VA = "0x59BDFC0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__TitanJump()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600301A")]
-		[Address(RVA = "0x2006F20", Offset = "0x2005520", VA = "0x182006F20")]
+		[Token(Token = "0x60032A6")]
+		[Address(RVA = "0x59BE060", Offset = "0x59BD060", VA = "0x59BE060")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__RockPickup()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600301B")]
-		[Address(RVA = "0x2006FC0", Offset = "0x20055C0", VA = "0x182006FC0")]
+		[Token(Token = "0x60032A7")]
+		[Address(RVA = "0x59BE100", Offset = "0x59BD100", VA = "0x59BE100")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__RockThrow1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600301C")]
-		[Address(RVA = "0x2007060", Offset = "0x2005660", VA = "0x182007060")]
+		[Token(Token = "0x60032A8")]
+		[Address(RVA = "0x59BE1A0", Offset = "0x59BD1A0", VA = "0x59BE1A0")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__RockThrow2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600301D")]
-		[Address(RVA = "0x2003690", Offset = "0x2001C90", VA = "0x182003690")]
+		[Token(Token = "0x60032A9")]
+		[Address(RVA = "0x59BE240", Offset = "0x59BD240", VA = "0x59BE240")]
 		public static CLPropertyBinding<CustomLogicTitanSoundEnum> __CreatePropertyBinding__Decapitate()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B1")]
+	[Token(Token = "0x170008F9")]
 	public static string Footstep1
 	{
-		[Token(Token = "0x6002FBE")]
-		[Address(RVA = "0x2015520", Offset = "0x2013B20", VA = "0x182015520")]
+		[Token(Token = "0x600324A")]
+		[Address(RVA = "0x59BA110", Offset = "0x59B9110", VA = "0x59BA110")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B2")]
+	[Token(Token = "0x170008FA")]
 	public static string Footstep2
 	{
-		[Token(Token = "0x6002FBF")]
-		[Address(RVA = "0x2015570", Offset = "0x2013B70", VA = "0x182015570")]
+		[Token(Token = "0x600324B")]
+		[Address(RVA = "0x59BA180", Offset = "0x59B9180", VA = "0x59BA180")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B3")]
+	[Token(Token = "0x170008FB")]
 	public static string Footstep3
 	{
-		[Token(Token = "0x6002FC0")]
-		[Address(RVA = "0x20155C0", Offset = "0x2013BC0", VA = "0x1820155C0")]
+		[Token(Token = "0x600324C")]
+		[Address(RVA = "0x59BA1F0", Offset = "0x59B91F0", VA = "0x59BA1F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B4")]
+	[Token(Token = "0x170008FC")]
 	public static string Swing1
 	{
-		[Token(Token = "0x6002FC1")]
-		[Address(RVA = "0x20161D0", Offset = "0x20147D0", VA = "0x1820161D0")]
+		[Token(Token = "0x600324D")]
+		[Address(RVA = "0x59BA260", Offset = "0x59B9260", VA = "0x59BA260")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B5")]
+	[Token(Token = "0x170008FD")]
 	public static string Swing2
 	{
-		[Token(Token = "0x6002FC2")]
-		[Address(RVA = "0x2016220", Offset = "0x2014820", VA = "0x182016220")]
+		[Token(Token = "0x600324E")]
+		[Address(RVA = "0x59BA2D0", Offset = "0x59B92D0", VA = "0x59BA2D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B6")]
+	[Token(Token = "0x170008FE")]
 	public static string Swing3
 	{
-		[Token(Token = "0x6002FC3")]
-		[Address(RVA = "0x2016270", Offset = "0x2014870", VA = "0x182016270")]
+		[Token(Token = "0x600324F")]
+		[Address(RVA = "0x59BA340", Offset = "0x59B9340", VA = "0x59BA340")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B7")]
+	[Token(Token = "0x170008FF")]
 	public static string Hurt1
 	{
-		[Token(Token = "0x6002FC4")]
-		[Address(RVA = "0x2015C50", Offset = "0x2014250", VA = "0x182015C50")]
+		[Token(Token = "0x6003250")]
+		[Address(RVA = "0x59BA3B0", Offset = "0x59B93B0", VA = "0x59BA3B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B8")]
+	[Token(Token = "0x17000900")]
 	public static string Hurt2
 	{
-		[Token(Token = "0x6002FC5")]
-		[Address(RVA = "0x2015CA0", Offset = "0x20142A0", VA = "0x182015CA0")]
+		[Token(Token = "0x6003251")]
+		[Address(RVA = "0x59BA420", Offset = "0x59B9420", VA = "0x59BA420")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008B9")]
+	[Token(Token = "0x17000901")]
 	public static string Hurt3
 	{
-		[Token(Token = "0x6002FC6")]
-		[Address(RVA = "0x2015CF0", Offset = "0x20142F0", VA = "0x182015CF0")]
+		[Token(Token = "0x6003252")]
+		[Address(RVA = "0x59BA490", Offset = "0x59B9490", VA = "0x59BA490")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BA")]
+	[Token(Token = "0x17000902")]
 	public static string Hurt4
 	{
-		[Token(Token = "0x6002FC7")]
-		[Address(RVA = "0x2015D40", Offset = "0x2014340", VA = "0x182015D40")]
+		[Token(Token = "0x6003253")]
+		[Address(RVA = "0x59BA500", Offset = "0x59B9500", VA = "0x59BA500")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BB")]
+	[Token(Token = "0x17000903")]
 	public static string Hurt5
 	{
-		[Token(Token = "0x6002FC8")]
-		[Address(RVA = "0x2015D90", Offset = "0x2014390", VA = "0x182015D90")]
+		[Token(Token = "0x6003254")]
+		[Address(RVA = "0x59BA570", Offset = "0x59B9570", VA = "0x59BA570")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BC")]
+	[Token(Token = "0x17000904")]
 	public static string Hurt6
 	{
-		[Token(Token = "0x6002FC9")]
-		[Address(RVA = "0x2015DE0", Offset = "0x20143E0", VA = "0x182015DE0")]
+		[Token(Token = "0x6003255")]
+		[Address(RVA = "0x59BA5E0", Offset = "0x59B95E0", VA = "0x59BA5E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BD")]
+	[Token(Token = "0x17000905")]
 	public static string Hurt7
 	{
-		[Token(Token = "0x6002FCA")]
-		[Address(RVA = "0x2015E30", Offset = "0x2014430", VA = "0x182015E30")]
+		[Token(Token = "0x6003256")]
+		[Address(RVA = "0x59BA650", Offset = "0x59B9650", VA = "0x59BA650")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BE")]
+	[Token(Token = "0x17000906")]
 	public static string Hurt8
 	{
-		[Token(Token = "0x6002FCB")]
-		[Address(RVA = "0x2015E80", Offset = "0x2014480", VA = "0x182015E80")]
+		[Token(Token = "0x6003257")]
+		[Address(RVA = "0x59BA6C0", Offset = "0x59B96C0", VA = "0x59BA6C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008BF")]
+	[Token(Token = "0x17000907")]
 	public static string Grunt1
 	{
-		[Token(Token = "0x6002FCC")]
-		[Address(RVA = "0x2015670", Offset = "0x2013C70", VA = "0x182015670")]
+		[Token(Token = "0x6003258")]
+		[Address(RVA = "0x59BA730", Offset = "0x59B9730", VA = "0x59BA730")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C0")]
+	[Token(Token = "0x17000908")]
 	public static string Grunt2
 	{
-		[Token(Token = "0x6002FCD")]
-		[Address(RVA = "0x20156C0", Offset = "0x2013CC0", VA = "0x1820156C0")]
+		[Token(Token = "0x6003259")]
+		[Address(RVA = "0x59BA7A0", Offset = "0x59B97A0", VA = "0x59BA7A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C1")]
+	[Token(Token = "0x17000909")]
 	public static string Grunt3
 	{
-		[Token(Token = "0x6002FCE")]
-		[Address(RVA = "0x2015710", Offset = "0x2013D10", VA = "0x182015710")]
+		[Token(Token = "0x600325A")]
+		[Address(RVA = "0x59BA810", Offset = "0x59B9810", VA = "0x59BA810")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C2")]
+	[Token(Token = "0x1700090A")]
 	public static string Grunt4
 	{
-		[Token(Token = "0x6002FCF")]
-		[Address(RVA = "0x2015770", Offset = "0x2013D70", VA = "0x182015770")]
+		[Token(Token = "0x600325B")]
+		[Address(RVA = "0x59BA880", Offset = "0x59B9880", VA = "0x59BA880")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C3")]
+	[Token(Token = "0x1700090B")]
 	public static string Grunt5
 	{
-		[Token(Token = "0x6002FD0")]
-		[Address(RVA = "0x20157D0", Offset = "0x2013DD0", VA = "0x1820157D0")]
+		[Token(Token = "0x600325C")]
+		[Address(RVA = "0x59BA8F0", Offset = "0x59B98F0", VA = "0x59BA8F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C4")]
+	[Token(Token = "0x1700090C")]
 	public static string Grunt6
 	{
-		[Token(Token = "0x6002FD1")]
-		[Address(RVA = "0x2015830", Offset = "0x2013E30", VA = "0x182015830")]
+		[Token(Token = "0x600325D")]
+		[Address(RVA = "0x59BA960", Offset = "0x59B9960", VA = "0x59BA960")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C5")]
+	[Token(Token = "0x1700090D")]
 	public static string Grunt7
 	{
-		[Token(Token = "0x6002FD2")]
-		[Address(RVA = "0x2015890", Offset = "0x2013E90", VA = "0x182015890")]
+		[Token(Token = "0x600325E")]
+		[Address(RVA = "0x59BA9D0", Offset = "0x59B99D0", VA = "0x59BA9D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C6")]
+	[Token(Token = "0x1700090E")]
 	public static string Grunt8
 	{
-		[Token(Token = "0x6002FD3")]
-		[Address(RVA = "0x20158F0", Offset = "0x2013EF0", VA = "0x1820158F0")]
+		[Token(Token = "0x600325F")]
+		[Address(RVA = "0x59BAA40", Offset = "0x59B9A40", VA = "0x59BAA40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C7")]
+	[Token(Token = "0x1700090F")]
 	public static string Grunt9
 	{
-		[Token(Token = "0x6002FD4")]
-		[Address(RVA = "0x2015950", Offset = "0x2013F50", VA = "0x182015950")]
+		[Token(Token = "0x6003260")]
+		[Address(RVA = "0x59BAAB0", Offset = "0x59B9AB0", VA = "0x59BAAB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C8")]
+	[Token(Token = "0x17000910")]
 	public static string Grunt10
 	{
-		[Token(Token = "0x6002FD5")]
-		[Address(RVA = "0x2015610", Offset = "0x2013C10", VA = "0x182015610")]
+		[Token(Token = "0x6003261")]
+		[Address(RVA = "0x59BAB20", Offset = "0x59B9B20", VA = "0x59BAB20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008C9")]
+	[Token(Token = "0x17000911")]
 	public static string Hit
 	{
-		[Token(Token = "0x6002FD6")]
-		[Address(RVA = "0x20159B0", Offset = "0x2013FB0", VA = "0x1820159B0")]
+		[Token(Token = "0x6003262")]
+		[Address(RVA = "0x59BAB90", Offset = "0x59B9B90", VA = "0x59BAB90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CA")]
+	[Token(Token = "0x17000912")]
 	public static string Roar1
 	{
-		[Token(Token = "0x6002FD7")]
-		[Address(RVA = "0x2015F90", Offset = "0x2014590", VA = "0x182015F90")]
+		[Token(Token = "0x6003263")]
+		[Address(RVA = "0x59BAC00", Offset = "0x59B9C00", VA = "0x59BAC00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CB")]
+	[Token(Token = "0x17000913")]
 	public static string Roar2
 	{
-		[Token(Token = "0x6002FD8")]
-		[Address(RVA = "0x2015FF0", Offset = "0x20145F0", VA = "0x182015FF0")]
+		[Token(Token = "0x6003264")]
+		[Address(RVA = "0x59BAC70", Offset = "0x59B9C70", VA = "0x59BAC70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CC")]
+	[Token(Token = "0x17000914")]
 	public static string DeathFall
 	{
-		[Token(Token = "0x6002FD9")]
-		[Address(RVA = "0x2015400", Offset = "0x2013A00", VA = "0x182015400")]
+		[Token(Token = "0x6003265")]
+		[Address(RVA = "0x59BACE0", Offset = "0x59B9CE0", VA = "0x59BACE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CD")]
+	[Token(Token = "0x17000915")]
 	public static string DeathNoFall
 	{
-		[Token(Token = "0x6002FDA")]
-		[Address(RVA = "0x2015460", Offset = "0x2013A60", VA = "0x182015460")]
+		[Token(Token = "0x6003266")]
+		[Address(RVA = "0x59BAD50", Offset = "0x59B9D50", VA = "0x59BAD50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CE")]
+	[Token(Token = "0x17000916")]
 	public static string Steam
 	{
-		[Token(Token = "0x6002FDB")]
-		[Address(RVA = "0x2016170", Offset = "0x2014770", VA = "0x182016170")]
+		[Token(Token = "0x6003267")]
+		[Address(RVA = "0x59BADC0", Offset = "0x59B9DC0", VA = "0x59BADC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008CF")]
+	[Token(Token = "0x17000917")]
 	public static string Bite1
 	{
-		[Token(Token = "0x6002FDC")]
-		[Address(RVA = "0x2015310", Offset = "0x2013910", VA = "0x182015310")]
+		[Token(Token = "0x6003268")]
+		[Address(RVA = "0x59BAE30", Offset = "0x59B9E30", VA = "0x59BAE30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D0")]
+	[Token(Token = "0x17000918")]
 	public static string Bite2
 	{
-		[Token(Token = "0x6002FDD")]
-		[Address(RVA = "0x2015370", Offset = "0x2013970", VA = "0x182015370")]
+		[Token(Token = "0x6003269")]
+		[Address(RVA = "0x59BAEA0", Offset = "0x59B9EA0", VA = "0x59BAEA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D1")]
+	[Token(Token = "0x17000919")]
 	public static string Laugh1
 	{
-		[Token(Token = "0x6002FDE")]
-		[Address(RVA = "0x2015ED0", Offset = "0x20144D0", VA = "0x182015ED0")]
+		[Token(Token = "0x600326A")]
+		[Address(RVA = "0x59BAF10", Offset = "0x59B9F10", VA = "0x59BAF10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D2")]
+	[Token(Token = "0x1700091A")]
 	public static string Laugh2
 	{
-		[Token(Token = "0x6002FDF")]
-		[Address(RVA = "0x2015F30", Offset = "0x2014530", VA = "0x182015F30")]
+		[Token(Token = "0x600326B")]
+		[Address(RVA = "0x59BAF80", Offset = "0x59B9F80", VA = "0x59BAF80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D3")]
+	[Token(Token = "0x1700091B")]
 	public static string Huff1
 	{
-		[Token(Token = "0x6002FE0")]
-		[Address(RVA = "0x2015A10", Offset = "0x2014010", VA = "0x182015A10")]
+		[Token(Token = "0x600326C")]
+		[Address(RVA = "0x59BAFF0", Offset = "0x59B9FF0", VA = "0x59BAFF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D4")]
+	[Token(Token = "0x1700091C")]
 	public static string Huff2
 	{
-		[Token(Token = "0x6002FE1")]
-		[Address(RVA = "0x2015A70", Offset = "0x2014070", VA = "0x182015A70")]
+		[Token(Token = "0x600326D")]
+		[Address(RVA = "0x59BB060", Offset = "0x59BA060", VA = "0x59BB060")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D5")]
+	[Token(Token = "0x1700091D")]
 	public static string Huff3
 	{
-		[Token(Token = "0x6002FE2")]
-		[Address(RVA = "0x2015AD0", Offset = "0x20140D0", VA = "0x182015AD0")]
+		[Token(Token = "0x600326E")]
+		[Address(RVA = "0x59BB0D0", Offset = "0x59BA0D0", VA = "0x59BB0D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D6")]
+	[Token(Token = "0x1700091E")]
 	public static string Huff4
 	{
-		[Token(Token = "0x6002FE3")]
-		[Address(RVA = "0x2015B30", Offset = "0x2014130", VA = "0x182015B30")]
+		[Token(Token = "0x600326F")]
+		[Address(RVA = "0x59BB140", Offset = "0x59BA140", VA = "0x59BB140")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D7")]
+	[Token(Token = "0x1700091F")]
 	public static string Huff5
 	{
-		[Token(Token = "0x6002FE4")]
-		[Address(RVA = "0x2015B90", Offset = "0x2014190", VA = "0x182015B90")]
+		[Token(Token = "0x6003270")]
+		[Address(RVA = "0x59BB1B0", Offset = "0x59BA1B0", VA = "0x59BB1B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D8")]
+	[Token(Token = "0x17000920")]
 	public static string Huff6
 	{
-		[Token(Token = "0x6002FE5")]
-		[Address(RVA = "0x2015BF0", Offset = "0x20141F0", VA = "0x182015BF0")]
+		[Token(Token = "0x6003271")]
+		[Address(RVA = "0x59BB220", Offset = "0x59BA220", VA = "0x59BB220")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008D9")]
+	[Token(Token = "0x17000921")]
 	public static string TitanJump
 	{
-		[Token(Token = "0x6002FE6")]
-		[Address(RVA = "0x20162C0", Offset = "0x20148C0", VA = "0x1820162C0")]
+		[Token(Token = "0x6003272")]
+		[Address(RVA = "0x59BB290", Offset = "0x59BA290", VA = "0x59BB290")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DA")]
+	[Token(Token = "0x17000922")]
 	public static string RockPickup
 	{
-		[Token(Token = "0x6002FE7")]
-		[Address(RVA = "0x2016050", Offset = "0x2014650", VA = "0x182016050")]
+		[Token(Token = "0x6003273")]
+		[Address(RVA = "0x59BB300", Offset = "0x59BA300", VA = "0x59BB300")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DB")]
+	[Token(Token = "0x17000923")]
 	public static string RockThrow1
 	{
-		[Token(Token = "0x6002FE8")]
-		[Address(RVA = "0x20160B0", Offset = "0x20146B0", VA = "0x1820160B0")]
+		[Token(Token = "0x6003274")]
+		[Address(RVA = "0x59BB370", Offset = "0x59BA370", VA = "0x59BB370")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DC")]
+	[Token(Token = "0x17000924")]
 	public static string RockThrow2
 	{
-		[Token(Token = "0x6002FE9")]
-		[Address(RVA = "0x2016110", Offset = "0x2014710", VA = "0x182016110")]
+		[Token(Token = "0x6003275")]
+		[Address(RVA = "0x59BB3E0", Offset = "0x59BA3E0", VA = "0x59BB3E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DD")]
+	[Token(Token = "0x17000925")]
 	public static string Decapitate
 	{
-		[Token(Token = "0x6002FEA")]
-		[Address(RVA = "0x20154C0", Offset = "0x2013AC0", VA = "0x1820154C0")]
+		[Token(Token = "0x6003276")]
+		[Address(RVA = "0x59BB450", Offset = "0x59BA450", VA = "0x59BB450")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DE")]
+	[Token(Token = "0x17000926")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002FEB")]
-		[Address(RVA = "0x20153D0", Offset = "0x20139D0", VA = "0x1820153D0", Slot = "6")]
+		[Token(Token = "0x6003277")]
+		[Address(RVA = "0x59BB4C0", Offset = "0x59BA4C0", VA = "0x59BB4C0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008DF")]
+	[Token(Token = "0x17000927")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002FEC")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003278")]
+		[Address(RVA = "0x59BB4F0", Offset = "0x59BA4F0", VA = "0x59BB4F0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008E0")]
+	[Token(Token = "0x17000928")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002FED")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003279")]
+		[Address(RVA = "0x59BB500", Offset = "0x59BA500", VA = "0x59BB500", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008E1")]
+	[Token(Token = "0x17000929")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002FEE")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x600327A")]
+		[Address(RVA = "0x59BB510", Offset = "0x59BA510", VA = "0x59BB510", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002FBD")]
-	[Address(RVA = "0x20152C0", Offset = "0x20138C0", VA = "0x1820152C0")]
+	[Token(Token = "0x6003249")]
+	[Address(RVA = "0x59BA0A0", Offset = "0x59B90A0", VA = "0x59BA0A0")]
 	public CustomLogicTitanSoundEnum()
 	{
 	}

@@ -27,31 +27,31 @@ public class PointedAtGameObjectInfo : MonoBehaviour
 	private Transform focus;
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x1D5B490", Offset = "0x1D59A90", VA = "0x181D5B490")]
+	[Address(RVA = "0x56EBCE0", Offset = "0x56EACE0", VA = "0x56EBCE0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x1D5B160", Offset = "0x1D59760", VA = "0x181D5B160")]
+	[Address(RVA = "0x56EBDF0", Offset = "0x56EADF0", VA = "0x56EBDF0")]
 	public void SetFocus(PhotonView pv)
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x1D5B080", Offset = "0x1D59680", VA = "0x181D5B080")]
+	[Address(RVA = "0x56EC120", Offset = "0x56EB120", VA = "0x56EC120")]
 	public void RemoveFocus(PhotonView pv)
 	{
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x1D5AF90", Offset = "0x1D59590", VA = "0x181D5AF90")]
+	[Address(RVA = "0x56EC200", Offset = "0x56EB200", VA = "0x56EC200")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56EC2C0", Offset = "0x56EB2C0", VA = "0x56EC2C0")]
 	public PointedAtGameObjectInfo()
 	{
 	}

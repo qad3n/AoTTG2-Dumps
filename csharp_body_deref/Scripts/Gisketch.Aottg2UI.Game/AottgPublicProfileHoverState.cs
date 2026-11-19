@@ -12,64 +12,64 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002DC")]
+[Token(Token = "0x2000339")]
 internal static class AottgPublicProfileHoverState
 {
-	[Token(Token = "0x60011E8")]
-	[Address(RVA = "0x1E2CD00", Offset = "0x1E2B300", VA = "0x181E2CD00")]
+	[Token(Token = "0x600143A")]
+	[Address(RVA = "0x580D720", Offset = "0x580C720", VA = "0x580D720")]
 	public static GameObject ShowLoading(GisketchUIRoot root, string accountId, GameObject anchor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011E9")]
-	[Address(RVA = "0x1E2D0A0", Offset = "0x1E2B6A0", VA = "0x181E2D0A0")]
+	[Token(Token = "0x600143B")]
+	[Address(RVA = "0x580CDB0", Offset = "0x580BDB0", VA = "0x580CDB0")]
 	public static void ShowReady(GisketchUIRoot root, string accountId, AottgPublicProfile profile)
 	{
 	}
 
-	[Token(Token = "0x60011EA")]
-	[Address(RVA = "0x1E2CA90", Offset = "0x1E2B090", VA = "0x181E2CA90")]
+	[Token(Token = "0x600143C")]
+	[Address(RVA = "0x580D100", Offset = "0x580C100", VA = "0x580D100")]
 	public static void ShowError(GisketchUIRoot root, string accountId, string error)
 	{
 	}
 
-	[Token(Token = "0x60011EB")]
-	[Address(RVA = "0x1E2C820", Offset = "0x1E2AE20", VA = "0x181E2C820")]
+	[Token(Token = "0x600143D")]
+	[Address(RVA = "0x580CB00", Offset = "0x580BB00", VA = "0x580CB00")]
 	public static void Close(GisketchUIRoot root, string accountId)
 	{
 	}
 
-	[Token(Token = "0x60011EC")]
-	[Address(RVA = "0x1E2C9C0", Offset = "0x1E2AFC0", VA = "0x181E2C9C0")]
+	[Token(Token = "0x600143E")]
+	[Address(RVA = "0x5810550", Offset = "0x580F550", VA = "0x5810550")]
 	private static bool IsActive(GisketchUIRoot root, string accountId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011ED")]
-	[Address(RVA = "0x1E2C920", Offset = "0x1E2AF20", VA = "0x181E2C920")]
+	[Token(Token = "0x600143F")]
+	[Address(RVA = "0x58107B0", Offset = "0x580F7B0", VA = "0x58107B0")]
 	private static string ErrorText(string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011EE")]
-	[Address(RVA = "0x1E2C7E0", Offset = "0x1E2ADE0", VA = "0x181E2C7E0")]
+	[Token(Token = "0x6001440")]
+	[Address(RVA = "0x5810780", Offset = "0x580F780", VA = "0x5810780")]
 	private static string CharacterName(AottgPublicProfile profile)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011EF")]
-	[Address(RVA = "0x1E2C660", Offset = "0x1E2AC60", VA = "0x181E2C660")]
+	[Token(Token = "0x6001441")]
+	[Address(RVA = "0x5810610", Offset = "0x580F610", VA = "0x5810610")]
 	private static string BadgesJson(AottgPublicProfile profile, out bool hasBadges)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011F0")]
-	[Address(RVA = "0x1DF0650", Offset = "0x1DEEC50", VA = "0x181DF0650")]
+	[Token(Token = "0x6001442")]
+	[Address(RVA = "0x5810850", Offset = "0x580F850", VA = "0x5810850")]
 	private static JSONNode Parse(string json)
 	{
 		return null;

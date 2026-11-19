@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x20000B7")]
 internal sealed class NewArrayBoundsExpression : NewArrayExpression
 {
-	[Token(Token = "0x170000DE")]
+	[Token(Token = "0x170000E0")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60004C8")]
-		[Address(RVA = "0x243D900", Offset = "0x243BF00", VA = "0x18243D900", Slot = "4")]
+		[Token(Token = "0x60004D3")]
+		[Address(RVA = "0x5DD5570", Offset = "0x5DD4570", VA = "0x5DD5570", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x243D8F0", Offset = "0x243BEF0", VA = "0x18243D8F0")]
+	[Token(Token = "0x60004D2")]
+	[Address(RVA = "0x5DD5490", Offset = "0x5DD4490", VA = "0x5DD5490")]
 	internal NewArrayBoundsExpression(Type type, ReadOnlyCollection<Expression> expressions)
 	{
 	}

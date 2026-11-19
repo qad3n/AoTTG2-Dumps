@@ -51,27 +51,27 @@ public struct MaterialReference
 	public int referenceCount;
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2CDF780", Offset = "0x2CDDD80", VA = "0x182CDF780")]
+	[Address(RVA = "0x66DC220", Offset = "0x66DB220", VA = "0x66DC220")]
 	public MaterialReference(int index, TMP_FontAsset fontAsset, TMP_SpriteAsset spriteAsset, Material material, float padding)
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x2CDF690", Offset = "0x2CDDC90", VA = "0x182CDF690")]
+	[Address(RVA = "0x66DC2E0", Offset = "0x66DB2E0", VA = "0x66DC2E0")]
 	public static bool Contains(MaterialReference[] materialReferences, TMP_FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x2CDF410", Offset = "0x2CDDA10", VA = "0x182CDF410")]
+	[Address(RVA = "0x66DC3D0", Offset = "0x66DB3D0", VA = "0x66DC3D0")]
 	public static int AddMaterialReference(Material material, TMP_FontAsset fontAsset, ref MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x2CDF1B0", Offset = "0x2CDD7B0", VA = "0x182CDF1B0")]
+	[Address(RVA = "0x66DC620", Offset = "0x66DB620", VA = "0x66DC620")]
 	public static int AddMaterialReference(Material material, TMP_SpriteAsset spriteAsset, ref MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup)
 	{
 		return default(int);

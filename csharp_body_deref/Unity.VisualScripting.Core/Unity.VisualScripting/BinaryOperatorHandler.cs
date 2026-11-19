@@ -27,27 +27,27 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 		public readonly Type rightType;
 
 		[Token(Token = "0x6000793")]
-		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+		[Address(RVA = "0x67CBA00", Offset = "0x67CAA00", VA = "0x67CBA00")]
 		public OperatorQuery(Type leftType, Type rightType)
 		{
 		}
 
 		[Token(Token = "0x6000794")]
-		[Address(RVA = "0x2D9DC00", Offset = "0x2D9C200", VA = "0x182D9DC00", Slot = "4")]
+		[Address(RVA = "0x67CBBA0", Offset = "0x67CABA0", VA = "0x67CBBA0", Slot = "4")]
 		public bool Equals(OperatorQuery other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000795")]
-		[Address(RVA = "0x2DDC6B0", Offset = "0x2DDACB0", VA = "0x182DDC6B0", Slot = "0")]
+		[Address(RVA = "0x67CBC20", Offset = "0x67CAC20", VA = "0x67CBC20", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000796")]
-		[Address(RVA = "0x2DDC7B0", Offset = "0x2DDADB0", VA = "0x182DDC7B0", Slot = "2")]
+		[Address(RVA = "0x67CBCE0", Offset = "0x67CACE0", VA = "0x67CBCE0", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
@@ -67,34 +67,34 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 	private readonly Dictionary<OperatorQuery, OperatorQuery> userDefinedOperandTypes;
 
 	[Token(Token = "0x600078C")]
-	[Address(RVA = "0x2DC9920", Offset = "0x2DC7F20", VA = "0x182DC9920")]
+	[Address(RVA = "0x67C5A50", Offset = "0x67C4A50", VA = "0x67C5A50")]
 	protected BinaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
 	[Token(Token = "0x600078D")]
-	[Address(RVA = "0x2DC8EC0", Offset = "0x2DC74C0", VA = "0x182DC8EC0", Slot = "4")]
+	[Address(RVA = "0x67CB0F0", Offset = "0x67CA0F0", VA = "0x67CB0F0", Slot = "4")]
 	public virtual object Operate(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600078E")]
-	[Address(RVA = "0x2DC8E20", Offset = "0x2DC7420", VA = "0x182DC8E20", Slot = "5")]
+	[Address(RVA = "0x67C5BD0", Offset = "0x67C4BD0", VA = "0x67C5BD0", Slot = "5")]
 	protected virtual object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x2DC8DC0", Offset = "0x2DC73C0", VA = "0x182DC8DC0", Slot = "6")]
+	[Address(RVA = "0x67CBB00", Offset = "0x67CAB00", VA = "0x67CBB00", Slot = "6")]
 	protected virtual object BothNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000790")]
-	[Address(RVA = "0x2DC98C0", Offset = "0x2DC7EC0", VA = "0x182DC98C0", Slot = "7")]
+	[Address(RVA = "0x67CBB50", Offset = "0x67CAB50", VA = "0x67CBB50", Slot = "7")]
 	protected virtual object SingleNullHandling()
 	{
 		return null;
@@ -106,7 +106,7 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 	}
 
 	[Token(Token = "0x6000792")]
-	[Address(RVA = "0x2DC97F0", Offset = "0x2DC7DF0", VA = "0x182DC97F0")]
+	[Address(RVA = "0x67CBA30", Offset = "0x67CAA30", VA = "0x67CBA30")]
 	private static OperatorQuery ResolveUserDefinedOperandTypes(MethodInfo userDefinedOperator)
 	{
 		return default(OperatorQuery);

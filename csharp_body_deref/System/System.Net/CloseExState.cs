@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E4")]
+[Token(Token = "0x20002A5")]
 [Flags]
 internal enum CloseExState
 {
-	[Token(Token = "0x4000B0F")]
+	[Token(Token = "0x4000A40")]
 	Normal = 0,
-	[Token(Token = "0x4000B10")]
+	[Token(Token = "0x4000A41")]
 	Abort = 1,
-	[Token(Token = "0x4000B11")]
+	[Token(Token = "0x4000A42")]
 	Silent = 2
 }

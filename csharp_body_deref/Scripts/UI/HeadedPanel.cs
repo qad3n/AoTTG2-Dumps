@@ -13,170 +13,170 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20006EB")]
+[Token(Token = "0x2000794")]
 internal class HeadedPanel : BasePanel
 {
-	[Token(Token = "0x40022D3")]
+	[Token(Token = "0x400264D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	protected Transform BottomBar;
 
-	[Token(Token = "0x40022D4")]
+	[Token(Token = "0x400264E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	protected Transform TopBar;
 
-	[Token(Token = "0x40022D5")]
+	[Token(Token = "0x400264F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	protected Dictionary<string, Button> _topButtons;
 
-	[Token(Token = "0x17000C04")]
+	[Token(Token = "0x17000C88")]
 	protected virtual string Title
 	{
-		[Token(Token = "0x600440C")]
-		[Address(RVA = "0x21C3390", Offset = "0x21C1990", VA = "0x1821C3390", Slot = "35")]
+		[Token(Token = "0x6004931")]
+		[Address(RVA = "0x5BBDFF0", Offset = "0x5BBCFF0", VA = "0x5BBDFF0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C05")]
+	[Token(Token = "0x17000C89")]
 	protected virtual float TopBarHeight
 	{
-		[Token(Token = "0x600440D")]
-		[Address(RVA = "0x21C3380", Offset = "0x21C1980", VA = "0x1821C3380", Slot = "36")]
+		[Token(Token = "0x6004932")]
+		[Address(RVA = "0x5BBE020", Offset = "0x5BBD020", VA = "0x5BBE020", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C06")]
+	[Token(Token = "0x17000C8A")]
 	protected virtual float BottomBarHeight
 	{
-		[Token(Token = "0x600440E")]
-		[Address(RVA = "0x21C3380", Offset = "0x21C1980", VA = "0x1821C3380", Slot = "37")]
+		[Token(Token = "0x6004933")]
+		[Address(RVA = "0x5BBE030", Offset = "0x5BBD030", VA = "0x5BBE030", Slot = "37")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C07")]
+	[Token(Token = "0x17000C8B")]
 	protected virtual float BottomBarSpacing
 	{
-		[Token(Token = "0x600440F")]
-		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "38")]
+		[Token(Token = "0x6004934")]
+		[Address(RVA = "0x5BBE040", Offset = "0x5BBD040", VA = "0x5BBE040", Slot = "38")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C08")]
+	[Token(Token = "0x17000C8C")]
 	protected virtual int BottomBarPadding
 	{
-		[Token(Token = "0x6004410")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "39")]
+		[Token(Token = "0x6004935")]
+		[Address(RVA = "0x5BBE050", Offset = "0x5BBD050", VA = "0x5BBE050", Slot = "39")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C09")]
+	[Token(Token = "0x17000C8D")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004411")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
+		[Token(Token = "0x6004936")]
+		[Address(RVA = "0x5BBE060", Offset = "0x5BBD060", VA = "0x5BBE060", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C0A")]
+	[Token(Token = "0x17000C8E")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004412")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "10")]
+		[Token(Token = "0x6004937")]
+		[Address(RVA = "0x5BBE070", Offset = "0x5BBD070", VA = "0x5BBE070", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C0B")]
+	[Token(Token = "0x17000C8F")]
 	protected virtual int TitleFontSize
 	{
-		[Token(Token = "0x6004413")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "40")]
+		[Token(Token = "0x6004938")]
+		[Address(RVA = "0x5BBE080", Offset = "0x5BBD080", VA = "0x5BBE080", Slot = "40")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C0C")]
+	[Token(Token = "0x17000C90")]
 	protected virtual int ButtonFontSize
 	{
-		[Token(Token = "0x6004414")]
-		[Address(RVA = "0x846FB0", Offset = "0x8455B0", VA = "0x180846FB0", Slot = "41")]
+		[Token(Token = "0x6004939")]
+		[Address(RVA = "0x5BBE090", Offset = "0x5BBD090", VA = "0x5BBE090", Slot = "41")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C0D")]
+	[Token(Token = "0x17000C91")]
 	protected virtual bool CategoryButtons
 	{
-		[Token(Token = "0x6004415")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "42")]
+		[Token(Token = "0x600493A")]
+		[Address(RVA = "0x5BBE0A0", Offset = "0x5BBD0A0", VA = "0x5BBE0A0", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004416")]
-	[Address(RVA = "0x21C2B50", Offset = "0x21C1150", VA = "0x1821C2B50", Slot = "20")]
+	[Token(Token = "0x600493B")]
+	[Address(RVA = "0x5BBE0B0", Offset = "0x5BBD0B0", VA = "0x5BBE0B0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004417")]
-	[Address(RVA = "0x21C2640", Offset = "0x21C0C40", VA = "0x1821C2640", Slot = "28")]
+	[Token(Token = "0x600493C")]
+	[Address(RVA = "0x5BBE7F0", Offset = "0x5BBD7F0", VA = "0x5BBE7F0", Slot = "28")]
 	public override void SetCategoryPanel(string name)
 	{
 	}
 
-	[Token(Token = "0x6004418")]
-	[Address(RVA = "0x21C2710", Offset = "0x21C0D10", VA = "0x1821C2710", Slot = "43")]
+	[Token(Token = "0x600493D")]
+	[Address(RVA = "0x5BBE820", Offset = "0x5BBD820", VA = "0x5BBE820", Slot = "43")]
 	protected virtual void SetTopButton(string name)
 	{
 	}
 
-	[Token(Token = "0x6004419")]
-	[Address(RVA = "0x21C2680", Offset = "0x21C0C80", VA = "0x1821C2680")]
+	[Token(Token = "0x600493E")]
+	[Address(RVA = "0x5BBCA90", Offset = "0x5BBBA90", VA = "0x5BBCA90")]
 	protected void SetTitle(string title)
 	{
 	}
 
-	[Token(Token = "0x600441A")]
-	[Address(RVA = "0x21C28E0", Offset = "0x21C0EE0", VA = "0x1821C28E0", Slot = "44")]
+	[Token(Token = "0x600493F")]
+	[Address(RVA = "0x5BBEA00", Offset = "0x5BBDA00", VA = "0x5BBEA00", Slot = "44")]
 	protected virtual void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x600441B")]
-	[Address(RVA = "0x21C2530", Offset = "0x21C0B30", VA = "0x1821C2530", Slot = "31")]
+	[Token(Token = "0x6004940")]
+	[Address(RVA = "0x5BBECA0", Offset = "0x5BBDCA0", VA = "0x5BBECA0", Slot = "31")]
 	public override float GetPanelHeight()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600441C")]
-	[Address(RVA = "0x21C3300", Offset = "0x21C1900", VA = "0x1821C3300")]
+	[Token(Token = "0x6004941")]
+	[Address(RVA = "0x5BB76E0", Offset = "0x5BB66E0", VA = "0x5BB76E0")]
 	public HeadedPanel()
 	{
 	}

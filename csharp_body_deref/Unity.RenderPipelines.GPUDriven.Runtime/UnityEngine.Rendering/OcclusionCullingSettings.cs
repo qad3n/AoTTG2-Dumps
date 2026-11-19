@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.OcclusionCullingSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public struct OcclusionCullingSettings
 	public int instanceMultiplier;
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x2BCEAF0", Offset = "0x2BCD0F0", VA = "0x182BCEAF0")]
+	[Address(RVA = "0x65C1E00", Offset = "0x65C0E00", VA = "0x65C1E00")]
 	public OcclusionCullingSettings(int viewInstanceID, OcclusionTest occlusionTest)
 	{
 	}

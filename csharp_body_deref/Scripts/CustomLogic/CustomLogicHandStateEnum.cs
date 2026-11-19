@@ -11,154 +11,154 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004B9")]
+[Token(Token = "0x2000518")]
 [CompilerGenerated]
 internal class CustomLogicHandStateEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20004BA")]
+	[Token(Token = "0x2000519")]
 	public static class Factory
 	{
-		[Token(Token = "0x60026AD")]
-		[Address(RVA = "0x1FCE130", Offset = "0x1FCC730", VA = "0x181FCE130")]
+		[Token(Token = "0x6002927")]
+		[Address(RVA = "0x5965A00", Offset = "0x5964A00", VA = "0x5965A00")]
 		public static CustomLogicHandStateEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20004BB")]
+	[Token(Token = "0x200051A")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001631")]
+		[Token(Token = "0x40017D1")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60026AE")]
-		[Address(RVA = "0x1FA8950", Offset = "0x1FA6F50", VA = "0x181FA8950")]
+		[Token(Token = "0x6002928")]
+		[Address(RVA = "0x5965B20", Offset = "0x5964B20", VA = "0x5965B20")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60026AF")]
-		[Address(RVA = "0x1FBE2B0", Offset = "0x1FBC8B0", VA = "0x181FBE2B0")]
+		[Token(Token = "0x6002929")]
+		[Address(RVA = "0x5965D00", Offset = "0x5964D00", VA = "0x5965D00")]
 		public static CLPropertyBinding<CustomLogicHandStateEnum> __CreatePropertyBinding__Healthy()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60026B0")]
-		[Address(RVA = "0x1FBC910", Offset = "0x1FBAF10", VA = "0x181FBC910")]
+		[Token(Token = "0x600292A")]
+		[Address(RVA = "0x5965DA0", Offset = "0x5964DA0", VA = "0x5965DA0")]
 		public static CLPropertyBinding<CustomLogicHandStateEnum> __CreatePropertyBinding__Damaged()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60026B1")]
-		[Address(RVA = "0x1FC1B90", Offset = "0x1FC0190", VA = "0x181FC1B90")]
+		[Token(Token = "0x600292B")]
+		[Address(RVA = "0x5965E40", Offset = "0x5964E40", VA = "0x5965E40")]
 		public static CLPropertyBinding<CustomLogicHandStateEnum> __CreatePropertyBinding__Severed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60026B2")]
-		[Address(RVA = "0x1FC1050", Offset = "0x1FBF650", VA = "0x181FC1050")]
+		[Token(Token = "0x600292C")]
+		[Address(RVA = "0x5965EE0", Offset = "0x5964EE0", VA = "0x5965EE0")]
 		public static CLPropertyBinding<CustomLogicHandStateEnum> __CreatePropertyBinding__Recovering()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000578")]
+	[Token(Token = "0x170005BA")]
 	public static int Healthy
 	{
-		[Token(Token = "0x60026A5")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x600291F")]
+		[Address(RVA = "0x5965960", Offset = "0x5964960", VA = "0x5965960")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000579")]
+	[Token(Token = "0x170005BB")]
 	public static int Damaged
 	{
-		[Token(Token = "0x60026A6")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6002920")]
+		[Address(RVA = "0x5965970", Offset = "0x5964970", VA = "0x5965970")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700057A")]
+	[Token(Token = "0x170005BC")]
 	public static int Severed
 	{
-		[Token(Token = "0x60026A7")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
+		[Token(Token = "0x6002921")]
+		[Address(RVA = "0x5965980", Offset = "0x5964980", VA = "0x5965980")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700057B")]
+	[Token(Token = "0x170005BD")]
 	public static int Recovering
 	{
-		[Token(Token = "0x60026A8")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0")]
+		[Token(Token = "0x6002922")]
+		[Address(RVA = "0x5965990", Offset = "0x5964990", VA = "0x5965990")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700057C")]
+	[Token(Token = "0x170005BE")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60026A9")]
-		[Address(RVA = "0x1FC6440", Offset = "0x1FC4A40", VA = "0x181FC6440", Slot = "6")]
+		[Token(Token = "0x6002923")]
+		[Address(RVA = "0x59659A0", Offset = "0x59649A0", VA = "0x59659A0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700057D")]
+	[Token(Token = "0x170005BF")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60026AA")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002924")]
+		[Address(RVA = "0x59659D0", Offset = "0x59649D0", VA = "0x59659D0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700057E")]
+	[Token(Token = "0x170005C0")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60026AB")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6002925")]
+		[Address(RVA = "0x59659E0", Offset = "0x59649E0", VA = "0x59659E0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700057F")]
+	[Token(Token = "0x170005C1")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60026AC")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002926")]
+		[Address(RVA = "0x59659F0", Offset = "0x59649F0", VA = "0x59659F0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60026A4")]
-	[Address(RVA = "0x1FC63F0", Offset = "0x1FC49F0", VA = "0x181FC63F0")]
+	[Token(Token = "0x600291E")]
+	[Address(RVA = "0x59658F0", Offset = "0x59648F0", VA = "0x59658F0")]
 	public CustomLogicHandStateEnum()
 	{
 	}

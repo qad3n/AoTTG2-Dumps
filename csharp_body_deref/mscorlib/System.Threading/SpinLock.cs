@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Threading.SpinLock
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,30 +12,30 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200021C")]
-[ComVisible(false)]
+[Token(Token = "0x20001F4")]
 [DebuggerTypeProxy(typeof(SystemThreading_SpinLockDebugView))]
+[ComVisible(false)]
 [DebuggerDisplay("IsHeld = {IsHeld}")]
 public struct SpinLock
 {
-	[Token(Token = "0x200021D")]
+	[Token(Token = "0x20001F5")]
 	internal class SystemThreading_SpinLockDebugView
 	{
 	}
 
-	[Token(Token = "0x40009EE")]
+	[Token(Token = "0x400094C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private int m_owner;
 
-	[Token(Token = "0x40009EF")]
+	[Token(Token = "0x400094D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static int MAXIMUM_WAITERS;
 
-	[Token(Token = "0x170001B1")]
+	[Token(Token = "0x170001B0")]
 	public bool IsHeldByCurrentThread
 	{
-		[Token(Token = "0x6001271")]
-		[Address(RVA = "0x1BA5740", Offset = "0x1BA3D40", VA = "0x181BA5740")]
+		[Token(Token = "0x6001248")]
+		[Address(RVA = "0x5534660", Offset = "0x5533660", VA = "0x5534660")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -43,11 +43,11 @@ public struct SpinLock
 		}
 	}
 
-	[Token(Token = "0x170001B2")]
+	[Token(Token = "0x170001B1")]
 	public bool IsThreadOwnerTrackingEnabled
 	{
-		[Token(Token = "0x6001272")]
-		[Address(RVA = "0x1BA5820", Offset = "0x1BA3E20", VA = "0x181BA5820")]
+		[Token(Token = "0x6001249")]
+		[Address(RVA = "0x5533F70", Offset = "0x5532F70", VA = "0x5533F70")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -55,58 +55,58 @@ public struct SpinLock
 		}
 	}
 
-	[Token(Token = "0x6001268")]
-	[Address(RVA = "0x1BA5700", Offset = "0x1BA3D00", VA = "0x181BA5700")]
+	[Token(Token = "0x600123F")]
+	[Address(RVA = "0x5533720", Offset = "0x5532720", VA = "0x5533720")]
 	public SpinLock(bool enableThreadOwnerTracking)
 	{
 	}
 
-	[Token(Token = "0x6001269")]
-	[Address(RVA = "0x1BA5300", Offset = "0x1BA3900", VA = "0x181BA5300")]
+	[Token(Token = "0x6001240")]
+	[Address(RVA = "0x5533750", Offset = "0x5532750", VA = "0x5533750")]
 	public void Enter(ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x600126A")]
-	[Address(RVA = "0x1BA5610", Offset = "0x1BA3C10", VA = "0x181BA5610")]
+	[Token(Token = "0x6001241")]
+	[Address(RVA = "0x5533E10", Offset = "0x5532E10", VA = "0x5533E10")]
 	public void TryEnter(int millisecondsTimeout, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x600126B")]
-	[Address(RVA = "0x1BA4D90", Offset = "0x1BA3390", VA = "0x181BA4D90")]
+	[Token(Token = "0x6001242")]
+	[Address(RVA = "0x5533890", Offset = "0x5532890", VA = "0x5533890")]
 	private void ContinueTryEnter(int millisecondsTimeout, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x600126C")]
-	[Address(RVA = "0x1BA5220", Offset = "0x1BA3820", VA = "0x181BA5220")]
+	[Token(Token = "0x6001243")]
+	[Address(RVA = "0x5534240", Offset = "0x5533240", VA = "0x5534240")]
 	private void DecrementWaiters()
 	{
 	}
 
-	[Token(Token = "0x600126D")]
-	[Address(RVA = "0x1BA4B60", Offset = "0x1BA3160", VA = "0x181BA4B60")]
+	[Token(Token = "0x6001244")]
+	[Address(RVA = "0x5533F80", Offset = "0x5532F80", VA = "0x5533F80")]
 	private void ContinueTryEnterWithThreadTracking(int millisecondsTimeout, uint startTime, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x600126E")]
-	[Address(RVA = "0x1BA5580", Offset = "0x1BA3B80", VA = "0x181BA5580")]
+	[Token(Token = "0x6001245")]
+	[Address(RVA = "0x5534460", Offset = "0x5533460", VA = "0x5534460")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public void Exit()
 	{
 	}
 
-	[Token(Token = "0x600126F")]
-	[Address(RVA = "0x1BA54F0", Offset = "0x1BA3AF0", VA = "0x181BA54F0")]
+	[Token(Token = "0x6001246")]
+	[Address(RVA = "0x55345E0", Offset = "0x55335E0", VA = "0x55345E0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public void Exit(bool useMemoryBarrier)
 	{
 	}
 
-	[Token(Token = "0x6001270")]
-	[Address(RVA = "0x1BA53B0", Offset = "0x1BA39B0", VA = "0x181BA53B0")]
+	[Token(Token = "0x6001247")]
+	[Address(RVA = "0x55344E0", Offset = "0x55334E0", VA = "0x55344E0")]
 	private void ExitSlowPath(bool useMemoryBarrier)
 	{
 	}

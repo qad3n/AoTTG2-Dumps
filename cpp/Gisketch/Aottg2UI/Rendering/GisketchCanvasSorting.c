@@ -1,153 +1,100 @@
 // Type: Gisketch.Aottg2UI.Rendering.GisketchCanvasSorting
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Rendering/GisketchCanvasSorting.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Rendering.GisketchCanvasSorting$$AboveParent
 // il2cpp: int32_t Gisketch_Aottg2UI_Rendering_GisketchCanvasSorting__AboveParent (UnityEngine_Canvas_o* canvas, int32_t localOrder, const MethodInfo* method);
-// 0x1818a4280
+// 0x5354040
 
 int32_t Gisketch_Aottg2UI_Rendering_GisketchCanvasSorting__AboveParent
                   (UnityEngine_Canvas_o *canvas,int32_t localOrder,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  bool bVar1;
-  int32_t iVar2;
-  System_Object_array *pSVar3;
-  uint uVar4;
+  int32_t iVar1;
+  undefined4 in_register_00000034;
   
-  if (Il2CppMethodInitialized_184341fbf == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponentsInParent_Canvas)
-    ;
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184341fbf = '\x01';
-  }
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)canvas,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
-    if (canvas != (UnityEngine_Canvas_o *)0x0) {
-      pSVar3 = UnityEngine_Component__GetComponentsInParent_object_
-                         ((UnityEngine_Component_o *)canvas,true,
-                          (MethodInfo_6655F0 *)MethodInfo_UnityEngine_Component_GetComponentsInParent_Canvas);
-      if (pSVar3 != (System_Object_array *)0x0) {
-        for (uVar4 = 0; (int)uVar4 < (int)pSVar3->max_length; uVar4 = uVar4 + 1) {
-          if ((uint)pSVar3->max_length <= uVar4) goto label_1818a43c9;
-          x = (UnityEngine_Object_o *)pSVar3->m_Items[(int)uVar4];
-          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-          }
-          bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if (bVar1) {
-            if ((uint)pSVar3->max_length <= uVar4) {
-label_1818a43c9:
-              ThrowIndexOutOfRangeException();
-            }
-            if ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4] == (UnityEngine_Canvas_o *)0x0)
-            goto label_1818a43cf;
-            bVar1 = UnityEngine_Canvas__get_overrideSorting
-                              ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4],(MethodInfo *)0x0);
-            if (bVar1) {
-              if ((uint)pSVar3->max_length <= uVar4) goto label_1818a43c9;
-              if ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4] == (UnityEngine_Canvas_o *)0x0)
-              goto label_1818a43cf;
-              iVar2 = UnityEngine_Canvas__get_sortingOrder
-                                ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4],(MethodInfo *)0x0);
-              goto label_1818a43aa;
-            }
-          }
-        }
-        iVar2 = UnityEngine_Canvas__get_sortingOrder(canvas,(MethodInfo *)0x0);
-        goto label_1818a43aa;
-      }
-    }
-label_1818a43cf:
-    ThrowNullReferenceException();
-  }
-  iVar2 = 0;
-label_1818a43aa:
-  return iVar2 + localOrder;
+  iVar1 = Gisketch_Aottg2UI_Rendering_GisketchCanvasSorting__EffectiveSortingOrder
+                    (canvas,(MethodInfo *)CONCAT44(in_register_00000034,localOrder));
+  return iVar1 + localOrder;
 }
 
 
 // Gisketch.Aottg2UI.Rendering.GisketchCanvasSorting$$EffectiveSortingOrder
 // il2cpp: int32_t Gisketch_Aottg2UI_Rendering_GisketchCanvasSorting__EffectiveSortingOrder (UnityEngine_Canvas_o* canvas, const MethodInfo* method);
-// 0x1818a43e0
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1818a44e9: xor edx, edx
-// asm:   0x1818a4504: xor edx, edx
-// asm:   0x1818a4506: mov rcx, rbp
-// asm:   0x1818a4509: jmp 0x1818a44eb
+// 0x5354050
 
 int32_t Gisketch_Aottg2UI_Rendering_GisketchCanvasSorting__EffectiveSortingOrder
                   (UnityEngine_Canvas_o *canvas,MethodInfo *method)
 
 {
+  uint uVar1;
   UnityEngine_Object_o *x;
-  bool bVar1;
-  int32_t iVar2;
-  System_Object_array *pSVar3;
-  uint uVar4;
+  bool bVar2;
+  int32_t iVar3;
+  System_Object_array *pSVar4;
+  ulong uVar5;
+  ulong uVar6;
   
-  if (Il2CppMethodInitialized_184341fbf == '\0') {
+  if (Il2CppMethodInitialized_0754293b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponentsInParent_Canvas)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184341fbf = '\x01';
+    Il2CppMethodInitialized_0754293b = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Equality
+  bVar2 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)canvas,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
+  if (bVar2) {
     return 0;
   }
-  if ((canvas == (UnityEngine_Canvas_o *)0x0) ||
-     (pSVar3 = UnityEngine_Component__GetComponentsInParent_object_
-                         ((UnityEngine_Component_o *)canvas,true,
-                          (MethodInfo_6655F0 *)MethodInfo_UnityEngine_Component_GetComponentsInParent_Canvas),
-     pSVar3 == (System_Object_array *)0x0)) {
-label_1818a4519:
-    ThrowNullReferenceException();
+  if (canvas != (UnityEngine_Canvas_o *)0x0) {
+    pSVar4 = UnityEngine_Component__GetComponentsInParent_object_
+                       ((UnityEngine_Component_o *)canvas,true,
+                        (MethodInfo_34B1530 *)MethodInfo_UnityEngine_Component_GetComponentsInParent_Canvas);
+    if (pSVar4 != (System_Object_array *)0x0) {
+      if (0 < (int)pSVar4->max_length) {
+        uVar5 = pSVar4->max_length & 0xffffffff;
+        uVar6 = 0;
+        do {
+          if (uVar5 <= uVar6) goto label_0535417e;
+          x = (UnityEngine_Object_o *)pSVar4->m_Items[uVar6];
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (bVar2) {
+            if ((uint)pSVar4->max_length <= uVar6) {
+label_0535417e:
+              ThrowIndexOutOfRangeException();
+            }
+            if ((UnityEngine_Canvas_o *)pSVar4->m_Items[uVar6] == (UnityEngine_Canvas_o *)0x0)
+            goto label_05354183;
+            bVar2 = UnityEngine_Canvas__get_overrideSorting
+                              ((UnityEngine_Canvas_o *)pSVar4->m_Items[uVar6],(MethodInfo *)0x0);
+            if (bVar2) {
+              if ((uint)pSVar4->max_length <= (uint)uVar6) goto label_0535417e;
+              canvas = (UnityEngine_Canvas_o *)pSVar4->m_Items[uVar6];
+              if (canvas == (UnityEngine_Canvas_o *)0x0) goto label_05354183;
+              break;
+            }
+          }
+          uVar6 = uVar6 + 1;
+          uVar1 = (uint)pSVar4->max_length;
+          uVar5 = (ulong)uVar1;
+        } while ((long)uVar6 < (long)(int)uVar1);
+      }
+      iVar3 = UnityEngine_Canvas__get_sortingOrder(canvas,(MethodInfo *)0x0);
+      return iVar3;
+    }
   }
-  uVar4 = 0;
-  do {
-    if ((int)pSVar3->max_length <= (int)uVar4) {
-label_1818a44eb:
-      iVar2 = UnityEngine_Canvas__get_sortingOrder(canvas,(MethodInfo *)0x0);
-      return iVar2;
-    }
-    if ((uint)pSVar3->max_length <= uVar4) goto label_1818a4513;
-    x = (UnityEngine_Object_o *)pSVar3->m_Items[(int)uVar4];
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      if ((uint)pSVar3->max_length <= uVar4) {
-label_1818a4513:
-        ThrowIndexOutOfRangeException();
-      }
-      if ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4] == (UnityEngine_Canvas_o *)0x0)
-      goto label_1818a4519;
-      bVar1 = UnityEngine_Canvas__get_overrideSorting
-                        ((UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4],(MethodInfo *)0x0);
-      if (bVar1) {
-        if ((uint)pSVar3->max_length <= uVar4) goto label_1818a4513;
-        canvas = (UnityEngine_Canvas_o *)pSVar3->m_Items[(int)uVar4];
-        if (canvas == (UnityEngine_Canvas_o *)0x0) goto label_1818a4519;
-        goto label_1818a44eb;
-      }
-    }
-    uVar4 = uVar4 + 1;
-  } while( true );
+label_05354183:
+  ThrowNullReferenceException();
 }
 
 

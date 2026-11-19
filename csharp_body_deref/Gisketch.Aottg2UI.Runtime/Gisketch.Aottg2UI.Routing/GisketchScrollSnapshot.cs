@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Routing.GisketchScrollSnapshot
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Routing/GisketchScrollSnapshot.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,100 +17,100 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Routing;
 
-[Token(Token = "0x2000042")]
+[Token(Token = "0x2000049")]
 internal sealed class GisketchScrollSnapshot
 {
-	[Token(Token = "0x2000043")]
+	[Token(Token = "0x200004A")]
 	private struct Entry
 	{
-		[Token(Token = "0x400014E")]
+		[Token(Token = "0x4000171")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private ScrollRect _scroll;
 
-		[Token(Token = "0x400014F")]
+		[Token(Token = "0x4000172")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		private string _path;
 
-		[Token(Token = "0x4000150")]
+		[Token(Token = "0x4000173")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private string _name;
 
-		[Token(Token = "0x4000151")]
+		[Token(Token = "0x4000174")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private float _horizontalOffset;
 
-		[Token(Token = "0x4000152")]
+		[Token(Token = "0x4000175")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 		private float _verticalOffset;
 
-		[Token(Token = "0x4000153")]
+		[Token(Token = "0x4000176")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private float _horizontalNormalized;
 
-		[Token(Token = "0x4000154")]
+		[Token(Token = "0x4000177")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 		private float _verticalNormalized;
 
-		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x18A38A0", Offset = "0x18A1EA0", VA = "0x1818A38A0")]
+		[Token(Token = "0x600029A")]
+		[Address(RVA = "0x5252A80", Offset = "0x5251A80", VA = "0x5252A80")]
 		public static Entry Capture(ScrollRect scroll, Transform root)
 		{
 			return default(Entry);
 		}
 
-		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x18A4060", Offset = "0x18A2660", VA = "0x1818A4060")]
+		[Token(Token = "0x600029B")]
+		[Address(RVA = "0x5252F10", Offset = "0x5251F10", VA = "0x5252F10")]
 		public void Restore(GameObject root)
 		{
 		}
 
-		[Token(Token = "0x6000251")]
-		[Address(RVA = "0x18A3BC0", Offset = "0x18A21C0", VA = "0x1818A3BC0")]
+		[Token(Token = "0x600029C")]
+		[Address(RVA = "0x5253130", Offset = "0x5252130", VA = "0x5253130")]
 		public GameObject LiveRoot()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x18A3FA0", Offset = "0x18A25A0", VA = "0x1818A3FA0")]
+		[Token(Token = "0x600029D")]
+		[Address(RVA = "0x5253C50", Offset = "0x5252C50", VA = "0x5253C50")]
 		private ScrollRect Resolve(GameObject root)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000253")]
-		[Address(RVA = "0x18A3C40", Offset = "0x18A2240", VA = "0x1818A3C40")]
+		[Token(Token = "0x600029E")]
+		[Address(RVA = "0x5253CF0", Offset = "0x5252CF0", VA = "0x5253CF0")]
 		private ScrollRect ResolveFromRoot(GameObject root)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000044")]
+	[Token(Token = "0x200004B")]
 	[CompilerGenerated]
 	private sealed class _003CRestoreNextFrame_003Ed__10 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000155")]
+		[Token(Token = "0x4000178")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000156")]
+		[Token(Token = "0x4000179")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000157")]
+		[Token(Token = "0x400017A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public GisketchScrollSnapshot _003C_003E4__this;
 
-		[Token(Token = "0x4000158")]
+		[Token(Token = "0x400017B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public GameObject root;
 
 		[Token(Token = "0x17000043")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000257")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60002A2")]
+			[Address(RVA = "0x5253FE0", Offset = "0x5252FE0", VA = "0x5253FE0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -121,8 +121,8 @@ internal sealed class GisketchScrollSnapshot
 		[Token(Token = "0x17000044")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000259")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60002A4")]
+			[Address(RVA = "0x5254030", Offset = "0x5253030", VA = "0x5254030", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -130,142 +130,142 @@ internal sealed class GisketchScrollSnapshot
 			}
 		}
 
-		[Token(Token = "0x6000254")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x600029F")]
+		[Address(RVA = "0x5253110", Offset = "0x5252110", VA = "0x5253110")]
 		[DebuggerHidden]
 		public _003CRestoreNextFrame_003Ed__10(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000255")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60002A0")]
+		[Address(RVA = "0x5253F60", Offset = "0x5252F60", VA = "0x5253F60", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000256")]
-		[Address(RVA = "0x18BFBA0", Offset = "0x18BE1A0", VA = "0x1818BFBA0", Slot = "6")]
+		[Token(Token = "0x60002A1")]
+		[Address(RVA = "0x5253F70", Offset = "0x5252F70", VA = "0x5253F70", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000258")]
-		[Address(RVA = "0x18BFC20", Offset = "0x18BE220", VA = "0x1818BFC20", Slot = "8")]
+		[Token(Token = "0x60002A3")]
+		[Address(RVA = "0x5253FF0", Offset = "0x5252FF0", VA = "0x5253FF0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400014B")]
+	[Token(Token = "0x400016E")]
 	private const float RangeEpsilon = 0.01f;
 
-	[Token(Token = "0x400014C")]
+	[Token(Token = "0x400016F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly Entry[] EmptyEntries;
 
-	[Token(Token = "0x400014D")]
+	[Token(Token = "0x4000170")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly Entry[] _entries;
 
 	[Token(Token = "0x17000042")]
 	public bool HasEntries
 	{
-		[Token(Token = "0x6000241")]
-		[Address(RVA = "0x18AE650", Offset = "0x18ACC50", VA = "0x1818AE650")]
+		[Token(Token = "0x600028C")]
+		[Address(RVA = "0x5252840", Offset = "0x5251840", VA = "0x5252840")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x18AE5C0", Offset = "0x18ACBC0", VA = "0x1818AE5C0")]
+	[Token(Token = "0x600028B")]
+	[Address(RVA = "0x52527C0", Offset = "0x52517C0", VA = "0x52527C0")]
 	private GisketchScrollSnapshot(Entry[] entries)
 	{
 	}
 
-	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x18AD8F0", Offset = "0x18ABEF0", VA = "0x1818AD8F0")]
+	[Token(Token = "0x600028D")]
+	[Address(RVA = "0x524F080", Offset = "0x524E080", VA = "0x524F080")]
 	public static GisketchScrollSnapshot Empty()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x18AD6D0", Offset = "0x18ABCD0", VA = "0x1818AD6D0")]
+	[Token(Token = "0x600028E")]
+	[Address(RVA = "0x5252860", Offset = "0x5251860", VA = "0x5252860")]
 	public static GisketchScrollSnapshot CaptureNearest(GameObject source, GameObject root)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x18AD3E0", Offset = "0x18AB9E0", VA = "0x1818AD3E0")]
+	[Token(Token = "0x600028F")]
+	[Address(RVA = "0x524F140", Offset = "0x524E140", VA = "0x524F140")]
 	public static GisketchScrollSnapshot CaptureAll(GameObject root)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x18AE390", Offset = "0x18AC990", VA = "0x1818AE390")]
+	[Token(Token = "0x6000290")]
+	[Address(RVA = "0x524F740", Offset = "0x524E740", VA = "0x524F740")]
 	public void Restore([Optional] GameObject root)
 	{
 	}
 
-	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x18AE300", Offset = "0x18AC900", VA = "0x1818AE300")]
+	[Token(Token = "0x6000291")]
+	[Address(RVA = "0x524F850", Offset = "0x524E850", VA = "0x524F850")]
 	[IteratorStateMachine(typeof(_003CRestoreNextFrame_003Ed__10))]
 	public IEnumerator RestoreNextFrame([Optional] GameObject root)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x18ADD50", Offset = "0x18AC350", VA = "0x1818ADD50")]
+	[Token(Token = "0x6000292")]
+	[Address(RVA = "0x5252DF0", Offset = "0x5251DF0", VA = "0x5252DF0")]
 	private GameObject FirstLiveScrollRoot()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x18ADE30", Offset = "0x18AC430", VA = "0x1818ADE30")]
+	[Token(Token = "0x6000293")]
+	[Address(RVA = "0x52531B0", Offset = "0x52521B0", VA = "0x52531B0")]
 	private static float MaxHorizontal(ScrollRect scroll)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x18AE030", Offset = "0x18AC630", VA = "0x1818AE030")]
+	[Token(Token = "0x6000294")]
+	[Address(RVA = "0x52533E0", Offset = "0x52523E0", VA = "0x52533E0")]
 	private static float MaxVertical(ScrollRect scroll)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x18ADE80", Offset = "0x18AC480", VA = "0x1818ADE80")]
+	[Token(Token = "0x6000295")]
+	[Address(RVA = "0x5253220", Offset = "0x5252220", VA = "0x5253220")]
 	private static float MaxScroll(ScrollRect scroll, bool horizontal)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x18AE080", Offset = "0x18AC680", VA = "0x1818AE080")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x5253450", Offset = "0x5252450", VA = "0x5253450")]
 	private static string PathFromRoot(Transform root, Transform target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x18AD9C0", Offset = "0x18ABFC0", VA = "0x1818AD9C0")]
+	[Token(Token = "0x6000297")]
+	[Address(RVA = "0x5253710", Offset = "0x5252710", VA = "0x5253710")]
 	private static Transform FindByPath(Transform root, string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x18ADB00", Offset = "0x18AC100", VA = "0x1818ADB00")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x5253860", Offset = "0x5252860", VA = "0x5253860")]
 	private static Transform FindDirectChild(Transform root, string name)
 	{
 		return null;

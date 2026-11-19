@@ -30,13 +30,13 @@ public class XmlSchemaComplexContent : XmlSchemaContentModel
 	public bool IsMixed
 	{
 		[Token(Token = "0x600159B")]
-		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
+		[Address(RVA = "0x6028880", Offset = "0x6027880", VA = "0x6028880")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600159C")]
-		[Address(RVA = "0x26676D0", Offset = "0x2665CD0", VA = "0x1826676D0")]
+		[Address(RVA = "0x6028890", Offset = "0x6027890", VA = "0x6028890")]
 		set
 		{
 		}
@@ -48,13 +48,13 @@ public class XmlSchemaComplexContent : XmlSchemaContentModel
 	public override XmlSchemaContent Content
 	{
 		[Token(Token = "0x600159D")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "14")]
+		[Address(RVA = "0x60288A0", Offset = "0x60278A0", VA = "0x60288A0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600159E")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "15")]
+		[Address(RVA = "0x60288B0", Offset = "0x60278B0", VA = "0x60288B0", Slot = "15")]
 		set
 		{
 		}
@@ -65,7 +65,7 @@ public class XmlSchemaComplexContent : XmlSchemaContentModel
 	internal bool HasMixedAttribute
 	{
 		[Token(Token = "0x600159F")]
-		[Address(RVA = "0x1A21E30", Offset = "0x1A20430", VA = "0x181A21E30")]
+		[Address(RVA = "0x60288C0", Offset = "0x60278C0", VA = "0x60288C0")]
 		get
 		{
 			return default(bool);
@@ -73,7 +73,7 @@ public class XmlSchemaComplexContent : XmlSchemaContentModel
 	}
 
 	[Token(Token = "0x60015A0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x60288D0", Offset = "0x60278D0", VA = "0x60288D0")]
 	public XmlSchemaComplexContent()
 	{
 	}

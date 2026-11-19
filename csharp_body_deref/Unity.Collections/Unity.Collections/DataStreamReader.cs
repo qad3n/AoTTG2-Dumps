@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.DataStreamReader
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,7 +55,7 @@ public struct DataStreamReader
 	public static bool IsLittleEndian
 	{
 		[Token(Token = "0x6000173")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+		[Address(RVA = "0x6360770", Offset = "0x635F770", VA = "0x6360770")]
 		get
 		{
 			return default(bool);
@@ -66,7 +66,7 @@ public struct DataStreamReader
 	public readonly bool HasFailedReads
 	{
 		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x2999EC0", Offset = "0x29984C0", VA = "0x182999EC0")]
+		[Address(RVA = "0x63607B0", Offset = "0x635F7B0", VA = "0x63607B0")]
 		get
 		{
 			return default(bool);
@@ -77,7 +77,7 @@ public struct DataStreamReader
 	public readonly int Length
 	{
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x63607C0", Offset = "0x635F7C0", VA = "0x63607C0")]
 		get
 		{
 			return default(int);
@@ -88,7 +88,7 @@ public struct DataStreamReader
 	public readonly bool IsCreated
 	{
 		[Token(Token = "0x6000178")]
-		[Address(RVA = "0xA507A0", Offset = "0xA4EDA0", VA = "0x180A507A0")]
+		[Address(RVA = "0x63607D0", Offset = "0x635F7D0", VA = "0x63607D0")]
 		get
 		{
 			return default(bool);
@@ -96,384 +96,384 @@ public struct DataStreamReader
 	}
 
 	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x2999E50", Offset = "0x2998450", VA = "0x182999E50")]
+	[Address(RVA = "0x63606B0", Offset = "0x635F6B0", VA = "0x63606B0")]
 	public DataStreamReader(NativeArray<byte> array)
 	{
 	}
 
 	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x2998BD0", Offset = "0x29971D0", VA = "0x182998BD0")]
+	[Address(RVA = "0x6360710", Offset = "0x635F710", VA = "0x6360710")]
 	private static void Initialize(out DataStreamReader self, NativeArray<byte> array)
 	{
 	}
 
 	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x1ACCF30", Offset = "0x1ACB530", VA = "0x181ACCF30")]
+	[Address(RVA = "0x6360790", Offset = "0x635F790", VA = "0x6360790")]
 	private static short ByteSwap(short val)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000175")]
-	[Address(RVA = "0x1ACCF20", Offset = "0x1ACB520", VA = "0x181ACCF20")]
+	[Address(RVA = "0x63607A0", Offset = "0x635F7A0", VA = "0x63607A0")]
 	private static int ByteSwap(int val)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x2998CC0", Offset = "0x29972C0", VA = "0x182998CC0")]
+	[Address(RVA = "0x63607E0", Offset = "0x635F7E0", VA = "0x63607E0")]
 	private unsafe void ReadBytesInternal(byte* data, int length)
 	{
 	}
 
 	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x2998DB0", Offset = "0x29973B0", VA = "0x182998DB0")]
+	[Address(RVA = "0x6360880", Offset = "0x635F880", VA = "0x6360880")]
 	public void ReadBytes(NativeArray<byte> array)
 	{
 	}
 
 	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x2998D40", Offset = "0x2997340", VA = "0x182998D40")]
+	[Address(RVA = "0x6360920", Offset = "0x635F920", VA = "0x6360920")]
 	public void ReadBytes(Span<byte> span)
 	{
 	}
 
 	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x2998BC0", Offset = "0x29971C0", VA = "0x182998BC0")]
+	[Address(RVA = "0x6360850", Offset = "0x635F850", VA = "0x6360850")]
 	public int GetBytesRead()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600017D")]
-	[Address(RVA = "0x2998BB0", Offset = "0x29971B0", VA = "0x182998BB0")]
+	[Address(RVA = "0x63609E0", Offset = "0x635F9E0", VA = "0x63609E0")]
 	public int GetBitsRead()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x2999E30", Offset = "0x2998430", VA = "0x182999E30")]
+	[Address(RVA = "0x63609F0", Offset = "0x635F9F0", VA = "0x63609F0")]
 	public void SeekSet(int pos)
 	{
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x2998C40", Offset = "0x2997240", VA = "0x182998C40")]
+	[Address(RVA = "0x6360A10", Offset = "0x635FA10", VA = "0x6360A10")]
 	public byte ReadByte()
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x2999D90", Offset = "0x2998390", VA = "0x182999D90")]
+	[Address(RVA = "0x6360A90", Offset = "0x635FA90", VA = "0x6360A90")]
 	public short ReadShort()
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x2999D90", Offset = "0x2998390", VA = "0x182999D90")]
+	[Address(RVA = "0x6360B10", Offset = "0x635FB10", VA = "0x6360B10")]
 	public ushort ReadUShort()
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x2999280", Offset = "0x2997880", VA = "0x182999280")]
+	[Address(RVA = "0x6360B90", Offset = "0x635FB90", VA = "0x6360B90")]
 	public int ReadInt()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x2999280", Offset = "0x2997880", VA = "0x182999280")]
+	[Address(RVA = "0x6360C10", Offset = "0x635FC10", VA = "0x6360C10")]
 	public uint ReadUInt()
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x2999300", Offset = "0x2997900", VA = "0x182999300")]
+	[Address(RVA = "0x6360C90", Offset = "0x635FC90", VA = "0x6360C90")]
 	public long ReadLong()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x2999300", Offset = "0x2997900", VA = "0x182999300")]
+	[Address(RVA = "0x6360D10", Offset = "0x635FD10", VA = "0x6360D10")]
 	public ulong ReadULong()
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2998B90", Offset = "0x2997190", VA = "0x182998B90")]
+	[Address(RVA = "0x6360860", Offset = "0x635F860", VA = "0x6360860")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x2999D00", Offset = "0x2998300", VA = "0x182999D00")]
+	[Address(RVA = "0x6360D90", Offset = "0x635FD90", VA = "0x6360D90")]
 	public short ReadShortNetworkByteOrder()
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2999E20", Offset = "0x2998420", VA = "0x182999E20")]
+	[Address(RVA = "0x6360E10", Offset = "0x635FE10", VA = "0x6360E10")]
 	public ushort ReadUShortNetworkByteOrder()
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x2999200", Offset = "0x2997800", VA = "0x182999200")]
+	[Address(RVA = "0x6360E90", Offset = "0x635FE90", VA = "0x6360E90")]
 	public int ReadIntNetworkByteOrder()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x2999E10", Offset = "0x2998410", VA = "0x182999E10")]
+	[Address(RVA = "0x6360F10", Offset = "0x635FF10", VA = "0x6360F10")]
 	public uint ReadUIntNetworkByteOrder()
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x29991E0", Offset = "0x29977E0", VA = "0x1829991E0")]
+	[Address(RVA = "0x6360F90", Offset = "0x635FF90", VA = "0x6360F90")]
 	public float ReadFloat()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600018C")]
-	[Address(RVA = "0x2998E20", Offset = "0x2997420", VA = "0x182998E20")]
+	[Address(RVA = "0x6361010", Offset = "0x6360010", VA = "0x6361010")]
 	public double ReadDouble()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x2999BD0", Offset = "0x29981D0", VA = "0x182999BD0")]
+	[Address(RVA = "0x6361090", Offset = "0x6360090", VA = "0x6361090")]
 	public uint ReadPackedUInt(in StreamCompressionModel model)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x2999B00", Offset = "0x2998100", VA = "0x182999B00")]
+	[Address(RVA = "0x6361150", Offset = "0x6360150", VA = "0x6361150")]
 	private uint ReadPackedUIntInternal(int maxSymbolLength, in StreamCompressionModel model)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x2998B50", Offset = "0x2997150", VA = "0x182998B50")]
+	[Address(RVA = "0x6361220", Offset = "0x6360220", VA = "0x6361220")]
 	private void FillBitBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x2999C40", Offset = "0x2998240", VA = "0x182999C40")]
+	[Address(RVA = "0x6361260", Offset = "0x6360260", VA = "0x6361260")]
 	private uint ReadRawBitsInternal(int numbits)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x2999C80", Offset = "0x2998280", VA = "0x182999C80")]
+	[Address(RVA = "0x6361290", Offset = "0x6360290", VA = "0x6361290")]
 	public uint ReadRawBits(int numbits)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x2999BE0", Offset = "0x29981E0", VA = "0x182999BE0")]
+	[Address(RVA = "0x6361320", Offset = "0x6360320", VA = "0x6361320")]
 	public ulong ReadPackedULong(in StreamCompressionModel model)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x2999A00", Offset = "0x2998000", VA = "0x182999A00")]
+	[Address(RVA = "0x6361350", Offset = "0x6360350", VA = "0x6361350")]
 	public int ReadPackedInt(in StreamCompressionModel model)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x2999A90", Offset = "0x2998090", VA = "0x182999A90")]
+	[Address(RVA = "0x6361370", Offset = "0x6360370", VA = "0x6361370")]
 	public long ReadPackedLong(in StreamCompressionModel model)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x29999C0", Offset = "0x2997FC0", VA = "0x1829999C0")]
+	[Address(RVA = "0x63613B0", Offset = "0x63603B0", VA = "0x63613B0")]
 	public float ReadPackedFloat(in StreamCompressionModel model)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x29994A0", Offset = "0x2997AA0", VA = "0x1829994A0")]
+	[Address(RVA = "0x63614E0", Offset = "0x63604E0", VA = "0x63614E0")]
 	public double ReadPackedDouble(in StreamCompressionModel model)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x29999D0", Offset = "0x2997FD0", VA = "0x1829999D0")]
+	[Address(RVA = "0x6361620", Offset = "0x6360620", VA = "0x6361620")]
 	public int ReadPackedIntDelta(int baseline, in StreamCompressionModel model)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x29999D0", Offset = "0x2997FD0", VA = "0x1829999D0")]
+	[Address(RVA = "0x6361640", Offset = "0x6360640", VA = "0x6361640")]
 	public uint ReadPackedUIntDelta(uint baseline, in StreamCompressionModel model)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x2999A30", Offset = "0x2998030", VA = "0x182999A30")]
+	[Address(RVA = "0x6361660", Offset = "0x6360660", VA = "0x6361660")]
 	public long ReadPackedLongDelta(long baseline, in StreamCompressionModel model)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x2999A30", Offset = "0x2998030", VA = "0x182999A30")]
+	[Address(RVA = "0x63616B0", Offset = "0x63606B0", VA = "0x63616B0")]
 	public ulong ReadPackedULongDelta(ulong baseline, in StreamCompressionModel model)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x2999920", Offset = "0x2997F20", VA = "0x182999920")]
+	[Address(RVA = "0x6361450", Offset = "0x6360450", VA = "0x6361450")]
 	public float ReadPackedFloatDelta(float baseline, in StreamCompressionModel model)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x2999380", Offset = "0x2997980", VA = "0x182999380")]
+	[Address(RVA = "0x63614F0", Offset = "0x63604F0", VA = "0x63614F0")]
 	public double ReadPackedDoubleDelta(double baseline, in StreamCompressionModel model)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x2998ED0", Offset = "0x29974D0", VA = "0x182998ED0")]
+	[Address(RVA = "0x6361700", Offset = "0x6360700", VA = "0x6361700")]
 	public FixedString32Bytes ReadFixedString32()
 	{
 		return default(FixedString32Bytes);
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x2999080", Offset = "0x2997680", VA = "0x182999080")]
+	[Address(RVA = "0x6361850", Offset = "0x6360850", VA = "0x6361850")]
 	public FixedString64Bytes ReadFixedString64()
 	{
 		return default(FixedString64Bytes);
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x2998E40", Offset = "0x2997440", VA = "0x182998E40")]
+	[Address(RVA = "0x63618D0", Offset = "0x63608D0", VA = "0x63618D0")]
 	public FixedString128Bytes ReadFixedString128()
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x2999000", Offset = "0x2997600", VA = "0x182999000")]
+	[Address(RVA = "0x6361990", Offset = "0x6360990", VA = "0x6361990")]
 	public FixedString512Bytes ReadFixedString512()
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x2998F50", Offset = "0x2997550", VA = "0x182998F50")]
+	[Address(RVA = "0x63619F0", Offset = "0x63609F0", VA = "0x63619F0")]
 	public FixedString4096Bytes ReadFixedString4096()
 	{
 		return default(FixedString4096Bytes);
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x2999150", Offset = "0x2997750", VA = "0x182999150")]
+	[Address(RVA = "0x6361A50", Offset = "0x6360A50", VA = "0x6361A50")]
 	public ushort ReadFixedString(NativeArray<byte> array)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x2999100", Offset = "0x2997700", VA = "0x182999100")]
+	[Address(RVA = "0x6361760", Offset = "0x6360760", VA = "0x6361760")]
 	private unsafe ushort ReadFixedStringInternal(byte* data, int maxLength)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x2999520", Offset = "0x2997B20", VA = "0x182999520")]
+	[Address(RVA = "0x6361AB0", Offset = "0x6360AB0", VA = "0x6361AB0")]
 	public FixedString32Bytes ReadPackedFixedString32Delta(FixedString32Bytes baseline, in StreamCompressionModel model)
 	{
 		return default(FixedString32Bytes);
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x2999680", Offset = "0x2997C80", VA = "0x182999680")]
+	[Address(RVA = "0x6361C80", Offset = "0x6360C80", VA = "0x6361C80")]
 	public FixedString64Bytes ReadPackedFixedString64Delta(FixedString64Bytes baseline, in StreamCompressionModel model)
 	{
 		return default(FixedString64Bytes);
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x29994B0", Offset = "0x2997AB0", VA = "0x1829994B0")]
+	[Address(RVA = "0x6361D10", Offset = "0x6360D10", VA = "0x6361D10")]
 	public FixedString128Bytes ReadPackedFixedString128Delta(FixedString128Bytes baseline, in StreamCompressionModel model)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x2999620", Offset = "0x2997C20", VA = "0x182999620")]
+	[Address(RVA = "0x6361DF0", Offset = "0x6360DF0", VA = "0x6361DF0")]
 	public FixedString512Bytes ReadPackedFixedString512Delta(FixedString512Bytes baseline, in StreamCompressionModel model)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x2999580", Offset = "0x2997B80", VA = "0x182999580")]
+	[Address(RVA = "0x6361E70", Offset = "0x6360E70", VA = "0x6361E70")]
 	public FixedString4096Bytes ReadPackedFixedString4096Delta(FixedString4096Bytes baseline, in StreamCompressionModel model)
 	{
 		return default(FixedString4096Bytes);
 	}
 
 	[Token(Token = "0x60001A9")]
-	[Address(RVA = "0x2999880", Offset = "0x2997E80", VA = "0x182999880")]
+	[Address(RVA = "0x6361EF0", Offset = "0x6360EF0", VA = "0x6361EF0")]
 	public ushort ReadPackedFixedStringDelta(NativeArray<byte> data, NativeArray<byte> baseData, in StreamCompressionModel model)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x29996E0", Offset = "0x2997CE0", VA = "0x1829996E0")]
+	[Address(RVA = "0x6361B20", Offset = "0x6360B20", VA = "0x6361B20")]
 	private unsafe ushort ReadPackedFixedStringDeltaInternal(byte* data, int maxLength, byte* baseData, ushort baseLength, in StreamCompressionModel model)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x60001AB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6361F80", Offset = "0x6360F80", VA = "0x6361F80")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	internal readonly void CheckRead()
 	{
 	}
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x2998AB0", Offset = "0x29970B0", VA = "0x182998AB0")]
+	[Address(RVA = "0x6361F90", Offset = "0x6360F90", VA = "0x6361F90")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckBits(int numBits)

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004A7")]
+[Token(Token = "0x2000480")]
 public interface ICriticalNotifyCompletion : INotifyCompletion
 {
-	[Token(Token = "0x60022FC")]
+	[Token(Token = "0x60022C9")]
 	void UnsafeOnCompleted(Action continuation);
 }

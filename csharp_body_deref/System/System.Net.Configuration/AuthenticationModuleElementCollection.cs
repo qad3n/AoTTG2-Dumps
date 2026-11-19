@@ -11,94 +11,94 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003DF")]
+[Token(Token = "0x200039B")]
 [ConfigurationCollection(typeof(AuthenticationModuleElement))]
 public sealed class AuthenticationModuleElementCollection : ConfigurationElementCollection
 {
-	[Token(Token = "0x17000583")]
+	[Token(Token = "0x17000555")]
 	public AuthenticationModuleElement this[string name]
 	{
-		[Token(Token = "0x60019E9")]
-		[Address(RVA = "0x2829DF0", Offset = "0x28283F0", VA = "0x182829DF0")]
+		[Token(Token = "0x600182F")]
+		[Address(RVA = "0x61CF240", Offset = "0x61CE240", VA = "0x61CF240")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60019EA")]
-		[Address(RVA = "0x2829E50", Offset = "0x2828450", VA = "0x182829E50")]
+		[Token(Token = "0x6001830")]
+		[Address(RVA = "0x61CF270", Offset = "0x61CE270", VA = "0x61CF270")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019E6")]
-	[Address(RVA = "0x2829DC0", Offset = "0x28283C0", VA = "0x182829DC0")]
+	[Token(Token = "0x600182C")]
+	[Address(RVA = "0x61CF1B0", Offset = "0x61CE1B0", VA = "0x61CF1B0")]
 	public AuthenticationModuleElementCollection()
 	{
 	}
 
 	[SpecialName]
-	[Token(Token = "0x60019E7")]
-	[Address(RVA = "0x2829E20", Offset = "0x2828420", VA = "0x182829E20")]
+	[Token(Token = "0x600182D")]
+	[Address(RVA = "0x61CF1E0", Offset = "0x61CE1E0", VA = "0x61CF1E0")]
 	public AuthenticationModuleElement get_Item(int index)
 	{
 		return null;
 	}
 
 	[SpecialName]
-	[Token(Token = "0x60019E8")]
-	[Address(RVA = "0x2829E80", Offset = "0x2828480", VA = "0x182829E80")]
+	[Token(Token = "0x600182E")]
+	[Address(RVA = "0x61CF210", Offset = "0x61CE210", VA = "0x61CF210")]
 	public void set_Item(int index, AuthenticationModuleElement value)
 	{
 	}
 
-	[Token(Token = "0x60019EB")]
-	[Address(RVA = "0x2829C40", Offset = "0x2828240", VA = "0x182829C40")]
+	[Token(Token = "0x6001831")]
+	[Address(RVA = "0x61CF2A0", Offset = "0x61CE2A0", VA = "0x61CF2A0")]
 	public void Add(AuthenticationModuleElement element)
 	{
 	}
 
-	[Token(Token = "0x60019EC")]
-	[Address(RVA = "0x2829C70", Offset = "0x2828270", VA = "0x182829C70")]
+	[Token(Token = "0x6001832")]
+	[Address(RVA = "0x61CF2D0", Offset = "0x61CE2D0", VA = "0x61CF2D0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x60019ED")]
-	[Address(RVA = "0x2829CA0", Offset = "0x28282A0", VA = "0x182829CA0", Slot = "12")]
+	[Token(Token = "0x6001833")]
+	[Address(RVA = "0x61CF300", Offset = "0x61CE300", VA = "0x61CF300", Slot = "12")]
 	protected override ConfigurationElement CreateNewElement()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019EE")]
-	[Address(RVA = "0x2829CD0", Offset = "0x28282D0", VA = "0x182829CD0", Slot = "13")]
+	[Token(Token = "0x6001834")]
+	[Address(RVA = "0x61CF330", Offset = "0x61CE330", VA = "0x61CF330", Slot = "13")]
 	protected override object GetElementKey(ConfigurationElement element)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019EF")]
-	[Address(RVA = "0x2829D00", Offset = "0x2828300", VA = "0x182829D00")]
+	[Token(Token = "0x6001835")]
+	[Address(RVA = "0x61CF360", Offset = "0x61CE360", VA = "0x61CF360")]
 	public int IndexOf(AuthenticationModuleElement element)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60019F0")]
-	[Address(RVA = "0x2829D90", Offset = "0x2828390", VA = "0x182829D90")]
+	[Token(Token = "0x6001836")]
+	[Address(RVA = "0x61CF390", Offset = "0x61CE390", VA = "0x61CF390")]
 	public void Remove(AuthenticationModuleElement element)
 	{
 	}
 
-	[Token(Token = "0x60019F1")]
-	[Address(RVA = "0x2829D60", Offset = "0x2828360", VA = "0x182829D60")]
+	[Token(Token = "0x6001837")]
+	[Address(RVA = "0x61CF3C0", Offset = "0x61CE3C0", VA = "0x61CF3C0")]
 	public void Remove(string name)
 	{
 	}
 
-	[Token(Token = "0x60019F2")]
-	[Address(RVA = "0x2829D30", Offset = "0x2828330", VA = "0x182829D30")]
+	[Token(Token = "0x6001838")]
+	[Address(RVA = "0x61CF3F0", Offset = "0x61CE3F0", VA = "0x61CF3F0")]
 	public void RemoveAt(int index)
 	{
 	}

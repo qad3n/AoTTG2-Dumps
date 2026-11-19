@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000075")]
+[Token(Token = "0x2000076")]
 internal enum AnalyzeTypeIsResult
 {
-	[Token(Token = "0x4000113")]
+	[Token(Token = "0x400011C")]
 	KnownFalse,
-	[Token(Token = "0x4000114")]
+	[Token(Token = "0x400011D")]
 	KnownTrue,
-	[Token(Token = "0x4000115")]
+	[Token(Token = "0x400011E")]
 	KnownAssignable,
-	[Token(Token = "0x4000116")]
+	[Token(Token = "0x400011F")]
 	Unknown
 }

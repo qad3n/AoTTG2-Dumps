@@ -10,154 +10,154 @@ using Il2CppDummyDll;
 
 namespace SimpleJSONFixed;
 
-[Token(Token = "0x2000053")]
+[Token(Token = "0x2000052")]
 public class JSONNumber : JSONNode
 {
-	[Token(Token = "0x40001BD")]
+	[Token(Token = "0x40001CC")]
 	[FieldOffset(Offset = "0x10")]
 	private double m_Data;
 
-	[Token(Token = "0x17000065")]
+	[Token(Token = "0x1700005E")]
 	public override JSONNodeType Tag
 	{
-		[Token(Token = "0x6000280")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "4")]
+		[Token(Token = "0x6000289")]
+		[Address(RVA = "0x57692E0", Offset = "0x57682E0", VA = "0x57692E0", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
 		}
 	}
 
-	[Token(Token = "0x17000066")]
+	[Token(Token = "0x1700005F")]
 	public override bool IsNumber
 	{
-		[Token(Token = "0x6000281")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "12")]
+		[Token(Token = "0x600028A")]
+		[Address(RVA = "0x57692F0", Offset = "0x57682F0", VA = "0x57692F0", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000067")]
+	[Token(Token = "0x17000060")]
 	public override string Value
 	{
-		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x1DC59B0", Offset = "0x1DC3FB0", VA = "0x181DC59B0", Slot = "9")]
+		[Token(Token = "0x600028C")]
+		[Address(RVA = "0x5769320", Offset = "0x5768320", VA = "0x5769320", Slot = "9")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x1DC5A60", Offset = "0x1DC4060", VA = "0x181DC5A60", Slot = "10")]
+		[Token(Token = "0x600028D")]
+		[Address(RVA = "0x5769380", Offset = "0x5768380", VA = "0x5769380", Slot = "10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000068")]
+	[Token(Token = "0x17000061")]
 	public override double AsDouble
 	{
-		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x1537000", Offset = "0x1535600", VA = "0x181537000", Slot = "33")]
+		[Token(Token = "0x600028E")]
+		[Address(RVA = "0x5769400", Offset = "0x5768400", VA = "0x5769400", Slot = "33")]
 		get
 		{
 			return default(double);
 		}
-		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x1DC5A10", Offset = "0x1DC4010", VA = "0x181DC5A10", Slot = "34")]
+		[Token(Token = "0x600028F")]
+		[Address(RVA = "0x5769410", Offset = "0x5768410", VA = "0x5769410", Slot = "34")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000069")]
+	[Token(Token = "0x17000062")]
 	public override long AsLong
 	{
-		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x1DC5950", Offset = "0x1DC3F50", VA = "0x181DC5950", Slot = "41")]
+		[Token(Token = "0x6000290")]
+		[Address(RVA = "0x5769420", Offset = "0x5768420", VA = "0x5769420", Slot = "41")]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x1DC5A20", Offset = "0x1DC4020", VA = "0x181DC5A20", Slot = "42")]
+		[Token(Token = "0x6000291")]
+		[Address(RVA = "0x5769430", Offset = "0x5768430", VA = "0x5769430", Slot = "42")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006A")]
+	[Token(Token = "0x17000063")]
 	public override ulong AsULong
 	{
-		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x1DC5960", Offset = "0x1DC3F60", VA = "0x181DC5960", Slot = "43")]
+		[Token(Token = "0x6000292")]
+		[Address(RVA = "0x5769440", Offset = "0x5768440", VA = "0x5769440", Slot = "43")]
 		get
 		{
 			return default(ulong);
 		}
-		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x1DC5A30", Offset = "0x1DC4030", VA = "0x181DC5A30", Slot = "44")]
+		[Token(Token = "0x6000293")]
+		[Address(RVA = "0x5769480", Offset = "0x5768480", VA = "0x5769480", Slot = "44")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x1DC13A0", Offset = "0x1DBF9A0", VA = "0x181DC13A0", Slot = "32")]
+	[Token(Token = "0x600028B")]
+	[Address(RVA = "0x5769300", Offset = "0x5768300", VA = "0x5769300", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
-	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x1DC5880", Offset = "0x1DC3E80", VA = "0x181DC5880")]
+	[Token(Token = "0x6000294")]
+	[Address(RVA = "0x5763980", Offset = "0x5762980", VA = "0x5763980")]
 	public JSONNumber(double aData)
 	{
 	}
 
-	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x1DC58E0", Offset = "0x1DC3EE0", VA = "0x181DC58E0")]
+	[Token(Token = "0x6000295")]
+	[Address(RVA = "0x57694B0", Offset = "0x57684B0", VA = "0x57694B0")]
 	public JSONNumber(string aData)
 	{
 	}
 
-	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x1DC5310", Offset = "0x1DC3910", VA = "0x181DC5310", Slot = "26")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x5769520", Offset = "0x5768520", VA = "0x5769520", Slot = "26")]
 	public override JSONNode Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600028E")]
-	[Address(RVA = "0x1DC5840", Offset = "0x1DC3E40", VA = "0x181DC5840", Slot = "31")]
+	[Token(Token = "0x6000297")]
+	[Address(RVA = "0x57695C0", Offset = "0x57685C0", VA = "0x57695C0", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}
 
-	[Token(Token = "0x600028F")]
-	[Address(RVA = "0x1DC56F0", Offset = "0x1DC3CF0", VA = "0x181DC56F0")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x57695F0", Offset = "0x57685F0", VA = "0x57695F0")]
 	private static bool IsNumeric(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x1DC53A0", Offset = "0x1DC39A0", VA = "0x181DC53A0", Slot = "0")]
+	[Token(Token = "0x6000299")]
+	[Address(RVA = "0x5769680", Offset = "0x5768680", VA = "0x5769680", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x1DC56B0", Offset = "0x1DC3CB0", VA = "0x181DC56B0", Slot = "2")]
+	[Token(Token = "0x600029A")]
+	[Address(RVA = "0x5769890", Offset = "0x5768890", VA = "0x5769890", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x1DC5300", Offset = "0x1DC3900", VA = "0x181DC5300", Slot = "25")]
+	[Token(Token = "0x600029B")]
+	[Address(RVA = "0x57698C0", Offset = "0x57688C0", VA = "0x57698C0", Slot = "25")]
 	public override void Clear()
 	{
 	}

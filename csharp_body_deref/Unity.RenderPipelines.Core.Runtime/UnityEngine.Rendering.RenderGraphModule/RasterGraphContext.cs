@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.RasterGraphContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6001122")]
-		[Address(RVA = "0x26DA040", Offset = "0x26D8640", VA = "0x1826DA040")]
+		[Address(RVA = "0x6572010", Offset = "0x6571010", VA = "0x6572010")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	public RenderGraphObjectPool renderGraphPool
 	{
 		[Token(Token = "0x6001123")]
-		[Address(RVA = "0x26DA300", Offset = "0x26D8900", VA = "0x1826DA300")]
+		[Address(RVA = "0x6572030", Offset = "0x6571030", VA = "0x6572030")]
 		get
 		{
 			return null;
@@ -49,20 +49,20 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	}
 
 	[Token(Token = "0x6001124")]
-	[Address(RVA = "0x2B6B490", Offset = "0x2B69A90", VA = "0x182B6B490", Slot = "4")]
+	[Address(RVA = "0x6572050", Offset = "0x6571050", VA = "0x6572050", Slot = "4")]
 	public void FromInternalContext(InternalRenderGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x6001125")]
-	[Address(RVA = "0x2B6B570", Offset = "0x2B69B70", VA = "0x182B6B570")]
+	[Address(RVA = "0x6572120", Offset = "0x6571120", VA = "0x6572120")]
 	public readonly TextureUVOrigin GetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);
 	}
 
 	[Token(Token = "0x6001127")]
-	[Address(RVA = "0x2B6B5D0", Offset = "0x2B69BD0", VA = "0x182B6B5D0", Slot = "5")]
+	[Address(RVA = "0x65721F0", Offset = "0x65711F0", VA = "0x65721F0", Slot = "5")]
 	private TextureUVOrigin UnityEngine_002ERendering_002ERenderGraphModule_002EIDerivedRendergraphContext_002EGetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);

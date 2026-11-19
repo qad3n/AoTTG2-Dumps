@@ -46,63 +46,63 @@ public class DebugUIHandlerVector4 : DebugUIHandlerWidget
 	private DebugUIHandlerContainer m_Container;
 
 	[Token(Token = "0x60014FB")]
-	[Address(RVA = "0x2BB3F40", Offset = "0x2BB2540", VA = "0x182BB3F40", Slot = "5")]
+	[Address(RVA = "0x65AF180", Offset = "0x65AE180", VA = "0x65AF180", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60014FC")]
-	[Address(RVA = "0x2BB3E40", Offset = "0x2BB2440", VA = "0x182BB3E40")]
+	[Address(RVA = "0x65AF740", Offset = "0x65AE740", VA = "0x65AF740")]
 	private void SetValue(float v, bool x = false, bool y = false, bool z = false, bool w = false)
 	{
 	}
 
 	[Token(Token = "0x60014FD")]
-	[Address(RVA = "0x2BB43B0", Offset = "0x2BB29B0", VA = "0x182BB43B0")]
+	[Address(RVA = "0x65AF600", Offset = "0x65AE600", VA = "0x65AF600")]
 	private void SetupSettings(DebugUIHandlerIndirectFloatField field)
 	{
 	}
 
 	[Token(Token = "0x60014FE")]
-	[Address(RVA = "0x2BB3D30", Offset = "0x2BB2330", VA = "0x182BB3D30", Slot = "6")]
+	[Address(RVA = "0x65AF820", Offset = "0x65AE820", VA = "0x65AF820", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014FF")]
-	[Address(RVA = "0x2BA83A0", Offset = "0x2BA69A0", VA = "0x182BA83A0", Slot = "7")]
+	[Address(RVA = "0x65AF900", Offset = "0x65AE900", VA = "0x65AF900", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6001500")]
-	[Address(RVA = "0x2BA83E0", Offset = "0x2BA69E0", VA = "0x182BA83E0", Slot = "9")]
+	[Address(RVA = "0x65AF930", Offset = "0x65AE930", VA = "0x65AF930", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001501")]
-	[Address(RVA = "0x2BA8370", Offset = "0x2BA6970", VA = "0x182BA8370", Slot = "10")]
+	[Address(RVA = "0x65AF950", Offset = "0x65AE950", VA = "0x65AF950", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001502")]
-	[Address(RVA = "0x2BA8340", Offset = "0x2BA6940", VA = "0x182BA8340", Slot = "8")]
+	[Address(RVA = "0x65AF970", Offset = "0x65AE970", VA = "0x65AF970", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x6001503")]
-	[Address(RVA = "0x2BB3C50", Offset = "0x2BB2250", VA = "0x182BB3C50", Slot = "12")]
+	[Address(RVA = "0x65AF9A0", Offset = "0x65AE9A0", VA = "0x65AF9A0", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001504")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AFA60", Offset = "0x65AEA60", VA = "0x65AFA60")]
 	public DebugUIHandlerVector4()
 	{
 	}

@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncSelectTrigger : AsyncTriggerBase<BaseEventData>, ISelectHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C78")]
-	[Address(RVA = "0x29384D0", Offset = "0x2936AD0", VA = "0x1829384D0", Slot = "5")]
+	[Address(RVA = "0x6305DB0", Offset = "0x6304DB0", VA = "0x6305DB0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EISelectHandler_002EOnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C79")]
-	[Address(RVA = "0x2938230", Offset = "0x2936830", VA = "0x182938230")]
+	[Address(RVA = "0x6305E00", Offset = "0x6304E00", VA = "0x6305E00")]
 	public IAsyncOnSelectHandler GetOnSelectAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C7A")]
-	[Address(RVA = "0x29381B0", Offset = "0x29367B0", VA = "0x1829381B0")]
+	[Address(RVA = "0x6305E70", Offset = "0x6304E70", VA = "0x6305E70")]
 	public IAsyncOnSelectHandler GetOnSelectAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C7B")]
-	[Address(RVA = "0x29383B0", Offset = "0x29369B0", VA = "0x1829383B0")]
+	[Address(RVA = "0x6305EE0", Offset = "0x6304EE0", VA = "0x6305EE0")]
 	public UniTask<BaseEventData> OnSelectAsync()
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C7C")]
-	[Address(RVA = "0x29382A0", Offset = "0x29368A0", VA = "0x1829382A0")]
+	[Address(RVA = "0x6305FE0", Offset = "0x6304FE0", VA = "0x6305FE0")]
 	public UniTask<BaseEventData> OnSelectAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C7D")]
-	[Address(RVA = "0x2938520", Offset = "0x2936B20", VA = "0x182938520")]
+	[Address(RVA = "0x63060F0", Offset = "0x63050F0", VA = "0x63060F0")]
 	public AsyncSelectTrigger()
 	{
 	}

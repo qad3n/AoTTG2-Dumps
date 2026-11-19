@@ -10,71 +10,71 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x2000082")]
 public sealed class AottgDialogHeader : AottgComponent
 {
-	[Token(Token = "0x40002A2")]
+	[Token(Token = "0x40002C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly string _title;
 
-	[Token(Token = "0x40002A3")]
+	[Token(Token = "0x40002C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly AottgButtonVariant _variant;
 
-	[Token(Token = "0x40002A4")]
+	[Token(Token = "0x40002C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly string _icon;
 
-	[Token(Token = "0x40002A5")]
+	[Token(Token = "0x40002C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly string _closeEnabledKey;
 
-	[Token(Token = "0x40002A6")]
+	[Token(Token = "0x40002CA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private readonly string _titleKey;
 
-	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x18C4700", Offset = "0x18C2D00", VA = "0x1818C4700")]
+	[Token(Token = "0x60003FF")]
+	[Address(RVA = "0x5265F60", Offset = "0x5264F60", VA = "0x5265F60")]
 	public AottgDialogHeader(string title, [Optional][DefaultParameterValue(0)] AottgButtonVariant variant, [Optional] string icon, [Optional] string closeEnabledKey, [Optional] string titleKey)
 	{
 	}
 
-	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x18C3B60", Offset = "0x18C2160", VA = "0x1818C3B60", Slot = "4")]
+	[Token(Token = "0x6000400")]
+	[Address(RVA = "0x52660F0", Offset = "0x52650F0", VA = "0x52660F0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x18C3F70", Offset = "0x18C2570", VA = "0x1818C3F70")]
+	[Token(Token = "0x6000401")]
+	[Address(RVA = "0x52662A0", Offset = "0x52652A0", VA = "0x52662A0")]
 	private static string TitleBarStyle(AottgButtonVariant variant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x18C3EA0", Offset = "0x18C24A0", VA = "0x1818C3EA0")]
+	[Token(Token = "0x6000402")]
+	[Address(RVA = "0x5266060", Offset = "0x5265060", VA = "0x5266060")]
 	private static string DefaultIcon(AottgButtonVariant variant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x18C3DB0", Offset = "0x18C23B0", VA = "0x1818C3DB0")]
+	[Token(Token = "0x6000403")]
+	[Address(RVA = "0x5266780", Offset = "0x5265780", VA = "0x5266780")]
 	private static string CloseButtonStyle(AottgButtonVariant variant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x18C40D0", Offset = "0x18C26D0", VA = "0x1818C40D0")]
+	[Token(Token = "0x6000404")]
+	[Address(RVA = "0x5266810", Offset = "0x5265810", VA = "0x5266810")]
 	private static string TitleTextStyle(AottgButtonVariant variant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x18C4060", Offset = "0x18C2660", VA = "0x1818C4060")]
+	[Token(Token = "0x6000405")]
+	[Address(RVA = "0x5266880", Offset = "0x5265880", VA = "0x5266880")]
 	private static string TitleIconStyle(AottgButtonVariant variant)
 	{
 		return null;

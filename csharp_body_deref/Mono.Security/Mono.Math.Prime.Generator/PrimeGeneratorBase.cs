@@ -2,47 +2,47 @@ using Il2CppDummyDll;
 
 namespace Mono.Math.Prime.Generator;
 
-[Token(Token = "0x200005C")]
+[Token(Token = "0x2000049")]
 public abstract class PrimeGeneratorBase
 {
-	[Token(Token = "0x17000089")]
+	[Token(Token = "0x17000086")]
 	public virtual ConfidenceFactor Confidence
 	{
-		[Token(Token = "0x6000228")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
+		[Token(Token = "0x60001F9")]
+		[Address(RVA = "0x52D6760", Offset = "0x52D5760", VA = "0x52D6760", Slot = "4")]
 		get
 		{
 			return default(ConfidenceFactor);
 		}
 	}
 
-	[Token(Token = "0x1700008A")]
+	[Token(Token = "0x17000087")]
 	public virtual PrimalityTest PrimalityTest
 	{
-		[Token(Token = "0x6000229")]
-		[Address(RVA = "0x1939560", Offset = "0x1937B60", VA = "0x181939560", Slot = "5")]
+		[Token(Token = "0x60001FA")]
+		[Address(RVA = "0x52D6770", Offset = "0x52D5770", VA = "0x52D6770", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700008B")]
+	[Token(Token = "0x17000088")]
 	public virtual int TrialDivisionBounds
 	{
-		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x1939690", Offset = "0x1937C90", VA = "0x181939690", Slot = "6")]
+		[Token(Token = "0x60001FB")]
+		[Address(RVA = "0x52D67D0", Offset = "0x52D57D0", VA = "0x52D67D0", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600022B")]
+	[Token(Token = "0x60001FC")]
 	public abstract BigInteger GenerateNewPrime(int bits);
 
-	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60001FD")]
+	[Address(RVA = "0x52D67E0", Offset = "0x52D57E0", VA = "0x52D67E0")]
 	protected PrimeGeneratorBase()
 	{
 	}

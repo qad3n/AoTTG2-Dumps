@@ -10,46 +10,46 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000646")]
+[Token(Token = "0x2000621")]
 internal class GenericEqualityComparer<T> : EqualityComparer<T> where T : IEquatable<T>
 {
-	[Token(Token = "0x6003027")]
+	[Token(Token = "0x6003006")]
 	public override bool Equals(T x, T y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003028")]
+	[Token(Token = "0x6003007")]
 	public override int GetHashCode(T obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003029")]
+	[Token(Token = "0x6003008")]
 	internal override int IndexOf(T[] array, T value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600302A")]
+	[Token(Token = "0x6003009")]
 	internal override int LastIndexOf(T[] array, T value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600302B")]
+	[Token(Token = "0x600300A")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600302C")]
+	[Token(Token = "0x600300B")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600302D")]
+	[Token(Token = "0x600300C")]
 	public GenericEqualityComparer()
 	{
 	}

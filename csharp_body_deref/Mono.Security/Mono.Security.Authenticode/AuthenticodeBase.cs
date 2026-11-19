@@ -11,102 +11,102 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Authenticode;
 
-[Token(Token = "0x2000053")]
+[Token(Token = "0x2000040")]
 public class AuthenticodeBase
 {
-	[Token(Token = "0x4000231")]
+	[Token(Token = "0x4000227")]
 	[FieldOffset(Offset = "0x10")]
 	private byte[] fileblock;
 
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x4000228")]
 	[FieldOffset(Offset = "0x18")]
 	private Stream fs;
 
-	[Token(Token = "0x4000233")]
+	[Token(Token = "0x4000229")]
 	[FieldOffset(Offset = "0x20")]
 	private int blockNo;
 
-	[Token(Token = "0x4000234")]
+	[Token(Token = "0x400022A")]
 	[FieldOffset(Offset = "0x24")]
 	private int blockLength;
 
-	[Token(Token = "0x4000235")]
+	[Token(Token = "0x400022B")]
 	[FieldOffset(Offset = "0x28")]
 	private int peOffset;
 
-	[Token(Token = "0x4000236")]
+	[Token(Token = "0x400022C")]
 	[FieldOffset(Offset = "0x2C")]
 	private int dirSecurityOffset;
 
-	[Token(Token = "0x4000237")]
+	[Token(Token = "0x400022D")]
 	[FieldOffset(Offset = "0x30")]
 	private int dirSecuritySize;
 
-	[Token(Token = "0x4000238")]
+	[Token(Token = "0x400022E")]
 	[FieldOffset(Offset = "0x34")]
 	private int coffSymbolTableOffset;
 
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x400022F")]
 	[FieldOffset(Offset = "0x38")]
 	private bool pe64;
 
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x17000082")]
 	internal int PEOffset
 	{
-		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x192BE50", Offset = "0x192A450", VA = "0x18192BE50")]
+		[Token(Token = "0x60001A3")]
+		[Address(RVA = "0x52CFB10", Offset = "0x52CEB10", VA = "0x52CFB10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x192BDF0", Offset = "0x192A3F0", VA = "0x18192BDF0")]
+	[Token(Token = "0x60001A2")]
+	[Address(RVA = "0x52CFAB0", Offset = "0x52CEAB0", VA = "0x52CFAB0")]
 	public AuthenticodeBase()
 	{
 	}
 
-	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x192B930", Offset = "0x1929F30", VA = "0x18192B930")]
+	[Token(Token = "0x60001A4")]
+	[Address(RVA = "0x52CFC00", Offset = "0x52CEC00", VA = "0x52CFC00")]
 	internal void Open(string filename)
 	{
 	}
 
-	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x192B9F0", Offset = "0x1929FF0", VA = "0x18192B9F0")]
+	[Token(Token = "0x60001A5")]
+	[Address(RVA = "0x52CFCF0", Offset = "0x52CECF0", VA = "0x52CFCF0")]
 	internal void Open(byte[] rawdata)
 	{
 	}
 
-	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x192B350", Offset = "0x1929950", VA = "0x18192B350")]
+	[Token(Token = "0x60001A6")]
+	[Address(RVA = "0x52CFCB0", Offset = "0x52CECB0", VA = "0x52CFCB0")]
 	internal void Close()
 	{
 	}
 
-	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x192BD20", Offset = "0x192A320", VA = "0x18192BD20")]
+	[Token(Token = "0x60001A7")]
+	[Address(RVA = "0x52CFB30", Offset = "0x52CEB30", VA = "0x52CFB30")]
 	internal void ReadFirstBlock()
 	{
 	}
 
-	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x192BAA0", Offset = "0x192A0A0", VA = "0x18192BAA0")]
+	[Token(Token = "0x60001A8")]
+	[Address(RVA = "0x52CFD90", Offset = "0x52CED90", VA = "0x52CFD90")]
 	internal int ProcessFirstBlock()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x192B860", Offset = "0x1929E60", VA = "0x18192B860")]
+	[Token(Token = "0x60001A9")]
+	[Address(RVA = "0x52CFFB0", Offset = "0x52CEFB0", VA = "0x52CFFB0")]
 	internal byte[] GetSecurityEntry()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x192B3A0", Offset = "0x19299A0", VA = "0x18192B3A0")]
+	[Token(Token = "0x60001AA")]
+	[Address(RVA = "0x52D0080", Offset = "0x52CF080", VA = "0x52D0080")]
 	internal byte[] GetHash(HashAlgorithm hash)
 	{
 		return null;

@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public class ExclusiveOrHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x600088B")]
-	[Address(RVA = "0x2DE24A0", Offset = "0x2DE0AA0", VA = "0x182DE24A0")]
+	[Address(RVA = "0x67DC1E0", Offset = "0x67DB1E0", VA = "0x67DC1E0")]
 	public ExclusiveOrHandler()
 	{
 	}

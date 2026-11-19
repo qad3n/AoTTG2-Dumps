@@ -17,7 +17,7 @@ public class PunPlayerScores : MonoBehaviour
 	public const string PlayerScoreProp = "score";
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F2420", Offset = "0x56F1420", VA = "0x56F2420")]
 	public PunPlayerScores()
 	{
 	}

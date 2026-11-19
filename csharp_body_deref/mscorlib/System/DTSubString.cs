@@ -9,34 +9,34 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x20000BC")]
 internal ref struct DTSubString
 {
-	[Token(Token = "0x4000358")]
+	[Token(Token = "0x40002B3")]
 	[FieldOffset(Offset = "0x0")]
 	internal ReadOnlySpan<char> s;
 
-	[Token(Token = "0x4000359")]
+	[Token(Token = "0x40002B4")]
 	[FieldOffset(Offset = "0x10")]
 	internal int index;
 
-	[Token(Token = "0x400035A")]
+	[Token(Token = "0x40002B5")]
 	[FieldOffset(Offset = "0x14")]
 	internal int length;
 
-	[Token(Token = "0x400035B")]
+	[Token(Token = "0x40002B6")]
 	[FieldOffset(Offset = "0x18")]
 	internal System.DTSubStringType type;
 
-	[Token(Token = "0x400035C")]
+	[Token(Token = "0x40002B7")]
 	[FieldOffset(Offset = "0x1C")]
 	internal int value;
 
 	[Token(Token = "0x1700008C")]
 	internal char this[int relativeIndex]
 	{
-		[Token(Token = "0x6000776")]
-		[Address(RVA = "0x1B23740", Offset = "0x1B21D40", VA = "0x181B23740")]
+		[Token(Token = "0x6000751")]
+		[Address(RVA = "0x54B1580", Offset = "0x54B0580", VA = "0x54B1580")]
 		get
 		{
 			return default(char);

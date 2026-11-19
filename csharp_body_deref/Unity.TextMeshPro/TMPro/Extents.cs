@@ -30,13 +30,13 @@ public struct Extents
 	public Vector2 max;
 
 	[Token(Token = "0x6000659")]
-	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
+	[Address(RVA = "0x6760C50", Offset = "0x675FC50", VA = "0x6760C50")]
 	public Extents(Vector2 min, Vector2 max)
 	{
 	}
 
 	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x2D60E70", Offset = "0x2D5F470", VA = "0x182D60E70", Slot = "3")]
+	[Address(RVA = "0x6760C60", Offset = "0x675FC60", VA = "0x6760C60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

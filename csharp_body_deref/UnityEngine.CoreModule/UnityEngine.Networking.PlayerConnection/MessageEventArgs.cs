@@ -14,16 +14,16 @@ namespace UnityEngine.Networking.PlayerConnection;
 [Token(Token = "0x20002F2")]
 public class MessageEventArgs
 {
-	[Token(Token = "0x400077F")]
+	[Token(Token = "0x400077D")]
 	[FieldOffset(Offset = "0x10")]
 	public int playerId;
 
-	[Token(Token = "0x4000780")]
+	[Token(Token = "0x400077E")]
 	[FieldOffset(Offset = "0x18")]
 	public byte[] data;
 
-	[Token(Token = "0x60011EF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001203")]
+	[Address(RVA = "0x69384A0", Offset = "0x69374A0", VA = "0x69384A0")]
 	public MessageEventArgs()
 	{
 	}

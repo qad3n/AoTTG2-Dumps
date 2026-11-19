@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class KeyUpEvent : KeyboardEventBase<KeyUpEvent>
 {
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x3267250", Offset = "0x3265850", VA = "0x183267250")]
+	[Address(RVA = "0x6C67B10", Offset = "0x6C66B10", VA = "0x6C67B10")]
 	static KeyUpEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x3267330", Offset = "0x3265930", VA = "0x183267330")]
+	[Address(RVA = "0x6C67BE0", Offset = "0x6C66BE0", VA = "0x6C67BE0")]
 	public KeyUpEvent()
 	{
 	}

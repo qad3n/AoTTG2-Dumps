@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001AB")]
+[Token(Token = "0x2000183")]
 internal sealed class DelegateData
 {
-	[Token(Token = "0x40006EA")]
+	[Token(Token = "0x4000648")]
 	[FieldOffset(Offset = "0x10")]
 	public Type target_type;
 
-	[Token(Token = "0x40006EB")]
+	[Token(Token = "0x4000649")]
 	[FieldOffset(Offset = "0x18")]
 	public string method_name;
 
-	[Token(Token = "0x40006EC")]
+	[Token(Token = "0x400064A")]
 	[FieldOffset(Offset = "0x20")]
 	public bool curried_first_arg;
 
-	[Token(Token = "0x6000FBE")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6000F95")]
+	[Address(RVA = "0x550DE90", Offset = "0x550CE90", VA = "0x550DE90")]
 	public DelegateData()
 	{
 	}

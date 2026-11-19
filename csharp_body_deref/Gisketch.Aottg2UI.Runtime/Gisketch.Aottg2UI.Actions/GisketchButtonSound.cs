@@ -11,33 +11,33 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D2")]
+[Token(Token = "0x20000D8")]
 public sealed class GisketchButtonSound : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler
 {
-	[Token(Token = "0x4000445")]
+	[Token(Token = "0x400046C")]
 	[FieldOffset(Offset = "0x20")]
 	private string _action;
 
-	[Token(Token = "0x6000670")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+	[Token(Token = "0x60006BD")]
+	[Address(RVA = "0x529E880", Offset = "0x529D880", VA = "0x529E880")]
 	public void Setup(string action)
 	{
 	}
 
-	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x18FCDD0", Offset = "0x18FB3D0", VA = "0x1818FCDD0", Slot = "4")]
+	[Token(Token = "0x60006BE")]
+	[Address(RVA = "0x529E890", Offset = "0x529D890", VA = "0x529E890", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x18FCE20", Offset = "0x18FB420", VA = "0x1818FCE20")]
+	[Token(Token = "0x60006BF")]
+	[Address(RVA = "0x528F4F0", Offset = "0x528E4F0", VA = "0x528F4F0")]
 	public void PlayClick()
 	{
 	}
 
-	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60006C0")]
+	[Address(RVA = "0x529E900", Offset = "0x529D900", VA = "0x529E900")]
 	public GisketchButtonSound()
 	{
 	}

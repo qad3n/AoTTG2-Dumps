@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourcesData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,7 +42,7 @@ internal class ResourcesData
 	public unsafe ref ResourceVersionedData this[ResourceHandle h]
 	{
 		[Token(Token = "0x60013D3")]
-		[Address(RVA = "0x2BBAA70", Offset = "0x2BB9070", VA = "0x182BBAA70")]
+		[Address(RVA = "0x659DAA0", Offset = "0x659CAA0", VA = "0x659DAA0")]
 		get
 		{
 			return ref *(ResourceVersionedData*)null;
@@ -50,13 +50,13 @@ internal class ResourcesData
 	}
 
 	[Token(Token = "0x60013CD")]
-	[Address(RVA = "0x2BBA890", Offset = "0x2BB8E90", VA = "0x182BBA890")]
+	[Address(RVA = "0x65A1B30", Offset = "0x65A0B30", VA = "0x65A1B30")]
 	public ResourcesData()
 	{
 	}
 
 	[Token(Token = "0x60013CE")]
-	[Address(RVA = "0x2BB9B40", Offset = "0x2BB8140", VA = "0x182BB9B40")]
+	[Address(RVA = "0x65A1DD0", Offset = "0x65A0DD0", VA = "0x65A1DD0")]
 	public void Clear()
 	{
 	}
@@ -67,14 +67,14 @@ internal class ResourcesData
 	}
 
 	[Token(Token = "0x60013D0")]
-	[Address(RVA = "0x2BB9FA0", Offset = "0x2BB85A0", VA = "0x182BB9FA0")]
+	[Address(RVA = "0x65A2080", Offset = "0x65A1080", VA = "0x65A2080")]
 	public void Initialize(RenderGraphResourceRegistry resources)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013D1")]
-	[Address(RVA = "0x2BB9EE0", Offset = "0x2BB84E0", VA = "0x182BB9EE0")]
+	[Address(RVA = "0x65A2940", Offset = "0x65A1940", VA = "0x65A2940")]
 	public int Index(in ResourceHandle h)
 	{
 		return default(int);
@@ -82,14 +82,14 @@ internal class ResourcesData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013D2")]
-	[Address(RVA = "0x2BB9DB0", Offset = "0x2BB83B0", VA = "0x182BB9DB0")]
+	[Address(RVA = "0x65A2A30", Offset = "0x65A1A30", VA = "0x65A2A30")]
 	public int IndexReader(in ResourceHandle h, int readerID)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60013D4")]
-	[Address(RVA = "0x2BB9C90", Offset = "0x2BB8290", VA = "0x182BB9C90")]
+	[Address(RVA = "0x65A2BA0", Offset = "0x65A1BA0", VA = "0x65A2BA0")]
 	public void Dispose()
 	{
 	}

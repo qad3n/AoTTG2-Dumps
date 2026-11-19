@@ -17,34 +17,34 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000706")]
+[Token(Token = "0x20007B1")]
 internal class CharacterEditorCostumePanel : HeadedPanel
 {
-	[Token(Token = "0x200070C")]
+	[Token(Token = "0x20007B5")]
 	[CompilerGenerated]
-	private sealed class _003CApplySkinPreviewAfterCostumeChange_003Ed__31 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CApplySkinPreviewAfterCostumeChange_003Ed__34 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002350")]
+		[Token(Token = "0x40026CE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002351")]
+		[Token(Token = "0x40026CF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002352")]
+		[Token(Token = "0x40026D0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private bool _003CoriginalGlobalEnabled_003E5__2;
 
-		[Token(Token = "0x4002353")]
+		[Token(Token = "0x40026D1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x21")]
 		private bool _003CoriginalSetEnabled_003E5__3;
 
-		[Token(Token = "0x17000C69")]
+		[Token(Token = "0x17000CEE")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004543")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004A6C")]
+			[Address(RVA = "0x5BD04D0", Offset = "0x5BCF4D0", VA = "0x5BD04D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -52,11 +52,11 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000C6A")]
+		[Token(Token = "0x17000CEF")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004545")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004A6E")]
+			[Address(RVA = "0x5BD0520", Offset = "0x5BCF520", VA = "0x5BD0520", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -64,60 +64,60 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6004540")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004A69")]
+		[Address(RVA = "0x5BD0140", Offset = "0x5BCF140", VA = "0x5BD0140")]
 		[DebuggerHidden]
-		public _003CApplySkinPreviewAfterCostumeChange_003Ed__31(int _003C_003E1__state)
+		public _003CApplySkinPreviewAfterCostumeChange_003Ed__34(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004541")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004A6A")]
+		[Address(RVA = "0x5BD0160", Offset = "0x5BCF160", VA = "0x5BD0160", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004542")]
-		[Address(RVA = "0x21E5500", Offset = "0x21E3B00", VA = "0x1821E5500", Slot = "6")]
+		[Token(Token = "0x6004A6B")]
+		[Address(RVA = "0x5BD0170", Offset = "0x5BCF170", VA = "0x5BD0170", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004544")]
-		[Address(RVA = "0x21E58D0", Offset = "0x21E3ED0", VA = "0x1821E58D0", Slot = "8")]
+		[Token(Token = "0x6004A6D")]
+		[Address(RVA = "0x5BD04E0", Offset = "0x5BCF4E0", VA = "0x5BD04E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200070D")]
+	[Token(Token = "0x20007B6")]
 	[CompilerGenerated]
-	private sealed class _003CApplySkinPreviewAfterReset_003Ed__29 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CApplySkinPreviewAfterReset_003Ed__32 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002354")]
+		[Token(Token = "0x40026D2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002355")]
+		[Token(Token = "0x40026D3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002356")]
+		[Token(Token = "0x40026D4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private bool _003CoriginalGlobalEnabled_003E5__2;
 
-		[Token(Token = "0x4002357")]
+		[Token(Token = "0x40026D5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x21")]
 		private bool _003CoriginalSetEnabled_003E5__3;
 
-		[Token(Token = "0x17000C6B")]
+		[Token(Token = "0x17000CF0")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004549")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004A72")]
+			[Address(RVA = "0x5BD08C0", Offset = "0x5BCF8C0", VA = "0x5BD08C0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -125,11 +125,11 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000C6C")]
+		[Token(Token = "0x17000CF1")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600454B")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004A74")]
+			[Address(RVA = "0x5BD0910", Offset = "0x5BCF910", VA = "0x5BD0910", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -137,76 +137,76 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6004546")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004A6F")]
+		[Address(RVA = "0x5BD0530", Offset = "0x5BCF530", VA = "0x5BD0530")]
 		[DebuggerHidden]
-		public _003CApplySkinPreviewAfterReset_003Ed__29(int _003C_003E1__state)
+		public _003CApplySkinPreviewAfterReset_003Ed__32(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004547")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004A70")]
+		[Address(RVA = "0x5BD0550", Offset = "0x5BCF550", VA = "0x5BD0550", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004548")]
-		[Address(RVA = "0x21E61A0", Offset = "0x21E47A0", VA = "0x1821E61A0", Slot = "6")]
+		[Token(Token = "0x6004A71")]
+		[Address(RVA = "0x5BD0560", Offset = "0x5BCF560", VA = "0x5BD0560", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600454A")]
-		[Address(RVA = "0x21E6570", Offset = "0x21E4B70", VA = "0x1821E6570", Slot = "8")]
+		[Token(Token = "0x6004A73")]
+		[Address(RVA = "0x5BD08D0", Offset = "0x5BCF8D0", VA = "0x5BD08D0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200070E")]
+	[Token(Token = "0x20007B7")]
 	[CompilerGenerated]
-	private sealed class _003CCapturePreviousProfilePreviewAndApplySkins_003Ed__28 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CCapturePreviousProfilePreviewAndApplySkins_003Ed__31 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002358")]
+		[Token(Token = "0x40026D6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002359")]
+		[Token(Token = "0x40026D7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400235A")]
+		[Token(Token = "0x40026D8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string previousProfileId;
 
-		[Token(Token = "0x400235B")]
+		[Token(Token = "0x40026D9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public CharacterEditorCostumePanel _003C_003E4__this;
 
-		[Token(Token = "0x400235C")]
+		[Token(Token = "0x40026DA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public bool shouldApplySkinPreview;
 
-		[Token(Token = "0x400235D")]
+		[Token(Token = "0x40026DB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private HumanCustomSettings _003Csettings_003E5__2;
 
-		[Token(Token = "0x400235E")]
+		[Token(Token = "0x40026DC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private int _003CcurrentSelectedIndex_003E5__3;
 
-		[Token(Token = "0x400235F")]
+		[Token(Token = "0x40026DD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private DummyHuman _003Ccharacter_003E5__4;
 
-		[Token(Token = "0x17000C6D")]
+		[Token(Token = "0x17000CF2")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600454F")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004A78")]
+			[Address(RVA = "0x5BD10A0", Offset = "0x5BD00A0", VA = "0x5BD10A0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -214,11 +214,11 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000C6E")]
+		[Token(Token = "0x17000CF3")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004551")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004A7A")]
+			[Address(RVA = "0x5BD10F0", Offset = "0x5BD00F0", VA = "0x5BD10F0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -226,52 +226,52 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x600454C")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004A75")]
+		[Address(RVA = "0x5BD0920", Offset = "0x5BCF920", VA = "0x5BD0920")]
 		[DebuggerHidden]
-		public _003CCapturePreviousProfilePreviewAndApplySkins_003Ed__28(int _003C_003E1__state)
+		public _003CCapturePreviousProfilePreviewAndApplySkins_003Ed__31(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600454D")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004A76")]
+		[Address(RVA = "0x5BD0940", Offset = "0x5BCF940", VA = "0x5BD0940", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600454E")]
-		[Address(RVA = "0x21E65B0", Offset = "0x21E4BB0", VA = "0x1821E65B0", Slot = "6")]
+		[Token(Token = "0x6004A77")]
+		[Address(RVA = "0x5BD0950", Offset = "0x5BCF950", VA = "0x5BD0950", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004550")]
-		[Address(RVA = "0x21E6CF0", Offset = "0x21E52F0", VA = "0x1821E6CF0", Slot = "8")]
+		[Token(Token = "0x6004A79")]
+		[Address(RVA = "0x5BD10B0", Offset = "0x5BD00B0", VA = "0x5BD10B0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200070F")]
+	[Token(Token = "0x20007B8")]
 	[CompilerGenerated]
-	private sealed class _003CSaveQuitCaptureCoroutine_003Ed__35 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSaveQuitCaptureCoroutine_003Ed__38 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002360")]
+		[Token(Token = "0x40026DE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002361")]
+		[Token(Token = "0x40026DF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x17000C6F")]
+		[Token(Token = "0x17000CF4")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004555")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004A7E")]
+			[Address(RVA = "0x5BD1230", Offset = "0x5BD0230", VA = "0x5BD1230", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -279,11 +279,11 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000C70")]
+		[Token(Token = "0x17000CF5")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004557")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004A80")]
+			[Address(RVA = "0x5BD1280", Offset = "0x5BD0280", VA = "0x5BD1280", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -291,252 +291,261 @@ internal class CharacterEditorCostumePanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6004552")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004A7B")]
+		[Address(RVA = "0x5BD1100", Offset = "0x5BD0100", VA = "0x5BD1100")]
 		[DebuggerHidden]
-		public _003CSaveQuitCaptureCoroutine_003Ed__35(int _003C_003E1__state)
+		public _003CSaveQuitCaptureCoroutine_003Ed__38(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004553")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004A7C")]
+		[Address(RVA = "0x5BD1120", Offset = "0x5BD0120", VA = "0x5BD1120", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004554")]
-		[Address(RVA = "0x21E7E60", Offset = "0x21E6460", VA = "0x1821E7E60", Slot = "6")]
+		[Token(Token = "0x6004A7D")]
+		[Address(RVA = "0x5BD1130", Offset = "0x5BD0130", VA = "0x5BD1130", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004556")]
-		[Address(RVA = "0x21E7F70", Offset = "0x21E6570", VA = "0x1821E7F70", Slot = "8")]
+		[Token(Token = "0x6004A7F")]
+		[Address(RVA = "0x5BD1240", Offset = "0x5BD0240", VA = "0x5BD1240", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002341")]
+	[Token(Token = "0x40026C0")]
+	private const float QuitButtonWidth = 80f;
+
+	[Token(Token = "0x40026C1")]
+	private const float BottomButtonWidth = 100f;
+
+	[Token(Token = "0x40026C2")]
+	private const float SaveQuitButtonWidth = 120f;
+
+	[Token(Token = "0x40026C3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private CharacterEditorMenu _menu;
 
-	[Token(Token = "0x4002342")]
+	[Token(Token = "0x40026C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private bool _shouldGeneratePreviewAfterRebuild;
 
-	[Token(Token = "0x4002343")]
+	[Token(Token = "0x40026C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private string _previousProfileId;
 
-	[Token(Token = "0x4002344")]
+	[Token(Token = "0x40026C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private bool _isRebuildingPanel;
 
-	[Token(Token = "0x17000C62")]
+	[Token(Token = "0x17000CE7")]
 	protected override string Title
 	{
-		[Token(Token = "0x60044FC")]
-		[Address(RVA = "0x21D6E40", Offset = "0x21D5440", VA = "0x1821D6E40", Slot = "35")]
+		[Token(Token = "0x6004A29")]
+		[Address(RVA = "0x5BCA710", Offset = "0x5BC9710", VA = "0x5BCA710", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C63")]
+	[Token(Token = "0x17000CE8")]
 	protected override float Width
 	{
-		[Token(Token = "0x60044FD")]
-		[Address(RVA = "0x21C6340", Offset = "0x21C4940", VA = "0x1821C6340", Slot = "5")]
+		[Token(Token = "0x6004A2A")]
+		[Address(RVA = "0x5BCA7B0", Offset = "0x5BC97B0", VA = "0x5BCA7B0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C64")]
+	[Token(Token = "0x17000CE9")]
 	protected override float Height
 	{
-		[Token(Token = "0x60044FE")]
-		[Address(RVA = "0x21D6E30", Offset = "0x21D5430", VA = "0x1821D6E30", Slot = "6")]
+		[Token(Token = "0x6004A2B")]
+		[Address(RVA = "0x5BCA7C0", Offset = "0x5BC97C0", VA = "0x5BCA7C0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C65")]
+	[Token(Token = "0x17000CEA")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x60044FF")]
-		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "11")]
+		[Token(Token = "0x6004A2C")]
+		[Address(RVA = "0x5BCA7D0", Offset = "0x5BC97D0", VA = "0x5BCA7D0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C66")]
+	[Token(Token = "0x17000CEB")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004500")]
-		[Address(RVA = "0x21D1FA0", Offset = "0x21D05A0", VA = "0x1821D1FA0", Slot = "10")]
+		[Token(Token = "0x6004A2D")]
+		[Address(RVA = "0x5BCA7E0", Offset = "0x5BC97E0", VA = "0x5BCA7E0", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C67")]
+	[Token(Token = "0x17000CEC")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004501")]
-		[Address(RVA = "0x21D1FA0", Offset = "0x21D05A0", VA = "0x1821D1FA0", Slot = "9")]
+		[Token(Token = "0x6004A2E")]
+		[Address(RVA = "0x5BCA7F0", Offset = "0x5BC97F0", VA = "0x5BCA7F0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C68")]
+	[Token(Token = "0x17000CED")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004502")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x6004A2F")]
+		[Address(RVA = "0x5BCA800", Offset = "0x5BC9800", VA = "0x5BCA800", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004503")]
-	[Address(RVA = "0x21D1600", Offset = "0x21CFC00", VA = "0x1821D1600")]
+	[Token(Token = "0x6004A30")]
+	[Address(RVA = "0x5BCA810", Offset = "0x5BC9810", VA = "0x5BCA810")]
 	public static bool GetPersistentGlobalPreview()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004504")]
-	[Address(RVA = "0x21D15C0", Offset = "0x21CFBC0", VA = "0x1821D15C0")]
+	[Token(Token = "0x6004A31")]
+	[Address(RVA = "0x5BCA850", Offset = "0x5BC9850", VA = "0x5BCA850")]
 	public static bool GetPersistentCustomPreview()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004505")]
-	[Address(RVA = "0x21D1B70", Offset = "0x21D0170", VA = "0x1821D1B70")]
+	[Token(Token = "0x6004A32")]
+	[Address(RVA = "0x5BCA130", Offset = "0x5BC9130", VA = "0x5BCA130")]
 	public static void ResetSkinPreviewToggles()
 	{
 	}
 
-	[Token(Token = "0x6004506")]
-	[Address(RVA = "0x21D4860", Offset = "0x21D2E60", VA = "0x1821D4860", Slot = "20")]
+	[Token(Token = "0x6004A33")]
+	[Address(RVA = "0x5BCA890", Offset = "0x5BC9890", VA = "0x5BCA890", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004507")]
-	[Address(RVA = "0x21D28B0", Offset = "0x21D0EB0", VA = "0x1821D28B0")]
+	[Token(Token = "0x6004A34")]
+	[Address(RVA = "0x5BCCC40", Offset = "0x5BCBC40", VA = "0x5BCCC40")]
 	private string[] GetOptions(string prefix, int options, bool includeNone = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004508")]
-	[Address(RVA = "0x21D2490", Offset = "0x21D0A90", VA = "0x1821D2490")]
+	[Token(Token = "0x6004A35")]
+	[Address(RVA = "0x5BCD030", Offset = "0x5BCC030", VA = "0x5BCD030")]
 	private string[] GetHairOptions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004509")]
-	[Address(RVA = "0x21D21E0", Offset = "0x21D07E0", VA = "0x1821D21E0")]
+	[Token(Token = "0x6004A36")]
+	[Address(RVA = "0x5BCD300", Offset = "0x5BCC300", VA = "0x5BCD300")]
 	private string[] GetCostumeOptions(HumanCustomSet set)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600450A")]
-	[Address(RVA = "0x21D2710", Offset = "0x21D0D10", VA = "0x1821D2710")]
+	[Token(Token = "0x6004A37")]
+	[Address(RVA = "0x5BCCE40", Offset = "0x5BCBE40", VA = "0x5BCCE40")]
 	private string[] GetIcons(string[] options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600450B")]
-	[Address(RVA = "0x21D4550", Offset = "0x21D2B50", VA = "0x1821D4550")]
+	[Token(Token = "0x6004A38")]
+	[Address(RVA = "0x5BCD610", Offset = "0x5BCC610", VA = "0x5BCD610")]
 	private void OnSexChanged()
 	{
 	}
 
-	[Token(Token = "0x600450C")]
-	[Address(RVA = "0x21D4000", Offset = "0x21D2600", VA = "0x1821D4000")]
+	[Token(Token = "0x6004A39")]
+	[Address(RVA = "0x5BCD930", Offset = "0x5BCC930", VA = "0x5BCD930")]
 	private void OnCustomSetSelected()
 	{
 	}
 
-	[Token(Token = "0x600450D")]
-	[Address(RVA = "0x21D20C0", Offset = "0x21D06C0", VA = "0x1821D20C0")]
-	[IteratorStateMachine(typeof(_003CCapturePreviousProfilePreviewAndApplySkins_003Ed__28))]
+	[Token(Token = "0x6004A3A")]
+	[Address(RVA = "0x5BCDE90", Offset = "0x5BCCE90", VA = "0x5BCDE90")]
+	[IteratorStateMachine(typeof(_003CCapturePreviousProfilePreviewAndApplySkins_003Ed__31))]
 	private IEnumerator CapturePreviousProfilePreviewAndApplySkins(string previousProfileId, string currentProfileId, bool shouldApplySkinPreview)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600450E")]
-	[Address(RVA = "0x21D2070", Offset = "0x21D0670", VA = "0x1821D2070")]
-	[IteratorStateMachine(typeof(_003CApplySkinPreviewAfterReset_003Ed__29))]
+	[Token(Token = "0x6004A3B")]
+	[Address(RVA = "0x5BCD8F0", Offset = "0x5BCC8F0", VA = "0x5BCD8F0")]
+	[IteratorStateMachine(typeof(_003CApplySkinPreviewAfterReset_003Ed__32))]
 	private IEnumerator ApplySkinPreviewAfterReset()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600450F")]
-	[Address(RVA = "0x21D36B0", Offset = "0x21D1CB0", VA = "0x1821D36B0")]
+	[Token(Token = "0x6004A3C")]
+	[Address(RVA = "0x5BCDF20", Offset = "0x5BCCF20", VA = "0x5BCDF20")]
 	private void OnCharacterChanged()
 	{
 	}
 
-	[Token(Token = "0x6004510")]
-	[Address(RVA = "0x21D2020", Offset = "0x21D0620", VA = "0x1821D2020")]
-	[IteratorStateMachine(typeof(_003CApplySkinPreviewAfterCostumeChange_003Ed__31))]
+	[Token(Token = "0x6004A3D")]
+	[Address(RVA = "0x5BCE010", Offset = "0x5BCD010", VA = "0x5BCE010")]
+	[IteratorStateMachine(typeof(_003CApplySkinPreviewAfterCostumeChange_003Ed__34))]
 	public IEnumerator ApplySkinPreviewAfterCostumeChange()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004511")]
-	[Address(RVA = "0x21D2140", Offset = "0x21D0740", VA = "0x1821D2140")]
+	[Token(Token = "0x6004A3E")]
+	[Address(RVA = "0x5BCE050", Offset = "0x5BCD050", VA = "0x5BCE050")]
 	private void GeneratePreviewForCurrentSet()
 	{
 	}
 
-	[Token(Token = "0x6004512")]
-	[Address(RVA = "0x21D2A40", Offset = "0x21D1040", VA = "0x1821D2A40")]
+	[Token(Token = "0x6004A3F")]
+	[Address(RVA = "0x5BCE0F0", Offset = "0x5BCD0F0", VA = "0x5BCE0F0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004513")]
-	[Address(RVA = "0x21D37A0", Offset = "0x21D1DA0", VA = "0x1821D37A0")]
+	[Token(Token = "0x6004A40")]
+	[Address(RVA = "0x5BCEE90", Offset = "0x5BCDE90", VA = "0x5BCEE90")]
 	private void OnCostumeSetOperationFinish(string name)
 	{
 	}
 
-	[Token(Token = "0x6004514")]
-	[Address(RVA = "0x21D4810", Offset = "0x21D2E10", VA = "0x1821D4810")]
-	[IteratorStateMachine(typeof(_003CSaveQuitCaptureCoroutine_003Ed__35))]
+	[Token(Token = "0x6004A41")]
+	[Address(RVA = "0x5BCEE50", Offset = "0x5BCDE50", VA = "0x5BCEE50")]
+	[IteratorStateMachine(typeof(_003CSaveQuitCaptureCoroutine_003Ed__38))]
 	private IEnumerator SaveQuitCaptureCoroutine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004515")]
-	[Address(RVA = "0x21D6E20", Offset = "0x21D5420", VA = "0x1821D6E20")]
+	[Token(Token = "0x6004A42")]
+	[Address(RVA = "0x5BCF9C0", Offset = "0x5BCE9C0", VA = "0x5BCF9C0")]
 	public CharacterEditorCostumePanel()
 	{
 	}

@@ -10,88 +10,88 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000347")]
+[Token(Token = "0x2000320")]
 [ComVisible(true)]
 public sealed class MD5CryptoServiceProvider : MD5
 {
-	[Token(Token = "0x4000E00")]
+	[Token(Token = "0x4000D60")]
 	private const int BLOCK_SIZE_BYTES = 64;
 
-	[Token(Token = "0x4000E01")]
+	[Token(Token = "0x4000D61")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private uint[] _H;
 
-	[Token(Token = "0x4000E02")]
+	[Token(Token = "0x4000D62")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private uint[] buff;
 
-	[Token(Token = "0x4000E03")]
+	[Token(Token = "0x4000D63")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private ulong count;
 
-	[Token(Token = "0x4000E04")]
+	[Token(Token = "0x4000D64")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private byte[] _ProcessingBuffer;
 
-	[Token(Token = "0x4000E05")]
+	[Token(Token = "0x4000D65")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int _ProcessingBufferCount;
 
-	[Token(Token = "0x4000E06")]
+	[Token(Token = "0x4000D66")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly uint[] K;
 
-	[Token(Token = "0x6001B9E")]
-	[Address(RVA = "0x19C1360", Offset = "0x19BF960", VA = "0x1819C1360")]
+	[Token(Token = "0x6001B7B")]
+	[Address(RVA = "0x53580E0", Offset = "0x53570E0", VA = "0x53580E0")]
 	public MD5CryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001B9F")]
-	[Address(RVA = "0x19BF8A0", Offset = "0x19BDEA0", VA = "0x1819BF8A0", Slot = "1")]
+	[Token(Token = "0x6001B7C")]
+	[Address(RVA = "0x535BB70", Offset = "0x535AB70", VA = "0x535BB70", Slot = "1")]
 	~MD5CryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001BA0")]
-	[Address(RVA = "0x19BF820", Offset = "0x19BDE20", VA = "0x1819BF820", Slot = "13")]
+	[Token(Token = "0x6001B7D")]
+	[Address(RVA = "0x535BC10", Offset = "0x535AC10", VA = "0x535BC10", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001BA1")]
-	[Address(RVA = "0x19BF910", Offset = "0x19BDF10", VA = "0x1819BF910", Slot = "18")]
+	[Token(Token = "0x6001B7E")]
+	[Address(RVA = "0x535BC70", Offset = "0x535AC70", VA = "0x535BC70", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6001BA2")]
-	[Address(RVA = "0x19BFA40", Offset = "0x19BE040", VA = "0x1819BFA40", Slot = "19")]
+	[Token(Token = "0x6001B7F")]
+	[Address(RVA = "0x535C8E0", Offset = "0x535B8E0", VA = "0x535C8E0", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BA3")]
-	[Address(RVA = "0x19BFB20", Offset = "0x19BE120", VA = "0x1819BFB20", Slot = "20")]
+	[Token(Token = "0x6001B80")]
+	[Address(RVA = "0x535CD60", Offset = "0x535BD60", VA = "0x535CD60", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
-	[Token(Token = "0x6001BA4")]
-	[Address(RVA = "0x19BFBA0", Offset = "0x19BE1A0", VA = "0x1819BFBA0")]
+	[Token(Token = "0x6001B81")]
+	[Address(RVA = "0x535BD50", Offset = "0x535AD50", VA = "0x535BD50")]
 	private void ProcessBlock(byte[] inputBuffer, int inputOffset)
 	{
 	}
 
-	[Token(Token = "0x6001BA5")]
-	[Address(RVA = "0x19C10D0", Offset = "0x19BF6D0", VA = "0x1819C10D0")]
+	[Token(Token = "0x6001B82")]
+	[Address(RVA = "0x535CBC0", Offset = "0x535BBC0", VA = "0x535CBC0")]
 	private void ProcessFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount)
 	{
 	}
 
-	[Token(Token = "0x6001BA6")]
-	[Address(RVA = "0x19BF740", Offset = "0x19BDD40", VA = "0x1819BF740")]
+	[Token(Token = "0x6001B83")]
+	[Address(RVA = "0x535CDC0", Offset = "0x535BDC0", VA = "0x535CDC0")]
 	internal void AddLength(ulong length, byte[] buffer, int position)
 	{
 	}

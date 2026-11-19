@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Linq;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000033")]
 internal class IdentityFunction<TElement>
 {
-	[Token(Token = "0x1700002D")]
+	[Token(Token = "0x1700002F")]
 	public static Func<TElement, TElement> Instance
 	{
-		[Token(Token = "0x600015E")]
+		[Token(Token = "0x6000169")]
 		get
 		{
 			return null;

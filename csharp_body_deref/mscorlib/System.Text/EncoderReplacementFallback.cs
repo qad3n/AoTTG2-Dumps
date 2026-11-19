@@ -11,75 +11,75 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x20002AE")]
+[Token(Token = "0x2000286")]
 public sealed class EncoderReplacementFallback : EncoderFallback, ISerializable
 {
-	[Token(Token = "0x4000BA3")]
+	[Token(Token = "0x4000B01")]
 	[FieldOffset(Offset = "0x10")]
 	private string _strDefault;
 
-	[Token(Token = "0x17000231")]
+	[Token(Token = "0x17000230")]
 	public string DefaultString
 	{
-		[Token(Token = "0x600162C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001603")]
+		[Address(RVA = "0x530AD00", Offset = "0x5309D00", VA = "0x530AD00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000232")]
+	[Token(Token = "0x17000231")]
 	public override int MaxCharCount
 	{
-		[Token(Token = "0x600162E")]
-		[Address(RVA = "0x1976F50", Offset = "0x1975550", VA = "0x181976F50", Slot = "5")]
+		[Token(Token = "0x6001605")]
+		[Address(RVA = "0x530ADE0", Offset = "0x5309DE0", VA = "0x530ADE0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001628")]
-	[Address(RVA = "0x1978F90", Offset = "0x1977590", VA = "0x181978F90")]
+	[Token(Token = "0x60015FF")]
+	[Address(RVA = "0x5309A60", Offset = "0x5308A60", VA = "0x5309A60")]
 	public EncoderReplacementFallback()
 	{
 	}
 
-	[Token(Token = "0x6001629")]
-	[Address(RVA = "0x1978FD0", Offset = "0x19775D0", VA = "0x181978FD0")]
+	[Token(Token = "0x6001600")]
+	[Address(RVA = "0x530AB90", Offset = "0x5309B90", VA = "0x530AB90")]
 	internal EncoderReplacementFallback(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600162A")]
-	[Address(RVA = "0x1978F30", Offset = "0x1977530", VA = "0x181978F30", Slot = "6")]
+	[Token(Token = "0x6001601")]
+	[Address(RVA = "0x530ACB0", Offset = "0x5309CB0", VA = "0x530ACB0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600162B")]
-	[Address(RVA = "0x1979090", Offset = "0x1977690", VA = "0x181979090")]
+	[Token(Token = "0x6001602")]
+	[Address(RVA = "0x530AA00", Offset = "0x5309A00", VA = "0x530AA00")]
 	public EncoderReplacementFallback(string replacement)
 	{
 	}
 
-	[Token(Token = "0x600162D")]
-	[Address(RVA = "0x1978E30", Offset = "0x1977430", VA = "0x181978E30", Slot = "4")]
+	[Token(Token = "0x6001604")]
+	[Address(RVA = "0x530AD10", Offset = "0x5309D10", VA = "0x530AD10", Slot = "4")]
 	public override EncoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600162F")]
-	[Address(RVA = "0x1978EC0", Offset = "0x19774C0", VA = "0x181978EC0", Slot = "0")]
+	[Token(Token = "0x6001606")]
+	[Address(RVA = "0x530AE00", Offset = "0x5309E00", VA = "0x530AE00", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001630")]
-	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
+	[Token(Token = "0x6001607")]
+	[Address(RVA = "0x530AE60", Offset = "0x5309E60", VA = "0x530AE60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

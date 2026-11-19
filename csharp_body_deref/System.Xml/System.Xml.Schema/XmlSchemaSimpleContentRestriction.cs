@@ -38,13 +38,13 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlQualifiedName BaseTypeName
 	{
 		[Token(Token = "0x600175C")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6039770", Offset = "0x6038770", VA = "0x6039770")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600175D")]
-		[Address(RVA = "0x267ECD0", Offset = "0x267D2D0", VA = "0x18267ECD0")]
+		[Address(RVA = "0x6039780", Offset = "0x6038780", VA = "0x6039780")]
 		set
 		{
 		}
@@ -55,13 +55,13 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaSimpleType BaseType
 	{
 		[Token(Token = "0x600175E")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6039810", Offset = "0x6038810", VA = "0x6039810")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600175F")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6039820", Offset = "0x6038820", VA = "0x6039820")]
 		set
 		{
 		}
@@ -83,7 +83,7 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaObjectCollection Facets
 	{
 		[Token(Token = "0x6001760")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6039830", Offset = "0x6038830", VA = "0x6039830")]
 		get
 		{
 			return null;
@@ -96,7 +96,7 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaObjectCollection Attributes
 	{
 		[Token(Token = "0x6001761")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6039840", Offset = "0x6038840", VA = "0x6039840")]
 		get
 		{
 			return null;
@@ -108,26 +108,26 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaAnyAttribute AnyAttribute
 	{
 		[Token(Token = "0x6001762")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x6039850", Offset = "0x6038850", VA = "0x6039850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001763")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x6039860", Offset = "0x6038860", VA = "0x6039860")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001764")]
-	[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+	[Address(RVA = "0x6039870", Offset = "0x6038870", VA = "0x6039870")]
 	internal void SetAttributes(XmlSchemaObjectCollection newAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001765")]
-	[Address(RVA = "0x267EBF0", Offset = "0x267D1F0", VA = "0x18267EBF0")]
+	[Address(RVA = "0x6039880", Offset = "0x6038880", VA = "0x6039880")]
 	public XmlSchemaSimpleContentRestriction()
 	{
 	}

@@ -16,76 +16,76 @@ using UnityEngine.Networking;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x2000962")]
+[Token(Token = "0x20009C9")]
 public sealed class AottgUnityWebRequestTransport : IAottgApiTransport
 {
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000963")]
+	[Token(Token = "0x20009CA")]
 	[CompilerGenerated]
 	private struct _003CSendAsync_003Ed__0 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4002E65")]
+		[Token(Token = "0x4003113")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4002E66")]
+		[Token(Token = "0x4003114")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder<AottgApiTransportResponse> _003C_003Et__builder;
 
-		[Token(Token = "0x4002E67")]
+		[Token(Token = "0x4003115")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AottgApiTransportRequest request;
 
-		[Token(Token = "0x4002E68")]
+		[Token(Token = "0x4003116")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4002E69")]
+		[Token(Token = "0x4003117")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private UnityWebRequest _003CunityRequest_003E5__2;
 
-		[Token(Token = "0x4002E6A")]
+		[Token(Token = "0x4003118")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private UniTask<UnityWebRequest>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x600574D")]
-		[Address(RVA = "0x2373800", Offset = "0x2371E00", VA = "0x182373800", Slot = "4")]
+		[Token(Token = "0x6005AA6")]
+		[Address(RVA = "0x5D2B0A0", Offset = "0x5D2A0A0", VA = "0x5D2B0A0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600574E")]
-		[Address(RVA = "0x2374290", Offset = "0x2372890", VA = "0x182374290", Slot = "5")]
+		[Token(Token = "0x6005AA7")]
+		[Address(RVA = "0x5D2BDC0", Offset = "0x5D2ADC0", VA = "0x5D2BDC0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x6005749")]
-	[Address(RVA = "0x2368410", Offset = "0x2366A10", VA = "0x182368410", Slot = "4")]
+	[Token(Token = "0x6005AA2")]
+	[Address(RVA = "0x5D2AE30", Offset = "0x5D29E30", VA = "0x5D2AE30", Slot = "4")]
 	[AsyncStateMachine(typeof(_003CSendAsync_003Ed__0))]
 	public UniTask<AottgApiTransportResponse> SendAsync(AottgApiTransportRequest request, CancellationToken cancellationToken)
 	{
 		return default(UniTask<AottgApiTransportResponse>);
 	}
 
-	[Token(Token = "0x600574A")]
-	[Address(RVA = "0x2368290", Offset = "0x2366890", VA = "0x182368290")]
+	[Token(Token = "0x6005AA3")]
+	[Address(RVA = "0x5D2AF40", Offset = "0x5D29F40", VA = "0x5D2AF40")]
 	private static AottgApiTransportResponse BuildResponse(UnityWebRequest unityRequest, [Optional] string textOverride, [Optional] string errorOverride, [Optional] long? statusCodeOverride)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600574B")]
-	[Address(RVA = "0x23683E0", Offset = "0x23669E0", VA = "0x1823683E0")]
+	[Token(Token = "0x6005AA4")]
+	[Address(RVA = "0x5D2B090", Offset = "0x5D2A090", VA = "0x5D2B090")]
 	private static AottgApiTransportResult ConvertResult(UnityWebRequest.Result result)
 	{
 		return default(AottgApiTransportResult);
 	}
 
-	[Token(Token = "0x600574C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005AA5")]
+	[Address(RVA = "0x5D29270", Offset = "0x5D28270", VA = "0x5D29270")]
 	public AottgUnityWebRequestTransport()
 	{
 	}

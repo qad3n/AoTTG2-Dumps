@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000505")]
+[Token(Token = "0x20004DE")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface)]
 public sealed class DefaultMemberAttribute : Attribute
 {
-	[Token(Token = "0x170004A4")]
+	[Token(Token = "0x170004A3")]
 	public string MemberName
 	{
-		[Token(Token = "0x6002474")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6002442")]
+		[Address(RVA = "0x53D7C60", Offset = "0x53D6C60", VA = "0x53D7C60")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,8 +26,8 @@ public sealed class DefaultMemberAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6002473")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002441")]
+	[Address(RVA = "0x53D7C30", Offset = "0x53D6C30", VA = "0x53D7C30")]
 	public DefaultMemberAttribute(string memberName)
 	{
 	}

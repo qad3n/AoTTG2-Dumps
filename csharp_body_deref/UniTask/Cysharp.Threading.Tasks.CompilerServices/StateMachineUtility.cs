@@ -14,7 +14,7 @@ namespace Cysharp.Threading.Tasks.CompilerServices;
 internal static class StateMachineUtility
 {
 	[Token(Token = "0x6000D9C")]
-	[Address(RVA = "0x2944D90", Offset = "0x2943390", VA = "0x182944D90")]
+	[Address(RVA = "0x630D140", Offset = "0x630C140", VA = "0x630D140")]
 	public static int GetState(IAsyncStateMachine stateMachine)
 	{
 		return default(int);

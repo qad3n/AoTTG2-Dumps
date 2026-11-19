@@ -11,28 +11,28 @@ using Newtonsoft.Json;
 
 namespace CustomLogic.Editor;
 
-[Token(Token = "0x20005FD")]
+[Token(Token = "0x200065C")]
 internal class CustomLogicJsonDocsGenerator : BaseCustomLogicDocsGenerator
 {
-	[Token(Token = "0x4001A84")]
+	[Token(Token = "0x4001C25")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly JsonSerializerSettings _settings;
 
-	[Token(Token = "0x6003A8E")]
-	[Address(RVA = "0x20E4610", Offset = "0x20E2C10", VA = "0x1820E4610")]
+	[Token(Token = "0x6003D1C")]
+	[Address(RVA = "0x5A91B60", Offset = "0x5A90B60", VA = "0x5A91B60")]
 	public CustomLogicJsonDocsGenerator(CLType[] allTypes)
 	{
 	}
 
-	[Token(Token = "0x6003A8F")]
-	[Address(RVA = "0x20E45B0", Offset = "0x20E2BB0", VA = "0x1820E45B0", Slot = "4")]
+	[Token(Token = "0x6003D1D")]
+	[Address(RVA = "0x5A91C70", Offset = "0x5A90C70", VA = "0x5A91C70", Slot = "4")]
 	public override string GetRelativeFilePath(CLType type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A90")]
-	[Address(RVA = "0x20E4540", Offset = "0x20E2B40", VA = "0x1820E4540", Slot = "5")]
+	[Token(Token = "0x6003D1E")]
+	[Address(RVA = "0x5A91CD0", Offset = "0x5A90CD0", VA = "0x5A91CD0", Slot = "5")]
 	public override string Generate(CLType type)
 	{
 		return null;

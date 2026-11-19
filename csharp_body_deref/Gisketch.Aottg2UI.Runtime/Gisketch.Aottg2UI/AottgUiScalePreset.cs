@@ -12,14 +12,14 @@ namespace Gisketch.Aottg2UI;
 [Token(Token = "0x2000007")]
 public enum AottgUiScalePreset
 {
-	[Token(Token = "0x400002B")]
-	VerySmall,
 	[Token(Token = "0x400002C")]
-	Small,
+	VerySmall,
 	[Token(Token = "0x400002D")]
-	Normal,
+	Small,
 	[Token(Token = "0x400002E")]
-	Large,
+	Normal,
 	[Token(Token = "0x400002F")]
+	Large,
+	[Token(Token = "0x4000030")]
 	VeryLarge
 }

@@ -11,46 +11,46 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200006C")]
+[Token(Token = "0x200006D")]
 internal class BlockN : BlockExpression
 {
-	[Token(Token = "0x4000103")]
+	[Token(Token = "0x400010C")]
 	[FieldOffset(Offset = "0x10")]
 	private IReadOnlyList<Expression> _expressions;
 
-	[Token(Token = "0x17000063")]
+	[Token(Token = "0x17000065")]
 	internal override int ExpressionCount
 	{
-		[Token(Token = "0x60002D3")]
-		[Address(RVA = "0x24295F0", Offset = "0x2427BF0", VA = "0x1824295F0", Slot = "11")]
+		[Token(Token = "0x60002DE")]
+		[Address(RVA = "0x5DC4D90", Offset = "0x5DC3D90", VA = "0x5DC4D90", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x2429580", Offset = "0x2427B80", VA = "0x182429580")]
+	[Token(Token = "0x60002DC")]
+	[Address(RVA = "0x5DC4C70", Offset = "0x5DC3C70", VA = "0x5DC4C70")]
 	internal BlockN(IReadOnlyList<Expression> expressions)
 	{
 	}
 
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x2429440", Offset = "0x2427A40", VA = "0x182429440", Slot = "10")]
+	[Token(Token = "0x60002DD")]
+	[Address(RVA = "0x5DC4CE0", Offset = "0x5DC3CE0", VA = "0x5DC4CE0", Slot = "10")]
 	internal override Expression GetExpression(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x24294A0", Offset = "0x2427AA0", VA = "0x1824294A0", Slot = "12")]
+	[Token(Token = "0x60002DF")]
+	[Address(RVA = "0x5DC4E20", Offset = "0x5DC3E20", VA = "0x5DC4E20", Slot = "12")]
 	internal override ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x24294E0", Offset = "0x2427AE0", VA = "0x1824294E0", Slot = "14")]
+	[Token(Token = "0x60002E0")]
+	[Address(RVA = "0x5DC4E60", Offset = "0x5DC3E60", VA = "0x5DC4E60", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

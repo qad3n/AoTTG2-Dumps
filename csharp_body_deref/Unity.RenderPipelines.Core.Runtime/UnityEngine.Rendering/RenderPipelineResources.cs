@@ -16,7 +16,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	protected virtual string packagePath
 	{
 		[Token(Token = "0x6000B65")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x651DBC0", Offset = "0x651CBC0", VA = "0x651DBC0", Slot = "4")]
 		get
 		{
 			return null;
@@ -27,7 +27,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	internal string packagePath_Internal
 	{
 		[Token(Token = "0x6000B66")]
-		[Address(RVA = "0x1B47C10", Offset = "0x1B46210", VA = "0x181B47C10")]
+		[Address(RVA = "0x651DBD0", Offset = "0x651CBD0", VA = "0x651DBD0")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	}
 
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x651DBF0", Offset = "0x651CBF0", VA = "0x651DBF0")]
 	protected RenderPipelineResources()
 	{
 	}

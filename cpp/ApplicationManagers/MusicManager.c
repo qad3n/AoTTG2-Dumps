@@ -1,262 +1,335 @@
 // Type: ApplicationManagers.MusicManager
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/ApplicationManagers/MusicManager.cs
 // Prior real C# source (older reference): Assets/Scripts/ApplicationManagers/MusicManager.cs
 // --------------------------------
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$.ctor
-// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__48___ctor (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// ApplicationManagers.MusicManager.<>c$$.cctor
+// il2cpp: void ApplicationManagers_MusicManager___c___cctor (const MethodInfo* method);
+// 0x5e1b310
 
-void
-ApplicationManagers_MusicManager__FadeNextSong_d__48___ctor(ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, int32_t __1__state, MethodInfo* method)
+void ApplicationManagers_MusicManager___c___cctor(MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppObject *__this;
+  
+  if (Il2CppMethodInitialized_07548466 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager_c);
+    Il2CppMethodInitialized_07548466 = '\x01';
+  }
+  __this = (Il2CppObject *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_MusicManager_c->static_fields->__9 =
+       (ApplicationManagers_MusicManager___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MusicManager_c->static_fields->__9);
+  return;
+}
+
+
+// ApplicationManagers.MusicManager.<>c$$.ctor
+// il2cpp: void ApplicationManagers_MusicManager___c___ctor (ApplicationManagers_MusicManager___c_o* __this, const MethodInfo* method);
+// 0x5e1b380
+
+void ApplicationManagers_MusicManager___c___ctor
+               (ApplicationManagers_MusicManager___c_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// ApplicationManagers.MusicManager.<>c$$<SetPlaylist>b__37_0
+// il2cpp: bool ApplicationManagers_MusicManager___c___SetPlaylist_b__37_0 (ApplicationManagers_MusicManager___c_o* __this, System_String_o* song, const MethodInfo* method);
+// 0x5e1b390
+
+bool ApplicationManagers_MusicManager___c___SetPlaylist_b__37_0
+               (ApplicationManagers_MusicManager___c_o *__this,System_String_o *song,MethodInfo *method)
+
+{
+  bool bVar1;
+  SimpleJSONFixed_JSONNode_o *a;
+  MethodInfo *method_00;
+  
+  method_00 = (MethodInfo *)song;
+  if (Il2CppMethodInitialized_07548467 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    Il2CppMethodInitialized_07548467 = '\x01';
+  }
+  a = ApplicationManagers_MusicManager__FindSong(song,method_00);
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+  }
+  bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  return bVar1;
+}
+
+
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$.ctor
+// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__47___ctor (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x5e1a520
+
+void ApplicationManagers_MusicManager__FadeNextSong_d__47___ctor
+               (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,int32_t __1__state,
+               MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$System.IDisposable.Dispose
-// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__48__System_IDisposable_Dispose (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, const MethodInfo* method);
-// 0x180547020
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$System.IDisposable.Dispose
+// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__47__System_IDisposable_Dispose (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, const MethodInfo* method);
+// 0x5e1b3e0
 
-void
-ApplicationManagers_MusicManager__FadeNextSong_d__48__System_IDisposable_Dispose(ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, MethodInfo* method)
+void ApplicationManagers_MusicManager__FadeNextSong_d__47__System_IDisposable_Dispose
+               (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$MoveNext
-// il2cpp: bool ApplicationManagers_MusicManager__FadeNextSong_d__48__MoveNext (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, const MethodInfo* method);
-// 0x1823593e0
-// asm: 37 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182359483: jmp 0x182359543
-// asm:   0x182359716: movss xmm2, dword ptr [rip + 0xfff4ea]
-// asm:   0x18235971e: xor r8d, r8d
-// asm:   0x182359721: subss xmm2, xmm6
-// asm:   0x182359725: mov rcx, rsi
-// asm:   0x182359728: mulss xmm7, xmm2
-// asm:   0x18235972c: mulss xmm7, xmm0
-// asm:   0x182359730: movaps xmm1, xmm7
-// asm:   0x182359733: call 0x182eb56f0  ; UnityEngine_AudioSource__set_volume()
-// asm:   0x182359738: movss xmm0, dword ptr [rdi + 0x40]
-// asm:   0x18235973d: subss xmm0, xmm8
-// asm:   0x182359742: movss dword ptr [rdi + 0x40], xmm0
-// asm:   0x182359747: mov rcx, qword ptr [rip + 0x1d3d2e2]  ; TypeInfo_UnityEngine_WaitForSeconds
-// asm:   0x18235974e: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
-// asm:   0x182359753: xor r8d, r8d
-// asm:   0x182359756: movaps xmm1, xmm8
-// asm:   0x18235975a: mov rcx, rax
-// asm:   0x18235975d: mov rbx, rax
-// asm:   0x182359760: call 0x181d89ae0  ; UnityEngine_WaitForSeconds___ctor()
-// asm:   0x182359765: lea rcx, [rdi + 0x18]
-// asm:   0x182359769: mov qword ptr [rdi + 0x18], rbx
-// asm:   0x18235976d: mov rdx, rbx
-// asm:   0x182359770: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
-// asm:   0x182359775: mov dword ptr [rdi + 0x10], 2
-// asm:   0x18235977c: jmp 0x1823595b7
-// asm:   0x182359794: mulss xmm0, xmm6
-// asm:   0x182359798: xor r8d, r8d
-// asm:   0x18235979b: mov rcx, rdi
-// asm:   0x18235979e: movaps xmm1, xmm0
-// asm:   0x1823597a1: call 0x182eb56f0  ; UnityEngine_AudioSource__set_volume()
-// asm:   0x1823597a6: xor al, al
-// asm:   0x1823597a8: mov byte ptr [rbx + 0x49], 0
-// asm:   0x1823597ac: jmp 0x1823595b9
-// asm:   0x1823597b1: mov dword ptr [rbx + 0x40], 0
-// asm:   0x1823597b8: mov byte ptr [rbx + 0x48], 1
-// asm:   0x1823597bc: xor al, al
-// asm:   0x1823597be: jmp 0x1823595b9
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$MoveNext
+// il2cpp: bool ApplicationManagers_MusicManager__FadeNextSong_d__47__MoveNext (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, const MethodInfo* method);
+// 0x5e1b3f0
 
-bool ApplicationManagers_MusicManager__FadeNextSong_d__48__MoveNext
-               (ApplicationManagers_MusicManager__FadeNextSong_d__48_o *__this,MethodInfo *method)
+bool ApplicationManagers_MusicManager__FadeNextSong_d__47__MoveNext
+               (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,MethodInfo *method)
 
 {
   float fVar1;
-  int iVar2;
+  uint uVar2;
   ApplicationManagers_MusicManager_o *pAVar3;
   ApplicationManagers_MusicManager_o *pAVar4;
   System_String_o *a;
-  UnityEngine_AudioClip_o *pUVar5;
-  UnityEngine_AudioSource_o *pUVar6;
-  bool bVar7;
-  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *pPVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
+  UnityEngine_AudioSource_o *pUVar5;
+  Settings_SoundSettings_o *pSVar6;
+  Settings_FloatSetting_o *pSVar7;
+  UnityEngine_AudioClip_o *pUVar8;
+  bool bVar9;
+  int32_t iVar10;
+  UnityEngine_WaitForSeconds_o *pUVar11;
+  float fVar12;
+  float fVar13;
+  float fVar14;
   
-  if (Il2CppMethodInitialized_1843479ac == '\0') {
+  if (Il2CppMethodInitialized_07548468 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
-    Il2CppMethodInitialized_1843479ac = '\x01';
+    Il2CppMethodInitialized_07548468 = '\x01';
   }
-  iVar2 = (__this->fields).__1__state;
+  uVar2 = (__this->fields).__1__state;
+  if (3 < uVar2) {
+    return false;
+  }
   pAVar3 = (__this->fields).__4__this;
-  if (iVar2 == 0) {
+  switch(uVar2) {
+  case 0:
     (__this->fields).__1__state = -1;
     (__this->fields)._fadeInTime_5__2 = 5.0;
     (__this->fields)._fadeOutTime_5__3 = 1.0;
     pAVar4 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar4 == (ApplicationManagers_MusicManager_o *)0x0) goto label_1823597c3;
+    if (pAVar4 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e1b999;
     a = (pAVar4->fields)._currentPlaylist;
     if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
     }
-    bVar7 = System_String__op_Equality
+    bVar9 = System_String__op_Equality
                       (a,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,(MethodInfo *)0x0);
-    if (bVar7) {
+    if (bVar9) {
       (__this->fields)._fadeInTime_5__2 = 1.0;
     }
-    if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_1823597c3;
+    if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e1b999;
     (pAVar3->fields)._isFading = true;
     (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeOutTime_5__3;
-    pUVar6 = (pAVar3->fields)._audio;
-    if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-    bVar7 = UnityEngine_AudioSource__get_isPlaying(pUVar6,(MethodInfo *)0x0);
-    if (bVar7) {
-      pUVar6 = (pAVar3->fields)._audio;
-      if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-      fVar9 = UnityEngine_AudioSource__get_volume(pUVar6,(MethodInfo *)0x0);
-      (pAVar3->fields)._songVolume = fVar9;
-      goto label_182359543;
+    pUVar5 = (pAVar3->fields)._audio;
+    if (pUVar5 == (UnityEngine_AudioSource_o *)0x0) goto label_05e1b999;
+    bVar9 = UnityEngine_AudioSource__get_isPlaying(pUVar5,(MethodInfo *)0x0);
+    if (bVar9) {
+      pUVar5 = (pAVar3->fields)._audio;
+      if (pUVar5 == (UnityEngine_AudioSource_o *)0x0) goto label_05e1b999;
+      fVar12 = UnityEngine_AudioSource__get_volume(pUVar5,(MethodInfo *)0x0);
+      (pAVar3->fields)._songVolume = fVar12;
+      fVar12 = (__this->fields)._fadeTimeLeft_5__4;
+      goto joined_r0x05e1b5a6;
     }
-label_1823595e9:
-    pUVar5 = (__this->fields).nextClip;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar7 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar7) {
-      (pAVar3->fields)._songTimeLeft = 0.0;
-      (pAVar3->fields)._autoPlay = true;
-      return false;
-    }
-    pUVar6 = (pAVar3->fields)._audio;
-    if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-    UnityEngine_AudioSource__set_generatorObject
-              (pUVar6,(UnityEngine_Object_o *)(__this->fields).nextClip,(MethodInfo *)0x0);
-    pUVar6 = (pAVar3->fields)._audio;
-    if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-    UnityEngine_AudioSource__set_volume(pUVar6,0.0,(MethodInfo *)0x0);
-    pUVar5 = (__this->fields).nextClip;
-    if (pUVar5 == (UnityEngine_AudioClip_o *)0x0) goto label_1823597c3;
-    fVar9 = UnityEngine_AudioClip__get_length(pUVar5,(MethodInfo *)0x0);
-    (pAVar3->fields)._songTimeLeft = fVar9 - (__this->fields)._fadeOutTime_5__3;
-    fVar9 = (__this->fields).startTime;
-    if (0.0 < fVar9) {
-      pUVar5 = (__this->fields).nextClip;
-      if (pUVar5 == (UnityEngine_AudioClip_o *)0x0) goto label_1823597c3;
-      pUVar6 = (pAVar3->fields)._audio;
-      fVar11 = UnityEngine_AudioClip__get_length(pUVar5,(MethodInfo *)0x0);
-      if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-      if (fVar11 - 0.1 <= fVar9) {
-        fVar9 = fVar11 - 0.1;
-      }
-      UnityEngine_AudioSource__set_time(pUVar6,fVar9,(MethodInfo *)0x0);
-      (pAVar3->fields)._songTimeLeft = (pAVar3->fields)._songTimeLeft - (__this->fields).startTime;
-    }
-    pUVar6 = (pAVar3->fields)._audio;
-    if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-    UnityEngine_AudioSource__Play_2eb4470(pUVar6,(MethodInfo *)0x0);
-    (pAVar3->fields)._songVolume = (__this->fields).volume;
-    (pAVar3->fields)._autoPlay = true;
-    (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeInTime_5__2;
-  }
-  else {
-    if (iVar2 == 1) {
-      (__this->fields).__1__state = -1;
-      if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_1823597c3;
-label_182359543:
-      fVar9 = (__this->fields)._fadeTimeLeft_5__4;
-      pUVar6 = (pAVar3->fields)._audio;
-      if (0.0 < fVar9) {
-        if (pUVar6 != (UnityEngine_AudioSource_o *)0x0) {
-          UnityEngine_AudioSource__set_volume
-                    (pUVar6,(fVar9 / (__this->fields)._fadeOutTime_5__3) * (pAVar3->fields)._songVolume,
-                     (MethodInfo *)0x0);
-          (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeTimeLeft_5__4 - 0.1;
-          pPVar8 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
-                   il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
-          UnityEngine_WaitForSeconds___ctor(pPVar8,0.1,(MethodInfo *)0x0);
-          (__this->fields).__2__current = (Il2CppObject *)pPVar8;
-          Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar8);
-          (__this->fields).__1__state = 1;
-          return true;
-        }
-        goto label_1823597c3;
-      }
-      if (pUVar6 == (UnityEngine_AudioSource_o *)0x0) goto label_1823597c3;
-      UnityEngine_AudioSource__Stop_2eb4660(pUVar6,(MethodInfo *)0x0);
-      goto label_1823595e9;
-    }
-    if (iVar2 != 2) {
-      return false;
-    }
+    break;
+  case 1:
     (__this->fields).__1__state = -1;
-  }
-  if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
-    fVar9 = (__this->fields)._fadeTimeLeft_5__4;
-    if (fVar9 <= 0.0) {
-      pUVar6 = (pAVar3->fields)._audio;
-      fVar9 = (pAVar3->fields)._songVolume;
-      fVar11 = ApplicationManagers_MusicManager__GetMusicVolume((MethodInfo *)0x0);
-      if (pUVar6 != (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__set_volume(pUVar6,fVar11 * fVar9,(MethodInfo *)0x0);
-        (pAVar3->fields)._isFading = false;
-        return false;
-      }
-    }
-    else {
-      pUVar6 = (pAVar3->fields)._audio;
-      fVar11 = (__this->fields)._fadeInTime_5__2;
-      fVar1 = (pAVar3->fields)._songVolume;
-      fVar10 = ApplicationManagers_MusicManager__GetMusicVolume((MethodInfo *)0x0);
-      if (pUVar6 != (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__set_volume(pUVar6,fVar1 * (1.0 - fVar9 / fVar11) * fVar10,(MethodInfo *)0x0);
-        (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeTimeLeft_5__4 - 0.1;
-        pPVar8 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
-        UnityEngine_WaitForSeconds___ctor(pPVar8,0.1,(MethodInfo *)0x0);
-        (__this->fields).__2__current = (Il2CppObject *)pPVar8;
-        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar8);
-        (__this->fields).__1__state = 2;
+    fVar12 = (__this->fields)._fadeTimeLeft_5__4;
+joined_r0x05e1b5a6:
+    if (0.0 < fVar12) {
+      if ((pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) &&
+         (pUVar5 = (pAVar3->fields)._audio, pUVar5 != (UnityEngine_AudioSource_o *)0x0)) {
+        UnityEngine_AudioSource__set_volume
+                  (pUVar5,(fVar12 / (__this->fields)._fadeOutTime_5__3) * (pAVar3->fields)._songVolume,
+                   (MethodInfo *)0x0);
+        (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeTimeLeft_5__4 + -0.1;
+        pUVar11 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+        UnityEngine_WaitForSeconds___ctor(pUVar11,0.1,(MethodInfo *)0x0);
+        (__this->fields).__2__current = (Il2CppObject *)pUVar11;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+        (__this->fields).__1__state = 1;
         return true;
       }
+      goto label_05e1b999;
+    }
+    if ((pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) ||
+       (pUVar5 = (pAVar3->fields)._audio, pUVar5 == (UnityEngine_AudioSource_o *)0x0)) goto label_05e1b999;
+    UnityEngine_AudioSource__Stop_68b0850(pUVar5,(MethodInfo *)0x0);
+    break;
+  case 2:
+    (__this->fields).__1__state = -1;
+    goto label_05e1b802;
+  case 3:
+    (__this->fields).__1__state = -1;
+    fVar12 = (__this->fields)._fadeTimeLeft_5__4;
+    goto joined_r0x05e1b64b;
+  }
+  pUVar8 = (__this->fields).nextClip;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar9 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar9) {
+    (pAVar3->fields)._songTimeLeft = 0.0;
+    (pAVar3->fields)._autoPlay = true;
+    return false;
+  }
+  pUVar5 = (pAVar3->fields)._audio;
+  if (pUVar5 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__set_clip(pUVar5,(__this->fields).nextClip,(MethodInfo *)0x0);
+    pUVar5 = (pAVar3->fields)._audio;
+    if (pUVar5 != (UnityEngine_AudioSource_o *)0x0) {
+      UnityEngine_AudioSource__set_volume(pUVar5,0.0,(MethodInfo *)0x0);
+      pUVar8 = (__this->fields).nextClip;
+      if (pUVar8 != (UnityEngine_AudioClip_o *)0x0) {
+        fVar12 = UnityEngine_AudioClip__get_length(pUVar8,(MethodInfo *)0x0);
+        (pAVar3->fields)._songTimeLeft = fVar12 - (__this->fields)._fadeOutTime_5__3;
+        pUVar5 = (pAVar3->fields)._audio;
+        if (pUVar5 != (UnityEngine_AudioSource_o *)0x0) {
+          UnityEngine_AudioSource__Play_68b06a0(pUVar5,(MethodInfo *)0x0);
+          if (0.0 < (__this->fields).startTime) {
+label_05e1b802:
+            pUVar8 = (__this->fields).nextClip;
+            if (pUVar8 == (UnityEngine_AudioClip_o *)0x0) goto label_05e1b999;
+            iVar10 = UnityEngine_AudioClip__get_loadState(pUVar8,(MethodInfo *)0x0);
+            if (iVar10 == 1) {
+              (__this->fields).__2__current = (Il2CppObject *)0x0;
+              Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+              (__this->fields).__1__state = 2;
+              return true;
+            }
+            if ((pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) ||
+               (pUVar8 = (__this->fields).nextClip, pUVar8 == (UnityEngine_AudioClip_o *)0x0))
+            goto label_05e1b999;
+            pUVar5 = (pAVar3->fields)._audio;
+            fVar12 = (__this->fields).startTime;
+            fVar14 = UnityEngine_AudioClip__get_length(pUVar8,(MethodInfo *)0x0);
+            if (pUVar5 == (UnityEngine_AudioSource_o *)0x0) goto label_05e1b999;
+            if (fVar14 + -0.1 <= fVar12) {
+              fVar12 = fVar14 + -0.1;
+            }
+            UnityEngine_AudioSource__set_time(pUVar5,fVar12,(MethodInfo *)0x0);
+            (pAVar3->fields)._songTimeLeft = (pAVar3->fields)._songTimeLeft - (__this->fields).startTime;
+          }
+          (pAVar3->fields)._songVolume = (__this->fields).volume;
+          (pAVar3->fields)._autoPlay = true;
+          fVar12 = (__this->fields)._fadeInTime_5__2;
+          (__this->fields)._fadeTimeLeft_5__4 = fVar12;
+joined_r0x05e1b64b:
+          if (0.0 < fVar12) {
+            if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
+              fVar14 = (__this->fields)._fadeInTime_5__2;
+              pUVar5 = (pAVar3->fields)._audio;
+              fVar1 = (pAVar3->fields)._songVolume;
+              if (Il2CppMethodInitialized_07548462 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+                Il2CppMethodInitialized_07548462 = '\x01';
+              }
+              fVar13 = 0.0;
+              if (TypeInfo_ApplicationManagers_MusicManager->static_fields->_muted == false) {
+                pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+                if ((pSVar6 == (Settings_SoundSettings_o *)0x0) ||
+                   (pSVar7 = (pSVar6->fields).Music, pSVar7 == (Settings_FloatSetting_o *)0x0))
+                goto label_05e1b999;
+                fVar13 = (pSVar7->fields)._value * 0.4;
+              }
+              if (pUVar5 != (UnityEngine_AudioSource_o *)0x0) {
+                UnityEngine_AudioSource__set_volume
+                          (pUVar5,(1.0 - fVar12 / fVar14) * fVar1 * fVar13,(MethodInfo *)0x0);
+                (__this->fields)._fadeTimeLeft_5__4 = (__this->fields)._fadeTimeLeft_5__4 + -0.1;
+                pUVar11 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+                UnityEngine_WaitForSeconds___ctor(pUVar11,0.1,(MethodInfo *)0x0);
+                (__this->fields).__2__current = (Il2CppObject *)pUVar11;
+                Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+                (__this->fields).__1__state = 3;
+                return true;
+              }
+            }
+          }
+          else if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
+            pUVar5 = (pAVar3->fields)._audio;
+            fVar12 = (pAVar3->fields)._songVolume;
+            if (Il2CppMethodInitialized_07548462 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+              Il2CppMethodInitialized_07548462 = '\x01';
+            }
+            fVar14 = 0.0;
+            if (TypeInfo_ApplicationManagers_MusicManager->static_fields->_muted == false) {
+              pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+              if ((pSVar6 == (Settings_SoundSettings_o *)0x0) ||
+                 (pSVar7 = (pSVar6->fields).Music, pSVar7 == (Settings_FloatSetting_o *)0x0))
+              goto label_05e1b999;
+              fVar14 = (pSVar7->fields)._value * 0.4;
+            }
+            if (pUVar5 != (UnityEngine_AudioSource_o *)0x0) {
+              UnityEngine_AudioSource__set_volume(pUVar5,fVar12 * fVar14,(MethodInfo *)0x0);
+              (pAVar3->fields)._isFading = false;
+              return false;
+            }
+          }
+        }
+      }
     }
   }
-label_1823597c3:
+label_05e1b999:
   ThrowNullReferenceException();
 }
 
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_Generic_IEnumerator_System_Object__get_Current (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, const MethodInfo* method);
-// 0x180573e90
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_Generic_IEnumerator_System_Object__get_Current (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, const MethodInfo* method);
+// 0x5e1b9a0
 
-Il2CppObject*
-ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_Generic_IEnumerator_System_Object__get_Current(ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, MethodInfo* method)
+Il2CppObject *
+ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$System.Collections.IEnumerator.Reset
-// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_IEnumerator_Reset (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, const MethodInfo* method);
-// 0x1823597d0
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$System.Collections.IEnumerator.Reset
+// il2cpp: void ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_IEnumerator_Reset (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, const MethodInfo* method);
+// 0x5e1b9b0
 
-void ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_IEnumerator_Reset
-               (ApplicationManagers_MusicManager__FadeNextSong_d__48_o *__this,MethodInfo *method)
+void ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_IEnumerator_Reset
+               (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -269,145 +342,19 @@ void ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_IE
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_ApplicationManagers_MusicManager_FadeNextSong_d__48_System_Collections_IEnumerator_Reset
+                  MethodInfo_ApplicationManagers_MusicManager_FadeNextSong_d__47_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// ApplicationManagers.MusicManager.<FadeNextSong>d__48$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_IEnumerator_get_Current (ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, const MethodInfo* method);
-// 0x180573e90
+// ApplicationManagers.MusicManager.<FadeNextSong>d__47$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_IEnumerator_get_Current (ApplicationManagers_MusicManager__FadeNextSong_d__47_o* __this, const MethodInfo* method);
+// 0x5e1b9f0
 
-Il2CppObject*
-ApplicationManagers_MusicManager__FadeNextSong_d__48__System_Collections_IEnumerator_get_Current(ApplicationManagers_MusicManager__FadeNextSong_d__48_o* __this, MethodInfo* method)
-
-{
-  return (__this->fields).__2__current;
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$.ctor
-// il2cpp: void ApplicationManagers_MusicManager__StartSoundEffect_d__43___ctor (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
-
-void
-ApplicationManagers_MusicManager__StartSoundEffect_d__43___ctor(ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, int32_t __1__state, MethodInfo* method)
-
-{
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  (__this->fields).__1__state = __1__state;
-  return;
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$System.IDisposable.Dispose
-// il2cpp: void ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_IDisposable_Dispose (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, const MethodInfo* method);
-// 0x180547020
-
-void
-ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_IDisposable_Dispose(ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, MethodInfo* method)
-
-{
-  return;
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$MoveNext
-// il2cpp: bool ApplicationManagers_MusicManager__StartSoundEffect_d__43__MoveNext (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, const MethodInfo* method);
-// 0x18235dc10
-
-bool ApplicationManagers_MusicManager__StartSoundEffect_d__43__MoveNext
-               (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o *__this,MethodInfo *method)
-
-{
-  int iVar1;
-  ApplicationManagers_MusicManager_o *pAVar2;
-  UnityEngine_AudioSource_o *pUVar3;
-  UnityEngine_AudioClip_o *__this_00;
-  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *__this_01;
-  float amplificationFactor;
-  
-  if (Il2CppMethodInitialized_1843479ad == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
-    Il2CppMethodInitialized_1843479ad = '\x01';
-  }
-  iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 0) {
-    pAVar2 = (__this->fields).__4__this;
-    (__this->fields).__1__state = -1;
-    if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
-       (pUVar3 = (pAVar2->fields)._soundEffect, pUVar3 != (UnityEngine_AudioSource_o *)0x0)) {
-      UnityEngine_AudioSource__set_volume(pUVar3,(__this->fields).volume,(MethodInfo *)0x0);
-      pUVar3 = (pAVar2->fields)._soundEffect;
-      if (pUVar3 != (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__PlayOneShot(pUVar3,(__this->fields).clip,(MethodInfo *)0x0);
-        __this_00 = (__this->fields).clip;
-        if (__this_00 != (UnityEngine_AudioClip_o *)0x0) {
-          amplificationFactor = UnityEngine_AudioClip__get_length(__this_00,(MethodInfo *)0x0);
-          __this_01 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
-                      il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
-          UnityEngine_WaitForSeconds___ctor
-                    (__this_01,amplificationFactor,(MethodInfo *)0x0);
-          (__this->fields).__2__current = (Il2CppObject *)__this_01;
-          Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
-          (__this->fields).__1__state = 1;
-          return true;
-        }
-      }
-    }
-    ThrowNullReferenceException();
-  }
-  if (iVar1 == 1) {
-    (__this->fields).__1__state = -1;
-  }
-  return false;
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_Generic_IEnumerator_System_Object__get_Current (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, const MethodInfo* method);
-// 0x180573e90
-
-Il2CppObject*
-ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_Generic_IEnumerator_System_Object__get_Current(ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, MethodInfo* method)
-
-{
-  return (__this->fields).__2__current;
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$System.Collections.IEnumerator.Reset
-// il2cpp: void ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_IEnumerator_Reset (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, const MethodInfo* method);
-// 0x18235dd00
-
-void ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_IEnumerator_Reset
-               (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o *__this,MethodInfo *method)
-
-{
-  Il2CppClass *klass;
-  System_NotSupportedException_o *__this_00;
-  MethodInfo *lastManagedFrame;
-  
-  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
-  System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata
-                 (&
-                  MethodInfo_ApplicationManagers_MusicManager_StartSoundEffect_d__43_System_Collections_IEnumerator_Reset
-                 );
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
-}
-
-
-// ApplicationManagers.MusicManager.<StartSoundEffect>d__43$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_IEnumerator_get_Current (ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, const MethodInfo* method);
-// 0x180573e90
-
-Il2CppObject*
-ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_IEnumerator_get_Current(ApplicationManagers_MusicManager__StartSoundEffect_d__43_o* __this, MethodInfo* method)
+Il2CppObject *
+ApplicationManagers_MusicManager__FadeNextSong_d__47__System_Collections_IEnumerator_get_Current
+          (ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -416,21 +363,26 @@ ApplicationManagers_MusicManager__StartSoundEffect_d__43__System_Collections_IEn
 
 // ApplicationManagers.MusicManager$$Init
 // il2cpp: void ApplicationManagers_MusicManager__Init (const MethodInfo* method);
-// 0x1823527c0
+// 0x5e08f30
 
 void ApplicationManagers_MusicManager__Init(MethodInfo *method)
 
 {
-  ApplicationManagers_MusicManager_o *pAVar1;
-  Events_OnLoadScene_o *value;
-  UnityEngine_GameObject_o *pUVar2;
-  UnityEngine_AudioSource_o *pUVar3;
-  UnityEngine_Transform_o *__this;
+  ApplicationManagers_MusicManager_StaticFields *pAVar1;
+  ApplicationManagers_MusicManager_o *pAVar2;
+  Events_OnLoadScene_o *__this;
+  UnityEngine_GameObject_o *pUVar3;
+  UnityEngine_AudioSource_o *pUVar4;
+  UnityEngine_Transform_o *__this_00;
   UnityEngine_Transform_o *p;
-  System_String_o *pSVar4;
-  SimpleJSONFixed_JSONNode_o *value_00;
+  System_String_o *pSVar5;
+  SimpleJSONFixed_JSONNode_o *pSVar6;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347991 == '\0') {
+  if (Il2CppMethodInitialized_0754844d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_AudioSource);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_ApplicationManagers_MusicManager_OnLoadScene);
@@ -442,70 +394,72 @@ void ApplicationManagers_MusicManager__Init(MethodInfo *method)
               (&MethodInfo_Utility_SingletonFactory_CreateSingleton_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"SoundEffect");
     il2cpp_codegen_initialize_runtime_metadata(&"MusicInfo");
-    Il2CppMethodInitialized_184347991 = '\x01';
+    Il2CppMethodInitialized_0754844d = '\x01';
   }
-  pAVar1 = Utility_SingletonFactory__CreateSingleton_object_
+  pAVar2 = Utility_SingletonFactory__CreateSingleton_object_
                      ((Il2CppObject *)TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance,
-                      (MethodInfo_798ED0 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_MusicManager);
-  TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance = pAVar1;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance,pAVar1);
-  value = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnLoadScene);
+                      (MethodInfo_3680650 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_MusicManager);
+  TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance = pAVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnLoadScene);
   Events_OnLoadScene___ctor
-            ((UnityEngine_AudioClip_PCMSetPositionCallback_o *)value,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_ApplicationManagers_MusicManager_OnLoadScene,(MethodInfo *)0x0);
-  Events_EventManager__add_OnLoadScene(value,(MethodInfo *)0x0);
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-    pUVar2 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pAVar1,(MethodInfo *)0x0);
-    if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar3 = UnityEngine_GameObject__AddComponent_object_
-                         (pUVar2,(MethodInfo_6F4D60 *)
+            (__this,(Il2CppObject *)0x0,(intptr_t)MethodInfo_ApplicationManagers_MusicManager_OnLoadScene,
+             (MethodInfo *)0x0);
+  Events_EventManager__add_OnLoadScene(__this,(MethodInfo *)0x0);
+  pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
+    pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pAVar2,(MethodInfo *)0x0);
+    if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+      pUVar4 = UnityEngine_GameObject__AddComponent_object_
+                         (pUVar3,(MethodInfo_353B6A0 *)
                                  MethodInfo_UnityEngine_GameObject_AddComponent_AudioSource);
-      (pAVar1->fields)._audio = pUVar3;
-      Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._audio,pUVar3);
-      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-         (pUVar3 = (pAVar1->fields)._audio, pUVar3 != (UnityEngine_AudioSource_o *)0x0)) {
-        UnityEngine_AudioSource__set_ignoreListenerVolume(pUVar3,true,(MethodInfo *)0x0);
-        pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        pUVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-        UnityEngine_GameObject___ctor(pUVar2,"SoundEffect",(MethodInfo *)0x0);
-        if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-          (pAVar1->fields)._soundEffectObject = pUVar2;
-          Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._soundEffectObject,pUVar2);
-          pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-          if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-             (pUVar2 = (pAVar1->fields)._soundEffectObject, pUVar2 != (UnityEngine_GameObject_o *)0x0)) {
-            __this = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0);
-            pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-              p = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pAVar1,(MethodInfo *)0x0);
-              if (__this != (UnityEngine_Transform_o *)0x0) {
-                UnityEngine_Transform__SetParent(__this,p,(MethodInfo *)0x0);
-                pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                   (pUVar2 = (pAVar1->fields)._soundEffectObject, pUVar2 != (UnityEngine_GameObject_o *)0x0))
+      (pAVar2->fields)._audio = pUVar4;
+      Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._audio);
+      pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+      if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
+         (pUVar4 = (pAVar2->fields)._audio, pUVar4 != (UnityEngine_AudioSource_o *)0x0)) {
+        UnityEngine_AudioSource__set_ignoreListenerVolume(pUVar4,true,(MethodInfo *)0x0);
+        pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+        pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+        UnityEngine_GameObject___ctor(pUVar3,"SoundEffect",(MethodInfo *)0x0);
+        if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
+          (pAVar2->fields)._soundEffectObject = pUVar3;
+          Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._soundEffectObject);
+          pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+          if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
+             (pUVar3 = (pAVar2->fields)._soundEffectObject, pUVar3 != (UnityEngine_GameObject_o *)0x0)) {
+            __this_00 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
+            pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+            if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
+              p = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pAVar2,(MethodInfo *)0x0);
+              if (__this_00 != (UnityEngine_Transform_o *)0x0) {
+                UnityEngine_Transform__SetParent(__this_00,p,(MethodInfo *)0x0);
+                pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+                if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
+                   (pUVar3 = (pAVar2->fields)._soundEffectObject, pUVar3 != (UnityEngine_GameObject_o *)0x0))
                 {
-                  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                  pUVar3 = UnityEngine_GameObject__AddComponent_object_
-                                     (pUVar2,(MethodInfo_6F4D60 *)
+                  pUVar4 = UnityEngine_GameObject__AddComponent_object_
+                                     (pUVar3,(MethodInfo_353B6A0 *)
                                              MethodInfo_UnityEngine_GameObject_AddComponent_AudioSource);
-                  (pAVar1->fields)._soundEffect = pUVar3;
-                  Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._soundEffect,pUVar3);
+                  (pAVar2->fields)._soundEffect = pUVar4;
+                  Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._soundEffect);
+                  method_00 = extraout_RDX;
                   if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
                     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+                    method_00 = extraout_RDX_00;
                   }
-                  pSVar4 = TypeInfo_Utility_ResourcePaths->static_fields->Info;
+                  pSVar5 = TypeInfo_Utility_ResourcePaths->static_fields->Info;
                   if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
                     il2cpp_codegen_runtime_class_init
                               ((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+                    method_00 = extraout_RDX_01;
                   }
-                  pSVar4 = ApplicationManagers_ResourceManager__TryLoadText
-                                     (pSVar4,"MusicInfo",(MethodInfo *)0x0);
-                  value_00 = SimpleJSONFixed_JSON__Parse(pSVar4,(MethodInfo *)0x0);
-                  TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo = value_00;
-                  Il2CppCodeGenWriteBarrier
-                            (&TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo,value_00);
+                  pSVar5 = ApplicationManagers_ResourceManager__TryLoadText
+                                     (pSVar5,"MusicInfo",method_00);
+                  pSVar6 = SimpleJSONFixed_JSON__Parse(pSVar5,(MethodInfo *)0x0);
+                  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
+                  pAVar1->_musicInfo = pSVar6;
+                  Il2CppCodeGenWriteBarrier(&pAVar1->_musicInfo);
                   return;
                 }
               }
@@ -521,40 +475,40 @@ void ApplicationManagers_MusicManager__Init(MethodInfo *method)
 
 // ApplicationManagers.MusicManager$$OnLoadScene
 // il2cpp: void ApplicationManagers_MusicManager__OnLoadScene (int32_t sceneName, const MethodInfo* method);
-// 0x182352f00
+// 0x5e18580
 
 void ApplicationManagers_MusicManager__OnLoadScene(int32_t sceneName,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184347992 == '\0') {
+  if (Il2CppMethodInitialized_0754844e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
-    Il2CppMethodInitialized_184347992 = '\x01';
+    Il2CppMethodInitialized_0754844e = '\x01';
   }
-  if (((sceneName != 1) && (3 < sceneName - 3U)) && (sceneName != 7)) {
+  if (3 < sceneName - 3U) {
     if (sceneName == 2) {
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
       }
       ApplicationManagers_MusicManager__SetPlaylist
-                (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,(MethodInfo *)0x0);
+                (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,method);
       return;
     }
-    return;
+    if (sceneName != 1) {
+      return;
+    }
   }
   if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
   }
   ApplicationManagers_MusicManager__SetPlaylist
-            (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Menu,(MethodInfo *)0x0);
+            (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Menu,method);
   return;
 }
 
 
 // ApplicationManagers.MusicManager$$ApplySoundSettings
 // il2cpp: void ApplicationManagers_MusicManager__ApplySoundSettings (const MethodInfo* method);
-// 0x182351b60
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182351cd5: movaps xmm6, xmmword ptr [rsp + 0x20]
+// 0x5e16170
 
 void ApplicationManagers_MusicManager__ApplySoundSettings(MethodInfo *method)
 
@@ -563,94 +517,112 @@ void ApplicationManagers_MusicManager__ApplySoundSettings(MethodInfo *method)
   ApplicationManagers_MusicManager_o *pAVar2;
   UnityEngine_AudioSource_o *__this;
   Settings_SoundSettings_o *pSVar3;
-  Settings_StringSetting_o *pSVar4;
+  Settings_FloatSetting_o *pSVar4;
+  Settings_StringSetting_o *pSVar5;
   System_String_o *a;
-  bool bVar5;
-  float fVar6;
+  bool bVar6;
+  ApplicationManagers_MusicManager_StaticFields *pAVar7;
+  MethodInfo *method_00;
+  float fVar8;
   
-  if (Il2CppMethodInitialized_184347993 == '\0') {
+  if (Il2CppMethodInitialized_0754844f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    Il2CppMethodInitialized_184347993 = '\x01';
+    Il2CppMethodInitialized_0754844f = '\x01';
   }
   pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar5 = UnityEngine_Object__op_Equality
+  bVar6 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)pAVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
+  if (bVar6) {
     return;
   }
-  pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  pAVar7 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
+  pAVar2 = pAVar7->_instance;
   if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
     if ((pAVar2->fields)._isFading == false) {
       __this = (pAVar2->fields)._audio;
       fVar1 = (pAVar2->fields)._songVolume;
-      fVar6 = ApplicationManagers_MusicManager__GetMusicVolume((MethodInfo *)0x0);
-      if (__this == (UnityEngine_AudioSource_o *)0x0) goto label_182351ce0;
-      UnityEngine_AudioSource__set_volume(__this,fVar6 * fVar1,(MethodInfo *)0x0);
+      if (Il2CppMethodInitialized_07548462 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+        Il2CppMethodInitialized_07548462 = '\x01';
+        pAVar7 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
+      }
+      fVar8 = 0.0;
+      if (pAVar7->_muted == false) {
+        pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+        if ((pSVar3 == (Settings_SoundSettings_o *)0x0) ||
+           (pSVar4 = (pSVar3->fields).Music, pSVar4 == (Settings_FloatSetting_o *)0x0)) goto label_05e16372;
+        fVar8 = (pSVar4->fields)._value * 0.4;
+      }
+      if (__this == (UnityEngine_AudioSource_o *)0x0) goto label_05e16372;
+      UnityEngine_AudioSource__set_volume(__this,fVar1 * fVar8,(MethodInfo *)0x0);
     }
     pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
     if ((pSVar3 != (Settings_SoundSettings_o *)0x0) &&
-       (pSVar4 = (pSVar3->fields).ForcePlaylist, pSVar4 != (Settings_StringSetting_o *)0x0)) {
-      a = (pSVar4->fields)._value;
+       (pSVar5 = (pSVar3->fields).ForcePlaylist, pSVar5 != (Settings_StringSetting_o *)0x0)) {
+      a = (pSVar5->fields)._value;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
       }
-      bVar5 = System_String__op_Inequality
-                        (a,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,
-                         (MethodInfo *)0x0);
-      if (bVar5) {
-        pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
-        if ((pSVar3 == (Settings_SoundSettings_o *)0x0) ||
-           (pSVar4 = (pSVar3->fields).ForcePlaylist, pSVar4 == (Settings_StringSetting_o *)0x0))
-        goto label_182351ce0;
-        ApplicationManagers_MusicManager__SetPlaylist((pSVar4->fields)._value,(MethodInfo *)0x0);
+      method_00 = (MethodInfo *)TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default;
+      bVar6 = System_String__op_Inequality(a,(System_String_o *)method_00,(MethodInfo *)0x0);
+      if (!bVar6) {
+        return;
       }
-      return;
+      pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+      if ((pSVar3 != (Settings_SoundSettings_o *)0x0) &&
+         (pSVar5 = (pSVar3->fields).ForcePlaylist, pSVar5 != (Settings_StringSetting_o *)0x0)) {
+        ApplicationManagers_MusicManager__SetPlaylist((pSVar5->fields)._value,method_00);
+        return;
+      }
     }
   }
-label_182351ce0:
+label_05e16372:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$PlayDeathSong
 // il2cpp: void ApplicationManagers_MusicManager__PlayDeathSong (const MethodInfo* method);
-// 0x182352fb0
+// 0x5e18a20
 
 void ApplicationManagers_MusicManager__PlayDeathSong(MethodInfo *method)
 
 {
   ApplicationManagers_MusicManager_o *pAVar1;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
-  SimpleJSONFixed_JSONNode_o *pSVar3;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347994 == '\0') {
+  if (Il2CppMethodInitialized_07548450 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Death");
-    Il2CppMethodInitialized_184347994 = '\x01';
+    Il2CppMethodInitialized_07548450 = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
     if ((pAVar1->fields)._isDefaultPlaylist == false) {
       return;
     }
-    pSVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-    if (pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      pSVar2 = (*(pSVar3->klass->vtable)._7_get_Item.methodPtr)(pSVar3,(MethodInfo *)"Death");
-      if (pSVar2 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-        pSVar3 = (SimpleJSONFixed_JSONNode_o *)
-                 (*(pSVar2->klass->vtable)._5_OnRemove.methodPtr)
-                           (pSVar2,(System_Type_o *)0x0,(pSVar2->klass->vtable)._5_OnRemove.method);
+    pSVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+    if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar2,"Death",(pSVar2->klass->vtable)._7_get_Item.method);
+      if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        method_00 = (MethodInfo *)0x0;
+        pSVar2 = (*(pSVar2->klass->vtable)._5_get_Item.methodPtr)
+                           (pSVar2,0,(pSVar2->klass->vtable)._5_get_Item.method);
         pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
         if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
           (pAVar1->fields)._isMenuTransition = false;
-          ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar3,(MethodInfo *)0x0);
+          ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar2,method_00);
           return;
         }
       }
@@ -662,7 +634,7 @@ void ApplicationManagers_MusicManager__PlayDeathSong(MethodInfo *method)
 
 // ApplicationManagers.MusicManager$$PlayGrabbedSong
 // il2cpp: void ApplicationManagers_MusicManager__PlayGrabbedSong (const MethodInfo* method);
-// 0x182353130
+// 0x5e18db0
 
 void ApplicationManagers_MusicManager__PlayGrabbedSong(MethodInfo *method)
 
@@ -670,23 +642,26 @@ void ApplicationManagers_MusicManager__PlayGrabbedSong(MethodInfo *method)
   Settings_SoundSettings_o *pSVar1;
   Settings_BoolSetting_o *pSVar2;
   ApplicationManagers_MusicManager_o *pAVar3;
-  System_String_o *pSVar4;
+  System_String_o *a;
   UnityEngine_AudioSource_o *__this;
-  bool bVar5;
-  System_Xml_Schema_XmlSchema_o *pSVar6;
-  SimpleJSONFixed_JSONNode_o *pSVar7;
-  float fVar8;
+  bool bVar4;
+  SimpleJSONFixed_JSONNode_o *pSVar5;
+  MethodInfo *method_00;
+  System_String_o **ppSVar6;
+  float fVar7;
   
-  if (Il2CppMethodInitialized_184347995 == '\0') {
+  if (Il2CppMethodInitialized_07548451 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    ppSVar6 = &"Grabbed";
     il2cpp_codegen_initialize_runtime_metadata(&"Grabbed");
-    Il2CppMethodInitialized_184347995 = '\x01';
+    Il2CppMethodInitialized_07548451 = '\x01';
+    method = (MethodInfo *)ppSVar6;
   }
-  bVar5 = ApplicationManagers_MusicManager__IsMusicDisabled((MethodInfo *)0x0);
-  if (bVar5) {
+  bVar4 = ApplicationManagers_MusicManager__IsMusicDisabled(method);
+  if (bVar4) {
     return;
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
@@ -695,52 +670,45 @@ void ApplicationManagers_MusicManager__PlayGrabbedSong(MethodInfo *method)
     if ((pSVar2->fields)._value == false) {
       return;
     }
-    pSVar7 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-    if ((pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
-       (pSVar6 = (*(pSVar7->klass->vtable)._7_get_Item.methodPtr)(pSVar7,(MethodInfo *)"Grabbed"),
-       pSVar6 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
-      pSVar7 = (SimpleJSONFixed_JSONNode_o *)
-               (*(pSVar6->klass->vtable)._5_OnRemove.methodPtr)
-                         (pSVar6,(System_Type_o *)0x0,(pSVar6->klass->vtable)._5_OnRemove.method);
+    pSVar5 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+    if ((pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+       (pSVar5 = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)
+                           (pSVar5,"Grabbed",(pSVar5->klass->vtable)._7_get_Item.method),
+       pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      pSVar5 = (*(pSVar5->klass->vtable)._5_get_Item.methodPtr)
+                         (pSVar5,0,(pSVar5->klass->vtable)._5_get_Item.method);
       pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
       if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
         (pAVar3->fields)._isMenuTransition = false;
+        a = (pAVar3->fields)._currentPlaylist;
+        if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+        }
+        bVar4 = System_String__op_Equality
+                          (a,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
+                           (MethodInfo *)0x0);
         pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
-          pSVar4 = (pAVar3->fields)._currentPlaylist;
-          if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
-          }
-          bVar5 = System_String__op_Equality
-                            (pSVar4,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
-                             (MethodInfo *)0x0);
-          if (bVar5) {
+        if (bVar4) {
+          if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
+            (pAVar3->fields)._lastSongBeforeGrabbed = (pAVar3->fields)._currentSongName;
+            Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._lastSongBeforeGrabbed);
             pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
-              pSVar4 = (pAVar3->fields)._currentSongName;
-              (pAVar3->fields)._lastSongBeforeGrabbed = pSVar4;
-              Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._lastSongBeforeGrabbed,pSVar4);
-              pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-              if ((pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                 (__this = (pAVar3->fields)._audio, __this != (UnityEngine_AudioSource_o *)0x0)) {
-                pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                fVar8 = UnityEngine_AudioSource__get_time(__this,(MethodInfo *)0x0);
-                (pAVar3->fields)._lastTimeBeforeGrabbed = fVar8;
-                goto label_182353329;
-              }
+            if ((pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) &&
+               (__this = (pAVar3->fields)._audio, __this != (UnityEngine_AudioSource_o *)0x0)) {
+              method_00 = (MethodInfo *)0x0;
+              fVar7 = UnityEngine_AudioSource__get_time(__this,(MethodInfo *)0x0);
+              (pAVar3->fields)._lastTimeBeforeGrabbed = fVar7;
+              goto label_05e18f7c;
             }
           }
-          else {
-            pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
-              pSVar4 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-              (pAVar3->fields)._lastSongBeforeGrabbed = pSVar4;
-              Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._lastSongBeforeGrabbed,pSVar4);
-label_182353329:
-              ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar7,(MethodInfo *)0x0);
-              return;
-            }
-          }
+        }
+        else if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
+          method_00 = (MethodInfo *)**(undefined8 **)(g_data_07556758 + 0xb8);
+          (pAVar3->fields)._lastSongBeforeGrabbed = (System_String_o *)method_00;
+          Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._lastSongBeforeGrabbed);
+label_05e18f7c:
+          ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar5,method_00);
+          return;
         }
       }
     }
@@ -751,65 +719,59 @@ label_182353329:
 
 // ApplicationManagers.MusicManager$$OnEscapeGrab
 // il2cpp: void ApplicationManagers_MusicManager__OnEscapeGrab (const MethodInfo* method);
-// 0x182352e70
+// 0x5e19070
 
 void ApplicationManagers_MusicManager__OnEscapeGrab(MethodInfo *method)
 
 {
   ApplicationManagers_MusicManager_o *pAVar1;
   
-  if (Il2CppMethodInitialized_184347996 == '\0') {
+  if (Il2CppMethodInitialized_07548452 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
-    Il2CppMethodInitialized_184347996 = '\x01';
+    Il2CppMethodInitialized_07548452 = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-    if ((pAVar1->fields)._transitionTimeLeft <= 0.0) {
-      return;
-    }
-    (pAVar1->fields)._transitionTimeLeft = 0.0;
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-      (pAVar1->fields)._songTimeLeft = 0.0;
-      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-        (pAVar1->fields)._justEscapedGrab = true;
-        return;
-      }
-    }
+  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if (0.0 < (pAVar1->fields)._transitionTimeLeft) {
+    (pAVar1->fields)._transitionTimeLeft = 0.0;
+    (pAVar1->fields)._songTimeLeft = 0.0;
+    (pAVar1->fields)._justEscapedGrab = true;
+  }
+  return;
 }
 
 
 // ApplicationManagers.MusicManager$$PlayEffect
 // il2cpp: void ApplicationManagers_MusicManager__PlayEffect (const MethodInfo* method);
-// 0x182353070
+// 0x5e190d0
 
 void ApplicationManagers_MusicManager__PlayEffect(MethodInfo *method)
 
 {
-  int32_t iVar1;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
-  System_Xml_Schema_XmlSchema_o *pSVar3;
-  SimpleJSONFixed_JSONNode_o *pSVar4;
+  int32_t maxExclusive;
+  uint uVar1;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347997 == '\0') {
+  if (Il2CppMethodInitialized_07548453 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Effect");
-    Il2CppMethodInitialized_184347997 = '\x01';
+    Il2CppMethodInitialized_07548453 = '\x01';
   }
-  pSVar4 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-  if (pSVar4 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    pSVar2 = (*(pSVar4->klass->vtable)._7_get_Item.methodPtr)(pSVar4,(MethodInfo *)"Effect");
-    if (pSVar2 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      pSVar3 = (*(pSVar2->klass->vtable)._11_get_NameAttribute.methodPtr)
-                         (pSVar2,(pSVar2->klass->vtable)._11_get_NameAttribute.method);
-      iVar1 = UnityEngine_Random__RandomRangeInt(0,(int32_t)pSVar3,(MethodInfo *)0x0);
-      pSVar4 = (SimpleJSONFixed_JSONNode_o *)
-               (*(pSVar2->klass->vtable)._5_OnRemove.methodPtr)
-                         (pSVar2,(System_Type_o *)iVar1,(pSVar2->klass->vtable)._5_OnRemove.method);
-      ApplicationManagers_MusicManager__PlaySoundEffect(pSVar4,(MethodInfo *)0x0);
+  pSVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+  if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+    pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                       (pSVar2,"Effect",(pSVar2->klass->vtable)._7_get_Item.method);
+    if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      maxExclusive = (*(pSVar2->klass->vtable)._11_get_Count.methodPtr)
+                               (pSVar2,(pSVar2->klass->vtable)._11_get_Count.method);
+      uVar1 = UnityEngine_Random__Range_690e2b0(0,maxExclusive,(MethodInfo *)0x0);
+      method_00 = (MethodInfo *)(ulong)uVar1;
+      pSVar2 = (*(pSVar2->klass->vtable)._5_get_Item.methodPtr)
+                         (pSVar2,uVar1,(pSVar2->klass->vtable)._5_get_Item.method);
+      ApplicationManagers_MusicManager__PlaySoundEffect(pSVar2,method_00);
       return;
     }
   }
@@ -819,55 +781,58 @@ void ApplicationManagers_MusicManager__PlayEffect(MethodInfo *method)
 
 // ApplicationManagers.MusicManager$$PlayTransition
 // il2cpp: void ApplicationManagers_MusicManager__PlayTransition (const MethodInfo* method);
-// 0x1823538c0
+// 0x5e193b0
 
 void ApplicationManagers_MusicManager__PlayTransition(MethodInfo *method)
 
 {
   ApplicationManagers_MusicManager_o *pAVar1;
   bool bVar2;
-  int32_t iVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
-  System_Xml_Schema_XmlSchema_o *pSVar5;
-  SimpleJSONFixed_JSONNode_o *pSVar6;
+  int32_t maxExclusive;
+  uint uVar3;
+  SimpleJSONFixed_JSONNode_o *pSVar4;
+  MethodInfo *method_00;
+  System_String_o **ppSVar5;
   
-  if (Il2CppMethodInitialized_184347998 == '\0') {
+  if (Il2CppMethodInitialized_07548454 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+    ppSVar5 = &"Transition";
     il2cpp_codegen_initialize_runtime_metadata(&"Transition");
-    Il2CppMethodInitialized_184347998 = '\x01';
+    Il2CppMethodInitialized_07548454 = '\x01';
+    method = (MethodInfo *)ppSVar5;
   }
-  bVar2 = ApplicationManagers_MusicManager__IsMusicDisabled((MethodInfo *)0x0);
-  if (!bVar2) {
-    pSVar6 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-    if (pSVar6 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      pSVar4 = (*(pSVar6->klass->vtable)._7_get_Item.methodPtr)(pSVar6,(MethodInfo *)"Transition");
-      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-        (pAVar1->fields)._isMenuTransition = true;
-        pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-           ((pAVar1->fields)._justPlayedMenuTransition = true, pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0)
-           ) {
-          pSVar5 = (*(pSVar4->klass->vtable)._11_get_NameAttribute.methodPtr)
-                             (pSVar4,(pSVar4->klass->vtable)._11_get_NameAttribute.method);
-          iVar3 = UnityEngine_Random__RandomRangeInt(0,(int32_t)pSVar5,(MethodInfo *)0x0);
-          pSVar6 = (SimpleJSONFixed_JSONNode_o *)
-                   (*(pSVar4->klass->vtable)._5_OnRemove.methodPtr)
-                             (pSVar4,(System_Type_o *)iVar3,(pSVar4->klass->vtable)._5_OnRemove.method);
-          ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar6,(MethodInfo *)0x0);
-          return;
-        }
-      }
+  bVar2 = ApplicationManagers_MusicManager__IsMusicDisabled(method);
+  if (bVar2) {
+    return;
+  }
+  pSVar4 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+  if (pSVar4 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+    pSVar4 = (*(pSVar4->klass->vtable)._7_get_Item.methodPtr)
+                       (pSVar4,"Transition",(pSVar4->klass->vtable)._7_get_Item.method);
+    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+       ((pAVar1->fields)._isMenuTransition = true, (pAVar1->fields)._justPlayedMenuTransition = true,
+       pSVar4 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      maxExclusive = (*(pSVar4->klass->vtable)._11_get_Count.methodPtr)
+                               (pSVar4,(pSVar4->klass->vtable)._11_get_Count.method);
+      uVar3 = UnityEngine_Random__Range_690e2b0(0,maxExclusive,(MethodInfo *)0x0);
+      method_00 = (MethodInfo *)(ulong)uVar3;
+      pSVar4 = (*(pSVar4->klass->vtable)._5_get_Item.methodPtr)
+                         (pSVar4,uVar3,(pSVar4->klass->vtable)._5_get_Item.method);
+      ApplicationManagers_MusicManager__PlayImmediateTransition(pSVar4,method_00);
+      return;
     }
-    ThrowNullReferenceException();
   }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$SetPlaylist
 // il2cpp: void ApplicationManagers_MusicManager__SetPlaylist (System_String_o* playlist, const MethodInfo* method);
-// 0x1823539d0
+// 0x5e18620
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e187e0: test r15, r15
+// asm:   0x5e187e9: jmp 0x5e18980
 
 void ApplicationManagers_MusicManager__SetPlaylist(System_String_o *playlist,MethodInfo *method)
 
@@ -877,23 +842,34 @@ void ApplicationManagers_MusicManager__SetPlaylist(System_String_o *playlist,Met
   System_String_o *pSVar3;
   Settings_StringSetting_o *pSVar4;
   ApplicationManagers_MusicManager_o *pAVar5;
+  Il2CppObject *object;
   bool bVar6;
   System_String_array *collection;
-  System_Collections_Generic_List_string__o *__this;
+  System_Collections_Generic_List_string__o *pSVar7;
+  ApplicationManagers_MusicManager___c_StaticFields *pAVar8;
+  System_Predicate_T__o *match;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *pMVar9;
   
-  if (Il2CppMethodInitialized_184347999 == '\0') {
+  if (Il2CppMethodInitialized_07548455 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_FindAll);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Predicate_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    Il2CppMethodInitialized_184347999 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_MusicManager_c_SetPlaylist_b__37_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager_c);
+    Il2CppMethodInitialized_07548455 = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
   if ((pSVar1 == (Settings_SoundSettings_o *)0x0) ||
-     (pSVar2 = (pSVar1->fields).ForcePlaylist, pSVar2 == (Settings_StringSetting_o *)0x0)) goto label_182353c4c;
+     (pSVar2 = (pSVar1->fields).ForcePlaylist, pSVar2 == (Settings_StringSetting_o *)0x0)) goto label_05e18980;
   pSVar3 = (pSVar2->fields)._value;
   if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
@@ -906,62 +882,94 @@ void ApplicationManagers_MusicManager__SetPlaylist(System_String_o *playlist,Met
     if ((((pSVar1 == (Settings_SoundSettings_o *)0x0) ||
          (pSVar2 = (pSVar1->fields).ForcePlaylist, pSVar2 == (Settings_StringSetting_o *)0x0)) ||
         (pSVar4 = (pSVar1->fields).CustomPlaylist, pSVar4 == (Settings_StringSetting_o *)0x0)) ||
-       (pSVar3 = (pSVar4->fields)._value, pSVar3 == (System_String_o *)0x0)) goto label_182353c4c;
+       (pSVar3 = (pSVar4->fields)._value, pSVar3 == (System_String_o *)0x0)) goto label_05e18980;
     playlist = (pSVar2->fields)._value;
     pAVar5 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
     collection = System_String__Split(pSVar3,0x2c,0,(MethodInfo *)0x0);
-    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-    System_Collections_Generic_List_object____ctor_94fb10
-              ((System_Collections_Generic_List_object__o *)__this,
+    pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+    System_Collections_Generic_List_object____ctor_395ca70
+              ((System_Collections_Generic_List_object__o *)pSVar7,
                (System_Collections_Generic_IEnumerable_T__o *)collection,
-               (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
-    if (pAVar5 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182353c4c;
-    (pAVar5->fields)._customPlaylist = __this;
-    Il2CppCodeGenWriteBarrier(&(pAVar5->fields)._customPlaylist,__this);
+               (MethodInfo_395CA70 *)MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
+    if ((TypeInfo_ApplicationManagers_MusicManager_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_c);
+      pAVar8 = TypeInfo_ApplicationManagers_MusicManager_c->static_fields;
+      match = (System_Predicate_T__o *)pAVar8->__9__37_0;
+    }
+    else {
+      pAVar8 = TypeInfo_ApplicationManagers_MusicManager_c->static_fields;
+      match = (System_Predicate_T__o *)pAVar8->__9__37_0;
+    }
+    if (match == (System_Predicate_T__o *)0x0) {
+      if ((((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_c)->_2).cctor_finished_or_no_cctor == 0)
+      {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_c);
+        pAVar8 = TypeInfo_ApplicationManagers_MusicManager_c->static_fields;
+      }
+      object = (Il2CppObject *)pAVar8->__9;
+      match = (System_Predicate_T__o *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Predicate_string);
+      System_Predicate_object____ctor
+                ((System_Predicate_object__o *)match,object,
+                 (intptr_t)MethodInfo_ApplicationManagers_MusicManager_c_SetPlaylist_b__37_0,
+                 (MethodInfo_3DC95B0 *)0x0);
+      pAVar8 = TypeInfo_ApplicationManagers_MusicManager_c->static_fields;
+      pAVar8->__9__37_0 = (System_Predicate_string__o *)match;
+      Il2CppCodeGenWriteBarrier(&pAVar8->__9__37_0);
+    }
+    if ((pSVar7 == (System_Collections_Generic_List_string__o *)0x0) ||
+       (pSVar7 = (System_Collections_Generic_List_string__o *)
+                 System_Collections_Generic_List_object___FindAll
+                           ((System_Collections_Generic_List_object__o *)pSVar7,match,
+                            (MethodInfo_395DAF0 *)MethodInfo_System_Collections_Generic_List_string_FindAll),
+       pAVar5 == (ApplicationManagers_MusicManager_o *)0x0)) goto label_05e18980;
+    (pAVar5->fields)._customPlaylist = pSVar7;
+    Il2CppCodeGenWriteBarrier(&(pAVar5->fields)._customPlaylist);
+  }
+  if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+  }
+  pMVar9 = (MethodInfo *)playlist;
+  bVar6 = System_String__op_Equality
+                    (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,
+                     (MethodInfo *)0x0);
+  if (bVar6) {
+    ApplicationManagers_MusicManager__StopMusic(pMVar9);
+    return;
   }
   if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
   }
   bVar6 = System_String__op_Equality
-                    (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,
+                    (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,
                      (MethodInfo *)0x0);
+  pAVar5 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  pMVar9 = extraout_RDX;
   if (bVar6) {
-    ApplicationManagers_MusicManager__StopMusic((MethodInfo *)0x0);
-  }
-  else {
-    if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
-    }
-    bVar6 = System_String__op_Equality
-                      (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,
-                       (MethodInfo *)0x0);
-    pAVar5 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (bVar6) {
-      if (pAVar5 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182353c4c;
+    if (pAVar5 != (ApplicationManagers_MusicManager_o *)0x0) {
       (pAVar5->fields)._isDefaultPlaylist = true;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+        pMVar9 = extraout_RDX_00;
       }
-      bVar6 = true;
       playlist = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Ambient;
+label_05e18967:
+      ApplicationManagers_MusicManager__FinishSetPlaylist(playlist,bVar6,pMVar9);
+      return;
     }
-    else {
-      if (pAVar5 == (ApplicationManagers_MusicManager_o *)0x0) {
-label_182353c4c:
-        ThrowNullReferenceException();
-      }
-      bVar6 = false;
-      (pAVar5->fields)._isDefaultPlaylist = false;
-    }
-    ApplicationManagers_MusicManager__FinishSetPlaylist(playlist,bVar6,(MethodInfo *)0x0);
   }
-  return;
+  else if (pAVar5 != (ApplicationManagers_MusicManager_o *)0x0) {
+    (pAVar5->fields)._isDefaultPlaylist = false;
+    goto label_05e18967;
+  }
+label_05e18980:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$IsMusicDisabled
 // il2cpp: bool ApplicationManagers_MusicManager__IsMusicDisabled (const MethodInfo* method);
-// 0x182352ae0
+// 0x5e18fa0
 
 bool ApplicationManagers_MusicManager__IsMusicDisabled(MethodInfo *method)
 
@@ -970,11 +978,11 @@ bool ApplicationManagers_MusicManager__IsMusicDisabled(MethodInfo *method)
   System_String_o *a;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_18434799a == '\0') {
+  if (Il2CppMethodInitialized_07548456 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434799a = '\x01';
+    Il2CppMethodInitialized_07548456 = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -982,11 +990,11 @@ bool ApplicationManagers_MusicManager__IsMusicDisabled(MethodInfo *method)
   }
   bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pAVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar2) {
-    return false;
-  }
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
+  if (bVar2) {
+    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) {
+      ThrowNullReferenceException();
+    }
     a = (pAVar1->fields)._currentPlaylist;
     if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
@@ -995,25 +1003,24 @@ bool ApplicationManagers_MusicManager__IsMusicDisabled(MethodInfo *method)
                       (a,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,(MethodInfo *)0x0);
     return bVar2;
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // ApplicationManagers.MusicManager$$StopMusic
 // il2cpp: void ApplicationManagers_MusicManager__StopMusic (const MethodInfo* method);
-// 0x182354a20
+// 0x5e19490
 
 void ApplicationManagers_MusicManager__StopMusic(MethodInfo *method)
 
 {
   ApplicationManagers_MusicManager_o *pAVar1;
-  System_String_o *pSVar2;
-  UnityEngine_AudioSource_o *pUVar3;
+  UnityEngine_AudioSource_o *pUVar2;
   
-  if (Il2CppMethodInitialized_18434799b == '\0') {
+  if (Il2CppMethodInitialized_07548457 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
-    Il2CppMethodInitialized_18434799b = '\x01';
+    Il2CppMethodInitialized_07548457 = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
@@ -1021,59 +1028,34 @@ void ApplicationManagers_MusicManager__StopMusic(MethodInfo *method)
     pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
     if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
       (pAVar1->fields)._isFading = false;
+      (pAVar1->fields)._isDefaultPlaylist = false;
+      if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+      }
+      (pAVar1->fields)._currentPlaylist = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None;
+      Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._currentPlaylist);
       pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
       if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-        (pAVar1->fields)._isDefaultPlaylist = false;
+        (pAVar1->fields)._currentSongName = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+        Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._currentSongName);
         pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
-        }
         if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-          pSVar2 = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None;
-          (pAVar1->fields)._currentPlaylist = pSVar2;
-          Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._currentPlaylist,pSVar2);
+          (pAVar1->fields)._autoPlay = false;
+          (pAVar1->fields)._songTimeLeft = 0.0;
+          (pAVar1->fields)._transitionTimeLeft = 0.0;
+          (pAVar1->fields)._isMenuTransition = false;
+          (pAVar1->fields)._justPlayedMenuTransition = false;
+          (pAVar1->fields)._lastSongBeforeGrabbed = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+          Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._lastSongBeforeGrabbed);
           pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-          if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-            pSVar2 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-            (pAVar1->fields)._currentSongName = pSVar2;
-            Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._currentSongName,pSVar2);
+          if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+             (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) {
+            UnityEngine_AudioSource__Stop_68b0850(pUVar2,(MethodInfo *)0x0);
             pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-              (pAVar1->fields)._autoPlay = false;
-              pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-              if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                (pAVar1->fields)._songTimeLeft = 0.0;
-                pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                  (pAVar1->fields)._transitionTimeLeft = 0.0;
-                  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                    (pAVar1->fields)._isMenuTransition = false;
-                    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                    if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                      (pAVar1->fields)._justPlayedMenuTransition = false;
-                      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                      if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                        pSVar2 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-                        (pAVar1->fields)._lastSongBeforeGrabbed = pSVar2;
-                        Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._lastSongBeforeGrabbed,pSVar2);
-                        pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                        if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                           (pUVar3 = (pAVar1->fields)._audio, pUVar3 != (UnityEngine_AudioSource_o *)0x0)) {
-                          UnityEngine_AudioSource__Stop_2eb4660(pUVar3,(MethodInfo *)0x0);
-                          pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                          if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                             (pUVar3 = (pAVar1->fields)._audio, pUVar3 != (UnityEngine_AudioSource_o *)0x0)) {
-                            UnityEngine_AudioSource__set_generatorObject
-                                      (pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                            return;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
+            if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+               (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) {
+              UnityEngine_AudioSource__set_clip(pUVar2,(UnityEngine_AudioClip_o *)0x0,(MethodInfo *)0x0);
+              return;
             }
           }
         }
@@ -1086,182 +1068,177 @@ void ApplicationManagers_MusicManager__StopMusic(MethodInfo *method)
 
 // ApplicationManagers.MusicManager$$FinishSetPlaylist
 // il2cpp: void ApplicationManagers_MusicManager__FinishSetPlaylist (System_String_o* playlist, bool forceNext, const MethodInfo* method);
-// 0x1823520f0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18235221e: mov rdx, qword ptr [rip + 0x1d7a7fb]  ; TypeInfo_ApplicationManagers_MusicManager
-// asm:   0x1823522e2: mov rcx, qword ptr [rip + 0x1d7a737]  ; TypeInfo_ApplicationManagers_MusicManager
-// asm:   0x182352311: mov rcx, qword ptr [rip + 0x1d7a708]  ; TypeInfo_ApplicationManagers_MusicManager
+// 0x5e19610
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e196c8: jmp 0x5e1971d
 
 void ApplicationManagers_MusicManager__FinishSetPlaylist
                (System_String_o *playlist,bool forceNext,MethodInfo *method)
 
 {
-  ApplicationManagers_MusicManager_o *pAVar1;
+  bool bVar1;
   bool bVar2;
-  bool bVar3;
+  ApplicationManagers_MusicManager_o *pAVar3;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_18434799c == '\0') {
+  if (Il2CppMethodInitialized_07548458 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
-    Il2CppMethodInitialized_18434799c = '\x01';
+    Il2CppMethodInitialized_07548458 = '\x01';
   }
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-  bVar2 = System_String__op_Inequality((pAVar1->fields)._currentPlaylist,playlist,(MethodInfo *)0x0);
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-  (pAVar1->fields)._currentPlaylist = playlist;
-  Il2CppCodeGenWriteBarrier(&(pAVar1->fields)._currentPlaylist,playlist);
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-  if (((pAVar1->fields)._isDefaultPlaylist != false) ||
-     (((pAVar1->fields)._isMenuTransition == false && (0.0 < (pAVar1->fields)._transitionTimeLeft)))) {
-    (TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance->fields)._songTimeLeft = 0.0;
-  }
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-  if ((pAVar1->fields)._isMenuTransition == false) {
-label_182352225:
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-    (pAVar1->fields)._transitionTimeLeft = 0.0;
+  pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+  bVar1 = System_String__op_Inequality((pAVar3->fields)._currentPlaylist,playlist,(MethodInfo *)0x0);
+  pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+  (pAVar3->fields)._currentPlaylist = playlist;
+  Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._currentPlaylist);
+  pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+  bVar2 = (pAVar3->fields)._isMenuTransition;
+  if ((pAVar3->fields)._isDefaultPlaylist == false) {
+    if (bVar2 != false) goto label_05e196d2;
+    if (0.0 < (pAVar3->fields)._transitionTimeLeft) {
+      (pAVar3->fields)._songTimeLeft = 0.0;
+    }
+label_05e1971d:
+    (pAVar3->fields)._transitionTimeLeft = 0.0;
   }
   else {
+    (pAVar3->fields)._songTimeLeft = 0.0;
+    if (bVar2 == false) goto label_05e1971d;
+label_05e196d2:
     if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
     }
-    bVar3 = System_String__op_Equality
+    bVar2 = System_String__op_Equality
                       (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
                        (MethodInfo *)0x0);
-    if (bVar3) goto label_182352225;
+    if (bVar2) {
+      pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+      if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+      goto label_05e1971d;
+    }
   }
   if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
   }
-  bVar3 = System_String__op_Equality
+  bVar2 = System_String__op_Equality
                     (playlist,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
                      (MethodInfo *)0x0);
-  if (bVar3) {
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-    if (((pAVar1->fields)._justEscapedGrab == false) ||
-       (bVar3 = System_String__op_Inequality
-                          ((pAVar1->fields)._lastSongBeforeGrabbed,
-                           (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0),
-       !bVar3)) goto label_1823522e9;
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-    ApplicationManagers_MusicManager__SetSong
-              ((pAVar1->fields)._lastSongBeforeGrabbed,(pAVar1->fields)._lastTimeBeforeGrabbed,
-               (MethodInfo *)0x0);
-  }
-  else {
-label_1823522e9:
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182352340;
-    if (((pAVar1->fields)._transitionTimeLeft <= 0.0) && (bVar2 || forceNext)) {
-      (pAVar1->fields)._currentSong = 0;
-      ApplicationManagers_MusicManager__NextSong((MethodInfo *)0x0);
+  if (!bVar2) goto label_05e197bf;
+  pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+  if ((pAVar3->fields)._justEscapedGrab == false) {
+label_05e197bf:
+    pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+    if (((pAVar3->fields)._transitionTimeLeft <= 0.0) && (bVar1 || forceNext)) {
+      (pAVar3->fields)._currentSong = 0;
+      ApplicationManagers_MusicManager__NextSong((MethodInfo *)playlist);
     }
   }
-  pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-    (pAVar1->fields)._justEscapedGrab = false;
+  else {
+    playlist = (pAVar3->fields)._lastSongBeforeGrabbed;
+    method_00 = (MethodInfo *)**(undefined8 **)(g_data_07556758 + 0xb8);
+    bVar2 = System_String__op_Inequality(playlist,(System_String_o *)method_00,(MethodInfo *)0x0);
+    if (!bVar2) goto label_05e197bf;
+    pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if (pAVar3 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19829;
+    ApplicationManagers_MusicManager__SetSong
+              ((pAVar3->fields)._lastSongBeforeGrabbed,(pAVar3->fields)._lastTimeBeforeGrabbed,method_00);
+  }
+  pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar3 != (ApplicationManagers_MusicManager_o *)0x0) {
+    (pAVar3->fields)._justEscapedGrab = false;
     return;
   }
-label_182352340:
+label_05e19829:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$PlaySoundEffect
 // il2cpp: void ApplicationManagers_MusicManager__PlaySoundEffect (SimpleJSONFixed_JSONNode_o* songInfo, const MethodInfo* method);
-// 0x1823535d0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823537e2: mov rdi, qword ptr [rsp + 0x50]
-// asm:   0x1823537e7: mov rsi, qword ptr [rsp + 0x48]
-// asm:   0x1823537ec: movaps xmm6, xmmword ptr [rsp + 0x20]
+// 0x5e19180
 
 void ApplicationManagers_MusicManager__PlaySoundEffect
                (SimpleJSONFixed_JSONNode_o *songInfo,MethodInfo *method)
 
 {
-  ApplicationManagers_MusicManager_o *__this;
-  bool bVar1;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
+  ApplicationManagers_MusicManager_o *pAVar1;
+  UnityEngine_AudioSource_o *pUVar2;
+  bool bVar3;
+  SimpleJSONFixed_JSONNode_o *pSVar4;
   System_String_o *name;
-  UnityEngine_AudioClip_o *pUVar3;
-  ApplicationManagers_MusicManager__StartSoundEffect_d__43_o *routine;
-  UnityEngine_AudioClip_o *value;
-  float fVar4;
+  UnityEngine_AudioClip_o *clip;
+  MethodInfo *in_R8;
+  float value;
   
-  if (Il2CppMethodInitialized_18434799d == '\0') {
+  if (Il2CppMethodInitialized_07548459 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_AudioClip);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Name");
     il2cpp_codegen_initialize_runtime_metadata(&"Music");
     il2cpp_codegen_initialize_runtime_metadata(&"Volume");
-    Il2CppMethodInitialized_18434799d = '\x01';
+    Il2CppMethodInitialized_07548459 = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(songInfo,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
+  bVar3 = SimpleJSONFixed_JSONNode__op_Equality(songInfo,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
     if (songInfo == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_1823537f7:
+label_05e193a2:
       ThrowNullReferenceException();
     }
-    bVar1 = (*(songInfo->klass->vtable)._28_HasKey.methodPtr)(songInfo,(MethodInfo *)"Name");
-    if (bVar1) {
-      pSVar2 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (songInfo,(MethodInfo *)"Name");
+    bVar3 = (*(songInfo->klass->vtable)._28_HasKey.methodPtr)
+                      (songInfo,"Name",(songInfo->klass->vtable)._28_HasKey.method);
+    if (bVar3) {
+      pSVar4 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
+                         (songInfo,"Name",(songInfo->klass->vtable)._7_get_Item.method);
       if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      name = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                       ((SimpleJSONFixed_JSONNode_o *)pSVar2,(MethodInfo *)0x0);
+      name = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar4,(MethodInfo *)0x0);
       if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
       }
-      pUVar3 = (UnityEngine_AudioClip_o *)
-               ApplicationManagers_ResourceManager__LoadAsset
-                         ("Music",name,false,(MethodInfo *)0x0);
-      value = (UnityEngine_AudioClip_o *)0x0;
-      if (pUVar3 != (UnityEngine_AudioClip_o *)0x0) {
-        if (pUVar3->klass == TypeInfo_UnityEngine_AudioClip) {
-          value = pUVar3;
-        }
-        if (value == (UnityEngine_AudioClip_o *)0x0) {
-          il2cpp_codegen_raise_invalid_cast_exception(pUVar3);
-        }
+      clip = (UnityEngine_AudioClip_o *)
+             ApplicationManagers_ResourceManager__LoadAsset("Music",name,false,false,in_R8);
+      if ((clip != (UnityEngine_AudioClip_o *)0x0) && (clip->klass != TypeInfo_UnityEngine_AudioClip)) {
+        il2cpp_codegen_raise_invalid_cast_exception(clip);
       }
-      pSVar2 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (songInfo,(MethodInfo *)"Volume");
-      fVar4 = SimpleJSONFixed_JSONNode__op_Implicit_1dc40b0
-                        ((SimpleJSONFixed_JSONNode_o *)pSVar2,(MethodInfo *)0x0);
-      __this = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if (__this == (ApplicationManagers_MusicManager_o *)0x0) goto label_1823537f7;
-      if (Il2CppMethodInitialized_18434799f == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_ApplicationManagers_MusicManager_StartSoundEffect_d__43);
-        Il2CppMethodInitialized_18434799f = '\x01';
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_StartSoundEffect_d__43);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      (routine->fields).clip = value;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).clip,value);
-      (routine->fields).volume = fVar4;
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                 (MethodInfo *)0x0);
+      bVar3 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)clip,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (!bVar3) {
+        pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+        if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
+          pUVar2 = (pAVar1->fields)._soundEffect;
+          pSVar4 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
+                             (songInfo,"Volume",(songInfo->klass->vtable)._7_get_Item.method);
+          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+          }
+          value = SimpleJSONFixed_JSONNode__op_Implicit_5763af0(pSVar4,(MethodInfo *)0x0);
+          if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
+            UnityEngine_AudioSource__set_volume(pUVar2,value,(MethodInfo *)0x0);
+            pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+            if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+               (pUVar2 = (pAVar1->fields)._soundEffect, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) {
+              UnityEngine_AudioSource__PlayOneShot(pUVar2,clip,(MethodInfo *)0x0);
+              return;
+            }
+          }
+        }
+        goto label_05e193a2;
+      }
     }
   }
   return;
@@ -1270,7 +1247,7 @@ label_1823537f7:
 
 // ApplicationManagers.MusicManager$$PlayImmediateTransition
 // il2cpp: void ApplicationManagers_MusicManager__PlayImmediateTransition (SimpleJSONFixed_JSONNode_o* songInfo, const MethodInfo* method);
-// 0x182353350
+// 0x5e18ad0
 
 void ApplicationManagers_MusicManager__PlayImmediateTransition
                (SimpleJSONFixed_JSONNode_o *songInfo,MethodInfo *method)
@@ -1278,15 +1255,18 @@ void ApplicationManagers_MusicManager__PlayImmediateTransition
 {
   ApplicationManagers_MusicManager_o *pAVar1;
   UnityEngine_AudioSource_o *pUVar2;
-  bool bVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
+  Settings_SoundSettings_o *pSVar3;
+  Settings_FloatSetting_o *pSVar4;
+  bool bVar5;
+  SimpleJSONFixed_JSONNode_o *pSVar6;
   System_String_o *name;
-  UnityEngine_AudioClip_o *pUVar5;
-  UnityEngine_AudioClip_o *__this;
-  float fVar6;
-  float fVar7;
+  UnityEngine_AudioClip_o *value;
+  ApplicationManagers_MusicManager_StaticFields *pAVar7;
+  MethodInfo *in_R8;
+  float fVar8;
+  float fVar9;
   
-  if (Il2CppMethodInitialized_18434799e == '\0') {
+  if (Il2CppMethodInitialized_0754845a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_AudioClip);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
@@ -1294,143 +1274,117 @@ void ApplicationManagers_MusicManager__PlayImmediateTransition
     il2cpp_codegen_initialize_runtime_metadata(&"Name");
     il2cpp_codegen_initialize_runtime_metadata(&"Music");
     il2cpp_codegen_initialize_runtime_metadata(&"Volume");
-    Il2CppMethodInitialized_18434799e = '\x01';
+    Il2CppMethodInitialized_0754845a = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(songInfo,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if (bVar3) {
-    if (songInfo != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      bVar3 = (*(songInfo->klass->vtable)._28_HasKey.methodPtr)(songInfo,(MethodInfo *)"Name");
-      if (!bVar3) {
-        return;
-      }
-      pSVar4 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (songInfo,(MethodInfo *)"Name");
-      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-      }
-      name = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                       ((SimpleJSONFixed_JSONNode_o *)pSVar4,(MethodInfo *)0x0);
-      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
-      }
-      pUVar5 = (UnityEngine_AudioClip_o *)
-               ApplicationManagers_ResourceManager__LoadAsset
-                         ("Music",name,false,(MethodInfo *)0x0);
-      __this = (UnityEngine_AudioClip_o *)0x0;
-      if (pUVar5 != (UnityEngine_AudioClip_o *)0x0) {
-        if (pUVar5->klass == TypeInfo_UnityEngine_AudioClip) {
-          __this = pUVar5;
+  bVar5 = SimpleJSONFixed_JSONNode__op_Inequality(songInfo,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (!bVar5) {
+    return;
+  }
+  if (songInfo != (SimpleJSONFixed_JSONNode_o *)0x0) {
+    bVar5 = (*(songInfo->klass->vtable)._28_HasKey.methodPtr)
+                      (songInfo,"Name",(songInfo->klass->vtable)._28_HasKey.method);
+    if (!bVar5) {
+      return;
+    }
+    pSVar6 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
+                       (songInfo,"Name",(songInfo->klass->vtable)._7_get_Item.method);
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+    }
+    name = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar6,(MethodInfo *)0x0);
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+    }
+    value = (UnityEngine_AudioClip_o *)
+            ApplicationManagers_ResourceManager__LoadAsset("Music",name,false,false,in_R8);
+    if ((value != (UnityEngine_AudioClip_o *)0x0) && (value->klass != TypeInfo_UnityEngine_AudioClip)) {
+      il2cpp_codegen_raise_invalid_cast_exception(value);
+    }
+    pSVar6 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
+                       (songInfo,"Volume",(songInfo->klass->vtable)._7_get_Item.method);
+    fVar8 = SimpleJSONFixed_JSONNode__op_Implicit_5763af0(pSVar6,(MethodInfo *)0x0);
+    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+       (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) {
+      UnityEngine_AudioSource__set_clip(pUVar2,value,(MethodInfo *)0x0);
+      pAVar7 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
+      if (pAVar7->_instance != (ApplicationManagers_MusicManager_o *)0x0) {
+        pUVar2 = (pAVar7->_instance->fields)._audio;
+        if (Il2CppMethodInitialized_07548462 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+          Il2CppMethodInitialized_07548462 = '\x01';
+          pAVar7 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
         }
-        if (__this == (UnityEngine_AudioClip_o *)0x0) {
-          il2cpp_codegen_raise_invalid_cast_exception(pUVar5);
+        fVar9 = 0.0;
+        if (pAVar7->_muted == false) {
+          pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+          if ((pSVar3 == (Settings_SoundSettings_o *)0x0) ||
+             (pSVar4 = (pSVar3->fields).Music, pSVar4 == (Settings_FloatSetting_o *)0x0)) goto label_05e18da3;
+          fVar9 = (pSVar4->fields)._value * 0.4;
         }
-      }
-      pSVar4 = (*(songInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (songInfo,(MethodInfo *)"Volume");
-      fVar6 = SimpleJSONFixed_JSONNode__op_Implicit_1dc40b0
-                        ((SimpleJSONFixed_JSONNode_o *)pSVar4,(MethodInfo *)0x0);
-      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if ((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-         (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) {
-        UnityEngine_AudioSource__set_generatorObject(pUVar2,(UnityEngine_Object_o *)__this,(MethodInfo *)0x0);
-        pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-          pUVar2 = (pAVar1->fields)._audio;
-          fVar7 = ApplicationManagers_MusicManager__GetMusicVolume((MethodInfo *)0x0);
-          if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-            UnityEngine_AudioSource__set_volume(pUVar2,fVar7 * fVar6,(MethodInfo *)0x0);
+        if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
+          UnityEngine_AudioSource__set_volume(pUVar2,fVar8 * fVar9,(MethodInfo *)0x0);
+          pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+          if (((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
+              (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) &&
+             (UnityEngine_AudioSource__Play_68b06a0(pUVar2,(MethodInfo *)0x0),
+             value != (UnityEngine_AudioClip_o *)0x0)) {
             pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if (((pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                (pUVar2 = (pAVar1->fields)._audio, pUVar2 != (UnityEngine_AudioSource_o *)0x0)) &&
-               (UnityEngine_AudioSource__Play_2eb4470(pUVar2,(MethodInfo *)0x0),
-               __this != (UnityEngine_AudioClip_o *)0x0)) {
+            fVar8 = UnityEngine_AudioClip__get_length(value,(MethodInfo *)0x0);
+            if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
+              (pAVar1->fields)._songTimeLeft = fVar8;
               pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-              fVar6 = UnityEngine_AudioClip__get_length(__this,(MethodInfo *)0x0);
+              fVar8 = UnityEngine_AudioClip__get_length(value,(MethodInfo *)0x0);
               if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                (pAVar1->fields)._songTimeLeft = fVar6;
-                pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-                fVar6 = UnityEngine_AudioClip__get_length(__this,(MethodInfo *)0x0);
-                if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-                  (pAVar1->fields)._transitionTimeLeft = fVar6;
-                  return;
-                }
+                (pAVar1->fields)._transitionTimeLeft = fVar8;
+                return;
               }
             }
           }
         }
       }
     }
-    ThrowNullReferenceException();
   }
-  return;
-}
-
-
-// ApplicationManagers.MusicManager$$StartSoundEffect
-// il2cpp: System_Collections_IEnumerator_o* ApplicationManagers_MusicManager__StartSoundEffect (ApplicationManagers_MusicManager_o* __this, UnityEngine_AudioClip_o* clip, float volume, const MethodInfo* method);
-// 0x182354980
-
-System_Collections_IEnumerator_o *
-ApplicationManagers_MusicManager__StartSoundEffect
-          (ApplicationManagers_MusicManager_o *__this,UnityEngine_AudioClip_o *clip,float volume,
-          MethodInfo *method)
-
-{
-  ApplicationManagers_MusicManager__StartSoundEffect_d__43_o *__this_00;
-  
-  if (Il2CppMethodInitialized_18434799f == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_ApplicationManagers_MusicManager_StartSoundEffect_d__43);
-    Il2CppMethodInitialized_18434799f = '\x01';
-  }
-  __this_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_StartSoundEffect_d__43);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-  (__this_00->fields).clip = clip;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).clip,clip);
-  (__this_00->fields).volume = volume;
-  return (System_Collections_IEnumerator_o *)__this_00;
+label_05e18da3:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$SetSong
 // il2cpp: void ApplicationManagers_MusicManager__SetSong (System_String_o* song, float startTime, const MethodInfo* method);
-// 0x182353c60
+// 0x5e19830
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e19d8e: lea r15, [rip + 0x1461323]  ; TypeInfo_ApplicationManagers_MusicManager
+// asm:   0x5e19d95: jmp 0x5e19e37
+// asm:   0x5e19efe: mov rdi, r15
 
 void ApplicationManagers_MusicManager__SetSong(System_String_o *song,float startTime,MethodInfo *method)
 
 {
   byte bVar1;
   ApplicationManagers_MusicManager_o *pAVar2;
-  SimpleJSONFixed_JSONNode_o *pSVar3;
-  GameManagers_BaseGameManager_o *pGVar4;
-  GameManagers_BaseGameManager_c *pGVar5;
-  Settings_SoundSettings_o *pSVar6;
-  Settings_FloatSetting_o *pSVar7;
-  Settings_UISettings_o *pSVar8;
-  Settings_BoolSetting_o *pSVar9;
+  GameManagers_BaseGameManager_o *x;
+  Settings_SoundSettings_o *pSVar3;
+  Settings_FloatSetting_o *pSVar4;
+  Settings_UISettings_o *pSVar5;
+  Settings_BoolSetting_o *pSVar6;
+  bool bVar7;
+  int32_t iVar8;
+  SimpleJSONFixed_JSONNode_o *pSVar9;
+  SimpleJSONFixed_JSONNode_o *pSVar10;
+  System_String_o *pSVar11;
   GameManagers_InGameManager_o *__this;
-  bool bVar10;
-  uint uVar11;
-  SimpleJSONFixed_JSONNode_o *pSVar12;
-  System_Xml_Schema_XmlSchema_o *pSVar13;
-  MethodInfo *pMVar14;
-  System_Xml_Schema_XmlSchema_o *pSVar15;
-  longlong *plVar16;
-  System_String_o *pSVar17;
-  UnityEngine_AudioClip_o *pUVar18;
-  ApplicationManagers_MusicManager__FadeNextSong_d__48_o *routine;
-  UnityEngine_AudioClip_o *value;
-  float fVar19;
+  ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this_00;
+  MethodInfo *in_R8;
+  GameManagers_InGameManager_o *pGVar12;
+  float local_38;
   
-  if (Il2CppMethodInitialized_1843479a0 == '\0') {
+  if (Il2CppMethodInitialized_0754845b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_AudioClip);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_InGameManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
@@ -1446,246 +1400,238 @@ void ApplicationManagers_MusicManager__SetSong(System_String_o *song,float start
     il2cpp_codegen_initialize_runtime_metadata(&"Playlist");
     il2cpp_codegen_initialize_runtime_metadata(&"");
     il2cpp_codegen_initialize_runtime_metadata(&"Volume");
-    Il2CppMethodInitialized_1843479a0 = '\x01';
+    Il2CppMethodInitialized_0754845b = '\x01';
   }
-  pSVar12 = ApplicationManagers_MusicManager__FindSong(song,(MethodInfo *)0x0);
+  pSVar9 = ApplicationManagers_MusicManager__FindSong(song,method);
   pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-    (pAVar2->fields)._autoPlay = false;
-    pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-      value = (UnityEngine_AudioClip_o *)0x0;
-      (pAVar2->fields)._currentSongName = "";
-      fVar19 = 0.0;
-      Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName,"");
+  if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19ef9;
+  (pAVar2->fields)._autoPlay = false;
+  (pAVar2->fields)._currentSongName = "";
+  Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName);
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+  }
+  pGVar12 = (GameManagers_InGameManager_o *)0x0;
+  bVar7 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar9,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  local_38 = 0.0;
+  if (bVar7) {
+    if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e19ef9;
+    bVar7 = (*(pSVar9->klass->vtable)._28_HasKey.methodPtr)
+                      (pSVar9,"Name",(pSVar9->klass->vtable)._28_HasKey.method);
+    if (bVar7) {
+      pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                          (pSVar9,"Name",(pSVar9->klass->vtable)._7_get_Item.method);
       if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      bVar10 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar12,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if (bVar10) {
-        if (pSVar12 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182354332;
-        bVar10 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)(pSVar12,(MethodInfo *)"Name")
-        ;
-        if (bVar10) {
-          pSVar13 = (*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                              (pSVar12,(MethodInfo *)"Name");
-          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-          }
-          pSVar17 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                              ((SimpleJSONFixed_JSONNode_o *)pSVar13,(MethodInfo *)0x0);
-          if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
-          }
-          pUVar18 = (UnityEngine_AudioClip_o *)
-                    ApplicationManagers_ResourceManager__LoadAsset
-                              ("Music",pSVar17,false,(MethodInfo *)0x0);
-          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-          }
-          bVar10 = UnityEngine_Object__op_Inequality
-                             ((UnityEngine_Object_o *)pUVar18,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if ((bVar10) && (pUVar18 != (UnityEngine_AudioClip_o *)0x0)) {
-            if (pUVar18->klass == TypeInfo_UnityEngine_AudioClip) {
-              value = pUVar18;
-            }
-            if (value == (UnityEngine_AudioClip_o *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pUVar18);
-            }
-          }
-          pSVar13 = (*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                              (pSVar12,(MethodInfo *)"Volume");
-          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-          }
-          fVar19 = SimpleJSONFixed_JSONNode__op_Implicit_1dc40b0
-                             ((SimpleJSONFixed_JSONNode_o *)pSVar13,(MethodInfo *)0x0);
-          pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-          pSVar13 = (*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                              (pSVar12,(MethodInfo *)"Name");
-          pSVar17 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                              ((SimpleJSONFixed_JSONNode_o *)pSVar13,(MethodInfo *)0x0);
-          if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182354332;
-          (pAVar2->fields)._currentSongName = pSVar17;
-          Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName,pSVar17);
-          pGVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
-          if (pGVar4 != (GameManagers_BaseGameManager_o *)0x0) {
-            pGVar5 = pGVar4->klass;
-            bVar1 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
-            if ((bVar1 <= (pGVar5->_2).typeHierarchyDepth) &&
-               ((pGVar5->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-                (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
-              pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
-              if ((pSVar6 == (Settings_SoundSettings_o *)0x0) ||
-                 (pSVar7 = (pSVar6->fields).Music, pSVar7 == (Settings_FloatSetting_o *)0x0))
-              goto label_182354332;
-              if (0.0 < (pSVar7->fields)._value) {
-                pSVar8 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
-                if ((pSVar8 == (Settings_UISettings_o *)0x0) ||
-                   (pSVar9 = (pSVar8->fields).ShowSongPopup, pSVar9 == (Settings_BoolSetting_o *)0x0))
-                goto label_182354332;
-                if ((pSVar9->fields)._value != false) {
-                  pGVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
-                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-                  }
-                  bVar10 = UnityEngine_Object__op_Inequality
-                                     ((UnityEngine_Object_o *)pGVar4,(UnityEngine_Object_o *)0x0,
-                                      (MethodInfo *)0x0);
-                  if (bVar10) {
-                    __this = (GameManagers_InGameManager_o *)
-                             TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
-                    if (__this == (GameManagers_InGameManager_o *)0x0) goto label_182354332;
-                    bVar1 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
-                    if (((__this->klass->_2).typeHierarchyDepth < bVar1) ||
-                       ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                        (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
-                      il2cpp_codegen_raise_invalid_cast_exception(__this,TypeInfo_GameManagers_InGameManager);
-                    }
-                    GameManagers_InGameManager__OnSongChange(__this,(MethodInfo *)0x0);
-                  }
+      pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar10,(MethodInfo *)0x0);
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+      }
+      __this = (GameManagers_InGameManager_o *)
+               ApplicationManagers_ResourceManager__LoadAsset("Music",pSVar11,false,false,in_R8)
+      ;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar7 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      pGVar12 = (GameManagers_InGameManager_o *)0x0;
+      if (bVar7) {
+        if (__this == (GameManagers_InGameManager_o *)0x0) {
+          pGVar12 = (GameManagers_InGameManager_o *)0x0;
+        }
+        else {
+          if (__this->klass != (GameManagers_InGameManager_c *)TypeInfo_UnityEngine_AudioClip)
+          goto label_05e19f01;
+          pGVar12 = __this;
+        }
+      }
+      pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                          (pSVar9,"Volume",(pSVar9->klass->vtable)._7_get_Item.method);
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      local_38 = SimpleJSONFixed_JSONNode__op_Implicit_5763af0(pSVar10,(MethodInfo *)0x0);
+      pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+      pSVar9 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar9,"Name",(pSVar9->klass->vtable)._7_get_Item.method);
+      pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar9,(MethodInfo *)0x0);
+      if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19ef9;
+      (pAVar2->fields)._currentSongName = pSVar11;
+      Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName);
+      x = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+      if (x != (GameManagers_BaseGameManager_o *)0x0) {
+        bVar1 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
+        if ((bVar1 <= (x->klass->_2).typeHierarchyDepth) &&
+           ((x->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+            (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
+          pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+          if ((pSVar3 == (Settings_SoundSettings_o *)0x0) ||
+             (pSVar4 = (pSVar3->fields).Music, pSVar4 == (Settings_FloatSetting_o *)0x0)) goto label_05e19ef9;
+          if (0.0 < (pSVar4->fields)._value) {
+            pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
+            if ((pSVar5 == (Settings_UISettings_o *)0x0) ||
+               (pSVar6 = (pSVar5->fields).ShowSongPopup, pSVar6 == (Settings_BoolSetting_o *)0x0))
+            goto label_05e19ef9;
+            if ((pSVar6->fields)._value != false) {
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+              }
+              bVar7 = UnityEngine_Object__op_Inequality
+                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              if (bVar7) {
+                __this = (GameManagers_InGameManager_o *)
+                         TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+                if (__this == (GameManagers_InGameManager_o *)0x0) goto label_05e19ef9;
+                bVar1 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
+                if (((__this->klass->_2).typeHierarchyDepth < bVar1) ||
+                   ((__this->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+                    (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
+label_05e19f01:
+                  il2cpp_codegen_raise_invalid_cast_exception(__this);
                 }
+                GameManagers_InGameManager__OnSongChange(__this,(MethodInfo *)0x0);
               }
             }
           }
         }
-        else {
-          pSVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-          pSVar13 = (*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                              (pSVar12,(MethodInfo *)"Playlist");
-          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-          }
-          pMVar14 = (MethodInfo *)
-                    SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                              ((SimpleJSONFixed_JSONNode_o *)pSVar13,(MethodInfo *)0x0);
-          if (pSVar3 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182354332;
-          pSVar13 = (*(pSVar3->klass->vtable)._7_get_Item.methodPtr)(pSVar3,pMVar14);
-          if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_182354332;
-          pSVar15 = (*(pSVar13->klass->vtable)._11_get_NameAttribute.methodPtr)
-                              (pSVar13,(pSVar13->klass->vtable)._11_get_NameAttribute.method);
-          uVar11 = UnityEngine_Random__RandomRangeInt(0,(int32_t)pSVar15,(MethodInfo *)0x0);
-          plVar16 = (longlong *)
-                    (*(pSVar13->klass->vtable)._5_OnRemove.methodPtr)
-                              (pSVar13,(System_Type_o *)(ulonglong)uVar11,
-                               (pSVar13->klass->vtable)._5_OnRemove.method);
-          if (plVar16 == (longlong *)0x0) goto label_182354332;
-          pSVar12 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar16 + 0x1a8))(plVar16);
-          pSVar17 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450(pSVar12,(MethodInfo *)0x0);
-          if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
-          }
-          pUVar18 = (UnityEngine_AudioClip_o *)
-                    ApplicationManagers_ResourceManager__LoadAsset
-                              ("Music",pSVar17,false,(MethodInfo *)0x0);
-          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-          }
-          bVar10 = UnityEngine_Object__op_Inequality
-                             ((UnityEngine_Object_o *)pUVar18,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if ((bVar10) && (pUVar18 != (UnityEngine_AudioClip_o *)0x0)) {
-            if (pUVar18->klass == TypeInfo_UnityEngine_AudioClip) {
-              value = pUVar18;
-            }
-            if (value == (UnityEngine_AudioClip_o *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pUVar18);
-            }
-          }
-          pSVar12 = (SimpleJSONFixed_JSONNode_o *)
-                    (**(code **)(*plVar16 + 0x1a8))
-                              (plVar16,"Volume",*(undefined8 *)(*plVar16 + 0x1b0));
-          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-          }
-          fVar19 = SimpleJSONFixed_JSONNode__op_Implicit_1dc40b0(pSVar12,(MethodInfo *)0x0);
-          pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-          pSVar12 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar16 + 0x1a8))(plVar16);
-          pSVar17 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450(pSVar12,(MethodInfo *)0x0);
-          if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) goto label_182354332;
-          (pAVar2->fields)._currentSongName = pSVar17;
-          Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName,pSVar17);
-        }
-      }
-      pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-        UnityEngine_MonoBehaviour__StopAllCoroutines((UnityEngine_MonoBehaviour_o *)pAVar2,(MethodInfo *)0x0);
-        pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-        if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-          if (Il2CppMethodInitialized_1843479a4 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__48);
-            Il2CppMethodInitialized_1843479a4 = '\x01';
-          }
-          routine = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__48);
-          System_Object___ctor
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-          (routine->fields).__1__state = 0;
-          (routine->fields).__4__this = pAVar2;
-          Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,pAVar2);
-          (routine->fields).nextClip = value;
-          Il2CppCodeGenWriteBarrier(&(routine->fields).nextClip,value);
-          (routine->fields).volume = fVar19;
-          (routine->fields).startTime = startTime;
-          UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                    ((UnityEngine_MonoBehaviour_o *)pAVar2,(System_Collections_IEnumerator_o *)routine,
-                     (MethodInfo *)0x0);
-          return;
-        }
       }
     }
+    else {
+      pSVar10 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+      pSVar9 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar9,"Playlist",(pSVar9->klass->vtable)._7_get_Item.method);
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar9,(MethodInfo *)0x0);
+      if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+         (pSVar9 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                             (pSVar10,pSVar11,(pSVar10->klass->vtable)._7_get_Item.method),
+         pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0)) goto label_05e19ef9;
+      iVar8 = (*(pSVar9->klass->vtable)._11_get_Count.methodPtr)
+                        (pSVar9,(pSVar9->klass->vtable)._11_get_Count.method);
+      iVar8 = UnityEngine_Random__Range_690e2b0(0,iVar8,(MethodInfo *)0x0);
+      pSVar9 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)
+                         (pSVar9,iVar8,(pSVar9->klass->vtable)._5_get_Item.method);
+      if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e19ef9;
+      pSVar10 = (SimpleJSONFixed_JSONNode_o *)
+                (**(code **)((long)pSVar9->klass + 0x1a8))
+                          (pSVar9,"Name",*(undefined8 *)((long)pSVar9->klass + 0x1b0));
+      pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar10,(MethodInfo *)0x0);
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+      }
+      __this = (GameManagers_InGameManager_o *)
+               ApplicationManagers_ResourceManager__LoadAsset("Music",pSVar11,false,false,in_R8)
+      ;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar7 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      pGVar12 = (GameManagers_InGameManager_o *)0x0;
+      if (bVar7) {
+        if (__this == (GameManagers_InGameManager_o *)0x0) {
+          pGVar12 = (GameManagers_InGameManager_o *)0x0;
+        }
+        else {
+          if (__this->klass != (GameManagers_InGameManager_c *)TypeInfo_UnityEngine_AudioClip)
+          goto label_05e19f01;
+          pGVar12 = __this;
+        }
+      }
+      pSVar10 = (SimpleJSONFixed_JSONNode_o *)
+                (**(code **)((long)pSVar9->klass + 0x1a8))
+                          (pSVar9,"Volume",*(undefined8 *)((long)pSVar9->klass + 0x1b0));
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      local_38 = SimpleJSONFixed_JSONNode__op_Implicit_5763af0(pSVar10,(MethodInfo *)0x0);
+      pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+      pSVar9 = (SimpleJSONFixed_JSONNode_o *)
+               (**(code **)((long)pSVar9->klass + 0x1a8))
+                         (pSVar9,"Name",*(undefined8 *)((long)pSVar9->klass + 0x1b0));
+      pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar9,(MethodInfo *)0x0);
+      if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) goto label_05e19ef9;
+      (pAVar2->fields)._currentSongName = pSVar11;
+      Il2CppCodeGenWriteBarrier(&(pAVar2->fields)._currentSongName);
+    }
   }
-label_182354332:
+  pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+  if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
+    UnityEngine_MonoBehaviour__StopAllCoroutines((UnityEngine_MonoBehaviour_o *)pAVar2,(MethodInfo *)0x0);
+    pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+    if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
+      if (Il2CppMethodInitialized_0754845f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__47);
+        Il2CppMethodInitialized_0754845f = '\x01';
+      }
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__47);
+      System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+      (__this_00->fields).__1__state = 0;
+      (__this_00->fields).__4__this = pAVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+      (__this_00->fields).nextClip = (UnityEngine_AudioClip_o *)pGVar12;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields).nextClip);
+      (__this_00->fields).volume = local_38;
+      (__this_00->fields).startTime = startTime;
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)pAVar2,(System_Collections_IEnumerator_o *)__this_00,
+                 (MethodInfo *)0x0);
+      return;
+    }
+  }
+label_05e19ef9:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.MusicManager$$ChatNextSong
 // il2cpp: void ApplicationManagers_MusicManager__ChatNextSong (const MethodInfo* method);
-// 0x182351cf0
+// 0x5e1a4d0
 
 void ApplicationManagers_MusicManager__ChatNextSong(MethodInfo *method)
 
 {
   ApplicationManagers_MusicManager_o *pAVar1;
   
-  if (Il2CppMethodInitialized_1843479a1 == '\0') {
+  if (Il2CppMethodInitialized_0754845c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
-    Il2CppMethodInitialized_1843479a1 = '\x01';
+    Il2CppMethodInitialized_0754845c = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-  if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-    (pAVar1->fields)._songTimeLeft = 0.0;
-    pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-    if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
-      (pAVar1->fields)._transitionTimeLeft = 0.0;
-      return;
-    }
+  if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (pAVar1->fields)._songTimeLeft = 0.0;
+  (pAVar1->fields)._transitionTimeLeft = 0.0;
+  return;
 }
 
 
 // ApplicationManagers.MusicManager$$NextSong
 // il2cpp: void ApplicationManagers_MusicManager__NextSong (const MethodInfo* method);
-// 0x182352bb0
+// 0x5e19f10
 
 void ApplicationManagers_MusicManager__NextSong(MethodInfo *method)
 
 {
-  int32_t *piVar1;
+  int iVar1;
   ApplicationManagers_MusicManager_o *pAVar2;
   ApplicationManagers_MusicManager_StaticFields *pAVar3;
-  System_Collections_Generic_List_string__o *pSVar4;
-  bool bVar5;
-  int32_t iVar6;
-  System_Xml_Schema_XmlSchema_o *pSVar7;
-  System_Xml_Schema_XmlSchema_o *pSVar8;
-  longlong *plVar9;
-  SimpleJSONFixed_JSONNode_o *pSVar10;
-  System_String_o *pSVar11;
+  System_Collections_Generic_List_string__o *__this;
+  bool bVar4;
+  int32_t iVar5;
+  System_String_o *pSVar6;
+  SimpleJSONFixed_JSONNode_o *pSVar7;
+  uint uVar8;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843479a2 == '\0') {
+  if (Il2CppMethodInitialized_0754845d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Item);
@@ -1693,86 +1639,78 @@ void ApplicationManagers_MusicManager__NextSong(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
     il2cpp_codegen_initialize_runtime_metadata(&"Custom");
     il2cpp_codegen_initialize_runtime_metadata(&"Name");
-    Il2CppMethodInitialized_1843479a2 = '\x01';
+    Il2CppMethodInitialized_0754845d = '\x01';
   }
   pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-    bVar5 = System_String__op_Equality
+    bVar4 = System_String__op_Equality
                       ((pAVar2->fields)._currentPlaylist,
-                       (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-    if (bVar5) {
+                       (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+    if (bVar4) {
       return;
     }
     pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
     if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-      pSVar11 = (pAVar2->fields)._currentPlaylist;
+      pSVar6 = (pAVar2->fields)._currentPlaylist;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
       }
-      bVar5 = System_String__op_Equality
-                        (pSVar11,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,
+      bVar4 = System_String__op_Equality
+                        (pSVar6,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,
                          (MethodInfo *)0x0);
-      if (bVar5) {
+      if (bVar4) {
         return;
       }
       pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
       if (pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) {
-        bVar5 = System_String__op_Equality
+        bVar4 = System_String__op_Equality
                           ((pAVar2->fields)._currentPlaylist,"Custom",(MethodInfo *)0x0);
         pAVar3 = TypeInfo_ApplicationManagers_MusicManager->static_fields;
-        if (bVar5) {
-          if ((pAVar3->_instance != (ApplicationManagers_MusicManager_o *)0x0) &&
-             (pSVar4 = (pAVar3->_instance->fields)._customPlaylist,
-             pSVar4 != (System_Collections_Generic_List_string__o *)0x0)) {
-            if ((pSVar4->fields)._size == 0) {
+        if (bVar4) {
+          pAVar2 = pAVar3->_instance;
+          if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
+             (__this = (pAVar2->fields)._customPlaylist,
+             __this != (System_Collections_Generic_List_string__o *)0x0)) {
+            iVar1 = (__this->fields)._size;
+            if (iVar1 == 0) {
               return;
             }
-            piVar1 = &(TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance->fields).
-                      _currentSong;
-            *piVar1 = *piVar1 + 1;
-            pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-            if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
-               (pSVar4 = (pAVar2->fields)._customPlaylist,
-               pSVar4 != (System_Collections_Generic_List_string__o *)0x0)) {
-              if ((pSVar4->fields)._size <= (pAVar2->fields)._currentSong) {
-                (TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance->fields)._currentSong = 0
-                ;
-              }
-              pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-              if ((pAVar2 != (ApplicationManagers_MusicManager_o *)0x0) &&
-                 (pSVar4 = (pAVar2->fields)._customPlaylist,
-                 pSVar4 != (System_Collections_Generic_List_string__o *)0x0)) {
-                pSVar11 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                    ((System_Collections_Generic_List_object__o *)pSVar4,
-                                     (TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance->
-                                     fields)._currentSong,
-                                     (MethodInfo_92B830 *)
-                                     MethodInfo_System_Collections_Generic_List_string_get_Item);
-                goto label_182352dae;
-              }
+            uVar8 = (pAVar2->fields)._currentSong + 1;
+            method_00 = (MethodInfo *)0x0;
+            if ((int)uVar8 < iVar1) {
+              method_00 = (MethodInfo *)(ulong)uVar8;
             }
+            (pAVar2->fields)._currentSong = (int32_t)method_00;
+            pSVar6 = System_Collections_Generic_List_object___get_Item
+                               ((System_Collections_Generic_List_object__o *)__this,(int32_t)method_00,
+                                (MethodInfo_395CF20 *)
+                                MethodInfo_System_Collections_Generic_List_string_get_Item);
+label_05e1a13f:
+            ApplicationManagers_MusicManager__SetSong(pSVar6,0.0,method_00);
+            return;
           }
         }
         else if (((pAVar3->_instance != (ApplicationManagers_MusicManager_o *)0x0) &&
-                 (pSVar10 = pAVar3->_musicInfo, pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0)) &&
-                (pSVar7 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
-                                    (pSVar10,(MethodInfo *)(pAVar3->_instance->fields)._currentPlaylist),
-                pSVar7 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
-          pSVar8 = (*(pSVar7->klass->vtable)._11_get_NameAttribute.methodPtr)
-                             (pSVar7,(pSVar7->klass->vtable)._11_get_NameAttribute.method);
-          iVar6 = UnityEngine_Random__RandomRangeInt(0,(int32_t)pSVar8,(MethodInfo *)0x0);
-          plVar9 = (longlong *)
-                   (*(pSVar7->klass->vtable)._5_OnRemove.methodPtr)
-                             (pSVar7,(System_Type_o *)iVar6,(pSVar7->klass->vtable)._5_OnRemove.method);
-          if (plVar9 != (longlong *)0x0) {
-            pSVar10 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar9 + 0x1a8))(plVar9);
+                 (pSVar7 = pAVar3->_musicInfo, pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0)) &&
+                (pSVar7 = (*(pSVar7->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar7,(pAVar3->_instance->fields)._currentPlaylist,
+                                     (pSVar7->klass->vtable)._7_get_Item.method),
+                pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+          iVar5 = (*(pSVar7->klass->vtable)._11_get_Count.methodPtr)
+                            (pSVar7,(pSVar7->klass->vtable)._11_get_Count.method);
+          iVar5 = UnityEngine_Random__Range_690e2b0(0,iVar5,(MethodInfo *)0x0);
+          pSVar7 = (*(pSVar7->klass->vtable)._5_get_Item.methodPtr)
+                             (pSVar7,iVar5,(pSVar7->klass->vtable)._5_get_Item.method);
+          if (pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+            pSVar7 = (SimpleJSONFixed_JSONNode_o *)
+                     (**(code **)((long)pSVar7->klass + 0x1a8))
+                               (pSVar7,"Name",*(undefined8 *)((long)pSVar7->klass + 0x1b0));
             if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
             }
-            pSVar11 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450(pSVar10,(MethodInfo *)0x0);
-label_182352dae:
-            ApplicationManagers_MusicManager__SetSong(pSVar11,0.0,(MethodInfo *)0x0);
-            return;
+            method_00 = (MethodInfo *)0x0;
+            pSVar6 = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar7,(MethodInfo *)0x0);
+            goto label_05e1a13f;
           }
         }
       }
@@ -1784,176 +1722,130 @@ label_182352dae:
 
 // ApplicationManagers.MusicManager$$FindSong
 // il2cpp: SimpleJSONFixed_JSONNode_o* ApplicationManagers_MusicManager__FindSong (System_String_o* name, const MethodInfo* method);
-// 0x182351e00
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182351fdf: nop 
-// asm:   0x1823520da: mov rax, rbx
-// asm:   0x1823520dd: jmp 0x1823520b1
+// 0x5e1a160
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e1a408: jmp 0x5e1a370
 
 SimpleJSONFixed_JSONNode_o *
 ApplicationManagers_MusicManager__FindSong(System_String_o *name,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  SimpleJSONFixed_JSONNode_Enumerator_o *pSVar2;
-  bool bVar3;
-  SimpleJSONFixed_JSONNode_ValueEnumerator_o *pSVar4;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o *pSVar5;
-  SimpleJSONFixed_JSONNode_o *pSVar6;
-  undefined8 *puVar7;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar8;
-  System_Xml_Schema_XmlSchema_o *a;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_178;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_128;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_d8;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_88;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_78;
-  SimpleJSONFixed_JSONNode_ValueEnumerator_o local_68;
+  bool bVar1;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  SimpleJSONFixed_JSONNode_o *a;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o aKeyValue;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_160;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_118;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_c8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_78;
   
-  if (Il2CppMethodInitialized_1843479a3 == '\0') {
+  if (Il2CppMethodInitialized_0754845e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Name");
-    Il2CppMethodInitialized_1843479a3 = '\x01';
+    Il2CppMethodInitialized_0754845e = '\x01';
   }
-  local_128.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_178.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_128.type = 0;
-  local_128._4_4_ = 0;
-  local_128.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_128.m_Object.fields._version = 0;
-  local_128.m_Object.fields._index = 0;
-  local_128.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_128.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_128.m_Object.fields._getEnumeratorRetType = 0;
-  local_128.m_Object.fields._36_4_ = 0;
-  local_128.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_128.m_Array.fields._index = 0;
-  local_128.m_Array.fields._version = 0;
-  local_d8.type = 0;
-  local_d8._4_4_ = 0;
-  local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_d8.m_Object.fields._version = 0;
-  local_d8.m_Object.fields._index = 0;
-  local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_d8.m_Object.fields._getEnumeratorRetType = 0;
-  local_d8.m_Object.fields._36_4_ = 0;
-  local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_d8.m_Array.fields._index = 0;
-  local_d8.m_Array.fields._version = 0;
-  local_178.type = 0;
-  local_178._4_4_ = 0;
-  local_178.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_178.m_Object.fields._version = 0;
-  local_178.m_Object.fields._index = 0;
-  local_178.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_178.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_178.m_Object.fields._getEnumeratorRetType = 0;
-  local_178.m_Object.fields._36_4_ = 0;
-  local_178.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_178.m_Array.fields._index = 0;
-  local_178.m_Array.fields._version = 0;
-  bVar3 = System_String__op_Equality
-                    (name,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-  if (!bVar3) {
-    pSVar6 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-    if (pSVar6 == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_1823520df:
+  local_c8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_c8.m_Array.fields._index = 0;
+  local_c8.m_Array.fields._version = 0;
+  local_c8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_c8.m_Object.fields._getEnumeratorRetType = 0;
+  local_c8.m_Object.fields._36_4_ = 0;
+  local_c8.m_Object.fields._version = 0;
+  local_c8.m_Object.fields._index = 0;
+  local_c8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_c8.type = 0;
+  local_c8._4_4_ = 0;
+  local_c8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_c8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_118.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_118.m_Array.fields._index = 0;
+  local_118.m_Array.fields._version = 0;
+  local_118.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_118.m_Object.fields._getEnumeratorRetType = 0;
+  local_118.m_Object.fields._36_4_ = 0;
+  local_118.m_Object.fields._version = 0;
+  local_118.m_Object.fields._index = 0;
+  local_118.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_118.type = 0;
+  local_118._4_4_ = 0;
+  local_118.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_118.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  bVar1 = System_String__op_Equality
+                    (name,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+  if (!bVar1) {
+    pSVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+    if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_05e1a429:
       ThrowNullReferenceException();
     }
-    pSVar4 = SimpleJSONFixed_JSONNode__get_Values(&local_68,pSVar6,(MethodInfo *)0x0);
-    local_d8.type = (pSVar4->fields).m_Enumerator.fields.type;
-    local_d8._4_4_ = *(undefined4 *)&(pSVar4->fields).m_Enumerator.fields.field_0x4;
-    local_d8.m_Object.fields._dictionary = (pSVar4->fields).m_Enumerator.fields.m_Object.fields._dictionary;
-    pSVar2 = &(pSVar4->fields).m_Enumerator;
-    local_d8.m_Object.fields._version = (pSVar2->fields).m_Object.fields._version;
-    local_d8.m_Object.fields._index = (pSVar2->fields).m_Object.fields._index;
-    local_d8.m_Object.fields._current.fields.key =
-         (pSVar4->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
-    local_d8.m_Object.fields._current.fields.value =
-         (pSVar4->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
-    pSVar2 = &(pSVar4->fields).m_Enumerator;
-    local_d8.m_Object.fields._getEnumeratorRetType = (pSVar2->fields).m_Object.fields._getEnumeratorRetType;
-    local_d8.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar2->fields).m_Object.fields.field_0x24;
-    local_d8.m_Array.fields._list = (pSVar4->fields).m_Enumerator.fields.m_Array.fields._list;
-    pSVar2 = &(pSVar4->fields).m_Enumerator;
-    local_d8.m_Array.fields._index = (pSVar2->fields).m_Array.fields._index;
-    local_d8.m_Array.fields._version = (pSVar2->fields).m_Array.fields._version;
-    local_d8.m_Array.fields._current = (pSVar4->fields).m_Enumerator.fields.m_Array.fields._current;
-    pSVar5 = SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
-                       ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_68,
-                        (SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
-    local_128.type = (pSVar5->fields).m_Enumerator.fields.type;
-    local_128._4_4_ = *(undefined4 *)&(pSVar5->fields).m_Enumerator.fields.field_0x4;
-    local_128.m_Object.fields._dictionary = (pSVar5->fields).m_Enumerator.fields.m_Object.fields._dictionary;
-    pSVar2 = &(pSVar5->fields).m_Enumerator;
-    local_128.m_Object.fields._version = (pSVar2->fields).m_Object.fields._version;
-    local_128.m_Object.fields._index = (pSVar2->fields).m_Object.fields._index;
-    local_128.m_Object.fields._current.fields.key =
-         (pSVar5->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
-    local_128.m_Object.fields._current.fields.value =
-         (pSVar5->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
-    pSVar2 = &(pSVar5->fields).m_Enumerator;
-    local_128.m_Object.fields._getEnumeratorRetType = (pSVar2->fields).m_Object.fields._getEnumeratorRetType;
-    local_128.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar2->fields).m_Object.fields.field_0x24;
-    local_128.m_Array.fields._list = (pSVar5->fields).m_Enumerator.fields.m_Array.fields._list;
-    pSVar2 = &(pSVar5->fields).m_Enumerator;
-    local_128.m_Array.fields._index = (pSVar2->fields).m_Array.fields._index;
-    local_128.m_Array.fields._version = (pSVar2->fields).m_Array.fields._version;
-    local_128.m_Array.fields._current = (pSVar5->fields).m_Enumerator.fields.m_Array.fields._current;
-    bVar3 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                      ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_128,(MethodInfo *)0x0);
-    while (bVar3) {
-      pSVar6 = SimpleJSONFixed_JSONNode_ValueEnumerator__get_Current
-                         ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_128,(MethodInfo *)0x0);
-      if (pSVar6 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_1823520df;
-      puVar7 = (undefined8 *)(*(pSVar6->klass->vtable)._32_unknown.methodPtr)(&local_68);
-      local_178._0_8_ = *puVar7;
-      local_178.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar7[1];
-      local_178.m_Object.fields._8_8_ = puVar7[2];
-      local_178.m_Object.fields._current.fields.key = (Il2CppObject *)puVar7[3];
-      local_178.m_Object.fields._current.fields.value = (Il2CppObject *)puVar7[4];
-      local_178.m_Object.fields._32_8_ = puVar7[5];
-      local_178.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar7[6];
-      local_178.m_Array.fields._8_8_ = puVar7[7];
-      local_178.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar7[8];
-      bVar3 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_178,(MethodInfo *)0x0);
-      if (bVar3) {
-        do {
-          pSVar8 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                             (&local_78,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_178,(MethodInfo *)0x0)
-          ;
-          pSVar1 = (pSVar8->fields).key;
-          pSVar6 = (pSVar8->fields).value;
+    SimpleJSONFixed_JSONNode__get_Values
+              ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_160,pSVar2,(MethodInfo *)0x0);
+    local_78.m_Array.fields._current = local_160.m_Array.fields._current;
+    local_78.m_Array.fields._list = local_160.m_Array.fields._list;
+    local_78.m_Array.fields._index = local_160.m_Array.fields._index;
+    local_78.m_Array.fields._version = local_160.m_Array.fields._version;
+    local_78.m_Object.fields._current.fields.value = local_160.m_Object.fields._current.fields.value;
+    local_78.m_Object.fields._getEnumeratorRetType = local_160.m_Object.fields._getEnumeratorRetType;
+    local_78.m_Object.fields._36_4_ = local_160.m_Object.fields._36_4_;
+    local_78.m_Object.fields._version = local_160.m_Object.fields._version;
+    local_78.m_Object.fields._index = local_160.m_Object.fields._index;
+    local_78.m_Object.fields._current.fields.key = local_160.m_Object.fields._current.fields.key;
+    local_78.type = local_160.type;
+    local_78._4_4_ = local_160._4_4_;
+    local_78.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+    SimpleJSONFixed_JSONNode_ValueEnumerator__GetEnumerator
+              ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,
+               (SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_78,(MethodInfo *)0x0);
+    bVar1 = SimpleJSONFixed_JSONNode_ValueEnumerator__MoveNext
+                      ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+    if (bVar1) {
+      do {
+        pSVar2 = SimpleJSONFixed_JSONNode_ValueEnumerator__get_Current
+                           ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+        if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1a429;
+        (*(pSVar2->klass->vtable)._32_unknown.methodPtr)
+                  (&local_160,pSVar2,(pSVar2->klass->vtable)._32_unknown.method);
+        local_118.m_Array.fields._current = local_160.m_Array.fields._current;
+        local_118.m_Array.fields._list = local_160.m_Array.fields._list;
+        local_118.m_Array.fields._index = local_160.m_Array.fields._index;
+        local_118.m_Array.fields._version = local_160.m_Array.fields._version;
+        local_118.m_Object.fields._current.fields.value = local_160.m_Object.fields._current.fields.value;
+        local_118.m_Object.fields._getEnumeratorRetType = local_160.m_Object.fields._getEnumeratorRetType;
+        local_118.m_Object.fields._36_4_ = local_160.m_Object.fields._36_4_;
+        local_118.m_Object.fields._version = local_160.m_Object.fields._version;
+        local_118.m_Object.fields._index = local_160.m_Object.fields._index;
+        local_118.m_Object.fields._current.fields.key = local_160.m_Object.fields._current.fields.key;
+        local_118.type = local_160.type;
+        local_118._4_4_ = local_160._4_4_;
+        local_118.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+        while (bVar1 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
+                                 ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_118,(MethodInfo *)0x0),
+              bVar1) {
+          aKeyValue = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                                ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_118,(MethodInfo *)0x0);
           if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
           }
-          local_88.fields.key = pSVar1;
-          local_88.fields.value = pSVar6;
-          pSVar6 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_88,(MethodInfo *)0x0);
-          if (pSVar6 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_1823520df;
-          bVar3 = (*(pSVar6->klass->vtable)._28_HasKey.methodPtr)(pSVar6,(MethodInfo *)"Name");
-          if (bVar3) {
-            a = (*(pSVar6->klass->vtable)._7_get_Item.methodPtr)(pSVar6,(MethodInfo *)"Name");
+          pSVar2 = SimpleJSONFixed_JSONNode__op_Implicit_57641c0(aKeyValue,(MethodInfo *)0x0);
+          if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1a429;
+          bVar1 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)
+                            (pSVar2,"Name",(pSVar2->klass->vtable)._28_HasKey.method);
+          if (bVar1) {
+            a = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                          (pSVar2,"Name",(pSVar2->klass->vtable)._7_get_Item.method);
             if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
             }
-            bVar3 = SimpleJSONFixed_JSONNode__op_Equality
-                              ((SimpleJSONFixed_JSONNode_o *)a,(Il2CppObject *)name,(MethodInfo *)0x0);
-            if (bVar3) {
-              return pSVar6;
+            bVar1 = SimpleJSONFixed_JSONNode__op_Equality(a,(Il2CppObject *)name,(MethodInfo *)0x0);
+            if (bVar1) {
+              return pSVar2;
             }
           }
-          bVar3 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                            ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_178,(MethodInfo *)0x0);
-        } while (bVar3);
-      }
-      bVar3 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_128,(MethodInfo *)0x0);
+        }
+        bVar1 = SimpleJSONFixed_JSONNode_ValueEnumerator__MoveNext
+                          ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+      } while (bVar1);
     }
   }
   return (SimpleJSONFixed_JSONNode_o *)0x0;
@@ -1962,7 +1854,7 @@ label_1823520df:
 
 // ApplicationManagers.MusicManager$$FadeNextSong
 // il2cpp: System_Collections_IEnumerator_o* ApplicationManagers_MusicManager__FadeNextSong (ApplicationManagers_MusicManager_o* __this, UnityEngine_AudioClip_o* nextClip, float volume, float startTime, const MethodInfo* method);
-// 0x182351d50
+// 0x5e1a430
 
 System_Collections_IEnumerator_o *
 ApplicationManagers_MusicManager__FadeNextSong
@@ -1970,21 +1862,20 @@ ApplicationManagers_MusicManager__FadeNextSong
           float startTime,MethodInfo *method)
 
 {
-  ApplicationManagers_MusicManager__FadeNextSong_d__48_o *__this_00;
+  ApplicationManagers_MusicManager__FadeNextSong_d__47_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843479a4 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__48);
-    Il2CppMethodInitialized_1843479a4 = '\x01';
+  if (Il2CppMethodInitialized_0754845f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__47);
+    Il2CppMethodInitialized_0754845f = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__48);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+                        ((Il2CppClass *)TypeInfo_ApplicationManagers_MusicManager_FadeNextSong_d__47);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   (__this_00->fields).nextClip = nextClip;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nextClip,nextClip);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nextClip);
   (__this_00->fields).volume = volume;
   (__this_00->fields).startTime = startTime;
   return (System_Collections_IEnumerator_o *)__this_00;
@@ -1993,31 +1884,40 @@ ApplicationManagers_MusicManager__FadeNextSong
 
 // ApplicationManagers.MusicManager$$Update
 // il2cpp: void ApplicationManagers_MusicManager__Update (ApplicationManagers_MusicManager_o* __this, const MethodInfo* method);
-// 0x182354c60
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182354ea6: mov rdi, qword ptr [rsp + 0x40]
+// 0x5e1a540
 
 void ApplicationManagers_MusicManager__Update(ApplicationManagers_MusicManager_o *__this,MethodInfo *method)
 
 {
-  ApplicationManagers_MusicManager_o *pAVar1;
-  bool bVar2;
-  System_String_o *pSVar3;
-  float fVar4;
-  float fVar5;
+  System_String_o *pSVar1;
+  ApplicationManagers_MusicManager_o *pAVar2;
+  bool bVar3;
+  System_String_o **ppSVar4;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *extraout_RDX_04;
+  MethodInfo *extraout_RDX_05;
+  MethodInfo *pMVar5;
+  float fVar6;
+  float fVar7;
   
-  if (Il2CppMethodInitialized_1843479a5 == '\0') {
+  if (Il2CppMethodInitialized_07548460 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
-    Il2CppMethodInitialized_1843479a5 = '\x01';
+    Il2CppMethodInitialized_07548460 = '\x01';
   }
-  fVar5 = (__this->fields)._songTimeLeft;
-  fVar4 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._songTimeLeft = fVar5 - fVar4;
-  fVar5 = (__this->fields)._transitionTimeLeft;
-  fVar4 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  fVar5 = fVar5 - fVar4;
-  (__this->fields)._transitionTimeLeft = fVar5;
+  fVar7 = (__this->fields)._songTimeLeft;
+  fVar6 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  (__this->fields)._songTimeLeft = fVar7 - fVar6;
+  fVar7 = (__this->fields)._transitionTimeLeft;
+  pMVar5 = (MethodInfo *)0x0;
+  fVar6 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  fVar7 = fVar7 - fVar6;
+  (__this->fields)._transitionTimeLeft = fVar7;
   if ((__this->fields)._isDefaultPlaylist == false) {
     if (0.0 < (__this->fields)._songTimeLeft) {
       return;
@@ -2025,73 +1925,80 @@ void ApplicationManagers_MusicManager__Update(ApplicationManagers_MusicManager_o
     if ((__this->fields)._autoPlay == false) {
       return;
     }
-    if (0.0 < fVar5) {
+    if (0.0 < fVar7) {
       return;
     }
-    ApplicationManagers_MusicManager__NextSong((MethodInfo *)0x0);
+    ApplicationManagers_MusicManager__NextSong(pMVar5);
     return;
   }
-  pSVar3 = (__this->fields)._currentPlaylist;
+  pSVar1 = (__this->fields)._currentPlaylist;
   if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
   }
-  bVar2 = System_String__op_Inequality
-                    (pSVar3,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
-                     (MethodInfo *)0x0);
-  if (bVar2) {
+  pMVar5 = (MethodInfo *)TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle;
+  bVar3 = System_String__op_Inequality(pSVar1,(System_String_o *)pMVar5,(MethodInfo *)0x0);
+  if (bVar3) {
     if (0.0 < (__this->fields)._transitionTimeLeft) {
-      pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
-      if (pAVar1 == (ApplicationManagers_MusicManager_o *)0x0) {
+      pAVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
+      if (pAVar2 == (ApplicationManagers_MusicManager_o *)0x0) {
         ThrowNullReferenceException();
       }
-      if ((pAVar1->fields)._isMenuTransition == false) goto label_182354da1;
+      if ((pAVar2->fields)._isMenuTransition == false) goto label_05e1a659;
     }
-    bVar2 = ApplicationManagers_MusicManager__ShouldPlayBattleMusic(__this,(MethodInfo *)0x0);
-    if (bVar2) {
+    bVar3 = ApplicationManagers_MusicManager__ShouldPlayBattleMusic(__this,pMVar5);
+    if (bVar3) {
+      method_00 = extraout_RDX;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+        method_00 = extraout_RDX_00;
       }
+      pMVar5 = (MethodInfo *)0x1;
       ApplicationManagers_MusicManager__FinishSetPlaylist
-                (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,true,(MethodInfo *)0x0);
+                (TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,true,method_00);
     }
   }
-label_182354da1:
+label_05e1a659:
   if (((__this->fields)._songTimeLeft <= 0.0) && ((__this->fields)._autoPlay != false)) {
-    if (0.0 < (__this->fields)._transitionTimeLeft) {
-      return;
-    }
-    bVar2 = ApplicationManagers_MusicManager__ShouldPlayBattleMusic(__this,(MethodInfo *)0x0);
-    if (bVar2) {
+    fVar7 = (__this->fields)._transitionTimeLeft;
+    if (0.0 < fVar7) goto label_05e1a74a;
+    bVar3 = ApplicationManagers_MusicManager__ShouldPlayBattleMusic(__this,pMVar5);
+    if (bVar3) {
+      pMVar5 = extraout_RDX_01;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+        pMVar5 = extraout_RDX_02;
       }
-      pSVar3 = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle;
+      ppSVar4 = &TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle;
     }
     else {
-      pSVar3 = (__this->fields)._currentPlaylist;
+      pSVar1 = (__this->fields)._currentPlaylist;
       if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
       }
-      bVar2 = System_String__op_Equality
-                        (pSVar3,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
+      bVar3 = System_String__op_Equality
+                        (pSVar1,TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,
                          (MethodInfo *)0x0);
-      if ((bVar2) || ((__this->fields)._justPlayedMenuTransition != false)) {
+      pMVar5 = extraout_RDX_03;
+      if ((bVar3) || ((__this->fields)._justPlayedMenuTransition != false)) {
         if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+          pMVar5 = extraout_RDX_04;
         }
-        pSVar3 = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Ambient;
+        ppSVar4 = &TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Ambient;
       }
       else {
         if ((TypeInfo_ApplicationManagers_MusicPlaylist->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_MusicPlaylist);
+          pMVar5 = extraout_RDX_05;
         }
-        pSVar3 = TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Peaceful;
+        ppSVar4 = &TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Peaceful;
       }
     }
-    ApplicationManagers_MusicManager__FinishSetPlaylist(pSVar3,true,(MethodInfo *)0x0);
+    ApplicationManagers_MusicManager__FinishSetPlaylist(*ppSVar4,true,pMVar5);
   }
-  if (((__this->fields)._transitionTimeLeft <= 0.0) && ((__this->fields)._justPlayedMenuTransition != false))
-  {
+  fVar7 = (__this->fields)._transitionTimeLeft;
+label_05e1a74a:
+  if ((fVar7 <= 0.0) && ((__this->fields)._justPlayedMenuTransition != false)) {
     (__this->fields)._justPlayedMenuTransition = false;
   }
   return;
@@ -2100,69 +2007,90 @@ label_182354da1:
 
 // ApplicationManagers.MusicManager$$ShouldPlayBattleMusic
 // il2cpp: bool ApplicationManagers_MusicManager__ShouldPlayBattleMusic (ApplicationManagers_MusicManager_o* __this, const MethodInfo* method);
-// 0x182354360
-// eh: try 0x18235463d..0x182354950 -> pad 0x1833288d0 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 23 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823548d0: jmp 0x1823548f8
-// asm:   0x1823548d2: mov r8, qword ptr [rsp + 0x78]
-// asm:   0x1823548d7: cmp qword ptr [r8], 0
-// asm:   0x1823548db: je 0x1823548ee
-// asm:   0x1823548dd: xor ecx, ecx
-// asm:   0x1823548df: mov r8, qword ptr [r8]
-// asm:   0x1823548e2: mov rdx, qword ptr [rip + 0x1d44a17]  ; TypeInfo_System_IDisposable
-// asm:   0x1823548e9: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x1823548ee: mov rcx, qword ptr [rsp + 0x70]
-// asm:   0x1823548f3: test rcx, rcx
-// asm:   0x1823548f6: jne 0x182354950
-// asm:   0x182354950: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833288d0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833288d5: push rbp
-// asm:   0x1833288d6: sub rsp, 0x20
-// asm:   0x1833288da: mov rbp, rdx
-// asm:   0x1833288dd: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x1833288e1: mov rcx, qword ptr [rax]
-// asm:   0x1833288e4: mov qword ptr [rbp + 0x70], rcx
-// asm:   0x1833288e8: movabs rax, 0
-// asm:   0x1833288f2: add rsp, 0x20
-// asm:   0x1833288f6: pop rbp
-// asm:   0x1833288f7: ret 
+// 0x5e1a790
+// eh: try 0x5e1aa7c..0x5e1ac95 -> pad 0x5e1acb9 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x5e1acd1..0x5e1acd6 -> pad 0x5e1ace8 cleanup
+// eh: try 0x5e1aceb..0x5e1acf5 -> pad 0x5e1acfd catch (...) [compiler noexcept guard]
+// asm: 44 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e1a922: xor r12d, r12d
+// asm:   0x5e1aa1f: lea r13, [rip + 0x145e9d2]  ; TypeInfo_System_Collections_IEnumerator
+// asm:   0x5e1aa26: lea rbp, [rip + 0x14564d3]  ; TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter
+// asm:   0x5e1aa2d: jmp 0x5e1aa4d
+// asm:   0x5e1aa40: mov rbx, qword ptr [rsp]
+// asm:   0x5e1aa44: test rbx, rbx
+// asm:   0x5e1aa47: je 0x5e1ac63
+// asm:   0x5e1ac61: jmp 0x5e1acd9
+// asm:   0x5e1ac95: jmp 0x5e1acb9
+// asm:   0x5e1ac97: jmp 0x5e1acb9
+// asm:   0x5e1ac99: jmp 0x5e1acb9
+// asm:   0x5e1ac9b: jmp 0x5e1acb9
+// asm:   0x5e1ac9d: jmp 0x5e1acb9
+// asm:   0x5e1ac9f: jmp 0x5e1acb9
+// asm:   0x5e1aca1: jmp 0x5e1acb9
+// asm:   0x5e1aca3: jmp 0x5e1acb9
+// asm:   0x5e1aca5: jmp 0x5e1acb9
+// asm:   0x5e1aca7: jmp 0x5e1acb9
+// asm:   0x5e1aca9: jmp 0x5e1acb9
+// asm:   0x5e1acab: jmp 0x5e1acb9
+// asm:   0x5e1acad: jmp 0x5e1acb9
+// asm:   0x5e1acaf: jmp 0x5e1acb9
+// asm:   0x5e1acb1: jmp 0x5e1acb9
+// asm:   0x5e1acb3: jmp 0x5e1acb9
+// asm:   0x5e1acb5: jmp 0x5e1acb9
+// asm:   0x5e1acb7: jmp 0x5e1acb9
+// asm:   0x5e1acb9: mov rbx, rax
+// asm:   0x5e1acbc: cmp edx, 1
+// asm:   0x5e1acbf: jne 0x5e1aceb
+// asm:   0x5e1acc1: mov rdi, rbx
+// asm:   0x5e1acc4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5e1acc9: mov rax, qword ptr [rax]
+// asm:   0x5e1accc: mov qword ptr [rsp + 0x10], rax
+// asm:   0x5e1acd1: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e1acd9: lea rdi, [rsp + 0x10]
+// asm:   0x5e1acde: call 0x2fe04a0  ; il2cpp_runtime_helper_02fe04a0()
+// asm:   0x5e1ace3: jmp 0x5e1a925
+// asm:   0x5e1ace8: mov rbx, rax
+// asm:   0x5e1aceb: lea rdi, [rsp + 0x10]
+// asm:   0x5e1acf0: call 0x2fe04a0  ; il2cpp_runtime_helper_02fe04a0()
+// asm:   0x5e1acf5: mov rdi, rbx
+// asm:   0x5e1acf8: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5e1acfd: mov rdi, rax
+// asm:   0x5e1ad00: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool ApplicationManagers_MusicManager__ShouldPlayBattleMusic
                (ApplicationManagers_MusicManager_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  byte bVar2;
-  ushort uVar3;
-  Cameras_BaseCamera_o *pCVar4;
-  GameManagers_BaseGameManager_o *pGVar5;
-  Cameras_BaseCamera_c *pCVar6;
-  GameManagers_BaseGameManager_c *pGVar7;
+  byte bVar1;
+  Cameras_BaseCamera_o *pCVar2;
+  GameManagers_BaseGameManager_o *pGVar3;
+  GameManagers_BaseGameManager_c *pGVar4;
+  Characters_BaseCharacter_o *b;
+  Il2CppClass *pIVar5;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar6;
+  Utility_BaseComponentCache_o *pUVar7;
+  UnityEngine_Transform_o *pUVar8;
+  bool bVar9;
+  char cVar10;
+  Il2CppObject *pIVar11;
   GameManagers_InGameManager_o *__this_00;
-  Il2CppClass *pIVar8;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar9;
-  Utility_BaseComponentCache_o *pUVar10;
-  UnityEngine_Transform_o *pUVar11;
-  Characters_BaseCharacter_c *pCVar12;
-  bool bVar13;
-  Il2CppObject *pIVar14;
-  void *pvVar15;
-  VirtualInvokeData *pVVar16;
+  System_Collections_Generic_IEnumerable_BaseCharacter__o *pSVar12;
+  VirtualInvokeData *pVVar13;
   Characters_BaseCharacter_o *a;
-  UnityEngine_Vector3_o *pUVar17;
-  ushort uVar18;
-  float fVar19;
-  Il2CppObject *local_res8 [4];
-  undefined8 local_b8;
-  float local_b0;
-  undefined8 local_a8;
-  float local_a0;
-  UnityEngine_Vector3_o local_98;
-  UnityEngine_Vector3_o local_88;
-  undefined8 local_78;
-  Il2CppObject **local_70;
+  Il2CppObject *pIVar14;
+  ulong uVar15;
+  long lVar16;
+  float fVar17;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dd;
+  UnityEngine_Vector3_o UVar18;
+  Il2CppObject *local_68;
+  float local_5c;
+  undefined8 local_58;
+  undefined1 *local_50;
+  undefined1 local_48 [16];
   
-  if (Il2CppMethodInitialized_1843479a6 == '\0') {
+  if (Il2CppMethodInitialized_07548461 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitan);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter)
@@ -2175,195 +2103,198 @@ bool ApplicationManagers_MusicManager__ShouldPlayBattleMusic
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
-    Il2CppMethodInitialized_1843479a6 = '\x01';
+    Il2CppMethodInitialized_07548461 = '\x01';
   }
-  local_res8[0] = (Il2CppObject *)0x0;
-  fVar19 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  if ((__this->fields)._lastCheckBattleMusic + 0.2 <= fVar19) {
-    fVar19 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-    (__this->fields)._lastCheckBattleMusic = fVar19;
+  local_68 = (Il2CppObject *)0x0;
+  fVar17 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+  if ((__this->fields)._lastCheckBattleMusic + 0.2 <= fVar17) {
+    fVar17 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+    (__this->fields)._lastCheckBattleMusic = fVar17;
     if (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName == 2) {
-      pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+      pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar13 = UnityEngine_Object__op_Inequality
-                         ((UnityEngine_Object_o *)pCVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar13) {
-        pGVar5 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+      bVar9 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar9) {
+        pGVar3 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar13 = UnityEngine_Object__op_Inequality
-                           ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((bVar13) &&
-           (pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera,
-           pCVar4 != (Cameras_BaseCamera_o *)0x0)) {
-          pCVar6 = pCVar4->klass;
-          bVar2 = (TypeInfo_Cameras_InGameCamera->_2).typeHierarchyDepth;
-          if ((bVar2 <= (pCVar6->_2).typeHierarchyDepth) &&
-             (((pCVar6->_2).typeHierarchy[(ulonglong)bVar2 - 1] ==
-               (Il2CppClass *)TypeInfo_Cameras_InGameCamera &&
-              (pGVar5 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager,
-              pGVar5 != (GameManagers_BaseGameManager_o *)0x0)))) {
-            pGVar7 = pGVar5->klass;
-            bVar2 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
-            if ((bVar2 <= (pGVar7->_2).typeHierarchyDepth) &&
-               ((pGVar7->_2).typeHierarchy[(ulonglong)bVar2 - 1] ==
-                (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
-              pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
-              bVar2 = (TypeInfo_Cameras_InGameCamera->_2).typeHierarchyDepth;
-              if (((pCVar4->klass->_2).typeHierarchyDepth < bVar2) ||
-                 ((pCVar4->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                  (Il2CppClass *)TypeInfo_Cameras_InGameCamera)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pCVar4);
-              }
-              __this_00 = (GameManagers_InGameManager_o *)
-                          TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
-              bVar2 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
-              if (((__this_00->klass->_2).typeHierarchyDepth < bVar2) ||
-                 ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
+        bVar9 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pGVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar9) {
+          pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+          if (pCVar2 != (Cameras_BaseCamera_o *)0x0) {
+            bVar1 = (TypeInfo_Cameras_InGameCamera->_2).typeHierarchyDepth;
+            if (((bVar1 <= (((Il2CppClass *)pCVar2->klass)->_2).typeHierarchyDepth) &&
+                ((((Il2CppClass *)pCVar2->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+                 (Il2CppClass *)TypeInfo_Cameras_InGameCamera)) &&
+               (pGVar3 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager,
+               pGVar3 != (GameManagers_BaseGameManager_o *)0x0)) {
+              pGVar4 = pGVar3->klass;
+              bVar1 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
+              if ((bVar1 <= (pGVar4->_2).typeHierarchyDepth) &&
+                 ((pGVar4->_2).typeHierarchy[(ulong)bVar1 - 1] ==
                   (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
-                il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_GameManagers_InGameManager);
-              }
-              pCVar6 = (*(uint64_t *)((char *)pCVar4 + 0x38));
-              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-              }
-              bVar13 = UnityEngine_Object__op_Equality
-                                 ((UnityEngine_Object_o *)pCVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0
-                                 );
-              if (!bVar13) {
-                pIVar14 = (Il2CppObject *)
-                          GameManagers_InGameManager__GetAllCharactersEnumerable(__this_00,(MethodInfo *)0x0);
-                if (pIVar14 == (Il2CppObject *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                local_res8[0] =
-                     InterfaceInvoker0_Invoke
-                               (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter
-                                ,pIVar14);
-                local_78 = 0;
-                local_70 = local_res8;
-                while( true ) {
-                  if (local_res8[0] == (Il2CppObject *)0x0) {
-                    ThrowNullReferenceException();
+                pIVar11 = il2cpp_codegen_is_inst_class
+                                    ((Il2CppObject *)pCVar2,(Il2CppClass *)TypeInfo_Cameras_InGameCamera);
+                if (pIVar11 != (Il2CppObject *)0x0) {
+                  pIVar11 = il2cpp_codegen_is_inst_class
+                                      ((Il2CppObject *)pCVar2,(Il2CppClass *)TypeInfo_Cameras_InGameCamera);
+                  b = pIVar11[3].monitor;
+                  __this_00 = (GameManagers_InGameManager_o *)
+                              il2cpp_codegen_is_inst_class
+                                        ((Il2CppObject *)
+                                         TypeInfo_ApplicationManagers_SceneLoader->static_fields->
+                                         CurrentGameManager,(Il2CppClass *)TypeInfo_GameManagers_InGameManager
+                                        );
+                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                   }
-                  pvVar15 = InterfaceInvoker0_Invoke
-                                      (0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res8[0])
-                  ;
-                  pIVar14 = local_res8[0];
-                  if ((char)pvVar15 == '\0') break;
-                  if (local_res8[0] == (Il2CppObject *)0x0) {
-                    ThrowNullReferenceException();
+                  bVar9 = UnityEngine_Object__op_Equality
+                                    ((UnityEngine_Object_o *)b,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+                  if (bVar9) {
+                    return false;
                   }
-                  pIVar8 = local_res8[0]->klass;
-                  uVar3 = (pIVar8->_2).interface_offsets_count;
-                  if (uVar3 != 0) {
-                    uVar18 = 0;
-                    pIVar9 = (pIVar8->_1).interfaceOffsets;
+                  if ((__this_00 != (GameManagers_InGameManager_o *)0x0) &&
+                     (pSVar12 = GameManagers_InGameManager__GetAllCharactersEnumerable
+                                          (__this_00,(MethodInfo *)0x0),
+                     pSVar12 != (System_Collections_Generic_IEnumerable_BaseCharacter__o *)0x0)) {
+                    pIVar11 = (Il2CppObject *)
+                              il2cpp_runtime_helper_02ad5a70(0,TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter,
+                                           pSVar12);
+                    local_50 = (undefined1 *)&local_68;
+                    local_58 = 0;
+joined_r0x05e1aa19:
                     do {
-                      if (pIVar9[uVar18].interfaceType ==
-                          (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter) {
-                        pVVar16 = pIVar8->vtable + pIVar9[uVar18].offset;
-                        goto label_1823546e6;
-                      }
-                      uVar18 = uVar18 + 1;
-                    } while (uVar18 < uVar3);
-                  }
-                  pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
-                                      (local_res8[0],
-                                       (Il2CppClass *)
-                                       TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter,0);
-label_1823546e6:
-                  a = (Characters_BaseCharacter_o *)(*pVVar16->methodPtr)(pIVar14,pVVar16->method);
-                  if (a == (Characters_BaseCharacter_o *)0x0) {
-                    ThrowNullReferenceException();
-                  }
-                  bVar13 = (*(a->klass->vtable)._73_ValidTarget.methodPtr)
-                                     (a,(a->klass->vtable)._73_ValidTarget.method);
-                  if (bVar13) {
-                    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
-                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
-                    }
-                    bVar13 = GameManagers_TeamInfo__SameTeam_1e770d0
-                                       (a,(Characters_BaseCharacter_o *)pCVar6,(MethodInfo *)0x0);
-                    if (!bVar13) {
-                      pUVar10 = (a->fields).Cache;
-                      if (pUVar10 == (Utility_BaseComponentCache_o *)0x0) {
+                      do {
+                        do {
+                          local_68 = pIVar11;
+                          if (pIVar11 == (Il2CppObject *)0x0) {
+                            ThrowNullReferenceException();
+                          }
+                          pIVar5 = pIVar11->klass;
+                          uVar15 = (ulong)(pIVar5->_2).interface_offsets_count;
+                          if (uVar15 != 0) {
+                            pIVar6 = (pIVar5->_1).interfaceOffsets;
+                            lVar16 = 0;
+                            do {
+                              if (*(Il2CppClass **)((long)&pIVar6->interfaceType + lVar16) ==
+                                  (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
+                                pVVar13 = (VirtualInvokeData *)
+                                          &pIVar5->vtable[*(int *)((long)&pIVar6->offset + lVar16)].methodPtr;
+                                goto label_05e1aa9e;
+                              }
+                              lVar16 = lVar16 + 0x10;
+                            } while (uVar15 * 0x10 != lVar16);
+                          }
+                          pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath
+                                              (pIVar11,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,
+                                               0);
+label_05e1aa9e:
+                          cVar10 = (*pVVar13->methodPtr)(pIVar11,pVVar13->method);
+                          pIVar11 = local_68;
+                          if (cVar10 == '\0') {
+                            cVar10 = '\0';
+                            goto label_05e1acd9;
+                          }
+                          if (local_68 == (Il2CppObject *)0x0) {
+                            ThrowNullReferenceException();
+                          }
+                          pIVar5 = local_68->klass;
+                          uVar15 = (ulong)(pIVar5->_2).interface_offsets_count;
+                          if (uVar15 != 0) {
+                            pIVar6 = (pIVar5->_1).interfaceOffsets;
+                            lVar16 = 0;
+                            do {
+                              if (*(System_Collections_Generic_IEnumerator_BaseCharacter__c **)
+                                   ((long)&pIVar6->interfaceType + lVar16) ==
+                                  TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter) {
+                                pVVar13 = (VirtualInvokeData *)
+                                          &pIVar5->vtable[*(int *)((long)&pIVar6->offset + lVar16)].methodPtr;
+                                goto label_05e1ab10;
+                              }
+                              lVar16 = lVar16 + 0x10;
+                            } while (uVar15 * 0x10 != lVar16);
+                          }
+                          pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath
+                                              (local_68,(Il2CppClass *)
+                                                                                                                
+                                                       TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter
+                                               ,0);
+label_05e1ab10:
+                          a = (Characters_BaseCharacter_o *)(*pVVar13->methodPtr)(pIVar11,pVVar13->method);
+                          if (a == (Characters_BaseCharacter_o *)0x0) {
+                            ThrowNullReferenceException();
+                          }
+                          bVar9 = (*(a->klass->vtable)._73_ValidTarget.methodPtr)
+                                            (a,(a->klass->vtable)._73_ValidTarget.method);
+                          pIVar11 = local_68;
+                        } while (!bVar9);
+                        if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+                        }
+                        bVar9 = GameManagers_TeamInfo__SameTeam_5858900(a,b,(MethodInfo *)0x0);
+                        pIVar11 = local_68;
+                      } while (bVar9);
+                      pUVar7 = (a->fields).Cache;
+                      if (pUVar7 == (Utility_BaseComponentCache_o *)0x0) {
                         ThrowNullReferenceException();
                       }
-                      pUVar11 = (pUVar10->fields).Transform;
-                      if (pUVar11 == (UnityEngine_Transform_o *)0x0) {
+                      pUVar8 = (pUVar7->fields).Transform;
+                      if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
                         ThrowNullReferenceException();
                       }
-                      pUVar17 = UnityEngine_Transform__get_position(&local_98,pUVar11,(MethodInfo *)0x0);
-                      if (pCVar6 == (Cameras_BaseCamera_c *)0x0) {
+                      UVar18 = UnityEngine_Transform__get_position(pUVar8,(MethodInfo *)0x0);
+                      local_5c = UVar18.fields.z;
+                      local_48._8_4_ = extraout_XMM0_Dc;
+                      local_48._0_8_ = UVar18.fields._0_8_;
+                      local_48._12_4_ = extraout_XMM0_Dd;
+                      if (b == (Characters_BaseCharacter_o *)0x0) {
                         ThrowNullReferenceException();
                       }
-                      pIVar8 = (pCVar6->_1).klass;
-                      if (pIVar8 == (Il2CppClass *)0x0) {
+                      pUVar7 = (b->fields).Cache;
+                      if (pUVar7 == (Utility_BaseComponentCache_o *)0x0) {
                         ThrowNullReferenceException();
                       }
-                      pUVar11 = ((Utility_BaseComponentCache_Fields *)&(pIVar8->_1).name)->Transform;
-                      if (pUVar11 == (UnityEngine_Transform_o *)0x0) {
+                      pUVar8 = (pUVar7->fields).Transform;
+                      if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
                         ThrowNullReferenceException();
                       }
-                      uVar1._0_4_ = (pUVar17->fields).x;
-                      uVar1._4_4_ = (pUVar17->fields).y;
-                      fVar19 = (pUVar17->fields).z;
-                      pUVar17 = UnityEngine_Transform__get_position(&local_88,pUVar11,(MethodInfo *)0x0);
-                      local_b8._0_4_ = (pUVar17->fields).x;
-                      local_b8._4_4_ = (pUVar17->fields).y;
-                      local_b0 = (pUVar17->fields).z;
-                      local_a8 = uVar1;
-                      local_a0 = fVar19;
-                      fVar19 = (float)il2cpp_runtime_helper_180562c80(&local_a8,&local_b8,0);
-                      pCVar12 = a->klass;
-                      bVar2 = (TypeInfo_Characters_BasicTitan->_2).typeHierarchyDepth;
-                      if (((pCVar12->_2).typeHierarchyDepth < bVar2) ||
-                         ((pCVar12->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
+                      UVar18 = UnityEngine_Transform__get_position(pUVar8,(MethodInfo *)0x0);
+                      fVar17 = (float)il2cpp_runtime_helper_05956b50(local_48._0_4_,local_5c,UVar18.fields.x,UVar18.fields.z);
+                      bVar1 = (TypeInfo_Characters_BasicTitan->_2).typeHierarchyDepth;
+                      pIVar11 = local_68;
+                      if ((bVar1 <= (a->klass->_2).typeHierarchyDepth) &&
+                         ((a->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
                           (Il2CppClass *)TypeInfo_Characters_BasicTitan)) {
-                        if (fVar19 < 500.0) {
-                          if (local_res8[0] != (Il2CppObject *)0x0) {
-                            InterfaceInvoker0_Invoke
-                                      (0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res8[0]);
+                        if (fVar17 < 200.0) goto label_05e1acd9;
+                        if (fVar17 < 1000.0) {
+                          pIVar11 = il2cpp_codegen_is_inst_class
+                                              ((Il2CppObject *)a,(Il2CppClass *)TypeInfo_Characters_BasicTitan
+                                              );
+                          if (pIVar11 == (Il2CppObject *)0x0) {
+                            ThrowNullReferenceException();
                           }
-                          return true;
+                          pIVar14 = il2cpp_codegen_is_inst_class
+                                              ((Il2CppObject *)a,(Il2CppClass *)TypeInfo_Characters_BasicTitan
+                                              );
+                          pIVar11 = local_68;
+                          if (0 < *(int *)((long)&pIVar14[0x38].klass + 4)) goto label_05e1acd9;
                         }
+                        goto joined_r0x05e1aa19;
                       }
-                      else {
-                        if (fVar19 < 200.0) {
-                          if (local_res8[0] == (Il2CppObject *)0x0) {
-                            return true;
-                          }
-                          InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res8[0])
-                          ;
-                          return true;
-                        }
-                        if (fVar19 < 1000.0) {
-                          bVar2 = (TypeInfo_Characters_BasicTitan->_2).typeHierarchyDepth;
-                          if (((pCVar12->_2).typeHierarchyDepth < bVar2) ||
-                             ((pCVar12->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                              (Il2CppClass *)TypeInfo_Characters_BasicTitan)) {
-                            il2cpp_codegen_raise_invalid_cast_exception(a);
-                          }
-                          if (0 < (*(uint32_t *)((char *)a + 0x36c))) {
-                            if (local_res8[0] == (Il2CppObject *)0x0) {
-                              return true;
-                            }
-                            InterfaceInvoker0_Invoke
-                                      (0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res8[0]);
-                            return true;
-                          }
-                        }
+                      if (fVar17 < 500.0) {
+label_05e1acd9:
+                        il2cpp_runtime_helper_02fe04a0(&local_58);
+                        return (bool)cVar10;
                       }
-                    }
+                    } while( true );
                   }
                 }
-                if (local_res8[0] != (Il2CppObject *)0x0) {
-                  InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res8[0]);
-                }
+                ThrowNullReferenceException();
               }
             }
           }
@@ -2377,7 +2308,7 @@ label_1823546e6:
 
 // ApplicationManagers.MusicManager$$GetMusicVolume
 // il2cpp: float ApplicationManagers_MusicManager__GetMusicVolume (const MethodInfo* method);
-// 0x182352730
+// 0x5e18990
 
 float ApplicationManagers_MusicManager__GetMusicVolume(MethodInfo *method)
 
@@ -2385,27 +2316,27 @@ float ApplicationManagers_MusicManager__GetMusicVolume(MethodInfo *method)
   Settings_SoundSettings_o *pSVar1;
   Settings_FloatSetting_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843479a7 == '\0') {
+  if (Il2CppMethodInitialized_07548462 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
-    Il2CppMethodInitialized_1843479a7 = '\x01';
+    Il2CppMethodInitialized_07548462 = '\x01';
   }
-  if (TypeInfo_ApplicationManagers_MusicManager->static_fields->_muted == false) {
-    pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
-    if ((pSVar1 != (Settings_SoundSettings_o *)0x0) &&
-       (pSVar2 = (pSVar1->fields).Music, pSVar2 != (Settings_FloatSetting_o *)0x0)) {
-      return (pSVar2->fields)._value * 0.4;
-    }
+  if (TypeInfo_ApplicationManagers_MusicManager->static_fields->_muted != false) {
+    return 0.0;
+  }
+  pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+  if ((pSVar1 == (Settings_SoundSettings_o *)0x0) ||
+     (pSVar2 = (pSVar1->fields).Music, pSVar2 == (Settings_FloatSetting_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  return 0.0;
+  return (pSVar2->fields)._value * 0.4;
 }
 
 
 // ApplicationManagers.MusicManager$$GetCurrentSong
 // il2cpp: System_String_o* ApplicationManagers_MusicManager__GetCurrentSong (const MethodInfo* method);
-// 0x182352690
+// 0x5e1ad10
 
 System_String_o * ApplicationManagers_MusicManager__GetCurrentSong(MethodInfo *method)
 
@@ -2413,11 +2344,11 @@ System_String_o * ApplicationManagers_MusicManager__GetCurrentSong(MethodInfo *m
   ApplicationManagers_MusicManager_o *pAVar1;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_1843479a8 == '\0') {
+  if (Il2CppMethodInitialized_07548463 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"None");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843479a8 = '\x01';
+    Il2CppMethodInitialized_07548463 = '\x01';
   }
   pAVar1 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_instance;
   if (pAVar1 != (ApplicationManagers_MusicManager_o *)0x0) {
@@ -2437,257 +2368,229 @@ System_String_o * ApplicationManagers_MusicManager__GetCurrentSong(MethodInfo *m
 
 // ApplicationManagers.MusicManager$$GetAllSongs
 // il2cpp: System_Collections_Generic_List_string__o* ApplicationManagers_MusicManager__GetAllSongs (const MethodInfo* method);
-// 0x182352350
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823524eb: nop dword ptr [rax + rax]
-// asm:   0x18235255f: nop 
+// 0x5e1adb0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e1b0c0: jmp 0x5e1b010
 
 System_Collections_Generic_List_string__o * ApplicationManagers_MusicManager__GetAllSongs(MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_Enumerator_o *pSVar1;
-  bool bVar2;
+  bool bVar1;
   System_Collections_Generic_HashSet_string__o *__this;
-  SimpleJSONFixed_JSONNode_ValueEnumerator_o *pSVar3;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o *pSVar4;
-  SimpleJSONFixed_JSONNode_o *pSVar5;
-  undefined8 *puVar6;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar7;
-  System_Xml_Schema_XmlSchema_o *d;
-  System_String_o *pSVar8;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  System_String_o *item;
   System_Collections_Generic_List_string__o *__this_00;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_178;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_128;
-  SimpleJSONFixed_JSONNode_Enumerator_Fields local_d8;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_88;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_78;
-  SimpleJSONFixed_JSONNode_ValueEnumerator_o local_68;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o SVar3;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_1a8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_160;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_118;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_c8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_78;
   
-  if (Il2CppMethodInitialized_1843479a9 == '\0') {
+  if (Il2CppMethodInitialized_07548464 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicManager);
     il2cpp_codegen_initialize_runtime_metadata(&"Name");
-    Il2CppMethodInitialized_1843479a9 = '\x01';
+    Il2CppMethodInitialized_07548464 = '\x01';
   }
-  local_128.type = 0;
-  local_128._4_4_ = 0;
-  local_128.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_128.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_128.m_Object.fields._version = 0;
-  local_128.m_Object.fields._index = 0;
-  local_128.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_128.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_128.m_Object.fields._getEnumeratorRetType = 0;
-  local_128.m_Object.fields._36_4_ = 0;
-  local_178.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_128.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_128.m_Array.fields._index = 0;
-  local_128.m_Array.fields._version = 0;
-  local_d8.type = 0;
-  local_d8._4_4_ = 0;
-  local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_d8.m_Object.fields._version = 0;
-  local_d8.m_Object.fields._index = 0;
-  local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_d8.m_Object.fields._getEnumeratorRetType = 0;
-  local_d8.m_Object.fields._36_4_ = 0;
-  local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_d8.m_Array.fields._index = 0;
-  local_d8.m_Array.fields._version = 0;
-  local_178.type = 0;
-  local_178._4_4_ = 0;
-  local_178.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_178.m_Object.fields._version = 0;
-  local_178.m_Object.fields._index = 0;
-  local_178.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_178.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_178.m_Object.fields._getEnumeratorRetType = 0;
-  local_178.m_Object.fields._36_4_ = 0;
-  local_178.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_178.m_Array.fields._index = 0;
-  local_178.m_Array.fields._version = 0;
+  local_c8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_c8.m_Array.fields._index = 0;
+  local_c8.m_Array.fields._version = 0;
+  local_c8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_c8.m_Object.fields._getEnumeratorRetType = 0;
+  local_c8.m_Object.fields._36_4_ = 0;
+  local_c8.m_Object.fields._version = 0;
+  local_c8.m_Object.fields._index = 0;
+  local_c8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_c8.type = 0;
+  local_c8._4_4_ = 0;
+  local_c8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_c8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_1a8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_1a8.m_Array.fields._index = 0;
+  local_1a8.m_Array.fields._version = 0;
+  local_1a8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_1a8.m_Object.fields._getEnumeratorRetType = 0;
+  local_1a8.m_Object.fields._36_4_ = 0;
+  local_1a8.m_Object.fields._version = 0;
+  local_1a8.m_Object.fields._index = 0;
+  local_1a8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_1a8.type = 0;
+  local_1a8._4_4_ = 0;
+  local_1a8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_1a8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  pSVar5 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
-  if (pSVar5 == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_182352683:
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  pSVar2 = TypeInfo_ApplicationManagers_MusicManager->static_fields->_musicInfo;
+  if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_05e1b25f:
     ThrowNullReferenceException();
   }
-  pSVar3 = SimpleJSONFixed_JSONNode__get_Values(&local_68,pSVar5,(MethodInfo *)0x0);
-  local_d8.type = (pSVar3->fields).m_Enumerator.fields.type;
-  local_d8._4_4_ = *(undefined4 *)&(pSVar3->fields).m_Enumerator.fields.field_0x4;
-  local_d8.m_Object.fields._dictionary = (pSVar3->fields).m_Enumerator.fields.m_Object.fields._dictionary;
-  pSVar1 = &(pSVar3->fields).m_Enumerator;
-  local_d8.m_Object.fields._version = (pSVar1->fields).m_Object.fields._version;
-  local_d8.m_Object.fields._index = (pSVar1->fields).m_Object.fields._index;
-  local_d8.m_Object.fields._current.fields.key =
-       (pSVar3->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
-  local_d8.m_Object.fields._current.fields.value =
-       (pSVar3->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
-  pSVar1 = &(pSVar3->fields).m_Enumerator;
-  local_d8.m_Object.fields._getEnumeratorRetType = (pSVar1->fields).m_Object.fields._getEnumeratorRetType;
-  local_d8.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar1->fields).m_Object.fields.field_0x24;
-  local_d8.m_Array.fields._list = (pSVar3->fields).m_Enumerator.fields.m_Array.fields._list;
-  pSVar1 = &(pSVar3->fields).m_Enumerator;
-  local_d8.m_Array.fields._index = (pSVar1->fields).m_Array.fields._index;
-  local_d8.m_Array.fields._version = (pSVar1->fields).m_Array.fields._version;
-  local_d8.m_Array.fields._current = (pSVar3->fields).m_Enumerator.fields.m_Array.fields._current;
-  pSVar4 = SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
-                     ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_68,
-                      (SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
-  local_128.type = (pSVar4->fields).m_Enumerator.fields.type;
-  local_128._4_4_ = *(undefined4 *)&(pSVar4->fields).m_Enumerator.fields.field_0x4;
-  local_128.m_Object.fields._dictionary = (pSVar4->fields).m_Enumerator.fields.m_Object.fields._dictionary;
-  pSVar1 = &(pSVar4->fields).m_Enumerator;
-  local_128.m_Object.fields._version = (pSVar1->fields).m_Object.fields._version;
-  local_128.m_Object.fields._index = (pSVar1->fields).m_Object.fields._index;
-  local_128.m_Object.fields._current.fields.key =
-       (pSVar4->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
-  local_128.m_Object.fields._current.fields.value =
-       (pSVar4->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
-  pSVar1 = &(pSVar4->fields).m_Enumerator;
-  local_128.m_Object.fields._getEnumeratorRetType = (pSVar1->fields).m_Object.fields._getEnumeratorRetType;
-  local_128.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar1->fields).m_Object.fields.field_0x24;
-  local_128.m_Array.fields._list = (pSVar4->fields).m_Enumerator.fields.m_Array.fields._list;
-  pSVar1 = &(pSVar4->fields).m_Enumerator;
-  local_128.m_Array.fields._index = (pSVar1->fields).m_Array.fields._index;
-  local_128.m_Array.fields._version = (pSVar1->fields).m_Array.fields._version;
-  local_128.m_Array.fields._current = (pSVar4->fields).m_Enumerator.fields.m_Array.fields._current;
-  bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                    ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_128,(MethodInfo *)0x0);
-  if (bVar2) {
-    do {
-      pSVar5 = SimpleJSONFixed_JSONNode_ValueEnumerator__get_Current
-                         ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_128,(MethodInfo *)0x0);
-      if (pSVar5 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182352683;
-      puVar6 = (undefined8 *)(*(pSVar5->klass->vtable)._32_unknown.methodPtr)(&local_68);
-      local_178._0_8_ = *puVar6;
-      local_178.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar6[1];
-      local_178.m_Object.fields._8_8_ = puVar6[2];
-      local_178.m_Object.fields._current.fields.key = (Il2CppObject *)puVar6[3];
-      local_178.m_Object.fields._current.fields.value = (Il2CppObject *)puVar6[4];
-      local_178.m_Object.fields._32_8_ = puVar6[5];
-      local_178.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar6[6];
-      local_178.m_Array.fields._8_8_ = puVar6[7];
-      local_178.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar6[8];
-      bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_178,(MethodInfo *)0x0);
-      if (bVar2) {
-        do {
-          pSVar7 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                             (&local_78,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_178,(MethodInfo *)0x0)
-          ;
-          pSVar8 = (pSVar7->fields).key;
-          pSVar5 = (pSVar7->fields).value;
+  SimpleJSONFixed_JSONNode__get_Values
+            ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_118,pSVar2,(MethodInfo *)0x0);
+  local_78.m_Array.fields._current = local_118.m_Array.fields._current;
+  local_78.m_Array.fields._list = local_118.m_Array.fields._list;
+  local_78.m_Array.fields._index = local_118.m_Array.fields._index;
+  local_78.m_Array.fields._version = local_118.m_Array.fields._version;
+  local_78.m_Object.fields._current.fields.value = local_118.m_Object.fields._current.fields.value;
+  local_78.m_Object.fields._getEnumeratorRetType = local_118.m_Object.fields._getEnumeratorRetType;
+  local_78.m_Object.fields._36_4_ = local_118.m_Object.fields._36_4_;
+  local_78.m_Object.fields._version = local_118.m_Object.fields._version;
+  local_78.m_Object.fields._index = local_118.m_Object.fields._index;
+  local_78.m_Object.fields._current.fields.key = local_118.m_Object.fields._current.fields.key;
+  local_78.type = local_118.type;
+  local_78._4_4_ = local_118._4_4_;
+  local_78.m_Object.fields._dictionary = local_118.m_Object.fields._dictionary;
+  SimpleJSONFixed_JSONNode_ValueEnumerator__GetEnumerator
+            ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,
+             (SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_78,(MethodInfo *)0x0);
+  bVar1 = SimpleJSONFixed_JSONNode_ValueEnumerator__MoveNext
+                    ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+      do {
+        pSVar2 = SimpleJSONFixed_JSONNode_ValueEnumerator__get_Current
+                           ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+        if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1b25f;
+        (*(pSVar2->klass->vtable)._32_unknown.methodPtr)
+                  (&local_160,pSVar2,(pSVar2->klass->vtable)._32_unknown.method);
+        local_118.m_Array.fields._current = local_160.m_Array.fields._current;
+        local_118.type = local_160.type;
+        local_118._4_4_ = local_160._4_4_;
+        local_118.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+        local_1a8.type = local_160.type;
+        local_1a8._4_4_ = local_160._4_4_;
+        local_1a8.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+        local_1a8.m_Object.fields._version = local_160.m_Object.fields._version;
+        local_1a8.m_Object.fields._index = local_160.m_Object.fields._index;
+        local_1a8.m_Object.fields._current.fields.key = local_160.m_Object.fields._current.fields.key;
+        local_1a8.m_Object.fields._current.fields.value = local_160.m_Object.fields._current.fields.value;
+        local_1a8.m_Object.fields._getEnumeratorRetType = local_160.m_Object.fields._getEnumeratorRetType;
+        local_1a8.m_Object.fields._36_4_ = local_160.m_Object.fields._36_4_;
+        local_1a8.m_Array.fields._list = local_160.m_Array.fields._list;
+        local_1a8.m_Array.fields._index = local_160.m_Array.fields._index;
+        local_1a8.m_Array.fields._version = local_160.m_Array.fields._version;
+        local_1a8.m_Array.fields._current = local_160.m_Array.fields._current;
+        while( true ) {
+          bVar1 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
+                            ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_1a8,(MethodInfo *)0x0);
+          if (!bVar1) break;
+          SVar3 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                            ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_1a8,(MethodInfo *)0x0);
           if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
           }
-          local_88.fields.key = pSVar8;
-          local_88.fields.value = pSVar5;
-          pSVar5 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_88,(MethodInfo *)0x0);
-          if (pSVar5 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182352683;
-          bVar2 = (*(pSVar5->klass->vtable)._28_HasKey.methodPtr)(pSVar5,(MethodInfo *)"Name");
-          if (bVar2) {
-            d = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)(pSVar5,(MethodInfo *)"Name");
+          pSVar2 = SimpleJSONFixed_JSONNode__op_Implicit_57641c0(SVar3,(MethodInfo *)0x0);
+          if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1b25f;
+          bVar1 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)
+                            (pSVar2,"Name",(pSVar2->klass->vtable)._28_HasKey.method);
+          if (bVar1) {
+            pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                               (pSVar2,"Name",(pSVar2->klass->vtable)._7_get_Item.method);
             if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
             }
-            pSVar8 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450
-                               ((SimpleJSONFixed_JSONNode_o *)d,(MethodInfo *)0x0);
-            if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) goto label_182352683;
-            System_Collections_Generic_HashSet_object___Add
-                      ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)pSVar8,
-                       (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+            SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar2,(MethodInfo *)0x0);
+            ThrowNullReferenceException();
           }
-          bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                            ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_178,(MethodInfo *)0x0);
-        } while (bVar2);
-      }
-      bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
-                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_128,(MethodInfo *)0x0);
-    } while (bVar2);
+        }
+        bVar1 = SimpleJSONFixed_JSONNode_ValueEnumerator__MoveNext
+                          ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+      } while (bVar1);
+    }
+    else {
+      do {
+        pSVar2 = SimpleJSONFixed_JSONNode_ValueEnumerator__get_Current
+                           ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+        if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1b25f;
+        (*(pSVar2->klass->vtable)._32_unknown.methodPtr)
+                  (&local_160,pSVar2,(pSVar2->klass->vtable)._32_unknown.method);
+        local_118.m_Array.fields._current = local_160.m_Array.fields._current;
+        local_118.type = local_160.type;
+        local_118._4_4_ = local_160._4_4_;
+        local_118.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+        local_1a8.type = local_160.type;
+        local_1a8._4_4_ = local_160._4_4_;
+        local_1a8.m_Object.fields._dictionary = local_160.m_Object.fields._dictionary;
+        local_1a8.m_Object.fields._version = local_160.m_Object.fields._version;
+        local_1a8.m_Object.fields._index = local_160.m_Object.fields._index;
+        local_1a8.m_Object.fields._current.fields.key = local_160.m_Object.fields._current.fields.key;
+        local_1a8.m_Object.fields._current.fields.value = local_160.m_Object.fields._current.fields.value;
+        local_1a8.m_Object.fields._getEnumeratorRetType = local_160.m_Object.fields._getEnumeratorRetType;
+        local_1a8.m_Object.fields._36_4_ = local_160.m_Object.fields._36_4_;
+        local_1a8.m_Array.fields._list = local_160.m_Array.fields._list;
+        local_1a8.m_Array.fields._index = local_160.m_Array.fields._index;
+        local_1a8.m_Array.fields._version = local_160.m_Array.fields._version;
+        local_1a8.m_Array.fields._current = local_160.m_Array.fields._current;
+        while( true ) {
+          bVar1 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
+                            ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_1a8,(MethodInfo *)0x0);
+          if (!bVar1) break;
+          SVar3 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                            ((SimpleJSONFixed_JSONNode_Enumerator_o *)&local_1a8,(MethodInfo *)0x0);
+          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+          }
+          pSVar2 = SimpleJSONFixed_JSONNode__op_Implicit_57641c0(SVar3,(MethodInfo *)0x0);
+          if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e1b25f;
+          bVar1 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)
+                            (pSVar2,"Name",(pSVar2->klass->vtable)._28_HasKey.method);
+          if (bVar1) {
+            pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                               (pSVar2,"Name",(pSVar2->klass->vtable)._7_get_Item.method);
+            if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+            }
+            item = SimpleJSONFixed_JSONNode__op_Implicit_5763740(pSVar2,(MethodInfo *)0x0);
+            System_Collections_Generic_HashSet_object___Add
+                      ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)item,
+                       (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+          }
+        }
+        bVar1 = SimpleJSONFixed_JSONNode_ValueEnumerator__MoveNext
+                          ((SimpleJSONFixed_JSONNode_ValueEnumerator_o *)&local_c8,(MethodInfo *)0x0);
+      } while (bVar1);
+    }
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-  System_Collections_Generic_List_object____ctor_94fb10
+  System_Collections_Generic_List_object____ctor_395ca70
             ((System_Collections_Generic_List_object__o *)__this_00,
              (System_Collections_Generic_IEnumerable_T__o *)__this,
-             (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+             (MethodInfo_395CA70 *)MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
   return __this_00;
-}
-
-
-// ApplicationManagers.MusicManager$$PlaySoundOneShot
-// il2cpp: void ApplicationManagers_MusicManager__PlaySoundOneShot (UnityEngine_AudioSource_o* source, const MethodInfo* method);
-// 0x182353810
-
-void ApplicationManagers_MusicManager__PlaySoundOneShot(UnityEngine_AudioSource_o *source,MethodInfo *method)
-
-{
-  bool bVar1;
-  UnityEngine_Object_o *target;
-  UnityEngine_AudioClip_o *clip;
-  
-  if (Il2CppMethodInitialized_1843479aa == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843479aa = '\x01';
-  }
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)source,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
-    if (source == (UnityEngine_AudioSource_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    target = (UnityEngine_Object_o *)
-             UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)source,(MethodInfo *)0x0);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    UnityEngine_Object__DontDestroyOnLoad(target,(MethodInfo *)0x0);
-    clip = UnityEngine_AudioSource__get_clip(source,(MethodInfo *)0x0);
-    UnityEngine_AudioSource__PlayOneShot(source,clip,(MethodInfo *)0x0);
-  }
-  return;
 }
 
 
 // ApplicationManagers.MusicManager$$.ctor
 // il2cpp: void ApplicationManagers_MusicManager___ctor (ApplicationManagers_MusicManager_o* __this, const MethodInfo* method);
-// 0x182354ec0
+// 0x5e1b270
 
 void ApplicationManagers_MusicManager___ctor(ApplicationManagers_MusicManager_o *__this,MethodInfo *method)
 
 {
-  System_String_o *value;
   System_Collections_Generic_List_string__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843479ab == '\0') {
+  if (Il2CppMethodInitialized_07548465 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
-    Il2CppMethodInitialized_1843479ab = '\x01';
+    Il2CppMethodInitialized_07548465 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_string_ctor);
   (__this->fields)._customPlaylist = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._customPlaylist,__this_00);
-  value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this->fields)._lastSongBeforeGrabbed = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._lastSongBeforeGrabbed,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._customPlaylist);
+  (__this->fields)._lastSongBeforeGrabbed = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._lastSongBeforeGrabbed);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

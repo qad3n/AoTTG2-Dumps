@@ -25,7 +25,7 @@ public readonly struct HandleDragAndDropArgs
 	private readonly Vector2 _003Cposition_003Ek__BackingField;
 
 	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x3242230", Offset = "0x3240830", VA = "0x183242230")]
+	[Address(RVA = "0x6C51620", Offset = "0x6C50620", VA = "0x6C51620")]
 	internal HandleDragAndDropArgs(Vector2 position, DragAndDropArgs dragAndDropArgs)
 	{
 	}

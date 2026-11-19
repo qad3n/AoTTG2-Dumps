@@ -31,7 +31,7 @@ public class TerrainMap
 	public Dictionary<TerrainTileCoord, Terrain> terrainTiles
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x69F5860", Offset = "0x69F4860", VA = "0x69F5860")]
 		get
 		{
 			return null;
@@ -39,53 +39,53 @@ public class TerrainMap
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x2FFAA60", Offset = "0x2FF9060", VA = "0x182FFAA60")]
+	[Address(RVA = "0x69F4C80", Offset = "0x69F3C80", VA = "0x69F4C80")]
 	public Terrain GetTerrain(int tileX, int tileZ)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2FFA550", Offset = "0x2FF8B50", VA = "0x182FFA550")]
+	[Address(RVA = "0x69F4CF0", Offset = "0x69F3CF0", VA = "0x69F4CF0")]
 	public static TerrainMap CreateFromPlacement(Terrain originTerrain, [Optional] Predicate<Terrain> filter, bool fullValidation = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x2FFA190", Offset = "0x2FF8790", VA = "0x182FFA190")]
+	[Address(RVA = "0x69F4FC0", Offset = "0x69F3FC0", VA = "0x69F4FC0")]
 	public static TerrainMap CreateFromPlacement(Vector2 gridOrigin, Vector2 gridSize, [Optional] Predicate<Terrain> filter, bool fullValidation = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2FFB580", Offset = "0x2FF9B80", VA = "0x182FFB580")]
+	[Address(RVA = "0x69F5530", Offset = "0x69F4530", VA = "0x69F5530")]
 	public TerrainMap()
 	{
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2FF9E70", Offset = "0x2FF8470", VA = "0x182FF9E70")]
+	[Address(RVA = "0x69F5870", Offset = "0x69F4870", VA = "0x69F5870")]
 	private void AddTerrainInternal(int x, int z, Terrain terrain)
 	{
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2FFAAE0", Offset = "0x2FF90E0", VA = "0x182FFAAE0")]
+	[Address(RVA = "0x69F55B0", Offset = "0x69F45B0", VA = "0x69F55B0")]
 	private bool TryToAddTerrain(int tileX, int tileZ, Terrain terrain)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2FFABF0", Offset = "0x2FF91F0", VA = "0x182FFABF0")]
+	[Address(RVA = "0x69F5980", Offset = "0x69F4980", VA = "0x69F5980")]
 	private void ValidateTerrain(int tileX, int tileZ)
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2FFB430", Offset = "0x2FF9A30", VA = "0x182FFB430")]
+	[Address(RVA = "0x69F56F0", Offset = "0x69F46F0", VA = "0x69F56F0")]
 	private TerrainMapStatusCode Validate()
 	{
 		return default(TerrainMapStatusCode);

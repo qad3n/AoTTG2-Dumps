@@ -1,0 +1,299 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Settings.InGameTitanSettings
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Settings/InGameTitanSettings.c
+// Prior real C# source (older reference): Assets/Scripts/Settings/InGame/InGameTitanSettings.cs
+// Bodies below are the native C lifted into C# syntax by tools/pipeline/lift_csharp.py.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace Settings;
+
+[Token(Token = "0x20000E8")]
+internal class InGameTitanSettings : BaseSettingsContainer
+{
+	[Token(Token = "0x40004FA")]
+	[FieldOffset(Offset = "0x30")]
+	public BoolSetting TitanSpawnEnabled;
+
+	[Token(Token = "0x40004FB")]
+	[FieldOffset(Offset = "0x38")]
+	public FloatSetting TitanSpawnNormal;
+
+	[Token(Token = "0x40004FC")]
+	[FieldOffset(Offset = "0x40")]
+	public FloatSetting TitanSpawnAbnormal;
+
+	[Token(Token = "0x40004FD")]
+	[FieldOffset(Offset = "0x48")]
+	public FloatSetting TitanSpawnJumper;
+
+	[Token(Token = "0x40004FE")]
+	[FieldOffset(Offset = "0x50")]
+	public FloatSetting TitanSpawnCrawler;
+
+	[Token(Token = "0x40004FF")]
+	[FieldOffset(Offset = "0x58")]
+	public FloatSetting TitanSpawnThrower;
+
+	[Token(Token = "0x4000500")]
+	[FieldOffset(Offset = "0x60")]
+	public FloatSetting TitanSpawnPunk;
+
+	[Token(Token = "0x4000501")]
+	[FieldOffset(Offset = "0x68")]
+	public BoolSetting TitanSizeEnabled;
+
+	[Token(Token = "0x4000502")]
+	[FieldOffset(Offset = "0x70")]
+	public FloatSetting TitanSizeMin;
+
+	[Token(Token = "0x4000503")]
+	[FieldOffset(Offset = "0x78")]
+	public FloatSetting TitanSizeMax;
+
+	[Token(Token = "0x4000504")]
+	[FieldOffset(Offset = "0x80")]
+	public IntSetting TitanHealthMode;
+
+	[Token(Token = "0x4000505")]
+	[FieldOffset(Offset = "0x88")]
+	public IntSetting TitanHealthMin;
+
+	[Token(Token = "0x4000506")]
+	[FieldOffset(Offset = "0x90")]
+	public IntSetting TitanHealthMax;
+
+	[Token(Token = "0x4000507")]
+	[FieldOffset(Offset = "0x98")]
+	public IntSetting TitanHeadMode;
+
+	[Token(Token = "0x4000508")]
+	[FieldOffset(Offset = "0xA0")]
+	public FloatSetting TitanHeadRandomMin;
+
+	[Token(Token = "0x4000509")]
+	[FieldOffset(Offset = "0xA8")]
+	public FloatSetting TitanHeadRandomMax;
+
+	[Token(Token = "0x400050A")]
+	[FieldOffset(Offset = "0xB0")]
+	public BoolSetting TitanDecapitationEnabled;
+
+	[Token(Token = "0x400050B")]
+	[FieldOffset(Offset = "0xB8")]
+	public IntSetting TitanDecapitationMinDamage;
+
+	[Token(Token = "0x400050C")]
+	[FieldOffset(Offset = "0xC0")]
+	public BoolSetting TitanArmorEnabled;
+
+	[Token(Token = "0x400050D")]
+	[FieldOffset(Offset = "0xC8")]
+	public BoolSetting TitanArmorCrawlerEnabled;
+
+	[Token(Token = "0x400050E")]
+	[FieldOffset(Offset = "0xD0")]
+	public IntSetting TitanArmor;
+
+	[Token(Token = "0x400050F")]
+	[FieldOffset(Offset = "0xD8")]
+	public BoolSetting TitanStandardModels;
+
+	[Token(Token = "0x4000510")]
+	[FieldOffset(Offset = "0xE0")]
+	public BoolSetting TitanSmartMovement;
+
+	[Token(Token = "0x4000511")]
+	[FieldOffset(Offset = "0xE8")]
+	public FloatSetting TitanChanceWarded;
+
+	[Token(Token = "0x4000512")]
+	[FieldOffset(Offset = "0xF0")]
+	public BoolSetting TitanWardedEnabled;
+
+	[Token(Token = "0x6000526")]
+	[Address(RVA = "0x5A48D70", Offset = "0x5A47D70", VA = "0x5A48D70")]
+	public InGameTitanSettings()
+	{
+		// Lifted from source/cpp/Settings/InGameTitanSettings.c (Settings.InGameTitanSettings$$.ctor): clean
+		int iVar1;
+		BoolSetting pSVar2;
+		FloatSetting pSVar3;
+		IntSetting pSVar4;
+		MethodInfo method_00;
+		float fVar5;
+
+		pSVar2 = new BoolSetting(false);
+		this.TitanSpawnEnabled = pSVar2;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(20.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnNormal = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(20.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnAbnormal = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(15.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnJumper = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(15.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnCrawler = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(15.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnThrower = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(15.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSpawnPunk = pSVar3;
+		pSVar2 = new BoolSetting(false);
+		this.TitanSizeEnabled = pSVar2;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.1;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(1.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSizeMin = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.1;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(3.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanSizeMax = pSVar3;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 0x7fffffff;
+		iVar1 = pSVar4.SanitizeValue(0);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanHealthMode = pSVar4;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 0x7fffffff;
+		iVar1 = pSVar4.SanitizeValue(100);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanHealthMin = pSVar4;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 0x7fffffff;
+		iVar1 = pSVar4.SanitizeValue(200);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanHealthMax = pSVar4;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 1;
+		iVar1 = pSVar4.SanitizeValue(0);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanHeadMode = pSVar4;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.1;
+		pSVar3.MaxValue = 10.0;
+		fVar5 = pSVar3.SanitizeValue(0.75);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanHeadRandomMin = pSVar3;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.1;
+		pSVar3.MaxValue = 10.0;
+		fVar5 = pSVar3.SanitizeValue(1.25);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanHeadRandomMax = pSVar3;
+		pSVar2 = new BoolSetting(false);
+		this.TitanDecapitationEnabled = pSVar2;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 0x7fffffff;
+		iVar1 = pSVar4.SanitizeValue(1000);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanDecapitationMinDamage = pSVar4;
+		pSVar2 = new BoolSetting(false);
+		this.TitanArmorEnabled = pSVar2;
+		pSVar2 = new BoolSetting(false);
+		this.TitanArmorCrawlerEnabled = pSVar2;
+		pSVar4.MinValue = -0x80000000;
+		pSVar4.MaxValue = 0x7fffffff;
+		pSVar4 = new IntSetting();
+		pSVar4.MinValue = 0;
+		pSVar4.MaxValue = 0x7fffffff;
+		iVar1 = pSVar4.SanitizeValue(1000);
+		pSVar4.DefaultValue = iVar1;
+		pSVar4.SetDefault();
+		this.TitanArmor = pSVar4;
+		pSVar2 = new BoolSetting(false);
+		this.TitanStandardModels = pSVar2;
+		pSVar2 = new BoolSetting(true);
+		this.TitanSmartMovement = pSVar2;
+		pSVar3.MinValue = -3.4028235e+38;
+		pSVar3.MaxValue = 3.4028235e+38;
+		pSVar3 = new FloatSetting();
+		pSVar3.MinValue = 0.0;
+		pSVar3.MaxValue = 100.0;
+		fVar5 = pSVar3.SanitizeValue(20.0);
+		pSVar3.DefaultValue = fVar5;
+		pSVar3.SetDefault();
+		this.TitanChanceWarded = pSVar3;
+		method_00 = new BoolSetting(false);
+		this.TitanWardedEnabled = (BoolSetting)method_00;
+		base();
+		return;
+	}
+}

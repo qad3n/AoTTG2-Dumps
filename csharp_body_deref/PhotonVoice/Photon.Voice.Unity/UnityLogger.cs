@@ -15,20 +15,20 @@ namespace Photon.Voice.Unity;
 public static class UnityLogger
 {
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x1D95340", Offset = "0x1D93940", VA = "0x181D95340")]
+	[Address(RVA = "0x5736FB0", Offset = "0x5735FB0", VA = "0x5736FB0")]
 	public static void Log(DebugLevel level, Object obj, string tag, string objName, string fmt, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x1D94FD0", Offset = "0x1D935D0", VA = "0x181D94FD0")]
+	[Address(RVA = "0x57372B0", Offset = "0x57362B0", VA = "0x57372B0")]
 	private static string GetFormatString(DebugLevel level, string tag, string objName, string fmt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x1D95290", Offset = "0x1D93890", VA = "0x181D95290")]
+	[Address(RVA = "0x5737490", Offset = "0x5736490", VA = "0x5737490")]
 	private static string GetTimestamp()
 	{
 		return null;

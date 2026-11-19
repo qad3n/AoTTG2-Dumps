@@ -10,161 +10,161 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x200005D")]
+[Token(Token = "0x200003F")]
 internal class SortKeyBuffer
 {
-	[Token(Token = "0x40001A7")]
+	[Token(Token = "0x4000125")]
 	[FieldOffset(Offset = "0x10")]
 	private byte[] l1b;
 
-	[Token(Token = "0x40001A8")]
+	[Token(Token = "0x4000126")]
 	[FieldOffset(Offset = "0x18")]
 	private byte[] l2b;
 
-	[Token(Token = "0x40001A9")]
+	[Token(Token = "0x4000127")]
 	[FieldOffset(Offset = "0x20")]
 	private byte[] l3b;
 
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x4000128")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] l4sb;
 
-	[Token(Token = "0x40001AB")]
+	[Token(Token = "0x4000129")]
 	[FieldOffset(Offset = "0x30")]
 	private byte[] l4tb;
 
-	[Token(Token = "0x40001AC")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x38")]
 	private byte[] l4kb;
 
-	[Token(Token = "0x40001AD")]
+	[Token(Token = "0x400012B")]
 	[FieldOffset(Offset = "0x40")]
 	private byte[] l4wb;
 
-	[Token(Token = "0x40001AE")]
+	[Token(Token = "0x400012C")]
 	[FieldOffset(Offset = "0x48")]
 	private byte[] l5b;
 
-	[Token(Token = "0x40001AF")]
+	[Token(Token = "0x400012D")]
 	[FieldOffset(Offset = "0x50")]
 	private string source;
 
-	[Token(Token = "0x40001B0")]
+	[Token(Token = "0x400012E")]
 	[FieldOffset(Offset = "0x58")]
 	private int l1;
 
-	[Token(Token = "0x40001B1")]
+	[Token(Token = "0x400012F")]
 	[FieldOffset(Offset = "0x5C")]
 	private int l2;
 
-	[Token(Token = "0x40001B2")]
+	[Token(Token = "0x4000130")]
 	[FieldOffset(Offset = "0x60")]
 	private int l3;
 
-	[Token(Token = "0x40001B3")]
+	[Token(Token = "0x4000131")]
 	[FieldOffset(Offset = "0x64")]
 	private int l4s;
 
-	[Token(Token = "0x40001B4")]
+	[Token(Token = "0x4000132")]
 	[FieldOffset(Offset = "0x68")]
 	private int l4t;
 
-	[Token(Token = "0x40001B5")]
+	[Token(Token = "0x4000133")]
 	[FieldOffset(Offset = "0x6C")]
 	private int l4k;
 
-	[Token(Token = "0x40001B6")]
+	[Token(Token = "0x4000134")]
 	[FieldOffset(Offset = "0x70")]
 	private int l4w;
 
-	[Token(Token = "0x40001B7")]
+	[Token(Token = "0x4000135")]
 	[FieldOffset(Offset = "0x74")]
 	private int l5;
 
-	[Token(Token = "0x40001B8")]
+	[Token(Token = "0x4000136")]
 	[FieldOffset(Offset = "0x78")]
 	private int lcid;
 
-	[Token(Token = "0x40001B9")]
+	[Token(Token = "0x4000137")]
 	[FieldOffset(Offset = "0x7C")]
 	private CompareOptions options;
 
-	[Token(Token = "0x40001BA")]
+	[Token(Token = "0x4000138")]
 	[FieldOffset(Offset = "0x80")]
 	private bool processLevel2;
 
-	[Token(Token = "0x40001BB")]
+	[Token(Token = "0x4000139")]
 	[FieldOffset(Offset = "0x81")]
 	private bool frenchSort;
 
-	[Token(Token = "0x40001BC")]
+	[Token(Token = "0x400013A")]
 	[FieldOffset(Offset = "0x82")]
 	private bool frenchSorted;
 
-	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60000FB")]
+	[Address(RVA = "0x52E0C50", Offset = "0x52DFC50", VA = "0x52E0C50")]
 	public SortKeyBuffer(int lcid)
 	{
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x1956A50", Offset = "0x1955050", VA = "0x181956A50")]
+	[Token(Token = "0x60000FC")]
+	[Address(RVA = "0x52E6BE0", Offset = "0x52E5BE0", VA = "0x52E6BE0")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x1956870", Offset = "0x1954E70", VA = "0x181956870")]
+	[Token(Token = "0x60000FD")]
+	[Address(RVA = "0x52E0C60", Offset = "0x52DFC60", VA = "0x52E0C60")]
 	internal void Initialize(CompareOptions options, int lcid, string s, bool frenchSort)
 	{
 	}
 
-	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x1955D40", Offset = "0x1954340", VA = "0x181955D40")]
+	[Token(Token = "0x60000FE")]
+	[Address(RVA = "0x52E1BA0", Offset = "0x52E0BA0", VA = "0x52E1BA0")]
 	internal void AppendCJKExtension(byte lv1msb, byte lv1lsb)
 	{
 	}
 
-	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x1955E00", Offset = "0x1954400", VA = "0x181955E00")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x52E1CF0", Offset = "0x52E0CF0", VA = "0x52E1CF0")]
 	internal void AppendKana(byte category, byte lv1, byte lv2, byte lv3, bool isSmallKana, byte markType, bool isKatakana, bool isHalfWidth)
 	{
 	}
 
-	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x1955F90", Offset = "0x1954590", VA = "0x181955F90")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x52E1A20", Offset = "0x52E0A20", VA = "0x52E1A20")]
 	internal void AppendNormal(byte category, byte lv1, byte lv2, byte lv3)
 	{
 	}
 
-	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x1955ED0", Offset = "0x19544D0", VA = "0x181955ED0")]
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x52E6CA0", Offset = "0x52E5CA0", VA = "0x52E6CA0")]
 	private void AppendLevel5(byte category, byte lv1)
 	{
 	}
 
-	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x1955C80", Offset = "0x1954280", VA = "0x181955C80")]
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x52E6C00", Offset = "0x52E5C00", VA = "0x52E6C00")]
 	private void AppendBufferPrimitive(byte value, ref byte[] buf, ref int bidx)
 	{
 	}
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x19561C0", Offset = "0x19547C0", VA = "0x1819561C0")]
+	[Token(Token = "0x6000103")]
+	[Address(RVA = "0x52E1470", Offset = "0x52E0470", VA = "0x52E1470")]
 	public SortKey GetResultAndReset()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x1956160", Offset = "0x1954760", VA = "0x181956160")]
+	[Token(Token = "0x6000104")]
+	[Address(RVA = "0x52E75C0", Offset = "0x52E65C0", VA = "0x52E75C0")]
 	private int GetOptimizedLength(byte[] data, int len, byte defaultValue)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x19561F0", Offset = "0x19547F0", VA = "0x1819561F0")]
+	[Token(Token = "0x6000105")]
+	[Address(RVA = "0x52E6D30", Offset = "0x52E5D30", VA = "0x52E6D30")]
 	public SortKey GetResult()
 	{
 		return null;

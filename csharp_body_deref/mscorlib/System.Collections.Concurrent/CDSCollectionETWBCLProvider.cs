@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Concurrent;
 
-[Token(Token = "0x2000600")]
+[Token(Token = "0x20005DB")]
 [EventSource(Name = "System.Collections.Concurrent.ConcurrentCollectionsEventSource", Guid = "35167F8E-49B2-4b96-AB86-435B59336B5E")]
 internal sealed class CDSCollectionETWBCLProvider : EventSource
 {
-	[Token(Token = "0x40018EF")]
+	[Token(Token = "0x4001856")]
 	[FieldOffset(Offset = "0x0")]
 	public static System.Collections.Concurrent.CDSCollectionETWBCLProvider Log;
 
-	[Token(Token = "0x6002DAF")]
-	[Address(RVA = "0x1ACD670", Offset = "0x1ACBC70", VA = "0x181ACD670")]
+	[Token(Token = "0x6002D8A")]
+	[Address(RVA = "0x5461810", Offset = "0x5460810", VA = "0x5461810")]
 	private CDSCollectionETWBCLProvider()
 	{
 	}
 
-	[Token(Token = "0x6002DB0")]
-	[Address(RVA = "0x1ACD5B0", Offset = "0x1ACBBB0", VA = "0x181ACD5B0")]
+	[Token(Token = "0x6002D8B")]
+	[Address(RVA = "0x5461820", Offset = "0x5460820", VA = "0x5461820")]
 	[Event(3, Level = EventLevel.Warning)]
 	public void ConcurrentDictionary_AcquiringAllLocks(int numOfBuckets)
 	{

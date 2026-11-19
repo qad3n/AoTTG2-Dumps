@@ -16,7 +16,7 @@ namespace UnityEngine.Rendering;
 public sealed class VolumeComponentDeprecated : Attribute
 {
 	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x65540D0", Offset = "0x65530D0", VA = "0x65540D0")]
 	public VolumeComponentDeprecated()
 	{
 	}

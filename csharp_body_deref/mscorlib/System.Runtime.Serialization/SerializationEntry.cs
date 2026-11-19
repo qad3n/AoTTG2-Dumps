@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003FB")]
+[Token(Token = "0x20003D4")]
 public readonly struct SerializationEntry
 {
-	[Token(Token = "0x4000FCE")]
+	[Token(Token = "0x4000F2E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly string _name;
 
-	[Token(Token = "0x4000FCF")]
+	[Token(Token = "0x4000F2F")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly object _value;
 
-	[Token(Token = "0x4000FD0")]
+	[Token(Token = "0x4000F30")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _type;
 
-	[Token(Token = "0x17000413")]
+	[Token(Token = "0x17000412")]
 	public object Value
 	{
-		[Token(Token = "0x6001F9C")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x6001F72")]
+		[Address(RVA = "0x539B590", Offset = "0x539A590", VA = "0x539B590")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000414")]
+	[Token(Token = "0x17000413")]
 	public string Name
 	{
-		[Token(Token = "0x6001F9D")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6001F73")]
+		[Address(RVA = "0x539B5A0", Offset = "0x539A5A0", VA = "0x539B5A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001F9B")]
-	[Address(RVA = "0x1046250", Offset = "0x1044850", VA = "0x181046250")]
+	[Token(Token = "0x6001F71")]
+	[Address(RVA = "0x539B550", Offset = "0x539A550", VA = "0x539B550")]
 	internal SerializationEntry(string entryName, object entryValue, Type entryType)
 	{
 	}

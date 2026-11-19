@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000047")]
 internal class AssignBinaryExpression : BinaryExpression
 {
-	[Token(Token = "0x17000051")]
+	[Token(Token = "0x17000053")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x24067F0", Offset = "0x2404DF0", VA = "0x1824067F0", Slot = "5")]
+		[Token(Token = "0x60001D8")]
+		[Address(RVA = "0x5DAD100", Offset = "0x5DAC100", VA = "0x5DAD100", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000052")]
+	[Token(Token = "0x17000054")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x24067E0", Offset = "0x2404DE0", VA = "0x1824067E0", Slot = "4")]
+		[Token(Token = "0x60001D9")]
+		[Address(RVA = "0x5DAD130", Offset = "0x5DAC130", VA = "0x5DAD130", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x24067D0", Offset = "0x2404DD0", VA = "0x1824067D0")]
+	[Token(Token = "0x60001D7")]
+	[Address(RVA = "0x5DAD080", Offset = "0x5DAC080", VA = "0x5DAD080")]
 	internal AssignBinaryExpression(Expression left, Expression right)
 	{
 	}

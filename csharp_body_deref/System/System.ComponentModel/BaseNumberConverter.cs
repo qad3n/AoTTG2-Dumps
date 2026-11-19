@@ -10,65 +10,65 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000174")]
+[Token(Token = "0x2000135")]
 public abstract class BaseNumberConverter : TypeConverter
 {
-	[Token(Token = "0x170001C6")]
+	[Token(Token = "0x17000197")]
 	internal virtual bool AllowHex
 	{
-		[Token(Token = "0x600094F")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x600078F")]
+		[Address(RVA = "0x6226340", Offset = "0x6225340", VA = "0x6226340", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001C7")]
+	[Token(Token = "0x17000198")]
 	internal abstract Type TargetType
 	{
-		[Token(Token = "0x6000950")]
+		[Token(Token = "0x6000790")]
 		get;
 	}
 
-	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600078E")]
+	[Address(RVA = "0x6226330", Offset = "0x6225330", VA = "0x6226330")]
 	internal BaseNumberConverter()
 	{
 	}
 
-	[Token(Token = "0x6000951")]
+	[Token(Token = "0x6000791")]
 	internal abstract object FromString(string value, int radix);
 
-	[Token(Token = "0x6000952")]
+	[Token(Token = "0x6000792")]
 	internal abstract object FromString(string value, NumberFormatInfo formatInfo);
 
-	[Token(Token = "0x6000953")]
+	[Token(Token = "0x6000793")]
 	internal abstract string ToString(object value, NumberFormatInfo formatInfo);
 
-	[Token(Token = "0x6000954")]
-	[Address(RVA = "0x2892810", Offset = "0x2890E10", VA = "0x182892810", Slot = "4")]
+	[Token(Token = "0x6000794")]
+	[Address(RVA = "0x6226350", Offset = "0x6225350", VA = "0x6226350", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x28928C0", Offset = "0x2890EC0", VA = "0x1828928C0", Slot = "6")]
+	[Token(Token = "0x6000795")]
+	[Address(RVA = "0x62263D0", Offset = "0x62253D0", VA = "0x62263D0", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x2892C10", Offset = "0x2891210", VA = "0x182892C10", Slot = "7")]
+	[Token(Token = "0x6000796")]
+	[Address(RVA = "0x6226770", Offset = "0x6225770", VA = "0x6226770", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000957")]
-	[Address(RVA = "0x2892880", Offset = "0x2890E80", VA = "0x182892880", Slot = "5")]
+	[Token(Token = "0x6000797")]
+	[Address(RVA = "0x6226A00", Offset = "0x6225A00", VA = "0x6226A00", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);

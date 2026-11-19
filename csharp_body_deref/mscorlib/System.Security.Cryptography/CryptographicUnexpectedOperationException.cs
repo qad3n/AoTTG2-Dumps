@@ -12,36 +12,36 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000304")]
+[Token(Token = "0x20002DD")]
 [ComVisible(true)]
 public class CryptographicUnexpectedOperationException : CryptographicException
 {
-	[Token(Token = "0x6001930")]
-	[Address(RVA = "0x19A35D0", Offset = "0x19A1BD0", VA = "0x1819A35D0")]
+	[Token(Token = "0x600190D")]
+	[Address(RVA = "0x5337DC0", Offset = "0x5336DC0", VA = "0x5337DC0")]
 	public CryptographicUnexpectedOperationException()
 	{
 	}
 
-	[Token(Token = "0x6001931")]
-	[Address(RVA = "0x19A36E0", Offset = "0x19A1CE0", VA = "0x1819A36E0")]
+	[Token(Token = "0x600190E")]
+	[Address(RVA = "0x5337E20", Offset = "0x5336E20", VA = "0x5337E20")]
 	public CryptographicUnexpectedOperationException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001932")]
-	[Address(RVA = "0x19A3640", Offset = "0x19A1C40", VA = "0x1819A3640")]
+	[Token(Token = "0x600190F")]
+	[Address(RVA = "0x5337E50", Offset = "0x5336E50", VA = "0x5337E50")]
 	public CryptographicUnexpectedOperationException(string format, string insert)
 	{
 	}
 
-	[Token(Token = "0x6001933")]
-	[Address(RVA = "0x19A3720", Offset = "0x19A1D20", VA = "0x1819A3720")]
+	[Token(Token = "0x6001910")]
+	[Address(RVA = "0x5337EE0", Offset = "0x5336EE0", VA = "0x5337EE0")]
 	public CryptographicUnexpectedOperationException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x6001934")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x6001911")]
+	[Address(RVA = "0x5337F10", Offset = "0x5336F10", VA = "0x5337F10")]
 	protected CryptographicUnexpectedOperationException(SerializationInfo info, StreamingContext context)
 	{
 	}

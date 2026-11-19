@@ -10,64 +10,64 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004CA")]
+[Token(Token = "0x20004A3")]
 public readonly struct YieldAwaitable
 {
-	[Token(Token = "0x20004CB")]
+	[Token(Token = "0x20004A4")]
 	public readonly struct YieldAwaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x400132F")]
+		[Token(Token = "0x400128F")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly WaitCallback s_waitCallbackRunAction;
 
-		[Token(Token = "0x4001330")]
+		[Token(Token = "0x4001290")]
 		[FieldOffset(Offset = "0x8")]
 		private static readonly SendOrPostCallback s_sendOrPostCallbackRunAction;
 
-		[Token(Token = "0x17000483")]
+		[Token(Token = "0x17000482")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x6002371")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+			[Token(Token = "0x600233E")]
+			[Address(RVA = "0x53CB490", Offset = "0x53CA490", VA = "0x53CB490")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x6002372")]
-		[Address(RVA = "0x1A58C80", Offset = "0x1A57280", VA = "0x181A58C80", Slot = "5")]
+		[Token(Token = "0x600233F")]
+		[Address(RVA = "0x53CB4A0", Offset = "0x53CA4A0", VA = "0x53CB4A0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x6002373")]
-		[Address(RVA = "0x1A59000", Offset = "0x1A57600", VA = "0x181A59000", Slot = "4")]
+		[Token(Token = "0x6002340")]
+		[Address(RVA = "0x53CB810", Offset = "0x53CA810", VA = "0x53CB810", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x6002374")]
-		[Address(RVA = "0x1A58CD0", Offset = "0x1A572D0", VA = "0x181A58CD0")]
+		[Token(Token = "0x6002341")]
+		[Address(RVA = "0x53CB510", Offset = "0x53CA510", VA = "0x53CB510")]
 		private static void QueueContinuation(Action continuation, bool flowContext)
 		{
 		}
 
-		[Token(Token = "0x6002375")]
-		[Address(RVA = "0x1A58F90", Offset = "0x1A57590", VA = "0x181A58F90")]
+		[Token(Token = "0x6002342")]
+		[Address(RVA = "0x53CB880", Offset = "0x53CA880", VA = "0x53CB880")]
 		private static void RunAction(object state)
 		{
 		}
 
-		[Token(Token = "0x6002376")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Token(Token = "0x6002343")]
+		[Address(RVA = "0x53CB8D0", Offset = "0x53CA8D0", VA = "0x53CB8D0")]
 		public void GetResult()
 		{
 		}
 	}
 
-	[Token(Token = "0x6002370")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Token(Token = "0x600233D")]
+	[Address(RVA = "0x53CB480", Offset = "0x53CA480", VA = "0x53CB480")]
 	public YieldAwaiter GetAwaiter()
 	{
 		return default(YieldAwaiter);

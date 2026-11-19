@@ -15,69 +15,69 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200031D")]
+[Token(Token = "0x20002DE")]
 internal class FixedSizeReadStream : WebReadStream
 {
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x200031E")]
+	[Token(Token = "0x20002DF")]
 	[CompilerGenerated]
 	private struct _003CProcessReadAsync_003Ed__5 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000BE1")]
+		[Token(Token = "0x4000B12")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000BE2")]
+		[Token(Token = "0x4000B13")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder<int> _003C_003Et__builder;
 
-		[Token(Token = "0x4000BE3")]
+		[Token(Token = "0x4000B14")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4000BE4")]
+		[Token(Token = "0x4000B15")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public FixedSizeReadStream _003C_003E4__this;
 
-		[Token(Token = "0x4000BE5")]
+		[Token(Token = "0x4000B16")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public int size;
 
-		[Token(Token = "0x4000BE6")]
+		[Token(Token = "0x4000B17")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public byte[] buffer;
 
-		[Token(Token = "0x4000BE7")]
+		[Token(Token = "0x4000B18")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public int offset;
 
-		[Token(Token = "0x4000BE8")]
+		[Token(Token = "0x4000B19")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001581")]
-		[Address(RVA = "0x27EED10", Offset = "0x27ED310", VA = "0x1827EED10", Slot = "4")]
+		[Token(Token = "0x60013C3")]
+		[Address(RVA = "0x61841E0", Offset = "0x61831E0", VA = "0x61841E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001582")]
-		[Address(RVA = "0x27EEFC0", Offset = "0x27ED5C0", VA = "0x1827EEFC0", Slot = "5")]
+		[Token(Token = "0x60013C4")]
+		[Address(RVA = "0x6184500", Offset = "0x6183500", VA = "0x6184500", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000BE0")]
+	[Token(Token = "0x4000B11")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private long position;
 
-	[Token(Token = "0x17000487")]
+	[Token(Token = "0x17000458")]
 	public long ContentLength
 	{
-		[Token(Token = "0x600157E")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x60013C0")]
+		[Address(RVA = "0x6184060", Offset = "0x6183060", VA = "0x6184060")]
 		[CompilerGenerated]
 		get
 		{
@@ -85,14 +85,14 @@ internal class FixedSizeReadStream : WebReadStream
 		}
 	}
 
-	[Token(Token = "0x600157F")]
-	[Address(RVA = "0x27E12D0", Offset = "0x27DF8D0", VA = "0x1827E12D0")]
+	[Token(Token = "0x60013C1")]
+	[Address(RVA = "0x6184070", Offset = "0x6183070", VA = "0x6184070")]
 	public FixedSizeReadStream(WebOperation operation, Stream innerStream, long contentLength)
 	{
 	}
 
-	[Token(Token = "0x6001580")]
-	[Address(RVA = "0x27E1190", Offset = "0x27DF790", VA = "0x1827E1190", Slot = "38")]
+	[Token(Token = "0x60013C2")]
+	[Address(RVA = "0x6184090", Offset = "0x6183090", VA = "0x6184090", Slot = "39")]
 	[AsyncStateMachine(typeof(_003CProcessReadAsync_003Ed__5))]
 	protected override Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{

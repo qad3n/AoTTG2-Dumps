@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000378")]
+[Token(Token = "0x2000351")]
 internal class FormatterData : System.Runtime.Remoting.ProviderData
 {
-	[Token(Token = "0x6001CE7")]
-	[Address(RVA = "0x19D9F40", Offset = "0x19D8540", VA = "0x1819D9F40")]
+	[Token(Token = "0x6001CBD")]
+	[Address(RVA = "0x53724A0", Offset = "0x53714A0", VA = "0x53724A0")]
 	public FormatterData()
 	{
 	}

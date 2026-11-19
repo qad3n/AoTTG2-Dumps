@@ -13,7 +13,7 @@ namespace Photon.Voice;
 public class LocalVoiceAudioShort : LocalVoiceAudio<short>
 {
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x1D6C2A0", Offset = "0x1D6A8A0", VA = "0x181D6C2A0")]
+	[Address(RVA = "0x57116C0", Offset = "0x57106C0", VA = "0x57116C0")]
 	internal LocalVoiceAudioShort(VoiceClient voiceClient, byte id, VoiceInfo voiceInfo, IAudioDesc audioSourceDesc, int channelId, VoiceCreateOptions opt)
 	{
 	}

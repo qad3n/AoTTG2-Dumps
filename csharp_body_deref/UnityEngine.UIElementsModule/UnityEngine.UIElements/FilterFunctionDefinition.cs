@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.FilterFunctionDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,20 +18,20 @@ public sealed class FilterFunctionDefinition : ScriptableObject
 {
 	[Token(Token = "0x400086C")]
 	[FieldOffset(Offset = "0x18")]
-	[SerializeField]
 	[DontCreateProperty]
+	[SerializeField]
 	private string m_FilterName;
 
 	[Token(Token = "0x400086D")]
 	[FieldOffset(Offset = "0x20")]
-	[SerializeField]
 	[DontCreateProperty]
+	[SerializeField]
 	private FilterParameterDeclaration[] m_Parameters;
 
 	[Token(Token = "0x400086E")]
 	[FieldOffset(Offset = "0x28")]
-	[SerializeField]
 	[DontCreateProperty]
+	[SerializeField]
 	private PostProcessingPass[] m_Passes;
 
 	[Token(Token = "0x170002EF")]
@@ -39,13 +39,13 @@ public sealed class FilterFunctionDefinition : ScriptableObject
 	public string filterName
 	{
 		[Token(Token = "0x6000F48")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6C72BE0", Offset = "0x6C71BE0", VA = "0x6C72BE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F49")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6C72BF0", Offset = "0x6C71BF0", VA = "0x6C72BF0")]
 		set
 		{
 		}
@@ -56,13 +56,13 @@ public sealed class FilterFunctionDefinition : ScriptableObject
 	public FilterParameterDeclaration[] parameters
 	{
 		[Token(Token = "0x6000F4A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6C72C00", Offset = "0x6C71C00", VA = "0x6C72C00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F4B")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6C72C10", Offset = "0x6C71C10", VA = "0x6C72C10")]
 		set
 		{
 		}
@@ -73,20 +73,20 @@ public sealed class FilterFunctionDefinition : ScriptableObject
 	public PostProcessingPass[] passes
 	{
 		[Token(Token = "0x6000F4C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6C72C20", Offset = "0x6C71C20", VA = "0x6C72C20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F4D")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6C72C30", Offset = "0x6C71C30", VA = "0x6C72C30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F4E")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6C72C40", Offset = "0x6C71C40", VA = "0x6C72C40")]
 	public FilterFunctionDefinition()
 	{
 	}

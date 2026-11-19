@@ -13,214 +13,214 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000E8")]
+[Token(Token = "0x20000A9")]
 public class Regex : ISerializable
 {
-	[Token(Token = "0x20000E9")]
+	[Token(Token = "0x20000AA")]
 	internal readonly struct CachedCodeEntryKey : IEquatable<CachedCodeEntryKey>
 	{
-		[Token(Token = "0x400037D")]
+		[Token(Token = "0x40002AE")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly RegexOptions _options;
 
-		[Token(Token = "0x400037E")]
+		[Token(Token = "0x40002AF")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly string _cultureKey;
 
-		[Token(Token = "0x400037F")]
+		[Token(Token = "0x40002B0")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly string _pattern;
 
-		[Token(Token = "0x600052C")]
-		[Address(RVA = "0x26EC7F0", Offset = "0x26EADF0", VA = "0x1826EC7F0")]
+		[Token(Token = "0x6000376")]
+		[Address(RVA = "0x61E4C00", Offset = "0x61E3C00", VA = "0x61E4C00")]
 		public CachedCodeEntryKey(RegexOptions options, string cultureKey, string pattern)
 		{
 		}
 
-		[Token(Token = "0x600052D")]
-		[Address(RVA = "0x28486E0", Offset = "0x2846CE0", VA = "0x1828486E0", Slot = "0")]
+		[Token(Token = "0x6000377")]
+		[Address(RVA = "0x61E4E10", Offset = "0x61E3E10", VA = "0x61E4E10", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600052E")]
-		[Address(RVA = "0x2848670", Offset = "0x2846C70", VA = "0x182848670", Slot = "4")]
+		[Token(Token = "0x6000378")]
+		[Address(RVA = "0x61E4EA0", Offset = "0x61E3EA0", VA = "0x61E4EA0", Slot = "4")]
 		public bool Equals(CachedCodeEntryKey other)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600052F")]
-		[Address(RVA = "0x2848670", Offset = "0x2846C70", VA = "0x182848670")]
+		[Token(Token = "0x6000379")]
+		[Address(RVA = "0x61E2450", Offset = "0x61E1450", VA = "0x61E2450")]
 		public static bool operator ==(CachedCodeEntryKey left, CachedCodeEntryKey right)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x28487C0", Offset = "0x2846DC0", VA = "0x1828487C0", Slot = "2")]
+		[Token(Token = "0x600037A")]
+		[Address(RVA = "0x61E4F00", Offset = "0x61E3F00", VA = "0x61E4F00", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x20000EA")]
+	[Token(Token = "0x20000AB")]
 	internal sealed class CachedCodeEntry
 	{
-		[Token(Token = "0x4000380")]
+		[Token(Token = "0x40002B1")]
 		[FieldOffset(Offset = "0x10")]
 		public CachedCodeEntry Next;
 
-		[Token(Token = "0x4000381")]
+		[Token(Token = "0x40002B2")]
 		[FieldOffset(Offset = "0x18")]
 		public CachedCodeEntry Previous;
 
-		[Token(Token = "0x4000382")]
+		[Token(Token = "0x40002B3")]
 		[FieldOffset(Offset = "0x20")]
 		public readonly CachedCodeEntryKey Key;
 
-		[Token(Token = "0x4000383")]
+		[Token(Token = "0x40002B4")]
 		[FieldOffset(Offset = "0x38")]
 		public RegexCode Code;
 
-		[Token(Token = "0x4000384")]
+		[Token(Token = "0x40002B5")]
 		[FieldOffset(Offset = "0x40")]
 		public readonly Hashtable Caps;
 
-		[Token(Token = "0x4000385")]
+		[Token(Token = "0x40002B6")]
 		[FieldOffset(Offset = "0x48")]
 		public readonly Hashtable Capnames;
 
-		[Token(Token = "0x4000386")]
+		[Token(Token = "0x40002B7")]
 		[FieldOffset(Offset = "0x50")]
 		public readonly string[] Capslist;
 
-		[Token(Token = "0x4000387")]
+		[Token(Token = "0x40002B8")]
 		[FieldOffset(Offset = "0x58")]
 		public readonly int Capsize;
 
-		[Token(Token = "0x4000388")]
+		[Token(Token = "0x40002B9")]
 		[FieldOffset(Offset = "0x60")]
 		public readonly ExclusiveReference Runnerref;
 
-		[Token(Token = "0x4000389")]
+		[Token(Token = "0x40002BA")]
 		[FieldOffset(Offset = "0x68")]
 		public readonly WeakReference<RegexReplacement> ReplRef;
 
-		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x2848830", Offset = "0x2846E30", VA = "0x182848830")]
+		[Token(Token = "0x600037B")]
+		[Address(RVA = "0x61E2D50", Offset = "0x61E1D50", VA = "0x61E2D50")]
 		public CachedCodeEntry(CachedCodeEntryKey key, Hashtable capnames, string[] capslist, RegexCode code, Hashtable caps, int capsize, ExclusiveReference runner, WeakReference<RegexReplacement> replref)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000366")]
+	[Token(Token = "0x4000297")]
 	private const int CacheDictionarySwitchLimit = 10;
 
-	[Token(Token = "0x4000367")]
+	[Token(Token = "0x4000298")]
 	[FieldOffset(Offset = "0x0")]
 	private static int s_cacheSize;
 
-	[Token(Token = "0x4000368")]
+	[Token(Token = "0x4000299")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Dictionary<CachedCodeEntryKey, CachedCodeEntry> s_cache;
 
-	[Token(Token = "0x4000369")]
+	[Token(Token = "0x400029A")]
 	[FieldOffset(Offset = "0x10")]
 	private static int s_cacheCount;
 
-	[Token(Token = "0x400036A")]
+	[Token(Token = "0x400029B")]
 	[FieldOffset(Offset = "0x18")]
 	private static CachedCodeEntry s_cacheFirst;
 
-	[Token(Token = "0x400036B")]
+	[Token(Token = "0x400029C")]
 	[FieldOffset(Offset = "0x20")]
 	private static CachedCodeEntry s_cacheLast;
 
-	[Token(Token = "0x400036C")]
+	[Token(Token = "0x400029D")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly TimeSpan s_maximumMatchTimeout;
 
-	[Token(Token = "0x400036D")]
+	[Token(Token = "0x400029E")]
 	private const string DefaultMatchTimeout_ConfigKeyName = "REGEX_DEFAULT_MATCH_TIMEOUT";
 
-	[Token(Token = "0x400036E")]
+	[Token(Token = "0x400029F")]
 	[FieldOffset(Offset = "0x30")]
 	internal static readonly TimeSpan s_defaultMatchTimeout;
 
-	[Token(Token = "0x400036F")]
+	[Token(Token = "0x40002A0")]
 	[FieldOffset(Offset = "0x38")]
 	public static readonly TimeSpan InfiniteMatchTimeout;
 
-	[Token(Token = "0x4000370")]
+	[Token(Token = "0x40002A1")]
 	[FieldOffset(Offset = "0x10")]
 	protected internal TimeSpan internalMatchTimeout;
 
-	[Token(Token = "0x4000371")]
+	[Token(Token = "0x40002A2")]
 	internal const int MaxOptionShift = 10;
 
-	[Token(Token = "0x4000372")]
+	[Token(Token = "0x40002A3")]
 	[FieldOffset(Offset = "0x18")]
 	protected internal string pattern;
 
-	[Token(Token = "0x4000373")]
+	[Token(Token = "0x40002A4")]
 	[FieldOffset(Offset = "0x20")]
 	protected internal RegexOptions roptions;
 
-	[Token(Token = "0x4000374")]
+	[Token(Token = "0x40002A5")]
 	[FieldOffset(Offset = "0x28")]
 	protected internal RegexRunnerFactory factory;
 
-	[Token(Token = "0x4000375")]
+	[Token(Token = "0x40002A6")]
 	[FieldOffset(Offset = "0x30")]
 	protected internal Hashtable caps;
 
-	[Token(Token = "0x4000376")]
+	[Token(Token = "0x40002A7")]
 	[FieldOffset(Offset = "0x38")]
 	protected internal Hashtable capnames;
 
-	[Token(Token = "0x4000377")]
+	[Token(Token = "0x40002A8")]
 	[FieldOffset(Offset = "0x40")]
 	protected internal string[] capslist;
 
-	[Token(Token = "0x4000378")]
+	[Token(Token = "0x40002A9")]
 	[FieldOffset(Offset = "0x48")]
 	protected internal int capsize;
 
-	[Token(Token = "0x4000379")]
+	[Token(Token = "0x40002AA")]
 	[FieldOffset(Offset = "0x50")]
 	internal ExclusiveReference _runnerref;
 
-	[Token(Token = "0x400037A")]
+	[Token(Token = "0x40002AB")]
 	[FieldOffset(Offset = "0x58")]
 	internal WeakReference<RegexReplacement> _replref;
 
-	[Token(Token = "0x400037B")]
+	[Token(Token = "0x40002AC")]
 	[FieldOffset(Offset = "0x60")]
 	internal RegexCode _code;
 
-	[Token(Token = "0x400037C")]
+	[Token(Token = "0x40002AD")]
 	[FieldOffset(Offset = "0x68")]
 	internal bool _refsInitialized;
 
-	[Token(Token = "0x170000E2")]
+	[Token(Token = "0x170000B3")]
 	public RegexOptions Options
 	{
-		[Token(Token = "0x6000523")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x600036D")]
+		[Address(RVA = "0x61E4DE0", Offset = "0x61E3DE0", VA = "0x61E4DE0")]
 		get
 		{
 			return default(RegexOptions);
 		}
 	}
 
-	[Token(Token = "0x170000E3")]
+	[Token(Token = "0x170000B4")]
 	public bool RightToLeft
 	{
-		[Token(Token = "0x6000524")]
-		[Address(RVA = "0x285EEE0", Offset = "0x285D4E0", VA = "0x18285EEE0")]
+		[Token(Token = "0x600036E")]
+		[Address(RVA = "0x61E45B0", Offset = "0x61E35B0", VA = "0x61E45B0")]
 		get
 		{
 			return default(bool);
@@ -228,301 +228,287 @@ public class Regex : ISerializable
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	[Token(Token = "0x60004FE")]
-	[Address(RVA = "0x285C200", Offset = "0x285A800", VA = "0x18285C200")]
+	[Token(Token = "0x600034A")]
+	[Address(RVA = "0x61E2310", Offset = "0x61E1310", VA = "0x61E2310")]
 	private CachedCodeEntry GetCachedCode(CachedCodeEntryKey key, bool isToAdd)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x285BB20", Offset = "0x285A120", VA = "0x18285BB20")]
+	[Token(Token = "0x600034B")]
+	[Address(RVA = "0x61E24B0", Offset = "0x61E14B0", VA = "0x61E24B0")]
 	private CachedCodeEntry GetCachedCodeEntryInternal(CachedCodeEntryKey key, bool isToAdd)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x285BA10", Offset = "0x285A010", VA = "0x18285BA10")]
+	[Token(Token = "0x600034C")]
+	[Address(RVA = "0x61E2E20", Offset = "0x61E1E20", VA = "0x61E2E20")]
 	private void FillCacheDictionary()
 	{
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x285EDD0", Offset = "0x285D3D0", VA = "0x18285EDD0")]
+	[Token(Token = "0x600034D")]
+	[Address(RVA = "0x61E2F40", Offset = "0x61E1F40", VA = "0x61E2F40")]
 	private static bool TryGetCacheValue(CachedCodeEntryKey key, out CachedCodeEntry entry)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x285ECB0", Offset = "0x285D2B0", VA = "0x18285ECB0")]
+	[Token(Token = "0x600034E")]
+	[Address(RVA = "0x61E3050", Offset = "0x61E2050", VA = "0x61E3050")]
 	private static bool TryGetCacheValueSmall(CachedCodeEntryKey key, out CachedCodeEntry entry)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x285CBF0", Offset = "0x285B1F0", VA = "0x18285CBF0")]
+	[Token(Token = "0x600034F")]
+	[Address(RVA = "0x61E2AD0", Offset = "0x61E1AD0", VA = "0x61E2AD0")]
 	private static CachedCodeEntry LookupCachedAndPromote(CachedCodeEntryKey key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000504")]
-	[Address(RVA = "0x285C8A0", Offset = "0x285AEA0", VA = "0x18285C8A0")]
+	[Token(Token = "0x6000350")]
+	[Address(RVA = "0x61E3180", Offset = "0x61E2180", VA = "0x61E3180")]
 	public static bool IsMatch(string input, string pattern)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000505")]
-	[Address(RVA = "0x285C920", Offset = "0x285AF20", VA = "0x18285C920")]
+	[Token(Token = "0x6000351")]
+	[Address(RVA = "0x61E32F0", Offset = "0x61E22F0", VA = "0x61E32F0")]
 	public static bool IsMatch(string input, string pattern, RegexOptions options)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000506")]
-	[Address(RVA = "0x285CAE0", Offset = "0x285B0E0", VA = "0x18285CAE0")]
+	[Token(Token = "0x6000352")]
+	[Address(RVA = "0x61E3270", Offset = "0x61E2270", VA = "0x61E3270")]
 	public static bool IsMatch(string input, string pattern, RegexOptions options, TimeSpan matchTimeout)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000507")]
-	[Address(RVA = "0x285C9B0", Offset = "0x285AFB0", VA = "0x18285C9B0")]
+	[Token(Token = "0x6000353")]
+	[Address(RVA = "0x61E3720", Offset = "0x61E2720", VA = "0x61E3720")]
 	public bool IsMatch(string input)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x285CA50", Offset = "0x285B050", VA = "0x18285CA50")]
+	[Token(Token = "0x6000354")]
+	[Address(RVA = "0x61E3790", Offset = "0x61E2790", VA = "0x61E3790")]
 	public bool IsMatch(string input, int startat)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000509")]
-	[Address(RVA = "0x285D2B0", Offset = "0x285B8B0", VA = "0x18285D2B0")]
+	[Token(Token = "0x6000355")]
+	[Address(RVA = "0x61E3810", Offset = "0x61E2810", VA = "0x61E3810")]
 	public static Match Match(string input, string pattern)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600050A")]
-	[Address(RVA = "0x285D110", Offset = "0x285B710", VA = "0x18285D110")]
+	[Token(Token = "0x6000356")]
+	[Address(RVA = "0x61E3900", Offset = "0x61E2900", VA = "0x61E3900")]
 	public static Match Match(string input, string pattern, RegexOptions options, TimeSpan matchTimeout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600050B")]
-	[Address(RVA = "0x285D070", Offset = "0x285B670", VA = "0x18285D070")]
+	[Token(Token = "0x6000357")]
+	[Address(RVA = "0x61E3980", Offset = "0x61E2980", VA = "0x61E3980")]
 	public Match Match(string input)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600050C")]
-	[Address(RVA = "0x285D220", Offset = "0x285B820", VA = "0x18285D220")]
+	[Token(Token = "0x6000358")]
+	[Address(RVA = "0x61E39E0", Offset = "0x61E29E0", VA = "0x61E39E0")]
 	public Match Match(string input, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600050D")]
-	[Address(RVA = "0x285D3F0", Offset = "0x285B9F0", VA = "0x18285D3F0")]
-	public static MatchCollection Matches(string input, string pattern)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x600050E")]
-	[Address(RVA = "0x285D640", Offset = "0x285BC40", VA = "0x18285D640")]
-	public static MatchCollection Matches(string input, string pattern, RegexOptions options, TimeSpan matchTimeout)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x600050F")]
-	[Address(RVA = "0x285D470", Offset = "0x285BA70", VA = "0x18285D470")]
+	[Token(Token = "0x6000359")]
+	[Address(RVA = "0x61E3A50", Offset = "0x61E2A50", VA = "0x61E3A50")]
 	public MatchCollection Matches(string input)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000510")]
-	[Address(RVA = "0x285D850", Offset = "0x285BE50", VA = "0x18285D850")]
+	[Token(Token = "0x600035A")]
+	[Address(RVA = "0x61E3AB0", Offset = "0x61E2AB0", VA = "0x61E3AB0")]
 	public MatchCollection Matches(string input, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000511")]
-	[Address(RVA = "0x285E500", Offset = "0x285CB00", VA = "0x18285E500")]
+	[Token(Token = "0x600035B")]
+	[Address(RVA = "0x61E3B70", Offset = "0x61E2B70", VA = "0x61E3B70")]
 	public static string Replace(string input, string pattern, string replacement)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x285DE60", Offset = "0x285C460", VA = "0x18285DE60")]
+	[Token(Token = "0x600035C")]
+	[Address(RVA = "0x61E3C70", Offset = "0x61E2C70", VA = "0x61E3C70")]
 	public static string Replace(string input, string pattern, string replacement, RegexOptions options, TimeSpan matchTimeout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x285E6C0", Offset = "0x285CCC0", VA = "0x18285E6C0")]
+	[Token(Token = "0x600035D")]
+	[Address(RVA = "0x61E3D00", Offset = "0x61E2D00", VA = "0x61E3D00")]
 	public string Replace(string input, string replacement)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x285E7F0", Offset = "0x285CDF0", VA = "0x18285E7F0")]
+	[Token(Token = "0x600035E")]
+	[Address(RVA = "0x61E3D70", Offset = "0x61E2D70", VA = "0x61E3D70")]
 	public string Replace(string input, string replacement, int count, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x285DB50", Offset = "0x285C150", VA = "0x18285DB50")]
+	[Token(Token = "0x600035F")]
+	[Address(RVA = "0x61E3E50", Offset = "0x61E2E50", VA = "0x61E3E50")]
 	public static string Replace(string input, string pattern, MatchEvaluator evaluator)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000516")]
-	[Address(RVA = "0x285DA20", Offset = "0x285C020", VA = "0x18285DA20")]
+	[Token(Token = "0x6000360")]
+	[Address(RVA = "0x61E3F50", Offset = "0x61E2F50", VA = "0x61E3F50")]
 	public static string Replace(string input, string pattern, MatchEvaluator evaluator, RegexOptions options, TimeSpan matchTimeout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000517")]
-	[Address(RVA = "0x285DCC0", Offset = "0x285C2C0", VA = "0x18285DCC0")]
+	[Token(Token = "0x6000361")]
+	[Address(RVA = "0x61E3FE0", Offset = "0x61E2FE0", VA = "0x61E3FE0")]
 	public string Replace(string input, MatchEvaluator evaluator)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000518")]
-	[Address(RVA = "0x285DDA0", Offset = "0x285C3A0", VA = "0x18285DDA0")]
+	[Token(Token = "0x6000362")]
+	[Address(RVA = "0x61E4050", Offset = "0x61E3050", VA = "0x61E4050")]
 	public string Replace(string input, MatchEvaluator evaluator, int count, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000519")]
-	[Address(RVA = "0x285DFF0", Offset = "0x285C5F0", VA = "0x18285DFF0")]
+	[Token(Token = "0x6000363")]
+	[Address(RVA = "0x61E4110", Offset = "0x61E3110", VA = "0x61E4110")]
 	private static string Replace(MatchEvaluator evaluator, Regex regex, string input, int count, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600051A")]
-	[Address(RVA = "0x285F060", Offset = "0x285D660", VA = "0x18285F060")]
+	[Token(Token = "0x6000364")]
+	[Address(RVA = "0x61E45C0", Offset = "0x61E35C0", VA = "0x61E45C0")]
 	static Regex()
 	{
 	}
 
-	[Token(Token = "0x600051B")]
-	[Address(RVA = "0x285EEF0", Offset = "0x285D4F0", VA = "0x18285EEF0")]
+	[Token(Token = "0x6000365")]
+	[Address(RVA = "0x61E4930", Offset = "0x61E3930", VA = "0x61E4930")]
 	protected internal static void ValidateMatchTimeout(TimeSpan matchTimeout)
 	{
 	}
 
-	[Token(Token = "0x600051C")]
-	[Address(RVA = "0x285C580", Offset = "0x285AB80", VA = "0x18285C580")]
+	[Token(Token = "0x6000366")]
+	[Address(RVA = "0x61E4700", Offset = "0x61E3700", VA = "0x61E4700")]
 	private static TimeSpan InitDefaultMatchTimeout()
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x600051D")]
-	[Address(RVA = "0x285F780", Offset = "0x285DD80", VA = "0x18285F780")]
+	[Token(Token = "0x6000367")]
+	[Address(RVA = "0x61E4A80", Offset = "0x61E3A80", VA = "0x61E4A80")]
 	protected Regex()
 	{
 	}
 
-	[Token(Token = "0x600051E")]
-	[Address(RVA = "0x285F1D0", Offset = "0x285D7D0", VA = "0x18285F1D0")]
+	[Token(Token = "0x6000368")]
+	[Address(RVA = "0x61E4AE0", Offset = "0x61E3AE0", VA = "0x61E4AE0")]
 	public Regex(string pattern)
 	{
 	}
 
-	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x285F6F0", Offset = "0x285DCF0", VA = "0x18285F6F0")]
+	[Token(Token = "0x6000369")]
+	[Address(RVA = "0x61E4B50", Offset = "0x61E3B50", VA = "0x61E4B50")]
 	public Regex(string pattern, RegexOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x285EC70", Offset = "0x285D270", VA = "0x18285EC70", Slot = "4")]
+	[Token(Token = "0x600036A")]
+	[Address(RVA = "0x61E4BC0", Offset = "0x61E3BC0", VA = "0x61E4BC0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo si, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x285F250", Offset = "0x285D850", VA = "0x18285F250")]
+	[Token(Token = "0x600036B")]
+	[Address(RVA = "0x61E33E0", Offset = "0x61E23E0", VA = "0x61E33E0")]
 	private Regex(string pattern, RegexOptions options, TimeSpan matchTimeout, bool addToCache)
 	{
 	}
 
-	[Token(Token = "0x6000522")]
-	[Address(RVA = "0x285B970", Offset = "0x2859F70", VA = "0x18285B970")]
+	[Token(Token = "0x600036C")]
+	[Address(RVA = "0x61E4D40", Offset = "0x61E3D40", VA = "0x61E4D40")]
 	public static string Escape(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000525")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "3")]
+	[Token(Token = "0x600036F")]
+	[Address(RVA = "0x61E4DF0", Offset = "0x61E3DF0", VA = "0x61E4DF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000526")]
-	[Address(RVA = "0x285C350", Offset = "0x285A950", VA = "0x18285C350")]
+	[Token(Token = "0x6000370")]
+	[Address(RVA = "0x61DF6C0", Offset = "0x61DE6C0", VA = "0x61DF6C0")]
 	public string GroupNameFromNumber(int i)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x285C460", Offset = "0x285AA60", VA = "0x18285C460")]
+	[Token(Token = "0x6000371")]
+	[Address(RVA = "0x61DF280", Offset = "0x61DE280", VA = "0x61DF280")]
 	public int GroupNumberFromName(string name)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x285C7A0", Offset = "0x285ADA0", VA = "0x18285C7A0")]
+	[Token(Token = "0x6000372")]
+	[Address(RVA = "0x61E4C40", Offset = "0x61E3C40", VA = "0x61E4C40")]
 	protected void InitializeReferences()
 	{
 	}
 
-	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x285E910", Offset = "0x285CF10", VA = "0x18285E910")]
+	[Token(Token = "0x6000373")]
+	[Address(RVA = "0x61E0660", Offset = "0x61DF660", VA = "0x61E0660")]
 	internal Match Run(bool quick, int prevlen, string input, int beginning, int length, int startat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x285EEE0", Offset = "0x285D4E0", VA = "0x18285EEE0")]
+	[Token(Token = "0x6000374")]
+	[Address(RVA = "0x61E3780", Offset = "0x61E2780", VA = "0x61E3780")]
 	protected internal bool UseOptionR()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x285EED0", Offset = "0x285D4D0", VA = "0x18285EED0")]
+	[Token(Token = "0x6000375")]
+	[Address(RVA = "0x61E4E00", Offset = "0x61E3E00", VA = "0x61E4E00")]
 	internal bool UseOptionInvariant()
 	{
 		return default(bool);

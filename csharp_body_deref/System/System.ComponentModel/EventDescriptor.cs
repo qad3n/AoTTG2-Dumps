@@ -9,51 +9,51 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000199")]
+[Token(Token = "0x200015A")]
 public abstract class EventDescriptor : MemberDescriptor
 {
-	[Token(Token = "0x17000200")]
+	[Token(Token = "0x170001D1")]
 	public abstract Type ComponentType
 	{
-		[Token(Token = "0x6000A5D")]
+		[Token(Token = "0x600089D")]
 		get;
 	}
 
-	[Token(Token = "0x17000201")]
+	[Token(Token = "0x170001D2")]
 	public abstract Type EventType
 	{
-		[Token(Token = "0x6000A5E")]
+		[Token(Token = "0x600089E")]
 		get;
 	}
 
-	[Token(Token = "0x17000202")]
+	[Token(Token = "0x170001D3")]
 	public abstract bool IsMulticast
 	{
-		[Token(Token = "0x6000A5F")]
+		[Token(Token = "0x600089F")]
 		get;
 	}
 
-	[Token(Token = "0x6000A5A")]
-	[Address(RVA = "0x289DB30", Offset = "0x289C130", VA = "0x18289DB30")]
+	[Token(Token = "0x600089A")]
+	[Address(RVA = "0x6232170", Offset = "0x6231170", VA = "0x6232170")]
 	protected EventDescriptor(string name, Attribute[] attrs)
 	{
 	}
 
-	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x289DB50", Offset = "0x289C150", VA = "0x18289DB50")]
+	[Token(Token = "0x600089B")]
+	[Address(RVA = "0x6232180", Offset = "0x6231180", VA = "0x6232180")]
 	protected EventDescriptor(MemberDescriptor descr)
 	{
 	}
 
-	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x289DB40", Offset = "0x289C140", VA = "0x18289DB40")]
+	[Token(Token = "0x600089C")]
+	[Address(RVA = "0x6232190", Offset = "0x6231190", VA = "0x6232190")]
 	protected EventDescriptor(MemberDescriptor descr, Attribute[] attrs)
 	{
 	}
 
-	[Token(Token = "0x6000A60")]
+	[Token(Token = "0x60008A0")]
 	public abstract void AddEventHandler(object component, Delegate value);
 
-	[Token(Token = "0x6000A61")]
+	[Token(Token = "0x60008A1")]
 	public abstract void RemoveEventHandler(object component, Delegate value);
 }

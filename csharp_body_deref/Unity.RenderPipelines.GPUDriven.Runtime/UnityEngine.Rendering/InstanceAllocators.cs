@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceAllocators
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,60 +25,60 @@ internal struct InstanceAllocators
 	private InstanceAllocator m_SharedInstanceAlloc;
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x2BDDB90", Offset = "0x2BDC190", VA = "0x182BDDB90")]
+	[Address(RVA = "0x65D3C80", Offset = "0x65D2C80", VA = "0x65D3C80")]
 	public void Initialize()
 	{
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x2BDD770", Offset = "0x2BDBD70", VA = "0x182BDD770")]
+	[Address(RVA = "0x65D3E80", Offset = "0x65D2E80", VA = "0x65D3E80")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x2BDD9C0", Offset = "0x2BDBFC0", VA = "0x182BDD9C0")]
+	[Address(RVA = "0x65D3F70", Offset = "0x65D2F70", VA = "0x65D3F70")]
 	private InstanceAllocator GetInstanceAllocator(InstanceType type)
 	{
 		return default(InstanceAllocator);
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x2BDDA50", Offset = "0x2BDC050", VA = "0x182BDDA50")]
+	[Address(RVA = "0x65D3FE0", Offset = "0x65D2FE0", VA = "0x65D3FE0")]
 	public int GetInstanceHandlesLength(InstanceType type)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x2BDDAD0", Offset = "0x2BDC0D0", VA = "0x182BDDAD0")]
+	[Address(RVA = "0x65D4040", Offset = "0x65D3040", VA = "0x65D4040")]
 	public int GetInstancesLength(InstanceType type)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x2BDD620", Offset = "0x2BDBC20", VA = "0x182BDD620")]
+	[Address(RVA = "0x65D40F0", Offset = "0x65D30F0", VA = "0x65D40F0")]
 	public InstanceHandle AllocateInstance(InstanceType type)
 	{
 		return default(InstanceHandle);
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x2BDD860", Offset = "0x2BDBE60", VA = "0x182BDD860")]
+	[Address(RVA = "0x65D4200", Offset = "0x65D3200", VA = "0x65D4200")]
 	public void FreeInstance(InstanceHandle instance)
 	{
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x2BDD720", Offset = "0x2BDBD20", VA = "0x182BDD720")]
+	[Address(RVA = "0x65D4320", Offset = "0x65D3320", VA = "0x65D4320")]
 	public SharedInstanceHandle AllocateSharedInstance()
 	{
 		return default(SharedInstanceHandle);
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x2BDD940", Offset = "0x2BDBF40", VA = "0x182BDD940")]
+	[Address(RVA = "0x65D4370", Offset = "0x65D3370", VA = "0x65D4370")]
 	public void FreeSharedInstance(SharedInstanceHandle instance)
 	{
 	}

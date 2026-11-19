@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.RenderedText
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,7 +39,7 @@ internal readonly struct RenderedText : IEquatable<RenderedText>, IEquatable<str
 		public char Current
 		{
 			[Token(Token = "0x6000240")]
-			[Address(RVA = "0x3041300", Offset = "0x303F900", VA = "0x183041300")]
+			[Address(RVA = "0x6A48670", Offset = "0x6A47670", VA = "0x6A48670")]
 			get
 			{
 				return default(char);
@@ -47,13 +47,13 @@ internal readonly struct RenderedText : IEquatable<RenderedText>, IEquatable<str
 		}
 
 		[Token(Token = "0x6000241")]
-		[Address(RVA = "0x30412D0", Offset = "0x303F8D0", VA = "0x1830412D0")]
+		[Address(RVA = "0x6A48090", Offset = "0x6A47090", VA = "0x6A48090")]
 		public Enumerator(in RenderedText source)
 		{
 		}
 
 		[Token(Token = "0x6000242")]
-		[Address(RVA = "0x30411F0", Offset = "0x303F7F0", VA = "0x1830411F0")]
+		[Address(RVA = "0x6A480C0", Offset = "0x6A470C0", VA = "0x6A480C0")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -88,7 +88,7 @@ internal readonly struct RenderedText : IEquatable<RenderedText>, IEquatable<str
 	public int CharacterCount
 	{
 		[Token(Token = "0x6000239")]
-		[Address(RVA = "0x3043A90", Offset = "0x3042090", VA = "0x183043A90")]
+		[Address(RVA = "0x6A48030", Offset = "0x6A47030", VA = "0x6A48030")]
 		get
 		{
 			return default(int);
@@ -96,66 +96,66 @@ internal readonly struct RenderedText : IEquatable<RenderedText>, IEquatable<str
 	}
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x3043810", Offset = "0x3041E10", VA = "0x183043810")]
+	[Address(RVA = "0x6A464F0", Offset = "0x6A454F0", VA = "0x6A464F0")]
 	public RenderedText(string value)
 	{
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x3043970", Offset = "0x3041F70", VA = "0x183043970")]
+	[Address(RVA = "0x6A47F10", Offset = "0x6A46F10", VA = "0x6A47F10")]
 	public RenderedText(string value, string suffix)
 	{
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x30438D0", Offset = "0x3041ED0", VA = "0x1830438D0")]
+	[Address(RVA = "0x6A47E50", Offset = "0x6A46E50", VA = "0x6A47E50")]
 	public RenderedText(string value, int start, int length, [Optional] string suffix)
 	{
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x3043A30", Offset = "0x3042030", VA = "0x183043A30")]
+	[Address(RVA = "0x6A47FD0", Offset = "0x6A46FD0", VA = "0x6A47FD0")]
 	public RenderedText(char repeat, int repeatCount, [Optional] string suffix)
 	{
 	}
 
 	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x3043730", Offset = "0x3041D30", VA = "0x183043730")]
+	[Address(RVA = "0x6A48050", Offset = "0x6A47050", VA = "0x6A48050")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x3043260", Offset = "0x3041860", VA = "0x183043260")]
+	[Address(RVA = "0x6A46090", Offset = "0x6A45090", VA = "0x6A46090")]
 	public string CreateString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x30433D0", Offset = "0x30419D0", VA = "0x1830433D0", Slot = "4")]
+	[Address(RVA = "0x6A46950", Offset = "0x6A45950", VA = "0x6A46950", Slot = "4")]
 	public bool Equals(RenderedText other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x3043630", Offset = "0x3041C30", VA = "0x183043630", Slot = "5")]
+	[Address(RVA = "0x6A48160", Offset = "0x6A47160", VA = "0x6A48160", Slot = "5")]
 	public bool Equals(string other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x3043450", Offset = "0x3041A50", VA = "0x183043450", Slot = "0")]
+	[Address(RVA = "0x6A484D0", Offset = "0x6A474D0", VA = "0x6A484D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x3043770", Offset = "0x3041D70", VA = "0x183043770", Slot = "2")]
+	[Address(RVA = "0x6A485D0", Offset = "0x6A475D0", VA = "0x6A485D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

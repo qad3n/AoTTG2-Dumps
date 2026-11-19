@@ -47,59 +47,59 @@ public class PhotonTransformViewPositionControl
 	private bool m_UpdatedPositionAfterOnSerialize;
 
 	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x1D661A0", Offset = "0x1D647A0", VA = "0x181D661A0")]
+	[Address(RVA = "0x56FDE20", Offset = "0x56FCE20", VA = "0x56FDE20")]
 	public PhotonTransformViewPositionControl(PhotonTransformViewPositionModel model)
 	{
 	}
 
 	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x1D65990", Offset = "0x1D63F90", VA = "0x181D65990")]
+	[Address(RVA = "0x56FF6F0", Offset = "0x56FE6F0", VA = "0x56FF6F0")]
 	private Vector3 GetOldestStoredNetworkPosition()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CB")]
-	[Address(RVA = "0x1D65CC0", Offset = "0x1D642C0", VA = "0x181D65CC0")]
+	[Address(RVA = "0x56FF070", Offset = "0x56FE070", VA = "0x56FF070")]
 	public void SetSynchronizedValues(Vector3 speed, float turnSpeed)
 	{
 	}
 
 	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x1D65CE0", Offset = "0x1D642E0", VA = "0x181D65CE0")]
+	[Address(RVA = "0x56FE270", Offset = "0x56FD270", VA = "0x56FE270")]
 	public Vector3 UpdatePosition(Vector3 currentPosition)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x1D65970", Offset = "0x1D63F70", VA = "0x181D65970")]
+	[Address(RVA = "0x56FFBA0", Offset = "0x56FEBA0", VA = "0x56FFBA0")]
 	public Vector3 GetNetworkPosition()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x1D65590", Offset = "0x1D63B90", VA = "0x181D65590")]
+	[Address(RVA = "0x56FF750", Offset = "0x56FE750", VA = "0x56FF750")]
 	public Vector3 GetExtrapolatedPositionOffset()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x1D65A20", Offset = "0x1D64020", VA = "0x181D65A20")]
+	[Address(RVA = "0x56FF280", Offset = "0x56FE280", VA = "0x56FF280")]
 	public void OnPhotonSerializeView(Vector3 currentPosition, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x1D65BB0", Offset = "0x1D641B0", VA = "0x181D65BB0")]
+	[Address(RVA = "0x56FFBB0", Offset = "0x56FEBB0", VA = "0x56FFBB0")]
 	private void SerializeData(Vector3 currentPosition, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x1D65390", Offset = "0x1D63990", VA = "0x181D65390")]
+	[Address(RVA = "0x56FFCC0", Offset = "0x56FECC0", VA = "0x56FFCC0")]
 	private void DeserializeData(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}

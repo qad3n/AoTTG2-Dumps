@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Internal.TypePathVisitor
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,14 +27,14 @@ internal class TypePathVisitor : ITypeVisitor, IPropertyBagVisitor, IPropertyVis
 	public PropertyPath Path
 	{
 		[Token(Token = "0x6002EB4")]
-		[Address(RVA = "0x153EC70", Offset = "0x153D270", VA = "0x18153EC70")]
+		[Address(RVA = "0x6C00C60", Offset = "0x6BFFC60", VA = "0x6C00C60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PropertyPath);
 		}
 		[Token(Token = "0x6002EB5")]
-		[Address(RVA = "0x3208430", Offset = "0x3206A30", VA = "0x183208430")]
+		[Address(RVA = "0x6C00C80", Offset = "0x6BFFC80", VA = "0x6C00C80")]
 		[CompilerGenerated]
 		set
 		{
@@ -45,7 +45,7 @@ internal class TypePathVisitor : ITypeVisitor, IPropertyBagVisitor, IPropertyVis
 	private Type resolvedType
 	{
 		[Token(Token = "0x6002EB6")]
-		[Address(RVA = "0x189BA60", Offset = "0x189A060", VA = "0x18189BA60")]
+		[Address(RVA = "0x6C00CB0", Offset = "0x6BFFCB0", VA = "0x6C00CB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -56,14 +56,14 @@ internal class TypePathVisitor : ITypeVisitor, IPropertyBagVisitor, IPropertyVis
 	public VisitReturnCode ReturnCode
 	{
 		[Token(Token = "0x6002EB7")]
-		[Address(RVA = "0x266C1E0", Offset = "0x266A7E0", VA = "0x18266C1E0")]
+		[Address(RVA = "0x6C00CD0", Offset = "0x6BFFCD0", VA = "0x6C00CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(VisitReturnCode);
 		}
 		[Token(Token = "0x6002EB8")]
-		[Address(RVA = "0x2B9B710", Offset = "0x2B99D10", VA = "0x182B9B710")]
+		[Address(RVA = "0x6C00CE0", Offset = "0x6BFFCE0", VA = "0x6C00CE0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -71,7 +71,7 @@ internal class TypePathVisitor : ITypeVisitor, IPropertyBagVisitor, IPropertyVis
 	}
 
 	[Token(Token = "0x6002EB9")]
-	[Address(RVA = "0x32083A0", Offset = "0x32069A0", VA = "0x1832083A0")]
+	[Address(RVA = "0x6C00CF0", Offset = "0x6BFFCF0", VA = "0x6C00CF0")]
 	public void Reset()
 	{
 	}
@@ -92,21 +92,21 @@ internal class TypePathVisitor : ITypeVisitor, IPropertyBagVisitor, IPropertyVis
 	}
 
 	[Token(Token = "0x6002EBD")]
-	[Address(RVA = "0x3208300", Offset = "0x3206900", VA = "0x183208300")]
+	[Address(RVA = "0x6C00D80", Offset = "0x6BFFD80", VA = "0x6C00D80")]
 	private bool IsLastPartReached()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002EBE")]
-	[Address(RVA = "0x3208140", Offset = "0x3206740", VA = "0x183208140")]
+	[Address(RVA = "0x6C00E10", Offset = "0x6BFFE10", VA = "0x6C00E10")]
 	private static Type GetElementType(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002EBF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C00FC0", Offset = "0x6BFFFC0", VA = "0x6C00FC0")]
 	public TypePathVisitor()
 	{
 	}

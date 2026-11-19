@@ -11,77 +11,77 @@ using SimpleJSONFixed;
 
 namespace Characters;
 
-[Token(Token = "0x200068E")]
+[Token(Token = "0x20006ED")]
 internal class ThunderspearWeapon : AmmoWeapon
 {
-	[Token(Token = "0x4001ED7")]
+	[Token(Token = "0x4002085")]
 	[FieldOffset(Offset = "0x50")]
 	public ThunderspearProjectile Current;
 
-	[Token(Token = "0x4001ED8")]
+	[Token(Token = "0x4002086")]
 	[FieldOffset(Offset = "0x58")]
 	public float Radius;
 
-	[Token(Token = "0x4001ED9")]
+	[Token(Token = "0x4002087")]
 	[FieldOffset(Offset = "0x5C")]
 	public float Speed;
 
-	[Token(Token = "0x4001EDA")]
+	[Token(Token = "0x4002088")]
 	[FieldOffset(Offset = "0x60")]
 	public float TravelTime;
 
-	[Token(Token = "0x4001EDB")]
+	[Token(Token = "0x4002089")]
 	[FieldOffset(Offset = "0x64")]
 	public float Delay;
 
-	[Token(Token = "0x4001EDC")]
+	[Token(Token = "0x400208A")]
 	[FieldOffset(Offset = "0x68")]
 	private float _delayTimeLeft;
 
-	[Token(Token = "0x4001EDD")]
+	[Token(Token = "0x400208B")]
 	[FieldOffset(Offset = "0x70")]
 	private JSONNode TSInfo;
 
-	[Token(Token = "0x6004075")]
-	[Address(RVA = "0x21792D0", Offset = "0x21778D0", VA = "0x1821792D0")]
+	[Token(Token = "0x600430D")]
+	[Address(RVA = "0x5B122E0", Offset = "0x5B112E0", VA = "0x5B122E0")]
 	public ThunderspearWeapon(BaseCharacter owner, int ammo, int ammoPerRound, float cooldown, float radius, float speed, float travelTime, float delay, JSONNode tsInfo)
 	{
 	}
 
-	[Token(Token = "0x6004076")]
-	[Address(RVA = "0x2177DE0", Offset = "0x21763E0", VA = "0x182177DE0", Slot = "9")]
+	[Token(Token = "0x600430E")]
+	[Address(RVA = "0x5B123A0", Offset = "0x5B113A0", VA = "0x5B123A0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004077")]
-	[Address(RVA = "0x2178E80", Offset = "0x2177480", VA = "0x182178E80")]
+	[Token(Token = "0x600430F")]
+	[Address(RVA = "0x5B13690", Offset = "0x5B12690", VA = "0x5B13690")]
 	public bool HasActiveProjectile()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004078")]
-	[Address(RVA = "0x21791E0", Offset = "0x21777E0", VA = "0x1821791E0", Slot = "12")]
+	[Token(Token = "0x6004310")]
+	[Address(RVA = "0x5B13700", Offset = "0x5B12700", VA = "0x5B13700", Slot = "12")]
 	public override void SetInput(bool key)
 	{
 	}
 
-	[Token(Token = "0x6004079")]
-	[Address(RVA = "0x2178FD0", Offset = "0x21775D0", VA = "0x182178FD0", Slot = "13")]
+	[Token(Token = "0x6004311")]
+	[Address(RVA = "0x5B137F0", Offset = "0x5B127F0", VA = "0x5B137F0", Slot = "13")]
 	public override void OnFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x600407A")]
-	[Address(RVA = "0x2178F00", Offset = "0x2177500", VA = "0x182178F00")]
+	[Token(Token = "0x6004312")]
+	[Address(RVA = "0x5B135D0", Offset = "0x5B125D0", VA = "0x5B135D0")]
 	private bool IsModelActive(Human human, bool left)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600407B")]
-	[Address(RVA = "0x2178F50", Offset = "0x2177550", VA = "0x182178F50")]
+	[Token(Token = "0x6004313")]
+	[Address(RVA = "0x5B13620", Offset = "0x5B12620", VA = "0x5B13620")]
 	private bool IsTwoShotMode()
 	{
 		return default(bool);

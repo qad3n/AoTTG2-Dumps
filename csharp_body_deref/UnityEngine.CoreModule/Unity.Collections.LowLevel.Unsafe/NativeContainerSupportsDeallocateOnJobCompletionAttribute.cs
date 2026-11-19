@@ -12,12 +12,12 @@ using UnityEngine.Scripting;
 namespace Unity.Collections.LowLevel.Unsafe;
 
 [Token(Token = "0x200006E")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Struct)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeContainerSupportsDeallocateOnJobCompletionAttribute : Attribute
 {
-	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x68B7CF0", Offset = "0x68B6CF0", VA = "0x68B7CF0")]
 	public NativeContainerSupportsDeallocateOnJobCompletionAttribute()
 	{
 	}

@@ -13,7 +13,7 @@ namespace System.Xml.XPath;
 public abstract class XPathExpression
 {
 	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6106870", Offset = "0x6105870", VA = "0x6106870")]
 	internal XPathExpression()
 	{
 	}
@@ -22,14 +22,14 @@ public abstract class XPathExpression
 	public abstract void SetContext(IXmlNamespaceResolver nsResolver);
 
 	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x2748310", Offset = "0x2746910", VA = "0x182748310")]
+	[Address(RVA = "0x6106880", Offset = "0x6105880", VA = "0x6106880")]
 	public static XPathExpression Compile(string xpath)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x27483E0", Offset = "0x27469E0", VA = "0x1827483E0")]
+	[Address(RVA = "0x6106890", Offset = "0x6105890", VA = "0x6106890")]
 	public static XPathExpression Compile(string xpath, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

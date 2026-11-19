@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PhysicsDocumentPicker
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,27 +13,27 @@ namespace UnityEngine.UIElements;
 internal class PhysicsDocumentPicker
 {
 	[Token(Token = "0x6001044")]
-	[Address(RVA = "0x3283860", Offset = "0x3281E60", VA = "0x183283860")]
+	[Address(RVA = "0x6C82010", Offset = "0x6C81010", VA = "0x6C82010")]
 	private void Pick(Ray worldRay, float maxDistance, int layerMask, out Collider collider, out UIDocument document, out VisualElement pickedElement, out float distance)
 	{
 	}
 
 	[Token(Token = "0x6001045")]
-	[Address(RVA = "0x3283910", Offset = "0x3281F10", VA = "0x183283910")]
+	[Address(RVA = "0x6C82D60", Offset = "0x6C81D60", VA = "0x6C82D60")]
 	public bool TryPickWithCapture(int pointerId, Ray worldRay, float maxDistance, int layerMask, out Collider collider, out UIDocument document, out VisualElement elementUnderPointer, out float distance, out bool captured)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x3283670", Offset = "0x3281C70", VA = "0x183283670")]
+	[Address(RVA = "0x6C82F80", Offset = "0x6C81F80", VA = "0x6C82F80")]
 	private bool GetCapturingDocument(int pointerId, out UIDocument capturingDocument)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001047")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C83570", Offset = "0x6C82570", VA = "0x6C83570")]
 	public PhysicsDocumentPicker()
 	{
 	}

@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000A4")]
+[Token(Token = "0x20000A5")]
 public sealed class MemberListBinding : MemberBinding
 {
-	[Token(Token = "0x170000C8")]
+	[Token(Token = "0x170000CA")]
 	public ReadOnlyCollection<ElementInit> Initializers
 	{
-		[Token(Token = "0x6000481")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600048C")]
+		[Address(RVA = "0x5DD2F70", Offset = "0x5DD1F70", VA = "0x5DD2F70")]
 		[CompilerGenerated]
 		get
 		{

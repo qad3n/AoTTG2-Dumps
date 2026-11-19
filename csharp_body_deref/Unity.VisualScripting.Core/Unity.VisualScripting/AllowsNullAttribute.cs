@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public sealed class AllowsNullAttribute : Attribute
 {
 	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6792860", Offset = "0x6791860", VA = "0x6792860")]
 	public AllowsNullAttribute()
 	{
 	}

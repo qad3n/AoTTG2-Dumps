@@ -54,7 +54,7 @@ public static class MemberUtility
 		private MethodInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EReflection_002EMethodInfo_003E_002ECurrent
 		{
 			[Token(Token = "0x60006A9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x67BE320", Offset = "0x67BD320", VA = "0x67BE320", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,7 +66,7 @@ public static class MemberUtility
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60006AB")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x67BE370", Offset = "0x67BD370", VA = "0x67BE370", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -75,35 +75,35 @@ public static class MemberUtility
 		}
 
 		[Token(Token = "0x60006A6")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x67B9D10", Offset = "0x67B8D10", VA = "0x67B9D10")]
 		[DebuggerHidden]
 		public _003CGetInheritedExtensionMethods_003Ed__8(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60006A7")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Address(RVA = "0x67BDF20", Offset = "0x67BCF20", VA = "0x67BDF20", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60006A8")]
-		[Address(RVA = "0x2DDCCA0", Offset = "0x2DDB2A0", VA = "0x182DDCCA0", Slot = "8")]
+		[Address(RVA = "0x67BDF30", Offset = "0x67BCF30", VA = "0x67BDF30", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60006AA")]
-		[Address(RVA = "0x2DDD140", Offset = "0x2DDB740", VA = "0x182DDD140", Slot = "10")]
+		[Address(RVA = "0x67BE330", Offset = "0x67BD330", VA = "0x67BE330", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x2DDD0A0", Offset = "0x2DDB6A0", VA = "0x182DDD0A0", Slot = "4")]
+		[Address(RVA = "0x67BE380", Offset = "0x67BD380", VA = "0x67BE380", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<MethodInfo> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EReflection_002EMethodInfo_003E_002EGetEnumerator()
 		{
@@ -111,7 +111,7 @@ public static class MemberUtility
 		}
 
 		[Token(Token = "0x60006AD")]
-		[Address(RVA = "0x2DDD0A0", Offset = "0x2DDB6A0", VA = "0x182DDD0A0", Slot = "5")]
+		[Address(RVA = "0x67BE410", Offset = "0x67BD410", VA = "0x67BE410", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -132,41 +132,41 @@ public static class MemberUtility
 	private static readonly Lazy<HashSet<MethodInfo>> GenericExtensionMethods;
 
 	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x2DDBBB0", Offset = "0x2DDA1B0", VA = "0x182DDBBB0")]
+	[Address(RVA = "0x67B94E0", Offset = "0x67B84E0", VA = "0x67B94E0")]
 	static MemberUtility()
 	{
 	}
 
 	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x2DDA4A0", Offset = "0x2DD8AA0", VA = "0x182DDA4A0")]
+	[Address(RVA = "0x67B8B90", Offset = "0x67B7B90", VA = "0x67B8B90")]
 	public static bool IsOperator(this MethodInfo method)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000658")]
-	[Address(RVA = "0x2DDA9F0", Offset = "0x2DD8FF0", VA = "0x182DDA9F0")]
+	[Address(RVA = "0x67B8C40", Offset = "0x67B7C40", VA = "0x67B8C40")]
 	public static bool IsUserDefinedConversion(this MethodInfo method)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x2DDAAA0", Offset = "0x2DD90A0", VA = "0x182DDAAA0")]
+	[Address(RVA = "0x67B9750", Offset = "0x67B8750", VA = "0x67B9750")]
 	public static MethodInfo MakeGenericMethodVia(this MethodInfo openConstructedMethod, params Type[] closedConstructedParameterTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x2DDA350", Offset = "0x2DD8950", VA = "0x182DDA350")]
+	[Address(RVA = "0x67B9BD0", Offset = "0x67B8BD0", VA = "0x67B9BD0")]
 	public static bool IsGenericExtension(this MethodInfo methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x2DD9980", Offset = "0x2DD7F80", VA = "0x182DD9980")]
+	[Address(RVA = "0x67B9CA0", Offset = "0x67B8CA0", VA = "0x67B9CA0")]
 	[IteratorStateMachine(typeof(_003CGetInheritedExtensionMethods_003Ed__8))]
 	private static IEnumerable<MethodInfo> GetInheritedExtensionMethods(Type thisArgumentType)
 	{
@@ -174,322 +174,322 @@ public static class MemberUtility
 	}
 
 	[Token(Token = "0x600065C")]
-	[Address(RVA = "0x2DD9470", Offset = "0x2DD7A70", VA = "0x182DD9470")]
+	[Address(RVA = "0x67B9D40", Offset = "0x67B8D40", VA = "0x67B9D40")]
 	public static IEnumerable<MethodInfo> GetExtensionMethods(this Type thisArgumentType, bool inherited = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x2DDA2F0", Offset = "0x2DD88F0", VA = "0x182DDA2F0")]
+	[Address(RVA = "0x67BA120", Offset = "0x67B9120", VA = "0x67BA120")]
 	public static bool IsExtension(this MethodInfo methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600065E")]
-	[Address(RVA = "0x2DDA210", Offset = "0x2DD8810", VA = "0x182DDA210")]
+	[Address(RVA = "0x67B8A90", Offset = "0x67B7A90", VA = "0x67B8A90")]
 	public static bool IsExtensionMethod(this MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x1A6E4C0", Offset = "0x1A6CAC0", VA = "0x181A6E4C0")]
+	[Address(RVA = "0x67BA180", Offset = "0x67B9180", VA = "0x67BA180")]
 	public static Delegate CreateDelegate(this MethodInfo methodInfo, Type delegateType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x2DDA150", Offset = "0x2DD8750", VA = "0x182DDA150")]
+	[Address(RVA = "0x67BA190", Offset = "0x67B9190", VA = "0x67BA190")]
 	public static bool IsAccessor(this MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x2DD8D30", Offset = "0x2DD7330", VA = "0x182DD8D30")]
+	[Address(RVA = "0x67BA220", Offset = "0x67B9220", VA = "0x67BA220")]
 	public static Type GetAccessorType(this MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x2DDA560", Offset = "0x2DD8B60", VA = "0x182DDA560")]
+	[Address(RVA = "0x67BA2D0", Offset = "0x67B92D0", VA = "0x67BA2D0")]
 	public static bool IsPubliclyGettable(this MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x2DD8970", Offset = "0x2DD6F70", VA = "0x182DD8970")]
+	[Address(RVA = "0x67BA440", Offset = "0x67B9440", VA = "0x67BA440")]
 	private static Type ExtendedDeclaringType(this MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x2DD8AB0", Offset = "0x2DD70B0", VA = "0x182DD8AB0")]
+	[Address(RVA = "0x67BA5B0", Offset = "0x67B95B0", VA = "0x67BA5B0")]
 	public static Type ExtendedDeclaringType(this MemberInfo memberInfo, bool invokeAsExtension)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x20FB640", Offset = "0x20F9C40", VA = "0x1820FB640")]
+	[Address(RVA = "0x67BA630", Offset = "0x67B9630", VA = "0x67BA630")]
 	public static bool IsStatic(this PropertyInfo propertyInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x2DDA7B0", Offset = "0x2DD8DB0", VA = "0x182DDA7B0")]
+	[Address(RVA = "0x67BA6A0", Offset = "0x67B96A0", VA = "0x67BA6A0")]
 	public static bool IsStatic(this MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x2DD9D50", Offset = "0x2DD8350", VA = "0x182DD9D50")]
+	[Address(RVA = "0x67BA880", Offset = "0x67B9880", VA = "0x67BA880")]
 	private static IEnumerable<ParameterInfo> GetParametersWithoutThis(this MethodBase methodBase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x2DDA3F0", Offset = "0x2DD89F0", VA = "0x182DDA3F0")]
+	[Address(RVA = "0x67BA910", Offset = "0x67B9910", VA = "0x67BA910")]
 	public static bool IsInvokedAsExtension(this MethodBase methodBase, Type targetType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x2DD9AF0", Offset = "0x2DD80F0", VA = "0x182DD9AF0")]
+	[Address(RVA = "0x67BA9F0", Offset = "0x67B99F0", VA = "0x67BA9F0")]
 	public static IEnumerable<ParameterInfo> GetInvocationParameters(this MethodBase methodBase, bool invokeAsExtension)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x2DD9A00", Offset = "0x2DD8000", VA = "0x182DD9A00")]
+	[Address(RVA = "0x67BAA70", Offset = "0x67B9A70", VA = "0x67BAA70")]
 	public static IEnumerable<ParameterInfo> GetInvocationParameters(this MethodBase methodBase, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x2DDBB30", Offset = "0x2DDA130", VA = "0x182DDBB30")]
+	[Address(RVA = "0x67BAB30", Offset = "0x67B9B30", VA = "0x67BAB30")]
 	public static Type UnderlyingParameterType(this ParameterInfo parameterInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x2DDA060", Offset = "0x2DD8660", VA = "0x182DDA060")]
+	[Address(RVA = "0x67BABB0", Offset = "0x67B9BB0", VA = "0x67BABB0")]
 	public static bool HasDefaultValue(this ParameterInfo parameterInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x2DD7F40", Offset = "0x2DD6540", VA = "0x182DD7F40")]
+	[Address(RVA = "0x67BABE0", Offset = "0x67B9BE0", VA = "0x67BABE0")]
 	public static object DefaultValue(this ParameterInfo parameterInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x2DDB0F0", Offset = "0x2DD96F0", VA = "0x182DDB0F0")]
+	[Address(RVA = "0x67BAD70", Offset = "0x67B9D70", VA = "0x67BAD70")]
 	public static object PseudoDefaultValue(this ParameterInfo parameterInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x2DD7E00", Offset = "0x2DD6400", VA = "0x182DD7E00")]
+	[Address(RVA = "0x67BAF00", Offset = "0x67B9F00", VA = "0x67BAF00")]
 	public static bool AllowsNull(this ParameterInfo parameterInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x2DDA090", Offset = "0x2DD8690", VA = "0x182DDA090")]
+	[Address(RVA = "0x67BB000", Offset = "0x67BA000", VA = "0x67BB000")]
 	public static bool HasOutModifier(this ParameterInfo parameterInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x2DD7F00", Offset = "0x2DD6500", VA = "0x182DD7F00")]
+	[Address(RVA = "0x67BB0C0", Offset = "0x67BA0C0", VA = "0x67BB0C0")]
 	public static bool CanWrite(this FieldInfo fieldInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x2DDB9D0", Offset = "0x2DD9FD0", VA = "0x182DDB9D0")]
+	[Address(RVA = "0x67BB100", Offset = "0x67BA100", VA = "0x67BB100")]
 	public static Member ToManipulator(this MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x2DDB610", Offset = "0x2DD9C10", VA = "0x182DDB610")]
+	[Address(RVA = "0x67BB170", Offset = "0x67BA170", VA = "0x67BB170")]
 	public static Member ToManipulator(this MemberInfo memberInfo, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000674")]
-	[Address(RVA = "0x2DDBAC0", Offset = "0x2DDA0C0", VA = "0x182DDBAC0")]
+	[Address(RVA = "0x67BB430", Offset = "0x67BA430", VA = "0x67BB430")]
 	public static Member ToManipulator(this FieldInfo fieldInfo, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000675")]
-	[Address(RVA = "0x2DDB960", Offset = "0x2DD9F60", VA = "0x182DDB960")]
+	[Address(RVA = "0x67BB490", Offset = "0x67BA490", VA = "0x67BB490")]
 	public static Member ToManipulator(this PropertyInfo propertyInfo, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x2DDBA50", Offset = "0x2DDA050", VA = "0x182DDBA50")]
+	[Address(RVA = "0x67BB4F0", Offset = "0x67BA4F0", VA = "0x67BB4F0")]
 	public static Member ToManipulator(this MethodInfo methodInfo, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x2DDB8F0", Offset = "0x2DD9EF0", VA = "0x182DDB8F0")]
+	[Address(RVA = "0x67BB550", Offset = "0x67BA550", VA = "0x67BB550")]
 	public static Member ToManipulator(this ConstructorInfo constructorInfo, Type targetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x2DD8E50", Offset = "0x2DD7450", VA = "0x182DD8E50")]
+	[Address(RVA = "0x67BB5B0", Offset = "0x67BA5B0", VA = "0x67BB5B0")]
 	public static ConstructorInfo GetConstructorAccepting(this Type type, Type[] paramTypes, bool nonPublic)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x2DD8F40", Offset = "0x2DD7540", VA = "0x182DD8F40")]
+	[Address(RVA = "0x67BB6C0", Offset = "0x67BA6C0", VA = "0x67BB6C0")]
 	public static ConstructorInfo GetConstructorAccepting(this Type type, params Type[] paramTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x2DD9F50", Offset = "0x2DD8550", VA = "0x182DD9F50")]
+	[Address(RVA = "0x67BB720", Offset = "0x67BA720", VA = "0x67BB720")]
 	public static ConstructorInfo GetPublicConstructorAccepting(this Type type, params Type[] paramTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x2DD8FA0", Offset = "0x2DD75A0", VA = "0x182DD8FA0")]
+	[Address(RVA = "0x67BB780", Offset = "0x67BA780", VA = "0x67BB780")]
 	public static ConstructorInfo GetDefaultConstructor(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067C")]
-	[Address(RVA = "0x2DD9FB0", Offset = "0x2DD85B0", VA = "0x182DD9FB0")]
+	[Address(RVA = "0x67BB8F0", Offset = "0x67BA8F0", VA = "0x67BB8F0")]
 	public static ConstructorInfo GetPublicDefaultConstructor(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067D")]
-	[Address(RVA = "0x2DD9050", Offset = "0x2DD7650", VA = "0x182DD9050")]
+	[Address(RVA = "0x67BBA50", Offset = "0x67BAA50", VA = "0x67BBA50")]
 	public static MemberInfo[] GetExtendedMember(this Type type, string name, MemberTypes types, BindingFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x2DD9210", Offset = "0x2DD7810", VA = "0x182DD9210")]
+	[Address(RVA = "0x67BBC40", Offset = "0x67BAC40", VA = "0x67BBC40")]
 	public static MemberInfo[] GetExtendedMembers(this Type type, BindingFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x2DDAED0", Offset = "0x2DD94D0", VA = "0x182DDAED0")]
+	[Address(RVA = "0x67BBFC0", Offset = "0x67BAFC0", VA = "0x67BBFC0")]
 	private static bool NameMatches(this MemberInfo member, string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x2DDAF10", Offset = "0x2DD9510", VA = "0x182DDAF10")]
+	[Address(RVA = "0x67BBFF0", Offset = "0x67BAFF0", VA = "0x67BBFF0")]
 	private static bool ParametersMatch(this MethodBase methodBase, IEnumerable<Type> parameterTypes, bool invokeAsExtension)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x2DD8C40", Offset = "0x2DD7240", VA = "0x182DD8C40")]
+	[Address(RVA = "0x67BC220", Offset = "0x67BB220", VA = "0x67BC220")]
 	private static bool GenericArgumentsMatch(this MethodInfo method, IEnumerable<Type> genericArgumentTypes)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x2DDB320", Offset = "0x2DD9920", VA = "0x182DDB320")]
+	[Address(RVA = "0x67BC310", Offset = "0x67BB310", VA = "0x67BC310")]
 	public static bool SignatureMatches(this FieldInfo field, string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000683")]
-	[Address(RVA = "0x2DDB2A0", Offset = "0x2DD98A0", VA = "0x182DDB2A0")]
+	[Address(RVA = "0x67BC3A0", Offset = "0x67BB3A0", VA = "0x67BC3A0")]
 	public static bool SignatureMatches(this PropertyInfo property, string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000684")]
-	[Address(RVA = "0x2DDB480", Offset = "0x2DD9A80", VA = "0x182DDB480")]
+	[Address(RVA = "0x67BC430", Offset = "0x67BB430", VA = "0x67BC430")]
 	public static bool SignatureMatches(this ConstructorInfo constructor, string name, IEnumerable<Type> parameterTypes)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000685")]
-	[Address(RVA = "0x2DDB540", Offset = "0x2DD9B40", VA = "0x182DDB540")]
+	[Address(RVA = "0x67BC500", Offset = "0x67BB500", VA = "0x67BC500")]
 	public static bool SignatureMatches(this MethodInfo method, string name, IEnumerable<Type> parameterTypes, bool invokeAsExtension)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000686")]
-	[Address(RVA = "0x2DDB3A0", Offset = "0x2DD99A0", VA = "0x182DDB3A0")]
+	[Address(RVA = "0x67BC600", Offset = "0x67BB600", VA = "0x67BC600")]
 	public static bool SignatureMatches(this MethodInfo method, string name, IEnumerable<Type> parameterTypes, IEnumerable<Type> genericArgumentTypes, bool invokeAsExtension)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000687")]
-	[Address(RVA = "0x2DD9810", Offset = "0x2DD7E10", VA = "0x182DD9810")]
+	[Address(RVA = "0x67BC710", Offset = "0x67BB710", VA = "0x67BC710")]
 	public static FieldInfo GetFieldUnambiguous(this Type type, string name, BindingFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x2DD9DF0", Offset = "0x2DD83F0", VA = "0x182DD9DF0")]
+	[Address(RVA = "0x67BC880", Offset = "0x67BB880", VA = "0x67BC880")]
 	public static PropertyInfo GetPropertyUnambiguous(this Type type, string name, BindingFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x2DD9BF0", Offset = "0x2DD81F0", VA = "0x182DD9BF0")]
+	[Address(RVA = "0x67BC9E0", Offset = "0x67BB9E0", VA = "0x67BC9E0")]
 	public static MethodInfo GetMethodUnambiguous(this Type type, string name, BindingFlags flags)
 	{
 		return null;
@@ -502,35 +502,35 @@ public static class MemberUtility
 	}
 
 	[Token(Token = "0x600068B")]
-	[Address(RVA = "0x2DD80F0", Offset = "0x2DD66F0", VA = "0x182DD80F0")]
+	[Address(RVA = "0x67BCB40", Offset = "0x67BBB40", VA = "0x67BCB40")]
 	public static FieldInfo Disambiguate(this IEnumerable<FieldInfo> fields, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x2DD8460", Offset = "0x2DD6A60", VA = "0x182DD8460")]
+	[Address(RVA = "0x67BCC60", Offset = "0x67BBC60", VA = "0x67BCC60")]
 	public static PropertyInfo Disambiguate(this IEnumerable<PropertyInfo> properties, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600068D")]
-	[Address(RVA = "0x2DD8570", Offset = "0x2DD6B70", VA = "0x182DD8570")]
+	[Address(RVA = "0x67BCD80", Offset = "0x67BBD80", VA = "0x67BCD80")]
 	public static ConstructorInfo Disambiguate(this IEnumerable<ConstructorInfo> constructors, Type type, IEnumerable<Type> parameterTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x2DD8760", Offset = "0x2DD6D60", VA = "0x182DD8760")]
+	[Address(RVA = "0x67BCFB0", Offset = "0x67BBFB0", VA = "0x67BCFB0")]
 	public static MethodInfo Disambiguate(this IEnumerable<MethodInfo> methods, Type type, IEnumerable<Type> parameterTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x2DD8200", Offset = "0x2DD6800", VA = "0x182DD8200")]
+	[Address(RVA = "0x67BD200", Offset = "0x67BC200", VA = "0x67BD200")]
 	public static MethodInfo Disambiguate(this IEnumerable<MethodInfo> methods, Type type, IEnumerable<Type> parameterTypes, IEnumerable<Type> genericArgumentTypes)
 	{
 		return null;

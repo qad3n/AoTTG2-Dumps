@@ -19,7 +19,7 @@ internal class VoiceEvent
 	public const byte FrameCode = 203;
 
 	[Token(Token = "0x6000349")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x571E0D0", Offset = "0x571D0D0", VA = "0x571E0D0")]
 	public VoiceEvent()
 	{
 	}

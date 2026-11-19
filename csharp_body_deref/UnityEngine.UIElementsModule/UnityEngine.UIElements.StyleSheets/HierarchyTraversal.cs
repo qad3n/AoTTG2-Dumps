@@ -13,7 +13,7 @@ namespace UnityEngine.UIElements.StyleSheets;
 internal abstract class HierarchyTraversal
 {
 	[Token(Token = "0x6002CBD")]
-	[Address(RVA = "0x31B8AC0", Offset = "0x31B70C0", VA = "0x1831B8AC0", Slot = "4")]
+	[Address(RVA = "0x6BC5B00", Offset = "0x6BC4B00", VA = "0x6BC5B00", Slot = "4")]
 	public virtual void Traverse(VisualElement element)
 	{
 	}
@@ -22,13 +22,13 @@ internal abstract class HierarchyTraversal
 	public abstract void TraverseRecursive(VisualElement element, int depth);
 
 	[Token(Token = "0x6002CBF")]
-	[Address(RVA = "0x31B89F0", Offset = "0x31B6FF0", VA = "0x1831B89F0")]
+	[Address(RVA = "0x6BC5B20", Offset = "0x6BC4B20", VA = "0x6BC5B20")]
 	protected void Recurse(VisualElement element, int depth)
 	{
 	}
 
 	[Token(Token = "0x6002CC0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6BC5BF0", Offset = "0x6BC4BF0", VA = "0x6BC5BF0")]
 	protected HierarchyTraversal()
 	{
 	}

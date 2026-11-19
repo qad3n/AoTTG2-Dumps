@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x2000013")]
 internal struct RuntimeClassHandle
 {
-	[Token(Token = "0x400010D")]
+	[Token(Token = "0x400008B")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe Mono.RuntimeStructs.MonoClass* value;
 
 	[Token(Token = "0x17000005")]
 	internal unsafe Mono.RuntimeStructs.MonoClass* Value
 	{
-		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6000042")]
+		[Address(RVA = "0x52D8F50", Offset = "0x52D7F50", VA = "0x52D8F50")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -30,39 +30,39 @@ internal struct RuntimeClassHandle
 		}
 	}
 
-	[Token(Token = "0x6000056")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x6000040")]
+	[Address(RVA = "0x52D8F20", Offset = "0x52D7F20", VA = "0x52D8F20")]
 	internal unsafe RuntimeClassHandle(Mono.RuntimeStructs.MonoClass* value)
 	{
 	}
 
-	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x194C500", Offset = "0x194AB00", VA = "0x18194C500")]
+	[Token(Token = "0x6000041")]
+	[Address(RVA = "0x52D8F30", Offset = "0x52D7F30", VA = "0x52D8F30")]
 	internal RuntimeClassHandle(IntPtr ptr)
 	{
 	}
 
-	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x194C3C0", Offset = "0x194A9C0", VA = "0x18194C3C0", Slot = "0")]
+	[Token(Token = "0x6000043")]
+	[Address(RVA = "0x52D8F60", Offset = "0x52D7F60", VA = "0x52D8F60", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x194C4B0", Offset = "0x194AAB0", VA = "0x18194C4B0", Slot = "2")]
+	[Token(Token = "0x6000044")]
+	[Address(RVA = "0x52D9040", Offset = "0x52D8040", VA = "0x52D9040", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x194C4E0", Offset = "0x194AAE0", VA = "0x18194C4E0")]
+	[Token(Token = "0x6000045")]
+	[Address(RVA = "0x52D9060", Offset = "0x52D8060", VA = "0x52D9060")]
 	internal unsafe static extern IntPtr GetTypeFromClass(Mono.RuntimeStructs.MonoClass* klass);
 
-	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x194C4F0", Offset = "0x194AAF0", VA = "0x18194C4F0")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x52D9070", Offset = "0x52D8070", VA = "0x52D9070")]
 	internal RuntimeTypeHandle GetTypeHandle()
 	{
 		return default(RuntimeTypeHandle);

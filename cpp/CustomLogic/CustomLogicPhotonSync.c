@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicPhotonSync
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicPhotonSync.cs
@@ -8,14 +8,14 @@
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45___ctor (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5b70310
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45___ctor(CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, int32_t __1__state, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45___ctor
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,int32_t __1__state
+               ,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,11 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45___ctor(CustomL
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$System.IDisposable.Dispose
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_IDisposable_Dispose (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5b719e0
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_IDisposable_Dispose(CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_IDisposable_Dispose
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,MethodInfo *method
+               )
 
 {
   return;
@@ -35,7 +36,7 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_IDispo
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$MoveNext
 // il2cpp: bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__MoveNext (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, const MethodInfo* method);
-// 0x1820b54c0
+// 0x5b719f0
 
 bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__MoveNext
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,MethodInfo *method
@@ -43,41 +44,46 @@ bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__MoveNext
 
 {
   CustomLogic_CustomLogicPhotonSync_o *__this_00;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
+  MethodInfo *in_RCX;
   
-  if (Il2CppMethodInitialized_1843468d7 == '\0') {
+  if (Il2CppMethodInitialized_0754734d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
-    Il2CppMethodInitialized_1843468d7 = '\x01';
+    Il2CppMethodInitialized_0754734d = '\x01';
   }
-  if (1 < (uint)(__this->fields).__1__state) {
-    return false;
-  }
-  __this_00 = (__this->fields).__4__this;
-  (__this->fields).__1__state = -1;
-  if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-  }
-  if (TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator ==
-      (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    (__this->fields).__2__current = (Il2CppObject *)0x0;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
-    (__this->fields).__1__state = 1;
-    return true;
-  }
-  if (__this_00 != (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
+  if ((uint)(__this->fields).__1__state < 2) {
+    __this_00 = (__this->fields).__4__this;
+    (__this->fields).__1__state = -1;
+    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+      pCVar1 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+    }
+    else {
+      pCVar1 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+    }
+    if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+      (__this->fields).__2__current = (Il2CppObject *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+      (__this->fields).__1__state = 1;
+      return true;
+    }
+    if (__this_00 == (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
+      ThrowNullReferenceException();
+    }
     CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject
-              (__this_00,(__this->fields).persistsOwnership,(__this->fields).csvScript,(MethodInfo *)0x0);
-    return false;
+              (__this_00,(__this->fields).persistsOwnership,(__this->fields).csvScript,in_RCX);
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_Generic_IEnumerator_System_Object__get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71aa0
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_Generic_IEnumerator_System_Object__get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -86,7 +92,7 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collec
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$System.Collections.IEnumerator.Reset
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_IEnumerator_Reset (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, const MethodInfo* method);
-// 0x1820b5590
+// 0x5b71ab0
 
 void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_IEnumerator_Reset
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,MethodInfo *method
@@ -111,10 +117,11 @@ void CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_C
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishDynamicInit>d__45$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_IEnumerator_get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71af0
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_IEnumerator_get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collections_IEnumerator_get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -123,14 +130,14 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45__System_Collec
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46___ctor (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5b70330
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46___ctor(CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, int32_t __1__state, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46___ctor
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -138,10 +145,10 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46___ctor(CustomLogic_Cu
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$System.IDisposable.Dispose
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_IDisposable_Dispose (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5b71b00
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_IDisposable_Dispose(CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_IDisposable_Dispose
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,MethodInfo *method)
 
 {
   return;
@@ -150,23 +157,26 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_IDisposable_D
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$MoveNext
 // il2cpp: bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__MoveNext (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, const MethodInfo* method);
-// 0x1820b55d0
+// 0x5b71b10
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b71b78: jmp 0x5b71bea
 
 bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__MoveNext
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,MethodInfo *method)
 
 {
   CustomLogic_CustomLogicPhotonSync_o *__this_00;
-  CustomLogic_CustomLogicEvaluator_o *pCVar1;
-  System_Collections_Generic_Dictionary_int__ulong__o *__this_01;
-  bool bVar2;
+  System_Collections_Generic_Dictionary_int__object__o *__this_01;
+  bool bVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar2;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843468d8 == '\0') {
+  if (Il2CppMethodInitialized_0754734e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_ContainsKey
               );
-    Il2CppMethodInitialized_1843468d8 = '\x01';
+    Il2CppMethodInitialized_0754734e = '\x01';
   }
   if (1 < (uint)(__this->fields).__1__state) {
     return false;
@@ -175,44 +185,48 @@ bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__MoveNext
   (__this->fields).__1__state = -1;
   if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
   }
-  if (TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator !=
-      (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-    }
-    pCVar1 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-    if ((pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-       (__this_01 = (System_Collections_Generic_Dictionary_int__ulong__o *)(pCVar1->fields).IdToNetworkView,
-       __this_01 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0)) {
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (__this_01,(__this->fields).mapObjectId,
-                         (MethodInfo_1407110 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_ContainsKey
-                        );
-      if (!bVar2) goto label_1820b56a6;
-      if (__this_00 != (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
-        CustomLogic_CustomLogicPhotonSync__FinishInit
-                  (__this_00,(__this->fields).mapObjectId,(MethodInfo *)0x0);
-        return false;
-      }
-    }
-    ThrowNullReferenceException();
+  else {
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
   }
-label_1820b56a6:
-  (__this->fields).__2__current = (Il2CppObject *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
-  (__this->fields).__1__state = 1;
-  return true;
+  if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+label_05b71bea:
+    (__this->fields).__2__current = (Il2CppObject *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+    (__this->fields).__1__state = 1;
+    return true;
+  }
+  if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager)->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+    if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) goto label_05b71c0c;
+  }
+  __this_01 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar2->fields).IdToNetworkView;
+  if (__this_01 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                      (__this_01,(__this->fields).mapObjectId,
+                       (MethodInfo_4A0F950 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_ContainsKey
+                      );
+    if (!bVar1) goto label_05b71bea;
+    if (__this_00 != (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
+      CustomLogic_CustomLogicPhotonSync__FinishInit(__this_00,(__this->fields).mapObjectId,method_00);
+      return false;
+    }
+  }
+label_05b71c0c:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_Generic_IEnumerator_System_Object__get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71c20
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_Generic_IEnumerator_System_Object__get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -221,7 +235,7 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_G
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$System.Collections.IEnumerator.Reset
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_IEnumerator_Reset (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, const MethodInfo* method);
-// 0x1820b56e0
+// 0x5b71c30
 
 void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_IEnumerator_Reset
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,MethodInfo *method)
@@ -245,10 +259,11 @@ void CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collecti
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishInit>d__46$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_IEnumerator_get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71c70
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_IEnumerator_get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_IEnumerator_get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -257,14 +272,14 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46__System_Collections_I
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54___ctor (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5b70cb0
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54___ctor(CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, int32_t __1__state, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54___ctor
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -272,10 +287,10 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54___ctor(CustomLogic_Cu
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$System.IDisposable.Dispose
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_IDisposable_Dispose (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5b71c80
 
-void
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_IDisposable_Dispose(CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_IDisposable_Dispose
+               (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,MethodInfo *method)
 
 {
   return;
@@ -284,41 +299,41 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_IDisposable_D
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$MoveNext
 // il2cpp: bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__MoveNext (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, const MethodInfo* method);
-// 0x1820b5720
+// 0x5b71c90
 
 bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__MoveNext
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  CustomLogic_CustomLogicPhotonSync_o *pCVar2;
+  CustomLogic_CustomLogicPhotonSync_o *pCVar1;
+  float fVar2;
   float fVar3;
   float fVar4;
   
   if ((uint)(__this->fields).__1__state < 2) {
-    pCVar2 = (__this->fields).__4__this;
+    pCVar1 = (__this->fields).__4__this;
     (__this->fields).__1__state = -1;
-    if (pCVar2 == (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
+    if (pCVar1 == (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
       ThrowNullReferenceException();
     }
-    if ((pCVar2->fields)._inited == false) {
+    if ((pCVar1->fields)._inited == false) {
       (__this->fields).__2__current = (Il2CppObject *)0x0;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
       (__this->fields).__1__state = 1;
       return true;
     }
+    fVar2 = (__this->fields).position.fields.x;
     fVar3 = (__this->fields).position.fields.y;
-    fVar1 = (__this->fields).position.fields.z;
-    (pCVar2->fields)._correctPosition.fields.x = (__this->fields).position.fields.x;
-    (pCVar2->fields)._correctPosition.fields.y = fVar3;
-    (pCVar2->fields)._correctPosition.fields.z = fVar1;
-    fVar1 = (__this->fields).rotation.fields.y;
+    (pCVar1->fields)._correctPosition.fields.z = (__this->fields).position.fields.z;
+    (pCVar1->fields)._correctPosition.fields.x = fVar2;
+    (pCVar1->fields)._correctPosition.fields.y = fVar3;
+    fVar2 = (__this->fields).rotation.fields.y;
     fVar3 = (__this->fields).rotation.fields.z;
     fVar4 = (__this->fields).rotation.fields.w;
-    (pCVar2->fields)._correctRotation.fields.x = (__this->fields).rotation.fields.x;
-    (pCVar2->fields)._correctRotation.fields.y = fVar1;
-    (pCVar2->fields)._correctRotation.fields.z = fVar3;
-    (pCVar2->fields)._correctRotation.fields.w = fVar4;
+    (pCVar1->fields)._correctRotation.fields.x = (__this->fields).rotation.fields.x;
+    (pCVar1->fields)._correctRotation.fields.y = fVar2;
+    (pCVar1->fields)._correctRotation.fields.z = fVar3;
+    (pCVar1->fields)._correctRotation.fields.w = fVar4;
   }
   return false;
 }
@@ -326,10 +341,11 @@ bool CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__MoveNext
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71cf0
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -338,7 +354,7 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_G
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$System.Collections.IEnumerator.Reset
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_IEnumerator_Reset (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, const MethodInfo* method);
-// 0x1820b5790
+// 0x5b71d00
 
 void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_IEnumerator_Reset
                (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,MethodInfo *method)
@@ -362,10 +378,11 @@ void CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collecti
 
 // CustomLogic.CustomLogicPhotonSync.<WaitAndFinishSync>d__54$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_IEnumerator_get_Current (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b71d40
 
-Il2CppObject*
-CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_IEnumerator_get_Current(CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_IEnumerator_get_Current
+          (CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -374,10 +391,10 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54__System_Collections_I
 
 // CustomLogic.CustomLogicPhotonSync$$get_SyncTransforms
 // il2cpp: bool CustomLogic_CustomLogicPhotonSync__get_SyncTransforms (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x180f1d480
+// 0x5b6ee90
 
-bool
-CustomLogic_CustomLogicPhotonSync__get_SyncTransforms(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPhotonSync__get_SyncTransforms
+               (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._syncTransforms;
@@ -386,7 +403,7 @@ CustomLogic_CustomLogicPhotonSync__get_SyncTransforms(CustomLogic_CustomLogicPho
 
 // CustomLogic.CustomLogicPhotonSync$$set_SyncTransforms
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__set_SyncTransforms (CustomLogic_CustomLogicPhotonSync_o* __this, bool value, const MethodInfo* method);
-// 0x1820a9f20
+// 0x5b6eea0
 
 void CustomLogic_CustomLogicPhotonSync__set_SyncTransforms
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool value,MethodInfo *method)
@@ -395,22 +412,22 @@ void CustomLogic_CustomLogicPhotonSync__set_SyncTransforms
   Photon_Pun_PhotonView_o *pPVar1;
   
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((pPVar1->fields)._IsMine_k__BackingField != false) {
-      (__this->fields)._syncTransforms = value;
-    }
-    return;
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if ((pPVar1->fields)._IsMine_k__BackingField != false) {
+    (__this->fields)._syncTransforms = value;
+  }
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_SyncVelocity
 // il2cpp: bool CustomLogic_CustomLogicPhotonSync__get_SyncVelocity (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x181573470
+// 0x5b6eec0
 
-bool
-CustomLogic_CustomLogicPhotonSync__get_SyncVelocity(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPhotonSync__get_SyncVelocity
+               (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._syncVelocity;
@@ -419,7 +436,7 @@ CustomLogic_CustomLogicPhotonSync__get_SyncVelocity(CustomLogic_CustomLogicPhoto
 
 // CustomLogic.CustomLogicPhotonSync$$set_SyncVelocity
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__set_SyncVelocity (CustomLogic_CustomLogicPhotonSync_o* __this, bool value, const MethodInfo* method);
-// 0x1820a9f50
+// 0x5b6eed0
 
 void CustomLogic_CustomLogicPhotonSync__set_SyncVelocity
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool value,MethodInfo *method)
@@ -428,43 +445,45 @@ void CustomLogic_CustomLogicPhotonSync__set_SyncVelocity
   Photon_Pun_PhotonView_o *pPVar1;
   
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((pPVar1->fields)._IsMine_k__BackingField != false) {
-      (__this->fields)._syncVelocity = value;
-    }
-    return;
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if ((pPVar1->fields)._IsMine_k__BackingField != false) {
+    (__this->fields)._syncVelocity = value;
+  }
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_Rigidbody
 // il2cpp: UnityEngine_Rigidbody_o* CustomLogic_CustomLogicPhotonSync__get_Rigidbody (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a9e40
+// 0x5b6eef0
 
 UnityEngine_Rigidbody_o *
 CustomLogic_CustomLogicPhotonSync__get_Rigidbody
           (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
+  UnityEngine_Rigidbody_o **targetAddress;
   UnityEngine_Object_o *pUVar1;
   Map_MapObject_o *pMVar2;
   UnityEngine_GameObject_o *__this_00;
   bool bVar3;
-  UnityEngine_Rigidbody_o *value;
+  UnityEngine_Rigidbody_o *pUVar4;
   
-  if (Il2CppMethodInitialized_1843468bc == '\0') {
+  if (Il2CppMethodInitialized_07547332 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843468bc = '\x01';
+    Il2CppMethodInitialized_07547332 = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields)._rigidbody;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  targetAddress = &(__this->fields)._rigidbody;
   bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((bVar3) && ((__this->fields)._MapObject_k__BackingField != (Map_MapObject_o *)0x0)) {
-    pUVar1 = (UnityEngine_Object_o *)(((__this->fields)._MapObject_k__BackingField)->fields).GameObject;
+  if ((bVar3) && (pMVar2 = (__this->fields)._MapObject_k__BackingField, pMVar2 != (Map_MapObject_o *)0x0)) {
+    pUVar1 = (UnityEngine_Object_o *)(pMVar2->fields).GameObject;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -475,101 +494,106 @@ CustomLogic_CustomLogicPhotonSync__get_Rigidbody
          (__this_00 = (pMVar2->fields).GameObject, __this_00 == (UnityEngine_GameObject_o *)0x0)) {
         ThrowNullReferenceException();
       }
-      value = UnityEngine_GameObject__GetComponent_object_
-                        (__this_00,
-                         (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
-      (__this->fields)._rigidbody = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._rigidbody,value);
+      pUVar4 = UnityEngine_GameObject__GetComponent_object_
+                         (__this_00,
+                          (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
+      *targetAddress = pUVar4;
+      Il2CppCodeGenWriteBarrier(targetAddress);
     }
   }
-  return (__this->fields)._rigidbody;
+  return *targetAddress;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_MapObject
 // il2cpp: Map_MapObject_o* CustomLogic_CustomLogicPhotonSync__get_MapObject (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x180c7fb50
+// 0x5b6efd0
 
-Map_MapObject_o*
-CustomLogic_CustomLogicPhotonSync__get_MapObject(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+Map_MapObject_o *
+CustomLogic_CustomLogicPhotonSync__get_MapObject
+          (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields)._NetworkView_k__BackingField;
+  return (__this->fields)._MapObject_k__BackingField;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$set_MapObject
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__set_MapObject (CustomLogic_CustomLogicPhotonSync_o* __this, Map_MapObject_o* value, const MethodInfo* method);
-// 0x180f1db10
+// 0x5b6efe0
 
-void
-CustomLogic_CustomLogicPhotonSync__set_MapObject(CustomLogic_CustomLogicPhotonSync_o* __this, Map_MapObject_o* value, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__set_MapObject
+               (CustomLogic_CustomLogicPhotonSync_o *__this,Map_MapObject_o *value,MethodInfo *method)
 
 {
-  (__this->fields)._NetworkView_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField,value);
+  (__this->fields)._MapObject_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_CustomLogicMapObjectBuiltin
 // il2cpp: CustomLogic_CustomLogicMapObjectBuiltin_o* CustomLogic_CustomLogicPhotonSync__get_CustomLogicMapObjectBuiltin (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1805853d0
+// 0x5b6eff0
 
-CustomLogic_CustomLogicMapObjectBuiltin_o*
-CustomLogic_CustomLogicPhotonSync__get_CustomLogicMapObjectBuiltin(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicMapObjectBuiltin_o *
+CustomLogic_CustomLogicPhotonSync__get_CustomLogicMapObjectBuiltin
+          (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  return *(Unity_Properties_IProperty_TContainer__o **)&__this[1].fields;
+  return (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$set_CustomLogicMapObjectBuiltin
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__set_CustomLogicMapObjectBuiltin (CustomLogic_CustomLogicPhotonSync_o* __this, CustomLogic_CustomLogicMapObjectBuiltin_o* value, const MethodInfo* method);
-// 0x180f1d7f0
+// 0x5b6f000
 
-void
-CustomLogic_CustomLogicPhotonSync__set_CustomLogicMapObjectBuiltin(CustomLogic_CustomLogicPhotonSync_o* __this, CustomLogic_CustomLogicMapObjectBuiltin_o* value, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__set_CustomLogicMapObjectBuiltin
+               (CustomLogic_CustomLogicPhotonSync_o *__this,CustomLogic_CustomLogicMapObjectBuiltin_o *value,
+               MethodInfo *method)
 
 {
-  *(Unity_Properties_IProperty_TContainer__o **)&__this[1].fields = value;
-  Il2CppCodeGenWriteBarrier((void **)(__this + 1),value);
+  (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_NetworkView
 // il2cpp: CustomLogic_CustomLogicNetworkViewBuiltin_o* CustomLogic_CustomLogicPhotonSync__get_NetworkView (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x18058a570
+// 0x5b6f010
 
-CustomLogic_CustomLogicNetworkViewBuiltin_o*
-CustomLogic_CustomLogicPhotonSync__get_NetworkView(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicNetworkViewBuiltin_o *
+CustomLogic_CustomLogicPhotonSync__get_NetworkView
+          (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  return (Unity_Properties_IProperty_TContainer__o *)(*(uint64_t *)((char *)__this + 0x78));
+  return (__this->fields)._NetworkView_k__BackingField;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$set_NetworkView
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__set_NetworkView (CustomLogic_CustomLogicPhotonSync_o* __this, CustomLogic_CustomLogicNetworkViewBuiltin_o* value, const MethodInfo* method);
-// 0x180a37140
+// 0x5b6f020
 
-void
-CustomLogic_CustomLogicPhotonSync__set_NetworkView(CustomLogic_CustomLogicPhotonSync_o* __this, CustomLogic_CustomLogicNetworkViewBuiltin_o* value, MethodInfo* method)
+void CustomLogic_CustomLogicPhotonSync__set_NetworkView
+               (CustomLogic_CustomLogicPhotonSync_o *__this,CustomLogic_CustomLogicNetworkViewBuiltin_o *value
+               ,MethodInfo *method)
 
 {
-  (*(uint64_t *)((char *)__this + 0x78)) = (System_Collections_Generic_IEnumerator_IProperty_TContainer___o *)value;
-  Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x78)),value);
+  (__this->fields)._NetworkView_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$get_SmoothingDelay
 // il2cpp: float CustomLogic_CustomLogicPhotonSync__get_SmoothingDelay (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1818b56e0
+// 0x5b6f030
 
-float
-CustomLogic_CustomLogicPhotonSync__get_SmoothingDelay(CustomLogic_CustomLogicPhotonSync_o* __this, MethodInfo* method)
+float CustomLogic_CustomLogicPhotonSync__get_SmoothingDelay
+                (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
   return 5.0;
@@ -578,24 +602,24 @@ CustomLogic_CustomLogicPhotonSync__get_SmoothingDelay(CustomLogic_CustomLogicPho
 
 // CustomLogic.CustomLogicPhotonSync$$Awake
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Awake (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a7650
+// 0x5b6f040
 
 void CustomLogic_CustomLogicPhotonSync__Awake(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  Photon_Pun_PhotonView_o *value;
+  Photon_Pun_PhotonView_o *pPVar1;
   
-  value = Photon_Pun_MonoBehaviourPun__get_photonView
-                    ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-  (__this->fields).PhotonView = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).PhotonView,value);
+  pPVar1 = Photon_Pun_MonoBehaviourPun__get_photonView
+                     ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).PhotonView = pPVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).PhotonView);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnEnable
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnEnable (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a8880
+// 0x5b6f060
 
 void CustomLogic_CustomLogicPhotonSync__OnEnable
                (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
@@ -603,27 +627,29 @@ void CustomLogic_CustomLogicPhotonSync__OnEnable
 {
   Photon_Pun_PhotonView_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843468bd == '\0') {
+  if (Il2CppMethodInitialized_07547333 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_1843468bd = '\x01';
+    Il2CppMethodInitialized_07547333 = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
-  if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
-    Photon_Pun_PhotonView__AddCallbackTarget
-              (__this_00,(Photon_Pun_IPhotonViewCallback_o *)__this,(MethodInfo *)0x0);
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
+  if (__this_00 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  Photon_Pun_PhotonView__AddCallbackTarget
+            (__this_00,(Photon_Pun_IPhotonViewCallback_o *)__this,(MethodInfo *)0x0);
+  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
     Photon_Pun_PhotonNetwork__AddCallbackTarget((Il2CppObject *)__this,(MethodInfo *)0x0);
     return;
   }
-  ThrowNullReferenceException();
+  Photon_Pun_PhotonNetwork__AddCallbackTarget((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnDisable
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnDisable (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a8810
+// 0x5b6f0d0
 
 void CustomLogic_CustomLogicPhotonSync__OnDisable
                (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
@@ -631,178 +657,181 @@ void CustomLogic_CustomLogicPhotonSync__OnDisable
 {
   Photon_Pun_PhotonView_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843468be == '\0') {
+  if (Il2CppMethodInitialized_07547334 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_1843468be = '\x01';
+    Il2CppMethodInitialized_07547334 = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
-  if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
-    Photon_Pun_PhotonView__RemoveCallbackTarget
-              (__this_00,(Photon_Pun_IPhotonViewCallback_o *)__this,(MethodInfo *)0x0);
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
+  if (__this_00 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  Photon_Pun_PhotonView__RemoveCallbackTarget
+            (__this_00,(Photon_Pun_IPhotonViewCallback_o *)__this,(MethodInfo *)0x0);
+  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
     Photon_Pun_PhotonNetwork__RemoveCallbackTarget((Il2CppObject *)__this,(MethodInfo *)0x0);
     return;
   }
-  ThrowNullReferenceException();
+  Photon_Pun_PhotonNetwork__RemoveCallbackTarget((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnPhotonInstantiate
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnPhotonInstantiate (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a88f0
+// 0x5b6f140
 
 void CustomLogic_CustomLogicPhotonSync__OnPhotonInstantiate
-               (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Pun_PhotonMessageInfo_o *info,
+               (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Pun_PhotonMessageInfo_o info,
                MethodInfo *method)
 
 {
   int iVar1;
-  Photon_Pun_PhotonView_o *pPVar2;
-  System_Object_array *pSVar3;
-  Il2CppObject *pIVar4;
-  int *piVar5;
-  int32_t *piVar6;
-  undefined1 *puVar7;
+  System_Object_array *pSVar2;
+  Il2CppObject *pIVar3;
+  int *piVar4;
+  int32_t *piVar5;
+  undefined1 *puVar6;
   
-  if (Il2CppMethodInitialized_1843468bf == '\0') {
+  if (Il2CppMethodInitialized_07547335 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_SpawnIntent);
-    Il2CppMethodInitialized_1843468bf = '\x01';
+    Il2CppMethodInitialized_07547335 = '\x01';
   }
-  pPVar2 = (info->fields).photonView;
-  if ((pPVar2 != (Photon_Pun_PhotonView_o *)0x0) &&
-     (pSVar3 = (pPVar2->fields).instantiationDataField, pSVar3 != (System_Object_array *)0x0)) {
-    if ((int)pSVar3->max_length == 0) {
-label_1820a8a01:
+  if ((info.fields.photonView != (Photon_Pun_PhotonView_o *)0x0) &&
+     (pSVar2 = ((info.fields.photonView)->fields).instantiationDataField, pSVar2 != (System_Object_array *)0x0
+     )) {
+    if ((int)pSVar2->max_length == 0) {
+label_05b6f234:
       ThrowIndexOutOfRangeException();
     }
-    pIVar4 = pSVar3->m_Items[0];
-    if (pIVar4 != (Il2CppObject *)0x0) {
-      if ((pIVar4->klass->_1).element_class != (TypeInfo_CustomLogic_SpawnIntent->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar4,TypeInfo_CustomLogic_SpawnIntent);
-      }
-      piVar5 = il2cpp_object_unbox(pIVar4);
-      iVar1 = *piVar5;
-      (__this->fields)._spawnIntent = iVar1;
-      if (iVar1 != 1) {
-        return;
-      }
-      if ((uint)pSVar3->max_length < 2) goto label_1820a8a01;
-      pIVar4 = pSVar3->m_Items[1];
-      if (pIVar4 != (Il2CppObject *)0x0) {
-        if ((pIVar4->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354e08);
+    pIVar3 = pSVar2->m_Items[0];
+    if (pIVar3 != (Il2CppObject *)0x0) {
+      if ((pIVar3->klass->_1).element_class == (TypeInfo_CustomLogic_SpawnIntent->_1).element_class) {
+        piVar4 = il2cpp_vm_Object_Unbox(pIVar3);
+        iVar1 = *piVar4;
+        (__this->fields)._spawnIntent = iVar1;
+        if (iVar1 != 1) {
+          return;
         }
-        piVar6 = il2cpp_object_unbox(pIVar4);
-        (__this->fields).ObjectId = *piVar6;
-        if ((uint)pSVar3->max_length < 3) goto label_1820a8a01;
-        pIVar4 = pSVar3->m_Items[2];
-        if (pIVar4 != (Il2CppObject *)0x0) {
-          if ((pIVar4->klass->_1).element_class == *(Il2CppClass **)(g_data_184354de8 + 0x40)) {
-            puVar7 = il2cpp_object_unbox(pIVar4);
-            (__this->fields)._syncVelocity = (bool)*puVar7;
+        if ((pSVar2->max_length & 0xfffffffe) == 0) goto label_05b6f234;
+        pIVar3 = pSVar2->m_Items[1];
+        if (pIVar3 == (Il2CppObject *)0x0) goto label_05b6f22f;
+        if ((pIVar3->klass->_1).element_class == *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+          piVar5 = il2cpp_vm_Object_Unbox(pIVar3);
+          (__this->fields).ObjectId = *piVar5;
+          if ((uint)pSVar2->max_length < 3) goto label_05b6f234;
+          pIVar3 = pSVar2->m_Items[2];
+          if (pIVar3 == (Il2CppObject *)0x0) goto label_05b6f22f;
+          if ((pIVar3->klass->_1).element_class == *(Il2CppClass **)(g_data_075566f0 + 0x40)) {
+            puVar6 = il2cpp_vm_Object_Unbox(pIVar3);
+            (__this->fields)._syncVelocity = (bool)*puVar6;
             return;
           }
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar4,g_data_184354de8);
         }
       }
+      il2cpp_codegen_raise_invalid_cast_exception();
     }
   }
+label_05b6f22f:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Init
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Init (CustomLogic_CustomLogicPhotonSync_o* __this, int32_t mapObjectId, bool rigidbody, const MethodInfo* method);
-// 0x1820a85b0
+// 0x5b6f240
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b6f280: jmp 0x5b6f402
 
 void CustomLogic_CustomLogicPhotonSync__Init
                (CustomLogic_CustomLogicPhotonSync_o *__this,int32_t mapObjectId,bool rigidbody,
                MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
   Photon_Pun_PhotonView_o *__this_01;
-  Map_MapObject_o *value;
+  Map_MapObject_o *pMVar1;
   System_Object_array *parameters;
-  Il2CppObject *pIVar1;
   Il2CppObject *pIVar2;
-  undefined1 local_res10 [8];
-  int32_t local_18 [4];
+  Il2CppObject *pIVar3;
+  undefined1 local_2d;
+  int32_t local_2c;
   
-  if (Il2CppMethodInitialized_1843468c0 == '\0') {
+  if (Il2CppMethodInitialized_07547336 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&"InitRPC");
-    Il2CppMethodInitialized_1843468c0 = '\x01';
+    Il2CppMethodInitialized_07547336 = '\x01';
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) goto label_05b6f2cf;
+label_05b6f271:
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor != 0) goto label_05b6f271;
+label_05b6f2cf:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  __this_00 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-              TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (__this_00 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-    value = (Map_MapObject_o *)
-            System_Collections_Generic_Dictionary_int__ulong___get_Item
-                      (__this_00,mapObjectId,
-                       (MethodInfo_14156F0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-    (__this->fields)._MapObject_k__BackingField = value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField,value);
+  if (__this_00 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    pMVar1 = System_Collections_Generic_Dictionary_int__object___get_Item
+                       (__this_00,mapObjectId,
+                        (MethodInfo_4A0F690 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+    (__this->fields)._MapObject_k__BackingField = pMVar1;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField);
     __this_01 = (__this->fields).PhotonView;
     parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-    local_18[0] = mapObjectId;
-    pIVar1 = il2cpp_value_box(g_data_184354e08,local_18);
+    local_2c = mapObjectId;
+    pIVar2 = il2cpp_vm_Object_Box(g_data_07556710,&local_2c);
     if (parameters != (System_Object_array *)0x0) {
-      if (pIVar1 != (Il2CppObject *)0x0) {
-        pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameters->obj).klass)->_1).element_class);
-        if (pIVar2 == (Il2CppObject *)0x0) {
-          pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
-          il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
-        }
+      if ((pIVar2 != (Il2CppObject *)0x0) &&
+         (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameters->obj).klass)->_1).element_class),
+         pIVar3 == (Il2CppObject *)0x0)) {
+label_05b6f40c:
+        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
       }
       if ((int)parameters->max_length != 0) {
-        parameters->m_Items[0] = pIVar1;
-        Il2CppCodeGenWriteBarrier(parameters->m_Items,pIVar1);
-        local_res10[0] = rigidbody;
-        pIVar1 = il2cpp_value_box(g_data_184354de8,local_res10);
-        if (pIVar1 != (Il2CppObject *)0x0) {
-          pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameters->obj).klass)->_1).element_class);
-          if (pIVar2 == (Il2CppObject *)0x0) {
-            pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
-          }
-        }
-        if (1 < (uint)parameters->max_length) {
-          parameters->m_Items[1] = pIVar1;
-          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,pIVar1);
+        parameters->m_Items[0] = pIVar2;
+        Il2CppCodeGenWriteBarrier(parameters->m_Items);
+        local_2d = rigidbody;
+        pIVar2 = il2cpp_vm_Object_Box(g_data_075566f0,&local_2d);
+        if ((pIVar2 != (Il2CppObject *)0x0) &&
+           (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameters->obj).klass)->_1).element_class),
+           pIVar3 == (Il2CppObject *)0x0)) goto label_05b6f40c;
+        if ((parameters->max_length & 0xfffffffe) != 0) {
+          parameters->m_Items[1] = pIVar2;
+          Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
           if (__this_01 != (Photon_Pun_PhotonView_o *)0x0) {
             Photon_Pun_PhotonView__RPC(__this_01,"InitRPC",3,parameters,(MethodInfo *)0x0);
             return;
           }
-          goto label_1820a8750;
+          goto label_05b6f402;
         }
       }
       ThrowIndexOutOfRangeException();
     }
   }
-label_1820a8750:
+label_05b6f402:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Init
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Init (CustomLogic_CustomLogicPhotonSync_o* __this, int32_t mapObjectId, const MethodInfo* method);
-// 0x1820a8380
+// 0x5b6f420
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b6f462: jmp 0x5b6f64f
 
-void CustomLogic_CustomLogicPhotonSync__Init_20a8380
+void CustomLogic_CustomLogicPhotonSync__Init_5a6f420
                (CustomLogic_CustomLogicPhotonSync_o *__this,int32_t mapObjectId,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
   UnityEngine_GameObject_o *__this_01;
   Photon_Pun_PhotonView_o *__this_02;
   bool bVar1;
@@ -811,10 +840,10 @@ void CustomLogic_CustomLogicPhotonSync__Init_20a8380
   System_Object_array *parameters;
   Il2CppObject *pIVar3;
   Il2CppObject *pIVar4;
-  undefined1 local_res10 [16];
-  int32_t local_res20 [2];
+  undefined1 uStack_2d;
+  int32_t iStack_2c;
   
-  if (Il2CppMethodInitialized_1843468c1 == '\0') {
+  if (Il2CppMethodInitialized_07547337 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
@@ -822,77 +851,79 @@ void CustomLogic_CustomLogicPhotonSync__Init_20a8380
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&"InitRPC");
-    Il2CppMethodInitialized_1843468c1 = '\x01';
+    Il2CppMethodInitialized_07547337 = '\x01';
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) goto label_05b6f4ca;
+label_05b6f44f:
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor != 0) goto label_05b6f44f;
+label_05b6f4ca:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  __this_00 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-              TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (__this_00 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-    pMVar2 = (Map_MapObject_o *)
-             System_Collections_Generic_Dictionary_int__ulong___get_Item
+  if (__this_00 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    pMVar2 = System_Collections_Generic_Dictionary_int__object___get_Item
                        (__this_00,mapObjectId,
-                        (MethodInfo_14156F0 *)
+                        (MethodInfo_4A0F690 *)
                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     (__this->fields)._MapObject_k__BackingField = pMVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField,pMVar2);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField);
     pMVar2 = (__this->fields)._MapObject_k__BackingField;
     if ((pMVar2 != (Map_MapObject_o *)0x0) &&
        (__this_01 = (pMVar2->fields).GameObject, __this_01 != (UnityEngine_GameObject_o *)0x0)) {
       x = (UnityEngine_Object_o *)
           UnityEngine_GameObject__GetComponent_object_
-                    (__this_01,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
+                    (__this_01,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody)
+      ;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
       bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
       __this_02 = (__this->fields).PhotonView;
       parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-      local_res20[0] = mapObjectId;
-      pIVar3 = il2cpp_value_box(g_data_184354e08,local_res20);
+      iStack_2c = mapObjectId;
+      pIVar3 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_2c);
       if (parameters != (System_Object_array *)0x0) {
-        if (pIVar3 != (Il2CppObject *)0x0) {
-          pIVar4 = il2cpp_vm_Object_IsInst(pIVar3,(((parameters->obj).klass)->_1).element_class);
-          if (pIVar4 == (Il2CppObject *)0x0) {
-            pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-          }
+        if ((pIVar3 != (Il2CppObject *)0x0) &&
+           (pIVar4 = il2cpp_vm_Object_IsInst(pIVar3,(((parameters->obj).klass)->_1).element_class),
+           pIVar4 == (Il2CppObject *)0x0)) {
+label_05b6f659:
+          pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
         }
         if ((int)parameters->max_length != 0) {
           parameters->m_Items[0] = pIVar3;
-          Il2CppCodeGenWriteBarrier(parameters->m_Items,pIVar3);
-          local_res10[0] = bVar1;
-          pIVar3 = il2cpp_value_box(g_data_184354de8,local_res10);
-          if (pIVar3 != (Il2CppObject *)0x0) {
-            pIVar4 = il2cpp_vm_Object_IsInst(pIVar3,(((parameters->obj).klass)->_1).element_class);
-            if (pIVar4 == (Il2CppObject *)0x0) {
-              pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-              il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-            }
-          }
-          if (1 < (uint)parameters->max_length) {
+          Il2CppCodeGenWriteBarrier(parameters->m_Items);
+          uStack_2d = bVar1;
+          pIVar3 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_2d);
+          if ((pIVar3 != (Il2CppObject *)0x0) &&
+             (pIVar4 = il2cpp_vm_Object_IsInst(pIVar3,(((parameters->obj).klass)->_1).element_class),
+             pIVar4 == (Il2CppObject *)0x0)) goto label_05b6f659;
+          if ((parameters->max_length & 0xfffffffe) != 0) {
             parameters->m_Items[1] = pIVar3;
-            Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,pIVar3);
+            Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
             if (__this_02 != (Photon_Pun_PhotonView_o *)0x0) {
               Photon_Pun_PhotonView__RPC(__this_02,"InitRPC",3,parameters,(MethodInfo *)0x0);
               return;
             }
-            goto label_1820a857b;
+            goto label_05b6f64f;
           }
         }
         ThrowIndexOutOfRangeException();
       }
     }
   }
-label_1820a857b:
+label_05b6f64f:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$InitDynamic
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__InitDynamic (CustomLogic_CustomLogicPhotonSync_o* __this, bool persistsOwnership, System_String_o* csvScript, const MethodInfo* method);
-// 0x1820a8180
+// 0x5b6f670
 
 void CustomLogic_CustomLogicPhotonSync__InitDynamic
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool persistsOwnership,System_String_o *csvScript,
@@ -900,52 +931,52 @@ void CustomLogic_CustomLogicPhotonSync__InitDynamic
 
 {
   Photon_Pun_PhotonView_o *__this_00;
+  undefined8 in_RAX;
   System_Object_array *parameters;
   Il2CppObject *pIVar1;
   Il2CppObject *pIVar2;
-  undefined1 local_res10 [24];
+  undefined8 uStack_38;
   
-  if (Il2CppMethodInitialized_1843468c2 == '\0') {
+  uStack_38 = in_RAX;
+  if (Il2CppMethodInitialized_07547338 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&"InitDynamicRPC");
-    Il2CppMethodInitialized_1843468c2 = '\x01';
+    Il2CppMethodInitialized_07547338 = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
   parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-  local_res10[0] = persistsOwnership;
-  pIVar1 = il2cpp_value_box(g_data_184354de8,local_res10);
+  uStack_38 = CONCAT17(persistsOwnership,(undefined7)uStack_38);
+  pIVar1 = il2cpp_vm_Object_Box(g_data_075566f0,(void *)((long)&uStack_38 + 7));
   if (parameters == (System_Object_array *)0x0) {
-label_1820a82a4:
+label_05b6f7a0:
     ThrowNullReferenceException();
   }
   if (pIVar1 != (Il2CppObject *)0x0) {
     pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameters->obj).klass)->_1).element_class);
-    if (pIVar2 == (Il2CppObject *)0x0) {
-      pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
-    }
+    if (pIVar2 == (Il2CppObject *)0x0) goto label_05b6f7a5;
   }
   if ((int)parameters->max_length != 0) {
     parameters->m_Items[0] = pIVar1;
-    Il2CppCodeGenWriteBarrier(parameters->m_Items,pIVar1);
+    Il2CppCodeGenWriteBarrier(parameters->m_Items);
     if (csvScript != (System_String_o *)0x0) {
       pIVar1 = il2cpp_vm_Object_IsInst
                          ((Il2CppObject *)csvScript,(((parameters->obj).klass)->_1).element_class);
       if (pIVar1 == (Il2CppObject *)0x0) {
+label_05b6f7a5:
         pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
         il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
       }
     }
-    if (1 < (uint)parameters->max_length) {
+    if ((parameters->max_length & 0xfffffffe) != 0) {
       parameters->m_Items[1] = (Il2CppObject *)csvScript;
-      Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,csvScript);
+      Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
       if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
         Photon_Pun_PhotonView__RPC(__this_00,"InitDynamicRPC",4,parameters,(MethodInfo *)0x0);
         CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject
-                  (__this,persistsOwnership,csvScript,(MethodInfo *)0x0);
+                  (__this,persistsOwnership,csvScript,(MethodInfo *)parameters);
         return;
       }
-      goto label_1820a82a4;
+      goto label_05b6f7a0;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -954,121 +985,161 @@ label_1820a82a4:
 
 // CustomLogic.CustomLogicPhotonSync$$InitRPC
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__InitRPC (CustomLogic_CustomLogicPhotonSync_o* __this, int32_t mapObjectId, bool syncVelocity, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a82d0
+// 0x5b6fcf0
 
 void CustomLogic_CustomLogicPhotonSync__InitRPC
                (CustomLogic_CustomLogicPhotonSync_o *__this,int32_t mapObjectId,bool syncVelocity,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
   Photon_Pun_PhotonView_o *pPVar1;
-  CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *routine;
-  bool bVar2;
+  CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this_00;
   
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((info->fields).Sender == (pPVar1->fields)._Owner_k__BackingField) {
-      bVar2 = Il2CppMethodInitialized_1843468c5 == '\0';
-      (__this->fields)._syncVelocity = syncVelocity;
-      if (bVar2) {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
-        Il2CppMethodInitialized_1843468c5 = '\x01';
-      }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      (routine->fields).mapObjectId = mapObjectId;
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                 (MethodInfo *)0x0);
-    }
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (info.fields.Sender != (pPVar1->fields)._Owner_k__BackingField) {
     return;
   }
-  ThrowNullReferenceException();
+  (__this->fields)._syncVelocity = syncVelocity;
+  if (Il2CppMethodInitialized_0754733b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
+    Il2CppMethodInitialized_0754733b = '\x01';
+  }
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  (__this_00->fields).mapObjectId = mapObjectId;
+  UnityEngine_MonoBehaviour__StartCoroutine_691c390
+            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
+             (MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$InitDynamicRPC
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__InitDynamicRPC (CustomLogic_CustomLogicPhotonSync_o* __this, bool persistsOwnership, System_String_o* csvScript, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a80c0
+// 0x5b6fe00
 
 void CustomLogic_CustomLogicPhotonSync__InitDynamicRPC
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool persistsOwnership,System_String_o *csvScript,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
   Photon_Pun_PhotonView_o *pPVar1;
-  CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *routine;
+  long lVar2;
+  bool bVar3;
+  MethodInfo *pMVar4;
+  Il2CppClass *pIVar5;
+  System_ArgumentException_o *__this_00;
+  System_String_o *pSVar6;
   
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((info->fields).Sender == (pPVar1->fields)._Owner_k__BackingField) {
-      if (Il2CppMethodInitialized_1843468c4 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45);
-        Il2CppMethodInitialized_1843468c4 = '\x01';
-      }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)
-                           TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      (routine->fields).persistsOwnership = persistsOwnership;
-      (routine->fields).csvScript = csvScript;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).csvScript,csvScript);
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                 (MethodInfo *)0x0);
-    }
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (info.fields.Sender != (pPVar1->fields)._Owner_k__BackingField) {
     return;
   }
-  ThrowNullReferenceException();
+  if (Il2CppMethodInitialized_0754733a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45);
+    Il2CppMethodInitialized_0754733a = '\x01';
+  }
+  pMVar4 = (MethodInfo *)
+           il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45
+                     );
+  System_Object___ctor((Il2CppObject *)pMVar4,(MethodInfo *)0x0);
+  *(undefined4 *)&pMVar4->invoker_method = 0;
+  pMVar4->klass = (Il2CppClass *)__this;
+  Il2CppCodeGenWriteBarrier(&pMVar4->klass);
+  *(bool *)&pMVar4->return_type = persistsOwnership;
+  pMVar4->parameters = (Il2CppType **)csvScript;
+  Il2CppCodeGenWriteBarrier(&pMVar4->parameters);
+  if (pMVar4 == (MethodInfo *)0x0) {
+    pIVar5 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NullReferenceException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(pIVar5);
+    pSVar6 = il2cpp_codegen_get_runtime_metadata(&"routine is null");
+    System_NullReferenceException___ctor_54bcbd0
+              ((System_NullReferenceException_o *)__this_00,pSVar6,(MethodInfo *)0x0);
+  }
+  else {
+    bVar3 = UnityEngine_MonoBehaviour__IsObjectMonoBehaviour((UnityEngine_Object_o *)__this,pMVar4);
+    if (bVar3) {
+      if (Il2CppMethodInitialized_0754feaf == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_UnityEngine_Object_MarshalledUnityObject_MarshalNotNull_MonoBehaviour);
+        Il2CppMethodInitialized_0754feaf = '\x01';
+      }
+      if (__this == (CustomLogic_CustomLogicPhotonSync_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      lVar2 = (__this->fields).m_CachedPtr;
+      if (lVar2 == 0) {
+        UnityEngine_Bindings_ThrowHelper__ThrowNullReferenceException
+                  ((Il2CppObject *)__this,(MethodInfo *)0x0);
+      }
+      if (g_data_0754ff20 == (code *)0x0) {
+        g_data_0754ff20 = il2cpp_codegen_resolve_icall
+                                 (
+                                 "UnityEngine.MonoBehaviour::StartCoroutineManaged2_Injected(System.IntPtr,System.Collections.IEnumerator)"
+                                 );
+      }
+      (*g_data_0754ff20)(lVar2,pMVar4);
+      return;
+    }
+    pIVar5 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(pIVar5);
+    pSVar6 = il2cpp_codegen_get_runtime_metadata(&"Coroutines can only be stopped on a MonoBehaviour");
+    System_ArgumentException___ctor_54186d0(__this_00,pSVar6,(MethodInfo *)0x0);
+  }
+  pMVar4 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_UnityEngine_MonoBehaviour_StartCoroutine);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,pMVar4);
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$CreateAndSetupObject
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject (CustomLogic_CustomLogicPhotonSync_o* __this, bool persistsOwnership, System_String_o* csvScript, const MethodInfo* method);
-// 0x1820a7680
+// 0x5b6f7c0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b6fa81: jmp 0x5b6fce2
+// asm:   0x5b6fb87: jmp 0x5b6fce2
 
 void CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool persistsOwnership,System_String_o *csvScript,
                MethodInfo *method)
 
 {
+  Map_MapObject_o **targetAddress;
   int iVar1;
   int iVar2;
-  float fVar3;
-  CustomLogic_CustomLogicEvaluator_o *pCVar4;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar5;
-  System_Collections_Generic_Dictionary_int__object__o *pSVar6;
-  UnityEngine_GameObject_o *pUVar7;
-  float fVar8;
-  float fVar9;
-  float fVar10;
-  bool bVar11;
-  Photon_Pun_PhotonView_o *pPVar12;
+  CustomLogic_CustomLogicEvaluator_o *pCVar3;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar4;
+  UnityEngine_GameObject_o *pUVar5;
+  bool bVar6;
+  undefined8 in_RAX;
+  Photon_Pun_PhotonView_o *pPVar7;
   System_String_array *value;
-  System_String_o *pSVar13;
+  System_String_o *pSVar8;
   Map_MapScriptSceneObject_o *__this_00;
-  Map_MapObject_o *pMVar14;
-  CustomLogic_CustomLogicNetworkViewBuiltin_o *pCVar15;
+  Map_MapObject_o *pMVar9;
+  CustomLogic_CustomLogicNetworkViewBuiltin_o *pCVar10;
   CustomLogic_CustomLogicMapObjectBuiltin_o *__this_01;
-  Il2CppObject *pIVar16;
-  UnityEngine_Transform_o *pUVar17;
-  UnityEngine_Vector3_o *pUVar18;
-  UnityEngine_Quaternion_o *pUVar19;
-  int32_t local_res18 [2];
-  UnityEngine_Quaternion_o local_18;
+  Il2CppObject *pIVar11;
+  UnityEngine_Transform_o *pUVar12;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_Fields UVar13;
+  UnityEngine_Vector3_Fields UVar14;
+  undefined8 local_38;
   
-  if (Il2CppMethodInitialized_1843468c3 == '\0') {
+  local_38 = in_RAX;
+  if (Il2CppMethodInitialized_07547339 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicMapObjectBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicNetworkViewBuiltin);
@@ -1087,10 +1158,10 @@ void CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject
     il2cpp_codegen_initialize_runtime_metadata(&"PhotonSync: MapObject for id {0} already exists, overwriting.");
     il2cpp_codegen_initialize_runtime_metadata(&"PhotonSync: NetworkView for id {0} already exists, overwriting.");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468c3 = '\x01';
+    Il2CppMethodInitialized_07547339 = '\x01';
   }
-  bVar11 = System_String__IsNullOrEmpty(csvScript,(MethodInfo *)0x0);
-  if (bVar11) {
+  bVar6 = System_String__IsNullOrEmpty(csvScript,(MethodInfo *)0x0);
+  if (bVar6) {
     return;
   }
   (__this->fields)._persistsOwnership = persistsOwnership;
@@ -1099,159 +1170,146 @@ void CustomLogic_CustomLogicPhotonSync__CreateAndSetupObject
   }
   iVar1 = TypeInfo_Map_MapLoader->static_fields->ROOT_OBJECT_ID;
   iVar2 = TypeInfo_Map_MapLoader->static_fields->NETWORK_OFFSET;
-  pPVar12 = Photon_Pun_MonoBehaviourPun__get_photonView
-                      ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-  if ((pPVar12 != (Photon_Pun_PhotonView_o *)0x0) &&
-     ((__this->fields).ObjectId = (iVar1 - (pPVar12->fields).viewIdField) - iVar2,
-     csvScript != (System_String_o *)0x0)) {
-    value = System_String__Split(csvScript,10,0,(MethodInfo *)0x0);
-    pSVar13 = System_String__Join("",value,(MethodInfo *)0x0);
-    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
-    Map_MapScriptSceneObject___ctor(__this_00,(MethodInfo *)0x0);
-    if (__this_00 != (Map_MapScriptSceneObject_o *)0x0) {
-      (*(__this_00->klass->vtable)._9_Deserialize.methodPtr)
-                (__this_00,pSVar13,(__this_00->klass->vtable)._9_Deserialize.method);
-      (__this_00->fields).Id = (__this->fields).ObjectId;
-      (__this_00->fields).Parent = TypeInfo_Map_MapLoader->static_fields->ROOT_OBJECT_ID;
-      (__this_00->fields).Networked = true;
-      pMVar14 = Map_MapLoader__LoadObject((Map_MapScriptBaseObject_o *)__this_00,false,(MethodInfo *)0x0);
-      if (pMVar14 != (Map_MapObject_o *)0x0) {
-        (pMVar14->fields).RuntimeCreated = true;
-        Map_MapLoader__SetParent_1eb01f0(pMVar14,(MethodInfo *)0x0);
-        pCVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicNetworkViewBuiltin)
-        ;
-        CustomLogic_CustomLogicNetworkViewBuiltin___ctor(pCVar15,pMVar14,(MethodInfo *)0x0);
-        (__this->fields)._NetworkView_k__BackingField = pCVar15;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField,pCVar15);
-        __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMapObjectBuiltin)
-        ;
-        CustomLogic_CustomLogicMapObjectBuiltin___ctor(__this_01,pMVar14,(MethodInfo *)0x0);
-        (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField = __this_01;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField,__this_01);
-        (__this->fields)._MapObject_k__BackingField = pMVar14;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField,pMVar14);
-        if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-        }
-        pCVar4 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-        if ((pCVar4 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-           (pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                     (pCVar4->fields).IdToMapObjectBuiltin,
-           pSVar5 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0)) {
-          bVar11 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                             (pSVar5,(__this->fields).ObjectId,
-                              (MethodInfo_1407110 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicMapObjectBuiltin_ContainsKey
-                             );
-          if (bVar11) {
-            local_res18[0] = (__this->fields).ObjectId;
-            pIVar16 = il2cpp_value_box(g_data_184354e08,local_res18);
-            pSVar13 = System_String__Format("PhotonSync: MapObject for id {0} already exists, overwriting.",pIVar16,(MethodInfo *)0x0);
-            if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
-            }
-            UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar13,(MethodInfo *)0x0);
-          }
-          if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-          }
-          pCVar4 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-          if ((pCVar4 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-             (pSVar6 = (System_Collections_Generic_Dictionary_int__object__o *)
-                       (pCVar4->fields).IdToMapObjectBuiltin,
-             pSVar6 != (System_Collections_Generic_Dictionary_int__object__o *)0x0)) {
-            System_Collections_Generic_Dictionary_int__object___set_Item
-                      (pSVar6,(__this->fields).ObjectId,
-                       (Il2CppObject *)(__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField,
-                       (MethodInfo_1423510 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicMapObjectBuiltin_set_Item
-                      );
-            pCVar4 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-            if ((pCVar4 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-               (pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                         (pCVar4->fields).IdToNetworkView,
-               pSVar5 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0)) {
-              bVar11 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                                 (pSVar5,(__this->fields).ObjectId,
-                                  (MethodInfo_1407110 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_ContainsKey
-                                 );
-              if (bVar11) {
-                local_res18[0] = (__this->fields).ObjectId;
-                pIVar16 = il2cpp_value_box(g_data_184354e08,local_res18);
-                pSVar13 = System_String__Format("PhotonSync: NetworkView for id {0} already exists, overwriting.",pIVar16,(MethodInfo *)0x0);
-                if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
-                }
-                UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar13,(MethodInfo *)0x0);
-              }
-              if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-              }
-              pCVar4 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-              if ((pCVar4 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-                 (pSVar6 = (System_Collections_Generic_Dictionary_int__object__o *)
-                           (pCVar4->fields).IdToNetworkView,
-                 pSVar6 != (System_Collections_Generic_Dictionary_int__object__o *)0x0)) {
-                System_Collections_Generic_Dictionary_int__object___set_Item
-                          (pSVar6,(__this->fields).ObjectId,
-                           (Il2CppObject *)(__this->fields)._NetworkView_k__BackingField,
-                           (MethodInfo_1423510 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_set_Item
-                          );
-                pCVar15 = (__this->fields)._NetworkView_k__BackingField;
-                if (pCVar15 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-                  CustomLogic_CustomLogicNetworkViewBuiltin__SetSyncDynamic(pCVar15,__this,(MethodInfo *)0x0);
-                  pCVar4 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-                  if (pCVar4 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-                    CustomLogic_CustomLogicEvaluator__LoadRuntimeMapObjectComponents
-                              (pCVar4,pMVar14,true,(MethodInfo *)0x0);
-                    pMVar14 = (__this->fields)._MapObject_k__BackingField;
-                    if (((pMVar14 != (Map_MapObject_o *)0x0) &&
-                        (pUVar7 = (pMVar14->fields).GameObject, pUVar7 != (UnityEngine_GameObject_o *)0x0)) &&
-                       (pUVar17 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0),
-                       pUVar17 != (UnityEngine_Transform_o *)0x0)) {
-                      pUVar18 = UnityEngine_Transform__get_position
-                                          ((UnityEngine_Vector3_o *)&local_18,pUVar17,(MethodInfo *)0x0);
-                      fVar3 = (pUVar18->fields).z;
-                      fVar8 = (pUVar18->fields).y;
-                      (__this->fields)._correctPosition.fields.x = (pUVar18->fields).x;
-                      (__this->fields)._correctPosition.fields.y = fVar8;
-                      (__this->fields)._correctPosition.fields.z = fVar3;
-                      pMVar14 = (__this->fields)._MapObject_k__BackingField;
-                      if (((pMVar14 != (Map_MapObject_o *)0x0) &&
-                          (pUVar7 = (pMVar14->fields).GameObject, pUVar7 != (UnityEngine_GameObject_o *)0x0))
-                         && (pUVar17 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0),
-                            pUVar17 != (UnityEngine_Transform_o *)0x0)) {
-                        pUVar19 = UnityEngine_Transform__get_rotation(&local_18,pUVar17,(MethodInfo *)0x0);
-                        fVar3 = (pUVar19->fields).x;
-                        fVar8 = (pUVar19->fields).y;
-                        fVar9 = (pUVar19->fields).z;
-                        fVar10 = (pUVar19->fields).w;
-                        (__this->fields)._inited = true;
-                        (__this->fields)._correctRotation.fields.x = fVar3;
-                        (__this->fields)._correctRotation.fields.y = fVar8;
-                        (__this->fields)._correctRotation.fields.z = fVar9;
-                        (__this->fields)._correctRotation.fields.w = fVar10;
-                        return;
-                      }
-                    }
-                  }
-                }
-              }
-            }
+  pPVar7 = Photon_Pun_MonoBehaviourPun__get_photonView
+                     ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+  if ((pPVar7 == (Photon_Pun_PhotonView_o *)0x0) ||
+     ((__this->fields).ObjectId = iVar1 - (iVar2 + (pPVar7->fields).viewIdField),
+     csvScript == (System_String_o *)0x0)) goto label_05b6fce2;
+  value = System_String__Split(csvScript,10,0,(MethodInfo *)0x0);
+  pSVar8 = System_String__Join("",value,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
+  Map_MapScriptSceneObject___ctor(__this_00,(MethodInfo *)0x0);
+  if (__this_00 == (Map_MapScriptSceneObject_o *)0x0) goto label_05b6fce2;
+  (*(__this_00->klass->vtable)._9_Deserialize.methodPtr)
+            (__this_00,pSVar8,(__this_00->klass->vtable)._9_Deserialize.method);
+  (__this_00->fields).Id = (__this->fields).ObjectId;
+  (__this_00->fields).Parent = TypeInfo_Map_MapLoader->static_fields->ROOT_OBJECT_ID;
+  (__this_00->fields).Networked = true;
+  pMVar9 = Map_MapLoader__LoadObject((Map_MapScriptBaseObject_o *)__this_00,false,(MethodInfo *)0x0);
+  if (pMVar9 == (Map_MapObject_o *)0x0) goto label_05b6fce2;
+  (pMVar9->fields).RuntimeCreated = true;
+  Map_MapLoader__SetParent_58998f0(pMVar9,(MethodInfo *)0x0);
+  pCVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicNetworkViewBuiltin);
+  CustomLogic_CustomLogicNetworkViewBuiltin___ctor(pCVar10,pMVar9,(MethodInfo *)0x0);
+  (__this->fields)._NetworkView_k__BackingField = pCVar10;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMapObjectBuiltin);
+  CustomLogic_CustomLogicMapObjectBuiltin___ctor(__this_01,pMVar9,(MethodInfo *)0x0);
+  (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField = __this_01;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField);
+  targetAddress = &(__this->fields)._MapObject_k__BackingField;
+  (__this->fields)._MapObject_k__BackingField = pMVar9;
+  Il2CppCodeGenWriteBarrier(targetAddress);
+  if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+  }
+  pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+  if ((pCVar3 == (CustomLogic_CustomLogicEvaluator_o *)0x0) ||
+     (pSVar4 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar3->fields).IdToMapObjectBuiltin,
+     pSVar4 == (System_Collections_Generic_Dictionary_int__object__o *)0x0)) goto label_05b6fce2;
+  bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                    (pSVar4,(__this->fields).ObjectId,
+                     (MethodInfo_4A0F950 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicMapObjectBuiltin_ContainsKey
+                    );
+  if (bVar6) {
+    local_38 = CONCAT44((__this->fields).ObjectId,(undefined4)local_38);
+    pIVar11 = il2cpp_vm_Object_Box(g_data_07556710,(void *)((long)&local_38 + 4));
+    pSVar8 = System_String__Format("PhotonSync: MapObject for id {0} already exists, overwriting.",pIVar11,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+    }
+    UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar8,(MethodInfo *)0x0);
+    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor != 0) goto label_05b6fa6d;
+label_05b6fae9:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+  }
+  else {
+    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) goto label_05b6fae9;
+label_05b6fa6d:
+    pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+  }
+  if (pCVar3 == (CustomLogic_CustomLogicEvaluator_o *)0x0) goto label_05b6fce2;
+  pSVar4 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar3->fields).IdToMapObjectBuiltin;
+  if (pSVar4 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05b6fce2;
+  System_Collections_Generic_Dictionary_int__object___set_Item
+            (pSVar4,(__this->fields).ObjectId,
+             (Il2CppObject *)(__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField,
+             (MethodInfo_4A0F720 *)
+             MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicMapObjectBuiltin_set_Item);
+  pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+  if ((pCVar3 == (CustomLogic_CustomLogicEvaluator_o *)0x0) ||
+     (pSVar4 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar3->fields).IdToNetworkView,
+     pSVar4 == (System_Collections_Generic_Dictionary_int__object__o *)0x0)) goto label_05b6fce2;
+  bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                    (pSVar4,(__this->fields).ObjectId,
+                     (MethodInfo_4A0F950 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_ContainsKey
+                    );
+  if (bVar6) {
+    local_38 = CONCAT44(local_38._4_4_,(__this->fields).ObjectId);
+    pIVar11 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+    pSVar8 = System_String__Format("PhotonSync: NetworkView for id {0} already exists, overwriting.",pIVar11,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+    }
+    UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar8,(MethodInfo *)0x0);
+    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor != 0) goto label_05b6fb73;
+label_05b6fbec:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+    method_00 = MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_set_Item;
+  }
+  else {
+    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) goto label_05b6fbec;
+label_05b6fb73:
+    pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+    method_00 = MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_set_Item;
+  }
+  MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_set_Item = method_00;
+  if ((pCVar3 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
+     (pSVar4 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar3->fields).IdToNetworkView,
+     pSVar4 != (System_Collections_Generic_Dictionary_int__object__o *)0x0)) {
+    System_Collections_Generic_Dictionary_int__object___set_Item
+              (pSVar4,(__this->fields).ObjectId,(Il2CppObject *)(__this->fields)._NetworkView_k__BackingField,
+               (MethodInfo_4A0F720 *)method_00);
+    pCVar10 = (__this->fields)._NetworkView_k__BackingField;
+    if (pCVar10 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
+      CustomLogic_CustomLogicNetworkViewBuiltin__SetSyncDynamic(pCVar10,__this,(MethodInfo *)0x0);
+      pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
+      if (pCVar3 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+        CustomLogic_CustomLogicEvaluator__LoadRuntimeMapObjectComponents(pCVar3,pMVar9,true,method_00);
+        pMVar9 = *targetAddress;
+        if (((pMVar9 != (Map_MapObject_o *)0x0) &&
+            (pUVar5 = (pMVar9->fields).GameObject, pUVar5 != (UnityEngine_GameObject_o *)0x0)) &&
+           (pUVar12 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0),
+           pUVar12 != (UnityEngine_Transform_o *)0x0)) {
+          UVar14 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_position(pUVar12,(MethodInfo *)0x0);
+          (__this->fields)._correctPosition.fields = UVar14;
+          pMVar9 = (__this->fields)._MapObject_k__BackingField;
+          if (((pMVar9 != (Map_MapObject_o *)0x0) &&
+              (pUVar5 = (pMVar9->fields).GameObject, pUVar5 != (UnityEngine_GameObject_o *)0x0)) &&
+             (pUVar12 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0),
+             pUVar12 != (UnityEngine_Transform_o *)0x0)) {
+            UVar13 = (UnityEngine_Quaternion_Fields)
+                     UnityEngine_Transform__get_rotation(pUVar12,(MethodInfo *)0x0);
+            (__this->fields)._correctRotation.fields = UVar13;
+            (__this->fields)._inited = true;
+            return;
           }
         }
       }
     }
   }
+label_05b6fce2:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$WaitAndFinishDynamicInit
 // il2cpp: System_Collections_IEnumerator_o* CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit (CustomLogic_CustomLogicPhotonSync_o* __this, bool persistsOwnership, System_String_o* csvScript, const MethodInfo* method);
-// 0x1820a9be0
+// 0x5b6fec0
 
 System_Collections_IEnumerator_o *
 CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit
@@ -1259,31 +1317,30 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit
           MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicPhotonSync__WaitAndFinishDynamicInit_d__45_o *__this_00;
+  Il2CppObject *__this_00;
   
-  if (Il2CppMethodInitialized_1843468c4 == '\0') {
+  if (Il2CppMethodInitialized_0754733a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45);
-    Il2CppMethodInitialized_1843468c4 = '\x01';
+    Il2CppMethodInitialized_0754733a = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishDynamicInit_d__45);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-  (__this_00->fields).persistsOwnership = persistsOwnership;
-  (__this_00->fields).csvScript = csvScript;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).csvScript,csvScript);
+  System_Object___ctor(__this_00,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_00[1].klass = 0;
+  __this_00[2].klass = (Il2CppClass *)__this;
+  Il2CppCodeGenWriteBarrier(&__this_00[2].klass);
+  *(bool *)&__this_00[2].monitor = persistsOwnership;
+  __this_00[3].klass = (Il2CppClass *)csvScript;
+  Il2CppCodeGenWriteBarrier(&__this_00[3].klass);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$WaitAndFinishInit
 // il2cpp: System_Collections_IEnumerator_o* CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit (CustomLogic_CustomLogicPhotonSync_o* __this, int32_t mapObjectId, const MethodInfo* method);
-// 0x1820a9c60
+// 0x5b6fd90
 
 System_Collections_IEnumerator_o *
 CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit
@@ -1292,18 +1349,17 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit
 {
   CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit_d__46_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843468c5 == '\0') {
+  if (Il2CppMethodInitialized_0754733b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
-    Il2CppMethodInitialized_1843468c5 = '\x01';
+    Il2CppMethodInitialized_0754733b = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishInit_d__46);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   (__this_00->fields).mapObjectId = mapObjectId;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
@@ -1311,96 +1367,87 @@ CustomLogic_CustomLogicPhotonSync__WaitAndFinishInit
 
 // CustomLogic.CustomLogicPhotonSync$$FinishInit
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__FinishInit (CustomLogic_CustomLogicPhotonSync_o* __this, int32_t mapObjectId, const MethodInfo* method);
-// 0x1820a7c00
+// 0x5b70350
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b70386: jmp 0x5b704f3
 
 void CustomLogic_CustomLogicPhotonSync__FinishInit
                (CustomLogic_CustomLogicPhotonSync_o *__this,int32_t mapObjectId,MethodInfo *method)
 
 {
-  float fVar1;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar2;
+  uint32_t uVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar2;
   CustomLogic_CustomLogicEvaluator_o *pCVar3;
   UnityEngine_GameObject_o *pUVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  Map_MapObject_o *pMVar8;
-  CustomLogic_CustomLogicNetworkViewBuiltin_o *pCVar9;
-  UnityEngine_Transform_o *pUVar10;
-  UnityEngine_Vector3_o *pUVar11;
-  UnityEngine_Quaternion_o *pUVar12;
-  UnityEngine_Quaternion_o local_18;
+  Map_MapObject_o *pMVar5;
+  CustomLogic_CustomLogicNetworkViewBuiltin_o *pCVar6;
+  UnityEngine_Transform_o *pUVar7;
+  UnityEngine_Quaternion_Fields UVar8;
+  UnityEngine_Vector3_Fields UVar9;
   
-  if (Il2CppMethodInitialized_1843468c6 == '\0') {
+  if (Il2CppMethodInitialized_0754733c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_get_Item);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_1843468c6 = '\x01';
+    Il2CppMethodInitialized_0754733c = '\x01';
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
+             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-           TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (pSVar2 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-    pMVar8 = (Map_MapObject_o *)
-             System_Collections_Generic_Dictionary_int__ulong___get_Item
+  else {
+    pSVar2 = *(System_Collections_Generic_Dictionary_int__object__o **)
+              ((Il2CppClass *)TypeInfo_Map_MapLoader)->static_fields;
+  }
+  if (pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    pMVar5 = System_Collections_Generic_Dictionary_int__object___get_Item
                        (pSVar2,mapObjectId,
-                        (MethodInfo_14156F0 *)
+                        (MethodInfo_4A0F690 *)
                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-    (__this->fields)._MapObject_k__BackingField = pMVar8;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField,pMVar8);
+    (__this->fields)._MapObject_k__BackingField = pMVar5;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._MapObject_k__BackingField);
     if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
     }
     pCVar3 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
     if ((pCVar3 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-       (pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)(pCVar3->fields).IdToNetworkView,
-       pSVar2 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0)) {
-      pCVar9 = (CustomLogic_CustomLogicNetworkViewBuiltin_o *)
-               System_Collections_Generic_Dictionary_int__ulong___get_Item
+       (pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(pCVar3->fields).IdToNetworkView,
+       pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0)) {
+      pCVar6 = System_Collections_Generic_Dictionary_int__object___get_Item
                          (pSVar2,mapObjectId,
-                          (MethodInfo_14156F0 *)
+                          (MethodInfo_4A0F690 *)
                           MethodInfo_System_Collections_Generic_Dictionary_int_CustomLogicNetworkViewBuiltin_get_Item
                          );
-      (__this->fields)._NetworkView_k__BackingField = pCVar9;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField,pCVar9);
-      pCVar9 = (__this->fields)._NetworkView_k__BackingField;
-      if (pCVar9 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-        CustomLogic_CustomLogicNetworkViewBuiltin__SetSync(pCVar9,__this,(MethodInfo *)0x0);
-        pMVar8 = (__this->fields)._MapObject_k__BackingField;
-        if ((pMVar8 != (Map_MapObject_o *)0x0) &&
-           (pUVar4 = (pMVar8->fields).GameObject, pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
-          pUVar10 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-          if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
-            pUVar11 = UnityEngine_Transform__get_position
-                                ((UnityEngine_Vector3_o *)&local_18,pUVar10,(MethodInfo *)0x0);
-            fVar1 = (pUVar11->fields).z;
-            fVar5 = (pUVar11->fields).y;
-            (__this->fields)._correctPosition.fields.x = (pUVar11->fields).x;
-            (__this->fields)._correctPosition.fields.y = fVar5;
-            (__this->fields)._correctPosition.fields.z = fVar1;
-            pMVar8 = (__this->fields)._MapObject_k__BackingField;
-            if ((pMVar8 != (Map_MapObject_o *)0x0) &&
-               (pUVar4 = (pMVar8->fields).GameObject, pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
-              pUVar10 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-              if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
-                pUVar12 = UnityEngine_Transform__get_rotation(&local_18,pUVar10,(MethodInfo *)0x0);
-                fVar1 = (pUVar12->fields).x;
-                fVar5 = (pUVar12->fields).y;
-                fVar6 = (pUVar12->fields).z;
-                fVar7 = (pUVar12->fields).w;
-                (__this->fields)._inited = true;
-                (__this->fields)._correctRotation.fields.x = fVar1;
-                (__this->fields)._correctRotation.fields.y = fVar5;
-                (__this->fields)._correctRotation.fields.z = fVar6;
-                (__this->fields)._correctRotation.fields.w = fVar7;
-                return;
-              }
-            }
+      (__this->fields)._NetworkView_k__BackingField = pCVar6;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._NetworkView_k__BackingField);
+      pCVar6 = (__this->fields)._NetworkView_k__BackingField;
+      if (pCVar6 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
+        CustomLogic_CustomLogicNetworkViewBuiltin__SetSync(pCVar6,__this,(MethodInfo *)0x0);
+        pMVar5 = (__this->fields)._MapObject_k__BackingField;
+        if (((pMVar5 != (Map_MapObject_o *)0x0) &&
+            (pUVar4 = (pMVar5->fields).GameObject, pUVar4 != (UnityEngine_GameObject_o *)0x0)) &&
+           (pUVar7 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0),
+           pUVar7 != (UnityEngine_Transform_o *)0x0)) {
+          UVar9 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_position(pUVar7,(MethodInfo *)0x0);
+          (__this->fields)._correctPosition.fields = UVar9;
+          pMVar5 = (__this->fields)._MapObject_k__BackingField;
+          if (((pMVar5 != (Map_MapObject_o *)0x0) &&
+              (pUVar4 = (pMVar5->fields).GameObject, pUVar4 != (UnityEngine_GameObject_o *)0x0)) &&
+             (pUVar7 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0),
+             pUVar7 != (UnityEngine_Transform_o *)0x0)) {
+            UVar8 = (UnityEngine_Quaternion_Fields)
+                    UnityEngine_Transform__get_rotation(pUVar7,(MethodInfo *)0x0);
+            (__this->fields)._correctRotation.fields = UVar8;
+            (__this->fields)._inited = true;
+            return;
           }
         }
       }
@@ -1412,11 +1459,11 @@ void CustomLogic_CustomLogicPhotonSync__FinishInit
 
 // CustomLogic.CustomLogicPhotonSync$$SendMessageRPC
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__SendMessageRPC (CustomLogic_CustomLogicPhotonSync_o* __this, System_String_o* message, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a9630
+// 0x5b70500
 
 void CustomLogic_CustomLogicPhotonSync__SendMessageRPC
                (CustomLogic_CustomLogicPhotonSync_o *__this,System_String_o *message,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
   CustomLogic_CustomLogicNetworkViewBuiltin_o *__this_00;
@@ -1424,16 +1471,16 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageRPC
   CustomLogic_CustomLogicPlayerBuiltin_o *__this_01;
   double sentServerTime;
   
-  if (Il2CppMethodInitialized_1843468c7 == '\0') {
+  if (Il2CppMethodInitialized_0754733d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
-    Il2CppMethodInitialized_1843468c7 = '\x01';
+    Il2CppMethodInitialized_0754733d = '\x01';
   }
-  if ((__this->fields)._NetworkView_k__BackingField != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-    __this_00 = (__this->fields)._NetworkView_k__BackingField;
-    player = (info->fields).Sender;
+  player = info.fields.Sender;
+  __this_00 = (__this->fields)._NetworkView_k__BackingField;
+  if (__this_00 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
     __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
     CustomLogic_CustomLogicPlayerBuiltin___ctor(__this_01,player,(MethodInfo *)0x0);
-    sentServerTime = Photon_Pun_PhotonMessageInfo__get_SentServerTime(info,(MethodInfo *)0x0);
+    sentServerTime = Photon_Pun_PhotonMessageInfo__get_SentServerTime(&info,(MethodInfo *)0x0);
     CustomLogic_CustomLogicNetworkViewBuiltin__OnNetworkMessage
               (__this_00,__this_01,message,sentServerTime,(MethodInfo *)0x0);
   }
@@ -1443,7 +1490,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageRPC
 
 // CustomLogic.CustomLogicPhotonSync$$SendMessage
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__SendMessage (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Realtime_Player_o* player, System_String_o* message, const MethodInfo* method);
-// 0x1820a96e0
+// 0x5b70580
 
 void CustomLogic_CustomLogicPhotonSync__SendMessage
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Realtime_Player_o *player,
@@ -1454,10 +1501,10 @@ void CustomLogic_CustomLogicPhotonSync__SendMessage
   System_Object_array *parameters;
   Il2CppObject *pIVar1;
   
-  if (Il2CppMethodInitialized_1843468c8 == '\0') {
+  if (Il2CppMethodInitialized_0754733e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&"SendMessageRPC");
-    Il2CppMethodInitialized_1843468c8 = '\x01';
+    Il2CppMethodInitialized_0754733e = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
   parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
@@ -1473,9 +1520,9 @@ void CustomLogic_CustomLogicPhotonSync__SendMessage
       ThrowIndexOutOfRangeException();
     }
     parameters->m_Items[0] = (Il2CppObject *)message;
-    Il2CppCodeGenWriteBarrier(parameters->m_Items,message);
+    Il2CppCodeGenWriteBarrier(parameters->m_Items);
     if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
-      Photon_Pun_PhotonView__RPC_1d4d8d0(__this_00,"SendMessageRPC",player,parameters,(MethodInfo *)0x0);
+      Photon_Pun_PhotonView__RPC_56e5850(__this_00,"SendMessageRPC",player,parameters,(MethodInfo *)0x0);
       return;
     }
   }
@@ -1485,7 +1532,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessage
 
 // CustomLogic.CustomLogicPhotonSync$$SendMessageAll
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__SendMessageAll (CustomLogic_CustomLogicPhotonSync_o* __this, System_String_o* message, const MethodInfo* method);
-// 0x1820a9470
+// 0x5b70650
 
 void CustomLogic_CustomLogicPhotonSync__SendMessageAll
                (CustomLogic_CustomLogicPhotonSync_o *__this,System_String_o *message,MethodInfo *method)
@@ -1495,10 +1542,10 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageAll
   System_Object_array *parameters;
   Il2CppObject *pIVar1;
   
-  if (Il2CppMethodInitialized_1843468c9 == '\0') {
+  if (Il2CppMethodInitialized_0754733f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&"SendMessageRPC");
-    Il2CppMethodInitialized_1843468c9 = '\x01';
+    Il2CppMethodInitialized_0754733f = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
   parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
@@ -1514,7 +1561,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageAll
       ThrowIndexOutOfRangeException();
     }
     parameters->m_Items[0] = (Il2CppObject *)message;
-    Il2CppCodeGenWriteBarrier(parameters->m_Items,message);
+    Il2CppCodeGenWriteBarrier(parameters->m_Items);
     if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
       Photon_Pun_PhotonView__RPC(__this_00,"SendMessageRPC",0,parameters,(MethodInfo *)0x0);
       return;
@@ -1526,7 +1573,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageAll
 
 // CustomLogic.CustomLogicPhotonSync$$SendMessageOthers
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__SendMessageOthers (CustomLogic_CustomLogicPhotonSync_o* __this, System_String_o* message, const MethodInfo* method);
-// 0x1820a9550
+// 0x5b70720
 
 void CustomLogic_CustomLogicPhotonSync__SendMessageOthers
                (CustomLogic_CustomLogicPhotonSync_o *__this,System_String_o *message,MethodInfo *method)
@@ -1536,10 +1583,10 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageOthers
   System_Object_array *parameters;
   Il2CppObject *pIVar1;
   
-  if (Il2CppMethodInitialized_1843468ca == '\0') {
+  if (Il2CppMethodInitialized_07547340 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&"SendMessageRPC");
-    Il2CppMethodInitialized_1843468ca = '\x01';
+    Il2CppMethodInitialized_07547340 = '\x01';
   }
   __this_00 = (__this->fields).PhotonView;
   parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
@@ -1555,7 +1602,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageOthers
       ThrowIndexOutOfRangeException();
     }
     parameters->m_Items[0] = (Il2CppObject *)message;
-    Il2CppCodeGenWriteBarrier(parameters->m_Items,message);
+    Il2CppCodeGenWriteBarrier(parameters->m_Items);
     if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
       Photon_Pun_PhotonView__RPC(__this_00,"SendMessageRPC",1,parameters,(MethodInfo *)0x0);
       return;
@@ -1567,7 +1614,7 @@ void CustomLogic_CustomLogicPhotonSync__SendMessageOthers
 
 // CustomLogic.CustomLogicPhotonSync$$OnPlayerEnteredRoom
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnPlayerEnteredRoom (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Realtime_Player_o* newPlayer, const MethodInfo* method);
-// 0x1820a90f0
+// 0x5b707f0
 
 void CustomLogic_CustomLogicPhotonSync__OnPlayerEnteredRoom
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Realtime_Player_o *newPlayer,
@@ -1576,68 +1623,55 @@ void CustomLogic_CustomLogicPhotonSync__OnPlayerEnteredRoom
 {
   Photon_Pun_PhotonView_o *__this_00;
   System_Object_array *parameters;
-  UnityEngine_Vector3_o *pUVar1;
+  Il2CppObject *pIVar1;
   Il2CppObject *pIVar2;
-  Il2CppObject *pIVar3;
-  UnityEngine_Quaternion_o *pUVar4;
-  undefined8 local_38;
-  float local_30;
-  UnityEngine_Quaternion_o local_28;
-  undefined8 local_18;
-  undefined8 uStack_10;
+  MethodInfo *pMVar3;
+  UnityEngine_Vector3_o local_48;
+  UnityEngine_Quaternion_o local_38;
   
-  if (Il2CppMethodInitialized_1843468cb == '\0') {
+  if (Il2CppMethodInitialized_07547341 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
     il2cpp_codegen_initialize_runtime_metadata(&"SyncRPC");
-    Il2CppMethodInitialized_1843468cb = '\x01';
+    Il2CppMethodInitialized_07547341 = '\x01';
   }
   if (((__this->fields)._inited == false) || ((__this->fields)._syncTransforms == false)) {
     return;
   }
   __this_00 = (__this->fields).PhotonView;
+  pMVar3 = (MethodInfo *)0x2;
   parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
-  pUVar1 = CustomLogic_CustomLogicPhotonSync__GetPosition
-                     ((UnityEngine_Vector3_o *)&local_28,__this,(MethodInfo *)0x0);
-  local_38._0_4_ = (pUVar1->fields).x;
-  local_38._4_4_ = (pUVar1->fields).y;
-  local_30 = (pUVar1->fields).z;
-  pIVar2 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_38);
+  local_48 = CustomLogic_CustomLogicPhotonSync__GetPosition(__this,pMVar3);
+  pMVar3 = (MethodInfo *)il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_48);
   if (parameters == (System_Object_array *)0x0) {
-label_1820a9296:
+label_05b70976:
     ThrowNullReferenceException();
   }
-  if ((pIVar2 != (Il2CppObject *)0x0) &&
-     (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameters->obj).klass)->_1).element_class),
-     pIVar3 == (Il2CppObject *)0x0)) {
-    pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-    il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
+  if ((pMVar3 != (MethodInfo *)0x0) &&
+     (pIVar1 = il2cpp_vm_Object_IsInst((Il2CppObject *)pMVar3,(((parameters->obj).klass)->_1).element_class),
+     pIVar1 == (Il2CppObject *)0x0)) {
+label_05b7097b:
+    pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
   }
   if ((int)parameters->max_length != 0) {
-    parameters->m_Items[0] = pIVar2;
-    Il2CppCodeGenWriteBarrier(parameters->m_Items,pIVar2);
-    pUVar4 = CustomLogic_CustomLogicPhotonSync__GetRotation(&local_28,__this,(MethodInfo *)0x0);
-    local_18._0_4_ = (pUVar4->fields).x;
-    local_18._4_4_ = (pUVar4->fields).y;
-    uStack_10._0_4_ = (pUVar4->fields).z;
-    uStack_10._4_4_ = (pUVar4->fields).w;
-    pIVar2 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Quaternion,&local_18);
-    if ((pIVar2 != (Il2CppObject *)0x0) &&
-       (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameters->obj).klass)->_1).element_class),
-       pIVar3 == (Il2CppObject *)0x0)) {
-      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
-    }
-    if (1 < (uint)parameters->max_length) {
-      parameters->m_Items[1] = pIVar2;
-      Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,pIVar2);
+    parameters->m_Items[0] = (Il2CppObject *)pMVar3;
+    Il2CppCodeGenWriteBarrier(parameters->m_Items);
+    local_38 = CustomLogic_CustomLogicPhotonSync__GetRotation(__this,pMVar3);
+    pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Quaternion,&local_38);
+    if ((pIVar1 != (Il2CppObject *)0x0) &&
+       (pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameters->obj).klass)->_1).element_class),
+       pIVar2 == (Il2CppObject *)0x0)) goto label_05b7097b;
+    if ((parameters->max_length & 0xfffffffe) != 0) {
+      parameters->m_Items[1] = pIVar1;
+      Il2CppCodeGenWriteBarrier(parameters->m_Items + 1);
       if (__this_00 != (Photon_Pun_PhotonView_o *)0x0) {
-        Photon_Pun_PhotonView__RPC_1d4d8d0
+        Photon_Pun_PhotonView__RPC_56e5850
                   (__this_00,"SyncRPC",newPlayer,parameters,(MethodInfo *)0x0);
         return;
       }
-      goto label_1820a9296;
+      goto label_05b70976;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -1646,486 +1680,456 @@ label_1820a9296:
 
 // CustomLogic.CustomLogicPhotonSync$$SyncRPC
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__SyncRPC (CustomLogic_CustomLogicPhotonSync_o* __this, UnityEngine_Vector3_o position, UnityEngine_Quaternion_o rotation, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a97b0
+// 0x5b70b30
 
 void CustomLogic_CustomLogicPhotonSync__SyncRPC
-               (CustomLogic_CustomLogicPhotonSync_o *__this,UnityEngine_Vector3_o *position,
-               UnityEngine_Quaternion_o *rotation,Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               (CustomLogic_CustomLogicPhotonSync_o *__this,UnityEngine_Vector3_o position,
+               UnityEngine_Quaternion_o rotation,Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
-  float fVar1;
-  Photon_Pun_PhotonView_o *pPVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *routine;
+  Photon_Pun_PhotonView_o *pPVar1;
+  CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this_00;
+  float fStack_38;
+  float fStack_34;
   
-  pPVar2 = (__this->fields).PhotonView;
-  if (pPVar2 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((info->fields).Sender == (pPVar2->fields)._Owner_k__BackingField) {
-      if (Il2CppMethodInitialized_1843468cc == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
-        Il2CppMethodInitialized_1843468cc = '\x01';
-      }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      fVar3 = (position->fields).y;
-      fVar1 = (position->fields).z;
-      (routine->fields).position.fields.x = (position->fields).x;
-      (routine->fields).position.fields.y = fVar3;
-      fVar3 = (rotation->fields).x;
-      fVar4 = (rotation->fields).y;
-      fVar5 = (rotation->fields).z;
-      fVar6 = (rotation->fields).w;
-      (routine->fields).position.fields.z = fVar1;
-      (routine->fields).rotation.fields.x = fVar3;
-      (routine->fields).rotation.fields.y = fVar4;
-      (routine->fields).rotation.fields.z = fVar5;
-      (routine->fields).rotation.fields.w = fVar6;
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                 (MethodInfo *)0x0);
-    }
+  pPVar1 = (__this->fields).PhotonView;
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (info.fields.Sender != (pPVar1->fields)._Owner_k__BackingField) {
     return;
   }
-  ThrowNullReferenceException();
+  if (Il2CppMethodInitialized_07547342 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
+    Il2CppMethodInitialized_07547342 = '\x01';
+  }
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  (__this_00->fields).position.fields.x = position.fields.x;
+  (__this_00->fields).position.fields.y = position.fields.y;
+  (__this_00->fields).position.fields.z = position.fields.z;
+  fStack_38 = rotation.fields.x;
+  fStack_34 = rotation.fields.y;
+  (__this_00->fields).rotation.fields.x = fStack_38;
+  (__this_00->fields).rotation.fields.y = fStack_34;
+  (__this_00->fields).rotation.fields.z = rotation.fields.z;
+  (__this_00->fields).rotation.fields.w = rotation.fields.w;
+  UnityEngine_MonoBehaviour__StartCoroutine_691c390
+            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
+             (MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$WaitAndFinishSync
 // il2cpp: System_Collections_IEnumerator_o* CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync (CustomLogic_CustomLogicPhotonSync_o* __this, UnityEngine_Vector3_o position, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
-// 0x1820a9ce0
+// 0x5b70c10
 
 System_Collections_IEnumerator_o *
 CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync
-          (CustomLogic_CustomLogicPhotonSync_o *__this,UnityEngine_Vector3_o *position,
-          UnityEngine_Quaternion_o *rotation,MethodInfo *method)
+          (CustomLogic_CustomLogicPhotonSync_o *__this,UnityEngine_Vector3_o position,
+          UnityEngine_Quaternion_o rotation,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
   CustomLogic_CustomLogicPhotonSync__WaitAndFinishSync_d__54_o *__this_00;
+  float fStack_38;
+  float fStack_34;
   
-  if (Il2CppMethodInitialized_1843468cc == '\0') {
+  if (Il2CppMethodInitialized_07547342 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
-    Il2CppMethodInitialized_1843468cc = '\x01';
+    Il2CppMethodInitialized_07547342 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPhotonSync_WaitAndFinishSync_d__54);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
-  fVar2 = (position->fields).y;
-  fVar1 = (position->fields).z;
-  (__this_00->fields).position.fields.x = (position->fields).x;
-  (__this_00->fields).position.fields.y = fVar2;
-  fVar2 = (rotation->fields).x;
-  fVar3 = (rotation->fields).y;
-  fVar4 = (rotation->fields).z;
-  fVar5 = (rotation->fields).w;
-  (__this_00->fields).position.fields.z = fVar1;
-  (__this_00->fields).rotation.fields.x = fVar2;
-  (__this_00->fields).rotation.fields.y = fVar3;
-  (__this_00->fields).rotation.fields.z = fVar4;
-  (__this_00->fields).rotation.fields.w = fVar5;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+  (__this_00->fields).position.fields.x = position.fields.x;
+  (__this_00->fields).position.fields.y = position.fields.y;
+  (__this_00->fields).position.fields.z = position.fields.z;
+  fStack_38 = rotation.fields.x;
+  fStack_34 = rotation.fields.y;
+  (__this_00->fields).rotation.fields.x = fStack_38;
+  (__this_00->fields).rotation.fields.y = fStack_34;
+  (__this_00->fields).rotation.fields.z = rotation.fields.z;
+  (__this_00->fields).rotation.fields.w = rotation.fields.w;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnPhotonSerializeView
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnPhotonSerializeView (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Pun_PhotonStream_o* stream, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a8a10
+// 0x5b70cd0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b711e9: mov rsi, rax
+// asm:   0x5b711ec: lea rbx, [r14 + 0x90]
+// asm:   0x5b711f3: jmp 0x5b71209
 
 void CustomLogic_CustomLogicPhotonSync__OnPhotonSerializeView
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Pun_PhotonStream_o *stream,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  Map_MapObject_o *pMVar2;
-  UnityEngine_GameObject_o *__this_00;
-  CustomLogic_CustomLogicNetworkViewBuiltin_o *__this_01;
-  Il2CppClass *pIVar3;
-  bool bVar4;
-  Il2CppObject *pIVar5;
-  char *pcVar6;
-  undefined8 *puVar7;
-  uint *puVar8;
-  System_Object_array *pSVar9;
-  Il2CppObject *value;
-  UnityEngine_Vector3_o *pUVar10;
-  UnityEngine_Quaternion_o *pUVar11;
-  UnityEngine_Object_o *pUVar12;
-  UnityEngine_Vector3_StaticFields *pUVar13;
-  uint index;
-  uint uVar14;
-  uint index_00;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  uint local_res10 [2];
-  undefined8 local_88;
-  float local_80;
-  UnityEngine_Quaternion_o local_78 [6];
+  float *pfVar1;
+  float *pfVar2;
+  float *pfVar3;
+  uint uVar4;
+  Map_MapObject_o *pMVar5;
+  UnityEngine_Object_o *x;
+  CustomLogic_CustomLogicNetworkViewBuiltin_o *pCVar6;
+  undefined8 uVar7;
+  bool bVar8;
+  MethodInfo *pMVar9;
+  Il2CppObject *pIVar10;
+  char *pcVar11;
+  undefined8 *puVar12;
+  uint *puVar13;
+  System_Object_array *pSVar14;
+  Il2CppObject *pIVar15;
+  uint uVar16;
+  System_Object_array **targetAddress;
+  UnityEngine_Quaternion_o *pUVar17;
+  uint uVar18;
+  Il2CppClass *pIVar19;
+  float fVar20;
+  float fVar21;
+  UnityEngine_Vector3_o UVar22;
+  ulong uStack_60;
+  float fStack_58;
+  uint uStack_50;
+  undefined4 uStack_4c;
+  UnityEngine_Quaternion_o UStack_48;
   
-  if (Il2CppMethodInitialized_1843468cd == '\0') {
+  if (Il2CppMethodInitialized_07547343 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_QuaternionCompression);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_1843468cd = '\x01';
+    Il2CppMethodInitialized_07547343 = '\x01';
   }
-  if (stream == (Photon_Pun_PhotonStream_o *)0x0) goto label_1820a909d;
-  if ((stream->fields)._IsWriting_k__BackingField == false) {
-    pIVar5 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-    if (pIVar5 != (Il2CppObject *)0x0) {
-      if ((pIVar5->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(pIVar5,g_data_184354de8);
+  UStack_48.fields = (UnityEngine_Quaternion_Fields)ZEXT816(0);
+  if (stream == (Photon_Pun_PhotonStream_o *)0x0) goto label_05b7124d;
+  if ((stream->fields)._IsWriting_k__BackingField != false) {
+    if (((__this->fields)._inited == false) ||
+       (pMVar5 = (__this->fields)._MapObject_k__BackingField, pMVar5 == (Map_MapObject_o *)0x0)) {
+      uStack_60 = uStack_60 & 0xffffffffffffff00;
+      pIVar10 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_60);
+    }
+    else {
+      x = (UnityEngine_Object_o *)(pMVar5->fields).GameObject;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      pcVar6 = il2cpp_object_unbox(pIVar5);
-      if (*pcVar6 == '\0') {
+      bVar8 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      uStack_60 = CONCAT71(uStack_60._1_7_,bVar8);
+      pMVar9 = (MethodInfo *)il2cpp_vm_Object_Box(g_data_075566f0,&uStack_60);
+      Photon_Pun_PhotonStream__SendNext(stream,(Il2CppObject *)pMVar9,(MethodInfo *)0x0);
+      if (!bVar8) {
         return;
       }
-      pIVar5 = Photon_Pun_PhotonStream__PeekNext(stream,(MethodInfo *)0x0);
-      pIVar5 = il2cpp_vm_Object_IsInst(pIVar5,TypeInfo_object_array);
-      (__this->fields)._syncTransforms = pIVar5 == (Il2CppObject *)0x0;
-      if (pIVar5 != (Il2CppObject *)0x0) goto label_1820a8d15;
-      pIVar5 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-      if (pIVar5 != (Il2CppObject *)0x0) {
-        if ((pIVar5->klass->_1).element_class != (TypeInfo_UnityEngine_Vector3->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(pIVar5,TypeInfo_UnityEngine_Vector3);
-        }
-        puVar7 = il2cpp_object_unbox(pIVar5);
-        uVar1 = *puVar7;
-        (__this->fields)._correctPosition.fields.x = (float)(int)uVar1;
-        (__this->fields)._correctPosition.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
-        (__this->fields)._correctPosition.fields.z = *(float *)(puVar7 + 1);
-        pIVar5 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+      if ((__this->fields)._syncTransforms != false) {
+        UVar22 = CustomLogic_CustomLogicPhotonSync__GetPosition(__this,pMVar9);
+        fStack_58 = UVar22.fields.z;
+        uStack_60 = UVar22.fields._0_8_;
+        pMVar9 = (MethodInfo *)il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&uStack_60);
+        Photon_Pun_PhotonStream__SendNext(stream,(Il2CppObject *)pMVar9,(MethodInfo *)0x0);
+        UStack_48 = CustomLogic_CustomLogicPhotonSync__GetRotation(__this,pMVar9);
         if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
         }
-        if (pIVar5 != (Il2CppObject *)0x0) {
-          if ((pIVar5->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar5,g_data_184354e08);
-          }
-          puVar8 = il2cpp_object_unbox(pIVar5);
-          fVar17 = 0.0;
-          index = 3;
-          uVar14 = *puVar8;
-          index_00 = uVar14 >> 0x1e;
-          do {
-            if (index != index_00) {
-              if ((uVar14 & 0x200) == 0) {
-                fVar16 = 1.0;
-              }
-              else {
-                fVar16 = -1.0;
-              }
-              UnityEngine_Quaternion__set_Item
-                        (&(__this->fields)._correctRotation,index,
-                         (float)(uVar14 & 0x1ff) * 0.0013837706 * fVar16,(MethodInfo *)0x0);
-              fVar16 = UnityEngine_Quaternion__get_Item
-                                 (&(__this->fields)._correctRotation,index,(MethodInfo *)0x0);
-              fVar15 = UnityEngine_Quaternion__get_Item
-                                 (&(__this->fields)._correctRotation,index,(MethodInfo *)0x0);
-              uVar14 = uVar14 >> 10;
-              fVar17 = fVar17 + fVar15 * fVar16;
-            }
-            index = index - 1;
-          } while (-1 < (int)index);
-          fVar17 = 1.0 - fVar17;
-          if (fVar17 < 0.0) {
-            fVar17 = (float)il2cpp_runtime_helper_1804fa7a0(fVar17);
-          }
-          else {
-            fVar17 = SQRT(fVar17);
-          }
-          UnityEngine_Quaternion__set_Item
-                    (&(__this->fields)._correctRotation,index_00,fVar17,(MethodInfo *)0x0);
-          pIVar5 = Photon_Pun_PhotonStream__PeekNext(stream,(MethodInfo *)0x0);
-          pIVar5 = il2cpp_vm_Object_IsInst(pIVar5,TypeInfo_object_array);
-          (__this->fields)._syncVelocity = pIVar5 == (Il2CppObject *)0x0;
-          if (pIVar5 == (Il2CppObject *)0x0) {
-            pIVar5 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-            if (pIVar5 == (Il2CppObject *)0x0) goto label_1820a909d;
-            if ((pIVar5->klass->_1).element_class != (TypeInfo_UnityEngine_Vector3->_1).element_class) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar5,TypeInfo_UnityEngine_Vector3);
-            }
-            puVar7 = il2cpp_object_unbox(pIVar5);
-            uVar1 = *puVar7;
-            (__this->fields)._correctVelocity.fields.x = (float)(int)uVar1;
-            (__this->fields)._correctVelocity.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
-            (__this->fields)._correctVelocity.fields.z = *(float *)(puVar7 + 1);
-          }
-label_1820a8d15:
-          if ((__this->fields)._inited == false) {
-            return;
-          }
-          pIVar5 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-          pIVar3 = TypeInfo_object_array;
-          if (pIVar5 == (Il2CppObject *)0x0) {
-            (__this->fields)._streamObjs = (System_Object_array *)0x0;
-            value = (Il2CppObject *)0x0;
-          }
-          else {
-            pSVar9 = (System_Object_array *)il2cpp_vm_Object_IsInst(pIVar5,TypeInfo_object_array);
-            if (pSVar9 == (System_Object_array *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar5,pIVar3);
-            }
-            (__this->fields)._streamObjs = pSVar9;
-            pIVar3 = TypeInfo_object_array;
-            value = il2cpp_vm_Object_IsInst(pIVar5,TypeInfo_object_array);
-            if (value == (Il2CppObject *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar5,pIVar3);
-            }
-          }
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._streamObjs,value);
-          if ((__this->fields)._NetworkView_k__BackingField ==
-              (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-            return;
-          }
-          if ((__this->fields)._streamObjs == (System_Object_array *)0x0) {
-            return;
-          }
-          pSVar9 = (__this->fields)._streamObjs;
-          if (pSVar9->max_length == 0) {
-            return;
-          }
-          CustomLogic_CustomLogicNetworkViewBuiltin__OnNetworkStream
-                    ((__this->fields)._NetworkView_k__BackingField,pSVar9,(MethodInfo *)0x0);
-          return;
+        uStack_4c = il2cpp_runtime_helper_05b8cfd0(&UStack_48,0);
+        pMVar9 = (MethodInfo *)il2cpp_vm_Object_Box(g_data_07556710,&uStack_4c);
+        Photon_Pun_PhotonStream__SendNext(stream,(Il2CppObject *)pMVar9,(MethodInfo *)0x0);
+        if ((__this->fields)._syncVelocity != false) {
+          UVar22 = CustomLogic_CustomLogicPhotonSync__GetVelocity(__this,pMVar9);
+          fStack_58 = UVar22.fields.z;
+          uStack_60 = UVar22.fields._0_8_;
+          pIVar10 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&uStack_60);
+          Photon_Pun_PhotonStream__SendNext(stream,pIVar10,(MethodInfo *)0x0);
         }
       }
+      pCVar6 = (__this->fields)._NetworkView_k__BackingField;
+      if (pCVar6 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
+        CustomLogic_CustomLogicNetworkViewBuiltin__SendNetworkStream(pCVar6,stream,(MethodInfo *)0x0);
+        return;
+      }
+      pIVar10 = SZArrayNew(TypeInfo_object_array,0);
     }
-    goto label_1820a909d;
-  }
-  if (((__this->fields)._inited == false) ||
-     ((__this->fields)._MapObject_k__BackingField == (Map_MapObject_o *)0x0)) {
-    local_res10[0] = local_res10[0] & 0xffffff00;
-    pIVar5 = il2cpp_value_box(g_data_184354de8,local_res10);
-    goto label_1820a903a;
-  }
-  pUVar12 = (UnityEngine_Object_o *)(((__this->fields)._MapObject_k__BackingField)->fields).GameObject;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar4 = UnityEngine_Object__op_Inequality(pUVar12,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  local_res10[0] = CONCAT31(local_res10[0]._1_3_,bVar4);
-  pIVar5 = il2cpp_value_box(g_data_184354de8,local_res10);
-  Photon_Pun_PhotonStream__SendNext(stream,pIVar5,(MethodInfo *)0x0);
-  if (!bVar4) {
+    Photon_Pun_PhotonStream__SendNext(stream,pIVar10,(MethodInfo *)0x0);
     return;
   }
-  if ((__this->fields)._syncTransforms != false) {
-    pUVar10 = CustomLogic_CustomLogicPhotonSync__GetPosition
-                        ((UnityEngine_Vector3_o *)local_78,__this,(MethodInfo *)0x0);
-    local_88._0_4_ = (pUVar10->fields).x;
-    local_88._4_4_ = (pUVar10->fields).y;
-    local_80 = (pUVar10->fields).z;
-    pIVar5 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_88);
-    Photon_Pun_PhotonStream__SendNext(stream,pIVar5,(MethodInfo *)0x0);
-    pUVar11 = CustomLogic_CustomLogicPhotonSync__GetRotation(local_78,__this,(MethodInfo *)0x0);
-    local_78[0].fields.x = (pUVar11->fields).x;
-    local_78[0].fields.y = (pUVar11->fields).y;
-    local_78[0].fields.z = (pUVar11->fields).z;
-    local_78[0].fields.w = (pUVar11->fields).w;
+  pIVar10 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+  if (pIVar10 == (Il2CppObject *)0x0) goto label_05b7124d;
+  if ((pIVar10->klass->_1).element_class != (g_data_075566f0->_1).element_class) goto label_05b71252;
+  pcVar11 = il2cpp_vm_Object_Unbox(pIVar10);
+  if (*pcVar11 == '\0') {
+    return;
+  }
+  pIVar10 = Photon_Pun_PhotonStream__PeekNext(stream,(MethodInfo *)0x0);
+  pIVar10 = il2cpp_vm_Object_IsInst(pIVar10,TypeInfo_object_array);
+  (__this->fields)._syncTransforms = pIVar10 == (Il2CppObject *)0x0;
+  if (pIVar10 == (Il2CppObject *)0x0) {
+    pIVar10 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+    if (pIVar10 == (Il2CppObject *)0x0) goto label_05b7124d;
+    if ((pIVar10->klass->_1).element_class != (TypeInfo_UnityEngine_Vector3->_1).element_class)
+    goto label_05b71252;
+    puVar12 = il2cpp_vm_Object_Unbox(pIVar10);
+    uVar7 = *puVar12;
+    (__this->fields)._correctPosition.fields.x = (float)(int)uVar7;
+    (__this->fields)._correctPosition.fields.y = (float)(int)((ulong)uVar7 >> 0x20);
+    (__this->fields)._correctPosition.fields.z = *(float *)(puVar12 + 1);
+    pIVar10 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
     if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
     }
-    local_res10[0] = il2cpp_runtime_helper_18208d050(local_78,0);
-    pIVar5 = il2cpp_value_box(g_data_184354e08,local_res10);
-    Photon_Pun_PhotonStream__SendNext(stream,pIVar5,(MethodInfo *)0x0);
-    if ((__this->fields)._syncVelocity != false) {
-      if (Il2CppMethodInitialized_1843468d1 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-        Il2CppMethodInitialized_1843468d1 = '\x01';
+    if (pIVar10 == (Il2CppObject *)0x0) goto label_05b7124d;
+    if ((pIVar10->klass->_1).element_class != (g_data_07556710->_1).element_class) {
+      il2cpp_codegen_raise_invalid_cast_exception(pIVar10);
+    }
+    puVar13 = il2cpp_vm_Object_Unbox(pIVar10);
+    uVar4 = *puVar13;
+    uVar18 = uVar4 >> 0x1e;
+    pfVar1 = &(__this->fields)._correctRotation.fields.w;
+    pfVar2 = &(__this->fields)._correctRotation.fields.z;
+    pfVar3 = &(__this->fields)._correctRotation.fields.y;
+    fVar20 = 0.0;
+    uVar16 = uVar4;
+    if (uVar18 == 3) {
+label_05b71014:
+      fVar21 = (float)(uVar16 & 0x1ff) * 0.0013837706;
+      if ((uVar16 & 0x200) != 0) {
+        fVar21 = -fVar21;
       }
-      if ((__this->fields)._MapObject_k__BackingField == (Map_MapObject_o *)0x0) {
-label_1820a8fd2:
-        if (Il2CppMethodInitialized_18433dbea == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433dbea = '\x01';
-        }
-        pUVar13 = TypeInfo_UnityEngine_Vector3->static_fields;
+      *pfVar2 = fVar21;
+      fVar20 = fVar20 + fVar21 * fVar21;
+      uVar16 = uVar16 >> 10;
+      if (uVar18 != 1) goto label_05b7104e;
+    }
+    else {
+      fVar20 = (float)(uVar4 & 0x1ff) * 0.0013837706;
+      if ((uVar4 & 0x200) != 0) {
+        fVar20 = -fVar20;
       }
-      else {
-        pUVar12 = (UnityEngine_Object_o *)(((__this->fields)._MapObject_k__BackingField)->fields).GameObject;
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar4 = UnityEngine_Object__op_Inequality(pUVar12,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (!bVar4) goto label_1820a8fd2;
-        pMVar2 = (__this->fields)._MapObject_k__BackingField;
-        if ((pMVar2 == (Map_MapObject_o *)0x0) ||
-           (__this_00 = (pMVar2->fields).GameObject, __this_00 == (UnityEngine_GameObject_o *)0x0)) {
-label_1820a90dc:
-          ThrowNullReferenceException();
-        }
-        pUVar12 = (UnityEngine_Object_o *)
-                  UnityEngine_GameObject__GetComponent_object_
-                            (__this_00,
-                             (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar4 = UnityEngine_Object__op_Inequality(pUVar12,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (!bVar4) goto label_1820a8fd2;
-        if (pUVar12 == (UnityEngine_Object_o *)0x0) goto label_1820a90dc;
-        pUVar13 = (UnityEngine_Vector3_StaticFields *)
-                  UnityEngine_Rigidbody__get_linearVelocity
-                            ((UnityEngine_Vector3_o *)local_78,(UnityEngine_Rigidbody_o *)pUVar12,
-                             (MethodInfo *)0x0);
+      *pfVar1 = fVar20;
+      fVar20 = fVar20 * fVar20 + 0.0;
+      uVar16 = uVar4 >> 10;
+      if (uVar18 != 2) goto label_05b71014;
+label_05b7104e:
+      fVar21 = (float)(uVar16 & 0x1ff) * 0.0013837706;
+      if ((uVar16 & 0x200) != 0) {
+        fVar21 = -fVar21;
       }
-      local_80 = (pUVar13->zeroVector).fields.z;
-      local_88._0_4_ = (pUVar13->zeroVector).fields.x;
-      local_88._4_4_ = (pUVar13->zeroVector).fields.y;
-      pIVar5 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_88);
-      Photon_Pun_PhotonStream__SendNext(stream,pIVar5,(MethodInfo *)0x0);
+      *pfVar3 = fVar21;
+      fVar20 = fVar20 + fVar21 * fVar21;
+      uVar16 = uVar16 >> 10;
+    }
+    pUVar17 = &(__this->fields)._correctRotation;
+    if (0x3fffffff < uVar4) {
+      fVar21 = (float)(uVar16 & 0x1ff) * 0.0013837706;
+      if ((uVar16 & 0x200) != 0) {
+        fVar21 = -fVar21;
+      }
+      (pUVar17->fields).x = fVar21;
+      fVar20 = fVar20 + fVar21 * fVar21;
+    }
+    fVar20 = 1.0 - fVar20;
+    if (fVar20 < 0.0) {
+      uStack_50 = uVar18;
+      fVar20 = sqrtf(fVar20);
+      uVar18 = uStack_50;
+    }
+    else {
+      fVar20 = SQRT(fVar20);
+    }
+    switch((long)&switchD_05b7111b::switchdataD_010a58e0 +
+           (long)(int)(&switchD_05b7111b::switchdataD_010a58e0)[uVar18]) {
+    case 0x5b7111d:
+      pUVar17 = (UnityEngine_Quaternion_o *)pfVar3;
+      break;
+    case 0x5b71122:
+      pUVar17 = (UnityEngine_Quaternion_o *)pfVar2;
+      break;
+    case 0x5b71127:
+      pUVar17 = (UnityEngine_Quaternion_o *)pfVar1;
+    }
+    (pUVar17->fields).x = fVar20;
+    pIVar10 = Photon_Pun_PhotonStream__PeekNext(stream,(MethodInfo *)0x0);
+    pIVar10 = il2cpp_vm_Object_IsInst(pIVar10,TypeInfo_object_array);
+    (__this->fields)._syncVelocity = pIVar10 == (Il2CppObject *)0x0;
+    if (pIVar10 == (Il2CppObject *)0x0) {
+      pIVar10 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+      if (pIVar10 == (Il2CppObject *)0x0) {
+label_05b7124d:
+        ThrowNullReferenceException();
+      }
+      if ((pIVar10->klass->_1).element_class != (TypeInfo_UnityEngine_Vector3->_1).element_class) {
+label_05b71252:
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar10);
+      }
+      puVar12 = il2cpp_vm_Object_Unbox(pIVar10);
+      uVar7 = *puVar12;
+      (__this->fields)._correctVelocity.fields.x = (float)(int)uVar7;
+      (__this->fields)._correctVelocity.fields.y = (float)(int)((ulong)uVar7 >> 0x20);
+      (__this->fields)._correctVelocity.fields.z = *(float *)(puVar12 + 1);
     }
   }
-  if ((__this->fields)._NetworkView_k__BackingField == (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-    pIVar5 = SZArrayNew(TypeInfo_object_array,0);
-label_1820a903a:
-    Photon_Pun_PhotonStream__SendNext(stream,pIVar5,(MethodInfo *)0x0);
-    return;
+  if ((__this->fields)._inited != false) {
+    pIVar10 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+    pIVar19 = TypeInfo_object_array;
+    if (pIVar10 == (Il2CppObject *)0x0) {
+      (__this->fields)._streamObjs = (System_Object_array *)0x0;
+    }
+    else {
+      pSVar14 = (System_Object_array *)il2cpp_vm_Object_IsInst(pIVar10,TypeInfo_object_array);
+      if (pSVar14 == (System_Object_array *)0x0) {
+label_05b7125a:
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar10,pIVar19);
+      }
+      (__this->fields)._streamObjs = pSVar14;
+      pIVar19 = TypeInfo_object_array;
+      pIVar15 = il2cpp_vm_Object_IsInst(pIVar10,TypeInfo_object_array);
+      if (pIVar15 == (Il2CppObject *)0x0) goto label_05b7125a;
+    }
+    targetAddress = &(__this->fields)._streamObjs;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    pCVar6 = (__this->fields)._NetworkView_k__BackingField;
+    if (((pCVar6 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) &&
+        (pSVar14 = *targetAddress, pSVar14 != (System_Object_array *)0x0)) && (pSVar14->max_length != 0)) {
+      CustomLogic_CustomLogicNetworkViewBuiltin__OnNetworkStream(pCVar6,pSVar14,(MethodInfo *)0x0);
+      return;
+    }
   }
-  __this_01 = (__this->fields)._NetworkView_k__BackingField;
-  if (__this_01 != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicNetworkViewBuiltin__SendNetworkStream(__this_01,stream,(MethodInfo *)0x0);
-    return;
-  }
-label_1820a909d:
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Update
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Update (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a9920
+// 0x5b71380
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7156d: movss xmm1, dword ptr [rbx + 0x84]
+// asm:   0x5b71575: movsd xmm0, qword ptr [rbx + 0x7c]
+// asm:   0x5b7157a: mov rdi, rax
+// asm:   0x5b7157d: xor esi, esi
+// asm:   0x5b7157f: call 0x6ae1f40  ; UnityEngine_Rigidbody__set_linearVelocity()
+// asm:   0x5b71584: jmp 0x5b713bb
 
 void CustomLogic_CustomLogicPhotonSync__Update(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  Photon_Pun_PhotonView_o *pPVar6;
-  Map_MapObject_o *pMVar7;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  Photon_Pun_PhotonView_o *pPVar3;
+  Map_MapObject_o *pMVar4;
   UnityEngine_GameObject_o *__this_00;
-  bool bVar8;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  bool bVar7;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Vector3_o *pUVar9;
-  UnityEngine_Quaternion_o *pUVar10;
-  UnityEngine_Object_o *pUVar11;
+  UnityEngine_Object_o *pUVar8;
   UnityEngine_Rigidbody_o *__this_02;
+  MethodInfo *pMVar9;
+  float fVar10;
+  float fVar11;
   float fVar12;
-  float fVar13;
-  UnityEngine_Quaternion_Fields local_98;
-  UnityEngine_Quaternion_Fields local_88;
-  UnityEngine_Quaternion_o local_78 [7];
+  UnityEngine_Quaternion_o UVar13;
+  UnityEngine_Vector3_o UVar14;
+  UnityEngine_Vector3_o value;
+  float fStack_78;
+  float fStack_74;
+  float fStack_68;
+  float fStack_64;
+  float fStack_48;
+  float fStack_44;
+  UnityEngine_Quaternion_Fields UStack_38;
+  UnityEngine_Quaternion_o UStack_28;
   
-  if (Il2CppMethodInitialized_1843468ce == '\0') {
+  if (Il2CppMethodInitialized_07547344 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843468ce = '\x01';
+    Il2CppMethodInitialized_07547344 = '\x01';
   }
-  pPVar6 = (__this->fields).PhotonView;
-  if (pPVar6 != (Photon_Pun_PhotonView_o *)0x0) {
-    if (((pPVar6->fields)._IsMine_k__BackingField != false) || ((__this->fields)._inited == false)) {
+  pPVar3 = (__this->fields).PhotonView;
+  if (pPVar3 != (Photon_Pun_PhotonView_o *)0x0) {
+    if (((pPVar3->fields)._IsMine_k__BackingField != false) || ((__this->fields)._inited == false)) {
       return;
     }
-    pMVar7 = (__this->fields)._MapObject_k__BackingField;
-    if (pMVar7 != (Map_MapObject_o *)0x0) {
-      pUVar11 = (UnityEngine_Object_o *)(pMVar7->fields).GameObject;
+    pMVar4 = (__this->fields)._MapObject_k__BackingField;
+    if (pMVar4 != (Map_MapObject_o *)0x0) {
+      pUVar8 = (UnityEngine_Object_o *)(pMVar4->fields).GameObject;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar8 = UnityEngine_Object__op_Equality(pUVar11,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar8) {
+      bVar7 = UnityEngine_Object__op_Equality(pUVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar7) {
         return;
       }
       if ((__this->fields)._syncTransforms == false) {
         return;
       }
-      pMVar7 = (__this->fields)._MapObject_k__BackingField;
-      if (((pMVar7 != (Map_MapObject_o *)0x0) &&
-          (__this_00 = (pMVar7->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) &&
+      pMVar4 = (__this->fields)._MapObject_k__BackingField;
+      if (((pMVar4 != (Map_MapObject_o *)0x0) &&
+          (__this_00 = (pMVar4->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) &&
          (__this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0),
          __this_01 != (UnityEngine_Transform_o *)0x0)) {
-        pUVar9 = UnityEngine_Transform__get_position
-                           ((UnityEngine_Vector3_o *)&local_98,__this_01,(MethodInfo *)0x0);
-        fVar13 = (__this->fields)._correctPosition.fields.x;
-        fVar1 = (__this->fields)._correctPosition.fields.y;
-        fVar2 = (__this->fields)._correctPosition.fields.z;
-        fVar3 = (pUVar9->fields).x;
-        fVar4 = (pUVar9->fields).y;
-        fVar5 = (pUVar9->fields).z;
-        fVar12 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-        fVar12 = fVar12 * 5.0;
-        if (fVar12 < 0.0) {
-          fVar12 = 0.0;
+        UVar14 = UnityEngine_Transform__get_position(__this_01,(MethodInfo *)0x0);
+        uVar1 = (__this->fields)._correctPosition.fields.x;
+        uVar2 = (__this->fields)._correctPosition.fields.y;
+        fVar11 = (__this->fields)._correctPosition.fields.z;
+        fVar10 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+        fVar10 = fVar10 * 5.0;
+        fVar12 = 1.0;
+        if (fVar10 <= 1.0) {
+          fVar12 = fVar10;
         }
-        else if (1.0 < fVar12) {
-          fVar12 = 1.0;
-        }
-        local_98.y = (fVar1 - fVar4) * fVar12 + fVar4;
-        local_98.x = (fVar13 - fVar3) * fVar12 + fVar3;
-        local_98.z = (fVar2 - fVar5) * fVar12 + fVar5;
-        UnityEngine_Transform__set_position(__this_01,(UnityEngine_Vector3_o *)&local_98,(MethodInfo *)0x0);
-        pUVar10 = UnityEngine_Transform__get_rotation
-                            ((UnityEngine_Quaternion_o *)&local_88,__this_01,(MethodInfo *)0x0);
-        local_98.x = (__this->fields)._correctRotation.fields.x;
-        local_98.y = (__this->fields)._correctRotation.fields.y;
-        local_98.z = (__this->fields)._correctRotation.fields.z;
-        local_98.w = (__this->fields)._correctRotation.fields.w;
-        local_88.x = (pUVar10->fields).x;
-        local_88.y = (pUVar10->fields).y;
-        local_88.z = (pUVar10->fields).z;
-        local_88.w = (pUVar10->fields).w;
-        fVar13 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-        pUVar10 = UnityEngine_Quaternion__Internal_Lerp
-                            (local_78,(UnityEngine_Quaternion_o *)&local_88,
-                             (UnityEngine_Quaternion_o *)&local_98,fVar13 * 5.0,(MethodInfo *)0x0);
-        local_88.x = (pUVar10->fields).x;
-        local_88.y = (pUVar10->fields).y;
-        local_88.z = (pUVar10->fields).z;
-        local_88.w = (pUVar10->fields).w;
-        UnityEngine_Transform__set_rotation(__this_01,(UnityEngine_Quaternion_o *)&local_88,(MethodInfo *)0x0)
-        ;
+        fVar12 = (float)((uint)fVar12 & -(uint)(0.0 <= fVar10));
+        fStack_78 = UVar14.fields.x;
+        fStack_74 = UVar14.fields.y;
+        value.fields.x = fVar12 * ((float)uVar1 - fStack_78) + fStack_78;
+        value.fields.y = fVar12 * ((float)uVar2 - fStack_74) + fStack_74;
+        value.fields.z = (fVar11 - UVar14.fields.z) * fVar12 + UVar14.fields.z;
+        UnityEngine_Transform__set_position(__this_01,value,(MethodInfo *)0x0);
+        UVar13 = UnityEngine_Transform__get_rotation(__this_01,(MethodInfo *)0x0);
+        uVar5._0_4_ = (__this->fields)._correctRotation.fields.x;
+        uVar5._4_4_ = (__this->fields)._correctRotation.fields.y;
+        uVar6._0_4_ = (__this->fields)._correctRotation.fields.z;
+        uVar6._4_4_ = (__this->fields)._correctRotation.fields.w;
+        fVar11 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+        fStack_68 = UVar13.fields.x;
+        fStack_64 = UVar13.fields.y;
+        UStack_28.fields.z = UVar13.fields.z;
+        UStack_28.fields.w = UVar13.fields.w;
+        UStack_28.fields.x = fStack_68;
+        UStack_28.fields.y = fStack_64;
+        UStack_38._0_8_ = uVar5;
+        UStack_38._8_8_ = uVar6;
+        UVar13 = UnityEngine_Quaternion__Internal_Lerp
+                           (&UStack_28,(UnityEngine_Quaternion_o *)&UStack_38,fVar11 * 5.0,(MethodInfo *)0x0);
+        pMVar9 = (MethodInfo *)0x0;
+        UnityEngine_Transform__set_rotation(__this_01,UVar13,(MethodInfo *)0x0);
         if ((__this->fields)._syncVelocity == false) {
           return;
         }
-        pUVar11 = (UnityEngine_Object_o *)
-                  CustomLogic_CustomLogicPhotonSync__get_Rigidbody(__this,(MethodInfo *)0x0);
+        pUVar8 = (UnityEngine_Object_o *)CustomLogic_CustomLogicPhotonSync__get_Rigidbody(__this,pMVar9);
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar8 = UnityEngine_Object__op_Inequality(pUVar11,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (!bVar8) {
+        pMVar9 = (MethodInfo *)0x0;
+        bVar7 = UnityEngine_Object__op_Inequality(pUVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar7) {
           return;
         }
-        __this_02 = CustomLogic_CustomLogicPhotonSync__get_Rigidbody(__this,(MethodInfo *)0x0);
+        __this_02 = CustomLogic_CustomLogicPhotonSync__get_Rigidbody(__this,pMVar9);
         if (__this_02 != (UnityEngine_Rigidbody_o *)0x0) {
-          local_98.x = (__this->fields)._correctVelocity.fields.x;
-          local_98.y = (__this->fields)._correctVelocity.fields.y;
-          local_98.z = (__this->fields)._correctVelocity.fields.z;
           UnityEngine_Rigidbody__set_linearVelocity
-                    (__this_02,(UnityEngine_Vector3_o *)&local_98,(MethodInfo *)0x0);
+                    (__this_02,(UnityEngine_Vector3_o)(__this->fields)._correctVelocity.fields,
+                     (MethodInfo *)0x0);
           return;
         }
       }
@@ -2137,57 +2141,44 @@ void CustomLogic_CustomLogicPhotonSync__Update(CustomLogic_CustomLogicPhotonSync
 
 // CustomLogic.CustomLogicPhotonSync$$GetPosition
 // il2cpp: UnityEngine_Vector3_o CustomLogic_CustomLogicPhotonSync__GetPosition (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a7da0
+// 0x5b70990
 
-UnityEngine_Vector3_o *
-CustomLogic_CustomLogicPhotonSync__GetPosition
-          (UnityEngine_Vector3_o *__return_storage_ptr__,CustomLogic_CustomLogicPhotonSync_o *__this,
-          MethodInfo *method)
+UnityEngine_Vector3_o
+CustomLogic_CustomLogicPhotonSync__GetPosition(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  Map_MapObject_o *pMVar2;
+  Map_MapObject_o *pMVar1;
   UnityEngine_Object_o *x;
   UnityEngine_GameObject_o *__this_00;
-  float fVar3;
-  bool bVar4;
+  bool bVar2;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Vector3_StaticFields *pUVar5;
-  UnityEngine_Vector3_o local_18;
+  UnityEngine_Vector3_Fields UVar3;
   
-  if (Il2CppMethodInitialized_1843468cf == '\0') {
+  if (Il2CppMethodInitialized_07547345 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843468cf = '\x01';
+    Il2CppMethodInitialized_07547345 = '\x01';
   }
-  pMVar2 = (__this->fields)._MapObject_k__BackingField;
-  if (pMVar2 != (Map_MapObject_o *)0x0) {
-    x = (UnityEngine_Object_o *)(pMVar2->fields).GameObject;
+  pMVar1 = (__this->fields)._MapObject_k__BackingField;
+  if (pMVar1 != (Map_MapObject_o *)0x0) {
+    x = (UnityEngine_Object_o *)(pMVar1->fields).GameObject;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar4) {
-      if (Il2CppMethodInitialized_18433dbea == '\0') {
+    bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar2) {
+      if (Il2CppMethodInitialized_0753e4b6 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433dbea = '\x01';
+        Il2CppMethodInitialized_0753e4b6 = '\x01';
       }
-      pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
-label_1820a7e66:
-      fVar3 = (pUVar5->zeroVector).fields.y;
-      fVar1 = (pUVar5->zeroVector).fields.z;
-      (__return_storage_ptr__->fields).x = (pUVar5->zeroVector).fields.x;
-      (__return_storage_ptr__->fields).y = fVar3;
-      (__return_storage_ptr__->fields).z = fVar1;
-      return __return_storage_ptr__;
+      return (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
     }
-    pMVar2 = (__this->fields)._MapObject_k__BackingField;
-    if ((pMVar2 != (Map_MapObject_o *)0x0) &&
-       (__this_00 = (pMVar2->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) {
+    pMVar1 = (__this->fields)._MapObject_k__BackingField;
+    if ((pMVar1 != (Map_MapObject_o *)0x0) &&
+       (__this_00 = (pMVar1->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) {
       __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
       if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-        pUVar5 = (UnityEngine_Vector3_StaticFields *)
-                 UnityEngine_Transform__get_position(&local_18,__this_01,(MethodInfo *)0x0);
-        goto label_1820a7e66;
+        UVar3 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_position(__this_01,(MethodInfo *)0x0);
+        return (UnityEngine_Vector3_o)UVar3;
       }
     }
   }
@@ -2197,29 +2188,22 @@ label_1820a7e66:
 
 // CustomLogic.CustomLogicPhotonSync$$GetRotation
 // il2cpp: UnityEngine_Quaternion_o CustomLogic_CustomLogicPhotonSync__GetRotation (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a7e90
+// 0x5b70a60
 
-UnityEngine_Quaternion_o *
-CustomLogic_CustomLogicPhotonSync__GetRotation
-          (UnityEngine_Quaternion_o *__return_storage_ptr__,CustomLogic_CustomLogicPhotonSync_o *__this,
-          MethodInfo *method)
+UnityEngine_Quaternion_o
+CustomLogic_CustomLogicPhotonSync__GetRotation(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
   Map_MapObject_o *pMVar1;
   UnityEngine_Object_o *x;
-  UnityEngine_Quaternion_StaticFields *pUVar2;
   UnityEngine_GameObject_o *__this_00;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  bool bVar6;
+  bool bVar2;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Quaternion_o *pUVar7;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_Fields UVar3;
   
-  if (Il2CppMethodInitialized_1843468d0 == '\0') {
+  if (Il2CppMethodInitialized_07547346 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843468d0 = '\x01';
+    Il2CppMethodInitialized_07547346 = '\x01';
   }
   pMVar1 = (__this->fields)._MapObject_k__BackingField;
   if (pMVar1 != (Map_MapObject_o *)0x0) {
@@ -2227,36 +2211,23 @@ CustomLogic_CustomLogicPhotonSync__GetRotation
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar6 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar6) {
-      if (Il2CppMethodInitialized_18433de5b == '\0') {
+    bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar2) {
+      if (Il2CppMethodInitialized_0753e72b == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-        Il2CppMethodInitialized_18433de5b = '\x01';
+        Il2CppMethodInitialized_0753e72b = '\x01';
       }
-      pUVar2 = TypeInfo_UnityEngine_Quaternion->static_fields;
-      fVar3 = (pUVar2->identityQuaternion).fields.y;
-      fVar4 = (pUVar2->identityQuaternion).fields.z;
-      fVar5 = (pUVar2->identityQuaternion).fields.w;
-      (__return_storage_ptr__->fields).x = (pUVar2->identityQuaternion).fields.x;
-      (__return_storage_ptr__->fields).y = fVar3;
-      (__return_storage_ptr__->fields).z = fVar4;
-      (__return_storage_ptr__->fields).w = fVar5;
-      return __return_storage_ptr__;
+      return (UnityEngine_Quaternion_o)
+             *(UnityEngine_Quaternion_Fields *)TypeInfo_UnityEngine_Quaternion->static_fields;
     }
     pMVar1 = (__this->fields)._MapObject_k__BackingField;
     if ((pMVar1 != (Map_MapObject_o *)0x0) &&
        (__this_00 = (pMVar1->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) {
       __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
       if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-        pUVar7 = UnityEngine_Transform__get_rotation(&local_18,__this_01,(MethodInfo *)0x0);
-        fVar3 = (pUVar7->fields).y;
-        fVar4 = (pUVar7->fields).z;
-        fVar5 = (pUVar7->fields).w;
-        (__return_storage_ptr__->fields).x = (pUVar7->fields).x;
-        (__return_storage_ptr__->fields).y = fVar3;
-        (__return_storage_ptr__->fields).z = fVar4;
-        (__return_storage_ptr__->fields).w = fVar5;
-        return __return_storage_ptr__;
+        UVar3 = (UnityEngine_Quaternion_Fields)
+                UnityEngine_Transform__get_rotation(__this_01,(MethodInfo *)0x0);
+        return (UnityEngine_Quaternion_o)UVar3;
       }
     }
   }
@@ -2266,98 +2237,80 @@ CustomLogic_CustomLogicPhotonSync__GetRotation
 
 // CustomLogic.CustomLogicPhotonSync$$GetVelocity
 // il2cpp: UnityEngine_Vector3_o CustomLogic_CustomLogicPhotonSync__GetVelocity (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a7f90
+// 0x5b71270
 
-UnityEngine_Vector3_o *
-CustomLogic_CustomLogicPhotonSync__GetVelocity
-          (UnityEngine_Vector3_o *__return_storage_ptr__,CustomLogic_CustomLogicPhotonSync_o *__this,
-          MethodInfo *method)
+UnityEngine_Vector3_o
+CustomLogic_CustomLogicPhotonSync__GetVelocity(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  Map_MapObject_o *pMVar2;
+  Map_MapObject_o *pMVar1;
   UnityEngine_GameObject_o *__this_00;
-  float fVar3;
-  bool bVar4;
-  UnityEngine_Object_o *pUVar5;
-  UnityEngine_Vector3_StaticFields *pUVar6;
-  UnityEngine_Vector3_o local_18;
+  bool bVar2;
+  UnityEngine_Object_o *pUVar3;
+  UnityEngine_Vector3_Fields UVar4;
   
-  if (Il2CppMethodInitialized_1843468d1 == '\0') {
+  if (Il2CppMethodInitialized_07547347 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_1843468d1 = '\x01';
+    Il2CppMethodInitialized_07547347 = '\x01';
   }
-  if ((__this->fields)._MapObject_k__BackingField != (Map_MapObject_o *)0x0) {
-    pUVar5 = (UnityEngine_Object_o *)(((__this->fields)._MapObject_k__BackingField)->fields).GameObject;
+  pMVar1 = (__this->fields)._MapObject_k__BackingField;
+  if (pMVar1 != (Map_MapObject_o *)0x0) {
+    pUVar3 = (UnityEngine_Object_o *)(pMVar1->fields).GameObject;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality(pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      pMVar2 = (__this->fields)._MapObject_k__BackingField;
-      if ((pMVar2 == (Map_MapObject_o *)0x0) ||
-         (__this_00 = (pMVar2->fields).GameObject, __this_00 == (UnityEngine_GameObject_o *)0x0)) {
-label_1820a80b7:
-        ThrowNullReferenceException();
+    bVar2 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      pMVar1 = (__this->fields)._MapObject_k__BackingField;
+      if ((pMVar1 != (Map_MapObject_o *)0x0) &&
+         (__this_00 = (pMVar1->fields).GameObject, __this_00 != (UnityEngine_GameObject_o *)0x0)) {
+        pUVar3 = (UnityEngine_Object_o *)
+                 UnityEngine_GameObject__GetComponent_object_
+                           (__this_00,
+                            (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar2 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar2) goto label_05b7133b;
+        if (pUVar3 != (UnityEngine_Object_o *)0x0) {
+          UVar4 = (UnityEngine_Vector3_Fields)
+                  UnityEngine_Rigidbody__get_linearVelocity
+                            ((UnityEngine_Rigidbody_o *)pUVar3,(MethodInfo *)0x0);
+          return (UnityEngine_Vector3_o)UVar4;
+        }
       }
-      pUVar5 = (UnityEngine_Object_o *)
-               UnityEngine_GameObject__GetComponent_object_
-                         (__this_00,
-                          (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Rigidbody);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar4 = UnityEngine_Object__op_Inequality(pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar4) {
-        if (pUVar5 == (UnityEngine_Object_o *)0x0) goto label_1820a80b7;
-        pUVar6 = (UnityEngine_Vector3_StaticFields *)
-                 UnityEngine_Rigidbody__get_linearVelocity
-                           (&local_18,(UnityEngine_Rigidbody_o *)pUVar5,(MethodInfo *)0x0);
-        goto label_1820a809b;
-      }
+      ThrowNullReferenceException();
     }
   }
-  if (Il2CppMethodInitialized_18433dbea == '\0') {
+label_05b7133b:
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbea = '\x01';
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
   }
-  pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-label_1820a809b:
-  fVar3 = (pUVar6->zeroVector).fields.y;
-  fVar1 = (pUVar6->zeroVector).fields.z;
-  (__return_storage_ptr__->fields).x = (pUVar6->zeroVector).fields.x;
-  (__return_storage_ptr__->fields).y = fVar3;
-  (__return_storage_ptr__->fields).z = fVar1;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Photon.Pun.IPunObservable.OnPhotonSerializeView
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Photon_Pun_IPunObservable_OnPhotonSerializeView (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Pun_PhotonStream_o* stream, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x1820a9430
+// 0x5b71590
 
 void CustomLogic_CustomLogicPhotonSync__Photon_Pun_IPunObservable_OnPhotonSerializeView
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Pun_PhotonStream_o *stream,
-               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
 
 {
-  Photon_Pun_PhotonMessageInfo_Fields local_28;
-  
-  local_28.timeInt = (info->fields).timeInt;
-  local_28._4_4_ = *(undefined4 *)&(info->fields).field_0x4;
-  local_28.Sender = (info->fields).Sender;
-  local_28.photonView = (info->fields).photonView;
   (*(__this->klass->vtable)._60_OnPhotonSerializeView.methodPtr)
-            (__this,stream,(Photon_Pun_PhotonMessageInfo_o *)&local_28,
-             (__this->klass->vtable)._60_OnPhotonSerializeView.method);
+            (__this,stream,info,(__this->klass->vtable)._60_OnPhotonSerializeView.method);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Transfer
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Transfer (CustomLogic_CustomLogicPhotonSync_o* __this, CustomLogic_CustomLogicPlayerBuiltin_o* player, const MethodInfo* method);
-// 0x1820a9880
+// 0x5b715b0
 
 void CustomLogic_CustomLogicPhotonSync__Transfer
                (CustomLogic_CustomLogicPhotonSync_o *__this,CustomLogic_CustomLogicPlayerBuiltin_o *player,
@@ -2368,71 +2321,79 @@ void CustomLogic_CustomLogicPhotonSync__Transfer
   Photon_Realtime_Player_o *pPVar2;
   Photon_Realtime_Player_o *pPVar3;
   
-  if (Il2CppMethodInitialized_1843468d2 == '\0') {
+  if (Il2CppMethodInitialized_07547348 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_1843468d2 = '\x01';
+    Il2CppMethodInitialized_07547348 = '\x01';
   }
   pPVar1 = (__this->fields).PhotonView;
   if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((pPVar1->fields)._IsMine_k__BackingField != false) {
-      if (player == (CustomLogic_CustomLogicPlayerBuiltin_o *)0x0) goto label_1820a9917;
+    if ((pPVar1->fields)._IsMine_k__BackingField == false) {
+      return;
+    }
+    if (player != (CustomLogic_CustomLogicPlayerBuiltin_o *)0x0) {
       pPVar2 = (player->fields).Player;
       if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+        pPVar3 = Photon_Pun_PhotonNetwork__get_LocalPlayer((MethodInfo *)0x0);
       }
-      pPVar3 = Photon_Pun_PhotonNetwork__get_LocalPlayer((MethodInfo *)0x0);
-      if (pPVar2 != pPVar3) {
-        pPVar2 = (player->fields).Player;
-        if ((pPVar2 == (Photon_Realtime_Player_o *)0x0) ||
-           (pPVar1 = (__this->fields).PhotonView, pPVar1 == (Photon_Pun_PhotonView_o *)0x0))
-        goto label_1820a9917;
-        Photon_Pun_PhotonView__TransferOwnership_1d4e550
+      else {
+        pPVar3 = Photon_Pun_PhotonNetwork__get_LocalPlayer((MethodInfo *)0x0);
+      }
+      if (pPVar2 == pPVar3) {
+        return;
+      }
+      pPVar2 = (player->fields).Player;
+      if ((pPVar2 != (Photon_Realtime_Player_o *)0x0) &&
+         (pPVar1 = (__this->fields).PhotonView, pPVar1 != (Photon_Pun_PhotonView_o *)0x0)) {
+        Photon_Pun_PhotonView__TransferOwnership_56e5150
                   (pPVar1,(pPVar2->fields).actorNumber,(MethodInfo *)0x0);
+        return;
       }
     }
-    return;
   }
-label_1820a9917:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$Photon.Pun.IOnPhotonViewOwnerChange.OnOwnerChange
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__Photon_Pun_IOnPhotonViewOwnerChange_OnOwnerChange (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Realtime_Player_o* newOwner, Photon_Realtime_Player_o* previousOwner, const MethodInfo* method);
-// 0x1820a9380
+// 0x5b71650
 
 void CustomLogic_CustomLogicPhotonSync__Photon_Pun_IOnPhotonViewOwnerChange_OnOwnerChange
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Realtime_Player_o *newOwner,
                Photon_Realtime_Player_o *previousOwner,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicPlayerBuiltin_o *__this_00;
+  CustomLogic_CustomLogicNetworkViewBuiltin_o *__this_00;
   CustomLogic_CustomLogicPlayerBuiltin_o *__this_01;
+  CustomLogic_CustomLogicPlayerBuiltin_o *__this_02;
   
-  if (Il2CppMethodInitialized_1843468d3 == '\0') {
+  if (Il2CppMethodInitialized_07547349 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
-    Il2CppMethodInitialized_1843468d3 = '\x01';
+    Il2CppMethodInitialized_07547349 = '\x01';
   }
   if (previousOwner == (Photon_Realtime_Player_o *)0x0) {
-    __this_00 = (CustomLogic_CustomLogicPlayerBuiltin_o *)0x0;
+    __this_01 = (CustomLogic_CustomLogicPlayerBuiltin_o *)0x0;
   }
   else {
-    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
-    CustomLogic_CustomLogicPlayerBuiltin___ctor(__this_00,previousOwner,(MethodInfo *)0x0);
+    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
+    CustomLogic_CustomLogicPlayerBuiltin___ctor(__this_01,previousOwner,(MethodInfo *)0x0);
   }
-  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
-  CustomLogic_CustomLogicPlayerBuiltin___ctor(__this_01,newOwner,(MethodInfo *)0x0);
-  if ((__this->fields)._NetworkView_k__BackingField != (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicNetworkViewBuiltin__OnNetworkTransfer
-              ((__this->fields)._NetworkView_k__BackingField,__this_00,__this_01,(MethodInfo *)0x0);
+  __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPlayerBuiltin);
+  CustomLogic_CustomLogicPlayerBuiltin___ctor(__this_02,newOwner,(MethodInfo *)0x0);
+  __this_00 = (__this->fields)._NetworkView_k__BackingField;
+  if (__this_00 == (CustomLogic_CustomLogicNetworkViewBuiltin_o *)0x0) {
+    return;
   }
+  CustomLogic_CustomLogicNetworkViewBuiltin__OnNetworkTransfer
+            (__this_00,__this_01,__this_02,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnPlayerLeftRoom
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnPlayerLeftRoom (CustomLogic_CustomLogicPhotonSync_o* __this, Photon_Realtime_Player_o* otherPlayer, const MethodInfo* method);
-// 0x1820a92d0
+// 0x5b71700
 
 void CustomLogic_CustomLogicPhotonSync__OnPlayerLeftRoom
                (CustomLogic_CustomLogicPhotonSync_o *__this,Photon_Realtime_Player_o *otherPlayer,
@@ -2443,38 +2404,41 @@ void CustomLogic_CustomLogicPhotonSync__OnPlayerLeftRoom
   bool bVar2;
   Photon_Realtime_Player_o *newOwner;
   
-  if (Il2CppMethodInitialized_1843468d4 == '\0') {
+  if (Il2CppMethodInitialized_0754734a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_1843468d4 = '\x01';
+    Il2CppMethodInitialized_0754734a = '\x01';
   }
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if (((pPVar1->fields)._Owner_k__BackingField == otherPlayer) &&
-       ((__this->fields)._persistsOwnership != false)) {
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+label_05b7179f:
+    ThrowNullReferenceException();
+  }
+  if (((pPVar1->fields)._Owner_k__BackingField == otherPlayer) &&
+     ((__this->fields)._persistsOwnership != false)) {
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    }
+    bVar2 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
+    if (bVar2) {
+      pPVar1 = (__this->fields).PhotonView;
       if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
       }
-      bVar2 = Photon_Pun_PhotonNetwork__get_IsMasterClient((MethodInfo *)0x0);
-      if (bVar2) {
-        pPVar1 = (__this->fields).PhotonView;
-        if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-        }
-        newOwner = Photon_Pun_PhotonNetwork__get_MasterClient((MethodInfo *)0x0);
-        if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) goto label_1820a9375;
+      newOwner = Photon_Pun_PhotonNetwork__get_MasterClient((MethodInfo *)0x0);
+      if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
         Photon_Pun_PhotonView__TransferOwnership(pPVar1,newOwner,(MethodInfo *)0x0);
+        return;
       }
+      goto label_05b7179f;
     }
-    return;
   }
-label_1820a9375:
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$DestroyMe
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__DestroyMe (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a7b80
+// 0x5b717b0
 
 void CustomLogic_CustomLogicPhotonSync__DestroyMe
                (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
@@ -2483,60 +2447,72 @@ void CustomLogic_CustomLogicPhotonSync__DestroyMe
   Photon_Pun_PhotonView_o *pPVar1;
   UnityEngine_GameObject_o *targetGo;
   
-  if (Il2CppMethodInitialized_1843468d5 == '\0') {
+  if (Il2CppMethodInitialized_0754734b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_1843468d5 = '\x01';
+    Il2CppMethodInitialized_0754734b = '\x01';
   }
   pPVar1 = (__this->fields).PhotonView;
-  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((pPVar1->fields)._IsMine_k__BackingField != false) {
-      targetGo = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-      }
-      Photon_Pun_PhotonNetwork__Destroy_1d35aa0(targetGo,(MethodInfo *)0x0);
-      return;
-    }
+  if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((pPVar1->fields)._IsMine_k__BackingField == false) {
     return;
   }
-  ThrowNullReferenceException();
+  targetGo = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    Photon_Pun_PhotonNetwork__Destroy_56d7e70(targetGo,(MethodInfo *)0x0);
+    return;
+  }
+  Photon_Pun_PhotonNetwork__Destroy_56d7e70(targetGo,(MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$OnDestroy
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__OnDestroy (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a8780
+// 0x5b71830
 
 void CustomLogic_CustomLogicPhotonSync__OnDestroy
                (CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
 {
+  uint32_t uVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar2;
   CustomLogic_CustomLogicMapObjectBuiltin_o *obj;
   
-  if (Il2CppMethodInitialized_1843468d6 == '\0') {
+  if (Il2CppMethodInitialized_0754734c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicMapBuiltin);
-    Il2CppMethodInitialized_1843468d6 = '\x01';
+    Il2CppMethodInitialized_0754734c = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
   }
-  if (TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator !=
-      (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    obj = (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField;
-    if ((TypeInfo_CustomLogic_CustomLogicMapBuiltin->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMapBuiltin);
-    }
-    CustomLogic_CustomLogicMapBuiltin__DestroyMapObjectBuiltin((Il2CppObject *)obj,true,(MethodInfo *)0x0);
+  else {
+    pCVar2 = *(CustomLogic_CustomLogicEvaluator_o **)
+              ((long)((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager)->static_fields + 8);
+  }
+  if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
     return;
   }
+  obj = (__this->fields)._CustomLogicMapObjectBuiltin_k__BackingField;
+  if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMapBuiltin)->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicMapBuiltin);
+  }
+  CustomLogic_CustomLogicMapBuiltin__DestroyMapObjectBuiltin((Il2CppObject *)obj,true,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicPhotonSync$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPhotonSync___ctor (CustomLogic_CustomLogicPhotonSync_o* __this, const MethodInfo* method);
-// 0x1820a9d70
+// 0x5b718f0
 
 void CustomLogic_CustomLogicPhotonSync___ctor(CustomLogic_CustomLogicPhotonSync_o *__this,MethodInfo *method)
 
@@ -2546,12 +2522,13 @@ void CustomLogic_CustomLogicPhotonSync___ctor(CustomLogic_CustomLogicPhotonSync_
   UnityEngine_Quaternion_StaticFields *pUVar3;
   float fVar4;
   float fVar5;
+  bool bVar6;
   
   (__this->fields)._syncTransforms = true;
   (__this->fields)._syncVelocity = true;
-  if (Il2CppMethodInitialized_18433dbea == '\0') {
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbea = '\x01';
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
   }
   pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
   fVar4 = (pUVar2->zeroVector).fields.y;
@@ -2559,21 +2536,32 @@ void CustomLogic_CustomLogicPhotonSync___ctor(CustomLogic_CustomLogicPhotonSync_
   (__this->fields)._correctPosition.fields.x = (pUVar2->zeroVector).fields.x;
   (__this->fields)._correctPosition.fields.y = fVar4;
   (__this->fields)._correctPosition.fields.z = fVar1;
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
+    bVar6 = Il2CppMethodInitialized_0753e4b6 == '\0';
+    pUVar3 = TypeInfo_UnityEngine_Quaternion->static_fields;
+    fVar1 = (pUVar3->identityQuaternion).fields.y;
+    fVar4 = (pUVar3->identityQuaternion).fields.z;
+    fVar5 = (pUVar3->identityQuaternion).fields.w;
+    (__this->fields)._correctRotation.fields.x = (pUVar3->identityQuaternion).fields.x;
+    (__this->fields)._correctRotation.fields.y = fVar1;
+    (__this->fields)._correctRotation.fields.z = fVar4;
+    (__this->fields)._correctRotation.fields.w = fVar5;
+    if (bVar6) {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e4b6 = '\x01';
+    }
   }
-  pUVar3 = TypeInfo_UnityEngine_Quaternion->static_fields;
-  fVar1 = (pUVar3->identityQuaternion).fields.y;
-  fVar4 = (pUVar3->identityQuaternion).fields.z;
-  fVar5 = (pUVar3->identityQuaternion).fields.w;
-  (__this->fields)._correctRotation.fields.x = (pUVar3->identityQuaternion).fields.x;
-  (__this->fields)._correctRotation.fields.y = fVar1;
-  (__this->fields)._correctRotation.fields.z = fVar4;
-  (__this->fields)._correctRotation.fields.w = fVar5;
-  if (Il2CppMethodInitialized_18433dbea == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbea = '\x01';
+  else {
+    pUVar3 = TypeInfo_UnityEngine_Quaternion->static_fields;
+    fVar1 = (pUVar3->identityQuaternion).fields.y;
+    fVar4 = (pUVar3->identityQuaternion).fields.z;
+    fVar5 = (pUVar3->identityQuaternion).fields.w;
+    (__this->fields)._correctRotation.fields.x = (pUVar3->identityQuaternion).fields.x;
+    (__this->fields)._correctRotation.fields.y = fVar1;
+    (__this->fields)._correctRotation.fields.z = fVar4;
+    (__this->fields)._correctRotation.fields.w = fVar5;
   }
   pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
   fVar4 = (pUVar2->zeroVector).fields.y;
@@ -2581,7 +2569,8 @@ void CustomLogic_CustomLogicPhotonSync___ctor(CustomLogic_CustomLogicPhotonSync_
   (__this->fields)._correctVelocity.fields.x = (pUVar2->zeroVector).fields.x;
   (__this->fields)._correctVelocity.fields.y = fVar4;
   (__this->fields)._correctVelocity.fields.z = fVar1;
-  Photon_Pun_MonoBehaviourPunCallbacks___ctor((GetParentPosition_o *)__this,(MethodInfo *)0x0);
+  Photon_Pun_MonoBehaviourPunCallbacks___ctor
+            ((Photon_Pun_MonoBehaviourPunCallbacks_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

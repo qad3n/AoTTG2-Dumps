@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200020D")]
+[Token(Token = "0x20001CE")]
 public class ProgressChangedEventArgs : EventArgs
 {
-	[Token(Token = "0x400079A")]
+	[Token(Token = "0x40006CB")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly int progressPercentage;
 
-	[Token(Token = "0x400079B")]
+	[Token(Token = "0x40006CC")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly object userState;
 
-	[Token(Token = "0x170002DB")]
+	[Token(Token = "0x170002AC")]
 	[SRDescription("Percentage progress made in operation.")]
 	public int ProgressPercentage
 	{
-		[Token(Token = "0x6000DC6")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6000C06")]
+		[Address(RVA = "0x6254850", Offset = "0x6253850", VA = "0x6254850")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002DC")]
+	[Token(Token = "0x170002AD")]
 	[SRDescription("User-supplied state to identify operation.")]
 	public object UserState
 	{
-		[Token(Token = "0x6000DC7")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000C07")]
+		[Address(RVA = "0x6254860", Offset = "0x6253860", VA = "0x6254860")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000DC5")]
-	[Address(RVA = "0x28B60D0", Offset = "0x28B46D0", VA = "0x1828B60D0")]
+	[Token(Token = "0x6000C05")]
+	[Address(RVA = "0x62547E0", Offset = "0x62537E0", VA = "0x62547E0")]
 	public ProgressChangedEventArgs(int progressPercentage, object userState)
 	{
 	}

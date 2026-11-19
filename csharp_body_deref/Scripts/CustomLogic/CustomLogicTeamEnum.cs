@@ -11,172 +11,172 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200051F")]
+[Token(Token = "0x200057E")]
 [CompilerGenerated]
 internal class CustomLogicTeamEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000520")]
+	[Token(Token = "0x200057F")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002E55")]
-		[Address(RVA = "0x2016B00", Offset = "0x2015100", VA = "0x182016B00")]
+		[Token(Token = "0x60030E1")]
+		[Address(RVA = "0x59AF070", Offset = "0x59AE070", VA = "0x59AF070")]
 		public static CustomLogicTeamEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000521")]
+	[Token(Token = "0x2000580")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016ED")]
+		[Token(Token = "0x400188D")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002E56")]
-		[Address(RVA = "0x1FF4A80", Offset = "0x1FF3080", VA = "0x181FF4A80")]
+		[Token(Token = "0x60030E2")]
+		[Address(RVA = "0x59AF190", Offset = "0x59AE190", VA = "0x59AF190")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E57")]
-		[Address(RVA = "0x2006750", Offset = "0x2004D50", VA = "0x182006750")]
+		[Token(Token = "0x60030E3")]
+		[Address(RVA = "0x59AF3C0", Offset = "0x59AE3C0", VA = "0x59AF3C0")]
 		public static CLPropertyBinding<CustomLogicTeamEnum> __CreatePropertyBinding__None()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E58")]
-		[Address(RVA = "0x2002F10", Offset = "0x2001510", VA = "0x182002F10")]
+		[Token(Token = "0x60030E4")]
+		[Address(RVA = "0x59AF460", Offset = "0x59AE460", VA = "0x59AF460")]
 		public static CLPropertyBinding<CustomLogicTeamEnum> __CreatePropertyBinding__Blue()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E59")]
-		[Address(RVA = "0x2006C50", Offset = "0x2005250", VA = "0x182006C50")]
+		[Token(Token = "0x60030E5")]
+		[Address(RVA = "0x59AF500", Offset = "0x59AE500", VA = "0x59AF500")]
 		public static CLPropertyBinding<CustomLogicTeamEnum> __CreatePropertyBinding__Red()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E5A")]
-		[Address(RVA = "0x20080A0", Offset = "0x20066A0", VA = "0x1820080A0")]
+		[Token(Token = "0x60030E6")]
+		[Address(RVA = "0x59AF5A0", Offset = "0x59AE5A0", VA = "0x59AF5A0")]
 		public static CLPropertyBinding<CustomLogicTeamEnum> __CreatePropertyBinding__Titan()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E5B")]
-		[Address(RVA = "0x2005210", Offset = "0x2003810", VA = "0x182005210")]
+		[Token(Token = "0x60030E7")]
+		[Address(RVA = "0x59AF640", Offset = "0x59AE640", VA = "0x59AF640")]
 		public static CLPropertyBinding<CustomLogicTeamEnum> __CreatePropertyBinding__Human()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700082F")]
+	[Token(Token = "0x17000877")]
 	public static string None
 	{
-		[Token(Token = "0x6002E4C")]
-		[Address(RVA = "0x2014FD0", Offset = "0x20135D0", VA = "0x182014FD0")]
+		[Token(Token = "0x60030D8")]
+		[Address(RVA = "0x59AEDE0", Offset = "0x59ADDE0", VA = "0x59AEDE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000830")]
+	[Token(Token = "0x17000878")]
 	public static string Blue
 	{
-		[Token(Token = "0x6002E4D")]
-		[Address(RVA = "0x2014F00", Offset = "0x2013500", VA = "0x182014F00")]
+		[Token(Token = "0x60030D9")]
+		[Address(RVA = "0x59AEE50", Offset = "0x59ADE50", VA = "0x59AEE50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000831")]
+	[Token(Token = "0x17000879")]
 	public static string Red
 	{
-		[Token(Token = "0x6002E4E")]
-		[Address(RVA = "0x2015020", Offset = "0x2013620", VA = "0x182015020")]
+		[Token(Token = "0x60030DA")]
+		[Address(RVA = "0x59AEEC0", Offset = "0x59ADEC0", VA = "0x59AEEC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000832")]
+	[Token(Token = "0x1700087A")]
 	public static string Titan
 	{
-		[Token(Token = "0x6002E4F")]
-		[Address(RVA = "0x2015070", Offset = "0x2013670", VA = "0x182015070")]
+		[Token(Token = "0x60030DB")]
+		[Address(RVA = "0x59AEF30", Offset = "0x59ADF30", VA = "0x59AEF30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000833")]
+	[Token(Token = "0x1700087B")]
 	public static string Human
 	{
-		[Token(Token = "0x6002E50")]
-		[Address(RVA = "0x2014F80", Offset = "0x2013580", VA = "0x182014F80")]
+		[Token(Token = "0x60030DC")]
+		[Address(RVA = "0x59AEFA0", Offset = "0x59ADFA0", VA = "0x59AEFA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000834")]
+	[Token(Token = "0x1700087C")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002E51")]
-		[Address(RVA = "0x2014F50", Offset = "0x2013550", VA = "0x182014F50", Slot = "6")]
+		[Token(Token = "0x60030DD")]
+		[Address(RVA = "0x59AF010", Offset = "0x59AE010", VA = "0x59AF010", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000835")]
+	[Token(Token = "0x1700087D")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002E52")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x60030DE")]
+		[Address(RVA = "0x59AF040", Offset = "0x59AE040", VA = "0x59AF040", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000836")]
+	[Token(Token = "0x1700087E")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002E53")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x60030DF")]
+		[Address(RVA = "0x59AF050", Offset = "0x59AE050", VA = "0x59AF050", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000837")]
+	[Token(Token = "0x1700087F")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002E54")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x60030E0")]
+		[Address(RVA = "0x59AF060", Offset = "0x59AE060", VA = "0x59AF060", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002E4B")]
-	[Address(RVA = "0x2014EB0", Offset = "0x20134B0", VA = "0x182014EB0")]
+	[Token(Token = "0x60030D7")]
+	[Address(RVA = "0x59AED70", Offset = "0x59ADD70", VA = "0x59AED70")]
 	public CustomLogicTeamEnum()
 	{
 	}

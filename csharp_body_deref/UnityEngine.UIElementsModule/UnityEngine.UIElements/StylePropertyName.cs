@@ -27,7 +27,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override string Name
 			{
 				[Token(Token = "0x6002262")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B1ED30", Offset = "0x6B1DD30", VA = "0x6B1ED30", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -39,7 +39,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002263")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B1ED40", Offset = "0x6B1DD40", VA = "0x6B1ED40", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -48,20 +48,20 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			}
 
 			[Token(Token = "0x6002264")]
-			[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "14")]
+			[Address(RVA = "0x6B1ED50", Offset = "0x6B1DD50", VA = "0x6B1ED50", Slot = "14")]
 			public override StylePropertyId GetValue(ref StylePropertyName container)
 			{
 				return default(StylePropertyId);
 			}
 
 			[Token(Token = "0x6002265")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+			[Address(RVA = "0x6B1ED60", Offset = "0x6B1DD60", VA = "0x6B1ED60", Slot = "15")]
 			public override void SetValue(ref StylePropertyName container, StylePropertyId value)
 			{
 			}
 
 			[Token(Token = "0x6002266")]
-			[Address(RVA = "0x310DF50", Offset = "0x310C550", VA = "0x18310DF50")]
+			[Address(RVA = "0x6B1EC70", Offset = "0x6B1DC70", VA = "0x6B1EC70")]
 			public IdProperty()
 			{
 			}
@@ -74,7 +74,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override string Name
 			{
 				[Token(Token = "0x6002267")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B1ED70", Offset = "0x6B1DD70", VA = "0x6B1ED70", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -86,7 +86,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002268")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B1ED80", Offset = "0x6B1DD80", VA = "0x6B1ED80", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -95,27 +95,27 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			}
 
 			[Token(Token = "0x6002269")]
-			[Address(RVA = "0x8EBCB0", Offset = "0x8EA2B0", VA = "0x1808EBCB0", Slot = "14")]
+			[Address(RVA = "0x6B1ED90", Offset = "0x6B1DD90", VA = "0x6B1ED90", Slot = "14")]
 			public override string GetValue(ref StylePropertyName container)
 			{
 				return null;
 			}
 
 			[Token(Token = "0x600226A")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+			[Address(RVA = "0x6B1EDA0", Offset = "0x6B1DDA0", VA = "0x6B1EDA0", Slot = "15")]
 			public override void SetValue(ref StylePropertyName container, string value)
 			{
 			}
 
 			[Token(Token = "0x600226B")]
-			[Address(RVA = "0x310F590", Offset = "0x310DB90", VA = "0x18310F590")]
+			[Address(RVA = "0x6B1ECD0", Offset = "0x6B1DCD0", VA = "0x6B1ECD0")]
 			public NameProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6002261")]
-		[Address(RVA = "0x310FCB0", Offset = "0x310E2B0", VA = "0x18310FCB0")]
+		[Address(RVA = "0x6B1EAD0", Offset = "0x6B1DAD0", VA = "0x6B1EAD0")]
 		public PropertyBag()
 		{
 		}
@@ -125,9 +125,9 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	internal readonly StylePropertyId id
 	{
 		[Token(Token = "0x6002255")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
-		[CompilerGenerated]
+		[Address(RVA = "0x6B1E7A0", Offset = "0x6B1D7A0", VA = "0x6B1E7A0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+		[CompilerGenerated]
 		get
 		{
 			return default(StylePropertyId);
@@ -138,7 +138,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	private readonly string name
 	{
 		[Token(Token = "0x6002256")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6B1E7B0", Offset = "0x6B1D7B0", VA = "0x6B1E7B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -147,7 +147,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	}
 
 	[Token(Token = "0x6002257")]
-	[Address(RVA = "0x3116140", Offset = "0x3114740", VA = "0x183116140")]
+	[Address(RVA = "0x6B1E7C0", Offset = "0x6B1D7C0", VA = "0x6B1E7C0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal static StylePropertyId StylePropertyIdFromString(string name)
 	{
@@ -155,62 +155,62 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	}
 
 	[Token(Token = "0x6002258")]
-	[Address(RVA = "0x31162B0", Offset = "0x31148B0", VA = "0x1831162B0")]
+	[Address(RVA = "0x6B1E860", Offset = "0x6B1D860", VA = "0x6B1E860")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal StylePropertyName(StylePropertyId stylePropertyId)
 	{
 	}
 
 	[Token(Token = "0x6002259")]
-	[Address(RVA = "0x31161E0", Offset = "0x31147E0", VA = "0x1831161E0")]
+	[Address(RVA = "0x6B1E920", Offset = "0x6B1D920", VA = "0x6B1E920")]
 	public StylePropertyName(string name)
 	{
 	}
 
 	[Token(Token = "0x600225A")]
-	[Address(RVA = "0x3116130", Offset = "0x3114730", VA = "0x183116130")]
+	[Address(RVA = "0x6B1E9F0", Offset = "0x6B1D9F0", VA = "0x6B1E9F0")]
 	public static bool operator ==(StylePropertyName lhs, StylePropertyName rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600225B")]
-	[Address(RVA = "0x31163B0", Offset = "0x31149B0", VA = "0x1831163B0")]
+	[Address(RVA = "0x6B1EA00", Offset = "0x6B1DA00", VA = "0x6B1EA00")]
 	public static bool operator !=(StylePropertyName lhs, StylePropertyName rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600225C")]
-	[Address(RVA = "0x3116370", Offset = "0x3114970", VA = "0x183116370")]
+	[Address(RVA = "0x6B1EA10", Offset = "0x6B1DA10", VA = "0x6B1EA10")]
 	public static implicit operator StylePropertyName(string name)
 	{
 		return default(StylePropertyName);
 	}
 
 	[Token(Token = "0x600225D")]
-	[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930", Slot = "2")]
+	[Address(RVA = "0x6B1EA40", Offset = "0x6B1DA40", VA = "0x6B1EA40", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600225E")]
-	[Address(RVA = "0x31160B0", Offset = "0x31146B0", VA = "0x1831160B0", Slot = "0")]
+	[Address(RVA = "0x6B1EA50", Offset = "0x6B1DA50", VA = "0x6B1EA50", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600225F")]
-	[Address(RVA = "0x3116130", Offset = "0x3114730", VA = "0x183116130", Slot = "4")]
+	[Address(RVA = "0x6B1EAB0", Offset = "0x6B1DAB0", VA = "0x6B1EAB0", Slot = "4")]
 	public bool Equals(StylePropertyName other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002260")]
-	[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0", Slot = "3")]
+	[Address(RVA = "0x6B1EAC0", Offset = "0x6B1DAC0", VA = "0x6B1EAC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

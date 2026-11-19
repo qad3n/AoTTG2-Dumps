@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.MemoryProfiler.MetadataCollect
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,7 +19,7 @@ public abstract class MetadataCollect : IDisposable
 	private bool disposed;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2AB8BE0", Offset = "0x2AB71E0", VA = "0x182AB8BE0")]
+	[Address(RVA = "0x64A44C0", Offset = "0x64A34C0", VA = "0x64A44C0")]
 	protected MetadataCollect()
 	{
 	}
@@ -28,7 +28,7 @@ public abstract class MetadataCollect : IDisposable
 	public abstract void CollectMetadata(MemorySnapshotMetadata data);
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2AB8AB0", Offset = "0x2AB70B0", VA = "0x182AB8AB0", Slot = "4")]
+	[Address(RVA = "0x64A4300", Offset = "0x64A3300", VA = "0x64A4300", Slot = "4")]
 	public void Dispose()
 	{
 	}

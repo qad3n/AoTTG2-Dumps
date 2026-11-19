@@ -39,13 +39,13 @@ public class SurfaceDataAttributes : Attribute
 	public string preprocessor;
 
 	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x2B4A640", Offset = "0x2B48C40", VA = "0x182B4A640")]
+	[Address(RVA = "0x65259B0", Offset = "0x65249B0", VA = "0x65259B0")]
 	public SurfaceDataAttributes(string displayName = "", bool isDirection = false, bool sRGBDisplay = false, FieldPrecision precision = FieldPrecision.Default, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}
 
 	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x2B4A700", Offset = "0x2B48D00", VA = "0x182B4A700")]
+	[Address(RVA = "0x6525A80", Offset = "0x6524A80", VA = "0x6525A80")]
 	public SurfaceDataAttributes(string[] displayNames, bool isDirection = false, bool sRGBDisplay = false, FieldPrecision precision = FieldPrecision.Default, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}

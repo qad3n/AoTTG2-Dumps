@@ -12,255 +12,255 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200020C")]
+[Token(Token = "0x20001CD")]
 [ComVisible(true)]
 public abstract class MemberDescriptor
 {
-	[Token(Token = "0x400078E")]
+	[Token(Token = "0x40006BF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string name;
 
-	[Token(Token = "0x400078F")]
+	[Token(Token = "0x40006C0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string displayName;
 
-	[Token(Token = "0x4000790")]
+	[Token(Token = "0x40006C1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private int nameHash;
 
-	[Token(Token = "0x4000791")]
+	[Token(Token = "0x40006C2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private AttributeCollection attributeCollection;
 
-	[Token(Token = "0x4000792")]
+	[Token(Token = "0x40006C3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private Attribute[] attributes;
 
-	[Token(Token = "0x4000793")]
+	[Token(Token = "0x40006C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private Attribute[] originalAttributes;
 
-	[Token(Token = "0x4000794")]
+	[Token(Token = "0x40006C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private bool attributesFiltered;
 
-	[Token(Token = "0x4000795")]
+	[Token(Token = "0x40006C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x41")]
 	private bool attributesFilled;
 
-	[Token(Token = "0x4000796")]
+	[Token(Token = "0x40006C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x44")]
 	private int metadataVersion;
 
-	[Token(Token = "0x4000797")]
+	[Token(Token = "0x40006C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private string category;
 
-	[Token(Token = "0x4000798")]
+	[Token(Token = "0x40006C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private string description;
 
-	[Token(Token = "0x4000799")]
+	[Token(Token = "0x40006CA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private object lockCookie;
 
-	[Token(Token = "0x170002D2")]
+	[Token(Token = "0x170002A3")]
 	protected virtual Attribute[] AttributeArray
 	{
-		[Token(Token = "0x6000DB0")]
-		[Address(RVA = "0x28B5930", Offset = "0x28B3F30", VA = "0x1828B5930", Slot = "4")]
+		[Token(Token = "0x6000BF0")]
+		[Address(RVA = "0x62533B0", Offset = "0x62523B0", VA = "0x62533B0", Slot = "4")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000DB1")]
-		[Address(RVA = "0x28B6000", Offset = "0x28B4600", VA = "0x1828B6000", Slot = "5")]
+		[Token(Token = "0x6000BF1")]
+		[Address(RVA = "0x6253C60", Offset = "0x6252C60", VA = "0x6253C60", Slot = "5")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002D3")]
+	[Token(Token = "0x170002A4")]
 	public virtual AttributeCollection Attributes
 	{
-		[Token(Token = "0x6000DB2")]
-		[Address(RVA = "0x28B5960", Offset = "0x28B3F60", VA = "0x1828B5960", Slot = "6")]
+		[Token(Token = "0x6000BF2")]
+		[Address(RVA = "0x6253D50", Offset = "0x6252D50", VA = "0x6253D50", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002D4")]
+	[Token(Token = "0x170002A5")]
 	public virtual string Category
 	{
-		[Token(Token = "0x6000DB3")]
-		[Address(RVA = "0x28B5A50", Offset = "0x28B4050", VA = "0x1828B5A50", Slot = "7")]
+		[Token(Token = "0x6000BF3")]
+		[Address(RVA = "0x6253E40", Offset = "0x6252E40", VA = "0x6253E40", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002D5")]
+	[Token(Token = "0x170002A6")]
 	public virtual string Description
 	{
-		[Token(Token = "0x6000DB4")]
-		[Address(RVA = "0x28B5BA0", Offset = "0x28B41A0", VA = "0x1828B5BA0", Slot = "8")]
+		[Token(Token = "0x6000BF4")]
+		[Address(RVA = "0x6253F80", Offset = "0x6252F80", VA = "0x6253F80", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002D6")]
+	[Token(Token = "0x170002A7")]
 	public virtual bool IsBrowsable
 	{
-		[Token(Token = "0x6000DB5")]
-		[Address(RVA = "0x28B5ED0", Offset = "0x28B44D0", VA = "0x1828B5ED0", Slot = "9")]
+		[Token(Token = "0x6000BF5")]
+		[Address(RVA = "0x6254090", Offset = "0x6253090", VA = "0x6254090", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002D7")]
+	[Token(Token = "0x170002A8")]
 	public virtual string Name
 	{
-		[Token(Token = "0x6000DB6")]
-		[Address(RVA = "0x28B5FB0", Offset = "0x28B45B0", VA = "0x1828B5FB0", Slot = "10")]
+		[Token(Token = "0x6000BF6")]
+		[Address(RVA = "0x6254150", Offset = "0x6253150", VA = "0x6254150", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002D8")]
+	[Token(Token = "0x170002A9")]
 	protected virtual int NameHashCode
 	{
-		[Token(Token = "0x6000DB7")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "11")]
+		[Token(Token = "0x6000BF7")]
+		[Address(RVA = "0x6254190", Offset = "0x6253190", VA = "0x6254190", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002D9")]
+	[Token(Token = "0x170002AA")]
 	public virtual bool DesignTimeOnly
 	{
-		[Token(Token = "0x6000DB8")]
-		[Address(RVA = "0x28B5CC0", Offset = "0x28B42C0", VA = "0x1828B5CC0", Slot = "12")]
+		[Token(Token = "0x6000BF8")]
+		[Address(RVA = "0x62541A0", Offset = "0x62531A0", VA = "0x62541A0", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002DA")]
+	[Token(Token = "0x170002AB")]
 	public virtual string DisplayName
 	{
-		[Token(Token = "0x6000DB9")]
-		[Address(RVA = "0x28B5DB0", Offset = "0x28B43B0", VA = "0x1828B5DB0", Slot = "13")]
+		[Token(Token = "0x6000BF9")]
+		[Address(RVA = "0x6254280", Offset = "0x6253280", VA = "0x6254280", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000DAC")]
-	[Address(RVA = "0x28B5270", Offset = "0x28B3870", VA = "0x1828B5270")]
+	[Token(Token = "0x6000BEC")]
+	[Address(RVA = "0x62533A0", Offset = "0x62523A0", VA = "0x62533A0")]
 	protected MemberDescriptor(string name)
 	{
 	}
 
-	[Token(Token = "0x6000DAD")]
-	[Address(RVA = "0x28B57D0", Offset = "0x28B3DD0", VA = "0x1828B57D0")]
+	[Token(Token = "0x6000BED")]
+	[Address(RVA = "0x6240F30", Offset = "0x623FF30", VA = "0x6240F30")]
 	protected MemberDescriptor(string name, Attribute[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6000DAE")]
-	[Address(RVA = "0x28B5280", Offset = "0x28B3880", VA = "0x1828B5280")]
+	[Token(Token = "0x6000BEE")]
+	[Address(RVA = "0x6241110", Offset = "0x6240110", VA = "0x6241110")]
 	protected MemberDescriptor(MemberDescriptor descr)
 	{
 	}
 
-	[Token(Token = "0x6000DAF")]
-	[Address(RVA = "0x28B53F0", Offset = "0x28B39F0", VA = "0x1828B53F0")]
+	[Token(Token = "0x6000BEF")]
+	[Address(RVA = "0x6241280", Offset = "0x6240280", VA = "0x6241280")]
 	protected MemberDescriptor(MemberDescriptor oldMemberDescriptor, Attribute[] newAttributes)
 	{
 	}
 
-	[Token(Token = "0x6000DBA")]
-	[Address(RVA = "0x28B4480", Offset = "0x28B2A80", VA = "0x1828B4480")]
+	[Token(Token = "0x6000BFA")]
+	[Address(RVA = "0x62533D0", Offset = "0x62523D0", VA = "0x62533D0")]
 	private void CheckAttributesValid()
 	{
 	}
 
-	[Token(Token = "0x6000DBB")]
-	[Address(RVA = "0x28B4540", Offset = "0x28B2B40", VA = "0x1828B4540", Slot = "14")]
+	[Token(Token = "0x6000BFB")]
+	[Address(RVA = "0x6254390", Offset = "0x6253390", VA = "0x6254390", Slot = "14")]
 	protected virtual AttributeCollection CreateAttributeCollection()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DBC")]
-	[Address(RVA = "0x28B45B0", Offset = "0x28B2BB0", VA = "0x1828B45B0", Slot = "0")]
+	[Token(Token = "0x6000BFC")]
+	[Address(RVA = "0x6254400", Offset = "0x6253400", VA = "0x6254400", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DBD")]
-	[Address(RVA = "0x28B4830", Offset = "0x28B2E30", VA = "0x1828B4830", Slot = "15")]
+	[Token(Token = "0x6000BFD")]
+	[Address(RVA = "0x62422D0", Offset = "0x62412D0", VA = "0x62422D0", Slot = "15")]
 	protected virtual void FillAttributes(IList attributeList)
 	{
 	}
 
-	[Token(Token = "0x6000DBE")]
-	[Address(RVA = "0x28B4940", Offset = "0x28B2F40", VA = "0x1828B4940")]
+	[Token(Token = "0x6000BFE")]
+	[Address(RVA = "0x62534A0", Offset = "0x62524A0", VA = "0x62534A0")]
 	private void FilterAttributesIfNeeded()
 	{
 	}
 
-	[Token(Token = "0x6000DBF")]
-	[Address(RVA = "0x28B4EF0", Offset = "0x28B34F0", VA = "0x1828B4EF0")]
+	[Token(Token = "0x6000BFF")]
+	[Address(RVA = "0x6248940", Offset = "0x6247940", VA = "0x6248940")]
 	protected static MethodInfo FindMethod(Type componentClass, string name, Type[] args, Type returnType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DC0")]
-	[Address(RVA = "0x28B4E30", Offset = "0x28B3430", VA = "0x1828B4E30")]
+	[Token(Token = "0x6000C00")]
+	[Address(RVA = "0x6254630", Offset = "0x6253630", VA = "0x6254630")]
 	protected static MethodInfo FindMethod(Type componentClass, string name, Type[] args, Type returnType, bool publicOnly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DC1")]
-	[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "2")]
+	[Token(Token = "0x6000C01")]
+	[Address(RVA = "0x62546E0", Offset = "0x62536E0", VA = "0x62546E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DC2")]
-	[Address(RVA = "0x28B4F80", Offset = "0x28B3580", VA = "0x1828B4F80", Slot = "16")]
+	[Token(Token = "0x6000C02")]
+	[Address(RVA = "0x6242A60", Offset = "0x6241A60", VA = "0x6242A60", Slot = "16")]
 	protected virtual object GetInvocationTarget(Type type, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DC3")]
-	[Address(RVA = "0x28B51C0", Offset = "0x28B37C0", VA = "0x1828B51C0")]
+	[Token(Token = "0x6000C03")]
+	[Address(RVA = "0x6247BC0", Offset = "0x6246BC0", VA = "0x6247BC0")]
 	protected static ISite GetSite(object component)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DC4")]
-	[Address(RVA = "0x28B50A0", Offset = "0x28B36A0", VA = "0x1828B50A0")]
+	[Token(Token = "0x6000C04")]
+	[Address(RVA = "0x62546F0", Offset = "0x62536F0", VA = "0x62546F0")]
 	[Obsolete("This method has been deprecated. Use GetInvocationTarget instead.  http://go.microsoft.com/fwlink/?linkid=14202")]
 	protected static object GetInvokee(Type componentClass, object component)
 	{

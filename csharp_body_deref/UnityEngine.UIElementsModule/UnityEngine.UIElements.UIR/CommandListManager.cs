@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.CommandListManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,7 +55,7 @@ internal class CommandListManager : IDisposable
 	public CommandList defaultCommandList
 	{
 		[Token(Token = "0x6002900")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6B7B3C0", Offset = "0x6B7A3C0", VA = "0x6B7B3C0")]
 		get
 		{
 			return null;
@@ -66,14 +66,14 @@ internal class CommandListManager : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6002905")]
-		[Address(RVA = "0x2C00A50", Offset = "0x2BFF050", VA = "0x182C00A50")]
+		[Address(RVA = "0x6B7BA70", Offset = "0x6B7AA70", VA = "0x6B7BA70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002906")]
-		[Address(RVA = "0x2C00A70", Offset = "0x2BFF070", VA = "0x182C00A70")]
+		[Address(RVA = "0x6B7BA80", Offset = "0x6B7AA80", VA = "0x6B7BA80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -81,50 +81,50 @@ internal class CommandListManager : IDisposable
 	}
 
 	[Token(Token = "0x60028FF")]
-	[Address(RVA = "0x3178E70", Offset = "0x3177470", VA = "0x183178E70")]
+	[Address(RVA = "0x6B7B0B0", Offset = "0x6B7A0B0", VA = "0x6B7B0B0")]
 	public CommandListManager(IntPtr vertexDecl, IntPtr defaultStencilState)
 	{
 	}
 
 	[Token(Token = "0x6002901")]
-	[Address(RVA = "0x3178B40", Offset = "0x3177140", VA = "0x183178B40")]
+	[Address(RVA = "0x6B7B3D0", Offset = "0x6B7A3D0", VA = "0x6B7B3D0")]
 	public CommandList GetOrCreateCommandList(VisualElement owner, Material material, CommandFlags commandFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002902")]
-	[Address(RVA = "0x3178550", Offset = "0x3176B50", VA = "0x183178550")]
+	[Address(RVA = "0x6B7B520", Offset = "0x6B7A520", VA = "0x6B7B520")]
 	public void AdvanceFrame()
 	{
 	}
 
 	[Token(Token = "0x6002903")]
-	[Address(RVA = "0x31786A0", Offset = "0x3176CA0", VA = "0x1831786A0")]
+	[Address(RVA = "0x6B7B810", Offset = "0x6B7A810", VA = "0x6B7B810")]
 	public void BeginSerialize(TextureSlotCount textureSlotCount)
 	{
 	}
 
 	[Token(Token = "0x6002904")]
-	[Address(RVA = "0x3178940", Offset = "0x3176F40", VA = "0x183178940")]
+	[Address(RVA = "0x6B7B830", Offset = "0x6B7A830", VA = "0x6B7B830")]
 	public void EndSerialize()
 	{
 	}
 
 	[Token(Token = "0x6002907")]
-	[Address(RVA = "0x3178930", Offset = "0x3176F30", VA = "0x183178930", Slot = "4")]
+	[Address(RVA = "0x6B7BA90", Offset = "0x6B7AA90", VA = "0x6B7BA90", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6002908")]
-	[Address(RVA = "0x3178CC0", Offset = "0x31772C0", VA = "0x183178CC0")]
+	[Address(RVA = "0x6B7B650", Offset = "0x6B7A650", VA = "0x6B7B650")]
 	public void ResetUIRendererDrawCallData()
 	{
 	}
 
 	[Token(Token = "0x6002909")]
-	[Address(RVA = "0x31786E0", Offset = "0x3176CE0", VA = "0x1831786E0")]
+	[Address(RVA = "0x6B7BAA0", Offset = "0x6B7AAA0", VA = "0x6B7BAA0")]
 	protected void Dispose(bool disposing)
 	{
 	}

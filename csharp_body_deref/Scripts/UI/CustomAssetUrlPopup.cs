@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.CustomAssetUrlPopup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/CustomAssetUrlPopup.c
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/CustomAssetUrlPopup.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,135 +12,135 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000787")]
+[Token(Token = "0x2000832")]
 internal class CustomAssetUrlPopup : PromptPopup
 {
-	[Token(Token = "0x4002571")]
+	[Token(Token = "0x40028E2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Text _label;
 
-	[Token(Token = "0x4002572")]
+	[Token(Token = "0x40028E3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	public bool Done;
 
-	[Token(Token = "0x4002573")]
+	[Token(Token = "0x40028E4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB1")]
 	public bool Confirmed;
 
-	[Token(Token = "0x17000D06")]
+	[Token(Token = "0x17000D82")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004901")]
-		[Address(RVA = "0x223FE70", Offset = "0x223E470", VA = "0x18223FE70", Slot = "35")]
+		[Token(Token = "0x6004E27")]
+		[Address(RVA = "0x5C1BBD0", Offset = "0x5C1ABD0", VA = "0x5C1BBD0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D07")]
+	[Token(Token = "0x17000D83")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004902")]
-		[Address(RVA = "0x210FB90", Offset = "0x210E190", VA = "0x18210FB90", Slot = "5")]
+		[Token(Token = "0x6004E28")]
+		[Address(RVA = "0x5C1BC30", Offset = "0x5C1AC30", VA = "0x5C1BC30", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D08")]
+	[Token(Token = "0x17000D84")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004903")]
-		[Address(RVA = "0x2182BD0", Offset = "0x21811D0", VA = "0x182182BD0", Slot = "6")]
+		[Token(Token = "0x6004E29")]
+		[Address(RVA = "0x5C1BC40", Offset = "0x5C1AC40", VA = "0x5C1BC40", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D09")]
+	[Token(Token = "0x17000D85")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004904")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "9")]
+		[Token(Token = "0x6004E2A")]
+		[Address(RVA = "0x5C1BC50", Offset = "0x5C1AC50", VA = "0x5C1BC50", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000D0A")]
+	[Token(Token = "0x17000D86")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004905")]
-		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "10")]
+		[Token(Token = "0x6004E2B")]
+		[Address(RVA = "0x5C1BC60", Offset = "0x5C1AC60", VA = "0x5C1BC60", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000D0B")]
+	[Token(Token = "0x17000D87")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x6004906")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "12")]
+		[Token(Token = "0x6004E2C")]
+		[Address(RVA = "0x5C1BC70", Offset = "0x5C1AC70", VA = "0x5C1BC70", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x17000D0C")]
+	[Token(Token = "0x17000D88")]
 	public override PopupEscapeBehavior EscapeBehavior
 	{
-		[Token(Token = "0x6004907")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "55")]
+		[Token(Token = "0x6004E2D")]
+		[Address(RVA = "0x5C1BC80", Offset = "0x5C1AC80", VA = "0x5C1BC80", Slot = "55")]
 		get
 		{
 			return default(PopupEscapeBehavior);
 		}
 	}
 
-	[Token(Token = "0x17000D0D")]
+	[Token(Token = "0x17000D89")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004908")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x6004E2E")]
+		[Address(RVA = "0x5C1BC90", Offset = "0x5C1AC90", VA = "0x5C1BC90", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004909")]
-	[Address(RVA = "0x223F910", Offset = "0x223DF10", VA = "0x18223F910", Slot = "20")]
+	[Token(Token = "0x6004E2F")]
+	[Address(RVA = "0x5C1BCA0", Offset = "0x5C1ACA0", VA = "0x5C1BCA0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600490A")]
-	[Address(RVA = "0x223FC10", Offset = "0x223E210", VA = "0x18223FC10")]
+	[Token(Token = "0x6004E30")]
+	[Address(RVA = "0x5C1BF90", Offset = "0x5C1AF90", VA = "0x5C1BF90")]
 	public void Show(string url)
 	{
 	}
 
-	[Token(Token = "0x600490B")]
-	[Address(RVA = "0x223F8F0", Offset = "0x223DEF0", VA = "0x18223F8F0", Slot = "59")]
+	[Token(Token = "0x6004E31")]
+	[Address(RVA = "0x5C1C120", Offset = "0x5C1B120", VA = "0x5C1C120", Slot = "59")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600490C")]
-	[Address(RVA = "0x223F880", Offset = "0x223DE80", VA = "0x18223F880")]
+	[Token(Token = "0x6004E32")]
+	[Address(RVA = "0x5C1C140", Offset = "0x5C1B140", VA = "0x5C1C140")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x600490D")]
-	[Address(RVA = "0x1DD9CD0", Offset = "0x1DD82D0", VA = "0x181DD9CD0")]
+	[Token(Token = "0x6004E33")]
+	[Address(RVA = "0x5C1C1B0", Offset = "0x5C1B1B0", VA = "0x5C1C1B0")]
 	public CustomAssetUrlPopup()
 	{
 	}

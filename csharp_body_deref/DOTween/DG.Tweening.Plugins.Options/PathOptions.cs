@@ -90,7 +90,7 @@ public struct PathOptions : IPlugOptions
 	internal bool addedExtraEndWp;
 
 	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x569D30", Offset = "0x568330", VA = "0x180569D30", Slot = "4")]
+	[Address(RVA = "0x318FCF0", Offset = "0x318ECF0", VA = "0x318FCF0", Slot = "4")]
 	public void Reset()
 	{
 	}

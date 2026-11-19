@@ -1,5 +1,5 @@
 // Type: CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic.OfflineEvaluator/OfflineCustomLogicEvaluator.cs
@@ -8,358 +8,268 @@
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$.ctor
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___ctor (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* script, const MethodInfo* method);
-// 0x1820ed090
+// 0x5b8fc60
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___ctor
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,System_String_o *script,
                MethodInfo *method)
 
 {
-  System_String_o *value;
   CustomLogic_CustomLogicCompiler_o *pCVar1;
-  CustomLogic_CustomLogicSourceFile_o *file;
+  MethodInfo *pMVar2;
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this_00;
   
-  if (Il2CppMethodInitialized_184346a23 == '\0') {
+  if (Il2CppMethodInitialized_075473ef == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicCompiler);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSourceFile);
     il2cpp_codegen_initialize_runtime_metadata(&"TestScript.cl");
-    Il2CppMethodInitialized_184346a23 = '\x01';
+    Il2CppMethodInitialized_075473ef = '\x01';
   }
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols(__this,(MethodInfo *)0x0);
+  pMVar2 = (MethodInfo *)0x0;
+  __this_00 = __this;
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols(__this_00,pMVar2);
   pCVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicCompiler);
   CustomLogic_CustomLogicCompiler___ctor(pCVar1,(MethodInfo *)0x0);
   (__this->fields)._compiler = pCVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._compiler,pCVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._compiler);
   pCVar1 = (__this->fields)._compiler;
-  file = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSourceFile);
-  value = "TestScript.cl";
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)file,(MethodInfo *)0x0);
-  (file->fields)._Name_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(file->fields)._Name_k__BackingField,value);
-  (file->fields)._Content_k__BackingField = script;
-  Il2CppCodeGenWriteBarrier(&(file->fields)._Content_k__BackingField,script);
-  (file->fields)._Type_k__BackingField = 4;
-  (file->fields)._StartLine_k__BackingField = 0;
-  (file->fields)._EndLine_k__BackingField = 0;
-  (file->fields)._MapLogicOffset_k__BackingField = 0;
-  if (pCVar1 != (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    CustomLogic_CustomLogicCompiler__AddSourceFile(pCVar1,file,(MethodInfo *)0x0);
-    CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize(__this,(MethodInfo *)0x0);
-    return;
+  pMVar2 = (MethodInfo *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSourceFile);
+  CustomLogic_CustomLogicSourceFile___ctor
+            ((CustomLogic_CustomLogicSourceFile_o *)pMVar2,"TestScript.cl",script,4,(MethodInfo *)0x0);
+  if (pCVar1 == (CustomLogic_CustomLogicCompiler_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicCompiler__AddSourceFile
+            (pCVar1,(CustomLogic_CustomLogicSourceFile_o *)pMVar2,(MethodInfo *)0x0);
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize(__this,pMVar2);
+  return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$.ctor
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___ctor (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, CustomLogic_CustomLogicCompiler_o* compiler, const MethodInfo* method);
-// 0x1820ed040
+// 0x5b90120
 
-void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___ctor_20ed040
+void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___ctor_5a90120
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,
                CustomLogic_CustomLogicCompiler_o *compiler,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols(__this,(MethodInfo *)0x0);
+  MethodInfo *method_00;
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this_00;
+  
+  method_00 = (MethodInfo *)0x0;
+  __this_00 = __this;
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols(__this_00,method_00);
   (__this->fields)._compiler = compiler;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._compiler,compiler);
-  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize(__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._compiler);
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize
+            (__this,(MethodInfo *)compiler);
   return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$InitializeSymbols
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820ecab0
+// 0x5b8fd40
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeSymbols
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__int__o *pSVar1;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar2;
-  System_Collections_Generic_Dictionary_int__int__o *__this_00;
-  int32_t iVar3;
+  uint32_t uVar1;
+  System_Collections_Generic_Dictionary_object__int__o *__this_00;
+  int32_t iVar2;
   
-  if (Il2CppMethodInitialized_184346a24 == '\0') {
+  if (Il2CppMethodInitialized_075473f0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Count);
-    Il2CppMethodInitialized_184346a24 = '\x01';
+    Il2CppMethodInitialized_075473f0 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+    __this_00 = (System_Collections_Generic_Dictionary_object__int__o *)
+                TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
+  }
+  else {
+    __this_00 = *(System_Collections_Generic_Dictionary_object__int__o **)
+                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols)->static_fields;
+  }
+  if (__this_00 == (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  iVar2 = System_Collections_Generic_Dictionary_object__int___get_Count
+                    (__this_00,
+                     (MethodInfo_4A9D390 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Count);
+  if (iVar2 != 0) {
+    return;
   }
   if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+    CustomLogic_CustomLogicSymbols__Init((MethodInfo *)0x0);
+    return;
   }
-  pSVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-  if (pSVar1 == (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-label_1820eccf0:
-    ThrowNullReferenceException();
-  }
-  iVar3 = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___get_Count
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-                     (MethodInfo_13CDEB0 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Count);
-  if (iVar3 == 0) {
-    if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-    }
-    if (Il2CppMethodInitialized_1843469d2 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
-      Il2CppMethodInitialized_1843469d2 = '\x01';
-    }
-    if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-    }
-    if (TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded == false) {
-      if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-      }
-      if (Il2CppMethodInitialized_1843469d3 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-        Il2CppMethodInitialized_1843469d3 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-      }
-      pSVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-      if (pSVar1 != (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-                   (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
-        pSVar2 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                 TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
-        if (pSVar2 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-          System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                    (pSVar2,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-          pSVar2 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                   TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames;
-          if (pSVar2 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-            System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                      (pSVar2,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear
-                      );
-            __this_00 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities;
-            if (__this_00 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-              System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                         (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear)
-              ;
-              pSVar2 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols;
-              if (pSVar2 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                          (pSVar2,(MethodInfo_17592A0 *)
-                                  MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-                pSVar2 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                         TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols;
-                if (pSVar2 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                  System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                            (pSVar2,(MethodInfo_17592A0 *)
-                                    MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-                  CustomLogic_CustomLogicSymbols__AddSymbols((MethodInfo *)0x0);
-                  CustomLogic_CustomLogicSymbols__CategorizeSymbols((MethodInfo *)0x0);
-                  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded = true;
-                  return;
-                }
-              }
-            }
-          }
-        }
-      }
-      goto label_1820eccf0;
-    }
-  }
+  CustomLogic_CustomLogicSymbols__Init((MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$CompileAndInitialize
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820eb400
+// 0x5b8fdf0
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitialize
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_Fields *targetAddress;
   CustomLogic_CustomLogicCompiler_o *pCVar1;
-  System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *__this_01;
-  bool bVar2;
-  System_String_o *pSVar3;
-  CustomLogic_CustomLogicLexer_o *__this_02;
-  System_Collections_Generic_List_CustomLogicToken__o *value;
-  CustomLogic_CustomLogicParser_o *__this_03;
-  System_Collections_Generic_List_CustomLogicToken__o *__this_04;
-  CustomLogic_CustomLogicStartAst_o *pCVar4;
-  CustomLogic_CustomLogicEvaluator_o *pCVar5;
-  CustomLogic_CustomLogicClassInstance_o *value_00;
-  System_String_o *pSVar6;
-  Il2CppClass *pIVar7;
-  System_Exception_o *pSVar8;
-  MethodInfo *pMVar9;
+  CustomLogic_CustomLogicManager_StaticFields *pCVar2;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  bool bVar4;
+  System_String_o *pSVar5;
+  CustomLogic_CustomLogicLexer_o *__this_00;
+  System_Collections_Generic_List_CustomLogicToken__o *tokens;
+  CustomLogic_CustomLogicParser_o *__this_01;
+  CustomLogic_CustomLogicStartAst_o *pCVar6;
+  CustomLogic_CustomLogicEvaluator_o *pCVar7;
+  CustomLogic_CustomLogicClassInstance_o *pCVar8;
+  System_String_o *str0;
+  Il2CppClass *klass;
+  System_Exception_o *__this_02;
+  MethodInfo *lastManagedFrame;
+  System_String_o **metadataPointer;
   
-  if (Il2CppMethodInitialized_184346a25 == '\0') {
+  if (Il2CppMethodInitialized_075473f1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicLexer);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicParser);
     il2cpp_codegen_initialize_runtime_metadata(&"Main");
-    Il2CppMethodInitialized_184346a25 = '\x01';
+    Il2CppMethodInitialized_075473f1 = '\x01';
   }
   pCVar1 = (__this->fields)._compiler;
   if (pCVar1 != (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    pSVar3 = CustomLogic_CustomLogicCompiler__Compile(pCVar1,(MethodInfo *)0x0);
+    pSVar5 = CustomLogic_CustomLogicCompiler__Compile(pCVar1,(MethodInfo *)0x0);
     pCVar1 = (__this->fields)._compiler;
-    __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLexer);
-    CustomLogic_CustomLogicLexer___ctor(__this_02,pSVar3,pCVar1,(MethodInfo *)0x0);
-    if (__this_02 != (CustomLogic_CustomLogicLexer_o *)0x0) {
-      value = CustomLogic_CustomLogicLexer__GetTokens(__this_02,(MethodInfo *)0x0);
-      bVar2 = System_String__IsNullOrEmpty((__this_02->fields).Error,(MethodInfo *)0x0);
-      if (!bVar2) {
-        NullCheck(__this_02);
-        pSVar3 = (__this_02->fields).Error;
-        pSVar6 = il2cpp_codegen_get_runtime_metadata(&"Lexer error: ");
-        pSVar3 = System_String__Concat_1969e50(pSVar6,pSVar3,(MethodInfo *)0x0);
-        pIVar7 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-        pSVar8 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar7);
-        System_Exception___ctor_1b6abf0(pSVar8,pSVar3,(MethodInfo *)0x0);
-        pMVar9 = il2cpp_codegen_get_runtime_metadata
-                           (&
-                            MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_CompileAndInitialize
-                           );
-        il2cpp_codegen_raise_exception((Il2CppObject *)pSVar8,pMVar9);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicLexer);
+    CustomLogic_CustomLogicLexer___ctor(__this_00,pSVar5,pCVar1,(MethodInfo *)0x0);
+    if (__this_00 != (CustomLogic_CustomLogicLexer_o *)0x0) {
+      tokens = CustomLogic_CustomLogicLexer__GetTokens(__this_00,(MethodInfo *)0x0);
+      bVar4 = System_String__IsNullOrEmpty((__this_00->fields).Error,(MethodInfo *)0x0);
+      if (!bVar4) {
+        NullCheck(__this_00);
+        pSVar5 = (__this_00->fields).Error;
+        metadataPointer = &"Lexer error: ";
+label_05b900c3:
+        str0 = il2cpp_codegen_get_runtime_metadata(metadataPointer);
+        pSVar5 = System_String__Concat_52f0320(str0,pSVar5,(MethodInfo *)0x0);
+        klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+        __this_02 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+        System_Exception___ctor_54fa440(__this_02,pSVar5,(MethodInfo *)0x0);
+        lastManagedFrame =
+             il2cpp_codegen_get_runtime_metadata
+                       (&
+                        MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_CompileAndInitialize
+                       );
+        il2cpp_codegen_raise_exception((Il2CppObject *)__this_02,lastManagedFrame);
       }
       pCVar1 = (__this->fields)._compiler;
-      __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicParser);
-      if (Il2CppMethodInitialized_1843469c4 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_CustomLogicToken)
-        ;
-        il2cpp_codegen_initialize_runtime_metadata(&"");
-        Il2CppMethodInitialized_1843469c4 = '\x01';
-      }
-      __this_04 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicToken);
-      System_Collections_Generic_List_object____ctor
-                ((System_Collections_Generic_LowLevelList_T__o *)__this_04,
-                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
-      (__this_03->fields)._tokens = __this_04;
-      Il2CppCodeGenWriteBarrier(&(__this_03->fields)._tokens,__this_04);
-      (__this_03->fields).Error = "";
-      Il2CppCodeGenWriteBarrier(&(__this_03->fields).Error,"");
-      System_Configuration_ConfigurationCollectionAttribute___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_03,(MethodInfo *)0x0);
-      (__this_03->fields)._tokens = value;
-      Il2CppCodeGenWriteBarrier(&(__this_03->fields)._tokens,value);
-      (__this_03->fields)._Compiler_k__BackingField = pCVar1;
-      Il2CppCodeGenWriteBarrier(&(__this_03->fields)._Compiler_k__BackingField,pCVar1);
-      pCVar4 = CustomLogic_CustomLogicParser__GetStartAst(__this_03,(MethodInfo *)0x0);
-      bVar2 = System_String__IsNullOrEmpty((__this_03->fields).Error,(MethodInfo *)0x0);
-      if (!bVar2) {
-        NullCheck(__this_03);
-        pSVar3 = (__this_03->fields).Error;
-        pSVar6 = il2cpp_codegen_get_runtime_metadata(&"Parser error: ");
-        pSVar3 = System_String__Concat_1969e50(pSVar6,pSVar3,(MethodInfo *)0x0);
-        pIVar7 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-        pSVar8 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar7);
-        System_Exception___ctor_1b6abf0(pSVar8,pSVar3,(MethodInfo *)0x0);
-        pMVar9 = il2cpp_codegen_get_runtime_metadata
-                           (&
-                            MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_CompileAndInitialize
-                           );
-        il2cpp_codegen_raise_exception((Il2CppObject *)pSVar8,pMVar9);
-      }
-      pCVar1 = (__this->fields)._compiler;
-      pCVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      CustomLogic_CustomLogicEvaluator___ctor(pCVar5,pCVar4,pCVar1,(MethodInfo *)0x0);
-      (__this->fields)._evaluator = pCVar5;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._evaluator,pCVar5);
-      pCVar5 = (__this->fields)._evaluator;
-      if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-        (pCVar5->fields)._CaptureErrors_k__BackingField = true;
-        pCVar5 = (__this->fields)._evaluator;
-        if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicParser);
+      CustomLogic_CustomLogicParser___ctor(__this_01,tokens,pCVar1,(MethodInfo *)0x0);
+      if (__this_01 != (CustomLogic_CustomLogicParser_o *)0x0) {
+        pCVar6 = CustomLogic_CustomLogicParser__GetStartAst(__this_01,(MethodInfo *)0x0);
+        bVar4 = System_String__IsNullOrEmpty((__this_01->fields).Error,(MethodInfo *)0x0);
+        if (!bVar4) {
+          NullCheck(__this_01);
+          pSVar5 = (__this_01->fields).Error;
+          metadataPointer = &"Parser error: ";
+          goto label_05b900c3;
         }
-        TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator = pCVar5;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator,pCVar5);
-        CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticClasses
-                  (__this,(MethodInfo *)0x0);
-        CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticClasses
-                  (__this,(MethodInfo *)0x0);
-        if (Il2CppMethodInitialized_184346a2a == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
-                    );
-          il2cpp_codegen_initialize_runtime_metadata(&"Main");
-          Il2CppMethodInitialized_184346a2a = '\x01';
-        }
-        pCVar5 = (__this->fields)._evaluator;
-        if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-          pCVar4 = (pCVar5->fields)._start;
-          if (pCVar4 == (CustomLogic_CustomLogicStartAst_o *)0x0) {
-            return;
+        pCVar1 = (__this->fields)._compiler;
+        pCVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+        CustomLogic_CustomLogicEvaluator___ctor(pCVar7,pCVar6,pCVar1,(MethodInfo *)0x0);
+        targetAddress = &__this->fields;
+        (__this->fields)._evaluator = pCVar7;
+        Il2CppCodeGenWriteBarrier(&targetAddress->_evaluator);
+        pCVar7 = (__this->fields)._evaluator;
+        if (pCVar7 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+          (pCVar7->fields)._CaptureErrors_k__BackingField = true;
+          if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
           }
-          __this_00 = (pCVar4->fields).Classes;
-          if (__this_00 !=
-              (System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *)0x0) {
-            bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                               (Il2CppObject *)"Main",
-                               (MethodInfo_1455450 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
-                              );
-            pSVar3 = "Main";
-            if (!bVar2) {
+          pCVar2 = TypeInfo_CustomLogic_CustomLogicManager->static_fields;
+          pCVar2->Evaluator = pCVar7;
+          Il2CppCodeGenWriteBarrier(&pCVar2->Evaluator);
+          CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticClasses
+                    (__this,(MethodInfo *)pCVar7);
+          CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticClasses
+                    (__this,(MethodInfo *)pCVar7);
+          if (Il2CppMethodInitialized_075473f6 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
+                      );
+            il2cpp_codegen_initialize_runtime_metadata(&"Main");
+            Il2CppMethodInitialized_075473f6 = '\x01';
+          }
+          if (targetAddress->_evaluator != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+            pCVar6 = (targetAddress->_evaluator->fields)._start;
+            if (pCVar6 == (CustomLogic_CustomLogicStartAst_o *)0x0) {
               return;
             }
-            if (Il2CppMethodInitialized_184346a29 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&
-                         MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
-                        );
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&
-                         MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item
-                        );
-              Il2CppMethodInitialized_184346a29 = '\x01';
-            }
-            pCVar5 = (__this->fields)._evaluator;
-            if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-              __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
-                          (pCVar5->fields)._staticClasses;
-              if ((__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
-                 (bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                                     (Il2CppObject *)pSVar3,
-                                     (MethodInfo_1455450 *)
-                                     MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
-                                    ), !bVar2)) {
-                value_00 = (CustomLogic_CustomLogicClassInstance_o *)0x0;
+            pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar6->fields).Classes;
+            if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+              bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                                (pSVar3,(Il2CppObject *)"Main",
+                                 (MethodInfo_4AAD6F0 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
+                                );
+              pSVar5 = "Main";
+              if (!bVar4) {
+                return;
               }
-              else {
-                value_00 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                     (__this_01,(Il2CppObject *)pSVar3,
-                                      (MethodInfo_147A5B0 *)
+              if (Il2CppMethodInitialized_075473f5 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&
+                           MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
+                          );
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&
+                           MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item
+                          );
+                Il2CppMethodInitialized_075473f5 = '\x01';
+              }
+              if (targetAddress->_evaluator != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+                pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+                         (targetAddress->_evaluator->fields)._staticClasses;
+                if ((pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+                   (bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                                      (pSVar3,(Il2CppObject *)pSVar5,
+                                       (MethodInfo_4AAD6F0 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
+                                      ), !bVar4)) {
+                  pCVar8 = (CustomLogic_CustomLogicClassInstance_o *)0x0;
+                }
+                else {
+                  pCVar8 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                     (pSVar3,(Il2CppObject *)pSVar5,
+                                      (MethodInfo_4AAD450 *)
                                       MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item
                                      );
+                }
+                (__this->fields)._mainInstance = pCVar8;
+                Il2CppCodeGenWriteBarrier(&(__this->fields)._mainInstance);
+                return;
               }
-              (__this->fields)._mainInstance = value_00;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._mainInstance,value_00);
-              return;
             }
           }
         }
@@ -372,117 +282,188 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CompileAndInitial
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$InitializeStaticClasses
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticClasses (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820ebe20
-// eh: try 0x1820ec160..0x1820eca9a -> pad 0x183331f00 (+10 call sites) catch Il2CppExceptionWrapper
-// asm: 108 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820ec159: nop dword ptr [rax]
-// asm:   0x1820ec253: mov rdx, qword ptr [rip + 0x1fab41e]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_Dispose
-// asm:   0x1820ec25a: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1820ec25f: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820ec264: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820ec269: test rcx, rcx
-// asm:   0x1820ec26c: jne 0x1820ec9fc
-// asm:   0x1820ec272: xor r15d, r15d
-// asm:   0x1820ec275: mov rsi, qword ptr [rsp + 0x180]
-// asm:   0x1820ec27d: mov r14, qword ptr [rsp + 0x78]
-// asm:   0x1820ec282: mov r13, qword ptr [rsp + 0x68]
-// asm:   0x1820ec287: mov r12, qword ptr [rsp + 0x50]
-// asm:   0x1820ec300: mov r13, qword ptr [rsp + 0x68]
-// asm:   0x1820ec6c9: mov rdx, qword ptr [rip + 0x1fcd790]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition
-// asm:   0x1820ec6d0: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1820ec6d5: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820ec6da: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820ec6df: test rcx, rcx
-// asm:   0x1820ec6e2: jne 0x1820eca72
-// asm:   0x1820ec6e8: xor r15d, r15d
-// asm:   0x1820ec6eb: mov rsi, qword ptr [rsp + 0x180]
-// asm:   0x1820ec6f3: mov r14, qword ptr [rsp + 0x78]
-// asm:   0x1820ec6f8: mov r12, qword ptr [rsp + 0x70]
-// asm:   0x1820ec7d9: mov rdx, qword ptr [rip + 0x1fcdbc0]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
-// asm:   0x1820ec7e0: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1820ec7e5: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820ec7ea: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820ec7ef: test rcx, rcx
-// asm:   0x1820ec7f2: jne 0x1820eca7e
-// asm:   0x1820ec7f8: xor r15d, r15d
-// asm:   0x1820ec7fb: mov rsi, qword ptr [rsp + 0x180]
-// asm:   0x1820ec803: mov r12, qword ptr [rsp + 0x70]
-// asm:   0x1820ec8fd: nop dword ptr [rax]
-// asm:   0x1820ec97c: mov rdx, qword ptr [rip + 0x1fbede5]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog
-// asm:   0x1820ec983: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1820ec988: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820ec98d: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820ec992: test rcx, rcx
-// asm:   0x1820ec995: jne 0x1820eca8a
-// asm:   0x1820ec99b: xor r15d, r15d
-// asm:   0x1820ec99e: mov rsi, qword ptr [rsp + 0x180]
-// asm:   0x1820ec9a6: jmp 0x1820ec870
-// asm:   0x1820ec9be: mov rdx, qword ptr [rip + 0x1fc959b]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo
-// asm:   0x1820ec9c5: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x1820ec9ca: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820ec9cf: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x1820ec9d4: test rcx, rcx
-// asm:   0x1820ec9d7: jne 0x1820eca9a
-// asm:   0x1820ec9fc: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820eca72: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820eca7e: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820eca8a: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820eca9a: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183331f00: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183331f05: push rbp
-// asm:   0x183331f06: sub rsp, 0x30
-// asm:   0x183331f0a: mov rbp, rdx
-// asm:   0x183331f0d: mov rax, qword ptr [rbp + 0xf8]
-// asm:   0x183331f14: mov rcx, qword ptr [rax]
-// asm:   0x183331f17: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183331f1b: movabs rax, 0
-// asm:   0x183331f25: add rsp, 0x30
-// asm:   0x183331f29: pop rbp
-// asm:   0x183331f2a: ret 
-// asm:   0x18333b5f0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333b5f5: push rbp
-// asm:   0x18333b5f6: sub rsp, 0x30
-// asm:   0x18333b5fa: mov rbp, rdx
-// asm:   0x18333b5fd: mov rax, qword ptr [rbp + 0x100]
-// asm:   0x18333b604: mov rcx, qword ptr [rax]
-// asm:   0x18333b607: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333b60b: movabs rax, 0
-// asm:   0x18333b615: add rsp, 0x30
-// asm:   0x18333b619: pop rbp
-// asm:   0x18333b61a: ret 
-// asm:   0x18333b6f0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333b6f5: push rbp
-// asm:   0x18333b6f6: sub rsp, 0x30
-// asm:   0x18333b6fa: mov rbp, rdx
-// asm:   0x18333b6fd: mov rax, qword ptr [rbp + 0x108]
-// asm:   0x18333b704: mov rcx, qword ptr [rax]
-// asm:   0x18333b707: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333b70b: movabs rax, 0
-// asm:   0x18333b715: add rsp, 0x30
-// asm:   0x18333b719: pop rbp
-// asm:   0x18333b71a: ret 
-// asm:   0x18333ea20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333ea25: push rbp
-// asm:   0x18333ea26: sub rsp, 0x30
-// asm:   0x18333ea2a: mov rbp, rdx
-// asm:   0x18333ea2d: mov rax, qword ptr [rbp + 0x110]
-// asm:   0x18333ea34: mov rcx, qword ptr [rax]
-// asm:   0x18333ea37: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333ea3b: movabs rax, 0
-// asm:   0x18333ea45: add rsp, 0x30
-// asm:   0x18333ea49: pop rbp
-// asm:   0x18333ea4a: ret 
-// asm:   0x18333ea50: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333ea55: push rbp
-// asm:   0x18333ea56: sub rsp, 0x30
-// asm:   0x18333ea5a: mov rbp, rdx
-// asm:   0x18333ea5d: mov rax, qword ptr [rbp + 0x118]
-// asm:   0x18333ea64: mov rcx, qword ptr [rax]
-// asm:   0x18333ea67: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x18333ea6b: movabs rax, 0
-// asm:   0x18333ea75: add rsp, 0x30
-// asm:   0x18333ea79: pop rbp
-// asm:   0x18333ea7a: ret 
+// 0x5b90160
+// eh: try 0x5b904b4..0x5b90d9d -> pad 0x5b90f76 (+66 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5b90da3..0x5b90dad -> pad 0x5b91025 catch (...) [compiler noexcept guard]
+// eh: try 0x5b90ec2..0x5b90ec7 -> pad 0x5b90eee cleanup
+// eh: try 0x5b90ef1..0x5b90efe -> pad 0x5b91025 catch (...) [compiler noexcept guard]
+// eh: try 0x5b90f3a..0x5b90f3f -> pad 0x5b90f64 cleanup
+// eh: try 0x5b90f67..0x5b90f71 -> pad 0x5b91025 catch (...) [compiler noexcept guard]
+// eh: try 0x5b90f93..0x5b90f98 -> pad 0x5b90fba cleanup
+// eh: try 0x5b90fbd..0x5b90fc7 -> pad 0x5b91025 catch (...) [compiler noexcept guard]
+// eh: try 0x5b90fe1..0x5b90fe6 -> pad 0x5b91010 cleanup
+// eh: try 0x5b91013..0x5b9101d -> pad 0x5b91025 catch (...) [compiler noexcept guard]
+// asm: 170 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b904a9: nop dword ptr [rax]
+// asm:   0x5b90a99: nop dword ptr [rax]
+// asm:   0x5b90ca9: test r15d, r15d
+// asm:   0x5b90cac: je 0x5b90b90
+// asm:   0x5b90cb2: jmp 0x5b90ce8
+// asm:   0x5b90cbe: jmp 0x5b90cc2
+// asm:   0x5b90cc0: jmp 0x5b90cc2
+// asm:   0x5b90cc2: mov rbx, rdx
+// asm:   0x5b90cc5: cmp ebx, 1
+// asm:   0x5b90cc8: jne 0x5b90da0
+// asm:   0x5b90cce: mov rdi, rax
+// asm:   0x5b90cd1: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b90cd6: mov rbx, qword ptr [rax]
+// asm:   0x5b90cd9: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5b90cde: xor r15d, r15d
+// asm:   0x5b90ce1: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b90ce6: jmp 0x5b90c88
+// asm:   0x5b90d18: mov rdi, rbx
+// asm:   0x5b90d1b: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5b90d9d: mov rbx, rdx
+// asm:   0x5b90da0: mov rbp, rax
+// asm:   0x5b90da3: lea rdi, [rsp + 0x18]
+// asm:   0x5b90da8: call 0x2fd81d0  ; il2cpp_runtime_helper_02fd81d0()
+// asm:   0x5b90dad: mov rdi, rbp
+// asm:   0x5b90db0: jmp 0x5b90ead
+// asm:   0x5b90db5: jmp 0x5b90f1d
+// asm:   0x5b90dba: jmp 0x5b90f1d
+// asm:   0x5b90dbf: jmp 0x5b90f0f
+// asm:   0x5b90dc4: jmp 0x5b90f1d
+// asm:   0x5b90dc9: jmp 0x5b90f1d
+// asm:   0x5b90dce: jmp 0x5b90f1d
+// asm:   0x5b90dd3: jmp 0x5b90f1d
+// asm:   0x5b90dd8: jmp 0x5b90f1d
+// asm:   0x5b90ddd: jmp 0x5b90f1d
+// asm:   0x5b90de2: jmp 0x5b90f0f
+// asm:   0x5b90de7: jmp 0x5b90f1d
+// asm:   0x5b90dec: jmp 0x5b90f0f
+// asm:   0x5b90df1: jmp 0x5b90f0f
+// asm:   0x5b90df6: jmp 0x5b90f0f
+// asm:   0x5b90dfb: jmp 0x5b90f1d
+// asm:   0x5b90e00: jmp 0x5b90f1d
+// asm:   0x5b90e05: jmp 0x5b90f0f
+// asm:   0x5b90e0a: jmp 0x5b90f0f
+// asm:   0x5b90e0f: jmp 0x5b90f1d
+// asm:   0x5b90e14: jmp 0x5b90f1d
+// asm:   0x5b90e19: jmp 0x5b90f1d
+// asm:   0x5b90e1e: jmp 0x5b90f76
+// asm:   0x5b90e23: jmp 0x5b90f76
+// asm:   0x5b90e28: jmp 0x5b90f0f
+// asm:   0x5b90e2d: jmp 0x5b90f1d
+// asm:   0x5b90e32: jmp 0x5b90f1d
+// asm:   0x5b90e37: jmp 0x5b90f1d
+// asm:   0x5b90e3c: jmp 0x5b90f0f
+// asm:   0x5b90e41: jmp 0x5b90f0f
+// asm:   0x5b90e46: jmp 0x5b90f0f
+// asm:   0x5b90e4b: jmp 0x5b90f1d
+// asm:   0x5b90e50: jmp 0x5b90f1d
+// asm:   0x5b90e55: jmp 0x5b90f0f
+// asm:   0x5b90e5a: jmp 0x5b90f0f
+// asm:   0x5b90e5f: jmp 0x5b90f0f
+// asm:   0x5b90e64: jmp 0x5b90f76
+// asm:   0x5b90e69: jmp 0x5b90f1d
+// asm:   0x5b90e6e: jmp 0x5b90f1d
+// asm:   0x5b90e73: jmp 0x5b90f0f
+// asm:   0x5b90e78: jmp 0x5b90f0f
+// asm:   0x5b90e7d: jmp 0x5b90f1d
+// asm:   0x5b90e82: jmp 0x5b90f0f
+// asm:   0x5b90e87: jmp 0x5b90f0f
+// asm:   0x5b90e8c: jmp 0x5b90f76
+// asm:   0x5b90e91: jmp 0x5b90f76
+// asm:   0x5b90e96: jmp 0x5b90f76
+// asm:   0x5b90e9b: jmp 0x5b90ea7
+// asm:   0x5b90e9d: jmp 0x5b90ea7
+// asm:   0x5b90e9f: jmp 0x5b90ea7
+// asm:   0x5b90ea1: jmp 0x5b90ea7
+// asm:   0x5b90ea3: jmp 0x5b90ea7
+// asm:   0x5b90ea5: jmp 0x5b90ea7
+// asm:   0x5b90ea7: mov rbx, rdx
+// asm:   0x5b90eaa: mov rdi, rax
+// asm:   0x5b90ead: cmp ebx, 1
+// asm:   0x5b90eb0: jne 0x5b90ee9
+// asm:   0x5b90eb2: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b90eb7: mov rbx, qword ptr [rax]
+// asm:   0x5b90eba: mov qword ptr [rsp + 0xe8], rbx
+// asm:   0x5b90ec2: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b90ec7: lea rax, [rip + 0x16fedca]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo
+// asm:   0x5b90ece: mov rsi, qword ptr [rax]
+// asm:   0x5b90ed1: lea rdi, [rsp + 0x50]
+// asm:   0x5b90ed6: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x5b90edb: test rbx, rbx
+// asm:   0x5b90ede: je 0x5b90cfc
+// asm:   0x5b90ee4: jmp 0x5b91008
+// asm:   0x5b90ee9: mov rbx, rdi
+// asm:   0x5b90eec: jmp 0x5b90ef1
+// asm:   0x5b90eee: mov rbx, rax
+// asm:   0x5b90ef1: lea rdi, [rsp + 0xe8]
+// asm:   0x5b90ef9: call 0x2fd8200  ; il2cpp_runtime_helper_02fd8200()
+// asm:   0x5b90efe: jmp 0x5b9101d
+// asm:   0x5b90f03: jmp 0x5b90fc9
+// asm:   0x5b90f08: jmp 0x5b90fc9
+// asm:   0x5b90f0d: jmp 0x5b90f1d
+// asm:   0x5b90f0f: mov rbx, rax
+// asm:   0x5b90f12: mov r15, qword ptr [rsp + 0x10]
+// asm:   0x5b90f17: jmp 0x5b90f20
+// asm:   0x5b90f19: jmp 0x5b90f76
+// asm:   0x5b90f1b: jmp 0x5b90f76
+// asm:   0x5b90f1d: mov rbx, rax
+// asm:   0x5b90f20: mov rbp, qword ptr [rsp + 8]
+// asm:   0x5b90f25: cmp edx, 1
+// asm:   0x5b90f28: jne 0x5b90f67
+// asm:   0x5b90f2a: mov rdi, rbx
+// asm:   0x5b90f2d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b90f32: mov rbx, qword ptr [rax]
+// asm:   0x5b90f35: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5b90f3a: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b90f3f: lea rax, [rip + 0x16fef92]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition
+// asm:   0x5b90f46: mov rsi, qword ptr [rax]
+// asm:   0x5b90f49: lea rdi, [rsp + 0x90]
+// asm:   0x5b90f51: call 0x4de7070  ; System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose()
+// asm:   0x5b90f56: test rbx, rbx
+// asm:   0x5b90f59: je 0x5b90a26
+// asm:   0x5b90f5f: jmp 0x5b91008
+// asm:   0x5b90f64: mov rbx, rax
+// asm:   0x5b90f67: lea rdi, [rsp + 0x18]
+// asm:   0x5b90f6c: call 0x2fd8170  ; il2cpp_runtime_helper_02fd8170()
+// asm:   0x5b90f71: jmp 0x5b9101d
+// asm:   0x5b90f76: mov rbx, rax
+// asm:   0x5b90f79: cmp edx, 1
+// asm:   0x5b90f7c: mov r15, qword ptr [rsp + 0x10]
+// asm:   0x5b90f81: jne 0x5b90fbd
+// asm:   0x5b90f83: mov rdi, rbx
+// asm:   0x5b90f86: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b90f8b: mov rbx, qword ptr [rax]
+// asm:   0x5b90f8e: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5b90f93: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b90f98: lea rax, [rip + 0x16fdb41]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_Dispose
+// asm:   0x5b90f9f: mov rsi, qword ptr [rax]
+// asm:   0x5b90fa2: lea rdi, [rsp + 0xb0]
+// asm:   0x5b90faa: call 0x4d456c0  ; System_Collections_Generic_HashSet_Enumerator_object___Dispose()
+// asm:   0x5b90faf: test rbx, rbx
+// asm:   0x5b90fb2: je 0x5b9059e
+// asm:   0x5b90fb8: jmp 0x5b91008
+// asm:   0x5b90fba: mov rbx, rax
+// asm:   0x5b90fbd: lea rdi, [rsp + 0x18]
+// asm:   0x5b90fc2: call 0x2fd8140  ; il2cpp_runtime_helper_02fd8140()
+// asm:   0x5b90fc7: jmp 0x5b9101d
+// asm:   0x5b90fc9: mov rbx, rax
+// asm:   0x5b90fcc: cmp edx, 1
+// asm:   0x5b90fcf: jne 0x5b91013
+// asm:   0x5b90fd1: mov rdi, rbx
+// asm:   0x5b90fd4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b90fd9: mov rbx, qword ptr [rax]
+// asm:   0x5b90fdc: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5b90fe1: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b90fe6: lea rax, [rip + 0x16fef1b]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
+// asm:   0x5b90fed: mov rsi, qword ptr [rax]
+// asm:   0x5b90ff0: lea rdi, [rsp + 0x70]
+// asm:   0x5b90ff5: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x5b90ffa: test rbx, rbx
+// asm:   0x5b90ffd: mov r15, qword ptr [rsp + 0x10]
+// asm:   0x5b91002: je 0x5b90b0a
+// asm:   0x5b91008: mov rdi, rbx
+// asm:   0x5b9100b: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5b91010: mov rbx, rax
+// asm:   0x5b91013: lea rdi, [rsp + 0x18]
+// asm:   0x5b91018: call 0x2fd81a0  ; il2cpp_runtime_helper_02fd81a0()
+// asm:   0x5b9101d: mov rdi, rbx
+// asm:   0x5b91020: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b91025: mov rdi, rax
+// asm:   0x5b91028: call 0x2ab61e0  ; __clang_call_terminate()
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticClasses
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
@@ -490,57 +471,58 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
 {
   byte bVar1;
   CustomLogic_CustomLogicEvaluator_o *pCVar2;
-  System_Collections_Generic_Dictionary_object__object__o *staticClasses;
-  System_Object_array *__this_00;
-  System_Collections_Generic_HashSet_Vector2Int__o *__this_01;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  System_Collections_Generic_Dictionary_object__object__o *__this_01;
   System_Collections_Generic_HashSet_object__o *pSVar3;
-  System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *__this_02;
+  System_Object_array *args;
   System_Collections_Generic_Dictionary_object__object__o *pSVar4;
   CustomLogic_CustomLogicToken_o *pCVar5;
   Il2CppObject *pIVar6;
   System_Collections_Generic_Dictionary_string__CustomLogicSourceType__o *pSVar7;
   bool bVar8;
-  uint32_t key;
+  int32_t key;
   CustomLogic_BuiltinClassInstance_o *value;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *pSVar9;
-  CustomLogic_CustomLogicClassDefinitionAst_o *pCVar10;
-  int *piVar11;
-  CustomLogic_CustomLogicClassInstance_o *pCVar12;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar13;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_02;
+  CustomLogic_CustomLogicClassDefinitionAst_o *pCVar9;
+  int *piVar10;
+  CustomLogic_CustomLogicClassInstance_o *pCVar11;
+  System_Collections_Generic_Dictionary_CustomLogicSourceType__CustomLogicClassInstance__o *__this_03;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar12;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *pSVar13;
+  MethodInfo **method_00;
   CustomLogic_CustomLogicStartAst_o *pCVar14;
-  UnityEngine_UIElements_TextureId_o local_res18 [2];
-  UnityEngine_UIElements_TextureId_o local_res20 [2];
-  undefined1 local_148 [16];
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_138;
-  System_Nullable_CustomLogicSourceType__Fields local_130;
-  System_Object_array *local_128;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_120;
-  System_Nullable_CustomLogicSourceType__Fields local_118;
-  CustomLogic_CustomLogicStartAst_o *local_110;
-  System_Object_array *local_108;
-  System_Collections_Generic_Dictionary_object__object__o *local_100;
-  undefined1 local_f8 [8];
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *pSStack_f0;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_e8;
-  undefined1 local_e0 [8];
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *pSStack_d8;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_d0;
-  undefined1 local_c8 [8];
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *pSStack_c0;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_b8;
-  undefined1 local_b0 [8];
-  uint64_t uStack_a8;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_a0;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_98 [2];
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_58;
+  undefined1 local_110 [16];
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_100;
+  System_Nullable_CustomLogicSourceType__Fields local_f8;
+  CustomLogic_CustomLogicStartAst_o *local_f0;
+  int32_t local_e8;
+  int32_t local_e4;
+  System_Nullable_CustomLogicSourceType__Fields local_e0;
+  undefined1 local_d8 [8];
+  undefined8 uStack_d0;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_c8;
+  undefined1 local_b8 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_b0;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_a8;
+  undefined1 local_98 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_90;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_88;
+  undefined1 local_78 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_70;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_68;
+  undefined1 local_58 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_50;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *local_48;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_184346a26 == '\0') {
+  if (Il2CppMethodInitialized_075473f2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicBuiltinTypes);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c3730
+               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718ada8
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicSourceType_TryGetValue);
@@ -553,7 +535,7 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c3810
+               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adb0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Keys
@@ -562,7 +544,7 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Values);
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c38f0
+               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adb8
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -570,7 +552,7 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c39d0
+               MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adc0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item);
@@ -601,39 +583,39 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_40b9f40
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_718fee0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_MoveNext);
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_40b6040
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_718fca0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_40ab848
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_718f6b8
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba480
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff10
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_get_Current);
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_40ab928
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_718f6c0
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba560
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff18
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_40b6120
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_718fca8
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_40ba020
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_718fee8
               );
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Contains)
     ;
@@ -662,63 +644,59 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_CustomLogicSourceType_CustomLogicClassInst
               );
     il2cpp_codegen_initialize_runtime_metadata(&"Main");
-    Il2CppMethodInitialized_184346a26 = '\x01';
+    Il2CppMethodInitialized_075473f2 = '\x01';
   }
-  local_f8 = (undefined1  [8])0x0;
-  pSStack_f0 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)0x0;
-  local_e8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_e0 = (undefined1  [8])0x0;
-  pSStack_d8 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)0x0;
-  local_d0 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_130.hasValue = false;
-  local_130._1_3_ = 0;
-  local_130.value = 0;
-  local_res20[0].fields.m_Index = (UnityEngine_UIElements_TextureId_Fields)0;
-  local_118.hasValue = false;
-  local_118._1_3_ = 0;
-  local_118.value = 0;
-  local_res18[0].fields.m_Index = (UnityEngine_UIElements_TextureId_Fields)0;
-  local_c8 = (undefined1  [8])0x0;
-  pSStack_c0 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)0x0;
-  local_b8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_b0 = (undefined1  [8])0x0;
-  uStack_a8 = 0;
-  local_a0 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_98[0].fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_98[0].fields._index = 0;
-  local_98[0].fields._version = 0;
-  local_98[0].fields._currentValue = (Il2CppObject *)0x0;
+  local_78 = (undefined1  [8])0x0;
+  pSStack_70 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_68 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_98 = (undefined1  [8])0x0;
+  pSStack_90 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_88 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_f8.hasValue = false;
+  local_f8._1_3_ = 0;
+  local_f8.value = 0;
+  local_e4 = 0;
+  local_e0.hasValue = false;
+  local_e0._1_3_ = 0;
+  local_e0.value = 0;
+  local_e8 = 0;
+  local_b8 = (undefined1  [8])0x0;
+  pSStack_b0 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_a8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_d8 = (undefined1  [8])0x0;
+  uStack_d0._0_4_ = 0;
+  uStack_d0._4_4_ = 0;
+  local_c8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_58 = (undefined1  [8])0x0;
+  pSStack_50 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_48 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
   pCVar2 = (__this->fields)._evaluator;
   if (pCVar2 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    pCVar14 = (pCVar2->fields)._start;
-    pCVar2 = (__this->fields)._evaluator;
-    staticClasses = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar2->fields)._staticClasses
-    ;
-    __this_00 = (System_Object_array *)(pCVar2->fields)._namespacedStaticClasses;
-    local_128 = __this_00;
-    local_110 = pCVar14;
+    local_f0 = (pCVar2->fields)._start;
+    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar2->fields)._staticClasses;
+    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
+                (pCVar2->fields)._namespacedStaticClasses;
     if ((TypeInfo_CustomLogic_CustomLogicBuiltinTypes->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBuiltinTypes);
     }
-    __this_01 = (System_Collections_Generic_HashSet_Vector2Int__o *)
-                TypeInfo_CustomLogic_CustomLogicBuiltinTypes->static_fields->StaticTypeNames;
-    if (__this_01 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0) {
-      local_100 = staticClasses;
-      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
-                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_148,__this_01,
-                 (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_string_GetEnumerator);
-      local_f8 = (undefined1  [8])local_148._0_8_;
-      pSStack_f0 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                   local_148._8_8_;
-      local_e8 = local_138;
-      local_148._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-      local_148._8_8_ =
-           (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_f8;
+    pSVar3 = (System_Collections_Generic_HashSet_object__o *)
+             TypeInfo_CustomLogic_CustomLogicBuiltinTypes->static_fields->StaticTypeNames;
+    if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      System_Collections_Generic_HashSet_object___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_110,pSVar3,
+                 (MethodInfo_4FB3DA0 *)MethodInfo_System_Collections_Generic_HashSet_string_GetEnumerator);
+      local_68 = local_100;
+      local_78 = (undefined1  [8])local_110._0_8_;
+      pSStack_70 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                   local_110._8_8_;
+      local_110._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_110._8_8_ =
+           (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_78;
       while (bVar8 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                               ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_f8,
-                                (MethodInfo_15381F0 *)
+                               ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_78,
+                                (MethodInfo_4C456D0 *)
                                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_MoveNext),
-            pSVar13 = local_e8, bVar8) {
+            pSVar12 = local_68, bVar8) {
         if ((TypeInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator->_2).cctor_finished_or_no_cctor
             == 0) {
           il2cpp_codegen_runtime_class_init
@@ -731,84 +709,86 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
           ThrowNullReferenceException();
         }
         bVar8 = System_Collections_Generic_HashSet_object___Contains
-                          (pSVar3,(Il2CppObject *)pSVar13,
-                           (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
+                          (pSVar3,(Il2CppObject *)pSVar12,
+                           (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
                           );
         if (bVar8) {
           if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
           }
-          local_108 = TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs;
+          args = TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs;
           if ((TypeInfo_CustomLogic_CustomLogicBuiltinTypes->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBuiltinTypes);
           }
           value = CustomLogic_CustomLogicBuiltinTypes__CreateClassInstance
-                            ((System_String_o *)pSVar13,local_108,(MethodInfo *)0x0);
-          if (staticClasses == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                            ((System_String_o *)pSVar12,args,(MethodInfo *)0x0);
+          if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
             ThrowNullReferenceException();
           }
           System_Collections_Generic_Dictionary_object__object___set_Item
-                    (staticClasses,(Il2CppObject *)pSVar13,(Il2CppObject *)value,
-                     (MethodInfo_147A7F0 *)
+                    (__this_00,(Il2CppObject *)pSVar12,(Il2CppObject *)value,
+                     (MethodInfo_4AAD4C0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item
                     );
         }
       }
       System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_f8,
-                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_Dispose);
-      if (((pCVar14 != (CustomLogic_CustomLogicStartAst_o *)0x0) &&
-          (__this_02 = (pCVar14->fields).Classes,
-          __this_02 != (System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *)0x0))
-         && (pSVar9 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                                 (MethodInfo_13C6500 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Keys
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_78,
+                 (MethodInfo_4C456C0 *)MethodInfo_System_Collections_Generic_HashSet_Enumerator_string_Dispose
+                );
+      pCVar14 = local_f0;
+      if (((local_f0 != (CustomLogic_CustomLogicStartAst_o *)0x0) &&
+          (pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)(local_f0->fields).Classes,
+          pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) &&
+         (__this_02 = System_Collections_Generic_Dictionary_object__object___get_Keys
+                                (pSVar4,(MethodInfo_4AAD0F0 *)
+                                        MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Keys
                                 ),
-            pSVar9 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
-        local_108 = __this_00;
-        System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                  ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                   local_148,pSVar9,
-                   (MethodInfo_F1E4D0 *)
+         __this_02 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
+        method_00 = &
+                    MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_CustomLogicClassDefinitionAst_GetEnum
+        ;
+        System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
+                  ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_110
+                   ,__this_02,
+                   (MethodInfo_511A520 *)
                    MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_CustomLogicClassDefinitionAst_GetEnum
                   );
-        local_e0 = (undefined1  [8])local_148._0_8_;
-        pSStack_d8 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                     local_148._8_8_;
-        local_d0 = local_138;
-        local_148._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-        local_148._8_8_ =
-             (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_e0;
-        while (bVar8 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
+        local_88 = local_100;
+        local_98 = (undefined1  [8])local_110._0_8_;
+        pSStack_90 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                     local_110._8_8_;
+        local_110._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+        local_110._8_8_ =
+             (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_98;
+        while (bVar8 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
                                  ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
-                                   *)local_e0,
-                                  (MethodInfo_156BDD0 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_40b9f40
-                                 ), pSVar13 = local_d0, bVar8) {
+                                   *)local_98,
+                                  (MethodInfo_4CE7080 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition_718fee0
+                                 ), pSVar12 = local_88, bVar8) {
           bVar8 = System_String__op_Equality
-                            ((System_String_o *)local_d0,"Main",(MethodInfo *)0x0);
+                            ((System_String_o *)local_88,"Main",(MethodInfo *)0x0);
           if (bVar8) {
             CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClassInternal
-                      (__this,(System_String_o *)pSVar13,
-                       (System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *)
-                       staticClasses,(MethodInfo *)0x0);
+                      (__this,(System_String_o *)pSVar12,
+                       (System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *)__this_00,
+                       (MethodInfo *)method_00);
           }
           else {
             pSVar4 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar14->fields).Classes;
             if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
               ThrowNullReferenceException();
             }
-            pCVar10 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                (pSVar4,(Il2CppObject *)pSVar13,
-                                 (MethodInfo_147A5B0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Item
-                                );
-            if (pCVar10 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) {
+            pCVar9 = System_Collections_Generic_Dictionary_object__object___get_Item
+                               (pSVar4,(Il2CppObject *)pSVar12,
+                                (MethodInfo_4AAD450 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Item
+                               );
+            if (pCVar9 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) {
               ThrowNullReferenceException();
             }
-            pCVar5 = (pCVar10->fields).Token;
+            pCVar5 = (pCVar9->fields).Token;
             if (pCVar5 == (CustomLogic_CustomLogicToken_o *)0x0) {
               ThrowNullReferenceException();
             }
@@ -816,29 +796,28 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
             if (pIVar6 == (Il2CppObject *)0x0) {
               ThrowNullReferenceException();
             }
-            if ((pIVar6->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar6,g_data_184354e08);
+            if ((pIVar6->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+              il2cpp_codegen_raise_invalid_cast_exception();
             }
-            piVar11 = il2cpp_object_unbox(pIVar6);
-            if (*piVar11 == 2) {
-              local_130.hasValue = false;
-              local_130._1_3_ = 0;
-              local_130.value = 0;
+            piVar10 = il2cpp_vm_Object_Unbox(pIVar6);
+            if (*piVar10 == 2) {
+              local_f8.hasValue = false;
+              local_f8._1_3_ = 0;
+              local_f8.value = 0;
               pSVar7 = (pCVar14->fields).ClassNamespaces;
               if (pSVar7 == (System_Collections_Generic_Dictionary_string__CustomLogicSourceType__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              bVar8 = System_Collections_Generic_Dictionary_object__TextureId___TryGetValue
+              bVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___TryGetValue
                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
-                                 (Il2CppObject *)pSVar13,local_res20,
-                                 (MethodInfo_1461BD0 *)
+                                 (Il2CppObject *)pSVar12,&local_e4,
+                                 (MethodInfo_4AA3530 *)
                                  MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicSourceType_TryGetValue
                                 );
               if (bVar8) {
-                System_Data_SqlTypes_SqlInt32___ctor_ae2660
-                          ((System_Data_SqlTypes_SqlInt32_o *)&local_130,
-                           (int32_t)local_res20[0].fields.m_Index,
-                           MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+                System_Nullable_Int32Enum____ctor
+                          ((System_Nullable_Int32Enum__o *)&local_f8,local_e4,
+                           (MethodInfo_3CD4F60 *)MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
               }
               pCVar2 = (__this->fields)._evaluator;
               if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
@@ -847,14 +826,16 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
                 ThrowNullReferenceException();
               }
-              pCVar12 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_20d7780
-                                  (pCVar2,(System_String_o *)pSVar13,
+              method_00 = (MethodInfo **)0x0;
+              pCVar11 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_5a84880
+                                  (pCVar2,(System_String_o *)pSVar12,
                                    TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,false,
-                                   (System_Nullable_CustomLogicSourceType__o)local_130,(MethodInfo *)0x0);
-              if (pCVar12 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
+                                   (System_Nullable_CustomLogicSourceType__o)local_f8,(MethodInfo *)0x0);
+              pCVar14 = local_f0;
+              if (pCVar11 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
                 ThrowNullReferenceException();
               }
-              (pCVar12->fields)._Namespace_k__BackingField.fields = local_130;
+              (pCVar11->fields)._Namespace_k__BackingField.fields = local_f8;
               if ((TypeInfo_CustomLogic_CustomLogicBuiltinTypes->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicBuiltinTypes)
                 ;
@@ -865,71 +846,75 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
                 ThrowNullReferenceException();
               }
               bVar8 = System_Collections_Generic_HashSet_object___Contains
-                                (pSVar3,(Il2CppObject *)pSVar13,
-                                 (MethodInfo_1759E40 *)
+                                (pSVar3,(Il2CppObject *)pSVar12,
+                                 (MethodInfo_4FB3720 *)
                                  MethodInfo_System_Collections_Generic_HashSet_string_Contains);
               if (bVar8) {
-                if (__this_00 == (System_Object_array *)0x0) {
+                if (__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                bVar8 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                                   (Il2CppObject *)pSVar13,
-                                   (MethodInfo_1455450 *)
-                                   MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c3730
+                bVar8 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                                  (__this_01,(Il2CppObject *)pSVar12,
+                                   (MethodInfo_4AAD6F0 *)
+                                   MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718ada8
                                   );
                 if (!bVar8) {
-                  local_128 = (System_Object_array *)
-                              il2cpp_codegen_object_new
+                  __this_03 = il2cpp_codegen_object_new
                                         ((Il2CppClass *)
                                          TypeInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance
                                         );
-                  System_Collections_Generic_Dictionary_Int32Enum__float____ctor
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)local_128,
-                             (MethodInfo_14421B0 *)
+                  System_Collections_Generic_Dictionary_Int32Enum__object____ctor
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
+                             (MethodInfo_4A543B0 *)
                              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance_ctor
                             );
+                  method_00 = (MethodInfo **)
+                              MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adc0
+                  ;
                   System_Collections_Generic_Dictionary_object__object___set_Item
-                            ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
-                             (Il2CppObject *)pSVar13,&local_128->obj,
-                             (MethodInfo_147A7F0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c39d0
+                            (__this_01,(Il2CppObject *)pSVar12,(Il2CppObject *)__this_03,
+                             (MethodInfo_4AAD4C0 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adc0
                             );
                 }
-                pCVar14 = local_110;
-                if (local_130.hasValue != false) {
-                  pSVar13 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
+                pCVar14 = local_f0;
+                if (local_f8.hasValue != false) {
+                  pSVar12 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
                             System_Collections_Generic_Dictionary_object__object___get_Item
-                                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
-                                       (Il2CppObject *)pSVar13,
-                                       (MethodInfo_147A5B0 *)
-                                       MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c3810
+                                      (__this_01,(Il2CppObject *)pSVar12,
+                                       (MethodInfo_4AAD450 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adb0
                                       );
-                  key = System_Nullable_uint___get_Value
-                                  ((System_Nullable_uint__o *)&local_130,
-                                   (MethodInfo_AE29B0 *)
+                  key = System_Nullable_Int32Enum___get_Value
+                                  ((System_Nullable_Int32Enum__o *)&local_f8,
+                                   (MethodInfo_3CD4F80 *)
                                    MethodInfo_System_Nullable_CustomLogicSourceType_get_Value);
-                  if (pSVar13 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
+                  if (pSVar12 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
                     ThrowNullReferenceException();
                   }
+                  method_00 = (MethodInfo **)
+                              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance_set_Item
+                  ;
                   System_Collections_Generic_Dictionary_Int32Enum__object___set_Item
-                            (pSVar13,key,(Il2CppObject *)pCVar12,
-                             (MethodInfo_1455210 *)
+                            (pSVar12,key,(Il2CppObject *)pCVar11,
+                             (MethodInfo_4A54FC0 *)
                              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance_set_Item
                             );
-                  pCVar14 = local_110;
+                  pCVar14 = local_f0;
                 }
               }
               else {
-                if (staticClasses == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
                   ThrowNullReferenceException();
                 }
+                method_00 = (MethodInfo **)
+                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item
+                ;
                 System_Collections_Generic_Dictionary_object__object___set_Item
-                          (staticClasses,(Il2CppObject *)pSVar13,(Il2CppObject *)pCVar12,
-                           (MethodInfo_147A7F0 *)
+                          (__this_00,(Il2CppObject *)pSVar12,(Il2CppObject *)pCVar11,
+                           (MethodInfo_4AAD4C0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item
                           );
-                pCVar14 = local_110;
               }
             }
             else {
@@ -937,15 +922,15 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              pCVar10 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                  (pSVar4,(Il2CppObject *)pSVar13,
-                                   (MethodInfo_147A5B0 *)
-                                   MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Item
-                                  );
-              if (pCVar10 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) {
+              pCVar9 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                 (pSVar4,(Il2CppObject *)pSVar12,
+                                  (MethodInfo_4AAD450 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_get_Item
+                                 );
+              if (pCVar9 == (CustomLogic_CustomLogicClassDefinitionAst_o *)0x0) {
                 ThrowNullReferenceException();
               }
-              pCVar5 = (pCVar10->fields).Token;
+              pCVar5 = (pCVar9->fields).Token;
               if (pCVar5 == (CustomLogic_CustomLogicToken_o *)0x0) {
                 ThrowNullReferenceException();
               }
@@ -953,167 +938,176 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__InitializeStaticC
               if (pIVar6 == (Il2CppObject *)0x0) {
                 ThrowNullReferenceException();
               }
-              if ((pIVar6->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar6,g_data_184354e08);
+              if ((pIVar6->klass->_1).element_class != *(Il2CppClass **)(g_data_07556710 + 0x40)) {
+                il2cpp_codegen_raise_invalid_cast_exception();
               }
-              piVar11 = il2cpp_object_unbox(pIVar6);
-              if (*piVar11 == 3) {
-                local_118.hasValue = false;
-                local_118._1_3_ = 0;
-                local_118.value = 0;
+              piVar10 = il2cpp_vm_Object_Unbox(pIVar6);
+              if (*piVar10 == 3) {
+                local_e0.hasValue = false;
+                local_e0._1_3_ = 0;
+                local_e0.value = 0;
                 pSVar7 = (pCVar14->fields).ClassNamespaces;
                 if (pSVar7 == (System_Collections_Generic_Dictionary_string__CustomLogicSourceType__o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                bVar8 = System_Collections_Generic_Dictionary_object__TextureId___TryGetValue
+                bVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___TryGetValue
                                   ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
-                                   (Il2CppObject *)pSVar13,local_res18,
-                                   (MethodInfo_1461BD0 *)
+                                   (Il2CppObject *)pSVar12,&local_e8,
+                                   (MethodInfo_4AA3530 *)
                                    MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicSourceType_TryGetValue
                                   );
                 if (bVar8) {
-                  System_Data_SqlTypes_SqlInt32___ctor_ae2660
-                            ((System_Data_SqlTypes_SqlInt32_o *)&local_118,
-                             (int32_t)local_res18[0].fields.m_Index,
-                             MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+                  System_Nullable_Int32Enum____ctor
+                            ((System_Nullable_Int32Enum__o *)&local_e0,local_e8,
+                             (MethodInfo_3CD4F60 *)MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
                 }
-                local_128 = (System_Object_array *)(__this->fields)._evaluator;
+                pCVar2 = (__this->fields)._evaluator;
                 if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
                   il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
                 }
-                if (local_128 == (System_Object_array *)0x0) {
+                if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                pCVar12 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_20d7780
-                                    ((CustomLogic_CustomLogicEvaluator_o *)local_128,
-                                     (System_String_o *)pSVar13,
+                pCVar11 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_5a84880
+                                    (pCVar2,(System_String_o *)pSVar12,
                                      TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,false
-                                     ,(System_Nullable_CustomLogicSourceType__o)local_118,(MethodInfo *)0x0);
-                if (pCVar12 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
+                                     ,(System_Nullable_CustomLogicSourceType__o)local_e0,(MethodInfo *)0x0);
+                pCVar14 = local_f0;
+                if (pCVar11 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                (pCVar12->fields)._Namespace_k__BackingField.fields = local_118;
-                if (staticClasses == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                (pCVar11->fields)._Namespace_k__BackingField.fields = local_e0;
+                if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
                   ThrowNullReferenceException();
                 }
+                method_00 = (MethodInfo **)
+                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item
+                ;
                 System_Collections_Generic_Dictionary_object__object___set_Item
-                          (staticClasses,(Il2CppObject *)pSVar13,(Il2CppObject *)pCVar12,
-                           (MethodInfo_147A7F0 *)
+                          (__this_00,(Il2CppObject *)pSVar12,(Il2CppObject *)pCVar11,
+                           (MethodInfo_4AAD4C0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_set_Item
                           );
               }
             }
           }
         }
-        System_Configuration_ConfigurationCollectionAttribute___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_e0,
+        System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
+                  ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_98,
+                   (MethodInfo_4CE7070 *)
                    MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_CustomLogicClassDefinition
                   );
-        if ((staticClasses != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-           (pSVar9 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                     System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                               ((System_Collections_Generic_Dictionary_TKey__TValue__o *)staticClasses,
-                                (MethodInfo_13C65A0 *)
-                                MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Values
-                               ),
-           pSVar9 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
-          System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+        if ((__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
+           (pSVar13 = System_Collections_Generic_Dictionary_object__object___get_Values
+                                (__this_00,
+                                 (MethodInfo_4AAD2A0 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Values
+                                ),
+           pSVar13 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
+          System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
                     ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                     local_148,pSVar9,
-                     (MethodInfo_F1E4D0 *)
+                     local_110,pSVar13,
+                     (MethodInfo_43F93D0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_CustomLogicClassInstance_GetEnumera
                     );
-          local_c8 = (undefined1  [8])local_148._0_8_;
-          pSStack_c0 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                       local_148._8_8_;
-          local_b8 = local_138;
-          local_148._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-          local_148._8_8_ =
-               (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_c8;
-label_1820ec760:
-          bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
+          local_a8 = local_100;
+          local_b8 = (undefined1  [8])local_110._0_8_;
+          pSStack_b0 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                       local_110._8_8_;
+          local_110._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+          local_110._8_8_ =
+               (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_b8;
+label_05b90aa0:
+          bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
                             ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                              *)local_c8,
-                             (MethodInfo_155CFB0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba480
+                              *)local_b8,
+                             (MethodInfo_4CE7200 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff10
                             );
           if (bVar8) {
-            if (local_b8 != (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0)
-            goto code_r0x0001820ec785;
-            goto label_1820ec7b1;
+            if (local_a8 != (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0)
+            goto code_r0x05b90abc;
+            goto label_05b90ae0;
           }
-          System_Configuration_ConfigurationCollectionAttribute___ctor
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_c8,
-                     MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
+          System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
+                    ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                     local_b8,(MethodInfo_4CE71F0 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
                     );
-          if ((__this_00 != (System_Object_array *)0x0) &&
-             (pSVar9 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                       System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                                  (MethodInfo_13C65A0 *)
-                                  MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_40c38f0
-                                 ),
-             pSVar9 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
-            System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+          if ((__this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
+             (pSVar13 = System_Collections_Generic_Dictionary_object__object___get_Values
+                                  (__this_01,
+                                   (MethodInfo_4AAD2A0 *)
+                                   MethodInfo_System_Collections_Generic_Dictionary_string_Dictionary_CustomLogicSourceType_CustomLogicClassIn_718adb8
+                                  ),
+             pSVar13 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
+            System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
                       ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                       local_148,pSVar9,
-                       (MethodInfo_F1E4D0 *)
+                       local_110,pSVar13,
+                       (MethodInfo_43F93D0 *)
                        MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_Dictionary_CustomLogicSourceType_Cu
                       );
-            local_b0 = (undefined1  [8])local_148._0_8_;
-            uStack_a8 = local_148._8_8_;
-            local_a0 = local_138;
-            local_128 = (System_Object_array *)0x0;
-            local_120 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_b0;
+            local_c8 = local_100;
+            local_d8 = (undefined1  [8])local_110._0_8_;
+            uStack_d0 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                        local_110._8_8_;
+            local_40 = 0;
+            local_38 = local_d8;
             do {
-              bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
+              bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
                                 ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                                  *)local_b0,
-                                 (MethodInfo_155CFB0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_40b6040
+                                  *)local_d8,
+                                 (MethodInfo_4CE7200 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo_718fca0
                                 );
               if (!bVar8) {
-                System_Configuration_ConfigurationCollectionAttribute___ctor
-                          (local_120,
+                System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
+                          ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *
+                           )local_d8,
+                           (MethodInfo_4CE71F0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Dictionary_CustomLogicSo
                           );
                 return;
               }
-              if (local_a0 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
+              if (local_c8 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              pSVar9 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                       System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                                 (local_a0,(MethodInfo_13C65A0 *)
-                                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance_get_Values
-                                 );
-              if (pSVar9 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+              pSVar13 = System_Collections_Generic_Dictionary_Int32Enum__object___get_Values
+                                  (local_c8,(MethodInfo_4A54D80 *)
+                                            MethodInfo_System_Collections_Generic_Dictionary_CustomLogicSourceType_CustomLogicClassInstance_get_Values
+                                  );
+              if (pSVar13 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                        (&local_58,pSVar9,
-                         (MethodInfo_F1E4D0 *)
+              System_Collections_Generic_Dictionary_ValueCollection_Int32Enum__object___GetEnumerator
+                        ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                         local_110,pSVar13,
+                         (MethodInfo_43F1210 *)
                          MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_CustomLogicSourceType_CustomLogicClassInst
                         );
-              local_98[0].fields._dictionary = local_58.fields._dictionary;
-              local_98[0].fields._index = local_58.fields._index;
-              local_98[0].fields._version = local_58.fields._version;
-              local_98[0].fields._currentValue = local_58.fields._currentValue;
-              local_148._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-              local_148._8_8_ = local_98;
-label_1820ec900:
-              bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                                (local_98,(MethodInfo_155CFB0 *)
-                                          MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_40ab848
+              local_48 = local_100;
+              local_58 = (undefined1  [8])local_110._0_8_;
+              pSStack_50 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                           local_110._8_8_;
+              local_110._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+              local_110._8_8_ =
+                   (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_58;
+label_05b90c20:
+              bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Int32Enum__object___MoveNext
+                                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
+                                  *)local_58,
+                                 (MethodInfo_4CDC070 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog_718f6b8
                                 );
               if (bVar8) {
-                if ((CustomLogic_CustomLogicClassInstance_o *)local_98[0].fields._currentValue !=
-                    (CustomLogic_CustomLogicClassInstance_o *)0x0) goto code_r0x0001820ec925;
-                goto label_1820ec951;
+                if (local_48 != (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0)
+                goto code_r0x05b90c3d;
+                goto label_05b90c61;
               }
-              System_Configuration_ConfigurationCollectionAttribute___ctor
-                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_98,
-                         MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog
+              System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Int32Enum__object___Dispose
+                        ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                         local_58,(MethodInfo_4CDC060 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_CustomLogicSourceType_CustomLog
                         );
             } while( true );
           }
@@ -1122,78 +1116,86 @@ label_1820ec900:
     }
   }
   ThrowNullReferenceException();
-code_r0x0001820ec785:
+code_r0x05b90abc:
   bVar1 = (TypeInfo_CustomLogic_BuiltinClassInstance->_2).typeHierarchyDepth;
-  if (((local_b8->klass->_2).typeHierarchyDepth < bVar1) ||
-     ((local_b8->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+  if (((local_a8->klass->_2).typeHierarchyDepth < bVar1) ||
+     ((local_a8->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
       (Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance)) {
-label_1820ec7b1:
+label_05b90ae0:
     pCVar2 = (__this->fields)._evaluator;
     if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
       ThrowNullReferenceException();
     }
     CustomLogic_CustomLogicEvaluator__RunAssignmentsClassInstance
-              (pCVar2,(CustomLogic_CustomLogicClassInstance_o *)local_b8,(MethodInfo *)0x0);
+              (pCVar2,(CustomLogic_CustomLogicClassInstance_o *)local_a8,(MethodInfo *)0x0);
   }
-  goto label_1820ec760;
-code_r0x0001820ec925:
+  goto label_05b90aa0;
+code_r0x05b90c3d:
   bVar1 = (TypeInfo_CustomLogic_BuiltinClassInstance->_2).typeHierarchyDepth;
-  if (((((CustomLogic_CustomLogicClassInstance_c *)(local_98[0].fields._currentValue)->klass)->_2).
-       typeHierarchyDepth < bVar1) ||
-     ((((CustomLogic_CustomLogicClassInstance_c *)(local_98[0].fields._currentValue)->klass)->_2).
-      typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance)) {
-label_1820ec951:
+  if (((local_48->klass->_2).typeHierarchyDepth < bVar1) ||
+     ((local_48->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+      (Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance)) {
+label_05b90c61:
     pCVar2 = (__this->fields)._evaluator;
     if (pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
       ThrowNullReferenceException();
     }
     CustomLogic_CustomLogicEvaluator__RunAssignmentsClassInstance
-              (pCVar2,(CustomLogic_CustomLogicClassInstance_o *)local_98[0].fields._currentValue,
-               (MethodInfo *)0x0);
+              (pCVar2,(CustomLogic_CustomLogicClassInstance_o *)local_48,(MethodInfo *)0x0);
   }
-  goto label_1820ec900;
+  goto label_05b90c20;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$CallInitOnStaticClasses
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticClasses (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820eb210
-// eh: try 0x1820eb2f0..0x1820eb37c -> pad 0x183315a20 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820eb2ef: nop 
-// asm:   0x1820eb34b: mov rdx, qword ptr [rip + 0x1fcf04e]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
-// asm:   0x1820eb352: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x1820eb357: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820eb35c: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1820eb361: test rcx, rcx
-// asm:   0x1820eb364: jne 0x1820eb37c
-// asm:   0x1820eb37c: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315a25: push rbp
-// asm:   0x183315a26: sub rsp, 0x30
-// asm:   0x183315a2a: mov rbp, rdx
-// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315a31: mov rcx, qword ptr [rax]
-// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
-// asm:   0x183315a38: movabs rax, 0
-// asm:   0x183315a42: add rsp, 0x30
-// asm:   0x183315a46: pop rbp
-// asm:   0x183315a47: ret 
+// 0x5b91030
+// eh: try 0x5b91114..0x5b91177 -> pad 0x5b91182 (+3 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5b9119a..0x5b9119f -> pad 0x5b911be cleanup
+// eh: try 0x5b911c1..0x5b911cb -> pad 0x5b911d3 catch (...) [compiler noexcept guard]
+// asm: 27 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9110e: nop 
+// asm:   0x5b9117c: jmp 0x5b91182
+// asm:   0x5b9117e: jmp 0x5b91182
+// asm:   0x5b91180: jmp 0x5b91182
+// asm:   0x5b91182: mov rbx, rax
+// asm:   0x5b91185: cmp edx, 1
+// asm:   0x5b91188: jne 0x5b911c1
+// asm:   0x5b9118a: mov rdi, rbx
+// asm:   0x5b9118d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b91192: mov rbx, qword ptr [rax]
+// asm:   0x5b91195: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5b9119a: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b9119f: lea rax, [rip + 0x16fed62]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
+// asm:   0x5b911a6: mov rsi, qword ptr [rax]
+// asm:   0x5b911a9: mov rdi, rsp
+// asm:   0x5b911ac: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x5b911b1: test rbx, rbx
+// asm:   0x5b911b4: je 0x5b9115f
+// asm:   0x5b911b6: mov rdi, rbx
+// asm:   0x5b911b9: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5b911be: mov rbx, rax
+// asm:   0x5b911c1: lea rdi, [rsp + 0x20]
+// asm:   0x5b911c6: call 0x2fd8230  ; il2cpp_runtime_helper_02fd8230()
+// asm:   0x5b911cb: mov rdi, rbx
+// asm:   0x5b911ce: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b911d3: mov rdi, rax
+// asm:   0x5b911d6: call 0x2ab61e0  ; __clang_call_terminate()
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticClasses
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
   CustomLogic_CustomLogicEvaluator_o *pCVar1;
-  System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *__this_00;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
   Il2CppObject *pIVar2;
   bool bVar3;
   System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_01;
-  undefined1 local_60 [16];
-  CustomLogic_CustomLogicClassInstance_o *local_50;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_48;
+  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_184346a27 == '\0') {
+  if (Il2CppMethodInitialized_075473f3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Values);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1202,56 +1204,51 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticC
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba480
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff10
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
-               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba560
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff18
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_CustomLogicClassInstance_GetEnumera
               );
     il2cpp_codegen_initialize_runtime_metadata(&"Init");
-    Il2CppMethodInitialized_184346a27 = '\x01';
+    Il2CppMethodInitialized_075473f3 = '\x01';
   }
-  local_48.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._currentValue = (Il2CppObject *)0x0;
+  local_58.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._currentValue = (Il2CppObject *)0x0;
   pCVar1 = (__this->fields)._evaluator;
   if ((pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-     (__this_00 = (pCVar1->fields)._staticClasses,
-     __this_00 != (System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *)0x0)) {
-    __this_01 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                           (MethodInfo_13C65A0 *)
+     (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar1->fields)._staticClasses,
+     __this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
+    __this_01 = System_Collections_Generic_Dictionary_object__object___get_Values
+                          (__this_00,
+                           (MethodInfo_4AAD2A0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Values
                           );
     if (__this_01 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_60,
-                 __this_01,
-                 (MethodInfo_F1E4D0 *)
+      System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
+                (&local_58,__this_01,
+                 (MethodInfo_43F93D0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_CustomLogicClassInstance_GetEnumera
                 );
-      local_48.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_60._0_8_;
-      local_48.fields._index = local_60._8_4_;
-      local_48.fields._version = local_60._12_4_;
-      local_48.fields._currentValue = (Il2CppObject *)local_50;
-      local_60._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-      local_60._8_8_ = &local_48;
+      local_38 = 0;
+      local_30 = (undefined1 *)&local_58;
       while( true ) {
-        bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                          (&local_48,
-                           (MethodInfo_155CFB0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_40ba480
+        bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
+                          (&local_58,
+                           (MethodInfo_4CE7200 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance_718ff10
                           );
-        pIVar2 = local_48.fields._currentValue;
+        pIVar2 = local_58.fields._currentValue;
         if (!bVar3) {
-          System_Configuration_ConfigurationCollectionAttribute___ctor
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
+          System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
+                    (&local_58,
+                     (MethodInfo_4CE71F0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_CustomLogicClassInstance
                     );
           return;
@@ -1259,13 +1256,13 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticC
         pCVar1 = (__this->fields)._evaluator;
         if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) break;
         CustomLogic_CustomLogicEvaluator__EvaluateMethod
-                  (pCVar1,(CustomLogic_CustomLogicClassInstance_o *)local_48.fields._currentValue,
+                  (pCVar1,(CustomLogic_CustomLogicClassInstance_o *)local_58.fields._currentValue,
                    "Init",(System_Object_array *)0x0,0,(MethodInfo *)0x0);
         if ((CustomLogic_CustomLogicClassInstance_o *)pIVar2 == (CustomLogic_CustomLogicClassInstance_o *)0x0)
         {
           ThrowNullReferenceException();
         }
-        ((CustomLogic_CustomLogicClassInstance_Fields *)((longlong)pIVar2 + 0x10))->Inited = true;
+        ((CustomLogic_CustomLogicClassInstance_Fields *)((long)pIVar2 + 0x10))->Inited = true;
       }
       ThrowNullReferenceException();
     }
@@ -1276,7 +1273,7 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CallInitOnStaticC
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$CreateStaticClassInternal
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClassInternal (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* className, System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o* staticClasses, const MethodInfo* method);
-// 0x1820eb8c0
+// 0x5b91320
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClassInternal
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,System_String_o *className,
@@ -1289,10 +1286,10 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
   System_Collections_Generic_Dictionary_string__CustomLogicSourceType__o *__this_00;
   bool bVar3;
   CustomLogic_CustomLogicClassInstance_o *value;
-  UnityEngine_UIElements_TextureId_o local_res10 [2];
-  System_Nullable_CustomLogicSourceType__Fields local_res18 [2];
+  int32_t local_2c;
+  System_Nullable_CustomLogicSourceType__Fields local_28;
   
-  if (Il2CppMethodInitialized_184346a28 == '\0') {
+  if (Il2CppMethodInitialized_075473f4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_Add);
@@ -1301,17 +1298,14 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicSourceType_TryGetValue);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
-    Il2CppMethodInitialized_184346a28 = '\x01';
+    Il2CppMethodInitialized_075473f4 = '\x01';
   }
-  local_res18[0].hasValue = false;
-  local_res18[0]._1_3_ = 0;
-  local_res18[0].value = 0;
-  local_res10[0].fields.m_Index = (UnityEngine_UIElements_TextureId_Fields)0;
+  local_2c = 0;
   if (staticClasses != (System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *)0x0) {
-    bVar3 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)staticClasses,
+    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      ((System_Collections_Generic_Dictionary_object__object__o *)staticClasses,
                        (Il2CppObject *)className,
-                       (MethodInfo_1455450 *)
+                       (MethodInfo_4AAD6F0 *)
                        MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
                       );
     if (bVar3) {
@@ -1320,38 +1314,38 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
     pCVar1 = (__this->fields)._evaluator;
     if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
       pCVar2 = (pCVar1->fields)._start;
-      local_res18[0].hasValue = false;
-      local_res18[0]._1_3_ = 0;
-      local_res18[0].value = 0;
+      local_28.hasValue = false;
+      local_28._1_3_ = 0;
+      local_28.value = 0;
       if ((pCVar2 != (CustomLogic_CustomLogicStartAst_o *)0x0) &&
          (__this_00 = (pCVar2->fields).ClassNamespaces,
          __this_00 != (System_Collections_Generic_Dictionary_string__CustomLogicSourceType__o *)0x0)) {
-        bVar3 = System_Collections_Generic_Dictionary_object__TextureId___TryGetValue
+        bVar3 = System_Collections_Generic_Dictionary_object__Int32Enum___TryGetValue
                           ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                           (Il2CppObject *)className,local_res10,
-                           (MethodInfo_1461BD0 *)
+                           (Il2CppObject *)className,&local_2c,
+                           (MethodInfo_4AA3530 *)
                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicSourceType_TryGetValue
                           );
         if (bVar3) {
-          System_Data_SqlTypes_SqlInt32___ctor_ae2660
-                    ((System_Data_SqlTypes_SqlInt32_o *)local_res18,(int32_t)local_res10[0].fields.m_Index,
-                     MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
+          System_Nullable_Int32Enum____ctor
+                    ((System_Nullable_Int32Enum__o *)&local_28,local_2c,
+                     (MethodInfo_3CD4F60 *)MethodInfo_System_Nullable_CustomLogicSourceType_ctor);
         }
         pCVar1 = (__this->fields)._evaluator;
         if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
         }
         if ((pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-           (value = CustomLogic_CustomLogicEvaluator__CreateClassInstance_20d7780
+           (value = CustomLogic_CustomLogicEvaluator__CreateClassInstance_5a84880
                               (pCVar1,className,
                                TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,false,
-                               (System_Nullable_CustomLogicSourceType__o)local_res18[0],(MethodInfo *)0x0),
+                               (System_Nullable_CustomLogicSourceType__o)local_28,(MethodInfo *)0x0),
            value != (CustomLogic_CustomLogicClassInstance_o *)0x0)) {
-          (value->fields)._Namespace_k__BackingField.fields = local_res18[0];
+          (value->fields)._Namespace_k__BackingField.fields = local_28;
           System_Collections_Generic_Dictionary_object__object___Add
                     ((System_Collections_Generic_Dictionary_object__object__o *)staticClasses,
                      (Il2CppObject *)className,(Il2CppObject *)value,
-                     (MethodInfo_146B4B0 *)
+                     (MethodInfo_4AAD4E0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_Add);
           return;
         }
@@ -1364,7 +1358,7 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$RunAssignmentsClassInstance
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__RunAssignmentsClassInstance (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, CustomLogic_CustomLogicClassInstance_o* classInstance, const MethodInfo* method);
-// 0x1820ecd00
+// 0x5b91490
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__RunAssignmentsClassInstance
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,
@@ -1374,53 +1368,55 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__RunAssignmentsCla
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   
   __this_00 = (__this->fields)._evaluator;
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    CustomLogic_CustomLogicEvaluator__RunAssignmentsClassInstance(__this_00,classInstance,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicEvaluator__RunAssignmentsClassInstance(__this_00,classInstance,(MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetStartAst
 // il2cpp: CustomLogic_CustomLogicStartAst_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStartAst (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x181a4d2b0
+// 0x5b912e0
 
-CustomLogic_CustomLogicStartAst_o*
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStartAst(CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicStartAst_o *
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStartAst
+          (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  System_Resources_ResourceManager_o *pSVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
   
-  pSVar1 = (__this->fields)._evaluator;
-  if (pSVar1 != (System_Resources_ResourceManager_o *)0x0) {
-    return (pSVar1->fields)._userResourceSet;
+  pCVar1 = (__this->fields)._evaluator;
+  if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pCVar1->fields)._start;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetStaticClassesDictionary
 // il2cpp: System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClassesDictionary (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x181a4d270
+// 0x5b91300
 
-System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o*
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClassesDictionary(CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, MethodInfo* method)
+System_Collections_Generic_Dictionary_string__CustomLogicClassInstance__o *
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClassesDictionary
+          (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  ExitGames_Client_Photon_PhotonPeer_o *pEVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
   
-  pEVar1 = (__this->fields)._evaluator;
-  if (pEVar1 != (ExitGames_Client_Photon_PhotonPeer_o *)0x0) {
-    return (pEVar1->fields)._Listener_k__BackingField;
+  pCVar1 = (__this->fields)._evaluator;
+  if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pCVar1->fields)._staticClasses;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetStaticClass
 // il2cpp: CustomLogic_CustomLogicClassInstance_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClass (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* className, const MethodInfo* method);
-// 0x1820ebcc0
+// 0x5b91250
 
 CustomLogic_CustomLogicClassInstance_o *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClass
@@ -1433,41 +1429,40 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetStaticClass
   bool bVar2;
   CustomLogic_CustomLogicClassInstance_o *pCVar3;
   
-  if (Il2CppMethodInitialized_184346a29 == '\0') {
+  if (Il2CppMethodInitialized_075473f5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item);
-    Il2CppMethodInitialized_184346a29 = '\x01';
+    Il2CppMethodInitialized_075473f5 = '\x01';
   }
   pCVar1 = (__this->fields)._evaluator;
-  if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar1->fields)._staticClasses;
-    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                         (Il2CppObject *)className,
-                         (MethodInfo_1455450 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
-                        );
-      if (bVar2) {
-        pCVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
-                           (__this_00,(Il2CppObject *)className,
-                            (MethodInfo_147A5B0 *)
-                            MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item
-                           );
-        return pCVar3;
-      }
-    }
-    return (CustomLogic_CustomLogicClassInstance_o *)0x0;
+  if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar1->fields)._staticClasses;
+  if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    bVar2 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      (__this_00,(Il2CppObject *)className,
+                       (MethodInfo_4AAD6F0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_ContainsKey
+                      );
+    if (bVar2) {
+      pCVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         (__this_00,(Il2CppObject *)className,
+                          (MethodInfo_4AAD450 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassInstance_get_Item
+                         );
+      return pCVar3;
+    }
+  }
+  return (CustomLogic_CustomLogicClassInstance_o *)0x0;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$CreateStaticClass
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* className, const MethodInfo* method);
-// 0x1820eba30
+// 0x5b914b0
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,System_String_o *className,
@@ -1475,20 +1470,21 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClass
 
 {
   CustomLogic_CustomLogicEvaluator_o *pCVar1;
+  MethodInfo *in_RCX;
   
   pCVar1 = (__this->fields)._evaluator;
-  if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClassInternal
-              (__this,className,(pCVar1->fields)._staticClasses,(MethodInfo *)0x0);
-    return;
+  if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateStaticClassInternal
+            (__this,className,(pCVar1->fields)._staticClasses,in_RCX);
+  return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$HasMainClass
 // il2cpp: bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasMainClass (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820ebda0
+// 0x5b911e0
 
 bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasMainClass
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
@@ -1496,16 +1492,16 @@ bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasMainClass
 {
   CustomLogic_CustomLogicEvaluator_o *pCVar1;
   CustomLogic_CustomLogicStartAst_o *pCVar2;
-  System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *__this_00;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
   bool bVar3;
   
-  if (Il2CppMethodInitialized_184346a2a == '\0') {
+  if (Il2CppMethodInitialized_075473f6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
               );
     il2cpp_codegen_initialize_runtime_metadata(&"Main");
-    Il2CppMethodInitialized_184346a2a = '\x01';
+    Il2CppMethodInitialized_075473f6 = '\x01';
   }
   pCVar1 = (__this->fields)._evaluator;
   if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
@@ -1513,12 +1509,11 @@ bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasMainClass
     if (pCVar2 == (CustomLogic_CustomLogicStartAst_o *)0x0) {
       return false;
     }
-    __this_00 = (pCVar2->fields).Classes;
-    if (__this_00 != (System_Collections_Generic_Dictionary_string__CustomLogicClassDefinitionAst__o *)0x0) {
-      bVar3 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                         (Il2CppObject *)"Main",
-                         (MethodInfo_1455450 *)
+    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar2->fields).Classes;
+    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                        (__this_00,(Il2CppObject *)"Main",
+                         (MethodInfo_4AAD6F0 *)
                          MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicClassDefinitionAst_ContainsKey
                         );
       return bVar3;
@@ -1530,10 +1525,11 @@ bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasMainClass
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetMainInstance
 // il2cpp: CustomLogic_CustomLogicClassInstance_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainInstance (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1805852b0
+// 0x5b914d0
 
-CustomLogic_CustomLogicClassInstance_o*
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainInstance(CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicClassInstance_o *
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainInstance
+          (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._mainInstance;
@@ -1542,7 +1538,7 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainInstance(Custom
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$EvaluateMethod
 // il2cpp: Il2CppObject* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, CustomLogic_CustomLogicClassInstance_o* instance, System_String_o* methodName, System_Object_array* parameters, const MethodInfo* method);
-// 0x1820ebbb0
+// 0x5b914e0
 
 Il2CppObject *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod
@@ -1555,21 +1551,21 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod
   Il2CppObject *pIVar1;
   
   __this_00 = (__this->fields)._evaluator;
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    pIVar1 = CustomLogic_CustomLogicEvaluator__EvaluateMethod
-                       (__this_00,instance,methodName,parameters,0,(MethodInfo *)0x0);
-    return pIVar1;
+  if (__this_00 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = CustomLogic_CustomLogicEvaluator__EvaluateMethod
+                     (__this_00,instance,methodName,parameters,0,(MethodInfo *)0x0);
+  return pIVar1;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$EvaluateMethod
 // il2cpp: Il2CppObject* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* className, System_String_o* methodName, System_Object_array* parameters, const MethodInfo* method);
-// 0x1820ebaf0
+// 0x5b91500
 
 Il2CppObject *
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod_20ebaf0
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod_5a91500
           (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,System_String_o *className,
           System_String_o *methodName,System_Object_array *parameters,MethodInfo *method)
 
@@ -1578,9 +1574,9 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod_20ebaf0
   CustomLogic_CustomLogicClassInstance_o *classInstance;
   Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346a2b == '\0') {
+  if (Il2CppMethodInitialized_075473f7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346a2b = '\x01';
+    Il2CppMethodInitialized_075473f7 = '\x01';
   }
   pCVar1 = (__this->fields)._evaluator;
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
@@ -1588,9 +1584,9 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod_20ebaf0
   }
   if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
     classInstance =
-         CustomLogic_CustomLogicEvaluator__CreateClassInstance_20d7780
+         CustomLogic_CustomLogicEvaluator__CreateClassInstance
                    (pCVar1,className,TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,true,
-                    (System_Nullable_CustomLogicSourceType__o)0x0,(MethodInfo *)0x0);
+                    (MethodInfo *)0x0);
     pCVar1 = (__this->fields)._evaluator;
     if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
       pIVar2 = CustomLogic_CustomLogicEvaluator__EvaluateMethod
@@ -1604,7 +1600,7 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMethod_20ebaf0
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$CreateClassInstance
 // il2cpp: CustomLogic_CustomLogicClassInstance_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateClassInstance (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* className, bool init, const MethodInfo* method);
-// 0x1820eb820
+// 0x5b915b0
 
 CustomLogic_CustomLogicClassInstance_o *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateClassInstance
@@ -1615,28 +1611,27 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__CreateClassInstance
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   CustomLogic_CustomLogicClassInstance_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346a2c == '\0') {
+  if (Il2CppMethodInitialized_075473f8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346a2c = '\x01';
+    Il2CppMethodInitialized_075473f8 = '\x01';
   }
   __this_00 = (__this->fields)._evaluator;
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    pCVar1 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_20d7780
-                       (__this_00,className,
-                        TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,init,
-                        (System_Nullable_CustomLogicSourceType__o)0x0,(MethodInfo *)0x0);
-    return pCVar1;
+  if (__this_00 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pCVar1 = CustomLogic_CustomLogicEvaluator__CreateClassInstance_5a84880
+                     (__this_00,className,TypeInfo_CustomLogic_CustomLogicEvaluator->static_fields->EmptyArgs,
+                      init,(System_Nullable_CustomLogicSourceType__o)0x0,(MethodInfo *)0x0);
+  return pCVar1;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$EvaluateMainMethod
 // il2cpp: Il2CppObject* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMainMethod (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* methodName, System_Object_array* parameters, const MethodInfo* method);
-// 0x1820eba60
+// 0x5b91630
 
 Il2CppObject *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMainMethod
@@ -1644,6 +1639,7 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMainMethod
           System_Object_array *parameters,MethodInfo *method)
 
 {
+  CustomLogic_CustomLogicClassInstance_o *classInstance;
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   Il2CppObject *pIVar1;
   Il2CppClass *klass;
@@ -1651,29 +1647,30 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__EvaluateMainMethod
   System_String_o *message;
   MethodInfo *lastManagedFrame;
   
-  if ((__this->fields)._mainInstance == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
+  classInstance = (__this->fields)._mainInstance;
+  if (classInstance == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
     klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
     __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
     message = il2cpp_codegen_get_runtime_metadata(&"Main class not found or not initialized");
-    System_Exception___ctor_1b6abf0(__this_01,message,(MethodInfo *)0x0);
+    System_Exception___ctor_54fa440(__this_01,message,(MethodInfo *)0x0);
     lastManagedFrame =
          il2cpp_codegen_get_runtime_metadata
                    (&MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_EvaluateMainMethod);
     il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
   }
   __this_00 = (__this->fields)._evaluator;
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    pIVar1 = CustomLogic_CustomLogicEvaluator__EvaluateMethod
-                       (__this_00,(__this->fields)._mainInstance,methodName,parameters,0,(MethodInfo *)0x0);
-    return pIVar1;
+  if (__this_00 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = CustomLogic_CustomLogicEvaluator__EvaluateMethod
+                     (__this_00,classInstance,methodName,parameters,0,(MethodInfo *)0x0);
+  return pIVar1;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetMainVariable
 // il2cpp: Il2CppObject* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainVariable (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* variableName, const MethodInfo* method);
-// 0x1820ebc50
+// 0x5b916b0
 
 Il2CppObject *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainVariable
@@ -1681,77 +1678,79 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetMainVariable
           MethodInfo *method)
 
 {
+  CustomLogic_CustomLogicClassInstance_o *__this_00;
   Il2CppObject *pIVar1;
   Il2CppClass *klass;
-  System_Exception_o *__this_00;
+  System_Exception_o *__this_01;
   System_String_o *message;
   MethodInfo *lastManagedFrame;
   
-  if ((__this->fields)._mainInstance != (CustomLogic_CustomLogicClassInstance_o *)0x0) {
-    pIVar1 = CustomLogic_CustomLogicClassInstance__GetVariable
-                       ((__this->fields)._mainInstance,variableName,(MethodInfo *)0x0);
-    return pIVar1;
+  __this_00 = (__this->fields)._mainInstance;
+  if (__this_00 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+    __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+    message = il2cpp_codegen_get_runtime_metadata(&"Main class not found or not initialized");
+    System_Exception___ctor_54fa440(__this_01,message,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_GetMainVariable);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
   }
-  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-  __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  message = il2cpp_codegen_get_runtime_metadata(&"Main class not found or not initialized");
-  System_Exception___ctor_1b6abf0(__this_00,message,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata
-                 (&MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_GetMainVariable);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+  pIVar1 = CustomLogic_CustomLogicClassInstance__GetVariable(__this_00,variableName,(MethodInfo *)0x0);
+  return pIVar1;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$SetMainVariable
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__SetMainVariable (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, System_String_o* variableName, Il2CppObject* value, const MethodInfo* method);
-// 0x1820ecd20
+// 0x5b91710
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__SetMainVariable
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,
                System_String_o *variableName,Il2CppObject *value,MethodInfo *method)
 
 {
+  CustomLogic_CustomLogicClassInstance_o *pCVar1;
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
   Il2CppClass *klass;
   System_Exception_o *__this_01;
   System_String_o *message;
   MethodInfo *lastManagedFrame;
   
-  if (Il2CppMethodInitialized_184346a2d == '\0') {
+  if (Il2CppMethodInitialized_075473f9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item);
-    Il2CppMethodInitialized_184346a2d = '\x01';
+    Il2CppMethodInitialized_075473f9 = '\x01';
   }
-  if ((__this->fields)._mainInstance != (CustomLogic_CustomLogicClassInstance_o *)0x0) {
-    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                (((__this->fields)._mainInstance)->fields).Variables;
-    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      System_Collections_Generic_Dictionary_object__object___set_Item
-                (__this_00,(Il2CppObject *)variableName,value,
-                 (MethodInfo_147A7F0 *)MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item
-                );
-      return;
-    }
+  pCVar1 = (__this->fields)._mainInstance;
+  if (pCVar1 == (CustomLogic_CustomLogicClassInstance_o *)0x0) {
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+    __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+    message = il2cpp_codegen_get_runtime_metadata(&"Main class not found or not initialized");
+    System_Exception___ctor_54fa440(__this_01,message,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_SetMainVariable);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
+  }
+  __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar1->fields).Variables;
+  if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
     ThrowNullReferenceException();
   }
-  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-  __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  message = il2cpp_codegen_get_runtime_metadata(&"Main class not found or not initialized");
-  System_Exception___ctor_1b6abf0(__this_01,message,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata
-                 (&MethodInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_SetMainVariable);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
+  System_Collections_Generic_Dictionary_object__object___set_Item
+            (__this_00,(Il2CppObject *)variableName,value,
+             (MethodInfo_4AAD4C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item);
+  return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetCompiler
 // il2cpp: CustomLogic_CustomLogicCompiler_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCompiler (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5b917c0
 
-CustomLogic_CustomLogicCompiler_o*
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCompiler(CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicCompiler_o *
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCompiler
+          (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._compiler;
@@ -1760,25 +1759,26 @@ CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCompiler(CustomLogi
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetCapturedErrors
 // il2cpp: System_Collections_Generic_List_CustomLogicError__o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCapturedErrors (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x181ccd880
+// 0x5b917d0
 
-System_Collections_Generic_List_CustomLogicError__o*
-CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCapturedErrors(CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, MethodInfo* method)
+System_Collections_Generic_List_CustomLogicError__o *
+CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetCapturedErrors
+          (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  ExitGames_Client_Photon_PhotonPeer_o *pEVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
   
-  pEVar1 = (__this->fields)._evaluator;
-  if (pEVar1 != (ExitGames_Client_Photon_PhotonPeer_o *)0x0) {
-    return (pEVar1->fields)._TrafficStatsIncoming_k__BackingField;
+  pCVar1 = (__this->fields)._evaluator;
+  if (pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pCVar1->fields)._CapturedErrors_k__BackingField;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$HasErrors
 // il2cpp: bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasErrors (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820ebd50
+// 0x5b917f0
 
 bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasErrors
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
@@ -1787,106 +1787,89 @@ bool CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__HasErrors
   CustomLogic_CustomLogicEvaluator_o *pCVar1;
   System_Collections_Generic_List_CustomLogicError__o *pSVar2;
   
-  if (Il2CppMethodInitialized_184346a2e == '\0') {
+  if (Il2CppMethodInitialized_075473fa == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicError_get_Count);
-    Il2CppMethodInitialized_184346a2e = '\x01';
+    Il2CppMethodInitialized_075473fa = '\x01';
   }
   pCVar1 = (__this->fields)._evaluator;
-  if ((pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
+  if ((pCVar1 == (CustomLogic_CustomLogicEvaluator_o *)0x0) ||
      (pSVar2 = (pCVar1->fields)._CapturedErrors_k__BackingField,
-     pSVar2 != (System_Collections_Generic_List_CustomLogicError__o *)0x0)) {
-    return 0 < (pSVar2->fields)._size;
+     pSVar2 == (System_Collections_Generic_List_CustomLogicError__o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return 0 < (pSVar2->fields)._size;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$ClearErrors
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__ClearErrors (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820eb390
+// 0x5b91840
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__ClearErrors
                (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  int32_t length;
-  CustomLogic_CustomLogicEvaluator_o *pCVar2;
-  System_Collections_Generic_List_CustomLogicError__o *pSVar3;
+  CustomLogic_CustomLogicEvaluator_o *__this_00;
   
-  pCVar2 = (__this->fields)._evaluator;
-  if (pCVar2 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    if (Il2CppMethodInitialized_184346a03 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_System_Collections_Generic_List_CustomLogicError_Clear);
-      Il2CppMethodInitialized_184346a03 = '\x01';
-    }
-    pSVar3 = (pCVar2->fields)._CapturedErrors_k__BackingField;
-    if (pSVar3 != (System_Collections_Generic_List_CustomLogicError__o *)0x0) {
-      length = (pSVar3->fields)._size;
-      piVar1 = &(pSVar3->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      (pSVar3->fields)._size = 0;
-      if (0 < length) {
-        System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,length,(MethodInfo *)0x0);
-        return;
-      }
-      return;
-    }
+  __this_00 = (__this->fields)._evaluator;
+  if (__this_00 == (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicEvaluator__ClearCapturedErrors(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$GetLastError
 // il2cpp: CustomLogic_CustomLogicError_o* CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetLastError (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o* __this, const MethodInfo* method);
-// 0x1820ebbe0
+// 0x5b91860
 
 CustomLogic_CustomLogicError_o *
 CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator__GetLastError
           (CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator_o *__this,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicEvaluator_o *pCVar1;
+  int iVar1;
+  CustomLogic_CustomLogicEvaluator_o *pCVar2;
   System_Collections_Generic_List_CustomLogicError__o *__this_00;
-  CustomLogic_CustomLogicError_o *pCVar2;
+  CustomLogic_CustomLogicError_o *pCVar3;
   
-  if (Il2CppMethodInitialized_184346a2f == '\0') {
+  if (Il2CppMethodInitialized_075473fb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicError_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicError_get_Item);
-    Il2CppMethodInitialized_184346a2f = '\x01';
+    Il2CppMethodInitialized_075473fb = '\x01';
   }
-  pCVar1 = (__this->fields)._evaluator;
-  if ((pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) &&
-     (__this_00 = (pCVar1->fields)._CapturedErrors_k__BackingField,
-     __this_00 != (System_Collections_Generic_List_CustomLogicError__o *)0x0)) {
-    if (0 < (__this_00->fields)._size) {
-      pCVar2 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_00,
-                          (__this_00->fields)._size + -1,
-                          (MethodInfo_92B830 *)
-                          MethodInfo_System_Collections_Generic_List_CustomLogicError_get_Item);
-      return pCVar2;
-    }
+  pCVar2 = (__this->fields)._evaluator;
+  if ((pCVar2 == (CustomLogic_CustomLogicEvaluator_o *)0x0) ||
+     (__this_00 = (pCVar2->fields)._CapturedErrors_k__BackingField,
+     __this_00 == (System_Collections_Generic_List_CustomLogicError__o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  iVar1 = (__this_00->fields)._size;
+  if (iVar1 < 1) {
     return (CustomLogic_CustomLogicError_o *)0x0;
   }
-  ThrowNullReferenceException();
+  pCVar3 = System_Collections_Generic_List_object___get_Item
+                     ((System_Collections_Generic_List_object__o *)__this_00,iVar1 + -1,
+                      (MethodInfo_395CF20 *)
+                      MethodInfo_System_Collections_Generic_List_CustomLogicError_get_Item);
+  return pCVar3;
 }
 
 
 // CustomLogic.OfflineEvaluator.OfflineCustomLogicEvaluator$$.cctor
 // il2cpp: void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___cctor (const MethodInfo* method);
-// 0x1820ecde0
+// 0x5b918d0
 
 void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_184346a30 == '\0') {
+  if (Il2CppMethodInitialized_075473fc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
@@ -1905,60 +1888,60 @@ void CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator___cctor(MethodInfo
     il2cpp_codegen_initialize_runtime_metadata(&"Vector2");
     il2cpp_codegen_initialize_runtime_metadata(&"Convert");
     il2cpp_codegen_initialize_runtime_metadata(&"Range");
-    Il2CppMethodInitialized_184346a30 = '\x01';
+    Il2CppMethodInitialized_075473fc = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Math",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Convert",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Json",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Random",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"String",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"List",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Set",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Dict",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Range",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Vector2",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Vector3",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Quaternion",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Color",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    TypeInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator->static_fields->
-    OfflineCompatibleBuiltins = __this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator->static_fields->
-                OfflineCompatibleBuiltins,__this);
-    return;
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Math",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Convert",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Json",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Random",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"String",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"List",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Set",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Dict",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Range",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Vector2",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Vector3",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Quaternion",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Color",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  TypeInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator->static_fields->OfflineCompatibleBuiltins
+       = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_OfflineEvaluator_OfflineCustomLogicEvaluator->static_fields->
+              OfflineCompatibleBuiltins);
+  return;
 }
 
 

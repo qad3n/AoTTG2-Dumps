@@ -18,7 +18,7 @@ internal static class PointerEventsHelper
 	}
 
 	[Token(Token = "0x6000DCF")]
-	[Address(RVA = "0x326C360", Offset = "0x326A960", VA = "0x18326C360")]
+	[Address(RVA = "0x6C60430", Offset = "0x6C5F430", VA = "0x6C60430")]
 	internal static void SendOverOut(VisualElement previousTopElementUnderPointer, VisualElement currentTopElementUnderPointer, IPointerEvent triggerEvent, Vector2 position, int pointerId)
 	{
 	}

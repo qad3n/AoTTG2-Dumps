@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnTriggerStayMessageListener : MessageListener
 {
 	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x2DBF550", Offset = "0x2DBDB50", VA = "0x182DBF550")]
+	[Address(RVA = "0x67A53B0", Offset = "0x67A43B0", VA = "0x67A53B0")]
 	private void OnTriggerStay(Collider other)
 	{
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5440", Offset = "0x67A4440", VA = "0x67A5440")]
 	public UnityOnTriggerStayMessageListener()
 	{
 	}

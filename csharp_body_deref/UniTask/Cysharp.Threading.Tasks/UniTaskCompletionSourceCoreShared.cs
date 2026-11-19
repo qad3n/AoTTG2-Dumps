@@ -18,7 +18,7 @@ internal static class UniTaskCompletionSourceCoreShared
 	internal static readonly Action<object> s_sentinel;
 
 	[Token(Token = "0x60006DE")]
-	[Address(RVA = "0x291A6F0", Offset = "0x2918CF0", VA = "0x18291A6F0")]
+	[Address(RVA = "0x62D9F30", Offset = "0x62D8F30", VA = "0x62D9F30")]
 	private static void CompletionSentinel(object _)
 	{
 	}

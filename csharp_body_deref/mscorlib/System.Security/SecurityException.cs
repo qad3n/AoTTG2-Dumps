@@ -12,46 +12,46 @@ using Il2CppDummyDll;
 namespace System.Security;
 
 [Serializable]
-[Token(Token = "0x20002D7")]
+[Token(Token = "0x20002B0")]
 [ComVisible(true)]
 public class SecurityException : SystemException
 {
-	[Token(Token = "0x4000C33")]
+	[Token(Token = "0x4000B93")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private string permissionState;
 
-	[Token(Token = "0x600181B")]
-	[Address(RVA = "0x199B390", Offset = "0x1999990", VA = "0x18199B390")]
+	[Token(Token = "0x60017F8")]
+	[Address(RVA = "0x532AA10", Offset = "0x5329A10", VA = "0x532AA10")]
 	public SecurityException()
 	{
 	}
 
-	[Token(Token = "0x600181C")]
-	[Address(RVA = "0x199B350", Offset = "0x1999950", VA = "0x18199B350")]
+	[Token(Token = "0x60017F9")]
+	[Address(RVA = "0x532AA60", Offset = "0x5329A60", VA = "0x532AA60")]
 	public SecurityException(string message)
 	{
 	}
 
-	[Token(Token = "0x600181D")]
-	[Address(RVA = "0x199B3E0", Offset = "0x19999E0", VA = "0x18199B3E0")]
+	[Token(Token = "0x60017FA")]
+	[Address(RVA = "0x532AA80", Offset = "0x5329A80", VA = "0x532AA80")]
 	protected SecurityException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600181E")]
-	[Address(RVA = "0x199B370", Offset = "0x1999970", VA = "0x18199B370")]
+	[Token(Token = "0x60017FB")]
+	[Address(RVA = "0x532ABA0", Offset = "0x5329BA0", VA = "0x532ABA0")]
 	public SecurityException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x600181F")]
-	[Address(RVA = "0x199B2B0", Offset = "0x19998B0", VA = "0x18199B2B0", Slot = "11")]
+	[Token(Token = "0x60017FC")]
+	[Address(RVA = "0x532ABC0", Offset = "0x5329BC0", VA = "0x532ABC0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001820")]
-	[Address(RVA = "0x199B340", Offset = "0x1999940", VA = "0x18199B340", Slot = "3")]
+	[Token(Token = "0x60017FD")]
+	[Address(RVA = "0x532ACB0", Offset = "0x5329CB0", VA = "0x532ACB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

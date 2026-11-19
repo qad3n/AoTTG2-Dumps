@@ -84,7 +84,7 @@ public class FontData : ISerializationCallbackReceiver
 	public static FontData defaultFontData
 	{
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x306D2A0", Offset = "0x306B8A0", VA = "0x18306D2A0")]
+		[Address(RVA = "0x6A69AA0", Offset = "0x6A68AA0", VA = "0x6A69AA0")]
 		get
 		{
 			return null;
@@ -95,13 +95,13 @@ public class FontData : ISerializationCallbackReceiver
 	public Font font
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6A69B30", Offset = "0x6A68B30", VA = "0x6A69B30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6A69B40", Offset = "0x6A68B40", VA = "0x6A69B40")]
 		set
 		{
 		}
@@ -111,13 +111,13 @@ public class FontData : ISerializationCallbackReceiver
 	public int fontSize
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x6A69B50", Offset = "0x6A68B50", VA = "0x6A69B50")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x6A69B60", Offset = "0x6A68B60", VA = "0x6A69B60")]
 		set
 		{
 		}
@@ -127,13 +127,13 @@ public class FontData : ISerializationCallbackReceiver
 	public FontStyle fontStyle
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x6A69B70", Offset = "0x6A68B70", VA = "0x6A69B70")]
 		get
 		{
 			return default(FontStyle);
 		}
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x6A69B80", Offset = "0x6A68B80", VA = "0x6A69B80")]
 		set
 		{
 		}
@@ -143,13 +143,13 @@ public class FontData : ISerializationCallbackReceiver
 	public bool bestFit
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x6A69B90", Offset = "0x6A68B90", VA = "0x6A69B90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x6A69BA0", Offset = "0x6A68BA0", VA = "0x6A69BA0")]
 		set
 		{
 		}
@@ -159,13 +159,13 @@ public class FontData : ISerializationCallbackReceiver
 	public int minSize
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6A69BB0", Offset = "0x6A68BB0", VA = "0x6A69BB0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x6A69BC0", Offset = "0x6A68BC0", VA = "0x6A69BC0")]
 		set
 		{
 		}
@@ -175,13 +175,13 @@ public class FontData : ISerializationCallbackReceiver
 	public int maxSize
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6A69BD0", Offset = "0x6A68BD0", VA = "0x6A69BD0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6A69BE0", Offset = "0x6A68BE0", VA = "0x6A69BE0")]
 		set
 		{
 		}
@@ -191,13 +191,13 @@ public class FontData : ISerializationCallbackReceiver
 	public TextAnchor alignment
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x6A69BF0", Offset = "0x6A68BF0", VA = "0x6A69BF0")]
 		get
 		{
 			return default(TextAnchor);
 		}
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x6A69C00", Offset = "0x6A68C00", VA = "0x6A69C00")]
 		set
 		{
 		}
@@ -207,13 +207,13 @@ public class FontData : ISerializationCallbackReceiver
 	public bool alignByGeometry
 	{
 		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Address(RVA = "0x6A69C10", Offset = "0x6A68C10", VA = "0x6A69C10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
+		[Address(RVA = "0x6A69C20", Offset = "0x6A68C20", VA = "0x6A69C20")]
 		set
 		{
 		}
@@ -223,13 +223,13 @@ public class FontData : ISerializationCallbackReceiver
 	public bool richText
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x1D6A540", Offset = "0x1D68B40", VA = "0x181D6A540")]
+		[Address(RVA = "0x6A69C30", Offset = "0x6A68C30", VA = "0x6A69C30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x20FB170", Offset = "0x20F9770", VA = "0x1820FB170")]
+		[Address(RVA = "0x6A69C40", Offset = "0x6A68C40", VA = "0x6A69C40")]
 		set
 		{
 		}
@@ -239,13 +239,13 @@ public class FontData : ISerializationCallbackReceiver
 	public HorizontalWrapMode horizontalOverflow
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x6A69C50", Offset = "0x6A68C50", VA = "0x6A69C50")]
 		get
 		{
 			return default(HorizontalWrapMode);
 		}
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x6A69C60", Offset = "0x6A68C60", VA = "0x6A69C60")]
 		set
 		{
 		}
@@ -255,13 +255,13 @@ public class FontData : ISerializationCallbackReceiver
 	public VerticalWrapMode verticalOverflow
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x6A69C70", Offset = "0x6A68C70", VA = "0x6A69C70")]
 		get
 		{
 			return default(VerticalWrapMode);
 		}
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x6A69C80", Offset = "0x6A68C80", VA = "0x6A69C80")]
 		set
 		{
 		}
@@ -271,32 +271,32 @@ public class FontData : ISerializationCallbackReceiver
 	public float lineSpacing
 	{
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Address(RVA = "0x6A69C90", Offset = "0x6A68C90", VA = "0x6A69C90")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x1ED2F20", Offset = "0x1ED1520", VA = "0x181ED2F20")]
+		[Address(RVA = "0x6A69CA0", Offset = "0x6A68CA0", VA = "0x6A69CA0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6A69CB0", Offset = "0x6A68CB0", VA = "0x6A69CB0", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x306D240", Offset = "0x306B840", VA = "0x18306D240", Slot = "5")]
+	[Address(RVA = "0x6A69CC0", Offset = "0x6A68CC0", VA = "0x6A69CC0", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6A69B20", Offset = "0x6A68B20", VA = "0x6A69B20")]
 	public FontData()
 	{
 	}

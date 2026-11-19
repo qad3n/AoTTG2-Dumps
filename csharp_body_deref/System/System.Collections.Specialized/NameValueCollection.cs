@@ -11,130 +11,130 @@ using Il2CppDummyDll;
 namespace System.Collections.Specialized;
 
 [Serializable]
-[Token(Token = "0x2000243")]
+[Token(Token = "0x2000204")]
 public class NameValueCollection : NameObjectCollectionBase
 {
-	[Token(Token = "0x400081F")]
+	[Token(Token = "0x4000750")]
 	[FieldOffset(Offset = "0x50")]
 	private string[] _all;
 
-	[Token(Token = "0x4000820")]
+	[Token(Token = "0x4000751")]
 	[FieldOffset(Offset = "0x58")]
 	private string[] _allKeys;
 
-	[Token(Token = "0x17000313")]
+	[Token(Token = "0x170002E4")]
 	public string this[string name]
 	{
-		[Token(Token = "0x6000FA5")]
-		[Address(RVA = "0x243BAD0", Offset = "0x243A0D0", VA = "0x18243BAD0")]
+		[Token(Token = "0x6000DE5")]
+		[Address(RVA = "0x62802E0", Offset = "0x627F2E0", VA = "0x62802E0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000FA6")]
-		[Address(RVA = "0x28D7DB0", Offset = "0x28D63B0", VA = "0x1828D7DB0")]
+		[Token(Token = "0x6000DE6")]
+		[Address(RVA = "0x6280300", Offset = "0x627F300", VA = "0x6280300")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000314")]
+	[Token(Token = "0x170002E5")]
 	public virtual string[] AllKeys
 	{
-		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x28D7C60", Offset = "0x28D6260", VA = "0x1828D7C60", Slot = "22")]
+		[Token(Token = "0x6000DE9")]
+		[Address(RVA = "0x62805C0", Offset = "0x627F5C0", VA = "0x62805C0", Slot = "22")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x28D7B80", Offset = "0x28D6180", VA = "0x1828D7B80")]
+	[Token(Token = "0x6000DDA")]
+	[Address(RVA = "0x627F4D0", Offset = "0x627E4D0", VA = "0x627F4D0")]
 	public NameValueCollection()
 	{
 	}
 
-	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x28D7A90", Offset = "0x28D6090", VA = "0x1828D7A90")]
+	[Token(Token = "0x6000DDB")]
+	[Address(RVA = "0x627F5E0", Offset = "0x627E5E0", VA = "0x627F5E0")]
 	public NameValueCollection(int capacity, IEqualityComparer equalityComparer)
 	{
 	}
 
-	[Token(Token = "0x6000F9C")]
-	[Address(RVA = "0x28D7B10", Offset = "0x28D6110", VA = "0x1828D7B10")]
+	[Token(Token = "0x6000DDC")]
+	[Address(RVA = "0x627F660", Offset = "0x627E660", VA = "0x627F660")]
 	protected NameValueCollection(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000F9D")]
-	[Address(RVA = "0x28D7860", Offset = "0x28D5E60", VA = "0x1828D7860")]
+	[Token(Token = "0x6000DDD")]
+	[Address(RVA = "0x627F700", Offset = "0x627E700", VA = "0x627F700")]
 	protected void InvalidateCachedArrays()
 	{
 	}
 
-	[Token(Token = "0x6000F9E")]
-	[Address(RVA = "0x28D72D0", Offset = "0x28D58D0", VA = "0x1828D72D0")]
+	[Token(Token = "0x6000DDE")]
+	[Address(RVA = "0x627F730", Offset = "0x627E730", VA = "0x627F730")]
 	private static string GetAsOneString(ArrayList list)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F9F")]
-	[Address(RVA = "0x28D74C0", Offset = "0x28D5AC0", VA = "0x1828D74C0")]
+	[Token(Token = "0x6000DDF")]
+	[Address(RVA = "0x627F8A0", Offset = "0x627E8A0", VA = "0x627F8A0")]
 	private static string[] GetAsStringArray(ArrayList list)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FA0")]
-	[Address(RVA = "0x28D7140", Offset = "0x28D5740", VA = "0x1828D7140", Slot = "15")]
+	[Token(Token = "0x6000DE0")]
+	[Address(RVA = "0x627F920", Offset = "0x627E920", VA = "0x627F920", Slot = "15")]
 	public virtual void Add(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x6000FA1")]
-	[Address(RVA = "0x28D77C0", Offset = "0x28D5DC0", VA = "0x1828D77C0", Slot = "16")]
+	[Token(Token = "0x6000DE1")]
+	[Address(RVA = "0x627FC30", Offset = "0x627EC30", VA = "0x627FC30", Slot = "16")]
 	public virtual string Get(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FA2")]
-	[Address(RVA = "0x28D7580", Offset = "0x28D5B80", VA = "0x1828D7580", Slot = "17")]
+	[Token(Token = "0x6000DE2")]
+	[Address(RVA = "0x627FCC0", Offset = "0x627ECC0", VA = "0x627FCC0", Slot = "17")]
 	public virtual string[] GetValues(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FA3")]
-	[Address(RVA = "0x28D78F0", Offset = "0x28D5EF0", VA = "0x1828D78F0", Slot = "18")]
+	[Token(Token = "0x6000DE3")]
+	[Address(RVA = "0x627FDD0", Offset = "0x627EDD0", VA = "0x627FDD0", Slot = "18")]
 	public virtual void Set(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x28D78A0", Offset = "0x28D5EA0", VA = "0x1828D78A0", Slot = "19")]
+	[Token(Token = "0x6000DE4")]
+	[Address(RVA = "0x627FF80", Offset = "0x627EF80", VA = "0x627FF80", Slot = "19")]
 	public virtual void Remove(string name)
 	{
 	}
 
-	[Token(Token = "0x6000FA7")]
-	[Address(RVA = "0x28D76B0", Offset = "0x28D5CB0", VA = "0x1828D76B0", Slot = "20")]
+	[Token(Token = "0x6000DE7")]
+	[Address(RVA = "0x6280320", Offset = "0x627F320", VA = "0x6280320", Slot = "20")]
 	public virtual string Get(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FA8")]
-	[Address(RVA = "0x28D7570", Offset = "0x28D5B70", VA = "0x1828D7570", Slot = "21")]
+	[Token(Token = "0x6000DE8")]
+	[Address(RVA = "0x62804A0", Offset = "0x627F4A0", VA = "0x62804A0", Slot = "21")]
 	public virtual string GetKey(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FAA")]
-	[Address(RVA = "0x28D7C10", Offset = "0x28D6210", VA = "0x1828D7C10")]
+	[Token(Token = "0x6000DEA")]
+	[Address(RVA = "0x62807A0", Offset = "0x627F7A0", VA = "0x62807A0")]
 	internal NameValueCollection(DBNull dummy)
 	{
 	}

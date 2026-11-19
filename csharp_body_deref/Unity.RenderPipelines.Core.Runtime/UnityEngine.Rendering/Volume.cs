@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Volume
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -67,13 +67,13 @@ public class Volume : MonoBehaviour, IVolume
 	public bool isGlobal
 	{
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "4")]
+		[Address(RVA = "0x6552990", Offset = "0x6551990", VA = "0x6552990", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000ECA")]
-		[Address(RVA = "0x2B676C0", Offset = "0x2B65CC0", VA = "0x182B676C0", Slot = "5")]
+		[Address(RVA = "0x65529A0", Offset = "0x65519A0", VA = "0x65529A0", Slot = "5")]
 		set
 		{
 		}
@@ -83,13 +83,13 @@ public class Volume : MonoBehaviour, IVolume
 	public VolumeProfile profile
 	{
 		[Token(Token = "0x6000ECB")]
-		[Address(RVA = "0x2B67400", Offset = "0x2B65A00", VA = "0x182B67400")]
+		[Address(RVA = "0x6552A30", Offset = "0x6551A30", VA = "0x6552A30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ECC")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x6552D10", Offset = "0x6551D10", VA = "0x6552D10")]
 		set
 		{
 		}
@@ -99,7 +99,7 @@ public class Volume : MonoBehaviour, IVolume
 	public List<Collider> colliders
 	{
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "6")]
+		[Address(RVA = "0x6552D20", Offset = "0x6551D20", VA = "0x6552D20", Slot = "6")]
 		get
 		{
 			return null;
@@ -110,7 +110,7 @@ public class Volume : MonoBehaviour, IVolume
 	internal GameObject cachedGameObject
 	{
 		[Token(Token = "0x6000ECE")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6552D30", Offset = "0x6551D30", VA = "0x6552D30")]
 		get
 		{
 			return null;
@@ -121,7 +121,7 @@ public class Volume : MonoBehaviour, IVolume
 	internal VolumeProfile profileRef
 	{
 		[Token(Token = "0x6000ECF")]
-		[Address(RVA = "0x2B67380", Offset = "0x2B65980", VA = "0x182B67380")]
+		[Address(RVA = "0x6552D40", Offset = "0x6551D40", VA = "0x6552D40")]
 		get
 		{
 			return null;
@@ -129,56 +129,56 @@ public class Volume : MonoBehaviour, IVolume
 	}
 
 	[Token(Token = "0x6000ED0")]
-	[Address(RVA = "0x2B66E90", Offset = "0x2B65490", VA = "0x182B66E90")]
+	[Address(RVA = "0x6552DB0", Offset = "0x6551DB0", VA = "0x6552DB0")]
 	public bool HasInstantiatedProfile()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ED1")]
-	[Address(RVA = "0x2B66F40", Offset = "0x2B65540", VA = "0x182B66F40")]
+	[Address(RVA = "0x6552E00", Offset = "0x6551E00", VA = "0x6552E00")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000ED2")]
-	[Address(RVA = "0x2B66EE0", Offset = "0x2B654E0", VA = "0x182B66EE0")]
+	[Address(RVA = "0x6552EC0", Offset = "0x6551EC0", VA = "0x6552EC0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000ED3")]
-	[Address(RVA = "0x2B671C0", Offset = "0x2B657C0", VA = "0x182B671C0")]
+	[Address(RVA = "0x6552F40", Offset = "0x6551F40", VA = "0x6552F40")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x2B67020", Offset = "0x2B65620", VA = "0x182B67020")]
+	[Address(RVA = "0x65529F0", Offset = "0x65519F0", VA = "0x65529F0")]
 	public void UpdateColliders()
 	{
 	}
 
 	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x2B67060", Offset = "0x2B65660", VA = "0x182B67060")]
+	[Address(RVA = "0x6552F60", Offset = "0x6551F60", VA = "0x6552F60")]
 	internal void UpdateLayer()
 	{
 	}
 
 	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x2B67100", Offset = "0x2B65700", VA = "0x182B67100")]
+	[Address(RVA = "0x6552FE0", Offset = "0x6551FE0", VA = "0x6552FE0")]
 	internal void UpdatePriority()
 	{
 	}
 
 	[Token(Token = "0x6000ED7")]
-	[Address(RVA = "0x2B67000", Offset = "0x2B65600", VA = "0x182B67000")]
+	[Address(RVA = "0x6553090", Offset = "0x6552090", VA = "0x6553090")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x2B672F0", Offset = "0x2B658F0", VA = "0x182B672F0")]
+	[Address(RVA = "0x65530B0", Offset = "0x65520B0", VA = "0x65530B0")]
 	public Volume()
 	{
 	}

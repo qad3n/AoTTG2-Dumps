@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000501")]
+[Token(Token = "0x20004DA")]
 [Flags]
 public enum BindingFlags
 {
-	[Token(Token = "0x40013BC")]
+	[Token(Token = "0x400131C")]
 	Default = 0,
-	[Token(Token = "0x40013BD")]
+	[Token(Token = "0x400131D")]
 	IgnoreCase = 1,
-	[Token(Token = "0x40013BE")]
+	[Token(Token = "0x400131E")]
 	DeclaredOnly = 2,
-	[Token(Token = "0x40013BF")]
+	[Token(Token = "0x400131F")]
 	Instance = 4,
-	[Token(Token = "0x40013C0")]
+	[Token(Token = "0x4001320")]
 	Static = 8,
-	[Token(Token = "0x40013C1")]
+	[Token(Token = "0x4001321")]
 	Public = 0x10,
-	[Token(Token = "0x40013C2")]
+	[Token(Token = "0x4001322")]
 	NonPublic = 0x20,
-	[Token(Token = "0x40013C3")]
+	[Token(Token = "0x4001323")]
 	FlattenHierarchy = 0x40,
-	[Token(Token = "0x40013C4")]
+	[Token(Token = "0x4001324")]
 	InvokeMethod = 0x100,
-	[Token(Token = "0x40013C5")]
+	[Token(Token = "0x4001325")]
 	CreateInstance = 0x200,
-	[Token(Token = "0x40013C6")]
+	[Token(Token = "0x4001326")]
 	GetField = 0x400,
-	[Token(Token = "0x40013C7")]
+	[Token(Token = "0x4001327")]
 	SetField = 0x800,
-	[Token(Token = "0x40013C8")]
+	[Token(Token = "0x4001328")]
 	GetProperty = 0x1000,
-	[Token(Token = "0x40013C9")]
+	[Token(Token = "0x4001329")]
 	SetProperty = 0x2000,
-	[Token(Token = "0x40013CA")]
+	[Token(Token = "0x400132A")]
 	PutDispProperty = 0x4000,
-	[Token(Token = "0x40013CB")]
+	[Token(Token = "0x400132B")]
 	PutRefDispProperty = 0x8000,
-	[Token(Token = "0x40013CC")]
+	[Token(Token = "0x400132C")]
 	ExactBinding = 0x10000,
-	[Token(Token = "0x40013CD")]
+	[Token(Token = "0x400132D")]
 	SuppressChangeType = 0x20000,
-	[Token(Token = "0x40013CE")]
+	[Token(Token = "0x400132E")]
 	OptionalParamBinding = 0x40000,
-	[Token(Token = "0x40013CF")]
+	[Token(Token = "0x400132F")]
 	IgnoreReturn = 0x1000000,
-	[Token(Token = "0x40013D0")]
+	[Token(Token = "0x4001330")]
 	DoNotWrapExceptions = 0x2000000
 }

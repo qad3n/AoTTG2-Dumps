@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000D7")]
+[Token(Token = "0x20000AF")]
 [AttributeUsage(AttributeTargets.Enum, Inherited = false)]
 public class FlagsAttribute : Attribute
 {
-	[Token(Token = "0x60006D9")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60006B4")]
+	[Address(RVA = "0x549EC80", Offset = "0x549DC80", VA = "0x549EC80")]
 	public FlagsAttribute()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Credits.AottgCreditsResult
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Credits/AottgCreditsResult.cs
@@ -8,19 +8,20 @@
 
 // ApplicationManagers.Credits.AottgCreditsResult$$.ctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult___ctor (ApplicationManagers_Credits_AottgCreditsResult_o* __this, int32_t state, ApplicationManagers_Credits_AottgCreditsResponse_o* credits, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, const MethodInfo* method);
-// 0x181573360
+// 0x5e22870
 
-void
-ApplicationManagers_Credits_AottgCreditsResult___ctor(ApplicationManagers_Credits_AottgCreditsResult_o* __this, int32_t state, ApplicationManagers_Credits_AottgCreditsResponse_o* credits, System_String_o* error, bool isFromCache, bool isStale, bool isRefreshing, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult___ctor
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,int32_t state,
+               ApplicationManagers_Credits_AottgCreditsResponse_o *credits,System_String_o *error,
+               bool isFromCache,bool isStale,bool isRefreshing,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = state;
-  (__this->fields)._Credits_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,value);
+  (__this->fields)._Credits_k__BackingField = credits;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = isFromCache;
   (__this->fields)._IsStale_k__BackingField = isStale;
   (__this->fields)._IsRefreshing_k__BackingField = isRefreshing;
@@ -30,10 +31,10 @@ ApplicationManagers_Credits_AottgCreditsResult___ctor(ApplicationManagers_Credit
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_State
 // il2cpp: int32_t ApplicationManagers_Credits_AottgCreditsResult__get_State (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x180546860
+// 0x5e228e0
 
-int32_t
-ApplicationManagers_Credits_AottgCreditsResult__get_State(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+int32_t ApplicationManagers_Credits_AottgCreditsResult__get_State
+                  (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._State_k__BackingField;
@@ -42,10 +43,10 @@ ApplicationManagers_Credits_AottgCreditsResult__get_State(ApplicationManagers_Cr
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_State
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_State (ApplicationManagers_Credits_AottgCreditsResult_o* __this, int32_t value, const MethodInfo* method);
-// 0x180560b20
+// 0x5e228f0
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_State(ApplicationManagers_Credits_AottgCreditsResult_o* __this, int32_t value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_State
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,int32_t value,MethodInfo *method)
 
 {
   (__this->fields)._State_k__BackingField = value;
@@ -55,10 +56,11 @@ ApplicationManagers_Credits_AottgCreditsResult__set_State(ApplicationManagers_Cr
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_Credits
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResponse_o* ApplicationManagers_Credits_AottgCreditsResult__get_Credits (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5e22900
 
-ApplicationManagers_Credits_AottgCreditsResponse_o*
-ApplicationManagers_Credits_AottgCreditsResult__get_Credits(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+ApplicationManagers_Credits_AottgCreditsResponse_o *
+ApplicationManagers_Credits_AottgCreditsResult__get_Credits
+          (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._Credits_k__BackingField;
@@ -67,24 +69,26 @@ ApplicationManagers_Credits_AottgCreditsResult__get_Credits(ApplicationManagers_
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_Credits
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_Credits (ApplicationManagers_Credits_AottgCreditsResult_o* __this, ApplicationManagers_Credits_AottgCreditsResponse_o* value, const MethodInfo* method);
-// 0x180c8de30
+// 0x5e22910
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_Credits(ApplicationManagers_Credits_AottgCreditsResult_o* __this, ApplicationManagers_Credits_AottgCreditsResponse_o* value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_Credits
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,
+               ApplicationManagers_Credits_AottgCreditsResponse_o *value,MethodInfo *method)
 
 {
   (__this->fields)._Credits_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_Error
 // il2cpp: System_String_o* ApplicationManagers_Credits_AottgCreditsResult__get_Error (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x1805852b0
+// 0x5e22920
 
-System_String_o*
-ApplicationManagers_Credits_AottgCreditsResult__get_Error(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+System_String_o *
+ApplicationManagers_Credits_AottgCreditsResult__get_Error
+          (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._Error_k__BackingField;
@@ -93,24 +97,25 @@ ApplicationManagers_Credits_AottgCreditsResult__get_Error(ApplicationManagers_Cr
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_Error
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_Error (ApplicationManagers_Credits_AottgCreditsResult_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x180ace2f0
+// 0x5e22930
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_Error(ApplicationManagers_Credits_AottgCreditsResult_o* __this, System_String_o* value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_Error
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,System_String_o *value,
+               MethodInfo *method)
 
 {
   (__this->fields)._Error_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_IsFromCache
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsResult__get_IsFromCache (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x180f1d480
+// 0x5e22940
 
-bool
-ApplicationManagers_Credits_AottgCreditsResult__get_IsFromCache(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+bool ApplicationManagers_Credits_AottgCreditsResult__get_IsFromCache
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._IsFromCache_k__BackingField;
@@ -119,10 +124,10 @@ ApplicationManagers_Credits_AottgCreditsResult__get_IsFromCache(ApplicationManag
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_IsFromCache
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_IsFromCache (ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, const MethodInfo* method);
-// 0x180f1d940
+// 0x5e22950
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_IsFromCache(ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_IsFromCache
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,bool value,MethodInfo *method)
 
 {
   (__this->fields)._IsFromCache_k__BackingField = value;
@@ -132,10 +137,10 @@ ApplicationManagers_Credits_AottgCreditsResult__set_IsFromCache(ApplicationManag
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_IsStale
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsResult__get_IsStale (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x181573470
+// 0x5e22960
 
-bool
-ApplicationManagers_Credits_AottgCreditsResult__get_IsStale(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+bool ApplicationManagers_Credits_AottgCreditsResult__get_IsStale
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._IsStale_k__BackingField;
@@ -144,10 +149,10 @@ ApplicationManagers_Credits_AottgCreditsResult__get_IsStale(ApplicationManagers_
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_IsStale
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_IsStale (ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, const MethodInfo* method);
-// 0x1815736c0
+// 0x5e22970
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_IsStale(ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_IsStale
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,bool value,MethodInfo *method)
 
 {
   (__this->fields)._IsStale_k__BackingField = value;
@@ -157,10 +162,10 @@ ApplicationManagers_Credits_AottgCreditsResult__set_IsStale(ApplicationManagers_
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_IsRefreshing
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsResult__get_IsRefreshing (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x181573430
+// 0x5e22980
 
-bool
-ApplicationManagers_Credits_AottgCreditsResult__get_IsRefreshing(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+bool ApplicationManagers_Credits_AottgCreditsResult__get_IsRefreshing
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._IsRefreshing_k__BackingField;
@@ -169,10 +174,10 @@ ApplicationManagers_Credits_AottgCreditsResult__get_IsRefreshing(ApplicationMana
 
 // ApplicationManagers.Credits.AottgCreditsResult$$set_IsRefreshing
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsResult__set_IsRefreshing (ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, const MethodInfo* method);
-// 0x1815736b0
+// 0x5e22990
 
-void
-ApplicationManagers_Credits_AottgCreditsResult__set_IsRefreshing(ApplicationManagers_Credits_AottgCreditsResult_o* __this, bool value, MethodInfo* method)
+void ApplicationManagers_Credits_AottgCreditsResult__set_IsRefreshing
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,bool value,MethodInfo *method)
 
 {
   (__this->fields)._IsRefreshing_k__BackingField = value;
@@ -182,20 +187,20 @@ ApplicationManagers_Credits_AottgCreditsResult__set_IsRefreshing(ApplicationMana
 
 // ApplicationManagers.Credits.AottgCreditsResult$$get_HasCredits
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsResult__get_HasCredits (ApplicationManagers_Credits_AottgCreditsResult_o* __this, const MethodInfo* method);
-// 0x181979e60
+// 0x5e229a0
 
-bool
-ApplicationManagers_Credits_AottgCreditsResult__get_HasCredits(ApplicationManagers_Credits_AottgCreditsResult_o* __this, MethodInfo* method)
+bool ApplicationManagers_Credits_AottgCreditsResult__get_HasCredits
+               (ApplicationManagers_Credits_AottgCreditsResult_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._Credits_k__BackingField !=
-         (UnityEngine_Rendering_UnifiedRayTracing_PersistentGpuArray_AccelStructInstances_RTInstance__o *)0x0;
+         (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsResult$$LoadingNoCache
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResult_o* ApplicationManagers_Credits_AottgCreditsResult__LoadingNoCache (const MethodInfo* method);
-// 0x182365920
+// 0x5e21f10
 
 ApplicationManagers_Credits_AottgCreditsResult_o *
 ApplicationManagers_Credits_AottgCreditsResult__LoadingNoCache(MethodInfo *method)
@@ -203,18 +208,17 @@ ApplicationManagers_Credits_AottgCreditsResult__LoadingNoCache(MethodInfo *metho
 {
   ApplicationManagers_Credits_AottgCreditsResult_o *__this;
   
-  if (Il2CppMethodInitialized_184347a11 == '\0') {
+  if (Il2CppMethodInitialized_075484c0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-    Il2CppMethodInitialized_184347a11 = '\x01';
+    Il2CppMethodInitialized_075484c0 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 0;
   (__this->fields)._Credits_k__BackingField = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = false;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = true;
@@ -224,7 +228,7 @@ ApplicationManagers_Credits_AottgCreditsResult__LoadingNoCache(MethodInfo *metho
 
 // ApplicationManagers.Credits.AottgCreditsResult$$ReadyFresh
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResult_o* ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh (ApplicationManagers_Credits_AottgCreditsResponse_o* credits, bool isFromCache, const MethodInfo* method);
-// 0x1823659a0
+// 0x5e21e10
 
 ApplicationManagers_Credits_AottgCreditsResult_o *
 ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh
@@ -233,18 +237,17 @@ ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh
 {
   ApplicationManagers_Credits_AottgCreditsResult_o *__this;
   
-  if (Il2CppMethodInitialized_184347a12 == '\0') {
+  if (Il2CppMethodInitialized_075484c1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-    Il2CppMethodInitialized_184347a12 = '\x01';
+    Il2CppMethodInitialized_075484c1 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 1;
   (__this->fields)._Credits_k__BackingField = credits;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,credits);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = isFromCache;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = false;
@@ -254,7 +257,7 @@ ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh
 
 // ApplicationManagers.Credits.AottgCreditsResult$$ReadyStaleRefreshing
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResult_o* ApplicationManagers_Credits_AottgCreditsResult__ReadyStaleRefreshing (ApplicationManagers_Credits_AottgCreditsResponse_o* credits, const MethodInfo* method);
-// 0x182365a40
+// 0x5e21e90
 
 ApplicationManagers_Credits_AottgCreditsResult_o *
 ApplicationManagers_Credits_AottgCreditsResult__ReadyStaleRefreshing
@@ -263,18 +266,17 @@ ApplicationManagers_Credits_AottgCreditsResult__ReadyStaleRefreshing
 {
   ApplicationManagers_Credits_AottgCreditsResult_o *__this;
   
-  if (Il2CppMethodInitialized_184347a13 == '\0') {
+  if (Il2CppMethodInitialized_075484c2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-    Il2CppMethodInitialized_184347a13 = '\x01';
+    Il2CppMethodInitialized_075484c2 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 2;
   (__this->fields)._Credits_k__BackingField = credits;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,credits);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = true;
   (__this->fields)._IsStale_k__BackingField = true;
   (__this->fields)._IsRefreshing_k__BackingField = true;
@@ -284,7 +286,7 @@ ApplicationManagers_Credits_AottgCreditsResult__ReadyStaleRefreshing
 
 // ApplicationManagers.Credits.AottgCreditsResult$$FailedNoCache
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResult_o* ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache (System_String_o* error, const MethodInfo* method);
-// 0x182365800
+// 0x5e222c0
 
 ApplicationManagers_Credits_AottgCreditsResult_o *
 ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache(System_String_o *error,MethodInfo *method)
@@ -292,18 +294,17 @@ ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache(System_String_o *e
 {
   ApplicationManagers_Credits_AottgCreditsResult_o *__this;
   
-  if (Il2CppMethodInitialized_184347a14 == '\0') {
+  if (Il2CppMethodInitialized_075484c3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-    Il2CppMethodInitialized_184347a14 = '\x01';
+    Il2CppMethodInitialized_075484c3 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 3;
   (__this->fields)._Credits_k__BackingField = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = false;
   (__this->fields)._IsStale_k__BackingField = false;
   (__this->fields)._IsRefreshing_k__BackingField = false;
@@ -313,7 +314,7 @@ ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache(System_String_o *e
 
 // ApplicationManagers.Credits.AottgCreditsResult$$FailedRefreshStale
 // il2cpp: ApplicationManagers_Credits_AottgCreditsResult_o* ApplicationManagers_Credits_AottgCreditsResult__FailedRefreshStale (ApplicationManagers_Credits_AottgCreditsResponse_o* credits, System_String_o* error, const MethodInfo* method);
-// 0x182365890
+// 0x5e22240
 
 ApplicationManagers_Credits_AottgCreditsResult_o *
 ApplicationManagers_Credits_AottgCreditsResult__FailedRefreshStale
@@ -323,18 +324,17 @@ ApplicationManagers_Credits_AottgCreditsResult__FailedRefreshStale
 {
   ApplicationManagers_Credits_AottgCreditsResult_o *__this;
   
-  if (Il2CppMethodInitialized_184347a15 == '\0') {
+  if (Il2CppMethodInitialized_075484c4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-    Il2CppMethodInitialized_184347a15 = '\x01';
+    Il2CppMethodInitialized_075484c4 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResult);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._State_k__BackingField = 4;
   (__this->fields)._Credits_k__BackingField = credits;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField,credits);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Credits_k__BackingField);
   (__this->fields)._Error_k__BackingField = error;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,error);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField);
   (__this->fields)._IsFromCache_k__BackingField = true;
   (__this->fields)._IsStale_k__BackingField = true;
   (__this->fields)._IsRefreshing_k__BackingField = false;

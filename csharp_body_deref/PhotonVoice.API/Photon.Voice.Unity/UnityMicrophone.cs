@@ -10,55 +10,55 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000AF")]
+[Token(Token = "0x20000AB")]
 public static class UnityMicrophone
 {
-	[Token(Token = "0x17000103")]
+	[Token(Token = "0x17000100")]
 	public static string[] devices
 	{
-		[Token(Token = "0x60003C7")]
-		[Address(RVA = "0x1D87A30", Offset = "0x1D86030", VA = "0x181D87A30")]
+		[Token(Token = "0x60003AF")]
+		[Address(RVA = "0x57224B0", Offset = "0x57214B0", VA = "0x57224B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x1D879E0", Offset = "0x1D85FE0", VA = "0x181D879E0")]
+	[Token(Token = "0x60003B0")]
+	[Address(RVA = "0x57234D0", Offset = "0x57224D0", VA = "0x57234D0")]
 	public static void End(string deviceName)
 	{
 	}
 
-	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x1D879F0", Offset = "0x1D85FF0", VA = "0x181D879F0")]
+	[Token(Token = "0x60003B1")]
+	[Address(RVA = "0x5724A60", Offset = "0x5723A60", VA = "0x5724A60")]
 	public static void GetDeviceCaps(string deviceName, out int minFreq, out int maxFreq)
 	{
 	}
 
-	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x1D87A00", Offset = "0x1D86000", VA = "0x181D87A00")]
+	[Token(Token = "0x60003B2")]
+	[Address(RVA = "0x5723780", Offset = "0x5722780", VA = "0x5723780")]
 	public static int GetPosition(string deviceName)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x1D87A10", Offset = "0x1D86010", VA = "0x181D87A10")]
+	[Token(Token = "0x60003B3")]
+	[Address(RVA = "0x5724A70", Offset = "0x5723A70", VA = "0x5724A70")]
 	public static bool IsRecording(string deviceName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x1D87A20", Offset = "0x1D86020", VA = "0x181D87A20")]
+	[Token(Token = "0x60003B4")]
+	[Address(RVA = "0x5723430", Offset = "0x5722430", VA = "0x5723430")]
 	public static AudioClip Start(string deviceName, bool loop, int lengthSec, int frequency)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x1D87330", Offset = "0x1D85930", VA = "0x181D87330")]
+	[Token(Token = "0x60003B5")]
+	[Address(RVA = "0x5722AC0", Offset = "0x5721AC0", VA = "0x5722AC0")]
 	public static string CheckDevice(ILogger logger, string logPref, string device, int suggestedFrequency, out int frequency)
 	{
 		return null;

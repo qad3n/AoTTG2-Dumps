@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000211")]
+[Token(Token = "0x20001E9")]
 internal struct CancellationCallbackCoreWorkArguments
 {
-	[Token(Token = "0x40009C6")]
+	[Token(Token = "0x4000924")]
 	[FieldOffset(Offset = "0x0")]
 	internal System.Threading.SparselyPopulatedArrayFragment<System.Threading.CancellationCallbackInfo> _currArrayFragment;
 
-	[Token(Token = "0x40009C7")]
+	[Token(Token = "0x4000925")]
 	[FieldOffset(Offset = "0x8")]
 	internal int _currArrayIndex;
 
-	[Token(Token = "0x600123A")]
-	[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
+	[Token(Token = "0x6001211")]
+	[Address(RVA = "0x5530030", Offset = "0x552F030", VA = "0x5530030")]
 	public CancellationCallbackCoreWorkArguments(System.Threading.SparselyPopulatedArrayFragment<System.Threading.CancellationCallbackInfo> currArrayFragment, int currArrayIndex)
 	{
 	}

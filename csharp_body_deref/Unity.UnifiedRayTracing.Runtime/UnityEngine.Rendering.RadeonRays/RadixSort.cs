@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.RadixSort
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,19 +45,19 @@ internal class RadixSort
 	private const int kNumBitsPerPass = 4;
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2D92B90", Offset = "0x2D91190", VA = "0x182D92B90")]
+	[Address(RVA = "0x6776780", Offset = "0x6775780", VA = "0x6776780")]
 	public RadixSort(RadeonRaysShaders shaders)
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2D92630", Offset = "0x2D90C30", VA = "0x182D92630")]
+	[Address(RVA = "0x6777280", Offset = "0x6776280", VA = "0x6777280")]
 	public void Execute(CommandBuffer cmd, GraphicsBuffer buffer, uint inputKeysOffset, uint outputKeysOffset, uint inputValuesOffset, uint outputValuesOffset, uint scratchDataOffset, uint size)
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2D92B30", Offset = "0x2D91130", VA = "0x182D92B30")]
+	[Address(RVA = "0x6777680", Offset = "0x6776680", VA = "0x6777680")]
 	public static ulong GetScratchDataSizeInDwords(uint size)
 	{
 		return default(ulong);

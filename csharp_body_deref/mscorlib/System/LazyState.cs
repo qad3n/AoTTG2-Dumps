@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000109")]
+[Token(Token = "0x20000E1")]
 internal enum LazyState
 {
-	[Token(Token = "0x40003F9")]
+	[Token(Token = "0x4000354")]
 	NoneViaConstructor,
-	[Token(Token = "0x40003FA")]
+	[Token(Token = "0x4000355")]
 	NoneViaFactory,
-	[Token(Token = "0x40003FB")]
+	[Token(Token = "0x4000356")]
 	NoneException,
-	[Token(Token = "0x40003FC")]
+	[Token(Token = "0x4000357")]
 	PublicationOnlyViaConstructor,
-	[Token(Token = "0x40003FD")]
+	[Token(Token = "0x4000358")]
 	PublicationOnlyViaFactory,
-	[Token(Token = "0x40003FE")]
+	[Token(Token = "0x4000359")]
 	PublicationOnlyWait,
-	[Token(Token = "0x40003FF")]
+	[Token(Token = "0x400035A")]
 	PublicationOnlyException,
-	[Token(Token = "0x4000400")]
+	[Token(Token = "0x400035B")]
 	ExecutionAndPublicationViaConstructor,
-	[Token(Token = "0x4000401")]
+	[Token(Token = "0x400035C")]
 	ExecutionAndPublicationViaFactory,
-	[Token(Token = "0x4000402")]
+	[Token(Token = "0x400035D")]
 	ExecutionAndPublicationException
 }

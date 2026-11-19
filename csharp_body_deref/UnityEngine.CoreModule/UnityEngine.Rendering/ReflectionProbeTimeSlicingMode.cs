@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000338")]
 public enum ReflectionProbeTimeSlicingMode
 {
-	[Token(Token = "0x40008EA")]
+	[Token(Token = "0x40008E8")]
 	AllFacesAtOnce,
-	[Token(Token = "0x40008EB")]
+	[Token(Token = "0x40008E9")]
 	IndividualFaces,
-	[Token(Token = "0x40008EC")]
+	[Token(Token = "0x40008EA")]
 	NoTimeSlicing
 }

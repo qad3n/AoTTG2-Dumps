@@ -10,86 +10,86 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001AA")]
+[Token(Token = "0x2000182")]
 internal static class ConsoleDriver
 {
-	[Token(Token = "0x40006E7")]
+	[Token(Token = "0x4000645")]
 	[FieldOffset(Offset = "0x0")]
 	internal static System.IConsoleDriver driver;
 
-	[Token(Token = "0x40006E8")]
+	[Token(Token = "0x4000646")]
 	[FieldOffset(Offset = "0x8")]
 	private static bool is_console;
 
-	[Token(Token = "0x40006E9")]
+	[Token(Token = "0x4000647")]
 	[FieldOffset(Offset = "0x9")]
 	private static bool called_isatty;
 
-	[Token(Token = "0x17000169")]
+	[Token(Token = "0x17000168")]
 	public static bool IsConsole
 	{
-		[Token(Token = "0x6000FB9")]
-		[Address(RVA = "0x1B7C6F0", Offset = "0x1B7ACF0", VA = "0x181B7C6F0")]
+		[Token(Token = "0x6000F90")]
+		[Address(RVA = "0x550C460", Offset = "0x550B460", VA = "0x550C460")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000FB4")]
-	[Address(RVA = "0x1B7C610", Offset = "0x1B7AC10", VA = "0x181B7C610")]
+	[Token(Token = "0x6000F8B")]
+	[Address(RVA = "0x550D720", Offset = "0x550C720", VA = "0x550D720")]
 	static ConsoleDriver()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000FB5")]
-	[Address(RVA = "0x1B7C3E0", Offset = "0x1B7A9E0", VA = "0x181B7C3E0")]
+	[Token(Token = "0x6000F8C")]
+	[Address(RVA = "0x550D7F0", Offset = "0x550C7F0", VA = "0x550D7F0")]
 	private static System.IConsoleDriver CreateNullConsoleDriver()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000FB6")]
-	[Address(RVA = "0x1B7C470", Offset = "0x1B7AA70", VA = "0x181B7C470")]
+	[Token(Token = "0x6000F8D")]
+	[Address(RVA = "0x550D820", Offset = "0x550C820", VA = "0x550D820")]
 	private static System.IConsoleDriver CreateWindowsConsoleDriver()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000FB7")]
-	[Address(RVA = "0x1B7C410", Offset = "0x1B7AA10", VA = "0x181B7C410")]
+	[Token(Token = "0x6000F8E")]
+	[Address(RVA = "0x550D860", Offset = "0x550C860", VA = "0x550D860")]
 	private static System.IConsoleDriver CreateTermInfoDriver(string term)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FB8")]
-	[Address(RVA = "0x1B7C4E0", Offset = "0x1B7AAE0", VA = "0x181B7C4E0")]
+	[Token(Token = "0x6000F8F")]
+	[Address(RVA = "0x550D0D0", Offset = "0x550C0D0", VA = "0x550D0D0")]
 	public static ConsoleKeyInfo ReadKey(bool intercept)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FBA")]
-	[Address(RVA = "0x1B7C4D0", Offset = "0x1B7AAD0", VA = "0x181B7C4D0")]
+	[Token(Token = "0x6000F91")]
+	[Address(RVA = "0x550DE50", Offset = "0x550CE50", VA = "0x550DE50")]
 	private static extern bool Isatty(IntPtr handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FBB")]
-	[Address(RVA = "0x1B7C4C0", Offset = "0x1B7AAC0", VA = "0x181B7C4C0")]
+	[Token(Token = "0x6000F92")]
+	[Address(RVA = "0x550DE60", Offset = "0x550CE60", VA = "0x550DE60")]
 	internal static extern int InternalKeyAvailable(int ms_timeout);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FBC")]
-	[Address(RVA = "0x1B7C600", Offset = "0x1B7AC00", VA = "0x181B7C600")]
+	[Token(Token = "0x6000F93")]
+	[Address(RVA = "0x550DE70", Offset = "0x550CE70", VA = "0x550DE70")]
 	internal unsafe static extern bool TtySetup(string keypadXmit, string teardown, out byte[] control_characters, out int* address);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x1B7C5F0", Offset = "0x1B7ABF0", VA = "0x181B7C5F0")]
+	[Token(Token = "0x6000F94")]
+	[Address(RVA = "0x550DE80", Offset = "0x550CE80", VA = "0x550DE80")]
 	internal static extern bool SetEcho(bool wantEcho);
 }

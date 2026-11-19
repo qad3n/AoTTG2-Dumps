@@ -9,54 +9,54 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20008C6")]
+[Token(Token = "0x2000931")]
 internal class RateLimit
 {
-	[Token(Token = "0x4002B97")]
+	[Token(Token = "0x4002E50")]
 	[FieldOffset(Offset = "0x10")]
 	private int _currentUsage;
 
-	[Token(Token = "0x4002B98")]
+	[Token(Token = "0x4002E51")]
 	[FieldOffset(Offset = "0x14")]
 	private int _maxUsage;
 
-	[Token(Token = "0x4002B99")]
+	[Token(Token = "0x4002E52")]
 	[FieldOffset(Offset = "0x18")]
 	private float _resetDelay;
 
-	[Token(Token = "0x4002B9A")]
+	[Token(Token = "0x4002E53")]
 	[FieldOffset(Offset = "0x1C")]
 	private float _lastResetTime;
 
-	[Token(Token = "0x6005355")]
-	[Address(RVA = "0x233E870", Offset = "0x233CE70", VA = "0x18233E870")]
+	[Token(Token = "0x60056B0")]
+	[Address(RVA = "0x5CF0450", Offset = "0x5CEF450", VA = "0x5CF0450")]
 	public RateLimit Copy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005356")]
-	[Address(RVA = "0x233E9F0", Offset = "0x233CFF0", VA = "0x18233E9F0")]
+	[Token(Token = "0x60056B1")]
+	[Address(RVA = "0x5CF04D0", Offset = "0x5CEF4D0", VA = "0x5CF04D0")]
 	public RateLimit(int maxUsage, float resetDelay)
 	{
 	}
 
-	[Token(Token = "0x6005357")]
-	[Address(RVA = "0x233E8F0", Offset = "0x233CEF0", VA = "0x18233E8F0")]
+	[Token(Token = "0x60056B2")]
+	[Address(RVA = "0x5CF0510", Offset = "0x5CEF510", VA = "0x5CF0510")]
 	public bool Peek(int usage = 1)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005358")]
-	[Address(RVA = "0x233E980", Offset = "0x233CF80", VA = "0x18233E980")]
+	[Token(Token = "0x60056B3")]
+	[Address(RVA = "0x5CF0590", Offset = "0x5CEF590", VA = "0x5CF0590")]
 	public bool Use(int usage = 1)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005359")]
-	[Address(RVA = "0x233E940", Offset = "0x233CF40", VA = "0x18233E940")]
+	[Token(Token = "0x60056B4")]
+	[Address(RVA = "0x5CF0560", Offset = "0x5CEF560", VA = "0x5CF0560")]
 	private void TryReset()
 	{
 	}

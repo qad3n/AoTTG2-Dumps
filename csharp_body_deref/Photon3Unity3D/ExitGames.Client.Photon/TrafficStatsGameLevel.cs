@@ -31,14 +31,14 @@ public class TrafficStatsGameLevel
 	public int OperationByteCount
 	{
 		[Token(Token = "0x6000337")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x56888A0", Offset = "0x56878A0", VA = "0x56888A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000338")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x56888B0", Offset = "0x56878B0", VA = "0x56888B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -49,14 +49,14 @@ public class TrafficStatsGameLevel
 	public int OperationCount
 	{
 		[Token(Token = "0x6000339")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x56888C0", Offset = "0x56878C0", VA = "0x56888C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600033A")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x56888D0", Offset = "0x56878D0", VA = "0x56888D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -67,14 +67,14 @@ public class TrafficStatsGameLevel
 	public int ResultByteCount
 	{
 		[Token(Token = "0x600033B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x56888E0", Offset = "0x56878E0", VA = "0x56888E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600033C")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x56888F0", Offset = "0x56878F0", VA = "0x56888F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -85,14 +85,14 @@ public class TrafficStatsGameLevel
 	public int ResultCount
 	{
 		[Token(Token = "0x600033D")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x5688900", Offset = "0x5687900", VA = "0x5688900")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600033E")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x5688910", Offset = "0x5687910", VA = "0x5688910")]
 		[CompilerGenerated]
 		set
 		{
@@ -103,14 +103,14 @@ public class TrafficStatsGameLevel
 	public int EventByteCount
 	{
 		[Token(Token = "0x600033F")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x5688920", Offset = "0x5687920", VA = "0x5688920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000340")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x5688930", Offset = "0x5687930", VA = "0x5688930")]
 		[CompilerGenerated]
 		set
 		{
@@ -121,14 +121,14 @@ public class TrafficStatsGameLevel
 	public int EventCount
 	{
 		[Token(Token = "0x6000341")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x5688940", Offset = "0x5687940", VA = "0x5688940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000342")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x5688950", Offset = "0x5687950", VA = "0x5688950")]
 		[CompilerGenerated]
 		set
 		{
@@ -139,14 +139,14 @@ public class TrafficStatsGameLevel
 	public int LongestOpResponseCallback
 	{
 		[Token(Token = "0x6000343")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x5688960", Offset = "0x5687960", VA = "0x5688960")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000344")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x5688970", Offset = "0x5687970", VA = "0x5688970")]
 		[CompilerGenerated]
 		set
 		{
@@ -157,14 +157,14 @@ public class TrafficStatsGameLevel
 	public byte LongestOpResponseCallbackOpCode
 	{
 		[Token(Token = "0x6000345")]
-		[Address(RVA = "0xDA7C70", Offset = "0xDA6270", VA = "0x180DA7C70")]
+		[Address(RVA = "0x5688980", Offset = "0x5687980", VA = "0x5688980")]
 		[CompilerGenerated]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x6000346")]
-		[Address(RVA = "0xDA7C80", Offset = "0xDA6280", VA = "0x180DA7C80")]
+		[Address(RVA = "0x5688990", Offset = "0x5687990", VA = "0x5688990")]
 		[CompilerGenerated]
 		set
 		{
@@ -175,14 +175,14 @@ public class TrafficStatsGameLevel
 	public int LongestEventCallback
 	{
 		[Token(Token = "0x6000347")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
+		[Address(RVA = "0x56889A0", Offset = "0x56879A0", VA = "0x56889A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000348")]
-		[Address(RVA = "0x58AA60", Offset = "0x589060", VA = "0x18058AA60")]
+		[Address(RVA = "0x56889B0", Offset = "0x56879B0", VA = "0x56889B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -193,14 +193,14 @@ public class TrafficStatsGameLevel
 	public int LongestMessageCallback
 	{
 		[Token(Token = "0x6000349")]
-		[Address(RVA = "0x58A870", Offset = "0x588E70", VA = "0x18058A870")]
+		[Address(RVA = "0x56889C0", Offset = "0x56879C0", VA = "0x56889C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600034A")]
-		[Address(RVA = "0x58AA10", Offset = "0x589010", VA = "0x18058AA10")]
+		[Address(RVA = "0x56889D0", Offset = "0x56879D0", VA = "0x56889D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -211,14 +211,14 @@ public class TrafficStatsGameLevel
 	public int LongestRawMessageCallback
 	{
 		[Token(Token = "0x600034B")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x56889E0", Offset = "0x56879E0", VA = "0x56889E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600034C")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x56889F0", Offset = "0x56879F0", VA = "0x56889F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -229,14 +229,14 @@ public class TrafficStatsGameLevel
 	public byte LongestEventCallbackCode
 	{
 		[Token(Token = "0x600034D")]
-		[Address(RVA = "0x1CFDD60", Offset = "0x1CFC360", VA = "0x181CFDD60")]
+		[Address(RVA = "0x5688A00", Offset = "0x5687A00", VA = "0x5688A00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x600034E")]
-		[Address(RVA = "0x1CFDDC0", Offset = "0x1CFC3C0", VA = "0x181CFDDC0")]
+		[Address(RVA = "0x5688A10", Offset = "0x5687A10", VA = "0x5688A10")]
 		[CompilerGenerated]
 		set
 		{
@@ -247,14 +247,14 @@ public class TrafficStatsGameLevel
 	public int LongestDeltaBetweenDispatching
 	{
 		[Token(Token = "0x600034F")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x5688A20", Offset = "0x5687A20", VA = "0x5688A20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000350")]
-		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
+		[Address(RVA = "0x5688A30", Offset = "0x5687A30", VA = "0x5688A30")]
 		[CompilerGenerated]
 		set
 		{
@@ -265,14 +265,14 @@ public class TrafficStatsGameLevel
 	public int LongestDeltaBetweenSending
 	{
 		[Token(Token = "0x6000351")]
-		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
+		[Address(RVA = "0x5688A40", Offset = "0x5687A40", VA = "0x5688A40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000352")]
-		[Address(RVA = "0x1CFDDB0", Offset = "0x1CFC3B0", VA = "0x181CFDDB0")]
+		[Address(RVA = "0x5688A50", Offset = "0x5687A50", VA = "0x5688A50")]
 		[CompilerGenerated]
 		set
 		{
@@ -284,7 +284,7 @@ public class TrafficStatsGameLevel
 	public int DispatchCalls
 	{
 		[Token(Token = "0x6000353")]
-		[Address(RVA = "0x1CFDD50", Offset = "0x1CFC350", VA = "0x181CFDD50")]
+		[Address(RVA = "0x5688A60", Offset = "0x5687A60", VA = "0x5688A60")]
 		get
 		{
 			return default(int);
@@ -295,14 +295,14 @@ public class TrafficStatsGameLevel
 	public int DispatchIncomingCommandsCalls
 	{
 		[Token(Token = "0x6000354")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x5688A70", Offset = "0x5687A70", VA = "0x5688A70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000355")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x5688A80", Offset = "0x5687A80", VA = "0x5688A80")]
 		[CompilerGenerated]
 		set
 		{
@@ -313,14 +313,14 @@ public class TrafficStatsGameLevel
 	public int SendOutgoingCommandsCalls
 	{
 		[Token(Token = "0x6000356")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x5688A90", Offset = "0x5687A90", VA = "0x5688A90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000357")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x5688AA0", Offset = "0x5687AA0", VA = "0x5688AA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -331,7 +331,7 @@ public class TrafficStatsGameLevel
 	public int TotalByteCount
 	{
 		[Token(Token = "0x6000358")]
-		[Address(RVA = "0x1CFDD70", Offset = "0x1CFC370", VA = "0x181CFDD70")]
+		[Address(RVA = "0x5688AB0", Offset = "0x5687AB0", VA = "0x5688AB0")]
 		get
 		{
 			return default(int);
@@ -342,7 +342,7 @@ public class TrafficStatsGameLevel
 	public int TotalMessageCount
 	{
 		[Token(Token = "0x6000359")]
-		[Address(RVA = "0x1CFDDA0", Offset = "0x1CFC3A0", VA = "0x181CFDDA0")]
+		[Address(RVA = "0x5688AC0", Offset = "0x5687AC0", VA = "0x5688AC0")]
 		get
 		{
 			return default(int);
@@ -353,7 +353,7 @@ public class TrafficStatsGameLevel
 	public int TotalIncomingByteCount
 	{
 		[Token(Token = "0x600035A")]
-		[Address(RVA = "0x1CFDD80", Offset = "0x1CFC380", VA = "0x181CFDD80")]
+		[Address(RVA = "0x5688AD0", Offset = "0x5687AD0", VA = "0x5688AD0")]
 		get
 		{
 			return default(int);
@@ -364,7 +364,7 @@ public class TrafficStatsGameLevel
 	public int TotalIncomingMessageCount
 	{
 		[Token(Token = "0x600035B")]
-		[Address(RVA = "0x1CFDD90", Offset = "0x1CFC390", VA = "0x181CFDD90")]
+		[Address(RVA = "0x5688AE0", Offset = "0x5687AE0", VA = "0x5688AE0")]
 		get
 		{
 			return default(int);
@@ -375,7 +375,7 @@ public class TrafficStatsGameLevel
 	public int TotalOutgoingByteCount
 	{
 		[Token(Token = "0x600035C")]
-		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
+		[Address(RVA = "0x5688AF0", Offset = "0x5687AF0", VA = "0x5688AF0")]
 		get
 		{
 			return default(int);
@@ -386,7 +386,7 @@ public class TrafficStatsGameLevel
 	public int TotalOutgoingMessageCount
 	{
 		[Token(Token = "0x600035D")]
-		[Address(RVA = "0x1CC78C0", Offset = "0x1CC5EC0", VA = "0x181CC78C0")]
+		[Address(RVA = "0x5688B00", Offset = "0x5687B00", VA = "0x5688B00")]
 		get
 		{
 			return default(int);
@@ -394,80 +394,80 @@ public class TrafficStatsGameLevel
 	}
 
 	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x5688B10", Offset = "0x5687B10", VA = "0x5688B10")]
 	internal TrafficStatsGameLevel(Stopwatch sw)
 	{
 	}
 
 	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x1CFD800", Offset = "0x1CFBE00", VA = "0x181CFD800")]
+	[Address(RVA = "0x56881C0", Offset = "0x56871C0", VA = "0x56881C0")]
 	internal void CountOperation(int operationBytes)
 	{
 	}
 
 	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x1CFD810", Offset = "0x1CFBE10", VA = "0x181CFD810")]
+	[Address(RVA = "0x5688B40", Offset = "0x5687B40", VA = "0x5688B40")]
 	internal void CountResult(int resultBytes)
 	{
 	}
 
 	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x1CFD7F0", Offset = "0x1CFBDF0", VA = "0x181CFD7F0")]
+	[Address(RVA = "0x5688B60", Offset = "0x5687B60", VA = "0x5688B60")]
 	internal void CountEvent(int eventBytes)
 	{
 	}
 
 	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x1CFD910", Offset = "0x1CFBF10", VA = "0x181CFD910")]
+	[Address(RVA = "0x5688B80", Offset = "0x5687B80", VA = "0x5688B80")]
 	internal void TimeForResponseCallback(byte code, int time)
 	{
 	}
 
 	[Token(Token = "0x6000363")]
-	[Address(RVA = "0x1CFD8E0", Offset = "0x1CFBEE0", VA = "0x181CFD8E0")]
+	[Address(RVA = "0x5688B90", Offset = "0x5687B90", VA = "0x5688B90")]
 	internal void TimeForEventCallback(byte code, int time)
 	{
 	}
 
 	[Token(Token = "0x6000364")]
-	[Address(RVA = "0x1CFD8F0", Offset = "0x1CFBEF0", VA = "0x181CFD8F0")]
+	[Address(RVA = "0x5688BA0", Offset = "0x5687BA0", VA = "0x5688BA0")]
 	internal void TimeForMessageCallback(int time)
 	{
 	}
 
 	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x1CFD900", Offset = "0x1CFBF00", VA = "0x181CFD900")]
+	[Address(RVA = "0x5688BB0", Offset = "0x5687BB0", VA = "0x5688BB0")]
 	internal void TimeForRawMessageCallback(int time)
 	{
 	}
 
 	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x1CFD820", Offset = "0x1CFBE20", VA = "0x181CFD820")]
+	[Address(RVA = "0x5688BC0", Offset = "0x5687BC0", VA = "0x5688BC0")]
 	internal void DispatchIncomingCommandsCalled()
 	{
 	}
 
 	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x1CFD890", Offset = "0x1CFBE90", VA = "0x181CFD890")]
+	[Address(RVA = "0x5688C10", Offset = "0x5687C10", VA = "0x5688C10")]
 	internal void SendOutgoingCommandsCalled()
 	{
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x1CFD870", Offset = "0x1CFBE70", VA = "0x181CFD870")]
+	[Address(RVA = "0x5688C60", Offset = "0x5687C60", VA = "0x5688C60")]
 	public void ResetMaximumCounters()
 	{
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x1CFDCB0", Offset = "0x1CFC2B0", VA = "0x181CFDCB0", Slot = "3")]
+	[Address(RVA = "0x5688C90", Offset = "0x5687C90", VA = "0x5688C90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x1CFD920", Offset = "0x1CFBF20", VA = "0x181CFD920")]
+	[Address(RVA = "0x5688D30", Offset = "0x5687D30", VA = "0x5688D30")]
 	public string ToStringVitalStats()
 	{
 		return null;

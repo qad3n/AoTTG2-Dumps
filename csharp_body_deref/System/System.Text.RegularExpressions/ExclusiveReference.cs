@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000E7")]
+[Token(Token = "0x20000A8")]
 internal sealed class ExclusiveReference
 {
-	[Token(Token = "0x4000363")]
+	[Token(Token = "0x4000294")]
 	[FieldOffset(Offset = "0x10")]
 	private RegexRunner _ref;
 
-	[Token(Token = "0x4000364")]
+	[Token(Token = "0x4000295")]
 	[FieldOffset(Offset = "0x18")]
 	private RegexRunner _obj;
 
-	[Token(Token = "0x4000365")]
+	[Token(Token = "0x4000296")]
 	[FieldOffset(Offset = "0x20")]
 	private int _locked;
 
-	[Token(Token = "0x60004FB")]
-	[Address(RVA = "0x284AB10", Offset = "0x2849110", VA = "0x18284AB10")]
+	[Token(Token = "0x6000347")]
+	[Address(RVA = "0x61E21C0", Offset = "0x61E11C0", VA = "0x61E21C0")]
 	public RegexRunner Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004FC")]
-	[Address(RVA = "0x284AB80", Offset = "0x2849180", VA = "0x18284AB80")]
+	[Token(Token = "0x6000348")]
+	[Address(RVA = "0x61E2220", Offset = "0x61E1220", VA = "0x61E2220")]
 	public void Release(RegexRunner obj)
 	{
 	}
 
-	[Token(Token = "0x60004FD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000349")]
+	[Address(RVA = "0x61E2300", Offset = "0x61E1300", VA = "0x61E2300")]
 	public ExclusiveReference()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Collider
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,13 +21,13 @@ public class Collider : Component
 	public bool enabled
 	{
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x2FDD030", Offset = "0x2FDB630", VA = "0x182FDD030")]
+		[Address(RVA = "0x69D7A30", Offset = "0x69D6A30", VA = "0x69D7A30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x2FDD6E0", Offset = "0x2FDBCE0", VA = "0x182FDD6E0")]
+		[Address(RVA = "0x69D7AE0", Offset = "0x69D6AE0", VA = "0x69D7AE0")]
 		set
 		{
 		}
@@ -37,7 +37,7 @@ public class Collider : Component
 	public Rigidbody attachedRigidbody
 	{
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x2FDCDA0", Offset = "0x2FDB3A0", VA = "0x182FDCDA0")]
+		[Address(RVA = "0x69D7BA0", Offset = "0x69D6BA0", VA = "0x69D7BA0")]
 		[UnityEngine.Bindings.NativeMethod("GetRigidbody")]
 		get
 		{
@@ -49,13 +49,13 @@ public class Collider : Component
 	public bool isTrigger
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x2FDD2B0", Offset = "0x2FDB8B0", VA = "0x182FDD2B0")]
+		[Address(RVA = "0x69D7C70", Offset = "0x69D6C70", VA = "0x69D7C70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x2FDD960", Offset = "0x2FDBF60", VA = "0x182FDD960")]
+		[Address(RVA = "0x69D7D20", Offset = "0x69D6D20", VA = "0x69D7D20")]
 		set
 		{
 		}
@@ -65,13 +65,13 @@ public class Collider : Component
 	public float contactOffset
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2FDCF70", Offset = "0x2FDB570", VA = "0x182FDCF70")]
+		[Address(RVA = "0x69D7DE0", Offset = "0x69D6DE0", VA = "0x69D7DE0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2FDD600", Offset = "0x2FDBC00", VA = "0x182FDD600")]
+		[Address(RVA = "0x69D7E90", Offset = "0x69D6E90", VA = "0x69D7E90")]
 		set
 		{
 		}
@@ -81,7 +81,7 @@ public class Collider : Component
 	public Bounds bounds
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x2FDCE90", Offset = "0x2FDB490", VA = "0x182FDCE90")]
+		[Address(RVA = "0x69D8060", Offset = "0x69D7060", VA = "0x69D8060")]
 		get
 		{
 			return default(Bounds);
@@ -92,13 +92,13 @@ public class Collider : Component
 	public bool providesContacts
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x2FDD450", Offset = "0x2FDBA50", VA = "0x182FDD450")]
+		[Address(RVA = "0x69D8150", Offset = "0x69D7150", VA = "0x69D8150")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x2FDDB50", Offset = "0x2FDC150", VA = "0x182FDDB50")]
+		[Address(RVA = "0x69D8200", Offset = "0x69D7200", VA = "0x69D8200")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ public class Collider : Component
 	public LayerMask excludeLayers
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x2FDD100", Offset = "0x2FDB700", VA = "0x182FDD100")]
+		[Address(RVA = "0x69D82C0", Offset = "0x69D72C0", VA = "0x69D82C0")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x2FDD7C0", Offset = "0x2FDBDC0", VA = "0x182FDD7C0")]
+		[Address(RVA = "0x69D8390", Offset = "0x69D7390", VA = "0x69D8390")]
 		set
 		{
 		}
@@ -124,13 +124,13 @@ public class Collider : Component
 	public LayerMask includeLayers
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x2FDD1E0", Offset = "0x2FDB7E0", VA = "0x182FDD1E0")]
+		[Address(RVA = "0x69D8450", Offset = "0x69D7450", VA = "0x69D8450")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x2FDD890", Offset = "0x2FDBE90", VA = "0x182FDD890")]
+		[Address(RVA = "0x69D8520", Offset = "0x69D7520", VA = "0x69D8520")]
 		set
 		{
 		}
@@ -141,13 +141,13 @@ public class Collider : Component
 	public PhysicsMaterial sharedMaterial
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x2FDD510", Offset = "0x2FDBB10", VA = "0x182FDD510")]
+		[Address(RVA = "0x69D85E0", Offset = "0x69D75E0", VA = "0x69D85E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x2FDDC30", Offset = "0x2FDC230", VA = "0x182FDDC30")]
+		[Address(RVA = "0x69D86B0", Offset = "0x69D76B0", VA = "0x69D86B0")]
 		set
 		{
 		}
@@ -157,14 +157,14 @@ public class Collider : Component
 	public PhysicsMaterial material
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x2FDD370", Offset = "0x2FDB970", VA = "0x182FDD370")]
+		[Address(RVA = "0x69D87C0", Offset = "0x69D77C0", VA = "0x69D87C0")]
 		[UnityEngine.Bindings.NativeMethod("GetClonedMaterial")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x2FDDA40", Offset = "0x2FDC040", VA = "0x182FDDA40")]
+		[Address(RVA = "0x69D8890", Offset = "0x69D7890", VA = "0x69D8890")]
 		[UnityEngine.Bindings.NativeMethod("SetMaterial")]
 		set
 		{
@@ -172,148 +172,148 @@ public class Collider : Component
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x2FDC980", Offset = "0x2FDAF80", VA = "0x182FDC980")]
+	[Address(RVA = "0x69D7F70", Offset = "0x69D6F70", VA = "0x69D7F70")]
 	public Vector3 ClosestPoint(Vector3 position)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2FDCB90", Offset = "0x2FDB190", VA = "0x182FDCB90")]
+	[Address(RVA = "0x69D89A0", Offset = "0x69D79A0", VA = "0x69D89A0")]
 	private RaycastHit Raycast(Ray ray, float maxDistance, ref bool hasHit)
 	{
 		return default(RaycastHit);
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2FDCC50", Offset = "0x2FDB250", VA = "0x182FDCC50")]
+	[Address(RVA = "0x69D8AF0", Offset = "0x69D7AF0", VA = "0x69D8AF0")]
 	public bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2FDCA80", Offset = "0x2FDB080", VA = "0x182FDCA80")]
+	[Address(RVA = "0x69D8C10", Offset = "0x69D7C10", VA = "0x69D8C10")]
 	[UnityEngine.Bindings.NativeName("ClosestPointOnBounds")]
 	private void Internal_ClosestPointOnBounds(Vector3 point, ref Vector3 outPos, ref float distance)
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2FDC810", Offset = "0x2FDAE10", VA = "0x182FDC810")]
+	[Address(RVA = "0x69D8D10", Offset = "0x69D7D10", VA = "0x69D8D10")]
 	public Vector3 ClosestPointOnBounds(Vector3 position)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x69D73D0", Offset = "0x69D63D0", VA = "0x69D73D0")]
 	public Collider()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2FDCFF0", Offset = "0x2FDB5F0", VA = "0x182FDCFF0")]
+	[Address(RVA = "0x69D7AB0", Offset = "0x69D6AB0", VA = "0x69D7AB0")]
 	private static extern bool get_enabled_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2FDD690", Offset = "0x2FDBC90", VA = "0x182FDD690")]
+	[Address(RVA = "0x69D7B60", Offset = "0x69D6B60", VA = "0x69D7B60")]
 	private static extern void set_enabled_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2FDCD60", Offset = "0x2FDB360", VA = "0x182FDCD60")]
+	[Address(RVA = "0x69D7C40", Offset = "0x69D6C40", VA = "0x69D7C40")]
 	private static extern IntPtr get_attachedRigidbody_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2FDD270", Offset = "0x2FDB870", VA = "0x182FDD270")]
+	[Address(RVA = "0x69D7CF0", Offset = "0x69D6CF0", VA = "0x69D7CF0")]
 	private static extern bool get_isTrigger_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2FDD910", Offset = "0x2FDBF10", VA = "0x182FDD910")]
+	[Address(RVA = "0x69D7DA0", Offset = "0x69D6DA0", VA = "0x69D7DA0")]
 	private static extern void set_isTrigger_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2FDCF30", Offset = "0x2FDB530", VA = "0x182FDCF30")]
+	[Address(RVA = "0x69D7E60", Offset = "0x69D6E60", VA = "0x69D7E60")]
 	private static extern float get_contactOffset_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2FDD5B0", Offset = "0x2FDBBB0", VA = "0x182FDD5B0")]
+	[Address(RVA = "0x69D7F20", Offset = "0x69D6F20", VA = "0x69D7F20")]
 	private static extern void set_contactOffset_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2FDC920", Offset = "0x2FDAF20", VA = "0x182FDC920")]
+	[Address(RVA = "0x69D8020", Offset = "0x69D7020", VA = "0x69D8020")]
 	private static extern void ClosestPoint_Injected(IntPtr _unity_self, [In] ref Vector3 position, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x2FDCE40", Offset = "0x2FDB440", VA = "0x182FDCE40")]
+	[Address(RVA = "0x69D8110", Offset = "0x69D7110", VA = "0x69D8110")]
 	private static extern void get_bounds_Injected(IntPtr _unity_self, out Bounds ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x2FDD410", Offset = "0x2FDBA10", VA = "0x182FDD410")]
+	[Address(RVA = "0x69D81D0", Offset = "0x69D71D0", VA = "0x69D81D0")]
 	private static extern bool get_providesContacts_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x2FDDB00", Offset = "0x2FDC100", VA = "0x182FDDB00")]
+	[Address(RVA = "0x69D8280", Offset = "0x69D7280", VA = "0x69D8280")]
 	private static extern void set_providesContacts_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x2FDD0B0", Offset = "0x2FDB6B0", VA = "0x182FDD0B0")]
+	[Address(RVA = "0x69D8350", Offset = "0x69D7350", VA = "0x69D8350")]
 	private static extern void get_excludeLayers_Injected(IntPtr _unity_self, out LayerMask ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2FDD770", Offset = "0x2FDBD70", VA = "0x182FDD770")]
+	[Address(RVA = "0x69D8410", Offset = "0x69D7410", VA = "0x69D8410")]
 	private static extern void set_excludeLayers_Injected(IntPtr _unity_self, [In] ref LayerMask value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2FDD190", Offset = "0x2FDB790", VA = "0x182FDD190")]
+	[Address(RVA = "0x69D84E0", Offset = "0x69D74E0", VA = "0x69D84E0")]
 	private static extern void get_includeLayers_Injected(IntPtr _unity_self, out LayerMask ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x2FDD840", Offset = "0x2FDBE40", VA = "0x182FDD840")]
+	[Address(RVA = "0x69D85A0", Offset = "0x69D75A0", VA = "0x69D85A0")]
 	private static extern void set_includeLayers_Injected(IntPtr _unity_self, [In] ref LayerMask value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2FDD4D0", Offset = "0x2FDBAD0", VA = "0x182FDD4D0")]
+	[Address(RVA = "0x69D8680", Offset = "0x69D7680", VA = "0x69D8680")]
 	private static extern IntPtr get_sharedMaterial_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x2FDDBE0", Offset = "0x2FDC1E0", VA = "0x182FDDBE0")]
+	[Address(RVA = "0x69D8780", Offset = "0x69D7780", VA = "0x69D8780")]
 	private static extern void set_sharedMaterial_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x2FDD330", Offset = "0x2FDB930", VA = "0x182FDD330")]
+	[Address(RVA = "0x69D8860", Offset = "0x69D7860", VA = "0x69D8860")]
 	private static extern IntPtr get_material_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x2FDD9F0", Offset = "0x2FDBFF0", VA = "0x182FDD9F0")]
+	[Address(RVA = "0x69D8960", Offset = "0x69D7960", VA = "0x69D8960")]
 	private static extern void set_material_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x2FDCB20", Offset = "0x2FDB120", VA = "0x182FDCB20")]
+	[Address(RVA = "0x69D8A90", Offset = "0x69D7A90", VA = "0x69D8A90")]
 	private static extern void Raycast_Injected(IntPtr _unity_self, [In] ref Ray ray, float maxDistance, ref bool hasHit, out RaycastHit ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2FDCA30", Offset = "0x2FDB030", VA = "0x182FDCA30")]
+	[Address(RVA = "0x69D8CC0", Offset = "0x69D7CC0", VA = "0x69D8CC0")]
 	private static extern void Internal_ClosestPointOnBounds_Injected(IntPtr _unity_self, [In] ref Vector3 point, ref Vector3 outPos, ref float distance);
 }

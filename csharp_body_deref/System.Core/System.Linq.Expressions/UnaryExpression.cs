@@ -12,39 +12,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x20000C6")]
 [DebuggerTypeProxy(typeof(UnaryExpressionProxy))]
 public sealed class UnaryExpression : Expression
 {
-	[Token(Token = "0x17000132")]
+	[Token(Token = "0x17000134")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000572")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000133")]
-	public sealed override ExpressionType NodeType
-	{
-		[Token(Token = "0x6000573")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "4")]
-		[CompilerGenerated]
-		get
-		{
-			return default(ExpressionType);
-		}
-	}
-
-	[Token(Token = "0x17000134")]
-	public Expression Operand
-	{
-		[Token(Token = "0x6000574")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600057D")]
+		[Address(RVA = "0x5DD6390", Offset = "0x5DD5390", VA = "0x5DD6390", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,10 +29,22 @@ public sealed class UnaryExpression : Expression
 	}
 
 	[Token(Token = "0x17000135")]
-	public MethodInfo Method
+	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000575")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x600057E")]
+		[Address(RVA = "0x5DD63A0", Offset = "0x5DD53A0", VA = "0x5DD63A0", Slot = "4")]
+		[CompilerGenerated]
+		get
+		{
+			return default(ExpressionType);
+		}
+	}
+
+	[Token(Token = "0x17000136")]
+	public Expression Operand
+	{
+		[Token(Token = "0x600057F")]
+		[Address(RVA = "0x5DD63B0", Offset = "0x5DD53B0", VA = "0x5DD63B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -64,33 +52,23 @@ public sealed class UnaryExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x17000136")]
-	public bool IsLifted
-	{
-		[Token(Token = "0x6000576")]
-		[Address(RVA = "0x2443120", Offset = "0x2441720", VA = "0x182443120")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
 	[Token(Token = "0x17000137")]
-	public bool IsLiftedToNull
+	public MethodInfo Method
 	{
-		[Token(Token = "0x6000577")]
-		[Address(RVA = "0x24430A0", Offset = "0x24416A0", VA = "0x1824430A0")]
+		[Token(Token = "0x6000580")]
+		[Address(RVA = "0x5DD63C0", Offset = "0x5DD53C0", VA = "0x5DD63C0")]
+		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000138")]
-	public override bool CanReduce
+	public bool IsLifted
 	{
-		[Token(Token = "0x6000579")]
-		[Address(RVA = "0x2443070", Offset = "0x2441670", VA = "0x182443070", Slot = "6")]
+		[Token(Token = "0x6000581")]
+		[Address(RVA = "0x5DD63D0", Offset = "0x5DD53D0", VA = "0x5DD63D0")]
 		get
 		{
 			return default(bool);
@@ -98,66 +76,88 @@ public sealed class UnaryExpression : Expression
 	}
 
 	[Token(Token = "0x17000139")]
-	private bool IsPrefix
+	public bool IsLiftedToNull
 	{
-		[Token(Token = "0x600057B")]
-		[Address(RVA = "0x2443370", Offset = "0x2441970", VA = "0x182443370")]
+		[Token(Token = "0x6000582")]
+		[Address(RVA = "0x5DD6600", Offset = "0x5DD5600", VA = "0x5DD6600")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x2442FE0", Offset = "0x24415E0", VA = "0x182442FE0")]
+	[Token(Token = "0x1700013A")]
+	public override bool CanReduce
+	{
+		[Token(Token = "0x6000584")]
+		[Address(RVA = "0x5DD66B0", Offset = "0x5DD56B0", VA = "0x5DD66B0", Slot = "6")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700013B")]
+	private bool IsPrefix
+	{
+		[Token(Token = "0x6000586")]
+		[Address(RVA = "0x5DD7830", Offset = "0x5DD6830", VA = "0x5DD7830")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x600057C")]
+	[Address(RVA = "0x5DD62F0", Offset = "0x5DD52F0", VA = "0x5DD62F0")]
 	internal UnaryExpression(ExpressionType nodeType, Expression expression, Type type, MethodInfo method)
 	{
 	}
 
-	[Token(Token = "0x6000578")]
-	[Address(RVA = "0x2441C40", Offset = "0x2440240", VA = "0x182441C40", Slot = "9")]
+	[Token(Token = "0x6000583")]
+	[Address(RVA = "0x5DD6680", Offset = "0x5DD5680", VA = "0x5DD6680", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057A")]
-	[Address(RVA = "0x2442EA0", Offset = "0x24414A0", VA = "0x182442EA0", Slot = "7")]
+	[Token(Token = "0x6000585")]
+	[Address(RVA = "0x5DD66D0", Offset = "0x5DD56D0", VA = "0x5DD66D0", Slot = "7")]
 	public override Expression Reduce()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057C")]
-	[Address(RVA = "0x2441C70", Offset = "0x2440270", VA = "0x182441C70")]
+	[Token(Token = "0x6000587")]
+	[Address(RVA = "0x5DD7870", Offset = "0x5DD6870", VA = "0x5DD7870")]
 	private UnaryExpression FunctionalOp(Expression operand)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x2442B50", Offset = "0x2441150", VA = "0x182442B50")]
+	[Token(Token = "0x6000588")]
+	[Address(RVA = "0x5DD7510", Offset = "0x5DD6510", VA = "0x5DD7510")]
 	private Expression ReduceVariable()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x2442540", Offset = "0x2440B40", VA = "0x182442540")]
+	[Token(Token = "0x6000589")]
+	[Address(RVA = "0x5DD6F70", Offset = "0x5DD5F70", VA = "0x5DD6F70")]
 	private Expression ReduceMember()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057F")]
-	[Address(RVA = "0x2441DB0", Offset = "0x24403B0", VA = "0x182441DB0")]
+	[Token(Token = "0x600058A")]
+	[Address(RVA = "0x5DD6730", Offset = "0x5DD5730", VA = "0x5DD6730")]
 	private Expression ReduceIndex()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x2442F20", Offset = "0x2441520", VA = "0x182442F20")]
+	[Token(Token = "0x600058B")]
+	[Address(RVA = "0x5DD0FD0", Offset = "0x5DCFFD0", VA = "0x5DD0FD0")]
 	public UnaryExpression Update(Expression operand)
 	{
 		return null;

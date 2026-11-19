@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.ProfileDialogUi
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/ProfileDialogUi.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,122 +13,122 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002BB")]
+[Token(Token = "0x2000318")]
 internal static class ProfileDialogUi
 {
-	[Token(Token = "0x4000E0A")]
+	[Token(Token = "0x4000F9B")]
 	internal const float PickerPanelWidth = 630f;
 
-	[Token(Token = "0x4000E0B")]
+	[Token(Token = "0x4000F9C")]
 	internal const float PreviewPanelWidth = 480f;
 
-	[Token(Token = "0x4000E0C")]
+	[Token(Token = "0x4000F9D")]
 	internal const string AvatarDraftKey = "profile-avatar-key";
 
-	[Token(Token = "0x4000E0D")]
+	[Token(Token = "0x4000F9E")]
 	internal const string BannerDraftKey = "profile-banner-key";
 
-	[Token(Token = "0x4000E0E")]
+	[Token(Token = "0x4000F9F")]
 	private const float SplitGap = 24f;
 
-	[Token(Token = "0x4000E0F")]
+	[Token(Token = "0x4000FA0")]
 	private const float PanelMotionSeconds = 0.16f;
 
-	[Token(Token = "0x170001EB")]
+	[Token(Token = "0x17000228")]
 	public static GisketchLayoutDefinition SplitRootLayout
 	{
-		[Token(Token = "0x6001109")]
-		[Address(RVA = "0x1E221E0", Offset = "0x1E207E0", VA = "0x181E221E0")]
+		[Token(Token = "0x600135A")]
+		[Address(RVA = "0x57FB670", Offset = "0x57FA670", VA = "0x57FB670")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001EC")]
+	[Token(Token = "0x17000229")]
 	public static GisketchLayoutDefinition SplitBodyLayout
 	{
-		[Token(Token = "0x600110A")]
-		[Address(RVA = "0x1E220F0", Offset = "0x1E206F0", VA = "0x181E220F0")]
+		[Token(Token = "0x600135B")]
+		[Address(RVA = "0x57FB7E0", Offset = "0x57FA7E0", VA = "0x57FB7E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600110B")]
-	[Address(RVA = "0x1E215D0", Offset = "0x1E1FBD0", VA = "0x181E215D0")]
+	[Token(Token = "0x600135C")]
+	[Address(RVA = "0x57FBDB0", Offset = "0x57FADB0", VA = "0x57FBDB0")]
 	public static GisketchGridPickerItem[] GridItems(AottgProfilePreset[] presets)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600110C")]
-	[Address(RVA = "0x1E21D00", Offset = "0x1E20300", VA = "0x181E21D00")]
+	[Token(Token = "0x600135D")]
+	[Address(RVA = "0x57FEB00", Offset = "0x57FDB00", VA = "0x57FEB00")]
 	public static void SelectAvatar(GisketchActionContext context, GisketchGridPickerItem item)
 	{
 	}
 
-	[Token(Token = "0x600110D")]
-	[Address(RVA = "0x1E21DC0", Offset = "0x1E203C0", VA = "0x181E21DC0")]
+	[Token(Token = "0x600135E")]
+	[Address(RVA = "0x57FEE70", Offset = "0x57FDE70", VA = "0x57FEE70")]
 	public static void SelectBanner(GisketchActionContext context, GisketchGridPickerItem item)
 	{
 	}
 
-	[Token(Token = "0x600110E")]
-	[Address(RVA = "0x1E21E80", Offset = "0x1E20480", VA = "0x181E21E80")]
+	[Token(Token = "0x600135F")]
+	[Address(RVA = "0x57FEBA0", Offset = "0x57FDBA0", VA = "0x57FEBA0")]
 	private static void UpdatePreviewImage(GisketchActionContext context, string imageId, string sprite)
 	{
 	}
 
-	[Token(Token = "0x600110F")]
+	[Token(Token = "0x6001360")]
 	private static T Find<T>(Transform root, string id) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001110")]
-	[Address(RVA = "0x1E21820", Offset = "0x1E1FE20", VA = "0x181E21820")]
+	[Token(Token = "0x6001361")]
+	[Address(RVA = "0x57FEF10", Offset = "0x57FDF10", VA = "0x57FEF10")]
 	public static GisketchMotionDefinition PanelEnterMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001111")]
-	[Address(RVA = "0x1E21870", Offset = "0x1E1FE70", VA = "0x181E21870")]
+	[Token(Token = "0x6001362")]
+	[Address(RVA = "0x57FEF60", Offset = "0x57FDF60", VA = "0x57FEF60")]
 	public static GisketchMotionDefinition PanelExitMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001112")]
-	[Address(RVA = "0x1E218C0", Offset = "0x1E1FEC0", VA = "0x181E218C0")]
+	[Token(Token = "0x6001363")]
+	[Address(RVA = "0x57FEFB0", Offset = "0x57FDFB0", VA = "0x57FEFB0")]
 	public static GisketchMotionDefinition PreviewEnterMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001113")]
-	[Address(RVA = "0x1E21920", Offset = "0x1E1FF20", VA = "0x181E21920")]
+	[Token(Token = "0x6001364")]
+	[Address(RVA = "0x57FF000", Offset = "0x57FE000", VA = "0x57FF000")]
 	public static GisketchMotionDefinition PreviewExitMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001114")]
-	[Address(RVA = "0x1E21980", Offset = "0x1E1FF80", VA = "0x181E21980")]
+	[Token(Token = "0x6001365")]
+	[Address(RVA = "0x57FDDF0", Offset = "0x57FCDF0", VA = "0x57FDDF0")]
 	public static void SaveCallout(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6001115")]
-	[Address(RVA = "0x1E21A60", Offset = "0x1E20060", VA = "0x181E21A60")]
+	[Token(Token = "0x6001366")]
+	[Address(RVA = "0x57FE600", Offset = "0x57FD600", VA = "0x57FE600")]
 	public static void SaveFooter(AottgDialogFooter footer, string actionId)
 	{
 	}
 
-	[Token(Token = "0x6001116")]
-	[Address(RVA = "0x1E21B90", Offset = "0x1E20190", VA = "0x181E21B90")]
+	[Token(Token = "0x6001367")]
+	[Address(RVA = "0x57FF050", Offset = "0x57FE050", VA = "0x57FF050")]
 	internal static void SaveFooter(AottgUi footer, string actionId)
 	{
 	}

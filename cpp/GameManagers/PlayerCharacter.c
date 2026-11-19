@@ -1,5 +1,5 @@
 // Type: GameManagers.PlayerCharacter
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameManagers/PlayerCharacter.cs
@@ -8,41 +8,40 @@
 
 // GameManagers.PlayerCharacter$$.ctor
 // il2cpp: void GameManagers_PlayerCharacter___ctor (GameManagers_PlayerCharacter_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5957ed0
 
-void
-GameManagers_PlayerCharacter___ctor(GameManagers_PlayerCharacter_o* __this, MethodInfo* method)
+void GameManagers_PlayerCharacter___ctor(GameManagers_PlayerCharacter_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // GameManagers.PlayerCharacter$$.cctor
 // il2cpp: void GameManagers_PlayerCharacter___cctor (const MethodInfo* method);
-// 0x181e72f70
+// 0x5957ee0
 
 void GameManagers_PlayerCharacter___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f18 == '\0') {
+  GameManagers_PlayerCharacter_StaticFields *pGVar1;
+  
+  if (Il2CppMethodInitialized_075458b9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerCharacter);
     il2cpp_codegen_initialize_runtime_metadata(&"Human");
     il2cpp_codegen_initialize_runtime_metadata(&"Titan");
     il2cpp_codegen_initialize_runtime_metadata(&"Shifter");
-    Il2CppMethodInitialized_184344f18 = '\x01';
+    Il2CppMethodInitialized_075458b9 = '\x01';
   }
   TypeInfo_GameManagers_PlayerCharacter->static_fields->Human = "Human";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,"Human");
-  TypeInfo_GameManagers_PlayerCharacter->static_fields->Titan = "Titan";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerCharacter->static_fields->Titan,"Titan");
-  TypeInfo_GameManagers_PlayerCharacter->static_fields->Shifter = "Shifter";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerCharacter->static_fields->Shifter,"Shifter");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerCharacter->static_fields->Human);
+  pGVar1 = TypeInfo_GameManagers_PlayerCharacter->static_fields;
+  pGVar1->Titan = "Titan";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Titan);
+  pGVar1 = TypeInfo_GameManagers_PlayerCharacter->static_fields;
+  pGVar1->Shifter = "Shifter";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Shifter);
   return;
 }
 

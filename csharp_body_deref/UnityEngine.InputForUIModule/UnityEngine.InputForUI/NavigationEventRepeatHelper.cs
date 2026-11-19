@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.NavigationEventRepeatHelper
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,20 +34,20 @@ internal class NavigationEventRepeatHelper
 	private readonly DiscreteTime m_ConsecutiveRepeatDelay;
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x2FC1690", Offset = "0x2FBFC90", VA = "0x182FC1690")]
+	[Address(RVA = "0x69BCFD0", Offset = "0x69BBFD0", VA = "0x69BCFD0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x2FC16F0", Offset = "0x2FBFCF0", VA = "0x182FC16F0")]
+	[Address(RVA = "0x69BD030", Offset = "0x69BC030", VA = "0x69BD030")]
 	public bool ShouldSendMoveEvent(DiscreteTime timestamp, NavigationEvent.Direction direction, bool axisButtonsWherePressedThisFrame)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x2FC17E0", Offset = "0x2FBFDE0", VA = "0x182FC17E0")]
+	[Address(RVA = "0x69B96B0", Offset = "0x69B86B0", VA = "0x69B96B0")]
 	public NavigationEventRepeatHelper()
 	{
 	}

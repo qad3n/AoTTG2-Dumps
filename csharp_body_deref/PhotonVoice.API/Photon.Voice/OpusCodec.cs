@@ -131,13 +131,13 @@ public class OpusCodec
 	public class EncoderFloat : Encoder<float>
 	{
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x1D69910", Offset = "0x1D67F10", VA = "0x181D69910")]
+		[Address(RVA = "0x5705690", Offset = "0x5704690", VA = "0x5705690")]
 		internal EncoderFloat(VoiceInfo i, ILogger logger)
 		{
 		}
 
 		[Token(Token = "0x6000194")]
-		[Address(RVA = "0x1D699B0", Offset = "0x1D67FB0", VA = "0x181D699B0", Slot = "11")]
+		[Address(RVA = "0x5705700", Offset = "0x5704700", VA = "0x5705700", Slot = "11")]
 		protected override void encodeTyped(float[] buf)
 		{
 		}
@@ -147,13 +147,13 @@ public class OpusCodec
 	public class EncoderShort : Encoder<short>
 	{
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x1D69A70", Offset = "0x1D68070", VA = "0x181D69A70")]
+		[Address(RVA = "0x5705720", Offset = "0x5704720", VA = "0x5705720")]
 		internal EncoderShort(VoiceInfo i, ILogger logger)
 		{
 		}
 
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x1D69B10", Offset = "0x1D68110", VA = "0x181D69B10", Slot = "11")]
+		[Address(RVA = "0x5705790", Offset = "0x5704790", VA = "0x5705790", Slot = "11")]
 		protected override void encodeTyped(short[] buf)
 		{
 		}
@@ -215,14 +215,14 @@ public class OpusCodec
 	public class Util
 	{
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x1D76F00", Offset = "0x1D75500", VA = "0x181D76F00")]
+		[Address(RVA = "0x57057B0", Offset = "0x57047B0", VA = "0x57057B0")]
 		internal static int bestEncoderSampleRate(int f)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x5705B50", Offset = "0x5704B50", VA = "0x5705B50")]
 		public Util()
 		{
 		}
@@ -232,7 +232,7 @@ public class OpusCodec
 	public static string Version
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x1D6EFE0", Offset = "0x1D6D5E0", VA = "0x181D6EFE0")]
+		[Address(RVA = "0x5705670", Offset = "0x5704670", VA = "0x5705670")]
 		get
 		{
 			return null;
@@ -240,7 +240,7 @@ public class OpusCodec
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5705680", Offset = "0x5704680", VA = "0x5705680")]
 	public OpusCodec()
 	{
 	}

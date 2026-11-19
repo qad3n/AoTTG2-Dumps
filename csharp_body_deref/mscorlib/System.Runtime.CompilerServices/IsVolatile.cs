@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004AC")]
+[Token(Token = "0x2000485")]
 public static class IsVolatile
 {
 }

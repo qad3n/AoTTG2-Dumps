@@ -30,7 +30,7 @@ public class XmlTypeAttribute : Attribute
 	public bool IncludeInSchema
 	{
 		[Token(Token = "0x6000E7B")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6137100", Offset = "0x6136100", VA = "0x6137100")]
 		get
 		{
 			return default(bool);
@@ -41,7 +41,7 @@ public class XmlTypeAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000E7C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6137110", Offset = "0x6136110", VA = "0x6137110")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public class XmlTypeAttribute : Attribute
 	public string TypeName
 	{
 		[Token(Token = "0x6000E7D")]
-		[Address(RVA = "0x278CCF0", Offset = "0x278B2F0", VA = "0x18278CCF0")]
+		[Address(RVA = "0x6137120", Offset = "0x6136120", VA = "0x6137120")]
 		get
 		{
 			return null;
@@ -60,7 +60,7 @@ public class XmlTypeAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E7E")]
-	[Address(RVA = "0x278CC50", Offset = "0x278B250", VA = "0x18278CC50")]
+	[Address(RVA = "0x6137150", Offset = "0x6136150", VA = "0x6137150")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

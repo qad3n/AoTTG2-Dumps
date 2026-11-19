@@ -39,37 +39,37 @@ internal abstract class BaseVisualTreeHierarchyTrackerUpdater : BaseVisualTreeUp
 	protected abstract void OnHierarchyChange(VisualElement ve, HierarchyChangeType type);
 
 	[Token(Token = "0x6002848")]
-	[Address(RVA = "0x315AC40", Offset = "0x3159240", VA = "0x18315AC40", Slot = "15")]
+	[Address(RVA = "0x6B70500", Offset = "0x6B6F500", VA = "0x6B70500", Slot = "15")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6002849")]
-	[Address(RVA = "0x315B060", Offset = "0x3159660", VA = "0x18315B060", Slot = "14")]
+	[Address(RVA = "0x6B70810", Offset = "0x6B6F810", VA = "0x6B70810", Slot = "14")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x600284A")]
-	[Address(RVA = "0x315AF10", Offset = "0x3159510", VA = "0x18315AF10")]
+	[Address(RVA = "0x6B70640", Offset = "0x6B6F640", VA = "0x6B70640")]
 	private void ProcessNewChange(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600284B")]
-	[Address(RVA = "0x315AE50", Offset = "0x3159450", VA = "0x18315AE50")]
+	[Address(RVA = "0x6B70770", Offset = "0x6B6F770", VA = "0x6B70770")]
 	private void ProcessAddOrMove(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600284C")]
-	[Address(RVA = "0x315AFC0", Offset = "0x31595C0", VA = "0x18315AFC0")]
+	[Address(RVA = "0x6B706E0", Offset = "0x6B6F6E0", VA = "0x6B706E0")]
 	private void ProcessRemove(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600284D")]
-	[Address(RVA = "0x315B120", Offset = "0x3159720", VA = "0x18315B120")]
+	[Address(RVA = "0x6B708C0", Offset = "0x6B6F8C0", VA = "0x6B708C0")]
 	protected BaseVisualTreeHierarchyTrackerUpdater()
 	{
 	}

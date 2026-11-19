@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200073B")]
+[Token(Token = "0x20007E3")]
 internal class IgnoreScaler : BaseScaler
 {
-	[Token(Token = "0x4002408")]
+	[Token(Token = "0x4002778")]
 	[FieldOffset(Offset = "0x20")]
 	public float Scale;
 
-	[Token(Token = "0x60046E3")]
-	[Address(RVA = "0x2212120", Offset = "0x2210720", VA = "0x182212120", Slot = "5")]
+	[Token(Token = "0x6004C03")]
+	[Address(RVA = "0x5BEC8B0", Offset = "0x5BEB8B0", VA = "0x5BEC8B0", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x60046E4")]
-	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
+	[Token(Token = "0x6004C04")]
+	[Address(RVA = "0x5BEC960", Offset = "0x5BEB960", VA = "0x5BEC960")]
 	public IgnoreScaler()
 	{
 	}

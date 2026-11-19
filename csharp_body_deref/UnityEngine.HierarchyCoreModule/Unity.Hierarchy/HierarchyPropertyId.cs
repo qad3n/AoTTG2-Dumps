@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyPropertyId
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,7 +27,7 @@ internal readonly struct HierarchyPropertyId : IEquatable<HierarchyPropertyId>
 	public unsafe static ref readonly HierarchyPropertyId Null
 	{
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x2F7F010", Offset = "0x2F7D610", VA = "0x182F7F010")]
+		[Address(RVA = "0x69746A0", Offset = "0x69736A0", VA = "0x69746A0")]
 		get
 		{
 			return ref *(HierarchyPropertyId*)null;
@@ -38,7 +38,7 @@ internal readonly struct HierarchyPropertyId : IEquatable<HierarchyPropertyId>
 	public int Id
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x69746D0", Offset = "0x69736D0", VA = "0x69746D0")]
 		get
 		{
 			return default(int);
@@ -46,41 +46,41 @@ internal readonly struct HierarchyPropertyId : IEquatable<HierarchyPropertyId>
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0xB47950", Offset = "0xB45F50", VA = "0x180B47950")]
+	[Address(RVA = "0x69746E0", Offset = "0x69736E0", VA = "0x69746E0")]
 	public HierarchyPropertyId()
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2F001A0", Offset = "0x2EFE7A0", VA = "0x182F001A0")]
+	[Address(RVA = "0x69746F0", Offset = "0x69736F0", VA = "0x69746F0")]
 	public static bool operator ==(in HierarchyPropertyId lhs, in HierarchyPropertyId rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2F7EA40", Offset = "0x2F7D040", VA = "0x182F7EA40", Slot = "4")]
+	[Address(RVA = "0x6974700", Offset = "0x6973700", VA = "0x6974700", Slot = "4")]
 	public bool Equals(HierarchyPropertyId other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x2F7EF40", Offset = "0x2F7D540", VA = "0x182F7EF40", Slot = "3")]
+	[Address(RVA = "0x6974710", Offset = "0x6973710", VA = "0x6974710", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x2F7EEB0", Offset = "0x2F7D4B0", VA = "0x182F7EEB0", Slot = "0")]
+	[Address(RVA = "0x69747D0", Offset = "0x69737D0", VA = "0x69747D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x2F7EAE0", Offset = "0x2F7D0E0", VA = "0x182F7EAE0", Slot = "2")]
+	[Address(RVA = "0x6974830", Offset = "0x6973830", VA = "0x6974830", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -11,17 +11,28 @@ using Il2CppDummyDll;
 
 namespace System.Reflection.Emit;
 
-[Token(Token = "0x2000560")]
+[Token(Token = "0x2000539")]
 public sealed class TypeBuilder : TypeInfo
 {
-	[Token(Token = "0x4001566")]
+	[Token(Token = "0x40014C6")]
 	public const int UnspecifiedTypeSize = 0;
 
-	[Token(Token = "0x170005C0")]
+	[Token(Token = "0x170005BF")]
 	public override Assembly Assembly
 	{
-		[Token(Token = "0x6002823")]
-		[Address(RVA = "0x1A74C20", Offset = "0x1A73220", VA = "0x181A74C20", Slot = "27")]
+		[Token(Token = "0x60027F1")]
+		[Address(RVA = "0x53F0030", Offset = "0x53EF030", VA = "0x53F0030", Slot = "27")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170005C0")]
+	public override string AssemblyQualifiedName
+	{
+		[Token(Token = "0x60027F2")]
+		[Address(RVA = "0x53F0070", Offset = "0x53EF070", VA = "0x53F0070", Slot = "25")]
 		get
 		{
 			return null;
@@ -29,10 +40,10 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C1")]
-	public override string AssemblyQualifiedName
+	public override Type BaseType
 	{
-		[Token(Token = "0x6002824")]
-		[Address(RVA = "0x1A74BE0", Offset = "0x1A731E0", VA = "0x181A74BE0", Slot = "25")]
+		[Token(Token = "0x60027F3")]
+		[Address(RVA = "0x53F00B0", Offset = "0x53EF0B0", VA = "0x53F00B0", Slot = "118")]
 		get
 		{
 			return null;
@@ -40,10 +51,10 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C2")]
-	public override Type BaseType
+	public override string FullName
 	{
-		[Token(Token = "0x6002825")]
-		[Address(RVA = "0x1A74C60", Offset = "0x1A73260", VA = "0x181A74C60", Slot = "118")]
+		[Token(Token = "0x60027F4")]
+		[Address(RVA = "0x53F00F0", Offset = "0x53EF0F0", VA = "0x53F00F0", Slot = "26")]
 		get
 		{
 			return null;
@@ -51,10 +62,10 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C3")]
-	public override string FullName
+	public override Module Module
 	{
-		[Token(Token = "0x6002826")]
-		[Address(RVA = "0x1A74CA0", Offset = "0x1A732A0", VA = "0x181A74CA0", Slot = "26")]
+		[Token(Token = "0x60027F5")]
+		[Address(RVA = "0x53F0130", Offset = "0x53EF130", VA = "0x53F0130", Slot = "28")]
 		get
 		{
 			return null;
@@ -62,10 +73,10 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C4")]
-	public override Module Module
+	public override string Name
 	{
-		[Token(Token = "0x6002827")]
-		[Address(RVA = "0x1A74CE0", Offset = "0x1A732E0", VA = "0x181A74CE0", Slot = "28")]
+		[Token(Token = "0x60027F6")]
+		[Address(RVA = "0x53F0170", Offset = "0x53EF170", VA = "0x53F0170", Slot = "8")]
 		get
 		{
 			return null;
@@ -73,10 +84,10 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C5")]
-	public override string Name
+	public override string Namespace
 	{
-		[Token(Token = "0x6002828")]
-		[Address(RVA = "0x1A74D20", Offset = "0x1A73320", VA = "0x181A74D20", Slot = "8")]
+		[Token(Token = "0x60027F7")]
+		[Address(RVA = "0x53F01B0", Offset = "0x53EF1B0", VA = "0x53F01B0", Slot = "24")]
 		get
 		{
 			return null;
@@ -84,198 +95,187 @@ public sealed class TypeBuilder : TypeInfo
 	}
 
 	[Token(Token = "0x170005C6")]
-	public override string Namespace
-	{
-		[Token(Token = "0x6002829")]
-		[Address(RVA = "0x1A74D60", Offset = "0x1A73360", VA = "0x181A74D60", Slot = "24")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170005C7")]
 	public override Type UnderlyingSystemType
 	{
-		[Token(Token = "0x600282A")]
-		[Address(RVA = "0x1A74DA0", Offset = "0x1A733A0", VA = "0x181A74DA0", Slot = "30")]
+		[Token(Token = "0x60027F8")]
+		[Address(RVA = "0x53F01F0", Offset = "0x53EF1F0", VA = "0x53F01F0", Slot = "30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600282B")]
-	[Address(RVA = "0x1A745A0", Offset = "0x1A72BA0", VA = "0x181A745A0", Slot = "56")]
+	[Token(Token = "0x60027F9")]
+	[Address(RVA = "0x53F0230", Offset = "0x53EF230", VA = "0x53F0230", Slot = "56")]
 	protected override TypeAttributes GetAttributeFlagsImpl()
 	{
 		return default(TypeAttributes);
 	}
 
-	[Token(Token = "0x600282C")]
-	[Address(RVA = "0x1A745E0", Offset = "0x1A72BE0", VA = "0x181A745E0", Slot = "83")]
+	[Token(Token = "0x60027FA")]
+	[Address(RVA = "0x53F0270", Offset = "0x53EF270", VA = "0x53F0270", Slot = "83")]
 	protected override ConstructorInfo GetConstructorImpl(BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600282D")]
-	[Address(RVA = "0x1A74620", Offset = "0x1A72C20", VA = "0x181A74620", Slot = "85")]
+	[Token(Token = "0x60027FB")]
+	[Address(RVA = "0x53F02B0", Offset = "0x53EF2B0", VA = "0x53F02B0", Slot = "85")]
 	[ComVisible(true)]
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600282E")]
-	[Address(RVA = "0x1A74660", Offset = "0x1A72C60", VA = "0x181A74660", Slot = "13")]
+	[Token(Token = "0x60027FC")]
+	[Address(RVA = "0x53F02F0", Offset = "0x53EF2F0", VA = "0x53F02F0", Slot = "13")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600282F")]
-	[Address(RVA = "0x1A746A0", Offset = "0x1A72CA0", VA = "0x181A746A0", Slot = "14")]
+	[Token(Token = "0x60027FD")]
+	[Address(RVA = "0x53F0330", Offset = "0x53EF330", VA = "0x53F0330", Slot = "14")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002830")]
-	[Address(RVA = "0x1A746E0", Offset = "0x1A72CE0", VA = "0x181A746E0", Slot = "47")]
+	[Token(Token = "0x60027FE")]
+	[Address(RVA = "0x53F0370", Offset = "0x53EF370", VA = "0x53F0370", Slot = "47")]
 	public override Type GetElementType()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002831")]
-	[Address(RVA = "0x1A74720", Offset = "0x1A72D20", VA = "0x181A74720", Slot = "87")]
+	[Token(Token = "0x60027FF")]
+	[Address(RVA = "0x53F03B0", Offset = "0x53EF3B0", VA = "0x53F03B0", Slot = "87")]
 	public override EventInfo GetEvent(string name, BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002832")]
-	[Address(RVA = "0x1A74760", Offset = "0x1A72D60", VA = "0x181A74760", Slot = "88")]
+	[Token(Token = "0x6002800")]
+	[Address(RVA = "0x53F03F0", Offset = "0x53EF3F0", VA = "0x53F03F0", Slot = "88")]
 	public override EventInfo[] GetEvents(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002833")]
-	[Address(RVA = "0x1A747A0", Offset = "0x1A72DA0", VA = "0x181A747A0", Slot = "90")]
+	[Token(Token = "0x6002801")]
+	[Address(RVA = "0x53F0430", Offset = "0x53EF430", VA = "0x53F0430", Slot = "90")]
 	public override FieldInfo GetField(string name, BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002834")]
-	[Address(RVA = "0x1A747E0", Offset = "0x1A72DE0", VA = "0x181A747E0", Slot = "92")]
+	[Token(Token = "0x6002802")]
+	[Address(RVA = "0x53F0470", Offset = "0x53EF470", VA = "0x53F0470", Slot = "92")]
 	public override FieldInfo[] GetFields(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002835")]
-	[Address(RVA = "0x1A74820", Offset = "0x1A72E20", VA = "0x181A74820", Slot = "120")]
+	[Token(Token = "0x6002803")]
+	[Address(RVA = "0x53F04B0", Offset = "0x53EF4B0", VA = "0x53F04B0", Slot = "120")]
 	public override Type[] GetInterfaces()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002836")]
-	[Address(RVA = "0x1A74860", Offset = "0x1A72E60", VA = "0x181A74860", Slot = "96")]
+	[Token(Token = "0x6002804")]
+	[Address(RVA = "0x53F04F0", Offset = "0x53EF4F0", VA = "0x53F04F0", Slot = "96")]
 	public override MemberInfo[] GetMembers(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002837")]
-	[Address(RVA = "0x1A748A0", Offset = "0x1A72EA0", VA = "0x181A748A0", Slot = "103")]
+	[Token(Token = "0x6002805")]
+	[Address(RVA = "0x53F0530", Offset = "0x53EF530", VA = "0x53F0530", Slot = "103")]
 	protected override MethodInfo GetMethodImpl(string name, BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002838")]
-	[Address(RVA = "0x1A748E0", Offset = "0x1A72EE0", VA = "0x181A748E0", Slot = "105")]
+	[Token(Token = "0x6002806")]
+	[Address(RVA = "0x53F0570", Offset = "0x53EF570", VA = "0x53F0570", Slot = "105")]
 	public override MethodInfo[] GetMethods(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002839")]
-	[Address(RVA = "0x1A74920", Offset = "0x1A72F20", VA = "0x181A74920", Slot = "106")]
+	[Token(Token = "0x6002807")]
+	[Address(RVA = "0x53F05B0", Offset = "0x53EF5B0", VA = "0x53F05B0", Slot = "106")]
 	public override Type GetNestedType(string name, BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600283A")]
-	[Address(RVA = "0x1A74960", Offset = "0x1A72F60", VA = "0x181A74960", Slot = "115")]
+	[Token(Token = "0x6002808")]
+	[Address(RVA = "0x53F05F0", Offset = "0x53EF5F0", VA = "0x53F05F0", Slot = "115")]
 	public override PropertyInfo[] GetProperties(BindingFlags bindingAttr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600283B")]
-	[Address(RVA = "0x1A749A0", Offset = "0x1A72FA0", VA = "0x181A749A0", Slot = "113")]
+	[Token(Token = "0x6002809")]
+	[Address(RVA = "0x53F0630", Offset = "0x53EF630", VA = "0x53F0630", Slot = "113")]
 	protected override PropertyInfo GetPropertyImpl(string name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600283C")]
-	[Address(RVA = "0x1A749E0", Offset = "0x1A72FE0", VA = "0x181A749E0", Slot = "46")]
+	[Token(Token = "0x600280A")]
+	[Address(RVA = "0x53F0670", Offset = "0x53EF670", VA = "0x53F0670", Slot = "46")]
 	protected override bool HasElementTypeImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600283D")]
-	[Address(RVA = "0x1A74A20", Offset = "0x1A73020", VA = "0x181A74A20", Slot = "119")]
+	[Token(Token = "0x600280B")]
+	[Address(RVA = "0x53F06B0", Offset = "0x53EF6B0", VA = "0x53F06B0", Slot = "119")]
 	public override object InvokeMember(string name, BindingFlags invokeAttr, Binder binder, object target, object[] args, ParameterModifier[] modifiers, CultureInfo culture, string[] namedParameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600283E")]
-	[Address(RVA = "0x1A74A60", Offset = "0x1A73060", VA = "0x181A74A60", Slot = "32")]
+	[Token(Token = "0x600280C")]
+	[Address(RVA = "0x53F06F0", Offset = "0x53EF6F0", VA = "0x53F06F0", Slot = "32")]
 	protected override bool IsArrayImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600283F")]
-	[Address(RVA = "0x1A74AA0", Offset = "0x1A730A0", VA = "0x181A74AA0", Slot = "34")]
+	[Token(Token = "0x600280D")]
+	[Address(RVA = "0x53F0730", Offset = "0x53EF730", VA = "0x53F0730", Slot = "34")]
 	protected override bool IsByRefImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002840")]
-	[Address(RVA = "0x1A74AE0", Offset = "0x1A730E0", VA = "0x181A74AE0", Slot = "68")]
+	[Token(Token = "0x600280E")]
+	[Address(RVA = "0x53F0770", Offset = "0x53EF770", VA = "0x53F0770", Slot = "68")]
 	protected override bool IsCOMObjectImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002841")]
-	[Address(RVA = "0x1A74B20", Offset = "0x1A73120", VA = "0x181A74B20", Slot = "12")]
+	[Token(Token = "0x600280F")]
+	[Address(RVA = "0x53F07B0", Offset = "0x53EF7B0", VA = "0x53F07B0", Slot = "12")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002842")]
-	[Address(RVA = "0x1A74B60", Offset = "0x1A73160", VA = "0x181A74B60", Slot = "36")]
+	[Token(Token = "0x6002810")]
+	[Address(RVA = "0x53F07F0", Offset = "0x53EF7F0", VA = "0x53F07F0", Slot = "36")]
 	protected override bool IsPointerImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002843")]
-	[Address(RVA = "0x1A74BA0", Offset = "0x1A731A0", VA = "0x181A74BA0", Slot = "76")]
+	[Token(Token = "0x6002811")]
+	[Address(RVA = "0x53F0830", Offset = "0x53EF830", VA = "0x53F0830", Slot = "76")]
 	protected override bool IsPrimitiveImpl()
 	{
 		return default(bool);

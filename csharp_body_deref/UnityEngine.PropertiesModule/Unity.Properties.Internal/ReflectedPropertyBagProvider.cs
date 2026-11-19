@@ -84,7 +84,7 @@ internal class ReflectedPropertyBagProvider
 		private MemberInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EReflection_002EMemberInfo_003E_002ECurrent
 		{
 			[Token(Token = "0x600028E")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x69F0FF0", Offset = "0x69EFFF0", VA = "0x69F0FF0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -96,7 +96,7 @@ internal class ReflectedPropertyBagProvider
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000290")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x69F1040", Offset = "0x69F0040", VA = "0x69F1040", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -105,41 +105,41 @@ internal class ReflectedPropertyBagProvider
 		}
 
 		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x69F0150", Offset = "0x69EF150", VA = "0x69F0150")]
 		[DebuggerHidden]
 		public _003CGetPropertyMembers_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600028B")]
-		[Address(RVA = "0x2FF5370", Offset = "0x2FF3970", VA = "0x182FF5370", Slot = "7")]
+		[Address(RVA = "0x69F04A0", Offset = "0x69EF4A0", VA = "0x69F04A0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600028C")]
-		[Address(RVA = "0x2FF4990", Offset = "0x2FF2F90", VA = "0x182FF4990", Slot = "8")]
+		[Address(RVA = "0x69F0550", Offset = "0x69EF550", VA = "0x69F0550", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600028D")]
-		[Address(RVA = "0x2FF5400", Offset = "0x2FF3A00", VA = "0x182FF5400")]
+		[Address(RVA = "0x69F0F50", Offset = "0x69EFF50", VA = "0x69F0F50")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x2FF5330", Offset = "0x2FF3930", VA = "0x182FF5330", Slot = "10")]
+		[Address(RVA = "0x69F1000", Offset = "0x69F0000", VA = "0x69F1000", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000291")]
-		[Address(RVA = "0x2FF5290", Offset = "0x2FF3890", VA = "0x182FF5290", Slot = "4")]
+		[Address(RVA = "0x69F1050", Offset = "0x69F0050", VA = "0x69F1050", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<MemberInfo> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EReflection_002EMemberInfo_003E_002EGetEnumerator()
 		{
@@ -147,7 +147,7 @@ internal class ReflectedPropertyBagProvider
 		}
 
 		[Token(Token = "0x6000292")]
-		[Address(RVA = "0x2FF5290", Offset = "0x2FF3890", VA = "0x182FF5290", Slot = "5")]
+		[Address(RVA = "0x69F10E0", Offset = "0x69F00E0", VA = "0x69F10E0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -196,13 +196,13 @@ internal class ReflectedPropertyBagProvider
 	private readonly MethodInfo m_CreateDictionaryPropertyBagMethod;
 
 	[Token(Token = "0x6000277")]
-	[Address(RVA = "0x2FF25F0", Offset = "0x2FF0BF0", VA = "0x182FF25F0")]
+	[Address(RVA = "0x69EFA30", Offset = "0x69EEA30", VA = "0x69EFA30")]
 	public ReflectedPropertyBagProvider()
 	{
 	}
 
 	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x2FF2200", Offset = "0x2FF0800", VA = "0x182FF2200")]
+	[Address(RVA = "0x69EFE80", Offset = "0x69EEE80", VA = "0x69EFE80")]
 	public IPropertyBag CreatePropertyBag(Type type)
 	{
 		return null;
@@ -277,7 +277,7 @@ internal class ReflectedPropertyBagProvider
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2FF2350", Offset = "0x2FF0950", VA = "0x182FF2350")]
+	[Address(RVA = "0x69F00E0", Offset = "0x69EF0E0", VA = "0x69F00E0")]
 	[IteratorStateMachine(typeof(_003CGetPropertyMembers_003Ed__22))]
 	private static IEnumerable<MemberInfo> GetPropertyMembers(Type type)
 	{
@@ -285,14 +285,14 @@ internal class ReflectedPropertyBagProvider
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x2FF23D0", Offset = "0x2FF09D0", VA = "0x182FF23D0")]
+	[Address(RVA = "0x69F0180", Offset = "0x69EF180", VA = "0x69F0180")]
 	private static bool IsValidMember(MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x2FF2510", Offset = "0x2FF0B10", VA = "0x182FF2510")]
+	[Address(RVA = "0x69F02A0", Offset = "0x69EF2A0", VA = "0x69F02A0")]
 	private static bool IsValidPropertyType(Type type)
 	{
 		return default(bool);

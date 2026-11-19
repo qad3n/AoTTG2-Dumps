@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003E8")]
+[Token(Token = "0x2000447")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Method)]
 internal class CLCallbackAttribute : CLBaseAttribute
 {
-	[Token(Token = "0x6001811")]
-	[Address(RVA = "0x1ECD490", Offset = "0x1ECBA90", VA = "0x181ECD490")]
+	[Token(Token = "0x6001A88")]
+	[Address(RVA = "0x58A9760", Offset = "0x58A8760", VA = "0x58A9760")]
 	public CLCallbackAttribute()
 	{
 	}

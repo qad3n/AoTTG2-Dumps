@@ -29,7 +29,7 @@ internal class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer
 	public override int Remaining
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x25D1C10", Offset = "0x25D0210", VA = "0x1825D1C10", Slot = "8")]
+		[Address(RVA = "0x5F9A6D0", Offset = "0x5F996D0", VA = "0x5F9A6D0", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -37,47 +37,47 @@ internal class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x25D1BB0", Offset = "0x25D01B0", VA = "0x1825D1BB0")]
+	[Address(RVA = "0x5F99FC0", Offset = "0x5F98FC0", VA = "0x5F99FC0")]
 	internal CharEntityEncoderFallbackBuffer(CharEntityEncoderFallback parent)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x25D15C0", Offset = "0x25CFBC0", VA = "0x1825D15C0", Slot = "4")]
+	[Address(RVA = "0x5F9A0E0", Offset = "0x5F990E0", VA = "0x5F9A0E0", Slot = "4")]
 	public override bool Fallback(char charUnknown, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x25D1840", Offset = "0x25CFE40", VA = "0x1825D1840", Slot = "5")]
+	[Address(RVA = "0x5F9A360", Offset = "0x5F99360", VA = "0x5F9A360", Slot = "5")]
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x25D1B30", Offset = "0x25D0130", VA = "0x1825D1B30", Slot = "6")]
+	[Address(RVA = "0x5F9A670", Offset = "0x5F99670", VA = "0x5F9A670", Slot = "6")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x25D1B80", Offset = "0x25D0180", VA = "0x1825D1B80", Slot = "7")]
+	[Address(RVA = "0x5F9A6B0", Offset = "0x5F996B0", VA = "0x5F9A6B0", Slot = "7")]
 	public override bool MovePrevious()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x1532AA0", Offset = "0x15310A0", VA = "0x181532AA0", Slot = "9")]
+	[Address(RVA = "0x5F9A700", Offset = "0x5F99700", VA = "0x5F9A700", Slot = "9")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x25D1BA0", Offset = "0x25D01A0", VA = "0x1825D1BA0")]
+	[Address(RVA = "0x5F9A660", Offset = "0x5F99660", VA = "0x5F9A660")]
 	private int SurrogateCharToUtf32(char highSurrogate, char lowSurrogate)
 	{
 		return default(int);

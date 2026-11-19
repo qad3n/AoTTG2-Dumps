@@ -48,7 +48,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public class ScrollRectEvent : UnityEvent<Vector2>
 	{
 		[Token(Token = "0x60003F6")]
-		[Address(RVA = "0x32DEA10", Offset = "0x32DD010", VA = "0x1832DEA10")]
+		[Address(RVA = "0x6CEBC10", Offset = "0x6CEAC10", VA = "0x6CEBC10")]
 		public ScrollRectEvent()
 		{
 		}
@@ -224,13 +224,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public RectTransform content
 	{
 		[Token(Token = "0x600039B")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6CEB1E0", Offset = "0x6CEA1E0", VA = "0x6CEB1E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600039C")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6CEB1F0", Offset = "0x6CEA1F0", VA = "0x6CEB1F0")]
 		set
 		{
 		}
@@ -240,13 +240,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public bool horizontal
 	{
 		[Token(Token = "0x600039D")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x6CEB200", Offset = "0x6CEA200", VA = "0x6CEB200")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600039E")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Address(RVA = "0x6CEB210", Offset = "0x6CEA210", VA = "0x6CEB210")]
 		set
 		{
 		}
@@ -256,13 +256,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public bool vertical
 	{
 		[Token(Token = "0x600039F")]
-		[Address(RVA = "0x1573470", Offset = "0x1571A70", VA = "0x181573470")]
+		[Address(RVA = "0x6CEB220", Offset = "0x6CEA220", VA = "0x6CEB220")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60003A0")]
-		[Address(RVA = "0x15736C0", Offset = "0x1571CC0", VA = "0x1815736C0")]
+		[Address(RVA = "0x6CEB230", Offset = "0x6CEA230", VA = "0x6CEB230")]
 		set
 		{
 		}
@@ -272,13 +272,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public MovementType movementType
 	{
 		[Token(Token = "0x60003A1")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x6CEB240", Offset = "0x6CEA240", VA = "0x6CEB240")]
 		get
 		{
 			return default(MovementType);
 		}
 		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x6CEB250", Offset = "0x6CEA250", VA = "0x6CEB250")]
 		set
 		{
 		}
@@ -288,13 +288,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float elasticity
 	{
 		[Token(Token = "0x60003A3")]
-		[Address(RVA = "0x584C90", Offset = "0x583290", VA = "0x180584C90")]
+		[Address(RVA = "0x6CEB260", Offset = "0x6CEA260", VA = "0x6CEB260")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
+		[Address(RVA = "0x6CEB270", Offset = "0x6CEA270", VA = "0x6CEB270")]
 		set
 		{
 		}
@@ -304,13 +304,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public bool inertia
 	{
 		[Token(Token = "0x60003A5")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Address(RVA = "0x6CEB280", Offset = "0x6CEA280", VA = "0x6CEB280")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60003A6")]
-		[Address(RVA = "0xAB9F80", Offset = "0xAB8580", VA = "0x180AB9F80")]
+		[Address(RVA = "0x6CEB290", Offset = "0x6CEA290", VA = "0x6CEB290")]
 		set
 		{
 		}
@@ -320,13 +320,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float decelerationRate
 	{
 		[Token(Token = "0x60003A7")]
-		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
+		[Address(RVA = "0x6CEB2A0", Offset = "0x6CEA2A0", VA = "0x6CEB2A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003A8")]
-		[Address(RVA = "0x1ED2F30", Offset = "0x1ED1530", VA = "0x181ED2F30")]
+		[Address(RVA = "0x6CEB2B0", Offset = "0x6CEA2B0", VA = "0x6CEB2B0")]
 		set
 		{
 		}
@@ -336,13 +336,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float scrollSensitivity
 	{
 		[Token(Token = "0x60003A9")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Address(RVA = "0x6CEB2C0", Offset = "0x6CEA2C0", VA = "0x6CEB2C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003AA")]
-		[Address(RVA = "0x1ED2F20", Offset = "0x1ED1520", VA = "0x181ED2F20")]
+		[Address(RVA = "0x6CEB2D0", Offset = "0x6CEA2D0", VA = "0x6CEB2D0")]
 		set
 		{
 		}
@@ -352,13 +352,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public RectTransform viewport
 	{
 		[Token(Token = "0x60003AB")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6CEB2E0", Offset = "0x6CEA2E0", VA = "0x6CEB2E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003AC")]
-		[Address(RVA = "0x32E35C0", Offset = "0x32E1BC0", VA = "0x1832E35C0")]
+		[Address(RVA = "0x6CEB2F0", Offset = "0x6CEA2F0", VA = "0x6CEB2F0")]
 		set
 		{
 		}
@@ -368,13 +368,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public Scrollbar horizontalScrollbar
 	{
 		[Token(Token = "0x60003AD")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x6CEB3D0", Offset = "0x6CEA3D0", VA = "0x6CEB3D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003AE")]
-		[Address(RVA = "0x32E3200", Offset = "0x32E1800", VA = "0x1832E3200")]
+		[Address(RVA = "0x6CEB3E0", Offset = "0x6CEA3E0", VA = "0x6CEB3E0")]
 		set
 		{
 		}
@@ -384,13 +384,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public Scrollbar verticalScrollbar
 	{
 		[Token(Token = "0x60003AF")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6CEB570", Offset = "0x6CEA570", VA = "0x6CEB570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003B0")]
-		[Address(RVA = "0x32E3430", Offset = "0x32E1A30", VA = "0x1832E3430")]
+		[Address(RVA = "0x6CEB580", Offset = "0x6CEA580", VA = "0x6CEB580")]
 		set
 		{
 		}
@@ -400,13 +400,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public ScrollbarVisibility horizontalScrollbarVisibility
 	{
 		[Token(Token = "0x60003B1")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x6CEB710", Offset = "0x6CEA710", VA = "0x6CEB710")]
 		get
 		{
 			return default(ScrollbarVisibility);
 		}
 		[Token(Token = "0x60003B2")]
-		[Address(RVA = "0x32E31F0", Offset = "0x32E17F0", VA = "0x1832E31F0")]
+		[Address(RVA = "0x6CEB720", Offset = "0x6CEA720", VA = "0x6CEB720")]
 		set
 		{
 		}
@@ -416,13 +416,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public ScrollbarVisibility verticalScrollbarVisibility
 	{
 		[Token(Token = "0x60003B3")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x6CEB730", Offset = "0x6CEA730", VA = "0x6CEB730")]
 		get
 		{
 			return default(ScrollbarVisibility);
 		}
 		[Token(Token = "0x60003B4")]
-		[Address(RVA = "0x32E3420", Offset = "0x32E1A20", VA = "0x1832E3420")]
+		[Address(RVA = "0x6CEB740", Offset = "0x6CEA740", VA = "0x6CEB740")]
 		set
 		{
 		}
@@ -432,13 +432,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float horizontalScrollbarSpacing
 	{
 		[Token(Token = "0x60003B5")]
-		[Address(RVA = "0x58A700", Offset = "0x588D00", VA = "0x18058A700")]
+		[Address(RVA = "0x6CEB750", Offset = "0x6CEA750", VA = "0x6CEB750")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003B6")]
-		[Address(RVA = "0x32E31E0", Offset = "0x32E17E0", VA = "0x1832E31E0")]
+		[Address(RVA = "0x6CEB760", Offset = "0x6CEA760", VA = "0x6CEB760")]
 		set
 		{
 		}
@@ -448,13 +448,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float verticalScrollbarSpacing
 	{
 		[Token(Token = "0x60003B7")]
-		[Address(RVA = "0xCDE8A0", Offset = "0xCDCEA0", VA = "0x180CDE8A0")]
+		[Address(RVA = "0x6CEB860", Offset = "0x6CEA860", VA = "0x6CEB860")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003B8")]
-		[Address(RVA = "0x32E3410", Offset = "0x32E1A10", VA = "0x1832E3410")]
+		[Address(RVA = "0x6CEB870", Offset = "0x6CEA870", VA = "0x6CEB870")]
 		set
 		{
 		}
@@ -464,13 +464,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public ScrollRectEvent onValueChanged
 	{
 		[Token(Token = "0x60003B9")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6CEB8F0", Offset = "0x6CEA8F0", VA = "0x6CEB8F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003BA")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x6CEB900", Offset = "0x6CEA900", VA = "0x6CEB900")]
 		set
 		{
 		}
@@ -480,7 +480,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	protected RectTransform viewRect
 	{
 		[Token(Token = "0x60003BB")]
-		[Address(RVA = "0x32E3090", Offset = "0x32E1690", VA = "0x1832E3090")]
+		[Address(RVA = "0x6CEB910", Offset = "0x6CEA910", VA = "0x6CEB910")]
 		get
 		{
 			return null;
@@ -491,13 +491,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public Vector2 velocity
 	{
 		[Token(Token = "0x60003BC")]
-		[Address(RVA = "0x32E2F20", Offset = "0x32E1520", VA = "0x1832E2F20")]
+		[Address(RVA = "0x6CEBA10", Offset = "0x6CEAA10", VA = "0x6CEBA10")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60003BD")]
-		[Address(RVA = "0x32E33E0", Offset = "0x32E19E0", VA = "0x1832E33E0")]
+		[Address(RVA = "0x6CEBA20", Offset = "0x6CEAA20", VA = "0x6CEBA20")]
 		set
 		{
 		}
@@ -507,7 +507,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	private RectTransform rectTransform
 	{
 		[Token(Token = "0x60003BE")]
-		[Address(RVA = "0x32E2E00", Offset = "0x32E1400", VA = "0x1832E2E00")]
+		[Address(RVA = "0x6CEBA30", Offset = "0x6CEAA30", VA = "0x6CEBA30")]
 		get
 		{
 			return null;
@@ -518,13 +518,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public Vector2 normalizedPosition
 	{
 		[Token(Token = "0x60003D2")]
-		[Address(RVA = "0x32E2DC0", Offset = "0x32E13C0", VA = "0x1832E2DC0")]
+		[Address(RVA = "0x6CEE310", Offset = "0x6CED310", VA = "0x6CEE310")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60003D3")]
-		[Address(RVA = "0x32E3390", Offset = "0x32E1990", VA = "0x1832E3390")]
+		[Address(RVA = "0x6CEE730", Offset = "0x6CED730", VA = "0x6CEE730")]
 		set
 		{
 		}
@@ -534,13 +534,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float horizontalNormalizedPosition
 	{
 		[Token(Token = "0x60003D4")]
-		[Address(RVA = "0x32E2C70", Offset = "0x32E1270", VA = "0x1832E2C70")]
+		[Address(RVA = "0x6CEE4C0", Offset = "0x6CED4C0", VA = "0x6CEE4C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003D5")]
-		[Address(RVA = "0x32E31C0", Offset = "0x32E17C0", VA = "0x1832E31C0")]
+		[Address(RVA = "0x6CEE780", Offset = "0x6CED780", VA = "0x6CEE780")]
 		set
 		{
 		}
@@ -550,13 +550,13 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public float verticalNormalizedPosition
 	{
 		[Token(Token = "0x60003D6")]
-		[Address(RVA = "0x32E2F40", Offset = "0x32E1540", VA = "0x1832E2F40")]
+		[Address(RVA = "0x6CEE600", Offset = "0x6CED600", VA = "0x6CEE600")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003D7")]
-		[Address(RVA = "0x32E33F0", Offset = "0x32E19F0", VA = "0x1832E33F0")]
+		[Address(RVA = "0x6CEE7A0", Offset = "0x6CED7A0", VA = "0x6CEE7A0")]
 		set
 		{
 		}
@@ -566,7 +566,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	private bool hScrollingNeeded
 	{
 		[Token(Token = "0x60003DD")]
-		[Address(RVA = "0x32E2BF0", Offset = "0x32E11F0", VA = "0x1832E2BF0")]
+		[Address(RVA = "0x6CEEC60", Offset = "0x6CEDC60", VA = "0x6CEEC60")]
 		get
 		{
 			return default(bool);
@@ -577,7 +577,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	private bool vScrollingNeeded
 	{
 		[Token(Token = "0x60003DE")]
-		[Address(RVA = "0x32E2EA0", Offset = "0x32E14A0", VA = "0x1832E2EA0")]
+		[Address(RVA = "0x6CEECD0", Offset = "0x6CEDCD0", VA = "0x6CEECD0")]
 		get
 		{
 			return default(bool);
@@ -588,7 +588,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float minWidth
 	{
 		[Token(Token = "0x60003E1")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "52")]
+		[Address(RVA = "0x6CEED60", Offset = "0x6CEDD60", VA = "0x6CEED60", Slot = "52")]
 		get
 		{
 			return default(float);
@@ -599,7 +599,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float preferredWidth
 	{
 		[Token(Token = "0x60003E2")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "53")]
+		[Address(RVA = "0x6CEED70", Offset = "0x6CEDD70", VA = "0x6CEED70", Slot = "53")]
 		get
 		{
 			return default(float);
@@ -610,7 +610,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float flexibleWidth
 	{
 		[Token(Token = "0x60003E3")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "54")]
+		[Address(RVA = "0x6CEED80", Offset = "0x6CEDD80", VA = "0x6CEED80", Slot = "54")]
 		get
 		{
 			return default(float);
@@ -621,7 +621,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float minHeight
 	{
 		[Token(Token = "0x60003E4")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "55")]
+		[Address(RVA = "0x6CEED90", Offset = "0x6CEDD90", VA = "0x6CEED90", Slot = "55")]
 		get
 		{
 			return default(float);
@@ -632,7 +632,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float preferredHeight
 	{
 		[Token(Token = "0x60003E5")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "56")]
+		[Address(RVA = "0x6CEEDA0", Offset = "0x6CEDDA0", VA = "0x6CEEDA0", Slot = "56")]
 		get
 		{
 			return default(float);
@@ -643,7 +643,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual float flexibleHeight
 	{
 		[Token(Token = "0x60003E6")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "57")]
+		[Address(RVA = "0x6CEEDB0", Offset = "0x6CEDDB0", VA = "0x6CEEDB0", Slot = "57")]
 		get
 		{
 			return default(float);
@@ -654,7 +654,7 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	public virtual int layoutPriority
 	{
 		[Token(Token = "0x60003E7")]
-		[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0", Slot = "58")]
+		[Address(RVA = "0x6CEEDC0", Offset = "0x6CEDDC0", VA = "0x6CEEDC0", Slot = "58")]
 		get
 		{
 			return default(int);
@@ -662,247 +662,247 @@ public class ScrollRect : UIBehaviour, IInitializePotentialDragHandler, IEventSy
 	}
 
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x32E2A50", Offset = "0x32E1050", VA = "0x1832E2A50")]
+	[Address(RVA = "0x6CEBAD0", Offset = "0x6CEAAD0", VA = "0x6CEBAD0")]
 	protected ScrollRect()
 	{
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x32E06F0", Offset = "0x32DECF0", VA = "0x1832E06F0", Slot = "38")]
+	[Address(RVA = "0x6CEBC50", Offset = "0x6CEAC50", VA = "0x6CEBC50", Slot = "38")]
 	public virtual void Rebuild(CanvasUpdate executing)
 	{
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "39")]
+	[Address(RVA = "0x6CEC960", Offset = "0x6CEB960", VA = "0x6CEC960", Slot = "39")]
 	public virtual void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "40")]
+	[Address(RVA = "0x6CEC970", Offset = "0x6CEB970", VA = "0x6CEC970", Slot = "40")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x32E1E90", Offset = "0x32E0490", VA = "0x1832E1E90")]
+	[Address(RVA = "0x6CEBCC0", Offset = "0x6CEACC0", VA = "0x6CEBCC0")]
 	private void UpdateCachedData()
 	{
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x32E0290", Offset = "0x32DE890", VA = "0x1832E0290", Slot = "5")]
+	[Address(RVA = "0x6CEC980", Offset = "0x6CEB980", VA = "0x6CEC980", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x32DFDA0", Offset = "0x32DE3A0", VA = "0x1832DFDA0", Slot = "7")]
+	[Address(RVA = "0x6CECBA0", Offset = "0x6CEBBA0", VA = "0x6CECBA0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x32DF1C0", Offset = "0x32DD7C0", VA = "0x1832DF1C0", Slot = "9")]
+	[Address(RVA = "0x6CECDE0", Offset = "0x6CEBDE0", VA = "0x6CECDE0", Slot = "9")]
 	public override bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x32DEC70", Offset = "0x32DD270", VA = "0x1832DEC70")]
+	[Address(RVA = "0x6CECE40", Offset = "0x6CEBE40", VA = "0x6CECE40")]
 	private void EnsureLayoutHasRebuilt()
 	{
 	}
 
 	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x32E1850", Offset = "0x32DFE50", VA = "0x1832E1850", Slot = "41")]
+	[Address(RVA = "0x6CECEB0", Offset = "0x6CEBEB0", VA = "0x6CECEB0", Slot = "41")]
 	public virtual void StopMovement()
 	{
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x32E04F0", Offset = "0x32DEAF0", VA = "0x1832E04F0", Slot = "42")]
+	[Address(RVA = "0x6CECEF0", Offset = "0x6CEBEF0", VA = "0x6CECEF0", Slot = "42")]
 	public virtual void OnScroll(PointerEventData data)
 	{
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x32E0470", Offset = "0x32DEA70", VA = "0x1832E0470", Slot = "43")]
+	[Address(RVA = "0x6CED340", Offset = "0x6CEC340", VA = "0x6CED340", Slot = "43")]
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x32DFC40", Offset = "0x32DE240", VA = "0x1832DFC40", Slot = "44")]
+	[Address(RVA = "0x6CED3A0", Offset = "0x6CEC3A0", VA = "0x6CED3A0", Slot = "44")]
 	public virtual void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x32E0440", Offset = "0x32DEA40", VA = "0x1832E0440", Slot = "45")]
+	[Address(RVA = "0x6CED4C0", Offset = "0x6CEC4C0", VA = "0x6CED4C0", Slot = "45")]
 	public virtual void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x32DFFE0", Offset = "0x32DE5E0", VA = "0x1832DFFE0", Slot = "46")]
+	[Address(RVA = "0x6CED4E0", Offset = "0x6CEC4E0", VA = "0x6CED4E0", Slot = "46")]
 	public virtual void OnDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x32E07D0", Offset = "0x32DEDD0", VA = "0x1832E07D0", Slot = "47")]
+	[Address(RVA = "0x6CED8B0", Offset = "0x6CEC8B0", VA = "0x6CED8B0", Slot = "47")]
 	protected virtual void SetContentAnchoredPosition(Vector2 position)
 	{
 	}
 
 	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x32DF230", Offset = "0x32DD830", VA = "0x1832DF230", Slot = "48")]
+	[Address(RVA = "0x6CED990", Offset = "0x6CEC990", VA = "0x6CED990", Slot = "48")]
 	protected virtual void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x32E2360", Offset = "0x32E0960", VA = "0x1832E2360")]
+	[Address(RVA = "0x6CEC880", Offset = "0x6CEB880", VA = "0x6CEC880")]
 	protected void UpdatePrevData()
 	{
 	}
 
 	[Token(Token = "0x60003D1")]
-	[Address(RVA = "0x32E2860", Offset = "0x32E0E60", VA = "0x1832E2860")]
+	[Address(RVA = "0x6CEC5B0", Offset = "0x6CEB5B0", VA = "0x6CEC5B0")]
 	private void UpdateScrollbars(Vector2 offset)
 	{
 	}
 
 	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x32E0A30", Offset = "0x32DF030", VA = "0x1832E0A30")]
+	[Address(RVA = "0x6CEE7C0", Offset = "0x6CED7C0", VA = "0x6CEE7C0")]
 	private void SetHorizontalNormalizedPosition(float value)
 	{
 	}
 
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x32E1800", Offset = "0x32DFE00", VA = "0x1832E1800")]
+	[Address(RVA = "0x6CEE810", Offset = "0x6CED810", VA = "0x6CEE810")]
 	private void SetVerticalNormalizedPosition(float value)
 	{
 	}
 
 	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x32E1300", Offset = "0x32DF900", VA = "0x1832E1300", Slot = "49")]
+	[Address(RVA = "0x6CEE860", Offset = "0x6CED860", VA = "0x6CEE860", Slot = "49")]
 	protected virtual void SetNormalizedPosition(float value, int axis)
 	{
 	}
 
 	[Token(Token = "0x60003DB")]
-	[Address(RVA = "0x32E0770", Offset = "0x32DED70", VA = "0x1832E0770")]
+	[Address(RVA = "0x6CED860", Offset = "0x6CEC860", VA = "0x6CED860")]
 	private static float RubberDelta(float overStretching, float viewSize)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60003DC")]
-	[Address(RVA = "0x32E04E0", Offset = "0x32DEAE0", VA = "0x1832E04E0", Slot = "10")]
+	[Address(RVA = "0x6CEEBE0", Offset = "0x6CEDBE0", VA = "0x6CEEBE0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x60003DF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "50")]
+	[Address(RVA = "0x6CEED40", Offset = "0x6CEDD40", VA = "0x6CEED40", Slot = "50")]
 	public virtual void CalculateLayoutInputHorizontal()
 	{
 	}
 
 	[Token(Token = "0x60003E0")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "51")]
+	[Address(RVA = "0x6CEED50", Offset = "0x6CEDD50", VA = "0x6CEED50", Slot = "51")]
 	public virtual void CalculateLayoutInputVertical()
 	{
 	}
 
 	[Token(Token = "0x60003E8")]
-	[Address(RVA = "0x32E0A80", Offset = "0x32DF080", VA = "0x1832E0A80", Slot = "59")]
+	[Address(RVA = "0x6CEEDD0", Offset = "0x6CEDDD0", VA = "0x6CEEDD0", Slot = "59")]
 	public virtual void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x60003E9")]
-	[Address(RVA = "0x32E11B0", Offset = "0x32DF7B0", VA = "0x1832E11B0", Slot = "60")]
+	[Address(RVA = "0x6CEF660", Offset = "0x6CEE660", VA = "0x6CEF660", Slot = "60")]
 	public virtual void SetLayoutVertical()
 	{
 	}
 
 	[Token(Token = "0x60003EA")]
-	[Address(RVA = "0x32E2800", Offset = "0x32E0E00", VA = "0x1832E2800")]
+	[Address(RVA = "0x6CEE340", Offset = "0x6CED340", VA = "0x6CEE340")]
 	private void UpdateScrollbarVisibility()
 	{
 	}
 
 	[Token(Token = "0x60003EB")]
-	[Address(RVA = "0x32E2280", Offset = "0x32E0880", VA = "0x1832E2280")]
+	[Address(RVA = "0x6CEFB40", Offset = "0x6CEEB40", VA = "0x6CEFB40")]
 	private static void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnabled, ScrollbarVisibility scrollbarVisibility, Scrollbar scrollbar)
 	{
 	}
 
 	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x32E2470", Offset = "0x32E0A70", VA = "0x1832E2470")]
+	[Address(RVA = "0x6CEF750", Offset = "0x6CEE750", VA = "0x6CEF750")]
 	private void UpdateScrollbarLayout()
 	{
 	}
 
 	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x32E18B0", Offset = "0x32DFEB0", VA = "0x1832E18B0")]
+	[Address(RVA = "0x6CEC0A0", Offset = "0x6CEB0A0", VA = "0x6CEC0A0")]
 	protected void UpdateBounds()
 	{
 	}
 
 	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x32DEA50", Offset = "0x32DD050", VA = "0x1832DEA50")]
+	[Address(RVA = "0x6CEFC40", Offset = "0x6CEEC40", VA = "0x6CEFC40")]
 	internal static void AdjustBounds(ref Bounds viewBounds, ref Vector2 contentPivot, ref Vector3 contentSize, ref Vector3 contentPos)
 	{
 	}
 
 	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x32DECD0", Offset = "0x32DD2D0", VA = "0x1832DECD0")]
+	[Address(RVA = "0x6CEF550", Offset = "0x6CEE550", VA = "0x6CEF550")]
 	private Bounds GetBounds()
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x32DEF20", Offset = "0x32DD520", VA = "0x1832DEF20")]
+	[Address(RVA = "0x6CEFCD0", Offset = "0x6CEECD0", VA = "0x6CEFCD0")]
 	internal static Bounds InternalGetBounds(Vector3[] corners, ref Matrix4x4 viewWorldToLocalMatrix)
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x32DEAE0", Offset = "0x32DD0E0", VA = "0x1832DEAE0")]
+	[Address(RVA = "0x6CED1F0", Offset = "0x6CEC1F0", VA = "0x6CED1F0")]
 	private Vector2 CalculateOffset(Vector2 delta)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60003F2")]
-	[Address(RVA = "0x32DEDF0", Offset = "0x32DD3F0", VA = "0x1832DEDF0")]
+	[Address(RVA = "0x6CF0090", Offset = "0x6CEF090", VA = "0x6CF0090")]
 	internal static Vector2 InternalCalculateOffset(ref Bounds viewBounds, ref Bounds contentBounds, bool horizontal, bool vertical, MovementType movementType, ref Vector2 delta)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60003F3")]
-	[Address(RVA = "0x32E09B0", Offset = "0x32DEFB0", VA = "0x1832E09B0")]
+	[Address(RVA = "0x6CEB7E0", Offset = "0x6CEA7E0", VA = "0x6CEB7E0")]
 	protected void SetDirty()
 	{
 	}
 
 	[Token(Token = "0x60003F4")]
-	[Address(RVA = "0x32E08F0", Offset = "0x32DEEF0", VA = "0x1832E08F0")]
+	[Address(RVA = "0x6CEB310", Offset = "0x6CEA310", VA = "0x6CEB310")]
 	protected void SetDirtyCaching()
 	{
 	}
 
 	[Token(Token = "0x60003F5")]
-	[Address(RVA = "0x2D057F0", Offset = "0x2D03DF0", VA = "0x182D057F0", Slot = "23")]
+	[Address(RVA = "0x6CF01E0", Offset = "0x6CEF1E0", VA = "0x6CF01E0", Slot = "23")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

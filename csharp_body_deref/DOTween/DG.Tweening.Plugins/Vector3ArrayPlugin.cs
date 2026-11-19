@@ -18,57 +18,57 @@ namespace DG.Tweening.Plugins;
 public class Vector3ArrayPlugin : ABSTweenPlugin<Vector3, Vector3[], Vector3ArrayOptions>
 {
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x570C00", Offset = "0x56F200", VA = "0x180570C00", Slot = "4")]
+	[Address(RVA = "0x3183280", Offset = "0x3182280", VA = "0x3183280", Slot = "4")]
 	public override void Reset(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x31832E0", Offset = "0x31822E0", VA = "0x31832E0", Slot = "5")]
 	public override void SetFrom(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x31832F0", Offset = "0x31822F0", VA = "0x31832F0", Slot = "6")]
 	public override void SetFrom(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t, Vector3[] fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x574E60", Offset = "0x573460", VA = "0x180574E60", Slot = "7")]
+	[Address(RVA = "0x3183300", Offset = "0x3182300", VA = "0x3183300", Slot = "7")]
 	public override Vector3[] ConvertToStartValue(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t, Vector3 value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x5758B0", Offset = "0x573EB0", VA = "0x1805758B0", Slot = "8")]
+	[Address(RVA = "0x3183400", Offset = "0x3182400", VA = "0x3183400", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x5757B0", Offset = "0x573DB0", VA = "0x1805757B0", Slot = "9")]
+	[Address(RVA = "0x3183530", Offset = "0x3182530", VA = "0x3183530", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x575640", Offset = "0x573C40", VA = "0x180575640", Slot = "10")]
+	[Address(RVA = "0x3183630", Offset = "0x3182630", VA = "0x3183630", Slot = "10")]
 	public override float GetSpeedBasedDuration(Vector3ArrayOptions options, float unitsXSecond, Vector3[] changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x574F50", Offset = "0x573550", VA = "0x180574F50", Slot = "11")]
+	[Address(RVA = "0x3183800", Offset = "0x3182800", VA = "0x3183800", Slot = "11")]
 	public override void EvaluateAndApply(Vector3ArrayOptions options, Tween t, bool isRelative, DOGetter<Vector3> getter, DOSetter<Vector3> setter, float elapsed, Vector3[] startValue, Vector3[] changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x5759C0", Offset = "0x573FC0", VA = "0x1805759C0")]
+	[Address(RVA = "0x3184260", Offset = "0x3183260", VA = "0x3184260")]
 	public Vector3ArrayPlugin()
 	{
 	}

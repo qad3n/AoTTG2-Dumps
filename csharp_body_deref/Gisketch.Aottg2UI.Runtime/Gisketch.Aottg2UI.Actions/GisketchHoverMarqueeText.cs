@@ -12,147 +12,147 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000DA")]
+[Token(Token = "0x20000E0")]
 internal sealed class GisketchHoverMarqueeText : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-	[Token(Token = "0x4000475")]
+	[Token(Token = "0x400049C")]
 	private const float PixelsPerSecond = 42f;
 
-	[Token(Token = "0x4000476")]
+	[Token(Token = "0x400049D")]
 	private const float Gap = 24f;
 
-	[Token(Token = "0x4000477")]
+	[Token(Token = "0x400049E")]
 	private const float PauseSeconds = 0.45f;
 
-	[Token(Token = "0x4000478")]
+	[Token(Token = "0x400049F")]
 	[FieldOffset(Offset = "0x20")]
 	private TextMeshProUGUI _label;
 
-	[Token(Token = "0x4000479")]
+	[Token(Token = "0x40004A0")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform _viewport;
 
-	[Token(Token = "0x400047A")]
+	[Token(Token = "0x40004A1")]
 	[FieldOffset(Offset = "0x30")]
 	private RectTransform _textRect;
 
-	[Token(Token = "0x400047B")]
+	[Token(Token = "0x40004A2")]
 	[FieldOffset(Offset = "0x38")]
 	private TextAlignmentOptions _normalAlignment;
 
-	[Token(Token = "0x400047C")]
+	[Token(Token = "0x40004A3")]
 	[FieldOffset(Offset = "0x3C")]
 	private Vector2 _normalAnchorMin;
 
-	[Token(Token = "0x400047D")]
+	[Token(Token = "0x40004A4")]
 	[FieldOffset(Offset = "0x44")]
 	private Vector2 _normalAnchorMax;
 
-	[Token(Token = "0x400047E")]
+	[Token(Token = "0x40004A5")]
 	[FieldOffset(Offset = "0x4C")]
 	private Vector2 _normalPivot;
 
-	[Token(Token = "0x400047F")]
+	[Token(Token = "0x40004A6")]
 	[FieldOffset(Offset = "0x54")]
 	private Vector2 _normalSizeDelta;
 
-	[Token(Token = "0x4000480")]
+	[Token(Token = "0x40004A7")]
 	[FieldOffset(Offset = "0x5C")]
 	private Vector2 _normalAnchoredPosition;
 
-	[Token(Token = "0x4000481")]
+	[Token(Token = "0x40004A8")]
 	[FieldOffset(Offset = "0x64")]
 	private bool _selfActivate;
 
-	[Token(Token = "0x4000482")]
+	[Token(Token = "0x40004A9")]
 	[FieldOffset(Offset = "0x65")]
 	private bool _hovered;
 
-	[Token(Token = "0x4000483")]
+	[Token(Token = "0x40004AA")]
 	[FieldOffset(Offset = "0x66")]
 	private bool _selected;
 
-	[Token(Token = "0x4000484")]
+	[Token(Token = "0x40004AB")]
 	[FieldOffset(Offset = "0x67")]
 	private bool _marqueeActive;
 
-	[Token(Token = "0x4000485")]
+	[Token(Token = "0x40004AC")]
 	[FieldOffset(Offset = "0x68")]
 	private float _elapsed;
 
-	[Token(Token = "0x4000486")]
+	[Token(Token = "0x40004AD")]
 	[FieldOffset(Offset = "0x6C")]
 	private float _travel;
 
-	[Token(Token = "0x60006A9")]
-	[Address(RVA = "0x1902C00", Offset = "0x1901200", VA = "0x181902C00")]
+	[Token(Token = "0x60006F7")]
+	[Address(RVA = "0x52A00B0", Offset = "0x529F0B0", VA = "0x52A00B0")]
 	public static GisketchHoverMarqueeText Setup(GameObject viewport, TextMeshProUGUI label, bool selfActivate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x1902BF0", Offset = "0x19011F0", VA = "0x181902BF0")]
+	[Token(Token = "0x60006F8")]
+	[Address(RVA = "0x52A05C0", Offset = "0x529F5C0", VA = "0x52A05C0")]
 	public void SetActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x60006AB")]
-	[Address(RVA = "0x1902740", Offset = "0x1900D40", VA = "0x181902740", Slot = "4")]
+	[Token(Token = "0x60006F9")]
+	[Address(RVA = "0x52A0AC0", Offset = "0x529FAC0", VA = "0x52A0AC0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006AC")]
-	[Address(RVA = "0x1902760", Offset = "0x1900D60", VA = "0x181902760", Slot = "5")]
+	[Token(Token = "0x60006FA")]
+	[Address(RVA = "0x52A0AE0", Offset = "0x529FAE0", VA = "0x52A0AE0", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006AD")]
-	[Address(RVA = "0x1902780", Offset = "0x1900D80", VA = "0x181902780", Slot = "6")]
+	[Token(Token = "0x60006FB")]
+	[Address(RVA = "0x52A0B00", Offset = "0x529FB00", VA = "0x52A0B00", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006AE")]
-	[Address(RVA = "0x1902700", Offset = "0x1900D00", VA = "0x181902700", Slot = "7")]
+	[Token(Token = "0x60006FC")]
+	[Address(RVA = "0x52A0B20", Offset = "0x529FB20", VA = "0x52A0B20", Slot = "7")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006AF")]
-	[Address(RVA = "0x19024A0", Offset = "0x1900AA0", VA = "0x1819024A0")]
+	[Token(Token = "0x60006FD")]
+	[Address(RVA = "0x52A0600", Offset = "0x529F600", VA = "0x52A0600")]
 	private void Configure(TextMeshProUGUI label, bool selfActivate)
 	{
 	}
 
-	[Token(Token = "0x60006B0")]
-	[Address(RVA = "0x1902720", Offset = "0x1900D20", VA = "0x181902720")]
+	[Token(Token = "0x60006FE")]
+	[Address(RVA = "0x52A0B40", Offset = "0x529FB40", VA = "0x52A0B40")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x60006B1")]
-	[Address(RVA = "0x1902D40", Offset = "0x1901340", VA = "0x181902D40")]
+	[Token(Token = "0x60006FF")]
+	[Address(RVA = "0x52A0C90", Offset = "0x529FC90", VA = "0x52A0C90")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60006B2")]
-	[Address(RVA = "0x19027A0", Offset = "0x1900DA0", VA = "0x1819027A0")]
+	[Token(Token = "0x6000700")]
+	[Address(RVA = "0x52A0800", Offset = "0x529F800", VA = "0x52A0800")]
 	private void Refresh(bool active)
 	{
 	}
 
-	[Token(Token = "0x60006B3")]
-	[Address(RVA = "0x1902A60", Offset = "0x1901060", VA = "0x181902A60")]
+	[Token(Token = "0x6000701")]
+	[Address(RVA = "0x52A0B60", Offset = "0x529FB60", VA = "0x52A0B60")]
 	private void Restore()
 	{
 	}
 
-	[Token(Token = "0x60006B4")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000702")]
+	[Address(RVA = "0x52A0E00", Offset = "0x529FE00", VA = "0x52A0E00")]
 	public GisketchHoverMarqueeText()
 	{
 	}

@@ -11,116 +11,116 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001D9")]
+[Token(Token = "0x200019A")]
 internal sealed class ReflectEventDescriptor : EventDescriptor
 {
-	[Token(Token = "0x400073D")]
+	[Token(Token = "0x400066E")]
 	[FieldOffset(Offset = "0x60")]
 	private Type _type;
 
-	[Token(Token = "0x400073E")]
+	[Token(Token = "0x400066F")]
 	[FieldOffset(Offset = "0x68")]
 	private readonly Type _componentClass;
 
-	[Token(Token = "0x400073F")]
+	[Token(Token = "0x4000670")]
 	[FieldOffset(Offset = "0x70")]
 	private MethodInfo _addMethod;
 
-	[Token(Token = "0x4000740")]
+	[Token(Token = "0x4000671")]
 	[FieldOffset(Offset = "0x78")]
 	private MethodInfo _removeMethod;
 
-	[Token(Token = "0x4000741")]
+	[Token(Token = "0x4000672")]
 	[FieldOffset(Offset = "0x80")]
 	private EventInfo _realEvent;
 
-	[Token(Token = "0x4000742")]
+	[Token(Token = "0x4000673")]
 	[FieldOffset(Offset = "0x88")]
 	private bool _filledMethods;
 
-	[Token(Token = "0x1700028E")]
+	[Token(Token = "0x1700025F")]
 	public override Type ComponentType
 	{
-		[Token(Token = "0x6000C97")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0", Slot = "17")]
+		[Token(Token = "0x6000AD7")]
+		[Address(RVA = "0x6246D00", Offset = "0x6245D00", VA = "0x6246D00", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028F")]
+	[Token(Token = "0x17000260")]
 	public override Type EventType
 	{
-		[Token(Token = "0x6000C98")]
-		[Address(RVA = "0x28BB010", Offset = "0x28B9610", VA = "0x1828BB010", Slot = "18")]
+		[Token(Token = "0x6000AD8")]
+		[Address(RVA = "0x6246D10", Offset = "0x6245D10", VA = "0x6246D10", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000290")]
+	[Token(Token = "0x17000261")]
 	public override bool IsMulticast
 	{
-		[Token(Token = "0x6000C99")]
-		[Address(RVA = "0x28BB030", Offset = "0x28B9630", VA = "0x1828BB030", Slot = "19")]
+		[Token(Token = "0x6000AD9")]
+		[Address(RVA = "0x6247330", Offset = "0x6246330", VA = "0x6247330", Slot = "19")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000C94")]
-	[Address(RVA = "0x28BAD50", Offset = "0x28B9350", VA = "0x1828BAD50")]
+	[Token(Token = "0x6000AD4")]
+	[Address(RVA = "0x62468C0", Offset = "0x62458C0", VA = "0x62468C0")]
 	public ReflectEventDescriptor(Type componentClass, string name, Type type, Attribute[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6000C95")]
-	[Address(RVA = "0x28BAC00", Offset = "0x28B9200", VA = "0x1828BAC00")]
+	[Token(Token = "0x6000AD5")]
+	[Address(RVA = "0x6246A60", Offset = "0x6245A60", VA = "0x6246A60")]
 	public ReflectEventDescriptor(Type componentClass, EventInfo eventInfo)
 	{
 	}
 
-	[Token(Token = "0x6000C96")]
-	[Address(RVA = "0x28BAF40", Offset = "0x28B9540", VA = "0x1828BAF40")]
+	[Token(Token = "0x6000AD6")]
+	[Address(RVA = "0x6246C30", Offset = "0x6245C30", VA = "0x6246C30")]
 	public ReflectEventDescriptor(Type componentType, EventDescriptor oldReflectEventDescriptor, Attribute[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6000C9A")]
-	[Address(RVA = "0x28B9800", Offset = "0x28B7E00", VA = "0x1828B9800", Slot = "20")]
+	[Token(Token = "0x6000ADA")]
+	[Address(RVA = "0x62473D0", Offset = "0x62463D0", VA = "0x62473D0", Slot = "20")]
 	public override void AddEventHandler(object component, Delegate value)
 	{
 	}
 
-	[Token(Token = "0x6000C9B")]
-	[Address(RVA = "0x28B9C50", Offset = "0x28B8250", VA = "0x1828B9C50", Slot = "15")]
+	[Token(Token = "0x6000ADB")]
+	[Address(RVA = "0x6247CB0", Offset = "0x6246CB0", VA = "0x6247CB0", Slot = "15")]
 	protected override void FillAttributes(IList attributes)
 	{
 	}
 
-	[Token(Token = "0x6000C9C")]
-	[Address(RVA = "0x28B9DB0", Offset = "0x28B83B0", VA = "0x1828B9DB0")]
+	[Token(Token = "0x6000ADC")]
+	[Address(RVA = "0x6247D10", Offset = "0x6246D10", VA = "0x6247D10")]
 	private void FillEventInfoAttribute(EventInfo realEventInfo, IList attributes)
 	{
 	}
 
-	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x28BA070", Offset = "0x28B8670", VA = "0x1828BA070")]
+	[Token(Token = "0x6000ADD")]
+	[Address(RVA = "0x6246D20", Offset = "0x6245D20", VA = "0x6246D20")]
 	private void FillMethods()
 	{
 	}
 
-	[Token(Token = "0x6000C9E")]
-	[Address(RVA = "0x28BA560", Offset = "0x28B8B60", VA = "0x1828BA560")]
+	[Token(Token = "0x6000ADE")]
+	[Address(RVA = "0x62480C0", Offset = "0x62470C0", VA = "0x62480C0")]
 	private void FillSingleMethodAttribute(MethodInfo realMethodInfo, IList attributes)
 	{
 	}
 
-	[Token(Token = "0x6000C9F")]
-	[Address(RVA = "0x28BA870", Offset = "0x28B8E70", VA = "0x1828BA870", Slot = "21")]
+	[Token(Token = "0x6000ADF")]
+	[Address(RVA = "0x62489C0", Offset = "0x62479C0", VA = "0x62489C0", Slot = "21")]
 	public override void RemoveEventHandler(object component, Delegate value)
 	{
 	}

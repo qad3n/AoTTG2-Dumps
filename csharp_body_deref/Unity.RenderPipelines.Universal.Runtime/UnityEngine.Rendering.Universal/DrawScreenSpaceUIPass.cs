@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DrawScreenSpaceUIPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ internal class DrawScreenSpaceUIPass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x600070A")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6650850", Offset = "0x664F850", VA = "0x6650850")]
 		public PassData()
 		{
 		}
@@ -40,7 +40,7 @@ internal class DrawScreenSpaceUIPass : ScriptableRenderPass
 		internal TextureHandle colorTarget;
 
 		[Token(Token = "0x600070B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6650860", Offset = "0x664F860", VA = "0x6650860")]
 		public UnsafePassData()
 		{
 		}
@@ -59,61 +59,61 @@ internal class DrawScreenSpaceUIPass : ScriptableRenderPass
 	private bool m_RenderOffscreen;
 
 	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x2C57EA0", Offset = "0x2C564A0", VA = "0x182C57EA0")]
+	[Address(RVA = "0x664EDE0", Offset = "0x664DDE0", VA = "0x664EDE0")]
 	public DrawScreenSpaceUIPass(RenderPassEvent evt, bool renderOffscreen)
 	{
 	}
 
 	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x2C56B70", Offset = "0x2C55170", VA = "0x182C56B70")]
+	[Address(RVA = "0x664EE40", Offset = "0x664DE40", VA = "0x664EE40")]
 	private static void ConfigureColorDescriptor(ref RenderTextureDescriptor descriptor, int cameraWidth, int cameraHeight)
 	{
 	}
 
 	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x2C56BE0", Offset = "0x2C551E0", VA = "0x182C56BE0")]
+	[Address(RVA = "0x664EE70", Offset = "0x664DE70", VA = "0x664EE70")]
 	internal static void ConfigureOffscreenUITextureDesc(ref TextureDesc textureDesc)
 	{
 	}
 
 	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x2C56BB0", Offset = "0x2C551B0", VA = "0x182C56BB0")]
+	[Address(RVA = "0x664EEA0", Offset = "0x664DEA0", VA = "0x664EEA0")]
 	private static void ConfigureDepthDescriptor(ref RenderTextureDescriptor descriptor, GraphicsFormat depthStencilFormat, int targetWidth, int targetHeight)
 	{
 	}
 
 	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x2C24360", Offset = "0x2C22960", VA = "0x182C24360")]
+	[Address(RVA = "0x664EEE0", Offset = "0x664DEE0", VA = "0x664EEE0")]
 	private static void ExecutePass(RasterCommandBuffer commandBuffer, PassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000705")]
-	[Address(RVA = "0x2C24360", Offset = "0x2C22960", VA = "0x182C24360")]
+	[Address(RVA = "0x664EF00", Offset = "0x664DF00", VA = "0x664EF00")]
 	private static void ExecutePass(UnsafeCommandBuffer commandBuffer, UnsafePassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x2C56C20", Offset = "0x2C55220", VA = "0x182C56C20")]
+	[Address(RVA = "0x664EF20", Offset = "0x664DF20", VA = "0x664EF20")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000707")]
-	[Address(RVA = "0x2C57CA0", Offset = "0x2C562A0", VA = "0x182C57CA0")]
+	[Address(RVA = "0x664EF50", Offset = "0x664DF50", VA = "0x664EF50")]
 	public void Setup(UniversalCameraData cameraData, GraphicsFormat depthStencilFormat)
 	{
 	}
 
 	[Token(Token = "0x6000708")]
-	[Address(RVA = "0x2C56C60", Offset = "0x2C55260", VA = "0x182C56C60")]
+	[Address(RVA = "0x664F0E0", Offset = "0x664E0E0", VA = "0x664F0E0")]
 	internal void RenderOffscreen(RenderGraph renderGraph, ContextContainer frameData, GraphicsFormat depthStencilFormat, TextureHandle overlayUITexture)
 	{
 	}
 
 	[Token(Token = "0x6000709")]
-	[Address(RVA = "0x2C57560", Offset = "0x2C55B60", VA = "0x182C57560")]
+	[Address(RVA = "0x664FE20", Offset = "0x664EE20", VA = "0x664FE20")]
 	internal void RenderOverlay(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle colorBuffer, in TextureHandle depthBuffer)
 	{
 	}

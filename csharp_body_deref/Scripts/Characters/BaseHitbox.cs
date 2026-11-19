@@ -17,30 +17,30 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000632")]
+[Token(Token = "0x2000691")]
 internal class BaseHitbox : MonoBehaviour
 {
-	[Token(Token = "0x2000633")]
+	[Token(Token = "0x2000692")]
 	[CompilerGenerated]
 	private sealed class _003CSweepMap_003Ed__20 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001C03")]
+		[Token(Token = "0x4001DAA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001C04")]
+		[Token(Token = "0x4001DAB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001C05")]
+		[Token(Token = "0x4001DAC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public BaseHitbox _003C_003E4__this;
 
-		[Token(Token = "0x17000ACC")]
+		[Token(Token = "0x17000B14")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003D67")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6003FF9")]
+			[Address(RVA = "0x5ABB9E0", Offset = "0x5ABA9E0", VA = "0x5ABB9E0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -48,11 +48,11 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000ACD")]
+		[Token(Token = "0x17000B15")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003D69")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6003FFB")]
+			[Address(RVA = "0x5ABBA30", Offset = "0x5ABAA30", VA = "0x5ABBA30", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -60,60 +60,60 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003D64")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6003FF6")]
+		[Address(RVA = "0x5ABB140", Offset = "0x5ABA140", VA = "0x5ABB140")]
 		[DebuggerHidden]
 		public _003CSweepMap_003Ed__20(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003D65")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6003FF7")]
+		[Address(RVA = "0x5ABB920", Offset = "0x5ABA920", VA = "0x5ABB920", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003D66")]
-		[Address(RVA = "0x211ED60", Offset = "0x211D360", VA = "0x18211ED60", Slot = "6")]
+		[Token(Token = "0x6003FF8")]
+		[Address(RVA = "0x5ABB930", Offset = "0x5ABA930", VA = "0x5ABB930", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003D68")]
-		[Address(RVA = "0x211EE20", Offset = "0x211D420", VA = "0x18211EE20", Slot = "8")]
+		[Token(Token = "0x6003FFA")]
+		[Address(RVA = "0x5ABB9F0", Offset = "0x5ABA9F0", VA = "0x5ABB9F0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000634")]
+	[Token(Token = "0x2000693")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndActivate_003Ed__18 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001C06")]
+		[Token(Token = "0x4001DAD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001C07")]
+		[Token(Token = "0x4001DAE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001C08")]
+		[Token(Token = "0x4001DAF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public float delay;
 
-		[Token(Token = "0x4001C09")]
+		[Token(Token = "0x4001DB0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public BaseHitbox _003C_003E4__this;
 
-		[Token(Token = "0x17000ACE")]
+		[Token(Token = "0x17000B16")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003D6D")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6003FFF")]
+			[Address(RVA = "0x5ABBB00", Offset = "0x5ABAB00", VA = "0x5ABBB00", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -121,11 +121,11 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000ACF")]
+		[Token(Token = "0x17000B17")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003D6F")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004001")]
+			[Address(RVA = "0x5ABBB50", Offset = "0x5ABAB50", VA = "0x5ABBB50", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -133,60 +133,60 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003D6A")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6003FFC")]
+		[Address(RVA = "0x5ABB0B0", Offset = "0x5ABA0B0", VA = "0x5ABB0B0")]
 		[DebuggerHidden]
 		public _003CWaitAndActivate_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003D6B")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6003FFD")]
+		[Address(RVA = "0x5ABBA40", Offset = "0x5ABAA40", VA = "0x5ABBA40", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003D6C")]
-		[Address(RVA = "0x211F060", Offset = "0x211D660", VA = "0x18211F060", Slot = "6")]
+		[Token(Token = "0x6003FFE")]
+		[Address(RVA = "0x5ABBA50", Offset = "0x5ABAA50", VA = "0x5ABBA50", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003D6E")]
-		[Address(RVA = "0x211F120", Offset = "0x211D720", VA = "0x18211F120", Slot = "8")]
+		[Token(Token = "0x6004000")]
+		[Address(RVA = "0x5ABBB10", Offset = "0x5ABAB10", VA = "0x5ABBB10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000635")]
+	[Token(Token = "0x2000694")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndDeactivate_003Ed__21 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001C0A")]
+		[Token(Token = "0x4001DB1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001C0B")]
+		[Token(Token = "0x4001DB2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001C0C")]
+		[Token(Token = "0x4001DB3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public float delay;
 
-		[Token(Token = "0x4001C0D")]
+		[Token(Token = "0x4001DB4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public BaseHitbox _003C_003E4__this;
 
-		[Token(Token = "0x17000AD0")]
+		[Token(Token = "0x17000B18")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003D73")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004005")]
+			[Address(RVA = "0x5ABBC90", Offset = "0x5ABAC90", VA = "0x5ABBC90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -194,11 +194,11 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000AD1")]
+		[Token(Token = "0x17000B19")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003D75")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004007")]
+			[Address(RVA = "0x5ABBCE0", Offset = "0x5ABACE0", VA = "0x5ABBCE0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -206,201 +206,201 @@ internal class BaseHitbox : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003D70")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004002")]
+		[Address(RVA = "0x5ABB160", Offset = "0x5ABA160", VA = "0x5ABB160")]
 		[DebuggerHidden]
 		public _003CWaitAndDeactivate_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003D71")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004003")]
+		[Address(RVA = "0x5ABBB60", Offset = "0x5ABAB60", VA = "0x5ABBB60", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003D72")]
-		[Address(RVA = "0x211F160", Offset = "0x211D760", VA = "0x18211F160", Slot = "6")]
+		[Token(Token = "0x6004004")]
+		[Address(RVA = "0x5ABBB70", Offset = "0x5ABAB70", VA = "0x5ABBB70", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003D74")]
-		[Address(RVA = "0x211F230", Offset = "0x211D830", VA = "0x18211F230", Slot = "8")]
+		[Token(Token = "0x6004006")]
+		[Address(RVA = "0x5ABBCA0", Offset = "0x5ABACA0", VA = "0x5ABBCA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001BFA")]
+	[Token(Token = "0x4001DA1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public BaseCharacter Owner;
 
-	[Token(Token = "0x4001BFB")]
+	[Token(Token = "0x4001DA2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public bool TwoFixedUpdates;
 
-	[Token(Token = "0x4001BFC")]
+	[Token(Token = "0x4001DA3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	protected HashSet<GameObject> _hitGameObjects;
 
-	[Token(Token = "0x4001BFD")]
+	[Token(Token = "0x4001DA4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	protected HashSet<Collider> _firstFrameColliders;
 
-	[Token(Token = "0x4001BFE")]
+	[Token(Token = "0x4001DA5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	protected HashSet<BaseCharacter> _firstHitCharacters;
 
-	[Token(Token = "0x4001BFF")]
+	[Token(Token = "0x4001DA6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	protected HashSet<CustomLogicCollisionHandler> _firstHitHandlers;
 
-	[Token(Token = "0x4001C00")]
+	[Token(Token = "0x4001DA7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	public Collider _collider;
 
-	[Token(Token = "0x4001C01")]
+	[Token(Token = "0x4001DA8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	public GameObject _debugObject;
 
-	[Token(Token = "0x4001C02")]
+	[Token(Token = "0x4001DA9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private Coroutine _mapSweep;
 
-	[Token(Token = "0x17000ACB")]
+	[Token(Token = "0x17000B13")]
 	protected virtual bool DestroysMap
 	{
-		[Token(Token = "0x6003D50")]
-		[Address(RVA = "0x21124F0", Offset = "0x2110AF0", VA = "0x1821124F0", Slot = "4")]
+		[Token(Token = "0x6003FE2")]
+		[Address(RVA = "0x5ABA610", Offset = "0x5AB9610", VA = "0x5ABA610", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003D51")]
-	[Address(RVA = "0x2111360", Offset = "0x210F960", VA = "0x182111360")]
+	[Token(Token = "0x6003FE3")]
+	[Address(RVA = "0x5ABA670", Offset = "0x5AB9670", VA = "0x5ABA670")]
 	public static BaseHitbox Create(BaseCharacter owner, GameObject obj, [Optional] Collider collider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D52")]
-	[Address(RVA = "0x21121D0", Offset = "0x21107D0", VA = "0x1821121D0")]
+	[Token(Token = "0x6003FE4")]
+	[Address(RVA = "0x5ABAA60", Offset = "0x5AB9A60", VA = "0x5ABAA60")]
 	public void UpdateSphereCollider(float radius)
 	{
 	}
 
-	[Token(Token = "0x6003D53")]
-	[Address(RVA = "0x2111CF0", Offset = "0x21102F0", VA = "0x182111CF0")]
+	[Token(Token = "0x6003FE5")]
+	[Address(RVA = "0x5AA6310", Offset = "0x5AA5310", VA = "0x5AA6310")]
 	public void ScaleSphereCollider(float scale)
 	{
 	}
 
-	[Token(Token = "0x6003D54")]
-	[Address(RVA = "0x2111ED0", Offset = "0x21104D0", VA = "0x182111ED0")]
+	[Token(Token = "0x6003FE6")]
+	[Address(RVA = "0x5ABA7B0", Offset = "0x5AB97B0", VA = "0x5ABA7B0")]
 	protected void UpdateDebugCollider(SphereCollider collider)
 	{
 	}
 
-	[Token(Token = "0x6003D55")]
-	[Address(RVA = "0x2111670", Offset = "0x210FC70", VA = "0x182111670")]
+	[Token(Token = "0x6003FE7")]
+	[Address(RVA = "0x5ABAAF0", Offset = "0x5AB9AF0", VA = "0x5ABAAF0")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003D56")]
-	[Address(RVA = "0x2111190", Offset = "0x210F790", VA = "0x182111190")]
-	public void Activate(float delay = 0f, float length = 0f)
+	[Token(Token = "0x6003FE8")]
+	[Address(RVA = "0x5ABAB10", Offset = "0x5AB9B10", VA = "0x5ABAB10", Slot = "5")]
+	public virtual void Activate(float delay = 0f, float length = 0f)
 	{
 	}
 
-	[Token(Token = "0x6003D57")]
-	[Address(RVA = "0x2111500", Offset = "0x210FB00", VA = "0x182111500")]
-	public void Deactivate()
+	[Token(Token = "0x6003FE9")]
+	[Address(RVA = "0x5ABAF80", Offset = "0x5AB9F80", VA = "0x5ABAF80", Slot = "6")]
+	public virtual void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6003D58")]
-	[Address(RVA = "0x21122A0", Offset = "0x21108A0", VA = "0x1821122A0")]
+	[Token(Token = "0x6003FEA")]
+	[Address(RVA = "0x5ABAE80", Offset = "0x5AB9E80", VA = "0x5ABAE80")]
 	[IteratorStateMachine(typeof(_003CWaitAndActivate_003Ed__18))]
 	protected IEnumerator WaitAndActivate(float delay)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D59")]
-	[Address(RVA = "0x2111550", Offset = "0x210FB50", VA = "0x182111550")]
+	[Token(Token = "0x6003FEB")]
+	[Address(RVA = "0x5ABAD10", Offset = "0x5AB9D10", VA = "0x5ABAD10")]
 	private void Enable()
 	{
 	}
 
-	[Token(Token = "0x6003D5A")]
-	[Address(RVA = "0x2111DD0", Offset = "0x21103D0", VA = "0x182111DD0")]
+	[Token(Token = "0x6003FEC")]
+	[Address(RVA = "0x5ABB0D0", Offset = "0x5ABA0D0", VA = "0x5ABB0D0")]
 	[IteratorStateMachine(typeof(_003CSweepMap_003Ed__20))]
 	private IEnumerator SweepMap()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D5B")]
-	[Address(RVA = "0x2112320", Offset = "0x2110920", VA = "0x182112320")]
+	[Token(Token = "0x6003FED")]
+	[Address(RVA = "0x5ABAF00", Offset = "0x5AB9F00", VA = "0x5ABAF00")]
 	[IteratorStateMachine(typeof(_003CWaitAndDeactivate_003Ed__21))]
 	protected IEnumerator WaitAndDeactivate(float delay)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D5C")]
-	[Address(RVA = "0x2111850", Offset = "0x210FE50", VA = "0x182111850", Slot = "5")]
+	[Token(Token = "0x6003FEE")]
+	[Address(RVA = "0x5ABB180", Offset = "0x5ABA180", VA = "0x5ABB180", Slot = "7")]
 	protected virtual void OnTriggerEnter(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6003D5D")]
-	[Address(RVA = "0x2111890", Offset = "0x210FE90", VA = "0x182111890", Slot = "6")]
+	[Token(Token = "0x6003FEF")]
+	[Address(RVA = "0x5ABB300", Offset = "0x5ABA300", VA = "0x5ABB300", Slot = "8")]
 	protected virtual void OnTriggerStay(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6003D5E")]
-	[Address(RVA = "0x21118B0", Offset = "0x210FEB0", VA = "0x1821118B0", Slot = "7")]
+	[Token(Token = "0x6003FF0")]
+	[Address(RVA = "0x5ABB320", Offset = "0x5ABA320", VA = "0x5ABB320", Slot = "9")]
 	protected virtual void OnTrigger(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6003D5F")]
-	[Address(RVA = "0x2111B90", Offset = "0x2110190", VA = "0x182111B90")]
+	[Token(Token = "0x6003FF1")]
+	[Address(RVA = "0x5ABB1C0", Offset = "0x5ABA1C0", VA = "0x5ABB1C0")]
 	private bool RequiresRepeatedContact(Collider other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003D60")]
-	[Address(RVA = "0x2111690", Offset = "0x210FC90", VA = "0x182111690", Slot = "8")]
+	[Token(Token = "0x6003FF2")]
+	[Address(RVA = "0x5ABB620", Offset = "0x5ABA620", VA = "0x5ABB620", Slot = "10")]
 	protected virtual void OnHit(BaseCharacter victim, Collider collider)
 	{
 	}
 
-	[Token(Token = "0x6003D61")]
-	[Address(RVA = "0x2111770", Offset = "0x210FD70", VA = "0x182111770", Slot = "9")]
+	[Token(Token = "0x6003FF3")]
+	[Address(RVA = "0x5ABB6F0", Offset = "0x5ABA6F0", VA = "0x5ABB6F0", Slot = "11")]
 	protected virtual void OnHit(CustomLogicCollisionHandler handler, Collider collider)
 	{
 	}
 
-	[Token(Token = "0x6003D62")]
-	[Address(RVA = "0x2111E40", Offset = "0x2110440", VA = "0x182111E40")]
+	[Token(Token = "0x6003FF4")]
+	[Address(RVA = "0x5ABB030", Offset = "0x5ABA030", VA = "0x5ABB030")]
 	protected void ToggleDebug(bool toggle)
 	{
 	}
 
-	[Token(Token = "0x6003D63")]
-	[Address(RVA = "0x21123A0", Offset = "0x21109A0", VA = "0x1821123A0")]
+	[Token(Token = "0x6003FF5")]
+	[Address(RVA = "0x5ABB7C0", Offset = "0x5ABA7C0", VA = "0x5ABB7C0")]
 	public BaseHitbox()
 	{
 	}

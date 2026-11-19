@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000739")]
+[Token(Token = "0x20007E1")]
 internal class HUDScaler : IgnoreScaler
 {
-	[Token(Token = "0x60046DF")]
-	[Address(RVA = "0x22115C0", Offset = "0x220FBC0", VA = "0x1822115C0", Slot = "5")]
+	[Token(Token = "0x6004BFF")]
+	[Address(RVA = "0x5BEC970", Offset = "0x5BEB970", VA = "0x5BEC970", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x60046E0")]
-	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
+	[Token(Token = "0x6004C00")]
+	[Address(RVA = "0x5BECA40", Offset = "0x5BEBA40", VA = "0x5BECA40")]
 	public HUDScaler()
 	{
 	}

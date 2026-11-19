@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x2000092")]
 public sealed class LabelTarget
 {
-	[Token(Token = "0x170000A0")]
+	[Token(Token = "0x170000A2")]
 	public string Name
 	{
-		[Token(Token = "0x6000432")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600043D")]
+		[Address(RVA = "0x5DD2740", Offset = "0x5DD1740", VA = "0x5DD2740")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public sealed class LabelTarget
 		}
 	}
 
-	[Token(Token = "0x170000A1")]
+	[Token(Token = "0x170000A3")]
 	public Type Type
 	{
-		[Token(Token = "0x6000433")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600043E")]
+		[Address(RVA = "0x5DD2750", Offset = "0x5DD1750", VA = "0x5DD2750")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,14 +37,14 @@ public sealed class LabelTarget
 		}
 	}
 
-	[Token(Token = "0x6000431")]
-	[Address(RVA = "0x19DB2A0", Offset = "0x19D98A0", VA = "0x1819DB2A0")]
+	[Token(Token = "0x600043C")]
+	[Address(RVA = "0x5DD2700", Offset = "0x5DD1700", VA = "0x5DD2700")]
 	internal LabelTarget(Type type, string name)
 	{
 	}
 
-	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x243BA50", Offset = "0x243A050", VA = "0x18243BA50", Slot = "3")]
+	[Token(Token = "0x600043F")]
+	[Address(RVA = "0x5DD2760", Offset = "0x5DD1760", VA = "0x5DD2760", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

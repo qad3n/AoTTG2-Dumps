@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000FF")]
+[Token(Token = "0x2000100")]
 [Flags]
 public enum DepthTextureMode
 {
-	[Token(Token = "0x40002AE")]
+	[Token(Token = "0x40002B3")]
 	None = 0,
-	[Token(Token = "0x40002AF")]
+	[Token(Token = "0x40002B4")]
 	Depth = 1,
-	[Token(Token = "0x40002B0")]
+	[Token(Token = "0x40002B5")]
 	DepthNormals = 2,
-	[Token(Token = "0x40002B1")]
+	[Token(Token = "0x40002B6")]
 	MotionVectors = 4
 }

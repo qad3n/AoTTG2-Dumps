@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001DB")]
+[Token(Token = "0x200019C")]
 public delegate void RefreshEventHandler(RefreshEventArgs e);

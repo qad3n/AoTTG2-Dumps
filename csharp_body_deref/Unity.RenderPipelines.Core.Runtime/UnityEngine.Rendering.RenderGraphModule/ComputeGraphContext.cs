@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.ComputeGraphContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ public class ComputeGraphContext : IDerivedRendergraphContext
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6001128")]
-		[Address(RVA = "0x1A4D250", Offset = "0x1A4B850", VA = "0x181A4D250")]
+		[Address(RVA = "0x6572290", Offset = "0x6571290", VA = "0x6572290")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ public class ComputeGraphContext : IDerivedRendergraphContext
 	public RenderGraphObjectPool renderGraphPool
 	{
 		[Token(Token = "0x6001129")]
-		[Address(RVA = "0x19BCDB0", Offset = "0x19BB3B0", VA = "0x1819BCDB0")]
+		[Address(RVA = "0x65722B0", Offset = "0x65712B0", VA = "0x65722B0")]
 		get
 		{
 			return null;
@@ -49,26 +49,26 @@ public class ComputeGraphContext : IDerivedRendergraphContext
 	}
 
 	[Token(Token = "0x600112A")]
-	[Address(RVA = "0x2B68D10", Offset = "0x2B67310", VA = "0x182B68D10", Slot = "4")]
+	[Address(RVA = "0x65722D0", Offset = "0x65712D0", VA = "0x65722D0", Slot = "4")]
 	public void FromInternalContext(InternalRenderGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x600112B")]
-	[Address(RVA = "0x2B68DF0", Offset = "0x2B673F0", VA = "0x182B68DF0")]
+	[Address(RVA = "0x65723B0", Offset = "0x65713B0", VA = "0x65723B0")]
 	public TextureUVOrigin GetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);
 	}
 
 	[Token(Token = "0x600112C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6572400", Offset = "0x6571400", VA = "0x6572400")]
 	public ComputeGraphContext()
 	{
 	}
 
 	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x2B68DF0", Offset = "0x2B673F0", VA = "0x182B68DF0", Slot = "5")]
+	[Address(RVA = "0x6572490", Offset = "0x6571490", VA = "0x6572490", Slot = "5")]
 	private TextureUVOrigin UnityEngine_002ERendering_002ERenderGraphModule_002EIDerivedRendergraphContext_002EGetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);

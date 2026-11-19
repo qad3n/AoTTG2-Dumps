@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AnimationState
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ public sealed class AnimationState : TrackedReference
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x68A88C0", Offset = "0x68A78C0", VA = "0x68A88C0")]
 		public static IntPtr ConvertToNative(AnimationState animationState)
 		{
 			return default(IntPtr);
@@ -33,13 +33,13 @@ public sealed class AnimationState : TrackedReference
 	public float weight
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x2EACBF0", Offset = "0x2EAB1F0", VA = "0x182EACBF0")]
+		[Address(RVA = "0x68A8180", Offset = "0x68A7180", VA = "0x68A8180")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2EACEC0", Offset = "0x2EAB4C0", VA = "0x182EACEC0")]
+		[Address(RVA = "0x68A8210", Offset = "0x68A7210", VA = "0x68A8210")]
 		set
 		{
 		}
@@ -49,13 +49,13 @@ public sealed class AnimationState : TrackedReference
 	public float normalizedTime
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2EACAB0", Offset = "0x2EAB0B0", VA = "0x182EACAB0")]
+		[Address(RVA = "0x68A82E0", Offset = "0x68A72E0", VA = "0x68A82E0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x2EACD40", Offset = "0x2EAB340", VA = "0x182EACD40")]
+		[Address(RVA = "0x68A8370", Offset = "0x68A7370", VA = "0x68A8370")]
 		set
 		{
 		}
@@ -65,13 +65,13 @@ public sealed class AnimationState : TrackedReference
 	public float speed
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x2EACB50", Offset = "0x2EAB150", VA = "0x182EACB50")]
+		[Address(RVA = "0x68A8440", Offset = "0x68A7440", VA = "0x68A8440")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x2EACE00", Offset = "0x2EAB400", VA = "0x182EACE00")]
+		[Address(RVA = "0x68A84D0", Offset = "0x68A74D0", VA = "0x68A84D0")]
 		set
 		{
 		}
@@ -81,7 +81,7 @@ public sealed class AnimationState : TrackedReference
 	public float length
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x2EAC8F0", Offset = "0x2EAAEF0", VA = "0x182EAC8F0")]
+		[Address(RVA = "0x68A85A0", Offset = "0x68A75A0", VA = "0x68A85A0")]
 		get
 		{
 			return default(float);
@@ -92,7 +92,7 @@ public sealed class AnimationState : TrackedReference
 	public int layer
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x2EACC90", Offset = "0x2EAB290", VA = "0x182EACC90")]
+		[Address(RVA = "0x68A8630", Offset = "0x68A7630", VA = "0x68A8630")]
 		set
 		{
 		}
@@ -102,7 +102,7 @@ public sealed class AnimationState : TrackedReference
 	public AnimationClip clip
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x2EAC820", Offset = "0x2EAAE20", VA = "0x182EAC820")]
+		[Address(RVA = "0x68A86D0", Offset = "0x68A76D0", VA = "0x68A86D0")]
 		get
 		{
 			return null;
@@ -113,7 +113,7 @@ public sealed class AnimationState : TrackedReference
 	public string name
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x2EAC9A0", Offset = "0x2EAAFA0", VA = "0x182EAC9A0")]
+		[Address(RVA = "0x68A8790", Offset = "0x68A7790", VA = "0x68A8790")]
 		get
 		{
 			return null;
@@ -121,58 +121,58 @@ public sealed class AnimationState : TrackedReference
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x68A88B0", Offset = "0x68A78B0", VA = "0x68A88B0")]
 	public AnimationState()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2EACBB0", Offset = "0x2EAB1B0", VA = "0x182EACBB0")]
+	[Address(RVA = "0x68A81E0", Offset = "0x68A71E0", VA = "0x68A81E0")]
 	private static extern float get_weight_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x2EACE70", Offset = "0x2EAB470", VA = "0x182EACE70")]
+	[Address(RVA = "0x68A8290", Offset = "0x68A7290", VA = "0x68A8290")]
 	private static extern void set_weight_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x2EACA70", Offset = "0x2EAB070", VA = "0x182EACA70")]
+	[Address(RVA = "0x68A8340", Offset = "0x68A7340", VA = "0x68A8340")]
 	private static extern float get_normalizedTime_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2EACCF0", Offset = "0x2EAB2F0", VA = "0x182EACCF0")]
+	[Address(RVA = "0x68A83F0", Offset = "0x68A73F0", VA = "0x68A83F0")]
 	private static extern void set_normalizedTime_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2EACB10", Offset = "0x2EAB110", VA = "0x182EACB10")]
+	[Address(RVA = "0x68A84A0", Offset = "0x68A74A0", VA = "0x68A84A0")]
 	private static extern float get_speed_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2EACDB0", Offset = "0x2EAB3B0", VA = "0x182EACDB0")]
+	[Address(RVA = "0x68A8550", Offset = "0x68A7550", VA = "0x68A8550")]
 	private static extern void set_speed_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2EAC8B0", Offset = "0x2EAAEB0", VA = "0x182EAC8B0")]
+	[Address(RVA = "0x68A8600", Offset = "0x68A7600", VA = "0x68A8600")]
 	private static extern float get_length_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2EACC50", Offset = "0x2EAB250", VA = "0x182EACC50")]
+	[Address(RVA = "0x68A8690", Offset = "0x68A7690", VA = "0x68A8690")]
 	private static extern void set_layer_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2EAC7E0", Offset = "0x2EAADE0", VA = "0x182EAC7E0")]
+	[Address(RVA = "0x68A8760", Offset = "0x68A7760", VA = "0x68A8760")]
 	private static extern IntPtr get_clip_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2EAC950", Offset = "0x2EAAF50", VA = "0x182EAC950")]
+	[Address(RVA = "0x68A8870", Offset = "0x68A7870", VA = "0x68A8870")]
 	private static extern void get_name_Injected(IntPtr _unity_self, out UnityEngine.Bindings.ManagedSpanWrapper ret);
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -70,7 +70,7 @@ public class ScreenSpaceAmbientOcclusion : ScriptableRendererFeature
 	internal unsafe ref ScreenSpaceAmbientOcclusionSettings settings
 	{
 		[Token(Token = "0x6000895")]
-		[Address(RVA = "0x2C38950", Offset = "0x2C36F50", VA = "0x182C38950")]
+		[Address(RVA = "0x667F920", Offset = "0x667E920", VA = "0x667F920")]
 		get
 		{
 			return ref *(ScreenSpaceAmbientOcclusionSettings*)null;
@@ -78,32 +78,32 @@ public class ScreenSpaceAmbientOcclusion : ScriptableRendererFeature
 	}
 
 	[Token(Token = "0x6000896")]
-	[Address(RVA = "0x2C83610", Offset = "0x2C81C10", VA = "0x182C83610", Slot = "7")]
+	[Address(RVA = "0x667F930", Offset = "0x667E930", VA = "0x667F930", Slot = "7")]
 	public override void Create()
 	{
 	}
 
 	[Token(Token = "0x6000897")]
-	[Address(RVA = "0x2C83550", Offset = "0x2C81B50", VA = "0x182C83550", Slot = "9")]
+	[Address(RVA = "0x667F9F0", Offset = "0x667E9F0", VA = "0x667F9F0", Slot = "9")]
 	public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000898")]
-	[Address(RVA = "0x2C83870", Offset = "0x2C81E70", VA = "0x182C83870", Slot = "11")]
+	[Address(RVA = "0x667FF40", Offset = "0x667EF40", VA = "0x667FF40", Slot = "11")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000899")]
-	[Address(RVA = "0x2C838F0", Offset = "0x2C81EF0", VA = "0x182C838F0")]
+	[Address(RVA = "0x667FAB0", Offset = "0x667EAB0", VA = "0x667FAB0")]
 	private bool TryPrepareResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600089A")]
-	[Address(RVA = "0x2C83C60", Offset = "0x2C82260", VA = "0x182C83C60")]
+	[Address(RVA = "0x667FFC0", Offset = "0x667EFC0", VA = "0x667FFC0")]
 	public ScreenSpaceAmbientOcclusion()
 	{
 	}

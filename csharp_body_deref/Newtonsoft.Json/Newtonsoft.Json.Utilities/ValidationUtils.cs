@@ -14,7 +14,7 @@ namespace Newtonsoft.Json.Utilities;
 internal static class ValidationUtils
 {
 	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x1C54F90", Offset = "0x1C53590", VA = "0x181C54F90")]
+	[Address(RVA = "0x55BFE30", Offset = "0x55BEE30", VA = "0x55BFE30")]
 	public static void ArgumentNotNull([NotNull] object? value, string parameterName)
 	{
 	}

@@ -11,123 +11,123 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000273")]
+[Token(Token = "0x2000299")]
 [AottgDialog("main-menu-login")]
 public sealed class AottgLoginDialog : AottgDialog
 {
-	[Token(Token = "0x4000C99")]
+	[Token(Token = "0x4000D47")]
 	public const string Id = "main-menu-login";
 
-	[Token(Token = "0x4000C9A")]
+	[Token(Token = "0x4000D48")]
 	public const string EmailInputId = "account-login-email";
 
-	[Token(Token = "0x4000C9B")]
+	[Token(Token = "0x4000D49")]
 	public const string PasswordInputId = "account-login-password";
 
-	[Token(Token = "0x4000C9C")]
+	[Token(Token = "0x4000D4A")]
 	public const string KeepSignedInId = "account-login-keep-signed-in";
 
-	[Token(Token = "0x170001AA")]
+	[Token(Token = "0x170001B5")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000EC4")]
-		[Address(RVA = "0x1DE1060", Offset = "0x1DDF660", VA = "0x181DE1060", Slot = "4")]
+		[Token(Token = "0x6000FD1")]
+		[Address(RVA = "0x57B7D90", Offset = "0x57B6D90", VA = "0x57B7D90", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x170001B6")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000EC5")]
-		[Address(RVA = "0x1DE1030", Offset = "0x1DDF630", VA = "0x181DE1030", Slot = "5")]
+		[Token(Token = "0x6000FD2")]
+		[Address(RVA = "0x57B7DF0", Offset = "0x57B6DF0", VA = "0x57B7DF0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AC")]
+	[Token(Token = "0x170001B7")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000EC6")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
+		[Token(Token = "0x6000FD3")]
+		[Address(RVA = "0x57B7E20", Offset = "0x57B6E20", VA = "0x57B7E20", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x170001AD")]
+	[Token(Token = "0x170001B8")]
 	protected override string HeaderCloseEnabledKey
 	{
-		[Token(Token = "0x6000EC7")]
-		[Address(RVA = "0x1DE0F00", Offset = "0x1DDF500", VA = "0x181DE0F00", Slot = "10")]
+		[Token(Token = "0x6000FD4")]
+		[Address(RVA = "0x57B7E30", Offset = "0x57B6E30", VA = "0x57B7E30", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AE")]
+	[Token(Token = "0x170001B9")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000EC8")]
-		[Address(RVA = "0x1DE0F30", Offset = "0x1DDF530", VA = "0x181DE0F30", Slot = "15")]
+		[Token(Token = "0x6000FD5")]
+		[Address(RVA = "0x57B7E60", Offset = "0x57B6E60", VA = "0x57B7E60", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AF")]
+	[Token(Token = "0x170001BA")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x1DE0E10", Offset = "0x1DDF410", VA = "0x181DE0E10", Slot = "17")]
+		[Token(Token = "0x6000FD6")]
+		[Address(RVA = "0x57B7F20", Offset = "0x57B6F20", VA = "0x57B7F20", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000ECA")]
-	[Address(RVA = "0x1DE07B0", Offset = "0x1DDEDB0", VA = "0x181DE07B0", Slot = "20")]
+	[Token(Token = "0x6000FD7")]
+	[Address(RVA = "0x57B7FD0", Offset = "0x57B6FD0", VA = "0x57B7FD0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x1DE0B60", Offset = "0x1DDF160", VA = "0x181DE0B60")]
+	[Token(Token = "0x6000FD8")]
+	[Address(RVA = "0x57B82E0", Offset = "0x57B72E0", VA = "0x57B82E0")]
 	private static void FooterLinks(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000ECC")]
-	[Address(RVA = "0x1DE0DA0", Offset = "0x1DDF3A0", VA = "0x181DE0DA0")]
+	[Token(Token = "0x6000FD9")]
+	[Address(RVA = "0x57B8270", Offset = "0x57B7270", VA = "0x57B8270")]
 	private static GisketchUIBindingDefinition Visible(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ECD")]
-	[Address(RVA = "0x1DE0AF0", Offset = "0x1DDF0F0", VA = "0x181DE0AF0")]
+	[Token(Token = "0x6000FDA")]
+	[Address(RVA = "0x57B84C0", Offset = "0x57B74C0", VA = "0x57B84C0")]
 	private static GisketchUIBindingDefinition Enabled(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x1DE0710", Offset = "0x1DDED10", VA = "0x181DE0710")]
+	[Token(Token = "0x6000FDB")]
+	[Address(RVA = "0x57B8530", Offset = "0x57B7530", VA = "0x57B8530")]
 	private static GisketchUIBindingDefinition BoundCta(string textKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000FDC")]
+	[Address(RVA = "0x57B85C0", Offset = "0x57B75C0", VA = "0x57B85C0")]
 	public AottgLoginDialog()
 	{
 	}

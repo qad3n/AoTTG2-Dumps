@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x2000374")]
+[Token(Token = "0x2000330")]
 public enum HttpRequestCacheLevel
 {
-	[Token(Token = "0x4000E1E")]
+	[Token(Token = "0x4000D36")]
 	Default,
-	[Token(Token = "0x4000E1F")]
+	[Token(Token = "0x4000D37")]
 	BypassCache,
-	[Token(Token = "0x4000E20")]
+	[Token(Token = "0x4000D38")]
 	CacheOnly,
-	[Token(Token = "0x4000E21")]
+	[Token(Token = "0x4000D39")]
 	CacheIfAvailable,
-	[Token(Token = "0x4000E22")]
+	[Token(Token = "0x4000D3A")]
 	Revalidate,
-	[Token(Token = "0x4000E23")]
+	[Token(Token = "0x4000D3B")]
 	Reload,
-	[Token(Token = "0x4000E24")]
+	[Token(Token = "0x4000D3C")]
 	NoCacheNoStore,
-	[Token(Token = "0x4000E25")]
+	[Token(Token = "0x4000D3D")]
 	CacheOrNextCacheOnly,
-	[Token(Token = "0x4000E26")]
+	[Token(Token = "0x4000D3E")]
 	Refresh
 }

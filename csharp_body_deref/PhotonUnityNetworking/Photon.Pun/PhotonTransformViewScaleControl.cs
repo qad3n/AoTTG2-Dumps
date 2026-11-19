@@ -22,27 +22,27 @@ public class PhotonTransformViewScaleControl
 	private Vector3 m_NetworkScale;
 
 	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x1D66850", Offset = "0x1D64E50", VA = "0x181D66850")]
+	[Address(RVA = "0x56FDF20", Offset = "0x56FCF20", VA = "0x56FDF20")]
 	public PhotonTransformViewScaleControl(PhotonTransformViewScaleModel model)
 	{
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x111AD10", Offset = "0x1119310", VA = "0x18111AD10")]
+	[Address(RVA = "0x56FFEA0", Offset = "0x56FEEA0", VA = "0x56FFEA0")]
 	public Vector3 GetNetworkScale()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x1D66580", Offset = "0x1D64B80", VA = "0x181D66580")]
+	[Address(RVA = "0x56FEE00", Offset = "0x56FDE00", VA = "0x56FEE00")]
 	public Vector3 GetScale(Vector3 currentScale)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x1D66740", Offset = "0x1D64D40", VA = "0x181D66740")]
+	[Address(RVA = "0x56FF460", Offset = "0x56FE460", VA = "0x56FF460")]
 	public void OnPhotonSerializeView(Vector3 currentScale, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}

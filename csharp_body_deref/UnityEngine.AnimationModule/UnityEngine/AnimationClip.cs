@@ -13,8 +13,8 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x200000E")]
-[UnityEngine.Bindings.NativeType("Modules/Animation/AnimationClip.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationClip.bindings.h")]
+[UnityEngine.Bindings.NativeType("Modules/Animation/AnimationClip.h")]
 public sealed class AnimationClip : Motion
 {
 	[Token(Token = "0x1700000B")]
@@ -22,7 +22,7 @@ public sealed class AnimationClip : Motion
 	public float length
 	{
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x2EAA950", Offset = "0x2EA8F50", VA = "0x182EAA950")]
+		[Address(RVA = "0x68A9420", Offset = "0x68A8420", VA = "0x68A9420")]
 		get
 		{
 			return default(float);
@@ -34,7 +34,7 @@ public sealed class AnimationClip : Motion
 	public float frameRate
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x2EAA890", Offset = "0x2EA8E90", VA = "0x182EAA890")]
+		[Address(RVA = "0x68A94D0", Offset = "0x68A84D0", VA = "0x68A94D0")]
 		get
 		{
 			return default(float);
@@ -45,26 +45,26 @@ public sealed class AnimationClip : Motion
 	public AnimationEvent[] events
 	{
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x2EAA9D0", Offset = "0x2EA8FD0", VA = "0x182EAA9D0")]
+		[Address(RVA = "0x68A9580", Offset = "0x68A8580", VA = "0x68A9580")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2EAA7E0", Offset = "0x2EA8DE0", VA = "0x182EAA7E0")]
+	[Address(RVA = "0x68A9310", Offset = "0x68A8310", VA = "0x68A9310")]
 	public AnimationClip()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x2EAA6A0", Offset = "0x2EA8CA0", VA = "0x182EAA6A0")]
+	[Address(RVA = "0x68A93F0", Offset = "0x68A83F0", VA = "0x68A93F0")]
 	[UnityEngine.Bindings.FreeFunction("AnimationClipBindings::Internal_CreateAnimationClip")]
 	private static extern void Internal_CreateAnimationClip([UnityEngine.Writable] AnimationClip self);
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2EAA740", Offset = "0x2EA8D40", VA = "0x182EAA740")]
+	[Address(RVA = "0x68A9740", Offset = "0x68A8740", VA = "0x68A9740")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimationClipBindings::SetEventsInternal", HasExplicitThis = true)]
 	private unsafe void SetEventsInternal(void* data, int length)
 	{
@@ -72,16 +72,16 @@ public sealed class AnimationClip : Motion
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2EAA910", Offset = "0x2EA8F10", VA = "0x182EAA910")]
+	[Address(RVA = "0x68A94A0", Offset = "0x68A84A0", VA = "0x68A94A0")]
 	private static extern float get_length_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x2EAA850", Offset = "0x2EA8E50", VA = "0x182EAA850")]
+	[Address(RVA = "0x68A9550", Offset = "0x68A8550", VA = "0x68A9550")]
 	private static extern float get_frameRate_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2EAA6E0", Offset = "0x2EA8CE0", VA = "0x182EAA6E0")]
+	[Address(RVA = "0x68A97D0", Offset = "0x68A87D0", VA = "0x68A97D0")]
 	private unsafe static extern void SetEventsInternal_Injected(IntPtr _unity_self, void* data, int length);
 }

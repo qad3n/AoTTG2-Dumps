@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000239")]
+[Token(Token = "0x20001FA")]
 public interface ITypeResolutionService
 {
-	[Token(Token = "0x6000F67")]
+	[Token(Token = "0x6000DA7")]
 	Type GetType(string name);
 
-	[Token(Token = "0x6000F68")]
+	[Token(Token = "0x6000DA8")]
 	string GetPathOfAssembly(AssemblyName name);
 }

@@ -1,0 +1,52 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.StrongNameKeyPair
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using Il2CppDummyDll;
+
+namespace System.Reflection;
+
+[Serializable]
+[Token(Token = "0x200052A")]
+[ComVisible(true)]
+public class StrongNameKeyPair : ISerializable, IDeserializationCallback
+{
+	[Token(Token = "0x40014BE")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	private byte[] _publicKey;
+
+	[Token(Token = "0x40014BF")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+	private string _keyPairContainer;
+
+	[Token(Token = "0x40014C0")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
+	private bool _keyPairExported;
+
+	[Token(Token = "0x40014C1")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
+	private byte[] _keyPairArray;
+
+	[Token(Token = "0x600276E")]
+	[Address(RVA = "0x53EDEE0", Offset = "0x53ECEE0", VA = "0x53EDEE0")]
+	protected StrongNameKeyPair(SerializationInfo info, StreamingContext context)
+	{
+	}
+
+	[Token(Token = "0x600276F")]
+	[Address(RVA = "0x53EE0E0", Offset = "0x53ED0E0", VA = "0x53EE0E0", Slot = "4")]
+	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
+	{
+	}
+
+	[Token(Token = "0x6002770")]
+	[Address(RVA = "0x53EE200", Offset = "0x53ED200", VA = "0x53EE200", Slot = "5")]
+	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
+	{
+	}
+}

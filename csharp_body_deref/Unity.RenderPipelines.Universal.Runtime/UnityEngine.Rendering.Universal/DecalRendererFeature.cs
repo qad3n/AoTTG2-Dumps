@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalRendererFeature
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -120,7 +120,7 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	private static SharedDecalEntityManager sharedDecalEntityManager
 	{
 		[Token(Token = "0x6000494")]
-		[Address(RVA = "0x2C38960", Offset = "0x2C36F60", VA = "0x182C38960")]
+		[Address(RVA = "0x662A200", Offset = "0x6629200", VA = "0x662A200")]
 		[CompilerGenerated]
 		get
 		{
@@ -132,7 +132,7 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	internal unsafe ref DecalSettings settings
 	{
 		[Token(Token = "0x6000495")]
-		[Address(RVA = "0x2C38950", Offset = "0x2C36F50", VA = "0x182C38950")]
+		[Address(RVA = "0x662A270", Offset = "0x6629270", VA = "0x662A270")]
 		get
 		{
 			return ref *(DecalSettings*)null;
@@ -143,7 +143,7 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	internal bool intermediateRendering
 	{
 		[Token(Token = "0x6000496")]
-		[Address(RVA = "0x2C388F0", Offset = "0x2C36EF0", VA = "0x182C388F0")]
+		[Address(RVA = "0x662A280", Offset = "0x6629280", VA = "0x662A280")]
 		get
 		{
 			return default(bool);
@@ -154,7 +154,7 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	internal bool requiresDecalLayers
 	{
 		[Token(Token = "0x6000497")]
-		[Address(RVA = "0x2C38930", Offset = "0x2C36F30", VA = "0x182C38930")]
+		[Address(RVA = "0x662A290", Offset = "0x6629290", VA = "0x662A290")]
 		get
 		{
 			return default(bool);
@@ -165,7 +165,7 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	internal static bool isGLDevice
 	{
 		[Token(Token = "0x6000498")]
-		[Address(RVA = "0x2C38900", Offset = "0x2C36F00", VA = "0x182C38900")]
+		[Address(RVA = "0x662A2B0", Offset = "0x66292B0", VA = "0x662A2B0")]
 		get
 		{
 			return default(bool);
@@ -173,101 +173,101 @@ public class DecalRendererFeature : ScriptableRendererFeature
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x662A1F0", Offset = "0x66291F0", VA = "0x662A1F0", Slot = "5")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void SetupRenderPasses(ScriptableRenderer renderer, in RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x2C37580", Offset = "0x2C35B80", VA = "0x182C37580", Slot = "7")]
+	[Address(RVA = "0x662A2D0", Offset = "0x66292D0", VA = "0x662A2D0", Slot = "7")]
 	public override void Create()
 	{
 	}
 
 	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x2C38760", Offset = "0x2C36D60", VA = "0x182C38760", Slot = "10")]
+	[Address(RVA = "0x662A330", Offset = "0x6629330", VA = "0x662A330", Slot = "10")]
 	internal override bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, out RenderingLayerUtils.Event atEvent, out RenderingLayerUtils.MaskSize maskSize)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x2C37700", Offset = "0x2C35D00", VA = "0x182C37700")]
+	[Address(RVA = "0x662A640", Offset = "0x6629640", VA = "0x662A640")]
 	internal DBufferSettings GetDBufferSettings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x2C37780", Offset = "0x2C35D80", VA = "0x182C37780")]
+	[Address(RVA = "0x662A6B0", Offset = "0x66296B0", VA = "0x662A6B0")]
 	internal DecalScreenSpaceSettings GetScreenSpaceSettings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x2C37B50", Offset = "0x2C36150", VA = "0x182C37B50")]
+	[Address(RVA = "0x662A720", Offset = "0x6629720", VA = "0x662A720")]
 	internal DecalTechnique GetTechnique(ScriptableRendererData renderer)
 	{
 		return default(DecalTechnique);
 	}
 
 	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x2C37A50", Offset = "0x2C36050", VA = "0x182C37A50")]
+	[Address(RVA = "0x662A850", Offset = "0x6629850", VA = "0x662A850")]
 	internal DecalTechnique GetTechnique(ScriptableRenderer renderer)
 	{
 		return default(DecalTechnique);
 	}
 
 	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x2C37800", Offset = "0x2C35E00", VA = "0x182C37800")]
+	[Address(RVA = "0x662A3D0", Offset = "0x66293D0", VA = "0x662A3D0")]
 	internal DecalTechnique GetTechnique(bool isDeferred, bool needsGBufferAccurateNormals, bool checkForInvalidTechniques = true)
 	{
 		return default(DecalTechnique);
 	}
 
 	[Token(Token = "0x60004A0")]
-	[Address(RVA = "0x2C37C90", Offset = "0x2C36290", VA = "0x182C37C90")]
+	[Address(RVA = "0x662A980", Offset = "0x6629980", VA = "0x662A980")]
 	private bool IsAutomaticDBuffer()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x2C37F00", Offset = "0x2C36500", VA = "0x182C37F00")]
+	[Address(RVA = "0x662AA00", Offset = "0x6629A00", VA = "0x662AA00")]
 	private bool RecreateSystemsIfNeeded(ScriptableRenderer renderer, in CameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004A2")]
-	[Address(RVA = "0x2C37D10", Offset = "0x2C36310", VA = "0x182C37D10", Slot = "8")]
+	[Address(RVA = "0x662B200", Offset = "0x662A200", VA = "0x662B200", Slot = "8")]
 	public override void OnCameraPreCull(ScriptableRenderer renderer, in CameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60004A3")]
-	[Address(RVA = "0x2C37160", Offset = "0x2C35760", VA = "0x182C37160", Slot = "9")]
+	[Address(RVA = "0x662B570", Offset = "0x662A570", VA = "0x662B570", Slot = "9")]
 	public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x60004A4")]
-	[Address(RVA = "0x2C375F0", Offset = "0x2C35BF0", VA = "0x182C375F0", Slot = "11")]
+	[Address(RVA = "0x662B8F0", Offset = "0x662A8F0", VA = "0x662B8F0", Slot = "11")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x2C374A0", Offset = "0x2C35AA0", VA = "0x182C374A0")]
+	[Address(RVA = "0x662B430", Offset = "0x662A430", VA = "0x662B430")]
 	[Conditional("ENABLE_ADAPTIVE_PERFORMANCE")]
 	private void ChangeAdaptivePerformanceDrawDistances()
 	{
 	}
 
 	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x2C38880", Offset = "0x2C36E80", VA = "0x182C38880")]
+	[Address(RVA = "0x662BA10", Offset = "0x662AA10", VA = "0x662BA10")]
 	public DecalRendererFeature()
 	{
 	}

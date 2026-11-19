@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200030C")]
+[Token(Token = "0x20002CD")]
 internal static class Logging
 {
-	[Token(Token = "0x17000475")]
+	[Token(Token = "0x17000446")]
 	internal static bool On
 	{
-		[Token(Token = "0x600152E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Token(Token = "0x6001370")]
+		[Address(RVA = "0x617E920", Offset = "0x617D920", VA = "0x617E920")]
 		get
 		{
 			return default(bool);

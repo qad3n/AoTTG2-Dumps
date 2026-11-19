@@ -12,289 +12,289 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000120")]
+[Token(Token = "0x20000E1")]
 internal class DerSequenceReader
 {
-	[Token(Token = "0x2000121")]
+	[Token(Token = "0x20000E2")]
 	internal enum DerTag : byte
 	{
-		[Token(Token = "0x40004F5")]
+		[Token(Token = "0x4000426")]
 		Boolean = 1,
-		[Token(Token = "0x40004F6")]
+		[Token(Token = "0x4000427")]
 		Integer = 2,
-		[Token(Token = "0x40004F7")]
+		[Token(Token = "0x4000428")]
 		BitString = 3,
-		[Token(Token = "0x40004F8")]
+		[Token(Token = "0x4000429")]
 		OctetString = 4,
-		[Token(Token = "0x40004F9")]
+		[Token(Token = "0x400042A")]
 		Null = 5,
-		[Token(Token = "0x40004FA")]
+		[Token(Token = "0x400042B")]
 		ObjectIdentifier = 6,
-		[Token(Token = "0x40004FB")]
+		[Token(Token = "0x400042C")]
 		UTF8String = 12,
-		[Token(Token = "0x40004FC")]
+		[Token(Token = "0x400042D")]
 		Sequence = 16,
-		[Token(Token = "0x40004FD")]
+		[Token(Token = "0x400042E")]
 		Set = 17,
-		[Token(Token = "0x40004FE")]
+		[Token(Token = "0x400042F")]
 		PrintableString = 19,
-		[Token(Token = "0x40004FF")]
+		[Token(Token = "0x4000430")]
 		T61String = 20,
-		[Token(Token = "0x4000500")]
+		[Token(Token = "0x4000431")]
 		IA5String = 22,
-		[Token(Token = "0x4000501")]
+		[Token(Token = "0x4000432")]
 		UTCTime = 23,
-		[Token(Token = "0x4000502")]
+		[Token(Token = "0x4000433")]
 		GeneralizedTime = 24,
-		[Token(Token = "0x4000503")]
+		[Token(Token = "0x4000434")]
 		BMPString = 30
 	}
 
-	[Token(Token = "0x40004ED")]
+	[Token(Token = "0x400041E")]
 	[FieldOffset(Offset = "0x0")]
 	internal static DateTimeFormatInfo s_validityDateTimeFormatInfo;
 
-	[Token(Token = "0x40004EE")]
+	[Token(Token = "0x400041F")]
 	[FieldOffset(Offset = "0x8")]
 	private static Encoding s_utf8EncodingWithExceptionFallback;
 
-	[Token(Token = "0x40004EF")]
+	[Token(Token = "0x4000420")]
 	[FieldOffset(Offset = "0x10")]
 	private static Encoding s_latin1Encoding;
 
-	[Token(Token = "0x40004F0")]
+	[Token(Token = "0x4000421")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly byte[] _data;
 
-	[Token(Token = "0x40004F1")]
+	[Token(Token = "0x4000422")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly int _end;
 
-	[Token(Token = "0x40004F2")]
+	[Token(Token = "0x4000423")]
 	[FieldOffset(Offset = "0x1C")]
 	private int _position;
 
-	[Token(Token = "0x17000129")]
+	[Token(Token = "0x170000FA")]
 	private int ContentLength
 	{
-		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Token(Token = "0x6000530")]
+		[Address(RVA = "0x6208600", Offset = "0x6207600", VA = "0x6208600")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700012A")]
+	[Token(Token = "0x170000FB")]
 	internal bool HasData
 	{
-		[Token(Token = "0x60006EB")]
-		[Address(RVA = "0x2863D10", Offset = "0x2862310", VA = "0x182863D10")]
+		[Token(Token = "0x6000534")]
+		[Address(RVA = "0x62087F0", Offset = "0x62077F0", VA = "0x62087F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x2863CA0", Offset = "0x28622A0", VA = "0x182863CA0")]
+	[Token(Token = "0x6000531")]
+	[Address(RVA = "0x6208610", Offset = "0x6207610", VA = "0x6208610")]
 	internal DerSequenceReader(byte[] data)
 	{
 	}
 
-	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0x2863CE0", Offset = "0x28622E0", VA = "0x182863CE0")]
+	[Token(Token = "0x6000532")]
+	[Address(RVA = "0x6208630", Offset = "0x6207630", VA = "0x6208630")]
 	internal DerSequenceReader(byte[] data, int offset, int length)
 	{
 	}
 
-	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x2863B30", Offset = "0x2862130", VA = "0x182863B30")]
+	[Token(Token = "0x6000533")]
+	[Address(RVA = "0x6208650", Offset = "0x6207650", VA = "0x6208650")]
 	private DerSequenceReader(DerTag tagToEat, byte[] data, int offset, int length)
 	{
 	}
 
-	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x2862320", Offset = "0x2860920", VA = "0x182862320")]
+	[Token(Token = "0x6000535")]
+	[Address(RVA = "0x6208800", Offset = "0x6207800", VA = "0x6208800")]
 	internal byte PeekTag()
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x2863A70", Offset = "0x2862070", VA = "0x182863A70")]
+	[Token(Token = "0x6000536")]
+	[Address(RVA = "0x6208880", Offset = "0x6207880", VA = "0x6208880")]
 	internal void SkipValue()
 	{
 	}
 
-	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x2862AD0", Offset = "0x28610D0", VA = "0x182862AD0")]
+	[Token(Token = "0x6000537")]
+	[Address(RVA = "0x62088D0", Offset = "0x62078D0", VA = "0x62088D0")]
 	internal byte[] ReadNextEncodedValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x2862680", Offset = "0x2860C80", VA = "0x182862680")]
+	[Token(Token = "0x6000538")]
+	[Address(RVA = "0x6208A60", Offset = "0x6207A60", VA = "0x6208A60")]
 	internal bool ReadBoolean()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x2862A20", Offset = "0x2861020", VA = "0x182862A20")]
+	[Token(Token = "0x6000539")]
+	[Address(RVA = "0x6208B20", Offset = "0x6207B20", VA = "0x6208B20")]
 	internal int ReadInteger()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x28629F0", Offset = "0x2860FF0", VA = "0x1828629F0")]
+	[Token(Token = "0x600053A")]
+	[Address(RVA = "0x6208BB0", Offset = "0x6207BB0", VA = "0x6208BB0")]
 	internal byte[] ReadIntegerBytes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x28624E0", Offset = "0x2860AE0", VA = "0x1828624E0")]
+	[Token(Token = "0x600053B")]
+	[Address(RVA = "0x6208CD0", Offset = "0x6207CD0", VA = "0x6208CD0")]
 	internal byte[] ReadBitString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x2862B80", Offset = "0x2861180", VA = "0x182862B80")]
+	[Token(Token = "0x600053C")]
+	[Address(RVA = "0x6208DF0", Offset = "0x6207DF0", VA = "0x6208DF0")]
 	internal byte[] ReadOctetString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F4")]
-	[Address(RVA = "0x2862BB0", Offset = "0x28611B0", VA = "0x182862BB0")]
+	[Token(Token = "0x600053D")]
+	[Address(RVA = "0x6208E80", Offset = "0x6207E80", VA = "0x6208E80")]
 	internal string ReadOidAsString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x28635C0", Offset = "0x2861BC0", VA = "0x1828635C0")]
+	[Token(Token = "0x600053E")]
+	[Address(RVA = "0x6209180", Offset = "0x6208180", VA = "0x6209180")]
 	internal string ReadUtf8String()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x2862750", Offset = "0x2860D50", VA = "0x182862750")]
+	[Token(Token = "0x600053F")]
+	[Address(RVA = "0x62092B0", Offset = "0x62082B0", VA = "0x62092B0")]
 	private DerSequenceReader ReadCollectionWithTag(DerTag expected)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F7")]
-	[Address(RVA = "0x2862FE0", Offset = "0x28615E0", VA = "0x182862FE0")]
+	[Token(Token = "0x6000540")]
+	[Address(RVA = "0x62093E0", Offset = "0x62083E0", VA = "0x62093E0")]
 	internal DerSequenceReader ReadSequence()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x2862FF0", Offset = "0x28615F0", VA = "0x182862FF0")]
+	[Token(Token = "0x6000541")]
+	[Address(RVA = "0x62093F0", Offset = "0x62083F0", VA = "0x62093F0")]
 	internal DerSequenceReader ReadSet()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x2862F00", Offset = "0x2861500", VA = "0x182862F00")]
+	[Token(Token = "0x6000542")]
+	[Address(RVA = "0x6209400", Offset = "0x6208400", VA = "0x6209400")]
 	internal string ReadPrintableString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FA")]
-	[Address(RVA = "0x2862910", Offset = "0x2860F10", VA = "0x182862910")]
+	[Token(Token = "0x6000543")]
+	[Address(RVA = "0x62094D0", Offset = "0x62084D0", VA = "0x62094D0")]
 	internal string ReadIA5String()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FB")]
-	[Address(RVA = "0x2863000", Offset = "0x2861600", VA = "0x182863000")]
+	[Token(Token = "0x6000544")]
+	[Address(RVA = "0x62095A0", Offset = "0x62085A0", VA = "0x62095A0")]
 	internal string ReadT61String()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x28636A0", Offset = "0x2861CA0", VA = "0x1828636A0")]
+	[Token(Token = "0x6000545")]
+	[Address(RVA = "0x6209970", Offset = "0x6208970", VA = "0x6209970")]
 	internal DateTime ReadX509Date()
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x2863580", Offset = "0x2861B80", VA = "0x182863580")]
+	[Token(Token = "0x6000546")]
+	[Address(RVA = "0x6209A40", Offset = "0x6208A40", VA = "0x6209A40")]
 	internal DateTime ReadUtcTime()
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x28628D0", Offset = "0x2860ED0", VA = "0x1828628D0")]
+	[Token(Token = "0x6000547")]
+	[Address(RVA = "0x6209A80", Offset = "0x6208A80", VA = "0x6209A80")]
 	internal DateTime ReadGeneralizedTime()
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x2862400", Offset = "0x2860A00", VA = "0x182862400")]
+	[Token(Token = "0x6000548")]
+	[Address(RVA = "0x6209CF0", Offset = "0x6208CF0", VA = "0x6209CF0")]
 	internal string ReadBMPString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x2863AC0", Offset = "0x28620C0", VA = "0x182863AC0")]
+	[Token(Token = "0x6000549")]
+	[Address(RVA = "0x6209250", Offset = "0x6208250", VA = "0x6209250")]
 	private static string TrimTrailingNulls(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x2863320", Offset = "0x2861920", VA = "0x182863320")]
+	[Token(Token = "0x600054A")]
+	[Address(RVA = "0x6209AC0", Offset = "0x6208AC0", VA = "0x6209AC0")]
 	private DateTime ReadTime(DerTag timeTag, string formatString)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x2862820", Offset = "0x2860E20", VA = "0x182862820")]
+	[Token(Token = "0x600054B")]
+	[Address(RVA = "0x6208C40", Offset = "0x6207C40", VA = "0x6208C40")]
 	private byte[] ReadContentAsBytes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x28622A0", Offset = "0x28608A0", VA = "0x1828622A0")]
+	[Token(Token = "0x600054C")]
+	[Address(RVA = "0x6208740", Offset = "0x6207740", VA = "0x6208740")]
 	private void EatTag(DerTag expected)
 	{
 	}
 
-	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x2862130", Offset = "0x2860730", VA = "0x182862130")]
+	[Token(Token = "0x600054D")]
+	[Address(RVA = "0x6209360", Offset = "0x6208360", VA = "0x6209360")]
 	private static void CheckTag(DerTag expected, byte[] data, int position)
 	{
 	}
 
-	[Token(Token = "0x6000705")]
-	[Address(RVA = "0x2862260", Offset = "0x2860860", VA = "0x182862260")]
+	[Token(Token = "0x600054E")]
+	[Address(RVA = "0x62087B0", Offset = "0x62077B0", VA = "0x62087B0")]
 	private int EatLength()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x2863770", Offset = "0x2861D70", VA = "0x182863770")]
+	[Token(Token = "0x600054F")]
+	[Address(RVA = "0x6208960", Offset = "0x6207960", VA = "0x6208960")]
 	private static int ScanContentLength(byte[] data, int offset, int end, out int bytesConsumed)
 	{
 		return default(int);

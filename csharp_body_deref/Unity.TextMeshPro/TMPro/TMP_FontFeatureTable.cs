@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_FontFeatureTable
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,13 +62,13 @@ public class TMP_FontFeatureTable
 	public List<MultipleSubstitutionRecord> multipleSubstitutionRecords
 	{
 		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x66F5CB0", Offset = "0x66F4CB0", VA = "0x66F5CB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x66F5CC0", Offset = "0x66F4CC0", VA = "0x66F5CC0")]
 		set
 		{
 		}
@@ -78,13 +78,13 @@ public class TMP_FontFeatureTable
 	public List<LigatureSubstitutionRecord> ligatureRecords
 	{
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x66F5CD0", Offset = "0x66F4CD0", VA = "0x66F5CD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x66F5CE0", Offset = "0x66F4CE0", VA = "0x66F5CE0")]
 		set
 		{
 		}
@@ -94,13 +94,13 @@ public class TMP_FontFeatureTable
 	public List<GlyphPairAdjustmentRecord> glyphPairAdjustmentRecords
 	{
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x66F5CF0", Offset = "0x66F4CF0", VA = "0x66F5CF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x66F5D00", Offset = "0x66F4D00", VA = "0x66F5D00")]
 		set
 		{
 		}
@@ -110,13 +110,13 @@ public class TMP_FontFeatureTable
 	public List<MarkToBaseAdjustmentRecord> MarkToBaseAdjustmentRecords
 	{
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x66F5D10", Offset = "0x66F4D10", VA = "0x66F5D10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x66F5D20", Offset = "0x66F4D20", VA = "0x66F5D20")]
 		set
 		{
 		}
@@ -126,38 +126,38 @@ public class TMP_FontFeatureTable
 	public List<MarkToMarkAdjustmentRecord> MarkToMarkAdjustmentRecords
 	{
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x66F5D30", Offset = "0x66F4D30", VA = "0x66F5D30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x66F5D40", Offset = "0x66F4D40", VA = "0x66F5D40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x2CF6C80", Offset = "0x2CF5280", VA = "0x182CF6C80")]
+	[Address(RVA = "0x66F5D50", Offset = "0x66F4D50", VA = "0x66F5D50")]
 	public TMP_FontFeatureTable()
 	{
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x2CF65C0", Offset = "0x2CF4BC0", VA = "0x182CF65C0")]
+	[Address(RVA = "0x66F5FE0", Offset = "0x66F4FE0", VA = "0x66F5FE0")]
 	public void SortGlyphPairAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x60001E0")]
-	[Address(RVA = "0x2CF6800", Offset = "0x2CF4E00", VA = "0x182CF6800")]
+	[Address(RVA = "0x66F6210", Offset = "0x66F5210", VA = "0x66F6210")]
 	public void SortMarkToBaseAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x2CF6A40", Offset = "0x2CF5040", VA = "0x182CF6A40")]
+	[Address(RVA = "0x66F6440", Offset = "0x66F5440", VA = "0x66F6440")]
 	public void SortMarkToMarkAdjustmentRecords()
 	{
 	}

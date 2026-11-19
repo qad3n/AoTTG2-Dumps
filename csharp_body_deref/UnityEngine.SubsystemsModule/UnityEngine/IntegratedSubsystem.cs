@@ -15,16 +15,16 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000002")]
+[Token(Token = "0x2000004")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/Subsystems/Subsystem.h")]
 public class IntegratedSubsystem : ISubsystem
 {
-	[Token(Token = "0x2000003")]
+	[Token(Token = "0x2000005")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Token(Token = "0x6000009")]
+		[Address(RVA = "0x69F1CC0", Offset = "0x69F0CC0", VA = "0x69F1CC0")]
 		public static IntPtr ConvertToNative(IntegratedSubsystem integratedSubsystem)
 		{
 			return default(IntPtr);
@@ -40,62 +40,62 @@ public class IntegratedSubsystem : ISubsystem
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal ISubsystemDescriptor m_SubsystemDescriptor;
 
-	[Token(Token = "0x17000001")]
+	[Token(Token = "0x17000002")]
 	public bool running
 	{
-		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x2FF75E0", Offset = "0x2FF5BE0", VA = "0x182FF75E0", Slot = "4")]
+		[Token(Token = "0x6000003")]
+		[Address(RVA = "0x69F1BD0", Offset = "0x69F0BD0", VA = "0x69F1BD0", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000002")]
+	[Token(Token = "0x17000003")]
 	internal bool valid
 	{
-		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x2F7D790", Offset = "0x2F7BD90", VA = "0x182F7D790")]
+		[Token(Token = "0x6000004")]
+		[Address(RVA = "0x69F1C10", Offset = "0x69F0C10", VA = "0x69F1C10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2FF7580", Offset = "0x2FF5B80", VA = "0x182FF7580")]
+	[Token(Token = "0x6000002")]
+	[Address(RVA = "0x69F1B30", Offset = "0x69F0B30", VA = "0x69F1B30")]
 	internal void SetHandle([UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] IntegratedSubsystem subsystem)
 	{
 	}
 
-	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2FF74D0", Offset = "0x2FF5AD0", VA = "0x182FF74D0")]
+	[Token(Token = "0x6000005")]
+	[Address(RVA = "0x69F1C20", Offset = "0x69F0C20", VA = "0x69F1C20")]
 	internal bool IsRunning()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x69F1CB0", Offset = "0x69F0CB0", VA = "0x69F1CB0")]
 	public IntegratedSubsystem()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2FF7530", Offset = "0x2FF5B30", VA = "0x182FF7530")]
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x69F1B90", Offset = "0x69F0B90", VA = "0x69F1B90")]
 	private static extern void SetHandle_Injected(IntPtr _unity_self, IntegratedSubsystem subsystem);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2FF7490", Offset = "0x2FF5A90", VA = "0x182FF7490")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x69F1C80", Offset = "0x69F0C80", VA = "0x69F1C80")]
 	private static extern bool IsRunning_Injected(IntPtr _unity_self);
 }
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000006")]
 [UnityEngine.Scripting.UsedByNativeCode("Subsystem_TSubsystemDescriptor")]
 public class IntegratedSubsystem<TSubsystemDescriptor> : IntegratedSubsystem where TSubsystemDescriptor : ISubsystemDescriptor
 {
-	[Token(Token = "0x6000009")]
+	[Token(Token = "0x600000A")]
 	public IntegratedSubsystem()
 	{
 	}

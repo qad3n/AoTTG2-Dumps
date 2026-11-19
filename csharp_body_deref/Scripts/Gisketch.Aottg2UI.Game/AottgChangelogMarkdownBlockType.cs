@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D1")]
+[Token(Token = "0x20001E8")]
 public enum AottgChangelogMarkdownBlockType
 {
-	[Token(Token = "0x40009D9")]
+	[Token(Token = "0x4000A4D")]
 	Header,
-	[Token(Token = "0x40009DA")]
+	[Token(Token = "0x4000A4E")]
 	Paragraph,
-	[Token(Token = "0x40009DB")]
+	[Token(Token = "0x4000A4F")]
 	BulletList,
-	[Token(Token = "0x40009DC")]
+	[Token(Token = "0x4000A50")]
 	Spacer
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.PanelResizeHandle
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/PanelResizeHandle.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,154 +13,154 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000862")]
+[Token(Token = "0x20008E2")]
 internal class PanelResizeHandle : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
-	[Token(Token = "0x4002A0B")]
+	[Token(Token = "0x4002CCA")]
 	[FieldOffset(Offset = "0x20")]
 	public bool IsRightEdge;
 
-	[Token(Token = "0x4002A0C")]
+	[Token(Token = "0x4002CCB")]
 	[FieldOffset(Offset = "0x24")]
 	public float MinWidth;
 
-	[Token(Token = "0x4002A0D")]
+	[Token(Token = "0x4002CCC")]
 	[FieldOffset(Offset = "0x28")]
 	public float MaxWidth;
 
-	[Token(Token = "0x4002A0E")]
+	[Token(Token = "0x4002CCD")]
 	[FieldOffset(Offset = "0x30")]
 	public Action<float> OnResize;
 
-	[Token(Token = "0x4002A0F")]
+	[Token(Token = "0x4002CCE")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _isDragging;
 
-	[Token(Token = "0x4002A10")]
+	[Token(Token = "0x4002CCF")]
 	[FieldOffset(Offset = "0x3C")]
 	private float _dragStartScreenX;
 
-	[Token(Token = "0x4002A11")]
+	[Token(Token = "0x4002CD0")]
 	[FieldOffset(Offset = "0x40")]
 	private float _panelStartWidth;
 
-	[Token(Token = "0x4002A12")]
+	[Token(Token = "0x4002CD1")]
 	[FieldOffset(Offset = "0x48")]
 	private RectTransform _panelRT;
 
-	[Token(Token = "0x4002A13")]
+	[Token(Token = "0x4002CD2")]
 	[FieldOffset(Offset = "0x50")]
 	private Image _image;
 
-	[Token(Token = "0x4002A14")]
+	[Token(Token = "0x4002CD3")]
 	[FieldOffset(Offset = "0x58")]
 	private GameObject _lineGO;
 
-	[Token(Token = "0x4002A15")]
+	[Token(Token = "0x4002CD4")]
 	[FieldOffset(Offset = "0x60")]
 	private RectTransform _lineRT;
 
-	[Token(Token = "0x4002A16")]
+	[Token(Token = "0x4002CD5")]
 	[FieldOffset(Offset = "0x68")]
 	private GameObject _ghostGO;
 
-	[Token(Token = "0x4002A17")]
+	[Token(Token = "0x4002CD6")]
 	[FieldOffset(Offset = "0x70")]
 	private RectTransform _ghostRT;
 
-	[Token(Token = "0x4002A18")]
+	[Token(Token = "0x4002CD7")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Color IdleColor;
 
-	[Token(Token = "0x4002A19")]
+	[Token(Token = "0x4002CD8")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly Color HoverColor;
 
-	[Token(Token = "0x4002A1A")]
+	[Token(Token = "0x4002CD9")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly Color DragColor;
 
-	[Token(Token = "0x4002A1B")]
+	[Token(Token = "0x4002CDA")]
 	[FieldOffset(Offset = "0x30")]
 	private static readonly Color LineColor;
 
-	[Token(Token = "0x4002A1C")]
+	[Token(Token = "0x4002CDB")]
 	[FieldOffset(Offset = "0x40")]
 	private static readonly Color GhostBg;
 
-	[Token(Token = "0x4002A1D")]
+	[Token(Token = "0x4002CDC")]
 	[FieldOffset(Offset = "0x50")]
 	private static readonly Color GhostText;
 
-	[Token(Token = "0x60050E4")]
-	[Address(RVA = "0x22DE880", Offset = "0x22DCE80", VA = "0x1822DE880")]
+	[Token(Token = "0x6005493")]
+	[Address(RVA = "0x5CAA9C0", Offset = "0x5CA99C0", VA = "0x5CAA9C0")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60050E5")]
-	[Address(RVA = "0x22DF5B0", Offset = "0x22DDBB0", VA = "0x1822DF5B0", Slot = "7")]
+	[Token(Token = "0x6005494")]
+	[Address(RVA = "0x5CAAB10", Offset = "0x5CA9B10", VA = "0x5CAAB10", Slot = "7")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60050E6")]
-	[Address(RVA = "0x22DF680", Offset = "0x22DDC80", VA = "0x1822DF680", Slot = "8")]
+	[Token(Token = "0x6005495")]
+	[Address(RVA = "0x5CAABD0", Offset = "0x5CA9BD0", VA = "0x5CAABD0", Slot = "8")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60050E7")]
-	[Address(RVA = "0x22DF450", Offset = "0x22DDA50", VA = "0x1822DF450", Slot = "4")]
+	[Token(Token = "0x6005496")]
+	[Address(RVA = "0x5CAAC90", Offset = "0x5CA9C90", VA = "0x5CAAC90", Slot = "4")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60050E8")]
-	[Address(RVA = "0x22DF410", Offset = "0x22DDA10", VA = "0x1822DF410", Slot = "5")]
+	[Token(Token = "0x6005497")]
+	[Address(RVA = "0x5CAB720", Offset = "0x5CAA720", VA = "0x5CAB720", Slot = "5")]
 	public void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60050E9")]
-	[Address(RVA = "0x22DF750", Offset = "0x22DDD50", VA = "0x1822DF750", Slot = "6")]
+	[Token(Token = "0x6005498")]
+	[Address(RVA = "0x5CAB750", Offset = "0x5CAA750", VA = "0x5CAB750", Slot = "6")]
 	public void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60050EA")]
-	[Address(RVA = "0x22DF220", Offset = "0x22DD820", VA = "0x1822DF220")]
+	[Token(Token = "0x6005499")]
+	[Address(RVA = "0x5CAB960", Offset = "0x5CAA960", VA = "0x5CAB960")]
 	private float ComputeNewWidth(float screenX)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60050EB")]
-	[Address(RVA = "0x22DEA80", Offset = "0x22DD080", VA = "0x1822DEA80")]
+	[Token(Token = "0x600549A")]
+	[Address(RVA = "0x5CAADD0", Offset = "0x5CA9DD0", VA = "0x5CAADD0")]
 	private void BuildDragVisuals()
 	{
 	}
 
-	[Token(Token = "0x60050EC")]
-	[Address(RVA = "0x22DF940", Offset = "0x22DDF40", VA = "0x1822DF940")]
+	[Token(Token = "0x600549B")]
+	[Address(RVA = "0x5CAB4F0", Offset = "0x5CAA4F0", VA = "0x5CAB4F0")]
 	private void UpdateDragVisuals(Vector2 screenPos)
 	{
 	}
 
-	[Token(Token = "0x60050ED")]
-	[Address(RVA = "0x22DF310", Offset = "0x22DD910", VA = "0x1822DF310")]
+	[Token(Token = "0x600549C")]
+	[Address(RVA = "0x5CAB860", Offset = "0x5CAA860", VA = "0x5CAB860")]
 	private void DestroyDragVisuals()
 	{
 	}
 
-	[Token(Token = "0x60050EE")]
-	[Address(RVA = "0x22DE9D0", Offset = "0x22DCFD0", VA = "0x1822DE9D0")]
+	[Token(Token = "0x600549D")]
+	[Address(RVA = "0x5CABA50", Offset = "0x5CAAA50", VA = "0x5CABA50")]
 	private static void BoostSortOrder(GameObject go, int order)
 	{
 	}
 
-	[Token(Token = "0x60050EF")]
-	[Address(RVA = "0x22DFCC0", Offset = "0x22DE2C0", VA = "0x1822DFCC0")]
+	[Token(Token = "0x600549E")]
+	[Address(RVA = "0x5CABAF0", Offset = "0x5CAAAF0", VA = "0x5CABAF0")]
 	public PanelResizeHandle()
 	{
 	}

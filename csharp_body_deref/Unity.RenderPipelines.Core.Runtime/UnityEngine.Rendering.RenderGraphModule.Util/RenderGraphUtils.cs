@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtils
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public static class RenderGraphUtils
 		public bool force2DForXR;
 
 		[Token(Token = "0x6001328")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x658A9F0", Offset = "0x65899F0", VA = "0x658A9F0")]
 		public CopyPassData()
 		{
 		}
@@ -96,7 +96,7 @@ public static class RenderGraphUtils
 		public bool isDepth;
 
 		[Token(Token = "0x6001329")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x658AA00", Offset = "0x6589A00", VA = "0x658AA00")]
 		public BlitPassData()
 		{
 		}
@@ -205,37 +205,37 @@ public static class RenderGraphUtils
 		public FullScreenGeometryType geometry;
 
 		[Token(Token = "0x600132A")]
-		[Address(RVA = "0x2B887E0", Offset = "0x2B86DE0", VA = "0x182B887E0")]
+		[Address(RVA = "0x658AA10", Offset = "0x6589A10", VA = "0x658AA10")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Material material, int shaderPass)
 		{
 		}
 
 		[Token(Token = "0x600132B")]
-		[Address(RVA = "0x2B88270", Offset = "0x2B86870", VA = "0x182B88270")]
+		[Address(RVA = "0x658ABA0", Offset = "0x6589BA0", VA = "0x658ABA0")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Vector2 scale, Vector2 offset, Material material, int shaderPass)
 		{
 		}
 
 		[Token(Token = "0x600132C")]
-		[Address(RVA = "0x2B88070", Offset = "0x2B86670", VA = "0x182B88070")]
+		[Address(RVA = "0x658AC90", Offset = "0x6589C90", VA = "0x658AC90")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Material material, int shaderPass, MaterialPropertyBlock mpb, int destinationSlice, int destinationMip, int numSlices = -1, int numMips = 1, int sourceSlice = -1, int sourceMip = -1, FullScreenGeometryType geometry = FullScreenGeometryType.Mesh, int sourceTexturePropertyID = -1, int sourceSlicePropertyID = -1, int sourceMipPropertyID = -1)
 		{
 		}
 
 		[Token(Token = "0x600132D")]
-		[Address(RVA = "0x2B88680", Offset = "0x2B86C80", VA = "0x182B88680")]
+		[Address(RVA = "0x658AE10", Offset = "0x6589E10", VA = "0x658AE10")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Vector2 scale, Vector2 offset, Material material, int shaderPass, MaterialPropertyBlock mpb, int destinationSlice, int destinationMip, int numSlices = -1, int numMips = 1, int sourceSlice = -1, int sourceMip = -1, FullScreenGeometryType geometry = FullScreenGeometryType.Mesh, int sourceTexturePropertyID = -1, int sourceSlicePropertyID = -1, int sourceMipPropertyID = -1, int scaleBiasPropertyID = -1)
 		{
 		}
 
 		[Token(Token = "0x600132E")]
-		[Address(RVA = "0x2B884C0", Offset = "0x2B86AC0", VA = "0x182B884C0")]
+		[Address(RVA = "0x658AFF0", Offset = "0x6589FF0", VA = "0x658AFF0")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Material material, int shaderPass, MaterialPropertyBlock mpb, FullScreenGeometryType geometry = FullScreenGeometryType.Mesh, int sourceTexturePropertyID = -1, int sourceSlicePropertyID = -1, int sourceMipPropertyID = -1)
 		{
 		}
 
 		[Token(Token = "0x600132F")]
-		[Address(RVA = "0x2B883A0", Offset = "0x2B869A0", VA = "0x182B883A0")]
+		[Address(RVA = "0x658B140", Offset = "0x658A140", VA = "0x658B140")]
 		public BlitMaterialParameters(TextureHandle source, TextureHandle destination, Vector2 scale, Vector2 offset, Material material, int shaderPass, MaterialPropertyBlock mpb, FullScreenGeometryType geometry = FullScreenGeometryType.Mesh, int sourceTexturePropertyID = -1, int sourceSlicePropertyID = -1, int sourceMipPropertyID = -1, int scaleBiasPropertyID = -1)
 		{
 		}
@@ -321,7 +321,7 @@ public static class RenderGraphUtils
 		public bool isXR;
 
 		[Token(Token = "0x6001331")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x658B3B0", Offset = "0x658A3B0", VA = "0x658B3B0")]
 		public BlitMaterialPassData()
 		{
 		}
@@ -336,102 +336,102 @@ public static class RenderGraphUtils
 	private static Vector4 s_BlitScaleBias;
 
 	[Token(Token = "0x6001318")]
-	[Address(RVA = "0x2BA5300", Offset = "0x2BA3900", VA = "0x182BA5300")]
+	[Address(RVA = "0x6587560", Offset = "0x6586560", VA = "0x6587560")]
 	public static bool CanAddCopyPassMSAA()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001319")]
-	[Address(RVA = "0x2BA5260", Offset = "0x2BA3860", VA = "0x182BA5260")]
+	[Address(RVA = "0x6587650", Offset = "0x6586650", VA = "0x6587650")]
 	public static bool CanAddCopyPassMSAA(in TextureDesc sourceDesc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131A")]
-	[Address(RVA = "0x2BA5390", Offset = "0x2BA3990", VA = "0x182BA5390")]
+	[Address(RVA = "0x6587710", Offset = "0x6586710", VA = "0x6587710")]
 	public static bool CanAddCopyPassMSAA(bool bindTextureMS)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131B")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x65877D0", Offset = "0x65867D0", VA = "0x65877D0")]
 	internal static bool IsFramebufferFetchEmulationSupportedOnCurrentPlatform()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131C")]
-	[Address(RVA = "0x2BA5710", Offset = "0x2BA3D10", VA = "0x182BA5710")]
+	[Address(RVA = "0x6587620", Offset = "0x6586620", VA = "0x6587620")]
 	internal static bool IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131D")]
-	[Address(RVA = "0x2BA5750", Offset = "0x2BA3D50", VA = "0x182BA5750")]
+	[Address(RVA = "0x65877E0", Offset = "0x65867E0", VA = "0x65877E0")]
 	public static bool IsFramebufferFetchSupportedOnCurrentPlatform(this RenderGraph graph, in TextureHandle tex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131E")]
-	[Address(RVA = "0x2BA5430", Offset = "0x2BA3A30", VA = "0x182BA5430")]
+	[Address(RVA = "0x65878B0", Offset = "0x65868B0", VA = "0x65878B0")]
 	public static bool CanAddCopyPass(this RenderGraph graph, TextureHandle source, TextureHandle destination)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131F")]
-	[Address(RVA = "0x2BA3EA0", Offset = "0x2BA24A0", VA = "0x182BA3EA0")]
+	[Address(RVA = "0x6587C80", Offset = "0x6586C80", VA = "0x6587C80")]
 	public static IBaseRenderGraphBuilder AddCopyPass(this RenderGraph graph, TextureHandle source, TextureHandle destination, string passName = "Copy Pass Utility", bool returnBuilder = false, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001320")]
-	[Address(RVA = "0x2BA3DF0", Offset = "0x2BA23F0", VA = "0x182BA3DF0")]
+	[Address(RVA = "0x65883B0", Offset = "0x65873B0", VA = "0x65883B0")]
 	public static void AddCopyPass(this RenderGraph graph, TextureHandle source, TextureHandle destination, int sourceSlice, int destinationSlice = 0, int sourceMip = 0, int destinationMip = 0, string passName = "Copy Pass Utility", [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 	}
 
 	[Token(Token = "0x6001321")]
-	[Address(RVA = "0x2BA5690", Offset = "0x2BA3C90", VA = "0x182BA5690")]
+	[Address(RVA = "0x6588450", Offset = "0x6587450", VA = "0x6588450")]
 	private static void CopyRenderFunc(CopyPassData data, RasterGraphContext rgContext)
 	{
 	}
 
 	[Token(Token = "0x6001322")]
-	[Address(RVA = "0x2BA5820", Offset = "0x2BA3E20", VA = "0x182BA5820")]
+	[Address(RVA = "0x65884C0", Offset = "0x65874C0", VA = "0x65884C0")]
 	internal static bool IsTextureXR(ref RenderTargetInfo destDesc, int sourceSlice, int destinationSlice, int numSlices, int numMips)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001323")]
-	[Address(RVA = "0x2BA3270", Offset = "0x2BA1870", VA = "0x182BA3270")]
+	[Address(RVA = "0x6588650", Offset = "0x6587650", VA = "0x6588650")]
 	public static IBaseRenderGraphBuilder AddBlitPass(this RenderGraph graph, TextureHandle source, TextureHandle destination, Vector2 scale, Vector2 offset, int sourceSlice = 0, int destinationSlice = 0, int numSlices = -1, int sourceMip = 0, int destinationMip = 0, int numMips = 1, BlitFilterMode filterMode = BlitFilterMode.ClampBilinear, string passName = "Blit Pass Utility", bool returnBuilder = false, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001324")]
-	[Address(RVA = "0x2BA4CB0", Offset = "0x2BA32B0", VA = "0x182BA4CB0")]
+	[Address(RVA = "0x65891E0", Offset = "0x65881E0", VA = "0x65891E0")]
 	private static void BlitRenderFunc(BlitPassData data, UnsafeGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x6001325")]
-	[Address(RVA = "0x2BA2700", Offset = "0x2BA0D00", VA = "0x182BA2700")]
+	[Address(RVA = "0x6589660", Offset = "0x6588660", VA = "0x6589660")]
 	public static IBaseRenderGraphBuilder AddBlitPass(this RenderGraph graph, BlitMaterialParameters blitParameters, string passName = "Blit Pass Utility w. Material", bool returnBuilder = false, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001326")]
-	[Address(RVA = "0x2BA45A0", Offset = "0x2BA2BA0", VA = "0x182BA45A0")]
+	[Address(RVA = "0x658A280", Offset = "0x6589280", VA = "0x658A280")]
 	private static void BlitMaterialRenderFunc(BlitMaterialPassData data, UnsafeGraphContext context)
 	{
 	}

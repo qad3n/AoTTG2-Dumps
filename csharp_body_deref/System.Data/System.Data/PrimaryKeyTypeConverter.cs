@@ -15,27 +15,27 @@ namespace System.Data;
 internal sealed class PrimaryKeyTypeConverter : ReferenceConverter
 {
 	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x2523300", Offset = "0x2521900", VA = "0x182523300")]
+	[Address(RVA = "0x5EC5CD0", Offset = "0x5EC4CD0", VA = "0x5EC5CD0")]
 	public PrimaryKeyTypeConverter()
 	{
 	}
 
 	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
+	[Address(RVA = "0x5EC5D60", Offset = "0x5EC4D60", VA = "0x5EC5D60", Slot = "11")]
 	public override bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006F4")]
-	[Address(RVA = "0x24E4B10", Offset = "0x24E3110", VA = "0x1824E4B10", Slot = "5")]
+	[Address(RVA = "0x5EC5D70", Offset = "0x5EC4D70", VA = "0x5EC5D70", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x2523190", Offset = "0x2521790", VA = "0x182523190", Slot = "7")]
+	[Address(RVA = "0x5EC5DF0", Offset = "0x5EC4DF0", VA = "0x5EC5DF0", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;

@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000180")]
+[Token(Token = "0x2000141")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class ComplexBindingPropertiesAttribute : Attribute
 {
-	[Token(Token = "0x4000661")]
+	[Token(Token = "0x4000592")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ComplexBindingPropertiesAttribute Default;
 
-	[Token(Token = "0x170001E3")]
+	[Token(Token = "0x170001B4")]
 	public string DataSource
 	{
-		[Token(Token = "0x60009BA")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60007FA")]
+		[Address(RVA = "0x6227860", Offset = "0x6226860", VA = "0x6227860")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,11 +30,11 @@ public sealed class ComplexBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170001E4")]
+	[Token(Token = "0x170001B5")]
 	public string DataMember
 	{
-		[Token(Token = "0x60009BB")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60007FB")]
+		[Address(RVA = "0x6227870", Offset = "0x6226870", VA = "0x6227870")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,33 +42,33 @@ public sealed class ComplexBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60007F7")]
+	[Address(RVA = "0x62277E0", Offset = "0x62267E0", VA = "0x62277E0")]
 	public ComplexBindingPropertiesAttribute()
 	{
 	}
 
-	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x60007F8")]
+	[Address(RVA = "0x62277F0", Offset = "0x62267F0", VA = "0x62277F0")]
 	public ComplexBindingPropertiesAttribute(string dataSource)
 	{
 	}
 
-	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Token(Token = "0x60007F9")]
+	[Address(RVA = "0x6227820", Offset = "0x6226820", VA = "0x6227820")]
 	public ComplexBindingPropertiesAttribute(string dataSource, string dataMember)
 	{
 	}
 
-	[Token(Token = "0x60009BC")]
-	[Address(RVA = "0x2893B60", Offset = "0x2892160", VA = "0x182893B60", Slot = "0")]
+	[Token(Token = "0x60007FC")]
+	[Address(RVA = "0x6227880", Offset = "0x6226880", VA = "0x6227880", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009BD")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x60007FD")]
+	[Address(RVA = "0x62278F0", Offset = "0x62268F0", VA = "0x62278F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

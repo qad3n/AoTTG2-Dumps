@@ -22,32 +22,32 @@ internal class AncestorFilter
 	private Stack<int> m_HashStack;
 
 	[Token(Token = "0x6000ADE")]
-	[Address(RVA = "0x323E420", Offset = "0x323CA20", VA = "0x18323E420")]
+	[Address(RVA = "0x6C4D620", Offset = "0x6C4C620", VA = "0x6C4D620")]
 	public AncestorFilter()
 	{
 	}
 
 	[Token(Token = "0x6000ADF")]
-	[Address(RVA = "0x323E050", Offset = "0x323C650", VA = "0x18323E050")]
+	[Address(RVA = "0x6C4D6A0", Offset = "0x6C4C6A0", VA = "0x6C4D6A0")]
 	private void AddHash(int hash)
 	{
 	}
 
 	[Token(Token = "0x6000AE0")]
-	[Address(RVA = "0x323E0D0", Offset = "0x323C6D0", VA = "0x18323E0D0")]
+	[Address(RVA = "0x6C4D730", Offset = "0x6C4C730", VA = "0x6C4D730")]
 	public bool IsCandidate(StyleComplexSelector complexSel)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AE1")]
-	[Address(RVA = "0x323E210", Offset = "0x323C810", VA = "0x18323E210")]
+	[Address(RVA = "0x6C4D7F0", Offset = "0x6C4C7F0", VA = "0x6C4D7F0")]
 	public void PushElement(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x6000AE2")]
-	[Address(RVA = "0x323E130", Offset = "0x323C730", VA = "0x18323E130")]
+	[Address(RVA = "0x6C4DAD0", Offset = "0x6C4CAD0", VA = "0x6C4DAD0")]
 	public void PopElement()
 	{
 	}

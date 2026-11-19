@@ -11,136 +11,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000497")]
+[Token(Token = "0x20004F6")]
 [CompilerGenerated]
 internal class CustomLogicCollideModeEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000498")]
+	[Token(Token = "0x20004F7")]
 	public static class Factory
 	{
-		[Token(Token = "0x600255B")]
-		[Address(RVA = "0x1FA3C30", Offset = "0x1FA2230", VA = "0x181FA3C30")]
+		[Token(Token = "0x60027D5")]
+		[Address(RVA = "0x595AA60", Offset = "0x5959A60", VA = "0x595AA60")]
 		public static CustomLogicCollideModeEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000499")]
+	[Token(Token = "0x20004F8")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001623")]
+		[Token(Token = "0x40017C3")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600255C")]
-		[Address(RVA = "0x1F83240", Offset = "0x1F81840", VA = "0x181F83240")]
+		[Token(Token = "0x60027D6")]
+		[Address(RVA = "0x595AB80", Offset = "0x5959B80", VA = "0x595AB80")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600255D")]
-		[Address(RVA = "0x1F99E10", Offset = "0x1F98410", VA = "0x181F99E10")]
+		[Token(Token = "0x60027D7")]
+		[Address(RVA = "0x595AD10", Offset = "0x5959D10", VA = "0x595AD10")]
 		public static CLPropertyBinding<CustomLogicCollideModeEnum> __CreatePropertyBinding__Region()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600255E")]
-		[Address(RVA = "0x1F996E0", Offset = "0x1F97CE0", VA = "0x181F996E0")]
+		[Token(Token = "0x60027D8")]
+		[Address(RVA = "0x595ADB0", Offset = "0x5959DB0", VA = "0x595ADB0")]
 		public static CLPropertyBinding<CustomLogicCollideModeEnum> __CreatePropertyBinding__Physical()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600255F")]
-		[Address(RVA = "0x1F99410", Offset = "0x1F97A10", VA = "0x181F99410")]
+		[Token(Token = "0x60027D9")]
+		[Address(RVA = "0x595AE50", Offset = "0x5959E50", VA = "0x595AE50")]
 		public static CLPropertyBinding<CustomLogicCollideModeEnum> __CreatePropertyBinding__None()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004F9")]
+	[Token(Token = "0x1700053B")]
 	public static string Region
 	{
-		[Token(Token = "0x6002554")]
-		[Address(RVA = "0x1F9FDB0", Offset = "0x1F9E3B0", VA = "0x181F9FDB0")]
+		[Token(Token = "0x60027CE")]
+		[Address(RVA = "0x595A8B0", Offset = "0x59598B0", VA = "0x595A8B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004FA")]
+	[Token(Token = "0x1700053C")]
 	public static string Physical
 	{
-		[Token(Token = "0x6002555")]
-		[Address(RVA = "0x1F9FD60", Offset = "0x1F9E360", VA = "0x181F9FD60")]
+		[Token(Token = "0x60027CF")]
+		[Address(RVA = "0x595A920", Offset = "0x5959920", VA = "0x595A920")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004FB")]
+	[Token(Token = "0x1700053D")]
 	public static string None
 	{
-		[Token(Token = "0x6002556")]
-		[Address(RVA = "0x1F9FD10", Offset = "0x1F9E310", VA = "0x181F9FD10")]
+		[Token(Token = "0x60027D0")]
+		[Address(RVA = "0x595A990", Offset = "0x5959990", VA = "0x595A990")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004FC")]
+	[Token(Token = "0x1700053E")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002557")]
-		[Address(RVA = "0x1F9FCE0", Offset = "0x1F9E2E0", VA = "0x181F9FCE0", Slot = "6")]
+		[Token(Token = "0x60027D1")]
+		[Address(RVA = "0x595AA00", Offset = "0x5959A00", VA = "0x595AA00", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004FD")]
+	[Token(Token = "0x1700053F")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002558")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x60027D2")]
+		[Address(RVA = "0x595AA30", Offset = "0x5959A30", VA = "0x595AA30", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004FE")]
+	[Token(Token = "0x17000540")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002559")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x60027D3")]
+		[Address(RVA = "0x595AA40", Offset = "0x5959A40", VA = "0x595AA40", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004FF")]
+	[Token(Token = "0x17000541")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600255A")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x60027D4")]
+		[Address(RVA = "0x595AA50", Offset = "0x5959A50", VA = "0x595AA50", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002553")]
-	[Address(RVA = "0x1F9FC90", Offset = "0x1F9E290", VA = "0x181F9FC90")]
+	[Token(Token = "0x60027CD")]
+	[Address(RVA = "0x595A840", Offset = "0x5959840", VA = "0x595A840")]
 	public CustomLogicCollideModeEnum()
 	{
 	}

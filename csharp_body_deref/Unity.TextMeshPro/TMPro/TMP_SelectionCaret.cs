@@ -17,19 +17,19 @@ namespace TMPro;
 public class TMP_SelectionCaret : MaskableGraphic
 {
 	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x2D3E470", Offset = "0x2D3CA70", VA = "0x182D3E470", Slot = "59")]
+	[Address(RVA = "0x6735660", Offset = "0x6734660", VA = "0x6735660", Slot = "59")]
 	public override void Cull(Rect clipRect, bool validRect)
 	{
 	}
 
 	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "41")]
+	[Address(RVA = "0x6735700", Offset = "0x6734700", VA = "0x6735700", Slot = "41")]
 	protected override void UpdateGeometry()
 	{
 	}
 
 	[Token(Token = "0x6000363")]
-	[Address(RVA = "0x23BE660", Offset = "0x23BCC60", VA = "0x1823BE660")]
+	[Address(RVA = "0x6735710", Offset = "0x6734710", VA = "0x6735710")]
 	public TMP_SelectionCaret()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsHingeJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -51,8 +51,8 @@ public struct PhysicsHingeJointDefinition
 
 	[Token(Token = "0x400006C")]
 	[FieldOffset(Offset = "0x38")]
-	[SerializeField]
 	[Min(0f)]
+	[SerializeField]
 	private float m_SpringFrequency;
 
 	[Token(Token = "0x400006D")]
@@ -73,8 +73,8 @@ public struct PhysicsHingeJointDefinition
 
 	[Token(Token = "0x4000070")]
 	[FieldOffset(Offset = "0x48")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_MaxMotorTorque;
 
 	[Token(Token = "0x4000071")]
@@ -84,20 +84,20 @@ public struct PhysicsHingeJointDefinition
 
 	[Token(Token = "0x4000072")]
 	[FieldOffset(Offset = "0x50")]
-	[SerializeField]
 	[Range(-178f, 178f)]
+	[SerializeField]
 	private float m_LowerAngleLimit;
 
 	[Token(Token = "0x4000073")]
 	[FieldOffset(Offset = "0x54")]
-	[Range(-178f, 178f)]
 	[SerializeField]
+	[Range(-178f, 178f)]
 	private float m_UpperAngleLimit;
 
 	[Token(Token = "0x4000074")]
 	[FieldOffset(Offset = "0x58")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_ForceThreshold;
 
 	[Token(Token = "0x4000075")]
@@ -108,14 +108,14 @@ public struct PhysicsHingeJointDefinition
 
 	[Token(Token = "0x4000076")]
 	[FieldOffset(Offset = "0x60")]
-	[Range(0f, 1000f)]
 	[SerializeField]
+	[Range(0f, 1000f)]
 	private float m_TuningFrequency;
 
 	[Token(Token = "0x4000077")]
 	[FieldOffset(Offset = "0x64")]
-	[Range(0f, 10f)]
 	[SerializeField]
+	[Range(0f, 10f)]
 	private float m_TuningDamping;
 
 	[Token(Token = "0x4000078")]
@@ -133,7 +133,7 @@ public struct PhysicsHingeJointDefinition
 	public static PhysicsHingeJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x2FD1F30", Offset = "0x2FD0530", VA = "0x182FD1F30")]
+		[Address(RVA = "0x69CB880", Offset = "0x69CA880", VA = "0x69CB880")]
 		get
 		{
 			return default(PhysicsHingeJointDefinition);
@@ -141,13 +141,13 @@ public struct PhysicsHingeJointDefinition
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x2FD1DE0", Offset = "0x2FD03E0", VA = "0x182FD1DE0")]
+	[Address(RVA = "0x69CB7A0", Offset = "0x69CA7A0", VA = "0x69CB7A0")]
 	public PhysicsHingeJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x2FD1E80", Offset = "0x2FD0480", VA = "0x182FD1E80")]
+	[Address(RVA = "0x69C8FB0", Offset = "0x69C7FB0", VA = "0x69C8FB0")]
 	public PhysicsHingeJointDefinition(bool useSettings)
 	{
 	}

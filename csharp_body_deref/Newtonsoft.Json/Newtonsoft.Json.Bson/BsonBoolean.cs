@@ -21,7 +21,7 @@ internal class BsonBoolean : BsonValue
 	public static readonly BsonBoolean True;
 
 	[Token(Token = "0x6001016")]
-	[Address(RVA = "0x1CA9D20", Offset = "0x1CA8320", VA = "0x181CA9D20")]
+	[Address(RVA = "0x564BB30", Offset = "0x564AB30", VA = "0x564BB30")]
 	private BsonBoolean(bool value)
 	{
 	}

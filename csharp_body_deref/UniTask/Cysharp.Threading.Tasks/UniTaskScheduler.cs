@@ -41,13 +41,13 @@ public static class UniTaskScheduler
 	public static event Action<Exception> UnobservedTaskException
 	{
 		[Token(Token = "0x60007DE")]
-		[Address(RVA = "0x2948EB0", Offset = "0x29474B0", VA = "0x182948EB0")]
+		[Address(RVA = "0x62E4400", Offset = "0x62E3400", VA = "0x62E4400")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60007DF")]
-		[Address(RVA = "0x2948FC0", Offset = "0x29475C0", VA = "0x182948FC0")]
+		[Address(RVA = "0x62E44F0", Offset = "0x62E34F0", VA = "0x62E44F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -55,13 +55,13 @@ public static class UniTaskScheduler
 	}
 
 	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x2948970", Offset = "0x2946F70", VA = "0x182948970")]
+	[Address(RVA = "0x62E45E0", Offset = "0x62E35E0", VA = "0x62E45E0")]
 	private static void InvokeUnobservedTaskException(object state)
 	{
 	}
 
 	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x2948A30", Offset = "0x2947030", VA = "0x182948A30")]
+	[Address(RVA = "0x62E46C0", Offset = "0x62E36C0", VA = "0x62E46C0")]
 	internal static void PublishUnobservedTaskException(Exception ex)
 	{
 	}

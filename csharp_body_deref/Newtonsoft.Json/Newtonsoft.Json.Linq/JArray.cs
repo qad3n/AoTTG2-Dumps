@@ -57,13 +57,13 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B3E")]
-		[Address(RVA = "0x1C6EEE0", Offset = "0x1C6D4E0", VA = "0x181C6EEE0", Slot = "4")]
+		[Address(RVA = "0x55FD2B0", Offset = "0x55FC2B0", VA = "0x55FD2B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B3F")]
-		[Address(RVA = "0x1C6F4A0", Offset = "0x1C6DAA0", VA = "0x181C6F4A0", Slot = "5")]
+		[Address(RVA = "0x55FD970", Offset = "0x55FC970", VA = "0x55FD970", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -108,13 +108,13 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 		private int _003Ci_003E5__2;
 
 		[Token(Token = "0x6000B40")]
-		[Address(RVA = "0x1C6FDD0", Offset = "0x1C6E3D0", VA = "0x181C6FDD0", Slot = "4")]
+		[Address(RVA = "0x55FD9E0", Offset = "0x55FC9E0", VA = "0x55FD9E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B41")]
-		[Address(RVA = "0x1C701D0", Offset = "0x1C6E7D0", VA = "0x181C701D0", Slot = "5")]
+		[Address(RVA = "0x55FDE40", Offset = "0x55FCE40", VA = "0x55FDE40", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -129,7 +129,7 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	protected override IList<JToken> ChildrenTokens
 	{
 		[Token(Token = "0x6000B1D")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570", Slot = "75")]
+		[Address(RVA = "0x55FC330", Offset = "0x55FB330", VA = "0x55FC330", Slot = "75")]
 		get
 		{
 			return null;
@@ -140,7 +140,7 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	public override JTokenType Type
 	{
 		[Token(Token = "0x6000B1E")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "15")]
+		[Address(RVA = "0x55FC340", Offset = "0x55FB340", VA = "0x55FC340", Slot = "15")]
 		get
 		{
 			return default(JTokenType);
@@ -151,13 +151,13 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	public override JToken? this[object key]
 	{
 		[Token(Token = "0x6000B2D")]
-		[Address(RVA = "0x1C56780", Offset = "0x1C54D80", VA = "0x181C56780", Slot = "17")]
+		[Address(RVA = "0x55FCD90", Offset = "0x55FBD90", VA = "0x55FCD90", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B2E")]
-		[Address(RVA = "0x1C568E0", Offset = "0x1C54EE0", VA = "0x181C568E0", Slot = "18")]
+		[Address(RVA = "0x55FCE90", Offset = "0x55FBE90", VA = "0x55FCE90", Slot = "18")]
 		set
 		{
 		}
@@ -167,13 +167,13 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	public JToken this[int index]
 	{
 		[Token(Token = "0x6000B2F")]
-		[Address(RVA = "0x1C568A0", Offset = "0x1C54EA0", VA = "0x181C568A0", Slot = "27")]
+		[Address(RVA = "0x55FCFA0", Offset = "0x55FBFA0", VA = "0x55FCFA0", Slot = "27")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B30")]
-		[Address(RVA = "0x1C568C0", Offset = "0x1C54EC0", VA = "0x181C568C0", Slot = "28")]
+		[Address(RVA = "0x55FCFC0", Offset = "0x55FBFC0", VA = "0x55FCFC0", Slot = "28")]
 		set
 		{
 		}
@@ -183,7 +183,7 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6000B3B")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "33")]
+		[Address(RVA = "0x55FD270", Offset = "0x55FC270", VA = "0x55FD270", Slot = "33")]
 		get
 		{
 			return default(bool);
@@ -191,7 +191,7 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	}
 
 	[Token(Token = "0x6000B1A")]
-	[Address(RVA = "0x1C56320", Offset = "0x1C54920", VA = "0x181C56320", Slot = "12")]
+	[Address(RVA = "0x55FC0B0", Offset = "0x55FB0B0", VA = "0x55FC0B0", Slot = "12")]
 	[AsyncStateMachine(typeof(_003CWriteToAsync_003Ed__0))]
 	public override Task WriteToAsync(JsonWriter writer, CancellationToken cancellationToken, params JsonConverter[] converters)
 	{
@@ -199,14 +199,14 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	}
 
 	[Token(Token = "0x6000B1B")]
-	[Address(RVA = "0x1C55C20", Offset = "0x1C54220", VA = "0x181C55C20")]
+	[Address(RVA = "0x55FC1E0", Offset = "0x55FB1E0", VA = "0x55FC1E0")]
 	public new static Task<JArray> LoadAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B1C")]
-	[Address(RVA = "0x1C55D60", Offset = "0x1C54360", VA = "0x181C55D60")]
+	[Address(RVA = "0x55FC1F0", Offset = "0x55FB1F0", VA = "0x55FC1F0")]
 	[AsyncStateMachine(typeof(_003CLoadAsync_003Ed__2))]
 	public new static Task<JArray> LoadAsync(JsonReader reader, JsonLoadSettings? settings, [Optional] CancellationToken cancellationToken)
 	{
@@ -214,170 +214,170 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 	}
 
 	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x1C56540", Offset = "0x1C54B40", VA = "0x181C56540")]
+	[Address(RVA = "0x55FC350", Offset = "0x55FB350", VA = "0x55FC350")]
 	public JArray()
 	{
 	}
 
 	[Token(Token = "0x6000B20")]
-	[Address(RVA = "0x1C56660", Offset = "0x1C54C60", VA = "0x181C56660")]
+	[Address(RVA = "0x55FC3D0", Offset = "0x55FB3D0", VA = "0x55FC3D0")]
 	public JArray(JArray other)
 	{
 	}
 
 	[Token(Token = "0x6000B21")]
-	[Address(RVA = "0x1C566F0", Offset = "0x1C54CF0", VA = "0x181C566F0")]
+	[Address(RVA = "0x55FC450", Offset = "0x55FB450", VA = "0x55FC450")]
 	internal JArray(JArray other, JsonCloneSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B22")]
-	[Address(RVA = "0x1C565C0", Offset = "0x1C54BC0", VA = "0x181C565C0")]
+	[Address(RVA = "0x55FC4E0", Offset = "0x55FB4E0", VA = "0x55FC4E0")]
 	public JArray(params object[] content)
 	{
 	}
 
 	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x1C565C0", Offset = "0x1C54BC0", VA = "0x181C565C0")]
+	[Address(RVA = "0x55FC570", Offset = "0x55FB570", VA = "0x55FC570")]
 	public JArray(object content)
 	{
 	}
 
 	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x1C55750", Offset = "0x1C53D50", VA = "0x181C55750", Slot = "14")]
+	[Address(RVA = "0x55FC600", Offset = "0x55FB600", VA = "0x55FC600", Slot = "14")]
 	internal override bool DeepEquals(JToken node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B25")]
-	[Address(RVA = "0x1C55660", Offset = "0x1C53C60", VA = "0x181C55660", Slot = "13")]
+	[Address(RVA = "0x55FC680", Offset = "0x55FB680", VA = "0x55FC680", Slot = "13")]
 	internal override JToken CloneToken([Optional] JsonCloneSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B26")]
-	[Address(RVA = "0x1C56090", Offset = "0x1C54690", VA = "0x181C56090")]
+	[Address(RVA = "0x55FC740", Offset = "0x55FB740", VA = "0x55FC740")]
 	public new static JArray Load(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x1C55EB0", Offset = "0x1C544B0", VA = "0x181C55EB0")]
+	[Address(RVA = "0x55FC750", Offset = "0x55FB750", VA = "0x55FC750")]
 	public new static JArray Load(JsonReader reader, JsonLoadSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B28")]
-	[Address(RVA = "0x1C562D0", Offset = "0x1C548D0", VA = "0x181C562D0")]
+	[Address(RVA = "0x55FC960", Offset = "0x55FB960", VA = "0x55FC960")]
 	public new static JArray Parse(string json)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B29")]
-	[Address(RVA = "0x1C56180", Offset = "0x1C54780", VA = "0x181C56180")]
+	[Address(RVA = "0x55FC970", Offset = "0x55FB970", VA = "0x55FC970")]
 	public new static JArray Parse(string json, JsonLoadSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B2A")]
-	[Address(RVA = "0x1C557E0", Offset = "0x1C53DE0", VA = "0x181C557E0")]
+	[Address(RVA = "0x55FCB20", Offset = "0x55FBB20", VA = "0x55FCB20")]
 	public new static JArray FromObject(object o)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B2B")]
-	[Address(RVA = "0x1C55960", Offset = "0x1C53F60", VA = "0x181C55960")]
+	[Address(RVA = "0x55FCB40", Offset = "0x55FBB40", VA = "0x55FCB40")]
 	public new static JArray FromObject(object o, JsonSerializer jsonSerializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B2C")]
-	[Address(RVA = "0x1C56450", Offset = "0x1C54A50", VA = "0x181C56450", Slot = "24")]
+	[Address(RVA = "0x55FCCB0", Offset = "0x55FBCB0", VA = "0x55FCCB0", Slot = "24")]
 	public override void WriteTo(JsonWriter writer, params JsonConverter[] converters)
 	{
 	}
 
 	[Token(Token = "0x6000B31")]
-	[Address(RVA = "0x1C55B70", Offset = "0x1C54170", VA = "0x181C55B70", Slot = "80")]
+	[Address(RVA = "0x55FCFE0", Offset = "0x55FBFE0", VA = "0x55FCFE0", Slot = "80")]
 	internal override int IndexOfItem(JToken? item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x1C560A0", Offset = "0x1C546A0", VA = "0x181C560A0", Slot = "92")]
+	[Address(RVA = "0x55FD040", Offset = "0x55FC040", VA = "0x55FD040", Slot = "92")]
 	internal override void MergeItem(object content, JsonMergeSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x1C55BD0", Offset = "0x1C541D0", VA = "0x181C55BD0", Slot = "29")]
+	[Address(RVA = "0x55FD110", Offset = "0x55FC110", VA = "0x55FD110", Slot = "29")]
 	public int IndexOf(JToken item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x1C55BF0", Offset = "0x1C541F0", VA = "0x181C55BF0", Slot = "30")]
+	[Address(RVA = "0x55FD130", Offset = "0x55FC130", VA = "0x55FD130", Slot = "30")]
 	public void Insert(int index, JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x1C562E0", Offset = "0x1C548E0", VA = "0x181C562E0", Slot = "31")]
+	[Address(RVA = "0x55FD150", Offset = "0x55FC150", VA = "0x55FD150", Slot = "31")]
 	public void RemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000B36")]
-	[Address(RVA = "0x1C55AF0", Offset = "0x1C540F0", VA = "0x181C55AF0", Slot = "5")]
+	[Address(RVA = "0x55FD170", Offset = "0x55FC170", VA = "0x55FD170", Slot = "5")]
 	public IEnumerator<JToken> GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x1C55620", Offset = "0x1C53C20", VA = "0x181C55620", Slot = "34")]
+	[Address(RVA = "0x55FD1F0", Offset = "0x55FC1F0", VA = "0x55FD1F0", Slot = "34")]
 	public void Add(JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x1C55640", Offset = "0x1C53C40", VA = "0x181C55640", Slot = "35")]
+	[Address(RVA = "0x55FD210", Offset = "0x55FC210", VA = "0x55FD210", Slot = "35")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x1C55710", Offset = "0x1C53D10", VA = "0x181C55710", Slot = "36")]
+	[Address(RVA = "0x55FD230", Offset = "0x55FC230", VA = "0x55FD230", Slot = "36")]
 	public bool Contains(JToken item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x1C55730", Offset = "0x1C53D30", VA = "0x181C55730", Slot = "37")]
+	[Address(RVA = "0x55FD250", Offset = "0x55FC250", VA = "0x55FD250", Slot = "37")]
 	public void CopyTo(JToken[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000B3C")]
-	[Address(RVA = "0x1C56300", Offset = "0x1C54900", VA = "0x181C56300", Slot = "38")]
+	[Address(RVA = "0x55FD280", Offset = "0x55FC280", VA = "0x55FD280", Slot = "38")]
 	public bool Remove(JToken item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B3D")]
-	[Address(RVA = "0x1C55AE0", Offset = "0x1C540E0", VA = "0x181C55AE0", Slot = "25")]
+	[Address(RVA = "0x55FD2A0", Offset = "0x55FC2A0", VA = "0x55FD2A0", Slot = "25")]
 	internal override int GetDeepHashCode()
 	{
 		return default(int);

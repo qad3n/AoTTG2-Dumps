@@ -14,13 +14,13 @@ namespace Photon.Pun.UtilityScripts;
 public class EventSystemSpawner : MonoBehaviour
 {
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x1D52F90", Offset = "0x1D51590", VA = "0x181D52F90")]
+	[Address(RVA = "0x56F8180", Offset = "0x56F7180", VA = "0x56F8180")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F8270", Offset = "0x56F7270", VA = "0x56F8270")]
 	public EventSystemSpawner()
 	{
 	}

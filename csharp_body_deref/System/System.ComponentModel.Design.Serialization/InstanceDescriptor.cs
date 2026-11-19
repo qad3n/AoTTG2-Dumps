@@ -12,19 +12,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design.Serialization;
 
-[Token(Token = "0x200023F")]
+[Token(Token = "0x2000200")]
 public sealed class InstanceDescriptor
 {
-	[Token(Token = "0x4000818")]
+	[Token(Token = "0x4000749")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly bool _003CIsComplete_003Ek__BackingField;
 
-	[Token(Token = "0x1700030E")]
+	[Token(Token = "0x170002DF")]
 	public ICollection Arguments
 	{
-		[Token(Token = "0x6000F8B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000DCB")]
+		[Address(RVA = "0x627EEA0", Offset = "0x627DEA0", VA = "0x627EEA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -32,11 +32,11 @@ public sealed class InstanceDescriptor
 		}
 	}
 
-	[Token(Token = "0x1700030F")]
+	[Token(Token = "0x170002E0")]
 	public MemberInfo MemberInfo
 	{
-		[Token(Token = "0x6000F8C")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000DCC")]
+		[Address(RVA = "0x627EEB0", Offset = "0x627DEB0", VA = "0x627EEB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,20 +44,20 @@ public sealed class InstanceDescriptor
 		}
 	}
 
-	[Token(Token = "0x6000F89")]
-	[Address(RVA = "0x28D4010", Offset = "0x28D2610", VA = "0x1828D4010")]
+	[Token(Token = "0x6000DC9")]
+	[Address(RVA = "0x627E8A0", Offset = "0x627D8A0", VA = "0x627E8A0")]
 	public InstanceDescriptor(MemberInfo member, ICollection arguments)
 	{
 	}
 
-	[Token(Token = "0x6000F8A")]
-	[Address(RVA = "0x28D4030", Offset = "0x28D2630", VA = "0x1828D4030")]
+	[Token(Token = "0x6000DCA")]
+	[Address(RVA = "0x627E8B0", Offset = "0x627D8B0", VA = "0x627E8B0")]
 	public InstanceDescriptor(MemberInfo member, ICollection arguments, bool isComplete)
 	{
 	}
 
-	[Token(Token = "0x6000F8D")]
-	[Address(RVA = "0x28D3BF0", Offset = "0x28D21F0", VA = "0x1828D3BF0")]
+	[Token(Token = "0x6000DCD")]
+	[Address(RVA = "0x6264A70", Offset = "0x6263A70", VA = "0x6264A70")]
 	public object Invoke()
 	{
 		return null;

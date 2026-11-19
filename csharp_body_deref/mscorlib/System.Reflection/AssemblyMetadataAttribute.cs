@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004FB")]
+[Token(Token = "0x20004D4")]
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = true, Inherited = false)]
 public sealed class AssemblyMetadataAttribute : Attribute
 {
-	[Token(Token = "0x40013B0")]
+	[Token(Token = "0x4001310")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CKey_003Ek__BackingField;
 
-	[Token(Token = "0x40013B1")]
+	[Token(Token = "0x4001311")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly string _003CValue_003Ek__BackingField;
 
-	[Token(Token = "0x600245B")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Token(Token = "0x6002429")]
+	[Address(RVA = "0x53D78C0", Offset = "0x53D68C0", VA = "0x53D78C0")]
 	public AssemblyMetadataAttribute(string key, string value)
 	{
 	}

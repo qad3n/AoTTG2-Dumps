@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.NativeArray
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,11 +19,11 @@ using UnityEngine.Internal;
 namespace Unity.Collections;
 
 [Token(Token = "0x2000059")]
+[DebuggerTypeProxy(typeof(NativeArrayDebugView<>))]
+[NativeContainer]
 [NativeContainerSupportsMinMaxWriteRestriction]
 [NativeContainerSupportsDeallocateOnJobCompletion]
 [DebuggerDisplay("Length = {m_Length}")]
-[NativeContainer]
-[DebuggerTypeProxy(typeof(NativeArrayDebugView<>))]
 [NativeContainerSupportsDeferredConvertListToArray]
 public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquatable<NativeArray<T>> where T : struct
 {
@@ -47,7 +47,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 		public T Current
 		{
 			[MethodImpl((MethodImplOptions)256)]
-			[Token(Token = "0x600011D")]
+			[Token(Token = "0x600011F")]
 			get
 			{
 				return (T)null;
@@ -58,41 +58,41 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[MethodImpl((MethodImplOptions)256)]
-			[Token(Token = "0x600011E")]
+			[Token(Token = "0x6000120")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000119")]
+		[Token(Token = "0x600011B")]
 		public Enumerator(ref NativeArray<T> array)
 		{
 		}
 
-		[Token(Token = "0x600011A")]
+		[Token(Token = "0x600011C")]
 		public void Dispose()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600011B")]
+		[Token(Token = "0x600011D")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600011C")]
+		[Token(Token = "0x600011E")]
 		public void Reset()
 		{
 		}
 	}
 
 	[Token(Token = "0x200005B")]
-	[DebuggerDisplay("Length = {Length}")]
+	[NativeContainerIsReadOnly]
 	[NativeContainer]
 	[DebuggerTypeProxy(typeof(NativeArrayReadOnlyDebugView<>))]
-	[NativeContainerIsReadOnly]
+	[DebuggerDisplay("Length = {Length}")]
 	public struct ReadOnly : IEnumerable<T>, IEnumerable
 	{
 		[Token(Token = "0x200005C")]
@@ -115,7 +115,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 			public T Current
 			{
 				[MethodImpl((MethodImplOptions)256)]
-				[Token(Token = "0x600012C")]
+				[Token(Token = "0x600012E")]
 				get
 				{
 					return (T)null;
@@ -125,31 +125,31 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 			[Token(Token = "0x17000024")]
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
-				[Token(Token = "0x600012D")]
+				[Token(Token = "0x600012F")]
 				get
 				{
 					return null;
 				}
 			}
 
-			[Token(Token = "0x6000128")]
+			[Token(Token = "0x600012A")]
 			public Enumerator(in ReadOnly array)
 			{
 			}
 
-			[Token(Token = "0x6000129")]
+			[Token(Token = "0x600012B")]
 			public void Dispose()
 			{
 			}
 
 			[MethodImpl((MethodImplOptions)256)]
-			[Token(Token = "0x600012A")]
+			[Token(Token = "0x600012C")]
 			public bool MoveNext()
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x600012B")]
+			[Token(Token = "0x600012D")]
 			public void Reset()
 			{
 			}
@@ -168,7 +168,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 		public int Length
 		{
 			[MethodImpl((MethodImplOptions)256)]
-			[Token(Token = "0x6000120")]
+			[Token(Token = "0x6000122")]
 			get
 			{
 				return default(int);
@@ -179,49 +179,49 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 		public T this[int index]
 		{
 			[MethodImpl((MethodImplOptions)256)]
-			[Token(Token = "0x6000121")]
+			[Token(Token = "0x6000123")]
 			get
 			{
 				return (T)null;
 			}
 		}
 
-		[Token(Token = "0x600011F")]
+		[Token(Token = "0x6000121")]
 		internal unsafe ReadOnly(void* buffer, int length)
 		{
 		}
 
-		[Token(Token = "0x6000122")]
+		[Token(Token = "0x6000124")]
 		public unsafe ref T UnsafeElementAt(int index)
 		{
 			return ref *(T*)null;
 		}
 
-		[Token(Token = "0x6000123")]
+		[Token(Token = "0x6000125")]
 		public Enumerator GetEnumerator()
 		{
 			return default(Enumerator);
 		}
 
-		[Token(Token = "0x6000124")]
+		[Token(Token = "0x6000126")]
 		private IEnumerator<T> System_002ECollections_002EGeneric_002EIEnumerable_003CT_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000125")]
+		[Token(Token = "0x6000127")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000126")]
+		[Token(Token = "0x6000128")]
 		public readonly ReadOnlySpan<T> AsReadOnlySpan()
 		{
 			return default(ReadOnlySpan<T>);
 		}
 
-		[Token(Token = "0x6000127")]
+		[Token(Token = "0x6000129")]
 		public static implicit operator ReadOnlySpan<T>(in ReadOnly source)
 		{
 			return default(ReadOnlySpan<T>);
@@ -246,7 +246,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	public int Length
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60000F5")]
+		[Token(Token = "0x60000F7")]
 		get
 		{
 			return default(int);
@@ -257,13 +257,13 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	public T this[int index]
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60000F6")]
+		[Token(Token = "0x60000F8")]
 		get
 		{
 			return (T)null;
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60000F7")]
+		[Token(Token = "0x60000F9")]
 		[WriteAccessRequired]
 		set
 		{
@@ -274,215 +274,215 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	public bool IsCreated
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60000F8")]
+		[Token(Token = "0x60000FA")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60000F0")]
+	[Token(Token = "0x60000F2")]
 	public NativeArray(int length, Allocator allocator, NativeArrayOptions options = NativeArrayOptions.ClearMemory)
 	{
 	}
 
-	[Token(Token = "0x60000F1")]
+	[Token(Token = "0x60000F3")]
 	public NativeArray(int length, MemoryLabel label, NativeArrayOptions options = NativeArrayOptions.ClearMemory)
 	{
 	}
 
-	[Token(Token = "0x60000F2")]
+	[Token(Token = "0x60000F4")]
 	public NativeArray(T[] array, Allocator allocator)
 	{
 	}
 
-	[Token(Token = "0x60000F3")]
+	[Token(Token = "0x60000F5")]
 	public NativeArray(NativeArray<T> array, Allocator allocator)
 	{
 	}
 
-	[Token(Token = "0x60000F4")]
+	[Token(Token = "0x60000F6")]
 	private static void Allocate(int length, Allocator allocator, MemoryLabel label, out NativeArray<T> array)
 	{
 	}
 
-	[Token(Token = "0x60000F9")]
+	[Token(Token = "0x60000FB")]
 	[WriteAccessRequired]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60000FA")]
+	[Token(Token = "0x60000FC")]
 	public JobHandle Dispose(JobHandle inputDeps)
 	{
 		return default(JobHandle);
 	}
 
-	[Token(Token = "0x60000FB")]
+	[Token(Token = "0x60000FD")]
 	[WriteAccessRequired]
 	public void CopyFrom(T[] array)
 	{
 	}
 
-	[Token(Token = "0x60000FC")]
+	[Token(Token = "0x60000FE")]
 	[WriteAccessRequired]
 	public void CopyFrom(NativeArray<T> array)
 	{
 	}
 
-	[Token(Token = "0x60000FD")]
+	[Token(Token = "0x60000FF")]
 	public void CopyTo(T[] array)
 	{
 	}
 
-	[Token(Token = "0x60000FE")]
+	[Token(Token = "0x6000100")]
 	public T[] ToArray()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000FF")]
+	[Token(Token = "0x6000101")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
-	[Token(Token = "0x6000100")]
+	[Token(Token = "0x6000102")]
 	private IEnumerator<T> System_002ECollections_002EGeneric_002EIEnumerable_003CT_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000101")]
+	[Token(Token = "0x6000103")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000102")]
+	[Token(Token = "0x6000104")]
 	public bool Equals(NativeArray<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000103")]
+	[Token(Token = "0x6000105")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000104")]
+	[Token(Token = "0x6000106")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000105")]
+	[Token(Token = "0x6000107")]
 	public static bool operator ==(NativeArray<T> left, NativeArray<T> right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000106")]
+	[Token(Token = "0x6000108")]
 	public static void Copy(NativeArray<T> src, NativeArray<T> dst)
 	{
 	}
 
-	[Token(Token = "0x6000107")]
+	[Token(Token = "0x6000109")]
 	public static void Copy(T[] src, NativeArray<T> dst)
 	{
 	}
 
-	[Token(Token = "0x6000108")]
+	[Token(Token = "0x600010A")]
 	public static void Copy(NativeArray<T> src, T[] dst)
 	{
 	}
 
-	[Token(Token = "0x6000109")]
+	[Token(Token = "0x600010B")]
 	public static void Copy(NativeArray<T> src, NativeArray<T> dst, int length)
 	{
 	}
 
-	[Token(Token = "0x600010A")]
+	[Token(Token = "0x600010C")]
 	public static void Copy(NativeArray<T> src, T[] dst, int length)
 	{
 	}
 
-	[Token(Token = "0x600010B")]
+	[Token(Token = "0x600010D")]
 	public static void Copy(NativeArray<T> src, int srcIndex, NativeArray<T> dst, int dstIndex, int length)
 	{
 	}
 
-	[Token(Token = "0x600010C")]
+	[Token(Token = "0x600010E")]
 	public static void Copy(NativeArray<T> src, int srcIndex, T[] dst, int dstIndex, int length)
 	{
 	}
 
-	[Token(Token = "0x600010D")]
+	[Token(Token = "0x600010F")]
 	private static void CopySafe(NativeArray<T> src, int srcIndex, NativeArray<T> dst, int dstIndex, int length)
 	{
 	}
 
-	[Token(Token = "0x600010E")]
+	[Token(Token = "0x6000110")]
 	private static void CopySafe(T[] src, int srcIndex, NativeArray<T> dst, int dstIndex, int length)
 	{
 	}
 
-	[Token(Token = "0x600010F")]
+	[Token(Token = "0x6000111")]
 	private static void CopySafe(NativeArray<T> src, int srcIndex, T[] dst, int dstIndex, int length)
 	{
 	}
 
-	[Token(Token = "0x6000110")]
+	[Token(Token = "0x6000112")]
 	private NativeArray<U> InternalReinterpret<U>(int length) where U : struct
 	{
 		return default(NativeArray<U>);
 	}
 
-	[Token(Token = "0x6000111")]
+	[Token(Token = "0x6000113")]
 	public NativeArray<U> Reinterpret<U>() where U : struct
 	{
 		return default(NativeArray<U>);
 	}
 
-	[Token(Token = "0x6000112")]
+	[Token(Token = "0x6000114")]
 	public NativeArray<U> Reinterpret<U>(int expectedTypeSize) where U : struct
 	{
 		return default(NativeArray<U>);
 	}
 
-	[Token(Token = "0x6000113")]
+	[Token(Token = "0x6000115")]
 	public NativeArray<T> GetSubArray(int start, int length)
 	{
 		return default(NativeArray<T>);
 	}
 
-	[Token(Token = "0x6000114")]
+	[Token(Token = "0x6000116")]
 	public ReadOnly AsReadOnly()
 	{
 		return default(ReadOnly);
 	}
 
-	[Token(Token = "0x6000115")]
+	[Token(Token = "0x6000117")]
 	[WriteAccessRequired]
 	public readonly Span<T> AsSpan()
 	{
 		return default(Span<T>);
 	}
 
-	[Token(Token = "0x6000116")]
+	[Token(Token = "0x6000118")]
 	public readonly ReadOnlySpan<T> AsReadOnlySpan()
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
-	[Token(Token = "0x6000117")]
+	[Token(Token = "0x6000119")]
 	public static implicit operator Span<T>(in NativeArray<T> source)
 	{
 		return default(Span<T>);
 	}
 
-	[Token(Token = "0x6000118")]
+	[Token(Token = "0x600011A")]
 	public static implicit operator ReadOnlySpan<T>(in NativeArray<T> source)
 	{
 		return default(ReadOnlySpan<T>);

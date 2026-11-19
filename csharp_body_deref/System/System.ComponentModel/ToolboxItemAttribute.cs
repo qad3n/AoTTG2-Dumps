@@ -9,82 +9,82 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000195")]
+[Token(Token = "0x2000156")]
 [AttributeUsage(AttributeTargets.All)]
 public class ToolboxItemAttribute : Attribute
 {
-	[Token(Token = "0x4000691")]
+	[Token(Token = "0x40005C2")]
 	[FieldOffset(Offset = "0x10")]
 	private Type _toolboxItemType;
 
-	[Token(Token = "0x4000692")]
+	[Token(Token = "0x40005C3")]
 	[FieldOffset(Offset = "0x18")]
 	private string _toolboxItemTypeName;
 
-	[Token(Token = "0x4000693")]
+	[Token(Token = "0x40005C4")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ToolboxItemAttribute Default;
 
-	[Token(Token = "0x4000694")]
+	[Token(Token = "0x40005C5")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly ToolboxItemAttribute None;
 
-	[Token(Token = "0x170001F8")]
+	[Token(Token = "0x170001C9")]
 	public Type ToolboxItemType
 	{
-		[Token(Token = "0x6000A3F")]
-		[Address(RVA = "0x28AD7D0", Offset = "0x28ABDD0", VA = "0x1828AD7D0")]
+		[Token(Token = "0x600087F")]
+		[Address(RVA = "0x6231630", Offset = "0x6230630", VA = "0x6231630")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001F9")]
+	[Token(Token = "0x170001CA")]
 	public string ToolboxItemTypeName
 	{
-		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
+		[Token(Token = "0x6000880")]
+		[Address(RVA = "0x62317D0", Offset = "0x62307D0", VA = "0x62317D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A3B")]
-	[Address(RVA = "0x28AD4B0", Offset = "0x28ABAB0", VA = "0x1828AD4B0", Slot = "6")]
+	[Token(Token = "0x600087B")]
+	[Address(RVA = "0x6231480", Offset = "0x6230480", VA = "0x6231480", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A3C")]
-	[Address(RVA = "0x28AD700", Offset = "0x28ABD00", VA = "0x1828AD700")]
+	[Token(Token = "0x600087C")]
+	[Address(RVA = "0x62314F0", Offset = "0x62304F0", VA = "0x62314F0")]
 	public ToolboxItemAttribute(bool defaultType)
 	{
 	}
 
-	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x28AD670", Offset = "0x28ABC70", VA = "0x1828AD670")]
+	[Token(Token = "0x600087D")]
+	[Address(RVA = "0x6231550", Offset = "0x6230550", VA = "0x6231550")]
 	public ToolboxItemAttribute(string toolboxItemTypeName)
 	{
 	}
 
-	[Token(Token = "0x6000A3E")]
-	[Address(RVA = "0x28AD770", Offset = "0x28ABD70", VA = "0x1828AD770")]
+	[Token(Token = "0x600087E")]
+	[Address(RVA = "0x62315D0", Offset = "0x62305D0", VA = "0x62315D0")]
 	public ToolboxItemAttribute(Type toolboxItemType)
 	{
 	}
 
-	[Token(Token = "0x6000A41")]
-	[Address(RVA = "0x28AD3A0", Offset = "0x28AB9A0", VA = "0x1828AD3A0", Slot = "0")]
+	[Token(Token = "0x6000881")]
+	[Address(RVA = "0x6231800", Offset = "0x6230800", VA = "0x6231800", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A42")]
-	[Address(RVA = "0x28AD470", Offset = "0x28ABA70", VA = "0x1828AD470", Slot = "2")]
+	[Token(Token = "0x6000882")]
+	[Address(RVA = "0x62318C0", Offset = "0x62308C0", VA = "0x62318C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

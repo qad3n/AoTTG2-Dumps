@@ -20,27 +20,27 @@ public sealed class EnumerableCloner : Cloner<IEnumerable>
 	private readonly Dictionary<Type, IOptimizedInvoker> addMethods;
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x2DA5980", Offset = "0x2DA3F80", VA = "0x182DA5980", Slot = "9")]
+	[Address(RVA = "0x678E130", Offset = "0x678D130", VA = "0x678E130", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x2DA5410", Offset = "0x2DA3A10", VA = "0x182DA5410", Slot = "12")]
+	[Address(RVA = "0x678E470", Offset = "0x678D470", VA = "0x678E470", Slot = "12")]
 	public override void FillClone(Type type, ref IEnumerable clone, IEnumerable original, CloningContext context)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2DA5740", Offset = "0x2DA3D40", VA = "0x182DA5740")]
+	[Address(RVA = "0x678E230", Offset = "0x678D230", VA = "0x678E230")]
 	private IOptimizedInvoker GetAddMethod(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x2DA5A90", Offset = "0x2DA4090", VA = "0x182DA5A90")]
+	[Address(RVA = "0x678E8E0", Offset = "0x678D8E0", VA = "0x678E8E0")]
 	public EnumerableCloner()
 	{
 	}

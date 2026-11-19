@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,14 +47,14 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 		public Texture2D bayerMatrixTex;
 
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x2C0CA10", Offset = "0x2C0B010", VA = "0x182C0CA10")]
+		[Address(RVA = "0x65F9E70", Offset = "0x65F8E70", VA = "0x65F9E70")]
 		public bool NeedsReload()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65F9980", Offset = "0x65F8980", VA = "0x65F9980")]
 		public TextureResources()
 		{
 		}
@@ -534,7 +534,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material defaultMaterial
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x65F6F10", Offset = "0x65F5F10", VA = "0x65F6F10", Slot = "4")]
 		get
 		{
 			return null;
@@ -545,7 +545,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material defaultParticleMaterial
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
+		[Address(RVA = "0x65F6F20", Offset = "0x65F5F20", VA = "0x65F6F20", Slot = "11")]
 		get
 		{
 			return null;
@@ -556,7 +556,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material defaultLineMaterial
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
+		[Address(RVA = "0x65F6F30", Offset = "0x65F5F30", VA = "0x65F6F30", Slot = "12")]
 		get
 		{
 			return null;
@@ -567,7 +567,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material defaultTerrainMaterial
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "13")]
+		[Address(RVA = "0x65F6F40", Offset = "0x65F5F40", VA = "0x65F6F40", Slot = "13")]
 		get
 		{
 			return null;
@@ -578,7 +578,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material default2DMaterial
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "17")]
+		[Address(RVA = "0x65F6F50", Offset = "0x65F5F50", VA = "0x65F6F50", Slot = "17")]
 		get
 		{
 			return null;
@@ -589,7 +589,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Material default2DMaskMaterial
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "18")]
+		[Address(RVA = "0x65F6F60", Offset = "0x65F5F60", VA = "0x65F6F60", Slot = "18")]
 		get
 		{
 			return null;
@@ -600,7 +600,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public Material decalMaterial
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x65F6F70", Offset = "0x65F5F70", VA = "0x65F6F70")]
 		get
 		{
 			return null;
@@ -611,7 +611,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Shader defaultShader
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x2C118D0", Offset = "0x2C0FED0", VA = "0x182C118D0", Slot = "19")]
+		[Address(RVA = "0x65F6F80", Offset = "0x65F5F80", VA = "0x65F6F80", Slot = "19")]
 		get
 		{
 			return null;
@@ -622,7 +622,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Shader terrainDetailLitShader
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x2C121F0", Offset = "0x2C107F0", VA = "0x182C121F0", Slot = "8")]
+		[Address(RVA = "0x65F7030", Offset = "0x65F6030", VA = "0x65F7030", Slot = "8")]
 		get
 		{
 			return null;
@@ -633,7 +633,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Shader terrainDetailGrassShader
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x2C12170", Offset = "0x2C10770", VA = "0x182C12170", Slot = "9")]
+		[Address(RVA = "0x65F70B0", Offset = "0x65F60B0", VA = "0x65F70B0", Slot = "9")]
 		get
 		{
 			return null;
@@ -644,7 +644,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override Shader terrainDetailGrassBillboardShader
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x2C120F0", Offset = "0x2C106F0", VA = "0x182C120F0", Slot = "10")]
+		[Address(RVA = "0x65F7130", Offset = "0x65F6130", VA = "0x65F7130", Slot = "10")]
 		get
 		{
 			return null;
@@ -655,7 +655,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	private GPUResidentDrawerSettings UnityEngine_002ERendering_002EIGPUResidentRenderPipeline_002EgpuResidentDrawerSettings
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x2C10DF0", Offset = "0x2C0F3F0", VA = "0x182C10DF0", Slot = "38")]
+		[Address(RVA = "0x65F71C0", Offset = "0x65F61C0", VA = "0x65F71C0", Slot = "38")]
 		get
 		{
 			return default(GPUResidentDrawerSettings);
@@ -666,7 +666,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ReadOnlySpan<ScriptableRendererData> rendererDataList
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x2C11A90", Offset = "0x2C10090", VA = "0x182C11A90")]
+		[Address(RVA = "0x65F72A0", Offset = "0x65F62A0", VA = "0x65F72A0")]
 		get
 		{
 			return default(ReadOnlySpan<ScriptableRendererData>);
@@ -677,7 +677,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ReadOnlySpan<ScriptableRenderer> renderers
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x2C11B80", Offset = "0x2C10180", VA = "0x182C11B80")]
+		[Address(RVA = "0x65F72E0", Offset = "0x65F62E0", VA = "0x65F72E0")]
 		get
 		{
 			return default(ReadOnlySpan<ScriptableRenderer>);
@@ -688,7 +688,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool isImmediateModeSupported
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "43")]
+		[Address(RVA = "0x65F7320", Offset = "0x65F6320", VA = "0x65F7320", Slot = "43")]
 		get
 		{
 			return default(bool);
@@ -699,7 +699,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ScriptableRenderer scriptableRenderer
 	{
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x2C11CD0", Offset = "0x2C102D0", VA = "0x182C11CD0")]
+		[Address(RVA = "0x65F7920", Offset = "0x65F6920", VA = "0x65F7920")]
 		get
 		{
 			return null;
@@ -710,7 +710,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	internal ScriptableRendererData scriptableRendererData
 	{
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x2C11C20", Offset = "0x2C10220", VA = "0x182C11C20")]
+		[Address(RVA = "0x65F7B80", Offset = "0x65F6B80", VA = "0x65F7B80")]
 		get
 		{
 			return null;
@@ -721,7 +721,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	internal GraphicsFormat additionalLightsCookieFormat
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x2C11660", Offset = "0x2C0FC60", VA = "0x182C11660")]
+		[Address(RVA = "0x65F7F70", Offset = "0x65F6F70", VA = "0x65F7F70")]
 		get
 		{
 			return default(GraphicsFormat);
@@ -732,7 +732,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	internal Vector2Int additionalLightsCookieResolution
 	{
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x2C11860", Offset = "0x2C0FE60", VA = "0x182C11860")]
+		[Address(RVA = "0x65F81A0", Offset = "0x65F71A0", VA = "0x65F81A0")]
 		get
 		{
 			return default(Vector2Int);
@@ -743,7 +743,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	internal int[] rendererIndexList
 	{
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0x2C11AF0", Offset = "0x2C100F0", VA = "0x182C11AF0")]
+		[Address(RVA = "0x65F81C0", Offset = "0x65F71C0", VA = "0x65F81C0")]
 		get
 		{
 			return null;
@@ -754,13 +754,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsCameraDepthTexture
 	{
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x2C00A50", Offset = "0x2BFF050", VA = "0x182C00A50")]
+		[Address(RVA = "0x65F82A0", Offset = "0x65F72A0", VA = "0x65F82A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x2C00A70", Offset = "0x2BFF070", VA = "0x182C00A70")]
+		[Address(RVA = "0x65F82B0", Offset = "0x65F72B0", VA = "0x65F82B0")]
 		set
 		{
 		}
@@ -770,13 +770,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsCameraOpaqueTexture
 	{
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x27363B0", Offset = "0x27349B0", VA = "0x1827363B0")]
+		[Address(RVA = "0x65F82C0", Offset = "0x65F72C0", VA = "0x65F82C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2C00A60", Offset = "0x2BFF060", VA = "0x182C00A60")]
+		[Address(RVA = "0x65F82D0", Offset = "0x65F72D0", VA = "0x65F82D0")]
 		set
 		{
 		}
@@ -786,7 +786,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public Downsampling opaqueDownsampling
 	{
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x65F82E0", Offset = "0x65F72E0", VA = "0x65F82E0")]
 		get
 		{
 			return default(Downsampling);
@@ -797,7 +797,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsTerrainHoles
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x1B020E0", Offset = "0x1B006E0", VA = "0x181B020E0")]
+		[Address(RVA = "0x65F82F0", Offset = "0x65F72F0", VA = "0x65F82F0")]
 		get
 		{
 			return default(bool);
@@ -808,13 +808,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public StoreActionsOptimization storeActionsOptimization
 	{
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x1CD3470", Offset = "0x1CD1A70", VA = "0x181CD3470")]
+		[Address(RVA = "0x65F8300", Offset = "0x65F7300", VA = "0x65F8300")]
 		get
 		{
 			return default(StoreActionsOptimization);
 		}
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x1CD3E60", Offset = "0x1CD2460", VA = "0x181CD3E60")]
+		[Address(RVA = "0x65F8310", Offset = "0x65F7310", VA = "0x65F8310")]
 		set
 		{
 		}
@@ -824,13 +824,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsHDR
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x2C120B0", Offset = "0x2C106B0", VA = "0x182C120B0")]
+		[Address(RVA = "0x65F8320", Offset = "0x65F7320", VA = "0x65F8320")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x2C12970", Offset = "0x2C10F70", VA = "0x182C12970")]
+		[Address(RVA = "0x65F8330", Offset = "0x65F7330", VA = "0x65F8330")]
 		set
 		{
 		}
@@ -840,13 +840,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public HDRColorBufferPrecision hdrColorBufferPrecision
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x65F8340", Offset = "0x65F7340", VA = "0x65F8340")]
 		get
 		{
 			return default(HDRColorBufferPrecision);
 		}
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
+		[Address(RVA = "0x65F8350", Offset = "0x65F7350", VA = "0x65F8350")]
 		set
 		{
 		}
@@ -856,13 +856,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int msaaSampleCount
 	{
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0xCDE980", Offset = "0xCDCF80", VA = "0x180CDE980")]
+		[Address(RVA = "0x65F8360", Offset = "0x65F7360", VA = "0x65F8360")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0xCDEA50", Offset = "0xCDD050", VA = "0x180CDEA50")]
+		[Address(RVA = "0x65F8370", Offset = "0x65F7370", VA = "0x65F8370")]
 		set
 		{
 		}
@@ -872,13 +872,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float renderScale
 	{
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x12BF160", Offset = "0x12BD760", VA = "0x1812BF160")]
+		[Address(RVA = "0x65F8380", Offset = "0x65F7380", VA = "0x65F8380")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x2C12510", Offset = "0x2C10B10", VA = "0x182C12510")]
+		[Address(RVA = "0x65F8390", Offset = "0x65F7390", VA = "0x65F8390")]
 		set
 		{
 		}
@@ -888,7 +888,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool enableLODCrossFade
 	{
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x1D2B360", Offset = "0x1D29960", VA = "0x181D2B360")]
+		[Address(RVA = "0x65F8480", Offset = "0x65F7480", VA = "0x65F8480")]
 		get
 		{
 			return default(bool);
@@ -899,7 +899,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public LODCrossFadeDitheringType lodCrossFadeDitheringType
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x1BF1B70", Offset = "0x1BF0170", VA = "0x181BF1B70")]
+		[Address(RVA = "0x65F8490", Offset = "0x65F7490", VA = "0x65F8490")]
 		get
 		{
 			return default(LODCrossFadeDitheringType);
@@ -910,13 +910,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public UpscalingFilterSelection upscalingFilter
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0xACB500", Offset = "0xAC9B00", VA = "0x180ACB500")]
+		[Address(RVA = "0x65F84A0", Offset = "0x65F74A0", VA = "0x65F84A0")]
 		get
 		{
 			return default(UpscalingFilterSelection);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0xACB520", Offset = "0xAC9B20", VA = "0x180ACB520")]
+		[Address(RVA = "0x65F84B0", Offset = "0x65F74B0", VA = "0x65F84B0")]
 		set
 		{
 		}
@@ -926,7 +926,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public string upscalerName
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010")]
+		[Address(RVA = "0x65F84C0", Offset = "0x65F74C0", VA = "0x65F84C0")]
 		get
 		{
 			return null;
@@ -937,13 +937,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool fsrOverrideSharpness
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
+		[Address(RVA = "0x65F84E0", Offset = "0x65F74E0", VA = "0x65F84E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0xABD3A0", Offset = "0xABB9A0", VA = "0x180ABD3A0")]
+		[Address(RVA = "0x65F84F0", Offset = "0x65F74F0", VA = "0x65F84F0")]
 		set
 		{
 		}
@@ -953,13 +953,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float fsrSharpness
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x58A550", Offset = "0x588B50", VA = "0x18058A550")]
+		[Address(RVA = "0x65F8500", Offset = "0x65F7500", VA = "0x65F8500")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x58A8E0", Offset = "0x588EE0", VA = "0x18058A8E0")]
+		[Address(RVA = "0x65F8510", Offset = "0x65F7510", VA = "0x65F8510")]
 		set
 		{
 		}
@@ -969,13 +969,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ShEvalMode shEvalMode
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0xB5B9B0", Offset = "0xB59FB0", VA = "0x180B5B9B0")]
+		[Address(RVA = "0x65F8520", Offset = "0x65F7520", VA = "0x65F8520")]
 		get
 		{
 			return default(ShEvalMode);
 		}
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0xB5BE20", Offset = "0xB5A420", VA = "0x180B5BE20")]
+		[Address(RVA = "0x65F8530", Offset = "0x65F7530", VA = "0x65F8530")]
 		internal set
 		{
 		}
@@ -985,13 +985,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public LightProbeSystem lightProbeSystem
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0xA4D4C0", Offset = "0xA4BAC0", VA = "0x180A4D4C0")]
+		[Address(RVA = "0x65F8540", Offset = "0x65F7540", VA = "0x65F8540")]
 		get
 		{
 			return default(LightProbeSystem);
 		}
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0xA4D5B0", Offset = "0xA4BBB0", VA = "0x180A4D5B0")]
+		[Address(RVA = "0x65F8550", Offset = "0x65F7550", VA = "0x65F8550")]
 		internal set
 		{
 		}
@@ -1001,13 +1001,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ProbeVolumeTextureMemoryBudget probeVolumeMemoryBudget
 	{
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0")]
+		[Address(RVA = "0x65F8560", Offset = "0x65F7560", VA = "0x65F8560")]
 		get
 		{
 			return default(ProbeVolumeTextureMemoryBudget);
 		}
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0xA4D5A0", Offset = "0xA4BBA0", VA = "0x180A4D5A0")]
+		[Address(RVA = "0x65F8570", Offset = "0x65F7570", VA = "0x65F8570")]
 		internal set
 		{
 		}
@@ -1017,13 +1017,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ProbeVolumeBlendingTextureMemoryBudget probeVolumeBlendingMemoryBudget
 	{
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0xA4D580", Offset = "0xA4BB80", VA = "0x180A4D580")]
+		[Address(RVA = "0x65F8580", Offset = "0x65F7580", VA = "0x65F8580")]
 		get
 		{
 			return default(ProbeVolumeBlendingTextureMemoryBudget);
 		}
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0xA4D730", Offset = "0xA4BD30", VA = "0x180A4D730")]
+		[Address(RVA = "0x65F8590", Offset = "0x65F7590", VA = "0x65F8590")]
 		internal set
 		{
 		}
@@ -1034,13 +1034,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolumeStreaming
 	{
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Address(RVA = "0x65F85A0", Offset = "0x65F75A0", VA = "0x65F85A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0xB5BDB0", Offset = "0xB5A3B0", VA = "0x180B5BDB0")]
+		[Address(RVA = "0x65F85B0", Offset = "0x65F75B0", VA = "0x65F85B0")]
 		internal set
 		{
 		}
@@ -1050,13 +1050,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolumeGPUStreaming
 	{
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Address(RVA = "0x65F85C0", Offset = "0x65F75C0", VA = "0x65F85C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0xB5BDB0", Offset = "0xB5A3B0", VA = "0x180B5BDB0")]
+		[Address(RVA = "0x65F85D0", Offset = "0x65F75D0", VA = "0x65F85D0")]
 		internal set
 		{
 		}
@@ -1066,13 +1066,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolumeDiskStreaming
 	{
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x24C53F0", Offset = "0x24C39F0", VA = "0x1824C53F0")]
+		[Address(RVA = "0x65F85E0", Offset = "0x65F75E0", VA = "0x65F85E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x2C12940", Offset = "0x2C10F40", VA = "0x182C12940")]
+		[Address(RVA = "0x65F85F0", Offset = "0x65F75F0", VA = "0x65F85F0")]
 		internal set
 		{
 		}
@@ -1082,13 +1082,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolumeScenarios
 	{
 		[Token(Token = "0x6000078")]
-		[Address(RVA = "0x24C53E0", Offset = "0x24C39E0", VA = "0x1824C53E0")]
+		[Address(RVA = "0x65F8600", Offset = "0x65F7600", VA = "0x65F8600")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x2C12950", Offset = "0x2C10F50", VA = "0x182C12950")]
+		[Address(RVA = "0x65F8610", Offset = "0x65F7610", VA = "0x65F8610")]
 		internal set
 		{
 		}
@@ -1098,13 +1098,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolumeScenarioBlending
 	{
 		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x24C5400", Offset = "0x24C3A00", VA = "0x1824C5400")]
+		[Address(RVA = "0x65F8620", Offset = "0x65F7620", VA = "0x65F8620")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x2703FD0", Offset = "0x27025D0", VA = "0x182703FD0")]
+		[Address(RVA = "0x65F8630", Offset = "0x65F7630", VA = "0x65F8630")]
 		internal set
 		{
 		}
@@ -1114,13 +1114,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ProbeVolumeSHBands probeVolumeSHBands
 	{
 		[Token(Token = "0x600007C")]
-		[Address(RVA = "0xB5B910", Offset = "0xB59F10", VA = "0x180B5B910")]
+		[Address(RVA = "0x65F8640", Offset = "0x65F7640", VA = "0x65F8640")]
 		get
 		{
 			return default(ProbeVolumeSHBands);
 		}
 		[Token(Token = "0x600007D")]
-		[Address(RVA = "0xB5BC30", Offset = "0xB5A230", VA = "0x180B5BC30")]
+		[Address(RVA = "0x65F8650", Offset = "0x65F7650", VA = "0x65F8650")]
 		internal set
 		{
 		}
@@ -1130,13 +1130,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public LightRenderingMode mainLightRenderingMode
 	{
 		[Token(Token = "0x600007E")]
-		[Address(RVA = "0xB5B9F0", Offset = "0xB59FF0", VA = "0x180B5B9F0")]
+		[Address(RVA = "0x65F8660", Offset = "0x65F7660", VA = "0x65F8660")]
 		get
 		{
 			return default(LightRenderingMode);
 		}
 		[Token(Token = "0x600007F")]
-		[Address(RVA = "0xB5BE70", Offset = "0xB5A470", VA = "0x180B5BE70")]
+		[Address(RVA = "0x65F8670", Offset = "0x65F7670", VA = "0x65F8670")]
 		internal set
 		{
 		}
@@ -1146,13 +1146,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsMainLightShadows
 	{
 		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x2602BF0", Offset = "0x26011F0", VA = "0x182602BF0")]
+		[Address(RVA = "0x65F8680", Offset = "0x65F7680", VA = "0x65F8680")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x2C12980", Offset = "0x2C10F80", VA = "0x182C12980")]
+		[Address(RVA = "0x65F8690", Offset = "0x65F7690", VA = "0x65F8690")]
 		internal set
 		{
 		}
@@ -1162,13 +1162,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int mainLightShadowmapResolution
 	{
 		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x25EDB20", Offset = "0x25EC120", VA = "0x1825EDB20")]
+		[Address(RVA = "0x65F86A0", Offset = "0x65F76A0", VA = "0x65F86A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x2B0A850", Offset = "0x2B08E50", VA = "0x182B0A850")]
+		[Address(RVA = "0x65F86B0", Offset = "0x65F76B0", VA = "0x65F86B0")]
 		set
 		{
 		}
@@ -1178,13 +1178,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public LightRenderingMode additionalLightsRenderingMode
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x25EDB30", Offset = "0x25EC130", VA = "0x1825EDB30")]
+		[Address(RVA = "0x65F86C0", Offset = "0x65F76C0", VA = "0x65F86C0")]
 		get
 		{
 			return default(LightRenderingMode);
 		}
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x2C12330", Offset = "0x2C10930", VA = "0x182C12330")]
+		[Address(RVA = "0x65F86D0", Offset = "0x65F76D0", VA = "0x65F86D0")]
 		internal set
 		{
 		}
@@ -1194,13 +1194,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int maxAdditionalLightsCount
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x266C1E0", Offset = "0x266A7E0", VA = "0x18266C1E0")]
+		[Address(RVA = "0x65F86E0", Offset = "0x65F76E0", VA = "0x65F86E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x2C12430", Offset = "0x2C10A30", VA = "0x182C12430")]
+		[Address(RVA = "0x65F86F0", Offset = "0x65F76F0", VA = "0x65F86F0")]
 		set
 		{
 		}
@@ -1210,13 +1210,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsAdditionalLightShadows
 	{
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x1D90420", Offset = "0x1D8EA20", VA = "0x181D90420")]
+		[Address(RVA = "0x65F87A0", Offset = "0x65F77A0", VA = "0x65F87A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x1D910E0", Offset = "0x1D8F6E0", VA = "0x181D910E0")]
+		[Address(RVA = "0x65F87B0", Offset = "0x65F77B0", VA = "0x65F87B0")]
 		internal set
 		{
 		}
@@ -1226,13 +1226,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int additionalLightsShadowmapResolution
 	{
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x1AAAA90", Offset = "0x1AA9090", VA = "0x181AAAA90")]
+		[Address(RVA = "0x65F87C0", Offset = "0x65F77C0", VA = "0x65F87C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x1C5E460", Offset = "0x1C5CA60", VA = "0x181C5E460")]
+		[Address(RVA = "0x65F87D0", Offset = "0x65F77D0", VA = "0x65F87D0")]
 		set
 		{
 		}
@@ -1242,13 +1242,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int additionalLightsShadowResolutionTierLow
 	{
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x1AAAB30", Offset = "0x1AA9130", VA = "0x181AAAB30")]
+		[Address(RVA = "0x65F87E0", Offset = "0x65F77E0", VA = "0x65F87E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x2C12350", Offset = "0x2C10950", VA = "0x182C12350")]
+		[Address(RVA = "0x65F87F0", Offset = "0x65F77F0", VA = "0x65F87F0")]
 		internal set
 		{
 		}
@@ -1258,13 +1258,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int additionalLightsShadowResolutionTierMedium
 	{
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x1AAAB20", Offset = "0x1AA9120", VA = "0x181AAAB20")]
+		[Address(RVA = "0x65F8800", Offset = "0x65F7800", VA = "0x65F8800")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008F")]
-		[Address(RVA = "0x2C12360", Offset = "0x2C10960", VA = "0x182C12360")]
+		[Address(RVA = "0x65F8810", Offset = "0x65F7810", VA = "0x65F8810")]
 		internal set
 		{
 		}
@@ -1274,13 +1274,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int additionalLightsShadowResolutionTierHigh
 	{
 		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x1AAAE00", Offset = "0x1AA9400", VA = "0x181AAAE00")]
+		[Address(RVA = "0x65F8820", Offset = "0x65F7820", VA = "0x65F8820")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x2C12340", Offset = "0x2C10940", VA = "0x182C12340")]
+		[Address(RVA = "0x65F8830", Offset = "0x65F7830", VA = "0x65F8830")]
 		internal set
 		{
 		}
@@ -1290,13 +1290,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool reflectionProbeBlending
 	{
 		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x24BD3F0", Offset = "0x24BB9F0", VA = "0x1824BD3F0")]
+		[Address(RVA = "0x65F8920", Offset = "0x65F7920", VA = "0x65F8920")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x2C124F0", Offset = "0x2C10AF0", VA = "0x182C124F0")]
+		[Address(RVA = "0x65F8930", Offset = "0x65F7930", VA = "0x65F8930")]
 		internal set
 		{
 		}
@@ -1306,13 +1306,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool reflectionProbeBoxProjection
 	{
 		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x2C11A50", Offset = "0x2C10050", VA = "0x182C11A50")]
+		[Address(RVA = "0x65F8960", Offset = "0x65F7960", VA = "0x65F8960")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x2C12500", Offset = "0x2C10B00", VA = "0x182C12500")]
+		[Address(RVA = "0x65F8970", Offset = "0x65F7970", VA = "0x65F8970")]
 		internal set
 		{
 		}
@@ -1322,13 +1322,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool reflectionProbeAtlas
 	{
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x2C11A40", Offset = "0x2C10040", VA = "0x182C11A40")]
+		[Address(RVA = "0x65F8980", Offset = "0x65F7980", VA = "0x65F8980")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x2C124E0", Offset = "0x2C10AE0", VA = "0x182C124E0")]
+		[Address(RVA = "0x65F8990", Offset = "0x65F7990", VA = "0x65F8990")]
 		internal set
 		{
 		}
@@ -1338,13 +1338,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float shadowDistance
 	{
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x2C12030", Offset = "0x2C10630", VA = "0x182C12030")]
+		[Address(RVA = "0x65F89D0", Offset = "0x65F79D0", VA = "0x65F89D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x2C12800", Offset = "0x2C10E00", VA = "0x182C12800")]
+		[Address(RVA = "0x65F89E0", Offset = "0x65F79E0", VA = "0x65F89E0")]
 		set
 		{
 		}
@@ -1354,13 +1354,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int shadowCascadeCount
 	{
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x1AAAE10", Offset = "0x1AA9410", VA = "0x181AAAE10")]
+		[Address(RVA = "0x65F89F0", Offset = "0x65F79F0", VA = "0x65F89F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x2C12600", Offset = "0x2C10C00", VA = "0x182C12600")]
+		[Address(RVA = "0x65F8A00", Offset = "0x65F7A00", VA = "0x65F8A00")]
 		set
 		{
 		}
@@ -1370,13 +1370,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float cascade2Split
 	{
 		[Token(Token = "0x600009F")]
-		[Address(RVA = "0xB5BA70", Offset = "0xB5A070", VA = "0x180B5BA70")]
+		[Address(RVA = "0x65F8AD0", Offset = "0x65F7AD0", VA = "0x65F8AD0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0xB5BEC0", Offset = "0xB5A4C0", VA = "0x180B5BEC0")]
+		[Address(RVA = "0x65F8AE0", Offset = "0x65F7AE0", VA = "0x65F8AE0")]
 		set
 		{
 		}
@@ -1386,13 +1386,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public Vector2 cascade3Split
 	{
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x2C11880", Offset = "0x2C0FE80", VA = "0x182C11880")]
+		[Address(RVA = "0x65F8AF0", Offset = "0x65F7AF0", VA = "0x65F8AF0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x2C12370", Offset = "0x2C10970", VA = "0x182C12370")]
+		[Address(RVA = "0x65F8B00", Offset = "0x65F7B00", VA = "0x65F8B00")]
 		set
 		{
 		}
@@ -1402,13 +1402,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public Vector3 cascade4Split
 	{
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x2C118A0", Offset = "0x2C0FEA0", VA = "0x182C118A0")]
+		[Address(RVA = "0x65F8B10", Offset = "0x65F7B10", VA = "0x65F8B10")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x2C12380", Offset = "0x2C10980", VA = "0x182C12380")]
+		[Address(RVA = "0x65F8B30", Offset = "0x65F7B30", VA = "0x65F8B30")]
 		set
 		{
 		}
@@ -1418,13 +1418,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float cascadeBorder
 	{
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x2C118C0", Offset = "0x2C0FEC0", VA = "0x182C118C0")]
+		[Address(RVA = "0x65F8B40", Offset = "0x65F7B40", VA = "0x65F8B40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x2C123A0", Offset = "0x2C109A0", VA = "0x182C123A0")]
+		[Address(RVA = "0x65F8B50", Offset = "0x65F7B50", VA = "0x65F8B50")]
 		set
 		{
 		}
@@ -1434,13 +1434,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float shadowDepthBias
 	{
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x2C12020", Offset = "0x2C10620", VA = "0x182C12020")]
+		[Address(RVA = "0x65F8B60", Offset = "0x65F7B60", VA = "0x65F8B60")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x2C12790", Offset = "0x2C10D90", VA = "0x182C12790")]
+		[Address(RVA = "0x65F8B70", Offset = "0x65F7B70", VA = "0x65F8B70")]
 		set
 		{
 		}
@@ -1450,13 +1450,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float shadowNormalBias
 	{
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x2C12040", Offset = "0x2C10640", VA = "0x182C12040")]
+		[Address(RVA = "0x65F8C40", Offset = "0x65F7C40", VA = "0x65F8C40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x2C12820", Offset = "0x2C10E20", VA = "0x182C12820")]
+		[Address(RVA = "0x65F8C50", Offset = "0x65F7C50", VA = "0x65F8C50")]
 		set
 		{
 		}
@@ -1466,13 +1466,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsSoftShadows
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x1C3F930", Offset = "0x1C3DF30", VA = "0x181C3F930")]
+		[Address(RVA = "0x65F8CC0", Offset = "0x65F7CC0", VA = "0x65F8CC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x2C12990", Offset = "0x2C10F90", VA = "0x182C12990")]
+		[Address(RVA = "0x65F8CD0", Offset = "0x65F7CD0", VA = "0x65F8CD0")]
 		internal set
 		{
 		}
@@ -1482,13 +1482,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	internal SoftShadowQuality softShadowQuality
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x2C12060", Offset = "0x2C10660", VA = "0x182C12060")]
+		[Address(RVA = "0x65F8CE0", Offset = "0x65F7CE0", VA = "0x65F8CE0")]
 		get
 		{
 			return default(SoftShadowQuality);
 		}
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0xB5BDA0", Offset = "0xB5A3A0", VA = "0x180B5BDA0")]
+		[Address(RVA = "0x65F8CF0", Offset = "0x65F7CF0", VA = "0x65F8CF0")]
 		set
 		{
 		}
@@ -1498,13 +1498,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsDynamicBatching
 	{
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x2C120A0", Offset = "0x2C106A0", VA = "0x182C120A0")]
+		[Address(RVA = "0x65F8D00", Offset = "0x65F7D00", VA = "0x65F8D00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x2C12960", Offset = "0x2C10F60", VA = "0x182C12960")]
+		[Address(RVA = "0x65F8D10", Offset = "0x65F7D10", VA = "0x65F8D10")]
 		set
 		{
 		}
@@ -1514,7 +1514,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsMixedLighting
 	{
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x2C120E0", Offset = "0x2C106E0", VA = "0x182C120E0")]
+		[Address(RVA = "0x65F8D20", Offset = "0x65F7D20", VA = "0x65F8D20")]
 		get
 		{
 			return default(bool);
@@ -1525,7 +1525,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsLightCookies
 	{
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x2C120C0", Offset = "0x2C106C0", VA = "0x182C120C0")]
+		[Address(RVA = "0x65F8D30", Offset = "0x65F7D30", VA = "0x65F8D30")]
 		get
 		{
 			return default(bool);
@@ -1537,7 +1537,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportsLightLayers
 	{
 		[Token(Token = "0x60000B3")]
-		[Address(RVA = "0x2C120D0", Offset = "0x2C106D0", VA = "0x182C120D0")]
+		[Address(RVA = "0x65F8D40", Offset = "0x65F7D40", VA = "0x65F8D40")]
 		get
 		{
 			return default(bool);
@@ -1548,7 +1548,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool useRenderingLayers
 	{
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x2C120D0", Offset = "0x2C106D0", VA = "0x182C120D0")]
+		[Address(RVA = "0x65F8D50", Offset = "0x65F7D50", VA = "0x65F8D50")]
 		get
 		{
 			return default(bool);
@@ -1559,7 +1559,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public VolumeFrameworkUpdateMode volumeFrameworkUpdateMode
 	{
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x2C12320", Offset = "0x2C10920", VA = "0x182C12320")]
+		[Address(RVA = "0x65F8D60", Offset = "0x65F7D60", VA = "0x65F8D60")]
 		get
 		{
 			return default(VolumeFrameworkUpdateMode);
@@ -1570,13 +1570,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public VolumeProfile volumeProfile
 	{
 		[Token(Token = "0x60000B6")]
-		[Address(RVA = "0xA29A50", Offset = "0xA28050", VA = "0x180A29A50")]
+		[Address(RVA = "0x65F8D70", Offset = "0x65F7D70", VA = "0x65F8D70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0x1D1FE20", Offset = "0x1D1E420", VA = "0x181D1FE20")]
+		[Address(RVA = "0x65F8D80", Offset = "0x65F7D80", VA = "0x65F8D80")]
 		set
 		{
 		}
@@ -1587,7 +1587,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public PipelineDebugLevel debugLevel
 	{
 		[Token(Token = "0x60000B8")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x65F8DA0", Offset = "0x65F7DA0", VA = "0x65F8DA0")]
 		get
 		{
 			return default(PipelineDebugLevel);
@@ -1598,13 +1598,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool useSRPBatcher
 	{
 		[Token(Token = "0x60000B9")]
-		[Address(RVA = "0x2C12310", Offset = "0x2C10910", VA = "0x182C12310")]
+		[Address(RVA = "0x65F8DB0", Offset = "0x65F7DB0", VA = "0x65F8DB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x2C129B0", Offset = "0x2C10FB0", VA = "0x182C129B0")]
+		[Address(RVA = "0x65F8DC0", Offset = "0x65F7DC0", VA = "0x65F8DC0")]
 		set
 		{
 		}
@@ -1615,7 +1615,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool enableRenderGraph
 	{
 		[Token(Token = "0x60000BB")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+		[Address(RVA = "0x65F8DD0", Offset = "0x65F7DD0", VA = "0x65F8DD0")]
 		get
 		{
 			return default(bool);
@@ -1626,13 +1626,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ColorGradingMode colorGradingMode
 	{
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x1D1FB90", Offset = "0x1D1E190", VA = "0x181D1FB90")]
+		[Address(RVA = "0x65F8E00", Offset = "0x65F7E00", VA = "0x65F8E00")]
 		get
 		{
 			return default(ColorGradingMode);
 		}
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x1D1FE90", Offset = "0x1D1E490", VA = "0x181D1FE90")]
+		[Address(RVA = "0x65F8E10", Offset = "0x65F7E10", VA = "0x65F8E10")]
 		set
 		{
 		}
@@ -1642,13 +1642,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int colorGradingLutSize
 	{
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x1D1FB80", Offset = "0x1D1E180", VA = "0x181D1FB80")]
+		[Address(RVA = "0x65F8E20", Offset = "0x65F7E20", VA = "0x65F8E20")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x2C123B0", Offset = "0x2C109B0", VA = "0x182C123B0")]
+		[Address(RVA = "0x65F8E30", Offset = "0x65F7E30", VA = "0x65F8E30")]
 		set
 		{
 		}
@@ -1658,7 +1658,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool allowPostProcessAlphaOutput
 	{
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x1C41CE0", Offset = "0x1C402E0", VA = "0x181C41CE0")]
+		[Address(RVA = "0x65F8E50", Offset = "0x65F7E50", VA = "0x65F8E50")]
 		get
 		{
 			return default(bool);
@@ -1669,7 +1669,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool useFastSRGBLinearConversion
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x2C12300", Offset = "0x2C10900", VA = "0x182C12300")]
+		[Address(RVA = "0x65F8E60", Offset = "0x65F7E60", VA = "0x65F8E60")]
 		get
 		{
 			return default(bool);
@@ -1680,7 +1680,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportScreenSpaceLensFlare
 	{
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x2C12090", Offset = "0x2C10690", VA = "0x182C12090")]
+		[Address(RVA = "0x65F8E70", Offset = "0x65F7E70", VA = "0x65F8E70")]
 		get
 		{
 			return default(bool);
@@ -1691,7 +1691,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportDataDrivenLensFlare
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x2C12070", Offset = "0x2C10670", VA = "0x182C12070")]
+		[Address(RVA = "0x65F8E80", Offset = "0x65F7E80", VA = "0x65F8E80")]
 		get
 		{
 			return default(bool);
@@ -1702,13 +1702,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool useAdaptivePerformance
 	{
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x2C122F0", Offset = "0x2C108F0", VA = "0x182C122F0")]
+		[Address(RVA = "0x65F8E90", Offset = "0x65F7E90", VA = "0x65F8E90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x2C129A0", Offset = "0x2C10FA0", VA = "0x182C129A0")]
+		[Address(RVA = "0x65F8EA0", Offset = "0x65F7EA0", VA = "0x65F8EA0")]
 		set
 		{
 		}
@@ -1718,13 +1718,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool conservativeEnclosingSphere
 	{
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x1C3FA20", Offset = "0x1C3E020", VA = "0x181C3FA20")]
+		[Address(RVA = "0x65F8EB0", Offset = "0x65F7EB0", VA = "0x65F8EB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x2C123E0", Offset = "0x2C109E0", VA = "0x182C123E0")]
+		[Address(RVA = "0x65F8EC0", Offset = "0x65F7EC0", VA = "0x65F8EC0")]
 		set
 		{
 		}
@@ -1734,13 +1734,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public int numIterationsEnclosingSphere
 	{
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x2C11A00", Offset = "0x2C10000", VA = "0x182C11A00")]
+		[Address(RVA = "0x65F8ED0", Offset = "0x65F7ED0", VA = "0x65F8ED0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x2C124D0", Offset = "0x2C10AD0", VA = "0x182C124D0")]
+		[Address(RVA = "0x65F8EE0", Offset = "0x65F7EE0", VA = "0x65F8EE0")]
 		set
 		{
 		}
@@ -1750,7 +1750,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override string renderPipelineShaderTag
 	{
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x2C11A60", Offset = "0x2C10060", VA = "0x182C11A60", Slot = "23")]
+		[Address(RVA = "0x65F8EF0", Offset = "0x65F7EF0", VA = "0x65F8EF0", Slot = "23")]
 		get
 		{
 			return null;
@@ -1761,7 +1761,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	protected override bool requiresCompatibleRenderPipelineGlobalSettings
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "29")]
+		[Address(RVA = "0x65F8F20", Offset = "0x65F7F20", VA = "0x65F8F20", Slot = "29")]
 		get
 		{
 			return default(bool);
@@ -1773,7 +1773,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override string[] renderingLayerMaskNames
 	{
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x2C11BE0", Offset = "0x2C101E0", VA = "0x182C11BE0", Slot = "31")]
+		[Address(RVA = "0x65F8F30", Offset = "0x65F7F30", VA = "0x65F8F30", Slot = "31")]
 		get
 		{
 			return null;
@@ -1785,7 +1785,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public override string[] prefixedRenderingLayerMaskNames
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x2C11A10", Offset = "0x2C10010", VA = "0x182C11A10", Slot = "32")]
+		[Address(RVA = "0x65F8F90", Offset = "0x65F7F90", VA = "0x65F8F90", Slot = "32")]
 		get
 		{
 			return null;
@@ -1797,7 +1797,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public string[] lightLayerMaskNames
 	{
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x2C119A0", Offset = "0x2C0FFA0", VA = "0x182C119A0")]
+		[Address(RVA = "0x65F9050", Offset = "0x65F8050", VA = "0x65F9050")]
 		get
 		{
 			return null;
@@ -1808,13 +1808,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public GPUResidentDrawerMode gpuResidentDrawerMode
 	{
 		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0x27E5630", Offset = "0x27E3C30", VA = "0x1827E5630", Slot = "39")]
+		[Address(RVA = "0x65F9080", Offset = "0x65F8080", VA = "0x65F9080", Slot = "39")]
 		get
 		{
 			return default(GPUResidentDrawerMode);
 		}
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0x2C12410", Offset = "0x2C10A10", VA = "0x182C12410", Slot = "40")]
+		[Address(RVA = "0x65F9090", Offset = "0x65F8090", VA = "0x65F9090", Slot = "40")]
 		set
 		{
 		}
@@ -1824,13 +1824,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool gpuResidentDrawerEnableOcclusionCullingInCameras
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x2C11980", Offset = "0x2C0FF80", VA = "0x182C11980")]
+		[Address(RVA = "0x65F90C0", Offset = "0x65F80C0", VA = "0x65F90C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x2C123F0", Offset = "0x2C109F0", VA = "0x182C123F0")]
+		[Address(RVA = "0x65F90D0", Offset = "0x65F80D0", VA = "0x65F90D0")]
 		set
 		{
 		}
@@ -1840,13 +1840,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public float smallMeshScreenPercentage
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x2C12050", Offset = "0x2C10650", VA = "0x182C12050")]
+		[Address(RVA = "0x65F9250", Offset = "0x65F8250", VA = "0x65F9250")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x2C12890", Offset = "0x2C10E90", VA = "0x182C12890")]
+		[Address(RVA = "0x65F9260", Offset = "0x65F8260", VA = "0x65F9260")]
 		set
 		{
 		}
@@ -1856,7 +1856,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool supportProbeVolume
 	{
 		[Token(Token = "0x60000DE")]
-		[Address(RVA = "0x2C12080", Offset = "0x2C10680", VA = "0x182C12080", Slot = "35")]
+		[Address(RVA = "0x65F9700", Offset = "0x65F8700", VA = "0x65F9700", Slot = "35")]
 		get
 		{
 			return default(bool);
@@ -1867,7 +1867,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ProbeVolumeSHBands maxSHBands
 	{
 		[Token(Token = "0x60000DF")]
-		[Address(RVA = "0x2C119E0", Offset = "0x2C0FFE0", VA = "0x182C119E0", Slot = "36")]
+		[Address(RVA = "0x65F9710", Offset = "0x65F8710", VA = "0x65F9710", Slot = "36")]
 		get
 		{
 			return default(ProbeVolumeSHBands);
@@ -1879,7 +1879,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ProbeVolumeSceneData probeVolumeSceneData
 	{
 		[Token(Token = "0x60000E0")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "37")]
+		[Address(RVA = "0x65F9730", Offset = "0x65F8730", VA = "0x65F9730", Slot = "37")]
 		get
 		{
 			return null;
@@ -1890,7 +1890,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public bool isStpUsed
 	{
 		[Token(Token = "0x60000E1")]
-		[Address(RVA = "0x2C11990", Offset = "0x2C0FF90", VA = "0x182C11990", Slot = "44")]
+		[Address(RVA = "0x65F9740", Offset = "0x65F8740", VA = "0x65F9740", Slot = "44")]
 		get
 		{
 			return default(bool);
@@ -1902,13 +1902,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ShaderVariantLogLevel shaderVariantLogLevel
 	{
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x2C11F30", Offset = "0x2C10530", VA = "0x182C11F30")]
+		[Address(RVA = "0x65F9750", Offset = "0x65F8750", VA = "0x65F9750")]
 		get
 		{
 			return default(ShaderVariantLogLevel);
 		}
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x2C12590", Offset = "0x2C10B90", VA = "0x182C12590")]
+		[Address(RVA = "0x65F97B0", Offset = "0x65F87B0", VA = "0x65F97B0")]
 		set
 		{
 		}
@@ -1919,13 +1919,13 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public ShadowCascadesOption shadowCascadeOption
 	{
 		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x2C11F90", Offset = "0x2C10590", VA = "0x182C11F90")]
+		[Address(RVA = "0x65F9820", Offset = "0x65F8820", VA = "0x65F9820")]
 		get
 		{
 			return default(ShadowCascadesOption);
 		}
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x2C126F0", Offset = "0x2C10CF0", VA = "0x182C126F0")]
+		[Address(RVA = "0x65F9890", Offset = "0x65F8890", VA = "0x65F9890")]
 		set
 		{
 		}
@@ -1936,7 +1936,7 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public TextureResources textures
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x2C12270", Offset = "0x2C10870", VA = "0x182C12270")]
+		[Address(RVA = "0x65F9900", Offset = "0x65F8900", VA = "0x65F9900")]
 		get
 		{
 			return null;
@@ -1948,166 +1948,166 @@ public class UniversalRenderPipelineAsset : RenderPipelineAsset<UniversalRenderP
 	public IntermediateTextureMode intermediateTextureMode
 	{
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x65F9990", Offset = "0x65F8990", VA = "0x65F9990")]
 		get
 		{
 			return default(IntermediateTextureMode);
 		}
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x65F99A0", Offset = "0x65F89A0", VA = "0x65F99A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Address(RVA = "0x65F6F00", Offset = "0x65F5F00", VA = "0x65F6F00")]
 	private Material GetMaterial(DefaultMaterialType materialType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2C108B0", Offset = "0x2C0EEB0", VA = "0x182C108B0")]
+	[Address(RVA = "0x65F71B0", Offset = "0x65F61B0", VA = "0x65F71B0")]
 	internal bool IsAtLastVersion()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2C10A30", Offset = "0x2C0F030", VA = "0x182C10A30")]
+	[Address(RVA = "0x65F7330", Offset = "0x65F6330", VA = "0x65F7330")]
 	public ScriptableRendererData LoadBuiltinRendererData(RendererType type = RendererType.UniversalRenderer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890", Slot = "26")]
+	[Address(RVA = "0x65F7380", Offset = "0x65F6380", VA = "0x65F7380", Slot = "26")]
 	protected override void EnsureGlobalSettings()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2C0FFF0", Offset = "0x2C0E5F0", VA = "0x182C0FFF0", Slot = "24")]
+	[Address(RVA = "0x65F7390", Offset = "0x65F6390", VA = "0x65F7390", Slot = "24")]
 	protected override RenderPipeline CreatePipeline()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2C10440", Offset = "0x2C0EA40", VA = "0x182C10440")]
+	[Address(RVA = "0x65F7590", Offset = "0x65F6590", VA = "0x65F7590")]
 	internal void DestroyRenderers()
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2C10400", Offset = "0x2C0EA00", VA = "0x182C10400")]
+	[Address(RVA = "0x65F7860", Offset = "0x65F6860", VA = "0x65F7860")]
 	private void DestroyRenderer(ref ScriptableRenderer renderer)
 	{
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2C10D60", Offset = "0x2C0F360", VA = "0x182C10D60", Slot = "28")]
+	[Address(RVA = "0x65F7890", Offset = "0x65F6890", VA = "0x65F7890", Slot = "28")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2C101A0", Offset = "0x2C0E7A0", VA = "0x182C101A0")]
+	[Address(RVA = "0x65F7610", Offset = "0x65F6610", VA = "0x65F7610")]
 	private void CreateRenderers()
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x2C105C0", Offset = "0x2C0EBC0", VA = "0x182C105C0")]
+	[Address(RVA = "0x65F7C20", Offset = "0x65F6C20", VA = "0x65F7C20")]
 	public ScriptableRenderer GetRenderer(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2C104F0", Offset = "0x2C0EAF0", VA = "0x182C104F0")]
+	[Address(RVA = "0x65F8840", Offset = "0x65F7840", VA = "0x65F8840")]
 	internal int GetAdditionalLightsShadowResolution(int additionalLightsShadowResolutionTier)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2C10DD0", Offset = "0x2C0F3D0", VA = "0x182C10DD0")]
+	[Address(RVA = "0x65F8940", Offset = "0x65F7940", VA = "0x65F8940")]
 	internal bool ShouldUseReflectionProbeBlending()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2C10DA0", Offset = "0x2C0F3A0", VA = "0x182C10DA0")]
+	[Address(RVA = "0x65F89A0", Offset = "0x65F79A0", VA = "0x65F89A0")]
 	internal bool ShouldUseReflectionProbeAtlasBlending(RenderingMode renderingMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x2C10D80", Offset = "0x2C0F380", VA = "0x182C10D80")]
+	[Address(RVA = "0x65F8DE0", Offset = "0x65F7DE0", VA = "0x65F8DE0")]
 	internal void OnEnableRenderGraphChanged()
 	{
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x2C108C0", Offset = "0x2C0EEC0", VA = "0x182C108C0", Slot = "42")]
+	[Address(RVA = "0x65F9100", Offset = "0x65F8100", VA = "0x65F9100", Slot = "42")]
 	public bool IsGPUResidentDrawerSupportedBySRP(out string message, out LogType severity)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "33")]
+	[Address(RVA = "0x65F9320", Offset = "0x65F8320", VA = "0x65F9320", Slot = "33")]
 	public void OnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x2C10A80", Offset = "0x2C0F080", VA = "0x182C10A80", Slot = "34")]
+	[Address(RVA = "0x65F9330", Offset = "0x65F8330", VA = "0x65F9330", Slot = "34")]
 	public void OnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x2C11140", Offset = "0x2C0F740", VA = "0x182C11140")]
+	[Address(RVA = "0x65F8BE0", Offset = "0x65F7BE0", VA = "0x65F8BE0")]
 	private float ValidateShadowBias(float value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x2C10EB0", Offset = "0x2C0F4B0", VA = "0x182C10EB0")]
+	[Address(RVA = "0x65F8710", Offset = "0x65F7710", VA = "0x65F8710")]
 	private int ValidatePerObjectLights(int value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x2C10F40", Offset = "0x2C0F540", VA = "0x182C10F40")]
+	[Address(RVA = "0x65F8410", Offset = "0x65F7410", VA = "0x65F8410")]
 	private float ValidateRenderScale(float value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x2C10FB0", Offset = "0x2C0F5B0", VA = "0x182C10FB0")]
+	[Address(RVA = "0x65F9590", Offset = "0x65F8590", VA = "0x65F9590")]
 	internal bool ValidateRendererDataList(bool partial = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x2C110A0", Offset = "0x2C0F6A0", VA = "0x182C110A0")]
+	[Address(RVA = "0x65F9660", Offset = "0x65F8660", VA = "0x65F9660")]
 	internal bool ValidateRendererData(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x2C113E0", Offset = "0x2C0F9E0", VA = "0x182C113E0")]
+	[Address(RVA = "0x65F99B0", Offset = "0x65F89B0", VA = "0x65F99B0")]
 	public UniversalRenderPipelineAsset()
 	{
 	}

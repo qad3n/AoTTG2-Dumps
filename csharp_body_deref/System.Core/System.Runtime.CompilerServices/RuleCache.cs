@@ -11,41 +11,41 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000255")]
+[Token(Token = "0x2000256")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 [DebuggerStepThrough]
 public class RuleCache<T> where T : class
 {
-	[Token(Token = "0x4000448")]
+	[Token(Token = "0x4000451")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] _rules;
 
-	[Token(Token = "0x4000449")]
+	[Token(Token = "0x4000452")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly object _cacheLock;
 
-	[Token(Token = "0x6000B99")]
+	[Token(Token = "0x6000BA4")]
 	internal RuleCache()
 	{
 	}
 
-	[Token(Token = "0x6000B9A")]
+	[Token(Token = "0x6000BA5")]
 	internal T[] GetRules()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B9B")]
+	[Token(Token = "0x6000BA6")]
 	internal void MoveRule(T rule, int i)
 	{
 	}
 
-	[Token(Token = "0x6000B9C")]
+	[Token(Token = "0x6000BA7")]
 	internal void AddRule(T newRule)
 	{
 	}
 
-	[Token(Token = "0x6000B9D")]
+	[Token(Token = "0x6000BA8")]
 	private static T[] AddOrInsert(T[] rules, T item)
 	{
 		return null;

@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000A7")]
+[Token(Token = "0x20000A8")]
 internal class InstanceMethodCallExpression : MethodCallExpression, IArgumentProvider
 {
-	[Token(Token = "0x40001B9")]
+	[Token(Token = "0x40001C2")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Expression _instance;
 
-	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x243AAA0", Offset = "0x24390A0", VA = "0x18243AAA0")]
+	[Token(Token = "0x6000498")]
+	[Address(RVA = "0x5DD3120", Offset = "0x5DD2120", VA = "0x5DD3120")]
 	public InstanceMethodCallExpression(MethodInfo method, Expression instance)
 	{
 	}
 
-	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+	[Token(Token = "0x6000499")]
+	[Address(RVA = "0x5DD31A0", Offset = "0x5DD21A0", VA = "0x5DD31A0", Slot = "12")]
 	internal override Expression GetInstance()
 	{
 		return null;

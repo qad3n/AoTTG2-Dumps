@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncWillRenderObjectTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000C01")]
-	[Address(RVA = "0x293F830", Offset = "0x293DE30", VA = "0x18293F830")]
+	[Address(RVA = "0x6302260", Offset = "0x6301260", VA = "0x6302260")]
 	private void OnWillRenderObject()
 	{
 	}
 
 	[Token(Token = "0x6000C02")]
-	[Address(RVA = "0x293F520", Offset = "0x293DB20", VA = "0x18293F520")]
+	[Address(RVA = "0x63022D0", Offset = "0x63012D0", VA = "0x63022D0")]
 	public IAsyncOnWillRenderObjectHandler GetOnWillRenderObjectAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C03")]
-	[Address(RVA = "0x293F590", Offset = "0x293DB90", VA = "0x18293F590")]
+	[Address(RVA = "0x6302340", Offset = "0x6301340", VA = "0x6302340")]
 	public IAsyncOnWillRenderObjectHandler GetOnWillRenderObjectAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C04")]
-	[Address(RVA = "0x293F720", Offset = "0x293DD20", VA = "0x18293F720")]
+	[Address(RVA = "0x63023B0", Offset = "0x63013B0", VA = "0x63023B0")]
 	public UniTask OnWillRenderObjectAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000C05")]
-	[Address(RVA = "0x293F610", Offset = "0x293DC10", VA = "0x18293F610")]
+	[Address(RVA = "0x63024A0", Offset = "0x63014A0", VA = "0x63024A0")]
 	public UniTask OnWillRenderObjectAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000C06")]
-	[Address(RVA = "0x293F8A0", Offset = "0x293DEA0", VA = "0x18293F8A0")]
+	[Address(RVA = "0x6302590", Offset = "0x6301590", VA = "0x6302590")]
 	public AsyncWillRenderObjectTrigger()
 	{
 	}

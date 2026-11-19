@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeUtilityExtensions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ namespace Unity.Collections.LowLevel.Unsafe;
 public static class UnsafeUtilityExtensions
 {
 	[Token(Token = "0x6000DD0")]
-	[Address(RVA = "0x29C1180", Offset = "0x29BF780", VA = "0x1829C1180")]
+	[Address(RVA = "0x638E7E0", Offset = "0x638D7E0", VA = "0x638E7E0")]
 	internal unsafe static void MemSwap(void* ptr, void* otherPtr, long size)
 	{
 	}
@@ -53,7 +53,7 @@ public static class UnsafeUtilityExtensions
 	}
 
 	[Token(Token = "0x6000DD5")]
-	[Address(RVA = "0x29C1110", Offset = "0x29BF710", VA = "0x1829C1110")]
+	[Address(RVA = "0x638E870", Offset = "0x638D870", VA = "0x638E870")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private unsafe static void CheckMemSwapOverlap(byte* dst, byte* src, long size)
@@ -61,7 +61,7 @@ public static class UnsafeUtilityExtensions
 	}
 
 	[Token(Token = "0x6000DD6")]
-	[Address(RVA = "0x29C1040", Offset = "0x29BF640", VA = "0x1829C1040")]
+	[Address(RVA = "0x638E8D0", Offset = "0x638D8D0", VA = "0x638E8D0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckIndexRange(int index, int capacity)

@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 namespace System.Collections.Concurrent;
 
 [StructLayout((LayoutKind)2)]
-[Token(Token = "0x20005FF")]
+[Token(Token = "0x20005DA")]
 [DebuggerDisplay("Head = {Head}, Tail = {Tail}")]
 internal struct PaddedHeadAndTail
 {
-	[Token(Token = "0x40018ED")]
+	[Token(Token = "0x4001854")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	public int Head;
 
-	[Token(Token = "0x40018EE")]
+	[Token(Token = "0x4001855")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x100")]
 	public int Tail;
 }

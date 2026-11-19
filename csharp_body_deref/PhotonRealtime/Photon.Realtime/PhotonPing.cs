@@ -42,33 +42,33 @@ public abstract class PhotonPing : IDisposable
 	private static readonly Random RandomIdProvider;
 
 	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x1D24AD0", Offset = "0x1D230D0", VA = "0x181D24AD0", Slot = "5")]
+	[Address(RVA = "0x56BC0A0", Offset = "0x56BB0A0", VA = "0x56BC0A0", Slot = "5")]
 	public virtual bool StartPing(string ip)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x1D24A10", Offset = "0x1D23010", VA = "0x181D24A10", Slot = "6")]
+	[Address(RVA = "0x56BC0E0", Offset = "0x56BB0E0", VA = "0x56BC0E0", Slot = "6")]
 	public virtual bool Done()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x1D249D0", Offset = "0x1D22FD0", VA = "0x181D249D0", Slot = "7")]
+	[Address(RVA = "0x56BC120", Offset = "0x56BB120", VA = "0x56BC120", Slot = "7")]
 	public virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x1D24A50", Offset = "0x1D23050", VA = "0x181D24A50")]
+	[Address(RVA = "0x56BC160", Offset = "0x56BB160", VA = "0x56BC160")]
 	protected internal void Init()
 	{
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x1D24B90", Offset = "0x1D23190", VA = "0x181D24B90")]
+	[Address(RVA = "0x56BC1E0", Offset = "0x56BB1E0", VA = "0x56BC1E0")]
 	protected PhotonPing()
 	{
 	}

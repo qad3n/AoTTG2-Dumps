@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000514")]
+[Token(Token = "0x20004ED")]
 [Flags]
 public enum MemberTypes
 {
-	[Token(Token = "0x4001406")]
+	[Token(Token = "0x4001366")]
 	Constructor = 1,
-	[Token(Token = "0x4001407")]
+	[Token(Token = "0x4001367")]
 	Event = 2,
-	[Token(Token = "0x4001408")]
+	[Token(Token = "0x4001368")]
 	Field = 4,
-	[Token(Token = "0x4001409")]
+	[Token(Token = "0x4001369")]
 	Method = 8,
-	[Token(Token = "0x400140A")]
+	[Token(Token = "0x400136A")]
 	Property = 0x10,
-	[Token(Token = "0x400140B")]
+	[Token(Token = "0x400136B")]
 	TypeInfo = 0x20,
-	[Token(Token = "0x400140C")]
+	[Token(Token = "0x400136C")]
 	Custom = 0x40,
-	[Token(Token = "0x400140D")]
+	[Token(Token = "0x400136D")]
 	NestedType = 0x80,
-	[Token(Token = "0x400140E")]
+	[Token(Token = "0x400136E")]
 	All = Constructor | Event | Field | Method | Property | TypeInfo | NestedType
 }

@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000086")]
+[Token(Token = "0x2000087")]
 internal interface IParameterProvider
 {
-	[Token(Token = "0x1700008B")]
+	[Token(Token = "0x1700008D")]
 	int ParameterCount
 	{
-		[Token(Token = "0x60003FC")]
+		[Token(Token = "0x6000407")]
 		get;
 	}
 
-	[Token(Token = "0x60003FB")]
+	[Token(Token = "0x6000406")]
 	ParameterExpression GetParameter(int index);
 }

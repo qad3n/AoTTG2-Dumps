@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005D3")]
+[Token(Token = "0x20005AE")]
 public interface IList : ICollection, IEnumerable
 {
-	[Token(Token = "0x170006B8")]
+	[Token(Token = "0x170006B9")]
 	object this[int index]
 	{
-		[Token(Token = "0x6002BDA")]
+		[Token(Token = "0x6002BB9")]
 		get;
-		[Token(Token = "0x6002BDB")]
+		[Token(Token = "0x6002BBA")]
 		set;
 	}
 
-	[Token(Token = "0x170006B9")]
+	[Token(Token = "0x170006BA")]
 	bool IsReadOnly
 	{
-		[Token(Token = "0x6002BDF")]
+		[Token(Token = "0x6002BBE")]
 		get;
 	}
 
-	[Token(Token = "0x170006BA")]
+	[Token(Token = "0x170006BB")]
 	bool IsFixedSize
 	{
-		[Token(Token = "0x6002BE0")]
+		[Token(Token = "0x6002BBF")]
 		get;
 	}
 
-	[Token(Token = "0x6002BDC")]
+	[Token(Token = "0x6002BBB")]
 	int Add(object value);
 
-	[Token(Token = "0x6002BDD")]
+	[Token(Token = "0x6002BBC")]
 	bool Contains(object value);
 
-	[Token(Token = "0x6002BDE")]
+	[Token(Token = "0x6002BBD")]
 	void Clear();
 
-	[Token(Token = "0x6002BE1")]
+	[Token(Token = "0x6002BC0")]
 	int IndexOf(object value);
 
-	[Token(Token = "0x6002BE2")]
+	[Token(Token = "0x6002BC1")]
 	void Insert(int index, object value);
 
-	[Token(Token = "0x6002BE3")]
+	[Token(Token = "0x6002BC2")]
 	void Remove(object value);
 
-	[Token(Token = "0x6002BE4")]
+	[Token(Token = "0x6002BC3")]
 	void RemoveAt(int index);
 }

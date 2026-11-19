@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeBakingResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -74,7 +74,7 @@ internal class ProbeVolumeBakingResources : IRenderPipelineResources, IRenderPip
 	public int version
 	{
 		[Token(Token = "0x6000AA4")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x650DB10", Offset = "0x650CB10", VA = "0x650DB10", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -82,7 +82,7 @@ internal class ProbeVolumeBakingResources : IRenderPipelineResources, IRenderPip
 	}
 
 	[Token(Token = "0x6000AA5")]
-	[Address(RVA = "0x18D09C0", Offset = "0x18CEFC0", VA = "0x1818D09C0")]
+	[Address(RVA = "0x650DB20", Offset = "0x650CB20", VA = "0x650DB20")]
 	public ProbeVolumeBakingResources()
 	{
 	}

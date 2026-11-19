@@ -13,14 +13,14 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Experimental.Playables;
 
 [Token(Token = "0x20003F2")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Director/TexturePlayableOutput.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/RenderTexture.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/TexturePlayableOutput.bindings.h")]
-[UnityEngine.Bindings.StaticAccessor("TexturePlayableOutputBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("TexturePlayableOutputBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/TexturePlayableOutput.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/RenderTexture.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Director/TexturePlayableOutput.h")]
 public struct TexturePlayableOutput
 {
-	[Token(Token = "0x4000D2D")]
+	[Token(Token = "0x4000D2B")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableOutputHandle m_Handle;
 }

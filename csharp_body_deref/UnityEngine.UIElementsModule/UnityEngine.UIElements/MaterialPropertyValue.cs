@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MaterialPropertyValue
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,77 +11,77 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000400")]
+[Token(Token = "0x2000403")]
 [UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal struct MaterialPropertyValue : IEquatable<MaterialPropertyValue>
 {
-	[Token(Token = "0x4000D9B")]
+	[Token(Token = "0x4000D9F")]
 	[FieldOffset(Offset = "0x0")]
 	public string name;
 
-	[Token(Token = "0x4000D9C")]
+	[Token(Token = "0x4000DA0")]
 	[FieldOffset(Offset = "0x8")]
 	public MaterialPropertyValueType type;
 
-	[Token(Token = "0x4000D9D")]
+	[Token(Token = "0x4000DA1")]
 	[FieldOffset(Offset = "0xC")]
 	public Vector4 packedValue;
 
-	[Token(Token = "0x4000D9E")]
+	[Token(Token = "0x4000DA2")]
 	[FieldOffset(Offset = "0x20")]
 	public Texture textureValue;
 
-	[Token(Token = "0x6001F3D")]
-	[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
+	[Token(Token = "0x6001F50")]
+	[Address(RVA = "0x6B0F690", Offset = "0x6B0E690", VA = "0x6B0F690")]
 	public float GetFloat()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001F3E")]
-	[Address(RVA = "0x310F360", Offset = "0x310D960", VA = "0x18310F360")]
+	[Token(Token = "0x6001F51")]
+	[Address(RVA = "0x6B0F6A0", Offset = "0x6B0E6A0", VA = "0x6B0F6A0")]
 	public Vector4 GetVector()
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6001F3F")]
-	[Address(RVA = "0x310F100", Offset = "0x310D700", VA = "0x18310F100")]
+	[Token(Token = "0x6001F52")]
+	[Address(RVA = "0x6B0F6B0", Offset = "0x6B0E6B0", VA = "0x6B0F6B0")]
 	public Color GetColor()
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x6001F40")]
-	[Address(RVA = "0x310F370", Offset = "0x310D970", VA = "0x18310F370", Slot = "3")]
+	[Token(Token = "0x6001F53")]
+	[Address(RVA = "0x6B0FFB0", Offset = "0x6B0EFB0", VA = "0x6B0FFB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F41")]
-	[Address(RVA = "0x310F4D0", Offset = "0x310DAD0", VA = "0x18310F4D0")]
+	[Token(Token = "0x6001F54")]
+	[Address(RVA = "0x6B0F930", Offset = "0x6B0E930", VA = "0x6B0F930")]
 	public static bool operator !=(MaterialPropertyValue lhs, MaterialPropertyValue rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001F42")]
-	[Address(RVA = "0x310EF50", Offset = "0x310D550", VA = "0x18310EF50", Slot = "0")]
+	[Token(Token = "0x6001F55")]
+	[Address(RVA = "0x6B10370", Offset = "0x6B0F370", VA = "0x6B10370", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001F43")]
-	[Address(RVA = "0x310F000", Offset = "0x310D600", VA = "0x18310F000", Slot = "4")]
+	[Token(Token = "0x6001F56")]
+	[Address(RVA = "0x6B10290", Offset = "0x6B0F290", VA = "0x6B10290", Slot = "4")]
 	public bool Equals(MaterialPropertyValue other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001F44")]
-	[Address(RVA = "0x310F120", Offset = "0x310D720", VA = "0x18310F120", Slot = "2")]
+	[Token(Token = "0x6001F57")]
+	[Address(RVA = "0x6B0FCD0", Offset = "0x6B0ECD0", VA = "0x6B0FCD0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

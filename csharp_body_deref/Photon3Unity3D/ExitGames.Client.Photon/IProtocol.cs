@@ -88,41 +88,41 @@ public abstract class IProtocol
 	public abstract DisconnectMessage DeserializeDisconnectMessage(StreamBuffer stream);
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x1CC5DD0", Offset = "0x1CC43D0", VA = "0x181CC5DD0")]
+	[Address(RVA = "0x565C650", Offset = "0x565B650", VA = "0x565C650")]
 	public byte[] Serialize(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x1CC5CA0", Offset = "0x1CC42A0", VA = "0x181CC5CA0")]
+	[Address(RVA = "0x565C6D0", Offset = "0x565B6D0", VA = "0x565C6D0")]
 	public object Deserialize(StreamBuffer stream)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x1CC5D00", Offset = "0x1CC4300", VA = "0x181CC5D00")]
+	[Address(RVA = "0x565C720", Offset = "0x565B720", VA = "0x565C720")]
 	public object Deserialize(byte[] serializedData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x1CC5CA0", Offset = "0x1CC42A0", VA = "0x181CC5CA0")]
+	[Address(RVA = "0x565C7A0", Offset = "0x565B7A0", VA = "0x565C7A0")]
 	public object DeserializeMessage(StreamBuffer stream)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x1CC5DA0", Offset = "0x1CC43A0", VA = "0x181CC5DA0")]
+	[Address(RVA = "0x565C7F0", Offset = "0x565B7F0", VA = "0x565C7F0")]
 	internal void SerializeMessage(StreamBuffer ms, object msg)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x1CC5E70", Offset = "0x1CC4470", VA = "0x181CC5E70")]
+	[Address(RVA = "0x565C810", Offset = "0x565B810", VA = "0x565C810")]
 	protected IProtocol()
 	{
 	}

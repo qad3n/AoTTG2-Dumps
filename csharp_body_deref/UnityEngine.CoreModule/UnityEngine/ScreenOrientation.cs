@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000108")]
+[Token(Token = "0x2000109")]
 public enum ScreenOrientation
 {
-	[Token(Token = "0x40002DD")]
-	Portrait = 1,
-	[Token(Token = "0x40002DE")]
-	PortraitUpsideDown = 2,
-	[Token(Token = "0x40002DF")]
-	LandscapeLeft = 3,
-	[Token(Token = "0x40002E0")]
-	LandscapeRight = 4,
-	[Token(Token = "0x40002E1")]
-	AutoRotation = 5,
 	[Token(Token = "0x40002E2")]
+	Portrait = 1,
+	[Token(Token = "0x40002E3")]
+	PortraitUpsideDown = 2,
+	[Token(Token = "0x40002E4")]
+	LandscapeLeft = 3,
+	[Token(Token = "0x40002E5")]
+	LandscapeRight = 4,
+	[Token(Token = "0x40002E6")]
+	AutoRotation = 5,
+	[Token(Token = "0x40002E7")]
 	[Obsolete("Enum member Unknown has been deprecated.", false)]
 	Unknown = 0,
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x40002E8")]
 	[Obsolete("Use LandscapeLeft instead (UnityUpgradable) -> LandscapeLeft", true)]
 	Landscape = LandscapeLeft
 }

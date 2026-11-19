@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.RenderTreeCompositor
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,362 +12,362 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005C3")]
+[Token(Token = "0x20005AE")]
 internal class RenderTreeCompositor : IDisposable
 {
-	[Token(Token = "0x20005C4")]
+	[Token(Token = "0x20005AF")]
 	private enum DrawOperationType
 	{
-		[Token(Token = "0x400151A")]
+		[Token(Token = "0x400145C")]
 		Undefined,
-		[Token(Token = "0x400151B")]
+		[Token(Token = "0x400145D")]
 		RenderTree,
-		[Token(Token = "0x400151C")]
+		[Token(Token = "0x400145E")]
 		Effect
 	}
 
-	[Token(Token = "0x20005C5")]
+	[Token(Token = "0x20005B0")]
 	private class DrawOperation
 	{
-		[Token(Token = "0x400151D")]
+		[Token(Token = "0x400145F")]
 		[FieldOffset(Offset = "0x10")]
 		private DrawOperationType m_Type;
 
-		[Token(Token = "0x400151E")]
+		[Token(Token = "0x4001460")]
 		[FieldOffset(Offset = "0x18")]
 		private VisualElement m_VisualElement;
 
-		[Token(Token = "0x400151F")]
+		[Token(Token = "0x4001461")]
 		[FieldOffset(Offset = "0x20")]
 		private RenderTree m_RenderTree;
 
-		[Token(Token = "0x4001520")]
+		[Token(Token = "0x4001462")]
 		[FieldOffset(Offset = "0x28")]
 		private PostProcessingPass m_FilterPass;
 
-		[Token(Token = "0x4001521")]
+		[Token(Token = "0x4001463")]
 		[FieldOffset(Offset = "0x80")]
 		private int m_FilterPassIndex;
 
-		[Token(Token = "0x4001522")]
+		[Token(Token = "0x4001464")]
 		[FieldOffset(Offset = "0x88")]
 		private FilterFunction m_Filter;
 
-		[Token(Token = "0x4001523")]
+		[Token(Token = "0x4001465")]
 		[FieldOffset(Offset = "0xF8")]
 		public RectInt bounds;
 
-		[Token(Token = "0x4001524")]
+		[Token(Token = "0x4001466")]
 		[FieldOffset(Offset = "0x108")]
 		public RectInt drawSourceBounds;
 
-		[Token(Token = "0x4001525")]
+		[Token(Token = "0x4001467")]
 		[FieldOffset(Offset = "0x118")]
 		public Vector4 drawSourceTexOffsets;
 
-		[Token(Token = "0x4001526")]
+		[Token(Token = "0x4001468")]
 		[FieldOffset(Offset = "0x128")]
 		public RenderTreeAtlas.AtlasBlock dstAtlasBlock;
 
-		[Token(Token = "0x4001527")]
+		[Token(Token = "0x4001469")]
 		[FieldOffset(Offset = "0x158")]
 		public TextureId dstTextureId;
 
-		[Token(Token = "0x4001528")]
+		[Token(Token = "0x400146A")]
 		[FieldOffset(Offset = "0x160")]
 		public DrawOperation parent;
 
-		[Token(Token = "0x4001529")]
+		[Token(Token = "0x400146B")]
 		[FieldOffset(Offset = "0x168")]
 		public DrawOperation firstChild;
 
-		[Token(Token = "0x400152A")]
+		[Token(Token = "0x400146C")]
 		[FieldOffset(Offset = "0x170")]
 		public DrawOperation lastChild;
 
-		[Token(Token = "0x400152B")]
+		[Token(Token = "0x400146D")]
 		[FieldOffset(Offset = "0x178")]
 		public DrawOperation prevSibling;
 
-		[Token(Token = "0x400152C")]
+		[Token(Token = "0x400146E")]
 		[FieldOffset(Offset = "0x180")]
 		public DrawOperation nextSibling;
 
-		[Token(Token = "0x17000A82")]
+		[Token(Token = "0x17000A76")]
 		public DrawOperationType type
 		{
-			[Token(Token = "0x6002AC1")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Token(Token = "0x6002A60")]
+			[Address(RVA = "0x6BA4BD0", Offset = "0x6BA3BD0", VA = "0x6BA4BD0")]
 			get
 			{
 				return default(DrawOperationType);
 			}
 		}
 
-		[Token(Token = "0x17000A83")]
+		[Token(Token = "0x17000A77")]
 		public VisualElement visualElement
 		{
-			[Token(Token = "0x6002AC2")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Token(Token = "0x6002A61")]
+			[Address(RVA = "0x6BA4BE0", Offset = "0x6BA3BE0", VA = "0x6BA4BE0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000A84")]
+		[Token(Token = "0x17000A78")]
 		public RenderTree renderTree
 		{
-			[Token(Token = "0x6002AC3")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Token(Token = "0x6002A62")]
+			[Address(RVA = "0x6BA4BF0", Offset = "0x6BA3BF0", VA = "0x6BA4BF0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000A85")]
+		[Token(Token = "0x17000A79")]
 		public PostProcessingPass FilterPass
 		{
-			[Token(Token = "0x6002AC4")]
-			[Address(RVA = "0x31A3760", Offset = "0x31A1D60", VA = "0x1831A3760")]
+			[Token(Token = "0x6002A63")]
+			[Address(RVA = "0x6BA4C00", Offset = "0x6BA3C00", VA = "0x6BA4C00")]
 			get
 			{
 				return default(PostProcessingPass);
 			}
 		}
 
-		[Token(Token = "0x17000A86")]
+		[Token(Token = "0x17000A7A")]
 		public int FilterPassIndex
 		{
-			[Token(Token = "0x6002AC5")]
-			[Address(RVA = "0xB5B9B0", Offset = "0xB59FB0", VA = "0x180B5B9B0")]
+			[Token(Token = "0x6002A64")]
+			[Address(RVA = "0x6BA4C40", Offset = "0x6BA3C40", VA = "0x6BA4C40")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x17000A87")]
+		[Token(Token = "0x17000A7B")]
 		public FilterFunction filter
 		{
-			[Token(Token = "0x6002AC6")]
-			[Address(RVA = "0x31A37A0", Offset = "0x31A1DA0", VA = "0x1831A37A0")]
+			[Token(Token = "0x6002A65")]
+			[Address(RVA = "0x6BA4C50", Offset = "0x6BA3C50", VA = "0x6BA4C50")]
 			get
 			{
 				return default(FilterFunction);
 			}
 		}
 
-		[Token(Token = "0x6002AC7")]
-		[Address(RVA = "0x31A34E0", Offset = "0x31A1AE0", VA = "0x1831A34E0")]
+		[Token(Token = "0x6002A66")]
+		[Address(RVA = "0x6BA2120", Offset = "0x6BA1120", VA = "0x6BA2120")]
 		public void Init(VisualElement ve, in PostProcessingPass filterPass, int filterPassIndex, FilterFunction filter)
 		{
 		}
 
-		[Token(Token = "0x6002AC8")]
-		[Address(RVA = "0x31A35F0", Offset = "0x31A1BF0", VA = "0x1831A35F0")]
+		[Token(Token = "0x6002A67")]
+		[Address(RVA = "0x6BA1930", Offset = "0x6BA0930", VA = "0x6BA1930")]
 		public void Init(RenderTree renderTree)
 		{
 		}
 
-		[Token(Token = "0x6002AC9")]
-		[Address(RVA = "0x31A3450", Offset = "0x31A1A50", VA = "0x1831A3450")]
+		[Token(Token = "0x6002A68")]
+		[Address(RVA = "0x6BA4CA0", Offset = "0x6BA3CA0", VA = "0x6BA4CA0")]
 		private void InitPointers()
 		{
 		}
 
-		[Token(Token = "0x6002ACA")]
-		[Address(RVA = "0x31A3650", Offset = "0x31A1C50", VA = "0x1831A3650")]
+		[Token(Token = "0x6002A69")]
+		[Address(RVA = "0x6BA49A0", Offset = "0x6BA39A0", VA = "0x6BA49A0")]
 		public void Reset()
 		{
 		}
 
-		[Token(Token = "0x6002ACB")]
-		[Address(RVA = "0x31A3360", Offset = "0x31A1960", VA = "0x1831A3360")]
+		[Token(Token = "0x6002A6A")]
+		[Address(RVA = "0x6BA22B0", Offset = "0x6BA12B0", VA = "0x6BA22B0")]
 		public void AddChild(DrawOperation op)
 		{
 		}
 
-		[Token(Token = "0x6002ACC")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6002A6B")]
+		[Address(RVA = "0x6BA4D30", Offset = "0x6BA3D30", VA = "0x6BA4D30")]
 		public DrawOperation()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001510")]
+	[Token(Token = "0x4001452")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly RenderTreeManager m_RenderTreeManager;
 
-	[Token(Token = "0x4001511")]
+	[Token(Token = "0x4001453")]
 	[FieldOffset(Offset = "0x18")]
 	private DrawOperation m_RootOperation;
 
-	[Token(Token = "0x4001512")]
+	[Token(Token = "0x4001454")]
 	[FieldOffset(Offset = "0x20")]
 	private List<RenderTexture> m_AllocatedTextures;
 
-	[Token(Token = "0x4001513")]
+	[Token(Token = "0x4001455")]
 	[FieldOffset(Offset = "0x28")]
 	private MaterialPropertyBlock m_Block;
 
-	[Token(Token = "0x4001514")]
+	[Token(Token = "0x4001456")]
 	[FieldOffset(Offset = "0x30")]
 	private ObjectPool<DrawOperation> m_DrawOperationPool;
 
-	[Token(Token = "0x4001515")]
+	[Token(Token = "0x4001457")]
 	[FieldOffset(Offset = "0x38")]
 	private float m_PixelsPerPoint;
 
-	[Token(Token = "0x4001516")]
+	[Token(Token = "0x4001458")]
 	private const float k_PixelSnapTolerance = 0.01f;
 
-	[Token(Token = "0x4001517")]
+	[Token(Token = "0x4001459")]
 	[FieldOffset(Offset = "0x0")]
 	private static Vector4[] s_UVRects;
 
-	[Token(Token = "0x17000A81")]
+	[Token(Token = "0x17000A75")]
 	protected bool disposed
 	{
-		[Token(Token = "0x6002ABC")]
-		[Address(RVA = "0xDA7C70", Offset = "0xDA6270", VA = "0x180DA7C70")]
+		[Token(Token = "0x6002A5B")]
+		[Address(RVA = "0x6BA4AA0", Offset = "0x6BA3AA0", VA = "0x6BA4AA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002ABD")]
-		[Address(RVA = "0xDA7C80", Offset = "0xDA6280", VA = "0x180DA7C80")]
+		[Token(Token = "0x6002A5C")]
+		[Address(RVA = "0x6BA4AB0", Offset = "0x6BA3AB0", VA = "0x6BA4AB0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002AAA")]
-	[Address(RVA = "0x31A9BD0", Offset = "0x31A81D0", VA = "0x1831A9BD0")]
+	[Token(Token = "0x6002A49")]
+	[Address(RVA = "0x6BA0180", Offset = "0x6B9F180", VA = "0x6BA0180")]
 	public RenderTreeCompositor(RenderTreeManager owner)
 	{
 	}
 
-	[Token(Token = "0x6002AAB")]
-	[Address(RVA = "0x31A9A10", Offset = "0x31A8010", VA = "0x1831A9A10")]
+	[Token(Token = "0x6002A4A")]
+	[Address(RVA = "0x6BA0360", Offset = "0x6B9F360", VA = "0x6BA0360")]
 	public void Update(RenderTree rootRenderTree)
 	{
 	}
 
-	[Token(Token = "0x6002AAC")]
-	[Address(RVA = "0x31A6F80", Offset = "0x31A5580", VA = "0x1831A6F80")]
+	[Token(Token = "0x6002A4B")]
+	[Address(RVA = "0x6BA0560", Offset = "0x6B9F560", VA = "0x6BA0560")]
 	private void BuildDrawOperationTree(RenderTree rootRenderTree)
 	{
 	}
 
-	[Token(Token = "0x6002AAD")]
-	[Address(RVA = "0x31A65C0", Offset = "0x31A4BC0", VA = "0x1831A65C0")]
+	[Token(Token = "0x6002A4C")]
+	[Address(RVA = "0x6BA1A10", Offset = "0x6BA0A10", VA = "0x6BA1A10")]
 	private void AddChildrenOperations_DepthFirst(DrawOperation parentOperation, RenderTree renderTree)
 	{
 	}
 
-	[Token(Token = "0x6002AAE")]
-	[Address(RVA = "0x31A8350", Offset = "0x31A6950", VA = "0x1831A8350")]
+	[Token(Token = "0x6002A4D")]
+	[Address(RVA = "0x6BA2380", Offset = "0x6BA1380", VA = "0x6BA2380")]
 	private static PostProcessingMargins GetReadMargins(PostProcessingPass effect, FilterFunction func)
 	{
 		return default(PostProcessingMargins);
 	}
 
-	[Token(Token = "0x6002AAF")]
-	[Address(RVA = "0x31A8400", Offset = "0x31A6A00", VA = "0x1831A8400")]
+	[Token(Token = "0x6002A4E")]
+	[Address(RVA = "0x6BA2400", Offset = "0x6BA1400", VA = "0x6BA2400")]
 	private static PostProcessingMargins GetWriteMargins(PostProcessingPass effect, FilterFunction func)
 	{
 		return default(PostProcessingMargins);
 	}
 
-	[Token(Token = "0x6002AB0")]
-	[Address(RVA = "0x31A8B10", Offset = "0x31A7110", VA = "0x1831A8B10")]
+	[Token(Token = "0x6002A4F")]
+	[Address(RVA = "0x6BA0610", Offset = "0x6B9F610", VA = "0x6BA0610")]
 	private void UpdateDrawBounds_PostOrder(DrawOperation op)
 	{
 	}
 
-	[Token(Token = "0x6002AB1")]
-	[Address(RVA = "0x31A87F0", Offset = "0x31A6DF0", VA = "0x1831A87F0")]
+	[Token(Token = "0x6002A50")]
+	[Address(RVA = "0x6BA2720", Offset = "0x6BA1720", VA = "0x6BA2720")]
 	private static Rect ScaleRect(Rect r, float scale)
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6002AB2")]
-	[Address(RVA = "0x31A8580", Offset = "0x31A6B80", VA = "0x1831A8580")]
+	[Token(Token = "0x6002A51")]
+	[Address(RVA = "0x6BA2480", Offset = "0x6BA1480", VA = "0x6BA2480")]
 	private Rect PixelsToPoints(RectInt r)
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6002AB3")]
-	[Address(RVA = "0x31A84B0", Offset = "0x31A6AB0", VA = "0x1831A84B0")]
+	[Token(Token = "0x6002A52")]
+	[Address(RVA = "0x6BA27B0", Offset = "0x6BA17B0", VA = "0x6BA27B0")]
 	private static Rect InflateByMargins(Rect r, PostProcessingMargins margins, float scale)
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6002AB4")]
-	[Address(RVA = "0x31A88E0", Offset = "0x31A6EE0", VA = "0x1831A88E0")]
+	[Token(Token = "0x6002A53")]
+	[Address(RVA = "0x6BA2870", Offset = "0x6BA1870", VA = "0x6BA2870")]
 	internal static RectInt SnapOutwardToPixels(Rect r)
 	{
 		return default(RectInt);
 	}
 
-	[Token(Token = "0x6002AB5")]
-	[Address(RVA = "0x31A8860", Offset = "0x31A6E60", VA = "0x1831A8860")]
+	[Token(Token = "0x6002A54")]
+	[Address(RVA = "0x6BA2B00", Offset = "0x6BA1B00", VA = "0x6BA2B00")]
 	private static int SnapMaxOutward(int snappedMin, float max, float extent)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002AB6")]
-	[Address(RVA = "0x31A6D50", Offset = "0x31A5350", VA = "0x1831A6D50")]
+	[Token(Token = "0x6002A55")]
+	[Address(RVA = "0x6BA16F0", Offset = "0x6BA06F0", VA = "0x6BA16F0")]
 	private void AssignTextureIds_DepthFirst(DrawOperation op)
 	{
 	}
 
-	[Token(Token = "0x6002AB7")]
-	[Address(RVA = "0x31A87E0", Offset = "0x31A6DE0", VA = "0x1831A87E0")]
+	[Token(Token = "0x6002A56")]
+	[Address(RVA = "0x6BA2BB0", Offset = "0x6BA1BB0", VA = "0x6BA2BB0")]
 	public void RenderNestedPasses()
 	{
 	}
 
-	[Token(Token = "0x6002AB8")]
-	[Address(RVA = "0x31A74B0", Offset = "0x31A5AB0", VA = "0x1831A74B0")]
+	[Token(Token = "0x6002A57")]
+	[Address(RVA = "0x6BA2BC0", Offset = "0x6BA1BC0", VA = "0x6BA2BC0")]
 	private void ExecuteDrawOperation_PostOrder(DrawOperation op)
 	{
 	}
 
-	[Token(Token = "0x6002AB9")]
-	[Address(RVA = "0x31A6AB0", Offset = "0x31A50B0", VA = "0x1831A6AB0")]
+	[Token(Token = "0x6002A58")]
+	[Address(RVA = "0x6BA3A10", Offset = "0x6BA2A10", VA = "0x6BA3A10")]
 	private void ApplyEffectParameters(PostProcessingPass effect, FilterFunction filter, VisualElement source, bool readsGamma)
 	{
 	}
 
-	[Token(Token = "0x6002ABA")]
-	[Address(RVA = "0x31A7070", Offset = "0x31A5670", VA = "0x1831A7070")]
+	[Token(Token = "0x6002A59")]
+	[Address(RVA = "0x6BA03D0", Offset = "0x6B9F3D0", VA = "0x6BA03D0")]
 	private void CleanupOperationTree()
 	{
 	}
 
-	[Token(Token = "0x6002ABB")]
-	[Address(RVA = "0x31A71F0", Offset = "0x31A57F0", VA = "0x1831A71F0")]
+	[Token(Token = "0x6002A5A")]
+	[Address(RVA = "0x6BA4760", Offset = "0x6BA3760", VA = "0x6BA4760")]
 	private void CleanupOperation_PostOrder(DrawOperation op)
 	{
 	}
 
-	[Token(Token = "0x6002ABE")]
-	[Address(RVA = "0x31A7420", Offset = "0x31A5A20", VA = "0x1831A7420", Slot = "4")]
+	[Token(Token = "0x6002A5D")]
+	[Address(RVA = "0x6BA4AC0", Offset = "0x6BA3AC0", VA = "0x6BA4AC0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6002ABF")]
-	[Address(RVA = "0x31A7480", Offset = "0x31A5A80", VA = "0x1831A7480")]
+	[Token(Token = "0x6002A5E")]
+	[Address(RVA = "0x6BA4B40", Offset = "0x6BA3B40", VA = "0x6BA4B40")]
 	protected void Dispose(bool disposing)
 	{
 	}

@@ -12,14 +12,14 @@ namespace Mono.Net.Security;
 [Token(Token = "0x200004E")]
 internal class AsyncHandshakeRequest : AsyncProtocolRequest
 {
-	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x248F0D0", Offset = "0x248D6D0", VA = "0x18248F0D0")]
+	[Token(Token = "0x60000C9")]
+	[Address(RVA = "0x5E37D60", Offset = "0x5E36D60", VA = "0x5E37D60")]
 	public AsyncHandshakeRequest(MobileAuthenticatedStream parent, bool sync)
 	{
 	}
 
-	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x248F0A0", Offset = "0x248D6A0", VA = "0x18248F0A0", Slot = "4")]
+	[Token(Token = "0x60000CA")]
+	[Address(RVA = "0x5E37DF0", Offset = "0x5E36DF0", VA = "0x5E37DF0", Slot = "4")]
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status)
 	{
 		return default(AsyncOperationStatus);

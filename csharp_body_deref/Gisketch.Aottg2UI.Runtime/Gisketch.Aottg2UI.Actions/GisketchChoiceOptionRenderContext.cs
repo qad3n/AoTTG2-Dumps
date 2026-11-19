@@ -12,47 +12,47 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D4")]
+[Token(Token = "0x20000DA")]
 public sealed class GisketchChoiceOptionRenderContext
 {
-	[Token(Token = "0x400044C")]
+	[Token(Token = "0x4000473")]
 	[FieldOffset(Offset = "0x10")]
 	public GameObject Root;
 
-	[Token(Token = "0x400044D")]
+	[Token(Token = "0x4000474")]
 	[FieldOffset(Offset = "0x18")]
 	public TextMeshProUGUI Label;
 
-	[Token(Token = "0x400044E")]
+	[Token(Token = "0x4000475")]
 	[FieldOffset(Offset = "0x20")]
 	public GisketchChoiceOptionDefinition Option;
 
-	[Token(Token = "0x400044F")]
+	[Token(Token = "0x4000476")]
 	[FieldOffset(Offset = "0x28")]
 	public string Text;
 
-	[Token(Token = "0x4000450")]
+	[Token(Token = "0x4000477")]
 	[FieldOffset(Offset = "0x30")]
 	public string Value;
 
-	[Token(Token = "0x4000451")]
+	[Token(Token = "0x4000478")]
 	[FieldOffset(Offset = "0x38")]
 	public int Index;
 
-	[Token(Token = "0x4000452")]
+	[Token(Token = "0x4000479")]
 	[FieldOffset(Offset = "0x3C")]
 	public bool Enabled;
 
-	[Token(Token = "0x4000453")]
+	[Token(Token = "0x400047A")]
 	[FieldOffset(Offset = "0x3D")]
 	public bool Selected;
 
-	[Token(Token = "0x4000454")]
+	[Token(Token = "0x400047B")]
 	[FieldOffset(Offset = "0x3E")]
 	public bool ClosedValue;
 
-	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60006CC")]
+	[Address(RVA = "0x5297DE0", Offset = "0x5296DE0", VA = "0x5297DE0")]
 	public GisketchChoiceOptionRenderContext()
 	{
 	}

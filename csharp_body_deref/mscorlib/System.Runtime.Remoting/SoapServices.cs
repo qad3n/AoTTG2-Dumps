@@ -12,53 +12,64 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000381")]
+[Token(Token = "0x200035A")]
 [ComVisible(true)]
 public class SoapServices
 {
-	[Token(Token = "0x2000382")]
+	[Token(Token = "0x200035B")]
 	private class TypeInfo
 	{
-		[Token(Token = "0x4000EC7")]
+		[Token(Token = "0x4000E27")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public Hashtable Attributes;
 
-		[Token(Token = "0x4000EC8")]
+		[Token(Token = "0x4000E28")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public Hashtable Elements;
 
-		[Token(Token = "0x6001D43")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6001D19")]
+		[Address(RVA = "0x5379160", Offset = "0x5378160", VA = "0x5379160")]
 		public TypeInfo()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000EC2")]
+	[Token(Token = "0x4000E22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static Hashtable _xmlTypes;
 
-	[Token(Token = "0x4000EC3")]
+	[Token(Token = "0x4000E23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static Hashtable _xmlElements;
 
-	[Token(Token = "0x4000EC4")]
+	[Token(Token = "0x4000E24")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static Hashtable _soapActions;
 
-	[Token(Token = "0x4000EC5")]
+	[Token(Token = "0x4000E25")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private static Hashtable _soapActionsMethods;
 
-	[Token(Token = "0x4000EC6")]
+	[Token(Token = "0x4000E26")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static Hashtable _typeInfos;
 
-	[Token(Token = "0x1700034A")]
+	[Token(Token = "0x17000349")]
 	public static string XmlNsForClrTypeWithAssembly
 	{
-		[Token(Token = "0x6001D33")]
-		[Address(RVA = "0x19E8040", Offset = "0x19E6640", VA = "0x1819E8040")]
+		[Token(Token = "0x6001D09")]
+		[Address(RVA = "0x53789C0", Offset = "0x53779C0", VA = "0x53789C0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700034A")]
+	public static string XmlNsForClrTypeWithNs
+	{
+		[Token(Token = "0x6001D0A")]
+		[Address(RVA = "0x53789F0", Offset = "0x53779F0", VA = "0x53789F0")]
 		get
 		{
 			return null;
@@ -66,102 +77,91 @@ public class SoapServices
 	}
 
 	[Token(Token = "0x1700034B")]
-	public static string XmlNsForClrTypeWithNs
-	{
-		[Token(Token = "0x6001D34")]
-		[Address(RVA = "0x19E80A0", Offset = "0x19E66A0", VA = "0x1819E80A0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700034C")]
 	public static string XmlNsForClrTypeWithNsAndAssembly
 	{
-		[Token(Token = "0x6001D35")]
-		[Address(RVA = "0x19E8070", Offset = "0x19E6670", VA = "0x1819E8070")]
+		[Token(Token = "0x6001D0B")]
+		[Address(RVA = "0x5378A20", Offset = "0x5377A20", VA = "0x5378A20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D36")]
-	[Address(RVA = "0x19E6D80", Offset = "0x19E5380", VA = "0x1819E6D80")]
+	[Token(Token = "0x6001D0C")]
+	[Address(RVA = "0x5378A50", Offset = "0x5377A50", VA = "0x5378A50")]
 	public static string CodeXmlNamespaceForClrTypeNamespace(string typeNamespace, string assemblyName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D37")]
-	[Address(RVA = "0x19E7100", Offset = "0x19E5700", VA = "0x1819E7100")]
+	[Token(Token = "0x6001D0D")]
+	[Address(RVA = "0x5378CC0", Offset = "0x5377CC0", VA = "0x5378CC0")]
 	private static string GetNameKey(string name, string namspace)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D38")]
-	[Address(RVA = "0x19E6FD0", Offset = "0x19E55D0", VA = "0x1819E6FD0")]
+	[Token(Token = "0x6001D0E")]
+	[Address(RVA = "0x5378D20", Offset = "0x5377D20", VA = "0x5378D20")]
 	private static string GetAssemblyName(MethodBase mb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D39")]
-	[Address(RVA = "0x19E7160", Offset = "0x19E5760", VA = "0x1819E7160")]
+	[Token(Token = "0x6001D0F")]
+	[Address(RVA = "0x5378E40", Offset = "0x5377E40", VA = "0x5378E40")]
 	public static bool GetXmlElementForInteropType(Type type, out string xmlElement, out string xmlNamespace)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D3A")]
-	[Address(RVA = "0x19E7270", Offset = "0x19E5870", VA = "0x1819E7270")]
+	[Token(Token = "0x6001D10")]
+	[Address(RVA = "0x5378F50", Offset = "0x5377F50", VA = "0x5378F50")]
 	public static string GetXmlNamespaceForMethodCall(MethodBase mb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D3B")]
-	[Address(RVA = "0x19E7310", Offset = "0x19E5910", VA = "0x1819E7310")]
+	[Token(Token = "0x6001D11")]
+	[Address(RVA = "0x5378FE0", Offset = "0x5377FE0", VA = "0x5378FE0")]
 	public static string GetXmlNamespaceForMethodResponse(MethodBase mb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D3C")]
-	[Address(RVA = "0x19E73B0", Offset = "0x19E59B0", VA = "0x1819E73B0")]
+	[Token(Token = "0x6001D12")]
+	[Address(RVA = "0x5379070", Offset = "0x5378070", VA = "0x5379070")]
 	public static bool GetXmlTypeForInteropType(Type type, out string xmlType, out string xmlTypeNamespace)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D3D")]
-	[Address(RVA = "0x19E7B20", Offset = "0x19E6120", VA = "0x1819E7B20")]
+	[Token(Token = "0x6001D13")]
+	[Address(RVA = "0x53730D0", Offset = "0x53720D0", VA = "0x53730D0")]
 	public static void PreLoad(Assembly assembly)
 	{
 	}
 
-	[Token(Token = "0x6001D3E")]
-	[Address(RVA = "0x19E74A0", Offset = "0x19E5AA0", VA = "0x1819E74A0")]
+	[Token(Token = "0x6001D14")]
+	[Address(RVA = "0x5372AD0", Offset = "0x5371AD0", VA = "0x5372AD0")]
 	public static void PreLoad(Type type)
 	{
 	}
 
-	[Token(Token = "0x6001D3F")]
-	[Address(RVA = "0x19E7BD0", Offset = "0x19E61D0", VA = "0x1819E7BD0")]
+	[Token(Token = "0x6001D15")]
+	[Address(RVA = "0x5372750", Offset = "0x5371750", VA = "0x5372750")]
 	public static void RegisterInteropXmlElement(string xmlElement, string xmlNamespace, Type type)
 	{
 	}
 
-	[Token(Token = "0x6001D40")]
-	[Address(RVA = "0x19E7D40", Offset = "0x19E6340", VA = "0x1819E7D40")]
+	[Token(Token = "0x6001D16")]
+	[Address(RVA = "0x5372910", Offset = "0x5371910", VA = "0x5372910")]
 	public static void RegisterInteropXmlType(string xmlType, string xmlTypeNamespace, Type type)
 	{
 	}
 
-	[Token(Token = "0x6001D41")]
-	[Address(RVA = "0x19E6F00", Offset = "0x19E5500", VA = "0x1819E6F00")]
+	[Token(Token = "0x6001D17")]
+	[Address(RVA = "0x5378BF0", Offset = "0x5377BF0", VA = "0x5378BF0")]
 	private static string EncodeNs(string ns)
 	{
 		return null;

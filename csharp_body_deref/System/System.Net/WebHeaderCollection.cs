@@ -15,279 +15,279 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002D9")]
+[Token(Token = "0x200029A")]
 [DefaultMember("Item")]
 [ComVisible(true)]
 public class WebHeaderCollection : NameValueCollection, ISerializable
 {
-	[Token(Token = "0x20002DA")]
+	[Token(Token = "0x200029B")]
 	private enum RfcChar : byte
 	{
-		[Token(Token = "0x4000AEA")]
+		[Token(Token = "0x4000A1B")]
 		High,
-		[Token(Token = "0x4000AEB")]
+		[Token(Token = "0x4000A1C")]
 		Reg,
-		[Token(Token = "0x4000AEC")]
+		[Token(Token = "0x4000A1D")]
 		Ctl,
-		[Token(Token = "0x4000AED")]
+		[Token(Token = "0x4000A1E")]
 		CR,
-		[Token(Token = "0x4000AEE")]
+		[Token(Token = "0x4000A1F")]
 		LF,
-		[Token(Token = "0x4000AEF")]
+		[Token(Token = "0x4000A20")]
 		WS,
-		[Token(Token = "0x4000AF0")]
+		[Token(Token = "0x4000A21")]
 		Colon,
-		[Token(Token = "0x4000AF1")]
+		[Token(Token = "0x4000A22")]
 		Delim
 	}
 
-	[Token(Token = "0x4000AE0")]
+	[Token(Token = "0x4000A11")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly HeaderInfoTable HInfo;
 
-	[Token(Token = "0x4000AE1")]
+	[Token(Token = "0x4000A12")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private string[] m_CommonHeaders;
 
-	[Token(Token = "0x4000AE2")]
+	[Token(Token = "0x4000A13")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private int m_NumCommonHeaders;
 
-	[Token(Token = "0x4000AE3")]
+	[Token(Token = "0x4000A14")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static readonly string[] s_CommonHeaderNames;
 
-	[Token(Token = "0x4000AE4")]
+	[Token(Token = "0x4000A15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static readonly sbyte[] s_CommonHeaderHints;
 
-	[Token(Token = "0x4000AE5")]
+	[Token(Token = "0x4000A16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private NameValueCollection m_InnerCollection;
 
-	[Token(Token = "0x4000AE6")]
+	[Token(Token = "0x4000A17")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private WebHeaderCollectionType m_Type;
 
-	[Token(Token = "0x4000AE7")]
+	[Token(Token = "0x4000A18")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private static readonly char[] HttpTrimCharacters;
 
-	[Token(Token = "0x4000AE8")]
+	[Token(Token = "0x4000A19")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static RfcChar[] RfcCharMap;
 
-	[Token(Token = "0x17000418")]
+	[Token(Token = "0x170003E9")]
 	private NameValueCollection InnerCollection
 	{
-		[Token(Token = "0x60013CF")]
-		[Address(RVA = "0x27D7FB0", Offset = "0x27D65B0", VA = "0x1827D7FB0")]
+		[Token(Token = "0x6001211")]
+		[Address(RVA = "0x62A81A0", Offset = "0x62A71A0", VA = "0x62A81A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000419")]
+	[Token(Token = "0x170003EA")]
 	private bool AllowHttpRequestHeader
 	{
-		[Token(Token = "0x60013D1")]
-		[Address(RVA = "0x27D7F40", Offset = "0x27D6540", VA = "0x1827D7F40")]
+		[Token(Token = "0x6001213")]
+		[Address(RVA = "0x62A8430", Offset = "0x62A7430", VA = "0x62A8430")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700041A")]
+	[Token(Token = "0x170003EB")]
 	public override int Count
 	{
-		[Token(Token = "0x60013E9")]
-		[Address(RVA = "0x27D7F70", Offset = "0x27D6570", VA = "0x1827D7F70", Slot = "14")]
+		[Token(Token = "0x600122B")]
+		[Address(RVA = "0x62AA360", Offset = "0x62A9360", VA = "0x62AA360", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700041B")]
+	[Token(Token = "0x170003EC")]
 	public override string[] AllKeys
 	{
-		[Token(Token = "0x60013EC")]
-		[Address(RVA = "0x27D7F00", Offset = "0x27D6500", VA = "0x1827D7F00", Slot = "22")]
+		[Token(Token = "0x600122E")]
+		[Address(RVA = "0x62AA410", Offset = "0x62A9410", VA = "0x62AA410", Slot = "22")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60013CE")]
-	[Address(RVA = "0x27D6BD0", Offset = "0x27D51D0", VA = "0x1827D6BD0")]
+	[Token(Token = "0x6001210")]
+	[Address(RVA = "0x62A8080", Offset = "0x62A7080", VA = "0x62A8080")]
 	private void NormalizeCommonHeaders()
 	{
 	}
 
-	[Token(Token = "0x60013D0")]
-	[Address(RVA = "0x27D5A20", Offset = "0x27D4020", VA = "0x1827D5A20")]
+	[Token(Token = "0x6001212")]
+	[Address(RVA = "0x62A8250", Offset = "0x62A7250", VA = "0x62A8250")]
 	internal static bool AllowMultiValues(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60013D2")]
-	[Address(RVA = "0x27D6D60", Offset = "0x27D5360", VA = "0x1827D6D60")]
+	[Token(Token = "0x6001214")]
+	[Address(RVA = "0x62A8460", Offset = "0x62A7460", VA = "0x62A8460")]
 	public void Remove(HttpRequestHeader header)
 	{
 	}
 
-	[Token(Token = "0x60013D3")]
-	[Address(RVA = "0x27D5520", Offset = "0x27D3B20", VA = "0x1827D5520")]
+	[Token(Token = "0x6001215")]
+	[Address(RVA = "0x62A8550", Offset = "0x62A7550", VA = "0x62A8550")]
 	internal void AddInternal(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x60013D4")]
-	[Address(RVA = "0x27D5AC0", Offset = "0x27D40C0", VA = "0x1827D5AC0")]
+	[Token(Token = "0x6001216")]
+	[Address(RVA = "0x62A85B0", Offset = "0x62A75B0", VA = "0x62A85B0")]
 	internal void ChangeInternal(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x60013D5")]
-	[Address(RVA = "0x27D6D00", Offset = "0x27D5300", VA = "0x1827D6D00")]
+	[Token(Token = "0x6001217")]
+	[Address(RVA = "0x62A8610", Offset = "0x62A7610", VA = "0x62A8610")]
 	internal void RemoveInternal(string name)
 	{
 	}
 
-	[Token(Token = "0x60013D6")]
-	[Address(RVA = "0x27D5B30", Offset = "0x27D4130", VA = "0x1827D5B30")]
+	[Token(Token = "0x6001218")]
+	[Address(RVA = "0x62A8670", Offset = "0x62A7670", VA = "0x62A8670")]
 	internal static string CheckBadChars(string name, bool isHeaderValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013D7")]
-	[Address(RVA = "0x27D60C0", Offset = "0x27D46C0", VA = "0x1827D60C0")]
+	[Token(Token = "0x6001219")]
+	[Address(RVA = "0x62A89F0", Offset = "0x62A79F0", VA = "0x62A89F0")]
 	internal static bool ContainsNonAsciiChars(string token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60013D8")]
-	[Address(RVA = "0x27D73E0", Offset = "0x27D59E0", VA = "0x1827D73E0")]
+	[Token(Token = "0x600121A")]
+	[Address(RVA = "0x62A8A50", Offset = "0x62A7A50", VA = "0x62A8A50")]
 	internal void ThrowOnRestrictedHeader(string headerName)
 	{
 	}
 
-	[Token(Token = "0x60013D9")]
-	[Address(RVA = "0x27D5590", Offset = "0x27D3B90", VA = "0x1827D5590", Slot = "15")]
+	[Token(Token = "0x600121B")]
+	[Address(RVA = "0x62A8BC0", Offset = "0x62A7BC0", VA = "0x62A8BC0", Slot = "15")]
 	public override void Add(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x60013DA")]
-	[Address(RVA = "0x27D5740", Offset = "0x27D3D40", VA = "0x1827D5740")]
+	[Token(Token = "0x600121C")]
+	[Address(RVA = "0x62A8D60", Offset = "0x62A7D60", VA = "0x62A8D60")]
 	public void Add(string header)
 	{
 	}
 
-	[Token(Token = "0x60013DB")]
-	[Address(RVA = "0x27D71A0", Offset = "0x27D57A0", VA = "0x1827D71A0", Slot = "18")]
+	[Token(Token = "0x600121D")]
+	[Address(RVA = "0x62A9030", Offset = "0x62A8030", VA = "0x62A9030", Slot = "18")]
 	public override void Set(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x60013DC")]
-	[Address(RVA = "0x27D6F70", Offset = "0x27D5570", VA = "0x1827D6F70")]
+	[Token(Token = "0x600121E")]
+	[Address(RVA = "0x62A9260", Offset = "0x62A8260", VA = "0x62A9260")]
 	internal void SetInternal(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x60013DD")]
-	[Address(RVA = "0x27D6E50", Offset = "0x27D5450", VA = "0x1827D6E50", Slot = "19")]
+	[Token(Token = "0x600121F")]
+	[Address(RVA = "0x62A9480", Offset = "0x62A8480", VA = "0x62A9480", Slot = "19")]
 	public override void Remove(string name)
 	{
 	}
 
-	[Token(Token = "0x60013DE")]
-	[Address(RVA = "0x27D6600", Offset = "0x27D4C00", VA = "0x1827D6600", Slot = "17")]
+	[Token(Token = "0x6001220")]
+	[Address(RVA = "0x62A95C0", Offset = "0x62A85C0", VA = "0x62A95C0", Slot = "17")]
 	public override string[] GetValues(string header)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013DF")]
-	[Address(RVA = "0x27D7620", Offset = "0x27D5C20", VA = "0x1827D7620", Slot = "3")]
+	[Token(Token = "0x6001221")]
+	[Address(RVA = "0x62A97D0", Offset = "0x62A87D0", VA = "0x62A97D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013E0")]
-	[Address(RVA = "0x27D6130", Offset = "0x27D4730", VA = "0x1827D6130")]
+	[Token(Token = "0x6001222")]
+	[Address(RVA = "0x62A9820", Offset = "0x62A8820", VA = "0x62A9820")]
 	internal static string GetAsString(NameValueCollection cc, bool winInetCompat, bool forTrace)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013E1")]
-	[Address(RVA = "0x27D7DB0", Offset = "0x27D63B0", VA = "0x1827D7DB0")]
+	[Token(Token = "0x6001223")]
+	[Address(RVA = "0x62A4FA0", Offset = "0x62A3FA0", VA = "0x62A4FA0")]
 	public WebHeaderCollection()
 	{
 	}
 
-	[Token(Token = "0x60013E2")]
-	[Address(RVA = "0x27D7E10", Offset = "0x27D6410", VA = "0x1827D7E10")]
+	[Token(Token = "0x6001224")]
+	[Address(RVA = "0x62A9B60", Offset = "0x62A8B60", VA = "0x62A9B60")]
 	internal WebHeaderCollection(WebHeaderCollectionType type)
 	{
 	}
 
-	[Token(Token = "0x60013E3")]
-	[Address(RVA = "0x27D7BD0", Offset = "0x27D61D0", VA = "0x1827D7BD0")]
+	[Token(Token = "0x6001225")]
+	[Address(RVA = "0x62A9C40", Offset = "0x62A8C40", VA = "0x62A9C40")]
 	protected WebHeaderCollection(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013E4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Token(Token = "0x6001226")]
+	[Address(RVA = "0x62A9E00", Offset = "0x62A8E00", VA = "0x62A9E00", Slot = "12")]
 	public override void OnDeserialization(object sender)
 	{
 	}
 
-	[Token(Token = "0x60013E5")]
-	[Address(RVA = "0x27D6480", Offset = "0x27D4A80", VA = "0x1827D6480", Slot = "11")]
+	[Token(Token = "0x6001227")]
+	[Address(RVA = "0x62A9E10", Offset = "0x62A8E10", VA = "0x62A9E10", Slot = "11")]
 	public override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013E6")]
-	[Address(RVA = "0x27D5090", Offset = "0x27D3690", VA = "0x1827D5090", Slot = "9")]
+	[Token(Token = "0x6001228")]
+	[Address(RVA = "0x62A9F90", Offset = "0x62A8F90", VA = "0x62A9F90", Slot = "9")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013E7")]
-	[Address(RVA = "0x27D6830", Offset = "0x27D4E30", VA = "0x1827D6830", Slot = "16")]
+	[Token(Token = "0x6001229")]
+	[Address(RVA = "0x62A9FB0", Offset = "0x62A8FB0", VA = "0x62A9FB0", Slot = "16")]
 	public override string Get(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013E8")]
-	[Address(RVA = "0x27D63C0", Offset = "0x27D49C0", VA = "0x1827D63C0", Slot = "13")]
+	[Token(Token = "0x600122A")]
+	[Address(RVA = "0x62AA300", Offset = "0x62A9300", VA = "0x62AA300", Slot = "13")]
 	public override IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013EA")]
-	[Address(RVA = "0x27D6B80", Offset = "0x27D5180", VA = "0x1827D6B80", Slot = "20")]
+	[Token(Token = "0x600122C")]
+	[Address(RVA = "0x62AA390", Offset = "0x62A9390", VA = "0x62AA390", Slot = "20")]
 	public override string Get(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013EB")]
-	[Address(RVA = "0x27D6430", Offset = "0x27D4A30", VA = "0x1827D6430", Slot = "21")]
+	[Token(Token = "0x600122D")]
+	[Address(RVA = "0x62AA3D0", Offset = "0x62A93D0", VA = "0x62AA3D0", Slot = "21")]
 	public override string GetKey(int index)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.NativeTextInfo
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ internal struct NativeTextInfo
 	public Span<ATGMeshInfo> meshInfos
 	{
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x3016440", Offset = "0x3014A40", VA = "0x183016440")]
+		[Address(RVA = "0x6A10290", Offset = "0x6A0F290", VA = "0x6A10290")]
 		get
 		{
 			return default(Span<ATGMeshInfo>);

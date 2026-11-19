@@ -1,5 +1,5 @@
 // Type: Effects.GasBurstEffect
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Effects/GasBurstEffect.cs
@@ -8,7 +8,7 @@
 
 // Effects.GasBurstEffect$$Setup
 // il2cpp: void Effects_GasBurstEffect__Setup (Effects_GasBurstEffect_o* __this, Photon_Realtime_Player_o* owner, float liveTime, System_Object_array* settings, const MethodInfo* method);
-// 0x181e668a0
+// 0x595c300
 
 void Effects_GasBurstEffect__Setup
                (Effects_GasBurstEffect_o *__this,Photon_Realtime_Player_o *owner,float liveTime,
@@ -25,21 +25,21 @@ void Effects_GasBurstEffect__Setup
   UnityEngine_Renderer_o *__this_01;
   UnityEngine_Material_o *value;
   
-  if (Il2CppMethodInitialized_184344f58 == '\0') {
+  if (Il2CppMethodInitialized_075458f9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentInChildren_ParticleSystem);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Human);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Renderer);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
-    Il2CppMethodInitialized_184344f58 = '\x01';
+    Il2CppMethodInitialized_075458f9 = '\x01';
   }
   (__this->fields)._owner = owner;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,owner);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner);
   (__this->fields)._timeLeft = liveTime;
-  pUVar3 = UnityEngine_Component__GetComponentInChildren_object__664b50
+  pUVar3 = UnityEngine_Component__GetComponentInChildren_object__34b09d0
                      ((UnityEngine_Component_o *)__this,
-                      (MethodInfo_664B50 *)
+                      (MethodInfo_34B09D0 *)
                       MethodInfo_UnityEngine_Component_GetComponentInChildren_ParticleSystem);
   if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
@@ -58,7 +58,7 @@ void Effects_GasBurstEffect__Setup
       if (x != (Photon_Pun_PhotonView_o *)0x0) {
         x_00 = UnityEngine_Component__GetComponent_object_
                          ((UnityEngine_Component_o *)x,
-                          (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Human);
+                          (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Human);
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
@@ -74,19 +74,19 @@ void Effects_GasBurstEffect__Setup
           if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
             __this_00 = UnityEngine_Component__GetComponent_object_
                                   ((UnityEngine_Component_o *)pUVar3,
-                                   (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Renderer
-                                  );
+                                   (MethodInfo_34B0830 *)
+                                   MethodInfo_UnityEngine_Component_GetComponent_Renderer);
             pCVar1 = (x_00->fields).HumanCache;
             if ((((pCVar1 != (Characters_HumanComponentCache_o *)0x0) &&
                  (pUVar3 = (pCVar1->fields).Smoke, pUVar3 != (UnityEngine_ParticleSystem_o *)0x0)) &&
                 (__this_01 = UnityEngine_Component__GetComponent_object_
                                        ((UnityEngine_Component_o *)pUVar3,
-                                        (MethodInfo_6651A0 *)
+                                        (MethodInfo_34B0830 *)
                                         MethodInfo_UnityEngine_Component_GetComponent_Renderer),
                 __this_01 != (UnityEngine_Renderer_o *)0x0)) &&
                (value = UnityEngine_Renderer__get_material(__this_01,(MethodInfo *)0x0),
                __this_00 != (UnityEngine_Renderer_o *)0x0)) {
-              UnityEngine_Renderer__set_sharedMaterial(__this_00,value,(MethodInfo *)0x0);
+              UnityEngine_Renderer__set_material(__this_00,value,(MethodInfo *)0x0);
               return;
             }
           }
@@ -101,10 +101,9 @@ void Effects_GasBurstEffect__Setup
 
 // Effects.GasBurstEffect$$.ctor
 // il2cpp: void Effects_GasBurstEffect___ctor (Effects_GasBurstEffect_o* __this, const MethodInfo* method);
-// 0x180528540
+// 0x595c4c0
 
-void
-Effects_GasBurstEffect___ctor(Effects_GasBurstEffect_o* __this, MethodInfo* method)
+void Effects_GasBurstEffect___ctor(Effects_GasBurstEffect_o *__this,MethodInfo *method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

@@ -21,34 +21,34 @@ internal sealed class TypeMember
 	private string member;
 
 	[Token(Token = "0x6000CF2")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x610F280", Offset = "0x610E280", VA = "0x610F280")]
 	internal TypeMember(Type type, string member)
 	{
 	}
 
 	[Token(Token = "0x6000CF3")]
-	[Address(RVA = "0x2740700", Offset = "0x273ED00", VA = "0x182740700", Slot = "2")]
+	[Address(RVA = "0x610F2C0", Offset = "0x610E2C0", VA = "0x610F2C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CF4")]
-	[Address(RVA = "0x2740570", Offset = "0x273EB70", VA = "0x182740570", Slot = "0")]
+	[Address(RVA = "0x610F310", Offset = "0x610E310", VA = "0x610F310", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CF5")]
-	[Address(RVA = "0x2740670", Offset = "0x273EC70", VA = "0x182740670")]
+	[Address(RVA = "0x610F3C0", Offset = "0x610E3C0", VA = "0x610F3C0")]
 	public static bool Equals(TypeMember tm1, TypeMember tm2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CF6")]
-	[Address(RVA = "0x2740760", Offset = "0x273ED60", VA = "0x182740760", Slot = "3")]
+	[Address(RVA = "0x610F440", Offset = "0x610E440", VA = "0x610F440", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -12,14 +12,14 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200019F")]
-[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+[Token(Token = "0x20001A0")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, Inherited = true)]
 internal sealed class ExtensionOfNativeClassAttribute : Attribute
 {
-	[Token(Token = "0x6000D7C")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000D8E")]
+	[Address(RVA = "0x6919420", Offset = "0x6918420", VA = "0x6919420")]
 	public ExtensionOfNativeClassAttribute()
 	{
 	}

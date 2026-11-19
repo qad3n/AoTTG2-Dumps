@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnBecameInvisibleMessageListener : MessageListener
 {
 	[Token(Token = "0x600042D")]
-	[Address(RVA = "0x2DBD550", Offset = "0x2DBBB50", VA = "0x182DBD550")]
+	[Address(RVA = "0x67A44D0", Offset = "0x67A34D0", VA = "0x67A44D0")]
 	private void OnBecameInvisible()
 	{
 	}
 
 	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4540", Offset = "0x67A3540", VA = "0x67A4540")]
 	public UnityOnBecameInvisibleMessageListener()
 	{
 	}

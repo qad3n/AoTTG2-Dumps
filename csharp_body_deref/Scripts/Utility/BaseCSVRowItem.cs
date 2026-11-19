@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20008A8")]
+[Token(Token = "0x2000913")]
 public class BaseCSVRowItem : BaseCSVObject
 {
-	[Token(Token = "0x17000F0F")]
+	[Token(Token = "0x17000EF2")]
 	public override char Delimiter
 	{
-		[Token(Token = "0x60052B6")]
-		[Address(RVA = "0x1EDA2E0", Offset = "0x1ED88E0", VA = "0x181EDA2E0", Slot = "4")]
+		[Token(Token = "0x600560D")]
+		[Address(RVA = "0x5CE3300", Offset = "0x5CE2300", VA = "0x5CE3300", Slot = "4")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x60052B7")]
-	[Address(RVA = "0x232BB40", Offset = "0x232A140", VA = "0x18232BB40")]
+	[Token(Token = "0x600560E")]
+	[Address(RVA = "0x5CE3310", Offset = "0x5CE2310", VA = "0x5CE3310")]
 	public BaseCSVRowItem()
 	{
 	}

@@ -11,47 +11,47 @@ using Microsoft.Win32.SafeHandles;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000249")]
+[Token(Token = "0x2000221")]
 internal static class NativeEventCalls
 {
-	[Token(Token = "0x60013AC")]
-	[Address(RVA = "0x1BB0BF0", Offset = "0x1BAF1F0", VA = "0x181BB0BF0")]
+	[Token(Token = "0x6001383")]
+	[Address(RVA = "0x553E580", Offset = "0x553D580", VA = "0x553E580")]
 	public static IntPtr CreateEvent_internal(bool manual, bool initial, string name, out int errorCode)
 	{
 		return default(IntPtr);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60013AD")]
-	[Address(RVA = "0x1BB0BE0", Offset = "0x1BAF1E0", VA = "0x181BB0BE0")]
+	[Token(Token = "0x6001384")]
+	[Address(RVA = "0x553E5D0", Offset = "0x553D5D0", VA = "0x553E5D0")]
 	private unsafe static extern IntPtr CreateEvent_icall(bool manual, bool initial, char* name, int name_length, out int errorCode);
 
-	[Token(Token = "0x60013AE")]
-	[Address(RVA = "0x1BB0D30", Offset = "0x1BAF330", VA = "0x181BB0D30")]
+	[Token(Token = "0x6001385")]
+	[Address(RVA = "0x553E5E0", Offset = "0x553D5E0", VA = "0x553E5E0")]
 	public static bool SetEvent(SafeWaitHandle handle)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60013AF")]
-	[Address(RVA = "0x1BB0D20", Offset = "0x1BAF320", VA = "0x181BB0D20")]
+	[Token(Token = "0x6001386")]
+	[Address(RVA = "0x553E6C0", Offset = "0x553D6C0", VA = "0x553E6C0")]
 	private static extern bool SetEvent_internal(IntPtr handle);
 
-	[Token(Token = "0x60013B0")]
-	[Address(RVA = "0x1BB0C50", Offset = "0x1BAF250", VA = "0x181BB0C50")]
+	[Token(Token = "0x6001387")]
+	[Address(RVA = "0x553E6D0", Offset = "0x553D6D0", VA = "0x553E6D0")]
 	public static bool ResetEvent(SafeWaitHandle handle)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60013B1")]
-	[Address(RVA = "0x1BB0C40", Offset = "0x1BAF240", VA = "0x181BB0C40")]
+	[Token(Token = "0x6001388")]
+	[Address(RVA = "0x553E7B0", Offset = "0x553D7B0", VA = "0x553E7B0")]
 	private static extern bool ResetEvent_internal(IntPtr handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60013B2")]
-	[Address(RVA = "0x1BB0BD0", Offset = "0x1BAF1D0", VA = "0x181BB0BD0")]
+	[Token(Token = "0x6001389")]
+	[Address(RVA = "0x553E7C0", Offset = "0x553D7C0", VA = "0x553E7C0")]
 	public static extern void CloseEvent_internal(IntPtr handle);
 }

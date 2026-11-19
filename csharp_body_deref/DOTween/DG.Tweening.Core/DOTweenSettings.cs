@@ -39,7 +39,7 @@ public class DOTweenSettings : ScriptableObject
 		public NestedTweenFailureBehaviour nestedTweenFailureBehaviour;
 
 		[Token(Token = "0x600041E")]
-		[Address(RVA = "0x57AE80", Offset = "0x579480", VA = "0x18057AE80")]
+		[Address(RVA = "0x31971B0", Offset = "0x31961B0", VA = "0x31971B0")]
 		public SafeModeOptions()
 		{
 		}
@@ -98,7 +98,7 @@ public class DOTweenSettings : ScriptableObject
 		public bool epoOutlineEnabled;
 
 		[Token(Token = "0x600041F")]
-		[Address(RVA = "0x57AE60", Offset = "0x579460", VA = "0x18057AE60")]
+		[Address(RVA = "0x31971C0", Offset = "0x31961C0", VA = "0x31971C0")]
 		public ModulesSetup()
 		{
 		}
@@ -219,7 +219,7 @@ public class DOTweenSettings : ScriptableObject
 	public bool showPausedTweens;
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x577630", Offset = "0x575C30", VA = "0x180577630")]
+	[Address(RVA = "0x31970C0", Offset = "0x31960C0", VA = "0x31970C0")]
 	public DOTweenSettings()
 	{
 	}

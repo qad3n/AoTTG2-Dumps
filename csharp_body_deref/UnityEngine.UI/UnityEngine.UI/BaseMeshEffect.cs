@@ -24,7 +24,7 @@ public abstract class BaseMeshEffect : UIBehaviour, IMeshModifier
 	protected Graphic graphic
 	{
 		[Token(Token = "0x6000537")]
-		[Address(RVA = "0x32D9CE0", Offset = "0x32D82E0", VA = "0x1832D9CE0")]
+		[Address(RVA = "0x6CFF730", Offset = "0x6CFE730", VA = "0x6CFF730")]
 		get
 		{
 			return null;
@@ -32,25 +32,25 @@ public abstract class BaseMeshEffect : UIBehaviour, IMeshModifier
 	}
 
 	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x32D9C40", Offset = "0x32D8240", VA = "0x1832D9C40", Slot = "5")]
+	[Address(RVA = "0x6CFF7C0", Offset = "0x6CFE7C0", VA = "0x6CFF7C0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000539")]
-	[Address(RVA = "0x32D9BA0", Offset = "0x32D81A0", VA = "0x1832D9BA0", Slot = "7")]
+	[Address(RVA = "0x6CFF860", Offset = "0x6CFE860", VA = "0x6CFF860", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600053A")]
-	[Address(RVA = "0x32D9B00", Offset = "0x32D8100", VA = "0x1832D9B00", Slot = "13")]
+	[Address(RVA = "0x6CFF8F0", Offset = "0x6CFE8F0", VA = "0x6CFF8F0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x600053B")]
-	[Address(RVA = "0x32D98B0", Offset = "0x32D7EB0", VA = "0x1832D98B0", Slot = "19")]
+	[Address(RVA = "0x6CFF980", Offset = "0x6CFE980", VA = "0x6CFF980", Slot = "19")]
 	public virtual void ModifyMesh(Mesh mesh)
 	{
 	}
@@ -59,7 +59,7 @@ public abstract class BaseMeshEffect : UIBehaviour, IMeshModifier
 	public abstract void ModifyMesh(VertexHelper vh);
 
 	[Token(Token = "0x600053D")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x6CFFAF0", Offset = "0x6CFEAF0", VA = "0x6CFFAF0")]
 	protected BaseMeshEffect()
 	{
 	}

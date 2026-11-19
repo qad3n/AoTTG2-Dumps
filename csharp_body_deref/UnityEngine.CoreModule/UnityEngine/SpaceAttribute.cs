@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015A")]
+[Token(Token = "0x200015B")]
 [AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = true)]
 public class SpaceAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005A4")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x40005A9")]
+	[FieldOffset(Offset = "0x14")]
 	public readonly float height;
 
-	[Token(Token = "0x6000C39")]
-	[Address(RVA = "0x2F26D90", Offset = "0x2F25390", VA = "0x182F26D90")]
+	[Token(Token = "0x6000C4B")]
+	[Address(RVA = "0x690DD00", Offset = "0x690CD00", VA = "0x690DD00")]
 	public SpaceAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000C3A")]
-	[Address(RVA = "0x2F26D60", Offset = "0x2F25360", VA = "0x182F26D60")]
+	[Token(Token = "0x6000C4C")]
+	[Address(RVA = "0x690DD20", Offset = "0x690CD20", VA = "0x690DD20")]
 	public SpaceAttribute(float height)
 	{
 	}

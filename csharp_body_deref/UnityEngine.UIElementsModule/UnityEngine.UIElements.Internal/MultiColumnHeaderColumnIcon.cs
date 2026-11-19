@@ -21,14 +21,14 @@ internal class MultiColumnHeaderColumnIcon : Image
 	public bool isImageInline
 	{
 		[Token(Token = "0x6002F33")]
-		[Address(RVA = "0x3203DD0", Offset = "0x32023D0", VA = "0x183203DD0")]
+		[Address(RVA = "0x6C0B470", Offset = "0x6C0A470", VA = "0x6C0B470")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002F34")]
-		[Address(RVA = "0x100CCF0", Offset = "0x100B2F0", VA = "0x18100CCF0")]
+		[Address(RVA = "0x6C0B480", Offset = "0x6C0A480", VA = "0x6C0B480")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,13 +36,13 @@ internal class MultiColumnHeaderColumnIcon : Image
 	}
 
 	[Token(Token = "0x6002F35")]
-	[Address(RVA = "0x3203CE0", Offset = "0x32022E0", VA = "0x183203CE0")]
+	[Address(RVA = "0x6C0B490", Offset = "0x6C0A490", VA = "0x6C0B490")]
 	public MultiColumnHeaderColumnIcon()
 	{
 	}
 
 	[Token(Token = "0x6002F36")]
-	[Address(RVA = "0x3203AC0", Offset = "0x32020C0", VA = "0x183203AC0")]
+	[Address(RVA = "0x6C0B580", Offset = "0x6C0A580", VA = "0x6C0B580")]
 	public void UpdateClassList()
 	{
 	}

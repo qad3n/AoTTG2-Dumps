@@ -52,14 +52,14 @@ internal class DebugActionState
 	internal bool runningAction
 	{
 		[Token(Token = "0x6000671")]
-		[Address(RVA = "0xDA7C70", Offset = "0xDA6270", VA = "0x180DA7C70")]
+		[Address(RVA = "0x64D0A40", Offset = "0x64CFA40", VA = "0x64D0A40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000672")]
-		[Address(RVA = "0xDA7C80", Offset = "0xDA6280", VA = "0x180DA7C80")]
+		[Address(RVA = "0x64D0A50", Offset = "0x64CFA50", VA = "0x64D0A50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -70,14 +70,14 @@ internal class DebugActionState
 	internal float actionState
 	{
 		[Token(Token = "0x6000673")]
-		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
+		[Address(RVA = "0x64D0A60", Offset = "0x64CFA60", VA = "0x64D0A60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000674")]
-		[Address(RVA = "0xE8F730", Offset = "0xE8DD30", VA = "0x180E8F730")]
+		[Address(RVA = "0x64D0A70", Offset = "0x64CFA70", VA = "0x64D0A70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -85,43 +85,43 @@ internal class DebugActionState
 	}
 
 	[Token(Token = "0x6000675")]
-	[Address(RVA = "0x2AD4020", Offset = "0x2AD2620", VA = "0x182AD4020")]
+	[Address(RVA = "0x64D0A80", Offset = "0x64CFA80", VA = "0x64D0A80")]
 	private void Trigger(int triggerCount, float state)
 	{
 	}
 
 	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x2AD3EE0", Offset = "0x2AD24E0", VA = "0x182AD3EE0")]
+	[Address(RVA = "0x64CCB70", Offset = "0x64CBB70", VA = "0x64CCB70")]
 	public void TriggerWithButton(string[] buttons, float state)
 	{
 	}
 
 	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x2AD3E90", Offset = "0x2AD2490", VA = "0x182AD3E90")]
+	[Address(RVA = "0x64CCC70", Offset = "0x64CBC70", VA = "0x64CCC70")]
 	public void TriggerWithAxis(string axis, float state)
 	{
 	}
 
 	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x2AD3F80", Offset = "0x2AD2580", VA = "0x182AD3F80")]
+	[Address(RVA = "0x64CCD20", Offset = "0x64CBD20", VA = "0x64CCD20")]
 	public void TriggerWithKey(KeyCode[] keys, float state)
 	{
 	}
 
 	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x2AD3E70", Offset = "0x2AD2470", VA = "0x182AD3E70")]
+	[Address(RVA = "0x64D0B90", Offset = "0x64CFB90", VA = "0x64D0B90")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x2AD40E0", Offset = "0x2AD26E0", VA = "0x182AD40E0")]
+	[Address(RVA = "0x64CCE70", Offset = "0x64CBE70", VA = "0x64CCE70")]
 	public void Update(DebugActionDesc desc)
 	{
 	}
 
 	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x2AD42D0", Offset = "0x2AD28D0", VA = "0x182AD42D0")]
+	[Address(RVA = "0x64CC6A0", Offset = "0x64CB6A0", VA = "0x64CC6A0")]
 	public DebugActionState()
 	{
 	}

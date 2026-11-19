@@ -135,7 +135,7 @@ internal sealed class XsdBuilder : SchemaBuilder
 		public XsdBuildFunction BuildFunc;
 
 		[Token(Token = "0x60019E9")]
-		[Address(RVA = "0xC83FB0", Offset = "0xC825B0", VA = "0x180C83FB0")]
+		[Address(RVA = "0x6070D20", Offset = "0x606FD20", VA = "0x6070D20")]
 		public XsdAttributeEntry(SchemaNames.Token a, XsdBuildFunction build)
 		{
 		}
@@ -173,7 +173,7 @@ internal sealed class XsdBuilder : SchemaBuilder
 		public bool ParseContent;
 
 		[Token(Token = "0x60019EA")]
-		[Address(RVA = "0x26C8CF0", Offset = "0x26C72F0", VA = "0x1826C8CF0")]
+		[Address(RVA = "0x6070D50", Offset = "0x606FD50", VA = "0x6070D50")]
 		public XsdEntry(SchemaNames.Token n, State state, State[] nextStates, XsdAttributeEntry[] attributes, XsdInitFunction init, XsdEndChildFunction end, bool parseContent)
 		{
 		}
@@ -191,13 +191,13 @@ internal sealed class XsdBuilder : SchemaBuilder
 		private XmlReader reader;
 
 		[Token(Token = "0x60019EB")]
-		[Address(RVA = "0x26B56B0", Offset = "0x26B3CB0", VA = "0x1826B56B0")]
+		[Address(RVA = "0x6070DE0", Offset = "0x606FDE0", VA = "0x6070DE0")]
 		public BuilderNamespaceManager(XmlNamespaceManager nsMgr, XmlReader reader)
 		{
 		}
 
 		[Token(Token = "0x60019EC")]
-		[Address(RVA = "0x26B5650", Offset = "0x26B3C50", VA = "0x1826B5650", Slot = "16")]
+		[Address(RVA = "0x6070E20", Offset = "0x606FE20", VA = "0x6070E20", Slot = "16")]
 		public override string LookupNamespace(string prefix)
 		{
 			return null;
@@ -652,7 +652,7 @@ internal sealed class XsdBuilder : SchemaBuilder
 	private SchemaNames.Token CurrentElement
 	{
 		[Token(Token = "0x6001963")]
-		[Address(RVA = "0x1976AD0", Offset = "0x19750D0", VA = "0x181976AD0")]
+		[Address(RVA = "0x6065D10", Offset = "0x6064D10", VA = "0x6065D10")]
 		get
 		{
 			return default(SchemaNames.Token);
@@ -663,7 +663,7 @@ internal sealed class XsdBuilder : SchemaBuilder
 	private SchemaNames.Token ParentElement
 	{
 		[Token(Token = "0x6001964")]
-		[Address(RVA = "0x26B4110", Offset = "0x26B2710", VA = "0x1826B4110")]
+		[Address(RVA = "0x6065D30", Offset = "0x6064D30", VA = "0x6065D30")]
 		get
 		{
 			return default(SchemaNames.Token);
@@ -674,7 +674,7 @@ internal sealed class XsdBuilder : SchemaBuilder
 	private XmlSchemaObject ParentContainer
 	{
 		[Token(Token = "0x6001965")]
-		[Address(RVA = "0x26B4080", Offset = "0x26B2680", VA = "0x1826B4080")]
+		[Address(RVA = "0x6065D90", Offset = "0x6064D90", VA = "0x6065D90")]
 		get
 		{
 			return null;
@@ -682,815 +682,815 @@ internal sealed class XsdBuilder : SchemaBuilder
 	}
 
 	[Token(Token = "0x6001959")]
-	[Address(RVA = "0x26B3E40", Offset = "0x26B2440", VA = "0x1826B3E40")]
+	[Address(RVA = "0x6063670", Offset = "0x6062670", VA = "0x6063670")]
 	internal XsdBuilder(XmlReader reader, XmlNamespaceManager curmgr, XmlSchema schema, XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventhandler)
 	{
 	}
 
 	[Token(Token = "0x600195A")]
-	[Address(RVA = "0x26AB950", Offset = "0x26A9F50", VA = "0x1826AB950", Slot = "4")]
+	[Address(RVA = "0x60638E0", Offset = "0x60628E0", VA = "0x60638E0", Slot = "4")]
 	internal override bool ProcessElement(string prefix, string name, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600195B")]
-	[Address(RVA = "0x26AB450", Offset = "0x26A9A50", VA = "0x1826AB450", Slot = "5")]
+	[Address(RVA = "0x6064180", Offset = "0x6063180", VA = "0x6064180", Slot = "5")]
 	internal override void ProcessAttribute(string prefix, string name, string ns, string value)
 	{
 	}
 
 	[Token(Token = "0x600195C")]
-	[Address(RVA = "0x26AAE20", Offset = "0x26A9420", VA = "0x1826AAE20", Slot = "6")]
+	[Address(RVA = "0x6064720", Offset = "0x6063720", VA = "0x6064720", Slot = "6")]
 	internal override bool IsContentParsed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600195D")]
-	[Address(RVA = "0x26ABCB0", Offset = "0x26AA2B0", VA = "0x1826ABCB0", Slot = "7")]
+	[Address(RVA = "0x6064740", Offset = "0x6063740", VA = "0x6064740", Slot = "7")]
 	internal override void ProcessMarkup(XmlNode[] markup)
 	{
 	}
 
 	[Token(Token = "0x600195E")]
-	[Address(RVA = "0x26AB900", Offset = "0x26A9F00", VA = "0x1826AB900", Slot = "8")]
+	[Address(RVA = "0x6064760", Offset = "0x6063760", VA = "0x6064760", Slot = "8")]
 	internal override void ProcessCData(string value)
 	{
 	}
 
 	[Token(Token = "0x600195F")]
-	[Address(RVA = "0x26ADCE0", Offset = "0x26AC2E0", VA = "0x1826ADCE0", Slot = "9")]
+	[Address(RVA = "0x60647B0", Offset = "0x60637B0", VA = "0x60647B0", Slot = "9")]
 	internal override void StartChildren()
 	{
 	}
 
 	[Token(Token = "0x6001960")]
-	[Address(RVA = "0x26A82F0", Offset = "0x26A68F0", VA = "0x1826A82F0", Slot = "10")]
+	[Address(RVA = "0x6064960", Offset = "0x6063960", VA = "0x6064960", Slot = "10")]
 	internal override void EndChildren()
 	{
 	}
 
 	[Token(Token = "0x6001961")]
-	[Address(RVA = "0x26ABCD0", Offset = "0x26AA2D0", VA = "0x1826ABCD0")]
+	[Address(RVA = "0x6063B70", Offset = "0x6062B70", VA = "0x6063B70")]
 	private void Push()
 	{
 	}
 
 	[Token(Token = "0x6001962")]
-	[Address(RVA = "0x26AB360", Offset = "0x26A9960", VA = "0x1826AB360")]
+	[Address(RVA = "0x60649A0", Offset = "0x60639A0", VA = "0x60649A0")]
 	private void Pop()
 	{
 	}
 
 	[Token(Token = "0x6001966")]
-	[Address(RVA = "0x26A8460", Offset = "0x26A6A60", VA = "0x1826A8460")]
+	[Address(RVA = "0x6064A60", Offset = "0x6063A60", VA = "0x6064A60")]
 	private XmlSchemaObject GetContainer(State state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001967")]
-	[Address(RVA = "0x26AC540", Offset = "0x26AAB40", VA = "0x1826AC540")]
+	[Address(RVA = "0x6064BE0", Offset = "0x6063BE0", VA = "0x6064BE0")]
 	private void SetContainer(State state, object container)
 	{
 	}
 
 	[Token(Token = "0x6001968")]
-	[Address(RVA = "0x26A66D0", Offset = "0x26A4CD0", VA = "0x1826A66D0")]
+	[Address(RVA = "0x6065E10", Offset = "0x6064E10", VA = "0x6065E10")]
 	private static void BuildAnnotated_Id(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001969")]
-	[Address(RVA = "0x26A7BD0", Offset = "0x26A61D0", VA = "0x1826A7BD0")]
+	[Address(RVA = "0x6065E40", Offset = "0x6064E40", VA = "0x6065E40")]
 	private static void BuildSchema_AttributeFormDefault(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196A")]
-	[Address(RVA = "0x26A7CF0", Offset = "0x26A62F0", VA = "0x1826A7CF0")]
+	[Address(RVA = "0x6065FA0", Offset = "0x6064FA0", VA = "0x6065FA0")]
 	private static void BuildSchema_ElementFormDefault(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196B")]
-	[Address(RVA = "0x26A7E10", Offset = "0x26A6410", VA = "0x1826A7E10")]
+	[Address(RVA = "0x6066040", Offset = "0x6065040", VA = "0x6066040")]
 	private static void BuildSchema_TargetNamespace(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196C")]
-	[Address(RVA = "0x26A7E40", Offset = "0x26A6440", VA = "0x1826A7E40")]
+	[Address(RVA = "0x6066070", Offset = "0x6065070", VA = "0x6066070")]
 	private static void BuildSchema_Version(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196D")]
-	[Address(RVA = "0x26A7DA0", Offset = "0x26A63A0", VA = "0x1826A7DA0")]
+	[Address(RVA = "0x60660A0", Offset = "0x60650A0", VA = "0x60660A0")]
 	private static void BuildSchema_FinalDefault(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196E")]
-	[Address(RVA = "0x26A7C80", Offset = "0x26A6280", VA = "0x1826A7C80")]
+	[Address(RVA = "0x6066390", Offset = "0x6065390", VA = "0x6066390")]
 	private static void BuildSchema_BlockDefault(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600196F")]
-	[Address(RVA = "0x26AA2A0", Offset = "0x26A88A0", VA = "0x1826AA2A0")]
+	[Address(RVA = "0x60663F0", Offset = "0x60653F0", VA = "0x60663F0")]
 	private static void InitSchema(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001970")]
-	[Address(RVA = "0x26AA050", Offset = "0x26A8650", VA = "0x1826AA050")]
+	[Address(RVA = "0x6066420", Offset = "0x6065420", VA = "0x6066420")]
 	private static void InitInclude(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001971")]
-	[Address(RVA = "0x26A7A80", Offset = "0x26A6080", VA = "0x1826A7A80")]
+	[Address(RVA = "0x60664E0", Offset = "0x60654E0", VA = "0x60664E0")]
 	private static void BuildInclude_SchemaLocation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001972")]
-	[Address(RVA = "0x26A9F80", Offset = "0x26A8580", VA = "0x1826A9F80")]
+	[Address(RVA = "0x6066510", Offset = "0x6065510", VA = "0x6066510")]
 	private static void InitImport(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001973")]
-	[Address(RVA = "0x26A7A20", Offset = "0x26A6020", VA = "0x1826A7A20")]
+	[Address(RVA = "0x60665D0", Offset = "0x60655D0", VA = "0x60665D0")]
 	private static void BuildImport_Namespace(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001974")]
-	[Address(RVA = "0x26A7A50", Offset = "0x26A6050", VA = "0x1826A7A50")]
+	[Address(RVA = "0x6066600", Offset = "0x6065600", VA = "0x6066600")]
 	private static void BuildImport_SchemaLocation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001975")]
-	[Address(RVA = "0x26AA1D0", Offset = "0x26A87D0", VA = "0x1826AA1D0")]
+	[Address(RVA = "0x6066630", Offset = "0x6065630", VA = "0x6066630")]
 	private static void InitRedefine(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001976")]
-	[Address(RVA = "0x26A7BA0", Offset = "0x26A61A0", VA = "0x1826A7BA0")]
+	[Address(RVA = "0x60666F0", Offset = "0x60656F0", VA = "0x60666F0")]
 	private static void BuildRedefine_SchemaLocation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001977")]
-	[Address(RVA = "0x26A8440", Offset = "0x26A6A40", VA = "0x1826A8440")]
+	[Address(RVA = "0x6066720", Offset = "0x6065720", VA = "0x6066720")]
 	private static void EndRedefine(XsdBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001978")]
-	[Address(RVA = "0x26A9040", Offset = "0x26A7640", VA = "0x1826A9040")]
+	[Address(RVA = "0x6066740", Offset = "0x6065740", VA = "0x6066740")]
 	private static void InitAttribute(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001979")]
-	[Address(RVA = "0x26A6A00", Offset = "0x26A5000", VA = "0x1826A6A00")]
+	[Address(RVA = "0x6066AF0", Offset = "0x6065AF0", VA = "0x6066AF0")]
 	private static void BuildAttribute_Default(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197A")]
-	[Address(RVA = "0x26A6A30", Offset = "0x26A5030", VA = "0x1826A6A30")]
+	[Address(RVA = "0x6066B20", Offset = "0x6065B20", VA = "0x6066B20")]
 	private static void BuildAttribute_Fixed(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197B")]
-	[Address(RVA = "0x26A6A60", Offset = "0x26A5060", VA = "0x1826A6A60")]
+	[Address(RVA = "0x6066B50", Offset = "0x6065B50", VA = "0x6066B50")]
 	private static void BuildAttribute_Form(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197C")]
-	[Address(RVA = "0x26A6C40", Offset = "0x26A5240", VA = "0x1826A6C40")]
+	[Address(RVA = "0x6066BF0", Offset = "0x6065BF0", VA = "0x6066BF0")]
 	private static void BuildAttribute_Use(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197D")]
-	[Address(RVA = "0x26A6B40", Offset = "0x26A5140", VA = "0x1826A6B40")]
+	[Address(RVA = "0x6066C90", Offset = "0x6065C90", VA = "0x6066C90")]
 	private static void BuildAttribute_Ref(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197E")]
-	[Address(RVA = "0x26A6B10", Offset = "0x26A5110", VA = "0x1826A6B10")]
+	[Address(RVA = "0x6066E60", Offset = "0x6065E60", VA = "0x6066E60")]
 	private static void BuildAttribute_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600197F")]
-	[Address(RVA = "0x26A6BC0", Offset = "0x26A51C0", VA = "0x1826A6BC0")]
+	[Address(RVA = "0x6066E90", Offset = "0x6065E90", VA = "0x6066E90")]
 	private static void BuildAttribute_Type(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001980")]
-	[Address(RVA = "0x26A9740", Offset = "0x26A7D40", VA = "0x1826A9740")]
+	[Address(RVA = "0x6066F00", Offset = "0x6065F00", VA = "0x6066F00")]
 	private static void InitElement(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001981")]
-	[Address(RVA = "0x26A7210", Offset = "0x26A5810", VA = "0x1826A7210")]
+	[Address(RVA = "0x6067050", Offset = "0x6066050", VA = "0x6067050")]
 	private static void BuildElement_Abstract(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001982")]
-	[Address(RVA = "0x26A7290", Offset = "0x26A5890", VA = "0x1826A7290")]
+	[Address(RVA = "0x60671C0", Offset = "0x60661C0", VA = "0x60671C0")]
 	private static void BuildElement_Block(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001983")]
-	[Address(RVA = "0x26A7300", Offset = "0x26A5900", VA = "0x1826A7300")]
+	[Address(RVA = "0x6067220", Offset = "0x6066220", VA = "0x6067220")]
 	private static void BuildElement_Default(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001984")]
-	[Address(RVA = "0x26A73D0", Offset = "0x26A59D0", VA = "0x1826A73D0")]
+	[Address(RVA = "0x6067250", Offset = "0x6066250", VA = "0x6067250")]
 	private static void BuildElement_Form(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001985")]
-	[Address(RVA = "0x26A7610", Offset = "0x26A5C10", VA = "0x1826A7610")]
+	[Address(RVA = "0x60672F0", Offset = "0x60662F0", VA = "0x60672F0")]
 	private static void BuildElement_SubstitutionGroup(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001986")]
-	[Address(RVA = "0x26A7330", Offset = "0x26A5930", VA = "0x1826A7330")]
+	[Address(RVA = "0x6067360", Offset = "0x6066360", VA = "0x6067360")]
 	private static void BuildElement_Final(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001987")]
-	[Address(RVA = "0x26A73A0", Offset = "0x26A59A0", VA = "0x1826A73A0")]
+	[Address(RVA = "0x60673C0", Offset = "0x60663C0", VA = "0x60673C0")]
 	private static void BuildElement_Fixed(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001988")]
-	[Address(RVA = "0x26A7480", Offset = "0x26A5A80", VA = "0x1826A7480")]
+	[Address(RVA = "0x60673F0", Offset = "0x60663F0", VA = "0x60673F0")]
 	private static void BuildElement_MaxOccurs(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001989")]
-	[Address(RVA = "0x26A74B0", Offset = "0x26A5AB0", VA = "0x1826A74B0")]
+	[Address(RVA = "0x60674D0", Offset = "0x60664D0", VA = "0x60674D0")]
 	private static void BuildElement_MinOccurs(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198A")]
-	[Address(RVA = "0x26A74E0", Offset = "0x26A5AE0", VA = "0x1826A74E0")]
+	[Address(RVA = "0x60675B0", Offset = "0x60665B0", VA = "0x60675B0")]
 	private static void BuildElement_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198B")]
-	[Address(RVA = "0x26A7510", Offset = "0x26A5B10", VA = "0x1826A7510")]
+	[Address(RVA = "0x60675E0", Offset = "0x60665E0", VA = "0x60675E0")]
 	private static void BuildElement_Nillable(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198C")]
-	[Address(RVA = "0x26A7590", Offset = "0x26A5B90", VA = "0x1826A7590")]
+	[Address(RVA = "0x6067650", Offset = "0x6066650", VA = "0x6067650")]
 	private static void BuildElement_Ref(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198D")]
-	[Address(RVA = "0x26A7690", Offset = "0x26A5C90", VA = "0x1826A7690")]
+	[Address(RVA = "0x60676C0", Offset = "0x60666C0", VA = "0x60676C0")]
 	private static void BuildElement_Type(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198E")]
-	[Address(RVA = "0x26AAA70", Offset = "0x26A9070", VA = "0x1826AAA70")]
+	[Address(RVA = "0x6067730", Offset = "0x6066730", VA = "0x6067730")]
 	private static void InitSimpleType(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600198F")]
-	[Address(RVA = "0x26A8280", Offset = "0x26A6880", VA = "0x1826A8280")]
+	[Address(RVA = "0x6067AF0", Offset = "0x6066AF0", VA = "0x6067AF0")]
 	private static void BuildSimpleType_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001990")]
-	[Address(RVA = "0x26A8210", Offset = "0x26A6810", VA = "0x1826A8210")]
+	[Address(RVA = "0x6067B20", Offset = "0x6066B20", VA = "0x6067B20")]
 	private static void BuildSimpleType_Final(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001991")]
-	[Address(RVA = "0x26AA980", Offset = "0x26A8F80", VA = "0x1826AA980")]
+	[Address(RVA = "0x6067B80", Offset = "0x6066B80", VA = "0x6067B80")]
 	private static void InitSimpleTypeUnion(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001992")]
-	[Address(RVA = "0x26A8070", Offset = "0x26A6670", VA = "0x1826A8070")]
+	[Address(RVA = "0x6067C60", Offset = "0x6066C60", VA = "0x6067C60")]
 	private static void BuildSimpleTypeUnion_MemberTypes(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001993")]
-	[Address(RVA = "0x26AA7A0", Offset = "0x26A8DA0", VA = "0x1826AA7A0")]
+	[Address(RVA = "0x6067E60", Offset = "0x6066E60", VA = "0x6067E60")]
 	private static void InitSimpleTypeList(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001994")]
-	[Address(RVA = "0x26A7F70", Offset = "0x26A6570", VA = "0x1826A7F70")]
+	[Address(RVA = "0x6067F40", Offset = "0x6066F40", VA = "0x6067F40")]
 	private static void BuildSimpleTypeList_ItemType(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001995")]
-	[Address(RVA = "0x26AA890", Offset = "0x26A8E90", VA = "0x1826AA890")]
+	[Address(RVA = "0x6067FB0", Offset = "0x6066FB0", VA = "0x6067FB0")]
 	private static void InitSimpleTypeRestriction(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001996")]
-	[Address(RVA = "0x26A7FF0", Offset = "0x26A65F0", VA = "0x1826A7FF0")]
+	[Address(RVA = "0x6068090", Offset = "0x6067090", VA = "0x6068090")]
 	private static void BuildSimpleTypeRestriction_Base(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001997")]
-	[Address(RVA = "0x26A94C0", Offset = "0x26A7AC0", VA = "0x1826A94C0")]
+	[Address(RVA = "0x6068100", Offset = "0x6067100", VA = "0x6068100")]
 	private static void InitComplexType(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001998")]
-	[Address(RVA = "0x26A6E70", Offset = "0x26A5470", VA = "0x1826A6E70")]
+	[Address(RVA = "0x60682F0", Offset = "0x60672F0", VA = "0x60682F0")]
 	private static void BuildComplexType_Abstract(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x6001999")]
-	[Address(RVA = "0x26A6EF0", Offset = "0x26A54F0", VA = "0x1826A6EF0")]
+	[Address(RVA = "0x6068360", Offset = "0x6067360", VA = "0x6068360")]
 	private static void BuildComplexType_Block(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199A")]
-	[Address(RVA = "0x26A6F70", Offset = "0x26A5570", VA = "0x1826A6F70")]
+	[Address(RVA = "0x60683C0", Offset = "0x60673C0", VA = "0x60683C0")]
 	private static void BuildComplexType_Final(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199B")]
-	[Address(RVA = "0x26A6FE0", Offset = "0x26A55E0", VA = "0x1826A6FE0")]
+	[Address(RVA = "0x6068420", Offset = "0x6067420", VA = "0x6068420")]
 	private static void BuildComplexType_Mixed(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199C")]
-	[Address(RVA = "0x26A7070", Offset = "0x26A5670", VA = "0x1826A7070")]
+	[Address(RVA = "0x60684A0", Offset = "0x60674A0", VA = "0x60684A0")]
 	private static void BuildComplexType_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199D")]
-	[Address(RVA = "0x26A9380", Offset = "0x26A7980", VA = "0x1826A9380")]
+	[Address(RVA = "0x60684D0", Offset = "0x60674D0", VA = "0x60684D0")]
 	private static void InitComplexContent(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199E")]
-	[Address(RVA = "0x26A6DF0", Offset = "0x26A53F0", VA = "0x1826A6DF0")]
+	[Address(RVA = "0x6068600", Offset = "0x6067600", VA = "0x6068600")]
 	private static void BuildComplexContent_Mixed(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x600199F")]
-	[Address(RVA = "0x26A91D0", Offset = "0x26A77D0", VA = "0x1826A91D0")]
+	[Address(RVA = "0x6068670", Offset = "0x6067670", VA = "0x6068670")]
 	private static void InitComplexContentExtension(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A0")]
-	[Address(RVA = "0x26A6CF0", Offset = "0x26A52F0", VA = "0x1826A6CF0")]
+	[Address(RVA = "0x6068770", Offset = "0x6067770", VA = "0x6068770")]
 	private static void BuildComplexContentExtension_Base(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A1")]
-	[Address(RVA = "0x26A92D0", Offset = "0x26A78D0", VA = "0x1826A92D0")]
+	[Address(RVA = "0x60687E0", Offset = "0x60677E0", VA = "0x60687E0")]
 	private static void InitComplexContentRestriction(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A2")]
-	[Address(RVA = "0x26A6D70", Offset = "0x26A5370", VA = "0x1826A6D70")]
+	[Address(RVA = "0x6068880", Offset = "0x6067880", VA = "0x6068880")]
 	private static void BuildComplexContentRestriction_Base(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A3")]
-	[Address(RVA = "0x26AA660", Offset = "0x26A8C60", VA = "0x1826AA660")]
+	[Address(RVA = "0x60688F0", Offset = "0x60678F0", VA = "0x60688F0")]
 	private static void InitSimpleContent(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A4")]
-	[Address(RVA = "0x26AA460", Offset = "0x26A8A60", VA = "0x1826AA460")]
+	[Address(RVA = "0x6068A20", Offset = "0x6067A20", VA = "0x6068A20")]
 	private static void InitSimpleContentExtension(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A5")]
-	[Address(RVA = "0x26A7E70", Offset = "0x26A6470", VA = "0x1826A7E70")]
+	[Address(RVA = "0x6068B20", Offset = "0x6067B20", VA = "0x6068B20")]
 	private static void BuildSimpleContentExtension_Base(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A6")]
-	[Address(RVA = "0x26AA560", Offset = "0x26A8B60", VA = "0x1826AA560")]
+	[Address(RVA = "0x6068B90", Offset = "0x6067B90", VA = "0x6068B90")]
 	private static void InitSimpleContentRestriction(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A7")]
-	[Address(RVA = "0x26A7EF0", Offset = "0x26A64F0", VA = "0x1826A7EF0")]
+	[Address(RVA = "0x6068C90", Offset = "0x6067C90", VA = "0x6068C90")]
 	private static void BuildSimpleContentRestriction_Base(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A8")]
-	[Address(RVA = "0x26A8F60", Offset = "0x26A7560", VA = "0x1826A8F60")]
+	[Address(RVA = "0x6068D00", Offset = "0x6067D00", VA = "0x6068D00")]
 	private static void InitAttributeGroup(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019A9")]
-	[Address(RVA = "0x26A69D0", Offset = "0x26A4FD0", VA = "0x1826A69D0")]
+	[Address(RVA = "0x6068E10", Offset = "0x6067E10", VA = "0x6068E10")]
 	private static void BuildAttributeGroup_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AA")]
-	[Address(RVA = "0x26A8ED0", Offset = "0x26A74D0", VA = "0x1826A8ED0")]
+	[Address(RVA = "0x6068E40", Offset = "0x6067E40", VA = "0x6068E40")]
 	private static void InitAttributeGroupRef(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AB")]
-	[Address(RVA = "0x26A6950", Offset = "0x26A4F50", VA = "0x1826A6950")]
+	[Address(RVA = "0x6068ED0", Offset = "0x6067ED0", VA = "0x6068ED0")]
 	private static void BuildAttributeGroupRef_Ref(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AC")]
-	[Address(RVA = "0x26A8A30", Offset = "0x26A7030", VA = "0x1826A8A30")]
+	[Address(RVA = "0x6068F40", Offset = "0x6067F40", VA = "0x6068F40")]
 	private static void InitAnyAttribute(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AD")]
-	[Address(RVA = "0x26A6700", Offset = "0x26A4D00", VA = "0x1826A6700")]
+	[Address(RVA = "0x6069270", Offset = "0x6068270", VA = "0x6069270")]
 	private static void BuildAnyAttribute_Namespace(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AE")]
-	[Address(RVA = "0x26A6730", Offset = "0x26A4D30", VA = "0x1826A6730")]
+	[Address(RVA = "0x60692A0", Offset = "0x60682A0", VA = "0x60692A0")]
 	private static void BuildAnyAttribute_ProcessContents(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019AF")]
-	[Address(RVA = "0x26A9D50", Offset = "0x26A8350", VA = "0x1826A9D50")]
+	[Address(RVA = "0x6069340", Offset = "0x6068340", VA = "0x6069340")]
 	private static void InitGroup(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B0")]
-	[Address(RVA = "0x26A7880", Offset = "0x26A5E80", VA = "0x1826A7880")]
+	[Address(RVA = "0x6069450", Offset = "0x6068450", VA = "0x6069450")]
 	private static void BuildGroup_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B1")]
-	[Address(RVA = "0x26A9CA0", Offset = "0x26A82A0", VA = "0x1826A9CA0")]
+	[Address(RVA = "0x6069480", Offset = "0x6068480", VA = "0x6069480")]
 	private static void InitGroupRef(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B2")]
-	[Address(RVA = "0x26A7B40", Offset = "0x26A6140", VA = "0x1826A7B40")]
+	[Address(RVA = "0x6069930", Offset = "0x6068930", VA = "0x6069930")]
 	private static void BuildParticle_MaxOccurs(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B3")]
-	[Address(RVA = "0x26A7B70", Offset = "0x26A6170", VA = "0x1826A7B70")]
+	[Address(RVA = "0x6069950", Offset = "0x6068950", VA = "0x6069950")]
 	private static void BuildParticle_MinOccurs(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B4")]
-	[Address(RVA = "0x26A7800", Offset = "0x26A5E00", VA = "0x1826A7800")]
+	[Address(RVA = "0x6069970", Offset = "0x6068970", VA = "0x6069970")]
 	private static void BuildGroupRef_Ref(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B5")]
-	[Address(RVA = "0x26A8880", Offset = "0x26A6E80", VA = "0x1826A8880")]
+	[Address(RVA = "0x60699E0", Offset = "0x60689E0", VA = "0x60699E0")]
 	private static void InitAll(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B6")]
-	[Address(RVA = "0x26A9120", Offset = "0x26A7720", VA = "0x1826A9120")]
+	[Address(RVA = "0x6069A80", Offset = "0x6068A80", VA = "0x6069A80")]
 	private static void InitChoice(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B7")]
-	[Address(RVA = "0x26AA3B0", Offset = "0x26A89B0", VA = "0x1826AA3B0")]
+	[Address(RVA = "0x6069B20", Offset = "0x6068B20", VA = "0x6069B20")]
 	private static void InitSequence(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B8")]
-	[Address(RVA = "0x26A8D40", Offset = "0x26A7340", VA = "0x1826A8D40")]
+	[Address(RVA = "0x6069BC0", Offset = "0x6068BC0", VA = "0x6069BC0")]
 	private static void InitAny(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019B9")]
-	[Address(RVA = "0x26A67E0", Offset = "0x26A4DE0", VA = "0x1826A67E0")]
+	[Address(RVA = "0x6069C60", Offset = "0x6068C60", VA = "0x6069C60")]
 	private static void BuildAny_Namespace(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BA")]
-	[Address(RVA = "0x26A6810", Offset = "0x26A4E10", VA = "0x1826A6810")]
+	[Address(RVA = "0x6069C90", Offset = "0x6068C90", VA = "0x6069C90")]
 	private static void BuildAny_ProcessContents(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BB")]
-	[Address(RVA = "0x26AA120", Offset = "0x26A8720", VA = "0x1826AA120")]
+	[Address(RVA = "0x6069D30", Offset = "0x6068D30", VA = "0x6069D30")]
 	private static void InitNotation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BC")]
-	[Address(RVA = "0x26A7AB0", Offset = "0x26A60B0", VA = "0x1826A7AB0")]
+	[Address(RVA = "0x6069DD0", Offset = "0x6068DD0", VA = "0x6069DD0")]
 	private static void BuildNotation_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BD")]
-	[Address(RVA = "0x26A7AE0", Offset = "0x26A60E0", VA = "0x1826A7AE0")]
+	[Address(RVA = "0x6069E00", Offset = "0x6068E00", VA = "0x6069E00")]
 	private static void BuildNotation_Public(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BE")]
-	[Address(RVA = "0x26A7B10", Offset = "0x26A6110", VA = "0x1826A7B10")]
+	[Address(RVA = "0x6069E30", Offset = "0x6068E30", VA = "0x6069E30")]
 	private static void BuildNotation_System(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019BF")]
-	[Address(RVA = "0x26A9850", Offset = "0x26A7E50", VA = "0x1826A9850")]
+	[Address(RVA = "0x6069E60", Offset = "0x6068E60", VA = "0x6069E60")]
 	private static void InitFacet(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C0")]
-	[Address(RVA = "0x26A7710", Offset = "0x26A5D10", VA = "0x1826A7710")]
+	[Address(RVA = "0x606A1E0", Offset = "0x60691E0", VA = "0x606A1E0")]
 	private static void BuildFacet_Fixed(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C1")]
-	[Address(RVA = "0x26A77A0", Offset = "0x26A5DA0", VA = "0x1826A77A0")]
+	[Address(RVA = "0x606A260", Offset = "0x6069260", VA = "0x606A260")]
 	private static void BuildFacet_Value(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C2")]
-	[Address(RVA = "0x26A9E20", Offset = "0x26A8420", VA = "0x1826A9E20")]
+	[Address(RVA = "0x606A290", Offset = "0x6069290", VA = "0x606A290")]
 	private static void InitIdentityConstraint(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C3")]
-	[Address(RVA = "0x26A78B0", Offset = "0x26A5EB0", VA = "0x1826A78B0")]
+	[Address(RVA = "0x606A3F0", Offset = "0x60693F0", VA = "0x606A3F0")]
 	private static void BuildIdentityConstraint_Name(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C4")]
-	[Address(RVA = "0x26A78E0", Offset = "0x26A5EE0", VA = "0x1826A78E0")]
+	[Address(RVA = "0x606A420", Offset = "0x6069420", VA = "0x606A420")]
 	private static void BuildIdentityConstraint_Refer(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C5")]
-	[Address(RVA = "0x26AA2D0", Offset = "0x26A88D0", VA = "0x1826AA2D0")]
+	[Address(RVA = "0x606A530", Offset = "0x6069530", VA = "0x606A530")]
 	private static void InitSelector(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C6")]
-	[Address(RVA = "0x26A77D0", Offset = "0x26A5DD0", VA = "0x1826A77D0")]
+	[Address(RVA = "0x606A600", Offset = "0x6069600", VA = "0x606A600")]
 	private static void BuildSelector_XPath(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C7")]
-	[Address(RVA = "0x26A9BC0", Offset = "0x26A81C0", VA = "0x1826A9BC0")]
+	[Address(RVA = "0x606A630", Offset = "0x6069630", VA = "0x606A630")]
 	private static void InitField(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C8")]
-	[Address(RVA = "0x26A77D0", Offset = "0x26A5DD0", VA = "0x1826A77D0")]
+	[Address(RVA = "0x606A700", Offset = "0x6069700", VA = "0x606A700")]
 	private static void BuildField_XPath(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019C9")]
-	[Address(RVA = "0x26A8930", Offset = "0x26A6F30", VA = "0x1826A8930")]
+	[Address(RVA = "0x606A730", Offset = "0x6069730", VA = "0x606A730")]
 	private static void InitAnnotation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019CA")]
-	[Address(RVA = "0x26A8DF0", Offset = "0x26A73F0", VA = "0x1826A8DF0")]
+	[Address(RVA = "0x606A910", Offset = "0x6069910", VA = "0x606A910")]
 	private static void InitAppinfo(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019CB")]
-	[Address(RVA = "0x26A68D0", Offset = "0x26A4ED0", VA = "0x1826A68D0")]
+	[Address(RVA = "0x606A9E0", Offset = "0x60699E0", VA = "0x606A9E0")]
 	private static void BuildAppinfo_Source(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019CC")]
-	[Address(RVA = "0x26A82B0", Offset = "0x26A68B0", VA = "0x1826A82B0")]
+	[Address(RVA = "0x606AA60", Offset = "0x6069A60", VA = "0x606AA60")]
 	private static void EndAppinfo(XsdBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x60019CD")]
-	[Address(RVA = "0x26A9660", Offset = "0x26A7C60", VA = "0x1826A9660")]
+	[Address(RVA = "0x606AA90", Offset = "0x6069A90", VA = "0x606AA90")]
 	private static void InitDocumentation(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019CE")]
-	[Address(RVA = "0x26A70A0", Offset = "0x26A56A0", VA = "0x1826A70A0")]
+	[Address(RVA = "0x606AB60", Offset = "0x6069B60", VA = "0x606AB60")]
 	private static void BuildDocumentation_Source(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019CF")]
-	[Address(RVA = "0x26A7120", Offset = "0x26A5720", VA = "0x1826A7120")]
+	[Address(RVA = "0x606ABD0", Offset = "0x6069BD0", VA = "0x606ABD0")]
 	private static void BuildDocumentation_XmlLang(XsdBuilder builder, string value)
 	{
 	}
 
 	[Token(Token = "0x60019D0")]
-	[Address(RVA = "0x26A8400", Offset = "0x26A6A00", VA = "0x1826A8400")]
+	[Address(RVA = "0x606AD10", Offset = "0x6069D10", VA = "0x606AD10")]
 	private static void EndDocumentation(XsdBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x60019D1")]
-	[Address(RVA = "0x26A60D0", Offset = "0x26A46D0", VA = "0x1826A60D0")]
+	[Address(RVA = "0x6066850", Offset = "0x6065850", VA = "0x6066850")]
 	private void AddAttribute(XmlSchemaObject value)
 	{
 	}
 
 	[Token(Token = "0x60019D2")]
-	[Address(RVA = "0x26A6340", Offset = "0x26A4940", VA = "0x1826A6340")]
+	[Address(RVA = "0x6069520", Offset = "0x6068520", VA = "0x6069520")]
 	private void AddParticle(XmlSchemaParticle particle)
 	{
 	}
 
 	[Token(Token = "0x60019D3")]
-	[Address(RVA = "0x26A86B0", Offset = "0x26A6CB0", VA = "0x1826A86B0")]
+	[Address(RVA = "0x60639F0", Offset = "0x60629F0", VA = "0x60639F0")]
 	private bool GetNextState(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60019D4")]
-	[Address(RVA = "0x26AAE40", Offset = "0x26A9440", VA = "0x1826AAE40")]
+	[Address(RVA = "0x6064070", Offset = "0x6063070", VA = "0x6064070")]
 	private bool IsSkipableElement(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60019D5")]
-	[Address(RVA = "0x26ADC80", Offset = "0x26AC280", VA = "0x1826ADC80")]
+	[Address(RVA = "0x60674F0", Offset = "0x60664F0", VA = "0x60674F0")]
 	private void SetMinOccurs(XmlSchemaParticle particle, string value)
 	{
 	}
 
 	[Token(Token = "0x60019D6")]
-	[Address(RVA = "0x26ADC20", Offset = "0x26AC220", VA = "0x1826ADC20")]
+	[Address(RVA = "0x6067410", Offset = "0x6066410", VA = "0x6067410")]
 	private void SetMaxOccurs(XmlSchemaParticle particle, string value)
 	{
 	}
 
 	[Token(Token = "0x60019D7")]
-	[Address(RVA = "0x26AB0F0", Offset = "0x26A96F0", VA = "0x1826AB0F0")]
+	[Address(RVA = "0x60670C0", Offset = "0x60660C0", VA = "0x60670C0")]
 	private bool ParseBoolean(string value, string attributeName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60019D8")]
-	[Address(RVA = "0x26AB180", Offset = "0x26A9780", VA = "0x1826AB180")]
+	[Address(RVA = "0x6065EE0", Offset = "0x6064EE0", VA = "0x6065EE0")]
 	private int ParseEnum(string value, string attributeName, string[] values)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019D9")]
-	[Address(RVA = "0x26AB260", Offset = "0x26A9860", VA = "0x1826AB260")]
+	[Address(RVA = "0x6066D00", Offset = "0x6065D00", VA = "0x6066D00")]
 	private XmlQualifiedName ParseQName(string value, string attributeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60019DA")]
-	[Address(RVA = "0x26AAE70", Offset = "0x26A9470", VA = "0x1826AAE70")]
+	[Address(RVA = "0x6066100", Offset = "0x6065100", VA = "0x6066100")]
 	private int ParseBlockFinalEnum(string value, string attributeName)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019DB")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Address(RVA = "0x606AA50", Offset = "0x6069A50", VA = "0x606AA50")]
 	private static string ParseUriReference(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60019DC")]
-	[Address(RVA = "0x26AC090", Offset = "0x26AA690", VA = "0x1826AC090")]
+	[Address(RVA = "0x606AD40", Offset = "0x6069D40", VA = "0x606AD40")]
 	private void SendValidationEvent(string code, string arg0, string arg1, string arg2)
 	{
 	}
 
 	[Token(Token = "0x60019DD")]
-	[Address(RVA = "0x26AC220", Offset = "0x26AA820", VA = "0x1826AC220")]
+	[Address(RVA = "0x6064090", Offset = "0x6063090", VA = "0x6064090")]
 	private void SendValidationEvent(string code, string msg)
 	{
 	}
 
 	[Token(Token = "0x60019DE")]
-	[Address(RVA = "0x26AC420", Offset = "0x26AAA20", VA = "0x1826AC420")]
+	[Address(RVA = "0x6064630", Offset = "0x6063630", VA = "0x6064630")]
 	private void SendValidationEvent(string code, string[] args, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x60019DF")]
-	[Address(RVA = "0x26AC330", Offset = "0x26AA930", VA = "0x1826AC330")]
+	[Address(RVA = "0x606AEC0", Offset = "0x6069EC0", VA = "0x606AEC0")]
 	private void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x60019E0")]
-	[Address(RVA = "0x26AC080", Offset = "0x26AA680", VA = "0x1826AC080")]
+	[Address(RVA = "0x6067E50", Offset = "0x6066E50", VA = "0x6067E50")]
 	private void SendValidationEvent(XmlSchemaException e)
 	{
 	}
 
 	[Token(Token = "0x60019E1")]
-	[Address(RVA = "0x26ABFB0", Offset = "0x26AA5B0", VA = "0x1826ABFB0")]
+	[Address(RVA = "0x6063F20", Offset = "0x6062F20", VA = "0x6063F20")]
 	private void RecordPosition()
 	{
 	}

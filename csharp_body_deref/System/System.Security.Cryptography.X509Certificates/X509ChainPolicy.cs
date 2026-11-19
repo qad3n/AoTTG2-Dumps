@@ -9,123 +9,118 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000147")]
+[Token(Token = "0x2000108")]
 public sealed class X509ChainPolicy
 {
-	[Token(Token = "0x40005CD")]
+	[Token(Token = "0x40004FE")]
 	[FieldOffset(Offset = "0x10")]
 	private OidCollection apps;
 
-	[Token(Token = "0x40005CE")]
+	[Token(Token = "0x40004FF")]
 	[FieldOffset(Offset = "0x18")]
 	private OidCollection cert;
 
-	[Token(Token = "0x40005CF")]
+	[Token(Token = "0x4000500")]
 	[FieldOffset(Offset = "0x20")]
 	private X509CertificateCollection store;
 
-	[Token(Token = "0x40005D0")]
+	[Token(Token = "0x4000501")]
 	[FieldOffset(Offset = "0x28")]
 	private X509Certificate2Collection store2;
 
-	[Token(Token = "0x40005D1")]
+	[Token(Token = "0x4000502")]
 	[FieldOffset(Offset = "0x30")]
 	private X509RevocationFlag rflag;
 
-	[Token(Token = "0x40005D2")]
+	[Token(Token = "0x4000503")]
 	[FieldOffset(Offset = "0x34")]
 	private X509RevocationMode mode;
 
-	[Token(Token = "0x40005D3")]
+	[Token(Token = "0x4000504")]
 	[FieldOffset(Offset = "0x38")]
 	private TimeSpan timeout;
 
-	[Token(Token = "0x40005D4")]
+	[Token(Token = "0x4000505")]
 	[FieldOffset(Offset = "0x40")]
 	private X509VerificationFlags vflags;
 
-	[Token(Token = "0x40005D5")]
+	[Token(Token = "0x4000506")]
 	[FieldOffset(Offset = "0x48")]
 	private DateTime vtime;
 
-	[Token(Token = "0x17000188")]
+	[Token(Token = "0x17000159")]
 	public X509Certificate2Collection ExtraStore
 	{
-		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x288D570", Offset = "0x288BB70", VA = "0x18288D570")]
+		[Token(Token = "0x600065F")]
+		[Address(RVA = "0x6219080", Offset = "0x6218080", VA = "0x6219080")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
-		internal set
-		{
-		}
 	}
 
-	[Token(Token = "0x17000189")]
+	[Token(Token = "0x1700015A")]
 	public X509RevocationFlag RevocationFlag
 	{
-		[Token(Token = "0x6000820")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Token(Token = "0x6000660")]
+		[Address(RVA = "0x621BA10", Offset = "0x621AA10", VA = "0x621BA10")]
 		get
 		{
 			return default(X509RevocationFlag);
 		}
 	}
 
-	[Token(Token = "0x1700018A")]
+	[Token(Token = "0x1700015B")]
 	public X509RevocationMode RevocationMode
 	{
-		[Token(Token = "0x6000821")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Token(Token = "0x6000661")]
+		[Address(RVA = "0x621BA20", Offset = "0x621AA20", VA = "0x621BA20")]
 		get
 		{
 			return default(X509RevocationMode);
 		}
-		[Token(Token = "0x6000822")]
-		[Address(RVA = "0x288D8D0", Offset = "0x288BED0", VA = "0x18288D8D0")]
+		[Token(Token = "0x6000662")]
+		[Address(RVA = "0x621BA30", Offset = "0x621AA30", VA = "0x621BA30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700018B")]
+	[Token(Token = "0x1700015C")]
 	public X509VerificationFlags VerificationFlags
 	{
-		[Token(Token = "0x6000823")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
+		[Token(Token = "0x6000663")]
+		[Address(RVA = "0x621BA90", Offset = "0x621AA90", VA = "0x621BA90")]
 		get
 		{
 			return default(X509VerificationFlags);
 		}
-		[Token(Token = "0x6000824")]
-		[Address(RVA = "0x288D940", Offset = "0x288BF40", VA = "0x18288D940")]
+		[Token(Token = "0x6000664")]
+		[Address(RVA = "0x621BAA0", Offset = "0x621AAA0", VA = "0x621BAA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700018C")]
+	[Token(Token = "0x1700015D")]
 	public DateTime VerificationTime
 	{
-		[Token(Token = "0x6000825")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x6000665")]
+		[Address(RVA = "0x621BB00", Offset = "0x621AB00", VA = "0x621BB00")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x600081D")]
-	[Address(RVA = "0x288D450", Offset = "0x288BA50", VA = "0x18288D450")]
+	[Token(Token = "0x600065E")]
+	[Address(RVA = "0x6217C50", Offset = "0x6216C50", VA = "0x6217C50")]
 	public X509ChainPolicy()
 	{
 	}
 
-	[Token(Token = "0x6000826")]
-	[Address(RVA = "0x288D340", Offset = "0x288B940", VA = "0x18288D340")]
+	[Token(Token = "0x6000666")]
+	[Address(RVA = "0x621B840", Offset = "0x621A840", VA = "0x621B840")]
 	public void Reset()
 	{
 	}

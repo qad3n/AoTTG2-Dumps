@@ -12,82 +12,82 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.PublicProfiles;
 
-[Token(Token = "0x2000924")]
+[Token(Token = "0x200098B")]
 public sealed class AottgPublicProfileCache
 {
-	[Token(Token = "0x2000925")]
+	[Token(Token = "0x200098C")]
 	private sealed class Entry
 	{
-		[Token(Token = "0x4002D93")]
+		[Token(Token = "0x4003041")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public readonly List<Action<AottgPublicProfileFetchResponse>> Subscribers;
 
-		[Token(Token = "0x4002D94")]
+		[Token(Token = "0x4003042")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public AottgPublicProfileFetchResponse Response;
 
-		[Token(Token = "0x4002D95")]
+		[Token(Token = "0x4003043")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public DateTimeOffset CachedAt;
 
-		[Token(Token = "0x4002D96")]
+		[Token(Token = "0x4003044")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public bool InFlight;
 
-		[Token(Token = "0x60055E5")]
-		[Address(RVA = "0x236B330", Offset = "0x2369930", VA = "0x18236B330")]
+		[Token(Token = "0x600593E")]
+		[Address(RVA = "0x5D1F6D0", Offset = "0x5D1E6D0", VA = "0x5D1F6D0")]
 		public bool HasFreshValue(DateTimeOffset now)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60055E6")]
-		[Address(RVA = "0x236B470", Offset = "0x2369A70", VA = "0x18236B470")]
+		[Token(Token = "0x600593F")]
+		[Address(RVA = "0x5D1F650", Offset = "0x5D1E650", VA = "0x5D1F650")]
 		public Entry()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002D8E")]
+	[Token(Token = "0x400303C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly TimeSpan SuccessTtl;
 
-	[Token(Token = "0x4002D8F")]
+	[Token(Token = "0x400303D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public static readonly TimeSpan FailureTtl;
 
-	[Token(Token = "0x4002D90")]
+	[Token(Token = "0x400303E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly Action<string, Action<AottgPublicProfileFetchResponse>> _fetch;
 
-	[Token(Token = "0x4002D91")]
+	[Token(Token = "0x400303F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly Func<DateTimeOffset> _now;
 
-	[Token(Token = "0x4002D92")]
+	[Token(Token = "0x4003040")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly Dictionary<string, Entry> _entries;
 
-	[Token(Token = "0x60055E0")]
-	[Address(RVA = "0x2366850", Offset = "0x2364E50", VA = "0x182366850")]
+	[Token(Token = "0x6005939")]
+	[Address(RVA = "0x5D1F050", Offset = "0x5D1E050", VA = "0x5D1F050")]
 	public AottgPublicProfileCache(Action<string, Action<AottgPublicProfileFetchResponse>> fetch, [Optional] Func<DateTimeOffset> now)
 	{
 	}
 
-	[Token(Token = "0x60055E1")]
-	[Address(RVA = "0x2366170", Offset = "0x2364770", VA = "0x182366170")]
+	[Token(Token = "0x600593A")]
+	[Address(RVA = "0x5D1F230", Offset = "0x5D1E230", VA = "0x5D1F230")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x60055E2")]
-	[Address(RVA = "0x2366390", Offset = "0x2364990", VA = "0x182366390")]
+	[Token(Token = "0x600593B")]
+	[Address(RVA = "0x5D1F270", Offset = "0x5D1E270", VA = "0x5D1F270")]
 	public void Get(string accountId, Action<AottgPublicProfileFetchResponse> onResult)
 	{
 	}
 
-	[Token(Token = "0x60055E3")]
-	[Address(RVA = "0x23661C0", Offset = "0x23647C0", VA = "0x1823661C0")]
+	[Token(Token = "0x600593C")]
+	[Address(RVA = "0x5D1F7E0", Offset = "0x5D1E7E0", VA = "0x5D1F7E0")]
 	private void Complete(string accountId, AottgPublicProfileFetchResponse response)
 	{
 	}

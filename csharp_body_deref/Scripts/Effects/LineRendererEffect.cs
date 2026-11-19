@@ -11,31 +11,31 @@ using UnityEngine;
 
 namespace Effects;
 
-[Token(Token = "0x200034F")]
+[Token(Token = "0x20003B1")]
 internal class LineRendererEffect : BaseEffect
 {
-	[Token(Token = "0x4001147")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x40012F7")]
+	[FieldOffset(Offset = "0x2C")]
 	protected float _totalTime;
 
-	[Token(Token = "0x4001148")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x40012F8")]
+	[FieldOffset(Offset = "0x30")]
 	protected LineRenderer _renderer;
 
-	[Token(Token = "0x6001523")]
-	[Address(RVA = "0x1E682C0", Offset = "0x1E668C0", VA = "0x181E682C0", Slot = "4")]
+	[Token(Token = "0x60017A3")]
+	[Address(RVA = "0x585C4D0", Offset = "0x585B4D0", VA = "0x585C4D0", Slot = "4")]
 	public override void Setup(Player owner, float liveTime, object[] settings)
 	{
 	}
 
-	[Token(Token = "0x6001524")]
-	[Address(RVA = "0x1E68550", Offset = "0x1E66B50", VA = "0x181E68550", Slot = "6")]
+	[Token(Token = "0x60017A4")]
+	[Address(RVA = "0x585C720", Offset = "0x585B720", VA = "0x585C720", Slot = "6")]
 	protected override void Update()
 	{
 	}
 
-	[Token(Token = "0x6001525")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60017A5")]
+	[Address(RVA = "0x585C800", Offset = "0x585B800", VA = "0x585C800")]
 	public LineRendererEffect()
 	{
 	}

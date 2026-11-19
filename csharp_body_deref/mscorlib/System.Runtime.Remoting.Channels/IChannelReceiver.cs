@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003AF")]
+[Token(Token = "0x2000388")]
 [ComVisible(true)]
 public interface IChannelReceiver : IChannel
 {
-	[Token(Token = "0x17000379")]
+	[Token(Token = "0x17000378")]
 	object ChannelData
 	{
-		[Token(Token = "0x6001E14")]
+		[Token(Token = "0x6001DEA")]
 		get;
 	}
 
-	[Token(Token = "0x6001E15")]
+	[Token(Token = "0x6001DEB")]
 	void StartListening(object data);
 }

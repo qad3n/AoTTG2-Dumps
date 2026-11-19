@@ -20,14 +20,14 @@ public sealed class SingletonAttribute : Attribute
 	public bool Persistent
 	{
 		[Token(Token = "0x6000FF7")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6847B60", Offset = "0x6846B60", VA = "0x6847B60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FF8")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6847B70", Offset = "0x6846B70", VA = "0x6847B70")]
 		[CompilerGenerated]
 		set
 		{
@@ -38,14 +38,14 @@ public sealed class SingletonAttribute : Attribute
 	public bool Automatic
 	{
 		[Token(Token = "0x6000FF9")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x6847B80", Offset = "0x6846B80", VA = "0x6847B80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FFA")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x6847B90", Offset = "0x6846B90", VA = "0x6847B90")]
 		[CompilerGenerated]
 		set
 		{
@@ -56,14 +56,14 @@ public sealed class SingletonAttribute : Attribute
 	public HideFlags HideFlags
 	{
 		[Token(Token = "0x6000FFB")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6847BA0", Offset = "0x6846BA0", VA = "0x6847BA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(HideFlags);
 		}
 		[Token(Token = "0x6000FFC")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x6847BB0", Offset = "0x6846BB0", VA = "0x6847BB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -74,14 +74,14 @@ public sealed class SingletonAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000FFD")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6847BC0", Offset = "0x6846BC0", VA = "0x6847BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FFE")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6847BD0", Offset = "0x6846BD0", VA = "0x6847BD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -89,7 +89,7 @@ public sealed class SingletonAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000FF6")]
-	[Address(RVA = "0x2E3CD10", Offset = "0x2E3B310", VA = "0x182E3CD10")]
+	[Address(RVA = "0x6847B40", Offset = "0x6846B40", VA = "0x6847B40")]
 	public SingletonAttribute()
 	{
 	}

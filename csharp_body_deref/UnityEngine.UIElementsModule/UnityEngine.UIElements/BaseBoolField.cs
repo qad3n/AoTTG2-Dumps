@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.BaseBoolField
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -44,7 +44,7 @@ public abstract class BaseBoolField : BaseField<bool>
 	internal bool acceptClicksIfDisabled
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x309E9F0", Offset = "0x309CFF0", VA = "0x18309E9F0")]
+		[Address(RVA = "0x6A9F170", Offset = "0x6A9E170", VA = "0x6A9F170")]
 		set
 		{
 		}
@@ -55,14 +55,14 @@ public abstract class BaseBoolField : BaseField<bool>
 	public bool toggleOnLabelClick
 	{
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x309E9E0", Offset = "0x309CFE0", VA = "0x18309E9E0")]
+		[Address(RVA = "0x6A9F190", Offset = "0x6A9E190", VA = "0x6A9F190")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x309EB20", Offset = "0x309D120", VA = "0x18309EB20")]
+		[Address(RVA = "0x6A9F1A0", Offset = "0x6A9E1A0", VA = "0x6A9F1A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -74,14 +74,14 @@ public abstract class BaseBoolField : BaseField<bool>
 	internal bool toggleOnTextClick
 	{
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0xE32CF0", Offset = "0xE312F0", VA = "0x180E32CF0")]
+		[Address(RVA = "0x6A9F1B0", Offset = "0x6A9E1B0", VA = "0x6A9F1B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x309EB30", Offset = "0x309D130", VA = "0x18309EB30")]
+		[Address(RVA = "0x6A9F1C0", Offset = "0x6A9E1C0", VA = "0x6A9F1C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -93,75 +93,75 @@ public abstract class BaseBoolField : BaseField<bool>
 	public string text
 	{
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x309E9B0", Offset = "0x309CFB0", VA = "0x18309E9B0")]
+		[Address(RVA = "0x6A9F570", Offset = "0x6A9E570", VA = "0x6A9F570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x309EA20", Offset = "0x309D020", VA = "0x18309EA20")]
+		[Address(RVA = "0x6A9F450", Offset = "0x6A9E450", VA = "0x6A9F450")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x309E730", Offset = "0x309CD30", VA = "0x18309E730")]
+	[Address(RVA = "0x6A9F1D0", Offset = "0x6A9E1D0", VA = "0x6A9F1D0")]
 	public BaseBoolField(string label)
 	{
 	}
 
 	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x309DE70", Offset = "0x309C470", VA = "0x18309DE70")]
+	[Address(RVA = "0x6A9F540", Offset = "0x6A9E540", VA = "0x6A9F540")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600037A")]
-	[Address(RVA = "0x309DA20", Offset = "0x309C020", VA = "0x18309DA20", Slot = "160")]
+	[Address(RVA = "0x6A9F5A0", Offset = "0x6A9E5A0", VA = "0x6A9F5A0", Slot = "160")]
 	protected virtual void InitLabel()
 	{
 	}
 
 	[Token(Token = "0x600037B")]
-	[Address(RVA = "0x309DFA0", Offset = "0x309C5A0", VA = "0x18309DFA0", Slot = "159")]
+	[Address(RVA = "0x6A9F6E0", Offset = "0x6A9E6E0", VA = "0x6A9F6E0", Slot = "159")]
 	public override void SetValueWithoutNotify(bool newValue)
 	{
 	}
 
 	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x309DB80", Offset = "0x309C180", VA = "0x18309DB80")]
+	[Address(RVA = "0x6A9F770", Offset = "0x6A9E770", VA = "0x6A9F770")]
 	private void OnClickEvent(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x309E030", Offset = "0x309C630", VA = "0x18309E030")]
+	[Address(RVA = "0x6A9FB00", Offset = "0x6A9EB00", VA = "0x6A9FB00")]
 	private bool ShouldIgnoreClick(Vector3 position)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x309E270", Offset = "0x309C870", VA = "0x18309E270", Slot = "161")]
+	[Address(RVA = "0x6A9FD70", Offset = "0x6A9ED70", VA = "0x6A9FD70", Slot = "161")]
 	protected virtual void ToggleValue()
 	{
 	}
 
 	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x309E3A0", Offset = "0x309C9A0", VA = "0x18309E3A0", Slot = "158")]
+	[Address(RVA = "0x6A9FDB0", Offset = "0x6A9EDB0", VA = "0x6A9FDB0", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}
 
 	[Token(Token = "0x6000380")]
-	[Address(RVA = "0x309DEB0", Offset = "0x309C4B0", VA = "0x18309DEB0", Slot = "156")]
+	[Address(RVA = "0x6A9FF40", Offset = "0x6A9EF40", VA = "0x6A9FF40", Slot = "156")]
 	internal override void RegisterEditingCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000381")]
-	[Address(RVA = "0x309E2B0", Offset = "0x309C8B0", VA = "0x18309E2B0", Slot = "157")]
+	[Address(RVA = "0x6AA0030", Offset = "0x6A9F030", VA = "0x6AA0030", Slot = "157")]
 	internal override void UnregisterEditingCallbacks()
 	{
 	}

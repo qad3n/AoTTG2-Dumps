@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUResidentDrawerResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -93,7 +93,7 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	private int UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002Eversion
 	{
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x65C19D0", Offset = "0x65C09D0", VA = "0x65C19D0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -104,13 +104,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader instanceDataBufferCopyKernels
 	{
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x65C19E0", Offset = "0x65C09E0", VA = "0x65C19E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x2BC4DA0", Offset = "0x2BC33A0", VA = "0x182BC4DA0")]
+		[Address(RVA = "0x65C19F0", Offset = "0x65C09F0", VA = "0x65C19F0")]
 		set
 		{
 		}
@@ -120,13 +120,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader instanceDataBufferUploadKernels
 	{
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x65C1A50", Offset = "0x65C0A50", VA = "0x65C1A50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x2BC4E10", Offset = "0x2BC3410", VA = "0x182BC4E10")]
+		[Address(RVA = "0x65C1A60", Offset = "0x65C0A60", VA = "0x65C1A60")]
 		set
 		{
 		}
@@ -136,13 +136,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader transformUpdaterKernels
 	{
 		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x65C1AC0", Offset = "0x65C0AC0", VA = "0x65C1AC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x2BC4FD0", Offset = "0x2BC35D0", VA = "0x182BC4FD0")]
+		[Address(RVA = "0x65C1AD0", Offset = "0x65C0AD0", VA = "0x65C1AD0")]
 		set
 		{
 		}
@@ -152,13 +152,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader windDataUpdaterKernels
 	{
 		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x65C1B30", Offset = "0x65C0B30", VA = "0x65C1B30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600010F")]
-		[Address(RVA = "0x2BC5040", Offset = "0x2BC3640", VA = "0x182BC5040")]
+		[Address(RVA = "0x65C1B40", Offset = "0x65C0B40", VA = "0x65C1B40")]
 		set
 		{
 		}
@@ -168,13 +168,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader occluderDepthPyramidKernels
 	{
 		[Token(Token = "0x6000110")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x65C1BA0", Offset = "0x65C0BA0", VA = "0x65C1BA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000111")]
-		[Address(RVA = "0x2BC4EF0", Offset = "0x2BC34F0", VA = "0x182BC4EF0")]
+		[Address(RVA = "0x65C1BB0", Offset = "0x65C0BB0", VA = "0x65C1BB0")]
 		set
 		{
 		}
@@ -184,13 +184,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader instanceOcclusionCullingKernels
 	{
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x65C1C10", Offset = "0x65C0C10", VA = "0x65C1C10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x2BC4E80", Offset = "0x2BC3480", VA = "0x182BC4E80")]
+		[Address(RVA = "0x65C1C20", Offset = "0x65C0C20", VA = "0x65C1C20")]
 		set
 		{
 		}
@@ -200,13 +200,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public ComputeShader occlusionCullingDebugKernels
 	{
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x65C1C80", Offset = "0x65C0C80", VA = "0x65C1C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x2BC4F60", Offset = "0x2BC3560", VA = "0x182BC4F60")]
+		[Address(RVA = "0x65C1C90", Offset = "0x65C0C90", VA = "0x65C1C90")]
 		set
 		{
 		}
@@ -216,13 +216,13 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public Shader debugOcclusionTestPS
 	{
 		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x65C1CF0", Offset = "0x65C0CF0", VA = "0x65C1CF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x2BC4D30", Offset = "0x2BC3330", VA = "0x182BC4D30")]
+		[Address(RVA = "0x65C1D00", Offset = "0x65C0D00", VA = "0x65C1D00")]
 		set
 		{
 		}
@@ -232,20 +232,20 @@ internal class GPUResidentDrawerResources : IRenderPipelineResources, IRenderPip
 	public Shader debugOccluderPS
 	{
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x65C1D60", Offset = "0x65C0D60", VA = "0x65C1D60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x2BC4CC0", Offset = "0x2BC32C0", VA = "0x182BC4CC0")]
+		[Address(RVA = "0x65C1D70", Offset = "0x65C0D70", VA = "0x65C1D70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65C1DD0", Offset = "0x65C0DD0", VA = "0x65C1DD0")]
 	public GPUResidentDrawerResources()
 	{
 	}

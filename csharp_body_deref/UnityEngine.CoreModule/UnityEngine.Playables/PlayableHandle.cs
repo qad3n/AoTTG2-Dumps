@@ -14,87 +14,87 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Playables;
 
 [Token(Token = "0x2000309")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/PlayableHandle.bindings.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/PlayableHandle.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 public struct PlayableHandle : IEquatable<PlayableHandle>
 {
-	[Token(Token = "0x40007B0")]
+	[Token(Token = "0x40007AE")]
 	[FieldOffset(Offset = "0x0")]
 	internal IntPtr m_Handle;
 
-	[Token(Token = "0x40007B1")]
+	[Token(Token = "0x40007AF")]
 	[FieldOffset(Offset = "0x8")]
 	internal uint m_Version;
 
-	[Token(Token = "0x40007B2")]
+	[Token(Token = "0x40007B0")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly PlayableHandle m_Null;
 
-	[Token(Token = "0x170002E6")]
+	[Token(Token = "0x170002EB")]
 	public static PlayableHandle Null
 	{
-		[Token(Token = "0x600123C")]
-		[Address(RVA = "0x2F4DC30", Offset = "0x2F4C230", VA = "0x182F4DC30")]
+		[Token(Token = "0x6001250")]
+		[Address(RVA = "0x693AC20", Offset = "0x6939C20", VA = "0x693AC20")]
 		get
 		{
 			return default(PlayableHandle);
 		}
 	}
 
-	[Token(Token = "0x600123B")]
+	[Token(Token = "0x600124F")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal bool IsPlayableOfType<T>()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x2F4DC90", Offset = "0x2F4C290", VA = "0x182F4DC90")]
+	[Token(Token = "0x6001251")]
+	[Address(RVA = "0x693AAE0", Offset = "0x6939AE0", VA = "0x693AAE0")]
 	public static bool operator ==(PlayableHandle x, PlayableHandle y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x2F4D960", Offset = "0x2F4BF60", VA = "0x182F4D960", Slot = "0")]
+	[Token(Token = "0x6001252")]
+	[Address(RVA = "0x693B0D0", Offset = "0x693A0D0", VA = "0x693B0D0", Slot = "0")]
 	public override bool Equals(object p)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x2F4DAA0", Offset = "0x2F4C0A0", VA = "0x182F4DAA0", Slot = "4")]
+	[Token(Token = "0x6001253")]
+	[Address(RVA = "0x693B1B0", Offset = "0x693A1B0", VA = "0x693B1B0", Slot = "4")]
 	public bool Equals(PlayableHandle other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001240")]
-	[Address(RVA = "0x2F4DB40", Offset = "0x2F4C140", VA = "0x182F4DB40", Slot = "2")]
+	[Token(Token = "0x6001254")]
+	[Address(RVA = "0x693B220", Offset = "0x693A220", VA = "0x693B220", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001241")]
-	[Address(RVA = "0xA4F710", Offset = "0xA4DD10", VA = "0x180A4F710")]
+	[Token(Token = "0x6001255")]
+	[Address(RVA = "0x693B0C0", Offset = "0x693A0C0", VA = "0x693B0C0")]
 	internal static bool CompareVersion(PlayableHandle lhs, PlayableHandle rhs)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x2F4DBB0", Offset = "0x2F4C1B0", VA = "0x182F4DBB0")]
+	[Token(Token = "0x6001256")]
+	[Address(RVA = "0x693B250", Offset = "0x693A250", VA = "0x693B250")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal extern bool IsValid();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001243")]
-	[Address(RVA = "0x2F4DB70", Offset = "0x2F4C170", VA = "0x182F4DB70")]
-	[UnityEngine.Bindings.FreeFunction("PlayableHandleBindings::GetPlayableType", HasExplicitThis = true, ThrowsException = true)]
+	[Token(Token = "0x6001257")]
+	[Address(RVA = "0x693B280", Offset = "0x693A280", VA = "0x693B280")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
+	[UnityEngine.Bindings.FreeFunction("PlayableHandleBindings::GetPlayableType", HasExplicitThis = true, ThrowsException = true)]
 	internal extern Type GetPlayableType();
 }

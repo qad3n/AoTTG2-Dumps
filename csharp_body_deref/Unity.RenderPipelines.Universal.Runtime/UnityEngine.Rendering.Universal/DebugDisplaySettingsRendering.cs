@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -130,147 +130,147 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	internal static class WidgetFactory
 	{
 		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0x2C14A20", Offset = "0x2C13020", VA = "0x182C14A20")]
+		[Address(RVA = "0x6601250", Offset = "0x6600250", VA = "0x6601250")]
 		internal static DebugUI.Widget CreateMapOverlays(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x2C185B0", Offset = "0x2C16BB0", VA = "0x182C185B0")]
+		[Address(RVA = "0x66014E0", Offset = "0x66004E0", VA = "0x66014E0")]
 		internal static DebugUI.Widget CreateStpDebugViews(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x2C14690", Offset = "0x2C12C90", VA = "0x182C14690")]
+		[Address(RVA = "0x6601880", Offset = "0x6600880", VA = "0x6601880")]
 		internal static DebugUI.Widget CreateMapOverlaySize(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0x2C129C0", Offset = "0x2C10FC0", VA = "0x182C129C0")]
+		[Address(RVA = "0x6601C20", Offset = "0x6600C20", VA = "0x6601C20")]
 		internal static DebugUI.Widget CreateAdditionalWireframeShaderViews(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C2")]
-		[Address(RVA = "0x2C18ED0", Offset = "0x2C174D0", VA = "0x182C18ED0")]
+		[Address(RVA = "0x6601F80", Offset = "0x6600F80", VA = "0x6601F80")]
 		internal static DebugUI.Widget CreateWireframeNotSupportedWarning(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C3")]
-		[Address(RVA = "0x2C173E0", Offset = "0x2C159E0", VA = "0x182C173E0")]
+		[Address(RVA = "0x66020D0", Offset = "0x66010D0", VA = "0x66020D0")]
 		internal static DebugUI.Widget CreateOverdrawMode(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C4")]
-		[Address(RVA = "0x2C15260", Offset = "0x2C13860", VA = "0x182C15260")]
+		[Address(RVA = "0x6602360", Offset = "0x6601360", VA = "0x6602360")]
 		internal static DebugUI.Widget CreateMaxOverdrawCount(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C5")]
-		[Address(RVA = "0x2C16C30", Offset = "0x2C15230", VA = "0x182C16C30")]
+		[Address(RVA = "0x6602750", Offset = "0x6601750", VA = "0x6602750")]
 		internal static DebugUI.Widget CreateMipMapDebugWidget(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C6")]
-		[Address(RVA = "0x2C16F70", Offset = "0x2C15570", VA = "0x182C16F70")]
+		[Address(RVA = "0x6602A70", Offset = "0x6601A70", VA = "0x6602A70")]
 		internal static DebugUI.Widget CreateMipMapMode(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C7")]
-		[Address(RVA = "0x2C15D10", Offset = "0x2C14310", VA = "0x182C15D10")]
+		[Address(RVA = "0x6602D00", Offset = "0x6601D00", VA = "0x6602D00")]
 		internal static DebugUI.Widget CreateMipMapDebugSettings(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x2C169B0", Offset = "0x2C14FB0", VA = "0x182C169B0")]
+		[Address(RVA = "0x6603930", Offset = "0x6602930", VA = "0x6603930")]
 		internal static DebugUI.Widget CreateMipMapDebugSlotSelector(SettingsPanel panel, Func<bool> hiddenCB, GUIContent[] texSlotStrings, int[] texSlotValues)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x2C159A0", Offset = "0x2C13FA0", VA = "0x182C159A0")]
+		[Address(RVA = "0x6603DC0", Offset = "0x6602DC0", VA = "0x6603DC0")]
 		internal static DebugUI.Widget CreateMipMapDebugCooldownSlider(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x2C171F0", Offset = "0x2C157F0", VA = "0x182C171F0")]
+		[Address(RVA = "0x6603BD0", Offset = "0x6602BD0", VA = "0x6603BD0")]
 		internal static DebugUI.Widget CreateMipMapShowStatusCodeToggle(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x2C17F90", Offset = "0x2C16590", VA = "0x182C17F90")]
+		[Address(RVA = "0x6604160", Offset = "0x6603160", VA = "0x6604160")]
 		internal static DebugUI.Widget CreatePostProcessing(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x2C144E0", Offset = "0x2C12AE0", VA = "0x182C144E0")]
+		[Address(RVA = "0x6604400", Offset = "0x6603400", VA = "0x6604400")]
 		internal static DebugUI.Widget CreateMSAA(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x2C13EC0", Offset = "0x2C124C0", VA = "0x182C13EC0")]
+		[Address(RVA = "0x66045B0", Offset = "0x66035B0", VA = "0x66045B0")]
 		internal static DebugUI.Widget CreateHDR(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x2C18900", Offset = "0x2C16F00", VA = "0x182C18900")]
+		[Address(RVA = "0x6604760", Offset = "0x6603760", VA = "0x6604760")]
 		internal static DebugUI.Widget CreateTaaDebugMode(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x2C178E0", Offset = "0x2C15EE0", VA = "0x182C178E0")]
+		[Address(RVA = "0x6604AD0", Offset = "0x6603AD0", VA = "0x6604AD0")]
 		internal static DebugUI.Widget CreatePixelValidationMode(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x2C17660", Offset = "0x2C15C60", VA = "0x182C17660")]
+		[Address(RVA = "0x6604E40", Offset = "0x6603E40", VA = "0x6604E40")]
 		internal static DebugUI.Widget CreatePixelValidationChannels(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x2C17DE0", Offset = "0x2C163E0", VA = "0x182C17DE0")]
+		[Address(RVA = "0x66050E0", Offset = "0x66040E0", VA = "0x66050E0")]
 		internal static DebugUI.Widget CreatePixelValueRangeMin(SettingsPanel panel)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x2C17C30", Offset = "0x2C16230", VA = "0x182C17C30")]
+		[Address(RVA = "0x66052A0", Offset = "0x66042A0", VA = "0x66052A0")]
 		internal static DebugUI.Widget CreatePixelValueRangeMax(SettingsPanel panel)
 		{
 			return null;
@@ -282,7 +282,7 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	internal class SettingsPanel : DebugDisplaySettingsPanel<DebugDisplaySettingsRendering>
 	{
 		[Token(Token = "0x6000240")]
-		[Address(RVA = "0x2C0A800", Offset = "0x2C08E00", VA = "0x182C0A800")]
+		[Address(RVA = "0x6600190", Offset = "0x65FF190", VA = "0x6600190")]
 		public SettingsPanel(DebugDisplaySettingsRendering data)
 		{
 		}
@@ -304,13 +304,13 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugWireframeMode wireframeMode
 	{
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x65FFCC0", Offset = "0x65FECC0", VA = "0x65FFCC0")]
 		get
 		{
 			return default(DebugWireframeMode);
 		}
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x2C00B00", Offset = "0x2BFF100", VA = "0x182C00B00")]
+		[Address(RVA = "0x65FFCD0", Offset = "0x65FECD0", VA = "0x65FFCD0")]
 		set
 		{
 		}
@@ -321,13 +321,13 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool overdraw
 	{
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x65FFD10", Offset = "0x65FED10", VA = "0x65FFD10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x2C00AC0", Offset = "0x2BFF0C0", VA = "0x182C00AC0")]
+		[Address(RVA = "0x65FFD20", Offset = "0x65FED20", VA = "0x65FFD20")]
 		set
 		{
 		}
@@ -337,13 +337,13 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugOverdrawMode overdrawMode
 	{
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x65FFD50", Offset = "0x65FED50", VA = "0x65FFD50")]
 		get
 		{
 			return default(DebugOverdrawMode);
 		}
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x2C00A80", Offset = "0x2BFF080", VA = "0x182C00A80")]
+		[Address(RVA = "0x65FFD60", Offset = "0x65FED60", VA = "0x65FFD60")]
 		set
 		{
 		}
@@ -353,14 +353,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public int maxOverdrawCount
 	{
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x65FFD80", Offset = "0x65FED80", VA = "0x65FFD80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x65FFD90", Offset = "0x65FED90", VA = "0x65FFD90")]
 		[CompilerGenerated]
 		set
 		{
@@ -371,14 +371,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugFullScreenMode fullScreenDebugMode
 	{
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x65FFDA0", Offset = "0x65FEDA0", VA = "0x65FFDA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugFullScreenMode);
 		}
 		[Token(Token = "0x600018F")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x65FFDB0", Offset = "0x65FEDB0", VA = "0x65FFDB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -389,14 +389,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	internal int stpDebugViewIndex
 	{
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x65FFDC0", Offset = "0x65FEDC0", VA = "0x65FFDC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x65FFDD0", Offset = "0x65FEDD0", VA = "0x65FFDD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -407,14 +407,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public int fullScreenDebugModeOutputSizeScreenPercent
 	{
 		[Token(Token = "0x6000192")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x65FFDE0", Offset = "0x65FEDE0", VA = "0x65FFDE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x65FFDF0", Offset = "0x65FEDF0", VA = "0x65FFDF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -425,14 +425,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	internal DebugSceneOverrideMode sceneOverrideMode
 	{
 		[Token(Token = "0x6000194")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x65FFE00", Offset = "0x65FEE00", VA = "0x65FFE00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugSceneOverrideMode);
 		}
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x65FFE10", Offset = "0x65FEE10", VA = "0x65FFE10")]
 		[CompilerGenerated]
 		set
 		{
@@ -443,14 +443,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugMipInfoMode mipInfoMode
 	{
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x65FFE20", Offset = "0x65FEE20", VA = "0x65FFE20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugMipInfoMode);
 		}
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x65FFE30", Offset = "0x65FEE30", VA = "0x65FFE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -461,14 +461,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool mipDebugStatusShowCode
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Address(RVA = "0x65FFE40", Offset = "0x65FEE40", VA = "0x65FFE40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0xAB9F80", Offset = "0xAB8580", VA = "0x180AB9F80")]
+		[Address(RVA = "0x65FFE50", Offset = "0x65FEE50", VA = "0x65FFE50")]
 		[CompilerGenerated]
 		set
 		{
@@ -479,14 +479,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugMipMapStatusMode mipDebugStatusMode
 	{
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x65FFE60", Offset = "0x65FEE60", VA = "0x65FFE60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugMipMapStatusMode);
 		}
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x65FFE70", Offset = "0x65FEE70", VA = "0x65FFE70")]
 		[CompilerGenerated]
 		set
 		{
@@ -497,14 +497,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public float mipDebugOpacity
 	{
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Address(RVA = "0x65FFE80", Offset = "0x65FEE80", VA = "0x65FFE80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x1ED2F20", Offset = "0x1ED1520", VA = "0x181ED2F20")]
+		[Address(RVA = "0x65FFE90", Offset = "0x65FEE90", VA = "0x65FFE90")]
 		[CompilerGenerated]
 		set
 		{
@@ -515,14 +515,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public float mipDebugRecentUpdateCooldown
 	{
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
+		[Address(RVA = "0x65FFEA0", Offset = "0x65FEEA0", VA = "0x65FFEA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600019F")]
-		[Address(RVA = "0xE8F730", Offset = "0xE8DD30", VA = "0x180E8F730")]
+		[Address(RVA = "0x65FFEB0", Offset = "0x65FEEB0", VA = "0x65FFEB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -533,14 +533,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public int mipDebugMaterialTextureSlot
 	{
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x58A870", Offset = "0x588E70", VA = "0x18058A870")]
+		[Address(RVA = "0x65FFEC0", Offset = "0x65FEEC0", VA = "0x65FFEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001A1")]
-		[Address(RVA = "0x58AA10", Offset = "0x589010", VA = "0x18058AA10")]
+		[Address(RVA = "0x65FFED0", Offset = "0x65FEED0", VA = "0x65FFED0")]
 		[CompilerGenerated]
 		set
 		{
@@ -551,14 +551,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool showInfoForAllSlots
 	{
 		[Token(Token = "0x60001A2")]
-		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
+		[Address(RVA = "0x65FFEE0", Offset = "0x65FEEE0", VA = "0x65FFEE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x58A8C0", Offset = "0x588EC0", VA = "0x18058A8C0")]
+		[Address(RVA = "0x65FFEF0", Offset = "0x65FEEF0", VA = "0x65FFEF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -569,7 +569,7 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	internal bool canAggregateData
 	{
 		[Token(Token = "0x60001A4")]
-		[Address(RVA = "0x2C00A30", Offset = "0x2BFF030", VA = "0x182C00A30")]
+		[Address(RVA = "0x65FFF00", Offset = "0x65FEF00", VA = "0x65FFF00")]
 		get
 		{
 			return default(bool);
@@ -580,14 +580,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugMipMapModeTerrainTexture mipDebugTerrainTexture
 	{
 		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
+		[Address(RVA = "0x65FFF10", Offset = "0x65FEF10", VA = "0x65FFF10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugMipMapModeTerrainTexture);
 		}
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x58A9A0", Offset = "0x588FA0", VA = "0x18058A9A0")]
+		[Address(RVA = "0x65FFF20", Offset = "0x65FEF20", VA = "0x65FFF20")]
 		[CompilerGenerated]
 		set
 		{
@@ -598,14 +598,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugPostProcessingMode postProcessingDebugMode
 	{
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x65FFF30", Offset = "0x65FEF30", VA = "0x65FFF30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugPostProcessingMode);
 		}
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
+		[Address(RVA = "0x65FFF40", Offset = "0x65FEF40", VA = "0x65FFF40")]
 		[CompilerGenerated]
 		set
 		{
@@ -616,14 +616,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool enableMsaa
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x2C00A50", Offset = "0x2BFF050", VA = "0x182C00A50")]
+		[Address(RVA = "0x65FFF50", Offset = "0x65FEF50", VA = "0x65FFF50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x2C00A70", Offset = "0x2BFF070", VA = "0x182C00A70")]
+		[Address(RVA = "0x65FFF60", Offset = "0x65FEF60", VA = "0x65FFF60")]
 		[CompilerGenerated]
 		set
 		{
@@ -634,14 +634,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool enableHDR
 	{
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x27363B0", Offset = "0x27349B0", VA = "0x1827363B0")]
+		[Address(RVA = "0x65FFF70", Offset = "0x65FEF70", VA = "0x65FFF70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x2C00A60", Offset = "0x2BFF060", VA = "0x182C00A60")]
+		[Address(RVA = "0x65FFF80", Offset = "0x65FEF80", VA = "0x65FFF80")]
 		[CompilerGenerated]
 		set
 		{
@@ -652,14 +652,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public TaaDebugMode taaDebugMode
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x65FFF90", Offset = "0x65FEF90", VA = "0x65FFF90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TaaDebugMode);
 		}
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x65FFFA0", Offset = "0x65FEFA0", VA = "0x65FFFA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -670,14 +670,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public DebugValidationMode validationMode
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x65FFFB0", Offset = "0x65FEFB0", VA = "0x65FFFB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DebugValidationMode);
 		}
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x65FFFC0", Offset = "0x65FEFC0", VA = "0x65FFFC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -688,14 +688,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public PixelValidationChannels validationChannels
 	{
 		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x65FFFD0", Offset = "0x65FEFD0", VA = "0x65FFFD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PixelValidationChannels);
 		}
 		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
+		[Address(RVA = "0x65FFFE0", Offset = "0x65FEFE0", VA = "0x65FFFE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -706,14 +706,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public float validationRangeMin
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0xCDE8A0", Offset = "0xCDCEA0", VA = "0x180CDE8A0")]
+		[Address(RVA = "0x65FFFF0", Offset = "0x65FEFF0", VA = "0x65FFFF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0xCDEB40", Offset = "0xCDD140", VA = "0x180CDEB40")]
+		[Address(RVA = "0x6600000", Offset = "0x65FF000", VA = "0x6600000")]
 		[CompilerGenerated]
 		set
 		{
@@ -724,14 +724,14 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public float validationRangeMax
 	{
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x12BF160", Offset = "0x12BD760", VA = "0x1812BF160")]
+		[Address(RVA = "0x6600010", Offset = "0x65FF010", VA = "0x6600010")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x12BF410", Offset = "0x12BDA10", VA = "0x1812BF410")]
+		[Address(RVA = "0x6600020", Offset = "0x65FF020", VA = "0x6600020")]
 		[CompilerGenerated]
 		set
 		{
@@ -742,7 +742,7 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x2C009B0", Offset = "0x2BFEFB0", VA = "0x182C009B0", Slot = "6")]
+		[Address(RVA = "0x6600030", Offset = "0x65FF030", VA = "0x6600030", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -753,7 +753,7 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool IsPostProcessingAllowed
 	{
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x2C00A10", Offset = "0x2BFF010", VA = "0x182C00A10", Slot = "7")]
+		[Address(RVA = "0x6600070", Offset = "0x65FF070", VA = "0x6600070", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -764,7 +764,7 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	public bool IsLightingActive
 	{
 		[Token(Token = "0x60001B9")]
-		[Address(RVA = "0x2C009F0", Offset = "0x2BFEFF0", VA = "0x182C009F0", Slot = "8")]
+		[Address(RVA = "0x6600090", Offset = "0x65FF090", VA = "0x6600090", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -772,27 +772,27 @@ public class DebugDisplaySettingsRendering : IDebugDisplaySettingsData, IDebugDi
 	}
 
 	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x2C00930", Offset = "0x2BFEF30", VA = "0x182C00930")]
+	[Address(RVA = "0x65FFCF0", Offset = "0x65FECF0", VA = "0x65FFCF0")]
 	private void UpdateDebugSceneOverrideMode()
 	{
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x2C00810", Offset = "0x2BFEE10", VA = "0x182C00810", Slot = "9")]
+	[Address(RVA = "0x66000B0", Offset = "0x65FF0B0", VA = "0x66000B0", Slot = "9")]
 	public bool TryGetScreenClearColor(ref Color color)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x2C008D0", Offset = "0x2BFEED0", VA = "0x182C008D0", Slot = "4")]
+	[Address(RVA = "0x6600140", Offset = "0x65FF140", VA = "0x6600140", Slot = "4")]
 	private IDebugDisplaySettingsPanelDisposable UnityEngine_002ERendering_002EIDebugDisplaySettingsData_002ECreatePanel()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x2C00970", Offset = "0x2BFEF70", VA = "0x182C00970")]
+	[Address(RVA = "0x6600750", Offset = "0x65FF750", VA = "0x6600750")]
 	public DebugDisplaySettingsRendering()
 	{
 	}

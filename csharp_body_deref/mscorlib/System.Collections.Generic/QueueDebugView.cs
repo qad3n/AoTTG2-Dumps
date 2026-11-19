@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000635")]
+[Token(Token = "0x2000610")]
 internal sealed class QueueDebugView<T>
 {
 }

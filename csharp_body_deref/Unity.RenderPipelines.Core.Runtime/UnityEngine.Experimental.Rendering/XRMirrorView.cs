@@ -63,7 +63,7 @@ internal static class XRMirrorView
 	private static readonly int k_ColorTransform;
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2AC9720", Offset = "0x2AC7D20", VA = "0x182AC9720")]
+	[Address(RVA = "0x64AAAF0", Offset = "0x64A9AF0", VA = "0x64AAAF0")]
 	internal static void RenderMirrorView(CommandBuffer cmd, Camera camera, Material mat, XRDisplaySubsystem display)
 	{
 	}

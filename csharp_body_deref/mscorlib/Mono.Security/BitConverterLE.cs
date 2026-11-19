@@ -9,65 +9,65 @@ using Il2CppDummyDll;
 
 namespace Mono.Security;
 
-[Token(Token = "0x200005F")]
+[Token(Token = "0x2000041")]
 internal sealed class BitConverterLE
 {
-	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x19414E0", Offset = "0x193FAE0", VA = "0x1819414E0")]
+	[Token(Token = "0x6000110")]
+	[Address(RVA = "0x52E8740", Offset = "0x52E7740", VA = "0x52E8740")]
 	private unsafe static byte[] GetUIntBytes(byte* bytes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x1941570", Offset = "0x193FB70", VA = "0x181941570")]
+	[Token(Token = "0x6000111")]
+	[Address(RVA = "0x52E87C0", Offset = "0x52E77C0", VA = "0x52E87C0")]
 	private unsafe static byte[] GetULongBytes(byte* bytes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x19412F0", Offset = "0x193F8F0", VA = "0x1819412F0")]
+	[Token(Token = "0x6000112")]
+	[Address(RVA = "0x52E8870", Offset = "0x52E7870", VA = "0x52E8870")]
 	internal static byte[] GetBytes(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x1941380", Offset = "0x193F980", VA = "0x181941380")]
+	[Token(Token = "0x6000113")]
+	[Address(RVA = "0x52E8890", Offset = "0x52E7890", VA = "0x52E8890")]
 	internal static byte[] GetBytes(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x1941410", Offset = "0x193FA10", VA = "0x181941410")]
+	[Token(Token = "0x6000114")]
+	[Address(RVA = "0x52E88B0", Offset = "0x52E78B0", VA = "0x52E88B0")]
 	internal static byte[] GetBytes(double value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x1913B60", Offset = "0x1912160", VA = "0x181913B60")]
+	[Token(Token = "0x6000115")]
+	[Address(RVA = "0x52E88C0", Offset = "0x52E78C0", VA = "0x52E88C0")]
 	private unsafe static void UIntFromBytes(byte* dst, byte[] src, int startIndex)
 	{
 	}
 
-	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x1941710", Offset = "0x193FD10", VA = "0x181941710")]
+	[Token(Token = "0x6000116")]
+	[Address(RVA = "0x52E8920", Offset = "0x52E7920", VA = "0x52E8920")]
 	private unsafe static void ULongFromBytes(byte* dst, byte[] src, int startIndex)
 	{
 	}
 
-	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x1941690", Offset = "0x193FC90", VA = "0x181941690")]
+	[Token(Token = "0x6000117")]
+	[Address(RVA = "0x52E8A00", Offset = "0x52E7A00", VA = "0x52E8A00")]
 	internal static float ToSingle(byte[] value, int startIndex)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x1941630", Offset = "0x193FC30", VA = "0x181941630")]
+	[Token(Token = "0x6000118")]
+	[Address(RVA = "0x52E8A20", Offset = "0x52E7A20", VA = "0x52E8A20")]
 	internal static double ToDouble(byte[] value, int startIndex)
 	{
 		return default(double);

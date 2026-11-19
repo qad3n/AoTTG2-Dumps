@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class LogicalNegationHandler : UnaryOperatorHandler
 {
 	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x2E0DC30", Offset = "0x2E0C230", VA = "0x182E0DC30")]
+	[Address(RVA = "0x6809970", Offset = "0x6808970", VA = "0x6809970")]
 	public LogicalNegationHandler()
 	{
 	}

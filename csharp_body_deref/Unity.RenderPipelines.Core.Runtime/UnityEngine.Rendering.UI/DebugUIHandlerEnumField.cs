@@ -13,25 +13,25 @@ namespace UnityEngine.Rendering.UI;
 public class DebugUIHandlerEnumField : DebugUIHandlerField<DebugUI.EnumField>
 {
 	[Token(Token = "0x6001426")]
-	[Address(RVA = "0x2BAC320", Offset = "0x2BAA920", VA = "0x182BAC320", Slot = "9")]
+	[Address(RVA = "0x65A77E0", Offset = "0x65A67E0", VA = "0x65A77E0", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001427")]
-	[Address(RVA = "0x2BAC150", Offset = "0x2BAA750", VA = "0x182BAC150", Slot = "10")]
+	[Address(RVA = "0x65A7940", Offset = "0x65A6940", VA = "0x65A7940", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001428")]
-	[Address(RVA = "0x2BAC4B0", Offset = "0x2BAAAB0", VA = "0x182BAC4B0", Slot = "13")]
+	[Address(RVA = "0x65A7B20", Offset = "0x65A6B20", VA = "0x65A7B20", Slot = "13")]
 	public override void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x6001429")]
-	[Address(RVA = "0x2BAC540", Offset = "0x2BAAB40", VA = "0x182BAC540")]
+	[Address(RVA = "0x65A7BB0", Offset = "0x65A6BB0", VA = "0x65A7BB0")]
 	public DebugUIHandlerEnumField()
 	{
 	}

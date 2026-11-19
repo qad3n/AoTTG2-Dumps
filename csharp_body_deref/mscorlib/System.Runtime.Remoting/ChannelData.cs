@@ -10,42 +10,53 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000376")]
+[Token(Token = "0x200034F")]
 internal class ChannelData
 {
-	[Token(Token = "0x4000EA4")]
+	[Token(Token = "0x4000E04")]
 	[FieldOffset(Offset = "0x10")]
 	internal string Ref;
 
-	[Token(Token = "0x4000EA5")]
+	[Token(Token = "0x4000E05")]
 	[FieldOffset(Offset = "0x18")]
 	internal string Type;
 
-	[Token(Token = "0x4000EA6")]
+	[Token(Token = "0x4000E06")]
 	[FieldOffset(Offset = "0x20")]
 	internal string Id;
 
-	[Token(Token = "0x4000EA7")]
+	[Token(Token = "0x4000E07")]
 	[FieldOffset(Offset = "0x28")]
 	internal string DelayLoadAsClientChannel;
 
-	[Token(Token = "0x4000EA8")]
+	[Token(Token = "0x4000E08")]
 	[FieldOffset(Offset = "0x30")]
 	private ArrayList _serverProviders;
 
-	[Token(Token = "0x4000EA9")]
+	[Token(Token = "0x4000E09")]
 	[FieldOffset(Offset = "0x38")]
 	private ArrayList _clientProviders;
 
-	[Token(Token = "0x4000EAA")]
+	[Token(Token = "0x4000E0A")]
 	[FieldOffset(Offset = "0x40")]
 	private Hashtable _customProperties;
 
-	[Token(Token = "0x17000344")]
+	[Token(Token = "0x17000343")]
 	internal ArrayList ServerProviders
 	{
-		[Token(Token = "0x6001CE0")]
-		[Address(RVA = "0x19D3230", Offset = "0x19D1830", VA = "0x1819D3230")]
+		[Token(Token = "0x6001CB6")]
+		[Address(RVA = "0x536DC40", Offset = "0x536CC40", VA = "0x536DC40")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000344")]
+	public ArrayList ClientProviders
+	{
+		[Token(Token = "0x6001CB7")]
+		[Address(RVA = "0x536E490", Offset = "0x536D490", VA = "0x536E490")]
 		get
 		{
 			return null;
@@ -53,35 +64,24 @@ internal class ChannelData
 	}
 
 	[Token(Token = "0x17000345")]
-	public ArrayList ClientProviders
-	{
-		[Token(Token = "0x6001CE1")]
-		[Address(RVA = "0x19D3150", Offset = "0x19D1750", VA = "0x1819D3150")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000346")]
 	public Hashtable CustomProperties
 	{
-		[Token(Token = "0x6001CE2")]
-		[Address(RVA = "0x19D31C0", Offset = "0x19D17C0", VA = "0x1819D31C0")]
+		[Token(Token = "0x6001CB8")]
+		[Address(RVA = "0x5372420", Offset = "0x5371420", VA = "0x5372420")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001CE3")]
-	[Address(RVA = "0x19D2790", Offset = "0x19D0D90", VA = "0x1819D2790")]
+	[Token(Token = "0x6001CB9")]
+	[Address(RVA = "0x536D020", Offset = "0x536C020", VA = "0x536D020")]
 	public void CopyFrom(System.Runtime.Remoting.ChannelData other)
 	{
 	}
 
-	[Token(Token = "0x6001CE4")]
-	[Address(RVA = "0x19D3080", Offset = "0x19D1680", VA = "0x1819D3080")]
+	[Token(Token = "0x6001CBA")]
+	[Address(RVA = "0x5372360", Offset = "0x5371360", VA = "0x5372360")]
 	public ChannelData()
 	{
 	}

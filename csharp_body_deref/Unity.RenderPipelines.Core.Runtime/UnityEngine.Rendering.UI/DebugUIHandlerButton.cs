@@ -22,32 +22,32 @@ public class DebugUIHandlerButton : DebugUIHandlerWidget
 	private DebugUI.Button m_Field;
 
 	[Token(Token = "0x60013EB")]
-	[Address(RVA = "0x2BA8C30", Offset = "0x2BA7230", VA = "0x182BA8C30", Slot = "5")]
+	[Address(RVA = "0x65A3CA0", Offset = "0x65A2CA0", VA = "0x65A3CA0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60013EC")]
-	[Address(RVA = "0x2BA8BF0", Offset = "0x2BA71F0", VA = "0x182BA8BF0", Slot = "6")]
+	[Address(RVA = "0x65A3D30", Offset = "0x65A2D30", VA = "0x65A3D30", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013ED")]
-	[Address(RVA = "0x2BA83A0", Offset = "0x2BA69A0", VA = "0x182BA83A0", Slot = "7")]
+	[Address(RVA = "0x65A3D60", Offset = "0x65A2D60", VA = "0x65A3D60", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x60013EE")]
-	[Address(RVA = "0x2BA8BB0", Offset = "0x2BA71B0", VA = "0x182BA8BB0", Slot = "8")]
+	[Address(RVA = "0x65A3D90", Offset = "0x65A2D90", VA = "0x65A3D90", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x60013EF")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65A3DC0", Offset = "0x65A2DC0", VA = "0x65A3DC0")]
 	public DebugUIHandlerButton()
 	{
 	}

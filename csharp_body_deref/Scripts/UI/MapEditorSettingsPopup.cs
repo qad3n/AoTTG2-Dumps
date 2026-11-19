@@ -12,44 +12,33 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x200084F")]
+[Token(Token = "0x20008CD")]
 internal class MapEditorSettingsPopup : BasePopup
 {
-	[Token(Token = "0x40029C5")]
+	[Token(Token = "0x4002C7E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public string LocaleCategory;
 
-	[Token(Token = "0x40029C6")]
+	[Token(Token = "0x4002C7F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	protected List<SaveableSettingsContainer> _saveableSettings;
 
-	[Token(Token = "0x17000EAE")]
+	[Token(Token = "0x17000EAF")]
 	protected override string Title
 	{
-		[Token(Token = "0x6005049")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
+		[Token(Token = "0x60053E9")]
+		[Address(RVA = "0x5C9B480", Offset = "0x5C9A480", VA = "0x5C9B480", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000EAF")]
+	[Token(Token = "0x17000EB0")]
 	protected override float Width
 	{
-		[Token(Token = "0x600504A")]
-		[Address(RVA = "0x22D3970", Offset = "0x22D1F70", VA = "0x1822D3970", Slot = "5")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000EB0")]
-	protected override float Height
-	{
-		[Token(Token = "0x600504B")]
-		[Address(RVA = "0x228D430", Offset = "0x228BA30", VA = "0x18228D430", Slot = "6")]
+		[Token(Token = "0x60053EA")]
+		[Address(RVA = "0x5C9B4A0", Offset = "0x5C9A4A0", VA = "0x5C9B4A0", Slot = "5")]
 		get
 		{
 			return default(float);
@@ -57,21 +46,21 @@ internal class MapEditorSettingsPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000EB1")]
-	protected override bool CategoryPanel
+	protected override float Height
 	{
-		[Token(Token = "0x600504C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x60053EB")]
+		[Address(RVA = "0x5C9B4B0", Offset = "0x5C9A4B0", VA = "0x5C9B4B0", Slot = "6")]
 		get
 		{
-			return default(bool);
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000EB2")]
-	protected override bool CategoryButtons
+	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x600504D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "42")]
+		[Token(Token = "0x60053EC")]
+		[Address(RVA = "0x5C9B4C0", Offset = "0x5C9A4C0", VA = "0x5C9B4C0", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -79,60 +68,71 @@ internal class MapEditorSettingsPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000EB3")]
+	protected override bool CategoryButtons
+	{
+		[Token(Token = "0x60053ED")]
+		[Address(RVA = "0x5C9B4D0", Offset = "0x5C9A4D0", VA = "0x5C9B4D0", Slot = "42")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000EB4")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x600504E")]
-		[Address(RVA = "0x22D3940", Offset = "0x22D1F40", VA = "0x1822D3940", Slot = "19")]
+		[Token(Token = "0x60053EE")]
+		[Address(RVA = "0x5C9B4E0", Offset = "0x5C9A4E0", VA = "0x5C9B4E0", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600504F")]
-	[Address(RVA = "0x22D3710", Offset = "0x22D1D10", VA = "0x1822D3710", Slot = "20")]
+	[Token(Token = "0x60053EF")]
+	[Address(RVA = "0x5C9B510", Offset = "0x5C9A510", VA = "0x5C9B510", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6005050")]
-	[Address(RVA = "0x22D3420", Offset = "0x22D1A20", VA = "0x1822D3420", Slot = "44")]
+	[Token(Token = "0x60053F0")]
+	[Address(RVA = "0x5C9B960", Offset = "0x5C9A960", VA = "0x5C9B960", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x6005051")]
-	[Address(RVA = "0x22D30B0", Offset = "0x22D16B0", VA = "0x1822D30B0", Slot = "27")]
+	[Token(Token = "0x60053F1")]
+	[Address(RVA = "0x5C9BE80", Offset = "0x5C9AE80", VA = "0x5C9BE80", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6005052")]
-	[Address(RVA = "0x22D31A0", Offset = "0x22D17A0", VA = "0x1822D31A0")]
+	[Token(Token = "0x60053F2")]
+	[Address(RVA = "0x5C9B640", Offset = "0x5C9A640", VA = "0x5C9B640")]
 	private void SetupBottomButtons()
 	{
 	}
 
-	[Token(Token = "0x6005053")]
-	[Address(RVA = "0x22D2E50", Offset = "0x22D1450", VA = "0x1822D2E50")]
+	[Token(Token = "0x60053F3")]
+	[Address(RVA = "0x5C9BF80", Offset = "0x5C9AF80", VA = "0x5C9BF80")]
 	private void OnConfirmSetDefault()
 	{
 	}
 
-	[Token(Token = "0x6005054")]
-	[Address(RVA = "0x22D2BB0", Offset = "0x22D11B0", VA = "0x1822D2BB0")]
+	[Token(Token = "0x60053F4")]
+	[Address(RVA = "0x5C9C210", Offset = "0x5C9B210", VA = "0x5C9C210")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6005055")]
-	[Address(RVA = "0x22D2A50", Offset = "0x22D1050", VA = "0x1822D2A50", Slot = "22")]
+	[Token(Token = "0x60053F5")]
+	[Address(RVA = "0x5C9C560", Offset = "0x5C9B560", VA = "0x5C9C560", Slot = "22")]
 	public override void Hide()
 	{
 	}
 
-	[Token(Token = "0x6005056")]
-	[Address(RVA = "0x22D3890", Offset = "0x22D1E90", VA = "0x1822D3890")]
+	[Token(Token = "0x60053F6")]
+	[Address(RVA = "0x5C9C6E0", Offset = "0x5C9B6E0", VA = "0x5C9C6E0")]
 	public MapEditorSettingsPopup()
 	{
 	}

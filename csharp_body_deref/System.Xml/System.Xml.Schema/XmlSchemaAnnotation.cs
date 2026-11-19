@@ -30,13 +30,13 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	public string Id
 	{
 		[Token(Token = "0x6001523")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6026140", Offset = "0x6025140", VA = "0x6026140")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001524")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x6026150", Offset = "0x6025150", VA = "0x6026150")]
 		set
 		{
 		}
@@ -48,7 +48,7 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	public XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x6001525")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6026160", Offset = "0x6025160", VA = "0x6026160")]
 		get
 		{
 			return null;
@@ -60,26 +60,26 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	internal override string IdAttribute
 	{
 		[Token(Token = "0x6001526")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "7")]
+		[Address(RVA = "0x6026170", Offset = "0x6025170", VA = "0x6026170", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001527")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0", Slot = "8")]
+		[Address(RVA = "0x6026180", Offset = "0x6025180", VA = "0x6026180", Slot = "8")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001528")]
-	[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10", Slot = "9")]
+	[Address(RVA = "0x6026190", Offset = "0x6025190", VA = "0x6026190", Slot = "9")]
 	internal override void SetUnhandledAttributes(XmlAttribute[] moreAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001529")]
-	[Address(RVA = "0x2665590", Offset = "0x2663B90", VA = "0x182665590")]
+	[Address(RVA = "0x60261A0", Offset = "0x60251A0", VA = "0x60261A0")]
 	public XmlSchemaAnnotation()
 	{
 	}

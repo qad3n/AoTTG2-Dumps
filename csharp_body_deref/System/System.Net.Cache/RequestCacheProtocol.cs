@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x2000375")]
+[Token(Token = "0x2000331")]
 internal class RequestCacheProtocol
 {
-	[Token(Token = "0x6001781")]
-	[Address(RVA = "0x27F6A20", Offset = "0x27F5020", VA = "0x1827F6A20")]
+	[Token(Token = "0x60015C8")]
+	[Address(RVA = "0x61A52E0", Offset = "0x61A42E0", VA = "0x61A52E0")]
 	public RequestCacheProtocol(object arg1, object arg2)
 	{
 	}

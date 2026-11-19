@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.PassData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -188,7 +188,7 @@ internal struct PassData
 	public bool fragmentInfoHasShadingRateImage
 	{
 		[Token(Token = "0x6001398")]
-		[Address(RVA = "0x2BB9400", Offset = "0x2BB7A00", VA = "0x182BB9400")]
+		[Address(RVA = "0x659C950", Offset = "0x659B950", VA = "0x659C950")]
 		get
 		{
 			return default(bool);
@@ -197,27 +197,27 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001399")]
-	[Address(RVA = "0x2BB8980", Offset = "0x2BB6F80", VA = "0x182BB8980")]
+	[Address(RVA = "0x659C960", Offset = "0x659B960", VA = "0x659C960")]
 	public Name GetName(CompilerContextData ctx)
 	{
 		return default(Name);
 	}
 
 	[Token(Token = "0x600139A")]
-	[Address(RVA = "0x2BB92E0", Offset = "0x2BB78E0", VA = "0x182BB92E0")]
+	[Address(RVA = "0x659C9C0", Offset = "0x659B9C0", VA = "0x659C9C0")]
 	public PassData(in RenderGraphPass pass, int passIndex)
 	{
 	}
 
 	[Token(Token = "0x600139B")]
-	[Address(RVA = "0x2BB8F10", Offset = "0x2BB7510", VA = "0x182BB8F10")]
+	[Address(RVA = "0x659CA70", Offset = "0x659BA70", VA = "0x659CA70")]
 	public void ResetAndInitialize(in RenderGraphPass pass, int passIndex)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600139C")]
-	[Address(RVA = "0x2BB8D70", Offset = "0x2BB7370", VA = "0x182BB8D70")]
+	[Address(RVA = "0x659CB20", Offset = "0x659BB20", VA = "0x659CB20")]
 	public readonly ReadOnlySpan<PassOutputData> Outputs(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<PassOutputData>);
@@ -225,7 +225,7 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600139D")]
-	[Address(RVA = "0x2BB89F0", Offset = "0x2BB6FF0", VA = "0x182BB89F0")]
+	[Address(RVA = "0x659CBB0", Offset = "0x659BBB0", VA = "0x659CBB0")]
 	public readonly ReadOnlySpan<PassInputData> Inputs(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<PassInputData>);
@@ -233,7 +233,7 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600139E")]
-	[Address(RVA = "0x2BB88B0", Offset = "0x2BB6EB0", VA = "0x182BB88B0")]
+	[Address(RVA = "0x659CC40", Offset = "0x659BC40", VA = "0x659CC40")]
 	public readonly ReadOnlySpan<PassFragmentData> Fragments(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<PassFragmentData>);
@@ -241,7 +241,7 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600139F")]
-	[Address(RVA = "0x2BB9030", Offset = "0x2BB7630", VA = "0x182BB9030")]
+	[Address(RVA = "0x659CCD0", Offset = "0x659BCD0", VA = "0x659CCD0")]
 	public readonly ReadOnlySpan<ResourceHandle> SampledTexturesIfRaster(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<ResourceHandle>);
@@ -249,7 +249,7 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A0")]
-	[Address(RVA = "0x2BB9100", Offset = "0x2BB7700", VA = "0x182BB9100")]
+	[Address(RVA = "0x659CD60", Offset = "0x659BD60", VA = "0x659CD60")]
 	public readonly PassFragmentData ShadingRateImage(CompilerContextData ctx)
 	{
 		return default(PassFragmentData);
@@ -257,7 +257,7 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A1")]
-	[Address(RVA = "0x2BB87E0", Offset = "0x2BB6DE0", VA = "0x182BB87E0")]
+	[Address(RVA = "0x659CDE0", Offset = "0x659BDE0", VA = "0x659CDE0")]
 	public readonly ReadOnlySpan<PassFragmentData> FragmentInputs(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<PassFragmentData>);
@@ -265,14 +265,14 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A2")]
-	[Address(RVA = "0x2BB8710", Offset = "0x2BB6D10", VA = "0x182BB8710")]
+	[Address(RVA = "0x659CE70", Offset = "0x659BE70", VA = "0x659CE70")]
 	public readonly ReadOnlySpan<ResourceHandle> FirstUsedResources(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<ResourceHandle>);
 	}
 
 	[Token(Token = "0x60013A3")]
-	[Address(RVA = "0x2BB8E40", Offset = "0x2BB7440", VA = "0x182BB8E40")]
+	[Address(RVA = "0x659CF00", Offset = "0x659BF00", VA = "0x659CF00")]
 	public ReadOnlySpan<PassRandomWriteData> RandomWriteTextures(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<PassRandomWriteData>);
@@ -280,14 +280,14 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A4")]
-	[Address(RVA = "0x2BB8CA0", Offset = "0x2BB72A0", VA = "0x182BB8CA0")]
+	[Address(RVA = "0x659CF90", Offset = "0x659BF90", VA = "0x659CF90")]
 	public readonly ReadOnlySpan<ResourceHandle> LastUsedResources(CompilerContextData ctx)
 	{
 		return default(ReadOnlySpan<ResourceHandle>);
 	}
 
 	[Token(Token = "0x60013A5")]
-	[Address(RVA = "0x2BB91F0", Offset = "0x2BB77F0", VA = "0x182BB91F0")]
+	[Address(RVA = "0x659D020", Offset = "0x659C020", VA = "0x659D020")]
 	private bool TrySetupAndValidateFragmentInfo(in ResourceHandle h, CompilerContextData ctx, out string errorMessage)
 	{
 		return default(bool);
@@ -295,48 +295,48 @@ internal struct PassData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A6")]
-	[Address(RVA = "0x2BB91C0", Offset = "0x2BB77C0", VA = "0x182BB91C0")]
+	[Address(RVA = "0x659D130", Offset = "0x659C130", VA = "0x659D130")]
 	internal void TryAddFragment(in ResourceHandle h, CompilerContextData ctx, out string errorMessage)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A7")]
-	[Address(RVA = "0x2BB9190", Offset = "0x2BB7790", VA = "0x182BB9190")]
+	[Address(RVA = "0x659D140", Offset = "0x659C140", VA = "0x659D140")]
 	internal void TryAddFragmentInput(in ResourceHandle h, CompilerContextData ctx, out string errorMessage)
 	{
 	}
 
 	[Token(Token = "0x60013A8")]
-	[Address(RVA = "0x2BB83A0", Offset = "0x2BB69A0", VA = "0x182BB83A0")]
+	[Address(RVA = "0x659D150", Offset = "0x659C150", VA = "0x659D150")]
 	internal void AddRandomAccessResource()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013A9")]
-	[Address(RVA = "0x2BB8040", Offset = "0x2BB6640", VA = "0x182BB8040")]
+	[Address(RVA = "0x659D160", Offset = "0x659C160", VA = "0x659D160")]
 	internal void AddFirstUse(in ResourceHandle h, CompilerContextData ctx)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013AA")]
-	[Address(RVA = "0x2BB81F0", Offset = "0x2BB67F0", VA = "0x182BB81F0")]
+	[Address(RVA = "0x659D360", Offset = "0x659C360", VA = "0x659D360")]
 	internal void AddLastUse(in ResourceHandle h, CompilerContextData ctx)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013AB")]
-	[Address(RVA = "0x2BB8AC0", Offset = "0x2BB70C0", VA = "0x182BB8AC0")]
+	[Address(RVA = "0x659D560", Offset = "0x659C560", VA = "0x659D560")]
 	internal readonly bool IsUsedAsFragment(in ResourceHandle h, CompilerContextData ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013AC")]
-	[Address(RVA = "0x2BB83B0", Offset = "0x2BB69B0", VA = "0x182BB83B0")]
+	[Address(RVA = "0x659D790", Offset = "0x659C790", VA = "0x659D790")]
 	internal void DisconnectFromResources(CompilerContextData ctx, [Optional] Stack<ResourceHandle> unusedVersionedResourceIdCullingStack, int type = 0)
 	{
 	}

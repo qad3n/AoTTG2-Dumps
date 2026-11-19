@@ -16,7 +16,7 @@ public class SceneManagerHelper
 	public static string ActiveSceneName
 	{
 		[Token(Token = "0x600016F")]
-		[Address(RVA = "0x1D67900", Offset = "0x1D65F00", VA = "0x181D67900")]
+		[Address(RVA = "0x56F9110", Offset = "0x56F8110", VA = "0x56F9110")]
 		get
 		{
 			return null;
@@ -27,7 +27,7 @@ public class SceneManagerHelper
 	public static int ActiveSceneBuildIndex
 	{
 		[Token(Token = "0x6000170")]
-		[Address(RVA = "0x1D678A0", Offset = "0x1D65EA0", VA = "0x181D678A0")]
+		[Address(RVA = "0x56F9160", Offset = "0x56F8160", VA = "0x56F9160")]
 		get
 		{
 			return default(int);
@@ -35,7 +35,7 @@ public class SceneManagerHelper
 	}
 
 	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56F91B0", Offset = "0x56F81B0", VA = "0x56F91B0")]
 	public SceneManagerHelper()
 	{
 	}

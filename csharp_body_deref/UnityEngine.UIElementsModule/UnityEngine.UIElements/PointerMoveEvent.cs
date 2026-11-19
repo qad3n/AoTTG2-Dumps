@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PointerMoveEvent
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,14 +18,14 @@ public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent>
 	internal bool isHandledByDraggable
 	{
 		[Token(Token = "0x6000EA5")]
-		[Address(RVA = "0x1C41CE0", Offset = "0x1C402E0", VA = "0x181C41CE0")]
+		[Address(RVA = "0x6C6F140", Offset = "0x6C6E140", VA = "0x6C6F140")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EA6")]
-		[Address(RVA = "0x1C41DF0", Offset = "0x1C403F0", VA = "0x181C41DF0")]
+		[Address(RVA = "0x6C6F150", Offset = "0x6C6E150", VA = "0x6C6F150")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,7 +36,7 @@ public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent>
 	internal bool isPointerDown
 	{
 		[Token(Token = "0x6000EA7")]
-		[Address(RVA = "0x326D040", Offset = "0x326B640", VA = "0x18326D040")]
+		[Address(RVA = "0x6C6F160", Offset = "0x6C6E160", VA = "0x6C6F160")]
 		get
 		{
 			return default(bool);
@@ -47,7 +47,7 @@ public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent>
 	internal bool isPointerUp
 	{
 		[Token(Token = "0x6000EA8")]
-		[Address(RVA = "0x326D0A0", Offset = "0x326B6A0", VA = "0x18326D0A0")]
+		[Address(RVA = "0x6C6F1B0", Offset = "0x6C6E1B0", VA = "0x6C6F1B0")]
 		get
 		{
 			return default(bool);
@@ -55,50 +55,50 @@ public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent>
 	}
 
 	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x326CEF0", Offset = "0x326B4F0", VA = "0x18326CEF0")]
+	[Address(RVA = "0x6C6F070", Offset = "0x6C6E070", VA = "0x6C6F070")]
 	static PointerMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000EA9")]
-	[Address(RVA = "0x326CD50", Offset = "0x326B350", VA = "0x18326CD50", Slot = "13")]
+	[Address(RVA = "0x6C6F200", Offset = "0x6C6E200", VA = "0x6C6F200", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000EAA")]
-	[Address(RVA = "0x326CDC0", Offset = "0x326B3C0", VA = "0x18326CDC0")]
+	[Address(RVA = "0x6C6F270", Offset = "0x6C6E270", VA = "0x6C6F270")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000EAB")]
-	[Address(RVA = "0x326CFD0", Offset = "0x326B5D0", VA = "0x18326CFD0")]
+	[Address(RVA = "0x6C6F2B0", Offset = "0x6C6E2B0", VA = "0x6C6F2B0")]
 	public PointerMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000EAC")]
-	[Address(RVA = "0x326CB90", Offset = "0x326B190", VA = "0x18326CB90", Slot = "45")]
+	[Address(RVA = "0x6C6F320", Offset = "0x6C6E320", VA = "0x6C6F320", Slot = "45")]
 	internal override IMouseEvent GetPooledCompatibilityMouseEvent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EAD")]
-	[Address(RVA = "0x326CEA0", Offset = "0x326B4A0", VA = "0x18326CEA0", Slot = "7")]
+	[Address(RVA = "0x6C6F530", Offset = "0x6C6E530", VA = "0x6C6F530", Slot = "7")]
 	protected internal override void PreDispatch(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000EAE")]
-	[Address(RVA = "0x326CE00", Offset = "0x326B400", VA = "0x18326CE00", Slot = "9")]
+	[Address(RVA = "0x6C6F580", Offset = "0x6C6E580", VA = "0x6C6F580", Slot = "9")]
 	protected internal override void PostDispatch(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000EAF")]
-	[Address(RVA = "0x326CB10", Offset = "0x326B110", VA = "0x18326CB10", Slot = "10")]
+	[Address(RVA = "0x6C6F680", Offset = "0x6C6E680", VA = "0x6C6F680", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

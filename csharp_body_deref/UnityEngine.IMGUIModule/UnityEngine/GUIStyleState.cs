@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.GUIStyleState
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ public sealed class GUIStyleState
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000171")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x69944F0", Offset = "0x69934F0", VA = "0x69944F0")]
 		public static IntPtr ConvertToNative(GUIStyleState guiStyleState)
 		{
 			return default(IntPtr);
@@ -44,13 +44,13 @@ public sealed class GUIStyleState
 	public Texture2D background
 	{
 		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x2F8FEC0", Offset = "0x2F8E4C0", VA = "0x182F8FEC0")]
+		[Address(RVA = "0x6993FE0", Offset = "0x6992FE0", VA = "0x6993FE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x2F90060", Offset = "0x2F8E660", VA = "0x182F90060")]
+		[Address(RVA = "0x69940A0", Offset = "0x69930A0", VA = "0x69940A0")]
 		set
 		{
 		}
@@ -61,13 +61,13 @@ public sealed class GUIStyleState
 	public Color textColor
 	{
 		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x2F8FFA0", Offset = "0x2F8E5A0", VA = "0x182F8FFA0")]
+		[Address(RVA = "0x69941A0", Offset = "0x69931A0", VA = "0x69941A0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x2F90160", Offset = "0x2F8E760", VA = "0x182F90160")]
+		[Address(RVA = "0x6993BB0", Offset = "0x6992BB0", VA = "0x6993BB0")]
 		set
 		{
 		}
@@ -75,64 +75,64 @@ public sealed class GUIStyleState
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x2F8FE10", Offset = "0x2F8E410", VA = "0x182F8FE10")]
+	[Address(RVA = "0x6994290", Offset = "0x6993290", VA = "0x6994290")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyleState_Bindings::Init", IsThreadSafe = true)]
 	private static extern IntPtr Init();
 
 	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x2F8FC80", Offset = "0x2F8E280", VA = "0x182F8FC80")]
+	[Address(RVA = "0x69942C0", Offset = "0x69932C0", VA = "0x69942C0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyleState_Bindings::Cleanup", IsThreadSafe = true, HasExplicitThis = true)]
 	private void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x2F8FE40", Offset = "0x2F8E440", VA = "0x182F8FE40")]
+	[Address(RVA = "0x6994350", Offset = "0x6993350", VA = "0x6994350")]
 	public GUIStyleState()
 	{
 	}
 
 	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x2ED0FE0", Offset = "0x2ECF5E0", VA = "0x182ED0FE0")]
+	[Address(RVA = "0x6994390", Offset = "0x6993390", VA = "0x6994390")]
 	private GUIStyleState(GUIStyle sourceStyle, IntPtr source)
 	{
 	}
 
 	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x2F8FD90", Offset = "0x2F8E390", VA = "0x182F8FD90")]
+	[Address(RVA = "0x69943C0", Offset = "0x69933C0", VA = "0x69943C0")]
 	internal static GUIStyleState GetGUIStyleState(GUIStyle sourceStyle, IntPtr source)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x2F8FCE0", Offset = "0x2F8E2E0", VA = "0x182F8FCE0", Slot = "1")]
+	[Address(RVA = "0x6994420", Offset = "0x6993420", VA = "0x6994420", Slot = "1")]
 	~GUIStyleState()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x2F8FE80", Offset = "0x2F8E480", VA = "0x182F8FE80")]
+	[Address(RVA = "0x6994070", Offset = "0x6993070", VA = "0x6994070")]
 	private static extern IntPtr get_background_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x2F90010", Offset = "0x2F8E610", VA = "0x182F90010")]
+	[Address(RVA = "0x6994160", Offset = "0x6993160", VA = "0x6994160")]
 	private static extern void set_background_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x2F8FF50", Offset = "0x2F8E550", VA = "0x182F8FF50")]
+	[Address(RVA = "0x6994210", Offset = "0x6993210", VA = "0x6994210")]
 	private static extern void get_textColor_Injected(IntPtr _unity_self, out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x2F90110", Offset = "0x2F8E710", VA = "0x182F90110")]
+	[Address(RVA = "0x6994250", Offset = "0x6993250", VA = "0x6994250")]
 	private static extern void set_textColor_Injected(IntPtr _unity_self, [In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x2F8FC40", Offset = "0x2F8E240", VA = "0x182F8FC40")]
+	[Address(RVA = "0x6994320", Offset = "0x6993320", VA = "0x6994320")]
 	private static extern void Cleanup_Injected(IntPtr _unity_self);
 }

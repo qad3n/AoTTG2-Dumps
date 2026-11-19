@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUSort
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -54,7 +54,7 @@ public struct GPUSort
 		public BufferHandle sortBufferValues;
 
 		[Token(Token = "0x6000E30")]
-		[Address(RVA = "0x2B5FDD0", Offset = "0x2B5E3D0", VA = "0x182B5FDD0")]
+		[Address(RVA = "0x654AC30", Offset = "0x6549C30", VA = "0x654AC30")]
 		[Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
 		public static RenderGraphResources Create(int count, RenderGraph renderGraph, RenderGraphBuilder builder)
 		{
@@ -62,7 +62,7 @@ public struct GPUSort
 		}
 
 		[Token(Token = "0x6000E31")]
-		[Address(RVA = "0x2B5FF00", Offset = "0x2B5E500", VA = "0x182B5FF00")]
+		[Address(RVA = "0x654AD40", Offset = "0x6549D40", VA = "0x654AD40")]
 		public static RenderGraphResources Create(int count, RenderGraph renderGraph, IBaseRenderGraphBuilder builder)
 		{
 			return default(RenderGraphResources);
@@ -81,14 +81,14 @@ public struct GPUSort
 		public GraphicsBuffer sortBufferValues;
 
 		[Token(Token = "0x6000E32")]
-		[Address(RVA = "0x2B61600", Offset = "0x2B5FC00", VA = "0x182B61600")]
+		[Address(RVA = "0x654AF20", Offset = "0x6549F20", VA = "0x654AF20")]
 		public static SupportResources Load(RenderGraphResources renderGraphResources)
 		{
 			return default(SupportResources);
 		}
 
 		[Token(Token = "0x6000E33")]
-		[Address(RVA = "0x2B612F0", Offset = "0x2B5F8F0", VA = "0x182B612F0")]
+		[Address(RVA = "0x654AFC0", Offset = "0x6549FC0", VA = "0x654AFC0")]
 		public void Dispose()
 		{
 		}
@@ -127,38 +127,38 @@ public struct GPUSort
 	private SystemResources resources;
 
 	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x2B59B90", Offset = "0x2B58190", VA = "0x182B59B90")]
+	[Address(RVA = "0x654A2F0", Offset = "0x65492F0", VA = "0x654A2F0")]
 	public GPUSort(SystemResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x2B59660", Offset = "0x2B57C60", VA = "0x182B59660")]
+	[Address(RVA = "0x654A4F0", Offset = "0x65494F0", VA = "0x654A4F0")]
 	private void DispatchStage(CommandBuffer cmd, Args args, uint h, Stage stage)
 	{
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x2B59480", Offset = "0x2B57A80", VA = "0x182B59480")]
+	[Address(RVA = "0x654A7D0", Offset = "0x65497D0", VA = "0x654A7D0")]
 	private void CopyBuffer(CommandBuffer cmd, GraphicsBuffer src, GraphicsBuffer dst)
 	{
 	}
 
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x2B107A0", Offset = "0x2B0EDA0", VA = "0x182B107A0")]
+	[Address(RVA = "0x654A9B0", Offset = "0x65499B0", VA = "0x654A9B0")]
 	internal static int DivRoundUp(int x, int y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x2B59AE0", Offset = "0x2B580E0", VA = "0x182B59AE0")]
+	[Address(RVA = "0x654A9C0", Offset = "0x65499C0", VA = "0x654A9C0")]
 	public void Dispatch(IComputeCommandBuffer cmd, Args args)
 	{
 	}
 
 	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x2B598F0", Offset = "0x2B57EF0", VA = "0x182B598F0")]
+	[Address(RVA = "0x654AA30", Offset = "0x6549A30", VA = "0x654AA30")]
 	public void Dispatch(CommandBuffer cmd, Args args)
 	{
 	}

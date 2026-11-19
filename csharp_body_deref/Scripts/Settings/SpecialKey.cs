@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000D4")]
+[Token(Token = "0x200010F")]
 public enum SpecialKey
 {
-	[Token(Token = "0x4000512")]
+	[Token(Token = "0x4000650")]
 	None,
-	[Token(Token = "0x4000513")]
+	[Token(Token = "0x4000651")]
 	WheelUp,
-	[Token(Token = "0x4000514")]
+	[Token(Token = "0x4000652")]
 	WheelDown
 }

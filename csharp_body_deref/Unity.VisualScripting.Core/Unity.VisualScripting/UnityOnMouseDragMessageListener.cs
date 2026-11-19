@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnMouseDragMessageListener : MessageListener
 {
 	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x2DBE420", Offset = "0x2DBCA20", VA = "0x182DBE420")]
+	[Address(RVA = "0x67A4BF0", Offset = "0x67A3BF0", VA = "0x67A4BF0")]
 	private void OnMouseDrag()
 	{
 	}
 
 	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4C60", Offset = "0x67A3C60", VA = "0x67A4C60")]
 	public UnityOnMouseDragMessageListener()
 	{
 	}

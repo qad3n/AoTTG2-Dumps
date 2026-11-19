@@ -230,13 +230,13 @@ public static class UniTaskObservableExtensions
 		private UniTask.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x2946760", Offset = "0x2944D60", VA = "0x182946760", Slot = "4")]
+		[Address(RVA = "0x62E3F50", Offset = "0x62E2F50", VA = "0x62E3F50", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007DD")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x62E43E0", Offset = "0x62E33E0", VA = "0x62E43E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -256,7 +256,7 @@ public static class UniTaskObservableExtensions
 	}
 
 	[Token(Token = "0x60007C7")]
-	[Address(RVA = "0x2948720", Offset = "0x2946D20", VA = "0x182948720")]
+	[Address(RVA = "0x62E3AA0", Offset = "0x62E2AA0", VA = "0x62E3AA0")]
 	public static IObservable<AsyncUnit> ToObservable(this UniTask task)
 	{
 		return null;
@@ -270,7 +270,7 @@ public static class UniTaskObservableExtensions
 	}
 
 	[Token(Token = "0x60007C9")]
-	[Address(RVA = "0x2948670", Offset = "0x2946C70", VA = "0x182948670")]
+	[Address(RVA = "0x62E3E80", Offset = "0x62E2E80", VA = "0x62E3E80")]
 	[AsyncStateMachine(typeof(_003CFire_003Ed__4))]
 	private static UniTaskVoid Fire(AsyncSubject<AsyncUnit> subject, UniTask task)
 	{

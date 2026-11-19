@@ -32,34 +32,34 @@ public class OperationResponse
 	public object this[byte parameterCode]
 	{
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x1CCE5D0", Offset = "0x1CCCBD0", VA = "0x181CCE5D0")]
+		[Address(RVA = "0x5668580", Offset = "0x5667580", VA = "0x5668580")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x1CCE610", Offset = "0x1CCCC10", VA = "0x181CCE610")]
+		[Address(RVA = "0x56685B0", Offset = "0x56675B0", VA = "0x56685B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x1CCE550", Offset = "0x1CCCB50", VA = "0x181CCE550", Slot = "3")]
+	[Address(RVA = "0x56685D0", Offset = "0x56675D0", VA = "0x56685D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x1CCE330", Offset = "0x1CCC930", VA = "0x181CCE330")]
+	[Address(RVA = "0x5668650", Offset = "0x5667650", VA = "0x5668650")]
 	public string ToStringFull()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5668850", Offset = "0x5667850", VA = "0x5668850")]
 	public OperationResponse()
 	{
 	}

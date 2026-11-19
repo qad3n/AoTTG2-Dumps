@@ -20,14 +20,14 @@ internal struct NativeArrayDisposeJob : IJob
 	[FieldOffset(Offset = "0x0")]
 	internal NativeArrayDispose Data;
 
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x2ECD8E0", Offset = "0x2ECBEE0", VA = "0x182ECD8E0", Slot = "4")]
+	[Token(Token = "0x6000131")]
+	[Address(RVA = "0x68B7B20", Offset = "0x68B6B20", VA = "0x68B7B20", Slot = "4")]
 	public void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x2ECD930", Offset = "0x2ECBF30", VA = "0x182ECD930")]
+	[Token(Token = "0x6000132")]
+	[Address(RVA = "0x68B7B60", Offset = "0x68B6B60", VA = "0x68B7B60")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RegisterNativeArrayDisposeJobReflectionData()
 	{

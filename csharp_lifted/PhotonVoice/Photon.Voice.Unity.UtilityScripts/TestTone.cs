@@ -1,0 +1,28 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.UtilityScripts.TestTone
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/UtilityScripts/TestTone.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using UnityEngine;
+
+namespace Photon.Voice.Unity.UtilityScripts;
+
+[Token(Token = "0x2000026")]
+[RequireComponent(typeof(Recorder))]
+public class TestTone : MonoBehaviour
+{
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x573F1C0", Offset = "0x573E1C0", VA = "0x573F1C0")]
+	private void Start()
+	{
+	}
+
+	[Token(Token = "0x6000153")]
+	[Address(RVA = "0x573F310", Offset = "0x573E310", VA = "0x573F310")]
+	public TestTone()
+	{
+	}
+}

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000177")]
+[Token(Token = "0x200014F")]
 [AttributeUsage(AttributeTargets.All, AllowMultiple = true)]
 internal class MonoLimitationAttribute : System.MonoTODOAttribute
 {
-	[Token(Token = "0x6000DA0")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000D7B")]
+	[Address(RVA = "0x54E99C0", Offset = "0x54E89C0", VA = "0x54E99C0")]
 	public MonoLimitationAttribute(string comment)
 	{
 	}

@@ -1,17 +1,17 @@
 // Type: CustomSkins.BaseCustomSkinLoader
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomSkins/BaseCustomSkinLoader.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomSkins/CustomSkinLoaders/BaseCustomSkinLoader.cs
 // --------------------------------
 
 // CustomSkins.BaseCustomSkinLoader$$get_AllowLocalFileTextures
 // il2cpp: bool CustomSkins_BaseCustomSkinLoader__get_AllowLocalFileTextures (CustomSkins_BaseCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x595f1d0
 
-bool
-CustomSkins_BaseCustomSkinLoader__get_AllowLocalFileTextures(CustomSkins_BaseCustomSkinLoader_o* __this, MethodInfo* method)
+bool CustomSkins_BaseCustomSkinLoader__get_AllowLocalFileTextures
+               (CustomSkins_BaseCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -20,23 +20,23 @@ CustomSkins_BaseCustomSkinLoader__get_AllowLocalFileTextures(CustomSkins_BaseCus
 
 // CustomSkins.BaseCustomSkinLoader$$Awake
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__Awake (CustomSkins_BaseCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e62b70
+// 0x595f1e0
 
 void CustomSkins_BaseCustomSkinLoader__Awake(CustomSkins_BaseCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_GameObject_o *value;
+  UnityEngine_GameObject_o *pUVar1;
   
-  value = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._owner = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,value);
+  pUVar1 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._owner = pUVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner);
   return;
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$GetCustomSkinPart
 // il2cpp: CustomSkins_BaseCustomSkinPart_o* CustomSkins_BaseCustomSkinLoader__GetCustomSkinPart (CustomSkins_BaseCustomSkinLoader_o* __this, int32_t partId, const MethodInfo* method);
-// 0x181e62c20
+// 0x595f200
 
 CustomSkins_BaseCustomSkinPart_o *
 CustomSkins_BaseCustomSkinLoader__GetCustomSkinPart
@@ -58,7 +58,7 @@ CustomSkins_BaseCustomSkinLoader__GetCustomSkinPart
 
 // CustomSkins.BaseCustomSkinLoader$$GetRendererId
 // il2cpp: System_String_o* CustomSkins_BaseCustomSkinLoader__GetRendererId (CustomSkins_BaseCustomSkinLoader_o* __this, int32_t partId, const MethodInfo* method);
-// 0x181e62c60
+// 0x595ec20
 
 System_String_o *
 CustomSkins_BaseCustomSkinLoader__GetRendererId
@@ -67,19 +67,19 @@ CustomSkins_BaseCustomSkinLoader__GetRendererId
 {
   System_String_o *pSVar1;
   System_String_o *str1;
-  int32_t local_res10 [6];
+  int32_t local_c;
   
-  local_res10[0] = partId;
+  local_c = partId;
   pSVar1 = (System_String_o *)(*(__this->klass->vtable)._4_unknown.methodPtr)();
-  str1 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969e50(pSVar1,str1,(MethodInfo *)0x0);
+  str1 = System_Int32__ToString(&local_c,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320(pSVar1,str1,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$AddRendererIfExists
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__AddRendererIfExists (CustomSkins_BaseCustomSkinLoader_o* __this, System_Collections_Generic_List_Renderer__o* renderers, UnityEngine_GameObject_o* obj, const MethodInfo* method);
-// 0x181e628e0
+// 0x595f240
 
 void CustomSkins_BaseCustomSkinLoader__AddRendererIfExists
                (CustomSkins_BaseCustomSkinLoader_o *__this,
@@ -87,39 +87,59 @@ void CustomSkins_BaseCustomSkinLoader__AddRendererIfExists
                MethodInfo *method)
 
 {
-  bool bVar1;
-  UnityEngine_Renderer_o *pUVar2;
+  int32_t *piVar1;
+  uint uVar2;
+  UnityEngine_Renderer_array *pUVar3;
+  MethodInfo *pMVar4;
+  bool bVar5;
+  UnityEngine_Renderer_o *item;
   
-  if (Il2CppMethodInitialized_184344f6a == '\0') {
+  if (Il2CppMethodInitialized_0754590b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Renderer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344f6a = '\x01';
+    Il2CppMethodInitialized_0754590b = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Inequality
+  bVar5 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)obj,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
-    return;
+  if (bVar5) {
+    if (obj != (UnityEngine_GameObject_o *)0x0) {
+      item = UnityEngine_GameObject__GetComponentInChildren_object_
+                       (obj,(MethodInfo_353B8D0 *)
+                            MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Renderer);
+      pMVar4 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+      if (renderers != (System_Collections_Generic_List_Renderer__o *)0x0) {
+        piVar1 = &(renderers->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pUVar3 = (renderers->fields)._items;
+        if (pUVar3 != (UnityEngine_Renderer_array *)0x0) {
+          uVar2 = (renderers->fields)._size;
+          if (uVar2 < (uint)pUVar3->max_length) {
+            (renderers->fields)._size = uVar2 + 1;
+            pUVar3->m_Items[(int)uVar2] = item;
+            Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
+            return;
+          }
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)item,
+                     (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+          return;
+        }
+      }
+    }
+    ThrowNullReferenceException();
   }
-  if ((obj != (UnityEngine_GameObject_o *)0x0) &&
-     (pUVar2 = UnityEngine_GameObject__GetComponentInChildren_object_
-                         (obj,(MethodInfo_6F5040 *)
-                              MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Renderer),
-     renderers != (System_Collections_Generic_List_Renderer__o *)0x0)) {
-    il2cpp_runtime_helper_180012890(renderers,pUVar2,MethodInfo_System_Collections_Generic_List_Renderer_Add);
-    return;
-  }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$AddAllRenderers
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__AddAllRenderers (CustomSkins_BaseCustomSkinLoader_o* __this, System_Collections_Generic_List_Renderer__o* renderers, UnityEngine_GameObject_o* obj, const MethodInfo* method);
-// 0x181e627e0
+// 0x595eb10
 
 void CustomSkins_BaseCustomSkinLoader__AddAllRenderers
                (CustomSkins_BaseCustomSkinLoader_o *__this,
@@ -129,66 +149,69 @@ void CustomSkins_BaseCustomSkinLoader__AddAllRenderers
 {
   int32_t *piVar1;
   uint uVar2;
-  UnityEngine_Renderer_array *pUVar3;
   UnityEngine_Renderer_o *item;
+  UnityEngine_Renderer_array *pUVar3;
   MethodInfo *pMVar4;
-  System_Object_array *pSVar5;
-  uint uVar6;
+  int iVar5;
+  System_Object_array *pSVar6;
+  ulong uVar7;
+  ulong uVar8;
   
-  if (Il2CppMethodInitialized_184344f6b == '\0') {
+  if (Il2CppMethodInitialized_0754590c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_Add);
-    Il2CppMethodInitialized_184344f6b = '\x01';
+    Il2CppMethodInitialized_0754590c = '\x01';
   }
   if (obj != (UnityEngine_GameObject_o *)0x0) {
-    pSVar5 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       (obj,(MethodInfo_6F5810 *)
+    pSVar6 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                       (obj,(MethodInfo_353C030 *)
                             MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
-    if (pSVar5 != (System_Object_array *)0x0) {
-      uVar6 = 0;
-      do {
-        pMVar4 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
-        if ((int)pSVar5->max_length <= (int)uVar6) {
-          return;
-        }
-        if ((uint)pSVar5->max_length <= uVar6) {
-label_181e628ca:
-          ThrowIndexOutOfRangeException();
-        }
-        if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) break;
-        pUVar3 = (renderers->fields)._items;
-        item = (UnityEngine_Renderer_o *)pSVar5->m_Items[(int)uVar6];
-        piVar1 = &(renderers->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        if (pUVar3 == (UnityEngine_Renderer_array *)0x0) break;
-        uVar2 = (renderers->fields)._size;
-        if (uVar2 < (uint)pUVar3->max_length) {
-          (renderers->fields)._size = uVar2 + 1;
-          if ((uint)pUVar3->max_length <= uVar2) goto label_181e628ca;
-          pUVar3->m_Items[(int)uVar2] = item;
-          Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,item);
-          uVar6 = uVar6 + 1;
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)item,
-                     (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-          uVar6 = uVar6 + 1;
-        }
-      } while( true );
+    if (pSVar6 != (System_Object_array *)0x0) {
+      iVar5 = (int)pSVar6->max_length;
+      if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) {
+        if (0 < iVar5) goto label_0595ec07;
+      }
+      else if (0 < iVar5) {
+        uVar7 = pSVar6->max_length & 0xffffffff;
+        uVar8 = 0;
+        do {
+          pMVar4 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+          if (uVar7 <= uVar8) {
+            ThrowIndexOutOfRangeException();
+          }
+          item = (UnityEngine_Renderer_o *)pSVar6->m_Items[uVar8];
+          piVar1 = &(renderers->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pUVar3 = (renderers->fields)._items;
+          if (pUVar3 == (UnityEngine_Renderer_array *)0x0) goto label_0595ec07;
+          uVar2 = (renderers->fields)._size;
+          if (uVar2 < (uint)pUVar3->max_length) {
+            (renderers->fields)._size = uVar2 + 1;
+            pUVar3->m_Items[(int)uVar2] = item;
+            Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
+          }
+          else {
+            System_Collections_Generic_List_object___AddWithResize
+                      ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)item,
+                       (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+          }
+          uVar8 = uVar8 + 1;
+          uVar2 = (uint)pSVar6->max_length;
+          uVar7 = (ulong)uVar2;
+        } while ((long)uVar8 < (long)(int)uVar2);
+      }
+      return;
     }
   }
+label_0595ec07:
   ThrowNullReferenceException();
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$AddAllRenderersIfExists
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__AddAllRenderersIfExists (CustomSkins_BaseCustomSkinLoader_o* __this, System_Collections_Generic_List_Renderer__o* renderers, UnityEngine_GameObject_o* obj, const MethodInfo* method);
-// 0x181e626a0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e6273d: nop dword ptr [rax]
-// asm:   0x181e627b5: mov rsi, qword ptr [rsp + 0x30]
+// 0x595f340
 
 void CustomSkins_BaseCustomSkinLoader__AddAllRenderersIfExists
                (CustomSkins_BaseCustomSkinLoader_o *__this,
@@ -198,62 +221,70 @@ void CustomSkins_BaseCustomSkinLoader__AddAllRenderersIfExists
 {
   int32_t *piVar1;
   uint uVar2;
+  UnityEngine_Renderer_o *item;
   UnityEngine_Renderer_array *pUVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *item;
   MethodInfo *pMVar4;
   bool bVar5;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *pUVar6;
-  uint uVar7;
+  int iVar6;
+  System_Object_array *pSVar7;
+  ulong uVar8;
+  ulong uVar9;
   
-  if (Il2CppMethodInitialized_184344f6c == '\0') {
+  if (Il2CppMethodInitialized_0754590d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_40c10c0);
+              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_71ab218);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344f6c = '\x01';
+    Il2CppMethodInitialized_0754590d = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar5 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)obj,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    if ((obj == (UnityEngine_GameObject_o *)0x0) ||
-       (pUVar6 = UnityEngine_GameObject__GetComponentsInChildren___Il2CppFullySharedGenericType_
-                           (obj,true,(MethodInfo_6F5750 *)
-                                     MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_40c10c0
-                           ), pUVar6 == (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *)0x0)) {
-label_181e627cb:
-      ThrowNullReferenceException();
-    }
-    uVar7 = 0;
-    while (pMVar4 = MethodInfo_System_Collections_Generic_List_Renderer_Add,
-          (int)uVar7 < (int)pUVar6->max_length) {
-      if ((uint)pUVar6->max_length <= uVar7) {
-label_181e627c5:
+  if (!bVar5) {
+    return;
+  }
+  if ((obj == (UnityEngine_GameObject_o *)0x0) ||
+     (pSVar7 = UnityEngine_GameObject__GetComponentsInChildren_object_
+                         (obj,true,(MethodInfo_353C0B0 *)
+                                   MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer_71ab218)
+     , pSVar7 == (System_Object_array *)0x0)) {
+label_0595f477:
+    ThrowNullReferenceException();
+  }
+  iVar6 = (int)pSVar7->max_length;
+  if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) {
+    if (0 < iVar6) goto label_0595f477;
+  }
+  else if (0 < iVar6) {
+    uVar8 = pSVar7->max_length & 0xffffffff;
+    uVar9 = 0;
+    do {
+      pMVar4 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+      if (uVar8 <= uVar9) {
         ThrowIndexOutOfRangeException();
       }
-      if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) goto label_181e627cb;
-      pUVar3 = (renderers->fields)._items;
-      item = (&pUVar6->m_Items[0].klass)[(int)uVar7];
+      item = (UnityEngine_Renderer_o *)pSVar7->m_Items[uVar9];
       piVar1 = &(renderers->fields)._version;
       *piVar1 = *piVar1 + 1;
-      if (pUVar3 == (UnityEngine_Renderer_array *)0x0) goto label_181e627cb;
+      pUVar3 = (renderers->fields)._items;
+      if (pUVar3 == (UnityEngine_Renderer_array *)0x0) goto label_0595f477;
       uVar2 = (renderers->fields)._size;
       if (uVar2 < (uint)pUVar3->max_length) {
         (renderers->fields)._size = uVar2 + 1;
-        if ((uint)pUVar3->max_length <= uVar2) goto label_181e627c5;
-        pUVar3->m_Items[(int)uVar2] = (UnityEngine_Renderer_o *)item;
-        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,item);
-        uVar7 = uVar7 + 1;
+        pUVar3->m_Items[(int)uVar2] = item;
+        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
       }
       else {
         System_Collections_Generic_List_object___AddWithResize
                   ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)item,
-                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-        uVar7 = uVar7 + 1;
+                   (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
       }
-    }
+      uVar9 = uVar9 + 1;
+      uVar2 = (uint)pSVar7->max_length;
+      uVar8 = (ulong)uVar2;
+    } while ((long)uVar9 < (long)(int)uVar2);
   }
   return;
 }
@@ -261,9 +292,7 @@ label_181e627c5:
 
 // CustomSkins.BaseCustomSkinLoader$$AddRenderersContainingName
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__AddRenderersContainingName (CustomSkins_BaseCustomSkinLoader_o* __this, System_Collections_Generic_List_Renderer__o* renderers, UnityEngine_GameObject_o* obj, System_String_o* name, const MethodInfo* method);
-// 0x181e62990
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e629ff: nop 
+// 0x595f490
 
 void CustomSkins_BaseCustomSkinLoader__AddRenderersContainingName
                (CustomSkins_BaseCustomSkinLoader_o *__this,
@@ -271,52 +300,91 @@ void CustomSkins_BaseCustomSkinLoader__AddRenderersContainingName
                System_String_o *name,MethodInfo *method)
 
 {
-  bool bVar1;
-  System_Object_array *pSVar2;
-  System_String_o *__this_00;
-  uint uVar3;
+  int32_t *piVar1;
+  UnityEngine_Object_o *__this_00;
+  UnityEngine_Renderer_array *pUVar2;
+  MethodInfo *pMVar3;
+  bool bVar4;
+  uint uVar5;
+  System_Object_array *pSVar6;
+  System_String_o *pSVar7;
+  uint uVar8;
+  long lVar9;
   
-  if (Il2CppMethodInitialized_184344f6d == '\0') {
+  if (Il2CppMethodInitialized_0754590e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_Add);
-    Il2CppMethodInitialized_184344f6d = '\x01';
+    Il2CppMethodInitialized_0754590e = '\x01';
   }
   if (obj != (UnityEngine_GameObject_o *)0x0) {
-    pSVar2 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       (obj,(MethodInfo_6F5810 *)
+    pSVar6 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                       (obj,(MethodInfo_353C030 *)
                             MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
-    if (pSVar2 != (System_Object_array *)0x0) {
-      uVar3 = 0;
-      while( true ) {
-        if ((int)pSVar2->max_length <= (int)uVar3) {
-          return;
+    if (pSVar6 != (System_Object_array *)0x0) {
+      uVar5 = (uint)pSVar6->max_length;
+      if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) {
+        if (0 < (int)uVar5) {
+          lVar9 = 0;
+          do {
+            if (uVar5 <= (uint)lVar9) goto label_0595f61b;
+            if ((UnityEngine_Object_o *)pSVar6->m_Items[lVar9] == (UnityEngine_Object_o *)0x0)
+            goto label_0595f616;
+            pSVar7 = UnityEngine_Object__get_name
+                               ((UnityEngine_Object_o *)pSVar6->m_Items[lVar9],(MethodInfo *)0x0);
+            if (pSVar7 == (System_String_o *)0x0) goto label_0595f616;
+            bVar4 = System_String__Contains(pSVar7,name,(MethodInfo *)0x0);
+            if (bVar4) goto label_0595f616;
+            uVar5 = (uint)pSVar6->max_length;
+            lVar9 = lVar9 + 1;
+          } while ((int)lVar9 < (int)uVar5);
         }
-        if ((uint)pSVar2->max_length <= uVar3) {
-          ThrowIndexOutOfRangeException();
-        }
-        if ((UnityEngine_Object_o *)pSVar2->m_Items[(int)uVar3] == (UnityEngine_Object_o *)0x0) break;
-        __this_00 = UnityEngine_Object__get_name
-                              ((UnityEngine_Object_o *)pSVar2->m_Items[(int)uVar3],(MethodInfo *)0x0);
-        if (__this_00 == (System_String_o *)0x0) break;
-        bVar1 = System_String__Contains(__this_00,name,(MethodInfo *)0x0);
-        if (bVar1) {
-          if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) break;
-          il2cpp_runtime_helper_180012890(renderers);
-        }
-        uVar3 = uVar3 + 1;
       }
+      else if (0 < (int)uVar5) {
+        uVar8 = 0;
+        do {
+          if (uVar5 <= uVar8) {
+label_0595f61b:
+            ThrowIndexOutOfRangeException();
+          }
+          __this_00 = (UnityEngine_Object_o *)pSVar6->m_Items[(int)uVar8];
+          if (__this_00 == (UnityEngine_Object_o *)0x0) goto label_0595f616;
+          pSVar7 = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+          if (pSVar7 == (System_String_o *)0x0) goto label_0595f616;
+          bVar4 = System_String__Contains(pSVar7,name,(MethodInfo *)0x0);
+          pMVar3 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+          if (bVar4) {
+            piVar1 = &(renderers->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar2 = (renderers->fields)._items;
+            if (pUVar2 == (UnityEngine_Renderer_array *)0x0) goto label_0595f616;
+            uVar5 = (renderers->fields)._size;
+            if (uVar5 < (uint)pUVar2->max_length) {
+              (renderers->fields)._size = uVar5 + 1;
+              pUVar2->m_Items[(int)uVar5] = (UnityEngine_Renderer_o *)__this_00;
+              Il2CppCodeGenWriteBarrier(pUVar2->m_Items + (int)uVar5);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)__this_00,
+                         (MethodInfo_395D230 *)pMVar3->klass->rgctx_data[0xe].method);
+            }
+          }
+          uVar8 = uVar8 + 1;
+          uVar5 = (uint)pSVar6->max_length;
+        } while ((int)uVar8 < (int)uVar5);
+      }
+      return;
     }
   }
+label_0595f616:
   ThrowNullReferenceException();
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$AddRenderersMatchingName
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__AddRenderersMatchingName (CustomSkins_BaseCustomSkinLoader_o* __this, System_Collections_Generic_List_Renderer__o* renderers, UnityEngine_GameObject_o* obj, System_String_o* name, const MethodInfo* method);
-// 0x181e62a80
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e62aef: nop 
+// 0x595f620
 
 void CustomSkins_BaseCustomSkinLoader__AddRenderersMatchingName
                (CustomSkins_BaseCustomSkinLoader_o *__this,
@@ -324,49 +392,89 @@ void CustomSkins_BaseCustomSkinLoader__AddRenderersMatchingName
                System_String_o *name,MethodInfo *method)
 
 {
-  bool bVar1;
-  System_Object_array *pSVar2;
-  System_String_o *a;
-  uint uVar3;
+  int32_t *piVar1;
+  UnityEngine_Object_o *__this_00;
+  UnityEngine_Renderer_array *pUVar2;
+  MethodInfo *pMVar3;
+  bool bVar4;
+  uint uVar5;
+  System_Object_array *pSVar6;
+  System_String_o *pSVar7;
+  uint uVar8;
+  long lVar9;
   
-  if (Il2CppMethodInitialized_184344f6e == '\0') {
+  if (Il2CppMethodInitialized_0754590f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_Add);
-    Il2CppMethodInitialized_184344f6e = '\x01';
+    Il2CppMethodInitialized_0754590f = '\x01';
   }
   if (obj != (UnityEngine_GameObject_o *)0x0) {
-    pSVar2 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       (obj,(MethodInfo_6F5810 *)
+    pSVar6 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                       (obj,(MethodInfo_353C030 *)
                             MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
-    if (pSVar2 != (System_Object_array *)0x0) {
-      uVar3 = 0;
-      do {
-        if ((int)pSVar2->max_length <= (int)uVar3) {
-          return;
+    if (pSVar6 != (System_Object_array *)0x0) {
+      uVar5 = (uint)pSVar6->max_length;
+      if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) {
+        if (0 < (int)uVar5) {
+          lVar9 = 0;
+          do {
+            if (uVar5 <= (uint)lVar9) goto label_0595f796;
+            if ((UnityEngine_Object_o *)pSVar6->m_Items[lVar9] == (UnityEngine_Object_o *)0x0)
+            goto label_0595f791;
+            pSVar7 = UnityEngine_Object__get_name
+                               ((UnityEngine_Object_o *)pSVar6->m_Items[lVar9],(MethodInfo *)0x0);
+            bVar4 = System_String__op_Equality(pSVar7,name,(MethodInfo *)0x0);
+            if (bVar4) goto label_0595f791;
+            uVar5 = (uint)pSVar6->max_length;
+            lVar9 = lVar9 + 1;
+          } while ((int)lVar9 < (int)uVar5);
         }
-        if ((uint)pSVar2->max_length <= uVar3) {
-          ThrowIndexOutOfRangeException();
-        }
-        if ((UnityEngine_Object_o *)pSVar2->m_Items[(int)uVar3] == (UnityEngine_Object_o *)0x0) break;
-        a = UnityEngine_Object__get_name
-                      ((UnityEngine_Object_o *)pSVar2->m_Items[(int)uVar3],(MethodInfo *)0x0);
-        bVar1 = System_String__op_Equality(a,name,(MethodInfo *)0x0);
-        if (bVar1) {
-          if (renderers == (System_Collections_Generic_List_Renderer__o *)0x0) break;
-          il2cpp_runtime_helper_180012890(renderers);
-        }
-        uVar3 = uVar3 + 1;
-      } while( true );
+      }
+      else if (0 < (int)uVar5) {
+        uVar8 = 0;
+        do {
+          if (uVar5 <= uVar8) {
+label_0595f796:
+            ThrowIndexOutOfRangeException();
+          }
+          __this_00 = (UnityEngine_Object_o *)pSVar6->m_Items[(int)uVar8];
+          if (__this_00 == (UnityEngine_Object_o *)0x0) goto label_0595f791;
+          pSVar7 = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+          bVar4 = System_String__op_Equality(pSVar7,name,(MethodInfo *)0x0);
+          pMVar3 = MethodInfo_System_Collections_Generic_List_Renderer_Add;
+          if (bVar4) {
+            piVar1 = &(renderers->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar2 = (renderers->fields)._items;
+            if (pUVar2 == (UnityEngine_Renderer_array *)0x0) goto label_0595f791;
+            uVar5 = (renderers->fields)._size;
+            if (uVar5 < (uint)pUVar2->max_length) {
+              (renderers->fields)._size = uVar5 + 1;
+              pUVar2->m_Items[(int)uVar5] = (UnityEngine_Renderer_o *)__this_00;
+              Il2CppCodeGenWriteBarrier(pUVar2->m_Items + (int)uVar5);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)renderers,(Il2CppObject *)__this_00,
+                         (MethodInfo_395D230 *)pMVar3->klass->rgctx_data[0xe].method);
+            }
+          }
+          uVar8 = uVar8 + 1;
+          uVar5 = (uint)pSVar6->max_length;
+        } while ((int)uVar8 < (int)uVar5);
+      }
+      return;
     }
   }
+label_0595f791:
   ThrowNullReferenceException();
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$GetCustomSkinPartIds
 // il2cpp: System_Collections_Generic_List_int__o* CustomSkins_BaseCustomSkinLoader__GetCustomSkinPartIds (CustomSkins_BaseCustomSkinLoader_o* __this, System_Type_o* t, const MethodInfo* method);
-// 0x181e62ba0
+// 0x595f7a0
 
 System_Collections_Generic_List_int__o *
 CustomSkins_BaseCustomSkinLoader__GetCustomSkinPartIds
@@ -377,50 +485,71 @@ CustomSkins_BaseCustomSkinLoader__GetCustomSkinPartIds
   System_Collections_Generic_IEnumerable_TResult__o *source_00;
   System_Collections_Generic_List_TSource__o *pSVar1;
   
-  if (Il2CppMethodInitialized_184344f6f == '\0') {
+  if (Il2CppMethodInitialized_07545910 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Cast_int);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToList_int);
-    Il2CppMethodInitialized_184344f6f = '\x01';
+    Il2CppMethodInitialized_07545910 = '\x01';
   }
-  if ((g_data_184354e58->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354e58);
+  if ((g_data_07556760->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_07556760);
   }
   source = (System_Collections_IEnumerable_o *)System_Enum__GetValues(t,(MethodInfo *)0x0);
-  source_00 = System_Linq_Enumerable__Cast_Int32Enum_
-                        (source,(MethodInfo_6B7500 *)MethodInfo_System_Linq_Enumerable_Cast_int);
+  source_00 = System_Linq_Enumerable__Cast_int_
+                        (source,(MethodInfo_34E07A0 *)MethodInfo_System_Linq_Enumerable_Cast_int);
   pSVar1 = System_Linq_Enumerable__ToList_int_
                      ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
-                      (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+                      (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
   return (System_Collections_Generic_List_int__o *)pSVar1;
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$OnDestroy
 // il2cpp: void CustomSkins_BaseCustomSkinLoader__OnDestroy (CustomSkins_BaseCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e62ca0
+// 0x595f820
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x595f83d: cmp byte ptr [rip + 0x1be6111], 0
+// asm:   0x595f844: je 0x595f896
 
 void CustomSkins_BaseCustomSkinLoader__OnDestroy
                (CustomSkins_BaseCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f70 == '\0') {
+  uint32_t uVar1;
+  
+  if (Il2CppMethodInitialized_07545911 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_TextureDownloader);
-    Il2CppMethodInitialized_184344f70 = '\x01';
+    Il2CppMethodInitialized_07545911 = '\x01';
+    uVar1 = (TypeInfo_CustomSkins_TextureDownloader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomSkins_TextureDownloader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomSkins_TextureDownloader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_TextureDownloader);
   }
-  CustomSkins_TextureDownloader__ResetConcurrentDownloads((MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_07545955 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_TextureDownloader);
+    Il2CppMethodInitialized_07545955 = '\x01';
+    uVar1 = (TypeInfo_CustomSkins_TextureDownloader->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (((Il2CppClass *)TypeInfo_CustomSkins_TextureDownloader)->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_TextureDownloader);
+    TypeInfo_CustomSkins_TextureDownloader->static_fields->CurrentConcurrentDownloads = 0;
+    return;
+  }
+  *(undefined4 *)((long)((Il2CppClass *)TypeInfo_CustomSkins_TextureDownloader)->static_fields + 0x18) = 0;
   return;
 }
 
 
 // CustomSkins.BaseCustomSkinLoader$$.ctor
 // il2cpp: void CustomSkins_BaseCustomSkinLoader___ctor (CustomSkins_BaseCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x180528540
+// 0x595edb0
 
-void
-CustomSkins_BaseCustomSkinLoader___ctor(CustomSkins_BaseCustomSkinLoader_o* __this, MethodInfo* method)
+void CustomSkins_BaseCustomSkinLoader___ctor(CustomSkins_BaseCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
@@ -430,19 +559,18 @@ CustomSkins_BaseCustomSkinLoader___ctor(CustomSkins_BaseCustomSkinLoader_o* __th
 
 // CustomSkins.BaseCustomSkinLoader$$.cctor
 // il2cpp: void CustomSkins_BaseCustomSkinLoader___cctor (const MethodInfo* method);
-// 0x181e62ce0
+// 0x595f940
 
 void CustomSkins_BaseCustomSkinLoader___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f71 == '\0') {
+  if (Il2CppMethodInitialized_07545912 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_BaseCustomSkinLoader);
     il2cpp_codegen_initialize_runtime_metadata(&"transparent");
-    Il2CppMethodInitialized_184344f71 = '\x01';
+    Il2CppMethodInitialized_07545912 = '\x01';
   }
   TypeInfo_CustomSkins_BaseCustomSkinLoader->static_fields->TransparentURL = "transparent";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomSkins_BaseCustomSkinLoader->static_fields->TransparentURL,"transparent");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomSkins_BaseCustomSkinLoader->static_fields->TransparentURL);
   return;
 }
 

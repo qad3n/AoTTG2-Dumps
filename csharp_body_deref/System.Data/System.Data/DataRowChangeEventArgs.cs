@@ -24,7 +24,7 @@ public class DataRowChangeEventArgs : EventArgs
 	private readonly DataRowAction _003CAction_003Ek__BackingField;
 
 	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x24F43A0", Offset = "0x24F29A0", VA = "0x1824F43A0")]
+	[Address(RVA = "0x5EA0160", Offset = "0x5E9F160", VA = "0x5EA0160")]
 	public DataRowChangeEventArgs(DataRow row, DataRowAction action)
 	{
 	}

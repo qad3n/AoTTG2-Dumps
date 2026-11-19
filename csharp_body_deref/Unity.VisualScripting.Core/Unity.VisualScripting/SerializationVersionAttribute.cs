@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public class SerializationVersionAttribute : fsObjectAttribute
 {
 	[Token(Token = "0x6000FA8")]
-	[Address(RVA = "0x2E3A950", Offset = "0x2E38F50", VA = "0x182E3A950")]
+	[Address(RVA = "0x6846970", Offset = "0x6845970", VA = "0x6846970")]
 	public SerializationVersionAttribute(string versionString, params Type[] previousModels)
 	{
 	}

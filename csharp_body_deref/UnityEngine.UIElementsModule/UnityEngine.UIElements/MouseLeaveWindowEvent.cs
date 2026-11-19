@@ -14,44 +14,44 @@ namespace UnityEngine.UIElements;
 public class MouseLeaveWindowEvent : MouseEventBase<MouseLeaveWindowEvent>
 {
 	[Token(Token = "0x6000DB5")]
-	[Address(RVA = "0x3268750", Offset = "0x3266D50", VA = "0x183268750")]
+	[Address(RVA = "0x6C6A350", Offset = "0x6C69350", VA = "0x6C6A350")]
 	static MouseLeaveWindowEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DB6")]
-	[Address(RVA = "0x3268580", Offset = "0x3266B80", VA = "0x183268580", Slot = "13")]
+	[Address(RVA = "0x6C6A420", Offset = "0x6C69420", VA = "0x6C6A420", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000DB7")]
-	[Address(RVA = "0x32685F0", Offset = "0x3266BF0", VA = "0x1832685F0")]
+	[Address(RVA = "0x6C6A480", Offset = "0x6C69480", VA = "0x6C6A480")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000DB8")]
-	[Address(RVA = "0x3268830", Offset = "0x3266E30", VA = "0x183268830")]
+	[Address(RVA = "0x6C6A4B0", Offset = "0x6C694B0", VA = "0x6C6A4B0")]
 	public MouseLeaveWindowEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DB9")]
-	[Address(RVA = "0x3268470", Offset = "0x3266A70", VA = "0x183268470")]
+	[Address(RVA = "0x6C6A510", Offset = "0x6C69510", VA = "0x6C6A510")]
 	public new static MouseLeaveWindowEvent GetPooled(Event systemEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DBA")]
-	[Address(RVA = "0x3268640", Offset = "0x3266C40", VA = "0x183268640", Slot = "9")]
+	[Address(RVA = "0x6C6A6D0", Offset = "0x6C696D0", VA = "0x6C6A6D0", Slot = "9")]
 	protected internal override void PostDispatch(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000DBB")]
-	[Address(RVA = "0x3268310", Offset = "0x3266910", VA = "0x183268310", Slot = "10")]
+	[Address(RVA = "0x6C6A7B0", Offset = "0x6C697B0", VA = "0x6C6A7B0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

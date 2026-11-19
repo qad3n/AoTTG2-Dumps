@@ -18,49 +18,49 @@ public class KeyboardNavigationManipulator : Manipulator
 	private readonly Action<KeyboardNavigationOperation, EventBase> m_Action;
 
 	[Token(Token = "0x600119F")]
-	[Address(RVA = "0x19FFAE0", Offset = "0x19FE0E0", VA = "0x1819FFAE0")]
+	[Address(RVA = "0x6CB1730", Offset = "0x6CB0730", VA = "0x6CB1730")]
 	public KeyboardNavigationManipulator(Action<KeyboardNavigationOperation, EventBase> action)
 	{
 	}
 
 	[Token(Token = "0x60011A0")]
-	[Address(RVA = "0x32AE540", Offset = "0x32ACB40", VA = "0x1832AE540", Slot = "5")]
+	[Address(RVA = "0x6CB1770", Offset = "0x6CB0770", VA = "0x6CB1770", Slot = "5")]
 	protected override void RegisterCallbacksOnTarget()
 	{
 	}
 
 	[Token(Token = "0x60011A1")]
-	[Address(RVA = "0x32AE820", Offset = "0x32ACE20", VA = "0x1832AE820", Slot = "6")]
+	[Address(RVA = "0x6CB1970", Offset = "0x6CB0970", VA = "0x6CB1970", Slot = "6")]
 	protected override void UnregisterCallbacksFromTarget()
 	{
 	}
 
 	[Token(Token = "0x60011A2")]
-	[Address(RVA = "0x32AE330", Offset = "0x32AC930", VA = "0x1832AE330")]
+	[Address(RVA = "0x6CB1B60", Offset = "0x6CB0B60", VA = "0x6CB1B60")]
 	internal void OnKeyDown(KeyDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60011A3")]
-	[Address(RVA = "0x32AE440", Offset = "0x32ACA40", VA = "0x1832AE440")]
+	[Address(RVA = "0x6CB1C70", Offset = "0x6CB0C70", VA = "0x6CB1C70")]
 	private void OnNavigationCancel(NavigationCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60011A4")]
-	[Address(RVA = "0x32AE520", Offset = "0x32ACB20", VA = "0x1832AE520")]
+	[Address(RVA = "0x6CB1CA0", Offset = "0x6CB0CA0", VA = "0x6CB1CA0")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60011A5")]
-	[Address(RVA = "0x32AE460", Offset = "0x32ACA60", VA = "0x1832AE460")]
+	[Address(RVA = "0x6CB1CD0", Offset = "0x6CB0CD0", VA = "0x6CB1CD0")]
 	private void OnNavigationMove(NavigationMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60011A6")]
-	[Address(RVA = "0x321D0B0", Offset = "0x321B6B0", VA = "0x18321D0B0")]
+	[Address(RVA = "0x6CB1C50", Offset = "0x6CB0C50", VA = "0x6CB1C50")]
 	private void Invoke(KeyboardNavigationOperation operation, EventBase evt)
 	{
 	}

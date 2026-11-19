@@ -13,7 +13,7 @@ namespace UnityEngine.UIElements;
 public abstract class DropdownMenuItem
 {
 	[Token(Token = "0x6000BA2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C5C5C0", Offset = "0x6C5B5C0", VA = "0x6C5C5C0")]
 	protected DropdownMenuItem()
 	{
 	}

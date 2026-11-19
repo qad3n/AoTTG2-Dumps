@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System.Security;
 
 [Serializable]
-[Token(Token = "0x20002CE")]
+[Token(Token = "0x20002A7")]
 public sealed class XmlSyntaxException : SystemException
 {
-	[Token(Token = "0x60017CA")]
-	[Address(RVA = "0x19A1CF0", Offset = "0x19A02F0", VA = "0x1819A1CF0")]
+	[Token(Token = "0x60017A7")]
+	[Address(RVA = "0x5326020", Offset = "0x5325020", VA = "0x5326020")]
 	public XmlSyntaxException()
 	{
 	}
 
-	[Token(Token = "0x60017CB")]
-	[Address(RVA = "0x19A1CF0", Offset = "0x19A02F0", VA = "0x1819A1CF0")]
+	[Token(Token = "0x60017A8")]
+	[Address(RVA = "0x5326030", Offset = "0x5325030", VA = "0x5326030")]
 	public XmlSyntaxException(int lineNumber)
 	{
 	}
 
-	[Token(Token = "0x60017CC")]
-	[Address(RVA = "0x19A1CF0", Offset = "0x19A02F0", VA = "0x1819A1CF0")]
+	[Token(Token = "0x60017A9")]
+	[Address(RVA = "0x5326040", Offset = "0x5325040", VA = "0x5326040")]
 	public XmlSyntaxException(int lineNumber, string message)
 	{
 	}
 
-	[Token(Token = "0x60017CD")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60017AA")]
+	[Address(RVA = "0x5326050", Offset = "0x5325050", VA = "0x5326050")]
 	private XmlSyntaxException(SerializationInfo info, StreamingContext context)
 	{
 	}

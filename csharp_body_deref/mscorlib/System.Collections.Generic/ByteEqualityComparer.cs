@@ -10,53 +10,53 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000649")]
+[Token(Token = "0x2000624")]
 internal class ByteEqualityComparer : EqualityComparer<byte>
 {
-	[Token(Token = "0x600303C")]
-	[Address(RVA = "0x1ACD240", Offset = "0x1ACB840", VA = "0x181ACD240", Slot = "8")]
+	[Token(Token = "0x600301B")]
+	[Address(RVA = "0x5461A70", Offset = "0x5460A70", VA = "0x5461A70", Slot = "8")]
 	public override bool Equals(byte x, byte y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600303D")]
-	[Address(RVA = "0xB22240", Offset = "0xB20840", VA = "0x180B22240", Slot = "9")]
+	[Token(Token = "0x600301C")]
+	[Address(RVA = "0x5461A80", Offset = "0x5460A80", VA = "0x5461A80", Slot = "9")]
 	public override int GetHashCode(byte b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600303E")]
-	[Address(RVA = "0x1ACD320", Offset = "0x1ACB920", VA = "0x181ACD320", Slot = "10")]
+	[Token(Token = "0x600301D")]
+	[Address(RVA = "0x5461AA0", Offset = "0x5460AA0", VA = "0x5461AA0", Slot = "10")]
 	internal override int IndexOf(byte[] array, byte value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600303F")]
-	[Address(RVA = "0x1ACD520", Offset = "0x1ACBB20", VA = "0x181ACD520", Slot = "11")]
+	[Token(Token = "0x600301E")]
+	[Address(RVA = "0x5461C30", Offset = "0x5460C30", VA = "0x5461C30", Slot = "11")]
 	internal override int LastIndexOf(byte[] array, byte value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003040")]
-	[Address(RVA = "0x1ACD250", Offset = "0x1ACB850", VA = "0x181ACD250", Slot = "0")]
+	[Token(Token = "0x600301F")]
+	[Address(RVA = "0x5461C80", Offset = "0x5460C80", VA = "0x5461C80", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003041")]
-	[Address(RVA = "0x1ACD2D0", Offset = "0x1ACB8D0", VA = "0x181ACD2D0", Slot = "2")]
+	[Token(Token = "0x6003020")]
+	[Address(RVA = "0x5461CE0", Offset = "0x5460CE0", VA = "0x5461CE0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003042")]
-	[Address(RVA = "0x1ACD570", Offset = "0x1ACBB70", VA = "0x181ACD570")]
+	[Token(Token = "0x6003021")]
+	[Address(RVA = "0x5461D30", Offset = "0x5460D30", VA = "0x5461D30")]
 	public ByteEqualityComparer()
 	{
 	}

@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005B6")]
+[Token(Token = "0x20005A1")]
 [Flags]
 internal enum RenderDataDirtyTypes
 {
-	[Token(Token = "0x4001497")]
+	[Token(Token = "0x40013D9")]
 	None = 0,
-	[Token(Token = "0x4001498")]
+	[Token(Token = "0x40013DA")]
 	Transform = 1,
-	[Token(Token = "0x4001499")]
+	[Token(Token = "0x40013DB")]
 	ClipRectSize = 2,
-	[Token(Token = "0x400149A")]
+	[Token(Token = "0x40013DC")]
 	Clipping = 4,
-	[Token(Token = "0x400149B")]
+	[Token(Token = "0x40013DD")]
 	ClippingHierarchy = 8,
-	[Token(Token = "0x400149C")]
+	[Token(Token = "0x40013DE")]
 	Visuals = 0x10,
-	[Token(Token = "0x400149D")]
+	[Token(Token = "0x40013DF")]
 	VisualsHierarchy = 0x20,
-	[Token(Token = "0x400149E")]
+	[Token(Token = "0x40013E0")]
 	VisualsOpacityId = 0x40,
-	[Token(Token = "0x400149F")]
+	[Token(Token = "0x40013E1")]
 	Opacity = 0x80,
-	[Token(Token = "0x40014A0")]
+	[Token(Token = "0x40013E2")]
 	OpacityHierarchy = 0x100,
-	[Token(Token = "0x40014A1")]
+	[Token(Token = "0x40013E3")]
 	Color = 0x200,
-	[Token(Token = "0x40014A2")]
+	[Token(Token = "0x40013E4")]
 	AllVisuals = Visuals | VisualsHierarchy | VisualsOpacityId
 }

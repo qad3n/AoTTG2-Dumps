@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000351")]
+[Token(Token = "0x200032A")]
 internal static class CryptoConfigForwarder
 {
-	[Token(Token = "0x6001BE8")]
-	[Address(RVA = "0x19D9E30", Offset = "0x19D8430", VA = "0x1819D9E30")]
+	[Token(Token = "0x6001BC5")]
+	[Address(RVA = "0x53625D0", Offset = "0x53615D0", VA = "0x53625D0")]
 	internal static object CreateFromName(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BE9")]
-	[Address(RVA = "0x19D9D00", Offset = "0x19D8300", VA = "0x1819D9D00")]
+	[Token(Token = "0x6001BC6")]
+	[Address(RVA = "0x5362640", Offset = "0x5361640", VA = "0x5362640")]
 	internal static HashAlgorithm CreateDefaultHashAlgorithm()
 	{
 		return null;

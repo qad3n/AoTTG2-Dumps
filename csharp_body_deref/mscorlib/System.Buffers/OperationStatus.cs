@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x200065B")]
+[Token(Token = "0x2000636")]
 public enum OperationStatus
 {
-	[Token(Token = "0x400198B")]
+	[Token(Token = "0x40018F2")]
 	Done,
-	[Token(Token = "0x400198C")]
+	[Token(Token = "0x40018F3")]
 	DestinationTooSmall,
-	[Token(Token = "0x400198D")]
+	[Token(Token = "0x40018F4")]
 	NeedMoreData,
-	[Token(Token = "0x400198E")]
+	[Token(Token = "0x40018F5")]
 	InvalidData
 }

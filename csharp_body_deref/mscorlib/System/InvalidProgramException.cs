@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000107")]
+[Token(Token = "0x20000DF")]
 public sealed class InvalidProgramException : SystemException
 {
-	[Token(Token = "0x6000853")]
-	[Address(RVA = "0x1B2AEE0", Offset = "0x1B294E0", VA = "0x181B2AEE0")]
+	[Token(Token = "0x600082E")]
+	[Address(RVA = "0x54B9AD0", Offset = "0x54B8AD0", VA = "0x54B9AD0")]
 	public InvalidProgramException()
 	{
 	}
 
-	[Token(Token = "0x6000854")]
-	[Address(RVA = "0x1B2AF30", Offset = "0x1B29530", VA = "0x181B2AF30")]
+	[Token(Token = "0x600082F")]
+	[Address(RVA = "0x54B9B10", Offset = "0x54B8B10", VA = "0x54B9B10")]
 	public InvalidProgramException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000855")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x6000830")]
+	[Address(RVA = "0x54B9B30", Offset = "0x54B8B30", VA = "0x54B9B30")]
 	internal InvalidProgramException(SerializationInfo info, StreamingContext context)
 	{
 	}

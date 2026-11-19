@@ -11,43 +11,43 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000198")]
+[Token(Token = "0x2000199")]
 [UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 internal struct EnumData
 {
-	[Token(Token = "0x4000603")]
+	[Token(Token = "0x4000608")]
 	[FieldOffset(Offset = "0x0")]
 	public Enum[] values;
 
-	[Token(Token = "0x4000604")]
+	[Token(Token = "0x4000609")]
 	[FieldOffset(Offset = "0x8")]
 	public int[] flagValues;
 
-	[Token(Token = "0x4000605")]
+	[Token(Token = "0x400060A")]
 	[FieldOffset(Offset = "0x10")]
 	public string[] displayNames;
 
-	[Token(Token = "0x4000606")]
+	[Token(Token = "0x400060B")]
 	[FieldOffset(Offset = "0x18")]
 	public string[] names;
 
-	[Token(Token = "0x4000607")]
+	[Token(Token = "0x400060C")]
 	[FieldOffset(Offset = "0x20")]
 	public string[] tooltip;
 
-	[Token(Token = "0x4000608")]
+	[Token(Token = "0x400060D")]
 	[FieldOffset(Offset = "0x28")]
 	public bool flags;
 
-	[Token(Token = "0x4000609")]
+	[Token(Token = "0x400060E")]
 	[FieldOffset(Offset = "0x30")]
 	public Type underlyingType;
 
-	[Token(Token = "0x400060A")]
+	[Token(Token = "0x400060F")]
 	[FieldOffset(Offset = "0x38")]
 	public bool unsigned;
 
-	[Token(Token = "0x400060B")]
+	[Token(Token = "0x4000610")]
 	[FieldOffset(Offset = "0x39")]
 	public bool serializable;
 }

@@ -13,46 +13,46 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002AD")]
+[Token(Token = "0x200030A")]
 internal static class AottgGuildPresetVisual
 {
-	[Token(Token = "0x60010B2")]
-	[Address(RVA = "0x1E14260", Offset = "0x1E12860", VA = "0x181E14260")]
+	[Token(Token = "0x6001303")]
+	[Address(RVA = "0x57E0030", Offset = "0x57DF030", VA = "0x57E0030")]
 	public static bool IsPreset(string presetId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B3")]
-	[Address(RVA = "0x1E14220", Offset = "0x1E12820", VA = "0x181E14220")]
+	[Token(Token = "0x6001304")]
+	[Address(RVA = "0x57F7200", Offset = "0x57F6200", VA = "0x57F7200")]
 	public static bool IsImagePreset(string presetId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B4")]
-	[Address(RVA = "0x1E13A90", Offset = "0x1E12090", VA = "0x181E13A90")]
+	[Token(Token = "0x6001305")]
+	[Address(RVA = "0x57E04F0", Offset = "0x57DF4F0", VA = "0x57E04F0")]
 	public static bool ApplyText(TMP_Text label, ref NameEffectController effect, string presetId, string fallback, Color color)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B5")]
-	[Address(RVA = "0x1E13ED0", Offset = "0x1E124D0", VA = "0x181E13ED0")]
+	[Token(Token = "0x6001306")]
+	[Address(RVA = "0x57F7570", Offset = "0x57F6570", VA = "0x57F7570")]
 	public static Image EnsureImage(Transform parent, ref Image image, string name, float height)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010B6")]
-	[Address(RVA = "0x1E13810", Offset = "0x1E11E10", VA = "0x181E13810")]
+	[Token(Token = "0x6001307")]
+	[Address(RVA = "0x57E0170", Offset = "0x57DF170", VA = "0x57E0170")]
 	public static bool ApplyImage(Image image, string presetId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B7")]
-	[Address(RVA = "0x1E13DD0", Offset = "0x1E123D0", VA = "0x181E13DD0")]
+	[Token(Token = "0x6001308")]
+	[Address(RVA = "0x57E0060", Offset = "0x57DF060", VA = "0x57E0060")]
 	public static void ClearEffect(TMP_Text label, ref NameEffectController effect, Color color)
 	{
 	}

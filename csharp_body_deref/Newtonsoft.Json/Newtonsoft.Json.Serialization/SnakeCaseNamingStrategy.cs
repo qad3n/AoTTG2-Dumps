@@ -13,25 +13,25 @@ namespace Newtonsoft.Json.Serialization;
 public class SnakeCaseNamingStrategy : NamingStrategy
 {
 	[Token(Token = "0x6000997")]
-	[Address(RVA = "0x1C6B900", Offset = "0x1C69F00", VA = "0x181C6B900")]
+	[Address(RVA = "0x55EC420", Offset = "0x55EB420", VA = "0x55EC420")]
 	public SnakeCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames)
 	{
 	}
 
 	[Token(Token = "0x6000998")]
-	[Address(RVA = "0x1C6B8C0", Offset = "0x1C69EC0", VA = "0x181C6B8C0")]
+	[Address(RVA = "0x55EC440", Offset = "0x55EB440", VA = "0x55EC440")]
 	public SnakeCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames)
 	{
 	}
 
 	[Token(Token = "0x6000999")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x55EC470", Offset = "0x55EB470", VA = "0x55EC470")]
 	public SnakeCaseNamingStrategy()
 	{
 	}
 
 	[Token(Token = "0x600099A")]
-	[Address(RVA = "0x1C6C760", Offset = "0x1C6AD60", VA = "0x181C6C760", Slot = "7")]
+	[Address(RVA = "0x55EC480", Offset = "0x55EB480", VA = "0x55EC480", Slot = "7")]
 	protected override string ResolvePropertyName(string name)
 	{
 		return null;

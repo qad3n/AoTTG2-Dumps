@@ -19,7 +19,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public string warningTitle
 	{
 		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6793520", Offset = "0x6792520", VA = "0x6793520")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,7 +31,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public string warningMessage
 	{
 		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6793530", Offset = "0x6792530", VA = "0x6793530")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,7 +43,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public object[] emptyValues
 	{
 		[Token(Token = "0x6000218")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6793540", Offset = "0x6792540", VA = "0x6793540")]
 		[CompilerGenerated]
 		get
 		{
@@ -52,13 +52,13 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Address(RVA = "0x6793480", Offset = "0x6792480", VA = "0x6793480")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage)
 	{
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x2DBF5E0", Offset = "0x2DBDBE0", VA = "0x182DBF5E0")]
+	[Address(RVA = "0x67934C0", Offset = "0x67924C0", VA = "0x67934C0")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage, params object[] emptyValues)
 	{
 	}

@@ -25,7 +25,7 @@ internal class Operand : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B7D")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
+		[Address(RVA = "0x6089020", Offset = "0x6088020", VA = "0x6089020", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -36,7 +36,7 @@ internal class Operand : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B7E")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "5")]
+		[Address(RVA = "0x6089030", Offset = "0x6088030", VA = "0x6089030", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -47,7 +47,7 @@ internal class Operand : AstNode
 	public object OperandValue
 	{
 		[Token(Token = "0x6001B7F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6089040", Offset = "0x6088040", VA = "0x6089040")]
 		get
 		{
 			return null;
@@ -55,13 +55,13 @@ internal class Operand : AstNode
 	}
 
 	[Token(Token = "0x6001B7B")]
-	[Address(RVA = "0x26C1520", Offset = "0x26BFB20", VA = "0x1826C1520")]
+	[Address(RVA = "0x6088F80", Offset = "0x6087F80", VA = "0x6088F80")]
 	public Operand(string val)
 	{
 	}
 
 	[Token(Token = "0x6001B7C")]
-	[Address(RVA = "0x26C1560", Offset = "0x26BFB60", VA = "0x1826C1560")]
+	[Address(RVA = "0x6088FC0", Offset = "0x6087FC0", VA = "0x6088FC0")]
 	public Operand(double val)
 	{
 	}

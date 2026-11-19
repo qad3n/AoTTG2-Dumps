@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncOnCanvasGroupChangedTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000AD4")]
-	[Address(RVA = "0x2933180", Offset = "0x2931780", VA = "0x182933180")]
+	[Address(RVA = "0x62F8D40", Offset = "0x62F7D40", VA = "0x62F8D40")]
 	private void OnCanvasGroupChanged()
 	{
 	}
 
 	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x2932E70", Offset = "0x2931470", VA = "0x182932E70")]
+	[Address(RVA = "0x62F8DB0", Offset = "0x62F7DB0", VA = "0x62F8DB0")]
 	public IAsyncOnCanvasGroupChangedHandler GetOnCanvasGroupChangedAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x2932EE0", Offset = "0x29314E0", VA = "0x182932EE0")]
+	[Address(RVA = "0x62F8E20", Offset = "0x62F7E20", VA = "0x62F8E20")]
 	public IAsyncOnCanvasGroupChangedHandler GetOnCanvasGroupChangedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x2933070", Offset = "0x2931670", VA = "0x182933070")]
+	[Address(RVA = "0x62F8E90", Offset = "0x62F7E90", VA = "0x62F8E90")]
 	public UniTask OnCanvasGroupChangedAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x2932F60", Offset = "0x2931560", VA = "0x182932F60")]
+	[Address(RVA = "0x62F8F80", Offset = "0x62F7F80", VA = "0x62F8F80")]
 	public UniTask OnCanvasGroupChangedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x29331F0", Offset = "0x29317F0", VA = "0x1829331F0")]
+	[Address(RVA = "0x62F9070", Offset = "0x62F8070", VA = "0x62F9070")]
 	public AsyncOnCanvasGroupChangedTrigger()
 	{
 	}

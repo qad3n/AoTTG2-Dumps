@@ -14,7 +14,7 @@ namespace Newtonsoft.Json.Serialization;
 public class JsonLinqContract : JsonContract
 {
 	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x1C42E30", Offset = "0x1C41430", VA = "0x181C42E30")]
+	[Address(RVA = "0x55CAE40", Offset = "0x55C9E40", VA = "0x55CAE40")]
 	public JsonLinqContract(Type underlyingType)
 	{
 	}

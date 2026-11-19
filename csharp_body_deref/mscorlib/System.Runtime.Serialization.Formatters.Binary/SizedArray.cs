@@ -10,60 +10,60 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization.Formatters.Binary;
 
 [Serializable]
-[Token(Token = "0x2000457")]
+[Token(Token = "0x2000430")]
 internal sealed class SizedArray : ICloneable
 {
-	[Token(Token = "0x4001204")]
+	[Token(Token = "0x4001164")]
 	[FieldOffset(Offset = "0x10")]
 	internal object[] objects;
 
-	[Token(Token = "0x4001205")]
+	[Token(Token = "0x4001165")]
 	[FieldOffset(Offset = "0x18")]
 	internal object[] negObjects;
 
-	[Token(Token = "0x1700045B")]
+	[Token(Token = "0x1700045A")]
 	internal object this[int index]
 	{
-		[Token(Token = "0x60021FF")]
-		[Address(RVA = "0x1A37CC0", Offset = "0x1A362C0", VA = "0x181A37CC0")]
+		[Token(Token = "0x60021D5")]
+		[Address(RVA = "0x53C1640", Offset = "0x53C0640", VA = "0x53C1640")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002200")]
-		[Address(RVA = "0x1A37D30", Offset = "0x1A36330", VA = "0x181A37D30")]
+		[Token(Token = "0x60021D6")]
+		[Address(RVA = "0x53C1530", Offset = "0x53C0530", VA = "0x53C1530")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60021FB")]
-	[Address(RVA = "0x1A37AE0", Offset = "0x1A360E0", VA = "0x181A37AE0")]
+	[Token(Token = "0x60021D1")]
+	[Address(RVA = "0x53BC550", Offset = "0x53BB550", VA = "0x53BC550")]
 	internal SizedArray()
 	{
 	}
 
-	[Token(Token = "0x60021FC")]
-	[Address(RVA = "0x1A37B60", Offset = "0x1A36160", VA = "0x181A37B60")]
+	[Token(Token = "0x60021D2")]
+	[Address(RVA = "0x53BC6B0", Offset = "0x53BB6B0", VA = "0x53BC6B0")]
 	internal SizedArray(int length)
 	{
 	}
 
-	[Token(Token = "0x60021FD")]
-	[Address(RVA = "0x1A37BE0", Offset = "0x1A361E0", VA = "0x181A37BE0")]
+	[Token(Token = "0x60021D3")]
+	[Address(RVA = "0x53C2B20", Offset = "0x53C1B20", VA = "0x53C2B20")]
 	private SizedArray(System.Runtime.Serialization.Formatters.Binary.SizedArray sizedArray)
 	{
 	}
 
-	[Token(Token = "0x60021FE")]
-	[Address(RVA = "0x1A37810", Offset = "0x1A35E10", VA = "0x181A37810", Slot = "4")]
+	[Token(Token = "0x60021D4")]
+	[Address(RVA = "0x53C2C00", Offset = "0x53C1C00", VA = "0x53C2C00", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002201")]
-	[Address(RVA = "0x1A37910", Offset = "0x1A35F10", VA = "0x181A37910")]
+	[Token(Token = "0x60021D7")]
+	[Address(RVA = "0x53C2C50", Offset = "0x53C1C50", VA = "0x53C2C50")]
 	internal void IncreaseCapacity(int index)
 	{
 	}

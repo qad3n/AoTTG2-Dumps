@@ -12,24 +12,24 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000108")]
+[Token(Token = "0x20000E0")]
 [TypeForwardedFrom("System.Core, Version=2.0.5.0, Culture=Neutral, PublicKeyToken=7cec85d7bea7798e")]
 public class InvalidTimeZoneException : Exception
 {
-	[Token(Token = "0x6000856")]
-	[Address(RVA = "0x1B2AFB0", Offset = "0x1B295B0", VA = "0x181B2AFB0")]
+	[Token(Token = "0x6000831")]
+	[Address(RVA = "0x54B9B40", Offset = "0x54B8B40", VA = "0x54B9B40")]
 	public InvalidTimeZoneException()
 	{
 	}
 
-	[Token(Token = "0x6000857")]
-	[Address(RVA = "0x1B2AF50", Offset = "0x1B29550", VA = "0x181B2AF50")]
+	[Token(Token = "0x6000832")]
+	[Address(RVA = "0x54B9BB0", Offset = "0x54B8BB0", VA = "0x54B9BB0")]
 	public InvalidTimeZoneException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000858")]
-	[Address(RVA = "0x1B2B000", Offset = "0x1B29600", VA = "0x181B2B000")]
+	[Token(Token = "0x6000833")]
+	[Address(RVA = "0x54B9C10", Offset = "0x54B8C10", VA = "0x54B9C10")]
 	protected InvalidTimeZoneException(SerializationInfo info, StreamingContext context)
 	{
 	}

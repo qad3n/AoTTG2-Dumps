@@ -15,19 +15,19 @@ namespace System.Data;
 public class DeletedRowInaccessibleException : DataException
 {
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BB80", Offset = "0x5E6AB80", VA = "0x5E6BB80")]
 	protected DeletedRowInaccessibleException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x24D4A20", Offset = "0x24D3020", VA = "0x1824D4A20")]
+	[Address(RVA = "0x5E6BB90", Offset = "0x5E6AB90", VA = "0x5E6BB90")]
 	public DeletedRowInaccessibleException()
 	{
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x24D4A70", Offset = "0x24D3070", VA = "0x1824D4A70")]
+	[Address(RVA = "0x5E6BBD0", Offset = "0x5E6ABD0", VA = "0x5E6BBD0")]
 	public DeletedRowInaccessibleException(string s)
 	{
 	}

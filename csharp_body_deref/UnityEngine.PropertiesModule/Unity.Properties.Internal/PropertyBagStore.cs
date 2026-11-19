@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.Internal.PropertyBagStore
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,7 +39,7 @@ internal static class PropertyBagStore
 	private static ReflectedPropertyBagProvider ReflectedPropertyBagProvider
 	{
 		[Token(Token = "0x600026D")]
-		[Address(RVA = "0x2FED570", Offset = "0x2FEBB70", VA = "0x182FED570")]
+		[Address(RVA = "0x69EF960", Offset = "0x69EE960", VA = "0x69EF960")]
 		get
 		{
 			return null;
@@ -47,7 +47,7 @@ internal static class PropertyBagStore
 	}
 
 	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x2FECDC0", Offset = "0x2FEB3C0", VA = "0x182FECDC0")]
+	[Address(RVA = "0x69EC920", Offset = "0x69EB920", VA = "0x69EC920")]
 	internal static void CreatePropertyBagProvider()
 	{
 	}
@@ -64,7 +64,7 @@ internal static class PropertyBagStore
 	}
 
 	[Token(Token = "0x6000271")]
-	[Address(RVA = "0x2FECE50", Offset = "0x2FEB450", VA = "0x182FECE50")]
+	[Address(RVA = "0x69E9890", Offset = "0x69E8890", VA = "0x69E9890")]
 	internal static IPropertyBag GetPropertyBag(Type type)
 	{
 		return null;

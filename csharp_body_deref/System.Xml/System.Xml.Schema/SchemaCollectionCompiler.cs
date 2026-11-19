@@ -30,419 +30,419 @@ internal sealed class SchemaCollectionCompiler : BaseProcessor
 	private XmlSchema schema;
 
 	[Token(Token = "0x60012FA")]
-	[Address(RVA = "0x262ECF0", Offset = "0x262D2F0", VA = "0x18262ECF0")]
+	[Address(RVA = "0x5FD8DC0", Offset = "0x5FD7DC0", VA = "0x5FD8DC0")]
 	public SchemaCollectionCompiler(XmlNameTable nameTable, ValidationEventHandler eventHandler)
 	{
 	}
 
 	[Token(Token = "0x60012FB")]
-	[Address(RVA = "0x262B780", Offset = "0x2629D80", VA = "0x18262B780")]
+	[Address(RVA = "0x5FD8E80", Offset = "0x5FD7E80", VA = "0x5FD8E80")]
 	public bool Execute(XmlSchema schema, SchemaInfo schemaInfo, bool compileContentModel)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012FC")]
-	[Address(RVA = "0x262E960", Offset = "0x262CF60", VA = "0x18262E960")]
+	[Address(RVA = "0x5FD8EE0", Offset = "0x5FD7EE0", VA = "0x5FD8EE0")]
 	private void Prepare()
 	{
 	}
 
 	[Token(Token = "0x60012FD")]
-	[Address(RVA = "0x2620C00", Offset = "0x261F200", VA = "0x182620C00")]
+	[Address(RVA = "0x5FD93A0", Offset = "0x5FD83A0", VA = "0x5FD93A0")]
 	private void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x60012FE")]
-	[Address(RVA = "0x2621880", Offset = "0x261FE80", VA = "0x182621880")]
+	[Address(RVA = "0x5FDDDF0", Offset = "0x5FDCDF0", VA = "0x5FDDDF0")]
 	internal static void Cleanup(XmlSchema schema)
 	{
 	}
 
 	[Token(Token = "0x60012FF")]
-	[Address(RVA = "0x2629C50", Offset = "0x2628250", VA = "0x182629C50")]
+	[Address(RVA = "0x5FDA450", Offset = "0x5FD9450", VA = "0x5FDA450")]
 	private void Compile()
 	{
 	}
 
 	[Token(Token = "0x6001300")]
-	[Address(RVA = "0x262DCE0", Offset = "0x262C2E0", VA = "0x18262DCE0")]
+	[Address(RVA = "0x5FDC700", Offset = "0x5FDB700", VA = "0x5FDC700")]
 	private void Output(SchemaInfo schemaInfo)
 	{
 	}
 
 	[Token(Token = "0x6001301")]
-	[Address(RVA = "0x2620230", Offset = "0x261E830", VA = "0x182620230")]
+	[Address(RVA = "0x5FDDDB0", Offset = "0x5FDCDB0", VA = "0x5FDDDB0")]
 	private static void CleanupAttribute(XmlSchemaAttribute attribute)
 	{
 	}
 
 	[Token(Token = "0x6001302")]
-	[Address(RVA = "0x26201D0", Offset = "0x261E7D0", VA = "0x1826201D0")]
+	[Address(RVA = "0x5FDD830", Offset = "0x5FDC830", VA = "0x5FDD830")]
 	private static void CleanupAttributeGroup(XmlSchemaAttributeGroup attributeGroup)
 	{
 	}
 
 	[Token(Token = "0x6001303")]
-	[Address(RVA = "0x2620370", Offset = "0x261E970", VA = "0x182620370")]
+	[Address(RVA = "0x5FDD880", Offset = "0x5FDC880", VA = "0x5FDD880")]
 	private static void CleanupComplexType(XmlSchemaComplexType complexType)
 	{
 	}
 
 	[Token(Token = "0x6001304")]
-	[Address(RVA = "0x2620BE0", Offset = "0x261F1E0", VA = "0x182620BE0")]
+	[Address(RVA = "0x5FDDBF0", Offset = "0x5FDCBF0", VA = "0x5FDDBF0")]
 	private static void CleanupSimpleType(XmlSchemaSimpleType simpleType)
 	{
 	}
 
 	[Token(Token = "0x6001305")]
-	[Address(RVA = "0x26207F0", Offset = "0x261EDF0", VA = "0x1826207F0")]
+	[Address(RVA = "0x5FDDC10", Offset = "0x5FDCC10", VA = "0x5FDDC10")]
 	private static void CleanupElement(XmlSchemaElement element)
 	{
 	}
 
 	[Token(Token = "0x6001306")]
-	[Address(RVA = "0x2620280", Offset = "0x261E880", VA = "0x182620280")]
+	[Address(RVA = "0x5FE30D0", Offset = "0x5FE20D0", VA = "0x5FE30D0")]
 	private static void CleanupAttributes(XmlSchemaObjectCollection attributes)
 	{
 	}
 
 	[Token(Token = "0x6001307")]
-	[Address(RVA = "0x26209C0", Offset = "0x261EFC0", VA = "0x1826209C0")]
+	[Address(RVA = "0x5FDD800", Offset = "0x5FDC800", VA = "0x5FDD800")]
 	private static void CleanupGroup(XmlSchemaGroup group)
 	{
 	}
 
 	[Token(Token = "0x6001308")]
-	[Address(RVA = "0x2620A00", Offset = "0x261F000", VA = "0x182620A00")]
+	[Address(RVA = "0x5FE31C0", Offset = "0x5FE21C0", VA = "0x5FE31C0")]
 	private static void CleanupParticle(XmlSchemaParticle particle)
 	{
 	}
 
 	[Token(Token = "0x6001309")]
-	[Address(RVA = "0x2629730", Offset = "0x2627D30", VA = "0x182629730")]
+	[Address(RVA = "0x5FDE670", Offset = "0x5FDD670", VA = "0x5FDE670")]
 	private void CompileSubstitutionGroup(XmlSchemaSubstitutionGroupV1Compat substitutionGroup)
 	{
 	}
 
 	[Token(Token = "0x600130A")]
-	[Address(RVA = "0x261FE80", Offset = "0x261E480", VA = "0x18261FE80")]
+	[Address(RVA = "0x5FE2EC0", Offset = "0x5FE1EC0", VA = "0x5FE2EC0")]
 	private void CheckSubstitutionGroup(XmlSchemaSubstitutionGroup substitutionGroup)
 	{
 	}
 
 	[Token(Token = "0x600130B")]
-	[Address(RVA = "0x2626C00", Offset = "0x2625200", VA = "0x182626C00")]
+	[Address(RVA = "0x5FDEB60", Offset = "0x5FDDB60", VA = "0x5FDEB60")]
 	private void CompileGroup(XmlSchemaGroup group)
 	{
 	}
 
 	[Token(Token = "0x600130C")]
-	[Address(RVA = "0x2628D60", Offset = "0x2627360", VA = "0x182628D60")]
+	[Address(RVA = "0x5FE02E0", Offset = "0x5FDF2E0", VA = "0x5FE02E0")]
 	private void CompileSimpleType(XmlSchemaSimpleType simpleType)
 	{
 	}
 
 	[Token(Token = "0x600130D")]
-	[Address(RVA = "0x2623420", Offset = "0x2621A20", VA = "0x182623420")]
+	[Address(RVA = "0x5FE3690", Offset = "0x5FE2690", VA = "0x5FE3690")]
 	private XmlSchemaSimpleType[] CompileBaseMemberTypes(XmlSchemaSimpleType simpleType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600130E")]
-	[Address(RVA = "0x26200B0", Offset = "0x261E6B0", VA = "0x1826200B0")]
+	[Address(RVA = "0x5FE3BD0", Offset = "0x5FE2BD0", VA = "0x5FE3BD0")]
 	private void CheckUnionType(XmlSchemaSimpleType unionMember, ArrayList memberTypeDefinitions, XmlSchemaSimpleType parentType)
 	{
 	}
 
 	[Token(Token = "0x600130F")]
-	[Address(RVA = "0x2624E90", Offset = "0x2623490", VA = "0x182624E90")]
+	[Address(RVA = "0x5FDF4D0", Offset = "0x5FDE4D0", VA = "0x5FDF4D0")]
 	private void CompileComplexType(XmlSchemaComplexType complexType)
 	{
 	}
 
 	[Token(Token = "0x6001310")]
-	[Address(RVA = "0x2628680", Offset = "0x2626C80", VA = "0x182628680")]
+	[Address(RVA = "0x5FE3CE0", Offset = "0x5FE2CE0", VA = "0x5FE3CE0")]
 	private void CompileSimpleContentExtension(XmlSchemaComplexType complexType, XmlSchemaSimpleContentExtension simpleExtension)
 	{
 	}
 
 	[Token(Token = "0x6001311")]
-	[Address(RVA = "0x2628930", Offset = "0x2626F30", VA = "0x182628930")]
+	[Address(RVA = "0x5FE3F70", Offset = "0x5FE2F70", VA = "0x5FE3F70")]
 	private void CompileSimpleContentRestriction(XmlSchemaComplexType complexType, XmlSchemaSimpleContentRestriction simpleRestriction)
 	{
 	}
 
 	[Token(Token = "0x6001312")]
-	[Address(RVA = "0x26238D0", Offset = "0x2621ED0", VA = "0x1826238D0")]
+	[Address(RVA = "0x5FE43D0", Offset = "0x5FE33D0", VA = "0x5FE43D0")]
 	private void CompileComplexContentExtension(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaComplexContentExtension complexExtension)
 	{
 	}
 
 	[Token(Token = "0x6001313")]
-	[Address(RVA = "0x2623DB0", Offset = "0x26223B0", VA = "0x182623DB0")]
+	[Address(RVA = "0x5FE48F0", Offset = "0x5FE38F0", VA = "0x5FE48F0")]
 	private void CompileComplexContentRestriction(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaComplexContentRestriction complexRestriction)
 	{
 	}
 
 	[Token(Token = "0x6001314")]
-	[Address(RVA = "0x261FD40", Offset = "0x261E340", VA = "0x18261FD40")]
+	[Address(RVA = "0x5FE2D80", Offset = "0x5FE1D80", VA = "0x5FE2D80")]
 	private void CheckParticleDerivation(XmlSchemaComplexType complexType)
 	{
 	}
 
 	[Token(Token = "0x6001315")]
-	[Address(RVA = "0x2625AD0", Offset = "0x26240D0", VA = "0x182625AD0")]
+	[Address(RVA = "0x5FE6420", Offset = "0x5FE5420", VA = "0x5FE6420")]
 	private XmlSchemaParticle CompileContentTypeParticle(XmlSchemaParticle particle, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001316")]
-	[Address(RVA = "0x261F2B0", Offset = "0x261D8B0", VA = "0x18261F2B0")]
+	[Address(RVA = "0x5FE3310", Offset = "0x5FE2310", VA = "0x5FE3310")]
 	private XmlSchemaParticle CannonicalizeParticle(XmlSchemaParticle particle, bool root, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001317")]
-	[Address(RVA = "0x261EA90", Offset = "0x261D090", VA = "0x18261EA90")]
+	[Address(RVA = "0x5FE77A0", Offset = "0x5FE67A0", VA = "0x5FE77A0")]
 	private XmlSchemaParticle CannonicalizeElement(XmlSchemaElement element, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001318")]
-	[Address(RVA = "0x261EC30", Offset = "0x261D230", VA = "0x18261EC30")]
+	[Address(RVA = "0x5FE7900", Offset = "0x5FE6900", VA = "0x5FE7900")]
 	private XmlSchemaParticle CannonicalizeGroupRef(XmlSchemaGroupRef groupRef, bool root, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001319")]
-	[Address(RVA = "0x261DEB0", Offset = "0x261C4B0", VA = "0x18261DEB0")]
+	[Address(RVA = "0x5FE7F50", Offset = "0x5FE6F50", VA = "0x5FE7F50")]
 	private XmlSchemaParticle CannonicalizeAll(XmlSchemaAll all, bool root, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600131A")]
-	[Address(RVA = "0x261E440", Offset = "0x261CA40", VA = "0x18261E440")]
+	[Address(RVA = "0x5FE8470", Offset = "0x5FE7470", VA = "0x5FE8470")]
 	private XmlSchemaParticle CannonicalizeChoice(XmlSchemaChoice choice, bool root, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600131B")]
-	[Address(RVA = "0x261F770", Offset = "0x261DD70", VA = "0x18261F770")]
+	[Address(RVA = "0x5FE8A30", Offset = "0x5FE7A30", VA = "0x5FE8A30")]
 	private XmlSchemaParticle CannonicalizeSequence(XmlSchemaSequence sequence, bool root, bool substitution)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600131C")]
-	[Address(RVA = "0x262D0F0", Offset = "0x262B6F0", VA = "0x18262D0F0")]
+	[Address(RVA = "0x5FE71D0", Offset = "0x5FE61D0", VA = "0x5FE71D0")]
 	private bool IsValidRestriction(XmlSchemaParticle derivedParticle, XmlSchemaParticle baseParticle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131D")]
-	[Address(RVA = "0x262BE20", Offset = "0x262A420", VA = "0x18262BE20")]
+	[Address(RVA = "0x5FE9020", Offset = "0x5FE8020", VA = "0x5FE9020")]
 	private bool IsElementFromElement(XmlSchemaElement derivedElement, XmlSchemaElement baseElement)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131E")]
-	[Address(RVA = "0x262BDB0", Offset = "0x262A3B0", VA = "0x18262BDB0")]
+	[Address(RVA = "0x5FE9140", Offset = "0x5FE8140", VA = "0x5FE9140")]
 	private bool IsElementFromAny(XmlSchemaElement derivedElement, XmlSchemaAny baseAny)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600131F")]
-	[Address(RVA = "0x262BD50", Offset = "0x262A350", VA = "0x18262BD50")]
+	[Address(RVA = "0x5FE9190", Offset = "0x5FE8190", VA = "0x5FE9190")]
 	private bool IsAnyFromAny(XmlSchemaAny derivedAny, XmlSchemaAny baseAny)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001320")]
-	[Address(RVA = "0x262C2F0", Offset = "0x262A8F0", VA = "0x18262C2F0")]
+	[Address(RVA = "0x5FE91E0", Offset = "0x5FE81E0", VA = "0x5FE91E0")]
 	private bool IsGroupBaseFromAny(XmlSchemaGroupBase derivedGroupBase, XmlSchemaAny baseAny)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001321")]
-	[Address(RVA = "0x262BF70", Offset = "0x262A570", VA = "0x18262BF70")]
+	[Address(RVA = "0x5FE9470", Offset = "0x5FE8470", VA = "0x5FE9470")]
 	private bool IsElementFromGroupBase(XmlSchemaElement derivedElement, XmlSchemaGroupBase baseGroupBase, bool skipEmptableOnly)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001322")]
-	[Address(RVA = "0x262C5B0", Offset = "0x262ABB0", VA = "0x18262C5B0")]
+	[Address(RVA = "0x5FE9870", Offset = "0x5FE8870", VA = "0x5FE9870")]
 	private bool IsGroupBaseFromGroupBase(XmlSchemaGroupBase derivedGroupBase, XmlSchemaGroupBase baseGroupBase, bool skipEmptableOnly)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001323")]
-	[Address(RVA = "0x262C920", Offset = "0x262AF20", VA = "0x18262C920")]
+	[Address(RVA = "0x5FE9BD0", Offset = "0x5FE8BD0", VA = "0x5FE9BD0")]
 	private bool IsSequenceFromAll(XmlSchemaSequence derivedSequence, XmlSchemaAll baseAll)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001324")]
-	[Address(RVA = "0x262CC50", Offset = "0x262B250", VA = "0x18262CC50")]
+	[Address(RVA = "0x5FEA070", Offset = "0x5FE9070", VA = "0x5FEA070")]
 	private bool IsSequenceFromChoice(XmlSchemaSequence derivedSequence, XmlSchemaChoice baseChoice)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001325")]
-	[Address(RVA = "0x261DA80", Offset = "0x261C080", VA = "0x18261DA80")]
+	[Address(RVA = "0x5FEAFE0", Offset = "0x5FE9FE0", VA = "0x5FEAFE0")]
 	private void CalculateSequenceRange(XmlSchemaSequence sequence, out decimal minOccurs, out decimal maxOccurs)
 	{
 	}
 
 	[Token(Token = "0x6001326")]
-	[Address(RVA = "0x262CFE0", Offset = "0x262B5E0", VA = "0x18262CFE0")]
+	[Address(RVA = "0x5FEA320", Offset = "0x5FE9320", VA = "0x5FEA320")]
 	private bool IsValidOccurrenceRangeRestriction(XmlSchemaParticle derivedParticle, XmlSchemaParticle baseParticle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001327")]
-	[Address(RVA = "0x262CF10", Offset = "0x262B510", VA = "0x18262CF10")]
+	[Address(RVA = "0x5FEAE20", Offset = "0x5FE9E20", VA = "0x5FEAE20")]
 	private bool IsValidOccurrenceRangeRestriction(decimal minOccurs, decimal maxOccurs, decimal baseMinOccurs, decimal baseMaxOccurs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001328")]
-	[Address(RVA = "0x262BA90", Offset = "0x262A090", VA = "0x18262BA90")]
+	[Address(RVA = "0x5FEAEF0", Offset = "0x5FE9EF0", VA = "0x5FEAEF0")]
 	private int GetMappingParticle(XmlSchemaParticle particle, XmlSchemaObjectCollection collection)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001329")]
-	[Address(RVA = "0x262C860", Offset = "0x262AE60", VA = "0x18262C860")]
+	[Address(RVA = "0x5FE8F80", Offset = "0x5FE7F80", VA = "0x5FE8F80")]
 	private bool IsParticleEmptiable(XmlSchemaParticle particle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600132A")]
-	[Address(RVA = "0x261D100", Offset = "0x261B700", VA = "0x18261D100")]
+	[Address(RVA = "0x5FEA410", Offset = "0x5FE9410", VA = "0x5FEA410")]
 	private void CalculateEffectiveTotalRange(XmlSchemaParticle particle, out decimal minOccurs, out decimal maxOccurs)
 	{
 	}
 
 	[Token(Token = "0x600132B")]
-	[Address(RVA = "0x262ECC0", Offset = "0x262D2C0", VA = "0x18262ECC0")]
+	[Address(RVA = "0x5FEB470", Offset = "0x5FEA470", VA = "0x5FEB470")]
 	private void PushComplexType(XmlSchemaComplexType complexType)
 	{
 	}
 
 	[Token(Token = "0x600132C")]
-	[Address(RVA = "0x262BB70", Offset = "0x262A170", VA = "0x18262BB70")]
+	[Address(RVA = "0x5FE6590", Offset = "0x5FE5590", VA = "0x5FE6590")]
 	private XmlSchemaContentType GetSchemaContentType(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaParticle particle)
 	{
 		return default(XmlSchemaContentType);
 	}
 
 	[Token(Token = "0x600132D")]
-	[Address(RVA = "0x2622170", Offset = "0x2620770", VA = "0x182622170")]
+	[Address(RVA = "0x5FDEC40", Offset = "0x5FDDC40", VA = "0x5FDEC40")]
 	private void CompileAttributeGroup(XmlSchemaAttributeGroup attributeGroup)
 	{
 	}
 
 	[Token(Token = "0x600132E")]
-	[Address(RVA = "0x2627390", Offset = "0x2625990", VA = "0x182627390")]
+	[Address(RVA = "0x5FE4C50", Offset = "0x5FE3C50", VA = "0x5FE4C50")]
 	private void CompileLocalAttributes(XmlSchemaComplexType baseType, XmlSchemaComplexType derivedType, XmlSchemaObjectCollection attributes, XmlSchemaAnyAttribute anyAttribute, XmlSchemaDerivationMethod derivedBy)
 	{
 	}
 
 	[Token(Token = "0x600132F")]
-	[Address(RVA = "0x26220D0", Offset = "0x26206D0", VA = "0x1826220D0")]
+	[Address(RVA = "0x5FEB520", Offset = "0x5FEA520", VA = "0x5FEB520")]
 	private XmlSchemaAnyAttribute CompileAnyAttributeUnion(XmlSchemaAnyAttribute a, XmlSchemaAnyAttribute b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001330")]
-	[Address(RVA = "0x2622030", Offset = "0x2620630", VA = "0x182622030")]
+	[Address(RVA = "0x5FEB4A0", Offset = "0x5FEA4A0", VA = "0x5FEB4A0")]
 	private XmlSchemaAnyAttribute CompileAnyAttributeIntersection(XmlSchemaAnyAttribute a, XmlSchemaAnyAttribute b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001331")]
-	[Address(RVA = "0x26227F0", Offset = "0x2620DF0", VA = "0x1826227F0")]
+	[Address(RVA = "0x5FE1AF0", Offset = "0x5FE0AF0", VA = "0x5FE1AF0")]
 	private void CompileAttribute(XmlSchemaAttribute xa)
 	{
 	}
 
 	[Token(Token = "0x6001332")]
-	[Address(RVA = "0x2626CF0", Offset = "0x26252F0", VA = "0x182626CF0")]
+	[Address(RVA = "0x5FE26B0", Offset = "0x5FE16B0", VA = "0x5FE26B0")]
 	private void CompileIdentityConstraint(XmlSchemaIdentityConstraint xi)
 	{
 	}
 
 	[Token(Token = "0x6001333")]
-	[Address(RVA = "0x2625C80", Offset = "0x2624280", VA = "0x182625C80")]
+	[Address(RVA = "0x5FE0C60", Offset = "0x5FDFC60", VA = "0x5FE0C60")]
 	private void CompileElement(XmlSchemaElement xe)
 	{
 	}
 
 	[Token(Token = "0x6001334")]
-	[Address(RVA = "0x2624120", Offset = "0x2622720", VA = "0x182624120")]
+	[Address(RVA = "0x5FE6600", Offset = "0x5FE5600", VA = "0x5FE6600")]
 	private ContentValidator CompileComplexContent(XmlSchemaComplexType complexType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001335")]
-	[Address(RVA = "0x261CA70", Offset = "0x261B070", VA = "0x18261CA70")]
+	[Address(RVA = "0x5FEB5A0", Offset = "0x5FEA5A0", VA = "0x5FEB5A0")]
 	private void BuildParticleContentModel(ParticleContentValidator contentValidator, XmlSchemaParticle particle)
 	{
 	}
 
 	[Token(Token = "0x6001336")]
-	[Address(RVA = "0x2628380", Offset = "0x2626980", VA = "0x182628380")]
+	[Address(RVA = "0x5FEBBB0", Offset = "0x5FEABB0", VA = "0x5FEBBB0")]
 	private void CompileParticleElements(XmlSchemaComplexType complexType, XmlSchemaParticle particle)
 	{
 	}
 
 	[Token(Token = "0x6001337")]
-	[Address(RVA = "0x2623800", Offset = "0x2621E00", VA = "0x182623800")]
+	[Address(RVA = "0x5FE2CC0", Offset = "0x5FE1CC0", VA = "0x5FE2CC0")]
 	private void CompileCompexTypeElements(XmlSchemaComplexType complexType)
 	{
 	}
 
 	[Token(Token = "0x6001338")]
-	[Address(RVA = "0x262BBF0", Offset = "0x262A1F0", VA = "0x18262BBF0")]
+	[Address(RVA = "0x5FE3540", Offset = "0x5FE2540", VA = "0x5FE3540")]
 	private XmlSchemaSimpleType GetSimpleType(XmlQualifiedName name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001339")]
-	[Address(RVA = "0x262B9D0", Offset = "0x2629FD0", VA = "0x18262B9D0")]
+	[Address(RVA = "0x5FE7130", Offset = "0x5FE6130", VA = "0x5FE7130")]
 	private XmlSchemaComplexType GetComplexType(XmlQualifiedName name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600133A")]
-	[Address(RVA = "0x262B800", Offset = "0x2629E00", VA = "0x18262B800")]
+	[Address(RVA = "0x5FE6FE0", Offset = "0x5FE5FE0", VA = "0x5FE6FE0")]
 	private XmlSchemaType GetAnySchemaType(XmlQualifiedName name)
 	{
 		return null;

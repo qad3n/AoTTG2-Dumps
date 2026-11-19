@@ -14,13 +14,13 @@ namespace UnityEngine;
 public sealed class ExitGUIException : Exception
 {
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x2F86270", Offset = "0x2F84870", VA = "0x182F86270")]
+	[Address(RVA = "0x699BDE0", Offset = "0x699ADE0", VA = "0x699BDE0")]
 	public ExitGUIException()
 	{
 	}
 
 	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x2F86330", Offset = "0x2F84930", VA = "0x182F86330")]
+	[Address(RVA = "0x698F6E0", Offset = "0x698E6E0", VA = "0x698F6E0")]
 	internal ExitGUIException(string message)
 	{
 	}

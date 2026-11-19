@@ -37,14 +37,14 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public string CurrentPropertyName
 		{
 			[Token(Token = "0x60003D1")]
-			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+			[Address(RVA = "0x55955D0", Offset = "0x55945D0", VA = "0x55955D0")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60003D2")]
-			[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+			[Address(RVA = "0x55955E0", Offset = "0x55945E0", VA = "0x55955E0")]
 			[CompilerGenerated]
 			set
 			{
@@ -55,14 +55,14 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public int ArrayItemCount
 		{
 			[Token(Token = "0x60003D3")]
-			[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+			[Address(RVA = "0x55955F0", Offset = "0x55945F0", VA = "0x55955F0")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60003D4")]
-			[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+			[Address(RVA = "0x5595600", Offset = "0x5594600", VA = "0x5595600")]
 			[CompilerGenerated]
 			set
 			{
@@ -73,7 +73,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public bool IsUniqueArray
 		{
 			[Token(Token = "0x60003D5")]
-			[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+			[Address(RVA = "0x5595610", Offset = "0x5594610", VA = "0x5595610")]
 			[CompilerGenerated]
 			get
 			{
@@ -85,7 +85,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public IList<JToken> UniqueArrayItems
 		{
 			[Token(Token = "0x60003D6")]
-			[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+			[Address(RVA = "0x5595620", Offset = "0x5594620", VA = "0x5595620")]
 			[CompilerGenerated]
 			get
 			{
@@ -97,14 +97,14 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public JTokenWriter CurrentItemWriter
 		{
 			[Token(Token = "0x60003D7")]
-			[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+			[Address(RVA = "0x5595630", Offset = "0x5594630", VA = "0x5595630")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60003D8")]
-			[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+			[Address(RVA = "0x5595640", Offset = "0x5594640", VA = "0x5595640")]
 			[CompilerGenerated]
 			set
 			{
@@ -115,7 +115,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public IList<JsonSchemaModel> Schemas
 		{
 			[Token(Token = "0x60003D9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x5595650", Offset = "0x5594650", VA = "0x5595650")]
 			get
 			{
 				return null;
@@ -126,7 +126,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public Dictionary<string, bool> RequiredProperties
 		{
 			[Token(Token = "0x60003DA")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Address(RVA = "0x5595660", Offset = "0x5594660", VA = "0x5595660")]
 			get
 			{
 				return null;
@@ -137,7 +137,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		public JTokenType TokenType
 		{
 			[Token(Token = "0x60003DB")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Address(RVA = "0x5595670", Offset = "0x5594670", VA = "0x5595670")]
 			get
 			{
 				return default(JTokenType);
@@ -145,13 +145,13 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 		}
 
 		[Token(Token = "0x60003DC")]
-		[Address(RVA = "0x1C10470", Offset = "0x1C0EA70", VA = "0x181C10470")]
+		[Address(RVA = "0x5591CA0", Offset = "0x5590CA0", VA = "0x5591CA0")]
 		public SchemaScope(JTokenType tokenType, IList<JsonSchemaModel> schemas)
 		{
 		}
 
 		[Token(Token = "0x60003DD")]
-		[Address(RVA = "0x1C101F0", Offset = "0x1C0E7F0", VA = "0x181C101F0")]
+		[Address(RVA = "0x5595680", Offset = "0x5594680", VA = "0x5595680")]
 		private IEnumerable<string> GetRequiredProperties(JsonSchemaModel schema)
 		{
 			return null;
@@ -191,7 +191,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override object Value
 	{
 		[Token(Token = "0x600039F")]
-		[Address(RVA = "0x1C04D40", Offset = "0x1C03340", VA = "0x181C04D40", Slot = "17")]
+		[Address(RVA = "0x558E240", Offset = "0x558D240", VA = "0x558E240", Slot = "17")]
 		get
 		{
 			return null;
@@ -202,7 +202,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override int Depth
 	{
 		[Token(Token = "0x60003A0")]
-		[Address(RVA = "0x1C04C50", Offset = "0x1C03250", VA = "0x181C04C50", Slot = "19")]
+		[Address(RVA = "0x558E270", Offset = "0x558D270", VA = "0x558E270", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -213,7 +213,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override string Path
 	{
 		[Token(Token = "0x60003A1")]
-		[Address(RVA = "0x1C04C80", Offset = "0x1C03280", VA = "0x181C04C80", Slot = "20")]
+		[Address(RVA = "0x558E2A0", Offset = "0x558D2A0", VA = "0x558E2A0", Slot = "20")]
 		get
 		{
 			return null;
@@ -224,13 +224,13 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override char QuoteChar
 	{
 		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0x1C04CB0", Offset = "0x1C032B0", VA = "0x181C04CB0", Slot = "14")]
+		[Address(RVA = "0x558E2D0", Offset = "0x558D2D0", VA = "0x558E2D0", Slot = "14")]
 		get
 		{
 			return default(char);
 		}
 		[Token(Token = "0x60003A3")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+		[Address(RVA = "0x558E300", Offset = "0x558D300", VA = "0x558E300", Slot = "15")]
 		protected internal set
 		{
 		}
@@ -240,7 +240,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override JsonToken TokenType
 	{
 		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x1C04CE0", Offset = "0x1C032E0", VA = "0x181C04CE0", Slot = "16")]
+		[Address(RVA = "0x558E310", Offset = "0x558D310", VA = "0x558E310", Slot = "16")]
 		get
 		{
 			return default(JsonToken);
@@ -251,7 +251,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public override Type ValueType
 	{
 		[Token(Token = "0x60003A5")]
-		[Address(RVA = "0x1C04D10", Offset = "0x1C03310", VA = "0x181C04D10", Slot = "18")]
+		[Address(RVA = "0x558E340", Offset = "0x558D340", VA = "0x558E340", Slot = "18")]
 		get
 		{
 			return null;
@@ -262,7 +262,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	private IList<JsonSchemaModel> CurrentSchemas
 	{
 		[Token(Token = "0x60003A8")]
-		[Address(RVA = "0x1C04C30", Offset = "0x1C03230", VA = "0x181C04C30")]
+		[Address(RVA = "0x558E490", Offset = "0x558D490", VA = "0x558E490")]
 		get
 		{
 			return null;
@@ -273,7 +273,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	private IList<JsonSchemaModel> CurrentMemberSchemas
 	{
 		[Token(Token = "0x60003A9")]
-		[Address(RVA = "0x1C04260", Offset = "0x1C02860", VA = "0x181C04260")]
+		[Address(RVA = "0x558E4B0", Offset = "0x558D4B0", VA = "0x558E4B0")]
 		get
 		{
 			return null;
@@ -284,13 +284,13 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public JsonSchema Schema
 	{
 		[Token(Token = "0x60003AD")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x558FD40", Offset = "0x558ED40", VA = "0x558FD40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003AE")]
-		[Address(RVA = "0x1C04E10", Offset = "0x1C03410", VA = "0x181C04E10")]
+		[Address(RVA = "0x558FD50", Offset = "0x558ED50", VA = "0x558FD50")]
 		set
 		{
 		}
@@ -300,7 +300,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public JsonReader Reader
 	{
 		[Token(Token = "0x60003AF")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x558FDF0", Offset = "0x558EDF0", VA = "0x558FDF0")]
 		get
 		{
 			return null;
@@ -311,7 +311,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELineNumber
 	{
 		[Token(Token = "0x60003CE")]
-		[Address(RVA = "0x1C001D0", Offset = "0x1BFE7D0", VA = "0x181C001D0", Slot = "33")]
+		[Address(RVA = "0x55953D0", Offset = "0x55943D0", VA = "0x55953D0", Slot = "33")]
 		get
 		{
 			return default(int);
@@ -322,7 +322,7 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELinePosition
 	{
 		[Token(Token = "0x60003CF")]
-		[Address(RVA = "0x1C00230", Offset = "0x1BFE830", VA = "0x181C00230", Slot = "34")]
+		[Address(RVA = "0x5595490", Offset = "0x5594490", VA = "0x5595490", Slot = "34")]
 		get
 		{
 			return default(int);
@@ -333,13 +333,13 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	public event ValidationEventHandler ValidationEventHandler
 	{
 		[Token(Token = "0x600039D")]
-		[Address(RVA = "0x1C041C0", Offset = "0x1C027C0", VA = "0x181C041C0")]
+		[Address(RVA = "0x558E100", Offset = "0x558D100", VA = "0x558E100")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600039E")]
-		[Address(RVA = "0x1C04D70", Offset = "0x1C03370", VA = "0x181C04D70")]
+		[Address(RVA = "0x558E1A0", Offset = "0x558D1A0", VA = "0x558E1A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -347,228 +347,228 @@ public class JsonValidatingReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x1C006B0", Offset = "0x1BFECB0", VA = "0x181C006B0")]
+	[Address(RVA = "0x558E370", Offset = "0x558D370", VA = "0x558E370")]
 	private void Push(SchemaScope scope)
 	{
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x1C00330", Offset = "0x1BFE930", VA = "0x181C00330")]
+	[Address(RVA = "0x558E3E0", Offset = "0x558D3E0", VA = "0x558E3E0")]
 	private SchemaScope Pop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x1C00720", Offset = "0x1BFED20", VA = "0x181C00720")]
+	[Address(RVA = "0x558F820", Offset = "0x558E820", VA = "0x558F820")]
 	private void RaiseError(string message, JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x1C00290", Offset = "0x1BFE890", VA = "0x181C00290")]
+	[Address(RVA = "0x558FC00", Offset = "0x558EC00", VA = "0x558FC00")]
 	private void OnValidationEvent(JsonSchemaException exception)
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x1C04110", Offset = "0x1C02710", VA = "0x181C04110")]
+	[Address(RVA = "0x558FC90", Offset = "0x558EC90", VA = "0x558FC90")]
 	public JsonValidatingReader(JsonReader reader)
 	{
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x1BFFC20", Offset = "0x1BFE220", VA = "0x181BFFC20", Slot = "31")]
+	[Address(RVA = "0x558FE00", Offset = "0x558EE00", VA = "0x558FE00", Slot = "31")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x1C02ED0", Offset = "0x1C014D0", VA = "0x181C02ED0")]
+	[Address(RVA = "0x558FE30", Offset = "0x558EE30", VA = "0x558FE30")]
 	private void ValidateNotDisallowed(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x1BFFCD0", Offset = "0x1BFE2D0", VA = "0x181BFFCD0")]
+	[Address(RVA = "0x558FF60", Offset = "0x558EF60", VA = "0x558FF60")]
 	private JsonSchemaType? GetCurrentNodeSchemaType()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x1C00B80", Offset = "0x1BFF180", VA = "0x181C00B80", Slot = "22")]
+	[Address(RVA = "0x55900C0", Offset = "0x558F0C0", VA = "0x55900C0", Slot = "22")]
 	public override int? ReadAsInt32()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x1C009B0", Offset = "0x1BFEFB0", VA = "0x181C009B0", Slot = "24")]
+	[Address(RVA = "0x5591A30", Offset = "0x5590A30", VA = "0x5591A30", Slot = "24")]
 	public override byte[] ReadAsBytes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x1C00AC0", Offset = "0x1BFF0C0", VA = "0x181C00AC0", Slot = "27")]
+	[Address(RVA = "0x5591A70", Offset = "0x5590A70", VA = "0x5591A70", Slot = "27")]
 	public override decimal? ReadAsDecimal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x1C00B20", Offset = "0x1BFF120", VA = "0x181C00B20", Slot = "25")]
+	[Address(RVA = "0x5591AD0", Offset = "0x5590AD0", VA = "0x5591AD0", Slot = "25")]
 	public override double? ReadAsDouble()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x1C00960", Offset = "0x1BFEF60", VA = "0x181C00960", Slot = "26")]
+	[Address(RVA = "0x5591B20", Offset = "0x5590B20", VA = "0x5591B20", Slot = "26")]
 	public override bool? ReadAsBoolean()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x1C00BD0", Offset = "0x1BFF1D0", VA = "0x181C00BD0", Slot = "23")]
+	[Address(RVA = "0x5591B60", Offset = "0x5590B60", VA = "0x5591B60", Slot = "23")]
 	public override string ReadAsString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x1C00A60", Offset = "0x1BFF060", VA = "0x181C00A60", Slot = "28")]
+	[Address(RVA = "0x5591BA0", Offset = "0x5590BA0", VA = "0x5591BA0", Slot = "28")]
 	public override DateTime? ReadAsDateTime()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BA")]
-	[Address(RVA = "0x1C00A00", Offset = "0x1BFF000", VA = "0x181C00A00", Slot = "29")]
+	[Address(RVA = "0x5591BE0", Offset = "0x5590BE0", VA = "0x5591BE0", Slot = "29")]
 	public override DateTimeOffset? ReadAsDateTimeOffset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BB")]
-	[Address(RVA = "0x1C00C20", Offset = "0x1BFF220", VA = "0x181C00C20", Slot = "21")]
+	[Address(RVA = "0x5591C40", Offset = "0x5590C40", VA = "0x5591C40", Slot = "21")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003BC")]
-	[Address(RVA = "0x1C00E30", Offset = "0x1BFF430", VA = "0x181C00E30")]
+	[Address(RVA = "0x5590100", Offset = "0x558F100", VA = "0x5590100")]
 	private void ValidateCurrentToken()
 	{
 	}
 
 	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x1C037A0", Offset = "0x1C01DA0", VA = "0x181C037A0")]
+	[Address(RVA = "0x5592520", Offset = "0x5591520", VA = "0x5592520")]
 	private void WriteToken(IList<JsonSchemaModel> schemas)
 	{
 	}
 
 	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x1C01EF0", Offset = "0x1C004F0", VA = "0x181C01EF0")]
+	[Address(RVA = "0x55946B0", Offset = "0x55936B0", VA = "0x55946B0")]
 	private void ValidateEndObject(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x1C01CF0", Offset = "0x1C002F0", VA = "0x181C01CF0")]
+	[Address(RVA = "0x5594A50", Offset = "0x5593A50", VA = "0x5594A50")]
 	private void ValidateEndArray(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x1C031B0", Offset = "0x1C017B0", VA = "0x181C031B0")]
+	[Address(RVA = "0x5594670", Offset = "0x5593670", VA = "0x5594670")]
 	private void ValidateNull(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x1C00DF0", Offset = "0x1BFF3F0", VA = "0x181C00DF0")]
+	[Address(RVA = "0x5594630", Offset = "0x5593630", VA = "0x5594630")]
 	private void ValidateBoolean(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x1C033E0", Offset = "0x1C019E0", VA = "0x181C033E0")]
+	[Address(RVA = "0x55940F0", Offset = "0x55930F0", VA = "0x55940F0")]
 	private void ValidateString(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x1C027F0", Offset = "0x1C00DF0", VA = "0x181C027F0")]
+	[Address(RVA = "0x55933A0", Offset = "0x55923A0", VA = "0x55933A0")]
 	private void ValidateInteger(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x1C003E0", Offset = "0x1BFE9E0", VA = "0x181C003E0")]
+	[Address(RVA = "0x55920B0", Offset = "0x55910B0", VA = "0x55920B0")]
 	private void ProcessValue()
 	{
 	}
 
 	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x1C022A0", Offset = "0x1C008A0", VA = "0x181C022A0")]
+	[Address(RVA = "0x5593AE0", Offset = "0x5592AE0", VA = "0x5593AE0")]
 	private void ValidateFloat(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x1BFFC60", Offset = "0x1BFE260", VA = "0x181BFFC60")]
+	[Address(RVA = "0x5594E30", Offset = "0x5593E30", VA = "0x5594E30")]
 	private static double FloatingPointRemainder(double dividend, double divisor)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x1C00110", Offset = "0x1BFE710", VA = "0x181C00110")]
+	[Address(RVA = "0x5594DC0", Offset = "0x5593DC0", VA = "0x5594DC0")]
 	private static bool IsZero(double value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x1C03210", Offset = "0x1C01810", VA = "0x181C03210")]
+	[Address(RVA = "0x55931E0", Offset = "0x55921E0", VA = "0x55931E0")]
 	private void ValidatePropertyName(JsonSchemaModel schema)
 	{
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x1BFFEA0", Offset = "0x1BFE4A0", VA = "0x181BFFEA0")]
+	[Address(RVA = "0x5594EA0", Offset = "0x5593EA0", VA = "0x5594EA0")]
 	private bool IsPropertyDefinied(JsonSchemaModel schema, string propertyName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x1C00DD0", Offset = "0x1BFF3D0", VA = "0x181C00DD0")]
+	[Address(RVA = "0x55952E0", Offset = "0x55942E0", VA = "0x55952E0")]
 	private bool ValidateArray(JsonSchemaModel schema)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x1C031F0", Offset = "0x1C017F0", VA = "0x181C031F0")]
+	[Address(RVA = "0x5595300", Offset = "0x5594300", VA = "0x5595300")]
 	private bool ValidateObject(JsonSchemaModel schema)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x1C00C90", Offset = "0x1BFF290", VA = "0x181C00C90")]
+	[Address(RVA = "0x5594C90", Offset = "0x5593C90", VA = "0x5594C90")]
 	private bool TestType(JsonSchemaModel currentSchema, JsonSchemaType currentType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x1C00170", Offset = "0x1BFE770", VA = "0x181C00170", Slot = "32")]
+	[Address(RVA = "0x5595320", Offset = "0x5594320", VA = "0x5595320", Slot = "32")]
 	private bool Newtonsoft_002EJson_002EIJsonLineInfo_002EHasLineInfo()
 	{
 		return default(bool);

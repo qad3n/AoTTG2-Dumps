@@ -37,7 +37,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	public unsafe ref AutoResetUniTaskCompletionSource NextNode
 	{
 		[Token(Token = "0x60006E0")]
-		[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "14")]
+		[Address(RVA = "0x62DA010", Offset = "0x62D9010", VA = "0x62DA010", Slot = "14")]
 		get
 		{
 			return ref *(AutoResetUniTaskCompletionSource*)null;
@@ -48,7 +48,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	public UniTask Task
 	{
 		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x2908200", Offset = "0x2906800", VA = "0x182908200")]
+		[Address(RVA = "0x62C3CE0", Offset = "0x62C2CE0", VA = "0x62C3CE0")]
 		[DebuggerHidden]
 		get
 		{
@@ -57,19 +57,19 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E1")]
-	[Address(RVA = "0x2908100", Offset = "0x2906700", VA = "0x182908100")]
+	[Address(RVA = "0x62DA020", Offset = "0x62D9020", VA = "0x62DA020")]
 	static AutoResetUniTaskCompletionSource()
 	{
 	}
 
 	[Token(Token = "0x60006E2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x62DA120", Offset = "0x62D9120", VA = "0x62DA120")]
 	private AutoResetUniTaskCompletionSource()
 	{
 	}
 
 	[Token(Token = "0x60006E3")]
-	[Address(RVA = "0x2907CC0", Offset = "0x29062C0", VA = "0x182907CC0")]
+	[Address(RVA = "0x62C3B90", Offset = "0x62C2B90", VA = "0x62C3B90")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource Create()
 	{
@@ -77,7 +77,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E4")]
-	[Address(RVA = "0x2907B20", Offset = "0x2906120", VA = "0x182907B20")]
+	[Address(RVA = "0x62C4040", Offset = "0x62C3040", VA = "0x62C4040")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateFromCanceled(CancellationToken cancellationToken, out short token)
 	{
@@ -85,7 +85,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E5")]
-	[Address(RVA = "0x2907BF0", Offset = "0x29061F0", VA = "0x182907BF0")]
+	[Address(RVA = "0x62DA1A0", Offset = "0x62D91A0", VA = "0x62DA1A0")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateFromException(Exception exception, out short token)
 	{
@@ -93,7 +93,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E6")]
-	[Address(RVA = "0x2907AA0", Offset = "0x29060A0", VA = "0x182907AA0")]
+	[Address(RVA = "0x62DA300", Offset = "0x62D9300", VA = "0x62DA300")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateCompleted(out short token)
 	{
@@ -101,7 +101,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x2908030", Offset = "0x2906630", VA = "0x182908030", Slot = "15")]
+	[Address(RVA = "0x62C5560", Offset = "0x62C4560", VA = "0x62C5560", Slot = "15")]
 	[DebuggerHidden]
 	public bool TrySetResult()
 	{
@@ -109,7 +109,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0x2907F50", Offset = "0x2906550", VA = "0x182907F50", Slot = "17")]
+	[Address(RVA = "0x62DA130", Offset = "0x62D9130", VA = "0x62DA130", Slot = "17")]
 	[DebuggerHidden]
 	public bool TrySetCanceled([Optional] CancellationToken cancellationToken)
 	{
@@ -117,7 +117,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x2907FC0", Offset = "0x29065C0", VA = "0x182907FC0", Slot = "16")]
+	[Address(RVA = "0x62DA290", Offset = "0x62D9290", VA = "0x62DA290", Slot = "16")]
 	[DebuggerHidden]
 	public bool TrySetException(Exception exception)
 	{
@@ -125,14 +125,14 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x2907D80", Offset = "0x2906380", VA = "0x182907D80", Slot = "13")]
+	[Address(RVA = "0x62DA430", Offset = "0x62D9430", VA = "0x62DA430", Slot = "13")]
 	[DebuggerHidden]
 	public void GetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x2907E10", Offset = "0x2906410", VA = "0x182907E10", Slot = "4")]
+	[Address(RVA = "0x62DA570", Offset = "0x62D9570", VA = "0x62DA570", Slot = "4")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
@@ -140,7 +140,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x29080C0", Offset = "0x29066C0", VA = "0x1829080C0", Slot = "7")]
+	[Address(RVA = "0x62DA5C0", Offset = "0x62D95C0", VA = "0x62DA5C0", Slot = "7")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
@@ -148,14 +148,14 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x2907E60", Offset = "0x2906460", VA = "0x182907E60", Slot = "5")]
+	[Address(RVA = "0x62DA670", Offset = "0x62D9670", VA = "0x62DA670", Slot = "5")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x2907EC0", Offset = "0x29064C0", VA = "0x182907EC0")]
+	[Address(RVA = "0x62DA6D0", Offset = "0x62D96D0", VA = "0x62DA6D0")]
 	[DebuggerHidden]
 	private bool TryReturn()
 	{

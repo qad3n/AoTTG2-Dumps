@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003E2")]
+[Token(Token = "0x2000441")]
 internal class CustomLogicStartAst : CustomLogicBaseAst
 {
-	[Token(Token = "0x40013FD")]
+	[Token(Token = "0x400159D")]
 	[FieldOffset(Offset = "0x18")]
 	public Dictionary<string, CustomLogicClassDefinitionAst> Classes;
 
-	[Token(Token = "0x40013FE")]
+	[Token(Token = "0x400159E")]
 	[FieldOffset(Offset = "0x20")]
 	public Dictionary<string, CustomLogicSourceType> ClassNamespaces;
 
-	[Token(Token = "0x6001803")]
-	[Address(RVA = "0x1ED3EB0", Offset = "0x1ED24B0", VA = "0x181ED3EB0")]
+	[Token(Token = "0x6001A7A")]
+	[Address(RVA = "0x58A92F0", Offset = "0x58A82F0", VA = "0x58A92F0")]
 	public CustomLogicStartAst()
 	{
 	}
 
-	[Token(Token = "0x6001804")]
-	[Address(RVA = "0x1ED3B40", Offset = "0x1ED2140", VA = "0x181ED3B40")]
+	[Token(Token = "0x6001A7B")]
+	[Address(RVA = "0x58A93C0", Offset = "0x58A83C0", VA = "0x58A93C0")]
 	public void AddEmptyMain()
 	{
 	}
 
-	[Token(Token = "0x6001805")]
-	[Address(RVA = "0x1ED39F0", Offset = "0x1ED1FF0", VA = "0x181ED39F0")]
+	[Token(Token = "0x6001A7C")]
+	[Address(RVA = "0x58A9490", Offset = "0x58A8490", VA = "0x58A9490")]
 	public void AddClass(string className, CustomLogicClassDefinitionAst classAst)
 	{
 	}

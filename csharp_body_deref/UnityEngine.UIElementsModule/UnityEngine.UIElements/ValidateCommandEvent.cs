@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class ValidateCommandEvent : CommandEventBase<ValidateCommandEvent>
 {
 	[Token(Token = "0x6000C01")]
-	[Address(RVA = "0x3271D40", Offset = "0x3270340", VA = "0x183271D40")]
+	[Address(RVA = "0x6C5EFB0", Offset = "0x6C5DFB0", VA = "0x6C5EFB0")]
 	static ValidateCommandEvent()
 	{
 	}
 
 	[Token(Token = "0x6000C02")]
-	[Address(RVA = "0x3271E20", Offset = "0x3270420", VA = "0x183271E20")]
+	[Address(RVA = "0x6C5F080", Offset = "0x6C5E080", VA = "0x6C5F080")]
 	public ValidateCommandEvent()
 	{
 	}

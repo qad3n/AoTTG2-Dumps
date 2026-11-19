@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.PackageManagerResolvePackageAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,8 +16,8 @@ namespace UnityEditor.Analytics;
 [Serializable]
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000018")]
-[ExcludeFromDocs]
 [UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
+[ExcludeFromDocs]
 public class PackageManagerResolvePackageAnalytic : PackageManagerBaseAnalytic
 {
 	[Token(Token = "0x400003F")]
@@ -53,13 +53,13 @@ public class PackageManagerResolvePackageAnalytic : PackageManagerBaseAnalytic
 	public string[] package_publishing_channels;
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3307A80", Offset = "0x3306080", VA = "0x183307A80")]
+	[Address(RVA = "0x6D18250", Offset = "0x6D17250", VA = "0x6D18250")]
 	public PackageManagerResolvePackageAnalytic()
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x33079D0", Offset = "0x3305FD0", VA = "0x1833079D0")]
+	[Address(RVA = "0x6D182C0", Offset = "0x6D172C0", VA = "0x6D182C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static PackageManagerResolvePackageAnalytic CreatePackageManagerResolvePackageAnalytic()
 	{

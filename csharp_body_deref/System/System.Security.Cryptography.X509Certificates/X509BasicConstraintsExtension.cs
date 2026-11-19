@@ -9,104 +9,104 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000137")]
+[Token(Token = "0x20000F8")]
 public sealed class X509BasicConstraintsExtension : X509Extension
 {
-	[Token(Token = "0x400059E")]
+	[Token(Token = "0x40004CF")]
 	internal const string oid = "2.5.29.19";
 
-	[Token(Token = "0x400059F")]
+	[Token(Token = "0x40004D0")]
 	internal const string friendlyName = "Basic Constraints";
 
-	[Token(Token = "0x40005A0")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x40004D1")]
+	[FieldOffset(Offset = "0x21")]
 	private bool _certificateAuthority;
 
-	[Token(Token = "0x40005A1")]
-	[FieldOffset(Offset = "0x29")]
+	[Token(Token = "0x40004D2")]
+	[FieldOffset(Offset = "0x22")]
 	private bool _hasPathLengthConstraint;
 
-	[Token(Token = "0x40005A2")]
-	[FieldOffset(Offset = "0x2C")]
+	[Token(Token = "0x40004D3")]
+	[FieldOffset(Offset = "0x24")]
 	private int _pathLengthConstraint;
 
-	[Token(Token = "0x40005A3")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x40004D4")]
+	[FieldOffset(Offset = "0x28")]
 	private AsnDecodeStatus _status;
 
-	[Token(Token = "0x1700013A")]
+	[Token(Token = "0x1700010B")]
 	public bool CertificateAuthority
 	{
-		[Token(Token = "0x600074B")]
-		[Address(RVA = "0x2881820", Offset = "0x287FE20", VA = "0x182881820")]
+		[Token(Token = "0x6000592")]
+		[Address(RVA = "0x620DC30", Offset = "0x620CC30", VA = "0x620DC30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700013B")]
+	[Token(Token = "0x1700010C")]
 	public bool HasPathLengthConstraint
 	{
-		[Token(Token = "0x600074C")]
-		[Address(RVA = "0x2881890", Offset = "0x287FE90", VA = "0x182881890")]
+		[Token(Token = "0x6000593")]
+		[Address(RVA = "0x620DC90", Offset = "0x620CC90", VA = "0x620DC90")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700013C")]
+	[Token(Token = "0x1700010D")]
 	public int PathLengthConstraint
 	{
-		[Token(Token = "0x600074D")]
-		[Address(RVA = "0x2881900", Offset = "0x287FF00", VA = "0x182881900")]
+		[Token(Token = "0x6000594")]
+		[Address(RVA = "0x620DCF0", Offset = "0x620CCF0", VA = "0x620DCF0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000748")]
-	[Address(RVA = "0x2881680", Offset = "0x287FC80", VA = "0x182881680")]
+	[Token(Token = "0x600058F")]
+	[Address(RVA = "0x620D700", Offset = "0x620C700", VA = "0x620D700")]
 	public X509BasicConstraintsExtension()
 	{
 	}
 
-	[Token(Token = "0x6000749")]
-	[Address(RVA = "0x2881730", Offset = "0x287FD30", VA = "0x182881730")]
+	[Token(Token = "0x6000590")]
+	[Address(RVA = "0x620BD40", Offset = "0x620AD40", VA = "0x620BD40")]
 	public X509BasicConstraintsExtension(AsnEncodedData encodedBasicConstraints, bool critical)
 	{
 	}
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x2881410", Offset = "0x287FA10", VA = "0x182881410")]
+	[Token(Token = "0x6000591")]
+	[Address(RVA = "0x620D990", Offset = "0x620C990", VA = "0x620D990")]
 	public X509BasicConstraintsExtension(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical)
 	{
 	}
 
-	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x2880CA0", Offset = "0x287F2A0", VA = "0x182880CA0", Slot = "4")]
+	[Token(Token = "0x6000595")]
+	[Address(RVA = "0x620DD50", Offset = "0x620CD50", VA = "0x620DD50", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
-	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x2880ED0", Offset = "0x287F4D0", VA = "0x182880ED0")]
+	[Token(Token = "0x6000596")]
+	[Address(RVA = "0x620D7C0", Offset = "0x620C7C0", VA = "0x620D7C0")]
 	internal AsnDecodeStatus Decode(byte[] extension)
 	{
 		return default(AsnDecodeStatus);
 	}
 
-	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x2881040", Offset = "0x287F640", VA = "0x182881040")]
+	[Token(Token = "0x6000597")]
+	[Address(RVA = "0x620DAD0", Offset = "0x620CAD0", VA = "0x620DAD0")]
 	internal byte[] Encode()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000751")]
-	[Address(RVA = "0x28811C0", Offset = "0x287F7C0", VA = "0x1828811C0", Slot = "6")]
+	[Token(Token = "0x6000598")]
+	[Address(RVA = "0x620DF20", Offset = "0x620CF20", VA = "0x620DF20", Slot = "6")]
 	internal override string ToString(bool multiLine)
 	{
 		return null;

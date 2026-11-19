@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.MotionVectorRenderPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,7 +42,7 @@ internal sealed class MotionVectorRenderPass : ScriptableRenderPass
 		internal RendererList rendererList;
 
 		[Token(Token = "0x6000732")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6654E80", Offset = "0x6653E80", VA = "0x6654E80")]
 		public PassData()
 		{
 		}
@@ -60,7 +60,7 @@ internal sealed class MotionVectorRenderPass : ScriptableRenderPass
 		public XRPass xr;
 
 		[Token(Token = "0x6000733")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6654E90", Offset = "0x6653E90", VA = "0x6654E90")]
 		public MotionMatrixPassData()
 		{
 		}
@@ -99,56 +99,56 @@ internal sealed class MotionVectorRenderPass : ScriptableRenderPass
 	private readonly FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x6000728")]
-	[Address(RVA = "0x2C5CB10", Offset = "0x2C5B110", VA = "0x182C5CB10")]
+	[Address(RVA = "0x6653020", Offset = "0x6652020", VA = "0x6653020")]
 	internal MotionVectorRenderPass(RenderPassEvent evt, Material cameraMaterial, LayerMask opaqueLayerMask)
 	{
 	}
 
 	[Token(Token = "0x6000729")]
-	[Address(RVA = "0x2C5AFA0", Offset = "0x2C595A0", VA = "0x182C5AFA0")]
+	[Address(RVA = "0x6653160", Offset = "0x6652160", VA = "0x6653160")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x600072A")]
-	[Address(RVA = "0x2C5B270", Offset = "0x2C59870", VA = "0x182C5B270")]
+	[Address(RVA = "0x66534B0", Offset = "0x66524B0", VA = "0x66534B0")]
 	private static DrawingSettings GetDrawingSettings(Camera camera, bool supportsDynamicBatching)
 	{
 		return default(DrawingSettings);
 	}
 
 	[Token(Token = "0x600072B")]
-	[Address(RVA = "0x2C5AD60", Offset = "0x2C59360", VA = "0x182C5AD60")]
+	[Address(RVA = "0x6653250", Offset = "0x6652250", VA = "0x6653250")]
 	private static void DrawCameraMotionVectors(RasterCommandBuffer cmd, XRPass xr, Material cameraMaterial)
 	{
 	}
 
 	[Token(Token = "0x600072C")]
-	[Address(RVA = "0x2C5AF00", Offset = "0x2C59500", VA = "0x182C5AF00")]
+	[Address(RVA = "0x6653420", Offset = "0x6652420", VA = "0x6653420")]
 	private static void DrawObjectMotionVectors(RasterCommandBuffer cmd, XRPass xr, ref RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x600072D")]
-	[Address(RVA = "0x2C5B580", Offset = "0x2C59B80", VA = "0x182C5B580")]
+	[Address(RVA = "0x66537F0", Offset = "0x66527F0", VA = "0x66537F0")]
 	private void InitPassData(ref PassData passData, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x600072E")]
-	[Address(RVA = "0x2C5B610", Offset = "0x2C59C10", VA = "0x182C5B610")]
+	[Address(RVA = "0x6653860", Offset = "0x6652860", VA = "0x6653860")]
 	private void InitRendererLists(ref PassData passData, ref CullingResults cullResults, bool supportsDynamicBatching, ScriptableRenderContext context, RenderGraph renderGraph, bool useRenderGraph)
 	{
 	}
 
 	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x2C5BAE0", Offset = "0x2C5A0E0", VA = "0x182C5BAE0")]
+	[Address(RVA = "0x6653CD0", Offset = "0x6652CD0", VA = "0x6653CD0")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, TextureHandle cameraDepthTexture, TextureHandle motionVectorColor, TextureHandle motionVectorDepth)
 	{
 	}
 
 	[Token(Token = "0x6000730")]
-	[Address(RVA = "0x2C5C620", Offset = "0x2C5AC20", VA = "0x182C5C620")]
+	[Address(RVA = "0x66548E0", Offset = "0x66538E0", VA = "0x66548E0")]
 	internal static void SetRenderGraphMotionVectorGlobalMatrices(RenderGraph renderGraph, UniversalCameraData cameraData)
 	{
 	}

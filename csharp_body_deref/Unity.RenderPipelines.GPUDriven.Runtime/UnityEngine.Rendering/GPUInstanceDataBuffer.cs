@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUInstanceDataBuffer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,20 +24,20 @@ internal class GPUInstanceDataBuffer : IDisposable
 		private readonly NativeArray<int> instancesNumPrefixSum;
 
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x2BE93E0", Offset = "0x2BE79E0", VA = "0x182BE93E0")]
+		[Address(RVA = "0x65D0DD0", Offset = "0x65CFDD0", VA = "0x65D0DD0")]
 		public ReadOnly(GPUInstanceDataBuffer buffer)
 		{
 		}
 
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x2BE8790", Offset = "0x2BE6D90", VA = "0x182BE8790")]
+		[Address(RVA = "0x65D0E00", Offset = "0x65CFE00", VA = "0x65D0E00")]
 		public GPUInstanceIndex CPUInstanceToGPUInstance(InstanceHandle instance)
 		{
 			return default(GPUInstanceIndex);
 		}
 
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x2BE86C0", Offset = "0x2BE6CC0", VA = "0x182BE86C0")]
+		[Address(RVA = "0x65D0E10", Offset = "0x65CFE10", VA = "0x65D0E10")]
 		public void CPUInstanceArrayToGPUInstanceArray(NativeArray<InstanceHandle> instances, NativeArray<GPUInstanceIndex> gpuInstanceIndices)
 		{
 		}
@@ -66,7 +66,7 @@ internal class GPUInstanceDataBuffer : IDisposable
 		public NativeArray<GPUInstanceIndex> gpuInstanceIndices;
 
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x2BD9760", Offset = "0x2BD7D60", VA = "0x182BD9760", Slot = "4")]
+		[Address(RVA = "0x65D0ED0", Offset = "0x65CFED0", VA = "0x65D0ED0", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -144,7 +144,7 @@ internal class GPUInstanceDataBuffer : IDisposable
 	public bool valid
 	{
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0x2BDCD80", Offset = "0x2BDB380", VA = "0x182BDCD80")]
+		[Address(RVA = "0x65D04F0", Offset = "0x65CF4F0", VA = "0x65D04F0")]
 		get
 		{
 			return default(bool);
@@ -152,75 +152,75 @@ internal class GPUInstanceDataBuffer : IDisposable
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x2BDCD40", Offset = "0x2BDB340", VA = "0x182BDCD40")]
+	[Address(RVA = "0x65D04B0", Offset = "0x65CF4B0", VA = "0x65D04B0")]
 	public static int NextVersion()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x2BDC740", Offset = "0x2BDAD40", VA = "0x182BDC740")]
+	[Address(RVA = "0x65D0520", Offset = "0x65CF520", VA = "0x65D0520")]
 	private static GPUInstanceIndex CPUInstanceToGPUInstance(in NativeArray<int> instancesNumPrefixSum, InstanceHandle instance)
 	{
 		return default(GPUInstanceIndex);
 	}
 
 	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x2BDCCD0", Offset = "0x2BDB2D0", VA = "0x182BDCCD0")]
+	[Address(RVA = "0x65D0870", Offset = "0x65CF870", VA = "0x65D0870")]
 	public int GetPropertyIndex(int propertyID, bool assertOnFail = true)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x2BDCBA0", Offset = "0x2BDB1A0", VA = "0x182BDCBA0")]
+	[Address(RVA = "0x65D08E0", Offset = "0x65CF8E0", VA = "0x65D08E0")]
 	public int GetGpuAddress(string strName, bool assertOnFail = true)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x2BDCC40", Offset = "0x2BDB240", VA = "0x182BDCC40")]
+	[Address(RVA = "0x65D0960", Offset = "0x65CF960", VA = "0x65D0960")]
 	public int GetGpuAddress(int propertyID, bool assertOnFail = true)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x2BDC8F0", Offset = "0x2BDAEF0", VA = "0x182BDC8F0")]
+	[Address(RVA = "0x65D09E0", Offset = "0x65CF9E0", VA = "0x65D09E0")]
 	public GPUInstanceIndex CPUInstanceToGPUInstance(InstanceHandle instance)
 	{
 		return default(GPUInstanceIndex);
 	}
 
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x2BDCA90", Offset = "0x2BDB090", VA = "0x182BDCA90")]
+	[Address(RVA = "0x65D09F0", Offset = "0x65CF9F0", VA = "0x65D09F0")]
 	public InstanceHandle GPUInstanceToCPUInstance(GPUInstanceIndex gpuInstanceIndex)
 	{
 		return default(InstanceHandle);
 	}
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x2BDC670", Offset = "0x2BDAC70", VA = "0x182BDC670")]
+	[Address(RVA = "0x65D0B50", Offset = "0x65CFB50", VA = "0x65D0B50")]
 	public void CPUInstanceArrayToGPUInstanceArray(NativeArray<InstanceHandle> instances, NativeArray<GPUInstanceIndex> gpuInstanceIndices)
 	{
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x2BDC900", Offset = "0x2BDAF00", VA = "0x182BDC900", Slot = "4")]
+	[Address(RVA = "0x65D0C10", Offset = "0x65CFC10", VA = "0x65D0C10", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x2BDC640", Offset = "0x2BDAC40", VA = "0x182BDC640")]
+	[Address(RVA = "0x65D0DB0", Offset = "0x65CFDB0", VA = "0x65D0DB0")]
 	public ReadOnly AsReadOnly()
 	{
 		return default(ReadOnly);
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65D0DF0", Offset = "0x65CFDF0", VA = "0x65D0DF0")]
 	public GPUInstanceDataBuffer()
 	{
 	}

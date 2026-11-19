@@ -10,29 +10,29 @@ using UnityEngine;
 
 namespace Controllers;
 
-[Token(Token = "0x2000625")]
+[Token(Token = "0x2000684")]
 internal interface IHumanController
 {
-	[Token(Token = "0x6003C7B")]
+	[Token(Token = "0x6003F0B")]
 	bool MovingLeft();
 
-	[Token(Token = "0x6003C7C")]
+	[Token(Token = "0x6003F0C")]
 	bool MovingRight();
 
-	[Token(Token = "0x6003C7D")]
+	[Token(Token = "0x6003F0D")]
 	bool UsingGas();
 
-	[Token(Token = "0x6003C7E")]
+	[Token(Token = "0x6003F0E")]
 	bool HookingLeft();
 
-	[Token(Token = "0x6003C7F")]
+	[Token(Token = "0x6003F0F")]
 	bool HookingRight();
 
-	[Token(Token = "0x6003C80")]
+	[Token(Token = "0x6003F10")]
 	bool HookingBoth();
 
-	[Token(Token = "0x6003C81")]
-	[Address(RVA = "0x528050", Offset = "0x526650", VA = "0x180528050", Slot = "6")]
+	[Token(Token = "0x6003F11")]
+	[Address(RVA = "0x5AAF890", Offset = "0x5AAE890", VA = "0x5AAF890", Slot = "6")]
 	Vector3 GetAimPoint()
 	{
 		return default(Vector3);

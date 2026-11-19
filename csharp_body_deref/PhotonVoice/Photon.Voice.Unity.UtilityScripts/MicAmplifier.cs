@@ -31,38 +31,38 @@ public class MicAmplifier : VoiceComponent
 	public float AmplificationFactor
 	{
 		[Token(Token = "0x600011A")]
-		[Address(RVA = "0x584AC0", Offset = "0x5830C0", VA = "0x180584AC0")]
+		[Address(RVA = "0x5739520", Offset = "0x5738520", VA = "0x5739520")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x1D8A080", Offset = "0x1D88680", VA = "0x181D8A080")]
+		[Address(RVA = "0x5739530", Offset = "0x5738530", VA = "0x5739530")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x1D89B90", Offset = "0x1D88190", VA = "0x181D89B90")]
+	[Address(RVA = "0x5739580", Offset = "0x5738580", VA = "0x5739580")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x1D89B70", Offset = "0x1D88170", VA = "0x181D89B70")]
+	[Address(RVA = "0x57395A0", Offset = "0x57385A0", VA = "0x57395A0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x1D89BB0", Offset = "0x1D881B0", VA = "0x181D89BB0")]
+	[Address(RVA = "0x57395C0", Offset = "0x57385C0", VA = "0x57395C0")]
 	private void PhotonVoiceCreated(PhotonVoiceCreatedParams p)
 	{
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x1D8A010", Offset = "0x1D88610", VA = "0x181D8A010")]
+	[Address(RVA = "0x5739A80", Offset = "0x5738A80", VA = "0x5739A80")]
 	public MicAmplifier()
 	{
 	}

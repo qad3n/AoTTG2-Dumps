@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public abstract class StaticActionInvokerBase : StaticInvokerBase
 {
 	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x2E3CD30", Offset = "0x2E3B330", VA = "0x182E3CD30")]
+	[Address(RVA = "0x6832CB0", Offset = "0x6831CB0", VA = "0x6832CB0")]
 	protected StaticActionInvokerBase(MethodInfo methodInfo)
 	{
 	}

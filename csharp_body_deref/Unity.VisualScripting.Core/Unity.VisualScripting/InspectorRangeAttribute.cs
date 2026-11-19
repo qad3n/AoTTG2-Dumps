@@ -19,14 +19,14 @@ public sealed class InspectorRangeAttribute : Attribute
 	public float min
 	{
 		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x6793060", Offset = "0x6792060", VA = "0x6793060")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x6793070", Offset = "0x6792070", VA = "0x6793070")]
 		[CompilerGenerated]
 		private set
 		{
@@ -37,14 +37,14 @@ public sealed class InspectorRangeAttribute : Attribute
 	public float max
 	{
 		[Token(Token = "0x60001FD")]
-		[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
+		[Address(RVA = "0x6793080", Offset = "0x6792080", VA = "0x6793080")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
+		[Address(RVA = "0x6793090", Offset = "0x6792090", VA = "0x6793090")]
 		[CompilerGenerated]
 		private set
 		{
@@ -52,7 +52,7 @@ public sealed class InspectorRangeAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x2DB1850", Offset = "0x2DAFE50", VA = "0x182DB1850")]
+	[Address(RVA = "0x6793020", Offset = "0x6792020", VA = "0x6793020")]
 	public InspectorRangeAttribute(float min, float max)
 	{
 	}

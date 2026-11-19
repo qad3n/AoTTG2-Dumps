@@ -11,209 +11,209 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005DF")]
+[Token(Token = "0x20005BA")]
 [DebuggerDisplay("Count = {Count}")]
 [DebuggerTypeProxy(typeof(QueueDebugView))]
 public class Queue : ICollection, IEnumerable, ICloneable
 {
 	[Serializable]
-	[Token(Token = "0x20005E0")]
+	[Token(Token = "0x20005BB")]
 	private class QueueEnumerator : IEnumerator, ICloneable
 	{
-		[Token(Token = "0x4001888")]
+		[Token(Token = "0x40017EF")]
 		[FieldOffset(Offset = "0x10")]
 		private Queue _q;
 
-		[Token(Token = "0x4001889")]
+		[Token(Token = "0x40017F0")]
 		[FieldOffset(Offset = "0x18")]
 		private int _index;
 
-		[Token(Token = "0x400188A")]
+		[Token(Token = "0x40017F1")]
 		[FieldOffset(Offset = "0x1C")]
 		private int _version;
 
-		[Token(Token = "0x400188B")]
+		[Token(Token = "0x40017F2")]
 		[FieldOffset(Offset = "0x20")]
 		private object _currentElement;
 
-		[Token(Token = "0x170006DA")]
+		[Token(Token = "0x170006D9")]
 		public virtual object Current
 		{
-			[Token(Token = "0x6002C47")]
-			[Address(RVA = "0x1AC33B0", Offset = "0x1AC19B0", VA = "0x181AC33B0", Slot = "9")]
+			[Token(Token = "0x6002C24")]
+			[Address(RVA = "0x5453DC0", Offset = "0x5452DC0", VA = "0x5453DC0", Slot = "9")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6002C44")]
-		[Address(RVA = "0x1AC3330", Offset = "0x1AC1930", VA = "0x181AC3330")]
+		[Token(Token = "0x6002C21")]
+		[Address(RVA = "0x5453AC0", Offset = "0x5452AC0", VA = "0x5453AC0")]
 		internal QueueEnumerator(Queue q)
 		{
 		}
 
-		[Token(Token = "0x6002C45")]
-		[Address(RVA = "0x1A7BC80", Offset = "0x1A7A280", VA = "0x181A7BC80", Slot = "7")]
+		[Token(Token = "0x6002C22")]
+		[Address(RVA = "0x5453CD0", Offset = "0x5452CD0", VA = "0x5453CD0", Slot = "7")]
 		public object Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002C46")]
-		[Address(RVA = "0x1AC3190", Offset = "0x1AC1790", VA = "0x181AC3190", Slot = "8")]
+		[Token(Token = "0x6002C23")]
+		[Address(RVA = "0x5453CE0", Offset = "0x5452CE0", VA = "0x5453CE0", Slot = "8")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002C48")]
-		[Address(RVA = "0x1AC3280", Offset = "0x1AC1880", VA = "0x181AC3280", Slot = "10")]
+		[Token(Token = "0x6002C25")]
+		[Address(RVA = "0x5453E40", Offset = "0x5452E40", VA = "0x5453E40", Slot = "10")]
 		public virtual void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20005E1")]
+	[Token(Token = "0x20005BC")]
 	internal class QueueDebugView
 	{
 	}
 
-	[Token(Token = "0x4001881")]
+	[Token(Token = "0x40017E8")]
 	[FieldOffset(Offset = "0x10")]
 	private object[] _array;
 
-	[Token(Token = "0x4001882")]
+	[Token(Token = "0x40017E9")]
 	[FieldOffset(Offset = "0x18")]
 	private int _head;
 
-	[Token(Token = "0x4001883")]
+	[Token(Token = "0x40017EA")]
 	[FieldOffset(Offset = "0x1C")]
 	private int _tail;
 
-	[Token(Token = "0x4001884")]
+	[Token(Token = "0x40017EB")]
 	[FieldOffset(Offset = "0x20")]
 	private int _size;
 
-	[Token(Token = "0x4001885")]
+	[Token(Token = "0x40017EC")]
 	[FieldOffset(Offset = "0x24")]
 	private int _growFactor;
 
-	[Token(Token = "0x4001886")]
+	[Token(Token = "0x40017ED")]
 	[FieldOffset(Offset = "0x28")]
 	private int _version;
 
 	[NonSerialized]
-	[Token(Token = "0x4001887")]
+	[Token(Token = "0x40017EE")]
 	[FieldOffset(Offset = "0x30")]
 	private object _syncRoot;
 
-	[Token(Token = "0x170006D7")]
+	[Token(Token = "0x170006D6")]
 	public virtual int Count
 	{
-		[Token(Token = "0x6002C39")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "10")]
+		[Token(Token = "0x6002C16")]
+		[Address(RVA = "0x5453520", Offset = "0x5452520", VA = "0x5453520", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006D8")]
+	[Token(Token = "0x170006D7")]
 	public virtual bool IsSynchronized
 	{
-		[Token(Token = "0x6002C3B")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "12")]
+		[Token(Token = "0x6002C18")]
+		[Address(RVA = "0x5453600", Offset = "0x5452600", VA = "0x5453600", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170006D9")]
+	[Token(Token = "0x170006D8")]
 	public virtual object SyncRoot
 	{
-		[Token(Token = "0x6002C3C")]
-		[Address(RVA = "0x1AC4140", Offset = "0x1AC2740", VA = "0x181AC4140", Slot = "13")]
+		[Token(Token = "0x6002C19")]
+		[Address(RVA = "0x5453610", Offset = "0x5452610", VA = "0x5453610", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002C35")]
-	[Address(RVA = "0x1AC4120", Offset = "0x1AC2720", VA = "0x181AC4120")]
+	[Token(Token = "0x6002C12")]
+	[Address(RVA = "0x5453050", Offset = "0x5452050", VA = "0x5453050")]
 	public Queue()
 	{
 	}
 
-	[Token(Token = "0x6002C36")]
-	[Address(RVA = "0x1AC4110", Offset = "0x1AC2710", VA = "0x181AC4110")]
+	[Token(Token = "0x6002C13")]
+	[Address(RVA = "0x5453260", Offset = "0x5452260", VA = "0x5453260")]
 	public Queue(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6002C37")]
-	[Address(RVA = "0x1AC3CE0", Offset = "0x1AC22E0", VA = "0x181AC3CE0")]
+	[Token(Token = "0x6002C14")]
+	[Address(RVA = "0x54530B0", Offset = "0x54520B0", VA = "0x54530B0")]
 	public Queue(int capacity, float growFactor)
 	{
 	}
 
-	[Token(Token = "0x6002C38")]
-	[Address(RVA = "0x1AC3E90", Offset = "0x1AC2490", VA = "0x181AC3E90")]
+	[Token(Token = "0x6002C15")]
+	[Address(RVA = "0x5453270", Offset = "0x5452270", VA = "0x5453270")]
 	public Queue(ICollection col)
 	{
 	}
 
-	[Token(Token = "0x6002C3A")]
-	[Address(RVA = "0x1AC3470", Offset = "0x1AC1A70", VA = "0x181AC3470", Slot = "11")]
+	[Token(Token = "0x6002C17")]
+	[Address(RVA = "0x5453530", Offset = "0x5452530", VA = "0x5453530", Slot = "11")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C3D")]
-	[Address(RVA = "0x1AC3580", Offset = "0x1AC1B80", VA = "0x181AC3580", Slot = "14")]
+	[Token(Token = "0x6002C1A")]
+	[Address(RVA = "0x5453690", Offset = "0x5452690", VA = "0x5453690", Slot = "14")]
 	public virtual void CopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6002C3E")]
-	[Address(RVA = "0x1AC38B0", Offset = "0x1AC1EB0", VA = "0x181AC38B0", Slot = "15")]
+	[Token(Token = "0x6002C1B")]
+	[Address(RVA = "0x5453860", Offset = "0x5452860", VA = "0x5453860", Slot = "15")]
 	public virtual void Enqueue(object obj)
 	{
 	}
 
-	[Token(Token = "0x6002C3F")]
-	[Address(RVA = "0x1AC3AB0", Offset = "0x1AC20B0", VA = "0x181AC3AB0", Slot = "16")]
+	[Token(Token = "0x6002C1C")]
+	[Address(RVA = "0x5453A20", Offset = "0x5452A20", VA = "0x5453A20", Slot = "16")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C40")]
-	[Address(RVA = "0x1AC37D0", Offset = "0x1AC1DD0", VA = "0x181AC37D0", Slot = "17")]
+	[Token(Token = "0x6002C1D")]
+	[Address(RVA = "0x5453B40", Offset = "0x5452B40", VA = "0x5453B40", Slot = "17")]
 	public virtual object Dequeue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C41")]
-	[Address(RVA = "0x1AC3B60", Offset = "0x1AC2160", VA = "0x181AC3B60", Slot = "18")]
+	[Token(Token = "0x6002C1E")]
+	[Address(RVA = "0x5453C10", Offset = "0x5452C10", VA = "0x5453C10", Slot = "18")]
 	public virtual object Peek()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C42")]
-	[Address(RVA = "0x1AC3A70", Offset = "0x1AC2070", VA = "0x181AC3A70")]
+	[Token(Token = "0x6002C1F")]
+	[Address(RVA = "0x5453CA0", Offset = "0x5452CA0", VA = "0x5453CA0")]
 	internal object GetElement(int i)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C43")]
-	[Address(RVA = "0x1AC3BF0", Offset = "0x1AC21F0", VA = "0x181AC3BF0")]
+	[Token(Token = "0x6002C20")]
+	[Address(RVA = "0x5453950", Offset = "0x5452950", VA = "0x5453950")]
 	private void SetCapacity(int capacity)
 	{
 	}

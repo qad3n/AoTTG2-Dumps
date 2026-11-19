@@ -14,7 +14,7 @@ namespace Unity.VisualScripting.FullSerializer;
 public sealed class fsMissingVersionConstructorException : Exception
 {
 	[Token(Token = "0x6001273")]
-	[Address(RVA = "0x2E6C020", Offset = "0x2E6A620", VA = "0x182E6C020")]
+	[Address(RVA = "0x6864F10", Offset = "0x6863F10", VA = "0x6864F10")]
 	public fsMissingVersionConstructorException(Type versionedType, Type constructorType)
 	{
 	}

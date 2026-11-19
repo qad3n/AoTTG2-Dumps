@@ -13,62 +13,62 @@ namespace System.Xml.Schema;
 internal class XmlBooleanConverter : XmlBaseConverter
 {
 	[Token(Token = "0x60018F5")]
-	[Address(RVA = "0x2692160", Offset = "0x2690760", VA = "0x182692160")]
+	[Address(RVA = "0x60544C0", Offset = "0x60534C0", VA = "0x60544C0")]
 	protected XmlBooleanConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x60018F6")]
-	[Address(RVA = "0x2691A10", Offset = "0x2690010", VA = "0x182691A10")]
+	[Address(RVA = "0x6054520", Offset = "0x6053520", VA = "0x6054520")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F7")]
-	[Address(RVA = "0x2691D90", Offset = "0x2690390", VA = "0x182691D90", Slot = "8")]
+	[Address(RVA = "0x60545B0", Offset = "0x60535B0", VA = "0x60545B0", Slot = "8")]
 	public override bool ToBoolean(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60018F8")]
-	[Address(RVA = "0x2691AA0", Offset = "0x26900A0", VA = "0x182691AA0", Slot = "9")]
+	[Address(RVA = "0x6054650", Offset = "0x6053650", VA = "0x6054650", Slot = "9")]
 	public override bool ToBoolean(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60018F9")]
-	[Address(RVA = "0x2692110", Offset = "0x2690710", VA = "0x182692110", Slot = "43")]
+	[Address(RVA = "0x60548F0", Offset = "0x60538F0", VA = "0x60548F0", Slot = "43")]
 	public override string ToString(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018FA")]
-	[Address(RVA = "0x2691E30", Offset = "0x2690430", VA = "0x182691E30", Slot = "52")]
+	[Address(RVA = "0x6054950", Offset = "0x6053950", VA = "0x6054950", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018FB")]
-	[Address(RVA = "0x2690D00", Offset = "0x268F300", VA = "0x182690D00", Slot = "53")]
+	[Address(RVA = "0x6054BD0", Offset = "0x6053BD0", VA = "0x6054BD0", Slot = "53")]
 	public override object ChangeType(bool value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018FC")]
-	[Address(RVA = "0x26916C0", Offset = "0x268FCC0", VA = "0x1826916C0", Slot = "59")]
+	[Address(RVA = "0x6054ED0", Offset = "0x6053ED0", VA = "0x6054ED0", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018FD")]
-	[Address(RVA = "0x2691020", Offset = "0x268F620", VA = "0x182691020", Slot = "61")]
+	[Address(RVA = "0x60551E0", Offset = "0x60541E0", VA = "0x60551E0", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

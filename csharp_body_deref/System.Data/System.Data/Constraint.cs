@@ -40,13 +40,13 @@ public abstract class Constraint
 	public virtual string ConstraintName
 	{
 		[Token(Token = "0x6000350")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "4")]
+		[Address(RVA = "0x5E8BF40", Offset = "0x5E8AF40", VA = "0x5E8BF40", Slot = "4")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000351")]
-		[Address(RVA = "0x24EA170", Offset = "0x24E8770", VA = "0x1824EA170", Slot = "5")]
+		[Address(RVA = "0x5E8BF50", Offset = "0x5E8AF50", VA = "0x5E8BF50", Slot = "5")]
 		set
 		{
 		}
@@ -56,13 +56,13 @@ public abstract class Constraint
 	internal string SchemaName
 	{
 		[Token(Token = "0x6000352")]
-		[Address(RVA = "0x24EA130", Offset = "0x24E8730", VA = "0x1824EA130")]
+		[Address(RVA = "0x5E8C3E0", Offset = "0x5E8B3E0", VA = "0x5E8C3E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000353")]
-		[Address(RVA = "0x24EA3E0", Offset = "0x24E89E0", VA = "0x1824EA3E0")]
+		[Address(RVA = "0x5E8C410", Offset = "0x5E8B410", VA = "0x5E8C410")]
 		set
 		{
 		}
@@ -72,13 +72,13 @@ public abstract class Constraint
 	internal virtual bool InCollection
 	{
 		[Token(Token = "0x6000354")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30", Slot = "6")]
+		[Address(RVA = "0x5E8C450", Offset = "0x5E8B450", VA = "0x5E8C450", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000355")]
-		[Address(RVA = "0x24EA380", Offset = "0x24E8980", VA = "0x1824EA380", Slot = "7")]
+		[Address(RVA = "0x5E8C460", Offset = "0x5E8B460", VA = "0x5E8C460", Slot = "7")]
 		set
 		{
 		}
@@ -96,7 +96,7 @@ public abstract class Constraint
 	public PropertyCollection ExtendedProperties
 	{
 		[Token(Token = "0x6000357")]
-		[Address(RVA = "0x24EA0C0", Offset = "0x24E86C0", VA = "0x1824EA0C0")]
+		[Address(RVA = "0x5E8C4B0", Offset = "0x5E8B4B0", VA = "0x5E8C4B0")]
 		get
 		{
 			return null;
@@ -108,7 +108,7 @@ public abstract class Constraint
 	protected virtual DataSet _DataSet
 	{
 		[Token(Token = "0x6000362")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "17")]
+		[Address(RVA = "0x5E8C6D0", Offset = "0x5E8B6D0", VA = "0x5E8C6D0", Slot = "17")]
 		get
 		{
 			return null;
@@ -128,7 +128,7 @@ public abstract class Constraint
 	internal abstract Constraint Clone(DataSet destination, bool ignoreNSforTableLookup);
 
 	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x24E9F90", Offset = "0x24E8590", VA = "0x1824E9F90")]
+	[Address(RVA = "0x5E8C520", Offset = "0x5E8B520", VA = "0x5E8C520")]
 	internal void CheckConstraint()
 	{
 	}
@@ -146,7 +146,7 @@ public abstract class Constraint
 	internal abstract void CheckState();
 
 	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x24E9FF0", Offset = "0x24E85F0", VA = "0x1824E9FF0")]
+	[Address(RVA = "0x5E8C580", Offset = "0x5E8B580", VA = "0x5E8C580")]
 	protected void CheckStateForProperty()
 	{
 	}
@@ -155,14 +155,14 @@ public abstract class Constraint
 	internal abstract bool IsConstraintViolated();
 
 	[Token(Token = "0x6000364")]
-	[Address(RVA = "0x1B47C10", Offset = "0x1B46210", VA = "0x181B47C10", Slot = "3")]
+	[Address(RVA = "0x5E8C6E0", Offset = "0x5E8B6E0", VA = "0x5E8C6E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x24EA060", Offset = "0x24E8660", VA = "0x1824EA060")]
+	[Address(RVA = "0x5E8C700", Offset = "0x5E8B700", VA = "0x5E8C700")]
 	protected Constraint()
 	{
 	}

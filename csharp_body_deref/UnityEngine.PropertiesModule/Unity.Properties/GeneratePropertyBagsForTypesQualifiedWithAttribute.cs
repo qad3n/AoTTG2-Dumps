@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.GeneratePropertyBagsForTypesQualifiedWithAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,7 +29,7 @@ public class GeneratePropertyBagsForTypesQualifiedWithAttribute : Attribute
 	private readonly TypeGenerationOptions _003COptions_003Ek__BackingField;
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2FEAD70", Offset = "0x2FE9370", VA = "0x182FEAD70")]
+	[Address(RVA = "0x69E4820", Offset = "0x69E3820", VA = "0x69E4820")]
 	public GeneratePropertyBagsForTypesQualifiedWithAttribute(Type type, TypeGenerationOptions options = TypeGenerationOptions.Default)
 	{
 	}

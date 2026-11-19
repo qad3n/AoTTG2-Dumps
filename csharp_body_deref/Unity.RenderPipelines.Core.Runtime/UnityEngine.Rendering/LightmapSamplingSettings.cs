@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.LightmapSamplingSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ public class LightmapSamplingSettings : IRenderPipelineGraphicsSettings
 	private int UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002Eversion
 	{
 		[Token(Token = "0x6000B9C")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x65256F0", Offset = "0x65246F0", VA = "0x65256F0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -44,7 +44,7 @@ public class LightmapSamplingSettings : IRenderPipelineGraphicsSettings
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000B9D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x6525700", Offset = "0x6524700", VA = "0x6525700", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -55,20 +55,20 @@ public class LightmapSamplingSettings : IRenderPipelineGraphicsSettings
 	public bool useBicubicLightmapSampling
 	{
 		[Token(Token = "0x6000B9E")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x6525710", Offset = "0x6524710", VA = "0x6525710")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B9F")]
-		[Address(RVA = "0x2B41520", Offset = "0x2B3FB20", VA = "0x182B41520")]
+		[Address(RVA = "0x6525720", Offset = "0x6524720", VA = "0x6525720")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000BA0")]
-	[Address(RVA = "0x18D09C0", Offset = "0x18CEFC0", VA = "0x1818D09C0")]
+	[Address(RVA = "0x6525780", Offset = "0x6524780", VA = "0x6525780")]
 	public LightmapSamplingSettings()
 	{
 	}

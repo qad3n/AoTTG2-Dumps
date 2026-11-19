@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.UnsafeQueueData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ internal struct UnsafeQueueData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x29BFB30", Offset = "0x29BE130", VA = "0x1829BFB30")]
+	[Address(RVA = "0x6386BB0", Offset = "0x6385BB0", VA = "0x6386BB0")]
 	internal unsafe UnsafeQueueBlockHeader* GetCurrentWriteBlockTLS(int threadIndex)
 	{
 		//IL_0002: Expected I, but got O
@@ -49,7 +49,7 @@ internal struct UnsafeQueueData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x29BFB40", Offset = "0x29BE140", VA = "0x1829BFB40")]
+	[Address(RVA = "0x6386BC0", Offset = "0x6385BC0", VA = "0x6386BC0")]
 	internal unsafe void SetCurrentWriteBlockTLS(int threadIndex, UnsafeQueueBlockHeader* currentWriteBlock)
 	{
 	}
@@ -69,7 +69,7 @@ internal struct UnsafeQueueData
 	}
 
 	[Token(Token = "0x6000A5F")]
-	[Address(RVA = "0x29BFA90", Offset = "0x29BE090", VA = "0x1829BFA90")]
+	[Address(RVA = "0x6386BD0", Offset = "0x6385BD0", VA = "0x6386BD0")]
 	public unsafe static void DeallocateQueue(UnsafeQueueData* data, AllocatorManager.AllocatorHandle allocator)
 	{
 	}

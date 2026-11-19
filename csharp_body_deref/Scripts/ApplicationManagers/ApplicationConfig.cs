@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000903")]
+[Token(Token = "0x200096D")]
 internal class ApplicationConfig
 {
-	[Token(Token = "0x4002CA9")]
+	[Token(Token = "0x4002F6A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string DevelopmentConfigPath;
 
-	[Token(Token = "0x4002CAA")]
+	[Token(Token = "0x4002F6B")]
 	[FieldOffset(Offset = "0x8")]
 	public static bool DevelopmentMode;
 
-	[Token(Token = "0x4002CAB")]
-	public const string GameVersion = "10.31.2026";
+	[Token(Token = "0x4002F6C")]
+	public const string GameVersion = "11.15.2026";
 
-	[Token(Token = "0x60054DE")]
-	[Address(RVA = "0x2344350", Offset = "0x2342950", VA = "0x182344350")]
+	[Token(Token = "0x600583F")]
+	[Address(RVA = "0x5D080A0", Offset = "0x5D070A0", VA = "0x5D080A0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60054DF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005840")]
+	[Address(RVA = "0x5D08160", Offset = "0x5D07160", VA = "0x5D08160")]
 	public ApplicationConfig()
 	{
 	}

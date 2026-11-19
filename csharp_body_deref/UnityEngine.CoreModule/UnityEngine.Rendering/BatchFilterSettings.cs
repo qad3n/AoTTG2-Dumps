@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.BatchFilterSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,108 +9,108 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200037B")]
+[Token(Token = "0x20003B7")]
 public struct BatchFilterSettings
 {
-	[Token(Token = "0x4000A4B")]
+	[Token(Token = "0x4000BCF")]
 	[FieldOffset(Offset = "0x0")]
 	public uint renderingLayerMask;
 
-	[Token(Token = "0x4000A4C")]
+	[Token(Token = "0x4000BD0")]
 	[FieldOffset(Offset = "0x4")]
 	public int rendererPriority;
 
-	[Token(Token = "0x4000A4D")]
+	[Token(Token = "0x4000BD1")]
 	[FieldOffset(Offset = "0x8")]
 	private ulong m_sceneCullingMask;
 
-	[Token(Token = "0x4000A4E")]
+	[Token(Token = "0x4000BD2")]
 	[FieldOffset(Offset = "0x10")]
 	public byte layer;
 
-	[Token(Token = "0x4000A4F")]
+	[Token(Token = "0x4000BD3")]
 	[FieldOffset(Offset = "0x11")]
 	private byte m_batchLayer;
 
-	[Token(Token = "0x4000A50")]
+	[Token(Token = "0x4000BD4")]
 	[FieldOffset(Offset = "0x12")]
 	private byte m_motionMode;
 
-	[Token(Token = "0x4000A51")]
+	[Token(Token = "0x4000BD5")]
 	[FieldOffset(Offset = "0x13")]
 	private byte m_shadowMode;
 
-	[Token(Token = "0x4000A52")]
+	[Token(Token = "0x4000BD6")]
 	[FieldOffset(Offset = "0x14")]
 	private byte m_receiveShadows;
 
-	[Token(Token = "0x4000A53")]
+	[Token(Token = "0x4000BD7")]
 	[FieldOffset(Offset = "0x15")]
 	private byte m_staticShadowCaster;
 
-	[Token(Token = "0x4000A54")]
+	[Token(Token = "0x4000BD8")]
 	[FieldOffset(Offset = "0x16")]
 	private byte m_allDepthSorted;
 
-	[Token(Token = "0x4000A55")]
+	[Token(Token = "0x4000BD9")]
 	[FieldOffset(Offset = "0x17")]
 	private byte m_isSceneCullingMaskSet;
 
-	[Token(Token = "0x17000322")]
+	[Token(Token = "0x170003B4")]
 	public byte batchLayer
 	{
-		[Token(Token = "0x6001573")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Token(Token = "0x6001729")]
+		[Address(RVA = "0x6964C20", Offset = "0x6963C20", VA = "0x6964C20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000323")]
+	[Token(Token = "0x170003B5")]
 	public MotionVectorGenerationMode motionMode
 	{
-		[Token(Token = "0x6001574")]
-		[Address(RVA = "0x1C6C1B0", Offset = "0x1C6A7B0", VA = "0x181C6C1B0")]
+		[Token(Token = "0x600172A")]
+		[Address(RVA = "0x6964C30", Offset = "0x6963C30", VA = "0x6964C30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000324")]
+	[Token(Token = "0x170003B6")]
 	public ShadowCastingMode shadowCastingMode
 	{
-		[Token(Token = "0x6001575")]
-		[Address(RVA = "0x2DD7CC0", Offset = "0x2DD62C0", VA = "0x182DD7CC0")]
+		[Token(Token = "0x600172B")]
+		[Address(RVA = "0x6964C40", Offset = "0x6963C40", VA = "0x6964C40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000325")]
+	[Token(Token = "0x170003B7")]
 	public bool receiveShadows
 	{
-		[Token(Token = "0x6001576")]
-		[Address(RVA = "0x2F5FEF0", Offset = "0x2F5E4F0", VA = "0x182F5FEF0")]
+		[Token(Token = "0x600172C")]
+		[Address(RVA = "0x6964C50", Offset = "0x6963C50", VA = "0x6964C50")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000326")]
+	[Token(Token = "0x170003B8")]
 	public bool staticShadowCaster
 	{
-		[Token(Token = "0x6001577")]
-		[Address(RVA = "0x2F5FF00", Offset = "0x2F5E500", VA = "0x182F5FF00")]
+		[Token(Token = "0x600172D")]
+		[Address(RVA = "0x6964C60", Offset = "0x6963C60", VA = "0x6964C60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000327")]
+	[Token(Token = "0x170003B9")]
 	public bool allDepthSorted
 	{
-		[Token(Token = "0x6001578")]
-		[Address(RVA = "0x2F5FEE0", Offset = "0x2F5E4E0", VA = "0x182F5FEE0")]
+		[Token(Token = "0x600172E")]
+		[Address(RVA = "0x6964C70", Offset = "0x6963C70", VA = "0x6964C70")]
 		set
 		{
 		}

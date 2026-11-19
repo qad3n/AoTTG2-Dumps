@@ -1,5 +1,5 @@
 // Type: GameManagers.PlayerProperty
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameManagers/PlayerProperty.cs
@@ -8,26 +8,26 @@
 
 // GameManagers.PlayerProperty$$.ctor
 // il2cpp: void GameManagers_PlayerProperty___ctor (GameManagers_PlayerProperty_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x59578f0
 
-void
-GameManagers_PlayerProperty___ctor(GameManagers_PlayerProperty_o* __this, MethodInfo* method)
+void GameManagers_PlayerProperty___ctor(GameManagers_PlayerProperty_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // GameManagers.PlayerProperty$$.cctor
 // il2cpp: void GameManagers_PlayerProperty___cctor (const MethodInfo* method);
-// 0x181e730d0
+// 0x5957900
 
 void GameManagers_PlayerProperty___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f16 == '\0') {
+  GameManagers_PlayerProperty_StaticFields *pGVar1;
+  
+  if (Il2CppMethodInitialized_075458b7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
     il2cpp_codegen_initialize_runtime_metadata(&"tier_ids");
     il2cpp_codegen_initialize_runtime_metadata(&"Guild");
@@ -55,83 +55,85 @@ void GameManagers_PlayerProperty___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"email_verified");
     il2cpp_codegen_initialize_runtime_metadata(&"roles");
     il2cpp_codegen_initialize_runtime_metadata(&"HighestDamage");
-    Il2CppMethodInitialized_184344f16 = '\x01';
+    Il2CppMethodInitialized_075458b7 = '\x01';
   }
   TypeInfo_GameManagers_PlayerProperty->static_fields->Name = "Name";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Name,"Name");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Guild = "Guild";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Guild,"Guild")
-  ;
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Status = "Status";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->Status,"Status");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->CharacterViewId = "CharacterViewId";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->CharacterViewId,"CharacterViewId");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Character = "Character";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->Character,"Character");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->CustomMapHash = "CustomMapHash";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->CustomMapHash,"CustomMapHash");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->CustomLogicHash = "CustomLogicHash";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->CustomLogicHash,"CustomLogicHash");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->CustomAddonHash = "CustomAddonHash";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->CustomAddonHash,"CustomAddonHash");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Team = "Team";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Team,"Team");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Loadout = "Loadout";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->Loadout,"Loadout");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Kills = "Kills";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Kills,"Kills")
-  ;
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Deaths = "Deaths";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->Deaths,"Deaths");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->HighestDamage = "HighestDamage";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->HighestDamage,"HighestDamage");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->TotalDamage = "TotalDamage";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->TotalDamage,"TotalDamage");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->SpawnPoint = "SpawnPoint";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->SpawnPoint,"SpawnPoint");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->CameraDistance = "CameraDistance";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->CameraDistance,"CameraDistance");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Ping = "Ping";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Ping,"Ping");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->SpectateID = "SpectateID";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->SpectateID,"SpectateID");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->AccountId = "sub";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->AccountId,"sub");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->DisplayName = "display_name";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->DisplayName,"display_name");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->EmailVerified = "email_verified";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->EmailVerified,"email_verified");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->AuthoritativeRoles = "roles";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->AuthoritativeRoles,"roles");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonStatus = "patreon_status";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonStatus,"patreon_status");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked = "patreon_linked";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,"patreon_linked");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->TierIds = "tier_ids";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->TierIds,"tier_ids");
-  TypeInfo_GameManagers_PlayerProperty->static_fields->Entitlements = "entitlements";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_GameManagers_PlayerProperty->static_fields->Entitlements,"entitlements");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerProperty->static_fields->Name);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Guild = "Guild";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Guild);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Status = "Status";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Status);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->CharacterViewId = "CharacterViewId";
+  Il2CppCodeGenWriteBarrier(&pGVar1->CharacterViewId);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Character = "Character";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Character);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->CustomMapHash = "CustomMapHash";
+  Il2CppCodeGenWriteBarrier(&pGVar1->CustomMapHash);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->CustomLogicHash = "CustomLogicHash";
+  Il2CppCodeGenWriteBarrier(&pGVar1->CustomLogicHash);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->CustomAddonHash = "CustomAddonHash";
+  Il2CppCodeGenWriteBarrier(&pGVar1->CustomAddonHash);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Team = "Team";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Team);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Loadout = "Loadout";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Loadout);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Kills = "Kills";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Kills);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Deaths = "Deaths";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Deaths);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->HighestDamage = "HighestDamage";
+  Il2CppCodeGenWriteBarrier(&pGVar1->HighestDamage);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->TotalDamage = "TotalDamage";
+  Il2CppCodeGenWriteBarrier(&pGVar1->TotalDamage);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->SpawnPoint = "SpawnPoint";
+  Il2CppCodeGenWriteBarrier(&pGVar1->SpawnPoint);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->CameraDistance = "CameraDistance";
+  Il2CppCodeGenWriteBarrier(&pGVar1->CameraDistance);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Ping = "Ping";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Ping);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->SpectateID = "SpectateID";
+  Il2CppCodeGenWriteBarrier(&pGVar1->SpectateID);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->AccountId = "sub";
+  Il2CppCodeGenWriteBarrier(&pGVar1->AccountId);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->DisplayName = "display_name";
+  Il2CppCodeGenWriteBarrier(&pGVar1->DisplayName);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->EmailVerified = "email_verified";
+  Il2CppCodeGenWriteBarrier(&pGVar1->EmailVerified);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->AuthoritativeRoles = "roles";
+  Il2CppCodeGenWriteBarrier(&pGVar1->AuthoritativeRoles);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->PatreonStatus = "patreon_status";
+  Il2CppCodeGenWriteBarrier(&pGVar1->PatreonStatus);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->PatreonLinked = "patreon_linked";
+  Il2CppCodeGenWriteBarrier(&pGVar1->PatreonLinked);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->TierIds = "tier_ids";
+  Il2CppCodeGenWriteBarrier(&pGVar1->TierIds);
+  pGVar1 = TypeInfo_GameManagers_PlayerProperty->static_fields;
+  pGVar1->Entitlements = "entitlements";
+  Il2CppCodeGenWriteBarrier(&pGVar1->Entitlements);
   return;
 }
 

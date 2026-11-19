@@ -61,7 +61,7 @@ internal class ScanFilter : PathFilter
 		private JToken? System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000E84")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x562F8A0", Offset = "0x562E8A0", VA = "0x562F8A0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -73,7 +73,7 @@ internal class ScanFilter : PathFilter
 		private object? System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000E86")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x562F8F0", Offset = "0x562E8F0", VA = "0x562F8F0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -82,41 +82,41 @@ internal class ScanFilter : PathFilter
 		}
 
 		[Token(Token = "0x6000E80")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x562F160", Offset = "0x562E160", VA = "0x562F160")]
 		[DebuggerHidden]
 		public _003CExecuteFilter_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000E81")]
-		[Address(RVA = "0x1CA71F0", Offset = "0x1CA57F0", VA = "0x181CA71F0", Slot = "7")]
+		[Address(RVA = "0x562F190", Offset = "0x562E190", VA = "0x562F190", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000E82")]
-		[Address(RVA = "0x1CA4DF0", Offset = "0x1CA33F0", VA = "0x181CA4DF0", Slot = "8")]
+		[Address(RVA = "0x562F240", Offset = "0x562E240", VA = "0x562F240", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000E83")]
-		[Address(RVA = "0x1CA75B0", Offset = "0x1CA5BB0", VA = "0x181CA75B0")]
+		[Address(RVA = "0x562F800", Offset = "0x562E800", VA = "0x562F800")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000E85")]
-		[Address(RVA = "0x1CA6B20", Offset = "0x1CA5120", VA = "0x181CA6B20", Slot = "10")]
+		[Address(RVA = "0x562F8B0", Offset = "0x562E8B0", VA = "0x562F8B0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000E87")]
-		[Address(RVA = "0x1CA66A0", Offset = "0x1CA4CA0", VA = "0x181CA66A0", Slot = "4")]
+		[Address(RVA = "0x562F900", Offset = "0x562E900", VA = "0x562F900", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken?>? System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -124,7 +124,7 @@ internal class ScanFilter : PathFilter
 		}
 
 		[Token(Token = "0x6000E88")]
-		[Address(RVA = "0x1CA66A0", Offset = "0x1CA4CA0", VA = "0x181CA66A0", Slot = "5")]
+		[Address(RVA = "0x562F9B0", Offset = "0x562E9B0", VA = "0x562F9B0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator? System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -137,13 +137,13 @@ internal class ScanFilter : PathFilter
 	internal string? Name;
 
 	[Token(Token = "0x6000E7E")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x56293F0", Offset = "0x56283F0", VA = "0x56293F0")]
 	public ScanFilter(string? name)
 	{
 	}
 
 	[Token(Token = "0x6000E7F")]
-	[Address(RVA = "0x1CA36F0", Offset = "0x1CA1CF0", VA = "0x181CA36F0", Slot = "4")]
+	[Address(RVA = "0x562F0E0", Offset = "0x562E0E0", VA = "0x562F0E0", Slot = "4")]
 	[IteratorStateMachine(typeof(_003CExecuteFilter_003Ed__2))]
 	public override IEnumerable<JToken> ExecuteFilter(JToken root, IEnumerable<JToken> current, JsonSelectSettings? settings)
 	{

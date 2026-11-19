@@ -33,41 +33,41 @@ internal struct TransitionData : IStyleDataGroup<TransitionData>, IEquatable<Tra
 	public List<EasingFunction> transitionTimingFunction;
 
 	[Token(Token = "0x6001D8C")]
-	[Address(RVA = "0x30F6D20", Offset = "0x30F5320", VA = "0x1830F6D20", Slot = "4")]
+	[Address(RVA = "0x6AF9DB0", Offset = "0x6AF8DB0", VA = "0x6AF9DB0", Slot = "4")]
 	public TransitionData Copy()
 	{
 		return default(TransitionData);
 	}
 
 	[Token(Token = "0x6001D8D")]
-	[Address(RVA = "0x30F6BB0", Offset = "0x30F51B0", VA = "0x1830F6BB0", Slot = "5")]
+	[Address(RVA = "0x6AF9F40", Offset = "0x6AF8F40", VA = "0x6AF9F40", Slot = "5")]
 	public void CopyFrom(ref TransitionData other)
 	{
 	}
 
 	[Token(Token = "0x6001D8E")]
-	[Address(RVA = "0x30F7070", Offset = "0x30F5670", VA = "0x1830F7070")]
+	[Address(RVA = "0x6AFA090", Offset = "0x6AF9090", VA = "0x6AFA090")]
 	public static bool operator ==(TransitionData lhs, TransitionData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D8F")]
-	[Address(RVA = "0x30F6EA0", Offset = "0x30F54A0", VA = "0x1830F6EA0", Slot = "6")]
+	[Address(RVA = "0x6AFA0D0", Offset = "0x6AF90D0", VA = "0x6AFA0D0", Slot = "6")]
 	public bool Equals(TransitionData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D90")]
-	[Address(RVA = "0x30F6EF0", Offset = "0x30F54F0", VA = "0x1830F6EF0", Slot = "0")]
+	[Address(RVA = "0x6AFA110", Offset = "0x6AF9110", VA = "0x6AFA110", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D91")]
-	[Address(RVA = "0x30F6FC0", Offset = "0x30F55C0", VA = "0x1830F6FC0", Slot = "2")]
+	[Address(RVA = "0x6AFA190", Offset = "0x6AF9190", VA = "0x6AFA190", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

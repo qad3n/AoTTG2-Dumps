@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000461")]
+[Token(Token = "0x200043A")]
 public readonly struct HandleRef
 {
-	[Token(Token = "0x4001244")]
+	[Token(Token = "0x40011A4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly object _wrapper;
 
-	[Token(Token = "0x4001245")]
+	[Token(Token = "0x40011A5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private readonly IntPtr _handle;
 
-	[Token(Token = "0x17000460")]
+	[Token(Token = "0x1700045F")]
 	public IntPtr Handle
 	{
-		[Token(Token = "0x6002220")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x60021F6")]
+		[Address(RVA = "0x53C4520", Offset = "0x53C3520", VA = "0x53C4520")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x600221F")]
-	[Address(RVA = "0x180F490", Offset = "0x180DA90", VA = "0x18180F490")]
+	[Token(Token = "0x60021F5")]
+	[Address(RVA = "0x53C4500", Offset = "0x53C3500", VA = "0x53C4500")]
 	public HandleRef(object wrapper, IntPtr handle)
 	{
 	}

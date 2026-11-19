@@ -12,20 +12,20 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200033C")]
 public enum TextureDimension
 {
-	[Token(Token = "0x400091F")]
+	[Token(Token = "0x400091D")]
 	Unknown = -1,
-	[Token(Token = "0x4000920")]
+	[Token(Token = "0x400091E")]
 	None,
-	[Token(Token = "0x4000921")]
+	[Token(Token = "0x400091F")]
 	Any,
-	[Token(Token = "0x4000922")]
+	[Token(Token = "0x4000920")]
 	Tex2D,
-	[Token(Token = "0x4000923")]
+	[Token(Token = "0x4000921")]
 	Tex3D,
-	[Token(Token = "0x4000924")]
+	[Token(Token = "0x4000922")]
 	Cube,
-	[Token(Token = "0x4000925")]
+	[Token(Token = "0x4000923")]
 	Tex2DArray,
-	[Token(Token = "0x4000926")]
+	[Token(Token = "0x4000924")]
 	CubeArray
 }

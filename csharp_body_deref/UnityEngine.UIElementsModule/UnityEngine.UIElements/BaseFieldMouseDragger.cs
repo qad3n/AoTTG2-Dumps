@@ -15,7 +15,7 @@ namespace UnityEngine.UIElements;
 public abstract class BaseFieldMouseDragger
 {
 	[Token(Token = "0x6000F33")]
-	[Address(RVA = "0x32566C0", Offset = "0x3254CC0", VA = "0x1832566C0")]
+	[Address(RVA = "0x6C72B50", Offset = "0x6C71B50", VA = "0x6C72B50")]
 	public void SetDragZone(VisualElement dragElement)
 	{
 	}
@@ -24,7 +24,7 @@ public abstract class BaseFieldMouseDragger
 	public abstract void SetDragZone(VisualElement dragElement, Rect hotZone);
 
 	[Token(Token = "0x6000F35")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6C72B70", Offset = "0x6C71B70", VA = "0x6C72B70")]
 	protected BaseFieldMouseDragger()
 	{
 	}

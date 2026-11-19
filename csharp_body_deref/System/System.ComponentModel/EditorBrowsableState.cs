@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000153")]
+[Token(Token = "0x2000114")]
 public enum EditorBrowsableState
 {
-	[Token(Token = "0x40005F1")]
+	[Token(Token = "0x4000522")]
 	Always,
-	[Token(Token = "0x40005F2")]
+	[Token(Token = "0x4000523")]
 	Never,
-	[Token(Token = "0x40005F3")]
+	[Token(Token = "0x4000524")]
 	Advanced
 }

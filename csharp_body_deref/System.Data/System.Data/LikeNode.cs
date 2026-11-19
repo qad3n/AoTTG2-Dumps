@@ -21,20 +21,20 @@ internal sealed class LikeNode : BinaryNode
 	private string _pattern;
 
 	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x2508370", Offset = "0x2506970", VA = "0x182508370")]
+	[Address(RVA = "0x5EB6420", Offset = "0x5EB5420", VA = "0x5EB6420")]
 	internal LikeNode(DataTable table, int op, ExpressionNode left, ExpressionNode right)
 	{
 	}
 
 	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x25156E0", Offset = "0x2513CE0", VA = "0x1825156E0", Slot = "7")]
+	[Address(RVA = "0x5EB6480", Offset = "0x5EB5480", VA = "0x5EB6480", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x25153D0", Offset = "0x25139D0", VA = "0x1825153D0")]
+	[Address(RVA = "0x5EB69F0", Offset = "0x5EB59F0", VA = "0x5EB69F0")]
 	internal string AnalyzePattern(string pat)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUInstanceDataBufferGrower
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -73,19 +73,19 @@ internal struct GPUInstanceDataBufferGrower : IDisposable
 		public int kernelId;
 
 		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x2BDD1A0", Offset = "0x2BDB7A0", VA = "0x182BDD1A0")]
+		[Address(RVA = "0x65D33A0", Offset = "0x65D23A0", VA = "0x65D33A0")]
 		public void LoadShaders(GPUResidentDrawerResources resources)
 		{
 		}
 
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x65D3180", Offset = "0x65D2180", VA = "0x65D3180")]
 		public void CreateResources()
 		{
 		}
 
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x254B140", Offset = "0x2549740", VA = "0x18254B140", Slot = "4")]
+		[Address(RVA = "0x65D3440", Offset = "0x65D2440", VA = "0x65D3440", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -100,20 +100,20 @@ internal struct GPUInstanceDataBufferGrower : IDisposable
 	private GPUInstanceDataBuffer m_DstBuffer;
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x2BDB850", Offset = "0x2BD9E50", VA = "0x182BDB850")]
+	[Address(RVA = "0x65D2AB0", Offset = "0x65D1AB0", VA = "0x65D2AB0")]
 	public GPUInstanceDataBufferGrower(GPUInstanceDataBuffer sourceBuffer, in InstanceNumInfo instanceNumInfo)
 	{
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x2BDB490", Offset = "0x2BD9A90", VA = "0x182BDB490")]
+	[Address(RVA = "0x65D2D20", Offset = "0x65D1D20", VA = "0x65D2D20")]
 	public GPUInstanceDataBuffer SubmitToGpu(ref GPUResources gpuResources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x65D3190", Offset = "0x65D2190", VA = "0x65D3190", Slot = "4")]
 	public void Dispose()
 	{
 	}

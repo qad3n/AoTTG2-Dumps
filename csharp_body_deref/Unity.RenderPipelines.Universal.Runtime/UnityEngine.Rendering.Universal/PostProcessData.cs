@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.PostProcessData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -113,7 +113,7 @@ public class PostProcessData : ScriptableObject
 		public int version
 		{
 			[Token(Token = "0x600002C")]
-			[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0", Slot = "4")]
+			[Address(RVA = "0x65F6E90", Offset = "0x65F5E90", VA = "0x65F6E90", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -124,7 +124,7 @@ public class PostProcessData : ScriptableObject
 		public bool isAvailableInPlayerBuild
 		{
 			[Token(Token = "0x600002D")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
+			[Address(RVA = "0x65F6EA0", Offset = "0x65F5EA0", VA = "0x65F6EA0", Slot = "5")]
 			get
 			{
 				return default(bool);
@@ -132,7 +132,7 @@ public class PostProcessData : ScriptableObject
 		}
 
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65F6EB0", Offset = "0x65F5EB0", VA = "0x65F6EB0")]
 		public ShaderResources()
 		{
 		}
@@ -176,7 +176,7 @@ public class PostProcessData : ScriptableObject
 		public int version
 		{
 			[Token(Token = "0x600002F")]
-			[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60", Slot = "4")]
+			[Address(RVA = "0x65F6EC0", Offset = "0x65F5EC0", VA = "0x65F6EC0", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -187,7 +187,7 @@ public class PostProcessData : ScriptableObject
 		public bool isAvailableInPlayerBuild
 		{
 			[Token(Token = "0x6000030")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
+			[Address(RVA = "0x65F6ED0", Offset = "0x65F5ED0", VA = "0x65F6ED0", Slot = "5")]
 			get
 			{
 				return default(bool);
@@ -195,7 +195,7 @@ public class PostProcessData : ScriptableObject
 		}
 
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65F6EE0", Offset = "0x65F5EE0", VA = "0x65F6EE0")]
 		public TextureResources()
 		{
 		}
@@ -210,7 +210,7 @@ public class PostProcessData : ScriptableObject
 	public TextureResources textures;
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x65F6E80", Offset = "0x65F5E80", VA = "0x65F6E80")]
 	public PostProcessData()
 	{
 	}

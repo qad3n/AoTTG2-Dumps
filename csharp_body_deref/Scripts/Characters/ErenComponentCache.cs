@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x200069B")]
+[Token(Token = "0x20006FB")]
 internal class ErenComponentCache : ShifterComponentCache
 {
-	[Token(Token = "0x60040E4")]
-	[Address(RVA = "0x216B960", Offset = "0x2169F60", VA = "0x18216B960")]
+	[Token(Token = "0x6004384")]
+	[Address(RVA = "0x5B18EA0", Offset = "0x5B17EA0", VA = "0x5B18EA0")]
 	public ErenComponentCache(GameObject owner)
 	{
 	}

@@ -55,33 +55,33 @@ internal static class DynamicUtils
 		private static bool _init;
 
 		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x1C18A20", Offset = "0x1C17020", VA = "0x181C18A20")]
+		[Address(RVA = "0x55AF950", Offset = "0x55AE950", VA = "0x55AF950")]
 		private static void Init()
 		{
 		}
 
 		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x1C184F0", Offset = "0x1C16AF0", VA = "0x181C184F0")]
+		[Address(RVA = "0x55AFB50", Offset = "0x55AEB50", VA = "0x55AFB50")]
 		private static object CreateSharpArgumentInfoArray(params int[] values)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60005F0")]
-		[Address(RVA = "0x1C17F20", Offset = "0x1C16520", VA = "0x181C17F20")]
+		[Address(RVA = "0x55AFE40", Offset = "0x55AEE40", VA = "0x55AFE40")]
 		private static void CreateMemberCalls()
 		{
 		}
 
 		[Token(Token = "0x60005F1")]
-		[Address(RVA = "0x1C187E0", Offset = "0x1C16DE0", VA = "0x181C187E0")]
+		[Address(RVA = "0x55B03A0", Offset = "0x55AF3A0", VA = "0x55B03A0")]
 		public static CallSiteBinder GetMember(string name, Type context)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60005F2")]
-		[Address(RVA = "0x1C18C40", Offset = "0x1C17240", VA = "0x181C18C40")]
+		[Address(RVA = "0x55B05A0", Offset = "0x55AF5A0", VA = "0x55B05A0")]
 		public static CallSiteBinder SetMember(string name, Type context)
 		{
 			return null;
@@ -89,7 +89,7 @@ internal static class DynamicUtils
 	}
 
 	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x1C23A00", Offset = "0x1C22000", VA = "0x181C23A00")]
+	[Address(RVA = "0x55AF850", Offset = "0x55AE850", VA = "0x55AF850")]
 	public static IEnumerable<string> GetDynamicMemberNames(this IDynamicMetaObjectProvider dynamicProvider)
 	{
 		return null;

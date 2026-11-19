@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchySearchFilter
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ public struct HierarchySearchFilter
 	public unsafe static ref readonly HierarchySearchFilter Invalid
 	{
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0x2F7F590", Offset = "0x2F7DB90", VA = "0x182F7F590")]
+		[Address(RVA = "0x6974850", Offset = "0x6973850", VA = "0x6974850")]
 		get
 		{
 			return ref *(HierarchySearchFilter*)null;
@@ -44,7 +44,7 @@ public struct HierarchySearchFilter
 	public bool IsValid
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x2F7F5E0", Offset = "0x2F7DBE0", VA = "0x182F7F5E0")]
+		[Address(RVA = "0x69748C0", Offset = "0x69738C0", VA = "0x69748C0")]
 		get
 		{
 			return default(bool);
@@ -55,7 +55,7 @@ public struct HierarchySearchFilter
 	public readonly string Name
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6974910", Offset = "0x6973910", VA = "0x6974910")]
 		[CompilerGenerated]
 		get
 		{
@@ -67,7 +67,7 @@ public struct HierarchySearchFilter
 	public readonly string Value
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6974920", Offset = "0x6973920", VA = "0x6974920")]
 		[CompilerGenerated]
 		get
 		{
@@ -79,7 +79,7 @@ public struct HierarchySearchFilter
 	public readonly float NumValue
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x6974930", Offset = "0x6973930", VA = "0x6974930")]
 		[CompilerGenerated]
 		get
 		{
@@ -91,7 +91,7 @@ public struct HierarchySearchFilter
 	public readonly HierarchySearchFilterOperator Op
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6974940", Offset = "0x6973940", VA = "0x6974940")]
 		[CompilerGenerated]
 		get
 		{
@@ -100,21 +100,21 @@ public struct HierarchySearchFilter
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x2F7F100", Offset = "0x2F7D700", VA = "0x182F7F100")]
+	[Address(RVA = "0x6974950", Offset = "0x6973950", VA = "0x6974950")]
 	public static string ToString(HierarchySearchFilterOperator op)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x2F7F2A0", Offset = "0x2F7D8A0", VA = "0x182F7F2A0", Slot = "3")]
+	[Address(RVA = "0x6974A60", Offset = "0x6973A60", VA = "0x6974A60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x2F7F050", Offset = "0x2F7D650", VA = "0x182F7F050")]
+	[Address(RVA = "0x6974B60", Offset = "0x6973B60", VA = "0x6974B60")]
 	internal static string QuoteStringIfNeeded(string s)
 	{
 		return null;

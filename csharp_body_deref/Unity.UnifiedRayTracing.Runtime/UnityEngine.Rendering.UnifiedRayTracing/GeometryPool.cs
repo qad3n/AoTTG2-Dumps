@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.GeometryPool
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -138,7 +138,7 @@ internal sealed class GeometryPool : IDisposable
 		public static MeshChunk Invalid
 		{
 			[Token(Token = "0x60000B6")]
-			[Address(RVA = "0x2D910C0", Offset = "0x2D8F6C0", VA = "0x182D910C0")]
+			[Address(RVA = "0x6782630", Offset = "0x6781630", VA = "0x6782630")]
 			get
 			{
 				return default(MeshChunk);
@@ -146,7 +146,7 @@ internal sealed class GeometryPool : IDisposable
 		}
 
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x2D910A0", Offset = "0x2D8F6A0", VA = "0x182D910A0")]
+		[Address(RVA = "0x6783B20", Offset = "0x6782B20", VA = "0x6783B20")]
 		public GeoPoolMeshChunk EncodeGPUEntry()
 		{
 			return default(GeoPoolMeshChunk);
@@ -184,7 +184,7 @@ internal sealed class GeometryPool : IDisposable
 		public bool valid
 		{
 			[Token(Token = "0x60000B7")]
-			[Address(RVA = "0x2D8F110", Offset = "0x2D8D710", VA = "0x182D8F110")]
+			[Address(RVA = "0x6780FD0", Offset = "0x677FFD0", VA = "0x6780FD0")]
 			get
 			{
 				return default(bool);
@@ -215,7 +215,7 @@ internal sealed class GeometryPool : IDisposable
 		public bool valid
 		{
 			[Token(Token = "0x60000B9")]
-			[Address(RVA = "0x2D8AEE0", Offset = "0x2D894E0", VA = "0x182D8AEE0")]
+			[Address(RVA = "0x67829D0", Offset = "0x67819D0", VA = "0x67829D0")]
 			get
 			{
 				return default(bool);
@@ -246,7 +246,7 @@ internal sealed class GeometryPool : IDisposable
 		public bool valid
 		{
 			[Token(Token = "0x60000BB")]
-			[Address(RVA = "0x1B96F50", Offset = "0x1B95550", VA = "0x181B96F50")]
+			[Address(RVA = "0x6784440", Offset = "0x6783440", VA = "0x6784440")]
 			get
 			{
 				return default(bool);
@@ -373,7 +373,7 @@ internal sealed class GeometryPool : IDisposable
 	public GraphicsBuffer globalIndexBuffer
 	{
 		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6780A40", Offset = "0x677FA40", VA = "0x6780A40")]
 		get
 		{
 			return null;
@@ -384,7 +384,7 @@ internal sealed class GeometryPool : IDisposable
 	public GraphicsBuffer globalVertexBuffer
 	{
 		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6780A50", Offset = "0x677FA50", VA = "0x6780A50")]
 		get
 		{
 			return null;
@@ -395,7 +395,7 @@ internal sealed class GeometryPool : IDisposable
 	public int globalVertexBufferStrideBytes
 	{
 		[Token(Token = "0x6000092")]
-		[Address(RVA = "0x846F70", Offset = "0x845570", VA = "0x180846F70")]
+		[Address(RVA = "0x67807F0", Offset = "0x677F7F0", VA = "0x67807F0")]
 		get
 		{
 			return default(int);
@@ -406,7 +406,7 @@ internal sealed class GeometryPool : IDisposable
 	public GraphicsBuffer globalMeshChunkTableEntryBuffer
 	{
 		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6780A60", Offset = "0x677FA60", VA = "0x6780A60")]
 		get
 		{
 			return null;
@@ -417,7 +417,7 @@ internal sealed class GeometryPool : IDisposable
 	public int indicesCount
 	{
 		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x6780A70", Offset = "0x677FA70", VA = "0x6780A70")]
 		get
 		{
 			return default(int);
@@ -428,7 +428,7 @@ internal sealed class GeometryPool : IDisposable
 	public int verticesCount
 	{
 		[Token(Token = "0x6000095")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x6780A80", Offset = "0x677FA80", VA = "0x6780A80")]
 		get
 		{
 			return default(int);
@@ -439,7 +439,7 @@ internal sealed class GeometryPool : IDisposable
 	public int meshChunkTablesEntryCount
 	{
 		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x6780A90", Offset = "0x677FA90", VA = "0x6780A90")]
 		get
 		{
 			return default(int);
@@ -447,225 +447,225 @@ internal sealed class GeometryPool : IDisposable
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x846F70", Offset = "0x845570", VA = "0x180846F70")]
+	[Address(RVA = "0x6780280", Offset = "0x677F280", VA = "0x6780280")]
 	public static int GetVertexByteSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40")]
+	[Address(RVA = "0x6780980", Offset = "0x677F980", VA = "0x6780980")]
 	public static int GetIndexByteSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2D8D8D0", Offset = "0x2D8BED0", VA = "0x182D8D8D0")]
+	[Address(RVA = "0x6780990", Offset = "0x677F990", VA = "0x6780990")]
 	public static int GetMeshChunkTableEntryByteSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x2D8D630", Offset = "0x2D8BC30", VA = "0x182D8D630")]
+	[Address(RVA = "0x6780A10", Offset = "0x677FA10", VA = "0x6780A10")]
 	private int GetFormatByteCount(VertexAttributeFormat format)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2B107A0", Offset = "0x2B0EDA0", VA = "0x182B107A0")]
+	[Address(RVA = "0x6780A30", Offset = "0x677FA30", VA = "0x6780A30")]
 	private static int DivUp(int x, int y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2D8EAC0", Offset = "0x2D8D0C0", VA = "0x182D8EAC0")]
+	[Address(RVA = "0x677B180", Offset = "0x677A180", VA = "0x677B180")]
 	public GeometryPool(in GeometryPoolDesc desc, ComputeShader geometryPoolShader, ComputeShader copyShader)
 	{
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2D8CF00", Offset = "0x2D8B500", VA = "0x182D8CF00")]
+	[Address(RVA = "0x6780DA0", Offset = "0x677FDA0", VA = "0x6780DA0")]
 	private void DisposeInputBuffers()
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x2D8D080", Offset = "0x2D8B680", VA = "0x182D8D080", Slot = "4")]
+	[Address(RVA = "0x677F2D0", Offset = "0x677E2D0", VA = "0x677F2D0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2D8DA30", Offset = "0x2D8C030", VA = "0x182D8DA30")]
+	[Address(RVA = "0x6780AA0", Offset = "0x677FAA0", VA = "0x6780AA0")]
 	private void LoadKernels(ComputeShader geometryPoolShader)
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x2D8C770", Offset = "0x2D8AD70", VA = "0x182D8C770")]
+	[Address(RVA = "0x6780B70", Offset = "0x677FB70", VA = "0x6780B70")]
 	private int CalcVertexCount(int bufferByteSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2746550", Offset = "0x2744B50", VA = "0x182746550")]
+	[Address(RVA = "0x6780B80", Offset = "0x677FB80", VA = "0x6780B80")]
 	private int CalcIndexCount(int bufferByteSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2D8C700", Offset = "0x2D8AD00", VA = "0x182D8C700")]
+	[Address(RVA = "0x6780B90", Offset = "0x677FB90", VA = "0x6780B90")]
 	private int CalcMeshChunkTablesCount(int bufferByteSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2D8CD50", Offset = "0x2D8B350", VA = "0x182D8CD50")]
+	[Address(RVA = "0x6781030", Offset = "0x6780030", VA = "0x6781030")]
 	private void DeallocateGeometrySlot(ref GeometrySlot slot)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2D8CC10", Offset = "0x2D8B210", VA = "0x182D8CC10")]
+	[Address(RVA = "0x6781340", Offset = "0x6780340", VA = "0x6781340")]
 	private void DeallocateGeometrySlot(int geoSlotHandle)
 	{
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2D8BD20", Offset = "0x2D8A320", VA = "0x182D8BD20")]
+	[Address(RVA = "0x6781460", Offset = "0x6780460", VA = "0x6781460")]
 	private bool AllocateGeo(Mesh mesh, out int allocationHandle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2D8C920", Offset = "0x2D8AF20", VA = "0x182D8C920")]
+	[Address(RVA = "0x67826C0", Offset = "0x67816C0", VA = "0x67826C0")]
 	private void DeallocateGeoPoolEntrySlot(GeometryPoolHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2D8CA60", Offset = "0x2D8B060", VA = "0x182D8CA60")]
+	[Address(RVA = "0x6782840", Offset = "0x6781840", VA = "0x6782840")]
 	private void DeallocateGeoPoolEntrySlot(ref GeoPoolEntrySlot geoPoolEntrySlot)
 	{
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2D8D520", Offset = "0x2D8BB20", VA = "0x182D8D520")]
+	[Address(RVA = "0x67828B0", Offset = "0x67818B0", VA = "0x67828B0")]
 	public GeometryPoolEntryInfo GetEntryInfo(GeometryPoolHandle handle)
 	{
 		return default(GeometryPoolEntryInfo);
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2D8D460", Offset = "0x2D8BA60", VA = "0x182D8D460")]
+	[Address(RVA = "0x67801B0", Offset = "0x677F1B0", VA = "0x67801B0")]
 	public GeometrySlot GetEntryGeomAllocation(GeometryPoolHandle handle)
 	{
 		return default(GeometrySlot);
 	}
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x2D8D770", Offset = "0x2D8BD70", VA = "0x182D8D770")]
+	[Address(RVA = "0x67829E0", Offset = "0x67819E0", VA = "0x67829E0")]
 	public int GetInstanceGeometryIndex(Mesh mesh)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x2D8E5D0", Offset = "0x2D8CBD0", VA = "0x182D8E5D0")]
+	[Address(RVA = "0x6782B70", Offset = "0x6781B70", VA = "0x6782B70")]
 	private void UpdateGeoGpuState(Mesh mesh, GeometryPoolHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x2D8D3C0", Offset = "0x2D8B9C0", VA = "0x182D8D3C0")]
+	[Address(RVA = "0x6783B30", Offset = "0x6782B30", VA = "0x6783B30")]
 	private uint FNVHash(uint prevHash, uint dword)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x2D8C780", Offset = "0x2D8AD80", VA = "0x182D8C780")]
+	[Address(RVA = "0x6783B70", Offset = "0x6782B70", VA = "0x6783B70")]
 	private uint CalculateClusterHash(Mesh mesh, GeometryPoolSubmeshData[] submeshData)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x2D8D690", Offset = "0x2D8BC90", VA = "0x182D8D690")]
+	[Address(RVA = "0x6782A80", Offset = "0x6781A80", VA = "0x6782A80")]
 	public GeometryPoolHandle GetHandle(Mesh mesh)
 	{
 		return default(GeometryPoolHandle);
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x2D8D410", Offset = "0x2D8BA10", VA = "0x182D8D410")]
+	[Address(RVA = "0x6783D30", Offset = "0x6782D30", VA = "0x6783D30")]
 	private static int FindSubmeshEntryInDesc(int submeshIndex, in GeometryPoolSubmeshData[] submeshData)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x2D8E370", Offset = "0x2D8C970", VA = "0x182D8E370")]
+	[Address(RVA = "0x677FFF0", Offset = "0x677EFF0", VA = "0x677FFF0")]
 	public bool Register(Mesh mesh, out GeometryPoolHandle outHandle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x2D8DCD0", Offset = "0x2D8C2D0", VA = "0x182D8DCD0")]
+	[Address(RVA = "0x6783D70", Offset = "0x6782D70", VA = "0x6783D70")]
 	public bool Register(in GeometryPoolEntryDesc entryDesc, out GeometryPoolHandle outHandle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x2D8E450", Offset = "0x2D8CA50", VA = "0x182D8E450")]
+	[Address(RVA = "0x677F200", Offset = "0x677E200", VA = "0x677F200")]
 	public void Unregister(GeometryPoolHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x2D8E3D0", Offset = "0x2D8C9D0", VA = "0x182D8E3D0")]
+	[Address(RVA = "0x677F250", Offset = "0x677E250", VA = "0x677F250")]
 	public void SendGpuCommands()
 	{
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x2D8D930", Offset = "0x2D8BF30", VA = "0x182D8D930")]
+	[Address(RVA = "0x6783090", Offset = "0x6782090", VA = "0x6783090")]
 	private GraphicsBuffer LoadIndexBuffer(Mesh mesh)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x2D8DB00", Offset = "0x2D8C100", VA = "0x182D8DB00")]
+	[Address(RVA = "0x6783170", Offset = "0x6782170", VA = "0x6783170")]
 	private void LoadVertexAttribInfo(Mesh mesh, VertexAttribute attribute, out VertexBufferAttribInfo output)
 	{
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2D8BCD0", Offset = "0x2D8A2D0", VA = "0x182D8BCD0")]
+	[Address(RVA = "0x6783050", Offset = "0x6782050", VA = "0x6783050")]
 	private CommandBuffer AllocateCommandBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x2D8B3E0", Offset = "0x2D899E0", VA = "0x182D8B3E0")]
+	[Address(RVA = "0x6783830", Offset = "0x6782830", VA = "0x6783830")]
 	private void AddIndexUpdateCommand(CommandBuffer cmdBuffer, IndexFormat inputFormat, in GraphicsBuffer inputBuffer, in BlockAllocator.Allocation location, int firstVertex, int inputOffset, int indexCount, int outputOffset, GraphicsBuffer outputIdxBuffer)
 	{
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x2D8B6E0", Offset = "0x2D89CE0", VA = "0x182D8B6E0")]
+	[Address(RVA = "0x6783300", Offset = "0x6782300", VA = "0x6783300")]
 	private void AddVertexUpdateCommand(CommandBuffer cmdBuffer, int baseVertexOffset, in VertexBufferAttribInfo pos, in VertexBufferAttribInfo uv0, in VertexBufferAttribInfo uv1, in VertexBufferAttribInfo n, in BlockAllocator.Allocation location, GraphicsBuffer outputVertexBuffer)
 	{
 	}

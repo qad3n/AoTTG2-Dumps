@@ -31,26 +31,26 @@ internal struct ExpressionMultiplier
 	public ExpressionMultiplierType type
 	{
 		[Token(Token = "0x6002DDB")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
+		[Address(RVA = "0x6BF8350", Offset = "0x6BF7350", VA = "0x6BF8350")]
 		get
 		{
 			return default(ExpressionMultiplierType);
 		}
 		[Token(Token = "0x6002DDC")]
-		[Address(RVA = "0x31ECF40", Offset = "0x31EB540", VA = "0x1831ECF40")]
+		[Address(RVA = "0x6BFA410", Offset = "0x6BF9410", VA = "0x6BFA410")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002DDD")]
-	[Address(RVA = "0x31ECF20", Offset = "0x31EB520", VA = "0x1831ECF20")]
+	[Address(RVA = "0x6BFA3B0", Offset = "0x6BF93B0", VA = "0x6BFA3B0")]
 	public ExpressionMultiplier(ExpressionMultiplierType type = ExpressionMultiplierType.None)
 	{
 	}
 
 	[Token(Token = "0x6002DDE")]
-	[Address(RVA = "0x31ECEA0", Offset = "0x31EB4A0", VA = "0x1831ECEA0")]
+	[Address(RVA = "0x6BFA470", Offset = "0x6BF9470", VA = "0x6BFA470")]
 	private void SetType(ExpressionMultiplierType value)
 	{
 	}

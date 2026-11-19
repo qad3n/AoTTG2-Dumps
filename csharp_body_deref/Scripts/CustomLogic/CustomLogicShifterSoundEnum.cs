@@ -11,190 +11,190 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200050A")]
+[Token(Token = "0x2000569")]
 [CompilerGenerated]
 internal class CustomLogicShifterSoundEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x200050B")]
+	[Token(Token = "0x200056A")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002D96")]
-		[Address(RVA = "0x1FEFEF0", Offset = "0x1FEE4F0", VA = "0x181FEFEF0")]
+		[Token(Token = "0x6003022")]
+		[Address(RVA = "0x59A90C0", Offset = "0x59A80C0", VA = "0x59A90C0")]
 		public static CustomLogicShifterSoundEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200050C")]
+	[Token(Token = "0x200056B")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016E0")]
+		[Token(Token = "0x4001880")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002D97")]
-		[Address(RVA = "0x1FD7DD0", Offset = "0x1FD63D0", VA = "0x181FD7DD0")]
+		[Token(Token = "0x6003023")]
+		[Address(RVA = "0x59A91E0", Offset = "0x59A81E0", VA = "0x59A91E0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D98")]
-		[Address(RVA = "0x1FE7DA0", Offset = "0x1FE63A0", VA = "0x181FE7DA0")]
+		[Token(Token = "0x6003024")]
+		[Address(RVA = "0x59A9450", Offset = "0x59A8450", VA = "0x59A9450")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__Thunder()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D99")]
-		[Address(RVA = "0x1FE2120", Offset = "0x1FE0720", VA = "0x181FE2120")]
+		[Token(Token = "0x6003025")]
+		[Address(RVA = "0x59A94F0", Offset = "0x59A84F0", VA = "0x59A94F0")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__ErenRoar()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D9A")]
-		[Address(RVA = "0x1FDF1A0", Offset = "0x1FDD7A0", VA = "0x181FDF1A0")]
+		[Token(Token = "0x6003026")]
+		[Address(RVA = "0x59A9590", Offset = "0x59A8590", VA = "0x59A9590")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__AnnieRoar()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D9B")]
-		[Address(RVA = "0x1FDF100", Offset = "0x1FDD700", VA = "0x181FDF100")]
+		[Token(Token = "0x6003027")]
+		[Address(RVA = "0x59A9630", Offset = "0x59A8630", VA = "0x59A9630")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__AnnieHurt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D9C")]
-		[Address(RVA = "0x1FE0C80", Offset = "0x1FDF280", VA = "0x181FE0C80")]
+		[Token(Token = "0x6003028")]
+		[Address(RVA = "0x59A96D0", Offset = "0x59A86D0", VA = "0x59A96D0")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__ColossalSteam1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D9D")]
-		[Address(RVA = "0x1FE0D20", Offset = "0x1FDF320", VA = "0x181FE0D20")]
+		[Token(Token = "0x6003029")]
+		[Address(RVA = "0x59A9770", Offset = "0x59A8770", VA = "0x59A9770")]
 		public static CLPropertyBinding<CustomLogicShifterSoundEnum> __CreatePropertyBinding__ColossalSteam2()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007E6")]
+	[Token(Token = "0x1700082E")]
 	public static string Thunder
 	{
-		[Token(Token = "0x6002D8C")]
-		[Address(RVA = "0x1FEF320", Offset = "0x1FED920", VA = "0x181FEF320")]
+		[Token(Token = "0x6003018")]
+		[Address(RVA = "0x59A8DC0", Offset = "0x59A7DC0", VA = "0x59A8DC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007E7")]
+	[Token(Token = "0x1700082F")]
 	public static string ErenRoar
 	{
-		[Token(Token = "0x6002D8D")]
-		[Address(RVA = "0x1FEF2D0", Offset = "0x1FED8D0", VA = "0x181FEF2D0")]
+		[Token(Token = "0x6003019")]
+		[Address(RVA = "0x59A8E30", Offset = "0x59A7E30", VA = "0x59A8E30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007E8")]
+	[Token(Token = "0x17000830")]
 	public static string AnnieRoar
 	{
-		[Token(Token = "0x6002D8E")]
-		[Address(RVA = "0x1FEF1B0", Offset = "0x1FED7B0", VA = "0x181FEF1B0")]
+		[Token(Token = "0x600301A")]
+		[Address(RVA = "0x59A8EA0", Offset = "0x59A7EA0", VA = "0x59A8EA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007E9")]
+	[Token(Token = "0x17000831")]
 	public static string AnnieHurt
 	{
-		[Token(Token = "0x6002D8F")]
-		[Address(RVA = "0x1FEF160", Offset = "0x1FED760", VA = "0x181FEF160")]
+		[Token(Token = "0x600301B")]
+		[Address(RVA = "0x59A8F10", Offset = "0x59A7F10", VA = "0x59A8F10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007EA")]
+	[Token(Token = "0x17000832")]
 	public static string ColossalSteam1
 	{
-		[Token(Token = "0x6002D90")]
-		[Address(RVA = "0x1FEF230", Offset = "0x1FED830", VA = "0x181FEF230")]
+		[Token(Token = "0x600301C")]
+		[Address(RVA = "0x59A8F80", Offset = "0x59A7F80", VA = "0x59A8F80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007EB")]
+	[Token(Token = "0x17000833")]
 	public static string ColossalSteam2
 	{
-		[Token(Token = "0x6002D91")]
-		[Address(RVA = "0x1FEF280", Offset = "0x1FED880", VA = "0x181FEF280")]
+		[Token(Token = "0x600301D")]
+		[Address(RVA = "0x59A8FF0", Offset = "0x59A7FF0", VA = "0x59A8FF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007EC")]
+	[Token(Token = "0x17000834")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002D92")]
-		[Address(RVA = "0x1FEF200", Offset = "0x1FED800", VA = "0x181FEF200", Slot = "6")]
+		[Token(Token = "0x600301E")]
+		[Address(RVA = "0x59A9060", Offset = "0x59A8060", VA = "0x59A9060", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007ED")]
+	[Token(Token = "0x17000835")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002D93")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x600301F")]
+		[Address(RVA = "0x59A9090", Offset = "0x59A8090", VA = "0x59A9090", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007EE")]
+	[Token(Token = "0x17000836")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002D94")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003020")]
+		[Address(RVA = "0x59A90A0", Offset = "0x59A80A0", VA = "0x59A90A0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007EF")]
+	[Token(Token = "0x17000837")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002D95")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003021")]
+		[Address(RVA = "0x59A90B0", Offset = "0x59A80B0", VA = "0x59A90B0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002D8B")]
-	[Address(RVA = "0x1FEF110", Offset = "0x1FED710", VA = "0x181FEF110")]
+	[Token(Token = "0x6003017")]
+	[Address(RVA = "0x59A8D50", Offset = "0x59A7D50", VA = "0x59A8D50")]
 	public CustomLogicShifterSoundEnum()
 	{
 	}

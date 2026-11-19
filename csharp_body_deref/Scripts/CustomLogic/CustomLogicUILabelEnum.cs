@@ -11,244 +11,244 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000534")]
+[Token(Token = "0x2000593")]
 [CompilerGenerated]
 internal class CustomLogicUILabelEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000535")]
+	[Token(Token = "0x2000594")]
 	public static class Factory
 	{
-		[Token(Token = "0x600307A")]
-		[Address(RVA = "0x20176E0", Offset = "0x2015CE0", VA = "0x1820176E0")]
+		[Token(Token = "0x6003306")]
+		[Address(RVA = "0x59C0F30", Offset = "0x59BFF30", VA = "0x59C0F30")]
 		public static CustomLogicUILabelEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000536")]
+	[Token(Token = "0x2000595")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016F4")]
+		[Token(Token = "0x4001894")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600307B")]
-		[Address(RVA = "0x1FF2260", Offset = "0x1FF0860", VA = "0x181FF2260")]
+		[Token(Token = "0x6003307")]
+		[Address(RVA = "0x59C1050", Offset = "0x59C0050", VA = "0x59C1050")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600307C")]
-		[Address(RVA = "0x2008140", Offset = "0x2006740", VA = "0x182008140")]
+		[Token(Token = "0x6003308")]
+		[Address(RVA = "0x59C14A0", Offset = "0x59C04A0", VA = "0x59C14A0")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__TopCenter()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600307D")]
-		[Address(RVA = "0x20081E0", Offset = "0x20067E0", VA = "0x1820081E0")]
+		[Token(Token = "0x6003309")]
+		[Address(RVA = "0x59C1540", Offset = "0x59C0540", VA = "0x59C1540")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__TopLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600307E")]
-		[Address(RVA = "0x2008280", Offset = "0x2006880", VA = "0x182008280")]
+		[Token(Token = "0x600330A")]
+		[Address(RVA = "0x59C15E0", Offset = "0x59C05E0", VA = "0x59C15E0")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__TopRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600307F")]
-		[Address(RVA = "0x2006390", Offset = "0x2004990", VA = "0x182006390")]
+		[Token(Token = "0x600330B")]
+		[Address(RVA = "0x59C1680", Offset = "0x59C0680", VA = "0x59C1680")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__MiddleCenter()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003080")]
-		[Address(RVA = "0x20064D0", Offset = "0x2004AD0", VA = "0x1820064D0")]
+		[Token(Token = "0x600330C")]
+		[Address(RVA = "0x59C1720", Offset = "0x59C0720", VA = "0x59C1720")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__MiddleLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003081")]
-		[Address(RVA = "0x2006610", Offset = "0x2004C10", VA = "0x182006610")]
+		[Token(Token = "0x600330D")]
+		[Address(RVA = "0x59C17C0", Offset = "0x59C07C0", VA = "0x59C17C0")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__MiddleRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003082")]
-		[Address(RVA = "0x2002FB0", Offset = "0x20015B0", VA = "0x182002FB0")]
+		[Token(Token = "0x600330E")]
+		[Address(RVA = "0x59C1860", Offset = "0x59C0860", VA = "0x59C1860")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__BottomCenter()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003083")]
-		[Address(RVA = "0x2003050", Offset = "0x2001650", VA = "0x182003050")]
+		[Token(Token = "0x600330F")]
+		[Address(RVA = "0x59C1900", Offset = "0x59C0900", VA = "0x59C1900")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__BottomLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003084")]
-		[Address(RVA = "0x20030F0", Offset = "0x20016F0", VA = "0x1820030F0")]
+		[Token(Token = "0x6003310")]
+		[Address(RVA = "0x59C19A0", Offset = "0x59C09A0", VA = "0x59C19A0")]
 		public static CLPropertyBinding<CustomLogicUILabelEnum> __CreatePropertyBinding__BottomRight()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008EE")]
+	[Token(Token = "0x17000936")]
 	public static string TopCenter
 	{
-		[Token(Token = "0x600306D")]
-		[Address(RVA = "0x1FFED80", Offset = "0x1FFD380", VA = "0x181FFED80")]
+		[Token(Token = "0x60032F9")]
+		[Address(RVA = "0x59C0D20", Offset = "0x59BFD20", VA = "0x59C0D20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008EF")]
+	[Token(Token = "0x17000937")]
 	public static string TopLeft
 	{
-		[Token(Token = "0x600306E")]
-		[Address(RVA = "0x1FFEDB0", Offset = "0x1FFD3B0", VA = "0x181FFEDB0")]
+		[Token(Token = "0x60032FA")]
+		[Address(RVA = "0x59C0D50", Offset = "0x59BFD50", VA = "0x59C0D50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F0")]
+	[Token(Token = "0x17000938")]
 	public static string TopRight
 	{
-		[Token(Token = "0x600306F")]
-		[Address(RVA = "0x1FFEDE0", Offset = "0x1FFD3E0", VA = "0x181FFEDE0")]
+		[Token(Token = "0x60032FB")]
+		[Address(RVA = "0x59C0D80", Offset = "0x59BFD80", VA = "0x59C0D80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F1")]
+	[Token(Token = "0x17000939")]
 	public static string MiddleCenter
 	{
-		[Token(Token = "0x6003070")]
-		[Address(RVA = "0x1FFE040", Offset = "0x1FFC640", VA = "0x181FFE040")]
+		[Token(Token = "0x60032FC")]
+		[Address(RVA = "0x59C0DB0", Offset = "0x59BFDB0", VA = "0x59C0DB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F2")]
+	[Token(Token = "0x1700093A")]
 	public static string MiddleLeft
 	{
-		[Token(Token = "0x6003071")]
-		[Address(RVA = "0x1FFE070", Offset = "0x1FFC670", VA = "0x181FFE070")]
+		[Token(Token = "0x60032FD")]
+		[Address(RVA = "0x59C0DE0", Offset = "0x59BFDE0", VA = "0x59C0DE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F3")]
+	[Token(Token = "0x1700093B")]
 	public static string MiddleRight
 	{
-		[Token(Token = "0x6003072")]
-		[Address(RVA = "0x1FFE0A0", Offset = "0x1FFC6A0", VA = "0x181FFE0A0")]
+		[Token(Token = "0x60032FE")]
+		[Address(RVA = "0x59C0E10", Offset = "0x59BFE10", VA = "0x59C0E10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F4")]
+	[Token(Token = "0x1700093C")]
 	public static string BottomCenter
 	{
-		[Token(Token = "0x6003073")]
-		[Address(RVA = "0x1FFC720", Offset = "0x1FFAD20", VA = "0x181FFC720")]
+		[Token(Token = "0x60032FF")]
+		[Address(RVA = "0x59C0E40", Offset = "0x59BFE40", VA = "0x59C0E40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F5")]
+	[Token(Token = "0x1700093D")]
 	public static string BottomLeft
 	{
-		[Token(Token = "0x6003074")]
-		[Address(RVA = "0x1FFC750", Offset = "0x1FFAD50", VA = "0x181FFC750")]
+		[Token(Token = "0x6003300")]
+		[Address(RVA = "0x59C0E70", Offset = "0x59BFE70", VA = "0x59C0E70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F6")]
+	[Token(Token = "0x1700093E")]
 	public static string BottomRight
 	{
-		[Token(Token = "0x6003075")]
-		[Address(RVA = "0x1FFC780", Offset = "0x1FFAD80", VA = "0x181FFC780")]
+		[Token(Token = "0x6003301")]
+		[Address(RVA = "0x59C0EA0", Offset = "0x59BFEA0", VA = "0x59C0EA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F7")]
+	[Token(Token = "0x1700093F")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003076")]
-		[Address(RVA = "0x20163F0", Offset = "0x20149F0", VA = "0x1820163F0", Slot = "6")]
+		[Token(Token = "0x6003302")]
+		[Address(RVA = "0x59C0ED0", Offset = "0x59BFED0", VA = "0x59C0ED0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008F8")]
+	[Token(Token = "0x17000940")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003077")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003303")]
+		[Address(RVA = "0x59C0F00", Offset = "0x59BFF00", VA = "0x59C0F00", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008F9")]
+	[Token(Token = "0x17000941")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003078")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003304")]
+		[Address(RVA = "0x59C0F10", Offset = "0x59BFF10", VA = "0x59C0F10", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008FA")]
+	[Token(Token = "0x17000942")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6003079")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003305")]
+		[Address(RVA = "0x59C0F20", Offset = "0x59BFF20", VA = "0x59C0F20", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600306C")]
-	[Address(RVA = "0x20163A0", Offset = "0x20149A0", VA = "0x1820163A0")]
+	[Token(Token = "0x60032F8")]
+	[Address(RVA = "0x59C0CB0", Offset = "0x59BFCB0", VA = "0x59C0CB0")]
 	public CustomLogicUILabelEnum()
 	{
 	}

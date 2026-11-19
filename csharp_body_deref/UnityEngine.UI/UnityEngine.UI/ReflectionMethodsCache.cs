@@ -62,7 +62,7 @@ internal class ReflectionMethodsCache
 	public static ReflectionMethodsCache Singleton
 	{
 		[Token(Token = "0x6000508")]
-		[Address(RVA = "0x32DE940", Offset = "0x32DCF40", VA = "0x1832DE940")]
+		[Address(RVA = "0x6CFD840", Offset = "0x6CFC840", VA = "0x6CFD840")]
 		get
 		{
 			return null;
@@ -70,7 +70,7 @@ internal class ReflectionMethodsCache
 	}
 
 	[Token(Token = "0x6000507")]
-	[Address(RVA = "0x32DD970", Offset = "0x32DBF70", VA = "0x1832DD970")]
+	[Address(RVA = "0x6CFCA20", Offset = "0x6CFBA20", VA = "0x6CFCA20")]
 	public ReflectionMethodsCache()
 	{
 	}

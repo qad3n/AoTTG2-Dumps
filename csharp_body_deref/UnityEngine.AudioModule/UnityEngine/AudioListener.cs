@@ -11,17 +11,17 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000C")]
 [RequireComponent(typeof(Transform))]
 [UnityEngine.Bindings.StaticAccessor("AudioListenerBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 public sealed class AudioListener : AudioBehaviour
 {
-	[Token(Token = "0x1700000A")]
+	[Token(Token = "0x1700000B")]
 	public static extern float volume
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2EB3760", Offset = "0x2EB1D60", VA = "0x182EB3760")]
+		[Token(Token = "0x6000034")]
+		[Address(RVA = "0x68AFB60", Offset = "0x68AEB60", VA = "0x68AFB60")]
 		set;
 	}
 }

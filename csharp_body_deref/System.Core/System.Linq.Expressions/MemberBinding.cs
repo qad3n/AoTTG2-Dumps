@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x20000A0")]
 public abstract class MemberBinding
 {
-	[Token(Token = "0x170000BF")]
+	[Token(Token = "0x170000C1")]
 	public MemberBindingType BindingType
 	{
-		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6000479")]
+		[Address(RVA = "0x5DD2B60", Offset = "0x5DD1B60", VA = "0x5DD2B60")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public abstract class MemberBinding
 		}
 	}
 
-	[Token(Token = "0x170000C0")]
+	[Token(Token = "0x170000C2")]
 	public MemberInfo Member
 	{
-		[Token(Token = "0x600046F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600047A")]
+		[Address(RVA = "0x5DD2B70", Offset = "0x5DD1B70", VA = "0x5DD2B70")]
 		[CompilerGenerated]
 		get
 		{

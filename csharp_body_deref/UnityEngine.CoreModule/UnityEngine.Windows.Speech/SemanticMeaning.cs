@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000207")]
+[Token(Token = "0x2000208")]
 public struct SemanticMeaning
 {
-	[Token(Token = "0x40006EE")]
+	[Token(Token = "0x40006F3")]
 	[FieldOffset(Offset = "0x0")]
 	public string key;
 
-	[Token(Token = "0x40006EF")]
+	[Token(Token = "0x40006F4")]
 	[FieldOffset(Offset = "0x8")]
 	public string[] values;
 }

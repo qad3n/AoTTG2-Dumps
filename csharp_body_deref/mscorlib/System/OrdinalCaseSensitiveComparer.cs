@@ -11,38 +11,38 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000138")]
+[Token(Token = "0x2000110")]
 internal sealed class OrdinalCaseSensitiveComparer : OrdinalComparer, ISerializable
 {
-	[Token(Token = "0x6000A63")]
-	[Address(RVA = "0x1B45680", Offset = "0x1B43C80", VA = "0x181B45680")]
+	[Token(Token = "0x6000A3F")]
+	[Address(RVA = "0x54D5340", Offset = "0x54D4340", VA = "0x54D5340")]
 	public OrdinalCaseSensitiveComparer()
 	{
 	}
 
-	[Token(Token = "0x6000A64")]
-	[Address(RVA = "0x1A449F0", Offset = "0x1A42FF0", VA = "0x181A449F0", Slot = "10")]
+	[Token(Token = "0x6000A40")]
+	[Address(RVA = "0x54D5C00", Offset = "0x54D4C00", VA = "0x54D5C00", Slot = "10")]
 	public override int Compare(string x, string y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A65")]
-	[Address(RVA = "0x1A44AF0", Offset = "0x1A430F0", VA = "0x181A44AF0", Slot = "11")]
+	[Token(Token = "0x6000A41")]
+	[Address(RVA = "0x54D5C10", Offset = "0x54D4C10", VA = "0x54D5C10", Slot = "11")]
 	public override bool Equals(string x, string y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x1B455A0", Offset = "0x1B43BA0", VA = "0x181B455A0", Slot = "12")]
+	[Token(Token = "0x6000A42")]
+	[Address(RVA = "0x54D5C20", Offset = "0x54D4C20", VA = "0x54D5C20", Slot = "12")]
 	public override int GetHashCode(string obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x1B455D0", Offset = "0x1B43BD0", VA = "0x181B455D0", Slot = "13")]
+	[Token(Token = "0x6000A43")]
+	[Address(RVA = "0x54D5C70", Offset = "0x54D4C70", VA = "0x54D5C70", Slot = "13")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

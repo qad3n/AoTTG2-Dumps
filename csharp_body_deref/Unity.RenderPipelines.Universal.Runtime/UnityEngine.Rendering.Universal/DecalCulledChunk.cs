@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalCulledChunk
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,25 +42,25 @@ internal class DecalCulledChunk : DecalChunk
 	public int visibleDecalCount;
 
 	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x2C1C7B0", Offset = "0x2C1ADB0", VA = "0x182C1C7B0", Slot = "6")]
+	[Address(RVA = "0x661A6B0", Offset = "0x66196B0", VA = "0x661A6B0", Slot = "6")]
 	public override void RemoveAtSwapBack(int entityIndex)
 	{
 	}
 
 	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x2C1C840", Offset = "0x2C1AE40", VA = "0x182C1C840", Slot = "7")]
+	[Address(RVA = "0x661A720", Offset = "0x6619720", VA = "0x661A720", Slot = "7")]
 	public override void SetCapacity(int newCapacity)
 	{
 	}
 
 	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x2C1C720", Offset = "0x2C1AD20", VA = "0x182C1C720", Slot = "8")]
+	[Address(RVA = "0x661A7D0", Offset = "0x66197D0", VA = "0x661A7D0", Slot = "8")]
 	public override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6616860", Offset = "0x6615860", VA = "0x6616860")]
 	public DecalCulledChunk()
 	{
 	}

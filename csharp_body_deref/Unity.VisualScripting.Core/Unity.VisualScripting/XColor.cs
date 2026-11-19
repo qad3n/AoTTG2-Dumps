@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public static class XColor
 {
 	[Token(Token = "0x60010F6")]
-	[Address(RVA = "0x2E5C350", Offset = "0x2E5A950", VA = "0x182E5C350")]
+	[Address(RVA = "0x684E140", Offset = "0x684D140", VA = "0x684E140")]
 	public static string ToHexString(this Color color)
 	{
 		return null;

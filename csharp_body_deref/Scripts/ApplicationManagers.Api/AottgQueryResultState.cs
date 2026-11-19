@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x2000960")]
+[Token(Token = "0x20009C7")]
 public enum AottgQueryResultState
 {
-	[Token(Token = "0x4002E5C")]
+	[Token(Token = "0x400310A")]
 	LoadingNoCache,
-	[Token(Token = "0x4002E5D")]
+	[Token(Token = "0x400310B")]
 	ReadyFresh,
-	[Token(Token = "0x4002E5E")]
+	[Token(Token = "0x400310C")]
 	ReadyStaleRefreshing,
-	[Token(Token = "0x4002E5F")]
+	[Token(Token = "0x400310D")]
 	FailedNoCache,
-	[Token(Token = "0x4002E60")]
+	[Token(Token = "0x400310E")]
 	FailedRefreshStale
 }

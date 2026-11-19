@@ -29,7 +29,7 @@ internal class ConstraintEnumerator
 	protected Constraint CurrentObject
 	{
 		[Token(Token = "0x600038E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5E90130", Offset = "0x5E8F130", VA = "0x5E90130")]
 		get
 		{
 			return null;
@@ -37,27 +37,27 @@ internal class ConstraintEnumerator
 	}
 
 	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x24E9F10", Offset = "0x24E8510", VA = "0x1824E9F10")]
+	[Address(RVA = "0x5E8FD20", Offset = "0x5E8ED20", VA = "0x5E8FD20")]
 	public ConstraintEnumerator(DataSet dataSet)
 	{
 	}
 
 	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x24E9CE0", Offset = "0x24E82E0", VA = "0x1824E9CE0")]
+	[Address(RVA = "0x5E8FD90", Offset = "0x5E8ED90", VA = "0x5E8FD90")]
 	public bool GetNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+	[Address(RVA = "0x5E90110", Offset = "0x5E8F110", VA = "0x5E90110")]
 	public Constraint GetConstraint()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "4")]
+	[Address(RVA = "0x5E90120", Offset = "0x5E8F120", VA = "0x5E90120", Slot = "4")]
 	protected virtual bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);

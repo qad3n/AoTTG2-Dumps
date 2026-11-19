@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 namespace Photon.Voice.IOS;
 
 [Serializable]
-[Token(Token = "0x20000B3")]
+[Token(Token = "0x20000AF")]
 public struct AudioSessionParameters
 {
-	[Token(Token = "0x40002EA")]
+	[Token(Token = "0x40002DC")]
 	[FieldOffset(Offset = "0x0")]
 	public AudioSessionCategory Category;
 
-	[Token(Token = "0x40002EB")]
+	[Token(Token = "0x40002DD")]
 	[FieldOffset(Offset = "0x4")]
 	public AudioSessionMode Mode;
 
-	[Token(Token = "0x40002EC")]
+	[Token(Token = "0x40002DE")]
 	[FieldOffset(Offset = "0x8")]
 	public AudioSessionCategoryOption[] CategoryOptions;
 
-	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x1D83EB0", Offset = "0x1D824B0", VA = "0x181D83EB0")]
+	[Token(Token = "0x60003B6")]
+	[Address(RVA = "0x5724A80", Offset = "0x5723A80", VA = "0x5724A80")]
 	public int CategoryOptionsToInt()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x1D83EF0", Offset = "0x1D824F0", VA = "0x181D83EF0", Slot = "3")]
+	[Token(Token = "0x60003B7")]
+	[Address(RVA = "0x5724B10", Offset = "0x5723B10", VA = "0x5724B10", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

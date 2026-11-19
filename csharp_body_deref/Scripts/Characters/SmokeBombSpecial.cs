@@ -10,25 +10,25 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000683")]
+[Token(Token = "0x20006E2")]
 internal class SmokeBombSpecial : SimpleUseable
 {
-	[Token(Token = "0x4001EBB")]
+	[Token(Token = "0x4002069")]
 	[FieldOffset(Offset = "0x38")]
 	private float Speed;
 
-	[Token(Token = "0x4001EBC")]
+	[Token(Token = "0x400206A")]
 	[FieldOffset(Offset = "0x3C")]
 	private Vector3 Gravity;
 
-	[Token(Token = "0x600403A")]
-	[Address(RVA = "0x21762E0", Offset = "0x21748E0", VA = "0x1821762E0")]
+	[Token(Token = "0x60042D2")]
+	[Address(RVA = "0x5B0E0A0", Offset = "0x5B0D0A0", VA = "0x5B0E0A0")]
 	public SmokeBombSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x600403B")]
-	[Address(RVA = "0x2175EE0", Offset = "0x21744E0", VA = "0x182175EE0", Slot = "9")]
+	[Token(Token = "0x60042D3")]
+	[Address(RVA = "0x5B0E120", Offset = "0x5B0D120", VA = "0x5B0E120", Slot = "9")]
 	protected override void Activate()
 	{
 	}

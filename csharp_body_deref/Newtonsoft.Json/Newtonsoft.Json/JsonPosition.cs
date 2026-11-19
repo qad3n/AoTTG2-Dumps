@@ -36,40 +36,40 @@ internal struct JsonPosition
 	internal bool HasIndex;
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x1BCDF30", Offset = "0x1BCC530", VA = "0x181BCDF30")]
+	[Address(RVA = "0x555B800", Offset = "0x555A800", VA = "0x555B800")]
 	public JsonPosition(JsonContainerType type)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x1BCD9D0", Offset = "0x1BCBFD0", VA = "0x181BCD9D0")]
+	[Address(RVA = "0x555B880", Offset = "0x555A880", VA = "0x555B880")]
 	internal int CalculateLength()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x1BCDCA0", Offset = "0x1BCC2A0", VA = "0x181BCDCA0")]
+	[Address(RVA = "0x555B900", Offset = "0x555A900", VA = "0x555B900")]
 	internal void WriteTo(StringBuilder sb, ref StringWriter? writer, ref char[]? buffer)
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x1BCDC90", Offset = "0x1BCC290", VA = "0x181BCDC90")]
+	[Address(RVA = "0x555B870", Offset = "0x555A870", VA = "0x555B870")]
 	internal static bool TypeHasIndex(JsonContainerType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x1BCD580", Offset = "0x1BCBB80", VA = "0x181BCD580")]
+	[Address(RVA = "0x555BB20", Offset = "0x555AB20", VA = "0x555BB20")]
 	internal static string BuildPath(List<JsonPosition> positions, JsonPosition? currentPosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x1BCDA70", Offset = "0x1BCC070", VA = "0x181BCDA70")]
+	[Address(RVA = "0x555B280", Offset = "0x555A280", VA = "0x555B280")]
 	internal static string FormatMessage(IJsonLineInfo? lineInfo, string path, string message)
 	{
 		return null;

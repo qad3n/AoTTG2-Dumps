@@ -12,96 +12,96 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000182")]
+[Token(Token = "0x200015A")]
 [ComVisible(true)]
 public static class Buffer
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000DE6")]
-	[Address(RVA = "0x1B5DBB0", Offset = "0x1B5C1B0", VA = "0x181B5DBB0")]
+	[Token(Token = "0x6000DC1")]
+	[Address(RVA = "0x54EE750", Offset = "0x54ED750", VA = "0x54EE750")]
 	internal static extern bool InternalBlockCopy(Array src, int srcOffsetBytes, Array dst, int dstOffsetBytes, int byteCount);
 
-	[Token(Token = "0x6000DE7")]
-	[Address(RVA = "0x1B5DB00", Offset = "0x1B5C100", VA = "0x181B5DB00")]
+	[Token(Token = "0x6000DC2")]
+	[Address(RVA = "0x54EE760", Offset = "0x54ED760", VA = "0x54EE760")]
 	internal unsafe static int IndexOfByte(byte* src, byte value, int index, int count)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000DE8")]
-	[Address(RVA = "0x1B5DF70", Offset = "0x1B5C570", VA = "0x181B5DF70")]
+	[Token(Token = "0x6000DC3")]
+	[Address(RVA = "0x54EE890", Offset = "0x54ED890", VA = "0x54EE890")]
 	private static extern int _ByteLength(Array array);
 
-	[Token(Token = "0x6000DE9")]
-	[Address(RVA = "0x1B5DF50", Offset = "0x1B5C550", VA = "0x181B5DF50")]
+	[Token(Token = "0x6000DC4")]
+	[Address(RVA = "0x54EE8A0", Offset = "0x54ED8A0", VA = "0x54EE8A0")]
 	internal unsafe static void ZeroMemory(byte* src, long len)
 	{
 	}
 
-	[Token(Token = "0x6000DEA")]
-	[Address(RVA = "0x1B5DE00", Offset = "0x1B5C400", VA = "0x181B5DE00")]
+	[Token(Token = "0x6000DC5")]
+	[Address(RVA = "0x54EE900", Offset = "0x54ED900", VA = "0x54EE900")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal unsafe static void Memcpy(byte* pDest, int destIndex, byte[] src, int srcIndex, int len)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000DEB")]
-	[Address(RVA = "0x1B5DBC0", Offset = "0x1B5C1C0", VA = "0x181B5DBC0")]
+	[Token(Token = "0x6000DC6")]
+	[Address(RVA = "0x54EEBC0", Offset = "0x54EDBC0", VA = "0x54EEBC0")]
 	internal unsafe static extern void InternalMemcpy(byte* dest, byte* src, int count);
 
-	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x1B5DA50", Offset = "0x1B5C050", VA = "0x181B5DA50")]
+	[Token(Token = "0x6000DC7")]
+	[Address(RVA = "0x54EEBD0", Offset = "0x54EDBD0", VA = "0x54EEBD0")]
 	public static int ByteLength(Array array)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x1B5D7E0", Offset = "0x1B5BDE0", VA = "0x181B5D7E0")]
+	[Token(Token = "0x6000DC8")]
+	[Address(RVA = "0x54EEC60", Offset = "0x54EDC60", VA = "0x54EEC60")]
 	public static void BlockCopy(Array src, int srcOffset, Array dst, int dstOffset, int count)
 	{
 	}
 
-	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x1B5DE80", Offset = "0x1B5C480", VA = "0x181B5DE80")]
+	[Token(Token = "0x6000DC9")]
+	[Address(RVA = "0x54EEE10", Offset = "0x54EDE10", VA = "0x54EEE10")]
 	[CLSCompliant(false)]
 	public unsafe static void MemoryCopy(void* source, void* destination, long destinationSizeInBytes, long sourceBytesToCopy)
 	{
 	}
 
-	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x1B5E090", Offset = "0x1B5C690", VA = "0x181B5E090")]
+	[Token(Token = "0x6000DCA")]
+	[Address(RVA = "0x54EEF30", Offset = "0x54EDF30", VA = "0x54EEF30")]
 	internal unsafe static void memcpy4(byte* dest, byte* src, int size)
 	{
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x1B5E010", Offset = "0x1B5C610", VA = "0x181B5E010")]
+	[Token(Token = "0x6000DCB")]
+	[Address(RVA = "0x54EEFF0", Offset = "0x54EDFF0", VA = "0x54EEFF0")]
 	internal unsafe static void memcpy2(byte* dest, byte* src, int size)
 	{
 	}
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x1B5DF80", Offset = "0x1B5C580", VA = "0x181B5DF80")]
+	[Token(Token = "0x6000DCC")]
+	[Address(RVA = "0x54EF070", Offset = "0x54EE070", VA = "0x54EF070")]
 	private unsafe static void memcpy1(byte* dest, byte* src, int size)
 	{
 	}
 
-	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x1B5DBD0", Offset = "0x1B5C1D0", VA = "0x181B5DBD0")]
+	[Token(Token = "0x6000DCD")]
+	[Address(RVA = "0x54EE930", Offset = "0x54ED930", VA = "0x54EE930")]
 	internal unsafe static void Memcpy(byte* dest, byte* src, int len)
 	{
 	}
 
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x1B5DE50", Offset = "0x1B5C450", VA = "0x181B5DE50")]
+	[Token(Token = "0x6000DCE")]
+	[Address(RVA = "0x54EEF00", Offset = "0x54EDF00", VA = "0x54EEF00")]
 	internal unsafe static void Memmove(byte* dest, byte* src, uint len)
 	{
 	}
 
-	[Token(Token = "0x6000DF4")]
+	[Token(Token = "0x6000DCF")]
 	internal static void Memmove<T>(ref T destination, ref T source, ulong elementCount)
 	{
 	}

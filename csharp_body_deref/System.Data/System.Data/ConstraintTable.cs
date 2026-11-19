@@ -22,7 +22,7 @@ internal sealed class ConstraintTable
 	public XmlSchemaIdentityConstraint constraint;
 
 	[Token(Token = "0x6000814")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x5ED58F0", Offset = "0x5ED48F0", VA = "0x5ED58F0")]
 	public ConstraintTable(DataTable t, XmlSchemaIdentityConstraint c)
 	{
 	}

@@ -1,0 +1,35 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Collections.NativeArrayDisposeJob
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using Unity.Jobs;
+using UnityEngine;
+using UnityEngine.Scripting;
+
+namespace Unity.Collections;
+
+[Token(Token = "0x200005E")]
+[UnityEngine.NativeClass(null)]
+internal struct NativeArrayDisposeJob : IJob
+{
+	[Token(Token = "0x400010F")]
+	[FieldOffset(Offset = "0x0")]
+	internal NativeArrayDispose Data;
+
+	[Token(Token = "0x6000131")]
+	[Address(RVA = "0x68B7B20", Offset = "0x68B6B20", VA = "0x68B7B20", Slot = "4")]
+	public void Execute()
+	{
+	}
+
+	[Token(Token = "0x6000132")]
+	[Address(RVA = "0x68B7B60", Offset = "0x68B6B60", VA = "0x68B7B60")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	internal static void RegisterNativeArrayDisposeJobReflectionData()
+	{
+	}
+}

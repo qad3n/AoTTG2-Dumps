@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderObjectsPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -54,48 +54,48 @@ public class RenderObjectsPass : ScriptableRenderPass
 		internal bool isActiveTargetBackBuffer;
 
 		[Token(Token = "0x600051B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x662E9B0", Offset = "0x662D9B0", VA = "0x662E9B0")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000434")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private RenderQueueType renderQueueType;
 
 	[Token(Token = "0x4000435")]
-	[FieldOffset(Offset = "0x64")]
+	[FieldOffset(Offset = "0x60")]
 	private FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x4000436")]
-	[FieldOffset(Offset = "0x88")]
+	[FieldOffset(Offset = "0x80")]
 	private RenderObjects.CustomCameraSettings m_CameraSettings;
 
 	[Token(Token = "0x400043B")]
-	[FieldOffset(Offset = "0xB0")]
+	[FieldOffset(Offset = "0xA8")]
 	private List<ShaderTagId> m_ShaderTagIdList;
 
 	[Token(Token = "0x400043C")]
-	[FieldOffset(Offset = "0xB8")]
+	[FieldOffset(Offset = "0xB0")]
 	private PassData m_PassData;
 
 	[Token(Token = "0x400043D")]
-	[FieldOffset(Offset = "0xC0")]
+	[FieldOffset(Offset = "0xB8")]
 	private RenderStateBlock m_RenderStateBlock;
 
 	[Token(Token = "0x1700016D")]
 	public Material overrideMaterial
 	{
 		[Token(Token = "0x6000509")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x662E0F0", Offset = "0x662D0F0", VA = "0x662E0F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600050A")]
-		[Address(RVA = "0xA4D750", Offset = "0xA4BD50", VA = "0x180A4D750")]
+		[Address(RVA = "0x662E100", Offset = "0x662D100", VA = "0x662E100")]
 		[CompilerGenerated]
 		set
 		{
@@ -106,14 +106,14 @@ public class RenderObjectsPass : ScriptableRenderPass
 	public int overrideMaterialPassIndex
 	{
 		[Token(Token = "0x600050B")]
-		[Address(RVA = "0xB5B9F0", Offset = "0xB59FF0", VA = "0x180B5B9F0")]
+		[Address(RVA = "0x662E120", Offset = "0x662D120", VA = "0x662E120")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600050C")]
-		[Address(RVA = "0xB5BE70", Offset = "0xB5A470", VA = "0x180B5BE70")]
+		[Address(RVA = "0x662E130", Offset = "0x662D130", VA = "0x662E130")]
 		[CompilerGenerated]
 		set
 		{
@@ -124,14 +124,14 @@ public class RenderObjectsPass : ScriptableRenderPass
 	public Shader overrideShader
 	{
 		[Token(Token = "0x600050D")]
-		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
+		[Address(RVA = "0x662E140", Offset = "0x662D140", VA = "0x662E140")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600050E")]
-		[Address(RVA = "0x189BA60", Offset = "0x189A060", VA = "0x18189BA60")]
+		[Address(RVA = "0x662E150", Offset = "0x662D150", VA = "0x662E150")]
 		[CompilerGenerated]
 		set
 		{
@@ -142,14 +142,14 @@ public class RenderObjectsPass : ScriptableRenderPass
 	public int overrideShaderPassIndex
 	{
 		[Token(Token = "0x600050F")]
-		[Address(RVA = "0x266C1E0", Offset = "0x266A7E0", VA = "0x18266C1E0")]
+		[Address(RVA = "0x662E170", Offset = "0x662D170", VA = "0x662E170")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000510")]
-		[Address(RVA = "0x2B9B710", Offset = "0x2B99D10", VA = "0x182B9B710")]
+		[Address(RVA = "0x662E180", Offset = "0x662D180", VA = "0x662E180")]
 		[CompilerGenerated]
 		set
 		{
@@ -157,69 +157,69 @@ public class RenderObjectsPass : ScriptableRenderPass
 	}
 
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x662E0E0", Offset = "0x662D0E0", VA = "0x662E0E0", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000511")]
-	[Address(RVA = "0x2C3F6D0", Offset = "0x2C3DCD0", VA = "0x182C3F6D0")]
+	[Address(RVA = "0x662E190", Offset = "0x662D190", VA = "0x662E190")]
 	[Obsolete("Use SetDepthState instead. #from(2023.1) #breakingFrom(2023.1)", true)]
 	public void SetDetphState(bool writeEnabled, CompareFunction function = CompareFunction.Less)
 	{
 	}
 
 	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x2C3F6D0", Offset = "0x2C3DCD0", VA = "0x182C3F6D0")]
+	[Address(RVA = "0x662E1F0", Offset = "0x662D1F0", VA = "0x662E1F0")]
 	public void SetDepthState(bool writeEnabled, CompareFunction function = CompareFunction.Less)
 	{
 	}
 
 	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x2C3F740", Offset = "0x2C3DD40", VA = "0x182C3F740")]
+	[Address(RVA = "0x662E250", Offset = "0x662D250", VA = "0x662E250")]
 	public void SetStencilState(int reference, CompareFunction compareFunction, StencilOp passOp, StencilOp failOp, StencilOp zFailOp)
 	{
 	}
 
 	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x2C3F930", Offset = "0x2C3DF30", VA = "0x182C3F930")]
+	[Address(RVA = "0x662E320", Offset = "0x662D320", VA = "0x662E320")]
 	public RenderObjectsPass(string profilerTag, RenderPassEvent renderPassEvent, string[] shaderTags, RenderQueueType renderQueueType, int layerMask, RenderObjects.CustomCameraSettings cameraSettings)
 	{
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x2C3F840", Offset = "0x2C3DE40", VA = "0x182C3F840")]
+	[Address(RVA = "0x662E8C0", Offset = "0x662D8C0", VA = "0x662E8C0")]
 	internal RenderObjectsPass(URPProfileId profileId, RenderPassEvent renderPassEvent, string[] shaderTags, RenderQueueType renderQueueType, int layerMask, RenderObjects.CustomCameraSettings cameraSettings)
 	{
 	}
 
 	[Token(Token = "0x6000516")]
-	[Address(RVA = "0x2C3E5F0", Offset = "0x2C3CBF0", VA = "0x182C3E5F0")]
+	[Address(RVA = "0x662E420", Offset = "0x662D420", VA = "0x662E420")]
 	internal void Init(RenderPassEvent renderPassEvent, string[] shaderTags, RenderQueueType renderQueueType, int layerMask, RenderObjects.CustomCameraSettings cameraSettings)
 	{
 	}
 
 	[Token(Token = "0x6000517")]
-	[Address(RVA = "0x2C3D800", Offset = "0x2C3BE00", VA = "0x182C3D800")]
+	[Address(RVA = "0x662E9C0", Offset = "0x662D9C0", VA = "0x662E9C0")]
 	private static void ExecutePass(PassData passData, RasterCommandBuffer cmd, RendererList rendererList, bool isYFlipped)
 	{
 	}
 
 	[Token(Token = "0x6000518")]
-	[Address(RVA = "0x2C3DDF0", Offset = "0x2C3C3F0", VA = "0x182C3DDF0")]
+	[Address(RVA = "0x662EFA0", Offset = "0x662DFA0", VA = "0x662EFA0")]
 	private void InitPassData(UniversalCameraData cameraData, ref PassData passData, bool isActiveTargetBackBuffer = false)
 	{
 	}
 
 	[Token(Token = "0x6000519")]
-	[Address(RVA = "0x2C3DE70", Offset = "0x2C3C470", VA = "0x182C3DE70")]
+	[Address(RVA = "0x662F010", Offset = "0x662E010", VA = "0x662F010")]
 	private void InitRendererLists(UniversalRenderingData renderingData, UniversalLightData lightData, ref PassData passData, ScriptableRenderContext context, RenderGraph renderGraph, bool useRenderGraph)
 	{
 	}
 
 	[Token(Token = "0x600051A")]
-	[Address(RVA = "0x2C3EA90", Offset = "0x2C3D090", VA = "0x182C3EA90", Slot = "11")]
+	[Address(RVA = "0x662F590", Offset = "0x662E590", VA = "0x662F590", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}

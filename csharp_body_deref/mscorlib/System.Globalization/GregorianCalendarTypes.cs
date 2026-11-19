@@ -11,20 +11,20 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [Serializable]
-[Token(Token = "0x2000591")]
+[Token(Token = "0x200056C")]
 [ComVisible(true)]
 public enum GregorianCalendarTypes
 {
-	[Token(Token = "0x4001737")]
+	[Token(Token = "0x400169E")]
 	Localized = 1,
-	[Token(Token = "0x4001738")]
+	[Token(Token = "0x400169F")]
 	USEnglish = 2,
-	[Token(Token = "0x4001739")]
+	[Token(Token = "0x40016A0")]
 	MiddleEastFrench = 9,
-	[Token(Token = "0x400173A")]
+	[Token(Token = "0x40016A1")]
 	Arabic = 10,
-	[Token(Token = "0x400173B")]
+	[Token(Token = "0x40016A2")]
 	TransliteratedEnglish = 11,
-	[Token(Token = "0x400173C")]
+	[Token(Token = "0x40016A3")]
 	TransliteratedFrench = 12
 }

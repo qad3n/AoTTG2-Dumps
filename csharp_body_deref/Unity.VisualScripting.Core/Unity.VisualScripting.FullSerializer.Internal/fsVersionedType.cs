@@ -26,42 +26,42 @@ public struct fsVersionedType
 	public Type ModelType;
 
 	[Token(Token = "0x600132B")]
-	[Address(RVA = "0x2E7B7A0", Offset = "0x2E79DA0", VA = "0x182E7B7A0")]
+	[Address(RVA = "0x686FAE0", Offset = "0x686EAE0", VA = "0x686FAE0")]
 	public object Migrate(object ancestorInstance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600132C")]
-	[Address(RVA = "0x2E7B860", Offset = "0x2E79E60", VA = "0x182E7B860", Slot = "3")]
+	[Address(RVA = "0x6874560", Offset = "0x6873560", VA = "0x6874560", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600132D")]
-	[Address(RVA = "0x2E7BA00", Offset = "0x2E7A000", VA = "0x182E7BA00")]
+	[Address(RVA = "0x6874710", Offset = "0x6873710", VA = "0x6874710")]
 	public static bool operator ==(fsVersionedType a, fsVersionedType b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600132E")]
-	[Address(RVA = "0x2E7BA40", Offset = "0x2E7A040", VA = "0x182E7BA40")]
+	[Address(RVA = "0x6874750", Offset = "0x6873750", VA = "0x6874750")]
 	public static bool operator !=(fsVersionedType a, fsVersionedType b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600132F")]
-	[Address(RVA = "0x2E7B6F0", Offset = "0x2E79CF0", VA = "0x182E7B6F0", Slot = "0")]
+	[Address(RVA = "0x6874790", Offset = "0x6873790", VA = "0x6874790", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001330")]
-	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
+	[Address(RVA = "0x6874820", Offset = "0x6873820", VA = "0x6874820", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicNavmeshObstacleBuiltin
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicNavmeshObstacleBuiltin.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,316 +13,316 @@ using UnityEngine.AI;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000442")]
+[Token(Token = "0x20004A1")]
 [CompilerGenerated]
 internal class CustomLogicNavmeshObstacleBuiltin : BuiltinComponentInstance
 {
-	[Token(Token = "0x2000443")]
+	[Token(Token = "0x20004A2")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001D1F")]
-		[Address(RVA = "0x1F077B0", Offset = "0x1F05DB0", VA = "0x181F077B0")]
+		[Token(Token = "0x6001F96")]
+		[Address(RVA = "0x59011E0", Offset = "0x59001E0", VA = "0x59011E0")]
 		public static CustomLogicNavmeshObstacleBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000444")]
+	[Token(Token = "0x20004A3")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001517")]
+		[Token(Token = "0x40016B7")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001D20")]
-		[Address(RVA = "0x1EEB210", Offset = "0x1EE9810", VA = "0x181EEB210")]
+		[Token(Token = "0x6001F97")]
+		[Address(RVA = "0x59012D0", Offset = "0x59002D0", VA = "0x59012D0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D21")]
-		[Address(RVA = "0x1EFDE10", Offset = "0x1EFC410", VA = "0x181EFDE10")]
+		[Token(Token = "0x6001F98")]
+		[Address(RVA = "0x5901790", Offset = "0x5900790", VA = "0x5901790")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__ShapeBox()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D22")]
-		[Address(RVA = "0x1EFDEB0", Offset = "0x1EFC4B0", VA = "0x181EFDEB0")]
+		[Token(Token = "0x6001F99")]
+		[Address(RVA = "0x5901830", Offset = "0x5900830", VA = "0x5901830")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__ShapeCapsule()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D23")]
-		[Address(RVA = "0x1EFD460", Offset = "0x1EFBA60", VA = "0x181EFD460")]
+		[Token(Token = "0x6001F9A")]
+		[Address(RVA = "0x59018D0", Offset = "0x59008D0", VA = "0x59018D0")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Radius()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D24")]
-		[Address(RVA = "0x1EFC150", Offset = "0x1EFA750", VA = "0x181EFC150")]
+		[Token(Token = "0x6001F9B")]
+		[Address(RVA = "0x59019B0", Offset = "0x59009B0", VA = "0x59019B0")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Height()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D25")]
-		[Address(RVA = "0x1EFD870", Offset = "0x1EFBE70", VA = "0x181EFD870")]
+		[Token(Token = "0x6001F9C")]
+		[Address(RVA = "0x5901A90", Offset = "0x5900A90", VA = "0x5901A90")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Scale()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D26")]
-		[Address(RVA = "0x1EFAE90", Offset = "0x1EF9490", VA = "0x181EFAE90")]
+		[Token(Token = "0x6001F9D")]
+		[Address(RVA = "0x5901B70", Offset = "0x5900B70", VA = "0x5901B70")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Center()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D27")]
-		[Address(RVA = "0x1EFADA0", Offset = "0x1EF93A0", VA = "0x181EFADA0")]
+		[Token(Token = "0x6001F9E")]
+		[Address(RVA = "0x5901C50", Offset = "0x5900C50", VA = "0x5901C50")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Carving()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D28")]
-		[Address(RVA = "0x1EFACB0", Offset = "0x1EF92B0", VA = "0x181EFACB0")]
+		[Token(Token = "0x6001F9F")]
+		[Address(RVA = "0x5901D30", Offset = "0x5900D30", VA = "0x5901D30")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__CarveOnlyStationary()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D29")]
-		[Address(RVA = "0x1EFDF50", Offset = "0x1EFC550", VA = "0x181EFDF50")]
+		[Token(Token = "0x6001FA0")]
+		[Address(RVA = "0x5901E10", Offset = "0x5900E10", VA = "0x5901E10")]
 		public static CLPropertyBinding<CustomLogicNavmeshObstacleBuiltin> __CreatePropertyBinding__Shape()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D2A")]
-		[Address(RVA = "0x1EF44C0", Offset = "0x1EF2AC0", VA = "0x181EF44C0")]
+		[Token(Token = "0x6001FA1")]
+		[Address(RVA = "0x5901EF0", Offset = "0x5900EF0", VA = "0x5901EF0")]
 		public static CLMethodBinding<CustomLogicNavmeshObstacleBuiltin> __CreateMethodBinding__AutoScale()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001514")]
+	[Token(Token = "0x40016B4")]
 	[FieldOffset(Offset = "0x38")]
 	public NavMeshObstacle Value;
 
-	[Token(Token = "0x4001515")]
+	[Token(Token = "0x40016B5")]
 	[FieldOffset(Offset = "0x40")]
 	public CustomLogicMapObjectBuiltin OwnerMapObject;
 
-	[Token(Token = "0x4001516")]
+	[Token(Token = "0x40016B6")]
 	[FieldOffset(Offset = "0x48")]
 	public GameObject Owner;
 
-	[Token(Token = "0x17000359")]
+	[Token(Token = "0x1700039A")]
 	public static int ShapeBox
 	{
-		[Token(Token = "0x6001D09")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6001F80")]
+		[Address(RVA = "0x5900470", Offset = "0x58FF470", VA = "0x5900470")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700035A")]
+	[Token(Token = "0x1700039B")]
 	public static int ShapeCapsule
 	{
-		[Token(Token = "0x6001D0A")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x6001F81")]
+		[Address(RVA = "0x5900480", Offset = "0x58FF480", VA = "0x5900480")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700035B")]
+	[Token(Token = "0x1700039C")]
 	public float Radius
 	{
-		[Token(Token = "0x6001D0B")]
-		[Address(RVA = "0x1F071F0", Offset = "0x1F057F0", VA = "0x181F071F0")]
+		[Token(Token = "0x6001F82")]
+		[Address(RVA = "0x5900490", Offset = "0x58FF490", VA = "0x5900490")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001D0C")]
-		[Address(RVA = "0x1F07360", Offset = "0x1F05960", VA = "0x181F07360")]
+		[Token(Token = "0x6001F83")]
+		[Address(RVA = "0x59004B0", Offset = "0x58FF4B0", VA = "0x59004B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700035C")]
+	[Token(Token = "0x1700039D")]
 	public float Height
 	{
-		[Token(Token = "0x6001D0D")]
-		[Address(RVA = "0x1F071D0", Offset = "0x1F057D0", VA = "0x181F071D0")]
+		[Token(Token = "0x6001F84")]
+		[Address(RVA = "0x59004D0", Offset = "0x58FF4D0", VA = "0x59004D0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001D0E")]
-		[Address(RVA = "0x1F07340", Offset = "0x1F05940", VA = "0x181F07340")]
+		[Token(Token = "0x6001F85")]
+		[Address(RVA = "0x59004F0", Offset = "0x58FF4F0", VA = "0x59004F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700035D")]
+	[Token(Token = "0x1700039E")]
 	public CustomLogicVector3Builtin Scale
 	{
-		[Token(Token = "0x6001D0F")]
-		[Address(RVA = "0x1F07210", Offset = "0x1F05810", VA = "0x181F07210")]
+		[Token(Token = "0x6001F86")]
+		[Address(RVA = "0x5900510", Offset = "0x58FF510", VA = "0x5900510")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001D10")]
-		[Address(RVA = "0x1F07380", Offset = "0x1F05980", VA = "0x181F07380")]
+		[Token(Token = "0x6001F87")]
+		[Address(RVA = "0x5900590", Offset = "0x58FF590", VA = "0x5900590")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700035E")]
+	[Token(Token = "0x1700039F")]
 	public Vector3 Center
 	{
-		[Token(Token = "0x6001D11")]
-		[Address(RVA = "0x1F07160", Offset = "0x1F05760", VA = "0x181F07160")]
+		[Token(Token = "0x6001F88")]
+		[Address(RVA = "0x59005C0", Offset = "0x58FF5C0", VA = "0x59005C0")]
 		get
 		{
 			return default(Vector3);
 		}
-		[Token(Token = "0x6001D12")]
-		[Address(RVA = "0x1F07300", Offset = "0x1F05900", VA = "0x181F07300")]
+		[Token(Token = "0x6001F89")]
+		[Address(RVA = "0x59005E0", Offset = "0x58FF5E0", VA = "0x59005E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700035F")]
+	[Token(Token = "0x170003A0")]
 	public bool Carving
 	{
-		[Token(Token = "0x6001D13")]
-		[Address(RVA = "0x1F07140", Offset = "0x1F05740", VA = "0x181F07140")]
+		[Token(Token = "0x6001F8A")]
+		[Address(RVA = "0x5900600", Offset = "0x58FF600", VA = "0x5900600")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001D14")]
-		[Address(RVA = "0x1F072E0", Offset = "0x1F058E0", VA = "0x181F072E0")]
+		[Token(Token = "0x6001F8B")]
+		[Address(RVA = "0x5900620", Offset = "0x58FF620", VA = "0x5900620")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000360")]
+	[Token(Token = "0x170003A1")]
 	public bool CarveOnlyStationary
 	{
-		[Token(Token = "0x6001D15")]
-		[Address(RVA = "0x1F07120", Offset = "0x1F05720", VA = "0x181F07120")]
+		[Token(Token = "0x6001F8C")]
+		[Address(RVA = "0x5900640", Offset = "0x58FF640", VA = "0x5900640")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001D16")]
-		[Address(RVA = "0x1F072C0", Offset = "0x1F058C0", VA = "0x181F072C0")]
+		[Token(Token = "0x6001F8D")]
+		[Address(RVA = "0x5900660", Offset = "0x58FF660", VA = "0x5900660")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000361")]
+	[Token(Token = "0x170003A2")]
 	public int Shape
 	{
-		[Token(Token = "0x6001D17")]
-		[Address(RVA = "0x1F072A0", Offset = "0x1F058A0", VA = "0x181F072A0")]
+		[Token(Token = "0x6001F8E")]
+		[Address(RVA = "0x5900680", Offset = "0x58FF680", VA = "0x5900680")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001D18")]
-		[Address(RVA = "0x1F073C0", Offset = "0x1F059C0", VA = "0x181F073C0")]
+		[Token(Token = "0x6001F8F")]
+		[Address(RVA = "0x59006A0", Offset = "0x58FF6A0", VA = "0x59006A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000362")]
+	[Token(Token = "0x170003A3")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001D1B")]
-		[Address(RVA = "0x1F071A0", Offset = "0x1F057A0", VA = "0x181F071A0", Slot = "6")]
+		[Token(Token = "0x6001F92")]
+		[Address(RVA = "0x5901180", Offset = "0x5900180", VA = "0x5901180", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000363")]
+	[Token(Token = "0x170003A4")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001D1C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6001F93")]
+		[Address(RVA = "0x59011B0", Offset = "0x59001B0", VA = "0x59011B0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000364")]
+	[Token(Token = "0x170003A5")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001D1D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6001F94")]
+		[Address(RVA = "0x59011C0", Offset = "0x59001C0", VA = "0x59011C0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000365")]
+	[Token(Token = "0x170003A6")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001D1E")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001F95")]
+		[Address(RVA = "0x59011D0", Offset = "0x59001D0", VA = "0x59011D0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001D07")]
-	[Address(RVA = "0x1F01510", Offset = "0x1EFFB10", VA = "0x181F01510")]
+	[Token(Token = "0x6001F7E")]
+	[Address(RVA = "0x5900380", Offset = "0x58FF380", VA = "0x5900380")]
 	public CustomLogicNavmeshObstacleBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6001D08")]
-	[Address(RVA = "0x1F07020", Offset = "0x1F05620", VA = "0x181F07020")]
+	[Token(Token = "0x6001F7F")]
+	[Address(RVA = "0x5900390", Offset = "0x58FF390", VA = "0x5900390")]
 	public CustomLogicNavmeshObstacleBuiltin(CustomLogicMapObjectBuiltin owner)
 	{
 	}
 
-	[Token(Token = "0x6001D19")]
-	[Address(RVA = "0x1F06780", Offset = "0x1F04D80", VA = "0x181F06780")]
+	[Token(Token = "0x6001F90")]
+	[Address(RVA = "0x59006C0", Offset = "0x58FF6C0", VA = "0x59006C0")]
 	public void AutoScale()
 	{
 	}
 
-	[Token(Token = "0x6001D1A")]
-	[Address(RVA = "0x1F06B40", Offset = "0x1F05140", VA = "0x181F06B40")]
+	[Token(Token = "0x6001F91")]
+	[Address(RVA = "0x5900D40", Offset = "0x58FFD40", VA = "0x5900D40")]
 	private static bool TryGetColliderBounds(Collider collider, out Bounds bounds)
 	{
 		return default(bool);

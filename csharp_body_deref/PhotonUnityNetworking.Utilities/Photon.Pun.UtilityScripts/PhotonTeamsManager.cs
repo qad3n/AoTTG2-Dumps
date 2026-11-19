@@ -57,7 +57,7 @@ public class PhotonTeamsManager : MonoBehaviour, IMatchmakingCallbacks, IInRoomC
 	public static PhotonTeamsManager Instance
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x1D59CA0", Offset = "0x1D582A0", VA = "0x181D59CA0")]
+		[Address(RVA = "0x56EE3E0", Offset = "0x56ED3E0", VA = "0x56EE3E0")]
 		get
 		{
 			return null;
@@ -68,13 +68,13 @@ public class PhotonTeamsManager : MonoBehaviour, IMatchmakingCallbacks, IInRoomC
 	public static event Action<Player, PhotonTeam> PlayerJoinedTeam
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x1D59B00", Offset = "0x1D58100", VA = "0x181D59B00")]
+		[Address(RVA = "0x56EE0A0", Offset = "0x56ED0A0", VA = "0x56EE0A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x1D59E60", Offset = "0x1D58460", VA = "0x181D59E60")]
+		[Address(RVA = "0x56EE170", Offset = "0x56ED170", VA = "0x56EE170")]
 		[CompilerGenerated]
 		remove
 		{
@@ -85,13 +85,13 @@ public class PhotonTeamsManager : MonoBehaviour, IMatchmakingCallbacks, IInRoomC
 	public static event Action<Player, PhotonTeam> PlayerLeftTeam
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x1D59BD0", Offset = "0x1D581D0", VA = "0x181D59BD0")]
+		[Address(RVA = "0x56EE240", Offset = "0x56ED240", VA = "0x56EE240")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x1D59F30", Offset = "0x1D58530", VA = "0x181D59F30")]
+		[Address(RVA = "0x56EE310", Offset = "0x56ED310", VA = "0x56EE310")]
 		[CompilerGenerated]
 		remove
 		{
@@ -99,185 +99,185 @@ public class PhotonTeamsManager : MonoBehaviour, IMatchmakingCallbacks, IInRoomC
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x1D57A00", Offset = "0x1D56000", VA = "0x181D57A00")]
+	[Address(RVA = "0x56EE880", Offset = "0x56ED880", VA = "0x56EE880")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x1D582B0", Offset = "0x1D568B0", VA = "0x181D582B0")]
+	[Address(RVA = "0x56EE960", Offset = "0x56ED960", VA = "0x56EE960")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x1D58250", Offset = "0x1D56850", VA = "0x181D58250")]
+	[Address(RVA = "0x56EE9D0", Offset = "0x56ED9D0", VA = "0x56EE9D0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x1D57F40", Offset = "0x1D56540", VA = "0x181D57F40")]
+	[Address(RVA = "0x56EE570", Offset = "0x56ED570", VA = "0x56EE570")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x1D58FF0", Offset = "0x1D575F0", VA = "0x181D58FF0", Slot = "7")]
+	[Address(RVA = "0x56EEBE0", Offset = "0x56EDBE0", VA = "0x56EEBE0", Slot = "7")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x1D59000", Offset = "0x1D57600", VA = "0x181D59000", Slot = "10")]
+	[Address(RVA = "0x56EED10", Offset = "0x56EDD10", VA = "0x56EED10", Slot = "10")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x1D58850", Offset = "0x1D56E50", VA = "0x181D58850", Slot = "14")]
+	[Address(RVA = "0x56EED20", Offset = "0x56EDD20", VA = "0x56EED20", Slot = "14")]
 	private void Photon_002ERealtime_002EIInRoomCallbacks_002EOnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x1D58690", Offset = "0x1D56C90", VA = "0x181D58690", Slot = "12")]
+	[Address(RVA = "0x56EF4D0", Offset = "0x56EE4D0", VA = "0x56EF4D0", Slot = "12")]
 	private void Photon_002ERealtime_002EIInRoomCallbacks_002EOnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x1D58300", Offset = "0x1D56900", VA = "0x181D58300", Slot = "11")]
+	[Address(RVA = "0x56EF7A0", Offset = "0x56EE7A0", VA = "0x56EF7A0", Slot = "11")]
 	private void Photon_002ERealtime_002EIInRoomCallbacks_002EOnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x1D597E0", Offset = "0x1D57DE0", VA = "0x181D597E0")]
+	[Address(RVA = "0x56EEBF0", Offset = "0x56EDBF0", VA = "0x56EEBF0")]
 	private void UpdateTeams()
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x1D57AF0", Offset = "0x1D560F0", VA = "0x181D57AF0")]
+	[Address(RVA = "0x56EEA20", Offset = "0x56EDA20", VA = "0x56EEA20")]
 	private void ClearTeams()
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x1D59010", Offset = "0x1D57610", VA = "0x181D59010")]
+	[Address(RVA = "0x56EFB40", Offset = "0x56EEB40", VA = "0x56EFB40")]
 	public bool TryGetTeamByCode(byte code, out PhotonTeam team)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x1D59080", Offset = "0x1D57680", VA = "0x181D59080")]
+	[Address(RVA = "0x56EFB90", Offset = "0x56EEB90", VA = "0x56EFB90")]
 	public bool TryGetTeamByName(string teamName, out PhotonTeam team)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x1D57C70", Offset = "0x1D56270", VA = "0x181D57C70")]
+	[Address(RVA = "0x56EFBF0", Offset = "0x56EEBF0", VA = "0x56EFBF0")]
 	public PhotonTeam[] GetAvailableTeams()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x1D594A0", Offset = "0x1D57AA0", VA = "0x181D594A0")]
+	[Address(RVA = "0x56EFC30", Offset = "0x56EEC30", VA = "0x56EFC30")]
 	public bool TryGetTeamMembers(byte code, out Player[] members)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x1D59730", Offset = "0x1D57D30", VA = "0x181D59730")]
+	[Address(RVA = "0x56EFE80", Offset = "0x56EEE80", VA = "0x56EFE80")]
 	public bool TryGetTeamMembers(string teamName, out Player[] members)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x1D596C0", Offset = "0x1D57CC0", VA = "0x181D596C0")]
+	[Address(RVA = "0x56EFF20", Offset = "0x56EEF20", VA = "0x56EFF20")]
 	public bool TryGetTeamMembers(PhotonTeam team, out Player[] members)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x1D590F0", Offset = "0x1D576F0", VA = "0x181D590F0")]
+	[Address(RVA = "0x56EFF70", Offset = "0x56EEF70", VA = "0x56EFF70")]
 	public bool TryGetTeamMatesOfPlayer(Player player, out Player[] teamMates)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x1D57E50", Offset = "0x1D56450", VA = "0x181D57E50")]
+	[Address(RVA = "0x56F0350", Offset = "0x56EF350", VA = "0x56F0350")]
 	public int GetTeamMembersCount(byte code)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x1D57D60", Offset = "0x1D56360", VA = "0x181D57D60")]
+	[Address(RVA = "0x56F04C0", Offset = "0x56EF4C0", VA = "0x56F04C0")]
 	public int GetTeamMembersCount(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x1D57CC0", Offset = "0x1D562C0", VA = "0x181D57CC0")]
+	[Address(RVA = "0x56F0430", Offset = "0x56EF430", VA = "0x56F0430")]
 	public int GetTeamMembersCount(PhotonTeam team)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x56F05A0", Offset = "0x56EF5A0", VA = "0x56F05A0", Slot = "4")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnFriendListUpdate(List<FriendInfo> friendList)
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x56F05B0", Offset = "0x56EF5B0", VA = "0x56F05B0", Slot = "5")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnCreatedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x56F05C0", Offset = "0x56EF5C0", VA = "0x56F05C0", Slot = "6")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnCreateRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Address(RVA = "0x56F05D0", Offset = "0x56EF5D0", VA = "0x56F05D0", Slot = "8")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnJoinRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x56F05E0", Offset = "0x56EF5E0", VA = "0x56F05E0", Slot = "9")]
 	private void Photon_002ERealtime_002EIMatchmakingCallbacks_002EOnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
+	[Address(RVA = "0x56F05F0", Offset = "0x56EF5F0", VA = "0x56F05F0", Slot = "13")]
 	private void Photon_002ERealtime_002EIInRoomCallbacks_002EOnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+	[Address(RVA = "0x56F0600", Offset = "0x56EF600", VA = "0x56F0600", Slot = "15")]
 	private void Photon_002ERealtime_002EIInRoomCallbacks_002EOnMasterClientSwitched(Player newMasterClient)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x1D59900", Offset = "0x1D57F00", VA = "0x181D59900")]
+	[Address(RVA = "0x56F0610", Offset = "0x56EF610", VA = "0x56F0610")]
 	public PhotonTeamsManager()
 	{
 	}

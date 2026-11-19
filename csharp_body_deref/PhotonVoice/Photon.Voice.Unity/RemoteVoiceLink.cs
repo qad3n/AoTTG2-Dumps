@@ -48,13 +48,13 @@ public class RemoteVoiceLink
 	public event Action<FrameOut<float>> FloatFrameDecoded
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x1D91A20", Offset = "0x1D90020", VA = "0x181D91A20")]
+		[Address(RVA = "0x5731080", Offset = "0x5730080", VA = "0x5731080")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x1D91B70", Offset = "0x1D90170", VA = "0x181D91B70")]
+		[Address(RVA = "0x5731120", Offset = "0x5730120", VA = "0x5731120")]
 		[CompilerGenerated]
 		remove
 		{
@@ -65,13 +65,13 @@ public class RemoteVoiceLink
 	public event Action RemoteVoiceRemoved
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x1D91AD0", Offset = "0x1D900D0", VA = "0x181D91AD0")]
+		[Address(RVA = "0x57311C0", Offset = "0x57301C0", VA = "0x57311C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x1D91C20", Offset = "0x1D90220", VA = "0x181D91C20")]
+		[Address(RVA = "0x5731250", Offset = "0x5730250", VA = "0x5731250")]
 		[CompilerGenerated]
 		remove
 		{
@@ -79,25 +79,25 @@ public class RemoteVoiceLink
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x1D91910", Offset = "0x1D8FF10", VA = "0x181D91910")]
+	[Address(RVA = "0x57312E0", Offset = "0x57302E0", VA = "0x57312E0")]
 	public RemoteVoiceLink(VoiceInfo info, int playerId, byte voiceId, int channelId, ref RemoteVoiceOptions options)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x1D91680", Offset = "0x1D8FC80", VA = "0x181D91680")]
+	[Address(RVA = "0x5731400", Offset = "0x5730400", VA = "0x5731400")]
 	private void OnRemoteVoiceRemoveAction()
 	{
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x1D91660", Offset = "0x1D8FC60", VA = "0x181D91660")]
+	[Address(RVA = "0x5731420", Offset = "0x5730420", VA = "0x5731420")]
 	private void OnDecodedFrameFloatAction(FrameOut<float> floats)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x1D916A0", Offset = "0x1D8FCA0", VA = "0x181D916A0", Slot = "3")]
+	[Address(RVA = "0x5731440", Offset = "0x5730440", VA = "0x5731440", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

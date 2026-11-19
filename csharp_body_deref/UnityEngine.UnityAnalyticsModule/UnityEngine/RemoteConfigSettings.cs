@@ -18,8 +18,8 @@ namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000004")]
-[UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
+[UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
 [ExcludeFromDocs]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalyticsCommon/Public/UnityAnalyticsCommon.h")]
 public class RemoteConfigSettings
@@ -31,12 +31,12 @@ public class RemoteConfigSettings
 
 	[Token(Token = "0x4000005")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<bool> Updated;
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3308AD0", Offset = "0x33070D0", VA = "0x183308AD0")]
+	[Address(RVA = "0x6D19000", Offset = "0x6D18000", VA = "0x6D19000")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteConfigSettingsUpdated(RemoteConfigSettings rcs, bool wasLastUpdatedFromServer)
 	{

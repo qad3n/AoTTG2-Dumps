@@ -17,7 +17,7 @@ namespace Newtonsoft.Json.Schema;
 public static class Extensions
 {
 	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x1C55170", Offset = "0x1C53770", VA = "0x181C55170")]
+	[Address(RVA = "0x55EE940", Offset = "0x55ED940", VA = "0x55EE940")]
 	[Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 	public static bool IsValid(this JToken source, JsonSchema schema)
 	{
@@ -25,7 +25,7 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x60009EB")]
-	[Address(RVA = "0x1C55040", Offset = "0x1C53640", VA = "0x181C55040")]
+	[Address(RVA = "0x55EED10", Offset = "0x55EDD10", VA = "0x55EED10")]
 	[Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 	public static bool IsValid(this JToken source, JsonSchema schema, out IList<string> errorMessages)
 	{
@@ -33,14 +33,14 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x60009EC")]
-	[Address(RVA = "0x1C55520", Offset = "0x1C53B20", VA = "0x181C55520")]
+	[Address(RVA = "0x55EEEB0", Offset = "0x55EDEB0", VA = "0x55EEEB0")]
 	[Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 	public static void Validate(this JToken source, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x60009ED")]
-	[Address(RVA = "0x1C55390", Offset = "0x1C53990", VA = "0x181C55390")]
+	[Address(RVA = "0x55EEB10", Offset = "0x55EDB10", VA = "0x55EEB10")]
 	[Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 	public static void Validate(this JToken source, JsonSchema schema, ValidationEventHandler validationEventHandler)
 	{

@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class NoInterpFloatParameter : VolumeParameter<float>
 {
 	[Token(Token = "0x6000F31")]
-	[Address(RVA = "0x2B5F710", Offset = "0x2B5DD10", VA = "0x182B5F710")]
+	[Address(RVA = "0x65558F0", Offset = "0x65548F0", VA = "0x65558F0")]
 	public NoInterpFloatParameter(float value, bool overrideState = false)
 	{
 	}

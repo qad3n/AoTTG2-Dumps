@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsLayers
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ public readonly struct PhysicsLayers
 		private string[] Names
 		{
 			[Token(Token = "0x60000D4")]
-			[Address(RVA = "0x2FCF4F0", Offset = "0x2FCDAF0", VA = "0x182FCF4F0")]
+			[Address(RVA = "0x69CC3A0", Offset = "0x69CB3A0", VA = "0x69CC3A0")]
 			get
 			{
 				return null;
@@ -42,7 +42,7 @@ public readonly struct PhysicsLayers
 		private Dictionary<string, int> NameMap
 		{
 			[Token(Token = "0x60000D5")]
-			[Address(RVA = "0x2FCF470", Offset = "0x2FCDA70", VA = "0x182FCF470")]
+			[Address(RVA = "0x69CC400", Offset = "0x69CB400", VA = "0x69CC400")]
 			get
 			{
 				return null;
@@ -53,7 +53,7 @@ public readonly struct PhysicsLayers
 		internal static LayerNames DefaultLayerNames
 		{
 			[Token(Token = "0x60000D8")]
-			[Address(RVA = "0x2FCF340", Offset = "0x2FCD940", VA = "0x182FCF340")]
+			[Address(RVA = "0x69C9350", Offset = "0x69C8350", VA = "0x69C9350")]
 			get
 			{
 				return null;
@@ -61,19 +61,19 @@ public readonly struct PhysicsLayers
 		}
 
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+		[Address(RVA = "0x69CC490", Offset = "0x69CB490", VA = "0x69CC490", Slot = "4")]
 		public void OnBeforeSerialize()
 		{
 		}
 
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x2FCF220", Offset = "0x2FCD820", VA = "0x182FCF220", Slot = "5")]
+		[Address(RVA = "0x69CC4A0", Offset = "0x69CB4A0", VA = "0x69CC4A0", Slot = "5")]
 		public void OnAfterDeserialize()
 		{
 		}
 
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x69CC640", Offset = "0x69CB640", VA = "0x69CC640")]
 		public LayerNames()
 		{
 		}

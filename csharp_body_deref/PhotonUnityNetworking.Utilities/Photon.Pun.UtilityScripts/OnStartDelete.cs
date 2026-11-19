@@ -14,13 +14,13 @@ namespace Photon.Pun.UtilityScripts;
 public class OnStartDelete : MonoBehaviour
 {
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x1D54BE0", Offset = "0x1D531E0", VA = "0x181D54BE0")]
+	[Address(RVA = "0x56F5A00", Offset = "0x56F4A00", VA = "0x56F5A00")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F5A60", Offset = "0x56F4A60", VA = "0x56F5A60")]
 	public OnStartDelete()
 	{
 	}

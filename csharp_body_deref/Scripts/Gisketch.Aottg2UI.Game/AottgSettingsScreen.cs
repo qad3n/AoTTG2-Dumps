@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgSettingsScreen
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgSettingsScreen.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,132 +12,132 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002DE")]
-[AottgScreen("settings", Title = "AoTTG 2 Settings", TitleKey = "SettingsPopup.Title", SearchTitle = "Settings", SearchTitleKey = "Common.Settings", SearchGroup = "main-menu", BackScreenId = "main-menu", BackActionId = "settings.back")]
+[Token(Token = "0x200033B")]
+[AottgScreen("settings", TitleKey = "SettingsPopup.Title", SearchTitleKey = "Common.Settings", SearchGroup = "main-menu", BackScreenId = "main-menu", BackActionId = "settings.back")]
 public sealed class AottgSettingsScreen : AottgScreen
 {
-	[Token(Token = "0x4000E9E")]
+	[Token(Token = "0x400102C")]
 	public const string Id = "settings";
 
-	[Token(Token = "0x170001F9")]
+	[Token(Token = "0x17000236")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x60011F1")]
-		[Address(RVA = "0x1E31D90", Offset = "0x1E30390", VA = "0x181E31D90", Slot = "4")]
+		[Token(Token = "0x6001443")]
+		[Address(RVA = "0x58108F0", Offset = "0x580F8F0", VA = "0x58108F0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001FA")]
+	[Token(Token = "0x17000237")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60011F2")]
-		[Address(RVA = "0x1E31C80", Offset = "0x1E30280", VA = "0x181E31C80", Slot = "5")]
+		[Token(Token = "0x6001444")]
+		[Address(RVA = "0x5810920", Offset = "0x580F920", VA = "0x5810920", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011F3")]
-	[Address(RVA = "0x1E308F0", Offset = "0x1E2EEF0", VA = "0x181E308F0", Slot = "6")]
+	[Token(Token = "0x6001445")]
+	[Address(RVA = "0x58109F0", Offset = "0x580F9F0", VA = "0x58109F0", Slot = "6")]
 	protected override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x60011F4")]
-	[Address(RVA = "0x1E31080", Offset = "0x1E2F680", VA = "0x181E31080")]
+	[Token(Token = "0x6001446")]
+	[Address(RVA = "0x5810AF0", Offset = "0x580FAF0", VA = "0x5810AF0")]
 	private static AottgScreenSection[] Sections()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011F5")]
-	[Address(RVA = "0x1E30AE0", Offset = "0x1E2F0E0", VA = "0x181E30AE0")]
-	private static AottgScreenSection Category(string id, string label, string icon, string textKey, Action<AottgUi, AottgScreenSectionContext> build)
+	[Token(Token = "0x6001447")]
+	[Address(RVA = "0x58115A0", Offset = "0x58105A0", VA = "0x58115A0")]
+	private static AottgScreenSection Category(string id, string icon, string textKey, Action<AottgUi, AottgScreenSectionContext> build)
 	{
 		return default(AottgScreenSection);
 	}
 
-	[Token(Token = "0x60011F6")]
-	[Address(RVA = "0x1E30CE0", Offset = "0x1E2F2E0", VA = "0x181E30CE0")]
+	[Token(Token = "0x6001448")]
+	[Address(RVA = "0x58115E0", Offset = "0x58105E0", VA = "0x58115E0")]
 	internal static bool RefreshCategory(GisketchUIRoot root, string categoryId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011F7")]
-	[Address(RVA = "0x1E31C20", Offset = "0x1E30220", VA = "0x181E31C20")]
+	[Token(Token = "0x6001449")]
+	[Address(RVA = "0x58119B0", Offset = "0x58109B0", VA = "0x58119B0")]
 	internal static void SyncState(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x60011F8")]
-	[Address(RVA = "0x1E307D0", Offset = "0x1E2EDD0", VA = "0x181E307D0")]
+	[Token(Token = "0x600144A")]
+	[Address(RVA = "0x5811A30", Offset = "0x5810A30", VA = "0x5811A30")]
 	private static void BuildGeneral(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011F9")]
-	[Address(RVA = "0x1E30890", Offset = "0x1E2EE90", VA = "0x181E30890")]
+	[Token(Token = "0x600144B")]
+	[Address(RVA = "0x5811A40", Offset = "0x5810A40", VA = "0x5811A40")]
 	private static void BuildSound(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FA")]
-	[Address(RVA = "0x1E30800", Offset = "0x1E2EE00", VA = "0x181E30800")]
+	[Token(Token = "0x600144C")]
+	[Address(RVA = "0x5811A50", Offset = "0x5810A50", VA = "0x5811A50")]
 	private static void BuildGraphics(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FB")]
-	[Address(RVA = "0x1E308C0", Offset = "0x1E2EEC0", VA = "0x181E308C0")]
+	[Token(Token = "0x600144D")]
+	[Address(RVA = "0x5811A60", Offset = "0x5810A60", VA = "0x5811A60")]
 	private static void BuildUi(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FC")]
-	[Address(RVA = "0x1E30830", Offset = "0x1E2EE30", VA = "0x181E30830")]
+	[Token(Token = "0x600144E")]
+	[Address(RVA = "0x5811A70", Offset = "0x5810A70", VA = "0x5811A70")]
 	private static void BuildKeybinds(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FD")]
-	[Address(RVA = "0x1E30860", Offset = "0x1E2EE60", VA = "0x181E30860")]
+	[Token(Token = "0x600144F")]
+	[Address(RVA = "0x5811AE0", Offset = "0x5810AE0", VA = "0x5811AE0")]
 	private static void BuildSkins(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FE")]
-	[Address(RVA = "0x1E305C0", Offset = "0x1E2EBC0", VA = "0x181E305C0")]
+	[Token(Token = "0x6001450")]
+	[Address(RVA = "0x5811AF0", Offset = "0x5810AF0", VA = "0x5811AF0")]
 	private static void BuildAbility(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x60011FF")]
-	[Address(RVA = "0x1E305F0", Offset = "0x1E2EBF0", VA = "0x181E305F0")]
+	[Token(Token = "0x6001451")]
+	[Address(RVA = "0x5811B00", Offset = "0x5810B00", VA = "0x5811B00")]
 	private static void BuildFooter(AottgUi footer)
 	{
 	}
 
-	[Token(Token = "0x6001200")]
-	[Address(RVA = "0x1E31950", Offset = "0x1E2FF50", VA = "0x181E31950")]
+	[Token(Token = "0x6001452")]
+	[Address(RVA = "0x5811380", Offset = "0x5810380", VA = "0x5811380")]
 	private static AottgBrushSidePanelOption[] SettingsFooterOptions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001201")]
-	[Address(RVA = "0x1E30B70", Offset = "0x1E2F170", VA = "0x181E30B70")]
-	private static GisketchNodeDefinition FooterButton(AottgUi footer, AottgButtonVariant variant, string text, string actionId, string id, string icon, string textKey)
+	[Token(Token = "0x6001453")]
+	[Address(RVA = "0x5811C80", Offset = "0x5810C80", VA = "0x5811C80")]
+	private static GisketchNodeDefinition FooterButton(AottgUi footer, AottgButtonVariant variant, string textKey, string actionId, string id, string icon)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001202")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001454")]
+	[Address(RVA = "0x5811DB0", Offset = "0x5810DB0", VA = "0x5811DB0")]
 	public AottgSettingsScreen()
 	{
 	}

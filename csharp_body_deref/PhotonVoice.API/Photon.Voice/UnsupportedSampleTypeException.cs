@@ -14,7 +14,7 @@ namespace Photon.Voice;
 internal class UnsupportedSampleTypeException : Exception
 {
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x1D76E00", Offset = "0x1D75400", VA = "0x181D76E00")]
+	[Address(RVA = "0x5719560", Offset = "0x5718560", VA = "0x5719560")]
 	public UnsupportedSampleTypeException(Type t)
 	{
 	}

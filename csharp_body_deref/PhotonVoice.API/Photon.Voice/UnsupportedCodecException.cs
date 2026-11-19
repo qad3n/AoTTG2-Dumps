@@ -14,7 +14,7 @@ namespace Photon.Voice;
 internal class UnsupportedCodecException : Exception
 {
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x1D76BC0", Offset = "0x1D751C0", VA = "0x181D76BC0")]
+	[Address(RVA = "0x5719600", Offset = "0x5718600", VA = "0x5719600")]
 	public UnsupportedCodecException(string info, Codec codec)
 	{
 	}

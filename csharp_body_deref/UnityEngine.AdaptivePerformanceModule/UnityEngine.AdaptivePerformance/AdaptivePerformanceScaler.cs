@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,374 +10,374 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x2000031")]
 public abstract class AdaptivePerformanceScaler : ScriptableObject
 {
-	[Token(Token = "0x4000093")]
+	[Token(Token = "0x40000BE")]
 	[FieldOffset(Offset = "0x18")]
 	private AdaptivePerformanceIndexer m_Indexer;
 
-	[Token(Token = "0x4000097")]
+	[Token(Token = "0x40000C2")]
 	[FieldOffset(Offset = "0x2C")]
 	private int m_OverrideLevel;
 
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x40000C3")]
 	[FieldOffset(Offset = "0x30")]
 	[SerializeField]
 	private AdaptivePerformanceScalerSettingsBase m_defaultSetting;
 
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x40000C4")]
 	[FieldOffset(Offset = "0x38")]
 	protected IAdaptivePerformanceSettings m_Settings;
 
-	[Token(Token = "0x17000048")]
+	[Token(Token = "0x17000066")]
 	public virtual string Name
 	{
-		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x1F79970", Offset = "0x1F77F70", VA = "0x181F79970", Slot = "4")]
+		[Token(Token = "0x6000130")]
+		[Address(RVA = "0x688A0E0", Offset = "0x68890E0", VA = "0x688A0E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x2E8F400", Offset = "0x2E8DA00", VA = "0x182E8F400", Slot = "5")]
+		[Token(Token = "0x6000131")]
+		[Address(RVA = "0x688A110", Offset = "0x6889110", VA = "0x688A110", Slot = "5")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000049")]
+	[Token(Token = "0x17000067")]
 	public virtual bool Enabled
 	{
-		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x2E8F240", Offset = "0x2E8D840", VA = "0x182E8F240", Slot = "6")]
+		[Token(Token = "0x6000132")]
+		[Address(RVA = "0x688A170", Offset = "0x6889170", VA = "0x688A170", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x2E8F360", Offset = "0x2E8D960", VA = "0x182E8F360", Slot = "7")]
+		[Token(Token = "0x6000133")]
+		[Address(RVA = "0x688A1A0", Offset = "0x68891A0", VA = "0x688A1A0", Slot = "7")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004A")]
+	[Token(Token = "0x17000068")]
 	public virtual float Scale
 	{
-		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x2E8F300", Offset = "0x2E8D900", VA = "0x182E8F300", Slot = "8")]
+		[Token(Token = "0x6000134")]
+		[Address(RVA = "0x688A1E0", Offset = "0x68891E0", VA = "0x688A1E0", Slot = "8")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x2E8F4D0", Offset = "0x2E8DAD0", VA = "0x182E8F4D0", Slot = "9")]
+		[Token(Token = "0x6000135")]
+		[Address(RVA = "0x688A210", Offset = "0x6889210", VA = "0x688A210", Slot = "9")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004B")]
+	[Token(Token = "0x17000069")]
 	public virtual ScalerVisualImpact VisualImpact
 	{
-		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x2E8F340", Offset = "0x2E8D940", VA = "0x182E8F340", Slot = "10")]
+		[Token(Token = "0x6000136")]
+		[Address(RVA = "0x688A250", Offset = "0x6889250", VA = "0x688A250", Slot = "10")]
 		get
 		{
 			return default(ScalerVisualImpact);
 		}
-		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x2E8F520", Offset = "0x2E8DB20", VA = "0x182E8F520", Slot = "11")]
+		[Token(Token = "0x6000137")]
+		[Address(RVA = "0x688A280", Offset = "0x6889280", VA = "0x688A280", Slot = "11")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004C")]
+	[Token(Token = "0x1700006A")]
 	public virtual ScalerTarget Target
 	{
-		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x2E8F320", Offset = "0x2E8D920", VA = "0x182E8F320", Slot = "12")]
+		[Token(Token = "0x6000138")]
+		[Address(RVA = "0x688A2B0", Offset = "0x68892B0", VA = "0x688A2B0", Slot = "12")]
 		get
 		{
 			return default(ScalerTarget);
 		}
-		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x2E8F500", Offset = "0x2E8DB00", VA = "0x182E8F500", Slot = "13")]
+		[Token(Token = "0x6000139")]
+		[Address(RVA = "0x688A2E0", Offset = "0x68892E0", VA = "0x688A2E0", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004D")]
+	[Token(Token = "0x1700006B")]
 	public virtual int MaxLevel
 	{
-		[Token(Token = "0x60000F6")]
-		[Address(RVA = "0x2E8F2B0", Offset = "0x2E8D8B0", VA = "0x182E8F2B0", Slot = "14")]
+		[Token(Token = "0x600013A")]
+		[Address(RVA = "0x688A310", Offset = "0x6889310", VA = "0x688A310", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60000F7")]
-		[Address(RVA = "0x2E8F3B0", Offset = "0x2E8D9B0", VA = "0x182E8F3B0", Slot = "15")]
+		[Token(Token = "0x600013B")]
+		[Address(RVA = "0x688A340", Offset = "0x6889340", VA = "0x688A340", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004E")]
+	[Token(Token = "0x1700006C")]
 	public virtual float MinBound
 	{
-		[Token(Token = "0x60000F8")]
-		[Address(RVA = "0x2E8F2D0", Offset = "0x2E8D8D0", VA = "0x182E8F2D0", Slot = "16")]
+		[Token(Token = "0x600013C")]
+		[Address(RVA = "0x688A370", Offset = "0x6889370", VA = "0x688A370", Slot = "16")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000F9")]
-		[Address(RVA = "0x2E8F3D0", Offset = "0x2E8D9D0", VA = "0x182E8F3D0", Slot = "17")]
+		[Token(Token = "0x600013D")]
+		[Address(RVA = "0x688A3A0", Offset = "0x68893A0", VA = "0x688A3A0", Slot = "17")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004F")]
+	[Token(Token = "0x1700006D")]
 	public virtual float MaxBound
 	{
-		[Token(Token = "0x60000FA")]
-		[Address(RVA = "0x2E8F290", Offset = "0x2E8D890", VA = "0x182E8F290", Slot = "18")]
+		[Token(Token = "0x600013E")]
+		[Address(RVA = "0x688A3E0", Offset = "0x68893E0", VA = "0x688A3E0", Slot = "18")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000FB")]
-		[Address(RVA = "0x2E8F380", Offset = "0x2E8D980", VA = "0x182E8F380", Slot = "19")]
+		[Token(Token = "0x600013F")]
+		[Address(RVA = "0x688A410", Offset = "0x6889410", VA = "0x688A410", Slot = "19")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000050")]
+	[Token(Token = "0x1700006E")]
 	public int CurrentLevel
 	{
-		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x6000140")]
+		[Address(RVA = "0x688A450", Offset = "0x6889450", VA = "0x688A450")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60000FD")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Token(Token = "0x6000141")]
+		[Address(RVA = "0x688A460", Offset = "0x6889460", VA = "0x688A460")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000051")]
+	[Token(Token = "0x1700006F")]
 	public bool IsMaxLevel
 	{
-		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x2E8F260", Offset = "0x2E8D860", VA = "0x182E8F260")]
+		[Token(Token = "0x6000142")]
+		[Address(RVA = "0x68896A0", Offset = "0x68886A0", VA = "0x68896A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000052")]
+	[Token(Token = "0x17000070")]
 	public bool NotLeveled
 	{
-		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x2E8F2F0", Offset = "0x2E8D8F0", VA = "0x182E8F2F0")]
+		[Token(Token = "0x6000143")]
+		[Address(RVA = "0x6887F10", Offset = "0x6886F10", VA = "0x6887F10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000053")]
+	[Token(Token = "0x17000071")]
 	public int GpuImpact
 	{
-		[Token(Token = "0x6000100")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Token(Token = "0x6000144")]
+		[Address(RVA = "0x688A470", Offset = "0x6889470", VA = "0x688A470")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000101")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Token(Token = "0x6000145")]
+		[Address(RVA = "0x688A480", Offset = "0x6889480", VA = "0x688A480")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000054")]
+	[Token(Token = "0x17000072")]
 	public int CpuImpact
 	{
-		[Token(Token = "0x6000102")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Token(Token = "0x6000146")]
+		[Address(RVA = "0x688A490", Offset = "0x6889490", VA = "0x688A490")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Token(Token = "0x6000147")]
+		[Address(RVA = "0x688A4A0", Offset = "0x68894A0", VA = "0x688A4A0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000055")]
+	[Token(Token = "0x17000073")]
 	public AdaptivePerformanceScalerSettingsBase DefaultSetting
 	{
-		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6000148")]
+		[Address(RVA = "0x688A4B0", Offset = "0x68894B0", VA = "0x688A4B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Token(Token = "0x6000149")]
+		[Address(RVA = "0x688A4C0", Offset = "0x68894C0", VA = "0x688A4C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000056")]
+	[Token(Token = "0x17000074")]
 	public int OverrideLevel
 	{
-		[Token(Token = "0x6000106")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Token(Token = "0x600014A")]
+		[Address(RVA = "0x688A4D0", Offset = "0x68894D0", VA = "0x688A4D0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x2E8F460", Offset = "0x2E8DA60", VA = "0x182E8F460")]
+		[Token(Token = "0x600014B")]
+		[Address(RVA = "0x688A4E0", Offset = "0x68894E0", VA = "0x688A4E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x2E8EAE0", Offset = "0x2E8D0E0", VA = "0x182E8EAE0")]
+	[Token(Token = "0x600014C")]
+	[Address(RVA = "0x68894B0", Offset = "0x68884B0", VA = "0x68894B0")]
 	public int CalculateCost()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x2E8E9D0", Offset = "0x2E8CFD0", VA = "0x182E8E9D0", Slot = "20")]
+	[Token(Token = "0x600014D")]
+	[Address(RVA = "0x688A540", Offset = "0x6889540", VA = "0x688A540", Slot = "20")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x2E8EE90", Offset = "0x2E8D490", VA = "0x182E8EE90")]
+	[Token(Token = "0x600014E")]
+	[Address(RVA = "0x68843C0", Offset = "0x68833C0", VA = "0x68843C0")]
 	internal void InitializeScaler()
 	{
 	}
 
-	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x2E8ED70", Offset = "0x2E8D370", VA = "0x182E8ED70")]
+	[Token(Token = "0x600014F")]
+	[Address(RVA = "0x688A720", Offset = "0x6889720", VA = "0x688A720")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x2E8ED70", Offset = "0x2E8D370", VA = "0x182E8ED70")]
+	[Token(Token = "0x6000150")]
+	[Address(RVA = "0x688A6F0", Offset = "0x68896F0", VA = "0x688A6F0")]
 	internal void EnableScaler()
 	{
 	}
 
-	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x2E8EFE0", Offset = "0x2E8D5E0", VA = "0x182E8EFE0")]
+	[Token(Token = "0x6000151")]
+	[Address(RVA = "0x688A750", Offset = "0x6889750", VA = "0x688A750")]
 	internal void RemoveScaler()
 	{
 	}
 
-	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x2E8EFD0", Offset = "0x2E8D5D0", VA = "0x182E8EFD0")]
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x688A790", Offset = "0x6889790", VA = "0x688A790")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x2E8EDB0", Offset = "0x2E8D3B0", VA = "0x182E8EDB0")]
+	[Token(Token = "0x6000153")]
+	[Address(RVA = "0x68896C0", Offset = "0x68886C0", VA = "0x68896C0")]
 	internal void IncreaseLevel()
 	{
 	}
 
-	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x2E8ECB0", Offset = "0x2E8D2B0", VA = "0x182E8ECB0")]
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x6887E60", Offset = "0x6886E60", VA = "0x6887E60")]
 	internal void DecreaseLevel()
 	{
 	}
 
-	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x2E8E9B0", Offset = "0x2E8CFB0", VA = "0x182E8E9B0")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x6889490", Offset = "0x6888490", VA = "0x6889490")]
 	internal void Activate()
 	{
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x26D86C0", Offset = "0x26D6CC0", VA = "0x1826D86C0")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x6889470", Offset = "0x6888470", VA = "0x6889470")]
 	internal void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x688A7D0", Offset = "0x68897D0", VA = "0x688A7D0")]
 	public void ApplyDefaultSetting(AdaptivePerformanceScalerSettingsBase defaultSetting)
 	{
 	}
 
-	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x2E8F130", Offset = "0x2E8D730", VA = "0x182E8F130")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x688A7E0", Offset = "0x68897E0", VA = "0x688A7E0")]
 	protected bool ScaleChanged()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "21")]
+	[Token(Token = "0x6000159")]
+	[Address(RVA = "0x688A8E0", Offset = "0x68898E0", VA = "0x688A8E0", Slot = "21")]
 	protected virtual void OnLevelIncrease()
 	{
 	}
 
-	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "22")]
+	[Token(Token = "0x600015A")]
+	[Address(RVA = "0x688A8F0", Offset = "0x68898F0", VA = "0x688A8F0", Slot = "22")]
 	protected virtual void OnLevelDecrease()
 	{
 	}
 
-	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "23")]
+	[Token(Token = "0x600015B")]
+	[Address(RVA = "0x688A900", Offset = "0x6889900", VA = "0x688A900", Slot = "23")]
 	protected virtual void OnLevel()
 	{
 	}
 
-	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "24")]
+	[Token(Token = "0x600015C")]
+	[Address(RVA = "0x688A910", Offset = "0x6889910", VA = "0x688A910", Slot = "24")]
 	protected virtual void OnEnabled()
 	{
 	}
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "25")]
+	[Token(Token = "0x600015D")]
+	[Address(RVA = "0x688A920", Offset = "0x6889920", VA = "0x688A920", Slot = "25")]
 	protected virtual void OnDisabled()
 	{
 	}
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x2E81040", Offset = "0x2E7F640", VA = "0x182E81040")]
+	[Token(Token = "0x600015E")]
+	[Address(RVA = "0x688A930", Offset = "0x6889930", VA = "0x688A930")]
 	protected AdaptivePerformanceScaler()
 	{
 	}

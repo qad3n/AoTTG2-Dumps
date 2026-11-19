@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000120")]
+[Token(Token = "0x20000F8")]
 public class ObjectDisposedException : InvalidOperationException
 {
-	[Token(Token = "0x4000427")]
+	[Token(Token = "0x4000382")]
 	[FieldOffset(Offset = "0x90")]
 	private string _objectName;
 
 	[Token(Token = "0x1700009D")]
 	public override string Message
 	{
-		[Token(Token = "0x600096E")]
-		[Address(RVA = "0x1B44CA0", Offset = "0x1B432A0", VA = "0x181B44CA0", Slot = "5")]
+		[Token(Token = "0x6000949")]
+		[Address(RVA = "0x54CC560", Offset = "0x54CB560", VA = "0x54CC560", Slot = "5")]
 		get
 		{
 			return null;
@@ -32,40 +32,40 @@ public class ObjectDisposedException : InvalidOperationException
 	[Token(Token = "0x1700009E")]
 	public string ObjectName
 	{
-		[Token(Token = "0x600096F")]
-		[Address(RVA = "0x1B44D50", Offset = "0x1B43350", VA = "0x181B44D50")]
+		[Token(Token = "0x600094A")]
+		[Address(RVA = "0x54CC4F0", Offset = "0x54CB4F0", VA = "0x54CC4F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000969")]
-	[Address(RVA = "0x1B44B80", Offset = "0x1B43180", VA = "0x181B44B80")]
+	[Token(Token = "0x6000944")]
+	[Address(RVA = "0x54CC260", Offset = "0x54CB260", VA = "0x54CC260")]
 	private ObjectDisposedException()
 	{
 	}
 
-	[Token(Token = "0x600096A")]
-	[Address(RVA = "0x1B44C30", Offset = "0x1B43230", VA = "0x181B44C30")]
+	[Token(Token = "0x6000945")]
+	[Address(RVA = "0x54CC300", Offset = "0x54CB300", VA = "0x54CC300")]
 	public ObjectDisposedException(string objectName)
 	{
 	}
 
-	[Token(Token = "0x600096B")]
-	[Address(RVA = "0x1B44BE0", Offset = "0x1B431E0", VA = "0x181B44BE0")]
+	[Token(Token = "0x6000946")]
+	[Address(RVA = "0x54CC2C0", Offset = "0x54CB2C0", VA = "0x54CC2C0")]
 	public ObjectDisposedException(string objectName, string message)
 	{
 	}
 
-	[Token(Token = "0x600096C")]
-	[Address(RVA = "0x1B44AE0", Offset = "0x1B430E0", VA = "0x181B44AE0")]
+	[Token(Token = "0x6000947")]
+	[Address(RVA = "0x54CC370", Offset = "0x54CB370", VA = "0x54CC370")]
 	protected ObjectDisposedException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600096D")]
-	[Address(RVA = "0x1B449F0", Offset = "0x1B42FF0", VA = "0x181B449F0", Slot = "11")]
+	[Token(Token = "0x6000948")]
+	[Address(RVA = "0x54CC400", Offset = "0x54CB400", VA = "0x54CC400", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

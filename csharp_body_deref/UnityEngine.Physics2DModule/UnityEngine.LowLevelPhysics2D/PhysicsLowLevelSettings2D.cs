@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsLowLevelSettings2D
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -80,9 +80,9 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 
 	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x6C0")]
-	[Header("Globals")]
-	[Range(1f, 64f)]
 	[SerializeField]
+	[Range(1f, 64f)]
+	[Header("Globals")]
 	private int m_ConcurrentSimulations;
 
 	[Token(Token = "0x400003B")]
@@ -105,13 +105,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public PhysicsLayers.LayerNames physicsLayerNames
 	{
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x69C9500", Offset = "0x69C8500", VA = "0x69C9500")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x69C9510", Offset = "0x69C8510", VA = "0x69C9510")]
 		set
 		{
 		}
@@ -121,13 +121,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public bool useFullLayers
 	{
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x69C9520", Offset = "0x69C8520", VA = "0x69C9520")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x69C9530", Offset = "0x69C8530", VA = "0x69C9530")]
 		set
 		{
 		}
@@ -137,13 +137,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public PhysicsWorldDefinition physicsWorldDefinition
 	{
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x2FD4950", Offset = "0x2FD2F50", VA = "0x182FD4950")]
+		[Address(RVA = "0x69C9540", Offset = "0x69C8540", VA = "0x69C9540")]
 		get
 		{
 			return default(PhysicsWorldDefinition);
 		}
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x2FD4B00", Offset = "0x2FD3100", VA = "0x182FD4B00")]
+		[Address(RVA = "0x69C9560", Offset = "0x69C8560", VA = "0x69C9560")]
 		set
 		{
 		}
@@ -153,13 +153,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public PhysicsBodyDefinition physicsBodyDefinition
 	{
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x2FD48A0", Offset = "0x2FD2EA0", VA = "0x182FD48A0")]
+		[Address(RVA = "0x69C9580", Offset = "0x69C8580", VA = "0x69C9580")]
 		get
 		{
 			return default(PhysicsBodyDefinition);
 		}
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x2FD4A50", Offset = "0x2FD3050", VA = "0x182FD4A50")]
+		[Address(RVA = "0x69C95C0", Offset = "0x69C85C0", VA = "0x69C95C0")]
 		set
 		{
 		}
@@ -169,13 +169,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public PhysicsShapeDefinition physicsShapeDefinition
 	{
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x2FD4910", Offset = "0x2FD2F10", VA = "0x182FD4910")]
+		[Address(RVA = "0x69C9600", Offset = "0x69C8600", VA = "0x69C9600")]
 		get
 		{
 			return default(PhysicsShapeDefinition);
 		}
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x2FD4AC0", Offset = "0x2FD30C0", VA = "0x182FD4AC0")]
+		[Address(RVA = "0x69C9640", Offset = "0x69C8640", VA = "0x69C9640")]
 		set
 		{
 		}
@@ -185,13 +185,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public PhysicsChainDefinition physicsChainDefinition
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x2FD48E0", Offset = "0x2FD2EE0", VA = "0x182FD48E0")]
+		[Address(RVA = "0x69C9680", Offset = "0x69C8680", VA = "0x69C9680")]
 		get
 		{
 			return default(PhysicsChainDefinition);
 		}
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x2FD4A90", Offset = "0x2FD3090", VA = "0x182FD4A90")]
+		[Address(RVA = "0x69C96B0", Offset = "0x69C86B0", VA = "0x69C96B0")]
 		set
 		{
 		}
@@ -202,13 +202,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public int concurrentSimulations
 	{
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0x2FD3CB0", Offset = "0x2FD22B0", VA = "0x182FD3CB0")]
+		[Address(RVA = "0x69C96F0", Offset = "0x69C86F0", VA = "0x69C96F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x2FD49F0", Offset = "0x2FD2FF0", VA = "0x182FD49F0")]
+		[Address(RVA = "0x69C9700", Offset = "0x69C8700", VA = "0x69C9700")]
 		set
 		{
 		}
@@ -218,13 +218,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public float lengthUnitsPerMeter
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x2FD3CD0", Offset = "0x2FD22D0", VA = "0x182FD3CD0")]
+		[Address(RVA = "0x69C9720", Offset = "0x69C8720", VA = "0x69C9720")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x2FD4A30", Offset = "0x2FD3030", VA = "0x182FD4A30")]
+		[Address(RVA = "0x69C9730", Offset = "0x69C8730", VA = "0x69C9730")]
 		set
 		{
 		}
@@ -234,13 +234,13 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public bool drawInBuild
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2FD3CC0", Offset = "0x2FD22C0", VA = "0x182FD3CC0")]
+		[Address(RVA = "0x69C9750", Offset = "0x69C8750", VA = "0x69C9750")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x2FD4A20", Offset = "0x2FD3020", VA = "0x182FD4A20")]
+		[Address(RVA = "0x69C9760", Offset = "0x69C8760", VA = "0x69C9760")]
 		set
 		{
 		}
@@ -250,109 +250,109 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	public bool bypassLowLevel
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x2FD3CA0", Offset = "0x2FD22A0", VA = "0x182FD3CA0")]
+		[Address(RVA = "0x69C9770", Offset = "0x69C8770", VA = "0x69C9770")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x2FD49E0", Offset = "0x2FD2FE0", VA = "0x182FD49E0")]
+		[Address(RVA = "0x69C9780", Offset = "0x69C8780", VA = "0x69C9780")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2FD4880", Offset = "0x2FD2E80", VA = "0x182FD4880")]
+	[Address(RVA = "0x69C8390", Offset = "0x69C7390", VA = "0x69C8390")]
 	public PhysicsLowLevelSettings2D()
 	{
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2FD4150", Offset = "0x2FD2750", VA = "0x182FD4150")]
+	[Address(RVA = "0x69C83B0", Offset = "0x69C73B0", VA = "0x69C83B0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2FD3E80", Offset = "0x2FD2480", VA = "0x182FD3E80")]
+	[Address(RVA = "0x69C9790", Offset = "0x69C8790", VA = "0x69C9790")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsLayerNames(out PhysicsLayers.LayerNames layerNames)
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x2FD4030", Offset = "0x2FD2630", VA = "0x182FD4030")]
+	[Address(RVA = "0x69C97B0", Offset = "0x69C87B0", VA = "0x69C97B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsWorldDefinition(out PhysicsWorldDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2FD3CE0", Offset = "0x2FD22E0", VA = "0x182FD3CE0")]
+	[Address(RVA = "0x69C97D0", Offset = "0x69C87D0", VA = "0x69C97D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsBodyDefinition(out PhysicsBodyDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x2FD3F10", Offset = "0x2FD2510", VA = "0x182FD3F10")]
+	[Address(RVA = "0x69C9810", Offset = "0x69C8810", VA = "0x69C9810")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsShapeDefinition(out PhysicsShapeDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2FD3D20", Offset = "0x2FD2320", VA = "0x182FD3D20")]
+	[Address(RVA = "0x69C9850", Offset = "0x69C8850", VA = "0x69C9850")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsChainDefinition(out PhysicsChainDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2FD3D50", Offset = "0x2FD2350", VA = "0x182FD3D50")]
+	[Address(RVA = "0x69C9880", Offset = "0x69C8880", VA = "0x69C9880")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsDistanceJointDefinition(out PhysicsDistanceJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2FD3DD0", Offset = "0x2FD23D0", VA = "0x182FD3DD0")]
+	[Address(RVA = "0x69C98E0", Offset = "0x69C88E0", VA = "0x69C98E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsFixedJointDefinition(out PhysicsFixedJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2FD3E20", Offset = "0x2FD2420", VA = "0x182FD3E20")]
+	[Address(RVA = "0x69C9930", Offset = "0x69C8930", VA = "0x69C9930")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsHingeJointDefinition(out PhysicsHingeJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2FD3EA0", Offset = "0x2FD24A0", VA = "0x182FD3EA0")]
+	[Address(RVA = "0x69C9980", Offset = "0x69C8980", VA = "0x69C9980")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsRelativeJointDefinition(out PhysicsRelativeJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2FD3F50", Offset = "0x2FD2550", VA = "0x182FD3F50")]
+	[Address(RVA = "0x69C99E0", Offset = "0x69C89E0", VA = "0x69C99E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsSliderJointDefinition(out PhysicsSliderJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2FD3FB0", Offset = "0x2FD25B0", VA = "0x182FD3FB0")]
+	[Address(RVA = "0x69C9A30", Offset = "0x69C8A30", VA = "0x69C9A30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void GetPhysicsWheelJointDefinition(out PhysicsWheelJointDefinition definition)
 	{
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x2FD3CB0", Offset = "0x2FD22B0", VA = "0x182FD3CB0")]
+	[Address(RVA = "0x69C9A90", Offset = "0x69C8A90", VA = "0x69C9A90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private int GetConcurrentSimulations()
 	{
@@ -360,7 +360,7 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x2FD3CD0", Offset = "0x2FD22D0", VA = "0x182FD3CD0")]
+	[Address(RVA = "0x69C9AA0", Offset = "0x69C8AA0", VA = "0x69C9AA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private float GetLengthUnitsPerMeter()
 	{
@@ -368,7 +368,7 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x2FD3CC0", Offset = "0x2FD22C0", VA = "0x182FD3CC0")]
+	[Address(RVA = "0x69C9AB0", Offset = "0x69C8AB0", VA = "0x69C9AB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private bool GetDrawInBuild()
 	{
@@ -376,7 +376,7 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x2FD3CA0", Offset = "0x2FD22A0", VA = "0x182FD3CA0")]
+	[Address(RVA = "0x69C9AC0", Offset = "0x69C8AC0", VA = "0x69C9AC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private bool GetBypassLowLevel()
 	{
@@ -384,7 +384,7 @@ public sealed class PhysicsLowLevelSettings2D : ScriptableObject
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+	[Address(RVA = "0x69C9AD0", Offset = "0x69C8AD0", VA = "0x69C9AD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private bool GetUseFullLayers()
 	{

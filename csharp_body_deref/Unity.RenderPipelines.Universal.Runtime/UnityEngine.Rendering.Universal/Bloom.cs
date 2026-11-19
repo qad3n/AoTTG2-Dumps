@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Bloom
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -82,14 +82,14 @@ public sealed class Bloom : VolumeComponent, IPostProcessComponent
 	public MinFloatParameter dirtIntensity;
 
 	[Token(Token = "0x6000432")]
-	[Address(RVA = "0x2C19050", Offset = "0x2C17650", VA = "0x182C19050", Slot = "8")]
+	[Address(RVA = "0x6627A40", Offset = "0x6626A40", VA = "0x6627A40", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x6627A70", Offset = "0x6626A70", VA = "0x6627A70", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -97,7 +97,7 @@ public sealed class Bloom : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x2C19090", Offset = "0x2C17690", VA = "0x182C19090")]
+	[Address(RVA = "0x6627A80", Offset = "0x6626A80", VA = "0x6627A80")]
 	public Bloom()
 	{
 	}

@@ -17,7 +17,7 @@ public class AudioInChangeNotifierNotSupported : IAudioInChangeNotifier, IDispos
 	public bool IsSupported
 	{
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+		[Address(RVA = "0x5704EE0", Offset = "0x5703EE0", VA = "0x5704EE0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -28,7 +28,7 @@ public class AudioInChangeNotifierNotSupported : IAudioInChangeNotifier, IDispos
 	public string Error
 	{
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x1D67D50", Offset = "0x1D66350", VA = "0x181D67D50", Slot = "5")]
+		[Address(RVA = "0x5704F00", Offset = "0x5703F00", VA = "0x5704F00", Slot = "5")]
 		get
 		{
 			return null;
@@ -36,13 +36,13 @@ public class AudioInChangeNotifierNotSupported : IAudioInChangeNotifier, IDispos
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5704EF0", Offset = "0x5703EF0", VA = "0x5704EF0")]
 	public AudioInChangeNotifierNotSupported(Action callback, ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x5704F30", Offset = "0x5703F30", VA = "0x5704F30", Slot = "6")]
 	public void Dispose()
 	{
 	}

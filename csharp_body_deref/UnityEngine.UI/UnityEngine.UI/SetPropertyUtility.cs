@@ -13,7 +13,7 @@ namespace UnityEngine.UI;
 internal static class SetPropertyUtility
 {
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x2D33AD0", Offset = "0x2D320D0", VA = "0x182D33AD0")]
+	[Address(RVA = "0x6CF5220", Offset = "0x6CF4220", VA = "0x6CF5220")]
 	public static bool SetColor(ref Color currentValue, Color newValue)
 	{
 		return default(bool);

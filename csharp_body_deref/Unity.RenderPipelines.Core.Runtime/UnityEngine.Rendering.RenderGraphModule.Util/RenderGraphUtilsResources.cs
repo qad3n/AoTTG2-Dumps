@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtilsResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,7 +45,7 @@ internal class RenderGraphUtilsResources : IRenderPipelineResources, IRenderPipe
 	private int UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002Eversion
 	{
 		[Token(Token = "0x6001337")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x658B5B0", Offset = "0x658A5B0", VA = "0x658B5B0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -56,20 +56,20 @@ internal class RenderGraphUtilsResources : IRenderPipelineResources, IRenderPipe
 	public Shader coreCopyPS
 	{
 		[Token(Token = "0x6001338")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x658B5C0", Offset = "0x658A5C0", VA = "0x658B5C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001339")]
-		[Address(RVA = "0x2BA2690", Offset = "0x2BA0C90", VA = "0x182BA2690")]
+		[Address(RVA = "0x658B5D0", Offset = "0x658A5D0", VA = "0x658B5D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600133A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x658B630", Offset = "0x658A630", VA = "0x658B630")]
 	public RenderGraphUtilsResources()
 	{
 	}

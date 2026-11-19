@@ -26,26 +26,26 @@ public static class GraphInstances
 	private static readonly Dictionary<IGraphParent, HashSet<GraphReference>> byParent;
 
 	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x2DA8840", Offset = "0x2DA6E40", VA = "0x182DA8840")]
+	[Address(RVA = "0x67995F0", Offset = "0x67985F0", VA = "0x67995F0")]
 	public static void Instantiate(GraphReference instance)
 	{
 	}
 
 	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x2DA9120", Offset = "0x2DA7720", VA = "0x182DA9120")]
+	[Address(RVA = "0x679A350", Offset = "0x6799350", VA = "0x679A350")]
 	public static void Uninstantiate(GraphReference instance)
 	{
 	}
 
 	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x2DA8EF0", Offset = "0x2DA74F0", VA = "0x182DA8EF0")]
+	[Address(RVA = "0x679AEB0", Offset = "0x6799EB0", VA = "0x679AEB0")]
 	public static HashSet<GraphReference> OfPooled(IGraph graph)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600032A")]
-	[Address(RVA = "0x2DA8610", Offset = "0x2DA6C10", VA = "0x182DA8610")]
+	[Address(RVA = "0x679B180", Offset = "0x679A180", VA = "0x679B180")]
 	public static HashSet<GraphReference> ChildrenOfPooled(IGraphParent parent)
 	{
 		return null;

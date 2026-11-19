@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000673")]
+[Token(Token = "0x20006D2")]
 internal class AHSSTwinShot : ExtendedUseable
 {
-	[Token(Token = "0x6003FEB")]
-	[Address(RVA = "0x21625B0", Offset = "0x2160BB0", VA = "0x1821625B0")]
+	[Token(Token = "0x6004283")]
+	[Address(RVA = "0x5B07F00", Offset = "0x5B06F00", VA = "0x5B07F00")]
 	public AHSSTwinShot(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003FEC")]
-	[Address(RVA = "0x2162410", Offset = "0x2160A10", VA = "0x182162410", Slot = "15")]
+	[Token(Token = "0x6004284")]
+	[Address(RVA = "0x5B07F20", Offset = "0x5B06F20", VA = "0x5B07F20", Slot = "15")]
 	protected override float GetActiveTime()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003FED")]
-	[Address(RVA = "0x2161850", Offset = "0x215FE50", VA = "0x182161850", Slot = "6")]
+	[Token(Token = "0x6004285")]
+	[Address(RVA = "0x5B08010", Offset = "0x5B07010", VA = "0x5B08010", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003FEE")]
-	[Address(RVA = "0x21624D0", Offset = "0x2160AD0", VA = "0x1821624D0", Slot = "8")]
+	[Token(Token = "0x6004286")]
+	[Address(RVA = "0x5B080F0", Offset = "0x5B070F0", VA = "0x5B080F0", Slot = "8")]
 	protected override void OnUse()
 	{
 	}
 
-	[Token(Token = "0x6003FEF")]
-	[Address(RVA = "0x2161980", Offset = "0x215FF80", VA = "0x182161980", Slot = "10")]
+	[Token(Token = "0x6004287")]
+	[Address(RVA = "0x5B081C0", Offset = "0x5B071C0", VA = "0x5B081C0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

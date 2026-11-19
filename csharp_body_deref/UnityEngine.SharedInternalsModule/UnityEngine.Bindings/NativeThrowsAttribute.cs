@@ -20,7 +20,7 @@ internal class NativeThrowsAttribute : Attribute
 	public bool ThrowsException
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0", Slot = "7")]
+		[Address(RVA = "0x69F19D0", Offset = "0x69F09D0", VA = "0x69F19D0", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ internal class NativeThrowsAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x289A170", Offset = "0x2898770", VA = "0x18289A170")]
+	[Address(RVA = "0x69F19E0", Offset = "0x69F09E0", VA = "0x69F19E0")]
 	public NativeThrowsAttribute()
 	{
 	}

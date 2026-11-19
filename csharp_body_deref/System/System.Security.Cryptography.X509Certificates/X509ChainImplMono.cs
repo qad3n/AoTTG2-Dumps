@@ -10,352 +10,352 @@ using Mono.Security.X509;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000146")]
+[Token(Token = "0x2000107")]
 internal class X509ChainImplMono : X509ChainImpl
 {
-	[Token(Token = "0x40005BD")]
+	[Token(Token = "0x40004EE")]
 	[FieldOffset(Offset = "0x10")]
 	private StoreLocation location;
 
-	[Token(Token = "0x40005BE")]
+	[Token(Token = "0x40004EF")]
 	[FieldOffset(Offset = "0x18")]
 	private X509ChainElementCollection elements;
 
-	[Token(Token = "0x40005BF")]
+	[Token(Token = "0x40004F0")]
 	[FieldOffset(Offset = "0x20")]
 	private X509ChainPolicy policy;
 
-	[Token(Token = "0x40005C0")]
+	[Token(Token = "0x40004F1")]
 	[FieldOffset(Offset = "0x28")]
 	private X509ChainStatus[] status;
 
-	[Token(Token = "0x40005C1")]
+	[Token(Token = "0x40004F2")]
 	[FieldOffset(Offset = "0x0")]
 	private static X509ChainStatus[] Empty;
 
-	[Token(Token = "0x40005C2")]
+	[Token(Token = "0x40004F3")]
 	[FieldOffset(Offset = "0x30")]
 	private int max_path_length;
 
-	[Token(Token = "0x40005C3")]
+	[Token(Token = "0x40004F4")]
 	[FieldOffset(Offset = "0x38")]
 	private X500DistinguishedName working_issuer_name;
 
-	[Token(Token = "0x40005C4")]
+	[Token(Token = "0x40004F5")]
 	[FieldOffset(Offset = "0x40")]
 	private AsymmetricAlgorithm working_public_key;
 
-	[Token(Token = "0x40005C5")]
+	[Token(Token = "0x40004F6")]
 	[FieldOffset(Offset = "0x48")]
 	private X509ChainElement bce_restriction;
 
-	[Token(Token = "0x40005C6")]
+	[Token(Token = "0x40004F7")]
 	[FieldOffset(Offset = "0x50")]
 	private X509Certificate2Collection roots;
 
-	[Token(Token = "0x40005C7")]
+	[Token(Token = "0x40004F8")]
 	[FieldOffset(Offset = "0x58")]
 	private X509Certificate2Collection cas;
 
-	[Token(Token = "0x40005C8")]
+	[Token(Token = "0x40004F9")]
 	[FieldOffset(Offset = "0x60")]
 	private X509Store root_store;
 
-	[Token(Token = "0x40005C9")]
+	[Token(Token = "0x40004FA")]
 	[FieldOffset(Offset = "0x68")]
 	private X509Store ca_store;
 
-	[Token(Token = "0x40005CA")]
+	[Token(Token = "0x40004FB")]
 	[FieldOffset(Offset = "0x70")]
 	private X509Store user_root_store;
 
-	[Token(Token = "0x40005CB")]
+	[Token(Token = "0x40004FC")]
 	[FieldOffset(Offset = "0x78")]
 	private X509Store user_ca_store;
 
-	[Token(Token = "0x40005CC")]
+	[Token(Token = "0x40004FD")]
 	[FieldOffset(Offset = "0x80")]
 	private X509Certificate2Collection collection;
 
-	[Token(Token = "0x1700017E")]
+	[Token(Token = "0x1700014F")]
 	public override bool IsValid
 	{
-		[Token(Token = "0x60007F9")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Token(Token = "0x600063A")]
+		[Address(RVA = "0x6217C70", Offset = "0x6216C70", VA = "0x6217C70", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700017F")]
+	[Token(Token = "0x17000150")]
 	public override X509ChainElementCollection ChainElements
 	{
-		[Token(Token = "0x60007FA")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+		[Token(Token = "0x600063B")]
+		[Address(RVA = "0x6217C80", Offset = "0x6216C80", VA = "0x6217C80", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000180")]
+	[Token(Token = "0x17000151")]
 	public override X509ChainPolicy ChainPolicy
 	{
-		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "7")]
+		[Token(Token = "0x600063C")]
+		[Address(RVA = "0x6217C90", Offset = "0x6216C90", VA = "0x6217C90", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000181")]
+	[Token(Token = "0x17000152")]
 	private X509Certificate2Collection Roots
 	{
-		[Token(Token = "0x60007FF")]
-		[Address(RVA = "0x288CFA0", Offset = "0x288B5A0", VA = "0x18288CFA0")]
+		[Token(Token = "0x6000640")]
+		[Address(RVA = "0x62189F0", Offset = "0x62179F0", VA = "0x62189F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000182")]
+	[Token(Token = "0x17000153")]
 	private X509Certificate2Collection CertificateAuthorities
 	{
-		[Token(Token = "0x6000800")]
-		[Address(RVA = "0x288C8F0", Offset = "0x288AEF0", VA = "0x18288C8F0")]
+		[Token(Token = "0x6000641")]
+		[Address(RVA = "0x6218CC0", Offset = "0x6217CC0", VA = "0x6218CC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000183")]
+	[Token(Token = "0x17000154")]
 	private X509Store LMRootStore
 	{
-		[Token(Token = "0x6000801")]
-		[Address(RVA = "0x288CF00", Offset = "0x288B500", VA = "0x18288CF00")]
+		[Token(Token = "0x6000642")]
+		[Address(RVA = "0x6218AC0", Offset = "0x6217AC0", VA = "0x6218AC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000184")]
+	[Token(Token = "0x17000155")]
 	private X509Store UserRootStore
 	{
-		[Token(Token = "0x6000802")]
-		[Address(RVA = "0x288D1F0", Offset = "0x288B7F0", VA = "0x18288D1F0")]
+		[Token(Token = "0x6000643")]
+		[Address(RVA = "0x6218BC0", Offset = "0x6217BC0", VA = "0x6218BC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000185")]
+	[Token(Token = "0x17000156")]
 	private X509Store LMCAStore
 	{
-		[Token(Token = "0x6000803")]
-		[Address(RVA = "0x288CE60", Offset = "0x288B460", VA = "0x18288CE60")]
+		[Token(Token = "0x6000644")]
+		[Address(RVA = "0x6218D90", Offset = "0x6217D90", VA = "0x6218D90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000186")]
+	[Token(Token = "0x17000157")]
 	private X509Store UserCAStore
 	{
-		[Token(Token = "0x6000804")]
-		[Address(RVA = "0x288D150", Offset = "0x288B750", VA = "0x18288D150")]
+		[Token(Token = "0x6000645")]
+		[Address(RVA = "0x6218E90", Offset = "0x6217E90", VA = "0x6218E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000187")]
+	[Token(Token = "0x17000158")]
 	private X509Certificate2Collection CertificateCollection
 	{
-		[Token(Token = "0x6000805")]
-		[Address(RVA = "0x288CAA0", Offset = "0x288B0A0", VA = "0x18288CAA0")]
+		[Token(Token = "0x6000646")]
+		[Address(RVA = "0x6218F90", Offset = "0x6217F90", VA = "0x6218F90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60007F8")]
-	[Address(RVA = "0x288C6F0", Offset = "0x288ACF0", VA = "0x18288C6F0")]
+	[Token(Token = "0x6000639")]
+	[Address(RVA = "0x6217B40", Offset = "0x6216B40", VA = "0x6217B40")]
 	public X509ChainImplMono(bool useMachineContext)
 	{
 	}
 
-	[Token(Token = "0x60007FC")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x600063D")]
+	[Address(RVA = "0x6217CA0", Offset = "0x6216CA0", VA = "0x6217CA0", Slot = "9")]
 	public override void AddStatus(X509ChainStatusFlags error)
 	{
 	}
 
-	[Token(Token = "0x60007FD")]
-	[Address(RVA = "0x2889900", Offset = "0x2887F00", VA = "0x182889900", Slot = "8")]
+	[Token(Token = "0x600063E")]
+	[Address(RVA = "0x6217CB0", Offset = "0x6216CB0", VA = "0x6217CB0", Slot = "8")]
 	[System.MonoTODO("Not totally RFC3280 compliant, but neither is MS implementation...")]
 	public override bool Build(X509Certificate2 certificate)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007FE")]
-	[Address(RVA = "0x288BD80", Offset = "0x288A380", VA = "0x18288BD80", Slot = "10")]
+	[Token(Token = "0x600063F")]
+	[Address(RVA = "0x6218860", Offset = "0x6217860", VA = "0x6218860", Slot = "10")]
 	public override void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000806")]
-	[Address(RVA = "0x2889580", Offset = "0x2887B80", VA = "0x182889580")]
+	[Token(Token = "0x6000647")]
+	[Address(RVA = "0x62184C0", Offset = "0x62174C0", VA = "0x62184C0")]
 	private X509ChainStatusFlags BuildChainFrom(X509Certificate2 certificate)
 	{
 		return default(X509ChainStatusFlags);
 	}
 
-	[Token(Token = "0x6000807")]
-	[Address(RVA = "0x288BF60", Offset = "0x288A560", VA = "0x18288BF60")]
+	[Token(Token = "0x6000648")]
+	[Address(RVA = "0x62195A0", Offset = "0x62185A0", VA = "0x62195A0")]
 	private X509Certificate2 SelectBestFromCollection(X509Certificate2 child, X509Certificate2Collection c)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000808")]
-	[Address(RVA = "0x288AAD0", Offset = "0x28890D0", VA = "0x18288AAD0")]
+	[Token(Token = "0x6000649")]
+	[Address(RVA = "0x6219390", Offset = "0x6218390", VA = "0x6219390")]
 	private X509Certificate2 FindParent(X509Certificate2 certificate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000809")]
-	[Address(RVA = "0x288AF90", Offset = "0x2889590", VA = "0x18288AF90")]
+	[Token(Token = "0x600064A")]
+	[Address(RVA = "0x62194B0", Offset = "0x62184B0", VA = "0x62194B0")]
 	private bool IsChainComplete(X509Certificate2 certificate)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600080A")]
-	[Address(RVA = "0x288B0E0", Offset = "0x28896E0", VA = "0x18288B0E0")]
+	[Token(Token = "0x600064B")]
+	[Address(RVA = "0x6219920", Offset = "0x6218920", VA = "0x6219920")]
 	private bool IsSelfIssued(X509Certificate2 certificate)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x288C290", Offset = "0x288A890", VA = "0x18288C290")]
+	[Token(Token = "0x600064C")]
+	[Address(RVA = "0x6218610", Offset = "0x6217610", VA = "0x6218610")]
 	private void ValidateChain(X509ChainStatusFlags flag)
 	{
 	}
 
-	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x288BA30", Offset = "0x288A030", VA = "0x18288BA30")]
+	[Token(Token = "0x600064D")]
+	[Address(RVA = "0x6219960", Offset = "0x6218960", VA = "0x6219960")]
 	private void Process(int n)
 	{
 	}
 
-	[Token(Token = "0x600080D")]
-	[Address(RVA = "0x288B170", Offset = "0x2889770", VA = "0x18288B170")]
+	[Token(Token = "0x600064E")]
+	[Address(RVA = "0x6219D80", Offset = "0x6218D80", VA = "0x6219D80")]
 	private void PrepareForNextCertificate(int n)
 	{
 	}
 
-	[Token(Token = "0x600080E")]
-	[Address(RVA = "0x288C520", Offset = "0x288AB20", VA = "0x18288C520")]
+	[Token(Token = "0x600064F")]
+	[Address(RVA = "0x621A3D0", Offset = "0x62193D0", VA = "0x621A3D0")]
 	private void WrapUp()
 	{
 	}
 
-	[Token(Token = "0x600080F")]
-	[Address(RVA = "0x288B4A0", Offset = "0x2889AA0", VA = "0x18288B4A0")]
+	[Token(Token = "0x6000650")]
+	[Address(RVA = "0x621A5A0", Offset = "0x62195A0", VA = "0x621A5A0")]
 	private void ProcessCertificateExtensions(X509ChainElement element)
 	{
 	}
 
-	[Token(Token = "0x6000810")]
-	[Address(RVA = "0x288B130", Offset = "0x2889730", VA = "0x18288B130")]
+	[Token(Token = "0x6000651")]
+	[Address(RVA = "0x621A570", Offset = "0x6219570", VA = "0x621A570")]
 	private bool IsSignedWith(X509Certificate2 signed, AsymmetricAlgorithm pubkey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x288AEF0", Offset = "0x28894F0", VA = "0x18288AEF0")]
+	[Token(Token = "0x6000652")]
+	[Address(RVA = "0x6219890", Offset = "0x6218890", VA = "0x6219890")]
 	private string GetSubjectKeyIdentifier(X509Certificate2 certificate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x288AC70", Offset = "0x2889270", VA = "0x18288AC70")]
+	[Token(Token = "0x6000653")]
+	[Address(RVA = "0x6219800", Offset = "0x6218800", VA = "0x6219800")]
 	private static string GetAuthorityKeyIdentifier(X509Certificate2 certificate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x288AD00", Offset = "0x2889300", VA = "0x18288AD00")]
+	[Token(Token = "0x6000654")]
+	[Address(RVA = "0x621A820", Offset = "0x6219820", VA = "0x621A820")]
 	private static string GetAuthorityKeyIdentifier(X509Crl crl)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x288AD80", Offset = "0x2889380", VA = "0x18288AD80")]
+	[Token(Token = "0x6000655")]
+	[Address(RVA = "0x621A6A0", Offset = "0x62196A0", VA = "0x621A6A0")]
 	private static string GetAuthorityKeyIdentifier(Mono.Security.X509.X509Extension ext)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x288A280", Offset = "0x2888880", VA = "0x18288A280")]
+	[Token(Token = "0x6000656")]
+	[Address(RVA = "0x621A0E0", Offset = "0x62190E0", VA = "0x621A0E0")]
 	private void CheckRevocationOnChain(X509ChainStatusFlags flag)
 	{
 	}
 
-	[Token(Token = "0x6000816")]
-	[Address(RVA = "0x288A6B0", Offset = "0x2888CB0", VA = "0x18288A6B0")]
+	[Token(Token = "0x6000657")]
+	[Address(RVA = "0x621A8A0", Offset = "0x62198A0", VA = "0x621A8A0")]
 	private X509ChainStatusFlags CheckRevocation(X509Certificate2 certificate, int ca, bool online)
 	{
 		return default(X509ChainStatusFlags);
 	}
 
-	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x288A4B0", Offset = "0x2888AB0", VA = "0x18288A4B0")]
+	[Token(Token = "0x6000658")]
+	[Address(RVA = "0x621AA80", Offset = "0x6219A80", VA = "0x621AA80")]
 	private X509ChainStatusFlags CheckRevocation(X509Certificate2 certificate, X509Certificate2 ca_cert, bool online)
 	{
 		return default(X509ChainStatusFlags);
 	}
 
-	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x288A050", Offset = "0x2888650", VA = "0x18288A050")]
+	[Token(Token = "0x6000659")]
+	[Address(RVA = "0x621B440", Offset = "0x621A440", VA = "0x621B440")]
 	private static X509Crl CheckCrls(string subject, string ski, Mono.Security.X509.X509Store store)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000819")]
-	[Address(RVA = "0x288A7D0", Offset = "0x2888DD0", VA = "0x18288A7D0")]
+	[Token(Token = "0x600065A")]
+	[Address(RVA = "0x621AC60", Offset = "0x6219C60", VA = "0x621AC60")]
 	private X509Crl FindCrl(X509Certificate2 caCertificate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600081A")]
-	[Address(RVA = "0x288B820", Offset = "0x2889E20", VA = "0x18288B820")]
+	[Token(Token = "0x600065B")]
+	[Address(RVA = "0x621B0F0", Offset = "0x621A0F0", VA = "0x621B0F0")]
 	private bool ProcessCrlExtensions(X509Crl crl)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600081B")]
-	[Address(RVA = "0x288B650", Offset = "0x2889C50", VA = "0x18288B650")]
+	[Token(Token = "0x600065C")]
+	[Address(RVA = "0x621ADD0", Offset = "0x6219DD0", VA = "0x621ADD0")]
 	private bool ProcessCrlEntryExtensions(X509Crl.X509CrlEntry entry)
 	{
 		return default(bool);

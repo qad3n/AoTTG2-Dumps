@@ -21,7 +21,7 @@ public struct StyleValues
 	public float top
 	{
 		[Token(Token = "0x6002E50")]
-		[Address(RVA = "0x3208060", Offset = "0x3206660", VA = "0x183208060")]
+		[Address(RVA = "0x6BFF300", Offset = "0x6BFE300", VA = "0x6BFF300")]
 		set
 		{
 		}
@@ -31,7 +31,7 @@ public struct StyleValues
 	public float left
 	{
 		[Token(Token = "0x6002E51")]
-		[Address(RVA = "0x3207FB0", Offset = "0x32065B0", VA = "0x183207FB0")]
+		[Address(RVA = "0x6BFF400", Offset = "0x6BFE400", VA = "0x6BFF400")]
 		set
 		{
 		}
@@ -41,7 +41,7 @@ public struct StyleValues
 	public float width
 	{
 		[Token(Token = "0x6002E52")]
-		[Address(RVA = "0x3208130", Offset = "0x3206730", VA = "0x183208130")]
+		[Address(RVA = "0x6BFF410", Offset = "0x6BFE410", VA = "0x6BFF410")]
 		set
 		{
 		}
@@ -51,7 +51,7 @@ public struct StyleValues
 	public float height
 	{
 		[Token(Token = "0x6002E53")]
-		[Address(RVA = "0x3207FA0", Offset = "0x32065A0", VA = "0x183207FA0")]
+		[Address(RVA = "0x6BFF420", Offset = "0x6BFE420", VA = "0x6BFF420")]
 		set
 		{
 		}
@@ -61,7 +61,7 @@ public struct StyleValues
 	public float right
 	{
 		[Token(Token = "0x6002E54")]
-		[Address(RVA = "0x3208050", Offset = "0x3206650", VA = "0x183208050")]
+		[Address(RVA = "0x6BFF430", Offset = "0x6BFE430", VA = "0x6BFF430")]
 		set
 		{
 		}
@@ -71,7 +71,7 @@ public struct StyleValues
 	public float bottom
 	{
 		[Token(Token = "0x6002E55")]
-		[Address(RVA = "0x3207EC0", Offset = "0x32064C0", VA = "0x183207EC0")]
+		[Address(RVA = "0x6BFF440", Offset = "0x6BFE440", VA = "0x6BFF440")]
 		set
 		{
 		}
@@ -81,7 +81,7 @@ public struct StyleValues
 	public Color color
 	{
 		[Token(Token = "0x6002E56")]
-		[Address(RVA = "0x3207ED0", Offset = "0x32064D0", VA = "0x183207ED0")]
+		[Address(RVA = "0x6BFF450", Offset = "0x6BFE450", VA = "0x6BFF450")]
 		set
 		{
 		}
@@ -91,7 +91,7 @@ public struct StyleValues
 	public Color backgroundColor
 	{
 		[Token(Token = "0x6002E57")]
-		[Address(RVA = "0x3207CC0", Offset = "0x32062C0", VA = "0x183207CC0")]
+		[Address(RVA = "0x6BFF530", Offset = "0x6BFE530", VA = "0x6BFF530")]
 		set
 		{
 		}
@@ -101,7 +101,7 @@ public struct StyleValues
 	public Color unityBackgroundImageTintColor
 	{
 		[Token(Token = "0x6002E58")]
-		[Address(RVA = "0x3208070", Offset = "0x3206670", VA = "0x183208070")]
+		[Address(RVA = "0x6BFF540", Offset = "0x6BFE540", VA = "0x6BFF540")]
 		set
 		{
 		}
@@ -111,7 +111,7 @@ public struct StyleValues
 	public Color borderColor
 	{
 		[Token(Token = "0x6002E59")]
-		[Address(RVA = "0x3207DB0", Offset = "0x32063B0", VA = "0x183207DB0")]
+		[Address(RVA = "0x6BFF550", Offset = "0x6BFE550", VA = "0x6BFF550")]
 		set
 		{
 		}
@@ -121,7 +121,7 @@ public struct StyleValues
 	public float marginLeft
 	{
 		[Token(Token = "0x6002E5A")]
-		[Address(RVA = "0x3207FD0", Offset = "0x32065D0", VA = "0x183207FD0")]
+		[Address(RVA = "0x6BFF560", Offset = "0x6BFE560", VA = "0x6BFF560")]
 		set
 		{
 		}
@@ -131,7 +131,7 @@ public struct StyleValues
 	public float marginTop
 	{
 		[Token(Token = "0x6002E5B")]
-		[Address(RVA = "0x3207FF0", Offset = "0x32065F0", VA = "0x183207FF0")]
+		[Address(RVA = "0x6BFF570", Offset = "0x6BFE570", VA = "0x6BFF570")]
 		set
 		{
 		}
@@ -141,7 +141,7 @@ public struct StyleValues
 	public float marginRight
 	{
 		[Token(Token = "0x6002E5C")]
-		[Address(RVA = "0x3207FE0", Offset = "0x32065E0", VA = "0x183207FE0")]
+		[Address(RVA = "0x6BFF580", Offset = "0x6BFE580", VA = "0x6BFF580")]
 		set
 		{
 		}
@@ -151,7 +151,7 @@ public struct StyleValues
 	public float marginBottom
 	{
 		[Token(Token = "0x6002E5D")]
-		[Address(RVA = "0x3207FC0", Offset = "0x32065C0", VA = "0x183207FC0")]
+		[Address(RVA = "0x6BFF590", Offset = "0x6BFE590", VA = "0x6BFF590")]
 		set
 		{
 		}
@@ -161,7 +161,7 @@ public struct StyleValues
 	public float paddingLeft
 	{
 		[Token(Token = "0x6002E5E")]
-		[Address(RVA = "0x3208020", Offset = "0x3206620", VA = "0x183208020")]
+		[Address(RVA = "0x6BFF5A0", Offset = "0x6BFE5A0", VA = "0x6BFF5A0")]
 		set
 		{
 		}
@@ -171,13 +171,13 @@ public struct StyleValues
 	public float paddingTop
 	{
 		[Token(Token = "0x6002E5F")]
-		[Address(RVA = "0x3207C20", Offset = "0x3206220", VA = "0x183207C20")]
+		[Address(RVA = "0x6BFF5B0", Offset = "0x6BFE5B0", VA = "0x6BFF5B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6002E60")]
-		[Address(RVA = "0x3208040", Offset = "0x3206640", VA = "0x183208040")]
+		[Address(RVA = "0x6BFF6B0", Offset = "0x6BFE6B0", VA = "0x6BFF6B0")]
 		set
 		{
 		}
@@ -187,7 +187,7 @@ public struct StyleValues
 	public float paddingRight
 	{
 		[Token(Token = "0x6002E61")]
-		[Address(RVA = "0x3208030", Offset = "0x3206630", VA = "0x183208030")]
+		[Address(RVA = "0x6BFF6C0", Offset = "0x6BFE6C0", VA = "0x6BFF6C0")]
 		set
 		{
 		}
@@ -197,7 +197,7 @@ public struct StyleValues
 	public float paddingBottom
 	{
 		[Token(Token = "0x6002E62")]
-		[Address(RVA = "0x3208010", Offset = "0x3206610", VA = "0x183208010")]
+		[Address(RVA = "0x6BFF6D0", Offset = "0x6BFE6D0", VA = "0x6BFF6D0")]
 		set
 		{
 		}
@@ -207,7 +207,7 @@ public struct StyleValues
 	public float borderLeftWidth
 	{
 		[Token(Token = "0x6002E63")]
-		[Address(RVA = "0x3207E70", Offset = "0x3206470", VA = "0x183207E70")]
+		[Address(RVA = "0x6BFF6E0", Offset = "0x6BFE6E0", VA = "0x6BFF6E0")]
 		set
 		{
 		}
@@ -217,7 +217,7 @@ public struct StyleValues
 	public float borderRightWidth
 	{
 		[Token(Token = "0x6002E64")]
-		[Address(RVA = "0x3207E80", Offset = "0x3206480", VA = "0x183207E80")]
+		[Address(RVA = "0x6BFF6F0", Offset = "0x6BFE6F0", VA = "0x6BFF6F0")]
 		set
 		{
 		}
@@ -227,7 +227,7 @@ public struct StyleValues
 	public float borderTopWidth
 	{
 		[Token(Token = "0x6002E65")]
-		[Address(RVA = "0x3207EB0", Offset = "0x32064B0", VA = "0x183207EB0")]
+		[Address(RVA = "0x6BFF700", Offset = "0x6BFE700", VA = "0x6BFF700")]
 		set
 		{
 		}
@@ -237,7 +237,7 @@ public struct StyleValues
 	public float borderBottomWidth
 	{
 		[Token(Token = "0x6002E66")]
-		[Address(RVA = "0x3207DA0", Offset = "0x32063A0", VA = "0x183207DA0")]
+		[Address(RVA = "0x6BFF710", Offset = "0x6BFE710", VA = "0x6BFF710")]
 		set
 		{
 		}
@@ -247,7 +247,7 @@ public struct StyleValues
 	public float borderTopLeftRadius
 	{
 		[Token(Token = "0x6002E67")]
-		[Address(RVA = "0x3207E90", Offset = "0x3206490", VA = "0x183207E90")]
+		[Address(RVA = "0x6BFF720", Offset = "0x6BFE720", VA = "0x6BFF720")]
 		set
 		{
 		}
@@ -257,7 +257,7 @@ public struct StyleValues
 	public float borderTopRightRadius
 	{
 		[Token(Token = "0x6002E68")]
-		[Address(RVA = "0x3207EA0", Offset = "0x32064A0", VA = "0x183207EA0")]
+		[Address(RVA = "0x6BFF730", Offset = "0x6BFE730", VA = "0x6BFF730")]
 		set
 		{
 		}
@@ -267,7 +267,7 @@ public struct StyleValues
 	public float borderBottomLeftRadius
 	{
 		[Token(Token = "0x6002E69")]
-		[Address(RVA = "0x3207D80", Offset = "0x3206380", VA = "0x183207D80")]
+		[Address(RVA = "0x6BFF740", Offset = "0x6BFE740", VA = "0x6BFF740")]
 		set
 		{
 		}
@@ -277,7 +277,7 @@ public struct StyleValues
 	public float borderBottomRightRadius
 	{
 		[Token(Token = "0x6002E6A")]
-		[Address(RVA = "0x3207D90", Offset = "0x3206390", VA = "0x183207D90")]
+		[Address(RVA = "0x6BFF750", Offset = "0x6BFE750", VA = "0x6BFF750")]
 		set
 		{
 		}
@@ -287,7 +287,7 @@ public struct StyleValues
 	public float opacity
 	{
 		[Token(Token = "0x6002E6B")]
-		[Address(RVA = "0x3208000", Offset = "0x3206600", VA = "0x183208000")]
+		[Address(RVA = "0x6BFF760", Offset = "0x6BFE760", VA = "0x6BFF760")]
 		set
 		{
 		}
@@ -297,7 +297,7 @@ public struct StyleValues
 	public float flexGrow
 	{
 		[Token(Token = "0x6002E6C")]
-		[Address(RVA = "0x3207F90", Offset = "0x3206590", VA = "0x183207F90")]
+		[Address(RVA = "0x6BFF770", Offset = "0x6BFE770", VA = "0x6BFF770")]
 		set
 		{
 		}
@@ -307,26 +307,26 @@ public struct StyleValues
 	public float flexShrink
 	{
 		[Token(Token = "0x6002E6D")]
-		[Address(RVA = "0x3207F90", Offset = "0x3206590", VA = "0x183207F90")]
+		[Address(RVA = "0x6BFF780", Offset = "0x6BFE780", VA = "0x6BFF780")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002E6E")]
-	[Address(RVA = "0x3207A40", Offset = "0x3206040", VA = "0x183207A40")]
+	[Address(RVA = "0x6BFF310", Offset = "0x6BFE310", VA = "0x6BFF310")]
 	internal void SetValue(StylePropertyId id, float value)
 	{
 	}
 
 	[Token(Token = "0x6002E6F")]
-	[Address(RVA = "0x3207AF0", Offset = "0x32060F0", VA = "0x183207AF0")]
+	[Address(RVA = "0x6BFF460", Offset = "0x6BFE460", VA = "0x6BFF460")]
 	internal void SetValue(StylePropertyId id, Color value)
 	{
 	}
 
 	[Token(Token = "0x6002E70")]
-	[Address(RVA = "0x3207BB0", Offset = "0x32061B0", VA = "0x183207BB0")]
+	[Address(RVA = "0x6BFF640", Offset = "0x6BFE640", VA = "0x6BFF640")]
 	internal StyleValueCollection Values()
 	{
 		return null;

@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200037D")]
+[Token(Token = "0x2000356")]
 internal class ClientActivatedIdentity : System.Runtime.Remoting.ServerIdentity
 {
-	[Token(Token = "0x4000EBF")]
+	[Token(Token = "0x4000E1F")]
 	[FieldOffset(Offset = "0x70")]
 	private MarshalByRefObject _targetThis;
 
-	[Token(Token = "0x6001D23")]
-	[Address(RVA = "0x19D60D0", Offset = "0x19D46D0", VA = "0x1819D60D0")]
+	[Token(Token = "0x6001CF9")]
+	[Address(RVA = "0x5376D50", Offset = "0x5375D50", VA = "0x5376D50")]
 	public ClientActivatedIdentity(string objectUri, Type objectType)
 	{
 	}
 
-	[Token(Token = "0x6001D24")]
-	[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+	[Token(Token = "0x6001CFA")]
+	[Address(RVA = "0x5377DB0", Offset = "0x5376DB0", VA = "0x5377DB0")]
 	public MarshalByRefObject GetServerObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D25")]
-	[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+	[Token(Token = "0x6001CFB")]
+	[Address(RVA = "0x5377DC0", Offset = "0x5376DC0", VA = "0x5377DC0")]
 	public void SetClientProxy(MarshalByRefObject obj)
 	{
 	}
 
-	[Token(Token = "0x6001D26")]
-	[Address(RVA = "0x19D5FD0", Offset = "0x19D45D0", VA = "0x1819D5FD0", Slot = "5")]
+	[Token(Token = "0x6001CFC")]
+	[Address(RVA = "0x5377DD0", Offset = "0x5376DD0", VA = "0x5377DD0", Slot = "5")]
 	public override void OnLifetimeExpired()
 	{
 	}
 
-	[Token(Token = "0x6001D27")]
-	[Address(RVA = "0x19D6030", Offset = "0x19D4630", VA = "0x1819D6030", Slot = "6")]
+	[Token(Token = "0x6001CFD")]
+	[Address(RVA = "0x5377E30", Offset = "0x5376E30", VA = "0x5377E30", Slot = "6")]
 	public override IMessage SyncObjectProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D28")]
-	[Address(RVA = "0x19D5F10", Offset = "0x19D4510", VA = "0x1819D5F10", Slot = "7")]
+	[Token(Token = "0x6001CFE")]
+	[Address(RVA = "0x5377F20", Offset = "0x5376F20", VA = "0x5377F20", Slot = "7")]
 	public override IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

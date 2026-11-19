@@ -55,31 +55,31 @@ internal class FrameTimeSampleHistory
 	private static Func<float, float, float> s_SampleValueDivide;
 
 	[Token(Token = "0x6000779")]
-	[Address(RVA = "0x2AE2DC0", Offset = "0x2AE13C0", VA = "0x182AE2DC0")]
+	[Address(RVA = "0x64C8760", Offset = "0x64C7760", VA = "0x64C8760")]
 	public FrameTimeSampleHistory(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x600077A")]
-	[Address(RVA = "0x2AE1FB0", Offset = "0x2AE05B0", VA = "0x182AE1FB0")]
+	[Address(RVA = "0x64C8BC0", Offset = "0x64C7BC0", VA = "0x64C8BC0")]
 	internal void Add(FrameTimeSample sample)
 	{
 	}
 
 	[Token(Token = "0x600077B")]
-	[Address(RVA = "0x2AE20D0", Offset = "0x2AE06D0", VA = "0x182AE20D0")]
+	[Address(RVA = "0x64C8C50", Offset = "0x64C7C50", VA = "0x64C8C50")]
 	internal void ComputeAggregateValues()
 	{
 	}
 
 	[Token(Token = "0x600077C")]
-	[Address(RVA = "0x2AE2950", Offset = "0x2AE0F50", VA = "0x182AE2950")]
+	[Address(RVA = "0x64C8B30", Offset = "0x64C7B30", VA = "0x64C8B30")]
 	internal void DiscardOldSamples(int sampleHistorySize)
 	{
 	}
 
 	[Token(Token = "0x600077D")]
-	[Address(RVA = "0x2AE2080", Offset = "0x2AE0680", VA = "0x182AE2080")]
+	[Address(RVA = "0x64CB4E0", Offset = "0x64CA4E0", VA = "0x64CB4E0")]
 	internal void Clear()
 	{
 	}

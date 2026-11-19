@@ -20,7 +20,7 @@ public abstract class XmlLinkedNode : XmlNode
 	public override XmlNode PreviousSibling
 	{
 		[Token(Token = "0x6000917")]
-		[Address(RVA = "0x272CB90", Offset = "0x272B190", VA = "0x18272CB90", Slot = "14")]
+		[Address(RVA = "0x60D84A0", Offset = "0x60D74A0", VA = "0x60D84A0", Slot = "14")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ public abstract class XmlLinkedNode : XmlNode
 	public override XmlNode NextSibling
 	{
 		[Token(Token = "0x6000918")]
-		[Address(RVA = "0x272CB30", Offset = "0x272B130", VA = "0x18272CB30", Slot = "15")]
+		[Address(RVA = "0x60D8500", Offset = "0x60D7500", VA = "0x60D8500", Slot = "15")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ public abstract class XmlLinkedNode : XmlNode
 	}
 
 	[Token(Token = "0x6000916")]
-	[Address(RVA = "0x272CA90", Offset = "0x272B090", VA = "0x18272CA90")]
+	[Address(RVA = "0x60D4D90", Offset = "0x60D3D90", VA = "0x60D4D90")]
 	internal XmlLinkedNode(XmlDocument doc)
 	{
 	}

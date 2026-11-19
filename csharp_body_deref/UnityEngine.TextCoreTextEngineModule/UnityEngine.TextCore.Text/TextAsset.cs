@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,13 +47,13 @@ public abstract class TextAsset : ScriptableObject
 	public string version
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
+		[Address(RVA = "0x6A41240", Offset = "0x6A40240", VA = "0x6A41240")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000181")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6A41250", Offset = "0x6A40250", VA = "0x6A41250")]
 		internal set
 		{
 		}
@@ -63,7 +63,7 @@ public abstract class TextAsset : ScriptableObject
 	public EntityId entityId
 	{
 		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x30455E0", Offset = "0x3043BE0", VA = "0x1830455E0")]
+		[Address(RVA = "0x6A41260", Offset = "0x6A40260", VA = "0x6A41260")]
 		get
 		{
 			return default(EntityId);
@@ -74,7 +74,7 @@ public abstract class TextAsset : ScriptableObject
 	public int instanceID
 	{
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x3045670", Offset = "0x3043C70", VA = "0x183045670")]
+		[Address(RVA = "0x6A412A0", Offset = "0x6A402A0", VA = "0x6A412A0")]
 		get
 		{
 			return default(int);
@@ -85,13 +85,13 @@ public abstract class TextAsset : ScriptableObject
 	public int hashCode
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x3045630", Offset = "0x3043C30", VA = "0x183045630")]
+		[Address(RVA = "0x6A412C0", Offset = "0x6A402C0", VA = "0x6A412C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6A412F0", Offset = "0x6A402F0", VA = "0x6A412F0")]
 		set
 		{
 		}
@@ -101,13 +101,13 @@ public abstract class TextAsset : ScriptableObject
 	public Material material
 	{
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6A41300", Offset = "0x6A40300", VA = "0x6A41300")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x6A41310", Offset = "0x6A40310", VA = "0x6A41310")]
 		set
 		{
 		}
@@ -117,26 +117,26 @@ public abstract class TextAsset : ScriptableObject
 	public int materialHashCode
 	{
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x30456A0", Offset = "0x3043CA0", VA = "0x1830456A0")]
+		[Address(RVA = "0x6A41320", Offset = "0x6A40320", VA = "0x6A41320")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x6A413B0", Offset = "0x6A403B0", VA = "0x6A413B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6A413C0", Offset = "0x6A403C0", VA = "0x6A413C0", Slot = "4")]
 	internal virtual void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6A41140", Offset = "0x6A40140", VA = "0x6A41140")]
 	protected TextAsset()
 	{
 	}

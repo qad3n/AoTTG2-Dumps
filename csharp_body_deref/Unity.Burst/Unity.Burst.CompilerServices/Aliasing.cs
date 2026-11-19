@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.CompilerServices.Aliasing
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,7 +13,7 @@ namespace Unity.Burst.CompilerServices;
 public static class Aliasing
 {
 	[Token(Token = "0x6000E40")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x63597C0", Offset = "0x63587C0", VA = "0x63597C0")]
 	public unsafe static void ExpectAliased(void* a, void* b)
 	{
 	}
@@ -34,7 +34,7 @@ public static class Aliasing
 	}
 
 	[Token(Token = "0x6000E44")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x63597D0", Offset = "0x63587D0", VA = "0x63597D0")]
 	public unsafe static void ExpectNotAliased(void* a, void* b)
 	{
 	}

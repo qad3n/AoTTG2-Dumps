@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIPainter2D
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,26 +18,26 @@ internal static class UIPainter2D
 {
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60011BE")]
-	[Address(RVA = "0x32B8F30", Offset = "0x32B7530", VA = "0x1832B8F30")]
+	[Address(RVA = "0x6CB26C0", Offset = "0x6CB16C0", VA = "0x6CB26C0")]
 	public static extern IntPtr Create(bool computeBBox = false);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60011BF")]
-	[Address(RVA = "0x32B8F70", Offset = "0x32B7570", VA = "0x1832B8F70")]
+	[Address(RVA = "0x6CB26F0", Offset = "0x6CB16F0", VA = "0x6CB26F0")]
 	public static extern void Destroy(IntPtr handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60011C0")]
-	[Address(RVA = "0x32B9060", Offset = "0x32B7660", VA = "0x1832B9060")]
+	[Address(RVA = "0x6CB2720", Offset = "0x6CB1720", VA = "0x6CB2720")]
 	public static extern void Reset(IntPtr handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60011C1")]
-	[Address(RVA = "0x32B8EF0", Offset = "0x32B74F0", VA = "0x1832B8EF0")]
+	[Address(RVA = "0x6CB2750", Offset = "0x6CB1750", VA = "0x6CB2750")]
 	public static extern void ClearSnapshots(IntPtr handle);
 
 	[Token(Token = "0x60011C2")]
-	[Address(RVA = "0x32B9000", Offset = "0x32B7600", VA = "0x1832B9000")]
+	[Address(RVA = "0x6CB2780", Offset = "0x6CB1780", VA = "0x6CB2780")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static MeshWriteDataInterface ExecuteSnapshotFromJob(IntPtr painterHandle, int i)
 	{
@@ -46,6 +46,6 @@ internal static class UIPainter2D
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60011C3")]
-	[Address(RVA = "0x32B8FB0", Offset = "0x32B75B0", VA = "0x1832B8FB0")]
+	[Address(RVA = "0x6CB27F0", Offset = "0x6CB17F0", VA = "0x6CB27F0")]
 	private static extern void ExecuteSnapshotFromJob_Injected(IntPtr painterHandle, int i, out MeshWriteDataInterface ret);
 }

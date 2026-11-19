@@ -22,7 +22,7 @@ public class MergeFailedEventArgs : EventArgs
 	public string Conflict
 	{
 		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5EC2680", Offset = "0x5EC1680", VA = "0x5EC2680")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,7 +31,7 @@ public class MergeFailedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60006E2")]
-	[Address(RVA = "0x251F200", Offset = "0x251D800", VA = "0x18251F200")]
+	[Address(RVA = "0x5EC2600", Offset = "0x5EC1600", VA = "0x5EC2600")]
 	public MergeFailedEventArgs(DataTable table, string conflict)
 	{
 	}

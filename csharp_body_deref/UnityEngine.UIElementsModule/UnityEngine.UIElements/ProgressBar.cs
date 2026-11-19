@@ -20,14 +20,14 @@ public class ProgressBar : AbstractProgressBar
 	public new class UxmlFactory : UxmlFactory<ProgressBar, UxmlTraits>
 	{
 		[Token(Token = "0x60008CA")]
-		[Address(RVA = "0x3224DE0", Offset = "0x32233E0", VA = "0x183224DE0")]
+		[Address(RVA = "0x6C27D10", Offset = "0x6C26D10", VA = "0x6C27D10")]
 		public UxmlFactory()
 		{
 		}
 	}
 
 	[Token(Token = "0x60008C9")]
-	[Address(RVA = "0x3220C20", Offset = "0x321F220", VA = "0x183220C20")]
+	[Address(RVA = "0x6C27CB0", Offset = "0x6C26CB0", VA = "0x6C27CB0")]
 	public ProgressBar()
 	{
 	}

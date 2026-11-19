@@ -25,7 +25,7 @@ public readonly struct YieldAwaitable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x6000663")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+			[Address(RVA = "0x62D6D90", Offset = "0x62D5D90", VA = "0x62D6D90")]
 			get
 			{
 				return default(bool);
@@ -33,25 +33,25 @@ public readonly struct YieldAwaitable
 		}
 
 		[Token(Token = "0x6000662")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x62D89C0", Offset = "0x62D79C0", VA = "0x62D89C0")]
 		public Awaiter(PlayerLoopTiming timing)
 		{
 		}
 
 		[Token(Token = "0x6000664")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x62D6DA0", Offset = "0x62D5DA0", VA = "0x62D6DA0")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x6000665")]
-		[Address(RVA = "0x2908720", Offset = "0x2906D20", VA = "0x182908720", Slot = "5")]
+		[Address(RVA = "0x62D89D0", Offset = "0x62D79D0", VA = "0x62D89D0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000666")]
-		[Address(RVA = "0x2908D20", Offset = "0x2907320", VA = "0x182908D20", Slot = "4")]
+		[Address(RVA = "0x62D8A20", Offset = "0x62D7A20", VA = "0x62D8A20", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
@@ -62,20 +62,20 @@ public readonly struct YieldAwaitable
 	private readonly PlayerLoopTiming timing;
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+	[Address(RVA = "0x62D88B0", Offset = "0x62D78B0", VA = "0x62D88B0")]
 	public YieldAwaitable(PlayerLoopTiming timing)
 	{
 	}
 
 	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+	[Address(RVA = "0x62D6D80", Offset = "0x62D5D80", VA = "0x62D6D80")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);
 	}
 
 	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x2924690", Offset = "0x2922C90", VA = "0x182924690")]
+	[Address(RVA = "0x62D88C0", Offset = "0x62D78C0", VA = "0x62D88C0")]
 	public UniTask ToUniTask()
 	{
 		return default(UniTask);

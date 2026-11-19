@@ -9,78 +9,78 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000B7")]
+[Token(Token = "0x20000EF")]
 internal class AnnieShifterInputSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x40003FF")]
+	[Token(Token = "0x4000535")]
 	[FieldOffset(Offset = "0x38")]
 	public KeybindSetting Kick;
 
-	[Token(Token = "0x4000400")]
+	[Token(Token = "0x4000536")]
 	[FieldOffset(Offset = "0x40")]
 	public KeybindSetting Jump;
 
-	[Token(Token = "0x4000401")]
+	[Token(Token = "0x4000537")]
 	[FieldOffset(Offset = "0x48")]
 	public KeybindSetting Walk;
 
-	[Token(Token = "0x4000402")]
+	[Token(Token = "0x4000538")]
 	[FieldOffset(Offset = "0x50")]
 	public KeybindSetting AttackCombo;
 
-	[Token(Token = "0x4000403")]
+	[Token(Token = "0x4000539")]
 	[FieldOffset(Offset = "0x58")]
 	public KeybindSetting AttackSwing;
 
-	[Token(Token = "0x4000404")]
+	[Token(Token = "0x400053A")]
 	[FieldOffset(Offset = "0x60")]
 	public KeybindSetting AttackStomp;
 
-	[Token(Token = "0x4000405")]
+	[Token(Token = "0x400053B")]
 	[FieldOffset(Offset = "0x68")]
 	public KeybindSetting AttackBite;
 
-	[Token(Token = "0x4000406")]
+	[Token(Token = "0x400053C")]
 	[FieldOffset(Offset = "0x70")]
 	public KeybindSetting AttackHead;
 
-	[Token(Token = "0x4000407")]
+	[Token(Token = "0x400053D")]
 	[FieldOffset(Offset = "0x78")]
 	public KeybindSetting AttackBrushBack;
 
-	[Token(Token = "0x4000408")]
+	[Token(Token = "0x400053E")]
 	[FieldOffset(Offset = "0x80")]
 	public KeybindSetting AttackBrushFront;
 
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x400053F")]
 	[FieldOffset(Offset = "0x88")]
 	public KeybindSetting AttackBrushHead;
 
-	[Token(Token = "0x400040A")]
+	[Token(Token = "0x4000540")]
 	[FieldOffset(Offset = "0x90")]
 	public KeybindSetting AttackGrabBottom;
 
-	[Token(Token = "0x400040B")]
+	[Token(Token = "0x4000541")]
 	[FieldOffset(Offset = "0x98")]
 	public KeybindSetting AttackGrabMid;
 
-	[Token(Token = "0x400040C")]
+	[Token(Token = "0x4000542")]
 	[FieldOffset(Offset = "0xA0")]
 	public KeybindSetting AttackGrabUp;
 
-	[Token(Token = "0x1700009A")]
+	[Token(Token = "0x170000B7")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60003C1")]
-		[Address(RVA = "0x1F0D410", Offset = "0x1F0BA10", VA = "0x181F0D410", Slot = "15")]
+		[Token(Token = "0x6000537")]
+		[Address(RVA = "0x5A4AFC0", Offset = "0x5A49FC0", VA = "0x5A4AFC0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x1F0CBC0", Offset = "0x1F0B1C0", VA = "0x181F0CBC0")]
+	[Token(Token = "0x6000538")]
+	[Address(RVA = "0x5A4AFF0", Offset = "0x5A49FF0", VA = "0x5A4AFF0")]
 	public AnnieShifterInputSettings()
 	{
 	}

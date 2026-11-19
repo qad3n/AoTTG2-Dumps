@@ -20,14 +20,14 @@ public sealed class InspectorLabelAttribute : Attribute
 	public string text
 	{
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6792FC0", Offset = "0x6791FC0", VA = "0x6792FC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001F5")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6792FD0", Offset = "0x6791FD0", VA = "0x6792FD0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -38,14 +38,14 @@ public sealed class InspectorLabelAttribute : Attribute
 	public string tooltip
 	{
 		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6792FE0", Offset = "0x6791FE0", VA = "0x6792FE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001F7")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6792FF0", Offset = "0x6791FF0", VA = "0x6792FF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -56,14 +56,14 @@ public sealed class InspectorLabelAttribute : Attribute
 	public Texture image
 	{
 		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6793000", Offset = "0x6792000", VA = "0x6793000")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001F9")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6793010", Offset = "0x6792010", VA = "0x6793010")]
 		[CompilerGenerated]
 		set
 		{
@@ -71,13 +71,13 @@ public sealed class InspectorLabelAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x6792F50", Offset = "0x6791F50", VA = "0x6792F50")]
 	public InspectorLabelAttribute(string text)
 	{
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Address(RVA = "0x6792F80", Offset = "0x6791F80", VA = "0x6792F80")]
 	public InspectorLabelAttribute(string text, string tooltip)
 	{
 	}

@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20001C4")]
+[Token(Token = "0x200019C")]
 [ComVisible(true)]
 public enum PlatformID
 {
-	[Token(Token = "0x400071E")]
+	[Token(Token = "0x400067C")]
 	Win32S,
-	[Token(Token = "0x400071F")]
+	[Token(Token = "0x400067D")]
 	Win32Windows,
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x400067E")]
 	Win32NT,
-	[Token(Token = "0x4000721")]
+	[Token(Token = "0x400067F")]
 	WinCE,
-	[Token(Token = "0x4000722")]
+	[Token(Token = "0x4000680")]
 	Unix,
-	[Token(Token = "0x4000723")]
+	[Token(Token = "0x4000681")]
 	Xbox,
-	[Token(Token = "0x4000724")]
+	[Token(Token = "0x4000682")]
 	MacOSX
 }

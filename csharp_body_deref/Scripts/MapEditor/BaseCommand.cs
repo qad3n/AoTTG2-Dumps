@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000135")]
+[Token(Token = "0x200013D")]
 internal class BaseCommand
 {
-	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x6000679")]
+	[Address(RVA = "0x5B8BC40", Offset = "0x5B8AC40", VA = "0x5B8BC40", Slot = "4")]
 	public virtual void Execute()
 	{
 	}
 
-	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x600067A")]
+	[Address(RVA = "0x5B8BC50", Offset = "0x5B8AC50", VA = "0x5B8BC50", Slot = "5")]
 	public virtual void Unexecute()
 	{
 	}
 
-	[Token(Token = "0x600060F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600067B")]
+	[Address(RVA = "0x5B8B2B0", Offset = "0x5B8A2B0", VA = "0x5B8B2B0")]
 	public BaseCommand()
 	{
 	}

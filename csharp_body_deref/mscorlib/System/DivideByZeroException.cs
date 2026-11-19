@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x20000A6")]
 public class DivideByZeroException : ArithmeticException
 {
-	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x1B21A00", Offset = "0x1B20000", VA = "0x181B21A00")]
+	[Token(Token = "0x6000679")]
+	[Address(RVA = "0x549D6A0", Offset = "0x549C6A0", VA = "0x549D6A0")]
 	public DivideByZeroException()
 	{
 	}
 
-	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x1B219E0", Offset = "0x1B1FFE0", VA = "0x181B219E0")]
+	[Token(Token = "0x600067A")]
+	[Address(RVA = "0x549D6E0", Offset = "0x549C6E0", VA = "0x549D6E0")]
 	public DivideByZeroException(string message)
 	{
 	}
 
-	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x600067B")]
+	[Address(RVA = "0x549D700", Offset = "0x549C700", VA = "0x549D700")]
 	protected DivideByZeroException(SerializationInfo info, StreamingContext context)
 	{
 	}

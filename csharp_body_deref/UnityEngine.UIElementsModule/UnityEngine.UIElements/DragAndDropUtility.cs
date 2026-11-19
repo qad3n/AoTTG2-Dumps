@@ -26,7 +26,7 @@ internal static class DragAndDropUtility
 	private static IDragAndDrop s_DragAndDropPlayMode;
 
 	[Token(Token = "0x6000B12")]
-	[Address(RVA = "0x323FDC0", Offset = "0x323E3C0", VA = "0x18323FDC0")]
+	[Address(RVA = "0x6C4F190", Offset = "0x6C4E190", VA = "0x6C4F190")]
 	internal static IDragAndDrop GetDragAndDrop(IPanel panel)
 	{
 		return null;

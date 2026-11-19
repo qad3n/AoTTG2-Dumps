@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001B2")]
+[Token(Token = "0x20001B3")]
 [AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]
 public class SelectionBaseAttribute : Attribute
 {
-	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000E3F")]
+	[Address(RVA = "0x691D830", Offset = "0x691C830", VA = "0x691D830")]
 	public SelectionBaseAttribute()
 	{
 	}

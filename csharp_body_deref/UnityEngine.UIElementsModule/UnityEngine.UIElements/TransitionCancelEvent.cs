@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public sealed class TransitionCancelEvent : TransitionEventBase<TransitionCancelEvent>
 {
 	[Token(Token = "0x6000F25")]
-	[Address(RVA = "0x326E970", Offset = "0x326CF70", VA = "0x18326E970")]
+	[Address(RVA = "0x6C725E0", Offset = "0x6C715E0", VA = "0x6C725E0")]
 	static TransitionCancelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000F26")]
-	[Address(RVA = "0x326EA50", Offset = "0x326D050", VA = "0x18326EA50")]
+	[Address(RVA = "0x6C726B0", Offset = "0x6C716B0", VA = "0x6C726B0")]
 	public TransitionCancelEvent()
 	{
 	}

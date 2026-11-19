@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourceUnversionedData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -84,32 +84,32 @@ internal struct ResourceUnversionedData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60013C5")]
-	[Address(RVA = "0x2BB95D0", Offset = "0x2BB7BD0", VA = "0x182BB95D0")]
+	[Address(RVA = "0x65A1610", Offset = "0x65A0610", VA = "0x65A1610")]
 	public string GetName(CompilerContextData ctx, in ResourceHandle h)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013C6")]
-	[Address(RVA = "0x2BB9690", Offset = "0x2BB7C90", VA = "0x182BB9690")]
+	[Address(RVA = "0x65A1630", Offset = "0x65A0630", VA = "0x65A1630")]
 	public ResourceUnversionedData(TextureResource rll, ref RenderTargetInfo info, ref TextureDesc desc, bool isResourceShared)
 	{
 	}
 
 	[Token(Token = "0x60013C7")]
-	[Address(RVA = "0x2BB9620", Offset = "0x2BB7C20", VA = "0x182BB9620")]
+	[Address(RVA = "0x65A1690", Offset = "0x65A0690", VA = "0x65A1690")]
 	public ResourceUnversionedData(IRenderGraphResource rll, ref BufferDesc _, bool isResourceShared)
 	{
 	}
 
 	[Token(Token = "0x60013C8")]
-	[Address(RVA = "0x2BB9620", Offset = "0x2BB7C20", VA = "0x182BB9620")]
+	[Address(RVA = "0x65A16E0", Offset = "0x65A06E0", VA = "0x65A16E0")]
 	public ResourceUnversionedData(IRenderGraphResource rll, ref RayTracingAccelerationStructureDesc _, bool isResourceShared)
 	{
 	}
 
 	[Token(Token = "0x60013C9")]
-	[Address(RVA = "0x2BB9600", Offset = "0x2BB7C00", VA = "0x182BB9600")]
+	[Address(RVA = "0x65A1730", Offset = "0x65A0730", VA = "0x65A1730")]
 	public void InitializeNullResource()
 	{
 	}

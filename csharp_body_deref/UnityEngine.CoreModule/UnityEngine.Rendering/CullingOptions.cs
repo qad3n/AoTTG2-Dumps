@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003A3")]
+[Token(Token = "0x2000377")]
 [Flags]
 public enum CullingOptions
 {
-	[Token(Token = "0x4000B5E")]
+	[Token(Token = "0x4000A3E")]
 	None = 0,
-	[Token(Token = "0x4000B5F")]
+	[Token(Token = "0x4000A3F")]
 	ForceEvenIfCameraIsNotActive = 1,
-	[Token(Token = "0x4000B60")]
+	[Token(Token = "0x4000A40")]
 	OcclusionCull = 2,
-	[Token(Token = "0x4000B61")]
+	[Token(Token = "0x4000A41")]
 	NeedsLighting = 4,
-	[Token(Token = "0x4000B62")]
+	[Token(Token = "0x4000A42")]
 	NeedsReflectionProbes = 8,
-	[Token(Token = "0x4000B63")]
+	[Token(Token = "0x4000A43")]
 	Stereo = 0x10,
-	[Token(Token = "0x4000B64")]
+	[Token(Token = "0x4000A44")]
 	DisablePerObjectCulling = 0x20,
-	[Token(Token = "0x4000B65")]
+	[Token(Token = "0x4000A45")]
 	ShadowCasters = 0x40
 }

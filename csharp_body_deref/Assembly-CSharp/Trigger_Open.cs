@@ -17,13 +17,13 @@ public class Trigger_Open : MonoBehaviour
 	private Animator _animator;
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x528550", Offset = "0x526B50", VA = "0x180528550")]
+	[Address(RVA = "0x313C2E0", Offset = "0x313B2E0", VA = "0x313C2E0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x313C320", Offset = "0x313B320", VA = "0x313C320")]
 	public Trigger_Open()
 	{
 	}

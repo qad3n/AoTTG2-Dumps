@@ -27,20 +27,20 @@ internal sealed class IgnoreTimeScalePlayerLoopTimer : PlayerLoopTimer
 	private float interval;
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x290E280", Offset = "0x290C880", VA = "0x18290E280")]
+	[Address(RVA = "0x62C8A50", Offset = "0x62C7A50", VA = "0x62C8A50")]
 	public IgnoreTimeScalePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x290E130", Offset = "0x290C730", VA = "0x18290E130", Slot = "7")]
+	[Address(RVA = "0x62C9130", Offset = "0x62C8130", VA = "0x62C9130", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x290E1A0", Offset = "0x290C7A0", VA = "0x18290E1A0", Slot = "6")]
+	[Address(RVA = "0x62C9190", Offset = "0x62C8190", VA = "0x62C9190", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

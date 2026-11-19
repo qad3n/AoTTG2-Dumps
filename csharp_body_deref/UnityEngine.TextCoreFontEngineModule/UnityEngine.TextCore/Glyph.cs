@@ -60,13 +60,13 @@ public class Glyph
 	public uint index
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700")]
+		[Address(RVA = "0x69F7BD0", Offset = "0x69F6BD0", VA = "0x69F7BD0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x69F7BE0", Offset = "0x69F6BE0", VA = "0x69F7BE0")]
 		set
 		{
 		}
@@ -76,13 +76,13 @@ public class Glyph
 	public GlyphMetrics metrics
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x1536FE0", Offset = "0x15355E0", VA = "0x181536FE0")]
+		[Address(RVA = "0x69F7BF0", Offset = "0x69F6BF0", VA = "0x69F7BF0")]
 		get
 		{
 			return default(GlyphMetrics);
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x3002E50", Offset = "0x3001450", VA = "0x183002E50")]
+		[Address(RVA = "0x69F7C10", Offset = "0x69F6C10", VA = "0x69F7C10")]
 		set
 		{
 		}
@@ -92,13 +92,13 @@ public class Glyph
 	public GlyphRect glyphRect
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2F8D0F0", Offset = "0x2F8B6F0", VA = "0x182F8D0F0")]
+		[Address(RVA = "0x69F7C30", Offset = "0x69F6C30", VA = "0x69F7C30")]
 		get
 		{
 			return default(GlyphRect);
 		}
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
+		[Address(RVA = "0x69F7C40", Offset = "0x69F6C40", VA = "0x69F7C40")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ public class Glyph
 	public float scale
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x2FC65D0", Offset = "0x2FC4BD0", VA = "0x182FC65D0")]
+		[Address(RVA = "0x69F7C50", Offset = "0x69F6C50", VA = "0x69F7C50")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x1ED2F30", Offset = "0x1ED1530", VA = "0x181ED2F30")]
+		[Address(RVA = "0x69F7C60", Offset = "0x69F6C60", VA = "0x69F7C60")]
 		set
 		{
 		}
@@ -124,32 +124,32 @@ public class Glyph
 	public int atlasIndex
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x3002E40", Offset = "0x3001440", VA = "0x183002E40")]
+		[Address(RVA = "0x69F7C70", Offset = "0x69F6C70", VA = "0x69F7C70")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x1CFE070", Offset = "0x1CFC670", VA = "0x181CFE070")]
+		[Address(RVA = "0x69F7C80", Offset = "0x69F6C80", VA = "0x69F7C80")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x3002E00", Offset = "0x3001400", VA = "0x183002E00")]
+	[Address(RVA = "0x69F7C90", Offset = "0x69F6C90", VA = "0x69F7C90")]
 	public Glyph()
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x3002D60", Offset = "0x3001360", VA = "0x183002D60")]
+	[Address(RVA = "0x69F7CC0", Offset = "0x69F6CC0", VA = "0x69F7CC0")]
 	internal Glyph(GlyphMarshallingStruct glyphStruct)
 	{
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x3002DB0", Offset = "0x30013B0", VA = "0x183002DB0")]
+	[Address(RVA = "0x69F7D80", Offset = "0x69F6D80", VA = "0x69F7D80")]
 	public Glyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex)
 	{
 	}

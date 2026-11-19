@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncAudioFilterReadTrigger : AsyncTriggerBase<(float[] data, int channels)>
 {
 	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x2929290", Offset = "0x2927890", VA = "0x182929290")]
+	[Address(RVA = "0x62F7F30", Offset = "0x62F6F30", VA = "0x62F7F30")]
 	private void OnAudioFilterRead(float[] data, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x2928FF0", Offset = "0x29275F0", VA = "0x182928FF0")]
+	[Address(RVA = "0x62F7FB0", Offset = "0x62F6FB0", VA = "0x62F7FB0")]
 	public IAsyncOnAudioFilterReadHandler GetOnAudioFilterReadAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ABA")]
-	[Address(RVA = "0x2928F70", Offset = "0x2927570", VA = "0x182928F70")]
+	[Address(RVA = "0x62F8020", Offset = "0x62F7020", VA = "0x62F8020")]
 	public IAsyncOnAudioFilterReadHandler GetOnAudioFilterReadAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0x2929170", Offset = "0x2927770", VA = "0x182929170")]
+	[Address(RVA = "0x62F8090", Offset = "0x62F7090", VA = "0x62F8090")]
 	public UniTask<(float[], int)> OnAudioFilterReadAsync()
 	{
 		return default(UniTask<(float[], int)>);
 	}
 
 	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x2929060", Offset = "0x2927660", VA = "0x182929060")]
+	[Address(RVA = "0x62F8190", Offset = "0x62F7190", VA = "0x62F8190")]
 	public UniTask<(float[], int)> OnAudioFilterReadAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<(float[], int)>);
 	}
 
 	[Token(Token = "0x6000ABD")]
-	[Address(RVA = "0x2929320", Offset = "0x2927920", VA = "0x182929320")]
+	[Address(RVA = "0x62F82B0", Offset = "0x62F72B0", VA = "0x62F82B0")]
 	public AsyncAudioFilterReadTrigger()
 	{
 	}

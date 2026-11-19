@@ -14,13 +14,13 @@ namespace UnityEngine.UIElements.Experimental;
 internal struct EventDebuggerLogIMGUICall : IDisposable
 {
 	[Token(Token = "0x6002E17")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6BFE390", Offset = "0x6BFD390", VA = "0x6BFE390")]
 	public EventDebuggerLogIMGUICall(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6002E18")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6BFE3A0", Offset = "0x6BFD3A0", VA = "0x6BFE3A0", Slot = "4")]
 	public void Dispose()
 	{
 	}

@@ -22,13 +22,13 @@ public sealed class Cloth : Component
 	public bool enabled
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x2EB6C10", Offset = "0x2EB5210", VA = "0x182EB6C10")]
+		[Address(RVA = "0x68B27C0", Offset = "0x68B17C0", VA = "0x68B27C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x2EB6CE0", Offset = "0x2EB52E0", VA = "0x182EB6CE0")]
+		[Address(RVA = "0x68B2870", Offset = "0x68B1870", VA = "0x68B2870")]
 		set
 		{
 		}
@@ -36,11 +36,11 @@ public sealed class Cloth : Component
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2EB6BD0", Offset = "0x2EB51D0", VA = "0x182EB6BD0")]
+	[Address(RVA = "0x68B2840", Offset = "0x68B1840", VA = "0x68B2840")]
 	private static extern bool get_enabled_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2EB6C90", Offset = "0x2EB5290", VA = "0x182EB6C90")]
+	[Address(RVA = "0x68B28F0", Offset = "0x68B18F0", VA = "0x68B28F0")]
 	private static extern void set_enabled_Injected(IntPtr _unity_self, bool value);
 }

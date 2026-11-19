@@ -18,27 +18,27 @@ public class XmlSerializerFactory
 	private static Hashtable serializersBySource;
 
 	[Token(Token = "0x6000E71")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6136CC0", Offset = "0x6135CC0", VA = "0x6136CC0")]
 	public XmlSerializerFactory()
 	{
 	}
 
 	[Token(Token = "0x6000E72")]
-	[Address(RVA = "0x278BAC0", Offset = "0x278A0C0", VA = "0x18278BAC0")]
+	[Address(RVA = "0x6136CD0", Offset = "0x6135CD0", VA = "0x6136CD0")]
 	public XmlSerializer CreateSerializer(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E73")]
-	[Address(RVA = "0x278BAF0", Offset = "0x278A0F0", VA = "0x18278BAF0")]
+	[Address(RVA = "0x6136F60", Offset = "0x6135F60", VA = "0x6136F60")]
 	public XmlSerializer CreateSerializer(Type type, XmlRootAttribute root)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E74")]
-	[Address(RVA = "0x278B700", Offset = "0x2789D00", VA = "0x18278B700")]
+	[Address(RVA = "0x6136CF0", Offset = "0x6135CF0", VA = "0x6136CF0")]
 	public XmlSerializer CreateSerializer(Type type, XmlAttributeOverrides overrides, Type[] extraTypes, XmlRootAttribute root, string defaultNamespace)
 	{
 		return null;

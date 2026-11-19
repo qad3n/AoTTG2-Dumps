@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalProjector
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -178,14 +178,14 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static Material defaultMaterial
 	{
 		[Token(Token = "0x60002D6")]
-		[Address(RVA = "0x2C25A50", Offset = "0x2C24050", VA = "0x182C25A50")]
+		[Address(RVA = "0x6611F70", Offset = "0x6610F70", VA = "0x6611F70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002D7")]
-		[Address(RVA = "0x2C25FD0", Offset = "0x2C245D0", VA = "0x182C25FD0")]
+		[Address(RVA = "0x6611FB0", Offset = "0x6610FB0", VA = "0x6611FB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -196,7 +196,7 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static bool isSupported
 	{
 		[Token(Token = "0x60002D8")]
-		[Address(RVA = "0x2C25B30", Offset = "0x2C24130", VA = "0x182C25B30")]
+		[Address(RVA = "0x6612000", Offset = "0x6611000", VA = "0x6612000")]
 		get
 		{
 			return default(bool);
@@ -207,14 +207,14 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal DecalEntity decalEntity
 	{
 		[Token(Token = "0x60002D9")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6612040", Offset = "0x6611040", VA = "0x6612040")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DecalEntity);
 		}
 		[Token(Token = "0x60002DA")]
-		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
+		[Address(RVA = "0x6612050", Offset = "0x6611050", VA = "0x6612050")]
 		[CompilerGenerated]
 		set
 		{
@@ -225,13 +225,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public Material material
 	{
 		[Token(Token = "0x60002DB")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6612060", Offset = "0x6611060", VA = "0x6612060")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002DC")]
-		[Address(RVA = "0x2C26100", Offset = "0x2C24700", VA = "0x182C26100")]
+		[Address(RVA = "0x6612070", Offset = "0x6611070", VA = "0x6612070")]
 		set
 		{
 		}
@@ -241,13 +241,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public float drawDistance
 	{
 		[Token(Token = "0x60002DD")]
-		[Address(RVA = "0x584C90", Offset = "0x583290", VA = "0x180584C90")]
+		[Address(RVA = "0x66121C0", Offset = "0x66111C0", VA = "0x66121C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002DE")]
-		[Address(RVA = "0x2C26030", Offset = "0x2C24630", VA = "0x182C26030")]
+		[Address(RVA = "0x66121D0", Offset = "0x66111D0", VA = "0x66121D0")]
 		set
 		{
 		}
@@ -257,13 +257,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public float fadeScale
 	{
 		[Token(Token = "0x60002DF")]
-		[Address(RVA = "0x16EF890", Offset = "0x16EDE90", VA = "0x1816EF890")]
+		[Address(RVA = "0x66121F0", Offset = "0x66111F0", VA = "0x66121F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002E0")]
-		[Address(RVA = "0x2C260C0", Offset = "0x2C246C0", VA = "0x182C260C0")]
+		[Address(RVA = "0x6612200", Offset = "0x6611200", VA = "0x6612200")]
 		set
 		{
 		}
@@ -273,13 +273,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public float startAngleFade
 	{
 		[Token(Token = "0x60002E1")]
-		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
+		[Address(RVA = "0x6612230", Offset = "0x6611230", VA = "0x6612230")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x2C26180", Offset = "0x2C24780", VA = "0x182C26180")]
+		[Address(RVA = "0x6612240", Offset = "0x6611240", VA = "0x6612240")]
 		set
 		{
 		}
@@ -289,13 +289,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public float endAngleFade
 	{
 		[Token(Token = "0x60002E3")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Address(RVA = "0x6612270", Offset = "0x6611270", VA = "0x6612270")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0x2C26050", Offset = "0x2C24650", VA = "0x182C26050")]
+		[Address(RVA = "0x6612280", Offset = "0x6611280", VA = "0x6612280")]
 		set
 		{
 		}
@@ -305,13 +305,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public Vector2 uvScale
 	{
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x2C25BF0", Offset = "0x2C241F0", VA = "0x182C25BF0")]
+		[Address(RVA = "0x66122B0", Offset = "0x66112B0", VA = "0x66122B0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60002E6")]
-		[Address(RVA = "0x2C261C0", Offset = "0x2C247C0", VA = "0x182C261C0")]
+		[Address(RVA = "0x66122C0", Offset = "0x66112C0", VA = "0x66122C0")]
 		set
 		{
 		}
@@ -321,13 +321,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public Vector2 uvBias
 	{
 		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x2C25BB0", Offset = "0x2C241B0", VA = "0x182C25BB0")]
+		[Address(RVA = "0x66122D0", Offset = "0x66112D0", VA = "0x66122D0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60002E8")]
-		[Address(RVA = "0x2C261B0", Offset = "0x2C247B0", VA = "0x182C261B0")]
+		[Address(RVA = "0x66122E0", Offset = "0x66112E0", VA = "0x66122E0")]
 		set
 		{
 		}
@@ -337,13 +337,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public RenderingLayerMask renderingLayerMask
 	{
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x66122F0", Offset = "0x66112F0", VA = "0x66122F0")]
 		get
 		{
 			return default(RenderingLayerMask);
 		}
 		[Token(Token = "0x60002EA")]
-		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
+		[Address(RVA = "0x6612300", Offset = "0x6611300", VA = "0x6612300")]
 		set
 		{
 		}
@@ -353,13 +353,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public DecalScaleMode scaleMode
 	{
 		[Token(Token = "0x60002EB")]
-		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
+		[Address(RVA = "0x6612310", Offset = "0x6611310", VA = "0x6612310")]
 		get
 		{
 			return default(DecalScaleMode);
 		}
 		[Token(Token = "0x60002EC")]
-		[Address(RVA = "0x2C26150", Offset = "0x2C24750", VA = "0x182C26150")]
+		[Address(RVA = "0x6612320", Offset = "0x6611320", VA = "0x6612320")]
 		set
 		{
 		}
@@ -369,13 +369,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public Vector3 pivot
 	{
 		[Token(Token = "0x60002ED")]
-		[Address(RVA = "0x2C25B70", Offset = "0x2C24170", VA = "0x182C25B70")]
+		[Address(RVA = "0x6612330", Offset = "0x6611330", VA = "0x6612330")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0x2C26130", Offset = "0x2C24730", VA = "0x182C26130")]
+		[Address(RVA = "0x6612340", Offset = "0x6611340", VA = "0x6612340")]
 		set
 		{
 		}
@@ -385,13 +385,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public Vector3 size
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x2C25B90", Offset = "0x2C24190", VA = "0x182C25B90")]
+		[Address(RVA = "0x6612350", Offset = "0x6611350", VA = "0x6612350")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x60002F0")]
-		[Address(RVA = "0x2C26160", Offset = "0x2C24760", VA = "0x182C26160")]
+		[Address(RVA = "0x6612360", Offset = "0x6611360", VA = "0x6612360")]
 		set
 		{
 		}
@@ -401,13 +401,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	public float fadeFactor
 	{
 		[Token(Token = "0x60002F1")]
-		[Address(RVA = "0x2C25B20", Offset = "0x2C24120", VA = "0x182C25B20")]
+		[Address(RVA = "0x6612370", Offset = "0x6611370", VA = "0x6612370")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002F2")]
-		[Address(RVA = "0x2C26080", Offset = "0x2C24680", VA = "0x182C26080")]
+		[Address(RVA = "0x6612380", Offset = "0x6611380", VA = "0x6612380")]
 		set
 		{
 		}
@@ -417,7 +417,7 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal Vector3 effectiveScale
 	{
 		[Token(Token = "0x60002F3")]
-		[Address(RVA = "0x2C25A90", Offset = "0x2C24090", VA = "0x182C25A90")]
+		[Address(RVA = "0x66123B0", Offset = "0x66113B0", VA = "0x66123B0")]
 		get
 		{
 			return default(Vector3);
@@ -428,7 +428,7 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal Vector3 decalSize
 	{
 		[Token(Token = "0x60002F4")]
-		[Address(RVA = "0x2C25A30", Offset = "0x2C24030", VA = "0x182C25A30")]
+		[Address(RVA = "0x6612410", Offset = "0x6611410", VA = "0x6612410")]
 		get
 		{
 			return default(Vector3);
@@ -439,7 +439,7 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal Vector3 decalOffset
 	{
 		[Token(Token = "0x60002F5")]
-		[Address(RVA = "0x2C25A10", Offset = "0x2C24010", VA = "0x182C25A10")]
+		[Address(RVA = "0x6612430", Offset = "0x6611430", VA = "0x6612430")]
 		get
 		{
 			return default(Vector3);
@@ -450,7 +450,7 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal Vector4 uvScaleBias
 	{
 		[Token(Token = "0x60002F6")]
-		[Address(RVA = "0x2C25BD0", Offset = "0x2C241D0", VA = "0x182C25BD0")]
+		[Address(RVA = "0x6612450", Offset = "0x6611450", VA = "0x6612450")]
 		get
 		{
 			return default(Vector4);
@@ -461,13 +461,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static event DecalProjectorAction onDecalAdd
 	{
 		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x2C25710", Offset = "0x2C23D10", VA = "0x182C25710")]
+		[Address(RVA = "0x66118B0", Offset = "0x66108B0", VA = "0x66118B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x2C25CD0", Offset = "0x2C242D0", VA = "0x182C25CD0")]
+		[Address(RVA = "0x6611950", Offset = "0x6610950", VA = "0x6611950")]
 		[CompilerGenerated]
 		remove
 		{
@@ -478,13 +478,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static event DecalProjectorAction onDecalRemove
 	{
 		[Token(Token = "0x60002CE")]
-		[Address(RVA = "0x2C25950", Offset = "0x2C23F50", VA = "0x182C25950")]
+		[Address(RVA = "0x66119F0", Offset = "0x66109F0", VA = "0x66119F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60002CF")]
-		[Address(RVA = "0x2C25F10", Offset = "0x2C24510", VA = "0x182C25F10")]
+		[Address(RVA = "0x6611AA0", Offset = "0x6610AA0", VA = "0x6611AA0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -495,13 +495,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static event DecalProjectorAction onDecalPropertyChange
 	{
 		[Token(Token = "0x60002D0")]
-		[Address(RVA = "0x2C25890", Offset = "0x2C23E90", VA = "0x182C25890")]
+		[Address(RVA = "0x6611B50", Offset = "0x6610B50", VA = "0x6611B50")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60002D1")]
-		[Address(RVA = "0x2C25E50", Offset = "0x2C24450", VA = "0x182C25E50")]
+		[Address(RVA = "0x6611C00", Offset = "0x6610C00", VA = "0x6611C00")]
 		[CompilerGenerated]
 		remove
 		{
@@ -512,13 +512,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static event Action onAllDecalPropertyChange
 	{
 		[Token(Token = "0x60002D2")]
-		[Address(RVA = "0x2C25650", Offset = "0x2C23C50", VA = "0x182C25650")]
+		[Address(RVA = "0x6611CB0", Offset = "0x6610CB0", VA = "0x6611CB0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60002D3")]
-		[Address(RVA = "0x2C25C10", Offset = "0x2C24210", VA = "0x182C25C10")]
+		[Address(RVA = "0x6611D60", Offset = "0x6610D60", VA = "0x6611D60")]
 		[CompilerGenerated]
 		remove
 		{
@@ -529,13 +529,13 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	internal static event DecalProjectorAction onDecalMaterialChange
 	{
 		[Token(Token = "0x60002D4")]
-		[Address(RVA = "0x2C257D0", Offset = "0x2C23DD0", VA = "0x182C257D0")]
+		[Address(RVA = "0x6611E10", Offset = "0x6610E10", VA = "0x6611E10")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60002D5")]
-		[Address(RVA = "0x2C25D90", Offset = "0x2C24390", VA = "0x182C25D90")]
+		[Address(RVA = "0x6611EC0", Offset = "0x6610EC0", VA = "0x6611EC0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -543,62 +543,62 @@ public class DecalProjector : MonoBehaviour, ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x2C24DB0", Offset = "0x2C233B0", VA = "0x182C24DB0")]
+	[Address(RVA = "0x6612460", Offset = "0x6611460", VA = "0x6612460")]
 	private void InitMaterial()
 	{
 	}
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x2C251B0", Offset = "0x2C237B0", VA = "0x182C251B0")]
+	[Address(RVA = "0x66124B0", Offset = "0x66114B0", VA = "0x66124B0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x2C25150", Offset = "0x2C23750", VA = "0x182C25150")]
+	[Address(RVA = "0x6612570", Offset = "0x6611570", VA = "0x6612570")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x2C25260", Offset = "0x2C23860", VA = "0x182C25260")]
+	[Address(RVA = "0x6612090", Offset = "0x6611090", VA = "0x6612090")]
 	internal void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x2C24F20", Offset = "0x2C23520", VA = "0x182C24F20")]
+	[Address(RVA = "0x66125C0", Offset = "0x66115C0", VA = "0x66125C0")]
 	private void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x2C24E00", Offset = "0x2C23400", VA = "0x182C24E00")]
+	[Address(RVA = "0x66127D0", Offset = "0x66117D0", VA = "0x66127D0")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x2C25480", Offset = "0x2C23A80", VA = "0x182C25480")]
+	[Address(RVA = "0x66128F0", Offset = "0x66118F0", VA = "0x66128F0")]
 	internal static void UpdateAllDecalProperties()
 	{
 	}
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x2C25460", Offset = "0x2C23A60", VA = "0x182C25460", Slot = "4")]
+	[Address(RVA = "0x6612940", Offset = "0x6611940", VA = "0x6612940", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x2C253D0", Offset = "0x2C239D0", VA = "0x182C253D0", Slot = "5")]
+	[Address(RVA = "0x6612960", Offset = "0x6611960", VA = "0x6612960", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x2C254D0", Offset = "0x2C23AD0", VA = "0x182C254D0")]
+	[Address(RVA = "0x66129E0", Offset = "0x66119E0", VA = "0x66129E0")]
 	public DecalProjector()
 	{
 	}

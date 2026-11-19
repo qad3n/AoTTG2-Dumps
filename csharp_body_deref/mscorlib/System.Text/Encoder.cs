@@ -10,22 +10,33 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x20002A5")]
+[Token(Token = "0x200027D")]
 public abstract class Encoder
 {
-	[Token(Token = "0x4000B88")]
+	[Token(Token = "0x4000AE6")]
 	[FieldOffset(Offset = "0x10")]
 	internal EncoderFallback _fallback;
 
-	[Token(Token = "0x4000B89")]
+	[Token(Token = "0x4000AE7")]
 	[FieldOffset(Offset = "0x18")]
 	internal EncoderFallbackBuffer _fallbackBuffer;
 
-	[Token(Token = "0x17000222")]
+	[Token(Token = "0x17000221")]
 	public EncoderFallback Fallback
 	{
-		[Token(Token = "0x60015E4")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60015BB")]
+		[Address(RVA = "0x5554660", Offset = "0x5553660", VA = "0x5554660")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000222")]
+	public EncoderFallbackBuffer FallbackBuffer
+	{
+		[Token(Token = "0x60015BC")]
+		[Address(RVA = "0x5550810", Offset = "0x554F810", VA = "0x5550810")]
 		get
 		{
 			return null;
@@ -33,69 +44,58 @@ public abstract class Encoder
 	}
 
 	[Token(Token = "0x17000223")]
-	public EncoderFallbackBuffer FallbackBuffer
-	{
-		[Token(Token = "0x60015E5")]
-		[Address(RVA = "0x1979D30", Offset = "0x1978330", VA = "0x181979D30")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000224")]
 	internal bool InternalHasFallbackBuffer
 	{
-		[Token(Token = "0x60015E6")]
-		[Address(RVA = "0x1979E60", Offset = "0x1978460", VA = "0x181979E60")]
+		[Token(Token = "0x60015BD")]
+		[Address(RVA = "0x5550800", Offset = "0x554F800", VA = "0x5550800")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60015E3")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60015BA")]
+	[Address(RVA = "0x5554650", Offset = "0x5553650", VA = "0x5554650")]
 	protected Encoder()
 	{
 	}
 
-	[Token(Token = "0x60015E7")]
-	[Address(RVA = "0x1979C50", Offset = "0x1978250", VA = "0x181979C50", Slot = "4")]
+	[Token(Token = "0x60015BE")]
+	[Address(RVA = "0x5554670", Offset = "0x5553670", VA = "0x5554670", Slot = "4")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x60015E8")]
+	[Token(Token = "0x60015BF")]
 	public abstract int GetByteCount(char[] chars, int index, int count, bool flush);
 
-	[Token(Token = "0x60015E9")]
-	[Address(RVA = "0x1979860", Offset = "0x1977E60", VA = "0x181979860", Slot = "6")]
+	[Token(Token = "0x60015C0")]
+	[Address(RVA = "0x5554740", Offset = "0x5553740", VA = "0x5554740", Slot = "6")]
 	[CLSCompliant(false)]
 	public unsafe virtual int GetByteCount(char* chars, int count, bool flush)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60015EA")]
+	[Token(Token = "0x60015C1")]
 	public abstract int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush);
 
-	[Token(Token = "0x60015EB")]
-	[Address(RVA = "0x19799E0", Offset = "0x1977FE0", VA = "0x1819799E0", Slot = "8")]
+	[Token(Token = "0x60015C2")]
+	[Address(RVA = "0x55548A0", Offset = "0x55538A0", VA = "0x55548A0", Slot = "8")]
 	[CLSCompliant(false)]
 	public unsafe virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60015EC")]
-	[Address(RVA = "0x1979480", Offset = "0x1977A80", VA = "0x181979480", Slot = "9")]
+	[Token(Token = "0x60015C3")]
+	[Address(RVA = "0x5554AB0", Offset = "0x5553AB0", VA = "0x5554AB0", Slot = "9")]
 	public virtual void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
 	{
 	}
 
-	[Token(Token = "0x60015ED")]
-	[Address(RVA = "0x1979220", Offset = "0x1977820", VA = "0x181979220", Slot = "10")]
+	[Token(Token = "0x60015C4")]
+	[Address(RVA = "0x5554D90", Offset = "0x5553D90", VA = "0x5554D90", Slot = "10")]
 	[CLSCompliant(false)]
 	public unsafe virtual void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
 	{

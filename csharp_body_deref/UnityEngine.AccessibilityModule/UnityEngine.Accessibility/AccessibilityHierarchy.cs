@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Accessibility.AccessibilityHierarchy
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ public class AccessibilityHierarchy
 	public IReadOnlyList<AccessibilityNode> rootNodes
 	{
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6879F70", Offset = "0x6878F70", VA = "0x6879F70")]
 		get
 		{
 			return null;
@@ -38,33 +38,33 @@ public class AccessibilityHierarchy
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2E7C360", Offset = "0x2E7A960", VA = "0x182E7C360")]
+	[Address(RVA = "0x6879F80", Offset = "0x6878F80", VA = "0x6879F80")]
 	public bool TryGetNode(int id, out AccessibilityNode node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2E7C2C0", Offset = "0x2E7A8C0", VA = "0x182E7C2C0")]
+	[Address(RVA = "0x6879FD0", Offset = "0x6878FD0", VA = "0x6879FD0")]
 	public bool TryGetNodeAt(float horizontalPosition, float verticalPosition, out AccessibilityNode node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2E7C000", Offset = "0x2E7A600", VA = "0x182E7C000")]
+	[Address(RVA = "0x6876960", Offset = "0x6875960", VA = "0x6876960")]
 	internal void RefreshNodeFramesWithoutResetting()
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2E7BDE0", Offset = "0x2E7A3E0", VA = "0x182E7BDE0")]
+	[Address(RVA = "0x687A680", Offset = "0x6879680", VA = "0x687A680")]
 	internal void AllocateNative()
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2E7BEF0", Offset = "0x2E7A4F0", VA = "0x182E7BEF0")]
+	[Address(RVA = "0x687AD70", Offset = "0x6879D70", VA = "0x687AD70")]
 	internal void FreeNative()
 	{
 	}

@@ -13,14 +13,14 @@ namespace System.Xml;
 internal static class XmlComplianceUtil
 {
 	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x274C900", Offset = "0x274AF00", VA = "0x18274C900")]
+	[Address(RVA = "0x60F6C40", Offset = "0x60F5C40", VA = "0x60F6C40")]
 	public static string NonCDataNormalize(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x274C740", Offset = "0x274AD40", VA = "0x18274C740")]
+	[Address(RVA = "0x60F6F70", Offset = "0x60F5F70", VA = "0x60F6F70")]
 	public static string CDataNormalize(string value)
 	{
 		return null;

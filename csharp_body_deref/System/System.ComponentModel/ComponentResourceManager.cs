@@ -13,54 +13,54 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000181")]
+[Token(Token = "0x2000142")]
 public class ComponentResourceManager : ResourceManager
 {
-	[Token(Token = "0x4000662")]
+	[Token(Token = "0x4000593")]
 	[FieldOffset(Offset = "0x88")]
 	private Hashtable _resourceSets;
 
-	[Token(Token = "0x4000663")]
+	[Token(Token = "0x4000594")]
 	[FieldOffset(Offset = "0x90")]
 	private CultureInfo _neutralResourcesCulture;
 
-	[Token(Token = "0x170001E5")]
+	[Token(Token = "0x170001B6")]
 	private CultureInfo NeutralResourcesCulture
 	{
-		[Token(Token = "0x60009C1")]
-		[Address(RVA = "0x2894AC0", Offset = "0x28930C0", VA = "0x182894AC0")]
+		[Token(Token = "0x6000801")]
+		[Address(RVA = "0x6227A40", Offset = "0x6226A40", VA = "0x6227A40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009BF")]
-	[Address(RVA = "0x2894A10", Offset = "0x2893010", VA = "0x182894A10")]
+	[Token(Token = "0x60007FF")]
+	[Address(RVA = "0x6227970", Offset = "0x6226970", VA = "0x6227970")]
 	public ComponentResourceManager()
 	{
 	}
 
-	[Token(Token = "0x60009C0")]
-	[Address(RVA = "0x2894A60", Offset = "0x2893060", VA = "0x182894A60")]
+	[Token(Token = "0x6000800")]
+	[Address(RVA = "0x62279E0", Offset = "0x62269E0", VA = "0x62279E0")]
 	public ComponentResourceManager(Type t)
 	{
 	}
 
-	[Token(Token = "0x60009C2")]
-	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
+	[Token(Token = "0x6000802")]
+	[Address(RVA = "0x6227AD0", Offset = "0x6226AD0", VA = "0x6227AD0")]
 	public void ApplyResources(object value, string objectName)
 	{
 	}
 
-	[Token(Token = "0x60009C3")]
-	[Address(RVA = "0x2893C80", Offset = "0x2892280", VA = "0x182893C80", Slot = "9")]
+	[Token(Token = "0x6000803")]
+	[Address(RVA = "0x6227AF0", Offset = "0x6226AF0", VA = "0x6227AF0", Slot = "9")]
 	public virtual void ApplyResources(object value, string objectName, CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x60009C4")]
-	[Address(RVA = "0x2894560", Offset = "0x2892B60", VA = "0x182894560")]
+	[Token(Token = "0x6000804")]
+	[Address(RVA = "0x6228670", Offset = "0x6227670", VA = "0x6228670")]
 	private SortedList<string, object> FillResources(CultureInfo culture, out ResourceSet resourceSet)
 	{
 		return null;

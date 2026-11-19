@@ -63,52 +63,52 @@ internal class PhotonTransportProtocol
 	private ILogger logger;
 
 	[Token(Token = "0x6000365")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x571F0B0", Offset = "0x571E0B0", VA = "0x571F0B0")]
 	public PhotonTransportProtocol(VoiceClient voiceClient, ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x1D860C0", Offset = "0x1D846C0", VA = "0x181D860C0")]
+	[Address(RVA = "0x571F0F0", Offset = "0x571E0F0", VA = "0x571F0F0")]
 	internal object[] buildVoicesInfo(LocalVoice v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x1D85F00", Offset = "0x1D84500", VA = "0x181D85F00")]
+	[Address(RVA = "0x571F510", Offset = "0x571E510", VA = "0x571F510")]
 	internal object[] buildVoiceRemoveMessage(LocalVoice v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x1D85AD0", Offset = "0x1D840D0", VA = "0x181D85AD0")]
+	[Address(RVA = "0x571F6B0", Offset = "0x571E6B0", VA = "0x571F6B0")]
 	internal object[] buildFrameMessage(byte voiceId, byte evNumber, byte frNumber, ArraySegment<byte> data, FrameFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x1D86860", Offset = "0x1D84E60", VA = "0x181D86860")]
+	[Address(RVA = "0x571FA50", Offset = "0x571EA50", VA = "0x571FA50")]
 	internal void onVoiceEvent(object content0, int channelId, int playerId, bool isLocalPlayer)
 	{
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x1D86D00", Offset = "0x1D85300", VA = "0x181D86D00")]
+	[Address(RVA = "0x571FFB0", Offset = "0x571EFB0", VA = "0x571FFB0")]
 	private void onVoiceInfo(int channelId, int playerId, object payload)
 	{
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x1D86F40", Offset = "0x1D85540", VA = "0x181D86F40")]
+	[Address(RVA = "0x57201E0", Offset = "0x571F1E0", VA = "0x57201E0")]
 	private void onVoiceRemove(int channelId, int playerId, object payload)
 	{
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x1D864F0", Offset = "0x1D84AF0", VA = "0x181D864F0")]
+	[Address(RVA = "0x5720270", Offset = "0x571F270", VA = "0x5720270")]
 	private VoiceInfo createVoiceInfoFromEventPayload(Dictionary<byte, object> h)
 	{
 		return default(VoiceInfo);

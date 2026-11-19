@@ -13,62 +13,62 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200043F")]
+[Token(Token = "0x200049E")]
 [CompilerGenerated]
 internal class CustomLogicMapTargetableBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000440")]
+	[Token(Token = "0x200049F")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001CFC")]
-		[Address(RVA = "0x1F082C0", Offset = "0x1F068C0", VA = "0x181F082C0")]
+		[Token(Token = "0x6001F73")]
+		[Address(RVA = "0x58FFC00", Offset = "0x58FEC00", VA = "0x58FFC00")]
 		public static CustomLogicMapTargetableBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000441")]
+	[Token(Token = "0x20004A0")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001513")]
+		[Token(Token = "0x40016B3")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001CFD")]
-		[Address(RVA = "0x1EE4E90", Offset = "0x1EE3490", VA = "0x181EE4E90")]
+		[Token(Token = "0x6001F74")]
+		[Address(RVA = "0x58FFC90", Offset = "0x58FEC90", VA = "0x58FFC90")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001CFE")]
-		[Address(RVA = "0x1EFE450", Offset = "0x1EFCA50", VA = "0x181EFE450")]
+		[Token(Token = "0x6001F75")]
+		[Address(RVA = "0x58FFE20", Offset = "0x58FEE20", VA = "0x58FFE20")]
 		public static CLPropertyBinding<CustomLogicMapTargetableBuiltin> __CreatePropertyBinding__Team()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001CFF")]
-		[Address(RVA = "0x1EFD230", Offset = "0x1EFB830", VA = "0x181EFD230")]
+		[Token(Token = "0x6001F76")]
+		[Address(RVA = "0x58FFF00", Offset = "0x58FEF00", VA = "0x58FFF00")]
 		public static CLPropertyBinding<CustomLogicMapTargetableBuiltin> __CreatePropertyBinding__Position()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D00")]
-		[Address(RVA = "0x1EFB9D0", Offset = "0x1EF9FD0", VA = "0x181EFB9D0")]
+		[Token(Token = "0x6001F77")]
+		[Address(RVA = "0x58FFFA0", Offset = "0x58FEFA0", VA = "0x58FFFA0")]
 		public static CLPropertyBinding<CustomLogicMapTargetableBuiltin> __CreatePropertyBinding__Enabled()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000350")]
+	[Token(Token = "0x17000391")]
 	public GameObject GameObject
 	{
-		[Token(Token = "0x6001CF0")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001F67")]
+		[Address(RVA = "0x58FFA00", Offset = "0x58FEA00", VA = "0x58FFA00")]
 		[CompilerGenerated]
 		get
 		{
@@ -76,11 +76,11 @@ internal class CustomLogicMapTargetableBuiltin : BuiltinClassInstance
 		}
 	}
 
-	[Token(Token = "0x17000351")]
+	[Token(Token = "0x17000392")]
 	public MapTargetable Value
 	{
-		[Token(Token = "0x6001CF1")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x6001F68")]
+		[Address(RVA = "0x58FFA10", Offset = "0x58FEA10", VA = "0x58FFA10")]
 		[CompilerGenerated]
 		get
 		{
@@ -88,95 +88,95 @@ internal class CustomLogicMapTargetableBuiltin : BuiltinClassInstance
 		}
 	}
 
-	[Token(Token = "0x17000352")]
+	[Token(Token = "0x17000393")]
 	public string Team
 	{
-		[Token(Token = "0x6001CF3")]
-		[Address(RVA = "0x1F06710", Offset = "0x1F04D10", VA = "0x181F06710")]
+		[Token(Token = "0x6001F6A")]
+		[Address(RVA = "0x58FFAA0", Offset = "0x58FEAA0", VA = "0x58FFAA0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001CF4")]
-		[Address(RVA = "0x1F06750", Offset = "0x1F04D50", VA = "0x181F06750")]
+		[Token(Token = "0x6001F6B")]
+		[Address(RVA = "0x58FFAC0", Offset = "0x58FEAC0", VA = "0x58FFAC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000353")]
+	[Token(Token = "0x17000394")]
 	public CustomLogicVector3Builtin Position
 	{
-		[Token(Token = "0x6001CF5")]
-		[Address(RVA = "0x1F06680", Offset = "0x1F04C80", VA = "0x181F06680")]
+		[Token(Token = "0x6001F6C")]
+		[Address(RVA = "0x58FFAE0", Offset = "0x58FEAE0", VA = "0x58FFAE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000354")]
+	[Token(Token = "0x17000395")]
 	public new bool Enabled
 	{
-		[Token(Token = "0x6001CF6")]
-		[Address(RVA = "0x1F06660", Offset = "0x1F04C60", VA = "0x181F06660")]
+		[Token(Token = "0x6001F6D")]
+		[Address(RVA = "0x58FFB60", Offset = "0x58FEB60", VA = "0x58FFB60")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001CF7")]
-		[Address(RVA = "0x1F06730", Offset = "0x1F04D30", VA = "0x181F06730")]
+		[Token(Token = "0x6001F6E")]
+		[Address(RVA = "0x58FFB80", Offset = "0x58FEB80", VA = "0x58FFB80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000355")]
+	[Token(Token = "0x17000396")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001CF8")]
-		[Address(RVA = "0x1F06630", Offset = "0x1F04C30", VA = "0x181F06630", Slot = "6")]
+		[Token(Token = "0x6001F6F")]
+		[Address(RVA = "0x58FFBA0", Offset = "0x58FEBA0", VA = "0x58FFBA0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000356")]
+	[Token(Token = "0x17000397")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001CF9")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6001F70")]
+		[Address(RVA = "0x58FFBD0", Offset = "0x58FEBD0", VA = "0x58FFBD0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000357")]
+	[Token(Token = "0x17000398")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001CFA")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6001F71")]
+		[Address(RVA = "0x58FFBE0", Offset = "0x58FEBE0", VA = "0x58FFBE0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000358")]
+	[Token(Token = "0x17000399")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001CFB")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001F72")]
+		[Address(RVA = "0x58FFBF0", Offset = "0x58FEBF0", VA = "0x58FFBF0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001CF2")]
-	[Address(RVA = "0x1F065A0", Offset = "0x1F04BA0", VA = "0x181F065A0")]
+	[Token(Token = "0x6001F69")]
+	[Address(RVA = "0x58FFA20", Offset = "0x58FEA20", VA = "0x58FFA20")]
 	public CustomLogicMapTargetableBuiltin(GameObject gameObject, MapTargetable mapTargetable)
 	{
 	}

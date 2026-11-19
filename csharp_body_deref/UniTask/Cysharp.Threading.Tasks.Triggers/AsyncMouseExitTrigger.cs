@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncMouseExitTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x2931ED0", Offset = "0x29304D0", VA = "0x182931ED0")]
+	[Address(RVA = "0x62FCB80", Offset = "0x62FBB80", VA = "0x62FCB80")]
 	private void OnMouseExit()
 	{
 	}
 
 	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x2931C40", Offset = "0x2930240", VA = "0x182931C40")]
+	[Address(RVA = "0x62FCBF0", Offset = "0x62FBBF0", VA = "0x62FCBF0")]
 	public IAsyncOnMouseExitHandler GetOnMouseExitAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x2931BC0", Offset = "0x29301C0", VA = "0x182931BC0")]
+	[Address(RVA = "0x62FCC60", Offset = "0x62FBC60", VA = "0x62FCC60")]
 	public IAsyncOnMouseExitHandler GetOnMouseExitAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x2931DC0", Offset = "0x29303C0", VA = "0x182931DC0")]
+	[Address(RVA = "0x62FCCD0", Offset = "0x62FBCD0", VA = "0x62FCCD0")]
 	public UniTask OnMouseExitAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x2931CB0", Offset = "0x29302B0", VA = "0x182931CB0")]
+	[Address(RVA = "0x62FCDC0", Offset = "0x62FBDC0", VA = "0x62FCDC0")]
 	public UniTask OnMouseExitAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x2931F40", Offset = "0x2930540", VA = "0x182931F40")]
+	[Address(RVA = "0x62FCEB0", Offset = "0x62FBEB0", VA = "0x62FCEB0")]
 	public AsyncMouseExitTrigger()
 	{
 	}

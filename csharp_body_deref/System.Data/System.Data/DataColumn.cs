@@ -166,13 +166,13 @@ public class DataColumn : MarshalByValueComponent
 	public bool AllowDBNull
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x5E629A0", Offset = "0x5E619A0", VA = "0x5E629A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x24C5670", Offset = "0x24C3C70", VA = "0x1824C5670")]
+		[Address(RVA = "0x5E629B0", Offset = "0x5E619B0", VA = "0x5E629B0")]
 		set
 		{
 		}
@@ -184,13 +184,13 @@ public class DataColumn : MarshalByValueComponent
 	public bool AutoIncrement
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x24C5070", Offset = "0x24C3670", VA = "0x1824C5070")]
+		[Address(RVA = "0x5E62F90", Offset = "0x5E61F90", VA = "0x5E62F90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x24C5B70", Offset = "0x24C4170", VA = "0x1824C5B70")]
+		[Address(RVA = "0x5E62FB0", Offset = "0x5E61FB0", VA = "0x5E62FB0")]
 		set
 		{
 		}
@@ -200,13 +200,13 @@ public class DataColumn : MarshalByValueComponent
 	internal object AutoIncrementCurrent
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x24C4FC0", Offset = "0x24C35C0", VA = "0x1824C4FC0")]
+		[Address(RVA = "0x5E640B0", Offset = "0x5E630B0", VA = "0x5E640B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x24C57D0", Offset = "0x24C3DD0", VA = "0x1824C57D0")]
+		[Address(RVA = "0x5E64120", Offset = "0x5E63120", VA = "0x5E64120")]
 		set
 		{
 		}
@@ -216,7 +216,7 @@ public class DataColumn : MarshalByValueComponent
 	internal AutoIncrementValue AutoInc
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x24C4EC0", Offset = "0x24C34C0", VA = "0x1824C4EC0")]
+		[Address(RVA = "0x5E63F70", Offset = "0x5E62F70", VA = "0x5E63F70")]
 		get
 		{
 			return null;
@@ -228,13 +228,13 @@ public class DataColumn : MarshalByValueComponent
 	public long AutoIncrementSeed
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x24C5010", Offset = "0x24C3610", VA = "0x1824C5010")]
+		[Address(RVA = "0x5E640F0", Offset = "0x5E630F0", VA = "0x5E640F0")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x24C5970", Offset = "0x24C3F70", VA = "0x1824C5970")]
+		[Address(RVA = "0x5E64390", Offset = "0x5E63390", VA = "0x5E64390")]
 		set
 		{
 		}
@@ -245,13 +245,13 @@ public class DataColumn : MarshalByValueComponent
 	public long AutoIncrementStep
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x24C5040", Offset = "0x24C3640", VA = "0x1824C5040")]
+		[Address(RVA = "0x5E644B0", Offset = "0x5E634B0", VA = "0x5E644B0")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x24C5A70", Offset = "0x24C4070", VA = "0x1824C5A70")]
+		[Address(RVA = "0x5E644E0", Offset = "0x5E634E0", VA = "0x5E644E0")]
 		set
 		{
 		}
@@ -261,13 +261,13 @@ public class DataColumn : MarshalByValueComponent
 	public string Caption
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x24C5090", Offset = "0x24C3690", VA = "0x1824C5090")]
+		[Address(RVA = "0x5E64600", Offset = "0x5E63600", VA = "0x5E64600")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x24C5D50", Offset = "0x24C4350", VA = "0x1824C5D50")]
+		[Address(RVA = "0x5E64610", Offset = "0x5E63610", VA = "0x5E64610")]
 		set
 		{
 		}
@@ -279,13 +279,13 @@ public class DataColumn : MarshalByValueComponent
 	public string ColumnName
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x5E64740", Offset = "0x5E63740", VA = "0x5E64740")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x24C60E0", Offset = "0x24C46E0", VA = "0x1824C60E0")]
+		[Address(RVA = "0x5E64750", Offset = "0x5E63750", VA = "0x5E64750")]
 		set
 		{
 		}
@@ -295,7 +295,7 @@ public class DataColumn : MarshalByValueComponent
 	internal string EncodedColumnName
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x24C5220", Offset = "0x24C3820", VA = "0x1824C5220")]
+		[Address(RVA = "0x5E64D00", Offset = "0x5E63D00", VA = "0x5E64D00")]
 		get
 		{
 			return null;
@@ -306,7 +306,7 @@ public class DataColumn : MarshalByValueComponent
 	internal IFormatProvider FormatProvider
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x24C5370", Offset = "0x24C3970", VA = "0x1824C5370")]
+		[Address(RVA = "0x5E642B0", Offset = "0x5E632B0", VA = "0x5E642B0")]
 		get
 		{
 			return null;
@@ -317,7 +317,7 @@ public class DataColumn : MarshalByValueComponent
 	internal CultureInfo Locale
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x24C54D0", Offset = "0x24C3AD0", VA = "0x1824C54D0")]
+		[Address(RVA = "0x5E646E0", Offset = "0x5E636E0", VA = "0x5E646E0")]
 		get
 		{
 			return null;
@@ -328,7 +328,7 @@ public class DataColumn : MarshalByValueComponent
 	internal int ObjectID
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x24C5570", Offset = "0x24C3B70", VA = "0x1824C5570")]
+		[Address(RVA = "0x5E64D90", Offset = "0x5E63D90", VA = "0x5E64D90")]
 		get
 		{
 			return default(int);
@@ -340,13 +340,13 @@ public class DataColumn : MarshalByValueComponent
 	public string Prefix
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
+		[Address(RVA = "0x5E64DA0", Offset = "0x5E63DA0", VA = "0x5E64DA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x24C8180", Offset = "0x24C6780", VA = "0x1824C8180")]
+		[Address(RVA = "0x5E64DB0", Offset = "0x5E63DB0", VA = "0x5E64DB0")]
 		set
 		{
 		}
@@ -356,7 +356,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool Computed
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x24C50B0", Offset = "0x24C36B0", VA = "0x1824C50B0")]
+		[Address(RVA = "0x5E651E0", Offset = "0x5E641E0", VA = "0x5E651E0")]
 		get
 		{
 			return default(bool);
@@ -367,7 +367,7 @@ public class DataColumn : MarshalByValueComponent
 	internal DataExpression DataExpression
 	{
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x5E651F0", Offset = "0x5E641F0", VA = "0x5E651F0")]
 		get
 		{
 			return null;
@@ -381,13 +381,13 @@ public class DataColumn : MarshalByValueComponent
 	public Type DataType
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x5E65200", Offset = "0x5E64200", VA = "0x5E65200")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x24C64E0", Offset = "0x24C4AE0", VA = "0x1824C64E0")]
+		[Address(RVA = "0x5E63610", Offset = "0x5E62610", VA = "0x5E63610")]
 		set
 		{
 		}
@@ -399,13 +399,13 @@ public class DataColumn : MarshalByValueComponent
 	public DataSetDateTime DateTimeMode
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x5E65D30", Offset = "0x5E64D30", VA = "0x5E65D30")]
 		get
 		{
 			return default(DataSetDateTime);
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x24C6FF0", Offset = "0x24C55F0", VA = "0x1824C6FF0")]
+		[Address(RVA = "0x5E65D40", Offset = "0x5E64D40", VA = "0x5E65D40")]
 		set
 		{
 		}
@@ -416,13 +416,13 @@ public class DataColumn : MarshalByValueComponent
 	public object DefaultValue
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x24C50D0", Offset = "0x24C36D0", VA = "0x1824C50D0")]
+		[Address(RVA = "0x5E65510", Offset = "0x5E64510", VA = "0x5E65510")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x24C7160", Offset = "0x24C5760", VA = "0x1824C7160")]
+		[Address(RVA = "0x5E656A0", Offset = "0x5E646A0", VA = "0x5E656A0")]
 		set
 		{
 		}
@@ -432,7 +432,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool DefaultValueIsNull
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x24C50C0", Offset = "0x24C36C0", VA = "0x1824C50C0")]
+		[Address(RVA = "0x5E661F0", Offset = "0x5E651F0", VA = "0x5E661F0")]
 		get
 		{
 			return default(bool);
@@ -445,13 +445,13 @@ public class DataColumn : MarshalByValueComponent
 	public string Expression
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x24C52A0", Offset = "0x24C38A0", VA = "0x1824C52A0")]
+		[Address(RVA = "0x5E66220", Offset = "0x5E65220", VA = "0x5E66220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x24C7450", Offset = "0x24C5A50", VA = "0x1824C7450")]
+		[Address(RVA = "0x5E62040", Offset = "0x5E61040", VA = "0x5E62040")]
 		set
 		{
 		}
@@ -462,7 +462,7 @@ public class DataColumn : MarshalByValueComponent
 	public PropertyCollection ExtendedProperties
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x24C52F0", Offset = "0x24C38F0", VA = "0x1824C52F0")]
+		[Address(RVA = "0x5E66910", Offset = "0x5E65910", VA = "0x5E66910")]
 		get
 		{
 			return null;
@@ -473,7 +473,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool HasData
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x24C53D0", Offset = "0x24C39D0", VA = "0x1824C53D0")]
+		[Address(RVA = "0x5E634F0", Offset = "0x5E624F0", VA = "0x5E634F0")]
 		get
 		{
 			return default(bool);
@@ -484,7 +484,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool ImplementsINullable
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x24C53F0", Offset = "0x24C39F0", VA = "0x1824C53F0")]
+		[Address(RVA = "0x5E66980", Offset = "0x5E65980", VA = "0x5E66980")]
 		get
 		{
 			return default(bool);
@@ -495,7 +495,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool ImplementsIChangeTracking
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x24C53E0", Offset = "0x24C39E0", VA = "0x1824C53E0")]
+		[Address(RVA = "0x5E66990", Offset = "0x5E65990", VA = "0x5E66990")]
 		get
 		{
 			return default(bool);
@@ -506,7 +506,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool ImplementsIRevertibleChangeTracking
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x24C5400", Offset = "0x24C3A00", VA = "0x1824C5400")]
+		[Address(RVA = "0x5E669A0", Offset = "0x5E659A0", VA = "0x5E669A0")]
 		get
 		{
 			return default(bool);
@@ -517,7 +517,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool IsValueType
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x24C5480", Offset = "0x24C3A80", VA = "0x1824C5480")]
+		[Address(RVA = "0x5E669B0", Offset = "0x5E659B0", VA = "0x5E669B0")]
 		get
 		{
 			return default(bool);
@@ -528,7 +528,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool IsSqlType
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Address(RVA = "0x5E669D0", Offset = "0x5E659D0", VA = "0x5E669D0")]
 		get
 		{
 			return default(bool);
@@ -540,13 +540,13 @@ public class DataColumn : MarshalByValueComponent
 	public int MaxLength
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x5E66AB0", Offset = "0x5E65AB0", VA = "0x5E66AB0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x24C7C20", Offset = "0x24C6220", VA = "0x1824C7C20")]
+		[Address(RVA = "0x5E66AC0", Offset = "0x5E65AC0", VA = "0x5E66AC0")]
 		set
 		{
 		}
@@ -556,13 +556,13 @@ public class DataColumn : MarshalByValueComponent
 	public string Namespace
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x24C5530", Offset = "0x24C3B30", VA = "0x1824C5530")]
+		[Address(RVA = "0x5E67470", Offset = "0x5E66470", VA = "0x5E67470")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x24C8000", Offset = "0x24C6600", VA = "0x1824C8000")]
+		[Address(RVA = "0x5E674C0", Offset = "0x5E664C0", VA = "0x5E674C0")]
 		set
 		{
 		}
@@ -574,7 +574,7 @@ public class DataColumn : MarshalByValueComponent
 	public int Ordinal
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0xCDE980", Offset = "0xCDCF80", VA = "0x180CDE980")]
+		[Address(RVA = "0x5E677E0", Offset = "0x5E667E0", VA = "0x5E677E0")]
 		get
 		{
 			return default(int);
@@ -586,13 +586,13 @@ public class DataColumn : MarshalByValueComponent
 	public bool ReadOnly
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x5E67930", Offset = "0x5E66930", VA = "0x5E67930")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x24C82F0", Offset = "0x24C68F0", VA = "0x1824C82F0")]
+		[Address(RVA = "0x5E663E0", Offset = "0x5E653E0", VA = "0x5E663E0")]
 		set
 		{
 		}
@@ -603,7 +603,7 @@ public class DataColumn : MarshalByValueComponent
 	private Index SortIndex
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x24C5580", Offset = "0x24C3B80", VA = "0x1824C5580")]
+		[Address(RVA = "0x5E679C0", Offset = "0x5E669C0", VA = "0x5E679C0")]
 		get
 		{
 			return null;
@@ -616,7 +616,7 @@ public class DataColumn : MarshalByValueComponent
 	public DataTable Table
 	{
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x5E67AA0", Offset = "0x5E66AA0", VA = "0x5E67AA0")]
 		get
 		{
 			return null;
@@ -627,13 +627,13 @@ public class DataColumn : MarshalByValueComponent
 	internal object this[int record]
 	{
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x24C54A0", Offset = "0x24C3AA0", VA = "0x1824C54A0")]
+		[Address(RVA = "0x5E65100", Offset = "0x5E64100", VA = "0x5E65100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x24C7A90", Offset = "0x24C6090", VA = "0x1824C7A90")]
+		[Address(RVA = "0x5E67BA0", Offset = "0x5E66BA0", VA = "0x5E67BA0")]
 		set
 		{
 		}
@@ -645,13 +645,13 @@ public class DataColumn : MarshalByValueComponent
 	public bool Unique
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x1720FF0", Offset = "0x171F5F0", VA = "0x181720FF0")]
+		[Address(RVA = "0x5E68010", Offset = "0x5E67010", VA = "0x5E68010")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x24C8430", Offset = "0x24C6A30", VA = "0x1824C8430")]
+		[Address(RVA = "0x5E68020", Offset = "0x5E67020", VA = "0x5E68020")]
 		set
 		{
 		}
@@ -661,14 +661,14 @@ public class DataColumn : MarshalByValueComponent
 	internal string XmlDataType
 	{
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x187BC50", Offset = "0x187A250", VA = "0x18187BC50")]
+		[Address(RVA = "0x5E68620", Offset = "0x5E67620", VA = "0x5E68620")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x1BD5200", Offset = "0x1BD3800", VA = "0x181BD5200")]
+		[Address(RVA = "0x5E68630", Offset = "0x5E67630", VA = "0x5E68630")]
 		[CompilerGenerated]
 		set
 		{
@@ -679,13 +679,13 @@ public class DataColumn : MarshalByValueComponent
 	internal SimpleType SimpleType
 	{
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
+		[Address(RVA = "0x5E68650", Offset = "0x5E67650", VA = "0x5E68650")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x24C83D0", Offset = "0x24C69D0", VA = "0x1824C83D0")]
+		[Address(RVA = "0x5E61ED0", Offset = "0x5E60ED0", VA = "0x5E61ED0")]
 		set
 		{
 		}
@@ -696,13 +696,13 @@ public class DataColumn : MarshalByValueComponent
 	public virtual MappingType ColumnMapping
 	{
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0xA4D4C0", Offset = "0xA4BAC0", VA = "0x180A4D4C0", Slot = "16")]
+		[Address(RVA = "0x5E68660", Offset = "0x5E67660", VA = "0x5E68660", Slot = "16")]
 		get
 		{
 			return default(MappingType);
 		}
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x24C5E10", Offset = "0x24C4410", VA = "0x1824C5E10", Slot = "17")]
+		[Address(RVA = "0x5E68670", Offset = "0x5E67670", VA = "0x5E68670", Slot = "17")]
 		set
 		{
 		}
@@ -712,7 +712,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool IsCustomType
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x24C5410", Offset = "0x24C3A10", VA = "0x1824C5410")]
+		[Address(RVA = "0x5E69CB0", Offset = "0x5E68CB0", VA = "0x5E69CB0")]
 		get
 		{
 			return default(bool);
@@ -723,7 +723,7 @@ public class DataColumn : MarshalByValueComponent
 	internal bool ImplementsIXMLSerializable
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x1CD34F0", Offset = "0x1CD1AF0", VA = "0x181CD34F0")]
+		[Address(RVA = "0x5E69DC0", Offset = "0x5E68DC0", VA = "0x5E69DC0")]
 		get
 		{
 			return default(bool);
@@ -731,328 +731,328 @@ public class DataColumn : MarshalByValueComponent
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x24C4AF0", Offset = "0x24C30F0", VA = "0x1824C4AF0")]
+	[Address(RVA = "0x5E619B0", Offset = "0x5E609B0", VA = "0x5E619B0")]
 	public DataColumn()
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x24C4AC0", Offset = "0x24C30C0", VA = "0x1824C4AC0")]
+	[Address(RVA = "0x5E61D50", Offset = "0x5E60D50", VA = "0x5E61D50")]
 	public DataColumn(string columnName, Type dataType)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x24C4B50", Offset = "0x24C3150", VA = "0x1824C4B50")]
+	[Address(RVA = "0x5E61A10", Offset = "0x5E60A10", VA = "0x5E61A10")]
 	public DataColumn(string columnName, Type dataType, string expr, MappingType type)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x24C49B0", Offset = "0x24C2FB0", VA = "0x1824C49B0")]
+	[Address(RVA = "0x5E61F20", Offset = "0x5E60F20", VA = "0x5E61F20")]
 	private void UpdateColumnType(Type type, StorageType typeCode)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x24C32D0", Offset = "0x24C18D0", VA = "0x1824C32D0")]
+	[Address(RVA = "0x5E65060", Offset = "0x5E64060", VA = "0x5E65060")]
 	internal string GetColumnValueAsString(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x24C1F60", Offset = "0x24C0560", VA = "0x1824C1F60")]
+	[Address(RVA = "0x5E66200", Offset = "0x5E65200", VA = "0x5E66200")]
 	internal void BindExpression()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x24C4480", Offset = "0x24C2A80", VA = "0x1824C4480")]
+	[Address(RVA = "0x5E669E0", Offset = "0x5E659E0", VA = "0x5E669E0")]
 	private void SetMaxLengthSimpleType()
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x24C45B0", Offset = "0x24C2BB0", VA = "0x1824C45B0")]
+	[Address(RVA = "0x5E677F0", Offset = "0x5E667F0", VA = "0x5E677F0")]
 	internal void SetOrdinalInternal(int ordinal)
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x24C4740", Offset = "0x24C2D40", VA = "0x1824C4740")]
+	[Address(RVA = "0x5E67AB0", Offset = "0x5E66AB0", VA = "0x5E67AB0")]
 	internal void SetTable(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x24C33C0", Offset = "0x24C19C0", VA = "0x1824C33C0")]
+	[Address(RVA = "0x5E67B80", Offset = "0x5E66B80", VA = "0x5E67B80")]
 	private DataRow GetDataRow(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x24C37B0", Offset = "0x24C1DB0", VA = "0x1824C37B0")]
+	[Address(RVA = "0x5E66800", Offset = "0x5E65800", VA = "0x5E66800")]
 	internal void InitializeRecord(int record)
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x24C4820", Offset = "0x24C2E20", VA = "0x1824C4820")]
+	[Address(RVA = "0x5E67EB0", Offset = "0x5E66EB0", VA = "0x5E67EB0")]
 	internal void SetValue(int record, object value)
 	{
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x24C31B0", Offset = "0x24C17B0", VA = "0x1824C31B0")]
+	[Address(RVA = "0x5E67FE0", Offset = "0x5E66FE0", VA = "0x5E67FE0")]
 	internal void FreeRecord(int record)
 	{
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x1721000", Offset = "0x171F600", VA = "0x181721000")]
+	[Address(RVA = "0x5E68610", Offset = "0x5E67610", VA = "0x5E68610")]
 	internal void InternalUnique(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x24C1F90", Offset = "0x24C0590", VA = "0x1824C1F90")]
+	[Address(RVA = "0x5E68BF0", Offset = "0x5E67BF0", VA = "0x5E68BF0")]
 	internal void CheckColumnConstraint(DataRow row, DataRowAction action)
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x24C2140", Offset = "0x24C0740", VA = "0x1824C2140")]
+	[Address(RVA = "0x5E66FA0", Offset = "0x5E65FA0", VA = "0x5E66FA0")]
 	internal bool CheckMaxLength()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x24C20B0", Offset = "0x24C06B0", VA = "0x1824C20B0")]
+	[Address(RVA = "0x5E68CC0", Offset = "0x5E67CC0", VA = "0x5E68CC0")]
 	internal void CheckMaxLength(DataRow dr)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x24C2380", Offset = "0x24C0980", VA = "0x1824C2380")]
+	[Address(RVA = "0x5E62B40", Offset = "0x5E61B40", VA = "0x5E62B40")]
 	protected internal void CheckNotAllowNull()
 	{
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x24C26A0", Offset = "0x24C0CA0", VA = "0x1824C26A0")]
+	[Address(RVA = "0x5E68C40", Offset = "0x5E67C40", VA = "0x5E68C40")]
 	internal void CheckNullable(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x24C2730", Offset = "0x24C0D30", VA = "0x1824C2730")]
+	[Address(RVA = "0x5E685C0", Offset = "0x5E675C0", VA = "0x5E685C0")]
 	protected void CheckUnique()
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x24C2F70", Offset = "0x24C1570", VA = "0x1824C2F70")]
+	[Address(RVA = "0x5E69170", Offset = "0x5E68170", VA = "0x5E69170")]
 	internal int Compare(int record1, int record2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x24C2D70", Offset = "0x24C1370", VA = "0x1824C2D70")]
+	[Address(RVA = "0x5E691A0", Offset = "0x5E681A0", VA = "0x5E691A0")]
 	internal bool CompareValueTo(int record1, object value, bool checkType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x24C2F40", Offset = "0x24C1540", VA = "0x1824C2F40")]
+	[Address(RVA = "0x5E69360", Offset = "0x5E68360", VA = "0x5E69360")]
 	internal int CompareValueTo(int record1, object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x24C3050", Offset = "0x24C1650", VA = "0x1824C3050")]
+	[Address(RVA = "0x5E69390", Offset = "0x5E68390", VA = "0x5E69390")]
 	internal object ConvertValue(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x24C3160", Offset = "0x24C1760", VA = "0x1824C3160")]
+	[Address(RVA = "0x5E693C0", Offset = "0x5E683C0", VA = "0x5E693C0")]
 	internal void Copy(int srcRecordNo, int dstRecordNo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x24C2790", Offset = "0x24C0D90", VA = "0x1824C2790")]
+	[Address(RVA = "0x5E693F0", Offset = "0x5E683F0", VA = "0x5E693F0")]
 	internal DataColumn Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x24C31F0", Offset = "0x24C17F0", VA = "0x1824C31F0")]
+	[Address(RVA = "0x5E69B70", Offset = "0x5E68B70", VA = "0x5E69B70")]
 	internal object GetAggregateValue(int[] records, AggregateType kind)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x24C3430", Offset = "0x24C1A30", VA = "0x1824C3430")]
+	[Address(RVA = "0x5E68D30", Offset = "0x5E67D30", VA = "0x5E68D30")]
 	private int GetStringLength(int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x24C3700", Offset = "0x24C1D00", VA = "0x1824C3700")]
+	[Address(RVA = "0x5E69C20", Offset = "0x5E68C20", VA = "0x5E69C20")]
 	internal void Init(int record)
 	{
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x24C3890", Offset = "0x24C1E90", VA = "0x1824C3890")]
+	[Address(RVA = "0x5E63260", Offset = "0x5E62260", VA = "0x5E63260")]
 	internal static bool IsAutoIncrementType(Type dataType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x24C4220", Offset = "0x24C2820", VA = "0x1824C4220")]
+	[Address(RVA = "0x5E69D20", Offset = "0x5E68D20", VA = "0x5E69D20")]
 	internal bool IsValueCustomTypeInstance(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x24C3B20", Offset = "0x24C2120", VA = "0x1824C3B20")]
+	[Address(RVA = "0x5E65310", Offset = "0x5E64310", VA = "0x5E65310")]
 	internal bool IsInRelation()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x24C3C60", Offset = "0x24C2260", VA = "0x1824C3C60")]
+	[Address(RVA = "0x5E69DD0", Offset = "0x5E68DD0", VA = "0x5E69DD0")]
 	internal bool IsMaxLengthViolated()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x24C4070", Offset = "0x24C2670", VA = "0x1824C4070")]
+	[Address(RVA = "0x5E6A4C0", Offset = "0x5E694C0", VA = "0x5E6A4C0")]
 	internal bool IsNotAllowDBNullViolated()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x24C3190", Offset = "0x24C1790", VA = "0x1824C3190")]
+	[Address(RVA = "0x5E6A750", Offset = "0x5E69750", VA = "0x5E6A750")]
 	internal void FinishInitInProgress()
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x24C42F0", Offset = "0x24C28F0", VA = "0x1824C42F0", Slot = "18")]
+	[Address(RVA = "0x5E6A770", Offset = "0x5E69770", VA = "0x5E6A770", Slot = "18")]
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x24C4310", Offset = "0x24C2910", VA = "0x1824C4310")]
+	[Address(RVA = "0x5E64C90", Offset = "0x5E63C90", VA = "0x5E64C90")]
 	protected internal void RaisePropertyChanging(string name)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x24C3800", Offset = "0x24C1E00", VA = "0x1824C3800")]
+	[Address(RVA = "0x5E6A7A0", Offset = "0x5E697A0", VA = "0x5E6A7A0")]
 	private void InsureStorage()
 	{
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x24C4430", Offset = "0x24C2A30", VA = "0x1824C4430")]
+	[Address(RVA = "0x5E6A830", Offset = "0x5E69830", VA = "0x5E6A830")]
 	internal void SetCapacity(int capacity)
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x5E6A8E0", Offset = "0x5E698E0", VA = "0x5E6A8E0")]
 	internal void OnSetDataSet()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x24C4910", Offset = "0x24C2F10", VA = "0x1824C4910", Slot = "3")]
+	[Address(RVA = "0x5E6A8F0", Offset = "0x5E698F0", VA = "0x5E6A8F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x24C3080", Offset = "0x24C1680", VA = "0x1824C3080")]
+	[Address(RVA = "0x5E6A980", Offset = "0x5E69980", VA = "0x5E6A980")]
 	internal object ConvertXmlToObject(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x24C30D0", Offset = "0x24C16D0", VA = "0x1824C30D0")]
+	[Address(RVA = "0x5E6AA30", Offset = "0x5E69A30", VA = "0x5E6AA30")]
 	internal object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x24C2FA0", Offset = "0x24C15A0", VA = "0x1824C2FA0")]
+	[Address(RVA = "0x5E65130", Offset = "0x5E64130", VA = "0x5E65130")]
 	internal string ConvertObjectToXml(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x24C2FF0", Offset = "0x24C15F0", VA = "0x1824C2FF0")]
+	[Address(RVA = "0x5E6AAF0", Offset = "0x5E69AF0", VA = "0x5E6AAF0")]
 	internal void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x24C33F0", Offset = "0x24C19F0", VA = "0x1824C33F0")]
+	[Address(RVA = "0x5E6ABC0", Offset = "0x5E69BC0", VA = "0x5E6ABC0")]
 	internal object GetEmptyColumnStore(int recordCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x24C3130", Offset = "0x24C1730", VA = "0x1824C3130")]
+	[Address(RVA = "0x5E6AC60", Offset = "0x5E69C60", VA = "0x5E6AC60")]
 	internal void CopyValueIntoStore(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x24C46F0", Offset = "0x24C2CF0", VA = "0x1824C46F0")]
+	[Address(RVA = "0x5E6AC80", Offset = "0x5E69C80", VA = "0x5E6AC80")]
 	internal void SetStorage(object store, BitArray nullbits)
 	{
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x24C1E40", Offset = "0x24C0440", VA = "0x1824C1E40")]
+	[Address(RVA = "0x5E6AD30", Offset = "0x5E69D30", VA = "0x5E6AD30")]
 	internal void AddDependentColumn(DataColumn expressionColumn)
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x24C4390", Offset = "0x24C2990", VA = "0x1824C4390")]
+	[Address(RVA = "0x5E6AE40", Offset = "0x5E69E40", VA = "0x5E6AE40")]
 	internal void RemoveDependentColumn(DataColumn expressionColumn)
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x24C3460", Offset = "0x24C1A60", VA = "0x1824C3460")]
+	[Address(RVA = "0x5E666B0", Offset = "0x5E656B0", VA = "0x5E666B0")]
 	internal void HandleDependentColumnList(DataExpression oldExpression, DataExpression newExpression)
 	{
 	}

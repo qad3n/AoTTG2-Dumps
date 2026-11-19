@@ -18,62 +18,62 @@ public struct LooseAssemblyName
 	public readonly string name;
 
 	[Token(Token = "0x60005AA")]
-	[Address(RVA = "0x2DB22B0", Offset = "0x2DB08B0", VA = "0x182DB22B0")]
+	[Address(RVA = "0x67B0720", Offset = "0x67AF720", VA = "0x67B0720")]
 	public LooseAssemblyName(string name)
 	{
 	}
 
 	[Token(Token = "0x60005AB")]
-	[Address(RVA = "0x2DB21E0", Offset = "0x2DB07E0", VA = "0x182DB21E0", Slot = "0")]
+	[Address(RVA = "0x67B0780", Offset = "0x67AF780", VA = "0x67B0780", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x2DB2270", Offset = "0x2DB0870", VA = "0x182DB2270", Slot = "2")]
+	[Address(RVA = "0x67B07E0", Offset = "0x67AF7E0", VA = "0x67B07E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x2DB2320", Offset = "0x2DB0920", VA = "0x182DB2320")]
+	[Address(RVA = "0x67B0820", Offset = "0x67AF820", VA = "0x67B0820")]
 	public static bool operator ==(LooseAssemblyName a, LooseAssemblyName b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x2DB24F0", Offset = "0x2DB0AF0", VA = "0x182DB24F0")]
+	[Address(RVA = "0x67B08C0", Offset = "0x67AF8C0", VA = "0x67B08C0")]
 	public static bool operator !=(LooseAssemblyName a, LooseAssemblyName b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x2DB2470", Offset = "0x2DB0A70", VA = "0x182DB2470")]
+	[Address(RVA = "0x67B0960", Offset = "0x67AF960", VA = "0x67B0960")]
 	public static implicit operator LooseAssemblyName(string name)
 	{
 		return default(LooseAssemblyName);
 	}
 
 	[Token(Token = "0x60005B0")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Address(RVA = "0x67B09D0", Offset = "0x67AF9D0", VA = "0x67B09D0")]
 	public static implicit operator string(LooseAssemblyName name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B1")]
-	[Address(RVA = "0x2DB23E0", Offset = "0x2DB09E0", VA = "0x182DB23E0")]
+	[Address(RVA = "0x67B09E0", Offset = "0x67AF9E0", VA = "0x67B09E0")]
 	public static explicit operator LooseAssemblyName(AssemblyName strongAssemblyName)
 	{
 		return default(LooseAssemblyName);
 	}
 
 	[Token(Token = "0x60005B2")]
-	[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0", Slot = "3")]
+	[Address(RVA = "0x67B0A60", Offset = "0x67AFA60", VA = "0x67B0A60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

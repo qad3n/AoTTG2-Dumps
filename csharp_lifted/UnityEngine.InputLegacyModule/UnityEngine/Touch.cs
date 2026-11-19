@@ -1,0 +1,241 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Touch
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using UnityEngine.Bindings;
+
+namespace UnityEngine;
+
+[Token(Token = "0x2000005")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Input/InputBindings.h")]
+public struct Touch
+{
+	[Token(Token = "0x400000F")]
+	[FieldOffset(Offset = "0x0")]
+	private int m_FingerId;
+
+	[Token(Token = "0x4000010")]
+	[FieldOffset(Offset = "0x4")]
+	private Vector2 m_Position;
+
+	[Token(Token = "0x4000011")]
+	[FieldOffset(Offset = "0xC")]
+	private Vector2 m_RawPosition;
+
+	[Token(Token = "0x4000012")]
+	[FieldOffset(Offset = "0x14")]
+	private Vector2 m_PositionDelta;
+
+	[Token(Token = "0x4000013")]
+	[FieldOffset(Offset = "0x1C")]
+	private float m_TimeDelta;
+
+	[Token(Token = "0x4000014")]
+	[FieldOffset(Offset = "0x20")]
+	private int m_TapCount;
+
+	[Token(Token = "0x4000015")]
+	[FieldOffset(Offset = "0x24")]
+	private TouchPhase m_Phase;
+
+	[Token(Token = "0x4000016")]
+	[FieldOffset(Offset = "0x28")]
+	private TouchType m_Type;
+
+	[Token(Token = "0x4000017")]
+	[FieldOffset(Offset = "0x2C")]
+	private float m_Pressure;
+
+	[Token(Token = "0x4000018")]
+	[FieldOffset(Offset = "0x30")]
+	private float m_maximumPossiblePressure;
+
+	[Token(Token = "0x4000019")]
+	[FieldOffset(Offset = "0x34")]
+	private float m_Radius;
+
+	[Token(Token = "0x400001A")]
+	[FieldOffset(Offset = "0x38")]
+	private float m_RadiusVariance;
+
+	[Token(Token = "0x400001B")]
+	[FieldOffset(Offset = "0x3C")]
+	private float m_AltitudeAngle;
+
+	[Token(Token = "0x400001C")]
+	[FieldOffset(Offset = "0x40")]
+	private float m_AzimuthAngle;
+
+	[Token(Token = "0x17000001")]
+	public int fingerId
+	{
+		[Token(Token = "0x6000001")]
+		[Address(RVA = "0x69BDAD0", Offset = "0x69BCAD0", VA = "0x69BDAD0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000002")]
+	public Vector2 position
+	{
+		[Token(Token = "0x6000002")]
+		[Address(RVA = "0x69BDAE0", Offset = "0x69BCAE0", VA = "0x69BDAE0")]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000003")]
+		[Address(RVA = "0x69BDAF0", Offset = "0x69BCAF0", VA = "0x69BDAF0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000003")]
+	public Vector2 rawPosition
+	{
+		[Token(Token = "0x6000004")]
+		[Address(RVA = "0x69BDB00", Offset = "0x69BCB00", VA = "0x69BDB00")]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000005")]
+		[Address(RVA = "0x69BDB10", Offset = "0x69BCB10", VA = "0x69BDB10")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000004")]
+	public Vector2 deltaPosition
+	{
+		[Token(Token = "0x6000006")]
+		[Address(RVA = "0x69BDB20", Offset = "0x69BCB20", VA = "0x69BDB20")]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000007")]
+		[Address(RVA = "0x69BDB30", Offset = "0x69BCB30", VA = "0x69BDB30")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000005")]
+	public float deltaTime
+	{
+		[Token(Token = "0x6000008")]
+		[Address(RVA = "0x69BDB40", Offset = "0x69BCB40", VA = "0x69BDB40")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000006")]
+	public int tapCount
+	{
+		[Token(Token = "0x6000009")]
+		[Address(RVA = "0x69BDB50", Offset = "0x69BCB50", VA = "0x69BDB50")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000007")]
+	public TouchPhase phase
+	{
+		[Token(Token = "0x600000A")]
+		[Address(RVA = "0x69BDB60", Offset = "0x69BCB60", VA = "0x69BDB60")]
+		get
+		{
+			return default(TouchPhase);
+		}
+	}
+
+	[Token(Token = "0x17000008")]
+	public float pressure
+	{
+		[Token(Token = "0x600000B")]
+		[Address(RVA = "0x69BDB70", Offset = "0x69BCB70", VA = "0x69BDB70")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000009")]
+	public float maximumPossiblePressure
+	{
+		[Token(Token = "0x600000C")]
+		[Address(RVA = "0x69BDB80", Offset = "0x69BCB80", VA = "0x69BDB80")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x1700000A")]
+	public TouchType type
+	{
+		[Token(Token = "0x600000D")]
+		[Address(RVA = "0x69BDB90", Offset = "0x69BCB90", VA = "0x69BDB90")]
+		get
+		{
+			return default(TouchType);
+		}
+	}
+
+	[Token(Token = "0x1700000B")]
+	public float altitudeAngle
+	{
+		[Token(Token = "0x600000E")]
+		[Address(RVA = "0x69BDBA0", Offset = "0x69BCBA0", VA = "0x69BDBA0")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x1700000C")]
+	public float azimuthAngle
+	{
+		[Token(Token = "0x600000F")]
+		[Address(RVA = "0x69BDBB0", Offset = "0x69BCBB0", VA = "0x69BDBB0")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x1700000D")]
+	public float radius
+	{
+		[Token(Token = "0x6000010")]
+		[Address(RVA = "0x69BDBC0", Offset = "0x69BCBC0", VA = "0x69BDBC0")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x1700000E")]
+	public float radiusVariance
+	{
+		[Token(Token = "0x6000011")]
+		[Address(RVA = "0x69BDBD0", Offset = "0x69BCBD0", VA = "0x69BDBD0")]
+		get
+		{
+			return default(float);
+		}
+	}
+}

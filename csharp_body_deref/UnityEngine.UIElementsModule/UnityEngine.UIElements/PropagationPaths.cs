@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PropagationPaths
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,13 +28,13 @@ internal class PropagationPaths : IDisposable
 	public readonly List<VisualElement> bubbleUpPath;
 
 	[Token(Token = "0x6000EEF")]
-	[Address(RVA = "0x326E110", Offset = "0x326C710", VA = "0x18326E110")]
+	[Address(RVA = "0x6C712E0", Offset = "0x6C702E0", VA = "0x6C712E0")]
 	public PropagationPaths()
 	{
 	}
 
 	[Token(Token = "0x6000EF0")]
-	[Address(RVA = "0x326DD40", Offset = "0x326C340", VA = "0x18326DD40")]
+	[Address(RVA = "0x6C64210", Offset = "0x6C63210", VA = "0x6C64210")]
 	[NotNull]
 	public static PropagationPaths Build(VisualElement elem, EventBase evt, int eventCategories)
 	{
@@ -42,7 +42,7 @@ internal class PropagationPaths : IDisposable
 	}
 
 	[Token(Token = "0x6000EF1")]
-	[Address(RVA = "0x326DF20", Offset = "0x326C520", VA = "0x18326DF20", Slot = "4")]
+	[Address(RVA = "0x6C713A0", Offset = "0x6C703A0", VA = "0x6C713A0", Slot = "4")]
 	public void Dispose()
 	{
 	}

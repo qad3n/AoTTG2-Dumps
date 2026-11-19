@@ -17,21 +17,21 @@ public static class CommandBufferPool
 	private static ObjectPool<CommandBuffer> s_BufferPool;
 
 	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x2ABB5A0", Offset = "0x2AB9BA0", VA = "0x182ABB5A0")]
+	[Address(RVA = "0x64BAB10", Offset = "0x64B9B10", VA = "0x64BAB10")]
 	public static CommandBuffer Get()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x2ABB650", Offset = "0x2AB9C50", VA = "0x182ABB650")]
+	[Address(RVA = "0x64BABD0", Offset = "0x64B9BD0", VA = "0x64BABD0")]
 	public static CommandBuffer Get(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x2ABB6F0", Offset = "0x2AB9CF0", VA = "0x182ABB6F0")]
+	[Address(RVA = "0x64BAC90", Offset = "0x64B9C90", VA = "0x64BAC90")]
 	public static void Release(CommandBuffer buffer)
 	{
 	}

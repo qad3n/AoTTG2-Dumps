@@ -38,13 +38,13 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	public string Name
 	{
 		[Token(Token = "0x6001687")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x602D130", Offset = "0x602C130", VA = "0x602D130")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001688")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x602D140", Offset = "0x602C140", VA = "0x602D140")]
 		set
 		{
 		}
@@ -55,13 +55,13 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	public XmlSchemaXPath Selector
 	{
 		[Token(Token = "0x6001689")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x602D150", Offset = "0x602C150", VA = "0x602D150")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600168A")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x602D160", Offset = "0x602C160", VA = "0x602D160")]
 		set
 		{
 		}
@@ -72,7 +72,7 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	public XmlSchemaObjectCollection Fields
 	{
 		[Token(Token = "0x600168B")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x602D170", Offset = "0x602C170", VA = "0x602D170")]
 		get
 		{
 			return null;
@@ -84,7 +84,7 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	public XmlQualifiedName QualifiedName
 	{
 		[Token(Token = "0x600168C")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x602D180", Offset = "0x602C180", VA = "0x602D180")]
 		get
 		{
 			return null;
@@ -96,13 +96,13 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	internal CompiledIdentityConstraint CompiledConstraint
 	{
 		[Token(Token = "0x600168E")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x602D1A0", Offset = "0x602C1A0", VA = "0x602D1A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600168F")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x602D1B0", Offset = "0x602C1B0", VA = "0x602D1B0")]
 		set
 		{
 		}
@@ -113,26 +113,26 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated
 	internal override string NameAttribute
 	{
 		[Token(Token = "0x6001690")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "11")]
+		[Address(RVA = "0x602D1C0", Offset = "0x602C1C0", VA = "0x602D1C0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001691")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "12")]
+		[Address(RVA = "0x602D1D0", Offset = "0x602C1D0", VA = "0x602D1D0", Slot = "12")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600168D")]
-	[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+	[Address(RVA = "0x602D190", Offset = "0x602C190", VA = "0x602D190")]
 	internal void SetQualifiedName(XmlQualifiedName value)
 	{
 	}
 
 	[Token(Token = "0x6001692")]
-	[Address(RVA = "0x266C6E0", Offset = "0x266ACE0", VA = "0x18266C6E0")]
+	[Address(RVA = "0x602D1E0", Offset = "0x602C1E0", VA = "0x602D1E0")]
 	public XmlSchemaIdentityConstraint()
 	{
 	}

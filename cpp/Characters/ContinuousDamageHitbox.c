@@ -1,5 +1,5 @@
 // Type: Characters.ContinuousDamageHitbox
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Characters/ContinuousDamageHitbox.cs
@@ -8,10 +8,10 @@
 
 // Characters.ContinuousDamageHitbox$$get_DestroysMap
 // il2cpp: bool Characters_ContinuousDamageHitbox__get_DestroysMap (Characters_ContinuousDamageHitbox_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5be2f90
 
-bool
-Characters_ContinuousDamageHitbox__get_DestroysMap(Characters_ContinuousDamageHitbox_o* __this, MethodInfo* method)
+bool Characters_ContinuousDamageHitbox__get_DestroysMap
+               (Characters_ContinuousDamageHitbox_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -20,7 +20,7 @@ Characters_ContinuousDamageHitbox__get_DestroysMap(Characters_ContinuousDamageHi
 
 // Characters.ContinuousDamageHitbox$$CreateContinuous
 // il2cpp: Characters_ContinuousDamageHitbox_o* Characters_ContinuousDamageHitbox__CreateContinuous (Characters_BaseCharacter_o* owner, UnityEngine_GameObject_o* obj, UnityEngine_Collider_o* collider, int32_t damagePerSecond, float damageInterval, const MethodInfo* method);
-// 0x182114ce0
+// 0x5be2fa0
 
 Characters_ContinuousDamageHitbox_o *
 Characters_ContinuousDamageHitbox__CreateContinuous
@@ -28,107 +28,26 @@ Characters_ContinuousDamageHitbox__CreateContinuous
           int32_t damagePerSecond,float damageInterval,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this;
-  System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_00;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar1;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_01;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_02;
-  UnityEngine_Collider_o *__this_03;
-  Characters_ContinuousDamageHitbox_o *__this_04;
-  bool bVar2;
+  Characters_ContinuousDamageHitbox_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346b6a == '\0') {
+  if (Il2CppMethodInitialized_075475cc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_ContinuousDamageHitbox);
-    Il2CppMethodInitialized_184346b6a = '\x01';
+    Il2CppMethodInitialized_075475cc = '\x01';
   }
   if (obj != (UnityEngine_GameObject_o *)0x0) {
-    __this_04 = UnityEngine_GameObject__AddComponent_object_
-                          (obj,(MethodInfo_6F4D60 *)
-                               MethodInfo_UnityEngine_GameObject_AddComponent_ContinuousDamageHitbox);
-    if (__this_04 != (Characters_ContinuousDamageHitbox_o *)0x0) {
-      (__this_04->fields).Owner = owner;
-      Il2CppCodeGenWriteBarrier(&(__this_04->fields).Owner,owner);
-      (__this_04->fields)._collider = collider;
-      Il2CppCodeGenWriteBarrier(&(__this_04->fields)._collider,collider);
-      bVar2 = Il2CppMethodInitialized_184346b6c == '\0';
-      (__this_04->fields).DamageInterval = damageInterval;
-      (__this_04->fields).DamagePerSecond = damagePerSecond;
-      if (bVar2) {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-        Il2CppMethodInitialized_184346b6c = '\x01';
-      }
-      __this = (__this_04->fields)._characterDamageTimers;
-      if (__this != (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-                   (MethodInfo_13BF1C0 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Clear);
-        __this_00 = (__this_04->fields)._characterColliders;
-        if (__this_00 != (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                     (MethodInfo_13BF1C0 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
-          pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                   (__this_04->fields)._charactersInside;
-          if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-            System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                      (pSVar1,(MethodInfo_17592A0 *)
-                              MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-            __this_01 = (__this_04->fields)._handlerDamageTimers;
-            if (__this_01 !=
-                (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
-              System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                         (MethodInfo_13BF1C0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Clear
-                        );
-              __this_02 = (__this_04->fields)._handlerColliders;
-              if (__this_02 !=
-                  (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                           (MethodInfo_13BF1C0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear
-                          );
-                pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                         (__this_04->fields)._handlersInside;
-                if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                  System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                            (pSVar1,(MethodInfo_17592A0 *)
-                                    MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear
-                            );
-                  UnityEngine_MonoBehaviour__StopAllCoroutines
-                            ((UnityEngine_MonoBehaviour_o *)__this_04,(MethodInfo *)0x0);
-                  (__this_04->fields)._mapSweep = (UnityEngine_Coroutine_o *)0x0;
-                  Il2CppCodeGenWriteBarrier(&(__this_04->fields)._mapSweep,(void *)0x0);
-                  __this_03 = (__this_04->fields)._collider;
-                  if (__this_03 != (UnityEngine_Collider_o *)0x0) {
-                    UnityEngine_Collider__set_enabled(__this_03,false,(MethodInfo *)0x0);
-                    Characters_BaseHitbox__ToggleDebug
-                              ((Characters_BaseHitbox_o *)__this_04,false,(MethodInfo *)0x0);
-                    return __this_04;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+    pCVar1 = UnityEngine_GameObject__AddComponent_object_
+                       (obj,(MethodInfo_353B6A0 *)
+                            MethodInfo_UnityEngine_GameObject_AddComponent_ContinuousDamageHitbox);
+    if (pCVar1 != (Characters_ContinuousDamageHitbox_o *)0x0) {
+      (pCVar1->fields).Owner = owner;
+      Il2CppCodeGenWriteBarrier(&(pCVar1->fields).Owner);
+      (pCVar1->fields)._collider = collider;
+      Il2CppCodeGenWriteBarrier(&(pCVar1->fields)._collider);
+      (pCVar1->fields).DamagePerSecond = damagePerSecond;
+      (pCVar1->fields).DamageInterval = damageInterval;
+      (*(pCVar1->klass->vtable)._6_Deactivate.methodPtr)(pCVar1,(pCVar1->klass->vtable)._6_Deactivate.method);
+      return pCVar1;
     }
   }
   ThrowNullReferenceException();
@@ -137,184 +56,46 @@ Characters_ContinuousDamageHitbox__CreateContinuous
 
 // Characters.ContinuousDamageHitbox$$Activate
 // il2cpp: void Characters_ContinuousDamageHitbox__Activate (Characters_ContinuousDamageHitbox_o* __this, float delay, float length, const MethodInfo* method);
-// 0x182114a10
+// 0x5be3050
 
 void Characters_ContinuousDamageHitbox__Activate
                (Characters_ContinuousDamageHitbox_o *__this,float delay,float length,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
-  System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_01;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar1;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_03;
-  Characters_BaseHitbox__WaitAndActivate_d__18_o *routine;
-  Characters_BaseHitbox__WaitAndDeactivate_d__21_o *routine_00;
-  
-  if (Il2CppMethodInitialized_184346b6b == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-    Il2CppMethodInitialized_184346b6b = '\x01';
-  }
-  __this_00 = (__this->fields)._characterDamageTimers;
-  if (__this_00 != (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-               (MethodInfo_13BF1C0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Clear);
-    __this_01 = (__this->fields)._characterColliders;
-    if (__this_01 != (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0) {
-      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                 (MethodInfo_13BF1C0 *)
-                 MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
-      pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._charactersInside;
-      if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-        System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                  (pSVar1,(MethodInfo_17592A0 *)
-                          MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-        __this_02 = (__this->fields)._handlerDamageTimers;
-        if (__this_02 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                     (MethodInfo_13BF1C0 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Clear)
-          ;
-          __this_03 = (__this->fields)._handlerColliders;
-          if (__this_03 !=
-              (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
-            System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-                       (MethodInfo_13BF1C0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear
-                      );
-            pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                     (__this->fields)._handlersInside;
-            if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-              System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                        (pSVar1,(MethodInfo_17592A0 *)
-                                MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear
-                        );
-              if (Il2CppMethodInitialized_184346b52 == '\0') {
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_HashSet_GameObject_Clear);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_HashSet_Collider_Clear);
-                Il2CppMethodInitialized_184346b52 = '\x01';
-              }
-              pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                       (__this->fields)._hitGameObjects;
-              if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                          (pSVar1,(MethodInfo_17592A0 *)
-                                  MethodInfo_System_Collections_Generic_HashSet_GameObject_Clear);
-                pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                         (__this->fields)._firstHitCharacters;
-                if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                  System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                            (pSVar1,(MethodInfo_17592A0 *)
-                                    MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-                  pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                           (__this->fields)._firstHitHandlers;
-                  if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                    System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                              (pSVar1,(MethodInfo_17592A0 *)
-                                      MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear
-                              );
-                    pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                             (__this->fields)._firstFrameColliders;
-                    if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-                      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                                (pSVar1,(MethodInfo_17592A0 *)
-                                        MethodInfo_System_Collections_Generic_HashSet_Collider_Clear);
-                      if (delay == 0.0) {
-                        Characters_BaseHitbox__Enable((Characters_BaseHitbox_o *)__this,(MethodInfo *)0x0);
-                      }
-                      else {
-                        if (Il2CppMethodInitialized_184346b53 == '\0') {
-                          il2cpp_codegen_initialize_runtime_metadata
-                                    (&TypeInfo_Characters_BaseHitbox_WaitAndActivate_d__18);
-                          Il2CppMethodInitialized_184346b53 = '\x01';
-                        }
-                        routine = il2cpp_codegen_object_new
-                                            ((Il2CppClass *)
-                                             TypeInfo_Characters_BaseHitbox_WaitAndActivate_d__18);
-                        System_Object___ctor
-                                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,
-                                   (MethodInfo *)0x0);
-                        (routine->fields).__1__state = 0;
-                        (routine->fields).__4__this = (Characters_BaseHitbox_o *)__this;
-                        Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-                        (routine->fields).delay = delay;
-                        UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                                  ((UnityEngine_MonoBehaviour_o *)__this,
-                                   (System_Collections_IEnumerator_o *)routine,(MethodInfo *)0x0);
-                      }
-                      if (0.0 < length) {
-                        if (Il2CppMethodInitialized_184346b56 == '\0') {
-                          il2cpp_codegen_initialize_runtime_metadata
-                                    (&TypeInfo_Characters_BaseHitbox_WaitAndDeactivate_d__21);
-                          Il2CppMethodInitialized_184346b56 = '\x01';
-                        }
-                        routine_00 = il2cpp_codegen_object_new
-                                               ((Il2CppClass *)
-                                                TypeInfo_Characters_BaseHitbox_WaitAndDeactivate_d__21);
-                        System_Object___ctor
-                                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine_00,
-                                   (MethodInfo *)0x0);
-                        (routine_00->fields).__1__state = 0;
-                        (routine_00->fields).__4__this = (Characters_BaseHitbox_o *)__this;
-                        Il2CppCodeGenWriteBarrier(&(routine_00->fields).__4__this,__this);
-                        (routine_00->fields).delay = delay + length;
-                        UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                                  ((UnityEngine_MonoBehaviour_o *)__this,
-                                   (System_Collections_IEnumerator_o *)routine_00,(MethodInfo *)0x0);
-                      }
-                      return;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  ThrowNullReferenceException();
+  Characters_ContinuousDamageHitbox__ClearOccupants(__this,method);
+  Characters_BaseHitbox__Activate((Characters_BaseHitbox_o *)__this,delay,length,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Characters.ContinuousDamageHitbox$$Deactivate
 // il2cpp: void Characters_ContinuousDamageHitbox__Deactivate (Characters_ContinuousDamageHitbox_o* __this, const MethodInfo* method);
-// 0x182114eb0
+// 0x5be31a0
 
 void Characters_ContinuousDamageHitbox__Deactivate
                (Characters_ContinuousDamageHitbox_o *__this,MethodInfo *method)
 
 {
+  Characters_ContinuousDamageHitbox__ClearOccupants(__this,method);
+  Characters_BaseHitbox__Deactivate((Characters_BaseHitbox_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// Characters.ContinuousDamageHitbox$$ClearOccupants
+// il2cpp: void Characters_ContinuousDamageHitbox__ClearOccupants (Characters_ContinuousDamageHitbox_o* __this, const MethodInfo* method);
+// 0x5be3090
+
+void Characters_ContinuousDamageHitbox__ClearOccupants
+               (Characters_ContinuousDamageHitbox_o *__this,MethodInfo *method)
+
+{
   System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
-  System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_01;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar1;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_03;
-  UnityEngine_Collider_o *__this_04;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  System_Collections_Generic_HashSet_object__o *pSVar2;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_01;
   
-  if (Il2CppMethodInitialized_184346b6c == '\0') {
+  if (Il2CppMethodInitialized_075475cd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -327,57 +108,45 @@ void Characters_ContinuousDamageHitbox__Deactivate
               (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-    Il2CppMethodInitialized_184346b6c = '\x01';
+    Il2CppMethodInitialized_075475cd = '\x01';
   }
   __this_00 = (__this->fields)._characterDamageTimers;
   if (__this_00 != (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+    System_Collections_Generic_Dictionary_object__float___Clear
               ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-               (MethodInfo_13BF1C0 *)
+               (MethodInfo_4AB5620 *)
                MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Clear);
-    __this_01 = (__this->fields)._characterColliders;
-    if (__this_01 != (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0) {
-      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                 (MethodInfo_13BF1C0 *)
-                 MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
-      pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._charactersInside;
-      if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-        System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                  (pSVar1,(MethodInfo_17592A0 *)
+    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._characterColliders;
+    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      System_Collections_Generic_Dictionary_object__object___Clear
+                (pSVar1,(MethodInfo_4AAD690 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Clear);
+      pSVar2 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+      if (pSVar2 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Clear
+                  (pSVar2,(MethodInfo_4FB36D0 *)
                           MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
-        __this_02 = (__this->fields)._handlerDamageTimers;
-        if (__this_02 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                     (MethodInfo_13BF1C0 *)
+        __this_01 = (__this->fields)._handlerDamageTimers;
+        if (__this_01 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+          System_Collections_Generic_Dictionary_object__float___Clear
+                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
+                     (MethodInfo_4AB5620 *)
                      MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Clear)
           ;
-          __this_03 = (__this->fields)._handlerColliders;
-          if (__this_03 !=
-              (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
-            System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-                       (MethodInfo_13BF1C0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear
+          pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   (__this->fields)._handlerColliders;
+          if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+            System_Collections_Generic_Dictionary_object__object___Clear
+                      (pSVar1,(MethodInfo_4AAD690 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Clear
                       );
-            pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                     (__this->fields)._handlersInside;
-            if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-              System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                        (pSVar1,(MethodInfo_17592A0 *)
+            pSVar2 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+            if (pSVar2 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+              System_Collections_Generic_HashSet_object___Clear
+                        (pSVar2,(MethodInfo_4FB36D0 *)
                                 MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Clear
                         );
-              UnityEngine_MonoBehaviour__StopAllCoroutines
-                        ((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
-              (__this->fields)._mapSweep = (UnityEngine_Coroutine_o *)0x0;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._mapSweep,(void *)0x0);
-              __this_04 = (__this->fields)._collider;
-              if (__this_04 != (UnityEngine_Collider_o *)0x0) {
-                UnityEngine_Collider__set_enabled(__this_04,false,(MethodInfo *)0x0);
-                Characters_BaseHitbox__ToggleDebug((Characters_BaseHitbox_o *)__this,false,(MethodInfo *)0x0);
-                return;
-              }
+              return;
             }
           }
         }
@@ -390,15 +159,7 @@ void Characters_ContinuousDamageHitbox__Deactivate
 
 // Characters.ContinuousDamageHitbox$$OnTriggerEnter
 // il2cpp: void Characters_ContinuousDamageHitbox__OnTriggerEnter (Characters_ContinuousDamageHitbox_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
-// 0x182115110
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182115318: mov r9, qword ptr [rip + 0x1f7e279]  ; MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item
-// asm:   0x18211531f: mov r8, rsi
-// asm:   0x182115322: mov rdx, rdi
-// asm:   0x1821153c9: mov r9, qword ptr [rip + 0x1f84e18]  ; MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
-// asm:   0x1821153d0: mov r8, rsi
-// asm:   0x1821153d3: mov rdx, rbp
-// asm:   0x1821153d6: jmp 0x182115325
+// 0x5be31c0
 
 void Characters_ContinuousDamageHitbox__OnTriggerEnter
                (Characters_ContinuousDamageHitbox_o *__this,UnityEngine_Collider_o *other,MethodInfo *method)
@@ -406,17 +167,17 @@ void Characters_ContinuousDamageHitbox__OnTriggerEnter
 {
   Characters_BaseCharacter_o *a;
   System_Collections_Generic_HashSet_object__o *pSVar1;
-  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *__this_01;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_00;
+  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_01;
   bool bVar2;
   UnityEngine_Transform_o *pUVar3;
   UnityEngine_GameObject_o *pUVar4;
   Characters_BaseCharacter_o *b;
   Characters_BaseCharacter_o *x;
+  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_02;
   
-  if (Il2CppMethodInitialized_184346b6d == '\0') {
+  if (Il2CppMethodInitialized_075475ce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
               );
@@ -439,61 +200,64 @@ void Characters_ContinuousDamageHitbox__OnTriggerEnter
               (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
-    Il2CppMethodInitialized_184346b6d = '\x01';
+    Il2CppMethodInitialized_075475ce = '\x01';
   }
-  if ((((other == (UnityEngine_Collider_o *)0x0) ||
+  if ((((other != (UnityEngine_Collider_o *)0x0) &&
        (pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)other,(MethodInfo *)0x0),
-       pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
-      (pUVar3 = UnityEngine_Transform__GetRoot(pUVar3,(MethodInfo *)0x0),
-      pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
+       pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
+      (pUVar3 = UnityEngine_Transform__get_root(pUVar3,(MethodInfo *)0x0),
+      pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
      (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
-     pUVar4 == (UnityEngine_GameObject_o *)0x0)) goto label_1821153db;
-  b = UnityEngine_GameObject__GetComponent_object_
-                (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
-  pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_1821153db;
-  x = (Characters_BaseCharacter_o *)
-      UnityEngine_GameObject__GetComponent_object_
-                (pUVar4,(MethodInfo_6F5650 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)b,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    a = (__this->fields).Owner;
-    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+     pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
+    b = UnityEngine_GameObject__GetComponent_object_
+                  (pUVar4,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
+    pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
+    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05be34a4;
+    x = (Characters_BaseCharacter_o *)
+        UnityEngine_GameObject__GetComponent_object_
+                  (pUVar4,(MethodInfo_353B730 *)
+                          MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = GameManagers_TeamInfo__SameTeam_1e770d0(a,b,(MethodInfo *)0x0);
-    if (bVar2) goto label_18211533f;
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821153db;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)b,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)b,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar2) {
-      return;
+      a = (__this->fields).Owner;
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+      }
+      bVar2 = GameManagers_TeamInfo__SameTeam_5858900(a,b,(MethodInfo *)0x0);
+      if (!bVar2) {
+        pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+        if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be34a4;
+        bVar2 = System_Collections_Generic_HashSet_object___Contains
+                          (pSVar1,(Il2CppObject *)b,
+                           (MethodInfo_4FB3720 *)
+                           MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
+        if (bVar2) {
+          return;
+        }
+        pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+        if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be34a4;
+        System_Collections_Generic_HashSet_object___Add
+                  (pSVar1,(Il2CppObject *)b,
+                   (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+        __this_01 = (__this->fields)._characterDamageTimers;
+        if (__this_01 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0)
+        goto label_05be34a4;
+        System_Collections_Generic_Dictionary_object__float___set_Item
+                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,(Il2CppObject *)b,0.0,
+                   (MethodInfo_4AB5450 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
+        __this_02 = (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)
+                    (__this->fields)._characterColliders;
+        if (__this_02 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0
+           ) goto label_05be34a4;
+        method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item;
+        goto label_05be348e;
+      }
     }
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821153db;
-    System_Collections_Generic_HashSet_object___Add
-              (pSVar1,(Il2CppObject *)b,
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
-    __this_00 = (__this->fields)._characterDamageTimers;
-    if (__this_00 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) goto label_1821153db;
-    System_Collections_Generic_Dictionary_object__float___set_Item
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)b,0.0,
-               (MethodInfo_1488DA0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
-                (__this->fields)._characterColliders;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item;
-  }
-  else {
-label_18211533f:
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -503,53 +267,51 @@ label_18211533f:
       return;
     }
     pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821153db;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)x,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
-    if (bVar2) {
-      return;
+    if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      bVar2 = System_Collections_Generic_HashSet_object___Contains
+                        (pSVar1,(Il2CppObject *)x,
+                         (MethodInfo_4FB3720 *)
+                         MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
+      if (bVar2) {
+        return;
+      }
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+      if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Add
+                  (pSVar1,(Il2CppObject *)x,
+                   (MethodInfo_4FB4450 *)
+                   MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Add);
+        __this_00 = (__this->fields)._handlerDamageTimers;
+        if (__this_00 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+          System_Collections_Generic_Dictionary_object__float___set_Item
+                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)x,0.0,
+                     (MethodInfo_4AB5450 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item
+                    );
+          __this_02 = (__this->fields)._handlerColliders;
+          if (__this_02 !=
+              (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
+            method_00 = 
+            MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item;
+            b = x;
+label_05be348e:
+            System_Collections_Generic_Dictionary_object__object___set_Item
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_02,(Il2CppObject *)b,
+                       (Il2CppObject *)other,(MethodInfo_4AAD4C0 *)method_00);
+            return;
+          }
+        }
+      }
     }
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821153db;
-    System_Collections_Generic_HashSet_object___Add
-              (pSVar1,(Il2CppObject *)x,
-               (MethodInfo_1757CE0 *)
-               MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Add);
-    __this_02 = (__this->fields)._handlerDamageTimers;
-    if (__this_02 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0)
-    goto label_1821153db;
-    System_Collections_Generic_Dictionary_object__float___set_Item
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,(Il2CppObject *)x,0.0,
-               (MethodInfo_1488DA0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._handlerColliders;
-    b = x;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
-    ;
   }
-  if (__this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (__this_01,(Il2CppObject *)b,(Il2CppObject *)other,(MethodInfo_147A7F0 *)method_00);
-    return;
-  }
-label_1821153db:
+label_05be34a4:
   ThrowNullReferenceException();
 }
 
 
 // Characters.ContinuousDamageHitbox$$OnTriggerStay
 // il2cpp: void Characters_ContinuousDamageHitbox__OnTriggerStay (Characters_ContinuousDamageHitbox_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
-// 0x182115670
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182115878: mov r9, qword ptr [rip + 0x1f7dd19]  ; MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item
-// asm:   0x18211587f: mov r8, rsi
-// asm:   0x182115882: mov rdx, rdi
-// asm:   0x182115929: mov r9, qword ptr [rip + 0x1f848b8]  ; MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
-// asm:   0x182115930: mov r8, rsi
-// asm:   0x182115933: mov rdx, rbp
-// asm:   0x182115936: jmp 0x182115885
+// 0x5be34b0
 
 void Characters_ContinuousDamageHitbox__OnTriggerStay
                (Characters_ContinuousDamageHitbox_o *__this,UnityEngine_Collider_o *other,MethodInfo *method)
@@ -557,17 +319,17 @@ void Characters_ContinuousDamageHitbox__OnTriggerStay
 {
   Characters_BaseCharacter_o *a;
   System_Collections_Generic_HashSet_object__o *pSVar1;
-  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *__this_01;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_00;
+  System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_01;
   bool bVar2;
   UnityEngine_Transform_o *pUVar3;
   UnityEngine_GameObject_o *pUVar4;
   Characters_BaseCharacter_o *b;
   Characters_BaseCharacter_o *x;
+  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_02;
   
-  if (Il2CppMethodInitialized_184346b6e == '\0') {
+  if (Il2CppMethodInitialized_075475cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
               );
@@ -590,61 +352,64 @@ void Characters_ContinuousDamageHitbox__OnTriggerStay
               (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
-    Il2CppMethodInitialized_184346b6e = '\x01';
+    Il2CppMethodInitialized_075475cf = '\x01';
   }
-  if ((((other == (UnityEngine_Collider_o *)0x0) ||
+  if ((((other != (UnityEngine_Collider_o *)0x0) &&
        (pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)other,(MethodInfo *)0x0),
-       pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
-      (pUVar3 = UnityEngine_Transform__GetRoot(pUVar3,(MethodInfo *)0x0),
-      pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
+       pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
+      (pUVar3 = UnityEngine_Transform__get_root(pUVar3,(MethodInfo *)0x0),
+      pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
      (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
-     pUVar4 == (UnityEngine_GameObject_o *)0x0)) goto label_18211593b;
-  b = UnityEngine_GameObject__GetComponent_object_
-                (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
-  pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_18211593b;
-  x = (Characters_BaseCharacter_o *)
-      UnityEngine_GameObject__GetComponent_object_
-                (pUVar4,(MethodInfo_6F5650 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)b,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    a = (__this->fields).Owner;
-    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+     pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
+    b = UnityEngine_GameObject__GetComponent_object_
+                  (pUVar4,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
+    pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
+    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05be3794;
+    x = (Characters_BaseCharacter_o *)
+        UnityEngine_GameObject__GetComponent_object_
+                  (pUVar4,(MethodInfo_353B730 *)
+                          MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = GameManagers_TeamInfo__SameTeam_1e770d0(a,b,(MethodInfo *)0x0);
-    if (bVar2) goto label_18211589f;
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_18211593b;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)b,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)b,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar2) {
-      return;
+      a = (__this->fields).Owner;
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+      }
+      bVar2 = GameManagers_TeamInfo__SameTeam_5858900(a,b,(MethodInfo *)0x0);
+      if (!bVar2) {
+        pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+        if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be3794;
+        bVar2 = System_Collections_Generic_HashSet_object___Contains
+                          (pSVar1,(Il2CppObject *)b,
+                           (MethodInfo_4FB3720 *)
+                           MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
+        if (bVar2) {
+          return;
+        }
+        pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+        if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be3794;
+        System_Collections_Generic_HashSet_object___Add
+                  (pSVar1,(Il2CppObject *)b,
+                   (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+        __this_01 = (__this->fields)._characterDamageTimers;
+        if (__this_01 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0)
+        goto label_05be3794;
+        System_Collections_Generic_Dictionary_object__float___set_Item
+                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,(Il2CppObject *)b,0.0,
+                   (MethodInfo_4AB5450 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
+        __this_02 = (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)
+                    (__this->fields)._characterColliders;
+        if (__this_02 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0
+           ) goto label_05be3794;
+        method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item;
+        goto label_05be377e;
+      }
     }
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_18211593b;
-    System_Collections_Generic_HashSet_object___Add
-              (pSVar1,(Il2CppObject *)b,
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
-    __this_00 = (__this->fields)._characterDamageTimers;
-    if (__this_00 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) goto label_18211593b;
-    System_Collections_Generic_Dictionary_object__float___set_Item
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)b,0.0,
-               (MethodInfo_1488DA0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
-                (__this->fields)._characterColliders;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_set_Item;
-  }
-  else {
-label_18211589f:
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -654,51 +419,51 @@ label_18211589f:
       return;
     }
     pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_18211593b;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)x,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
-    if (bVar2) {
-      return;
+    if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      bVar2 = System_Collections_Generic_HashSet_object___Contains
+                        (pSVar1,(Il2CppObject *)x,
+                         (MethodInfo_4FB3720 *)
+                         MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
+      if (bVar2) {
+        return;
+      }
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+      if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Add
+                  (pSVar1,(Il2CppObject *)x,
+                   (MethodInfo_4FB4450 *)
+                   MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Add);
+        __this_00 = (__this->fields)._handlerDamageTimers;
+        if (__this_00 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+          System_Collections_Generic_Dictionary_object__float___set_Item
+                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)x,0.0,
+                     (MethodInfo_4AB5450 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item
+                    );
+          __this_02 = (__this->fields)._handlerColliders;
+          if (__this_02 !=
+              (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
+            method_00 = 
+            MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item;
+            b = x;
+label_05be377e:
+            System_Collections_Generic_Dictionary_object__object___set_Item
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_02,(Il2CppObject *)b,
+                       (Il2CppObject *)other,(MethodInfo_4AAD4C0 *)method_00);
+            return;
+          }
+        }
+      }
     }
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_18211593b;
-    System_Collections_Generic_HashSet_object___Add
-              (pSVar1,(Il2CppObject *)x,
-               (MethodInfo_1757CE0 *)
-               MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Add);
-    __this_02 = (__this->fields)._handlerDamageTimers;
-    if (__this_02 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0)
-    goto label_18211593b;
-    System_Collections_Generic_Dictionary_object__float___set_Item
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,(Il2CppObject *)x,0.0,
-               (MethodInfo_1488DA0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._handlerColliders;
-    b = x;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_set_Item
-    ;
   }
-  if (__this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (__this_01,(Il2CppObject *)b,(Il2CppObject *)other,(MethodInfo_147A7F0 *)method_00);
-    return;
-  }
-label_18211593b:
+label_05be3794:
   ThrowNullReferenceException();
 }
 
 
 // Characters.ContinuousDamageHitbox$$OnTriggerExit
 // il2cpp: void Characters_ContinuousDamageHitbox__OnTriggerExit (Characters_ContinuousDamageHitbox_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
-// 0x1821153f0
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821155ab: mov r8, qword ptr [rip + 0x1f7de36]  ; MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Remove
-// asm:   0x1821155b2: mov rdx, rsi
-// asm:   0x182115651: mov r8, qword ptr [rip + 0x1f849d0]  ; MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Remove
-// asm:   0x182115658: mov rdx, rdi
-// asm:   0x18211565b: jmp 0x1821155b5
+// 0x5be37a0
 
 void Characters_ContinuousDamageHitbox__OnTriggerExit
                (Characters_ContinuousDamageHitbox_o *__this,UnityEngine_Collider_o *other,MethodInfo *method)
@@ -706,16 +471,16 @@ void Characters_ContinuousDamageHitbox__OnTriggerExit
 {
   System_Collections_Generic_HashSet_object__o *pSVar1;
   System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *__this_01;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_01;
   bool bVar2;
   UnityEngine_Transform_o *pUVar3;
   UnityEngine_GameObject_o *pUVar4;
   Characters_BaseCharacter_o *x;
   Characters_BaseCharacter_o *x_00;
+  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_02;
   
-  if (Il2CppMethodInitialized_184346b6f == '\0') {
+  if (Il2CppMethodInitialized_075475d0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Remove);
     il2cpp_codegen_initialize_runtime_metadata
@@ -736,53 +501,56 @@ void Characters_ContinuousDamageHitbox__OnTriggerExit
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Remove);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346b6f = '\x01';
+    Il2CppMethodInitialized_075475d0 = '\x01';
   }
-  if ((((other == (UnityEngine_Collider_o *)0x0) ||
+  if ((((other != (UnityEngine_Collider_o *)0x0) &&
        (pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)other,(MethodInfo *)0x0),
-       pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
-      (pUVar3 = UnityEngine_Transform__GetRoot(pUVar3,(MethodInfo *)0x0),
-      pUVar3 == (UnityEngine_Transform_o *)0x0)) ||
+       pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
+      (pUVar3 = UnityEngine_Transform__get_root(pUVar3,(MethodInfo *)0x0),
+      pUVar3 != (UnityEngine_Transform_o *)0x0)) &&
      (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0),
-     pUVar4 == (UnityEngine_GameObject_o *)0x0)) goto label_182115660;
-  x = UnityEngine_GameObject__GetComponent_object_
-                (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
-  pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
-  if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_182115660;
-  x_00 = (Characters_BaseCharacter_o *)
-         UnityEngine_GameObject__GetComponent_object_
-                   (pUVar4,(MethodInfo_6F5650 *)
-                           MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_182115660;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)x,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
-    if (!bVar2) goto label_1821155ca;
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_182115660;
-    System_Collections_Generic_HashSet_object___Remove
-              (pSVar1,(Il2CppObject *)x,
-               (MethodInfo_1766930 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Remove);
-    __this_00 = (__this->fields)._characterDamageTimers;
-    if (__this_00 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) goto label_182115660;
-    System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___Remove
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)x,
-               (MethodInfo_145AA00 *)
-               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Remove);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
-                (__this->fields)._characterColliders;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Remove;
-  }
-  else {
-label_1821155ca:
+     pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
+    x = UnityEngine_GameObject__GetComponent_object_
+                  (pUVar4,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
+    pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)other,(MethodInfo *)0x0);
+    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05be3a33;
+    x_00 = (Characters_BaseCharacter_o *)
+           UnityEngine_GameObject__GetComponent_object_
+                     (pUVar4,(MethodInfo_353B730 *)
+                             MethodInfo_UnityEngine_GameObject_GetComponent_CustomLogicCollisionHandler);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+      if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be3a33;
+      bVar2 = System_Collections_Generic_HashSet_object___Contains
+                        (pSVar1,(Il2CppObject *)x,
+                         (MethodInfo_4FB3720 *)
+                         MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Contains);
+      if (bVar2) {
+        pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+        if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_05be3a33;
+        System_Collections_Generic_HashSet_object___Remove
+                  (pSVar1,(Il2CppObject *)x,
+                   (MethodInfo_4FB39F0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Remove);
+        __this_00 = (__this->fields)._characterDamageTimers;
+        if (__this_00 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0)
+        goto label_05be3a33;
+        System_Collections_Generic_Dictionary_object__float___Remove
+                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,(Il2CppObject *)x,
+                   (MethodInfo_4AB6C10 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Remove);
+        __this_02 = (__this->fields)._characterColliders;
+        if (__this_02 == (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0)
+        goto label_05be3a33;
+        method_00 = MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Remove;
+        x_00 = x;
+        goto label_05be3a17;
+      }
+    }
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -792,164 +560,224 @@ label_1821155ca:
       return;
     }
     pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_182115660;
-    bVar2 = System_Collections_Generic_HashSet_object___Contains
-                      (pSVar1,(Il2CppObject *)x_00,
-                       (MethodInfo_1759E40 *)
-                       MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
-    if (!bVar2) {
-      return;
+    if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      bVar2 = System_Collections_Generic_HashSet_object___Contains
+                        (pSVar1,(Il2CppObject *)x_00,
+                         (MethodInfo_4FB3720 *)
+                         MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Contains);
+      if (!bVar2) {
+        return;
+      }
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+      if (pSVar1 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Remove
+                  (pSVar1,(Il2CppObject *)x_00,
+                   (MethodInfo_4FB39F0 *)
+                   MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Remove);
+        __this_01 = (__this->fields)._handlerDamageTimers;
+        if (__this_01 != (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+          System_Collections_Generic_Dictionary_object__float___Remove
+                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,(Il2CppObject *)x_00,
+                     (MethodInfo_4AB6C10 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Remove
+                    );
+          __this_02 = (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)
+                      (__this->fields)._handlerColliders;
+          if (__this_02 != (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0) {
+            method_00 = 
+            MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Remove;
+label_05be3a17:
+            System_Collections_Generic_Dictionary_object__object___Remove
+                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_02,
+                       (Il2CppObject *)x_00,(MethodInfo_4AAED10 *)method_00);
+            return;
+          }
+        }
+      }
     }
-    pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-    if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_182115660;
-    System_Collections_Generic_HashSet_object___Remove
-              (pSVar1,(Il2CppObject *)x_00,
-               (MethodInfo_1766930 *)
-               MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Remove);
-    __this_02 = (__this->fields)._handlerDamageTimers;
-    if (__this_02 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0)
-    goto label_182115660;
-    System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___Remove
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,(Il2CppObject *)x_00,
-               (MethodInfo_145AA00 *)
-               MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Remove);
-    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._handlerColliders;
-    x = x_00;
-    method_00 = MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Remove;
   }
-  if (__this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Remove
-              (__this_01,(Il2CppObject *)x,(MethodInfo_1470BF0 *)method_00);
-    return;
-  }
-label_182115660:
+label_05be3a33:
   ThrowNullReferenceException();
 }
 
 
 // Characters.ContinuousDamageHitbox$$Update
 // il2cpp: void Characters_ContinuousDamageHitbox__Update (Characters_ContinuousDamageHitbox_o* __this, const MethodInfo* method);
-// 0x182115950
-// eh: try 0x182115c2a..0x1821162d1 -> pad 0x1833245a0 (+7 call sites) catch Il2CppExceptionWrapper
-// asm: 84 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182115c2d: nop dword ptr [rax]
-// asm:   0x182115dbd: mov rdx, qword ptr [rip + 0x1f5ef74]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose
-// asm:   0x182115dc4: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x182115dc9: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x182115dce: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x182115dd3: test rcx, rcx
-// asm:   0x182115dd6: jne 0x18211627b
-// asm:   0x182115ddc: mov rdi, qword ptr [rsp + 0x110]
-// asm:   0x182115de4: mov r15, qword ptr [rsp + 0x128]
-// asm:   0x182115dec: xorps xmm7, xmm7
-// asm:   0x182115def: mov r12, qword ptr [rsp + 0x120]
-// asm:   0x182115e3d: nop dword ptr [rax]
-// asm:   0x182115ec4: mov rdx, qword ptr [rip + 0x1f5f10d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseCharacter_Dispose
-// asm:   0x182115ecb: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x182115ed0: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x182115ed5: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x182115eda: test rcx, rcx
-// asm:   0x182115edd: jne 0x182116291
-// asm:   0x182115ee3: mov rdi, qword ptr [rsp + 0x110]
-// asm:   0x182115eeb: xorps xmm7, xmm7
-// asm:   0x182115eee: mov r12, qword ptr [rsp + 0x120]
-// asm:   0x1821160fe: mov rdx, qword ptr [rip + 0x1f642cb]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_Dispose
-// asm:   0x182116105: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x18211610a: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x18211610f: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x182116114: test rcx, rcx
-// asm:   0x182116117: jne 0x1821162bb
-// asm:   0x18211611d: mov rdi, qword ptr [rsp + 0x110]
-// asm:   0x182116125: mov r15, qword ptr [rsp + 0x120]
-// asm:   0x18211617c: nop dword ptr [rax]
-// asm:   0x182116210: mov rdx, qword ptr [rip + 0x1f64459]  ; MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_Dispose
-// asm:   0x182116217: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x18211621c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x182116221: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x182116226: test rcx, rcx
-// asm:   0x182116229: jne 0x1821162d1
-// asm:   0x18211627b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x182116291: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1821162bb: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1821162d1: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833245a0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833245a5: push rbp
-// asm:   0x1833245a6: sub rsp, 0x20
-// asm:   0x1833245aa: mov rbp, rdx
-// asm:   0x1833245ad: mov rax, qword ptr [rbp + 0x98]
-// asm:   0x1833245b4: mov rcx, qword ptr [rax]
-// asm:   0x1833245b7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x1833245bb: movabs rax, 0
-// asm:   0x1833245c5: add rsp, 0x20
-// asm:   0x1833245c9: pop rbp
-// asm:   0x1833245ca: ret 
-// asm:   0x1833245d0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833245d5: push rbp
-// asm:   0x1833245d6: sub rsp, 0x20
-// asm:   0x1833245da: mov rbp, rdx
-// asm:   0x1833245dd: mov rax, qword ptr [rbp + 0xb0]
-// asm:   0x1833245e4: mov rcx, qword ptr [rax]
-// asm:   0x1833245e7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x1833245eb: movabs rax, 0
-// asm:   0x1833245f5: add rsp, 0x20
-// asm:   0x1833245f9: pop rbp
-// asm:   0x1833245fa: ret 
-// asm:   0x1833316f0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833316f5: push rbp
-// asm:   0x1833316f6: sub rsp, 0x20
-// asm:   0x1833316fa: mov rbp, rdx
-// asm:   0x1833316fd: mov rax, qword ptr [rbp + 0xa8]
-// asm:   0x183331704: mov rcx, qword ptr [rax]
-// asm:   0x183331707: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18333170b: movabs rax, 0
-// asm:   0x183331715: add rsp, 0x20
-// asm:   0x183331719: pop rbp
-// asm:   0x18333171a: ret 
-// asm:   0x18333bd70: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333bd75: push rbp
-// asm:   0x18333bd76: sub rsp, 0x20
-// asm:   0x18333bd7a: mov rbp, rdx
-// asm:   0x18333bd7d: mov rax, qword ptr [rbp + 0xa0]
-// asm:   0x18333bd84: mov rcx, qword ptr [rax]
-// asm:   0x18333bd87: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18333bd8b: movabs rax, 0
-// asm:   0x18333bd95: add rsp, 0x20
-// asm:   0x18333bd99: pop rbp
-// asm:   0x18333bd9a: ret 
+// 0x5be3a40
+// eh: try 0x5be3d1f..0x5be43cd -> pad 0x5be4463 (+52 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5be44b2..0x5be44b7 -> pad 0x5be44d9 cleanup
+// eh: try 0x5be44dc..0x5be44e4 -> pad 0x5be45d8 catch (...) [compiler noexcept guard]
+// eh: try 0x5be4500..0x5be4505 -> pad 0x5be4527 cleanup
+// eh: try 0x5be452a..0x5be4532 -> pad 0x5be45d8 catch (...) [compiler noexcept guard]
+// eh: try 0x5be454e..0x5be4553 -> pad 0x5be4572 cleanup
+// eh: try 0x5be4575..0x5be457d -> pad 0x5be45d8 catch (...) [compiler noexcept guard]
+// eh: try 0x5be4598..0x5be459d -> pad 0x5be45c5 cleanup
+// eh: try 0x5be45c8..0x5be45d0 -> pad 0x5be45d8 catch (...) [compiler noexcept guard]
+// asm: 127 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5be43cd: jmp 0x5be4581
+// asm:   0x5be43d2: jmp 0x5be4581
+// asm:   0x5be43d7: jmp 0x5be4581
+// asm:   0x5be43dc: jmp 0x5be4581
+// asm:   0x5be43e1: jmp 0x5be4581
+// asm:   0x5be43e6: jmp 0x5be4581
+// asm:   0x5be43eb: jmp 0x5be44e9
+// asm:   0x5be43f0: jmp 0x5be4581
+// asm:   0x5be43f5: jmp 0x5be4581
+// asm:   0x5be43fa: jmp 0x5be4581
+// asm:   0x5be43ff: jmp 0x5be4581
+// asm:   0x5be4404: jmp 0x5be44e9
+// asm:   0x5be4409: jmp 0x5be44e9
+// asm:   0x5be440e: jmp 0x5be44e9
+// asm:   0x5be4413: jmp 0x5be44e9
+// asm:   0x5be4418: jmp 0x5be44e9
+// asm:   0x5be441d: jmp 0x5be4581
+// asm:   0x5be4422: jmp 0x5be4581
+// asm:   0x5be4427: jmp 0x5be4581
+// asm:   0x5be442c: jmp 0x5be44e9
+// asm:   0x5be4431: jmp 0x5be44e9
+// asm:   0x5be4436: jmp 0x5be44e9
+// asm:   0x5be443b: jmp 0x5be44e9
+// asm:   0x5be4440: jmp 0x5be44e9
+// asm:   0x5be4445: jmp 0x5be4581
+// asm:   0x5be444a: jmp 0x5be44e9
+// asm:   0x5be444f: jmp 0x5be44e9
+// asm:   0x5be4454: jmp 0x5be44e9
+// asm:   0x5be4459: jmp 0x5be44e9
+// asm:   0x5be445e: jmp 0x5be4581
+// asm:   0x5be4463: jmp 0x5be4581
+// asm:   0x5be4468: jmp 0x5be44e9
+// asm:   0x5be446a: jmp 0x5be44e9
+// asm:   0x5be446c: jmp 0x5be449b
+// asm:   0x5be446e: jmp 0x5be449b
+// asm:   0x5be4470: jmp 0x5be449b
+// asm:   0x5be4472: jmp 0x5be449b
+// asm:   0x5be4474: jmp 0x5be449b
+// asm:   0x5be4476: jmp 0x5be449b
+// asm:   0x5be4478: jmp 0x5be4537
+// asm:   0x5be447d: jmp 0x5be4537
+// asm:   0x5be4482: jmp 0x5be4537
+// asm:   0x5be4487: jmp 0x5be4537
+// asm:   0x5be448c: jmp 0x5be4537
+// asm:   0x5be4491: jmp 0x5be4537
+// asm:   0x5be4496: jmp 0x5be4581
+// asm:   0x5be449b: mov r14, rax
+// asm:   0x5be449e: cmp edx, 1
+// asm:   0x5be44a1: jne 0x5be44dc
+// asm:   0x5be44a3: mov rdi, r14
+// asm:   0x5be44a6: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5be44ab: mov rbx, qword ptr [rax]
+// asm:   0x5be44ae: mov qword ptr [rsp], rbx
+// asm:   0x5be44b2: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5be44b7: lea rax, [rip + 0x16a955a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_Dispose
+// asm:   0x5be44be: mov rsi, qword ptr [rax]
+// asm:   0x5be44c1: lea rdi, [rsp + 0x20]
+// asm:   0x5be44c6: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5be44cb: test rbx, rbx
+// asm:   0x5be44ce: je 0x5be434d
+// asm:   0x5be44d4: jmp 0x5be45bd
+// asm:   0x5be44d9: mov r14, rax
+// asm:   0x5be44dc: mov rdi, rsp
+// asm:   0x5be44df: call 0x2fd8b90  ; il2cpp_runtime_helper_02fd8b90()
+// asm:   0x5be44e4: jmp 0x5be45d0
+// asm:   0x5be44e9: mov r14, rax
+// asm:   0x5be44ec: cmp edx, 1
+// asm:   0x5be44ef: jne 0x5be452a
+// asm:   0x5be44f1: mov rdi, r14
+// asm:   0x5be44f4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5be44f9: mov rbx, qword ptr [rax]
+// asm:   0x5be44fc: mov qword ptr [rsp], rbx
+// asm:   0x5be4500: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5be4505: lea rax, [rip + 0x16a94f4]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_Dispose
+// asm:   0x5be450c: mov rsi, qword ptr [rax]
+// asm:   0x5be450f: lea rdi, [rsp + 0x40]
+// asm:   0x5be4514: call 0x4d456c0  ; System_Collections_Generic_HashSet_Enumerator_object___Dispose()
+// asm:   0x5be4519: test rbx, rbx
+// asm:   0x5be451c: je 0x5be426e
+// asm:   0x5be4522: jmp 0x5be45bd
+// asm:   0x5be4527: mov r14, rax
+// asm:   0x5be452a: mov rdi, rsp
+// asm:   0x5be452d: call 0x2fd8b60  ; il2cpp_runtime_helper_02fd8b60()
+// asm:   0x5be4532: jmp 0x5be45d0
+// asm:   0x5be4537: mov r14, rax
+// asm:   0x5be453a: cmp edx, 1
+// asm:   0x5be453d: jne 0x5be4575
+// asm:   0x5be453f: mov rdi, r14
+// asm:   0x5be4542: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5be4547: mov rbx, qword ptr [rax]
+// asm:   0x5be454a: mov qword ptr [rsp], rbx
+// asm:   0x5be454e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5be4553: lea rax, [rip + 0x16a918e]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseCharacter_Dispose
+// asm:   0x5be455a: mov rsi, qword ptr [rax]
+// asm:   0x5be455d: lea rdi, [rsp + 0x60]
+// asm:   0x5be4562: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5be4567: test rbx, rbx
+// asm:   0x5be456a: je 0x5be3fef
+// asm:   0x5be4570: jmp 0x5be45bd
+// asm:   0x5be4572: mov r14, rax
+// asm:   0x5be4575: mov rdi, rsp
+// asm:   0x5be4578: call 0x2fd8b30  ; il2cpp_runtime_helper_02fd8b30()
+// asm:   0x5be457d: jmp 0x5be45d0
+// asm:   0x5be457f: jmp 0x5be4581
+// asm:   0x5be4581: mov r14, rax
+// asm:   0x5be4584: cmp edx, 1
+// asm:   0x5be4587: jne 0x5be45c8
+// asm:   0x5be4589: mov rdi, r14
+// asm:   0x5be458c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5be4591: mov rbx, qword ptr [rax]
+// asm:   0x5be4594: mov qword ptr [rsp], rbx
+// asm:   0x5be4598: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5be459d: lea rax, [rip + 0x16a912c]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose
+// asm:   0x5be45a4: mov rsi, qword ptr [rax]
+// asm:   0x5be45a7: lea rdi, [rsp + 0x80]
+// asm:   0x5be45af: call 0x4d456c0  ; System_Collections_Generic_HashSet_Enumerator_object___Dispose()
+// asm:   0x5be45b4: test rbx, rbx
+// asm:   0x5be45b7: je 0x5be3f0c
+// asm:   0x5be45bd: mov rdi, rbx
+// asm:   0x5be45c0: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5be45c5: mov r14, rax
+// asm:   0x5be45c8: mov rdi, rsp
+// asm:   0x5be45cb: call 0x2fd8b00  ; il2cpp_runtime_helper_02fd8b00()
+// asm:   0x5be45d0: mov rdi, r14
+// asm:   0x5be45d3: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5be45d8: mov rdi, rax
+// asm:   0x5be45db: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Characters_ContinuousDamageHitbox__Update(Characters_ContinuousDamageHitbox_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_Vector2Int__o *pSVar1;
-  System_Collections_Generic_Dictionary_BaseCharacter__float__o *pSVar2;
-  System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
-  System_Collections_Generic_HashSet_object__o *pSVar4;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *pSVar5;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_01;
-  Characters_BaseCharacter_o *pCVar6;
-  bool bVar7;
-  System_Collections_Generic_List_BaseCharacter__o *__this_02;
-  UnityEngine_Collider_o *pUVar8;
-  System_Collections_Generic_List_CustomLogicCollisionHandler__o *__this_03;
-  float fVar9;
-  float fVar10;
-  undefined1 local_e8 [16];
-  Characters_BaseCharacter_o *local_d8;
-  undefined1 local_d0 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_c8;
-  Characters_BaseCharacter_o *local_c0;
-  undefined1 local_b8 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_b0;
-  Characters_BaseCharacter_o *local_a8;
-  undefined1 local_a0 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_98;
-  Characters_BaseCharacter_o *local_90;
-  undefined1 local_88 [8];
-  uint64_t uStack_80;
-  Characters_BaseCharacter_o *local_78;
+  int32_t *piVar1;
+  int32_t iVar2;
+  uint uVar3;
+  System_Collections_Generic_List_BaseCharacter__o *pSVar4;
+  System_Collections_Generic_HashSet_object__o *pSVar5;
+  Characters_BaseCharacter_array *pCVar6;
+  System_Collections_Generic_Dictionary_BaseCharacter__float__o *pSVar7;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar8;
+  System_Collections_Generic_List_CustomLogicCollisionHandler__o *pSVar9;
+  CustomLogic_CustomLogicCollisionHandler_array *pCVar10;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *pSVar11;
+  MethodInfo *pMVar12;
+  Characters_BaseCharacter_o *pCVar13;
+  bool bVar14;
+  UnityEngine_Collider_o *pUVar15;
+  float fVar16;
+  undefined1 auStack_c8 [16];
+  Characters_BaseCharacter_o *pCStack_b8;
+  float fStack_ac;
+  undefined1 auStack_a8 [8];
+  undefined8 uStack_a0;
+  Characters_BaseCharacter_o *pCStack_98;
+  undefined1 auStack_88 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_80;
+  Characters_BaseCharacter_o *pCStack_78;
+  undefined1 auStack_68 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_60;
+  Characters_BaseCharacter_o *pCStack_58;
+  undefined1 auStack_48 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_40;
+  Characters_BaseCharacter_o *pCStack_38;
   
-  if (Il2CppMethodInitialized_184346b70 == '\0') {
+  if (Il2CppMethodInitialized_075475d1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1022,372 +850,421 @@ void Characters_ContinuousDamageHitbox__Update(Characters_ContinuousDamageHitbox
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_Add);
     il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BaseCharacter_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseCharacter_GetEnumerator);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_BaseCharacter_ctor)
-    ;
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_ctor);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_System_Collections_Generic_List_CustomLogicCollisionHandler);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_BaseCharacter);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346b70 = '\x01';
+    Il2CppMethodInitialized_075475d1 = '\x01';
   }
-  local_d0 = (undefined1  [8])0x0;
-  pUStack_c8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_c0 = (Characters_BaseCharacter_o *)0x0;
-  local_b8 = (undefined1  [8])0x0;
-  pUStack_b0 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_a8 = (Characters_BaseCharacter_o *)0x0;
-  local_a0 = (undefined1  [8])0x0;
-  pUStack_98 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_90 = (Characters_BaseCharacter_o *)0x0;
-  local_88 = (undefined1  [8])0x0;
-  uStack_80 = 0;
-  local_78 = (Characters_BaseCharacter_o *)0x0;
-  pUVar8 = (__this->fields)._collider;
-  if (pUVar8 != (UnityEngine_Collider_o *)0x0) {
-    bVar7 = UnityEngine_Collider__get_enabled(pUVar8,(MethodInfo *)0x0);
-    if (!bVar7) {
-      return;
+  auStack_48 = (undefined1  [8])0x0;
+  pSStack_40 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pCStack_38 = (Characters_BaseCharacter_o *)0x0;
+  auStack_68 = (undefined1  [8])0x0;
+  pSStack_60 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pCStack_58 = (Characters_BaseCharacter_o *)0x0;
+  auStack_88 = (undefined1  [8])0x0;
+  pSStack_80 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pCStack_78 = (Characters_BaseCharacter_o *)0x0;
+  auStack_a8 = (undefined1  [8])0x0;
+  uStack_a0._0_4_ = 0;
+  uStack_a0._4_4_ = 0;
+  pCStack_98 = (Characters_BaseCharacter_o *)0x0;
+  bVar14 = Characters_BaseHitbox__IsActive((Characters_BaseHitbox_o *)__this,(MethodInfo *)0x0);
+  if (!bVar14) {
+    return;
+  }
+  pSVar4 = (__this->fields)._charactersToRemove;
+  if (pSVar4 != (System_Collections_Generic_List_BaseCharacter__o *)0x0) {
+    piVar1 = &(pSVar4->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    iVar2 = (pSVar4->fields)._size;
+    (pSVar4->fields)._size = 0;
+    if (0 < iVar2) {
+      System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar2,(MethodInfo *)0x0);
     }
-    __this_02 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BaseCharacter);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_BaseCharacter_ctor);
-    pSVar1 = (System_Collections_Generic_HashSet_Vector2Int__o *)(__this->fields)._charactersInside;
-    if (pSVar1 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0) {
-      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
-                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_e8,pSVar1,
-                 (MethodInfo_175C200 *)
+    pSVar5 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+    if (pSVar5 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      System_Collections_Generic_HashSet_object___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_c8,pSVar5,
+                 (MethodInfo_4FB3DA0 *)
                  MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_GetEnumerator);
-      local_d0 = (undefined1  [8])local_e8._0_8_;
-      pUStack_c8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_e8._8_8_;
-      local_c0 = local_d8;
-      local_e8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-      local_e8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_d0;
-      while (bVar7 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                               ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_d0,
-                                (MethodInfo_15381F0 *)
-                                MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext
-                               ), pCVar6 = local_c0, bVar7) {
+      pCStack_38 = pCStack_b8;
+      auStack_48 = (undefined1  [8])auStack_c8._0_8_;
+      pSStack_40 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_c8._8_8_;
+      auStack_c8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+      auStack_c8._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_48;
+label_05be3d27:
+      bVar14 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                         ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_48,
+                          (MethodInfo_4C456D0 *)
+                          MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext);
+      pCVar13 = pCStack_38;
+      if (bVar14) {
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar7 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)pCVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar7) {
-label_182115d8c:
-          if (__this_02 == (System_Collections_Generic_List_BaseCharacter__o *)0x0) {
+        bVar14 = UnityEngine_Object__op_Equality
+                           ((UnityEngine_Object_o *)pCVar13,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        pMVar12 = MethodInfo_System_Collections_Generic_List_BaseCharacter_Add;
+        if (!bVar14) {
+          if (pCVar13 == (Characters_BaseCharacter_o *)0x0) {
             ThrowNullReferenceException();
           }
-          il2cpp_runtime_helper_180012890(__this_02,pCVar6);
-        }
-        else {
-          if (pCVar6 == (Characters_BaseCharacter_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          if ((pCVar6->fields).Dead != false) goto label_182115d8c;
-          pSVar2 = (__this->fields)._characterDamageTimers;
-          if (pSVar2 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          bVar7 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-                             (Il2CppObject *)pCVar6,
-                             (MethodInfo_1455450 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_ContainsKey)
-          ;
-          if (bVar7) {
-            pSVar2 = (__this->fields)._characterDamageTimers;
-            if (pSVar2 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
+          if ((pCVar13->fields).Dead == false) {
+            pSVar7 = (__this->fields)._characterDamageTimers;
+            if (pSVar7 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
               ThrowNullReferenceException();
             }
-            fVar9 = System_Collections_Generic_Dictionary_object__float___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-                               (Il2CppObject *)pCVar6,
-                               (MethodInfo_1488BA0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_get_Item);
-            fVar10 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-            System_Collections_Generic_Dictionary_object__float___set_Item
-                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,(Il2CppObject *)pCVar6,
-                       fVar10 + fVar9,
-                       (MethodInfo_1488DA0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
-            pSVar2 = (__this->fields)._characterDamageTimers;
-            if (pSVar2 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            fVar9 = System_Collections_Generic_Dictionary_object__float___get_Item
-                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-                               (Il2CppObject *)pCVar6,
-                               (MethodInfo_1488BA0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_get_Item);
-            if ((__this->fields).DamageInterval <= fVar9) {
-              __this_00 = (__this->fields)._characterColliders;
-              if (__this_00 == (System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *)0x0) {
+            bVar14 = System_Collections_Generic_Dictionary_object__float___ContainsKey
+                               ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
+                                (Il2CppObject *)pCVar13,
+                                (MethodInfo_4AB5680 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_ContainsKey
+                               );
+            if (bVar14) {
+              pSVar7 = (__this->fields)._characterDamageTimers;
+              if (pSVar7 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
                 ThrowNullReferenceException();
               }
-              bVar7 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                                 (Il2CppObject *)pCVar6,
-                                 (MethodInfo_1455450 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_ContainsKey
-                                );
-              if (bVar7) {
-                pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+              fStack_ac = System_Collections_Generic_Dictionary_object__float___get_Item
+                                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
+                                     (Il2CppObject *)pCVar13,
+                                     (MethodInfo_4AB53E0 *)
+                                     MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_get_Item
+                                    );
+              fVar16 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+              System_Collections_Generic_Dictionary_object__float___set_Item
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
+                         (Il2CppObject *)pCVar13,fStack_ac + fVar16,
+                         (MethodInfo_4AB5450 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
+              pSVar7 = (__this->fields)._characterDamageTimers;
+              if (pSVar7 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              fVar16 = System_Collections_Generic_Dictionary_object__float___get_Item
+                                 ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
+                                  (Il2CppObject *)pCVar13,
+                                  (MethodInfo_4AB53E0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_get_Item
+                                 );
+              if ((__this->fields).DamageInterval <= fVar16) {
+                pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
                          (__this->fields)._characterColliders;
-                if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                pUVar8 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                   (pSVar3,(Il2CppObject *)pCVar6,
-                                    (MethodInfo_147A5B0 *)
-                                    MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_get_Item
+                bVar14 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                                   (pSVar8,(Il2CppObject *)pCVar13,
+                                    (MethodInfo_4AAD6F0 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_ContainsKey
                                    );
-                (*(__this->klass->vtable)._8_OnHit.methodPtr)
-                          (__this,pCVar6,pUVar8,(__this->klass->vtable)._8_OnHit.method);
+                if (bVar14) {
+                  pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
+                           (__this->fields)._characterColliders;
+                  if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  pUVar15 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                      (pSVar8,(Il2CppObject *)pCVar13,
+                                       (MethodInfo_4AAD450 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_get_Item
+                                      );
+                  (*(__this->klass->vtable)._10_OnHit.methodPtr)
+                            (__this,pCVar13,pUVar15,(__this->klass->vtable)._10_OnHit.method);
+                }
+                pSVar7 = (__this->fields)._characterDamageTimers;
+                if (pSVar7 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                System_Collections_Generic_Dictionary_object__float___set_Item
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,
+                           (Il2CppObject *)pCVar13,0.0,
+                           (MethodInfo_4AB5450 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
               }
-              pSVar2 = (__this->fields)._characterDamageTimers;
-              if (pSVar2 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
-                ThrowNullReferenceException();
-              }
-              System_Collections_Generic_Dictionary_object__float___set_Item
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
-                         (Il2CppObject *)pCVar6,0.0,
-                         (MethodInfo_1488DA0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_set_Item);
             }
+            goto label_05be3d27;
           }
         }
+        pSVar4 = (__this->fields)._charactersToRemove;
+        if (pSVar4 == (System_Collections_Generic_List_BaseCharacter__o *)0x0) {
+label_05be435f:
+          ThrowNullReferenceException();
+        }
+        piVar1 = &(pSVar4->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pCVar6 = (pSVar4->fields)._items;
+        if (pCVar6 == (Characters_BaseCharacter_array *)0x0) goto label_05be435f;
+        uVar3 = (pSVar4->fields)._size;
+        if (uVar3 < (uint)pCVar6->max_length) {
+          (pSVar4->fields)._size = uVar3 + 1;
+          pCVar6->m_Items[(int)uVar3] = pCVar13;
+          Il2CppCodeGenWriteBarrier(pCVar6->m_Items + (int)uVar3);
+        }
+        else {
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)pCVar13,
+                     (MethodInfo_395D230 *)pMVar12->klass->rgctx_data[0xe].method);
+        }
+        goto label_05be3d27;
       }
       System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_d0,
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_48,
+                 (MethodInfo_4C456C0 *)
                  MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose);
-      if (__this_02 != (System_Collections_Generic_List_BaseCharacter__o *)0x0) {
-        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)local_e8,
-                   (System_Collections_Generic_List_T__o *)__this_02,
-                   (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_BaseCharacter_GetEnumerator
-                  );
-        local_b8 = (undefined1  [8])local_e8._0_8_;
-        pUStack_b0 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_e8._8_8_;
-        local_a8 = local_d8;
-        local_e8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-        local_e8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_b8;
-        while (bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                 ((System_Collections_Generic_List_Enumerator_object__o *)local_b8,
-                                  (MethodInfo_153A2A0 *)
-                                  MethodInfo_System_Collections_Generic_List_Enumerator_BaseCharacter_MoveNext
-                                 ), pCVar6 = local_a8, bVar7) {
-          pSVar4 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
-          if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+      pSVar4 = (__this->fields)._charactersToRemove;
+      if (pSVar4 != (System_Collections_Generic_List_BaseCharacter__o *)0x0) {
+        System_Collections_Generic_List_object___GetEnumerator
+                  ((System_Collections_Generic_List_Enumerator_T__o *)auStack_c8,
+                   (System_Collections_Generic_List_object__o *)pSVar4,
+                   (MethodInfo_395E050 *)
+                   MethodInfo_System_Collections_Generic_List_BaseCharacter_GetEnumerator);
+        pCStack_58 = pCStack_b8;
+        auStack_68 = (undefined1  [8])auStack_c8._0_8_;
+        pSStack_60 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_c8._8_8_;
+        auStack_c8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+        auStack_c8._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_68;
+        while (bVar14 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                  ((System_Collections_Generic_List_Enumerator_object__o *)auStack_68,
+                                   (MethodInfo_4C45C50 *)
+                                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseCharacter_MoveNext
+                                  ), pCVar13 = pCStack_58, bVar14) {
+          pSVar5 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._charactersInside;
+          if (pSVar5 == (System_Collections_Generic_HashSet_object__o *)0x0) {
             ThrowNullReferenceException();
           }
           System_Collections_Generic_HashSet_object___Remove
-                    (pSVar4,(Il2CppObject *)local_a8,
-                     (MethodInfo_1766930 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Remove)
+                    (pSVar5,(Il2CppObject *)pCStack_58,
+                     (MethodInfo_4FB39F0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Remove)
           ;
-          pSVar2 = (__this->fields)._characterDamageTimers;
-          if (pSVar2 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
+          pSVar7 = (__this->fields)._characterDamageTimers;
+          if (pSVar7 == (System_Collections_Generic_Dictionary_BaseCharacter__float__o *)0x0) {
             ThrowNullReferenceException();
           }
-          System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___Remove
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,(Il2CppObject *)pCVar6,
-                     (MethodInfo_145AA00 *)
+          System_Collections_Generic_Dictionary_object__float___Remove
+                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar7,(Il2CppObject *)pCVar13,
+                     (MethodInfo_4AB6C10 *)
                      MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_Remove);
-          pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+          pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
                    (__this->fields)._characterColliders;
-          if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+          if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
             ThrowNullReferenceException();
           }
           System_Collections_Generic_Dictionary_object__object___Remove
-                    (pSVar3,(Il2CppObject *)pCVar6,
-                     (MethodInfo_1470BF0 *)
+                    (pSVar8,(Il2CppObject *)pCVar13,
+                     (MethodInfo_4AAED10 *)
                      MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_Remove);
         }
         System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_b8,
+                  ((System_Collections_Generic_List_Enumerator_object__o *)auStack_68,
+                   (MethodInfo_4C45C40 *)
                    MethodInfo_System_Collections_Generic_List_Enumerator_BaseCharacter_Dispose);
-        __this_03 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Collections_Generic_List_CustomLogicCollisionHandler);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)__this_03,
-                   (MethodInfo_92A240 *)
-                   MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_ctor);
-        pSVar1 = (System_Collections_Generic_HashSet_Vector2Int__o *)(__this->fields)._handlersInside;
-        if (pSVar1 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0) {
-          System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
-                    ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_e8,pSVar1,
-                     (MethodInfo_175C200 *)
-                     MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_GetEnumerator);
-          local_a0 = (undefined1  [8])local_e8._0_8_;
-          pUStack_98 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_e8._8_8_;
-          local_90 = local_d8;
-          local_e8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-          local_e8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0;
-          while (bVar7 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                                   ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_a0,
-                                    (MethodInfo_15381F0 *)
-                                    MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_MoveNext
-                                   ), pCVar6 = local_90, bVar7) {
-            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-            }
-            bVar7 = UnityEngine_Object__op_Equality
-                              ((UnityEngine_Object_o *)pCVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-            if (bVar7) {
-              if (__this_03 == (System_Collections_Generic_List_CustomLogicCollisionHandler__o *)0x0) {
-                ThrowNullReferenceException();
+        pSVar9 = (__this->fields)._handlersToRemove;
+        if (pSVar9 != (System_Collections_Generic_List_CustomLogicCollisionHandler__o *)0x0) {
+          piVar1 = &(pSVar9->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          iVar2 = (pSVar9->fields)._size;
+          (pSVar9->fields)._size = 0;
+          if (0 < iVar2) {
+            System_Array__Clear((System_Array_o *)(pSVar9->fields)._items,0,iVar2,(MethodInfo *)0x0);
+          }
+          pSVar5 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+          if (pSVar5 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+            System_Collections_Generic_HashSet_object___GetEnumerator
+                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_c8,pSVar5,
+                       (MethodInfo_4FB3DA0 *)
+                       MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_GetEnumerator
+                      );
+            pCStack_78 = pCStack_b8;
+            auStack_88 = (undefined1  [8])auStack_c8._0_8_;
+            pSStack_80 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_c8._8_8_;
+            auStack_c8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+            auStack_c8._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_88;
+            while (bVar14 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_88,
+                                       (MethodInfo_4C456D0 *)
+                                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_MoveNext
+                                      ), pCVar13 = pCStack_78, bVar14) {
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              il2cpp_runtime_helper_180012890(__this_03,pCVar6);
-            }
-            else {
-              pSVar5 = (__this->fields)._handlerDamageTimers;
-              if (pSVar5 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0
-                 ) {
-                ThrowNullReferenceException();
-              }
-              bVar7 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                 (Il2CppObject *)pCVar6,
-                                 (MethodInfo_1455450 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_ContainsKey
-                                );
-              if (bVar7) {
-                pSVar5 = (__this->fields)._handlerDamageTimers;
-                if (pSVar5 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)
-                              0x0) {
+              bVar14 = UnityEngine_Object__op_Equality
+                                 ((UnityEngine_Object_o *)pCVar13,(UnityEngine_Object_o *)0x0,
+                                  (MethodInfo *)0x0);
+              pMVar12 = MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_Add;
+              if (bVar14) {
+                pSVar9 = (__this->fields)._handlersToRemove;
+                if (pSVar9 == (System_Collections_Generic_List_CustomLogicCollisionHandler__o *)0x0) {
+label_05be4382:
                   ThrowNullReferenceException();
                 }
-                fVar9 = System_Collections_Generic_Dictionary_object__float___get_Item
-                                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                   (Il2CppObject *)pCVar6,
-                                   (MethodInfo_1488BA0 *)
-                                   MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_get_Item
-                                  );
-                fVar10 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-                System_Collections_Generic_Dictionary_object__float___set_Item
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                           (Il2CppObject *)pCVar6,fVar10 + fVar9,
-                           (MethodInfo_1488DA0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item
-                          );
-                pSVar5 = (__this->fields)._handlerDamageTimers;
-                if (pSVar5 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)
-                              0x0) {
+                piVar1 = &(pSVar9->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                pCVar10 = (pSVar9->fields)._items;
+                if (pCVar10 == (CustomLogic_CustomLogicCollisionHandler_array *)0x0) goto label_05be4382;
+                uVar3 = (pSVar9->fields)._size;
+                if (uVar3 < (uint)pCVar10->max_length) {
+                  (pSVar9->fields)._size = uVar3 + 1;
+                  pCVar10->m_Items[(int)uVar3] = (CustomLogic_CustomLogicCollisionHandler_o *)pCVar13;
+                  Il2CppCodeGenWriteBarrier(pCVar10->m_Items + (int)uVar3);
+                }
+                else {
+                  System_Collections_Generic_List_object___AddWithResize
+                            ((System_Collections_Generic_List_object__o *)pSVar9,(Il2CppObject *)pCVar13,
+                             (MethodInfo_395D230 *)pMVar12->klass->rgctx_data[0xe].method);
+                }
+              }
+              else {
+                pSVar11 = (__this->fields)._handlerDamageTimers;
+                if (pSVar11 ==
+                    (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
                   ThrowNullReferenceException();
                 }
-                fVar9 = System_Collections_Generic_Dictionary_object__float___get_Item
-                                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                   (Il2CppObject *)pCVar6,
-                                   (MethodInfo_1488BA0 *)
-                                   MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_get_Item
-                                  );
-                if ((__this->fields).DamageInterval <= fVar9) {
-                  __this_01 = (__this->fields)._handlerColliders;
-                  if (__this_01 ==
-                      (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *)0x0) {
+                bVar14 = System_Collections_Generic_Dictionary_object__float___ContainsKey
+                                   ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                                    (Il2CppObject *)pCVar13,
+                                    (MethodInfo_4AB5680 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_ContainsKey
+                                   );
+                if (bVar14) {
+                  pSVar11 = (__this->fields)._handlerDamageTimers;
+                  if (pSVar11 ==
+                      (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
                     ThrowNullReferenceException();
                   }
-                  bVar7 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
-                                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                                     (Il2CppObject *)pCVar6,
-                                     (MethodInfo_1455450 *)
-                                     MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_ContainsKey
-                                    );
-                  if (bVar7) {
-                    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                             (__this->fields)._handlerColliders;
-                    if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                      ThrowNullReferenceException();
-                    }
-                    pUVar8 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                       (pSVar3,(Il2CppObject *)pCVar6,
-                                        (MethodInfo_147A5B0 *)
-                                        MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_get_Item
-                                       );
-                    (*(__this->klass->vtable)._9_OnHit.methodPtr)
-                              (__this,(CustomLogic_CustomLogicCollisionHandler_o *)pCVar6,pUVar8,
-                               (__this->klass->vtable)._9_OnHit.method);
-                  }
-                  pSVar5 = (__this->fields)._handlerDamageTimers;
-                  if (pSVar5 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *
-                                )0x0) {
-                    ThrowNullReferenceException();
-                  }
+                  fStack_ac = System_Collections_Generic_Dictionary_object__float___get_Item
+                                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                                         (Il2CppObject *)pCVar13,
+                                         (MethodInfo_4AB53E0 *)
+                                         MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_get_Item
+                                        );
+                  fVar16 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
                   System_Collections_Generic_Dictionary_object__float___set_Item
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                             (Il2CppObject *)pCVar6,0.0,
-                             (MethodInfo_1488DA0 *)
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                             (Il2CppObject *)pCVar13,fStack_ac + fVar16,
+                             (MethodInfo_4AB5450 *)
                              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item
                             );
+                  pSVar11 = (__this->fields)._handlerDamageTimers;
+                  if (pSVar11 ==
+                      (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  fVar16 = System_Collections_Generic_Dictionary_object__float___get_Item
+                                     ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                                      (Il2CppObject *)pCVar13,
+                                      (MethodInfo_4AB53E0 *)
+                                      MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_get_Item
+                                     );
+                  if ((__this->fields).DamageInterval <= fVar16) {
+                    pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
+                             (__this->fields)._handlerColliders;
+                    if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                      ThrowNullReferenceException();
+                    }
+                    bVar14 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                                       (pSVar8,(Il2CppObject *)pCVar13,
+                                        (MethodInfo_4AAD6F0 *)
+                                        MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_ContainsKey
+                                       );
+                    if (bVar14) {
+                      pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
+                               (__this->fields)._handlerColliders;
+                      if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                        ThrowNullReferenceException();
+                      }
+                      pUVar15 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                          (pSVar8,(Il2CppObject *)pCVar13,
+                                           (MethodInfo_4AAD450 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_get_Item
+                                          );
+                      (*(__this->klass->vtable)._11_OnHit.methodPtr)
+                                (__this,(CustomLogic_CustomLogicCollisionHandler_o *)pCVar13,pUVar15,
+                                 (__this->klass->vtable)._11_OnHit.method);
+                    }
+                    pSVar11 = (__this->fields)._handlerDamageTimers;
+                    if (pSVar11 ==
+                        (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+                      ThrowNullReferenceException();
+                    }
+                    System_Collections_Generic_Dictionary_object__float___set_Item
+                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                               (Il2CppObject *)pCVar13,0.0,
+                               (MethodInfo_4AB5450 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_set_Item
+                              );
+                  }
                 }
               }
             }
-          }
-          System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0,
-                     MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_Dispose
-                    );
-          if (__this_03 != (System_Collections_Generic_List_CustomLogicCollisionHandler__o *)0x0) {
-            System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                      ((System_Collections_Generic_List_Enumerator_T__o *)local_e8,
-                       (System_Collections_Generic_List_T__o *)__this_03,
-                       (MethodInfo_91F180 *)
-                       MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_GetEnumerator);
-            local_88 = (undefined1  [8])local_e8._0_8_;
-            uStack_80 = local_e8._8_8_;
-            local_78 = local_d8;
-            local_e8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-            local_e8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_88;
-            while( true ) {
-              bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                ((System_Collections_Generic_List_Enumerator_object__o *)local_88,
-                                 (MethodInfo_153A2A0 *)
-                                 MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_MoveNext
-                                );
-              pCVar6 = local_78;
-              if (!bVar7) {
-                System_Collections_Generic_List_Enumerator_object___Dispose
-                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_88,
-                           MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_Dispose
+            System_Collections_Generic_HashSet_Enumerator_object___Dispose
+                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_88,
+                       (MethodInfo_4C456C0 *)
+                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_CustomLogicCollisionHandler_Dispose
+                      );
+            pSVar9 = (__this->fields)._handlersToRemove;
+            if (pSVar9 != (System_Collections_Generic_List_CustomLogicCollisionHandler__o *)0x0) {
+              System_Collections_Generic_List_object___GetEnumerator
+                        ((System_Collections_Generic_List_Enumerator_T__o *)auStack_c8,
+                         (System_Collections_Generic_List_object__o *)pSVar9,
+                         (MethodInfo_395E050 *)
+                         MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_GetEnumerator)
+              ;
+              pCStack_98 = pCStack_b8;
+              auStack_a8 = (undefined1  [8])auStack_c8._0_8_;
+              uStack_a0 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_c8._8_8_;
+              auStack_c8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+              auStack_c8._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_a8;
+              while( true ) {
+                bVar14 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                   ((System_Collections_Generic_List_Enumerator_object__o *)auStack_a8,
+                                    (MethodInfo_4C45C50 *)
+                                    MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_MoveNext
+                                   );
+                pCVar13 = pCStack_98;
+                if (!bVar14) {
+                  System_Collections_Generic_List_Enumerator_object___Dispose
+                            ((System_Collections_Generic_List_Enumerator_object__o *)auStack_a8,
+                             (MethodInfo_4C45C40 *)
+                             MethodInfo_System_Collections_Generic_List_Enumerator_CustomLogicCollisionHandler_Dispose
+                            );
+                  return;
+                }
+                pSVar5 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
+                if (pSVar5 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                System_Collections_Generic_HashSet_object___Remove
+                          (pSVar5,(Il2CppObject *)pCStack_98,
+                           (MethodInfo_4FB39F0 *)
+                           MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Remove);
+                pSVar11 = (__this->fields)._handlerDamageTimers;
+                if (pSVar11 ==
+                    (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                System_Collections_Generic_Dictionary_object__float___Remove
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
+                           (Il2CppObject *)pCVar13,
+                           (MethodInfo_4AB6C10 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Remove
                           );
-                return;
+                pSVar8 = (System_Collections_Generic_Dictionary_object__object__o *)
+                         (__this->fields)._handlerColliders;
+                if (pSVar8 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
+                System_Collections_Generic_Dictionary_object__object___Remove
+                          (pSVar8,(Il2CppObject *)pCVar13,
+                           (MethodInfo_4AAED10 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Remove
+                          );
               }
-              pSVar4 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._handlersInside;
-              if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-                ThrowNullReferenceException();
-              }
-              System_Collections_Generic_HashSet_object___Remove
-                        (pSVar4,(Il2CppObject *)local_78,
-                         (MethodInfo_1766930 *)
-                         MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_Remove);
-              pSVar5 = (__this->fields)._handlerDamageTimers;
-              if (pSVar5 == (System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *)0x0
-                 ) {
-                ThrowNullReferenceException();
-              }
-              System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___Remove
-                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                         (Il2CppObject *)pCVar6,
-                         (MethodInfo_145AA00 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_Remove
-                        );
-              pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                       (__this->fields)._handlerColliders;
-              if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-              System_Collections_Generic_Dictionary_object__object___Remove
-                        (pSVar3,(Il2CppObject *)pCVar6,
-                         (MethodInfo_1470BF0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_Remove
-                        );
+              ThrowNullReferenceException();
             }
-            ThrowNullReferenceException();
           }
         }
       }
@@ -1399,7 +1276,7 @@ label_182115d8c:
 
 // Characters.ContinuousDamageHitbox$$OnHit
 // il2cpp: void Characters_ContinuousDamageHitbox__OnHit (Characters_ContinuousDamageHitbox_o* __this, Characters_BaseCharacter_o* victim, UnityEngine_Collider_o* collider, const MethodInfo* method);
-// 0x182115080
+// 0x5be45e0
 
 void Characters_ContinuousDamageHitbox__OnHit
                (Characters_ContinuousDamageHitbox_o *__this,Characters_BaseCharacter_o *victim,
@@ -1408,60 +1285,64 @@ void Characters_ContinuousDamageHitbox__OnHit
 {
   Characters_BaseCharacter_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346b71 == '\0') {
+  if (Il2CppMethodInitialized_075475d2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346b71 = '\x01';
+    Il2CppMethodInitialized_075475d2 = '\x01';
   }
   pCVar1 = (__this->fields).Owner;
-  if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
-    (*(pCVar1->klass->vtable)._89_OnHit.methodPtr)(pCVar1,(System_Type_o *)__this,(MethodInfo *)victim);
-    return;
+  if (pCVar1 == (Characters_BaseCharacter_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (*(pCVar1->klass->vtable)._89_OnHit.methodPtr)
+            (pCVar1,(Characters_BaseHitbox_o *)__this,(Il2CppObject *)victim,collider,"",
+             true,(pCVar1->klass->vtable)._89_OnHit.method);
+  return;
 }
 
 
 // Characters.ContinuousDamageHitbox$$OnHit
 // il2cpp: void Characters_ContinuousDamageHitbox__OnHit (Characters_ContinuousDamageHitbox_o* __this, CustomLogic_CustomLogicCollisionHandler_o* handler, UnityEngine_Collider_o* collider, const MethodInfo* method);
-// 0x182114ff0
+// 0x5be4660
 
-void Characters_ContinuousDamageHitbox__OnHit_2114ff0
+void Characters_ContinuousDamageHitbox__OnHit_5ae4660
                (Characters_ContinuousDamageHitbox_o *__this,CustomLogic_CustomLogicCollisionHandler_o *handler
                ,UnityEngine_Collider_o *collider,MethodInfo *method)
 
 {
   Characters_BaseCharacter_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346b72 == '\0') {
+  if (Il2CppMethodInitialized_075475d3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346b72 = '\x01';
+    Il2CppMethodInitialized_075475d3 = '\x01';
   }
   pCVar1 = (__this->fields).Owner;
-  if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
-    (*(pCVar1->klass->vtable)._89_OnHit.methodPtr)(pCVar1,(System_Type_o *)__this,(MethodInfo *)handler);
-    return;
+  if (pCVar1 == (Characters_BaseCharacter_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (*(pCVar1->klass->vtable)._89_OnHit.methodPtr)
+            (pCVar1,(Characters_BaseHitbox_o *)__this,(Il2CppObject *)handler,collider,"",
+             true,(pCVar1->klass->vtable)._89_OnHit.method);
+  return;
 }
 
 
 // Characters.ContinuousDamageHitbox$$.ctor
 // il2cpp: void Characters_ContinuousDamageHitbox___ctor (Characters_ContinuousDamageHitbox_o* __this, const MethodInfo* method);
-// 0x1821162e0
+// 0x5be46e0
 
 void Characters_ContinuousDamageHitbox___ctor(Characters_ContinuousDamageHitbox_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_Dictionary_BaseCharacter__float__o *__this_00;
   System_Collections_Generic_Dictionary_BaseCharacter__Collider__o *__this_01;
-  System_Collections_Generic_HashSet_BaseCharacter__o *pSVar1;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_02;
-  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_03;
-  System_Collections_Generic_HashSet_CustomLogicCollisionHandler__o *pSVar2;
-  System_Collections_Generic_HashSet_GameObject__o *__this_04;
-  System_Collections_Generic_HashSet_Collider__o *__this_05;
+  System_Collections_Generic_HashSet_BaseCharacter__o *__this_02;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__float__o *__this_03;
+  System_Collections_Generic_Dictionary_CustomLogicCollisionHandler__Collider__o *__this_04;
+  System_Collections_Generic_HashSet_CustomLogicCollisionHandler__o *__this_05;
+  System_Collections_Generic_List_BaseCharacter__o *__this_06;
+  System_Collections_Generic_List_CustomLogicCollisionHandler__o *__this_07;
   
-  if (Il2CppMethodInitialized_184346b73 == '\0') {
+  if (Il2CppMethodInitialized_075475d4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1485,7 +1366,14 @@ void Characters_ContinuousDamageHitbox___ctor(Characters_ContinuousDamageHitbox_
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_BaseCharacter);
-    Il2CppMethodInitialized_184346b73 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_BaseCharacter_ctor)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_CustomLogicCollisionHandler);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_BaseCharacter);
+    Il2CppMethodInitialized_075475d4 = '\x01';
   }
   (__this->fields).DamagePerSecond = 100;
   (__this->fields).DamageInterval = 0.1;
@@ -1493,95 +1381,68 @@ void Characters_ContinuousDamageHitbox___ctor(Characters_ContinuousDamageHitbox_
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_BaseCharacter_float);
   System_Collections_Generic_Dictionary_object__float____ctor
             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_ctor);
+             (MethodInfo_4AB4860 *)MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_float_ctor);
   (__this->fields)._characterDamageTimers = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._characterDamageTimers,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._characterDamageTimers);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider)
   ;
-  System_Collections_Generic_Dictionary_object__ProbeReferenceVolume_CellData_PerScenarioData____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-             (MethodInfo_1454140 *)
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this_01,
+             (MethodInfo_4AAC8D0 *)
              MethodInfo_System_Collections_Generic_Dictionary_BaseCharacter_Collider_ctor);
   (__this->fields)._characterColliders = __this_01;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._characterColliders,__this_01);
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
-  ;
-  System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar1,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
-  (__this->fields)._charactersInside = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._charactersInside,pSVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._characterColliders);
   __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this_02,
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._charactersInside = __this_02;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._charactersInside);
+  __this_03 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float);
   System_Collections_Generic_Dictionary_object__float____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-             (MethodInfo_1454140 *)
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
+             (MethodInfo_4AB4860 *)
              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_float_ctor);
-  (__this->fields)._handlerDamageTimers = __this_02;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlerDamageTimers,__this_02);
-  __this_03 = il2cpp_codegen_object_new
+  (__this->fields)._handlerDamageTimers = __this_03;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlerDamageTimers);
+  __this_04 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider);
   System_Collections_Generic_Dictionary_object__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-             (MethodInfo_1454140 *)
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this_04,
+             (MethodInfo_4AAC8D0 *)
              MethodInfo_System_Collections_Generic_Dictionary_CustomLogicCollisionHandler_Collider_ctor);
-  (__this->fields)._handlerColliders = __this_03;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlerColliders,__this_03);
-  pSVar2 = il2cpp_codegen_object_new
-                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler);
-  System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar2,
-             (MethodInfo_176CE80 *)
-             MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_ctor);
-  (__this->fields)._handlersInside = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlersInside,pSVar2);
-  if (Il2CppMethodInitialized_184346b5c == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_GameObject_ctor)
-    ;
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Collider_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_Collider);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_GameObject);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_BaseCharacter);
-    Il2CppMethodInitialized_184346b5c = '\x01';
-  }
-  __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_GameObject)
-  ;
-  System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)__this_04,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_GameObject_ctor);
-  (__this->fields)._hitGameObjects = __this_04;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._hitGameObjects,__this_04);
-  __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Collider);
+  (__this->fields)._handlerColliders = __this_04;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlerColliders);
+  __this_05 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this_05,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_Collider_ctor);
-  (__this->fields)._firstFrameColliders = __this_05;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._firstFrameColliders,__this_05);
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
-  ;
-  System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar1,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
-  (__this->fields)._firstHitCharacters = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._firstHitCharacters,pSVar1);
-  pSVar2 = il2cpp_codegen_object_new
-                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler);
-  System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar2,
-             (MethodInfo_176CE80 *)
+             (MethodInfo_4FB2EA0 *)
              MethodInfo_System_Collections_Generic_HashSet_CustomLogicCollisionHandler_ctor);
-  (__this->fields)._firstHitHandlers = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._firstHitHandlers,pSVar2);
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._handlersInside = __this_05;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlersInside);
+  __this_06 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BaseCharacter)
+  ;
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)__this_06,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_BaseCharacter_ctor);
+  (__this->fields)._charactersToRemove = __this_06;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._charactersToRemove);
+  __this_07 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicCollisionHandler);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)__this_07,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_CustomLogicCollisionHandler_ctor
+            );
+  (__this->fields)._handlersToRemove = __this_07;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._handlersToRemove);
+  Characters_BaseHitbox___ctor((Characters_BaseHitbox_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

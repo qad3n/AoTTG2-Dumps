@@ -36,8 +36,8 @@ public class X509Store
 	[Token(Token = "0x17000042")]
 	public X509CertificateCollection Certificates
 	{
-		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x192AEA0", Offset = "0x19294A0", VA = "0x18192AEA0")]
+		[Token(Token = "0x60000CA")]
+		[Address(RVA = "0x52C1780", Offset = "0x52C0780", VA = "0x52C1780")]
 		get
 		{
 			return null;
@@ -47,57 +47,57 @@ public class X509Store
 	[Token(Token = "0x17000043")]
 	public ArrayList Crls
 	{
-		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x192AEE0", Offset = "0x19294E0", VA = "0x18192AEE0")]
+		[Token(Token = "0x60000CB")]
+		[Address(RVA = "0x52C1AE0", Offset = "0x52C0AE0", VA = "0x52C1AE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x192AE60", Offset = "0x1929460", VA = "0x18192AE60")]
+	[Token(Token = "0x60000C9")]
+	[Address(RVA = "0x52C1740", Offset = "0x52C0740", VA = "0x52C1740")]
 	internal X509Store(string path, bool crl, bool newFormat)
 	{
 	}
 
-	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x192AD00", Offset = "0x1929300", VA = "0x18192AD00")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x52C1E20", Offset = "0x52C0E20", VA = "0x52C1E20")]
 	private byte[] Load(string filename)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x192AB30", Offset = "0x1929130", VA = "0x18192AB30")]
+	[Token(Token = "0x60000CD")]
+	[Address(RVA = "0x52C1FF0", Offset = "0x52C0FF0", VA = "0x52C1FF0")]
 	private X509Certificate LoadCertificate(string filename)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x192ABA0", Offset = "0x19291A0", VA = "0x18192ABA0")]
+	[Token(Token = "0x60000CE")]
+	[Address(RVA = "0x52C2050", Offset = "0x52C1050", VA = "0x52C2050")]
 	private X509Crl LoadCrl(string filename)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x192AAD0", Offset = "0x19290D0", VA = "0x18192AAD0")]
+	[Token(Token = "0x60000CF")]
+	[Address(RVA = "0x52C20B0", Offset = "0x52C10B0", VA = "0x52C20B0")]
 	private bool CheckStore(string path, bool throwException)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x192A7B0", Offset = "0x1928DB0", VA = "0x18192A7B0")]
+	[Token(Token = "0x60000D0")]
+	[Address(RVA = "0x52C17C0", Offset = "0x52C07C0", VA = "0x52C17C0")]
 	private X509CertificateCollection BuildCertificatesCollection(string storeName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x192A980", Offset = "0x1928F80", VA = "0x18192A980")]
+	[Token(Token = "0x60000D1")]
+	[Address(RVA = "0x52C1B80", Offset = "0x52C0B80", VA = "0x52C1B80")]
 	private ArrayList BuildCrlsCollection(string storeName)
 	{
 		return null;

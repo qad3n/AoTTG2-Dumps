@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.LicensingInitAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -50,13 +50,13 @@ public class LicensingInitAnalytic : AnalyticsEventBase
 	public string correlationId;
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x3307110", Offset = "0x3305710", VA = "0x183307110")]
+	[Address(RVA = "0x6D17A20", Offset = "0x6D16A20", VA = "0x6D17A20")]
 	public LicensingInitAnalytic()
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x3307080", Offset = "0x3305680", VA = "0x183307080")]
+	[Address(RVA = "0x6D17A80", Offset = "0x6D16A80", VA = "0x6D17A80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static LicensingInitAnalytic CreateLicensingInitAnalytic()
 	{

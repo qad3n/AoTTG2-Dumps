@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.FontFeatureTable
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -61,7 +61,7 @@ public class FontFeatureTable
 	internal List<GlyphPairAdjustmentRecord> glyphPairAdjustmentRecords
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6A0D6D0", Offset = "0x6A0C6D0", VA = "0x6A0D6D0")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ public class FontFeatureTable
 	internal List<UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord> MarkToBaseAdjustmentRecords
 	{
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x6A0D6E0", Offset = "0x6A0C6E0", VA = "0x6A0D6E0")]
 		get
 		{
 			return null;
@@ -83,7 +83,7 @@ public class FontFeatureTable
 	internal List<UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord> MarkToMarkAdjustmentRecords
 	{
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Address(RVA = "0x6A0D6F0", Offset = "0x6A0C6F0", VA = "0x6A0D6F0")]
 		get
 		{
 			return null;
@@ -91,25 +91,25 @@ public class FontFeatureTable
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x30130D0", Offset = "0x30116D0", VA = "0x1830130D0")]
+	[Address(RVA = "0x6A0D700", Offset = "0x6A0C700", VA = "0x6A0D700")]
 	internal FontFeatureTable()
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x3012A10", Offset = "0x3011010", VA = "0x183012A10")]
+	[Address(RVA = "0x6A0D990", Offset = "0x6A0C990", VA = "0x6A0D990")]
 	public void SortGlyphPairAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x3012C50", Offset = "0x3011250", VA = "0x183012C50")]
+	[Address(RVA = "0x6A0DBC0", Offset = "0x6A0CBC0", VA = "0x6A0DBC0")]
 	public void SortMarkToBaseAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x3012E90", Offset = "0x3011490", VA = "0x183012E90")]
+	[Address(RVA = "0x6A0DDF0", Offset = "0x6A0CDF0", VA = "0x6A0DDF0")]
 	public void SortMarkToMarkAdjustmentRecords()
 	{
 	}

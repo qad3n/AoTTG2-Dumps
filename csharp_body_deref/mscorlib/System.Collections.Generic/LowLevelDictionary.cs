@@ -9,115 +9,115 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200062F")]
+[Token(Token = "0x200060A")]
 internal class LowLevelDictionary<TKey, TValue>
 {
-	[Token(Token = "0x2000630")]
+	[Token(Token = "0x200060B")]
 	private sealed class Entry
 	{
-		[Token(Token = "0x4001952")]
+		[Token(Token = "0x40018B9")]
 		[FieldOffset(Offset = "0x0")]
 		public TKey _key;
 
-		[Token(Token = "0x4001953")]
+		[Token(Token = "0x40018BA")]
 		[FieldOffset(Offset = "0x0")]
 		public TValue _value;
 
-		[Token(Token = "0x4001954")]
+		[Token(Token = "0x40018BB")]
 		[FieldOffset(Offset = "0x0")]
 		public Entry _next;
 
-		[Token(Token = "0x6002F96")]
+		[Token(Token = "0x6002F75")]
 		public Entry()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000631")]
+	[Token(Token = "0x200060C")]
 	private sealed class DefaultComparer<T> : IEqualityComparer<T>
 	{
-		[Token(Token = "0x6002F97")]
+		[Token(Token = "0x6002F76")]
 		public bool Equals(T x, T y)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002F98")]
+		[Token(Token = "0x6002F77")]
 		public int GetHashCode(T obj)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6002F99")]
+		[Token(Token = "0x6002F78")]
 		public DefaultComparer()
 		{
 		}
 	}
 
-	[Token(Token = "0x400194E")]
+	[Token(Token = "0x40018B5")]
 	[FieldOffset(Offset = "0x0")]
 	private Entry[] _buckets;
 
-	[Token(Token = "0x400194F")]
+	[Token(Token = "0x40018B6")]
 	[FieldOffset(Offset = "0x0")]
 	private int _numEntries;
 
-	[Token(Token = "0x4001950")]
+	[Token(Token = "0x40018B7")]
 	[FieldOffset(Offset = "0x0")]
 	private int _version;
 
-	[Token(Token = "0x4001951")]
+	[Token(Token = "0x40018B8")]
 	[FieldOffset(Offset = "0x0")]
 	private IEqualityComparer<TKey> _comparer;
 
-	[Token(Token = "0x170007C6")]
+	[Token(Token = "0x170007C5")]
 	public TKey this[TKey key]
 	{
-		[Token(Token = "0x6002F8F")]
+		[Token(Token = "0x6002F6E")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002F8D")]
+	[Token(Token = "0x6002F6C")]
 	public LowLevelDictionary()
 	{
 	}
 
-	[Token(Token = "0x6002F8E")]
+	[Token(Token = "0x6002F6D")]
 	public LowLevelDictionary(int capacity, IEqualityComparer<TKey> comparer)
 	{
 	}
 
-	[Token(Token = "0x6002F90")]
+	[Token(Token = "0x6002F6F")]
 	public void Clear(int capacity = 17)
 	{
 	}
 
-	[Token(Token = "0x6002F91")]
+	[Token(Token = "0x6002F70")]
 	public bool Remove(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002F92")]
+	[Token(Token = "0x6002F71")]
 	private Entry Find(TKey key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F93")]
+	[Token(Token = "0x6002F72")]
 	private Entry UncheckedAdd(TKey key, TValue value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F94")]
+	[Token(Token = "0x6002F73")]
 	private void ExpandBuckets()
 	{
 	}
 
-	[Token(Token = "0x6002F95")]
+	[Token(Token = "0x6002F74")]
 	private int GetBucket(TKey key, int numBuckets = 0)
 	{
 		return default(int);

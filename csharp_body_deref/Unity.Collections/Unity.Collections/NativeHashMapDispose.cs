@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.NativeHashMapDispose
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ internal struct NativeHashMapDispose
 	internal AllocatorManager.AllocatorHandle m_Allocator;
 
 	[Token(Token = "0x600072B")]
-	[Address(RVA = "0x29B5650", Offset = "0x29B3C50", VA = "0x1829B5650")]
+	[Address(RVA = "0x637DD10", Offset = "0x637CD10", VA = "0x637DD10")]
 	internal void Dispose()
 	{
 	}

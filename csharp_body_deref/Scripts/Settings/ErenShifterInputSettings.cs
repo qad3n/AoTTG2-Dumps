@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000B8")]
+[Token(Token = "0x20000F0")]
 internal class ErenShifterInputSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x400040D")]
+	[Token(Token = "0x4000543")]
 	[FieldOffset(Offset = "0x38")]
 	public KeybindSetting Kick;
 
-	[Token(Token = "0x400040E")]
+	[Token(Token = "0x4000544")]
 	[FieldOffset(Offset = "0x40")]
 	public KeybindSetting Jump;
 
-	[Token(Token = "0x400040F")]
+	[Token(Token = "0x4000545")]
 	[FieldOffset(Offset = "0x48")]
 	public KeybindSetting Walk;
 
-	[Token(Token = "0x4000410")]
+	[Token(Token = "0x4000546")]
 	[FieldOffset(Offset = "0x50")]
 	public KeybindSetting AttackCombo;
 
-	[Token(Token = "0x1700009B")]
+	[Token(Token = "0x170000B8")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60003C3")]
-		[Address(RVA = "0x1F12440", Offset = "0x1F10A40", VA = "0x181F12440", Slot = "15")]
+		[Token(Token = "0x6000539")]
+		[Address(RVA = "0x5A4B8F0", Offset = "0x5A4A8F0", VA = "0x5A4B8F0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x1F12190", Offset = "0x1F10790", VA = "0x181F12190")]
+	[Token(Token = "0x600053A")]
+	[Address(RVA = "0x5A4B920", Offset = "0x5A4A920", VA = "0x5A4B920")]
 	public ErenShifterInputSettings()
 	{
 	}

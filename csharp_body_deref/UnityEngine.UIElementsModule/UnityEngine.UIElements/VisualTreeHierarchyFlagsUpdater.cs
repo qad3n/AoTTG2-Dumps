@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualTreeHierarchyFlagsUpdater
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ internal class VisualTreeHierarchyFlagsUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6002838")]
-		[Address(RVA = "0x31706B0", Offset = "0x316ECB0", VA = "0x1831706B0", Slot = "12")]
+		[Address(RVA = "0x6B6FD60", Offset = "0x6B6ED60", VA = "0x6B6FD60", Slot = "12")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -41,44 +41,44 @@ internal class VisualTreeHierarchyFlagsUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6002839")]
-	[Address(RVA = "0x31703A0", Offset = "0x316E9A0", VA = "0x1831703A0", Slot = "15")]
+	[Address(RVA = "0x6B6FDD0", Offset = "0x6B6EDD0", VA = "0x6B6FDD0", Slot = "15")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x600283A")]
-	[Address(RVA = "0x3170360", Offset = "0x316E960", VA = "0x183170360")]
+	[Address(RVA = "0x6B6FE90", Offset = "0x6B6EE90", VA = "0x6B6FE90")]
 	protected static VisualElementFlags GetChildrenMustDirtyFlags(VisualElement ve, VersionChangeType versionChangeType)
 	{
 		return default(VisualElementFlags);
 	}
 
 	[Token(Token = "0x600283B")]
-	[Address(RVA = "0x31701E0", Offset = "0x316E7E0", VA = "0x1831701E0")]
+	[Address(RVA = "0x6B6FEC0", Offset = "0x6B6EEC0", VA = "0x6B6FEC0")]
 	protected static void DirtyChildrenHierarchy(VisualElement ve, VisualElementFlags mustDirtyFlags)
 	{
 	}
 
 	[Token(Token = "0x600283C")]
-	[Address(RVA = "0x31700F0", Offset = "0x316E6F0", VA = "0x1831700F0")]
+	[Address(RVA = "0x6B6FFB0", Offset = "0x6B6EFB0", VA = "0x6B6FFB0")]
 	private static void DirtyBoundingBoxHierarchy(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600283D")]
-	[Address(RVA = "0x31702F0", Offset = "0x316E8F0", VA = "0x1831702F0")]
+	[Address(RVA = "0x6B700A0", Offset = "0x6B6F0A0", VA = "0x6B700A0")]
 	private static void DirtyParentHierarchy(VisualElement ve, VisualElementFlags flags)
 	{
 	}
 
 	[Token(Token = "0x600283E")]
-	[Address(RVA = "0x3170560", Offset = "0x316EB60", VA = "0x183170560", Slot = "14")]
+	[Address(RVA = "0x6B70110", Offset = "0x6B6F110", VA = "0x6B70110", Slot = "14")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x600283F")]
-	[Address(RVA = "0x31706A0", Offset = "0x316ECA0", VA = "0x1831706A0")]
+	[Address(RVA = "0x6B701A0", Offset = "0x6B6F1A0", VA = "0x6B701A0")]
 	public VisualTreeHierarchyFlagsUpdater()
 	{
 	}

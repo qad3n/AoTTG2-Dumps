@@ -10,125 +10,125 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001E6")]
+[Token(Token = "0x20001A7")]
 public abstract class TypeDescriptionProvider
 {
-	[Token(Token = "0x20001E7")]
+	[Token(Token = "0x20001A8")]
 	private sealed class EmptyCustomTypeDescriptor : CustomTypeDescriptor
 	{
-		[Token(Token = "0x6000CE8")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Token(Token = "0x6000B28")]
+		[Address(RVA = "0x624A960", Offset = "0x6249960", VA = "0x624A960")]
 		public EmptyCustomTypeDescriptor()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000756")]
+	[Token(Token = "0x4000687")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly TypeDescriptionProvider _parent;
 
-	[Token(Token = "0x4000757")]
+	[Token(Token = "0x4000688")]
 	[FieldOffset(Offset = "0x18")]
 	private EmptyCustomTypeDescriptor _emptyDescriptor;
 
-	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000B19")]
+	[Address(RVA = "0x624A7B0", Offset = "0x62497B0", VA = "0x624A7B0")]
 	protected TypeDescriptionProvider()
 	{
 	}
 
-	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000B1A")]
+	[Address(RVA = "0x624A7C0", Offset = "0x62497C0", VA = "0x624A7C0")]
 	protected TypeDescriptionProvider(TypeDescriptionProvider parent)
 	{
 	}
 
-	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x28CA240", Offset = "0x28C8840", VA = "0x1828CA240", Slot = "4")]
+	[Token(Token = "0x6000B1B")]
+	[Address(RVA = "0x624A7F0", Offset = "0x62497F0", VA = "0x624A7F0", Slot = "4")]
 	public virtual object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CDC")]
-	[Address(RVA = "0x28CA300", Offset = "0x28C8900", VA = "0x1828CA300", Slot = "5")]
+	[Token(Token = "0x6000B1C")]
+	[Address(RVA = "0x624A8B0", Offset = "0x62498B0", VA = "0x624A8B0", Slot = "5")]
 	public virtual IDictionary GetCache(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CDD")]
-	[Address(RVA = "0x28CA320", Offset = "0x28C8920", VA = "0x1828CA320", Slot = "6")]
+	[Token(Token = "0x6000B1D")]
+	[Address(RVA = "0x624A8D0", Offset = "0x62498D0", VA = "0x624A8D0", Slot = "6")]
 	public virtual ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CDE")]
-	[Address(RVA = "0x28CA3C0", Offset = "0x28C89C0", VA = "0x1828CA3C0", Slot = "7")]
+	[Token(Token = "0x6000B1E")]
+	[Address(RVA = "0x624A970", Offset = "0x6249970", VA = "0x624A970", Slot = "7")]
 	protected internal virtual IExtenderProvider[] GetExtenderProviders(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CDF")]
-	[Address(RVA = "0x28CA490", Offset = "0x28C8A90", VA = "0x1828CA490", Slot = "8")]
+	[Token(Token = "0x6000B1F")]
+	[Address(RVA = "0x624AAB0", Offset = "0x6249AB0", VA = "0x624AAB0", Slot = "8")]
 	public virtual string GetFullComponentName(object component)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE0")]
-	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700")]
+	[Token(Token = "0x6000B20")]
+	[Address(RVA = "0x624AC20", Offset = "0x6249C20", VA = "0x624AC20")]
 	public Type GetReflectionType(Type objectType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE1")]
-	[Address(RVA = "0x28CA5B0", Offset = "0x28C8BB0", VA = "0x1828CA5B0")]
+	[Token(Token = "0x6000B21")]
+	[Address(RVA = "0x624AC40", Offset = "0x6249C40", VA = "0x624AC40")]
 	public Type GetReflectionType(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE2")]
-	[Address(RVA = "0x28CA590", Offset = "0x28C8B90", VA = "0x1828CA590", Slot = "9")]
+	[Token(Token = "0x6000B22")]
+	[Address(RVA = "0x624ACD0", Offset = "0x6249CD0", VA = "0x624ACD0", Slot = "9")]
 	public virtual Type GetReflectionType(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE3")]
-	[Address(RVA = "0x28CA640", Offset = "0x28C8C40", VA = "0x1828CA640", Slot = "10")]
+	[Token(Token = "0x6000B23")]
+	[Address(RVA = "0x624AD00", Offset = "0x6249D00", VA = "0x624AD00", Slot = "10")]
 	public virtual Type GetRuntimeType(Type reflectionType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE4")]
-	[Address(RVA = "0x28CA910", Offset = "0x28C8F10", VA = "0x1828CA910")]
+	[Token(Token = "0x6000B24")]
+	[Address(RVA = "0x624AE70", Offset = "0x6249E70", VA = "0x624AE70")]
 	public ICustomTypeDescriptor GetTypeDescriptor(Type objectType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE5")]
-	[Address(RVA = "0x28CA880", Offset = "0x28C8E80", VA = "0x1828CA880")]
+	[Token(Token = "0x6000B25")]
+	[Address(RVA = "0x624AB90", Offset = "0x6249B90", VA = "0x624AB90")]
 	public ICustomTypeDescriptor GetTypeDescriptor(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE6")]
-	[Address(RVA = "0x28CA7C0", Offset = "0x28C8DC0", VA = "0x1828CA7C0", Slot = "11")]
+	[Token(Token = "0x6000B26")]
+	[Address(RVA = "0x624AE90", Offset = "0x6249E90", VA = "0x624AE90", Slot = "11")]
 	public virtual ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE7")]
-	[Address(RVA = "0x28CA930", Offset = "0x28C8F30", VA = "0x1828CA930", Slot = "12")]
+	[Token(Token = "0x6000B27")]
+	[Address(RVA = "0x624AF30", Offset = "0x6249F30", VA = "0x624AF30", Slot = "12")]
 	public virtual bool IsSupportedType(Type type)
 	{
 		return default(bool);

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001B8")]
+[Token(Token = "0x2000190")]
 internal interface IConsoleDriver
 {
-	[Token(Token = "0x6000FE6")]
+	[Token(Token = "0x6000FBD")]
 	ConsoleKeyInfo ReadKey(bool intercept);
 }

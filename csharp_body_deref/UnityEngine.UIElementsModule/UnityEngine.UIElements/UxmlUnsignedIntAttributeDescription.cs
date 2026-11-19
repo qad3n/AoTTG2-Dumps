@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlUnsignedIntAttributeDescription : TypedUxmlAttributeDescription<uint>
 {
 	[Token(Token = "0x6002678")]
-	[Address(RVA = "0x3159030", Offset = "0x3157630", VA = "0x183159030")]
+	[Address(RVA = "0x6B597F0", Offset = "0x6B587F0", VA = "0x6B597F0")]
 	public UxmlUnsignedIntAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x6002679")]
-	[Address(RVA = "0x3158EC0", Offset = "0x31574C0", VA = "0x183158EC0", Slot = "4")]
+	[Address(RVA = "0x6B59880", Offset = "0x6B58880", VA = "0x6B59880", Slot = "4")]
 	public override uint GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600267A")]
-	[Address(RVA = "0x3158E80", Offset = "0x3157480", VA = "0x183158E80")]
+	[Address(RVA = "0x6B59A00", Offset = "0x6B58A00", VA = "0x6B59A00")]
 	private static uint ConvertValueToUInt(string v, uint defaultValue)
 	{
 		return default(uint);

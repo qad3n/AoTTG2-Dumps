@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000A7")]
+[Token(Token = "0x20000A3")]
 public class PhotonVoiceCreatedParams
 {
-	[Token(Token = "0x170000F9")]
+	[Token(Token = "0x170000F6")]
 	public LocalVoice Voice
 	{
-		[Token(Token = "0x600039F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000387")]
+		[Address(RVA = "0x5722230", Offset = "0x5721230", VA = "0x5722230")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60003A0")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000388")]
+		[Address(RVA = "0x5722240", Offset = "0x5721240", VA = "0x5722240")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000FA")]
+	[Token(Token = "0x170000F7")]
 	public IAudioDesc AudioDesc
 	{
-		[Token(Token = "0x60003A1")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000389")]
+		[Address(RVA = "0x5722250", Offset = "0x5721250", VA = "0x5722250")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x600038A")]
+		[Address(RVA = "0x5722260", Offset = "0x5721260", VA = "0x5722260")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600038B")]
+	[Address(RVA = "0x5722270", Offset = "0x5721270", VA = "0x5722270")]
 	public PhotonVoiceCreatedParams()
 	{
 	}

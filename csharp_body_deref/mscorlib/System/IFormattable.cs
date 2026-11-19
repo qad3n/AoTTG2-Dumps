@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000FB")]
+[Token(Token = "0x20000D3")]
 public interface IFormattable
 {
-	[Token(Token = "0x60007DF")]
+	[Token(Token = "0x60007BA")]
 	string ToString(string format, IFormatProvider formatProvider);
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ContextContainer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -77,7 +77,7 @@ public class ContextContainer : IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x2ABDEC0", Offset = "0x2ABC4C0", VA = "0x182ABDEC0")]
+	[Address(RVA = "0x64BB240", Offset = "0x64BA240", VA = "0x64BB240")]
 	private bool Contains(uint typeId)
 	{
 		return default(bool);
@@ -90,13 +90,13 @@ public class ContextContainer : IDisposable
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x2ABDF10", Offset = "0x2ABC510", VA = "0x182ABDF10", Slot = "4")]
+	[Address(RVA = "0x64BB280", Offset = "0x64BA280", VA = "0x64BB280", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x2ABE090", Offset = "0x2ABC690", VA = "0x182ABE090")]
+	[Address(RVA = "0x64BB430", Offset = "0x64BA430", VA = "0x64BB430")]
 	public ContextContainer()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -61,7 +61,7 @@ public class UniversalRenderPipelineEditorResources : ScriptableObject
 		public Shader defaultSpeedTree8PS;
 
 		[Token(Token = "0x600045C")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6628380", Offset = "0x6627380", VA = "0x6628380")]
 		public ShaderResources()
 		{
 		}
@@ -94,7 +94,7 @@ public class UniversalRenderPipelineEditorResources : ScriptableObject
 		public Material decal;
 
 		[Token(Token = "0x600045D")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6628390", Offset = "0x6627390", VA = "0x6628390")]
 		public MaterialResources()
 		{
 		}
@@ -111,7 +111,7 @@ public class UniversalRenderPipelineEditorResources : ScriptableObject
 	public MaterialResources materials;
 
 	[Token(Token = "0x600045B")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6628370", Offset = "0x6627370", VA = "0x6628370")]
 	public UniversalRenderPipelineEditorResources()
 	{
 	}

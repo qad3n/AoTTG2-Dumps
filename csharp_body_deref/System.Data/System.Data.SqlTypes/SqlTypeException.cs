@@ -15,31 +15,31 @@ namespace System.Data.SqlTypes;
 public class SqlTypeException : SystemException
 {
 	[Token(Token = "0x6000AE7")]
-	[Address(RVA = "0x257CA10", Offset = "0x257B010", VA = "0x18257CA10")]
+	[Address(RVA = "0x5F20880", Offset = "0x5F1F880", VA = "0x5F20880")]
 	public SqlTypeException()
 	{
 	}
 
 	[Token(Token = "0x6000AE8")]
-	[Address(RVA = "0x257C9E0", Offset = "0x257AFE0", VA = "0x18257C9E0")]
+	[Address(RVA = "0x5F093E0", Offset = "0x5F083E0", VA = "0x5F093E0")]
 	public SqlTypeException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000AE9")]
-	[Address(RVA = "0x257C9C0", Offset = "0x257AFC0", VA = "0x18257C9C0")]
+	[Address(RVA = "0x5F208C0", Offset = "0x5F1F8C0", VA = "0x5F208C0")]
 	public SqlTypeException(string message, Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000AEA")]
-	[Address(RVA = "0x257CA60", Offset = "0x257B060", VA = "0x18257CA60")]
+	[Address(RVA = "0x5F208E0", Offset = "0x5F1F8E0", VA = "0x5F208E0")]
 	protected SqlTypeException(SerializationInfo si, StreamingContext sc)
 	{
 	}
 
 	[Token(Token = "0x6000AEB")]
-	[Address(RVA = "0x257C8E0", Offset = "0x257AEE0", VA = "0x18257C8E0")]
+	[Address(RVA = "0x5F20920", Offset = "0x5F1F920", VA = "0x5F20920")]
 	private static SerializationInfo SqlTypeExceptionSerialization(SerializationInfo si, StreamingContext sc)
 	{
 		return null;

@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003E1")]
+[Token(Token = "0x200039D")]
 public sealed class BypassElement : ConfigurationElement
 {
-	[Token(Token = "0x17000586")]
+	[Token(Token = "0x17000558")]
 	public string Address
 	{
-		[Token(Token = "0x60019FA")]
-		[Address(RVA = "0x282A390", Offset = "0x2828990", VA = "0x18282A390")]
+		[Token(Token = "0x6001840")]
+		[Address(RVA = "0x61CF570", Offset = "0x61CE570", VA = "0x61CF570")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60019FB")]
-		[Address(RVA = "0x282A3F0", Offset = "0x28289F0", VA = "0x18282A3F0")]
+		[Token(Token = "0x6001841")]
+		[Address(RVA = "0x61CF5A0", Offset = "0x61CE5A0", VA = "0x61CF5A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000587")]
+	[Token(Token = "0x17000559")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60019FC")]
-		[Address(RVA = "0x282A3C0", Offset = "0x28289C0", VA = "0x18282A3C0", Slot = "4")]
+		[Token(Token = "0x6001842")]
+		[Address(RVA = "0x61CF5D0", Offset = "0x61CE5D0", VA = "0x61CF5D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60019F8")]
-	[Address(RVA = "0x282A360", Offset = "0x2828960", VA = "0x18282A360")]
+	[Token(Token = "0x600183E")]
+	[Address(RVA = "0x61CF510", Offset = "0x61CE510", VA = "0x61CF510")]
 	public BypassElement()
 	{
 	}
 
-	[Token(Token = "0x60019F9")]
-	[Address(RVA = "0x282A330", Offset = "0x2828930", VA = "0x18282A330")]
+	[Token(Token = "0x600183F")]
+	[Address(RVA = "0x61CF540", Offset = "0x61CE540", VA = "0x61CF540")]
 	public BypassElement(string address)
 	{
 	}

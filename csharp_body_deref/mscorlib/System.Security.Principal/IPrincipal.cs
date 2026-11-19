@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Security.Principal;
 
-[Token(Token = "0x200035A")]
+[Token(Token = "0x2000333")]
 public interface IPrincipal
 {
 }

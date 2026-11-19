@@ -16,581 +16,581 @@ using UnityEngine;
 
 namespace Anticheat;
 
-[Token(Token = "0x200096D")]
+[Token(Token = "0x20009D3")]
 internal class ModeratorManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IMatchmakingCallbacks
 {
-	[Token(Token = "0x4002E8A")]
+	[Token(Token = "0x400313A")]
 	private const byte CodeRoomRemove = 180;
 
-	[Token(Token = "0x4002E8B")]
+	[Token(Token = "0x400313B")]
 	private const byte CodeRoomBanList = 181;
 
-	[Token(Token = "0x4002E8C")]
+	[Token(Token = "0x400313C")]
 	private const byte CodeRoomPlayerList = 182;
 
-	[Token(Token = "0x4002E8D")]
+	[Token(Token = "0x400313D")]
 	private const byte CodeRegionRemove = 183;
 
-	[Token(Token = "0x4002E8E")]
+	[Token(Token = "0x400313E")]
 	private const byte CodeRegionBanList = 184;
 
-	[Token(Token = "0x4002E8F")]
+	[Token(Token = "0x400313F")]
 	private const byte CodePlayerListNotification = 188;
 
-	[Token(Token = "0x4002E90")]
+	[Token(Token = "0x4003140")]
 	private const byte CodePlayerJoinNotification = 189;
 
-	[Token(Token = "0x4002E91")]
+	[Token(Token = "0x4003141")]
 	private const byte CodeServerResponse = 190;
 
-	[Token(Token = "0x4002E92")]
+	[Token(Token = "0x4003142")]
 	private const int RemoveKick = 1;
 
-	[Token(Token = "0x4002E93")]
+	[Token(Token = "0x4003143")]
 	private const int RemoveBan = 2;
 
-	[Token(Token = "0x4002E94")]
+	[Token(Token = "0x4003144")]
 	private const int RemoveIPBan = 3;
 
-	[Token(Token = "0x4002E95")]
+	[Token(Token = "0x4003145")]
 	private const int RemoveUnban = 4;
 
-	[Token(Token = "0x4002E96")]
+	[Token(Token = "0x4003146")]
 	private const int RemoveUnIPBan = 5;
 
-	[Token(Token = "0x4002E97")]
+	[Token(Token = "0x4003147")]
 	private const int TargetByActorNumber = 0;
 
-	[Token(Token = "0x4002E98")]
+	[Token(Token = "0x4003148")]
 	private const int TargetBySessionID = 1;
 
-	[Token(Token = "0x4002E99")]
+	[Token(Token = "0x4003149")]
 	private const int TargetByIPAddress = 2;
 
-	[Token(Token = "0x4002E9A")]
+	[Token(Token = "0x400314A")]
 	private const int TargetByTargetID = 3;
 
-	[Token(Token = "0x4002E9B")]
+	[Token(Token = "0x400314B")]
 	private const int TargetByEncryptedIPAddress = 4;
 
-	[Token(Token = "0x4002E9C")]
+	[Token(Token = "0x400314C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static ModeratorManager _instance;
 
-	[Token(Token = "0x4002E9D")]
+	[Token(Token = "0x400314D")]
 	public const int AuthLevelTrusted = 0;
 
-	[Token(Token = "0x4002E9E")]
+	[Token(Token = "0x400314E")]
 	public const int AuthLevelModerator = 1;
 
-	[Token(Token = "0x4002E9F")]
+	[Token(Token = "0x400314F")]
 	public const int AuthLevelAdmin = 2;
 
-	[Token(Token = "0x4002EA4")]
+	[Token(Token = "0x4003154")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	[CompilerGenerated]
 	private static Action m_AuthChanged;
 
-	[Token(Token = "0x4002EA5")]
+	[Token(Token = "0x4003155")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	[CompilerGenerated]
 	private static Action m_PlayerListChanged;
 
-	[Token(Token = "0x4002EA6")]
+	[Token(Token = "0x4003156")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	[CompilerGenerated]
 	private static Action<string> m_StatusMessage;
 
-	[Token(Token = "0x4002EA7")]
+	[Token(Token = "0x4003157")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	[CompilerGenerated]
 	private static Action<RoomBanPage> m_RoomBanListReceived;
 
-	[Token(Token = "0x4002EA8")]
+	[Token(Token = "0x4003158")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	[CompilerGenerated]
 	private static Action<RegionBanPage> m_RegionBanListReceived;
 
-	[Token(Token = "0x4002EA9")]
+	[Token(Token = "0x4003159")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly Dictionary<string, Action<Dictionary<byte, object>>> _pendingCallbacks;
 
-	[Token(Token = "0x4002EAA")]
+	[Token(Token = "0x400315A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly Dictionary<string, float> _pendingTimestamps;
 
-	[Token(Token = "0x4002EAB")]
+	[Token(Token = "0x400315B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private readonly Dictionary<string, float> _pendingTimeouts;
 
-	[Token(Token = "0x4002EAC")]
+	[Token(Token = "0x400315C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private readonly Dictionary<string, Action> _pendingTimeoutCallbacks;
 
-	[Token(Token = "0x17000FC7")]
+	[Token(Token = "0x17000FA6")]
 	public static bool IsAuthenticated
 	{
-		[Token(Token = "0x6005778")]
-		[Address(RVA = "0x2371360", Offset = "0x236F960", VA = "0x182371360")]
+		[Token(Token = "0x6005ACF")]
+		[Address(RVA = "0x5D2EF00", Offset = "0x5D2DF00", VA = "0x5D2EF00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6005779")]
-		[Address(RVA = "0x2371A00", Offset = "0x2370000", VA = "0x182371A00")]
+		[Token(Token = "0x6005AD0")]
+		[Address(RVA = "0x5D2EF70", Offset = "0x5D2DF70", VA = "0x5D2EF70")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FC8")]
+	[Token(Token = "0x17000FA7")]
 	public static int AuthLevel
 	{
-		[Token(Token = "0x600577A")]
-		[Address(RVA = "0x23712B0", Offset = "0x236F8B0", VA = "0x1823712B0")]
+		[Token(Token = "0x6005AD1")]
+		[Address(RVA = "0x5D2EFC0", Offset = "0x5D2DFC0", VA = "0x5D2EFC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600577B")]
-		[Address(RVA = "0x23719A0", Offset = "0x236FFA0", VA = "0x1823719A0")]
+		[Token(Token = "0x6005AD2")]
+		[Address(RVA = "0x5D2F030", Offset = "0x5D2E030", VA = "0x5D2F030")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FC9")]
+	[Token(Token = "0x17000FA8")]
 	public static string AuthUsername
 	{
-		[Token(Token = "0x600577C")]
-		[Address(RVA = "0x2371300", Offset = "0x236F900", VA = "0x182371300")]
+		[Token(Token = "0x6005AD3")]
+		[Address(RVA = "0x5D2F080", Offset = "0x5D2E080", VA = "0x5D2F080")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000FCA")]
+	[Token(Token = "0x17000FA9")]
 	public static Dictionary<int, PlayerEntry> ActivePlayers
 	{
-		[Token(Token = "0x600577D")]
-		[Address(RVA = "0x2371260", Offset = "0x236F860", VA = "0x182371260")]
+		[Token(Token = "0x6005AD4")]
+		[Address(RVA = "0x5D2F100", Offset = "0x5D2E100", VA = "0x5D2F100")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600577E")]
-		[Address(RVA = "0x2371930", Offset = "0x236FF30", VA = "0x182371930")]
+		[Token(Token = "0x6005AD5")]
+		[Address(RVA = "0x5D2F170", Offset = "0x5D2E170", VA = "0x5D2F170")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FCB")]
+	[Token(Token = "0x17000FAA")]
 	public static List<PlayerEntry> PastPlayers
 	{
-		[Token(Token = "0x600577F")]
-		[Address(RVA = "0x23713B0", Offset = "0x236F9B0", VA = "0x1823713B0")]
+		[Token(Token = "0x6005AD6")]
+		[Address(RVA = "0x5D2F1D0", Offset = "0x5D2E1D0", VA = "0x5D2F1D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005780")]
-		[Address(RVA = "0x2371A60", Offset = "0x2370060", VA = "0x182371A60")]
+		[Token(Token = "0x6005AD7")]
+		[Address(RVA = "0x5D2F240", Offset = "0x5D2E240", VA = "0x5D2F240")]
 		[CompilerGenerated]
 		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x14000011")]
-	public static event Action AuthChanged
-	{
-		[Token(Token = "0x6005781")]
-		[Address(RVA = "0x2370D30", Offset = "0x236F330", VA = "0x182370D30")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x6005782")]
-		[Address(RVA = "0x2371400", Offset = "0x236FA00", VA = "0x182371400")]
-		[CompilerGenerated]
-		remove
-		{
-		}
-	}
-
-	[Token(Token = "0x14000012")]
-	public static event Action PlayerListChanged
-	{
-		[Token(Token = "0x6005783")]
-		[Address(RVA = "0x2370E30", Offset = "0x236F430", VA = "0x182370E30")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x6005784")]
-		[Address(RVA = "0x2371500", Offset = "0x236FB00", VA = "0x182371500")]
-		[CompilerGenerated]
-		remove
-		{
-		}
-	}
-
-	[Token(Token = "0x14000013")]
-	public static event Action<string> StatusMessage
-	{
-		[Token(Token = "0x6005785")]
-		[Address(RVA = "0x2371150", Offset = "0x236F750", VA = "0x182371150")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x6005786")]
-		[Address(RVA = "0x2371820", Offset = "0x236FE20", VA = "0x182371820")]
-		[CompilerGenerated]
-		remove
-		{
-		}
-	}
-
-	[Token(Token = "0x14000014")]
-	public static event Action<RoomBanPage> RoomBanListReceived
-	{
-		[Token(Token = "0x6005787")]
-		[Address(RVA = "0x2371040", Offset = "0x236F640", VA = "0x182371040")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x6005788")]
-		[Address(RVA = "0x2371710", Offset = "0x236FD10", VA = "0x182371710")]
-		[CompilerGenerated]
-		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x14000015")]
-	public static event Action<RegionBanPage> RegionBanListReceived
+	public static event Action AuthChanged
 	{
-		[Token(Token = "0x6005789")]
-		[Address(RVA = "0x2370F30", Offset = "0x236F530", VA = "0x182370F30")]
+		[Token(Token = "0x6005AD8")]
+		[Address(RVA = "0x5D2F2A0", Offset = "0x5D2E2A0", VA = "0x5D2F2A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600578A")]
-		[Address(RVA = "0x2371600", Offset = "0x236FC00", VA = "0x182371600")]
+		[Token(Token = "0x6005AD9")]
+		[Address(RVA = "0x5D2F380", Offset = "0x5D2E380", VA = "0x5D2F380")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x600578B")]
-	[Address(RVA = "0x236C650", Offset = "0x236AC50", VA = "0x18236C650")]
+	[Token(Token = "0x14000016")]
+	public static event Action PlayerListChanged
+	{
+		[Token(Token = "0x6005ADA")]
+		[Address(RVA = "0x5D2F460", Offset = "0x5D2E460", VA = "0x5D2F460")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6005ADB")]
+		[Address(RVA = "0x5D2F540", Offset = "0x5D2E540", VA = "0x5D2F540")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x14000017")]
+	public static event Action<string> StatusMessage
+	{
+		[Token(Token = "0x6005ADC")]
+		[Address(RVA = "0x5D2F620", Offset = "0x5D2E620", VA = "0x5D2F620")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6005ADD")]
+		[Address(RVA = "0x5D2F710", Offset = "0x5D2E710", VA = "0x5D2F710")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x14000018")]
+	public static event Action<RoomBanPage> RoomBanListReceived
+	{
+		[Token(Token = "0x6005ADE")]
+		[Address(RVA = "0x5D2F800", Offset = "0x5D2E800", VA = "0x5D2F800")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6005ADF")]
+		[Address(RVA = "0x5D2F8F0", Offset = "0x5D2E8F0", VA = "0x5D2F8F0")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x14000019")]
+	public static event Action<RegionBanPage> RegionBanListReceived
+	{
+		[Token(Token = "0x6005AE0")]
+		[Address(RVA = "0x5D2F9E0", Offset = "0x5D2E9E0", VA = "0x5D2F9E0")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6005AE1")]
+		[Address(RVA = "0x5D2FAD0", Offset = "0x5D2EAD0", VA = "0x5D2FAD0")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x6005AE2")]
+	[Address(RVA = "0x5D2FBC0", Offset = "0x5D2EBC0", VA = "0x5D2FBC0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600578C")]
-	[Address(RVA = "0x236CB00", Offset = "0x236B100", VA = "0x18236CB00")]
+	[Token(Token = "0x6005AE3")]
+	[Address(RVA = "0x5D2FC40", Offset = "0x5D2EC40", VA = "0x5D2FC40")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600578D")]
-	[Address(RVA = "0x236CA10", Offset = "0x236B010", VA = "0x18236CA10")]
+	[Token(Token = "0x6005AE4")]
+	[Address(RVA = "0x5D2FD40", Offset = "0x5D2ED40", VA = "0x5D2FD40")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600578E")]
-	[Address(RVA = "0x2370AE0", Offset = "0x236F0E0", VA = "0x182370AE0")]
+	[Token(Token = "0x6005AE5")]
+	[Address(RVA = "0x5D2FE40", Offset = "0x5D2EE40", VA = "0x5D2FE40")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x600578F")]
-	[Address(RVA = "0x236CBF0", Offset = "0x236B1F0", VA = "0x18236CBF0", Slot = "4")]
+	[Token(Token = "0x6005AE6")]
+	[Address(RVA = "0x5D30380", Offset = "0x5D2F380", VA = "0x5D30380", Slot = "4")]
 	public void OnEvent(EventData photonEvent)
 	{
 	}
 
-	[Token(Token = "0x6005790")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6005AE7")]
+	[Address(RVA = "0x5D30EC0", Offset = "0x5D2FEC0", VA = "0x5D30EC0", Slot = "5")]
 	public void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
-	[Token(Token = "0x6005791")]
-	[Address(RVA = "0x236D190", Offset = "0x236B790", VA = "0x18236D190", Slot = "6")]
+	[Token(Token = "0x6005AE8")]
+	[Address(RVA = "0x5D30ED0", Offset = "0x5D2FED0", VA = "0x5D30ED0", Slot = "6")]
 	public void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
-	[Token(Token = "0x6005792")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Token(Token = "0x6005AE9")]
+	[Address(RVA = "0x5D31140", Offset = "0x5D30140", VA = "0x5D31140", Slot = "7")]
 	public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
-	[Token(Token = "0x6005793")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x6005AEA")]
+	[Address(RVA = "0x5D31150", Offset = "0x5D30150", VA = "0x5D31150", Slot = "8")]
 	public void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
-	[Token(Token = "0x6005794")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x6005AEB")]
+	[Address(RVA = "0x5D31160", Offset = "0x5D30160", VA = "0x5D31160", Slot = "9")]
 	public void OnMasterClientSwitched(Player newMasterClient)
 	{
 	}
 
-	[Token(Token = "0x6005795")]
-	[Address(RVA = "0x236CFA0", Offset = "0x236B5A0", VA = "0x18236CFA0", Slot = "13")]
+	[Token(Token = "0x6005AEC")]
+	[Address(RVA = "0x5D31170", Offset = "0x5D30170", VA = "0x5D31170", Slot = "13")]
 	public void OnJoinedRoom()
 	{
 	}
 
-	[Token(Token = "0x6005796")]
-	[Address(RVA = "0x236CFE0", Offset = "0x236B5E0", VA = "0x18236CFE0", Slot = "16")]
+	[Token(Token = "0x6005AED")]
+	[Address(RVA = "0x5D31610", Offset = "0x5D30610", VA = "0x5D31610", Slot = "16")]
 	public void OnLeftRoom()
 	{
 	}
 
-	[Token(Token = "0x6005797")]
-	[Address(RVA = "0x23708B0", Offset = "0x236EEB0", VA = "0x1823708B0")]
+	[Token(Token = "0x6005AEE")]
+	[Address(RVA = "0x5D311D0", Offset = "0x5D301D0", VA = "0x5D311D0")]
 	private static void UpdateAuthFromRoles()
 	{
 	}
 
-	[Token(Token = "0x6005798")]
-	[Address(RVA = "0x236BC90", Offset = "0x236A290", VA = "0x18236BC90")]
+	[Token(Token = "0x6005AEF")]
+	[Address(RVA = "0x5D31820", Offset = "0x5D30820", VA = "0x5D31820")]
 	private static void ClearAuth()
 	{
 	}
 
-	[Token(Token = "0x6005799")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Token(Token = "0x6005AF0")]
+	[Address(RVA = "0x5D31B90", Offset = "0x5D30B90", VA = "0x5D31B90", Slot = "10")]
 	public void OnFriendListUpdate(List<FriendInfo> friendList)
 	{
 	}
 
-	[Token(Token = "0x600579A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+	[Token(Token = "0x6005AF1")]
+	[Address(RVA = "0x5D31BA0", Offset = "0x5D30BA0", VA = "0x5D31BA0", Slot = "11")]
 	public void OnCreatedRoom()
 	{
 	}
 
-	[Token(Token = "0x600579B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Token(Token = "0x6005AF2")]
+	[Address(RVA = "0x5D31BB0", Offset = "0x5D30BB0", VA = "0x5D31BB0", Slot = "12")]
 	public void OnCreateRoomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x600579C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "14")]
+	[Token(Token = "0x6005AF3")]
+	[Address(RVA = "0x5D31BC0", Offset = "0x5D30BC0", VA = "0x5D31BC0", Slot = "14")]
 	public void OnJoinRoomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x600579D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+	[Token(Token = "0x6005AF4")]
+	[Address(RVA = "0x5D31BD0", Offset = "0x5D30BD0", VA = "0x5D31BD0", Slot = "15")]
 	public void OnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x600579E")]
-	[Address(RVA = "0x23702A0", Offset = "0x236E8A0", VA = "0x1823702A0")]
+	[Token(Token = "0x6005AF5")]
+	[Address(RVA = "0x5D2FE50", Offset = "0x5D2EE50", VA = "0x5D2FE50")]
 	private void TickTimeouts()
 	{
 	}
 
-	[Token(Token = "0x600579F")]
-	[Address(RVA = "0x23706F0", Offset = "0x236ECF0", VA = "0x1823706F0")]
+	[Token(Token = "0x6005AF6")]
+	[Address(RVA = "0x5D31BE0", Offset = "0x5D30BE0", VA = "0x5D31BE0")]
 	private static string TrackRequest(float timeoutSec, Action<Dictionary<byte, object>> onResponse, [Optional] Action onTimeout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60057A0")]
-	[Address(RVA = "0x236DFE0", Offset = "0x236C5E0", VA = "0x18236DFE0")]
+	[Token(Token = "0x6005AF7")]
+	[Address(RVA = "0x5D31D80", Offset = "0x5D30D80", VA = "0x5D31D80")]
 	private static void RaiseModEvent(byte code, Dictionary<byte, object> data)
 	{
 	}
 
-	[Token(Token = "0x60057A1")]
-	[Address(RVA = "0x236C6E0", Offset = "0x236ACE0", VA = "0x18236C6E0")]
+	[Token(Token = "0x6005AF8")]
+	[Address(RVA = "0x5D31EA0", Offset = "0x5D30EA0", VA = "0x5D31EA0")]
 	private static void InvokeStatus(string text, [Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057A2")]
-	[Address(RVA = "0x236BE60", Offset = "0x236A460", VA = "0x18236BE60")]
+	[Token(Token = "0x6005AF9")]
+	[Address(RVA = "0x5D31F50", Offset = "0x5D30F50", VA = "0x5D31F50")]
 	private static Dictionary<byte, object>[] GetResponseEntries(Dictionary<byte, object> data, byte entriesKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60057A3")]
-	[Address(RVA = "0x236E100", Offset = "0x236C700", VA = "0x18236E100")]
+	[Token(Token = "0x6005AFA")]
+	[Address(RVA = "0x5D32160", Offset = "0x5D31160", VA = "0x5D32160")]
 	private static int ReadInt(Dictionary<byte, object> data, byte key, int defaultValue = 0)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60057A4")]
-	[Address(RVA = "0x236D3B0", Offset = "0x236B9B0", VA = "0x18236D3B0")]
+	[Token(Token = "0x6005AFB")]
+	[Address(RVA = "0x5D32280", Offset = "0x5D31280", VA = "0x5D32280")]
 	private static PlayerEntry ParsePlayerEntry(Dictionary<byte, object> entry)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60057A5")]
-	[Address(RVA = "0x236ED30", Offset = "0x236D330", VA = "0x18236ED30")]
+	[Token(Token = "0x6005AFC")]
+	[Address(RVA = "0x5D324E0", Offset = "0x5D314E0", VA = "0x5D324E0")]
 	public static void RequestPlayerList([Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057A6")]
-	[Address(RVA = "0x236DE20", Offset = "0x236C420", VA = "0x18236DE20")]
+	[Token(Token = "0x6005AFD")]
+	[Address(RVA = "0x5D32760", Offset = "0x5D31760", VA = "0x5D32760")]
 	private static void PopulatePlayerList(Dictionary<byte, object> data)
 	{
 	}
 
-	[Token(Token = "0x60057A7")]
-	[Address(RVA = "0x236C330", Offset = "0x236A930", VA = "0x18236C330")]
+	[Token(Token = "0x6005AFE")]
+	[Address(RVA = "0x5D30770", Offset = "0x5D2F770", VA = "0x5D30770")]
 	private static void HandlePlayerListNotification(EventData photonEvent)
 	{
 	}
 
-	[Token(Token = "0x60057A8")]
-	[Address(RVA = "0x236C060", Offset = "0x236A660", VA = "0x18236C060")]
+	[Token(Token = "0x6005AFF")]
+	[Address(RVA = "0x5D30B60", Offset = "0x5D2FB60", VA = "0x5D30B60")]
 	private static void HandlePlayerJoinNotification(EventData photonEvent)
 	{
 	}
 
-	[Token(Token = "0x60057A9")]
-	[Address(RVA = "0x236C770", Offset = "0x236AD70", VA = "0x18236C770")]
+	[Token(Token = "0x6005B00")]
+	[Address(RVA = "0x5D329D0", Offset = "0x5D319D0", VA = "0x5D329D0")]
 	public static void KickPlayer(int actorNumber, [Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057AA")]
-	[Address(RVA = "0x236F970", Offset = "0x236DF70", VA = "0x18236F970")]
+	[Token(Token = "0x6005B01")]
+	[Address(RVA = "0x5D32CE0", Offset = "0x5D31CE0", VA = "0x5D32CE0")]
 	public static void RoomBan(int actorNumber, bool ipBan, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057AB")]
-	[Address(RVA = "0x236F520", Offset = "0x236DB20", VA = "0x18236F520")]
+	[Token(Token = "0x6005B02")]
+	[Address(RVA = "0x5D33060", Offset = "0x5D32060", VA = "0x5D33060")]
 	public static void RoomBanPlayerEntry(PlayerEntry player, bool ipBan, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057AC")]
-	[Address(RVA = "0x236FC70", Offset = "0x236E270", VA = "0x18236FC70")]
+	[Token(Token = "0x6005B03")]
+	[Address(RVA = "0x5D335E0", Offset = "0x5D325E0", VA = "0x5D335E0")]
 	public static void RoomUnban(RoomBanEntry banEntry, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057AD")]
-	[Address(RVA = "0x236F4C0", Offset = "0x236DAC0", VA = "0x18236F4C0")]
+	[Token(Token = "0x6005B04")]
+	[Address(RVA = "0x5D33A20", Offset = "0x5D32A20", VA = "0x5D33A20")]
 	public static void RequestRoomBanList([Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057AE")]
-	[Address(RVA = "0x236F230", Offset = "0x236D830", VA = "0x18236F230")]
+	[Token(Token = "0x6005B05")]
+	[Address(RVA = "0x5D33A70", Offset = "0x5D32A70", VA = "0x5D33A70")]
 	public static void RequestRoomBanList(int startIndex, [Optional][DefaultParameterValue(50)] int amount, [Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057AF")]
-	[Address(RVA = "0x236D9C0", Offset = "0x236BFC0", VA = "0x18236D9C0")]
+	[Token(Token = "0x6005B06")]
+	[Address(RVA = "0x5D33D70", Offset = "0x5D32D70", VA = "0x5D33D70")]
 	private static RoomBanEntry[] ParseRoomBanEntries(Dictionary<byte, object>[] entries)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60057B0")]
-	[Address(RVA = "0x236E750", Offset = "0x236CD50", VA = "0x18236E750")]
+	[Token(Token = "0x6005B07")]
+	[Address(RVA = "0x5D34350", Offset = "0x5D33350", VA = "0x5D34350")]
 	public static void RegionBan(int actorNumber, bool ipBan, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057B1")]
-	[Address(RVA = "0x236E300", Offset = "0x236C900", VA = "0x18236E300")]
+	[Token(Token = "0x6005B08")]
+	[Address(RVA = "0x5D346D0", Offset = "0x5D336D0", VA = "0x5D346D0")]
 	public static void RegionBanPlayerEntry(PlayerEntry player, bool ipBan, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057B2")]
-	[Address(RVA = "0x236EA50", Offset = "0x236D050", VA = "0x18236EA50")]
+	[Token(Token = "0x6005B09")]
+	[Address(RVA = "0x5D34C50", Offset = "0x5D33C50", VA = "0x5D34C50")]
 	public static void RegionUnban(RegionBanEntry banEntry, [Optional] Action<string> localStatus, [Optional] string reason)
 	{
 	}
 
-	[Token(Token = "0x60057B3")]
-	[Address(RVA = "0x236F1D0", Offset = "0x236D7D0", VA = "0x18236F1D0")]
+	[Token(Token = "0x6005B0A")]
+	[Address(RVA = "0x5D34FA0", Offset = "0x5D33FA0", VA = "0x5D34FA0")]
 	public static void RequestRegionBanList([Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057B4")]
-	[Address(RVA = "0x236EF40", Offset = "0x236D540", VA = "0x18236EF40")]
+	[Token(Token = "0x6005B0B")]
+	[Address(RVA = "0x5D34FF0", Offset = "0x5D33FF0", VA = "0x5D34FF0")]
 	public static void RequestRegionBanList(int startIndex, [Optional][DefaultParameterValue(50)] int amount, [Optional] Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057B5")]
-	[Address(RVA = "0x236D5F0", Offset = "0x236BBF0", VA = "0x18236D5F0")]
+	[Token(Token = "0x6005B0C")]
+	[Address(RVA = "0x5D352F0", Offset = "0x5D342F0", VA = "0x5D352F0")]
 	private static RegionBanEntry[] ParseRegionBanEntries(Dictionary<byte, object>[] entries)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60057B6")]
-	[Address(RVA = "0x236BB90", Offset = "0x236A190", VA = "0x18236BB90")]
+	[Token(Token = "0x6005B0D")]
+	[Address(RVA = "0x5D35830", Offset = "0x5D34830", VA = "0x5D35830")]
 	public static void BatchSessionBan(string targets)
 	{
 	}
 
-	[Token(Token = "0x60057B7")]
-	[Address(RVA = "0x236B9B0", Offset = "0x2369FB0", VA = "0x18236B9B0")]
+	[Token(Token = "0x6005B0E")]
+	[Address(RVA = "0x5D35BA0", Offset = "0x5D34BA0", VA = "0x5D35BA0")]
 	public static void BatchIPBan(string targets)
 	{
 	}
 
-	[Token(Token = "0x60057B8")]
-	[Address(RVA = "0x236BC10", Offset = "0x236A210", VA = "0x18236BC10")]
+	[Token(Token = "0x6005B0F")]
+	[Address(RVA = "0x5D35CB0", Offset = "0x5D34CB0", VA = "0x5D35CB0")]
 	public static void BatchSessionUnban(string targets)
 	{
 	}
 
-	[Token(Token = "0x60057B9")]
-	[Address(RVA = "0x236BAA0", Offset = "0x236A0A0", VA = "0x18236BAA0")]
+	[Token(Token = "0x6005B10")]
+	[Address(RVA = "0x5D35D30", Offset = "0x5D34D30", VA = "0x5D35D30")]
 	public static void BatchIPUnban(string targets)
 	{
 	}
 
-	[Token(Token = "0x60057BA")]
-	[Address(RVA = "0x2370000", Offset = "0x236E600", VA = "0x182370000")]
+	[Token(Token = "0x6005B11")]
+	[Address(RVA = "0x5D358B0", Offset = "0x5D348B0", VA = "0x5D358B0")]
 	private static void SendBatchRoomRemove(int removeType, int targetBy, string targets, Action<string> localStatus)
 	{
 	}
 
-	[Token(Token = "0x60057BB")]
-	[Address(RVA = "0x2370BF0", Offset = "0x236F1F0", VA = "0x182370BF0")]
+	[Token(Token = "0x6005B12")]
+	[Address(RVA = "0x5D35E50", Offset = "0x5D34E50", VA = "0x5D35E50")]
 	public ModeratorManager()
 	{
 	}

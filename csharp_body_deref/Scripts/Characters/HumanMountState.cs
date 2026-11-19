@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200065D")]
+[Token(Token = "0x20006BC")]
 public enum HumanMountState
 {
-	[Token(Token = "0x4001D5A")]
+	[Token(Token = "0x4001F08")]
 	None,
-	[Token(Token = "0x4001D5B")]
+	[Token(Token = "0x4001F09")]
 	Horse,
-	[Token(Token = "0x4001D5C")]
+	[Token(Token = "0x4001F0A")]
 	MapObject
 }

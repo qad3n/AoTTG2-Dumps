@@ -46,7 +46,7 @@ public sealed class GUISettings
 	public bool doubleClickSelectsWord
 	{
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x1CC78D0", Offset = "0x1CC5ED0", VA = "0x181CC78D0")]
+		[Address(RVA = "0x6982BE0", Offset = "0x6981BE0", VA = "0x6982BE0")]
 		get
 		{
 			return default(bool);
@@ -57,7 +57,7 @@ public sealed class GUISettings
 	public bool tripleClickSelectsLine
 	{
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x2F8D100", Offset = "0x2F8B700", VA = "0x182F8D100")]
+		[Address(RVA = "0x6982BF0", Offset = "0x6981BF0", VA = "0x6982BF0")]
 		get
 		{
 			return default(bool);
@@ -68,7 +68,7 @@ public sealed class GUISettings
 	public Color cursorColor
 	{
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x1536EB0", Offset = "0x15354B0", VA = "0x181536EB0")]
+		[Address(RVA = "0x6990430", Offset = "0x698F430", VA = "0x6990430")]
 		get
 		{
 			return default(Color);
@@ -79,7 +79,7 @@ public sealed class GUISettings
 	public float cursorFlashSpeed
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x2F8D0A0", Offset = "0x2F8B6A0", VA = "0x182F8D0A0")]
+		[Address(RVA = "0x6990440", Offset = "0x698F440", VA = "0x6990440")]
 		get
 		{
 			return default(float);
@@ -90,7 +90,7 @@ public sealed class GUISettings
 	public Color selectionColor
 	{
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x2F8D0F0", Offset = "0x2F8B6F0", VA = "0x182F8D0F0")]
+		[Address(RVA = "0x6990480", Offset = "0x698F480", VA = "0x6990480")]
 		get
 		{
 			return default(Color);
@@ -99,11 +99,11 @@ public sealed class GUISettings
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x2F8D020", Offset = "0x2F8B620", VA = "0x182F8D020")]
+	[Address(RVA = "0x6990400", Offset = "0x698F400", VA = "0x6990400")]
 	private static extern float Internal_GetCursorFlashSpeed();
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x2F8D050", Offset = "0x2F8B650", VA = "0x182F8D050")]
+	[Address(RVA = "0x6990490", Offset = "0x698F490", VA = "0x6990490")]
 	public GUISettings()
 	{
 	}

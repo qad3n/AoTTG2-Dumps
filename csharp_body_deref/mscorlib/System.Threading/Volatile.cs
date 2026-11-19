@@ -10,71 +10,71 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000251")]
+[Token(Token = "0x2000229")]
 public static class Volatile
 {
-	[Token(Token = "0x2000252")]
+	[Token(Token = "0x200022A")]
 	private struct VolatileBoolean
 	{
-		[Token(Token = "0x4000AA9")]
+		[Token(Token = "0x4000A07")]
 		[FieldOffset(Offset = "0x0")]
 		public bool Value;
 	}
 
-	[Token(Token = "0x2000253")]
+	[Token(Token = "0x200022B")]
 	private struct VolatileInt32
 	{
-		[Token(Token = "0x4000AAA")]
+		[Token(Token = "0x4000A08")]
 		[FieldOffset(Offset = "0x0")]
 		public int Value;
 	}
 
-	[Token(Token = "0x2000254")]
+	[Token(Token = "0x200022C")]
 	private struct VolatileObject
 	{
-		[Token(Token = "0x4000AAB")]
+		[Token(Token = "0x4000A09")]
 		[FieldOffset(Offset = "0x0")]
 		public object Value;
 	}
 
-	[Token(Token = "0x60013DC")]
-	[Address(RVA = "0x1BC55C0", Offset = "0x1BC3BC0", VA = "0x181BC55C0")]
+	[Token(Token = "0x60013B3")]
+	[Address(RVA = "0x5540890", Offset = "0x553F890", VA = "0x5540890")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static bool Read(ref bool location)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60013DD")]
-	[Address(RVA = "0x1BC5610", Offset = "0x1BC3C10", VA = "0x181BC5610")]
+	[Token(Token = "0x60013B4")]
+	[Address(RVA = "0x55408A0", Offset = "0x553F8A0", VA = "0x55408A0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static void Write(ref bool location, bool value)
 	{
 	}
 
-	[Token(Token = "0x60013DE")]
-	[Address(RVA = "0x1BC55A0", Offset = "0x1BC3BA0", VA = "0x181BC55A0")]
+	[Token(Token = "0x60013B5")]
+	[Address(RVA = "0x55408C0", Offset = "0x553F8C0", VA = "0x55408C0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static int Read(ref int location)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60013DF")]
-	[Address(RVA = "0x1BC55E0", Offset = "0x1BC3BE0", VA = "0x181BC55E0")]
+	[Token(Token = "0x60013B6")]
+	[Address(RVA = "0x55408D0", Offset = "0x553F8D0", VA = "0x55408D0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static void Write(ref int location, int value)
 	{
 	}
 
-	[Token(Token = "0x60013E0")]
+	[Token(Token = "0x60013B7")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static T Read<T>(ref T location) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60013E1")]
+	[Token(Token = "0x60013B8")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static void Write<T>(ref T location, T value) where T : class
 	{

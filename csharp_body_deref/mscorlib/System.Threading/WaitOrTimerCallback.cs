@@ -10,6 +10,6 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200023A")]
+[Token(Token = "0x2000212")]
 [ComVisible(true)]
 public delegate void WaitOrTimerCallback(object state, bool timedOut);

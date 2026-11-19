@@ -11,36 +11,36 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200037F")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+[Token(Token = "0x20003BB")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 public struct CullingSplit
 {
-	[Token(Token = "0x4000A6B")]
+	[Token(Token = "0x4000BEF")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector3 sphereCenter;
 
-	[Token(Token = "0x4000A6C")]
+	[Token(Token = "0x4000BF0")]
 	[FieldOffset(Offset = "0xC")]
 	public float sphereRadius;
 
-	[Token(Token = "0x4000A6D")]
+	[Token(Token = "0x4000BF1")]
 	[FieldOffset(Offset = "0x10")]
 	public int cullingPlaneOffset;
 
-	[Token(Token = "0x4000A6E")]
+	[Token(Token = "0x4000BF2")]
 	[FieldOffset(Offset = "0x14")]
 	public int cullingPlaneCount;
 
-	[Token(Token = "0x4000A6F")]
+	[Token(Token = "0x4000BF3")]
 	[FieldOffset(Offset = "0x18")]
 	public float cascadeBlendCullingFactor;
 
-	[Token(Token = "0x4000A70")]
+	[Token(Token = "0x4000BF4")]
 	[FieldOffset(Offset = "0x1C")]
 	public float nearPlane;
 
-	[Token(Token = "0x4000A71")]
+	[Token(Token = "0x4000BF5")]
 	[FieldOffset(Offset = "0x20")]
 	public Matrix4x4 cullingMatrix;
 }

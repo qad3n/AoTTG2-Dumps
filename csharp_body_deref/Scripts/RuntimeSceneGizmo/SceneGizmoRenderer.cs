@@ -12,134 +12,134 @@ using UnityEngine.UI;
 
 namespace RuntimeSceneGizmo;
 
-[Token(Token = "0x200005E")]
+[Token(Token = "0x200005D")]
 public class SceneGizmoRenderer : MonoBehaviour, IPointerClickHandler, IEventSystemHandler, IDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
-	[Token(Token = "0x40001F2")]
+	[Token(Token = "0x4000201")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private RawImage imageHolder;
 
-	[Token(Token = "0x40001F3")]
+	[Token(Token = "0x4000202")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform imageHolderTR;
 
-	[Token(Token = "0x40001F4")]
+	[Token(Token = "0x4000203")]
 	[FieldOffset(Offset = "0x30")]
 	[SerializeField]
 	private SceneGizmoController controller;
 
-	[Token(Token = "0x40001F5")]
+	[Token(Token = "0x4000204")]
 	[FieldOffset(Offset = "0x38")]
 	[SerializeField]
 	[Tooltip("Should gizmo's hovered components turn yellow")]
 	private bool highlightHoveredComponents;
 
-	[Token(Token = "0x40001F6")]
+	[Token(Token = "0x4000205")]
 	[FieldOffset(Offset = "0x40")]
 	private PointerEventData hoveringPointer;
 
-	[Token(Token = "0x40001F7")]
+	[Token(Token = "0x4000206")]
 	[FieldOffset(Offset = "0x48")]
 	[SerializeField]
 	[Tooltip("(Optional) Gizmo will match the reference Transform's rotation")]
 	private Transform m_referenceTransform;
 
-	[Token(Token = "0x40001F8")]
+	[Token(Token = "0x4000207")]
 	[FieldOffset(Offset = "0x50")]
 	[SerializeField]
 	private ComponentClickedEvent m_onComponentClicked;
 
-	[Token(Token = "0x17000084")]
+	[Token(Token = "0x1700007D")]
 	public Transform ReferenceTransform
 	{
-		[Token(Token = "0x60002F2")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x60002FB")]
+		[Address(RVA = "0x576D500", Offset = "0x576C500", VA = "0x576D500")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60002F3")]
-		[Address(RVA = "0x1DCEE90", Offset = "0x1DCD490", VA = "0x181DCEE90")]
+		[Token(Token = "0x60002FC")]
+		[Address(RVA = "0x576D510", Offset = "0x576C510", VA = "0x576D510")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x1700007E")]
 	public ComponentClickedEvent OnComponentClicked
 	{
-		[Token(Token = "0x60002F4")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Token(Token = "0x60002FD")]
+		[Address(RVA = "0x576D550", Offset = "0x576C550", VA = "0x576D550")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x1DCE840", Offset = "0x1DCCE40", VA = "0x181DCE840")]
+	[Token(Token = "0x60002FE")]
+	[Address(RVA = "0x576D560", Offset = "0x576C560", VA = "0x576D560")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x1DCED80", Offset = "0x1DCD380", VA = "0x181DCED80")]
+	[Token(Token = "0x60002FF")]
+	[Address(RVA = "0x576D670", Offset = "0x576C670", VA = "0x576D670")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x1DCEB90", Offset = "0x1DCD190", VA = "0x181DCEB90")]
+	[Token(Token = "0x6000300")]
+	[Address(RVA = "0x576D710", Offset = "0x576C710", VA = "0x576D710")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x1DCEAE0", Offset = "0x1DCD0E0", VA = "0x181DCEAE0")]
+	[Token(Token = "0x6000301")]
+	[Address(RVA = "0x576D7C0", Offset = "0x576C7C0", VA = "0x576D7C0")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x1DCEE20", Offset = "0x1DCD420", VA = "0x181DCEE20")]
+	[Token(Token = "0x6000302")]
+	[Address(RVA = "0x576D870", Offset = "0x576C870", VA = "0x576D870")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x1DCEC40", Offset = "0x1DCD240", VA = "0x181DCEC40", Slot = "4")]
+	[Token(Token = "0x6000303")]
+	[Address(RVA = "0x576D990", Offset = "0x576C990", VA = "0x576D990", Slot = "4")]
 	public void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6000304")]
+	[Address(RVA = "0x576DA10", Offset = "0x576CA10", VA = "0x576DA10", Slot = "5")]
 	public void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x1DCE960", Offset = "0x1DCCF60", VA = "0x181DCE960")]
+	[Token(Token = "0x6000305")]
+	[Address(RVA = "0x576D8A0", Offset = "0x576C8A0", VA = "0x576D8A0")]
 	private Vector3 GetNormalizedPointerPosition(PointerEventData eventData)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x1DCECF0", Offset = "0x1DCD2F0", VA = "0x181DCECF0", Slot = "6")]
+	[Token(Token = "0x6000306")]
+	[Address(RVA = "0x576DA20", Offset = "0x576CA20", VA = "0x576DA20", Slot = "6")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x1DCED10", Offset = "0x1DCD310", VA = "0x181DCED10", Slot = "7")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x576DA40", Offset = "0x576CA40", VA = "0x576DA40", Slot = "7")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x1DCEE80", Offset = "0x1DCD480", VA = "0x181DCEE80")]
+	[Token(Token = "0x6000308")]
+	[Address(RVA = "0x576DA80", Offset = "0x576CA80", VA = "0x576DA80")]
 	public SceneGizmoRenderer()
 	{
 	}

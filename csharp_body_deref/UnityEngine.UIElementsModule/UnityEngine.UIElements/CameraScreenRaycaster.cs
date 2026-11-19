@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.CameraScreenRaycaster
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -54,7 +54,7 @@ internal class CameraScreenRaycaster : IScreenRaycaster
 		public (Ray, Camera, bool) Current
 		{
 			[Token(Token = "0x60010F4")]
-			[Address(RVA = "0x3273110", Offset = "0x3271710", VA = "0x183273110", Slot = "4")]
+			[Address(RVA = "0x6C8A340", Offset = "0x6C89340", VA = "0x6C8A340", Slot = "4")]
 			get
 			{
 				return default((Ray, Camera, bool));
@@ -65,7 +65,7 @@ internal class CameraScreenRaycaster : IScreenRaycaster
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60010F5")]
-			[Address(RVA = "0x3273030", Offset = "0x3271630", VA = "0x183273030", Slot = "7")]
+			[Address(RVA = "0x6C8A3C0", Offset = "0x6C893C0", VA = "0x6C8A3C0", Slot = "7")]
 			get
 			{
 				return null;
@@ -73,47 +73,47 @@ internal class CameraScreenRaycaster : IScreenRaycaster
 		}
 
 		[Token(Token = "0x60010F2")]
-		[Address(RVA = "0x3272EC0", Offset = "0x32714C0", VA = "0x183272EC0", Slot = "6")]
+		[Address(RVA = "0x6C8A2A0", Offset = "0x6C892A0", VA = "0x6C8A2A0", Slot = "6")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60010F3")]
-		[Address(RVA = "0x3273020", Offset = "0x3271620", VA = "0x183273020", Slot = "8")]
+		[Address(RVA = "0x6C8A330", Offset = "0x6C89330", VA = "0x6C8A330", Slot = "8")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x60010F6")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "9")]
+		[Address(RVA = "0x6C8A490", Offset = "0x6C89490", VA = "0x6C8A490", Slot = "9")]
 		public IEnumerator<(Ray, Camera, bool)> GetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60010F7")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "10")]
+		[Address(RVA = "0x6C8A4A0", Offset = "0x6C894A0", VA = "0x6C8A4A0", Slot = "10")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60010F8")]
-		[Address(RVA = "0x3272E10", Offset = "0x3271410", VA = "0x183272E10")]
+		[Address(RVA = "0x6C89F90", Offset = "0x6C88F90", VA = "0x6C89F90")]
 		public static CameraRayEnumerator GetPooled(Camera[] cameras, int layerMask, Vector2 mousePosition, int? targetDisplay)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60010F9")]
-		[Address(RVA = "0x3272D90", Offset = "0x3271390", VA = "0x183272D90", Slot = "5")]
+		[Address(RVA = "0x6C8A4B0", Offset = "0x6C894B0", VA = "0x6C8A4B0", Slot = "5")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x60010FA")]
-		[Address(RVA = "0x3273100", Offset = "0x3271700", VA = "0x183273100")]
+		[Address(RVA = "0x6C8A530", Offset = "0x6C89530", VA = "0x6C8A530")]
 		public CameraRayEnumerator()
 		{
 		}
@@ -132,34 +132,34 @@ internal class CameraScreenRaycaster : IScreenRaycaster
 	public int layerMask;
 
 	[Token(Token = "0x60010ED")]
-	[Address(RVA = "0x32735D0", Offset = "0x3271BD0", VA = "0x1832735D0", Slot = "6")]
+	[Address(RVA = "0x6C89D30", Offset = "0x6C88D30", VA = "0x6C89D30", Slot = "6")]
 	public virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x60010EE")]
-	[Address(RVA = "0x3273270", Offset = "0x3271870", VA = "0x183273270", Slot = "5")]
+	[Address(RVA = "0x6C89E40", Offset = "0x6C88E40", VA = "0x6C89E40", Slot = "5")]
 	public IEnumerable<(Ray, Camera, bool)> MakeRay(Vector2 mousePosition, int pointerId, int? targetDisplay)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010EF")]
-	[Address(RVA = "0x3273190", Offset = "0x3271790", VA = "0x183273190")]
+	[Address(RVA = "0x6C8A040", Offset = "0x6C89040", VA = "0x6C8A040")]
 	private static bool IsValid(Camera camera, int layerMask, int? targetDisplay)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010F0")]
-	[Address(RVA = "0x32733D0", Offset = "0x32719D0", VA = "0x1832733D0")]
+	[Address(RVA = "0x6C8A100", Offset = "0x6C89100", VA = "0x6C8A100")]
 	private static bool MakeRay(Camera camera, Vector2 mousePosition, out Ray ray)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010F1")]
-	[Address(RVA = "0x32736F0", Offset = "0x3271CF0", VA = "0x1832736F0")]
+	[Address(RVA = "0x6C86850", Offset = "0x6C85850", VA = "0x6C86850")]
 	public CameraScreenRaycaster()
 	{
 	}

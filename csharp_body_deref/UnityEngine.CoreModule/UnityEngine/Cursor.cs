@@ -13,40 +13,40 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000135")]
+[Token(Token = "0x2000136")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Input/Cursor.bindings.h")]
 public class Cursor
 {
-	[Token(Token = "0x170001B9")]
+	[Token(Token = "0x170001BE")]
 	public static extern bool visible
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x60009DE")]
-		[Address(RVA = "0x2F02B10", Offset = "0x2F01110", VA = "0x182F02B10")]
+		[Token(Token = "0x60009EF")]
+		[Address(RVA = "0x68FB220", Offset = "0x68FA220", VA = "0x68FB220")]
 		set;
 	}
 
-	[Token(Token = "0x170001BA")]
+	[Token(Token = "0x170001BF")]
 	public static extern CursorLockMode lockState
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x60009DF")]
-		[Address(RVA = "0x2F02AA0", Offset = "0x2F010A0", VA = "0x182F02AA0")]
+		[Token(Token = "0x60009F0")]
+		[Address(RVA = "0x68FB250", Offset = "0x68FA250", VA = "0x68FB250")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x60009E0")]
-		[Address(RVA = "0x2F02AD0", Offset = "0x2F010D0", VA = "0x182F02AD0")]
+		[Token(Token = "0x60009F1")]
+		[Address(RVA = "0x68FB280", Offset = "0x68FA280", VA = "0x68FB280")]
 		set;
 	}
 
-	[Token(Token = "0x60009DD")]
-	[Address(RVA = "0x2F02A10", Offset = "0x2F01010", VA = "0x182F02A10")]
+	[Token(Token = "0x60009EE")]
+	[Address(RVA = "0x68FB140", Offset = "0x68FA140", VA = "0x68FB140")]
 	public static void SetCursor(Texture2D texture, Vector2 hotspot, CursorMode cursorMode)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009E1")]
-	[Address(RVA = "0x2F029B0", Offset = "0x2F00FB0", VA = "0x182F029B0")]
+	[Token(Token = "0x60009F2")]
+	[Address(RVA = "0x68FB1E0", Offset = "0x68FA1E0", VA = "0x68FB1E0")]
 	private static extern void SetCursor_Injected(IntPtr texture, [In] ref Vector2 hotspot, CursorMode cursorMode);
 }

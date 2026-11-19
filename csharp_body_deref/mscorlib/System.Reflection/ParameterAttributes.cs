@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200051B")]
+[Token(Token = "0x20004F4")]
 [Flags]
 public enum ParameterAttributes
 {
-	[Token(Token = "0x400143F")]
+	[Token(Token = "0x400139F")]
 	None = 0,
-	[Token(Token = "0x4001440")]
+	[Token(Token = "0x40013A0")]
 	In = 1,
-	[Token(Token = "0x4001441")]
+	[Token(Token = "0x40013A1")]
 	Out = 2,
-	[Token(Token = "0x4001442")]
+	[Token(Token = "0x40013A2")]
 	Lcid = 4,
-	[Token(Token = "0x4001443")]
+	[Token(Token = "0x40013A3")]
 	Retval = 8,
-	[Token(Token = "0x4001444")]
+	[Token(Token = "0x40013A4")]
 	Optional = 0x10,
-	[Token(Token = "0x4001445")]
+	[Token(Token = "0x40013A5")]
 	HasDefault = 0x1000,
-	[Token(Token = "0x4001446")]
+	[Token(Token = "0x40013A6")]
 	HasFieldMarshal = 0x2000,
-	[Token(Token = "0x4001447")]
+	[Token(Token = "0x40013A7")]
 	Reserved3 = 0x4000,
-	[Token(Token = "0x4001448")]
+	[Token(Token = "0x40013A8")]
 	Reserved4 = 0x8000,
-	[Token(Token = "0x4001449")]
+	[Token(Token = "0x40013A9")]
 	ReservedMask = HasDefault | HasFieldMarshal | Reserved3 | Reserved4
 }

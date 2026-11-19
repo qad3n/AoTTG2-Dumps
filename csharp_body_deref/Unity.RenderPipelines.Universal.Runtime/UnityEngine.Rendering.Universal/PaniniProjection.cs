@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.PaniniProjection
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,14 +27,14 @@ public sealed class PaniniProjection : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter cropToFit;
 
 	[Token(Token = "0x60006CD")]
-	[Address(RVA = "0x2C55830", Offset = "0x2C53E30", VA = "0x182C55830", Slot = "8")]
+	[Address(RVA = "0x664BBF0", Offset = "0x664ABF0", VA = "0x664BBF0", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006CE")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x664BC20", Offset = "0x664AC20", VA = "0x664BC20", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -42,7 +42,7 @@ public sealed class PaniniProjection : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006CF")]
-	[Address(RVA = "0x2C5DF60", Offset = "0x2C5C560", VA = "0x182C5DF60")]
+	[Address(RVA = "0x664BC30", Offset = "0x664AC30", VA = "0x664BC30")]
 	public PaniniProjection()
 	{
 	}

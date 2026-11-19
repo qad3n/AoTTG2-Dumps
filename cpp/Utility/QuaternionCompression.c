@@ -1,5 +1,5 @@
 // Type: Utility.QuaternionCompression
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/QuaternionCompression.cs
@@ -8,243 +8,373 @@
 
 // Utility.QuaternionCompression$$CompressQuaternion
 // il2cpp: int32_t Utility_QuaternionCompression__CompressQuaternion (UnityEngine_Quaternion_o* quaternion, const MethodInfo* method);
-// 0x18233e1e0
+// 0x5dea980
 // asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18233e35d: nop dword ptr [rax]
-// asm:   0x18233e383: jmp 0x18233e388
-// asm:   0x18233e5ed: jmp 0x18233e65e
-// asm:   0x18233e5ef: mov edx, ebx
+// asm:   0x5deaab3: jmp 0x5deab24
+// asm:   0x5deaab5: movaps xmm1, xmm0
+// asm:   0x5deaab8: jmp 0x5deab24
+// asm:   0x5deac9a: jmp 0x5deaf06
 
 int32_t Utility_QuaternionCompression__CompressQuaternion
                   (UnityEngine_Quaternion_o *quaternion,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  uint uVar2;
-  int32_t index;
-  short sVar3;
-  uint uVar4;
-  uint uVar5;
-  uint uVar6;
-  uint uVar7;
-  bool bVar8;
-  float fVar9;
-  float fVar10;
+  float *pfVar1;
+  float *pfVar2;
+  void *pvVar3;
+  Il2CppObject *pIVar4;
+  float *pfVar5;
+  Utility_QuaternionCompression_StaticFields *pUVar6;
+  ulong uVar7;
+  uint uVar8;
+  ulong uVar9;
+  MethodInfo *method_00;
+  ulong uVar10;
+  ulong uVar11;
+  Il2CppClass *klass;
+  int iVar12;
+  bool bVar13;
+  float fVar14;
+  float fVar15;
+  double dVar16;
+  float fVar17;
+  float fVar18;
+  double dStack_50;
+  float *pfStack_48;
+  float *pfStack_40;
+  float fStack_38;
+  float fStack_34;
   
-  if (Il2CppMethodInitialized_184347813 == '\0') {
+  if (Il2CppMethodInitialized_075482bf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_QuaternionCompression);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_float_array);
-    Il2CppMethodInitialized_184347813 = '\x01';
+    Il2CppMethodInitialized_075482bf = '\x01';
   }
   if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
   }
-  (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.x =
-       ABS((quaternion->fields).x);
-  (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.y =
-       ABS((quaternion->fields).y);
-  (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.z =
-       ABS((quaternion->fields).z);
-  (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.w =
-       ABS((quaternion->fields).w);
-  pIVar1 = SZArrayNew(TypeInfo_float_array,4);
-  if (pIVar1 == (Il2CppObject *)0x0) {
+  pUVar6 = TypeInfo_Utility_QuaternionCompression->static_fields;
+  (pUVar6->s_QuatAbsValues).fields.x = ABS((quaternion->fields).x);
+  (pUVar6->s_QuatAbsValues).fields.y = ABS((quaternion->fields).y);
+  (pUVar6->s_QuatAbsValues).fields.z = ABS((quaternion->fields).z);
+  (pUVar6->s_QuatAbsValues).fields.w = ABS((quaternion->fields).w);
+  method_00 = (MethodInfo *)0x4;
+  pIVar4 = SZArrayNew(TypeInfo_float_array,4);
+  klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
+  if (pIVar4 == (Il2CppObject *)0x0) {
     ThrowNullReferenceException();
   }
-  if ((((*(int *)&pIVar1[1].monitor == 0) ||
-       (*(float *)&pIVar1[2].klass =
-             (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.x,
-       *(uint *)&pIVar1[1].monitor < 2)) ||
-      (*(float *)((longlong)&pIVar1[2].klass + 4) =
-            (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.y,
-      *(uint *)&pIVar1[1].monitor < 3)) ||
-     (*(float *)&pIVar1[2].monitor =
-           (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.z,
-     *(uint *)&pIVar1[1].monitor < 4)) {
-label_18233e6a8:
+  pvVar3 = pIVar4[1].monitor;
+  uVar8 = (uint)pvVar3;
+  if (uVar8 == 0) {
+label_05deb002:
     ThrowIndexOutOfRangeException();
   }
-  *(float *)((longlong)&pIVar1[2].monitor + 4) =
-       (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.w;
-  uVar4 = *(uint *)&pIVar1[1].monitor;
-  if (uVar4 == 0) {
-    fVar9 = 0.0;
-  }
-  else {
-    fVar9 = *(float *)&pIVar1[2].klass;
-    uVar2 = 1;
-    bVar8 = 1 < uVar4;
-    if (1 < (int)uVar4) {
-      do {
-        if (!bVar8) goto label_18233e6a8;
-        if (fVar9 < *(float *)((longlong)&pIVar1[2].klass + (ulonglong)uVar2 * 4)) {
-          fVar9 = *(float *)((longlong)&pIVar1[2].klass + (ulonglong)uVar2 * 4);
-        }
-        uVar2 = uVar2 + 1;
-        bVar8 = uVar2 < uVar4;
-      } while ((int)uVar2 < (int)uVar4);
-    }
-  }
-  uVar4 = 2;
-  if ((TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.x == fVar9) {
-    sVar3 = 0;
-    index = 0;
-    uVar4 = 0;
-    uVar2 = 0;
-  }
-  else {
-    if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
-    }
-    if ((TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.y == fVar9) {
-      sVar3 = 1;
-      index = 1;
-      uVar4 = 1;
-      uVar2 = 0x400;
+  pUVar6 = TypeInfo_Utility_QuaternionCompression->static_fields;
+  fVar18 = (pUVar6->s_QuatAbsValues).fields.x;
+  *(float *)&pIVar4[2].klass = fVar18;
+  if (((uVar8 == 1) ||
+      (*(float *)((long)&pIVar4[2].klass + 4) = (pUVar6->s_QuatAbsValues).fields.y, uVar8 < 3)) ||
+     (*(float *)&pIVar4[2].monitor = (pUVar6->s_QuatAbsValues).fields.z, uVar8 == 3)) goto label_05deb002;
+  *(float *)((long)&pIVar4[2].monitor + 4) = (pUVar6->s_QuatAbsValues).fields.w;
+  if (1 < (int)uVar8) {
+    uVar10 = (ulong)pvVar3 & 0xffffffff;
+    uVar7 = uVar10 - 1;
+    uVar9 = (ulong)((uint)uVar7 & 3);
+    if (uVar10 - 2 < 3) {
+      method_00 = (MethodInfo *)0x1;
     }
     else {
-      if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
+      uVar10 = 0;
+      do {
+        uVar11 = uVar10;
+        fVar17 = *(float *)((long)&pIVar4[2].klass + uVar11 * 4 + 4);
+        if (fVar17 <= fVar18) {
+          fVar17 = fVar18;
+        }
+        fVar18 = *(float *)((long)&pIVar4[2].monitor + uVar11 * 4);
+        if (fVar18 <= fVar17) {
+          fVar18 = fVar17;
+        }
+        fVar17 = *(float *)((long)&pIVar4[2].monitor + uVar11 * 4 + 4);
+        if (fVar17 <= fVar18) {
+          fVar17 = fVar18;
+        }
+        fVar18 = *(float *)((long)&pIVar4[3].klass + uVar11 * 4);
+        if (fVar18 <= fVar17) {
+          fVar18 = fVar17;
+        }
+        uVar10 = uVar11 + 4;
+      } while ((uVar7 & 0xfffffffffffffffc) != uVar11 + 4);
+      method_00 = (MethodInfo *)(uVar11 + 5);
+    }
+    if (uVar9 != 0) {
+      uVar7 = 0;
+      fVar17 = fVar18;
+      do {
+        fVar18 = *(float *)((long)&pIVar4[2].klass + uVar7 * 4 + (long)method_00 * 4);
+        if (fVar18 <= fVar17) {
+          fVar18 = fVar17;
+        }
+        uVar7 = uVar7 + 1;
+        fVar17 = fVar18;
+      } while (uVar9 != uVar7);
+    }
+  }
+  pfVar1 = &(quaternion->fields).y;
+  pfVar2 = &(quaternion->fields).z;
+  pfVar5 = &(quaternion->fields).w;
+  fVar17 = (pUVar6->s_QuatAbsValues).fields.x;
+  pfStack_48 = pfVar2;
+  pfStack_40 = pfVar5;
+  if ((fVar17 != fVar18) || (NAN(fVar17) || NAN(fVar18))) {
+    if ((((Utility_QuaternionCompression_c *)klass)->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(klass);
+      pUVar6 = TypeInfo_Utility_QuaternionCompression->static_fields;
+      klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
+    }
+    fStack_34 = (pUVar6->s_QuatAbsValues).fields.y;
+    iVar12 = 1;
+    if ((fStack_34 != fVar18) || (NAN(fStack_34) || NAN(fVar18))) {
+      if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(klass);
+        pUVar6 = TypeInfo_Utility_QuaternionCompression->static_fields;
+        klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
       }
-      if ((TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.z == fVar9) {
-        sVar3 = 2;
-        index = 2;
-        uVar2 = 0x800;
+      fVar17 = (pUVar6->s_QuatAbsValues).fields.z;
+      iVar12 = 2;
+      if ((fVar17 != fVar18) || (NAN(fVar17) || NAN(fVar18))) {
+        iVar12 = 3;
       }
       else {
-        sVar3 = 3;
-        index = 3;
-        uVar4 = 3;
-        uVar2 = 0xc00;
+        pfVar5 = pfVar2;
+      }
+    }
+    else {
+      pfVar5 = pfVar1;
+    }
+    bVar13 = *pfVar5 <= 0.0 && *pfVar5 != 0.0;
+    fVar14 = (quaternion->fields).x;
+    fVar17 = (quaternion->fields).x;
+    if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(klass);
+      klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
+    }
+    fStack_38 = (klass->static_fields->s_QuatAbsValues).fields.x * 722.66315;
+    dVar16 = modf((double)fStack_38,&dStack_50,method_00);
+    if (0.0 <= fStack_38) {
+      if ((dVar16 != 0.5) || (NAN(dVar16))) {
+        fVar15 = floorf(fStack_38 + 0.5);
+      }
+      else {
+        fVar15 = (float)dStack_50;
+        if (((long)dStack_50 & 1U) != 0) {
+          fVar15 = fVar15 + 1.0;
+        }
+      }
+    }
+    else if ((dVar16 != -0.5) || (NAN(dVar16))) {
+      fVar15 = ceilf(fStack_38 + -0.5);
+    }
+    else {
+      fVar15 = (float)dStack_50;
+      if (((long)dStack_50 & 1U) != 0) {
+        fVar15 = fVar15 + -1.0;
+      }
+    }
+    uVar8 = (int)fVar15 & 0xffffU | (uint)((0.0 < fVar17 || fVar14 == 0.0) == bVar13) << 9 | iVar12 << 10;
+    if ((fStack_34 != fVar18) || (NAN(fStack_34) || NAN(fVar18))) {
+      uVar8 = uVar8 << 10;
+      klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
+      goto label_05deab5f;
+    }
+    iVar12 = 1;
+  }
+  else {
+    bVar13 = (quaternion->fields).x <= 0.0 && (quaternion->fields).x != 0.0;
+    uVar8 = 0;
+    iVar12 = 0;
+label_05deab5f:
+    fVar17 = *pfVar1;
+    fVar18 = *pfVar1;
+    if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(klass);
+      klass = (Il2CppClass *)TypeInfo_Utility_QuaternionCompression;
+    }
+    fVar14 = (klass->static_fields->s_QuatAbsValues).fields.y * 722.66315;
+    dVar16 = modf((double)fVar14,&dStack_50,method_00);
+    if (0.0 <= fVar14) {
+      if ((dVar16 != 0.5) || (NAN(dVar16))) {
+        fVar14 = floorf(fVar14 + 0.5);
+      }
+      else {
+        fVar14 = (float)dStack_50;
+        if (((long)dStack_50 & 1U) != 0) {
+          fVar14 = fVar14 + 1.0;
+        }
+      }
+    }
+    else if ((dVar16 != -0.5) || (NAN(dVar16))) {
+      fVar14 = ceilf(fVar14 + -0.5);
+    }
+    else {
+      fVar14 = (float)dStack_50;
+      if (((long)dStack_50 & 1U) != 0) {
+        fVar14 = fVar14 + -1.0;
+      }
+    }
+    uVar8 = (int)fVar14 & 0xffffU | (uint)(bVar13 != (fVar18 <= 0.0 && fVar17 != 0.0)) << 9 | uVar8;
+    if (iVar12 == 2) goto label_05deaf06;
+  }
+  fVar18 = *pfStack_48;
+  fVar17 = *pfStack_48;
+  if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
+  }
+  fVar14 = (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.z * 722.66315;
+  pfStack_48 = (float *)CONCAT44(pfStack_48._4_4_,fVar14);
+  dVar16 = modf((double)fVar14,&dStack_50,method_00);
+  if (0.0 <= pfStack_48._0_4_) {
+    if ((dVar16 != 0.5) || (NAN(dVar16))) {
+      fVar14 = floorf(pfStack_48._0_4_ + 0.5);
+    }
+    else {
+      fVar14 = (float)dStack_50;
+      if (((long)dStack_50 & 1U) != 0) {
+        fVar14 = fVar14 + 1.0;
       }
     }
   }
-  fVar9 = UnityEngine_Quaternion__get_Item(quaternion,index,(MethodInfo *)0x0);
-  if (0.0 <= fVar9) {
-    uVar6 = 0;
-    uVar7 = 0;
-    uVar5 = 0;
+  else if ((dVar16 != -0.5) || (NAN(dVar16))) {
+    fVar14 = ceilf(pfStack_48._0_4_ + -0.5);
   }
   else {
-    uVar6 = 0x200;
-    uVar7 = 0x200;
-    uVar5 = 0x200;
+    fVar14 = (float)dStack_50;
+    if (((long)dStack_50 & 1U) != 0) {
+      fVar14 = fVar14 + -1.0;
+    }
   }
-  if (sVar3 == 0) {
-label_18233e509:
-    fVar9 = UnityEngine_Quaternion__get_Item(quaternion,1,(MethodInfo *)0x0);
-    if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
-    }
-    fVar10 = UnityEngine_Quaternion__get_Item
-                       (&TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues,1,
-                        (MethodInfo *)0x0);
-    fVar10 = (float)il2cpp_runtime_helper_180012930(fVar10 * 722.66315);
-    uVar2 = 0x200;
-    if (0.0 <= fVar9) {
-      uVar2 = 0;
-    }
-    uVar4 = uVar2 ^ uVar7 | (int)fVar10 & 0xffffU | uVar4 << 10;
-    if (sVar3 == 2) goto label_18233e5f1;
+  uVar8 = (int)fVar14 & 0xffffU | (uint)(bVar13 != (fVar17 <= 0.0 && fVar18 != 0.0)) << 9 | uVar8 << 10;
+  if (iVar12 == 3) {
+    return uVar8;
   }
-  else {
-    fVar9 = UnityEngine_Quaternion__get_Item(quaternion,0,(MethodInfo *)0x0);
-    if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
-    }
-    fVar10 = UnityEngine_Quaternion__get_Item
-                       (&TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues,0,
-                        (MethodInfo *)0x0);
-    fVar10 = (float)il2cpp_runtime_helper_180012930(fVar10 * 722.66315);
-    uVar4 = 0x200;
-    if (0.0 <= fVar9) {
-      uVar4 = 0;
-    }
-    uVar4 = uVar4 ^ uVar6 | (int)fVar10 & 0xffffU | uVar2;
-    if (sVar3 != 1) goto label_18233e509;
-  }
-  fVar9 = UnityEngine_Quaternion__get_Item(quaternion,2,(MethodInfo *)0x0);
+label_05deaf06:
+  fVar18 = *pfStack_40;
+  fVar17 = *pfStack_40;
   if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
   }
-  fVar10 = UnityEngine_Quaternion__get_Item
-                     (&TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues,2,
-                      (MethodInfo *)0x0);
-  fVar10 = (float)il2cpp_runtime_helper_180012930(fVar10 * 722.66315);
-  uVar2 = 0x200;
-  if (0.0 <= fVar9) {
-    uVar2 = 0;
+  fVar14 = (TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues).fields.w * 722.66315;
+  pfStack_40 = (float *)CONCAT44(pfStack_40._4_4_,fVar14);
+  dVar16 = modf((double)fVar14,&dStack_50,method_00);
+  if (0.0 <= pfStack_40._0_4_) {
+    if ((dVar16 != 0.5) || (NAN(dVar16))) {
+      fVar14 = floorf(pfStack_40._0_4_ + 0.5);
+    }
+    else {
+      fVar14 = (float)dStack_50;
+      if (((long)dStack_50 & 1U) != 0) {
+        fVar14 = fVar14 + 1.0;
+      }
+    }
   }
-  uVar4 = uVar2 ^ uVar7 | (int)fVar10 & 0xffffU | uVar4 << 10;
-  if (sVar3 == 3) {
-    return uVar4;
+  else if ((dVar16 != -0.5) || (NAN(dVar16))) {
+    fVar14 = ceilf(pfStack_40._0_4_ + -0.5);
   }
-label_18233e5f1:
-  fVar9 = UnityEngine_Quaternion__get_Item(quaternion,3,(MethodInfo *)0x0);
-  if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
+  else {
+    fVar14 = (float)dStack_50;
+    if (((long)dStack_50 & 1U) != 0) {
+      fVar14 = fVar14 + -1.0;
+    }
   }
-  fVar10 = UnityEngine_Quaternion__get_Item
-                     (&TypeInfo_Utility_QuaternionCompression->static_fields->s_QuatAbsValues,3,
-                      (MethodInfo *)0x0);
-  fVar10 = (float)il2cpp_runtime_helper_180012930(fVar10 * 722.66315);
-  uVar2 = 0x200;
-  if (0.0 <= fVar9) {
-    uVar2 = 0;
-  }
-  return uVar2 ^ uVar5 | (int)fVar10 & 0xffffU | uVar4 << 10;
+  return (int)fVar14 & 0xffffU | (uint)(bVar13 != (fVar17 <= 0.0 && fVar18 != 0.0)) << 9 | uVar8 << 10;
 }
 
 
 // Utility.QuaternionCompression$$DecompressQuaternion
 // il2cpp: void Utility_QuaternionCompression__DecompressQuaternion (UnityEngine_Quaternion_o* quaternion, int32_t rawCompressed, const MethodInfo* method);
-// 0x18208d520
+// 0x5deb010
 
 void Utility_QuaternionCompression__DecompressQuaternion
                (UnityEngine_Quaternion_o *quaternion,int32_t rawCompressed,MethodInfo *method)
 
 {
-  uint index;
-  uint index_00;
-  float fVar1;
-  float fVar2;
-  float fVar3;
+  float *pfVar1;
+  float *pfVar2;
+  float *pfVar3;
+  uint uVar4;
+  uint uVar5;
+  float fVar6;
+  float fVar7;
   
-  index = 3;
-  fVar3 = 0.0;
-  index_00 = (uint)rawCompressed >> 0x1e;
-  do {
-    if (index != index_00) {
-      if ((rawCompressed & 0x200U) == 0) {
-        fVar2 = 1.0;
-      }
-      else {
-        fVar2 = -1.0;
-      }
-      UnityEngine_Quaternion__set_Item
-                (quaternion,index,(float)(rawCompressed & 0x1ff) * 0.0013837706 * fVar2,(MethodInfo *)0x0);
-      fVar2 = UnityEngine_Quaternion__get_Item(quaternion,index,(MethodInfo *)0x0);
-      fVar1 = UnityEngine_Quaternion__get_Item(quaternion,index,(MethodInfo *)0x0);
-      rawCompressed = (uint)rawCompressed >> 10;
-      fVar3 = fVar3 + fVar1 * fVar2;
+  uVar5 = (uint)rawCompressed >> 0x1e;
+  pfVar1 = &(quaternion->fields).w;
+  pfVar2 = &(quaternion->fields).z;
+  pfVar3 = &(quaternion->fields).y;
+  fVar7 = 0.0;
+  uVar4 = rawCompressed;
+  if (uVar5 == 3) {
+label_05deb072:
+    fVar6 = (float)(uVar4 & 0x1ff) * 0.0013837706;
+    if ((uVar4 & 0x200) != 0) {
+      fVar6 = -fVar6;
     }
-    index = index - 1;
-  } while (-1 < (int)index);
-  fVar3 = 1.0 - fVar3;
-  if (fVar3 < 0.0) {
-    fVar3 = (float)il2cpp_runtime_helper_1804fa7a0(fVar3);
+    *pfVar2 = fVar6;
+    fVar7 = fVar7 + fVar6 * fVar6;
+    uVar4 = uVar4 >> 10;
+    if (uVar5 == 1) goto label_05deb0e2;
   }
   else {
-    fVar3 = SQRT(fVar3);
+    fVar7 = (float)(rawCompressed & 0x1ff) * 0.0013837706;
+    if ((rawCompressed & 0x200U) != 0) {
+      fVar7 = -fVar7;
+    }
+    *pfVar1 = fVar7;
+    fVar7 = fVar7 * fVar7 + 0.0;
+    uVar4 = (uint)rawCompressed >> 10;
+    if (uVar5 != 2) goto label_05deb072;
   }
-  UnityEngine_Quaternion__set_Item(quaternion,index_00,fVar3,(MethodInfo *)0x0);
+  fVar6 = (float)(uVar4 & 0x1ff) * 0.0013837706;
+  if ((uVar4 & 0x200) != 0) {
+    fVar6 = -fVar6;
+  }
+  *pfVar3 = fVar6;
+  fVar7 = fVar7 + fVar6 * fVar6;
+  uVar4 = uVar4 >> 10;
+label_05deb0e2:
+  if (0x3fffffff < (uint)rawCompressed) {
+    fVar6 = (float)(uVar4 & 0x1ff) * 0.0013837706;
+    if ((uVar4 & 0x200) != 0) {
+      fVar6 = -fVar6;
+    }
+    (quaternion->fields).x = fVar6;
+    fVar7 = fVar7 + fVar6 * fVar6;
+  }
+  fVar7 = 1.0 - fVar7;
+  if (fVar7 < 0.0) {
+    fVar7 = sqrtf(fVar7);
+  }
+  else {
+    fVar7 = SQRT(fVar7);
+  }
+  switch(uVar5) {
+  case 1:
+    quaternion = (UnityEngine_Quaternion_o *)pfVar3;
+    break;
+  case 2:
+    quaternion = (UnityEngine_Quaternion_o *)pfVar2;
+    break;
+  case 3:
+    quaternion = (UnityEngine_Quaternion_o *)pfVar1;
+  }
+  *(float *)quaternion = fVar7;
   return;
 }
 
 
 // Utility.QuaternionCompression$$.cctor
 // il2cpp: void Utility_QuaternionCompression___cctor (const MethodInfo* method);
-// 0x18233e6b0
+// 0x5deb170
 
 void Utility_QuaternionCompression___cctor(MethodInfo *method)
 
@@ -255,13 +385,13 @@ void Utility_QuaternionCompression___cctor(MethodInfo *method)
   float fVar4;
   float fVar5;
   
-  if (Il2CppMethodInitialized_184347814 == '\0') {
+  if (Il2CppMethodInitialized_075482c0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_QuaternionCompression);
-    Il2CppMethodInitialized_184347814 = '\x01';
+    Il2CppMethodInitialized_075482c0 = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar3 = (pUVar1->identityQuaternion).fields.y;

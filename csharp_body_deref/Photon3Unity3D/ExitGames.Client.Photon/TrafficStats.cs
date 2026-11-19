@@ -17,14 +17,14 @@ public class TrafficStats
 	public int PackageHeaderSize
 	{
 		[Token(Token = "0x600036B")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5689050", Offset = "0x5688050", VA = "0x5689050")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x5689060", Offset = "0x5688060", VA = "0x5689060")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -35,14 +35,14 @@ public class TrafficStats
 	public int ReliableCommandCount
 	{
 		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x5689070", Offset = "0x5688070", VA = "0x5689070")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600036E")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x5689080", Offset = "0x5688080", VA = "0x5689080")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -53,14 +53,14 @@ public class TrafficStats
 	public int UnreliableCommandCount
 	{
 		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5689090", Offset = "0x5688090", VA = "0x5689090")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x56890A0", Offset = "0x56880A0", VA = "0x56890A0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -71,14 +71,14 @@ public class TrafficStats
 	public int FragmentCommandCount
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x56890B0", Offset = "0x56880B0", VA = "0x56890B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x56890C0", Offset = "0x56880C0", VA = "0x56890C0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -89,14 +89,14 @@ public class TrafficStats
 	public int ControlCommandCount
 	{
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x56890D0", Offset = "0x56880D0", VA = "0x56890D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x56890E0", Offset = "0x56880E0", VA = "0x56890E0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -107,14 +107,14 @@ public class TrafficStats
 	public int TotalPacketCount
 	{
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x56890F0", Offset = "0x56880F0", VA = "0x56890F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000376")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x5689100", Offset = "0x5688100", VA = "0x5689100")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -125,14 +125,14 @@ public class TrafficStats
 	public int TotalCommandsInPackets
 	{
 		[Token(Token = "0x6000377")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x5689110", Offset = "0x5688110", VA = "0x5689110")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x5689120", Offset = "0x5688120", VA = "0x5689120")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -143,14 +143,14 @@ public class TrafficStats
 	public int ReliableCommandBytes
 	{
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x5689130", Offset = "0x5688130", VA = "0x5689130")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x5689140", Offset = "0x5688140", VA = "0x5689140")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -161,14 +161,14 @@ public class TrafficStats
 	public int UnreliableCommandBytes
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x5689150", Offset = "0x5688150", VA = "0x5689150")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x5689160", Offset = "0x5688160", VA = "0x5689160")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -179,14 +179,14 @@ public class TrafficStats
 	public int FragmentCommandBytes
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x5689170", Offset = "0x5688170", VA = "0x5689170")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x5689180", Offset = "0x5688180", VA = "0x5689180")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -197,14 +197,14 @@ public class TrafficStats
 	public int ControlCommandBytes
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x5689190", Offset = "0x5688190", VA = "0x5689190")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x56891A0", Offset = "0x56881A0", VA = "0x56891A0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -215,7 +215,7 @@ public class TrafficStats
 	public int TotalCommandCount
 	{
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x1CFE040", Offset = "0x1CFC640", VA = "0x181CFE040")]
+		[Address(RVA = "0x56891D0", Offset = "0x56881D0", VA = "0x56891D0")]
 		get
 		{
 			return default(int);
@@ -226,7 +226,7 @@ public class TrafficStats
 	public int TotalCommandBytes
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x1CFE030", Offset = "0x1CFC630", VA = "0x181CFE030")]
+		[Address(RVA = "0x56891F0", Offset = "0x56881F0", VA = "0x56891F0")]
 		get
 		{
 			return default(int);
@@ -237,7 +237,7 @@ public class TrafficStats
 	public int TotalPacketBytes
 	{
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x1CFE050", Offset = "0x1CFC650", VA = "0x181CFE050")]
+		[Address(RVA = "0x5689210", Offset = "0x5688210", VA = "0x5689210")]
 		get
 		{
 			return default(int);
@@ -248,14 +248,14 @@ public class TrafficStats
 	public int TimestampOfLastAck
 	{
 		[Token(Token = "0x6000385")]
-		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
+		[Address(RVA = "0x5689240", Offset = "0x5688240", VA = "0x5689240")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000386")]
-		[Address(RVA = "0x1CFE070", Offset = "0x1CFC670", VA = "0x181CFE070")]
+		[Address(RVA = "0x5689250", Offset = "0x5688250", VA = "0x5689250")]
 		[CompilerGenerated]
 		set
 		{
@@ -266,14 +266,14 @@ public class TrafficStats
 	public int TimestampOfLastReliableCommand
 	{
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
+		[Address(RVA = "0x5689260", Offset = "0x5688260", VA = "0x5689260")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x58AA60", Offset = "0x589060", VA = "0x18058AA60")]
+		[Address(RVA = "0x5689270", Offset = "0x5688270", VA = "0x5689270")]
 		[CompilerGenerated]
 		set
 		{
@@ -281,37 +281,37 @@ public class TrafficStats
 	}
 
 	[Token(Token = "0x6000381")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Address(RVA = "0x56891B0", Offset = "0x56881B0", VA = "0x56891B0")]
 	internal TrafficStats(int packageHeaderSize)
 	{
 	}
 
 	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x1CFDDE0", Offset = "0x1CFC3E0", VA = "0x181CFDDE0")]
+	[Address(RVA = "0x5687500", Offset = "0x5686500", VA = "0x5687500")]
 	internal void CountControlCommand(int size)
 	{
 	}
 
 	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x1CFDE00", Offset = "0x1CFC400", VA = "0x181CFDE00")]
+	[Address(RVA = "0x567C1F0", Offset = "0x567B1F0", VA = "0x567C1F0")]
 	internal void CountReliableOpCommand(int size)
 	{
 	}
 
 	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x1CFDE10", Offset = "0x1CFC410", VA = "0x181CFDE10")]
+	[Address(RVA = "0x567C200", Offset = "0x567B200", VA = "0x567C200")]
 	internal void CountUnreliableOpCommand(int size)
 	{
 	}
 
 	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x1CFDDF0", Offset = "0x1CFC3F0", VA = "0x181CFDDF0")]
+	[Address(RVA = "0x5689280", Offset = "0x5688280", VA = "0x5689280")]
 	internal void CountFragmentOpCommand(int size)
 	{
 	}
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x1CFDE20", Offset = "0x1CFC420", VA = "0x181CFDE20", Slot = "3")]
+	[Address(RVA = "0x5689290", Offset = "0x5688290", VA = "0x5689290", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -12,428 +12,428 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200042C")]
+[Token(Token = "0x200048B")]
 [CompilerGenerated]
 internal class CustomLogicColliderBuiltin : BuiltinClassInstance, ICustomLogicCopyable, ICustomLogicEquals
 {
-	[Token(Token = "0x200042D")]
+	[Token(Token = "0x200048C")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001BC2")]
-		[Address(RVA = "0x1F08220", Offset = "0x1F06820", VA = "0x181F08220")]
+		[Token(Token = "0x6001E39")]
+		[Address(RVA = "0x58F30C0", Offset = "0x58F20C0", VA = "0x58F30C0")]
 		public static CustomLogicColliderBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200042E")]
+	[Token(Token = "0x200048D")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40014ED")]
+		[Token(Token = "0x400168D")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001BC3")]
-		[Address(RVA = "0x1EE8470", Offset = "0x1EE6A70", VA = "0x181EE8470")]
+		[Token(Token = "0x6001E3A")]
+		[Address(RVA = "0x58F3150", Offset = "0x58F2150", VA = "0x58F3150")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC4")]
-		[Address(RVA = "0x1EFA8A0", Offset = "0x1EF8EA0", VA = "0x181EFA8A0")]
+		[Token(Token = "0x6001E3B")]
+		[Address(RVA = "0x58F3850", Offset = "0x58F2850", VA = "0x58F3850")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__AttachedArticulationBody()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC5")]
-		[Address(RVA = "0x1EFB430", Offset = "0x1EF9A30", VA = "0x181EFB430")]
+		[Token(Token = "0x6001E3C")]
+		[Address(RVA = "0x58F38F0", Offset = "0x58F28F0", VA = "0x58F38F0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__ContactOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC6")]
-		[Address(RVA = "0x1EFBBB0", Offset = "0x1EFA1B0", VA = "0x181EFBBB0")]
+		[Token(Token = "0x6001E3D")]
+		[Address(RVA = "0x58F39D0", Offset = "0x58F29D0", VA = "0x58F39D0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__Enabled()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC7")]
-		[Address(RVA = "0x1EFBD90", Offset = "0x1EFA390", VA = "0x181EFBD90")]
+		[Token(Token = "0x6001E3E")]
+		[Address(RVA = "0x58F3AB0", Offset = "0x58F2AB0", VA = "0x58F3AB0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__ExcludeLayers()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC8")]
-		[Address(RVA = "0x1EFC2E0", Offset = "0x1EFA8E0", VA = "0x181EFC2E0")]
+		[Token(Token = "0x6001E3F")]
+		[Address(RVA = "0x58F3B90", Offset = "0x58F2B90", VA = "0x58F3B90")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__IncludeLayers()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BC9")]
-		[Address(RVA = "0x1EFC560", Offset = "0x1EFAB60", VA = "0x181EFC560")]
+		[Token(Token = "0x6001E40")]
+		[Address(RVA = "0x58F3C70", Offset = "0x58F2C70", VA = "0x58F3C70")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__IsTrigger()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCA")]
-		[Address(RVA = "0x1EFAF80", Offset = "0x1EF9580", VA = "0x181EFAF80")]
+		[Token(Token = "0x6001E41")]
+		[Address(RVA = "0x58F3D50", Offset = "0x58F2D50", VA = "0x58F3D50")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__Center()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCB")]
-		[Address(RVA = "0x1EFD370", Offset = "0x1EFB970", VA = "0x181EFD370")]
+		[Token(Token = "0x6001E42")]
+		[Address(RVA = "0x58F3DF0", Offset = "0x58F2DF0", VA = "0x58F3DF0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__ProvidesContacts()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCC")]
-		[Address(RVA = "0x1EFCBF0", Offset = "0x1EFB1F0", VA = "0x181EFCBF0")]
+		[Token(Token = "0x6001E43")]
+		[Address(RVA = "0x58F3ED0", Offset = "0x58F2ED0", VA = "0x58F3ED0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__MaterialName()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCD")]
-		[Address(RVA = "0x1EFE040", Offset = "0x1EFC640", VA = "0x181EFE040")]
+		[Token(Token = "0x6001E44")]
+		[Address(RVA = "0x58F3F70", Offset = "0x58F2F70", VA = "0x58F3F70")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__SharedMaterialName()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCE")]
-		[Address(RVA = "0x1EFE720", Offset = "0x1EFCD20", VA = "0x181EFE720")]
+		[Token(Token = "0x6001E45")]
+		[Address(RVA = "0x58F4010", Offset = "0x58F3010", VA = "0x58F4010")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__Transform()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BCF")]
-		[Address(RVA = "0x1EFC010", Offset = "0x1EFA610", VA = "0x181EFC010")]
+		[Token(Token = "0x6001E46")]
+		[Address(RVA = "0x58F40B0", Offset = "0x58F30B0", VA = "0x58F40B0")]
 		public static CLPropertyBinding<CustomLogicColliderBuiltin> __CreatePropertyBinding__GameObjectTransform()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD0")]
-		[Address(RVA = "0x1EF4940", Offset = "0x1EF2F40", VA = "0x181EF4940")]
+		[Token(Token = "0x6001E47")]
+		[Address(RVA = "0x58F4150", Offset = "0x58F3150", VA = "0x58F4150")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding__ClosestPoint()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD1")]
-		[Address(RVA = "0x1EF4820", Offset = "0x1EF2E20", VA = "0x181EF4820")]
+		[Token(Token = "0x6001E48")]
+		[Address(RVA = "0x58F4290", Offset = "0x58F3290", VA = "0x58F4290")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding__ClosestPointOnBounds()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD2")]
-		[Address(RVA = "0x1EF7D50", Offset = "0x1EF6350", VA = "0x181EF7D50")]
+		[Token(Token = "0x6001E49")]
+		[Address(RVA = "0x58F43D0", Offset = "0x58F33D0", VA = "0x58F43D0")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding__Raycast()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD3")]
-		[Address(RVA = "0x1EF9C80", Offset = "0x1EF8280", VA = "0x181EF9C80")]
+		[Token(Token = "0x6001E4A")]
+		[Address(RVA = "0x58F4510", Offset = "0x58F3510", VA = "0x58F4510")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding____Copy__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD4")]
-		[Address(RVA = "0x1EFA000", Offset = "0x1EF8600", VA = "0x181EFA000")]
+		[Token(Token = "0x6001E4B")]
+		[Address(RVA = "0x58F4650", Offset = "0x58F3650", VA = "0x58F4650")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding____Eq__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD5")]
-		[Address(RVA = "0x1EFA120", Offset = "0x1EF8720", VA = "0x181EFA120")]
+		[Token(Token = "0x6001E4C")]
+		[Address(RVA = "0x58F4790", Offset = "0x58F3790", VA = "0x58F4790")]
 		public static CLMethodBinding<CustomLogicColliderBuiltin> __CreateMethodBinding____Hash__()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40014EC")]
+	[Token(Token = "0x400168C")]
 	[FieldOffset(Offset = "0x30")]
 	public Collider collider;
 
-	[Token(Token = "0x17000308")]
+	[Token(Token = "0x17000349")]
 	public CustomLogicTransformBuiltin AttachedArticulationBody
 	{
-		[Token(Token = "0x6001BA5")]
-		[Address(RVA = "0x1F029B0", Offset = "0x1F00FB0", VA = "0x181F029B0")]
+		[Token(Token = "0x6001E1C")]
+		[Address(RVA = "0x58F2350", Offset = "0x58F1350", VA = "0x58F2350")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000309")]
+	[Token(Token = "0x1700034A")]
 	public float ContactOffset
 	{
-		[Token(Token = "0x6001BA6")]
-		[Address(RVA = "0x1F02B10", Offset = "0x1F01110", VA = "0x181F02B10")]
+		[Token(Token = "0x6001E1D")]
+		[Address(RVA = "0x58F23D0", Offset = "0x58F13D0", VA = "0x58F23D0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001BA7")]
-		[Address(RVA = "0x1F02D40", Offset = "0x1F01340", VA = "0x181F02D40")]
+		[Token(Token = "0x6001E1E")]
+		[Address(RVA = "0x58F23F0", Offset = "0x58F13F0", VA = "0x58F23F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700030A")]
+	[Token(Token = "0x1700034B")]
 	public new bool Enabled
 	{
-		[Token(Token = "0x6001BA8")]
-		[Address(RVA = "0x1F02B30", Offset = "0x1F01130", VA = "0x181F02B30")]
+		[Token(Token = "0x6001E1F")]
+		[Address(RVA = "0x58F2410", Offset = "0x58F1410", VA = "0x58F2410")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001BA9")]
-		[Address(RVA = "0x1F02D60", Offset = "0x1F01360", VA = "0x181F02D60")]
+		[Token(Token = "0x6001E20")]
+		[Address(RVA = "0x58F2430", Offset = "0x58F1430", VA = "0x58F2430")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700030B")]
+	[Token(Token = "0x1700034C")]
 	public int ExcludeLayers
 	{
-		[Token(Token = "0x6001BAA")]
-		[Address(RVA = "0x1F02B50", Offset = "0x1F01150", VA = "0x181F02B50")]
+		[Token(Token = "0x6001E21")]
+		[Address(RVA = "0x58F2450", Offset = "0x58F1450", VA = "0x58F2450")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001BAB")]
-		[Address(RVA = "0x1F02D80", Offset = "0x1F01380", VA = "0x181F02D80")]
+		[Token(Token = "0x6001E22")]
+		[Address(RVA = "0x58F2470", Offset = "0x58F1470", VA = "0x58F2470")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700030C")]
+	[Token(Token = "0x1700034D")]
 	public int IncludeLayers
 	{
-		[Token(Token = "0x6001BAC")]
-		[Address(RVA = "0x1F02C00", Offset = "0x1F01200", VA = "0x181F02C00")]
+		[Token(Token = "0x6001E23")]
+		[Address(RVA = "0x58F24A0", Offset = "0x58F14A0", VA = "0x58F24A0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001BAD")]
-		[Address(RVA = "0x1F02DC0", Offset = "0x1F013C0", VA = "0x181F02DC0")]
+		[Token(Token = "0x6001E24")]
+		[Address(RVA = "0x58F24C0", Offset = "0x58F14C0", VA = "0x58F24C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700030D")]
+	[Token(Token = "0x1700034E")]
 	public bool IsTrigger
 	{
-		[Token(Token = "0x6001BAE")]
-		[Address(RVA = "0x1F02C30", Offset = "0x1F01230", VA = "0x181F02C30")]
+		[Token(Token = "0x6001E25")]
+		[Address(RVA = "0x58F24F0", Offset = "0x58F14F0", VA = "0x58F24F0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001BAF")]
-		[Address(RVA = "0x1F02E00", Offset = "0x1F01400", VA = "0x181F02E00")]
+		[Token(Token = "0x6001E26")]
+		[Address(RVA = "0x58F2510", Offset = "0x58F1510", VA = "0x58F2510")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700030E")]
+	[Token(Token = "0x1700034F")]
 	public CustomLogicVector3Builtin Center
 	{
-		[Token(Token = "0x6001BB0")]
-		[Address(RVA = "0x1F02A30", Offset = "0x1F01030", VA = "0x181F02A30")]
+		[Token(Token = "0x6001E27")]
+		[Address(RVA = "0x58F2530", Offset = "0x58F1530", VA = "0x58F2530")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700030F")]
+	[Token(Token = "0x17000350")]
 	public bool ProvidesContacts
 	{
-		[Token(Token = "0x6001BB1")]
-		[Address(RVA = "0x1F02C80", Offset = "0x1F01280", VA = "0x181F02C80")]
+		[Token(Token = "0x6001E28")]
+		[Address(RVA = "0x58F2600", Offset = "0x58F1600", VA = "0x58F2600")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001BB2")]
-		[Address(RVA = "0x1F02E20", Offset = "0x1F01420", VA = "0x181F02E20")]
+		[Token(Token = "0x6001E29")]
+		[Address(RVA = "0x58F2620", Offset = "0x58F1620", VA = "0x58F2620")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000310")]
+	[Token(Token = "0x17000351")]
 	public string MaterialName
 	{
-		[Token(Token = "0x6001BB3")]
-		[Address(RVA = "0x1F02C50", Offset = "0x1F01250", VA = "0x181F02C50")]
+		[Token(Token = "0x6001E2A")]
+		[Address(RVA = "0x58F2640", Offset = "0x58F1640", VA = "0x58F2640")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000311")]
+	[Token(Token = "0x17000352")]
 	public string SharedMaterialName
 	{
-		[Token(Token = "0x6001BB4")]
-		[Address(RVA = "0x1F02CA0", Offset = "0x1F012A0", VA = "0x181F02CA0")]
+		[Token(Token = "0x6001E2B")]
+		[Address(RVA = "0x58F2670", Offset = "0x58F1670", VA = "0x58F2670")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000312")]
+	[Token(Token = "0x17000353")]
 	public CustomLogicTransformBuiltin Transform
 	{
-		[Token(Token = "0x6001BB5")]
-		[Address(RVA = "0x1F02CD0", Offset = "0x1F012D0", VA = "0x181F02CD0")]
+		[Token(Token = "0x6001E2C")]
+		[Address(RVA = "0x58F26A0", Offset = "0x58F16A0", VA = "0x58F26A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000313")]
+	[Token(Token = "0x17000354")]
 	public CustomLogicTransformBuiltin GameObjectTransform
 	{
-		[Token(Token = "0x6001BB6")]
-		[Address(RVA = "0x1F02B80", Offset = "0x1F01180", VA = "0x181F02B80")]
+		[Token(Token = "0x6001E2D")]
+		[Address(RVA = "0x58F2710", Offset = "0x58F1710", VA = "0x58F2710")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000314")]
+	[Token(Token = "0x17000355")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001BBE")]
-		[Address(RVA = "0x1F02AE0", Offset = "0x1F010E0", VA = "0x181F02AE0", Slot = "6")]
+		[Token(Token = "0x6001E35")]
+		[Address(RVA = "0x58F3060", Offset = "0x58F2060", VA = "0x58F3060", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000315")]
+	[Token(Token = "0x17000356")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001BBF")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6001E36")]
+		[Address(RVA = "0x58F3090", Offset = "0x58F2090", VA = "0x58F3090", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000316")]
+	[Token(Token = "0x17000357")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001BC0")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6001E37")]
+		[Address(RVA = "0x58F30A0", Offset = "0x58F20A0", VA = "0x58F30A0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000317")]
+	[Token(Token = "0x17000358")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001BC1")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001E38")]
+		[Address(RVA = "0x58F30B0", Offset = "0x58F20B0", VA = "0x58F30B0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001BA3")]
-	[Address(RVA = "0x1F02960", Offset = "0x1F00F60", VA = "0x181F02960")]
+	[Token(Token = "0x6001E1A")]
+	[Address(RVA = "0x58F2200", Offset = "0x58F1200", VA = "0x58F2200")]
 	public CustomLogicColliderBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6001BA4")]
-	[Address(RVA = "0x1F02850", Offset = "0x1F00E50", VA = "0x181F02850")]
+	[Token(Token = "0x6001E1B")]
+	[Address(RVA = "0x58F2270", Offset = "0x58F1270", VA = "0x58F2270")]
 	public CustomLogicColliderBuiltin(object[] parameters)
 	{
 	}
 
-	[Token(Token = "0x6001BB7")]
-	[Address(RVA = "0x1F020E0", Offset = "0x1F006E0", VA = "0x181F020E0")]
+	[Token(Token = "0x6001E2E")]
+	[Address(RVA = "0x58F2790", Offset = "0x58F1790", VA = "0x58F2790")]
 	public CustomLogicVector3Builtin ClosestPoint(CustomLogicVector3Builtin position)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BB8")]
-	[Address(RVA = "0x1F02070", Offset = "0x1F00670", VA = "0x181F02070")]
+	[Token(Token = "0x6001E2F")]
+	[Address(RVA = "0x58F2860", Offset = "0x58F1860", VA = "0x58F2860")]
 	public CustomLogicVector3Builtin ClosestPointOnBounds(CustomLogicVector3Builtin position)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BB9")]
-	[Address(RVA = "0x1F02220", Offset = "0x1F00820", VA = "0x181F02220")]
+	[Token(Token = "0x6001E30")]
+	[Address(RVA = "0x58F2930", Offset = "0x58F1930", VA = "0x58F2930")]
 	public CustomLogicLineCastHitResultBuiltin Raycast(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BBA")]
-	[Address(RVA = "0x1F02150", Offset = "0x1F00750", VA = "0x181F02150")]
+	[Token(Token = "0x6001E31")]
+	[Address(RVA = "0x58F2D60", Offset = "0x58F1D60", VA = "0x58F2D60")]
 	public BuiltinClassInstance Copy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BBB")]
-	[Address(RVA = "0x1F02610", Offset = "0x1F00C10", VA = "0x181F02610", Slot = "11")]
+	[Token(Token = "0x6001E32")]
+	[Address(RVA = "0x58F2E30", Offset = "0x58F1E30", VA = "0x58F2E30", Slot = "11")]
 	public object __Copy__()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BBC")]
-	[Address(RVA = "0x1F026E0", Offset = "0x1F00CE0", VA = "0x181F026E0", Slot = "12")]
+	[Token(Token = "0x6001E33")]
+	[Address(RVA = "0x58F2F00", Offset = "0x58F1F00", VA = "0x58F2F00", Slot = "12")]
 	public bool __Eq__(object self, object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001BBD")]
-	[Address(RVA = "0x1F027C0", Offset = "0x1F00DC0", VA = "0x181F027C0", Slot = "13")]
+	[Token(Token = "0x6001E34")]
+	[Address(RVA = "0x58F2FD0", Offset = "0x58F1FD0", VA = "0x58F2FD0", Slot = "13")]
 	public int __Hash__()
 	{
 		return default(int);

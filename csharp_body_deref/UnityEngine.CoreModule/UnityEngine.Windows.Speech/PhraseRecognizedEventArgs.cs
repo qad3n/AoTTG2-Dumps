@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000208")]
+[Token(Token = "0x2000209")]
 public struct PhraseRecognizedEventArgs
 {
-	[Token(Token = "0x40006F0")]
+	[Token(Token = "0x40006F5")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly ConfidenceLevel confidence;
 
-	[Token(Token = "0x40006F1")]
+	[Token(Token = "0x40006F6")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly SemanticMeaning[] semanticMeanings;
 
-	[Token(Token = "0x40006F2")]
+	[Token(Token = "0x40006F7")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly string text;
 
-	[Token(Token = "0x40006F3")]
+	[Token(Token = "0x40006F8")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly DateTime phraseStartTime;
 
-	[Token(Token = "0x40006F4")]
+	[Token(Token = "0x40006F9")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly TimeSpan phraseDuration;
 
-	[Token(Token = "0x60010B6")]
-	[Address(RVA = "0x2F4D2D0", Offset = "0x2F4B8D0", VA = "0x182F4D2D0")]
+	[Token(Token = "0x60010D3")]
+	[Address(RVA = "0x69312A0", Offset = "0x69302A0", VA = "0x69312A0")]
 	internal PhraseRecognizedEventArgs(string text, ConfidenceLevel confidence, SemanticMeaning[] semanticMeanings, DateTime phraseStartTime, TimeSpan phraseDuration)
 	{
 	}

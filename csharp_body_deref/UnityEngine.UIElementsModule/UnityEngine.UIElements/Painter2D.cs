@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Painter2D
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -59,7 +59,7 @@ public class Painter2D : IDisposable
 		public NativeSlice<Painter2DJobData> jobParameters;
 
 		[Token(Token = "0x6001354")]
-		[Address(RVA = "0x32B0FF0", Offset = "0x32AF5F0", VA = "0x1832B0FF0", Slot = "4")]
+		[Address(RVA = "0x6CBFDC0", Offset = "0x6CBEDC0", VA = "0x6CBFDC0", Slot = "4")]
 		public void Execute(int i)
 		{
 		}
@@ -136,7 +136,7 @@ public class Painter2D : IDisposable
 	internal static bool isPainterActive
 	{
 		[Token(Token = "0x6001350")]
-		[Address(RVA = "0x32B22A0", Offset = "0x32B08A0", VA = "0x1832B22A0")]
+		[Address(RVA = "0x6CBF900", Offset = "0x6CBE900", VA = "0x6CBF900")]
 		[CompilerGenerated]
 		set
 		{
@@ -144,43 +144,43 @@ public class Painter2D : IDisposable
 	}
 
 	[Token(Token = "0x600134B")]
-	[Address(RVA = "0x32B1EE0", Offset = "0x32B04E0", VA = "0x1832B1EE0")]
+	[Address(RVA = "0x6CBDE20", Offset = "0x6CBCE20", VA = "0x6CBDE20")]
 	internal Painter2D(MeshGenerationContext ctx)
 	{
 	}
 
 	[Token(Token = "0x600134C")]
-	[Address(RVA = "0x32B20D0", Offset = "0x32B06D0", VA = "0x1832B20D0")]
+	[Address(RVA = "0x6CBF470", Offset = "0x6CBE470", VA = "0x6CBF470")]
 	public Painter2D()
 	{
 	}
 
 	[Token(Token = "0x600134D")]
-	[Address(RVA = "0x32B19A0", Offset = "0x32AFFA0", VA = "0x1832B19A0")]
+	[Address(RVA = "0x6CBE5D0", Offset = "0x6CBD5D0", VA = "0x6CBE5D0")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x600134E")]
-	[Address(RVA = "0x32B18C0", Offset = "0x32AFEC0", VA = "0x1832B18C0", Slot = "4")]
+	[Address(RVA = "0x6CBE8B0", Offset = "0x6CBD8B0", VA = "0x6CBE8B0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600134F")]
-	[Address(RVA = "0x32B1660", Offset = "0x32AFC60", VA = "0x1832B1660")]
+	[Address(RVA = "0x6CBF670", Offset = "0x6CBE670", VA = "0x6CBF670")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001351")]
-	[Address(RVA = "0x32B1AA0", Offset = "0x32B00A0", VA = "0x1832B1AA0")]
+	[Address(RVA = "0x6CBF950", Offset = "0x6CBE950", VA = "0x6CBF950")]
 	internal void ScheduleJobs(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x6001352")]
-	[Address(RVA = "0x32B1920", Offset = "0x32AFF20", VA = "0x1832B1920")]
+	[Address(RVA = "0x6CBFC20", Offset = "0x6CBEC20", VA = "0x6CBFC20")]
 	private void OnMeshGeneration(MeshGenerationContext ctx, object data)
 	{
 	}

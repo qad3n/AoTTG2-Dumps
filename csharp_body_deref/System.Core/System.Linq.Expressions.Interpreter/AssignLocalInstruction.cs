@@ -9,57 +9,57 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001A7")]
+[Token(Token = "0x20001A8")]
 internal sealed class AssignLocalInstruction : LocalAccessInstruction, IBoxableInstruction
 {
-	[Token(Token = "0x170001DD")]
+	[Token(Token = "0x170001DF")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x600095E")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000969")]
+		[Address(RVA = "0x5E0B540", Offset = "0x5E0A540", VA = "0x5E0B540", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001DE")]
+	[Token(Token = "0x170001E0")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600095F")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x600096A")]
+		[Address(RVA = "0x5E0B550", Offset = "0x5E0A550", VA = "0x5E0B550", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001DF")]
+	[Token(Token = "0x170001E1")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000960")]
-		[Address(RVA = "0x2466680", Offset = "0x2464C80", VA = "0x182466680", Slot = "9")]
+		[Token(Token = "0x600096B")]
+		[Address(RVA = "0x5E0B560", Offset = "0x5E0A560", VA = "0x5E0B560", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000968")]
+	[Address(RVA = "0x5E0B520", Offset = "0x5E0A520", VA = "0x5E0B520")]
 	internal AssignLocalInstruction(int index)
 	{
 	}
 
-	[Token(Token = "0x6000961")]
-	[Address(RVA = "0x24665E0", Offset = "0x2464BE0", VA = "0x1824665E0", Slot = "8")]
+	[Token(Token = "0x600096C")]
+	[Address(RVA = "0x5E0B590", Offset = "0x5E0A590", VA = "0x5E0B590", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000962")]
-	[Address(RVA = "0x2466570", Offset = "0x2464B70", VA = "0x182466570", Slot = "11")]
+	[Token(Token = "0x600096D")]
+	[Address(RVA = "0x5E0B610", Offset = "0x5E0A610", VA = "0x5E0B610", Slot = "11")]
 	public Instruction BoxIfIndexMatches(int index)
 	{
 		return null;

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.IO.Compression;
 
-[Token(Token = "0x2000291")]
+[Token(Token = "0x2000252")]
 public enum CompressionMode
 {
-	[Token(Token = "0x4000922")]
+	[Token(Token = "0x4000853")]
 	Decompress,
-	[Token(Token = "0x4000923")]
+	[Token(Token = "0x4000854")]
 	Compress
 }

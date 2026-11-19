@@ -18,13 +18,13 @@ internal class ErrorInfoCallbacksContainer : List<IErrorInfoCallback>, IErrorInf
 	private LoadBalancingClient client;
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x1D14570", Offset = "0x1D12B70", VA = "0x181D14570")]
+	[Address(RVA = "0x56AC0D0", Offset = "0x56AB0D0", VA = "0x56AC0D0")]
 	public ErrorInfoCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x1D143D0", Offset = "0x1D129D0", VA = "0x181D143D0", Slot = "35")]
+	[Address(RVA = "0x56B72E0", Offset = "0x56B62E0", VA = "0x56B72E0", Slot = "35")]
 	public void OnErrorInfo(ErrorInfo errorInfo)
 	{
 	}

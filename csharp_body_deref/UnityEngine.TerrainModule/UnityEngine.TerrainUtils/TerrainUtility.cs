@@ -17,27 +17,27 @@ namespace UnityEngine.TerrainUtils;
 public static class TerrainUtility
 {
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2FFBFE0", Offset = "0x2FFA5E0", VA = "0x182FFBFE0")]
+	[Address(RVA = "0x69F6400", Offset = "0x69F5400", VA = "0x69F6400")]
 	internal static bool ValidTerrainsExist()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2FFBB90", Offset = "0x2FFA190", VA = "0x182FFBB90")]
+	[Address(RVA = "0x69F6470", Offset = "0x69F5470", VA = "0x69F6470")]
 	internal static void ClearConnectivity()
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2FFBD30", Offset = "0x2FFA330", VA = "0x182FFBD30")]
+	[Address(RVA = "0x69F65B0", Offset = "0x69F55B0", VA = "0x69F65B0")]
 	internal static Dictionary<int, TerrainMap> CollectTerrains(bool onlyAutoConnectedTerrains = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2FFB600", Offset = "0x2FF9C00", VA = "0x182FFB600")]
+	[Address(RVA = "0x69F6A90", Offset = "0x69F5A90", VA = "0x69F6A90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void AutoConnect()
 	{

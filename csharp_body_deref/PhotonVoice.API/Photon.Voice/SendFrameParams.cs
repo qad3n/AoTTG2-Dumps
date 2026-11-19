@@ -17,7 +17,7 @@ public readonly struct SendFrameParams
 	public bool TargetMe
 	{
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
+		[Address(RVA = "0x5711880", Offset = "0x5710880", VA = "0x5711880")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,7 +29,7 @@ public readonly struct SendFrameParams
 	public int[] TargetPlayers
 	{
 		[Token(Token = "0x600024D")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x5711890", Offset = "0x5710890", VA = "0x5711890")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +41,7 @@ public readonly struct SendFrameParams
 	public byte InterestGroup
 	{
 		[Token(Token = "0x600024E")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x57118A0", Offset = "0x57108A0", VA = "0x57118A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +53,7 @@ public readonly struct SendFrameParams
 	public bool Reliable
 	{
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x57118B0", Offset = "0x57108B0", VA = "0x57118B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -65,7 +65,7 @@ public readonly struct SendFrameParams
 	public bool Encrypt
 	{
 		[Token(Token = "0x6000250")]
-		[Address(RVA = "0xE5A340", Offset = "0xE58940", VA = "0x180E5A340")]
+		[Address(RVA = "0x57118C0", Offset = "0x57108C0", VA = "0x57118C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -74,7 +74,7 @@ public readonly struct SendFrameParams
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x1D75780", Offset = "0x1D73D80", VA = "0x181D75780")]
+	[Address(RVA = "0x5709E80", Offset = "0x5708E80", VA = "0x5709E80")]
 	public SendFrameParams(bool targetMe, int[] targetPlayers, byte interestGroup, bool reliable, bool encrypt)
 	{
 	}

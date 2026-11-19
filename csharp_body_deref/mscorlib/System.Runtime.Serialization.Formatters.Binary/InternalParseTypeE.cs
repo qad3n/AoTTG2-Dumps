@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000429")]
+[Token(Token = "0x2000402")]
 internal enum InternalParseTypeE
 {
-	[Token(Token = "0x4001070")]
+	[Token(Token = "0x4000FD0")]
 	Empty,
-	[Token(Token = "0x4001071")]
+	[Token(Token = "0x4000FD1")]
 	SerializedStreamHeader,
-	[Token(Token = "0x4001072")]
+	[Token(Token = "0x4000FD2")]
 	Object,
-	[Token(Token = "0x4001073")]
+	[Token(Token = "0x4000FD3")]
 	Member,
-	[Token(Token = "0x4001074")]
+	[Token(Token = "0x4000FD4")]
 	ObjectEnd,
-	[Token(Token = "0x4001075")]
+	[Token(Token = "0x4000FD5")]
 	MemberEnd,
-	[Token(Token = "0x4001076")]
+	[Token(Token = "0x4000FD6")]
 	Headers,
-	[Token(Token = "0x4001077")]
+	[Token(Token = "0x4000FD7")]
 	HeadersEnd,
-	[Token(Token = "0x4001078")]
+	[Token(Token = "0x4000FD8")]
 	SerializedStreamHeaderEnd,
-	[Token(Token = "0x4001079")]
+	[Token(Token = "0x4000FD9")]
 	Envelope,
-	[Token(Token = "0x400107A")]
+	[Token(Token = "0x4000FDA")]
 	EnvelopeEnd,
-	[Token(Token = "0x400107B")]
+	[Token(Token = "0x4000FDB")]
 	Body,
-	[Token(Token = "0x400107C")]
+	[Token(Token = "0x4000FDC")]
 	BodyEnd
 }

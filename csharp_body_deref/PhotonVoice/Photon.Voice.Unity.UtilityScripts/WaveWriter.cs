@@ -51,79 +51,79 @@ public class WaveWriter : IDisposable
 	private readonly bool _closeStream;
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x1D9A730", Offset = "0x1D98D30", VA = "0x181D9A730")]
+	[Address(RVA = "0x573E0B0", Offset = "0x573D0B0", VA = "0x573E0B0")]
 	public WaveWriter(string fileName, int sampleRate, int bits, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x1D9A510", Offset = "0x1D98B10", VA = "0x181D9A510")]
+	[Address(RVA = "0x573F410", Offset = "0x573E410", VA = "0x573F410")]
 	public WaveWriter(Stream stream, int sampleRate, int bitsPerSample, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x1D99BE0", Offset = "0x1D981E0", VA = "0x181D99BE0", Slot = "4")]
+	[Address(RVA = "0x573E450", Offset = "0x573D450", VA = "0x573E450", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x1D9A080", Offset = "0x1D98680", VA = "0x181D9A080")]
+	[Address(RVA = "0x573F990", Offset = "0x573E990", VA = "0x573F990")]
 	public void WriteSample(float sample)
 	{
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x1D9A360", Offset = "0x1D98960", VA = "0x181D9A360")]
+	[Address(RVA = "0x573E1E0", Offset = "0x573D1E0", VA = "0x573E1E0")]
 	public void WriteSamples(float[] samples, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x1D9A480", Offset = "0x1D98A80", VA = "0x181D9A480")]
+	[Address(RVA = "0x573FC80", Offset = "0x573EC80", VA = "0x573FC80")]
 	public void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x1D9A400", Offset = "0x1D98A00", VA = "0x181D9A400")]
+	[Address(RVA = "0x573FC50", Offset = "0x573EC50", VA = "0x573FC50")]
 	public void Write(byte value)
 	{
 	}
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x1D9A3C0", Offset = "0x1D989C0", VA = "0x181D9A3C0")]
+	[Address(RVA = "0x573F110", Offset = "0x573E110", VA = "0x573F110")]
 	public void Write(short value)
 	{
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x1D9A4D0", Offset = "0x1D98AD0", VA = "0x181D9A4D0")]
+	[Address(RVA = "0x573FCB0", Offset = "0x573ECB0", VA = "0x573FCB0")]
 	public void Write(int value)
 	{
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x1D9A440", Offset = "0x1D98A40", VA = "0x181D9A440")]
+	[Address(RVA = "0x573FCE0", Offset = "0x573ECE0", VA = "0x573FCE0")]
 	public void Write(float value)
 	{
 	}
 
 	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x1D99CC0", Offset = "0x1D982C0", VA = "0x181D99CC0")]
+	[Address(RVA = "0x573F5F0", Offset = "0x573E5F0", VA = "0x573F5F0")]
 	private void WriteHeader()
 	{
 	}
 
 	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x1D99C40", Offset = "0x1D98240", VA = "0x181D99C40", Slot = "5")]
+	[Address(RVA = "0x573FD10", Offset = "0x573ED10", VA = "0x573FD10", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x193BBF0", Offset = "0x193A1F0", VA = "0x18193BBF0", Slot = "1")]
+	[Address(RVA = "0x573FE80", Offset = "0x573EE80", VA = "0x573FE80", Slot = "1")]
 	~WaveWriter()
 	{
 	}

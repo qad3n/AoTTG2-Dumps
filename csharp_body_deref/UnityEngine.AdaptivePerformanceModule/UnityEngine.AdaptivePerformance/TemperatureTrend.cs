@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.TemperatureTrend
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -69,14 +69,14 @@ internal class TemperatureTrend
 	public float ThermalTrend
 	{
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x2D45BF0", Offset = "0x2D441F0", VA = "0x182D45BF0")]
+		[Address(RVA = "0x6885EE0", Offset = "0x6884EE0", VA = "0x6885EE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x2D45F10", Offset = "0x2D44510", VA = "0x182D45F10")]
+		[Address(RVA = "0x6885EF0", Offset = "0x6884EF0", VA = "0x6885EF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -84,37 +84,37 @@ internal class TemperatureTrend
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2E92E00", Offset = "0x2E91400", VA = "0x182E92E00")]
+	[Address(RVA = "0x6885DA0", Offset = "0x6884DA0", VA = "0x6885DA0")]
 	private void PopOldestValue()
 	{
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2E92ED0", Offset = "0x2E914D0", VA = "0x182E92ED0")]
+	[Address(RVA = "0x6885E40", Offset = "0x6884E40", VA = "0x6885E40")]
 	private void PushNewValue(float tempLevel, float timestamp)
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2E93260", Offset = "0x2E91860", VA = "0x182E93260")]
+	[Address(RVA = "0x6882E00", Offset = "0x6881E00", VA = "0x6882E00")]
 	public TemperatureTrend(bool useProviderTrend)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2E92FA0", Offset = "0x2E915A0", VA = "0x182E92FA0")]
+	[Address(RVA = "0x6880DE0", Offset = "0x687FDE0", VA = "0x6880DE0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2E92FC0", Offset = "0x2E915C0", VA = "0x182E92FC0")]
+	[Address(RVA = "0x6885F00", Offset = "0x6884F00", VA = "0x6885F00")]
 	private void UpdateTrend()
 	{
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2E93100", Offset = "0x2E91700", VA = "0x182E93100")]
+	[Address(RVA = "0x6880B90", Offset = "0x687FB90", VA = "0x6880B90")]
 	public void Update(float temperatureTrendFromProvider, float newTemperatureLevel, bool changed, float newTemperatureTimestamp)
 	{
 	}

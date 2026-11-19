@@ -16,184 +16,184 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D9")]
+[Token(Token = "0x20000DF")]
 public sealed class GisketchDropdownItemFeedback : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-	[Token(Token = "0x4000462")]
+	[Token(Token = "0x4000489")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Image _image;
 
-	[Token(Token = "0x4000463")]
+	[Token(Token = "0x400048A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private Image _icon;
 
-	[Token(Token = "0x4000464")]
+	[Token(Token = "0x400048B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private TextMeshProUGUI _label;
 
-	[Token(Token = "0x4000465")]
+	[Token(Token = "0x400048C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private Color _normalBg;
 
-	[Token(Token = "0x4000466")]
+	[Token(Token = "0x400048D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private Color _normalIcon;
 
-	[Token(Token = "0x4000467")]
+	[Token(Token = "0x400048E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private Color _normalText;
 
-	[Token(Token = "0x4000468")]
+	[Token(Token = "0x400048F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private Color32 _normalFace;
 
-	[Token(Token = "0x4000469")]
+	[Token(Token = "0x4000490")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6C")]
 	private Color _disabledText;
 
-	[Token(Token = "0x400046A")]
+	[Token(Token = "0x4000491")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x7C")]
 	private Color _hoverBg;
 
-	[Token(Token = "0x400046B")]
+	[Token(Token = "0x4000492")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private Color _hoverText;
 
-	[Token(Token = "0x400046C")]
+	[Token(Token = "0x4000493")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private string _normalLabelText;
 
-	[Token(Token = "0x400046D")]
+	[Token(Token = "0x4000494")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private string _activeLabelText;
 
-	[Token(Token = "0x400046E")]
+	[Token(Token = "0x4000495")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private bool _normalLabelOwnsColor;
 
-	[Token(Token = "0x400046F")]
+	[Token(Token = "0x4000496")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private GisketchHoverMarqueeText _marquee;
 
-	[Token(Token = "0x4000470")]
+	[Token(Token = "0x4000497")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private Func<bool> _pointerHoverAllowed;
 
-	[Token(Token = "0x4000471")]
+	[Token(Token = "0x4000498")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private bool _hovered;
 
-	[Token(Token = "0x4000472")]
+	[Token(Token = "0x4000499")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC9")]
 	private bool _selected;
 
-	[Token(Token = "0x4000473")]
+	[Token(Token = "0x400049A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xCA")]
 	private bool _forced;
 
-	[Token(Token = "0x4000474")]
+	[Token(Token = "0x400049B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xCB")]
 	private bool _disabled;
 
 	[Token(Token = "0x170000AD")]
 	public Color NormalTextColor
 	{
-		[Token(Token = "0x600069A")]
-		[Address(RVA = "0x18FEB30", Offset = "0x18FD130", VA = "0x1818FEB30")]
+		[Token(Token = "0x60006E8")]
+		[Address(RVA = "0x52A01C0", Offset = "0x529F1C0", VA = "0x52A01C0")]
 		get
 		{
 			return default(Color);
 		}
 	}
 
-	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x18FE570", Offset = "0x18FCB70", VA = "0x1818FE570")]
+	[Token(Token = "0x60006E7")]
+	[Address(RVA = "0x529FC50", Offset = "0x529EC50", VA = "0x529FC50")]
 	public void Setup(Image image, TextMeshProUGUI label, GisketchTheme theme, [Optional] Image icon)
 	{
 	}
 
-	[Token(Token = "0x600069B")]
-	[Address(RVA = "0x18FE4A0", Offset = "0x18FCAA0", VA = "0x1818FE4A0")]
+	[Token(Token = "0x60006E9")]
+	[Address(RVA = "0x529A4F0", Offset = "0x52994F0", VA = "0x529A4F0")]
 	public void SetActiveTextColor(Color color)
 	{
 	}
 
-	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x18FE4C0", Offset = "0x18FCAC0", VA = "0x1818FE4C0")]
+	[Token(Token = "0x60006EA")]
+	[Address(RVA = "0x5297010", Offset = "0x5296010", VA = "0x5297010")]
 	public void SetDisabled(bool disabled)
 	{
 	}
 
-	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x18FE120", Offset = "0x18FC720", VA = "0x1818FE120", Slot = "4")]
+	[Token(Token = "0x60006EB")]
+	[Address(RVA = "0x52A04D0", Offset = "0x529F4D0", VA = "0x52A04D0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x18FE060", Offset = "0x18FC660", VA = "0x1818FE060", Slot = "5")]
+	[Token(Token = "0x60006EC")]
+	[Address(RVA = "0x52A0520", Offset = "0x529F520", VA = "0x52A0520", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x18FE160", Offset = "0x18FC760", VA = "0x1818FE160", Slot = "6")]
+	[Token(Token = "0x60006ED")]
+	[Address(RVA = "0x52A0530", Offset = "0x529F530", VA = "0x52A0530", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x18FE110", Offset = "0x18FC710", VA = "0x1818FE110", Slot = "7")]
+	[Token(Token = "0x60006EE")]
+	[Address(RVA = "0x52A0590", Offset = "0x529F590", VA = "0x52A0590", Slot = "7")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x18FE4D0", Offset = "0x18FCAD0", VA = "0x1818FE4D0")]
+	[Token(Token = "0x60006EF")]
+	[Address(RVA = "0x5297020", Offset = "0x5296020", VA = "0x5297020")]
 	public void SetForcedActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x60006A2")]
-	[Address(RVA = "0xC8FFC0", Offset = "0xC8E5C0", VA = "0x180C8FFC0")]
+	[Token(Token = "0x60006F0")]
+	[Address(RVA = "0x52A05A0", Offset = "0x529F5A0", VA = "0x52A05A0")]
 	public void SetPointerHoverAllowed(Func<bool> allowed)
 	{
 	}
 
-	[Token(Token = "0x60006A3")]
-	[Address(RVA = "0x18FE060", Offset = "0x18FC660", VA = "0x1818FE060")]
+	[Token(Token = "0x60006F1")]
+	[Address(RVA = "0x5297AB0", Offset = "0x5296AB0", VA = "0x5297AB0")]
 	public void ClearPointerHover()
 	{
 	}
 
-	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x18FE4E0", Offset = "0x18FCAE0", VA = "0x1818FE4E0")]
+	[Token(Token = "0x60006F2")]
+	[Address(RVA = "0x529A500", Offset = "0x5299500", VA = "0x529A500")]
 	public void SetLabelText(string normal, string active, bool normalOwnsColor = false)
 	{
 	}
 
-	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x18FE1D0", Offset = "0x18FC7D0", VA = "0x1818FE1D0")]
+	[Token(Token = "0x60006F3")]
+	[Address(RVA = "0x52A01D0", Offset = "0x529F1D0", VA = "0x52A01D0")]
 	private void Refresh()
 	{
 	}
 
-	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x18FE0A0", Offset = "0x18FC6A0", VA = "0x1818FE0A0")]
+	[Token(Token = "0x60006F4")]
+	[Address(RVA = "0x52A0050", Offset = "0x529F050", VA = "0x52A0050")]
 	private static Color Muted(Color surface)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x60006A7")]
-	[Address(RVA = "0x18FE070", Offset = "0x18FC670", VA = "0x1818FE070")]
+	[Token(Token = "0x60006F5")]
+	[Address(RVA = "0x52A05D0", Offset = "0x529F5D0", VA = "0x52A05D0")]
 	private static float Luminance(Color color)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60006A8")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60006F6")]
+	[Address(RVA = "0x52A05F0", Offset = "0x529F5F0", VA = "0x52A05F0")]
 	public GisketchDropdownItemFeedback()
 	{
 	}

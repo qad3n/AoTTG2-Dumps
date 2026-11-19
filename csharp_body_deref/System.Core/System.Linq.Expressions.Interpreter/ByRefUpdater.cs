@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000197")]
+[Token(Token = "0x2000198")]
 internal abstract class ByRefUpdater
 {
-	[Token(Token = "0x4000372")]
+	[Token(Token = "0x400037B")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly int ArgumentIndex;
 
-	[Token(Token = "0x60008DF")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Token(Token = "0x60008EA")]
+	[Address(RVA = "0x5E06CC0", Offset = "0x5E05CC0", VA = "0x5E06CC0")]
 	public ByRefUpdater(int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008E0")]
+	[Token(Token = "0x60008EB")]
 	public abstract void Update(InterpretedFrame frame, object value);
 
-	[Token(Token = "0x60008E1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x60008EC")]
+	[Address(RVA = "0x5E06CE0", Offset = "0x5E05CE0", VA = "0x5E06CE0", Slot = "5")]
 	public virtual void UndefineTemps(InstructionList instructions, LocalVariables locals)
 	{
 	}

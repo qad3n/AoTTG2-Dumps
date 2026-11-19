@@ -23,8 +23,8 @@ internal struct NativeArrayDispose
 	[FieldOffset(Offset = "0x8")]
 	internal Allocator m_AllocatorLabel;
 
-	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x2ECD8E0", Offset = "0x2ECBEE0", VA = "0x182ECD8E0")]
+	[Token(Token = "0x6000130")]
+	[Address(RVA = "0x68B7AA0", Offset = "0x68B6AA0", VA = "0x68B7AA0")]
 	public void Dispose()
 	{
 	}

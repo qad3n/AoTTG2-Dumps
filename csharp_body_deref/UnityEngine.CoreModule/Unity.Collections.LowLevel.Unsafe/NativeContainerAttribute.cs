@@ -16,8 +16,8 @@ namespace Unity.Collections.LowLevel.Unsafe;
 [AttributeUsage(AttributeTargets.Struct)]
 public sealed class NativeContainerAttribute : Attribute
 {
-	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000151")]
+	[Address(RVA = "0x68B7CB0", Offset = "0x68B6CB0", VA = "0x68B7CB0")]
 	public NativeContainerAttribute()
 	{
 	}

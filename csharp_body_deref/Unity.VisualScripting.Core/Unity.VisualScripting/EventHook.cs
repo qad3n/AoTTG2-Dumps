@@ -26,48 +26,48 @@ public struct EventHook
 	public readonly object tag;
 
 	[Token(Token = "0x600028F")]
-	[Address(RVA = "0x2DA6170", Offset = "0x2DA4770", VA = "0x182DA6170")]
+	[Address(RVA = "0x6797400", Offset = "0x6796400", VA = "0x6797400")]
 	public EventHook(string name, [Optional] object target, [Optional] object tag)
 	{
 	}
 
 	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x2DA6020", Offset = "0x2DA4620", VA = "0x182DA6020", Slot = "0")]
+	[Address(RVA = "0x6797570", Offset = "0x6796570", VA = "0x6797570", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x2DA5FC0", Offset = "0x2DA45C0", VA = "0x182DA5FC0")]
+	[Address(RVA = "0x6797600", Offset = "0x6796600", VA = "0x6797600")]
 	public bool Equals(EventHook other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x2DA6120", Offset = "0x2DA4720", VA = "0x182DA6120", Slot = "2")]
+	[Address(RVA = "0x6797660", Offset = "0x6796660", VA = "0x6797660", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x2DA5FC0", Offset = "0x2DA45C0", VA = "0x182DA5FC0")]
+	[Address(RVA = "0x67976A0", Offset = "0x67966A0", VA = "0x67976A0")]
 	public static bool operator ==(EventHook a, EventHook b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x2DA6330", Offset = "0x2DA4930", VA = "0x182DA6330")]
+	[Address(RVA = "0x6797700", Offset = "0x6796700", VA = "0x6797700")]
 	public static bool operator !=(EventHook a, EventHook b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x2DA6300", Offset = "0x2DA4900", VA = "0x182DA6300")]
+	[Address(RVA = "0x6797770", Offset = "0x6796770", VA = "0x6797770")]
 	public static implicit operator EventHook(string name)
 	{
 		return default(EventHook);

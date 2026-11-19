@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000C0")]
+[Token(Token = "0x20000C1")]
 [DebuggerTypeProxy(typeof(Expression.SwitchCaseProxy))]
 public sealed class SwitchCase
 {
-	[Token(Token = "0x17000121")]
+	[Token(Token = "0x17000123")]
 	public ReadOnlyCollection<Expression> TestValues
 	{
-		[Token(Token = "0x6000559")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000564")]
+		[Address(RVA = "0x5DD5F90", Offset = "0x5DD4F90", VA = "0x5DD5F90")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,11 +28,11 @@ public sealed class SwitchCase
 		}
 	}
 
-	[Token(Token = "0x17000122")]
+	[Token(Token = "0x17000124")]
 	public Expression Body
 	{
-		[Token(Token = "0x600055A")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000565")]
+		[Address(RVA = "0x5DD5FA0", Offset = "0x5DD4FA0", VA = "0x5DD5FA0")]
 		[CompilerGenerated]
 		get
 		{

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.PointerEvent
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -73,14 +73,14 @@ internal struct PointerEvent : IEventProperties
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x28CBD50", Offset = "0x28CA350", VA = "0x1828CBD50")]
+		[Address(RVA = "0x69B6B00", Offset = "0x69B5B00", VA = "0x69B6B00")]
 		public void Set(Button button, bool pressed)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x2FB9D20", Offset = "0x2FB8320", VA = "0x182FB9D20")]
+		[Address(RVA = "0x69B6B20", Offset = "0x69B5B20", VA = "0x69B6B20")]
 		public bool Get(Button button)
 		{
 			return default(bool);
@@ -88,13 +88,13 @@ internal struct PointerEvent : IEventProperties
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0xB47950", Offset = "0xB45F50", VA = "0x180B47950")]
+		[Address(RVA = "0x69B6B30", Offset = "0x69B5B30", VA = "0x69B6B30")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2FB9E40", Offset = "0x2FB8440", VA = "0x182FB9E40", Slot = "3")]
+		[Address(RVA = "0x69B6B40", Offset = "0x69B5B40", VA = "0x69B6B40", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -169,7 +169,7 @@ internal struct PointerEvent : IEventProperties
 	public bool isPrimaryPointer
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x2FC2A50", Offset = "0x2FC1050", VA = "0x182FC2A50")]
+		[Address(RVA = "0x69B58A0", Offset = "0x69B48A0", VA = "0x69B58A0")]
 		get
 		{
 			return default(bool);
@@ -180,7 +180,7 @@ internal struct PointerEvent : IEventProperties
 	public Ray worldRay
 	{
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x2FC2A70", Offset = "0x2FC1070", VA = "0x182FC2A70")]
+		[Address(RVA = "0x69B58C0", Offset = "0x69B48C0", VA = "0x69B58C0")]
 		get
 		{
 			return default(Ray);
@@ -191,7 +191,7 @@ internal struct PointerEvent : IEventProperties
 	public float azimuth
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x2FC2950", Offset = "0x2FC0F50", VA = "0x182FC2950")]
+		[Address(RVA = "0x69B5A40", Offset = "0x69B4A40", VA = "0x69B5A40")]
 		get
 		{
 			return default(float);
@@ -202,7 +202,7 @@ internal struct PointerEvent : IEventProperties
 	public float altitude
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x2FC2900", Offset = "0x2FC0F00", VA = "0x182FC2900")]
+		[Address(RVA = "0x69B5BE0", Offset = "0x69B4BE0", VA = "0x69B5BE0")]
 		get
 		{
 			return default(float);
@@ -213,14 +213,14 @@ internal struct PointerEvent : IEventProperties
 	public DiscreteTime timestamp
 	{
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0", Slot = "6")]
+		[Address(RVA = "0x69B5C80", Offset = "0x69B4C80", VA = "0x69B5C80", Slot = "6")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(DiscreteTime);
 		}
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x12BF3F0", Offset = "0x12BD9F0", VA = "0x1812BF3F0")]
+		[Address(RVA = "0x69B5C90", Offset = "0x69B4C90", VA = "0x69B5C90")]
 		[CompilerGenerated]
 		set
 		{
@@ -231,14 +231,14 @@ internal struct PointerEvent : IEventProperties
 	public EventSource eventSource
 	{
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560", Slot = "4")]
+		[Address(RVA = "0x69B5CA0", Offset = "0x69B4CA0", VA = "0x69B5CA0", Slot = "4")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventSource);
 		}
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x58A8F0", Offset = "0x588EF0", VA = "0x18058A8F0")]
+		[Address(RVA = "0x69B5CB0", Offset = "0x69B4CB0", VA = "0x69B5CB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -249,7 +249,7 @@ internal struct PointerEvent : IEventProperties
 	public uint playerId
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x261CA60", Offset = "0x261B060", VA = "0x18261CA60")]
+		[Address(RVA = "0x69B5CC0", Offset = "0x69B4CC0", VA = "0x69B5CC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -260,14 +260,14 @@ internal struct PointerEvent : IEventProperties
 	public EventModifiers eventModifiers
 	{
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x58A600", Offset = "0x588C00", VA = "0x18058A600", Slot = "5")]
+		[Address(RVA = "0x69B5CD0", Offset = "0x69B4CD0", VA = "0x69B5CD0", Slot = "5")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventModifiers);
 		}
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x58A990", Offset = "0x588F90", VA = "0x18058A990")]
+		[Address(RVA = "0x69B5CE0", Offset = "0x69B4CE0", VA = "0x69B5CE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -275,14 +275,14 @@ internal struct PointerEvent : IEventProperties
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2FC1A30", Offset = "0x2FC0030", VA = "0x182FC1A30", Slot = "3")]
+	[Address(RVA = "0x69B5CF0", Offset = "0x69B4CF0", VA = "0x69B5CF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2FC1A20", Offset = "0x2FC0020", VA = "0x182FC1A20")]
+	[Address(RVA = "0x69B6AE0", Offset = "0x69B5AE0", VA = "0x69B6AE0")]
 	internal static Button ButtonFromButtonIndex(int index)
 	{
 		return default(Button);

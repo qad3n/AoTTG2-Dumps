@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsSliderJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -95,20 +95,20 @@ public struct PhysicsSliderJointDefinition
 
 	[Token(Token = "0x40000A8")]
 	[FieldOffset(Offset = "0x5C")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_TorqueThreshold;
 
 	[Token(Token = "0x40000A9")]
 	[FieldOffset(Offset = "0x60")]
-	[SerializeField]
 	[Range(0f, 1000f)]
+	[SerializeField]
 	private float m_TuningFrequency;
 
 	[Token(Token = "0x40000AA")]
 	[FieldOffset(Offset = "0x64")]
-	[Range(0f, 10f)]
 	[SerializeField]
+	[Range(0f, 10f)]
 	private float m_TuningDamping;
 
 	[Token(Token = "0x40000AB")]
@@ -126,7 +126,7 @@ public struct PhysicsSliderJointDefinition
 	public static PhysicsSliderJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x2FD78D0", Offset = "0x2FD5ED0", VA = "0x182FD78D0")]
+		[Address(RVA = "0x69CC000", Offset = "0x69CB000", VA = "0x69CC000")]
 		get
 		{
 			return default(PhysicsSliderJointDefinition);
@@ -134,13 +134,13 @@ public struct PhysicsSliderJointDefinition
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2FD7830", Offset = "0x2FD5E30", VA = "0x182FD7830")]
+	[Address(RVA = "0x69CBF20", Offset = "0x69CAF20", VA = "0x69CBF20")]
 	public PhysicsSliderJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x2FD7780", Offset = "0x2FD5D80", VA = "0x182FD7780")]
+	[Address(RVA = "0x69C9180", Offset = "0x69C8180", VA = "0x69C9180")]
 	public PhysicsSliderJointDefinition(bool useSettings)
 	{
 	}

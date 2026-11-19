@@ -11,167 +11,167 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003C0")]
+[Token(Token = "0x200037C")]
 public sealed class ClientWebSocketOptions
 {
-	[Token(Token = "0x4001096")]
+	[Token(Token = "0x4000FAE")]
 	[FieldOffset(Offset = "0x10")]
 	private bool _isReadOnly;
 
-	[Token(Token = "0x4001097")]
+	[Token(Token = "0x4000FAF")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly List<string> _requestedSubProtocols;
 
-	[Token(Token = "0x4001098")]
+	[Token(Token = "0x4000FB0")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly WebHeaderCollection _requestHeaders;
 
-	[Token(Token = "0x4001099")]
+	[Token(Token = "0x4000FB1")]
 	[FieldOffset(Offset = "0x28")]
 	private TimeSpan _keepAliveInterval;
 
-	[Token(Token = "0x400109A")]
+	[Token(Token = "0x4000FB2")]
 	[FieldOffset(Offset = "0x30")]
 	private IWebProxy _proxy;
 
-	[Token(Token = "0x400109B")]
+	[Token(Token = "0x4000FB3")]
 	[FieldOffset(Offset = "0x38")]
 	private X509CertificateCollection _clientCertificates;
 
-	[Token(Token = "0x400109C")]
+	[Token(Token = "0x4000FB4")]
 	[FieldOffset(Offset = "0x40")]
 	private CookieContainer _cookies;
 
-	[Token(Token = "0x400109D")]
+	[Token(Token = "0x4000FB5")]
 	[FieldOffset(Offset = "0x48")]
 	private int _receiveBufferSize;
 
-	[Token(Token = "0x400109E")]
+	[Token(Token = "0x4000FB6")]
 	[FieldOffset(Offset = "0x4C")]
 	private int _sendBufferSize;
 
-	[Token(Token = "0x400109F")]
+	[Token(Token = "0x4000FB7")]
 	[FieldOffset(Offset = "0x50")]
 	private ArraySegment<byte>? _buffer;
 
-	[Token(Token = "0x1700055D")]
+	[Token(Token = "0x17000530")]
 	internal WebHeaderCollection RequestHeaders
 	{
-		[Token(Token = "0x6001975")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60017BC")]
+		[Address(RVA = "0x61CCF60", Offset = "0x61CBF60", VA = "0x61CCF60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055E")]
+	[Token(Token = "0x17000531")]
 	internal List<string> RequestedSubProtocols
 	{
-		[Token(Token = "0x6001976")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60017BD")]
+		[Address(RVA = "0x61CCF70", Offset = "0x61CBF70", VA = "0x61CCF70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055F")]
+	[Token(Token = "0x17000532")]
 	public IWebProxy Proxy
 	{
-		[Token(Token = "0x6001977")]
-		[Address(RVA = "0x28111D0", Offset = "0x280F7D0", VA = "0x1828111D0")]
+		[Token(Token = "0x60017BE")]
+		[Address(RVA = "0x61CC050", Offset = "0x61CB050", VA = "0x61CC050")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000560")]
+	[Token(Token = "0x17000533")]
 	public X509CertificateCollection ClientCertificates
 	{
-		[Token(Token = "0x6001978")]
-		[Address(RVA = "0x2811160", Offset = "0x280F760", VA = "0x182811160")]
+		[Token(Token = "0x60017BF")]
+		[Address(RVA = "0x61C9610", Offset = "0x61C8610", VA = "0x61C9610")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000561")]
+	[Token(Token = "0x17000534")]
 	public CookieContainer Cookies
 	{
-		[Token(Token = "0x6001979")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x60017C0")]
+		[Address(RVA = "0x61CCFD0", Offset = "0x61CBFD0", VA = "0x61CCFD0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000562")]
+	[Token(Token = "0x17000535")]
 	public TimeSpan KeepAliveInterval
 	{
-		[Token(Token = "0x600197B")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x60017C2")]
+		[Address(RVA = "0x61CD270", Offset = "0x61CC270", VA = "0x61CD270")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x17000563")]
+	[Token(Token = "0x17000536")]
 	internal int ReceiveBufferSize
 	{
-		[Token(Token = "0x600197C")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Token(Token = "0x60017C3")]
+		[Address(RVA = "0x61CD280", Offset = "0x61CC280", VA = "0x61CD280")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000564")]
+	[Token(Token = "0x17000537")]
 	internal int SendBufferSize
 	{
-		[Token(Token = "0x600197D")]
-		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
+		[Token(Token = "0x60017C4")]
+		[Address(RVA = "0x61CD290", Offset = "0x61CC290", VA = "0x61CD290")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000565")]
+	[Token(Token = "0x17000538")]
 	internal ArraySegment<byte>? Buffer
 	{
-		[Token(Token = "0x600197E")]
-		[Address(RVA = "0xD736B0", Offset = "0xD71CB0", VA = "0x180D736B0")]
+		[Token(Token = "0x60017C5")]
+		[Address(RVA = "0x61CD2A0", Offset = "0x61CC2A0", VA = "0x61CD2A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001974")]
-	[Address(RVA = "0x2811060", Offset = "0x280F660", VA = "0x182811060")]
+	[Token(Token = "0x60017BB")]
+	[Address(RVA = "0x61CBF10", Offset = "0x61CAF10", VA = "0x61CBF10")]
 	internal ClientWebSocketOptions()
 	{
 	}
 
-	[Token(Token = "0x600197A")]
-	[Address(RVA = "0x2810D50", Offset = "0x280F350", VA = "0x182810D50")]
+	[Token(Token = "0x60017C1")]
+	[Address(RVA = "0x61CCFE0", Offset = "0x61CBFE0", VA = "0x61CCFE0")]
 	public void AddSubProtocol(string subProtocol)
 	{
 	}
 
-	[Token(Token = "0x600197F")]
-	[Address(RVA = "0xB3C020", Offset = "0xB3A620", VA = "0x180B3C020")]
+	[Token(Token = "0x60017C6")]
+	[Address(RVA = "0x61CC450", Offset = "0x61CB450", VA = "0x61CC450")]
 	internal void SetToReadOnly()
 	{
 	}
 
-	[Token(Token = "0x6001980")]
-	[Address(RVA = "0x2810FF0", Offset = "0x280F5F0", VA = "0x182810FF0")]
+	[Token(Token = "0x60017C7")]
+	[Address(RVA = "0x61CCF80", Offset = "0x61CBF80", VA = "0x61CCF80")]
 	private void ThrowIfReadOnly()
 	{
 	}

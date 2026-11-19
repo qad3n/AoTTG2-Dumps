@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.HoverTooltip
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/HoverTooltip.c
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/HoverTooltip.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,52 +11,52 @@ using UnityEngine.EventSystems;
 
 namespace UI;
 
-[Token(Token = "0x20006EC")]
+[Token(Token = "0x2000795")]
 internal class HoverTooltip : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler
 {
-	[Token(Token = "0x40022D6")]
+	[Token(Token = "0x4002650")]
 	[FieldOffset(Offset = "0x20")]
 	public string Message;
 
-	[Token(Token = "0x40022D7")]
+	[Token(Token = "0x4002651")]
 	[FieldOffset(Offset = "0x28")]
 	public float Offset;
 
-	[Token(Token = "0x40022D8")]
+	[Token(Token = "0x4002652")]
 	[FieldOffset(Offset = "0x30")]
 	public TooltipPopup PopupOverride;
 
-	[Token(Token = "0x40022D9")]
+	[Token(Token = "0x4002653")]
 	[FieldOffset(Offset = "0x38")]
 	private TooltipPopup popup;
 
-	[Token(Token = "0x600441D")]
-	[Address(RVA = "0x21C33C0", Offset = "0x21C19C0", VA = "0x1821C33C0")]
+	[Token(Token = "0x6004942")]
+	[Address(RVA = "0x5BBEDA0", Offset = "0x5BBDDA0", VA = "0x5BBEDA0")]
 	private TooltipPopup GetPopup()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600441E")]
-	[Address(RVA = "0x21C3540", Offset = "0x21C1B40", VA = "0x1821C3540", Slot = "4")]
+	[Token(Token = "0x6004943")]
+	[Address(RVA = "0x5BBEE40", Offset = "0x5BBDE40", VA = "0x5BBEE40", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerEnterHandler_002EOnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600441F")]
-	[Address(RVA = "0x21C3680", Offset = "0x21C1C80", VA = "0x1821C3680", Slot = "5")]
+	[Token(Token = "0x6004944")]
+	[Address(RVA = "0x5BBF1E0", Offset = "0x5BBE1E0", VA = "0x5BBF1E0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerExitHandler_002EOnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6004420")]
-	[Address(RVA = "0x21C3470", Offset = "0x21C1A70", VA = "0x1821C3470")]
+	[Token(Token = "0x6004945")]
+	[Address(RVA = "0x5BBF2B0", Offset = "0x5BBE2B0", VA = "0x5BBF2B0")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6004421")]
-	[Address(RVA = "0x21C3750", Offset = "0x21C1D50", VA = "0x1821C3750")]
+	[Token(Token = "0x6004946")]
+	[Address(RVA = "0x5BBF380", Offset = "0x5BBE380", VA = "0x5BBF380")]
 	public HoverTooltip()
 	{
 	}

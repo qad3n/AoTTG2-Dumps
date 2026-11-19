@@ -11,23 +11,23 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000104")]
+[Token(Token = "0x2000105")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ColorGamut.h")]
 public enum ColorGamut
 {
-	[Token(Token = "0x40002C6")]
-	sRGB,
-	[Token(Token = "0x40002C7")]
-	Rec709,
-	[Token(Token = "0x40002C8")]
-	Rec2020,
-	[Token(Token = "0x40002C9")]
-	DisplayP3,
-	[Token(Token = "0x40002CA")]
-	HDR10,
 	[Token(Token = "0x40002CB")]
-	DolbyHDR,
+	sRGB,
 	[Token(Token = "0x40002CC")]
+	Rec709,
+	[Token(Token = "0x40002CD")]
+	Rec2020,
+	[Token(Token = "0x40002CE")]
+	DisplayP3,
+	[Token(Token = "0x40002CF")]
+	HDR10,
+	[Token(Token = "0x40002D0")]
+	DolbyHDR,
+	[Token(Token = "0x40002D1")]
 	P3D65G22
 }

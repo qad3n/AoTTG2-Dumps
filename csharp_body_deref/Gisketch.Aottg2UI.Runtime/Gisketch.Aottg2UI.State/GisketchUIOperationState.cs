@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.State;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x2000035")]
 public static class GisketchUIOperationState
 {
-	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x18BDC50", Offset = "0x18BC250", VA = "0x1818BDC50")]
+	[Token(Token = "0x60001D3")]
+	[Address(RVA = "0x5246260", Offset = "0x5245260", VA = "0x5246260")]
 	public static string BusyKey(string operationKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x18BDE00", Offset = "0x18BC400", VA = "0x1818BDE00")]
+	[Token(Token = "0x60001D4")]
+	[Address(RVA = "0x52462A0", Offset = "0x52452A0", VA = "0x52462A0")]
 	public static string IdleKey(string operationKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x18BDF50", Offset = "0x18BC550", VA = "0x1818BDF50")]
+	[Token(Token = "0x60001D5")]
+	[Address(RVA = "0x52462E0", Offset = "0x52452E0", VA = "0x52462E0")]
 	public static string MessageKey(string operationKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018C")]
-	[Address(RVA = "0x18BDF90", Offset = "0x18BC590", VA = "0x1818BDF90")]
+	[Token(Token = "0x60001D6")]
+	[Address(RVA = "0x5246320", Offset = "0x5245320", VA = "0x5246320")]
 	public static bool TryBegin(GisketchUIState state, string operationKey, string message)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x18BDC90", Offset = "0x18BC290", VA = "0x1818BDC90")]
+	[Token(Token = "0x60001D7")]
+	[Address(RVA = "0x5246620", Offset = "0x5245620", VA = "0x5246620")]
 	public static void End(GisketchUIState state, string operationKey)
 	{
 	}
 
-	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x18BDE40", Offset = "0x18BC440", VA = "0x1818BDE40")]
+	[Token(Token = "0x60001D8")]
+	[Address(RVA = "0x5246780", Offset = "0x5245780", VA = "0x5246780")]
 	public static bool IsBusy(GisketchUIState state, string operationKey)
 	{
 		return default(bool);

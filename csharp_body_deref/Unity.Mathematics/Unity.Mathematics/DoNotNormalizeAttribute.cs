@@ -14,7 +14,7 @@ namespace Unity.Mathematics;
 public class DoNotNormalizeAttribute : PropertyAttribute
 {
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
+	[Address(RVA = "0x63EF290", Offset = "0x63EE290", VA = "0x63EF290")]
 	public DoNotNormalizeAttribute()
 	{
 	}

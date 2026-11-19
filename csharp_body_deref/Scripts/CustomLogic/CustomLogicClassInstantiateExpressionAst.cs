@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003D8")]
+[Token(Token = "0x2000437")]
 internal class CustomLogicClassInstantiateExpressionAst : CustomLogicBaseExpressionAst
 {
-	[Token(Token = "0x40013EB")]
+	[Token(Token = "0x400158B")]
 	[FieldOffset(Offset = "0x18")]
 	public string Name;
 
-	[Token(Token = "0x40013EC")]
+	[Token(Token = "0x400158C")]
 	[FieldOffset(Offset = "0x20")]
 	public List<CustomLogicBaseAst> Parameters;
 
-	[Token(Token = "0x40013ED")]
+	[Token(Token = "0x400158D")]
 	[FieldOffset(Offset = "0x28")]
 	public CustomLogicBaseExpressionAst Left;
 
-	[Token(Token = "0x60017F8")]
-	[Address(RVA = "0x1ECDE30", Offset = "0x1ECC430", VA = "0x181ECDE30")]
+	[Token(Token = "0x6001A6F")]
+	[Address(RVA = "0x58A8E00", Offset = "0x58A7E00", VA = "0x58A8E00")]
 	public CustomLogicClassInstantiateExpressionAst(string name, int line)
 	{
 	}

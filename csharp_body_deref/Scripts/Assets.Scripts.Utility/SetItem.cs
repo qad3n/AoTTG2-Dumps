@@ -10,59 +10,59 @@ using Il2CppDummyDll;
 
 namespace Assets.Scripts.Utility;
 
-[Token(Token = "0x200089A")]
+[Token(Token = "0x2000900")]
 public class SetItem<TKey, TValue>
 {
-	[Token(Token = "0x17000EF5")]
+	[Token(Token = "0x17000ED4")]
 	public TKey Key
 	{
-		[Token(Token = "0x6005239")]
+		[Token(Token = "0x6005575")]
 		[CompilerGenerated]
 		get
 		{
 			return (TKey)null;
 		}
-		[Token(Token = "0x600523A")]
+		[Token(Token = "0x6005576")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000EF6")]
+	[Token(Token = "0x17000ED5")]
 	public TValue Value
 	{
-		[Token(Token = "0x600523B")]
+		[Token(Token = "0x6005577")]
 		[CompilerGenerated]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x600523C")]
+		[Token(Token = "0x6005578")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600523D")]
+	[Token(Token = "0x6005579")]
 	public SetItem(TKey key, TValue value)
 	{
 	}
 
-	[Token(Token = "0x600523E")]
+	[Token(Token = "0x600557A")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600523F")]
+	[Token(Token = "0x600557B")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6005240")]
+	[Token(Token = "0x600557C")]
 	public override string ToString()
 	{
 		return null;

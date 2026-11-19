@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x2000499")]
+[Token(Token = "0x2000472")]
 [AttributeUsage(AttributeTargets.All, Inherited = true)]
 public sealed class CompilerGeneratedAttribute : Attribute
 {
-	[Token(Token = "0x60022DA")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60022A7")]
+	[Address(RVA = "0x53C8060", Offset = "0x53C7060", VA = "0x53C8060")]
 	public CompilerGeneratedAttribute()
 	{
 	}

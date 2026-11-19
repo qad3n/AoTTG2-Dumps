@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000809")]
+[Token(Token = "0x200088B")]
 internal class QuestWeeklyPanel : QuestCategoryPanel
 {
-	[Token(Token = "0x6004D8A")]
-	[Address(RVA = "0x229A200", Offset = "0x2298800", VA = "0x18229A200", Slot = "20")]
+	[Token(Token = "0x600514F")]
+	[Address(RVA = "0x5C5BA10", Offset = "0x5C5AA10", VA = "0x5C5BA10", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004D8B")]
-	[Address(RVA = "0x2297A80", Offset = "0x2296080", VA = "0x182297A80")]
+	[Token(Token = "0x6005150")]
+	[Address(RVA = "0x5C5BC20", Offset = "0x5C5AC20", VA = "0x5C5BC20")]
 	public QuestWeeklyPanel()
 	{
 	}

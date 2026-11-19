@@ -12,9 +12,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000012")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
 public struct AnimatorClipInfo
 {
 	[Token(Token = "0x4000034")]

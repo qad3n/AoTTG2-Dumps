@@ -48,7 +48,7 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier
 	public RectTransform rectTransform
 	{
 		[Token(Token = "0x6000340")]
-		[Address(RVA = "0x32D7B40", Offset = "0x32D6140", VA = "0x1832D7B40")]
+		[Address(RVA = "0x6CE51F0", Offset = "0x6CE41F0", VA = "0x6CE51F0")]
 		get
 		{
 			return null;
@@ -59,13 +59,13 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier
 	public bool showMaskGraphic
 	{
 		[Token(Token = "0x6000341")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x6CE5250", Offset = "0x6CE4250", VA = "0x6CE5250")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000342")]
-		[Address(RVA = "0x32D7BB0", Offset = "0x32D61B0", VA = "0x1832D7BB0")]
+		[Address(RVA = "0x6CE5260", Offset = "0x6CE4260", VA = "0x6CE5260")]
 		set
 		{
 		}
@@ -75,7 +75,7 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier
 	public Graphic graphic
 	{
 		[Token(Token = "0x6000343")]
-		[Address(RVA = "0x32D7AD0", Offset = "0x32D60D0", VA = "0x1832D7AD0")]
+		[Address(RVA = "0x6CE53C0", Offset = "0x6CE43C0", VA = "0x6CE53C0")]
 		get
 		{
 			return null;
@@ -83,46 +83,46 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x32D7AC0", Offset = "0x32D60C0", VA = "0x1832D7AC0")]
+	[Address(RVA = "0x6CE5420", Offset = "0x6CE4420", VA = "0x6CE5420")]
 	protected Mask()
 	{
 	}
 
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x32D7420", Offset = "0x32D5A20", VA = "0x1832D7420", Slot = "19")]
+	[Address(RVA = "0x6CE5430", Offset = "0x6CE4430", VA = "0x6CE5430", Slot = "19")]
 	public virtual bool MaskEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "20")]
+	[Address(RVA = "0x6CE5510", Offset = "0x6CE4510", VA = "0x6CE5510", Slot = "20")]
 	[Obsolete("Not used anymore.")]
 	public virtual void OnSiblingGraphicEnabledDisabled()
 	{
 	}
 
 	[Token(Token = "0x6000347")]
-	[Address(RVA = "0x32D7840", Offset = "0x32D5E40", VA = "0x1832D7840", Slot = "5")]
+	[Address(RVA = "0x6CE5520", Offset = "0x6CE4520", VA = "0x6CE5520", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000348")]
-	[Address(RVA = "0x32D74E0", Offset = "0x32D5AE0", VA = "0x1832D74E0", Slot = "7")]
+	[Address(RVA = "0x6CE5AB0", Offset = "0x6CE4AB0", VA = "0x6CE5AB0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000349")]
-	[Address(RVA = "0x32D7330", Offset = "0x32D5930", VA = "0x1832D7330", Slot = "21")]
+	[Address(RVA = "0x6CE5E90", Offset = "0x6CE4E90", VA = "0x6CE5E90", Slot = "21")]
 	public virtual bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600034A")]
-	[Address(RVA = "0x32D7020", Offset = "0x32D5620", VA = "0x1832D7020", Slot = "22")]
+	[Address(RVA = "0x6CE5F90", Offset = "0x6CE4F90", VA = "0x6CE5F90", Slot = "22")]
 	public virtual Material GetModifiedMaterial(Material baseMaterial)
 	{
 		return null;

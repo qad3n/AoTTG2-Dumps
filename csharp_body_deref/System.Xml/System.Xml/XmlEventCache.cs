@@ -98,7 +98,7 @@ internal sealed class XmlEventCache : XmlRawWriter
 		public XmlEventType EventType
 		{
 			[Token(Token = "0x60002FC")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+			[Address(RVA = "0x60A42D0", Offset = "0x60A32D0", VA = "0x60A42D0")]
 			get
 			{
 				return default(XmlEventType);
@@ -109,7 +109,7 @@ internal sealed class XmlEventCache : XmlRawWriter
 		public string String1
 		{
 			[Token(Token = "0x60002FD")]
-			[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+			[Address(RVA = "0x60A42E0", Offset = "0x60A32E0", VA = "0x60A42E0")]
 			get
 			{
 				return null;
@@ -120,7 +120,7 @@ internal sealed class XmlEventCache : XmlRawWriter
 		public string String2
 		{
 			[Token(Token = "0x60002FE")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x60A42F0", Offset = "0x60A32F0", VA = "0x60A42F0")]
 			get
 			{
 				return null;
@@ -131,7 +131,7 @@ internal sealed class XmlEventCache : XmlRawWriter
 		public string String3
 		{
 			[Token(Token = "0x60002FF")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x60A4300", Offset = "0x60A3300", VA = "0x60A4300")]
 			get
 			{
 				return null;
@@ -142,7 +142,7 @@ internal sealed class XmlEventCache : XmlRawWriter
 		public object Object
 		{
 			[Token(Token = "0x6000300")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Address(RVA = "0x60A4310", Offset = "0x60A3310", VA = "0x60A4310")]
 			get
 			{
 				return null;
@@ -150,37 +150,37 @@ internal sealed class XmlEventCache : XmlRawWriter
 		}
 
 		[Token(Token = "0x60002F6")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x60A42C0", Offset = "0x60A32C0", VA = "0x60A42C0")]
 		public void InitEvent(XmlEventType eventType)
 		{
 		}
 
 		[Token(Token = "0x60002F7")]
-		[Address(RVA = "0x1028B90", Offset = "0x1027190", VA = "0x181028B90")]
+		[Address(RVA = "0x60A4180", Offset = "0x60A3180", VA = "0x60A4180")]
 		public void InitEvent(XmlEventType eventType, string s1)
 		{
 		}
 
 		[Token(Token = "0x60002F8")]
-		[Address(RVA = "0x26EC7F0", Offset = "0x26EADF0", VA = "0x1826EC7F0")]
+		[Address(RVA = "0x60A41A0", Offset = "0x60A31A0", VA = "0x60A41A0")]
 		public void InitEvent(XmlEventType eventType, string s1, string s2)
 		{
 		}
 
 		[Token(Token = "0x60002F9")]
-		[Address(RVA = "0x26EC8B0", Offset = "0x26EAEB0", VA = "0x1826EC8B0")]
+		[Address(RVA = "0x60A41E0", Offset = "0x60A31E0", VA = "0x60A41E0")]
 		public void InitEvent(XmlEventType eventType, string s1, string s2, string s3)
 		{
 		}
 
 		[Token(Token = "0x60002FA")]
-		[Address(RVA = "0x26EC850", Offset = "0x26EAE50", VA = "0x1826EC850")]
+		[Address(RVA = "0x60A4230", Offset = "0x60A3230", VA = "0x60A4230")]
 		public void InitEvent(XmlEventType eventType, string s1, string s2, string s3, object o)
 		{
 		}
 
 		[Token(Token = "0x60002FB")]
-		[Address(RVA = "0x26EC830", Offset = "0x26EAE30", VA = "0x1826EC830")]
+		[Address(RVA = "0x60A42A0", Offset = "0x60A32A0", VA = "0x60A42A0")]
 		public void InitEvent(XmlEventType eventType, object o)
 		{
 		}
@@ -211,236 +211,236 @@ internal sealed class XmlEventCache : XmlRawWriter
 	private string baseUri;
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x26EC7A0", Offset = "0x26EADA0", VA = "0x1826EC7A0")]
+	[Address(RVA = "0x609D680", Offset = "0x609C680", VA = "0x609D680")]
 	public XmlEventCache(string baseUri, bool hasRootNode)
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x26EB170", Offset = "0x26E9770", VA = "0x1826EB170")]
+	[Address(RVA = "0x609E290", Offset = "0x609D290", VA = "0x609E290")]
 	public void EndEvents()
 	{
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x26EB1C0", Offset = "0x26E97C0", VA = "0x1826EB1C0")]
+	[Address(RVA = "0x609E2D0", Offset = "0x609D2D0", VA = "0x609E2D0")]
 	public void EventsToWriter(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x26EC140", Offset = "0x26EA740", VA = "0x1826EC140", Slot = "8")]
+	[Address(RVA = "0x60A2FB0", Offset = "0x60A1FB0", VA = "0x60A2FB0", Slot = "8")]
 	public override void WriteDocType(string name, string pubid, string sysid, string subset)
 	{
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x26EC4C0", Offset = "0x26EAAC0", VA = "0x1826EC4C0", Slot = "9")]
+	[Address(RVA = "0x60A3090", Offset = "0x60A2090", VA = "0x60A3090", Slot = "9")]
 	public override void WriteStartElement(string prefix, string localName, string ns)
 	{
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x26EC490", Offset = "0x26EAA90", VA = "0x1826EC490", Slot = "12")]
+	[Address(RVA = "0x60A31D0", Offset = "0x60A21D0", VA = "0x60A31D0", Slot = "12")]
 	public override void WriteStartAttribute(string prefix, string localName, string ns)
 	{
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x26EC1F0", Offset = "0x26EA7F0", VA = "0x1826EC1F0", Slot = "13")]
+	[Address(RVA = "0x60A3270", Offset = "0x60A2270", VA = "0x60A3270", Slot = "13")]
 	public override void WriteEndAttribute()
 	{
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x26EC000", Offset = "0x26EA600", VA = "0x1826EC000", Slot = "14")]
+	[Address(RVA = "0x60A32B0", Offset = "0x60A22B0", VA = "0x60A32B0", Slot = "14")]
 	public override void WriteCData(string text)
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x26EC0E0", Offset = "0x26EA6E0", VA = "0x1826EC0E0", Slot = "15")]
+	[Address(RVA = "0x60A3360", Offset = "0x60A2360", VA = "0x60A3360", Slot = "15")]
 	public override void WriteComment(string text)
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x26EC3B0", Offset = "0x26EA9B0", VA = "0x1826EC3B0", Slot = "16")]
+	[Address(RVA = "0x60A33C0", Offset = "0x60A23C0", VA = "0x60A33C0", Slot = "16")]
 	public override void WriteProcessingInstruction(string name, string text)
 	{
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x26EC640", Offset = "0x26EAC40", VA = "0x1826EC640", Slot = "19")]
+	[Address(RVA = "0x60A34C0", Offset = "0x60A24C0", VA = "0x60A34C0", Slot = "19")]
 	public override void WriteWhitespace(string ws)
 	{
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x26EC4F0", Offset = "0x26EAAF0", VA = "0x1826EC4F0", Slot = "20")]
+	[Address(RVA = "0x60A3520", Offset = "0x60A2520", VA = "0x60A3520", Slot = "20")]
 	public override void WriteString(string text)
 	{
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x26E53D0", Offset = "0x26E39D0", VA = "0x1826E53D0", Slot = "22")]
+	[Address(RVA = "0x60A35A0", Offset = "0x60A25A0", VA = "0x60A35A0", Slot = "22")]
 	public override void WriteChars(char[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60002DC")]
-	[Address(RVA = "0x26E5630", Offset = "0x26E3C30", VA = "0x1826E5630", Slot = "23")]
+	[Address(RVA = "0x60A35D0", Offset = "0x60A25D0", VA = "0x60A35D0", Slot = "23")]
 	public override void WriteRaw(char[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60002DD")]
-	[Address(RVA = "0x26EC430", Offset = "0x26EAA30", VA = "0x1826EC430", Slot = "24")]
+	[Address(RVA = "0x60A3600", Offset = "0x60A2600", VA = "0x60A3600", Slot = "24")]
 	public override void WriteRaw(string data)
 	{
 	}
 
 	[Token(Token = "0x60002DE")]
-	[Address(RVA = "0x26EC2A0", Offset = "0x26EA8A0", VA = "0x1826EC2A0", Slot = "17")]
+	[Address(RVA = "0x60A3660", Offset = "0x60A2660", VA = "0x60A3660", Slot = "17")]
 	public override void WriteEntityRef(string name)
 	{
 	}
 
 	[Token(Token = "0x60002DF")]
-	[Address(RVA = "0x26EC060", Offset = "0x26EA660", VA = "0x1826EC060", Slot = "18")]
+	[Address(RVA = "0x60A36C0", Offset = "0x60A26C0", VA = "0x60A36C0", Slot = "18")]
 	public override void WriteCharEntity(char ch)
 	{
 	}
 
 	[Token(Token = "0x60002E0")]
-	[Address(RVA = "0x26EC570", Offset = "0x26EAB70", VA = "0x1826EC570", Slot = "21")]
+	[Address(RVA = "0x60A3790", Offset = "0x60A2790", VA = "0x60A3790", Slot = "21")]
 	public override void WriteSurrogateCharEntity(char lowChar, char highChar)
 	{
 	}
 
 	[Token(Token = "0x60002E1")]
-	[Address(RVA = "0x26EBE40", Offset = "0x26EA440", VA = "0x1826EBE40", Slot = "25")]
+	[Address(RVA = "0x60A3840", Offset = "0x60A2840", VA = "0x60A3840", Slot = "25")]
 	public override void WriteBase64(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60002E2")]
-	[Address(RVA = "0x26EBF20", Offset = "0x26EA520", VA = "0x1826EBF20", Slot = "26")]
+	[Address(RVA = "0x60A39D0", Offset = "0x60A29D0", VA = "0x60A39D0", Slot = "26")]
 	public override void WriteBinHex(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x26EB080", Offset = "0x26E9680", VA = "0x1826EB080", Slot = "28")]
+	[Address(RVA = "0x60A3AC0", Offset = "0x60A2AC0", VA = "0x60A3AC0", Slot = "28")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x26EBB70", Offset = "0x26EA170", VA = "0x1826EBB70", Slot = "29")]
+	[Address(RVA = "0x60A3B00", Offset = "0x60A2B00", VA = "0x60A3B00", Slot = "29")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x60002E5")]
-	[Address(RVA = "0x26EC620", Offset = "0x26EAC20", VA = "0x1826EC620", Slot = "31")]
+	[Address(RVA = "0x60A3B40", Offset = "0x60A2B40", VA = "0x60A3B40", Slot = "31")]
 	public override void WriteValue(string value)
 	{
 	}
 
 	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x26EB0C0", Offset = "0x26E96C0", VA = "0x1826EB0C0", Slot = "34")]
+	[Address(RVA = "0x60A3B60", Offset = "0x60A2B60", VA = "0x60A3B60", Slot = "34")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x26EC6A0", Offset = "0x26EACA0", VA = "0x1826EC6A0", Slot = "36")]
+	[Address(RVA = "0x60A3C20", Offset = "0x60A2C20", VA = "0x60A3C20", Slot = "36")]
 	internal override void WriteXmlDeclaration(XmlStandalone standalone)
 	{
 	}
 
 	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x26EC740", Offset = "0x26EAD40", VA = "0x1826EC740", Slot = "37")]
+	[Address(RVA = "0x60A3CB0", Offset = "0x60A2CB0", VA = "0x60A3CB0", Slot = "37")]
 	internal override void WriteXmlDeclaration(string xmldecl)
 	{
 	}
 
 	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x26EBD40", Offset = "0x26EA340", VA = "0x1826EBD40", Slot = "38")]
+	[Address(RVA = "0x60A3D10", Offset = "0x60A2D10", VA = "0x60A3D10", Slot = "38")]
 	internal override void StartElementContent()
 	{
 	}
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x26EC270", Offset = "0x26EA870", VA = "0x1826EC270", Slot = "40")]
+	[Address(RVA = "0x60A3D50", Offset = "0x60A2D50", VA = "0x60A3D50", Slot = "40")]
 	internal override void WriteEndElement(string prefix, string localName, string ns)
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x26EC300", Offset = "0x26EA900", VA = "0x1826EC300", Slot = "41")]
+	[Address(RVA = "0x60A3DF0", Offset = "0x60A2DF0", VA = "0x60A3DF0", Slot = "41")]
 	internal override void WriteFullEndElement(string prefix, string localName, string ns)
 	{
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x26EC330", Offset = "0x26EA930", VA = "0x1826EC330", Slot = "42")]
+	[Address(RVA = "0x60A3E90", Offset = "0x60A2E90", VA = "0x60A3E90", Slot = "42")]
 	internal override void WriteNamespaceDeclaration(string prefix, string ns)
 	{
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x26EC230", Offset = "0x26EA830", VA = "0x1826EC230", Slot = "46")]
+	[Address(RVA = "0x60A3F10", Offset = "0x60A2F10", VA = "0x60A3F10", Slot = "46")]
 	internal override void WriteEndBase64()
 	{
 	}
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x26EAE20", Offset = "0x26E9420", VA = "0x1826EAE20")]
+	[Address(RVA = "0x60A2F70", Offset = "0x60A1F70", VA = "0x60A2F70")]
 	private void AddEvent(XmlEventType eventType)
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x26EAF90", Offset = "0x26E9590", VA = "0x1826EAF90")]
+	[Address(RVA = "0x60A3310", Offset = "0x60A2310", VA = "0x60A3310")]
 	private void AddEvent(XmlEventType eventType, string s1)
 	{
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x26EB000", Offset = "0x26E9600", VA = "0x1826EB000")]
+	[Address(RVA = "0x60A3440", Offset = "0x60A2440", VA = "0x60A3440")]
 	private void AddEvent(XmlEventType eventType, string s1, string s2)
 	{
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x26EAD90", Offset = "0x26E9390", VA = "0x1826EAD90")]
+	[Address(RVA = "0x60A3130", Offset = "0x60A2130", VA = "0x60A3130")]
 	private void AddEvent(XmlEventType eventType, string s1, string s2, string s3)
 	{
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x26EAEE0", Offset = "0x26E94E0", VA = "0x1826EAEE0")]
+	[Address(RVA = "0x60A2FD0", Offset = "0x60A1FD0", VA = "0x60A2FD0")]
 	private void AddEvent(XmlEventType eventType, string s1, string s2, string s3, object o)
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x26EAE70", Offset = "0x26E9470", VA = "0x1826EAE70")]
+	[Address(RVA = "0x60A3740", Offset = "0x60A2740", VA = "0x60A3740")]
 	private void AddEvent(XmlEventType eventType, object o)
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x26EBBB0", Offset = "0x26EA1B0", VA = "0x1826EBBB0")]
+	[Address(RVA = "0x60A3F50", Offset = "0x60A2F50", VA = "0x60A3F50")]
 	private int NewEvent()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x26EBD80", Offset = "0x26EA380", VA = "0x1826EBD80")]
+	[Address(RVA = "0x60A3930", Offset = "0x60A2930", VA = "0x60A3930")]
 	private static byte[] ToBytes(byte[] buffer, int index, int count)
 	{
 		return null;

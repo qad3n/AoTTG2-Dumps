@@ -17,7 +17,7 @@ public struct RectOptions : IPlugOptions
 	public bool snapping;
 
 	[Token(Token = "0x6000378")]
-	[Address(RVA = "0x564910", Offset = "0x562F10", VA = "0x180564910", Slot = "4")]
+	[Address(RVA = "0x318FED0", Offset = "0x318EED0", VA = "0x318FED0", Slot = "4")]
 	public void Reset()
 	{
 	}

@@ -11,61 +11,61 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002DA")]
+[Token(Token = "0x2000337")]
 [AottgPopover("public-profile-hover", DismissOnBackdrop = false)]
 public sealed class AottgPublicProfileHoverPopover : AottgPopover
 {
-	[Token(Token = "0x4000E82")]
+	[Token(Token = "0x4001010")]
 	public const string Id = "public-profile-hover";
 
-	[Token(Token = "0x170001F7")]
+	[Token(Token = "0x17000234")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x60011D2")]
-		[Address(RVA = "0x1E2C630", Offset = "0x1E2AC30", VA = "0x181E2C630", Slot = "4")]
+		[Token(Token = "0x6001424")]
+		[Address(RVA = "0x580DC50", Offset = "0x580CC50", VA = "0x580DC50", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001F8")]
+	[Token(Token = "0x17000235")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60011D3")]
-		[Address(RVA = "0x1E2C540", Offset = "0x1E2AB40", VA = "0x181E2C540", Slot = "5")]
+		[Token(Token = "0x6001425")]
+		[Address(RVA = "0x580DC80", Offset = "0x580CC80", VA = "0x580DC80", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011D4")]
-	[Address(RVA = "0x1E2C320", Offset = "0x1E2A920", VA = "0x181E2C320", Slot = "6")]
+	[Token(Token = "0x6001426")]
+	[Address(RVA = "0x580DD40", Offset = "0x580CD40", VA = "0x580DD40", Slot = "6")]
 	protected override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x60011D5")]
-	[Address(RVA = "0x1E2BE00", Offset = "0x1E2A400", VA = "0x181E2BE00")]
+	[Token(Token = "0x6001427")]
+	[Address(RVA = "0x580DF10", Offset = "0x580CF10", VA = "0x580DF10")]
 	private static void BuildLoading(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x60011D6")]
-	[Address(RVA = "0x1E2C090", Offset = "0x1E2A690", VA = "0x181E2C090")]
+	[Token(Token = "0x6001428")]
+	[Address(RVA = "0x580E150", Offset = "0x580D150", VA = "0x580E150")]
 	private static void BuildReady(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x60011D7")]
-	[Address(RVA = "0x1E2BB50", Offset = "0x1E2A150", VA = "0x181E2BB50")]
+	[Token(Token = "0x6001429")]
+	[Address(RVA = "0x580E390", Offset = "0x580D390", VA = "0x580E390")]
 	private static void BuildError(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x60011D8")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600142A")]
+	[Address(RVA = "0x580E5F0", Offset = "0x580D5F0", VA = "0x580E5F0")]
 	public AottgPublicProfileHoverPopover()
 	{
 	}

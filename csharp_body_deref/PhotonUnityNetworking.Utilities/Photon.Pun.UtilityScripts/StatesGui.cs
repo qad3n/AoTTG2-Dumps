@@ -91,32 +91,32 @@ public class StatesGui : MonoBehaviour
 	private float native_height;
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x1D5DDA0", Offset = "0x1D5C3A0", VA = "0x181D5DDA0")]
+	[Address(RVA = "0x56EC2D0", Offset = "0x56EB2D0", VA = "0x56EC2D0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x1D5DF10", Offset = "0x1D5C510", VA = "0x181D5DF10")]
+	[Address(RVA = "0x56EC440", Offset = "0x56EB440", VA = "0x56EC440")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x1D5DFC0", Offset = "0x1D5C5C0", VA = "0x181D5DFC0")]
+	[Address(RVA = "0x56EC4E0", Offset = "0x56EB4E0", VA = "0x56EC4E0")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x1D5EE60", Offset = "0x1D5D460", VA = "0x181D5EE60")]
+	[Address(RVA = "0x56EDB80", Offset = "0x56ECB80", VA = "0x56EDB80")]
 	private string PlayerToString(Player player)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x1D5F2B0", Offset = "0x1D5D8B0", VA = "0x181D5F2B0")]
+	[Address(RVA = "0x56EDFF0", Offset = "0x56ECFF0", VA = "0x56EDFF0")]
 	public StatesGui()
 	{
 	}

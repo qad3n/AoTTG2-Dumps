@@ -26,7 +26,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000D8A")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x630CF10", Offset = "0x630BF10", VA = "0x630CF10")]
 		[DebuggerHidden]
 		get
 		{
@@ -36,7 +36,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D89")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Address(RVA = "0x630CF00", Offset = "0x630BF00", VA = "0x630CF00")]
 	[DebuggerHidden]
 	public static AsyncUniTaskVoidMethodBuilder Create()
 	{
@@ -45,7 +45,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x293E1A0", Offset = "0x293C7A0", VA = "0x18293E1A0")]
+	[Address(RVA = "0x630CF20", Offset = "0x630BF20", VA = "0x630CF20")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
@@ -53,7 +53,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D8C")]
-	[Address(RVA = "0x293E270", Offset = "0x293C870", VA = "0x18293E270")]
+	[Address(RVA = "0x630D050", Offset = "0x630C050", VA = "0x630D050")]
 	[DebuggerHidden]
 	public void SetResult()
 	{
@@ -80,7 +80,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 	}
 
 	[Token(Token = "0x6000D90")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x62E43F0", Offset = "0x62E33F0", VA = "0x62E43F0")]
 	[DebuggerHidden]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{

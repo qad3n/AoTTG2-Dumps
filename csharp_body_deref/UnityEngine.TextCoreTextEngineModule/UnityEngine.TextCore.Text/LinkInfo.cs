@@ -48,20 +48,20 @@ internal struct LinkInfo
 	private string m_LinkTextString;
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3013480", Offset = "0x3011A80", VA = "0x183013480")]
+	[Address(RVA = "0x6A0E350", Offset = "0x6A0D350", VA = "0x6A0E350")]
 	internal void SetLinkId(char[] text, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3013390", Offset = "0x3011990", VA = "0x183013390")]
+	[Address(RVA = "0x6A0E450", Offset = "0x6A0D450", VA = "0x6A0E450")]
 	public string GetLinkText(TextInfo textInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x3013340", Offset = "0x3011940", VA = "0x183013340")]
+	[Address(RVA = "0x6A0E550", Offset = "0x6A0D550", VA = "0x6A0E550")]
 	public string GetLinkId()
 	{
 		return null;

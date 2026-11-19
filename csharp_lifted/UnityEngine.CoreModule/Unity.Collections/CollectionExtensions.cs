@@ -1,0 +1,43 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Collections.CollectionExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using Il2CppDummyDll;
+using UnityEngine.Bindings;
+
+namespace Unity.Collections;
+
+[Token(Token = "0x200004D")]
+[UnityEngine.Bindings.VisibleToOtherModules]
+internal static class CollectionExtensions
+{
+	[Token(Token = "0x60000E3")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
+	internal static void AddToArray<T>(ref T[] array, T item)
+	{
+	}
+
+	[Token(Token = "0x60000E4")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
+	internal static void InsertIntoArray<T>(ref T[] array, int index, T item)
+	{
+	}
+
+	[Token(Token = "0x60000E5")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
+	internal static void RemoveFromArray<T>(ref T[] array, int index)
+	{
+	}
+
+	[Token(Token = "0x60000E6")]
+	internal static string SerializedView<T>([DisallowNull] this IEnumerable<T> collection, [DisallowNull] Func<T, string> serializeElement)
+	{
+		return null;
+	}
+}

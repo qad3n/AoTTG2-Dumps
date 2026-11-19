@@ -32,7 +32,7 @@ internal struct Spacing
 	public float horizontal
 	{
 		[Token(Token = "0x60013C0")]
-		[Address(RVA = "0x32B6510", Offset = "0x32B4B10", VA = "0x1832B6510")]
+		[Address(RVA = "0x6CC3B60", Offset = "0x6CC2B60", VA = "0x6CC3B60")]
 		get
 		{
 			return default(float);
@@ -43,7 +43,7 @@ internal struct Spacing
 	public float vertical
 	{
 		[Token(Token = "0x60013C1")]
-		[Address(RVA = "0x32B6520", Offset = "0x32B4B20", VA = "0x1832B6520")]
+		[Address(RVA = "0x6CC3B70", Offset = "0x6CC2B70", VA = "0x6CC3B70")]
 		get
 		{
 			return default(float);
@@ -51,13 +51,13 @@ internal struct Spacing
 	}
 
 	[Token(Token = "0x60013C2")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x6CC3B80", Offset = "0x6CC2B80", VA = "0x6CC3B80")]
 	public Spacing(float left, float top, float right, float bottom)
 	{
 	}
 
 	[Token(Token = "0x60013C3")]
-	[Address(RVA = "0x32B6530", Offset = "0x32B4B30", VA = "0x1832B6530")]
+	[Address(RVA = "0x6CC3BA0", Offset = "0x6CC2BA0", VA = "0x6CC3BA0")]
 	public static Rect operator -(Rect r, Spacing a)
 	{
 		return default(Rect);

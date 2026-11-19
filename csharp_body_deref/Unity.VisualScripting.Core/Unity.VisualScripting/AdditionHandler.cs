@@ -13,13 +13,13 @@ namespace Unity.VisualScripting;
 public sealed class AdditionHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x60006DE")]
-	[Address(RVA = "0x2DBFD00", Offset = "0x2DBE300", VA = "0x182DBFD00")]
+	[Address(RVA = "0x67BF9D0", Offset = "0x67BE9D0", VA = "0x67BF9D0")]
 	public AdditionHandler()
 	{
 	}
 
 	[Token(Token = "0x60006DF")]
-	[Address(RVA = "0x2DBFCA0", Offset = "0x2DBE2A0", VA = "0x182DBFCA0", Slot = "5")]
+	[Address(RVA = "0x67C5B90", Offset = "0x67C4B90", VA = "0x67C5B90", Slot = "5")]
 	protected override object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;

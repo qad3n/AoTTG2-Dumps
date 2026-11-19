@@ -47,7 +47,7 @@ public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHa
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60000AC")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x56F4DB0", Offset = "0x56F3DB0", VA = "0x56F4DB0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,7 +59,7 @@ public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHa
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60000AE")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x56F4E00", Offset = "0x56F3E00", VA = "0x56F4E00", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,28 +68,28 @@ public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHa
 		}
 
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x56F4A60", Offset = "0x56F3A60", VA = "0x56F4A60")]
 		[DebuggerHidden]
 		public _003CClickFlash_003Ed__8(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x56F4A90", Offset = "0x56F3A90", VA = "0x56F4A90", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x1D605A0", Offset = "0x1D5EBA0", VA = "0x181D605A0", Slot = "6")]
+		[Address(RVA = "0x56F4AA0", Offset = "0x56F3AA0", VA = "0x56F4AA0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x1D608E0", Offset = "0x1D5EEE0", VA = "0x181D608E0", Slot = "8")]
+		[Address(RVA = "0x56F4DC0", Offset = "0x56F3DC0", VA = "0x56F4DC0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -121,20 +121,20 @@ public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHa
 	private bool isFlashing;
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x1D53E70", Offset = "0x1D52470", VA = "0x181D53E70", Slot = "4")]
+	[Address(RVA = "0x56F4800", Offset = "0x56F3800", VA = "0x56F4800", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x1D53DF0", Offset = "0x1D523F0", VA = "0x181D53DF0")]
+	[Address(RVA = "0x56F4980", Offset = "0x56F3980", VA = "0x56F4980")]
 	[PunRPC]
 	public void ClickRpc()
 	{
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x1D53D80", Offset = "0x1D52380", VA = "0x181D53D80")]
+	[Address(RVA = "0x56F49F0", Offset = "0x56F39F0", VA = "0x56F49F0")]
 	[IteratorStateMachine(typeof(_003CClickFlash_003Ed__8))]
 	public IEnumerator ClickFlash()
 	{
@@ -142,7 +142,7 @@ public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHa
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x56F4A80", Offset = "0x56F3A80", VA = "0x56F4A80")]
 	public OnClickRpc()
 	{
 	}

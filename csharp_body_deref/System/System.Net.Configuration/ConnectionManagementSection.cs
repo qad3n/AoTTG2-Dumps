@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003E5")]
+[Token(Token = "0x20003A1")]
 public sealed class ConnectionManagementSection : ConfigurationSection
 {
-	[Token(Token = "0x1700058E")]
+	[Token(Token = "0x17000560")]
 	public ConnectionManagementElementCollection ConnectionManagement
 	{
-		[Token(Token = "0x6001A20")]
-		[Address(RVA = "0x282A810", Offset = "0x2828E10", VA = "0x18282A810")]
+		[Token(Token = "0x6001866")]
+		[Address(RVA = "0x61CFC90", Offset = "0x61CEC90", VA = "0x61CFC90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700058F")]
+	[Token(Token = "0x17000561")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A21")]
-		[Address(RVA = "0x282A840", Offset = "0x2828E40", VA = "0x18282A840", Slot = "4")]
+		[Token(Token = "0x6001867")]
+		[Address(RVA = "0x61CFCC0", Offset = "0x61CECC0", VA = "0x61CFCC0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001A1F")]
-	[Address(RVA = "0x282A7E0", Offset = "0x2828DE0", VA = "0x18282A7E0")]
+	[Token(Token = "0x6001865")]
+	[Address(RVA = "0x61CFC60", Offset = "0x61CEC60", VA = "0x61CFC60")]
 	public ConnectionManagementSection()
 	{
 	}

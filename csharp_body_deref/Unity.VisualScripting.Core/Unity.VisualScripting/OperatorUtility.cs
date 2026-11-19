@@ -114,223 +114,223 @@ public static class OperatorUtility
 	private static readonly RightShiftHandler rightShiftHandler;
 
 	[Token(Token = "0x6000C36")]
-	[Address(RVA = "0x2E1BD50", Offset = "0x2E1A350", VA = "0x182E1BD50")]
+	[Address(RVA = "0x681A730", Offset = "0x6819730", VA = "0x681A730")]
 	static OperatorUtility()
 	{
 	}
 
 	[Token(Token = "0x6000C37")]
-	[Address(RVA = "0x2E1AE90", Offset = "0x2E19490", VA = "0x182E1AE90")]
+	[Address(RVA = "0x6821C20", Offset = "0x6820C20", VA = "0x6821C20")]
 	public static UnaryOperatorHandler GetHandler(UnaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C38")]
-	[Address(RVA = "0x2E1AD70", Offset = "0x2E19370", VA = "0x182E1AD70")]
+	[Address(RVA = "0x6821D50", Offset = "0x6820D50", VA = "0x6821D50")]
 	public static BinaryOperatorHandler GetHandler(BinaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C39")]
-	[Address(RVA = "0x2E1BB60", Offset = "0x2E1A160", VA = "0x182E1BB60")]
+	[Address(RVA = "0x6821E80", Offset = "0x6820E80", VA = "0x6821E80")]
 	public static string Symbol(this UnaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3A")]
-	[Address(RVA = "0x2E1BBC0", Offset = "0x2E1A1C0", VA = "0x182E1BBC0")]
+	[Address(RVA = "0x6821EF0", Offset = "0x6820EF0", VA = "0x6821EF0")]
 	public static string Symbol(this BinaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3B")]
-	[Address(RVA = "0x2E1B4D0", Offset = "0x2E19AD0", VA = "0x182E1B4D0")]
+	[Address(RVA = "0x6821F60", Offset = "0x6820F60", VA = "0x6821F60")]
 	public static string Name(this UnaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3C")]
-	[Address(RVA = "0x2E1B530", Offset = "0x2E19B30", VA = "0x182E1B530")]
+	[Address(RVA = "0x6821FD0", Offset = "0x6820FD0", VA = "0x6821FD0")]
 	public static string Name(this BinaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x2E1BCF0", Offset = "0x2E1A2F0", VA = "0x182E1BCF0")]
+	[Address(RVA = "0x6822040", Offset = "0x6821040", VA = "0x6822040")]
 	public static string Verb(this UnaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3E")]
-	[Address(RVA = "0x2E1BC90", Offset = "0x2E1A290", VA = "0x182E1BC90")]
+	[Address(RVA = "0x68220B0", Offset = "0x68210B0", VA = "0x68220B0")]
 	public static string Verb(this BinaryOperator @operator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x2E1B730", Offset = "0x2E19D30", VA = "0x182E1B730")]
+	[Address(RVA = "0x6822120", Offset = "0x6821120", VA = "0x6822120")]
 	public static object Operate(UnaryOperator @operator, object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C40")]
-	[Address(RVA = "0x2E1B860", Offset = "0x2E19E60", VA = "0x182E1B860")]
+	[Address(RVA = "0x6822260", Offset = "0x6821260", VA = "0x6822260")]
 	public static object Operate(BinaryOperator @operator, object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C41")]
-	[Address(RVA = "0x2E1B590", Offset = "0x2E19B90", VA = "0x182E1B590")]
+	[Address(RVA = "0x68223C0", Offset = "0x68213C0", VA = "0x68223C0")]
 	public static object Negate(object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C42")]
-	[Address(RVA = "0x2E1B6C0", Offset = "0x2E19CC0", VA = "0x182E1B6C0")]
+	[Address(RVA = "0x6822450", Offset = "0x6821450", VA = "0x6822450")]
 	public static object Not(object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x2E1BC20", Offset = "0x2E1A220", VA = "0x182E1BC20")]
+	[Address(RVA = "0x68224E0", Offset = "0x68214E0", VA = "0x68224E0")]
 	public static object UnaryPlus(object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x2E1B130", Offset = "0x2E19730", VA = "0x182E1B130")]
+	[Address(RVA = "0x6822570", Offset = "0x6821570", VA = "0x6822570")]
 	public static object Increment(object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x2E1AB20", Offset = "0x2E19120", VA = "0x182E1AB20")]
+	[Address(RVA = "0x6822600", Offset = "0x6821600", VA = "0x6822600")]
 	public static object Decrement(object x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x2E1AA90", Offset = "0x2E19090", VA = "0x182E1AA90")]
+	[Address(RVA = "0x6822690", Offset = "0x6821690", VA = "0x6822690")]
 	public static object And(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0x2E1B9B0", Offset = "0x2E19FB0", VA = "0x182E1B9B0")]
+	[Address(RVA = "0x6822730", Offset = "0x6821730", VA = "0x6822730")]
 	public static object Or(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C48")]
-	[Address(RVA = "0x2E1ACE0", Offset = "0x2E192E0", VA = "0x182E1ACE0")]
+	[Address(RVA = "0x68227D0", Offset = "0x68217D0", VA = "0x68227D0")]
 	public static object ExclusiveOr(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x2E1AA00", Offset = "0x2E19000", VA = "0x182E1AA00")]
+	[Address(RVA = "0x6822870", Offset = "0x6821870", VA = "0x6822870")]
 	public static object Add(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x2E1BAD0", Offset = "0x2E1A0D0", VA = "0x182E1BAD0")]
+	[Address(RVA = "0x6822910", Offset = "0x6821910", VA = "0x6822910")]
 	public static object Subtract(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x2E1B440", Offset = "0x2E19A40", VA = "0x182E1B440")]
+	[Address(RVA = "0x68229B0", Offset = "0x68219B0", VA = "0x68229B0")]
 	public static object Multiply(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x2E1AB90", Offset = "0x2E19190", VA = "0x182E1AB90")]
+	[Address(RVA = "0x6822A50", Offset = "0x6821A50", VA = "0x6822A50")]
 	public static object Divide(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4D")]
-	[Address(RVA = "0x2E1B3B0", Offset = "0x2E199B0", VA = "0x182E1B3B0")]
+	[Address(RVA = "0x6822AF0", Offset = "0x6821AF0", VA = "0x6822AF0")]
 	public static object Modulo(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C4E")]
-	[Address(RVA = "0x2E1AC20", Offset = "0x2E19220", VA = "0x182E1AC20")]
+	[Address(RVA = "0x6822B90", Offset = "0x6821B90", VA = "0x6822B90")]
 	public static bool Equal(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C4F")]
-	[Address(RVA = "0x2E1B600", Offset = "0x2E19C00", VA = "0x182E1B600")]
+	[Address(RVA = "0x6822C70", Offset = "0x6821C70", VA = "0x6822C70")]
 	public static bool NotEqual(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C50")]
-	[Address(RVA = "0x2E1B070", Offset = "0x2E19670", VA = "0x182E1B070")]
+	[Address(RVA = "0x6822D50", Offset = "0x6821D50", VA = "0x6822D50")]
 	public static bool GreaterThan(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C51")]
-	[Address(RVA = "0x2E1B2F0", Offset = "0x2E198F0", VA = "0x182E1B2F0")]
+	[Address(RVA = "0x6822E30", Offset = "0x6821E30", VA = "0x6822E30")]
 	public static bool LessThan(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C52")]
-	[Address(RVA = "0x2E1AFB0", Offset = "0x2E195B0", VA = "0x182E1AFB0")]
+	[Address(RVA = "0x6822F10", Offset = "0x6821F10", VA = "0x6822F10")]
 	public static bool GreaterThanOrEqual(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C53")]
-	[Address(RVA = "0x2E1B230", Offset = "0x2E19830", VA = "0x182E1B230")]
+	[Address(RVA = "0x6822FF0", Offset = "0x6821FF0", VA = "0x6822FF0")]
 	public static bool LessThanOrEqual(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C54")]
-	[Address(RVA = "0x2E1B1A0", Offset = "0x2E197A0", VA = "0x182E1B1A0")]
+	[Address(RVA = "0x68230D0", Offset = "0x68220D0", VA = "0x68230D0")]
 	public static object LeftShift(object a, object b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C55")]
-	[Address(RVA = "0x2E1BA40", Offset = "0x2E1A040", VA = "0x182E1BA40")]
+	[Address(RVA = "0x6823170", Offset = "0x6822170", VA = "0x6823170")]
 	public static object RightShift(object a, object b)
 	{
 		return null;

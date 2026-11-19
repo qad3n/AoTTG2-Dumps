@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -126,7 +126,7 @@ internal class ScreenSpaceAmbientOcclusionSettings
 	internal int SampleCount;
 
 	[Token(Token = "0x600088A")]
-	[Address(RVA = "0x2C83510", Offset = "0x2C81B10", VA = "0x182C83510")]
+	[Address(RVA = "0x666EEE0", Offset = "0x666DEE0", VA = "0x666EEE0")]
 	public ScreenSpaceAmbientOcclusionSettings()
 	{
 	}

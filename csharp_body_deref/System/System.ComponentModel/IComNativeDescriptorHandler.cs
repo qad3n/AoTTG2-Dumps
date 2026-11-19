@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001A5")]
+[Token(Token = "0x2000166")]
 [Obsolete("This interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead.  https://go.microsoft.com/fwlink/?linkid=14202")]
 public interface IComNativeDescriptorHandler
 {
-	[Token(Token = "0x6000ACF")]
+	[Token(Token = "0x600090F")]
 	AttributeCollection GetAttributes(object component);
 
-	[Token(Token = "0x6000AD0")]
+	[Token(Token = "0x6000910")]
 	string GetClassName(object component);
 
-	[Token(Token = "0x6000AD1")]
+	[Token(Token = "0x6000911")]
 	TypeConverter GetConverter(object component);
 
-	[Token(Token = "0x6000AD2")]
+	[Token(Token = "0x6000912")]
 	EventDescriptor GetDefaultEvent(object component);
 
-	[Token(Token = "0x6000AD3")]
+	[Token(Token = "0x6000913")]
 	PropertyDescriptor GetDefaultProperty(object component);
 
-	[Token(Token = "0x6000AD4")]
+	[Token(Token = "0x6000914")]
 	object GetEditor(object component, Type baseEditorType);
 
-	[Token(Token = "0x6000AD5")]
+	[Token(Token = "0x6000915")]
 	string GetName(object component);
 
-	[Token(Token = "0x6000AD6")]
+	[Token(Token = "0x6000916")]
 	EventDescriptorCollection GetEvents(object component);
 
-	[Token(Token = "0x6000AD7")]
+	[Token(Token = "0x6000917")]
 	EventDescriptorCollection GetEvents(object component, Attribute[] attributes);
 
-	[Token(Token = "0x6000AD8")]
+	[Token(Token = "0x6000918")]
 	PropertyDescriptorCollection GetProperties(object component, Attribute[] attributes);
 
-	[Token(Token = "0x6000AD9")]
+	[Token(Token = "0x6000919")]
 	object GetPropertyValue(object component, string propertyName, ref bool success);
 
-	[Token(Token = "0x6000ADA")]
+	[Token(Token = "0x600091A")]
 	object GetPropertyValue(object component, int dispid, ref bool success);
 }

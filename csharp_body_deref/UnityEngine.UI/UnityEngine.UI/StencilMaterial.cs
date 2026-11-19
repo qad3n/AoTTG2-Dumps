@@ -60,7 +60,7 @@ public static class StencilMaterial
 		public ColorWriteMask colorMask;
 
 		[Token(Token = "0x60004AD")]
-		[Address(RVA = "0x32DA1A0", Offset = "0x32D87A0", VA = "0x1832DA1A0")]
+		[Address(RVA = "0x6CF88B0", Offset = "0x6CF78B0", VA = "0x6CF88B0")]
 		public MatEntry()
 		{
 		}
@@ -71,7 +71,7 @@ public static class StencilMaterial
 	private static List<MatEntry> m_List;
 
 	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Address(RVA = "0x6CF7D80", Offset = "0x6CF6D80", VA = "0x6CF7D80")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Use Material.Add instead.", true)]
 	public static Material Add(Material baseMat, int stencilID)
@@ -80,33 +80,33 @@ public static class StencilMaterial
 	}
 
 	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x32EA3B0", Offset = "0x32E89B0", VA = "0x1832EA3B0")]
+	[Address(RVA = "0x6CF7D90", Offset = "0x6CF6D90", VA = "0x6CF7D90")]
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x32EB010", Offset = "0x32E9610", VA = "0x1832EB010")]
+	[Address(RVA = "0x6CF8800", Offset = "0x6CF7800", VA = "0x6CF8800")]
 	private static void LogWarningWhenNotInBatchmode(string warning, Object context)
 	{
 	}
 
 	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x32EA440", Offset = "0x32E8A40", VA = "0x1832EA440")]
+	[Address(RVA = "0x6CF7E10", Offset = "0x6CF6E10", VA = "0x6CF7E10")]
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask, int readMask, int writeMask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x32EB0A0", Offset = "0x32E96A0", VA = "0x1832EB0A0")]
+	[Address(RVA = "0x6CF88C0", Offset = "0x6CF78C0", VA = "0x6CF88C0")]
 	public static void Remove(Material customMat)
 	{
 	}
 
 	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x32EAEA0", Offset = "0x32E94A0", VA = "0x1832EAEA0")]
+	[Address(RVA = "0x6CF8A90", Offset = "0x6CF7A90", VA = "0x6CF8A90")]
 	public static void ClearAll()
 	{
 	}

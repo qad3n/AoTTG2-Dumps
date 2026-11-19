@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsShapeDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -76,7 +76,7 @@ public struct PhysicsShapeDefinition
 	public static PhysicsShapeDefinition defaultDefinition
 	{
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0x2FD72A0", Offset = "0x2FD58A0", VA = "0x182FD72A0")]
+		[Address(RVA = "0x69D3420", Offset = "0x69D2420", VA = "0x69D3420")]
 		get
 		{
 			return default(PhysicsShapeDefinition);
@@ -84,13 +84,13 @@ public struct PhysicsShapeDefinition
 	}
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x2FD7190", Offset = "0x2FD5790", VA = "0x182FD7190")]
+	[Address(RVA = "0x69D3370", Offset = "0x69D2370", VA = "0x69D3370")]
 	public PhysicsShapeDefinition()
 	{
 	}
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x2FD7210", Offset = "0x2FD5810", VA = "0x182FD7210")]
+	[Address(RVA = "0x69C8CA0", Offset = "0x69C7CA0", VA = "0x69C8CA0")]
 	public PhysicsShapeDefinition(bool useSettings)
 	{
 	}

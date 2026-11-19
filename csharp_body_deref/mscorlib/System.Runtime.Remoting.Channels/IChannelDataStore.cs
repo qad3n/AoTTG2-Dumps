@@ -11,9 +11,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003AE")]
-[ComVisible(true)]
+[Token(Token = "0x2000387")]
 [DefaultMember("Item")]
+[ComVisible(true)]
 public interface IChannelDataStore
 {
 }

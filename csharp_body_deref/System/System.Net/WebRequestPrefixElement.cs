@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002CE")]
+[Token(Token = "0x200028F")]
 internal class WebRequestPrefixElement
 {
-	[Token(Token = "0x4000AA7")]
+	[Token(Token = "0x40009D8")]
 	[FieldOffset(Offset = "0x10")]
 	public string Prefix;
 
-	[Token(Token = "0x4000AA8")]
+	[Token(Token = "0x40009D9")]
 	[FieldOffset(Offset = "0x18")]
 	internal IWebRequestCreate creator;
 
-	[Token(Token = "0x4000AA9")]
+	[Token(Token = "0x40009DA")]
 	[FieldOffset(Offset = "0x20")]
 	internal Type creatorType;
 
-	[Token(Token = "0x1700040F")]
+	[Token(Token = "0x170003E0")]
 	public IWebRequestCreate Creator
 	{
-		[Token(Token = "0x600139C")]
-		[Address(RVA = "0x27D9920", Offset = "0x27D7F20", VA = "0x1827D9920")]
+		[Token(Token = "0x60011DE")]
+		[Address(RVA = "0x62A68E0", Offset = "0x62A58E0", VA = "0x62A68E0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600139D")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60011DF")]
+		[Address(RVA = "0x62A6AC0", Offset = "0x62A5AC0", VA = "0x62A6AC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600139E")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x60011E0")]
+	[Address(RVA = "0x62A6AD0", Offset = "0x62A5AD0", VA = "0x62A6AD0")]
 	public WebRequestPrefixElement(string P, IWebRequestCreate C)
 	{
 	}

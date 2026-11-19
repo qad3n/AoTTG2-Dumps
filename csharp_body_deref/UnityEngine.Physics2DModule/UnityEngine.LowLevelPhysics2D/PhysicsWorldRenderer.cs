@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsWorldRenderer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -75,14 +75,14 @@ internal static class PhysicsWorldRenderer
 			protected readonly int m_FillAlphaShaderProperty;
 
 			[Token(Token = "0x600019D")]
-			[Address(RVA = "0x2FCC710", Offset = "0x2FCAD10", VA = "0x182FCC710")]
+			[Address(RVA = "0x69D4870", Offset = "0x69D3870", VA = "0x69D4870")]
 			protected Mesh GetMesh()
 			{
 				return null;
 			}
 
 			[Token(Token = "0x600019E")]
-			[Address(RVA = "0x2FCC5B0", Offset = "0x2FCABB0", VA = "0x182FCC5B0", Slot = "4")]
+			[Address(RVA = "0x69D4700", Offset = "0x69D3700", VA = "0x69D4700", Slot = "4")]
 			public void Dispose()
 			{
 			}
@@ -91,7 +91,7 @@ internal static class PhysicsWorldRenderer
 			public abstract void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity);
 
 			[Token(Token = "0x60001A0")]
-			[Address(RVA = "0x2FCCB50", Offset = "0x2FCB150", VA = "0x182FCCB50")]
+			[Address(RVA = "0x69D4C10", Offset = "0x69D3C10", VA = "0x69D4C10")]
 			protected BaseDrawer()
 			{
 			}
@@ -101,13 +101,13 @@ internal static class PhysicsWorldRenderer
 		private sealed class PolygonGeometryDrawer : BaseDrawer
 		{
 			[Token(Token = "0x60001A1")]
-			[Address(RVA = "0x2FD9FE0", Offset = "0x2FD85E0", VA = "0x182FD9FE0")]
+			[Address(RVA = "0x69D4390", Offset = "0x69D3390", VA = "0x69D4390")]
 			public PolygonGeometryDrawer()
 			{
 			}
 
 			[Token(Token = "0x60001A2")]
-			[Address(RVA = "0x2FD9D30", Offset = "0x2FD8330", VA = "0x182FD9D30", Slot = "5")]
+			[Address(RVA = "0x69D4E00", Offset = "0x69D3E00", VA = "0x69D4E00", Slot = "5")]
 			public override void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 			{
 			}
@@ -117,13 +117,13 @@ internal static class PhysicsWorldRenderer
 		private sealed class CircleGeometryDrawer : BaseDrawer
 		{
 			[Token(Token = "0x60001A3")]
-			[Address(RVA = "0x2FCD580", Offset = "0x2FCBB80", VA = "0x182FCD580")]
+			[Address(RVA = "0x69D4440", Offset = "0x69D3440", VA = "0x69D4440")]
 			public CircleGeometryDrawer()
 			{
 			}
 
 			[Token(Token = "0x60001A4")]
-			[Address(RVA = "0x2FCD2D0", Offset = "0x2FCB8D0", VA = "0x182FCD2D0", Slot = "5")]
+			[Address(RVA = "0x69D5060", Offset = "0x69D4060", VA = "0x69D5060", Slot = "5")]
 			public override void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 			{
 			}
@@ -133,13 +133,13 @@ internal static class PhysicsWorldRenderer
 		private sealed class CapsuleGeometryDrawer : BaseDrawer
 		{
 			[Token(Token = "0x60001A5")]
-			[Address(RVA = "0x2FCD210", Offset = "0x2FCB810", VA = "0x182FCD210")]
+			[Address(RVA = "0x69D44F0", Offset = "0x69D34F0", VA = "0x69D44F0")]
 			public CapsuleGeometryDrawer()
 			{
 			}
 
 			[Token(Token = "0x60001A6")]
-			[Address(RVA = "0x2FCCF60", Offset = "0x2FCB560", VA = "0x182FCCF60", Slot = "5")]
+			[Address(RVA = "0x69D52D0", Offset = "0x69D42D0", VA = "0x69D52D0", Slot = "5")]
 			public override void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 			{
 			}
@@ -149,13 +149,13 @@ internal static class PhysicsWorldRenderer
 		private sealed class LineDrawer : BaseDrawer
 		{
 			[Token(Token = "0x60001A7")]
-			[Address(RVA = "0x2FCF7F0", Offset = "0x2FCDDF0", VA = "0x182FCF7F0")]
+			[Address(RVA = "0x69D45A0", Offset = "0x69D35A0", VA = "0x69D45A0")]
 			public LineDrawer()
 			{
 			}
 
 			[Token(Token = "0x60001A8")]
-			[Address(RVA = "0x2FCF560", Offset = "0x2FCDB60", VA = "0x182FCF560", Slot = "5")]
+			[Address(RVA = "0x69D5540", Offset = "0x69D4540", VA = "0x69D5540", Slot = "5")]
 			public override void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 			{
 			}
@@ -165,13 +165,13 @@ internal static class PhysicsWorldRenderer
 		private sealed class PointDrawer : BaseDrawer
 		{
 			[Token(Token = "0x60001A9")]
-			[Address(RVA = "0x2FD9C70", Offset = "0x2FD8270", VA = "0x182FD9C70")]
+			[Address(RVA = "0x69D4650", Offset = "0x69D3650", VA = "0x69D4650")]
 			public PointDrawer()
 			{
 			}
 
 			[Token(Token = "0x60001AA")]
-			[Address(RVA = "0x2FD9A10", Offset = "0x2FD8010", VA = "0x182FD9A10", Slot = "5")]
+			[Address(RVA = "0x69D5780", Offset = "0x69D4780", VA = "0x69D5780", Slot = "5")]
 			public override void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 			{
 			}
@@ -185,7 +185,7 @@ internal static class PhysicsWorldRenderer
 		public bool isValid
 		{
 			[Token(Token = "0x6000199")]
-			[Address(RVA = "0x19DA120", Offset = "0x19D8720", VA = "0x1819DA120")]
+			[Address(RVA = "0x69D4380", Offset = "0x69D3380", VA = "0x69D4380")]
 			get
 			{
 				return default(bool);
@@ -193,19 +193,19 @@ internal static class PhysicsWorldRenderer
 		}
 
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x2FCE8D0", Offset = "0x2FCCED0", VA = "0x182FCE8D0")]
+		[Address(RVA = "0x69D4060", Offset = "0x69D3060", VA = "0x69D4060")]
 		public DrawerGroup()
 		{
 		}
 
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x2FCE810", Offset = "0x2FCCE10", VA = "0x182FCE810")]
+		[Address(RVA = "0x69D42E0", Offset = "0x69D32E0", VA = "0x69D42E0")]
 		public void Draw(CommandBuffer rendererCommandBuffer, ref PhysicsWorld.DrawResults drawResults, float thickness, float fillAlpha, PhysicsWorld.TransformPlane transformPlane, int drawCapacity)
 		{
 		}
 
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x2FCE620", Offset = "0x2FCCC20", VA = "0x182FCE620", Slot = "4")]
+		[Address(RVA = "0x69D3930", Offset = "0x69D2930", VA = "0x69D3930", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -228,14 +228,14 @@ internal static class PhysicsWorldRenderer
 	private static DrawerGroup[] s_DrawerGroups;
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x2FD8180", Offset = "0x2FD6780", VA = "0x182FD8180")]
+	[Address(RVA = "0x69D34A0", Offset = "0x69D24A0", VA = "0x69D34A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InitializeRendering()
 	{
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x2FD8820", Offset = "0x2FD6E20", VA = "0x182FD8820")]
+	[Address(RVA = "0x69D36B0", Offset = "0x69D26B0", VA = "0x69D36B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ShutdownRendering()
 	{
@@ -243,7 +243,7 @@ internal static class PhysicsWorldRenderer
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x2FCC4B0", Offset = "0x2FCAAB0", VA = "0x182FCC4B0")]
+	[Address(RVA = "0x69D39A0", Offset = "0x69D29A0", VA = "0x69D39A0")]
 	private static PhysicsAABB GetCameraViewAABB(Camera camera)
 	{
 		return default(PhysicsAABB);
@@ -251,26 +251,26 @@ internal static class PhysicsWorldRenderer
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x2FD83F0", Offset = "0x2FD69F0", VA = "0x182FD83F0")]
+	[Address(RVA = "0x69D3A20", Offset = "0x69D2A20", VA = "0x69D3A20")]
 	private static bool IsCameraTypeValid(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x2FD7FB0", Offset = "0x2FD65B0", VA = "0x182FD7FB0")]
+	[Address(RVA = "0x69D3A40", Offset = "0x69D2A40", VA = "0x69D3A40")]
 	private static void BIRP_RenderAllWorlds(Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x2FD8410", Offset = "0x2FD6A10", VA = "0x182FD8410")]
+	[Address(RVA = "0x69D3C70", Offset = "0x69D2C70", VA = "0x69D3C70")]
 	private static void SRP_RenderAllWorlds(ScriptableRenderContext context, List<Camera> cameras)
 	{
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x2FD85F0", Offset = "0x2FD6BF0", VA = "0x182FD85F0")]
+	[Address(RVA = "0x69D3E90", Offset = "0x69D2E90", VA = "0x69D3E90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendDrawResultsToCommandBuffer(PhysicsWorld physicsWorld, PhysicsWorld.DrawResults drawResults, PhysicsWorld.TransformPlane transformPlane, float thickness, float fillAlpha, int drawCapacity)
 	{

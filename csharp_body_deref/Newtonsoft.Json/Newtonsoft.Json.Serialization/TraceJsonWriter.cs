@@ -27,338 +27,338 @@ internal class TraceJsonWriter : JsonWriter
 	private readonly StringWriter _sw;
 
 	[Token(Token = "0x60009B2")]
-	[Address(RVA = "0x1C6EC50", Offset = "0x1C6D250", VA = "0x181C6EC50")]
+	[Address(RVA = "0x55ECDC0", Offset = "0x55EBDC0", VA = "0x55ECDC0")]
 	public TraceJsonWriter(JsonWriter innerWriter)
 	{
 	}
 
 	[Token(Token = "0x60009B3")]
-	[Address(RVA = "0x1C6CFD0", Offset = "0x1C6B5D0", VA = "0x181C6CFD0")]
+	[Address(RVA = "0x55ECFD0", Offset = "0x55EBFD0", VA = "0x55ECFD0")]
 	public string GetSerializedJsonMessage()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009B4")]
-	[Address(RVA = "0x1C6D8F0", Offset = "0x1C6BEF0", VA = "0x181C6D8F0", Slot = "99")]
+	[Address(RVA = "0x55ED000", Offset = "0x55EC000", VA = "0x55ED000", Slot = "99")]
 	public override void WriteValue(decimal value)
 	{
 	}
 
 	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x1C6DBB0", Offset = "0x1C6C1B0", VA = "0x181C6DBB0", Slot = "116")]
+	[Address(RVA = "0x55ED060", Offset = "0x55EC060", VA = "0x55ED060", Slot = "116")]
 	public override void WriteValue(decimal? value)
 	{
 	}
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x1C6DB40", Offset = "0x1C6C140", VA = "0x181C6DB40", Slot = "93")]
+	[Address(RVA = "0x55ED120", Offset = "0x55EC120", VA = "0x55ED120", Slot = "93")]
 	public override void WriteValue(bool value)
 	{
 	}
 
 	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x1C6DDE0", Offset = "0x1C6C3E0", VA = "0x181C6DDE0", Slot = "110")]
+	[Address(RVA = "0x55ED180", Offset = "0x55EC180", VA = "0x55ED180", Slot = "110")]
 	public override void WriteValue(bool? value)
 	{
 	}
 
 	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x1C6D600", Offset = "0x1C6BC00", VA = "0x181C6D600", Slot = "97")]
+	[Address(RVA = "0x55ED220", Offset = "0x55EC220", VA = "0x55ED220", Slot = "97")]
 	public override void WriteValue(byte value)
 	{
 	}
 
 	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x1C6E150", Offset = "0x1C6C750", VA = "0x181C6E150", Slot = "114")]
+	[Address(RVA = "0x55ED280", Offset = "0x55EC280", VA = "0x55ED280", Slot = "114")]
 	public override void WriteValue(byte? value)
 	{
 	}
 
 	[Token(Token = "0x60009BA")]
-	[Address(RVA = "0x1C6DD70", Offset = "0x1C6C370", VA = "0x181C6DD70", Slot = "96")]
+	[Address(RVA = "0x55ED320", Offset = "0x55EC320", VA = "0x55ED320", Slot = "96")]
 	public override void WriteValue(char value)
 	{
 	}
 
 	[Token(Token = "0x60009BB")]
-	[Address(RVA = "0x1C6E200", Offset = "0x1C6C800", VA = "0x181C6E200", Slot = "113")]
+	[Address(RVA = "0x55ED380", Offset = "0x55EC380", VA = "0x55ED380", Slot = "113")]
 	public override void WriteValue(char? value)
 	{
 	}
 
 	[Token(Token = "0x60009BC")]
-	[Address(RVA = "0x1C6EA40", Offset = "0x1C6D040", VA = "0x181C6EA40", Slot = "121")]
+	[Address(RVA = "0x55ED420", Offset = "0x55EC420", VA = "0x55ED420", Slot = "121")]
 	public override void WriteValue(byte[]? value)
 	{
 	}
 
 	[Token(Token = "0x60009BD")]
-	[Address(RVA = "0x1C6E7F0", Offset = "0x1C6CDF0", VA = "0x181C6E7F0", Slot = "100")]
+	[Address(RVA = "0x55ED490", Offset = "0x55EC490", VA = "0x55ED490", Slot = "100")]
 	public override void WriteValue(DateTime value)
 	{
 	}
 
 	[Token(Token = "0x60009BE")]
-	[Address(RVA = "0x1C6D670", Offset = "0x1C6BC70", VA = "0x181C6D670", Slot = "117")]
+	[Address(RVA = "0x55ED4F0", Offset = "0x55EC4F0", VA = "0x55ED4F0", Slot = "117")]
 	public override void WriteValue(DateTime? value)
 	{
 	}
 
 	[Token(Token = "0x60009BF")]
-	[Address(RVA = "0x1C6D980", Offset = "0x1C6BF80", VA = "0x181C6D980", Slot = "101")]
+	[Address(RVA = "0x55ED590", Offset = "0x55EC590", VA = "0x55ED590", Slot = "101")]
 	public override void WriteValue(DateTimeOffset value)
 	{
 	}
 
 	[Token(Token = "0x60009C0")]
-	[Address(RVA = "0x1C6DC90", Offset = "0x1C6C290", VA = "0x181C6DC90", Slot = "118")]
+	[Address(RVA = "0x55ED5F0", Offset = "0x55EC5F0", VA = "0x55ED5F0", Slot = "118")]
 	public override void WriteValue(DateTimeOffset? value)
 	{
 	}
 
 	[Token(Token = "0x60009C1")]
-	[Address(RVA = "0x1C6DA10", Offset = "0x1C6C010", VA = "0x181C6DA10", Slot = "92")]
+	[Address(RVA = "0x55ED6B0", Offset = "0x55EC6B0", VA = "0x55ED6B0", Slot = "92")]
 	public override void WriteValue(double value)
 	{
 	}
 
 	[Token(Token = "0x60009C2")]
-	[Address(RVA = "0x1C6DFB0", Offset = "0x1C6C5B0", VA = "0x181C6DFB0", Slot = "109")]
+	[Address(RVA = "0x55ED710", Offset = "0x55EC710", VA = "0x55ED710", Slot = "109")]
 	public override void WriteValue(double? value)
 	{
 	}
 
 	[Token(Token = "0x60009C3")]
-	[Address(RVA = "0x1C6D490", Offset = "0x1C6BA90", VA = "0x181C6D490", Slot = "83")]
+	[Address(RVA = "0x55ED7C0", Offset = "0x55EC7C0", VA = "0x55ED7C0", Slot = "83")]
 	public override void WriteUndefined()
 	{
 	}
 
 	[Token(Token = "0x60009C4")]
-	[Address(RVA = "0x1C6D160", Offset = "0x1C6B760", VA = "0x181C6D160", Slot = "82")]
+	[Address(RVA = "0x55ED810", Offset = "0x55EC810", VA = "0x55ED810", Slot = "82")]
 	public override void WriteNull()
 	{
 	}
 
 	[Token(Token = "0x60009C5")]
-	[Address(RVA = "0x1C6E4C0", Offset = "0x1C6CAC0", VA = "0x181C6E4C0", Slot = "91")]
+	[Address(RVA = "0x55ED860", Offset = "0x55EC860", VA = "0x55ED860", Slot = "91")]
 	public override void WriteValue(float value)
 	{
 	}
 
 	[Token(Token = "0x60009C6")]
-	[Address(RVA = "0x1C6E920", Offset = "0x1C6CF20", VA = "0x181C6E920", Slot = "108")]
+	[Address(RVA = "0x55ED8C0", Offset = "0x55EC8C0", VA = "0x55ED8C0", Slot = "108")]
 	public override void WriteValue(float? value)
 	{
 	}
 
 	[Token(Token = "0x60009C7")]
-	[Address(RVA = "0x1C6E370", Offset = "0x1C6C970", VA = "0x181C6E370", Slot = "102")]
+	[Address(RVA = "0x55ED960", Offset = "0x55EC960", VA = "0x55ED960", Slot = "102")]
 	public override void WriteValue(Guid value)
 	{
 	}
 
 	[Token(Token = "0x60009C8")]
-	[Address(RVA = "0x1C6E530", Offset = "0x1C6CB30", VA = "0x181C6E530", Slot = "119")]
+	[Address(RVA = "0x55ED9C0", Offset = "0x55EC9C0", VA = "0x55ED9C0", Slot = "119")]
 	public override void WriteValue(Guid? value)
 	{
 	}
 
 	[Token(Token = "0x60009C9")]
-	[Address(RVA = "0x1C6D890", Offset = "0x1C6BE90", VA = "0x181C6D890", Slot = "87")]
+	[Address(RVA = "0x55EDA80", Offset = "0x55ECA80", VA = "0x55EDA80", Slot = "87")]
 	public override void WriteValue(int value)
 	{
 	}
 
 	[Token(Token = "0x60009CA")]
-	[Address(RVA = "0x1C6D4E0", Offset = "0x1C6BAE0", VA = "0x181C6D4E0", Slot = "104")]
+	[Address(RVA = "0x55EDAE0", Offset = "0x55ECAE0", VA = "0x55EDAE0", Slot = "104")]
 	public override void WriteValue(int? value)
 	{
 	}
 
 	[Token(Token = "0x60009CB")]
-	[Address(RVA = "0x1C6E670", Offset = "0x1C6CC70", VA = "0x181C6E670", Slot = "89")]
+	[Address(RVA = "0x55EDB80", Offset = "0x55ECB80", VA = "0x55EDB80", Slot = "89")]
 	public override void WriteValue(long value)
 	{
 	}
 
 	[Token(Token = "0x60009CC")]
-	[Address(RVA = "0x1C6DA80", Offset = "0x1C6C080", VA = "0x181C6DA80", Slot = "106")]
+	[Address(RVA = "0x55EDBE0", Offset = "0x55ECBE0", VA = "0x55EDBE0", Slot = "106")]
 	public override void WriteValue(long? value)
 	{
 	}
 
 	[Token(Token = "0x60009CD")]
-	[Address(RVA = "0x1C6E6E0", Offset = "0x1C6CCE0", VA = "0x181C6E6E0", Slot = "123")]
+	[Address(RVA = "0x55EDC80", Offset = "0x55ECC80", VA = "0x55EDC80", Slot = "123")]
 	public override void WriteValue(object? value)
 	{
 	}
 
 	[Token(Token = "0x60009CE")]
-	[Address(RVA = "0x1C6D590", Offset = "0x1C6BB90", VA = "0x181C6D590", Slot = "98")]
+	[Address(RVA = "0x55EDD70", Offset = "0x55ECD70", VA = "0x55EDD70", Slot = "98")]
 	public override void WriteValue(sbyte value)
 	{
 	}
 
 	[Token(Token = "0x60009CF")]
-	[Address(RVA = "0x1C6D730", Offset = "0x1C6BD30", VA = "0x181C6D730", Slot = "115")]
+	[Address(RVA = "0x55EDDD0", Offset = "0x55ECDD0", VA = "0x55EDDD0", Slot = "115")]
 	public override void WriteValue(sbyte? value)
 	{
 	}
 
 	[Token(Token = "0x60009D0")]
-	[Address(RVA = "0x1C6EAC0", Offset = "0x1C6D0C0", VA = "0x181C6EAC0", Slot = "94")]
+	[Address(RVA = "0x55EDE70", Offset = "0x55ECE70", VA = "0x55EDE70", Slot = "94")]
 	public override void WriteValue(short value)
 	{
 	}
 
 	[Token(Token = "0x60009D1")]
-	[Address(RVA = "0x1C6D7E0", Offset = "0x1C6BDE0", VA = "0x181C6D7E0", Slot = "111")]
+	[Address(RVA = "0x55EDED0", Offset = "0x55ECED0", VA = "0x55EDED0", Slot = "111")]
 	public override void WriteValue(short? value)
 	{
 	}
 
 	[Token(Token = "0x60009D2")]
-	[Address(RVA = "0x1C6DF40", Offset = "0x1C6C540", VA = "0x181C6DF40", Slot = "86")]
+	[Address(RVA = "0x55EDF70", Offset = "0x55ECF70", VA = "0x55EDF70", Slot = "86")]
 	public override void WriteValue(string? value)
 	{
 	}
 
 	[Token(Token = "0x60009D3")]
-	[Address(RVA = "0x1C6E070", Offset = "0x1C6C670", VA = "0x181C6E070", Slot = "103")]
+	[Address(RVA = "0x55EDFD0", Offset = "0x55ECFD0", VA = "0x55EDFD0", Slot = "103")]
 	public override void WriteValue(TimeSpan value)
 	{
 	}
 
 	[Token(Token = "0x60009D4")]
-	[Address(RVA = "0x1C6E2B0", Offset = "0x1C6C8B0", VA = "0x181C6E2B0", Slot = "120")]
+	[Address(RVA = "0x55EE030", Offset = "0x55ED030", VA = "0x55EE030", Slot = "120")]
 	public override void WriteValue(TimeSpan? value)
 	{
 	}
 
 	[Token(Token = "0x60009D5")]
-	[Address(RVA = "0x1C6E610", Offset = "0x1C6CC10", VA = "0x181C6E610", Slot = "88")]
+	[Address(RVA = "0x55EE0D0", Offset = "0x55ED0D0", VA = "0x55EE0D0", Slot = "88")]
 	public override void WriteValue(uint value)
 	{
 	}
 
 	[Token(Token = "0x60009D6")]
-	[Address(RVA = "0x1C6EB30", Offset = "0x1C6D130", VA = "0x181C6EB30", Slot = "105")]
+	[Address(RVA = "0x55EE130", Offset = "0x55ED130", VA = "0x55EE130", Slot = "105")]
 	public override void WriteValue(uint? value)
 	{
 	}
 
 	[Token(Token = "0x60009D7")]
-	[Address(RVA = "0x1C6E9D0", Offset = "0x1C6CFD0", VA = "0x181C6E9D0", Slot = "90")]
+	[Address(RVA = "0x55EE1D0", Offset = "0x55ED1D0", VA = "0x55EE1D0", Slot = "90")]
 	public override void WriteValue(ulong value)
 	{
 	}
 
 	[Token(Token = "0x60009D8")]
-	[Address(RVA = "0x1C6E860", Offset = "0x1C6CE60", VA = "0x181C6E860", Slot = "107")]
+	[Address(RVA = "0x55EE230", Offset = "0x55ED230", VA = "0x55EE230", Slot = "107")]
 	public override void WriteValue(ulong? value)
 	{
 	}
 
 	[Token(Token = "0x60009D9")]
-	[Address(RVA = "0x1C6E400", Offset = "0x1C6CA00", VA = "0x181C6E400", Slot = "122")]
+	[Address(RVA = "0x55EE2D0", Offset = "0x55ED2D0", VA = "0x55EE2D0", Slot = "122")]
 	public override void WriteValue(Uri? value)
 	{
 	}
 
 	[Token(Token = "0x60009DA")]
-	[Address(RVA = "0x1C6E0E0", Offset = "0x1C6C6E0", VA = "0x181C6E0E0", Slot = "95")]
+	[Address(RVA = "0x55EE380", Offset = "0x55ED380", VA = "0x55EE380", Slot = "95")]
 	public override void WriteValue(ushort value)
 	{
 	}
 
 	[Token(Token = "0x60009DB")]
-	[Address(RVA = "0x1C6DE90", Offset = "0x1C6C490", VA = "0x181C6DE90", Slot = "112")]
+	[Address(RVA = "0x55EE3E0", Offset = "0x55ED3E0", VA = "0x55EE3E0", Slot = "112")]
 	public override void WriteValue(ushort? value)
 	{
 	}
 
 	[Token(Token = "0x60009DC")]
-	[Address(RVA = "0x1C6EBE0", Offset = "0x1C6D1E0", VA = "0x181C6EBE0", Slot = "125")]
+	[Address(RVA = "0x55EE480", Offset = "0x55ED480", VA = "0x55EE480", Slot = "125")]
 	public override void WriteWhitespace(string ws)
 	{
 	}
 
 	[Token(Token = "0x60009DD")]
-	[Address(RVA = "0x1C6D000", Offset = "0x1C6B600", VA = "0x181C6D000", Slot = "124")]
+	[Address(RVA = "0x55EE4E0", Offset = "0x55ED4E0", VA = "0x55EE4E0", Slot = "124")]
 	public override void WriteComment(string? text)
 	{
 	}
 
 	[Token(Token = "0x60009DE")]
-	[Address(RVA = "0x1C6D380", Offset = "0x1C6B980", VA = "0x181C6D380", Slot = "70")]
+	[Address(RVA = "0x55EE540", Offset = "0x55ED540", VA = "0x55EE540", Slot = "70")]
 	public override void WriteStartArray()
 	{
 	}
 
 	[Token(Token = "0x60009DF")]
-	[Address(RVA = "0x1C6D070", Offset = "0x1C6B670", VA = "0x181C6D070", Slot = "71")]
+	[Address(RVA = "0x55EE590", Offset = "0x55ED590", VA = "0x55EE590", Slot = "71")]
 	public override void WriteEndArray()
 	{
 	}
 
 	[Token(Token = "0x60009E0")]
-	[Address(RVA = "0x1C6D3D0", Offset = "0x1C6B9D0", VA = "0x181C6D3D0", Slot = "72")]
+	[Address(RVA = "0x55EE5E0", Offset = "0x55ED5E0", VA = "0x55EE5E0", Slot = "72")]
 	public override void WriteStartConstructor(string name)
 	{
 	}
 
 	[Token(Token = "0x60009E1")]
-	[Address(RVA = "0x1C6D0C0", Offset = "0x1C6B6C0", VA = "0x181C6D0C0", Slot = "73")]
+	[Address(RVA = "0x55EE640", Offset = "0x55ED640", VA = "0x55EE640", Slot = "73")]
 	public override void WriteEndConstructor()
 	{
 	}
 
 	[Token(Token = "0x60009E2")]
-	[Address(RVA = "0x1C6D1B0", Offset = "0x1C6B7B0", VA = "0x181C6D1B0", Slot = "74")]
+	[Address(RVA = "0x55EE690", Offset = "0x55ED690", VA = "0x55EE690", Slot = "74")]
 	public override void WritePropertyName(string name)
 	{
 	}
 
 	[Token(Token = "0x60009E3")]
-	[Address(RVA = "0x1C6D220", Offset = "0x1C6B820", VA = "0x181C6D220", Slot = "75")]
+	[Address(RVA = "0x55EE6F0", Offset = "0x55ED6F0", VA = "0x55EE6F0", Slot = "75")]
 	public override void WritePropertyName(string name, bool escape)
 	{
 	}
 
 	[Token(Token = "0x60009E4")]
-	[Address(RVA = "0x1C6D440", Offset = "0x1C6BA40", VA = "0x181C6D440", Slot = "68")]
+	[Address(RVA = "0x55EE750", Offset = "0x55ED750", VA = "0x55EE750", Slot = "68")]
 	public override void WriteStartObject()
 	{
 	}
 
 	[Token(Token = "0x60009E5")]
-	[Address(RVA = "0x1C6D110", Offset = "0x1C6B710", VA = "0x181C6D110", Slot = "69")]
+	[Address(RVA = "0x55EE7A0", Offset = "0x55ED7A0", VA = "0x55EE7A0", Slot = "69")]
 	public override void WriteEndObject()
 	{
 	}
 
 	[Token(Token = "0x60009E6")]
-	[Address(RVA = "0x1C6D2A0", Offset = "0x1C6B8A0", VA = "0x181C6D2A0", Slot = "85")]
+	[Address(RVA = "0x55EE7F0", Offset = "0x55ED7F0", VA = "0x55EE7F0", Slot = "85")]
 	public override void WriteRawValue(string? json)
 	{
 	}
 
 	[Token(Token = "0x60009E7")]
-	[Address(RVA = "0x1C6D310", Offset = "0x1C6B910", VA = "0x181C6D310", Slot = "84")]
+	[Address(RVA = "0x55EE850", Offset = "0x55ED850", VA = "0x55EE850", Slot = "84")]
 	public override void WriteRaw(string? json)
 	{
 	}
 
 	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x1C6CF30", Offset = "0x1C6B530", VA = "0x181C6CF30", Slot = "67")]
+	[Address(RVA = "0x55EE8B0", Offset = "0x55ED8B0", VA = "0x55EE8B0", Slot = "67")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x60009E9")]
-	[Address(RVA = "0x1C6CF80", Offset = "0x1C6B580", VA = "0x181C6CF80", Slot = "66")]
+	[Address(RVA = "0x55EE900", Offset = "0x55ED900", VA = "0x55EE900", Slot = "66")]
 	public override void Flush()
 	{
 	}

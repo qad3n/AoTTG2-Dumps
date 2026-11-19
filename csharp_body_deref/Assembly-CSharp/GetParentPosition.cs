@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: GetParentPosition
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/GetParentPosition.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,25 +38,25 @@ public class GetParentPosition : MonoBehaviour
 	private Vector3 _lastScale;
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x5280B0", Offset = "0x5266B0", VA = "0x1805280B0")]
+	[Address(RVA = "0x313C330", Offset = "0x313B330", VA = "0x313C330")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x5280A0", Offset = "0x5266A0", VA = "0x1805280A0")]
+	[Address(RVA = "0x313C6B0", Offset = "0x313B6B0", VA = "0x313C6B0")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x528150", Offset = "0x526750", VA = "0x180528150")]
+	[Address(RVA = "0x313C3D0", Offset = "0x313B3D0", VA = "0x313C3D0")]
 	private void UpdateProperties(bool force)
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x313C6C0", Offset = "0x313B6C0", VA = "0x313C6C0")]
 	public GetParentPosition()
 	{
 	}

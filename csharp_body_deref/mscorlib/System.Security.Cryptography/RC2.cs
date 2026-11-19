@@ -10,69 +10,69 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200031E")]
+[Token(Token = "0x20002F7")]
 [ComVisible(true)]
 public abstract class RC2 : SymmetricAlgorithm
 {
-	[Token(Token = "0x4000D35")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000C95")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x44")]
 	protected int EffectiveKeySizeValue;
 
-	[Token(Token = "0x4000D36")]
+	[Token(Token = "0x4000C96")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalBlockSizes;
 
-	[Token(Token = "0x4000D37")]
+	[Token(Token = "0x4000C97")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x170002BD")]
+	[Token(Token = "0x170002BC")]
 	public virtual int EffectiveKeySize
 	{
-		[Token(Token = "0x60019F1")]
-		[Address(RVA = "0x19AE330", Offset = "0x19AC930", VA = "0x1819AE330", Slot = "28")]
+		[Token(Token = "0x60019CE")]
+		[Address(RVA = "0x53406B0", Offset = "0x533F6B0", VA = "0x53406B0", Slot = "28")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60019F2")]
-		[Address(RVA = "0x19AE340", Offset = "0x19AC940", VA = "0x1819AE340", Slot = "29")]
+		[Token(Token = "0x60019CF")]
+		[Address(RVA = "0x53406D0", Offset = "0x533F6D0", VA = "0x53406D0", Slot = "29")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002BE")]
+	[Token(Token = "0x170002BD")]
 	public override int KeySize
 	{
-		[Token(Token = "0x60019F3")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "16")]
+		[Token(Token = "0x60019D0")]
+		[Address(RVA = "0x5340770", Offset = "0x533F770", VA = "0x5340770", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60019F4")]
-		[Address(RVA = "0x19AE490", Offset = "0x19ACA90", VA = "0x1819AE490", Slot = "17")]
+		[Token(Token = "0x60019D1")]
+		[Address(RVA = "0x5340780", Offset = "0x533F780", VA = "0x5340780", Slot = "17")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019F0")]
-	[Address(RVA = "0x19AE290", Offset = "0x19AC890", VA = "0x1819AE290")]
+	[Token(Token = "0x60019CD")]
+	[Address(RVA = "0x5340610", Offset = "0x533F610", VA = "0x5340610")]
 	protected RC2()
 	{
 	}
 
-	[Token(Token = "0x60019F5")]
-	[Address(RVA = "0x19AE030", Offset = "0x19AC630", VA = "0x1819AE030")]
+	[Token(Token = "0x60019D2")]
+	[Address(RVA = "0x53407F0", Offset = "0x533F7F0", VA = "0x53407F0")]
 	public new static RC2 Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019F6")]
-	[Address(RVA = "0x19AE080", Offset = "0x19AC680", VA = "0x1819AE080")]
+	[Token(Token = "0x60019D3")]
+	[Address(RVA = "0x5340A70", Offset = "0x533FA70", VA = "0x5340A70")]
 	public new static RC2 Create(string AlgName)
 	{
 		return null;

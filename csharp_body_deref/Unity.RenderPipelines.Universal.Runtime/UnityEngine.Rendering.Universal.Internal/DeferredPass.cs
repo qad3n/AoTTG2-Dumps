@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.DeferredPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ internal class DeferredPass : ScriptableRenderPass
 		internal DeferredLights deferredLights;
 
 		[Token(Token = "0x6000C13")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66D6B10", Offset = "0x66D5B10", VA = "0x66D6B10")]
 		public PassData()
 		{
 		}
@@ -48,19 +48,19 @@ internal class DeferredPass : ScriptableRenderPass
 	private DeferredLights m_DeferredLights;
 
 	[Token(Token = "0x6000C10")]
-	[Address(RVA = "0x2CCA550", Offset = "0x2CC8B50", VA = "0x182CCA550")]
+	[Address(RVA = "0x66D6230", Offset = "0x66D5230", VA = "0x66D6230")]
 	public DeferredPass(RenderPassEvent evt, DeferredLights deferredLights)
 	{
 	}
 
 	[Token(Token = "0x6000C11")]
-	[Address(RVA = "0x2CC9ED0", Offset = "0x2CC84D0", VA = "0x182CC9ED0")]
+	[Address(RVA = "0x66D62D0", Offset = "0x66D52D0", VA = "0x66D62D0")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, TextureHandle color, TextureHandle depth, TextureHandle[] gbuffer)
 	{
 	}
 
 	[Token(Token = "0x6000C12")]
-	[Address(RVA = "0x2CC9EB0", Offset = "0x2CC84B0", VA = "0x182CC9EB0", Slot = "10")]
+	[Address(RVA = "0x66D6AF0", Offset = "0x66D5AF0", VA = "0x66D6AF0", Slot = "10")]
 	public override void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}

@@ -12,6 +12,6 @@ namespace UnityEngine.Pool;
 [Token(Token = "0x20002ED")]
 public interface IObjectPool<T> where T : class
 {
-	[Token(Token = "0x60011E1")]
+	[Token(Token = "0x60011F5")]
 	void Release(T element);
 }

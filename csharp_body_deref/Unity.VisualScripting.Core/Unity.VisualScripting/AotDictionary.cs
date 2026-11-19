@@ -16,31 +16,31 @@ namespace Unity.VisualScripting;
 public sealed class AotDictionary : OrderedDictionary
 {
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2D991F0", Offset = "0x2D977F0", VA = "0x182D991F0")]
+	[Address(RVA = "0x67925A0", Offset = "0x67915A0", VA = "0x67925A0")]
 	public AotDictionary()
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2D99220", Offset = "0x2D97820", VA = "0x182D99220")]
+	[Address(RVA = "0x67925B0", Offset = "0x67915B0", VA = "0x67925B0")]
 	public AotDictionary(IEqualityComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2D99200", Offset = "0x2D97800", VA = "0x182D99200")]
+	[Address(RVA = "0x67925C0", Offset = "0x67915C0", VA = "0x67925C0")]
 	public AotDictionary(int capacity)
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2D99210", Offset = "0x2D97810", VA = "0x182D99210")]
+	[Address(RVA = "0x67925D0", Offset = "0x67915D0", VA = "0x67925D0")]
 	public AotDictionary(int capacity, IEqualityComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2D99140", Offset = "0x2D97740", VA = "0x182D99140")]
+	[Address(RVA = "0x67925E0", Offset = "0x67915E0", VA = "0x67925E0")]
 	[Preserve]
 	public static void AotStubs()
 	{

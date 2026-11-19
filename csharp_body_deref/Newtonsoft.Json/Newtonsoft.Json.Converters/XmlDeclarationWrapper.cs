@@ -21,7 +21,7 @@ internal class XmlDeclarationWrapper : XmlNodeWrapper, IXmlDeclaration, IXmlNode
 	public string? Version
 	{
 		[Token(Token = "0x6000F16")]
-		[Address(RVA = "0x1CB2C70", Offset = "0x1CB1270", VA = "0x181CB2C70", Slot = "16")]
+		[Address(RVA = "0x563A3D0", Offset = "0x56393D0", VA = "0x563A3D0", Slot = "16")]
 		get
 		{
 			return null;
@@ -32,13 +32,13 @@ internal class XmlDeclarationWrapper : XmlNodeWrapper, IXmlDeclaration, IXmlNode
 	public string? Encoding
 	{
 		[Token(Token = "0x6000F17")]
-		[Address(RVA = "0x1CB2C30", Offset = "0x1CB1230", VA = "0x181CB2C30", Slot = "17")]
+		[Address(RVA = "0x563A3F0", Offset = "0x56393F0", VA = "0x563A3F0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F18")]
-		[Address(RVA = "0x1CB2C90", Offset = "0x1CB1290", VA = "0x181CB2C90", Slot = "18")]
+		[Address(RVA = "0x563A410", Offset = "0x5639410", VA = "0x563A410", Slot = "18")]
 		set
 		{
 		}
@@ -48,20 +48,20 @@ internal class XmlDeclarationWrapper : XmlNodeWrapper, IXmlDeclaration, IXmlNode
 	public string? Standalone
 	{
 		[Token(Token = "0x6000F19")]
-		[Address(RVA = "0x1CB2C50", Offset = "0x1CB1250", VA = "0x181CB2C50", Slot = "19")]
+		[Address(RVA = "0x563A430", Offset = "0x5639430", VA = "0x563A430", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F1A")]
-		[Address(RVA = "0x1CB2CB0", Offset = "0x1CB12B0", VA = "0x181CB2CB0", Slot = "20")]
+		[Address(RVA = "0x563A450", Offset = "0x5639450", VA = "0x563A450", Slot = "20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F15")]
-	[Address(RVA = "0x1CB2BE0", Offset = "0x1CB11E0", VA = "0x181CB2BE0")]
+	[Address(RVA = "0x5639D60", Offset = "0x5638D60", VA = "0x5639D60")]
 	public XmlDeclarationWrapper(XmlDeclaration declaration)
 	{
 	}

@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001D7")]
+[Token(Token = "0x20001AF")]
 internal interface ModifierSpec
 {
-	[Token(Token = "0x60010C6")]
+	[Token(Token = "0x600109D")]
 	Type Resolve(Type type);
 
-	[Token(Token = "0x60010C7")]
+	[Token(Token = "0x600109E")]
 	StringBuilder Append(StringBuilder sb);
 }

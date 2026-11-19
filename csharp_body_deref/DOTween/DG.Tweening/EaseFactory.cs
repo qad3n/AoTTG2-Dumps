@@ -15,28 +15,28 @@ namespace DG.Tweening;
 public class EaseFactory
 {
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x54E2A0", Offset = "0x54C8A0", VA = "0x18054E2A0")]
+	[Address(RVA = "0x316BD30", Offset = "0x316AD30", VA = "0x316BD30")]
 	public static EaseFunction StopMotion(int motionFps, [Optional] Ease? ease)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x54E350", Offset = "0x54C950", VA = "0x18054E350")]
+	[Address(RVA = "0x316BEF0", Offset = "0x316AEF0", VA = "0x316BEF0")]
 	public static EaseFunction StopMotion(int motionFps, AnimationCurve animCurve)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x54E180", Offset = "0x54C780", VA = "0x18054E180")]
+	[Address(RVA = "0x316BDD0", Offset = "0x316ADD0", VA = "0x316BDD0")]
 	public static EaseFunction StopMotion(int motionFps, EaseFunction customEase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x316C010", Offset = "0x316B010", VA = "0x316C010")]
 	public EaseFactory()
 	{
 	}

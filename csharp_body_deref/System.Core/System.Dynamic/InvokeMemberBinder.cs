@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000279")]
+[Token(Token = "0x200027A")]
 public abstract class InvokeMemberBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x17000285")]
+	[Token(Token = "0x17000287")]
 	public string Name
 	{
-		[Token(Token = "0x6000C70")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000C7B")]
+		[Address(RVA = "0x5E258F0", Offset = "0x5E248F0", VA = "0x5E258F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public abstract class InvokeMemberBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x17000286")]
+	[Token(Token = "0x17000288")]
 	public bool IgnoreCase
 	{
-		[Token(Token = "0x6000C71")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6000C7C")]
+		[Address(RVA = "0x5E25900", Offset = "0x5E24900", VA = "0x5E25900")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,23 +37,23 @@ public abstract class InvokeMemberBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x6000C72")]
-	[Address(RVA = "0x2485250", Offset = "0x2483850", VA = "0x182485250", Slot = "7")]
+	[Token(Token = "0x6000C7D")]
+	[Address(RVA = "0x5E25910", Offset = "0x5E24910", VA = "0x5E25910", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C73")]
-	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
+	[Token(Token = "0x6000C7E")]
+	[Address(RVA = "0x5E24000", Offset = "0x5E23000", VA = "0x5E24000")]
 	public DynamicMetaObject FallbackInvokeMember(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C74")]
+	[Token(Token = "0x6000C7F")]
 	public abstract DynamicMetaObject FallbackInvokeMember(DynamicMetaObject target, DynamicMetaObject[] args, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000C75")]
+	[Token(Token = "0x6000C80")]
 	public abstract DynamicMetaObject FallbackInvoke(DynamicMetaObject target, DynamicMetaObject[] args, DynamicMetaObject errorSuggestion);
 }

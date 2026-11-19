@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x200097D")]
+[Token(Token = "0x20009E3")]
 internal class RegionBanPage
 {
-	[Token(Token = "0x4002ECB")]
+	[Token(Token = "0x400317B")]
 	[FieldOffset(Offset = "0x10")]
 	public int Count;
 
-	[Token(Token = "0x4002ECC")]
+	[Token(Token = "0x400317C")]
 	[FieldOffset(Offset = "0x14")]
 	public int EndIndex;
 
-	[Token(Token = "0x4002ECD")]
+	[Token(Token = "0x400317D")]
 	[FieldOffset(Offset = "0x18")]
 	public RegionBanEntry[] Entries;
 
-	[Token(Token = "0x60057E2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005B39")]
+	[Address(RVA = "0x5D36260", Offset = "0x5D35260", VA = "0x5D36260")]
 	public RegionBanPage()
 	{
 	}

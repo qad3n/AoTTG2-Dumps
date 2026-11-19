@@ -10,104 +10,104 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x2000584")]
+[Token(Token = "0x20005DE")]
 internal class BestFitAllocator
 {
-	[Token(Token = "0x2000585")]
+	[Token(Token = "0x20005DF")]
 	private class BlockPool : LinkedPool<Block>
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6002964")]
-		[Address(RVA = "0x31783B0", Offset = "0x31769B0", VA = "0x1831783B0")]
+		[Token(Token = "0x6002B9E")]
+		[Address(RVA = "0x6BBAA20", Offset = "0x6BB9A20", VA = "0x6BBAA20")]
 		private static Block CreateBlock()
 		{
 			return null;
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6002965")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Token(Token = "0x6002B9F")]
+		[Address(RVA = "0x6BBAAD0", Offset = "0x6BB9AD0", VA = "0x6BBAAD0")]
 		private static void ResetBlock(Block block)
 		{
 		}
 
-		[Token(Token = "0x6002966")]
-		[Address(RVA = "0x3178420", Offset = "0x3176A20", VA = "0x183178420")]
+		[Token(Token = "0x6002BA0")]
+		[Address(RVA = "0x6BBA1E0", Offset = "0x6BB91E0", VA = "0x6BBA1E0")]
 		public BlockPool()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000586")]
+	[Token(Token = "0x20005E0")]
 	private class Block : LinkedPoolItem<Block>
 	{
-		[Token(Token = "0x400131F")]
+		[Token(Token = "0x40015C8")]
 		[FieldOffset(Offset = "0x18")]
 		public uint start;
 
-		[Token(Token = "0x4001320")]
+		[Token(Token = "0x40015C9")]
 		[FieldOffset(Offset = "0x1C")]
 		public uint end;
 
-		[Token(Token = "0x4001321")]
+		[Token(Token = "0x40015CA")]
 		[FieldOffset(Offset = "0x20")]
 		public Block prev;
 
-		[Token(Token = "0x4001322")]
+		[Token(Token = "0x40015CB")]
 		[FieldOffset(Offset = "0x28")]
 		public Block next;
 
-		[Token(Token = "0x4001323")]
+		[Token(Token = "0x40015CC")]
 		[FieldOffset(Offset = "0x30")]
 		public Block prevAvailable;
 
-		[Token(Token = "0x4001324")]
+		[Token(Token = "0x40015CD")]
 		[FieldOffset(Offset = "0x38")]
 		public Block nextAvailable;
 
-		[Token(Token = "0x4001325")]
+		[Token(Token = "0x40015CE")]
 		[FieldOffset(Offset = "0x40")]
 		public bool allocated;
 
-		[Token(Token = "0x17000A55")]
+		[Token(Token = "0x17000AAB")]
 		public uint size
 		{
-			[Token(Token = "0x6002967")]
-			[Address(RVA = "0x3178540", Offset = "0x3176B40", VA = "0x183178540")]
+			[Token(Token = "0x6002BA1")]
+			[Address(RVA = "0x6BBA540", Offset = "0x6BB9540", VA = "0x6BBA540")]
 			get
 			{
 				return default(uint);
 			}
 		}
 
-		[Token(Token = "0x6002968")]
-		[Address(RVA = "0x3178500", Offset = "0x3176B00", VA = "0x183178500")]
+		[Token(Token = "0x6002BA2")]
+		[Address(RVA = "0x6BBAA90", Offset = "0x6BB9A90", VA = "0x6BBAA90")]
 		public Block()
 		{
 		}
 	}
 
-	[Token(Token = "0x400131B")]
+	[Token(Token = "0x40015C4")]
 	[FieldOffset(Offset = "0x18")]
 	private Block m_FirstBlock;
 
-	[Token(Token = "0x400131C")]
+	[Token(Token = "0x40015C5")]
 	[FieldOffset(Offset = "0x20")]
 	private Block m_FirstAvailableBlock;
 
-	[Token(Token = "0x400131D")]
+	[Token(Token = "0x40015C6")]
 	[FieldOffset(Offset = "0x28")]
 	private BlockPool m_BlockPool;
 
-	[Token(Token = "0x400131E")]
+	[Token(Token = "0x40015C7")]
 	[FieldOffset(Offset = "0x30")]
 	private uint m_HighWatermark;
 
-	[Token(Token = "0x17000A53")]
+	[Token(Token = "0x17000AA9")]
 	public uint totalSize
 	{
-		[Token(Token = "0x600295D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6002B97")]
+		[Address(RVA = "0x6BBA2B0", Offset = "0x6BB92B0", VA = "0x6BBA2B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -115,52 +115,52 @@ internal class BestFitAllocator
 		}
 	}
 
-	[Token(Token = "0x17000A54")]
+	[Token(Token = "0x17000AAA")]
 	public uint highWatermark
 	{
-		[Token(Token = "0x600295E")]
-		[Address(RVA = "0x31783A0", Offset = "0x31769A0", VA = "0x1831783A0")]
+		[Token(Token = "0x6002B98")]
+		[Address(RVA = "0x6BBA2C0", Offset = "0x6BB92C0", VA = "0x6BBA2C0")]
 		get
 		{
 			return default(uint);
 		}
 	}
 
-	[Token(Token = "0x600295C")]
-	[Address(RVA = "0x3178230", Offset = "0x3176830", VA = "0x183178230")]
+	[Token(Token = "0x6002B96")]
+	[Address(RVA = "0x6BBA120", Offset = "0x6BB9120", VA = "0x6BBA120")]
 	public BestFitAllocator(uint size)
 	{
 	}
 
-	[Token(Token = "0x600295F")]
-	[Address(RVA = "0x31779D0", Offset = "0x3175FD0", VA = "0x1831779D0")]
+	[Token(Token = "0x6002B99")]
+	[Address(RVA = "0x6BBA2D0", Offset = "0x6BB92D0", VA = "0x6BBA2D0")]
 	public Alloc Allocate(uint size)
 	{
 		return default(Alloc);
 	}
 
-	[Token(Token = "0x6002960")]
-	[Address(RVA = "0x3177E70", Offset = "0x3176470", VA = "0x183177E70")]
+	[Token(Token = "0x6002B9A")]
+	[Address(RVA = "0x6BBA6B0", Offset = "0x6BB96B0", VA = "0x6BBA6B0")]
 	public void Free(Alloc alloc)
 	{
 	}
 
-	[Token(Token = "0x6002961")]
-	[Address(RVA = "0x3177D30", Offset = "0x3176330", VA = "0x183177D30")]
+	[Token(Token = "0x6002B9B")]
+	[Address(RVA = "0x6BBA8F0", Offset = "0x6BB98F0", VA = "0x6BBA8F0")]
 	private Block CoalesceBlockWithPrevious(Block block)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002962")]
-	[Address(RVA = "0x3177CF0", Offset = "0x31762F0", VA = "0x183177CF0")]
+	[Token(Token = "0x6002B9C")]
+	[Address(RVA = "0x6BBA500", Offset = "0x6BB9500", VA = "0x6BBA500")]
 	private Block BestFitFindAvailableBlock(uint size)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002963")]
-	[Address(RVA = "0x31780C0", Offset = "0x31766C0", VA = "0x1831780C0")]
+	[Token(Token = "0x6002B9D")]
+	[Address(RVA = "0x6BBA550", Offset = "0x6BB9550", VA = "0x6BBA550")]
 	private void SplitBlock(Block block, uint size)
 	{
 	}

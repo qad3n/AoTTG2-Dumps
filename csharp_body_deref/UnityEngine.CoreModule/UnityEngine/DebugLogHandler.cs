@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.DebugLogHandler
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,51 +16,51 @@ namespace UnityEngine;
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Debug/Debug.bindings.h")]
 internal sealed class DebugLogHandler : ILogHandler
 {
-	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x2EC1C80", Offset = "0x2EC0280", VA = "0x182EC1C80")]
+	[Token(Token = "0x6000324")]
+	[Address(RVA = "0x68C36E0", Offset = "0x68C26E0", VA = "0x68C36E0")]
 	[UnityEngine.ThreadAndSerializationSafe]
 	internal static void Internal_Log(LogType level, LogOption options, string msg, Object obj)
 	{
 	}
 
-	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x2EC1BB0", Offset = "0x2EC01B0", VA = "0x182EC1BB0")]
+	[Token(Token = "0x6000325")]
+	[Address(RVA = "0x68C38F0", Offset = "0x68C28F0", VA = "0x68C38F0")]
 	[UnityEngine.ThreadAndSerializationSafe]
 	internal static void Internal_LogException(Exception ex, Object obj)
 	{
 	}
 
-	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x2EC1F20", Offset = "0x2EC0520", VA = "0x182EC1F20", Slot = "4")]
+	[Token(Token = "0x6000326")]
+	[Address(RVA = "0x68C39D0", Offset = "0x68C29D0", VA = "0x68C39D0", Slot = "4")]
 	public void LogFormat(LogType logType, Object context, string format, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x2EC1F70", Offset = "0x2EC0570", VA = "0x182EC1F70")]
+	[Token(Token = "0x6000327")]
+	[Address(RVA = "0x68C3A00", Offset = "0x68C2A00", VA = "0x68C3A00")]
 	public void LogFormat(LogType logType, LogOption logOptions, Object context, string format, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x2EC1E50", Offset = "0x2EC0450", VA = "0x182EC1E50", Slot = "5")]
+	[Token(Token = "0x6000328")]
+	[Address(RVA = "0x68C3A30", Offset = "0x68C2A30", VA = "0x68C3A30", Slot = "5")]
 	public void LogException(Exception exception, Object context)
 	{
 	}
 
-	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000329")]
+	[Address(RVA = "0x68C3B20", Offset = "0x68C2B20", VA = "0x68C3B20")]
 	public DebugLogHandler()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000326")]
-	[Address(RVA = "0x2EC1C30", Offset = "0x2EC0230", VA = "0x182EC1C30")]
+	[Token(Token = "0x600032A")]
+	[Address(RVA = "0x68C38A0", Offset = "0x68C28A0", VA = "0x68C38A0")]
 	private static extern void Internal_Log_Injected(LogType level, LogOption options, ref ManagedSpanWrapper msg, IntPtr obj);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x2EC1B60", Offset = "0x2EC0160", VA = "0x182EC1B60")]
+	[Token(Token = "0x600032B")]
+	[Address(RVA = "0x68C3990", Offset = "0x68C2990", VA = "0x68C3990")]
 	private static extern void Internal_LogException_Injected(Exception ex, IntPtr obj);
 }

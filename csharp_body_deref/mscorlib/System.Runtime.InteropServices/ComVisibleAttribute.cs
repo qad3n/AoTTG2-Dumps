@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x200046F")]
+[Token(Token = "0x2000448")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
 [ComVisible(true)]
 public sealed class ComVisibleAttribute : Attribute
 {
-	[Token(Token = "0x400125B")]
+	[Token(Token = "0x40011BB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal bool _val;
 
-	[Token(Token = "0x600223F")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6002215")]
+	[Address(RVA = "0x53C4B50", Offset = "0x53C3B50", VA = "0x53C4B50")]
 	public ComVisibleAttribute(bool visibility)
 	{
 	}

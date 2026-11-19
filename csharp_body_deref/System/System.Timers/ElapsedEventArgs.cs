@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Timers;
 
-[Token(Token = "0x20000DB")]
+[Token(Token = "0x200009C")]
 public class ElapsedEventArgs : EventArgs
 {
-	[Token(Token = "0x400033B")]
+	[Token(Token = "0x400026C")]
 	[FieldOffset(Offset = "0x10")]
 	private DateTime time;
 
-	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x284A820", Offset = "0x2848E20", VA = "0x18284A820")]
+	[Token(Token = "0x60002B2")]
+	[Address(RVA = "0x61DDCE0", Offset = "0x61DCCE0", VA = "0x61DDCE0")]
 	internal ElapsedEventArgs(DateTime time)
 	{
 	}

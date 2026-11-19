@@ -20,7 +20,7 @@ internal class NativeTypeAttribute : Attribute
 	public string Header
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "7")]
+		[Address(RVA = "0x69F1730", Offset = "0x69F0730", VA = "0x69F1730", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -31,7 +31,7 @@ internal class NativeTypeAttribute : Attribute
 	public string IntermediateScriptingStructName
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x69F1740", Offset = "0x69F0740", VA = "0x69F1740")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,7 +42,7 @@ internal class NativeTypeAttribute : Attribute
 	public CodegenOptions CodegenOptions
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0", Slot = "8")]
+		[Address(RVA = "0x69F1750", Offset = "0x69F0750", VA = "0x69F1750", Slot = "8")]
 		[CompilerGenerated]
 		set
 		{
@@ -50,25 +50,25 @@ internal class NativeTypeAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2FF7410", Offset = "0x2FF5A10", VA = "0x182FF7410")]
+	[Address(RVA = "0x69F1760", Offset = "0x69F0760", VA = "0x69F1760")]
 	public NativeTypeAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x2FF73A0", Offset = "0x2FF59A0", VA = "0x182FF73A0")]
+	[Address(RVA = "0x69F1780", Offset = "0x69F0780", VA = "0x69F1780")]
 	public NativeTypeAttribute(CodegenOptions codegenOptions)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2FF7280", Offset = "0x2FF5880", VA = "0x182FF7280")]
+	[Address(RVA = "0x69F17A0", Offset = "0x69F07A0", VA = "0x69F17A0")]
 	public NativeTypeAttribute(string header)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x2FF73D0", Offset = "0x2FF59D0", VA = "0x182FF73D0")]
+	[Address(RVA = "0x69F18A0", Offset = "0x69F08A0", VA = "0x69F18A0")]
 	public NativeTypeAttribute(CodegenOptions codegenOptions, string intermediateStructName)
 	{
 	}

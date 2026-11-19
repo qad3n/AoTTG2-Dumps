@@ -25,38 +25,38 @@ public class SaveIncomingStreamToFile : VoiceComponent
 	private bool muteLocalSpeaker;
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x1D91CC0", Offset = "0x1D902C0", VA = "0x181D91CC0", Slot = "4")]
+	[Address(RVA = "0x573D5B0", Offset = "0x573C5B0", VA = "0x573D5B0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x1D92640", Offset = "0x1D90C40", VA = "0x181D92640")]
+	[Address(RVA = "0x573D7E0", Offset = "0x573C7E0", VA = "0x573D7E0")]
 	private void OnSpeakerLinked(Speaker speaker)
 	{
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x1D92220", Offset = "0x1D90820", VA = "0x181D92220")]
+	[Address(RVA = "0x573D890", Offset = "0x573C890", VA = "0x573D890")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x1D92340", Offset = "0x1D90940", VA = "0x181D92340")]
+	[Address(RVA = "0x573D9A0", Offset = "0x573C9A0", VA = "0x573D9A0")]
 	private void OnRemoteVoiceAdded(RemoteVoiceLink remoteVoiceLink)
 	{
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x1D91F00", Offset = "0x1D90500", VA = "0x181D91F00")]
+	[Address(RVA = "0x573DDC0", Offset = "0x573CDC0", VA = "0x573DDC0")]
 	private string GetFilePath(RemoteVoiceLink remoteVoiceLink)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x1D8D100", Offset = "0x1D8B700", VA = "0x181D8D100")]
+	[Address(RVA = "0x573E0F0", Offset = "0x573D0F0", VA = "0x573E0F0")]
 	public SaveIncomingStreamToFile()
 	{
 	}

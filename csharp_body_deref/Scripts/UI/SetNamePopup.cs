@@ -14,113 +14,113 @@ using UnityEngine.Events;
 
 namespace UI;
 
-[Token(Token = "0x20006FF")]
+[Token(Token = "0x20007A9")]
 internal class SetNamePopup : PromptPopup
 {
-	[Token(Token = "0x4002324")]
+	[Token(Token = "0x40026A1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private UnityAction _onSave;
 
-	[Token(Token = "0x4002325")]
+	[Token(Token = "0x40026A2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private InputSettingElement _element;
 
-	[Token(Token = "0x4002326")]
+	[Token(Token = "0x40026A3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	public StringSetting NameSetting;
 
-	[Token(Token = "0x4002327")]
+	[Token(Token = "0x40026A4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private string _initialValue;
 
-	[Token(Token = "0x4002328")]
+	[Token(Token = "0x40026A5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private string _defaultFieldLabel;
 
-	[Token(Token = "0x4002329")]
+	[Token(Token = "0x40026A6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private GameObject _previewLabel;
 
-	[Token(Token = "0x400232A")]
+	[Token(Token = "0x40026A7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	private NameEffectController _previewEffect;
 
-	[Token(Token = "0x17000C4A")]
+	[Token(Token = "0x17000CCE")]
 	protected override string Title
 	{
-		[Token(Token = "0x60044BF")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
+		[Token(Token = "0x60049E6")]
+		[Address(RVA = "0x5BC7690", Offset = "0x5BC6690", VA = "0x5BC7690", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C4B")]
+	[Token(Token = "0x17000CCF")]
 	protected override float Width
 	{
-		[Token(Token = "0x60044C0")]
-		[Address(RVA = "0x21CB910", Offset = "0x21C9F10", VA = "0x1821CB910", Slot = "5")]
+		[Token(Token = "0x60049E7")]
+		[Address(RVA = "0x5BC76B0", Offset = "0x5BC66B0", VA = "0x5BC76B0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C4C")]
+	[Token(Token = "0x17000CD0")]
 	protected override float Height
 	{
-		[Token(Token = "0x60044C1")]
-		[Address(RVA = "0x21CB900", Offset = "0x21C9F00", VA = "0x1821CB900", Slot = "6")]
+		[Token(Token = "0x60049E8")]
+		[Address(RVA = "0x5BC76C0", Offset = "0x5BC66C0", VA = "0x5BC76C0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C4D")]
+	[Token(Token = "0x17000CD1")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x60044C2")]
-		[Address(RVA = "0x846F60", Offset = "0x845560", VA = "0x180846F60", Slot = "9")]
+		[Token(Token = "0x60049E9")]
+		[Address(RVA = "0x5BC76D0", Offset = "0x5BC66D0", VA = "0x5BC76D0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60044C3")]
-	[Address(RVA = "0x21CB260", Offset = "0x21C9860", VA = "0x1821CB260", Slot = "20")]
+	[Token(Token = "0x60049EA")]
+	[Address(RVA = "0x5BC76E0", Offset = "0x5BC66E0", VA = "0x5BC76E0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044C4")]
-	[Address(RVA = "0x21CB5D0", Offset = "0x21C9BD0", VA = "0x1821CB5D0")]
+	[Token(Token = "0x60049EB")]
+	[Address(RVA = "0x5BC7A50", Offset = "0x5BC6A50", VA = "0x5BC7A50")]
 	public void Show(string initialValue, UnityAction onSave, string title, [Optional] string fieldLabel)
 	{
 	}
 
-	[Token(Token = "0x60044C5")]
-	[Address(RVA = "0x21CB120", Offset = "0x21C9720", VA = "0x1821CB120")]
+	[Token(Token = "0x60049EC")]
+	[Address(RVA = "0x5BC7B60", Offset = "0x5BC6B60", VA = "0x5BC7B60")]
 	private void SetFieldLabel(string label)
 	{
 	}
 
-	[Token(Token = "0x60044C6")]
-	[Address(RVA = "0x21CAE80", Offset = "0x21C9480", VA = "0x1821CAE80")]
+	[Token(Token = "0x60049ED")]
+	[Address(RVA = "0x5BC7CA0", Offset = "0x5BC6CA0", VA = "0x5BC7CA0")]
 	private void RefreshPreview()
 	{
 	}
 
-	[Token(Token = "0x60044C7")]
-	[Address(RVA = "0x21CAD70", Offset = "0x21C9370", VA = "0x1821CAD70")]
+	[Token(Token = "0x60049EE")]
+	[Address(RVA = "0x5BC7F20", Offset = "0x5BC6F20", VA = "0x5BC7F20")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60044C8")]
-	[Address(RVA = "0x21CB860", Offset = "0x21C9E60", VA = "0x1821CB860")]
+	[Token(Token = "0x60049EF")]
+	[Address(RVA = "0x5BC8040", Offset = "0x5BC7040", VA = "0x5BC8040")]
 	public SetNamePopup()
 	{
 	}

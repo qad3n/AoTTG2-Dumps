@@ -11,86 +11,86 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000124")]
+[Token(Token = "0x20000E5")]
 public sealed class OidCollection : ICollection, IEnumerable
 {
-	[Token(Token = "0x400050B")]
+	[Token(Token = "0x400043C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<Oid> _list;
 
-	[Token(Token = "0x1700012D")]
+	[Token(Token = "0x170000FE")]
 	public Oid this[int index]
 	{
-		[Token(Token = "0x6000717")]
-		[Address(RVA = "0x287EAA0", Offset = "0x287D0A0", VA = "0x18287EAA0")]
+		[Token(Token = "0x6000560")]
+		[Address(RVA = "0x620A460", Offset = "0x6209460", VA = "0x620A460")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700012E")]
+	[Token(Token = "0x170000FF")]
 	public int Count
 	{
-		[Token(Token = "0x6000718")]
-		[Address(RVA = "0x287EA60", Offset = "0x287D060", VA = "0x18287EA60", Slot = "5")]
+		[Token(Token = "0x6000561")]
+		[Address(RVA = "0x620A4B0", Offset = "0x62094B0", VA = "0x620A4B0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700012F")]
+	[Token(Token = "0x17000100")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x600071C")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x6000565")]
+		[Address(RVA = "0x620A810", Offset = "0x6209810", VA = "0x620A810", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000130")]
+	[Token(Token = "0x17000101")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x600071D")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
+		[Token(Token = "0x6000566")]
+		[Address(RVA = "0x620A820", Offset = "0x6209820", VA = "0x620A820", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x287E9E0", Offset = "0x287CFE0", VA = "0x18287E9E0")]
+	[Token(Token = "0x600055E")]
+	[Address(RVA = "0x620A340", Offset = "0x6209340", VA = "0x620A340")]
 	public OidCollection()
 	{
 	}
 
-	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x287E660", Offset = "0x287CC60", VA = "0x18287E660")]
+	[Token(Token = "0x600055F")]
+	[Address(RVA = "0x620A3C0", Offset = "0x62093C0", VA = "0x620A3C0")]
 	public int Add(Oid oid)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000719")]
-	[Address(RVA = "0x287E740", Offset = "0x287CD40", VA = "0x18287E740")]
+	[Token(Token = "0x6000562")]
+	[Address(RVA = "0x620A4F0", Offset = "0x62094F0", VA = "0x620A4F0")]
 	public OidEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600071A")]
-	[Address(RVA = "0x287E740", Offset = "0x287CD40", VA = "0x18287E740", Slot = "8")]
+	[Token(Token = "0x6000563")]
+	[Address(RVA = "0x620A590", Offset = "0x6209590", VA = "0x620A590", Slot = "8")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600071B")]
-	[Address(RVA = "0x287E7B0", Offset = "0x287CDB0", VA = "0x18287E7B0", Slot = "4")]
+	[Token(Token = "0x6000564")]
+	[Address(RVA = "0x620A600", Offset = "0x6209600", VA = "0x620A600", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}

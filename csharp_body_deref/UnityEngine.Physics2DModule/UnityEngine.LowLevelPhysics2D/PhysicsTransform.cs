@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsTransform
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,20 +24,20 @@ public struct PhysicsTransform
 	public PhysicsRotate rotation;
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x2FD7A50", Offset = "0x2FD6050", VA = "0x182FD7A50")]
+	[Address(RVA = "0x69CD010", Offset = "0x69CC010", VA = "0x69CD010")]
 	public PhysicsTransform()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x2FD7980", Offset = "0x2FD5F80", VA = "0x182FD7980")]
+	[Address(RVA = "0x69CD0E0", Offset = "0x69CC0E0", VA = "0x69CD0E0")]
 	public readonly void GetPositionAndRotation(out Vector2 position, out PhysicsRotate rotation)
 	{
 	}
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x2FD79B0", Offset = "0x2FD5FB0", VA = "0x182FD79B0", Slot = "3")]
+	[Address(RVA = "0x69CD0F0", Offset = "0x69CC0F0", VA = "0x69CD0F0", Slot = "3")]
 	public override readonly string ToString()
 	{
 		return null;

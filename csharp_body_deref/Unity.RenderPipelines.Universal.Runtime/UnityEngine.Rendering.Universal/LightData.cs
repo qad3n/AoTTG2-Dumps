@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.LightData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ public struct LightData
 	internal UniversalLightData universalLightData
 	{
 		[Token(Token = "0x6000A8A")]
-		[Address(RVA = "0x2CC4900", Offset = "0x2CC2F00", VA = "0x182CC4900")]
+		[Address(RVA = "0x66AE5D0", Offset = "0x66AD5D0", VA = "0x66AE5D0")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ public struct LightData
 	public unsafe ref int mainLightIndex
 	{
 		[Token(Token = "0x6000A8B")]
-		[Address(RVA = "0x2CC4630", Offset = "0x2CC2C30", VA = "0x182CC4630")]
+		[Address(RVA = "0x66AE610", Offset = "0x66AD610", VA = "0x66AE610")]
 		get
 		{
 			return ref *(int*)null;
@@ -43,7 +43,7 @@ public struct LightData
 	public unsafe ref int additionalLightsCount
 	{
 		[Token(Token = "0x6000A8C")]
-		[Address(RVA = "0x2CC45E0", Offset = "0x2CC2BE0", VA = "0x182CC45E0")]
+		[Address(RVA = "0x66AE660", Offset = "0x66AD660", VA = "0x66AE660")]
 		get
 		{
 			return ref *(int*)null;
@@ -54,7 +54,7 @@ public struct LightData
 	public unsafe ref int maxPerObjectAdditionalLightsCount
 	{
 		[Token(Token = "0x6000A8D")]
-		[Address(RVA = "0x2CC4680", Offset = "0x2CC2C80", VA = "0x182CC4680")]
+		[Address(RVA = "0x66AE6B0", Offset = "0x66AD6B0", VA = "0x66AE6B0")]
 		get
 		{
 			return ref *(int*)null;
@@ -65,7 +65,7 @@ public struct LightData
 	public unsafe ref NativeArray<VisibleLight> visibleLights
 	{
 		[Token(Token = "0x6000A8E")]
-		[Address(RVA = "0x2CC4950", Offset = "0x2CC2F50", VA = "0x182CC4950")]
+		[Address(RVA = "0x66AE700", Offset = "0x66AD700", VA = "0x66AE700")]
 		get
 		{
 			return ref *(NativeArray<VisibleLight>*)null;
@@ -76,7 +76,7 @@ public struct LightData
 	public unsafe ref bool shadeAdditionalLightsPerVertex
 	{
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x2CC47C0", Offset = "0x2CC2DC0", VA = "0x182CC47C0")]
+		[Address(RVA = "0x66AE750", Offset = "0x66AD750", VA = "0x66AE750")]
 		get
 		{
 			return ref *(bool*)null;
@@ -87,7 +87,7 @@ public struct LightData
 	public unsafe ref bool supportsMixedLighting
 	{
 		[Token(Token = "0x6000A90")]
-		[Address(RVA = "0x2CC48B0", Offset = "0x2CC2EB0", VA = "0x182CC48B0")]
+		[Address(RVA = "0x66AE7A0", Offset = "0x66AD7A0", VA = "0x66AE7A0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -98,7 +98,7 @@ public struct LightData
 	public unsafe ref bool reflectionProbeBoxProjection
 	{
 		[Token(Token = "0x6000A91")]
-		[Address(RVA = "0x2CC4770", Offset = "0x2CC2D70", VA = "0x182CC4770")]
+		[Address(RVA = "0x66AE7F0", Offset = "0x66AD7F0", VA = "0x66AE7F0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -109,7 +109,7 @@ public struct LightData
 	public unsafe ref bool reflectionProbeBlending
 	{
 		[Token(Token = "0x6000A92")]
-		[Address(RVA = "0x2CC4720", Offset = "0x2CC2D20", VA = "0x182CC4720")]
+		[Address(RVA = "0x66AE840", Offset = "0x66AD840", VA = "0x66AE840")]
 		get
 		{
 			return ref *(bool*)null;
@@ -120,7 +120,7 @@ public struct LightData
 	public unsafe ref bool reflectionProbeAtlas
 	{
 		[Token(Token = "0x6000A93")]
-		[Address(RVA = "0x2CC46D0", Offset = "0x2CC2CD0", VA = "0x182CC46D0")]
+		[Address(RVA = "0x66AE890", Offset = "0x66AD890", VA = "0x66AE890")]
 		get
 		{
 			return ref *(bool*)null;
@@ -131,7 +131,7 @@ public struct LightData
 	public unsafe ref bool supportsLightLayers
 	{
 		[Token(Token = "0x6000A94")]
-		[Address(RVA = "0x2CC4860", Offset = "0x2CC2E60", VA = "0x182CC4860")]
+		[Address(RVA = "0x66AE8E0", Offset = "0x66AD8E0", VA = "0x66AE8E0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -142,7 +142,7 @@ public struct LightData
 	public unsafe ref bool supportsAdditionalLights
 	{
 		[Token(Token = "0x6000A95")]
-		[Address(RVA = "0x2CC4810", Offset = "0x2CC2E10", VA = "0x182CC4810")]
+		[Address(RVA = "0x66AE930", Offset = "0x66AD930", VA = "0x66AE930")]
 		get
 		{
 			return ref *(bool*)null;
@@ -150,7 +150,7 @@ public struct LightData
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x66AE5C0", Offset = "0x66AD5C0", VA = "0x66AE5C0")]
 	internal LightData(ContextContainer frameData)
 	{
 	}

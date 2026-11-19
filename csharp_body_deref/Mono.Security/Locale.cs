@@ -4,14 +4,14 @@ using Il2CppDummyDll;
 internal sealed class Locale
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Address(RVA = "0x52AB5B0", Offset = "0x52AA5B0", VA = "0x52AB5B0")]
 	public static string GetText(string msg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x1917780", Offset = "0x1915D80", VA = "0x181917780")]
+	[Address(RVA = "0x52AB5C0", Offset = "0x52AA5C0", VA = "0x52AB5C0")]
 	public static string GetText(string fmt, params object[] args)
 	{
 		return null;

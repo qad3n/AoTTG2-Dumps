@@ -16,7 +16,7 @@ public static class DebugUtility
 	public static string logPath
 	{
 		[Token(Token = "0x60002B9")]
-		[Address(RVA = "0x2DA2560", Offset = "0x2DA0B60", VA = "0x182DA2560")]
+		[Address(RVA = "0x6797830", Offset = "0x6796830", VA = "0x6797830")]
 		get
 		{
 			return null;
@@ -24,7 +24,7 @@ public static class DebugUtility
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x2DA24C0", Offset = "0x2DA0AC0", VA = "0x182DA24C0")]
+	[Address(RVA = "0x67978A0", Offset = "0x67968A0", VA = "0x67978A0")]
 	public static void LogToFile(string message)
 	{
 	}

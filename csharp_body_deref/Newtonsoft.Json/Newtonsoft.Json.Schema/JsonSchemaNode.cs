@@ -21,7 +21,7 @@ internal class JsonSchemaNode
 	public string Id
 	{
 		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x55FA700", Offset = "0x55F9700", VA = "0x55FA700")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,7 +33,7 @@ internal class JsonSchemaNode
 	public ReadOnlyCollection<JsonSchema> Schemas
 	{
 		[Token(Token = "0x6000AB6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x55FA710", Offset = "0x55F9710", VA = "0x55FA710")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,7 +45,7 @@ internal class JsonSchemaNode
 	public Dictionary<string, JsonSchemaNode> Properties
 	{
 		[Token(Token = "0x6000AB7")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x55FA720", Offset = "0x55F9720", VA = "0x55FA720")]
 		[CompilerGenerated]
 		get
 		{
@@ -57,7 +57,7 @@ internal class JsonSchemaNode
 	public Dictionary<string, JsonSchemaNode> PatternProperties
 	{
 		[Token(Token = "0x6000AB8")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x55FA730", Offset = "0x55F9730", VA = "0x55FA730")]
 		[CompilerGenerated]
 		get
 		{
@@ -69,7 +69,7 @@ internal class JsonSchemaNode
 	public List<JsonSchemaNode> Items
 	{
 		[Token(Token = "0x6000AB9")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x55FA740", Offset = "0x55F9740", VA = "0x55FA740")]
 		[CompilerGenerated]
 		get
 		{
@@ -81,14 +81,14 @@ internal class JsonSchemaNode
 	public JsonSchemaNode AdditionalProperties
 	{
 		[Token(Token = "0x6000ABA")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x55FA750", Offset = "0x55F9750", VA = "0x55FA750")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ABB")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x55FA760", Offset = "0x55F9760", VA = "0x55FA760")]
 		[CompilerGenerated]
 		set
 		{
@@ -99,14 +99,14 @@ internal class JsonSchemaNode
 	public JsonSchemaNode AdditionalItems
 	{
 		[Token(Token = "0x6000ABC")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x55FA770", Offset = "0x55F9770", VA = "0x55FA770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ABD")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x55FA780", Offset = "0x55F9780", VA = "0x55FA780")]
 		[CompilerGenerated]
 		set
 		{
@@ -114,26 +114,26 @@ internal class JsonSchemaNode
 	}
 
 	[Token(Token = "0x6000ABE")]
-	[Address(RVA = "0x1C5E800", Offset = "0x1C5CE00", VA = "0x181C5E800")]
+	[Address(RVA = "0x55F9E20", Offset = "0x55F8E20", VA = "0x55F9E20")]
 	public JsonSchemaNode(JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000ABF")]
-	[Address(RVA = "0x1C5E9E0", Offset = "0x1C5CFE0", VA = "0x181C5E9E0")]
+	[Address(RVA = "0x55FA790", Offset = "0x55F9790", VA = "0x55FA790")]
 	private JsonSchemaNode(JsonSchemaNode source, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AC0")]
-	[Address(RVA = "0x1C5E510", Offset = "0x1C5CB10", VA = "0x181C5E510")]
+	[Address(RVA = "0x55FA010", Offset = "0x55F9010", VA = "0x55FA010")]
 	public JsonSchemaNode Combine(JsonSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AC1")]
-	[Address(RVA = "0x1C5E580", Offset = "0x1C5CB80", VA = "0x181C5E580")]
+	[Address(RVA = "0x55F9B80", Offset = "0x55F8B80", VA = "0x55F9B80")]
 	public static string GetId(IEnumerable<JsonSchema> schemata)
 	{
 		return null;

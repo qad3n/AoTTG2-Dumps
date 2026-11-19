@@ -14,67 +14,67 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20001C7")]
+[Token(Token = "0x200019F")]
 [ComVisible(true)]
 public struct RuntimeMethodHandle : ISerializable
 {
-	[Token(Token = "0x4000727")]
+	[Token(Token = "0x4000685")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IntPtr value;
 
-	[Token(Token = "0x17000174")]
+	[Token(Token = "0x17000173")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x6001044")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x600101B")]
+		[Address(RVA = "0x5515D70", Offset = "0x5514D70", VA = "0x5515D70")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x6001042")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x6001019")]
+	[Address(RVA = "0x5515BF0", Offset = "0x5514BF0", VA = "0x5515BF0")]
 	internal RuntimeMethodHandle(IntPtr v)
 	{
 	}
 
-	[Token(Token = "0x6001043")]
-	[Address(RVA = "0x1B89430", Offset = "0x1B87A30", VA = "0x181B89430")]
+	[Token(Token = "0x600101A")]
+	[Address(RVA = "0x5515C00", Offset = "0x5514C00", VA = "0x5515C00")]
 	private RuntimeMethodHandle(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001045")]
-	[Address(RVA = "0x1B892A0", Offset = "0x1B878A0", VA = "0x181B892A0", Slot = "4")]
+	[Token(Token = "0x600101C")]
+	[Address(RVA = "0x5515D80", Offset = "0x5514D80", VA = "0x5515D80", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x1B891B0", Offset = "0x1B877B0", VA = "0x181B891B0", Slot = "0")]
+	[Token(Token = "0x600101D")]
+	[Address(RVA = "0x5515EF0", Offset = "0x5514EF0", VA = "0x5515EF0", Slot = "0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001047")]
-	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "2")]
+	[Token(Token = "0x600101E")]
+	[Address(RVA = "0x5515FD0", Offset = "0x5514FD0", VA = "0x5515FD0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001048")]
-	[Address(RVA = "0x1B89060", Offset = "0x1B87660", VA = "0x181B89060")]
+	[Token(Token = "0x600101F")]
+	[Address(RVA = "0x5515FE0", Offset = "0x5514FE0", VA = "0x5515FE0")]
 	internal static string ConstructInstantiation(System.Reflection.RuntimeMethodInfo method, System.TypeNameFormatFlags format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001049")]
-	[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
+	[Token(Token = "0x6001020")]
+	[Address(RVA = "0x5516170", Offset = "0x5515170", VA = "0x5516170")]
 	internal bool IsNullHandle()
 	{
 		return default(bool);

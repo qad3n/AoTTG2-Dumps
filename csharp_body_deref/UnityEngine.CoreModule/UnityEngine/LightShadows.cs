@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F8")]
+[Token(Token = "0x20000F9")]
 public enum LightShadows
 {
-	[Token(Token = "0x4000291")]
+	[Token(Token = "0x4000296")]
 	None,
-	[Token(Token = "0x4000292")]
+	[Token(Token = "0x4000297")]
 	Hard,
-	[Token(Token = "0x4000293")]
+	[Token(Token = "0x4000298")]
 	Soft
 }

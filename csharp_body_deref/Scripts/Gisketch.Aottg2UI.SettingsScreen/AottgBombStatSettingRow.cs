@@ -12,197 +12,200 @@ using Settings;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000151")]
+[Token(Token = "0x2000159")]
 internal sealed class AottgBombStatSettingRow : AottgComponent, IAottgSettingsSearchable, IAottgSettingsStateSync, IAottgSettingRowLayoutAware
 {
-	[Token(Token = "0x2000152")]
+	[Token(Token = "0x200015A")]
 	internal enum StatKind
 	{
-		[Token(Token = "0x40007AD")]
+		[Token(Token = "0x40007FA")]
 		Radius,
-		[Token(Token = "0x40007AE")]
+		[Token(Token = "0x40007FB")]
 		Range,
-		[Token(Token = "0x40007AF")]
+		[Token(Token = "0x40007FC")]
 		Speed,
-		[Token(Token = "0x40007B0")]
+		[Token(Token = "0x40007FD")]
 		Cooldown
 	}
 
-	[Token(Token = "0x40007A0")]
+	[Token(Token = "0x40007EE")]
 	private const int MaxTotal = 20;
 
-	[Token(Token = "0x40007A1")]
+	[Token(Token = "0x40007EF")]
 	internal const string RadiusId = "settings-ability-bomb-radius";
 
-	[Token(Token = "0x40007A2")]
+	[Token(Token = "0x40007F0")]
 	internal const string RangeId = "settings-ability-bomb-range";
 
-	[Token(Token = "0x40007A3")]
+	[Token(Token = "0x40007F1")]
 	internal const string SpeedId = "settings-ability-bomb-speed";
 
-	[Token(Token = "0x40007A4")]
+	[Token(Token = "0x40007F2")]
 	internal const string CooldownId = "settings-ability-bomb-cooldown";
 
-	[Token(Token = "0x40007A5")]
+	[Token(Token = "0x40007F3")]
 	internal const string UnusedPointsKey = "settings-ability-bomb-unused-points.value";
 
-	[Token(Token = "0x40007A6")]
+	[Token(Token = "0x40007F4")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x40007A7")]
+	[Token(Token = "0x40007F5")]
 	[FieldOffset(Offset = "0x18")]
-	private readonly string _label;
-
-	[Token(Token = "0x40007A8")]
-	[FieldOffset(Offset = "0x20")]
 	private readonly IntSetting _setting;
 
-	[Token(Token = "0x40007A9")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x40007F6")]
+	[FieldOffset(Offset = "0x20")]
 	private readonly StatKind _kind;
 
-	[Token(Token = "0x40007AA")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x40007F7")]
+	[FieldOffset(Offset = "0x28")]
 	private AottgSettingsSearchContext _searchContext;
 
-	[Token(Token = "0x40007AB")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x40007F8")]
+	[FieldOffset(Offset = "0x50")]
 	private AottgSettingRowLayoutMode _layoutMode;
 
-	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x21EBC70", Offset = "0x21EA270", VA = "0x1821EBC70")]
-	public AottgBombStatSettingRow(string id, string label, IntSetting setting, StatKind kind)
+	[Token(Token = "0x600071F")]
+	[Address(RVA = "0x5CBAD40", Offset = "0x5CB9D40", VA = "0x5CBAD40")]
+	public AottgBombStatSettingRow(string id, IntSetting setting, StatKind kind)
 	{
 	}
 
-	[Token(Token = "0x60006AB")]
-	[Address(RVA = "0x21EA620", Offset = "0x21E8C20", VA = "0x1821EA620", Slot = "4")]
+	[Token(Token = "0x6000720")]
+	[Address(RVA = "0x5CBAD90", Offset = "0x5CB9D90", VA = "0x5CBAD90", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x60006AC")]
-	[Address(RVA = "0x21EA430", Offset = "0x21E8A30", VA = "0x1821EA430", Slot = "5")]
+	[Token(Token = "0x6000721")]
+	[Address(RVA = "0x5CBB170", Offset = "0x5CBA170", VA = "0x5CBB170", Slot = "5")]
 	public void ApplySearchContext(AottgSettingsSearchContext context)
 	{
 	}
 
-	[Token(Token = "0x60006AD")]
-	[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0", Slot = "7")]
+	[Token(Token = "0x6000722")]
+	[Address(RVA = "0x5CBB1A0", Offset = "0x5CBA1A0", VA = "0x5CBB1A0", Slot = "7")]
 	public void ApplyLayoutMode(AottgSettingRowLayoutMode mode)
 	{
 	}
 
-	[Token(Token = "0x60006AE")]
-	[Address(RVA = "0x21EB3A0", Offset = "0x21E99A0", VA = "0x1821EB3A0", Slot = "6")]
+	[Token(Token = "0x6000723")]
+	[Address(RVA = "0x5CBB1B0", Offset = "0x5CBA1B0", VA = "0x5CBB1B0", Slot = "6")]
 	public void SyncState(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x60006AF")]
-	[Address(RVA = "0x21EA460", Offset = "0x21E8A60", VA = "0x1821EA460")]
+	[Token(Token = "0x6000724")]
+	[Address(RVA = "0x5CBB410", Offset = "0x5CBA410", VA = "0x5CBB410")]
 	private void BuildStepper(AottgUi control)
 	{
 	}
 
-	[Token(Token = "0x60006B0")]
-	[Address(RVA = "0x21EAB20", Offset = "0x21E9120", VA = "0x1821EAB20")]
+	[Token(Token = "0x6000725")]
+	[Address(RVA = "0x5CBAFF0", Offset = "0x5CB9FF0", VA = "0x5CBAFF0")]
 	private string LabelText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B1")]
-	[Address(RVA = "0x21EAAA0", Offset = "0x21E90A0", VA = "0x1821EAAA0")]
-	private static string LabelText(string label, IntSetting setting, StatKind kind)
+	[Token(Token = "0x6000726")]
+	[Address(RVA = "0x5CBB5B0", Offset = "0x5CBA5B0", VA = "0x5CBB5B0")]
+	private static string LabelText(IntSetting setting, StatKind kind)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B2")]
-	[Address(RVA = "0x21EABC0", Offset = "0x21E91C0", VA = "0x1821EABC0")]
+	[Token(Token = "0x6000727")]
+	[Address(RVA = "0x5CBB060", Offset = "0x5CBA060", VA = "0x5CBB060")]
+	private static string StatLabel(StatKind kind)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000728")]
+	[Address(RVA = "0x5CBB620", Offset = "0x5CBA620", VA = "0x5CBB620")]
 	private static string StatValue(IntSetting setting, StatKind kind)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B3")]
-	[Address(RVA = "0x21EA8E0", Offset = "0x21E8EE0", VA = "0x1821EA8E0")]
+	[Token(Token = "0x6000729")]
+	[Address(RVA = "0x5CBB8B0", Offset = "0x5CBA8B0", VA = "0x5CBB8B0")]
 	private void Change(GisketchActionContext context, int delta)
 	{
 	}
 
-	[Token(Token = "0x60006B4")]
-	[Address(RVA = "0x21EA9F0", Offset = "0x21E8FF0", VA = "0x1821EA9F0")]
+	[Token(Token = "0x600072A")]
+	[Address(RVA = "0x5CBB9F0", Offset = "0x5CBA9F0", VA = "0x5CBB9F0")]
 	private string DirtyValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B5")]
-	[Address(RVA = "0x21EA840", Offset = "0x21E8E40", VA = "0x1821EA840")]
+	[Token(Token = "0x600072B")]
+	[Address(RVA = "0x5CBB9B0", Offset = "0x5CBA9B0", VA = "0x5CBB9B0")]
 	private bool CanIncrement()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006B6")]
-	[Address(RVA = "0x21EA890", Offset = "0x21E8E90", VA = "0x1821EA890")]
+	[Token(Token = "0x600072C")]
+	[Address(RVA = "0x5CBBA60", Offset = "0x5CBAA60", VA = "0x5CBBA60")]
 	private static bool CanIncrement(IntSetting setting)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006B7")]
-	[Address(RVA = "0x21EB3B0", Offset = "0x21E99B0", VA = "0x1821EB3B0")]
+	[Token(Token = "0x600072D")]
+	[Address(RVA = "0x5CBBAA0", Offset = "0x5CBAAA0", VA = "0x5CBBAA0")]
 	internal static int TotalPoints()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006B8")]
-	[Address(RVA = "0x21EBC10", Offset = "0x21EA210", VA = "0x1821EBC10")]
+	[Token(Token = "0x600072E")]
+	[Address(RVA = "0x5CBBB20", Offset = "0x5CBAB20", VA = "0x5CBBB20")]
 	internal static int UnusedPoints()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006B9")]
-	[Address(RVA = "0x21EAEA0", Offset = "0x21E94A0", VA = "0x1821EAEA0")]
+	[Token(Token = "0x600072F")]
+	[Address(RVA = "0x5CBB1C0", Offset = "0x5CBA1C0", VA = "0x5CBB1C0")]
 	internal static void SyncAll(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x60006BA")]
-	[Address(RVA = "0x21EB160", Offset = "0x21E9760", VA = "0x1821EB160")]
-	private static void SyncRow(GisketchUIRoot root, string id, string label, IntSetting setting, StatKind kind)
+	[Token(Token = "0x6000730")]
+	[Address(RVA = "0x5CBBB40", Offset = "0x5CBAB40", VA = "0x5CBBB40")]
+	private static void SyncRow(GisketchUIRoot root, string id, IntSetting setting, StatKind kind)
 	{
 	}
 
-	[Token(Token = "0x60006BB")]
-	[Address(RVA = "0x21EAA60", Offset = "0x21E9060", VA = "0x1821EAA60")]
+	[Token(Token = "0x6000731")]
+	[Address(RVA = "0x5CBB130", Offset = "0x5CBA130", VA = "0x5CBB130")]
 	private static string LabelKey(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x21EBC30", Offset = "0x21EA230", VA = "0x1821EBC30")]
+	[Token(Token = "0x6000732")]
+	[Address(RVA = "0x5CBBDF0", Offset = "0x5CBADF0", VA = "0x5CBBDF0")]
 	private static string ValueKey(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006BD")]
-	[Address(RVA = "0x21EAB40", Offset = "0x21E9140", VA = "0x1821EAB40")]
+	[Token(Token = "0x6000733")]
+	[Address(RVA = "0x5CBBE30", Offset = "0x5CBAE30", VA = "0x5CBBE30")]
 	private static string MinusEnabledKey(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006BE")]
-	[Address(RVA = "0x21EAB80", Offset = "0x21E9180", VA = "0x1821EAB80")]
+	[Token(Token = "0x6000734")]
+	[Address(RVA = "0x5CBBE70", Offset = "0x5CBAE70", VA = "0x5CBBE70")]
 	private static string PlusEnabledKey(string id)
 	{
 		return null;

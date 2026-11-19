@@ -28,7 +28,7 @@ internal struct Range
 	public int Count
 	{
 		[Token(Token = "0x60006FA")]
-		[Address(RVA = "0x2523680", Offset = "0x2521C80", VA = "0x182523680")]
+		[Address(RVA = "0x5EC0120", Offset = "0x5EBF120", VA = "0x5EC0120")]
 		get
 		{
 			return default(int);
@@ -39,7 +39,7 @@ internal struct Range
 	public bool IsNull
 	{
 		[Token(Token = "0x60006FB")]
-		[Address(RVA = "0x25236A0", Offset = "0x2521CA0", VA = "0x1825236A0")]
+		[Address(RVA = "0x5EBFB30", Offset = "0x5EBEB30", VA = "0x5EBFB30")]
 		get
 		{
 			return default(bool);
@@ -50,7 +50,7 @@ internal struct Range
 	public int Min
 	{
 		[Token(Token = "0x60006FC")]
-		[Address(RVA = "0x25236B0", Offset = "0x2521CB0", VA = "0x1825236B0")]
+		[Address(RVA = "0x5EC0140", Offset = "0x5EBF140", VA = "0x5EC0140")]
 		get
 		{
 			return default(int);
@@ -58,13 +58,13 @@ internal struct Range
 	}
 
 	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x2523630", Offset = "0x2521C30", VA = "0x182523630")]
+	[Address(RVA = "0x5EC6320", Offset = "0x5EC5320", VA = "0x5EC6320")]
 	public Range(int min, int max)
 	{
 	}
 
 	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x25235F0", Offset = "0x2521BF0", VA = "0x1825235F0")]
+	[Address(RVA = "0x5EC6360", Offset = "0x5EC5360", VA = "0x5EC6360")]
 	internal void CheckNull()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Text.RegularExpressions.CaptureCollection
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,132 +12,132 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000DD")]
+[Token(Token = "0x200009E")]
 [DebuggerTypeProxy(typeof(CollectionDebuggerProxy<Capture>))]
 [DebuggerDisplay("Count = {Count}")]
 public class CaptureCollection : IList<Capture>, ICollection<Capture>, IEnumerable<Capture>, IEnumerable, IReadOnlyList<Capture>, IReadOnlyCollection<Capture>, IList, ICollection
 {
 	[Serializable]
-	[Token(Token = "0x20000DE")]
+	[Token(Token = "0x200009F")]
 	private sealed class Enumerator : IEnumerator<Capture>, IDisposable, IEnumerator
 	{
-		[Token(Token = "0x4000342")]
+		[Token(Token = "0x4000273")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly CaptureCollection _collection;
 
-		[Token(Token = "0x4000343")]
+		[Token(Token = "0x4000274")]
 		[FieldOffset(Offset = "0x18")]
 		private int _index;
 
-		[Token(Token = "0x170000C7")]
+		[Token(Token = "0x17000098")]
 		public Capture Current
 		{
-			[Token(Token = "0x6000494")]
-			[Address(RVA = "0x284AA00", Offset = "0x2849000", VA = "0x18284AA00", Slot = "4")]
+			[Token(Token = "0x60002E0")]
+			[Address(RVA = "0x61DED50", Offset = "0x61DDD50", VA = "0x61DED50", Slot = "4")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170000C8")]
+		[Token(Token = "0x17000099")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000495")]
-			[Address(RVA = "0x284AA00", Offset = "0x2849000", VA = "0x18284AA00", Slot = "7")]
+			[Token(Token = "0x60002E1")]
+			[Address(RVA = "0x61DEDC0", Offset = "0x61DDDC0", VA = "0x61DEDC0", Slot = "7")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000492")]
-		[Address(RVA = "0x1A7BE00", Offset = "0x1A7A400", VA = "0x181A7BE00")]
+		[Token(Token = "0x60002DE")]
+		[Address(RVA = "0x61DE140", Offset = "0x61DD140", VA = "0x61DE140")]
 		internal Enumerator(CaptureCollection collection)
 		{
 		}
 
-		[Token(Token = "0x6000493")]
-		[Address(RVA = "0x284A8D0", Offset = "0x2848ED0", VA = "0x18284A8D0", Slot = "6")]
+		[Token(Token = "0x60002DF")]
+		[Address(RVA = "0x61DED20", Offset = "0x61DDD20", VA = "0x61DED20", Slot = "6")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000496")]
-		[Address(RVA = "0x1B5AFF0", Offset = "0x1B595F0", VA = "0x181B5AFF0", Slot = "8")]
+		[Token(Token = "0x60002E2")]
+		[Address(RVA = "0x61DEDD0", Offset = "0x61DDDD0", VA = "0x61DEDD0", Slot = "8")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000497")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60002E3")]
+		[Address(RVA = "0x61DEDE0", Offset = "0x61DDDE0", VA = "0x61DEDE0", Slot = "5")]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x4000270")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Group _group;
 
-	[Token(Token = "0x4000340")]
+	[Token(Token = "0x4000271")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly int _capcount;
 
-	[Token(Token = "0x4000341")]
+	[Token(Token = "0x4000272")]
 	[FieldOffset(Offset = "0x20")]
 	private Capture[] _captures;
 
-	[Token(Token = "0x170000BF")]
+	[Token(Token = "0x17000090")]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "25")]
+		[Token(Token = "0x60002BF")]
+		[Address(RVA = "0x61DDFF0", Offset = "0x61DCFF0", VA = "0x61DDFF0", Slot = "25")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000C0")]
+	[Token(Token = "0x17000091")]
 	public int Count
 	{
-		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "32")]
+		[Token(Token = "0x60002C0")]
+		[Address(RVA = "0x61DE000", Offset = "0x61DD000", VA = "0x61DE000", Slot = "32")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000C1")]
+	[Token(Token = "0x17000092")]
 	public Capture this[int i]
 	{
-		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x28492A0", Offset = "0x28478A0", VA = "0x1828492A0", Slot = "18")]
+		[Token(Token = "0x60002C1")]
+		[Address(RVA = "0x61DE010", Offset = "0x61DD010", VA = "0x61DE010", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000C2")]
+	[Token(Token = "0x17000093")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "34")]
+		[Token(Token = "0x60002C6")]
+		[Address(RVA = "0x61DE380", Offset = "0x61DD380", VA = "0x61DE380", Slot = "34")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000C3")]
+	[Token(Token = "0x17000094")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x600047B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "33")]
+		[Token(Token = "0x60002C7")]
+		[Address(RVA = "0x61DE390", Offset = "0x61DD390", VA = "0x61DE390", Slot = "33")]
 		get
 		{
 			return null;
@@ -146,25 +146,25 @@ public class CaptureCollection : IList<Capture>, ICollection<Capture>, IEnumerab
 
 	// C# has no syntax for parameterized property 'System.Collections.Generic.IList<System.Text.RegularExpressions.Capture>.Item'.
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
-	[property: Token(Token = "0x170000C4")]
-	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x28492A0", Offset = "0x28478A0", VA = "0x1828492A0", Slot = "4")]
+	[property: Token(Token = "0x17000095")]
+	[Token(Token = "0x60002CD")]
+	[Address(RVA = "0x61DE710", Offset = "0x61DD710", VA = "0x61DE710", Slot = "4")]
 	private Capture System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002Eget_Item(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x28492B0", Offset = "0x28478B0", VA = "0x1828492B0", Slot = "5")]
+	[Token(Token = "0x60002CE")]
+	[Address(RVA = "0x61DE720", Offset = "0x61DD720", VA = "0x61DE720", Slot = "5")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002Eset_Item(int index, Capture value)
 	{
 	}
 
-	[Token(Token = "0x170000C5")]
+	[Token(Token = "0x17000096")]
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
-		[Token(Token = "0x600048C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "26")]
+		[Token(Token = "0x60002D8")]
+		[Address(RVA = "0x61DEBE0", Offset = "0x61DDBE0", VA = "0x61DEBE0", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -173,151 +173,151 @@ public class CaptureCollection : IList<Capture>, ICollection<Capture>, IEnumerab
 
 	// C# has no syntax for parameterized property 'System.Collections.IList.Item'.
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
-	[property: Token(Token = "0x170000C6")]
-	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x28492A0", Offset = "0x28478A0", VA = "0x1828492A0", Slot = "20")]
+	[property: Token(Token = "0x17000097")]
+	[Token(Token = "0x60002DB")]
+	[Address(RVA = "0x61DEC90", Offset = "0x61DDC90", VA = "0x61DEC90", Slot = "20")]
 	private object System_002ECollections_002EIList_002Eget_Item(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x28496A0", Offset = "0x2847CA0", VA = "0x1828496A0", Slot = "21")]
+	[Token(Token = "0x60002DC")]
+	[Address(RVA = "0x61DECA0", Offset = "0x61DDCA0", VA = "0x61DECA0", Slot = "21")]
 	private void System_002ECollections_002EIList_002Eset_Item(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x2848F20", Offset = "0x2847520", VA = "0x182848F20", Slot = "17")]
+	[Token(Token = "0x60002C2")]
+	[Address(RVA = "0x61DE0D0", Offset = "0x61DD0D0", VA = "0x61DE0D0", Slot = "17")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x28490E0", Offset = "0x28476E0", VA = "0x1828490E0", Slot = "16")]
+	[Token(Token = "0x60002C3")]
+	[Address(RVA = "0x61DE170", Offset = "0x61DD170", VA = "0x61DE170", Slot = "16")]
 	private IEnumerator<Capture> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x2848CE0", Offset = "0x28472E0", VA = "0x182848CE0")]
+	[Token(Token = "0x60002C4")]
+	[Address(RVA = "0x61DE020", Offset = "0x61DD020", VA = "0x61DE020")]
 	private Capture GetCapture(int i)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x2848B50", Offset = "0x2847150", VA = "0x182848B50")]
+	[Token(Token = "0x60002C5")]
+	[Address(RVA = "0x61DE1E0", Offset = "0x61DD1E0", VA = "0x61DE1E0")]
 	internal void ForceInitialized()
 	{
 	}
 
-	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x2848AB0", Offset = "0x28470B0", VA = "0x182848AB0", Slot = "31")]
+	[Token(Token = "0x60002C8")]
+	[Address(RVA = "0x61DE3A0", Offset = "0x61DD3A0", VA = "0x61DE3A0", Slot = "31")]
 	public void CopyTo(Array array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x28488F0", Offset = "0x2846EF0", VA = "0x1828488F0", Slot = "14")]
+	[Token(Token = "0x60002C9")]
+	[Address(RVA = "0x61DE440", Offset = "0x61DD440", VA = "0x61DE440", Slot = "14")]
 	public void CopyTo(Capture[] array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x2849150", Offset = "0x2847750", VA = "0x182849150", Slot = "6")]
+	[Token(Token = "0x60002CA")]
+	[Address(RVA = "0x61DE5C0", Offset = "0x61DD5C0", VA = "0x61DE5C0", Slot = "6")]
 	private int System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EIndexOf(Capture item)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600047F")]
-	[Address(RVA = "0x2849200", Offset = "0x2847800", VA = "0x182849200", Slot = "7")]
+	[Token(Token = "0x60002CB")]
+	[Address(RVA = "0x61DE670", Offset = "0x61DD670", VA = "0x61DE670", Slot = "7")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EInsert(int index, Capture item)
 	{
 	}
 
-	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x2849250", Offset = "0x2847850", VA = "0x182849250", Slot = "8")]
+	[Token(Token = "0x60002CC")]
+	[Address(RVA = "0x61DE6C0", Offset = "0x61DD6C0", VA = "0x61DE6C0", Slot = "8")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002ERemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x2848F90", Offset = "0x2847590", VA = "0x182848F90", Slot = "11")]
+	[Token(Token = "0x60002CF")]
+	[Address(RVA = "0x61DE770", Offset = "0x61DD770", VA = "0x61DE770", Slot = "11")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EAdd(Capture item)
 	{
 	}
 
-	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x2848FE0", Offset = "0x28475E0", VA = "0x182848FE0", Slot = "12")]
+	[Token(Token = "0x60002D0")]
+	[Address(RVA = "0x61DE7C0", Offset = "0x61DD7C0", VA = "0x61DE7C0", Slot = "12")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EClear()
 	{
 	}
 
-	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x2849030", Offset = "0x2847630", VA = "0x182849030", Slot = "13")]
+	[Token(Token = "0x60002D1")]
+	[Address(RVA = "0x61DE810", Offset = "0x61DD810", VA = "0x61DE810", Slot = "13")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002EContains(Capture item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x2849090", Offset = "0x2847690", VA = "0x182849090", Slot = "15")]
+	[Token(Token = "0x60002D2")]
+	[Address(RVA = "0x61DE8C0", Offset = "0x61DD8C0", VA = "0x61DE8C0", Slot = "15")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002ECapture_003E_002ERemove(Capture item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x2849300", Offset = "0x2847900", VA = "0x182849300", Slot = "22")]
+	[Token(Token = "0x60002D3")]
+	[Address(RVA = "0x61DE910", Offset = "0x61DD910", VA = "0x61DE910", Slot = "22")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000488")]
-	[Address(RVA = "0x2849350", Offset = "0x2847950", VA = "0x182849350", Slot = "24")]
+	[Token(Token = "0x60002D4")]
+	[Address(RVA = "0x61DE960", Offset = "0x61DD960", VA = "0x61DE960", Slot = "24")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
-	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x28493A0", Offset = "0x28479A0", VA = "0x1828493A0", Slot = "23")]
+	[Token(Token = "0x60002D5")]
+	[Address(RVA = "0x61DE9B0", Offset = "0x61DD9B0", VA = "0x61DE9B0", Slot = "23")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x28494E0", Offset = "0x2847AE0", VA = "0x1828494E0", Slot = "27")]
+	[Token(Token = "0x60002D6")]
+	[Address(RVA = "0x61DEAA0", Offset = "0x61DDAA0", VA = "0x61DEAA0", Slot = "27")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x28495B0", Offset = "0x2847BB0", VA = "0x1828495B0", Slot = "28")]
+	[Token(Token = "0x60002D7")]
+	[Address(RVA = "0x61DEB90", Offset = "0x61DDB90", VA = "0x61DEB90", Slot = "28")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x2849650", Offset = "0x2847C50", VA = "0x182849650", Slot = "29")]
+	[Token(Token = "0x60002D9")]
+	[Address(RVA = "0x61DEBF0", Offset = "0x61DDBF0", VA = "0x61DEBF0", Slot = "29")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
-	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x2849600", Offset = "0x2847C00", VA = "0x182849600", Slot = "30")]
+	[Token(Token = "0x60002DA")]
+	[Address(RVA = "0x61DEC40", Offset = "0x61DDC40", VA = "0x61DEC40", Slot = "30")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x28496F0", Offset = "0x2847CF0", VA = "0x1828496F0")]
+	[Token(Token = "0x60002DD")]
+	[Address(RVA = "0x61DECF0", Offset = "0x61DDCF0", VA = "0x61DECF0")]
 	internal CaptureCollection()
 	{
 	}

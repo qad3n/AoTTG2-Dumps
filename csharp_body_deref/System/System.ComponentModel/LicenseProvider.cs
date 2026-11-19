@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001BC")]
+[Token(Token = "0x200017D")]
 public abstract class LicenseProvider
 {
-	[Token(Token = "0x6000B39")]
+	[Token(Token = "0x6000979")]
 	public abstract License GetLicense(LicenseContext context, Type type, object instance, bool allowExceptions);
 
-	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600097A")]
+	[Address(RVA = "0x62354E0", Offset = "0x62344E0", VA = "0x62354E0")]
 	protected LicenseProvider()
 	{
 	}

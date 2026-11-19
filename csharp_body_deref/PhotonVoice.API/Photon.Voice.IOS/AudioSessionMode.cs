@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice.IOS;
 
-[Token(Token = "0x20000B1")]
+[Token(Token = "0x20000AD")]
 public enum AudioSessionMode
 {
-	[Token(Token = "0x40002DF")]
+	[Token(Token = "0x40002D1")]
 	Default = 0,
-	[Token(Token = "0x40002E0")]
+	[Token(Token = "0x40002D2")]
 	VoiceChat = 1,
-	[Token(Token = "0x40002E1")]
+	[Token(Token = "0x40002D3")]
 	VideoRecording = 3,
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x40002D4")]
 	Measurement = 4,
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x40002D5")]
 	MoviePlayback = 5,
-	[Token(Token = "0x40002E4")]
+	[Token(Token = "0x40002D6")]
 	VideoChat = 6
 }

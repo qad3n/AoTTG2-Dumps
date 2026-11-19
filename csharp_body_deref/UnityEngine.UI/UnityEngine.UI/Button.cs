@@ -27,7 +27,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public class ButtonClickedEvent : UnityEvent
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x3061A30", Offset = "0x3060030", VA = "0x183061A30")]
+		[Address(RVA = "0x6A5D610", Offset = "0x6A5C610", VA = "0x6A5D610")]
 		public ButtonClickedEvent()
 		{
 		}
@@ -61,7 +61,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000017")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x6A5DA60", Offset = "0x6A5CA60", VA = "0x6A5DA60", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -73,7 +73,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000019")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x6A5DAB0", Offset = "0x6A5CAB0", VA = "0x6A5DAB0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -82,28 +82,28 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		}
 
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x6A5D910", Offset = "0x6A5C910", VA = "0x6A5D910")]
 		[DebuggerHidden]
 		public _003COnFinishSubmit_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x6A5D930", Offset = "0x6A5C930", VA = "0x6A5D930", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x307CAA0", Offset = "0x307B0A0", VA = "0x18307CAA0", Slot = "6")]
+		[Address(RVA = "0x6A5D940", Offset = "0x6A5C940", VA = "0x6A5D940", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x307CBD0", Offset = "0x307B1D0", VA = "0x18307CBD0", Slot = "8")]
+		[Address(RVA = "0x6A5DA70", Offset = "0x6A5CA70", VA = "0x6A5DA70", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -120,44 +120,44 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public ButtonClickedEvent onClick
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Address(RVA = "0x6A5D620", Offset = "0x6A5C620", VA = "0x6A5D620")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x1BD5920", Offset = "0x1BD3F20", VA = "0x181BD5920")]
+		[Address(RVA = "0x6A5D630", Offset = "0x6A5C630", VA = "0x6A5D630")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x3061C40", Offset = "0x3060240", VA = "0x183061C40")]
+	[Address(RVA = "0x6A5D580", Offset = "0x6A5C580", VA = "0x6A5D580")]
 	protected Button()
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x3061BB0", Offset = "0x30601B0", VA = "0x183061BB0")]
+	[Address(RVA = "0x6A5D650", Offset = "0x6A5C650", VA = "0x6A5D650")]
 	private void Press()
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x3061AB0", Offset = "0x30600B0", VA = "0x183061AB0", Slot = "41")]
+	[Address(RVA = "0x6A5D6D0", Offset = "0x6A5C6D0", VA = "0x6A5D6D0", Slot = "41")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x3061AE0", Offset = "0x30600E0", VA = "0x183061AE0", Slot = "42")]
+	[Address(RVA = "0x6A5D760", Offset = "0x6A5C760", VA = "0x6A5D760", Slot = "42")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x3061A40", Offset = "0x3060040", VA = "0x183061A40")]
+	[Address(RVA = "0x6A5D8A0", Offset = "0x6A5C8A0", VA = "0x6A5D8A0")]
 	[IteratorStateMachine(typeof(_003COnFinishSubmit_003Ed__9))]
 	private IEnumerator OnFinishSubmit()
 	{

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeScratchAllocator
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,13 +28,13 @@ public struct UnsafeScratchAllocator
 	private readonly int m_CapacityInBytes;
 
 	[Token(Token = "0x6000D91")]
-	[Address(RVA = "0x29BFD80", Offset = "0x29BE380", VA = "0x1829BFD80")]
+	[Address(RVA = "0x638DAA0", Offset = "0x638CAA0", VA = "0x638DAA0")]
 	public unsafe UnsafeScratchAllocator(void* ptr, int capacityInBytes)
 	{
 	}
 
 	[Token(Token = "0x6000D92")]
-	[Address(RVA = "0x29BFCA0", Offset = "0x29BE2A0", VA = "0x1829BFCA0")]
+	[Address(RVA = "0x638DAB0", Offset = "0x638CAB0", VA = "0x638DAB0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private void CheckAllocationDoesNotExceedCapacity(ulong requestedSize)
@@ -42,7 +42,7 @@ public struct UnsafeScratchAllocator
 	}
 
 	[Token(Token = "0x6000D93")]
-	[Address(RVA = "0x29BFC00", Offset = "0x29BE200", VA = "0x1829BFC00")]
+	[Address(RVA = "0x638DB90", Offset = "0x638CB90", VA = "0x638DB90")]
 	public unsafe void* Allocate(int sizeInBytes, int alignmentInBytes)
 	{
 		//IL_0002: Expected I, but got O

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UI.Graphic
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -135,7 +135,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public static Material defaultGraphicMaterial
 	{
 		[Token(Token = "0x60000E1")]
-		[Address(RVA = "0x3073530", Offset = "0x3071B30", VA = "0x183073530")]
+		[Address(RVA = "0x6A6A430", Offset = "0x6A69430", VA = "0x6A6A430")]
 		get
 		{
 			return null;
@@ -146,13 +146,13 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual Color color
 	{
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0", Slot = "22")]
+		[Address(RVA = "0x6A6A510", Offset = "0x6A69510", VA = "0x6A6A510", Slot = "22")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x3073BB0", Offset = "0x30721B0", VA = "0x183073BB0", Slot = "23")]
+		[Address(RVA = "0x6A6A520", Offset = "0x6A69520", VA = "0x6A6A520", Slot = "23")]
 		set
 		{
 		}
@@ -162,13 +162,13 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual bool raycastTarget
 	{
 		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x19EDC10", Offset = "0x19EC210", VA = "0x1819EDC10", Slot = "24")]
+		[Address(RVA = "0x6A6A550", Offset = "0x6A69550", VA = "0x6A6A550", Slot = "24")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x3073CA0", Offset = "0x30722A0", VA = "0x183073CA0", Slot = "25")]
+		[Address(RVA = "0x6A6A560", Offset = "0x6A69560", VA = "0x6A6A560", Slot = "25")]
 		set
 		{
 		}
@@ -178,13 +178,13 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public Vector4 raycastPadding
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x20CA6D0", Offset = "0x20C8CD0", VA = "0x1820CA6D0")]
+		[Address(RVA = "0x6A6AAB0", Offset = "0x6A69AB0", VA = "0x6A6AAB0")]
 		get
 		{
 			return default(Vector4);
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x3073C90", Offset = "0x3072290", VA = "0x183073C90")]
+		[Address(RVA = "0x6A6AAC0", Offset = "0x6A69AC0", VA = "0x6A6AAC0")]
 		set
 		{
 		}
@@ -194,14 +194,14 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	protected bool useLegacyMeshGeneration
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x1B90350", Offset = "0x1B8E950", VA = "0x181B90350")]
+		[Address(RVA = "0x6A6AAD0", Offset = "0x6A69AD0", VA = "0x6A6AAD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x1C5E4B0", Offset = "0x1C5CAB0", VA = "0x181C5E4B0")]
+		[Address(RVA = "0x6A6AAE0", Offset = "0x6A69AE0", VA = "0x6A6AAE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -212,7 +212,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public int depth
 	{
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x3073750", Offset = "0x3071D50", VA = "0x183073750")]
+		[Address(RVA = "0x6A6B940", Offset = "0x6A6A940", VA = "0x6A6B940")]
 		get
 		{
 			return default(int);
@@ -223,7 +223,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public RectTransform rectTransform
 	{
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x3073A00", Offset = "0x3072000", VA = "0x183073A00", Slot = "30")]
+		[Address(RVA = "0x6A6AE80", Offset = "0x6A69E80", VA = "0x6A6AE80", Slot = "30")]
 		get
 		{
 			return null;
@@ -234,7 +234,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public Canvas canvas
 	{
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x30734C0", Offset = "0x3071AC0", VA = "0x1830734C0")]
+		[Address(RVA = "0x6A6A6B0", Offset = "0x6A696B0", VA = "0x6A6A6B0")]
 		get
 		{
 			return null;
@@ -245,7 +245,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public CanvasRenderer canvasRenderer
 	{
 		[Token(Token = "0x60000F7")]
-		[Address(RVA = "0x3073420", Offset = "0x3071A20", VA = "0x183073420")]
+		[Address(RVA = "0x6A6B960", Offset = "0x6A6A960", VA = "0x6A6B960")]
 		get
 		{
 			return null;
@@ -256,7 +256,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual Material defaultMaterial
 	{
 		[Token(Token = "0x60000F8")]
-		[Address(RVA = "0x3073630", Offset = "0x3071C30", VA = "0x183073630", Slot = "31")]
+		[Address(RVA = "0x6A6BA10", Offset = "0x6A6AA10", VA = "0x6A6BA10", Slot = "31")]
 		get
 		{
 			return null;
@@ -267,13 +267,13 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual Material material
 	{
 		[Token(Token = "0x60000F9")]
-		[Address(RVA = "0x3073980", Offset = "0x3071F80", VA = "0x183073980", Slot = "32")]
+		[Address(RVA = "0x6A6BA70", Offset = "0x6A6AA70", VA = "0x6A6BA70", Slot = "32")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000FA")]
-		[Address(RVA = "0x3073C00", Offset = "0x3072200", VA = "0x183073C00", Slot = "33")]
+		[Address(RVA = "0x6A6BAF0", Offset = "0x6A6AAF0", VA = "0x6A6BAF0", Slot = "33")]
 		set
 		{
 		}
@@ -283,7 +283,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual Material materialForRendering
 	{
 		[Token(Token = "0x60000FB")]
-		[Address(RVA = "0x30737D0", Offset = "0x3071DD0", VA = "0x1830737D0", Slot = "34")]
+		[Address(RVA = "0x6A6BB80", Offset = "0x6A6AB80", VA = "0x6A6BB80", Slot = "34")]
 		get
 		{
 			return null;
@@ -294,7 +294,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	public virtual Texture mainTexture
 	{
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x3073780", Offset = "0x3071D80", VA = "0x183073780", Slot = "35")]
+		[Address(RVA = "0x6A6BD50", Offset = "0x6A6AD50", VA = "0x6A6BD50", Slot = "35")]
 		get
 		{
 			return null;
@@ -305,7 +305,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	protected static Mesh workerMesh
 	{
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x3073A60", Offset = "0x3072060", VA = "0x183073A60")]
+		[Address(RVA = "0x6A6D300", Offset = "0x6A6C300", VA = "0x6A6D300")]
 		get
 		{
 			return null;
@@ -313,139 +313,139 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x3073340", Offset = "0x3071940", VA = "0x183073340")]
+	[Address(RVA = "0x6A6AAF0", Offset = "0x6A69AF0", VA = "0x6A6AAF0")]
 	protected Graphic()
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x3072BB0", Offset = "0x30711B0", VA = "0x183072BB0", Slot = "26")]
+	[Address(RVA = "0x6A6ABC0", Offset = "0x6A69BC0", VA = "0x6A6ABC0", Slot = "26")]
 	public virtual void SetAllDirty()
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x3072C20", Offset = "0x3071220", VA = "0x183072C20", Slot = "27")]
+	[Address(RVA = "0x6A6AD80", Offset = "0x6A69D80", VA = "0x6A6AD80", Slot = "27")]
 	public virtual void SetLayoutDirty()
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x3072EC0", Offset = "0x30714C0", VA = "0x183072EC0", Slot = "28")]
+	[Address(RVA = "0x6A6AEF0", Offset = "0x6A69EF0", VA = "0x6A6AEF0", Slot = "28")]
 	public virtual void SetVerticesDirty()
 	{
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x3072D00", Offset = "0x3071300", VA = "0x183072D00", Slot = "29")]
+	[Address(RVA = "0x6A6AFE0", Offset = "0x6A69FE0", VA = "0x6A6AFE0", Slot = "29")]
 	public virtual void SetMaterialDirty()
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x3072DE0", Offset = "0x30713E0", VA = "0x183072DE0")]
+	[Address(RVA = "0x6A6AC30", Offset = "0x6A69C30", VA = "0x6A6AC30")]
 	public void SetRaycastDirty()
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x3071FE0", Offset = "0x30705E0", VA = "0x183071FE0", Slot = "10")]
+	[Address(RVA = "0x6A6B0D0", Offset = "0x6A6A0D0", VA = "0x6A6B0D0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x3071540", Offset = "0x306FB40", VA = "0x183071540", Slot = "11")]
+	[Address(RVA = "0x6A6B1D0", Offset = "0x6A6A1D0", VA = "0x6A6B1D0", Slot = "11")]
 	protected override void OnBeforeTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x30720D0", Offset = "0x30706D0", VA = "0x1830720D0", Slot = "12")]
+	[Address(RVA = "0x6A6B4C0", Offset = "0x6A6A4C0", VA = "0x6A6B4C0", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x3070360", Offset = "0x306E960", VA = "0x183070360")]
+	[Address(RVA = "0x6A6B5C0", Offset = "0x6A6A5C0", VA = "0x6A6B5C0")]
 	private void CacheCanvas()
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3071BA0", Offset = "0x30701A0", VA = "0x183071BA0", Slot = "5")]
+	[Address(RVA = "0x6A6BDC0", Offset = "0x6A6ADC0", VA = "0x6A6BDC0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x30719E0", Offset = "0x306FFE0", VA = "0x1830719E0", Slot = "7")]
+	[Address(RVA = "0x6A6BF30", Offset = "0x6A6AF30", VA = "0x6A6BF30", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x3071880", Offset = "0x306FE80", VA = "0x183071880", Slot = "8")]
+	[Address(RVA = "0x6A6C2A0", Offset = "0x6A6B2A0", VA = "0x6A6C2A0", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x3071660", Offset = "0x306FC60", VA = "0x183071660", Slot = "15")]
+	[Address(RVA = "0x6A6C3F0", Offset = "0x6A6B3F0", VA = "0x6A6C3F0", Slot = "15")]
 	protected override void OnCanvasHierarchyChanged()
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x30717B0", Offset = "0x306FDB0", VA = "0x1830717B0", Slot = "36")]
+	[Address(RVA = "0x6A6C580", Offset = "0x6A6B580", VA = "0x6A6C580", Slot = "36")]
 	public virtual void OnCullingChanged()
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x30728E0", Offset = "0x3070EE0", VA = "0x1830728E0", Slot = "37")]
+	[Address(RVA = "0x6A6C660", Offset = "0x6A6B660", VA = "0x6A6C660", Slot = "37")]
 	public virtual void Rebuild(CanvasUpdate update)
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "38")]
+	[Address(RVA = "0x6A6C720", Offset = "0x6A6B720", VA = "0x6A6C720", Slot = "38")]
 	public virtual void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "39")]
+	[Address(RVA = "0x6A6C730", Offset = "0x6A6B730", VA = "0x6A6C730", Slot = "39")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x30731A0", Offset = "0x30717A0", VA = "0x1830731A0", Slot = "40")]
+	[Address(RVA = "0x6A6C740", Offset = "0x6A6B740", VA = "0x6A6C740", Slot = "40")]
 	protected virtual void UpdateMaterial()
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x3073180", Offset = "0x3071780", VA = "0x183073180", Slot = "41")]
+	[Address(RVA = "0x6A6C800", Offset = "0x6A6B800", VA = "0x6A6C800", Slot = "41")]
 	protected virtual void UpdateGeometry()
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x3070DD0", Offset = "0x306F3D0", VA = "0x183070DD0")]
+	[Address(RVA = "0x6A6CD70", Offset = "0x6A6BD70", VA = "0x6A6CD70")]
 	private void DoMeshGeneration()
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x30708C0", Offset = "0x306EEC0", VA = "0x1830708C0")]
+	[Address(RVA = "0x6A6C820", Offset = "0x6A6B820", VA = "0x6A6C820")]
 	private void DoLegacyMeshGeneration()
 	{
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "42")]
+	[Address(RVA = "0x6A6D430", Offset = "0x6A6C430", VA = "0x6A6D430", Slot = "42")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Use OnPopulateMesh instead.", true)]
 	protected virtual void OnFillVBO(List<UIVertex> vbo)
@@ -453,121 +453,121 @@ public abstract class Graphic : UIBehaviour, ICanvasElement
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x3071D30", Offset = "0x3070330", VA = "0x183071D30", Slot = "43")]
+	[Address(RVA = "0x6A6D440", Offset = "0x6A6C440", VA = "0x6A6D440", Slot = "43")]
 	[Obsolete("Use OnPopulateMesh(VertexHelper vh) instead.", false)]
 	protected virtual void OnPopulateMesh(Mesh m)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x3071DD0", Offset = "0x30703D0", VA = "0x183071DD0", Slot = "44")]
+	[Address(RVA = "0x6A6D4D0", Offset = "0x6A6C4D0", VA = "0x6A6D4D0", Slot = "44")]
 	protected virtual void OnPopulateMesh(VertexHelper vh)
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x279A340", Offset = "0x2798940", VA = "0x18279A340", Slot = "13")]
+	[Address(RVA = "0x6A6D9A0", Offset = "0x6A6C9A0", VA = "0x6A6D9A0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "45")]
+	[Address(RVA = "0x6A6D9C0", Offset = "0x6A6C9C0", VA = "0x6A6D9C0", Slot = "45")]
 	public virtual void SetNativeSize()
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x30728C0", Offset = "0x3070EC0", VA = "0x1830728C0", Slot = "46")]
+	[Address(RVA = "0x6A6D9D0", Offset = "0x6A6C9D0", VA = "0x6A6D9D0", Slot = "46")]
 	public virtual bool Raycast(Vector2 sp, Camera eventCamera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3072320", Offset = "0x3070920", VA = "0x183072320")]
+	[Address(RVA = "0x6A6D9E0", Offset = "0x6A6C9E0", VA = "0x6A6D9E0")]
 	protected bool Raycast(Vector2 sp, Camera eventCamera, bool ignoreMasks)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3072190", Offset = "0x3070790", VA = "0x183072190")]
+	[Address(RVA = "0x6A6E060", Offset = "0x6A6D060", VA = "0x6A6E060")]
 	public Vector2 PixelAdjustPoint(Vector2 point)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3071350", Offset = "0x306F950", VA = "0x183071350")]
+	[Address(RVA = "0x6A6D630", Offset = "0x6A6C630", VA = "0x6A6D630")]
 	public Rect GetPixelAdjustedRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x3070880", Offset = "0x306EE80", VA = "0x183070880", Slot = "47")]
+	[Address(RVA = "0x6A6E2F0", Offset = "0x6A6D2F0", VA = "0x6A6E2F0", Slot = "47")]
 	public virtual void CrossFadeColor(Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha)
 	{
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x30705C0", Offset = "0x306EBC0", VA = "0x1830705C0", Slot = "48")]
+	[Address(RVA = "0x6A6E310", Offset = "0x6A6D310", VA = "0x6A6E310", Slot = "48")]
 	public virtual void CrossFadeColor(Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha, bool useRGB)
 	{
 	}
 
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x30704F0", Offset = "0x306EAF0", VA = "0x1830704F0")]
+	[Address(RVA = "0x6A6E5D0", Offset = "0x6A6D5D0", VA = "0x6A6E5D0")]
 	private static Color CreateColorFromAlpha(float alpha)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x3070510", Offset = "0x306EB10", VA = "0x183070510", Slot = "49")]
+	[Address(RVA = "0x6A6E5E0", Offset = "0x6A6D5E0", VA = "0x6A6E5E0", Slot = "49")]
 	public virtual void CrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale)
 	{
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x30729C0", Offset = "0x3070FC0", VA = "0x1830729C0")]
+	[Address(RVA = "0x6A6E690", Offset = "0x6A6D690", VA = "0x6A6E690")]
 	public void RegisterDirtyLayoutCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3072F90", Offset = "0x3071590", VA = "0x183072F90")]
+	[Address(RVA = "0x6A6E710", Offset = "0x6A6D710", VA = "0x6A6E710")]
 	public void UnregisterDirtyLayoutCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x3072B10", Offset = "0x3071110", VA = "0x183072B10")]
+	[Address(RVA = "0x6A6E790", Offset = "0x6A6D790", VA = "0x6A6E790")]
 	public void RegisterDirtyVerticesCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x30730E0", Offset = "0x30716E0", VA = "0x1830730E0")]
+	[Address(RVA = "0x6A6E810", Offset = "0x6A6D810", VA = "0x6A6E810")]
 	public void UnregisterDirtyVerticesCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x3072A60", Offset = "0x3071060", VA = "0x183072A60")]
+	[Address(RVA = "0x6A6E890", Offset = "0x6A6D890", VA = "0x6A6E890")]
 	public void RegisterDirtyMaterialCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x3073030", Offset = "0x3071630", VA = "0x183073030")]
+	[Address(RVA = "0x6A6E910", Offset = "0x6A6D910", VA = "0x6A6E910")]
 	public void UnregisterDirtyMaterialCallback(UnityAction action)
 	{
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x2D057F0", Offset = "0x2D03DF0", VA = "0x182D057F0", Slot = "18")]
+	[Address(RVA = "0x6A6EA40", Offset = "0x6A6DA40", VA = "0x6A6EA40", Slot = "18")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

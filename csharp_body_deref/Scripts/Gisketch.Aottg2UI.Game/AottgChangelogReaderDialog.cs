@@ -11,112 +11,112 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D7")]
+[Token(Token = "0x20001EE")]
 [AottgDialog("changelog-reader")]
 public sealed class AottgChangelogReaderDialog : AottgDialog
 {
-	[Token(Token = "0x40009E8")]
+	[Token(Token = "0x4000A5C")]
 	public const string Id = "changelog-reader";
 
-	[Token(Token = "0x17000141")]
+	[Token(Token = "0x17000146")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000ABD")]
-		[Address(RVA = "0x23A83A0", Offset = "0x23A69A0", VA = "0x1823A83A0", Slot = "4")]
+		[Token(Token = "0x6000B76")]
+		[Address(RVA = "0x5D79440", Offset = "0x5D78440", VA = "0x5D79440", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000142")]
+	[Token(Token = "0x17000147")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000ABE")]
-		[Address(RVA = "0x23A8370", Offset = "0x23A6970", VA = "0x1823A8370", Slot = "5")]
+		[Token(Token = "0x6000B77")]
+		[Address(RVA = "0x5D794A0", Offset = "0x5D784A0", VA = "0x5D794A0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000143")]
+	[Token(Token = "0x17000148")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000ABF")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "14")]
+		[Token(Token = "0x6000B78")]
+		[Address(RVA = "0x5D794D0", Offset = "0x5D784D0", VA = "0x5D794D0", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x17000144")]
+	[Token(Token = "0x17000149")]
 	protected override string HeaderTitleKey
 	{
-		[Token(Token = "0x6000AC0")]
-		[Address(RVA = "0x23A8210", Offset = "0x23A6810", VA = "0x1823A8210", Slot = "11")]
+		[Token(Token = "0x6000B79")]
+		[Address(RVA = "0x5D794E0", Offset = "0x5D784E0", VA = "0x5D794E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000145")]
+	[Token(Token = "0x1700014A")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000AC1")]
-		[Address(RVA = "0x23A8240", Offset = "0x23A6840", VA = "0x1823A8240", Slot = "15")]
+		[Token(Token = "0x6000B7A")]
+		[Address(RVA = "0x5D79510", Offset = "0x5D78510", VA = "0x5D79510", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AC2")]
-	[Address(RVA = "0x23A73E0", Offset = "0x23A59E0", VA = "0x1823A73E0", Slot = "20")]
+	[Token(Token = "0x6000B7B")]
+	[Address(RVA = "0x5D79600", Offset = "0x5D78600", VA = "0x5D79600", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AC3")]
-	[Address(RVA = "0x23A77B0", Offset = "0x23A5DB0", VA = "0x1823A77B0", Slot = "21")]
+	[Token(Token = "0x6000B7C")]
+	[Address(RVA = "0x5D79EA0", Offset = "0x5D78EA0", VA = "0x5D79EA0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000AC4")]
-	[Address(RVA = "0x23A7C60", Offset = "0x23A6260", VA = "0x1823A7C60")]
+	[Token(Token = "0x6000B7D")]
+	[Address(RVA = "0x5D79BA0", Offset = "0x5D78BA0", VA = "0x5D79BA0")]
 	private static void BuildReady(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AC5")]
-	[Address(RVA = "0x23A79B0", Offset = "0x23A5FB0", VA = "0x1823A79B0")]
+	[Token(Token = "0x6000B7E")]
+	[Address(RVA = "0x5D79680", Offset = "0x5D78680", VA = "0x5D79680")]
 	private static void BuildLoading(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AC6")]
-	[Address(RVA = "0x23A7510", Offset = "0x23A5B10", VA = "0x1823A7510")]
+	[Token(Token = "0x6000B7F")]
+	[Address(RVA = "0x5D798E0", Offset = "0x5D788E0", VA = "0x5D798E0")]
 	private static void BuildError(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x23A7480", Offset = "0x23A5A80", VA = "0x1823A7480")]
+	[Token(Token = "0x6000B80")]
+	[Address(RVA = "0x5D79B40", Offset = "0x5D78B40", VA = "0x5D79B40")]
 	private static void BuildEmpty(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AC8")]
-	[Address(RVA = "0x23A7FE0", Offset = "0x23A65E0", VA = "0x1823A7FE0")]
-	private static void BuildStatePanel(AottgUi body, string visibleKey, string textKey, string text, string id)
+	[Token(Token = "0x6000B81")]
+	[Address(RVA = "0x5D7A060", Offset = "0x5D79060", VA = "0x5D7A060")]
+	private static void BuildStatePanel(AottgUi body, string visibleKey, string textKey, string id)
 	{
 	}
 
-	[Token(Token = "0x6000AC9")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000B82")]
+	[Address(RVA = "0x5D7A280", Offset = "0x5D79280", VA = "0x5D7A280")]
 	public AottgChangelogReaderDialog()
 	{
 	}

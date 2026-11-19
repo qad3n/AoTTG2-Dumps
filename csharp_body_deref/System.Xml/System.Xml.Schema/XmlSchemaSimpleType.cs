@@ -24,26 +24,26 @@ public class XmlSchemaSimpleType : XmlSchemaType
 	public XmlSchemaSimpleTypeContent Content
 	{
 		[Token(Token = "0x6001767")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x6039A50", Offset = "0x6038A50", VA = "0x6039A50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001768")]
-		[Address(RVA = "0x58A900", Offset = "0x588F00", VA = "0x18058A900")]
+		[Address(RVA = "0x6039A60", Offset = "0x6038A60", VA = "0x6039A60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001766")]
-	[Address(RVA = "0x267F5B0", Offset = "0x267DBB0", VA = "0x18267F5B0")]
+	[Address(RVA = "0x6039950", Offset = "0x6038950", VA = "0x6039950")]
 	public XmlSchemaSimpleType()
 	{
 	}
 
 	[Token(Token = "0x6001769")]
-	[Address(RVA = "0x267F4A0", Offset = "0x267DAA0", VA = "0x18267F4A0", Slot = "13")]
+	[Address(RVA = "0x6039A80", Offset = "0x6038A80", VA = "0x6039A80", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;

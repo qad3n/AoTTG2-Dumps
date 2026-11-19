@@ -12,18 +12,18 @@ namespace UnityEngine.Experimental.GlobalIllumination;
 [Token(Token = "0x20003DF")]
 public enum LightType : byte
 {
-	[Token(Token = "0x4000CC6")]
+	[Token(Token = "0x4000CC4")]
 	Directional,
-	[Token(Token = "0x4000CC7")]
+	[Token(Token = "0x4000CC5")]
 	Point,
-	[Token(Token = "0x4000CC8")]
+	[Token(Token = "0x4000CC6")]
 	Spot,
-	[Token(Token = "0x4000CC9")]
+	[Token(Token = "0x4000CC7")]
 	Rectangle,
-	[Token(Token = "0x4000CCA")]
+	[Token(Token = "0x4000CC8")]
 	Disc,
-	[Token(Token = "0x4000CCB")]
+	[Token(Token = "0x4000CC9")]
 	SpotPyramidShape,
-	[Token(Token = "0x4000CCC")]
+	[Token(Token = "0x4000CCA")]
 	SpotBoxShape
 }

@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000101")]
+[Token(Token = "0x20000C2")]
 public class CorrelationManager
 {
-	[Token(Token = "0x170000EE")]
+	[Token(Token = "0x170000BF")]
 	public Stack LogicalOperationStack
 	{
-		[Token(Token = "0x6000642")]
-		[Address(RVA = "0x28616D0", Offset = "0x285FCD0", VA = "0x1828616D0")]
+		[Token(Token = "0x600048C")]
+		[Address(RVA = "0x61FF7E0", Offset = "0x61FE7E0", VA = "0x61FF7E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000641")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600048B")]
+	[Address(RVA = "0x61FF7D0", Offset = "0x61FE7D0", VA = "0x61FF7D0")]
 	internal CorrelationManager()
 	{
 	}
 
-	[Token(Token = "0x6000643")]
-	[Address(RVA = "0x28616D0", Offset = "0x285FCD0", VA = "0x1828616D0")]
+	[Token(Token = "0x600048D")]
+	[Address(RVA = "0x61FF7F0", Offset = "0x61FE7F0", VA = "0x61FF7F0")]
 	private Stack GetLogicalOperationStack()
 	{
 		return null;

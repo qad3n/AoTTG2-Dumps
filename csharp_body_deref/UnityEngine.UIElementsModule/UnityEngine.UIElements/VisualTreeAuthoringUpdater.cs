@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualTreeAuthoringUpdater
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -63,7 +63,7 @@ internal sealed class VisualTreeAuthoringUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3098940", Offset = "0x3096F40", VA = "0x183098940", Slot = "12")]
+		[Address(RVA = "0x6A7AEF0", Offset = "0x6A79EF0", VA = "0x6A7AEF0", Slot = "12")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -74,7 +74,7 @@ internal sealed class VisualTreeAuthoringUpdater : BaseVisualTreeUpdater
 	private bool shouldUpdate
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x3098990", Offset = "0x3096F90", VA = "0x183098990")]
+		[Address(RVA = "0x6A7AF60", Offset = "0x6A79F60", VA = "0x6A7AF60")]
 		get
 		{
 			return default(bool);
@@ -82,43 +82,43 @@ internal sealed class VisualTreeAuthoringUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x30987A0", Offset = "0x3096DA0", VA = "0x1830987A0")]
+	[Address(RVA = "0x6A7AFB0", Offset = "0x6A79FB0", VA = "0x6A7AFB0")]
 	public VisualTreeAuthoringUpdater()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x3097F10", Offset = "0x3096510", VA = "0x183097F10", Slot = "15")]
+	[Address(RVA = "0x6A7B150", Offset = "0x6A7A150", VA = "0x6A7B150", Slot = "15")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x3098110", Offset = "0x3096710", VA = "0x183098110", Slot = "14")]
+	[Address(RVA = "0x6A7B310", Offset = "0x6A7A310", VA = "0x6A7B310", Slot = "14")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x3097E20", Offset = "0x3096420", VA = "0x183097E20")]
+	[Address(RVA = "0x6A7B880", Offset = "0x6A7A880", VA = "0x6A7B880")]
 	private void OnPanelChanged(BaseVisualElementPanel p)
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x3097710", Offset = "0x3095D10", VA = "0x183097710", Slot = "13")]
+	[Address(RVA = "0x6A7B970", Offset = "0x6A7A970", VA = "0x6A7B970", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x3097B00", Offset = "0x3096100", VA = "0x183097B00")]
+	[Address(RVA = "0x6A7BCC0", Offset = "0x6A7ACC0", VA = "0x6A7BCC0")]
 	private void OnHierarchyChange(VisualElement ve, HierarchyChangeType type, [Optional] IReadOnlyList<VisualElement> additionalContext)
 	{
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x30980A0", Offset = "0x30966A0", VA = "0x1830980A0")]
+	[Address(RVA = "0x6A7B830", Offset = "0x6A7A830", VA = "0x6A7B830")]
 	private void SwapBuffers()
 	{
 	}

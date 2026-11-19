@@ -13,19 +13,19 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000B7")]
+[Token(Token = "0x20000B8")]
 [DebuggerTypeProxy(typeof(NewExpressionProxy))]
 public class NewExpression : Expression
 {
-	[Token(Token = "0x40001D3")]
+	[Token(Token = "0x40001DC")]
 	[FieldOffset(Offset = "0x10")]
 	private IReadOnlyList<Expression> _arguments;
 
-	[Token(Token = "0x170000DF")]
+	[Token(Token = "0x170000E1")]
 	public ConstructorInfo Constructor
 	{
-		[Token(Token = "0x60004C9")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60004D4")]
+		[Address(RVA = "0x5DD5580", Offset = "0x5DD4580", VA = "0x5DD5580")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,8 +33,8 @@ public class NewExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x60004CA")]
-	[Address(RVA = "0x243DE70", Offset = "0x243C470", VA = "0x18243DE70", Slot = "10")]
+	[Token(Token = "0x60004D5")]
+	[Address(RVA = "0x5DD5590", Offset = "0x5DD4590", VA = "0x5DD5590", Slot = "10")]
 	public Expression GetArgument(int index)
 	{
 		return null;

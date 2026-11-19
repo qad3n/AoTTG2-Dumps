@@ -13,16 +13,16 @@ namespace UnityEngine.Bindings;
 [UnityEngine.Bindings.VisibleToOtherModules]
 internal readonly ref struct ManagedSpanWrapper
 {
-	[Token(Token = "0x400074A")]
+	[Token(Token = "0x4000748")]
 	[FieldOffset(Offset = "0x0")]
 	public unsafe readonly void* begin;
 
-	[Token(Token = "0x400074B")]
+	[Token(Token = "0x4000749")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly int length;
 
-	[Token(Token = "0x6001180")]
-	[Address(RVA = "0xB4DBA0", Offset = "0xB4C1A0", VA = "0x180B4DBA0")]
+	[Token(Token = "0x6001194")]
+	[Address(RVA = "0x69280A0", Offset = "0x69270A0", VA = "0x69280A0")]
 	public unsafe ManagedSpanWrapper(void* begin, int length)
 	{
 	}

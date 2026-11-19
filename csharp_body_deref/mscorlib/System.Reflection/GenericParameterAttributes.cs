@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200050C")]
+[Token(Token = "0x20004E5")]
 [Flags]
 public enum GenericParameterAttributes
 {
-	[Token(Token = "0x40013FA")]
+	[Token(Token = "0x400135A")]
 	None = 0,
-	[Token(Token = "0x40013FB")]
+	[Token(Token = "0x400135B")]
 	VarianceMask = 3,
-	[Token(Token = "0x40013FC")]
+	[Token(Token = "0x400135C")]
 	Covariant = 1,
-	[Token(Token = "0x40013FD")]
+	[Token(Token = "0x400135D")]
 	Contravariant = 2,
-	[Token(Token = "0x40013FE")]
+	[Token(Token = "0x400135E")]
 	SpecialConstraintMask = 0x1C,
-	[Token(Token = "0x40013FF")]
+	[Token(Token = "0x400135F")]
 	ReferenceTypeConstraint = 4,
-	[Token(Token = "0x4001400")]
+	[Token(Token = "0x4001360")]
 	NotNullableValueTypeConstraint = 8,
-	[Token(Token = "0x4001401")]
+	[Token(Token = "0x4001361")]
 	DefaultConstructorConstraint = 0x10
 }

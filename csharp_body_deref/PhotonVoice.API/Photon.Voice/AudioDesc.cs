@@ -18,14 +18,14 @@ public class AudioDesc : IAudioDesc, IDisposable
 	public int SamplingRate
 	{
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x5711340", Offset = "0x5710340", VA = "0x5711340", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x5711350", Offset = "0x5710350", VA = "0x5711350")]
 		[CompilerGenerated]
 		private set
 		{
@@ -36,14 +36,14 @@ public class AudioDesc : IAudioDesc, IDisposable
 	public int Channels
 	{
 		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "5")]
+		[Address(RVA = "0x5711360", Offset = "0x5710360", VA = "0x5711360", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000230")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x5711370", Offset = "0x5710370", VA = "0x5711370")]
 		[CompilerGenerated]
 		private set
 		{
@@ -54,14 +54,14 @@ public class AudioDesc : IAudioDesc, IDisposable
 	public string Error
 	{
 		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+		[Address(RVA = "0x5711380", Offset = "0x5710380", VA = "0x5711380", Slot = "6")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000232")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x5711390", Offset = "0x5710390", VA = "0x5711390")]
 		[CompilerGenerated]
 		private set
 		{
@@ -69,13 +69,13 @@ public class AudioDesc : IAudioDesc, IDisposable
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x1D67D10", Offset = "0x1D66310", VA = "0x181D67D10")]
+	[Address(RVA = "0x5711300", Offset = "0x5710300", VA = "0x5711300")]
 	public AudioDesc(int samplingRate, int channels, string error)
 	{
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x57113A0", Offset = "0x57103A0", VA = "0x57113A0", Slot = "7")]
 	public void Dispose()
 	{
 	}

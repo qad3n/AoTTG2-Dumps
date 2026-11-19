@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AndroidJNISafe
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,488 +10,488 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000006")]
 internal class AndroidJNISafe
 {
-	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x2E9C720", Offset = "0x2E9AD20", VA = "0x182E9C720")]
+	[Token(Token = "0x6000097")]
+	[Address(RVA = "0x689B7B0", Offset = "0x689A7B0", VA = "0x689B7B0")]
 	public static void CheckException()
 	{
 	}
 
-	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x2E9D790", Offset = "0x2E9BD90", VA = "0x182E9D790")]
+	[Token(Token = "0x6000098")]
+	[Address(RVA = "0x689BA50", Offset = "0x689AA50", VA = "0x689BA50")]
 	public static void QueueDeleteGlobalRef(IntPtr globalref)
 	{
 	}
 
-	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x2E9C990", Offset = "0x2E9AF90", VA = "0x182E9C990")]
+	[Token(Token = "0x6000099")]
+	[Address(RVA = "0x689BA90", Offset = "0x689AA90", VA = "0x689BA90")]
 	public static void DeleteWeakGlobalRef(IntPtr globalref)
 	{
 	}
 
-	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x2E9C950", Offset = "0x2E9AF50", VA = "0x182E9C950")]
+	[Token(Token = "0x600009A")]
+	[Address(RVA = "0x689BAD0", Offset = "0x689AAD0", VA = "0x689BAD0")]
 	public static void DeleteLocalRef(IntPtr localref)
 	{
 	}
 
-	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x2E9D6F0", Offset = "0x2E9BCF0", VA = "0x182E9D6F0")]
+	[Token(Token = "0x600009B")]
+	[Address(RVA = "0x689BB10", Offset = "0x689AB10", VA = "0x689BB10")]
 	public static IntPtr NewString(string chars)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x2E9D5D0", Offset = "0x2E9BBD0", VA = "0x182E9D5D0")]
+	[Token(Token = "0x600009C")]
+	[Address(RVA = "0x689BB90", Offset = "0x689AB90", VA = "0x689BB90")]
 	public static string GetStringChars(IntPtr str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x2E9CFD0", Offset = "0x2E9B5D0", VA = "0x182E9CFD0")]
+	[Token(Token = "0x600009D")]
+	[Address(RVA = "0x689BC10", Offset = "0x689AC10", VA = "0x689BC10")]
 	public static IntPtr GetObjectClass(IntPtr ptr)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x2E9D3B0", Offset = "0x2E9B9B0", VA = "0x182E9D3B0")]
+	[Token(Token = "0x600009E")]
+	[Address(RVA = "0x6897C20", Offset = "0x6896C20", VA = "0x6897C20")]
 	public static IntPtr GetStaticMethodID(IntPtr clazz, string name, string sig)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x2E9CF00", Offset = "0x2E9B500", VA = "0x182E9CF00")]
+	[Token(Token = "0x600009F")]
+	[Address(RVA = "0x689BCB0", Offset = "0x689ACB0", VA = "0x689BCB0")]
 	public static IntPtr GetMethodID(IntPtr obj, string name, string sig)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x2E9CEB0", Offset = "0x2E9B4B0", VA = "0x182E9CEB0")]
+	[Token(Token = "0x60000A0")]
+	[Address(RVA = "0x689BD30", Offset = "0x689AD30", VA = "0x689BD30")]
 	public static IntPtr GetFieldID(IntPtr clazz, string name, string sig)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x2E9D1D0", Offset = "0x2E9B7D0", VA = "0x182E9D1D0")]
+	[Token(Token = "0x60000A1")]
+	[Address(RVA = "0x689BDB0", Offset = "0x689ADB0", VA = "0x689BDB0")]
 	public static IntPtr GetStaticFieldID(IntPtr clazz, string name, string sig)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x2E9CCF0", Offset = "0x2E9B2F0", VA = "0x182E9CCF0")]
+	[Token(Token = "0x60000A2")]
+	[Address(RVA = "0x689BE30", Offset = "0x689AE30", VA = "0x689BE30")]
 	public static IntPtr FromReflectedMethod(IntPtr refMethod)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x2E9C9D0", Offset = "0x2E9AFD0", VA = "0x182E9C9D0")]
+	[Token(Token = "0x60000A3")]
+	[Address(RVA = "0x6897BA0", Offset = "0x6896BA0", VA = "0x6897BA0")]
 	public static IntPtr FindClass(string name)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x2E9D740", Offset = "0x2E9BD40", VA = "0x182E9D740")]
+	[Token(Token = "0x60000A4")]
+	[Address(RVA = "0x689BED0", Offset = "0x689AED0", VA = "0x689BED0")]
 	public static void PushLocalFrame(int capacity)
 	{
 	}
 
-	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x2E9D620", Offset = "0x2E9BC20", VA = "0x182E9D620")]
+	[Token(Token = "0x60000A5")]
+	[Address(RVA = "0x689BF10", Offset = "0x689AF10", VA = "0x689BF10")]
 	public static IntPtr NewObject(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x2E9D400", Offset = "0x2E9BA00", VA = "0x182E9D400")]
+	[Token(Token = "0x60000A6")]
+	[Address(RVA = "0x689C000", Offset = "0x689B000", VA = "0x689C000")]
 	public static IntPtr GetStaticObjectField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x2E9D580", Offset = "0x2E9BB80", VA = "0x182E9D580")]
+	[Token(Token = "0x60000A7")]
+	[Address(RVA = "0x689C0B0", Offset = "0x689B0B0", VA = "0x689C0B0")]
 	public static string GetStaticStringField(IntPtr clazz, IntPtr fieldID)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x2E9D0C0", Offset = "0x2E9B6C0", VA = "0x182E9D0C0")]
+	[Token(Token = "0x60000A8")]
+	[Address(RVA = "0x689C130", Offset = "0x689B130", VA = "0x689C130")]
 	public static char GetStaticCharField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x2E9D140", Offset = "0x2E9B740", VA = "0x182E9D140")]
+	[Token(Token = "0x60000A9")]
+	[Address(RVA = "0x689C1E0", Offset = "0x689B1E0", VA = "0x689C1E0")]
 	public static double GetStaticDoubleField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x2E9D220", Offset = "0x2E9B820", VA = "0x182E9D220")]
+	[Token(Token = "0x60000AA")]
+	[Address(RVA = "0x689C290", Offset = "0x689B290", VA = "0x689C290")]
 	public static float GetStaticFloatField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x2E9D330", Offset = "0x2E9B930", VA = "0x182E9D330")]
+	[Token(Token = "0x60000AB")]
+	[Address(RVA = "0x689C340", Offset = "0x689B340", VA = "0x689C340")]
 	public static long GetStaticLongField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x2E9D500", Offset = "0x2E9BB00", VA = "0x182E9D500")]
+	[Token(Token = "0x60000AC")]
+	[Address(RVA = "0x689C3F0", Offset = "0x689B3F0", VA = "0x689C3F0")]
 	public static short GetStaticShortField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x2E9D480", Offset = "0x2E9BA80", VA = "0x182E9D480")]
+	[Token(Token = "0x60000AD")]
+	[Address(RVA = "0x689C4A0", Offset = "0x689B4A0", VA = "0x689C4A0")]
 	public static sbyte GetStaticSByteField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(sbyte);
 	}
 
-	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x2E9D040", Offset = "0x2E9B640", VA = "0x182E9D040")]
+	[Token(Token = "0x60000AE")]
+	[Address(RVA = "0x689C550", Offset = "0x689B550", VA = "0x689C550")]
 	public static bool GetStaticBooleanField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x2E9D2B0", Offset = "0x2E9B8B0", VA = "0x182E9D2B0")]
+	[Token(Token = "0x60000AF")]
+	[Address(RVA = "0x689C600", Offset = "0x689B600", VA = "0x689C600")]
 	public static int GetStaticIntField(IntPtr clazz, IntPtr fieldID)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x2E9C1C0", Offset = "0x2E9A7C0", VA = "0x182E9C1C0")]
+	[Token(Token = "0x60000B0")]
+	[Address(RVA = "0x689C6A0", Offset = "0x689B6A0", VA = "0x689C6A0")]
 	public static IntPtr CallStaticObjectMethod(IntPtr clazz, IntPtr methodID, jvalue[] args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x2E9C0F0", Offset = "0x2E9A6F0", VA = "0x182E9C0F0")]
+	[Token(Token = "0x60000B1")]
+	[Address(RVA = "0x6897CA0", Offset = "0x6896CA0", VA = "0x6897CA0")]
 	public static IntPtr CallStaticObjectMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x2E9C4E0", Offset = "0x2E9AAE0", VA = "0x182E9C4E0")]
+	[Token(Token = "0x60000B2")]
+	[Address(RVA = "0x689C6F0", Offset = "0x689B6F0", VA = "0x689C6F0")]
 	public static string CallStaticStringMethod(IntPtr clazz, IntPtr methodID, jvalue[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x2E9C3F0", Offset = "0x2E9A9F0", VA = "0x182E9C3F0")]
+	[Token(Token = "0x60000B3")]
+	[Address(RVA = "0x689C740", Offset = "0x689B740", VA = "0x689C740")]
 	public static string CallStaticStringMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x2E9BCD0", Offset = "0x2E9A2D0", VA = "0x182E9BCD0")]
+	[Token(Token = "0x60000B4")]
+	[Address(RVA = "0x689C840", Offset = "0x689B840", VA = "0x689C840")]
 	public static char CallStaticCharMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x2E9BDA0", Offset = "0x2E9A3A0", VA = "0x182E9BDA0")]
+	[Token(Token = "0x60000B5")]
+	[Address(RVA = "0x689C920", Offset = "0x689B920", VA = "0x689C920")]
 	public static double CallStaticDoubleMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x2E9BE80", Offset = "0x2E9A480", VA = "0x182E9BE80")]
+	[Token(Token = "0x60000B6")]
+	[Address(RVA = "0x689CA10", Offset = "0x689BA10", VA = "0x689CA10")]
 	public static float CallStaticFloatMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x2E9C020", Offset = "0x2E9A620", VA = "0x182E9C020")]
+	[Token(Token = "0x60000B7")]
+	[Address(RVA = "0x689CB00", Offset = "0x689BB00", VA = "0x689CB00")]
 	public static long CallStaticLongMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x2E9C320", Offset = "0x2E9A920", VA = "0x182E9C320")]
+	[Token(Token = "0x60000B8")]
+	[Address(RVA = "0x689CBF0", Offset = "0x689BBF0", VA = "0x689CBF0")]
 	public static short CallStaticShortMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x2E9C250", Offset = "0x2E9A850", VA = "0x182E9C250")]
+	[Token(Token = "0x60000B9")]
+	[Address(RVA = "0x689CCD0", Offset = "0x689BCD0", VA = "0x689CCD0")]
 	public static sbyte CallStaticSByteMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(sbyte);
 	}
 
-	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x2E9BC00", Offset = "0x2E9A200", VA = "0x182E9BC00")]
+	[Token(Token = "0x60000BA")]
+	[Address(RVA = "0x689CDB0", Offset = "0x689BDB0", VA = "0x689CDB0")]
 	public static bool CallStaticBooleanMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x2E9BF60", Offset = "0x2E9A560", VA = "0x182E9BF60")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0x689CE90", Offset = "0x689BE90", VA = "0x689CE90")]
 	public static int CallStaticIntMethod(IntPtr clazz, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x2E9C660", Offset = "0x2E9AC60", VA = "0x182E9C660")]
+	[Token(Token = "0x60000BC")]
+	[Address(RVA = "0x689CF80", Offset = "0x689BF80", VA = "0x689CF80")]
 	public static void CallVoidMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 	}
 
-	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x2E9B9D0", Offset = "0x2E99FD0", VA = "0x182E9B9D0")]
+	[Token(Token = "0x60000BD")]
+	[Address(RVA = "0x689D060", Offset = "0x689C060", VA = "0x689D060")]
 	public static IntPtr CallObjectMethod(IntPtr obj, IntPtr methodID, jvalue[] args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x2E9B900", Offset = "0x2E99F00", VA = "0x182E9B900")]
+	[Token(Token = "0x60000BE")]
+	[Address(RVA = "0x689D0B0", Offset = "0x689C0B0", VA = "0x689D0B0")]
 	public static IntPtr CallObjectMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x2E9C570", Offset = "0x2E9AB70", VA = "0x182E9C570")]
+	[Token(Token = "0x60000BF")]
+	[Address(RVA = "0x689D1A0", Offset = "0x689C1A0", VA = "0x689D1A0")]
 	public static string CallStringMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x2E9B4E0", Offset = "0x2E99AE0", VA = "0x182E9B4E0")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x689D2A0", Offset = "0x689C2A0", VA = "0x689D2A0")]
 	public static char CallCharMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x2E9B5B0", Offset = "0x2E99BB0", VA = "0x182E9B5B0")]
+	[Token(Token = "0x60000C1")]
+	[Address(RVA = "0x689D380", Offset = "0x689C380", VA = "0x689D380")]
 	public static double CallDoubleMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x2E9B690", Offset = "0x2E99C90", VA = "0x182E9B690")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x689D470", Offset = "0x689C470", VA = "0x689D470")]
 	public static float CallFloatMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x2E9B830", Offset = "0x2E99E30", VA = "0x182E9B830")]
+	[Token(Token = "0x60000C3")]
+	[Address(RVA = "0x689D560", Offset = "0x689C560", VA = "0x689D560")]
 	public static long CallLongMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x2E9BB30", Offset = "0x2E9A130", VA = "0x182E9BB30")]
+	[Token(Token = "0x60000C4")]
+	[Address(RVA = "0x689D650", Offset = "0x689C650", VA = "0x689D650")]
 	public static short CallShortMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x2E9BA60", Offset = "0x2E9A060", VA = "0x182E9BA60")]
+	[Token(Token = "0x60000C5")]
+	[Address(RVA = "0x689D730", Offset = "0x689C730", VA = "0x689D730")]
 	public static sbyte CallSByteMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(sbyte);
 	}
 
-	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x2E9B410", Offset = "0x2E99A10", VA = "0x182E9B410")]
+	[Token(Token = "0x60000C6")]
+	[Address(RVA = "0x689D810", Offset = "0x689C810", VA = "0x689D810")]
 	public static bool CallBooleanMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x2E9B770", Offset = "0x2E99D70", VA = "0x182E9B770")]
+	[Token(Token = "0x60000C7")]
+	[Address(RVA = "0x689D8F0", Offset = "0x689C8F0", VA = "0x689D8F0")]
 	public static int CallIntMethod(IntPtr obj, IntPtr methodID, Span<jvalue> args)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x2E9CAC0", Offset = "0x2E9B0C0", VA = "0x182E9CAC0")]
+	[Token(Token = "0x60000C8")]
+	[Address(RVA = "0x689D9E0", Offset = "0x689C9E0", VA = "0x689D9E0")]
 	public static char[] FromCharArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x2E9CB30", Offset = "0x2E9B130", VA = "0x182E9CB30")]
+	[Token(Token = "0x60000C9")]
+	[Address(RVA = "0x689DA80", Offset = "0x689CA80", VA = "0x689DA80")]
 	public static double[] FromDoubleArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x2E9CBA0", Offset = "0x2E9B1A0", VA = "0x182E9CBA0")]
+	[Token(Token = "0x60000CA")]
+	[Address(RVA = "0x689DB20", Offset = "0x689CB20", VA = "0x689DB20")]
 	public static float[] FromFloatArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x2E9CC80", Offset = "0x2E9B280", VA = "0x182E9CC80")]
+	[Token(Token = "0x60000CB")]
+	[Address(RVA = "0x689DBC0", Offset = "0x689CBC0", VA = "0x689DBC0")]
 	public static long[] FromLongArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x2E9CDD0", Offset = "0x2E9B3D0", VA = "0x182E9CDD0")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x689DC60", Offset = "0x689CC60", VA = "0x689DC60")]
 	public static short[] FromShortArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x2E9CA70", Offset = "0x2E9B070", VA = "0x182E9CA70")]
+	[Token(Token = "0x60000CD")]
+	[Address(RVA = "0x689DD00", Offset = "0x689CD00", VA = "0x689DD00")]
 	public static byte[] FromByteArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x2E9CD60", Offset = "0x2E9B360", VA = "0x182E9CD60")]
+	[Token(Token = "0x60000CE")]
+	[Address(RVA = "0x689DD80", Offset = "0x689CD80", VA = "0x689DD80")]
 	public static sbyte[] FromSByteArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x2E9CA20", Offset = "0x2E9B020", VA = "0x182E9CA20")]
+	[Token(Token = "0x60000CF")]
+	[Address(RVA = "0x689DE20", Offset = "0x689CE20", VA = "0x689DE20")]
 	public static bool[] FromBooleanArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x2E9CC10", Offset = "0x2E9B210", VA = "0x182E9CC10")]
+	[Token(Token = "0x60000D0")]
+	[Address(RVA = "0x689DEA0", Offset = "0x689CEA0", VA = "0x689DEA0")]
 	public static int[] FromIntArray(IntPtr array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x2E9DCA0", Offset = "0x2E9C2A0", VA = "0x182E9DCA0")]
+	[Token(Token = "0x60000D1")]
+	[Address(RVA = "0x689DF40", Offset = "0x689CF40", VA = "0x689DF40")]
 	public static IntPtr ToObjectArray(IntPtr[] array, IntPtr type)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x2E9D9D0", Offset = "0x2E9BFD0", VA = "0x182E9D9D0")]
+	[Token(Token = "0x60000D2")]
+	[Address(RVA = "0x689E000", Offset = "0x689D000", VA = "0x689E000")]
 	public static IntPtr ToCharArray(char[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x2E9DA60", Offset = "0x2E9C060", VA = "0x182E9DA60")]
+	[Token(Token = "0x60000D3")]
+	[Address(RVA = "0x689E0C0", Offset = "0x689D0C0", VA = "0x689E0C0")]
 	public static IntPtr ToDoubleArray(double[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x2E9DAF0", Offset = "0x2E9C0F0", VA = "0x182E9DAF0")]
+	[Token(Token = "0x60000D4")]
+	[Address(RVA = "0x689E180", Offset = "0x689D180", VA = "0x689E180")]
 	public static IntPtr ToFloatArray(float[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x2E9DC10", Offset = "0x2E9C210", VA = "0x182E9DC10")]
+	[Token(Token = "0x60000D5")]
+	[Address(RVA = "0x689E240", Offset = "0x689D240", VA = "0x689E240")]
 	public static IntPtr ToLongArray(long[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x2E9DDD0", Offset = "0x2E9C3D0", VA = "0x182E9DDD0")]
+	[Token(Token = "0x60000D6")]
+	[Address(RVA = "0x689E300", Offset = "0x689D300", VA = "0x689E300")]
 	public static IntPtr ToShortArray(short[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x2E9D8D0", Offset = "0x2E9BED0", VA = "0x182E9D8D0")]
+	[Token(Token = "0x60000D7")]
+	[Address(RVA = "0x689E3C0", Offset = "0x689D3C0", VA = "0x689E3C0")]
 	public static IntPtr ToByteArray(byte[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x2E9DD40", Offset = "0x2E9C340", VA = "0x182E9DD40")]
+	[Token(Token = "0x60000D8")]
+	[Address(RVA = "0x689E440", Offset = "0x689D440", VA = "0x689E440")]
 	public static IntPtr ToSByteArray(sbyte[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x2E9D7D0", Offset = "0x2E9BDD0", VA = "0x182E9D7D0")]
+	[Token(Token = "0x60000D9")]
+	[Address(RVA = "0x689E500", Offset = "0x689D500", VA = "0x689E500")]
 	public static IntPtr ToBooleanArray(bool[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x2E9DB80", Offset = "0x2E9C180", VA = "0x182E9DB80")]
+	[Token(Token = "0x60000DA")]
+	[Address(RVA = "0x689E580", Offset = "0x689D580", VA = "0x689E580")]
 	public static IntPtr ToIntArray(int[] array)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x2E9CF50", Offset = "0x2E9B550", VA = "0x182E9CF50")]
+	[Token(Token = "0x60000DB")]
+	[Address(RVA = "0x689E640", Offset = "0x689D640", VA = "0x689E640")]
 	public static IntPtr GetObjectArrayElement(IntPtr array, int index)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x2E9CE40", Offset = "0x2E9B440", VA = "0x182E9CE40")]
+	[Token(Token = "0x60000DC")]
+	[Address(RVA = "0x689E6E0", Offset = "0x689D6E0", VA = "0x689E6E0")]
 	public static int GetArrayLength(IntPtr array)
 	{
 		return default(int);

@@ -12,132 +12,132 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000593")]
+[Token(Token = "0x20005F2")]
 [CompilerGenerated]
 internal class CustomLogicLabelBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x2000594")]
+	[Token(Token = "0x20005F3")]
 	public new static class Factory
 	{
-		[Token(Token = "0x600349B")]
-		[Address(RVA = "0x2074B10", Offset = "0x2073110", VA = "0x182074B10")]
+		[Token(Token = "0x6003727")]
+		[Address(RVA = "0x5A007C0", Offset = "0x59FF7C0", VA = "0x5A007C0")]
 		public static CustomLogicLabelBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000595")]
+	[Token(Token = "0x20005F4")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x40017E8")]
+		[Token(Token = "0x4001988")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600349C")]
-		[Address(RVA = "0x20498A0", Offset = "0x2047EA0", VA = "0x1820498A0")]
+		[Token(Token = "0x6003728")]
+		[Address(RVA = "0x5A00850", Offset = "0x59FF850", VA = "0x5A00850")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600349D")]
-		[Address(RVA = "0x2063770", Offset = "0x2061D70", VA = "0x182063770")]
+		[Token(Token = "0x6003729")]
+		[Address(RVA = "0x5A00990", Offset = "0x59FF990", VA = "0x5A00990")]
 		public static CLPropertyBinding<CustomLogicLabelBuiltin> __CreatePropertyBinding__Text()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600349E")]
-		[Address(RVA = "0x2061B00", Offset = "0x2060100", VA = "0x182061B00")]
+		[Token(Token = "0x600372A")]
+		[Address(RVA = "0x5A00A70", Offset = "0x59FFA70", VA = "0x5A00A70")]
 		public static CLPropertyBinding<CustomLogicLabelBuiltin> __CreatePropertyBinding__EnableRichText()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40017E7")]
+	[Token(Token = "0x4001987")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly Label _label;
 
-	[Token(Token = "0x170009B4")]
+	[Token(Token = "0x170009FC")]
 	public string Text
 	{
-		[Token(Token = "0x6003493")]
-		[Address(RVA = "0x2066520", Offset = "0x2064B20", VA = "0x182066520")]
+		[Token(Token = "0x600371F")]
+		[Address(RVA = "0x5A006C0", Offset = "0x59FF6C0", VA = "0x5A006C0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003494")]
-		[Address(RVA = "0x2066570", Offset = "0x2064B70", VA = "0x182066570")]
+		[Token(Token = "0x6003720")]
+		[Address(RVA = "0x5A006F0", Offset = "0x59FF6F0", VA = "0x5A006F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009B5")]
+	[Token(Token = "0x170009FD")]
 	public bool EnableRichText
 	{
-		[Token(Token = "0x6003495")]
-		[Address(RVA = "0x2066500", Offset = "0x2064B00", VA = "0x182066500")]
+		[Token(Token = "0x6003721")]
+		[Address(RVA = "0x5A00720", Offset = "0x59FF720", VA = "0x5A00720")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6003496")]
-		[Address(RVA = "0x2066550", Offset = "0x2064B50", VA = "0x182066550")]
+		[Token(Token = "0x6003722")]
+		[Address(RVA = "0x5A00740", Offset = "0x59FF740", VA = "0x5A00740")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009B6")]
+	[Token(Token = "0x170009FE")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003497")]
-		[Address(RVA = "0x20679B0", Offset = "0x2065FB0", VA = "0x1820679B0", Slot = "6")]
+		[Token(Token = "0x6003723")]
+		[Address(RVA = "0x5A00760", Offset = "0x59FF760", VA = "0x5A00760", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009B7")]
+	[Token(Token = "0x170009FF")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003498")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003724")]
+		[Address(RVA = "0x5A00790", Offset = "0x59FF790", VA = "0x5A00790", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009B8")]
+	[Token(Token = "0x17000A00")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003499")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003725")]
+		[Address(RVA = "0x5A007A0", Offset = "0x59FF7A0", VA = "0x5A007A0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009B9")]
+	[Token(Token = "0x17000A01")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600349A")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003726")]
+		[Address(RVA = "0x5A007B0", Offset = "0x59FF7B0", VA = "0x5A007B0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003492")]
-	[Address(RVA = "0x2067970", Offset = "0x2065F70", VA = "0x182067970")]
+	[Token(Token = "0x600371E")]
+	[Address(RVA = "0x5A00690", Offset = "0x59FF690", VA = "0x5A00690")]
 	public CustomLogicLabelBuiltin(Label label)
 	{
 	}

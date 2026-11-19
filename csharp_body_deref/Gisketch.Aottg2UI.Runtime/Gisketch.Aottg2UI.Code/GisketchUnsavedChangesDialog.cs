@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Code.GisketchUnsavedChangesDialog
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Code/GisketchUnsavedChangesDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000A6")]
 [AottgDialog("gisketch-unsaved-changes", DismissOnBackdrop = false)]
 public sealed class GisketchUnsavedChangesDialog : AottgDialog
 {
-	[Token(Token = "0x4000365")]
+	[Token(Token = "0x400038C")]
 	public const string Id = "gisketch-unsaved-changes";
 
 	[Token(Token = "0x17000095")]
 	protected override string Title
 	{
-		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x18F33C0", Offset = "0x18F19C0", VA = "0x1818F33C0", Slot = "4")]
+		[Token(Token = "0x6000527")]
+		[Address(RVA = "0x527B210", Offset = "0x527A210", VA = "0x527B210", Slot = "4")]
 		get
 		{
 			return null;
@@ -32,8 +32,8 @@ public sealed class GisketchUnsavedChangesDialog : AottgDialog
 	[Token(Token = "0x17000096")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "14")]
+		[Token(Token = "0x6000528")]
+		[Address(RVA = "0x527B270", Offset = "0x527A270", VA = "0x527B270", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
@@ -43,34 +43,34 @@ public sealed class GisketchUnsavedChangesDialog : AottgDialog
 	[Token(Token = "0x17000097")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x18F32C0", Offset = "0x18F18C0", VA = "0x1818F32C0", Slot = "15")]
+		[Token(Token = "0x6000529")]
+		[Address(RVA = "0x527B280", Offset = "0x527A280", VA = "0x527B280", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60004DD")]
-	[Address(RVA = "0x18F3140", Offset = "0x18F1740", VA = "0x1818F3140", Slot = "20")]
+	[Token(Token = "0x600052A")]
+	[Address(RVA = "0x527B3A0", Offset = "0x527A3A0", VA = "0x527B3A0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60004DE")]
-	[Address(RVA = "0x18F31A0", Offset = "0x18F17A0", VA = "0x1818F31A0", Slot = "21")]
+	[Token(Token = "0x600052B")]
+	[Address(RVA = "0x527B3F0", Offset = "0x527A3F0", VA = "0x527B3F0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x60004DF")]
-	[Address(RVA = "0x18F3260", Offset = "0x18F1860", VA = "0x1818F3260")]
+	[Token(Token = "0x600052C")]
+	[Address(RVA = "0x527B4B0", Offset = "0x527A4B0", VA = "0x527B4B0")]
 	private static void Discard(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x60004E0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600052D")]
+	[Address(RVA = "0x527B510", Offset = "0x527A510", VA = "0x527B510")]
 	public GisketchUnsavedChangesDialog()
 	{
 	}

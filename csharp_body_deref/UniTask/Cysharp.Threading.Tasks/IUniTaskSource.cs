@@ -27,20 +27,20 @@ public interface IUniTaskSource : IValueTaskSource
 	UniTaskStatus UnsafeGetStatus();
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x290E070", Offset = "0x290C670", VA = "0x18290E070", Slot = "4")]
+	[Address(RVA = "0x62C56C0", Offset = "0x62C46C0", VA = "0x62C56C0", Slot = "4")]
 	private virtual ValueTaskSourceStatus System_002EThreading_002ETasks_002ESources_002EIValueTaskSource_002EGetStatus(short token)
 	{
 		return default(ValueTaskSourceStatus);
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x290E020", Offset = "0x290C620", VA = "0x18290E020", Slot = "5")]
+	[Address(RVA = "0x62C5760", Offset = "0x62C4760", VA = "0x62C5760", Slot = "5")]
 	private virtual void System_002EThreading_002ETasks_002ESources_002EIValueTaskSource_002EGetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x290E0C0", Offset = "0x290C6C0", VA = "0x18290E0C0", Slot = "6")]
+	[Address(RVA = "0x62C5800", Offset = "0x62C4800", VA = "0x62C5800", Slot = "6")]
 	private virtual void System_002EThreading_002ETasks_002ESources_002EIValueTaskSource_002EOnCompleted(Action<object> continuation, object state, short token, ValueTaskSourceOnCompletedFlags flags)
 	{
 	}

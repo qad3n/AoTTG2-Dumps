@@ -14,8 +14,8 @@ namespace UnityEngine.Experimental.U2D;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x20003FF")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Renderer/SpriteRendererGroup.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 internal class SpriteRendererGroup
 {
 }

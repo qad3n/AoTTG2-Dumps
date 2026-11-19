@@ -47,227 +47,227 @@ internal static class DateTimeUtils
 	private static readonly int[] DaysToMonth366;
 
 	[Token(Token = "0x6000556")]
-	[Address(RVA = "0x1C238F0", Offset = "0x1C21EF0", VA = "0x181C238F0")]
+	[Address(RVA = "0x55ABD10", Offset = "0x55AAD10", VA = "0x55ABD10")]
 	static DateTimeUtils()
 	{
 	}
 
 	[Token(Token = "0x6000557")]
-	[Address(RVA = "0x1C20810", Offset = "0x1C1EE10", VA = "0x181C20810")]
+	[Address(RVA = "0x55ABE00", Offset = "0x55AAE00", VA = "0x55ABE00")]
 	public static TimeSpan GetUtcOffset(this DateTime d)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6000558")]
-	[Address(RVA = "0x1C20A10", Offset = "0x1C1F010", VA = "0x181C20A10")]
+	[Address(RVA = "0x55ABE80", Offset = "0x55AAE80", VA = "0x55ABE80")]
 	public static XmlDateTimeSerializationMode ToSerializationMode(DateTimeKind kind)
 	{
 		return default(XmlDateTimeSerializationMode);
 	}
 
 	[Token(Token = "0x6000559")]
-	[Address(RVA = "0x1C20390", Offset = "0x1C1E990", VA = "0x181C20390")]
+	[Address(RVA = "0x55ABFD0", Offset = "0x55AAFD0", VA = "0x55ABFD0")]
 	internal static DateTime EnsureDateTime(DateTime value, DateTimeZoneHandling timeZone)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600055A")]
-	[Address(RVA = "0x1C20870", Offset = "0x1C1EE70", VA = "0x181C20870")]
+	[Address(RVA = "0x55AC100", Offset = "0x55AB100", VA = "0x55AC100")]
 	private static DateTime SwitchToLocalTime(DateTime value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600055B")]
-	[Address(RVA = "0x1C20940", Offset = "0x1C1EF40", VA = "0x181C20940")]
+	[Address(RVA = "0x55AC1D0", Offset = "0x55AB1D0", VA = "0x55AC1D0")]
 	private static DateTime SwitchToUtcTime(DateTime value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600055C")]
-	[Address(RVA = "0x1C20C30", Offset = "0x1C1F230", VA = "0x181C20C30")]
+	[Address(RVA = "0x55AC2A0", Offset = "0x55AB2A0", VA = "0x55AC2A0")]
 	private static long ToUniversalTicks(DateTime dateTime)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600055D")]
-	[Address(RVA = "0x1C20AC0", Offset = "0x1C1F0C0", VA = "0x181C20AC0")]
+	[Address(RVA = "0x55AC3D0", Offset = "0x55AB3D0", VA = "0x55AC3D0")]
 	private static long ToUniversalTicks(DateTime dateTime, TimeSpan offset)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600055E")]
-	[Address(RVA = "0x1C1FE80", Offset = "0x1C1E480", VA = "0x181C1FE80")]
+	[Address(RVA = "0x55AC520", Offset = "0x55AB520", VA = "0x55AC520")]
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime, TimeSpan offset)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600055F")]
-	[Address(RVA = "0x1C1FF40", Offset = "0x1C1E540", VA = "0x181C1FF40")]
+	[Address(RVA = "0x55AC640", Offset = "0x55AB640", VA = "0x55AC640")]
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000560")]
-	[Address(RVA = "0x1C1FF90", Offset = "0x1C1E590", VA = "0x181C1FF90")]
+	[Address(RVA = "0x55AC6B0", Offset = "0x55AB6B0", VA = "0x55AC6B0")]
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime, bool convertToUtc)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000561")]
-	[Address(RVA = "0x1C22910", Offset = "0x1C20F10", VA = "0x181C22910")]
+	[Address(RVA = "0x55AC5D0", Offset = "0x55AB5D0", VA = "0x55AC5D0")]
 	private static long UniversalTicksToJavaScriptTicks(long universalTicks)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000562")]
-	[Address(RVA = "0x1C20180", Offset = "0x1C1E780", VA = "0x181C20180")]
+	[Address(RVA = "0x55A2010", Offset = "0x55A1010", VA = "0x55A2010")]
 	internal static DateTime ConvertJavaScriptTicksToDateTime(long javaScriptTicks)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000563")]
-	[Address(RVA = "0x1C20E20", Offset = "0x1C1F420", VA = "0x181C20E20")]
+	[Address(RVA = "0x55AC7D0", Offset = "0x55AB7D0", VA = "0x55AC7D0")]
 	internal static bool TryParseDateTimeIso(StringReference text, DateTimeZoneHandling dateTimeZoneHandling, out DateTime dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000564")]
-	[Address(RVA = "0x1C21520", Offset = "0x1C1FB20", VA = "0x181C21520")]
+	[Address(RVA = "0x55ACF60", Offset = "0x55ABF60", VA = "0x55ACF60")]
 	internal static bool TryParseDateTimeOffsetIso(StringReference text, out DateTimeOffset dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x1C202A0", Offset = "0x1C1E8A0", VA = "0x181C202A0")]
+	[Address(RVA = "0x55ACE60", Offset = "0x55ABE60", VA = "0x55ACE60")]
 	private static DateTime CreateDateTime(DateTimeParser dateTimeParser)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000566")]
-	[Address(RVA = "0x1C21E40", Offset = "0x1C20440", VA = "0x181C21E40")]
+	[Address(RVA = "0x55AD2F0", Offset = "0x55AC2F0", VA = "0x55AD2F0")]
 	internal static bool TryParseDateTime(StringReference s, DateTimeZoneHandling dateTimeZoneHandling, string? dateFormatString, CultureInfo culture, out DateTime dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x1C22070", Offset = "0x1C20670", VA = "0x181C22070")]
+	[Address(RVA = "0x55AD7D0", Offset = "0x55AC7D0", VA = "0x55AD7D0")]
 	internal static bool TryParseDateTime(string s, DateTimeZoneHandling dateTimeZoneHandling, string? dateFormatString, CultureInfo culture, out DateTime dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x1C21950", Offset = "0x1C1FF50", VA = "0x181C21950")]
+	[Address(RVA = "0x55ADA70", Offset = "0x55ACA70", VA = "0x55ADA70")]
 	internal static bool TryParseDateTimeOffset(StringReference s, string? dateFormatString, CultureInfo culture, out DateTimeOffset dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000569")]
-	[Address(RVA = "0x1C21B60", Offset = "0x1C20160", VA = "0x181C21B60")]
+	[Address(RVA = "0x55ADF60", Offset = "0x55ACF60", VA = "0x55ADF60")]
 	internal static bool TryParseDateTimeOffset(string s, string? dateFormatString, CultureInfo culture, out DateTimeOffset dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x1C22340", Offset = "0x1C20940", VA = "0x181C22340")]
+	[Address(RVA = "0x55AE270", Offset = "0x55AD270", VA = "0x55AE270")]
 	private static bool TryParseMicrosoftDate(StringReference text, out long ticks, out TimeSpan offset, out DateTimeKind kind)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x1C21320", Offset = "0x1C1F920", VA = "0x181C21320")]
+	[Address(RVA = "0x55AD510", Offset = "0x55AC510", VA = "0x55AD510")]
 	private static bool TryParseDateTimeMicrosoft(StringReference text, DateTimeZoneHandling dateTimeZoneHandling, out DateTime dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x1C20D40", Offset = "0x1C1F340", VA = "0x181C20D40")]
+	[Address(RVA = "0x55AD700", Offset = "0x55AC700", VA = "0x55AD700")]
 	private static bool TryParseDateTimeExact(string text, DateTimeZoneHandling dateTimeZoneHandling, string dateFormatString, CultureInfo culture, out DateTime dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x1C217D0", Offset = "0x1C1FDD0", VA = "0x181C217D0")]
+	[Address(RVA = "0x55ADCD0", Offset = "0x55ACCD0", VA = "0x55ADCD0")]
 	private static bool TryParseDateTimeOffsetMicrosoft(StringReference text, out DateTimeOffset dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x1C21480", Offset = "0x1C1FA80", VA = "0x181C21480")]
+	[Address(RVA = "0x55ADED0", Offset = "0x55ACED0", VA = "0x55ADED0")]
 	private static bool TryParseDateTimeOffsetExact(string text, string dateFormatString, CultureInfo culture, out DateTimeOffset dt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x1C22630", Offset = "0x1C20C30", VA = "0x181C22630")]
+	[Address(RVA = "0x55AE3E0", Offset = "0x55AD3E0", VA = "0x55AE3E0")]
 	private static bool TryReadOffset(StringReference offsetText, int startIndex, out TimeSpan offset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x1C22DD0", Offset = "0x1C213D0", VA = "0x181C22DD0")]
+	[Address(RVA = "0x55AE550", Offset = "0x55AD550", VA = "0x55AE550")]
 	internal static void WriteDateTimeString(TextWriter writer, DateTime value, DateFormatHandling format, string? formatString, CultureInfo culture)
 	{
 	}
 
 	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x1C22F70", Offset = "0x1C21570", VA = "0x181C22F70")]
+	[Address(RVA = "0x55AE6A0", Offset = "0x55AD6A0", VA = "0x55AE6A0")]
 	internal static int WriteDateTimeString(char[] chars, int start, DateTime value, TimeSpan? offset, DateTimeKind kind, DateFormatHandling format)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000572")]
-	[Address(RVA = "0x1C233A0", Offset = "0x1C219A0", VA = "0x181C233A0")]
+	[Address(RVA = "0x55AEE10", Offset = "0x55ADE10", VA = "0x55AEE10")]
 	internal static int WriteDefaultIsoDate(char[] chars, int start, DateTime dt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000573")]
-	[Address(RVA = "0x1C20200", Offset = "0x1C1E800", VA = "0x181C20200")]
+	[Address(RVA = "0x55AF610", Offset = "0x55AE610", VA = "0x55AF610")]
 	private static void CopyIntToCharArray(char[] chars, int start, int value, int digits)
 	{
 	}
 
 	[Token(Token = "0x6000574")]
-	[Address(RVA = "0x1C22B60", Offset = "0x1C21160", VA = "0x181C22B60")]
+	[Address(RVA = "0x55AEB90", Offset = "0x55ADB90", VA = "0x55AEB90")]
 	internal static int WriteDateTimeOffset(char[] chars, int start, TimeSpan offset, DateFormatHandling format)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000575")]
-	[Address(RVA = "0x1C22980", Offset = "0x1C20F80", VA = "0x181C22980")]
+	[Address(RVA = "0x55AF670", Offset = "0x55AE670", VA = "0x55AF670")]
 	internal static void WriteDateTimeOffsetString(TextWriter writer, DateTimeOffset value, DateFormatHandling format, string? formatString, CultureInfo culture)
 	{
 	}
 
 	[Token(Token = "0x6000576")]
-	[Address(RVA = "0x1C20640", Offset = "0x1C1EC40", VA = "0x181C20640")]
+	[Address(RVA = "0x55AF3E0", Offset = "0x55AE3E0", VA = "0x55AF3E0")]
 	private static void GetDateValues(DateTime td, out int year, out int month, out int day)
 	{
 	}

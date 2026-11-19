@@ -44,7 +44,7 @@ public sealed class XNamespace
 	public string NamespaceName
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5FA75C0", Offset = "0x5FA65C0", VA = "0x5FA75C0")]
 		get
 		{
 			return null;
@@ -55,7 +55,7 @@ public sealed class XNamespace
 	public static XNamespace None
 	{
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x25EC130", Offset = "0x25EA730", VA = "0x1825EC130")]
+		[Address(RVA = "0x5FA7390", Offset = "0x5FA6390", VA = "0x5FA7390")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ public sealed class XNamespace
 	public static XNamespace Xml
 	{
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x25EC180", Offset = "0x25EA780", VA = "0x1825EC180")]
+		[Address(RVA = "0x5FA76C0", Offset = "0x5FA66C0", VA = "0x5FA76C0")]
 		get
 		{
 			return null;
@@ -77,7 +77,7 @@ public sealed class XNamespace
 	public static XNamespace Xmlns
 	{
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x25EC1E0", Offset = "0x25EA7E0", VA = "0x1825EC1E0")]
+		[Address(RVA = "0x5FA7710", Offset = "0x5FA6710", VA = "0x5FA7710")]
 		get
 		{
 			return null;
@@ -85,34 +85,34 @@ public sealed class XNamespace
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x25EC030", Offset = "0x25EA630", VA = "0x1825EC030")]
+	[Address(RVA = "0x5FA74C0", Offset = "0x5FA64C0", VA = "0x5FA74C0")]
 	internal XNamespace(string namespaceName)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x25EBB60", Offset = "0x25EA160", VA = "0x1825EBB60")]
+	[Address(RVA = "0x5FA3030", Offset = "0x5FA2030", VA = "0x5FA3030")]
 	public XName GetName(string localName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "3")]
+	[Address(RVA = "0x5FA75D0", Offset = "0x5FA65D0", VA = "0x5FA75D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x25EBFC0", Offset = "0x25EA5C0", VA = "0x1825EBFC0")]
+	[Address(RVA = "0x5FA5A50", Offset = "0x5FA4A50", VA = "0x5FA5A50")]
 	public static XNamespace Get(string namespaceName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x25EC240", Offset = "0x25EA840", VA = "0x1825EC240")]
+	[Address(RVA = "0x5FA7760", Offset = "0x5FA6760", VA = "0x5FA7760")]
 	[CLSCompliant(false)]
 	public static implicit operator XNamespace(string namespaceName)
 	{
@@ -120,63 +120,63 @@ public sealed class XNamespace
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20", Slot = "0")]
+	[Address(RVA = "0x5FA7770", Offset = "0x5FA6770", VA = "0x5FA7770", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "2")]
+	[Address(RVA = "0x5FA7780", Offset = "0x5FA6780", VA = "0x5FA7780", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20")]
+	[Address(RVA = "0x5FA4740", Offset = "0x5FA3740", VA = "0x5FA4740")]
 	public static bool operator ==(XNamespace left, XNamespace right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x5286D0", Offset = "0x526CD0", VA = "0x1805286D0")]
+	[Address(RVA = "0x5FA7790", Offset = "0x5FA6790", VA = "0x5FA7790")]
 	public static bool operator !=(XNamespace left, XNamespace right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x25EB9C0", Offset = "0x25E9FC0", VA = "0x1825EB9C0")]
+	[Address(RVA = "0x5FA7290", Offset = "0x5FA6290", VA = "0x5FA7290")]
 	internal XName GetName(string localName, int index, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x25EBBE0", Offset = "0x25EA1E0", VA = "0x1825EBBE0")]
+	[Address(RVA = "0x5FA6EB0", Offset = "0x5FA5EB0", VA = "0x5FA6EB0")]
 	internal static XNamespace Get(string namespaceName, int index, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x111BC10", Offset = "0x111A210", VA = "0x18111BC10")]
+	[Address(RVA = "0x5FA77A0", Offset = "0x5FA67A0", VA = "0x5FA77A0")]
 	private static string ExtractLocalName(XName n)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x25EB940", Offset = "0x25E9F40", VA = "0x1825EB940")]
+	[Address(RVA = "0x5FA77C0", Offset = "0x5FA67C0", VA = "0x5FA77C0")]
 	private static string ExtractNamespace(WeakReference r)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x25EB840", Offset = "0x25E9E40", VA = "0x1825EB840")]
+	[Address(RVA = "0x5FA75E0", Offset = "0x5FA65E0", VA = "0x5FA75E0")]
 	private static XNamespace EnsureNamespace(ref WeakReference refNmsp, string namespaceName)
 	{
 		return null;

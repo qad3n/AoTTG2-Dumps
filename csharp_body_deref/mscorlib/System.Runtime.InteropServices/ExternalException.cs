@@ -11,52 +11,52 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x2000460")]
+[Token(Token = "0x2000439")]
 public class ExternalException : SystemException
 {
-	[Token(Token = "0x1700045F")]
+	[Token(Token = "0x1700045E")]
 	public virtual int ErrorCode
 	{
-		[Token(Token = "0x600221D")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530", Slot = "13")]
+		[Token(Token = "0x60021F3")]
+		[Address(RVA = "0x53C4330", Offset = "0x53C3330", VA = "0x53C4330", Slot = "13")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002218")]
-	[Address(RVA = "0x1A290E0", Offset = "0x1A276E0", VA = "0x181A290E0")]
+	[Token(Token = "0x60021EE")]
+	[Address(RVA = "0x53C4280", Offset = "0x53C3280", VA = "0x53C4280")]
 	public ExternalException()
 	{
 	}
 
-	[Token(Token = "0x6002219")]
-	[Address(RVA = "0x1A2A4C0", Offset = "0x1A28AC0", VA = "0x181A2A4C0")]
+	[Token(Token = "0x60021EF")]
+	[Address(RVA = "0x53C42C0", Offset = "0x53C32C0", VA = "0x53C42C0")]
 	public ExternalException(string message)
 	{
 	}
 
-	[Token(Token = "0x600221A")]
-	[Address(RVA = "0x1A2A4E0", Offset = "0x1A28AE0", VA = "0x181A2A4E0")]
+	[Token(Token = "0x60021F0")]
+	[Address(RVA = "0x53C42E0", Offset = "0x53C32E0", VA = "0x53C42E0")]
 	public ExternalException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x600221B")]
-	[Address(RVA = "0x1A2A500", Offset = "0x1A28B00", VA = "0x181A2A500")]
+	[Token(Token = "0x60021F1")]
+	[Address(RVA = "0x53C4300", Offset = "0x53C3300", VA = "0x53C4300")]
 	public ExternalException(string message, int errorCode)
 	{
 	}
 
-	[Token(Token = "0x600221C")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60021F2")]
+	[Address(RVA = "0x53C4320", Offset = "0x53C3320", VA = "0x53C4320")]
 	protected ExternalException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600221E")]
-	[Address(RVA = "0x1A2A2F0", Offset = "0x1A288F0", VA = "0x181A2A2F0", Slot = "3")]
+	[Token(Token = "0x60021F4")]
+	[Address(RVA = "0x53C4340", Offset = "0x53C3340", VA = "0x53C4340", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200068B")]
+[Token(Token = "0x20006EA")]
 internal class APGWeapon : AmmoWeapon
 {
-	[Token(Token = "0x6004063")]
-	[Address(RVA = "0x21633E0", Offset = "0x21619E0", VA = "0x1821633E0")]
+	[Token(Token = "0x60042FB")]
+	[Address(RVA = "0x5B10D50", Offset = "0x5B0FD50", VA = "0x5B10D50")]
 	public APGWeapon(BaseCharacter owner, int ammo, int ammoPerRound, float cooldown)
 	{
 	}
 
-	[Token(Token = "0x6004064")]
-	[Address(RVA = "0x2163450", Offset = "0x2161A50", VA = "0x182163450", Slot = "9")]
+	[Token(Token = "0x60042FC")]
+	[Address(RVA = "0x5B10DB0", Offset = "0x5B0FDB0", VA = "0x5B10DB0", Slot = "9")]
 	protected override void Activate()
 	{
 	}

@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 
 namespace Utility.Algorithms;
 
-[Token(Token = "0x20008D6")]
+[Token(Token = "0x2000941")]
 internal abstract class CompressionAlgorithm
 {
-	[Token(Token = "0x4002BC4")]
+	[Token(Token = "0x4002E80")]
 	public const int DefaultBufferSize = 4096;
 
-	[Token(Token = "0x4002BC5")]
+	[Token(Token = "0x4002E81")]
 	public const int DefaultMaxSize = 10485760;
 
-	[Token(Token = "0x60053C3")]
+	[Token(Token = "0x6005720")]
 	public abstract byte[] Compress(byte[] data, CompressionLevel level = CompressionLevel.Fastest);
 
-	[Token(Token = "0x60053C4")]
+	[Token(Token = "0x6005721")]
 	public abstract byte[] Decompress(byte[] data, int bufferSize = 4096, long maxSize = 10485760L);
 
-	[Token(Token = "0x60053C5")]
-	[Address(RVA = "0x2332810", Offset = "0x2330E10", VA = "0x182332810")]
+	[Token(Token = "0x6005722")]
+	[Address(RVA = "0x5CE90E0", Offset = "0x5CE80E0", VA = "0x5CE90E0")]
 	public byte[] CompressString(string str, CompressionLevel level = CompressionLevel.Fastest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60053C6")]
-	[Address(RVA = "0x23328C0", Offset = "0x2330EC0", VA = "0x1823328C0")]
+	[Token(Token = "0x6005723")]
+	[Address(RVA = "0x5CE96B0", Offset = "0x5CE86B0", VA = "0x5CE96B0")]
 	public string DecompressString(byte[] data, int bufferSize = 4096, long maxSize = 10485760L)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60053C7")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005724")]
+	[Address(RVA = "0x5CF4F70", Offset = "0x5CF3F70", VA = "0x5CF4F70")]
 	protected CompressionAlgorithm()
 	{
 	}

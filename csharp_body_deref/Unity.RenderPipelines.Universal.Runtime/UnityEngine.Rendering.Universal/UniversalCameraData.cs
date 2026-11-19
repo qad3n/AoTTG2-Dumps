@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalCameraData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -257,13 +257,13 @@ public class UniversalCameraData : ContextItem
 	public UniversalCameraHistory historyManager
 	{
 		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x187BC30", Offset = "0x187A230", VA = "0x18187BC30")]
+		[Address(RVA = "0x66289D0", Offset = "0x66279D0", VA = "0x66289D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x1BD53E0", Offset = "0x1BD39E0", VA = "0x181BD53E0")]
+		[Address(RVA = "0x66289E0", Offset = "0x66279E0", VA = "0x66289E0")]
 		set
 		{
 		}
@@ -273,7 +273,7 @@ public class UniversalCameraData : ContextItem
 	internal bool requireSrgbConversion
 	{
 		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x2C32B20", Offset = "0x2C31120", VA = "0x182C32B20")]
+		[Address(RVA = "0x6628A00", Offset = "0x6627A00", VA = "0x6628A00")]
 		get
 		{
 			return default(bool);
@@ -284,7 +284,7 @@ public class UniversalCameraData : ContextItem
 	public bool isGameCamera
 	{
 		[Token(Token = "0x6000477")]
-		[Address(RVA = "0x2C329B0", Offset = "0x2C30FB0", VA = "0x182C329B0")]
+		[Address(RVA = "0x6628BB0", Offset = "0x6627BB0", VA = "0x6628BB0")]
 		get
 		{
 			return default(bool);
@@ -295,7 +295,7 @@ public class UniversalCameraData : ContextItem
 	public bool isSceneViewCamera
 	{
 		[Token(Token = "0x6000478")]
-		[Address(RVA = "0x2C32AA0", Offset = "0x2C310A0", VA = "0x182C32AA0")]
+		[Address(RVA = "0x6628BC0", Offset = "0x6627BC0", VA = "0x6628BC0")]
 		get
 		{
 			return default(bool);
@@ -306,7 +306,7 @@ public class UniversalCameraData : ContextItem
 	public bool isPreviewCamera
 	{
 		[Token(Token = "0x6000479")]
-		[Address(RVA = "0x2C32A70", Offset = "0x2C31070", VA = "0x182C32A70")]
+		[Address(RVA = "0x661DDE0", Offset = "0x661CDE0", VA = "0x661DDE0")]
 		get
 		{
 			return default(bool);
@@ -317,7 +317,7 @@ public class UniversalCameraData : ContextItem
 	internal bool isRenderPassSupportedCamera
 	{
 		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x2C32A80", Offset = "0x2C31080", VA = "0x182C32A80")]
+		[Address(RVA = "0x6628BD0", Offset = "0x6627BD0", VA = "0x6628BD0")]
 		get
 		{
 			return default(bool);
@@ -328,7 +328,7 @@ public class UniversalCameraData : ContextItem
 	internal bool resolveToScreen
 	{
 		[Token(Token = "0x600047B")]
-		[Address(RVA = "0x2C32D00", Offset = "0x2C31300", VA = "0x182C32D00")]
+		[Address(RVA = "0x6628BF0", Offset = "0x6627BF0", VA = "0x6628BF0")]
 		get
 		{
 			return default(bool);
@@ -339,7 +339,7 @@ public class UniversalCameraData : ContextItem
 	public bool isHDROutputActive
 	{
 		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x2C329C0", Offset = "0x2C30FC0", VA = "0x182C329C0")]
+		[Address(RVA = "0x6628C90", Offset = "0x6627C90", VA = "0x6628C90")]
 		get
 		{
 			return default(bool);
@@ -350,7 +350,7 @@ public class UniversalCameraData : ContextItem
 	public HDROutputUtils.HDRDisplayInformation hdrDisplayInformation
 	{
 		[Token(Token = "0x600047D")]
-		[Address(RVA = "0x2C32880", Offset = "0x2C30E80", VA = "0x182C32880")]
+		[Address(RVA = "0x6628DC0", Offset = "0x6627DC0", VA = "0x6628DC0")]
 		get
 		{
 			return default(HDROutputUtils.HDRDisplayInformation);
@@ -361,7 +361,7 @@ public class UniversalCameraData : ContextItem
 	public ColorGamut hdrDisplayColorGamut
 	{
 		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x2C327F0", Offset = "0x2C30DF0", VA = "0x182C327F0")]
+		[Address(RVA = "0x6628EB0", Offset = "0x6627EB0", VA = "0x6628EB0")]
 		get
 		{
 			return default(ColorGamut);
@@ -372,7 +372,7 @@ public class UniversalCameraData : ContextItem
 	public bool rendersOverlayUI
 	{
 		[Token(Token = "0x600047F")]
-		[Address(RVA = "0x2C32AB0", Offset = "0x2C310B0", VA = "0x182C32AB0")]
+		[Address(RVA = "0x6628F30", Offset = "0x6627F30", VA = "0x6628F30")]
 		get
 		{
 			return default(bool);
@@ -383,14 +383,14 @@ public class UniversalCameraData : ContextItem
 	public XRPass xr
 	{
 		[Token(Token = "0x6000486")]
-		[Address(RVA = "0x2C32E30", Offset = "0x2C31430", VA = "0x182C32E30")]
+		[Address(RVA = "0x6629570", Offset = "0x6628570", VA = "0x6629570")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000487")]
-		[Address(RVA = "0x2C32E40", Offset = "0x2C31440", VA = "0x182C32E40")]
+		[Address(RVA = "0x6629580", Offset = "0x6628580", VA = "0x6629580")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -401,7 +401,7 @@ public class UniversalCameraData : ContextItem
 	internal XRPassUniversal xrUniversal
 	{
 		[Token(Token = "0x6000488")]
-		[Address(RVA = "0x2C32DB0", Offset = "0x2C313B0", VA = "0x182C32DB0")]
+		[Address(RVA = "0x661FDF0", Offset = "0x661EDF0", VA = "0x661FDF0")]
 		get
 		{
 			return null;
@@ -412,7 +412,7 @@ public class UniversalCameraData : ContextItem
 	internal bool resetHistory
 	{
 		[Token(Token = "0x6000489")]
-		[Address(RVA = "0x2C32CF0", Offset = "0x2C312F0", VA = "0x182C32CF0")]
+		[Address(RVA = "0x66295A0", Offset = "0x66285A0", VA = "0x66295A0")]
 		get
 		{
 			return default(bool);
@@ -420,7 +420,7 @@ public class UniversalCameraData : ContextItem
 	}
 
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x2C312E0", Offset = "0x2C2F8E0", VA = "0x182C312E0")]
+	[Address(RVA = "0x66287B0", Offset = "0x66277B0", VA = "0x66287B0")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public Matrix4x4 GetGPUProjectionMatrix(int viewIndex = 0)
 	{
@@ -428,7 +428,7 @@ public class UniversalCameraData : ContextItem
 	}
 
 	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x2C312E0", Offset = "0x2C2F8E0", VA = "0x182C312E0")]
+	[Address(RVA = "0x66287D0", Offset = "0x66277D0", VA = "0x66287D0")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public Matrix4x4 GetGPUProjectionMatrixNoJitter(int viewIndex = 0)
 	{
@@ -436,7 +436,7 @@ public class UniversalCameraData : ContextItem
 	}
 
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x66287F0", Offset = "0x66277F0", VA = "0x66287F0")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public bool IsCameraProjectionMatrixFlipped()
 	{
@@ -444,101 +444,101 @@ public class UniversalCameraData : ContextItem
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x2C326C0", Offset = "0x2C30CC0", VA = "0x182C326C0")]
+	[Address(RVA = "0x6628800", Offset = "0x6627800", VA = "0x6628800")]
 	internal void SetViewAndProjectionMatrix(Matrix4x4 viewMatrix, Matrix4x4 projectionMatrix)
 	{
 	}
 
 	[Token(Token = "0x600046E")]
-	[Address(RVA = "0x2C32770", Offset = "0x2C30D70", VA = "0x182C32770")]
+	[Address(RVA = "0x66288B0", Offset = "0x66278B0", VA = "0x66288B0")]
 	internal void SetViewProjectionAndJitterMatrix(Matrix4x4 viewMatrix, Matrix4x4 projectionMatrix, Matrix4x4 jitterMatrix)
 	{
 	}
 
 	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x2C31CD0", Offset = "0x2C302D0", VA = "0x182C31CD0")]
+	[Address(RVA = "0x661F010", Offset = "0x661E010", VA = "0x661F010")]
 	internal void PushBuiltinShaderConstantsXR(RasterCommandBuffer cmd, bool renderIntoTexture)
 	{
 	}
 
 	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x2C31650", Offset = "0x2C2FC50", VA = "0x182C31650")]
+	[Address(RVA = "0x661FE60", Offset = "0x661EE60", VA = "0x661FE60")]
 	public Matrix4x4 GetViewMatrix(int viewIndex = 0)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x2C31450", Offset = "0x2C2FA50", VA = "0x182C31450")]
+	[Address(RVA = "0x661FEF0", Offset = "0x661EEF0", VA = "0x661FEF0")]
 	public Matrix4x4 GetProjectionMatrix(int viewIndex = 0)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x2C313A0", Offset = "0x2C2F9A0", VA = "0x182C313A0")]
+	[Address(RVA = "0x6628940", Offset = "0x6627940", VA = "0x6628940")]
 	internal Matrix4x4 GetProjectionMatrixNoJitter(int viewIndex = 0)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x2C31300", Offset = "0x2C2F900", VA = "0x182C31300")]
+	[Address(RVA = "0x66201B0", Offset = "0x661F1B0", VA = "0x66201B0")]
 	internal Matrix4x4 GetGPUProjectionMatrix(bool renderIntoTexture, int viewIndex = 0)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x2C316F0", Offset = "0x2C2FCF0", VA = "0x182C316F0")]
+	[Address(RVA = "0x6629040", Offset = "0x6628040", VA = "0x6629040")]
 	public bool IsHandleYFlipped(RTHandle handle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x2C319F0", Offset = "0x2C2FFF0", VA = "0x182C319F0")]
+	[Address(RVA = "0x6629390", Offset = "0x6628390", VA = "0x6629390")]
 	public bool IsRenderTargetProjectionMatrixFlipped(RTHandle color, [Optional] RTHandle depth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x2C31CC0", Offset = "0x2C302C0", VA = "0x182C31CC0")]
+	[Address(RVA = "0x6629430", Offset = "0x6628430", VA = "0x6629430")]
 	internal bool IsTemporalAARequested()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x2C31BD0", Offset = "0x2C301D0", VA = "0x182C31BD0")]
+	[Address(RVA = "0x6629440", Offset = "0x6628440", VA = "0x6629440")]
 	internal bool IsTemporalAAEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x2C31BB0", Offset = "0x2C301B0", VA = "0x182C31BB0")]
+	[Address(RVA = "0x6629530", Offset = "0x6628530", VA = "0x6629530")]
 	internal bool IsSTPRequested()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x2C31AA0", Offset = "0x2C300A0", VA = "0x182C31AA0")]
+	[Address(RVA = "0x6629550", Offset = "0x6628550", VA = "0x6629550")]
 	internal bool IsSTPEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x2C32480", Offset = "0x2C30A80", VA = "0x182C32480", Slot = "4")]
+	[Address(RVA = "0x66295B0", Offset = "0x66285B0", VA = "0x66295B0", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6629820", Offset = "0x6628820", VA = "0x6629820")]
 	public UniversalCameraData()
 	{
 	}

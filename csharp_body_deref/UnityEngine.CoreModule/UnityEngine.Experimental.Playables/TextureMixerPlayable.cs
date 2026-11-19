@@ -14,26 +14,26 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Experimental.Playables;
 
 [Token(Token = "0x20003F1")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/TextureMixerPlayable.bindings.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.StaticAccessor("TextureMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/TextureMixerPlayable.bindings.h")]
+[UnityEngine.Bindings.StaticAccessor("TextureMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Director/TextureMixerPlayable.h")]
 public struct TextureMixerPlayable : IEquatable<TextureMixerPlayable>
 {
-	[Token(Token = "0x4000D2C")]
+	[Token(Token = "0x4000D2A")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x60017D7")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Token(Token = "0x60017EB")]
+	[Address(RVA = "0x696D2C0", Offset = "0x696C2C0", VA = "0x696D2C0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60017D8")]
-	[Address(RVA = "0x2F7A040", Offset = "0x2F78640", VA = "0x182F7A040", Slot = "4")]
+	[Token(Token = "0x60017EC")]
+	[Address(RVA = "0x696D2D0", Offset = "0x696C2D0", VA = "0x696D2D0", Slot = "4")]
 	public bool Equals(TextureMixerPlayable other)
 	{
 		return default(bool);

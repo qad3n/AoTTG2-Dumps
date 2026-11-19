@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class FloatParameter : VolumeParameter<float>
 {
 	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x2B587A0", Offset = "0x2B56DA0", VA = "0x182B587A0")]
+	[Address(RVA = "0x6555880", Offset = "0x6554880", VA = "0x6555880")]
 	public FloatParameter(float value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x2B58780", Offset = "0x2B56D80", VA = "0x182B58780", Slot = "16")]
+	[Address(RVA = "0x65558D0", Offset = "0x65548D0", VA = "0x65558D0", Slot = "16")]
 	public sealed override void Interp(float from, float to, float t)
 	{
 	}

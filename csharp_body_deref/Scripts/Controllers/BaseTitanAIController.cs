@@ -14,502 +14,517 @@ using UnityEngine;
 
 namespace Controllers;
 
-[Token(Token = "0x200061B")]
+[Token(Token = "0x200067A")]
 internal class BaseTitanAIController : BaseAIController
 {
-	[Token(Token = "0x4001B2B")]
+	[Token(Token = "0x4001CCC")]
 	[FieldOffset(Offset = "0x90")]
 	protected BaseTitan _titan;
 
-	[Token(Token = "0x4001B2C")]
+	[Token(Token = "0x4001CCD")]
 	[FieldOffset(Offset = "0x98")]
 	public TitanAIState AIState;
 
-	[Token(Token = "0x4001B2D")]
+	[Token(Token = "0x4001CCE")]
 	[FieldOffset(Offset = "0x9C")]
 	public bool SmartAttack;
 
-	[Token(Token = "0x4001B2E")]
+	[Token(Token = "0x4001CCF")]
 	[FieldOffset(Offset = "0xA0")]
+	private readonly List<string> _validAttacks;
+
+	[Token(Token = "0x4001CD0")]
+	[FieldOffset(Offset = "0xA8")]
+	private readonly Dictionary<string, int> _attackGroupCounts;
+
+	[Token(Token = "0x4001CD1")]
+	[FieldOffset(Offset = "0xB0")]
 	public float CloseAttackRange;
 
-	[Token(Token = "0x4001B2F")]
-	[FieldOffset(Offset = "0xA4")]
+	[Token(Token = "0x4001CD2")]
+	[FieldOffset(Offset = "0xB4")]
 	public float FarAttackMinRange;
 
-	[Token(Token = "0x4001B30")]
-	[FieldOffset(Offset = "0xA8")]
+	[Token(Token = "0x4001CD3")]
+	[FieldOffset(Offset = "0xB8")]
 	public float FarAttackMaxRange;
 
-	[Token(Token = "0x4001B31")]
-	[FieldOffset(Offset = "0xAC")]
+	[Token(Token = "0x4001CD4")]
+	[FieldOffset(Offset = "0xBC")]
 	public float FarAttackCooldown;
 
-	[Token(Token = "0x4001B32")]
-	[FieldOffset(Offset = "0xB0")]
+	[Token(Token = "0x4001CD5")]
+	[FieldOffset(Offset = "0xC0")]
 	public float AttackWait;
 
-	[Token(Token = "0x4001B33")]
-	[FieldOffset(Offset = "0xB4")]
+	[Token(Token = "0x4001CD6")]
+	[FieldOffset(Offset = "0xC4")]
 	public float ChaseAngleTimeMin;
 
-	[Token(Token = "0x4001B34")]
-	[FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x4001CD7")]
+	[FieldOffset(Offset = "0xC8")]
 	public float ChaseAngleTimeMax;
 
-	[Token(Token = "0x4001B35")]
-	[FieldOffset(Offset = "0xBC")]
+	[Token(Token = "0x4001CD8")]
+	[FieldOffset(Offset = "0xCC")]
 	public float ChaseAngleMinRange;
 
-	[Token(Token = "0x4001B36")]
-	[FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x4001CD9")]
+	[FieldOffset(Offset = "0xD0")]
 	public bool IsRun;
 
-	[Token(Token = "0x4001B37")]
-	[FieldOffset(Offset = "0xC1")]
+	[Token(Token = "0x4001CDA")]
+	[FieldOffset(Offset = "0xD1")]
 	public bool IsTurn;
 
-	[Token(Token = "0x4001B38")]
-	[FieldOffset(Offset = "0xC4")]
+	[Token(Token = "0x4001CDB")]
+	[FieldOffset(Offset = "0xD4")]
 	public float TurnAngle;
 
-	[Token(Token = "0x4001B39")]
-	[FieldOffset(Offset = "0xC8")]
+	[Token(Token = "0x4001CDC")]
+	[FieldOffset(Offset = "0xD8")]
 	protected float _moveAngle;
 
-	[Token(Token = "0x4001B3A")]
-	[FieldOffset(Offset = "0xCC")]
+	[Token(Token = "0x4001CDD")]
+	[FieldOffset(Offset = "0xDC")]
 	protected float _moveToTimeout;
 
-	[Token(Token = "0x4001B3B")]
-	[FieldOffset(Offset = "0xD0")]
+	[Token(Token = "0x4001CDE")]
+	[FieldOffset(Offset = "0xE0")]
 	protected bool _moveToExact;
 
-	[Token(Token = "0x4001B3C")]
-	[FieldOffset(Offset = "0xD8")]
+	[Token(Token = "0x4001CDF")]
+	[FieldOffset(Offset = "0xE8")]
 	protected Action _moveToCallback;
 
-	[Token(Token = "0x4001B3D")]
-	[FieldOffset(Offset = "0xE0")]
+	[Token(Token = "0x4001CE0")]
+	[FieldOffset(Offset = "0xF0")]
 	public Dictionary<string, float> AttackChances;
 
-	[Token(Token = "0x4001B3E")]
-	[FieldOffset(Offset = "0xE8")]
+	[Token(Token = "0x4001CE1")]
+	[FieldOffset(Offset = "0xF8")]
 	public Dictionary<string, string> AttackGroups;
 
-	[Token(Token = "0x4001B3F")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x4001CE2")]
+	[FieldOffset(Offset = "0x100")]
 	public Dictionary<string, TitanAttackInfo> AttackInfos;
 
-	[Token(Token = "0x4001B40")]
-	[FieldOffset(Offset = "0xF8")]
+	[Token(Token = "0x4001CE3")]
+	[FieldOffset(Offset = "0x108")]
 	protected float _stateTimeLeft;
 
-	[Token(Token = "0x4001B41")]
-	[FieldOffset(Offset = "0xFC")]
+	[Token(Token = "0x4001CE4")]
+	[FieldOffset(Offset = "0x10C")]
 	protected float _rangedCooldownLeft;
 
-	[Token(Token = "0x4001B42")]
-	[FieldOffset(Offset = "0x100")]
+	[Token(Token = "0x4001CE5")]
+	[FieldOffset(Offset = "0x110")]
 	protected float _attackRange;
 
-	[Token(Token = "0x4001B43")]
-	[FieldOffset(Offset = "0x108")]
+	[Token(Token = "0x4001CE6")]
+	[FieldOffset(Offset = "0x118")]
 	protected string _attack;
 
-	[Token(Token = "0x4001B44")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x4001CE7")]
+	[FieldOffset(Offset = "0x120")]
 	protected float _attackCooldownLeft;
 
-	[Token(Token = "0x4001B45")]
-	[FieldOffset(Offset = "0x114")]
+	[Token(Token = "0x4001CE8")]
+	[FieldOffset(Offset = "0x124")]
 	protected float _waitAttackTimeLeft;
 
-	[Token(Token = "0x4001B46")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x4001CE9")]
+	[FieldOffset(Offset = "0x128")]
 	protected float _enemyDistance;
 
-	[Token(Token = "0x4001B47")]
+	[Token(Token = "0x4001CEA")]
 	private const float MovementRecoveryDelay = 0.5f;
 
-	[Token(Token = "0x4001B48")]
-	[FieldOffset(Offset = "0x11C")]
+	[Token(Token = "0x4001CEB")]
+	[FieldOffset(Offset = "0x12C")]
 	private float _lowMovementSpeedTime;
 
-	[Token(Token = "0x4001B49")]
-	[FieldOffset(Offset = "0x120")]
+	[Token(Token = "0x4001CEC")]
+	[FieldOffset(Offset = "0x130")]
 	private float _recoveryTimeLeft;
 
-	[Token(Token = "0x4001B4A")]
-	[FieldOffset(Offset = "0x124")]
+	[Token(Token = "0x4001CED")]
+	[FieldOffset(Offset = "0x134")]
 	private float _recoveryTurnAngle;
 
-	[Token(Token = "0x4001B4B")]
-	[FieldOffset(Offset = "0x128")]
+	[Token(Token = "0x4001CEE")]
+	[FieldOffset(Offset = "0x138")]
 	private float _recoveryHeading;
 
-	[Token(Token = "0x4001B4C")]
+	[Token(Token = "0x4001CEF")]
 	private const float ObstacleCheckInterval = 0.2f;
 
-	[Token(Token = "0x4001B4D")]
+	[Token(Token = "0x4001CF0")]
 	private const float ObstacleLookAheadTime = 0.6f;
 
-	[Token(Token = "0x4001B4E")]
+	[Token(Token = "0x4001CF1")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly float[] AvoidProbeAngles;
 
-	[Token(Token = "0x4001B4F")]
+	[Token(Token = "0x4001CF2")]
 	private const float WalkableNormalY = 0.6f;
 
-	[Token(Token = "0x4001B50")]
-	[FieldOffset(Offset = "0x12C")]
+	[Token(Token = "0x4001CF3")]
+	[FieldOffset(Offset = "0x13C")]
 	private float _obstacleCheckTimeLeft;
 
-	[Token(Token = "0x4001B51")]
-	[FieldOffset(Offset = "0x130")]
+	[Token(Token = "0x4001CF4")]
+	[FieldOffset(Offset = "0x140")]
 	private float _avoidAngle;
 
-	[Token(Token = "0x4001B52")]
-	[FieldOffset(Offset = "0x134")]
+	[Token(Token = "0x4001CF5")]
+	[FieldOffset(Offset = "0x144")]
 	private float _avoidHeading;
 
-	[Token(Token = "0x4001B53")]
-	[FieldOffset(Offset = "0x138")]
+	[Token(Token = "0x4001CF6")]
+	[FieldOffset(Offset = "0x148")]
 	private float _avoidedTargetAngle;
 
-	[Token(Token = "0x4001B54")]
-	[FieldOffset(Offset = "0x140")]
+	[Token(Token = "0x4001CF7")]
+	[FieldOffset(Offset = "0x150")]
 	private CapsuleCollider _mainCollider;
 
-	[Token(Token = "0x4001B55")]
-	[FieldOffset(Offset = "0x148")]
+	[Token(Token = "0x4001CF8")]
+	[FieldOffset(Offset = "0x158")]
 	private LayerMask _losLayer;
 
-	[Token(Token = "0x17000A9E")]
+	[Token(Token = "0x17000AE6")]
 	protected virtual bool _scriptedAI
 	{
-		[Token(Token = "0x6003BC7")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003E55")]
+		[Address(RVA = "0x5A9EAA0", Offset = "0x5A9DAA0", VA = "0x5A9EAA0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000A9F")]
+	[Token(Token = "0x17000AE7")]
 	protected virtual bool _stationaryAI
 	{
-		[Token(Token = "0x6003BC8")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "10")]
+		[Token(Token = "0x6003E56")]
+		[Address(RVA = "0x5A9EAB0", Offset = "0x5A9DAB0", VA = "0x5A9EAB0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003BC9")]
-	[Address(RVA = "0x20F3F40", Offset = "0x20F2540", VA = "0x1820F3F40", Slot = "4")]
+	[Token(Token = "0x6003E57")]
+	[Address(RVA = "0x5A9EAC0", Offset = "0x5A9DAC0", VA = "0x5A9EAC0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003BCA")]
-	[Address(RVA = "0x20F59B0", Offset = "0x20F3FB0", VA = "0x1820F59B0", Slot = "7")]
+	[Token(Token = "0x6003E58")]
+	[Address(RVA = "0x5A9EC30", Offset = "0x5A9DC30", VA = "0x5A9EC30", Slot = "7")]
 	protected override float GetAgentSpeed()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BCB")]
-	[Address(RVA = "0x20F8990", Offset = "0x20F6F90", VA = "0x1820F8990", Slot = "5")]
+	[Token(Token = "0x6003E59")]
+	[Address(RVA = "0x5A9EC50", Offset = "0x5A9DC50", VA = "0x5A9EC50", Slot = "5")]
 	protected override void Start()
 	{
 	}
 
-	[Token(Token = "0x6003BCC")]
-	[Address(RVA = "0x20F40B0", Offset = "0x20F26B0", VA = "0x1820F40B0")]
+	[Token(Token = "0x6003E5A")]
+	[Address(RVA = "0x5A9CB20", Offset = "0x5A9BB20", VA = "0x5A9CB20")]
 	internal void BeginMove()
 	{
 	}
 
-	[Token(Token = "0x6003BCD")]
-	[Address(RVA = "0x20F45F0", Offset = "0x20F2BF0", VA = "0x1820F45F0")]
+	[Token(Token = "0x6003E5B")]
+	[Address(RVA = "0x5A9BFB0", Offset = "0x5A9AFB0", VA = "0x5A9BFB0")]
 	internal void EndForcedIdle()
 	{
 	}
 
-	[Token(Token = "0x6003BCE")]
-	[Address(RVA = "0x20F8910", Offset = "0x20F6F10", VA = "0x1820F8910")]
+	[Token(Token = "0x6003E5C")]
+	[Address(RVA = "0x5A9B5E0", Offset = "0x5A9A5E0", VA = "0x5A9B5E0")]
 	internal void ResetCommandState()
 	{
 	}
 
-	[Token(Token = "0x6003BCF")]
-	[Address(RVA = "0x20F8280", Offset = "0x20F6880", VA = "0x1820F8280")]
+	[Token(Token = "0x6003E5D")]
+	[Address(RVA = "0x5A9EDC0", Offset = "0x5A9DDC0", VA = "0x5A9EDC0")]
 	public void MoveToCallback(Action action, Vector3 position, float range, bool ignore)
 	{
 	}
 
-	[Token(Token = "0x6003BD0")]
-	[Address(RVA = "0x20F85A0", Offset = "0x20F6BA0", VA = "0x1820F85A0")]
+	[Token(Token = "0x6003E5E")]
+	[Address(RVA = "0x5A9EE40", Offset = "0x5A9DE40", VA = "0x5A9EE40")]
 	public void MoveToExact(Vector3 position, float range = 10f, float timeoutPadding = 1f)
 	{
 	}
 
-	[Token(Token = "0x6003BD1")]
-	[Address(RVA = "0x20F8540", Offset = "0x20F6B40", VA = "0x1820F8540")]
+	[Token(Token = "0x6003E5F")]
+	[Address(RVA = "0x5A9F020", Offset = "0x5A9E020", VA = "0x5A9F020")]
 	public void MoveToExactCallback(Action action, Vector3 position, float range = 10f, float timeoutPadding = 1f)
 	{
 	}
 
-	[Token(Token = "0x6003BD2")]
-	[Address(RVA = "0x20F4120", Offset = "0x20F2720", VA = "0x1820F4120")]
+	[Token(Token = "0x6003E60")]
+	[Address(RVA = "0x5A9F050", Offset = "0x5A9E050", VA = "0x5A9F050")]
 	public void CancelOrder()
 	{
 	}
 
-	[Token(Token = "0x6003BD3")]
-	[Address(RVA = "0x20F58E0", Offset = "0x20F3EE0", VA = "0x1820F58E0")]
+	[Token(Token = "0x6003E61")]
+	[Address(RVA = "0x5A9CFB0", Offset = "0x5A9BFB0", VA = "0x5A9CFB0")]
 	public void ForceIdle(float time)
 	{
 	}
 
-	[Token(Token = "0x6003BD4")]
-	[Address(RVA = "0x20F7820", Offset = "0x20F5E20", VA = "0x1820F7820", Slot = "11")]
+	[Token(Token = "0x6003E62")]
+	[Address(RVA = "0x5A9F1A0", Offset = "0x5A9E1A0", VA = "0x5A9F1A0", Slot = "11")]
 	public virtual void Init(JSONNode data)
 	{
 	}
 
-	[Token(Token = "0x6003BD5")]
-	[Address(RVA = "0x20F18A0", Offset = "0x20EFEA0", VA = "0x1820F18A0")]
+	[Token(Token = "0x6003E63")]
+	[Address(RVA = "0x5A9FB80", Offset = "0x5A9EB80", VA = "0x5A9FB80")]
 	public ITargetable GetEnemy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003BD6")]
-	[Address(RVA = "0x20F2050", Offset = "0x20F0650", VA = "0x1820F2050")]
+	[Token(Token = "0x6003E64")]
+	[Address(RVA = "0x5A9FBA0", Offset = "0x5A9EBA0", VA = "0x5A9FBA0")]
 	public void SetEnemy(ITargetable enemy, float focusTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x6003BD7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Token(Token = "0x6003E65")]
+	[Address(RVA = "0x5A9FBB0", Offset = "0x5A9EBB0", VA = "0x5A9FBB0", Slot = "12")]
 	protected virtual void UpdateScriptedAI()
 	{
 	}
 
-	[Token(Token = "0x6003BD8")]
-	[Address(RVA = "0x20F4910", Offset = "0x20F2F10", VA = "0x1820F4910", Slot = "6")]
+	[Token(Token = "0x6003E66")]
+	[Address(RVA = "0x5A9FBC0", Offset = "0x5A9EBC0", VA = "0x5A9FBC0", Slot = "6")]
 	protected override void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6003BD9")]
-	[Address(RVA = "0x20F8920", Offset = "0x20F6F20", VA = "0x1820F8920")]
+	[Token(Token = "0x6003E67")]
+	[Address(RVA = "0x5A9EDA0", Offset = "0x5A9DDA0", VA = "0x5A9EDA0")]
 	private void ResetMovementRecovery()
 	{
 	}
 
-	[Token(Token = "0x6003BDA")]
-	[Address(RVA = "0x20F8E60", Offset = "0x20F7460", VA = "0x1820F8E60")]
+	[Token(Token = "0x6003E68")]
+	[Address(RVA = "0x5AA0BC0", Offset = "0x5A9FBC0", VA = "0x5AA0BC0")]
 	private void UpdateMovementRecovery()
 	{
 	}
 
-	[Token(Token = "0x6003BDB")]
-	[Address(RVA = "0x20F3C60", Offset = "0x20F2260", VA = "0x1820F3C60")]
+	[Token(Token = "0x6003E69")]
+	[Address(RVA = "0x5AA26D0", Offset = "0x5AA16D0", VA = "0x5AA26D0")]
 	private void ApplyObstacleAvoidance(float speed)
 	{
 	}
 
-	[Token(Token = "0x6003BDC")]
-	[Address(RVA = "0x20F59E0", Offset = "0x20F3FE0", VA = "0x1820F59E0")]
+	[Token(Token = "0x6003E6A")]
+	[Address(RVA = "0x5AA2870", Offset = "0x5AA1870", VA = "0x5AA2870")]
+	private bool IsNearEnemy()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6003E6B")]
+	[Address(RVA = "0x5AA2C60", Offset = "0x5AA1C60", VA = "0x5AA2C60")]
 	private float GetAvoidAngle(float heading, float speed)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BDD")]
-	[Address(RVA = "0x20F41A0", Offset = "0x20F27A0", VA = "0x1820F41A0")]
+	[Token(Token = "0x6003E6C")]
+	[Address(RVA = "0x5AA2920", Offset = "0x5AA1920", VA = "0x5AA2920")]
 	private bool CastObstacle(Vector3 direction, float lookAhead, float radiusScale, out RaycastHit hit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BDE")]
-	[Address(RVA = "0x20F6360", Offset = "0x20F4960", VA = "0x1820F6360")]
+	[Token(Token = "0x6003E6D")]
+	[Address(RVA = "0x5AA2BD0", Offset = "0x5AA1BD0", VA = "0x5AA2BD0")]
 	private float GetObstacleSide(Vector3 direction, Vector3 point)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BDF")]
-	[Address(RVA = "0x20F62A0", Offset = "0x20F48A0", VA = "0x1820F62A0")]
+	[Token(Token = "0x6003E6E")]
+	[Address(RVA = "0x5AA2890", Offset = "0x5AA1890", VA = "0x5AA2890")]
 	private static Vector3 GetHeadingDirection(float heading)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6003BE0")]
-	[Address(RVA = "0x20F8900", Offset = "0x20F6F00", VA = "0x1820F8900", Slot = "8")]
+	[Token(Token = "0x6003E6F")]
+	[Address(RVA = "0x5AA32D0", Offset = "0x5AA22D0", VA = "0x5AA32D0", Slot = "8")]
 	protected override void RefreshAgent()
 	{
 	}
 
-	[Token(Token = "0x6003BE1")]
-	[Address(RVA = "0x20F6070", Offset = "0x20F4670", VA = "0x1820F6070")]
+	[Token(Token = "0x6003E70")]
+	[Address(RVA = "0x5AA2100", Offset = "0x5AA1100", VA = "0x5AA2100")]
 	protected float GetEnemyAngle(ITargetable enemy)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BE2")]
-	[Address(RVA = "0x20F5F40", Offset = "0x20F4540", VA = "0x1820F5F40")]
+	[Token(Token = "0x6003E71")]
+	[Address(RVA = "0x5AA0920", Offset = "0x5A9F920", VA = "0x5AA0920")]
 	protected float GetChaseAngle(Vector3 position, bool useMoveAngle)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BE3")]
-	[Address(RVA = "0x20F5E30", Offset = "0x20F4430", VA = "0x1820F5E30")]
+	[Token(Token = "0x6003E72")]
+	[Address(RVA = "0x5AA32E0", Offset = "0x5AA22E0", VA = "0x5AA32E0")]
 	protected float GetChaseAngleGivenDirection(Vector3 direction, bool useMoveAngle)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BE4")]
-	[Address(RVA = "0x20F5940", Offset = "0x20F3F40", VA = "0x1820F5940")]
+	[Token(Token = "0x6003E73")]
+	[Address(RVA = "0x5AA33E0", Offset = "0x5AA23E0", VA = "0x5AA33E0")]
 	protected float GetAgentNavAngle(Vector3 target, bool useMoveAngle)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BE5")]
-	[Address(RVA = "0x20F7060", Offset = "0x20F5660", VA = "0x1820F7060")]
+	[Token(Token = "0x6003E74")]
+	[Address(RVA = "0x5AA1B20", Offset = "0x5AA0B20", VA = "0x5AA1B20")]
 	protected bool HasClearLineOfSight(Vector3 target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BE6")]
-	[Address(RVA = "0x20F74C0", Offset = "0x20F5AC0", VA = "0x1820F74C0")]
+	[Token(Token = "0x6003E75")]
+	[Address(RVA = "0x5AA34F0", Offset = "0x5AA24F0", VA = "0x5AA34F0")]
 	protected bool HasLineOfSight(Vector3 start, Vector3 target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BE7")]
-	[Address(RVA = "0x20F7670", Offset = "0x20F5C70", VA = "0x1820F7670")]
+	[Token(Token = "0x6003E76")]
+	[Address(RVA = "0x5AA37B0", Offset = "0x5AA27B0", VA = "0x5AA37B0")]
 	public bool HasRockThrowLineOfSight(Vector3 start, BaseCharacter target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BE8")]
-	[Address(RVA = "0x20F4610", Offset = "0x20F2C10", VA = "0x1820F4610")]
+	[Token(Token = "0x6003E77")]
+	[Address(RVA = "0x5AA38B0", Offset = "0x5AA28B0", VA = "0x5AA38B0")]
 	public BaseCharacter FindRockThrowTarget(Vector3 start, bool requireLineOfSight)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003BE9")]
-	[Address(RVA = "0x20F8150", Offset = "0x20F6750", VA = "0x1820F8150")]
+	[Token(Token = "0x6003E78")]
+	[Address(RVA = "0x5AA11C0", Offset = "0x5AA01C0", VA = "0x5AA11C0")]
 	protected bool IsCrawler()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BEA")]
-	[Address(RVA = "0x20F8200", Offset = "0x20F6800", VA = "0x1820F8200")]
+	[Token(Token = "0x6003E79")]
+	[Address(RVA = "0x5AA1230", Offset = "0x5AA0230", VA = "0x5AA1230")]
 	protected bool IsShifter()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BEB")]
-	[Address(RVA = "0x20F4510", Offset = "0x20F2B10", VA = "0x1820F4510")]
+	[Token(Token = "0x6003E7A")]
+	[Address(RVA = "0x5AA0800", Offset = "0x5A9F800", VA = "0x5AA0800")]
 	private void CompleteMove()
 	{
 	}
 
-	[Token(Token = "0x6003BEC")]
-	[Address(RVA = "0x20F77B0", Offset = "0x20F5DB0", VA = "0x1820F77B0")]
+	[Token(Token = "0x6003E7B")]
+	[Address(RVA = "0x5A9ED30", Offset = "0x5A9DD30", VA = "0x5A9ED30")]
 	protected void Idle()
 	{
 	}
 
-	[Token(Token = "0x6003BED")]
-	[Address(RVA = "0x20F9620", Offset = "0x20F7C20", VA = "0x1820F9620")]
+	[Token(Token = "0x6003E7C")]
+	[Address(RVA = "0x5AA12E0", Offset = "0x5AA02E0", VA = "0x5AA12E0")]
 	protected void Wander()
 	{
 	}
 
-	[Token(Token = "0x6003BEE")]
-	[Address(RVA = "0x20F8930", Offset = "0x20F6F30", VA = "0x1820F8930")]
+	[Token(Token = "0x6003E7D")]
+	[Address(RVA = "0x5AA1290", Offset = "0x5AA0290", VA = "0x5AA1290")]
 	protected void Sit()
 	{
 	}
 
-	[Token(Token = "0x6003BEF")]
-	[Address(RVA = "0x20F8320", Offset = "0x20F6920", VA = "0x1820F8320")]
+	[Token(Token = "0x6003E7E")]
+	[Address(RVA = "0x5AA1600", Offset = "0x5AA0600", VA = "0x5AA1600")]
 	protected void MoveToEnemy(bool avoidCollisions = true)
 	{
 	}
 
-	[Token(Token = "0x6003BF0")]
-	[Address(RVA = "0x20F8A30", Offset = "0x20F7030", VA = "0x1820F8A30")]
+	[Token(Token = "0x6003E7F")]
+	[Address(RVA = "0x5AA1E80", Offset = "0x5AA0E80", VA = "0x5AA1E80")]
 	protected void TargetEnemy()
 	{
 	}
 
-	[Token(Token = "0x6003BF1")]
-	[Address(RVA = "0x20F8790", Offset = "0x20F6D90", VA = "0x1820F8790")]
+	[Token(Token = "0x6003E80")]
+	[Address(RVA = "0x5AA0610", Offset = "0x5A9F610", VA = "0x5AA0610")]
 	protected void MoveToPosition()
 	{
 	}
 
-	[Token(Token = "0x6003BF2")]
-	[Address(RVA = "0x20F3E00", Offset = "0x20F2400", VA = "0x1820F3E00")]
+	[Token(Token = "0x6003E81")]
+	[Address(RVA = "0x5AA1F60", Offset = "0x5AA0F60", VA = "0x5AA1F60")]
 	protected void Attack(List<string> validAttacks)
 	{
 	}
 
-	[Token(Token = "0x6003BF3")]
-	[Address(RVA = "0x20F95E0", Offset = "0x20F7BE0", VA = "0x1820F95E0")]
+	[Token(Token = "0x6003E82")]
+	[Address(RVA = "0x5AA41D0", Offset = "0x5AA31D0", VA = "0x5AA41D0")]
 	protected void WaitAttack(float waitTime)
 	{
 	}
 
-	[Token(Token = "0x6003BF4")]
-	[Address(RVA = "0x20F8B40", Offset = "0x20F7140", VA = "0x1820F8B40")]
+	[Token(Token = "0x6003E83")]
+	[Address(RVA = "0x5AA1970", Offset = "0x5AA0970", VA = "0x5AA1970")]
 	private bool TryCloseAction()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003BF5")]
-	[Address(RVA = "0x20F8CE0", Offset = "0x20F72E0", VA = "0x1820F8CE0")]
+	[Token(Token = "0x6003E84")]
+	[Address(RVA = "0x5AA25B0", Offset = "0x5AA15B0", VA = "0x5AA25B0")]
 	private void TurnToEnemy()
 	{
 	}
 
-	[Token(Token = "0x6003BF6")]
-	[Address(RVA = "0x20F63F0", Offset = "0x20F49F0", VA = "0x1820F63F0")]
+	[Token(Token = "0x6003E85")]
+	[Address(RVA = "0x5AA3C20", Offset = "0x5AA2C20", VA = "0x5AA3C20")]
 	private string GetRandomAttack(List<string> validAttacks)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003BF7")]
-	[Address(RVA = "0x20F6900", Offset = "0x20F4F00", VA = "0x1820F6900", Slot = "13")]
+	[Token(Token = "0x6003E86")]
+	[Address(RVA = "0x5AA4200", Offset = "0x5AA3200", VA = "0x5AA4200", Slot = "13")]
 	protected virtual List<string> GetValidAttacks(bool farOnly = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003BF8")]
-	[Address(RVA = "0x20F98A0", Offset = "0x20F7EA0", VA = "0x1820F98A0")]
+	[Token(Token = "0x6003E87")]
+	[Address(RVA = "0x5AA4A70", Offset = "0x5AA3A70", VA = "0x5AA4A70")]
 	public BaseTitanAIController()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.HDRDebugViewPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,7 +46,7 @@ internal class HDRDebugViewPass : ScriptableRenderPass
 		internal TextureHandle passThrough;
 
 		[Token(Token = "0x600071A")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66525C0", Offset = "0x66515C0", VA = "0x66525C0")]
 		public PassDataCIExy()
 		{
 		}
@@ -84,7 +84,7 @@ internal class HDRDebugViewPass : ScriptableRenderPass
 		internal TextureHandle dstColor;
 
 		[Token(Token = "0x600071B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66525D0", Offset = "0x66515D0", VA = "0x66525D0")]
 		public PassDataDebugView()
 		{
 		}
@@ -114,7 +114,7 @@ internal class HDRDebugViewPass : ScriptableRenderPass
 		public static readonly int _CIExyUAVIndex;
 
 		[Token(Token = "0x600071C")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66525E0", Offset = "0x66515E0", VA = "0x66525E0")]
 		public ShaderConstants()
 		{
 		}
@@ -129,50 +129,50 @@ internal class HDRDebugViewPass : ScriptableRenderPass
 	private Material m_material;
 
 	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x2C59BF0", Offset = "0x2C581F0", VA = "0x182C59BF0")]
+	[Address(RVA = "0x6650B90", Offset = "0x664FB90", VA = "0x6650B90")]
 	public HDRDebugViewPass(Material mat)
 	{
 	}
 
 	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x2C58210", Offset = "0x2C56810", VA = "0x182C58210")]
+	[Address(RVA = "0x6650C20", Offset = "0x664FC20", VA = "0x6650C20")]
 	public static void ConfigureDescriptorForCIEPrepass(ref RenderTextureDescriptor descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x2C58AF0", Offset = "0x2C570F0", VA = "0x182C58AF0")]
+	[Address(RVA = "0x6650CE0", Offset = "0x664FCE0", VA = "0x6650CE0")]
 	internal static Vector4 GetLuminanceParameters(UniversalCameraData cameraData)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x2C582F0", Offset = "0x2C568F0", VA = "0x182C582F0")]
+	[Address(RVA = "0x6650E40", Offset = "0x664FE40", VA = "0x6650E40")]
 	private static void ExecuteCIExyPrepass(CommandBuffer cmd, PassDataCIExy data, RTHandle sourceTexture, RTHandle xyTarget, RTHandle destTexture)
 	{
 	}
 
 	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x2C585D0", Offset = "0x2C56BD0", VA = "0x182C585D0")]
+	[Address(RVA = "0x66510D0", Offset = "0x66500D0", VA = "0x66510D0")]
 	private static void ExecuteHDRDebugViewFinalPass(RasterCommandBuffer cmd, in PassDataDebugView data, RTHandle source, Vector4 scaleBias, RTHandle destination, RTHandle xyTarget)
 	{
 	}
 
 	[Token(Token = "0x6000717")]
-	[Address(RVA = "0x2C582D0", Offset = "0x2C568D0", VA = "0x182C582D0")]
+	[Address(RVA = "0x66515C0", Offset = "0x66505C0", VA = "0x66515C0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000718")]
-	[Address(RVA = "0x2C59AB0", Offset = "0x2C580B0", VA = "0x182C59AB0")]
+	[Address(RVA = "0x66515E0", Offset = "0x66505E0", VA = "0x66515E0")]
 	public void Setup(UniversalCameraData cameraData, HDRDebugMode hdrdebugMode)
 	{
 	}
 
 	[Token(Token = "0x6000719")]
-	[Address(RVA = "0x2C58C60", Offset = "0x2C57260", VA = "0x182C58C60")]
+	[Address(RVA = "0x66516F0", Offset = "0x66506F0", VA = "0x66516F0")]
 	internal void RenderHDRDebug(RenderGraph renderGraph, UniversalCameraData cameraData, TextureHandle srcColor, TextureHandle overlayUITexture, TextureHandle dstColor, HDRDebugMode hdrDebugMode)
 	{
 	}

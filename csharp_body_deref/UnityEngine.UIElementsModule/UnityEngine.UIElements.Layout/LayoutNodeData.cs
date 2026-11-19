@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutNodeData
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -75,13 +75,13 @@ internal struct LayoutNodeData
 	public bool HasNewLayout
 	{
 		[Token(Token = "0x6002C93")]
-		[Address(RVA = "0x31BEAD0", Offset = "0x31BD0D0", VA = "0x1831BEAD0")]
+		[Address(RVA = "0x6BC1C30", Offset = "0x6BC0C30", VA = "0x6BC1C30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C94")]
-		[Address(RVA = "0x31BEB00", Offset = "0x31BD100", VA = "0x1831BEB00")]
+		[Address(RVA = "0x6BC1CB0", Offset = "0x6BC0CB0", VA = "0x6BC1CB0")]
 		set
 		{
 		}
@@ -91,13 +91,13 @@ internal struct LayoutNodeData
 	public bool IsDirty
 	{
 		[Token(Token = "0x6002C95")]
-		[Address(RVA = "0x31BEAE0", Offset = "0x31BD0E0", VA = "0x1831BEAE0")]
+		[Address(RVA = "0x6BC1B30", Offset = "0x6BC0B30", VA = "0x6BC1B30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C96")]
-		[Address(RVA = "0x31BEB20", Offset = "0x31BD120", VA = "0x1831BEB20")]
+		[Address(RVA = "0x6BC1BB0", Offset = "0x6BC0BB0", VA = "0x6BC1BB0")]
 		set
 		{
 		}
@@ -107,13 +107,13 @@ internal struct LayoutNodeData
 	public bool UsesMeasure
 	{
 		[Token(Token = "0x6002C97")]
-		[Address(RVA = "0x31BEAF0", Offset = "0x31BD0F0", VA = "0x1831BEAF0")]
+		[Address(RVA = "0x6BC1D30", Offset = "0x6BC0D30", VA = "0x6BC1D30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C98")]
-		[Address(RVA = "0x31BEB60", Offset = "0x31BD160", VA = "0x1831BEB60")]
+		[Address(RVA = "0x6BC1DC0", Offset = "0x6BC0DC0", VA = "0x6BC1DC0")]
 		set
 		{
 		}
@@ -123,7 +123,7 @@ internal struct LayoutNodeData
 	public bool UsesBaseline
 	{
 		[Token(Token = "0x6002C99")]
-		[Address(RVA = "0x31BEB40", Offset = "0x31BD140", VA = "0x1831BEB40")]
+		[Address(RVA = "0x6BC5170", Offset = "0x6BC4170", VA = "0x6BC5170")]
 		set
 		{
 		}

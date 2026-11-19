@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TextEventHandler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -69,7 +69,7 @@ internal class TextEventHandler
 	private UnityEngine.TextCore.Text.TextInfo textInfo
 	{
 		[Token(Token = "0x6002468")]
-		[Address(RVA = "0x313FD50", Offset = "0x313E350", VA = "0x18313FD50")]
+		[Address(RVA = "0x6B3ECD0", Offset = "0x6B3DCD0", VA = "0x6B3ECD0")]
 		get
 		{
 			return null;
@@ -77,105 +77,105 @@ internal class TextEventHandler
 	}
 
 	[Token(Token = "0x6002469")]
-	[Address(RVA = "0x313FD10", Offset = "0x313E310", VA = "0x18313FD10")]
+	[Address(RVA = "0x6B3ED00", Offset = "0x6B3DD00", VA = "0x6B3ED00")]
 	public TextEventHandler(TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x600246A")]
-	[Address(RVA = "0x313FB80", Offset = "0x313E180", VA = "0x18313FB80")]
+	[Address(RVA = "0x6B3ED40", Offset = "0x6B3DD40", VA = "0x6B3ED40")]
 	public void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600246B")]
-	[Address(RVA = "0x3125890", Offset = "0x3123E90", VA = "0x183125890")]
+	[Address(RVA = "0x6B3EED0", Offset = "0x6B3DED0", VA = "0x6B3EED0")]
 	private bool HasAllocatedLinkCallbacks()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600246C")]
-	[Address(RVA = "0x313E3D0", Offset = "0x313C9D0", VA = "0x18313E3D0")]
+	[Address(RVA = "0x6B3EEF0", Offset = "0x6B3DEF0", VA = "0x6B3EEF0")]
 	private void AllocateLinkCallbacks()
 	{
 	}
 
 	[Token(Token = "0x600246D")]
-	[Address(RVA = "0x3125880", Offset = "0x3123E80", VA = "0x183125880")]
+	[Address(RVA = "0x6B3EEE0", Offset = "0x6B3DEE0", VA = "0x6B3EEE0")]
 	private bool HasAllocatedATagCallbacks()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600246E")]
-	[Address(RVA = "0x313E260", Offset = "0x313C860", VA = "0x18313E260")]
+	[Address(RVA = "0x6B3F070", Offset = "0x6B3E070", VA = "0x6B3F070")]
 	private void AllocateATagCallbacks()
 	{
 	}
 
 	[Token(Token = "0x600246F")]
-	[Address(RVA = "0x313DFE0", Offset = "0x313C5E0", VA = "0x18313DFE0")]
+	[Address(RVA = "0x6B3F1F0", Offset = "0x6B3E1F0", VA = "0x6B3F1F0")]
 	private void ATagOnPointerUp(PointerUpEvent pue)
 	{
 	}
 
 	[Token(Token = "0x6002470")]
-	[Address(RVA = "0x3125B70", Offset = "0x3124170", VA = "0x183125B70")]
+	[Address(RVA = "0x6B3F3F0", Offset = "0x6B3E3F0", VA = "0x6B3F3F0")]
 	private void ATagOnPointerOver(PointerOverEvent _)
 	{
 	}
 
 	[Token(Token = "0x6002471")]
-	[Address(RVA = "0x313DD00", Offset = "0x313C300", VA = "0x18313DD00")]
+	[Address(RVA = "0x6B3F400", Offset = "0x6B3E400", VA = "0x6B3F400")]
 	private void ATagOnPointerMove(PointerMoveEvent pme)
 	{
 	}
 
 	[Token(Token = "0x6002472")]
-	[Address(RVA = "0x3125B70", Offset = "0x3124170", VA = "0x183125B70")]
+	[Address(RVA = "0x6B3F760", Offset = "0x6B3E760", VA = "0x6B3F760")]
 	private void ATagOnPointerOut(PointerOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002473")]
-	[Address(RVA = "0x313EE00", Offset = "0x313D400", VA = "0x18313EE00")]
+	[Address(RVA = "0x6B3F770", Offset = "0x6B3E770", VA = "0x6B3F770")]
 	private void LinkTagOnPointerDown(PointerDownEvent pde)
 	{
 	}
 
 	[Token(Token = "0x6002474")]
-	[Address(RVA = "0x313F830", Offset = "0x313DE30", VA = "0x18313F830")]
+	[Address(RVA = "0x6B3FAC0", Offset = "0x6B3EAC0", VA = "0x6B3FAC0")]
 	private void LinkTagOnPointerUp(PointerUpEvent pue)
 	{
 	}
 
 	[Token(Token = "0x6002475")]
-	[Address(RVA = "0x313F150", Offset = "0x313D750", VA = "0x18313F150")]
+	[Address(RVA = "0x6B3FE10", Offset = "0x6B3EE10", VA = "0x6B3FE10")]
 	private void LinkTagOnPointerMove(PointerMoveEvent pme)
 	{
 	}
 
 	[Token(Token = "0x6002476")]
-	[Address(RVA = "0x313F6E0", Offset = "0x313DCE0", VA = "0x18313F6E0")]
+	[Address(RVA = "0x6B40430", Offset = "0x6B3F430", VA = "0x6B40430")]
 	private void LinkTagOnPointerOut(PointerOutEvent poe)
 	{
 	}
 
 	[Token(Token = "0x6002477")]
-	[Address(RVA = "0x313E680", Offset = "0x313CC80", VA = "0x18313E680")]
+	[Address(RVA = "0x6B405F0", Offset = "0x6B3F5F0", VA = "0x6B405F0")]
 	internal void HandleLinkAndATagCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002478")]
-	[Address(RVA = "0x313ECC0", Offset = "0x313D2C0", VA = "0x18313ECC0")]
+	[Address(RVA = "0x6B40A90", Offset = "0x6B3FA90", VA = "0x6B40A90")]
 	internal void HandleLinkTag()
 	{
 	}
 
 	[Token(Token = "0x6002479")]
-	[Address(RVA = "0x313E540", Offset = "0x313CB40", VA = "0x18313E540")]
+	[Address(RVA = "0x6B40B90", Offset = "0x6B3FB90", VA = "0x6B40B90")]
 	internal void HandleATag()
 	{
 	}

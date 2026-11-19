@@ -15,7 +15,7 @@ namespace Unity.IL2CPP.CompilerServices;
 internal class Il2CppEagerStaticClassConstructionAttribute : Attribute
 {
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x68B4AB0", Offset = "0x68B3AB0", VA = "0x68B4AB0")]
 	public Il2CppEagerStaticClassConstructionAttribute()
 	{
 	}

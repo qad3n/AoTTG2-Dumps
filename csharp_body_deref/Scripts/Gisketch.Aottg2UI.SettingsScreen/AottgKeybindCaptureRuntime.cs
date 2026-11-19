@@ -12,53 +12,53 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000158")]
+[Token(Token = "0x2000160")]
 internal sealed class AottgKeybindCaptureRuntime : MonoBehaviour
 {
-	[Token(Token = "0x40007D6")]
+	[Token(Token = "0x4000822")]
 	public const string NodeType = "AottgKeybindCaptureRuntime";
 
-	[Token(Token = "0x40007D7")]
+	[Token(Token = "0x4000823")]
 	[FieldOffset(Offset = "0x20")]
 	private int _token;
 
-	[Token(Token = "0x40007D8")]
+	[Token(Token = "0x4000824")]
 	[FieldOffset(Offset = "0x24")]
 	private int _skipFrames;
 
-	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x2305D00", Offset = "0x2304300", VA = "0x182305D00")]
+	[Token(Token = "0x6000764")]
+	[Address(RVA = "0x5CBE970", Offset = "0x5CBD970", VA = "0x5CBE970")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x2305C00", Offset = "0x2304200", VA = "0x182305C00")]
+	[Token(Token = "0x6000765")]
+	[Address(RVA = "0x5CBF670", Offset = "0x5CBE670", VA = "0x5CBF670")]
 	private static bool Build(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+	[Token(Token = "0x6000766")]
+	[Address(RVA = "0x5CBF6F0", Offset = "0x5CBE6F0", VA = "0x5CBF6F0")]
 	private void Setup(int token)
 	{
 	}
 
-	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x2305DC0", Offset = "0x23043C0", VA = "0x182305DC0")]
+	[Token(Token = "0x6000767")]
+	[Address(RVA = "0x5CBF700", Offset = "0x5CBE700", VA = "0x5CBF700")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x2305C90", Offset = "0x2304290", VA = "0x182305C90")]
+	[Token(Token = "0x6000768")]
+	[Address(RVA = "0x5CBF720", Offset = "0x5CBE720", VA = "0x5CBF720")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x2305E80", Offset = "0x2304480", VA = "0x182305E80")]
+	[Token(Token = "0x6000769")]
+	[Address(RVA = "0x5CBF790", Offset = "0x5CBE790", VA = "0x5CBF790")]
 	public AottgKeybindCaptureRuntime()
 	{
 	}

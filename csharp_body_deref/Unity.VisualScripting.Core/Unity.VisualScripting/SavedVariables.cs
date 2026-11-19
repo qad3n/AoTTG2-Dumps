@@ -27,7 +27,7 @@ public static class SavedVariables
 	public static VariablesAsset asset
 	{
 		[Token(Token = "0x600110A")]
-		[Address(RVA = "0x2E56B90", Offset = "0x2E55190", VA = "0x182E56B90")]
+		[Address(RVA = "0x684E930", Offset = "0x684D930", VA = "0x684E930")]
 		get
 		{
 			return null;
@@ -38,7 +38,7 @@ public static class SavedVariables
 	public static VariableDeclarations initial
 	{
 		[Token(Token = "0x6001110")]
-		[Address(RVA = "0x2E56D20", Offset = "0x2E55320", VA = "0x182E56D20")]
+		[Address(RVA = "0x684FA30", Offset = "0x684EA30", VA = "0x684FA30")]
 		get
 		{
 			return null;
@@ -49,14 +49,14 @@ public static class SavedVariables
 	public static VariableDeclarations saved
 	{
 		[Token(Token = "0x6001111")]
-		[Address(RVA = "0x2E56E80", Offset = "0x2E55480", VA = "0x182E56E80")]
+		[Address(RVA = "0x684FAC0", Offset = "0x684EAC0", VA = "0x684FAC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001112")]
-		[Address(RVA = "0x2E56F20", Offset = "0x2E55520", VA = "0x182E56F20")]
+		[Address(RVA = "0x684FB00", Offset = "0x684EB00", VA = "0x684FB00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -67,14 +67,14 @@ public static class SavedVariables
 	public static VariableDeclarations merged
 	{
 		[Token(Token = "0x6001113")]
-		[Address(RVA = "0x2E56E40", Offset = "0x2E55440", VA = "0x182E56E40")]
+		[Address(RVA = "0x684FB50", Offset = "0x684EB50", VA = "0x684FB50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001114")]
-		[Address(RVA = "0x2E56EC0", Offset = "0x2E554C0", VA = "0x182E56EC0")]
+		[Address(RVA = "0x684FB90", Offset = "0x684EB90", VA = "0x684FB90")]
 		[CompilerGenerated]
 		private set
 		{
@@ -85,7 +85,7 @@ public static class SavedVariables
 	public static VariableDeclarations current
 	{
 		[Token(Token = "0x6001115")]
-		[Address(RVA = "0x2E56CA0", Offset = "0x2E552A0", VA = "0x182E56CA0")]
+		[Address(RVA = "0x684FBE0", Offset = "0x684EBE0", VA = "0x684FBE0")]
 		get
 		{
 			return null;
@@ -93,61 +93,61 @@ public static class SavedVariables
 	}
 
 	[Token(Token = "0x600110B")]
-	[Address(RVA = "0x2E55CE0", Offset = "0x2E542E0", VA = "0x182E55CE0")]
+	[Address(RVA = "0x684E9C0", Offset = "0x684D9C0", VA = "0x684E9C0")]
 	public static void Load()
 	{
 	}
 
 	[Token(Token = "0x600110C")]
-	[Address(RVA = "0x2E564D0", Offset = "0x2E54AD0", VA = "0x182E564D0")]
+	[Address(RVA = "0x684EA60", Offset = "0x684DA60", VA = "0x684EA60")]
 	public static void OnEnterEditMode()
 	{
 	}
 
 	[Token(Token = "0x600110D")]
-	[Address(RVA = "0x2E566F0", Offset = "0x2E54CF0", VA = "0x182E566F0")]
+	[Address(RVA = "0x684EE60", Offset = "0x684DE60", VA = "0x684EE60")]
 	public static void OnExitEditMode()
 	{
 	}
 
 	[Token(Token = "0x600110E")]
-	[Address(RVA = "0x2E56530", Offset = "0x2E54B30", VA = "0x182E56530")]
+	[Address(RVA = "0x684B9B0", Offset = "0x684A9B0", VA = "0x684B9B0")]
 	internal static void OnEnterPlayMode()
 	{
 	}
 
 	[Token(Token = "0x600110F")]
-	[Address(RVA = "0x2E56730", Offset = "0x2E54D30", VA = "0x182E56730")]
+	[Address(RVA = "0x684F9F0", Offset = "0x684E9F0", VA = "0x684F9F0")]
 	internal static void OnExitPlayMode()
 	{
 	}
 
 	[Token(Token = "0x6001116")]
-	[Address(RVA = "0x2E56770", Offset = "0x2E54D70", VA = "0x182E56770")]
+	[Address(RVA = "0x684EEA0", Offset = "0x684DEA0", VA = "0x684EEA0")]
 	public static void SaveDeclarations(VariableDeclarations declarations)
 	{
 	}
 
 	[Token(Token = "0x6001117")]
-	[Address(RVA = "0x2E55A60", Offset = "0x2E54060", VA = "0x182E55A60")]
+	[Address(RVA = "0x684EAB0", Offset = "0x684DAB0", VA = "0x684EAB0")]
 	public static void FetchSavedDeclarations()
 	{
 	}
 
 	[Token(Token = "0x6001118")]
-	[Address(RVA = "0x2E55D80", Offset = "0x2E54380", VA = "0x182E55D80")]
+	[Address(RVA = "0x684F030", Offset = "0x684E030", VA = "0x684F030")]
 	private static void MergeInitialAndSavedDeclarations()
 	{
 	}
 
 	[Token(Token = "0x6001119")]
-	[Address(RVA = "0x2E55A00", Offset = "0x2E54000", VA = "0x182E55A00")]
+	[Address(RVA = "0x684EE10", Offset = "0x684DE10", VA = "0x684EE10")]
 	private static void DestroyMergedDeclarations()
 	{
 	}
 
 	[Token(Token = "0x600111A")]
-	[Address(RVA = "0x2E568B0", Offset = "0x2E54EB0", VA = "0x182E568B0")]
+	[Address(RVA = "0x684FC80", Offset = "0x684EC80", VA = "0x684FC80")]
 	private static void WarnAndNullifyUnityObjectReferences(VariableDeclarations declarations)
 	{
 	}

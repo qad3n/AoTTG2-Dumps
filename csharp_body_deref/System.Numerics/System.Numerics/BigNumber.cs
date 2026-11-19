@@ -34,7 +34,7 @@ internal static class BigNumber
 		public bool sign;
 
 		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x25C3810", Offset = "0x25C1E10", VA = "0x1825C3810")]
+		[Address(RVA = "0x5F81D90", Offset = "0x5F80D90", VA = "0x5F81D90")]
 		public static BigNumberBuffer Create()
 		{
 			return default(BigNumberBuffer);
@@ -42,70 +42,70 @@ internal static class BigNumber
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x25C5B70", Offset = "0x25C4170", VA = "0x1825C5B70")]
+	[Address(RVA = "0x5F81A00", Offset = "0x5F80A00", VA = "0x5F81A00")]
 	internal static bool TryValidateParseStyleInteger(NumberStyles style, out ArgumentException e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x25C5820", Offset = "0x25C3E20", VA = "0x1825C5820")]
+	[Address(RVA = "0x5F81B50", Offset = "0x5F80B50", VA = "0x5F81B50")]
 	internal static bool TryParseBigInteger(ReadOnlySpan<char> value, NumberStyles style, NumberFormatInfo info, out BigInteger result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x25C5380", Offset = "0x25C3980", VA = "0x1825C5380")]
+	[Address(RVA = "0x5F77B60", Offset = "0x5F76B60", VA = "0x5F77B60")]
 	internal static BigInteger ParseBigInteger(string value, NumberStyles style, NumberFormatInfo info)
 	{
 		return default(BigInteger);
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x25C5580", Offset = "0x25C3B80", VA = "0x1825C5580")]
+	[Address(RVA = "0x5F82440", Offset = "0x5F81440", VA = "0x5F82440")]
 	internal static BigInteger ParseBigInteger(ReadOnlySpan<char> value, NumberStyles style, NumberFormatInfo info)
 	{
 		return default(BigInteger);
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x25C4E40", Offset = "0x25C3440", VA = "0x1825C4E40")]
+	[Address(RVA = "0x5F81EE0", Offset = "0x5F80EE0", VA = "0x5F81EE0")]
 	private static bool HexNumberToBigInteger(ref BigNumberBuffer number, ref BigInteger value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x25C50C0", Offset = "0x25C36C0", VA = "0x1825C50C0")]
+	[Address(RVA = "0x5F820B0", Offset = "0x5F810B0", VA = "0x5F820B0")]
 	private static bool NumberToBigInteger(ref BigNumberBuffer number, ref BigInteger value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x25C56D0", Offset = "0x25C3CD0", VA = "0x1825C56D0")]
+	[Address(RVA = "0x5F82590", Offset = "0x5F81590", VA = "0x5F82590")]
 	internal static char ParseFormatSpecifier(ReadOnlySpan<char> format, out int digits)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x25C3880", Offset = "0x25C1E80", VA = "0x1825C3880")]
+	[Address(RVA = "0x5F82650", Offset = "0x5F81650", VA = "0x5F82650")]
 	private static string FormatBigIntegerToHex(bool targetSpan, BigInteger value, char format, int digits, NumberFormatInfo info, Span<char> destination, out int charsWritten, out bool spanSuccess)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x25C40F0", Offset = "0x25C26F0", VA = "0x1825C40F0")]
+	[Address(RVA = "0x5F79AF0", Offset = "0x5F78AF0", VA = "0x5F79AF0")]
 	internal static string FormatBigInteger(BigInteger value, string format, NumberFormatInfo info)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x25C41E0", Offset = "0x25C27E0", VA = "0x1825C41E0")]
+	[Address(RVA = "0x5F831C0", Offset = "0x5F821C0", VA = "0x5F831C0")]
 	private static string FormatBigInteger(bool targetSpan, BigInteger value, string formatString, ReadOnlySpan<char> formatSpan, NumberFormatInfo info, Span<char> destination, out int charsWritten, out bool spanSuccess)
 	{
 		return null;

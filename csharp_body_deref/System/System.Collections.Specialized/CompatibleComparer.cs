@@ -10,84 +10,84 @@ using Il2CppDummyDll;
 namespace System.Collections.Specialized;
 
 [Serializable]
-[Token(Token = "0x2000252")]
+[Token(Token = "0x2000213")]
 internal class CompatibleComparer : IEqualityComparer
 {
-	[Token(Token = "0x400084C")]
+	[Token(Token = "0x400077D")]
 	[FieldOffset(Offset = "0x10")]
 	private IComparer _comparer;
 
-	[Token(Token = "0x400084D")]
+	[Token(Token = "0x400077E")]
 	[FieldOffset(Offset = "0x0")]
 	private static IComparer defaultComparer;
 
-	[Token(Token = "0x400084E")]
+	[Token(Token = "0x400077F")]
 	[FieldOffset(Offset = "0x18")]
 	private IHashCodeProvider _hcp;
 
-	[Token(Token = "0x400084F")]
+	[Token(Token = "0x4000780")]
 	[FieldOffset(Offset = "0x8")]
 	private static IHashCodeProvider defaultHashProvider;
 
-	[Token(Token = "0x17000338")]
+	[Token(Token = "0x17000309")]
 	public IComparer Comparer
 	{
-		[Token(Token = "0x600102C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000E6C")]
+		[Address(RVA = "0x6285D60", Offset = "0x6284D60", VA = "0x6285D60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000339")]
+	[Token(Token = "0x1700030A")]
 	public IHashCodeProvider HashCodeProvider
 	{
-		[Token(Token = "0x600102D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000E6D")]
+		[Address(RVA = "0x6285D70", Offset = "0x6284D70", VA = "0x6285D70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700033A")]
+	[Token(Token = "0x1700030B")]
 	public static IComparer DefaultComparer
 	{
-		[Token(Token = "0x600102E")]
-		[Address(RVA = "0x28CCA00", Offset = "0x28CB000", VA = "0x1828CCA00")]
+		[Token(Token = "0x6000E6E")]
+		[Address(RVA = "0x6285D80", Offset = "0x6284D80", VA = "0x6285D80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700033B")]
+	[Token(Token = "0x1700030C")]
 	public static IHashCodeProvider DefaultHashCodeProvider
 	{
-		[Token(Token = "0x600102F")]
-		[Address(RVA = "0x28CCAF0", Offset = "0x28CB0F0", VA = "0x1828CCAF0")]
+		[Token(Token = "0x6000E6F")]
+		[Address(RVA = "0x6285E60", Offset = "0x6284E60", VA = "0x6285E60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001029")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x6000E69")]
+	[Address(RVA = "0x6285A10", Offset = "0x6284A10", VA = "0x6285A10")]
 	internal CompatibleComparer(IComparer comparer, IHashCodeProvider hashCodeProvider)
 	{
 	}
 
-	[Token(Token = "0x600102A")]
-	[Address(RVA = "0x28CC7C0", Offset = "0x28CADC0", VA = "0x1828CC7C0", Slot = "4")]
+	[Token(Token = "0x6000E6A")]
+	[Address(RVA = "0x6285A50", Offset = "0x6284A50", VA = "0x6285A50", Slot = "4")]
 	public new bool Equals(object a, object b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600102B")]
-	[Address(RVA = "0x28CC930", Offset = "0x28CAF30", VA = "0x1828CC930", Slot = "5")]
+	[Token(Token = "0x6000E6B")]
+	[Address(RVA = "0x6285C50", Offset = "0x6284C50", VA = "0x6285C50", Slot = "5")]
 	public int GetHashCode(object obj)
 	{
 		return default(int);

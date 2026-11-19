@@ -1,5 +1,5 @@
 // Type: PatreonEffects.EffectText
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/PatreonEffects/EffectText.cs
@@ -8,113 +8,149 @@
 
 // PatreonEffects.EffectText.<>c$$.cctor
 // il2cpp: void PatreonEffects_EffectText___c___cctor (const MethodInfo* method);
-// 0x1820d5490
+// 0x59c03a0
 
 void PatreonEffects_EffectText___c___cctor(MethodInfo *method)
 
 {
-  PatreonEffects_EffectText___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_184346943 == '\0') {
+  if (Il2CppMethodInitialized_07545bd7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText_c);
-    Il2CppMethodInitialized_184346943 = '\x01';
+    Il2CppMethodInitialized_07545bd7 = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_PatreonEffects_EffectText_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_PatreonEffects_EffectText_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText_c->static_fields->__9,__this);
+  __this = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_PatreonEffects_EffectText_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_PatreonEffects_EffectText_c->static_fields->__9 = (PatreonEffects_EffectText___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText_c->static_fields->__9);
   return;
 }
 
 
 // PatreonEffects.EffectText.<>c$$.ctor
 // il2cpp: void PatreonEffects_EffectText___c___ctor (PatreonEffects_EffectText___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x59c0410
 
-void
-PatreonEffects_EffectText___c___ctor(PatreonEffects_EffectText___c_o* __this, MethodInfo* method)
+void PatreonEffects_EffectText___c___ctor(PatreonEffects_EffectText___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// PatreonEffects.EffectText.<>c$$<WithPresetColors>b__26_0
-// il2cpp: System_String_o* PatreonEffects_EffectText___c___WithPresetColors_b__26_0 (PatreonEffects_EffectText___c_o* __this, System_Text_RegularExpressions_Match_o* match, const MethodInfo* method);
-// 0x1820d47a0
-// eh: try 0x1820d49d0..0x1820d4a5e -> pad 0x18333e0b0 catch Il2CppExceptionWrapper
-// eh: try 0x1820d4a5e..0x1820d4abb -> pad 0x180026a30 cleanup
-// eh: try 0x1820d4abb..0x1820d511f -> pad 0x18333e0b0 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 25 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820d4a7e: mov rdx, qword ptr [rip + 0x1fed423]  ; TypeInfo_System_Text_RegularExpressions_Match
-// asm:   0x1820d4a85: mov r8, qword ptr [rax]
-// asm:   0x1820d4a88: movzx eax, byte ptr [rdx + 0x130]
-// asm:   0x1820d4a8f: cmp byte ptr [r8 + 0x130], al
-// asm:   0x1820d4a96: jb 0x1820d510c
-// asm:   0x1820d4bc4: lea rcx, [rsp + 0x60]
-// asm:   0x1820d4bc9: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
-// asm:   0x1820d4bce: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x1820d4bd3: test rcx, rcx
-// asm:   0x1820d4bd6: jne 0x1820d511f
-// asm:   0x1820d4bdc: mov r15, qword ptr [rsp + 0xb8]
-// asm:   0x1820d4be4: mov r14, qword ptr [rsp + 0x30]
-// asm:   0x1820d4be9: mov rsi, qword ptr [rsp + 0x40]
-// asm:   0x1820d511f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333e0b0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333e0b5: push rbp
-// asm:   0x18333e0b6: sub rsp, 0x20
-// asm:   0x18333e0ba: mov rbp, rdx
-// asm:   0x18333e0bd: mov rax, qword ptr [rbp + 0x50]
-// asm:   0x18333e0c1: mov rcx, qword ptr [rax]
-// asm:   0x18333e0c4: mov qword ptr [rbp + 0x58], rcx
-// asm:   0x18333e0c8: movabs rax, 0
-// asm:   0x18333e0d2: add rsp, 0x20
-// asm:   0x18333e0d6: pop rbp
-// asm:   0x18333e0d7: ret 
+// PatreonEffects.EffectText.<>c$$<WithPresetColors>b__27_0
+// il2cpp: System_String_o* PatreonEffects_EffectText___c___WithPresetColors_b__27_0 (PatreonEffects_EffectText___c_o* __this, System_Text_RegularExpressions_Match_o* match, const MethodInfo* method);
+// 0x59c0420
+// eh: try 0x59c069f..0x59c0bf9 -> pad 0x59c0c2e (+21 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x59c0c4f..0x59c0c54 -> pad 0x59c0c59 cleanup
+// eh: try 0x59c0c5c..0x59c0c66 -> pad 0x59c0c6e catch (...) [compiler noexcept guard]
+// asm: 48 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59c0642: lea r12, [rip + 0x18b8daf]  ; TypeInfo_System_Collections_IEnumerator
+// asm:   0x59c0649: lea r14, [rip + 0x18d10c8]  ; MethodInfo_System_Collections_Generic_HashSet_string_Add
+// asm:   0x59c0650: lea r13, [rip + 0x1934779]  ; "effect"
+// asm:   0x59c0657: jmp 0x59c066d
+// asm:   0x59c0660: mov rbp, qword ptr [rsp]
+// asm:   0x59c0664: test rbp, rbp
+// asm:   0x59c0667: je 0x59c0bcc
+// asm:   0x59c068e: nop 
+// asm:   0x59c0bfe: mov rdi, r15
+// asm:   0x59c0c01: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59c0c06: jmp 0x59c0c30
+// asm:   0x59c0c08: jmp 0x59c0c30
+// asm:   0x59c0c0a: jmp 0x59c0c30
+// asm:   0x59c0c0c: jmp 0x59c0c30
+// asm:   0x59c0c0e: jmp 0x59c0c30
+// asm:   0x59c0c10: jmp 0x59c0c30
+// asm:   0x59c0c12: jmp 0x59c0c30
+// asm:   0x59c0c14: jmp 0x59c0c30
+// asm:   0x59c0c16: jmp 0x59c0c30
+// asm:   0x59c0c18: jmp 0x59c0c30
+// asm:   0x59c0c1a: jmp 0x59c0c30
+// asm:   0x59c0c1c: jmp 0x59c0c30
+// asm:   0x59c0c1e: jmp 0x59c0c30
+// asm:   0x59c0c20: jmp 0x59c0c30
+// asm:   0x59c0c22: jmp 0x59c0c30
+// asm:   0x59c0c24: jmp 0x59c0c30
+// asm:   0x59c0c26: jmp 0x59c0c30
+// asm:   0x59c0c28: jmp 0x59c0c30
+// asm:   0x59c0c2a: jmp 0x59c0c30
+// asm:   0x59c0c2c: jmp 0x59c0c30
+// asm:   0x59c0c2e: jmp 0x59c0c30
+// asm:   0x59c0c30: mov r12, rax
+// asm:   0x59c0c33: lea r13, [rip + 0x18b7156]  ; TypeInfo_PatreonEffects_EffectText
+// asm:   0x59c0c3a: cmp edx, 1
+// asm:   0x59c0c3d: jne 0x59c0c5c
+// asm:   0x59c0c3f: mov rdi, r12
+// asm:   0x59c0c42: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59c0c47: mov r15, qword ptr [rax]
+// asm:   0x59c0c4a: mov qword ptr [rsp + 0x40], r15
+// asm:   0x59c0c4f: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59c0c54: jmp 0x59c0882
+// asm:   0x59c0c59: mov r12, rax
+// asm:   0x59c0c5c: lea rdi, [rsp + 0x40]
+// asm:   0x59c0c61: call 0x2fd5300  ; il2cpp_runtime_helper_02fd5300()
+// asm:   0x59c0c66: mov rdi, r12
+// asm:   0x59c0c69: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59c0c6e: mov rdi, rax
+// asm:   0x59c0c71: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_String_o *
-PatreonEffects_EffectText___c___WithPresetColors_b__26_0
+PatreonEffects_EffectText___c___WithPresetColors_b__27_0
           (PatreonEffects_EffectText___c_o *__this,System_Text_RegularExpressions_Match_o *match,
           MethodInfo *method)
 
 {
-  byte bVar1;
-  ushort uVar2;
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  byte bVar5;
   System_Text_RegularExpressions_Regex_o *__this_00;
-  Il2CppClass *pIVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  undefined8 uVar5;
-  undefined8 uVar6;
-  undefined8 uVar7;
-  undefined8 uVar8;
+  Il2CppClass *pIVar6;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar7;
+  char cVar8;
   bool bVar9;
   System_Text_RegularExpressions_GroupCollection_o *pSVar10;
   System_Text_RegularExpressions_Group_o *pSVar11;
   System_String_o *pSVar12;
   System_Collections_Generic_HashSet_string__o *__this_01;
   System_Text_RegularExpressions_MatchCollection_o *__this_02;
-  void *pvVar13;
+  Il2CppObject *pIVar13;
   VirtualInvokeData *pVVar14;
   Il2CppObject *pIVar15;
-  System_String_o *pSVar16;
-  PatreonEffects_NameEffectSettings_o *pPVar17;
-  System_Text_StringBuilder_o *pSVar18;
-  System_Text_StringBuilder_o *pSVar19;
-  ushort uVar20;
-  int32_t local_res20 [2];
-  Il2CppObject *local_88;
-  Il2CppObject *local_80;
-  System_Collections_Generic_HashSet_string__o *local_78;
-  System_String_o *local_68 [3];
-  undefined8 local_50;
-  Il2CppObject **local_48;
-  Il2CppObject **local_40;
-  ulonglong uVar21;
+  PatreonEffects_NameEffectSettings_o *pPVar16;
+  System_Text_StringBuilder_o *pSVar17;
+  ulong uVar18;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *extraout_RDX_04;
+  MethodInfo *extraout_RDX_05;
+  MethodInfo *extraout_RDX_06;
+  MethodInfo *pMVar19;
+  System_IDisposable_c *method_01;
+  long lVar20;
+  UnityEngine_Color_o color;
+  UnityEngine_Color_o color_00;
+  UnityEngine_Color_o color_01;
+  UnityEngine_Color_o color_02;
+  Il2CppObject *pIStack_88;
+  int32_t iStack_7c;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  System_Text_RegularExpressions_Match_o *pSStack_58;
+  Il2CppObject *pIStack_50;
+  undefined8 uStack_48;
+  undefined1 *puStack_40;
+  Il2CppObject **ppIStack_38;
   
-  if (Il2CppMethodInitialized_184346944 == '\0') {
+  if (Il2CppMethodInitialized_07545bd8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Contains)
@@ -136,314 +172,324 @@ PatreonEffects_EffectText___c___WithPresetColors_b__26_0
     il2cpp_codegen_initialize_runtime_metadata(&"d");
     il2cpp_codegen_initialize_runtime_metadata(&"content");
     il2cpp_codegen_initialize_runtime_metadata(&"key");
-    Il2CppMethodInitialized_184346944 = '\x01';
+    Il2CppMethodInitialized_07545bd8 = '\x01';
   }
-  local_88 = (Il2CppObject *)0x0;
-  local_80 = (Il2CppObject *)0x0;
+  pIStack_88 = (Il2CppObject *)0x0;
+  pIStack_50 = (Il2CppObject *)0x0;
   if (((match != (System_Text_RegularExpressions_Match_o *)0x0) &&
       (pSVar10 = (*(match->klass->vtable)._5_get_Groups.methodPtr)
                            (match,(match->klass->vtable)._5_get_Groups.method),
       pSVar10 != (System_Text_RegularExpressions_GroupCollection_o *)0x0)) &&
-     (pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
+     (pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
                           (pSVar10,"attrs",(MethodInfo *)0x0),
      pSVar11 != (System_Text_RegularExpressions_Group_o *)0x0)) {
-    pSVar12 = System_Text_RegularExpressions_Capture__ToString
+    pSVar12 = System_Text_RegularExpressions_Capture__get_Value
                         ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-    local_68[0] = pSVar12;
     __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
     System_Collections_Generic_HashSet_object____ctor
               ((System_Collections_Generic_HashSet_object__o *)__this_01,
-               (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-    local_res20[0] = 0;
+               (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    iStack_7c = 0;
     if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
     }
     __this_00 = TypeInfo_PatreonEffects_EffectText->static_fields->_attrRegex;
     if ((__this_00 != (System_Text_RegularExpressions_Regex_o *)0x0) &&
-       (__this_02 = System_Text_RegularExpressions_Regex__Matches_285d470(__this_00,pSVar12,(MethodInfo *)0x0)
-       , __this_02 != (System_Text_RegularExpressions_MatchCollection_o *)0x0)) {
-      local_78 = __this_01;
-      local_88 = (Il2CppObject *)
-                 System_Text_RegularExpressions_MatchCollection__GetEnumerator(__this_02,(MethodInfo *)0x0);
-      local_50 = 0;
-      local_48 = &local_88;
-      local_40 = &local_80;
-      while( true ) {
-        if (local_88 == (Il2CppObject *)0x0) {
+       (uStack_78 = pSVar12, pSStack_58 = match,
+       __this_02 = System_Text_RegularExpressions_Regex__Matches(__this_00,pSVar12,(MethodInfo *)0x0),
+       __this_02 != (System_Text_RegularExpressions_MatchCollection_o *)0x0)) {
+      pIVar13 = (Il2CppObject *)
+                System_Text_RegularExpressions_MatchCollection__GetEnumerator(__this_02,(MethodInfo *)0x0);
+      puStack_40 = (undefined1 *)&pIStack_88;
+      uStack_48 = 0;
+      ppIStack_38 = &pIStack_50;
+      do {
+        pIStack_88 = pIVar13;
+        if (pIVar13 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
-        pvVar13 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_88);
-        pIVar15 = local_88;
-        if ((char)pvVar13 == '\0') break;
-        if (local_88 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pIVar3 = local_88->klass;
-        uVar2 = (pIVar3->_2).interface_offsets_count;
-        if (uVar2 != 0) {
-          pIVar4 = (pIVar3->_1).interfaceOffsets;
-          uVar21 = 0;
+        pIVar6 = pIVar13->klass;
+        uVar18 = (ulong)(pIVar6->_2).interface_offsets_count;
+        if (uVar18 != 0) {
+          pIVar7 = (pIVar6->_1).interfaceOffsets;
+          lVar20 = 0;
           do {
-            if (pIVar4[uVar21].interfaceType == (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
-              pVVar14 = pIVar3->vtable + (pIVar4[uVar21].offset + 1);
-              goto label_1820d4a49;
+            if (*(Il2CppClass **)((long)&pIVar7->interfaceType + lVar20) ==
+                (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
+              pVVar14 = pIVar6->vtable + *(int *)((long)&pIVar7->offset + lVar20);
+              goto label_059c06c3;
             }
-            uVar20 = (short)uVar21 + 1;
-            uVar21 = (ulonglong)uVar20;
-          } while (uVar20 < uVar2);
+            lVar20 = lVar20 + 0x10;
+          } while (uVar18 * 0x10 != lVar20);
         }
         pVVar14 = GetInterfaceInvokeDataFromVTableSlowPath
-                            (local_88,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,1);
-label_1820d4a49:
-        pIVar15 = (*pVVar14->methodPtr)(pIVar15,pVVar14->method);
+                            (pIVar13,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_059c06c3:
+        cVar8 = (*pVVar14->methodPtr)(pIVar13,pVVar14->method);
+        pIVar13 = pIStack_88;
+        if (cVar8 == '\0') {
+          method_01 = TypeInfo_System_IDisposable;
+          pIVar13 = il2cpp_vm_Object_IsInst(pIStack_88,(Il2CppClass *)TypeInfo_System_IDisposable);
+          pIStack_50 = pIVar13;
+          if (pIVar13 == (Il2CppObject *)0x0) goto label_059c0906;
+          pIVar6 = pIVar13->klass;
+          uVar18 = (ulong)(pIVar6->_2).interface_offsets_count;
+          if (uVar18 == 0) goto label_059c08df;
+          pIVar7 = (pIVar6->_1).interfaceOffsets;
+          lVar20 = 0;
+          goto label_059c08d0;
+        }
+        if (pIStack_88 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar6 = pIStack_88->klass;
+        uVar18 = (ulong)(pIVar6->_2).interface_offsets_count;
+        if (uVar18 != 0) {
+          pIVar7 = (pIVar6->_1).interfaceOffsets;
+          lVar20 = 0;
+          do {
+            if (*(System_Collections_IEnumerator_c **)((long)&pIVar7->interfaceType + lVar20) ==
+                TypeInfo_System_Collections_IEnumerator) {
+              pVVar14 = pIVar6->vtable + (*(int *)((long)&pIVar7->offset + lVar20) + 1);
+              goto label_059c0757;
+            }
+            lVar20 = lVar20 + 0x10;
+          } while (uVar18 * 0x10 != lVar20);
+        }
+        pVVar14 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (pIStack_88,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,1);
+label_059c0757:
+        pIVar15 = (*pVVar14->methodPtr)(pIVar13,pVVar14->method);
         if (pIVar15 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
-        pIVar3 = pIVar15->klass;
-        bVar1 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
-        if (((pIVar3->_2).typeHierarchyDepth < bVar1) ||
-           ((pIVar3->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        pIVar6 = pIVar15->klass;
+        bVar5 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
+        if (((pIVar6->_2).typeHierarchyDepth < bVar5) ||
+           ((pIVar6->_2).typeHierarchy[(ulong)bVar5 - 1] !=
             (Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Match)) {
           il2cpp_codegen_raise_invalid_cast_exception(pIVar15);
         }
         pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
-                  (*pIVar3->vtable[5].methodPtr)(pIVar15,pIVar3->vtable[5].method);
+                  (*pIVar6->vtable[5].methodPtr)(pIVar15,pIVar6->vtable[5].method);
         if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
+        pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
                             (pSVar10,"key",(MethodInfo *)0x0);
         if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar16 = System_Text_RegularExpressions_Capture__ToString
+        pSVar12 = System_Text_RegularExpressions_Capture__get_Value
                             ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-        if (pSVar16 == (System_String_o *)0x0) {
+        if (pSVar12 == (System_String_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar16 = System_String__ToLowerInvariant(pSVar16,(MethodInfo *)0x0);
+        pSVar12 = System_String__ToLowerInvariant(pSVar12,(MethodInfo *)0x0);
         if (__this_01 == (System_Collections_Generic_HashSet_string__o *)0x0) {
           ThrowNullReferenceException();
         }
         System_Collections_Generic_HashSet_object___Add
-                  ((System_Collections_Generic_HashSet_object__o *)__this_01,(Il2CppObject *)pSVar16,
-                   (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-        bVar9 = System_String__op_Equality(pSVar16,"effect",(MethodInfo *)0x0);
+                  ((System_Collections_Generic_HashSet_object__o *)__this_01,(Il2CppObject *)pSVar12,
+                   (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+        bVar9 = System_String__op_Equality(pSVar12,"effect",(MethodInfo *)0x0);
+        pIVar13 = pIStack_88;
         if (bVar9) {
           pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
                     (*pIVar15->klass->vtable[5].methodPtr)(pIVar15,pIVar15->klass->vtable[5].method);
           if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
+          pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
                               (pSVar10,"val",(MethodInfo *)0x0);
           if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar16 = System_Text_RegularExpressions_Capture__ToString
+          pSVar12 = System_Text_RegularExpressions_Capture__get_Value
                               ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-          PatreonEffects_NameEffectPresets__TryResolve(pSVar16,local_res20,(MethodInfo *)0x0);
+          PatreonEffects_NameEffectPresets__TryResolve(pSVar12,&iStack_7c,method_00);
+          pIVar13 = pIStack_88;
         }
+      } while( true );
+    }
+  }
+  goto label_059c0bf9;
+  while (lVar20 = lVar20 + 0x10, uVar18 * 0x10 != lVar20) {
+label_059c08d0:
+    if (*(System_IDisposable_c **)((long)&pIVar7->interfaceType + lVar20) == TypeInfo_System_IDisposable) {
+      pVVar14 = pIVar6->vtable + *(int *)((long)&pIVar7->offset + lVar20);
+      goto label_059c08fd;
+    }
+  }
+label_059c08df:
+  pVVar14 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar13,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_059c08fd:
+  method_01 = (System_IDisposable_c *)pVVar14->method;
+  (*pVVar14->methodPtr)(pIVar13,(MethodInfo *)method_01);
+label_059c0906:
+  if (iStack_7c == 0) {
+    pSVar12 = System_Text_RegularExpressions_Capture__get_Value
+                        ((System_Text_RegularExpressions_Capture_o *)pSStack_58,(MethodInfo *)0x0);
+    return pSVar12;
+  }
+  pPVar16 = PatreonEffects_NameEffectPresets__GetPreset(iStack_7c,(MethodInfo *)method_01);
+  pSVar17 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
+  System_Text_StringBuilder___ctor_530d6d0(pSVar17,"<fx",(MethodInfo *)0x0);
+  if ((pSVar17 != (System_Text_StringBuilder_o *)0x0) &&
+     (pSVar17 = System_Text_StringBuilder__Append_530ed80(pSVar17,uStack_78,(MethodInfo *)0x0),
+     __this_01 != (System_Collections_Generic_HashSet_string__o *)0x0)) {
+    bVar9 = System_Collections_Generic_HashSet_object___Contains
+                      ((System_Collections_Generic_HashSet_object__o *)__this_01,
+                       (Il2CppObject *)"a",
+                       (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+    if (!bVar9) {
+      if (pPVar16 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059c0bf9;
+      pSVar12 = *(System_String_o **)&(pPVar16->fields).gradientA.fields;
+      uVar1._0_4_ = (pPVar16->fields).gradientA.fields.b;
+      uVar1._4_4_ = (pPVar16->fields).gradientA.fields.a;
+      pMVar19 = extraout_RDX;
+      uVar2._0_4_ = (int)pSVar12;
+      uVar2._4_4_ = (int)((ulong)pSVar12 >> 0x20);
+      if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
+        uStack_70 = 0;
+        uStack_60 = 0;
+        uStack_78 = pSVar12;
+        uStack_68 = uVar1;
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+        pMVar19 = extraout_RDX_00;
+        uVar2._0_4_ = (undefined4)uStack_78;
+        uVar2._4_4_ = uStack_78._4_4_;
+        uVar1._0_4_ = (undefined4)uStack_68;
+        uVar1._4_4_ = uStack_68._4_4_;
       }
-      local_80 = il2cpp_vm_Object_IsInst(local_88,(Il2CppClass *)TypeInfo_System_IDisposable);
-      if (local_80 != (Il2CppObject *)0x0) {
-        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_80);
+      color.fields.g = (float)uVar2._4_4_;
+      color.fields.r = (float)(undefined4)uVar2;
+      color.fields.a = (float)uVar1._4_4_;
+      color.fields.b = (float)(undefined4)uVar1;
+      PatreonEffects_EffectText__AppendColorAttribute(pSVar17,"a",color,pMVar19);
+    }
+    bVar9 = System_Collections_Generic_HashSet_object___Contains
+                      ((System_Collections_Generic_HashSet_object__o *)__this_01,
+                       (Il2CppObject *)"b",
+                       (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+    if (!bVar9) {
+      if (pPVar16 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059c0bf9;
+      pSVar12 = *(System_String_o **)&(pPVar16->fields).gradientB.fields;
+      uVar2._0_4_ = (pPVar16->fields).gradientB.fields.b;
+      uVar2._4_4_ = (pPVar16->fields).gradientB.fields.a;
+      pMVar19 = extraout_RDX_01;
+      uVar1._0_4_ = (int)pSVar12;
+      uVar1._4_4_ = (int)((ulong)pSVar12 >> 0x20);
+      if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
+        uStack_70 = 0;
+        uStack_60 = 0;
+        uStack_78 = pSVar12;
+        uStack_68 = uVar2;
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+        pMVar19 = extraout_RDX_02;
+        uVar1._0_4_ = (undefined4)uStack_78;
+        uVar1._4_4_ = uStack_78._4_4_;
+        uVar2._0_4_ = (undefined4)uStack_68;
+        uVar2._4_4_ = uStack_68._4_4_;
       }
-      if (local_res20[0] == 0) {
-        pSVar12 = System_Text_RegularExpressions_Capture__ToString
-                            ((System_Text_RegularExpressions_Capture_o *)match,(MethodInfo *)0x0);
+      color_00.fields.g = (float)uVar1._4_4_;
+      color_00.fields.r = (float)(undefined4)uVar1;
+      color_00.fields.a = (float)uVar2._4_4_;
+      color_00.fields.b = (float)(undefined4)uVar2;
+      PatreonEffects_EffectText__AppendColorAttribute(pSVar17,"b",color_00,pMVar19);
+    }
+    bVar9 = System_Collections_Generic_HashSet_object___Contains
+                      ((System_Collections_Generic_HashSet_object__o *)__this_01,
+                       (Il2CppObject *)"c",
+                       (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+    if (!bVar9) {
+      if (pPVar16 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059c0bf9;
+      pSVar12 = *(System_String_o **)&(pPVar16->fields).gradientC.fields;
+      uVar3._0_4_ = (pPVar16->fields).gradientC.fields.b;
+      uVar3._4_4_ = (pPVar16->fields).gradientC.fields.a;
+      pMVar19 = extraout_RDX_03;
+      uVar1._0_4_ = (int)pSVar12;
+      uVar1._4_4_ = (int)((ulong)pSVar12 >> 0x20);
+      if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
+        uStack_70 = 0;
+        uStack_60 = 0;
+        uStack_78 = pSVar12;
+        uStack_68 = uVar3;
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+        pMVar19 = extraout_RDX_04;
+        uVar1._0_4_ = (undefined4)uStack_78;
+        uVar1._4_4_ = uStack_78._4_4_;
+        uVar3._0_4_ = (undefined4)uStack_68;
+        uVar3._4_4_ = uStack_68._4_4_;
+      }
+      color_01.fields.g = (float)uVar1._4_4_;
+      color_01.fields.r = (float)(undefined4)uVar1;
+      color_01.fields.a = (float)uVar3._4_4_;
+      color_01.fields.b = (float)(undefined4)uVar3;
+      PatreonEffects_EffectText__AppendColorAttribute(pSVar17,"c",color_01,pMVar19);
+    }
+    bVar9 = System_Collections_Generic_HashSet_object___Contains
+                      ((System_Collections_Generic_HashSet_object__o *)__this_01,
+                       (Il2CppObject *)"d",
+                       (MethodInfo_4FB3720 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+    if (!bVar9) {
+      if (pPVar16 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059c0bf9;
+      pSVar12 = *(System_String_o **)&(pPVar16->fields).gradientD.fields;
+      uVar4._0_4_ = (pPVar16->fields).gradientD.fields.b;
+      uVar4._4_4_ = (pPVar16->fields).gradientD.fields.a;
+      pMVar19 = extraout_RDX_05;
+      uVar1._0_4_ = (int)pSVar12;
+      uVar1._4_4_ = (int)((ulong)pSVar12 >> 0x20);
+      if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
+        uStack_70 = 0;
+        uStack_60 = 0;
+        uStack_78 = pSVar12;
+        uStack_68 = uVar4;
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+        pMVar19 = extraout_RDX_06;
+        uVar1._0_4_ = (undefined4)uStack_78;
+        uVar1._4_4_ = uStack_78._4_4_;
+        uVar4._0_4_ = (undefined4)uStack_68;
+        uVar4._4_4_ = uStack_68._4_4_;
+      }
+      color_02.fields.g = (float)uVar1._4_4_;
+      color_02.fields.r = (float)(undefined4)uVar1;
+      color_02.fields.a = (float)uVar4._4_4_;
+      color_02.fields.b = (float)(undefined4)uVar4;
+      PatreonEffects_EffectText__AppendColorAttribute(pSVar17,"d",color_02,pMVar19);
+    }
+    if (pSVar17 != (System_Text_StringBuilder_o *)0x0) {
+      pSVar17 = System_Text_StringBuilder__Append_530f6a0(pSVar17,0x3e,(MethodInfo *)0x0);
+      pSVar10 = (*(pSStack_58->klass->vtable)._5_get_Groups.methodPtr)
+                          (pSStack_58,(pSStack_58->klass->vtable)._5_get_Groups.method);
+      if ((((pSVar10 != (System_Text_RegularExpressions_GroupCollection_o *)0x0) &&
+           (pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
+                                (pSVar10,"content",(MethodInfo *)0x0),
+           pSVar11 != (System_Text_RegularExpressions_Group_o *)0x0)) &&
+          (pSVar12 = System_Text_RegularExpressions_Capture__get_Value
+                               ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0),
+          pSVar17 != (System_Text_StringBuilder_o *)0x0)) &&
+         ((pSVar17 = System_Text_StringBuilder__Append_530ed80(pSVar17,pSVar12,(MethodInfo *)0x0),
+          pSVar17 != (System_Text_StringBuilder_o *)0x0 &&
+          (pSVar17 = System_Text_StringBuilder__Append_530ed80
+                               (pSVar17,"</fx>",(MethodInfo *)0x0),
+          pSVar17 != (System_Text_StringBuilder_o *)0x0)))) {
+        pSVar12 = (*(pSVar17->klass->vtable)._3_ToString.methodPtr)
+                            (pSVar17,(pSVar17->klass->vtable)._3_ToString.method);
         return pSVar12;
-      }
-      pPVar17 = PatreonEffects_NameEffectPresets__GetPreset(local_res20[0],(MethodInfo *)0x0);
-      pSVar18 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
-      System_Text_StringBuilder___ctor_1981780(pSVar18,"<fx",(MethodInfo *)0x0);
-      if ((pSVar18 != (System_Text_StringBuilder_o *)0x0) &&
-         (pSVar18 = System_Text_StringBuilder__Append_197dca0(pSVar18,pSVar12,(MethodInfo *)0x0),
-         __this_01 != (System_Collections_Generic_HashSet_string__o *)0x0)) {
-        bVar9 = System_Collections_Generic_HashSet_object___Contains
-                          ((System_Collections_Generic_HashSet_object__o *)__this_01,
-                           (Il2CppObject *)"a",
-                           (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
-                          );
-        if (!bVar9) {
-          if (pPVar17 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820d50e2;
-          pSVar12 = *(System_String_o **)&(pPVar17->fields).gradientA.fields;
-          uVar5._0_4_ = (pPVar17->fields).gradientA.fields.b;
-          uVar5._4_4_ = (pPVar17->fields).gradientA.fields.a;
-          if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
-          }
-          pSVar16 = "a";
-          if (Il2CppMethodInitialized_184346936 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"=\"#");
-            Il2CppMethodInitialized_184346936 = '\x01';
-          }
-          if (((pSVar18 == (System_Text_StringBuilder_o *)0x0) ||
-              (pSVar19 = System_Text_StringBuilder__Append_197e090(pSVar18,0x20,(MethodInfo *)0x0),
-              pSVar19 == (System_Text_StringBuilder_o *)0x0)) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar16,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) {
-label_1820d5125:
-            ThrowNullReferenceException();
-          }
-          pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,"=\"#",(MethodInfo *)0x0)
-          ;
-          local_68[0] = pSVar12;
-          local_68[1] = (System_String_o *)uVar5;
-          pSVar12 = UnityEngine_ColorUtility__ToHtmlStringRGB
-                              ((UnityEngine_Color_o *)local_68,(MethodInfo *)0x0);
-          if ((pSVar19 == (System_Text_StringBuilder_o *)0x0) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar12,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) goto label_1820d5125;
-          System_Text_StringBuilder__Append_197e090(pSVar19,0x22,(MethodInfo *)0x0);
-        }
-        bVar9 = System_Collections_Generic_HashSet_object___Contains
-                          ((System_Collections_Generic_HashSet_object__o *)__this_01,
-                           (Il2CppObject *)"b",
-                           (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
-                          );
-        if (!bVar9) {
-          if (pPVar17 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820d50e2;
-          pSVar12 = *(System_String_o **)&(pPVar17->fields).gradientB.fields;
-          uVar6._0_4_ = (pPVar17->fields).gradientB.fields.b;
-          uVar6._4_4_ = (pPVar17->fields).gradientB.fields.a;
-          if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
-          }
-          pSVar16 = "b";
-          if (Il2CppMethodInitialized_184346936 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"=\"#");
-            Il2CppMethodInitialized_184346936 = '\x01';
-          }
-          if (((pSVar18 == (System_Text_StringBuilder_o *)0x0) ||
-              (pSVar19 = System_Text_StringBuilder__Append_197e090(pSVar18,0x20,(MethodInfo *)0x0),
-              pSVar19 == (System_Text_StringBuilder_o *)0x0)) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar16,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) {
-label_1820d512b:
-            ThrowNullReferenceException();
-          }
-          pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,"=\"#",(MethodInfo *)0x0)
-          ;
-          local_68[0] = pSVar12;
-          local_68[1] = (System_String_o *)uVar6;
-          pSVar12 = UnityEngine_ColorUtility__ToHtmlStringRGB
-                              ((UnityEngine_Color_o *)local_68,(MethodInfo *)0x0);
-          if ((pSVar19 == (System_Text_StringBuilder_o *)0x0) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar12,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) goto label_1820d512b;
-          System_Text_StringBuilder__Append_197e090(pSVar19,0x22,(MethodInfo *)0x0);
-        }
-        bVar9 = System_Collections_Generic_HashSet_object___Contains
-                          ((System_Collections_Generic_HashSet_object__o *)__this_01,
-                           (Il2CppObject *)"c",
-                           (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
-                          );
-        if (!bVar9) {
-          if (pPVar17 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820d50e2;
-          pSVar12 = *(System_String_o **)&(pPVar17->fields).gradientC.fields;
-          uVar7._0_4_ = (pPVar17->fields).gradientC.fields.b;
-          uVar7._4_4_ = (pPVar17->fields).gradientC.fields.a;
-          if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
-          }
-          pSVar16 = "c";
-          if (Il2CppMethodInitialized_184346936 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"=\"#");
-            Il2CppMethodInitialized_184346936 = '\x01';
-          }
-          if (((pSVar18 == (System_Text_StringBuilder_o *)0x0) ||
-              (pSVar19 = System_Text_StringBuilder__Append_197e090(pSVar18,0x20,(MethodInfo *)0x0),
-              pSVar19 == (System_Text_StringBuilder_o *)0x0)) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar16,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) {
-label_1820d5131:
-            ThrowNullReferenceException();
-          }
-          pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,"=\"#",(MethodInfo *)0x0)
-          ;
-          local_68[0] = pSVar12;
-          local_68[1] = (System_String_o *)uVar7;
-          pSVar12 = UnityEngine_ColorUtility__ToHtmlStringRGB
-                              ((UnityEngine_Color_o *)local_68,(MethodInfo *)0x0);
-          if ((pSVar19 == (System_Text_StringBuilder_o *)0x0) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar12,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) goto label_1820d5131;
-          System_Text_StringBuilder__Append_197e090(pSVar19,0x22,(MethodInfo *)0x0);
-        }
-        bVar9 = System_Collections_Generic_HashSet_object___Contains
-                          ((System_Collections_Generic_HashSet_object__o *)__this_01,
-                           (Il2CppObject *)"d",
-                           (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains
-                          );
-        if (bVar9) {
-          if (pSVar18 == (System_Text_StringBuilder_o *)0x0) goto label_1820d50e2;
-        }
-        else {
-          if (pPVar17 == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820d50e2;
-          pSVar12 = *(System_String_o **)&(pPVar17->fields).gradientD.fields;
-          uVar8._0_4_ = (pPVar17->fields).gradientD.fields.b;
-          uVar8._4_4_ = (pPVar17->fields).gradientD.fields.a;
-          if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
-          }
-          pSVar16 = "d";
-          if (Il2CppMethodInitialized_184346936 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"=\"#");
-            Il2CppMethodInitialized_184346936 = '\x01';
-          }
-          if (((pSVar18 == (System_Text_StringBuilder_o *)0x0) ||
-              (pSVar19 = System_Text_StringBuilder__Append_197e090(pSVar18,0x20,(MethodInfo *)0x0),
-              pSVar19 == (System_Text_StringBuilder_o *)0x0)) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar16,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) {
-label_1820d5137:
-            ThrowNullReferenceException();
-          }
-          pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,"=\"#",(MethodInfo *)0x0)
-          ;
-          local_68[0] = pSVar12;
-          local_68[1] = (System_String_o *)uVar8;
-          pSVar12 = UnityEngine_ColorUtility__ToHtmlStringRGB
-                              ((UnityEngine_Color_o *)local_68,(MethodInfo *)0x0);
-          if ((pSVar19 == (System_Text_StringBuilder_o *)0x0) ||
-             (pSVar19 = System_Text_StringBuilder__Append_197dca0(pSVar19,pSVar12,(MethodInfo *)0x0),
-             pSVar19 == (System_Text_StringBuilder_o *)0x0)) goto label_1820d5137;
-          System_Text_StringBuilder__Append_197e090(pSVar19,0x22,(MethodInfo *)0x0);
-        }
-        pSVar18 = System_Text_StringBuilder__Append_197e090(pSVar18,0x3e,(MethodInfo *)0x0);
-        pSVar10 = (*(match->klass->vtable)._5_get_Groups.methodPtr)
-                            (match,(match->klass->vtable)._5_get_Groups.method);
-        if ((((pSVar10 != (System_Text_RegularExpressions_GroupCollection_o *)0x0) &&
-             (pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
-                                  (pSVar10,"content",(MethodInfo *)0x0),
-             pSVar11 != (System_Text_RegularExpressions_Group_o *)0x0)) &&
-            (pSVar12 = System_Text_RegularExpressions_Capture__ToString
-                                 ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0),
-            pSVar18 != (System_Text_StringBuilder_o *)0x0)) &&
-           ((pSVar18 = System_Text_StringBuilder__Append_197dca0(pSVar18,pSVar12,(MethodInfo *)0x0),
-            pSVar18 != (System_Text_StringBuilder_o *)0x0 &&
-            (pSVar18 = System_Text_StringBuilder__Append_197dca0
-                                 (pSVar18,"</fx>",(MethodInfo *)0x0),
-            pSVar18 != (System_Text_StringBuilder_o *)0x0)))) {
-          pSVar12 = (*(pSVar18->klass->vtable)._3_ToString.methodPtr)
-                              (pSVar18,(pSVar18->klass->vtable)._3_ToString.method);
-          return pSVar12;
-        }
       }
     }
   }
-label_1820d50e2:
+label_059c0bf9:
   ThrowNullReferenceException();
 }
 
 
 // PatreonEffects.EffectText$$get_text
 // il2cpp: System_String_o* PatreonEffects_EffectText__get_text (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1805852b0
+// 0x59bc3f0
 
-System_String_o*
-PatreonEffects_EffectText__get_text(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+System_String_o * PatreonEffects_EffectText__get_text(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._text;
@@ -452,31 +498,51 @@ PatreonEffects_EffectText__get_text(PatreonEffects_EffectText_o* __this, MethodI
 
 // PatreonEffects.EffectText$$set_text
 // il2cpp: void PatreonEffects_EffectText__set_text (PatreonEffects_EffectText_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x1820b9820
+// 0x59bc400
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bc413: test r14, r14
+// asm:   0x59bc416: je 0x59bc473
 
 void PatreonEffects_EffectText__set_text
                (PatreonEffects_EffectText_o *__this,System_String_o *value,MethodInfo *method)
 
 {
+  uint32_t uVar1;
+  MethodInfo *method_00;
+  
+  if (Il2CppMethodInitialized_07545bc7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText);
+    Il2CppMethodInitialized_07545bc7 = '\x01';
+  }
   if (value == (System_String_o *)0x0) {
-    value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    value = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+    uVar1 = (((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText)->_2).
+            cctor_finished_or_no_cctor;
   }
-  if (__this != (PatreonEffects_EffectText_o *)0x0) {
-    (__this->fields)._text = value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._text,value);
-    PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)0x0);
-    return;
+  else {
+    uVar1 = (((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText)->_2).
+            cctor_finished_or_no_cctor;
   }
-  ThrowNullReferenceException();
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText);
+  }
+  method_00 = (MethodInfo *)
+              Gisketch_Aottg2UI_Styling_GisketchArabicText__ToVisual(value,false,(MethodInfo *)0x0);
+  if (__this == (PatreonEffects_EffectText_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (__this->fields)._text = (System_String_o *)method_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._text);
+  PatreonEffects_EffectText__Rebuild(__this,method_00);
+  return;
 }
 
 
 // PatreonEffects.EffectText$$get_fontSize
 // il2cpp: float PatreonEffects_EffectText__get_fontSize (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x180584ac0
+// 0x59bce90
 
-float
-PatreonEffects_EffectText__get_fontSize(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+float PatreonEffects_EffectText__get_fontSize(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._fontSize;
@@ -485,99 +551,76 @@ PatreonEffects_EffectText__get_fontSize(PatreonEffects_EffectText_o* __this, Met
 
 // PatreonEffects.EffectText$$set_fontSize
 // il2cpp: void PatreonEffects_EffectText__set_fontSize (PatreonEffects_EffectText_o* __this, float value, const MethodInfo* method);
-// 0x1820b97d0
+// 0x59bcea0
 
 void PatreonEffects_EffectText__set_fontSize
                (PatreonEffects_EffectText_o *__this,float value,MethodInfo *method)
 
 {
   (__this->fields)._fontSize = value;
-  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)0x0);
+  PatreonEffects_EffectText__Rebuild(__this,method);
   return;
 }
 
 
 // PatreonEffects.EffectText$$get_color
 // il2cpp: UnityEngine_Color_o PatreonEffects_EffectText__get_color (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b97a0
+// 0x59bcec0
 
 UnityEngine_Color_o
-PatreonEffects_EffectText__get_color(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+PatreonEffects_EffectText__get_color(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  
-  fVar1 = (__this->fields)._color.fields.g;
-  fVar2 = (__this->fields)._color.fields.b;
-  fVar3 = (__this->fields)._color.fields.a;
-  (__return_storage_ptr__->fields).r = (__this->fields)._color.fields.r;
-  (__return_storage_ptr__->fields).g = fVar1;
-  (__return_storage_ptr__->fields).b = fVar2;
-  (__return_storage_ptr__->fields).a = fVar3;
-  return __return_storage_ptr__;
+  return (UnityEngine_Color_o)(__this->fields)._color.fields;
 }
 
 
 // PatreonEffects.EffectText$$set_color
 // il2cpp: void PatreonEffects_EffectText__set_color (PatreonEffects_EffectText_o* __this, UnityEngine_Color_o value, const MethodInfo* method);
-// 0x1820b97c0
+// 0x59bced0
 
 void PatreonEffects_EffectText__set_color
-               (PatreonEffects_EffectText_o *__this,UnityEngine_Color_o *value,MethodInfo *method)
+               (PatreonEffects_EffectText_o *__this,UnityEngine_Color_o value,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  
-  fVar1 = (value->fields).g;
-  fVar2 = (value->fields).b;
-  fVar3 = (value->fields).a;
-  (__this->fields)._color.fields.r = (value->fields).r;
-  (__this->fields)._color.fields.g = fVar1;
-  (__this->fields)._color.fields.b = fVar2;
-  (__this->fields)._color.fields.a = fVar3;
-  PatreonEffects_EffectText__ApplyColor(__this,(MethodInfo *)0x0);
+  (__this->fields)._color.fields = value.fields;
+  PatreonEffects_EffectText__ApplyColor(__this,method);
   return;
 }
 
 
 // PatreonEffects.EffectText$$get_font
 // il2cpp: TMPro_TMP_FontAsset_o* PatreonEffects_EffectText__get_font (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1805853c0
+// 0x59bd160
 
-TMPro_TMP_FontAsset_o*
-PatreonEffects_EffectText__get_font(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+TMPro_TMP_FontAsset_o *
+PatreonEffects_EffectText__get_font(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  return *(Unity_Properties_IProperty_TContainer__o **)
-          &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position;
+  return (__this->fields)._font;
 }
 
 
 // PatreonEffects.EffectText$$set_font
 // il2cpp: void PatreonEffects_EffectText__set_font (PatreonEffects_EffectText_o* __this, TMPro_TMP_FontAsset_o* value, const MethodInfo* method);
-// 0x1820b97e0
+// 0x59bd170
 
 void PatreonEffects_EffectText__set_font
                (PatreonEffects_EffectText_o *__this,TMPro_TMP_FontAsset_o *value,MethodInfo *method)
 
 {
   (__this->fields)._font = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._font,value);
-  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._font);
+  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)value);
   return;
 }
 
 
 // PatreonEffects.EffectText$$get_alignment
 // il2cpp: int32_t PatreonEffects_EffectText__get_alignment (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x180b3dfc0
+// 0x59bd190
 
-int32_t
-PatreonEffects_EffectText__get_alignment(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+int32_t PatreonEffects_EffectText__get_alignment(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._alignment;
@@ -586,24 +629,25 @@ PatreonEffects_EffectText__get_alignment(PatreonEffects_EffectText_o* __this, Me
 
 // PatreonEffects.EffectText$$set_alignment
 // il2cpp: void PatreonEffects_EffectText__set_alignment (PatreonEffects_EffectText_o* __this, int32_t value, const MethodInfo* method);
-// 0x1820b97b0
+// 0x59bd1a0
 
 void PatreonEffects_EffectText__set_alignment
                (PatreonEffects_EffectText_o *__this,int32_t value,MethodInfo *method)
 
 {
+  undefined4 in_register_00000034;
+  
   (__this->fields)._alignment = value;
-  PatreonEffects_EffectText__ApplyAlignment(__this,(MethodInfo *)0x0);
+  PatreonEffects_EffectText__ApplyAlignment(__this,(MethodInfo *)CONCAT44(in_register_00000034,value));
   return;
 }
 
 
 // PatreonEffects.EffectText$$get_richText
 // il2cpp: bool PatreonEffects_EffectText__get_richText (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x181cfdd60
+// 0x59bd3b0
 
-bool
-PatreonEffects_EffectText__get_richText(PatreonEffects_EffectText_o* __this, MethodInfo* method)
+bool PatreonEffects_EffectText__get_richText(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._richText;
@@ -612,44 +656,63 @@ PatreonEffects_EffectText__get_richText(PatreonEffects_EffectText_o* __this, Met
 
 // PatreonEffects.EffectText$$set_richText
 // il2cpp: void PatreonEffects_EffectText__set_richText (PatreonEffects_EffectText_o* __this, bool value, const MethodInfo* method);
-// 0x1820b9810
+// 0x59bd3c0
 
 void PatreonEffects_EffectText__set_richText
                (PatreonEffects_EffectText_o *__this,bool value,MethodInfo *method)
 
 {
+  undefined7 in_register_00000031;
+  
   (__this->fields)._richText = value;
-  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)0x0);
+  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)CONCAT71(in_register_00000031,value));
   return;
 }
 
 
 // PatreonEffects.EffectText$$Compose
 // il2cpp: System_String_o* PatreonEffects_EffectText__Compose (System_String_o* content, int32_t effect, UnityEngine_Color_o colorA, UnityEngine_Color_o colorB, UnityEngine_Color_o colorC, UnityEngine_Color_o colorD, const MethodInfo* method);
-// 0x1820b71d0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b7626: mov rax, rdi
-// asm:   0x1820b7629: jmp 0x1820b75fc
+// 0x59bd3d0
 
 System_String_o *
 PatreonEffects_EffectText__Compose
-          (System_String_o *content,int32_t effect,UnityEngine_Color_o *colorA,UnityEngine_Color_o *colorB,
-          UnityEngine_Color_o *colorC,UnityEngine_Color_o *colorD,MethodInfo *method)
+          (System_String_o *content,int32_t effect,UnityEngine_Color_o colorA,UnityEngine_Color_o colorB,
+          UnityEngine_Color_o colorC,UnityEngine_Color_o colorD,MethodInfo *method)
 
 {
   bool bVar1;
   System_Text_StringBuilder_o *__this;
   System_Text_StringBuilder_o *pSVar2;
   System_String_o *pSVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  UnityEngine_Color_Fields local_98;
-  System_Enum_o local_88;
-  int32_t local_78;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *extraout_RDX_04;
+  MethodInfo *extraout_RDX_05;
+  MethodInfo *extraout_RDX_06;
+  MethodInfo *pMVar4;
+  float local_b8;
+  float fStack_b4;
+  float local_a8;
+  float fStack_a4;
+  float local_98;
+  float fStack_94;
+  float local_88;
+  float fStack_84;
+  float local_78;
+  float fStack_74;
+  float local_68;
+  float fStack_64;
+  float local_58;
+  float fStack_54;
+  float local_48;
+  float fStack_44;
+  System_Enum_o local_38;
+  int32_t local_28;
   
-  if (Il2CppMethodInitialized_184346934 == '\0') {
+  if (Il2CppMethodInitialized_07545bc8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_NameEffectType);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_StringBuilder);
@@ -659,96 +722,87 @@ PatreonEffects_EffectText__Compose
     il2cpp_codegen_initialize_runtime_metadata(&"c");
     il2cpp_codegen_initialize_runtime_metadata(&"<fx effect=\"");
     il2cpp_codegen_initialize_runtime_metadata(&"d");
-    Il2CppMethodInitialized_184346934 = '\x01';
+    Il2CppMethodInitialized_07545bc8 = '\x01';
   }
   if ((effect == 0) || (bVar1 = System_String__IsNullOrEmpty(content,(MethodInfo *)0x0), bVar1)) {
     if (content == (System_String_o *)0x0) {
-      content = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+      content = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
     return content;
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
   System_Text_StringBuilder___ctor(__this,(MethodInfo *)0x0);
   if (__this != (System_Text_StringBuilder_o *)0x0) {
-    pSVar2 = System_Text_StringBuilder__Append_197dca0(__this,"<fx effect=\"",(MethodInfo *)0x0);
-    local_88.klass = (System_Enum_c *)TypeInfo_PatreonEffects_NameEffectType;
-    local_88.monitor = &g_data_ffffffffffffffff;
-    local_78 = effect;
-    pSVar3 = System_Enum__ToString(&local_88,(MethodInfo *)0x0);
+    pSVar2 = System_Text_StringBuilder__Append_530ed80(__this,"<fx effect=\"",(MethodInfo *)0x0);
+    local_38.klass = (System_Enum_c *)TypeInfo_PatreonEffects_NameEffectType;
+    local_38.monitor = (void *)0xffffffffffffffff;
+    local_28 = effect;
+    pSVar3 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
     if ((pSVar2 != (System_Text_StringBuilder_o *)0x0) &&
-       (pSVar2 = System_Text_StringBuilder__Append_197dca0(pSVar2,pSVar3,(MethodInfo *)0x0),
+       (pSVar2 = System_Text_StringBuilder__Append_530ed80(pSVar2,pSVar3,(MethodInfo *)0x0),
        pSVar2 != (System_Text_StringBuilder_o *)0x0)) {
-      System_Text_StringBuilder__Append_197e090(pSVar2,0x22,(MethodInfo *)0x0);
-      fVar6 = (colorA->fields).r - 0.0;
-      fVar7 = (colorA->fields).g - 0.0;
-      fVar4 = (colorA->fields).b - 0.0;
-      fVar5 = (colorA->fields).a - 0.0;
-      if (9.9999994e-11 <= fVar7 * fVar7 + fVar6 * fVar6 + fVar4 * fVar4 + fVar5 * fVar5) {
+      System_Text_StringBuilder__Append_530f6a0(pSVar2,0x22,(MethodInfo *)0x0);
+      local_b8 = colorA.fields.r;
+      fStack_b4 = colorA.fields.g;
+      local_a8 = colorA.fields.b;
+      fStack_a4 = colorA.fields.a;
+      pMVar4 = extraout_RDX;
+      if (9.9999994e-11 <=
+          fStack_a4 * fStack_a4 + fStack_b4 * fStack_b4 + local_b8 * local_b8 + local_a8 * local_a8) {
         if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+          pMVar4 = extraout_RDX_00;
         }
-        local_98.r = (colorA->fields).r;
-        local_98.g = (colorA->fields).g;
-        local_98.b = (colorA->fields).b;
-        local_98.a = (colorA->fields).a;
-        PatreonEffects_EffectText__AppendColorAttribute
-                  (__this,"a",(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+        PatreonEffects_EffectText__AppendColorAttribute(__this,"a",colorA,pMVar4);
+        pMVar4 = extraout_RDX_01;
       }
-      fVar6 = (colorB->fields).r - 0.0;
-      fVar7 = (colorB->fields).g - 0.0;
-      fVar4 = (colorB->fields).b - 0.0;
-      fVar5 = (colorB->fields).a - 0.0;
-      if (9.9999994e-11 <= fVar7 * fVar7 + fVar6 * fVar6 + fVar4 * fVar4 + fVar5 * fVar5) {
+      local_98 = colorB.fields.r;
+      fStack_94 = colorB.fields.g;
+      local_88 = colorB.fields.b;
+      fStack_84 = colorB.fields.a;
+      if (9.9999994e-11 <=
+          fStack_84 * fStack_84 + fStack_94 * fStack_94 + local_98 * local_98 + local_88 * local_88) {
         if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+          pMVar4 = extraout_RDX_02;
         }
-        local_98.r = (colorB->fields).r;
-        local_98.g = (colorB->fields).g;
-        local_98.b = (colorB->fields).b;
-        local_98.a = (colorB->fields).a;
-        PatreonEffects_EffectText__AppendColorAttribute
-                  (__this,"b",(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+        PatreonEffects_EffectText__AppendColorAttribute(__this,"b",colorB,pMVar4);
+        pMVar4 = extraout_RDX_03;
       }
-      fVar6 = (colorC->fields).r - 0.0;
-      fVar7 = (colorC->fields).g - 0.0;
-      fVar4 = (colorC->fields).b - 0.0;
-      fVar5 = (colorC->fields).a - 0.0;
-      if (9.9999994e-11 <= fVar7 * fVar7 + fVar6 * fVar6 + fVar4 * fVar4 + fVar5 * fVar5) {
+      local_78 = colorC.fields.r;
+      fStack_74 = colorC.fields.g;
+      local_68 = colorC.fields.b;
+      fStack_64 = colorC.fields.a;
+      if (9.9999994e-11 <=
+          fStack_64 * fStack_64 + fStack_74 * fStack_74 + local_78 * local_78 + local_68 * local_68) {
         if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+          pMVar4 = extraout_RDX_04;
         }
-        local_98.r = (colorC->fields).r;
-        local_98.g = (colorC->fields).g;
-        local_98.b = (colorC->fields).b;
-        local_98.a = (colorC->fields).a;
-        PatreonEffects_EffectText__AppendColorAttribute
-                  (__this,"c",(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+        PatreonEffects_EffectText__AppendColorAttribute(__this,"c",colorC,pMVar4);
+        pMVar4 = extraout_RDX_05;
       }
-      fVar6 = (colorD->fields).r - 0.0;
-      fVar7 = (colorD->fields).g - 0.0;
-      fVar4 = (colorD->fields).b - 0.0;
-      fVar5 = (colorD->fields).a - 0.0;
-      if (9.9999994e-11 <= fVar7 * fVar7 + fVar6 * fVar6 + fVar4 * fVar4 + fVar5 * fVar5) {
+      local_58 = colorD.fields.r;
+      fStack_54 = colorD.fields.g;
+      local_48 = colorD.fields.b;
+      fStack_44 = colorD.fields.a;
+      if (9.9999994e-11 <=
+          fStack_44 * fStack_44 + fStack_54 * fStack_54 + local_58 * local_58 + local_48 * local_48) {
         if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+          pMVar4 = extraout_RDX_06;
         }
-        local_98.r = (colorD->fields).r;
-        local_98.g = (colorD->fields).g;
-        local_98.b = (colorD->fields).b;
-        local_98.a = (colorD->fields).a;
-        PatreonEffects_EffectText__AppendColorAttribute
-                  (__this,"d",(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+        PatreonEffects_EffectText__AppendColorAttribute(__this,"d",colorD,pMVar4);
       }
-      pSVar2 = System_Text_StringBuilder__Append_197e090(__this,0x3e,(MethodInfo *)0x0);
+      pSVar2 = System_Text_StringBuilder__Append_530f6a0(__this,0x3e,(MethodInfo *)0x0);
       if ((pSVar2 != (System_Text_StringBuilder_o *)0x0) &&
-         (pSVar2 = System_Text_StringBuilder__Append_197dca0(pSVar2,content,(MethodInfo *)0x0),
+         (pSVar2 = System_Text_StringBuilder__Append_530ed80(pSVar2,content,(MethodInfo *)0x0),
          pSVar2 != (System_Text_StringBuilder_o *)0x0)) {
-        System_Text_StringBuilder__Append_197dca0(pSVar2,"</fx>",(MethodInfo *)0x0);
+        System_Text_StringBuilder__Append_530ed80(pSVar2,"</fx>",(MethodInfo *)0x0);
         pSVar3 = (*(__this->klass->vtable)._3_ToString.methodPtr)
                            (__this,(__this->klass->vtable)._3_ToString.method);
         return pSVar3;
       }
-      ThrowNullReferenceException();
     }
   }
   ThrowNullReferenceException();
@@ -757,7 +811,10 @@ PatreonEffects_EffectText__Compose
 
 // PatreonEffects.EffectText$$WithPresetColors
 // il2cpp: System_String_o* PatreonEffects_EffectText__WithPresetColors (System_String_o* text, const MethodInfo* method);
-// 0x1820b9430
+// 0x59bd850
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bd929: test r14, r14
+// asm:   0x59bd92c: je 0x59bd9da
 
 System_String_o * PatreonEffects_EffectText__WithPresetColors(System_String_o *text,MethodInfo *method)
 
@@ -766,24 +823,25 @@ System_String_o * PatreonEffects_EffectText__WithPresetColors(System_String_o *t
   Il2CppObject *object;
   bool bVar1;
   int32_t iVar2;
-  System_Text_RegularExpressions_MatchEvaluator_o *evaluator;
   System_String_o *pSVar3;
+  PatreonEffects_EffectText___c_StaticFields *pPVar4;
+  System_Text_RegularExpressions_MatchEvaluator_o *__this_00;
   
-  if (Il2CppMethodInitialized_184346935 == '\0') {
+  if (Il2CppMethodInitialized_07545bc9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_RegularExpressions_MatchEvaluator);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_PatreonEffects_EffectText_c_WithPresetColors_b__26_0);
+              (&MethodInfo_PatreonEffects_EffectText_c_WithPresetColors_b__27_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText_c);
     il2cpp_codegen_initialize_runtime_metadata(&"<fx");
-    Il2CppMethodInitialized_184346935 = '\x01';
+    Il2CppMethodInitialized_07545bc9 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(text,(MethodInfo *)0x0);
   if (bVar1) {
     return text;
   }
   if (text != (System_String_o *)0x0) {
-    iVar2 = System_String__IndexOf_196de90(text,"<fx",4,(MethodInfo *)0x0);
+    iVar2 = System_String__IndexOf_53072b0(text,"<fx",4,(MethodInfo *)0x0);
     if (iVar2 < 0) {
       return text;
     }
@@ -793,24 +851,30 @@ System_String_o * PatreonEffects_EffectText__WithPresetColors(System_String_o *t
     __this = TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex;
     if ((TypeInfo_PatreonEffects_EffectText_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText_c);
+      pPVar4 = TypeInfo_PatreonEffects_EffectText_c->static_fields;
+      __this_00 = pPVar4->__9__27_0;
     }
-    evaluator = TypeInfo_PatreonEffects_EffectText_c->static_fields->__9__26_0;
-    if (evaluator == (System_Text_RegularExpressions_MatchEvaluator_o *)0x0) {
-      if ((TypeInfo_PatreonEffects_EffectText_c->_2).cctor_finished_or_no_cctor == 0) {
+    else {
+      pPVar4 = TypeInfo_PatreonEffects_EffectText_c->static_fields;
+      __this_00 = pPVar4->__9__27_0;
+    }
+    if (__this_00 == (System_Text_RegularExpressions_MatchEvaluator_o *)0x0) {
+      if ((((Il2CppClass *)TypeInfo_PatreonEffects_EffectText_c)->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText_c);
+        pPVar4 = TypeInfo_PatreonEffects_EffectText_c->static_fields;
       }
-      object = (Il2CppObject *)TypeInfo_PatreonEffects_EffectText_c->static_fields->__9;
-      evaluator = il2cpp_codegen_object_new
+      object = (Il2CppObject *)pPVar4->__9;
+      __this_00 = il2cpp_codegen_object_new
                             ((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_MatchEvaluator);
       System_Text_RegularExpressions_MatchEvaluator___ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)evaluator,object,
-                 (intptr_t)MethodInfo_PatreonEffects_EffectText_c_WithPresetColors_b__26_0,
-                 (MethodInfo_16E67D0 *)0x0);
-      TypeInfo_PatreonEffects_EffectText_c->static_fields->__9__26_0 = evaluator;
-      Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText_c->static_fields->__9__26_0,evaluator);
+                (__this_00,object,(intptr_t)MethodInfo_PatreonEffects_EffectText_c_WithPresetColors_b__27_0,
+                 (MethodInfo *)0x0);
+      pPVar4 = TypeInfo_PatreonEffects_EffectText_c->static_fields;
+      pPVar4->__9__27_0 = __this_00;
+      Il2CppCodeGenWriteBarrier(&pPVar4->__9__27_0);
     }
     if (__this != (System_Text_RegularExpressions_Regex_o *)0x0) {
-      pSVar3 = System_Text_RegularExpressions_Regex__Replace_285dcc0(__this,text,evaluator,(MethodInfo *)0x0);
+      pSVar3 = System_Text_RegularExpressions_Regex__Replace_61e3fe0(__this,text,__this_00,(MethodInfo *)0x0);
       return pSVar3;
     }
   }
@@ -820,36 +884,40 @@ System_String_o * PatreonEffects_EffectText__WithPresetColors(System_String_o *t
 
 // PatreonEffects.EffectText$$AppendColorAttribute
 // il2cpp: void PatreonEffects_EffectText__AppendColorAttribute (System_Text_StringBuilder_o* sb, System_String_o* key, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x1820b6d20
+// 0x59bd780
 
 void PatreonEffects_EffectText__AppendColorAttribute
-               (System_Text_StringBuilder_o *sb,System_String_o *key,UnityEngine_Color_o *color,
+               (System_Text_StringBuilder_o *sb,System_String_o *key,UnityEngine_Color_o color,
                MethodInfo *method)
 
 {
   System_Text_StringBuilder_o *pSVar1;
   System_String_o *value;
-  UnityEngine_Color_Fields local_18;
+  float local_38;
+  float fStack_34;
+  UnityEngine_Color_o local_20;
   
-  if (Il2CppMethodInitialized_184346936 == '\0') {
+  if (Il2CppMethodInitialized_07545bca == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"=\"#");
-    Il2CppMethodInitialized_184346936 = '\x01';
+    Il2CppMethodInitialized_07545bca = '\x01';
   }
   if (sb != (System_Text_StringBuilder_o *)0x0) {
-    pSVar1 = System_Text_StringBuilder__Append_197e090(sb,0x20,(MethodInfo *)0x0);
+    pSVar1 = System_Text_StringBuilder__Append_530f6a0(sb,0x20,(MethodInfo *)0x0);
     if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-      pSVar1 = System_Text_StringBuilder__Append_197dca0(pSVar1,key,(MethodInfo *)0x0);
+      pSVar1 = System_Text_StringBuilder__Append_530ed80(pSVar1,key,(MethodInfo *)0x0);
       if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-        pSVar1 = System_Text_StringBuilder__Append_197dca0(pSVar1,"=\"#",(MethodInfo *)0x0);
-        local_18.r = (color->fields).r;
-        local_18.g = (color->fields).g;
-        local_18.b = (color->fields).b;
-        local_18.a = (color->fields).a;
-        value = UnityEngine_ColorUtility__ToHtmlStringRGB((UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+        pSVar1 = System_Text_StringBuilder__Append_530ed80(pSVar1,"=\"#",(MethodInfo *)0x0);
+        local_38 = color.fields.r;
+        fStack_34 = color.fields.g;
+        local_20.fields.b = color.fields.b;
+        local_20.fields.a = color.fields.a;
+        local_20.fields.r = local_38;
+        local_20.fields.g = fStack_34;
+        value = UnityEngine_ColorUtility__ToHtmlStringRGB_68fde50(&local_20,(MethodInfo *)0x0);
         if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-          pSVar1 = System_Text_StringBuilder__Append_197dca0(pSVar1,value,(MethodInfo *)0x0);
+          pSVar1 = System_Text_StringBuilder__Append_530ed80(pSVar1,value,(MethodInfo *)0x0);
           if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-            System_Text_StringBuilder__Append_197e090(pSVar1,0x22,(MethodInfo *)0x0);
+            System_Text_StringBuilder__Append_530f6a0(pSVar1,0x22,(MethodInfo *)0x0);
             return;
           }
         }
@@ -862,159 +930,236 @@ void PatreonEffects_EffectText__AppendColorAttribute
 
 // PatreonEffects.EffectText$$ParseLine
 // il2cpp: System_Collections_Generic_List_EffectText_Segment__o* PatreonEffects_EffectText__ParseLine (System_String_o* line, const MethodInfo* method);
-// 0x1820b8130
-// eh: try 0x1820b8320..0x1820b8c56 -> pad 0x18333df50 (+7 call sites) catch Il2CppExceptionWrapper
-// asm: 50 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b831d: nop dword ptr [rax]
-// asm:   0x1820b85fe: nop 
-// asm:   0x1820b88c6: lea rcx, [rsp + 0x128]
-// asm:   0x1820b88ce: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
-// asm:   0x1820b88d3: mov rcx, qword ptr [rsp + 0x120]
-// asm:   0x1820b88db: test rcx, rcx
-// asm:   0x1820b88de: jne 0x1820b8c1b
-// asm:   0x1820b88e4: mov rax, qword ptr [rsp + 0xa0]
-// asm:   0x1820b88ec: mov qword ptr [rsp + 0x98], rax
-// asm:   0x1820b88f4: mov r14d, dword ptr [rsp + 0xd0]
-// asm:   0x1820b88fc: movups xmm6, xmmword ptr [rsp + 0xc0]
-// asm:   0x1820b8904: mov r15d, dword ptr [rsp + 0xe8]
-// asm:   0x1820b890c: movups xmm7, xmmword ptr [rsp + 0xd8]
-// asm:   0x1820b8914: mov r12d, dword ptr [rsp + 0x100]
-// asm:   0x1820b891c: movups xmm8, xmmword ptr [rsp + 0xf0]
-// asm:   0x1820b8925: mov r13d, dword ptr [rsp + 0x118]
-// asm:   0x1820b892d: movups xmm9, xmmword ptr [rsp + 0x108]
-// asm:   0x1820b8936: mov rsi, qword ptr [rsp + 0x138]
-// asm:   0x1820b8a89: lea rcx, [rsp + 0xb0]
-// asm:   0x1820b8a91: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
-// asm:   0x1820b8a96: mov rcx, qword ptr [rsp + 0xa8]
-// asm:   0x1820b8a9e: test rcx, rcx
-// asm:   0x1820b8aa1: jne 0x1820b8c56
-// asm:   0x1820b8aa7: mov rdi, qword ptr [rsp + 0xa0]
-// asm:   0x1820b8aaf: mov ebx, dword ptr [rsp + 0x278]
-// asm:   0x1820b8ab6: mov r14, qword ptr [rsp + 0x260]
-// asm:   0x1820b8c1b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820b8c56: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333df20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333df25: push rbp
-// asm:   0x18333df26: sub rsp, 0x20
-// asm:   0x18333df2a: mov rbp, rdx
-// asm:   0x18333df2d: mov rax, qword ptr [rbp + 0x1c8]
-// asm:   0x18333df34: mov rcx, qword ptr [rax]
-// asm:   0x18333df37: mov qword ptr [rbp + 0x120], rcx
-// asm:   0x18333df3e: movabs rax, 0
-// asm:   0x18333df48: add rsp, 0x20
-// asm:   0x18333df4c: pop rbp
-// asm:   0x18333df4d: ret 
-// asm:   0x18333df50: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333df55: push rbp
-// asm:   0x18333df56: sub rsp, 0x20
-// asm:   0x18333df5a: mov rbp, rdx
-// asm:   0x18333df5d: mov rax, qword ptr [rbp + 0x1d0]
-// asm:   0x18333df64: mov rcx, qword ptr [rax]
-// asm:   0x18333df67: mov qword ptr [rbp + 0xa8], rcx
-// asm:   0x18333df6e: movabs rax, 0
-// asm:   0x18333df78: add rsp, 0x20
-// asm:   0x18333df7c: pop rbp
-// asm:   0x18333df7d: ret 
+// 0x59bd9e0
+// eh: try 0x59bdc5f..0x59be17d -> pad 0x59bef33 (+13 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x59be24f..0x59be82f -> pad 0x59beb6f (+22 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59be86a..0x59beab6 -> pad 0x59bef63 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x59beabb..0x59beb2c -> pad 0x59beb71 (+10 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59beb96..0x59beefb -> pad 0x59bef08 (+15 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x59bef0e..0x59bef1b -> pad 0x59befb0 catch (...) [compiler noexcept guard]
+// eh: try 0x59bef8e..0x59bef93 -> pad 0x59bef98 cleanup
+// eh: try 0x59bef9b..0x59befa8 -> pad 0x59befb0 catch (...) [compiler noexcept guard]
+// asm: 106 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bdcf9: nop dword ptr [rax]
+// asm:   0x59beb22: mov qword ptr [rsp + 0x78], rax
+// asm:   0x59beb31: jmp 0x59beb71
+// asm:   0x59beb33: jmp 0x59beb71
+// asm:   0x59beb35: jmp 0x59beb71
+// asm:   0x59beb37: jmp 0x59beb71
+// asm:   0x59beb39: jmp 0x59beb71
+// asm:   0x59beb3b: jmp 0x59beb71
+// asm:   0x59beb3d: jmp 0x59beb71
+// asm:   0x59beb3f: jmp 0x59beb71
+// asm:   0x59beb41: jmp 0x59beb71
+// asm:   0x59beb43: jmp 0x59beb71
+// asm:   0x59beb45: jmp 0x59beb71
+// asm:   0x59beb47: jmp 0x59beb71
+// asm:   0x59beb49: jmp 0x59beb71
+// asm:   0x59beb4b: jmp 0x59beb71
+// asm:   0x59beb4d: jmp 0x59beb71
+// asm:   0x59beb4f: jmp 0x59beb71
+// asm:   0x59beb51: jmp 0x59beb71
+// asm:   0x59beb53: jmp 0x59beb71
+// asm:   0x59beb55: jmp 0x59beb71
+// asm:   0x59beb57: jmp 0x59beb71
+// asm:   0x59beb59: jmp 0x59beb71
+// asm:   0x59beb5b: jmp 0x59beb71
+// asm:   0x59beb5d: jmp 0x59beb71
+// asm:   0x59beb5f: jmp 0x59beb71
+// asm:   0x59beb61: jmp 0x59beb71
+// asm:   0x59beb63: jmp 0x59beb71
+// asm:   0x59beb65: jmp 0x59beb71
+// asm:   0x59beb67: jmp 0x59beb71
+// asm:   0x59beb69: jmp 0x59beb71
+// asm:   0x59beb6b: jmp 0x59beb71
+// asm:   0x59beb6d: jmp 0x59beb71
+// asm:   0x59beb6f: jmp 0x59beb71
+// asm:   0x59beb71: mov rbx, rdx
+// asm:   0x59beb74: mov rbp, rax
+// asm:   0x59beb77: cmp ebx, 1
+// asm:   0x59beb7a: jne 0x59bef0e
+// asm:   0x59beb80: mov rdi, rbp
+// asm:   0x59beb83: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59beb88: mov rbx, qword ptr [rax]
+// asm:   0x59beb8b: mov qword ptr [rsp + 0x130], rbx
+// asm:   0x59beb93: xor r14d, r14d
+// asm:   0x59beb96: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59beb9b: jmp 0x59be858
+// asm:   0x59beed0: mov rdi, rbx
+// asm:   0x59beed3: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59bef00: mov rdi, r13
+// asm:   0x59bef03: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59bef08: mov rbx, rdx
+// asm:   0x59bef0b: mov rbp, rax
+// asm:   0x59bef0e: lea rdi, [rsp + 0x130]
+// asm:   0x59bef16: call 0x2fd5000  ; il2cpp_runtime_helper_02fd5000()
+// asm:   0x59bef1b: mov r15, qword ptr [rsp + 0x68]
+// asm:   0x59bef20: mov r12, qword ptr [rsp + 0x70]
+// asm:   0x59bef25: jmp 0x59bef73
+// asm:   0x59bef27: jmp 0x59bef63
+// asm:   0x59bef29: jmp 0x59bef63
+// asm:   0x59bef2b: jmp 0x59bef63
+// asm:   0x59bef2d: jmp 0x59bef63
+// asm:   0x59bef2f: jmp 0x59bef63
+// asm:   0x59bef31: jmp 0x59bef63
+// asm:   0x59bef33: jmp 0x59bef63
+// asm:   0x59bef35: jmp 0x59bef63
+// asm:   0x59bef37: jmp 0x59bef63
+// asm:   0x59bef39: jmp 0x59bef63
+// asm:   0x59bef3b: jmp 0x59bef63
+// asm:   0x59bef3d: jmp 0x59bef63
+// asm:   0x59bef3f: jmp 0x59bef63
+// asm:   0x59bef41: jmp 0x59bef63
+// asm:   0x59bef43: jmp 0x59bef63
+// asm:   0x59bef45: jmp 0x59bef63
+// asm:   0x59bef47: jmp 0x59bef63
+// asm:   0x59bef49: jmp 0x59bef63
+// asm:   0x59bef4b: jmp 0x59bef63
+// asm:   0x59bef4d: jmp 0x59bef63
+// asm:   0x59bef4f: jmp 0x59bef63
+// asm:   0x59bef51: jmp 0x59bef63
+// asm:   0x59bef53: jmp 0x59bef63
+// asm:   0x59bef55: jmp 0x59bef63
+// asm:   0x59bef57: jmp 0x59bef63
+// asm:   0x59bef59: jmp 0x59bef63
+// asm:   0x59bef5b: jmp 0x59bef63
+// asm:   0x59bef5d: jmp 0x59bef63
+// asm:   0x59bef5f: jmp 0x59bef63
+// asm:   0x59bef61: jmp 0x59bef63
+// asm:   0x59bef63: mov rbx, rdx
+// asm:   0x59bef66: mov rbp, rax
+// asm:   0x59bef69: mov r15, qword ptr [rsp + 0x68]
+// asm:   0x59bef6e: mov r12, qword ptr [rsp + 0x70]
+// asm:   0x59bef73: cmp ebx, 1
+// asm:   0x59bef76: jne 0x59bef9b
+// asm:   0x59bef78: mov rdi, rbp
+// asm:   0x59bef7b: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59bef80: mov r13, qword ptr [rax]
+// asm:   0x59bef83: mov qword ptr [rsp + 0x210], r13
+// asm:   0x59bef8b: xor r14d, r14d
+// asm:   0x59bef8e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59bef93: jmp 0x59bebb3
+// asm:   0x59bef98: mov rbp, rax
+// asm:   0x59bef9b: lea rdi, [rsp + 0x210]
+// asm:   0x59befa3: call 0x2fd50a0  ; il2cpp_runtime_helper_02fd50a0()
+// asm:   0x59befa8: mov rdi, rbp
+// asm:   0x59befab: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59befb0: mov rdi, rax
+// asm:   0x59befb3: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Collections_Generic_List_EffectText_Segment__o *
 PatreonEffects_EffectText__ParseLine(System_String_o *line,MethodInfo *method)
 
 {
-  byte bVar1;
-  System_Text_RegularExpressions_Regex_o *pSVar2;
-  longlong lVar3;
-  int32_t iVar4;
-  bool bVar5;
+  int32_t *piVar1;
+  UnityEngine_Color_o *pUVar2;
+  float *pfVar3;
+  PatreonEffects_EffectText_Segment_Fields *pPVar4;
+  byte bVar5;
+  uint uVar6;
+  System_Text_RegularExpressions_Regex_o *pSVar7;
+  Il2CppClass *pIVar8;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar9;
+  PatreonEffects_EffectText_Segment_array *pPVar10;
+  PatreonEffects_EffectText_Segment_o item;
+  PatreonEffects_EffectText_Segment_o item_00;
+  PatreonEffects_EffectText_Segment_o item_01;
+  UnityEngine_Color_o value;
+  UnityEngine_Color_o value_00;
+  System_Nullable_Color__o *pSVar11;
+  ulong uVar12;
+  undefined8 uVar13;
+  long lVar14;
+  bool bVar15;
   System_Collections_Generic_List_EffectText_Segment__o *__this;
-  System_Text_RegularExpressions_MatchCollection_o *pSVar6;
-  void *pvVar7;
-  longlong *plVar8;
-  System_String_o *pSVar9;
-  System_Text_RegularExpressions_GroupCollection_o *pSVar10;
-  System_Text_RegularExpressions_Group_o *pSVar11;
-  longlong *plVar12;
-  System_String_o *hex;
-  System_Nullable_Color__o *pSVar13;
-  Il2CppObject *obj;
-  int startIndex;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  undefined4 uVar18;
-  float fVar19;
-  float fVar20;
-  float fVar21;
-  undefined4 uVar22;
-  float fVar23;
-  float fVar24;
-  float fVar25;
-  undefined4 uVar26;
-  float fVar27;
-  float fVar28;
-  float fVar29;
-  undefined4 uVar30;
-  float fVar31;
-  float fVar32;
-  float fVar33;
-  int32_t local_res18 [2];
-  int local_res20;
-  Il2CppObject *local_238;
-  Il2CppObject *local_230;
-  System_String_o *local_228;
-  undefined8 uStack_220;
-  undefined8 local_218;
-  undefined8 uStack_210;
-  undefined8 local_208;
-  undefined8 uStack_200;
-  undefined8 local_1f8;
+  System_Text_RegularExpressions_MatchCollection_o *pSVar16;
+  VirtualInvokeData *pVVar17;
+  Il2CppObject *pIVar18;
+  System_String_o *pSVar19;
+  System_Text_RegularExpressions_GroupCollection_o *pSVar20;
+  System_Text_RegularExpressions_Group_o *pSVar21;
+  System_String_o *value_01;
+  int iVar22;
+  int iVar23;
+  ulong uVar24;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *pMVar25;
+  long lVar26;
+  Il2CppObject **local_248;
+  undefined8 uStack_240;
+  float local_238;
+  ulong local_228;
+  Il2CppObject *local_220;
+  Il2CppObject *local_218;
+  Il2CppObject *local_210;
+  int32_t local_204;
+  Il2CppObject *local_200;
+  System_String_o *local_1f8;
   undefined8 uStack_1f0;
-  undefined8 local_1e8;
+  Il2CppObject **local_1e8;
   undefined8 uStack_1e0;
-  undefined8 local_1d8;
-  undefined8 uStack_1d0;
-  undefined8 local_1c8;
-  System_Collections_Generic_List_EffectText_Segment__o *local_1c0;
-  System_Collections_Generic_List_EffectText_Segment__o *local_1b8;
-  undefined8 local_1b0;
-  Il2CppObject **local_1a8;
-  undefined8 *local_1a0;
-  undefined8 local_198;
+  float local_1d8;
+  undefined4 uStack_1d4;
+  undefined4 uStack_1d0;
+  float fStack_1cc;
+  float local_1c8;
+  float fStack_1c4;
+  Il2CppObject **ppIStack_1c0;
+  undefined8 local_1b8;
+  float fStack_1b0;
+  undefined4 uStack_1ac;
+  undefined4 local_1a8;
+  float fStack_1a4;
+  float fStack_1a0;
+  float fStack_19c;
+  System_String_o *local_198;
   undefined8 uStack_190;
-  float local_188;
-  undefined8 local_180;
-  undefined8 uStack_178;
-  float local_170;
+  Il2CppObject **local_188;
+  float fStack_180;
+  float fStack_17c;
+  undefined8 local_178;
+  undefined8 uStack_170;
   undefined8 local_168;
-  undefined8 uStack_160;
+  Il2CppObject **ppIStack_160;
   float local_158;
-  undefined8 local_150;
-  undefined8 uStack_148;
-  float local_140;
-  undefined8 local_138;
-  Il2CppObject **local_130;
-  undefined8 *local_128;
-  longlong *local_120;
-  System_String_o *local_118;
-  System_String_o *local_108;
-  ulonglong uStack_100;
-  undefined8 local_f8;
+  float fStack_154;
+  undefined8 uStack_150;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  Il2CppObject **local_138;
+  undefined8 uStack_130;
+  float local_128;
+  Il2CppObject **local_118;
+  undefined8 uStack_110;
+  float local_108;
+  Il2CppObject **local_f8;
   undefined8 uStack_f0;
-  undefined8 local_e8;
-  undefined8 uStack_e0;
-  undefined8 local_d8;
+  float local_e8;
+  Il2CppObject **local_d8;
   undefined8 uStack_d0;
   float local_c8;
-  float fStack_c4;
-  float fStack_c0;
-  undefined4 uStack_bc;
-  float local_b8;
-  float fStack_b4;
-  float fStack_b0;
-  float fStack_ac;
-  System_Nullable_Color__o local_a8 [5];
+  System_String_o *local_b8;
+  undefined8 uStack_b0;
+  Il2CppObject **local_a8;
+  float fStack_a0;
+  float fStack_9c;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  undefined8 local_88;
+  Il2CppObject **ppIStack_80;
+  float local_78;
+  float fStack_74;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  UnityEngine_Color_Fields local_58;
+  UnityEngine_Color_Fields local_48;
+  System_String_o *local_38;
   
-  if (Il2CppMethodInitialized_184346937 == '\0') {
+  if (Il2CppMethodInitialized_07545bcb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
@@ -1033,449 +1178,899 @@ PatreonEffects_EffectText__ParseLine(System_String_o *line,MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"d");
     il2cpp_codegen_initialize_runtime_metadata(&"content");
     il2cpp_codegen_initialize_runtime_metadata(&"key");
-    Il2CppMethodInitialized_184346937 = '\x01';
+    Il2CppMethodInitialized_07545bcb = '\x01';
   }
-  startIndex = 0;
-  local_238 = (Il2CppObject *)0x0;
-  local_228 = (System_String_o *)0x0;
-  uStack_220 = 0;
-  local_218 = 0;
-  uStack_210 = 0;
-  local_208 = 0;
-  uStack_200 = 0;
-  local_1f8 = 0;
-  uStack_1f0 = 0;
-  local_1e8 = 0;
-  uStack_1e0 = 0;
-  local_1d8 = 0;
+  local_210 = (Il2CppObject *)0x0;
+  local_d8 = (Il2CppObject **)0x0;
+  uStack_d0._0_4_ = 0.0;
+  uStack_d0._4_4_ = 0.0;
+  local_c8 = 0.0;
+  local_f8 = (Il2CppObject **)0x0;
+  uStack_f0._0_4_ = 0.0;
+  uStack_f0._4_4_ = 0.0;
+  local_e8 = 0.0;
+  local_118 = (Il2CppObject **)0x0;
+  uStack_110._0_4_ = 0.0;
+  uStack_110._4_4_ = 0.0;
+  local_108 = 0.0;
+  local_138 = (Il2CppObject **)0x0;
+  uStack_130._0_4_ = 0.0;
+  uStack_130._4_4_ = 0.0;
+  local_128 = 0.0;
+  local_1a8 = 0;
+  fStack_1a4 = 0.0;
+  fStack_1a0 = 0.0;
+  fStack_19c = 0.0;
+  local_1b8._0_4_ = 0.0;
+  local_1b8._4_4_ = 0.0;
+  fStack_1b0 = 0.0;
+  uStack_1ac = 0;
+  local_1c8 = 0.0;
+  fStack_1c4 = 0.0;
+  ppIStack_1c0 = (Il2CppObject **)0x0;
+  local_1d8 = 0.0;
+  uStack_1d4 = 0;
   uStack_1d0 = 0;
-  local_230 = (Il2CppObject *)0x0;
-  local_1c8 = 0;
+  fStack_1cc = 0.0;
+  local_1e8 = (Il2CppObject **)0x0;
+  uStack_1e0._0_4_ = 0.0;
+  uStack_1e0._4_4_ = 0.0;
+  local_1f8 = (System_String_o *)0x0;
+  uStack_1f0 = 0;
+  local_220 = (Il2CppObject *)0x0;
+  local_200 = (Il2CppObject *)0x0;
   __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_EffectText_Segment);
-  local_1c0 = __this;
   System_Collections_Generic_List_EffectText_Segment____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_EffectText_Segment_ctor);
+            (__this,(MethodInfo_3A87F70 *)MethodInfo_System_Collections_Generic_List_EffectText_Segment_ctor);
   if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
   }
-  pSVar2 = TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex;
-  if (pSVar2 != (System_Text_RegularExpressions_Regex_o *)0x0) {
-    pSVar6 = System_Text_RegularExpressions_Regex__Matches_285d470(pSVar2,line,(MethodInfo *)0x0);
-    if (pSVar6 != (System_Text_RegularExpressions_MatchCollection_o *)0x0) {
-      local_res20 = 0;
-      local_1b8 = __this;
-      local_238 = (Il2CppObject *)
-                  System_Text_RegularExpressions_MatchCollection__GetEnumerator(pSVar6,(MethodInfo *)0x0);
-      local_1b0 = 0;
-      local_1a8 = &local_238;
-      local_1a0 = &local_1c8;
-      while( true ) {
-        if (local_238 == (Il2CppObject *)0x0) {
+  pSVar7 = TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex;
+  if (pSVar7 != (System_Text_RegularExpressions_Regex_o *)0x0) {
+    local_228 = 0;
+    pSVar16 = System_Text_RegularExpressions_Regex__Matches(pSVar7,line,(MethodInfo *)0x0);
+    if (pSVar16 != (System_Text_RegularExpressions_MatchCollection_o *)0x0) {
+      local_210 = (Il2CppObject *)
+                  System_Text_RegularExpressions_MatchCollection__GetEnumerator(pSVar16,(MethodInfo *)0x0);
+      local_b8 = (System_String_o *)0x0;
+      uStack_b0 = &local_210;
+      local_a8 = &local_200;
+      if (local_210 == (Il2CppObject *)0x0) {
+label_059beea3:
+        ThrowNullReferenceException();
+      }
+      local_228 = 0;
+label_059bdcd8:
+      pIVar18 = local_210;
+      pIVar8 = local_210->klass;
+      uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+      if (uVar24 != 0) {
+        pIVar9 = (pIVar8->_1).interfaceOffsets;
+        lVar26 = 0;
+        do {
+          if (*(System_Collections_IEnumerator_c **)((long)&pIVar9->interfaceType + lVar26) ==
+              TypeInfo_System_Collections_IEnumerator) {
+            pVVar17 = (VirtualInvokeData *)&pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26)].methodPtr
+            ;
+            goto label_059bdd33;
+          }
+          lVar26 = lVar26 + 0x10;
+        } while (uVar24 * 0x10 != lVar26);
+      }
+      pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (local_210,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_059bdd33:
+      bVar15 = (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+      pIVar18 = local_210;
+      if (bVar15) {
+        if (local_210 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
-        pvVar7 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_238);
-        if ((char)pvVar7 == '\0') break;
-        if (local_238 == (Il2CppObject *)0x0) {
+        pIVar8 = local_210->klass;
+        uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+        if (uVar24 != 0) {
+          pIVar9 = (pIVar8->_1).interfaceOffsets;
+          lVar26 = 0;
+          do {
+            if (*(System_Collections_IEnumerator_c **)((long)&pIVar9->interfaceType + lVar26) ==
+                TypeInfo_System_Collections_IEnumerator) {
+              pVVar17 = (VirtualInvokeData *)
+                        &pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26) + 1].methodPtr;
+              goto label_059bddc7;
+            }
+            lVar26 = lVar26 + 0x10;
+          } while (uVar24 * 0x10 != lVar26);
+        }
+        pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (local_210,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,1);
+label_059bddc7:
+        pIVar18 = (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+        if (pIVar18 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
-        plVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_238);
-        local_120 = plVar8;
-        if (plVar8 == (longlong *)0x0) {
-          ThrowNullReferenceException();
+        bVar5 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
+        local_218 = pIVar18;
+        if (((pIVar18->klass->_2).typeHierarchyDepth < bVar5) ||
+           ((pIVar18->klass->_2).typeHierarchy[(ulong)bVar5 - 1] !=
+            (Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Match)) {
+          il2cpp_codegen_raise_invalid_cast_exception(pIVar18);
         }
-        bVar1 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
-        if ((*(byte *)(*plVar8 + 0x130) < bVar1) ||
-           (*(System_Text_RegularExpressions_Match_c **)
-             (*(longlong *)(*plVar8 + 200) + -8 + (ulonglong)bVar1 * 8) !=
-            TypeInfo_System_Text_RegularExpressions_Match)) {
-          il2cpp_codegen_raise_invalid_cast_exception(plVar8);
-        }
-        if (startIndex < (int)plVar8[2]) {
+        iVar22 = *(int *)&pIVar18[1].klass - (int)local_228;
+        if (iVar22 != 0 && (int)local_228 <= *(int *)&pIVar18[1].klass) {
           if (line == (System_String_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar9 = System_String__Substring_1972740
-                             (line,startIndex,(int)plVar8[2] - startIndex,(MethodInfo *)0x0);
-          if (pSVar9 == (System_String_o *)0x0) {
+          pSVar19 = System_String__Substring_53042f0(line,(int)local_228,iVar22,(MethodInfo *)0x0);
+          if (pSVar19 == (System_String_o *)0x0) {
             ThrowNullReferenceException();
           }
-          if (0 < (pSVar9->fields)._stringLength) {
-            uStack_220 = 0;
-            local_218 = 0;
-            uStack_210 = 0;
-            local_208 = 0;
-            uStack_200 = 0;
-            local_1f8 = 0;
-            uStack_1f0 = 0;
-            local_1e8 = 0;
-            uStack_1e0 = 0;
-            local_1d8 = 0;
+          if (0 < (pSVar19->fields)._stringLength) {
+            fStack_1b0 = 0.0;
+            uStack_1ac = 0;
+            local_1a8 = 0;
+            fStack_1a4 = 0.0;
+            ppIStack_1c0 = (Il2CppObject **)0x0;
+            local_1b8._0_4_ = 0.0;
+            local_1b8._4_4_ = 0.0;
             uStack_1d0 = 0;
-            local_228 = pSVar9;
-            Il2CppCodeGenWriteBarrier(&local_228,pSVar9);
-            uStack_220 = uStack_220 & 0xffffffffffffff00;
-            if (__this == (System_Collections_Generic_List_EffectText_Segment__o *)0x0) {
-              ThrowNullReferenceException();
+            fStack_1cc = 0.0;
+            local_1c8 = 0.0;
+            fStack_1c4 = 0.0;
+            uStack_1e0._0_4_ = 0.0;
+            uStack_1e0._4_4_ = 0.0;
+            local_1d8 = 0.0;
+            uStack_1d4 = 0;
+            uStack_1f0 = 0;
+            local_1e8 = (Il2CppObject **)0x0;
+            fStack_1a0 = 0.0;
+            fStack_19c = 0.0;
+            local_1f8 = pSVar19;
+            Il2CppCodeGenWriteBarrier(&local_1f8);
+            uVar12 = uStack_1f0;
+            pMVar25 = MethodInfo_System_Collections_Generic_List_EffectText_Segment_Add;
+            uVar24 = uStack_1f0 >> 8;
+            uStack_1f0 = uVar24 << 8;
+            lVar26 = uStack_1f0;
+            uStack_1f0 = lVar26;
+            if (__this != (System_Collections_Generic_List_EffectText_Segment__o *)0x0) {
+              local_148 = CONCAT44(fStack_1a4,local_1a8);
+              uStack_140 = CONCAT44(fStack_19c,fStack_1a0);
+              uStack_150 = CONCAT44(uStack_1ac,fStack_1b0);
+              local_158 = (float)local_1b8;
+              fStack_154 = local_1b8._4_4_;
+              uStack_1f0._5_2_ = SUB82(uVar12,5);
+              uStack_1f0._7_1_ = SUB81(uVar12,7);
+              local_178 = CONCAT44(uStack_1d4,local_1d8);
+              uStack_170 = CONCAT44(fStack_1cc,uStack_1d0);
+              local_168 = CONCAT44(fStack_1c4,local_1c8);
+              ppIStack_160 = ppIStack_1c0;
+              local_188 = local_1e8;
+              fStack_180 = (float)uStack_1e0;
+              fStack_17c = uStack_1e0._4_4_;
+              local_198 = local_1f8;
+              uStack_190 = (Il2CppObject **)((uVar24 & 0xffffffff) << 8);
+              lVar26 = (long)uStack_190;
+              uStack_190 = (Il2CppObject **)
+                           CONCAT17(uStack_1f0._7_1_,CONCAT25(uStack_1f0._5_2_,(undefined5)uStack_190));
+              lVar14 = (long)uStack_190;
+              piVar1 = &(__this->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pPVar10 = (__this->fields)._items;
+              if (pPVar10 != (PatreonEffects_EffectText_Segment_array *)0x0) {
+                uVar6 = (__this->fields)._size;
+                uStack_190 = (Il2CppObject **)lVar14;
+                if (uVar6 < (uint)pPVar10->max_length) {
+                  (__this->fields)._size = uVar6 + 1;
+                  pUVar2 = &pPVar10->m_Items[(int)uVar6].fields.ColorD.fields.value;
+                  (pUVar2->fields).r = (float)local_1a8;
+                  (pUVar2->fields).g = fStack_1a4;
+                  (pUVar2->fields).b = fStack_1a0;
+                  (pUVar2->fields).a = fStack_19c;
+                  pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorC;
+                  (pSVar11->fields).value.fields.g = (float)local_1b8;
+                  (pSVar11->fields).value.fields.b = local_1b8._4_4_;
+                  *(undefined8 *)(&(pSVar11->fields).value.fields.g + 2) = uStack_150;
+                  pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorB;
+                  (pSVar11->fields).value.fields.b = local_1c8;
+                  (pSVar11->fields).value.fields.a = fStack_1c4;
+                  *(Il2CppObject ***)(&(pSVar11->fields).value.fields.b + 2) = ppIStack_1c0;
+                  pfVar3 = &pPVar10->m_Items[(int)uVar6].fields.ColorA.fields.value.fields.a;
+                  *pfVar3 = local_1d8;
+                  pfVar3[1] = (float)uStack_1d4;
+                  pfVar3[2] = (float)uStack_1d0;
+                  pfVar3[3] = fStack_1cc;
+                  pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorA;
+                  *(Il2CppObject ***)&pSVar11->fields = local_1e8;
+                  (pSVar11->fields).value.fields.g = (float)uStack_1e0;
+                  (pSVar11->fields).value.fields.b = uStack_1e0._4_4_;
+                  pPVar4 = &pPVar10->m_Items[(int)uVar6].fields;
+                  pPVar4->Content = local_1f8;
+                  uStack_190._0_1_ = (undefined1)lVar26;
+                  uStack_190._1_3_ = SUB83(lVar26,1);
+                  uStack_190._4_4_ = SUB84(lVar14,4);
+                  pPVar4->HasEffect = (bool)(undefined1)uStack_190;
+                  *(undefined3 *)&pPVar4->field_0x9 = uStack_190._1_3_;
+                  pPVar4->Effect = uStack_190._4_4_;
+                  Il2CppCodeGenWriteBarrier(&pPVar10->m_Items[(int)uVar6].fields.Content);
+                }
+                else {
+                  uStack_190._0_1_ = (undefined1)lVar26;
+                  uStack_190._1_3_ = SUB83(lVar26,1);
+                  uStack_190._4_4_ = SUB84(lVar14,4);
+                  item_00.fields.HasEffect = (bool)(undefined1)uStack_190;
+                  item_00.fields._9_3_ = uStack_190._1_3_;
+                  item_00.fields.Effect = uStack_190._4_4_;
+                  item_00.fields.Content = local_1f8;
+                  item_00.fields.ColorA.fields._0_8_ = local_1e8;
+                  item_00.fields.ColorA.fields.value.fields.g = (float)uStack_1e0;
+                  item_00.fields.ColorA.fields.value.fields.b = uStack_1e0._4_4_;
+                  item_00.fields.ColorA.fields.value.fields.a = local_1d8;
+                  item_00.fields.ColorB.fields._0_4_ = uStack_1d4;
+                  item_00.fields.ColorB.fields.value.fields.r = (float)uStack_1d0;
+                  item_00.fields.ColorB.fields.value.fields.g = fStack_1cc;
+                  item_00.fields.ColorB.fields.value.fields.b = local_1c8;
+                  item_00.fields.ColorB.fields.value.fields.a = fStack_1c4;
+                  item_00.fields.ColorC.fields._0_8_ = ppIStack_1c0;
+                  item_00.fields.ColorC.fields.value.fields.g = (float)local_1b8;
+                  item_00.fields.ColorC.fields.value.fields.b = local_1b8._4_4_;
+                  item_00.fields.ColorC.fields.value.fields.a = fStack_1b0;
+                  item_00.fields.ColorD.fields.hasValue = (bool)(char)uStack_1ac;
+                  item_00.fields.ColorD.fields._1_3_ = (int3)((uint)uStack_1ac >> 8);
+                  item_00.fields.ColorD.fields.value.fields.r = (float)local_1a8;
+                  item_00.fields.ColorD.fields.value.fields.g = fStack_1a4;
+                  item_00.fields.ColorD.fields.value.fields.b = fStack_1a0;
+                  item_00.fields.ColorD.fields.value.fields.a = fStack_19c;
+                  System_Collections_Generic_List_EffectText_Segment___AddWithResize
+                            (__this,item_00,(MethodInfo_3A88A50 *)pMVar25->klass->rgctx_data[0xe].method);
+                }
+                goto label_059be040;
+              }
             }
-            local_108 = local_228;
-            uStack_100 = uStack_220;
-            local_f8 = local_218;
-            uStack_f0 = uStack_210;
-            local_e8 = local_208;
-            uStack_e0 = uStack_200;
-            local_d8 = local_1f8;
-            uStack_d0 = uStack_1f0;
-            local_c8 = (float)local_1e8;
-            fStack_c4 = local_1e8._4_4_;
-            fStack_c0 = (float)uStack_1e0;
-            uStack_bc = uStack_1e0._4_4_;
-            local_b8 = (float)local_1d8;
-            fStack_b4 = local_1d8._4_4_;
-            fStack_b0 = (float)uStack_1d0;
-            fStack_ac = uStack_1d0._4_4_;
-            il2cpp_runtime_helper_180042e30(__this,&local_108);
+            ThrowNullReferenceException();
           }
         }
-        pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
-                  (**(code **)(*plVar8 + 0x188))(plVar8,*(undefined8 *)(*plVar8 + 400));
-        if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
+label_059be040:
+        pSVar20 = (System_Text_RegularExpressions_GroupCollection_o *)
+                  (*local_218->klass->vtable[5].methodPtr)(local_218,local_218->klass->vtable[5].method);
+        if (pSVar20 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
-                            (pSVar10,"attrs",(MethodInfo *)0x0);
-        if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
+        pSVar21 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
+                            (pSVar20,"attrs",(MethodInfo *)0x0);
+        if (pSVar21 == (System_Text_RegularExpressions_Group_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar9 = System_Text_RegularExpressions_Capture__ToString
-                           ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-        pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
-                  (**(code **)(*plVar8 + 0x188))(plVar8,*(undefined8 *)(*plVar8 + 400));
-        if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
+        pSVar19 = System_Text_RegularExpressions_Capture__get_Value
+                            ((System_Text_RegularExpressions_Capture_o *)pSVar21,(MethodInfo *)0x0);
+        pSVar20 = (System_Text_RegularExpressions_GroupCollection_o *)
+                  (*local_218->klass->vtable[5].methodPtr)(local_218,local_218->klass->vtable[5].method);
+        if (pSVar20 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
-                            (pSVar10,"content",(MethodInfo *)0x0);
-        if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
+        pSVar21 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
+                            (pSVar20,"content",(MethodInfo *)0x0);
+        if (pSVar21 == (System_Text_RegularExpressions_Group_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_118 = System_Text_RegularExpressions_Capture__ToString
-                              ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-        local_res18[0] = 0;
-        uVar18 = 0;
-        fVar19 = 0.0;
-        fVar20 = 0.0;
-        fVar21 = 0.0;
-        fVar16 = 0.0;
-        local_198 = 0;
-        uStack_190 = 0;
-        local_188 = 0.0;
-        uVar22 = 0;
-        fVar23 = 0.0;
-        fVar24 = 0.0;
-        fVar25 = 0.0;
-        fVar17 = 0.0;
-        local_180 = 0;
-        uStack_178 = 0;
-        local_170 = 0.0;
-        uVar26 = 0;
-        fVar27 = 0.0;
-        fVar28 = 0.0;
-        fVar29 = 0.0;
-        fVar14 = 0.0;
-        local_168 = 0;
-        uStack_160 = 0;
-        local_158 = 0.0;
-        uVar30 = 0;
-        fVar31 = 0.0;
-        fVar32 = 0.0;
-        fVar33 = 0.0;
-        fVar15 = 0.0;
-        local_150 = 0;
-        uStack_148 = 0;
-        local_140 = 0.0;
+        local_38 = System_Text_RegularExpressions_Capture__get_Value
+                             ((System_Text_RegularExpressions_Capture_o *)pSVar21,(MethodInfo *)0x0);
+        local_d8 = (Il2CppObject **)0x0;
+        uStack_d0._0_4_ = 0.0;
+        uStack_d0._4_4_ = 0.0;
+        local_c8 = 0.0;
+        local_f8 = (Il2CppObject **)0x0;
+        uStack_f0._0_4_ = 0.0;
+        uStack_f0._4_4_ = 0.0;
+        local_e8 = 0.0;
+        local_118 = (Il2CppObject **)0x0;
+        uStack_110._0_4_ = 0.0;
+        uStack_110._4_4_ = 0.0;
+        local_108 = 0.0;
+        local_138 = (Il2CppObject **)0x0;
+        uStack_130._0_4_ = 0.0;
+        uStack_130._4_4_ = 0.0;
+        local_128 = 0.0;
         if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
         }
-        pSVar2 = TypeInfo_PatreonEffects_EffectText->static_fields->_attrRegex;
-        if (pSVar2 == (System_Text_RegularExpressions_Regex_o *)0x0) {
+        pSVar7 = TypeInfo_PatreonEffects_EffectText->static_fields->_attrRegex;
+        if (pSVar7 == (System_Text_RegularExpressions_Regex_o *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar6 = System_Text_RegularExpressions_Regex__Matches_285d470(pSVar2,pSVar9,(MethodInfo *)0x0);
-        if (pSVar6 == (System_Text_RegularExpressions_MatchCollection_o *)0x0) {
+        pSVar16 = System_Text_RegularExpressions_Regex__Matches(pSVar7,pSVar19,(MethodInfo *)0x0);
+        if (pSVar16 == (System_Text_RegularExpressions_MatchCollection_o *)0x0) {
           ThrowNullReferenceException();
         }
-        local_230 = (Il2CppObject *)
-                    System_Text_RegularExpressions_MatchCollection__GetEnumerator(pSVar6,(MethodInfo *)0x0);
-        local_138 = 0;
-        local_130 = &local_230;
-        local_128 = &local_1c8;
-        while( true ) {
-          if (local_230 == (Il2CppObject *)0x0) {
+        local_220 = (Il2CppObject *)
+                    System_Text_RegularExpressions_MatchCollection__GetEnumerator(pSVar16,(MethodInfo *)0x0);
+        local_198 = (System_String_o *)0x0;
+        uStack_190 = &local_220;
+        local_188 = &local_200;
+        if (local_220 == (Il2CppObject *)0x0) {
+label_059beb27:
+          ThrowNullReferenceException();
+        }
+        iVar22 = 0;
+        do {
+          pIVar18 = local_220;
+          pIVar8 = local_220->klass;
+          uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+          if (uVar24 != 0) {
+            pIVar9 = (pIVar8->_1).interfaceOffsets;
+            lVar26 = 0;
+            do {
+              if (*(System_Collections_IEnumerator_c **)((long)&pIVar9->interfaceType + lVar26) ==
+                  TypeInfo_System_Collections_IEnumerator) {
+                pVVar17 = (VirtualInvokeData *)
+                          &pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26)].methodPtr;
+                goto label_059be273;
+              }
+              lVar26 = lVar26 + 0x10;
+            } while (uVar24 * 0x10 != lVar26);
+          }
+          pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath
+                              (local_220,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_059be273:
+          bVar15 = (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+          pIVar18 = local_220;
+          if (!bVar15) goto label_059be850;
+          if (local_220 == (Il2CppObject *)0x0) {
             ThrowNullReferenceException();
           }
-          pvVar7 = InterfaceInvoker0_Invoke
-                             (0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_230);
-          if ((char)pvVar7 == '\0') break;
-          if (local_230 == (Il2CppObject *)0x0) {
+          pIVar8 = local_220->klass;
+          uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+          if (uVar24 != 0) {
+            pIVar9 = (pIVar8->_1).interfaceOffsets;
+            lVar26 = 0;
+            do {
+              if (*(System_Collections_IEnumerator_c **)((long)&pIVar9->interfaceType + lVar26) ==
+                  TypeInfo_System_Collections_IEnumerator) {
+                pVVar17 = (VirtualInvokeData *)
+                          &pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26) + 1].methodPtr;
+                goto label_059be307;
+              }
+              lVar26 = lVar26 + 0x10;
+            } while (uVar24 * 0x10 != lVar26);
+          }
+          pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath
+                              (local_220,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,1);
+label_059be307:
+          pIVar18 = (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+          if (pIVar18 == (Il2CppObject *)0x0) {
             ThrowNullReferenceException();
           }
-          plVar12 = InterfaceInvoker0_Invoke
-                              (1,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_230);
-          if (plVar12 == (longlong *)0x0) {
+          pIVar8 = pIVar18->klass;
+          bVar5 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
+          if (((pIVar8->_2).typeHierarchyDepth < bVar5) ||
+             ((pIVar8->_2).typeHierarchy[(ulong)bVar5 - 1] !=
+              (Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Match)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar18);
+          }
+          pSVar20 = (System_Text_RegularExpressions_GroupCollection_o *)
+                    (*pIVar8->vtable[5].methodPtr)(pIVar18,pIVar8->vtable[5].method);
+          if (pSVar20 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
             ThrowNullReferenceException();
           }
-          lVar3 = *plVar12;
-          bVar1 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
-          if ((*(byte *)(lVar3 + 0x130) < bVar1) ||
-             (*(System_Text_RegularExpressions_Match_c **)
-               (*(longlong *)(lVar3 + 200) + -8 + (ulonglong)bVar1 * 8) !=
-              TypeInfo_System_Text_RegularExpressions_Match)) {
-            il2cpp_codegen_raise_invalid_cast_exception(plVar12);
-          }
-          pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
-                    (**(code **)(lVar3 + 0x188))(plVar12,*(undefined8 *)(lVar3 + 400));
-          if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
+          pSVar21 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
+                              (pSVar20,"key",(MethodInfo *)0x0);
+          if (pSVar21 == (System_Text_RegularExpressions_Group_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
-                              (pSVar10,"key",(MethodInfo *)0x0);
-          if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
+          pSVar19 = System_Text_RegularExpressions_Capture__get_Value
+                              ((System_Text_RegularExpressions_Capture_o *)pSVar21,(MethodInfo *)0x0);
+          if (pSVar19 == (System_String_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar9 = System_Text_RegularExpressions_Capture__ToString
-                             ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-          if (pSVar9 == (System_String_o *)0x0) {
+          pSVar19 = System_String__ToLowerInvariant(pSVar19,(MethodInfo *)0x0);
+          pSVar20 = (System_Text_RegularExpressions_GroupCollection_o *)
+                    (*pIVar18->klass->vtable[5].methodPtr)(pIVar18,pIVar18->klass->vtable[5].method);
+          if (pSVar20 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar9 = System_String__ToLowerInvariant(pSVar9,(MethodInfo *)0x0);
-          pSVar10 = (System_Text_RegularExpressions_GroupCollection_o *)
-                    (**(code **)(*plVar12 + 0x188))(plVar12,*(undefined8 *)(*plVar12 + 400));
-          if (pSVar10 == (System_Text_RegularExpressions_GroupCollection_o *)0x0) {
+          pSVar21 = System_Text_RegularExpressions_GroupCollection__get_Item_61df1f0
+                              (pSVar20,"val",(MethodInfo *)0x0);
+          if (pSVar21 == (System_Text_RegularExpressions_Group_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar11 = System_Text_RegularExpressions_GroupCollection__get_Item_284bfa0
-                              (pSVar10,"val",(MethodInfo *)0x0);
-          if (pSVar11 == (System_Text_RegularExpressions_Group_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          hex = System_Text_RegularExpressions_Capture__ToString
-                          ((System_Text_RegularExpressions_Capture_o *)pSVar11,(MethodInfo *)0x0);
-          bVar5 = System_String__op_Equality(pSVar9,"effect",(MethodInfo *)0x0);
-          if (bVar5) {
-            PatreonEffects_NameEffectPresets__TryResolve(hex,local_res18,(MethodInfo *)0x0);
+          value_01 = System_Text_RegularExpressions_Capture__get_Value
+                               ((System_Text_RegularExpressions_Capture_o *)pSVar21,(MethodInfo *)0x0);
+          bVar15 = System_String__op_Equality(pSVar19,"effect",(MethodInfo *)0x0);
+          if (bVar15) {
+            if (Il2CppMethodInitialized_07545bfe == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Enum_TryParse_NameEffectType);
+              il2cpp_codegen_initialize_runtime_metadata(&"Wave");
+              il2cpp_codegen_initialize_runtime_metadata(&"None");
+              Il2CppMethodInitialized_07545bfe = '\x01';
+            }
+            local_204 = 0;
+            bVar15 = System_String__IsNullOrWhiteSpace(value_01,(MethodInfo *)0x0);
+            iVar22 = 0;
+            if (!bVar15) {
+              bVar15 = System_String__op_Equality(value_01,"None",(MethodInfo *)0x0);
+              iVar22 = 0;
+              if (!bVar15) {
+                bVar15 = System_String__Equals_52ffe30(value_01,"Wave",5,(MethodInfo *)0x0);
+                iVar23 = 5;
+                if (!bVar15) {
+                  if ((g_data_07556760->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init(g_data_07556760);
+                  }
+                  pMVar25 = (MethodInfo *)0x1;
+                  bVar15 = System_Enum__TryParse_Int32Enum__34dc6f0
+                                     (value_01,true,&local_204,
+                                      (MethodInfo_34DC6F0 *)MethodInfo_System_Enum_TryParse_NameEffectType);
+                  if ((!bVar15) || (iVar23 = local_204, 6 < local_204 - 1U)) {
+                    bVar15 = PatreonEffects_NameEffectPresets__IsLegacyEffect(value_01,pMVar25);
+                    iVar23 = 1;
+                    iVar22 = 0;
+                    if (!bVar15) goto label_059be204;
+                  }
+                }
+                iVar22 = iVar23;
+              }
+            }
           }
           else {
-            bVar5 = System_String__op_Equality(pSVar9,"a",(MethodInfo *)0x0);
-            if (bVar5) {
+            bVar15 = System_String__op_Equality(pSVar19,"a",(MethodInfo *)0x0);
+            if (bVar15) {
               if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
               }
-              pSVar13 = PatreonEffects_EffectText__ParseColor(local_a8,hex,(MethodInfo *)0x0);
-              uVar18 = *(undefined4 *)&pSVar13->fields;
-              fVar19 = (pSVar13->fields).value.fields.r;
-              local_198._0_1_ = (pSVar13->fields).hasValue;
-              local_198._1_3_ = *(undefined3 *)&(pSVar13->fields).field_0x1;
-              local_198._4_4_ = (pSVar13->fields).value.fields.r;
-              fVar20 = (pSVar13->fields).value.fields.g;
-              fVar21 = (pSVar13->fields).value.fields.b;
-              uStack_190._0_4_ = (pSVar13->fields).value.fields.g;
-              uStack_190._4_4_ = (pSVar13->fields).value.fields.b;
-              fVar16 = (pSVar13->fields).value.fields.a;
-              local_188 = fVar16;
-            }
-            else {
-              bVar5 = System_String__op_Equality(pSVar9,"b",(MethodInfo *)0x0);
-              if (bVar5) {
-                if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
-                }
-                pSVar13 = PatreonEffects_EffectText__ParseColor(local_a8,hex,(MethodInfo *)0x0);
-                uVar22 = *(undefined4 *)&pSVar13->fields;
-                fVar23 = (pSVar13->fields).value.fields.r;
-                local_180._0_1_ = (pSVar13->fields).hasValue;
-                local_180._1_3_ = *(undefined3 *)&(pSVar13->fields).field_0x1;
-                local_180._4_4_ = (pSVar13->fields).value.fields.r;
-                fVar24 = (pSVar13->fields).value.fields.g;
-                fVar25 = (pSVar13->fields).value.fields.b;
-                uStack_178._0_4_ = (pSVar13->fields).value.fields.g;
-                uStack_178._4_4_ = (pSVar13->fields).value.fields.b;
-                fVar17 = (pSVar13->fields).value.fields.a;
-                local_170 = fVar17;
+              if (Il2CppMethodInitialized_07545bcc == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_ctor);
+                il2cpp_codegen_initialize_runtime_metadata(&"#");
+                Il2CppMethodInitialized_07545bcc = '\x01';
+              }
+              local_58.r = 0.0;
+              local_58.g = 0.0;
+              local_58.b = 0.0;
+              local_58.a = 0.0;
+              bVar15 = System_String__IsNullOrEmpty(value_01,(MethodInfo *)0x0);
+              if (bVar15) {
+label_059be1d0:
+                local_248 = (Il2CppObject **)0x0;
+                uStack_240._0_4_ = 0.0;
+                uStack_240._4_4_ = 0.0;
+                local_238 = 0.0;
               }
               else {
-                bVar5 = System_String__op_Equality(pSVar9,"c",(MethodInfo *)0x0);
-                if (bVar5) {
+                if (value_01 == (System_String_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                bVar15 = System_String__StartsWith(value_01,"#",(MethodInfo *)0x0);
+                if (!bVar15) {
+                  value_01 = System_String__Concat_52f0320("#",value_01,(MethodInfo *)0x0);
+                }
+                bVar15 = UnityEngine_ColorUtility__TryParseHtmlString
+                                   (value_01,(UnityEngine_Color_o *)&local_58,(MethodInfo *)0x0);
+                if (!bVar15) goto label_059be1d0;
+                value.fields.b = local_58.b;
+                value.fields.a = local_58.a;
+                value.fields.r = local_58.r;
+                value.fields.g = local_58.g;
+                local_248 = (Il2CppObject **)0x0;
+                uStack_240._0_4_ = 0.0;
+                uStack_240._4_4_ = 0.0;
+                local_238 = 0.0;
+                System_Nullable_Color____ctor
+                          ((System_Nullable_Color__o *)&local_248,value,
+                           (MethodInfo_3CD1300 *)MethodInfo_System_Nullable_Color_ctor);
+              }
+              local_d8 = local_248;
+              uStack_d0._0_4_ = (float)uStack_240;
+              uStack_d0._4_4_ = uStack_240._4_4_;
+              local_c8 = local_238;
+            }
+            else {
+              bVar15 = System_String__op_Equality(pSVar19,"b",(MethodInfo *)0x0);
+              if (!bVar15) {
+                bVar15 = System_String__op_Equality(pSVar19,"c",(MethodInfo *)0x0);
+                if (bVar15) {
+                  pMVar25 = extraout_RDX;
                   if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
                     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+                    pMVar25 = extraout_RDX_00;
                   }
-                  pSVar13 = PatreonEffects_EffectText__ParseColor(local_a8,hex,(MethodInfo *)0x0);
-                  uVar26 = *(undefined4 *)&pSVar13->fields;
-                  fVar27 = (pSVar13->fields).value.fields.r;
-                  local_168._0_1_ = (pSVar13->fields).hasValue;
-                  local_168._1_3_ = *(undefined3 *)&(pSVar13->fields).field_0x1;
-                  local_168._4_4_ = (pSVar13->fields).value.fields.r;
-                  fVar28 = (pSVar13->fields).value.fields.g;
-                  fVar29 = (pSVar13->fields).value.fields.b;
-                  uStack_160._0_4_ = (pSVar13->fields).value.fields.g;
-                  uStack_160._4_4_ = (pSVar13->fields).value.fields.b;
-                  fVar14 = (pSVar13->fields).value.fields.a;
-                  local_158 = fVar14;
+                  PatreonEffects_EffectText__ParseColor
+                            ((System_Nullable_Color__o *)&local_248,value_01,pMVar25);
+                  local_108 = local_238;
+                  local_118 = local_248;
+                  uStack_110._0_4_ = (float)uStack_240;
+                  uStack_110._4_4_ = uStack_240._4_4_;
                 }
                 else {
-                  bVar5 = System_String__op_Equality(pSVar9,"d",(MethodInfo *)0x0);
-                  if (bVar5) {
+                  bVar15 = System_String__op_Equality(pSVar19,"d",(MethodInfo *)0x0);
+                  if (bVar15) {
+                    pMVar25 = extraout_RDX_01;
                     if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
                       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+                      pMVar25 = extraout_RDX_02;
                     }
-                    pSVar13 = PatreonEffects_EffectText__ParseColor(local_a8,hex,(MethodInfo *)0x0);
-                    uVar30 = *(undefined4 *)&pSVar13->fields;
-                    fVar31 = (pSVar13->fields).value.fields.r;
-                    local_150._0_1_ = (pSVar13->fields).hasValue;
-                    local_150._1_3_ = *(undefined3 *)&(pSVar13->fields).field_0x1;
-                    local_150._4_4_ = (pSVar13->fields).value.fields.r;
-                    fVar32 = (pSVar13->fields).value.fields.g;
-                    fVar33 = (pSVar13->fields).value.fields.b;
-                    uStack_148._0_4_ = (pSVar13->fields).value.fields.g;
-                    uStack_148._4_4_ = (pSVar13->fields).value.fields.b;
-                    fVar15 = (pSVar13->fields).value.fields.a;
-                    local_140 = fVar15;
+                    PatreonEffects_EffectText__ParseColor
+                              ((System_Nullable_Color__o *)&local_248,value_01,pMVar25);
+                    local_128 = local_238;
+                    local_138 = local_248;
+                    uStack_130._0_4_ = (float)uStack_240;
+                    uStack_130._4_4_ = uStack_240._4_4_;
                   }
                 }
+                goto label_059be204;
               }
+              if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
+              }
+              if (Il2CppMethodInitialized_07545bcc == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_ctor);
+                il2cpp_codegen_initialize_runtime_metadata(&"#");
+                Il2CppMethodInitialized_07545bcc = '\x01';
+              }
+              local_48.r = 0.0;
+              local_48.g = 0.0;
+              local_48.b = 0.0;
+              local_48.a = 0.0;
+              bVar15 = System_String__IsNullOrEmpty(value_01,(MethodInfo *)0x0);
+              if (bVar15) {
+label_059be687:
+                local_248 = (Il2CppObject **)0x0;
+                uStack_240._0_4_ = 0.0;
+                uStack_240._4_4_ = 0.0;
+                local_238 = 0.0;
+              }
+              else {
+                if (value_01 == (System_String_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                bVar15 = System_String__StartsWith(value_01,"#",(MethodInfo *)0x0);
+                if (!bVar15) {
+                  value_01 = System_String__Concat_52f0320("#",value_01,(MethodInfo *)0x0);
+                }
+                bVar15 = UnityEngine_ColorUtility__TryParseHtmlString
+                                   (value_01,(UnityEngine_Color_o *)&local_48,(MethodInfo *)0x0);
+                if (!bVar15) goto label_059be687;
+                value_00.fields.b = local_48.b;
+                value_00.fields.a = local_48.a;
+                value_00.fields.r = local_48.r;
+                value_00.fields.g = local_48.g;
+                local_248 = (Il2CppObject **)0x0;
+                uStack_240._0_4_ = 0.0;
+                uStack_240._4_4_ = 0.0;
+                local_238 = 0.0;
+                System_Nullable_Color____ctor
+                          ((System_Nullable_Color__o *)&local_248,value_00,
+                           (MethodInfo_3CD1300 *)MethodInfo_System_Nullable_Color_ctor);
+              }
+              local_f8 = local_248;
+              uStack_f0._0_4_ = (float)uStack_240;
+              uStack_f0._4_4_ = uStack_240._4_4_;
+              local_e8 = local_238;
             }
           }
-        }
-        il2cpp_runtime_helper_1806aa210(&local_130);
-        iVar4 = local_res18[0];
-        bVar5 = local_res18[0] != 0;
-        uStack_220 = 0;
-        local_218 = 0;
-        uStack_210 = 0;
-        local_208 = 0;
-        uStack_200 = 0;
-        local_1f8 = 0;
-        uStack_1f0 = 0;
-        local_1e8 = 0;
-        uStack_1e0 = 0;
-        local_1d8 = 0;
-        uStack_1d0 = 0;
-        local_228 = local_118;
-        Il2CppCodeGenWriteBarrier(&local_228,local_118);
-        __this = local_1c0;
-        uStack_220 = CONCAT71(uStack_220._1_7_,bVar5);
-        uStack_220 = CONCAT44(iVar4,(undefined4)uStack_220);
-        local_218 = CONCAT44(fVar19,uVar18);
-        uStack_210 = CONCAT44(fVar21,fVar20);
-        local_208 = CONCAT44(uVar22,fVar16);
-        uStack_200 = CONCAT44(fVar24,fVar23);
-        local_1f8 = CONCAT44(fVar17,fVar25);
-        uStack_1f0 = CONCAT44(fVar27,uVar26);
-        local_1e8 = CONCAT44(fVar29,fVar28);
-        uStack_1e0 = CONCAT44(uVar30,fVar14);
-        local_1d8 = CONCAT44(fVar32,fVar31);
-        uStack_1d0 = CONCAT44(fVar15,fVar33);
-        if (local_1c0 == (System_Collections_Generic_List_EffectText_Segment__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        local_108 = local_228;
-        uStack_100 = uStack_220;
-        local_f8 = CONCAT44(fVar19,uVar18);
-        uStack_f0 = CONCAT44(fVar21,fVar20);
-        local_e8 = local_208;
-        uStack_e0 = uStack_200;
-        local_d8 = local_1f8;
-        uStack_d0 = uStack_1f0;
-        local_c8 = fVar28;
-        fStack_c4 = fVar29;
-        fStack_c0 = fVar14;
-        uStack_bc = uVar30;
-        local_b8 = fVar31;
-        fStack_b4 = fVar32;
-        fStack_b0 = fVar33;
-        fStack_ac = fVar15;
-        il2cpp_runtime_helper_180042e30(local_1c0,&local_108,MethodInfo_System_Collections_Generic_List_EffectText_Segment_Add);
-        startIndex = *(int *)((longlong)plVar8 + 0x14) + (int)plVar8[2];
-        local_res20 = startIndex;
+label_059be204:
+          if (local_220 == (Il2CppObject *)0x0) goto label_059beb27;
+        } while( true );
       }
-      obj = il2cpp_vm_Object_IsInst(*local_1a8,(Il2CppClass *)TypeInfo_System_IDisposable);
-      *local_1a0 = obj;
-      if (obj != (Il2CppObject *)0x0) {
-        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,obj);
-      }
-      if (line != (System_String_o *)0x0) {
-        if (startIndex < (line->fields)._stringLength) {
-          pSVar9 = System_String__Substring(line,startIndex,(MethodInfo *)0x0);
-          if (pSVar9 == (System_String_o *)0x0) goto label_1820b8bcd;
-          if (0 < (pSVar9->fields)._stringLength) {
-            uStack_220 = 0;
-            local_218 = 0;
-            uStack_210 = 0;
-            local_208 = 0;
-            uStack_200 = 0;
-            local_1f8 = 0;
-            uStack_1f0 = 0;
-            local_1e8 = 0;
-            uStack_1e0 = 0;
-            local_1d8 = 0;
-            uStack_1d0 = 0;
-            local_228 = pSVar9;
-            Il2CppCodeGenWriteBarrier(&local_228,pSVar9);
-            uStack_220 = uStack_220 & 0xffffffffffffff00;
-            if (__this == (System_Collections_Generic_List_EffectText_Segment__o *)0x0) goto label_1820b8bcd;
-            local_108 = local_228;
-            uStack_100 = uStack_220;
-            local_f8 = local_218;
-            uStack_f0 = uStack_210;
-            local_e8 = local_208;
-            uStack_e0 = uStack_200;
-            local_d8 = local_1f8;
-            uStack_d0 = uStack_1f0;
-            local_c8 = (float)local_1e8;
-            fStack_c4 = local_1e8._4_4_;
-            fStack_c0 = (float)uStack_1e0;
-            uStack_bc = uStack_1e0._4_4_;
-            local_b8 = (float)local_1d8;
-            fStack_b4 = local_1d8._4_4_;
-            fStack_b0 = (float)uStack_1d0;
-            fStack_ac = uStack_1d0._4_4_;
-            il2cpp_runtime_helper_180042e30(__this,&local_108,MethodInfo_System_Collections_Generic_List_EffectText_Segment_Add)
-            ;
-          }
+      pIVar18 = il2cpp_vm_Object_IsInst(local_210,(Il2CppClass *)TypeInfo_System_IDisposable);
+      local_200 = pIVar18;
+      if (pIVar18 == (Il2CppObject *)0x0) goto label_059bec36;
+      pIVar8 = pIVar18->klass;
+      uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+      if (uVar24 == 0) goto label_059bec0f;
+      pIVar9 = (pIVar8->_1).interfaceOffsets;
+      lVar26 = 0;
+      goto label_059bec00;
+    }
+  }
+  goto label_059beefb;
+label_059be850:
+  pIVar18 = il2cpp_vm_Object_IsInst(local_220,(Il2CppClass *)TypeInfo_System_IDisposable);
+  local_200 = pIVar18;
+  if (pIVar18 != (Il2CppObject *)0x0) {
+    pIVar8 = pIVar18->klass;
+    uVar24 = (ulong)(pIVar8->_2).interface_offsets_count;
+    if (uVar24 != 0) {
+      pIVar9 = (pIVar8->_1).interfaceOffsets;
+      lVar26 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar9->interfaceType + lVar26) == TypeInfo_System_IDisposable)
+        {
+          pVVar17 = (VirtualInvokeData *)&pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26)].methodPtr;
+          goto label_059be8dd;
         }
+        lVar26 = lVar26 + 0x10;
+      } while (uVar24 * 0x10 != lVar26);
+    }
+    pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar18,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_059be8dd:
+    (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+  }
+  fStack_1b0 = 0.0;
+  uStack_1ac = 0;
+  local_1a8 = 0;
+  fStack_1a4 = 0.0;
+  ppIStack_1c0 = (Il2CppObject **)0x0;
+  local_1b8 = 0;
+  uStack_1d0 = 0;
+  fStack_1cc = 0.0;
+  local_1c8 = 0.0;
+  fStack_1c4 = 0.0;
+  uStack_1e0 = 0;
+  local_1d8 = 0.0;
+  uStack_1d4 = 0;
+  uStack_1f0 = 0;
+  local_1e8 = (Il2CppObject **)0x0;
+  fStack_1a0 = 0.0;
+  fStack_19c = 0.0;
+  local_1f8 = local_38;
+  Il2CppCodeGenWriteBarrier(&local_1f8);
+  uVar13 = uStack_1f0;
+  pMVar25 = MethodInfo_System_Collections_Generic_List_EffectText_Segment_Add;
+  bVar15 = iVar22 != 0;
+  uStack_1f0 = CONCAT71(uStack_1f0._1_7_,bVar15);
+  uStack_1f0 = CONCAT44(iVar22,(undefined4)uStack_1f0);
+  lVar26 = uStack_1f0;
+  local_1d8 = local_c8;
+  local_1e8 = local_d8;
+  uStack_1e0._0_4_ = (float)uStack_d0;
+  uStack_1e0._4_4_ = uStack_d0._4_4_;
+  fStack_1c4 = local_e8;
+  uStack_1d4 = SUB84(local_f8,0);
+  uStack_1d0 = (undefined4)((ulong)local_f8 >> 0x20);
+  fStack_1cc = (float)uStack_f0;
+  local_1c8 = SUB84(uStack_f0,4);
+  fStack_1b0 = local_108;
+  ppIStack_1c0 = local_118;
+  local_1b8._0_4_ = (float)uStack_110;
+  local_1b8._4_4_ = uStack_110._4_4_;
+  fStack_19c = local_128;
+  uStack_1ac = SUB84(local_138,0);
+  local_1a8 = (undefined4)((ulong)local_138 >> 0x20);
+  fStack_1a4 = (float)uStack_130;
+  fStack_1a0 = SUB84(uStack_130,4);
+  if (__this == (System_Collections_Generic_List_EffectText_Segment__o *)0x0) {
+    local_228 = 0;
+    ThrowNullReferenceException();
+  }
+  local_148 = CONCAT44(fStack_1a4,local_1a8);
+  uStack_140 = CONCAT44(local_128,fStack_1a0);
+  uStack_150 = CONCAT44(uStack_1ac,local_108);
+  local_158 = (float)uStack_110;
+  fStack_154 = uStack_110._4_4_;
+  local_178 = CONCAT44(uStack_1d4,local_c8);
+  uStack_170 = CONCAT44(fStack_1cc,uStack_1d0);
+  local_168 = CONCAT44(local_e8,local_1c8);
+  ppIStack_160 = local_118;
+  local_188 = local_d8;
+  fStack_180 = (float)uStack_d0;
+  fStack_17c = uStack_d0._4_4_;
+  local_198 = local_1f8;
+  uStack_190 = (Il2CppObject **)uStack_1f0;
+  piVar1 = &(__this->fields)._version;
+  *piVar1 = *piVar1 + 1;
+  pPVar10 = (__this->fields)._items;
+  if (pPVar10 == (PatreonEffects_EffectText_Segment_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  uVar6 = (__this->fields)._size;
+  uStack_1f0 = lVar26;
+  if (uVar6 < (uint)pPVar10->max_length) {
+    (__this->fields)._size = uVar6 + 1;
+    pUVar2 = &pPVar10->m_Items[(int)uVar6].fields.ColorD.fields.value;
+    (pUVar2->fields).r = (float)local_1a8;
+    (pUVar2->fields).g = fStack_1a4;
+    (pUVar2->fields).b = fStack_1a0;
+    (pUVar2->fields).a = local_128;
+    pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorC;
+    (pSVar11->fields).value.fields.g = (float)uStack_110;
+    (pSVar11->fields).value.fields.b = uStack_110._4_4_;
+    *(undefined8 *)(&(pSVar11->fields).value.fields.g + 2) = uStack_150;
+    pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorB;
+    (pSVar11->fields).value.fields.b = local_1c8;
+    (pSVar11->fields).value.fields.a = local_e8;
+    *(Il2CppObject ***)(&(pSVar11->fields).value.fields.b + 2) = local_118;
+    pfVar3 = &pPVar10->m_Items[(int)uVar6].fields.ColorA.fields.value.fields.a;
+    *pfVar3 = local_c8;
+    pfVar3[1] = (float)uStack_1d4;
+    pfVar3[2] = (float)uStack_1d0;
+    pfVar3[3] = fStack_1cc;
+    pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorA;
+    *(Il2CppObject ***)&pSVar11->fields = local_d8;
+    (pSVar11->fields).value.fields.g = (float)uStack_d0;
+    (pSVar11->fields).value.fields.b = uStack_d0._4_4_;
+    pPVar4 = &pPVar10->m_Items[(int)uVar6].fields;
+    pPVar4->Content = local_1f8;
+    uStack_1f0._1_3_ = SUB83(uVar13,1);
+    pPVar4->HasEffect = bVar15;
+    *(undefined3 *)&pPVar4->field_0x9 = uStack_1f0._1_3_;
+    pPVar4->Effect = iVar22;
+    Il2CppCodeGenWriteBarrier(&pPVar10->m_Items[(int)uVar6].fields.Content);
+  }
+  else {
+    uStack_1f0._1_3_ = SUB83(uVar13,1);
+    item.fields.HasEffect = bVar15;
+    item.fields._9_3_ = uStack_1f0._1_3_;
+    item.fields.Effect = iVar22;
+    item.fields.Content = local_1f8;
+    item.fields.ColorA.fields._0_8_ = local_d8;
+    item.fields.ColorA.fields.value.fields.g = (float)uStack_d0;
+    item.fields.ColorA.fields.value.fields.b = uStack_d0._4_4_;
+    item.fields.ColorA.fields.value.fields.a = local_c8;
+    item.fields.ColorB.fields._0_4_ = uStack_1d4;
+    item.fields.ColorB.fields.value.fields.r = (float)uStack_1d0;
+    item.fields.ColorB.fields.value.fields.g = fStack_1cc;
+    item.fields.ColorB.fields.value.fields.b = local_1c8;
+    item.fields.ColorB.fields.value.fields.a = local_e8;
+    item.fields.ColorC.fields._0_8_ = local_118;
+    item.fields.ColorC.fields.value.fields.g = (float)uStack_110;
+    item.fields.ColorC.fields.value.fields.b = uStack_110._4_4_;
+    item.fields.ColorC.fields.value.fields.a = local_108;
+    item.fields.ColorD.fields.hasValue = (bool)(char)local_138;
+    item.fields.ColorD.fields._1_3_ = (int3)((uint)uStack_1ac >> 8);
+    item.fields.ColorD.fields.value.fields.r = (float)local_1a8;
+    item.fields.ColorD.fields.value.fields.g = fStack_1a4;
+    item.fields.ColorD.fields.value.fields.b = fStack_1a0;
+    item.fields.ColorD.fields.value.fields.a = local_128;
+    System_Collections_Generic_List_EffectText_Segment___AddWithResize
+              (__this,item,(MethodInfo_3A88A50 *)pMVar25->klass->rgctx_data[0xe].method);
+  }
+  local_228 = (ulong)(uint)(*(int *)((long)&local_218[1].klass + 4) + *(int *)&local_218[1].klass);
+  if (local_210 == (Il2CppObject *)0x0) goto label_059beea3;
+  goto label_059bdcd8;
+  while (lVar26 = lVar26 + 0x10, uVar24 * 0x10 != lVar26) {
+label_059bec00:
+    if (*(System_IDisposable_c **)((long)&pIVar9->interfaceType + lVar26) == TypeInfo_System_IDisposable) {
+      pVVar17 = (VirtualInvokeData *)&pIVar8->vtable[*(int *)((long)&pIVar9->offset + lVar26)].methodPtr;
+      goto label_059bec2d;
+    }
+  }
+label_059bec0f:
+  pVVar17 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar18,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_059bec2d:
+  (*pVVar17->methodPtr)(pIVar18,pVVar17->method);
+label_059bec36:
+  if (line != (System_String_o *)0x0) {
+    if ((line->fields)._stringLength <= (int)local_228) {
+      return __this;
+    }
+    pSVar19 = System_String__Substring(line,(int)local_228,(MethodInfo *)0x0);
+    if (pSVar19 != (System_String_o *)0x0) {
+      if ((pSVar19->fields)._stringLength < 1) {
         return __this;
+      }
+      fStack_1b0 = 0.0;
+      uStack_1ac = 0;
+      local_1a8 = 0;
+      fStack_1a4 = 0.0;
+      ppIStack_1c0 = (Il2CppObject **)0x0;
+      local_1b8._0_4_ = 0.0;
+      local_1b8._4_4_ = 0.0;
+      uStack_1d0 = 0;
+      fStack_1cc = 0.0;
+      local_1c8 = 0.0;
+      fStack_1c4 = 0.0;
+      uStack_1e0._0_4_ = 0.0;
+      uStack_1e0._4_4_ = 0.0;
+      local_1d8 = 0.0;
+      uStack_1d4 = 0;
+      uStack_1f0 = 0;
+      local_1e8 = (Il2CppObject **)0x0;
+      fStack_1a0 = 0.0;
+      fStack_19c = 0.0;
+      local_1f8 = pSVar19;
+      Il2CppCodeGenWriteBarrier(&local_1f8);
+      uVar12 = uStack_1f0;
+      pMVar25 = MethodInfo_System_Collections_Generic_List_EffectText_Segment_Add;
+      uVar24 = uStack_1f0 >> 8;
+      uStack_1f0 = uVar24 << 8;
+      lVar26 = uStack_1f0;
+      uStack_1f0 = lVar26;
+      if (__this != (System_Collections_Generic_List_EffectText_Segment__o *)0x0) {
+        local_68 = CONCAT44(fStack_1a4,local_1a8);
+        uStack_60 = CONCAT44(fStack_19c,fStack_1a0);
+        uStack_70 = CONCAT44(uStack_1ac,fStack_1b0);
+        local_78 = (float)local_1b8;
+        fStack_74 = local_1b8._4_4_;
+        uStack_1f0._5_2_ = SUB82(uVar12,5);
+        uStack_1f0._7_1_ = SUB81(uVar12,7);
+        local_98 = CONCAT44(uStack_1d4,local_1d8);
+        uStack_90 = CONCAT44(fStack_1cc,uStack_1d0);
+        local_88 = CONCAT44(fStack_1c4,local_1c8);
+        ppIStack_80 = ppIStack_1c0;
+        local_a8 = local_1e8;
+        fStack_a0 = (float)uStack_1e0;
+        fStack_9c = uStack_1e0._4_4_;
+        local_b8 = local_1f8;
+        uStack_b0 = (Il2CppObject **)((uVar24 & 0xffffffff) << 8);
+        uStack_b0 = (Il2CppObject **)
+                    CONCAT17(uStack_1f0._7_1_,CONCAT25(uStack_1f0._5_2_,(undefined5)uStack_b0));
+        piVar1 = &(__this->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pPVar10 = (__this->fields)._items;
+        if (pPVar10 != (PatreonEffects_EffectText_Segment_array *)0x0) {
+          uVar6 = (__this->fields)._size;
+          if (uVar6 < (uint)pPVar10->max_length) {
+            (__this->fields)._size = uVar6 + 1;
+            pUVar2 = &pPVar10->m_Items[(int)uVar6].fields.ColorD.fields.value;
+            (pUVar2->fields).r = (float)local_1a8;
+            (pUVar2->fields).g = fStack_1a4;
+            (pUVar2->fields).b = fStack_1a0;
+            (pUVar2->fields).a = fStack_19c;
+            pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorC;
+            (pSVar11->fields).value.fields.g = (float)local_1b8;
+            (pSVar11->fields).value.fields.b = local_1b8._4_4_;
+            *(undefined8 *)(&(pSVar11->fields).value.fields.g + 2) = uStack_70;
+            pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorB;
+            (pSVar11->fields).value.fields.b = local_1c8;
+            (pSVar11->fields).value.fields.a = fStack_1c4;
+            *(Il2CppObject ***)(&(pSVar11->fields).value.fields.b + 2) = ppIStack_1c0;
+            pfVar3 = &pPVar10->m_Items[(int)uVar6].fields.ColorA.fields.value.fields.a;
+            *(undefined8 *)pfVar3 = local_98;
+            *(undefined8 *)(pfVar3 + 2) = uStack_90;
+            pSVar11 = &pPVar10->m_Items[(int)uVar6].fields.ColorA;
+            *(Il2CppObject ***)&pSVar11->fields = local_1e8;
+            (pSVar11->fields).value.fields.g = (float)uStack_1e0;
+            (pSVar11->fields).value.fields.b = uStack_1e0._4_4_;
+            pPVar4 = &pPVar10->m_Items[(int)uVar6].fields;
+            pPVar4->Content = local_1f8;
+            *(Il2CppObject ***)&pPVar4->HasEffect = uStack_b0;
+            Il2CppCodeGenWriteBarrier(&pPVar10->m_Items[(int)uVar6].fields.Content);
+            return __this;
+          }
+          item_01.fields._8_8_ = uStack_b0;
+          item_01.fields.Content = local_1f8;
+          item_01.fields.ColorA.fields._0_8_ = local_1e8;
+          item_01.fields.ColorA.fields.value.fields.g = (float)uStack_1e0;
+          item_01.fields.ColorA.fields.value.fields.b = uStack_1e0._4_4_;
+          item_01.fields.ColorA.fields.value.fields.a = local_1d8;
+          item_01.fields.ColorB.fields._0_4_ = uStack_1d4;
+          item_01.fields.ColorB.fields.value.fields.r = (float)uStack_1d0;
+          item_01.fields.ColorB.fields.value.fields.g = fStack_1cc;
+          item_01.fields.ColorB.fields.value.fields.b = local_1c8;
+          item_01.fields.ColorB.fields.value.fields.a = fStack_1c4;
+          item_01.fields.ColorC.fields._0_8_ = ppIStack_1c0;
+          item_01.fields.ColorC.fields.value.fields.g = (float)local_1b8;
+          item_01.fields.ColorC.fields.value.fields.b = local_1b8._4_4_;
+          item_01.fields.ColorC.fields.value.fields.a = fStack_1b0;
+          item_01.fields.ColorD.fields.hasValue = (bool)(char)uStack_1ac;
+          item_01.fields.ColorD.fields._1_3_ = (int3)((uint)uStack_1ac >> 8);
+          item_01.fields.ColorD.fields.value.fields.r = (float)local_1a8;
+          item_01.fields.ColorD.fields.value.fields.g = fStack_1a4;
+          item_01.fields.ColorD.fields.value.fields.b = fStack_1a0;
+          item_01.fields.ColorD.fields.value.fields.a = fStack_19c;
+          System_Collections_Generic_List_EffectText_Segment___AddWithResize
+                    (__this,item_01,(MethodInfo_3A88A50 *)pMVar25->klass->rgctx_data[0xe].method);
+          return __this;
+        }
       }
     }
   }
-label_1820b8bcd:
+label_059beefb:
   ThrowNullReferenceException();
 }
 
 
 // PatreonEffects.EffectText$$ParseColor
 // il2cpp: System_Nullable_Color__o PatreonEffects_EffectText__ParseColor (System_String_o* hex, const MethodInfo* method);
-// 0x1820b8030
+// 0x59bf0e0
 
 System_Nullable_Color__o *
 PatreonEffects_EffectText__ParseColor
           (System_Nullable_Color__o *__return_storage_ptr__,System_String_o *hex,MethodInfo *method)
 
 {
+  UnityEngine_Color_o value;
   bool bVar1;
-  UnityEngine_Color_Fields local_48;
-  UnityEngine_Color_Fields local_38;
-  System_Nullable_Vector4__Fields local_28;
+  UnityEngine_Color_Fields local_28;
   
-  if (Il2CppMethodInitialized_184346938 == '\0') {
+  if (Il2CppMethodInitialized_07545bcc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&"#");
-    Il2CppMethodInitialized_184346938 = '\x01';
+    Il2CppMethodInitialized_07545bcc = '\x01';
   }
-  local_48.r = 0.0;
-  local_48.g = 0.0;
-  local_48.b = 0.0;
-  local_48.a = 0.0;
+  local_28.r = 0.0;
+  local_28.g = 0.0;
+  local_28.b = 0.0;
+  local_28.a = 0.0;
   bVar1 = System_String__IsNullOrEmpty(hex,(MethodInfo *)0x0);
   if (!bVar1) {
     if (hex == (System_String_o *)0x0) {
@@ -1483,162 +2078,173 @@ PatreonEffects_EffectText__ParseColor
     }
     bVar1 = System_String__StartsWith(hex,"#",(MethodInfo *)0x0);
     if (!bVar1) {
-      hex = System_String__Concat_1969e50("#",hex,(MethodInfo *)0x0);
+      hex = System_String__Concat_52f0320("#",hex,(MethodInfo *)0x0);
     }
     bVar1 = UnityEngine_ColorUtility__TryParseHtmlString
-                      (hex,(UnityEngine_Color_o *)&local_48,(MethodInfo *)0x0);
+                      (hex,(UnityEngine_Color_o *)&local_28,(MethodInfo *)0x0);
     if (bVar1) {
-      local_28.hasValue = false;
-      local_28._1_3_ = 0;
-      local_28.value.fields.x = 0.0;
-      local_28.value.fields.y = 0.0;
-      local_28.value.fields.z = 0.0;
-      local_28.value.fields.w = 0.0;
-      local_38.r = local_48.r;
-      local_38.g = local_48.g;
-      local_38.b = local_48.b;
-      local_38.a = local_48.a;
-      System_Nullable_Vector4____ctor
-                ((System_Nullable_Vector4__o *)&local_28,(UnityEngine_Vector4_o *)&local_38,
-                 (MethodInfo_AE2670 *)MethodInfo_System_Nullable_Color_ctor);
-      goto label_1820b8109;
+      value.fields.b = local_28.b;
+      value.fields.a = local_28.a;
+      value.fields.r = local_28.r;
+      value.fields.g = local_28.g;
+      (__return_storage_ptr__->fields).hasValue = false;
+      *(undefined3 *)&(__return_storage_ptr__->fields).field_0x1 = 0;
+      (__return_storage_ptr__->fields).value.fields.r = 0.0;
+      (__return_storage_ptr__->fields).value.fields.g = 0.0;
+      (__return_storage_ptr__->fields).value.fields.b = 0.0;
+      (__return_storage_ptr__->fields).value.fields.a = 0.0;
+      System_Nullable_Color____ctor
+                (__return_storage_ptr__,value,(MethodInfo_3CD1300 *)MethodInfo_System_Nullable_Color_ctor);
+      return __return_storage_ptr__;
     }
   }
-  local_28.hasValue = false;
-  local_28._1_3_ = 0;
-  local_28.value.fields.x = 0.0;
-  local_28.value.fields.y = 0.0;
-  local_28.value.fields.z = 0.0;
-  local_28.value.fields.w = 0.0;
-label_1820b8109:
-  (__return_storage_ptr__->fields).hasValue = local_28.hasValue;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = local_28._1_3_;
-  (__return_storage_ptr__->fields).value.fields.r = local_28.value.fields.x;
-  (__return_storage_ptr__->fields).value.fields.g = local_28.value.fields.y;
-  (__return_storage_ptr__->fields).value.fields.b = local_28.value.fields.z;
-  (__return_storage_ptr__->fields).value.fields.a = local_28.value.fields.w;
+  (__return_storage_ptr__->fields).hasValue = false;
+  *(undefined3 *)&(__return_storage_ptr__->fields).field_0x1 = 0;
+  (__return_storage_ptr__->fields).value.fields.r = 0.0;
+  (__return_storage_ptr__->fields).value.fields.g = 0.0;
+  (__return_storage_ptr__->fields).value.fields.b = 0.0;
+  (__return_storage_ptr__->fields).value.fields.a = 0.0;
   return __return_storage_ptr__;
 }
 
 
 // PatreonEffects.EffectText$$Rebuild
 // il2cpp: void PatreonEffects_EffectText__Rebuild (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b8c60
-// eh: try 0x1820b8e40..0x1820b941e -> pad 0x183316e50 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 47 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b8e3e: nop 
-// asm:   0x1820b8eb2: mov rdx, qword ptr [rip + 0x1fc762f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x1820b8eb9: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820b8ebe: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820b8ec3: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x1820b8ec8: test rcx, rcx
-// asm:   0x1820b8ecb: jne 0x1820b93e2
-// asm:   0x1820b8ed1: mov rsi, qword ptr [rsp + 0x1f0]
-// asm:   0x1820b8f56: xorps xmm12, xmm12
-// asm:   0x1820b8f5a: nop word ptr [rax + rax]
-// asm:   0x1820b9324: mov rdx, qword ptr [rip + 0x1fe9315]  ; MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_Dispose
-// asm:   0x1820b932b: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820b9330: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820b9335: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x1820b933a: test rcx, rcx
-// asm:   0x1820b933d: jne 0x1820b941e
-// asm:   0x1820b9343: mov rsi, qword ptr [rsp + 0x1f0]
-// asm:   0x1820b934b: mov r13, qword ptr [rsp + 0x208]
-// asm:   0x1820b9353: mov r14d, dword ptr [rsp + 0x200]
-// asm:   0x1820b935b: xorps xmm12, xmm12
-// asm:   0x1820b935f: inc r14d
-// asm:   0x1820b9362: mov dword ptr [rsp + 0x200], r14d
-// asm:   0x1820b936a: jmp 0x1820b8f60
-// asm:   0x1820b93e2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1820b941e: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183316e50: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183316e55: push rbp
-// asm:   0x183316e56: sub rsp, 0x20
-// asm:   0x183316e5a: mov rbp, rdx
-// asm:   0x183316e5d: mov rax, qword ptr [rbp + 0x130]
-// asm:   0x183316e64: mov rcx, qword ptr [rax]
-// asm:   0x183316e67: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x183316e6b: movabs rax, 0
-// asm:   0x183316e75: add rsp, 0x20
-// asm:   0x183316e79: pop rbp
-// asm:   0x183316e7a: ret 
-// asm:   0x18333df90: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333df95: push rbp
-// asm:   0x18333df96: sub rsp, 0x20
-// asm:   0x18333df9a: mov rbp, rdx
-// asm:   0x18333df9d: mov rax, qword ptr [rbp + 0x138]
-// asm:   0x18333dfa4: mov rcx, qword ptr [rax]
-// asm:   0x18333dfa7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18333dfab: movabs rax, 0
-// asm:   0x18333dfb5: add rsp, 0x20
-// asm:   0x18333dfb9: pop rbp
-// asm:   0x18333dfba: ret 
+// 0x59bc4b0
+// eh: try 0x59bc6dc..0x59bc725 -> pad 0x59bce24 (+4 call sites) catch Il2CppExceptionWrapper, cleanup
+// eh: try 0x59bcc4f..0x59bcd8d -> pad 0x59bcd8f (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59bcdb2..0x59bcdb7 -> pad 0x59bce0a cleanup
+// eh: try 0x59bce0d..0x59bce1a -> pad 0x59bce7c catch (...) [compiler noexcept guard]
+// eh: try 0x59bce43..0x59bce48 -> pad 0x59bce6a cleanup
+// eh: try 0x59bce6d..0x59bce7a -> pad 0x59bce7c catch (...) [compiler noexcept guard]
+// asm: 51 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bc71e: jmp 0x59bc6d0
+// asm:   0x59bcd8f: jmp 0x59bcd97
+// asm:   0x59bcd91: jmp 0x59bcd97
+// asm:   0x59bcd93: jmp 0x59bcd97
+// asm:   0x59bcd95: jmp 0x59bcd97
+// asm:   0x59bcd97: mov rbp, rax
+// asm:   0x59bcd9a: cmp edx, 1
+// asm:   0x59bcd9d: jne 0x59bce0d
+// asm:   0x59bcd9f: mov rdi, rbp
+// asm:   0x59bcda2: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59bcda7: mov rbx, qword ptr [rax]
+// asm:   0x59bcdaa: mov qword ptr [rsp + 0xf0], rbx
+// asm:   0x59bcdb2: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59bcdb7: lea rax, [rip + 0x18d23b2]  ; MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_Dispose
+// asm:   0x59bcdbe: mov rsi, qword ptr [rax]
+// asm:   0x59bcdc1: mov rdi, r13
+// asm:   0x59bcdc4: call 0x4d7ca10  ; System_Collections_Generic_List_Enumerator_EffectText_Segment___Dispose()
+// asm:   0x59bcdc9: test rbx, rbx
+// asm:   0x59bcdcc: mov rbp, qword ptr [rsp + 0x68]
+// asm:   0x59bcdd1: je 0x59bc827
+// asm:   0x59bcdd7: mov rdi, rbx
+// asm:   0x59bcdda: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59bce0a: mov rbp, rax
+// asm:   0x59bce0d: lea rdi, [rsp + 0xf0]
+// asm:   0x59bce15: call 0x2fd5170  ; il2cpp_runtime_helper_02fd5170()
+// asm:   0x59bce1a: mov rdi, rbp
+// asm:   0x59bce1d: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59bce22: jmp 0x59bce28
+// asm:   0x59bce24: jmp 0x59bce28
+// asm:   0x59bce26: jmp 0x59bce28
+// asm:   0x59bce28: mov rbp, rax
+// asm:   0x59bce2b: cmp edx, 1
+// asm:   0x59bce2e: jne 0x59bce6d
+// asm:   0x59bce30: mov rdi, rbp
+// asm:   0x59bce33: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59bce38: mov rbx, qword ptr [rax]
+// asm:   0x59bce3b: mov qword ptr [rsp + 0xf0], rbx
+// asm:   0x59bce43: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59bce48: lea rax, [rip + 0x18d0f29]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x59bce4f: mov rsi, qword ptr [rax]
+// asm:   0x59bce52: lea rdi, [rsp + 0x70]
+// asm:   0x59bce57: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59bce5c: test rbx, rbx
+// asm:   0x59bce5f: je 0x59bc73b
+// asm:   0x59bce65: jmp 0x59bcdd7
+// asm:   0x59bce6a: mov rbp, rax
+// asm:   0x59bce6d: lea rdi, [rsp + 0xf0]
+// asm:   0x59bce75: call 0x2fd5140  ; il2cpp_runtime_helper_02fd5140()
+// asm:   0x59bce7a: jmp 0x59bce1a
+// asm:   0x59bce7c: mov rdi, rax
+// asm:   0x59bce7f: call 0x2ab61e0  ; __clang_call_terminate()
 
 void PatreonEffects_EffectText__Rebuild(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
+  int32_t length;
   uint uVar2;
-  int length;
   System_Collections_Generic_List_GameObject__o *pSVar3;
   System_String_o *pSVar4;
+  UnityEngine_GameObject_array *pUVar5;
+  PatreonEffects_EffectText_Segment_o seg;
   Il2CppType *handle;
+  MethodInfo *pMVar6;
   UnityEngine_Object_o *x;
-  uint64_t uVar5;
-  System_Collections_Generic_List_T__o *pSVar6;
-  uint64_t uVar7;
-  System_Collections_Generic_List_T__o *pSVar8;
-  uint64_t uVar9;
-  System_Collections_Generic_List_T__o *pSVar10;
-  uint64_t uVar11;
-  System_Collections_Generic_List_T__o *pSVar12;
-  uint64_t uVar13;
-  System_Collections_Generic_List_T__o *pSVar14;
-  uint64_t uVar15;
-  bool bVar16;
-  System_String_array *pSVar17;
+  bool bVar7;
+  TMPro_TMP_FontAsset_o *pTVar8;
+  System_String_array *pSVar9;
+  ulong uVar10;
   System_Collections_Generic_List_EffectText_Segment__o *__this_00;
   System_Type_array *components;
-  System_Type_o *pSVar18;
-  Il2CppObject *pIVar19;
-  UnityEngine_GameObject_o *pUVar20;
-  UnityEngine_Transform_o *pUVar21;
+  System_Type_o *pSVar11;
+  Il2CppObject *pIVar12;
+  UnityEngine_GameObject_o *__this_01;
+  UnityEngine_Transform_o *pUVar13;
   UnityEngine_Transform_o *parent;
-  UnityEngine_UI_HorizontalLayoutGroup_o *__this_01;
-  UnityEngine_UI_ContentSizeFitter_o *__this_02;
-  UnityEngine_GameObject_o *pUVar22;
-  uint uVar23;
-  undefined1 local_1c8 [16];
-  UnityEngine_Object_o *local_1b8;
-  undefined1 local_1b0 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_1a8;
-  UnityEngine_Object_o *local_1a0;
-  System_Collections_Generic_List_Enumerator_T__o local_198;
-  uint64_t uStack_180;
-  System_Collections_Generic_List_T__o *local_178;
-  uint64_t uStack_170;
-  System_Collections_Generic_List_T__o *local_168;
-  uint64_t uStack_160;
-  System_Collections_Generic_List_T__o *local_158;
-  uint64_t uStack_150;
-  System_Collections_Generic_List_T__o *local_148;
-  uint64_t uStack_140;
-  System_Collections_Generic_List_T__o *local_138;
-  uint64_t uStack_130;
-  undefined1 local_128 [24];
-  uint64_t uStack_110;
-  System_Collections_Generic_List_T__o *local_108;
-  uint64_t uStack_100;
-  System_Collections_Generic_List_T__o *local_f8;
-  uint64_t uStack_f0;
-  System_Collections_Generic_List_T__o *local_e8;
-  uint64_t uStack_e0;
-  System_Collections_Generic_List_T__o *local_d8;
-  uint64_t uStack_d0;
-  System_Collections_Generic_List_T__o *local_c8;
-  uint64_t uStack_c0;
+  UnityEngine_UI_HorizontalLayoutGroup_o *__this_02;
+  UnityEngine_UI_ContentSizeFitter_o *__this_03;
+  UnityEngine_GameObject_o *item;
+  MethodInfo *method_00;
+  ulong uVar14;
+  MethodInfo *pMVar15;
+  undefined1 auStack_198 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_190;
+  UnityEngine_Object_o *pUStack_188;
+  System_String_array *pSStack_180;
+  UnityEngine_Object_o *pUStack_178;
+  undefined8 uStack_170;
+  undefined8 uStack_168;
+  undefined8 uStack_160;
+  undefined8 uStack_158;
+  undefined8 uStack_150;
+  undefined8 uStack_148;
+  undefined8 uStack_140;
+  undefined8 uStack_138;
+  undefined8 uStack_130;
+  undefined8 uStack_128;
+  undefined8 uStack_120;
+  undefined1 auStack_118 [16];
+  UnityEngine_Object_o *pUStack_108;
+  undefined8 uStack_100;
+  undefined8 uStack_f8;
+  undefined8 uStack_f0;
+  undefined8 uStack_e8;
+  undefined8 uStack_e0;
+  undefined8 uStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 uStack_c0;
+  undefined8 uStack_b8;
+  undefined8 uStack_b0;
+  undefined1 auStack_a8 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_a0;
+  UnityEngine_Object_o *pUStack_98;
+  undefined8 uStack_90;
+  undefined8 uStack_88;
+  undefined8 uStack_80;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
   
-  if (Il2CppMethodInitialized_184346939 == '\0') {
+  if (Il2CppMethodInitialized_07545bcd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_ContentSizeFitter);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1670,57 +2276,70 @@ void PatreonEffects_EffectText__Rebuild(PatreonEffects_EffectText_o *__this,Meth
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"text");
     il2cpp_codegen_initialize_runtime_metadata(&"EffectTextRow");
-    Il2CppMethodInitialized_184346939 = '\x01';
+    Il2CppMethodInitialized_07545bcd = '\x01';
   }
-  local_1b0 = (undefined1  [8])0x0;
-  pUStack_1a8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_1a0 = (UnityEngine_Object_o *)0x0;
-  local_198.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_198.fields._index = 0;
-  local_198.fields._version = 0;
-  local_198.fields._current = (Il2CppObject *)0x0;
-  uStack_180 = 0;
-  local_178 = (System_Collections_Generic_List_T__o *)0x0;
-  uStack_170 = 0;
-  local_168 = (System_Collections_Generic_List_T__o *)0x0;
-  uStack_160 = 0;
-  local_158 = (System_Collections_Generic_List_T__o *)0x0;
-  uStack_150 = 0;
-  local_148 = (System_Collections_Generic_List_T__o *)0x0;
-  uStack_140 = 0;
-  local_138 = (System_Collections_Generic_List_T__o *)0x0;
+  auStack_198 = (undefined1  [8])0x0;
+  pSStack_190 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pUStack_188 = (UnityEngine_Object_o *)0x0;
+  uStack_48 = 0;
+  uStack_40 = 0;
+  uStack_58 = 0;
+  uStack_50 = 0;
+  uStack_68 = 0;
+  uStack_60 = 0;
+  uStack_78 = 0;
+  uStack_70 = 0;
+  uStack_88 = 0;
+  uStack_80 = 0;
+  pUStack_98 = (UnityEngine_Object_o *)0x0;
+  uStack_90 = 0;
+  auStack_a8 = (undefined1  [8])0x0;
+  pSStack_a0 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  uStack_128 = 0;
+  uStack_120 = 0;
+  uStack_138 = 0;
   uStack_130 = 0;
+  uStack_148 = 0;
+  uStack_140 = 0;
+  uStack_158 = 0;
+  uStack_150 = 0;
+  uStack_168 = 0;
+  uStack_160 = 0;
+  pUStack_178 = (UnityEngine_Object_o *)0x0;
+  uStack_170 = 0;
   pSVar3 = (__this->fields)._segments;
   if (pSVar3 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_1c8,
-               (System_Collections_Generic_List_T__o *)pSVar3,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-    local_1b0 = (undefined1  [8])local_1c8._0_8_;
-    pUStack_1a8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1c8._8_8_;
-    local_1a0 = local_1b8;
-    local_1c8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_1c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1b0;
-    while (bVar16 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              ((System_Collections_Generic_List_Enumerator_object__o *)local_1b0,
-                               (MethodInfo_153A2A0 *)
-                               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext),
-          x = local_1a0, bVar16) {
+    System_Collections_Generic_List_object___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)auStack_118,
+               (System_Collections_Generic_List_object__o *)pSVar3,
+               (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+    pUStack_188 = pUStack_108;
+    auStack_198 = (undefined1  [8])auStack_118._0_8_;
+    pSStack_190 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_118._8_8_;
+    auStack_118._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    auStack_118._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_198;
+    while (bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                             ((System_Collections_Generic_List_Enumerator_object__o *)auStack_198,
+                              (MethodInfo_4C45C50 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext),
+          x = pUStack_188, bVar7) {
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar16 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar16) {
+      bVar7 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar7) {
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        UnityEngine_Object__Destroy_2f1ff70(x,(MethodInfo *)0x0);
+        UnityEngine_Object__Destroy_69214e0(x,(MethodInfo *)0x0);
       }
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1b0,
-               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+              ((System_Collections_Generic_List_Enumerator_object__o *)auStack_198,
+               (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose)
+    ;
     pSVar3 = (__this->fields)._segments;
     if (pSVar3 != (System_Collections_Generic_List_GameObject__o *)0x0) {
       piVar1 = &(pSVar3->fields)._version;
@@ -1730,171 +2349,252 @@ void PatreonEffects_EffectText__Rebuild(PatreonEffects_EffectText_o *__this,Meth
       if (0 < length) {
         System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,length,(MethodInfo *)0x0);
       }
-      bVar16 = System_String__IsNullOrEmpty((__this->fields)._text,(MethodInfo *)0x0);
-      if (bVar16) {
+      bVar7 = System_String__IsNullOrEmpty((__this->fields)._text,(MethodInfo *)0x0);
+      if (bVar7) {
         return;
       }
       pSVar4 = (__this->fields)._text;
+      pTVar8 = (__this->fields)._font;
+      if (pTVar8 == (TMPro_TMP_FontAsset_o *)0x0) {
+        pTVar8 = Gisketch_Aottg2UI_Styling_GisketchTypography__Resolve
+                           ("text",400,(System_String_o *)0x0,(MethodInfo *)0x0);
+      }
+      pTVar8 = Gisketch_Aottg2UI_Styling_GisketchTypography__ForText(pSVar4,pTVar8,(MethodInfo *)0x0);
+      (__this->fields)._segmentFont = pTVar8;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._segmentFont);
+      pSVar4 = (__this->fields)._text;
       if (pSVar4 != (System_String_o *)0x0) {
-        pSVar17 = System_String__Split(pSVar4,10,0,(MethodInfo *)0x0);
-        uVar23 = 0;
-        if (pSVar17 != (System_String_array *)0x0) {
+        pMVar15 = (MethodInfo *)&g_data_0000000a;
+        pSVar9 = System_String__Split(pSVar4,10,0,(MethodInfo *)0x0);
+        if (pSVar9 != (System_String_array *)0x0) {
+          if ((int)pSVar9->max_length < 1) {
+            return;
+          }
+          uVar10 = pSVar9->max_length & 0xffffffff;
+          uVar14 = 0;
+          pSStack_180 = pSVar9;
           do {
-            uVar2 = (uint)pSVar17->max_length;
-            if ((int)uVar2 <= (int)uVar23) {
-              return;
-            }
-            if (uVar2 <= uVar23) goto label_1820b9424;
-            pSVar4 = pSVar17->m_Items[(int)uVar23];
+            if (uVar10 <= uVar14) goto label_059bcdf6;
+            pSVar4 = pSVar9->m_Items[uVar14];
             if ((TypeInfo_PatreonEffects_EffectText->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_EffectText);
             }
-            __this_00 = PatreonEffects_EffectText__ParseLine(pSVar4,(MethodInfo *)0x0);
+            __this_00 = PatreonEffects_EffectText__ParseLine(pSVar4,pMVar15);
             if (__this_00 == (System_Collections_Generic_List_EffectText_Segment__o *)0x0) break;
             if ((__this_00->fields)._size == 0) {
               pSVar3 = (__this->fields)._segments;
-              pUVar20 = PatreonEffects_EffectText__CreateSpacerRow(__this,(MethodInfo *)0x0);
+              pMVar15 = (MethodInfo *)PatreonEffects_EffectText__CreateSpacerRow(__this,pMVar15);
+              pMVar6 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
               if (pSVar3 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-              il2cpp_runtime_helper_180012890(pSVar3,pUVar20,MethodInfo_System_Collections_Generic_List_GameObject_Add);
+              piVar1 = &(pSVar3->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar5 = (pSVar3->fields)._items;
+              if (pUVar5 == (UnityEngine_GameObject_array *)0x0) break;
+              uVar2 = (pSVar3->fields)._size;
+              if (uVar2 < (uint)pUVar5->max_length) {
+                (pSVar3->fields)._size = uVar2 + 1;
+                pUVar5->m_Items[(int)uVar2] = (UnityEngine_GameObject_o *)pMVar15;
+                Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pMVar15,
+                           (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+              }
             }
             else {
               components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,3);
               handle = TypeRef_UnityEngine_RectTransform;
-              if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+              if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init(g_data_075567a8);
               }
-              pSVar18 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+              pSVar11 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
               if (components == (System_Type_array *)0x0) break;
-              if ((pSVar18 != (System_Type_o *)0x0) &&
-                 (pIVar19 = il2cpp_vm_Object_IsInst
-                                      ((Il2CppObject *)pSVar18,(((components->obj).klass)->_1).element_class),
-                 pIVar19 == (Il2CppObject *)0x0)) {
-                pIVar19 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar19,(MethodInfo *)0x0);
+              if ((pSVar11 != (System_Type_o *)0x0) &&
+                 (pIVar12 = il2cpp_vm_Object_IsInst
+                                      ((Il2CppObject *)pSVar11,(((components->obj).klass)->_1).element_class),
+                 pIVar12 == (Il2CppObject *)0x0)) {
+label_059bcdfb:
+                pIVar12 = il2cpp_codegen_get_array_type_mismatch_exception();
+                il2cpp_codegen_raise_exception(pIVar12,(MethodInfo *)0x0);
               }
               if ((int)components->max_length == 0) {
-label_1820b9424:
+label_059bcdf6:
                 ThrowIndexOutOfRangeException();
               }
-              components->m_Items[0] = pSVar18;
-              Il2CppCodeGenWriteBarrier(components->m_Items,pSVar18);
-              pSVar18 = System_Type__GetTypeFromHandle
+              components->m_Items[0] = pSVar11;
+              Il2CppCodeGenWriteBarrier(components->m_Items);
+              pSVar11 = System_Type__GetTypeFromHandle
                                   ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_HorizontalLayoutGroup,
                                    (MethodInfo *)0x0);
-              if ((pSVar18 != (System_Type_o *)0x0) &&
-                 (pIVar19 = il2cpp_vm_Object_IsInst
-                                      ((Il2CppObject *)pSVar18,(((components->obj).klass)->_1).element_class),
-                 pIVar19 == (Il2CppObject *)0x0)) {
-                pIVar19 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar19,(MethodInfo *)0x0);
-              }
-              if ((uint)components->max_length < 2) goto label_1820b9424;
-              components->m_Items[1] = pSVar18;
-              Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar18);
-              pSVar18 = System_Type__GetTypeFromHandle
+              if ((pSVar11 != (System_Type_o *)0x0) &&
+                 (pIVar12 = il2cpp_vm_Object_IsInst
+                                      ((Il2CppObject *)pSVar11,(((components->obj).klass)->_1).element_class),
+                 pIVar12 == (Il2CppObject *)0x0)) goto label_059bcdfb;
+              if ((components->max_length & 0xfffffffe) == 0) goto label_059bcdf6;
+              components->m_Items[1] = pSVar11;
+              Il2CppCodeGenWriteBarrier(components->m_Items + 1);
+              pSVar11 = System_Type__GetTypeFromHandle
                                   ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_ContentSizeFitter,
                                    (MethodInfo *)0x0);
-              if ((pSVar18 != (System_Type_o *)0x0) &&
-                 (pIVar19 = il2cpp_vm_Object_IsInst
-                                      ((Il2CppObject *)pSVar18,(((components->obj).klass)->_1).element_class),
-                 pIVar19 == (Il2CppObject *)0x0)) {
-                pIVar19 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar19,(MethodInfo *)0x0);
-              }
-              if ((uint)components->max_length < 3) goto label_1820b9424;
-              components->m_Items[2] = pSVar18;
-              Il2CppCodeGenWriteBarrier(components->m_Items + 2,pSVar18);
-              pUVar20 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-              UnityEngine_GameObject___ctor_2f1abe0
-                        (pUVar20,"EffectTextRow",components,(MethodInfo *)0x0);
-              if (pUVar20 == (UnityEngine_GameObject_o *)0x0) break;
-              pUVar21 = UnityEngine_GameObject__get_transform(pUVar20,(MethodInfo *)0x0);
+              if ((pSVar11 != (System_Type_o *)0x0) &&
+                 (pIVar12 = il2cpp_vm_Object_IsInst
+                                      ((Il2CppObject *)pSVar11,(((components->obj).klass)->_1).element_class),
+                 pIVar12 == (Il2CppObject *)0x0)) goto label_059bcdfb;
+              if ((uint)components->max_length < 3) goto label_059bcdf6;
+              components->m_Items[2] = pSVar11;
+              Il2CppCodeGenWriteBarrier(components->m_Items + 2);
+              __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+              UnityEngine_GameObject___ctor_691aa60
+                        (__this_01,"EffectTextRow",components,(MethodInfo *)0x0);
+              if (__this_01 == (UnityEngine_GameObject_o *)0x0) break;
+              pUVar13 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
               parent = UnityEngine_Component__get_transform
                                  ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-              if (pUVar21 == (UnityEngine_Transform_o *)0x0) break;
-              UnityEngine_Transform__SetParent_2f5a7e0(pUVar21,parent,false,(MethodInfo *)0x0);
-              __this_01 = UnityEngine_GameObject__GetComponent_object_
-                                    (pUVar20,(MethodInfo_6F5650 *)
-                                             MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup
-                                    );
-              if (__this_01 == (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) break;
+              pSVar9 = pSStack_180;
+              if (pUVar13 == (UnityEngine_Transform_o *)0x0) break;
+              UnityEngine_Transform__SetParent_692d510(pUVar13,parent,false,(MethodInfo *)0x0);
+              __this_02 = UnityEngine_GameObject__GetComponent_object_
+                                    (__this_01,
+                                     (MethodInfo_353B730 *)
+                                     MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup);
+              if (__this_02 == (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) break;
               UnityEngine_UI_LayoutGroup__set_childAlignment
-                        ((UnityEngine_UI_LayoutGroup_o *)__this_01,3,(MethodInfo *)0x0);
+                        ((UnityEngine_UI_LayoutGroup_o *)__this_02,3,(MethodInfo *)0x0);
               UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
-                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_01,false,(MethodInfo *)0x0
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,false,(MethodInfo *)0x0
                         );
               UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_01,false,(MethodInfo *)0x0
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,false,(MethodInfo *)0x0
                         );
               UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
-                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_01,0.0,(MethodInfo *)0x0);
-              __this_02 = UnityEngine_GameObject__GetComponent_object_
-                                    (pUVar20,(MethodInfo_6F5650 *)
-                                             MethodInfo_UnityEngine_GameObject_GetComponent_ContentSizeFitter)
-              ;
-              if (__this_02 == (UnityEngine_UI_ContentSizeFitter_o *)0x0) break;
-              UnityEngine_UI_ContentSizeFitter__set_horizontalFit(__this_02,2,(MethodInfo *)0x0);
-              UnityEngine_UI_ContentSizeFitter__set_verticalFit(__this_02,2,(MethodInfo *)0x0);
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,0.0,(MethodInfo *)0x0);
+              __this_03 = UnityEngine_GameObject__GetComponent_object_
+                                    (__this_01,
+                                     (MethodInfo_353B730 *)
+                                     MethodInfo_UnityEngine_GameObject_GetComponent_ContentSizeFitter);
+              if (__this_03 == (UnityEngine_UI_ContentSizeFitter_o *)0x0) break;
+              UnityEngine_UI_ContentSizeFitter__set_horizontalFit(__this_03,2,(MethodInfo *)0x0);
+              UnityEngine_UI_ContentSizeFitter__set_verticalFit(__this_03,2,(MethodInfo *)0x0);
+              pMVar15 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
               pSVar3 = (__this->fields)._segments;
               if (pSVar3 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-              il2cpp_runtime_helper_180012890(pSVar3,pUVar20,MethodInfo_System_Collections_Generic_List_GameObject_Add);
-              System_Collections_Generic_List_MapLoader_NavMeshBuild___GetEnumerator
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_128,
-                         (System_Collections_Generic_List_MapLoader_NavMeshBuild__o *)__this_00,
-                         (MethodInfo_942C90 *)
+              piVar1 = &(pSVar3->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar5 = (pSVar3->fields)._items;
+              if (pUVar5 == (UnityEngine_GameObject_array *)0x0) break;
+              uVar2 = (pSVar3->fields)._size;
+              if (uVar2 < (uint)pUVar5->max_length) {
+                (pSVar3->fields)._size = uVar2 + 1;
+                pUVar5->m_Items[(int)uVar2] = __this_01;
+                Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)__this_01,
+                           (MethodInfo_395D230 *)pMVar15->klass->rgctx_data[0xe].method);
+              }
+              System_Collections_Generic_List_EffectText_Segment___GetEnumerator
+                        ((System_Collections_Generic_List_Enumerator_T__o *)auStack_118,__this_00,
+                         (MethodInfo_3A89EB0 *)
                          MethodInfo_System_Collections_Generic_List_EffectText_Segment_GetEnumerator);
-              local_198.fields._list = (System_Collections_Generic_List_T__o *)local_128._0_8_;
-              local_198.fields._index = local_128._8_4_;
-              local_198.fields._version = local_128._12_4_;
-              local_198.fields._current = (Il2CppObject *)local_128._16_8_;
-              uStack_180 = uStack_110;
-              local_178 = local_108;
-              uStack_170 = uStack_100;
-              local_168 = local_f8;
-              uStack_160 = uStack_f0;
-              local_158 = local_e8;
-              uStack_150 = uStack_e0;
-              local_148 = local_d8;
-              uStack_140 = uStack_d0;
-              local_138 = local_c8;
-              uStack_130 = uStack_c0;
-              local_1c8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-              local_1c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_198;
-              while (bVar16 = System_Collections_Generic_List_Enumerator_MapLoader_NavMeshBuild___MoveNext
-                                        (&local_198,
-                                         (MethodInfo_1559590 *)
-                                         MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_MoveNext
-                                        ), uVar15 = uStack_130, pSVar14 = local_138, uVar13 = uStack_140,
-                    pSVar12 = local_148, uVar11 = uStack_150, pSVar10 = local_158, uVar9 = uStack_160,
-                    pSVar8 = local_168, uVar7 = uStack_170, pSVar6 = local_178, uVar5 = uStack_180,
-                    pIVar19 = local_198.fields._current, bVar16) {
-                pUVar21 = UnityEngine_GameObject__get_transform(pUVar20,(MethodInfo *)0x0);
-                local_128._0_8_ = pIVar19;
-                local_128._8_8_ = uVar5;
-                local_128._16_8_ = pSVar6;
-                uStack_110 = uVar7;
-                local_108 = pSVar8;
-                uStack_100 = uVar9;
-                local_f8 = pSVar10;
-                uStack_f0 = uVar11;
-                local_e8 = pSVar12;
-                uStack_e0 = uVar13;
-                local_d8 = pSVar14;
-                uStack_d0 = uVar15;
-                pUVar22 = PatreonEffects_EffectText__CreateSegmentGO
-                                    (__this,pUVar21,(PatreonEffects_EffectText_Segment_o *)local_128,
-                                     (MethodInfo *)0x0);
+              uStack_48 = uStack_b8;
+              uStack_40 = uStack_b0;
+              uStack_58 = uStack_c8;
+              uStack_50 = uStack_c0;
+              uStack_68 = uStack_d8;
+              uStack_60 = uStack_d0;
+              uStack_78 = uStack_e8;
+              uStack_70 = uStack_e0;
+              uStack_88 = uStack_f8;
+              uStack_80 = uStack_f0;
+              pUStack_98 = pUStack_108;
+              uStack_90 = uStack_100;
+              auStack_a8 = (undefined1  [8])auStack_118._0_8_;
+              pSStack_a0 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_118._8_8_;
+              auStack_118._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+              auStack_118._8_8_ = (System_Collections_Generic_List_Enumerator_T__o *)auStack_a8;
+              while (bVar7 = System_Collections_Generic_List_Enumerator_EffectText_Segment___MoveNext
+                                       ((System_Collections_Generic_List_Enumerator_T__o *)auStack_a8,
+                                        (MethodInfo_4C7CA20 *)
+                                        MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_MoveNext
+                                       ), bVar7) {
+                uStack_128 = uStack_48;
+                uStack_120 = uStack_40;
+                uStack_138 = uStack_58;
+                uStack_130 = uStack_50;
+                uStack_148 = uStack_68;
+                uStack_140 = uStack_60;
+                uStack_158 = uStack_78;
+                uStack_150 = uStack_70;
+                uStack_168 = uStack_88;
+                uStack_160 = uStack_80;
+                pUStack_178 = pUStack_98;
+                uStack_170 = uStack_90;
+                pUVar13 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+                seg.fields.HasEffect = (bool)(undefined1)uStack_170;
+                seg.fields._9_3_ = uStack_170._1_3_;
+                seg.fields.Effect = uStack_170._4_4_;
+                seg.fields.Content = (System_String_o *)pUStack_178;
+                seg.fields.ColorA.fields.hasValue = (bool)(undefined1)uStack_168;
+                seg.fields.ColorA.fields._1_3_ = uStack_168._1_3_;
+                seg.fields.ColorA.fields.value.fields.r = (float)uStack_168._4_4_;
+                seg.fields.ColorA.fields.value.fields.g = (float)(undefined4)uStack_160;
+                seg.fields.ColorA.fields.value.fields.b = (float)uStack_160._4_4_;
+                seg.fields.ColorA.fields.value.fields.a = (float)(undefined4)uStack_158;
+                seg.fields.ColorB.fields.hasValue = (bool)uStack_158._4_1_;
+                seg.fields.ColorB.fields._1_3_ = uStack_158._5_3_;
+                seg.fields.ColorB.fields.value.fields.r = (float)(undefined4)uStack_150;
+                seg.fields.ColorB.fields.value.fields.g = (float)uStack_150._4_4_;
+                seg.fields.ColorB.fields.value.fields.b = (float)(undefined4)uStack_148;
+                seg.fields.ColorB.fields.value.fields.a = (float)uStack_148._4_4_;
+                seg.fields.ColorC.fields.hasValue = (bool)(undefined1)uStack_140;
+                seg.fields.ColorC.fields._1_3_ = uStack_140._1_3_;
+                seg.fields.ColorC.fields.value.fields.r = (float)uStack_140._4_4_;
+                seg.fields.ColorC.fields.value.fields.g = (float)(undefined4)uStack_138;
+                seg.fields.ColorC.fields.value.fields.b = (float)uStack_138._4_4_;
+                seg.fields.ColorC.fields.value.fields.a = (float)(undefined4)uStack_130;
+                seg.fields.ColorD.fields.hasValue = (bool)uStack_130._4_1_;
+                seg.fields.ColorD.fields._1_3_ = uStack_130._5_3_;
+                seg.fields.ColorD.fields.value.fields.r = (float)(undefined4)uStack_128;
+                seg.fields.ColorD.fields.value.fields.g = (float)uStack_128._4_4_;
+                seg.fields.ColorD.fields.value.fields.b = (float)(undefined4)uStack_120;
+                seg.fields.ColorD.fields.value.fields.a = (float)uStack_120._4_4_;
+                item = PatreonEffects_EffectText__CreateSegmentGO(__this,pUVar13,seg,method_00);
+                pMVar15 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
                 pSVar3 = (__this->fields)._segments;
                 if (pSVar3 == (System_Collections_Generic_List_GameObject__o *)0x0) {
+label_059bcd88:
                   ThrowNullReferenceException();
                 }
-                il2cpp_runtime_helper_180012890(pSVar3,pUVar22,MethodInfo_System_Collections_Generic_List_GameObject_Add);
+                piVar1 = &(pSVar3->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                pUVar5 = (pSVar3->fields)._items;
+                if (pUVar5 == (UnityEngine_GameObject_array *)0x0) goto label_059bcd88;
+                uVar2 = (pSVar3->fields)._size;
+                if (uVar2 < (uint)pUVar5->max_length) {
+                  (pSVar3->fields)._size = uVar2 + 1;
+                  pUVar5->m_Items[(int)uVar2] = item;
+                  Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2);
+                }
+                else {
+                  System_Collections_Generic_List_object___AddWithResize
+                            ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)item,
+                             (MethodInfo_395D230 *)pMVar15->klass->rgctx_data[0xe].method);
+                }
               }
+              pMVar15 = MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_Dispose;
               System_Collections_Generic_List_Enumerator_EffectText_Segment___Dispose
-                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_198,
+                        ((System_Collections_Generic_List_Enumerator_T__o *)auStack_a8,
+                         (MethodInfo_4C7CA10 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_EffectText_Segment_Dispose);
             }
-            uVar23 = uVar23 + 1;
+            uVar14 = uVar14 + 1;
+            uVar2 = (uint)pSVar9->max_length;
+            uVar10 = (ulong)uVar2;
+            if ((long)(int)uVar2 <= (long)uVar14) {
+              return;
+            }
           } while( true );
         }
       }
@@ -1906,35 +2606,44 @@ label_1820b9424:
 
 // PatreonEffects.EffectText$$CreateSegmentGO
 // il2cpp: UnityEngine_GameObject_o* PatreonEffects_EffectText__CreateSegmentGO (PatreonEffects_EffectText_o* __this, UnityEngine_Transform_o* parent, PatreonEffects_EffectText_Segment_o seg, const MethodInfo* method);
-// 0x1820b7640
+// 0x59bf3e0
 
 UnityEngine_GameObject_o *
 PatreonEffects_EffectText__CreateSegmentGO
           (PatreonEffects_EffectText_o *__this,UnityEngine_Transform_o *parent,
-          PatreonEffects_EffectText_Segment_o *seg,MethodInfo *method)
+          PatreonEffects_EffectText_Segment_o seg,MethodInfo *method)
 
 {
-  TMPro_TMP_FontAsset_o *x;
-  undefined4 type;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector2_o UVar3;
+  UnityEngine_Vector2_o UVar4;
   Il2CppType *handle;
-  bool bVar1;
+  undefined4 uVar5;
   System_Type_array *components;
-  System_Type_o *pSVar2;
-  Il2CppObject *pIVar3;
+  System_Type_o *pSVar6;
+  Il2CppObject *pIVar7;
   UnityEngine_GameObject_o *__this_00;
   UnityEngine_Transform_o *__this_01;
   TMPro_TextMeshProUGUI_o *__this_02;
-  System_String_o *text;
-  UnityEngine_Vector2_o UVar4;
-  UnityEngine_Vector2_o UVar5;
-  UnityEngine_UI_LayoutElement_o *pUVar6;
+  System_String_o *pSVar8;
+  UnityEngine_UI_LayoutElement_o *pUVar9;
   PatreonEffects_NameEffectController_o *__this_03;
   PatreonEffects_NameEffectSettings_o *settings;
-  float fVar7;
-  float fVar8;
-  UnityEngine_Color_o local_d8 [10];
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *pMVar10;
+  float fVar11;
+  undefined8 uVar12;
+  UnityEngine_Color_o UVar13;
+  UnityEngine_Color_Fields UVar14;
+  float local_58;
+  float local_48;
   
-  if (Il2CppMethodInitialized_18434693a == '\0') {
+  if (Il2CppMethodInitialized_07545bce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_CanvasRenderer);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController);
@@ -1945,225 +2654,191 @@ PatreonEffects_EffectText__CreateSegmentGO
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_get_HasValue);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_get_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_TMPro_TextMeshProUGUI);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
     il2cpp_codegen_initialize_runtime_metadata(&"Segment");
     il2cpp_codegen_initialize_runtime_metadata(&"|");
-    Il2CppMethodInitialized_18434693a = '\x01';
+    Il2CppMethodInitialized_07545bce = '\x01';
   }
   components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,4);
   handle = TypeRef_UnityEngine_RectTransform;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
-  pSVar2 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-  if (components == (System_Type_array *)0x0) goto label_1820b7c19;
-  if (pSVar2 != (System_Type_o *)0x0) {
-    pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class);
-    if (pIVar3 == (Il2CppObject *)0x0) {
-      pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-    }
+  pSVar6 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) goto label_059bf8f1;
+  if (pSVar6 != (System_Type_o *)0x0) {
+    pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar6,(((components->obj).klass)->_1).element_class);
+    if (pIVar7 == (Il2CppObject *)0x0) goto label_059bf8fb;
   }
   if ((int)components->max_length != 0) {
-    components->m_Items[0] = pSVar2;
-    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar2);
-    pSVar2 = System_Type__GetTypeFromHandle
+    components->m_Items[0] = pSVar6;
+    Il2CppCodeGenWriteBarrier(components->m_Items);
+    pSVar6 = System_Type__GetTypeFromHandle
                        ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_CanvasRenderer,(MethodInfo *)0x0);
-    if (pSVar2 != (System_Type_o *)0x0) {
-      pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class);
-      if (pIVar3 == (Il2CppObject *)0x0) {
-        pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-        il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-      }
+    if (pSVar6 != (System_Type_o *)0x0) {
+      pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar6,(((components->obj).klass)->_1).element_class);
+      if (pIVar7 == (Il2CppObject *)0x0) goto label_059bf8fb;
     }
-    if (1 < (uint)components->max_length) {
-      components->m_Items[1] = pSVar2;
-      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar2);
-      pSVar2 = System_Type__GetTypeFromHandle
-                         ((System_RuntimeTypeHandle_o)TypeRef_TMPro_TextMeshProUGUI,(MethodInfo *)0x0);
-      if (pSVar2 != (System_Type_o *)0x0) {
-        pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class)
+    if ((components->max_length & 0xfffffffe) == 0) goto label_059bf8f6;
+    components->m_Items[1] = pSVar6;
+    Il2CppCodeGenWriteBarrier(components->m_Items + 1);
+    pSVar6 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_TMPro_TextMeshProUGUI,(MethodInfo *)0x0);
+    if (pSVar6 != (System_Type_o *)0x0) {
+      pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar6,(((components->obj).klass)->_1).element_class);
+      if (pIVar7 == (Il2CppObject *)0x0) goto label_059bf8fb;
+    }
+    if (2 < (uint)components->max_length) {
+      components->m_Items[2] = pSVar6;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 2);
+      pSVar6 = System_Type__GetTypeFromHandle
+                         ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+      if (pSVar6 != (System_Type_o *)0x0) {
+        pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar6,(((components->obj).klass)->_1).element_class)
         ;
-        if (pIVar3 == (Il2CppObject *)0x0) {
-          pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-          il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
+        if (pIVar7 == (Il2CppObject *)0x0) {
+label_059bf8fb:
+          pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
         }
       }
-      if (2 < (uint)components->max_length) {
-        components->m_Items[2] = pSVar2;
-        Il2CppCodeGenWriteBarrier(components->m_Items + 2,pSVar2);
-        pSVar2 = System_Type__GetTypeFromHandle
-                           ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0
-                           );
-        if (pSVar2 != (System_Type_o *)0x0) {
-          pIVar3 = il2cpp_vm_Object_IsInst
-                             ((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class);
-          if (pIVar3 == (Il2CppObject *)0x0) {
-            pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
-          }
-        }
-        if (3 < (uint)components->max_length) {
-          components->m_Items[3] = pSVar2;
-          Il2CppCodeGenWriteBarrier(components->m_Items + 3,pSVar2);
-          __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-          UnityEngine_GameObject___ctor_2f1abe0(__this_00,"Segment",components,(MethodInfo *)0x0);
-          if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-            __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-            if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-              UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
-              __this_02 = UnityEngine_GameObject__GetComponent_object_
-                                    (__this_00,
-                                     (MethodInfo_6F5650 *)
-                                     MethodInfo_UnityEngine_GameObject_GetComponent_TextMeshProUGUI);
-              if (__this_02 != (TMPro_TextMeshProUGUI_o *)0x0) {
-                (*(__this_02->klass->vtable)._66_set_text.methodPtr)
-                          (__this_02,(seg->fields).Content,(__this_02->klass->vtable)._66_set_text.method);
-                x = (__this->fields)._font;
-                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      if ((components->max_length & 0xfffffffc) != 0) {
+        components->m_Items[3] = pSVar6;
+        Il2CppCodeGenWriteBarrier(components->m_Items + 3);
+        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+        UnityEngine_GameObject___ctor_691aa60(__this_00,"Segment",components,(MethodInfo *)0x0);
+        if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+          __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+          if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+            UnityEngine_Transform__SetParent_692d510(__this_01,parent,false,(MethodInfo *)0x0);
+            __this_02 = UnityEngine_GameObject__GetComponent_object_
+                                  (__this_00,
+                                   (MethodInfo_353B730 *)
+                                   MethodInfo_UnityEngine_GameObject_GetComponent_TextMeshProUGUI);
+            pSVar8 = seg.fields.Content;
+            if (__this_02 != (TMPro_TextMeshProUGUI_o *)0x0) {
+              (*(__this_02->klass->vtable)._66_set_text.methodPtr)
+                        (__this_02,seg.fields.Content,(__this_02->klass->vtable)._66_set_text.method);
+              TMPro_TMP_Text__set_font
+                        ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._segmentFont,(MethodInfo *)0x0);
+              TMPro_TMP_Text__set_fontSize
+                        ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._fontSize,(MethodInfo *)0x0);
+              uVar5 = seg.fields._8_4_;
+              if ((seg.fields.HasEffect & 1) == 0) {
+                uVar1 = (__this->fields)._color.fields.r;
+                uVar2 = (__this->fields)._color.fields.g;
+                uVar12._0_4_ = (__this->fields)._color.fields.b;
+                uVar12._4_4_ = (__this->fields)._color.fields.a;
+              }
+              else {
+                uVar1 = (undefined4)g_data_01005870;
+                uVar2 = g_data_01005870._4_4_;
+                uVar12 = g_data_01005870;
+              }
+              UVar13.fields.g = (float)uVar2;
+              UVar13.fields.r = (float)uVar1;
+              UVar13.fields.b = (float)(int)uVar12;
+              UVar13.fields.a = (float)(int)((ulong)uVar12 >> 0x20);
+              (*(__this_02->klass->vtable)._23_set_color.methodPtr)
+                        (__this_02,UVar13,(__this_02->klass->vtable)._23_set_color.method);
+              TMPro_TMP_Text__set_alignment
+                        ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._alignment,(MethodInfo *)0x0);
+              TMPro_TMP_Text__set_richText
+                        ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._richText,(MethodInfo *)0x0);
+              TMPro_TMP_Text__set_enableWordWrapping((TMPro_TMP_Text_o *)__this_02,false,(MethodInfo *)0x0);
+              TMPro_TMP_Text__set_overflowMode((TMPro_TMP_Text_o *)__this_02,0,(MethodInfo *)0x0);
+              pSVar8 = System_String__Concat_52f0320(pSVar8,"|",(MethodInfo *)0x0);
+              UVar3 = TMPro_TMP_Text__GetPreferredValues_670f1c0
+                                ((TMPro_TMP_Text_o *)__this_02,pSVar8,3.4028235e+38,3.4028235e+38,
+                                 (MethodInfo *)0x0);
+              UVar4 = TMPro_TMP_Text__GetPreferredValues_670f1c0
+                                ((TMPro_TMP_Text_o *)__this_02,"|",3.4028235e+38,
+                                 3.4028235e+38,(MethodInfo *)0x0);
+              fVar11 = (*(__this_02->klass->vtable)._85_get_preferredHeight.methodPtr)
+                                 (__this_02,(__this_02->klass->vtable)._85_get_preferredHeight.method);
+              pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                                 (__this_00,
+                                  (MethodInfo_353B730 *)
+                                  MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+              if (pUVar9 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                local_48 = UVar3.fields.x;
+                local_58 = UVar4.fields.x;
+                local_48 = local_48 - local_58;
+                if (local_48 <= 0.0) {
+                  local_48 = 0.0;
                 }
-                bVar1 = UnityEngine_Object__op_Inequality
-                                  ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                if (bVar1) {
-                  TMPro_TMP_Text__set_font
-                            ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._font,(MethodInfo *)0x0);
-                }
-                TMPro_TMP_Text__set_fontSize
-                          ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._fontSize,(MethodInfo *)0x0);
-                if ((seg->fields).HasEffect == false) {
-                  local_d8[0].fields.r = (__this->fields)._color.fields.r;
-                  local_d8[0].fields.g = (__this->fields)._color.fields.g;
-                  local_d8[0].fields.b = (__this->fields)._color.fields.b;
-                  local_d8[0].fields.a = (__this->fields)._color.fields.a;
-                }
-                else {
-                  local_d8[0].fields.r = 1.0;
-                  local_d8[0].fields.g = 1.0;
-                  local_d8[0].fields.b = local_d8[0].fields.g;
-                  local_d8[0].fields.a = local_d8[0].fields.g;
-                }
-                (*(__this_02->klass->vtable)._23_set_color.methodPtr)
-                          (__this_02,local_d8,(__this_02->klass->vtable)._23_set_color.method);
-                TMPro_TMP_Text__set_alignment
-                          ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._alignment,(MethodInfo *)0x0);
-                TMPro_TMP_Text__set_richText
-                          ((TMPro_TMP_Text_o *)__this_02,(__this->fields)._richText,(MethodInfo *)0x0);
-                TMPro_TMP_Text__set_enableWordWrapping((TMPro_TMP_Text_o *)__this_02,false,(MethodInfo *)0x0);
-                TMPro_TMP_Text__set_overflowMode((TMPro_TMP_Text_o *)__this_02,0,(MethodInfo *)0x0);
-                text = System_String__Concat_1969e50
-                                 ((seg->fields).Content,"|",(MethodInfo *)0x0);
-                UVar4 = TMPro_TMP_Text__GetPreferredValues_2d12740
-                                  ((TMPro_TMP_Text_o *)__this_02,text,3.4028235e+38,3.4028235e+38,
-                                   (MethodInfo *)0x0);
-                UVar5 = TMPro_TMP_Text__GetPreferredValues_2d12740
-                                  ((TMPro_TMP_Text_o *)__this_02,"|",3.4028235e+38,
-                                   3.4028235e+38,(MethodInfo *)0x0);
-                fVar8 = UVar4.fields.x - UVar5.fields.x;
-                if (fVar8 <= 0.0) {
-                  fVar8 = 0.0;
-                }
-                fVar7 = (*(__this_02->klass->vtable)._85_get_preferredHeight.methodPtr)
-                                  (__this_02,(__this_02->klass->vtable)._85_get_preferredHeight.method);
-                pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                   (__this_00,
-                                    (MethodInfo_6F5650 *)
-                                    MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
-                if (fVar8 <= 0.0) {
-                  fVar8 = 0.0;
-                }
-                if (pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                  (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
-                            (pUVar6,fVar8,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
-                  (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
-                            (pUVar6,fVar7,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
-                  if ((seg->fields).HasEffect != false) {
-                    __this_03 = UnityEngine_GameObject__AddComponent_object_
-                                          (__this_00,
-                                           (MethodInfo_6F4D60 *)
-                                           MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController
-                                          );
-                    if (__this_03 == (PatreonEffects_NameEffectController_o *)0x0) goto label_1820b7c19;
-                    bVar1 = PatreonEffects_NameEffectController__FindText(__this_03,(MethodInfo *)0x0);
-                    if (bVar1) {
-                      (__this_03->fields).cleared = false;
-                      bVar1 = PatreonEffects_NameEffectController__RefreshOriginalMaterial
-                                        (__this_03,(MethodInfo *)0x0);
-                      if (bVar1) {
-                        (__this_03->fields).runtimeMat = (UnityEngine_Material_o *)0x0;
-                        Il2CppCodeGenWriteBarrier(&(__this_03->fields).runtimeMat,(void *)0x0);
-                        (__this_03->fields).initialized = false;
-                      }
-                    }
-                    type = (seg->fields).Effect;
-                    settings = PatreonEffects_NameEffectPresets__GetPreset(type,(MethodInfo *)0x0);
-                    if ((seg->fields).ColorA.fields.hasValue != false) {
-                      System_Nullable_Vector4___get_Value
-                                ((UnityEngine_Vector4_o *)local_d8,
-                                 (System_Nullable_Vector4__o *)&(seg->fields).ColorA,
-                                 (MethodInfo_AE2AC0 *)MethodInfo_System_Nullable_Color_get_Value);
-                      if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820b7c19;
-                      (settings->fields).gradientA.fields.r = local_d8[0].fields.r;
-                      (settings->fields).gradientA.fields.g = local_d8[0].fields.g;
-                      (settings->fields).gradientA.fields.b = local_d8[0].fields.b;
-                      (settings->fields).gradientA.fields.a = local_d8[0].fields.a;
-                    }
-                    if ((seg->fields).ColorB.fields.hasValue != false) {
-                      System_Nullable_Vector4___get_Value
-                                ((UnityEngine_Vector4_o *)local_d8,
-                                 (System_Nullable_Vector4__o *)&(seg->fields).ColorB,
-                                 (MethodInfo_AE2AC0 *)MethodInfo_System_Nullable_Color_get_Value);
-                      if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820b7c19;
-                      (settings->fields).gradientB.fields.r = local_d8[0].fields.r;
-                      (settings->fields).gradientB.fields.g = local_d8[0].fields.g;
-                      (settings->fields).gradientB.fields.b = local_d8[0].fields.b;
-                      (settings->fields).gradientB.fields.a = local_d8[0].fields.a;
-                    }
-                    if ((seg->fields).ColorC.fields.hasValue != false) {
-                      System_Nullable_Vector4___get_Value
-                                ((UnityEngine_Vector4_o *)local_d8,
-                                 (System_Nullable_Vector4__o *)&(seg->fields).ColorC,
-                                 (MethodInfo_AE2AC0 *)MethodInfo_System_Nullable_Color_get_Value);
-                      if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820b7c19;
-                      (settings->fields).gradientC.fields.r = local_d8[0].fields.r;
-                      (settings->fields).gradientC.fields.g = local_d8[0].fields.g;
-                      (settings->fields).gradientC.fields.b = local_d8[0].fields.b;
-                      (settings->fields).gradientC.fields.a = local_d8[0].fields.a;
-                    }
-                    if ((seg->fields).ColorD.fields.hasValue != false) {
-                      System_Nullable_Vector4___get_Value
-                                ((UnityEngine_Vector4_o *)local_d8,
-                                 (System_Nullable_Vector4__o *)&(seg->fields).ColorD,
-                                 (MethodInfo_AE2AC0 *)MethodInfo_System_Nullable_Color_get_Value);
-                      if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_1820b7c19;
-                      (settings->fields).gradientD.fields.r = local_d8[0].fields.r;
-                      (settings->fields).gradientD.fields.g = local_d8[0].fields.g;
-                      (settings->fields).gradientD.fields.b = local_d8[0].fields.b;
-                      (settings->fields).gradientD.fields.a = local_d8[0].fields.a;
-                    }
-                    PatreonEffects_NameEffectController__Apply(__this_03,settings,(MethodInfo *)0x0);
+                (*(pUVar9->klass->vtable)._36_set_preferredWidth.methodPtr)
+                          (pUVar9,local_48,(pUVar9->klass->vtable)._36_set_preferredWidth.method);
+                (*(pUVar9->klass->vtable)._38_set_preferredHeight.methodPtr)
+                          (pUVar9,fVar11,(pUVar9->klass->vtable)._38_set_preferredHeight.method);
+                if ((SUB41(uVar5,0) & 1) != 0) {
+                  pMVar10 = MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController;
+                  __this_03 = UnityEngine_GameObject__AddComponent_object_
+                                        (__this_00,
+                                         (MethodInfo_353B6A0 *)
+                                         MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController);
+                  if (__this_03 == (PatreonEffects_NameEffectController_o *)0x0) goto label_059bf8f1;
+                  PatreonEffects_NameEffectController__AutoConfigure(__this_03,pMVar10);
+                  settings = PatreonEffects_NameEffectPresets__GetPreset(seg.fields.Effect,pMVar10);
+                  pMVar10 = extraout_RDX;
+                  if (seg.fields.ColorA.fields.hasValue != false) {
+                    UVar14 = (UnityEngine_Color_Fields)
+                             System_Nullable_Color___get_Value
+                                       (&seg.fields.ColorA,
+                                        (MethodInfo_3CD1320 *)MethodInfo_System_Nullable_Color_get_Value);
+                    if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059bf8f1;
+                    (settings->fields).gradientA.fields = UVar14;
+                    pMVar10 = extraout_RDX_00;
                   }
-                  return __this_00;
+                  if (seg.fields.ColorB.fields.hasValue != false) {
+                    UVar14 = (UnityEngine_Color_Fields)
+                             System_Nullable_Color___get_Value
+                                       (&seg.fields.ColorB,
+                                        (MethodInfo_3CD1320 *)MethodInfo_System_Nullable_Color_get_Value);
+                    if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059bf8f1;
+                    (settings->fields).gradientB.fields = UVar14;
+                    pMVar10 = extraout_RDX_01;
+                  }
+                  if (seg.fields.ColorC.fields.hasValue != false) {
+                    UVar14 = (UnityEngine_Color_Fields)
+                             System_Nullable_Color___get_Value
+                                       (&seg.fields.ColorC,
+                                        (MethodInfo_3CD1320 *)MethodInfo_System_Nullable_Color_get_Value);
+                    if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059bf8f1;
+                    (settings->fields).gradientC.fields = UVar14;
+                    pMVar10 = extraout_RDX_02;
+                  }
+                  if (seg.fields.ColorD.fields.hasValue != false) {
+                    UVar14 = (UnityEngine_Color_Fields)
+                             System_Nullable_Color___get_Value
+                                       (&seg.fields.ColorD,
+                                        (MethodInfo_3CD1320 *)MethodInfo_System_Nullable_Color_get_Value);
+                    if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_059bf8f1;
+                    (settings->fields).gradientD.fields = UVar14;
+                    pMVar10 = extraout_RDX_03;
+                  }
+                  PatreonEffects_NameEffectController__Apply(__this_03,settings,pMVar10);
                 }
+                return __this_00;
               }
             }
           }
-label_1820b7c19:
-          ThrowNullReferenceException();
         }
+label_059bf8f1:
+        ThrowNullReferenceException();
       }
     }
   }
+label_059bf8f6:
   ThrowIndexOutOfRangeException();
 }
 
 
 // PatreonEffects.EffectText$$CreateSpacerRow
 // il2cpp: UnityEngine_GameObject_o* PatreonEffects_EffectText__CreateSpacerRow (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b7c60
+// 0x59bf1c0
 
 UnityEngine_GameObject_o *
 PatreonEffects_EffectText__CreateSpacerRow(PatreonEffects_EffectText_o *__this,MethodInfo *method)
@@ -2178,57 +2853,55 @@ PatreonEffects_EffectText__CreateSpacerRow(PatreonEffects_EffectText_o *__this,M
   UnityEngine_Transform_o *parent;
   UnityEngine_UI_LayoutElement_o *pUVar3;
   
-  if (Il2CppMethodInitialized_18434693b == '\0') {
+  if (Il2CppMethodInitialized_07545bcf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
     il2cpp_codegen_initialize_runtime_metadata(&"EffectTextSpacer");
-    Il2CppMethodInitialized_18434693b = '\x01';
+    Il2CppMethodInitialized_07545bcf = '\x01';
   }
   components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
   handle = TypeRef_UnityEngine_RectTransform;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
   pSVar1 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
   if (components == (System_Type_array *)0x0) {
-label_1820b7e46:
+label_059bf3c1:
     ThrowNullReferenceException();
   }
   if (pSVar1 != (System_Type_o *)0x0) {
     pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
-    if (pIVar2 == (Il2CppObject *)0x0) {
-      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
-    }
+    if (pIVar2 == (Il2CppObject *)0x0) goto label_059bf3cb;
   }
   if ((int)components->max_length != 0) {
     components->m_Items[0] = pSVar1;
-    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar1);
+    Il2CppCodeGenWriteBarrier(components->m_Items);
     pSVar1 = System_Type__GetTypeFromHandle
                        ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
     if (pSVar1 != (System_Type_o *)0x0) {
       pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
       if (pIVar2 == (Il2CppObject *)0x0) {
+label_059bf3cb:
         pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
         il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
       }
     }
-    if (1 < (uint)components->max_length) {
+    if ((components->max_length & 0xfffffffe) != 0) {
       components->m_Items[1] = pSVar1;
-      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar1);
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-      UnityEngine_GameObject___ctor_2f1abe0(__this_00,"EffectTextSpacer",components,(MethodInfo *)0x0);
+      UnityEngine_GameObject___ctor_691aa60(__this_00,"EffectTextSpacer",components,(MethodInfo *)0x0);
       if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
         __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
         parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
         if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+          UnityEngine_Transform__SetParent_692d510(__this_01,parent,false,(MethodInfo *)0x0);
           pUVar3 = UnityEngine_GameObject__GetComponent_object_
                              (__this_00,
-                              (MethodInfo_6F5650 *)
+                              (MethodInfo_353B730 *)
                               MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
           if (pUVar3 != (UnityEngine_UI_LayoutElement_o *)0x0) {
             (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
@@ -2240,7 +2913,7 @@ label_1820b7e46:
           }
         }
       }
-      goto label_1820b7e46;
+      goto label_059bf3c1;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -2249,60 +2922,75 @@ label_1820b7e46:
 
 // PatreonEffects.EffectText$$ApplyFontSize
 // il2cpp: void PatreonEffects_EffectText__ApplyFontSize (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b71c0
+// 0x59bceb0
 
 void PatreonEffects_EffectText__ApplyFontSize(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  PatreonEffects_EffectText__Rebuild(__this,(MethodInfo *)0x0);
+  PatreonEffects_EffectText__Rebuild(__this,method);
   return;
 }
 
 
 // PatreonEffects.EffectText$$ApplyColor
 // il2cpp: void PatreonEffects_EffectText__ApplyColor (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b6fa0
-// eh: try 0x1820b7070..0x1820b71ae -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 20 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b706e: nop 
-// asm:   0x1820b70db: nop dword ptr [rax + rax]
-// asm:   0x1820b716c: mov rdx, qword ptr [rip + 0x1fc9375]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x1820b7173: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820b7178: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820b717d: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820b7182: test rcx, rcx
-// asm:   0x1820b7185: jne 0x1820b71ae
-// asm:   0x1820b71ae: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x59bcee0
+// eh: try 0x59bcfba..0x59bd0e5 -> pad 0x59bd0f4 (+10 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59bd116..0x59bd11b -> pad 0x59bd13a cleanup
+// eh: try 0x59bd13d..0x59bd147 -> pad 0x59bd14f catch (...) [compiler noexcept guard]
+// asm: 33 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bd0ea: jmp 0x59bd0fe
+// asm:   0x59bd0ec: jmp 0x59bd0fe
+// asm:   0x59bd0ee: jmp 0x59bd0fe
+// asm:   0x59bd0f0: jmp 0x59bd0fe
+// asm:   0x59bd0f2: jmp 0x59bd0fe
+// asm:   0x59bd0f4: jmp 0x59bd0fe
+// asm:   0x59bd0f6: jmp 0x59bd0fe
+// asm:   0x59bd0f8: jmp 0x59bd0fe
+// asm:   0x59bd0fa: jmp 0x59bd0fe
+// asm:   0x59bd0fc: jmp 0x59bd0fe
+// asm:   0x59bd0fe: mov rbx, rax
+// asm:   0x59bd101: cmp edx, 1
+// asm:   0x59bd104: jne 0x59bd13d
+// asm:   0x59bd106: mov rdi, rbx
+// asm:   0x59bd109: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59bd10e: mov rbx, qword ptr [rax]
+// asm:   0x59bd111: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x59bd116: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59bd11b: lea rax, [rip + 0x18d0c56]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x59bd122: mov rsi, qword ptr [rax]
+// asm:   0x59bd125: mov rdi, rsp
+// asm:   0x59bd128: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59bd12d: test rbx, rbx
+// asm:   0x59bd130: je 0x59bd0c2
+// asm:   0x59bd132: mov rdi, rbx
+// asm:   0x59bd135: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59bd13a: mov rbx, rax
+// asm:   0x59bd13d: lea rdi, [rsp + 0x20]
+// asm:   0x59bd142: call 0x2fd51a0  ; il2cpp_runtime_helper_02fd51a0()
+// asm:   0x59bd147: mov rdi, rbx
+// asm:   0x59bd14a: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59bd14f: mov rdi, rax
+// asm:   0x59bd152: call 0x2ab61e0  ; __clang_call_terminate()
 
 void PatreonEffects_EffectText__ApplyColor(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  uint uVar1;
+  undefined4 uVar1;
+  undefined8 uVar2;
   System_Collections_Generic_List_GameObject__o *__this_00;
   UnityEngine_Component_o *__this_01;
   Il2CppObject *x;
-  bool bVar2;
-  System_Object_array *pSVar3;
-  PatreonEffects_NameEffectController_o *x_00;
+  bool bVar3;
   uint uVar4;
-  undefined1 local_78 [8];
-  float fStack_70;
-  float fStack_6c;
-  UnityEngine_Object_o *local_68;
-  System_Collections_Generic_List_Enumerator_object__o local_58;
+  System_Object_array *pSVar5;
+  PatreonEffects_NameEffectController_o *x_00;
+  uint uVar6;
+  System_Collections_Generic_List_Enumerator_object__o SStack_68;
+  undefined1 auStack_48 [16];
+  UnityEngine_Object_o *pUStack_38;
   
-  if (Il2CppMethodInitialized_18434693c == '\0') {
+  if (Il2CppMethodInitialized_07545bd0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponent_NameEffectController);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2316,118 +3004,143 @@ void PatreonEffects_EffectText__ApplyColor(PatreonEffects_EffectText_o *__this,M
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434693c = '\x01';
+    Il2CppMethodInitialized_07545bd0 = '\x01';
   }
-  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_58.fields._index = 0;
-  local_58.fields._version = 0;
-  local_58.fields._current = (Il2CppObject *)0x0;
   __this_00 = (__this->fields)._segments;
   if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_78,
-             (System_Collections_Generic_List_T__o *)__this_00,
-             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-  local_58.fields._current = (Il2CppObject *)local_68;
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)auStack_48,
+             (System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+  SStack_68.fields._current = (Il2CppObject *)pUStack_38;
+  SStack_68.fields._list = (System_Collections_Generic_List_T__o *)auStack_48._0_8_;
+  SStack_68.fields._index = auStack_48._8_4_;
+  SStack_68.fields._version = auStack_48._12_4_;
+  auStack_48._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  auStack_48._8_8_ = &SStack_68;
   do {
     do {
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_58,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
-      x = local_58.fields._current;
-      if (!bVar2) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_58,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
-        return;
+      do {
+        bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                          (&SStack_68,
+                           (MethodInfo_4C45C50 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+        x = SStack_68.fields._current;
+        if (!bVar3) {
+          System_Collections_Generic_List_Enumerator_object___Dispose
+                    (&SStack_68,
+                     (MethodInfo_4C45C40 *)
+                     MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+          return;
+        }
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar3 = UnityEngine_Object__op_Equality
+                          ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      } while (bVar3);
+      if ((UnityEngine_Object_o *)x == (UnityEngine_Object_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      pSVar5 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                         ((UnityEngine_GameObject_o *)x,
+                          (MethodInfo_353C030 *)
+                          MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_TextMeshProUGUI);
+      if (pSVar5 == (System_Object_array *)0x0) {
+        ThrowNullReferenceException();
       }
-      bVar2 = UnityEngine_Object__op_Equality
-                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    } while (bVar2);
-    if ((UnityEngine_Object_o *)x == (UnityEngine_Object_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pSVar3 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       ((UnityEngine_GameObject_o *)x,
-                        (MethodInfo_6F5810 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_TextMeshProUGUI);
-    uVar4 = 0;
-    if (pSVar3 == (System_Object_array *)0x0) {
-      ThrowNullReferenceException();
-    }
-    for (; uVar1 = (uint)pSVar3->max_length, (int)uVar4 < (int)uVar1; uVar4 = uVar4 + 1) {
-      if (uVar1 <= uVar4) {
+      uVar4 = (uint)pSVar5->max_length;
+    } while ((int)uVar4 < 1);
+    uVar6 = 0;
+    do {
+      if (uVar4 <= uVar6) {
         ThrowIndexOutOfRangeException();
       }
-      __this_01 = (UnityEngine_Component_o *)pSVar3->m_Items[(int)uVar4];
+      __this_01 = (UnityEngine_Component_o *)pSVar5->m_Items[(int)uVar6];
       if (__this_01 == (UnityEngine_Component_o *)0x0) {
         ThrowNullReferenceException();
       }
       x_00 = UnityEngine_Component__GetComponent_object_
                        (__this_01,
-                        (MethodInfo_6651A0 *)
+                        (MethodInfo_34B0830 *)
                         MethodInfo_UnityEngine_Component_GetComponent_NameEffectController);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar2 = UnityEngine_Object__op_Equality
+      bVar3 = UnityEngine_Object__op_Equality
                         ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar2) {
-        local_78._0_4_ = (__this->fields)._color.fields.r;
-        local_78._4_4_ = (__this->fields)._color.fields.g;
-        fStack_70 = (__this->fields)._color.fields.b;
-        fStack_6c = (__this->fields)._color.fields.a;
-        (**(code **)&((Il2CppClass *)__this_01->klass)->vtable[23].methodPtr)(__this_01,local_78);
+      if (bVar3) {
+        uVar1 = (__this->fields)._color.fields.r;
+        uVar2._0_4_ = (__this->fields)._color.fields.b;
+        uVar2._4_4_ = (__this->fields)._color.fields.a;
+        (**(code **)&((Il2CppClass *)__this_01->klass)->vtable[23].methodPtr)
+                  (uVar1,uVar2,__this_01,((Il2CppClass *)__this_01->klass)->vtable[23].method);
       }
-    }
+      uVar6 = uVar6 + 1;
+      uVar4 = (uint)pSVar5->max_length;
+    } while ((int)uVar6 < (int)uVar4);
   } while( true );
 }
 
 
 // PatreonEffects.EffectText$$ApplyAlignment
 // il2cpp: void PatreonEffects_EffectText__ApplyAlignment (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b6df0
-// eh: try 0x1820b6eb0..0x1820b6f87 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b6f4c: mov rdx, qword ptr [rip + 0x1fc9595]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x1820b6f53: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820b6f58: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820b6f5d: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820b6f62: test rcx, rcx
-// asm:   0x1820b6f65: jne 0x1820b6f87
-// asm:   0x1820b6f87: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x59bd1b0
+// eh: try 0x59bd274..0x59bd331 -> pad 0x59bd340 (+8 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59bd35e..0x59bd363 -> pad 0x59bd384 cleanup
+// eh: try 0x59bd387..0x59bd391 -> pad 0x59bd399 catch (...) [compiler noexcept guard]
+// asm: 34 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59bd26f: nop 
+// asm:   0x59bd2cf: nop 
+// asm:   0x59bd2f5: jmp 0x59bd270
+// asm:   0x59bd336: jmp 0x59bd346
+// asm:   0x59bd338: jmp 0x59bd346
+// asm:   0x59bd33a: jmp 0x59bd346
+// asm:   0x59bd33c: jmp 0x59bd346
+// asm:   0x59bd33e: jmp 0x59bd346
+// asm:   0x59bd340: jmp 0x59bd346
+// asm:   0x59bd342: jmp 0x59bd346
+// asm:   0x59bd344: jmp 0x59bd346
+// asm:   0x59bd346: mov rbx, rax
+// asm:   0x59bd349: cmp edx, 1
+// asm:   0x59bd34c: jne 0x59bd387
+// asm:   0x59bd34e: mov rdi, rbx
+// asm:   0x59bd351: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59bd356: mov rbx, qword ptr [rax]
+// asm:   0x59bd359: mov qword ptr [rsp + 8], rbx
+// asm:   0x59bd35e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59bd363: lea rax, [rip + 0x18d0a0e]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x59bd36a: mov rsi, qword ptr [rax]
+// asm:   0x59bd36d: lea rdi, [rsp + 0x20]
+// asm:   0x59bd372: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59bd377: test rbx, rbx
+// asm:   0x59bd37a: je 0x59bd30e
+// asm:   0x59bd37c: mov rdi, rbx
+// asm:   0x59bd37f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59bd384: mov rbx, rax
+// asm:   0x59bd387: lea rdi, [rsp + 8]
+// asm:   0x59bd38c: call 0x2fd51d0  ; il2cpp_runtime_helper_02fd51d0()
+// asm:   0x59bd391: mov rdi, rbx
+// asm:   0x59bd394: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59bd399: mov rdi, rax
+// asm:   0x59bd39c: call 0x2ab61e0  ; __clang_call_terminate()
 
 void PatreonEffects_EffectText__ApplyAlignment(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  uint uVar1;
   System_Collections_Generic_List_GameObject__o *__this_00;
   Il2CppObject *x;
-  bool bVar2;
+  bool bVar1;
+  uint uVar2;
   System_Object_array *pSVar3;
   uint uVar4;
-  undefined1 local_60 [16];
-  UnityEngine_Object_o *local_50;
-  System_Collections_Generic_List_Enumerator_object__o local_48;
+  undefined1 auStack_60 [16];
+  UnityEngine_Object_o *pUStack_50;
+  System_Collections_Generic_List_Enumerator_object__o SStack_48;
   
-  if (Il2CppMethodInitialized_18434693d == '\0') {
+  if (Il2CppMethodInitialized_07545bd1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2439,58 +3152,58 @@ void PatreonEffects_EffectText__ApplyAlignment(PatreonEffects_EffectText_o *__th
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434693d = '\x01';
+    Il2CppMethodInitialized_07545bd1 = '\x01';
   }
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
   __this_00 = (__this->fields)._segments;
   if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
-             (System_Collections_Generic_List_T__o *)__this_00,
-             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)local_60._0_8_;
-  local_48.fields._index = local_60._8_4_;
-  local_48.fields._version = local_60._12_4_;
-  local_48.fields._current = (Il2CppObject *)local_50;
-  local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_60._8_8_ = &local_48;
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)auStack_60,
+             (System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+  SStack_48.fields._current = (Il2CppObject *)pUStack_50;
+  SStack_48.fields._list = (System_Collections_Generic_List_T__o *)auStack_60._0_8_;
+  SStack_48.fields._index = auStack_60._8_4_;
+  SStack_48.fields._version = auStack_60._12_4_;
+  auStack_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  auStack_60._8_8_ = &SStack_48;
   do {
     do {
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_48,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
-      x = local_48.fields._current;
-      if (!bVar2) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
-        return;
+      do {
+        bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                          (&SStack_48,
+                           (MethodInfo_4C45C50 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+        x = SStack_48.fields._current;
+        if (!bVar1) {
+          System_Collections_Generic_List_Enumerator_object___Dispose
+                    (&SStack_48,
+                     (MethodInfo_4C45C40 *)
+                     MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+          return;
+        }
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar1 = UnityEngine_Object__op_Equality
+                          ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      } while (bVar1);
+      if ((UnityEngine_Object_o *)x == (UnityEngine_Object_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      pSVar3 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                         ((UnityEngine_GameObject_o *)x,
+                          (MethodInfo_353C030 *)
+                          MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_TextMeshProUGUI);
+      if (pSVar3 == (System_Object_array *)0x0) {
+        ThrowNullReferenceException();
       }
-      bVar2 = UnityEngine_Object__op_Equality
-                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    } while (bVar2);
-    if ((UnityEngine_Object_o *)x == (UnityEngine_Object_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pSVar3 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       ((UnityEngine_GameObject_o *)x,
-                        (MethodInfo_6F5810 *)
-                        MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_TextMeshProUGUI);
+      uVar2 = (uint)pSVar3->max_length;
+    } while ((int)uVar2 < 1);
     uVar4 = 0;
-    if (pSVar3 == (System_Object_array *)0x0) {
-      ThrowNullReferenceException();
-    }
-    for (; uVar1 = (uint)pSVar3->max_length, (int)uVar4 < (int)uVar1; uVar4 = uVar4 + 1) {
-      if (uVar1 <= uVar4) {
+    do {
+      if (uVar2 <= uVar4) {
         ThrowIndexOutOfRangeException();
       }
       if ((TMPro_TMP_Text_o *)pSVar3->m_Items[(int)uVar4] == (TMPro_TMP_Text_o *)0x0) {
@@ -2499,35 +3212,47 @@ void PatreonEffects_EffectText__ApplyAlignment(PatreonEffects_EffectText_o *__th
       TMPro_TMP_Text__set_alignment
                 ((TMPro_TMP_Text_o *)pSVar3->m_Items[(int)uVar4],(__this->fields)._alignment,(MethodInfo *)0x0
                 );
-    }
+      uVar4 = uVar4 + 1;
+      uVar2 = (uint)pSVar3->max_length;
+    } while ((int)uVar4 < (int)uVar2);
   } while( true );
 }
 
 
 // PatreonEffects.EffectText$$OnDestroy
 // il2cpp: void PatreonEffects_EffectText__OnDestroy (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b7e80
-// eh: try 0x1820b7f50..0x1820b7fb1 -> pad 0x183315930 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820b7fc2: mov rdx, qword ptr [rip + 0x1fc851f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x1820b7fc9: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820b7fce: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820b7fd3: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820b7fd8: test rcx, rcx
-// asm:   0x1820b7fdb: jne 0x1820b8025
-// asm:   0x1820b7fdd: mov rsi, qword ptr [rsp + 0x70]
-// asm:   0x1820b8025: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x59c0030
+// eh: try 0x59c00fd..0x59c0145 -> pad 0x59c0195 (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59c01b1..0x59c01b6 -> pad 0x59c01d5 cleanup
+// eh: try 0x59c01d8..0x59c01e2 -> pad 0x59c01ea catch (...) [compiler noexcept guard]
+// asm: 27 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59c013e: jmp 0x59c00f0
+// asm:   0x59c0193: jmp 0x59c0199
+// asm:   0x59c0195: jmp 0x59c0199
+// asm:   0x59c0197: jmp 0x59c0199
+// asm:   0x59c0199: mov rbx, rax
+// asm:   0x59c019c: cmp edx, 1
+// asm:   0x59c019f: jne 0x59c01d8
+// asm:   0x59c01a1: mov rdi, rbx
+// asm:   0x59c01a4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59c01a9: mov rbx, qword ptr [rax]
+// asm:   0x59c01ac: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x59c01b1: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59c01b6: lea rax, [rip + 0x18cdbbb]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x59c01bd: mov rsi, qword ptr [rax]
+// asm:   0x59c01c0: mov rdi, rsp
+// asm:   0x59c01c3: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59c01c8: test rbx, rbx
+// asm:   0x59c01cb: je 0x59c0159
+// asm:   0x59c01cd: mov rdi, rbx
+// asm:   0x59c01d0: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59c01d5: mov rbx, rax
+// asm:   0x59c01d8: lea rdi, [rsp + 0x20]
+// asm:   0x59c01dd: call 0x2fd5200  ; il2cpp_runtime_helper_02fd5200()
+// asm:   0x59c01e2: mov rdi, rbx
+// asm:   0x59c01e5: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59c01ea: mov rdi, rax
+// asm:   0x59c01ed: call 0x2ab61e0  ; __clang_call_terminate()
 
 void PatreonEffects_EffectText__OnDestroy(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
@@ -2535,15 +3260,13 @@ void PatreonEffects_EffectText__OnDestroy(PatreonEffects_EffectText_o *__this,Me
   int32_t *piVar1;
   int32_t length;
   System_Collections_Generic_List_GameObject__o *pSVar2;
-  UnityEngine_Object_o *x;
+  Il2CppObject *x;
   bool bVar3;
-  undefined1 local_40 [16];
-  UnityEngine_Object_o *local_30;
-  undefined1 local_28 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
-  UnityEngine_Object_o *local_18;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_18434693e == '\0') {
+  if (Il2CppMethodInitialized_07545bd2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2554,43 +3277,42 @@ void PatreonEffects_EffectText__OnDestroy(PatreonEffects_EffectText_o *__this,Me
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434693e = '\x01';
+    Il2CppMethodInitialized_07545bd2 = '\x01';
   }
-  local_28 = (undefined1  [8])0x0;
-  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_18 = (UnityEngine_Object_o *)0x0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
   pSVar2 = (__this->fields)._segments;
   if (pSVar2 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,
-               (System_Collections_Generic_List_T__o *)pSVar2,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-    local_28 = (undefined1  [8])local_40._0_8_;
-    pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
-    local_18 = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+    System_Collections_Generic_List_object___GetEnumerator
+              (&local_58,(System_Collections_Generic_List_object__o *)pSVar2,
+               (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+    local_38 = 0;
+    local_30 = (undefined1 *)&local_58;
     while( true ) {
       bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_28,
-                         (MethodInfo_153A2A0 *)
+                        ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                         (MethodInfo_4C45C50 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
-      x = local_18;
+      x = local_58.fields._current;
       if (!bVar3) break;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      bVar3 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
       if (bVar3) {
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        UnityEngine_Object__Destroy_2f1ff70(x,(MethodInfo *)0x0);
+        UnityEngine_Object__Destroy_69214e0((UnityEngine_Object_o *)x,(MethodInfo *)0x0);
       }
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
-               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+              ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+               (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose)
+    ;
     pSVar2 = (__this->fields)._segments;
     if (pSVar2 != (System_Collections_Generic_List_GameObject__o *)0x0) {
       piVar1 = &(pSVar2->fields)._version;
@@ -2609,22 +3331,20 @@ void PatreonEffects_EffectText__OnDestroy(PatreonEffects_EffectText_o *__this,Me
 
 // PatreonEffects.EffectText$$.ctor
 // il2cpp: void PatreonEffects_EffectText___ctor (PatreonEffects_EffectText_o* __this, const MethodInfo* method);
-// 0x1820b96d0
+// 0x59c0200
 
 void PatreonEffects_EffectText___ctor(PatreonEffects_EffectText_o *__this,MethodInfo *method)
 
 {
-  System_String_o *value;
   System_Collections_Generic_List_GameObject__o *__this_00;
   
-  if (Il2CppMethodInitialized_18434693f == '\0') {
+  if (Il2CppMethodInitialized_07545bd3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
-    Il2CppMethodInitialized_18434693f = '\x01';
+    Il2CppMethodInitialized_07545bd3 = '\x01';
   }
-  value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this->fields)._text = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._text,value);
+  (__this->fields)._text = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._text);
   (__this->fields)._fontSize = 18.0;
   (__this->fields)._color.fields.r = 1.0;
   (__this->fields)._color.fields.g = 1.0;
@@ -2634,10 +3354,10 @@ void PatreonEffects_EffectText___ctor(PatreonEffects_EffectText_o *__this,Method
   (__this->fields)._richText = true;
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._segments = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._segments,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._segments);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -2645,28 +3365,30 @@ void PatreonEffects_EffectText___ctor(PatreonEffects_EffectText_o *__this,Method
 
 // PatreonEffects.EffectText$$.cctor
 // il2cpp: void PatreonEffects_EffectText___cctor (const MethodInfo* method);
-// 0x1820b95e0
+// 0x59c02c0
 
 void PatreonEffects_EffectText___cctor(MethodInfo *method)
 
 {
-  System_Text_RegularExpressions_Regex_o *pSVar1;
+  PatreonEffects_EffectText_StaticFields *pPVar1;
+  System_Text_RegularExpressions_Regex_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184346940 == '\0') {
+  if (Il2CppMethodInitialized_07545bd4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_EffectText);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_RegularExpressions_Regex);
     il2cpp_codegen_initialize_runtime_metadata(&"<fx(?<attrs>[^>]*)>(?<content>.*?)</fx>");
     il2cpp_codegen_initialize_runtime_metadata(&"(?<key>\\w+)=\"(?<val>[^\"]*)\"");
-    Il2CppMethodInitialized_184346940 = '\x01';
+    Il2CppMethodInitialized_07545bd4 = '\x01';
   }
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Regex);
-  System_Text_RegularExpressions_Regex___ctor_285f6f0(pSVar1,"<fx(?<attrs>[^>]*)>(?<content>.*?)</fx>",0x18,(MethodInfo *)0x0);
-  TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex = pSVar1;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex,pSVar1);
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Regex);
-  System_Text_RegularExpressions_Regex___ctor_285f6f0(pSVar1,"(?<key>\\w+)=\"(?<val>[^\"]*)\"",8,(MethodInfo *)0x0);
-  TypeInfo_PatreonEffects_EffectText->static_fields->_attrRegex = pSVar1;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText->static_fields->_attrRegex,pSVar1);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Regex);
+  System_Text_RegularExpressions_Regex___ctor_61e4b50(pSVar2,"<fx(?<attrs>[^>]*)>(?<content>.*?)</fx>",0x18,(MethodInfo *)0x0);
+  TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_PatreonEffects_EffectText->static_fields->_fxTagRegex);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Regex);
+  System_Text_RegularExpressions_Regex___ctor_61e4b50(pSVar2,"(?<key>\\w+)=\"(?<val>[^\"]*)\"",8,(MethodInfo *)0x0);
+  pPVar1 = TypeInfo_PatreonEffects_EffectText->static_fields;
+  pPVar1->_attrRegex = pSVar2;
+  Il2CppCodeGenWriteBarrier(&pPVar1->_attrRegex);
   return;
 }
 

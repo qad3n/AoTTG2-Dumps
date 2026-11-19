@@ -18,7 +18,7 @@ public class MonoPInvokeCallbackAttribute : Attribute
 	private Type type;
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x5706C80", Offset = "0x5705C80", VA = "0x5706C80")]
 	public MonoPInvokeCallbackAttribute(Type t)
 	{
 	}

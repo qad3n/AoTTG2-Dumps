@@ -27,20 +27,20 @@ internal sealed class DeltaTimePlayerLoopTimer : PlayerLoopTimer
 	private float interval;
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x290D010", Offset = "0x290B610", VA = "0x18290D010")]
+	[Address(RVA = "0x62C8BF0", Offset = "0x62C7BF0", VA = "0x62C8BF0")]
 	public DeltaTimePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x290CEC0", Offset = "0x290B4C0", VA = "0x18290CEC0", Slot = "7")]
+	[Address(RVA = "0x62C8F50", Offset = "0x62C7F50", VA = "0x62C8F50", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x290CF30", Offset = "0x290B530", VA = "0x18290CF30", Slot = "6")]
+	[Address(RVA = "0x62C8FB0", Offset = "0x62C7FB0", VA = "0x62C8FB0", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

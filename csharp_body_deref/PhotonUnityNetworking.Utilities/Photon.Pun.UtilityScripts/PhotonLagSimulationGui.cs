@@ -31,14 +31,14 @@ public class PhotonLagSimulationGui : MonoBehaviour
 	public PhotonPeer Peer
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x56E9470", Offset = "0x56E8470", VA = "0x56E9470")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x56E9480", Offset = "0x56E8480", VA = "0x56E9480")]
 		[CompilerGenerated]
 		set
 		{
@@ -46,31 +46,31 @@ public class PhotonLagSimulationGui : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x1D552B0", Offset = "0x1D538B0", VA = "0x181D552B0")]
+	[Address(RVA = "0x56E9490", Offset = "0x56E8490", VA = "0x56E9490")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x1D55190", Offset = "0x1D53790", VA = "0x181D55190")]
+	[Address(RVA = "0x56E9590", Offset = "0x56E8590", VA = "0x56E9590")]
 	public void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x1D54C40", Offset = "0x1D53240", VA = "0x181D54C40")]
+	[Address(RVA = "0x56E9720", Offset = "0x56E8720", VA = "0x56E9720")]
 	private void NetSimHasNoPeerWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x1D54C90", Offset = "0x1D53290", VA = "0x181D54C90")]
+	[Address(RVA = "0x56E97F0", Offset = "0x56E87F0", VA = "0x56E97F0")]
 	private void NetSimWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x1D55390", Offset = "0x1D53990", VA = "0x181D55390")]
+	[Address(RVA = "0x56EA1D0", Offset = "0x56E91D0", VA = "0x56EA1D0")]
 	public PhotonLagSimulationGui()
 	{
 	}

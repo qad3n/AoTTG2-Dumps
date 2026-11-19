@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VisibleLight
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,132 +11,132 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003D2")]
+[Token(Token = "0x20003A6")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct VisibleLight : IEquatable<VisibleLight>
 {
-	[Token(Token = "0x4000C7B")]
+	[Token(Token = "0x4000B5B")]
 	[FieldOffset(Offset = "0x0")]
 	private LightType m_LightType;
 
-	[Token(Token = "0x4000C7C")]
+	[Token(Token = "0x4000B5C")]
 	[FieldOffset(Offset = "0x4")]
 	private Color m_FinalColor;
 
-	[Token(Token = "0x4000C7D")]
+	[Token(Token = "0x4000B5D")]
 	[FieldOffset(Offset = "0x14")]
 	private Rect m_ScreenRect;
 
-	[Token(Token = "0x4000C7E")]
+	[Token(Token = "0x4000B5E")]
 	[FieldOffset(Offset = "0x24")]
 	private Matrix4x4 m_LocalToWorldMatrix;
 
-	[Token(Token = "0x4000C7F")]
+	[Token(Token = "0x4000B5F")]
 	[FieldOffset(Offset = "0x64")]
 	private float m_Range;
 
-	[Token(Token = "0x4000C80")]
+	[Token(Token = "0x4000B60")]
 	[FieldOffset(Offset = "0x68")]
 	private float m_SpotAngle;
 
-	[Token(Token = "0x4000C81")]
+	[Token(Token = "0x4000B61")]
 	[FieldOffset(Offset = "0x6C")]
 	private float m_InnerSpotAngle;
 
-	[Token(Token = "0x4000C82")]
+	[Token(Token = "0x4000B62")]
 	[FieldOffset(Offset = "0x70")]
 	private Vector2 m_AreaSize;
 
-	[Token(Token = "0x4000C83")]
+	[Token(Token = "0x4000B63")]
 	[FieldOffset(Offset = "0x78")]
 	private int m_InstanceId;
 
-	[Token(Token = "0x4000C84")]
+	[Token(Token = "0x4000B64")]
 	[FieldOffset(Offset = "0x7C")]
 	private VisibleLightFlags m_Flags;
 
-	[Token(Token = "0x170003B8")]
+	[Token(Token = "0x170003A6")]
 	public Light light
 	{
-		[Token(Token = "0x600175E")]
-		[Address(RVA = "0x2F76390", Offset = "0x2F74990", VA = "0x182F76390")]
+		[Token(Token = "0x6001703")]
+		[Address(RVA = "0x6963C30", Offset = "0x6962C30", VA = "0x6963C30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003B9")]
+	[Token(Token = "0x170003A7")]
 	public LightType lightType
 	{
-		[Token(Token = "0x600175F")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
+		[Token(Token = "0x6001704")]
+		[Address(RVA = "0x6963CB0", Offset = "0x6962CB0", VA = "0x6963CB0")]
 		get
 		{
 			return default(LightType);
 		}
 	}
 
-	[Token(Token = "0x170003BA")]
+	[Token(Token = "0x170003A8")]
 	public Color finalColor
 	{
-		[Token(Token = "0x6001760")]
-		[Address(RVA = "0x2F76380", Offset = "0x2F74980", VA = "0x182F76380")]
+		[Token(Token = "0x6001705")]
+		[Address(RVA = "0x6963CC0", Offset = "0x6962CC0", VA = "0x6963CC0")]
 		get
 		{
 			return default(Color);
 		}
 	}
 
-	[Token(Token = "0x170003BB")]
+	[Token(Token = "0x170003A9")]
 	public Matrix4x4 localToWorldMatrix
 	{
-		[Token(Token = "0x6001761")]
-		[Address(RVA = "0x2F76420", Offset = "0x2F74A20", VA = "0x182F76420")]
+		[Token(Token = "0x6001706")]
+		[Address(RVA = "0x6963CD0", Offset = "0x6962CD0", VA = "0x6963CD0")]
 		get
 		{
 			return default(Matrix4x4);
 		}
 	}
 
-	[Token(Token = "0x170003BC")]
+	[Token(Token = "0x170003AA")]
 	public float range
 	{
-		[Token(Token = "0x6001762")]
-		[Address(RVA = "0x2F76450", Offset = "0x2F74A50", VA = "0x182F76450")]
+		[Token(Token = "0x6001707")]
+		[Address(RVA = "0x6963D00", Offset = "0x6962D00", VA = "0x6963D00")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170003BD")]
+	[Token(Token = "0x170003AB")]
 	public float spotAngle
 	{
-		[Token(Token = "0x6001763")]
-		[Address(RVA = "0x2F76460", Offset = "0x2F74A60", VA = "0x182F76460")]
+		[Token(Token = "0x6001708")]
+		[Address(RVA = "0x6963D10", Offset = "0x6962D10", VA = "0x6963D10")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6001764")]
-	[Address(RVA = "0x2F75E10", Offset = "0x2F74410", VA = "0x182F75E10", Slot = "4")]
+	[Token(Token = "0x6001709")]
+	[Address(RVA = "0x6963D20", Offset = "0x6962D20", VA = "0x6963D20", Slot = "4")]
 	public bool Equals(VisibleLight other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001765")]
-	[Address(RVA = "0x2F76100", Offset = "0x2F74700", VA = "0x182F76100", Slot = "0")]
+	[Token(Token = "0x600170A")]
+	[Address(RVA = "0x6963F90", Offset = "0x6962F90", VA = "0x6963F90", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001766")]
-	[Address(RVA = "0x2F76200", Offset = "0x2F74800", VA = "0x182F76200", Slot = "2")]
+	[Token(Token = "0x600170B")]
+	[Address(RVA = "0x69640C0", Offset = "0x69630C0", VA = "0x69640C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

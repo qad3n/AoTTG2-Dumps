@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x200029E")]
+[Token(Token = "0x2000276")]
 public sealed class DecoderExceptionFallbackBuffer : DecoderFallbackBuffer
 {
-	[Token(Token = "0x17000218")]
+	[Token(Token = "0x17000217")]
 	public override int Remaining
 	{
-		[Token(Token = "0x60015B2")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+		[Token(Token = "0x6001589")]
+		[Address(RVA = "0x5552F80", Offset = "0x5551F80", VA = "0x5552F80", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60015B0")]
-	[Address(RVA = "0x1BADBE0", Offset = "0x1BAC1E0", VA = "0x181BADBE0", Slot = "4")]
+	[Token(Token = "0x6001587")]
+	[Address(RVA = "0x5552DA0", Offset = "0x5551DA0", VA = "0x5552DA0", Slot = "4")]
 	public override bool Fallback(byte[] bytesUnknown, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015B1")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Token(Token = "0x6001588")]
+	[Address(RVA = "0x5552F70", Offset = "0x5551F70", VA = "0x5552F70", Slot = "5")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60015B3")]
-	[Address(RVA = "0x1BADBF0", Offset = "0x1BAC1F0", VA = "0x181BADBF0")]
+	[Token(Token = "0x600158A")]
+	[Address(RVA = "0x5552DB0", Offset = "0x5551DB0", VA = "0x5552DB0")]
 	private void Throw(byte[] bytesUnknown, int index)
 	{
 	}
 
-	[Token(Token = "0x60015B4")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600158B")]
+	[Address(RVA = "0x5552D30", Offset = "0x5551D30", VA = "0x5552D30")]
 	public DecoderExceptionFallbackBuffer()
 	{
 	}

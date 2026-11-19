@@ -14,63 +14,63 @@ namespace Photon.Pun.UtilityScripts;
 public static class PhotonTeamExtensions
 {
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x1D563F0", Offset = "0x1D549F0", VA = "0x181D563F0")]
+	[Address(RVA = "0x56EF680", Offset = "0x56EE680", VA = "0x56EF680")]
 	public static PhotonTeam GetPhotonTeam(this Player player)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x1D56510", Offset = "0x1D54B10", VA = "0x181D56510")]
+	[Address(RVA = "0x56F0800", Offset = "0x56EF800", VA = "0x56F0800")]
 	public static bool JoinTeam(this Player player, PhotonTeam team)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x1D56A00", Offset = "0x1D55000", VA = "0x181D56A00")]
+	[Address(RVA = "0x56F0A20", Offset = "0x56EFA20", VA = "0x56F0A20")]
 	public static bool JoinTeam(this Player player, byte teamCode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x1D56750", Offset = "0x1D54D50", VA = "0x181D56750")]
+	[Address(RVA = "0x56F0AB0", Offset = "0x56EFAB0", VA = "0x56F0AB0")]
 	public static bool JoinTeam(this Player player, string teamName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x1D56EA0", Offset = "0x1D554A0", VA = "0x181D56EA0")]
+	[Address(RVA = "0x56F0B40", Offset = "0x56EFB40", VA = "0x56F0B40")]
 	public static bool SwitchTeam(this Player player, PhotonTeam team)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x1D575A0", Offset = "0x1D55BA0", VA = "0x181D575A0")]
+	[Address(RVA = "0x56F0E60", Offset = "0x56EFE60", VA = "0x56F0E60")]
 	public static bool SwitchTeam(this Player player, byte teamCode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x1D571F0", Offset = "0x1D557F0", VA = "0x181D571F0")]
+	[Address(RVA = "0x56F0EF0", Offset = "0x56EFEF0", VA = "0x56F0EF0")]
 	public static bool SwitchTeam(this Player player, string teamName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x1D56CB0", Offset = "0x1D552B0", VA = "0x181D56CB0")]
+	[Address(RVA = "0x56F0F80", Offset = "0x56EFF80", VA = "0x56F0F80")]
 	public static bool LeaveCurrentTeam(this Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x1D57950", Offset = "0x1D55F50", VA = "0x181D57950")]
+	[Address(RVA = "0x56F1160", Offset = "0x56F0160", VA = "0x56F1160")]
 	public static bool TryGetTeamMates(this Player player, out Player[] teamMates)
 	{
 		return default(bool);

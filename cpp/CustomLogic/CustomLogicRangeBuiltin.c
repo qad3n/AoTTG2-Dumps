@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicRangeBuiltin
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicRangeBuiltin.cs
@@ -8,124 +8,131 @@
 
 // CustomLogic.CustomLogicRangeBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicRangeBuiltin_o* CustomLogic_CustomLogicRangeBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x181ed8ce0
+// 0x59b96b0
 
 CustomLogic_CustomLogicRangeBuiltin_o *
 CustomLogic_CustomLogicRangeBuiltin_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
-  int iVar1;
-  Il2CppObject *pIVar2;
-  int32_t iVar3;
+  Il2CppObject *pIVar1;
   int32_t end;
   int32_t step;
-  CustomLogic_CustomLogicRangeBuiltin_o *pCVar4;
-  System_String_o *pSVar5;
-  System_String_o *str2;
+  int32_t start;
+  ulong uVar2;
+  CustomLogic_CustomLogicRangeBuiltin_o *__this;
+  System_String_o *pSVar3;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_ArgumentException_o *__this;
+  System_ArgumentException_o *__this_00;
   MethodInfo *lastManagedFrame;
-  int32_t local_res8 [2];
+  int iVar4;
+  MethodInfo *in_R8;
+  int32_t local_2c;
   
-  if (Il2CppMethodInitialized_184345204 == '\0') {
+  if (Il2CppMethodInitialized_07545b9d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
-    Il2CppMethodInitialized_184345204 = '\x01';
+    Il2CppMethodInitialized_07545b9d = '\x01';
   }
-  local_res8[0] = 0;
   if (args == (System_Object_array *)0x0) {
     ThrowNullReferenceException();
   }
-  iVar1 = (int)args->max_length;
-  if (iVar1 == 1) {
-    pIVar2 = args->m_Items[0];
-    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+  iVar4 = (int)args->max_length;
+  uVar2 = args->max_length & 0xffffffff;
+  if (iVar4 == 3) {
+    if (uVar2 != 0) {
+      pIVar1 = args->m_Items[0];
+      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+      }
+      start = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                        (pIVar1,(MethodInfo_34BDC20 *)
+                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+      if ((args->max_length & 0xfffffffe) != 0) {
+        end = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                        (args->m_Items[1],
+                         (MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+        if ((uint)args->max_length < 3) goto label_059b987f;
+        step = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                         (args->m_Items[2],
+                          (MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+        __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
+        goto label_059b986a;
+      }
     }
-    iVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                      (pIVar2,(MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-    pCVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
-    CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90(pCVar4,0,iVar3,1,(MethodInfo *)0x0);
-    return pCVar4;
+label_059b987f:
+    ThrowIndexOutOfRangeException();
   }
-  if (iVar1 == 2) {
-    pIVar2 = args->m_Items[0];
+  if (iVar4 == 2) {
+    if (uVar2 == 0) goto label_059b987f;
+    pIVar1 = args->m_Items[0];
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    iVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                      (pIVar2,(MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-    if (1 < (uint)args->max_length) {
-      end = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                      (args->m_Items[1],
-                       (MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-      pCVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
-      step = 1;
-      goto label_181ed8de3;
-    }
+    start = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                      (pIVar1,(MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int)
+    ;
+    if ((args->max_length & 0xfffffffe) == 0) goto label_059b987f;
+    end = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                    (args->m_Items[1],
+                     (MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
   }
   else {
-    if (iVar1 != 3) {
+    if (iVar4 != 1) {
       NullCheck(args);
-      local_res8[0] = (int32_t)args->max_length;
-      pSVar5 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-      str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+      local_2c = (int32_t)args->max_length;
+      pSVar3 = System_Int32__ToString(&local_2c,(MethodInfo *)0x0);
       str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicRangeBuiltin constructor found that takes ");
-      pSVar5 = System_String__Concat_1969b70(str0,pSVar5,str2,(MethodInfo *)0x0);
+      str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+      pSVar3 = System_String__Concat_5301f10(str0,pSVar3,str2,(MethodInfo *)0x0);
       klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
-      __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-      System_ArgumentException___ctor_1a77cc0(__this,pSVar5,(MethodInfo *)0x0);
+      __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+      System_ArgumentException___ctor_54186d0(__this_00,pSVar3,(MethodInfo *)0x0);
       lastManagedFrame =
            il2cpp_codegen_get_runtime_metadata
                      (&MethodInfo_CustomLogic_CustomLogicRangeBuiltin_Factory_CreateInstance);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
     }
-    pIVar2 = args->m_Items[0];
+    if (uVar2 == 0) goto label_059b987f;
+    pIVar1 = args->m_Items[0];
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    iVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                      (pIVar2,(MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-    if ((1 < (uint)args->max_length) &&
-       (end = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                        (args->m_Items[1],
-                         (MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int),
-       2 < (uint)args->max_length)) {
-      step = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                       (args->m_Items[2],
-                        (MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-      pCVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
-label_181ed8de3:
-      CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90(pCVar4,iVar3,end,step,(MethodInfo *)0x0);
-      return pCVar4;
-    }
+    end = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                    (pIVar1,(MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRangeBuiltin);
+    start = 0;
   }
-  ThrowIndexOutOfRangeException();
+  step = 1;
+label_059b986a:
+  CustomLogic_CustomLogicRangeBuiltin___ctor_58b9490(__this,start,end,step,in_R8);
+  return __this;
 }
 
 
 // CustomLogic.CustomLogicRangeBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicRangeBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x181ebf900
+// 0x59b9910
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicRangeBuiltin_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
-  System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
   System_Exception_o *__this;
   MethodInfo *lastManagedFrame;
   
-  pSVar1 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicRangeBuiltin not found");
-  str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
-  pSVar1 = System_String__Concat_1969b70(str0,name,pSVar1,(MethodInfo *)0x0);
+  pSVar1 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  str2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicRangeBuiltin not found");
+  pSVar1 = System_String__Concat_5301f10(pSVar1,name,str2,(MethodInfo *)0x0);
   klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
   __this = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  System_Exception___ctor_1b6abf0(__this,pSVar1,(MethodInfo *)0x0);
+  System_Exception___ctor_54fa440(__this,pSVar1,(MethodInfo *)0x0);
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&MethodInfo_CustomLogic_CustomLogicRangeBuiltin_Bindings_CreateMemberBinding);
@@ -135,68 +142,73 @@ CustomLogic_CustomLogicRangeBuiltin_Bindings__CreateMemberBinding(System_String_
 
 // CustomLogic.CustomLogicRangeBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicRangeBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x181ecced0
+// 0x59b9980
 
 void CustomLogic_CustomLogicRangeBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_184345205 == '\0') {
+  if (Il2CppMethodInitialized_07545b9e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRangeBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
-    Il2CppMethodInitialized_184345205 = '\x01';
+    Il2CppMethodInitialized_07545b9e = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
   TypeInfo_CustomLogic_CustomLogicRangeBuiltin_Bindings->static_fields->MemberNames = __this;
   Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicRangeBuiltin_Bindings->static_fields->MemberNames,__this);
+            (&TypeInfo_CustomLogic_CustomLogicRangeBuiltin_Bindings->static_fields->MemberNames);
   return;
 }
 
 
 // CustomLogic.CustomLogicRangeBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRangeBuiltin___ctor (CustomLogic_CustomLogicRangeBuiltin_o* __this, int32_t end, const MethodInfo* method);
-// 0x181ed2f60
+// 0x59b9480
 
 void CustomLogic_CustomLogicRangeBuiltin___ctor
                (CustomLogic_CustomLogicRangeBuiltin_o *__this,int32_t end,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90(__this,0,end,1,(MethodInfo *)0x0);
+  MethodInfo *in_R8;
+  
+  CustomLogic_CustomLogicRangeBuiltin___ctor_58b9490(__this,0,end,1,in_R8);
   return;
 }
 
 
 // CustomLogic.CustomLogicRangeBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRangeBuiltin___ctor (CustomLogic_CustomLogicRangeBuiltin_o* __this, int32_t start, int32_t end, const MethodInfo* method);
-// 0x181ed2f40
+// 0x59b9640
 
-void CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f40
+void CustomLogic_CustomLogicRangeBuiltin___ctor_58b9640
                (CustomLogic_CustomLogicRangeBuiltin_o *__this,int32_t start,int32_t end,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90(__this,start,end,1,(MethodInfo *)0x0);
+  MethodInfo *in_R8;
+  
+  CustomLogic_CustomLogicRangeBuiltin___ctor_58b9490(__this,start,end,1,in_R8);
   return;
 }
 
 
 // CustomLogic.CustomLogicRangeBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRangeBuiltin___ctor (CustomLogic_CustomLogicRangeBuiltin_o* __this, int32_t start, int32_t end, int32_t step, const MethodInfo* method);
-// 0x181ed2f90
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ed2fe1: cmp ebx, esi
-// asm:   0x181ed2fe9: nop dword ptr [rax]
-// asm:   0x181ed307f: mov rdi, qword ptr [rsp + 0x40]
-// asm:   0x181ed3092: cmp ebx, esi
-// asm:   0x181ed3096: nop word ptr [rax + rax]
-// asm:   0x181ed311f: jmp 0x181ed307f
+// 0x59b9490
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b94d9: cmp ebp, r14d
+// asm:   0x59b94e2: lea r12, [rip + 0x18dc717]  ; MethodInfo_System_Collections_Generic_List_object_Add
+// asm:   0x59b94e9: jmp 0x59b9516
+// asm:   0x59b957c: jmp 0x59b961d
+// asm:   0x59b9581: cmp ebp, r14d
+// asm:   0x59b958a: lea r12, [rip + 0x18dc66f]  ; MethodInfo_System_Collections_Generic_List_object_Add
+// asm:   0x59b9591: jmp 0x59b95c2
 
-void CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90
+void CustomLogic_CustomLogicRangeBuiltin___ctor_58b9490
                (CustomLogic_CustomLogicRangeBuiltin_o *__this,int32_t start,int32_t end,int32_t step,
                MethodInfo *method)
 
@@ -205,91 +217,98 @@ void CustomLogic_CustomLogicRangeBuiltin___ctor_1ed2f90
   uint uVar2;
   System_Collections_Generic_List_object__o *pSVar3;
   System_Object_array *pSVar4;
-  MethodInfo *pMVar5;
-  Il2CppObject *pIVar6;
-  int local_res20 [2];
+  undefined8 in_RAX;
+  Il2CppObject *pIVar5;
+  undefined4 in_register_00000034;
+  MethodInfo *pMVar6;
+  undefined8 local_38;
   
-  if (Il2CppMethodInitialized_184345202 == '\0') {
+  pMVar6 = (MethodInfo *)CONCAT44(in_register_00000034,start);
+  local_38 = in_RAX;
+  if (Il2CppMethodInitialized_07545b9b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_Add);
-    Il2CppMethodInitialized_184345202 = '\x01';
+    Il2CppMethodInitialized_07545b9b = '\x01';
   }
-  CustomLogic_CustomLogicListBuiltin___ctor((CustomLogic_CustomLogicListBuiltin_o *)__this,(MethodInfo *)0x0);
-  if (step != 0) {
-    if (step < 1) {
-      for (; end < start; start = start + step) {
+  CustomLogic_CustomLogicListBuiltin___ctor((CustomLogic_CustomLogicListBuiltin_o *)__this,pMVar6);
+  if (step == 0) {
+    return;
+  }
+  if (step < 1) {
+    do {
+      if (start <= end) {
+        return;
+      }
+      while( true ) {
         pSVar3 = (__this->fields).List;
-        local_res20[0] = start;
-        pIVar6 = il2cpp_value_box(g_data_184354e08,local_res20);
-        pMVar5 = MethodInfo_System_Collections_Generic_List_object_Add;
-        if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) {
-label_181ed3130:
-          ThrowNullReferenceException();
-        }
+        local_38 = CONCAT44(local_38._4_4_,start);
+        pIVar5 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+        pMVar6 = MethodInfo_System_Collections_Generic_List_object_Add;
+        if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_059b962c;
         piVar1 = &(pSVar3->fields)._version;
         *piVar1 = *piVar1 + 1;
         pSVar4 = (pSVar3->fields)._items;
-        if (pSVar4 == (System_Object_array *)0x0) goto label_181ed3130;
+        if (pSVar4 == (System_Object_array *)0x0) goto label_059b962c;
         uVar2 = (pSVar3->fields)._size;
-        if (uVar2 < (uint)pSVar4->max_length) {
-          (pSVar3->fields)._size = uVar2 + 1;
-          if ((uint)pSVar4->max_length <= uVar2) {
-            ThrowIndexOutOfRangeException();
-          }
-          pSVar4->m_Items[(int)uVar2] = pIVar6;
-          Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pIVar6);
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar3,pIVar6,(MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+        if ((uint)pSVar4->max_length <= uVar2) break;
+        (pSVar3->fields)._size = uVar2 + 1;
+        pSVar4->m_Items[(int)uVar2] = pIVar5;
+        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2);
+        start = start + step;
+        if (start <= end) {
+          return;
         }
       }
-    }
-    else {
-      for (; start < end; start = start + step) {
-        pSVar3 = (__this->fields).List;
-        local_res20[0] = start;
-        pIVar6 = il2cpp_value_box(g_data_184354e08,local_res20);
-        pMVar5 = MethodInfo_System_Collections_Generic_List_object_Add;
-        if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) {
-label_181ed3124:
-          ThrowNullReferenceException();
-        }
-        piVar1 = &(pSVar3->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar4 = (pSVar3->fields)._items;
-        if (pSVar4 == (System_Object_array *)0x0) goto label_181ed3124;
-        uVar2 = (pSVar3->fields)._size;
-        if (uVar2 < (uint)pSVar4->max_length) {
-          (pSVar3->fields)._size = uVar2 + 1;
-          if ((uint)pSVar4->max_length <= uVar2) {
-            ThrowIndexOutOfRangeException();
-          }
-          pSVar4->m_Items[(int)uVar2] = pIVar6;
-          Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pIVar6);
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar3,pIVar6,(MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
-        }
-      }
-    }
+      System_Collections_Generic_List_object___AddWithResize
+                (pSVar3,pIVar5,(MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+      start = start + step;
+    } while( true );
   }
-  return;
+joined_r0x059b94dc:
+  if (end <= start) {
+    return;
+  }
+  do {
+    pSVar3 = (__this->fields).List;
+    local_38 = CONCAT44(start,(undefined4)local_38);
+    pIVar5 = il2cpp_vm_Object_Box(g_data_07556710,(void *)((long)&local_38 + 4));
+    pMVar6 = MethodInfo_System_Collections_Generic_List_object_Add;
+    if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) {
+label_059b962c:
+      ThrowNullReferenceException();
+    }
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pSVar4 = (pSVar3->fields)._items;
+    if (pSVar4 == (System_Object_array *)0x0) goto label_059b962c;
+    uVar2 = (pSVar3->fields)._size;
+    if ((uint)pSVar4->max_length <= uVar2) break;
+    (pSVar3->fields)._size = uVar2 + 1;
+    pSVar4->m_Items[(int)uVar2] = pIVar5;
+    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2);
+    start = start + step;
+    if (end <= start) {
+      return;
+    }
+  } while( true );
+  System_Collections_Generic_List_object___AddWithResize
+            (pSVar3,pIVar5,(MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+  start = start + step;
+  goto joined_r0x059b94dc;
 }
 
 
 // CustomLogic.CustomLogicRangeBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicRangeBuiltin__get_ClassName (CustomLogic_CustomLogicRangeBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed3140
+// 0x59b9650
 
 System_String_o *
 CustomLogic_CustomLogicRangeBuiltin__get_ClassName
           (CustomLogic_CustomLogicRangeBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184345203 == '\0') {
+  if (Il2CppMethodInitialized_07545b9c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Range");
-    Il2CppMethodInitialized_184345203 = '\x01';
+    Il2CppMethodInitialized_07545b9c = '\x01';
   }
   return "Range";
 }
@@ -297,10 +316,10 @@ CustomLogic_CustomLogicRangeBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicRangeBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicRangeBuiltin__get_IsAbstract (CustomLogic_CustomLogicRangeBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x59b9680
 
-bool
-CustomLogic_CustomLogicRangeBuiltin__get_IsAbstract(CustomLogic_CustomLogicRangeBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicRangeBuiltin__get_IsAbstract
+               (CustomLogic_CustomLogicRangeBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -309,10 +328,10 @@ CustomLogic_CustomLogicRangeBuiltin__get_IsAbstract(CustomLogic_CustomLogicRange
 
 // CustomLogic.CustomLogicRangeBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicRangeBuiltin__get_IsStatic (CustomLogic_CustomLogicRangeBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x59b9690
 
-bool
-CustomLogic_CustomLogicRangeBuiltin__get_IsStatic(CustomLogic_CustomLogicRangeBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicRangeBuiltin__get_IsStatic
+               (CustomLogic_CustomLogicRangeBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -321,10 +340,10 @@ CustomLogic_CustomLogicRangeBuiltin__get_IsStatic(CustomLogic_CustomLogicRangeBu
 
 // CustomLogic.CustomLogicRangeBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicRangeBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicRangeBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x59b96a0
 
-bool
-CustomLogic_CustomLogicRangeBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicRangeBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicRangeBuiltin__get_InheritBaseMembers
+               (CustomLogic_CustomLogicRangeBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;

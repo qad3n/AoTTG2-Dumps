@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Bounds
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,14 +13,14 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000B6")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Math/MathScripting.h")]
+[Token(Token = "0x20000B8")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Geometry/Intersection.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Geometry/AABB.h")]
-[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 [UnityEngine.Bindings.NativeType(Header = "Runtime/Geometry/AABB.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Geometry/Ray.h")]
+[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Geometry/AABB.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Math/MathScripting.h")]
 [UnityEngine.NativeClass("AABB")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Geometry/Ray.h")]
 public struct Bounds : IEquatable<Bounds>, IFormattable
 {
 	[Token(Token = "0x40001EE")]
@@ -32,268 +32,268 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	[UnityEngine.Bindings.NativeName("m_Extent")]
 	private Vector3 m_Extents;
 
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x17000086")]
 	public Vector3 center
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600036B")]
-		[Address(RVA = "0x180F7A0", Offset = "0x180DDA0", VA = "0x18180F7A0")]
-		readonly get
-		{
-			return default(Vector3);
-		}
-		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x2B889E0", Offset = "0x2B86FE0", VA = "0x182B889E0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000086")]
-	public Vector3 size
-	{
-		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x2EBC9C0", Offset = "0x2EBAFC0", VA = "0x182EBC9C0")]
-		readonly get
-		{
-			return default(Vector3);
-		}
-		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x2EBCC20", Offset = "0x2EBB220", VA = "0x182EBCC20")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000087")]
-	public Vector3 extents
-	{
-		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x180F8B0", Offset = "0x180DEB0", VA = "0x18180F8B0")]
-		readonly get
-		{
-			return default(Vector3);
-		}
-		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x2EBC190", Offset = "0x2EBA790", VA = "0x182EBC190")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000088")]
-	public Vector3 min
-	{
-		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x2EBC990", Offset = "0x2EBAF90", VA = "0x182EBC990")]
+		[Address(RVA = "0x68C9380", Offset = "0x68C8380", VA = "0x68C9380")]
 		readonly get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x2EBCBB0", Offset = "0x2EBB1B0", VA = "0x182EBCBB0")]
+		[Address(RVA = "0x68C9390", Offset = "0x68C8390", VA = "0x68C9390")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000089")]
-	public Vector3 max
+	[Token(Token = "0x17000087")]
+	public Vector3 size
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x2EBC960", Offset = "0x2EBAF60", VA = "0x182EBC960")]
+		[Address(RVA = "0x68C93A0", Offset = "0x68C83A0", VA = "0x68C93A0")]
 		readonly get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x2EBCB30", Offset = "0x2EBB130", VA = "0x182EBCB30")]
+		[Address(RVA = "0x68C93C0", Offset = "0x68C83C0", VA = "0x68C93C0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000088")]
+	public Vector3 extents
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000375")]
+		[Address(RVA = "0x68C93E0", Offset = "0x68C83E0", VA = "0x68C93E0")]
+		readonly get
+		{
+			return default(Vector3);
+		}
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000376")]
+		[Address(RVA = "0x68C93F0", Offset = "0x68C83F0", VA = "0x68C93F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000089")]
+	public Vector3 min
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000377")]
+		[Address(RVA = "0x68C9400", Offset = "0x68C8400", VA = "0x68C9400")]
+		readonly get
+		{
+			return default(Vector3);
+		}
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000378")]
+		[Address(RVA = "0x68C9420", Offset = "0x68C8420", VA = "0x68C9420")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700008A")]
+	public Vector3 max
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000379")]
+		[Address(RVA = "0x68C9470", Offset = "0x68C8470", VA = "0x68C9470")]
+		readonly get
+		{
+			return default(Vector3);
+		}
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x600037A")]
+		[Address(RVA = "0x68C9490", Offset = "0x68C8490", VA = "0x68C9490")]
 		set
 		{
 		}
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x2EBC920", Offset = "0x2EBAF20", VA = "0x182EBC920")]
+	[Token(Token = "0x600036C")]
+	[Address(RVA = "0x68C9150", Offset = "0x68C8150", VA = "0x68C9150")]
 	public Bounds(Vector3 center, Vector3 size)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000367")]
-	[Address(RVA = "0xB1F060", Offset = "0xB1D660", VA = "0x180B1F060", Slot = "2")]
+	[Token(Token = "0x600036D")]
+	[Address(RVA = "0x68C9180", Offset = "0x68C8180", VA = "0x68C9180", Slot = "2")]
 	public override readonly int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x2EBC2D0", Offset = "0x2EBA8D0", VA = "0x182EBC2D0", Slot = "0")]
+	[Token(Token = "0x600036E")]
+	[Address(RVA = "0x68C9210", Offset = "0x68C8210", VA = "0x68C9210", Slot = "0")]
 	public override readonly bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x2EBC270", Offset = "0x2EBA870", VA = "0x182EBC270", Slot = "4")]
+	[Token(Token = "0x600036F")]
+	[Address(RVA = "0x68C92C0", Offset = "0x68C82C0", VA = "0x68C92C0", Slot = "4")]
 	public readonly bool Equals(Bounds other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x2EBC270", Offset = "0x2EBA870", VA = "0x182EBC270")]
+	[Token(Token = "0x6000370")]
+	[Address(RVA = "0x68C9320", Offset = "0x68C8320", VA = "0x68C9320")]
 	public readonly bool Equals(in Bounds other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000375")]
-	[Address(RVA = "0x2EBC9E0", Offset = "0x2EBAFE0", VA = "0x182EBC9E0")]
+	[Token(Token = "0x600037B")]
+	[Address(RVA = "0x68C94E0", Offset = "0x68C84E0", VA = "0x68C94E0")]
 	public static bool operator ==(Bounds lhs, Bounds rhs)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x2EBCA60", Offset = "0x2EBB060", VA = "0x182EBCA60")]
+	[Token(Token = "0x600037C")]
+	[Address(RVA = "0x68C9570", Offset = "0x68C8570", VA = "0x68C9570")]
 	public static bool operator !=(Bounds lhs, Bounds rhs)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x2EBC750", Offset = "0x2EBAD50", VA = "0x182EBC750")]
+	[Token(Token = "0x600037D")]
+	[Address(RVA = "0x68C9600", Offset = "0x68C8600", VA = "0x68C9600")]
 	public void SetMinMax(Vector3 min, Vector3 max)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000378")]
-	[Address(RVA = "0x2EBC6F0", Offset = "0x2EBACF0", VA = "0x182EBC6F0")]
+	[Token(Token = "0x600037E")]
+	[Address(RVA = "0x68C9630", Offset = "0x68C8630", VA = "0x68C9630")]
 	public void SetMinMax(in Vector3 min, in Vector3 max)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000379")]
-	[Address(RVA = "0x1E7C3C0", Offset = "0x1E7A9C0", VA = "0x181E7C3C0")]
+	[Token(Token = "0x600037F")]
+	[Address(RVA = "0x68C9680", Offset = "0x68C8680", VA = "0x68C9680")]
 	public void Encapsulate(Vector3 point)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600037A")]
-	[Address(RVA = "0x1E7C3C0", Offset = "0x1E7A9C0", VA = "0x181E7C3C0")]
+	[Token(Token = "0x6000380")]
+	[Address(RVA = "0x68C96F0", Offset = "0x68C86F0", VA = "0x68C96F0")]
 	public void Encapsulate(in Vector3 point)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600037B")]
-	[Address(RVA = "0x1E7C200", Offset = "0x1E7A800", VA = "0x181E7C200")]
+	[Token(Token = "0x6000381")]
+	[Address(RVA = "0x68C9760", Offset = "0x68C8760", VA = "0x68C9760")]
 	public void Encapsulate(Bounds bounds)
 	{
 	}
 
-	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x2EBC3B0", Offset = "0x2EBA9B0", VA = "0x182EBC3B0")]
+	[Token(Token = "0x6000382")]
+	[Address(RVA = "0x68C9830", Offset = "0x68C8830", VA = "0x68C9830")]
 	public void Expand(float amount)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x2EBC650", Offset = "0x2EBAC50", VA = "0x182EBC650")]
+	[Token(Token = "0x6000383")]
+	[Address(RVA = "0x68C9860", Offset = "0x68C8860", VA = "0x68C9860")]
 	public readonly bool Intersects(Bounds bounds)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x2EBC5A0", Offset = "0x2EBABA0", VA = "0x182EBC5A0")]
+	[Token(Token = "0x6000384")]
+	[Address(RVA = "0x68C9920", Offset = "0x68C8920", VA = "0x68C9920")]
 	public readonly bool IntersectRay(Ray ray)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x2EBC5F0", Offset = "0x2EBABF0", VA = "0x182EBC5F0")]
+	[Token(Token = "0x6000385")]
+	[Address(RVA = "0x68C99B0", Offset = "0x68C89B0", VA = "0x68C99B0")]
 	public readonly bool IntersectRay(Ray ray, out float distance)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000380")]
-	[Address(RVA = "0x2EBC910", Offset = "0x2EBAF10", VA = "0x182EBC910", Slot = "3")]
+	[Token(Token = "0x6000386")]
+	[Address(RVA = "0x68C9A00", Offset = "0x68C8A00", VA = "0x68C9A00", Slot = "3")]
 	public override readonly string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000381")]
-	[Address(RVA = "0x2EBC810", Offset = "0x2EBAE10", VA = "0x182EBC810", Slot = "5")]
+	[Token(Token = "0x6000387")]
+	[Address(RVA = "0x68C9A10", Offset = "0x68C8A10", VA = "0x68C9A10", Slot = "5")]
 	public readonly string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000382")]
-	[Address(RVA = "0x2EBC4A0", Offset = "0x2EBAAA0", VA = "0x182EBC4A0")]
+	[Token(Token = "0x6000388")]
+	[Address(RVA = "0x68C9B00", Offset = "0x68C8B00", VA = "0x68C9B00")]
 	[UnityEngine.Bindings.NativeMethod("IsInside", IsThreadSafe = true)]
 	private readonly extern bool Internal_Contains(in Vector3 point);
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x2EBC220", Offset = "0x2EBA820", VA = "0x182EBC220")]
+	[Token(Token = "0x6000389")]
+	[Address(RVA = "0x68C9B40", Offset = "0x68C8B40", VA = "0x68C9B40")]
 	public readonly bool Contains(Vector3 point)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x2EBC4F0", Offset = "0x2EBAAF0", VA = "0x182EBC4F0")]
+	[Token(Token = "0x600038A")]
+	[Address(RVA = "0x68C9B90", Offset = "0x68C8B90", VA = "0x68C9B90")]
 	[UnityEngine.Bindings.FreeFunction("BoundsScripting::SqrDistance", HasExplicitThis = true, IsThreadSafe = true)]
 	private readonly extern float Internal_SqrDistance(in Vector3 point);
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x2EBC7C0", Offset = "0x2EBADC0", VA = "0x182EBC7C0")]
+	[Token(Token = "0x600038B")]
+	[Address(RVA = "0x68C9BD0", Offset = "0x68C8BD0", VA = "0x68C9BD0")]
 	public readonly float SqrDistance(Vector3 point)
 	{
 		return default(float);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x2EBC540", Offset = "0x2EBAB40", VA = "0x182EBC540")]
+	[Token(Token = "0x600038C")]
+	[Address(RVA = "0x68C9970", Offset = "0x68C8970", VA = "0x68C9970")]
 	[UnityEngine.Bindings.FreeFunction("IntersectRayAABB", IsThreadSafe = true)]
 	private static extern bool IntersectRayAABB(in Ray ray, in Bounds bounds, out float dist);
 
-	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x2EBC440", Offset = "0x2EBAA40", VA = "0x182EBC440")]
+	[Token(Token = "0x600038D")]
+	[Address(RVA = "0x68C9C10", Offset = "0x68C8C10", VA = "0x68C9C10")]
 	[UnityEngine.Bindings.FreeFunction("BoundsScripting::ClosestPoint", HasExplicitThis = true, IsThreadSafe = true)]
 	private readonly Vector3 Internal_ClosestPoint(in Vector3 point)
 	{
@@ -301,15 +301,15 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000388")]
-	[Address(RVA = "0x2EBC1A0", Offset = "0x2EBA7A0", VA = "0x182EBC1A0")]
+	[Token(Token = "0x600038E")]
+	[Address(RVA = "0x68C9CB0", Offset = "0x68C8CB0", VA = "0x68C9CB0")]
 	public readonly Vector3 ClosestPoint(Vector3 point)
 	{
 		return default(Vector3);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x2EBC3E0", Offset = "0x2EBA9E0", VA = "0x182EBC3E0")]
+	[Token(Token = "0x600038F")]
+	[Address(RVA = "0x68C9C70", Offset = "0x68C8C70", VA = "0x68C9C70")]
 	private static extern void Internal_ClosestPoint_Injected(ref Bounds _unity_self, in Vector3 point, out Vector3 ret);
 }

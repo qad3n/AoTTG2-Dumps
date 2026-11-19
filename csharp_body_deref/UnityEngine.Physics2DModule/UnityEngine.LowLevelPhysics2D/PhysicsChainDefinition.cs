@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsChainDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,7 +38,7 @@ public struct PhysicsChainDefinition
 	public static PhysicsChainDefinition defaultDefinition
 	{
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x2FD1580", Offset = "0x2FCFB80", VA = "0x182FD1580")]
+		[Address(RVA = "0x69CE2F0", Offset = "0x69CD2F0", VA = "0x69CE2F0")]
 		get
 		{
 			return default(PhysicsChainDefinition);
@@ -46,13 +46,13 @@ public struct PhysicsChainDefinition
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x2FD1480", Offset = "0x2FCFA80", VA = "0x182FD1480")]
+	[Address(RVA = "0x69CE260", Offset = "0x69CD260", VA = "0x69CE260")]
 	public PhysicsChainDefinition()
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x2FD1500", Offset = "0x2FCFB00", VA = "0x182FD1500")]
+	[Address(RVA = "0x69C8D50", Offset = "0x69C7D50", VA = "0x69C8D50")]
 	public PhysicsChainDefinition(bool useSettings)
 	{
 	}

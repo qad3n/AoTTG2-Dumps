@@ -13,7 +13,7 @@ namespace UnityEngine.Rendering;
 public static class HaltonSequence
 {
 	[Token(Token = "0x6000E57")]
-	[Address(RVA = "0x2B5B600", Offset = "0x2B59C00", VA = "0x182B5B600")]
+	[Address(RVA = "0x654CC00", Offset = "0x654BC00", VA = "0x654CC00")]
 	public static float Get(int index, int radix)
 	{
 		return default(float);

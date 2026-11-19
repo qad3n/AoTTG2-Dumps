@@ -25,13 +25,13 @@ public struct GlyphPairKey
 	public uint key;
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x2CF4510", Offset = "0x2CF2B10", VA = "0x182CF4510")]
+	[Address(RVA = "0x66F6C30", Offset = "0x66F5C30", VA = "0x66F6C30")]
 	public GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex)
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x2CF4530", Offset = "0x2CF2B30", VA = "0x182CF4530")]
+	[Address(RVA = "0x66F6C40", Offset = "0x66F5C40", VA = "0x66F6C40")]
 	internal GlyphPairKey(TMP_GlyphPairAdjustmentRecord record)
 	{
 	}

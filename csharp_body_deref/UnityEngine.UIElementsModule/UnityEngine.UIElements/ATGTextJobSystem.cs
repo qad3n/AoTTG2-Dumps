@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ATGTextJobSystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -78,13 +78,13 @@ internal class ATGTextJobSystem
 		public bool hasMissingGlyphs;
 
 		[Token(Token = "0x600239F")]
-		[Address(RVA = "0x312A7B0", Offset = "0x3128DB0", VA = "0x18312A7B0")]
+		[Address(RVA = "0x6B33C00", Offset = "0x6B32C00", VA = "0x6B33C00")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x60023A0")]
-		[Address(RVA = "0x312AC20", Offset = "0x3129220", VA = "0x18312AC20")]
+		[Address(RVA = "0x6B34160", Offset = "0x6B33160", VA = "0x6B34160")]
 		public ManagedJobData()
 		{
 		}
@@ -98,7 +98,7 @@ internal class ATGTextJobSystem
 		public GCHandle managedJobDataHandle;
 
 		[Token(Token = "0x60023A1")]
-		[Address(RVA = "0x312B020", Offset = "0x3129620", VA = "0x18312B020", Slot = "4")]
+		[Address(RVA = "0x6B343F0", Offset = "0x6B333F0", VA = "0x6B343F0", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -117,7 +117,7 @@ internal class ATGTextJobSystem
 		public TempMeshAllocator alloc;
 
 		[Token(Token = "0x60023A2")]
-		[Address(RVA = "0x312A170", Offset = "0x3128770", VA = "0x18312A170", Slot = "4")]
+		[Address(RVA = "0x6B30400", Offset = "0x6B2F400", VA = "0x6B30400", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -136,7 +136,7 @@ internal class ATGTextJobSystem
 		public TempMeshAllocator alloc;
 
 		[Token(Token = "0x60023A3")]
-		[Address(RVA = "0x3129F70", Offset = "0x3128570", VA = "0x183129F70", Slot = "4")]
+		[Address(RVA = "0x6B34500", Offset = "0x6B33500", VA = "0x6B34500", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -199,50 +199,50 @@ internal class ATGTextJobSystem
 	private static List<uint> s_GlyphsToAddBuffer;
 
 	[Token(Token = "0x6002396")]
-	[Address(RVA = "0x3129DE0", Offset = "0x31283E0", VA = "0x183129DE0")]
+	[Address(RVA = "0x6B2F5F0", Offset = "0x6B2E5F0", VA = "0x6B2F5F0")]
 	public ATGTextJobSystem()
 	{
 	}
 
 	[Token(Token = "0x6002397")]
-	[Address(RVA = "0x3129810", Offset = "0x3127E10", VA = "0x183129810")]
+	[Address(RVA = "0x6B2F780", Offset = "0x6B2E780", VA = "0x6B2F780")]
 	private static bool PrepareTextElementForJobsOnMainThread(TextElement textElement)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002398")]
-	[Address(RVA = "0x3129310", Offset = "0x3127910", VA = "0x183129310")]
+	[Address(RVA = "0x6B2F8E0", Offset = "0x6B2E8E0", VA = "0x6B2F8E0")]
 	internal void PrepareShapingBeforeLayout(BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6002399")]
-	[Address(RVA = "0x31288B0", Offset = "0x3126EB0", VA = "0x1831288B0")]
+	[Address(RVA = "0x6B2FFD0", Offset = "0x6B2EFD0", VA = "0x6B2FFD0")]
 	public void GenerateText(MeshGenerationContext mgc, TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x600239A")]
-	[Address(RVA = "0x3128630", Offset = "0x3126C30", VA = "0x183128630")]
+	[Address(RVA = "0x6B30180", Offset = "0x6B2F180", VA = "0x6B30180")]
 	private void GenerateTextJobified(MeshGenerationContext mgc, object _)
 	{
 	}
 
 	[Token(Token = "0x600239B")]
-	[Address(RVA = "0x3128A80", Offset = "0x3127080", VA = "0x183128A80")]
+	[Address(RVA = "0x6B30920", Offset = "0x6B2F920", VA = "0x6B30920")]
 	private void PopulateGlyphs(MeshGenerationContext mgc, object _)
 	{
 	}
 
 	[Token(Token = "0x600239C")]
-	[Address(RVA = "0x3127590", Offset = "0x3125B90", VA = "0x183127590")]
+	[Address(RVA = "0x6B31280", Offset = "0x6B30280", VA = "0x6B31280")]
 	private void AddDrawEntries(MeshGenerationContext mgc, object _)
 	{
 	}
 
 	[Token(Token = "0x600239D")]
-	[Address(RVA = "0x3127960", Offset = "0x3125F60", VA = "0x183127960")]
+	[Address(RVA = "0x6B31D60", Offset = "0x6B30D60", VA = "0x6B31D60")]
 	private static void ConvertMeshInfoToUIRVertex(Span<UnityEngine.TextCore.Text.ATGMeshInfo> meshInfos, TempMeshAllocator alloc, TextElement visualElement, List<List<List<int>>> textElementIndicesByMesh, List<bool> hasMultipleColorsByMesh, ref List<Texture2D> atlases, ref List<NativeSlice<Vertex>> verticesArray, ref List<NativeSlice<ushort>> indicesArray, ref List<GlyphRenderMode> renderModes, ref List<float> sdfScales)
 	{
 	}

@@ -22,7 +22,7 @@ internal abstract class Query : ResetableIterator
 	public override int Count
 	{
 		[Token(Token = "0x6001B9F")]
-		[Address(RVA = "0x26D11B0", Offset = "0x26CF7B0", VA = "0x1826D11B0", Slot = "10")]
+		[Address(RVA = "0x6089EA0", Offset = "0x6088EA0", VA = "0x6089EA0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -40,7 +40,7 @@ internal abstract class Query : ResetableIterator
 	public virtual QueryProps Properties
 	{
 		[Token(Token = "0x6001BA4")]
-		[Address(RVA = "0x846EF0", Offset = "0x8454F0", VA = "0x180846EF0", Slot = "17")]
+		[Address(RVA = "0x6089F80", Offset = "0x6088F80", VA = "0x6089F80", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -48,26 +48,26 @@ internal abstract class Query : ResetableIterator
 	}
 
 	[Token(Token = "0x6001B9C")]
-	[Address(RVA = "0x26D1150", Offset = "0x26CF750", VA = "0x1826D1150")]
+	[Address(RVA = "0x6089DE0", Offset = "0x6088DE0", VA = "0x6089DE0")]
 	public Query()
 	{
 	}
 
 	[Token(Token = "0x6001B9D")]
-	[Address(RVA = "0x26D1170", Offset = "0x26CF770", VA = "0x1826D1170")]
+	[Address(RVA = "0x6089E20", Offset = "0x6088E20", VA = "0x6089E20")]
 	protected Query(Query other)
 	{
 	}
 
 	[Token(Token = "0x6001B9E")]
-	[Address(RVA = "0x26D1130", Offset = "0x26CF730", VA = "0x1826D1130", Slot = "7")]
+	[Address(RVA = "0x6089E80", Offset = "0x6088E80", VA = "0x6089E80", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BA0")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
+	[Address(RVA = "0x6089F70", Offset = "0x6088F70", VA = "0x6089F70", Slot = "13")]
 	public virtual void SetXsltContext(XsltContext context)
 	{
 	}
@@ -79,49 +79,49 @@ internal abstract class Query : ResetableIterator
 	public abstract XPathNavigator Advance();
 
 	[Token(Token = "0x6001BA5")]
-	[Address(RVA = "0x26D0C80", Offset = "0x26CF280", VA = "0x1826D0C80")]
+	[Address(RVA = "0x6089F90", Offset = "0x6088F90", VA = "0x6089F90")]
 	public static Query Clone(Query input)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BA6")]
-	[Address(RVA = "0x26D0D10", Offset = "0x26CF310", VA = "0x1826D0D10")]
+	[Address(RVA = "0x608A010", Offset = "0x6089010", VA = "0x608A010")]
 	protected static XPathNodeIterator Clone(XPathNodeIterator input)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BA7")]
-	[Address(RVA = "0x26D0D30", Offset = "0x26CF330", VA = "0x1826D0D30")]
+	[Address(RVA = "0x608A030", Offset = "0x6089030", VA = "0x608A030")]
 	protected static XPathNavigator Clone(XPathNavigator input)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BA8")]
-	[Address(RVA = "0x26D0F60", Offset = "0x26CF560", VA = "0x1826D0F60")]
+	[Address(RVA = "0x608A050", Offset = "0x6089050", VA = "0x608A050")]
 	public static bool Insert(List<XPathNavigator> buffer, XPathNavigator nav)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BA9")]
-	[Address(RVA = "0x26D0E80", Offset = "0x26CF480", VA = "0x1826D0E80")]
+	[Address(RVA = "0x608A320", Offset = "0x6089320", VA = "0x608A320")]
 	private static int GetMedian(int l, int r)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001BAA")]
-	[Address(RVA = "0x26D0D50", Offset = "0x26CF350", VA = "0x1826D0D50")]
+	[Address(RVA = "0x608A210", Offset = "0x6089210", VA = "0x608A210")]
 	public static XmlNodeOrder CompareNodes(XPathNavigator l, XPathNavigator r)
 	{
 		return default(XmlNodeOrder);
 	}
 
 	[Token(Token = "0x6001BAB")]
-	[Address(RVA = "0x26D0E90", Offset = "0x26CF490", VA = "0x1826D0E90")]
+	[Address(RVA = "0x608A330", Offset = "0x6089330", VA = "0x608A330")]
 	protected XPathResultType GetXPathType(object value)
 	{
 		return default(XPathResultType);

@@ -42,163 +42,163 @@ internal sealed class ParticleContentValidator : ContentValidator
 	private bool enableUpaCheck;
 
 	[Token(Token = "0x6001016")]
-	[Address(RVA = "0x27835E0", Offset = "0x2781BE0", VA = "0x1827835E0")]
+	[Address(RVA = "0x6147E20", Offset = "0x6146E20", VA = "0x6147E20")]
 	public ParticleContentValidator(XmlSchemaContentType contentType)
 	{
 	}
 
 	[Token(Token = "0x6001017")]
-	[Address(RVA = "0x2783640", Offset = "0x2781C40", VA = "0x182783640")]
+	[Address(RVA = "0x6147E80", Offset = "0x6146E80", VA = "0x6147E80")]
 	public ParticleContentValidator(XmlSchemaContentType contentType, bool enableUpaCheck)
 	{
 	}
 
 	[Token(Token = "0x6001018")]
-	[Address(RVA = "0x2783390", Offset = "0x2781990", VA = "0x182783390", Slot = "5")]
+	[Address(RVA = "0x6147EE0", Offset = "0x6146EE0", VA = "0x6147EE0", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x6001019")]
-	[Address(RVA = "0x27835A0", Offset = "0x2781BA0", VA = "0x1827835A0", Slot = "6")]
+	[Address(RVA = "0x6147F20", Offset = "0x6146F20", VA = "0x6147F20", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101A")]
-	[Address(RVA = "0x2781CD0", Offset = "0x27802D0", VA = "0x182781CD0", Slot = "7")]
+	[Address(RVA = "0x6147F60", Offset = "0x6146F60", VA = "0x6147F60", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x2783400", Offset = "0x2781A00", VA = "0x182783400")]
+	[Address(RVA = "0x6147FA0", Offset = "0x6146FA0", VA = "0x6147FA0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x600101C")]
-	[Address(RVA = "0x27833D0", Offset = "0x27819D0", VA = "0x1827833D0")]
+	[Address(RVA = "0x61480C0", Offset = "0x61470C0", VA = "0x61480C0")]
 	public void OpenGroup()
 	{
 	}
 
 	[Token(Token = "0x600101D")]
-	[Address(RVA = "0x2781960", Offset = "0x277FF60", VA = "0x182781960")]
+	[Address(RVA = "0x61480F0", Offset = "0x61470F0", VA = "0x61480F0")]
 	public void CloseGroup()
 	{
 	}
 
 	[Token(Token = "0x600101E")]
-	[Address(RVA = "0x2781D10", Offset = "0x2780310", VA = "0x182781D10")]
+	[Address(RVA = "0x6148280", Offset = "0x6147280", VA = "0x6148280")]
 	public bool Exists(XmlQualifiedName name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600101F")]
-	[Address(RVA = "0x27806C0", Offset = "0x277ECC0", VA = "0x1827806C0")]
+	[Address(RVA = "0x61482B0", Offset = "0x61472B0", VA = "0x61482B0")]
 	public void AddName(XmlQualifiedName name, object particle)
 	{
 	}
 
 	[Token(Token = "0x6001020")]
-	[Address(RVA = "0x2780770", Offset = "0x277ED70", VA = "0x182780770")]
+	[Address(RVA = "0x61484B0", Offset = "0x61474B0", VA = "0x61484B0")]
 	public void AddNamespaceList(NamespaceList namespaceList, object particle)
 	{
 	}
 
 	[Token(Token = "0x6001021")]
-	[Address(RVA = "0x27804E0", Offset = "0x277EAE0", VA = "0x1827804E0")]
+	[Address(RVA = "0x61483C0", Offset = "0x61473C0", VA = "0x61483C0")]
 	private void AddLeafNode(SyntaxTreeNode node)
 	{
 	}
 
 	[Token(Token = "0x6001022")]
-	[Address(RVA = "0x27803E0", Offset = "0x277E9E0", VA = "0x1827803E0")]
+	[Address(RVA = "0x6148550", Offset = "0x6147550", VA = "0x6148550")]
 	public void AddChoice()
 	{
 	}
 
 	[Token(Token = "0x6001023")]
-	[Address(RVA = "0x27808F0", Offset = "0x277EEF0", VA = "0x1827808F0")]
+	[Address(RVA = "0x6148640", Offset = "0x6147640", VA = "0x6148640")]
 	public void AddSequence()
 	{
 	}
 
 	[Token(Token = "0x6001024")]
-	[Address(RVA = "0x27809F0", Offset = "0x277EFF0", VA = "0x1827809F0")]
+	[Address(RVA = "0x6148730", Offset = "0x6147730", VA = "0x6148730")]
 	public void AddStar()
 	{
 	}
 
 	[Token(Token = "0x6001025")]
-	[Address(RVA = "0x2780830", Offset = "0x277EE30", VA = "0x182780830")]
+	[Address(RVA = "0x6148940", Offset = "0x6147940", VA = "0x6148940")]
 	public void AddPlus()
 	{
 	}
 
 	[Token(Token = "0x6001026")]
-	[Address(RVA = "0x2780890", Offset = "0x277EE90", VA = "0x182780890")]
+	[Address(RVA = "0x61489A0", Offset = "0x61479A0", VA = "0x61489A0")]
 	public void AddQMark()
 	{
 	}
 
 	[Token(Token = "0x6001027")]
-	[Address(RVA = "0x27805E0", Offset = "0x277EBE0", VA = "0x1827805E0")]
+	[Address(RVA = "0x6148A00", Offset = "0x6147A00", VA = "0x6148A00")]
 	public void AddLeafRange(decimal min, decimal max)
 	{
 	}
 
 	[Token(Token = "0x6001028")]
-	[Address(RVA = "0x2781B00", Offset = "0x2780100", VA = "0x182781B00")]
+	[Address(RVA = "0x6148790", Offset = "0x6147790", VA = "0x6148790")]
 	private void Closure(InteriorNode node)
 	{
 	}
 
 	[Token(Token = "0x6001029")]
-	[Address(RVA = "0x2781D50", Offset = "0x2780350", VA = "0x182781D50")]
+	[Address(RVA = "0x6148B60", Offset = "0x6147B60", VA = "0x6148B60")]
 	public ContentValidator Finish(bool useDFA)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600102A")]
-	[Address(RVA = "0x2781080", Offset = "0x277F680", VA = "0x182781080")]
+	[Address(RVA = "0x6149390", Offset = "0x6148390", VA = "0x6149390")]
 	private BitSet[] CalculateTotalFollowposForRangeNodes(BitSet firstpos, BitSet[] followpos, out BitSet posWithRangeTerminals)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600102B")]
-	[Address(RVA = "0x2781460", Offset = "0x277FA60", VA = "0x182781460")]
+	[Address(RVA = "0x6149D50", Offset = "0x6148D50", VA = "0x6149D50")]
 	private void CheckCMUPAWithLeafRangeNodes(BitSet curpos)
 	{
 	}
 
 	[Token(Token = "0x600102C")]
-	[Address(RVA = "0x2782EA0", Offset = "0x27814A0", VA = "0x182782EA0")]
+	[Address(RVA = "0x6149A30", Offset = "0x6148A30", VA = "0x6149A30")]
 	private BitSet GetApplicableMinMaxFollowPos(BitSet curpos, BitSet posWithRangeTerminals, BitSet[] minmaxFollowPos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600102D")]
-	[Address(RVA = "0x27818D0", Offset = "0x277FED0", VA = "0x1827818D0")]
+	[Address(RVA = "0x6149FE0", Offset = "0x6148FE0", VA = "0x6149FE0")]
 	private void CheckUniqueParticleAttribution(BitSet firstpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x600102E")]
-	[Address(RVA = "0x2781670", Offset = "0x277FC70", VA = "0x182781670")]
+	[Address(RVA = "0x614AAB0", Offset = "0x6149AB0", VA = "0x614AAB0")]
 	private void CheckUniqueParticleAttribution(BitSet curpos)
 	{
 	}
 
 	[Token(Token = "0x600102F")]
-	[Address(RVA = "0x2780A50", Offset = "0x277F050", VA = "0x182780A50")]
+	[Address(RVA = "0x614A070", Offset = "0x6149070", VA = "0x614A070")]
 	private int[][] BuildTransitionTable(BitSet firstpos, BitSet[] followpos, int endMarkerPos)
 	{
 		return null;

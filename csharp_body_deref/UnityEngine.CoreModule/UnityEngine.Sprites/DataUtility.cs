@@ -12,29 +12,29 @@ namespace UnityEngine.Sprites;
 [Token(Token = "0x2000400")]
 public sealed class DataUtility
 {
-	[Token(Token = "0x600180E")]
-	[Address(RVA = "0x2F76CE0", Offset = "0x2F752E0", VA = "0x182F76CE0")]
+	[Token(Token = "0x6001822")]
+	[Address(RVA = "0x696E5D0", Offset = "0x696D5D0", VA = "0x696E5D0")]
 	public static Vector4 GetInnerUV(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x600180F")]
-	[Address(RVA = "0x2F76DB0", Offset = "0x2F753B0", VA = "0x182F76DB0")]
+	[Token(Token = "0x6001823")]
+	[Address(RVA = "0x696E5F0", Offset = "0x696D5F0", VA = "0x696E5F0")]
 	public static Vector4 GetOuterUV(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6001810")]
-	[Address(RVA = "0x2F76DF0", Offset = "0x2F753F0", VA = "0x182F76DF0")]
+	[Token(Token = "0x6001824")]
+	[Address(RVA = "0x696E610", Offset = "0x696D610", VA = "0x696E610")]
 	public static Vector4 GetPadding(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6001811")]
-	[Address(RVA = "0x2F76D20", Offset = "0x2F75320", VA = "0x182F76D20")]
+	[Token(Token = "0x6001825")]
+	[Address(RVA = "0x696E630", Offset = "0x696D630", VA = "0x696E630")]
 	public static Vector2 GetMinSize(Sprite sprite)
 	{
 		return default(Vector2);

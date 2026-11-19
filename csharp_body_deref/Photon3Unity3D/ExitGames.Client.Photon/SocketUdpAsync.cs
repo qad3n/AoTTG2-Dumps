@@ -23,66 +23,66 @@ public class SocketUdpAsync : IPhotonSocket, IDisposable
 	private readonly object syncer;
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x1CECEB0", Offset = "0x1CEB4B0", VA = "0x181CECEB0")]
+	[Address(RVA = "0x567FA60", Offset = "0x567EA60", VA = "0x567FA60")]
 	[Preserve]
 	public SocketUdpAsync(PeerBase npeer)
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x1CE8CF0", Offset = "0x1CE72F0", VA = "0x181CE8CF0", Slot = "1")]
+	[Address(RVA = "0x567FBA0", Offset = "0x567EBA0", VA = "0x567FBA0", Slot = "1")]
 	~SocketUdpAsync()
 	{
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x1CE8500", Offset = "0x1CE6B00", VA = "0x181CE8500", Slot = "8")]
+	[Address(RVA = "0x567FC30", Offset = "0x567EC30", VA = "0x567FC30", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x1CEB3E0", Offset = "0x1CE99E0", VA = "0x181CEB3E0", Slot = "4")]
+	[Address(RVA = "0x567FD40", Offset = "0x567ED40", VA = "0x567FD40", Slot = "4")]
 	public override bool Connect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x1CEB540", Offset = "0x1CE9B40", VA = "0x181CEB540", Slot = "5")]
+	[Address(RVA = "0x567FEC0", Offset = "0x567EEC0", VA = "0x567FEC0", Slot = "5")]
 	public override bool Disconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x1CEC700", Offset = "0x1CEAD00", VA = "0x181CEC700", Slot = "6")]
+	[Address(RVA = "0x56800E0", Offset = "0x567F0E0", VA = "0x56800E0", Slot = "6")]
 	public override PhotonSocketError Send(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x1CE9800", Offset = "0x1CE7E00", VA = "0x181CE9800", Slot = "7")]
+	[Address(RVA = "0x56804B0", Offset = "0x567F4B0", VA = "0x56804B0", Slot = "7")]
 	public override PhotonSocketError Receive(out byte[] data)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x1CEB6F0", Offset = "0x1CE9CF0", VA = "0x181CEB6F0")]
+	[Address(RVA = "0x56804D0", Offset = "0x567F4D0", VA = "0x56804D0")]
 	internal void DnsAndConnect()
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x1CECC30", Offset = "0x1CEB230", VA = "0x181CECC30")]
+	[Address(RVA = "0x5680A90", Offset = "0x567FA90", VA = "0x5680A90")]
 	public void StartReceive()
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x1CEBCA0", Offset = "0x1CEA2A0", VA = "0x181CEBCA0")]
+	[Address(RVA = "0x5680D30", Offset = "0x567FD30", VA = "0x5680D30")]
 	private void OnReceive(IAsyncResult ar)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalCreateDrawCallSystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -126,7 +126,7 @@ internal class DecalCreateDrawCallSystem
 		public NativeArray<int> subCallCount;
 
 		[Token(Token = "0x600031F")]
-		[Address(RVA = "0x2C28840", Offset = "0x2C26E40", VA = "0x182C28840", Slot = "4")]
+		[Address(RVA = "0x6613550", Offset = "0x6612550", VA = "0x6613550", Slot = "4")]
 		public void Execute()
 		{
 		}
@@ -148,32 +148,32 @@ internal class DecalCreateDrawCallSystem
 	public float maxDrawDistance
 	{
 		[Token(Token = "0x600031A")]
-		[Address(RVA = "0x584280", Offset = "0x582880", VA = "0x180584280")]
+		[Address(RVA = "0x6613010", Offset = "0x6612010", VA = "0x6613010")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600031B")]
-		[Address(RVA = "0x5842A0", Offset = "0x5828A0", VA = "0x1805842A0")]
+		[Address(RVA = "0x6613020", Offset = "0x6612020", VA = "0x6613020")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600031C")]
-	[Address(RVA = "0x2C1C680", Offset = "0x2C1AC80", VA = "0x182C1C680")]
+	[Address(RVA = "0x6613030", Offset = "0x6612030", VA = "0x6613030")]
 	public DecalCreateDrawCallSystem(DecalEntityManager entityManager, float maxDrawDistance)
 	{
 	}
 
 	[Token(Token = "0x600031D")]
-	[Address(RVA = "0x2C1BF30", Offset = "0x2C1A530", VA = "0x182C1BF30")]
+	[Address(RVA = "0x66130E0", Offset = "0x66120E0", VA = "0x66130E0")]
 	public void Execute()
 	{
 	}
 
 	[Token(Token = "0x600031E")]
-	[Address(RVA = "0x2C1C3E0", Offset = "0x2C1A9E0", VA = "0x182C1C3E0")]
+	[Address(RVA = "0x66132E0", Offset = "0x66122E0", VA = "0x66132E0")]
 	private void Execute(DecalCachedChunk cachedChunk, DecalCulledChunk culledChunk, DecalDrawCallChunk drawCallChunk, int count)
 	{
 	}

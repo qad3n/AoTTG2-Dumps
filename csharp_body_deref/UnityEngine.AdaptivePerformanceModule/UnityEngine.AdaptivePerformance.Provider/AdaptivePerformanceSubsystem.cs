@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,7 +18,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public abstract class APProvider : SubsystemProvider<AdaptivePerformanceSubsystem>
 	{
 		[Token(Token = "0x4000152")]
-		[FieldOffset(Offset = "0x18")]
+		[FieldOffset(Offset = "0x11")]
 		protected bool m_Running;
 
 		[Token(Token = "0x170000CA")]
@@ -55,7 +55,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 		public virtual string Stats
 		{
 			[Token(Token = "0x6000286")]
-			[Address(RVA = "0x2E93D40", Offset = "0x2E92340", VA = "0x182E93D40", Slot = "12")]
+			[Address(RVA = "0x6892CE0", Offset = "0x6891CE0", VA = "0x6892CE0", Slot = "12")]
 			get
 			{
 				return null;
@@ -75,7 +75,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 		public abstract PerformanceDataRecord Update();
 
 		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x2E93D00", Offset = "0x2E92300", VA = "0x182E93D00")]
+		[Address(RVA = "0x6892D10", Offset = "0x6891D10", VA = "0x6892D10")]
 		protected APProvider()
 		{
 		}
@@ -85,7 +85,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override IApplicationLifecycle ApplicationLifecycle
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x2E94590", Offset = "0x2E92B90", VA = "0x182E94590", Slot = "11")]
+		[Address(RVA = "0x6892A70", Offset = "0x6891A70", VA = "0x6892A70", Slot = "11")]
 		get
 		{
 			return null;
@@ -96,7 +96,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override IDevicePerformanceLevelControl PerformanceLevelControl
 	{
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x2E94680", Offset = "0x2E92C80", VA = "0x182E94680", Slot = "12")]
+		[Address(RVA = "0x6892AC0", Offset = "0x6891AC0", VA = "0x6892AC0", Slot = "12")]
 		get
 		{
 			return null;
@@ -107,7 +107,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override Version Version
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x2E94720", Offset = "0x2E92D20", VA = "0x182E94720", Slot = "13")]
+		[Address(RVA = "0x6892B10", Offset = "0x6891B10", VA = "0x6892B10", Slot = "13")]
 		get
 		{
 			return null;
@@ -118,7 +118,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override Feature Capabilities
 	{
 		[Token(Token = "0x600027C")]
-		[Address(RVA = "0x2E945E0", Offset = "0x2E92BE0", VA = "0x182E945E0", Slot = "9")]
+		[Address(RVA = "0x6892B60", Offset = "0x6891B60", VA = "0x6892B60", Slot = "9")]
 		get
 		{
 			return default(Feature);
@@ -129,7 +129,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override string Stats
 	{
 		[Token(Token = "0x600027D")]
-		[Address(RVA = "0x2E946D0", Offset = "0x2E92CD0", VA = "0x182E946D0", Slot = "14")]
+		[Address(RVA = "0x6892BB0", Offset = "0x6891BB0", VA = "0x6892BB0", Slot = "14")]
 		get
 		{
 			return null;
@@ -140,7 +140,7 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	public override bool Initialized
 	{
 		[Token(Token = "0x600027E")]
-		[Address(RVA = "0x2E94630", Offset = "0x2E92C30", VA = "0x182E94630", Slot = "15")]
+		[Address(RVA = "0x6892C00", Offset = "0x6891C00", VA = "0x6892C00", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -148,13 +148,13 @@ public class AdaptivePerformanceSubsystem : AdaptivePerformanceSubsystemBase<Ada
 	}
 
 	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x2E94550", Offset = "0x2E92B50", VA = "0x182E94550")]
+	[Address(RVA = "0x6892A30", Offset = "0x6891A30", VA = "0x6892A30")]
 	public AdaptivePerformanceSubsystem()
 	{
 	}
 
 	[Token(Token = "0x600027F")]
-	[Address(RVA = "0x2E944C0", Offset = "0x2E92AC0", VA = "0x182E944C0", Slot = "10")]
+	[Address(RVA = "0x6892C50", Offset = "0x6891C50", VA = "0x6892C50", Slot = "10")]
 	public override PerformanceDataRecord Update()
 	{
 		return default(PerformanceDataRecord);

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001BF")]
+[Token(Token = "0x2000197")]
 internal sealed class MonoListItem
 {
-	[Token(Token = "0x4000719")]
+	[Token(Token = "0x4000677")]
 	[FieldOffset(Offset = "0x10")]
 	private System.MonoListItem next;
 
-	[Token(Token = "0x400071A")]
+	[Token(Token = "0x4000678")]
 	[FieldOffset(Offset = "0x18")]
 	private object data;
 
-	[Token(Token = "0x6001021")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6000FF8")]
+	[Address(RVA = "0x5514BE0", Offset = "0x5513BE0", VA = "0x5514BE0")]
 	public MonoListItem()
 	{
 	}

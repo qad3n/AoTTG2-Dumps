@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x20003D0")]
+[Token(Token = "0x200038C")]
 internal delegate X509Certificate ServerCertSelectionCallback(string hostName);

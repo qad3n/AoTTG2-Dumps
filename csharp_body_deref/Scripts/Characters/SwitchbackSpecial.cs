@@ -10,50 +10,50 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000689")]
+[Token(Token = "0x20006E8")]
 internal class SwitchbackSpecial : ExtendedUseable
 {
-	[Token(Token = "0x4001ECD")]
+	[Token(Token = "0x400207B")]
 	private const float GrabIFrameDuration = 0.5f;
 
-	[Token(Token = "0x17000B32")]
+	[Token(Token = "0x17000B7C")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6004058")]
-		[Address(RVA = "0x210FB70", Offset = "0x210E170", VA = "0x18210FB70", Slot = "14")]
+		[Token(Token = "0x60042F0")]
+		[Address(RVA = "0x5B0FA50", Offset = "0x5B0EA50", VA = "0x5B0FA50", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6004059")]
-	[Address(RVA = "0x2177DC0", Offset = "0x21763C0", VA = "0x182177DC0")]
+	[Token(Token = "0x60042F1")]
+	[Address(RVA = "0x5B0FA60", Offset = "0x5B0EA60", VA = "0x5B0FA60")]
 	public SwitchbackSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x600405A")]
-	[Address(RVA = "0x2177AD0", Offset = "0x21760D0", VA = "0x182177AD0")]
+	[Token(Token = "0x60042F2")]
+	[Address(RVA = "0x5B0FA80", Offset = "0x5B0EA80", VA = "0x5B0FA80")]
 	public bool RegisterCollision(Human human, Collision collision, float speed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600405B")]
-	[Address(RVA = "0x2177CB0", Offset = "0x21762B0", VA = "0x182177CB0", Slot = "12")]
+	[Token(Token = "0x60042F3")]
+	[Address(RVA = "0x5B0FCE0", Offset = "0x5B0ECE0", VA = "0x5B0FCE0", Slot = "12")]
 	public override void SetInput(bool key)
 	{
 	}
 
-	[Token(Token = "0x600405C")]
-	[Address(RVA = "0x21779C0", Offset = "0x2175FC0", VA = "0x1821779C0", Slot = "9")]
+	[Token(Token = "0x60042F4")]
+	[Address(RVA = "0x5B0FDD0", Offset = "0x5B0EDD0", VA = "0x5B0FDD0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x600405D")]
-	[Address(RVA = "0x2177A50", Offset = "0x2176050", VA = "0x182177A50", Slot = "10")]
+	[Token(Token = "0x60042F5")]
+	[Address(RVA = "0x5B0FE50", Offset = "0x5B0EE50", VA = "0x5B0FE50", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

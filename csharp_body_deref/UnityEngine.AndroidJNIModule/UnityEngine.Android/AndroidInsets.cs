@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Android.AndroidInsets
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ internal class AndroidInsets
 	private IntPtr m_NativeHandle;
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x560EC0", Offset = "0x55F4C0", VA = "0x180560EC0")]
+	[Address(RVA = "0x68A6030", Offset = "0x68A5030", VA = "0x68A6030")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private void SetNativeHandle(IntPtr ptr)
 	{

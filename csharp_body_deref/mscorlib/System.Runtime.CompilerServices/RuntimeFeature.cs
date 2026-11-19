@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004AF")]
+[Token(Token = "0x2000488")]
 public static class RuntimeFeature
 {
-	[Token(Token = "0x17000476")]
+	[Token(Token = "0x17000475")]
 	public static bool IsDynamicCodeSupported
 	{
-		[Token(Token = "0x6002304")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Token(Token = "0x60022D1")]
+		[Address(RVA = "0x53C89B0", Offset = "0x53C79B0", VA = "0x53C89B0")]
 		get
 		{
 			return default(bool);

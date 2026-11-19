@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200019C")]
+[Token(Token = "0x200015D")]
 public class ExpandableObjectConverter : TypeConverter
 {
-	[Token(Token = "0x6000A8F")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x6233790", Offset = "0x6232790", VA = "0x6233790")]
 	public ExpandableObjectConverter()
 	{
 	}
 
-	[Token(Token = "0x6000A90")]
-	[Address(RVA = "0x289DB60", Offset = "0x289C160", VA = "0x18289DB60", Slot = "10")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x62337A0", Offset = "0x62327A0", VA = "0x62337A0", Slot = "10")]
 	public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A91")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x6233800", Offset = "0x6232800", VA = "0x6233800", Slot = "11")]
 	public override bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);

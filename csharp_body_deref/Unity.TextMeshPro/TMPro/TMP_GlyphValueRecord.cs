@@ -40,13 +40,13 @@ public struct TMP_GlyphValueRecord
 	public float xPlacement
 	{
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
+		[Address(RVA = "0x66F67B0", Offset = "0x66F57B0", VA = "0x66F67B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
+		[Address(RVA = "0x66F67C0", Offset = "0x66F57C0", VA = "0x66F67C0")]
 		set
 		{
 		}
@@ -56,13 +56,13 @@ public struct TMP_GlyphValueRecord
 	public float yPlacement
 	{
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x562BB0", Offset = "0x5611B0", VA = "0x180562BB0")]
+		[Address(RVA = "0x66F67D0", Offset = "0x66F57D0", VA = "0x66F67D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001ED")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Address(RVA = "0x66F67E0", Offset = "0x66F57E0", VA = "0x66F67E0")]
 		set
 		{
 		}
@@ -72,13 +72,13 @@ public struct TMP_GlyphValueRecord
 	public float xAdvance
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Address(RVA = "0x66F67F0", Offset = "0x66F57F0", VA = "0x66F67F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Address(RVA = "0x66F6800", Offset = "0x66F5800", VA = "0x66F6800")]
 		set
 		{
 		}
@@ -88,38 +88,38 @@ public struct TMP_GlyphValueRecord
 	public float yAdvance
 	{
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
+		[Address(RVA = "0x66F6810", Offset = "0x66F5810", VA = "0x66F6810")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
+		[Address(RVA = "0x66F6820", Offset = "0x66F5820", VA = "0x66F6820")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x66F6830", Offset = "0x66F5830", VA = "0x66F6830")]
 	public TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance)
 	{
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x2A348D0", Offset = "0x2A32ED0", VA = "0x182A348D0")]
+	[Address(RVA = "0x66F6850", Offset = "0x66F5850", VA = "0x66F6850")]
 	internal TMP_GlyphValueRecord(GlyphValueRecord_Legacy valueRecord)
 	{
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x2CF4560", Offset = "0x2CF2B60", VA = "0x182CF4560")]
+	[Address(RVA = "0x66F6860", Offset = "0x66F5860", VA = "0x66F6860")]
 	internal TMP_GlyphValueRecord(GlyphValueRecord valueRecord)
 	{
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x2CF76B0", Offset = "0x2CF5CB0", VA = "0x182CF76B0")]
+	[Address(RVA = "0x66F68C0", Offset = "0x66F58C0", VA = "0x66F68C0")]
 	public static TMP_GlyphValueRecord operator +(TMP_GlyphValueRecord a, TMP_GlyphValueRecord b)
 	{
 		return default(TMP_GlyphValueRecord);

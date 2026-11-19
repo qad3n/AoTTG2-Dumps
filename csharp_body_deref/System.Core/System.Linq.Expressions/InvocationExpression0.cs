@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200008A")]
+[Token(Token = "0x200008B")]
 internal sealed class InvocationExpression0 : InvocationExpression
 {
-	[Token(Token = "0x17000096")]
+	[Token(Token = "0x17000098")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x6000414")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "13")]
+		[Token(Token = "0x600041F")]
+		[Address(RVA = "0x5DD1950", Offset = "0x5DD0950", VA = "0x5DD1950", Slot = "13")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000412")]
-	[Address(RVA = "0x243ABD0", Offset = "0x24391D0", VA = "0x18243ABD0")]
+	[Token(Token = "0x600041D")]
+	[Address(RVA = "0x5DD1880", Offset = "0x5DD0880", VA = "0x5DD1880")]
 	public InvocationExpression0(Expression lambda, Type returnType)
 	{
 	}
 
-	[Token(Token = "0x6000413")]
-	[Address(RVA = "0x243AB30", Offset = "0x2439130", VA = "0x18243AB30", Slot = "12")]
+	[Token(Token = "0x600041E")]
+	[Address(RVA = "0x5DD1900", Offset = "0x5DD0900", VA = "0x5DD1900", Slot = "12")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000415")]
-	[Address(RVA = "0x243AB80", Offset = "0x2439180", VA = "0x18243AB80", Slot = "14")]
+	[Token(Token = "0x6000420")]
+	[Address(RVA = "0x5DD1960", Offset = "0x5DD0960", VA = "0x5DD1960", Slot = "14")]
 	internal override InvocationExpression Rewrite(Expression lambda, Expression[] arguments)
 	{
 		return null;

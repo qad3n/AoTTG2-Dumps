@@ -40,7 +40,7 @@ public static class TMP_Compatibility
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2CDFF20", Offset = "0x2CDE520", VA = "0x182CDFF20")]
+	[Address(RVA = "0x66DD3C0", Offset = "0x66DC3C0", VA = "0x66DD3C0")]
 	public static TextAlignmentOptions ConvertTextAlignmentEnumValues(TextAlignmentOptions oldValue)
 	{
 		return default(TextAlignmentOptions);

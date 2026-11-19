@@ -87,36 +87,36 @@ public class WebRTCAudioLib
 
 	[PreserveSig]
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x1D7CED0", Offset = "0x1D7B4D0", VA = "0x181D7CED0")]
+	[Address(RVA = "0x571C7C0", Offset = "0x571B7C0", VA = "0x571C7C0")]
 	public static extern IntPtr webrtc_audio_processor_create(int samplingRate, int channels, int frameSize, int revSamplingRate, int revChannels);
 
 	[PreserveSig]
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x1D7CFE0", Offset = "0x1D7B5E0", VA = "0x181D7CFE0")]
+	[Address(RVA = "0x571C860", Offset = "0x571B860", VA = "0x571C860")]
 	public static extern int webrtc_audio_processor_init(IntPtr proc);
 
 	[PreserveSig]
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x1D7D1B0", Offset = "0x1D7B7B0", VA = "0x181D7D1B0")]
+	[Address(RVA = "0x571DB90", Offset = "0x571CB90", VA = "0x571DB90")]
 	public static extern int webrtc_audio_processor_set_param(IntPtr proc, int param, int v);
 
 	[PreserveSig]
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x1D7D060", Offset = "0x1D7B660", VA = "0x181D7D060")]
+	[Address(RVA = "0x571CCD0", Offset = "0x571BCD0", VA = "0x571CCD0")]
 	public static extern int webrtc_audio_processor_process(IntPtr proc, short[] buffer, int offset, out bool voiceDetected);
 
 	[PreserveSig]
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x1D7D110", Offset = "0x1D7B710", VA = "0x181D7D110")]
+	[Address(RVA = "0x571DB00", Offset = "0x571CB00", VA = "0x571DB00")]
 	public static extern int webrtc_audio_processor_process_reverse(IntPtr proc, short[] buffer, int bufferSize);
 
 	[PreserveSig]
 	[Token(Token = "0x6000347")]
-	[Address(RVA = "0x1D7CF60", Offset = "0x1D7B560", VA = "0x181D7CF60")]
+	[Address(RVA = "0x571DFD0", Offset = "0x571CFD0", VA = "0x571DFD0")]
 	public static extern void webrtc_audio_processor_destroy(IntPtr proc);
 
 	[Token(Token = "0x6000348")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x571C7B0", Offset = "0x571B7B0", VA = "0x571C7B0")]
 	public WebRTCAudioLib()
 	{
 	}

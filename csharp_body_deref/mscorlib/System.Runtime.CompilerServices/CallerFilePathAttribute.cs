@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000496")]
+[Token(Token = "0x200046F")]
 [AttributeUsage(AttributeTargets.Parameter, Inherited = false)]
 public sealed class CallerFilePathAttribute : Attribute
 {
-	[Token(Token = "0x60022D7")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60022A4")]
+	[Address(RVA = "0x53C8030", Offset = "0x53C7030", VA = "0x53C8030")]
 	public CallerFilePathAttribute()
 	{
 	}

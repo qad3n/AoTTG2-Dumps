@@ -21,13 +21,13 @@ public class Hashtable : Dictionary<object, object>
 	public new object this[object key]
 	{
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x1CC44D0", Offset = "0x1CC2AD0", VA = "0x181CC44D0")]
+		[Address(RVA = "0x564EA80", Offset = "0x564DA80", VA = "0x564EA80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x1CC4690", Offset = "0x1CC2C90", VA = "0x181CC4690")]
+		[Address(RVA = "0x564EAE0", Offset = "0x564DAE0", VA = "0x564EAE0")]
 		set
 		{
 		}
@@ -37,78 +37,78 @@ public class Hashtable : Dictionary<object, object>
 	public object this[byte key]
 	{
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x1CC4530", Offset = "0x1CC2B30", VA = "0x181CC4530")]
+		[Address(RVA = "0x564EB30", Offset = "0x564DB30", VA = "0x564EB30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x1CC45E0", Offset = "0x1CC2BE0", VA = "0x181CC45E0")]
+		[Address(RVA = "0x564EBE0", Offset = "0x564DBE0", VA = "0x564EBE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x1CC3CD0", Offset = "0x1CC22D0", VA = "0x181CC3CD0")]
+	[Address(RVA = "0x564E840", Offset = "0x564D840", VA = "0x564E840")]
 	public static object GetBoxedByte(byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x1CC4330", Offset = "0x1CC2930", VA = "0x181CC4330")]
+	[Address(RVA = "0x564E8D0", Offset = "0x564D8D0", VA = "0x564E8D0")]
 	static Hashtable()
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x1CC4440", Offset = "0x1CC2A40", VA = "0x181CC4440")]
+	[Address(RVA = "0x564EA00", Offset = "0x564DA00", VA = "0x564EA00")]
 	public Hashtable()
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x1CC4480", Offset = "0x1CC2A80", VA = "0x181CC4480")]
+	[Address(RVA = "0x564EA40", Offset = "0x564DA40", VA = "0x564EA40")]
 	public Hashtable(int x)
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x1CC3B10", Offset = "0x1CC2110", VA = "0x181CC3B10")]
+	[Address(RVA = "0x564ECA0", Offset = "0x564DCA0", VA = "0x564ECA0")]
 	public void Add(byte k, object v)
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x1CC3DF0", Offset = "0x1CC23F0", VA = "0x181CC3DF0")]
+	[Address(RVA = "0x564ED60", Offset = "0x564DD60", VA = "0x564ED60")]
 	public void Remove(byte k)
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x1CC3C30", Offset = "0x1CC2230", VA = "0x181CC3C30")]
+	[Address(RVA = "0x564EE10", Offset = "0x564DE10", VA = "0x564EE10")]
 	public bool ContainsKey(byte key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x1CC3D40", Offset = "0x1CC2340", VA = "0x181CC3D40")]
+	[Address(RVA = "0x564EEC0", Offset = "0x564DEC0", VA = "0x564EEC0")]
 	public new DictionaryEntryEnumerator GetEnumerator()
 	{
 		return default(DictionaryEntryEnumerator);
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x1CC3E90", Offset = "0x1CC2490", VA = "0x181CC3E90", Slot = "3")]
+	[Address(RVA = "0x564EF80", Offset = "0x564DF80", VA = "0x564EF80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x1CC3BC0", Offset = "0x1CC21C0", VA = "0x181CC3BC0")]
+	[Address(RVA = "0x564F680", Offset = "0x564E680", VA = "0x564F680")]
 	public object Clone()
 	{
 		return null;

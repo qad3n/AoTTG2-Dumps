@@ -42,7 +42,7 @@ public class DataViewSetting
 	public bool ApplyDefaultSort
 	{
 		[Token(Token = "0x60005B8")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Address(RVA = "0x5EAC180", Offset = "0x5EAB180", VA = "0x5EAC180")]
 		get
 		{
 			return default(bool);
@@ -53,7 +53,7 @@ public class DataViewSetting
 	public string RowFilter
 	{
 		[Token(Token = "0x60005BB")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x5EAC1D0", Offset = "0x5EAB1D0", VA = "0x5EAC1D0")]
 		get
 		{
 			return null;
@@ -64,7 +64,7 @@ public class DataViewSetting
 	public DataViewRowState RowStateFilter
 	{
 		[Token(Token = "0x60005BC")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x5EAC1E0", Offset = "0x5EAB1E0", VA = "0x5EAC1E0")]
 		get
 		{
 			return default(DataViewRowState);
@@ -75,7 +75,7 @@ public class DataViewSetting
 	public string Sort
 	{
 		[Token(Token = "0x60005BD")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5EAC1F0", Offset = "0x5EAB1F0", VA = "0x5EAC1F0")]
 		get
 		{
 			return null;
@@ -83,19 +83,19 @@ public class DataViewSetting
 	}
 
 	[Token(Token = "0x60005B7")]
-	[Address(RVA = "0x250C550", Offset = "0x250AB50", VA = "0x18250C550")]
+	[Address(RVA = "0x5EAC110", Offset = "0x5EAB110", VA = "0x5EAC110")]
 	internal DataViewSetting()
 	{
 	}
 
 	[Token(Token = "0x60005B9")]
-	[Address(RVA = "0x24F27E0", Offset = "0x24F0DE0", VA = "0x1824F27E0")]
+	[Address(RVA = "0x5EAC190", Offset = "0x5EAB190", VA = "0x5EAC190")]
 	internal void SetDataViewManager(DataViewManager dataViewManager)
 	{
 	}
 
 	[Token(Token = "0x60005BA")]
-	[Address(RVA = "0x250C530", Offset = "0x250AB30", VA = "0x18250C530")]
+	[Address(RVA = "0x5EAC1B0", Offset = "0x5EAB1B0", VA = "0x5EAC1B0")]
 	internal void SetDataTable(DataTable table)
 	{
 	}

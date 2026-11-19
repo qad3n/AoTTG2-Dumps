@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200017C")]
+[Token(Token = "0x2000154")]
 internal sealed class LocalDataStoreElement
 {
-	[Token(Token = "0x400057C")]
+	[Token(Token = "0x40004DA")]
 	[FieldOffset(Offset = "0x10")]
 	private object m_value;
 
-	[Token(Token = "0x400057D")]
+	[Token(Token = "0x40004DB")]
 	[FieldOffset(Offset = "0x18")]
 	private long m_cookie;
 
 	[Token(Token = "0x17000128")]
 	public object Value
 	{
-		[Token(Token = "0x6000DA8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000D83")]
+		[Address(RVA = "0x54EA100", Offset = "0x54E9100", VA = "0x54EA100")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000DA9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000D84")]
+		[Address(RVA = "0x54EA110", Offset = "0x54E9110", VA = "0x54EA110")]
 		set
 		{
 		}
@@ -39,16 +39,16 @@ internal sealed class LocalDataStoreElement
 	[Token(Token = "0x17000129")]
 	public long Cookie
 	{
-		[Token(Token = "0x6000DAA")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000D85")]
+		[Address(RVA = "0x54EA120", Offset = "0x54E9120", VA = "0x54EA120")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x6000DA7")]
-	[Address(RVA = "0x1B6B5B0", Offset = "0x1B69BB0", VA = "0x181B6B5B0")]
+	[Token(Token = "0x6000D82")]
+	[Address(RVA = "0x54EA0E0", Offset = "0x54E90E0", VA = "0x54EA0E0")]
 	public LocalDataStoreElement(long cookie)
 	{
 	}

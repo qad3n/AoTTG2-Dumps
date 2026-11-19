@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Threading.Tasks;
 
 [Serializable]
-[Token(Token = "0x2000257")]
+[Token(Token = "0x200022F")]
 public class TaskSchedulerException : Exception
 {
-	[Token(Token = "0x60013EF")]
-	[Address(RVA = "0x1BB6700", Offset = "0x1BB4D00", VA = "0x181BB6700")]
+	[Token(Token = "0x60013C6")]
+	[Address(RVA = "0x55409F0", Offset = "0x553F9F0", VA = "0x55409F0")]
 	public TaskSchedulerException()
 	{
 	}
 
-	[Token(Token = "0x60013F0")]
-	[Address(RVA = "0x1BB6760", Offset = "0x1BB4D60", VA = "0x181BB6760")]
+	[Token(Token = "0x60013C7")]
+	[Address(RVA = "0x5540A50", Offset = "0x553FA50", VA = "0x5540A50")]
 	public TaskSchedulerException(Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60013F1")]
-	[Address(RVA = "0x1BB6680", Offset = "0x1BB4C80", VA = "0x181BB6680")]
+	[Token(Token = "0x60013C8")]
+	[Address(RVA = "0x5540AC0", Offset = "0x553FAC0", VA = "0x5540AC0")]
 	protected TaskSchedulerException(SerializationInfo info, StreamingContext context)
 	{
 	}

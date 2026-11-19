@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000332")]
+[Token(Token = "0x2000393")]
 public enum GameState
 {
-	[Token(Token = "0x400107A")]
+	[Token(Token = "0x4001224")]
 	Loading,
-	[Token(Token = "0x400107B")]
+	[Token(Token = "0x4001225")]
 	Playing
 }

@@ -10,93 +10,93 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200019E")]
+[Token(Token = "0x200015F")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class ExtenderProvidedPropertyAttribute : Attribute
 {
-	[Token(Token = "0x17000211")]
+	[Token(Token = "0x170001E2")]
 	public PropertyDescriptor ExtenderProperty
 	{
-		[Token(Token = "0x6000A9F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60008DF")]
+		[Address(RVA = "0x6234060", Offset = "0x6233060", VA = "0x6234060")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AA0")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x60008E0")]
+		[Address(RVA = "0x6234070", Offset = "0x6233070", VA = "0x6234070")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000212")]
+	[Token(Token = "0x170001E3")]
 	public IExtenderProvider Provider
 	{
-		[Token(Token = "0x6000AA1")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60008E1")]
+		[Address(RVA = "0x6234080", Offset = "0x6233080", VA = "0x6234080")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AA2")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60008E2")]
+		[Address(RVA = "0x6234090", Offset = "0x6233090", VA = "0x6234090")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000213")]
+	[Token(Token = "0x170001E4")]
 	public Type ReceiverType
 	{
-		[Token(Token = "0x6000AA3")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60008E3")]
+		[Address(RVA = "0x62340A0", Offset = "0x62330A0", VA = "0x62340A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AA4")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60008E4")]
+		[Address(RVA = "0x62340B0", Offset = "0x62330B0", VA = "0x62340B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000A9D")]
-	[Address(RVA = "0x289E340", Offset = "0x289C940", VA = "0x18289E340")]
+	[Token(Token = "0x60008DD")]
+	[Address(RVA = "0x6233A70", Offset = "0x6232A70", VA = "0x6233A70")]
 	internal static ExtenderProvidedPropertyAttribute Create(PropertyDescriptor extenderProperty, Type receiverType, IExtenderProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60008DE")]
+	[Address(RVA = "0x6234050", Offset = "0x6233050", VA = "0x6234050")]
 	public ExtenderProvidedPropertyAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000AA5")]
-	[Address(RVA = "0x289E3D0", Offset = "0x289C9D0", VA = "0x18289E3D0", Slot = "0")]
+	[Token(Token = "0x60008E5")]
+	[Address(RVA = "0x62340C0", Offset = "0x62330C0", VA = "0x62340C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AA6")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x60008E6")]
+	[Address(RVA = "0x6234190", Offset = "0x6233190", VA = "0x6234190", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x289E4C0", Offset = "0x289CAC0", VA = "0x18289E4C0", Slot = "6")]
+	[Token(Token = "0x60008E7")]
+	[Address(RVA = "0x62341A0", Offset = "0x62331A0", VA = "0x62341A0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

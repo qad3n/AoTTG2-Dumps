@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalForwardEmissivePass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,14 +26,14 @@ internal class DecalForwardEmissivePass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x60002BE")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6610B00", Offset = "0x660FB00", VA = "0x6610B00")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000225")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x4000226")]
@@ -45,32 +45,32 @@ internal class DecalForwardEmissivePass : ScriptableRenderPass
 	private DecalDrawFowardEmissiveSystem m_DrawSystem;
 
 	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x2C22C40", Offset = "0x2C21240", VA = "0x182C22C40")]
+	[Address(RVA = "0x6610020", Offset = "0x660F020", VA = "0x6610020")]
 	public DecalForwardEmissivePass(DecalDrawFowardEmissiveSystem drawSystem)
 	{
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x2C220E0", Offset = "0x2C206E0", VA = "0x182C220E0")]
+	[Address(RVA = "0x6610310", Offset = "0x660F310", VA = "0x6610310")]
 	private void InitPassData(ref PassData passData)
 	{
 	}
 
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x2C22110", Offset = "0x2C20710", VA = "0x182C22110")]
+	[Address(RVA = "0x6610340", Offset = "0x660F340", VA = "0x6610340")]
 	private RendererListParams InitRendererListParams(UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 		return default(RendererListParams);
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x2C19760", Offset = "0x2C17D60", VA = "0x182C19760")]
+	[Address(RVA = "0x6610480", Offset = "0x660F480", VA = "0x6610480")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x2C223F0", Offset = "0x2C209F0", VA = "0x182C223F0", Slot = "11")]
+	[Address(RVA = "0x66104B0", Offset = "0x660F4B0", VA = "0x66104B0", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.AutoFreeAllocator
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,21 +30,21 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 		private static IntPtr Pointer;
 
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x29B2690", Offset = "0x29B0C90", VA = "0x1829B2690")]
+		[Address(RVA = "0x635DA60", Offset = "0x635CA60", VA = "0x635DA60")]
 		[BurstDiscard]
 		private static void GetFunctionPointerDiscard(ref IntPtr P_0)
 		{
 		}
 
 		[Token(Token = "0x60000FD")]
-		[Address(RVA = "0x29B2810", Offset = "0x29B0E10", VA = "0x1829B2810")]
+		[Address(RVA = "0x635DBC0", Offset = "0x635CBC0", VA = "0x635DBC0")]
 		private static IntPtr GetFunctionPointer()
 		{
 			return default(IntPtr);
 		}
 
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x2995480", Offset = "0x2993A80", VA = "0x182995480")]
+		[Address(RVA = "0x635D7B0", Offset = "0x635C7B0", VA = "0x635D7B0")]
 		public static int Invoke(IntPtr state, ref AllocatorManager.Block block)
 		{
 			return default(int);
@@ -71,7 +71,7 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	public AllocatorManager.TryFunction Function
 	{
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x2995880", Offset = "0x2993E80", VA = "0x182995880", Slot = "4")]
+		[Address(RVA = "0x635D610", Offset = "0x635C610", VA = "0x635D610", Slot = "4")]
 		get
 		{
 			return null;
@@ -82,13 +82,13 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	public AllocatorManager.AllocatorHandle Handle
 	{
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0", Slot = "6")]
+		[Address(RVA = "0x635D860", Offset = "0x635C860", VA = "0x635D860", Slot = "6")]
 		get
 		{
 			return default(AllocatorManager.AllocatorHandle);
 		}
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x58AA60", Offset = "0x589060", VA = "0x18058AA60", Slot = "7")]
+		[Address(RVA = "0x635D870", Offset = "0x635C870", VA = "0x635D870", Slot = "7")]
 		set
 		{
 		}
@@ -98,7 +98,7 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	public Allocator ToAllocator
 	{
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x2995970", Offset = "0x2993F70", VA = "0x182995970", Slot = "8")]
+		[Address(RVA = "0x635D880", Offset = "0x635C880", VA = "0x635D880", Slot = "8")]
 		get
 		{
 			return default(Allocator);
@@ -109,7 +109,7 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	public bool IsCustomAllocator
 	{
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x2995960", Offset = "0x2993F60", VA = "0x182995960", Slot = "9")]
+		[Address(RVA = "0x635D890", Offset = "0x635C890", VA = "0x635D890", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -120,7 +120,7 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	public bool IsAutoDispose
 	{
 		[Token(Token = "0x60000F6")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Address(RVA = "0x635D8A0", Offset = "0x635C8A0", VA = "0x635D8A0", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -128,38 +128,38 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x2995750", Offset = "0x2993D50", VA = "0x182995750")]
+	[Address(RVA = "0x635D320", Offset = "0x635C320", VA = "0x635D320")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x2995380", Offset = "0x2993980", VA = "0x182995380")]
+	[Address(RVA = "0x635D460", Offset = "0x635C460", VA = "0x635D460")]
 	public void Initialize(AllocatorManager.AllocatorHandle backingAllocatorHandle)
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x29952E0", Offset = "0x29938E0", VA = "0x1829952E0")]
+	[Address(RVA = "0x635D510", Offset = "0x635C510", VA = "0x635D510")]
 	public void FreeAll()
 	{
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x2995280", Offset = "0x2993880", VA = "0x182995280", Slot = "11")]
+	[Address(RVA = "0x635D5C0", Offset = "0x635C5C0", VA = "0x635D5C0", Slot = "11")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x2995670", Offset = "0x2993C70", VA = "0x182995670", Slot = "5")]
+	[Address(RVA = "0x635D6E0", Offset = "0x635C6E0", VA = "0x635D6E0", Slot = "5")]
 	public int Try(ref AllocatorManager.Block block)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x2995480", Offset = "0x2993A80", VA = "0x182995480")]
+	[Address(RVA = "0x635D310", Offset = "0x635C310", VA = "0x635D310")]
 	[BurstCompile]
 	[MonoPInvokeCallback(typeof(AllocatorManager.TryFunction))]
 	internal static int Try(IntPtr state, ref AllocatorManager.Block block)
@@ -169,7 +169,7 @@ internal struct AutoFreeAllocator : AllocatorManager.IAllocator, IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x2995450", Offset = "0x2993A50", VA = "0x182995450")]
+	[Address(RVA = "0x635D8B0", Offset = "0x635C8B0", VA = "0x635D8B0")]
 	[BurstCompile]
 	[MonoPInvokeCallback(typeof(AllocatorManager.TryFunction))]
 	internal static int Try_0024BurstManaged(IntPtr state, ref AllocatorManager.Block block)

@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000B9")]
+[Token(Token = "0x2000090")]
 public class ArrayTypeMismatchException : SystemException
 {
-	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x1A78590", Offset = "0x1A76B90", VA = "0x181A78590")]
+	[Token(Token = "0x6000418")]
+	[Address(RVA = "0x541A040", Offset = "0x5419040", VA = "0x541A040")]
 	public ArrayTypeMismatchException()
 	{
 	}
 
-	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x6000419")]
+	[Address(RVA = "0x541A080", Offset = "0x5419080", VA = "0x541A080")]
 	protected ArrayTypeMismatchException(SerializationInfo info, StreamingContext context)
 	{
 	}

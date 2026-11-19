@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.BaseSetting
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Settings/BaseSetting.c
 // Prior real C# source (older reference): Assets/Scripts/Settings/SettingTypes/BaseSetting.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,50 +10,50 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000C9")]
+[Token(Token = "0x2000104")]
 internal abstract class BaseSetting
 {
-	[Token(Token = "0x40004F5")]
+	[Token(Token = "0x4000633")]
 	[FieldOffset(Offset = "0x10")]
 	public InspectorSettingMetadata InspectorMetadata;
 
-	[Token(Token = "0x60003E9")]
+	[Token(Token = "0x6000567")]
 	public abstract void SetDefault();
 
-	[Token(Token = "0x60003EA")]
+	[Token(Token = "0x6000568")]
 	public abstract JSONNode SerializeToJsonObject();
 
-	[Token(Token = "0x60003EB")]
+	[Token(Token = "0x6000569")]
 	public abstract void DeserializeFromJsonObject(JSONNode json);
 
-	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
+	[Token(Token = "0x600056A")]
+	[Address(RVA = "0x5A54EE0", Offset = "0x5A53EE0", VA = "0x5A54EE0", Slot = "7")]
 	public virtual object GetDefaultValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x1F0EC10", Offset = "0x1F0D210", VA = "0x181F0EC10", Slot = "8")]
+	[Token(Token = "0x600056B")]
+	[Address(RVA = "0x5A54EF0", Offset = "0x5A53EF0", VA = "0x5A54EF0", Slot = "8")]
 	public virtual string SerializeToJsonString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x1F0EBD0", Offset = "0x1F0D1D0", VA = "0x181F0EBD0", Slot = "9")]
+	[Token(Token = "0x600056C")]
+	[Address(RVA = "0x5A54F30", Offset = "0x5A53F30", VA = "0x5A54F30", Slot = "9")]
 	public virtual void DeserializeFromJsonString(string json)
 	{
 	}
 
-	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x1F0EB80", Offset = "0x1F0D180", VA = "0x181F0EB80", Slot = "10")]
+	[Token(Token = "0x600056D")]
+	[Address(RVA = "0x5A54F60", Offset = "0x5A53F60", VA = "0x5A54F60", Slot = "10")]
 	public virtual void Copy(BaseSetting other)
 	{
 	}
 
-	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x1F0EC50", Offset = "0x1F0D250", VA = "0x181F0EC50")]
+	[Token(Token = "0x600056E")]
+	[Address(RVA = "0x5A54FA0", Offset = "0x5A53FA0", VA = "0x5A54FA0")]
 	protected BaseSetting()
 	{
 	}

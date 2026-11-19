@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x200004B")]
 internal class MethodBinaryExpression : SimpleBinaryExpression
 {
-	[Token(Token = "0x40000EF")]
+	[Token(Token = "0x40000F8")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly MethodInfo _method;
 
-	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x24247D0", Offset = "0x2422DD0", VA = "0x1824247D0")]
+	[Token(Token = "0x60001E3")]
+	[Address(RVA = "0x5DAD250", Offset = "0x5DAC250", VA = "0x5DAD250")]
 	internal MethodBinaryExpression(ExpressionType nodeType, Expression left, Expression right, Type type, MethodInfo method)
 	{
 	}
 
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "10")]
+	[Token(Token = "0x60001E4")]
+	[Address(RVA = "0x5DAD3D0", Offset = "0x5DAC3D0", VA = "0x5DAD3D0", Slot = "10")]
 	internal override MethodInfo GetMethod()
 	{
 		return null;

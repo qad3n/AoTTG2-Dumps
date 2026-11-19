@@ -16,44 +16,44 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x20000D7")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Graphics/Graphics.bindings.h")]
 public sealed class LightProbes : Object
 {
-	[Token(Token = "0x4000230")]
+	[Token(Token = "0x4000235")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action lightProbesUpdated;
 
-	[Token(Token = "0x4000231")]
+	[Token(Token = "0x4000236")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action tetrahedralizationCompleted;
 
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x4000237")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static Action needsRetetrahedralization;
 
-	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x2ECCD70", Offset = "0x2ECB370", VA = "0x182ECCD70")]
+	[Token(Token = "0x60004B7")]
+	[Address(RVA = "0x68D2A40", Offset = "0x68D1A40", VA = "0x68D2A40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_CallLightProbesUpdatedFunction()
 	{
 	}
 
-	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x2ECCE10", Offset = "0x2ECB410", VA = "0x182ECCE10")]
+	[Token(Token = "0x60004B8")]
+	[Address(RVA = "0x68D2A90", Offset = "0x68D1A90", VA = "0x68D2A90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_CallTetrahedralizationCompletedFunction()
 	{
 	}
 
-	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x2ECCDC0", Offset = "0x2ECB3C0", VA = "0x182ECCDC0")]
+	[Token(Token = "0x60004B9")]
+	[Address(RVA = "0x68D2AE0", Offset = "0x68D1AE0", VA = "0x68D2AE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_CallNeedsRetetrahedralizationFunction()
 	{

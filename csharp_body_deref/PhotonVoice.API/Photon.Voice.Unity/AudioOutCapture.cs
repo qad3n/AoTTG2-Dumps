@@ -12,10 +12,10 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000A6")]
+[Token(Token = "0x20000A2")]
 public class AudioOutCapture : MonoBehaviour
 {
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x40002B1")]
 	[FieldOffset(Offset = "0x20")]
 	[CompilerGenerated]
 	private Action<float[], int> m_OnAudioFrame;
@@ -23,28 +23,28 @@ public class AudioOutCapture : MonoBehaviour
 	[Token(Token = "0x14000004")]
 	public event Action<float[], int> OnAudioFrame
 	{
-		[Token(Token = "0x600039B")]
-		[Address(RVA = "0x1D83BF0", Offset = "0x1D821F0", VA = "0x181D83BF0")]
+		[Token(Token = "0x6000383")]
+		[Address(RVA = "0x57220C0", Offset = "0x57210C0", VA = "0x57220C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600039C")]
-		[Address(RVA = "0x1D83CA0", Offset = "0x1D822A0", VA = "0x181D83CA0")]
+		[Token(Token = "0x6000384")]
+		[Address(RVA = "0x5722160", Offset = "0x5721160", VA = "0x5722160")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x1D83BD0", Offset = "0x1D821D0", VA = "0x181D83BD0")]
+	[Token(Token = "0x6000385")]
+	[Address(RVA = "0x5722200", Offset = "0x5721200", VA = "0x5722200")]
 	private void OnAudioFilterRead(float[] frame, int channels)
 	{
 	}
 
-	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000386")]
+	[Address(RVA = "0x5722220", Offset = "0x5721220", VA = "0x5722220")]
 	public AudioOutCapture()
 	{
 	}

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000341")]
+[Token(Token = "0x20003A3")]
 internal class PlayerCharacter
 {
-	[Token(Token = "0x40010DD")]
+	[Token(Token = "0x400128D")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Human;
 
-	[Token(Token = "0x40010DE")]
+	[Token(Token = "0x400128E")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Titan;
 
-	[Token(Token = "0x40010DF")]
+	[Token(Token = "0x400128F")]
 	[FieldOffset(Offset = "0x10")]
 	public static string Shifter;
 
-	[Token(Token = "0x60014D0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001750")]
+	[Address(RVA = "0x5857ED0", Offset = "0x5856ED0", VA = "0x5857ED0")]
 	public PlayerCharacter()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.SubsystemManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,39 +46,39 @@ public static class SubsystemManager
 
 	[Token(Token = "0x400000A")]
 	[FieldOffset(Offset = "0x28")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action reloadSubsytemsStarted;
 
 	[Token(Token = "0x400000B")]
 	[FieldOffset(Offset = "0x30")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action reloadSubsytemsCompleted;
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x2FF8450", Offset = "0x2FF6A50", VA = "0x182FF8450")]
+	[Address(RVA = "0x69F1F80", Offset = "0x69F0F80", VA = "0x69F1F80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ReloadSubsystemsStarted()
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x2FF8360", Offset = "0x2FF6960", VA = "0x182FF8360")]
+	[Address(RVA = "0x69F20B0", Offset = "0x69F10B0", VA = "0x69F20B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ReloadSubsystemsCompleted()
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x2FF8240", Offset = "0x2FF6840", VA = "0x182FF8240")]
+	[Address(RVA = "0x69F21F0", Offset = "0x69F11F0", VA = "0x69F21F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InitializeIntegratedSubsystem(IntPtr ptr, IntegratedSubsystem subsystem)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x2FF7EA0", Offset = "0x2FF64A0", VA = "0x182FF7EA0")]
+	[Address(RVA = "0x69F2320", Offset = "0x69F1320", VA = "0x69F2320")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ClearSubsystems()
 	{
@@ -86,11 +86,11 @@ public static class SubsystemManager
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x2FF85C0", Offset = "0x2FF6BC0", VA = "0x182FF85C0")]
+	[Address(RVA = "0x69F25A0", Offset = "0x69F15A0", VA = "0x69F25A0")]
 	private static extern void StaticConstructScriptingClassMap();
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2FF85F0", Offset = "0x2FF6BF0", VA = "0x182FF85F0")]
+	[Address(RVA = "0x69F25D0", Offset = "0x69F15D0", VA = "0x69F25D0")]
 	static SubsystemManager()
 	{
 	}
@@ -111,7 +111,7 @@ public static class SubsystemManager
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2FF80D0", Offset = "0x2FF66D0", VA = "0x182FF80D0")]
+	[Address(RVA = "0x69F2730", Offset = "0x69F1730", VA = "0x69F2730")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.XRModule" })]
 	internal static IntegratedSubsystem GetIntegratedSubsystemByPtr(IntPtr ptr)
 	{
@@ -119,7 +119,7 @@ public static class SubsystemManager
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2FF8540", Offset = "0x2FF6B40", VA = "0x182FF8540")]
+	[Address(RVA = "0x69F28C0", Offset = "0x69F18C0", VA = "0x69F28C0")]
 	internal static bool RemoveStandaloneSubsystem(SubsystemWithProvider subsystem)
 	{
 		return default(bool);

@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000517")]
+[Token(Token = "0x20004F0")]
 public enum MethodImplAttributes
 {
-	[Token(Token = "0x4001429")]
+	[Token(Token = "0x4001389")]
 	CodeTypeMask = 3,
-	[Token(Token = "0x400142A")]
+	[Token(Token = "0x400138A")]
 	IL = 0,
-	[Token(Token = "0x400142B")]
+	[Token(Token = "0x400138B")]
 	Native = 1,
-	[Token(Token = "0x400142C")]
+	[Token(Token = "0x400138C")]
 	OPTIL = 2,
-	[Token(Token = "0x400142D")]
+	[Token(Token = "0x400138D")]
 	Runtime = CodeTypeMask,
-	[Token(Token = "0x400142E")]
+	[Token(Token = "0x400138E")]
 	ManagedMask = 4,
-	[Token(Token = "0x400142F")]
+	[Token(Token = "0x400138F")]
 	Unmanaged = ManagedMask,
-	[Token(Token = "0x4001430")]
+	[Token(Token = "0x4001390")]
 	Managed = IL,
-	[Token(Token = "0x4001431")]
+	[Token(Token = "0x4001391")]
 	ForwardRef = 16,
-	[Token(Token = "0x4001432")]
+	[Token(Token = "0x4001392")]
 	PreserveSig = 128,
-	[Token(Token = "0x4001433")]
+	[Token(Token = "0x4001393")]
 	InternalCall = 4096,
-	[Token(Token = "0x4001434")]
+	[Token(Token = "0x4001394")]
 	Synchronized = 32,
-	[Token(Token = "0x4001435")]
+	[Token(Token = "0x4001395")]
 	NoInlining = 8,
-	[Token(Token = "0x4001436")]
+	[Token(Token = "0x4001396")]
 	AggressiveInlining = 256,
-	[Token(Token = "0x4001437")]
+	[Token(Token = "0x4001397")]
 	NoOptimization = 64,
-	[Token(Token = "0x4001438")]
+	[Token(Token = "0x4001398")]
 	MaxMethodImplVal = 65535,
-	[Token(Token = "0x4001439")]
+	[Token(Token = "0x4001399")]
 	SecurityMitigations = 1024
 }

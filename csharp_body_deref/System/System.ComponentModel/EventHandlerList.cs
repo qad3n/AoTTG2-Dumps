@@ -9,94 +9,94 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200015F")]
+[Token(Token = "0x2000120")]
 public sealed class EventHandlerList : IDisposable
 {
-	[Token(Token = "0x2000160")]
+	[Token(Token = "0x2000121")]
 	private sealed class ListEntry
 	{
-		[Token(Token = "0x400061D")]
+		[Token(Token = "0x400054E")]
 		[FieldOffset(Offset = "0x10")]
 		internal ListEntry _next;
 
-		[Token(Token = "0x400061E")]
+		[Token(Token = "0x400054F")]
 		[FieldOffset(Offset = "0x18")]
 		internal object _key;
 
-		[Token(Token = "0x400061F")]
+		[Token(Token = "0x4000550")]
 		[FieldOffset(Offset = "0x20")]
 		internal Delegate _handler;
 
-		[Token(Token = "0x60008E7")]
-		[Address(RVA = "0x287E190", Offset = "0x287C790", VA = "0x18287E190")]
+		[Token(Token = "0x6000727")]
+		[Address(RVA = "0x6223170", Offset = "0x6222170", VA = "0x6223170")]
 		public ListEntry(object key, Delegate handler, ListEntry next)
 		{
 		}
 	}
 
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x400054C")]
 	[FieldOffset(Offset = "0x10")]
 	private ListEntry _head;
 
-	[Token(Token = "0x400061C")]
+	[Token(Token = "0x400054D")]
 	[FieldOffset(Offset = "0x18")]
 	private Component _parent;
 
-	[Token(Token = "0x170001AF")]
+	[Token(Token = "0x17000180")]
 	public Delegate this[object key]
 	{
-		[Token(Token = "0x60008E0")]
-		[Address(RVA = "0x287DD00", Offset = "0x287C300", VA = "0x18287DD00")]
+		[Token(Token = "0x6000720")]
+		[Address(RVA = "0x6223020", Offset = "0x6222020", VA = "0x6223020")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60008E1")]
-		[Address(RVA = "0x287DD60", Offset = "0x287C360", VA = "0x18287DD60")]
+		[Token(Token = "0x6000721")]
+		[Address(RVA = "0x62230A0", Offset = "0x62220A0", VA = "0x62230A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60008DE")]
-	[Address(RVA = "0x19FFAE0", Offset = "0x19FE0E0", VA = "0x1819FFAE0")]
+	[Token(Token = "0x600071E")]
+	[Address(RVA = "0x6222FE0", Offset = "0x6221FE0", VA = "0x6222FE0")]
 	internal EventHandlerList(Component parent)
 	{
 	}
 
-	[Token(Token = "0x60008DF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600071F")]
+	[Address(RVA = "0x6223010", Offset = "0x6222010", VA = "0x6223010")]
 	public EventHandlerList()
 	{
 	}
 
-	[Token(Token = "0x60008E2")]
-	[Address(RVA = "0x287DA60", Offset = "0x287C060", VA = "0x18287DA60")]
+	[Token(Token = "0x6000722")]
+	[Address(RVA = "0x62231D0", Offset = "0x62221D0", VA = "0x62231D0")]
 	public void AddHandler(object key, Delegate value)
 	{
 	}
 
-	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x287DB40", Offset = "0x287C140", VA = "0x18287DB40")]
+	[Token(Token = "0x6000723")]
+	[Address(RVA = "0x62232B0", Offset = "0x62222B0", VA = "0x62232B0")]
 	public void AddHandlers(EventHandlerList listToAddFrom)
 	{
 	}
 
-	[Token(Token = "0x60008E4")]
-	[Address(RVA = "0x1A5E5A0", Offset = "0x1A5CBA0", VA = "0x181A5E5A0", Slot = "4")]
+	[Token(Token = "0x6000724")]
+	[Address(RVA = "0x6223300", Offset = "0x6222300", VA = "0x6223300", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60008E5")]
-	[Address(RVA = "0x287DC80", Offset = "0x287C280", VA = "0x18287DC80")]
+	[Token(Token = "0x6000725")]
+	[Address(RVA = "0x6223070", Offset = "0x6222070", VA = "0x6223070")]
 	private ListEntry Find(object key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x287DCA0", Offset = "0x287C2A0", VA = "0x18287DCA0")]
+	[Token(Token = "0x6000726")]
+	[Address(RVA = "0x6223320", Offset = "0x6222320", VA = "0x6223320")]
 	public void RemoveHandler(object key, Delegate value)
 	{
 	}

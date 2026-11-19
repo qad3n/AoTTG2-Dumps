@@ -1,0 +1,322 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.TypeUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Text;
+using Il2CppDummyDll;
+using UnityEngine.Pool;
+using UnityEngine.Scripting;
+
+namespace Unity.Properties;
+
+[Token(Token = "0x2000067")]
+public static class TypeUtility
+{
+	[Token(Token = "0x2000068")]
+	private interface ITypeConstructor
+	{
+		[Token(Token = "0x17000040")]
+		bool CanBeInstantiated
+		{
+			[Token(Token = "0x6000195")]
+			get;
+		}
+
+		[Token(Token = "0x6000196")]
+		object Instantiate();
+	}
+
+	[Token(Token = "0x2000069")]
+	private interface ITypeConstructor<T> : ITypeConstructor
+	{
+		[Token(Token = "0x6000197")]
+		new T Instantiate();
+
+		[Token(Token = "0x6000198")]
+		void SetExplicitConstructor(Func<T> constructor);
+	}
+
+	[Token(Token = "0x200006A")]
+	private class TypeConstructor<T> : ITypeConstructor<T>, ITypeConstructor
+	{
+		[Token(Token = "0x4000091")]
+		[FieldOffset(Offset = "0x0")]
+		private Func<T> m_ExplicitConstructor;
+
+		[Token(Token = "0x4000092")]
+		[FieldOffset(Offset = "0x0")]
+		private Func<T> m_ImplicitConstructor;
+
+		[Token(Token = "0x4000093")]
+		[FieldOffset(Offset = "0x0")]
+		private IConstructor<T> m_OverrideConstructor;
+
+		[Token(Token = "0x17000041")]
+		private bool Unity_002EProperties_002ETypeUtility_002EITypeConstructor_002ECanBeInstantiated
+		{
+			[Token(Token = "0x6000199")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x600019A")]
+		public TypeConstructor()
+		{
+		}
+
+		[Token(Token = "0x600019B")]
+		private void SetImplicitConstructor()
+		{
+		}
+
+		[Token(Token = "0x600019C")]
+		private static T CreateValueTypeInstance()
+		{
+			return (T)null;
+		}
+
+		[Token(Token = "0x600019D")]
+		private static T CreateScriptableObjectInstance()
+		{
+			return (T)null;
+		}
+
+		[Token(Token = "0x600019E")]
+		private static T CreateClassInstance()
+		{
+			return (T)null;
+		}
+
+		[Token(Token = "0x600019F")]
+		public void SetExplicitConstructor(Func<T> constructor)
+		{
+		}
+
+		[Token(Token = "0x60001A0")]
+		private T Unity_002EProperties_002ETypeUtility_002EITypeConstructor_003CT_003E_002EInstantiate()
+		{
+			return (T)null;
+		}
+
+		[Token(Token = "0x60001A1")]
+		private object Unity_002EProperties_002ETypeUtility_002EITypeConstructor_002EInstantiate()
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x200006B")]
+	private class NonConstructable : ITypeConstructor
+	{
+		[Token(Token = "0x17000042")]
+		private bool Unity_002EProperties_002ETypeUtility_002EITypeConstructor_002ECanBeInstantiated
+		{
+			[Token(Token = "0x60001A2")]
+			[Address(RVA = "0x69EC3F0", Offset = "0x69EB3F0", VA = "0x69EC3F0", Slot = "4")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x60001A3")]
+		[Address(RVA = "0x69EC400", Offset = "0x69EB400", VA = "0x69EC400", Slot = "5")]
+		public object Instantiate()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x60001A4")]
+		[Address(RVA = "0x69EBFB0", Offset = "0x69EAFB0", VA = "0x69EBFB0")]
+		public NonConstructable()
+		{
+		}
+	}
+
+	[Token(Token = "0x200006C")]
+	private struct Cache<T>
+	{
+		[Token(Token = "0x4000094")]
+		[FieldOffset(Offset = "0x0")]
+		public static ITypeConstructor<T> TypeConstructor;
+	}
+
+	[Token(Token = "0x200006D")]
+	private class TypeConstructorVisitor : ITypeVisitor
+	{
+		[Token(Token = "0x4000095")]
+		[FieldOffset(Offset = "0x10")]
+		public ITypeConstructor TypeConstructor;
+
+		[Token(Token = "0x60001A5")]
+		public void Visit<TContainer>()
+		{
+		}
+
+		[Token(Token = "0x60001A6")]
+		[Address(RVA = "0x69EBFA0", Offset = "0x69EAFA0", VA = "0x69EBFA0")]
+		public TypeConstructorVisitor()
+		{
+		}
+	}
+
+	[Token(Token = "0x400008C")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly ConcurrentDictionary<Type, ITypeConstructor> s_TypeConstructors;
+
+	[Token(Token = "0x400008D")]
+	[FieldOffset(Offset = "0x8")]
+	private static readonly MethodInfo s_CreateTypeConstructor;
+
+	[Token(Token = "0x400008E")]
+	[FieldOffset(Offset = "0x10")]
+	private static readonly ConcurrentDictionary<Type, string> s_CachedResolvedName;
+
+	[Token(Token = "0x400008F")]
+	[FieldOffset(Offset = "0x18")]
+	private static readonly ObjectPool<StringBuilder> s_Builders;
+
+	[Token(Token = "0x4000090")]
+	[FieldOffset(Offset = "0x20")]
+	private static readonly object syncedPoolObject;
+
+	[Token(Token = "0x6000180")]
+	[Address(RVA = "0x69EADF0", Offset = "0x69E9DF0", VA = "0x69EADF0")]
+	static TypeUtility()
+	{
+	}
+
+	[Token(Token = "0x6000181")]
+	[Address(RVA = "0x69EB240", Offset = "0x69EA240", VA = "0x69EB240")]
+	public static string GetTypeDisplayName(Type type)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000182")]
+	[Address(RVA = "0x69EB360", Offset = "0x69EA360", VA = "0x69EB360")]
+	private static string GetTypeDisplayName(Type type, IReadOnlyList<Type> args, ref int argIndex)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000183")]
+	[Address(RVA = "0x69EBBD0", Offset = "0x69EABD0", VA = "0x69EBBD0")]
+	public static Type GetRootType(this Type type)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000184")]
+	[Address(RVA = "0x69EBCD0", Offset = "0x69EACD0", VA = "0x69EBCD0")]
+	[Preserve]
+	private static ITypeConstructor CreateTypeConstructor(Type type)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000185")]
+	private static ITypeConstructor<T> CreateTypeConstructor<T>()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000186")]
+	[Address(RVA = "0x69EBFC0", Offset = "0x69EAFC0", VA = "0x69EBFC0")]
+	private static ITypeConstructor GetTypeConstructor(Type type)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000187")]
+	private static ITypeConstructor<T> GetTypeConstructor<T>()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000188")]
+	[Address(RVA = "0x69EC070", Offset = "0x69EB070", VA = "0x69EC070")]
+	public static bool CanBeInstantiated(Type type)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000189")]
+	public static bool CanBeInstantiated<T>()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600018A")]
+	public static void SetExplicitInstantiationMethod<T>(Func<T> constructor)
+	{
+	}
+
+	[Token(Token = "0x600018B")]
+	public static T Instantiate<T>()
+	{
+		return (T)null;
+	}
+
+	[Token(Token = "0x600018C")]
+	public static bool TryInstantiate<T>(out T instance)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600018D")]
+	public static T Instantiate<T>(Type derivedType)
+	{
+		return (T)null;
+	}
+
+	[Token(Token = "0x600018E")]
+	public static bool TryInstantiate<T>(Type derivedType, out T value)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600018F")]
+	public static TArray InstantiateArray<TArray>(int count = 0)
+	{
+		return (TArray)null;
+	}
+
+	[Token(Token = "0x6000190")]
+	public static bool TryInstantiateArray<TArray>(int count, out TArray instance)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000191")]
+	public static TArray InstantiateArray<TArray>(Type derivedType, int count = 0)
+	{
+		return (TArray)null;
+	}
+
+	[Token(Token = "0x6000192")]
+	[Address(RVA = "0x69EC160", Offset = "0x69EB160", VA = "0x69EC160")]
+	private static void CheckIsAssignableFrom(Type type, Type derivedType)
+	{
+	}
+
+	[Token(Token = "0x6000193")]
+	private static void CheckCanBeInstantiated<T>(ITypeConstructor<T> constructor)
+	{
+	}
+
+	[Token(Token = "0x6000194")]
+	[Address(RVA = "0x69EC2B0", Offset = "0x69EB2B0", VA = "0x69EC2B0")]
+	private static void CheckCanBeInstantiated(ITypeConstructor constructor, Type type)
+	{
+	}
+}

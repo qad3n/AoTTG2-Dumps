@@ -11,42 +11,42 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x2000068")]
+[Token(Token = "0x200006E")]
 public sealed class GisketchThemeDefinition
 {
-	[Token(Token = "0x4000245")]
+	[Token(Token = "0x4000269")]
 	[FieldOffset(Offset = "0x10")]
 	public string name;
 
-	[Token(Token = "0x4000246")]
+	[Token(Token = "0x400026A")]
 	[FieldOffset(Offset = "0x18")]
 	public string mode;
 
-	[Token(Token = "0x4000247")]
+	[Token(Token = "0x400026B")]
 	[FieldOffset(Offset = "0x20")]
 	public GisketchColorToken[] colors;
 
-	[Token(Token = "0x4000248")]
+	[Token(Token = "0x400026C")]
 	[FieldOffset(Offset = "0x28")]
 	public GisketchThemePalette[] palettes;
 
-	[Token(Token = "0x4000249")]
+	[Token(Token = "0x400026D")]
 	[FieldOffset(Offset = "0x30")]
 	public GisketchStyleDefinition[] styles;
 
-	[Token(Token = "0x400024A")]
+	[Token(Token = "0x400026E")]
 	[FieldOffset(Offset = "0x38")]
 	public GisketchMotionToken[] motions;
 
-	[Token(Token = "0x600032B")]
-	[Address(RVA = "0x18D20D0", Offset = "0x18D06D0", VA = "0x1818D20D0")]
+	[Token(Token = "0x6000376")]
+	[Address(RVA = "0x5261150", Offset = "0x5260150", VA = "0x5261150")]
 	public static GisketchThemeDefinition FromJson(string json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600032C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000377")]
+	[Address(RVA = "0x5261200", Offset = "0x5260200", VA = "0x5261200")]
 	public GisketchThemeDefinition()
 	{
 	}

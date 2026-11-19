@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000169")]
+[Token(Token = "0x200016A")]
 internal enum LabelScopeKind
 {
-	[Token(Token = "0x4000307")]
+	[Token(Token = "0x4000310")]
 	Statement,
-	[Token(Token = "0x4000308")]
+	[Token(Token = "0x4000311")]
 	Block,
-	[Token(Token = "0x4000309")]
+	[Token(Token = "0x4000312")]
 	Switch,
-	[Token(Token = "0x400030A")]
+	[Token(Token = "0x4000313")]
 	Lambda,
-	[Token(Token = "0x400030B")]
+	[Token(Token = "0x4000314")]
 	Try,
-	[Token(Token = "0x400030C")]
+	[Token(Token = "0x4000315")]
 	Catch,
-	[Token(Token = "0x400030D")]
+	[Token(Token = "0x4000316")]
 	Finally,
-	[Token(Token = "0x400030E")]
+	[Token(Token = "0x4000317")]
 	Filter,
-	[Token(Token = "0x400030F")]
+	[Token(Token = "0x4000318")]
 	Expression
 }

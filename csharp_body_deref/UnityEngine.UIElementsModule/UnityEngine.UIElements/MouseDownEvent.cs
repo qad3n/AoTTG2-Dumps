@@ -14,45 +14,45 @@ namespace UnityEngine.UIElements;
 public class MouseDownEvent : MouseEventBase<MouseDownEvent>
 {
 	[Token(Token = "0x6000D5E")]
-	[Address(RVA = "0x3267900", Offset = "0x3265F00", VA = "0x183267900")]
+	[Address(RVA = "0x6C681B0", Offset = "0x6C671B0", VA = "0x6C681B0")]
 	static MouseDownEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D5F")]
-	[Address(RVA = "0x3267800", Offset = "0x3265E00", VA = "0x183267800", Slot = "13")]
+	[Address(RVA = "0x6C68280", Offset = "0x6C67280", VA = "0x6C68280", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D60")]
-	[Address(RVA = "0x3267870", Offset = "0x3265E70", VA = "0x183267870")]
+	[Address(RVA = "0x6C682E0", Offset = "0x6C672E0", VA = "0x6C682E0")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D61")]
-	[Address(RVA = "0x32679E0", Offset = "0x3265FE0", VA = "0x1832679E0")]
+	[Address(RVA = "0x6C68310", Offset = "0x6C67310", VA = "0x6C68310")]
 	public MouseDownEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x32678C0", Offset = "0x3265EC0", VA = "0x1832678C0")]
+	[Address(RVA = "0x6C68370", Offset = "0x6C67370", VA = "0x6C68370")]
 	private static MouseDownEvent MakeFromPointerEvent(IPointerEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D63")]
-	[Address(RVA = "0x3267720", Offset = "0x3265D20", VA = "0x183267720")]
+	[Address(RVA = "0x6C683B0", Offset = "0x6C673B0", VA = "0x6C683B0")]
 	internal static MouseDownEvent GetPooled(PointerDownEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D64")]
-	[Address(RVA = "0x3267790", Offset = "0x3265D90", VA = "0x183267790")]
+	[Address(RVA = "0x6C68440", Offset = "0x6C67440", VA = "0x6C68440")]
 	internal static MouseDownEvent GetPooled(PointerMoveEvent pointerEvent)
 	{
 		return null;

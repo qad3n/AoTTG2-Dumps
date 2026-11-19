@@ -15,7 +15,7 @@ namespace UnityEngine.UIElements;
 internal static class StyleValueKeywordExtension
 {
 	[Token(Token = "0x6002316")]
-	[Address(RVA = "0x312D070", Offset = "0x312B670", VA = "0x18312D070")]
+	[Address(RVA = "0x6B27020", Offset = "0x6B26020", VA = "0x6B27020")]
 	public static string ToUssString(this StyleValueKeyword svk)
 	{
 		return null;

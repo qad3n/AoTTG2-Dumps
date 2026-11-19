@@ -13,31 +13,31 @@ namespace UnityEngine.UIElements;
 public sealed class ClickEvent : PointerEventBase<ClickEvent>
 {
 	[Token(Token = "0x6000EC9")]
-	[Address(RVA = "0x3256AE0", Offset = "0x32550E0", VA = "0x183256AE0")]
+	[Address(RVA = "0x6C70650", Offset = "0x6C6F650", VA = "0x6C70650")]
 	static ClickEvent()
 	{
 	}
 
 	[Token(Token = "0x6000ECA")]
-	[Address(RVA = "0x3256A80", Offset = "0x3255080", VA = "0x183256A80", Slot = "13")]
+	[Address(RVA = "0x6C70720", Offset = "0x6C6F720", VA = "0x6C70720", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x3256AD0", Offset = "0x32550D0", VA = "0x183256AD0")]
+	[Address(RVA = "0x6C70760", Offset = "0x6C6F760", VA = "0x6C70760")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000ECC")]
-	[Address(RVA = "0x3256BC0", Offset = "0x32551C0", VA = "0x183256BC0")]
+	[Address(RVA = "0x6C70770", Offset = "0x6C6F770", VA = "0x6C70770")]
 	public ClickEvent()
 	{
 	}
 
 	[Token(Token = "0x6000ECD")]
-	[Address(RVA = "0x3256A10", Offset = "0x3255010", VA = "0x183256A10")]
+	[Address(RVA = "0x6C707B0", Offset = "0x6C6F7B0", VA = "0x6C707B0")]
 	internal static ClickEvent GetPooled(IPointerEvent pointerEvent, int clickCount)
 	{
 		return null;

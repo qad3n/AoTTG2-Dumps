@@ -18,27 +18,27 @@ public sealed class VariableDeclarationsCloner : Cloner<VariableDeclarations>
 	public static readonly VariableDeclarationsCloner instance;
 
 	[Token(Token = "0x6001142")]
-	[Address(RVA = "0x2E5AE10", Offset = "0x2E59410", VA = "0x182E5AE10", Slot = "9")]
+	[Address(RVA = "0x6850FE0", Offset = "0x684FFE0", VA = "0x6850FE0", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001143")]
-	[Address(RVA = "0x2E5ABA0", Offset = "0x2E591A0", VA = "0x182E5ABA0", Slot = "11")]
+	[Address(RVA = "0x6851050", Offset = "0x6850050", VA = "0x6851050", Slot = "11")]
 	public override VariableDeclarations ConstructClone(Type type, VariableDeclarations original)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001144")]
-	[Address(RVA = "0x2E5ABF0", Offset = "0x2E591F0", VA = "0x182E5ABF0", Slot = "12")]
+	[Address(RVA = "0x6851110", Offset = "0x6850110", VA = "0x6851110", Slot = "12")]
 	public override void FillClone(Type type, ref VariableDeclarations clone, VariableDeclarations original, CloningContext context)
 	{
 	}
 
 	[Token(Token = "0x6001145")]
-	[Address(RVA = "0x2E5AF10", Offset = "0x2E59510", VA = "0x182E5AF10")]
+	[Address(RVA = "0x6851400", Offset = "0x6850400", VA = "0x6851400")]
 	public VariableDeclarationsCloner()
 	{
 	}

@@ -11,39 +11,28 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005DD")]
+[Token(Token = "0x20005B8")]
 [Obsolete("Please use StringComparer instead.")]
 public class CaseInsensitiveHashCodeProvider : IHashCodeProvider
 {
-	[Token(Token = "0x400187F")]
+	[Token(Token = "0x40017E6")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly CompareInfo _compareInfo;
 
-	[Token(Token = "0x170006CE")]
-	public static CaseInsensitiveHashCodeProvider Default
-	{
-		[Token(Token = "0x6002C17")]
-		[Address(RVA = "0x1AB81C0", Offset = "0x1AB67C0", VA = "0x181AB81C0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x6002C15")]
-	[Address(RVA = "0x1AB8090", Offset = "0x1AB6690", VA = "0x181AB8090")]
+	[Token(Token = "0x6002BF3")]
+	[Address(RVA = "0x5452250", Offset = "0x5451250", VA = "0x5452250")]
 	public CaseInsensitiveHashCodeProvider()
 	{
 	}
 
-	[Token(Token = "0x6002C16")]
-	[Address(RVA = "0x1AB8120", Offset = "0x1AB6720", VA = "0x181AB8120")]
+	[Token(Token = "0x6002BF4")]
+	[Address(RVA = "0x54522E0", Offset = "0x54512E0", VA = "0x54522E0")]
 	public CaseInsensitiveHashCodeProvider(CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6002C18")]
-	[Address(RVA = "0x1AB7FD0", Offset = "0x1AB65D0", VA = "0x181AB7FD0", Slot = "4")]
+	[Token(Token = "0x6002BF5")]
+	[Address(RVA = "0x5452370", Offset = "0x5451370", VA = "0x5452370", Slot = "4")]
 	public int GetHashCode(object obj)
 	{
 		return default(int);

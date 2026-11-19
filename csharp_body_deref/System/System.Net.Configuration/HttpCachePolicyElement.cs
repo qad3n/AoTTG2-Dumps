@@ -12,98 +12,98 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003ED")]
+[Token(Token = "0x20003A9")]
 public sealed class HttpCachePolicyElement : ConfigurationElement
 {
-	[Token(Token = "0x170005A0")]
+	[Token(Token = "0x17000572")]
 	public TimeSpan MaximumAge
 	{
-		[Token(Token = "0x6001A44")]
-		[Address(RVA = "0x282AC90", Offset = "0x2829290", VA = "0x18282AC90")]
+		[Token(Token = "0x600188A")]
+		[Address(RVA = "0x61D0350", Offset = "0x61CF350", VA = "0x61D0350")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001A45")]
-		[Address(RVA = "0x282AD80", Offset = "0x2829380", VA = "0x18282AD80")]
+		[Token(Token = "0x600188B")]
+		[Address(RVA = "0x61D0380", Offset = "0x61CF380", VA = "0x61D0380")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005A1")]
+	[Token(Token = "0x17000573")]
 	public TimeSpan MaximumStale
 	{
-		[Token(Token = "0x6001A46")]
-		[Address(RVA = "0x282ACC0", Offset = "0x28292C0", VA = "0x18282ACC0")]
+		[Token(Token = "0x600188C")]
+		[Address(RVA = "0x61D03B0", Offset = "0x61CF3B0", VA = "0x61D03B0")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001A47")]
-		[Address(RVA = "0x282ADB0", Offset = "0x28293B0", VA = "0x18282ADB0")]
+		[Token(Token = "0x600188D")]
+		[Address(RVA = "0x61D03E0", Offset = "0x61CF3E0", VA = "0x61D03E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005A2")]
+	[Token(Token = "0x17000574")]
 	public TimeSpan MinimumFresh
 	{
-		[Token(Token = "0x6001A48")]
-		[Address(RVA = "0x282ACF0", Offset = "0x28292F0", VA = "0x18282ACF0")]
+		[Token(Token = "0x600188E")]
+		[Address(RVA = "0x61D0410", Offset = "0x61CF410", VA = "0x61D0410")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001A49")]
-		[Address(RVA = "0x282ADE0", Offset = "0x28293E0", VA = "0x18282ADE0")]
+		[Token(Token = "0x600188F")]
+		[Address(RVA = "0x61D0440", Offset = "0x61CF440", VA = "0x61D0440")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005A3")]
+	[Token(Token = "0x17000575")]
 	public HttpRequestCacheLevel PolicyLevel
 	{
-		[Token(Token = "0x6001A4A")]
-		[Address(RVA = "0x282AD20", Offset = "0x2829320", VA = "0x18282AD20")]
+		[Token(Token = "0x6001890")]
+		[Address(RVA = "0x61D0470", Offset = "0x61CF470", VA = "0x61D0470")]
 		get
 		{
 			return default(HttpRequestCacheLevel);
 		}
-		[Token(Token = "0x6001A4B")]
-		[Address(RVA = "0x282AE10", Offset = "0x2829410", VA = "0x18282AE10")]
+		[Token(Token = "0x6001891")]
+		[Address(RVA = "0x61D04A0", Offset = "0x61CF4A0", VA = "0x61D04A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005A4")]
+	[Token(Token = "0x17000576")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A4C")]
-		[Address(RVA = "0x282AD50", Offset = "0x2829350", VA = "0x18282AD50", Slot = "4")]
+		[Token(Token = "0x6001892")]
+		[Address(RVA = "0x61D04D0", Offset = "0x61CF4D0", VA = "0x61D04D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001A43")]
-	[Address(RVA = "0x282AC60", Offset = "0x2829260", VA = "0x18282AC60")]
+	[Token(Token = "0x6001889")]
+	[Address(RVA = "0x61D0320", Offset = "0x61CF320", VA = "0x61D0320")]
 	public HttpCachePolicyElement()
 	{
 	}
 
-	[Token(Token = "0x6001A4D")]
-	[Address(RVA = "0x282AC00", Offset = "0x2829200", VA = "0x18282AC00", Slot = "5")]
+	[Token(Token = "0x6001893")]
+	[Address(RVA = "0x61D0500", Offset = "0x61CF500", VA = "0x61D0500", Slot = "5")]
 	protected override void DeserializeElement(XmlReader reader, bool serializeCollectionKey)
 	{
 	}
 
-	[Token(Token = "0x6001A4E")]
-	[Address(RVA = "0x282AC30", Offset = "0x2829230", VA = "0x18282AC30", Slot = "9")]
+	[Token(Token = "0x6001894")]
+	[Address(RVA = "0x61D0530", Offset = "0x61CF530", VA = "0x61D0530", Slot = "9")]
 	protected override void Reset(ConfigurationElement parentElement)
 	{
 	}

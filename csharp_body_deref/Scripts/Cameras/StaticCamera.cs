@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Cameras;
 
-[Token(Token = "0x2000890")]
+[Token(Token = "0x20008F6")]
 internal class StaticCamera : BaseCamera
 {
-	[Token(Token = "0x600520A")]
-	[Address(RVA = "0x22FDE90", Offset = "0x22FC490", VA = "0x1822FDE90", Slot = "4")]
+	[Token(Token = "0x6005546")]
+	[Address(RVA = "0x5CD93D0", Offset = "0x5CD83D0", VA = "0x5CD93D0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x600520B")]
-	[Address(RVA = "0x22FDED0", Offset = "0x22FC4D0", VA = "0x1822FDED0")]
+	[Token(Token = "0x6005547")]
+	[Address(RVA = "0x5CD9400", Offset = "0x5CD8400", VA = "0x5CD9400")]
 	public void SetSkybox(bool skybox)
 	{
 	}
 
-	[Token(Token = "0x600520C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6005548")]
+	[Address(RVA = "0x5CD9430", Offset = "0x5CD8430", VA = "0x5CD9430")]
 	public StaticCamera()
 	{
 	}

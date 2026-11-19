@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DocumentationInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ public class DocumentationInfo
 		public Location Location
 		{
 			[Token(Token = "0x6000863")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Address(RVA = "0x64FB650", Offset = "0x64FA650", VA = "0x64FB650")]
 			[CompilerGenerated]
 			get
 			{
@@ -42,7 +42,7 @@ public class DocumentationInfo
 		}
 
 		[Token(Token = "0x6000864")]
-		[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+		[Address(RVA = "0x64FB660", Offset = "0x64FA660", VA = "0x64FB660")]
 		public SourceAttribute(Location location)
 		{
 		}
@@ -67,7 +67,7 @@ public class DocumentationInfo
 	public static string version
 	{
 		[Token(Token = "0x600085A")]
-		[Address(RVA = "0x2B0BD80", Offset = "0x2B0A380", VA = "0x182B0BD80")]
+		[Address(RVA = "0x64FAFF0", Offset = "0x64F9FF0", VA = "0x64FAFF0")]
 		get
 		{
 			return null;
@@ -75,56 +75,56 @@ public class DocumentationInfo
 	}
 
 	[Token(Token = "0x600085B")]
-	[Address(RVA = "0x2B0B5E0", Offset = "0x2B09BE0", VA = "0x182B0B5E0")]
+	[Address(RVA = "0x64FB020", Offset = "0x64FA020", VA = "0x64FB020")]
 	public static string GetPackageLink(string packageName, string packageVersion, string pageName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600085C")]
-	[Address(RVA = "0x2B0B790", Offset = "0x2B09D90", VA = "0x182B0B790")]
+	[Address(RVA = "0x64FB1A0", Offset = "0x64FA1A0", VA = "0x64FB1A0")]
 	public static string GetPackageLink(string packageName, string packageVersion, string pageName, string pageHash)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600085D")]
-	[Address(RVA = "0x2B0BBA0", Offset = "0x2B0A1A0", VA = "0x182B0BBA0")]
+	[Address(RVA = "0x64FB360", Offset = "0x64FA360", VA = "0x64FB360")]
 	public static string GetPageLink(string packageName, string pageName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600085E")]
-	[Address(RVA = "0x2B0B980", Offset = "0x2B09F80", VA = "0x182B0B980")]
+	[Address(RVA = "0x64FACC0", Offset = "0x64F9CC0", VA = "0x64FACC0")]
 	public static string GetPageLink(string packageName, string pageName, string pageHash)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600085F")]
-	[Address(RVA = "0x2B0B4F0", Offset = "0x2B09AF0", VA = "0x182B0B4F0")]
+	[Address(RVA = "0x64FB500", Offset = "0x64FA500", VA = "0x64FB500")]
 	public static string GetDefaultPackageLink(string packageName, string packageVersion)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000860")]
-	[Address(RVA = "0x2B0B490", Offset = "0x2B09A90", VA = "0x182B0B490")]
+	[Address(RVA = "0x64FB550", Offset = "0x64FA550", VA = "0x64FB550")]
 	public static string GetDefaultPackageLink(string packageName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x2B0B540", Offset = "0x2B09B40", VA = "0x182B0B540")]
+	[Address(RVA = "0x64FB5B0", Offset = "0x64FA5B0", VA = "0x64FB5B0")]
 	public static string GetManualLink(string pageName, string pageHash = "")
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64FB640", Offset = "0x64FA640", VA = "0x64FB640")]
 	public DocumentationInfo()
 	{
 	}

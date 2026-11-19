@@ -12,8 +12,8 @@ namespace UnityEngine;
 
 [Token(Token = "0x200000C")]
 [RequireComponent(typeof(Rigidbody))]
-[UnityEngine.NativeClass("Unity::ConfigurableJoint")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/ConfigurableJoint.h")]
+[UnityEngine.NativeClass("Unity::ConfigurableJoint")]
 public class ConfigurableJoint : Joint
 {
 }

@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200011C")]
+[Token(Token = "0x2000120")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/LightProbeGroup.h")]
 public sealed class LightProbeGroup : Behaviour
 {

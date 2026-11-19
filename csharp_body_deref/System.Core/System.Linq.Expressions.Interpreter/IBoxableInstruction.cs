@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001A1")]
+[Token(Token = "0x20001A2")]
 internal interface IBoxableInstruction
 {
-	[Token(Token = "0x6000949")]
+	[Token(Token = "0x6000954")]
 	Instruction BoxIfIndexMatches(int index);
 }

@@ -24,7 +24,7 @@ public abstract class StructWrapper : IDisposable
 	public readonly Type ttype;
 
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x1CF8770", Offset = "0x1CF6D70", VA = "0x181CF8770")]
+	[Address(RVA = "0x5689530", Offset = "0x5688530", VA = "0x5689530")]
 	public StructWrapper(Type ttype, WrappedType wrappedType)
 	{
 	}
@@ -42,140 +42,140 @@ public abstract class StructWrapper : IDisposable
 	public abstract string ToString(bool writeType);
 
 	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x1CF8A30", Offset = "0x1CF7030", VA = "0x181CF8A30")]
+	[Address(RVA = "0x5689560", Offset = "0x5688560", VA = "0x5689560")]
 	public static implicit operator StructWrapper(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x1CF8D70", Offset = "0x1CF7370", VA = "0x181CF8D70")]
+	[Address(RVA = "0x5689570", Offset = "0x5688570", VA = "0x5689570")]
 	public static implicit operator StructWrapper(byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x1CF89F0", Offset = "0x1CF6FF0", VA = "0x181CF89F0")]
+	[Address(RVA = "0x5689580", Offset = "0x5688580", VA = "0x5689580")]
 	public static implicit operator StructWrapper(float value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x1CF8CF0", Offset = "0x1CF72F0", VA = "0x181CF8CF0")]
+	[Address(RVA = "0x56895C0", Offset = "0x56885C0", VA = "0x56895C0")]
 	public static implicit operator StructWrapper(double value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x1CF8D80", Offset = "0x1CF7380", VA = "0x181CF8D80")]
+	[Address(RVA = "0x5689600", Offset = "0x5688600", VA = "0x5689600")]
 	public static implicit operator StructWrapper(short value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000399")]
-	[Address(RVA = "0x1CF8D30", Offset = "0x1CF7330", VA = "0x181CF8D30")]
+	[Address(RVA = "0x5689640", Offset = "0x5688640", VA = "0x5689640")]
 	public static implicit operator StructWrapper(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x1CF8F00", Offset = "0x1CF7500", VA = "0x181CF8F00")]
+	[Address(RVA = "0x5689680", Offset = "0x5688680", VA = "0x5689680")]
 	public static implicit operator StructWrapper(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x1CF8E60", Offset = "0x1CF7460", VA = "0x181CF8E60")]
+	[Address(RVA = "0x56896C0", Offset = "0x56886C0", VA = "0x56896C0")]
 	public static implicit operator bool(StructWrapper wrapper)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x1CF8950", Offset = "0x1CF6F50", VA = "0x181CF8950")]
+	[Address(RVA = "0x5689740", Offset = "0x5688740", VA = "0x5689740")]
 	public static implicit operator byte(StructWrapper wrapper)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x1CF8AE0", Offset = "0x1CF70E0", VA = "0x181CF8AE0")]
+	[Address(RVA = "0x56897C0", Offset = "0x56887C0", VA = "0x56897C0")]
 	public static implicit operator float(StructWrapper wrapper)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x1CF87C0", Offset = "0x1CF6DC0", VA = "0x181CF87C0")]
+	[Address(RVA = "0x5689840", Offset = "0x5688840", VA = "0x5689840")]
 	public static implicit operator double(StructWrapper wrapper)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x1CF8DC0", Offset = "0x1CF73C0", VA = "0x181CF8DC0")]
+	[Address(RVA = "0x56898C0", Offset = "0x56888C0", VA = "0x56898C0")]
 	public static implicit operator short(StructWrapper wrapper)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x1CF9000", Offset = "0x1CF7600", VA = "0x181CF9000")]
+	[Address(RVA = "0x5689940", Offset = "0x5688940", VA = "0x5689940")]
 	public static implicit operator int(StructWrapper wrapper)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x1CF8A40", Offset = "0x1CF7040", VA = "0x181CF8A40")]
+	[Address(RVA = "0x56899C0", Offset = "0x56889C0", VA = "0x56899C0")]
 	public static implicit operator long(StructWrapper wrapper)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x1CF8CA0", Offset = "0x1CF72A0", VA = "0x181CF8CA0")]
+	[Address(RVA = "0x5689A40", Offset = "0x5688A40", VA = "0x5689A40")]
 	public static implicit operator StructWrapper(Vector2 value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x1CF8900", Offset = "0x1CF6F00", VA = "0x181CF8900")]
+	[Address(RVA = "0x5689A80", Offset = "0x5688A80", VA = "0x5689A80")]
 	public static implicit operator StructWrapper(Vector3 value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x1CF8B80", Offset = "0x1CF7180", VA = "0x181CF8B80")]
+	[Address(RVA = "0x5689AD0", Offset = "0x5688AD0", VA = "0x5689AD0")]
 	public static implicit operator StructWrapper(Quaternion value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x1CF8860", Offset = "0x1CF6E60", VA = "0x181CF8860")]
+	[Address(RVA = "0x5689B20", Offset = "0x5688B20", VA = "0x5689B20")]
 	public static implicit operator Vector2(StructWrapper wrapper)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x1CF8BD0", Offset = "0x1CF71D0", VA = "0x181CF8BD0")]
+	[Address(RVA = "0x5689BA0", Offset = "0x5688BA0", VA = "0x5689BA0")]
 	public static implicit operator Vector3(StructWrapper wrapper)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x1CF8F40", Offset = "0x1CF7540", VA = "0x181CF8F40")]
+	[Address(RVA = "0x5689C20", Offset = "0x5688C20", VA = "0x5689C20")]
 	public static implicit operator Quaternion(StructWrapper wrapper)
 	{
 		return default(Quaternion);

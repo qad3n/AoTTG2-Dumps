@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ConverterGroup
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,20 +18,20 @@ public class ConverterGroup
 {
 	[Token(Token = "0x4000061")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly string _003Cid_003Ek__BackingField;
 
 	[Token(Token = "0x4000062")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly string _003CdisplayName_003Ek__BackingField;
 
 	[Token(Token = "0x4000063")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly string _003Cdescription_003Ek__BackingField;
 
 	[Token(Token = "0x4000064")]
@@ -42,7 +42,7 @@ public class ConverterGroup
 	internal Unity.Properties.ConversionRegistry registry
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x6A80290", Offset = "0x6A7F290", VA = "0x6A80290")]
 		get
 		{
 			return default(Unity.Properties.ConversionRegistry);
@@ -53,7 +53,7 @@ public class ConverterGroup
 	internal unsafe ref Unity.Properties.ConversionRegistry registerRef
 	{
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x308AF00", Offset = "0x3089500", VA = "0x18308AF00")]
+		[Address(RVA = "0x6A802A0", Offset = "0x6A7F2A0", VA = "0x6A802A0")]
 		get
 		{
 			return ref *(Unity.Properties.ConversionRegistry*)null;
@@ -61,7 +61,7 @@ public class ConverterGroup
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x308AE80", Offset = "0x3089480", VA = "0x18308AE80")]
+	[Address(RVA = "0x6A802B0", Offset = "0x6A7F2B0", VA = "0x6A802B0")]
 	public ConverterGroup(string id, [Optional] string displayName, [Optional] string description)
 	{
 	}

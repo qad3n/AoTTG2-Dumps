@@ -10,178 +10,178 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000C0")]
+[Token(Token = "0x2000097")]
 public static class BitConverter
 {
-	[Token(Token = "0x40002A6")]
+	[Token(Token = "0x40001FD")]
 	[FieldOffset(Offset = "0x0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static readonly bool IsLittleEndian;
 
-	[Token(Token = "0x600045B")]
-	[Address(RVA = "0x1A78F20", Offset = "0x1A77520", VA = "0x181A78F20")]
+	[Token(Token = "0x6000430")]
+	[Address(RVA = "0x541A9C0", Offset = "0x54199C0", VA = "0x541A9C0")]
 	public static byte[] GetBytes(bool value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045C")]
-	[Address(RVA = "0x1A78D40", Offset = "0x1A77340", VA = "0x181A78D40")]
+	[Token(Token = "0x6000431")]
+	[Address(RVA = "0x541AA10", Offset = "0x5419A10", VA = "0x541AA10")]
 	public static byte[] GetBytes(char value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045D")]
-	[Address(RVA = "0x1A78CE0", Offset = "0x1A772E0", VA = "0x181A78CE0")]
+	[Token(Token = "0x6000432")]
+	[Address(RVA = "0x541AA60", Offset = "0x5419A60", VA = "0x541AA60")]
 	public static byte[] GetBytes(short value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045E")]
-	[Address(RVA = "0x1A78FE0", Offset = "0x1A775E0", VA = "0x181A78FE0")]
+	[Token(Token = "0x6000433")]
+	[Address(RVA = "0x541AAB0", Offset = "0x5419AB0", VA = "0x541AAB0")]
 	public static byte[] GetBytes(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x1A78EC0", Offset = "0x1A774C0", VA = "0x181A78EC0")]
+	[Token(Token = "0x6000434")]
+	[Address(RVA = "0x541AB00", Offset = "0x5419B00", VA = "0x541AB00")]
 	public static byte[] GetBytes(long value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x1A78DA0", Offset = "0x1A773A0", VA = "0x181A78DA0")]
+	[Token(Token = "0x6000435")]
+	[Address(RVA = "0x541AB50", Offset = "0x5419B50", VA = "0x541AB50")]
 	[CLSCompliant(false)]
 	public static byte[] GetBytes(ushort value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x1A78E60", Offset = "0x1A77460", VA = "0x181A78E60")]
+	[Token(Token = "0x6000436")]
+	[Address(RVA = "0x541ABA0", Offset = "0x5419BA0", VA = "0x541ABA0")]
 	[CLSCompliant(false)]
 	public static byte[] GetBytes(uint value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x1A79660", Offset = "0x1A77C60", VA = "0x181A79660")]
+	[Token(Token = "0x6000437")]
+	[Address(RVA = "0x541ABF0", Offset = "0x5419BF0", VA = "0x541ABF0")]
 	[CLSCompliant(false)]
 	public static bool TryWriteBytes(Span<byte> destination, uint value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x1A78E00", Offset = "0x1A77400", VA = "0x181A78E00")]
+	[Token(Token = "0x6000438")]
+	[Address(RVA = "0x541AC50", Offset = "0x5419C50", VA = "0x541AC50")]
 	[CLSCompliant(false)]
 	public static byte[] GetBytes(ulong value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x1A78F80", Offset = "0x1A77580", VA = "0x181A78F80")]
+	[Token(Token = "0x6000439")]
+	[Address(RVA = "0x541ACA0", Offset = "0x5419CA0", VA = "0x541ACA0")]
 	public static byte[] GetBytes(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x1A79040", Offset = "0x1A77640", VA = "0x181A79040")]
+	[Token(Token = "0x600043A")]
+	[Address(RVA = "0x541AD00", Offset = "0x5419D00", VA = "0x541AD00")]
 	public static byte[] GetBytes(double value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x1A79150", Offset = "0x1A77750", VA = "0x181A79150")]
+	[Token(Token = "0x600043B")]
+	[Address(RVA = "0x541AD60", Offset = "0x5419D60", VA = "0x541AD60")]
 	public static int ToInt32(byte[] value, int startIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x1A791D0", Offset = "0x1A777D0", VA = "0x181A791D0")]
+	[Token(Token = "0x600043C")]
+	[Address(RVA = "0x541ADE0", Offset = "0x5419DE0", VA = "0x541ADE0")]
 	public static int ToInt32(ReadOnlySpan<byte> value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x1A79240", Offset = "0x1A77840", VA = "0x181A79240")]
+	[Token(Token = "0x600043D")]
+	[Address(RVA = "0x541AE40", Offset = "0x5419E40", VA = "0x541AE40")]
 	public static long ToInt64(byte[] value, int startIndex)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x1A792C0", Offset = "0x1A778C0", VA = "0x181A792C0")]
+	[Token(Token = "0x600043E")]
+	[Address(RVA = "0x541AEC0", Offset = "0x5419EC0", VA = "0x541AEC0")]
 	public static float ToSingle(byte[] value, int startIndex)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x1A790D0", Offset = "0x1A776D0", VA = "0x181A790D0")]
+	[Token(Token = "0x600043F")]
+	[Address(RVA = "0x541AF40", Offset = "0x5419F40", VA = "0x541AF40")]
 	public static double ToDouble(byte[] value, int startIndex)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x1A79370", Offset = "0x1A77970", VA = "0x181A79370")]
+	[Token(Token = "0x6000440")]
+	[Address(RVA = "0x541AFC0", Offset = "0x5419FC0", VA = "0x541AFC0")]
 	public static string ToString(byte[] value, int startIndex, int length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x1A79340", Offset = "0x1A77940", VA = "0x181A79340")]
+	[Token(Token = "0x6000441")]
+	[Address(RVA = "0x541B290", Offset = "0x541A290", VA = "0x541B290")]
 	public static string ToString(byte[] value)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x1A78CD0", Offset = "0x1A772D0", VA = "0x181A78CD0")]
+	[Token(Token = "0x6000442")]
+	[Address(RVA = "0x541B2C0", Offset = "0x541A2C0", VA = "0x541B2C0")]
 	public static long DoubleToInt64Bits(double value)
 	{
 		return default(long);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600046E")]
-	[Address(RVA = "0x1A790B0", Offset = "0x1A776B0", VA = "0x181A790B0")]
+	[Token(Token = "0x6000443")]
+	[Address(RVA = "0x541B2D0", Offset = "0x541A2D0", VA = "0x541B2D0")]
 	public static double Int64BitsToDouble(long value)
 	{
 		return default(double);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x1A790C0", Offset = "0x1A776C0", VA = "0x181A790C0")]
+	[Token(Token = "0x6000444")]
+	[Address(RVA = "0x541B2E0", Offset = "0x541A2E0", VA = "0x541B2E0")]
 	public static int SingleToInt32Bits(float value)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x1A790A0", Offset = "0x1A776A0", VA = "0x181A790A0")]
+	[Token(Token = "0x6000445")]
+	[Address(RVA = "0x541B2F0", Offset = "0x541A2F0", VA = "0x541B2F0")]
 	public static float Int32BitsToSingle(int value)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x1A796E0", Offset = "0x1A77CE0", VA = "0x181A796E0")]
+	[Token(Token = "0x6000446")]
+	[Address(RVA = "0x541B300", Offset = "0x541A300", VA = "0x541B300")]
 	static BitConverter()
 	{
 	}

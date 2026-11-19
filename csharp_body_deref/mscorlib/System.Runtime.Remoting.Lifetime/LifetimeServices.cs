@@ -10,102 +10,102 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x2000395")]
+[Token(Token = "0x200036E")]
 [ComVisible(true)]
 public sealed class LifetimeServices
 {
-	[Token(Token = "0x4000EF9")]
+	[Token(Token = "0x4000E59")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static TimeSpan _leaseManagerPollTime;
 
-	[Token(Token = "0x4000EFA")]
+	[Token(Token = "0x4000E5A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static TimeSpan _leaseTime;
 
-	[Token(Token = "0x4000EFB")]
+	[Token(Token = "0x4000E5B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static TimeSpan _renewOnCallTime;
 
-	[Token(Token = "0x4000EFC")]
+	[Token(Token = "0x4000E5C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private static TimeSpan _sponsorshipTimeout;
 
-	[Token(Token = "0x4000EFD")]
+	[Token(Token = "0x4000E5D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static System.Runtime.Remoting.Lifetime.LeaseManager _leaseManager;
 
-	[Token(Token = "0x17000360")]
+	[Token(Token = "0x1700035F")]
 	public static TimeSpan LeaseManagerPollTime
 	{
-		[Token(Token = "0x6001DA0")]
-		[Address(RVA = "0x19FD030", Offset = "0x19FB630", VA = "0x1819FD030")]
+		[Token(Token = "0x6001D76")]
+		[Address(RVA = "0x5381280", Offset = "0x5380280", VA = "0x5381280")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001DA1")]
-		[Address(RVA = "0x19FD170", Offset = "0x19FB770", VA = "0x1819FD170")]
+		[Token(Token = "0x6001D77")]
+		[Address(RVA = "0x53812F0", Offset = "0x53802F0", VA = "0x53812F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000360")]
+	public static TimeSpan LeaseTime
+	{
+		[Token(Token = "0x6001D78")]
+		[Address(RVA = "0x5381360", Offset = "0x5380360", VA = "0x5381360")]
+		get
+		{
+			return default(TimeSpan);
+		}
+		[Token(Token = "0x6001D79")]
+		[Address(RVA = "0x53813D0", Offset = "0x53803D0", VA = "0x53813D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000361")]
-	public static TimeSpan LeaseTime
+	public static TimeSpan RenewOnCallTime
 	{
-		[Token(Token = "0x6001DA2")]
-		[Address(RVA = "0x19FD080", Offset = "0x19FB680", VA = "0x1819FD080")]
+		[Token(Token = "0x6001D7A")]
+		[Address(RVA = "0x5381430", Offset = "0x5380430", VA = "0x5381430")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001DA3")]
-		[Address(RVA = "0x19FD1F0", Offset = "0x19FB7F0", VA = "0x1819FD1F0")]
+		[Token(Token = "0x6001D7B")]
+		[Address(RVA = "0x53814A0", Offset = "0x53804A0", VA = "0x53814A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000362")]
-	public static TimeSpan RenewOnCallTime
-	{
-		[Token(Token = "0x6001DA4")]
-		[Address(RVA = "0x19FD0D0", Offset = "0x19FB6D0", VA = "0x1819FD0D0")]
-		get
-		{
-			return default(TimeSpan);
-		}
-		[Token(Token = "0x6001DA5")]
-		[Address(RVA = "0x19FD250", Offset = "0x19FB850", VA = "0x1819FD250")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000363")]
 	public static TimeSpan SponsorshipTimeout
 	{
-		[Token(Token = "0x6001DA6")]
-		[Address(RVA = "0x19FD120", Offset = "0x19FB720", VA = "0x1819FD120")]
+		[Token(Token = "0x6001D7C")]
+		[Address(RVA = "0x5381500", Offset = "0x5380500", VA = "0x5381500")]
 		get
 		{
 			return default(TimeSpan);
 		}
-		[Token(Token = "0x6001DA7")]
-		[Address(RVA = "0x19FD2B0", Offset = "0x19FB8B0", VA = "0x1819FD2B0")]
+		[Token(Token = "0x6001D7D")]
+		[Address(RVA = "0x5381570", Offset = "0x5380570", VA = "0x5381570")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001D9F")]
-	[Address(RVA = "0x19FCEC0", Offset = "0x19FB4C0", VA = "0x1819FCEC0")]
+	[Token(Token = "0x6001D75")]
+	[Address(RVA = "0x5381120", Offset = "0x5380120", VA = "0x5381120")]
 	static LifetimeServices()
 	{
 	}
 
-	[Token(Token = "0x6001DA8")]
-	[Address(RVA = "0x19FCE50", Offset = "0x19FB450", VA = "0x1819FCE50")]
+	[Token(Token = "0x6001D7E")]
+	[Address(RVA = "0x53815D0", Offset = "0x53805D0", VA = "0x53815D0")]
 	internal static void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200036D")]
+[Token(Token = "0x2000329")]
 public enum UnicodeEncodingConformance
 {
-	[Token(Token = "0x4000E04")]
+	[Token(Token = "0x4000D1C")]
 	Auto,
-	[Token(Token = "0x4000E05")]
+	[Token(Token = "0x4000D1D")]
 	Strict,
-	[Token(Token = "0x4000E06")]
+	[Token(Token = "0x4000D1E")]
 	Compat
 }

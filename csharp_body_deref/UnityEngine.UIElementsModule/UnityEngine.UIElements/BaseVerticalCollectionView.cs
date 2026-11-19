@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.BaseVerticalCollectionView
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,13 +53,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		private readonly UxmlBoolAttributeDescription m_HorizontalScrollingEnabled;
 
 		[Token(Token = "0x60004C8")]
-		[Address(RVA = "0x30B5680", Offset = "0x30B3C80", VA = "0x1830B5680")]
+		[Address(RVA = "0x6AA6920", Offset = "0x6AA5920", VA = "0x6AA6920")]
 		public UxmlTraits()
 		{
 		}
 
 		[Token(Token = "0x60004C9")]
-		[Address(RVA = "0x30B4BE0", Offset = "0x30B31E0", VA = "0x1830B4BE0", Slot = "4")]
+		[Address(RVA = "0x6AA6100", Offset = "0x6AA5100", VA = "0x6AA6100", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
@@ -96,14 +96,14 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public List<int> selectedIds
 		{
 			[Token(Token = "0x60004CA")]
-			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+			[Address(RVA = "0x6AB2060", Offset = "0x6AB1060", VA = "0x6AB2060")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60004CB")]
-			[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+			[Address(RVA = "0x6AB2070", Offset = "0x6AB1070", VA = "0x6AB2070")]
 			[CompilerGenerated]
 			set
 			{
@@ -114,7 +114,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public int indexCount
 		{
 			[Token(Token = "0x60004CC")]
-			[Address(RVA = "0x30B29E0", Offset = "0x30B0FE0", VA = "0x1830B29E0")]
+			[Address(RVA = "0x6AAA030", Offset = "0x6AA9030", VA = "0x6AAA030")]
 			get
 			{
 				return default(int);
@@ -125,7 +125,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public int idCount
 		{
 			[Token(Token = "0x60004CD")]
-			[Address(RVA = "0x30B29A0", Offset = "0x30B0FA0", VA = "0x1830B29A0")]
+			[Address(RVA = "0x6AAC220", Offset = "0x6AAB220", VA = "0x6AAC220")]
 			get
 			{
 				return default(int);
@@ -136,7 +136,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public int minIndex
 		{
 			[Token(Token = "0x60004CE")]
-			[Address(RVA = "0x30B2A50", Offset = "0x30B1050", VA = "0x1830B2A50")]
+			[Address(RVA = "0x6AAD950", Offset = "0x6AAC950", VA = "0x6AAD950")]
 			get
 			{
 				return default(int);
@@ -147,7 +147,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public int maxIndex
 		{
 			[Token(Token = "0x60004CF")]
-			[Address(RVA = "0x30B2A20", Offset = "0x30B1020", VA = "0x1830B2A20")]
+			[Address(RVA = "0x6AAD930", Offset = "0x6AAC930", VA = "0x6AAD930")]
 			get
 			{
 				return default(int);
@@ -158,97 +158,97 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		public int capacity
 		{
 			[Token(Token = "0x60004D0")]
-			[Address(RVA = "0x30B2950", Offset = "0x30B0F50", VA = "0x1830B2950")]
+			[Address(RVA = "0x6AB0D80", Offset = "0x6AAFD80", VA = "0x6AB0D80")]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60004D1")]
-			[Address(RVA = "0x30B2A80", Offset = "0x30B1080", VA = "0x1830B2A80")]
+			[Address(RVA = "0x6AB0DC0", Offset = "0x6AAFDC0", VA = "0x6AB0DC0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x60004D2")]
-		[Address(RVA = "0x30B2570", Offset = "0x30B0B70", VA = "0x1830B2570")]
+		[Address(RVA = "0x6AAA070", Offset = "0x6AA9070", VA = "0x6AAA070")]
 		public int FirstIndex()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60004D3")]
-		[Address(RVA = "0x30B25E0", Offset = "0x30B0BE0", VA = "0x1830B25E0")]
+		[Address(RVA = "0x6AAA0F0", Offset = "0x6AA90F0", VA = "0x6AAA0F0")]
 		public object FirstObject()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x30B2510", Offset = "0x30B0B10", VA = "0x1830B2510")]
+		[Address(RVA = "0x6AAC260", Offset = "0x6AAB260", VA = "0x6AAC260")]
 		public bool ContainsIndex(int index)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004D5")]
-		[Address(RVA = "0x30B24B0", Offset = "0x30B0AB0", VA = "0x1830B24B0")]
+		[Address(RVA = "0x6AAF3D0", Offset = "0x6AAE3D0", VA = "0x6AAF3D0")]
 		public bool ContainsId(int id)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004D6")]
-		[Address(RVA = "0x30B20C0", Offset = "0x30B06C0", VA = "0x1830B20C0")]
+		[Address(RVA = "0x6AAFF30", Offset = "0x6AAEF30", VA = "0x6AAFF30")]
 		public void AddId(int id)
 		{
 		}
 
 		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x30B2180", Offset = "0x30B0780", VA = "0x1830B2180")]
+		[Address(RVA = "0x6AAC2B0", Offset = "0x6AAB2B0", VA = "0x6AAC2B0")]
 		public void AddIndex(int index, object obj)
 		{
 		}
 
 		[Token(Token = "0x60004D8")]
-		[Address(RVA = "0x30B2720", Offset = "0x30B0D20", VA = "0x1830B2720")]
+		[Address(RVA = "0x6AB0930", Offset = "0x6AAF930", VA = "0x6AB0930")]
 		public bool TryRemove(int index)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x30B26A0", Offset = "0x30B0CA0", VA = "0x1830B26A0")]
+		[Address(RVA = "0x6AB0A20", Offset = "0x6AAFA20", VA = "0x6AB0A20")]
 		public void RemoveId(int id)
 		{
 		}
 
 		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x30B2360", Offset = "0x30B0960", VA = "0x1830B2360")]
+		[Address(RVA = "0x6AB2080", Offset = "0x6AB1080", VA = "0x6AB2080")]
 		public void ClearItems()
 		{
 		}
 
 		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x30B2280", Offset = "0x30B0880", VA = "0x1830B2280")]
+		[Address(RVA = "0x6AB20C0", Offset = "0x6AB10C0", VA = "0x6AB20C0")]
 		public void ClearIds()
 		{
 		}
 
 		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x30B22F0", Offset = "0x30B08F0", VA = "0x1830B22F0")]
+		[Address(RVA = "0x6AAC140", Offset = "0x6AAB140", VA = "0x6AAC140")]
 		public void ClearIndices()
 		{
 		}
 
 		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x30B23B0", Offset = "0x30B09B0", VA = "0x1830B23B0")]
+		[Address(RVA = "0x6AB0E50", Offset = "0x6AAFE50", VA = "0x6AB0E50")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x60004DE")]
-		[Address(RVA = "0x30B2810", Offset = "0x30B0E10", VA = "0x1830B2810")]
+		[Address(RVA = "0x6AAB350", Offset = "0x6AAA350", VA = "0x6AAB350")]
 		public Selection()
 		{
 		}
@@ -311,7 +311,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60004E8")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x6AB2510", Offset = "0x6AB1510", VA = "0x6AB2510", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -323,7 +323,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60004EA")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x6AB2560", Offset = "0x6AB1560", VA = "0x6AB2560", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -332,41 +332,41 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		}
 
 		[Token(Token = "0x60004E4")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x6AAA240", Offset = "0x6AA9240", VA = "0x6AAA240")]
 		[DebuggerHidden]
 		public _003Cget_selectedItems_003Ed__88(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60004E5")]
-		[Address(RVA = "0x30B42E0", Offset = "0x30B28E0", VA = "0x1830B42E0", Slot = "7")]
+		[Address(RVA = "0x6AB21D0", Offset = "0x6AB11D0", VA = "0x6AB21D0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60004E6")]
-		[Address(RVA = "0x30B3F80", Offset = "0x30B2580", VA = "0x1830B3F80", Slot = "8")]
+		[Address(RVA = "0x6AB2230", Offset = "0x6AB1230", VA = "0x6AB2230", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60004E7")]
-		[Address(RVA = "0x30B4370", Offset = "0x30B2970", VA = "0x1830B4370")]
+		[Address(RVA = "0x6AB24D0", Offset = "0x6AB14D0", VA = "0x6AB24D0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x60004E9")]
-		[Address(RVA = "0x30B42A0", Offset = "0x30B28A0", VA = "0x1830B42A0", Slot = "10")]
+		[Address(RVA = "0x6AB2520", Offset = "0x6AB1520", VA = "0x6AB2520", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60004EB")]
-		[Address(RVA = "0x30B4200", Offset = "0x30B2800", VA = "0x1830B4200", Slot = "4")]
+		[Address(RVA = "0x6AB2570", Offset = "0x6AB1570", VA = "0x6AB2570", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<object> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EObject_003E_002EGetEnumerator()
 		{
@@ -374,7 +374,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 		}
 
 		[Token(Token = "0x60004EC")]
-		[Address(RVA = "0x30B4200", Offset = "0x30B2800", VA = "0x1830B4200", Slot = "5")]
+		[Address(RVA = "0x6AB2610", Offset = "0x6AB1610", VA = "0x6AB2610", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -452,8 +452,8 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 
 	[Token(Token = "0x4000270")]
 	[FieldOffset(Offset = "0x2E8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<IEnumerable<int>> selectedIndicesChanged;
 
 	[Token(Token = "0x4000271")]
@@ -517,8 +517,8 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 
 	[Token(Token = "0x400027C")]
 	[FieldOffset(Offset = "0x330")]
-	[DontCreateProperty]
 	[SerializeField]
+	[DontCreateProperty]
 	private AlternatingRowBackground m_ShowAlternatingRowBackgrounds;
 
 	[Token(Token = "0x400027D")]
@@ -555,15 +555,15 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 
 	[Token(Token = "0x4000285")]
 	[FieldOffset(Offset = "0x360")]
-	[SerializeField]
-	[DontCreateProperty]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+	[DontCreateProperty]
+	[SerializeField]
 	internal SerializedVirtualizationData serializedVirtualizationData;
 
 	[Token(Token = "0x4000286")]
 	[FieldOffset(Offset = "0x368")]
-	[SerializeField]
 	[DontCreateProperty]
+	[SerializeField]
 	private List<int> m_SelectedIds;
 
 	[Token(Token = "0x4000287")]
@@ -659,13 +659,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public IList itemsSource
 	{
 		[Token(Token = "0x6000468")]
-		[Address(RVA = "0x30AC5B0", Offset = "0x30AABB0", VA = "0x1830AC5B0")]
+		[Address(RVA = "0x6A99C60", Offset = "0x6A98C60", VA = "0x6A99C60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000469")]
-		[Address(RVA = "0x30A5310", Offset = "0x30A3910", VA = "0x1830A5310")]
+		[Address(RVA = "0x6AA9DF0", Offset = "0x6AA8DF0", VA = "0x6AA9DF0")]
 		set
 		{
 		}
@@ -675,7 +675,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x600046A")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "138")]
+		[Address(RVA = "0x6AA9E60", Offset = "0x6AA8E60", VA = "0x6AA9E60", Slot = "138")]
 		get
 		{
 			return null;
@@ -687,13 +687,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public SelectionType selectionType
 	{
 		[Token(Token = "0x600046B")]
-		[Address(RVA = "0x30AC8C0", Offset = "0x30AAEC0", VA = "0x1830AC8C0")]
+		[Address(RVA = "0x6AA9E70", Offset = "0x6AA8E70", VA = "0x6AA9E70")]
 		get
 		{
 			return default(SelectionType);
 		}
 		[Token(Token = "0x600046C")]
-		[Address(RVA = "0x30ACC90", Offset = "0x30AB290", VA = "0x1830ACC90")]
+		[Address(RVA = "0x6AA9E80", Offset = "0x6AA8E80", VA = "0x6AA9E80")]
 		set
 		{
 		}
@@ -704,7 +704,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public object selectedItem
 	{
 		[Token(Token = "0x600046D")]
-		[Address(RVA = "0x30AC760", Offset = "0x30AAD60", VA = "0x1830AC760")]
+		[Address(RVA = "0x6AAA0D0", Offset = "0x6AA90D0", VA = "0x6AAA0D0")]
 		get
 		{
 			return null;
@@ -716,7 +716,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public IEnumerable<object> selectedItems
 	{
 		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x30AC840", Offset = "0x30AAE40", VA = "0x1830AC840")]
+		[Address(RVA = "0x6AAA1D0", Offset = "0x6AA91D0", VA = "0x6AAA1D0")]
 		[IteratorStateMachine(typeof(_003Cget_selectedItems_003Ed__88))]
 		get
 		{
@@ -729,13 +729,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public int selectedIndex
 	{
 		[Token(Token = "0x600046F")]
-		[Address(RVA = "0x30AC680", Offset = "0x30AAC80", VA = "0x1830AC680")]
+		[Address(RVA = "0x6AA8530", Offset = "0x6AA7530", VA = "0x6AA8530")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000470")]
-		[Address(RVA = "0x30A8880", Offset = "0x30A6E80", VA = "0x1830A8880")]
+		[Address(RVA = "0x6AAA270", Offset = "0x6AA9270", VA = "0x6AAA270")]
 		set
 		{
 		}
@@ -746,7 +746,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public IEnumerable<int> selectedIndices
 	{
 		[Token(Token = "0x6000471")]
-		[Address(RVA = "0x30AC740", Offset = "0x30AAD40", VA = "0x1830AC740")]
+		[Address(RVA = "0x6A99790", Offset = "0x6A98790", VA = "0x6A99790")]
 		get
 		{
 			return null;
@@ -757,7 +757,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public IEnumerable<int> selectedIds
 	{
 		[Token(Token = "0x6000472")]
-		[Address(RVA = "0x30AC660", Offset = "0x30AAC60", VA = "0x1830AC660")]
+		[Address(RVA = "0x6AA8280", Offset = "0x6AA7280", VA = "0x6AA8280")]
 		get
 		{
 			return null;
@@ -768,7 +768,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal IEnumerable<ReusableCollectionItem> activeItems
 	{
 		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x30AC4C0", Offset = "0x30AAAC0", VA = "0x1830AC4C0")]
+		[Address(RVA = "0x6AA4FC0", Offset = "0x6AA3FC0", VA = "0x6AA4FC0")]
 		get
 		{
 			return null;
@@ -779,7 +779,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal ScrollView scrollView
 	{
 		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x2D24000", Offset = "0x2D22600", VA = "0x182D24000")]
+		[Address(RVA = "0x6AAA280", Offset = "0x6AA9280", VA = "0x6AAA280")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule", "UnityEngine.HierarchyModule" })]
 		get
 		{
@@ -791,7 +791,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal ListViewDragger dragger
 	{
 		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x12ADB20", Offset = "0x12AC120", VA = "0x1812ADB20")]
+		[Address(RVA = "0x6AAA290", Offset = "0x6AA9290", VA = "0x6AAA290")]
 		get
 		{
 			return null;
@@ -802,7 +802,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal CollectionVirtualizationController virtualizationController
 	{
 		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x30A6BB0", Offset = "0x30A51B0", VA = "0x1830A6BB0")]
+		[Address(RVA = "0x6AA7840", Offset = "0x6AA6840", VA = "0x6AA7840")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule", "UnityEngine.HierarchyModule" })]
 		get
 		{
@@ -814,7 +814,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public CollectionViewController viewController
 	{
 		[Token(Token = "0x6000477")]
-		[Address(RVA = "0x1000630", Offset = "0xFFEC30", VA = "0x181000630")]
+		[Address(RVA = "0x6AAA2D0", Offset = "0x6AA92D0", VA = "0x6AAA2D0")]
 		get
 		{
 			return null;
@@ -826,13 +826,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public bool showBorder
 	{
 		[Token(Token = "0x6000479")]
-		[Address(RVA = "0x30AC8E0", Offset = "0x30AAEE0", VA = "0x1830AC8E0")]
+		[Address(RVA = "0x6AAA300", Offset = "0x6AA9300", VA = "0x6AAA300")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x30ACE30", Offset = "0x30AB430", VA = "0x1830ACE30")]
+		[Address(RVA = "0x6AAA370", Offset = "0x6AA9370", VA = "0x6AAA370")]
 		set
 		{
 		}
@@ -843,13 +843,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public bool reorderable
 	{
 		[Token(Token = "0x600047B")]
-		[Address(RVA = "0x30AC5D0", Offset = "0x30AABD0", VA = "0x1830AC5D0")]
+		[Address(RVA = "0x6A9AC70", Offset = "0x6A99C70", VA = "0x6A9AC70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x30ACB80", Offset = "0x30AB180", VA = "0x1830ACB80")]
+		[Address(RVA = "0x6AAA510", Offset = "0x6AA9510", VA = "0x6AAA510")]
 		set
 		{
 		}
@@ -860,13 +860,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public bool horizontalScrollingEnabled
 	{
 		[Token(Token = "0x600047D")]
-		[Address(RVA = "0x30AC550", Offset = "0x30AAB50", VA = "0x1830AC550")]
+		[Address(RVA = "0x6AAA730", Offset = "0x6AA9730", VA = "0x6AAA730")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x30ACAB0", Offset = "0x30AB0B0", VA = "0x1830ACAB0")]
+		[Address(RVA = "0x6AAA740", Offset = "0x6AA9740", VA = "0x6AAA740")]
 		set
 		{
 		}
@@ -877,13 +877,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public AlternatingRowBackground showAlternatingRowBackgrounds
 	{
 		[Token(Token = "0x600047F")]
-		[Address(RVA = "0x30AC8D0", Offset = "0x30AAED0", VA = "0x1830AC8D0")]
+		[Address(RVA = "0x6AAA7F0", Offset = "0x6AA97F0", VA = "0x6AAA7F0")]
 		get
 		{
 			return default(AlternatingRowBackground);
 		}
 		[Token(Token = "0x6000480")]
-		[Address(RVA = "0x30ACDA0", Offset = "0x30AB3A0", VA = "0x1830ACDA0")]
+		[Address(RVA = "0x6AAA800", Offset = "0x6AA9800", VA = "0x6AAA800")]
 		set
 		{
 		}
@@ -894,13 +894,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public CollectionVirtualizationMethod virtualizationMethod
 	{
 		[Token(Token = "0x6000481")]
-		[Address(RVA = "0x645AC0", Offset = "0x6440C0", VA = "0x180645AC0")]
+		[Address(RVA = "0x6AAA890", Offset = "0x6AA9890", VA = "0x6AAA890")]
 		get
 		{
 			return default(CollectionVirtualizationMethod);
 		}
 		[Token(Token = "0x6000482")]
-		[Address(RVA = "0x30ACF10", Offset = "0x30AB510", VA = "0x1830ACF10")]
+		[Address(RVA = "0x6AAA8A0", Offset = "0x6AA98A0", VA = "0x6AAA8A0")]
 		set
 		{
 		}
@@ -911,13 +911,13 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	public float fixedItemHeight
 	{
 		[Token(Token = "0x6000483")]
-		[Address(RVA = "0x30AC540", Offset = "0x30AAB40", VA = "0x1830AC540")]
+		[Address(RVA = "0x6AAA940", Offset = "0x6AA9940", VA = "0x6AAA940")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000484")]
-		[Address(RVA = "0x30AC970", Offset = "0x30AAF70", VA = "0x1830AC970")]
+		[Address(RVA = "0x6AAA950", Offset = "0x6AA9950", VA = "0x6AAA950")]
 		set
 		{
 		}
@@ -927,7 +927,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal bool isRebuildScheduled
 	{
 		[Token(Token = "0x6000485")]
-		[Address(RVA = "0x30AC560", Offset = "0x30AAB60", VA = "0x1830AC560")]
+		[Address(RVA = "0x6AAAAB0", Offset = "0x6AA9AB0", VA = "0x6AAAAB0")]
 		get
 		{
 			return default(bool);
@@ -938,7 +938,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	private pointerProcessingStateEnum pointerProcessingState
 	{
 		[Token(Token = "0x600048F")]
-		[Address(RVA = "0x30ACB70", Offset = "0x30AB170", VA = "0x1830ACB70")]
+		[Address(RVA = "0x6AAABE0", Offset = "0x6AA9BE0", VA = "0x6AAABE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -949,7 +949,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	private int currentPointerButton
 	{
 		[Token(Token = "0x6000490")]
-		[Address(RVA = "0x30AC960", Offset = "0x30AAF60", VA = "0x1830AC960")]
+		[Address(RVA = "0x6AAABF0", Offset = "0x6AA9BF0", VA = "0x6AAABF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -957,55 +957,55 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	}
 
 	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x30A7050", Offset = "0x30A5650", VA = "0x1830A7050")]
+	[Address(RVA = "0x6AA9AA0", Offset = "0x6AA8AA0", VA = "0x6AA9AA0")]
 	internal bool HasCanStartDrag()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x30A8890", Offset = "0x30A6E90", VA = "0x1830A8890")]
+	[Address(RVA = "0x6AA9AB0", Offset = "0x6AA8AB0", VA = "0x6AA9AB0")]
 	internal bool RaiseCanStartDrag(ReusableCollectionItem item, IEnumerable<int> ids, EventModifiers modifiers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x30A8AF0", Offset = "0x30A70F0", VA = "0x1830A8AF0")]
+	[Address(RVA = "0x6AA9B90", Offset = "0x6AA8B90", VA = "0x6AA9B90")]
 	internal StartDragArgs RaiseSetupDragAndDrop(ReusableCollectionItem item, IEnumerable<int> ids, StartDragArgs args)
 	{
 		return default(StartDragArgs);
 	}
 
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x30A8A50", Offset = "0x30A7050", VA = "0x1830A8A50")]
+	[Address(RVA = "0x6AA9CD0", Offset = "0x6AA8CD0", VA = "0x6AA9CD0")]
 	internal DragVisualMode RaiseHandleDragAndDrop(Vector2 pointerPosition, DragAndDropArgs dragAndDropArgs)
 	{
 		return default(DragVisualMode);
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x30A89B0", Offset = "0x30A6FB0", VA = "0x1830A89B0")]
+	[Address(RVA = "0x6AA9D60", Offset = "0x6AA8D60", VA = "0x6AA9D60")]
 	internal DragVisualMode RaiseDrop(Vector2 pointerPosition, DragAndDropArgs dragAndDropArgs)
 	{
 		return default(DragVisualMode);
 	}
 
 	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x30A9A50", Offset = "0x30A8050", VA = "0x1830A9A50")]
+	[Address(RVA = "0x6AAA2E0", Offset = "0x6AA92E0", VA = "0x6AAA2E0")]
 	internal float ResolveItemHeight(float height = -1f)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x30A6350", Offset = "0x30A4950", VA = "0x1830A6350", Slot = "145")]
+	[Address(RVA = "0x6AAAB50", Offset = "0x6AA9B50", VA = "0x6AAAB50", Slot = "145")]
 	private protected virtual void CreateVirtualizationController()
 	{
 	}
 
 	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x30A6BB0", Offset = "0x30A51B0", VA = "0x1830A6BB0")]
+	[Address(RVA = "0x6AAA2A0", Offset = "0x6AA92A0", VA = "0x6AAA2A0")]
 	internal CollectionVirtualizationController GetOrCreateVirtualizationController()
 	{
 		return null;
@@ -1017,7 +1017,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	}
 
 	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x30A6B50", Offset = "0x30A5150", VA = "0x1830A6B50")]
+	[Address(RVA = "0x6AA24C0", Offset = "0x6AA14C0", VA = "0x6AA24C0")]
 	internal CollectionViewController GetOrCreateViewController()
 	{
 		return null;
@@ -1027,20 +1027,20 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	protected abstract CollectionViewController CreateViewController();
 
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x30AA850", Offset = "0x30A8E50", VA = "0x1830AA850", Slot = "147")]
+	[Address(RVA = "0x6AA3980", Offset = "0x6AA2980", VA = "0x6AA3980", Slot = "147")]
 	public virtual void SetViewController(CollectionViewController controller)
 	{
 	}
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x30A62F0", Offset = "0x30A48F0", VA = "0x1830A62F0", Slot = "148")]
+	[Address(RVA = "0x6AAAB90", Offset = "0x6AA9B90", VA = "0x6AAAB90", Slot = "148")]
 	internal virtual ListViewDragger CreateDragger()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x30A70A0", Offset = "0x30A56A0", VA = "0x1830A70A0")]
+	[Address(RVA = "0x6AA3D60", Offset = "0x6AA2D60", VA = "0x6AA3D60")]
 	internal void InitializeDragAndDropController(bool enableReordering)
 	{
 	}
@@ -1049,282 +1049,282 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	internal abstract ICollectionDragAndDropController CreateDragAndDropController();
 
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x30ABB90", Offset = "0x30AA190", VA = "0x1830ABB90")]
+	[Address(RVA = "0x6AAAC00", Offset = "0x6AA9C00", VA = "0x6AAAC00")]
 	public BaseVerticalCollectionView()
 	{
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x30AC3D0", Offset = "0x30AA9D0", VA = "0x1830AC3D0")]
+	[Address(RVA = "0x6AA45C0", Offset = "0x6AA35C0", VA = "0x6AA45C0")]
 	public BaseVerticalCollectionView(IList itemsSource, float itemHeight = -1f)
 	{
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x30A6BF0", Offset = "0x30A51F0", VA = "0x1830A6BF0")]
+	[Address(RVA = "0x6AAB4A0", Offset = "0x6AAA4A0", VA = "0x6AAB4A0")]
 	public VisualElement GetRootElementForId(int id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x30A7060", Offset = "0x30A5660", VA = "0x1830A7060", Slot = "150")]
+	[Address(RVA = "0x6AAB610", Offset = "0x6AAA610", VA = "0x6AAB610", Slot = "150")]
 	internal virtual bool HasValidDataAndBindings()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x30A7C70", Offset = "0x30A6270", VA = "0x1830A7C70")]
+	[Address(RVA = "0x6AAB640", Offset = "0x6AAA640", VA = "0x6AAB640")]
 	private void OnItemIndexChanged(int srcIndex, int dstIndex)
 	{
 	}
 
 	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x30A7CA0", Offset = "0x30A62A0", VA = "0x1830A7CA0")]
+	[Address(RVA = "0x6AAB670", Offset = "0x6AAA670", VA = "0x6AAB670")]
 	private void OnItemsSourceChanged()
 	{
 	}
 
 	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x30A8DC0", Offset = "0x30A73C0", VA = "0x1830A8DC0")]
+	[Address(RVA = "0x6A99060", Offset = "0x6A98060", VA = "0x6A99060")]
 	public void RefreshItems()
 	{
 	}
 
 	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x30A8C30", Offset = "0x30A7230", VA = "0x1830A8C30")]
+	[Address(RVA = "0x6AA21E0", Offset = "0x6AA11E0", VA = "0x6AA21E0")]
 	public void Rebuild()
 	{
 	}
 
 	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x30A9A70", Offset = "0x30A8070", VA = "0x1830A9A70")]
+	[Address(RVA = "0x6AABF10", Offset = "0x6AAAF10", VA = "0x6AABF10")]
 	internal void ScheduleRebuild()
 	{
 	}
 
 	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x30A8F80", Offset = "0x30A7580", VA = "0x1830A8F80")]
+	[Address(RVA = "0x6AAB6E0", Offset = "0x6AAA6E0", VA = "0x6AAB6E0")]
 	private void RefreshSelection()
 	{
 	}
 
 	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x30A8010", Offset = "0x30A6610", VA = "0x1830A8010", Slot = "151")]
+	[Address(RVA = "0x6AA4760", Offset = "0x6AA3760", VA = "0x6AA4760", Slot = "151")]
 	private protected virtual void PostRefresh()
 	{
 	}
 
 	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x30A9C20", Offset = "0x30A8220", VA = "0x1830A9C20")]
+	[Address(RVA = "0x6AA3080", Offset = "0x6AA2080", VA = "0x6AA3080")]
 	public void ScrollToItem(int index)
 	{
 	}
 
 	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x30A9B90", Offset = "0x30A8190", VA = "0x1830A9B90")]
+	[Address(RVA = "0x6AA8650", Offset = "0x6AA7650", VA = "0x6AA8650")]
 	public void ScrollToItemById(int id)
 	{
 	}
 
 	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x30A7E30", Offset = "0x30A6430", VA = "0x1830A7E30")]
+	[Address(RVA = "0x6AAC450", Offset = "0x6AAB450", VA = "0x6AAC450")]
 	private void OnScroll(Vector2 offset)
 	{
 	}
 
 	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x30A99A0", Offset = "0x30A7FA0", VA = "0x1830A99A0")]
+	[Address(RVA = "0x6AAC3A0", Offset = "0x6AAB3A0", VA = "0x6AAC3A0")]
 	private void Resize(Vector2 size)
 	{
 	}
 
 	[Token(Token = "0x60004A0")]
-	[Address(RVA = "0x30A74D0", Offset = "0x30A5AD0", VA = "0x1830A74D0")]
+	[Address(RVA = "0x6AAC4D0", Offset = "0x6AAB4D0", VA = "0x6AAC4D0")]
 	private void OnAttachToPanel(AttachToPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x30A79C0", Offset = "0x30A5FC0", VA = "0x1830A79C0")]
+	[Address(RVA = "0x6AAC820", Offset = "0x6AAB820", VA = "0x6AAC820")]
 	private void OnDetachFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A2")]
-	[Address(RVA = "0x30A5830", Offset = "0x30A3E30", VA = "0x1830A5830")]
+	[Address(RVA = "0x6AACAE0", Offset = "0x6AABAE0", VA = "0x6AACAE0")]
 	private bool Apply(KeyboardNavigationOperation op, bool shiftKey, bool altKey)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004A3")]
-	[Address(RVA = "0x30A5E10", Offset = "0x30A4410", VA = "0x1830A5E10")]
+	[Address(RVA = "0x6AADB40", Offset = "0x6AACB40", VA = "0x6AADB40")]
 	private void Apply(KeyboardNavigationOperation op, EventBase sourceEvent)
 	{
 	}
 
 	[Token(Token = "0x60004A4")]
-	[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0", Slot = "152")]
+	[Address(RVA = "0x6AADDC0", Offset = "0x6AACDC0", VA = "0x6AADDC0", Slot = "152")]
 	private protected virtual bool HandleItemNavigation(bool moveIn, bool altKey)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x30A7DA0", Offset = "0x30A63A0", VA = "0x1830A7DA0")]
+	[Address(RVA = "0x6AADDD0", Offset = "0x6AACDD0", VA = "0x6AADDD0")]
 	private void OnPointerMove(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x30A7D90", Offset = "0x30A6390", VA = "0x1830A7D90")]
+	[Address(RVA = "0x6AAEB10", Offset = "0x6AADB10", VA = "0x6AAEB10")]
 	private void OnPointerDown(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x30A7D20", Offset = "0x30A6320", VA = "0x1830A7D20")]
+	[Address(RVA = "0x6AAEB20", Offset = "0x6AADB20", VA = "0x6AAEB20")]
 	private void OnPointerCancel(PointerCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x30A7E20", Offset = "0x30A6420", VA = "0x1830A7E20")]
+	[Address(RVA = "0x6AAEBE0", Offset = "0x6AADBE0", VA = "0x6AAEBE0")]
 	private void OnPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x30A8100", Offset = "0x30A6700", VA = "0x1830A8100")]
+	[Address(RVA = "0x6AAE4F0", Offset = "0x6AAD4F0", VA = "0x6AAE4F0")]
 	private void ProcessPointerDown(IPointerEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x30A84E0", Offset = "0x30A6AE0", VA = "0x1830A84E0")]
+	[Address(RVA = "0x6AADE50", Offset = "0x6AACE50", VA = "0x6AADE50")]
 	private void ProcessPointerUp(IPointerEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x30A6630", Offset = "0x30A4C30", VA = "0x1830A6630")]
+	[Address(RVA = "0x6AAEBF0", Offset = "0x6AADBF0", VA = "0x6AAEBF0")]
 	private void DoSelect(Vector2 localPosition, int mouseButton, int clickCount, bool actionKey, bool shiftKey)
 	{
 	}
 
 	[Token(Token = "0x60004AC")]
-	[Address(RVA = "0x30A6390", Offset = "0x30A4990", VA = "0x1830A6390")]
+	[Address(RVA = "0x6AAF550", Offset = "0x6AAE550", VA = "0x6AAF550")]
 	internal void DoRangeSelection(int rangeSelectionFinalIndex)
 	{
 	}
 
 	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0x30A8880", Offset = "0x30A6E80", VA = "0x1830A8880")]
+	[Address(RVA = "0x6AAF3C0", Offset = "0x6AAE3C0", VA = "0x6AAF3C0")]
 	private void ProcessSingleClick(int clickedIndex)
 	{
 	}
 
 	[Token(Token = "0x60004AE")]
-	[Address(RVA = "0x30A9C90", Offset = "0x30A8290", VA = "0x1830A9C90")]
+	[Address(RVA = "0x6AAD390", Offset = "0x6AAC390", VA = "0x6AAD390")]
 	internal void SelectAll()
 	{
 	}
 
 	[Token(Token = "0x60004AF")]
-	[Address(RVA = "0x30A5670", Offset = "0x30A3C70", VA = "0x1830A5670")]
+	[Address(RVA = "0x6AAF470", Offset = "0x6AAE470", VA = "0x6AAF470")]
 	public void AddToSelection(int index)
 	{
 	}
 
 	[Token(Token = "0x60004B0")]
-	[Address(RVA = "0x30A5710", Offset = "0x30A3D10", VA = "0x1830A5710")]
+	[Address(RVA = "0x6AAFEA0", Offset = "0x6AAEEA0", VA = "0x6AAFEA0")]
 	internal void AddToSelection(ReadOnlySpan<int> indexes)
 	{
 	}
 
 	[Token(Token = "0x60004B1")]
-	[Address(RVA = "0x30A5390", Offset = "0x30A3990", VA = "0x1830A5390")]
+	[Address(RVA = "0x6AB00A0", Offset = "0x6AAF0A0", VA = "0x6AB00A0")]
 	private void AddToSelectionWithoutValidation(int index)
 	{
 	}
 
 	[Token(Token = "0x60004B2")]
-	[Address(RVA = "0x30A9950", Offset = "0x30A7F50", VA = "0x1830A9950")]
+	[Address(RVA = "0x6AAF420", Offset = "0x6AAE420", VA = "0x6AAF420")]
 	public void RemoveFromSelection(int index)
 	{
 	}
 
 	[Token(Token = "0x60004B3")]
-	[Address(RVA = "0x30A9600", Offset = "0x30A7C00", VA = "0x1830A9600")]
+	[Address(RVA = "0x6AB0500", Offset = "0x6AAF500", VA = "0x6AB0500")]
 	private void RemoveFromSelectionWithoutValidation(int index)
 	{
 	}
 
 	[Token(Token = "0x60004B4")]
-	[Address(RVA = "0x30AA790", Offset = "0x30A8D90", VA = "0x1830AA790")]
+	[Address(RVA = "0x6AA2FA0", Offset = "0x6AA1FA0", VA = "0x6AA2FA0")]
 	public void SetSelection(int index)
 	{
 	}
 
 	[Token(Token = "0x60004B5")]
-	[Address(RVA = "0x30AA760", Offset = "0x30A8D60", VA = "0x1830AA760")]
+	[Address(RVA = "0x6AB0A90", Offset = "0x6AAFA90", VA = "0x6AB0A90")]
 	internal void SetSelection(ReadOnlySpan<int> indices)
 	{
 	}
 
 	[Token(Token = "0x60004B6")]
-	[Address(RVA = "0x30AA750", Offset = "0x30A8D50", VA = "0x1830AA750")]
+	[Address(RVA = "0x6AB0C30", Offset = "0x6AAFC30", VA = "0x6AB0C30")]
 	public void SetSelectionWithoutNotify(IEnumerable<int> indices)
 	{
 	}
 
 	[Token(Token = "0x60004B7")]
-	[Address(RVA = "0x30A9F70", Offset = "0x30A8570", VA = "0x1830A9F70")]
+	[Address(RVA = "0x6AA87C0", Offset = "0x6AA77C0", VA = "0x6AA87C0")]
 	internal void SetSelectionInternal(IEnumerable<int> indices, bool sendNotification)
 	{
 	}
 
 	[Token(Token = "0x60004B8")]
-	[Address(RVA = "0x30AA4C0", Offset = "0x30A8AC0", VA = "0x1830AA4C0")]
+	[Address(RVA = "0x6AB0AA0", Offset = "0x6AAFAA0", VA = "0x6AB0AA0")]
 	internal void SetSelectionInternal(ReadOnlySpan<int> indices, bool sendNotification)
 	{
 	}
 
 	[Token(Token = "0x60004B9")]
-	[Address(RVA = "0x30A71C0", Offset = "0x30A57C0", VA = "0x1830A71C0")]
+	[Address(RVA = "0x6AB0C40", Offset = "0x6AAFC40", VA = "0x6AB0C40")]
 	private bool MatchesExistingSelection(ReadOnlySpan<int> indices)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004BA")]
-	[Address(RVA = "0x30A7440", Offset = "0x30A5A40", VA = "0x1830A7440")]
+	[Address(RVA = "0x6AAFFD0", Offset = "0x6AAEFD0", VA = "0x6AAFFD0")]
 	private void NotifyOfSelectionChange()
 	{
 	}
 
 	[Token(Token = "0x60004BB")]
-	[Address(RVA = "0x30A6270", Offset = "0x30A4870", VA = "0x1830A6270")]
+	[Address(RVA = "0x6AA3490", Offset = "0x6AA2490", VA = "0x6AA3490")]
 	public void ClearSelection()
 	{
 	}
 
 	[Token(Token = "0x60004BC")]
-	[Address(RVA = "0x30A5FB0", Offset = "0x30A45B0", VA = "0x1830A5FB0")]
+	[Address(RVA = "0x6AAFB00", Offset = "0x6AAEB00", VA = "0x6AAFB00")]
 	private void ClearSelectionWithoutValidation()
 	{
 	}
 
 	[Token(Token = "0x60004BD")]
-	[Address(RVA = "0x30A7FC0", Offset = "0x30A65C0", VA = "0x1830A7FC0", Slot = "135")]
+	[Address(RVA = "0x6AA7920", Offset = "0x6AA6920", VA = "0x6AA7920", Slot = "135")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x60004BE")]
-	[Address(RVA = "0x30A6CF0", Offset = "0x30A52F0", VA = "0x1830A6CF0", Slot = "8")]
+	[Address(RVA = "0x6AB0F50", Offset = "0x6AAFF50", VA = "0x6AB0F50", Slot = "8")]
 	[EventInterest(new Type[]
 	{
 		typeof(PointerUpEvent),
@@ -1337,7 +1337,7 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	}
 
 	[Token(Token = "0x60004BF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Address(RVA = "0x6AB1270", Offset = "0x6AB0270", VA = "0x6AB1270", Slot = "12")]
 	[EventInterest(EventInterestOptions.Inherit)]
 	[Obsolete("ExecuteDefaultAction override has been removed because default event handling was migrated to HandleEventBubbleUp. Please use HandleEventBubbleUp.", false)]
 	protected override void ExecuteDefaultAction(EventBase evt)
@@ -1345,25 +1345,25 @@ public abstract class BaseVerticalCollectionView : BindableElement, ISerializati
 	}
 
 	[Token(Token = "0x60004C0")]
-	[Address(RVA = "0x30A7EB0", Offset = "0x30A64B0", VA = "0x1830A7EB0")]
+	[Address(RVA = "0x6AB1280", Offset = "0x6AB0280", VA = "0x6AB1280")]
 	private void OnSizeChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60004C1")]
-	[Address(RVA = "0x30A7810", Offset = "0x30A5E10", VA = "0x1830A7810")]
+	[Address(RVA = "0x6AB1530", Offset = "0x6AB0530", VA = "0x6AB1530")]
 	private void OnCustomStyleResolved(CustomStyleResolvedEvent e)
 	{
 	}
 
 	[Token(Token = "0x60004C2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "143")]
+	[Address(RVA = "0x6AB16C0", Offset = "0x6AB06C0", VA = "0x6AB16C0", Slot = "143")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x30AAC60", Offset = "0x30A9260", VA = "0x1830AAC60", Slot = "144")]
+	[Address(RVA = "0x6AB16D0", Offset = "0x6AB06D0", VA = "0x6AB16D0", Slot = "144")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}

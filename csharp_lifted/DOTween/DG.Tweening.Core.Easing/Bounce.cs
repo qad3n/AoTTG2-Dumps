@@ -1,0 +1,35 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Core.Easing.Bounce
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace DG.Tweening.Core.Easing;
+
+[Token(Token = "0x20000C2")]
+public static class Bounce
+{
+	[Token(Token = "0x6000477")]
+	[Address(RVA = "0x319DA60", Offset = "0x319CA60", VA = "0x319DA60")]
+	public static float EaseIn(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
+	{
+		return default(float);
+	}
+
+	[Token(Token = "0x6000478")]
+	[Address(RVA = "0x319DB40", Offset = "0x319CB40", VA = "0x319DB40")]
+	public static float EaseOut(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
+	{
+		return default(float);
+	}
+
+	[Token(Token = "0x6000479")]
+	[Address(RVA = "0x319DBF0", Offset = "0x319CBF0", VA = "0x319DBF0")]
+	public static float EaseInOut(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
+	{
+		return default(float);
+	}
+}

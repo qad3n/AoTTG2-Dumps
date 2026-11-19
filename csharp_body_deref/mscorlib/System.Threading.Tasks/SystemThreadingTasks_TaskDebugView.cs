@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000272")]
+[Token(Token = "0x200024A")]
 internal class SystemThreadingTasks_TaskDebugView
 {
 }

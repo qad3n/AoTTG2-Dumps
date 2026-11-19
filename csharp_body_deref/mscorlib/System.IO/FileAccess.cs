@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000664")]
+[Token(Token = "0x200063D")]
 [Flags]
 public enum FileAccess
 {
-	[Token(Token = "0x4001994")]
+	[Token(Token = "0x40018F7")]
 	Read = 1,
-	[Token(Token = "0x4001995")]
+	[Token(Token = "0x40018F8")]
 	Write = 2,
-	[Token(Token = "0x4001996")]
+	[Token(Token = "0x40018F9")]
 	ReadWrite = Read | Write
 }

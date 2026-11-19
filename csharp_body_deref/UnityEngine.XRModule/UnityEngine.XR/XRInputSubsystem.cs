@@ -22,8 +22,8 @@ public class XRInputSubsystem : IntegratedSubsystem<XRInputSubsystemDescriptor>
 {
 	[Token(Token = "0x400006A")]
 	[FieldOffset(Offset = "0x20")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<XRInputSubsystem> trackingOriginUpdated;
 
 	[Token(Token = "0x400006B")]
@@ -33,21 +33,21 @@ public class XRInputSubsystem : IntegratedSubsystem<XRInputSubsystemDescriptor>
 	private Action<XRInputSubsystem> boundaryChanged;
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x3315440", Offset = "0x3313A40", VA = "0x183315440")]
+	[Address(RVA = "0x6D247B0", Offset = "0x6D237B0", VA = "0x6D247B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private static void InvokeTrackingOriginUpdatedEvent(IntPtr internalPtr)
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x3315390", Offset = "0x3313990", VA = "0x183315390")]
+	[Address(RVA = "0x6D24850", Offset = "0x6D23850", VA = "0x6D24850")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private static void InvokeBoundaryChangedEvent(IntPtr internalPtr)
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x33154F0", Offset = "0x3313AF0", VA = "0x1833154F0")]
+	[Address(RVA = "0x6D248F0", Offset = "0x6D238F0", VA = "0x6D248F0")]
 	public XRInputSubsystem()
 	{
 	}

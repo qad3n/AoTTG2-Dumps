@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000660")]
+[Token(Token = "0x20006BF")]
 public enum HumanDashDirection
 {
-	[Token(Token = "0x4001D68")]
+	[Token(Token = "0x4001F16")]
 	None,
-	[Token(Token = "0x4001D69")]
+	[Token(Token = "0x4001F17")]
 	Forward,
-	[Token(Token = "0x4001D6A")]
+	[Token(Token = "0x4001F18")]
 	Back,
-	[Token(Token = "0x4001D6B")]
+	[Token(Token = "0x4001F19")]
 	Left,
-	[Token(Token = "0x4001D6C")]
+	[Token(Token = "0x4001F1A")]
 	Right
 }

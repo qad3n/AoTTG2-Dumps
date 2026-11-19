@@ -11,28 +11,28 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200017B")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x200017C")]
 [AttributeUsage(AttributeTargets.Class)]
+[UnityEngine.Scripting.UsedByNativeCode]
 public class DefaultExecutionOrder : Attribute
 {
-	[Token(Token = "0x40005CE")]
+	[Token(Token = "0x40005D3")]
 	[FieldOffset(Offset = "0x10")]
 	private int m_Order;
 
-	[Token(Token = "0x1700021F")]
+	[Token(Token = "0x17000224")]
 	public int order
 	{
-		[Token(Token = "0x6000CC5")]
-		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700")]
+		[Token(Token = "0x6000CD7")]
+		[Address(RVA = "0x6911130", Offset = "0x6910130", VA = "0x6911130")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000CC4")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000CD6")]
+	[Address(RVA = "0x69114A0", Offset = "0x69104A0", VA = "0x69114A0")]
 	public DefaultExecutionOrder(int order)
 	{
 	}

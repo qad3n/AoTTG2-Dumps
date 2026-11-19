@@ -24,7 +24,7 @@ internal readonly struct LayoutHandle
 	public static LayoutHandle Undefined
 	{
 		[Token(Token = "0x6002BCC")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x6BBB4E0", Offset = "0x6BBA4E0", VA = "0x6BBB4E0")]
 		get
 		{
 			return default(LayoutHandle);
@@ -32,27 +32,27 @@ internal readonly struct LayoutHandle
 	}
 
 	[Token(Token = "0x6002BCD")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x6BBB6D0", Offset = "0x6BBA6D0", VA = "0x6BBB6D0")]
 	internal LayoutHandle(int index, int version)
 	{
 	}
 
 	[Token(Token = "0x6002BCE")]
-	[Address(RVA = "0x2ED5CB0", Offset = "0x2ED42B0", VA = "0x182ED5CB0")]
+	[Address(RVA = "0x6BBB6E0", Offset = "0x6BBA6E0", VA = "0x6BBB6E0")]
 	public bool Equals(LayoutHandle other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002BCF")]
-	[Address(RVA = "0x31A3ED0", Offset = "0x31A24D0", VA = "0x1831A3ED0", Slot = "0")]
+	[Address(RVA = "0x6BBB700", Offset = "0x6BBA700", VA = "0x6BBB700", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002BD0")]
-	[Address(RVA = "0x2F6AE60", Offset = "0x2F69460", VA = "0x182F6AE60", Slot = "2")]
+	[Address(RVA = "0x6BBB770", Offset = "0x6BBA770", VA = "0x6BBB770", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

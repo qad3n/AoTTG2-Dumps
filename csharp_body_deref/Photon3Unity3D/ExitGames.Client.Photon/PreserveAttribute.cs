@@ -14,7 +14,7 @@ namespace ExitGames.Client.Photon;
 internal class PreserveAttribute : Attribute
 {
 	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x56869B0", Offset = "0x56859B0", VA = "0x56869B0")]
 	public PreserveAttribute()
 	{
 	}

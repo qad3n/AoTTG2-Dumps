@@ -54,7 +54,7 @@ public sealed class GUILayoutOption
 	internal object value;
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0xC83FB0", Offset = "0xC825B0", VA = "0x180C83FB0")]
+	[Address(RVA = "0x698E010", Offset = "0x698D010", VA = "0x698E010")]
 	internal GUILayoutOption(Type type, object value)
 	{
 	}

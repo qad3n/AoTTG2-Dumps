@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Map.CustomLogicAddonTransfer
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Map/CustomLogicAddonTransfer.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,34 +18,34 @@ using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x2000380")]
+[Token(Token = "0x20003DB")]
 internal class CustomLogicAddonTransfer : MonoBehaviour
 {
-	[Token(Token = "0x2000382")]
+	[Token(Token = "0x20003DD")]
 	[CompilerGenerated]
 	private sealed class _003CTransferAddonData_003Ed__12 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400121A")]
+		[Token(Token = "0x40013AB")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400121B")]
+		[Token(Token = "0x40013AC")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400121C")]
+		[Token(Token = "0x40013AD")]
 		[FieldOffset(Offset = "0x20")]
 		public Player player;
 
-		[Token(Token = "0x400121D")]
+		[Token(Token = "0x40013AE")]
 		[FieldOffset(Offset = "0x28")]
 		private int _003Ci_003E5__2;
 
-		[Token(Token = "0x17000262")]
+		[Token(Token = "0x170002A3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6001622")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6001885")]
+			[Address(RVA = "0x586B2A0", Offset = "0x586A2A0", VA = "0x586B2A0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,11 +53,11 @@ internal class CustomLogicAddonTransfer : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000263")]
+		[Token(Token = "0x170002A4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6001624")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6001887")]
+			[Address(RVA = "0x586B2F0", Offset = "0x586A2F0", VA = "0x586B2F0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,108 +65,108 @@ internal class CustomLogicAddonTransfer : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x600161F")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6001882")]
+		[Address(RVA = "0x586AB70", Offset = "0x5869B70", VA = "0x586AB70")]
 		[DebuggerHidden]
 		public _003CTransferAddonData_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6001620")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6001883")]
+		[Address(RVA = "0x586AE30", Offset = "0x5869E30", VA = "0x586AE30", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6001621")]
-		[Address(RVA = "0x1E99D60", Offset = "0x1E98360", VA = "0x181E99D60", Slot = "6")]
+		[Token(Token = "0x6001884")]
+		[Address(RVA = "0x586AE40", Offset = "0x5869E40", VA = "0x586AE40", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001623")]
-		[Address(RVA = "0x1E9A0C0", Offset = "0x1E986C0", VA = "0x181E9A0C0", Slot = "8")]
+		[Token(Token = "0x6001886")]
+		[Address(RVA = "0x586B2B0", Offset = "0x586A2B0", VA = "0x586B2B0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001213")]
+	[Token(Token = "0x40013A4")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool AddonTransferReady;
 
-	[Token(Token = "0x4001214")]
+	[Token(Token = "0x40013A5")]
 	[FieldOffset(Offset = "0x8")]
 	public static string AddonBundleHash;
 
-	[Token(Token = "0x4001215")]
+	[Token(Token = "0x40013A6")]
 	[FieldOffset(Offset = "0x10")]
 	private static CustomLogicAddonTransfer _instance;
 
-	[Token(Token = "0x4001216")]
+	[Token(Token = "0x40013A7")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly CustomLogicTransferData _transferData;
 
-	[Token(Token = "0x4001217")]
+	[Token(Token = "0x40013A8")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly ContentTransferChangeTracker _changeTracker;
 
-	[Token(Token = "0x6001612")]
-	[Address(RVA = "0x1E86CD0", Offset = "0x1E852D0", VA = "0x181E86CD0")]
+	[Token(Token = "0x6001875")]
+	[Address(RVA = "0x5869570", Offset = "0x5868570", VA = "0x5869570")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6001613")]
-	[Address(RVA = "0x1E86E20", Offset = "0x1E85420", VA = "0x181E86E20")]
+	[Token(Token = "0x6001876")]
+	[Address(RVA = "0x5869640", Offset = "0x5868640", VA = "0x5869640")]
 	private static void OnPreLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6001614")]
-	[Address(RVA = "0x1E87010", Offset = "0x1E85610", VA = "0x181E87010")]
+	[Token(Token = "0x6001877")]
+	[Address(RVA = "0x58697B0", Offset = "0x58687B0", VA = "0x58697B0")]
 	public static void Start()
 	{
 	}
 
-	[Token(Token = "0x6001615")]
-	[Address(RVA = "0x1E873C0", Offset = "0x1E859C0", VA = "0x181E873C0")]
+	[Token(Token = "0x6001878")]
+	[Address(RVA = "0x586A5E0", Offset = "0x58695E0", VA = "0x586A5E0")]
 	public static void Transfer(Player player)
 	{
 	}
 
-	[Token(Token = "0x6001616")]
-	[Address(RVA = "0x1E86960", Offset = "0x1E84F60", VA = "0x181E86960")]
+	[Token(Token = "0x6001879")]
+	[Address(RVA = "0x5869B30", Offset = "0x5868B30", VA = "0x5869B30")]
 	private static string BuildBundleJson()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001617")]
-	[Address(RVA = "0x1E86EB0", Offset = "0x1E854B0", VA = "0x181E86EB0")]
+	[Token(Token = "0x600187A")]
+	[Address(RVA = "0x5859430", Offset = "0x5858430", VA = "0x5859430")]
 	public static void OnTransferAddonBundleRPC(byte[][] byteArr, int msgNumber, int msgTotal, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6001618")]
-	[Address(RVA = "0x1E86DB0", Offset = "0x1E853B0", VA = "0x181E86DB0")]
+	[Token(Token = "0x600187B")]
+	[Address(RVA = "0x5859610", Offset = "0x5858610", VA = "0x5859610")]
 	public static void OnLoadCachedAddonBundleRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6001619")]
-	[Address(RVA = "0x1E87350", Offset = "0x1E85950", VA = "0x181E87350")]
+	[Token(Token = "0x600187C")]
+	[Address(RVA = "0x586A6D0", Offset = "0x58696D0", VA = "0x586A6D0")]
 	[IteratorStateMachine(typeof(_003CTransferAddonData_003Ed__12))]
 	private IEnumerator TransferAddonData(Player player)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600161A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x600187D")]
+	[Address(RVA = "0x586AB90", Offset = "0x5869B90", VA = "0x586AB90")]
 	public CustomLogicAddonTransfer()
 	{
 	}

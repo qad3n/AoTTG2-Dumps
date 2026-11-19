@@ -1,5 +1,5 @@
 // Type: RuntimeSceneGizmo.ComponentClickedEvent
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/RuntimeSceneGizmo/ComponentClickedEvent.cs
@@ -8,19 +8,19 @@
 
 // RuntimeSceneGizmo.ComponentClickedEvent$$.ctor
 // il2cpp: void RuntimeSceneGizmo_ComponentClickedEvent___ctor (RuntimeSceneGizmo_ComponentClickedEvent_o* __this, const MethodInfo* method);
-// 0x181dba380
+// 0x586d4c0
 
 void RuntimeSceneGizmo_ComponentClickedEvent___ctor
                (RuntimeSceneGizmo_ComponentClickedEvent_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843449f3 == '\0') {
+  if (Il2CppMethodInitialized_0754514f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Events_UnityEvent_GizmoComponent_ctor);
-    Il2CppMethodInitialized_1843449f3 = '\x01';
+    Il2CppMethodInitialized_0754514f = '\x01';
   }
-  UnityEngine_Events_UnityEvent___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____ctor
-            ((UnityEngine_Events_UnityEvent_T0__T1__T2__T3__o *)__this,
-             (MethodInfo_EBD4F0 *)MethodInfo_UnityEngine_Events_UnityEvent_GizmoComponent_ctor);
+  UnityEngine_Events_UnityEvent_Int32Enum____ctor
+            ((UnityEngine_Events_UnityEvent_T0__o *)__this,
+             (MethodInfo_43189F0 *)MethodInfo_UnityEngine_Events_UnityEvent_GizmoComponent_ctor);
   return;
 }
 

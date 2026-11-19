@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.TextInputEvent
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ internal struct TextInputEvent : IEventProperties
 	public DiscreteTime timestamp
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
+		[Address(RVA = "0x69B6BA0", Offset = "0x69B5BA0", VA = "0x69B6BA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ internal struct TextInputEvent : IEventProperties
 	public EventSource eventSource
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x69B6BB0", Offset = "0x69B5BB0", VA = "0x69B6BB0", Slot = "4")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventSource);
 		}
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x69B6BC0", Offset = "0x69B5BC0", VA = "0x69B6BC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -53,7 +53,7 @@ internal struct TextInputEvent : IEventProperties
 	public uint playerId
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x69B6BD0", Offset = "0x69B5BD0", VA = "0x69B6BD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -64,14 +64,14 @@ internal struct TextInputEvent : IEventProperties
 	public EventModifiers eventModifiers
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "5")]
+		[Address(RVA = "0x69B6BE0", Offset = "0x69B5BE0", VA = "0x69B6BE0", Slot = "5")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventModifiers);
 		}
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x69B6BF0", Offset = "0x69B5BF0", VA = "0x69B6BF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -79,7 +79,7 @@ internal struct TextInputEvent : IEventProperties
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x2FC3090", Offset = "0x2FC1690", VA = "0x182FC3090", Slot = "3")]
+	[Address(RVA = "0x69B6C00", Offset = "0x69B5C00", VA = "0x69B6C00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

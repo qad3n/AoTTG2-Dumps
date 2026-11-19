@@ -19,14 +19,14 @@ internal struct EventInterests
 	public bool wantsMouseMove
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
+		[Address(RVA = "0x697AFA0", Offset = "0x6979FA0", VA = "0x697AFA0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0xFA0680", Offset = "0xF9EC80", VA = "0x180FA0680")]
+		[Address(RVA = "0x697AFB0", Offset = "0x6979FB0", VA = "0x697AFB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,14 +37,14 @@ internal struct EventInterests
 	public bool wantsMouseEnterLeaveWindow
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0xADC3E0", Offset = "0xADA9E0", VA = "0x180ADC3E0")]
+		[Address(RVA = "0x697AFC0", Offset = "0x6979FC0", VA = "0x697AFC0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x1D69F20", Offset = "0x1D68520", VA = "0x181D69F20")]
+		[Address(RVA = "0x697AFD0", Offset = "0x6979FD0", VA = "0x697AFD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -55,7 +55,7 @@ internal struct EventInterests
 	public readonly bool wantsLessLayoutEvents
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x2F83560", Offset = "0x2F81B60", VA = "0x182F83560")]
+		[Address(RVA = "0x697AFE0", Offset = "0x6979FE0", VA = "0x697AFE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -64,14 +64,14 @@ internal struct EventInterests
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x2F83440", Offset = "0x2F81A40", VA = "0x182F83440")]
+	[Address(RVA = "0x697AFF0", Offset = "0x6979FF0", VA = "0x697AFF0")]
 	public bool WantsEvent(EventType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2F83460", Offset = "0x2F81A60", VA = "0x182F83460")]
+	[Address(RVA = "0x697B010", Offset = "0x697A010", VA = "0x697B010")]
 	public bool WantsLayoutPass(EventType type)
 	{
 		return default(bool);

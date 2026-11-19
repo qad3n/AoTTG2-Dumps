@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000118")]
+[Token(Token = "0x2000119")]
 public enum LineTextureMode
 {
-	[Token(Token = "0x4000384")]
+	[Token(Token = "0x4000389")]
 	Stretch,
-	[Token(Token = "0x4000385")]
+	[Token(Token = "0x400038A")]
 	Tile,
-	[Token(Token = "0x4000386")]
+	[Token(Token = "0x400038B")]
 	DistributePerSegment,
-	[Token(Token = "0x4000387")]
+	[Token(Token = "0x400038C")]
 	RepeatPerSegment,
-	[Token(Token = "0x4000388")]
+	[Token(Token = "0x400038D")]
 	Static
 }

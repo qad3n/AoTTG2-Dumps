@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000405")]
+[Token(Token = "0x20003DE")]
 internal static class SerializationEventsCache
 {
-	[Token(Token = "0x4000FDD")]
+	[Token(Token = "0x4000F3D")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ConcurrentDictionary<Type, System.Runtime.Serialization.SerializationEvents> s_cache;
 
-	[Token(Token = "0x6001FC5")]
-	[Address(RVA = "0x1A1E7C0", Offset = "0x1A1CDC0", VA = "0x181A1E7C0")]
+	[Token(Token = "0x6001F9B")]
+	[Address(RVA = "0x539C4B0", Offset = "0x539B4B0", VA = "0x539C4B0")]
 	internal static System.Runtime.Serialization.SerializationEvents GetSerializationEventsForType(Type t)
 	{
 		return null;

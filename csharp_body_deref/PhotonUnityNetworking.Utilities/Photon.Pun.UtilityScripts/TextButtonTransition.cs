@@ -33,37 +33,37 @@ public class TextButtonTransition : MonoBehaviour, IPointerEnterHandler, IEventS
 	public Color HoverColor;
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x1D5FA20", Offset = "0x1D5E020", VA = "0x181D5FA20")]
+	[Address(RVA = "0x56F8C00", Offset = "0x56F7C00", VA = "0x56F8C00")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x1D5FA70", Offset = "0x1D5E070", VA = "0x181D5FA70")]
+	[Address(RVA = "0x56F8C50", Offset = "0x56F7C50", VA = "0x56F8C50")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x1D5FA70", Offset = "0x1D5E070", VA = "0x181D5FA70")]
+	[Address(RVA = "0x56F8C80", Offset = "0x56F7C80", VA = "0x56F8C80")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x1D5FAB0", Offset = "0x1D5E0B0", VA = "0x181D5FAB0", Slot = "4")]
+	[Address(RVA = "0x56F8CB0", Offset = "0x56F7CB0", VA = "0x56F8CB0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x1D5FB60", Offset = "0x1D5E160", VA = "0x181D5FB60", Slot = "5")]
+	[Address(RVA = "0x56F8D60", Offset = "0x56F7D60", VA = "0x56F8D60", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x1D5FC10", Offset = "0x1D5E210", VA = "0x181D5FC10")]
+	[Address(RVA = "0x56F8E10", Offset = "0x56F7E10", VA = "0x56F8E10")]
 	public TextButtonTransition()
 	{
 	}

@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003D3")]
+[Token(Token = "0x20003AC")]
 internal class ClientContextReplySink : IMessageSink
 {
-	[Token(Token = "0x4000F71")]
+	[Token(Token = "0x4000ED1")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink _replySink;
 
-	[Token(Token = "0x4000F72")]
+	[Token(Token = "0x4000ED2")]
 	[FieldOffset(Offset = "0x18")]
 	private Context _context;
 
-	[Token(Token = "0x6001EAC")]
-	[Address(RVA = "0x19ED830", Offset = "0x19EBE30", VA = "0x1819ED830")]
+	[Token(Token = "0x6001E82")]
+	[Address(RVA = "0x5392330", Offset = "0x5391330", VA = "0x5392330")]
 	public ClientContextReplySink(Context ctx, IMessageSink replySink)
 	{
 	}
 
-	[Token(Token = "0x6001EAD")]
-	[Address(RVA = "0x19F4180", Offset = "0x19F2780", VA = "0x1819F4180", Slot = "4")]
+	[Token(Token = "0x6001E83")]
+	[Address(RVA = "0x5392370", Offset = "0x5391370", VA = "0x5392370", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001EAE")]
-	[Address(RVA = "0x19F4140", Offset = "0x19F2740", VA = "0x1819F4140", Slot = "5")]
+	[Token(Token = "0x6001E84")]
+	[Address(RVA = "0x53924B0", Offset = "0x53914B0", VA = "0x53924B0", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

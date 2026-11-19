@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ExceptionServices;
 
-[Token(Token = "0x200048A")]
+[Token(Token = "0x2000463")]
 public class FirstChanceExceptionEventArgs : EventArgs
 {
 }

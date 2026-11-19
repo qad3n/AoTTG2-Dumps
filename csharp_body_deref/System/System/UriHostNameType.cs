@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000C9")]
+[Token(Token = "0x200008A")]
 public enum UriHostNameType
 {
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x4000213")]
 	Unknown,
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x4000214")]
 	Basic,
-	[Token(Token = "0x40002E4")]
+	[Token(Token = "0x4000215")]
 	Dns,
-	[Token(Token = "0x40002E5")]
+	[Token(Token = "0x4000216")]
 	IPv4,
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x4000217")]
 	IPv6
 }

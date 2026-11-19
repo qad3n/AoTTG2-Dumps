@@ -66,7 +66,7 @@ public class OpusEncoder : IDisposable
 	public SamplingRate InputSamplingRate
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x57000F0", Offset = "0x56FF0F0", VA = "0x57000F0")]
 		get
 		{
 			return default(SamplingRate);
@@ -77,7 +77,7 @@ public class OpusEncoder : IDisposable
 	public Channels InputChannels
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x5700100", Offset = "0x56FF100", VA = "0x5700100")]
 		get
 		{
 			return default(Channels);
@@ -88,13 +88,13 @@ public class OpusEncoder : IDisposable
 	public Delay EncoderDelay
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x57001F0", Offset = "0x56FF1F0", VA = "0x57001F0")]
 		get
 		{
 			return default(Delay);
 		}
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x1D70260", Offset = "0x1D6E860", VA = "0x181D70260")]
+		[Address(RVA = "0x5700110", Offset = "0x56FF110", VA = "0x5700110")]
 		set
 		{
 		}
@@ -104,7 +104,7 @@ public class OpusEncoder : IDisposable
 	public int FrameSizePerChannel
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5700200", Offset = "0x56FF200", VA = "0x5700200")]
 		get
 		{
 			return default(int);
@@ -115,13 +115,13 @@ public class OpusEncoder : IDisposable
 	public int Bitrate
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x1D700E0", Offset = "0x1D6E6E0", VA = "0x181D700E0")]
+		[Address(RVA = "0x5700210", Offset = "0x56FF210", VA = "0x5700210")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x1D70200", Offset = "0x1D6E800", VA = "0x181D70200")]
+		[Address(RVA = "0x5700410", Offset = "0x56FF410", VA = "0x5700410")]
 		set
 		{
 		}
@@ -131,13 +131,13 @@ public class OpusEncoder : IDisposable
 	public Bandwidth MaxBandwidth
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x1D70180", Offset = "0x1D6E780", VA = "0x181D70180")]
+		[Address(RVA = "0x5700660", Offset = "0x56FF660", VA = "0x5700660")]
 		get
 		{
 			return default(Bandwidth);
 		}
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x1D703B0", Offset = "0x1D6E9B0", VA = "0x181D703B0")]
+		[Address(RVA = "0x5700670", Offset = "0x56FF670", VA = "0x5700670")]
 		set
 		{
 		}
@@ -147,13 +147,13 @@ public class OpusEncoder : IDisposable
 	public Complexity Complexity
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x1D70100", Offset = "0x1D6E700", VA = "0x181D70100")]
+		[Address(RVA = "0x5700680", Offset = "0x56FF680", VA = "0x5700680")]
 		get
 		{
 			return default(Complexity);
 		}
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x1D70220", Offset = "0x1D6E820", VA = "0x181D70220")]
+		[Address(RVA = "0x5700690", Offset = "0x56FF690", VA = "0x5700690")]
 		set
 		{
 		}
@@ -163,13 +163,13 @@ public class OpusEncoder : IDisposable
 	public int ExpectedPacketLossPercentage
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x1D70140", Offset = "0x1D6E740", VA = "0x181D70140")]
+		[Address(RVA = "0x57006A0", Offset = "0x56FF6A0", VA = "0x57006A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x1D70370", Offset = "0x1D6E970", VA = "0x181D70370")]
+		[Address(RVA = "0x57006B0", Offset = "0x56FF6B0", VA = "0x57006B0")]
 		set
 		{
 		}
@@ -179,13 +179,13 @@ public class OpusEncoder : IDisposable
 	public SignalHint SignalHint
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x1D701A0", Offset = "0x1D6E7A0", VA = "0x181D701A0")]
+		[Address(RVA = "0x57006C0", Offset = "0x56FF6C0", VA = "0x57006C0")]
 		get
 		{
 			return default(SignalHint);
 		}
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x1D703D0", Offset = "0x1D6E9D0", VA = "0x181D703D0")]
+		[Address(RVA = "0x57006D0", Offset = "0x56FF6D0", VA = "0x57006D0")]
 		set
 		{
 		}
@@ -195,13 +195,13 @@ public class OpusEncoder : IDisposable
 	public ForceChannels ForceChannels
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x1D70160", Offset = "0x1D6E760", VA = "0x181D70160")]
+		[Address(RVA = "0x57006E0", Offset = "0x56FF6E0", VA = "0x57006E0")]
 		get
 		{
 			return default(ForceChannels);
 		}
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x1D70390", Offset = "0x1D6E990", VA = "0x181D70390")]
+		[Address(RVA = "0x57006F0", Offset = "0x56FF6F0", VA = "0x57006F0")]
 		set
 		{
 		}
@@ -211,13 +211,13 @@ public class OpusEncoder : IDisposable
 	public bool UseInbandFEC
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x1D701C0", Offset = "0x1D6E7C0", VA = "0x181D701C0")]
+		[Address(RVA = "0x5700700", Offset = "0x56FF700", VA = "0x5700700")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x1D703F0", Offset = "0x1D6E9F0", VA = "0x181D703F0")]
+		[Address(RVA = "0x5700720", Offset = "0x56FF720", VA = "0x5700720")]
 		set
 		{
 		}
@@ -227,13 +227,13 @@ public class OpusEncoder : IDisposable
 	public int PacketLossPercentage
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x1D70140", Offset = "0x1D6E740", VA = "0x181D70140")]
+		[Address(RVA = "0x5700730", Offset = "0x56FF730", VA = "0x5700730")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x1D70370", Offset = "0x1D6E970", VA = "0x181D70370")]
+		[Address(RVA = "0x5700740", Offset = "0x56FF740", VA = "0x5700740")]
 		set
 		{
 		}
@@ -243,13 +243,13 @@ public class OpusEncoder : IDisposable
 	public bool UseUnconstrainedVBR
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x1D701E0", Offset = "0x1D6E7E0", VA = "0x181D701E0")]
+		[Address(RVA = "0x5700750", Offset = "0x56FF750", VA = "0x5700750")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x1D70410", Offset = "0x1D6EA10", VA = "0x181D70410")]
+		[Address(RVA = "0x5700770", Offset = "0x56FF770", VA = "0x5700770")]
 		set
 		{
 		}
@@ -259,51 +259,51 @@ public class OpusEncoder : IDisposable
 	public bool DtxEnabled
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x1D70120", Offset = "0x1D6E720", VA = "0x181D70120")]
+		[Address(RVA = "0x5700790", Offset = "0x56FF790", VA = "0x5700790")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x1D70240", Offset = "0x1D6E840", VA = "0x181D70240")]
+		[Address(RVA = "0x57007B0", Offset = "0x56FF7B0", VA = "0x57007B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x1D6F5E0", Offset = "0x1D6DBE0", VA = "0x181D6F5E0")]
+	[Address(RVA = "0x57007C0", Offset = "0x56FF7C0", VA = "0x57007C0")]
 	public OpusEncoder(SamplingRate inputSamplingRateHz, Channels numChannels, int bitrate, OpusApplicationType applicationType, Delay encoderDelay)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x1D6F0E0", Offset = "0x1D6D6E0", VA = "0x181D6F0E0")]
+	[Address(RVA = "0x5700040", Offset = "0x56FF040", VA = "0x5700040")]
 	[MonoPInvokeCallback(typeof(Action<IntPtr, IntPtr, int>))]
 	public static void DataCallbackStatic(IntPtr handle, IntPtr p, int count)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x1D6FFB0", Offset = "0x1D6E5B0", VA = "0x181D6FFB0")]
+	[Address(RVA = "0x57010B0", Offset = "0x57000B0", VA = "0x57010B0")]
 	private void dataCallback(IntPtr p, int count)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x1D6F380", Offset = "0x1D6D980", VA = "0x181D6F380")]
+	[Address(RVA = "0x57011C0", Offset = "0x57001C0", VA = "0x57011C0")]
 	public void Encode(float[] pcmSamples)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x1D6F430", Offset = "0x1D6DA30", VA = "0x181D6F430")]
+	[Address(RVA = "0x57014C0", Offset = "0x57004C0", VA = "0x57014C0")]
 	public void Encode(short[] pcmSamples)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x1D6F2A0", Offset = "0x1D6D8A0", VA = "0x181D6F2A0", Slot = "4")]
+	[Address(RVA = "0x57017C0", Offset = "0x57007C0", VA = "0x57017C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

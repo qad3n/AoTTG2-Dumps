@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicComponentInstance
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicComponentInstance.c
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/Component/CustomLogicComponentInstance.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,122 +12,122 @@ using Map;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005D3")]
+[Token(Token = "0x2000632")]
 internal class CustomLogicComponentInstance : UserClassInstance
 {
-	[Token(Token = "0x4001900")]
+	[Token(Token = "0x4001AA1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public CustomLogicMapObjectBuiltin MapObject;
 
-	[Token(Token = "0x4001901")]
+	[Token(Token = "0x4001AA2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	public CustomLogicNetworkViewBuiltin NetworkView;
 
-	[Token(Token = "0x4001902")]
+	[Token(Token = "0x4001AA3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private MapScriptComponent _script;
 
-	[Token(Token = "0x4001903")]
+	[Token(Token = "0x4001AA4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private readonly HashSet<CustomLogicLineRendererBuiltin> _lineRenderers;
 
-	[Token(Token = "0x17000A16")]
+	[Token(Token = "0x17000A5E")]
 	public override bool Enabled
 	{
-		[Token(Token = "0x600388C")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "4")]
+		[Token(Token = "0x6003B1A")]
+		[Address(RVA = "0x5A6C560", Offset = "0x5A6B560", VA = "0x5A6C560", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600388D")]
-		[Address(RVA = "0x209F560", Offset = "0x209DB60", VA = "0x18209F560", Slot = "5")]
+		[Token(Token = "0x6003B1B")]
+		[Address(RVA = "0x5A6C570", Offset = "0x5A6B570", VA = "0x5A6C570", Slot = "5")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600388E")]
-	[Address(RVA = "0x209F1A0", Offset = "0x209D7A0", VA = "0x18209F1A0")]
+	[Token(Token = "0x6003B1C")]
+	[Address(RVA = "0x5A6C610", Offset = "0x5A6B610", VA = "0x5A6C610")]
 	public void RegisterLineRenderer(CustomLogicLineRendererBuiltin lineRenderer)
 	{
 	}
 
-	[Token(Token = "0x600388F")]
-	[Address(RVA = "0x209F200", Offset = "0x209D800", VA = "0x18209F200")]
+	[Token(Token = "0x6003B1D")]
+	[Address(RVA = "0x5A6C660", Offset = "0x5A6B660", VA = "0x5A6C660")]
 	public void UnregisterLineRenderer(CustomLogicLineRendererBuiltin lineRenderer)
 	{
 	}
 
-	[Token(Token = "0x6003890")]
-	[Address(RVA = "0x209E520", Offset = "0x209CB20", VA = "0x18209E520")]
+	[Token(Token = "0x6003B1E")]
+	[Address(RVA = "0x5A6C580", Offset = "0x5A6B580", VA = "0x5A6C580")]
 	public void DestroyLineRenderers()
 	{
 	}
 
-	[Token(Token = "0x6003891")]
-	[Address(RVA = "0x209F390", Offset = "0x209D990", VA = "0x18209F390")]
+	[Token(Token = "0x6003B1F")]
+	[Address(RVA = "0x5A6C6B0", Offset = "0x5A6B6B0", VA = "0x5A6C6B0")]
 	public CustomLogicComponentInstance(string name, MapObject obj, MapScriptComponent script, CustomLogicNetworkViewBuiltin networkView)
 	{
 	}
 
-	[Token(Token = "0x6003892")]
-	[Address(RVA = "0x209F4A0", Offset = "0x209DAA0", VA = "0x18209F4A0")]
+	[Token(Token = "0x6003B20")]
+	[Address(RVA = "0x5A6C7C0", Offset = "0x5A6B7C0", VA = "0x5A6C7C0")]
 	public CustomLogicComponentInstance(string name, CustomLogicMapObjectBuiltin obj, MapScriptComponent script, CustomLogicNetworkViewBuiltin networkView)
 	{
 	}
 
-	[Token(Token = "0x6003893")]
-	[Address(RVA = "0x209E670", Offset = "0x209CC70", VA = "0x18209E670")]
+	[Token(Token = "0x6003B21")]
+	[Address(RVA = "0x5A6C890", Offset = "0x5A6B890", VA = "0x5A6C890")]
 	public void LoadVariables()
 	{
 	}
 
-	[Token(Token = "0x6003894")]
-	[Address(RVA = "0x209F260", Offset = "0x209D860", VA = "0x18209F260")]
+	[Token(Token = "0x6003B22")]
+	[Address(RVA = "0x5A6D9C0", Offset = "0x5A6C9C0", VA = "0x5A6D9C0")]
 	public bool UsesCollider()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003895")]
-	[Address(RVA = "0x209ED00", Offset = "0x209D300", VA = "0x18209ED00")]
+	[Token(Token = "0x6003B23")]
+	[Address(RVA = "0x5A6B820", Offset = "0x5A6A820", VA = "0x5A6B820")]
 	public void OnCollisionStay(BuiltinClassInstance other, [Optional] BuiltinClassInstance collision)
 	{
 	}
 
-	[Token(Token = "0x6003896")]
-	[Address(RVA = "0x209EB00", Offset = "0x209D100", VA = "0x18209EB00")]
+	[Token(Token = "0x6003B24")]
+	[Address(RVA = "0x5A6B510", Offset = "0x5A6A510", VA = "0x5A6B510")]
 	public void OnCollisionEnter(BuiltinClassInstance other, [Optional] BuiltinClassInstance collision)
 	{
 	}
 
-	[Token(Token = "0x6003897")]
-	[Address(RVA = "0x209EC00", Offset = "0x209D200", VA = "0x18209EC00")]
+	[Token(Token = "0x6003B25")]
+	[Address(RVA = "0x5A6BB30", Offset = "0x5A6AB30", VA = "0x5A6BB30")]
 	public void OnCollisionExit(BuiltinClassInstance other, [Optional] BuiltinClassInstance collision)
 	{
 	}
 
-	[Token(Token = "0x6003898")]
-	[Address(RVA = "0x209EE00", Offset = "0x209D400", VA = "0x18209EE00")]
+	[Token(Token = "0x6003B26")]
+	[Address(RVA = "0x5A6AD70", Offset = "0x5A69D70", VA = "0x5A6AD70")]
 	public void OnGetHit(CustomLogicCharacterBuiltin character, string name, int damage, string type, CustomLogicVector3Builtin position)
 	{
 	}
 
-	[Token(Token = "0x6003899")]
-	[Address(RVA = "0x209F020", Offset = "0x209D620", VA = "0x18209F020")]
+	[Token(Token = "0x6003B27")]
+	[Address(RVA = "0x5A6B1B0", Offset = "0x5A6A1B0", VA = "0x5A6B1B0")]
 	public void OnGetHooked(CustomLogicHumanBuiltin human, CustomLogicVector3Builtin position, bool left)
 	{
 	}
 
-	[Token(Token = "0x600389A")]
-	[Address(RVA = "0x209E5A0", Offset = "0x209CBA0", VA = "0x18209E5A0")]
+	[Token(Token = "0x6003B28")]
+	[Address(RVA = "0x5A6DBC0", Offset = "0x5A6CBC0", VA = "0x5A6DBC0")]
 	public void EvaluateMethodForCallbacks(string methodName, [Optional] object[] parameters)
 	{
 	}
 
-	[Token(Token = "0x600389B")]
-	[Address(RVA = "0x209DF70", Offset = "0x209C570", VA = "0x18209DF70")]
+	[Token(Token = "0x6003B29")]
+	[Address(RVA = "0x5A6CE50", Offset = "0x5A6BE50", VA = "0x5A6CE50")]
 	public static object DeserializeValue(object obj, string value)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.IntegerField
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public class IntegerField : TextValueField<int>
 	public new class UxmlFactory : UxmlFactory<IntegerField, UxmlTraits>
 	{
 		[Token(Token = "0x6000724")]
-		[Address(RVA = "0x3224DA0", Offset = "0x32233A0", VA = "0x183224DA0")]
+		[Address(RVA = "0x6C0D250", Offset = "0x6C0C250", VA = "0x6C0D250")]
 		public UxmlFactory()
 		{
 		}
@@ -31,7 +31,7 @@ public class IntegerField : TextValueField<int>
 	public new class UxmlTraits : TextValueFieldTraits<int, UxmlIntAttributeDescription>
 	{
 		[Token(Token = "0x6000725")]
-		[Address(RVA = "0x3226800", Offset = "0x3224E00", VA = "0x183226800")]
+		[Address(RVA = "0x6C0D290", Offset = "0x6C0C290", VA = "0x6C0D290")]
 		public UxmlTraits()
 		{
 		}
@@ -44,7 +44,7 @@ public class IntegerField : TextValueField<int>
 		private IntegerField parentIntegerField
 		{
 			[Token(Token = "0x6000726")]
-			[Address(RVA = "0x32162E0", Offset = "0x32148E0", VA = "0x1832162E0")]
+			[Address(RVA = "0x6C0D2D0", Offset = "0x6C0C2D0", VA = "0x6C0D2D0")]
 			get
 			{
 				return null;
@@ -55,7 +55,7 @@ public class IntegerField : TextValueField<int>
 		protected override string allowedCharacters
 		{
 			[Token(Token = "0x6000728")]
-			[Address(RVA = "0x3216230", Offset = "0x3214830", VA = "0x183216230", Slot = "143")]
+			[Address(RVA = "0x6C0D3D0", Offset = "0x6C0C3D0", VA = "0x6C0D3D0", Slot = "143")]
 			get
 			{
 				return null;
@@ -63,26 +63,26 @@ public class IntegerField : TextValueField<int>
 		}
 
 		[Token(Token = "0x6000727")]
-		[Address(RVA = "0x32161A0", Offset = "0x32147A0", VA = "0x1832161A0")]
+		[Address(RVA = "0x6C0D340", Offset = "0x6C0C340", VA = "0x6C0D340")]
 		internal IntegerInput()
 		{
 		}
 
 		[Token(Token = "0x6000729")]
-		[Address(RVA = "0x3215F60", Offset = "0x3214560", VA = "0x183215F60", Slot = "144")]
+		[Address(RVA = "0x6C0D4C0", Offset = "0x6C0C4C0", VA = "0x6C0D4C0", Slot = "144")]
 		public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, int startValue)
 		{
 		}
 
 		[Token(Token = "0x600072A")]
-		[Address(RVA = "0x3216150", Offset = "0x3214750", VA = "0x183216150", Slot = "145")]
+		[Address(RVA = "0x6C0D810", Offset = "0x6C0C810", VA = "0x6C0D810", Slot = "145")]
 		protected override string ValueToString(int v)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600072B")]
-		[Address(RVA = "0x3216110", Offset = "0x3214710", VA = "0x183216110", Slot = "141")]
+		[Address(RVA = "0x6C0D860", Offset = "0x6C0C860", VA = "0x6C0D860", Slot = "141")]
 		protected override int StringToValue(string str)
 		{
 			return default(int);
@@ -105,7 +105,7 @@ public class IntegerField : TextValueField<int>
 	private IntegerInput integerInput
 	{
 		[Token(Token = "0x600071C")]
-		[Address(RVA = "0x31DDA40", Offset = "0x31DC040", VA = "0x1831DDA40")]
+		[Address(RVA = "0x6BEE0F0", Offset = "0x6BED0F0", VA = "0x6BEE0F0")]
 		get
 		{
 			return null;
@@ -113,40 +113,40 @@ public class IntegerField : TextValueField<int>
 	}
 
 	[Token(Token = "0x600071D")]
-	[Address(RVA = "0x31DD5A0", Offset = "0x31DBBA0", VA = "0x1831DD5A0", Slot = "161")]
+	[Address(RVA = "0x6BEE160", Offset = "0x6BED160", VA = "0x6BEE160", Slot = "161")]
 	protected override string ValueToString(int v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600071E")]
-	[Address(RVA = "0x31DD480", Offset = "0x31DBA80", VA = "0x1831DD480", Slot = "162")]
+	[Address(RVA = "0x6BEE200", Offset = "0x6BED200", VA = "0x6BEE200", Slot = "162")]
 	protected override int StringToValue(string str)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600071F")]
-	[Address(RVA = "0x31DD8D0", Offset = "0x31DBED0", VA = "0x1831DD8D0")]
+	[Address(RVA = "0x6BEE300", Offset = "0x6BED300", VA = "0x6BEE300")]
 	public IntegerField()
 	{
 	}
 
 	[Token(Token = "0x6000720")]
-	[Address(RVA = "0x31DD760", Offset = "0x31DBD60", VA = "0x1831DD760")]
+	[Address(RVA = "0x6BEE310", Offset = "0x6BED310", VA = "0x6BEE310")]
 	public IntegerField(string label, int maxLength = 1000)
 	{
 	}
 
 	[Token(Token = "0x6000721")]
-	[Address(RVA = "0x31DD450", Offset = "0x31DBA50", VA = "0x1831DD450", Slot = "171")]
+	[Address(RVA = "0x6BEE480", Offset = "0x6BED480", VA = "0x6BEE480", Slot = "171")]
 	internal override bool CanTryParse(string textString)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000722")]
-	[Address(RVA = "0x31DD390", Offset = "0x31DB990", VA = "0x1831DD390", Slot = "170")]
+	[Address(RVA = "0x6BEE4A0", Offset = "0x6BED4A0", VA = "0x6BEE4A0", Slot = "170")]
 	public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, int startValue)
 	{
 	}

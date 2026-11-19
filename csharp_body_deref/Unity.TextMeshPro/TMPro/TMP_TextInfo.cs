@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_TextInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -88,73 +88,73 @@ public class TMP_TextInfo
 	private TMP_MeshInfo[] m_CachedMeshInfo;
 
 	[Token(Token = "0x6000599")]
-	[Address(RVA = "0x2D46E90", Offset = "0x2D45490", VA = "0x182D46E90")]
+	[Address(RVA = "0x6740810", Offset = "0x673F810", VA = "0x6740810")]
 	public TMP_TextInfo()
 	{
 	}
 
 	[Token(Token = "0x600059A")]
-	[Address(RVA = "0x2D47180", Offset = "0x2D45780", VA = "0x182D47180")]
+	[Address(RVA = "0x6740950", Offset = "0x673F950", VA = "0x6740950")]
 	internal TMP_TextInfo(int characterCount)
 	{
 	}
 
 	[Token(Token = "0x600059B")]
-	[Address(RVA = "0x2D46FD0", Offset = "0x2D455D0", VA = "0x182D46FD0")]
+	[Address(RVA = "0x6740AA0", Offset = "0x673FAA0", VA = "0x6740AA0")]
 	public TMP_TextInfo(TMP_Text textComponent)
 	{
 	}
 
 	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x2D46720", Offset = "0x2D44D20", VA = "0x182D46720")]
+	[Address(RVA = "0x6740C50", Offset = "0x673FC50", VA = "0x6740C50")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x2D45F20", Offset = "0x2D44520", VA = "0x182D45F20")]
+	[Address(RVA = "0x6740D10", Offset = "0x673FD10", VA = "0x6740D10")]
 	internal void ClearAllData()
 	{
 	}
 
 	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x2D46470", Offset = "0x2D44A70", VA = "0x182D46470")]
+	[Address(RVA = "0x6740E60", Offset = "0x673FE60", VA = "0x6740E60")]
 	public void ClearMeshInfo(bool updateMesh)
 	{
 	}
 
 	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x2D46070", Offset = "0x2D44670", VA = "0x182D46070")]
+	[Address(RVA = "0x6740F10", Offset = "0x673FF10", VA = "0x6740F10")]
 	public void ClearAllMeshInfo()
 	{
 	}
 
 	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x2D46D70", Offset = "0x2D45370", VA = "0x182D46D70")]
+	[Address(RVA = "0x6740FC0", Offset = "0x673FFC0", VA = "0x6740FC0")]
 	public void ResetVertexLayout(bool isVolumetric)
 	{
 	}
 
 	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x2D46650", Offset = "0x2D44C50", VA = "0x182D46650")]
+	[Address(RVA = "0x6741070", Offset = "0x6740070", VA = "0x6741070")]
 	public void ClearUnusedVertices(MaterialReference[] materials)
 	{
 	}
 
 	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x2D46120", Offset = "0x2D44720", VA = "0x182D46120")]
+	[Address(RVA = "0x6741130", Offset = "0x6740130", VA = "0x6741130")]
 	internal void ClearLineInfo()
 	{
 	}
 
 	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x2D46530", Offset = "0x2D44B30", VA = "0x182D46530")]
+	[Address(RVA = "0x67412D0", Offset = "0x67402D0", VA = "0x67412D0")]
 	internal void ClearPageInfo()
 	{
 	}
 
 	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x2D467A0", Offset = "0x2D44DA0", VA = "0x182D467A0")]
+	[Address(RVA = "0x67413B0", Offset = "0x67403B0", VA = "0x67413B0")]
 	public TMP_MeshInfo[] CopyMeshInfoVertexData()
 	{
 		return null;

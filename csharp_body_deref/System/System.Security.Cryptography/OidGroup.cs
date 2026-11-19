@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000126")]
+[Token(Token = "0x20000E7")]
 public enum OidGroup
 {
-	[Token(Token = "0x400050F")]
+	[Token(Token = "0x4000440")]
 	All,
-	[Token(Token = "0x4000510")]
+	[Token(Token = "0x4000441")]
 	HashAlgorithm,
-	[Token(Token = "0x4000511")]
+	[Token(Token = "0x4000442")]
 	EncryptionAlgorithm,
-	[Token(Token = "0x4000512")]
+	[Token(Token = "0x4000443")]
 	PublicKeyAlgorithm,
-	[Token(Token = "0x4000513")]
+	[Token(Token = "0x4000444")]
 	SignatureAlgorithm,
-	[Token(Token = "0x4000514")]
+	[Token(Token = "0x4000445")]
 	Attribute,
-	[Token(Token = "0x4000515")]
+	[Token(Token = "0x4000446")]
 	ExtensionOrAttribute,
-	[Token(Token = "0x4000516")]
+	[Token(Token = "0x4000447")]
 	EnhancedKeyUsage,
-	[Token(Token = "0x4000517")]
+	[Token(Token = "0x4000448")]
 	Policy,
-	[Token(Token = "0x4000518")]
+	[Token(Token = "0x4000449")]
 	Template,
-	[Token(Token = "0x4000519")]
+	[Token(Token = "0x400044A")]
 	KeyDerivationFunction
 }

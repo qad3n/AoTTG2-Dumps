@@ -14,7 +14,7 @@ namespace UnityEngine;
 internal static class Internal_SubsystemDescriptors
 {
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2FF7640", Offset = "0x2FF5C40", VA = "0x182FF7640")]
+	[Address(RVA = "0x69F1E40", Offset = "0x69F0E40", VA = "0x69F1E40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void Internal_AddDescriptor(SubsystemDescriptor descriptor)
 	{

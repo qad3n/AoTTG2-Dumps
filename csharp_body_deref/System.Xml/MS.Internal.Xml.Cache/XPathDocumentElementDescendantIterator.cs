@@ -30,26 +30,26 @@ internal class XPathDocumentElementDescendantIterator : XPathDocumentBaseIterato
 	private bool _matchSelf;
 
 	[Token(Token = "0x6001C76")]
-	[Address(RVA = "0x26D5530", Offset = "0x26D3B30", VA = "0x1826D5530")]
+	[Address(RVA = "0x6094BD0", Offset = "0x6093BD0", VA = "0x6094BD0")]
 	public XPathDocumentElementDescendantIterator(XPathDocumentNavigator root, string name, string namespaceURI, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C77")]
-	[Address(RVA = "0x26D5730", Offset = "0x26D3D30", VA = "0x1826D5730")]
+	[Address(RVA = "0x6094D80", Offset = "0x6093D80", VA = "0x6094D80")]
 	public XPathDocumentElementDescendantIterator(XPathDocumentElementDescendantIterator iter)
 	{
 	}
 
 	[Token(Token = "0x6001C78")]
-	[Address(RVA = "0x26D5360", Offset = "0x26D3960", VA = "0x1826D5360", Slot = "6")]
+	[Address(RVA = "0x6094E40", Offset = "0x6093E40", VA = "0x6094E40", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C79")]
-	[Address(RVA = "0x26D5400", Offset = "0x26D3A00", VA = "0x1826D5400", Slot = "7")]
+	[Address(RVA = "0x6094E90", Offset = "0x6093E90", VA = "0x6094E90", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

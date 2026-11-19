@@ -56,13 +56,13 @@ public class KerningPair
 	public uint firstGlyph
 	{
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x66F34A0", Offset = "0x66F24A0", VA = "0x66F34A0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x66F34B0", Offset = "0x66F24B0", VA = "0x66F34B0")]
 		set
 		{
 		}
@@ -72,7 +72,7 @@ public class KerningPair
 	public GlyphValueRecord_Legacy firstGlyphAdjustments
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x1165450", Offset = "0x1163A50", VA = "0x181165450")]
+		[Address(RVA = "0x66F34C0", Offset = "0x66F24C0", VA = "0x66F34C0")]
 		get
 		{
 			return default(GlyphValueRecord_Legacy);
@@ -83,13 +83,13 @@ public class KerningPair
 	public uint secondGlyph
 	{
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x66F34D0", Offset = "0x66F24D0", VA = "0x66F34D0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x66F34E0", Offset = "0x66F24E0", VA = "0x66F34E0")]
 		set
 		{
 		}
@@ -99,7 +99,7 @@ public class KerningPair
 	public GlyphValueRecord_Legacy secondGlyphAdjustments
 	{
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x66F34F0", Offset = "0x66F24F0", VA = "0x66F34F0")]
 		get
 		{
 			return default(GlyphValueRecord_Legacy);
@@ -110,7 +110,7 @@ public class KerningPair
 	public bool ignoreSpacingAdjustments
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0xDA7C70", Offset = "0xDA6270", VA = "0x180DA7C70")]
+		[Address(RVA = "0x66F3500", Offset = "0x66F2500", VA = "0x66F3500")]
 		get
 		{
 			return default(bool);
@@ -118,25 +118,25 @@ public class KerningPair
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x2CF4750", Offset = "0x2CF2D50", VA = "0x182CF4750")]
+	[Address(RVA = "0x66F3510", Offset = "0x66F2510", VA = "0x66F3510")]
 	public KerningPair()
 	{
 	}
 
 	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x2CF46C0", Offset = "0x2CF2CC0", VA = "0x182CF46C0")]
+	[Address(RVA = "0x66F3530", Offset = "0x66F2530", VA = "0x66F3530")]
 	public KerningPair(uint left, uint right, float offset)
 	{
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x2CF4710", Offset = "0x2CF2D10", VA = "0x182CF4710")]
+	[Address(RVA = "0x66F3570", Offset = "0x66F2570", VA = "0x66F3570")]
 	public KerningPair(uint firstGlyph, GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, GlyphValueRecord_Legacy secondGlyphAdjustments)
 	{
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x2CF4620", Offset = "0x2CF2C20", VA = "0x182CF4620")]
+	[Address(RVA = "0x66F35D0", Offset = "0x66F25D0", VA = "0x66F35D0")]
 	internal void ConvertLegacyKerningData()
 	{
 	}

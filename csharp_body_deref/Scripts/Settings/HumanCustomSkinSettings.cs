@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200006B")]
+[Token(Token = "0x20000A2")]
 internal class HumanCustomSkinSettings : BaseCustomSkinSettings<HumanCustomSkinSet>
 {
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x400035F")]
 	[FieldOffset(Offset = "0x58")]
 	public BoolSetting GasEnabled;
 
-	[Token(Token = "0x4000233")]
+	[Token(Token = "0x4000360")]
 	[FieldOffset(Offset = "0x60")]
 	public BoolSetting HookEnabled;
 
-	[Token(Token = "0x4000234")]
+	[Token(Token = "0x4000361")]
 	[FieldOffset(Offset = "0x68")]
 	public BoolSetting SetSpecificSkinsEnabled;
 
-	[Token(Token = "0x4000235")]
+	[Token(Token = "0x4000362")]
 	[FieldOffset(Offset = "0x70")]
 	public BoolSetting GlobalSkinOverridesEnabled;
 
-	[Token(Token = "0x4000236")]
+	[Token(Token = "0x4000363")]
 	[FieldOffset(Offset = "0x78")]
 	public IntSetting SkinMode;
 
-	[Token(Token = "0x4000237")]
+	[Token(Token = "0x4000364")]
 	[FieldOffset(Offset = "0x80")]
 	public IntSetting SelectedCharacterIndex;
 
-	[Token(Token = "0x4000238")]
+	[Token(Token = "0x4000365")]
 	[FieldOffset(Offset = "0x88")]
 	public IntSetting LastGlobalPresetIndex;
 
-	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x1DC0250", Offset = "0x1DBE850", VA = "0x181DC0250")]
+	[Token(Token = "0x6000489")]
+	[Address(RVA = "0x58D19B0", Offset = "0x58D09B0", VA = "0x58D19B0")]
 	public HumanCustomSkinSettings()
 	{
 	}

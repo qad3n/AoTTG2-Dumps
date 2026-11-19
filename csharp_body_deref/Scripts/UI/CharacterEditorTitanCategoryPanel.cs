@@ -11,38 +11,38 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x200071C")]
+[Token(Token = "0x20007C6")]
 internal class CharacterEditorTitanCategoryPanel : CharacterEditorCategoryPanel
 {
-	[Token(Token = "0x4002395")]
+	[Token(Token = "0x4002715")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private StringSetting _emote;
 
-	[Token(Token = "0x17000C93")]
+	[Token(Token = "0x17000D18")]
 	protected override float Height
 	{
-		[Token(Token = "0x60045CD")]
-		[Address(RVA = "0x21DDA70", Offset = "0x21DC070", VA = "0x1821DDA70", Slot = "6")]
+		[Token(Token = "0x6004AFA")]
+		[Address(RVA = "0x5BD9D00", Offset = "0x5BD8D00", VA = "0x5BD9D00", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60045CE")]
-	[Address(RVA = "0x21DD6C0", Offset = "0x21DBCC0", VA = "0x1821DD6C0", Slot = "20")]
+	[Token(Token = "0x6004AFB")]
+	[Address(RVA = "0x5BD9D10", Offset = "0x5BD8D10", VA = "0x5BD9D10", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60045CF")]
-	[Address(RVA = "0x21DD660", Offset = "0x21DBC60", VA = "0x1821DD660")]
+	[Token(Token = "0x6004AFC")]
+	[Address(RVA = "0x5BD9FD0", Offset = "0x5BD8FD0", VA = "0x5BD9FD0")]
 	private void OnEmote()
 	{
 	}
 
-	[Token(Token = "0x60045D0")]
-	[Address(RVA = "0x21DD990", Offset = "0x21DBF90", VA = "0x1821DD990")]
+	[Token(Token = "0x6004AFD")]
+	[Address(RVA = "0x5BDA030", Offset = "0x5BD9030", VA = "0x5BDA030")]
 	public CharacterEditorTitanCategoryPanel()
 	{
 	}

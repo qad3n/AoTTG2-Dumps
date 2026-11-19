@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000090")]
+[Token(Token = "0x20000C7")]
 public enum PresetQualityLevel
 {
-	[Token(Token = "0x40002DF")]
+	[Token(Token = "0x4000415")]
 	VeryLow,
-	[Token(Token = "0x40002E0")]
+	[Token(Token = "0x4000416")]
 	Low,
-	[Token(Token = "0x40002E1")]
+	[Token(Token = "0x4000417")]
 	Medium,
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x4000418")]
 	High,
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x4000419")]
 	VeryHigh
 }

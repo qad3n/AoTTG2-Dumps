@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000278")]
+[Token(Token = "0x2000239")]
 public class FileSystemEventArgs : EventArgs
 {
-	[Token(Token = "0x40008BD")]
+	[Token(Token = "0x40007EE")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly WatcherChangeTypes _changeType;
 
-	[Token(Token = "0x40008BE")]
+	[Token(Token = "0x40007EF")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _name;
 
-	[Token(Token = "0x40008BF")]
+	[Token(Token = "0x40007F0")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly string _fullPath;
 
-	[Token(Token = "0x600118D")]
-	[Address(RVA = "0x28D3B30", Offset = "0x28D2130", VA = "0x1828D3B30")]
+	[Token(Token = "0x6000FCD")]
+	[Address(RVA = "0x6285F40", Offset = "0x6284F40", VA = "0x6285F40")]
 	public FileSystemEventArgs(WatcherChangeTypes changeType, string directory, string name)
 	{
 	}
 
-	[Token(Token = "0x600118E")]
-	[Address(RVA = "0x28D39F0", Offset = "0x28D1FF0", VA = "0x1828D39F0")]
+	[Token(Token = "0x6000FCE")]
+	[Address(RVA = "0x6286000", Offset = "0x6285000", VA = "0x6286000")]
 	internal static string Combine(string directoryPath, string name)
 	{
 		return null;

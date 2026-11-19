@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ObsoleteProbeVolumeAsset
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,7 +14,7 @@ namespace UnityEngine.Rendering;
 internal class ObsoleteProbeVolumeAsset : ScriptableObject
 {
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6507E30", Offset = "0x6506E30", VA = "0x6507E30")]
 	public ObsoleteProbeVolumeAsset()
 	{
 	}

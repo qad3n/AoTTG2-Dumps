@@ -1,17 +1,16 @@
 // Type: Settings.TypedSetting
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/TypedSetting.cs
 // Prior real C# source (older reference): Assets/Scripts/Settings/SettingTypes/TypedSetting.cs
 // --------------------------------
 
 // Settings.TypedSetting<bool>$$get_Value
-// il2cpp: bool Settings_TypedSetting_bool___get_Value (Settings_TypedSetting_bool__o* __this, const MethodInfo_E8F450* method);
-// 0x180e8f450
+// il2cpp: bool Settings_TypedSetting_bool___get_Value (Settings_TypedSetting_bool__o* __this, const MethodInfo_42DA010* method);
+// 0x43da010
 
-bool
-Settings_TypedSetting_bool___get_Value(Settings_TypedSetting_bool__o* __this, MethodInfo_E8F450* method)
+bool Settings_TypedSetting_bool___get_Value(Settings_TypedSetting_bool__o *__this,MethodInfo_42DA010 *method)
 
 {
   return (__this->fields)._value;
@@ -19,11 +18,10 @@ Settings_TypedSetting_bool___get_Value(Settings_TypedSetting_bool__o* __this, Me
 
 
 // Settings.TypedSetting<int>$$get_Value
-// il2cpp: int32_t Settings_TypedSetting_int___get_Value (Settings_TypedSetting_int__o* __this, const MethodInfo_D23EC0* method);
-// 0x180d23ec0
+// il2cpp: int32_t Settings_TypedSetting_int___get_Value (Settings_TypedSetting_int__o* __this, const MethodInfo_42DA150* method);
+// 0x43da150
 
-int32_t
-Settings_TypedSetting_int___get_Value(Settings_TypedSetting_int__o* __this, MethodInfo_D23EC0* method)
+int32_t Settings_TypedSetting_int___get_Value(Settings_TypedSetting_int__o *__this,MethodInfo_42DA150 *method)
 
 {
   return (__this->fields)._value;
@@ -31,11 +29,11 @@ Settings_TypedSetting_int___get_Value(Settings_TypedSetting_int__o* __this, Meth
 
 
 // Settings.TypedSetting<object>$$get_Value
-// il2cpp: Il2CppObject* Settings_TypedSetting_object___get_Value (Settings_TypedSetting_T__o* __this, const MethodInfo_5852B0* method);
-// 0x1805852b0
+// il2cpp: Il2CppObject* Settings_TypedSetting_object___get_Value (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA270* method);
+// 0x43da270
 
-Il2CppObject*
-Settings_TypedSetting_object___get_Value(Settings_TypedSetting_T__o* __this, MethodInfo_5852B0* method)
+Il2CppObject *
+Settings_TypedSetting_object___get_Value(Settings_TypedSetting_T__o *__this,MethodInfo_42DA270 *method)
 
 {
   return (__this->fields)._value;
@@ -43,11 +41,11 @@ Settings_TypedSetting_object___get_Value(Settings_TypedSetting_T__o* __this, Met
 
 
 // Settings.TypedSetting<float>$$get_Value
-// il2cpp: float Settings_TypedSetting_float___get_Value (Settings_TypedSetting_float__o* __this, const MethodInfo_E8F460* method);
-// 0x180e8f460
+// il2cpp: float Settings_TypedSetting_float___get_Value (Settings_TypedSetting_float__o* __this, const MethodInfo_42DA3A0* method);
+// 0x43da3a0
 
-float
-Settings_TypedSetting_float___get_Value(Settings_TypedSetting_float__o* __this, MethodInfo_E8F460* method)
+float Settings_TypedSetting_float___get_Value
+                (Settings_TypedSetting_float__o *__this,MethodInfo_42DA3A0 *method)
 
 {
   return (__this->fields)._value;
@@ -55,67 +53,47 @@ Settings_TypedSetting_float___get_Value(Settings_TypedSetting_float__o* __this, 
 
 
 // Settings.TypedSetting<Vector3>$$get_Value
-// il2cpp: UnityEngine_Vector3_o Settings_TypedSetting_Vector3___get_Value (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_E8F470* method);
-// 0x180e8f470
+// il2cpp: UnityEngine_Vector3_o Settings_TypedSetting_Vector3___get_Value (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_42DA4C0* method);
+// 0x43da4c0
 
-UnityEngine_Vector3_o *
-Settings_TypedSetting_Vector3___get_Value
-          (UnityEngine_Vector3_o *__return_storage_ptr__,Settings_TypedSetting_Vector3__o *__this,
-          MethodInfo_E8F470 *method)
+UnityEngine_Vector3_o
+Settings_TypedSetting_Vector3___get_Value(Settings_TypedSetting_Vector3__o *__this,MethodInfo_42DA4C0 *method)
 
 {
-  float fVar1;
-  float fVar2;
-  
-  fVar1 = (__this->fields)._value.fields.z;
-  fVar2 = (__this->fields)._value.fields.y;
-  (__return_storage_ptr__->fields).x = (__this->fields)._value.fields.x;
-  (__return_storage_ptr__->fields).y = fVar2;
-  (__return_storage_ptr__->fields).z = fVar1;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields)._value.fields;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$get_Value
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Settings_TypedSetting___Il2CppFullySharedGenericType___get_Value (Settings_TypedSetting_T__o* __this, const MethodInfo_B131A0* method);
-// 0x180b131a0
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Settings_TypedSetting___Il2CppFullySharedGenericType___get_Value (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA610* method);
+// 0x43da610
 
 Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
-Settings_TypedSetting___Il2CppFullySharedGenericType___get_Value(Settings_TypedSetting_T__o* __this, MethodInfo_B131A0* method)
+Settings_TypedSetting___Il2CppFullySharedGenericType___get_Value
+          (Settings_TypedSetting_T__o *__this,MethodInfo_42DA610 *method)
 
 {
-  longlong lVar1;
-  ulonglong uVar2;
-  void *pvVar3;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar4;
-  ulonglong size;
-  undefined8 auStack_50 [5];
+  uint uVar1;
+  long *plVar2;
+  void *__src;
+  long in_RDX;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar3;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x180b131e7;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  pvVar3 = (method->klass->rgctx_data->_0_Settings_TypedSetting_T_->_1).fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180b13210;
-  pvVar3 = il2cpp_codegen_get_instance_field_data_pointer
-                     (__return_storage_ptr__,(void *)((longlong)pvVar3 + 0x20));
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180b1321e;
-  memcpy(&stack0xffffffffffffffd8 + lVar1,pvVar3,size);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180b1322c;
-  pUVar4 = memcpy(__this,&stack0xffffffffffffffd8 + lVar1,size);
-  return pUVar4;
+  plVar2 = *(long **)(*(long *)(in_RDX + 0x20) + 0xc0);
+  uVar1 = *(uint *)(plVar2[1] + 0xfc);
+  __src = il2cpp_codegen_get_instance_field_data_pointer(__this,(void *)(*(long *)(*plVar2 + 0x80) + 0x20));
+  UVar3.klass = memmove(method,__src,(ulong)uVar1);
+  UVar3.monitor = UVar3.monitor;
+  return UVar3;
 }
 
 
 // Settings.TypedSetting<bool>$$set_Value
-// il2cpp: void Settings_TypedSetting_bool___set_Value (Settings_TypedSetting_bool__o* __this, bool value, const MethodInfo_E8F540* method);
-// 0x180e8f540
+// il2cpp: void Settings_TypedSetting_bool___set_Value (Settings_TypedSetting_bool__o* __this, bool value, const MethodInfo_42DA020* method);
+// 0x43da020
 
 void Settings_TypedSetting_bool___set_Value
-               (Settings_TypedSetting_bool__o *__this,bool value,MethodInfo_E8F540 *method)
+               (Settings_TypedSetting_bool__o *__this,bool value,MethodInfo_42DA020 *method)
 
 {
   bool bVar1;
@@ -128,11 +106,11 @@ void Settings_TypedSetting_bool___set_Value
 
 
 // Settings.TypedSetting<int>$$set_Value
-// il2cpp: void Settings_TypedSetting_int___set_Value (Settings_TypedSetting_int__o* __this, int32_t value, const MethodInfo_E8F570* method);
-// 0x180e8f570
+// il2cpp: void Settings_TypedSetting_int___set_Value (Settings_TypedSetting_int__o* __this, int32_t value, const MethodInfo_42DA160* method);
+// 0x43da160
 
 void Settings_TypedSetting_int___set_Value
-               (Settings_TypedSetting_int__o *__this,int32_t value,MethodInfo_E8F570 *method)
+               (Settings_TypedSetting_int__o *__this,int32_t value,MethodInfo_42DA160 *method)
 
 {
   int32_t iVar1;
@@ -145,148 +123,123 @@ void Settings_TypedSetting_int___set_Value
 
 
 // Settings.TypedSetting<object>$$set_Value
-// il2cpp: void Settings_TypedSetting_object___set_Value (Settings_TypedSetting_T__o* __this, Il2CppObject* value, const MethodInfo_E8F4C0* method);
-// 0x180e8f4c0
+// il2cpp: void Settings_TypedSetting_object___set_Value (Settings_TypedSetting_T__o* __this, Il2CppObject* value, const MethodInfo_42DA280* method);
+// 0x43da280
 
 void Settings_TypedSetting_object___set_Value
-               (Settings_TypedSetting_T__o *__this,Il2CppObject *value,MethodInfo_E8F4C0 *method)
+               (Settings_TypedSetting_T__o *__this,Il2CppObject *value,MethodInfo_42DA280 *method)
 
 {
-  Il2CppObject *value_00;
+  Il2CppObject *pIVar1;
   
-  value_00 = (Il2CppObject *)
-             (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                       (__this,value,(__this->klass->vtable)._11_SanitizeValue.method);
-  (__this->fields)._value = value_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._value,value_00);
+  pIVar1 = (Il2CppObject *)
+           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                     (__this,value,(__this->klass->vtable)._11_SanitizeValue.method);
+  (__this->fields)._value = pIVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._value);
   return;
 }
 
 
 // Settings.TypedSetting<float>$$set_Value
-// il2cpp: void Settings_TypedSetting_float___set_Value (Settings_TypedSetting_float__o* __this, float value, const MethodInfo_E8F490* method);
-// 0x180e8f490
+// il2cpp: void Settings_TypedSetting_float___set_Value (Settings_TypedSetting_float__o* __this, float value, const MethodInfo_42DA3B0* method);
+// 0x43da3b0
 
 void Settings_TypedSetting_float___set_Value
-               (Settings_TypedSetting_float__o *__this,float value,MethodInfo_E8F490 *method)
+               (Settings_TypedSetting_float__o *__this,float value,MethodInfo_42DA3B0 *method)
 
 {
   float fVar1;
   
   fVar1 = (float)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                           (__this,value,(__this->klass->vtable)._11_SanitizeValue.method);
+                           (__this,(__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value = fVar1;
   return;
 }
 
 
 // Settings.TypedSetting<Vector3>$$set_Value
-// il2cpp: void Settings_TypedSetting_Vector3___set_Value (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o value, const MethodInfo_E8F4F0* method);
-// 0x180e8f4f0
+// il2cpp: void Settings_TypedSetting_Vector3___set_Value (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o value, const MethodInfo_42DA4D0* method);
+// 0x43da4d0
 
 void Settings_TypedSetting_Vector3___set_Value
-               (Settings_TypedSetting_Vector3__o *__this,UnityEngine_Vector3_o *value,
-               MethodInfo_E8F4F0 *method)
+               (Settings_TypedSetting_Vector3__o *__this,UnityEngine_Vector3_o value,
+               MethodInfo_42DA4D0 *method)
 
 {
   undefined8 uVar1;
   float fVar2;
-  undefined8 *puVar3;
-  undefined8 local_28;
-  float local_20;
-  undefined1 local_18 [16];
   
-  local_28._0_4_ = (value->fields).x;
-  local_28._4_4_ = (value->fields).y;
-  local_20 = (value->fields).z;
-  puVar3 = (undefined8 *)
-           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                     (local_18,__this,&local_28,(__this->klass->vtable)._11_SanitizeValue.method);
-  uVar1 = *puVar3;
-  fVar2 = *(float *)(puVar3 + 1);
+  fVar2 = value.fields.z;
+  uVar1 = (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                    (value.fields._0_8_,__this,(__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value.fields.x = (float)(int)uVar1;
-  (__this->fields)._value.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
+  (__this->fields)._value.fields.y = (float)(int)((ulong)uVar1 >> 0x20);
   (__this->fields)._value.fields.z = fVar2;
   return;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$set_Value
-// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType___set_Value (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_E8F5A0* method);
-// 0x180e8f5a0
+// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType___set_Value (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_42DA660* method);
+// 0x43da660
 
 void Settings_TypedSetting___Il2CppFullySharedGenericType___set_Value
                (Settings_TypedSetting_T__o *__this,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *value,MethodInfo_E8F5A0 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,MethodInfo_42DA660 *method)
 
 {
-  longlong lVar1;
-  uint uVar2;
-  Settings_TypedSetting_T__c *pSVar3;
-  MethodInfo *pMVar4;
-  Il2CppMethodPointer pIVar5;
-  InvokerMethod pIVar6;
-  void *pvVar7;
-  longlong lVar8;
-  longlong lVar9;
-  ulonglong uVar10;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  undefined8 *destination;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o local_res10;
-  undefined8 auStack_80 [5];
-  longlong alStack_58 [2];
-  void *local_48;
-  longlong local_40;
+  uint size;
+  long lVar1;
+  long lVar2;
+  MethodInfo *pMVar3;
+  Il2CppMethodPointer pIVar4;
+  InvokerMethod pIVar5;
+  ulong uVar6;
+  undefined8 *__dest;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  void *data;
+  undefined8 uStack_60;
+  void *local_58 [3];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_40;
+  void *local_38;
   
-  uVar2 = (method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  size = (ulonglong)uVar2;
-  uVar10 = size + 0xf;
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
+  local_38 = value.monitor;
+  local_40 = value.klass;
+  lVar1 = *(long *)((long)local_38 + 0x20);
+  lVar2 = *(long *)(*(long *)(lVar1 + 0xc0) + 8);
+  size = *(uint *)(lVar2 + 0xfc);
+  uVar6 = (ulong)size + 0xf & 0xfffffffffffffff0;
+  __dest = (undefined8 *)((long)local_58 - uVar6);
+  data = (void *)((long)__dest - uVar6);
+  __src = local_40;
+  if (-1 < *(int *)(lVar2 + 0x28)) {
+    __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_40;
   }
-  auStack_80[0] = 0x180e8f5f3;
-  lVar8 = -(uVar10 & 0xfffffffffffffff0);
-  uVar10 = size + 0xf;
-  destination = (undefined8 *)((longlong)&local_48 + lVar8);
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
+  *(undefined8 *)((long)data + -8) = 0x43da6c4;
+  memcpy(__dest,__src,(ulong)size);
+  if (-1 < *(int *)(*(long *)(*(long *)(lVar1 + 0xc0) + 8) + 0x28)) {
+    __dest = (undefined8 *)*__dest;
   }
-  *(undefined8 *)((longlong)auStack_80 + lVar8) = 0x180e8f610;
-  lVar9 = -(uVar10 & 0xfffffffffffffff0);
-  lVar1 = (longlong)&local_48 + lVar9 + lVar8;
-  source = &local_res10;
-  if ((int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits < 0) {
-    source = value;
-  }
-  *(undefined8 *)((longlong)auStack_80 + lVar9 + lVar8) = 0x180e8f63e;
-  local_res10.klass = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)value;
-  memcpy(destination,source,size);
-  if (-1 < (int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits) {
-    destination = (undefined8 *)*destination;
-  }
-  pSVar3 = __this->klass;
-  local_48 = destination;
-  local_40 = lVar1;
-  *(longlong *)((longlong)alStack_58 + lVar9 + lVar8) = lVar1;
-  pMVar4 = (pSVar3->vtable)._11_SanitizeValue.method;
-  pIVar5 = pMVar4->virtualMethodPointer;
-  pIVar6 = pMVar4->invoker_method;
-  *(undefined8 *)((longlong)auStack_80 + lVar9 + lVar8) = 0x180e8f683;
-  (*pIVar6)(pIVar5,pMVar4,__this,&local_48,*(void **)((longlong)alStack_58 + lVar9 + lVar8));
-  pvVar7 = (method->klass->rgctx_data->_0_Settings_TypedSetting_T_->_1).fields;
-  *(undefined8 *)((longlong)auStack_80 + lVar9 + lVar8) = 0x180e8f6aa;
-  il2cpp_runtime_helper_180417320(__this,(longlong)pvVar7 + 0x20,lVar1,uVar2);
+  pMVar3 = (__this->klass->vtable)._11_SanitizeValue.method;
+  pIVar4 = pMVar3->virtualMethodPointer;
+  pIVar5 = pMVar3->invoker_method;
+  local_58[0] = __dest;
+  local_58[1] = data;
+  *(undefined8 *)((long)data + -8) = 0x43da6fb;
+  (*pIVar5)(pIVar4,pMVar3,__this,local_58,data);
+  lVar1 = *(long *)(**(long **)(*(long *)((long)local_38 + 0x20) + 0xc0) + 0x80);
+  *(undefined8 *)((long)data + -8) = 0x43da726;
+  il2cpp_codegen_write_instance_field_data(__this,(void *)(lVar1 + 0x20),data,size);
   return;
 }
 
 
 // Settings.TypedSetting<bool>$$.ctor
-// il2cpp: void Settings_TypedSetting_bool____ctor (Settings_TypedSetting_bool__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting_bool____ctor (Settings_TypedSetting_bool__o* __this, const MethodInfo_42DA040* method);
+// 0x43da040
 
-void
-Settings_TypedSetting_bool____ctor(Settings_TypedSetting_bool__o* __this, MethodInfo_E8F180* method)
+void Settings_TypedSetting_bool____ctor(Settings_TypedSetting_bool__o *__this,MethodInfo_42DA040 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -295,11 +248,10 @@ Settings_TypedSetting_bool____ctor(Settings_TypedSetting_bool__o* __this, Method
 
 
 // Settings.TypedSetting<int>$$.ctor
-// il2cpp: void Settings_TypedSetting_int____ctor (Settings_TypedSetting_int__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting_int____ctor (Settings_TypedSetting_int__o* __this, const MethodInfo_42DA180* method);
+// 0x43da180
 
-void
-Settings_TypedSetting_int____ctor(Settings_TypedSetting_int__o* __this, MethodInfo_E8F180* method)
+void Settings_TypedSetting_int____ctor(Settings_TypedSetting_int__o *__this,MethodInfo_42DA180 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -308,11 +260,10 @@ Settings_TypedSetting_int____ctor(Settings_TypedSetting_int__o* __this, MethodIn
 
 
 // Settings.TypedSetting<object>$$.ctor
-// il2cpp: void Settings_TypedSetting_object____ctor (Settings_TypedSetting_T__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting_object____ctor (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA2B0* method);
+// 0x43da2b0
 
-void
-Settings_TypedSetting_object____ctor(Settings_TypedSetting_T__o* __this, MethodInfo_E8F180* method)
+void Settings_TypedSetting_object____ctor(Settings_TypedSetting_T__o *__this,MethodInfo_42DA2B0 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -321,11 +272,10 @@ Settings_TypedSetting_object____ctor(Settings_TypedSetting_T__o* __this, MethodI
 
 
 // Settings.TypedSetting<float>$$.ctor
-// il2cpp: void Settings_TypedSetting_float____ctor (Settings_TypedSetting_float__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting_float____ctor (Settings_TypedSetting_float__o* __this, const MethodInfo_42DA3D0* method);
+// 0x43da3d0
 
-void
-Settings_TypedSetting_float____ctor(Settings_TypedSetting_float__o* __this, MethodInfo_E8F180* method)
+void Settings_TypedSetting_float____ctor(Settings_TypedSetting_float__o *__this,MethodInfo_42DA3D0 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -334,11 +284,11 @@ Settings_TypedSetting_float____ctor(Settings_TypedSetting_float__o* __this, Meth
 
 
 // Settings.TypedSetting<Vector3>$$.ctor
-// il2cpp: void Settings_TypedSetting_Vector3____ctor (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting_Vector3____ctor (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_42DA4F0* method);
+// 0x43da4f0
 
-void
-Settings_TypedSetting_Vector3____ctor(Settings_TypedSetting_Vector3__o* __this, MethodInfo_E8F180* method)
+void Settings_TypedSetting_Vector3____ctor
+               (Settings_TypedSetting_Vector3__o *__this,MethodInfo_42DA4F0 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -347,11 +297,11 @@ Settings_TypedSetting_Vector3____ctor(Settings_TypedSetting_Vector3__o* __this, 
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor (Settings_TypedSetting_T__o* __this, const MethodInfo_E8F180* method);
-// 0x180e8f180
+// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA740* method);
+// 0x43da740
 
 void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
-               (Settings_TypedSetting_T__o *__this,MethodInfo_E8F180 *method)
+               (Settings_TypedSetting_T__o *__this,MethodInfo_42DA740 *method)
 
 {
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
@@ -360,207 +310,201 @@ void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
 
 
 // Settings.TypedSetting<bool>$$.ctor
-// il2cpp: void Settings_TypedSetting_bool____ctor (Settings_TypedSetting_bool__o* __this, bool defaultValue, const MethodInfo_E8F2C0* method);
-// 0x180e8f2c0
+// il2cpp: void Settings_TypedSetting_bool____ctor (Settings_TypedSetting_bool__o* __this, bool defaultValue, const MethodInfo_42DA050* method);
+// 0x43da050
 
-void Settings_TypedSetting_bool____ctor_e8f2c0
-               (Settings_TypedSetting_bool__o *__this,bool defaultValue,MethodInfo_E8F2C0 *method)
+void Settings_TypedSetting_bool____ctor_42da050
+               (Settings_TypedSetting_bool__o *__this,bool defaultValue,MethodInfo_42DA050 *method)
 
 {
+  Il2CppMethodPointer vtableDispatch;
   bool bVar1;
+  undefined8 extraout_RDX;
+  undefined7 in_register_00000031;
   
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
   bVar1 = (bool)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                          (__this,(ulonglong)defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
+                          (__this,CONCAT71(in_register_00000031,defaultValue) & 0xffffffff,
+                           (__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields).DefaultValue = bVar1;
-  (*(__this->klass->vtable)._4_SetDefault.methodPtr)(__this,(__this->klass->vtable)._4_SetDefault.method);
+  vtableDispatch = (__this->klass->vtable)._4_SetDefault.methodPtr;
+  (*vtableDispatch)
+            (__this,(__this->klass->vtable)._4_SetDefault.method,extraout_RDX,vtableDispatch);
   return;
 }
 
 
 // Settings.TypedSetting<int>$$.ctor
-// il2cpp: void Settings_TypedSetting_int____ctor (Settings_TypedSetting_int__o* __this, int32_t defaultValue, const MethodInfo_E8F1F0* method);
-// 0x180e8f1f0
+// il2cpp: void Settings_TypedSetting_int____ctor (Settings_TypedSetting_int__o* __this, int32_t defaultValue, const MethodInfo_42DA190* method);
+// 0x43da190
 
-void Settings_TypedSetting_int____ctor_e8f1f0
-               (Settings_TypedSetting_int__o *__this,int32_t defaultValue,MethodInfo_E8F1F0 *method)
+void Settings_TypedSetting_int____ctor_42da190
+               (Settings_TypedSetting_int__o *__this,int32_t defaultValue,MethodInfo_42DA190 *method)
 
 {
+  Il2CppMethodPointer vtableDispatch;
   int32_t iVar1;
+  undefined8 extraout_RDX;
   
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
   iVar1 = (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                    (__this,(ulonglong)(uint)defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
+                    (__this,defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields).DefaultValue = iVar1;
-  (*(__this->klass->vtable)._4_SetDefault.methodPtr)(__this,(__this->klass->vtable)._4_SetDefault.method);
+  vtableDispatch = (__this->klass->vtable)._4_SetDefault.methodPtr;
+  (*vtableDispatch)
+            (__this,(__this->klass->vtable)._4_SetDefault.method,extraout_RDX,vtableDispatch);
   return;
 }
 
 
 // Settings.TypedSetting<object>$$.ctor
-// il2cpp: void Settings_TypedSetting_object____ctor (Settings_TypedSetting_T__o* __this, Il2CppObject* defaultValue, const MethodInfo_E8F190* method);
-// 0x180e8f190
+// il2cpp: void Settings_TypedSetting_object____ctor (Settings_TypedSetting_T__o* __this, Il2CppObject* defaultValue, const MethodInfo_42DA2C0* method);
+// 0x43da2c0
 
-void Settings_TypedSetting_object____ctor_e8f190
-               (Settings_TypedSetting_T__o *__this,Il2CppObject *defaultValue,MethodInfo_E8F190 *method)
+void Settings_TypedSetting_object____ctor_42da2c0
+               (Settings_TypedSetting_T__o *__this,Il2CppObject *defaultValue,MethodInfo_42DA2C0 *method)
 
 {
-  Il2CppObject *value;
+  Il2CppObject *pIVar1;
   
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
-  value = (Il2CppObject *)
-          (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                    (__this,defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
-  (__this->fields).DefaultValue = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).DefaultValue,value);
+  pIVar1 = (Il2CppObject *)
+           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                     (__this,defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
+  (__this->fields).DefaultValue = pIVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).DefaultValue);
   (*(__this->klass->vtable)._4_SetDefault.methodPtr)(__this,(__this->klass->vtable)._4_SetDefault.method);
   return;
 }
 
 
 // Settings.TypedSetting<float>$$.ctor
-// il2cpp: void Settings_TypedSetting_float____ctor (Settings_TypedSetting_float__o* __this, float defaultValue, const MethodInfo_E8F120* method);
-// 0x180e8f120
+// il2cpp: void Settings_TypedSetting_float____ctor (Settings_TypedSetting_float__o* __this, float defaultValue, const MethodInfo_42DA3E0* method);
+// 0x43da3e0
 
-void Settings_TypedSetting_float____ctor_e8f120
-               (Settings_TypedSetting_float__o *__this,float defaultValue,MethodInfo_E8F120 *method)
+void Settings_TypedSetting_float____ctor_42da3e0
+               (Settings_TypedSetting_float__o *__this,float defaultValue,MethodInfo_42DA3E0 *method)
 
 {
-  Settings_TypedSetting_float__c *pSVar1;
-  float fVar2;
+  Il2CppMethodPointer vtableDispatch;
+  undefined8 extraout_RDX;
+  float fVar1;
   
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
-  fVar2 = (float)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                           (__this,defaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
-  pSVar1 = __this->klass;
-  (__this->fields).DefaultValue = fVar2;
-  (*(pSVar1->vtable)._4_SetDefault.methodPtr)(__this,(pSVar1->vtable)._4_SetDefault.method);
+  fVar1 = (float)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                           (defaultValue,__this,(__this->klass->vtable)._11_SanitizeValue.method);
+  (__this->fields).DefaultValue = fVar1;
+  vtableDispatch = (__this->klass->vtable)._4_SetDefault.methodPtr;
+  (*vtableDispatch)
+            (__this,(__this->klass->vtable)._4_SetDefault.method,extraout_RDX,vtableDispatch);
   return;
 }
 
 
 // Settings.TypedSetting<Vector3>$$.ctor
-// il2cpp: void Settings_TypedSetting_Vector3____ctor (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o defaultValue, const MethodInfo_E8F240* method);
-// 0x180e8f240
+// il2cpp: void Settings_TypedSetting_Vector3____ctor (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o defaultValue, const MethodInfo_42DA500* method);
+// 0x43da500
 
-void Settings_TypedSetting_Vector3____ctor_e8f240
-               (Settings_TypedSetting_Vector3__o *__this,UnityEngine_Vector3_o *defaultValue,
-               MethodInfo_E8F240 *method)
+void Settings_TypedSetting_Vector3____ctor_42da500
+               (Settings_TypedSetting_Vector3__o *__this,UnityEngine_Vector3_o defaultValue,
+               MethodInfo_42DA500 *method)
 
 {
+  Il2CppMethodPointer vtableDispatch;
   undefined8 uVar1;
+  undefined8 extraout_RDX;
   float fVar2;
-  Settings_TypedSetting_Vector3__c *pSVar3;
-  undefined8 *puVar4;
-  undefined8 local_28;
-  float local_20;
-  undefined1 local_18 [16];
+  float local_18;
   
+  fVar2 = defaultValue.fields.z;
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
-  local_28._0_4_ = (defaultValue->fields).x;
-  local_28._4_4_ = (defaultValue->fields).y;
-  local_20 = (defaultValue->fields).z;
-  puVar4 = (undefined8 *)
-           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                     (local_18,__this,&local_28,(__this->klass->vtable)._11_SanitizeValue.method);
-  fVar2 = *(float *)(puVar4 + 1);
-  uVar1 = *puVar4;
-  pSVar3 = __this->klass;
+  local_18 = defaultValue.fields.x;
+  uVar1 = (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                    (local_18,__this,(__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields).DefaultValue.fields.x = (float)(int)uVar1;
-  (__this->fields).DefaultValue.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
+  (__this->fields).DefaultValue.fields.y = (float)(int)((ulong)uVar1 >> 0x20);
   (__this->fields).DefaultValue.fields.z = fVar2;
-  (*(pSVar3->vtable)._4_SetDefault.methodPtr)(__this,(pSVar3->vtable)._4_SetDefault.method);
+  vtableDispatch = (__this->klass->vtable)._4_SetDefault.methodPtr;
+  (*vtableDispatch)
+            (__this,(__this->klass->vtable)._4_SetDefault.method,extraout_RDX,vtableDispatch);
   return;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o defaultValue, const MethodInfo_E8F310* method);
-// 0x180e8f310
+// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o defaultValue, const MethodInfo_42DA750* method);
+// 0x43da750
 
-void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor_e8f310
+void Settings_TypedSetting___Il2CppFullySharedGenericType____ctor_42da750
                (Settings_TypedSetting_T__o *__this,
-               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *defaultValue,MethodInfo_E8F310 *method)
+               Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o defaultValue,MethodInfo_42DA750 *method)
 
 {
-  longlong lVar1;
-  uint uVar2;
-  Settings_TypedSetting_T__c *pSVar3;
-  MethodInfo *pMVar4;
-  Il2CppMethodPointer pIVar5;
-  InvokerMethod pIVar6;
-  void *pvVar7;
-  longlong lVar8;
-  longlong lVar9;
-  ulonglong uVar10;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *source;
-  ulonglong size;
-  undefined8 *destination;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_res10;
-  undefined8 auStack_70 [5];
-  longlong alStack_48 [2];
-  void *local_38;
-  longlong local_30;
+  uint size;
+  long lVar1;
+  MethodInfo *pMVar2;
+  Il2CppMethodPointer pIVar3;
+  InvokerMethod pIVar4;
+  ulong uVar5;
+  void *pvVar6;
+  undefined8 *__dest;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  void *data;
+  undefined8 uStack_60;
+  void *local_58 [2];
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_48;
+  void *local_40;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_38;
   
-  uVar2 = (method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  size = (ulonglong)uVar2;
-  uVar10 = size + 0xf;
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  auStack_70[0] = 0x180e8f36b;
-  lVar8 = -(uVar10 & 0xfffffffffffffff0);
-  uVar10 = size + 0xf;
-  destination = (undefined8 *)((longlong)&local_38 + lVar8);
-  if (uVar10 <= size) {
-    uVar10 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_70 + lVar8) = 0x180e8f388;
-  lVar9 = -(uVar10 & 0xfffffffffffffff0);
-  lVar1 = (longlong)&local_38 + lVar9 + lVar8;
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180e8f39a;
-  local_res10 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)defaultValue;
+  pvVar6 = defaultValue.monitor;
+  local_48 = defaultValue.klass;
+  size = *(uint *)(*(long *)(*(long *)(*(long *)((long)pvVar6 + 0x20) + 0xc0) + 8) + 0xfc);
+  uVar5 = (ulong)size + 0xf & 0xfffffffffffffff0;
+  __dest = (undefined8 *)((long)local_58 - uVar5);
+  data = (void *)((long)__dest - uVar5);
+  local_38 = local_48;
+  *(undefined8 *)((long)data + -8) = 0x43da7a6;
   Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this,(MethodInfo *)0x0);
-  source = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)&local_res10;
-  if ((int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits < 0) {
-    source = defaultValue;
+  lVar1 = *(long *)((long)pvVar6 + 0x20);
+  __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&local_48;
+  if (*(int *)(*(long *)(*(long *)(lVar1 + 0xc0) + 8) + 0x28) < 0) {
+    __src = local_38;
   }
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180e8f3c0;
-  memcpy(destination,source,size);
-  if (-1 < (int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits) {
-    destination = (undefined8 *)*destination;
+  local_40 = pvVar6;
+  *(undefined8 *)((long)data + -8) = 0x43da7d1;
+  memcpy(__dest,__src,(ulong)size);
+  if (-1 < *(int *)(*(long *)(*(long *)(lVar1 + 0xc0) + 8) + 0x28)) {
+    __dest = (undefined8 *)*__dest;
   }
-  pSVar3 = __this->klass;
-  local_38 = destination;
-  local_30 = lVar1;
-  *(longlong *)((longlong)alStack_48 + lVar9 + lVar8) = lVar1;
-  pMVar4 = (pSVar3->vtable)._11_SanitizeValue.method;
-  pIVar5 = pMVar4->virtualMethodPointer;
-  pIVar6 = pMVar4->invoker_method;
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180e8f405;
-  (*pIVar6)(pIVar5,pMVar4,__this,&local_38,*(void **)((longlong)alStack_48 + lVar9 + lVar8));
-  pvVar7 = (method->klass->rgctx_data->_0_Settings_TypedSetting_T_->_1).fields;
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180e8f428;
-  il2cpp_runtime_helper_180417320(__this,pvVar7,lVar1,uVar2);
-  pMVar4 = (__this->klass->vtable)._4_SetDefault.method;
-  pIVar5 = (__this->klass->vtable)._4_SetDefault.methodPtr;
-  *(undefined8 *)((longlong)auStack_70 + lVar9 + lVar8) = 0x180e8f43b;
-  (*pIVar5)(__this,pMVar4);
+  pMVar2 = (__this->klass->vtable)._11_SanitizeValue.method;
+  pIVar3 = pMVar2->virtualMethodPointer;
+  pIVar4 = pMVar2->invoker_method;
+  local_58[0] = __dest;
+  local_58[1] = data;
+  *(undefined8 *)((long)data + -8) = 0x43da809;
+  (*pIVar4)(pIVar3,pMVar2,__this,local_58,data);
+  pvVar6 = *(void **)(**(long **)(*(long *)((long)local_40 + 0x20) + 0xc0) + 0x80);
+  *(undefined8 *)((long)data + -8) = 0x43da830;
+  il2cpp_codegen_write_instance_field_data(__this,pvVar6,data,size);
+  pMVar2 = (__this->klass->vtable)._4_SetDefault.method;
+  pIVar3 = (__this->klass->vtable)._4_SetDefault.methodPtr;
+  *(undefined8 *)((long)data + -8) = 0x43da844;
+  (*pIVar3)(__this,pMVar2);
   return;
 }
 
 
 // Settings.TypedSetting<bool>$$SetDefault
-// il2cpp: void Settings_TypedSetting_bool___SetDefault (Settings_TypedSetting_bool__o* __this, const MethodInfo_E8ED70* method);
-// 0x180e8ed70
+// il2cpp: void Settings_TypedSetting_bool___SetDefault (Settings_TypedSetting_bool__o* __this, const MethodInfo_42DA0A0* method);
+// 0x43da0a0
 
-void Settings_TypedSetting_bool___SetDefault(Settings_TypedSetting_bool__o *__this,MethodInfo_E8ED70 *method)
+void Settings_TypedSetting_bool___SetDefault(Settings_TypedSetting_bool__o *__this,MethodInfo_42DA0A0 *method)
 
 {
   bool bVar1;
   
   bVar1 = (bool)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                          (__this,(ulonglong)(__this->fields).DefaultValue,
+                          (__this,(ulong)(__this->fields).DefaultValue,
                            (__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value = bVar1;
   return;
@@ -568,16 +512,16 @@ void Settings_TypedSetting_bool___SetDefault(Settings_TypedSetting_bool__o *__th
 
 
 // Settings.TypedSetting<int>$$SetDefault
-// il2cpp: void Settings_TypedSetting_int___SetDefault (Settings_TypedSetting_int__o* __this, const MethodInfo_E8EBE0* method);
-// 0x180e8ebe0
+// il2cpp: void Settings_TypedSetting_int___SetDefault (Settings_TypedSetting_int__o* __this, const MethodInfo_42DA1E0* method);
+// 0x43da1e0
 
-void Settings_TypedSetting_int___SetDefault(Settings_TypedSetting_int__o *__this,MethodInfo_E8EBE0 *method)
+void Settings_TypedSetting_int___SetDefault(Settings_TypedSetting_int__o *__this,MethodInfo_42DA1E0 *method)
 
 {
   int32_t iVar1;
   
   iVar1 = (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                    (__this,(ulonglong)(uint)(__this->fields).DefaultValue,
+                    (__this,(ulong)(uint)(__this->fields).DefaultValue,
                      (__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value = iVar1;
   return;
@@ -585,35 +529,35 @@ void Settings_TypedSetting_int___SetDefault(Settings_TypedSetting_int__o *__this
 
 
 // Settings.TypedSetting<object>$$SetDefault
-// il2cpp: void Settings_TypedSetting_object___SetDefault (Settings_TypedSetting_T__o* __this, const MethodInfo_E8EBA0* method);
-// 0x180e8eba0
+// il2cpp: void Settings_TypedSetting_object___SetDefault (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA320* method);
+// 0x43da320
 
-void Settings_TypedSetting_object___SetDefault(Settings_TypedSetting_T__o *__this,MethodInfo_E8EBA0 *method)
+void Settings_TypedSetting_object___SetDefault(Settings_TypedSetting_T__o *__this,MethodInfo_42DA320 *method)
 
 {
-  Il2CppObject *value;
+  Il2CppObject *pIVar1;
   
-  value = (Il2CppObject *)
-          (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                    (__this,(__this->fields).DefaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
-  (__this->fields)._value = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._value,value);
+  pIVar1 = (Il2CppObject *)
+           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                     (__this,(__this->fields).DefaultValue,(__this->klass->vtable)._11_SanitizeValue.method);
+  (__this->fields)._value = pIVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._value);
   return;
 }
 
 
 // Settings.TypedSetting<float>$$SetDefault
-// il2cpp: void Settings_TypedSetting_float___SetDefault (Settings_TypedSetting_float__o* __this, const MethodInfo_E8ECF0* method);
-// 0x180e8ecf0
+// il2cpp: void Settings_TypedSetting_float___SetDefault (Settings_TypedSetting_float__o* __this, const MethodInfo_42DA430* method);
+// 0x43da430
 
 void Settings_TypedSetting_float___SetDefault
-               (Settings_TypedSetting_float__o *__this,MethodInfo_E8ECF0 *method)
+               (Settings_TypedSetting_float__o *__this,MethodInfo_42DA430 *method)
 
 {
   float fVar1;
   
   fVar1 = (float)(*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                           (__this,(__this->fields).DefaultValue,
+                           ((__this->fields).DefaultValue,__this,
                             (__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value = fVar1;
   return;
@@ -621,124 +565,107 @@ void Settings_TypedSetting_float___SetDefault
 
 
 // Settings.TypedSetting<Vector3>$$SetDefault
-// il2cpp: void Settings_TypedSetting_Vector3___SetDefault (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_E8ED20* method);
-// 0x180e8ed20
+// il2cpp: void Settings_TypedSetting_Vector3___SetDefault (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_42DA560* method);
+// 0x43da560
 
 void Settings_TypedSetting_Vector3___SetDefault
-               (Settings_TypedSetting_Vector3__o *__this,MethodInfo_E8ED20 *method)
+               (Settings_TypedSetting_Vector3__o *__this,MethodInfo_42DA560 *method)
 
 {
   undefined8 uVar1;
   float fVar2;
-  undefined8 *puVar3;
-  undefined8 local_28;
-  float local_20;
-  undefined1 local_18 [16];
   
-  local_28._0_4_ = (__this->fields).DefaultValue.fields.x;
-  local_28._4_4_ = (__this->fields).DefaultValue.fields.y;
-  local_20 = (__this->fields).DefaultValue.fields.z;
-  puVar3 = (undefined8 *)
-           (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
-                     (local_18,__this,&local_28,(__this->klass->vtable)._11_SanitizeValue.method);
-  uVar1 = *puVar3;
-  fVar2 = *(float *)(puVar3 + 1);
+  uVar1._0_4_ = (__this->fields).DefaultValue.fields.x;
+  uVar1._4_4_ = (__this->fields).DefaultValue.fields.y;
+  fVar2 = (__this->fields).DefaultValue.fields.z;
+  uVar1 = (*(__this->klass->vtable)._11_SanitizeValue.methodPtr)
+                    (uVar1,__this,(__this->klass->vtable)._11_SanitizeValue.method);
   (__this->fields)._value.fields.x = (float)(int)uVar1;
-  (__this->fields)._value.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
+  (__this->fields)._value.fields.y = (float)(int)((ulong)uVar1 >> 0x20);
   (__this->fields)._value.fields.z = fVar2;
   return;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$SetDefault
-// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType___SetDefault (Settings_TypedSetting_T__o* __this, const MethodInfo_E8EC10* method);
-// 0x180e8ec10
+// il2cpp: void Settings_TypedSetting___Il2CppFullySharedGenericType___SetDefault (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA860* method);
+// 0x43da860
 
 void Settings_TypedSetting___Il2CppFullySharedGenericType___SetDefault
-               (Settings_TypedSetting_T__o *__this,MethodInfo_E8EC10 *method)
+               (Settings_TypedSetting_T__o *__this,MethodInfo_42DA860 *method)
 
 {
-  Settings_TypedSetting_T__c *pSVar1;
+  Settings_TypedSetting_T__RGCTXs *pSVar1;
   MethodInfo *pMVar2;
   Il2CppMethodPointer pIVar3;
   InvokerMethod pIVar4;
-  longlong lVar5;
-  ulonglong uVar6;
-  void *pvVar7;
-  undefined8 *destination;
-  ulonglong size;
-  void *local_res10;
-  undefined8 auStack_50 [5];
-  undefined8 auStack_28 [2];
+  long lVar5;
+  void *pvVar6;
+  undefined8 *__dest;
+  ulong __n;
+  undefined8 *apuStack_40 [3];
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  uVar6 = size + 0xf;
-  if (uVar6 <= size) {
-    uVar6 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x180e8ec5d;
-  lVar5 = -(uVar6 & 0xfffffffffffffff0);
-  destination = (undefined8 *)(&stack0xffffffffffffffe8 + lVar5);
-  pvVar7 = (method->klass->rgctx_data->_0_Settings_TypedSetting_T_->_1).fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar5) = 0x180e8ec82;
-  pvVar7 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar7);
-  *(undefined8 *)((longlong)auStack_50 + lVar5) = 0x180e8ec90;
-  memcpy(destination,pvVar7,size);
-  if (-1 < (int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits) {
-    destination = (undefined8 *)*destination;
-  }
-  pSVar1 = method->klass;
-  *(undefined8 **)((longlong)auStack_28 + lVar5) = destination;
-  pMVar2 = pSVar1->rgctx_data->_3_Settings_TypedSetting_T__set_Value;
+  pSVar1 = method->klass->rgctx_data;
+  __n = (ulong)(pSVar1->_1_T->_2).stack_slot_size;
+  lVar5 = -(__n + 0xf & 0xfffffffffffffff0);
+  __dest = (undefined8 *)((long)apuStack_40 + lVar5 + 8);
+  pvVar6 = (pSVar1->_0_Settings_TypedSetting_T_->_1).fields;
+  *(undefined8 *)((long)apuStack_40 + lVar5) = 0x43da8ac;
+  pvVar6 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar6);
+  *(undefined8 *)((long)apuStack_40 + lVar5) = 0x43da8ba;
+  memcpy(__dest,pvVar6,__n);
+  pSVar1 = method->klass->rgctx_data;
+  pMVar2 = pSVar1->_3_Settings_TypedSetting_T__set_Value;
   pIVar3 = pMVar2->methodPointer;
+  if (-1 < (int)(pSVar1->_1_T->_1).byval_arg.bits) {
+    __dest = (undefined8 *)*__dest;
+  }
   pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_50 + lVar5) = 0x180e8ecd5;
-  local_res10 = destination;
-  (*pIVar4)(pIVar3,pMVar2,__this,&local_res10,*(void **)((longlong)auStack_28 + lVar5));
+  apuStack_40[2] = __dest;
+  *(undefined8 *)((long)apuStack_40 + lVar5) = 0x43da8ea;
+  (*pIVar4)(pIVar3,pMVar2,__this,apuStack_40 + 2,__dest);
   return;
 }
 
 
 // Settings.TypedSetting<bool>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_bool___GetDefaultValue (Settings_TypedSetting_bool__o* __this, const MethodInfo_E8EAA0* method);
-// 0x180e8eaa0
+// il2cpp: Il2CppObject* Settings_TypedSetting_bool___GetDefaultValue (Settings_TypedSetting_bool__o* __this, const MethodInfo_42DA0C0* method);
+// 0x43da0c0
 
 Il2CppObject *
-Settings_TypedSetting_bool___GetDefaultValue(Settings_TypedSetting_bool__o *__this,MethodInfo_E8EAA0 *method)
+Settings_TypedSetting_bool___GetDefaultValue(Settings_TypedSetting_bool__o *__this,MethodInfo_42DA0C0 *method)
 
 {
   Il2CppObject *pIVar1;
-  undefined1 local_res8 [32];
+  undefined1 uStack_1;
   
-  local_res8[0] = (__this->fields).DefaultValue;
-  pIVar1 = il2cpp_value_box(method->klass->rgctx_data->_1_T,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(method->klass->rgctx_data->_1_T,&uStack_1);
   return pIVar1;
 }
 
 
 // Settings.TypedSetting<int>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_int___GetDefaultValue (Settings_TypedSetting_int__o* __this, const MethodInfo_E8EB00* method);
-// 0x180e8eb00
+// il2cpp: Il2CppObject* Settings_TypedSetting_int___GetDefaultValue (Settings_TypedSetting_int__o* __this, const MethodInfo_42DA200* method);
+// 0x43da200
 
-Il2CppObject*
-Settings_TypedSetting_int___GetDefaultValue(Settings_TypedSetting_int__o* __this, MethodInfo_E8EB00* method)
+Il2CppObject *
+Settings_TypedSetting_int___GetDefaultValue(Settings_TypedSetting_int__o *__this,MethodInfo_42DA200 *method)
 
 {
   Il2CppObject *pIVar1;
-  undefined4 local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  local_res8[0] = *(undefined4 *)&(__this->fields).current;
-  pIVar1 = il2cpp_value_box(method->klass->rgctx_data->_1_T,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(method->klass->rgctx_data->_1_T,auStack_4);
   return pIVar1;
 }
 
 
 // Settings.TypedSetting<object>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_object___GetDefaultValue (Settings_TypedSetting_T__o* __this, const MethodInfo_573E90* method);
-// 0x180573e90
+// il2cpp: Il2CppObject* Settings_TypedSetting_object___GetDefaultValue (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA350* method);
+// 0x43da350
 
-Il2CppObject*
-Settings_TypedSetting_object___GetDefaultValue(Settings_TypedSetting_T__o* __this, MethodInfo_573E90* method)
+Il2CppObject *
+Settings_TypedSetting_object___GetDefaultValue(Settings_TypedSetting_T__o *__this,MethodInfo_42DA350 *method)
 
 {
   return (__this->fields).DefaultValue;
@@ -746,83 +673,82 @@ Settings_TypedSetting_object___GetDefaultValue(Settings_TypedSetting_T__o* __thi
 
 
 // Settings.TypedSetting<float>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_float___GetDefaultValue (Settings_TypedSetting_float__o* __this, const MethodInfo_E8EAD0* method);
-// 0x180e8ead0
+// il2cpp: Il2CppObject* Settings_TypedSetting_float___GetDefaultValue (Settings_TypedSetting_float__o* __this, const MethodInfo_42DA450* method);
+// 0x43da450
 
-Il2CppObject*
-Settings_TypedSetting_float___GetDefaultValue(Settings_TypedSetting_float__o* __this, MethodInfo_E8EAD0* method)
+Il2CppObject *
+Settings_TypedSetting_float___GetDefaultValue
+          (Settings_TypedSetting_float__o *__this,MethodInfo_42DA450 *method)
 
 {
   Il2CppObject *pIVar1;
-  undefined4 local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  local_res8[0] = *(undefined4 *)&(__this->fields).current;
-  pIVar1 = il2cpp_value_box(method->klass->rgctx_data->_1_T,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(method->klass->rgctx_data->_1_T,auStack_4);
   return pIVar1;
 }
 
 
 // Settings.TypedSetting<Vector3>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_Vector3___GetDefaultValue (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_E8EB30* method);
-// 0x180e8eb30
+// il2cpp: Il2CppObject* Settings_TypedSetting_Vector3___GetDefaultValue (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_42DA590* method);
+// 0x43da590
 
-Il2CppObject*
-Settings_TypedSetting_Vector3___GetDefaultValue(Settings_TypedSetting_Vector3__o* __this, MethodInfo_E8EB30* method)
+Il2CppObject *
+Settings_TypedSetting_Vector3___GetDefaultValue
+          (Settings_TypedSetting_Vector3__o *__this,MethodInfo_42DA590 *method)
 
 {
   Il2CppObject *pIVar1;
-  Il2CppObject *local_18;
-  undefined4 local_10;
+  undefined8 local_10;
+  float local_8;
   
-  local_10 = *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x20));
-  local_18 = (__this->fields).current;
-  pIVar1 = il2cpp_value_box(method->klass->rgctx_data->_1_T,&local_18);
+  local_8 = (__this->fields).DefaultValue.fields.z;
+  local_10._0_4_ = (__this->fields).DefaultValue.fields.x;
+  local_10._4_4_ = (__this->fields).DefaultValue.fields.y;
+  pIVar1 = il2cpp_vm_Object_Box(method->klass->rgctx_data->_1_T,&local_10);
   return pIVar1;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$GetDefaultValue
-// il2cpp: Il2CppObject* Settings_TypedSetting___Il2CppFullySharedGenericType___GetDefaultValue (Settings_TypedSetting_T__o* __this, const MethodInfo_C8CFB0* method);
-// 0x180c8cfb0
+// il2cpp: Il2CppObject* Settings_TypedSetting___Il2CppFullySharedGenericType___GetDefaultValue (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA900* method);
+// 0x43da900
 
-Il2CppObject*
-Settings_TypedSetting___Il2CppFullySharedGenericType___GetDefaultValue(Settings_TypedSetting_T__o* __this, MethodInfo_C8CFB0* method)
+Il2CppObject *
+Settings_TypedSetting___Il2CppFullySharedGenericType___GetDefaultValue
+          (Settings_TypedSetting_T__o *__this,MethodInfo_42DA900 *method)
 
 {
+  Settings_TypedSetting_T__RGCTXs *pSVar1;
   Il2CppClass *klass;
-  longlong lVar1;
-  ulonglong uVar2;
+  long lVar2;
   void *pvVar3;
   Il2CppObject *pIVar4;
-  ulonglong size;
-  undefined8 auStack_50 [5];
-  undefined1 local_28 [8];
+  ulong __n;
+  undefined8 uStack_30;
+  undefined1 auStack_28 [8];
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
-  }
-  auStack_50[0] = 0x180c8cff5;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  pvVar3 = (method->klass->rgctx_data->_0_Settings_TypedSetting_T_->_1).fields;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180c8d01a;
+  pSVar1 = method->klass->rgctx_data;
+  __n = (ulong)(pSVar1->_1_T->_2).stack_slot_size;
+  lVar2 = -(__n + 0xf & 0xfffffffffffffff0);
+  pvVar3 = (pSVar1->_0_Settings_TypedSetting_T_->_1).fields;
+  *(undefined8 *)(auStack_28 + lVar2 + -8) = 0x43da943;
   pvVar3 = il2cpp_codegen_get_instance_field_data_pointer(__this,pvVar3);
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180c8d028;
-  memcpy(local_28 + lVar1,pvVar3,size);
+  *(undefined8 *)(auStack_28 + lVar2 + -8) = 0x43da951;
+  memcpy(auStack_28 + lVar2,pvVar3,__n);
   klass = method->klass->rgctx_data->_1_T;
-  *(undefined8 *)((longlong)auStack_50 + lVar1) = 0x180c8d03f;
-  pIVar4 = il2cpp_value_box(klass,local_28 + lVar1);
+  *(undefined8 *)(auStack_28 + lVar2 + -8) = 0x43da968;
+  pIVar4 = il2cpp_vm_Object_Box(klass,auStack_28 + lVar2);
   return pIVar4;
 }
 
 
 // Settings.TypedSetting<bool>$$SanitizeValue
-// il2cpp: bool Settings_TypedSetting_bool___SanitizeValue (Settings_TypedSetting_bool__o* __this, bool value, const MethodInfo_C8A970* method);
-// 0x180c8a970
+// il2cpp: bool Settings_TypedSetting_bool___SanitizeValue (Settings_TypedSetting_bool__o* __this, bool value, const MethodInfo_42DA0F0* method);
+// 0x43da0f0
 
-bool
-Settings_TypedSetting_bool___SanitizeValue(Settings_TypedSetting_bool__o* __this, bool value, MethodInfo_C8A970* method)
+bool Settings_TypedSetting_bool___SanitizeValue
+               (Settings_TypedSetting_bool__o *__this,bool value,MethodInfo_42DA0F0 *method)
 
 {
   return value;
@@ -830,11 +756,11 @@ Settings_TypedSetting_bool___SanitizeValue(Settings_TypedSetting_bool__o* __this
 
 
 // Settings.TypedSetting<int>$$SanitizeValue
-// il2cpp: int32_t Settings_TypedSetting_int___SanitizeValue (Settings_TypedSetting_int__o* __this, int32_t value, const MethodInfo_C8A8C0* method);
-// 0x180c8a8c0
+// il2cpp: int32_t Settings_TypedSetting_int___SanitizeValue (Settings_TypedSetting_int__o* __this, int32_t value, const MethodInfo_42DA230* method);
+// 0x43da230
 
-int32_t
-Settings_TypedSetting_int___SanitizeValue(Settings_TypedSetting_int__o* __this, int32_t value, MethodInfo_C8A8C0* method)
+int32_t Settings_TypedSetting_int___SanitizeValue
+                  (Settings_TypedSetting_int__o *__this,int32_t value,MethodInfo_42DA230 *method)
 
 {
   return value;
@@ -842,23 +768,24 @@ Settings_TypedSetting_int___SanitizeValue(Settings_TypedSetting_int__o* __this, 
 
 
 // Settings.TypedSetting<object>$$SanitizeValue
-// il2cpp: Il2CppObject* Settings_TypedSetting_object___SanitizeValue (Settings_TypedSetting_T__o* __this, Il2CppObject* value, const MethodInfo_8E13A0* method);
-// 0x1808e13a0
+// il2cpp: Il2CppObject* Settings_TypedSetting_object___SanitizeValue (Settings_TypedSetting_T__o* __this, Il2CppObject* value, const MethodInfo_42DA360* method);
+// 0x43da360
 
-Il2CppObject*
-Settings_TypedSetting_object___SanitizeValue(Settings_TypedSetting_T__o* __this, Il2CppObject* value, MethodInfo_8E13A0* method)
+Il2CppObject *
+Settings_TypedSetting_object___SanitizeValue
+          (Settings_TypedSetting_T__o *__this,Il2CppObject *value,MethodInfo_42DA360 *method)
 
 {
-  return (System_Linq_Expressions_Expression_o *)node;
+  return value;
 }
 
 
 // Settings.TypedSetting<float>$$SanitizeValue
-// il2cpp: float Settings_TypedSetting_float___SanitizeValue (Settings_TypedSetting_float__o* __this, float value, const MethodInfo_E8EB90* method);
-// 0x180e8eb90
+// il2cpp: float Settings_TypedSetting_float___SanitizeValue (Settings_TypedSetting_float__o* __this, float value, const MethodInfo_42DA480* method);
+// 0x43da480
 
-float
-Settings_TypedSetting_float___SanitizeValue(Settings_TypedSetting_float__o* __this, float value, MethodInfo_E8EB90* method)
+float Settings_TypedSetting_float___SanitizeValue
+                (Settings_TypedSetting_float__o *__this,float value,MethodInfo_42DA480 *method)
 
 {
   return value;
@@ -866,271 +793,204 @@ Settings_TypedSetting_float___SanitizeValue(Settings_TypedSetting_float__o* __th
 
 
 // Settings.TypedSetting<Vector3>$$SanitizeValue
-// il2cpp: UnityEngine_Vector3_o Settings_TypedSetting_Vector3___SanitizeValue (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o value, const MethodInfo_E8EB70* method);
-// 0x180e8eb70
+// il2cpp: UnityEngine_Vector3_o Settings_TypedSetting_Vector3___SanitizeValue (Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o value, const MethodInfo_42DA5D0* method);
+// 0x43da5d0
 
 UnityEngine_Vector3_o
-Settings_TypedSetting_Vector3___SanitizeValue(Settings_TypedSetting_Vector3__o* __this, UnityEngine_Vector3_o value, MethodInfo_E8EB70* method)
+Settings_TypedSetting_Vector3___SanitizeValue
+          (Settings_TypedSetting_Vector3__o *__this,UnityEngine_Vector3_o value,MethodInfo_42DA5D0 *method)
 
 {
-  int32_t iVar1;
-  int32_t iVar2;
-  
-  iVar1 = (container->fields).m_Position.fields.m_Z;
-  iVar2 = (container->fields).m_Position.fields.m_Y;
-  (__return_storage_ptr__->fields).m_X = (container->fields).m_Position.fields.m_X;
-  (__return_storage_ptr__->fields).m_Y = iVar2;
-  (__return_storage_ptr__->fields).m_Z = iVar1;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)value.fields;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$SanitizeValue
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Settings_TypedSetting___Il2CppFullySharedGenericType___SanitizeValue (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_C8A980* method);
-// 0x180c8a980
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Settings_TypedSetting___Il2CppFullySharedGenericType___SanitizeValue (Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, const MethodInfo_42DA980* method);
+// 0x43da980
 
 Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
-Settings_TypedSetting___Il2CppFullySharedGenericType___SanitizeValue(Settings_TypedSetting_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value, MethodInfo_C8A980* method)
+Settings_TypedSetting___Il2CppFullySharedGenericType___SanitizeValue
+          (Settings_TypedSetting_T__o *__this,Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o value,
+          MethodInfo_42DA980 *method)
 
 {
-  longlong lVar1;
-  ulonglong uVar2;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar3;
-  UnityEngine_Rendering_SerializedDictionary_K__V__o *source;
-  ulonglong size;
-  UnityEngine_Rendering_SerializedDictionary_K__V__c *local_res10;
-  undefined8 auStack_40 [5];
+  Il2CppClass *pIVar1;
+  void *extraout_RDX;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__src;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar2;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *pUStack_8;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  uVar2 = size + 0xf;
-  if (uVar2 <= size) {
-    uVar2 = 0xffffffffffffff0;
+  pUStack_8 = value.klass;
+  pIVar1 = method->klass->rgctx_data->_1_T;
+  __src = pUStack_8;
+  if (-1 < (int)(pIVar1->_1).byval_arg.bits) {
+    __src = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)&pUStack_8;
   }
-  auStack_40[0] = 0x180c8a9d1;
-  lVar1 = -(uVar2 & 0xfffffffffffffff0);
-  source = (UnityEngine_Rendering_SerializedDictionary_K__V__o *)&local_res10;
-  if ((int)(method->klass->rgctx_data->_1_T->_1).byval_arg.bits < 0) {
-    source = __this;
-  }
-  *(undefined8 *)((longlong)auStack_40 + lVar1) = 0x180c8a9ff;
-  local_res10 = (UnityEngine_Rendering_SerializedDictionary_K__V__c *)__this;
-  memcpy(&stack0xffffffffffffffe8 + lVar1,source,size);
-  *(undefined8 *)((longlong)auStack_40 + lVar1) = 0x180c8aa0d;
-  pUVar3 = memcpy(val,&stack0xffffffffffffffe8 + lVar1,size);
-  return pUVar3;
+  memmove(value.monitor,__src,(ulong)(pIVar1->_2).stack_slot_size);
+  UVar2.monitor = extraout_RDX;
+  UVar2.klass = pUStack_8;
+  return UVar2;
 }
 
 
 // Settings.TypedSetting<bool>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting_bool___ToString (Settings_TypedSetting_bool__o* __this, const MethodInfo_E8EF10* method);
-// 0x180e8ef10
+// il2cpp: System_String_o* Settings_TypedSetting_bool___ToString (Settings_TypedSetting_bool__o* __this, const MethodInfo_42DA100* method);
+// 0x43da100
 
 System_String_o *
-Settings_TypedSetting_bool___ToString(Settings_TypedSetting_bool__o *__this,MethodInfo_E8EF10 *method)
+Settings_TypedSetting_bool___ToString(Settings_TypedSetting_bool__o *__this,MethodInfo_42DA100 *method)
 
 {
   System_String_o *pSVar1;
-  bool local_res8 [32];
+  bool local_9;
   
-  local_res8[0] = (__this->fields)._value;
-  if ((g_data_184354de8->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354de8);
+  local_9 = (__this->fields)._value;
+  if ((g_data_075566f0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075566f0);
   }
   pSVar1 = System_Boolean__ToString
-                     (local_res8,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
+                     (&local_9,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
   return pSVar1;
 }
 
 
 // Settings.TypedSetting<int>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting_int___ToString (Settings_TypedSetting_int__o* __this, const MethodInfo_E8F0F0* method);
-// 0x180e8f0f0
+// il2cpp: System_String_o* Settings_TypedSetting_int___ToString (Settings_TypedSetting_int__o* __this, const MethodInfo_42DA240* method);
+// 0x43da240
 
 System_String_o *
-Settings_TypedSetting_int___ToString(Settings_TypedSetting_int__o *__this,MethodInfo_E8F0F0 *method)
+Settings_TypedSetting_int___ToString(Settings_TypedSetting_int__o *__this,MethodInfo_42DA240 *method)
 
 {
   System_String_o *pSVar1;
-  int32_t local_res8 [8];
+  int32_t iStack_4;
   
-  local_res8[0] = (__this->fields)._value;
   pSVar1 = System_Int32__ToString
-                     (local_res8,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
+                     (&iStack_4,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
   return pSVar1;
 }
 
 
 // Settings.TypedSetting<object>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting_object___ToString (Settings_TypedSetting_T__o* __this, const MethodInfo_E8EF60* method);
-// 0x180e8ef60
+// il2cpp: System_String_o* Settings_TypedSetting_object___ToString (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA370* method);
+// 0x43da370
 
 System_String_o *
-Settings_TypedSetting_object___ToString(Settings_TypedSetting_T__o *__this,MethodInfo_E8EF60 *method)
+Settings_TypedSetting_object___ToString(Settings_TypedSetting_T__o *__this,MethodInfo_42DA370 *method)
 
 {
   Il2CppObject *pIVar1;
+  Il2CppMethodPointer vtableDispatch;
   System_String_o *pSVar2;
+  undefined8 in_RDX;
   
   pIVar1 = (__this->fields)._value;
-  if (pIVar1 != (Il2CppObject *)0x0) {
-    pSVar2 = (System_String_o *)(*pIVar1->klass->vtable[3].methodPtr)(pIVar1,pIVar1->klass->vtable[3].method);
-    return pSVar2;
+  if (pIVar1 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  vtableDispatch = pIVar1->klass->vtable[3].methodPtr;
+  pSVar2 = (System_String_o *)
+           (*vtableDispatch)(pIVar1,pIVar1->klass->vtable[3].method,in_RDX,vtableDispatch);
+  return pSVar2;
 }
 
 
 // Settings.TypedSetting<float>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting_float___ToString (Settings_TypedSetting_float__o* __this, const MethodInfo_E8EF90* method);
-// 0x180e8ef90
+// il2cpp: System_String_o* Settings_TypedSetting_float___ToString (Settings_TypedSetting_float__o* __this, const MethodInfo_42DA490* method);
+// 0x43da490
 
 System_String_o *
-Settings_TypedSetting_float___ToString(Settings_TypedSetting_float__o *__this,MethodInfo_E8EF90 *method)
+Settings_TypedSetting_float___ToString(Settings_TypedSetting_float__o *__this,MethodInfo_42DA490 *method)
 
 {
   System_String_o *pSVar1;
-  float local_res8 [8];
+  float fStack_4;
   
-  local_res8[0] = (__this->fields)._value;
   pSVar1 = System_Single__ToString
-                     (local_res8,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
+                     (&fStack_4,(MethodInfo *)method->klass->rgctx_data[1]._0_Settings_TypedSetting_T_);
   return pSVar1;
 }
 
 
 // Settings.TypedSetting<Vector3>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting_Vector3___ToString (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_E8EFC0* method);
-// 0x180e8efc0
+// il2cpp: System_String_o* Settings_TypedSetting_Vector3___ToString (Settings_TypedSetting_Vector3__o* __this, const MethodInfo_42DA5E0* method);
+// 0x43da5e0
 
 System_String_o *
-Settings_TypedSetting_Vector3___ToString(Settings_TypedSetting_Vector3__o *__this,MethodInfo_E8EFC0 *method)
+Settings_TypedSetting_Vector3___ToString(Settings_TypedSetting_Vector3__o *__this,MethodInfo_42DA5E0 *method)
 
 {
-  bool bVar1;
-  System_Globalization_CultureInfo_o *pSVar2;
-  System_Globalization_NumberFormatInfo_o *provider;
-  System_String_o *arg0;
-  System_String_o *arg1;
-  System_String_o *pSVar3;
-  undefined8 local_18;
-  float local_10 [2];
+  System_String_o *pSVar1;
+  undefined8 local_10;
+  float local_8;
   
-  local_18._0_4_ = (__this->fields)._value.fields.x;
-  local_18._4_4_ = (__this->fields)._value.fields.y;
-  local_10[0] = (__this->fields)._value.fields.z;
-  if (Il2CppMethodInitialized_18433dee8 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Globalization_CultureInfo);
-    il2cpp_codegen_initialize_runtime_metadata(&"F2");
-    il2cpp_codegen_initialize_runtime_metadata(&"({0}, {1}, {2})");
-    Il2CppMethodInitialized_18433dee8 = '\x01';
-  }
-  bVar1 = System_String__IsNullOrEmpty((System_String_o *)0x0,(MethodInfo *)0x0);
-  pSVar3 = (System_String_o *)0x0;
-  if (bVar1) {
-    pSVar3 = "F2";
-  }
-  if ((TypeInfo_System_Globalization_CultureInfo->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Globalization_CultureInfo);
-  }
-  pSVar2 = System_Globalization_CultureInfo__get_InvariantCulture((MethodInfo *)0x0);
-  if (pSVar2 != (System_Globalization_CultureInfo_o *)0x0) {
-    provider = (*(pSVar2->klass->vtable)._14_get_NumberFormat.methodPtr)
-                         (pSVar2,(pSVar2->klass->vtable)._14_get_NumberFormat.method);
-    arg0 = System_Single__ToString_1b4a0d0
-                     ((float *)&local_18,pSVar3,(System_IFormatProvider_o *)provider,(MethodInfo *)0x0);
-    arg1 = System_Single__ToString_1b4a0d0
-                     ((float *)((longlong)&local_18 + 4),pSVar3,(System_IFormatProvider_o *)provider,
-                      (MethodInfo *)0x0);
-    pSVar3 = System_Single__ToString_1b4a0d0
-                       (local_10,pSVar3,(System_IFormatProvider_o *)provider,(MethodInfo *)0x0);
-    pSVar3 = System_String__Format_196d050
-                       ("({0}, {1}, {2})",(Il2CppObject *)arg0,(Il2CppObject *)arg1,(Il2CppObject *)pSVar3
-                        ,(MethodInfo *)0x0);
-    return pSVar3;
-  }
-  ThrowNullReferenceException();
+  local_10._0_4_ = (__this->fields)._value.fields.x;
+  local_10._4_4_ = (__this->fields)._value.fields.y;
+  local_8 = (__this->fields)._value.fields.z;
+  pSVar1 = (System_String_o *)il2cpp_runtime_helper_03296cc0(&local_10,0,0,0);
+  return pSVar1;
 }
 
 
 // Settings.TypedSetting<__Il2CppFullySharedGenericType>$$ToString
-// il2cpp: System_String_o* Settings_TypedSetting___Il2CppFullySharedGenericType___ToString (Settings_TypedSetting_T__o* __this, const MethodInfo_E8EDA0* method);
-// 0x180e8eda0
+// il2cpp: System_String_o* Settings_TypedSetting___Il2CppFullySharedGenericType___ToString (Settings_TypedSetting_T__o* __this, const MethodInfo_42DA9B0* method);
+// 0x43da9b0
 
 System_String_o *
 Settings_TypedSetting___Il2CppFullySharedGenericType___ToString
-          (Settings_TypedSetting_T__o *__this,MethodInfo_E8EDA0 *method)
+          (Settings_TypedSetting_T__o *__this,MethodInfo_42DA9B0 *method)
 
 {
-  System_String_o *source;
-  undefined1 *destination;
-  Settings_TypedSetting_T__c *pSVar1;
-  MethodInfo *pMVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  Settings_TypedSetting_T__RGCTXs *pSVar5;
-  Il2CppClass *pIVar6;
-  longlong lVar7;
-  longlong lVar8;
-  longlong lVar9;
-  uint uVar10;
-  Il2CppClass *pIVar11;
-  ulonglong uVar12;
-  ulonglong size;
-  System_String_o *local_res10;
-  undefined8 auStack_60 [5];
-  longlong alStack_38 [2];
+  MethodInfo *pMVar1;
+  Il2CppMethodPointer pIVar2;
+  InvokerMethod pIVar3;
+  Il2CppClass *pIVar4;
+  Il2CppClass *pIVar5;
+  Settings_TypedSetting_T__c *pSVar6;
+  Settings_TypedSetting_T__RGCTXs *pSVar7;
+  uint uVar8;
+  ulong uVar9;
+  void *__dest;
+  System_String_o *__src;
+  long lVar10;
+  ulong __n;
+  undefined8 uStack_40;
+  System_String_o *local_38;
   
-  size = (ulonglong)(method->klass->rgctx_data->_1_T->_2).stack_slot_size;
-  pIVar11 = method->klass->rgctx_data->_1_T;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    auStack_60[0] = 0x180e8edf5;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
+  pSVar6 = method->klass;
+  pIVar5 = pSVar6->rgctx_data->_1_T;
+  uVar8 = (pIVar5->_2).stack_slot_size;
+  __n = (ulong)uVar8;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    uStack_40 = 0x43da9ee;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    uVar8 = (pIVar5->_2).stack_slot_size;
+    pSVar6 = method->klass;
   }
-  uVar10 = (pIVar11->_2).stack_slot_size + 0x10;
-  uVar12 = (ulonglong)uVar10 + 0xf;
-  if (uVar12 <= uVar10) {
-    uVar12 = 0xffffffffffffff0;
+  lVar10 = (long)&local_38 - ((ulong)(uVar8 + 0x10) + 0xf & 0xfffffffffffffff0);
+  uVar9 = __n + 0xf & 0xfffffffffffffff0;
+  __src = (System_String_o *)(lVar10 - uVar9);
+  __dest = (void *)((long)__src - uVar9);
+  pMVar1 = pSVar6->rgctx_data->_4_Settings_TypedSetting_T__get_Value;
+  pIVar2 = pMVar1->methodPointer;
+  pIVar3 = pMVar1->invoker_method;
+  local_38 = __src;
+  *(undefined8 *)((long)__dest + -8) = 0x43daa45;
+  (*pIVar3)(pIVar2,pMVar1,__this,&local_38,__src);
+  *(undefined8 *)((long)__dest + -8) = 0x43daa53;
+  memcpy(__dest,__src,__n);
+  pSVar7 = method->klass->rgctx_data;
+  pIVar5 = pSVar7->_1_T;
+  if (((pIVar5->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)((long)__dest + -8) = 0x43daa70;
+    pIVar5 = il2cpp_codegen_class_init_checked(pIVar5);
+    pSVar7 = method->klass->rgctx_data;
   }
-  auStack_60[0] = 0x180e8ee1f;
-  lVar7 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar7) = 0x180e8ee3c;
-  lVar8 = -(uVar12 & 0xfffffffffffffff0);
-  uVar12 = size + 0xf;
-  source = (System_String_o *)(&stack0xffffffffffffffd8 + lVar8 + lVar7);
-  if (uVar12 <= size) {
-    uVar12 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_60 + lVar8 + lVar7) = 0x180e8ee59;
-  lVar9 = -(uVar12 & 0xfffffffffffffff0);
-  destination = &stack0xffffffffffffffd8 + lVar9 + lVar8 + lVar7;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180e8ee6e;
-  il2cpp_runtime_helper_180522500(destination,0,size);
-  pSVar1 = method->klass;
-  *(System_String_o **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = source;
-  pMVar2 = pSVar1->rgctx_data->_4_Settings_TypedSetting_T__get_Value;
-  pIVar3 = pMVar2->methodPointer;
-  pIVar4 = pMVar2->invoker_method;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180e8ee97;
-  local_res10 = source;
-  (*pIVar4)(pIVar3,pMVar2,__this,&local_res10,*(void **)((longlong)alStack_38 + lVar9 + lVar8 + lVar7));
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180e8eea5;
-  memcpy(destination,source,size);
-  pSVar5 = method->klass->rgctx_data;
-  pIVar11 = pSVar5->_1_T;
-  pIVar6 = pSVar5[1]._0_Settings_TypedSetting_T_;
-  if (((pIVar11->_2).bitflags1 & 1) == 0) {
-    *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180e8eec9;
-    pIVar11 = il2cpp_codegen_class_init_checked(pIVar11);
-  }
-  *(System_String_o ***)((longlong)alStack_38 + lVar9 + lVar8 + lVar7 + 8) = &local_res10;
-  *(undefined8 *)((longlong)alStack_38 + lVar9 + lVar8 + lVar7) = 0;
-  *(undefined8 *)((longlong)auStack_60 + lVar9 + lVar8 + lVar7) = 0x180e8eeec;
-  il2cpp_runtime_helper_1804171d0(pIVar11,pIVar6,&stack0xffffffffffffffd8 + lVar7,destination);
-  return local_res10;
+  pIVar4 = pSVar7[1]._0_Settings_TypedSetting_T_;
+  *(undefined8 *)((long)__dest + -8) = 0x43daa94;
+  il2cpp_runtime_helper_030d6e00(pIVar5,pIVar4,lVar10,__dest,0,&local_38);
+  return local_38;
 }
 
 

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleVariableResolver
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -74,7 +74,7 @@ internal class StyleVariableResolver
 	private StyleSheet currentSheet
 	{
 		[Token(Token = "0x6002322")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6B27AD0", Offset = "0x6B26AD0", VA = "0x6B27AD0")]
 		get
 		{
 			return null;
@@ -85,7 +85,7 @@ internal class StyleVariableResolver
 	private StyleValueHandle[] currentHandles
 	{
 		[Token(Token = "0x6002323")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6B27AE0", Offset = "0x6B26AE0", VA = "0x6B27AE0")]
 		get
 		{
 			return null;
@@ -96,7 +96,7 @@ internal class StyleVariableResolver
 	public List<StylePropertyValue> resolvedValues
 	{
 		[Token(Token = "0x6002324")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6B27AF0", Offset = "0x6B26AF0", VA = "0x6B27AF0")]
 		get
 		{
 			return null;
@@ -107,14 +107,14 @@ internal class StyleVariableResolver
 	public StyleVariableContext variableContext
 	{
 		[Token(Token = "0x6002325")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x6B27B00", Offset = "0x6B26B00", VA = "0x6B27B00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002326")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x6B27B10", Offset = "0x6B26B10", VA = "0x6B27B10")]
 		[CompilerGenerated]
 		set
 		{
@@ -122,72 +122,72 @@ internal class StyleVariableResolver
 	}
 
 	[Token(Token = "0x6002327")]
-	[Address(RVA = "0x312DC70", Offset = "0x312C270", VA = "0x18312DC70")]
+	[Address(RVA = "0x6B27B20", Offset = "0x6B26B20", VA = "0x6B27B20")]
 	public void Init(StyleProperty property, StyleSheet sheet, StyleValueHandle[] handles)
 	{
 	}
 
 	[Token(Token = "0x6002328")]
-	[Address(RVA = "0x312DE40", Offset = "0x312C440", VA = "0x18312DE40")]
+	[Address(RVA = "0x6B27BD0", Offset = "0x6B26BD0", VA = "0x6B27BD0")]
 	private void PushContext(StyleSheet sheet, StyleValueHandle[] handles)
 	{
 	}
 
 	[Token(Token = "0x6002329")]
-	[Address(RVA = "0x312DDB0", Offset = "0x312C3B0", VA = "0x18312DDB0")]
+	[Address(RVA = "0x6B27C80", Offset = "0x6B26C80", VA = "0x6B27C80")]
 	private void PopContext()
 	{
 	}
 
 	[Token(Token = "0x600232A")]
-	[Address(RVA = "0x312DB70", Offset = "0x312C170", VA = "0x18312DB70")]
+	[Address(RVA = "0x6B27D00", Offset = "0x6B26D00", VA = "0x6B27D00")]
 	public void AddValue(StyleValueHandle handle)
 	{
 	}
 
 	[Token(Token = "0x600232B")]
-	[Address(RVA = "0x312E2F0", Offset = "0x312C8F0", VA = "0x18312E2F0")]
+	[Address(RVA = "0x6B27DD0", Offset = "0x6B26DD0", VA = "0x6B27DD0")]
 	public bool ResolveVarFunction(ref int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600232C")]
-	[Address(RVA = "0x312E1B0", Offset = "0x312C7B0", VA = "0x18312E1B0")]
+	[Address(RVA = "0x6B27F30", Offset = "0x6B26F30", VA = "0x6B27F30")]
 	private Result ResolveVarFunction(ref int index, int argc, string varName)
 	{
 		return default(Result);
 	}
 
 	[Token(Token = "0x600232D")]
-	[Address(RVA = "0x312E8D0", Offset = "0x312CED0", VA = "0x18312E8D0")]
+	[Address(RVA = "0x6B285E0", Offset = "0x6B275E0", VA = "0x6B285E0")]
 	public bool ValidateResolvedValues()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600232E")]
-	[Address(RVA = "0x312E520", Offset = "0x312CB20", VA = "0x18312E520")]
+	[Address(RVA = "0x6B28060", Offset = "0x6B27060", VA = "0x6B28060")]
 	private Result ResolveVariable(string variableName)
 	{
 		return default(Result);
 	}
 
 	[Token(Token = "0x600232F")]
-	[Address(RVA = "0x312DEF0", Offset = "0x312C4F0", VA = "0x18312DEF0")]
+	[Address(RVA = "0x6B28350", Offset = "0x6B27350", VA = "0x6B28350")]
 	private Result ResolveFallback(ref int index, bool appendValues)
 	{
 		return default(Result);
 	}
 
 	[Token(Token = "0x6002330")]
-	[Address(RVA = "0x312DD20", Offset = "0x312C320", VA = "0x18312DD20")]
+	[Address(RVA = "0x6B27EA0", Offset = "0x6B26EA0", VA = "0x6B27EA0")]
 	private static void ParseVarFunction(StyleSheet sheet, StyleValueHandle[] handles, ref int index, out int argCount, out string variableName)
 	{
 	}
 
 	[Token(Token = "0x6002331")]
-	[Address(RVA = "0x312EAF0", Offset = "0x312D0F0", VA = "0x18312EAF0")]
+	[Address(RVA = "0x6B28760", Offset = "0x6B27760", VA = "0x6B28760")]
 	public StyleVariableResolver()
 	{
 	}

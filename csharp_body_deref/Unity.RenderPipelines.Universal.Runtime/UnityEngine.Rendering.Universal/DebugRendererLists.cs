@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugRendererLists
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,43 +35,43 @@ internal class DebugRendererLists
 	private List<RendererListHandle> m_ActiveDebugRendererListHdl;
 
 	[Token(Token = "0x6000272")]
-	[Address(RVA = "0x2C05EC0", Offset = "0x2C044C0", VA = "0x182C05EC0")]
+	[Address(RVA = "0x66096D0", Offset = "0x66086D0", VA = "0x66096D0")]
 	public DebugRendererLists(DebugHandler debugHandler, FilteringSettings filteringSettings)
 	{
 	}
 
 	[Token(Token = "0x6000273")]
-	[Address(RVA = "0x2C04950", Offset = "0x2C02F50", VA = "0x182C04950")]
+	[Address(RVA = "0x660AE20", Offset = "0x6609E20", VA = "0x660AE20")]
 	private void CreateDebugRenderSetups(FilteringSettings filteringSettings)
 	{
 	}
 
 	[Token(Token = "0x6000274")]
-	[Address(RVA = "0x2C05770", Offset = "0x2C03D70", VA = "0x182C05770")]
+	[Address(RVA = "0x660B060", Offset = "0x660A060", VA = "0x660B060")]
 	private void DisposeDebugRenderLists()
 	{
 	}
 
 	[Token(Token = "0x6000275")]
-	[Address(RVA = "0x2C05120", Offset = "0x2C03720", VA = "0x182C05120")]
+	[Address(RVA = "0x6609830", Offset = "0x6608830", VA = "0x6609830")]
 	internal void CreateRendererListsWithDebugRenderState(ScriptableRenderContext context, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock)
 	{
 	}
 
 	[Token(Token = "0x6000276")]
-	[Address(RVA = "0x2C04AD0", Offset = "0x2C030D0", VA = "0x182C04AD0")]
+	[Address(RVA = "0x6609FB0", Offset = "0x6608FB0", VA = "0x6609FB0")]
 	internal void CreateRendererListsWithDebugRenderState(RenderGraph renderGraph, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock)
 	{
 	}
 
 	[Token(Token = "0x6000277")]
-	[Address(RVA = "0x2C05CF0", Offset = "0x2C042F0", VA = "0x182C05CF0")]
+	[Address(RVA = "0x660B6E0", Offset = "0x660A6E0", VA = "0x660B6E0")]
 	internal void PrepareRendererListForRasterPass(IRasterRenderGraphBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x2C05910", Offset = "0x2C03F10", VA = "0x182C05910")]
+	[Address(RVA = "0x660B910", Offset = "0x660A910", VA = "0x660B910")]
 	internal void DrawWithRendererList(RasterCommandBuffer cmd)
 	{
 	}

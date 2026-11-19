@@ -20,7 +20,7 @@ public sealed class VariableKindAttribute : Attribute
 	public VariableKind kind
 	{
 		[Token(Token = "0x6001148")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x68514F0", Offset = "0x68504F0", VA = "0x68514F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,7 +29,7 @@ public sealed class VariableKindAttribute : Attribute
 	}
 
 	[Token(Token = "0x6001147")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x68514D0", Offset = "0x68504D0", VA = "0x68514D0")]
 	public VariableKindAttribute(VariableKind kind)
 	{
 	}

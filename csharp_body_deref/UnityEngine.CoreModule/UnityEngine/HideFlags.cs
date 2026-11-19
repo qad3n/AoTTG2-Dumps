@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001BD")]
+[Token(Token = "0x20001BE")]
 [Flags]
 public enum HideFlags
 {
-	[Token(Token = "0x400063D")]
-	None = 0,
-	[Token(Token = "0x400063E")]
-	HideInHierarchy = 1,
-	[Token(Token = "0x400063F")]
-	HideInInspector = 2,
-	[Token(Token = "0x4000640")]
-	DontSaveInEditor = 4,
-	[Token(Token = "0x4000641")]
-	NotEditable = 8,
 	[Token(Token = "0x4000642")]
-	DontSaveInBuild = 0x10,
+	None = 0,
 	[Token(Token = "0x4000643")]
-	DontUnloadUnusedAsset = 0x20,
+	HideInHierarchy = 1,
 	[Token(Token = "0x4000644")]
-	DontSave = DontSaveInEditor | DontSaveInBuild | DontUnloadUnusedAsset,
+	HideInInspector = 2,
 	[Token(Token = "0x4000645")]
+	DontSaveInEditor = 4,
+	[Token(Token = "0x4000646")]
+	NotEditable = 8,
+	[Token(Token = "0x4000647")]
+	DontSaveInBuild = 0x10,
+	[Token(Token = "0x4000648")]
+	DontUnloadUnusedAsset = 0x20,
+	[Token(Token = "0x4000649")]
+	DontSave = DontSaveInEditor | DontSaveInBuild | DontUnloadUnusedAsset,
+	[Token(Token = "0x400064A")]
 	HideAndDontSave = DontSave | HideInHierarchy | NotEditable
 }

@@ -18,12 +18,12 @@ public class Motion : Object
 {
 	[Token(Token = "0x4000055")]
 	[FieldOffset(Offset = "0x18")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly bool _003CisAnimatorMotion_003Ek__BackingField;
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x2EB12F0", Offset = "0x2EAF8F0", VA = "0x182EB12F0")]
+	[Address(RVA = "0x68A9380", Offset = "0x68A8380", VA = "0x68A9380")]
 	protected Motion()
 	{
 	}

@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x2000373")]
+[Token(Token = "0x200032F")]
 public class RequestCachePolicy
 {
-	[Token(Token = "0x4000E1C")]
+	[Token(Token = "0x4000D34")]
 	[FieldOffset(Offset = "0x10")]
 	private RequestCacheLevel m_Level;
 
-	[Token(Token = "0x1700051C")]
+	[Token(Token = "0x170004EF")]
 	public RequestCacheLevel Level
 	{
-		[Token(Token = "0x600177F")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60015C6")]
+		[Address(RVA = "0x61A5250", Offset = "0x61A4250", VA = "0x61A5250")]
 		get
 		{
 			return default(RequestCacheLevel);
 		}
 	}
 
-	[Token(Token = "0x600177E")]
-	[Address(RVA = "0x27F69A0", Offset = "0x27F4FA0", VA = "0x1827F69A0")]
+	[Token(Token = "0x60015C5")]
+	[Address(RVA = "0x61A51E0", Offset = "0x61A41E0", VA = "0x61A51E0")]
 	public RequestCachePolicy(RequestCacheLevel level)
 	{
 	}
 
-	[Token(Token = "0x6001780")]
-	[Address(RVA = "0x27F6920", Offset = "0x27F4F20", VA = "0x1827F6920", Slot = "3")]
+	[Token(Token = "0x60015C7")]
+	[Address(RVA = "0x61A5260", Offset = "0x61A4260", VA = "0x61A5260", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

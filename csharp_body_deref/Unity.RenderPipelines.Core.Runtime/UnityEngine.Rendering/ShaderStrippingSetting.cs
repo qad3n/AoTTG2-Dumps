@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ShaderStrippingSetting
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,7 +53,7 @@ public class ShaderStrippingSetting : IRenderPipelineGraphicsSettings
 	public int version
 	{
 		[Token(Token = "0x6000BA3")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x65257B0", Offset = "0x65247B0", VA = "0x65257B0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -64,7 +64,7 @@ public class ShaderStrippingSetting : IRenderPipelineGraphicsSettings
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000BA4")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x65257C0", Offset = "0x65247C0", VA = "0x65257C0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -75,13 +75,13 @@ public class ShaderStrippingSetting : IRenderPipelineGraphicsSettings
 	public bool exportShaderVariants
 	{
 		[Token(Token = "0x6000BA5")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x65257D0", Offset = "0x65247D0", VA = "0x65257D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BA6")]
-		[Address(RVA = "0x2B4A4F0", Offset = "0x2B48AF0", VA = "0x182B4A4F0")]
+		[Address(RVA = "0x65257E0", Offset = "0x65247E0", VA = "0x65257E0")]
 		set
 		{
 		}
@@ -91,13 +91,13 @@ public class ShaderStrippingSetting : IRenderPipelineGraphicsSettings
 	public ShaderVariantLogLevel shaderVariantLogLevel
 	{
 		[Token(Token = "0x6000BA7")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x6525840", Offset = "0x6524840", VA = "0x6525840")]
 		get
 		{
 			return default(ShaderVariantLogLevel);
 		}
 		[Token(Token = "0x6000BA8")]
-		[Address(RVA = "0x2B4A560", Offset = "0x2B48B60", VA = "0x182B4A560")]
+		[Address(RVA = "0x6525850", Offset = "0x6524850", VA = "0x6525850")]
 		set
 		{
 		}
@@ -107,20 +107,20 @@ public class ShaderStrippingSetting : IRenderPipelineGraphicsSettings
 	public bool stripRuntimeDebugShaders
 	{
 		[Token(Token = "0x6000BA9")]
-		[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
+		[Address(RVA = "0x65258B0", Offset = "0x65248B0", VA = "0x65258B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BAA")]
-		[Address(RVA = "0x2B4A5D0", Offset = "0x2B48BD0", VA = "0x182B4A5D0")]
+		[Address(RVA = "0x65258C0", Offset = "0x65248C0", VA = "0x65258C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000BAB")]
-	[Address(RVA = "0x2B4A4E0", Offset = "0x2B48AE0", VA = "0x182B4A4E0")]
+	[Address(RVA = "0x6525920", Offset = "0x6524920", VA = "0x6525920")]
 	public ShaderStrippingSetting()
 	{
 	}

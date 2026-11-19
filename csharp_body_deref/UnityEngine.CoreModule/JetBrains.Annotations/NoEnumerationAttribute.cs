@@ -14,8 +14,8 @@ namespace JetBrains.Annotations;
 [AttributeUsage(AttributeTargets.Parameter)]
 public sealed class NoEnumerationAttribute : Attribute
 {
-	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60001A7")]
+	[Address(RVA = "0x68B8C60", Offset = "0x68B7C60", VA = "0x68B8C60")]
 	public NoEnumerationAttribute()
 	{
 	}

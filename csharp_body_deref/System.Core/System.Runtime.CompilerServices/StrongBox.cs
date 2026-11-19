@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000257")]
+[Token(Token = "0x2000258")]
 public class StrongBox<T> : IStrongBox
 {
-	[Token(Token = "0x400044A")]
+	[Token(Token = "0x4000453")]
 	[FieldOffset(Offset = "0x0")]
 	public T Value;
 
-	[Token(Token = "0x1700025C")]
+	[Token(Token = "0x1700025E")]
 	private object System_002ERuntime_002ECompilerServices_002EIStrongBox_002EValue
 	{
-		[Token(Token = "0x6000BA1")]
+		[Token(Token = "0x6000BAC")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000BA2")]
+		[Token(Token = "0x6000BAD")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000B9F")]
+	[Token(Token = "0x6000BAA")]
 	public StrongBox()
 	{
 	}
 
-	[Token(Token = "0x6000BA0")]
+	[Token(Token = "0x6000BAB")]
 	public StrongBox(T value)
 	{
 	}

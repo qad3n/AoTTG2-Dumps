@@ -14,20 +14,20 @@ namespace Newtonsoft.Json.Converters;
 public class JavaScriptDateTimeConverter : DateTimeConverterBase
 {
 	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x1CA15F0", Offset = "0x1C9FBF0", VA = "0x181CA15F0", Slot = "4")]
+	[Address(RVA = "0x5636900", Offset = "0x5635900", VA = "0x5636900", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000ED7")]
-	[Address(RVA = "0x1CA1240", Offset = "0x1C9F840", VA = "0x181CA1240", Slot = "5")]
+	[Address(RVA = "0x5636AD0", Offset = "0x5635AD0", VA = "0x5636AD0", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5636E10", Offset = "0x5635E10", VA = "0x5636E10")]
 	public JavaScriptDateTimeConverter()
 	{
 	}

@@ -12,11 +12,11 @@ using UnityEngine.Events;
 namespace RuntimeSceneGizmo;
 
 [Serializable]
-[Token(Token = "0x200005D")]
+[Token(Token = "0x200005C")]
 public class ComponentClickedEvent : UnityEvent<GizmoComponent>
 {
-	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x1DBA380", Offset = "0x1DB8980", VA = "0x181DBA380")]
+	[Token(Token = "0x60002FA")]
+	[Address(RVA = "0x576D4C0", Offset = "0x576C4C0", VA = "0x576D4C0")]
 	public ComponentClickedEvent()
 	{
 	}

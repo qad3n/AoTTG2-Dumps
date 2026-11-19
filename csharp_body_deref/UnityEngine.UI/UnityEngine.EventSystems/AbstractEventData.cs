@@ -20,7 +20,7 @@ public abstract class AbstractEventData
 	public virtual bool used
 	{
 		[Token(Token = "0x6000635")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "6")]
+		[Address(RVA = "0x6D07A20", Offset = "0x6D06A20", VA = "0x6D07A20", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -28,19 +28,19 @@ public abstract class AbstractEventData
 	}
 
 	[Token(Token = "0x6000633")]
-	[Address(RVA = "0x1C6F5D0", Offset = "0x1C6DBD0", VA = "0x181C6F5D0", Slot = "4")]
+	[Address(RVA = "0x6D07A00", Offset = "0x6D06A00", VA = "0x6D07A00", Slot = "4")]
 	public virtual void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000634")]
-	[Address(RVA = "0xB3C020", Offset = "0xB3A620", VA = "0x180B3C020", Slot = "5")]
+	[Address(RVA = "0x6D07A10", Offset = "0x6D06A10", VA = "0x6D07A10", Slot = "5")]
 	public virtual void Use()
 	{
 	}
 
 	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6D07A30", Offset = "0x6D06A30", VA = "0x6D07A30")]
 	protected AbstractEventData()
 	{
 	}

@@ -8,7 +8,6 @@
 using System.Security.Cryptography.X509Certificates;
 using Il2CppDummyDll;
 using Microsoft.Win32.SafeHandles;
-using Mono.Security.Interface;
 
 namespace Mono;
 
@@ -17,25 +16,21 @@ internal class SystemCertificateProvider
 {
 	[Token(Token = "0x4000001")]
 	[FieldOffset(Offset = "0x0")]
-	private static MonoTlsProvider provider;
+	private static int initialized;
 
 	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x8")]
-	private static int initialized;
+	private static X509PalImpl x509pal;
 
 	[Token(Token = "0x4000003")]
 	[FieldOffset(Offset = "0x10")]
-	private static X509PalImpl x509pal;
-
-	[Token(Token = "0x4000004")]
-	[FieldOffset(Offset = "0x18")]
 	private static object syncRoot;
 
 	[Token(Token = "0x17000001")]
 	public X509PalImpl X509Pal
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x249F800", Offset = "0x249DE00", VA = "0x18249F800")]
+		[Address(RVA = "0x5E2DC80", Offset = "0x5E2CC80", VA = "0x5E2DC80")]
 		get
 		{
 			return null;
@@ -43,55 +38,55 @@ internal class SystemCertificateProvider
 	}
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x249F070", Offset = "0x249D670", VA = "0x18249F070")]
+	[Address(RVA = "0x5E2D9E0", Offset = "0x5E2C9E0", VA = "0x5E2D9E0")]
 	private static X509PalImpl GetX509Pal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x249EED0", Offset = "0x249D4D0", VA = "0x18249EED0")]
+	[Address(RVA = "0x5E2DAD0", Offset = "0x5E2CAD0", VA = "0x5E2DAD0")]
 	private static void EnsureInitialized()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x249F280", Offset = "0x249D880", VA = "0x18249F280", Slot = "4")]
+	[Address(RVA = "0x5E2DCD0", Offset = "0x5E2CCD0", VA = "0x5E2DCD0", Slot = "4")]
 	public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(byte[] data, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x249F550", Offset = "0x249DB50", VA = "0x18249F550", Slot = "5")]
+	[Address(RVA = "0x5E2DF70", Offset = "0x5E2CF70", VA = "0x5E2DF70", Slot = "5")]
 	private System.Security.Cryptography.X509Certificates.X509CertificateImpl Mono_002EISystemCertificateProvider_002EImport(byte[] data, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags, Mono.CertificateImportFlags importFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x249F320", Offset = "0x249D920", VA = "0x18249F320")]
+	[Address(RVA = "0x5E2DF80", Offset = "0x5E2CF80", VA = "0x5E2DF80")]
 	public X509Certificate2Impl Import(byte[] data, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x249F610", Offset = "0x249DC10", VA = "0x18249F610", Slot = "6")]
+	[Address(RVA = "0x5E2E130", Offset = "0x5E2D130", VA = "0x5E2E130", Slot = "6")]
 	private System.Security.Cryptography.X509Certificates.X509CertificateImpl Mono_002EISystemCertificateProvider_002EImport(X509Certificate cert, Mono.CertificateImportFlags importFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x249F3E0", Offset = "0x249D9E0", VA = "0x18249F3E0")]
+	[Address(RVA = "0x5E2E140", Offset = "0x5E2D140", VA = "0x5E2E140")]
 	public X509Certificate2Impl Import(X509Certificate cert, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5E2E2E0", Offset = "0x5E2D2E0", VA = "0x5E2E2E0")]
 	public SystemCertificateProvider()
 	{
 	}

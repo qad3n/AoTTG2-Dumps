@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.FontDefinition
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,7 +27,7 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			public override string Name
 			{
 				[Token(Token = "0x600150E")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6AB33F0", Offset = "0x6AB23F0", VA = "0x6AB33F0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -39,7 +39,7 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x600150F")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6AB3400", Offset = "0x6AB2400", VA = "0x6AB3400", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -48,20 +48,20 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			}
 
 			[Token(Token = "0x6001510")]
-			[Address(RVA = "0x30BB710", Offset = "0x30B9D10", VA = "0x1830BB710", Slot = "14")]
+			[Address(RVA = "0x6AB3410", Offset = "0x6AB2410", VA = "0x6AB3410", Slot = "14")]
 			public override Font GetValue(ref FontDefinition container)
 			{
 				return null;
 			}
 
 			[Token(Token = "0x6001511")]
-			[Address(RVA = "0x30BB720", Offset = "0x30B9D20", VA = "0x1830BB720", Slot = "15")]
+			[Address(RVA = "0x6AB3420", Offset = "0x6AB2420", VA = "0x6AB3420", Slot = "15")]
 			public override void SetValue(ref FontDefinition container, Font value)
 			{
 			}
 
 			[Token(Token = "0x6001512")]
-			[Address(RVA = "0x30BB740", Offset = "0x30B9D40", VA = "0x1830BB740")]
+			[Address(RVA = "0x6AB3330", Offset = "0x6AB2330", VA = "0x6AB3330")]
 			public FontProperty()
 			{
 			}
@@ -74,7 +74,7 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			public override string Name
 			{
 				[Token(Token = "0x6001513")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6AB3430", Offset = "0x6AB2430", VA = "0x6AB3430", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -86,7 +86,7 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6001514")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6AB3440", Offset = "0x6AB2440", VA = "0x6AB3440", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -95,27 +95,27 @@ public struct FontDefinition : IEquatable<FontDefinition>
 			}
 
 			[Token(Token = "0x6001515")]
-			[Address(RVA = "0x30BAF60", Offset = "0x30B9560", VA = "0x1830BAF60", Slot = "14")]
+			[Address(RVA = "0x6AB3450", Offset = "0x6AB2450", VA = "0x6AB3450", Slot = "14")]
 			public override FontAsset GetValue(ref FontDefinition container)
 			{
 				return null;
 			}
 
 			[Token(Token = "0x6001516")]
-			[Address(RVA = "0x30BAF70", Offset = "0x30B9570", VA = "0x1830BAF70", Slot = "15")]
+			[Address(RVA = "0x6AB3460", Offset = "0x6AB2460", VA = "0x6AB3460", Slot = "15")]
 			public override void SetValue(ref FontDefinition container, FontAsset value)
 			{
 			}
 
 			[Token(Token = "0x6001517")]
-			[Address(RVA = "0x30BAF90", Offset = "0x30B9590", VA = "0x1830BAF90")]
+			[Address(RVA = "0x6AB3390", Offset = "0x6AB2390", VA = "0x6AB3390")]
 			public FontAssetProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600150D")]
-		[Address(RVA = "0x30CCDC0", Offset = "0x30CB3C0", VA = "0x1830CCDC0")]
+		[Address(RVA = "0x6AB3190", Offset = "0x6AB2190", VA = "0x6AB3190")]
 		public PropertyBag()
 		{
 		}
@@ -135,13 +135,13 @@ public struct FontDefinition : IEquatable<FontDefinition>
 	public Font font
 	{
 		[Token(Token = "0x60014FF")]
-		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
+		[Address(RVA = "0x6AB2AD0", Offset = "0x6AB1AD0", VA = "0x6AB2AD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001500")]
-		[Address(RVA = "0x30BB620", Offset = "0x30B9C20", VA = "0x1830BB620")]
+		[Address(RVA = "0x6AB2AE0", Offset = "0x6AB1AE0", VA = "0x6AB2AE0")]
 		set
 		{
 		}
@@ -151,83 +151,83 @@ public struct FontDefinition : IEquatable<FontDefinition>
 	public FontAsset fontAsset
 	{
 		[Token(Token = "0x6001501")]
-		[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0")]
+		[Address(RVA = "0x6AB2BC0", Offset = "0x6AB1BC0", VA = "0x6AB2BC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001502")]
-		[Address(RVA = "0x30BB530", Offset = "0x30B9B30", VA = "0x1830BB530")]
+		[Address(RVA = "0x6AB2BD0", Offset = "0x6AB1BD0", VA = "0x6AB2BD0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001503")]
-	[Address(RVA = "0x30BB0F0", Offset = "0x30B96F0", VA = "0x1830BB0F0")]
+	[Address(RVA = "0x6AB2CB0", Offset = "0x6AB1CB0", VA = "0x6AB2CB0")]
 	public static FontDefinition FromFont(Font f)
 	{
 		return default(FontDefinition);
 	}
 
 	[Token(Token = "0x6001504")]
-	[Address(RVA = "0x30BB280", Offset = "0x30B9880", VA = "0x1830BB280")]
+	[Address(RVA = "0x6AB2CE0", Offset = "0x6AB1CE0", VA = "0x6AB2CE0")]
 	public static FontDefinition FromSDFFont(FontAsset f)
 	{
 		return default(FontDefinition);
 	}
 
 	[Token(Token = "0x6001505")]
-	[Address(RVA = "0x30BB130", Offset = "0x30B9730", VA = "0x1830BB130")]
+	[Address(RVA = "0x6AB2D10", Offset = "0x6AB1D10", VA = "0x6AB2D10")]
 	internal static FontDefinition FromObject(object obj)
 	{
 		return default(FontDefinition);
 	}
 
 	[Token(Token = "0x6001506")]
-	[Address(RVA = "0x30BB3C0", Offset = "0x30B99C0", VA = "0x1830BB3C0")]
+	[Address(RVA = "0x6AB2E80", Offset = "0x6AB1E80", VA = "0x6AB2E80")]
 	internal bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001507")]
-	[Address(RVA = "0x30BB450", Offset = "0x30B9A50", VA = "0x1830BB450", Slot = "3")]
+	[Address(RVA = "0x6AB2F00", Offset = "0x6AB1F00", VA = "0x6AB2F00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001508")]
-	[Address(RVA = "0x30BB0A0", Offset = "0x30B96A0", VA = "0x1830BB0A0", Slot = "4")]
+	[Address(RVA = "0x6AB2F80", Offset = "0x6AB1F80", VA = "0x6AB2F80", Slot = "4")]
 	public bool Equals(FontDefinition other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001509")]
-	[Address(RVA = "0x30BB000", Offset = "0x30B9600", VA = "0x1830BB000", Slot = "0")]
+	[Address(RVA = "0x6AB2FC0", Offset = "0x6AB1FC0", VA = "0x6AB2FC0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600150A")]
-	[Address(RVA = "0x30BB2C0", Offset = "0x30B98C0", VA = "0x1830BB2C0", Slot = "2")]
+	[Address(RVA = "0x6AB3040", Offset = "0x6AB2040", VA = "0x6AB3040", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600150B")]
-	[Address(RVA = "0x30BB0A0", Offset = "0x30B96A0", VA = "0x1830BB0A0")]
+	[Address(RVA = "0x6AB3110", Offset = "0x6AB2110", VA = "0x6AB3110")]
 	public static bool operator ==(FontDefinition left, FontDefinition right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600150C")]
-	[Address(RVA = "0x30BB4E0", Offset = "0x30B9AE0", VA = "0x1830BB4E0")]
+	[Address(RVA = "0x6AB3150", Offset = "0x6AB2150", VA = "0x6AB3150")]
 	public static bool operator !=(FontDefinition left, FontDefinition right)
 	{
 		return default(bool);

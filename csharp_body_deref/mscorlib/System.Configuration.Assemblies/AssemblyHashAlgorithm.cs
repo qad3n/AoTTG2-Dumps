@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Configuration.Assemblies;
 
-[Token(Token = "0x20005C7")]
+[Token(Token = "0x20005A2")]
 public enum AssemblyHashAlgorithm
 {
-	[Token(Token = "0x4001859")]
+	[Token(Token = "0x40017C0")]
 	None = 0,
-	[Token(Token = "0x400185A")]
+	[Token(Token = "0x40017C1")]
 	MD5 = 32771,
-	[Token(Token = "0x400185B")]
+	[Token(Token = "0x40017C2")]
 	SHA1 = 32772,
-	[Token(Token = "0x400185C")]
+	[Token(Token = "0x40017C3")]
 	SHA256 = 32780,
-	[Token(Token = "0x400185D")]
+	[Token(Token = "0x40017C4")]
 	SHA384 = 32781,
-	[Token(Token = "0x400185E")]
+	[Token(Token = "0x40017C5")]
 	SHA512 = 32782
 }

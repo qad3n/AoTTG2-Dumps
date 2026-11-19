@@ -29,7 +29,7 @@ internal sealed class XmlChildEnumerator : IEnumerator
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
 		[Token(Token = "0x6000818")]
-		[Address(RVA = "0x270EB20", Offset = "0x270D120", VA = "0x18270EB20", Slot = "5")]
+		[Address(RVA = "0x60CEBD0", Offset = "0x60CDBD0", VA = "0x60CEBD0", Slot = "5")]
 		get
 		{
 			return null;
@@ -40,7 +40,7 @@ internal sealed class XmlChildEnumerator : IEnumerator
 	internal XmlNode Current
 	{
 		[Token(Token = "0x6000819")]
-		[Address(RVA = "0x270EB20", Offset = "0x270D120", VA = "0x18270EB20")]
+		[Address(RVA = "0x60CEBE0", Offset = "0x60CDBE0", VA = "0x60CEBE0")]
 		get
 		{
 			return null;
@@ -48,27 +48,27 @@ internal sealed class XmlChildEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x270EBB0", Offset = "0x270D1B0", VA = "0x18270EBB0")]
+	[Address(RVA = "0x60CEA30", Offset = "0x60CDA30", VA = "0x60CEA30")]
 	internal XmlChildEnumerator(XmlNode container)
 	{
 	}
 
 	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x270EA40", Offset = "0x270D040", VA = "0x18270EA40", Slot = "4")]
+	[Address(RVA = "0x60CEA90", Offset = "0x60CDA90", VA = "0x60CEA90", Slot = "4")]
 	private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000816")]
-	[Address(RVA = "0x270EA40", Offset = "0x270D040", VA = "0x18270EA40")]
+	[Address(RVA = "0x60CEB10", Offset = "0x60CDB10", VA = "0x60CEB10")]
 	internal bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x270EAD0", Offset = "0x270D0D0", VA = "0x18270EAD0", Slot = "6")]
+	[Address(RVA = "0x60CEB90", Offset = "0x60CDB90", VA = "0x60CEB90", Slot = "6")]
 	private void System_002ECollections_002EIEnumerator_002EReset()
 	{
 	}

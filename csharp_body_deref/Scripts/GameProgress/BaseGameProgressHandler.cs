@@ -11,41 +11,41 @@ using UnityEngine;
 
 namespace GameProgress;
 
-[Token(Token = "0x2000301")]
+[Token(Token = "0x2000362")]
 internal abstract class BaseGameProgressHandler
 {
-	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x60014FF")]
+	[Address(RVA = "0x581C690", Offset = "0x581B690", VA = "0x581C690", Slot = "4")]
 	public virtual void RegisterTitanKill(BasicTitan victim, KillMethod method)
 	{
 	}
 
-	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6001500")]
+	[Address(RVA = "0x581C6A0", Offset = "0x581B6A0", VA = "0x581C6A0", Slot = "5")]
 	public virtual void RegisterHumanKill(Human victim, KillMethod method)
 	{
 	}
 
-	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Token(Token = "0x6001501")]
+	[Address(RVA = "0x581C6B0", Offset = "0x581B6B0", VA = "0x581C6B0", Slot = "6")]
 	public virtual void RegisterDamage(GameObject victim, KillMethod method, int damage)
 	{
 	}
 
-	[Token(Token = "0x6001294")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Token(Token = "0x6001502")]
+	[Address(RVA = "0x581C6C0", Offset = "0x581B6C0", VA = "0x581C6C0", Slot = "7")]
 	public virtual void RegisterSpeed(float speed)
 	{
 	}
 
-	[Token(Token = "0x6001295")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x6001503")]
+	[Address(RVA = "0x581C6D0", Offset = "0x581B6D0", VA = "0x581C6D0", Slot = "8")]
 	public virtual void RegisterInteraction(GameObject interact, InteractionType interactionType)
 	{
 	}
 
-	[Token(Token = "0x6001296")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001504")]
+	[Address(RVA = "0x581C6E0", Offset = "0x581B6E0", VA = "0x581C6E0")]
 	protected BaseGameProgressHandler()
 	{
 	}

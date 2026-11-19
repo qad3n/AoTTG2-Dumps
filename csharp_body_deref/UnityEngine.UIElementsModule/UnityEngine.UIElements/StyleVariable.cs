@@ -27,13 +27,13 @@ internal struct StyleVariable
 	public readonly StyleValueHandle[] handles;
 
 	[Token(Token = "0x6002317")]
-	[Address(RVA = "0x1046250", Offset = "0x1044850", VA = "0x181046250")]
+	[Address(RVA = "0x6B27150", Offset = "0x6B26150", VA = "0x6B27150")]
 	public StyleVariable(string name, StyleSheet sheet, StyleValueHandle[] handles)
 	{
 	}
 
 	[Token(Token = "0x6002318")]
-	[Address(RVA = "0x312EC30", Offset = "0x312D230", VA = "0x18312EC30", Slot = "2")]
+	[Address(RVA = "0x6B27190", Offset = "0x6B26190", VA = "0x6B27190", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

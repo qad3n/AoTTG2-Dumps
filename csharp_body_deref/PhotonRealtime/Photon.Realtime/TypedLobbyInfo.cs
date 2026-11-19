@@ -13,22 +13,22 @@ namespace Photon.Realtime;
 public class TypedLobbyInfo : TypedLobby
 {
 	[Token(Token = "0x40001BA")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x1C")]
 	public int PlayerCount;
 
 	[Token(Token = "0x40001BB")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x20")]
 	public int RoomCount;
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x1D26B60", Offset = "0x1D25160", VA = "0x181D26B60", Slot = "3")]
+	[Address(RVA = "0x56BB890", Offset = "0x56BA890", VA = "0x56BB890", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x1D26D60", Offset = "0x1D25360", VA = "0x181D26D60")]
+	[Address(RVA = "0x56B7000", Offset = "0x56B6000", VA = "0x56B7000")]
 	public TypedLobbyInfo()
 	{
 	}

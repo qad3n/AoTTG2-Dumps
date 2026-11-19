@@ -49,7 +49,7 @@ public class SystemConnectionSummary
 		public const int ErrorCodeWinSock = 16;
 
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x56A7DE0", Offset = "0x56A6DE0", VA = "0x56A7DE0")]
 		public SCSBitPos()
 		{
 		}
@@ -104,53 +104,53 @@ public class SystemConnectionSummary
 	private static readonly string[] ProtocolIdToName;
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x1D26950", Offset = "0x1D24F50", VA = "0x181D26950")]
+	[Address(RVA = "0x56A7690", Offset = "0x56A6690", VA = "0x56A7690")]
 	public SystemConnectionSummary(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x1D26A90", Offset = "0x1D25090", VA = "0x181D26A90")]
+	[Address(RVA = "0x56A7770", Offset = "0x56A6770", VA = "0x56A7770")]
 	public SystemConnectionSummary(int summary)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x1D26410", Offset = "0x1D24A10", VA = "0x181D26410")]
+	[Address(RVA = "0x56A7850", Offset = "0x56A6850", VA = "0x56A7850")]
 	public int ToInt()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x1D26500", Offset = "0x1D24B00", VA = "0x181D26500", Slot = "3")]
+	[Address(RVA = "0x56A7940", Offset = "0x56A6940", VA = "0x56A7940", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x1D263B0", Offset = "0x1D249B0", VA = "0x181D263B0")]
+	[Address(RVA = "0x56A7840", Offset = "0x56A6840", VA = "0x56A7840")]
 	public static bool GetBit(ref int value, int bitpos)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x1D263C0", Offset = "0x1D249C0", VA = "0x181D263C0")]
+	[Address(RVA = "0x56A7830", Offset = "0x56A6830", VA = "0x56A7830")]
 	public static byte GetBits(ref int value, int bitpos, byte mask)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x1D263D0", Offset = "0x1D249D0", VA = "0x181D263D0")]
+	[Address(RVA = "0x56A7920", Offset = "0x56A6920", VA = "0x56A7920")]
 	public static void SetBit(ref int value, bool bitval, int bitpos)
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x1D263F0", Offset = "0x1D249F0", VA = "0x181D263F0")]
+	[Address(RVA = "0x56A7910", Offset = "0x56A6910", VA = "0x56A7910")]
 	public static void SetBits(ref int value, byte bitvals, int bitpos)
 	{
 	}

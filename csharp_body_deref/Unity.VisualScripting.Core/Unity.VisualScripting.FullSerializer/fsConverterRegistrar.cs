@@ -55,13 +55,13 @@ public class fsConverterRegistrar
 	public static List<Type> Converters;
 
 	[Token(Token = "0x6001172")]
-	[Address(RVA = "0x2E5EFD0", Offset = "0x2E5D5D0", VA = "0x182E5EFD0")]
+	[Address(RVA = "0x6852910", Offset = "0x6851910", VA = "0x6852910")]
 	static fsConverterRegistrar()
 	{
 	}
 
 	[Token(Token = "0x6001173")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6852C20", Offset = "0x6851C20", VA = "0x6852C20")]
 	public fsConverterRegistrar()
 	{
 	}

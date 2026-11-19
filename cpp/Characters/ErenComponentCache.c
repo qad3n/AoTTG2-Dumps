@@ -1,5 +1,5 @@
 // Type: Characters.ErenComponentCache
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/ErenComponentCache.cs
@@ -8,7 +8,7 @@
 
 // Characters.ErenComponentCache$$.ctor
 // il2cpp: void Characters_ErenComponentCache___ctor (Characters_ErenComponentCache_o* __this, UnityEngine_GameObject_o* owner, const MethodInfo* method);
-// 0x18216b960
+// 0x5c18ea0
 
 void Characters_ErenComponentCache___ctor
                (Characters_ErenComponentCache_o *__this,UnityEngine_GameObject_o *owner,MethodInfo *method)
@@ -16,14 +16,14 @@ void Characters_ErenComponentCache___ctor
 {
   UnityEngine_Transform_o *pUVar1;
   
-  if (Il2CppMethodInitialized_184346d50 == '\0') {
+  if (Il2CppMethodInitialized_07547724 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2/Core/Controller_Body/hip");
     il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2/Core/Controller_Body/hip/spine/chest/neck/head");
     il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2/Core/Controller_Body/hip/spine/chest/neck");
     il2cpp_codegen_initialize_runtime_metadata(&"Shifters/Prefabs/ShifterSounds");
     il2cpp_codegen_initialize_runtime_metadata(&"Titans/Prefabs/TitanSounds");
     il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2/Core");
-    Il2CppMethodInitialized_184346d50 = '\x01';
+    Il2CppMethodInitialized_07547724 = '\x01';
   }
   Characters_BaseTitanComponentCache___ctor
             ((Characters_BaseTitanComponentCache_o *)__this,owner,(MethodInfo *)0x0);
@@ -31,22 +31,22 @@ void Characters_ErenComponentCache___ctor
   if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
     pUVar1 = UnityEngine_Transform__Find(pUVar1,"ErenRig_VER2/Core/Controller_Body/hip/spine/chest/neck/head",(MethodInfo *)0x0);
     (__this->fields).Head = pUVar1;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).Head,pUVar1);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).Head);
     pUVar1 = (__this->fields).Transform;
     if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
       pUVar1 = UnityEngine_Transform__Find(pUVar1,"ErenRig_VER2/Core/Controller_Body/hip/spine/chest/neck",(MethodInfo *)0x0);
       (__this->fields).Neck = pUVar1;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).Neck,pUVar1);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).Neck);
       pUVar1 = (__this->fields).Transform;
       if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
         pUVar1 = UnityEngine_Transform__Find(pUVar1,"ErenRig_VER2/Core",(MethodInfo *)0x0);
         (__this->fields).Core = pUVar1;
-        Il2CppCodeGenWriteBarrier(&(__this->fields).Core,pUVar1);
+        Il2CppCodeGenWriteBarrier(&(__this->fields).Core);
         pUVar1 = (__this->fields).Transform;
         if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
           pUVar1 = UnityEngine_Transform__Find(pUVar1,"ErenRig_VER2/Core/Controller_Body/hip",(MethodInfo *)0x0);
           (__this->fields).Hip = pUVar1;
-          Il2CppCodeGenWriteBarrier(&(__this->fields).Hip,pUVar1);
+          Il2CppCodeGenWriteBarrier(&(__this->fields).Hip);
           Utility_BaseComponentCache__LoadAudio
                     ((Utility_BaseComponentCache_o *)__this,"Shifters/Prefabs/ShifterSounds",(__this->fields).Neck,
                      (MethodInfo *)0x0);

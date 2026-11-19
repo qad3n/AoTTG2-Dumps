@@ -12,20 +12,20 @@ namespace Unity.Collections.LowLevel.Unsafe;
 [Token(Token = "0x2000077")]
 public static class NativeSliceUnsafeUtility
 {
-	[Token(Token = "0x600015F")]
+	[Token(Token = "0x6000161")]
 	public unsafe static NativeSlice<T> ConvertExistingDataToNativeSlice<T>(void* dataPointer, int stride, int length) where T : struct
 	{
 		return default(NativeSlice<T>);
 	}
 
-	[Token(Token = "0x6000160")]
+	[Token(Token = "0x6000162")]
 	public unsafe static void* GetUnsafePtr<T>(this NativeSlice<T> nativeSlice) where T : struct
 	{
 		//IL_0002: Expected I, but got O
 		return (void*)unchecked((nint)null);
 	}
 
-	[Token(Token = "0x6000161")]
+	[Token(Token = "0x6000163")]
 	public unsafe static void* GetUnsafeReadOnlyPtr<T>(this NativeSlice<T> nativeSlice) where T : struct
 	{
 		//IL_0002: Expected I, but got O

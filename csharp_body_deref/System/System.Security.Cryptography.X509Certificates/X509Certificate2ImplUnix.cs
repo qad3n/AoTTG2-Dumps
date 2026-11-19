@@ -9,231 +9,209 @@ using System.Collections.Generic;
 using System.Text;
 using Il2CppDummyDll;
 using Internal.Cryptography.Pal;
-using Microsoft.Win32.SafeHandles;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200013D")]
+[Token(Token = "0x20000FE")]
 internal abstract class X509Certificate2ImplUnix : X509Certificate2Impl
 {
-	[Token(Token = "0x40005B2")]
+	[Token(Token = "0x40004E3")]
 	[FieldOffset(Offset = "0x10")]
 	private bool readCertData;
 
-	[Token(Token = "0x40005B3")]
+	[Token(Token = "0x40004E4")]
 	[FieldOffset(Offset = "0x18")]
 	private CertificateData certData;
 
-	[Token(Token = "0x1700015B")]
+	[Token(Token = "0x1700012C")]
 	public sealed override string KeyAlgorithm
 	{
-		[Token(Token = "0x600079D")]
-		[Address(RVA = "0x2885110", Offset = "0x2883710", VA = "0x182885110", Slot = "13")]
+		[Token(Token = "0x60005E2")]
+		[Address(RVA = "0x6214200", Offset = "0x6213200", VA = "0x6214200", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700015C")]
+	[Token(Token = "0x1700012D")]
 	public sealed override byte[] KeyAlgorithmParameters
 	{
-		[Token(Token = "0x600079E")]
-		[Address(RVA = "0x28850F0", Offset = "0x28836F0", VA = "0x1828850F0", Slot = "14")]
+		[Token(Token = "0x60005E3")]
+		[Address(RVA = "0x62142C0", Offset = "0x62132C0", VA = "0x62142C0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700015D")]
+	[Token(Token = "0x1700012E")]
 	public sealed override byte[] PublicKeyValue
 	{
-		[Token(Token = "0x600079F")]
-		[Address(RVA = "0x28851F0", Offset = "0x28837F0", VA = "0x1828851F0", Slot = "15")]
+		[Token(Token = "0x60005E4")]
+		[Address(RVA = "0x6214380", Offset = "0x6213380", VA = "0x6214380", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700015E")]
+	[Token(Token = "0x1700012F")]
 	public sealed override byte[] SerialNumber
 	{
-		[Token(Token = "0x60007A0")]
-		[Address(RVA = "0x2885230", Offset = "0x2883830", VA = "0x182885230", Slot = "16")]
+		[Token(Token = "0x60005E5")]
+		[Address(RVA = "0x6214440", Offset = "0x6213440", VA = "0x6214440", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700015F")]
+	[Token(Token = "0x17000130")]
 	public sealed override string SignatureAlgorithm
 	{
-		[Token(Token = "0x60007A1")]
-		[Address(RVA = "0x2885250", Offset = "0x2883850", VA = "0x182885250", Slot = "26")]
+		[Token(Token = "0x60005E6")]
+		[Address(RVA = "0x6214500", Offset = "0x6213500", VA = "0x6214500", Slot = "25")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000160")]
+	[Token(Token = "0x17000131")]
 	public sealed override int Version
 	{
-		[Token(Token = "0x60007A2")]
-		[Address(RVA = "0x28853A0", Offset = "0x28839A0", VA = "0x1828853A0", Slot = "28")]
+		[Token(Token = "0x60005E7")]
+		[Address(RVA = "0x62145C0", Offset = "0x62135C0", VA = "0x62145C0", Slot = "27")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000161")]
+	[Token(Token = "0x17000132")]
 	public sealed override X500DistinguishedName SubjectName
 	{
-		[Token(Token = "0x60007A3")]
-		[Address(RVA = "0x2885270", Offset = "0x2883870", VA = "0x182885270", Slot = "27")]
+		[Token(Token = "0x60005E8")]
+		[Address(RVA = "0x6214680", Offset = "0x6213680", VA = "0x6214680", Slot = "26")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000162")]
+	[Token(Token = "0x17000133")]
 	public sealed override X500DistinguishedName IssuerName
 	{
-		[Token(Token = "0x60007A4")]
-		[Address(RVA = "0x28850A0", Offset = "0x28836A0", VA = "0x1828850A0", Slot = "23")]
+		[Token(Token = "0x60005E9")]
+		[Address(RVA = "0x6214740", Offset = "0x6213740", VA = "0x6214740", Slot = "22")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000163")]
+	[Token(Token = "0x17000134")]
 	public sealed override string Subject
 	{
-		[Token(Token = "0x60007A5")]
-		[Address(RVA = "0x2885290", Offset = "0x2883890", VA = "0x182885290", Slot = "8")]
+		[Token(Token = "0x60005EA")]
+		[Address(RVA = "0x6214800", Offset = "0x6213800", VA = "0x6214800", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000164")]
+	[Token(Token = "0x17000135")]
 	public sealed override string Issuer
 	{
-		[Token(Token = "0x60007A6")]
-		[Address(RVA = "0x28850C0", Offset = "0x28836C0", VA = "0x1828850C0", Slot = "7")]
+		[Token(Token = "0x60005EB")]
+		[Address(RVA = "0x6214830", Offset = "0x6213830", VA = "0x6214830", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000165")]
+	[Token(Token = "0x17000136")]
 	public sealed override byte[] RawData
 	{
-		[Token(Token = "0x60007A7")]
-		[Address(RVA = "0x2885210", Offset = "0x2883810", VA = "0x182885210", Slot = "9")]
+		[Token(Token = "0x60005EC")]
+		[Address(RVA = "0x6214860", Offset = "0x6213860", VA = "0x6214860", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000166")]
+	[Token(Token = "0x17000137")]
 	public sealed override byte[] Thumbprint
 	{
-		[Token(Token = "0x60007A8")]
-		[Address(RVA = "0x28852C0", Offset = "0x28838C0", VA = "0x1828852C0", Slot = "12")]
+		[Token(Token = "0x60005ED")]
+		[Address(RVA = "0x6214920", Offset = "0x6213920", VA = "0x6214920", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000167")]
+	[Token(Token = "0x17000138")]
 	public sealed override IEnumerable<X509Extension> Extensions
 	{
-		[Token(Token = "0x60007AA")]
-		[Address(RVA = "0x2885080", Offset = "0x2883680", VA = "0x182885080", Slot = "22")]
+		[Token(Token = "0x60005EF")]
+		[Address(RVA = "0x6214BF0", Offset = "0x6213BF0", VA = "0x6214BF0", Slot = "21")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000168")]
+	[Token(Token = "0x17000139")]
 	public sealed override DateTime NotAfter
 	{
-		[Token(Token = "0x60007AB")]
-		[Address(RVA = "0x2885130", Offset = "0x2883730", VA = "0x182885130", Slot = "10")]
+		[Token(Token = "0x60005F0")]
+		[Address(RVA = "0x6214CB0", Offset = "0x6213CB0", VA = "0x6214CB0", Slot = "10")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x17000169")]
+	[Token(Token = "0x1700013A")]
 	public sealed override DateTime NotBefore
 	{
-		[Token(Token = "0x60007AC")]
-		[Address(RVA = "0x2885190", Offset = "0x2883790", VA = "0x182885190", Slot = "11")]
+		[Token(Token = "0x60005F1")]
+		[Address(RVA = "0x6214DD0", Offset = "0x6213DD0", VA = "0x6214DD0", Slot = "11")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x600079B")]
-	[Address(RVA = "0x2884940", Offset = "0x2882F40", VA = "0x182884940")]
+	[Token(Token = "0x60005E0")]
+	[Address(RVA = "0x6214150", Offset = "0x6213150", VA = "0x6214150")]
 	private void EnsureCertData()
 	{
 	}
 
-	[Token(Token = "0x600079C")]
+	[Token(Token = "0x60005E1")]
 	protected abstract byte[] GetRawCertData();
 
-	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x2885040", Offset = "0x2883640", VA = "0x182885040", Slot = "30")]
+	[Token(Token = "0x60005EE")]
+	[Address(RVA = "0x6214B10", Offset = "0x6213B10", VA = "0x6214B10", Slot = "29")]
 	public sealed override string GetNameInfo(X509NameType nameType, bool forIssuer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007AD")]
-	[Address(RVA = "0x28848C0", Offset = "0x2882EC0", VA = "0x1828848C0", Slot = "32")]
+	[Token(Token = "0x60005F2")]
+	[Address(RVA = "0x6214EF0", Offset = "0x6213EF0", VA = "0x6214EF0", Slot = "31")]
 	public sealed override void AppendPrivateKeyInfo(StringBuilder sb)
 	{
 	}
 
-	[Token(Token = "0x60007AE")]
-	[Address(RVA = "0x2884EC0", Offset = "0x28834C0", VA = "0x182884EC0", Slot = "20")]
-	public sealed override byte[] Export(X509ContentType contentType, Microsoft.Win32.SafeHandles.SafePasswordHandle password)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x60007AF")]
-	[Address(RVA = "0x2884A50", Offset = "0x2883050", VA = "0x182884A50")]
-	private byte[] ExportPkcs12(Microsoft.Win32.SafeHandles.SafePasswordHandle password)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x2884AB0", Offset = "0x28830B0", VA = "0x182884AB0")]
-	private byte[] ExportPkcs12(string password)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x60007B1")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60005F3")]
+	[Address(RVA = "0x6212970", Offset = "0x6211970", VA = "0x6212970")]
 	protected X509Certificate2ImplUnix()
 	{
 	}

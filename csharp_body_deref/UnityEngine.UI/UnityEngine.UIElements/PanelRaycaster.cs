@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PanelRaycaster
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,13 +28,13 @@ public class PanelRaycaster : BaseRaycaster
 	public IPanel panel
 	{
 		[Token(Token = "0x60005F9")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "23")]
+		[Address(RVA = "0x6D04A80", Offset = "0x6D03A80", VA = "0x6D04A80", Slot = "23")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005FA")]
-		[Address(RVA = "0x32F9AE0", Offset = "0x32F80E0", VA = "0x1832F9AE0", Slot = "22")]
+		[Address(RVA = "0x6D04A90", Offset = "0x6D03A90", VA = "0x6D04A90", Slot = "22")]
 		set
 		{
 		}
@@ -44,7 +44,7 @@ public class PanelRaycaster : BaseRaycaster
 	private GameObject selectableGameObject
 	{
 		[Token(Token = "0x60005FE")]
-		[Address(RVA = "0x32F9A50", Offset = "0x32F8050", VA = "0x1832F9A50")]
+		[Address(RVA = "0x6D04D10", Offset = "0x6D03D10", VA = "0x6D04D10")]
 		get
 		{
 			return null;
@@ -55,7 +55,7 @@ public class PanelRaycaster : BaseRaycaster
 	public override int sortOrderPriority
 	{
 		[Token(Token = "0x60005FF")]
-		[Address(RVA = "0x32F9A70", Offset = "0x32F8070", VA = "0x1832F9A70", Slot = "20")]
+		[Address(RVA = "0x6D04D30", Offset = "0x6D03D30", VA = "0x6D04D30", Slot = "20")]
 		get
 		{
 			return default(int);
@@ -66,7 +66,7 @@ public class PanelRaycaster : BaseRaycaster
 	public override int renderOrderPriority
 	{
 		[Token(Token = "0x6000600")]
-		[Address(RVA = "0x32F99D0", Offset = "0x32F7FD0", VA = "0x1832F99D0", Slot = "21")]
+		[Address(RVA = "0x6D04DD0", Offset = "0x6D03DD0", VA = "0x6D04DD0", Slot = "21")]
 		get
 		{
 			return default(int);
@@ -77,7 +77,7 @@ public class PanelRaycaster : BaseRaycaster
 	public override Camera eventCamera
 	{
 		[Token(Token = "0x6000602")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "18")]
+		[Address(RVA = "0x6D052D0", Offset = "0x6D042D0", VA = "0x6D052D0", Slot = "18")]
 		get
 		{
 			return null;
@@ -85,31 +85,31 @@ public class PanelRaycaster : BaseRaycaster
 	}
 
 	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x32F9830", Offset = "0x32F7E30", VA = "0x1832F9830")]
+	[Address(RVA = "0x6D04C80", Offset = "0x6D03C80", VA = "0x6D04C80")]
 	private void RegisterCallbacks()
 	{
 	}
 
 	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x32F98C0", Offset = "0x32F7EC0", VA = "0x1832F98C0")]
+	[Address(RVA = "0x6D04C00", Offset = "0x6D03C00", VA = "0x6D04C00")]
 	private void UnregisterCallbacks()
 	{
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x32F92D0", Offset = "0x32F78D0", VA = "0x1832F92D0")]
+	[Address(RVA = "0x6D04D00", Offset = "0x6D03D00", VA = "0x6D04D00")]
 	private void OnPanelDestroyed()
 	{
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x32F9400", Offset = "0x32F7A00", VA = "0x1832F9400", Slot = "17")]
+	[Address(RVA = "0x6D04E40", Offset = "0x6D03E40", VA = "0x6D04E40", Slot = "17")]
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
 	{
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6D052E0", Offset = "0x6D042E0", VA = "0x6D052E0")]
 	public PanelRaycaster()
 	{
 	}

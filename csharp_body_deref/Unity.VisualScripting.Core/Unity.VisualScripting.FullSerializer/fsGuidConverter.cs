@@ -14,49 +14,49 @@ namespace Unity.VisualScripting.FullSerializer;
 public class fsGuidConverter : fsConverter
 {
 	[Token(Token = "0x60011C2")]
-	[Address(RVA = "0x2E63DA0", Offset = "0x2E623A0", VA = "0x182E63DA0", Slot = "9")]
+	[Address(RVA = "0x685C8C0", Offset = "0x685B8C0", VA = "0x685C8C0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011C3")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
+	[Address(RVA = "0x685C930", Offset = "0x685B930", VA = "0x685C930", Slot = "5")]
 	public override bool RequestCycleSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011C4")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+	[Address(RVA = "0x685C940", Offset = "0x685B940", VA = "0x685C940", Slot = "6")]
 	public override bool RequestInheritanceSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011C5")]
-	[Address(RVA = "0x2E63FB0", Offset = "0x2E625B0", VA = "0x182E63FB0", Slot = "7")]
+	[Address(RVA = "0x685C950", Offset = "0x685B950", VA = "0x685C950", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011C6")]
-	[Address(RVA = "0x2E63E50", Offset = "0x2E62450", VA = "0x182E63E50", Slot = "8")]
+	[Address(RVA = "0x685CA50", Offset = "0x685BA50", VA = "0x685CA50", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011C7")]
-	[Address(RVA = "0x2E63E10", Offset = "0x2E62410", VA = "0x182E63E10", Slot = "4")]
+	[Address(RVA = "0x685CB90", Offset = "0x685BB90", VA = "0x685CB90", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011C8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x685CBD0", Offset = "0x685BBD0", VA = "0x685CBD0")]
 	public fsGuidConverter()
 	{
 	}

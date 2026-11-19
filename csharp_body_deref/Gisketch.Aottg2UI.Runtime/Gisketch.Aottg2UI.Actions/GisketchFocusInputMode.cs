@@ -12,18 +12,18 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000DC")]
+[Token(Token = "0x20000E2")]
 public static class GisketchFocusInputMode
 {
-	[Token(Token = "0x400048A")]
+	[Token(Token = "0x40004B1")]
 	[FieldOffset(Offset = "0x0")]
 	private static Vector3 _lastMousePosition;
 
-	[Token(Token = "0x400048B")]
+	[Token(Token = "0x40004B2")]
 	[FieldOffset(Offset = "0xC")]
 	private static bool _hasMousePosition;
 
-	[Token(Token = "0x400048C")]
+	[Token(Token = "0x40004B3")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private static Action m_Changed;
@@ -31,15 +31,15 @@ public static class GisketchFocusInputMode
 	[Token(Token = "0x170000AE")]
 	public static GisketchInputMode Mode
 	{
-		[Token(Token = "0x60006B7")]
-		[Address(RVA = "0x18FF180", Offset = "0x18FD780", VA = "0x1818FF180")]
+		[Token(Token = "0x6000705")]
+		[Address(RVA = "0x52A0F70", Offset = "0x529FF70", VA = "0x52A0F70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(GisketchInputMode);
 		}
-		[Token(Token = "0x60006B8")]
-		[Address(RVA = "0x18FF280", Offset = "0x18FD880", VA = "0x1818FF280")]
+		[Token(Token = "0x6000706")]
+		[Address(RVA = "0x52A0FB0", Offset = "0x529FFB0", VA = "0x52A0FB0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -49,8 +49,8 @@ public static class GisketchFocusInputMode
 	[Token(Token = "0x170000AF")]
 	public static bool IsNavigation
 	{
-		[Token(Token = "0x60006B9")]
-		[Address(RVA = "0x18FF140", Offset = "0x18FD740", VA = "0x1818FF140")]
+		[Token(Token = "0x6000707")]
+		[Address(RVA = "0x5295820", Offset = "0x5294820", VA = "0x5295820")]
 		get
 		{
 			return default(bool);
@@ -60,74 +60,74 @@ public static class GisketchFocusInputMode
 	[Token(Token = "0x14000004")]
 	public static event Action Changed
 	{
-		[Token(Token = "0x60006B5")]
-		[Address(RVA = "0x18FF080", Offset = "0x18FD680", VA = "0x1818FF080")]
+		[Token(Token = "0x6000703")]
+		[Address(RVA = "0x52A0E10", Offset = "0x529FE10", VA = "0x52A0E10")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60006B6")]
-		[Address(RVA = "0x18FF1C0", Offset = "0x18FD7C0", VA = "0x1818FF1C0")]
+		[Token(Token = "0x6000704")]
+		[Address(RVA = "0x52A0EC0", Offset = "0x529FEC0", VA = "0x52A0EC0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60006BA")]
-	[Address(RVA = "0x18FF010", Offset = "0x18FD610", VA = "0x1818FF010")]
+	[Token(Token = "0x6000708")]
+	[Address(RVA = "0x5294640", Offset = "0x5293640", VA = "0x5294640")]
 	public static void SetPointer()
 	{
 	}
 
-	[Token(Token = "0x60006BB")]
-	[Address(RVA = "0x18FA410", Offset = "0x18F8A10", VA = "0x1818FA410")]
+	[Token(Token = "0x6000709")]
+	[Address(RVA = "0x52947B0", Offset = "0x52937B0", VA = "0x52947B0")]
 	public static void SetNavigation()
 	{
 	}
 
-	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x18FF020", Offset = "0x18FD620", VA = "0x1818FF020")]
+	[Token(Token = "0x600070A")]
+	[Address(RVA = "0x52A10A0", Offset = "0x52A00A0", VA = "0x52A10A0")]
 	public static bool TakeTab(out bool backwards)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006BD")]
-	[Address(RVA = "0x18FEE10", Offset = "0x18FD410", VA = "0x1818FEE10")]
+	[Token(Token = "0x600070B")]
+	[Address(RVA = "0x52A11A0", Offset = "0x52A01A0", VA = "0x52A11A0")]
 	public static bool Poll()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006BE")]
-	[Address(RVA = "0x18FEDE0", Offset = "0x18FD3E0", VA = "0x1818FEDE0")]
+	[Token(Token = "0x600070C")]
+	[Address(RVA = "0x52A1520", Offset = "0x52A0520", VA = "0x52A1520")]
 	public static void PollPointerOnly()
 	{
 	}
 
-	[Token(Token = "0x60006BF")]
-	[Address(RVA = "0x18FEF60", Offset = "0x18FD560", VA = "0x1818FEF60")]
+	[Token(Token = "0x600070D")]
+	[Address(RVA = "0x52A0FF0", Offset = "0x529FFF0", VA = "0x52A0FF0")]
 	private static void SetMode(GisketchInputMode mode)
 	{
 	}
 
-	[Token(Token = "0x60006C0")]
-	[Address(RVA = "0x18FEB60", Offset = "0x18FD160", VA = "0x1818FEB60")]
+	[Token(Token = "0x600070E")]
+	[Address(RVA = "0x52A12F0", Offset = "0x52A02F0", VA = "0x52A12F0")]
 	private static bool HasNavigationInput()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006C1")]
-	[Address(RVA = "0x18FEC90", Offset = "0x18FD290", VA = "0x1818FEC90")]
+	[Token(Token = "0x600070F")]
+	[Address(RVA = "0x52A1410", Offset = "0x52A0410", VA = "0x52A1410")]
 	private static bool HasPointerInput()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006C2")]
-	[Address(RVA = "0x18FEB40", Offset = "0x18FD140", VA = "0x1818FEB40")]
+	[Token(Token = "0x6000710")]
+	[Address(RVA = "0x52A15D0", Offset = "0x52A05D0", VA = "0x52A15D0")]
 	private static float Axis(string name)
 	{
 		return default(float);

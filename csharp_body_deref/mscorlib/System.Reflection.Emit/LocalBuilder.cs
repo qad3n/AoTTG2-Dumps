@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 namespace System.Reflection.Emit;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200055A")]
+[Token(Token = "0x2000533")]
 public sealed class LocalBuilder : LocalVariableInfo
 {
-	[Token(Token = "0x4001562")]
+	[Token(Token = "0x40014C2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private string name;
 
-	[Token(Token = "0x4001563")]
+	[Token(Token = "0x40014C3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	internal ILGenerator ilgen;
 
-	[Token(Token = "0x4001564")]
+	[Token(Token = "0x40014C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private int startOffset;
 
-	[Token(Token = "0x4001565")]
+	[Token(Token = "0x40014C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x34")]
 	private int endOffset;
 }

@@ -10,32 +10,32 @@ using Settings;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x200016D")]
+[Token(Token = "0x2000175")]
 internal sealed class AottgColorSettingAdapter : AottgSettingAdapter
 {
-	[Token(Token = "0x4000817")]
+	[Token(Token = "0x4000860")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly ColorSetting _setting;
 
-	[Token(Token = "0x17000104")]
+	[Token(Token = "0x17000107")]
 	public override string TextValue
 	{
-		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x2303BC0", Offset = "0x23021C0", VA = "0x182303BC0", Slot = "16")]
+		[Token(Token = "0x6000801")]
+		[Address(RVA = "0x5CC6460", Offset = "0x5CC5460", VA = "0x5CC6460", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600078A")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000800")]
+	[Address(RVA = "0x5CC6430", Offset = "0x5CC5430", VA = "0x5CC6430")]
 	public AottgColorSettingAdapter(ColorSetting setting)
 	{
 	}
 
-	[Token(Token = "0x600078C")]
-	[Address(RVA = "0x2303B00", Offset = "0x2302100", VA = "0x182303B00", Slot = "26")]
+	[Token(Token = "0x6000802")]
+	[Address(RVA = "0x5CC6510", Offset = "0x5CC5510", VA = "0x5CC6510", Slot = "26")]
 	public override void SetText(string value)
 	{
 	}

@@ -106,7 +106,7 @@ public class RelationshipManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x53A530", Offset = "0x538B30", VA = "0x18053A530")]
+		[Address(RVA = "0x3148E30", Offset = "0x3147E30", VA = "0x3148E30")]
 		get
 		{
 			return default(FFIMethods);
@@ -117,13 +117,13 @@ public class RelationshipManager
 	public event RefreshHandler OnRefresh
 	{
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x53A3F0", Offset = "0x5389F0", VA = "0x18053A3F0")]
+		[Address(RVA = "0x3148F40", Offset = "0x3147F40", VA = "0x3148F40")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x53A640", Offset = "0x538C40", VA = "0x18053A640")]
+		[Address(RVA = "0x3148FD0", Offset = "0x3147FD0", VA = "0x3148FD0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -134,13 +134,13 @@ public class RelationshipManager
 	public event RelationshipUpdateHandler OnRelationshipUpdate
 	{
 		[Token(Token = "0x600019F")]
-		[Address(RVA = "0x53A490", Offset = "0x538A90", VA = "0x18053A490")]
+		[Address(RVA = "0x3149060", Offset = "0x3148060", VA = "0x3149060")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x53A6E0", Offset = "0x538CE0", VA = "0x18053A6E0")]
+		[Address(RVA = "0x31490F0", Offset = "0x31480F0", VA = "0x31490F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -148,19 +148,19 @@ public class RelationshipManager
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x53A320", Offset = "0x538920", VA = "0x18053A320")]
+	[Address(RVA = "0x3143360", Offset = "0x3142360", VA = "0x3143360")]
 	internal RelationshipManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x539EE0", Offset = "0x5384E0", VA = "0x180539EE0")]
+	[Address(RVA = "0x3149180", Offset = "0x3148180", VA = "0x3149180")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x539B20", Offset = "0x538120", VA = "0x180539B20")]
+	[Address(RVA = "0x3148B60", Offset = "0x3147B60", VA = "0x3148B60")]
 	[MonoPInvokeCallback]
 	private static bool FilterCallbackImpl(IntPtr ptr, ref Relationship relationship)
 	{
@@ -168,41 +168,41 @@ public class RelationshipManager
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x539C10", Offset = "0x538210", VA = "0x180539C10")]
+	[Address(RVA = "0x31494A0", Offset = "0x31484A0", VA = "0x31494A0")]
 	public void Filter(FilterHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x539A80", Offset = "0x538080", VA = "0x180539A80")]
+	[Address(RVA = "0x3149680", Offset = "0x3148680", VA = "0x3149680")]
 	public int Count()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x539E20", Offset = "0x538420", VA = "0x180539E20")]
+	[Address(RVA = "0x3149710", Offset = "0x3148710", VA = "0x3149710")]
 	public Relationship Get(long userId)
 	{
 		return default(Relationship);
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x539D60", Offset = "0x538360", VA = "0x180539D60")]
+	[Address(RVA = "0x3149810", Offset = "0x3148810", VA = "0x3149810")]
 	public Relationship GetAt(uint index)
 	{
 		return default(Relationship);
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x53A0E0", Offset = "0x5386E0", VA = "0x18053A0E0")]
+	[Address(RVA = "0x3148C30", Offset = "0x3147C30", VA = "0x3148C30")]
 	[MonoPInvokeCallback]
 	private static void OnRefreshImpl(IntPtr ptr)
 	{
 	}
 
 	[Token(Token = "0x60001A9")]
-	[Address(RVA = "0x53A200", Offset = "0x538800", VA = "0x18053A200")]
+	[Address(RVA = "0x3148D20", Offset = "0x3147D20", VA = "0x3148D20")]
 	[MonoPInvokeCallback]
 	private static void OnRelationshipUpdateImpl(IntPtr ptr, ref Relationship relationship)
 	{

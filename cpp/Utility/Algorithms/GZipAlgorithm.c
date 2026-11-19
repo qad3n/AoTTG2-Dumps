@@ -1,5 +1,5 @@
 // Type: Utility.Algorithms.GZipAlgorithm
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility.Algorithms/GZipAlgorithm.cs
@@ -8,87 +8,103 @@
 
 // Utility.Algorithms.GZipAlgorithm$$Compress
 // il2cpp: System_Byte_array* Utility_Algorithms_GZipAlgorithm__Compress (Utility_Algorithms_GZipAlgorithm_o* __this, System_Byte_array* data, int32_t level, const MethodInfo* method);
-// 0x182339b30
-// eh: try 0x182339b86..0x182339bb3 -> pad 0x183340430 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// eh: try 0x182339bb3..0x182339c62 -> pad 0x183340400 (+2 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x182339c62..0x182339c7b -> pad 0x183340430 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// eh: try 0x182339c90..0x182339cb4 -> pad 0x183340400 catch Il2CppExceptionWrapper
-// eh: try 0x182339cb4..0x182339cca -> pad 0x183340430 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// eh: try 0x182339cec..0x182339d03 -> pad 0x183340400 (+2 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x182339d03..0x182339d0a -> pad 0x183340430 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 72 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182339c7a: nop 
-// asm:   0x182339c7d: mov r8, qword ptr [rsp + 0x38]
-// asm:   0x182339c82: test r8, r8
-// asm:   0x182339c85: je 0x182339c95
-// asm:   0x182339c87: xor ecx, ecx
-// asm:   0x182339c89: mov rdx, qword ptr [rip + 0x1d5f670]  ; TypeInfo_System_IDisposable
-// asm:   0x182339c90: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x182339c95: mov rcx, qword ptr [rsp + 0x60]
-// asm:   0x182339c9a: test rcx, rcx
-// asm:   0x182339c9d: jne 0x182339cfd
-// asm:   0x182339c9f: jmp 0x182339c41
-// asm:   0x182339ca1: mov r8, qword ptr [rsp + 0x30]
-// asm:   0x182339ca6: test r8, r8
-// asm:   0x182339ca9: je 0x182339cb9
-// asm:   0x182339cab: xor ecx, ecx
-// asm:   0x182339cad: mov rdx, qword ptr [rip + 0x1d5f64c]  ; TypeInfo_System_IDisposable
-// asm:   0x182339cb4: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x182339cb9: mov rcx, qword ptr [rsp + 0x70]
-// asm:   0x182339cbe: test rcx, rcx
-// asm:   0x182339cc1: jne 0x182339d03
-// asm:   0x182339cc3: lea rcx, [rip + 0x1d9f09e]  ; MethodInfo_System_Array_Empty_byte
-// asm:   0x182339cca: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x182339ccf: mov rcx, rax
-// asm:   0x182339cd2: call 0x18001b1e0  ; il2cpp_runtime_helper_18001b1e0()
-// asm:   0x182339cd7: mov rbx, rax
-// asm:   0x182339cfd: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x182339d03: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333af70: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333af75: push rbp
-// asm:   0x18333af76: sub rsp, 0x30
-// asm:   0x18333af7a: mov rbp, rdx
-// asm:   0x18333af7d: mov rax, qword ptr [rbp + 0x48]
-// asm:   0x18333af81: mov rcx, qword ptr [rax]
-// asm:   0x18333af84: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x18333af88: movabs rax, 0
-// asm:   0x18333af92: add rsp, 0x30
-// asm:   0x18333af96: pop rbp
-// asm:   0x18333af97: ret 
-// asm:   0x183340400: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340405: push rbp
-// asm:   0x183340406: sub rsp, 0x30
-// asm:   0x18334040a: mov rbp, rdx
-// asm:   0x18334040d: mov rax, qword ptr [rbp + 0x50]
-// asm:   0x183340411: mov rcx, qword ptr [rax]
-// asm:   0x183340414: mov qword ptr [rbp + 0x70], rcx
-// asm:   0x183340418: movabs rax, 0
-// asm:   0x183340422: add rsp, 0x30
-// asm:   0x183340426: pop rbp
-// asm:   0x183340427: ret 
-// asm:   0x183340430: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340435: push rbx
-// asm:   0x183340436: push rbp
-// asm:   0x183340437: sub rsp, 0x38
-// asm:   0x18334043b: mov rbp, rdx
-// asm:   0x18334043e: mov rbx, qword ptr [rbp + 0x58]
-// asm:   0x183340442: mov rdx, qword ptr [rbx]
-// asm:   0x183340445: mov rdx, qword ptr [rdx]
-// asm:   0x183340448: mov rcx, qword ptr [rip + 0x1014981]
-// asm:   0x18334044f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x183340454: test al, al
-// asm:   0x183340456: je 0x183340464
-// asm:   0x183340458: movabs rax, 0
-// asm:   0x183340462: jmp 0x18334047c
-// asm:   0x183340464: mov rax, qword ptr [rbx]
-// asm:   0x183340467: mov qword ptr [rbp + 0x40], rax
-// asm:   0x18334046b: lea rdx, [rip + 0xc9bb16]
-// asm:   0x183340472: lea rcx, [rbp + 0x40]
-// asm:   0x183340476: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x18334047c: add rsp, 0x38
-// asm:   0x183340480: pop rbp
-// asm:   0x183340481: pop rbx
-// asm:   0x183340482: ret 
+// 0x5df5860
+// eh: try 0x5df58c0..0x5df5b53 -> pad 0x5df5b6c (+10 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5df5b5e..0x5df5b68 -> pad 0x5df5c23 catch (...) [compiler noexcept guard]
+// eh: try 0x5df5b91..0x5df5b96 -> pad 0x5df5bae catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5df5bb4..0x5df5bbe -> pad 0x5df5c23 catch (...) [compiler noexcept guard]
+// eh: try 0x5df5bdf..0x5df5c13 -> pad 0x5df5c13 (+1 call sites) cleanup
+// eh: try 0x5df5c16..0x5df5c1b -> pad 0x5df5c23 catch (...) [compiler noexcept guard]
+// asm: 89 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5df5ad3: mov rdi, rbx
+// asm:   0x5df5ad6: call 0x311e050  ; il2cpp_codegen_rgctx_method_init()
+// asm:   0x5df5adb: mov rax, qword ptr [rbx + 0x38]
+// asm:   0x5df5adf: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5df5ae3: test byte ptr [rdi + 0x135], 1
+// asm:   0x5df5aea: jne 0x5df5a99
+// asm:   0x5df5aec: call 0x311dff0  ; il2cpp_codegen_class_init_checked()
+// asm:   0x5df5af1: mov rdi, rax
+// asm:   0x5df5af4: cmp dword ptr [rdi + 0xe4], 0
+// asm:   0x5df5afb: jne 0x5df5aa2
+// asm:   0x5df5afd: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5df5b02: mov rax, qword ptr [rbx + 0x38]
+// asm:   0x5df5b06: mov rax, qword ptr [rax + 0x10]
+// asm:   0x5df5b0a: test byte ptr [rax + 0x135], 1
+// asm:   0x5df5b11: je 0x5df5ab3
+// asm:   0x5df5b13: jmp 0x5df5abb
+// asm:   0x5df5b1a: mov rdi, r14
+// asm:   0x5df5b1d: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5df5b22: mov rdi, r14
+// asm:   0x5df5b25: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5df5b2f: jmp 0x5df5b76
+// asm:   0x5df5b31: jmp 0x5df5b76
+// asm:   0x5df5b33: mov rbx, rdx
+// asm:   0x5df5b36: mov r14, rax
+// asm:   0x5df5b39: cmp ebx, 1
+// asm:   0x5df5b3c: jne 0x5df5b5e
+// asm:   0x5df5b3e: mov rdi, r14
+// asm:   0x5df5b41: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df5b46: mov r14, qword ptr [rax]
+// asm:   0x5df5b49: mov qword ptr [rsp + 0x18], r14
+// asm:   0x5df5b4e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df5b53: jmp 0x5df595b
+// asm:   0x5df5b58: mov rbx, rdx
+// asm:   0x5df5b5b: mov r14, rax
+// asm:   0x5df5b5e: lea rdi, [rsp + 0x18]
+// asm:   0x5df5b63: call 0x2fdfe20  ; il2cpp_runtime_helper_02fdfe20()
+// asm:   0x5df5b68: jmp 0x5df5b7c
+// asm:   0x5df5b6a: jmp 0x5df5b76
+// asm:   0x5df5b6c: jmp 0x5df5b6e
+// asm:   0x5df5b6e: mov rbx, rdx
+// asm:   0x5df5b71: mov r14, rax
+// asm:   0x5df5b74: jmp 0x5df5bbe
+// asm:   0x5df5b76: mov rbx, rdx
+// asm:   0x5df5b79: mov r14, rax
+// asm:   0x5df5b7c: cmp ebx, 1
+// asm:   0x5df5b7f: jne 0x5df5bb4
+// asm:   0x5df5b81: mov rdi, r14
+// asm:   0x5df5b84: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df5b89: mov r14, qword ptr [rax]
+// asm:   0x5df5b8c: mov qword ptr [rsp + 0x28], r14
+// asm:   0x5df5b91: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df5b96: mov r15b, 1
+// asm:   0x5df5b99: xor ebx, ebx
+// asm:   0x5df5b9b: mov rbp, qword ptr [rsp + 8]
+// asm:   0x5df5ba0: test rbp, rbp
+// asm:   0x5df5ba3: jne 0x5df5a00
+// asm:   0x5df5ba9: jmp 0x5df5a66
+// asm:   0x5df5bae: mov rbx, rdx
+// asm:   0x5df5bb1: mov r14, rax
+// asm:   0x5df5bb4: lea rdi, [rsp + 0x28]
+// asm:   0x5df5bb9: call 0x2fdfeb0  ; il2cpp_runtime_helper_02fdfeb0()
+// asm:   0x5df5bbe: cmp ebx, 1
+// asm:   0x5df5bc1: jne 0x5df5c1b
+// asm:   0x5df5bc3: mov rdi, r14
+// asm:   0x5df5bc6: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df5bcb: mov rbx, rax
+// asm:   0x5df5bce: lea rax, [rip + 0x1760af3]
+// asm:   0x5df5bd5: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5df5bd9: mov rax, qword ptr [rbx]
+// asm:   0x5df5bdc: mov rsi, qword ptr [rax]
+// asm:   0x5df5bdf: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5df5be4: test al, al
+// asm:   0x5df5be6: je 0x5df5bf2
+// asm:   0x5df5be8: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df5bed: jmp 0x5df5a74
+// asm:   0x5df5bf2: mov edi, 8
+// asm:   0x5df5bf7: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5df5bfc: mov rcx, qword ptr [rbx]
+// asm:   0x5df5bff: mov qword ptr [rax], rcx
+// asm:   0x5df5c02: lea rsi, [rip + 0x10378f7]
+// asm:   0x5df5c09: mov rdi, rax
+// asm:   0x5df5c0c: xor edx, edx
+// asm:   0x5df5c0e: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5df5c13: mov r14, rax
+// asm:   0x5df5c16: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df5c1b: mov rdi, r14
+// asm:   0x5df5c1e: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5df5c23: mov rdi, rax
+// asm:   0x5df5c26: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Byte_array *
 Utility_Algorithms_GZipAlgorithm__Compress
@@ -96,142 +112,206 @@ Utility_Algorithms_GZipAlgorithm__Compress
           )
 
 {
-  System_IO_MemoryStream_o *__this_00;
-  System_IO_Compression_GZipStream_o *__this_01;
-  System_Byte_array *pSVar1;
-  System_IO_MemoryStream_o *local_78;
-  System_IO_Compression_GZipStream_o *local_70 [5];
-  undefined8 local_48;
-  System_IO_Compression_GZipStream_o **local_40;
-  undefined8 local_38;
-  System_IO_MemoryStream_o **local_30;
+  System_IO_Compression_GZipStream_c *pSVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  System_IO_MemoryStream_c *pSVar3;
+  System_IO_MemoryStream_o *pSVar4;
+  System_IO_Compression_GZipStream_o *pSVar5;
+  VirtualInvokeData *pVVar6;
+  System_Byte_array *pSVar7;
+  ulong uVar8;
+  long lVar9;
+  System_IO_MemoryStream_o *pSStack_50;
+  System_IO_Compression_GZipStream_o *pSStack_48;
+  undefined8 uStack_40;
+  System_IO_Compression_GZipStream_o **ppSStack_38;
+  undefined8 uStack_30;
+  System_IO_MemoryStream_o **ppSStack_28;
   
-  if (Il2CppMethodInitialized_18434786c == '\0') {
+  if (Il2CppMethodInitialized_0754831c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IO_Compression_GZipStream);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IO_MemoryStream);
-    Il2CppMethodInitialized_18434786c = '\x01';
+    Il2CppMethodInitialized_0754831c = '\x01';
   }
-  local_78 = (System_IO_MemoryStream_o *)0x0;
-  local_70[0] = (System_IO_Compression_GZipStream_o *)0x0;
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
-  System_IO_MemoryStream___ctor(__this_00,(MethodInfo *)0x0);
-  local_38 = 0;
-  local_30 = &local_78;
-  local_78 = __this_00;
-  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_Compression_GZipStream);
-  System_IO_Compression_GZipStream___ctor_28fece0
-            (__this_01,(System_IO_Stream_o *)__this_00,level,true,(MethodInfo *)0x0);
-  local_48 = 0;
-  local_40 = local_70;
-  local_70[0] = __this_01;
-  if (data == (System_Byte_array *)0x0) {
+  pSStack_50 = (System_IO_MemoryStream_o *)0x0;
+  pSStack_48 = (System_IO_Compression_GZipStream_o *)0x0;
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
+  System_IO_MemoryStream___ctor(pSVar4,(MethodInfo *)0x0);
+  uStack_30 = 0;
+  ppSStack_28 = &pSStack_50;
+  pSStack_50 = pSVar4;
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_Compression_GZipStream);
+  System_IO_Compression_GZipStream___ctor_628b830
+            (pSVar5,(System_IO_Stream_o *)pSVar4,level,true,(MethodInfo *)0x0);
+  uStack_40 = 0;
+  ppSStack_38 = &pSStack_48;
+  pSStack_48 = pSVar5;
+  if ((data == (System_Byte_array *)0x0) || (pSVar5 == (System_IO_Compression_GZipStream_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  if (__this_01 == (System_IO_Compression_GZipStream_o *)0x0) {
-    ThrowNullReferenceException();
-  }
-  (*(__this_01->klass->vtable)._35_Write.methodPtr)
-            (__this_01,data,0,(int32_t)data->max_length,(__this_01->klass->vtable)._35_Write.method);
-  if (local_70[0] != (System_IO_Compression_GZipStream_o *)0x0) {
-    InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)local_70[0]);
-  }
-  if (local_78 != (System_IO_MemoryStream_o *)0x0) {
-    pSVar1 = (*(local_78->klass->vtable)._41_ToArray.methodPtr)
-                       (local_78,(local_78->klass->vtable)._41_ToArray.method);
-    if (local_78 != (System_IO_MemoryStream_o *)0x0) {
-      InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)local_78);
+  (*(pSVar5->klass->vtable)._36_Write.methodPtr)
+            (pSVar5,data,0,(int32_t)data->max_length,(pSVar5->klass->vtable)._36_Write.method);
+  pSVar5 = pSStack_48;
+  if (pSStack_48 != (System_IO_Compression_GZipStream_o *)0x0) {
+    pSVar1 = pSStack_48->klass;
+    uVar8 = (ulong)(pSVar1->_2).interface_offsets_count;
+    if (uVar8 != 0) {
+      pIVar2 = (pSVar1->_1).interfaceOffsets;
+      lVar9 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar9) == TypeInfo_System_IDisposable) {
+          pVVar6 = &(pSVar1->vtable)._0_Equals + *(int *)((long)&pIVar2->offset + lVar9);
+          goto label_05df59bd;
+        }
+        lVar9 = lVar9 + 0x10;
+      } while (uVar8 * 0x10 != lVar9);
     }
-    return pSVar1;
+    pVVar6 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)pSStack_48,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_05df59bd:
+    (*pVVar6->methodPtr)((Il2CppObject *)pSVar5,pVVar6->method);
   }
-  ThrowNullReferenceException();
+  if (pSStack_50 == (System_IO_MemoryStream_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  pSVar7 = (*(pSStack_50->klass->vtable)._42_ToArray.methodPtr)
+                     (pSStack_50,(pSStack_50->klass->vtable)._42_ToArray.method);
+  pSVar4 = pSStack_50;
+  if (pSStack_50 != (System_IO_MemoryStream_o *)0x0) {
+    pSVar3 = pSStack_50->klass;
+    uVar8 = (ulong)(pSVar3->_2).interface_offsets_count;
+    if (uVar8 != 0) {
+      pIVar2 = (pSVar3->_1).interfaceOffsets;
+      lVar9 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar9) == TypeInfo_System_IDisposable) {
+          pVVar6 = &(pSVar3->vtable)._0_Equals + *(int *)((long)&pIVar2->offset + lVar9);
+          goto label_05df5a5d;
+        }
+        lVar9 = lVar9 + 0x10;
+      } while (uVar8 * 0x10 != lVar9);
+    }
+    pVVar6 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)pSStack_50,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_05df5a5d:
+    (*pVVar6->methodPtr)((Il2CppObject *)pSVar4,pVVar6->method);
+  }
+  return pSVar7;
 }
 
 
 // Utility.Algorithms.GZipAlgorithm$$Decompress
 // il2cpp: System_Byte_array* Utility_Algorithms_GZipAlgorithm__Decompress (Utility_Algorithms_GZipAlgorithm_o* __this, System_Byte_array* data, int32_t bufferSize, int64_t maxSize, const MethodInfo* method);
-// 0x182339d10
-// eh: try 0x182339d79..0x182339da6 -> pad 0x183340490 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// eh: try 0x182339da6..0x182339edd -> pad 0x1833286e0 (+2 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x182339edd..0x182339f28 -> pad 0x183340490 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// eh: try 0x182339f4e..0x182339ff3 -> pad 0x1833383a0 (+1 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x182339ff3..0x182339ffa -> pad 0x183340490 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 75 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182339e0c: nop dword ptr [rax]
-// asm:   0x182339e8d: mov r8, qword ptr [rsp + 0x58]
-// asm:   0x182339e92: cmp qword ptr [r8], 0
-// asm:   0x182339e96: je 0x182339ea9
-// asm:   0x182339e98: xor ecx, ecx
-// asm:   0x182339e9a: mov r8, qword ptr [r8]
-// asm:   0x182339e9d: mov rdx, qword ptr [rip + 0x1d5f45c]  ; TypeInfo_System_IDisposable
-// asm:   0x182339ea4: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x182339ea9: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x182339eae: test rcx, rcx
-// asm:   0x182339eb1: jne 0x182339fe8
-// asm:   0x182339eb7: mov rbx, qword ptr [rsp + 0x48]
-// asm:   0x182339ef4: nop 
-// asm:   0x182339ef7: mov r8, qword ptr [rsp + 0x48]
-// asm:   0x182339efc: cmp qword ptr [r8], 0
-// asm:   0x182339f00: je 0x182339f13
-// asm:   0x182339f02: xor ecx, ecx
-// asm:   0x182339f04: mov r8, qword ptr [r8]
-// asm:   0x182339f07: mov rdx, qword ptr [rip + 0x1d5f3f2]  ; TypeInfo_System_IDisposable
-// asm:   0x182339f0e: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x182339f13: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x182339f18: test rcx, rcx
-// asm:   0x182339f1b: jne 0x182339ff3
-// asm:   0x182339f21: lea rcx, [rip + 0x1d9ee40]  ; MethodInfo_System_Array_Empty_byte
-// asm:   0x182339f28: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x182339f2d: mov rcx, rax
-// asm:   0x182339f30: call 0x18001b1e0  ; il2cpp_runtime_helper_18001b1e0()
-// asm:   0x182339f35: mov rdi, rax
-// asm:   0x182339fe8: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x182339ff3: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833286e0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833286e5: push rbp
-// asm:   0x1833286e6: sub rsp, 0x30
-// asm:   0x1833286ea: mov rbp, rdx
-// asm:   0x1833286ed: mov rax, qword ptr [rbp + 0x80]
-// asm:   0x1833286f4: mov rcx, qword ptr [rax]
-// asm:   0x1833286f7: mov qword ptr [rbp + 0x40], rcx
-// asm:   0x1833286fb: movabs rax, 0
-// asm:   0x183328705: add rsp, 0x30
-// asm:   0x183328709: pop rbp
-// asm:   0x18332870a: ret 
-// asm:   0x1833383a0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833383a5: push rbp
-// asm:   0x1833383a6: sub rsp, 0x30
-// asm:   0x1833383aa: mov rbp, rdx
-// asm:   0x1833383ad: mov rax, qword ptr [rbp + 0x78]
-// asm:   0x1833383b1: mov rcx, qword ptr [rax]
-// asm:   0x1833383b4: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x1833383b8: movabs rax, 0
-// asm:   0x1833383c2: add rsp, 0x30
-// asm:   0x1833383c6: pop rbp
-// asm:   0x1833383c7: ret 
-// asm:   0x183340490: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340495: push rbx
-// asm:   0x183340496: push rbp
-// asm:   0x183340497: sub rsp, 0x38
-// asm:   0x18334049b: mov rbp, rdx
-// asm:   0x18334049e: mov rbx, qword ptr [rbp + 0x88]
-// asm:   0x1833404a5: mov rdx, qword ptr [rbx]
-// asm:   0x1833404a8: mov rdx, qword ptr [rdx]
-// asm:   0x1833404ab: mov rcx, qword ptr [rip + 0x101491e]
-// asm:   0x1833404b2: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x1833404b7: test al, al
-// asm:   0x1833404b9: je 0x1833404c7
-// asm:   0x1833404bb: movabs rax, 0
-// asm:   0x1833404c5: jmp 0x1833404df
-// asm:   0x1833404c7: mov rax, qword ptr [rbx]
-// asm:   0x1833404ca: mov qword ptr [rbp + 0x70], rax
-// asm:   0x1833404ce: lea rdx, [rip + 0xc9bab3]
-// asm:   0x1833404d5: lea rcx, [rbp + 0x70]
-// asm:   0x1833404d9: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x1833404df: add rsp, 0x38
-// asm:   0x1833404e3: pop rbp
-// asm:   0x1833404e4: pop rbx
-// asm:   0x1833404e5: ret 
+// 0x5df5c30
+// eh: try 0x5df5ca4..0x5df6080 -> pad 0x5df6040 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5df608b..0x5df6095 -> pad 0x5df612b catch (...) [compiler noexcept guard]
+// eh: try 0x5df60aa..0x5df60af -> pad 0x5df60b6 catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5df60bc..0x5df60c6 -> pad 0x5df612b catch (...) [compiler noexcept guard]
+// eh: try 0x5df60e7..0x5df611b -> pad 0x5df611b (+1 call sites) cleanup
+// eh: try 0x5df611e..0x5df6123 -> pad 0x5df612b catch (...) [compiler noexcept guard]
+// asm: 101 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5df5e5b: jmp 0x5df5ed6
+// asm:   0x5df5e5d: xor r14d, r14d
+// asm:   0x5df5e60: xor r15d, r15d
+// asm:   0x5df5e63: mov rbx, qword ptr [rsp + 8]
+// asm:   0x5df5e68: test rbx, rbx
+// asm:   0x5df5e6b: je 0x5df5ed6
+// asm:   0x5df5f46: mov rdi, rbx
+// asm:   0x5df5f49: call 0x311e050  ; il2cpp_codegen_rgctx_method_init()
+// asm:   0x5df5f4e: mov rax, qword ptr [rbx + 0x38]
+// asm:   0x5df5f52: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5df5f56: test byte ptr [rdi + 0x135], 1
+// asm:   0x5df5f5d: jne 0x5df5f08
+// asm:   0x5df5f5f: call 0x311dff0  ; il2cpp_codegen_class_init_checked()
+// asm:   0x5df5f64: mov rdi, rax
+// asm:   0x5df5f67: cmp dword ptr [rdi + 0xe4], 0
+// asm:   0x5df5f6e: jne 0x5df5f11
+// asm:   0x5df5f70: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5df5f75: mov rax, qword ptr [rbx + 0x38]
+// asm:   0x5df5f79: mov rax, qword ptr [rax + 0x10]
+// asm:   0x5df5f7d: test byte ptr [rax + 0x135], 1
+// asm:   0x5df5f84: je 0x5df5f22
+// asm:   0x5df5f86: jmp 0x5df5f2a
+// asm:   0x5df601f: mov rdi, r14
+// asm:   0x5df6022: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5df6027: mov rdi, r14
+// asm:   0x5df602a: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5df6034: jmp 0x5df6042
+// asm:   0x5df6036: jmp 0x5df6042
+// asm:   0x5df6038: jmp 0x5df605e
+// asm:   0x5df603a: jmp 0x5df605e
+// asm:   0x5df603c: jmp 0x5df6042
+// asm:   0x5df603e: jmp 0x5df6042
+// asm:   0x5df6040: jmp 0x5df604a
+// asm:   0x5df6042: mov rbx, rdx
+// asm:   0x5df6045: mov r14, rax
+// asm:   0x5df6048: jmp 0x5df6095
+// asm:   0x5df604a: mov rbx, rdx
+// asm:   0x5df604d: mov r14, rax
+// asm:   0x5df6050: jmp 0x5df60c6
+// asm:   0x5df6052: jmp 0x5df605e
+// asm:   0x5df6054: jmp 0x5df605e
+// asm:   0x5df6056: jmp 0x5df605e
+// asm:   0x5df6058: jmp 0x5df605e
+// asm:   0x5df605a: jmp 0x5df605e
+// asm:   0x5df605c: jmp 0x5df605e
+// asm:   0x5df605e: mov rbx, rdx
+// asm:   0x5df6061: mov r14, rax
+// asm:   0x5df6064: cmp ebx, 1
+// asm:   0x5df6067: jne 0x5df608b
+// asm:   0x5df6069: mov rdi, r14
+// asm:   0x5df606c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df6071: mov r14, qword ptr [rax]
+// asm:   0x5df6074: mov qword ptr [rsp + 0x28], r14
+// asm:   0x5df6079: xor ebp, ebp
+// asm:   0x5df607b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df6080: jmp 0x5df5da4
+// asm:   0x5df6085: mov rbx, rdx
+// asm:   0x5df6088: mov r14, rax
+// asm:   0x5df608b: lea rdi, [rsp + 0x28]
+// asm:   0x5df6090: call 0x2fdff40  ; il2cpp_runtime_helper_02fdff40()
+// asm:   0x5df6095: cmp ebx, 1
+// asm:   0x5df6098: jne 0x5df60bc
+// asm:   0x5df609a: mov rdi, r14
+// asm:   0x5df609d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df60a2: mov r14, qword ptr [rax]
+// asm:   0x5df60a5: mov qword ptr [rsp + 0x38], r14
+// asm:   0x5df60aa: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df60af: xor ebp, ebp
+// asm:   0x5df60b1: jmp 0x5df5e60
+// asm:   0x5df60b6: mov rbx, rdx
+// asm:   0x5df60b9: mov r14, rax
+// asm:   0x5df60bc: lea rdi, [rsp + 0x38]
+// asm:   0x5df60c1: call 0x2fdffd0  ; il2cpp_runtime_helper_02fdffd0()
+// asm:   0x5df60c6: cmp ebx, 1
+// asm:   0x5df60c9: jne 0x5df6123
+// asm:   0x5df60cb: mov rdi, r14
+// asm:   0x5df60ce: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5df60d3: mov rbx, rax
+// asm:   0x5df60d6: lea rax, [rip + 0x17605eb]
+// asm:   0x5df60dd: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5df60e1: mov rax, qword ptr [rbx]
+// asm:   0x5df60e4: mov rsi, qword ptr [rax]
+// asm:   0x5df60e7: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5df60ec: test al, al
+// asm:   0x5df60ee: je 0x5df60fa
+// asm:   0x5df60f0: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df60f5: jmp 0x5df5ee3
+// asm:   0x5df60fa: mov edi, 8
+// asm:   0x5df60ff: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5df6104: mov rcx, qword ptr [rbx]
+// asm:   0x5df6107: mov qword ptr [rax], rcx
+// asm:   0x5df610a: lea rsi, [rip + 0x10373ef]
+// asm:   0x5df6111: mov rdi, rax
+// asm:   0x5df6114: xor edx, edx
+// asm:   0x5df6116: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5df611b: mov r14, rax
+// asm:   0x5df611e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5df6123: mov rdi, r14
+// asm:   0x5df6126: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5df612b: mov rdi, rax
+// asm:   0x5df612e: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Byte_array *
 Utility_Algorithms_GZipAlgorithm__Decompress
@@ -239,101 +319,140 @@ Utility_Algorithms_GZipAlgorithm__Decompress
           int64_t maxSize,MethodInfo *method)
 
 {
-  int32_t iVar1;
-  System_IO_MemoryStream_o *pSVar2;
-  System_IO_Compression_GZipStream_o *__this_00;
-  System_Byte_array *pSVar3;
+  System_IO_Compression_GZipStream_c *pSVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  System_IO_MemoryStream_c *pSVar3;
+  uint uVar4;
+  System_IO_MemoryStream_o *pSVar5;
+  System_IO_Compression_GZipStream_o *pSVar6;
+  System_Byte_array *pSVar7;
+  VirtualInvokeData *pVVar8;
   Il2CppObject *arg0;
   Il2CppObject *arg1;
-  System_String_o *pSVar4;
+  System_String_o *pSVar9;
   Il2CppClass *klass;
-  System_IO_IOException_o *__this_01;
+  System_IO_IOException_o *__this_00;
   MethodInfo *lastManagedFrame;
-  longlong lVar5;
-  System_IO_MemoryStream_o *local_98;
-  System_IO_Compression_GZipStream_o *local_90;
-  undefined8 local_88;
-  System_IO_MemoryStream_o **local_80;
-  undefined8 local_78;
-  System_IO_Compression_GZipStream_o **local_70;
-  longlong local_68;
-  int64_t local_60 [5];
+  ulong uVar10;
+  long lVar11;
+  System_IO_MemoryStream_o *pSStack_70;
+  System_IO_Compression_GZipStream_o *pSStack_68;
+  int64_t iStack_60;
+  long alStack_58 [2];
+  System_IO_Compression_GZipStream_o **ppSStack_48;
+  undefined8 uStack_40;
+  System_IO_MemoryStream_o **ppSStack_38;
   
-  if (Il2CppMethodInitialized_18434786d == '\0') {
+  if (Il2CppMethodInitialized_0754831d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_byte_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IO_Compression_GZipStream);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IO_MemoryStream);
-    Il2CppMethodInitialized_18434786d = '\x01';
+    Il2CppMethodInitialized_0754831d = '\x01';
   }
-  lVar5 = 0;
-  local_98 = (System_IO_MemoryStream_o *)0x0;
-  local_90 = (System_IO_Compression_GZipStream_o *)0x0;
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
-  System_IO_MemoryStream___ctor(pSVar2,(MethodInfo *)0x0);
-  local_88 = 0;
-  local_80 = &local_98;
-  local_98 = pSVar2;
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
-  System_IO_MemoryStream___ctor_1ad7fc0(pSVar2,data,(MethodInfo *)0x0);
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_Compression_GZipStream);
-  System_IO_Compression_GZipStream___ctor(__this_00,(System_IO_Stream_o *)pSVar2,0,(MethodInfo *)0x0);
-  local_78 = 0;
-  local_70 = &local_90;
-  local_90 = __this_00;
-  pSVar3 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,bufferSize);
+  pSStack_70 = (System_IO_MemoryStream_o *)0x0;
+  pSStack_68 = (System_IO_Compression_GZipStream_o *)0x0;
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
+  System_IO_MemoryStream___ctor(pSVar5,(MethodInfo *)0x0);
+  uStack_40 = 0;
+  ppSStack_38 = &pSStack_70;
+  pSStack_70 = pSVar5;
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_MemoryStream);
+  System_IO_MemoryStream___ctor_5465640(pSVar5,data,(MethodInfo *)0x0);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_IO_Compression_GZipStream);
+  System_IO_Compression_GZipStream___ctor(pSVar6,(System_IO_Stream_o *)pSVar5,0,(MethodInfo *)0x0);
+  alStack_58[1] = 0;
+  ppSStack_48 = &pSStack_68;
+  pSStack_68 = pSVar6;
+  pSVar7 = (System_Byte_array *)SZArrayNew(TypeInfo_byte_array,bufferSize);
+  lVar11 = 0;
   while( true ) {
-    if (local_90 == (System_IO_Compression_GZipStream_o *)0x0) {
+    if (pSStack_68 == (System_IO_Compression_GZipStream_o *)0x0) {
       ThrowNullReferenceException();
     }
-    iVar1 = (*(local_90->klass->vtable)._32_Read.methodPtr)
-                      (local_90,pSVar3,0,bufferSize,(local_90->klass->vtable)._32_Read.method);
-    if (iVar1 < 1) {
-      if (local_90 != (System_IO_Compression_GZipStream_o *)0x0) {
-        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)local_90);
-      }
-      if (local_98 != (System_IO_MemoryStream_o *)0x0) {
-        pSVar3 = (*(local_98->klass->vtable)._41_ToArray.methodPtr)
-                           (local_98,(local_98->klass->vtable)._41_ToArray.method);
-        if (local_98 != (System_IO_MemoryStream_o *)0x0) {
-          InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)local_98);
-        }
-        return pSVar3;
-      }
-      ThrowNullReferenceException();
-    }
-    lVar5 = lVar5 + iVar1;
-    if (maxSize < lVar5) {
-      local_68 = lVar5;
-      arg0 = il2cpp_value_box(g_data_184354e28,&local_68);
-      local_60[0] = maxSize;
-      arg1 = il2cpp_value_box(g_data_184354e28,local_60);
-      pSVar4 = il2cpp_codegen_get_runtime_metadata(&"Decompressed size exceeded maximum allowed ({0} > {1})");
-      pSVar4 = System_String__Format_196d440(pSVar4,arg0,arg1,(MethodInfo *)0x0);
+    uVar4 = (*(pSStack_68->klass->vtable)._33_Read.methodPtr)
+                      (pSStack_68,pSVar7,0,bufferSize,(pSStack_68->klass->vtable)._33_Read.method);
+    pSVar6 = pSStack_68;
+    if ((int)uVar4 < 1) break;
+    lVar11 = lVar11 + (ulong)uVar4;
+    if (maxSize < lVar11) {
+      alStack_58[0] = lVar11;
+      arg0 = il2cpp_vm_Object_Box(g_data_07556730,alStack_58);
+      iStack_60 = maxSize;
+      arg1 = il2cpp_vm_Object_Box(g_data_07556730,&iStack_60);
+      pSVar9 = il2cpp_codegen_get_runtime_metadata(&"Decompressed size exceeded maximum allowed ({0} > {1})");
+      pSVar9 = System_String__Format_5302c50(pSVar9,arg0,arg1,(MethodInfo *)0x0);
       klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_IO_IOException);
-      __this_01 = (System_IO_IOException_o *)il2cpp_codegen_object_new(klass);
-      System_IO_IOException___ctor_1ad5520(__this_01,pSVar4,(MethodInfo *)0x0);
+      __this_00 = (System_IO_IOException_o *)il2cpp_codegen_object_new(klass);
+      System_IO_IOException___ctor_5463af0(__this_00,pSVar9,(MethodInfo *)0x0);
       lastManagedFrame =
            il2cpp_codegen_get_runtime_metadata(&MethodInfo_Utility_Algorithms_GZipAlgorithm_Decompress);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
     }
-    if (local_98 == (System_IO_MemoryStream_o *)0x0) break;
-    il2cpp_runtime_helper_180332290(0x23,local_98,pSVar3,0,iVar1);
+    if (pSStack_70 == (System_IO_MemoryStream_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (*(pSStack_70->klass->vtable)._36_Write.methodPtr)
+              (pSStack_70,pSVar7,0,uVar4,(pSStack_70->klass->vtable)._36_Write.method);
   }
-  ThrowNullReferenceException();
+  if (pSStack_68 != (System_IO_Compression_GZipStream_o *)0x0) {
+    pSVar1 = pSStack_68->klass;
+    uVar10 = (ulong)(pSVar1->_2).interface_offsets_count;
+    if (uVar10 != 0) {
+      pIVar2 = (pSVar1->_1).interfaceOffsets;
+      lVar11 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar11) == TypeInfo_System_IDisposable)
+        {
+          pVVar8 = &(pSVar1->vtable)._0_Equals + *(int *)((long)&pIVar2->offset + lVar11);
+          goto label_05df5e0d;
+        }
+        lVar11 = lVar11 + 0x10;
+      } while (uVar10 * 0x10 != lVar11);
+    }
+    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)pSStack_68,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_05df5e0d:
+    (*pVVar8->methodPtr)((Il2CppObject *)pSVar6,pVVar8->method);
+  }
+  if (pSStack_70 == (System_IO_MemoryStream_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  pSVar7 = (*(pSStack_70->klass->vtable)._42_ToArray.methodPtr)
+                     (pSStack_70,(pSStack_70->klass->vtable)._42_ToArray.method);
+  pSVar5 = pSStack_70;
+  if (pSStack_70 != (System_IO_MemoryStream_o *)0x0) {
+    pSVar3 = pSStack_70->klass;
+    uVar10 = (ulong)(pSVar3->_2).interface_offsets_count;
+    if (uVar10 != 0) {
+      pIVar2 = (pSVar3->_1).interfaceOffsets;
+      lVar11 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar11) == TypeInfo_System_IDisposable)
+        {
+          pVVar8 = &(pSVar3->vtable)._0_Equals + *(int *)((long)&pIVar2->offset + lVar11);
+          goto label_05df5ecd;
+        }
+        lVar11 = lVar11 + 0x10;
+      } while (uVar10 * 0x10 != lVar11);
+    }
+    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)pSStack_70,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_05df5ecd:
+    (*pVVar8->methodPtr)((Il2CppObject *)pSVar5,pVVar8->method);
+  }
+  return pSVar7;
 }
 
 
 // Utility.Algorithms.GZipAlgorithm$$.ctor
 // il2cpp: void Utility_Algorithms_GZipAlgorithm___ctor (Utility_Algorithms_GZipAlgorithm_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5dea950
 
-void
-Utility_Algorithms_GZipAlgorithm___ctor(Utility_Algorithms_GZipAlgorithm_o* __this, MethodInfo* method)
+void Utility_Algorithms_GZipAlgorithm___ctor(Utility_Algorithms_GZipAlgorithm_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 

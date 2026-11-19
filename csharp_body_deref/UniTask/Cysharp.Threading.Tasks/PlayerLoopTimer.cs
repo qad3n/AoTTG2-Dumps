@@ -47,39 +47,39 @@ public abstract class PlayerLoopTimer : IDisposable, IPlayerLoopItem
 	private bool isDisposed;
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x2911AF0", Offset = "0x29100F0", VA = "0x182911AF0")]
+	[Address(RVA = "0x62C88D0", Offset = "0x62C78D0", VA = "0x62C88D0")]
 	protected PlayerLoopTimer(bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x2911590", Offset = "0x290FB90", VA = "0x182911590")]
+	[Address(RVA = "0x62C8940", Offset = "0x62C7940", VA = "0x62C8940")]
 	public static PlayerLoopTimer Create(TimeSpan interval, bool periodic, DelayType delayType, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x29119C0", Offset = "0x290FFC0", VA = "0x1829119C0")]
+	[Address(RVA = "0x62C3350", Offset = "0x62C2350", VA = "0x62C3350")]
 	public static PlayerLoopTimer StartNew(TimeSpan interval, bool periodic, DelayType delayType, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x29117F0", Offset = "0x290FDF0", VA = "0x1829117F0")]
+	[Address(RVA = "0x62C8CC0", Offset = "0x62C7CC0", VA = "0x62C8CC0")]
 	public void Restart()
 	{
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x29118C0", Offset = "0x290FEC0", VA = "0x1829118C0")]
+	[Address(RVA = "0x62C8D80", Offset = "0x62C7D80", VA = "0x62C8D80")]
 	public void Restart(TimeSpan interval)
 	{
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x2911AE0", Offset = "0x29100E0", VA = "0x182911AE0")]
+	[Address(RVA = "0x62C8E70", Offset = "0x62C7E70", VA = "0x62C8E70")]
 	public void Stop()
 	{
 	}
@@ -88,13 +88,13 @@ public abstract class PlayerLoopTimer : IDisposable, IPlayerLoopItem
 	protected abstract void ResetCore(TimeSpan? newInterval);
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x29117E0", Offset = "0x290FDE0", VA = "0x1829117E0", Slot = "4")]
+	[Address(RVA = "0x62C8E80", Offset = "0x62C7E80", VA = "0x62C8E80", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x2911710", Offset = "0x290FD10", VA = "0x182911710", Slot = "5")]
+	[Address(RVA = "0x62C8E90", Offset = "0x62C7E90", VA = "0x62C8E90", Slot = "5")]
 	private bool Cysharp_002EThreading_002ETasks_002EIPlayerLoopItem_002EMoveNext()
 	{
 		return default(bool);

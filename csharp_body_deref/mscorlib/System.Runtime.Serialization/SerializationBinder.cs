@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x2000403")]
+[Token(Token = "0x20003DC")]
 public abstract class SerializationBinder
 {
-	[Token(Token = "0x6001FB8")]
-	[Address(RVA = "0x1A1E790", Offset = "0x1A1CD90", VA = "0x181A1E790", Slot = "4")]
+	[Token(Token = "0x6001F8E")]
+	[Address(RVA = "0x539BDA0", Offset = "0x539ADA0", VA = "0x539BDA0", Slot = "4")]
 	public virtual void BindToName(Type serializedType, out string assemblyName, out string typeName)
 	{
 	}
 
-	[Token(Token = "0x6001FB9")]
+	[Token(Token = "0x6001F8F")]
 	public abstract Type BindToType(string assemblyName, string typeName);
 
-	[Token(Token = "0x6001FBA")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001F90")]
+	[Address(RVA = "0x539BDD0", Offset = "0x539ADD0", VA = "0x539BDD0")]
 	protected SerializationBinder()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.StencilCrossFadeRenderPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ internal sealed class StencilCrossFadeRenderPass
 		public Material[] stencilDitherMaskSeedMaterials;
 
 		[Token(Token = "0x60007BB")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6672D50", Offset = "0x6671D50", VA = "0x6672D50")]
 		public PassData()
 		{
 		}
@@ -52,25 +52,25 @@ internal sealed class StencilCrossFadeRenderPass
 	private readonly ProfilingSampler m_ProfilingSampler;
 
 	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x2C86A40", Offset = "0x2C85040", VA = "0x182C86A40")]
+	[Address(RVA = "0x6672420", Offset = "0x6671420", VA = "0x6672420")]
 	internal StencilCrossFadeRenderPass(Shader shader)
 	{
 	}
 
 	[Token(Token = "0x60007B8")]
-	[Address(RVA = "0x2C86420", Offset = "0x2C84A20", VA = "0x182C86420")]
+	[Address(RVA = "0x6672700", Offset = "0x6671700", VA = "0x6672700")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60007B9")]
-	[Address(RVA = "0x2C86690", Offset = "0x2C84C90", VA = "0x182C86690")]
+	[Address(RVA = "0x66727C0", Offset = "0x66717C0", VA = "0x66727C0")]
 	public void Render(RenderGraph renderGraph, ScriptableRenderContext context, TextureHandle depthTarget)
 	{
 	}
 
 	[Token(Token = "0x60007BA")]
-	[Address(RVA = "0x2C864D0", Offset = "0x2C84AD0", VA = "0x182C864D0")]
+	[Address(RVA = "0x6672BA0", Offset = "0x6671BA0", VA = "0x6672BA0")]
 	private static void ExecutePass(RasterCommandBuffer cmd, RTHandle depthTarget, Material[] stencilDitherMaskSeedMaterials)
 	{
 	}

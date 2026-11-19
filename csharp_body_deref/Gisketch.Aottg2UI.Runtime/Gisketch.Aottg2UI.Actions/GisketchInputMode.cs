@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000DB")]
+[Token(Token = "0x20000E1")]
 public enum GisketchInputMode
 {
-	[Token(Token = "0x4000488")]
+	[Token(Token = "0x40004AF")]
 	Pointer,
-	[Token(Token = "0x4000489")]
+	[Token(Token = "0x40004B0")]
 	Navigation
 }

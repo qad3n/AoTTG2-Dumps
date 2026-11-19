@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,7 +62,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 		internal TextureHandle dest;
 
 		[Token(Token = "0x6000586")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6640560", Offset = "0x663F560", VA = "0x6640560")]
 		public CopyToDebugTexturePassData()
 		{
 		}
@@ -84,7 +84,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 		internal readonly Color clearValue;
 
 		[Token(Token = "0x6000587")]
-		[Address(RVA = "0x2C37150", Offset = "0x2C35750", VA = "0x182C37150")]
+		[Address(RVA = "0x6639110", Offset = "0x6638110", VA = "0x6639110")]
 		internal ClearCameraParams(bool clearColor, bool clearDepth, Color clearVal)
 		{
 		}
@@ -419,7 +419,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal RenderingMode renderingModeRequested
 	{
 		[Token(Token = "0x6000525")]
-		[Address(RVA = "0x2602C40", Offset = "0x2601240", VA = "0x182602C40")]
+		[Address(RVA = "0x6630B10", Offset = "0x662FB10", VA = "0x6630B10")]
 		get
 		{
 			return default(RenderingMode);
@@ -430,7 +430,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	private bool deferredModeUnsupported
 	{
 		[Token(Token = "0x6000526")]
-		[Address(RVA = "0x2C4F920", Offset = "0x2C4DF20", VA = "0x182C4F920")]
+		[Address(RVA = "0x6630B20", Offset = "0x662FB20", VA = "0x6630B20")]
 		get
 		{
 			return default(bool);
@@ -441,7 +441,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal RenderingMode renderingModeActual
 	{
 		[Token(Token = "0x6000527")]
-		[Address(RVA = "0x2C4FB80", Offset = "0x2C4E180", VA = "0x182C4FB80")]
+		[Address(RVA = "0x6630B70", Offset = "0x662FB70", VA = "0x6630B70")]
 		get
 		{
 			return default(RenderingMode);
@@ -452,7 +452,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool usesDeferredLighting
 	{
 		[Token(Token = "0x6000528")]
-		[Address(RVA = "0x2C4FD50", Offset = "0x2C4E350", VA = "0x182C4FD50")]
+		[Address(RVA = "0x662A930", Offset = "0x6629930", VA = "0x662A930")]
 		get
 		{
 			return default(bool);
@@ -463,7 +463,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool usesClusterLightLoop
 	{
 		[Token(Token = "0x6000529")]
-		[Address(RVA = "0x2C4FD10", Offset = "0x2C4E310", VA = "0x182C4FD10")]
+		[Address(RVA = "0x6630C10", Offset = "0x662FC10", VA = "0x6630C10")]
 		get
 		{
 			return default(bool);
@@ -474,7 +474,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool accurateGbufferNormals
 	{
 		[Token(Token = "0x600052A")]
-		[Address(RVA = "0x2C4F7A0", Offset = "0x2C4DDA0", VA = "0x182C4F7A0")]
+		[Address(RVA = "0x662A960", Offset = "0x6629960", VA = "0x662A960")]
 		get
 		{
 			return default(bool);
@@ -485,7 +485,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool needTransparencyPass
 	{
 		[Token(Token = "0x600052B")]
-		[Address(RVA = "0x2C4F9A0", Offset = "0x2C4DFA0", VA = "0x182C4F9A0")]
+		[Address(RVA = "0x6630C40", Offset = "0x662FC40", VA = "0x6630C40")]
 		get
 		{
 			return default(bool);
@@ -496,13 +496,13 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	public DepthPrimingMode depthPrimingMode
 	{
 		[Token(Token = "0x600052C")]
-		[Address(RVA = "0x2C4F980", Offset = "0x2C4DF80", VA = "0x182C4F980")]
+		[Address(RVA = "0x6630D30", Offset = "0x662FD30", VA = "0x6630D30")]
 		get
 		{
 			return default(DepthPrimingMode);
 		}
 		[Token(Token = "0x600052D")]
-		[Address(RVA = "0x2C4FD90", Offset = "0x2C4E390", VA = "0x182C4FD90")]
+		[Address(RVA = "0x6630D40", Offset = "0x662FD40", VA = "0x6630D40")]
 		set
 		{
 		}
@@ -512,7 +512,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool isPostProcessPassRenderGraphActive
 	{
 		[Token(Token = "0x600052E")]
-		[Address(RVA = "0x2C4F990", Offset = "0x2C4DF90", VA = "0x182C4F990")]
+		[Address(RVA = "0x6630D50", Offset = "0x662FD50", VA = "0x6630D50")]
 		get
 		{
 			return default(bool);
@@ -523,7 +523,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal DeferredLights deferredLights
 	{
 		[Token(Token = "0x600052F")]
-		[Address(RVA = "0x2602B00", Offset = "0x2601100", VA = "0x182602B00")]
+		[Address(RVA = "0x6630D60", Offset = "0x662FD60", VA = "0x6630D60")]
 		get
 		{
 			return null;
@@ -534,14 +534,14 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal LayerMask prepassLayerMask
 	{
 		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x2C4FB70", Offset = "0x2C4E170", VA = "0x182C4FB70")]
+		[Address(RVA = "0x6630D70", Offset = "0x662FD70", VA = "0x6630D70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x2C4FDB0", Offset = "0x2C4E3B0", VA = "0x182C4FDB0")]
+		[Address(RVA = "0x6630D80", Offset = "0x662FD80", VA = "0x6630D80")]
 		[CompilerGenerated]
 		set
 		{
@@ -552,14 +552,14 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal LayerMask opaqueLayerMask
 	{
 		[Token(Token = "0x6000532")]
-		[Address(RVA = "0x2602EA0", Offset = "0x26014A0", VA = "0x182602EA0")]
+		[Address(RVA = "0x6630D90", Offset = "0x662FD90", VA = "0x6630D90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000533")]
-		[Address(RVA = "0x2C4FDA0", Offset = "0x2C4E3A0", VA = "0x182C4FDA0")]
+		[Address(RVA = "0x6630DA0", Offset = "0x662FDA0", VA = "0x6630DA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -570,14 +570,14 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal LayerMask transparentLayerMask
 	{
 		[Token(Token = "0x6000534")]
-		[Address(RVA = "0x2C4FD00", Offset = "0x2C4E300", VA = "0x182C4FD00")]
+		[Address(RVA = "0x6630DB0", Offset = "0x662FDB0", VA = "0x6630DB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000535")]
-		[Address(RVA = "0x2C4FDD0", Offset = "0x2C4E3D0", VA = "0x182C4FDD0")]
+		[Address(RVA = "0x6630DC0", Offset = "0x662FDC0", VA = "0x6630DC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -588,14 +588,14 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal bool shadowTransparentReceive
 	{
 		[Token(Token = "0x6000536")]
-		[Address(RVA = "0x2C4FC60", Offset = "0x2C4E260", VA = "0x182C4FC60")]
+		[Address(RVA = "0x6630DD0", Offset = "0x662FDD0", VA = "0x6630DD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000537")]
-		[Address(RVA = "0x2C4FDC0", Offset = "0x2C4E3C0", VA = "0x182C4FDC0")]
+		[Address(RVA = "0x6630DE0", Offset = "0x662FDE0", VA = "0x6630DE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -606,7 +606,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal GraphicsFormat cameraDepthTextureFormat
 	{
 		[Token(Token = "0x6000538")]
-		[Address(RVA = "0x2C4F820", Offset = "0x2C4DE20", VA = "0x182C4F820")]
+		[Address(RVA = "0x6630DF0", Offset = "0x662FDF0", VA = "0x6630DF0")]
 		get
 		{
 			return default(GraphicsFormat);
@@ -617,7 +617,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal GraphicsFormat cameraDepthAttachmentFormat
 	{
 		[Token(Token = "0x6000539")]
-		[Address(RVA = "0x2C4F7C0", Offset = "0x2C4DDC0", VA = "0x182C4F7C0")]
+		[Address(RVA = "0x6630E40", Offset = "0x662FE40", VA = "0x6630E40")]
 		get
 		{
 			return default(GraphicsFormat);
@@ -628,7 +628,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	internal override bool supportsNativeRenderPassRendergraphCompiler
 	{
 		[Token(Token = "0x600054C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "21")]
+		[Address(RVA = "0x6633E50", Offset = "0x6632E50", VA = "0x6633E50", Slot = "21")]
 		get
 		{
 			return default(bool);
@@ -639,7 +639,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	private RTHandle currentRenderGraphCameraColorHandle
 	{
 		[Token(Token = "0x6000556")]
-		[Address(RVA = "0x2C4F880", Offset = "0x2C4DE80", VA = "0x182C4F880")]
+		[Address(RVA = "0x6635440", Offset = "0x6634440", VA = "0x6635440")]
 		get
 		{
 			return null;
@@ -650,7 +650,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	private RTHandle nextRenderGraphCameraColorHandle
 	{
 		[Token(Token = "0x6000557")]
-		[Address(RVA = "0x2C4FA60", Offset = "0x2C4E060", VA = "0x182C4FA60")]
+		[Address(RVA = "0x66354F0", Offset = "0x66344F0", VA = "0x66354F0")]
 		get
 		{
 			return null;
@@ -661,7 +661,7 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	public override bool supportsGPUOcclusion
 	{
 		[Token(Token = "0x6000569")]
-		[Address(RVA = "0x2C4FC70", Offset = "0x2C4E270", VA = "0x182C4FC70", Slot = "22")]
+		[Address(RVA = "0x663E9E0", Offset = "0x663D9E0", VA = "0x663E9E0", Slot = "22")]
 		get
 		{
 			return default(bool);
@@ -669,495 +669,495 @@ public sealed class UniversalRenderer : ScriptableRenderer
 	}
 
 	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6630AA0", Offset = "0x662FAA0", VA = "0x6630AA0", Slot = "5")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Setup(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x6630AB0", Offset = "0x662FAB0", VA = "0x6630AB0", Slot = "6")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void SetupLights(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x2C4DA80", Offset = "0x2C4C080", VA = "0x182C4DA80", Slot = "7")]
+	[Address(RVA = "0x6630AC0", Offset = "0x662FAC0", VA = "0x6630AC0", Slot = "7")]
 	public override int SupportedCameraStackingTypes()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000522")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+	[Address(RVA = "0x6630AE0", Offset = "0x662FAE0", VA = "0x6630AE0", Slot = "8")]
 	protected internal override bool SupportsMotionVectors()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000523")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+	[Address(RVA = "0x6630AF0", Offset = "0x662FAF0", VA = "0x6630AF0", Slot = "9")]
 	protected internal override bool SupportsCameraOpaque()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000524")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+	[Address(RVA = "0x6630B00", Offset = "0x662FB00", VA = "0x6630B00", Slot = "10")]
 	protected internal override bool SupportsCameraNormals()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600053A")]
-	[Address(RVA = "0x2C4E0C0", Offset = "0x2C4C6C0", VA = "0x182C4E0C0")]
+	[Address(RVA = "0x6630E90", Offset = "0x662FE90", VA = "0x6630E90")]
 	public UniversalRenderer(UniversalRendererData data)
 	{
 	}
 
 	[Token(Token = "0x600053B")]
-	[Address(RVA = "0x2C45330", Offset = "0x2C43930", VA = "0x182C45330", Slot = "11")]
+	[Address(RVA = "0x66326B0", Offset = "0x66316B0", VA = "0x66326B0", Slot = "11")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600053C")]
-	[Address(RVA = "0x2C4B420", Offset = "0x2C49A20", VA = "0x182C4B420", Slot = "12")]
+	[Address(RVA = "0x6632A80", Offset = "0x6631A80", VA = "0x6632A80", Slot = "12")]
 	internal override void ReleaseRenderTargets()
 	{
 	}
 
 	[Token(Token = "0x600053D")]
-	[Address(RVA = "0x2C46CF0", Offset = "0x2C452F0", VA = "0x182C46CF0")]
+	[Address(RVA = "0x662B850", Offset = "0x662A850", VA = "0x662B850")]
 	public static bool IsOffscreenDepthTexture(ref CameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600053E")]
-	[Address(RVA = "0x2C46C60", Offset = "0x2C45260", VA = "0x182C46C60")]
+	[Address(RVA = "0x6632AE0", Offset = "0x6631AE0", VA = "0x6632AE0")]
 	public static bool IsOffscreenDepthTexture(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600053F")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x6632B60", Offset = "0x6631B60", VA = "0x6632B60")]
 	private static bool IsWebGL()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x2C46C40", Offset = "0x2C45240", VA = "0x182C46C40")]
+	[Address(RVA = "0x6632B70", Offset = "0x6631B70", VA = "0x6632B70")]
 	private static bool IsGLESDevice()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x2C46BE0", Offset = "0x2C451E0", VA = "0x182C46BE0")]
+	[Address(RVA = "0x6632B80", Offset = "0x6631B80", VA = "0x6632B80")]
 	private static bool IsGLDevice()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x2C45D80", Offset = "0x2C44380", VA = "0x182C45D80")]
+	[Address(RVA = "0x6632BE0", Offset = "0x6631BE0", VA = "0x6632BE0")]
 	private static bool HasActiveRenderFeatures(List<ScriptableRendererFeature> rendererFeatures)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x2C45EC0", Offset = "0x2C444C0", VA = "0x182C45EC0")]
+	[Address(RVA = "0x6632D60", Offset = "0x6631D60", VA = "0x6632D60")]
 	private static bool HasPassesRequiringIntermediateTexture(List<ScriptableRenderPass> activeRenderPassQueue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x2C4D7B0", Offset = "0x2C4BDB0", VA = "0x182C4D7B0")]
+	[Address(RVA = "0x6632EE0", Offset = "0x6631EE0", VA = "0x6632EE0")]
 	private static void SetupVFXCameraBuffer(UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x2C4C3D0", Offset = "0x2C4A9D0", VA = "0x182C4C3D0", Slot = "13")]
+	[Address(RVA = "0x6633230", Offset = "0x6632230", VA = "0x6633230", Slot = "13")]
 	public override void SetupCullingParameters(ref ScriptableCullingParameters cullingParameters, ref CameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "14")]
+	[Address(RVA = "0x6633650", Offset = "0x6632650", VA = "0x6633650", Slot = "14")]
 	public override void FinishRendering(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x2C45920", Offset = "0x2C43F20", VA = "0x182C45920")]
+	[Address(RVA = "0x6633660", Offset = "0x6632660", VA = "0x6633660")]
 	private static RenderPassInputSummary GetRenderPassInputs(bool isTemporalAAEnabled, bool postProcessingEnabled, bool isSceneViewCamera, bool renderingLayerProvidesByDepthNormalPass, List<ScriptableRenderPass> activeRenderPassQueue, MotionVectorRenderPass motionVectorPass)
 	{
 		return default(RenderPassInputSummary);
 	}
 
 	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x2C4B2F0", Offset = "0x2C498F0", VA = "0x182C4B2F0")]
+	[Address(RVA = "0x66339A0", Offset = "0x66329A0", VA = "0x66339A0")]
 	internal static bool PlatformRequiresExplicitMsaaResolve()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000549")]
-	[Address(RVA = "0x2C4BC70", Offset = "0x2C4A270", VA = "0x182C4BC70")]
+	[Address(RVA = "0x6633A10", Offset = "0x6632A10", VA = "0x6633A10")]
 	private static bool RequiresIntermediateColorTexture(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, bool usesDeferredLighting, bool applyPostProcessing)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054A")]
-	[Address(RVA = "0x2C46DF0", Offset = "0x2C453F0", VA = "0x182C46DF0")]
+	[Address(RVA = "0x6633CF0", Offset = "0x6632CF0", VA = "0x6633CF0")]
 	private static bool IsScalableBufferManagerUsed(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054B")]
-	[Address(RVA = "0x2C42410", Offset = "0x2C40A10", VA = "0x182C42410")]
+	[Address(RVA = "0x6633D70", Offset = "0x6632D70", VA = "0x6633D70")]
 	private static bool CanCopyDepth(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x2C45100", Offset = "0x2C43700", VA = "0x182C45100")]
+	[Address(RVA = "0x6633E60", Offset = "0x6632E60", VA = "0x6633E60")]
 	private bool DebugHandlerRequireDepthPass(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x2C43020", Offset = "0x2C41620", VA = "0x182C43020")]
+	[Address(RVA = "0x6633ED0", Offset = "0x6632ED0", VA = "0x6633ED0")]
 	private void CreateDebugTexture(RenderTextureDescriptor descriptor)
 	{
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x2C422F0", Offset = "0x2C408F0", VA = "0x182C422F0")]
+	[Address(RVA = "0x6633FF0", Offset = "0x6632FF0", VA = "0x6633FF0")]
 	private Rect CalculateUVRect(UniversalCameraData cameraData, float width, float height)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x2C42360", Offset = "0x2C40960", VA = "0x182C42360")]
+	[Address(RVA = "0x6634020", Offset = "0x6633020", VA = "0x6634020")]
 	private Rect CalculateUVRect(UniversalCameraData cameraData, int textureHeightPercent)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x2C42770", Offset = "0x2C40D70", VA = "0x182C42770")]
+	[Address(RVA = "0x6634070", Offset = "0x6633070", VA = "0x6634070")]
 	private void CorrectForTextureAspectRatio(ref float width, ref float height, float sourceWidth, float sourceHeight)
 	{
 	}
 
 	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x2C4C7B0", Offset = "0x2C4ADB0", VA = "0x182C4C7B0")]
+	[Address(RVA = "0x66340B0", Offset = "0x66330B0", VA = "0x66340B0")]
 	private void SetupRenderGraphFinalPassDebug(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x6000553")]
-	[Address(RVA = "0x2C4C070", Offset = "0x2C4A670", VA = "0x182C4C070")]
+	[Address(RVA = "0x6634D60", Offset = "0x6633D60", VA = "0x6634D60")]
 	private void SetupAfterPostRenderGraphFinalPassDebug(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x6000554")]
-	[Address(RVA = "0x2C41ED0", Offset = "0x2C404D0", VA = "0x182C41ED0")]
+	[Address(RVA = "0x6634950", Offset = "0x6633950", VA = "0x6634950")]
 	private void BlitToDebugTexture(RenderGraph renderGraph, TextureHandle source, TextureHandle destination, bool isSourceTextureColor = false)
 	{
 	}
 
 	[Token(Token = "0x6000555")]
-	[Address(RVA = "0x2C41B20", Offset = "0x2C40120", VA = "0x182C41B20")]
+	[Address(RVA = "0x6635010", Offset = "0x6634010", VA = "0x6635010")]
 	private void BlitEmptyTexture(RenderGraph renderGraph, TextureHandle destination, string passName = "Copy To Debug Texture")
 	{
 	}
 
 	[Token(Token = "0x6000558")]
-	[Address(RVA = "0x2C42510", Offset = "0x2C40B10", VA = "0x182C42510")]
+	[Address(RVA = "0x6632900", Offset = "0x6631900", VA = "0x6632900")]
 	private void CleanupRenderGraphResources()
 	{
 	}
 
 	[Token(Token = "0x6000559")]
-	[Address(RVA = "0x2C44A60", Offset = "0x2C43060", VA = "0x182C44A60")]
+	[Address(RVA = "0x66355A0", Offset = "0x66345A0", VA = "0x66355A0")]
 	public static TextureHandle CreateRenderGraphTexture(RenderGraph renderGraph, RenderTextureDescriptor desc, string name, bool clear, FilterMode filterMode = FilterMode.Point, TextureWrapMode wrapMode = TextureWrapMode.Clamp)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600055A")]
-	[Address(RVA = "0x2C44C60", Offset = "0x2C43260", VA = "0x182C44C60")]
+	[Address(RVA = "0x66358B0", Offset = "0x66348B0", VA = "0x66358B0")]
 	internal static TextureHandle CreateRenderGraphTexture(RenderGraph renderGraph, in RenderTextureDescriptor desc, string name, bool clear, Color color, FilterMode filterMode = FilterMode.Point, TextureWrapMode wrapMode = TextureWrapMode.Clamp, bool discardOnLastUse = false)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600055B")]
-	[Address(RVA = "0x2C45B70", Offset = "0x2C44170", VA = "0x182C45B70")]
+	[Address(RVA = "0x6635680", Offset = "0x6634680", VA = "0x6635680")]
 	internal static void GetTextureDesc(in RenderTextureDescriptor desc, out TextureDesc rgDesc)
 	{
 	}
 
 	[Token(Token = "0x600055C")]
-	[Address(RVA = "0x2C44B60", Offset = "0x2C43160", VA = "0x182C44B60")]
+	[Address(RVA = "0x66359C0", Offset = "0x66349C0", VA = "0x66359C0")]
 	internal static TextureHandle CreateRenderGraphTexture(RenderGraph renderGraph, in TextureDesc desc, string name, bool clear, Color clearColor, FilterMode filterMode = FilterMode.Point, TextureWrapMode wrapMode = TextureWrapMode.Clamp, bool discardOnLastUse = false)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600055D")]
-	[Address(RVA = "0x2C4BB80", Offset = "0x2C4A180", VA = "0x182C4BB80")]
+	[Address(RVA = "0x6635AA0", Offset = "0x6634AA0", VA = "0x6635AA0")]
 	private bool RequiresIntermediateAttachments(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, bool requireCopyFromDepth, bool applyPostProcessing)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600055E")]
-	[Address(RVA = "0x2C4DAB0", Offset = "0x2C4C0B0", VA = "0x182C4DAB0")]
+	[Address(RVA = "0x6635B90", Offset = "0x6634B90", VA = "0x6635B90")]
 	private void UpdateCameraHistory(UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x600055F")]
-	[Address(RVA = "0x2C44100", Offset = "0x2C42700", VA = "0x182C44100")]
+	[Address(RVA = "0x6635C40", Offset = "0x6634C40", VA = "0x6635C40")]
 	private void CreateRenderGraphCameraRenderTargets(RenderGraph renderGraph, bool isCameraTargetOffscreenDepth, bool requireIntermediateAttachments, bool depthTextureIsDepthFormat)
 	{
 	}
 
 	[Token(Token = "0x6000560")]
-	[Address(RVA = "0x2C45720", Offset = "0x2C43D20", VA = "0x182C45720")]
+	[Address(RVA = "0x6636160", Offset = "0x6635160", VA = "0x6636160")]
 	private ClearCameraParams GetClearCameraParams(UniversalCameraData cameraData)
 	{
 		return default(ClearCameraParams);
 	}
 
 	[Token(Token = "0x6000561")]
-	[Address(RVA = "0x2C4D310", Offset = "0x2C4B910", VA = "0x182C4D310")]
+	[Address(RVA = "0x6636340", Offset = "0x6635340", VA = "0x6636340")]
 	private void SetupTargetHandles(UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000562")]
-	[Address(RVA = "0x2C4D260", Offset = "0x2C4B860", VA = "0x182C4D260")]
+	[Address(RVA = "0x6639120", Offset = "0x6638120", VA = "0x6639120")]
 	private void SetupRenderingLayers(int msaaSamples)
 	{
 	}
 
 	[Token(Token = "0x6000563")]
-	[Address(RVA = "0x2C4D1B0", Offset = "0x2C4B7B0", VA = "0x182C4D1B0")]
+	[Address(RVA = "0x66391C0", Offset = "0x66381C0", VA = "0x66391C0")]
 	internal void SetupRenderGraphLights(RenderGraph renderGraph, UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000564")]
-	[Address(RVA = "0x2C4B580", Offset = "0x2C49B80", VA = "0x182C4B580")]
+	[Address(RVA = "0x6639250", Offset = "0x6638250", VA = "0x6639250")]
 	private void RenderRawColorDepthHistory(RenderGraph renderGraph, UniversalCameraData cameraData, UniversalResourceData resourceData)
 	{
 	}
 
 	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x2C48670", Offset = "0x2C46C70", VA = "0x182C48670", Slot = "15")]
+	[Address(RVA = "0x6639A30", Offset = "0x6638A30", VA = "0x6639A30", Slot = "15")]
 	public override void OnBeginRenderGraphFrame()
 	{
 	}
 
 	[Token(Token = "0x6000566")]
-	[Address(RVA = "0x2C4A940", Offset = "0x2C48F40", VA = "0x182C4A940", Slot = "16")]
+	[Address(RVA = "0x6639A90", Offset = "0x6638A90", VA = "0x6639A90", Slot = "16")]
 	internal override void OnRecordRenderGraph(RenderGraph renderGraph, ScriptableRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x2C486C0", Offset = "0x2C46CC0", VA = "0x182C486C0", Slot = "17")]
+	[Address(RVA = "0x663E8F0", Offset = "0x663D8F0", VA = "0x663E8F0", Slot = "17")]
 	public override void OnEndRenderGraphFrame()
 	{
 	}
 
 	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x2C48710", Offset = "0x2C46D10", VA = "0x182C48710", Slot = "18")]
+	[Address(RVA = "0x663E950", Offset = "0x663D950", VA = "0x663E950", Slot = "18")]
 	internal override void OnFinishRenderGraphRendering(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x2C4A2A0", Offset = "0x2C488A0", VA = "0x182C4A2A0")]
+	[Address(RVA = "0x663A410", Offset = "0x6639410", VA = "0x663A410")]
 	private void OnOffscreenDepthTextureRendering(RenderGraph renderGraph, ScriptableRenderContext context, UniversalResourceData resourceData, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x2C481F0", Offset = "0x2C467F0", VA = "0x182C481F0")]
+	[Address(RVA = "0x663AC00", Offset = "0x6639C00", VA = "0x663AC00")]
 	private void OnBeforeRendering(RenderGraph renderGraph)
 	{
 	}
 
 	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x2C4DB70", Offset = "0x2C4C170", VA = "0x182C4DB70")]
+	[Address(RVA = "0x663EC00", Offset = "0x663DC00", VA = "0x663EC00")]
 	private void UpdateInstanceOccluders(RenderGraph renderGraph, UniversalCameraData cameraData, TextureHandle depthTexture)
 	{
 	}
 
 	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x2C468A0", Offset = "0x2C44EA0", VA = "0x182C468A0")]
+	[Address(RVA = "0x663F110", Offset = "0x663E110", VA = "0x663F110")]
 	private void InstanceOcclusionTest(RenderGraph renderGraph, UniversalCameraData cameraData, OcclusionTest occlusionTest)
 	{
 	}
 
 	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x2C4B360", Offset = "0x2C49960", VA = "0x182C4B360")]
+	[Address(RVA = "0x663F2F0", Offset = "0x663E2F0", VA = "0x663F2F0")]
 	private void RecordCustomPassesWithDepthCopyAndMotion(RenderGraph renderGraph, UniversalResourceData resourceData, RenderPassEvent earliestDepthReadEvent, RenderPassEvent currentEvent, bool renderMotionVectors)
 	{
 	}
 
 	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x2C41AF0", Offset = "0x2C400F0", VA = "0x182C41AF0")]
+	[Address(RVA = "0x663F3E0", Offset = "0x663E3E0", VA = "0x663F3E0")]
 	private static bool AllowPartialDepthNormalsPrepass(bool isDeferred, RenderPassEvent requiresDepthNormalEvent, bool useDepthPriming)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x2C421D0", Offset = "0x2C407D0", VA = "0x182C421D0")]
+	[Address(RVA = "0x663F400", Offset = "0x663E400", VA = "0x663F400")]
 	private DepthCopySchedule CalculateDepthCopySchedule(RenderPassEvent earliestDepthReadEvent, bool hasFullPrepass)
 	{
 		return default(DepthCopySchedule);
 	}
 
 	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x2C42230", Offset = "0x2C40830", VA = "0x182C42230")]
+	[Address(RVA = "0x663F460", Offset = "0x663E460", VA = "0x663F460")]
 	private TextureCopySchedules CalculateTextureCopySchedules(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, bool isDeferred, bool requiresDepthPrepass, bool hasFullPrepass, bool requireDepthTexture)
 	{
 		return default(TextureCopySchedules);
 	}
 
 	[Token(Token = "0x6000572")]
-	[Address(RVA = "0x2C42680", Offset = "0x2C40C80", VA = "0x182C42680")]
+	[Address(RVA = "0x663F520", Offset = "0x663E520", VA = "0x663F520")]
 	private void CopyDepthToDepthTexture(RenderGraph renderGraph, UniversalResourceData resourceData)
 	{
 	}
 
 	[Token(Token = "0x6000573")]
-	[Address(RVA = "0x2C4B490", Offset = "0x2C49A90", VA = "0x182C4B490")]
+	[Address(RVA = "0x663F5F0", Offset = "0x663E5F0", VA = "0x663F5F0")]
 	private void RenderMotionVectors(RenderGraph renderGraph, UniversalResourceData resourceData)
 	{
 	}
 
 	[Token(Token = "0x6000574")]
-	[Address(RVA = "0x2C456E0", Offset = "0x2C43CE0", VA = "0x182C456E0")]
+	[Address(RVA = "0x663F3A0", Offset = "0x663E3A0", VA = "0x663F3A0")]
 	private void ExecuteScheduledDepthCopyWithMotion(RenderGraph renderGraph, UniversalResourceData resourceData, bool renderMotionVectors)
 	{
 	}
 
 	[Token(Token = "0x6000575")]
-	[Address(RVA = "0x2C487B0", Offset = "0x2C46DB0", VA = "0x182C487B0")]
+	[Address(RVA = "0x663B160", Offset = "0x663A160", VA = "0x663B160")]
 	private void OnMainRendering(RenderGraph renderGraph, ScriptableRenderContext context, in RenderPassInputSummary renderPassInputs, bool requiresPrepass, bool requireDepthTexture)
 	{
 	}
 
 	[Token(Token = "0x6000576")]
-	[Address(RVA = "0x2C46E80", Offset = "0x2C45480", VA = "0x182C46E80")]
+	[Address(RVA = "0x663D330", Offset = "0x663C330", VA = "0x663D330")]
 	private void OnAfterRendering(RenderGraph renderGraph, bool applyPostProcessing)
 	{
 	}
 
 	[Token(Token = "0x6000577")]
-	[Address(RVA = "0x2C4BA60", Offset = "0x2C4A060", VA = "0x182C4BA60")]
+	[Address(RVA = "0x663A1E0", Offset = "0x66391E0", VA = "0x663A1E0")]
 	private bool RequirePrepassForTextures(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, bool requireDepthTexture)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000578")]
-	[Address(RVA = "0x2C4BA00", Offset = "0x2C4A000", VA = "0x182C4BA00")]
+	[Address(RVA = "0x663A1A0", Offset = "0x66391A0", VA = "0x663A1A0")]
 	private static bool RequireDepthTexture(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, bool applyPostProcessing)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000579")]
-	[Address(RVA = "0x2C46A60", Offset = "0x2C45060", VA = "0x182C46A60")]
+	[Address(RVA = "0x663A300", Offset = "0x6639300", VA = "0x663A300")]
 	private static bool IsDepthPrimingEnabledRenderGraph(UniversalCameraData cameraData, in RenderPassInputSummary renderPassInputs, DepthPrimingMode depthPrimingMode, bool requireDepthTexture, bool requirePrepassForTextures, bool usesDeferredLighting)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600057A")]
-	[Address(RVA = "0x2C4BEE0", Offset = "0x2C4A4E0", VA = "0x182C4BEE0")]
+	[Address(RVA = "0x663F850", Offset = "0x663E850", VA = "0x663F850")]
 	internal void SetRenderingLayersGlobalTextures(RenderGraph renderGraph)
 	{
 	}
 
 	[Token(Token = "0x600057B")]
-	[Address(RVA = "0x2C46000", Offset = "0x2C44600", VA = "0x182C46000")]
+	[Address(RVA = "0x6636930", Offset = "0x6635930", VA = "0x6636930")]
 	private void ImportBackBuffers(RenderGraph renderGraph, UniversalCameraData cameraData, Color clearBackgroundColor, bool isCameraTargetOffscreenDepth)
 	{
 	}
 
 	[Token(Token = "0x600057C")]
-	[Address(RVA = "0x2C43130", Offset = "0x2C41730", VA = "0x182C43130")]
+	[Address(RVA = "0x6637400", Offset = "0x6636400", VA = "0x6637400")]
 	private void CreateIntermediateCameraColorAttachment(RenderGraph renderGraph, UniversalCameraData cameraData, in TextureDesc cameraDescriptor, bool clearColor, Color clearBackgroundColor)
 	{
 	}
 
 	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x2C43640", Offset = "0x2C41C40", VA = "0x182C43640")]
+	[Address(RVA = "0x6637B60", Offset = "0x6636B60", VA = "0x6637B60")]
 	private void CreateIntermediateCameraDepthAttachment(RenderGraph renderGraph, UniversalCameraData cameraData, in TextureDesc cameraDescriptor, bool clearDepth, Color clearBackgroundDepth, bool depthTextureIsDepthFormat)
 	{
 	}
 
 	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x2C42A40", Offset = "0x2C41040", VA = "0x182C42A40")]
+	[Address(RVA = "0x6638240", Offset = "0x6637240", VA = "0x6638240")]
 	private void CreateCameraDepthCopyTexture(RenderGraph renderGraph, TextureDesc descriptor, bool isDepthTexture, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x600057F")]
-	[Address(RVA = "0x2C43B30", Offset = "0x2C42130", VA = "0x182C43B30")]
+	[Address(RVA = "0x66387C0", Offset = "0x66377C0", VA = "0x66387C0")]
 	private void CreateMotionVectorTextures(RenderGraph renderGraph, TextureDesc descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x2C42CF0", Offset = "0x2C412F0", VA = "0x182C42CF0")]
+	[Address(RVA = "0x66384D0", Offset = "0x66374D0", VA = "0x66384D0")]
 	private void CreateCameraNormalsTexture(RenderGraph renderGraph, TextureDesc descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000581")]
-	[Address(RVA = "0x2C44D90", Offset = "0x2C43390", VA = "0x182C44D90")]
+	[Address(RVA = "0x6638B10", Offset = "0x6637B10", VA = "0x6638B10")]
 	private void CreateRenderingLayersTexture(RenderGraph renderGraph, TextureDesc descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x2C427B0", Offset = "0x2C40DB0", VA = "0x182C427B0")]
+	[Address(RVA = "0x66400E0", Offset = "0x663F0E0", VA = "0x66400E0")]
 	private void CreateAfterPostProcessTexture(RenderGraph renderGraph, RenderTextureDescriptor descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x2C43E50", Offset = "0x2C42450", VA = "0x182C43E50")]
+	[Address(RVA = "0x6638E60", Offset = "0x6637E60", VA = "0x6638E60")]
 	private void CreateOffscreenUITexture(RenderGraph renderGraph, TextureDesc descriptor)
 	{
 	}
 
 	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x2C45180", Offset = "0x2C43780", VA = "0x182C45180")]
+	[Address(RVA = "0x663F6D0", Offset = "0x663E6D0", VA = "0x663F6D0")]
 	private void DepthNormalPrepassRender(RenderGraph renderGraph, RenderPassInputSummary renderPassInputs, in TextureHandle depthTarget, uint batchLayerMask, bool setGlobalDepth, bool setGlobalTextures, bool partialPass)
 	{
 	}

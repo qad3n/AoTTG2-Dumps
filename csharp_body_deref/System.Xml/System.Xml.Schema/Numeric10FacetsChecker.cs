@@ -26,62 +26,62 @@ internal class Numeric10FacetsChecker : FacetsChecker
 	private decimal minValue;
 
 	[Token(Token = "0x6001224")]
-	[Address(RVA = "0x27AD9B0", Offset = "0x27ABFB0", VA = "0x1827AD9B0")]
+	[Address(RVA = "0x615D660", Offset = "0x615C660", VA = "0x615D660")]
 	internal Numeric10FacetsChecker(decimal minVal, decimal maxVal)
 	{
 	}
 
 	[Token(Token = "0x6001225")]
-	[Address(RVA = "0x27ACDC0", Offset = "0x27AB3C0", VA = "0x1827ACDC0", Slot = "5")]
+	[Address(RVA = "0x616C0D0", Offset = "0x616B0D0", VA = "0x616C0D0", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001226")]
-	[Address(RVA = "0x27ACE50", Offset = "0x27AB450", VA = "0x1827ACE50", Slot = "6")]
+	[Address(RVA = "0x616C140", Offset = "0x616B140", VA = "0x616C140", Slot = "6")]
 	internal override Exception CheckValueFacets(decimal value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001227")]
-	[Address(RVA = "0x27AD600", Offset = "0x27ABC00", VA = "0x1827AD600", Slot = "7")]
+	[Address(RVA = "0x616C8C0", Offset = "0x616B8C0", VA = "0x616C8C0", Slot = "7")]
 	internal override Exception CheckValueFacets(long value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001228")]
-	[Address(RVA = "0x27AD570", Offset = "0x27ABB70", VA = "0x1827AD570", Slot = "8")]
+	[Address(RVA = "0x616C930", Offset = "0x616B930", VA = "0x616C930", Slot = "8")]
 	internal override Exception CheckValueFacets(int value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001229")]
-	[Address(RVA = "0x27ACD30", Offset = "0x27AB330", VA = "0x1827ACD30", Slot = "9")]
+	[Address(RVA = "0x616C9A0", Offset = "0x616B9A0", VA = "0x616C9A0", Slot = "9")]
 	internal override Exception CheckValueFacets(short value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x27AD690", Offset = "0x27ABC90", VA = "0x1827AD690", Slot = "17")]
+	[Address(RVA = "0x616CA10", Offset = "0x616BA10", VA = "0x616CA10", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x27AD7F0", Offset = "0x27ABDF0", VA = "0x1827AD7F0")]
+	[Address(RVA = "0x616C790", Offset = "0x616B790", VA = "0x616C790")]
 	internal bool MatchEnumeration(decimal value, ArrayList enumeration, XmlValueConverter valueConverter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600122C")]
-	[Address(RVA = "0x27AC9A0", Offset = "0x27AAFA0", VA = "0x1827AC9A0")]
+	[Address(RVA = "0x61641C0", Offset = "0x61631C0", VA = "0x61641C0")]
 	internal Exception CheckTotalAndFractionDigits(decimal value, int totalDigits, int fractionDigits, bool checkTotal, bool checkFraction)
 	{
 		return null;

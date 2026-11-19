@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.AsyncTerrainToMeshRequest
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ internal struct AsyncTerrainToMeshRequest
 	public bool done
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x2D840F0", Offset = "0x2D826F0", VA = "0x182D840F0")]
+		[Address(RVA = "0x6785590", Offset = "0x6784590", VA = "0x6785590")]
 		get
 		{
 			return default(bool);
@@ -34,26 +34,26 @@ internal struct AsyncTerrainToMeshRequest
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x2D840A0", Offset = "0x2D826A0", VA = "0x182D840A0")]
+	[Address(RVA = "0x6784F30", Offset = "0x6783F30", VA = "0x6784F30")]
 	internal AsyncTerrainToMeshRequest(ComputeTerrainMeshJob job, JobHandle jobHandle)
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x2D83D10", Offset = "0x2D82310", VA = "0x182D83D10")]
+	[Address(RVA = "0x67853D0", Offset = "0x67843D0", VA = "0x67853D0")]
 	public Mesh GetMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x2D84090", Offset = "0x2D82690", VA = "0x182D84090")]
+	[Address(RVA = "0x67853C0", Offset = "0x67843C0", VA = "0x67853C0")]
 	public void WaitForCompletion()
 	{
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2D83E70", Offset = "0x2D82470", VA = "0x182D83E70")]
+	[Address(RVA = "0x67855A0", Offset = "0x67845A0", VA = "0x67855A0")]
 	private List<int> TriangleIndicesWithoutHoles()
 	{
 		return null;

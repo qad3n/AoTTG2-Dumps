@@ -10,97 +10,97 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000513")]
+[Token(Token = "0x20004EC")]
 public abstract class MemberInfo : ICustomAttributeProvider
 {
-	[Token(Token = "0x170004B5")]
+	[Token(Token = "0x170004B4")]
 	public abstract MemberTypes MemberType
 	{
-		[Token(Token = "0x60024B1")]
+		[Token(Token = "0x600247F")]
+		get;
+	}
+
+	[Token(Token = "0x170004B5")]
+	public abstract string Name
+	{
+		[Token(Token = "0x6002480")]
 		get;
 	}
 
 	[Token(Token = "0x170004B6")]
-	public abstract string Name
+	public abstract Type DeclaringType
 	{
-		[Token(Token = "0x60024B2")]
+		[Token(Token = "0x6002481")]
 		get;
 	}
 
 	[Token(Token = "0x170004B7")]
-	public abstract Type DeclaringType
+	public abstract Type ReflectedType
 	{
-		[Token(Token = "0x60024B3")]
+		[Token(Token = "0x6002482")]
 		get;
 	}
 
 	[Token(Token = "0x170004B8")]
-	public abstract Type ReflectedType
-	{
-		[Token(Token = "0x60024B4")]
-		get;
-	}
-
-	[Token(Token = "0x170004B9")]
 	public virtual Module Module
 	{
-		[Token(Token = "0x60024B5")]
-		[Address(RVA = "0x1A49EB0", Offset = "0x1A484B0", VA = "0x181A49EB0", Slot = "11")]
+		[Token(Token = "0x6002483")]
+		[Address(RVA = "0x53D95E0", Offset = "0x53D85E0", VA = "0x53D95E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004BA")]
+	[Token(Token = "0x170004B9")]
 	public virtual int MetadataToken
 	{
-		[Token(Token = "0x60024B9")]
-		[Address(RVA = "0x1A49E70", Offset = "0x1A48470", VA = "0x181A49E70", Slot = "15")]
+		[Token(Token = "0x6002487")]
+		[Address(RVA = "0x53D9690", Offset = "0x53D8690", VA = "0x53D9690", Slot = "15")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60024B0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600247E")]
+	[Address(RVA = "0x53D7C80", Offset = "0x53D6C80", VA = "0x53D7C80")]
 	protected MemberInfo()
 	{
 	}
 
-	[Token(Token = "0x60024B6")]
+	[Token(Token = "0x6002484")]
 	public abstract bool IsDefined(Type attributeType, bool inherit);
 
-	[Token(Token = "0x60024B7")]
+	[Token(Token = "0x6002485")]
 	public abstract object[] GetCustomAttributes(bool inherit);
 
-	[Token(Token = "0x60024B8")]
+	[Token(Token = "0x6002486")]
 	public abstract object[] GetCustomAttributes(Type attributeType, bool inherit);
 
-	[Token(Token = "0x60024BA")]
-	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
+	[Token(Token = "0x6002488")]
+	[Address(RVA = "0x53D7E00", Offset = "0x53D6E00", VA = "0x53D7E00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024BB")]
-	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
+	[Token(Token = "0x6002489")]
+	[Address(RVA = "0x53D7E20", Offset = "0x53D6E20", VA = "0x53D7E20", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60024BC")]
-	[Address(RVA = "0x1A49F60", Offset = "0x1A48560", VA = "0x181A49F60")]
+	[Token(Token = "0x600248A")]
+	[Address(RVA = "0x53D96D0", Offset = "0x53D86D0", VA = "0x53D96D0")]
 	public static bool operator ==(MemberInfo left, MemberInfo right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024BD")]
-	[Address(RVA = "0x1A4A2F0", Offset = "0x1A488F0", VA = "0x181A4A2F0")]
+	[Token(Token = "0x600248B")]
+	[Address(RVA = "0x53D9C50", Offset = "0x53D8C50", VA = "0x53D9C50")]
 	public static bool operator !=(MemberInfo left, MemberInfo right)
 	{
 		return default(bool);

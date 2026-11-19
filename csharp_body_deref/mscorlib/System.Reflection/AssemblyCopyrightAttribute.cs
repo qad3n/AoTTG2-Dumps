@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F4")]
+[Token(Token = "0x20004CD")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyCopyrightAttribute : Attribute
 {
-	[Token(Token = "0x40013A9")]
+	[Token(Token = "0x4001309")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CCopyright_003Ek__BackingField;
 
-	[Token(Token = "0x6002454")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002422")]
+	[Address(RVA = "0x53D7730", Offset = "0x53D6730", VA = "0x53D7730")]
 	public AssemblyCopyrightAttribute(string copyright)
 	{
 	}

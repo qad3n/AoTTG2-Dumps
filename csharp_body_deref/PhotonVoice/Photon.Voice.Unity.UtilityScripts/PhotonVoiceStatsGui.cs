@@ -59,31 +59,31 @@ public class PhotonVoiceStatsGui : MonoBehaviour
 	private VoiceClient voiceClient;
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x1D8B5F0", Offset = "0x1D89BF0", VA = "0x181D8B5F0")]
+	[Address(RVA = "0x573B470", Offset = "0x573A470", VA = "0x573B470")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x1D8CA10", Offset = "0x1D8B010", VA = "0x181D8CA10")]
+	[Address(RVA = "0x573B6F0", Offset = "0x573A6F0", VA = "0x573B6F0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x1D8B4C0", Offset = "0x1D89AC0", VA = "0x181D8B4C0")]
+	[Address(RVA = "0x573B720", Offset = "0x573A720", VA = "0x573B720")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x1D8B860", Offset = "0x1D89E60", VA = "0x181D8B860")]
+	[Address(RVA = "0x573B8C0", Offset = "0x573A8C0", VA = "0x573B8C0")]
 	private void TrafficStatsWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x1D8CA50", Offset = "0x1D8B050", VA = "0x181D8CA50")]
+	[Address(RVA = "0x573D580", Offset = "0x573C580", VA = "0x573D580")]
 	public PhotonVoiceStatsGui()
 	{
 	}

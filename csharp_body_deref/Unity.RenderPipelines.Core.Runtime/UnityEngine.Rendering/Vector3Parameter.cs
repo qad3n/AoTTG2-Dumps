@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class Vector3Parameter : VolumeParameter<Vector3>
 {
 	[Token(Token = "0x6000F53")]
-	[Address(RVA = "0x2B64610", Offset = "0x2B62C10", VA = "0x182B64610")]
+	[Address(RVA = "0x6556120", Offset = "0x6555120", VA = "0x6556120")]
 	public Vector3Parameter(Vector3 value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F54")]
-	[Address(RVA = "0x2B645C0", Offset = "0x2B62BC0", VA = "0x182B645C0", Slot = "16")]
+	[Address(RVA = "0x6556180", Offset = "0x6555180", VA = "0x6556180", Slot = "16")]
 	public override void Interp(Vector3 from, Vector3 to, float t)
 	{
 	}

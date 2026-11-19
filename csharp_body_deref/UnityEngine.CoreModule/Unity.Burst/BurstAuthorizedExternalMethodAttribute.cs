@@ -14,8 +14,8 @@ namespace Unity.Burst;
 [AttributeUsage(AttributeTargets.Method)]
 public class BurstAuthorizedExternalMethodAttribute : Attribute
 {
-	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000194")]
+	[Address(RVA = "0x68B8540", Offset = "0x68B7540", VA = "0x68B8540")]
 	public BurstAuthorizedExternalMethodAttribute()
 	{
 	}

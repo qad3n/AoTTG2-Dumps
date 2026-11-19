@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200072F")]
+[Token(Token = "0x20007D5")]
 public enum CursorState
 {
-	[Token(Token = "0x40023EE")]
+	[Token(Token = "0x400275B")]
 	Pointer,
-	[Token(Token = "0x40023EF")]
+	[Token(Token = "0x400275C")]
 	Crosshair,
-	[Token(Token = "0x40023F0")]
+	[Token(Token = "0x400275D")]
 	Hidden
 }

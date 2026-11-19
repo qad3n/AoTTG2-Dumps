@@ -4,14 +4,14 @@ using Il2CppDummyDll;
 internal static class SR
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x25E4980", Offset = "0x25E2F80", VA = "0x1825E4980")]
+	[Address(RVA = "0x5F9D660", Offset = "0x5F9C660", VA = "0x5F9D660")]
 	internal static string Format(string resourceFormat, object p1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x25E4900", Offset = "0x25E2F00", VA = "0x1825E4900")]
+	[Address(RVA = "0x5F9D6C0", Offset = "0x5F9C6C0", VA = "0x5F9D6C0")]
 	internal static string Format(string resourceFormat, object p1, object p2)
 	{
 		return null;

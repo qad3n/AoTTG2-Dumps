@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200012F")]
+[Token(Token = "0x2000107")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Delegate, Inherited = false)]
 public sealed class SerializableAttribute : Attribute
 {
-	[Token(Token = "0x60009EF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60009CB")]
+	[Address(RVA = "0x54D0720", Offset = "0x54CF720", VA = "0x54D0720")]
 	public SerializableAttribute()
 	{
 	}

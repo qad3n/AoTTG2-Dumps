@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000431")]
+[Token(Token = "0x200040A")]
 internal static class BinaryConverter
 {
-	[Token(Token = "0x600209F")]
-	[Address(RVA = "0x1A0C190", Offset = "0x1A0A790", VA = "0x181A0C190")]
+	[Token(Token = "0x6002075")]
+	[Address(RVA = "0x53A8090", Offset = "0x53A7090", VA = "0x53A8090")]
 	internal static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetBinaryTypeInfo(Type type, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, string typeName, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, out object typeInformation, out int assemId)
 	{
 		return default(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum);
 	}
 
-	[Token(Token = "0x60020A0")]
-	[Address(RVA = "0x1A0C530", Offset = "0x1A0AB30", VA = "0x181A0C530")]
+	[Token(Token = "0x6002076")]
+	[Address(RVA = "0x53A87B0", Offset = "0x53A77B0", VA = "0x53A87B0")]
 	internal static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetParserBinaryTypeInfo(Type type, out object typeInformation)
 	{
 		return default(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum);
 	}
 
-	[Token(Token = "0x60020A1")]
-	[Address(RVA = "0x1A0CF40", Offset = "0x1A0B540", VA = "0x181A0CF40")]
+	[Token(Token = "0x6002077")]
+	[Address(RVA = "0x53A8B20", Offset = "0x53A7B20", VA = "0x53A8B20")]
 	internal static void WriteTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, object typeInformation, int assemId, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x60020A2")]
-	[Address(RVA = "0x1A0C7B0", Offset = "0x1A0ADB0", VA = "0x181A0C7B0")]
+	[Token(Token = "0x6002078")]
+	[Address(RVA = "0x53A8DF0", Offset = "0x53A7DF0", VA = "0x53A8DF0")]
 	internal static object ReadTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, out int assemId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60020A3")]
-	[Address(RVA = "0x1A0C980", Offset = "0x1A0AF80", VA = "0x181A0C980")]
+	[Token(Token = "0x6002079")]
+	[Address(RVA = "0x53A8F70", Offset = "0x53A7F70", VA = "0x53A8F70")]
 	internal static void TypeFromInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, object typeInformation, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, out System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, out string typeString, out Type type, out bool isVariant)
 	{
 	}

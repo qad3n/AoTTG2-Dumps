@@ -10,184 +10,184 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.OfflineEvaluator;
 
-[Token(Token = "0x20005FB")]
+[Token(Token = "0x200065A")]
 public class OfflineCustomLogicEvaluator
 {
-	[Token(Token = "0x4001A7F")]
+	[Token(Token = "0x4001C20")]
 	[FieldOffset(Offset = "0x10")]
 	private CustomLogicEvaluator _evaluator;
 
-	[Token(Token = "0x4001A80")]
+	[Token(Token = "0x4001C21")]
 	[FieldOffset(Offset = "0x18")]
 	private CustomLogicCompiler _compiler;
 
-	[Token(Token = "0x4001A81")]
+	[Token(Token = "0x4001C22")]
 	[FieldOffset(Offset = "0x20")]
 	private CustomLogicClassInstance _mainInstance;
 
-	[Token(Token = "0x4001A82")]
+	[Token(Token = "0x4001C23")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly HashSet<string> OfflineCompatibleBuiltins;
 
-	[Token(Token = "0x6003A71")]
-	[Address(RVA = "0x20ED090", Offset = "0x20EB690", VA = "0x1820ED090")]
+	[Token(Token = "0x6003CFF")]
+	[Address(RVA = "0x5A8FC60", Offset = "0x5A8EC60", VA = "0x5A8FC60")]
 	public OfflineCustomLogicEvaluator(string script)
 	{
 	}
 
-	[Token(Token = "0x6003A72")]
-	[Address(RVA = "0x20ED040", Offset = "0x20EB640", VA = "0x1820ED040")]
+	[Token(Token = "0x6003D00")]
+	[Address(RVA = "0x5A90120", Offset = "0x5A8F120", VA = "0x5A90120")]
 	public OfflineCustomLogicEvaluator(CustomLogicCompiler compiler)
 	{
 	}
 
-	[Token(Token = "0x6003A73")]
-	[Address(RVA = "0x20ECAB0", Offset = "0x20EB0B0", VA = "0x1820ECAB0")]
+	[Token(Token = "0x6003D01")]
+	[Address(RVA = "0x5A8FD40", Offset = "0x5A8ED40", VA = "0x5A8FD40")]
 	private void InitializeSymbols()
 	{
 	}
 
-	[Token(Token = "0x6003A74")]
-	[Address(RVA = "0x20EB400", Offset = "0x20E9A00", VA = "0x1820EB400")]
+	[Token(Token = "0x6003D02")]
+	[Address(RVA = "0x5A8FDF0", Offset = "0x5A8EDF0", VA = "0x5A8FDF0")]
 	private void CompileAndInitialize()
 	{
 	}
 
-	[Token(Token = "0x6003A75")]
-	[Address(RVA = "0x20EBE20", Offset = "0x20EA420", VA = "0x1820EBE20")]
+	[Token(Token = "0x6003D03")]
+	[Address(RVA = "0x5A90160", Offset = "0x5A8F160", VA = "0x5A90160")]
 	private void InitializeStaticClasses()
 	{
 	}
 
-	[Token(Token = "0x6003A76")]
-	[Address(RVA = "0x20EB210", Offset = "0x20E9810", VA = "0x1820EB210")]
+	[Token(Token = "0x6003D04")]
+	[Address(RVA = "0x5A91030", Offset = "0x5A90030", VA = "0x5A91030")]
 	private void CallInitOnStaticClasses()
 	{
 	}
 
-	[Token(Token = "0x6003A77")]
-	[Address(RVA = "0x20EB8C0", Offset = "0x20E9EC0", VA = "0x1820EB8C0")]
+	[Token(Token = "0x6003D05")]
+	[Address(RVA = "0x5A91320", Offset = "0x5A90320", VA = "0x5A91320")]
 	private void CreateStaticClassInternal(string className, Dictionary<string, CustomLogicClassInstance> staticClasses)
 	{
 	}
 
-	[Token(Token = "0x6003A78")]
-	[Address(RVA = "0x20ECD00", Offset = "0x20EB300", VA = "0x1820ECD00")]
+	[Token(Token = "0x6003D06")]
+	[Address(RVA = "0x5A91490", Offset = "0x5A90490", VA = "0x5A91490")]
 	private void RunAssignmentsClassInstance(CustomLogicClassInstance classInstance)
 	{
 	}
 
-	[Token(Token = "0x6003A79")]
-	[Address(RVA = "0x1A4D2B0", Offset = "0x1A4B8B0", VA = "0x181A4D2B0")]
+	[Token(Token = "0x6003D07")]
+	[Address(RVA = "0x5A912E0", Offset = "0x5A902E0", VA = "0x5A912E0")]
 	private CustomLogicStartAst GetStartAst()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A7A")]
-	[Address(RVA = "0x1A4D270", Offset = "0x1A4B870", VA = "0x181A4D270")]
+	[Token(Token = "0x6003D08")]
+	[Address(RVA = "0x5A91300", Offset = "0x5A90300", VA = "0x5A91300")]
 	private Dictionary<string, CustomLogicClassInstance> GetStaticClassesDictionary()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A7B")]
-	[Address(RVA = "0x20EBCC0", Offset = "0x20EA2C0", VA = "0x1820EBCC0")]
+	[Token(Token = "0x6003D09")]
+	[Address(RVA = "0x5A91250", Offset = "0x5A90250", VA = "0x5A91250")]
 	public CustomLogicClassInstance GetStaticClass(string className)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A7C")]
-	[Address(RVA = "0x20EBA30", Offset = "0x20EA030", VA = "0x1820EBA30")]
+	[Token(Token = "0x6003D0A")]
+	[Address(RVA = "0x5A914B0", Offset = "0x5A904B0", VA = "0x5A914B0")]
 	public void CreateStaticClass(string className)
 	{
 	}
 
-	[Token(Token = "0x6003A7D")]
-	[Address(RVA = "0x20EBDA0", Offset = "0x20EA3A0", VA = "0x1820EBDA0")]
+	[Token(Token = "0x6003D0B")]
+	[Address(RVA = "0x5A911E0", Offset = "0x5A901E0", VA = "0x5A911E0")]
 	public bool HasMainClass()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A7E")]
-	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+	[Token(Token = "0x6003D0C")]
+	[Address(RVA = "0x5A914D0", Offset = "0x5A904D0", VA = "0x5A914D0")]
 	public CustomLogicClassInstance GetMainInstance()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A7F")]
-	[Address(RVA = "0x20EBBB0", Offset = "0x20EA1B0", VA = "0x1820EBBB0")]
+	[Token(Token = "0x6003D0D")]
+	[Address(RVA = "0x5A914E0", Offset = "0x5A904E0", VA = "0x5A914E0")]
 	public object EvaluateMethod(CustomLogicClassInstance instance, string methodName, params object[] parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A80")]
-	[Address(RVA = "0x20EBAF0", Offset = "0x20EA0F0", VA = "0x1820EBAF0")]
+	[Token(Token = "0x6003D0E")]
+	[Address(RVA = "0x5A91500", Offset = "0x5A90500", VA = "0x5A91500")]
 	public object EvaluateMethod(string className, string methodName, params object[] parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A81")]
-	[Address(RVA = "0x20EB820", Offset = "0x20E9E20", VA = "0x1820EB820")]
+	[Token(Token = "0x6003D0F")]
+	[Address(RVA = "0x5A915B0", Offset = "0x5A905B0", VA = "0x5A915B0")]
 	public CustomLogicClassInstance CreateClassInstance(string className, bool init = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A82")]
-	[Address(RVA = "0x20EBA60", Offset = "0x20EA060", VA = "0x1820EBA60")]
+	[Token(Token = "0x6003D10")]
+	[Address(RVA = "0x5A91630", Offset = "0x5A90630", VA = "0x5A91630")]
 	public object EvaluateMainMethod(string methodName, params object[] parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A83")]
-	[Address(RVA = "0x20EBC50", Offset = "0x20EA250", VA = "0x1820EBC50")]
+	[Token(Token = "0x6003D11")]
+	[Address(RVA = "0x5A916B0", Offset = "0x5A906B0", VA = "0x5A916B0")]
 	public object GetMainVariable(string variableName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A84")]
-	[Address(RVA = "0x20ECD20", Offset = "0x20EB320", VA = "0x1820ECD20")]
+	[Token(Token = "0x6003D12")]
+	[Address(RVA = "0x5A91710", Offset = "0x5A90710", VA = "0x5A91710")]
 	public void SetMainVariable(string variableName, object value)
 	{
 	}
 
-	[Token(Token = "0x6003A85")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+	[Token(Token = "0x6003D13")]
+	[Address(RVA = "0x5A917C0", Offset = "0x5A907C0", VA = "0x5A917C0")]
 	public CustomLogicCompiler GetCompiler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A86")]
-	[Address(RVA = "0x1CCD880", Offset = "0x1CCBE80", VA = "0x181CCD880")]
+	[Token(Token = "0x6003D14")]
+	[Address(RVA = "0x5A917D0", Offset = "0x5A907D0", VA = "0x5A917D0")]
 	public List<CustomLogicError> GetCapturedErrors()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A87")]
-	[Address(RVA = "0x20EBD50", Offset = "0x20EA350", VA = "0x1820EBD50")]
+	[Token(Token = "0x6003D15")]
+	[Address(RVA = "0x5A917F0", Offset = "0x5A907F0", VA = "0x5A917F0")]
 	public bool HasErrors()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A88")]
-	[Address(RVA = "0x20EB390", Offset = "0x20E9990", VA = "0x1820EB390")]
+	[Token(Token = "0x6003D16")]
+	[Address(RVA = "0x5A91840", Offset = "0x5A90840", VA = "0x5A91840")]
 	public void ClearErrors()
 	{
 	}
 
-	[Token(Token = "0x6003A89")]
-	[Address(RVA = "0x20EBBE0", Offset = "0x20EA1E0", VA = "0x1820EBBE0")]
+	[Token(Token = "0x6003D17")]
+	[Address(RVA = "0x5A91860", Offset = "0x5A90860", VA = "0x5A91860")]
 	public CustomLogicError GetLastError()
 	{
 		return null;

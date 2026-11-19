@@ -58,7 +58,7 @@ public class EventCode
 	public const byte AuthEvent = 223;
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB510", Offset = "0x56BA510", VA = "0x56BB510")]
 	public EventCode()
 	{
 	}

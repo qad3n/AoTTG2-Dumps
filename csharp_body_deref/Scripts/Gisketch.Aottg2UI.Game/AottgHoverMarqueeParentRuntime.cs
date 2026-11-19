@@ -12,65 +12,65 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001EF")]
+[Token(Token = "0x2000209")]
 internal sealed class AottgHoverMarqueeParentRuntime : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-	[Token(Token = "0x4000A60")]
+	[Token(Token = "0x4000AD8")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<AottgHoverMarqueeTextRuntime> _items;
 
-	[Token(Token = "0x4000A61")]
+	[Token(Token = "0x4000AD9")]
 	[FieldOffset(Offset = "0x28")]
 	private bool _hovered;
 
-	[Token(Token = "0x4000A62")]
+	[Token(Token = "0x4000ADA")]
 	[FieldOffset(Offset = "0x29")]
 	private bool _selected;
 
-	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x23B3540", Offset = "0x23B1B40", VA = "0x1823B3540")]
+	[Token(Token = "0x6000C1D")]
+	[Address(RVA = "0x5D84D10", Offset = "0x5D83D10", VA = "0x5D84D10")]
 	public void Register(AottgHoverMarqueeTextRuntime item)
 	{
 	}
 
-	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x23B33E0", Offset = "0x23B19E0", VA = "0x1823B33E0", Slot = "4")]
+	[Token(Token = "0x6000C1E")]
+	[Address(RVA = "0x5D84EE0", Offset = "0x5D83EE0", VA = "0x5D84EE0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x23B33F0", Offset = "0x23B19F0", VA = "0x1823B33F0", Slot = "5")]
+	[Token(Token = "0x6000C1F")]
+	[Address(RVA = "0x5D85040", Offset = "0x5D84040", VA = "0x5D85040", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x23B3400", Offset = "0x23B1A00", VA = "0x1823B3400", Slot = "6")]
+	[Token(Token = "0x6000C20")]
+	[Address(RVA = "0x5D85050", Offset = "0x5D84050", VA = "0x5D85050", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x23B33C0", Offset = "0x23B19C0", VA = "0x1823B33C0", Slot = "7")]
+	[Token(Token = "0x6000C21")]
+	[Address(RVA = "0x5D85060", Offset = "0x5D84060", VA = "0x5D85060", Slot = "7")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x23B33D0", Offset = "0x23B19D0", VA = "0x1823B33D0")]
+	[Token(Token = "0x6000C22")]
+	[Address(RVA = "0x5D85070", Offset = "0x5D84070", VA = "0x5D85070")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x23B3410", Offset = "0x23B1A10", VA = "0x1823B3410")]
+	[Token(Token = "0x6000C23")]
+	[Address(RVA = "0x5D84EF0", Offset = "0x5D83EF0", VA = "0x5D84EF0")]
 	private void Refresh()
 	{
 	}
 
-	[Token(Token = "0x6000B60")]
-	[Address(RVA = "0x23B3680", Offset = "0x23B1C80", VA = "0x1823B3680")]
+	[Token(Token = "0x6000C24")]
+	[Address(RVA = "0x5D85080", Offset = "0x5D84080", VA = "0x5D85080")]
 	public AottgHoverMarqueeParentRuntime()
 	{
 	}

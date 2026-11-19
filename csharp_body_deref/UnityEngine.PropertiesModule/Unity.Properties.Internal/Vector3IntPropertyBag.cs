@@ -20,7 +20,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x6000203")]
-			[Address(RVA = "0x2FF6620", Offset = "0x2FF4C20", VA = "0x182FF6620", Slot = "12")]
+			[Address(RVA = "0x69EE470", Offset = "0x69ED470", VA = "0x69EE470", Slot = "12")]
 			get
 			{
 				return null;
@@ -31,7 +31,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6000204")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE4A0", Offset = "0x69ED4A0", VA = "0x69EE4A0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -39,20 +39,20 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x6000205")]
-		[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "14")]
+		[Address(RVA = "0x69EE4B0", Offset = "0x69ED4B0", VA = "0x69EE4B0", Slot = "14")]
 		public override int GetValue(ref Vector3Int container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000206")]
-		[Address(RVA = "0x2FF6340", Offset = "0x2FF4940", VA = "0x182FF6340", Slot = "15")]
+		[Address(RVA = "0x69EE4C0", Offset = "0x69ED4C0", VA = "0x69EE4C0", Slot = "15")]
 		public override void SetValue(ref Vector3Int container, int value)
 		{
 		}
 
 		[Token(Token = "0x6000207")]
-		[Address(RVA = "0x2FF64C0", Offset = "0x2FF4AC0", VA = "0x182FF64C0")]
+		[Address(RVA = "0x69EE3B0", Offset = "0x69ED3B0", VA = "0x69EE3B0")]
 		public XProperty()
 		{
 		}
@@ -65,7 +65,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x6000208")]
-			[Address(RVA = "0x2FF6AD0", Offset = "0x2FF50D0", VA = "0x182FF6AD0", Slot = "12")]
+			[Address(RVA = "0x69EE4D0", Offset = "0x69ED4D0", VA = "0x69EE4D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -76,7 +76,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6000209")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE500", Offset = "0x69ED500", VA = "0x69EE500", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -84,20 +84,20 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x600020A")]
-		[Address(RVA = "0x2FF6710", Offset = "0x2FF4D10", VA = "0x182FF6710", Slot = "14")]
+		[Address(RVA = "0x69EE510", Offset = "0x69ED510", VA = "0x69EE510", Slot = "14")]
 		public override int GetValue(ref Vector3Int container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600020B")]
-		[Address(RVA = "0x2FF6870", Offset = "0x2FF4E70", VA = "0x182FF6870", Slot = "15")]
+		[Address(RVA = "0x69EE520", Offset = "0x69ED520", VA = "0x69EE520", Slot = "15")]
 		public override void SetValue(ref Vector3Int container, int value)
 		{
 		}
 
 		[Token(Token = "0x600020C")]
-		[Address(RVA = "0x2FF68C0", Offset = "0x2FF4EC0", VA = "0x182FF68C0")]
+		[Address(RVA = "0x69EE3F0", Offset = "0x69ED3F0", VA = "0x69EE3F0")]
 		public YProperty()
 		{
 		}
@@ -110,7 +110,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x600020D")]
-			[Address(RVA = "0x2FF6C70", Offset = "0x2FF5270", VA = "0x182FF6C70", Slot = "12")]
+			[Address(RVA = "0x69EE530", Offset = "0x69ED530", VA = "0x69EE530", Slot = "12")]
 			get
 			{
 				return null;
@@ -121,7 +121,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x600020E")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE560", Offset = "0x69ED560", VA = "0x69EE560", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -129,27 +129,27 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x2FF6B90", Offset = "0x2FF5190", VA = "0x182FF6B90", Slot = "14")]
+		[Address(RVA = "0x69EE570", Offset = "0x69ED570", VA = "0x69EE570", Slot = "14")]
 		public override int GetValue(ref Vector3Int container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000210")]
-		[Address(RVA = "0x2FF6BA0", Offset = "0x2FF51A0", VA = "0x182FF6BA0", Slot = "15")]
+		[Address(RVA = "0x69EE580", Offset = "0x69ED580", VA = "0x69EE580", Slot = "15")]
 		public override void SetValue(ref Vector3Int container, int value)
 		{
 		}
 
 		[Token(Token = "0x6000211")]
-		[Address(RVA = "0x2FF6BF0", Offset = "0x2FF51F0", VA = "0x182FF6BF0")]
+		[Address(RVA = "0x69EE430", Offset = "0x69ED430", VA = "0x69EE430")]
 		public ZProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x2FF5B20", Offset = "0x2FF4120", VA = "0x182FF5B20")]
+	[Address(RVA = "0x69ED150", Offset = "0x69EC150", VA = "0x69ED150")]
 	public Vector3IntPropertyBag()
 	{
 	}

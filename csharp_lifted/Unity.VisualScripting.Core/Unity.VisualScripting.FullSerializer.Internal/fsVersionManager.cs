@@ -1,0 +1,53 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.FullSerializer.Internal.fsVersionManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Generic;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting.FullSerializer.Internal;
+
+[Token(Token = "0x2000223")]
+public static class fsVersionManager
+{
+	[Token(Token = "0x40009E8")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly Dictionary<Type, fsOption<fsVersionedType>> _cache;
+
+	[Token(Token = "0x6001325")]
+	[Address(RVA = "0x686F1C0", Offset = "0x686E1C0", VA = "0x686F1C0")]
+	public static fsResult GetVersionImportPath(string currentVersion, fsVersionedType targetVersion, out List<fsVersionedType> path)
+	{
+		return default(fsResult);
+	}
+
+	[Token(Token = "0x6001326")]
+	[Address(RVA = "0x6873DF0", Offset = "0x6872DF0", VA = "0x6873DF0")]
+	private static bool GetVersionImportPathRecursive(List<fsVersionedType> path, string currentVersion, fsVersionedType current)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6001327")]
+	[Address(RVA = "0x686D780", Offset = "0x686C780", VA = "0x686D780")]
+	public static fsOption<fsVersionedType> GetVersionedType(Type type)
+	{
+		return default(fsOption<fsVersionedType>);
+	}
+
+	[Token(Token = "0x6001328")]
+	[Address(RVA = "0x6874290", Offset = "0x6873290", VA = "0x6874290")]
+	private static void VerifyConstructors(fsVersionedType type)
+	{
+	}
+
+	[Token(Token = "0x6001329")]
+	[Address(RVA = "0x6873FB0", Offset = "0x6872FB0", VA = "0x6873FB0")]
+	private static void VerifyUniqueVersionStrings(fsVersionedType type)
+	{
+	}
+}

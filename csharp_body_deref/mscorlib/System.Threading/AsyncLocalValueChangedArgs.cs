@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001F4")]
+[Token(Token = "0x20001CC")]
 public readonly struct AsyncLocalValueChangedArgs<T>
 {
-	[Token(Token = "0x400098C")]
+	[Token(Token = "0x40008EA")]
 	[FieldOffset(Offset = "0x0")]
 	[CompilerGenerated]
 	private readonly T _003CPreviousValue_003Ek__BackingField;
 
-	[Token(Token = "0x400098E")]
+	[Token(Token = "0x40008EC")]
 	[FieldOffset(Offset = "0x0")]
 	[CompilerGenerated]
 	private readonly bool _003CThreadContextChanged_003Ek__BackingField;
 
-	[Token(Token = "0x1700019A")]
+	[Token(Token = "0x17000199")]
 	public T CurrentValue
 	{
-		[Token(Token = "0x60011B5")]
+		[Token(Token = "0x600118C")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +34,7 @@ public readonly struct AsyncLocalValueChangedArgs<T>
 		}
 	}
 
-	[Token(Token = "0x60011B6")]
+	[Token(Token = "0x600118D")]
 	internal AsyncLocalValueChangedArgs(T previousValue, T currentValue, bool contextChanged)
 	{
 	}

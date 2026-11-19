@@ -18,7 +18,7 @@ public class Slider : BaseSlider<float>
 	public new class UxmlFactory : UxmlFactory<Slider, UxmlTraits>
 	{
 		[Token(Token = "0x600098D")]
-		[Address(RVA = "0x323AF40", Offset = "0x3239540", VA = "0x18323AF40")]
+		[Address(RVA = "0x6C37DE0", Offset = "0x6C36DE0", VA = "0x6C37DE0")]
 		public UxmlFactory()
 		{
 		}
@@ -53,13 +53,13 @@ public class Slider : BaseSlider<float>
 		private UxmlBoolAttributeDescription m_Inverted;
 
 		[Token(Token = "0x600098E")]
-		[Address(RVA = "0x323B820", Offset = "0x3239E20", VA = "0x18323B820", Slot = "4")]
+		[Address(RVA = "0x6C37E20", Offset = "0x6C36E20", VA = "0x6C37E20", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x600098F")]
-		[Address(RVA = "0x323D170", Offset = "0x323B770", VA = "0x18323D170")]
+		[Address(RVA = "0x6C38120", Offset = "0x6C37120", VA = "0x6C38120")]
 		public UxmlTraits()
 		{
 		}
@@ -78,59 +78,59 @@ public class Slider : BaseSlider<float>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x3232A10", Offset = "0x3231010", VA = "0x183232A10")]
+	[Address(RVA = "0x6C373F0", Offset = "0x6C363F0", VA = "0x6C373F0")]
 	public Slider()
 	{
 	}
 
 	[Token(Token = "0x6000984")]
-	[Address(RVA = "0x3232A40", Offset = "0x3231040", VA = "0x183232A40")]
+	[Address(RVA = "0x6C36D10", Offset = "0x6C35D10", VA = "0x6C36D10")]
 	public Slider(float start, float end, SliderDirection direction = SliderDirection.Horizontal, float pageSize = 0f)
 	{
 	}
 
 	[Token(Token = "0x6000985")]
-	[Address(RVA = "0x32328B0", Offset = "0x3230EB0", VA = "0x1832328B0")]
+	[Address(RVA = "0x6C37410", Offset = "0x6C36410", VA = "0x6C37410")]
 	public Slider(string label, float start = 0f, float end = 10f, SliderDirection direction = SliderDirection.Horizontal, float pageSize = 0f)
 	{
 	}
 
 	[Token(Token = "0x6000986")]
-	[Address(RVA = "0x3231FF0", Offset = "0x32305F0", VA = "0x183231FF0", Slot = "169")]
+	[Address(RVA = "0x6C37580", Offset = "0x6C36580", VA = "0x6C37580", Slot = "169")]
 	public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, float startValue)
 	{
 	}
 
 	[Token(Token = "0x6000987")]
-	[Address(RVA = "0x3232400", Offset = "0x3230A00", VA = "0x183232400", Slot = "170")]
+	[Address(RVA = "0x6C37690", Offset = "0x6C36690", VA = "0x6C37690", Slot = "170")]
 	internal override float SliderLerpUnclamped(float a, float b, float interpolant)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000988")]
-	[Address(RVA = "0x3232630", Offset = "0x3230C30", VA = "0x183232630", Slot = "171")]
+	[Address(RVA = "0x6C36DE0", Offset = "0x6C35DE0", VA = "0x6C36DE0", Slot = "171")]
 	internal override float SliderNormalizeValue(float currentValue, float lowerValue, float higherValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000989")]
-	[Address(RVA = "0x32326F0", Offset = "0x3230CF0", VA = "0x1832326F0", Slot = "172")]
+	[Address(RVA = "0x6C37990", Offset = "0x6C36990", VA = "0x6C37990", Slot = "172")]
 	internal override float SliderRange()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600098A")]
-	[Address(RVA = "0x3232330", Offset = "0x3230930", VA = "0x183232330", Slot = "173")]
+	[Address(RVA = "0x6C37A40", Offset = "0x6C36A40", VA = "0x6C37A40", Slot = "173")]
 	internal override float ParseStringToValue(string previousValue, string newValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600098B")]
-	[Address(RVA = "0x3232120", Offset = "0x3230720", VA = "0x183232120", Slot = "174")]
+	[Address(RVA = "0x6C37AF0", Offset = "0x6C36AF0", VA = "0x6C37AF0", Slot = "174")]
 	internal override void ComputeValueFromKey(SliderKey sliderKey, bool isShift)
 	{
 	}

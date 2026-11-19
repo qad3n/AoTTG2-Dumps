@@ -18,44 +18,44 @@ public class XRLayout
 	private readonly List<(Camera, XRPass)> m_ActivePasses;
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x2AC8C00", Offset = "0x2AC7200", VA = "0x182AC8C00")]
+	[Address(RVA = "0x64A8BE0", Offset = "0x64A7BE0", VA = "0x64A8BE0")]
 	public void AddCamera(Camera camera, bool enableXR)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2AC95F0", Offset = "0x2AC7BF0", VA = "0x182AC95F0")]
+	[Address(RVA = "0x64A99E0", Offset = "0x64A89E0", VA = "0x64A99E0")]
 	public void ReconfigurePass(XRPass xrPass, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+	[Address(RVA = "0x64A9F70", Offset = "0x64A8F70", VA = "0x64A9F70")]
 	public List<(Camera, XRPass)> GetActivePasses()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x2AC8E40", Offset = "0x2AC7440", VA = "0x182AC8E40")]
+	[Address(RVA = "0x64A98D0", Offset = "0x64A88D0", VA = "0x64A98D0")]
 	internal void AddPass(Camera camera, XRPass xrPass)
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x2AC8F80", Offset = "0x2AC7580", VA = "0x182AC8F80")]
+	[Address(RVA = "0x64A9F80", Offset = "0x64A8F80", VA = "0x64A9F80")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x2AC90B0", Offset = "0x2AC76B0", VA = "0x182AC90B0")]
+	[Address(RVA = "0x64AA0C0", Offset = "0x64A90C0", VA = "0x64AA0C0")]
 	internal void LogDebugInfo()
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x2AC96A0", Offset = "0x2AC7CA0", VA = "0x182AC96A0")]
+	[Address(RVA = "0x64AA790", Offset = "0x64A9790", VA = "0x64AA790")]
 	public XRLayout()
 	{
 	}

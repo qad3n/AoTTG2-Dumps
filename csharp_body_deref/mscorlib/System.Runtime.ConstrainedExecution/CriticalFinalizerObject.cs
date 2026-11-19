@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ConstrainedExecution;
 
-[Token(Token = "0x2000491")]
+[Token(Token = "0x200046A")]
 public abstract class CriticalFinalizerObject
 {
-	[Token(Token = "0x60022CC")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6002299")]
+	[Address(RVA = "0x53C4FC0", Offset = "0x53C3FC0", VA = "0x53C4FC0")]
 	protected CriticalFinalizerObject()
 	{
 	}
 
-	[Token(Token = "0x60022CD")]
-	[Address(RVA = "0x1A29AB0", Offset = "0x1A280B0", VA = "0x181A29AB0", Slot = "1")]
+	[Token(Token = "0x600229A")]
+	[Address(RVA = "0x53C7F90", Offset = "0x53C6F90", VA = "0x53C7F90", Slot = "1")]
 	~CriticalFinalizerObject()
 	{
 	}

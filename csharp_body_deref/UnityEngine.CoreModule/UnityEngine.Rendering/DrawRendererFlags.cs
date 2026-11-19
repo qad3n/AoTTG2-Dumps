@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003AE")]
+[Token(Token = "0x2000380")]
 [Flags]
 internal enum DrawRendererFlags
 {
-	[Token(Token = "0x4000BA3")]
+	[Token(Token = "0x4000A75")]
 	None = 0,
-	[Token(Token = "0x4000BA4")]
+	[Token(Token = "0x4000A76")]
 	EnableDynamicBatching = 1,
-	[Token(Token = "0x4000BA5")]
+	[Token(Token = "0x4000A77")]
 	EnableInstancing = 2
 }

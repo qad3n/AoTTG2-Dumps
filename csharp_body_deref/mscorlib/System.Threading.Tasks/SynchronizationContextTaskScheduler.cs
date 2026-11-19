@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200028A")]
+[Token(Token = "0x2000262")]
 internal sealed class SynchronizationContextTaskScheduler : TaskScheduler
 {
-	[Token(Token = "0x4000B4C")]
+	[Token(Token = "0x4000AAA")]
 	[FieldOffset(Offset = "0x18")]
 	private SynchronizationContext m_synchronizationContext;
 
-	[Token(Token = "0x4000B4D")]
+	[Token(Token = "0x4000AAB")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly SendOrPostCallback s_postCallback;
 
-	[Token(Token = "0x600155C")]
-	[Address(RVA = "0x1BB42B0", Offset = "0x1BB28B0", VA = "0x181BB42B0")]
+	[Token(Token = "0x6001533")]
+	[Address(RVA = "0x554E7A0", Offset = "0x554D7A0", VA = "0x554E7A0")]
 	internal SynchronizationContextTaskScheduler()
 	{
 	}
 
-	[Token(Token = "0x600155D")]
-	[Address(RVA = "0x1BB40B0", Offset = "0x1BB26B0", VA = "0x181BB40B0", Slot = "4")]
+	[Token(Token = "0x6001534")]
+	[Address(RVA = "0x554EA20", Offset = "0x554DA20", VA = "0x554EA20", Slot = "4")]
 	protected internal override void QueueTask(Task task)
 	{
 	}
 
-	[Token(Token = "0x600155E")]
-	[Address(RVA = "0x1BB4140", Offset = "0x1BB2740", VA = "0x181BB4140", Slot = "5")]
+	[Token(Token = "0x6001535")]
+	[Address(RVA = "0x554EAA0", Offset = "0x554DAA0", VA = "0x554EAA0", Slot = "5")]
 	protected override bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued)
 	{
 		return default(bool);

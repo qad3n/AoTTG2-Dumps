@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.PostProcessingData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public struct PostProcessingData
 	internal UniversalPostProcessingData universalPostProcessingData
 	{
 		[Token(Token = "0x6000AB0")]
-		[Address(RVA = "0x2CC56E0", Offset = "0x2CC3CE0", VA = "0x182CC56E0")]
+		[Address(RVA = "0x66AFB20", Offset = "0x66AEB20", VA = "0x66AFB20")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ public struct PostProcessingData
 	public unsafe ref ColorGradingMode gradingMode
 	{
 		[Token(Token = "0x6000AB1")]
-		[Address(RVA = "0x2CC55A0", Offset = "0x2CC3BA0", VA = "0x182CC55A0")]
+		[Address(RVA = "0x66AFB60", Offset = "0x66AEB60", VA = "0x66AFB60")]
 		get
 		{
 			return ref *(ColorGradingMode*)null;
@@ -42,7 +42,7 @@ public struct PostProcessingData
 	public unsafe ref int lutSize
 	{
 		[Token(Token = "0x6000AB2")]
-		[Address(RVA = "0x2CC55F0", Offset = "0x2CC3BF0", VA = "0x182CC55F0")]
+		[Address(RVA = "0x66AFBB0", Offset = "0x66AEBB0", VA = "0x66AFBB0")]
 		get
 		{
 			return ref *(int*)null;
@@ -53,7 +53,7 @@ public struct PostProcessingData
 	public unsafe ref bool useFastSRGBLinearConversion
 	{
 		[Token(Token = "0x6000AB3")]
-		[Address(RVA = "0x2CC5730", Offset = "0x2CC3D30", VA = "0x182CC5730")]
+		[Address(RVA = "0x66AFC00", Offset = "0x66AEC00", VA = "0x66AFC00")]
 		get
 		{
 			return ref *(bool*)null;
@@ -64,7 +64,7 @@ public struct PostProcessingData
 	public unsafe ref bool supportScreenSpaceLensFlare
 	{
 		[Token(Token = "0x6000AB4")]
-		[Address(RVA = "0x2CC5690", Offset = "0x2CC3C90", VA = "0x182CC5690")]
+		[Address(RVA = "0x66AFC50", Offset = "0x66AEC50", VA = "0x66AFC50")]
 		get
 		{
 			return ref *(bool*)null;
@@ -75,7 +75,7 @@ public struct PostProcessingData
 	public unsafe ref bool supportDataDrivenLensFlare
 	{
 		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x2CC5640", Offset = "0x2CC3C40", VA = "0x182CC5640")]
+		[Address(RVA = "0x66AFCA0", Offset = "0x66AECA0", VA = "0x66AFCA0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -83,7 +83,7 @@ public struct PostProcessingData
 	}
 
 	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x66AFB10", Offset = "0x66AEB10", VA = "0x66AFB10")]
 	internal PostProcessingData(ContextContainer frameData)
 	{
 	}

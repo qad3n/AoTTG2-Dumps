@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x20003CA")]
+[Token(Token = "0x2000386")]
 public enum AuthenticationLevel
 {
-	[Token(Token = "0x40010D1")]
+	[Token(Token = "0x4000FE9")]
 	None,
-	[Token(Token = "0x40010D2")]
+	[Token(Token = "0x4000FEA")]
 	MutualAuthRequested,
-	[Token(Token = "0x40010D3")]
+	[Token(Token = "0x4000FEB")]
 	MutualAuthRequired
 }

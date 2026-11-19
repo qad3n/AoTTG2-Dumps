@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.UnsafeQueueDispose
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ internal struct UnsafeQueueDispose
 	internal AllocatorManager.AllocatorHandle m_AllocatorLabel;
 
 	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x29BFB60", Offset = "0x29BE160", VA = "0x1829BFB60")]
+	[Address(RVA = "0x6386C70", Offset = "0x6385C70", VA = "0x6386C70")]
 	public void Dispose()
 	{
 	}

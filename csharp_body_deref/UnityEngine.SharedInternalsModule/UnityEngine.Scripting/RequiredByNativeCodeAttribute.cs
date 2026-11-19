@@ -21,7 +21,7 @@ internal class RequiredByNativeCodeAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x69F1B00", Offset = "0x69F0B00", VA = "0x69F1B00")]
 		[CompilerGenerated]
 		set
 		{
@@ -32,7 +32,7 @@ internal class RequiredByNativeCodeAttribute : Attribute
 	public bool Optional
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x69F1B10", Offset = "0x69F0B10", VA = "0x69F1B10")]
 		[CompilerGenerated]
 		set
 		{
@@ -43,7 +43,7 @@ internal class RequiredByNativeCodeAttribute : Attribute
 	public bool GenerateProxy
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
+		[Address(RVA = "0x69F1B20", Offset = "0x69F0B20", VA = "0x69F1B20")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,19 +51,19 @@ internal class RequiredByNativeCodeAttribute : Attribute
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1AA0", Offset = "0x69F0AA0", VA = "0x69F1AA0")]
 	public RequiredByNativeCodeAttribute()
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x69F1AB0", Offset = "0x69F0AB0", VA = "0x69F1AB0")]
 	public RequiredByNativeCodeAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2FF7430", Offset = "0x2FF5A30", VA = "0x182FF7430")]
+	[Address(RVA = "0x69F1AE0", Offset = "0x69F0AE0", VA = "0x69F1AE0")]
 	public RequiredByNativeCodeAttribute(bool optional)
 	{
 	}

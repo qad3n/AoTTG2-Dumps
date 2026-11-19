@@ -23,32 +23,32 @@ public class DebugDisplaySettingsUI : IDebugData
 	private IDebugDisplaySettings m_Settings;
 
 	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x2AD57C0", Offset = "0x2AD3DC0", VA = "0x182AD57C0")]
+	[Address(RVA = "0x64C15A0", Offset = "0x64C05A0", VA = "0x64C15A0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x2AD5460", Offset = "0x2AD3A60", VA = "0x182AD5460")]
+	[Address(RVA = "0x64C1CC0", Offset = "0x64C0CC0", VA = "0x64C1CC0")]
 	public void RegisterDebug(IDebugDisplaySettings settings)
 	{
 	}
 
 	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x2AD5860", Offset = "0x2AD3E60", VA = "0x182AD5860")]
+	[Address(RVA = "0x64C1710", Offset = "0x64C0710", VA = "0x64C1710")]
 	public void UnregisterDebug()
 	{
 	}
 
 	[Token(Token = "0x60005B0")]
-	[Address(RVA = "0x2AD53F0", Offset = "0x2AD39F0", VA = "0x182AD53F0", Slot = "4")]
+	[Address(RVA = "0x64C2620", Offset = "0x64C1620", VA = "0x64C2620", Slot = "4")]
 	public Action GetReset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B1")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64C2690", Offset = "0x64C1690", VA = "0x64C2690")]
 	public DebugDisplaySettingsUI()
 	{
 	}

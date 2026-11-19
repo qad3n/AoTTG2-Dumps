@@ -11,49 +11,49 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x20006A9")]
+[Token(Token = "0x2000683")]
 internal class CStreamReader : StreamReader
 {
-	[Token(Token = "0x4001B05")]
+	[Token(Token = "0x4001A6B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private System.TermInfoDriver driver;
 
-	[Token(Token = "0x60033B6")]
-	[Address(RVA = "0x1B03730", Offset = "0x1B01D30", VA = "0x181B03730")]
+	[Token(Token = "0x600337F")]
+	[Address(RVA = "0x548F320", Offset = "0x548E320", VA = "0x548F320")]
 	public CStreamReader(Stream stream, Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x60033B7")]
-	[Address(RVA = "0x1B034A0", Offset = "0x1B01AA0", VA = "0x181B034A0", Slot = "9")]
+	[Token(Token = "0x6003380")]
+	[Address(RVA = "0x548F430", Offset = "0x548E430", VA = "0x548F430", Slot = "9")]
 	public override int Peek()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60033B8")]
-	[Address(RVA = "0x1B03520", Offset = "0x1B01B20", VA = "0x181B03520", Slot = "10")]
+	[Token(Token = "0x6003381")]
+	[Address(RVA = "0x548F4B0", Offset = "0x548E4B0", VA = "0x548F4B0", Slot = "10")]
 	public override int Read()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60033B9")]
-	[Address(RVA = "0x1B03580", Offset = "0x1B01B80", VA = "0x181B03580", Slot = "11")]
+	[Token(Token = "0x6003382")]
+	[Address(RVA = "0x548F570", Offset = "0x548E570", VA = "0x548F570", Slot = "11")]
 	public override int Read([In][Out] char[] dest, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60033BA")]
-	[Address(RVA = "0x1B034C0", Offset = "0x1B01AC0", VA = "0x181B034C0", Slot = "14")]
+	[Token(Token = "0x6003383")]
+	[Address(RVA = "0x548F710", Offset = "0x548E710", VA = "0x548F710", Slot = "14")]
 	public override string ReadLine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033BB")]
-	[Address(RVA = "0x1B034F0", Offset = "0x1B01AF0", VA = "0x181B034F0", Slot = "13")]
+	[Token(Token = "0x6003384")]
+	[Address(RVA = "0x548F7A0", Offset = "0x548E7A0", VA = "0x548F7A0", Slot = "13")]
 	public override string ReadToEnd()
 	{
 		return null;

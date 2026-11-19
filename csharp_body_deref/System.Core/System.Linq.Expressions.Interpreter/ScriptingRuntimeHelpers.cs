@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000247")]
+[Token(Token = "0x2000248")]
 internal static class ScriptingRuntimeHelpers
 {
-	[Token(Token = "0x6000B31")]
-	[Address(RVA = "0x247E640", Offset = "0x247CC40", VA = "0x18247E640")]
+	[Token(Token = "0x6000B3C")]
+	[Address(RVA = "0x5E0DB80", Offset = "0x5E0CB80", VA = "0x5E0DB80")]
 	public static object Int32ToObject(int i)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x247E280", Offset = "0x247C880", VA = "0x18247E280")]
+	[Token(Token = "0x6000B3D")]
+	[Address(RVA = "0x5E1C0D0", Offset = "0x5E1B0D0", VA = "0x5E1C0D0")]
 	internal static object GetPrimitiveDefaultValue(Type type)
 	{
 		return null;

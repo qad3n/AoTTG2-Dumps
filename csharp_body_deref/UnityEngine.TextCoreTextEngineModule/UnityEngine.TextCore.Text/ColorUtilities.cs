@@ -13,14 +13,14 @@ namespace UnityEngine.TextCore.Text;
 internal static class ColorUtilities
 {
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x3003240", Offset = "0x3001840", VA = "0x183003240")]
+	[Address(RVA = "0x6A0D530", Offset = "0x6A0C530", VA = "0x6A0D530")]
 	internal static bool CompareColors(Color32 a, Color32 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x3003280", Offset = "0x3001880", VA = "0x183003280")]
+	[Address(RVA = "0x6A0D540", Offset = "0x6A0C540", VA = "0x6A0D540")]
 	internal static Color32 MultiplyColors(Color32 c1, Color32 c2)
 	{
 		return default(Color32);

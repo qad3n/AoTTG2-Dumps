@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: OnTilePostProcessPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -76,7 +76,7 @@ public class OnTilePostProcessPass : ScriptableRenderPass
 		internal int msaaSamples;
 
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65F6720", Offset = "0x65F5720", VA = "0x65F6720")]
 		public PassData()
 		{
 		}
@@ -115,19 +115,19 @@ public class OnTilePostProcessPass : ScriptableRenderPass
 	}
 
 	[Token(Token = "0x4000007")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	internal bool m_UseMultisampleShaderResolve;
 
 	[Token(Token = "0x4000008")]
-	[FieldOffset(Offset = "0x61")]
+	[FieldOffset(Offset = "0x5D")]
 	internal bool m_UseTextureReadFallback;
 
 	[Token(Token = "0x4000009")]
-	[FieldOffset(Offset = "0x68")]
+	[FieldOffset(Offset = "0x60")]
 	private RTHandle m_UserLut;
 
 	[Token(Token = "0x400000A")]
-	[FieldOffset(Offset = "0x70")]
+	[FieldOffset(Offset = "0x68")]
 	private Material m_OnTileUberMaterial;
 
 	[Token(Token = "0x400000B")]
@@ -139,11 +139,11 @@ public class OnTilePostProcessPass : ScriptableRenderPass
 	private static readonly int s_BlitTexture;
 
 	[Token(Token = "0x400000D")]
-	[FieldOffset(Offset = "0x78")]
+	[FieldOffset(Offset = "0x70")]
 	private int m_DitheringTextureIndex;
 
 	[Token(Token = "0x400000E")]
-	[FieldOffset(Offset = "0x80")]
+	[FieldOffset(Offset = "0x78")]
 	private PostProcessData m_PostProcessData;
 
 	[Token(Token = "0x400000F")]
@@ -153,68 +153,68 @@ public class OnTilePostProcessPass : ScriptableRenderPass
 	private const string m_FallbackPassName = "On Tile Post Processing (sampling fallback) ";
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x2C08940", Offset = "0x2C06F40", VA = "0x182C08940")]
+	[Address(RVA = "0x65F42B0", Offset = "0x65F32B0", VA = "0x65F42B0")]
 	internal OnTilePostProcessPass(PostProcessData postProcessData)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x2C08690", Offset = "0x2C06C90", VA = "0x182C08690")]
+	[Address(RVA = "0x65F4590", Offset = "0x65F3590", VA = "0x65F4590")]
 	internal void Setup(ref Material onTileUberMaterial)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x2C06770", Offset = "0x2C04D70", VA = "0x182C06770")]
+	[Address(RVA = "0x65F45D0", Offset = "0x65F35D0", VA = "0x65F45D0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x2C06CB0", Offset = "0x2C052B0", VA = "0x182C06CB0", Slot = "11")]
+	[Address(RVA = "0x65F4640", Offset = "0x65F3640", VA = "0x65F4640", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x2C067D0", Offset = "0x2C04DD0", VA = "0x182C067D0")]
+	[Address(RVA = "0x65F60C0", Offset = "0x65F50C0", VA = "0x65F60C0")]
 	private static void ExecuteFBFetchPass(PassData data, RasterGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x2C086A0", Offset = "0x2C06CA0", VA = "0x182C086A0")]
+	[Address(RVA = "0x65F5EA0", Offset = "0x65F4EA0", VA = "0x65F5EA0")]
 	private TextureHandle TryGetCachedUserLutTextureHandle(ColorLookup colorLookup, RenderGraph renderGraph)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2C07F10", Offset = "0x2C06510", VA = "0x182C07F10")]
+	[Address(RVA = "0x65F59D0", Offset = "0x65F49D0", VA = "0x65F59D0")]
 	private void SetupLut(Material material, ColorLookup colorLookup, ColorAdjustments colorAdjustments, int lutSize)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x2C08380", Offset = "0x2C06980", VA = "0x182C08380")]
+	[Address(RVA = "0x65F57A0", Offset = "0x65F47A0", VA = "0x65F57A0")]
 	private void SetupVignette(Material material, XRPass xrPass, int width, int height, Vignette vignette)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2C08260", Offset = "0x2C06860", VA = "0x182C08260")]
+	[Address(RVA = "0x65F5C40", Offset = "0x65F4C40", VA = "0x65F5C40")]
 	private void SetupTonemapping(Material onTileUberMaterial, Tonemapping tonemapping, bool isHdrGrading)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x2C07E60", Offset = "0x2C06460", VA = "0x182C07E60")]
+	[Address(RVA = "0x65F5D70", Offset = "0x65F4D70", VA = "0x65F5D70")]
 	private void SetupGrain(Material onTileUberMaterial, UniversalCameraData cameraData, FilmGrain filmgrain, PostProcessData data)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x2C07DD0", Offset = "0x2C063D0", VA = "0x182C07DD0")]
+	[Address(RVA = "0x65F5E10", Offset = "0x65F4E10", VA = "0x65F5E10")]
 	private void SetupDithering(Material onTileUberMaterial, UniversalCameraData cameraData, PostProcessData data)
 	{
 	}

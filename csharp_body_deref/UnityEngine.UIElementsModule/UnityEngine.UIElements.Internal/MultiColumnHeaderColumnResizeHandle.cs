@@ -25,7 +25,7 @@ internal class MultiColumnHeaderColumnResizeHandle : VisualElement
 	public VisualElement dragArea
 	{
 		[Token(Token = "0x6002F53")]
-		[Address(RVA = "0xDB75F0", Offset = "0xDB5BF0", VA = "0x180DB75F0")]
+		[Address(RVA = "0x6C0D160", Offset = "0x6C0C160", VA = "0x6C0D160")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +34,7 @@ internal class MultiColumnHeaderColumnResizeHandle : VisualElement
 	}
 
 	[Token(Token = "0x6002F54")]
-	[Address(RVA = "0x3204210", Offset = "0x3202810", VA = "0x183204210")]
+	[Address(RVA = "0x6C07390", Offset = "0x6C06390", VA = "0x6C07390")]
 	public MultiColumnHeaderColumnResizeHandle()
 	{
 	}

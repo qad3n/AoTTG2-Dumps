@@ -10,221 +10,221 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E6")]
+[Token(Token = "0x20002A7")]
 internal class LazyAsyncResult : IAsyncResult
 {
-	[Token(Token = "0x20002E7")]
+	[Token(Token = "0x20002A8")]
 	private class ThreadContext
 	{
-		[Token(Token = "0x4000B1B")]
+		[Token(Token = "0x4000A4C")]
 		[FieldOffset(Offset = "0x10")]
 		internal int m_NestedIOCount;
 
-		[Token(Token = "0x6001444")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6001286")]
+		[Address(RVA = "0x62AF5E0", Offset = "0x62AE5E0", VA = "0x62AF5E0")]
 		public ThreadContext()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000B12")]
+	[Token(Token = "0x4000A43")]
 	[ThreadStatic]
 	private static ThreadContext t_ThreadContext;
 
-	[Token(Token = "0x4000B13")]
+	[Token(Token = "0x4000A44")]
 	[FieldOffset(Offset = "0x10")]
 	private object m_AsyncObject;
 
-	[Token(Token = "0x4000B14")]
+	[Token(Token = "0x4000A45")]
 	[FieldOffset(Offset = "0x18")]
 	private object m_AsyncState;
 
-	[Token(Token = "0x4000B15")]
+	[Token(Token = "0x4000A46")]
 	[FieldOffset(Offset = "0x20")]
 	private AsyncCallback m_AsyncCallback;
 
-	[Token(Token = "0x4000B16")]
+	[Token(Token = "0x4000A47")]
 	[FieldOffset(Offset = "0x28")]
 	private object m_Result;
 
-	[Token(Token = "0x4000B17")]
+	[Token(Token = "0x4000A48")]
 	[FieldOffset(Offset = "0x30")]
 	private int m_IntCompleted;
 
-	[Token(Token = "0x4000B18")]
+	[Token(Token = "0x4000A49")]
 	[FieldOffset(Offset = "0x34")]
 	private bool m_EndCalled;
 
-	[Token(Token = "0x4000B19")]
+	[Token(Token = "0x4000A4A")]
 	[FieldOffset(Offset = "0x35")]
 	private bool m_UserEvent;
 
-	[Token(Token = "0x4000B1A")]
+	[Token(Token = "0x4000A4B")]
 	[FieldOffset(Offset = "0x38")]
 	private object m_Event;
 
-	[Token(Token = "0x1700042D")]
+	[Token(Token = "0x170003FE")]
 	private static ThreadContext CurrentThreadContext
 	{
-		[Token(Token = "0x6001430")]
-		[Address(RVA = "0x27CFC70", Offset = "0x27CE270", VA = "0x1827CFC70")]
+		[Token(Token = "0x6001272")]
+		[Address(RVA = "0x62AF550", Offset = "0x62AE550", VA = "0x62AF550")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700042E")]
+	[Token(Token = "0x170003FF")]
 	internal object AsyncObject
 	{
-		[Token(Token = "0x6001432")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001274")]
+		[Address(RVA = "0x62AF6A0", Offset = "0x62AE6A0", VA = "0x62AF6A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700042F")]
+	[Token(Token = "0x17000400")]
 	public object AsyncState
 	{
-		[Token(Token = "0x6001433")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+		[Token(Token = "0x6001275")]
+		[Address(RVA = "0x62AF6B0", Offset = "0x62AE6B0", VA = "0x62AF6B0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000430")]
+	[Token(Token = "0x17000401")]
 	protected AsyncCallback AsyncCallback
 	{
-		[Token(Token = "0x6001434")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001276")]
+		[Address(RVA = "0x62AF6C0", Offset = "0x62AE6C0", VA = "0x62AF6C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000431")]
+	[Token(Token = "0x17000402")]
 	public WaitHandle AsyncWaitHandle
 	{
-		[Token(Token = "0x6001435")]
-		[Address(RVA = "0x27CFBA0", Offset = "0x27CE1A0", VA = "0x1827CFBA0", Slot = "5")]
+		[Token(Token = "0x6001277")]
+		[Address(RVA = "0x62AF6D0", Offset = "0x62AE6D0", VA = "0x62AF6D0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000432")]
+	[Token(Token = "0x17000403")]
 	public bool CompletedSynchronously
 	{
-		[Token(Token = "0x6001437")]
-		[Address(RVA = "0x27CFC40", Offset = "0x27CE240", VA = "0x1827CFC40", Slot = "7")]
+		[Token(Token = "0x6001279")]
+		[Address(RVA = "0x62AF930", Offset = "0x62AE930", VA = "0x62AF930", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000433")]
+	[Token(Token = "0x17000404")]
 	public bool IsCompleted
 	{
-		[Token(Token = "0x6001438")]
-		[Address(RVA = "0x27CFD20", Offset = "0x27CE320", VA = "0x1827CFD20", Slot = "4")]
+		[Token(Token = "0x600127A")]
+		[Address(RVA = "0x62AF960", Offset = "0x62AE960", VA = "0x62AF960", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000434")]
+	[Token(Token = "0x17000405")]
 	internal bool InternalPeekCompleted
 	{
-		[Token(Token = "0x6001439")]
-		[Address(RVA = "0x27CFD10", Offset = "0x27CE310", VA = "0x1827CFD10")]
+		[Token(Token = "0x600127B")]
+		[Address(RVA = "0x62AF920", Offset = "0x62AE920", VA = "0x62AF920")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000435")]
+	[Token(Token = "0x17000406")]
 	internal bool EndCalled
 	{
-		[Token(Token = "0x600143A")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Token(Token = "0x600127C")]
+		[Address(RVA = "0x62AF990", Offset = "0x62AE990", VA = "0x62AF990")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600143B")]
-		[Address(RVA = "0xAB9F80", Offset = "0xAB8580", VA = "0x180AB9F80")]
+		[Token(Token = "0x600127D")]
+		[Address(RVA = "0x62AF9A0", Offset = "0x62AE9A0", VA = "0x62AF9A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001431")]
-	[Address(RVA = "0x27CFAF0", Offset = "0x27CE0F0", VA = "0x1827CFAF0")]
+	[Token(Token = "0x6001273")]
+	[Address(RVA = "0x62AF5F0", Offset = "0x62AE5F0", VA = "0x62AF5F0")]
 	internal LazyAsyncResult(object myObject, object myState, AsyncCallback myCallBack)
 	{
 	}
 
-	[Token(Token = "0x6001436")]
-	[Address(RVA = "0x27CF580", Offset = "0x27CDB80", VA = "0x1827CF580")]
+	[Token(Token = "0x6001278")]
+	[Address(RVA = "0x62AF770", Offset = "0x62AE770", VA = "0x62AF770")]
 	private bool LazilyCreateEvent(out ManualResetEvent waitHandle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600143C")]
-	[Address(RVA = "0x27CF700", Offset = "0x27CDD00", VA = "0x1827CF700")]
+	[Token(Token = "0x600127E")]
+	[Address(RVA = "0x62AF9B0", Offset = "0x62AE9B0", VA = "0x62AF9B0")]
 	protected void ProtectedInvokeCallback(object result, IntPtr userToken)
 	{
 	}
 
-	[Token(Token = "0x600143D")]
-	[Address(RVA = "0x27CF570", Offset = "0x27CDB70", VA = "0x1827CF570")]
+	[Token(Token = "0x600127F")]
+	[Address(RVA = "0x62AFBD0", Offset = "0x62AEBD0", VA = "0x62AFBD0")]
 	internal void InvokeCallback(object result)
 	{
 	}
 
-	[Token(Token = "0x600143E")]
-	[Address(RVA = "0x27CF560", Offset = "0x27CDB60", VA = "0x1827CF560")]
+	[Token(Token = "0x6001280")]
+	[Address(RVA = "0x62AFBE0", Offset = "0x62AEBE0", VA = "0x62AFBE0")]
 	internal void InvokeCallback()
 	{
 	}
 
-	[Token(Token = "0x600143F")]
-	[Address(RVA = "0x27CF360", Offset = "0x27CD960", VA = "0x1827CF360", Slot = "8")]
+	[Token(Token = "0x6001281")]
+	[Address(RVA = "0x62AFBF0", Offset = "0x62AEBF0", VA = "0x62AFBF0", Slot = "8")]
 	protected virtual void Complete(IntPtr userToken)
 	{
 	}
 
-	[Token(Token = "0x6001440")]
-	[Address(RVA = "0x27CFA70", Offset = "0x27CE070", VA = "0x1827CFA70")]
+	[Token(Token = "0x6001282")]
+	[Address(RVA = "0x62AFD50", Offset = "0x62AED50", VA = "0x62AFD50")]
 	private void WorkerThreadComplete(object state)
 	{
 	}
 
-	[Token(Token = "0x6001441")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x6001283")]
+	[Address(RVA = "0x62AFDF0", Offset = "0x62AEDF0", VA = "0x62AFDF0", Slot = "9")]
 	protected virtual void Cleanup()
 	{
 	}
 
-	[Token(Token = "0x6001442")]
-	[Address(RVA = "0x27CF550", Offset = "0x27CDB50", VA = "0x1827CF550")]
+	[Token(Token = "0x6001284")]
+	[Address(RVA = "0x62AFE00", Offset = "0x62AEE00", VA = "0x62AFE00")]
 	internal object InternalWaitForCompletion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001443")]
-	[Address(RVA = "0x27CF890", Offset = "0x27CDE90", VA = "0x1827CF890")]
+	[Token(Token = "0x6001285")]
+	[Address(RVA = "0x62AFE10", Offset = "0x62AEE10", VA = "0x62AFE10")]
 	private object WaitForCompletion(bool snap)
 	{
 		return null;

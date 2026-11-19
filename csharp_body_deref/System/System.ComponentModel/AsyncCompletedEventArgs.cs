@@ -9,73 +9,73 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001FB")]
+[Token(Token = "0x20001BC")]
 public class AsyncCompletedEventArgs : EventArgs
 {
-	[Token(Token = "0x4000764")]
+	[Token(Token = "0x4000695")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Exception error;
 
-	[Token(Token = "0x4000765")]
+	[Token(Token = "0x4000696")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly bool cancelled;
 
-	[Token(Token = "0x4000766")]
+	[Token(Token = "0x4000697")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly object userState;
 
-	[Token(Token = "0x170002A9")]
+	[Token(Token = "0x1700027A")]
 	[SRDescription("True if operation was cancelled.")]
 	public bool Cancelled
 	{
-		[Token(Token = "0x6000D32")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Token(Token = "0x6000B72")]
+		[Address(RVA = "0x624C470", Offset = "0x624B470", VA = "0x624C470")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002AA")]
+	[Token(Token = "0x1700027B")]
 	[SRDescription("Exception that occurred during operation.  Null if no error.")]
 	public Exception Error
 	{
-		[Token(Token = "0x6000D33")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000B73")]
+		[Address(RVA = "0x624C480", Offset = "0x624B480", VA = "0x624C480")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002AB")]
+	[Token(Token = "0x1700027C")]
 	[SRDescription("User-supplied state to identify operation.")]
 	public object UserState
 	{
-		[Token(Token = "0x6000D34")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000B74")]
+		[Address(RVA = "0x624C490", Offset = "0x624B490", VA = "0x624C490")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000D30")]
-	[Address(RVA = "0x28ADB60", Offset = "0x28AC160", VA = "0x1828ADB60")]
+	[Token(Token = "0x6000B70")]
+	[Address(RVA = "0x624C370", Offset = "0x624B370", VA = "0x624C370")]
 	[Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public AsyncCompletedEventArgs()
 	{
 	}
 
-	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x28ADAE0", Offset = "0x28AC0E0", VA = "0x1828ADAE0")]
+	[Token(Token = "0x6000B71")]
+	[Address(RVA = "0x624C3E0", Offset = "0x624B3E0", VA = "0x624C3E0")]
 	public AsyncCompletedEventArgs(Exception error, bool cancelled, object userState)
 	{
 	}
 
-	[Token(Token = "0x6000D35")]
-	[Address(RVA = "0x28AD9F0", Offset = "0x28ABFF0", VA = "0x1828AD9F0")]
+	[Token(Token = "0x6000B75")]
+	[Address(RVA = "0x624C4A0", Offset = "0x624B4A0", VA = "0x624C4A0")]
 	protected void RaiseExceptionIfNecessary()
 	{
 	}

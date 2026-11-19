@@ -12,12 +12,12 @@ namespace UnityEngine.Experimental.GlobalIllumination;
 [Token(Token = "0x20003E0")]
 public enum LightMode : byte
 {
-	[Token(Token = "0x4000CCE")]
+	[Token(Token = "0x4000CCC")]
 	Realtime,
-	[Token(Token = "0x4000CCF")]
+	[Token(Token = "0x4000CCD")]
 	Mixed,
-	[Token(Token = "0x4000CD0")]
+	[Token(Token = "0x4000CCE")]
 	Baked,
-	[Token(Token = "0x4000CD1")]
+	[Token(Token = "0x4000CCF")]
 	Unknown
 }

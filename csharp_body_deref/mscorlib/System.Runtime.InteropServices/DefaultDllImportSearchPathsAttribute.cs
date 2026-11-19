@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000479")]
+[Token(Token = "0x2000452")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Method, AllowMultiple = false)]
 [ComVisible(false)]
 public sealed class DefaultDllImportSearchPathsAttribute : Attribute
 {
-	[Token(Token = "0x40012B9")]
+	[Token(Token = "0x4001219")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal DllImportSearchPath _paths;
 
-	[Token(Token = "0x6002246")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x600221C")]
+	[Address(RVA = "0x53C4BF0", Offset = "0x53C3BF0", VA = "0x53C4BF0")]
 	public DefaultDllImportSearchPathsAttribute(DllImportSearchPath paths)
 	{
 	}

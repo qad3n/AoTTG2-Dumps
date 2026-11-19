@@ -35,48 +35,48 @@ internal static class CustomTypesUnity
 	public static readonly byte[] memQuarternion;
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x1D139C0", Offset = "0x1D11FC0", VA = "0x181D139C0")]
+	[Address(RVA = "0x56A7DF0", Offset = "0x56A6DF0", VA = "0x56A7DF0")]
 	internal static void Register()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x1D14090", Offset = "0x1D12690", VA = "0x181D14090")]
+	[Address(RVA = "0x56A8040", Offset = "0x56A7040", VA = "0x56A8040")]
 	private static short SerializeVector3(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x1D13790", Offset = "0x1D11D90", VA = "0x181D13790")]
+	[Address(RVA = "0x56A8240", Offset = "0x56A7240", VA = "0x56A8240")]
 	private static object DeserializeVector3(StreamBuffer inStream, short length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x1D13E70", Offset = "0x1D12470", VA = "0x181D13E70")]
+	[Address(RVA = "0x56A8490", Offset = "0x56A7490", VA = "0x56A8490")]
 	private static short SerializeVector2(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x1D13580", Offset = "0x1D11B80", VA = "0x181D13580")]
+	[Address(RVA = "0x56A8680", Offset = "0x56A7680", VA = "0x56A8680")]
 	private static object DeserializeVector2(StreamBuffer inStream, short length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x1D13C00", Offset = "0x1D12200", VA = "0x181D13C00")]
+	[Address(RVA = "0x56A8880", Offset = "0x56A7880", VA = "0x56A8880")]
 	private static short SerializeQuaternion(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x1D13300", Offset = "0x1D11900", VA = "0x181D13300")]
+	[Address(RVA = "0x56A8AB0", Offset = "0x56A7AB0", VA = "0x56A8AB0")]
 	private static object DeserializeQuaternion(StreamBuffer inStream, short length)
 	{
 		return null;

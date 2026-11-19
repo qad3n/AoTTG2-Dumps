@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MultiColumnTreeViewController
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ public abstract class MultiColumnTreeViewController : BaseTreeViewController
 	public MultiColumnController columnController
 	{
 		[Token(Token = "0x6000290")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6A9AD70", Offset = "0x6A99D70", VA = "0x6A9AD70")]
 		get
 		{
 			return null;
@@ -29,77 +29,77 @@ public abstract class MultiColumnTreeViewController : BaseTreeViewController
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x30AF7F0", Offset = "0x30ADDF0", VA = "0x1830AF7F0")]
+	[Address(RVA = "0x6A9AD80", Offset = "0x6A99D80", VA = "0x6A9AD80")]
 	protected MultiColumnTreeViewController(Columns columns, SortColumnDescriptions sortDescriptions, List<SortColumnDescription> sortedColumns)
 	{
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x30AF770", Offset = "0x30ADD70", VA = "0x1830AF770", Slot = "19")]
+	[Address(RVA = "0x6A9AE30", Offset = "0x6A99E30", VA = "0x6A9AE30", Slot = "19")]
 	internal override void PreRefresh()
 	{
 	}
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x30AF680", Offset = "0x30ADC80", VA = "0x1830AF680", Slot = "14")]
+	[Address(RVA = "0x6A9AE60", Offset = "0x6A99E60", VA = "0x6A9AE60", Slot = "14")]
 	internal override void InvokeMakeItem(ReusableCollectionItem reusableItem)
 	{
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x30AF640", Offset = "0x30ADC40", VA = "0x1830AF640", Slot = "13")]
+	[Address(RVA = "0x6A9B300", Offset = "0x6A9A300", VA = "0x6A9B300", Slot = "13")]
 	public override object GetItemForIndex(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x30AF610", Offset = "0x30ADC10", VA = "0x1830AF610", Slot = "11")]
+	[Address(RVA = "0x6A9B330", Offset = "0x6A9A330", VA = "0x6A9B330", Slot = "11")]
 	public override int GetIndexForId(int id)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x30AF5D0", Offset = "0x30ADBD0", VA = "0x1830AF5D0", Slot = "12")]
+	[Address(RVA = "0x6A9B360", Offset = "0x6A9A360", VA = "0x6A9B360", Slot = "12")]
 	public override int GetIdForIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x30AF750", Offset = "0x30ADD50", VA = "0x1830AF750", Slot = "20")]
+	[Address(RVA = "0x6A9B390", Offset = "0x6A9A390", VA = "0x6A9B390", Slot = "20")]
 	protected override VisualElement MakeItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x30AF4C0", Offset = "0x30ADAC0", VA = "0x1830AF4C0", Slot = "21")]
+	[Address(RVA = "0x6A9B3B0", Offset = "0x6A9A3B0", VA = "0x6A9B3B0", Slot = "21")]
 	protected override void BindItem(VisualElement element, int index)
 	{
 	}
 
 	[Token(Token = "0x6000299")]
-	[Address(RVA = "0x30AF7D0", Offset = "0x30ADDD0", VA = "0x1830AF7D0", Slot = "22")]
+	[Address(RVA = "0x6A9B430", Offset = "0x6A9A430", VA = "0x6A9B430", Slot = "22")]
 	protected override void UnbindItem(VisualElement element, int index)
 	{
 	}
 
 	[Token(Token = "0x600029A")]
-	[Address(RVA = "0x30AF540", Offset = "0x30ADB40", VA = "0x1830AF540", Slot = "23")]
+	[Address(RVA = "0x6A9B450", Offset = "0x6A9A450", VA = "0x6A9B450", Slot = "23")]
 	protected override void DestroyItem(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x600029B")]
-	[Address(RVA = "0x30AF7A0", Offset = "0x30ADDA0", VA = "0x1830AF7A0", Slot = "7")]
+	[Address(RVA = "0x6A9B470", Offset = "0x6A9A470", VA = "0x6A9B470", Slot = "7")]
 	protected override void PrepareView()
 	{
 	}
 
 	[Token(Token = "0x600029C")]
-	[Address(RVA = "0x30AF560", Offset = "0x30ADB60", VA = "0x1830AF560", Slot = "8")]
+	[Address(RVA = "0x6A9B490", Offset = "0x6A9A490", VA = "0x6A9B490", Slot = "8")]
 	public override void Dispose()
 	{
 	}

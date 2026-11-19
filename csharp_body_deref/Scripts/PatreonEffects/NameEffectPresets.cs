@@ -9,81 +9,81 @@ using Il2CppDummyDll;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x2000114")]
+[Token(Token = "0x2000088")]
 public static class NameEffectPresets
 {
-	[Token(Token = "0x6000564")]
-	[Address(RVA = "0x20CAF30", Offset = "0x20C9530", VA = "0x1820CAF30")]
+	[Token(Token = "0x60003CE")]
+	[Address(RVA = "0x58BFA10", Offset = "0x58BEA10", VA = "0x58BFA10")]
 	public static NameEffectSettings GetPreset(NameEffectType type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x20CBAC0", Offset = "0x20CA0C0", VA = "0x1820CBAC0")]
+	[Token(Token = "0x60003CF")]
+	[Address(RVA = "0x58BEFC0", Offset = "0x58BDFC0", VA = "0x58BEFC0")]
 	public static bool TryResolve(string raw, out NameEffectType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000566")]
-	[Address(RVA = "0x20CB7C0", Offset = "0x20C9DC0", VA = "0x1820CB7C0")]
+	[Token(Token = "0x60003D0")]
+	[Address(RVA = "0x58C5FD0", Offset = "0x58C4FD0", VA = "0x58C5FD0")]
 	private static bool IsSupportedEffect(NameEffectType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x20CB5B0", Offset = "0x20C9BB0", VA = "0x1820CB5B0")]
+	[Token(Token = "0x60003D1")]
+	[Address(RVA = "0x58C35C0", Offset = "0x58C25C0", VA = "0x58C35C0")]
 	public static NameEffectSettings Holographic()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x20CB9D0", Offset = "0x20C9FD0", VA = "0x1820CB9D0")]
+	[Token(Token = "0x60003D2")]
+	[Address(RVA = "0x58C5A50", Offset = "0x58C4A50", VA = "0x58C5A50")]
 	public static NameEffectSettings Shimmer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000569")]
-	[Address(RVA = "0x20CB8D0", Offset = "0x20C9ED0", VA = "0x1820CB8D0")]
+	[Token(Token = "0x60003D3")]
+	[Address(RVA = "0x58C5B40", Offset = "0x58C4B40", VA = "0x58C5B40")]
 	public static NameEffectSettings Pop()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x20CAE20", Offset = "0x20C9420", VA = "0x1820CAE20")]
+	[Token(Token = "0x60003D4")]
+	[Address(RVA = "0x58C5C30", Offset = "0x58C4C30", VA = "0x58C5C30")]
 	public static NameEffectSettings Ember()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x20CBBE0", Offset = "0x20CA1E0", VA = "0x1820CBBE0")]
+	[Token(Token = "0x60003D5")]
+	[Address(RVA = "0x58C5D20", Offset = "0x58C4D20", VA = "0x58C5D20")]
 	public static NameEffectSettings Waves()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x20CAD10", Offset = "0x20C9310", VA = "0x1820CAD10")]
+	[Token(Token = "0x60003D6")]
+	[Address(RVA = "0x58C5E10", Offset = "0x58C4E10", VA = "0x58C5E10")]
 	public static NameEffectSettings Electric()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x20CB7E0", Offset = "0x20C9DE0", VA = "0x1820CB7E0")]
+	[Token(Token = "0x60003D7")]
+	[Address(RVA = "0x58C5F00", Offset = "0x58C4F00", VA = "0x58C5F00")]
 	public static NameEffectSettings Outline()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x20CB600", Offset = "0x20C9C00", VA = "0x1820CB600")]
+	[Token(Token = "0x60003D8")]
+	[Address(RVA = "0x58C5FE0", Offset = "0x58C4FE0", VA = "0x58C5FE0")]
 	private static bool IsLegacyEffect(string raw)
 	{
 		return default(bool);

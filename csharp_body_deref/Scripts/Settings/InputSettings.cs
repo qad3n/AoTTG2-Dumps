@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000BC")]
+[Token(Token = "0x20000F4")]
 internal class InputSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x400044B")]
+	[Token(Token = "0x4000581")]
 	[FieldOffset(Offset = "0x38")]
 	public GeneralInputSettings General;
 
-	[Token(Token = "0x400044C")]
+	[Token(Token = "0x4000582")]
 	[FieldOffset(Offset = "0x40")]
 	public HumanInputSettings Human;
 
-	[Token(Token = "0x400044D")]
+	[Token(Token = "0x4000583")]
 	[FieldOffset(Offset = "0x48")]
 	public TitanInputSettings Titan;
 
-	[Token(Token = "0x400044E")]
+	[Token(Token = "0x4000584")]
 	[FieldOffset(Offset = "0x50")]
 	public AnnieShifterInputSettings AnnieShifter;
 
-	[Token(Token = "0x400044F")]
+	[Token(Token = "0x4000585")]
 	[FieldOffset(Offset = "0x58")]
 	public ErenShifterInputSettings ErenShifter;
 
-	[Token(Token = "0x4000450")]
+	[Token(Token = "0x4000586")]
 	[FieldOffset(Offset = "0x60")]
 	public InteractionInputSettings Interaction;
 
-	[Token(Token = "0x4000451")]
+	[Token(Token = "0x4000587")]
 	[FieldOffset(Offset = "0x68")]
 	public MapEditorInputSettings MapEditor;
 
-	[Token(Token = "0x1700009E")]
+	[Token(Token = "0x170000BB")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60003C9")]
-		[Address(RVA = "0x1F1DB90", Offset = "0x1F1C190", VA = "0x181F1DB90", Slot = "15")]
+		[Token(Token = "0x600053F")]
+		[Address(RVA = "0x5A4DA20", Offset = "0x5A4CA20", VA = "0x5A4DA20", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x1F1D9E0", Offset = "0x1F1BFE0", VA = "0x181F1D9E0")]
+	[Token(Token = "0x6000540")]
+	[Address(RVA = "0x5A4DA50", Offset = "0x5A4CA50", VA = "0x5A4DA50")]
 	public InputSettings()
 	{
 	}

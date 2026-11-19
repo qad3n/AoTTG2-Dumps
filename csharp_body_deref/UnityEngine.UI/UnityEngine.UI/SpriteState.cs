@@ -40,13 +40,13 @@ public struct SpriteState : IEquatable<SpriteState>
 	public Sprite highlightedSprite
 	{
 		[Token(Token = "0x600049D")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6CF7C00", Offset = "0x6CF6C00", VA = "0x6CF7C00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600049E")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Address(RVA = "0x6CF7C10", Offset = "0x6CF6C10", VA = "0x6CF7C10")]
 		set
 		{
 		}
@@ -56,13 +56,13 @@ public struct SpriteState : IEquatable<SpriteState>
 	public Sprite pressedSprite
 	{
 		[Token(Token = "0x600049F")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6CF7C20", Offset = "0x6CF6C20", VA = "0x6CF7C20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004A0")]
-		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
+		[Address(RVA = "0x6CF7C30", Offset = "0x6CF6C30", VA = "0x6CF7C30")]
 		set
 		{
 		}
@@ -72,13 +72,13 @@ public struct SpriteState : IEquatable<SpriteState>
 	public Sprite selectedSprite
 	{
 		[Token(Token = "0x60004A1")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6CF7C40", Offset = "0x6CF6C40", VA = "0x6CF7C40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004A2")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6CF7C50", Offset = "0x6CF6C50", VA = "0x6CF7C50")]
 		set
 		{
 		}
@@ -88,20 +88,20 @@ public struct SpriteState : IEquatable<SpriteState>
 	public Sprite disabledSprite
 	{
 		[Token(Token = "0x60004A3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6CF7C60", Offset = "0x6CF6C60", VA = "0x6CF7C60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004A4")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6CF7C70", Offset = "0x6CF6C70", VA = "0x6CF7C70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x32EA2B0", Offset = "0x32E88B0", VA = "0x1832EA2B0", Slot = "4")]
+	[Address(RVA = "0x6CF7C80", Offset = "0x6CF6C80", VA = "0x6CF7C80", Slot = "4")]
 	public bool Equals(SpriteState other)
 	{
 		return default(bool);

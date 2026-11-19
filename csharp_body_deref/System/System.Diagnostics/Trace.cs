@@ -9,40 +9,40 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000105")]
+[Token(Token = "0x20000C6")]
 public sealed class Trace
 {
-	[Token(Token = "0x4000452")]
+	[Token(Token = "0x4000383")]
 	[FieldOffset(Offset = "0x0")]
 	private static CorrelationManager correlationManager;
 
-	[Token(Token = "0x170000F0")]
+	[Token(Token = "0x170000C1")]
 	public static TraceListenerCollection Listeners
 	{
-		[Token(Token = "0x600064B")]
-		[Address(RVA = "0x28774F0", Offset = "0x2875AF0", VA = "0x1828774F0")]
+		[Token(Token = "0x6000495")]
+		[Address(RVA = "0x6200B50", Offset = "0x61FFB50", VA = "0x6200B50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F1")]
+	[Token(Token = "0x170000C2")]
 	public static bool AutoFlush
 	{
-		[Token(Token = "0x600064C")]
-		[Address(RVA = "0x28773B0", Offset = "0x28759B0", VA = "0x1828773B0")]
+		[Token(Token = "0x6000496")]
+		[Address(RVA = "0x6200EC0", Offset = "0x61FFEC0", VA = "0x6200EC0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000F2")]
+	[Token(Token = "0x170000C3")]
 	public static CorrelationManager CorrelationManager
 	{
-		[Token(Token = "0x600064D")]
-		[Address(RVA = "0x2877440", Offset = "0x2875A40", VA = "0x182877440")]
+		[Token(Token = "0x6000497")]
+		[Address(RVA = "0x6200FC0", Offset = "0x61FFFC0", VA = "0x6200FC0")]
 		get
 		{
 			return null;

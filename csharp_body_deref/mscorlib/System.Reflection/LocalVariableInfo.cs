@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200053F")]
+[Token(Token = "0x2000518")]
 [ComVisible(true)]
 public class LocalVariableInfo
 {
-	[Token(Token = "0x400151C")]
+	[Token(Token = "0x400147C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal Type type;
 
-	[Token(Token = "0x400151D")]
+	[Token(Token = "0x400147D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal bool is_pinned;
 
-	[Token(Token = "0x400151E")]
+	[Token(Token = "0x400147E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1A")]
 	internal ushort position;
 
-	[Token(Token = "0x600269E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600266C")]
+	[Address(RVA = "0x53E60F0", Offset = "0x53E50F0", VA = "0x53E60F0")]
 	protected LocalVariableInfo()
 	{
 	}
 
-	[Token(Token = "0x600269F")]
-	[Address(RVA = "0x1A6A870", Offset = "0x1A68E70", VA = "0x181A6A870", Slot = "3")]
+	[Token(Token = "0x600266D")]
+	[Address(RVA = "0x53E6100", Offset = "0x53E5100", VA = "0x53E6100", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.LightUnit
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,14 +14,14 @@ namespace UnityEngine.Rendering;
 [MovedFrom(true, "UnityEngine.Rendering.HighDefinition", "Unity.RenderPipelines.HighDefinition.Runtime", null)]
 public enum LightUnit
 {
-	[Token(Token = "0x4000896")]
+	[Token(Token = "0x4000894")]
 	Lumen,
-	[Token(Token = "0x4000897")]
+	[Token(Token = "0x4000895")]
 	Candela,
-	[Token(Token = "0x4000898")]
+	[Token(Token = "0x4000896")]
 	Lux,
-	[Token(Token = "0x4000899")]
+	[Token(Token = "0x4000897")]
 	Nits,
-	[Token(Token = "0x400089A")]
+	[Token(Token = "0x4000898")]
 	Ev100
 }

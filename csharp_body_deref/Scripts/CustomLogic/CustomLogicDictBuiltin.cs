@@ -12,248 +12,248 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003FA")]
+[Token(Token = "0x2000459")]
 [CompilerGenerated]
 internal class CustomLogicDictBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x20003FB")]
+	[Token(Token = "0x200045A")]
 	public static class Factory
 	{
-		[Token(Token = "0x600189D")]
-		[Address(RVA = "0x1ED9850", Offset = "0x1ED7E50", VA = "0x181ED9850")]
+		[Token(Token = "0x6001B14")]
+		[Address(RVA = "0x58AE290", Offset = "0x58AD290", VA = "0x58AE290")]
 		public static CustomLogicDictBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003FC")]
+	[Token(Token = "0x200045B")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400142D")]
+		[Token(Token = "0x40015CD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600189E")]
-		[Address(RVA = "0x1EC1CD0", Offset = "0x1EC02D0", VA = "0x181EC1CD0")]
+		[Token(Token = "0x6001B15")]
+		[Address(RVA = "0x58AE3E0", Offset = "0x58AD3E0", VA = "0x58AE3E0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600189F")]
-		[Address(RVA = "0x1ECA9C0", Offset = "0x1EC8FC0", VA = "0x181ECA9C0")]
+		[Token(Token = "0x6001B16")]
+		[Address(RVA = "0x58AE7D0", Offset = "0x58AD7D0", VA = "0x58AE7D0")]
 		public static CLPropertyBinding<CustomLogicDictBuiltin> __CreatePropertyBinding__Count()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A0")]
-		[Address(RVA = "0x1ECB000", Offset = "0x1EC9600", VA = "0x181ECB000")]
+		[Token(Token = "0x6001B17")]
+		[Address(RVA = "0x58AE870", Offset = "0x58AD870", VA = "0x58AE870")]
 		public static CLPropertyBinding<CustomLogicDictBuiltin> __CreatePropertyBinding__Keys()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A1")]
-		[Address(RVA = "0x1ECB870", Offset = "0x1EC9E70", VA = "0x181ECB870")]
+		[Token(Token = "0x6001B18")]
+		[Address(RVA = "0x58AE910", Offset = "0x58AD910", VA = "0x58AE910")]
 		public static CLPropertyBinding<CustomLogicDictBuiltin> __CreatePropertyBinding__Values()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A2")]
-		[Address(RVA = "0x1EC4CB0", Offset = "0x1EC32B0", VA = "0x181EC4CB0")]
+		[Token(Token = "0x6001B19")]
+		[Address(RVA = "0x58AE9B0", Offset = "0x58AD9B0", VA = "0x58AE9B0")]
 		public static CLMethodBinding<CustomLogicDictBuiltin> __CreateMethodBinding__Clear()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A3")]
-		[Address(RVA = "0x1EC5C80", Offset = "0x1EC4280", VA = "0x181EC5C80")]
+		[Token(Token = "0x6001B1A")]
+		[Address(RVA = "0x58AEAF0", Offset = "0x58ADAF0", VA = "0x58AEAF0")]
 		public static CLMethodBinding<CustomLogicDictBuiltin> __CreateMethodBinding__Get()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A4")]
-		[Address(RVA = "0x1EC8080", Offset = "0x1EC6680", VA = "0x181EC8080")]
+		[Token(Token = "0x6001B1B")]
+		[Address(RVA = "0x58AEC30", Offset = "0x58ADC30", VA = "0x58AEC30")]
 		public static CLMethodBinding<CustomLogicDictBuiltin> __CreateMethodBinding__Set()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A5")]
-		[Address(RVA = "0x1EC7AE0", Offset = "0x1EC60E0", VA = "0x181EC7AE0")]
+		[Token(Token = "0x6001B1C")]
+		[Address(RVA = "0x58AED70", Offset = "0x58ADD70", VA = "0x58AED70")]
 		public static CLMethodBinding<CustomLogicDictBuiltin> __CreateMethodBinding__Remove()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60018A6")]
-		[Address(RVA = "0x1EC5130", Offset = "0x1EC3730", VA = "0x181EC5130")]
+		[Token(Token = "0x6001B1D")]
+		[Address(RVA = "0x58AEEB0", Offset = "0x58ADEB0", VA = "0x58AEEB0")]
 		public static CLMethodBinding<CustomLogicDictBuiltin> __CreateMethodBinding__Contains()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001428")]
+	[Token(Token = "0x40015C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private readonly Dictionary<object, object> _dict;
 
-	[Token(Token = "0x4001429")]
+	[Token(Token = "0x40015C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private CustomLogicListBuiltin _cachedKeys;
 
-	[Token(Token = "0x400142A")]
+	[Token(Token = "0x40015CA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private CustomLogicListBuiltin _cachedValues;
 
-	[Token(Token = "0x400142B")]
+	[Token(Token = "0x40015CB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int _version;
 
-	[Token(Token = "0x400142C")]
+	[Token(Token = "0x40015CC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 	private int _listsVersion;
 
-	[Token(Token = "0x170002A5")]
+	[Token(Token = "0x170002E6")]
 	public int Count
 	{
-		[Token(Token = "0x600188D")]
-		[Address(RVA = "0x1ED00D0", Offset = "0x1ECE6D0", VA = "0x181ED00D0")]
+		[Token(Token = "0x6001B04")]
+		[Address(RVA = "0x58ADA40", Offset = "0x58ACA40", VA = "0x58ADA40")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002A6")]
+	[Token(Token = "0x170002E7")]
 	public CustomLogicListBuiltin Keys
 	{
-		[Token(Token = "0x600188E")]
-		[Address(RVA = "0x1ED0120", Offset = "0x1ECE720", VA = "0x181ED0120")]
+		[Token(Token = "0x6001B05")]
+		[Address(RVA = "0x58ADA80", Offset = "0x58ACA80", VA = "0x58ADA80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002A7")]
+	[Token(Token = "0x170002E8")]
 	public CustomLogicListBuiltin Values
 	{
-		[Token(Token = "0x600188F")]
-		[Address(RVA = "0x1ED0140", Offset = "0x1ECE740", VA = "0x181ED0140")]
+		[Token(Token = "0x6001B06")]
+		[Address(RVA = "0x58ADBA0", Offset = "0x58ACBA0", VA = "0x58ADBA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002A8")]
+	[Token(Token = "0x170002E9")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001898")]
-		[Address(RVA = "0x1ED00A0", Offset = "0x1ECE6A0", VA = "0x181ED00A0", Slot = "6")]
+		[Token(Token = "0x6001B0F")]
+		[Address(RVA = "0x58AE230", Offset = "0x58AD230", VA = "0x58AE230", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002A9")]
+	[Token(Token = "0x170002EA")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001899")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6001B10")]
+		[Address(RVA = "0x58AE260", Offset = "0x58AD260", VA = "0x58AE260", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002AA")]
+	[Token(Token = "0x170002EB")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600189A")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6001B11")]
+		[Address(RVA = "0x58AE270", Offset = "0x58AD270", VA = "0x58AE270", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002AB")]
+	[Token(Token = "0x170002EC")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600189B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001B12")]
+		[Address(RVA = "0x58AE280", Offset = "0x58AD280", VA = "0x58AE280", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600188B")]
-	[Address(RVA = "0x1ECFF50", Offset = "0x1ECE550", VA = "0x181ECFF50")]
+	[Token(Token = "0x6001B02")]
+	[Address(RVA = "0x58AD900", Offset = "0x58AC900", VA = "0x58AD900")]
 	public CustomLogicDictBuiltin()
 	{
 	}
 
-	[Token(Token = "0x600188C")]
-	[Address(RVA = "0x1ECFFF0", Offset = "0x1ECE5F0", VA = "0x181ECFFF0")]
+	[Token(Token = "0x6001B03")]
+	[Address(RVA = "0x58AD9A0", Offset = "0x58AC9A0", VA = "0x58AD9A0")]
 	public CustomLogicDictBuiltin(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6001890")]
-	[Address(RVA = "0x1ECF760", Offset = "0x1ECDD60", VA = "0x181ECF760")]
+	[Token(Token = "0x6001B07")]
+	[Address(RVA = "0x58ADBB0", Offset = "0x58ACBB0", VA = "0x58ADBB0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001891")]
-	[Address(RVA = "0x1ECF940", Offset = "0x1ECDF40", VA = "0x181ECF940")]
+	[Token(Token = "0x6001B08")]
+	[Address(RVA = "0x58ADC30", Offset = "0x58ACC30", VA = "0x58ADC30")]
 	public object Get(object key, [Optional] object defaultValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001892")]
-	[Address(RVA = "0x1ECFA30", Offset = "0x1ECE030", VA = "0x181ECFA30")]
+	[Token(Token = "0x6001B09")]
+	[Address(RVA = "0x58ADCB0", Offset = "0x58ACCB0", VA = "0x58ADCB0")]
 	public void Set(object key, object value)
 	{
 	}
 
-	[Token(Token = "0x6001893")]
-	[Address(RVA = "0x1ECF9D0", Offset = "0x1ECDFD0", VA = "0x181ECF9D0")]
+	[Token(Token = "0x6001B0A")]
+	[Address(RVA = "0x58ADD10", Offset = "0x58ACD10", VA = "0x58ADD10")]
 	public void Remove(object key)
 	{
 	}
 
-	[Token(Token = "0x6001894")]
-	[Address(RVA = "0x1ECF7D0", Offset = "0x1ECDDD0", VA = "0x181ECF7D0")]
+	[Token(Token = "0x6001B0B")]
+	[Address(RVA = "0x58ADD70", Offset = "0x58ACD70", VA = "0x58ADD70")]
 	public bool Contains(object key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001895")]
-	[Address(RVA = "0x1ECFAA0", Offset = "0x1ECE0A0", VA = "0x181ECFAA0", Slot = "3")]
+	[Token(Token = "0x6001B0C")]
+	[Address(RVA = "0x58ADDC0", Offset = "0x58ACDC0", VA = "0x58ADDC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001896")]
-	[Address(RVA = "0x1ECF9C0", Offset = "0x1ECDFC0", VA = "0x181ECF9C0")]
+	[Token(Token = "0x6001B0D")]
+	[Address(RVA = "0x58ADC20", Offset = "0x58ACC20", VA = "0x58ADC20")]
 	private void InvalidateCache()
 	{
 	}
 
-	[Token(Token = "0x6001897")]
-	[Address(RVA = "0x1ECF830", Offset = "0x1ECDE30", VA = "0x181ECF830")]
+	[Token(Token = "0x6001B0E")]
+	[Address(RVA = "0x58ADA90", Offset = "0x58ACA90", VA = "0x58ADA90")]
 	private void EnsureListsUpToDate()
 	{
 	}

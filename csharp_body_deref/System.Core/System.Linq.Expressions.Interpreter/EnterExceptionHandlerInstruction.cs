@@ -10,62 +10,62 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000FC")]
+[Token(Token = "0x20000FD")]
 internal sealed class EnterExceptionHandlerInstruction : Instruction
 {
-	[Token(Token = "0x400024A")]
+	[Token(Token = "0x4000253")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly EnterExceptionHandlerInstruction Void;
 
-	[Token(Token = "0x400024B")]
+	[Token(Token = "0x4000254")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly EnterExceptionHandlerInstruction NonVoid;
 
-	[Token(Token = "0x400024C")]
+	[Token(Token = "0x4000255")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly bool _hasValue;
 
-	[Token(Token = "0x17000183")]
+	[Token(Token = "0x17000185")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600065B")]
-		[Address(RVA = "0x242D830", Offset = "0x242BE30", VA = "0x18242D830", Slot = "9")]
+		[Token(Token = "0x6000666")]
+		[Address(RVA = "0x5DDF0E0", Offset = "0x5DDE0E0", VA = "0x5DDF0E0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000184")]
+	[Token(Token = "0x17000186")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x600065C")]
-		[Address(RVA = "0x242D820", Offset = "0x242BE20", VA = "0x18242D820", Slot = "4")]
+		[Token(Token = "0x6000667")]
+		[Address(RVA = "0x5DDF110", Offset = "0x5DDE110", VA = "0x5DDF110", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000185")]
+	[Token(Token = "0x17000187")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600065D")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000668")]
+		[Address(RVA = "0x5DDF120", Offset = "0x5DDE120", VA = "0x5DDF120", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6000665")]
+	[Address(RVA = "0x5DDF0C0", Offset = "0x5DDE0C0", VA = "0x5DDF0C0")]
 	private EnterExceptionHandlerInstruction(bool hasValue)
 	{
 	}
 
-	[Token(Token = "0x600065E")]
-	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "8")]
+	[Token(Token = "0x6000669")]
+	[Address(RVA = "0x5DDF130", Offset = "0x5DDE130", VA = "0x5DDF130", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

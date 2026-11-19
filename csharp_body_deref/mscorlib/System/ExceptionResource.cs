@@ -9,109 +9,109 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000199")]
+[Token(Token = "0x2000171")]
 internal enum ExceptionResource
 {
-	[Token(Token = "0x400062C")]
+	[Token(Token = "0x400058A")]
 	Argument_ImplementIComparable,
-	[Token(Token = "0x400062D")]
+	[Token(Token = "0x400058B")]
 	Argument_InvalidType,
-	[Token(Token = "0x400062E")]
+	[Token(Token = "0x400058C")]
 	Argument_InvalidArgumentForComparison,
-	[Token(Token = "0x400062F")]
+	[Token(Token = "0x400058D")]
 	Argument_InvalidRegistryKeyPermissionCheck,
-	[Token(Token = "0x4000630")]
+	[Token(Token = "0x400058E")]
 	ArgumentOutOfRange_NeedNonNegNum,
-	[Token(Token = "0x4000631")]
+	[Token(Token = "0x400058F")]
 	Arg_ArrayPlusOffTooSmall,
-	[Token(Token = "0x4000632")]
+	[Token(Token = "0x4000590")]
 	Arg_NonZeroLowerBound,
-	[Token(Token = "0x4000633")]
+	[Token(Token = "0x4000591")]
 	Arg_RankMultiDimNotSupported,
-	[Token(Token = "0x4000634")]
+	[Token(Token = "0x4000592")]
 	Arg_RegKeyDelHive,
-	[Token(Token = "0x4000635")]
+	[Token(Token = "0x4000593")]
 	Arg_RegKeyStrLenBug,
-	[Token(Token = "0x4000636")]
+	[Token(Token = "0x4000594")]
 	Arg_RegSetStrArrNull,
-	[Token(Token = "0x4000637")]
+	[Token(Token = "0x4000595")]
 	Arg_RegSetMismatchedKind,
-	[Token(Token = "0x4000638")]
+	[Token(Token = "0x4000596")]
 	Arg_RegSubKeyAbsent,
-	[Token(Token = "0x4000639")]
+	[Token(Token = "0x4000597")]
 	Arg_RegSubKeyValueAbsent,
-	[Token(Token = "0x400063A")]
+	[Token(Token = "0x4000598")]
 	Argument_AddingDuplicate,
-	[Token(Token = "0x400063B")]
+	[Token(Token = "0x4000599")]
 	Serialization_InvalidOnDeser,
-	[Token(Token = "0x400063C")]
+	[Token(Token = "0x400059A")]
 	Serialization_MissingKeys,
-	[Token(Token = "0x400063D")]
+	[Token(Token = "0x400059B")]
 	Serialization_NullKey,
-	[Token(Token = "0x400063E")]
+	[Token(Token = "0x400059C")]
 	Argument_InvalidArrayType,
-	[Token(Token = "0x400063F")]
+	[Token(Token = "0x400059D")]
 	NotSupported_KeyCollectionSet,
-	[Token(Token = "0x4000640")]
+	[Token(Token = "0x400059E")]
 	NotSupported_ValueCollectionSet,
-	[Token(Token = "0x4000641")]
+	[Token(Token = "0x400059F")]
 	ArgumentOutOfRange_SmallCapacity,
-	[Token(Token = "0x4000642")]
+	[Token(Token = "0x40005A0")]
 	ArgumentOutOfRange_Index,
-	[Token(Token = "0x4000643")]
+	[Token(Token = "0x40005A1")]
 	Argument_InvalidOffLen,
-	[Token(Token = "0x4000644")]
+	[Token(Token = "0x40005A2")]
 	Argument_ItemNotExist,
-	[Token(Token = "0x4000645")]
+	[Token(Token = "0x40005A3")]
 	ArgumentOutOfRange_Count,
-	[Token(Token = "0x4000646")]
+	[Token(Token = "0x40005A4")]
 	ArgumentOutOfRange_InvalidThreshold,
-	[Token(Token = "0x4000647")]
+	[Token(Token = "0x40005A5")]
 	ArgumentOutOfRange_ListInsert,
-	[Token(Token = "0x4000648")]
+	[Token(Token = "0x40005A6")]
 	NotSupported_ReadOnlyCollection,
-	[Token(Token = "0x4000649")]
+	[Token(Token = "0x40005A7")]
 	InvalidOperation_CannotRemoveFromStackOrQueue,
-	[Token(Token = "0x400064A")]
+	[Token(Token = "0x40005A8")]
 	InvalidOperation_EmptyQueue,
-	[Token(Token = "0x400064B")]
+	[Token(Token = "0x40005A9")]
 	InvalidOperation_EnumOpCantHappen,
-	[Token(Token = "0x400064C")]
+	[Token(Token = "0x40005AA")]
 	InvalidOperation_EnumFailedVersion,
-	[Token(Token = "0x400064D")]
+	[Token(Token = "0x40005AB")]
 	InvalidOperation_EmptyStack,
-	[Token(Token = "0x400064E")]
+	[Token(Token = "0x40005AC")]
 	ArgumentOutOfRange_BiggerThanCollection,
-	[Token(Token = "0x400064F")]
+	[Token(Token = "0x40005AD")]
 	InvalidOperation_EnumNotStarted,
-	[Token(Token = "0x4000650")]
+	[Token(Token = "0x40005AE")]
 	InvalidOperation_EnumEnded,
-	[Token(Token = "0x4000651")]
+	[Token(Token = "0x40005AF")]
 	NotSupported_SortedListNestedWrite,
-	[Token(Token = "0x4000652")]
+	[Token(Token = "0x40005B0")]
 	InvalidOperation_NoValue,
-	[Token(Token = "0x4000653")]
+	[Token(Token = "0x40005B1")]
 	InvalidOperation_RegRemoveSubKey,
-	[Token(Token = "0x4000654")]
+	[Token(Token = "0x40005B2")]
 	Security_RegistryPermission,
-	[Token(Token = "0x4000655")]
+	[Token(Token = "0x40005B3")]
 	UnauthorizedAccess_RegistryNoWrite,
-	[Token(Token = "0x4000656")]
+	[Token(Token = "0x40005B4")]
 	ObjectDisposed_RegKeyClosed,
-	[Token(Token = "0x4000657")]
+	[Token(Token = "0x40005B5")]
 	NotSupported_InComparableType,
-	[Token(Token = "0x4000658")]
+	[Token(Token = "0x40005B6")]
 	Argument_InvalidRegistryOptionsCheck,
-	[Token(Token = "0x4000659")]
+	[Token(Token = "0x40005B7")]
 	Argument_InvalidRegistryViewCheck,
-	[Token(Token = "0x400065A")]
+	[Token(Token = "0x40005B8")]
 	TaskT_TransitionToFinal_AlreadyCompleted,
-	[Token(Token = "0x400065B")]
+	[Token(Token = "0x40005B9")]
 	TaskCompletionSourceT_TrySetException_NullException,
-	[Token(Token = "0x400065C")]
+	[Token(Token = "0x40005BA")]
 	TaskCompletionSourceT_TrySetException_NoExceptions,
-	[Token(Token = "0x400065D")]
+	[Token(Token = "0x40005BB")]
 	NotSupported_StringComparison,
-	[Token(Token = "0x400065E")]
+	[Token(Token = "0x40005BC")]
 	InvalidOperation_NullArray
 }

@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System.Diagnostics;
 
 [Serializable]
-[Token(Token = "0x20005AC")]
+[Token(Token = "0x2000587")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
 public sealed class ConditionalAttribute : Attribute
 {
-	[Token(Token = "0x4001815")]
+	[Token(Token = "0x400177C")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CConditionString_003Ek__BackingField;
 
-	[Token(Token = "0x6002B65")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002B44")]
+	[Address(RVA = "0x544D570", Offset = "0x544C570", VA = "0x544D570")]
 	public ConditionalAttribute(string conditionString)
 	{
 	}

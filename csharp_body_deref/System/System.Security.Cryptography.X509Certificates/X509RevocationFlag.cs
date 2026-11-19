@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000131")]
+[Token(Token = "0x20000F2")]
 public enum X509RevocationFlag
 {
-	[Token(Token = "0x400057E")]
+	[Token(Token = "0x40004AF")]
 	EndCertificateOnly,
-	[Token(Token = "0x400057F")]
+	[Token(Token = "0x40004B0")]
 	EntireChain,
-	[Token(Token = "0x4000580")]
+	[Token(Token = "0x40004B1")]
 	ExcludeRoot
 }

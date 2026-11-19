@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.AnimateCrossFadeJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,7 +39,7 @@ internal struct AnimateCrossFadeJob : IJobParallelFor
 	public UnsafeList<byte> crossFadeArray;
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x2BBC7E0", Offset = "0x2BBADE0", VA = "0x182BBC7E0", Slot = "4")]
+	[Address(RVA = "0x65C2590", Offset = "0x65C1590", VA = "0x65C2590", Slot = "4")]
 	public void Execute(int instanceIndex)
 	{
 	}

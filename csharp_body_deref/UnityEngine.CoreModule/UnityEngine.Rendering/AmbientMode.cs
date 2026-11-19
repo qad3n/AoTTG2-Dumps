@@ -12,12 +12,12 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000328")]
 public enum AmbientMode
 {
-	[Token(Token = "0x400086B")]
+	[Token(Token = "0x4000869")]
 	Skybox = 0,
-	[Token(Token = "0x400086C")]
+	[Token(Token = "0x400086A")]
 	Trilight = 1,
-	[Token(Token = "0x400086D")]
+	[Token(Token = "0x400086B")]
 	Flat = 3,
-	[Token(Token = "0x400086E")]
+	[Token(Token = "0x400086C")]
 	Custom = 4
 }

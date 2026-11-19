@@ -34,44 +34,44 @@ public class DebugUIHandlerProgressBar : DebugUIHandlerWidget
 	private float m_Timer;
 
 	[Token(Token = "0x6001494")]
-	[Address(RVA = "0x16F6DE0", Offset = "0x16F53E0", VA = "0x1816F6DE0", Slot = "4")]
+	[Address(RVA = "0x65AB0B0", Offset = "0x65AA0B0", VA = "0x65AB0B0", Slot = "4")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6001495")]
-	[Address(RVA = "0x2BAFA40", Offset = "0x2BAE040", VA = "0x182BAFA40", Slot = "5")]
+	[Address(RVA = "0x65AB0C0", Offset = "0x65AA0C0", VA = "0x65AB0C0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6001496")]
-	[Address(RVA = "0x2BA8BF0", Offset = "0x2BA71F0", VA = "0x182BA8BF0", Slot = "6")]
+	[Address(RVA = "0x65AB260", Offset = "0x65AA260", VA = "0x65AB260", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001497")]
-	[Address(RVA = "0x2BA83A0", Offset = "0x2BA69A0", VA = "0x182BA83A0", Slot = "7")]
+	[Address(RVA = "0x65AB290", Offset = "0x65AA290", VA = "0x65AB290", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6001498")]
-	[Address(RVA = "0x2BAFC00", Offset = "0x2BAE200", VA = "0x182BAFC00")]
+	[Address(RVA = "0x65AB2C0", Offset = "0x65AA2C0", VA = "0x65AB2C0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6001499")]
-	[Address(RVA = "0x2BAFAE0", Offset = "0x2BAE0E0", VA = "0x182BAFAE0")]
+	[Address(RVA = "0x65AB160", Offset = "0x65AA160", VA = "0x65AB160")]
 	private void UpdateValue()
 	{
 	}
 
 	[Token(Token = "0x600149A")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AB330", Offset = "0x65AA330", VA = "0x65AB330")]
 	public DebugUIHandlerProgressBar()
 	{
 	}

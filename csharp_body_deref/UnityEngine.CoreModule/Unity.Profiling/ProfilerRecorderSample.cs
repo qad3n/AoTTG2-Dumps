@@ -31,8 +31,8 @@ public struct ProfilerRecorderSample
 	[Token(Token = "0x1700000B")]
 	public long Count
 	{
-		[Token(Token = "0x6000080")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x6000082")]
+		[Address(RVA = "0x68B5050", Offset = "0x68B4050", VA = "0x68B5050")]
 		get
 		{
 			return default(long);

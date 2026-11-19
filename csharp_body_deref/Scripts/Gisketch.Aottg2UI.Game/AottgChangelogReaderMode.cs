@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001CE")]
+[Token(Token = "0x20001E5")]
 internal enum AottgChangelogReaderMode
 {
-	[Token(Token = "0x40009CD")]
+	[Token(Token = "0x4000A41")]
 	Latest,
-	[Token(Token = "0x40009CE")]
+	[Token(Token = "0x4000A42")]
 	Entry
 }

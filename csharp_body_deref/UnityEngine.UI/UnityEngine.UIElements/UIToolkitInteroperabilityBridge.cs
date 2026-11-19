@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIToolkitInteroperabilityBridge
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -105,13 +105,13 @@ internal class UIToolkitInteroperabilityBridge
 	internal EventSystem eventSystem
 	{
 		[Token(Token = "0x6000605")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6D05370", Offset = "0x6D04370", VA = "0x6D05370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000606")]
-		[Address(RVA = "0x3306130", Offset = "0x3304730", VA = "0x183306130")]
+		[Address(RVA = "0x6D05380", Offset = "0x6D04380", VA = "0x6D05380")]
 		set
 		{
 		}
@@ -121,13 +121,13 @@ internal class UIToolkitInteroperabilityBridge
 	public bool overrideUIToolkitEvents
 	{
 		[Token(Token = "0x6000607")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Address(RVA = "0x6D05400", Offset = "0x6D04400", VA = "0x6D05400")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000608")]
-		[Address(RVA = "0x3306200", Offset = "0x3304800", VA = "0x183306200")]
+		[Address(RVA = "0x6D05410", Offset = "0x6D04410", VA = "0x6D05410")]
 		internal set
 		{
 		}
@@ -137,13 +137,13 @@ internal class UIToolkitInteroperabilityBridge
 	public EventHandlerTypes handlerTypes
 	{
 		[Token(Token = "0x6000609")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x6D054E0", Offset = "0x6D044E0", VA = "0x6D054E0")]
 		get
 		{
 			return default(EventHandlerTypes);
 		}
 		[Token(Token = "0x600060A")]
-		[Address(RVA = "0x33061B0", Offset = "0x33047B0", VA = "0x1833061B0")]
+		[Address(RVA = "0x6D054F0", Offset = "0x6D044F0", VA = "0x6D054F0")]
 		internal set
 		{
 		}
@@ -153,13 +153,13 @@ internal class UIToolkitInteroperabilityBridge
 	public int worldPickingLayers
 	{
 		[Token(Token = "0x600060B")]
-		[Address(RVA = "0x33060D0", Offset = "0x33046D0", VA = "0x1833060D0")]
+		[Address(RVA = "0x6D05590", Offset = "0x6D04590", VA = "0x6D05590")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600060C")]
-		[Address(RVA = "0x3306210", Offset = "0x3304810", VA = "0x183306210")]
+		[Address(RVA = "0x6D055A0", Offset = "0x6D045A0", VA = "0x6D055A0")]
 		internal set
 		{
 		}
@@ -169,13 +169,13 @@ internal class UIToolkitInteroperabilityBridge
 	public float worldPickingMaxDistance
 	{
 		[Token(Token = "0x600060D")]
-		[Address(RVA = "0x18A4260", Offset = "0x18A2860", VA = "0x1818A4260")]
+		[Address(RVA = "0x6D055C0", Offset = "0x6D045C0", VA = "0x6D055C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600060E")]
-		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
+		[Address(RVA = "0x6D055D0", Offset = "0x6D045D0", VA = "0x6D055D0")]
 		internal set
 		{
 		}
@@ -185,13 +185,13 @@ internal class UIToolkitInteroperabilityBridge
 	public bool createDefaultPanelComponents
 	{
 		[Token(Token = "0x600060F")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x6D055E0", Offset = "0x6D045E0", VA = "0x6D055E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x33060E0", Offset = "0x33046E0", VA = "0x1833060E0")]
+		[Address(RVA = "0x6D055F0", Offset = "0x6D045F0", VA = "0x6D055F0")]
 		internal set
 		{
 		}
@@ -201,7 +201,7 @@ internal class UIToolkitInteroperabilityBridge
 	private bool shouldTrackPanels
 	{
 		[Token(Token = "0x6000611")]
-		[Address(RVA = "0x33060B0", Offset = "0x33046B0", VA = "0x1833060B0")]
+		[Address(RVA = "0x6D05640", Offset = "0x6D04640", VA = "0x6D05640")]
 		get
 		{
 			return default(bool);
@@ -209,115 +209,115 @@ internal class UIToolkitInteroperabilityBridge
 	}
 
 	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x3305690", Offset = "0x3303C90", VA = "0x183305690")]
+	[Address(RVA = "0x6D05660", Offset = "0x6D04660", VA = "0x6D05660")]
 	private void StartTrackingUIToolkitPanels()
 	{
 	}
 
 	[Token(Token = "0x6000613")]
-	[Address(RVA = "0x3305630", Offset = "0x3303C30", VA = "0x183305630")]
+	[Address(RVA = "0x6D05890", Offset = "0x6D04890", VA = "0x6D05890")]
 	private void StartTrackingPanel(UnityEngine.UIElements.BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000614")]
-	[Address(RVA = "0x33058C0", Offset = "0x3303EC0", VA = "0x1833058C0")]
+	[Address(RVA = "0x6D058E0", Offset = "0x6D048E0", VA = "0x6D058E0")]
 	private void StopTrackingUIToolkitPanels()
 	{
 	}
 
 	[Token(Token = "0x6000615")]
-	[Address(RVA = "0x3305AD0", Offset = "0x33040D0", VA = "0x183305AD0")]
+	[Address(RVA = "0x6D05C80", Offset = "0x6D04C80", VA = "0x6D05C80")]
 	private void UpdatePanelGameObject(UnityEngine.UIElements.BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x3304A20", Offset = "0x3303020", VA = "0x183304A20")]
+	[Address(RVA = "0x6D05CB0", Offset = "0x6D04CB0", VA = "0x6D05CB0")]
 	private void CreatePanelGameObject(UnityEngine.UIElements.BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x3304F00", Offset = "0x3303500", VA = "0x183304F00")]
+	[Address(RVA = "0x6D05B10", Offset = "0x6D04B10", VA = "0x6D05B10")]
 	private void DestroyPanelGameObject(UnityEngine.UIElements.BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000618")]
-	[Address(RVA = "0x3304D30", Offset = "0x3303330", VA = "0x183304D30")]
+	[Address(RVA = "0x6D05FE0", Offset = "0x6D04FE0", VA = "0x6D05FE0")]
 	private void CreateWorldSpacePanelGameObject()
 	{
 	}
 
 	[Token(Token = "0x6000619")]
-	[Address(RVA = "0x3305000", Offset = "0x3303600", VA = "0x183305000")]
+	[Address(RVA = "0x6D05C10", Offset = "0x6D04C10", VA = "0x6D05C10")]
 	private void DestroyWorldSpacePanelGameObject()
 	{
 	}
 
 	[Token(Token = "0x600061A")]
-	[Address(RVA = "0x33058B0", Offset = "0x3303EB0", VA = "0x1833058B0")]
+	[Address(RVA = "0x6D06380", Offset = "0x6D05380", VA = "0x6D06380")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x600061B")]
-	[Address(RVA = "0x33051F0", Offset = "0x33037F0", VA = "0x1833051F0")]
+	[Address(RVA = "0x6D06390", Offset = "0x6D05390", VA = "0x6D06390")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600061C")]
-	[Address(RVA = "0x3305070", Offset = "0x3303670", VA = "0x183305070")]
+	[Address(RVA = "0x6D067C0", Offset = "0x6D057C0", VA = "0x6D067C0")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600061D")]
-	[Address(RVA = "0x3305EE0", Offset = "0x33044E0", VA = "0x183305EE0")]
+	[Address(RVA = "0x6D06930", Offset = "0x6D05930", VA = "0x6D06930")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x600061E")]
-	[Address(RVA = "0x3304860", Offset = "0x3302E60", VA = "0x183304860")]
+	[Address(RVA = "0x6D065C0", Offset = "0x6D055C0", VA = "0x6D065C0")]
 	private void Apply(PanelInputConfiguration input)
 	{
 	}
 
 	[Token(Token = "0x600061F")]
-	[Address(RVA = "0x3304790", Offset = "0x3302D90", VA = "0x183304790")]
+	[Address(RVA = "0x6D05420", Offset = "0x6D04420", VA = "0x6D05420")]
 	private void ApplyOverrideUIToolkitEvents()
 	{
 	}
 
 	[Token(Token = "0x6000620")]
-	[Address(RVA = "0x33045A0", Offset = "0x3302BA0", VA = "0x1833045A0")]
+	[Address(RVA = "0x6D061D0", Offset = "0x6D051D0", VA = "0x6D061D0")]
 	private void ApplyCameraProperties()
 	{
 	}
 
 	[Token(Token = "0x6000621")]
-	[Address(RVA = "0x3304740", Offset = "0x3302D40", VA = "0x183304740")]
+	[Address(RVA = "0x6D05540", Offset = "0x6D04540", VA = "0x6D05540")]
 	private void ApplyOtherProperties()
 	{
 	}
 
 	[Token(Token = "0x6000622")]
-	[Address(RVA = "0x3305EB0", Offset = "0x33044B0", VA = "0x183305EB0")]
+	[Address(RVA = "0x6D06D70", Offset = "0x6D05D70", VA = "0x6D06D70")]
 	private void UpdatePanelTracking()
 	{
 	}
 
 	[Token(Token = "0x6000623")]
-	[Address(RVA = "0x3305B10", Offset = "0x3304110", VA = "0x183305B10")]
+	[Address(RVA = "0x6D06940", Offset = "0x6D05940", VA = "0x6D06940")]
 	private void UpdatePanelGameObjects()
 	{
 	}
 
 	[Token(Token = "0x6000624")]
-	[Address(RVA = "0x3305EF0", Offset = "0x33044F0", VA = "0x183305EF0")]
+	[Address(RVA = "0x6D06DA0", Offset = "0x6D05DA0", VA = "0x6D06DA0")]
 	public UIToolkitInteroperabilityBridge()
 	{
 	}

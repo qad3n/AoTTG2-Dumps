@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000094")]
+[Token(Token = "0x20000CB")]
 public enum AnisotropicLevel
 {
-	[Token(Token = "0x40002F3")]
+	[Token(Token = "0x4000429")]
 	Off,
-	[Token(Token = "0x40002F4")]
+	[Token(Token = "0x400042A")]
 	Low,
-	[Token(Token = "0x40002F5")]
+	[Token(Token = "0x400042B")]
 	High
 }

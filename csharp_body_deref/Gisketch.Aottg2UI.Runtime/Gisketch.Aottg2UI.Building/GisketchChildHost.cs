@@ -11,35 +11,35 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x20000A8")]
 internal sealed class GisketchChildHost : MonoBehaviour
 {
 	[Token(Token = "0x17000098")]
 	public Transform Parent
 	{
-		[Token(Token = "0x60004E2")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600052F")]
+		[Address(RVA = "0x527B660", Offset = "0x527A660", VA = "0x527B660")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004E3")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6000530")]
+		[Address(RVA = "0x527B670", Offset = "0x527A670", VA = "0x527B670")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+	[Token(Token = "0x6000531")]
+	[Address(RVA = "0x527B680", Offset = "0x527A680", VA = "0x527B680")]
 	public void Setup(Transform parent)
 	{
 	}
 
-	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000532")]
+	[Address(RVA = "0x527B690", Offset = "0x527A690", VA = "0x527B690")]
 	public GisketchChildHost()
 	{
 	}

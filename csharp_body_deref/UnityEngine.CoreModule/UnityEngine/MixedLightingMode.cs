@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000FB")]
+[Token(Token = "0x20000FC")]
 public enum MixedLightingMode
 {
-	[Token(Token = "0x400029D")]
+	[Token(Token = "0x40002A2")]
 	IndirectOnly = 0,
-	[Token(Token = "0x400029E")]
+	[Token(Token = "0x40002A3")]
 	Shadowmask = 2,
-	[Token(Token = "0x400029F")]
+	[Token(Token = "0x40002A4")]
 	Subtractive = 1
 }

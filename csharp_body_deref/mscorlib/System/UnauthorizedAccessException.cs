@@ -11,23 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200014E")]
+[Token(Token = "0x2000127")]
 public class UnauthorizedAccessException : SystemException
 {
-	[Token(Token = "0x6000BD5")]
-	[Address(RVA = "0x1B57B70", Offset = "0x1B56170", VA = "0x181B57B70")]
+	[Token(Token = "0x6000BB2")]
+	[Address(RVA = "0x54DE250", Offset = "0x54DD250", VA = "0x54DE250")]
 	public UnauthorizedAccessException()
 	{
 	}
 
-	[Token(Token = "0x6000BD6")]
-	[Address(RVA = "0x1B57C00", Offset = "0x1B56200", VA = "0x181B57C00")]
+	[Token(Token = "0x6000BB3")]
+	[Address(RVA = "0x54DE300", Offset = "0x54DD300", VA = "0x54DE300")]
 	public UnauthorizedAccessException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000BD7")]
-	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
+	[Token(Token = "0x6000BB4")]
+	[Address(RVA = "0x54DE360", Offset = "0x54DD360", VA = "0x54DE360")]
+	public UnauthorizedAccessException(string message, Exception inner)
+	{
+	}
+
+	[Token(Token = "0x6000BB5")]
+	[Address(RVA = "0x54DE3C0", Offset = "0x54DD3C0", VA = "0x54DE3C0")]
 	protected UnauthorizedAccessException(SerializationInfo info, StreamingContext context)
 	{
 	}

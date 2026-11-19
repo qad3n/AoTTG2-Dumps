@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000104")]
+[Token(Token = "0x20000C5")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class SwitchLevelAttribute : Attribute
 {
-	[Token(Token = "0x4000451")]
+	[Token(Token = "0x4000382")]
 	[FieldOffset(Offset = "0x10")]
 	private Type type;
 
-	[Token(Token = "0x170000EF")]
+	[Token(Token = "0x170000C0")]
 	public Type SwitchLevelType
 	{
-		[Token(Token = "0x600064A")]
-		[Address(RVA = "0x2874140", Offset = "0x2872740", VA = "0x182874140")]
+		[Token(Token = "0x6000494")]
+		[Address(RVA = "0x6200AB0", Offset = "0x61FFAB0", VA = "0x6200AB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x28740A0", Offset = "0x28726A0", VA = "0x1828740A0")]
+	[Token(Token = "0x6000493")]
+	[Address(RVA = "0x6200A80", Offset = "0x61FFA80", VA = "0x6200A80")]
 	public SwitchLevelAttribute(Type switchLevelType)
 	{
 	}

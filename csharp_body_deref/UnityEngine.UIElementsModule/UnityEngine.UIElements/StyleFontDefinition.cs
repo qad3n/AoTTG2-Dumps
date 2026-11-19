@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleFontDefinition
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,13 +29,13 @@ public struct StyleFontDefinition : IStyleValue<FontDefinition>, IEquatable<Styl
 	public FontDefinition value
 	{
 		[Token(Token = "0x600202F")]
-		[Address(RVA = "0x3113B20", Offset = "0x3112120", VA = "0x183113B20", Slot = "4")]
+		[Address(RVA = "0x6B13000", Offset = "0x6B12000", VA = "0x6B13000", Slot = "4")]
 		get
 		{
 			return default(FontDefinition);
 		}
 		[Token(Token = "0x6002030")]
-		[Address(RVA = "0x3113C00", Offset = "0x3112200", VA = "0x183113C00", Slot = "5")]
+		[Address(RVA = "0x6B13020", Offset = "0x6B12020", VA = "0x6B13020", Slot = "5")]
 		set
 		{
 		}
@@ -45,96 +45,96 @@ public struct StyleFontDefinition : IStyleValue<FontDefinition>, IEquatable<Styl
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x6002031")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930", Slot = "6")]
+		[Address(RVA = "0x6B13040", Offset = "0x6B12040", VA = "0x6B13040", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x6002032")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+		[Address(RVA = "0x6B13050", Offset = "0x6B12050", VA = "0x6B13050", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002033")]
-	[Address(RVA = "0x3113A00", Offset = "0x3112000", VA = "0x183113A00")]
+	[Address(RVA = "0x6B13060", Offset = "0x6B12060", VA = "0x6B13060")]
 	public StyleFontDefinition(FontDefinition f)
 	{
 	}
 
 	[Token(Token = "0x6002034")]
-	[Address(RVA = "0x31139C0", Offset = "0x3111FC0", VA = "0x1831139C0")]
+	[Address(RVA = "0x6B130A0", Offset = "0x6B120A0", VA = "0x6B130A0")]
 	public StyleFontDefinition(FontAsset f)
 	{
 	}
 
 	[Token(Token = "0x6002035")]
-	[Address(RVA = "0x3113A60", Offset = "0x3112060", VA = "0x183113A60")]
+	[Address(RVA = "0x6B13100", Offset = "0x6B12100", VA = "0x6B13100")]
 	public StyleFontDefinition(Font f)
 	{
 	}
 
 	[Token(Token = "0x6002036")]
-	[Address(RVA = "0x31139A0", Offset = "0x3111FA0", VA = "0x1831139A0")]
+	[Address(RVA = "0x6B13160", Offset = "0x6B12160", VA = "0x6B13160")]
 	public StyleFontDefinition(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6002037")]
-	[Address(RVA = "0x3113AA0", Offset = "0x31120A0", VA = "0x183113AA0")]
+	[Address(RVA = "0x6B0E5A0", Offset = "0x6B0D5A0", VA = "0x6B0E5A0")]
 	internal StyleFontDefinition(object obj, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6002038")]
-	[Address(RVA = "0x3113A20", Offset = "0x3112020", VA = "0x183113A20")]
+	[Address(RVA = "0x6B130D0", Offset = "0x6B120D0", VA = "0x6B130D0")]
 	internal StyleFontDefinition(FontAsset f, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6002039")]
-	[Address(RVA = "0x3113AE0", Offset = "0x31120E0", VA = "0x183113AE0")]
+	[Address(RVA = "0x6B13130", Offset = "0x6B12130", VA = "0x6B13130")]
 	internal StyleFontDefinition(Font f, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x600203A")]
-	[Address(RVA = "0x3113980", Offset = "0x3111F80", VA = "0x183113980")]
+	[Address(RVA = "0x6B13080", Offset = "0x6B12080", VA = "0x6B13080")]
 	internal StyleFontDefinition(FontDefinition f, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x600203B")]
-	[Address(RVA = "0x3113B40", Offset = "0x3112140", VA = "0x183113B40")]
+	[Address(RVA = "0x6B0E5D0", Offset = "0x6B0D5D0", VA = "0x6B0E5D0")]
 	public static implicit operator StyleFontDefinition(StyleKeyword keyword)
 	{
 		return default(StyleFontDefinition);
 	}
 
 	[Token(Token = "0x600203C")]
-	[Address(RVA = "0x3113BA0", Offset = "0x31121A0", VA = "0x183113BA0")]
+	[Address(RVA = "0x6B13180", Offset = "0x6B12180", VA = "0x6B13180")]
 	public static implicit operator StyleFontDefinition(FontDefinition f)
 	{
 		return default(StyleFontDefinition);
 	}
 
 	[Token(Token = "0x600203D")]
-	[Address(RVA = "0x3113900", Offset = "0x3111F00", VA = "0x183113900", Slot = "8")]
+	[Address(RVA = "0x6B131D0", Offset = "0x6B121D0", VA = "0x6B131D0", Slot = "8")]
 	public bool Equals(StyleFontDefinition other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600203E")]
-	[Address(RVA = "0x3113850", Offset = "0x3111E50", VA = "0x183113850", Slot = "0")]
+	[Address(RVA = "0x6B13200", Offset = "0x6B12200", VA = "0x6B13200", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600203F")]
-	[Address(RVA = "0x3113950", Offset = "0x3111F50", VA = "0x183113950", Slot = "2")]
+	[Address(RVA = "0x6B13270", Offset = "0x6B12270", VA = "0x6B13270", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

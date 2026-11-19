@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgCharacterStyleChoicePreview.cs
@@ -8,14 +8,17 @@
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$Register
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Register (const MethodInfo* method);
-// 0x181dfd320
+// 0x58e2c10
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Register(MethodInfo *method)
 
 {
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar1;
+  char cVar1;
+  uint32_t uVar2;
+  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_StaticFields *pGVar3;
+  System_Action_GisketchChoiceOptionRenderContext__o *pSVar4;
   
-  if (Il2CppMethodInitialized_184344bb6 == '\0') {
+  if (Il2CppMethodInitialized_0754552a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_GisketchChoiceOptionRenderContext);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_RenderEffect);
@@ -27,121 +30,132 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Register(MethodInf
               (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
     il2cpp_codegen_initialize_runtime_metadata(&"profile-character-font-preview");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-character-effect-preview");
-    Il2CppMethodInitialized_184344bb6 = '\x01';
+    Il2CppMethodInitialized_0754552a = '\x01';
+    uVar2 = (TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0)
-  {
+  else {
+    uVar2 = (TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+    pGVar3 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
+    cVar1 = pGVar3->_registered;
   }
-  if (TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->_registered == false) {
-    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0
-       ) {
-      il2cpp_codegen_runtime_class_init
-                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
-    }
-    TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->_registered = true;
-    pUVar1 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Action_GisketchChoiceOptionRenderContext);
-    System_Action_object____ctor
-              (pUVar1,(Il2CppObject *)0x0,
-               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_RenderEffect,
-               (MethodInfo *)0x0);
-    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0)
-    {
-      il2cpp_codegen_runtime_class_init
-                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-    }
-    Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
-              ("profile-character-effect-preview",(System_Action_GisketchChoiceOptionRenderContext__o *)pUVar1,
-               (MethodInfo *)0x0);
-    pUVar1 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Action_GisketchChoiceOptionRenderContext);
-    System_Action_object____ctor
-              (pUVar1,(Il2CppObject *)0x0,
-               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_RenderFont,
-               (MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
-              ("profile-character-font-preview",(System_Action_GisketchChoiceOptionRenderContext__o *)pUVar1,
-               (MethodInfo *)0x0);
+  else {
+    pGVar3 = ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview)->static_fields;
+    cVar1 = pGVar3->_registered;
+  }
+  if (cVar1 != '\0') {
     return;
   }
+  if ((((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview)->_2).
+      cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+    pGVar3 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
+  }
+  pGVar3->_registered = true;
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchChoiceOptionRenderContext);
+  System_Action_object____ctor
+            ((System_Action_object__o *)pSVar4,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_RenderEffect,
+             (MethodInfo_4A81BE0 *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
+  }
+  Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
+            ("profile-character-effect-preview",pSVar4,(MethodInfo *)0x0);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchChoiceOptionRenderContext);
+  System_Action_object____ctor
+            ((System_Action_object__o *)pSVar4,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_RenderFont,
+             (MethodInfo_4A81BE0 *)0x0);
+  Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
+            ("profile-character-font-preview",pSVar4,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$UseEffectRenderer
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__UseEffectRenderer (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o* node, const MethodInfo* method);
-// 0x181dfdb80
+// 0x58e6800
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__UseEffectRenderer
                (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *node,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344bb7 == '\0') {
+  if (Il2CppMethodInitialized_0754552b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"profile-character-effect-preview");
-    Il2CppMethodInitialized_184344bb7 = '\x01';
+    Il2CppMethodInitialized_0754552b = '\x01';
   }
-  if (node != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-    (node->fields).choiceOptionRenderer = "profile-character-effect-preview";
-    Il2CppCodeGenWriteBarrier(&(node->fields).choiceOptionRenderer,"profile-character-effect-preview");
+  if (node == (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
     return;
   }
+  (node->fields).choiceOptionRenderer = "profile-character-effect-preview";
+  Il2CppCodeGenWriteBarrier(&(node->fields).choiceOptionRenderer);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$UseFontRenderer
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__UseFontRenderer (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o* node, const MethodInfo* method);
-// 0x181dfdbe0
+// 0x58e6850
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__UseFontRenderer
                (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *node,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344bb8 == '\0') {
+  if (Il2CppMethodInitialized_0754552c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"profile-character-font-preview");
-    Il2CppMethodInitialized_184344bb8 = '\x01';
+    Il2CppMethodInitialized_0754552c = '\x01';
   }
-  if (node != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-    (node->fields).choiceOptionRenderer = "profile-character-font-preview";
-    Il2CppCodeGenWriteBarrier(&(node->fields).choiceOptionRenderer,"profile-character-font-preview");
+  if (node == (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
     return;
   }
+  (node->fields).choiceOptionRenderer = "profile-character-font-preview";
+  Il2CppCodeGenWriteBarrier(&(node->fields).choiceOptionRenderer);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$RenderEffect
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderEffect (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, const MethodInfo* method);
-// 0x181dfd470
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181dfd7e9: mov r8, qword ptr [rip + 0x22a4b48]  ; "Aottg2"
-// asm:   0x181dfd7f0: xor r9d, r9d
+// 0x58e6df0
+// asm: 11 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x58e6fe2: jmp 0x58e70c3
+// asm:   0x58e7094: lea rcx, [rip + 0x19ed1e5]  ; "Aottg2"
+// asm:   0x58e709b: mov rcx, qword ptr [rcx]
+// asm:   0x58e709e: mov rdi, r14
+// asm:   0x58e70a1: mov esi, r15d
+// asm:   0x58e70a4: mov rdx, rax
+// asm:   0x58e70a7: call 0x58e7ab0  ; Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureEffect()
+// asm:   0x58e70ac: jmp 0x58e6ea6
+// asm:   0x58e70b6: mov rdi, r14
+// asm:   0x58e70b9: call 0x58e7590  ; Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled()
+// asm:   0x58e70be: jmp 0x58e6ea6
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderEffect
                (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *context,MethodInfo *method)
 
 {
   uint uVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  int32_t type;
-  bool bVar5;
+  int32_t effect;
+  bool bVar2;
+  uint in_EAX;
   Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *__this;
-  System_String_array *pSVar6;
-  UnityEngine_Color_array *pUVar7;
-  TMPro_TMP_Text_o *pTVar8;
-  UnityEngine_GameObject_o *__this_00;
-  PatreonEffects_NameEffectController_o *pPVar9;
-  PatreonEffects_NameEffectSettings_o *settings;
-  System_String_o *pSVar10;
-  int32_t local_res8 [2];
+  UnityEngine_Color_array *pUVar3;
+  System_String_array *colors;
+  System_String_o **method_00;
+  MethodInfo *method_01;
+  System_String_o *font;
+  MethodInfo *pMVar4;
+  MethodInfo *in_R8;
+  undefined8 uStack_28;
   
-  if (Il2CppMethodInitialized_184344bb9 == '\0') {
+  uStack_28._0_4_ = in_EAX;
+  if (Il2CppMethodInitialized_0754552d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
@@ -149,21 +163,22 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderEffect
     il2cpp_codegen_initialize_runtime_metadata(&"TwoColorGradient");
     il2cpp_codegen_initialize_runtime_metadata(&"Aottg2");
     il2cpp_codegen_initialize_runtime_metadata(&"Color");
-    Il2CppMethodInitialized_184344bb9 = '\x01';
+    Il2CppMethodInitialized_0754552d = '\x01';
   }
-  local_res8[0] = 0;
+  uStack_28 = (ulong)(uint)uStack_28;
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0)
   {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
   }
-  __this = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview(context,(MethodInfo *)0x0);
+  __this = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview(context,method);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar5 = UnityEngine_Object__op_Equality
+  pMVar4 = (MethodInfo *)0x0;
+  bVar2 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
+  if (bVar2) {
     return;
   }
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0)
@@ -171,207 +186,150 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderEffect
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
   }
-  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface(context,(MethodInfo *)0x0);
-  if (context == (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) goto label_181dfd887;
-  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback
-            (context,(context->fields).Enabled,(MethodInfo *)0x0);
-  if ((context->fields).Enabled == false) {
-label_181dfd86c:
-    if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
-      Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled(__this,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  else {
-    bVar5 = System_String__op_Equality((context->fields).Value,"Color",(MethodInfo *)0x0);
-    pSVar10 = "Aottg2";
-    if (bVar5) {
-      if (__this == (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) goto label_181dfd887;
-      if (Il2CppMethodInitialized_184344bc2 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Color_array);
-        Il2CppMethodInitialized_184344bc2 = '\x01';
+  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface(context,pMVar4);
+  if (context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) {
+    bVar2 = (context->fields).Enabled;
+    pMVar4 = (MethodInfo *)(ulong)bVar2;
+    Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback(context,bVar2,method_01);
+    if ((context->fields).Enabled == false) {
+      if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+        Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled(__this,pMVar4);
+        return;
       }
-      pUVar7 = (UnityEngine_Color_array *)SZArrayNew(TypeInfo_UnityEngine_Color_array,2);
-      if (pUVar7 == (UnityEngine_Color_array *)0x0) goto label_181dfd887;
-      if ((int)pUVar7->max_length == 0) {
-label_181dfd88d:
-        ThrowIndexOutOfRangeException();
-      }
-      pUVar7->m_Items[0].fields.r = 1.0;
-      pUVar7->m_Items[0].fields.g = 1.0;
-      pUVar7->m_Items[0].fields.b = 1.0;
-      pUVar7->m_Items[0].fields.a = 1.0;
-      if ((uint)pUVar7->max_length < 2) goto label_181dfd88d;
-      pUVar7->m_Items[1].fields.r = 1.0;
-      pUVar7->m_Items[1].fields.g = 1.0;
-      pUVar7->m_Items[1].fields.b = 1.0;
-      pUVar7->m_Items[1].fields.a = 1.0;
-      goto label_181dfd7f3;
-    }
-    bVar5 = System_String__op_Equality((context->fields).Value,"TwoColorGradient",(MethodInfo *)0x0);
-    if (bVar5) {
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor ==
-          0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
-      }
-      pSVar6 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->TwoGradient;
     }
     else {
-      bVar5 = System_String__op_Equality((context->fields).Value,"FourColorGradient",(MethodInfo *)0x0);
-      if (!bVar5) {
-        bVar5 = PatreonEffects_NameEffectPresets__TryResolve
-                          ((context->fields).Value,local_res8,(MethodInfo *)0x0);
-        type = local_res8[0];
-        if (bVar5) {
-          pSVar6 = Gisketch_Aottg2UI_Game_AottgCharacterEffectUi__PresetColors
-                             ((context->fields).Value,(MethodInfo *)0x0);
+      bVar2 = System_String__op_Equality((context->fields).Value,"Color",(MethodInfo *)0x0);
+      font = "Aottg2";
+      if (bVar2) {
+        if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+          if (Il2CppMethodInitialized_07545536 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Color_array);
+            Il2CppMethodInitialized_07545536 = '\x01';
+          }
+          pUVar3 = (UnityEngine_Color_array *)SZArrayNew(TypeInfo_UnityEngine_Color_array,2);
+          if (pUVar3 != (UnityEngine_Color_array *)0x0) {
+            uVar1 = (uint)pUVar3->max_length;
+            method_00 = (System_String_o **)(ulong)uVar1;
+            if (uVar1 != 0) {
+              pUVar3->m_Items[0].fields.r = 1.0;
+              pUVar3->m_Items[0].fields.g = 1.0;
+              pUVar3->m_Items[0].fields.b = 1.0;
+              pUVar3->m_Items[0].fields.a = 1.0;
+              if (uVar1 != 1) {
+                pUVar3->m_Items[1].fields.r = 1.0;
+                pUVar3->m_Items[1].fields.g = 1.0;
+                pUVar3->m_Items[1].fields.b = 1.0;
+                pUVar3->m_Items[1].fields.a = 1.0;
+                goto label_058e703f;
+              }
+            }
+            ThrowIndexOutOfRangeException();
+          }
+        }
+      }
+      else {
+        pMVar4 = (MethodInfo *)"TwoColorGradient";
+        bVar2 = System_String__op_Equality((context->fields).Value,"TwoColorGradient",(MethodInfo *)0x0);
+        if (bVar2) {
           if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).
               cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
           }
-          pUVar7 = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
-                             ((System_Collections_Generic_IList_string__o *)pSVar6,(MethodInfo *)0x0);
-          pSVar10 = "Aottg2";
-          if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
-            if (Il2CppMethodInitialized_184344bc4 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController);
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_NameFontCatalog);
-              Il2CppMethodInitialized_184344bc4 = '\x01';
-            }
-            Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ResetPlainVisuals
-                      (__this,pSVar10,(MethodInfo *)0x0);
-            pTVar8 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-            if ((TypeInfo_PatreonEffects_NameFontCatalog->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_NameFontCatalog);
-            }
-            PatreonEffects_NameFontCatalog__Apply(pTVar8,pSVar10,(MethodInfo *)0x0);
-            pTVar8 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-            if ((pTVar8 != (TMPro_TMP_Text_o *)0x0) &&
-               (__this_00 = UnityEngine_Component__get_gameObject
-                                      ((UnityEngine_Component_o *)pTVar8,(MethodInfo *)0x0),
-               __this_00 != (UnityEngine_GameObject_o *)0x0)) {
-              pPVar9 = UnityEngine_GameObject__AddComponent_object_
-                                 (__this_00,
-                                  (MethodInfo_6F4D60 *)
-                                  MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectController);
-              (__this->fields)._effect = pPVar9;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._effect,pPVar9);
-              settings = PatreonEffects_NameEffectPresets__GetPreset(type,(MethodInfo *)0x0);
-              if (pUVar7 != (UnityEngine_Color_array *)0x0) {
-                if (pUVar7->max_length != 0) {
-                  if ((int)pUVar7->max_length == 0) goto label_181dfd88d;
-                  if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_181dfd887;
-                  fVar2 = pUVar7->m_Items[0].fields.g;
-                  fVar3 = pUVar7->m_Items[0].fields.b;
-                  fVar4 = pUVar7->m_Items[0].fields.a;
-                  (settings->fields).gradientA.fields.r = pUVar7->m_Items[0].fields.r;
-                  (settings->fields).gradientA.fields.g = fVar2;
-                  (settings->fields).gradientA.fields.b = fVar3;
-                  (settings->fields).gradientA.fields.a = fVar4;
-                }
-                uVar1 = (uint)pUVar7->max_length;
-                if (1 < (int)uVar1) {
-                  if (uVar1 < 2) goto label_181dfd88d;
-                  if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_181dfd887;
-                  fVar2 = pUVar7->m_Items[1].fields.g;
-                  fVar3 = pUVar7->m_Items[1].fields.b;
-                  fVar4 = pUVar7->m_Items[1].fields.a;
-                  (settings->fields).gradientB.fields.r = pUVar7->m_Items[1].fields.r;
-                  (settings->fields).gradientB.fields.g = fVar2;
-                  (settings->fields).gradientB.fields.b = fVar3;
-                  (settings->fields).gradientB.fields.a = fVar4;
-                }
-                uVar1 = (uint)pUVar7->max_length;
-                if (2 < (int)uVar1) {
-                  if (uVar1 < 3) goto label_181dfd88d;
-                  if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_181dfd887;
-                  fVar2 = pUVar7->m_Items[2].fields.g;
-                  fVar3 = pUVar7->m_Items[2].fields.b;
-                  fVar4 = pUVar7->m_Items[2].fields.a;
-                  (settings->fields).gradientC.fields.r = pUVar7->m_Items[2].fields.r;
-                  (settings->fields).gradientC.fields.g = fVar2;
-                  (settings->fields).gradientC.fields.b = fVar3;
-                  (settings->fields).gradientC.fields.a = fVar4;
-                }
-                uVar1 = (uint)pUVar7->max_length;
-                if (3 < (int)uVar1) {
-                  if (uVar1 < 4) goto label_181dfd88d;
-                  if (settings == (PatreonEffects_NameEffectSettings_o *)0x0) goto label_181dfd887;
-                  fVar2 = pUVar7->m_Items[3].fields.g;
-                  fVar3 = pUVar7->m_Items[3].fields.b;
-                  fVar4 = pUVar7->m_Items[3].fields.a;
-                  (settings->fields).gradientD.fields.r = pUVar7->m_Items[3].fields.r;
-                  (settings->fields).gradientD.fields.g = fVar2;
-                  (settings->fields).gradientD.fields.b = fVar3;
-                  (settings->fields).gradientD.fields.a = fVar4;
-                }
-                pPVar9 = (__this->fields)._effect;
-                if (pPVar9 != (PatreonEffects_NameEffectController_o *)0x0) {
-                  PatreonEffects_NameEffectController__Apply(pPVar9,settings,(MethodInfo *)0x0);
-                  return;
-                }
+          pUVar3 = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
+                             ((System_Collections_Generic_IList_string__o *)
+                              TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields
+                              ->TwoGradient,pMVar4);
+          font = "Aottg2";
+        }
+        else {
+          pMVar4 = (MethodInfo *)"FourColorGradient";
+          bVar2 = System_String__op_Equality((context->fields).Value,"FourColorGradient",(MethodInfo *)0x0);
+          if (!bVar2) {
+            pMVar4 = (MethodInfo *)((long)&uStack_28 + 4);
+            bVar2 = PatreonEffects_NameEffectPresets__TryResolve
+                              ((context->fields).Value,(int32_t *)pMVar4,(MethodInfo *)0x0);
+            if (bVar2) {
+              effect = uStack_28._4_4_;
+              pMVar4 = (MethodInfo *)0x0;
+              colors = Gisketch_Aottg2UI_Game_AottgCharacterEffectUi__PresetColors
+                                 ((context->fields).Value,(MethodInfo *)0x0);
+              if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).
+                  cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+              }
+              pUVar3 = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
+                                 ((System_Collections_Generic_IList_string__o *)colors,pMVar4);
+              if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+                Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureEffect
+                          (__this,effect,pUVar3,"Aottg2",in_R8);
+                return;
               }
             }
+            else if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+              Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled(__this,pMVar4);
+              return;
+            }
+            goto label_058e70c3;
           }
-          goto label_181dfd887;
+          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).
+              cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+          }
+          pUVar3 = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
+                             ((System_Collections_Generic_IList_string__o *)
+                              TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields
+                              ->FourGradient,pMVar4);
+          font = "Aottg2";
         }
-        goto label_181dfd86c;
+        "Aottg2" = font;
+        if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+          method_00 = &"Aottg2";
+label_058e703f:
+          Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureGradient
+                    (__this,pUVar3,font,(MethodInfo *)method_00);
+          return;
+        }
       }
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor ==
-          0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
-      }
-      pSVar6 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->FourGradient;
-    }
-    pUVar7 = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
-                       ((System_Collections_Generic_IList_string__o *)pSVar6,(MethodInfo *)0x0);
-    pSVar10 = "Aottg2";
-    if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
-label_181dfd7f3:
-      Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureGradient
-                (__this,pUVar7,pSVar10,(MethodInfo *)0x0);
-      return;
     }
   }
-label_181dfd887:
+label_058e70c3:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$RenderFont
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderFont (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, const MethodInfo* method);
-// 0x181dfd8a0
+// 0x58e7bf0
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderFont
                (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *context,MethodInfo *method)
 
 {
-  System_String_o *font;
   bool bVar1;
-  UnityEngine_Color32_o value;
   Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *__this;
-  TMPro_TMP_Text_o *pTVar2;
-  UnityEngine_Color_Fields local_18;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *pMVar2;
   
-  if (Il2CppMethodInitialized_184344bba == '\0') {
+  if (Il2CppMethodInitialized_0754552e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344bba = '\x01';
+    Il2CppMethodInitialized_0754552e = '\x01';
   }
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0)
   {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
   }
-  __this = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview(context,(MethodInfo *)0x0);
+  __this = Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview(context,method);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  pMVar2 = (MethodInfo *)0x0;
   bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
@@ -382,49 +340,21 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderFont
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
   }
-  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface(context,(MethodInfo *)0x0);
-  if ((context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) &&
-     (Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback
-                (context,(context->fields).Enabled,(MethodInfo *)0x0),
-     __this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0)) {
+  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface(context,pMVar2);
+  if (context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) {
+    bVar1 = (context->fields).Enabled;
+    pMVar2 = (MethodInfo *)(ulong)bVar1;
+    Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback(context,bVar1,method_00);
     if ((context->fields).Enabled == false) {
-      Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled(__this,(MethodInfo *)0x0);
-      return;
-    }
-    font = (context->fields).Value;
-    if (Il2CppMethodInitialized_184344bc1 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_NameFontCatalog);
-      Il2CppMethodInitialized_184344bc1 = '\x01';
-    }
-    Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ResetPlainVisuals(__this,font,(MethodInfo *)0x0);
-    pTVar2 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-    if ((TypeInfo_PatreonEffects_NameFontCatalog->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_NameFontCatalog);
-    }
-    PatreonEffects_NameFontCatalog__Apply(pTVar2,font,(MethodInfo *)0x0);
-    pTVar2 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-    if (pTVar2 != (TMPro_TMP_Text_o *)0x0) {
-      local_18.r = 1.0;
-      local_18.g = 1.0;
-      local_18.b = 1.0;
-      local_18.a = 1.0;
-      (*(pTVar2->klass->vtable)._23_set_color.methodPtr)
-                (pTVar2,(UnityEngine_Color_o *)&local_18,(pTVar2->klass->vtable)._23_set_color.method);
-      pTVar2 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-      local_18.r = 1.0;
-      local_18.g = 1.0;
-      local_18.b = 1.0;
-      local_18.a = 1.0;
-      value = UnityEngine_Color32__op_Implicit((UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
-      if (pTVar2 != (TMPro_TMP_Text_o *)0x0) {
-        TMPro_TMP_Text__set_faceColor(pTVar2,value,(MethodInfo *)0x0);
-        pTVar2 = Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__get_Text(__this,(MethodInfo *)0x0);
-        if (pTVar2 != (TMPro_TMP_Text_o *)0x0) {
-          (*(pTVar2->klass->vtable)._106_ForceMeshUpdate.methodPtr)
-                    (pTVar2,(System_Type_o *)0x0,(MethodInfo *)0x0);
-          return;
-        }
+      if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+        Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureDisabled(__this,pMVar2);
+        return;
       }
+    }
+    else if (__this != (Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *)0x0) {
+      Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview__ConfigureFont
+                (__this,(context->fields).Value,method_01);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -433,7 +363,9 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__RenderFont
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$Preview
 // il2cpp: Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o* Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, const MethodInfo* method);
-// 0x181dfd200
+// 0x58e70d0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x58e71db: xor ebx, ebx
 
 Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *
 Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview
@@ -445,13 +377,13 @@ Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview
   Gisketch_Aottg2UI_Game_AottgNameStyleChoicePreview_o *pGVar3;
   UnityEngine_GameObject_o *__this;
   
-  if (Il2CppMethodInitialized_184344bbb == '\0') {
+  if (Il2CppMethodInitialized_0754552f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponent_AottgNameStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_AottgNameStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344bbb = '\x01';
+    Il2CppMethodInitialized_0754552f = '\x01';
   }
   if (context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) {
     pTVar1 = (context->fields).Label;
@@ -469,7 +401,7 @@ Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview
         if (pTVar1 != (TMPro_TextMeshProUGUI_o *)0x0) {
           pGVar3 = UnityEngine_Component__GetComponent_object_
                              ((UnityEngine_Component_o *)pTVar1,
-                              (MethodInfo_6651A0 *)
+                              (MethodInfo_34B0830 *)
                               MethodInfo_UnityEngine_Component_GetComponent_AottgNameStyleChoicePreview);
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -485,7 +417,7 @@ Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview
                                  ((UnityEngine_Component_o *)pTVar1,(MethodInfo *)0x0),
              __this != (UnityEngine_GameObject_o *)0x0)) {
             pGVar3 = UnityEngine_GameObject__AddComponent_object_
-                               (__this,(MethodInfo_6F4D60 *)
+                               (__this,(MethodInfo_353B6A0 *)
                                        MethodInfo_UnityEngine_GameObject_AddComponent_AottgNameStyleChoicePreview
                                );
             return pGVar3;
@@ -501,7 +433,7 @@ Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Preview
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$SetFeedback
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, bool ownsColor, const MethodInfo* method);
-// 0x181dfda90
+// 0x58e74a0
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback
                (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *context,bool ownsColor,
@@ -514,68 +446,69 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__SetFeedback
   bool bVar1;
   Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344bbc == '\0') {
+  if (Il2CppMethodInitialized_07545530 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchDropdownItemFeedback);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344bbc = '\x01';
+    Il2CppMethodInitialized_07545530 = '\x01';
   }
   if (context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) {
     x = (UnityEngine_Object_o *)(context->fields).Root;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
+    __this_00 = (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)0x0;
     bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar1) {
       __this = (context->fields).Root;
-      if (__this == (UnityEngine_GameObject_o *)0x0) goto label_181dfdb77;
+      if (__this == (UnityEngine_GameObject_o *)0x0) goto label_058e757e;
       __this_00 = UnityEngine_GameObject__GetComponent_object_
-                            (__this,(MethodInfo_6F5650 *)
+                            (__this,(MethodInfo_353B730 *)
                                     MethodInfo_UnityEngine_GameObject_GetComponent_GisketchDropdownItemFeedback
                             );
-    }
-    else {
-      __this_00 = (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)0x0;
     }
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
     bVar1 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      if (__this_00 == (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)0x0) goto label_181dfdb77;
+    if (!bVar1) {
+      return;
+    }
+    if (__this_00 != (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)0x0) {
       normal = (context->fields).Text;
       Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetLabelText
-                (__this_00,normal,normal,(bool)((context->fields).Enabled & ownsColor),(MethodInfo *)0x0);
+                (__this_00,normal,normal,(bool)(ownsColor & (context->fields).Enabled),(MethodInfo *)0x0);
+      return;
     }
-    return;
   }
-label_181dfdb77:
+label_058e757e:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$ApplyDarkSurface
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, const MethodInfo* method);
-// 0x181dfccd0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181dfcd8e: nop 
+// 0x58e7200
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x58e7367: lea r14, [rip + 0x19e9a0a]  ; "-popover"
+// asm:   0x58e736e: lea r13, [rip + 0x19bd79b]  ; MethodInfo_UnityEngine_Component_GetComponent_Image
+// asm:   0x58e7375: lea rbp, [rip + 0x198e0dc]  ; TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview
+// asm:   0x58e737c: jmp 0x58e738d
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface
                (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *context,MethodInfo *method)
 
 {
+  TMPro_TextMeshProUGUI_o *__this;
   UnityEngine_Object_o *x;
-  UnityEngine_GameObject_o *__this;
-  Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_StaticFields *pGVar1;
-  TMPro_TextMeshProUGUI_o *__this_00;
-  bool bVar2;
+  UnityEngine_GameObject_o *__this_00;
+  bool bVar1;
+  UnityEngine_UI_Image_o *pUVar2;
   UnityEngine_Transform_o *__this_01;
   System_String_o *pSVar3;
-  UnityEngine_UI_Image_o *pUVar4;
-  UnityEngine_Color_Fields local_18;
   
-  if (Il2CppMethodInitialized_184344bbd == '\0') {
+  if (Il2CppMethodInitialized_07545531 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponentInParent_Image);
@@ -583,7 +516,7 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&"-popover");
     il2cpp_codegen_initialize_runtime_metadata(&"-options-scroll");
-    Il2CppMethodInitialized_184344bbd = '\x01';
+    Il2CppMethodInitialized_07545531 = '\x01';
   }
   if (context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) {
     if ((context->fields).ClosedValue == false) {
@@ -591,265 +524,280 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__ApplyDarkSurface
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar2) {
-        __this = (context->fields).Root;
-        if (__this == (UnityEngine_GameObject_o *)0x0) goto label_181dfcf4e;
-        __this_01 = UnityEngine_GameObject__get_transform(__this,(MethodInfo *)0x0);
-      }
-      else {
-        __this_01 = (UnityEngine_Transform_o *)0x0;
+      __this_01 = (UnityEngine_Transform_o *)0x0;
+      bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        __this_00 = (context->fields).Root;
+        if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_058e7497;
+        __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
       }
       while( true ) {
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar2 = UnityEngine_Object__op_Inequality
+        bVar1 = UnityEngine_Object__op_Inequality
                           ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (!bVar2) {
+        if (!bVar1) {
           return;
         }
         if ((__this_01 == (UnityEngine_Transform_o *)0x0) ||
            (pSVar3 = UnityEngine_Object__get_name((UnityEngine_Object_o *)__this_01,(MethodInfo *)0x0),
            pSVar3 == (System_String_o *)0x0)) break;
-        bVar2 = System_String__EndsWith(pSVar3,"-popover",(MethodInfo *)0x0);
-        if (bVar2) {
-label_181dfce19:
-          pUVar4 = UnityEngine_Component__GetComponent_object_
+        bVar1 = System_String__EndsWith(pSVar3,"-popover",(MethodInfo *)0x0);
+        if (bVar1) {
+label_058e740f:
+          pUVar2 = UnityEngine_Component__GetComponent_object_
                              ((UnityEngine_Component_o *)__this_01,
-                              (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+                              (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          bVar2 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if (bVar2) {
+          bVar1 = UnityEngine_Object__op_Inequality
+                            ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (bVar1) {
             if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).
                 cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init
                         ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
             }
-            if (pUVar4 == (UnityEngine_UI_Image_o *)0x0) break;
-            pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
-            local_18.r = (pGVar1->DarkSurface).fields.r;
-            local_18.g = (pGVar1->DarkSurface).fields.g;
-            local_18.b = (pGVar1->DarkSurface).fields.b;
-            local_18.a = (pGVar1->DarkSurface).fields.a;
-            (*(pUVar4->klass->vtable)._23_set_color.methodPtr)
-                      (pUVar4,(UnityEngine_Color_o *)&local_18,(pUVar4->klass->vtable)._23_set_color.method);
+            if (pUVar2 == (UnityEngine_UI_Image_o *)0x0) break;
+            (*(pUVar2->klass->vtable)._23_set_color.methodPtr)
+                      (pUVar2,(UnityEngine_Color_o)
+                              (TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields
+                              ->DarkSurface).fields,(pUVar2->klass->vtable)._23_set_color.method);
           }
         }
         else {
           pSVar3 = UnityEngine_Object__get_name((UnityEngine_Object_o *)__this_01,(MethodInfo *)0x0);
           if (pSVar3 == (System_String_o *)0x0) break;
-          bVar2 = System_String__EndsWith(pSVar3,"-options-scroll",(MethodInfo *)0x0);
-          if (bVar2) goto label_181dfce19;
+          bVar1 = System_String__EndsWith(pSVar3,"-options-scroll",(MethodInfo *)0x0);
+          if (bVar1) goto label_058e740f;
         }
-        __this_01 = UnityEngine_Transform__GetParent(__this_01,(MethodInfo *)0x0);
+        __this_01 = UnityEngine_Transform__get_parent(__this_01,(MethodInfo *)0x0);
       }
     }
     else {
-      __this_00 = (context->fields).Label;
-      if (__this_00 != (TMPro_TextMeshProUGUI_o *)0x0) {
-        pUVar4 = UnityEngine_Component__GetComponentInParent_object__664f20
-                           ((UnityEngine_Component_o *)__this_00,
-                            (MethodInfo_664F20 *)MethodInfo_UnityEngine_Component_GetComponentInParent_Image);
+      __this = (context->fields).Label;
+      if (__this != (TMPro_TextMeshProUGUI_o *)0x0) {
+        pUVar2 = UnityEngine_Component__GetComponentInParent_object__34b0d00
+                           ((UnityEngine_Component_o *)__this,
+                            (MethodInfo_34B0D00 *)MethodInfo_UnityEngine_Component_GetComponentInParent_Image)
+        ;
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar2 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar2) {
-          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).
-              cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
-          }
-          if (pUVar4 == (UnityEngine_UI_Image_o *)0x0) goto label_181dfcf4e;
-          pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
-          local_18.r = (pGVar1->DarkSurface).fields.r;
-          local_18.g = (pGVar1->DarkSurface).fields.g;
-          local_18.b = (pGVar1->DarkSurface).fields.b;
-          local_18.a = (pGVar1->DarkSurface).fields.a;
-          (*(pUVar4->klass->vtable)._23_set_color.methodPtr)
-                    (pUVar4,(UnityEngine_Color_o *)&local_18,(pUVar4->klass->vtable)._23_set_color.method);
+        bVar1 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar1) {
+          return;
         }
-        return;
+        if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor
+            == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+        }
+        if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
+          (*(pUVar2->klass->vtable)._23_set_color.methodPtr)
+                    (pUVar2,(UnityEngine_Color_o)
+                            (TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->
+                            DarkSurface).fields,(pUVar2->klass->vtable)._23_set_color.method);
+          return;
+        }
       }
     }
   }
-label_181dfcf4e:
+label_058e7497:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$Parse
 // il2cpp: UnityEngine_Color_array* Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse (System_Collections_Generic_IList_string__o* colors, const MethodInfo* method);
-// 0x181dfcf60
+// 0x58e7740
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181dfd079: nop dword ptr [rax]
+// asm:   0x58e78bd: nop dword ptr [rax]
 
 UnityEngine_Color_array *
 Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse
           (System_Collections_Generic_IList_string__o *colors,MethodInfo *method)
 
 {
-  ushort uVar1;
+  UnityEngine_Color_o *pUVar1;
   System_Collections_Generic_IList_string__c *pSVar2;
   Il2CppRuntimeInterfaceOffsetPair *pIVar3;
   bool bVar4;
+  uint32_t length;
   int32_t iVar5;
-  void *pvVar6;
+  VirtualInvokeData *pVVar6;
   UnityEngine_Color_array *pUVar7;
-  VirtualInvokeData *pVVar8;
   System_String_o *htmlString;
-  ushort uVar9;
-  uint uVar10;
+  ulong uVar8;
+  long lVar9;
+  ulong uVar10;
   float fVar11;
   float fVar12;
   float fVar13;
   float fVar14;
-  UnityEngine_Color_Fields local_28 [2];
+  UnityEngine_Color_Fields local_48;
   
-  if (Il2CppMethodInitialized_184344bbe == '\0') {
+  if (Il2CppMethodInitialized_07545532 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Color_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_ICollection_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IList_string);
-    Il2CppMethodInitialized_184344bbe = '\x01';
+    Il2CppMethodInitialized_07545532 = '\x01';
   }
-  if (colors != (System_Collections_Generic_IList_string__o *)0x0) {
-    pvVar6 = InterfaceInvoker0_Invoke
-                       (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_ICollection_string,
-                        (Il2CppObject *)colors);
-    pUVar7 = (UnityEngine_Color_array *)SZArrayNew(TypeInfo_UnityEngine_Color_array,(uint32_t)pvVar6);
-    uVar10 = 0;
+  if (colors == (System_Collections_Generic_IList_string__o *)0x0) {
+label_058e7983:
+    ThrowNullReferenceException();
+  }
+  pSVar2 = colors->klass;
+  uVar10 = (ulong)(pSVar2->_2).interface_offsets_count;
+  if (uVar10 != 0) {
+    pIVar3 = (pSVar2->_1).interfaceOffsets;
+    lVar9 = 0;
     do {
-      pSVar2 = colors->klass;
-      uVar9 = 0;
-      uVar1 = (pSVar2->_2).interface_offsets_count;
-      if (uVar1 != 0) {
-        pIVar3 = (pSVar2->_1).interfaceOffsets;
-        do {
-          if (pIVar3[uVar9].interfaceType ==
-              (Il2CppClass *)TypeInfo_System_Collections_Generic_ICollection_string) {
-            pVVar8 = pSVar2->vtable + pIVar3[uVar9].offset;
-            goto label_181dfd046;
-          }
-          uVar9 = uVar9 + 1;
-        } while (uVar9 < uVar1);
+      if (*(System_Collections_Generic_ICollection_string__c **)((long)&pIVar3->interfaceType + lVar9) ==
+          TypeInfo_System_Collections_Generic_ICollection_string) {
+        pVVar6 = pSVar2->vtable + *(int *)((long)&pIVar3->offset + lVar9);
+        goto label_058e77f1;
       }
-      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
-                         ((Il2CppObject *)colors,
-                          (Il2CppClass *)TypeInfo_System_Collections_Generic_ICollection_string,0);
-label_181dfd046:
-      iVar5 = (*pVVar8->methodPtr)((Il2CppObject *)colors,pVVar8->method);
-      if (iVar5 <= (int)uVar10) {
-        return pUVar7;
-      }
-      pSVar2 = colors->klass;
-      uVar1 = (pSVar2->_2).interface_offsets_count;
-      if (uVar1 != 0) {
-        pIVar3 = (pSVar2->_1).interfaceOffsets;
-        uVar9 = 0;
-        do {
-          if (pIVar3[uVar9].interfaceType == (Il2CppClass *)TypeInfo_System_Collections_Generic_IList_string)
-          {
-            pVVar8 = pSVar2->vtable + pIVar3[uVar9].offset;
-            goto label_181dfd0a6;
-          }
-          uVar9 = uVar9 + 1;
-        } while (uVar9 < uVar1);
-      }
-      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
-                         ((Il2CppObject *)colors,
-                          (Il2CppClass *)TypeInfo_System_Collections_Generic_IList_string,0);
-label_181dfd0a6:
-      htmlString = (*pVVar8->methodPtr)((Il2CppObject *)colors,uVar10,pVVar8->method);
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor ==
-          0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
-      }
-      local_28[0].r = 0.0;
-      local_28[0].g = 0.0;
-      local_28[0].b = 0.0;
-      local_28[0].a = 0.0;
-      bVar4 = UnityEngine_ColorUtility__TryParseHtmlString
-                        (htmlString,(UnityEngine_Color_o *)local_28,(MethodInfo *)0x0);
-      if (bVar4) {
-        fVar11 = local_28[0].r;
-        fVar12 = local_28[0].g;
-        fVar13 = local_28[0].b;
-        fVar14 = local_28[0].a;
-      }
-      else {
-        fVar11 = 1.0;
-        fVar12 = 1.0;
-        fVar13 = 1.0;
-        fVar14 = 1.0;
-      }
-      if (pUVar7 == (UnityEngine_Color_array *)0x0) break;
-      if ((uint)pUVar7->max_length <= uVar10) {
-        ThrowIndexOutOfRangeException();
-      }
-      pUVar7->m_Items[(int)uVar10].fields.r = fVar11;
-      pUVar7->m_Items[(int)uVar10].fields.g = fVar12;
-      pUVar7->m_Items[(int)uVar10].fields.b = fVar13;
-      pUVar7->m_Items[(int)uVar10].fields.a = fVar14;
-      uVar10 = uVar10 + 1;
-    } while( true );
+      lVar9 = lVar9 + 0x10;
+    } while (uVar10 * 0x10 != lVar9);
   }
-  ThrowNullReferenceException();
+  pVVar6 = GetInterfaceInvokeDataFromVTableSlowPath
+                     ((Il2CppObject *)colors,
+                      (Il2CppClass *)TypeInfo_System_Collections_Generic_ICollection_string,0);
+label_058e77f1:
+  length = (*pVVar6->methodPtr)((Il2CppObject *)colors,pVVar6->method);
+  pUVar7 = (UnityEngine_Color_array *)SZArrayNew(TypeInfo_UnityEngine_Color_array,length);
+  uVar10 = 0;
+  do {
+    pSVar2 = colors->klass;
+    uVar8 = (ulong)(pSVar2->_2).interface_offsets_count;
+    if (uVar8 != 0) {
+      pIVar3 = (pSVar2->_1).interfaceOffsets;
+      lVar9 = 0;
+      do {
+        if (*(System_Collections_Generic_ICollection_string__c **)((long)&pIVar3->interfaceType + lVar9) ==
+            TypeInfo_System_Collections_Generic_ICollection_string) {
+          pVVar6 = pSVar2->vtable + *(int *)((long)&pIVar3->offset + lVar9);
+          goto label_058e7883;
+        }
+        lVar9 = lVar9 + 0x10;
+      } while (uVar8 * 0x10 != lVar9);
+    }
+    pVVar6 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)colors,
+                        (Il2CppClass *)TypeInfo_System_Collections_Generic_ICollection_string,0);
+label_058e7883:
+    iVar5 = (*pVVar6->methodPtr)((Il2CppObject *)colors,pVVar6->method);
+    if ((long)iVar5 <= (long)uVar10) {
+      return pUVar7;
+    }
+    pSVar2 = colors->klass;
+    uVar8 = (ulong)(pSVar2->_2).interface_offsets_count;
+    if (uVar8 != 0) {
+      pIVar3 = (pSVar2->_1).interfaceOffsets;
+      lVar9 = 0;
+      do {
+        if (*(System_Collections_Generic_IList_string__c **)((long)&pIVar3->interfaceType + lVar9) ==
+            TypeInfo_System_Collections_Generic_IList_string) {
+          pVVar6 = pSVar2->vtable + *(int *)((long)&pIVar3->offset + lVar9);
+          goto label_058e78f3;
+        }
+        lVar9 = lVar9 + 0x10;
+      } while (uVar8 * 0x10 != lVar9);
+    }
+    pVVar6 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)colors,(Il2CppClass *)TypeInfo_System_Collections_Generic_IList_string
+                        ,0);
+label_058e78f3:
+    htmlString = (*pVVar6->methodPtr)((Il2CppObject *)colors,(int32_t)uVar10,pVVar6->method);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->_2).cctor_finished_or_no_cctor == 0
+       ) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
+    }
+    local_48.r = 0.0;
+    local_48.g = 0.0;
+    local_48.b = 0.0;
+    local_48.a = 0.0;
+    bVar4 = UnityEngine_ColorUtility__TryParseHtmlString
+                      (htmlString,(UnityEngine_Color_o *)&local_48,(MethodInfo *)0x0);
+    if (bVar4) {
+      fVar11 = local_48.r;
+      fVar12 = local_48.g;
+      fVar13 = local_48.b;
+      fVar14 = local_48.a;
+    }
+    else {
+      fVar11 = 1.0;
+      fVar12 = 1.0;
+      fVar13 = fVar11;
+      fVar14 = fVar12;
+    }
+    if (pUVar7 == (UnityEngine_Color_array *)0x0) goto label_058e7983;
+    if ((uint)pUVar7->max_length <= uVar10) {
+      ThrowIndexOutOfRangeException();
+    }
+    pUVar1 = pUVar7->m_Items + uVar10;
+    (pUVar1->fields).r = fVar11;
+    (pUVar1->fields).g = fVar12;
+    (pUVar1->fields).b = fVar13;
+    (pUVar1->fields).a = fVar14;
+    uVar10 = uVar10 + 1;
+  } while( true );
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$Parse
 // il2cpp: UnityEngine_Color_o Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse (System_String_o* hex, const MethodInfo* method);
-// 0x181dfd1a0
+// 0x58e7dc0
 
-UnityEngine_Color_o *
-Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse_1dfd1a0
-          (UnityEngine_Color_o *__return_storage_ptr__,System_String_o *hex,MethodInfo *method)
+UnityEngine_Color_o
+Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview__Parse_57e7dc0
+          (System_String_o *hex,MethodInfo *method)
 
 {
-  bool bVar1;
-  UnityEngine_Color_Fields local_18;
+  UnityEngine_Color_Fields UVar1;
+  bool bVar2;
+  UnityEngine_Color_o UVar3;
+  UnityEngine_Color_Fields UStack_18;
   
-  local_18.r = 0.0;
-  local_18.g = 0.0;
-  local_18.b = 0.0;
-  local_18.a = 0.0;
-  bVar1 = UnityEngine_ColorUtility__TryParseHtmlString(hex,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0)
-  ;
-  if (bVar1) {
-    (__return_storage_ptr__->fields).r = local_18.r;
-    (__return_storage_ptr__->fields).g = local_18.g;
-    (__return_storage_ptr__->fields).b = local_18.b;
-    (__return_storage_ptr__->fields).a = local_18.a;
-    return __return_storage_ptr__;
+  UStack_18.r = 0.0;
+  UStack_18.g = 0.0;
+  UStack_18.b = 0.0;
+  UStack_18.a = 0.0;
+  bVar2 = UnityEngine_ColorUtility__TryParseHtmlString
+                    (hex,(UnityEngine_Color_o *)&UStack_18,(MethodInfo *)0x0);
+  if (bVar2) {
+    UVar1.b = UStack_18.b;
+    UVar1.a = UStack_18.a;
+    UVar1.r = UStack_18.r;
+    UVar1.g = UStack_18.g;
+    return (UnityEngine_Color_o)UVar1;
   }
-  (__return_storage_ptr__->fields).r = 1.0;
-  (__return_storage_ptr__->fields).g = 1.0;
-  (__return_storage_ptr__->fields).b = 1.0;
-  (__return_storage_ptr__->fields).a = 1.0;
-  return __return_storage_ptr__;
+  UVar3.fields.b = 1.0;
+  UVar3.fields.a = 1.0;
+  UVar3.fields.r = 1.0;
+  UVar3.fields.g = 1.0;
+  return (UnityEngine_Color_o)UVar3.fields;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterStyleChoicePreview$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview___cctor (const MethodInfo* method);
-// 0x181dfdc40
+// 0x58e7e00
 
 void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview___cctor(MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview_StaticFields *pGVar1;
-  System_String_o *pSVar2;
-  System_String_array *pSVar3;
+  System_String_array *pSVar2;
   
-  if (Il2CppMethodInitialized_184344bbf == '\0') {
+  if (Il2CppMethodInitialized_07545533 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
@@ -857,61 +805,53 @@ void Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview___cctor(MethodInfo 
     il2cpp_codegen_initialize_runtime_metadata(&"#8CEBFFFF");
     il2cpp_codegen_initialize_runtime_metadata(&"#A8F5D6FF");
     il2cpp_codegen_initialize_runtime_metadata(&"#97F0E8FF");
-    Il2CppMethodInitialized_184344bbf = '\x01';
+    Il2CppMethodInitialized_07545533 = '\x01';
   }
-  pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
-  pSVar2 = "#B7F8C8FF";
-  if (pSVar3 != (System_String_array *)0x0) {
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = "#B7F8C8FF";
-      Il2CppCodeGenWriteBarrier(pSVar3->m_Items,pSVar2);
-      pSVar2 = "#8CEBFFFF";
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = "#8CEBFFFF";
-        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 1,pSVar2);
-        TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->TwoGradient = pSVar3;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->
-                    TwoGradient,pSVar3);
-        pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
-        pSVar2 = "#B7F8C8FF";
-        if (pSVar3 == (System_String_array *)0x0) goto label_181dfde0b;
-        if ((int)pSVar3->max_length != 0) {
-          pSVar3->m_Items[0] = "#B7F8C8FF";
-          Il2CppCodeGenWriteBarrier(pSVar3->m_Items,pSVar2);
-          pSVar2 = "#A8F5D6FF";
-          if (1 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[1] = "#A8F5D6FF";
-            Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 1,pSVar2);
-            pSVar2 = "#97F0E8FF";
-            if (2 < (uint)pSVar3->max_length) {
-              pSVar3->m_Items[2] = "#97F0E8FF";
-              Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 2,pSVar2);
-              pSVar2 = "#8CEBFFFF";
-              if (3 < (uint)pSVar3->max_length) {
-                pSVar3->m_Items[3] = "#8CEBFFFF";
-                Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 3,pSVar2);
-                TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->FourGradient
-                     = pSVar3;
-                Il2CppCodeGenWriteBarrier
-                          (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->
-                            FourGradient,pSVar3);
-                pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
-                (pGVar1->DarkSurface).fields.r = 0.14;
-                (pGVar1->DarkSurface).fields.g = 0.14;
-                (pGVar1->DarkSurface).fields.b = 0.14;
-                (pGVar1->DarkSurface).fields.a = 1.0;
-                return;
-              }
+  pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+  if (pSVar2 == (System_String_array *)0x0) {
+label_058e7fc1:
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar2->max_length != 0) {
+    pSVar2->m_Items[0] = "#B7F8C8FF";
+    Il2CppCodeGenWriteBarrier(pSVar2->m_Items);
+    if ((pSVar2->max_length & 0xfffffffe) != 0) {
+      pSVar2->m_Items[1] = "#8CEBFFFF";
+      Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 1);
+      TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->TwoGradient = pSVar2;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields->TwoGradient
+                );
+      pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+      if (pSVar2 == (System_String_array *)0x0) goto label_058e7fc1;
+      if ((int)pSVar2->max_length != 0) {
+        pSVar2->m_Items[0] = "#B7F8C8FF";
+        Il2CppCodeGenWriteBarrier(pSVar2->m_Items);
+        if ((pSVar2->max_length & 0xfffffffe) != 0) {
+          pSVar2->m_Items[1] = "#A8F5D6FF";
+          Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 1);
+          if (2 < (uint)pSVar2->max_length) {
+            pSVar2->m_Items[2] = "#97F0E8FF";
+            Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 2);
+            if ((pSVar2->max_length & 0xfffffffc) != 0) {
+              pSVar2->m_Items[3] = "#8CEBFFFF";
+              Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 3);
+              pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
+              pGVar1->FourGradient = pSVar2;
+              Il2CppCodeGenWriteBarrier(&pGVar1->FourGradient);
+              pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterStyleChoicePreview->static_fields;
+              (pGVar1->DarkSurface).fields.r = 0.14;
+              (pGVar1->DarkSurface).fields.g = 0.14;
+              (pGVar1->DarkSurface).fields.b = 0.14;
+              (pGVar1->DarkSurface).fields.a = 1.0;
+              return;
             }
           }
         }
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-label_181dfde0b:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 

@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200028F")]
+[Token(Token = "0x2000290")]
 internal class ReaderWriterCount
 {
-	[Token(Token = "0x40004C3")]
+	[Token(Token = "0x40004CC")]
 	[FieldOffset(Offset = "0x10")]
 	public long lockID;
 
-	[Token(Token = "0x40004C4")]
+	[Token(Token = "0x40004CD")]
 	[FieldOffset(Offset = "0x18")]
 	public int readercount;
 
-	[Token(Token = "0x40004C5")]
+	[Token(Token = "0x40004CE")]
 	[FieldOffset(Offset = "0x1C")]
 	public int writercount;
 
-	[Token(Token = "0x40004C6")]
+	[Token(Token = "0x40004CF")]
 	[FieldOffset(Offset = "0x20")]
 	public int upgradecount;
 
-	[Token(Token = "0x40004C7")]
+	[Token(Token = "0x40004D0")]
 	[FieldOffset(Offset = "0x28")]
 	public ReaderWriterCount next;
 
-	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000D28")]
+	[Address(RVA = "0x5E2B9C0", Offset = "0x5E2A9C0", VA = "0x5E2B9C0")]
 	public ReaderWriterCount()
 	{
 	}

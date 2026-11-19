@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeSceneData
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,13 +35,13 @@ public class ProbeVolumeSceneData
 	internal SerializedDictionary<string, bool> obsoleteHasProbeVolumes;
 
 	[Token(Token = "0x6000ABA")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x650FEF0", Offset = "0x650EEF0", VA = "0x650FEF0")]
 	public ProbeVolumeSceneData(Object parentAsset)
 	{
 	}
 
 	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+	[Address(RVA = "0x650FF20", Offset = "0x650EF20", VA = "0x650FF20")]
 	[Obsolete("#from(2023.3)")]
 	public void SetParentObject(Object parent)
 	{

@@ -70,32 +70,32 @@ internal class AesTransform : Mono.Security.Cryptography.SymmetricTransform
 	private static readonly uint[] iT3;
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x2405F80", Offset = "0x2404580", VA = "0x182405F80")]
+	[Address(RVA = "0x5DA1E00", Offset = "0x5DA0E00", VA = "0x5DA1E00")]
 	public AesTransform(Aes algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x2402EC0", Offset = "0x24014C0", VA = "0x182402EC0", Slot = "17")]
+	[Address(RVA = "0x5DA2970", Offset = "0x5DA1970", VA = "0x5DA2970", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2405A40", Offset = "0x2404040", VA = "0x182405A40")]
+	[Address(RVA = "0x5DA2870", Offset = "0x5DA1870", VA = "0x5DA2870")]
 	private uint SubByte(uint a)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2402EF0", Offset = "0x24014F0", VA = "0x182402EF0")]
+	[Address(RVA = "0x5DA2990", Offset = "0x5DA1990", VA = "0x5DA2990")]
 	private void Encrypt128(byte[] indata, byte[] outdata, uint[] ekey)
 	{
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x24003F0", Offset = "0x23FE9F0", VA = "0x1824003F0")]
+	[Address(RVA = "0x5DA4D70", Offset = "0x5DA3D70", VA = "0x5DA4D70")]
 	private void Decrypt128(byte[] indata, byte[] outdata, uint[] ekey)
 	{
 	}

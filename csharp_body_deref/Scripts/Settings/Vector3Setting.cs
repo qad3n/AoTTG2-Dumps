@@ -11,30 +11,30 @@ using UnityEngine;
 
 namespace Settings;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x200011F")]
 internal class Vector3Setting : TypedSetting<Vector3>
 {
-	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x1F2C1D0", Offset = "0x1F2A7D0", VA = "0x181F2C1D0")]
+	[Token(Token = "0x6000619")]
+	[Address(RVA = "0x5B7D080", Offset = "0x5B7C080", VA = "0x5B7D080")]
 	public Vector3Setting()
 	{
 	}
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x1F2C120", Offset = "0x1F2A720", VA = "0x181F2C120")]
+	[Token(Token = "0x600061A")]
+	[Address(RVA = "0x5B7D0C0", Offset = "0x5B7C0C0", VA = "0x5B7D0C0")]
 	public Vector3Setting(Vector3 defaultValue)
 	{
 	}
 
-	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x1F2BFE0", Offset = "0x1F2A5E0", VA = "0x181F2BFE0", Slot = "5")]
+	[Token(Token = "0x600061B")]
+	[Address(RVA = "0x5B7D150", Offset = "0x5B7C150", VA = "0x5B7D150", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x1F2BEA0", Offset = "0x1F2A4A0", VA = "0x181F2BEA0", Slot = "6")]
+	[Token(Token = "0x600061C")]
+	[Address(RVA = "0x5B7D2A0", Offset = "0x5B7C2A0", VA = "0x5B7D2A0", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}

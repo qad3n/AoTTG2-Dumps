@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ZBinningJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -70,27 +70,27 @@ internal struct ZBinningJob : IJobFor
 	public bool isOrthographic;
 
 	[Token(Token = "0x600099F")]
-	[Address(RVA = "0x2CB1560", Offset = "0x2CAFB60", VA = "0x182CB1560")]
+	[Address(RVA = "0x669CF00", Offset = "0x669BF00", VA = "0x669CF00")]
 	private static uint EncodeHeader(uint min, uint max)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60009A0")]
-	[Address(RVA = "0x2CB1500", Offset = "0x2CAFB00", VA = "0x182CB1500")]
+	[Address(RVA = "0x669CF10", Offset = "0x669BF10", VA = "0x669CF10")]
 	private static (uint, uint) DecodeHeader(uint zBin)
 	{
 		return default((uint, uint));
 	}
 
 	[Token(Token = "0x60009A1")]
-	[Address(RVA = "0x2CB1570", Offset = "0x2CAFB70", VA = "0x182CB1570", Slot = "4")]
+	[Address(RVA = "0x669CF70", Offset = "0x669BF70", VA = "0x669CF70", Slot = "4")]
 	public void Execute(int jobIndex)
 	{
 	}
 
 	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x2CB1680", Offset = "0x2CAFC80", VA = "0x182CB1680")]
+	[Address(RVA = "0x669D060", Offset = "0x669C060", VA = "0x669D060")]
 	private void FillZBins(int binStart, int binEnd, int itemStart, int itemEnd, int headerIndex, int itemOffset, int binOffset)
 	{
 	}

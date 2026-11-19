@@ -45,7 +45,7 @@ public abstract class XmlMapping
 	public string ElementName
 	{
 		[Token(Token = "0x6000D58")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x61179B0", Offset = "0x61169B0", VA = "0x61179B0")]
 		get
 		{
 			return null;
@@ -56,7 +56,7 @@ public abstract class XmlMapping
 	public string Namespace
 	{
 		[Token(Token = "0x6000D59")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x61179C0", Offset = "0x61169C0", VA = "0x61179C0")]
 		get
 		{
 			return null;
@@ -67,13 +67,13 @@ public abstract class XmlMapping
 	internal ObjectMap ObjectMap
 	{
 		[Token(Token = "0x6000D5B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x61179E0", Offset = "0x61169E0", VA = "0x61179E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D5C")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x61179F0", Offset = "0x61169F0", VA = "0x61179F0")]
 		set
 		{
 		}
@@ -83,13 +83,13 @@ public abstract class XmlMapping
 	internal ArrayList RelatedMaps
 	{
 		[Token(Token = "0x6000D5D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6117A00", Offset = "0x6116A00", VA = "0x6117A00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D5E")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6117A10", Offset = "0x6116A10", VA = "0x6117A10")]
 		set
 		{
 		}
@@ -99,13 +99,13 @@ public abstract class XmlMapping
 	internal SerializationFormat Format
 	{
 		[Token(Token = "0x6000D5F")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6117A20", Offset = "0x6116A20", VA = "0x6117A20")]
 		get
 		{
 			return default(SerializationFormat);
 		}
 		[Token(Token = "0x6000D60")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x6117A30", Offset = "0x6116A30", VA = "0x6117A30")]
 		set
 		{
 		}
@@ -115,7 +115,7 @@ public abstract class XmlMapping
 	internal SerializationSource Source
 	{
 		[Token(Token = "0x6000D61")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6117A40", Offset = "0x6116A40", VA = "0x6117A40")]
 		get
 		{
 			return null;
@@ -123,13 +123,13 @@ public abstract class XmlMapping
 	}
 
 	[Token(Token = "0x6000D57")]
-	[Address(RVA = "0x275EBA0", Offset = "0x275D1A0", VA = "0x18275EBA0")]
+	[Address(RVA = "0x6117970", Offset = "0x6116970", VA = "0x6117970")]
 	internal XmlMapping(string elementName, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000D5A")]
-	[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+	[Address(RVA = "0x61179D0", Offset = "0x61169D0", VA = "0x61179D0")]
 	public void SetKey(string key)
 	{
 	}

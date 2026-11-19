@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Security.Principal;
 
-[Token(Token = "0x200035B")]
+[Token(Token = "0x2000334")]
 public enum TokenImpersonationLevel
 {
-	[Token(Token = "0x4000E46")]
+	[Token(Token = "0x4000DA6")]
 	None,
-	[Token(Token = "0x4000E47")]
+	[Token(Token = "0x4000DA7")]
 	Anonymous,
-	[Token(Token = "0x4000E48")]
+	[Token(Token = "0x4000DA8")]
 	Identification,
-	[Token(Token = "0x4000E49")]
+	[Token(Token = "0x4000DA9")]
 	Impersonation,
-	[Token(Token = "0x4000E4A")]
+	[Token(Token = "0x4000DAA")]
 	Delegation
 }

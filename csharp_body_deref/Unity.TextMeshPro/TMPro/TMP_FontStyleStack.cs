@@ -53,20 +53,20 @@ public struct TMP_FontStyleStack
 	public byte smallcaps;
 
 	[Token(Token = "0x60005E0")]
-	[Address(RVA = "0x2D61710", Offset = "0x2D5FD10", VA = "0x182D61710")]
+	[Address(RVA = "0x67589F0", Offset = "0x67579F0", VA = "0x67589F0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60005E1")]
-	[Address(RVA = "0x2D61660", Offset = "0x2D5FC60", VA = "0x182D61660")]
+	[Address(RVA = "0x6758A00", Offset = "0x6757A00", VA = "0x6758A00")]
 	public byte Add(FontStyles style)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x2D61720", Offset = "0x2D5FD20", VA = "0x182D61720")]
+	[Address(RVA = "0x6758AA0", Offset = "0x6757AA0", VA = "0x6758AA0")]
 	public byte Remove(FontStyles style)
 	{
 		return default(byte);

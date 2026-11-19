@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000492")]
+[Token(Token = "0x200046B")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false, AllowMultiple = false)]
 public sealed class AsyncMethodBuilderAttribute : Attribute
 {
-	[Token(Token = "0x40012F2")]
+	[Token(Token = "0x4001252")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly Type _003CBuilderType_003Ek__BackingField;
 
-	[Token(Token = "0x60022CE")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x600229B")]
+	[Address(RVA = "0x53C7FA0", Offset = "0x53C6FA0", VA = "0x53C7FA0")]
 	public AsyncMethodBuilderAttribute(Type builderType)
 	{
 	}

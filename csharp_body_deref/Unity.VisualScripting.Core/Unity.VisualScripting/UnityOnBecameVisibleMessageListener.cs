@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnBecameVisibleMessageListener : MessageListener
 {
 	[Token(Token = "0x600042F")]
-	[Address(RVA = "0x2DBD5C0", Offset = "0x2DBBBC0", VA = "0x182DBD5C0")]
+	[Address(RVA = "0x67A4550", Offset = "0x67A3550", VA = "0x67A4550")]
 	private void OnBecameVisible()
 	{
 	}
 
 	[Token(Token = "0x6000430")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A45C0", Offset = "0x67A35C0", VA = "0x67A45C0")]
 	public UnityOnBecameVisibleMessageListener()
 	{
 	}

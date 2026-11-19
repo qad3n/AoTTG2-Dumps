@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyFlattenedNode
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -57,7 +57,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	public unsafe static ref readonly HierarchyFlattenedNode Null
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x2F7CE30", Offset = "0x2F7B430", VA = "0x182F7CE30")]
+		[Address(RVA = "0x6973FC0", Offset = "0x6972FC0", VA = "0x6973FC0")]
 		get
 		{
 			return ref *(HierarchyFlattenedNode*)null;
@@ -68,7 +68,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	public HierarchyNode Node
 	{
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6973FF0", Offset = "0x6972FF0", VA = "0x6973FF0")]
 		get
 		{
 			return default(HierarchyNode);
@@ -79,7 +79,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	public int NextSiblingOffset
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6974000", Offset = "0x6973000", VA = "0x6974000")]
 		get
 		{
 			return default(int);
@@ -90,7 +90,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	public int Depth
 	{
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6974010", Offset = "0x6973010", VA = "0x6974010")]
 		get
 		{
 			return default(int);
@@ -98,13 +98,13 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x2F7CDB0", Offset = "0x2F7B3B0", VA = "0x182F7CDB0")]
+	[Address(RVA = "0x6974020", Offset = "0x6973020", VA = "0x6974020")]
 	public HierarchyFlattenedNode()
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x2F7CE70", Offset = "0x2F7B470", VA = "0x182F7CE70")]
+	[Address(RVA = "0x69740D0", Offset = "0x69730D0", VA = "0x69740D0")]
 	[ExcludeFromDocs]
 	public static bool operator ==(in HierarchyFlattenedNode lhs, in HierarchyFlattenedNode rhs)
 	{
@@ -112,7 +112,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2F7CB50", Offset = "0x2F7B150", VA = "0x182F7CB50", Slot = "4")]
+	[Address(RVA = "0x69740E0", Offset = "0x69730E0", VA = "0x69740E0", Slot = "4")]
 	[ExcludeFromDocs]
 	public bool Equals(HierarchyFlattenedNode other)
 	{
@@ -120,7 +120,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x2F7CC90", Offset = "0x2F7B290", VA = "0x182F7CC90", Slot = "3")]
+	[Address(RVA = "0x69740F0", Offset = "0x69730F0", VA = "0x69740F0", Slot = "3")]
 	[ExcludeFromDocs]
 	public override string ToString()
 	{
@@ -128,7 +128,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x2F7CB70", Offset = "0x2F7B170", VA = "0x182F7CB70", Slot = "0")]
+	[Address(RVA = "0x69741F0", Offset = "0x69731F0", VA = "0x69741F0", Slot = "0")]
 	[ExcludeFromDocs]
 	public override bool Equals(object obj)
 	{
@@ -136,7 +136,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x2F7CC20", Offset = "0x2F7B220", VA = "0x182F7CC20", Slot = "2")]
+	[Address(RVA = "0x6974250", Offset = "0x6973250", VA = "0x6974250", Slot = "2")]
 	[ExcludeFromDocs]
 	public override int GetHashCode()
 	{
@@ -145,7 +145,7 @@ public readonly struct HierarchyFlattenedNode : IEquatable<HierarchyFlattenedNod
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Address(RVA = "0x6974320", Offset = "0x6973320", VA = "0x6974320")]
 	internal unsafe static ref HierarchyNode GetNodeByRef(in HierarchyFlattenedNode hierarchyFlattenedNode)
 	{
 		return ref *(HierarchyNode*)null;

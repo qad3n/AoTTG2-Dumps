@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ParallelSortExtensions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -49,7 +49,7 @@ internal static class ParallelSortExtensions
 		public NativeArray<int> buckets;
 
 		[Token(Token = "0x60003CF")]
-		[Address(RVA = "0x2BF9A30", Offset = "0x2BF8030", VA = "0x182BF9A30", Slot = "4")]
+		[Address(RVA = "0x65F2440", Offset = "0x65F1440", VA = "0x65F2440", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -101,21 +101,21 @@ internal static class ParallelSortExtensions
 		public NativeArray<int> indices;
 
 		[Token(Token = "0x60003D0")]
-		[Address(RVA = "0x2BF9840", Offset = "0x2BF7E40", VA = "0x182BF9840")]
+		[Address(RVA = "0x65F24E0", Offset = "0x65F14E0", VA = "0x65F24E0")]
 		private static int AtomicIncrement(NativeArray<int> counter)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60003D1")]
-		[Address(RVA = "0x2BF99C0", Offset = "0x2BF7FC0", VA = "0x182BF99C0")]
+		[Address(RVA = "0x65F2540", Offset = "0x65F1540", VA = "0x65F2540")]
 		private int JobIndexPrefixSum(int sum, int i)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60003D2")]
-		[Address(RVA = "0x2BF98A0", Offset = "0x2BF7EA0", VA = "0x182BF98A0", Slot = "4")]
+		[Address(RVA = "0x65F2590", Offset = "0x65F1590", VA = "0x65F2590", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -143,7 +143,7 @@ internal static class ParallelSortExtensions
 		public NativeArray<int> indices;
 
 		[Token(Token = "0x60003D3")]
-		[Address(RVA = "0x2BF9B30", Offset = "0x2BF8130", VA = "0x182BF9B30", Slot = "4")]
+		[Address(RVA = "0x65F2710", Offset = "0x65F1710", VA = "0x65F2710", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -183,7 +183,7 @@ internal static class ParallelSortExtensions
 		public NativeArray<int> arraySorted;
 
 		[Token(Token = "0x60003D4")]
-		[Address(RVA = "0x2BF9AA0", Offset = "0x2BF80A0", VA = "0x182BF9AA0", Slot = "4")]
+		[Address(RVA = "0x65F28A0", Offset = "0x65F18A0", VA = "0x65F28A0", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -196,7 +196,7 @@ internal static class ParallelSortExtensions
 	private const int kMinRadixSortBatchSize = 256;
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x2BF88B0", Offset = "0x2BF6EB0", VA = "0x182BF88B0")]
+	[Address(RVA = "0x65F1DE0", Offset = "0x65F0DE0", VA = "0x65F1DE0")]
 	internal static JobHandle ParallelSort(this NativeArray<int> array)
 	{
 		return default(JobHandle);

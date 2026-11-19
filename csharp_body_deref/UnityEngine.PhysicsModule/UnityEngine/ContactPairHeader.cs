@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.ContactPairHeader
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,7 +55,7 @@ public readonly struct ContactPairHeader
 	public Component body
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x2FDE6A0", Offset = "0x2FDCCA0", VA = "0x182FDE6A0")]
+		[Address(RVA = "0x69D6640", Offset = "0x69D5640", VA = "0x69D6640")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ public readonly struct ContactPairHeader
 	public Component otherBody
 	{
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x2FDE710", Offset = "0x2FDCD10", VA = "0x182FDE710")]
+		[Address(RVA = "0x69D6550", Offset = "0x69D5550", VA = "0x69D6550")]
 		get
 		{
 			return null;
@@ -77,7 +77,7 @@ public readonly struct ContactPairHeader
 	public Vector3 bodyLinearVelocity
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x111AD10", Offset = "0x1119310", VA = "0x18111AD10")]
+		[Address(RVA = "0x69E0250", Offset = "0x69DF250", VA = "0x69E0250")]
 		get
 		{
 			return default(Vector3);
@@ -88,7 +88,7 @@ public readonly struct ContactPairHeader
 	public Vector3 otherBodyLinearVelocity
 	{
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x2AC3A10", Offset = "0x2AC2010", VA = "0x182AC3A10")]
+		[Address(RVA = "0x69E0260", Offset = "0x69DF260", VA = "0x69E0260")]
 		get
 		{
 			return default(Vector3);
@@ -99,7 +99,7 @@ public readonly struct ContactPairHeader
 	internal bool hasRemovedBody
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x2FDE6F0", Offset = "0x2FDCCF0", VA = "0x182FDE6F0")]
+		[Address(RVA = "0x69DFB20", Offset = "0x69DEB20", VA = "0x69DFB20")]
 		get
 		{
 			return default(bool);
@@ -107,14 +107,14 @@ public readonly struct ContactPairHeader
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2FDE690", Offset = "0x2FDCC90", VA = "0x182FDE690")]
+	[Address(RVA = "0x69DFB30", Offset = "0x69DEB30", VA = "0x69DFB30")]
 	public unsafe ref ContactPair GetContactPair(int index)
 	{
 		return ref *(ContactPair*)null;
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x2FDE610", Offset = "0x2FDCC10", VA = "0x182FDE610")]
+	[Address(RVA = "0x69E0270", Offset = "0x69DF270", VA = "0x69E0270")]
 	internal unsafe ContactPair* GetContactPair_Internal(int index)
 	{
 		//IL_0002: Expected I, but got O

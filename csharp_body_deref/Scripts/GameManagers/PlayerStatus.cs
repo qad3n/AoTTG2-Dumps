@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000340")]
+[Token(Token = "0x20003A2")]
 internal class PlayerStatus
 {
-	[Token(Token = "0x40010DA")]
+	[Token(Token = "0x400128A")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Alive;
 
-	[Token(Token = "0x40010DB")]
+	[Token(Token = "0x400128B")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Dead;
 
-	[Token(Token = "0x40010DC")]
+	[Token(Token = "0x400128C")]
 	[FieldOffset(Offset = "0x10")]
 	public static string Spectating;
 
-	[Token(Token = "0x60014CE")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600174E")]
+	[Address(RVA = "0x5857E00", Offset = "0x5856E00", VA = "0x5857E00")]
 	public PlayerStatus()
 	{
 	}

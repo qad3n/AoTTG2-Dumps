@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.MemoryProfiler.MetadataInjector
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,14 +26,14 @@ internal static class MetadataInjector
 	public static byte DefaultCollectorInjected;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2AB8EC0", Offset = "0x2AB74C0", VA = "0x182AB8EC0")]
+	[Address(RVA = "0x64A4230", Offset = "0x64A3230", VA = "0x64A4230")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
 	private static void PlayerInitMetadata()
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2AB8D10", Offset = "0x2AB7310", VA = "0x182AB8D10")]
+	[Address(RVA = "0x64A43F0", Offset = "0x64A33F0", VA = "0x64A43F0")]
 	private static void InitializeMetadataCollection()
 	{
 	}

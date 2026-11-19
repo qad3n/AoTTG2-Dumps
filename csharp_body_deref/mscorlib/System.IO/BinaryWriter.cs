@@ -13,193 +13,204 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x200069A")]
+[Token(Token = "0x2000674")]
 [ComVisible(true)]
 public class BinaryWriter : IDisposable
 {
-	[Token(Token = "0x4001AA5")]
+	[Token(Token = "0x4001A0B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly BinaryWriter Null;
 
-	[Token(Token = "0x4001AA6")]
+	[Token(Token = "0x4001A0C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	protected Stream OutStream;
 
-	[Token(Token = "0x4001AA7")]
+	[Token(Token = "0x4001A0D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private byte[] _buffer;
 
-	[Token(Token = "0x4001AA8")]
+	[Token(Token = "0x4001A0E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Encoding _encoding;
 
-	[Token(Token = "0x4001AA9")]
+	[Token(Token = "0x4001A0F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private Encoder _encoder;
 
-	[Token(Token = "0x4001AAA")]
+	[Token(Token = "0x4001A10")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	[OptionalField]
 	private bool _leaveOpen;
 
-	[Token(Token = "0x4001AAB")]
+	[Token(Token = "0x4001A11")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private byte[] _largeByteBuffer;
 
-	[Token(Token = "0x4001AAC")]
+	[Token(Token = "0x4001A12")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private int _maxChars;
 
-	[Token(Token = "0x60032ED")]
-	[Address(RVA = "0x1AE5970", Offset = "0x1AE3F70", VA = "0x181AE5970")]
+	[Token(Token = "0x17000831")]
+	public virtual Stream BaseStream
+	{
+		[Token(Token = "0x60032C1")]
+		[Address(RVA = "0x5483870", Offset = "0x5482870", VA = "0x5483870", Slot = "7")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x60032BA")]
+	[Address(RVA = "0x54834A0", Offset = "0x54824A0", VA = "0x54834A0")]
 	protected BinaryWriter()
 	{
 	}
 
-	[Token(Token = "0x60032EE")]
-	[Address(RVA = "0x1AE5C50", Offset = "0x1AE4250", VA = "0x181AE5C50")]
+	[Token(Token = "0x60032BB")]
+	[Address(RVA = "0x54835B0", Offset = "0x54825B0", VA = "0x54835B0")]
 	public BinaryWriter(Stream output)
 	{
 	}
 
-	[Token(Token = "0x60032EF")]
-	[Address(RVA = "0x1AE5950", Offset = "0x1AE3F50", VA = "0x181AE5950")]
+	[Token(Token = "0x60032BC")]
+	[Address(RVA = "0x54837C0", Offset = "0x54827C0", VA = "0x54837C0")]
 	public BinaryWriter(Stream output, Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x60032F0")]
-	[Address(RVA = "0x1AE5A80", Offset = "0x1AE4080", VA = "0x181AE5A80")]
+	[Token(Token = "0x60032BD")]
+	[Address(RVA = "0x5483610", Offset = "0x5482610", VA = "0x5483610")]
 	public BinaryWriter(Stream output, Encoding encoding, bool leaveOpen)
 	{
 	}
 
-	[Token(Token = "0x60032F1")]
-	[Address(RVA = "0x1A370A0", Offset = "0x1A356A0", VA = "0x181A370A0", Slot = "5")]
+	[Token(Token = "0x60032BE")]
+	[Address(RVA = "0x54837D0", Offset = "0x54827D0", VA = "0x54837D0", Slot = "5")]
 	public virtual void Close()
 	{
 	}
 
-	[Token(Token = "0x60032F2")]
-	[Address(RVA = "0x1AE4AD0", Offset = "0x1AE30D0", VA = "0x181AE4AD0", Slot = "6")]
+	[Token(Token = "0x60032BF")]
+	[Address(RVA = "0x54837F0", Offset = "0x54827F0", VA = "0x54837F0", Slot = "6")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60032F3")]
-	[Address(RVA = "0x1A370A0", Offset = "0x1A356A0", VA = "0x181A370A0", Slot = "4")]
+	[Token(Token = "0x60032C0")]
+	[Address(RVA = "0x5483850", Offset = "0x5482850", VA = "0x5483850", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60032F4")]
-	[Address(RVA = "0x1AE4B20", Offset = "0x1AE3120", VA = "0x181AE4B20", Slot = "7")]
+	[Token(Token = "0x60032C2")]
+	[Address(RVA = "0x5483890", Offset = "0x5482890", VA = "0x5483890", Slot = "8")]
 	public virtual void Flush()
 	{
 	}
 
-	[Token(Token = "0x60032F5")]
-	[Address(RVA = "0x1AE52C0", Offset = "0x1AE38C0", VA = "0x181AE52C0", Slot = "8")]
+	[Token(Token = "0x60032C3")]
+	[Address(RVA = "0x54838C0", Offset = "0x54828C0", VA = "0x54838C0", Slot = "9")]
 	public virtual void Write(bool value)
 	{
 	}
 
-	[Token(Token = "0x60032F6")]
-	[Address(RVA = "0x1AE50F0", Offset = "0x1AE36F0", VA = "0x181AE50F0", Slot = "9")]
+	[Token(Token = "0x60032C4")]
+	[Address(RVA = "0x5483910", Offset = "0x5482910", VA = "0x5483910", Slot = "10")]
 	public virtual void Write(byte value)
 	{
 	}
 
-	[Token(Token = "0x60032F7")]
-	[Address(RVA = "0x1AE50F0", Offset = "0x1AE36F0", VA = "0x181AE50F0", Slot = "10")]
+	[Token(Token = "0x60032C5")]
+	[Address(RVA = "0x5483940", Offset = "0x5482940", VA = "0x5483940", Slot = "11")]
 	[CLSCompliant(false)]
 	public virtual void Write(sbyte value)
 	{
 	}
 
-	[Token(Token = "0x60032F8")]
-	[Address(RVA = "0x1AE5120", Offset = "0x1AE3720", VA = "0x181AE5120", Slot = "11")]
+	[Token(Token = "0x60032C6")]
+	[Address(RVA = "0x5483970", Offset = "0x5482970", VA = "0x5483970", Slot = "12")]
 	public virtual void Write(byte[] buffer)
 	{
 	}
 
-	[Token(Token = "0x60032F9")]
-	[Address(RVA = "0x1AE5710", Offset = "0x1AE3D10", VA = "0x181AE5710", Slot = "12")]
+	[Token(Token = "0x60032C7")]
+	[Address(RVA = "0x54839F0", Offset = "0x54829F0", VA = "0x54839F0", Slot = "13")]
 	public virtual void Write(byte[] buffer, int index, int count)
 	{
 	}
 
-	[Token(Token = "0x60032FA")]
-	[Address(RVA = "0x1AE55D0", Offset = "0x1AE3BD0", VA = "0x181AE55D0", Slot = "13")]
+	[Token(Token = "0x60032C8")]
+	[Address(RVA = "0x5483A20", Offset = "0x5482A20", VA = "0x5483A20", Slot = "14")]
 	public virtual void Write(char ch)
 	{
 	}
 
-	[Token(Token = "0x60032FB")]
-	[Address(RVA = "0x1AE51B0", Offset = "0x1AE37B0", VA = "0x181AE51B0", Slot = "14")]
+	[Token(Token = "0x60032C9")]
+	[Address(RVA = "0x5483B30", Offset = "0x5482B30", VA = "0x5483B30", Slot = "15")]
 	public virtual void Write(char[] chars)
 	{
 	}
 
-	[Token(Token = "0x60032FC")]
-	[Address(RVA = "0x1AE54D0", Offset = "0x1AE3AD0", VA = "0x181AE54D0", Slot = "15")]
+	[Token(Token = "0x60032CA")]
+	[Address(RVA = "0x5483BD0", Offset = "0x5482BD0", VA = "0x5483BD0", Slot = "16")]
 	public virtual void Write(double value)
 	{
 	}
 
-	[Token(Token = "0x60032FD")]
-	[Address(RVA = "0x1AE4F40", Offset = "0x1AE3540", VA = "0x181AE4F40", Slot = "16")]
+	[Token(Token = "0x60032CB")]
+	[Address(RVA = "0x5483C10", Offset = "0x5482C10", VA = "0x5483C10", Slot = "17")]
 	public virtual void Write(short value)
 	{
 	}
 
-	[Token(Token = "0x60032FE")]
-	[Address(RVA = "0x1AE5460", Offset = "0x1AE3A60", VA = "0x181AE5460", Slot = "17")]
+	[Token(Token = "0x60032CC")]
+	[Address(RVA = "0x5483C70", Offset = "0x5482C70", VA = "0x5483C70", Slot = "18")]
 	[CLSCompliant(false)]
 	public virtual void Write(ushort value)
 	{
 	}
 
-	[Token(Token = "0x60032FF")]
-	[Address(RVA = "0x1AE5520", Offset = "0x1AE3B20", VA = "0x181AE5520", Slot = "18")]
+	[Token(Token = "0x60032CD")]
+	[Address(RVA = "0x5483CD0", Offset = "0x5482CD0", VA = "0x5483CD0", Slot = "19")]
 	public virtual void Write(int value)
 	{
 	}
 
-	[Token(Token = "0x6003300")]
-	[Address(RVA = "0x1AE5740", Offset = "0x1AE3D40", VA = "0x181AE5740", Slot = "19")]
+	[Token(Token = "0x60032CE")]
+	[Address(RVA = "0x5483D60", Offset = "0x5482D60", VA = "0x5483D60", Slot = "20")]
 	[CLSCompliant(false)]
 	public virtual void Write(uint value)
 	{
 	}
 
-	[Token(Token = "0x6003301")]
-	[Address(RVA = "0x1AE5320", Offset = "0x1AE3920", VA = "0x181AE5320", Slot = "20")]
+	[Token(Token = "0x60032CF")]
+	[Address(RVA = "0x5483DF0", Offset = "0x5482DF0", VA = "0x5483DF0", Slot = "21")]
 	public virtual void Write(long value)
 	{
 	}
 
-	[Token(Token = "0x6003302")]
-	[Address(RVA = "0x1AE4FB0", Offset = "0x1AE35B0", VA = "0x181AE4FB0", Slot = "21")]
+	[Token(Token = "0x60032D0")]
+	[Address(RVA = "0x5483F20", Offset = "0x5482F20", VA = "0x5483F20", Slot = "22")]
 	[CLSCompliant(false)]
 	public virtual void Write(ulong value)
 	{
 	}
 
-	[Token(Token = "0x6003303")]
-	[Address(RVA = "0x1AE5270", Offset = "0x1AE3870", VA = "0x181AE5270", Slot = "22")]
+	[Token(Token = "0x60032D1")]
+	[Address(RVA = "0x5484050", Offset = "0x5483050", VA = "0x5484050", Slot = "23")]
 	public virtual void Write(float value)
 	{
 	}
 
-	[Token(Token = "0x6003304")]
-	[Address(RVA = "0x1AE4BC0", Offset = "0x1AE31C0", VA = "0x181AE4BC0", Slot = "23")]
+	[Token(Token = "0x60032D2")]
+	[Address(RVA = "0x5484090", Offset = "0x5483090", VA = "0x5484090", Slot = "24")]
 	public virtual void Write(string value)
 	{
 	}
 
-	[Token(Token = "0x6003305")]
-	[Address(RVA = "0x1AE4B50", Offset = "0x1AE3150", VA = "0x181AE4B50")]
+	[Token(Token = "0x60032D3")]
+	[Address(RVA = "0x54843E0", Offset = "0x54833E0", VA = "0x54843E0")]
 	protected void Write7BitEncodedInt(int value)
 	{
 	}

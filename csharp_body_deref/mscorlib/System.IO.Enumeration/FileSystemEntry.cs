@@ -10,25 +10,71 @@ using Il2CppDummyDll;
 
 namespace System.IO.Enumeration;
 
-[Token(Token = "0x20006AD")]
+[Token(Token = "0x2000686")]
 public ref struct FileSystemEntry
 {
-	[Token(Token = "0x4001B13")]
+	[Token(Token = "0x4001A6D")]
 	[FieldOffset(Offset = "0x0")]
-	internal unsafe global::Interop.NtDll.FILE_FULL_DIR_INFORMATION* _info;
+	internal global::Interop.Sys.DirectoryEntry _directoryEntry;
+
+	[Token(Token = "0x4001A6E")]
+	[FieldOffset(Offset = "0x10")]
+	private System.IO.FileStatus _status;
+
+	[Token(Token = "0x4001A6F")]
+	[FieldOffset(Offset = "0x88")]
+	private Span<char> _pathBuffer;
+
+	[Token(Token = "0x4001A70")]
+	[FieldOffset(Offset = "0x98")]
+	private ReadOnlySpan<char> _fullPath;
+
+	[Token(Token = "0x4001A71")]
+	[FieldOffset(Offset = "0xA8")]
+	private ReadOnlySpan<char> _fileName;
+
+	[Token(Token = "0x4001A72")]
+	[FieldOffset(Offset = "0xB8")]
+	private unsafe fixed char _fileNameBuffer[256];
+
+	[Token(Token = "0x4001A73")]
+	[FieldOffset(Offset = "0x2B8")]
+	private FileAttributes _initialAttributes;
+
+	[Token(Token = "0x17000848")]
+	private ReadOnlySpan<char> FullPath
+	{
+		[Token(Token = "0x6003390")]
+		[Address(RVA = "0x5490470", Offset = "0x548F470", VA = "0x5490470")]
+		get
+		{
+			return default(ReadOnlySpan<char>);
+		}
+	}
+
+	[Token(Token = "0x17000849")]
+	public ReadOnlySpan<char> FileName
+	{
+		[Token(Token = "0x6003391")]
+		[Address(RVA = "0x5490610", Offset = "0x548F610", VA = "0x5490610")]
+		get
+		{
+			return default(ReadOnlySpan<char>);
+		}
+	}
 
 	[Token(Token = "0x1700084A")]
 	public ReadOnlySpan<char> Directory
 	{
-		[Token(Token = "0x60033DF")]
-		[Address(RVA = "0xADC2D0", Offset = "0xADA8D0", VA = "0x180ADC2D0")]
+		[Token(Token = "0x6003392")]
+		[Address(RVA = "0x5490680", Offset = "0x548F680", VA = "0x5490680")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x60033E0")]
-		[Address(RVA = "0x1B040E0", Offset = "0x1B026E0", VA = "0x181B040E0")]
+		[Token(Token = "0x6003393")]
+		[Address(RVA = "0x5490690", Offset = "0x548F690", VA = "0x5490690")]
 		[CompilerGenerated]
 		private set
 		{
@@ -38,15 +84,15 @@ public ref struct FileSystemEntry
 	[Token(Token = "0x1700084B")]
 	public ReadOnlySpan<char> RootDirectory
 	{
-		[Token(Token = "0x60033E1")]
-		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
+		[Token(Token = "0x6003394")]
+		[Address(RVA = "0x54906A0", Offset = "0x548F6A0", VA = "0x54906A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x60033E2")]
-		[Address(RVA = "0x111C9E0", Offset = "0x111AFE0", VA = "0x18111C9E0")]
+		[Token(Token = "0x6003395")]
+		[Address(RVA = "0x54906B0", Offset = "0x548F6B0", VA = "0x54906B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -56,15 +102,15 @@ public ref struct FileSystemEntry
 	[Token(Token = "0x1700084C")]
 	public ReadOnlySpan<char> OriginalRootDirectory
 	{
-		[Token(Token = "0x60033E3")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Token(Token = "0x6003396")]
+		[Address(RVA = "0x54906C0", Offset = "0x548F6C0", VA = "0x54906C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x60033E4")]
-		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
+		[Token(Token = "0x6003397")]
+		[Address(RVA = "0x54906D0", Offset = "0x548F6D0", VA = "0x54906D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -72,53 +118,50 @@ public ref struct FileSystemEntry
 	}
 
 	[Token(Token = "0x1700084D")]
-	public ReadOnlySpan<char> FileName
-	{
-		[Token(Token = "0x60033E5")]
-		[Address(RVA = "0x1B04090", Offset = "0x1B02690", VA = "0x181B04090")]
-		get
-		{
-			return default(ReadOnlySpan<char>);
-		}
-	}
-
-	[Token(Token = "0x1700084E")]
 	public FileAttributes Attributes
 	{
-		[Token(Token = "0x60033E6")]
-		[Address(RVA = "0x1B04070", Offset = "0x1B02670", VA = "0x181B04070")]
+		[Token(Token = "0x6003398")]
+		[Address(RVA = "0x54906E0", Offset = "0x548F6E0", VA = "0x54906E0")]
 		get
 		{
 			return default(FileAttributes);
 		}
 	}
 
-	[Token(Token = "0x1700084F")]
+	[Token(Token = "0x1700084E")]
 	public bool IsDirectory
 	{
-		[Token(Token = "0x60033E7")]
-		[Address(RVA = "0x1B040C0", Offset = "0x1B026C0", VA = "0x181B040C0")]
+		[Token(Token = "0x6003399")]
+		[Address(RVA = "0x5490720", Offset = "0x548F720", VA = "0x5490720")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60033DE")]
-	[Address(RVA = "0x1B03E00", Offset = "0x1B02400", VA = "0x181B03E00")]
-	internal unsafe static void Initialize(ref FileSystemEntry entry, global::Interop.NtDll.FILE_FULL_DIR_INFORMATION* info, ReadOnlySpan<char> directory, ReadOnlySpan<char> rootDirectory, ReadOnlySpan<char> originalRootDirectory)
+	[Token(Token = "0x600338F")]
+	[Address(RVA = "0x5490100", Offset = "0x548F100", VA = "0x5490100")]
+	internal static FileAttributes Initialize(ref FileSystemEntry entry, global::Interop.Sys.DirectoryEntry directoryEntry, ReadOnlySpan<char> directory, ReadOnlySpan<char> rootDirectory, ReadOnlySpan<char> originalRootDirectory, Span<char> pathBuffer)
 	{
+		return default(FileAttributes);
 	}
 
-	[Token(Token = "0x60033E8")]
-	[Address(RVA = "0x1B03E20", Offset = "0x1B02420", VA = "0x181B03E20")]
+	[Token(Token = "0x600339A")]
+	[Address(RVA = "0x5490730", Offset = "0x548F730", VA = "0x5490730")]
 	public FileSystemInfo ToFileSystemInfo()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033E9")]
-	[Address(RVA = "0x1B03EC0", Offset = "0x1B024C0", VA = "0x181B03EC0")]
+	[Token(Token = "0x600339B")]
+	[Address(RVA = "0x54907E0", Offset = "0x548F7E0", VA = "0x54907E0")]
+	public string ToFullPath()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600339C")]
+	[Address(RVA = "0x5490800", Offset = "0x548F800", VA = "0x5490800")]
 	public string ToSpecifiedFullPath()
 	{
 		return null;

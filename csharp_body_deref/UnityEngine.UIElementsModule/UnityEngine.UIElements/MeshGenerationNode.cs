@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MeshGenerationNode
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,14 +23,14 @@ public struct MeshGenerationNode
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600132F")]
-	[Address(RVA = "0x32B0AC0", Offset = "0x32AF0C0", VA = "0x1832B0AC0")]
+	[Address(RVA = "0x6CBE9A0", Offset = "0x6CBD9A0", VA = "0x6CBE9A0")]
 	internal static void Create(GCHandle handle, out MeshGenerationNode node)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001330")]
-	[Address(RVA = "0x32B0AD0", Offset = "0x32AF0D0", VA = "0x1832B0AD0")]
+	[Address(RVA = "0x6CBE9B0", Offset = "0x6CBD9B0", VA = "0x6CBE9B0")]
 	internal Entry GetParentEntry()
 	{
 		return null;

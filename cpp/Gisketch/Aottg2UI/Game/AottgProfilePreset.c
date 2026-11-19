@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Game.AottgProfilePreset
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgProfilePreset.cs
@@ -8,18 +8,19 @@
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreset$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreset___ctor (Gisketch_Aottg2UI_Game_AottgProfilePreset_o __this, System_String_o* key, System_String_o* label, System_String_o* sprite, const MethodInfo* method);
-// 0x181046250
+// 0x5904950
 
-void
-Gisketch_Aottg2UI_Game_AottgProfilePreset___ctor(Gisketch_Aottg2UI_Game_AottgProfilePreset_o __this, System_String_o* key, System_String_o* label, System_String_o* sprite, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfilePreset___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfilePreset_o *__this,System_String_o *key,
+               System_String_o *label,System_String_o *sprite,MethodInfo *method)
 
 {
-  (__this->fields).m_DelagateCallback = callback;
-  Il2CppCodeGenWriteBarrier((void **)__this,callback);
-  (__this->fields).m_DelagateState = state;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_DelagateState,state);
-  (__this->fields).m_WaitHandle = waitHandle;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_WaitHandle,waitHandle);
+  (__this->fields).Key = key;
+  Il2CppCodeGenWriteBarrier((void **)__this);
+  (__this->fields).Label = label;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Label);
+  (__this->fields).Sprite = sprite;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Sprite);
   return;
 }
 

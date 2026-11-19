@@ -51,7 +51,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float width
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
+		[Address(RVA = "0x69F7A10", Offset = "0x69F6A10", VA = "0x69F7A10")]
 		get
 		{
 			return default(float);
@@ -62,7 +62,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float height
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
+		[Address(RVA = "0x69F7A20", Offset = "0x69F6A20", VA = "0x69F7A20")]
 		get
 		{
 			return default(float);
@@ -73,7 +73,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalBearingX
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
+		[Address(RVA = "0x69F7A30", Offset = "0x69F6A30", VA = "0x69F7A30")]
 		get
 		{
 			return default(float);
@@ -84,7 +84,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalBearingY
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
+		[Address(RVA = "0x69F7A40", Offset = "0x69F6A40", VA = "0x69F7A40")]
 		get
 		{
 			return default(float);
@@ -95,7 +95,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalAdvance
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x2EAE470", Offset = "0x2EACA70", VA = "0x182EAE470")]
+		[Address(RVA = "0x69F7A50", Offset = "0x69F6A50", VA = "0x69F7A50")]
 		get
 		{
 			return default(float);
@@ -103,27 +103,27 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x3002820", Offset = "0x3000E20", VA = "0x183002820")]
+	[Address(RVA = "0x69F7A60", Offset = "0x69F6A60", VA = "0x69F7A60")]
 	public GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x30027C0", Offset = "0x3000DC0", VA = "0x1830027C0", Slot = "2")]
+	[Address(RVA = "0x69F7A80", Offset = "0x69F6A80", VA = "0x69F7A80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x3002750", Offset = "0x3000D50", VA = "0x183002750", Slot = "0")]
+	[Address(RVA = "0x69F7AE0", Offset = "0x69F6AE0", VA = "0x69F7AE0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x30026C0", Offset = "0x3000CC0", VA = "0x1830026C0", Slot = "4")]
+	[Address(RVA = "0x69F7B40", Offset = "0x69F6B40", VA = "0x69F7B40", Slot = "4")]
 	public bool Equals(GlyphMetrics other)
 	{
 		return default(bool);

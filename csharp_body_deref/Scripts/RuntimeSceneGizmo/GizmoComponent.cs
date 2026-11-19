@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace RuntimeSceneGizmo;
 
-[Token(Token = "0x200005B")]
+[Token(Token = "0x200005A")]
 public enum GizmoComponent
 {
-	[Token(Token = "0x40001D8")]
+	[Token(Token = "0x40001E7")]
 	None = -1,
-	[Token(Token = "0x40001D9")]
+	[Token(Token = "0x40001E8")]
 	Center,
-	[Token(Token = "0x40001DA")]
+	[Token(Token = "0x40001E9")]
 	XNegative,
-	[Token(Token = "0x40001DB")]
+	[Token(Token = "0x40001EA")]
 	XPositive,
-	[Token(Token = "0x40001DC")]
+	[Token(Token = "0x40001EB")]
 	YNegative,
-	[Token(Token = "0x40001DD")]
+	[Token(Token = "0x40001EC")]
 	YPositive,
-	[Token(Token = "0x40001DE")]
+	[Token(Token = "0x40001ED")]
 	ZNegative,
-	[Token(Token = "0x40001DF")]
+	[Token(Token = "0x40001EE")]
 	ZPositive
 }

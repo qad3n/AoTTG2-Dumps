@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200020A")]
+[Token(Token = "0x20001E2")]
 internal static class TimeoutHelper
 {
-	[Token(Token = "0x600120C")]
-	[Address(RVA = "0x1BA5D70", Offset = "0x1BA4370", VA = "0x181BA5D70")]
+	[Token(Token = "0x60011E3")]
+	[Address(RVA = "0x552E330", Offset = "0x552D330", VA = "0x552E330")]
 	public static uint GetTime()
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x600120D")]
-	[Address(RVA = "0x1BA5D80", Offset = "0x1BA4380", VA = "0x181BA5D80")]
+	[Token(Token = "0x60011E4")]
+	[Address(RVA = "0x552E430", Offset = "0x552D430", VA = "0x552E430")]
 	public static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout)
 	{
 		return default(int);

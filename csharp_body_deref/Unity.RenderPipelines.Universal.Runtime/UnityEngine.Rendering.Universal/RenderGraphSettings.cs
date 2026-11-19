@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderGraphSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,7 +42,7 @@ public class RenderGraphSettings : IRenderPipelineGraphicsSettings
 	public int version
 	{
 		[Token(Token = "0x60008F0")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x6689520", Offset = "0x6688520", VA = "0x6689520", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -53,7 +53,7 @@ public class RenderGraphSettings : IRenderPipelineGraphicsSettings
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x60008F1")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x6689530", Offset = "0x6688530", VA = "0x6689530", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -64,13 +64,13 @@ public class RenderGraphSettings : IRenderPipelineGraphicsSettings
 	public bool enableRenderCompatibilityMode
 	{
 		[Token(Token = "0x60008F2")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x6689540", Offset = "0x6688540", VA = "0x6689540")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60008F3")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x6689550", Offset = "0x6688550", VA = "0x6689550")]
 		[Obsolete("Compatibility Mode is being removed. This setter is not accessible without the define URP_COMPATIBILITY_MODE. #from(6000.3) #breakingFrom(6000.3)", true)]
 		set
 		{
@@ -78,13 +78,13 @@ public class RenderGraphSettings : IRenderPipelineGraphicsSettings
 	}
 
 	[Token(Token = "0x60008F4")]
-	[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+	[Address(RVA = "0x6689560", Offset = "0x6688560", VA = "0x6689560")]
 	internal void SetCompatibilityModeFromUpgrade(bool value)
 	{
 	}
 
 	[Token(Token = "0x60008F5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6689570", Offset = "0x6688570", VA = "0x6689570")]
 	public RenderGraphSettings()
 	{
 	}

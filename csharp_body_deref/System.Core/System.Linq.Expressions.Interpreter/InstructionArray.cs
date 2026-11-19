@@ -11,57 +11,57 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200015F")]
+[Token(Token = "0x2000160")]
 [DebuggerTypeProxy(typeof(DebugView))]
 internal readonly struct InstructionArray
 {
-	[Token(Token = "0x2000160")]
+	[Token(Token = "0x2000161")]
 	internal sealed class DebugView
 	{
-		[Token(Token = "0x40002C8")]
+		[Token(Token = "0x40002D1")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly InstructionArray _array;
 
-		[Token(Token = "0x600075E")]
-		[Address(RVA = "0x2444710", Offset = "0x2442D10", VA = "0x182444710")]
+		[Token(Token = "0x6000769")]
+		[Address(RVA = "0x5DE8CE0", Offset = "0x5DE7CE0", VA = "0x5DE8CE0")]
 		public DebugView(InstructionArray array)
 		{
 		}
 
-		[Token(Token = "0x600075F")]
-		[Address(RVA = "0x2444640", Offset = "0x2442C40", VA = "0x182444640")]
+		[Token(Token = "0x600076A")]
+		[Address(RVA = "0x5DE8DA0", Offset = "0x5DE7DA0", VA = "0x5DE8DA0")]
 		public InstructionList.DebugView.InstructionView[] GetInstructionViews(bool includeDebugCookies = false)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40002C2")]
+	[Token(Token = "0x40002CB")]
 	[FieldOffset(Offset = "0x0")]
 	internal readonly int MaxStackDepth;
 
-	[Token(Token = "0x40002C3")]
+	[Token(Token = "0x40002CC")]
 	[FieldOffset(Offset = "0x4")]
 	internal readonly int MaxContinuationDepth;
 
-	[Token(Token = "0x40002C4")]
+	[Token(Token = "0x40002CD")]
 	[FieldOffset(Offset = "0x8")]
 	internal readonly Instruction[] Instructions;
 
-	[Token(Token = "0x40002C5")]
+	[Token(Token = "0x40002CE")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly object[] Objects;
 
-	[Token(Token = "0x40002C6")]
+	[Token(Token = "0x40002CF")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly RuntimeLabel[] Labels;
 
-	[Token(Token = "0x40002C7")]
+	[Token(Token = "0x40002D0")]
 	[FieldOffset(Offset = "0x20")]
 	internal readonly List<KeyValuePair<int, object>> DebugCookies;
 
-	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x2449B90", Offset = "0x2448190", VA = "0x182449B90")]
+	[Token(Token = "0x6000768")]
+	[Address(RVA = "0x5DE8C70", Offset = "0x5DE7C70", VA = "0x5DE8C70")]
 	internal InstructionArray(int maxStackDepth, int maxContinuationDepth, Instruction[] instructions, object[] objects, RuntimeLabel[] labels, List<KeyValuePair<int, object>> debugCookies)
 	{
 	}

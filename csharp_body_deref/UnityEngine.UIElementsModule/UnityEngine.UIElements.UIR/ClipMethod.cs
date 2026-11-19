@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005BC")]
+[Token(Token = "0x20005A7")]
 internal enum ClipMethod
 {
-	[Token(Token = "0x40014E6")]
+	[Token(Token = "0x4001428")]
 	Undetermined,
-	[Token(Token = "0x40014E7")]
+	[Token(Token = "0x4001429")]
 	NotClipped,
-	[Token(Token = "0x40014E8")]
+	[Token(Token = "0x400142A")]
 	Scissor,
-	[Token(Token = "0x40014E9")]
+	[Token(Token = "0x400142B")]
 	ShaderDiscard,
-	[Token(Token = "0x40014EA")]
+	[Token(Token = "0x400142C")]
 	Stencil
 }

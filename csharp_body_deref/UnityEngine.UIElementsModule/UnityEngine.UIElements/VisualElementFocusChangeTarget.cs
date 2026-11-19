@@ -21,14 +21,14 @@ internal class VisualElementFocusChangeTarget : FocusChangeDirection
 	public Focusable target
 	{
 		[Token(Token = "0x60027FC")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6B6CC30", Offset = "0x6B6BC30", VA = "0x6B6CC30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60027FD")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6B6CC40", Offset = "0x6B6BC40", VA = "0x6B6CC40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -36,26 +36,26 @@ internal class VisualElementFocusChangeTarget : FocusChangeDirection
 	}
 
 	[Token(Token = "0x60027F8")]
-	[Address(RVA = "0x3167D20", Offset = "0x3166320", VA = "0x183167D20")]
+	[Address(RVA = "0x6B6C9E0", Offset = "0x6B6B9E0", VA = "0x6B6C9E0")]
 	public static VisualElementFocusChangeTarget GetPooled(Focusable target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60027F9")]
-	[Address(RVA = "0x3167C90", Offset = "0x3166290", VA = "0x183167C90", Slot = "5")]
+	[Address(RVA = "0x6B6CAA0", Offset = "0x6B6BAA0", VA = "0x6B6CAA0", Slot = "5")]
 	protected override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60027FA")]
-	[Address(RVA = "0x3167C40", Offset = "0x3166240", VA = "0x183167C40", Slot = "6")]
+	[Address(RVA = "0x6B6CB30", Offset = "0x6B6BB30", VA = "0x6B6CB30", Slot = "6")]
 	internal override void ApplyTo(FocusController focusController, Focusable f)
 	{
 	}
 
 	[Token(Token = "0x60027FB")]
-	[Address(RVA = "0x3167ED0", Offset = "0x31664D0", VA = "0x183167ED0")]
+	[Address(RVA = "0x6B6CB70", Offset = "0x6B6BB70", VA = "0x6B6CB70")]
 	public VisualElementFocusChangeTarget()
 	{
 	}

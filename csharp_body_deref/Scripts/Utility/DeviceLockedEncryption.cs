@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20008BA")]
+[Token(Token = "0x2000924")]
 internal class DeviceLockedEncryption
 {
-	[Token(Token = "0x4002B55")]
+	[Token(Token = "0x4002E0C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string SecretSalt;
 
-	[Token(Token = "0x6005319")]
-	[Address(RVA = "0x23362D0", Offset = "0x23348D0", VA = "0x1823362D0")]
+	[Token(Token = "0x600566D")]
+	[Address(RVA = "0x5CEB530", Offset = "0x5CEA530", VA = "0x5CEB530")]
 	private static byte[] GetDeviceSpecificKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600531A")]
-	[Address(RVA = "0x2335E40", Offset = "0x2334440", VA = "0x182335E40")]
+	[Token(Token = "0x600566E")]
+	[Address(RVA = "0x5CEB6F0", Offset = "0x5CEA6F0", VA = "0x5CEB6F0")]
 	public static string Encrypt(string plainText)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600531B")]
-	[Address(RVA = "0x2335990", Offset = "0x2333F90", VA = "0x182335990")]
+	[Token(Token = "0x600566F")]
+	[Address(RVA = "0x5CEBD80", Offset = "0x5CEAD80", VA = "0x5CEBD80")]
 	public static string Decrypt(string cipherText)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600531C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005670")]
+	[Address(RVA = "0x5CEC420", Offset = "0x5CEB420", VA = "0x5CEC420")]
 	public DeviceLockedEncryption()
 	{
 	}

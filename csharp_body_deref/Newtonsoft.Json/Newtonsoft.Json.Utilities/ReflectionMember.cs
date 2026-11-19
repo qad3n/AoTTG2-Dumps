@@ -18,14 +18,14 @@ internal class ReflectionMember
 	public Type? MemberType
 	{
 		[Token(Token = "0x600069A")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x55B9A20", Offset = "0x55B8A20", VA = "0x55B9A20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600069B")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x55B9A30", Offset = "0x55B8A30", VA = "0x55B9A30")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ internal class ReflectionMember
 	public Func<object, object?>? Getter
 	{
 		[Token(Token = "0x600069C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x55B9A40", Offset = "0x55B8A40", VA = "0x55B9A40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600069D")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x55B9A50", Offset = "0x55B8A50", VA = "0x55B9A50")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,14 +54,14 @@ internal class ReflectionMember
 	public Action<object, object?>? Setter
 	{
 		[Token(Token = "0x600069E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x55B9A60", Offset = "0x55B8A60", VA = "0x55B9A60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600069F")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x55B9A70", Offset = "0x55B8A70", VA = "0x55B9A70")]
 		[CompilerGenerated]
 		set
 		{
@@ -69,7 +69,7 @@ internal class ReflectionMember
 	}
 
 	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x55B9A80", Offset = "0x55B8A80", VA = "0x55B9A80")]
 	public ReflectionMember()
 	{
 	}

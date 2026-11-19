@@ -17,27 +17,27 @@ public class DebugUIHandlerHBox : DebugUIHandlerWidget
 	private DebugUIHandlerContainer m_Container;
 
 	[Token(Token = "0x6001450")]
-	[Address(RVA = "0x2BADA10", Offset = "0x2BAC010", VA = "0x182BADA10", Slot = "5")]
+	[Address(RVA = "0x65A9020", Offset = "0x65A8020", VA = "0x65A9020", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6001451")]
-	[Address(RVA = "0x2BAD950", Offset = "0x2BABF50", VA = "0x182BAD950", Slot = "6")]
+	[Address(RVA = "0x65A9090", Offset = "0x65A8090", VA = "0x65A9090", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001452")]
-	[Address(RVA = "0x2BAD890", Offset = "0x2BABE90", VA = "0x182BAD890", Slot = "12")]
+	[Address(RVA = "0x65A9130", Offset = "0x65A8130", VA = "0x65A9130", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001453")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65A91E0", Offset = "0x65A81E0", VA = "0x65A91E0")]
 	public DebugUIHandlerHBox()
 	{
 	}

@@ -25,7 +25,7 @@ internal struct ScalableImage
 	public Texture2D highResolutionImage;
 
 	[Token(Token = "0x6002D4A")]
-	[Address(RVA = "0x31ED3E0", Offset = "0x31EB9E0", VA = "0x1831ED3E0", Slot = "3")]
+	[Address(RVA = "0x6BEF200", Offset = "0x6BEE200", VA = "0x6BEF200", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

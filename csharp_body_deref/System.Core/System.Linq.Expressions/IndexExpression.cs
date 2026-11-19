@@ -13,54 +13,30 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000087")]
+[Token(Token = "0x2000088")]
 [DebuggerTypeProxy(typeof(IndexExpressionProxy))]
 public sealed class IndexExpression : Expression, IArgumentProvider
 {
-	[Token(Token = "0x4000182")]
+	[Token(Token = "0x400018B")]
 	[FieldOffset(Offset = "0x10")]
 	private IReadOnlyList<Expression> _arguments;
 
-	[Token(Token = "0x1700008C")]
+	[Token(Token = "0x1700008E")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60003FE")]
-		[Address(RVA = "0x243A0C0", Offset = "0x24386C0", VA = "0x18243A0C0", Slot = "4")]
+		[Token(Token = "0x6000409")]
+		[Address(RVA = "0x5DD13F0", Offset = "0x5DD03F0", VA = "0x5DD13F0", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x1700008D")]
+	[Token(Token = "0x1700008F")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60003FF")]
-		[Address(RVA = "0x243A0D0", Offset = "0x24386D0", VA = "0x18243A0D0", Slot = "5")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700008E")]
-	public Expression Object
-	{
-		[Token(Token = "0x6000400")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700008F")]
-	public PropertyInfo Indexer
-	{
-		[Token(Token = "0x6000401")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
-		[CompilerGenerated]
+		[Token(Token = "0x600040A")]
+		[Address(RVA = "0x5DD1400", Offset = "0x5DD0400", VA = "0x5DD1400", Slot = "5")]
 		get
 		{
 			return null;
@@ -68,38 +44,62 @@ public sealed class IndexExpression : Expression, IArgumentProvider
 	}
 
 	[Token(Token = "0x17000090")]
+	public Expression Object
+	{
+		[Token(Token = "0x600040B")]
+		[Address(RVA = "0x5DD1470", Offset = "0x5DD0470", VA = "0x5DD1470")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000091")]
+	public PropertyInfo Indexer
+	{
+		[Token(Token = "0x600040C")]
+		[Address(RVA = "0x5DD1480", Offset = "0x5DD0480", VA = "0x5DD1480")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000092")]
 	public int ArgumentCount
 	{
-		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x243A070", Offset = "0x2438670", VA = "0x18243A070", Slot = "11")]
+		[Token(Token = "0x600040E")]
+		[Address(RVA = "0x5DCF710", Offset = "0x5DCE710", VA = "0x5DCF710", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60003FD")]
-	[Address(RVA = "0x2439FD0", Offset = "0x24385D0", VA = "0x182439FD0")]
+	[Token(Token = "0x6000408")]
+	[Address(RVA = "0x5DD1350", Offset = "0x5DD0350", VA = "0x5DD1350")]
 	internal IndexExpression(Expression instance, PropertyInfo indexer, IReadOnlyList<Expression> arguments)
 	{
 	}
 
-	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x2439F00", Offset = "0x2438500", VA = "0x182439F00", Slot = "10")]
+	[Token(Token = "0x600040D")]
+	[Address(RVA = "0x5DCF7A0", Offset = "0x5DCE7A0", VA = "0x5DCF7A0", Slot = "10")]
 	public Expression GetArgument(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x2439ED0", Offset = "0x24384D0", VA = "0x182439ED0", Slot = "9")]
+	[Token(Token = "0x600040F")]
+	[Address(RVA = "0x5DD1490", Offset = "0x5DD0490", VA = "0x5DD1490", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000405")]
-	[Address(RVA = "0x2439F60", Offset = "0x2438560", VA = "0x182439F60")]
+	[Token(Token = "0x6000410")]
+	[Address(RVA = "0x5DD0890", Offset = "0x5DCF890", VA = "0x5DD0890")]
 	internal Expression Rewrite(Expression instance, Expression[] arguments)
 	{
 		return null;

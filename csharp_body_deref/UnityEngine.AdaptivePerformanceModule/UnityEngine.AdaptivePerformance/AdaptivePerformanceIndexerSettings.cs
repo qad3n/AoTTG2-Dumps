@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,8 +19,8 @@ public class AdaptivePerformanceIndexerSettings
 
 	[Token(Token = "0x40000D8")]
 	[FieldOffset(Offset = "0x10")]
-	[SerializeField]
 	[Tooltip("Active")]
+	[SerializeField]
 	private bool m_Active;
 
 	[Token(Token = "0x40000D9")]
@@ -41,7 +41,7 @@ public class AdaptivePerformanceIndexerSettings
 	public bool active
 	{
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x1CC78D0", Offset = "0x1CC5ED0", VA = "0x181CC78D0")]
+		[Address(RVA = "0x6887F20", Offset = "0x6886F20", VA = "0x6887F20")]
 		get
 		{
 			return default(bool);
@@ -52,7 +52,7 @@ public class AdaptivePerformanceIndexerSettings
 	public float thermalActionDelay
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x15477A0", Offset = "0x1545DA0", VA = "0x1815477A0")]
+		[Address(RVA = "0x6887750", Offset = "0x6886750", VA = "0x6887750")]
 		get
 		{
 			return default(float);
@@ -63,7 +63,7 @@ public class AdaptivePerformanceIndexerSettings
 	public float performanceActionDelay
 	{
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x2E82BD0", Offset = "0x2E811D0", VA = "0x182E82BD0")]
+		[Address(RVA = "0x6888FC0", Offset = "0x6887FC0", VA = "0x6888FC0")]
 		get
 		{
 			return default(float);
@@ -71,7 +71,7 @@ public class AdaptivePerformanceIndexerSettings
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x2E82BB0", Offset = "0x2E811B0", VA = "0x182E82BB0")]
+	[Address(RVA = "0x688BF20", Offset = "0x688AF20", VA = "0x688BF20")]
 	public AdaptivePerformanceIndexerSettings()
 	{
 	}

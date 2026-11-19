@@ -54,13 +54,13 @@ internal static class JavaScriptUtils
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000655")]
-		[Address(RVA = "0x1C31970", Offset = "0x1C2FF70", VA = "0x181C31970", Slot = "4")]
+		[Address(RVA = "0x55B7A20", Offset = "0x55B6A20", VA = "0x55B7A20", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000656")]
-		[Address(RVA = "0x1C31BD0", Offset = "0x1C301D0", VA = "0x181C31BD0", Slot = "5")]
+		[Address(RVA = "0x55B7D00", Offset = "0x55B6D00", VA = "0x55B7D00", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -129,13 +129,13 @@ internal static class JavaScriptUtils
 		private int _003Ci_003E5__4;
 
 		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x1C322E0", Offset = "0x1C308E0", VA = "0x181C322E0", Slot = "4")]
+		[Address(RVA = "0x55B7D60", Offset = "0x55B6D60", VA = "0x55B7D60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x1C32EA0", Offset = "0x1C314A0", VA = "0x181C32EA0", Slot = "5")]
+		[Address(RVA = "0x55B87B0", Offset = "0x55B77B0", VA = "0x55B87B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -196,13 +196,13 @@ internal static class JavaScriptUtils
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000659")]
-		[Address(RVA = "0x1C32F00", Offset = "0x1C31500", VA = "0x181C32F00", Slot = "4")]
+		[Address(RVA = "0x55B8810", Offset = "0x55B7810", VA = "0x55B8810", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600065A")]
-		[Address(RVA = "0x1C332B0", Offset = "0x1C318B0", VA = "0x181C332B0", Slot = "5")]
+		[Address(RVA = "0x55B8C20", Offset = "0x55B7C20", VA = "0x55B8C20", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -228,61 +228,61 @@ internal static class JavaScriptUtils
 	private const string EscapedUnicodeText = "!";
 
 	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x1C296D0", Offset = "0x1C27CD0", VA = "0x181C296D0")]
+	[Address(RVA = "0x55B5160", Offset = "0x55B4160", VA = "0x55B5160")]
 	static JavaScriptUtils()
 	{
 	}
 
 	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x1C27820", Offset = "0x1C25E20", VA = "0x181C27820")]
+	[Address(RVA = "0x55B5DF0", Offset = "0x55B4DF0", VA = "0x55B5DF0")]
 	public static bool[] GetCharEscapeFlags(StringEscapeHandling stringEscapeHandling, char quoteChar)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x1C278F0", Offset = "0x1C25EF0", VA = "0x181C278F0")]
+	[Address(RVA = "0x55B5E90", Offset = "0x55B4E90", VA = "0x55B5E90")]
 	public static bool ShouldEscapeJavaScriptString(string? s, bool[] charEscapeFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x1C28EA0", Offset = "0x1C274A0", VA = "0x181C28EA0")]
+	[Address(RVA = "0x55B5F00", Offset = "0x55B4F00", VA = "0x55B5F00")]
 	public static void WriteEscapedJavaScriptString(TextWriter writer, string? s, char delimiter, bool appendDelimiters, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, IArrayPool<char>? bufferPool, ref char[]? writeBuffer)
 	{
 	}
 
 	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x1C27980", Offset = "0x1C25F80", VA = "0x181C27980")]
+	[Address(RVA = "0x55B6730", Offset = "0x55B5730", VA = "0x55B6730")]
 	public static string ToEscapedJavaScriptString(string? value, char delimiter, bool appendDelimiters, StringEscapeHandling stringEscapeHandling)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x1C27770", Offset = "0x1C25D70", VA = "0x181C27770")]
+	[Address(RVA = "0x55B6630", Offset = "0x55B5630", VA = "0x55B6630")]
 	private static int FirstCharToEscape(string s, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600064D")]
-	[Address(RVA = "0x1C284A0", Offset = "0x1C26AA0", VA = "0x181C284A0")]
+	[Address(RVA = "0x55B69D0", Offset = "0x55B59D0", VA = "0x55B69D0")]
 	public static Task WriteEscapedJavaScriptStringAsync(TextWriter writer, string s, char delimiter, bool appendDelimiters, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064E")]
-	[Address(RVA = "0x1C28870", Offset = "0x1C26E70", VA = "0x181C28870")]
+	[Address(RVA = "0x55B6B90", Offset = "0x55B5B90", VA = "0x55B6B90")]
 	private static Task WriteEscapedJavaScriptStringWithDelimitersAsync(TextWriter writer, string s, char delimiter, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x1C28700", Offset = "0x1C26D00", VA = "0x181C28700")]
+	[Address(RVA = "0x55B6E80", Offset = "0x55B5E80", VA = "0x55B6E80")]
 	[AsyncStateMachine(typeof(_003CWriteEscapedJavaScriptStringWithDelimitersAsync_003Ed__13))]
 	private static Task WriteEscapedJavaScriptStringWithDelimitersAsync(Task task, TextWriter writer, string s, char delimiter, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
@@ -290,7 +290,7 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x1C28230", Offset = "0x1C26830", VA = "0x181C28230")]
+	[Address(RVA = "0x55B7030", Offset = "0x55B6030", VA = "0x55B7030")]
 	[AsyncStateMachine(typeof(_003CWriteCharAsync_003Ed__14))]
 	public static Task WriteCharAsync(Task task, TextWriter writer, char c, CancellationToken cancellationToken)
 	{
@@ -298,14 +298,14 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x1C28C10", Offset = "0x1C27210", VA = "0x181C28C10")]
+	[Address(RVA = "0x55B6D80", Offset = "0x55B5D80", VA = "0x55B6D80")]
 	private static Task WriteEscapedJavaScriptStringWithoutDelimitersAsync(TextWriter writer, string s, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000652")]
-	[Address(RVA = "0x1C28340", Offset = "0x1C26940", VA = "0x181C28340")]
+	[Address(RVA = "0x55B7140", Offset = "0x55B6140", VA = "0x55B7140")]
 	[AsyncStateMachine(typeof(_003CWriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_003Ed__16))]
 	private static Task WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync(TextWriter writer, string s, int lastWritePosition, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
@@ -313,14 +313,14 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x1C27D90", Offset = "0x1C26390", VA = "0x181C27D90")]
+	[Address(RVA = "0x55B72D0", Offset = "0x55B62D0", VA = "0x55B72D0")]
 	public static bool TryGetDateFromConstructorJson(JsonReader reader, out DateTime dateTime, [NotNullWhen(false)] out string? errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x1C27BC0", Offset = "0x1C261C0", VA = "0x181C27BC0")]
+	[Address(RVA = "0x55B7850", Offset = "0x55B6850", VA = "0x55B7850")]
 	private static bool TryGetDateConstructorValue(JsonReader reader, out long? integer, [NotNullWhen(false)] out string? errorMessage)
 	{
 		return default(bool);

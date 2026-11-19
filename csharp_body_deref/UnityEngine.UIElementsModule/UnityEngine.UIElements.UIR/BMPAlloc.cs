@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005E5")]
+[Token(Token = "0x20005C9")]
 internal struct BMPAlloc
 {
-	[Token(Token = "0x40015EE")]
+	[Token(Token = "0x4001517")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly BMPAlloc Invalid;
 
-	[Token(Token = "0x40015EF")]
+	[Token(Token = "0x4001518")]
 	[FieldOffset(Offset = "0x0")]
 	public int page;
 
-	[Token(Token = "0x40015F0")]
+	[Token(Token = "0x4001519")]
 	[FieldOffset(Offset = "0x4")]
 	public ushort pageLine;
 
-	[Token(Token = "0x40015F1")]
+	[Token(Token = "0x400151A")]
 	[FieldOffset(Offset = "0x6")]
 	public byte bitIndex;
 
-	[Token(Token = "0x40015F2")]
+	[Token(Token = "0x400151B")]
 	[FieldOffset(Offset = "0x7")]
 	public OwnedState ownedState;
 
-	[Token(Token = "0x6002B99")]
-	[Address(RVA = "0x31A21F0", Offset = "0x31A07F0", VA = "0x1831A21F0")]
+	[Token(Token = "0x6002B1E")]
+	[Address(RVA = "0x6BA9030", Offset = "0x6BA8030", VA = "0x6BA9030")]
 	public bool Equals(BMPAlloc other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B9A")]
-	[Address(RVA = "0x31A2210", Offset = "0x31A0810", VA = "0x1831A2210")]
+	[Token(Token = "0x6002B1F")]
+	[Address(RVA = "0x6BACBB0", Offset = "0x6BABBB0", VA = "0x6BACBB0")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B9B")]
-	[Address(RVA = "0x31A2220", Offset = "0x31A0820", VA = "0x1831A2220", Slot = "3")]
+	[Token(Token = "0x6002B20")]
+	[Address(RVA = "0x6BACBC0", Offset = "0x6BABBC0", VA = "0x6BACBC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

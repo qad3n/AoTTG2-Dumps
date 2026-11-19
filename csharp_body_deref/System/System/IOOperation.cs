@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D1")]
+[Token(Token = "0x2000092")]
 internal enum IOOperation
 {
-	[Token(Token = "0x4000324")]
+	[Token(Token = "0x4000255")]
 	Read = 1,
-	[Token(Token = "0x4000325")]
+	[Token(Token = "0x4000256")]
 	Write
 }

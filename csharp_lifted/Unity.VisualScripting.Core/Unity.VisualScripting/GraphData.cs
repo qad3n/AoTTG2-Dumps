@@ -1,0 +1,111 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.GraphData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x200006B")]
+public class GraphData<TGraph> : IGraphData where TGraph : class, IGraph
+{
+	[Token(Token = "0x170000A5")]
+	protected TGraph definition
+	{
+		[Token(Token = "0x60002E4")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A6")]
+	protected Dictionary<IGraphElementWithData, IGraphElementData> elementsData
+	{
+		[Token(Token = "0x60002E5")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A7")]
+	protected Dictionary<IGraphParentElement, IGraphData> childrenGraphsData
+	{
+		[Token(Token = "0x60002E6")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A8")]
+	protected Dictionary<Guid, IGraphElementData> phantomElementsData
+	{
+		[Token(Token = "0x60002E7")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A9")]
+	protected Dictionary<Guid, IGraphData> phantomChildrenGraphsData
+	{
+		[Token(Token = "0x60002E8")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x60002E3")]
+	public GraphData(TGraph definition)
+	{
+	}
+
+	[Token(Token = "0x60002E9")]
+	public bool TryGetElementData(IGraphElementWithData element, out IGraphElementData data)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60002EA")]
+	public bool TryGetChildGraphData(IGraphParentElement element, out IGraphData data)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60002EB")]
+	public IGraphElementData CreateElementData(IGraphElementWithData element)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60002EC")]
+	public void FreeElementData(IGraphElementWithData element)
+	{
+	}
+
+	[Token(Token = "0x60002ED")]
+	public IGraphData CreateChildGraphData(IGraphParentElement element)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60002EE")]
+	public void FreeChildGraphData(IGraphParentElement element)
+	{
+	}
+}

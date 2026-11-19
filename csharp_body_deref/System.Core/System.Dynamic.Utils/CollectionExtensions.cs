@@ -12,34 +12,34 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic.Utils;
 
-[Token(Token = "0x200027F")]
+[Token(Token = "0x2000280")]
 internal static class CollectionExtensions
 {
-	[Token(Token = "0x6000C8A")]
+	[Token(Token = "0x6000C95")]
 	public static TrueReadOnlyCollection<T> AddFirst<T>(this ReadOnlyCollection<T> list, T item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C8B")]
+	[Token(Token = "0x6000C96")]
 	public static T[] AddLast<T>(this T[] array, T item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C8C")]
+	[Token(Token = "0x6000C97")]
 	public static T[] RemoveFirst<T>(this T[] array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C8D")]
+	[Token(Token = "0x6000C98")]
 	public static T[] RemoveLast<T>(this T[] array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C8E")]
+	[Token(Token = "0x6000C99")]
 	public static ReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> enumerable)
 	{
 		return null;

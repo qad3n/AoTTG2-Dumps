@@ -10,146 +10,146 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200030E")]
+[Token(Token = "0x20002E7")]
 [ComVisible(true)]
 public abstract class HMAC : KeyedHashAlgorithm
 {
-	[Token(Token = "0x4000D17")]
+	[Token(Token = "0x4000C77")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private int blockSizeValue;
 
-	[Token(Token = "0x4000D18")]
+	[Token(Token = "0x4000C78")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	internal string m_hashName;
 
-	[Token(Token = "0x4000D19")]
+	[Token(Token = "0x4000C79")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	internal HashAlgorithm m_hash1;
 
-	[Token(Token = "0x4000D1A")]
+	[Token(Token = "0x4000C7A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	internal HashAlgorithm m_hash2;
 
-	[Token(Token = "0x4000D1B")]
+	[Token(Token = "0x4000C7B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private byte[] m_inner;
 
-	[Token(Token = "0x4000D1C")]
+	[Token(Token = "0x4000C7C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private byte[] m_outer;
 
-	[Token(Token = "0x4000D1D")]
+	[Token(Token = "0x4000C7D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private bool m_hashing;
 
-	[Token(Token = "0x170002A6")]
+	[Token(Token = "0x170002A5")]
 	protected int BlockSizeValue
 	{
-		[Token(Token = "0x600197D")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Token(Token = "0x600195A")]
+		[Address(RVA = "0x533BBB0", Offset = "0x533ABB0", VA = "0x533BBB0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600197E")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Token(Token = "0x600195B")]
+		[Address(RVA = "0x533BBC0", Offset = "0x533ABC0", VA = "0x533BBC0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002A6")]
+	public override byte[] Key
+	{
+		[Token(Token = "0x600195E")]
+		[Address(RVA = "0x533BE80", Offset = "0x533AE80", VA = "0x533BE80", Slot = "23")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600195F")]
+		[Address(RVA = "0x533BF00", Offset = "0x533AF00", VA = "0x533BF00", Slot = "24")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A7")]
-	public override byte[] Key
-	{
-		[Token(Token = "0x6001981")]
-		[Address(RVA = "0x19A9D60", Offset = "0x19A8360", VA = "0x1819A9D60", Slot = "23")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6001982")]
-		[Address(RVA = "0x19A9EA0", Offset = "0x19A84A0", VA = "0x1819A9EA0", Slot = "24")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002A8")]
 	public string HashName
 	{
-		[Token(Token = "0x6001983")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x6001960")]
+		[Address(RVA = "0x533BF70", Offset = "0x533AF70", VA = "0x533BF70")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001984")]
-		[Address(RVA = "0x19A9DE0", Offset = "0x19A83E0", VA = "0x1819A9DE0")]
+		[Token(Token = "0x6001961")]
+		[Address(RVA = "0x533BF80", Offset = "0x533AF80", VA = "0x533BF80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600197F")]
-	[Address(RVA = "0x19A9BF0", Offset = "0x19A81F0", VA = "0x1819A9BF0")]
+	[Token(Token = "0x600195C")]
+	[Address(RVA = "0x533BBD0", Offset = "0x533ABD0", VA = "0x533BBD0")]
 	private void UpdateIOPadBuffers()
 	{
 	}
 
-	[Token(Token = "0x6001980")]
-	[Address(RVA = "0x19A98E0", Offset = "0x19A7EE0", VA = "0x1819A98E0")]
+	[Token(Token = "0x600195D")]
+	[Address(RVA = "0x533BD70", Offset = "0x533AD70", VA = "0x533BD70")]
 	internal void InitializeKey(byte[] key)
 	{
 	}
 
-	[Token(Token = "0x6001985")]
-	[Address(RVA = "0x19A9370", Offset = "0x19A7970", VA = "0x1819A9370")]
+	[Token(Token = "0x6001962")]
+	[Address(RVA = "0x533C030", Offset = "0x533B030", VA = "0x533C030")]
 	public new static HMAC Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001986")]
-	[Address(RVA = "0x19A92D0", Offset = "0x19A78D0", VA = "0x1819A92D0")]
+	[Token(Token = "0x6001963")]
+	[Address(RVA = "0x533C120", Offset = "0x533B120", VA = "0x533C120")]
 	public new static HMAC Create(string algorithmName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001987")]
-	[Address(RVA = "0x19A9BA0", Offset = "0x19A81A0", VA = "0x1819A9BA0", Slot = "20")]
+	[Token(Token = "0x6001964")]
+	[Address(RVA = "0x533C1B0", Offset = "0x533B1B0", VA = "0x533C1B0", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
-	[Token(Token = "0x6001988")]
-	[Address(RVA = "0x19A95C0", Offset = "0x19A7BC0", VA = "0x1819A95C0", Slot = "18")]
+	[Token(Token = "0x6001965")]
+	[Address(RVA = "0x533C200", Offset = "0x533B200", VA = "0x533C200", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ib, int cb)
 	{
 	}
 
-	[Token(Token = "0x6001989")]
-	[Address(RVA = "0x19A96C0", Offset = "0x19A7CC0", VA = "0x1819A96C0", Slot = "19")]
+	[Token(Token = "0x6001966")]
+	[Address(RVA = "0x533C280", Offset = "0x533B280", VA = "0x533C280", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600198A")]
-	[Address(RVA = "0x19A93C0", Offset = "0x19A79C0", VA = "0x1819A93C0", Slot = "13")]
+	[Token(Token = "0x6001967")]
+	[Address(RVA = "0x533C3E0", Offset = "0x533B3E0", VA = "0x533C3E0", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x600198B")]
-	[Address(RVA = "0x19A94A0", Offset = "0x19A7AA0", VA = "0x1819A94A0")]
+	[Token(Token = "0x6001968")]
+	[Address(RVA = "0x533C5A0", Offset = "0x533B5A0", VA = "0x533C5A0")]
 	internal static HashAlgorithm GetHashAlgorithmWithFipsFallback(Func<HashAlgorithm> createStandardHashAlgorithmCallback, Func<HashAlgorithm> createFipsHashAlgorithmCallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600198C")]
-	[Address(RVA = "0x19A9D50", Offset = "0x19A8350", VA = "0x1819A9D50")]
+	[Token(Token = "0x6001969")]
+	[Address(RVA = "0x533C720", Offset = "0x533B720", VA = "0x533C720")]
 	protected HMAC()
 	{
 	}

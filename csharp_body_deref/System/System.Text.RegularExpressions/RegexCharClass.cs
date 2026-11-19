@@ -11,403 +11,403 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000ED")]
+[Token(Token = "0x20000AE")]
 internal sealed class RegexCharClass
 {
-	[Token(Token = "0x20000EE")]
+	[Token(Token = "0x20000AF")]
 	private readonly struct LowerCaseMapping
 	{
-		[Token(Token = "0x40003A6")]
+		[Token(Token = "0x40002D7")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly char ChMin;
 
-		[Token(Token = "0x40003A7")]
+		[Token(Token = "0x40002D8")]
 		[FieldOffset(Offset = "0x2")]
 		public readonly char ChMax;
 
-		[Token(Token = "0x40003A8")]
+		[Token(Token = "0x40002D9")]
 		[FieldOffset(Offset = "0x4")]
 		public readonly int LcOp;
 
-		[Token(Token = "0x40003A9")]
+		[Token(Token = "0x40002DA")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly int Data;
 
-		[Token(Token = "0x600055F")]
-		[Address(RVA = "0x284C5F0", Offset = "0x284ABF0", VA = "0x18284C5F0")]
+		[Token(Token = "0x60003A9")]
+		[Address(RVA = "0x61EF620", Offset = "0x61EE620", VA = "0x61EF620")]
 		internal LowerCaseMapping(char chMin, char chMax, int lcOp, int data)
 		{
 		}
 	}
 
-	[Token(Token = "0x20000EF")]
+	[Token(Token = "0x20000B0")]
 	private sealed class SingleRangeComparer : IComparer<SingleRange>
 	{
-		[Token(Token = "0x40003AA")]
+		[Token(Token = "0x40002DB")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly SingleRangeComparer Instance;
 
-		[Token(Token = "0x6000560")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x60003AA")]
+		[Address(RVA = "0x61EF630", Offset = "0x61EE630", VA = "0x61EF630")]
 		private SingleRangeComparer()
 		{
 		}
 
-		[Token(Token = "0x6000561")]
-		[Address(RVA = "0x285F8A0", Offset = "0x285DEA0", VA = "0x18285F8A0", Slot = "4")]
+		[Token(Token = "0x60003AB")]
+		[Address(RVA = "0x61EF640", Offset = "0x61EE640", VA = "0x61EF640", Slot = "4")]
 		public int Compare(SingleRange x, SingleRange y)
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x20000F0")]
+	[Token(Token = "0x20000B1")]
 	private readonly struct SingleRange
 	{
-		[Token(Token = "0x40003AB")]
+		[Token(Token = "0x40002DC")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly char First;
 
-		[Token(Token = "0x40003AC")]
+		[Token(Token = "0x40002DD")]
 		[FieldOffset(Offset = "0x2")]
 		public readonly char Last;
 
-		[Token(Token = "0x6000563")]
-		[Address(RVA = "0x1A6A860", Offset = "0x1A68E60", VA = "0x181A6A860")]
+		[Token(Token = "0x60003AD")]
+		[Address(RVA = "0x61EF6F0", Offset = "0x61EE6F0", VA = "0x61EF6F0")]
 		internal SingleRange(char first, char last)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000393")]
+	[Token(Token = "0x40002C4")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string s_internalRegexIgnoreCase;
 
-	[Token(Token = "0x4000394")]
+	[Token(Token = "0x40002C5")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly string s_space;
 
-	[Token(Token = "0x4000395")]
+	[Token(Token = "0x40002C6")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly string s_notSpace;
 
-	[Token(Token = "0x4000396")]
+	[Token(Token = "0x40002C7")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly string s_word;
 
-	[Token(Token = "0x4000397")]
+	[Token(Token = "0x40002C8")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly string s_notWord;
 
-	[Token(Token = "0x4000398")]
+	[Token(Token = "0x40002C9")]
 	[FieldOffset(Offset = "0x28")]
 	public static readonly string SpaceClass;
 
-	[Token(Token = "0x4000399")]
+	[Token(Token = "0x40002CA")]
 	[FieldOffset(Offset = "0x30")]
 	public static readonly string NotSpaceClass;
 
-	[Token(Token = "0x400039A")]
+	[Token(Token = "0x40002CB")]
 	[FieldOffset(Offset = "0x38")]
 	public static readonly string WordClass;
 
-	[Token(Token = "0x400039B")]
+	[Token(Token = "0x40002CC")]
 	[FieldOffset(Offset = "0x40")]
 	public static readonly string NotWordClass;
 
-	[Token(Token = "0x400039C")]
+	[Token(Token = "0x40002CD")]
 	[FieldOffset(Offset = "0x48")]
 	public static readonly string DigitClass;
 
-	[Token(Token = "0x400039D")]
+	[Token(Token = "0x40002CE")]
 	[FieldOffset(Offset = "0x50")]
 	public static readonly string NotDigitClass;
 
-	[Token(Token = "0x400039E")]
+	[Token(Token = "0x40002CF")]
 	[FieldOffset(Offset = "0x58")]
 	private static readonly Dictionary<string, string> s_definedCategories;
 
-	[Token(Token = "0x400039F")]
+	[Token(Token = "0x40002D0")]
 	[FieldOffset(Offset = "0x60")]
 	private static readonly string[][] s_propTable;
 
-	[Token(Token = "0x40003A0")]
+	[Token(Token = "0x40002D1")]
 	[FieldOffset(Offset = "0x68")]
 	private static readonly LowerCaseMapping[] s_lcTable;
 
-	[Token(Token = "0x40003A1")]
+	[Token(Token = "0x40002D2")]
 	[FieldOffset(Offset = "0x10")]
 	private List<SingleRange> _rangelist;
 
-	[Token(Token = "0x40003A2")]
+	[Token(Token = "0x40002D3")]
 	[FieldOffset(Offset = "0x18")]
 	private StringBuilder _categories;
 
-	[Token(Token = "0x40003A3")]
+	[Token(Token = "0x40002D4")]
 	[FieldOffset(Offset = "0x20")]
 	private bool _canonical;
 
-	[Token(Token = "0x40003A4")]
+	[Token(Token = "0x40002D5")]
 	[FieldOffset(Offset = "0x21")]
 	private bool _negate;
 
-	[Token(Token = "0x40003A5")]
+	[Token(Token = "0x40002D6")]
 	[FieldOffset(Offset = "0x28")]
 	private RegexCharClass _subtractor;
 
-	[Token(Token = "0x170000E4")]
+	[Token(Token = "0x170000B5")]
 	public bool CanMerge
 	{
-		[Token(Token = "0x600053A")]
-		[Address(RVA = "0x2856910", Offset = "0x2854F10", VA = "0x182856910")]
+		[Token(Token = "0x6000384")]
+		[Address(RVA = "0x61E5CE0", Offset = "0x61E4CE0", VA = "0x61E5CE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000E5")]
+	[Token(Token = "0x170000B6")]
 	public bool Negate
 	{
-		[Token(Token = "0x600053B")]
-		[Address(RVA = "0x1991EB0", Offset = "0x19904B0", VA = "0x181991EB0")]
+		[Token(Token = "0x6000385")]
+		[Address(RVA = "0x61E5D00", Offset = "0x61E4D00", VA = "0x61E5D00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x28567F0", Offset = "0x2854DF0", VA = "0x1828567F0")]
+	[Token(Token = "0x6000382")]
+	[Address(RVA = "0x61E5BB0", Offset = "0x61E4BB0", VA = "0x61E5BB0")]
 	public RegexCharClass()
 	{
 	}
 
-	[Token(Token = "0x6000539")]
-	[Address(RVA = "0x28568B0", Offset = "0x2854EB0", VA = "0x1828568B0")]
+	[Token(Token = "0x6000383")]
+	[Address(RVA = "0x61E5C70", Offset = "0x61E4C70", VA = "0x61E5C70")]
 	private RegexCharClass(bool negate, List<SingleRange> ranges, StringBuilder categories, RegexCharClass subtraction)
 	{
 	}
 
-	[Token(Token = "0x600053C")]
-	[Address(RVA = "0x284F080", Offset = "0x284D680", VA = "0x18284F080")]
+	[Token(Token = "0x6000386")]
+	[Address(RVA = "0x61E5D10", Offset = "0x61E4D10", VA = "0x61E5D10")]
 	public void AddChar(char c)
 	{
 	}
 
-	[Token(Token = "0x600053D")]
-	[Address(RVA = "0x284EE60", Offset = "0x284D460", VA = "0x18284EE60")]
+	[Token(Token = "0x6000387")]
+	[Address(RVA = "0x61E5E30", Offset = "0x61E4E30", VA = "0x61E5E30")]
 	public void AddCharClass(RegexCharClass cc)
 	{
 	}
 
-	[Token(Token = "0x600053E")]
-	[Address(RVA = "0x284F5C0", Offset = "0x284DBC0", VA = "0x18284F5C0")]
+	[Token(Token = "0x6000388")]
+	[Address(RVA = "0x61E6110", Offset = "0x61E5110", VA = "0x61E6110")]
 	private void AddSet(string set)
 	{
 	}
 
-	[Token(Token = "0x600053F")]
-	[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+	[Token(Token = "0x6000389")]
+	[Address(RVA = "0x61E63B0", Offset = "0x61E53B0", VA = "0x61E63B0")]
 	public void AddSubtraction(RegexCharClass sub)
 	{
 	}
 
-	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x284F4B0", Offset = "0x284DAB0", VA = "0x18284F4B0")]
+	[Token(Token = "0x600038A")]
+	[Address(RVA = "0x61E5D20", Offset = "0x61E4D20", VA = "0x61E5D20")]
 	public void AddRange(char first, char last)
 	{
 	}
 
-	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x284EBC0", Offset = "0x284D1C0", VA = "0x18284EBC0")]
+	[Token(Token = "0x600038B")]
+	[Address(RVA = "0x61E63C0", Offset = "0x61E53C0", VA = "0x61E63C0")]
 	public void AddCategoryFromName(string categoryName, bool invert, bool caseInsensitive, string pattern)
 	{
 	}
 
-	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x284EE40", Offset = "0x284D440", VA = "0x18284EE40")]
+	[Token(Token = "0x600038C")]
+	[Address(RVA = "0x61E68E0", Offset = "0x61E58E0", VA = "0x61E68E0")]
 	private void AddCategory(string category)
 	{
 	}
 
-	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x284F360", Offset = "0x284D960", VA = "0x18284F360")]
+	[Token(Token = "0x600038D")]
+	[Address(RVA = "0x61E6900", Offset = "0x61E5900", VA = "0x61E6900")]
 	public void AddLowercase(CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x284F130", Offset = "0x284D730", VA = "0x18284F130")]
+	[Token(Token = "0x600038E")]
+	[Address(RVA = "0x61E6A90", Offset = "0x61E5A90", VA = "0x61E6A90")]
 	private void AddLowercaseRange(char chMin, char chMax, CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x284F920", Offset = "0x284DF20", VA = "0x18284F920")]
+	[Token(Token = "0x600038F")]
+	[Address(RVA = "0x61E6D90", Offset = "0x61E5D90", VA = "0x61E6D90")]
 	public void AddWord(bool ecma, bool negate)
 	{
 	}
 
-	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x284F7F0", Offset = "0x284DDF0", VA = "0x18284F7F0")]
+	[Token(Token = "0x6000390")]
+	[Address(RVA = "0x61E6E70", Offset = "0x61E5E70", VA = "0x61E6E70")]
 	public void AddSpace(bool ecma, bool negate)
 	{
 	}
 
-	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x284F090", Offset = "0x284D690", VA = "0x18284F090")]
+	[Token(Token = "0x6000391")]
+	[Address(RVA = "0x61E6F50", Offset = "0x61E5F50", VA = "0x61E6F50")]
 	public void AddDigit(bool ecma, bool negate, string pattern)
 	{
 	}
 
-	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x2850EA0", Offset = "0x284F4A0", VA = "0x182850EA0")]
+	[Token(Token = "0x6000392")]
+	[Address(RVA = "0x61E6FF0", Offset = "0x61E5FF0", VA = "0x61E6FF0")]
 	public static char SingletonChar(string set)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x6000549")]
-	[Address(RVA = "0x2850440", Offset = "0x284EA40", VA = "0x182850440")]
+	[Token(Token = "0x6000393")]
+	[Address(RVA = "0x61E7010", Offset = "0x61E6010", VA = "0x61E7010")]
 	public static bool IsMergeable(string charClass)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054A")]
-	[Address(RVA = "0x2850360", Offset = "0x284E960", VA = "0x182850360")]
+	[Token(Token = "0x6000394")]
+	[Address(RVA = "0x61E7150", Offset = "0x61E6150", VA = "0x61E7150")]
 	public static bool IsEmpty(string charClass)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054B")]
-	[Address(RVA = "0x2850680", Offset = "0x284EC80", VA = "0x182850680")]
+	[Token(Token = "0x6000395")]
+	[Address(RVA = "0x61E7220", Offset = "0x61E6220", VA = "0x61E7220")]
 	public static bool IsSingleton(string set)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054C")]
-	[Address(RVA = "0x2850540", Offset = "0x284EB40", VA = "0x182850540")]
+	[Token(Token = "0x6000396")]
+	[Address(RVA = "0x61E7340", Offset = "0x61E6340", VA = "0x61E7340")]
 	public static bool IsSingletonInverse(string set)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x28507C0", Offset = "0x284EDC0", VA = "0x1828507C0")]
+	[Token(Token = "0x6000397")]
+	[Address(RVA = "0x61E7100", Offset = "0x61E6100", VA = "0x61E7100")]
 	private static bool IsSubtraction(string charClass)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x2850510", Offset = "0x284EB10", VA = "0x182850510")]
+	[Token(Token = "0x6000398")]
+	[Address(RVA = "0x61E70E0", Offset = "0x61E60E0", VA = "0x61E70E0")]
 	private static bool IsNegated(string set)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x28502C0", Offset = "0x284E8C0", VA = "0x1828502C0")]
+	[Token(Token = "0x6000399")]
+	[Address(RVA = "0x61E7460", Offset = "0x61E6460", VA = "0x61E7460")]
 	public static bool IsECMAWordChar(char ch)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x2850820", Offset = "0x284EE20", VA = "0x182850820")]
+	[Token(Token = "0x600039A")]
+	[Address(RVA = "0x61E7580", Offset = "0x61E6580", VA = "0x61E7580")]
 	public static bool IsWordChar(char ch)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x2850200", Offset = "0x284E800", VA = "0x182850200")]
+	[Token(Token = "0x600039B")]
+	[Address(RVA = "0x61E7530", Offset = "0x61E6530", VA = "0x61E7530")]
 	public static bool CharInClass(char ch, string set)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x28500C0", Offset = "0x284E6C0", VA = "0x1828500C0")]
+	[Token(Token = "0x600039C")]
+	[Address(RVA = "0x61E7660", Offset = "0x61E6660", VA = "0x61E7660")]
 	private static bool CharInClassRecursive(char ch, string set, int start)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000553")]
-	[Address(RVA = "0x284FEB0", Offset = "0x284E4B0", VA = "0x18284FEB0")]
+	[Token(Token = "0x600039D")]
+	[Address(RVA = "0x61E7770", Offset = "0x61E6770", VA = "0x61E7770")]
 	private static bool CharInClassInternal(char ch, string set, int start, int mySetLength, int myCategoryLength)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000554")]
-	[Address(RVA = "0x284FD50", Offset = "0x284E350", VA = "0x18284FD50")]
+	[Token(Token = "0x600039E")]
+	[Address(RVA = "0x61E7880", Offset = "0x61E6880", VA = "0x61E7880")]
 	private static bool CharInCategory(char ch, string set, int start, int mySetLength, int myCategoryLength)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000555")]
-	[Address(RVA = "0x284FC90", Offset = "0x284E290", VA = "0x18284FC90")]
+	[Token(Token = "0x600039F")]
+	[Address(RVA = "0x61E7A20", Offset = "0x61E6A20", VA = "0x61E7A20")]
 	private static bool CharInCategoryGroup(char ch, UnicodeCategory chcategory, string category, ref int i)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000556")]
-	[Address(RVA = "0x28508F0", Offset = "0x284EEF0", VA = "0x1828508F0")]
+	[Token(Token = "0x60003A0")]
+	[Address(RVA = "0x61E65D0", Offset = "0x61E55D0", VA = "0x61E65D0")]
 	private static string NegateCategory(string category)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000557")]
-	[Address(RVA = "0x2850BC0", Offset = "0x284F1C0", VA = "0x182850BC0")]
+	[Token(Token = "0x60003A1")]
+	[Address(RVA = "0x61E7AF0", Offset = "0x61E6AF0", VA = "0x61E7AF0")]
 	public static RegexCharClass Parse(string charClass)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000558")]
-	[Address(RVA = "0x2850980", Offset = "0x284EF80", VA = "0x182850980")]
+	[Token(Token = "0x60003A2")]
+	[Address(RVA = "0x61E7B60", Offset = "0x61E6B60", VA = "0x61E7B60")]
 	private static RegexCharClass ParseRecursive(string charClass, int start)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000559")]
-	[Address(RVA = "0x2850C10", Offset = "0x284F210", VA = "0x182850C10")]
+	[Token(Token = "0x60003A3")]
+	[Address(RVA = "0x61E6080", Offset = "0x61E5080", VA = "0x61E6080")]
 	private int RangeCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600055A")]
-	[Address(RVA = "0x2850EC0", Offset = "0x284F4C0", VA = "0x182850EC0")]
+	[Token(Token = "0x60003A4")]
+	[Address(RVA = "0x61E7E20", Offset = "0x61E6E20", VA = "0x61E7E20")]
 	public string ToStringClass()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600055B")]
-	[Address(RVA = "0x2850260", Offset = "0x284E860", VA = "0x182850260")]
+	[Token(Token = "0x60003A5")]
+	[Address(RVA = "0x61E60C0", Offset = "0x61E50C0", VA = "0x61E60C0")]
 	private SingleRange GetRangeAt(int i)
 	{
 		return default(SingleRange);
 	}
 
-	[Token(Token = "0x600055C")]
-	[Address(RVA = "0x284FA50", Offset = "0x284E050", VA = "0x18284FA50")]
+	[Token(Token = "0x60003A6")]
+	[Address(RVA = "0x61E7FC0", Offset = "0x61E6FC0", VA = "0x61E7FC0")]
 	private void Canonicalize()
 	{
 	}
 
-	[Token(Token = "0x600055D")]
-	[Address(RVA = "0x2850C50", Offset = "0x284F250", VA = "0x182850C50")]
+	[Token(Token = "0x60003A7")]
+	[Address(RVA = "0x61E6650", Offset = "0x61E5650", VA = "0x61E6650")]
 	private static string SetFromProperty(string capname, bool invert, string pattern)
 	{
 		return null;

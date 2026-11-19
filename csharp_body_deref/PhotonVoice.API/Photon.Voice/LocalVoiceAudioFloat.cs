@@ -13,7 +13,7 @@ namespace Photon.Voice;
 public class LocalVoiceAudioFloat : LocalVoiceAudio<float>
 {
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x1D6C0F0", Offset = "0x1D6A6F0", VA = "0x181D6C0F0")]
+	[Address(RVA = "0x5711500", Offset = "0x5710500", VA = "0x5711500")]
 	internal LocalVoiceAudioFloat(VoiceClient voiceClient, byte id, VoiceInfo voiceInfo, IAudioDesc audioSourceDesc, int channelId, VoiceCreateOptions opt)
 	{
 	}

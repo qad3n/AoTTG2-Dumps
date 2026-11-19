@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200050D")]
+[Token(Token = "0x20004E6")]
 public interface ICustomAttributeProvider
 {
-	[Token(Token = "0x60024A1")]
+	[Token(Token = "0x600246F")]
 	object[] GetCustomAttributes(bool inherit);
 
-	[Token(Token = "0x60024A2")]
+	[Token(Token = "0x6002470")]
 	object[] GetCustomAttributes(Type attributeType, bool inherit);
 
-	[Token(Token = "0x60024A3")]
+	[Token(Token = "0x6002471")]
 	bool IsDefined(Type attributeType, bool inherit);
 }

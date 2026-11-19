@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x2000370")]
+[Token(Token = "0x200032C")]
 internal class RequestCacheValidator
 {
-	[Token(Token = "0x600177B")]
-	[Address(RVA = "0x27F6A70", Offset = "0x27F5070", VA = "0x1827F6A70")]
+	[Token(Token = "0x60015C2")]
+	[Address(RVA = "0x61A5180", Offset = "0x61A4180", VA = "0x61A5180")]
 	public object CreateValidator()
 	{
 		return null;

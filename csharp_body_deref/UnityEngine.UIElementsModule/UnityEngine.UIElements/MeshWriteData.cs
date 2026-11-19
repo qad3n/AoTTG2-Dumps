@@ -32,7 +32,7 @@ public class MeshWriteData
 	internal int currentVertex;
 
 	[Token(Token = "0x6001312")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6CBDC60", Offset = "0x6CBCC60", VA = "0x6CBDC60")]
 	internal MeshWriteData()
 	{
 	}

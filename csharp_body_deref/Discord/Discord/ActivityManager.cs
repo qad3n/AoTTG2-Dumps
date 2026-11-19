@@ -190,7 +190,7 @@ public class ActivityManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x52AA10", Offset = "0x529010", VA = "0x18052AA10")]
+		[Address(RVA = "0x313D090", Offset = "0x313C090", VA = "0x313D090")]
 		get
 		{
 			return default(FFIMethods);
@@ -201,13 +201,13 @@ public class ActivityManager
 	public event ActivityJoinHandler OnActivityJoin
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x52A8D0", Offset = "0x528ED0", VA = "0x18052A8D0")]
+		[Address(RVA = "0x313D1B0", Offset = "0x313C1B0", VA = "0x313D1B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x52AC70", Offset = "0x529270", VA = "0x18052AC70")]
+		[Address(RVA = "0x313D240", Offset = "0x313C240", VA = "0x313D240")]
 		[CompilerGenerated]
 		remove
 		{
@@ -218,13 +218,13 @@ public class ActivityManager
 	public event ActivitySpectateHandler OnActivitySpectate
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x52A970", Offset = "0x528F70", VA = "0x18052A970")]
+		[Address(RVA = "0x313D2D0", Offset = "0x313C2D0", VA = "0x313D2D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x52AD10", Offset = "0x529310", VA = "0x18052AD10")]
+		[Address(RVA = "0x313D360", Offset = "0x313C360", VA = "0x313D360")]
 		[CompilerGenerated]
 		remove
 		{
@@ -235,13 +235,13 @@ public class ActivityManager
 	public event ActivityJoinRequestHandler OnActivityJoinRequest
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x52A830", Offset = "0x528E30", VA = "0x18052A830")]
+		[Address(RVA = "0x313D3F0", Offset = "0x313C3F0", VA = "0x313D3F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x52ABD0", Offset = "0x5291D0", VA = "0x18052ABD0")]
+		[Address(RVA = "0x313D480", Offset = "0x313C480", VA = "0x313D480")]
 		[CompilerGenerated]
 		remove
 		{
@@ -252,13 +252,13 @@ public class ActivityManager
 	public event ActivityInviteHandler OnActivityInvite
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x52A790", Offset = "0x528D90", VA = "0x18052A790")]
+		[Address(RVA = "0x313D510", Offset = "0x313C510", VA = "0x313D510")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x52AB30", Offset = "0x529130", VA = "0x18052AB30")]
+		[Address(RVA = "0x313D5A0", Offset = "0x313C5A0", VA = "0x313D5A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -266,123 +266,123 @@ public class ActivityManager
 	}
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x529E80", Offset = "0x528480", VA = "0x180529E80")]
+	[Address(RVA = "0x313D000", Offset = "0x313C000", VA = "0x313D000")]
 	public void RegisterCommand()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x52A6C0", Offset = "0x528CC0", VA = "0x18052A6C0")]
+	[Address(RVA = "0x313D630", Offset = "0x313C630", VA = "0x313D630")]
 	internal ActivityManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x5295F0", Offset = "0x527BF0", VA = "0x1805295F0")]
+	[Address(RVA = "0x313D740", Offset = "0x313C740", VA = "0x313D740")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x529DF0", Offset = "0x5283F0", VA = "0x180529DF0")]
+	[Address(RVA = "0x313D010", Offset = "0x313C010", VA = "0x313D010")]
 	public void RegisterCommand(string command)
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x529F10", Offset = "0x528510", VA = "0x180529F10")]
+	[Address(RVA = "0x313DD10", Offset = "0x313CD10", VA = "0x313DD10")]
 	public void RegisterSteam(uint steamId)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x52A470", Offset = "0x528A70", VA = "0x18052A470")]
+	[Address(RVA = "0x313C750", Offset = "0x313B750", VA = "0x313C750")]
 	[MonoPInvokeCallback]
 	private static void UpdateActivityCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x52A580", Offset = "0x528B80", VA = "0x18052A580")]
+	[Address(RVA = "0x313DD90", Offset = "0x313CD90", VA = "0x313DD90")]
 	public void UpdateActivity(Activity activity, UpdateActivityHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x5293B0", Offset = "0x5279B0", VA = "0x1805293B0")]
+	[Address(RVA = "0x313C830", Offset = "0x313B830", VA = "0x313C830")]
 	[MonoPInvokeCallback]
 	private static void ClearActivityCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x5294C0", Offset = "0x527AC0", VA = "0x1805294C0")]
+	[Address(RVA = "0x313DF70", Offset = "0x313CF70", VA = "0x313DF70")]
 	public void ClearActivity(ClearActivityHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x52A210", Offset = "0x528810", VA = "0x18052A210")]
+	[Address(RVA = "0x313C910", Offset = "0x313B910", VA = "0x313C910")]
 	[MonoPInvokeCallback]
 	private static void SendRequestReplyCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x52A320", Offset = "0x528920", VA = "0x18052A320")]
+	[Address(RVA = "0x313E140", Offset = "0x313D140", VA = "0x313E140")]
 	public void SendRequestReply(long userId, ActivityJoinRequestReply reply, SendRequestReplyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x529FA0", Offset = "0x5285A0", VA = "0x180529FA0")]
+	[Address(RVA = "0x313C9F0", Offset = "0x313B9F0", VA = "0x313C9F0")]
 	[MonoPInvokeCallback]
 	private static void SendInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x52A0B0", Offset = "0x5286B0", VA = "0x18052A0B0")]
+	[Address(RVA = "0x313E330", Offset = "0x313D330", VA = "0x313E330")]
 	public void SendInvite(long userId, ActivityActionType type, string content, SendInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x529160", Offset = "0x527760", VA = "0x180529160")]
+	[Address(RVA = "0x313CAD0", Offset = "0x313BAD0", VA = "0x313CAD0")]
 	[MonoPInvokeCallback]
 	private static void AcceptInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x529270", Offset = "0x527870", VA = "0x180529270")]
+	[Address(RVA = "0x313E520", Offset = "0x313D520", VA = "0x313E520")]
 	public void AcceptInvite(long userId, AcceptInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x529A90", Offset = "0x528090", VA = "0x180529A90")]
+	[Address(RVA = "0x313CBB0", Offset = "0x313BBB0", VA = "0x313CBB0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityJoinImpl(IntPtr ptr, string secret)
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x529CD0", Offset = "0x5282D0", VA = "0x180529CD0")]
+	[Address(RVA = "0x313CCC0", Offset = "0x313BCC0", VA = "0x313CCC0")]
 	[MonoPInvokeCallback]
 	private static void OnActivitySpectateImpl(IntPtr ptr, string secret)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x529BB0", Offset = "0x5281B0", VA = "0x180529BB0")]
+	[Address(RVA = "0x313CDD0", Offset = "0x313BDD0", VA = "0x313CDD0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityJoinRequestImpl(IntPtr ptr, ref User user)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x529960", Offset = "0x527F60", VA = "0x180529960")]
+	[Address(RVA = "0x313CEE0", Offset = "0x313BEE0", VA = "0x313CEE0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityInviteImpl(IntPtr ptr, ActivityActionType type, ref User user, ref Activity activity)
 	{

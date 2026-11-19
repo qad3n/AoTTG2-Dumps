@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.FaceInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -148,7 +148,7 @@ public struct FaceInfo
 	internal int faceIndex
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
+		[Address(RVA = "0x69F7670", Offset = "0x69F6670", VA = "0x69F7670")]
 		get
 		{
 			return default(int);
@@ -159,7 +159,7 @@ public struct FaceInfo
 	public string familyName
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0")]
+		[Address(RVA = "0x69F7680", Offset = "0x69F6680", VA = "0x69F7680")]
 		get
 		{
 			return null;
@@ -170,7 +170,7 @@ public struct FaceInfo
 	public string styleName
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Address(RVA = "0x69F7690", Offset = "0x69F6690", VA = "0x69F7690")]
 		get
 		{
 			return null;
@@ -181,7 +181,7 @@ public struct FaceInfo
 	public float pointSize
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x2E82BD0", Offset = "0x2E811D0", VA = "0x182E82BD0")]
+		[Address(RVA = "0x69F76A0", Offset = "0x69F66A0", VA = "0x69F76A0")]
 		get
 		{
 			return default(float);
@@ -192,13 +192,13 @@ public struct FaceInfo
 	public float scale
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x2E8CC00", Offset = "0x2E8B200", VA = "0x182E8CC00")]
+		[Address(RVA = "0x69F76B0", Offset = "0x69F66B0", VA = "0x69F76B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
+		[Address(RVA = "0x69F76C0", Offset = "0x69F66C0", VA = "0x69F76C0")]
 		set
 		{
 		}
@@ -209,13 +209,13 @@ public struct FaceInfo
 	internal int unitsPerEM
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
+		[Address(RVA = "0x69F76D0", Offset = "0x69F66D0", VA = "0x69F76D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x69F76E0", Offset = "0x69F66E0", VA = "0x69F76E0")]
 		set
 		{
 		}
@@ -225,7 +225,7 @@ public struct FaceInfo
 	public float lineHeight
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x2F2DDD0", Offset = "0x2F2C3D0", VA = "0x182F2DDD0")]
+		[Address(RVA = "0x69F76F0", Offset = "0x69F66F0", VA = "0x69F76F0")]
 		get
 		{
 			return default(float);
@@ -236,7 +236,7 @@ public struct FaceInfo
 	public float ascentLine
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x2FFD2A0", Offset = "0x2FFB8A0", VA = "0x182FFD2A0")]
+		[Address(RVA = "0x69F7700", Offset = "0x69F6700", VA = "0x69F7700")]
 		get
 		{
 			return default(float);
@@ -247,13 +247,13 @@ public struct FaceInfo
 	public float capLine
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
+		[Address(RVA = "0x69F7710", Offset = "0x69F6710", VA = "0x69F7710")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
+		[Address(RVA = "0x69F7720", Offset = "0x69F6720", VA = "0x69F7720")]
 		set
 		{
 		}
@@ -263,13 +263,13 @@ public struct FaceInfo
 	public float meanLine
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x2E8CBF0", Offset = "0x2E8B1F0", VA = "0x182E8CBF0")]
+		[Address(RVA = "0x69F7730", Offset = "0x69F6730", VA = "0x69F7730")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
+		[Address(RVA = "0x69F7740", Offset = "0x69F6740", VA = "0x69F7740")]
 		set
 		{
 		}
@@ -279,7 +279,7 @@ public struct FaceInfo
 	public float baseline
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x2FC65E0", Offset = "0x2FC4BE0", VA = "0x182FC65E0")]
+		[Address(RVA = "0x69F7750", Offset = "0x69F6750", VA = "0x69F7750")]
 		get
 		{
 			return default(float);
@@ -290,7 +290,7 @@ public struct FaceInfo
 	public float descentLine
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x2FC65D0", Offset = "0x2FC4BD0", VA = "0x182FC65D0")]
+		[Address(RVA = "0x69F7760", Offset = "0x69F6760", VA = "0x69F7760")]
 		get
 		{
 			return default(float);
@@ -301,7 +301,7 @@ public struct FaceInfo
 	public float superscriptOffset
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x2FC6590", Offset = "0x2FC4B90", VA = "0x182FC6590")]
+		[Address(RVA = "0x69F7770", Offset = "0x69F6770", VA = "0x69F7770")]
 		get
 		{
 			return default(float);
@@ -312,7 +312,7 @@ public struct FaceInfo
 	public float superscriptSize
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x2FC65A0", Offset = "0x2FC4BA0", VA = "0x182FC65A0")]
+		[Address(RVA = "0x69F7780", Offset = "0x69F6780", VA = "0x69F7780")]
 		get
 		{
 			return default(float);
@@ -323,7 +323,7 @@ public struct FaceInfo
 	public float subscriptOffset
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x2FFD2C0", Offset = "0x2FFB8C0", VA = "0x182FFD2C0")]
+		[Address(RVA = "0x69F7790", Offset = "0x69F6790", VA = "0x69F7790")]
 		get
 		{
 			return default(float);
@@ -334,7 +334,7 @@ public struct FaceInfo
 	public float subscriptSize
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x2FFD2D0", Offset = "0x2FFB8D0", VA = "0x182FFD2D0")]
+		[Address(RVA = "0x69F77A0", Offset = "0x69F67A0", VA = "0x69F77A0")]
 		get
 		{
 			return default(float);
@@ -345,7 +345,7 @@ public struct FaceInfo
 	public float underlineOffset
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x2FFD2F0", Offset = "0x2FFB8F0", VA = "0x182FFD2F0")]
+		[Address(RVA = "0x69F77B0", Offset = "0x69F67B0", VA = "0x69F77B0")]
 		get
 		{
 			return default(float);
@@ -356,7 +356,7 @@ public struct FaceInfo
 	public float underlineThickness
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x2FFD300", Offset = "0x2FFB900", VA = "0x182FFD300")]
+		[Address(RVA = "0x69F77C0", Offset = "0x69F67C0", VA = "0x69F77C0")]
 		get
 		{
 			return default(float);
@@ -367,13 +367,13 @@ public struct FaceInfo
 	public float strikethroughOffset
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x2FFD2B0", Offset = "0x2FFB8B0", VA = "0x182FFD2B0")]
+		[Address(RVA = "0x69F77D0", Offset = "0x69F67D0", VA = "0x69F77D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x2D45F10", Offset = "0x2D44510", VA = "0x182D45F10")]
+		[Address(RVA = "0x69F77E0", Offset = "0x69F67E0", VA = "0x69F77E0")]
 		set
 		{
 		}
@@ -383,7 +383,7 @@ public struct FaceInfo
 	public float tabWidth
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x2FFD2E0", Offset = "0x2FFB8E0", VA = "0x182FFD2E0")]
+		[Address(RVA = "0x69F77F0", Offset = "0x69F67F0", VA = "0x69F77F0")]
 		get
 		{
 			return default(float);

@@ -15,35 +15,35 @@ using UnityEngine.U2D;
 namespace UnityEngine.Tilemaps;
 
 [Token(Token = "0x200000B")]
-[UnityEngine.Bindings.NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Tilemap/TilemapRendererJobs.h")]
-[RequireComponent(typeof(Tilemap))]
-[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/Public/TilemapRenderer.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
+[UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/Public/TilemapRenderer.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Tilemap/TilemapRendererJobs.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
+[RequireComponent(typeof(Tilemap))]
 public sealed class TilemapRenderer : Renderer
 {
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3061120", Offset = "0x305F720", VA = "0x183061120")]
+	[Address(RVA = "0x6A5D000", Offset = "0x6A5C000", VA = "0x6A5D000")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void RegisterSpriteAtlasRegistered()
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x3061190", Offset = "0x305F790", VA = "0x183061190")]
+	[Address(RVA = "0x6A5D070", Offset = "0x6A5C070", VA = "0x6A5D070")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void UnregisterSpriteAtlasRegistered()
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x3061060", Offset = "0x305F660", VA = "0x183061060")]
+	[Address(RVA = "0x6A5D0E0", Offset = "0x6A5C0E0", VA = "0x6A5D0E0")]
 	internal void OnSpriteAtlasRegistered(SpriteAtlas atlas)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x3061010", Offset = "0x305F610", VA = "0x183061010")]
+	[Address(RVA = "0x6A5D1B0", Offset = "0x6A5C1B0", VA = "0x6A5D1B0")]
 	private static extern void OnSpriteAtlasRegistered_Injected(IntPtr _unity_self, IntPtr atlas);
 }

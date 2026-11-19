@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003B0")]
+[Token(Token = "0x2000389")]
 [ComVisible(true)]
 public interface IChannelSender : IChannel
 {
-	[Token(Token = "0x6001E16")]
+	[Token(Token = "0x6001DEC")]
 	IMessageSink CreateMessageSink(string url, object remoteChannelData, out string objectURI);
 }

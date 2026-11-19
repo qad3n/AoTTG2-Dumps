@@ -33,7 +33,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 	public unsafe ref float3 this[int index]
 	{
 		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0x841BD0", Offset = "0x8401D0", VA = "0x180841BD0")]
+		[Address(RVA = "0x644D1E0", Offset = "0x644C1E0", VA = "0x644D1E0")]
 		get
 		{
 			return ref *(float3*)null;
@@ -42,84 +42,84 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600127D")]
-	[Address(RVA = "0x565080", Offset = "0x563680", VA = "0x180565080")]
+	[Address(RVA = "0x644BC40", Offset = "0x644AC40", VA = "0x644BC40")]
 	public float3x2(float3 c0, float3 c1)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600127E")]
-	[Address(RVA = "0x2A7CB30", Offset = "0x2A7B130", VA = "0x182A7CB30")]
+	[Address(RVA = "0x644BC60", Offset = "0x644AC60", VA = "0x644BC60")]
 	public float3x2(float m00, float m01, float m10, float m11, float m20, float m21)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600127F")]
-	[Address(RVA = "0x2A781E0", Offset = "0x2A767E0", VA = "0x182A781E0")]
+	[Address(RVA = "0x644BC80", Offset = "0x644AC80", VA = "0x644BC80")]
 	public float3x2(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001280")]
-	[Address(RVA = "0x2A7CBE0", Offset = "0x2A7B1E0", VA = "0x182A7CBE0")]
+	[Address(RVA = "0x644BCA0", Offset = "0x644ACA0", VA = "0x644BCA0")]
 	public float3x2(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001281")]
-	[Address(RVA = "0x2A7CC70", Offset = "0x2A7B270", VA = "0x182A7CC70")]
+	[Address(RVA = "0x644BCE0", Offset = "0x644ACE0", VA = "0x644BCE0")]
 	public float3x2(bool3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001282")]
-	[Address(RVA = "0x2A7CAF0", Offset = "0x2A7B0F0", VA = "0x182A7CAF0")]
+	[Address(RVA = "0x644BD90", Offset = "0x644AD90", VA = "0x644BD90")]
 	public float3x2(int v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001283")]
-	[Address(RVA = "0x2A7CD80", Offset = "0x2A7B380", VA = "0x182A7CD80")]
+	[Address(RVA = "0x644BDB0", Offset = "0x644ADB0", VA = "0x644BDB0")]
 	public float3x2(int3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001284")]
-	[Address(RVA = "0x2A7CB60", Offset = "0x2A7B160", VA = "0x182A7CB60")]
+	[Address(RVA = "0x644BE00", Offset = "0x644AE00", VA = "0x644BE00")]
 	public float3x2(uint v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001285")]
-	[Address(RVA = "0x2A7CCF0", Offset = "0x2A7B2F0", VA = "0x182A7CCF0")]
+	[Address(RVA = "0x644BE20", Offset = "0x644AE20", VA = "0x644BE20")]
 	public float3x2(uint3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001286")]
-	[Address(RVA = "0x2A7CC20", Offset = "0x2A7B220", VA = "0x182A7CC20")]
+	[Address(RVA = "0x644BE80", Offset = "0x644AE80", VA = "0x644BE80")]
 	public float3x2(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001287")]
-	[Address(RVA = "0x2A78010", Offset = "0x2A76610", VA = "0x182A78010")]
+	[Address(RVA = "0x644BEA0", Offset = "0x644AEA0", VA = "0x644BEA0")]
 	public float3x2(double3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001288")]
-	[Address(RVA = "0x29DF700", Offset = "0x29DDD00", VA = "0x1829DF700")]
+	[Address(RVA = "0x644BEE0", Offset = "0x644AEE0", VA = "0x644BEE0")]
 	public static implicit operator float3x2(float v)
 	{
 		return default(float3x2);
@@ -127,7 +127,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001289")]
-	[Address(RVA = "0x29E0480", Offset = "0x29DEA80", VA = "0x1829E0480")]
+	[Address(RVA = "0x644BF00", Offset = "0x644AF00", VA = "0x644BF00")]
 	public static explicit operator float3x2(bool v)
 	{
 		return default(float3x2);
@@ -135,7 +135,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128A")]
-	[Address(RVA = "0x29E06E0", Offset = "0x29DECE0", VA = "0x1829E06E0")]
+	[Address(RVA = "0x644BF40", Offset = "0x644AF40", VA = "0x644BF40")]
 	public static explicit operator float3x2(bool3x2 v)
 	{
 		return default(float3x2);
@@ -143,7 +143,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128B")]
-	[Address(RVA = "0x29E04C0", Offset = "0x29DEAC0", VA = "0x1829E04C0")]
+	[Address(RVA = "0x644BFF0", Offset = "0x644AFF0", VA = "0x644BFF0")]
 	public static implicit operator float3x2(int v)
 	{
 		return default(float3x2);
@@ -151,7 +151,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128C")]
-	[Address(RVA = "0x29E0550", Offset = "0x29DEB50", VA = "0x1829E0550")]
+	[Address(RVA = "0x644C010", Offset = "0x644B010", VA = "0x644C010")]
 	public static implicit operator float3x2(int3x2 v)
 	{
 		return default(float3x2);
@@ -159,7 +159,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128D")]
-	[Address(RVA = "0x29E0660", Offset = "0x29DEC60", VA = "0x1829E0660")]
+	[Address(RVA = "0x644C060", Offset = "0x644B060", VA = "0x644C060")]
 	public static implicit operator float3x2(uint v)
 	{
 		return default(float3x2);
@@ -167,7 +167,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128E")]
-	[Address(RVA = "0x29E03C0", Offset = "0x29DE9C0", VA = "0x1829E03C0")]
+	[Address(RVA = "0x644C090", Offset = "0x644B090", VA = "0x644C090")]
 	public static implicit operator float3x2(uint3x2 v)
 	{
 		return default(float3x2);
@@ -175,7 +175,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600128F")]
-	[Address(RVA = "0x29E0500", Offset = "0x29DEB00", VA = "0x1829E0500")]
+	[Address(RVA = "0x644C0F0", Offset = "0x644B0F0", VA = "0x644C0F0")]
 	public static explicit operator float3x2(double v)
 	{
 		return default(float3x2);
@@ -183,7 +183,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001290")]
-	[Address(RVA = "0x29E0350", Offset = "0x29DE950", VA = "0x1829E0350")]
+	[Address(RVA = "0x644C110", Offset = "0x644B110", VA = "0x644C110")]
 	public static explicit operator float3x2(double3x2 v)
 	{
 		return default(float3x2);
@@ -191,7 +191,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x2A7DBF0", Offset = "0x2A7C1F0", VA = "0x182A7DBF0")]
+	[Address(RVA = "0x644C150", Offset = "0x644B150", VA = "0x644C150")]
 	public static float3x2 operator *(float3x2 lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -199,7 +199,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x2A7DCB0", Offset = "0x2A7C2B0", VA = "0x182A7DCB0")]
+	[Address(RVA = "0x644C1A0", Offset = "0x644B1A0", VA = "0x644C1A0")]
 	public static float3x2 operator *(float3x2 lhs, float rhs)
 	{
 		return default(float3x2);
@@ -207,7 +207,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x2A7DC50", Offset = "0x2A7C250", VA = "0x182A7DC50")]
+	[Address(RVA = "0x644C1E0", Offset = "0x644B1E0", VA = "0x644C1E0")]
 	public static float3x2 operator *(float lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -215,7 +215,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001294")]
-	[Address(RVA = "0x2A7CE50", Offset = "0x2A7B450", VA = "0x182A7CE50")]
+	[Address(RVA = "0x644C220", Offset = "0x644B220", VA = "0x644C220")]
 	public static float3x2 operator +(float3x2 lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -223,7 +223,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001295")]
-	[Address(RVA = "0x2A7CEB0", Offset = "0x2A7B4B0", VA = "0x182A7CEB0")]
+	[Address(RVA = "0x644C270", Offset = "0x644B270", VA = "0x644C270")]
 	public static float3x2 operator +(float3x2 lhs, float rhs)
 	{
 		return default(float3x2);
@@ -231,7 +231,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001296")]
-	[Address(RVA = "0x2A7CDF0", Offset = "0x2A7B3F0", VA = "0x182A7CDF0")]
+	[Address(RVA = "0x644C2B0", Offset = "0x644B2B0", VA = "0x644C2B0")]
 	public static float3x2 operator +(float lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -239,7 +239,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001297")]
-	[Address(RVA = "0x2A7DD00", Offset = "0x2A7C300", VA = "0x182A7DD00")]
+	[Address(RVA = "0x644C2F0", Offset = "0x644B2F0", VA = "0x644C2F0")]
 	public static float3x2 operator -(float3x2 lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -247,7 +247,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001298")]
-	[Address(RVA = "0x2A7DD60", Offset = "0x2A7C360", VA = "0x182A7DD60")]
+	[Address(RVA = "0x644C340", Offset = "0x644B340", VA = "0x644C340")]
 	public static float3x2 operator -(float3x2 lhs, float rhs)
 	{
 		return default(float3x2);
@@ -255,7 +255,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001299")]
-	[Address(RVA = "0x2A7DDC0", Offset = "0x2A7C3C0", VA = "0x182A7DDC0")]
+	[Address(RVA = "0x644C380", Offset = "0x644B380", VA = "0x644C380")]
 	public static float3x2 operator -(float lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -263,7 +263,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129A")]
-	[Address(RVA = "0x2A7CFE0", Offset = "0x2A7B5E0", VA = "0x182A7CFE0")]
+	[Address(RVA = "0x644C3C0", Offset = "0x644B3C0", VA = "0x644C3C0")]
 	public static float3x2 operator /(float3x2 lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -271,7 +271,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129B")]
-	[Address(RVA = "0x2A7CF80", Offset = "0x2A7B580", VA = "0x182A7CF80")]
+	[Address(RVA = "0x644C410", Offset = "0x644B410", VA = "0x644C410")]
 	public static float3x2 operator /(float3x2 lhs, float rhs)
 	{
 		return default(float3x2);
@@ -279,7 +279,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129C")]
-	[Address(RVA = "0x2A7D040", Offset = "0x2A7B640", VA = "0x182A7D040")]
+	[Address(RVA = "0x644C450", Offset = "0x644B450", VA = "0x644C450")]
 	public static float3x2 operator /(float lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -287,7 +287,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129D")]
-	[Address(RVA = "0x2A7D980", Offset = "0x2A7BF80", VA = "0x182A7D980")]
+	[Address(RVA = "0x644C490", Offset = "0x644B490", VA = "0x644C490")]
 	public static float3x2 operator %(float3x2 lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -295,7 +295,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129E")]
-	[Address(RVA = "0x2A7DB20", Offset = "0x2A7C120", VA = "0x182A7DB20")]
+	[Address(RVA = "0x644C5D0", Offset = "0x644B5D0", VA = "0x644C5D0")]
 	public static float3x2 operator %(float3x2 lhs, float rhs)
 	{
 		return default(float3x2);
@@ -303,7 +303,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600129F")]
-	[Address(RVA = "0x2A7DA50", Offset = "0x2A7C050", VA = "0x182A7DA50")]
+	[Address(RVA = "0x644C6D0", Offset = "0x644B6D0", VA = "0x644C6D0")]
 	public static float3x2 operator %(float lhs, float3x2 rhs)
 	{
 		return default(float3x2);
@@ -311,7 +311,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A0")]
-	[Address(RVA = "0x2A7D4C0", Offset = "0x2A7BAC0", VA = "0x182A7D4C0")]
+	[Address(RVA = "0x644C7D0", Offset = "0x644B7D0", VA = "0x644C7D0")]
 	public static float3x2 operator ++(float3x2 val)
 	{
 		return default(float3x2);
@@ -319,7 +319,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A1")]
-	[Address(RVA = "0x2A7CF00", Offset = "0x2A7B500", VA = "0x182A7CF00")]
+	[Address(RVA = "0x644C820", Offset = "0x644B820", VA = "0x644C820")]
 	public static float3x2 operator --(float3x2 val)
 	{
 		return default(float3x2);
@@ -327,7 +327,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A2")]
-	[Address(RVA = "0x2A7D8C0", Offset = "0x2A7BEC0", VA = "0x182A7D8C0")]
+	[Address(RVA = "0x644C870", Offset = "0x644B870", VA = "0x644C870")]
 	public static bool3x2 operator <(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -335,7 +335,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A3")]
-	[Address(RVA = "0x2A7D930", Offset = "0x2A7BF30", VA = "0x182A7D930")]
+	[Address(RVA = "0x644C900", Offset = "0x644B900", VA = "0x644C900")]
 	public static bool3x2 operator <(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -343,7 +343,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A4")]
-	[Address(RVA = "0x2A7D850", Offset = "0x2A7BE50", VA = "0x182A7D850")]
+	[Address(RVA = "0x644C970", Offset = "0x644B970", VA = "0x644C970")]
 	public static bool3x2 operator <(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -351,7 +351,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A5")]
-	[Address(RVA = "0x2A7D7E0", Offset = "0x2A7BDE0", VA = "0x182A7D7E0")]
+	[Address(RVA = "0x644C9E0", Offset = "0x644B9E0", VA = "0x644C9E0")]
 	public static bool3x2 operator <=(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -359,7 +359,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A6")]
-	[Address(RVA = "0x2A7D790", Offset = "0x2A7BD90", VA = "0x182A7D790")]
+	[Address(RVA = "0x644CA70", Offset = "0x644BA70", VA = "0x644CA70")]
 	public static bool3x2 operator <=(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -367,7 +367,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A7")]
-	[Address(RVA = "0x2A7D720", Offset = "0x2A7BD20", VA = "0x182A7D720")]
+	[Address(RVA = "0x644CAE0", Offset = "0x644BAE0", VA = "0x644CAE0")]
 	public static bool3x2 operator <=(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -375,7 +375,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A8")]
-	[Address(RVA = "0x2A7D400", Offset = "0x2A7BA00", VA = "0x182A7D400")]
+	[Address(RVA = "0x644CB50", Offset = "0x644BB50", VA = "0x644CB50")]
 	public static bool3x2 operator >(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -383,7 +383,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012A9")]
-	[Address(RVA = "0x2A7D3A0", Offset = "0x2A7B9A0", VA = "0x182A7D3A0")]
+	[Address(RVA = "0x644CBE0", Offset = "0x644BBE0", VA = "0x644CBE0")]
 	public static bool3x2 operator >(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -391,7 +391,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AA")]
-	[Address(RVA = "0x2A7D470", Offset = "0x2A7BA70", VA = "0x182A7D470")]
+	[Address(RVA = "0x644CC50", Offset = "0x644BC50", VA = "0x644CC50")]
 	public static bool3x2 operator >(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -399,7 +399,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AB")]
-	[Address(RVA = "0x2A7D330", Offset = "0x2A7B930", VA = "0x182A7D330")]
+	[Address(RVA = "0x644CCC0", Offset = "0x644BCC0", VA = "0x644CCC0")]
 	public static bool3x2 operator >=(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -407,7 +407,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AC")]
-	[Address(RVA = "0x2A7D280", Offset = "0x2A7B880", VA = "0x182A7D280")]
+	[Address(RVA = "0x644CD50", Offset = "0x644BD50", VA = "0x644CD50")]
 	public static bool3x2 operator >=(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -415,7 +415,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AD")]
-	[Address(RVA = "0x2A7D2E0", Offset = "0x2A7B8E0", VA = "0x182A7D2E0")]
+	[Address(RVA = "0x644CDC0", Offset = "0x644BDC0", VA = "0x644CDC0")]
 	public static bool3x2 operator >=(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -423,7 +423,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AE")]
-	[Address(RVA = "0x2A7DE20", Offset = "0x2A7C420", VA = "0x182A7DE20")]
+	[Address(RVA = "0x644CE30", Offset = "0x644BE30", VA = "0x644CE30")]
 	public static float3x2 operator -(float3x2 val)
 	{
 		return default(float3x2);
@@ -431,7 +431,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012AF")]
-	[Address(RVA = "0x2A7DE80", Offset = "0x2A7C480", VA = "0x182A7DE80")]
+	[Address(RVA = "0x644CE70", Offset = "0x644BE70", VA = "0x644CE70")]
 	public static float3x2 operator +(float3x2 val)
 	{
 		return default(float3x2);
@@ -439,7 +439,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B0")]
-	[Address(RVA = "0x2A7D1D0", Offset = "0x2A7B7D0", VA = "0x182A7D1D0")]
+	[Address(RVA = "0x644CEA0", Offset = "0x644BEA0", VA = "0x644CEA0")]
 	public static bool3x2 operator ==(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -447,7 +447,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B1")]
-	[Address(RVA = "0x2A7D0A0", Offset = "0x2A7B6A0", VA = "0x182A7D0A0")]
+	[Address(RVA = "0x644CF40", Offset = "0x644BF40", VA = "0x644CF40")]
 	public static bool3x2 operator ==(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -455,7 +455,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B2")]
-	[Address(RVA = "0x2A7D140", Offset = "0x2A7B740", VA = "0x182A7D140")]
+	[Address(RVA = "0x644CFC0", Offset = "0x644BFC0", VA = "0x644CFC0")]
 	public static bool3x2 operator ==(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -463,7 +463,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B3")]
-	[Address(RVA = "0x2A7D670", Offset = "0x2A7BC70", VA = "0x182A7D670")]
+	[Address(RVA = "0x644D040", Offset = "0x644C040", VA = "0x644D040")]
 	public static bool3x2 operator !=(float3x2 lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -471,7 +471,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B4")]
-	[Address(RVA = "0x2A7D540", Offset = "0x2A7BB40", VA = "0x182A7D540")]
+	[Address(RVA = "0x644D0E0", Offset = "0x644C0E0", VA = "0x644D0E0")]
 	public static bool3x2 operator !=(float3x2 lhs, float rhs)
 	{
 		return default(bool3x2);
@@ -479,7 +479,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B5")]
-	[Address(RVA = "0x2A7D5E0", Offset = "0x2A7BBE0", VA = "0x182A7D5E0")]
+	[Address(RVA = "0x644D160", Offset = "0x644C160", VA = "0x644D160")]
 	public static bool3x2 operator !=(float lhs, float3x2 rhs)
 	{
 		return default(bool3x2);
@@ -487,14 +487,14 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B7")]
-	[Address(RVA = "0x2A3A030", Offset = "0x2A38630", VA = "0x182A3A030", Slot = "4")]
+	[Address(RVA = "0x644D1F0", Offset = "0x644C1F0", VA = "0x644D1F0", Slot = "4")]
 	public bool Equals(float3x2 rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012B8")]
-	[Address(RVA = "0x2A7C3E0", Offset = "0x2A7A9E0", VA = "0x182A7C3E0", Slot = "0")]
+	[Address(RVA = "0x644D260", Offset = "0x644C260", VA = "0x644D260", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
@@ -502,7 +502,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012B9")]
-	[Address(RVA = "0x2A7C4D0", Offset = "0x2A7AAD0", VA = "0x182A7C4D0", Slot = "2")]
+	[Address(RVA = "0x644D320", Offset = "0x644C320", VA = "0x644D320", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -510,7 +510,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012BA")]
-	[Address(RVA = "0x2A7C810", Offset = "0x2A7AE10", VA = "0x182A7C810", Slot = "3")]
+	[Address(RVA = "0x644D380", Offset = "0x644C380", VA = "0x644D380", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -518,7 +518,7 @@ public struct float3x2 : IEquatable<float3x2>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012BB")]
-	[Address(RVA = "0x2A7C560", Offset = "0x2A7AB60", VA = "0x182A7C560", Slot = "5")]
+	[Address(RVA = "0x644D610", Offset = "0x644C610", VA = "0x644D610", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

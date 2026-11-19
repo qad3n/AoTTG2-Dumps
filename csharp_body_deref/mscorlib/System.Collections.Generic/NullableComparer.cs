@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000643")]
+[Token(Token = "0x200061E")]
 internal class NullableComparer<T> : Comparer<T?> where T : struct, IComparable<T>
 {
-	[Token(Token = "0x6003016")]
+	[Token(Token = "0x6002FF5")]
 	public override int Compare(T? x, T? y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003017")]
+	[Token(Token = "0x6002FF6")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003018")]
+	[Token(Token = "0x6002FF7")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003019")]
+	[Token(Token = "0x6002FF8")]
 	public NullableComparer()
 	{
 	}

@@ -10,66 +10,66 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000191")]
+[Token(Token = "0x2000192")]
 internal sealed class DebugInfo
 {
-	[Token(Token = "0x2000192")]
+	[Token(Token = "0x2000193")]
 	private class DebugInfoComparer : IComparer<DebugInfo>
 	{
-		[Token(Token = "0x6000872")]
-		[Address(RVA = "0x2443DE0", Offset = "0x24423E0", VA = "0x182443DE0", Slot = "4")]
+		[Token(Token = "0x600087D")]
+		[Address(RVA = "0x5DF4F90", Offset = "0x5DF3F90", VA = "0x5DF4F90", Slot = "4")]
 		private int System_002ECollections_002EGeneric_002EIComparer_003CSystem_002ELinq_002EExpressions_002EInterpreter_002EDebugInfo_003E_002ECompare(DebugInfo d1, DebugInfo d2)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000873")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x600087E")]
+		[Address(RVA = "0x5DF4F80", Offset = "0x5DF3F80", VA = "0x5DF4F80")]
 		public DebugInfoComparer()
 		{
 		}
 	}
 
-	[Token(Token = "0x400035B")]
+	[Token(Token = "0x4000364")]
 	[FieldOffset(Offset = "0x10")]
 	public int StartLine;
 
-	[Token(Token = "0x400035C")]
+	[Token(Token = "0x4000365")]
 	[FieldOffset(Offset = "0x14")]
 	public int EndLine;
 
-	[Token(Token = "0x400035D")]
+	[Token(Token = "0x4000366")]
 	[FieldOffset(Offset = "0x18")]
 	public int Index;
 
-	[Token(Token = "0x400035E")]
+	[Token(Token = "0x4000367")]
 	[FieldOffset(Offset = "0x20")]
 	public string FileName;
 
-	[Token(Token = "0x400035F")]
+	[Token(Token = "0x4000368")]
 	[FieldOffset(Offset = "0x28")]
 	public bool IsClear;
 
-	[Token(Token = "0x4000360")]
+	[Token(Token = "0x4000369")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly DebugInfoComparer s_debugComparer;
 
-	[Token(Token = "0x600086E")]
-	[Address(RVA = "0x2443E20", Offset = "0x2442420", VA = "0x182443E20")]
+	[Token(Token = "0x6000879")]
+	[Address(RVA = "0x5DEFC30", Offset = "0x5DEEC30", VA = "0x5DEFC30")]
 	public static DebugInfo GetMatchingDebugInfo(DebugInfo[] debugInfos, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x2443F10", Offset = "0x2442510", VA = "0x182443F10", Slot = "3")]
+	[Token(Token = "0x600087A")]
+	[Address(RVA = "0x5DF4CC0", Offset = "0x5DF3CC0", VA = "0x5DF4CC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000870")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600087B")]
+	[Address(RVA = "0x5DF4CB0", Offset = "0x5DF3CB0", VA = "0x5DF4CB0")]
 	public DebugInfo()
 	{
 	}

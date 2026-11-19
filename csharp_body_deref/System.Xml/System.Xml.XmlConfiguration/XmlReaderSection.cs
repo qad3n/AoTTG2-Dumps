@@ -18,7 +18,7 @@ public sealed class XmlReaderSection
 	internal static bool ProhibitDefaultUrlResolver
 	{
 		[Token(Token = "0x6000F13")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x613C6A0", Offset = "0x613B6A0", VA = "0x613C6A0")]
 		get
 		{
 			return default(bool);
@@ -29,7 +29,7 @@ public sealed class XmlReaderSection
 	internal static bool CollapseWhiteSpaceIntoEmptyString
 	{
 		[Token(Token = "0x6000F15")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x613C6F0", Offset = "0x613B6F0", VA = "0x613C6F0")]
 		get
 		{
 			return default(bool);
@@ -37,7 +37,7 @@ public sealed class XmlReaderSection
 	}
 
 	[Token(Token = "0x6000F14")]
-	[Address(RVA = "0x2786990", Offset = "0x2784F90", VA = "0x182786990")]
+	[Address(RVA = "0x613C6B0", Offset = "0x613B6B0", VA = "0x613C6B0")]
 	internal static XmlResolver CreateDefaultResolver()
 	{
 		return null;

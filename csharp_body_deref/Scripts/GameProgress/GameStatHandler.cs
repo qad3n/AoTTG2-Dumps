@@ -12,83 +12,83 @@ using UnityEngine;
 
 namespace GameProgress;
 
-[Token(Token = "0x200030E")]
+[Token(Token = "0x200036F")]
 internal class GameStatHandler : BaseGameProgressHandler
 {
-	[Token(Token = "0x4000F8C")]
+	[Token(Token = "0x400112B")]
 	private const int ExpPerKill = 10;
 
-	[Token(Token = "0x4000F8D")]
+	[Token(Token = "0x400112C")]
 	private const int ExpPerLevelBase = 500;
 
-	[Token(Token = "0x4000F8E")]
+	[Token(Token = "0x400112D")]
 	private const int MaxExpPerLevel = 2000;
 
-	[Token(Token = "0x4000F8F")]
+	[Token(Token = "0x400112E")]
 	private const float ExpPerLevelMultiplier = 1.2f;
 
-	[Token(Token = "0x4000F90")]
+	[Token(Token = "0x400112F")]
 	private const int MaxLevel = 50;
 
-	[Token(Token = "0x4000F91")]
+	[Token(Token = "0x4001130")]
 	[FieldOffset(Offset = "0x10")]
 	private List<int> _expPerLevel;
 
-	[Token(Token = "0x4000F92")]
+	[Token(Token = "0x4001131")]
 	[FieldOffset(Offset = "0x18")]
 	private GameStatContainer _gameStat;
 
-	[Token(Token = "0x60012D9")]
-	[Address(RVA = "0x1E36A50", Offset = "0x1E35050", VA = "0x181E36A50")]
+	[Token(Token = "0x600154B")]
+	[Address(RVA = "0x581FFB0", Offset = "0x581EFB0", VA = "0x581FFB0")]
 	public GameStatHandler(GameStatContainer gameStat)
 	{
 	}
 
-	[Token(Token = "0x60012DA")]
-	[Address(RVA = "0x1E366D0", Offset = "0x1E34CD0", VA = "0x181E366D0")]
+	[Token(Token = "0x600154C")]
+	[Address(RVA = "0x58204D0", Offset = "0x581F4D0", VA = "0x58204D0")]
 	public int GetExpToNext()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60012DB")]
-	[Address(RVA = "0x1E36400", Offset = "0x1E34A00", VA = "0x181E36400")]
+	[Token(Token = "0x600154D")]
+	[Address(RVA = "0x5820620", Offset = "0x581F620", VA = "0x5820620")]
 	public void AddExp(int exp)
 	{
 	}
 
-	[Token(Token = "0x60012DC")]
-	[Address(RVA = "0x1E36590", Offset = "0x1E34B90", VA = "0x181E36590")]
+	[Token(Token = "0x600154E")]
+	[Address(RVA = "0x5821B00", Offset = "0x5820B00", VA = "0x5821B00")]
 	private void CheckLevelUp()
 	{
 	}
 
-	[Token(Token = "0x60012DD")]
-	[Address(RVA = "0x1E36960", Offset = "0x1E34F60", VA = "0x181E36960", Slot = "4")]
+	[Token(Token = "0x600154F")]
+	[Address(RVA = "0x5821C30", Offset = "0x5820C30", VA = "0x5821C30", Slot = "4")]
 	public override void RegisterTitanKill(BasicTitan victim, KillMethod method)
 	{
 	}
 
-	[Token(Token = "0x60012DE")]
-	[Address(RVA = "0x1E36790", Offset = "0x1E34D90", VA = "0x181E36790", Slot = "5")]
+	[Token(Token = "0x6001550")]
+	[Address(RVA = "0x5821D70", Offset = "0x5820D70", VA = "0x5821D70", Slot = "5")]
 	public override void RegisterHumanKill(Human victim, KillMethod method)
 	{
 	}
 
-	[Token(Token = "0x60012DF")]
-	[Address(RVA = "0x1E36750", Offset = "0x1E34D50", VA = "0x181E36750", Slot = "6")]
+	[Token(Token = "0x6001551")]
+	[Address(RVA = "0x5821EE0", Offset = "0x5820EE0", VA = "0x5821EE0", Slot = "6")]
 	public override void RegisterDamage(GameObject victim, KillMethod method, int damage)
 	{
 	}
 
-	[Token(Token = "0x60012E0")]
-	[Address(RVA = "0x1E368E0", Offset = "0x1E34EE0", VA = "0x181E368E0", Slot = "7")]
+	[Token(Token = "0x6001552")]
+	[Address(RVA = "0x5821F10", Offset = "0x5820F10", VA = "0x5821F10", Slot = "7")]
 	public override void RegisterSpeed(float speed)
 	{
 	}
 
-	[Token(Token = "0x60012E1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x6001553")]
+	[Address(RVA = "0x5821F90", Offset = "0x5820F90", VA = "0x5821F90", Slot = "8")]
 	public override void RegisterInteraction(GameObject interact, InteractionType type)
 	{
 	}

@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004AD")]
+[Token(Token = "0x2000486")]
 [AttributeUsage(AttributeTargets.Method, Inherited = false, AllowMultiple = false)]
 public sealed class IteratorStateMachineAttribute : StateMachineAttribute
 {
-	[Token(Token = "0x6002301")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x60022CE")]
+	[Address(RVA = "0x53C8960", Offset = "0x53C7960", VA = "0x53C8960")]
 	public IteratorStateMachineAttribute(Type stateMachineType)
 	{
 	}

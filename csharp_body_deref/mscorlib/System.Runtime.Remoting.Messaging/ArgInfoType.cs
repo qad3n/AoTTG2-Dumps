@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003C9")]
+[Token(Token = "0x20003A2")]
 internal enum ArgInfoType : byte
 {
-	[Token(Token = "0x4000F49")]
+	[Token(Token = "0x4000EA9")]
 	In,
-	[Token(Token = "0x4000F4A")]
+	[Token(Token = "0x4000EAA")]
 	Out
 }

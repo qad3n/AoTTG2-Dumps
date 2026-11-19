@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000148")]
+[Token(Token = "0x2000121")]
 public class TypeAccessException : TypeLoadException
 {
-	[Token(Token = "0x6000B6F")]
-	[Address(RVA = "0x1B50100", Offset = "0x1B4E700", VA = "0x181B50100")]
+	[Token(Token = "0x6000B4C")]
+	[Address(RVA = "0x54DB460", Offset = "0x54DA460", VA = "0x54DB460")]
 	public TypeAccessException()
 	{
 	}
 
-	[Token(Token = "0x6000B70")]
-	[Address(RVA = "0x1B21A50", Offset = "0x1B20050", VA = "0x181B21A50")]
+	[Token(Token = "0x6000B4D")]
+	[Address(RVA = "0x54DB4A0", Offset = "0x54DA4A0", VA = "0x54DB4A0")]
 	protected TypeAccessException(SerializationInfo info, StreamingContext context)
 	{
 	}

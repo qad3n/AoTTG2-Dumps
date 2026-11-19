@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000165")]
+[Token(Token = "0x2000126")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class ImmutableObjectAttribute : Attribute
 {
-	[Token(Token = "0x4000620")]
+	[Token(Token = "0x4000551")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ImmutableObjectAttribute Yes;
 
-	[Token(Token = "0x4000621")]
+	[Token(Token = "0x4000552")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly ImmutableObjectAttribute No;
 
-	[Token(Token = "0x4000622")]
+	[Token(Token = "0x4000553")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly ImmutableObjectAttribute Default;
 
-	[Token(Token = "0x170001B6")]
+	[Token(Token = "0x17000187")]
 	public bool Immutable
 	{
-		[Token(Token = "0x60008F8")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x6000738")]
+		[Address(RVA = "0x6223390", Offset = "0x6222390", VA = "0x6223390")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,28 +38,28 @@ public sealed class ImmutableObjectAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x60008F7")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6000737")]
+	[Address(RVA = "0x6223370", Offset = "0x6222370", VA = "0x6223370")]
 	public ImmutableObjectAttribute(bool immutable)
 	{
 	}
 
-	[Token(Token = "0x60008F9")]
-	[Address(RVA = "0x287DE50", Offset = "0x287C450", VA = "0x18287DE50", Slot = "0")]
+	[Token(Token = "0x6000739")]
+	[Address(RVA = "0x62233A0", Offset = "0x62223A0", VA = "0x62233A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60008FA")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x600073A")]
+	[Address(RVA = "0x6223460", Offset = "0x6222460", VA = "0x6223460", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008FB")]
-	[Address(RVA = "0x287DF30", Offset = "0x287C530", VA = "0x18287DF30", Slot = "6")]
+	[Token(Token = "0x600073B")]
+	[Address(RVA = "0x6223470", Offset = "0x6222470", VA = "0x6223470", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

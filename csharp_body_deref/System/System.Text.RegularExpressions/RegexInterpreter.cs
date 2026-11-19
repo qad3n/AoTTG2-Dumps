@@ -10,287 +10,287 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000F4")]
+[Token(Token = "0x20000B5")]
 internal sealed class RegexInterpreter : RegexRunner
 {
-	[Token(Token = "0x40003EE")]
+	[Token(Token = "0x400031F")]
 	[FieldOffset(Offset = "0x80")]
 	private readonly RegexCode _code;
 
-	[Token(Token = "0x40003EF")]
+	[Token(Token = "0x4000320")]
 	[FieldOffset(Offset = "0x88")]
 	private readonly CultureInfo _culture;
 
-	[Token(Token = "0x40003F0")]
+	[Token(Token = "0x4000321")]
 	[FieldOffset(Offset = "0x90")]
 	private int _operator;
 
-	[Token(Token = "0x40003F1")]
+	[Token(Token = "0x4000322")]
 	[FieldOffset(Offset = "0x94")]
 	private int _codepos;
 
-	[Token(Token = "0x40003F2")]
+	[Token(Token = "0x4000323")]
 	[FieldOffset(Offset = "0x98")]
 	private bool _rightToLeft;
 
-	[Token(Token = "0x40003F3")]
+	[Token(Token = "0x4000324")]
 	[FieldOffset(Offset = "0x99")]
 	private bool _caseInsensitive;
 
-	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x285B910", Offset = "0x2859F10", VA = "0x18285B910")]
+	[Token(Token = "0x60003C7")]
+	[Address(RVA = "0x61F0E10", Offset = "0x61EFE10", VA = "0x61F0E10")]
 	public RegexInterpreter(RegexCode code, CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x285B060", Offset = "0x2859660", VA = "0x18285B060", Slot = "6")]
+	[Token(Token = "0x60003C8")]
+	[Address(RVA = "0x61F0E70", Offset = "0x61EFE70", VA = "0x61F0E70", Slot = "6")]
 	protected override void InitTrackCount()
 	{
 	}
 
-	[Token(Token = "0x600057F")]
-	[Address(RVA = "0x2858620", Offset = "0x2856C20", VA = "0x182858620")]
+	[Token(Token = "0x60003C9")]
+	[Address(RVA = "0x61F0E90", Offset = "0x61EFE90", VA = "0x61F0E90")]
 	private void Advance(int i)
 	{
 	}
 
-	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x285AFD0", Offset = "0x28595D0", VA = "0x18285AFD0")]
+	[Token(Token = "0x60003CA")]
+	[Address(RVA = "0x61F0F30", Offset = "0x61EFF30", VA = "0x61F0F30")]
 	private void Goto(int newpos)
 	{
 	}
 
-	[Token(Token = "0x6000581")]
-	[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+	[Token(Token = "0x60003CB")]
+	[Address(RVA = "0x61F1000", Offset = "0x61F0000", VA = "0x61F1000")]
 	private void Textto(int newpos)
 	{
 	}
 
-	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x285B8F0", Offset = "0x2859EF0", VA = "0x18285B8F0")]
+	[Token(Token = "0x60003CC")]
+	[Address(RVA = "0x61F1010", Offset = "0x61F0010", VA = "0x61F1010")]
 	private void Trackto(int newpos)
 	{
 	}
 
-	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+	[Token(Token = "0x60003CD")]
+	[Address(RVA = "0x61F1030", Offset = "0x61F0030", VA = "0x61F1030")]
 	private int Textstart()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+	[Token(Token = "0x60003CE")]
+	[Address(RVA = "0x61F1040", Offset = "0x61F0040", VA = "0x61F1040")]
 	private int Textpos()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000585")]
-	[Address(RVA = "0x285B8D0", Offset = "0x2859ED0", VA = "0x18285B8D0")]
+	[Token(Token = "0x60003CF")]
+	[Address(RVA = "0x61F1050", Offset = "0x61F0050", VA = "0x61F1050")]
 	private int Trackpos()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000586")]
-	[Address(RVA = "0x285B890", Offset = "0x2859E90", VA = "0x18285B890")]
+	[Token(Token = "0x60003D0")]
+	[Address(RVA = "0x61F1070", Offset = "0x61F0070", VA = "0x61F1070")]
 	private void TrackPush()
 	{
 	}
 
-	[Token(Token = "0x6000587")]
-	[Address(RVA = "0x285B830", Offset = "0x2859E30", VA = "0x18285B830")]
+	[Token(Token = "0x60003D1")]
+	[Address(RVA = "0x61F10A0", Offset = "0x61F00A0", VA = "0x61F10A0")]
 	private void TrackPush(int I1)
 	{
 	}
 
-	[Token(Token = "0x6000588")]
-	[Address(RVA = "0x285B7A0", Offset = "0x2859DA0", VA = "0x18285B7A0")]
+	[Token(Token = "0x60003D2")]
+	[Address(RVA = "0x61F10F0", Offset = "0x61F00F0", VA = "0x61F10F0")]
 	private void TrackPush(int I1, int I2)
 	{
 	}
 
-	[Token(Token = "0x6000589")]
-	[Address(RVA = "0x285B6F0", Offset = "0x2859CF0", VA = "0x18285B6F0")]
+	[Token(Token = "0x60003D3")]
+	[Address(RVA = "0x61F1150", Offset = "0x61F0150", VA = "0x61F1150")]
 	private void TrackPush(int I1, int I2, int I3)
 	{
 	}
 
-	[Token(Token = "0x600058A")]
-	[Address(RVA = "0x285B680", Offset = "0x2859C80", VA = "0x18285B680")]
+	[Token(Token = "0x60003D4")]
+	[Address(RVA = "0x61F11C0", Offset = "0x61F01C0", VA = "0x61F11C0")]
 	private void TrackPush2(int I1)
 	{
 	}
 
-	[Token(Token = "0x600058B")]
-	[Address(RVA = "0x285B5F0", Offset = "0x2859BF0", VA = "0x18285B5F0")]
+	[Token(Token = "0x60003D5")]
+	[Address(RVA = "0x61F1210", Offset = "0x61F0210", VA = "0x61F1210")]
 	private void TrackPush2(int I1, int I2)
 	{
 	}
 
-	[Token(Token = "0x600058C")]
-	[Address(RVA = "0x28586A0", Offset = "0x2856CA0", VA = "0x1828586A0")]
+	[Token(Token = "0x60003D6")]
+	[Address(RVA = "0x61F1270", Offset = "0x61F0270", VA = "0x61F1270")]
 	private void Backtrack()
 	{
 	}
 
-	[Token(Token = "0x600058D")]
-	[Address(RVA = "0x285B2B0", Offset = "0x28598B0", VA = "0x18285B2B0")]
+	[Token(Token = "0x60003D7")]
+	[Address(RVA = "0x61F0F00", Offset = "0x61EFF00", VA = "0x61F0F00")]
 	private void SetOperator(int op)
 	{
 	}
 
-	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x285B5D0", Offset = "0x2859BD0", VA = "0x18285B5D0")]
+	[Token(Token = "0x60003D8")]
+	[Address(RVA = "0x61F13B0", Offset = "0x61F03B0", VA = "0x61F13B0")]
 	private void TrackPop()
 	{
 	}
 
-	[Token(Token = "0x600058F")]
-	[Address(RVA = "0x285B5E0", Offset = "0x2859BE0", VA = "0x18285B5E0")]
+	[Token(Token = "0x60003D9")]
+	[Address(RVA = "0x61F13C0", Offset = "0x61F03C0", VA = "0x61F13C0")]
 	private void TrackPop(int framesize)
 	{
 	}
 
-	[Token(Token = "0x6000590")]
-	[Address(RVA = "0x285B5A0", Offset = "0x2859BA0", VA = "0x18285B5A0")]
+	[Token(Token = "0x60003DA")]
+	[Address(RVA = "0x61F13D0", Offset = "0x61F03D0", VA = "0x61F13D0")]
 	private int TrackPeek()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000591")]
-	[Address(RVA = "0x285B560", Offset = "0x2859B60", VA = "0x18285B560")]
+	[Token(Token = "0x60003DB")]
+	[Address(RVA = "0x61F1400", Offset = "0x61F0400", VA = "0x61F1400")]
 	private int TrackPeek(int i)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000592")]
-	[Address(RVA = "0x285B3C0", Offset = "0x28599C0", VA = "0x18285B3C0")]
+	[Token(Token = "0x60003DC")]
+	[Address(RVA = "0x61F1430", Offset = "0x61F0430", VA = "0x61F1430")]
 	private void StackPush(int I1)
 	{
 	}
 
-	[Token(Token = "0x6000593")]
-	[Address(RVA = "0x285B360", Offset = "0x2859960", VA = "0x18285B360")]
+	[Token(Token = "0x60003DD")]
+	[Address(RVA = "0x61F1460", Offset = "0x61F0460", VA = "0x61F1460")]
 	private void StackPush(int I1, int I2)
 	{
 	}
 
-	[Token(Token = "0x6000594")]
-	[Address(RVA = "0x1ECF9C0", Offset = "0x1ECDFC0", VA = "0x181ECF9C0")]
+	[Token(Token = "0x60003DE")]
+	[Address(RVA = "0x61F14B0", Offset = "0x61F04B0", VA = "0x61F14B0")]
 	private void StackPop()
 	{
 	}
 
-	[Token(Token = "0x6000595")]
-	[Address(RVA = "0x285B350", Offset = "0x2859950", VA = "0x18285B350")]
+	[Token(Token = "0x60003DF")]
+	[Address(RVA = "0x61F14C0", Offset = "0x61F04C0", VA = "0x61F14C0")]
 	private void StackPop(int framesize)
 	{
 	}
 
-	[Token(Token = "0x6000596")]
-	[Address(RVA = "0x285B2E0", Offset = "0x28598E0", VA = "0x18285B2E0")]
+	[Token(Token = "0x60003E0")]
+	[Address(RVA = "0x61F14D0", Offset = "0x61F04D0", VA = "0x61F14D0")]
 	private int StackPeek()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000597")]
-	[Address(RVA = "0x285B310", Offset = "0x2859910", VA = "0x18285B310")]
+	[Token(Token = "0x60003E1")]
+	[Address(RVA = "0x61F1500", Offset = "0x61F0500", VA = "0x61F1500")]
 	private int StackPeek(int i)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000598")]
-	[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
+	[Token(Token = "0x60003E2")]
+	[Address(RVA = "0x61F1530", Offset = "0x61F0530", VA = "0x61F1530")]
 	private int Operator()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000599")]
-	[Address(RVA = "0x285B0A0", Offset = "0x28596A0", VA = "0x18285B0A0")]
+	[Token(Token = "0x60003E3")]
+	[Address(RVA = "0x61F1540", Offset = "0x61F0540", VA = "0x61F1540")]
 	private int Operand(int i)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600059A")]
-	[Address(RVA = "0x285B090", Offset = "0x2859690", VA = "0x18285B090")]
+	[Token(Token = "0x60003E4")]
+	[Address(RVA = "0x61F1580", Offset = "0x61F0580", VA = "0x61F1580")]
 	private int Leftchars()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600059B")]
-	[Address(RVA = "0x285B2A0", Offset = "0x28598A0", VA = "0x18285B2A0")]
+	[Token(Token = "0x60003E5")]
+	[Address(RVA = "0x61F1590", Offset = "0x61F0590", VA = "0x61F1590")]
 	private int Rightchars()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x28587B0", Offset = "0x2856DB0", VA = "0x1828587B0")]
+	[Token(Token = "0x60003E6")]
+	[Address(RVA = "0x61F15A0", Offset = "0x61F05A0", VA = "0x61F15A0")]
 	private int Bump()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x2858E20", Offset = "0x2857420", VA = "0x182858E20")]
+	[Token(Token = "0x60003E7")]
+	[Address(RVA = "0x61F15B0", Offset = "0x61F05B0", VA = "0x61F15B0")]
 	private int Forwardchars()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x2858D90", Offset = "0x2857390", VA = "0x182858D90")]
+	[Token(Token = "0x60003E8")]
+	[Address(RVA = "0x61F15D0", Offset = "0x61F05D0", VA = "0x61F15D0")]
 	private char Forwardcharnext()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x285B400", Offset = "0x2859A00", VA = "0x18285B400")]
+	[Token(Token = "0x60003E9")]
+	[Address(RVA = "0x61F1660", Offset = "0x61F0660", VA = "0x61F1660")]
 	private bool Stringmatch(string str)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x285B0F0", Offset = "0x28596F0", VA = "0x18285B0F0")]
+	[Token(Token = "0x60003EA")]
+	[Address(RVA = "0x61F17E0", Offset = "0x61F07E0", VA = "0x61F17E0")]
 	private bool Refmatch(int index, int len)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x2858790", Offset = "0x2856D90", VA = "0x182858790")]
+	[Token(Token = "0x60003EB")]
+	[Address(RVA = "0x61F19B0", Offset = "0x61F09B0", VA = "0x61F19B0")]
 	private void Backwardnext()
 	{
 	}
 
-	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x28587D0", Offset = "0x2856DD0", VA = "0x1828587D0")]
+	[Token(Token = "0x60003EC")]
+	[Address(RVA = "0x61F19D0", Offset = "0x61F09D0", VA = "0x61F19D0")]
 	private char CharAt(int j)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x28587F0", Offset = "0x2856DF0", VA = "0x1828587F0", Slot = "5")]
+	[Token(Token = "0x60003ED")]
+	[Address(RVA = "0x61F19F0", Offset = "0x61F09F0", VA = "0x61F19F0", Slot = "5")]
 	protected override bool FindFirstChar()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x2858E40", Offset = "0x2857440", VA = "0x182858E40", Slot = "4")]
+	[Token(Token = "0x60003EE")]
+	[Address(RVA = "0x61F1D40", Offset = "0x61F0D40", VA = "0x61F1D40", Slot = "4")]
 	protected override void Go()
 	{
 	}

@@ -21,13 +21,13 @@ internal class XmlAnyListConverter : XmlListConverter
 	public static readonly XmlValueConverter AnyAtomicList;
 
 	[Token(Token = "0x6001947")]
-	[Address(RVA = "0x2690C90", Offset = "0x268F290", VA = "0x182690C90")]
+	[Address(RVA = "0x6061740", Offset = "0x6060740", VA = "0x6061740")]
 	protected XmlAnyListConverter(XmlBaseConverter atomicConverter)
 	{
 	}
 
 	[Token(Token = "0x6001948")]
-	[Address(RVA = "0x26907D0", Offset = "0x268EDD0", VA = "0x1826907D0", Slot = "61")]
+	[Address(RVA = "0x6061820", Offset = "0x6060820", VA = "0x6061820", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

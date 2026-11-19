@@ -45,7 +45,7 @@ internal class SpacingProfile
 	public string Dump
 	{
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0x1D75C50", Offset = "0x1D74250", VA = "0x181D75C50")]
+		[Address(RVA = "0x5706700", Offset = "0x5705700", VA = "0x5706700")]
 		get
 		{
 			return null;
@@ -56,7 +56,7 @@ internal class SpacingProfile
 	public int Max
 	{
 		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0x1D75EB0", Offset = "0x1D744B0", VA = "0x181D75EB0")]
+		[Address(RVA = "0x5706950", Offset = "0x5705950", VA = "0x5706950")]
 		get
 		{
 			return default(int);
@@ -64,19 +64,19 @@ internal class SpacingProfile
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x1D75C20", Offset = "0x1D74220", VA = "0x181D75C20")]
+	[Address(RVA = "0x5706570", Offset = "0x5705570", VA = "0x5706570")]
 	public SpacingProfile(int capacity)
 	{
 	}
 
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x1D759F0", Offset = "0x1D73FF0", VA = "0x181D759F0")]
+	[Address(RVA = "0x5706590", Offset = "0x5705590", VA = "0x5706590")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x1D75B50", Offset = "0x1D74150", VA = "0x181D75B50")]
+	[Address(RVA = "0x5706660", Offset = "0x5705660", VA = "0x5706660")]
 	public void Update(bool lost, bool flush)
 	{
 	}

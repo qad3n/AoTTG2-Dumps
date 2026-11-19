@@ -92,7 +92,7 @@ public class TMP_SpriteAnimator : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60003B4")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x673A9C0", Offset = "0x67399C0", VA = "0x673A9C0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -104,7 +104,7 @@ public class TMP_SpriteAnimator : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60003B6")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x673AA10", Offset = "0x6739A10", VA = "0x673AA10", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -113,28 +113,28 @@ public class TMP_SpriteAnimator : MonoBehaviour
 		}
 
 		[Token(Token = "0x60003B1")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x6739D40", Offset = "0x6738D40", VA = "0x6739D40")]
 		[DebuggerHidden]
 		public _003CDoSpriteAnimationInternal_003Ed__7(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60003B2")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x6739DE0", Offset = "0x6738DE0", VA = "0x6739DE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60003B3")]
-		[Address(RVA = "0x2D47D80", Offset = "0x2D46380", VA = "0x182D47D80", Slot = "6")]
+		[Address(RVA = "0x6739DF0", Offset = "0x6738DF0", VA = "0x6739DF0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60003B5")]
-		[Address(RVA = "0x2D48A60", Offset = "0x2D47060", VA = "0x182D48A60", Slot = "8")]
+		[Address(RVA = "0x673A9D0", Offset = "0x67399D0", VA = "0x673A9D0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -150,37 +150,37 @@ public class TMP_SpriteAnimator : MonoBehaviour
 	private TMP_Text m_TextComponent;
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x2D40390", Offset = "0x2D3E990", VA = "0x182D40390")]
+	[Address(RVA = "0x6739AA0", Offset = "0x6738AA0", VA = "0x6739AA0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6739AF0", Offset = "0x6738AF0", VA = "0x6739AF0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6739B00", Offset = "0x6738B00", VA = "0x6739B00")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x2D405B0", Offset = "0x2D3EBB0", VA = "0x182D405B0")]
+	[Address(RVA = "0x6739B10", Offset = "0x6738B10", VA = "0x6739B10")]
 	public void StopAllAnimations()
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x2D40480", Offset = "0x2D3EA80", VA = "0x182D40480")]
+	[Address(RVA = "0x6739B60", Offset = "0x6738B60", VA = "0x6739B60")]
 	public void DoSpriteAnimation(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate)
 	{
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x2D403E0", Offset = "0x2D3E9E0", VA = "0x182D403E0")]
+	[Address(RVA = "0x6739C90", Offset = "0x6738C90", VA = "0x6739C90")]
 	[IteratorStateMachine(typeof(_003CDoSpriteAnimationInternal_003Ed__7))]
 	private IEnumerator DoSpriteAnimationInternal(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate)
 	{
@@ -188,7 +188,7 @@ public class TMP_SpriteAnimator : MonoBehaviour
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x2D40600", Offset = "0x2D3EC00", VA = "0x182D40600")]
+	[Address(RVA = "0x6739D60", Offset = "0x6738D60", VA = "0x6739D60")]
 	public TMP_SpriteAnimator()
 	{
 	}

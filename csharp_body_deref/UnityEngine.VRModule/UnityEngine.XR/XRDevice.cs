@@ -26,7 +26,7 @@ public static class XRDevice
 	private static Action<string> deviceLoaded;
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x3312B30", Offset = "0x3311130", VA = "0x183312B30")]
+	[Address(RVA = "0x6D22830", Offset = "0x6D21830", VA = "0x6D22830")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeDeviceLoaded(string loadedDeviceName)
 	{

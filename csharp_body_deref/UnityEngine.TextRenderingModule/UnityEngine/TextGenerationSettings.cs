@@ -85,21 +85,21 @@ public struct TextGenerationSettings
 	public bool generateOutOfBounds;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x305D240", Offset = "0x305B840", VA = "0x18305D240")]
+	[Address(RVA = "0x6A584F0", Offset = "0x6A574F0", VA = "0x6A584F0")]
 	private bool CompareColors(Color left, Color right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x305D2C0", Offset = "0x305B8C0", VA = "0x18305D2C0")]
+	[Address(RVA = "0x6A58630", Offset = "0x6A57630", VA = "0x6A58630")]
 	private bool CompareVector2(Vector2 left, Vector2 right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x305D310", Offset = "0x305B910", VA = "0x18305D310")]
+	[Address(RVA = "0x6A58700", Offset = "0x6A57700", VA = "0x6A58700")]
 	public bool Equals(TextGenerationSettings other)
 	{
 		return default(bool);

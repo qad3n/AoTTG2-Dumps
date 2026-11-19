@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000312")]
+[Token(Token = "0x20002EB")]
 [ComVisible(true)]
 public class HMACSHA256 : HMAC
 {
-	[Token(Token = "0x6001994")]
-	[Address(RVA = "0x19A8BD0", Offset = "0x19A71D0", VA = "0x1819A8BD0")]
+	[Token(Token = "0x6001971")]
+	[Address(RVA = "0x533CC00", Offset = "0x533BC00", VA = "0x533CC00")]
 	public HMACSHA256()
 	{
 	}
 
-	[Token(Token = "0x6001995")]
-	[Address(RVA = "0x19A8CF0", Offset = "0x19A72F0", VA = "0x1819A8CF0")]
+	[Token(Token = "0x6001972")]
+	[Address(RVA = "0x533CC50", Offset = "0x533BC50", VA = "0x533CC50")]
 	public HMACSHA256(byte[] key)
 	{
 	}

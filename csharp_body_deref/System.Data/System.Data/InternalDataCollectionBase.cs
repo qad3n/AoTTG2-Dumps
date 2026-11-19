@@ -24,7 +24,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public virtual int Count
 	{
 		[Token(Token = "0x600032F")]
-		[Address(RVA = "0x24FF140", Offset = "0x24FD740", VA = "0x1824FF140", Slot = "9")]
+		[Address(RVA = "0x5E8A500", Offset = "0x5E89500", VA = "0x5E8A500", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -36,7 +36,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public bool IsSynchronized
 	{
 		[Token(Token = "0x6000332")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Address(RVA = "0x5E8A5D0", Offset = "0x5E895D0", VA = "0x5E8A5D0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -48,7 +48,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public object SyncRoot
 	{
 		[Token(Token = "0x6000334")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
+		[Address(RVA = "0x5E8A690", Offset = "0x5E89690", VA = "0x5E8A690", Slot = "6")]
 		get
 		{
 			return null;
@@ -59,7 +59,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	protected virtual ArrayList List
 	{
 		[Token(Token = "0x6000335")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
+		[Address(RVA = "0x5E8A6A0", Offset = "0x5E896A0", VA = "0x5E8A6A0", Slot = "12")]
 		get
 		{
 			return null;
@@ -67,27 +67,27 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	}
 
 	[Token(Token = "0x6000330")]
-	[Address(RVA = "0x24FEF40", Offset = "0x24FD540", VA = "0x1824FEF40", Slot = "10")]
+	[Address(RVA = "0x5E8A540", Offset = "0x5E89540", VA = "0x5E8A540", Slot = "10")]
 	public virtual void CopyTo(Array ar, int index)
 	{
 	}
 
 	[Token(Token = "0x6000331")]
-	[Address(RVA = "0x24FEF90", Offset = "0x24FD590", VA = "0x1824FEF90", Slot = "11")]
+	[Address(RVA = "0x5E8A590", Offset = "0x5E89590", VA = "0x5E8A590", Slot = "11")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000333")]
-	[Address(RVA = "0x24FEFD0", Offset = "0x24FD5D0", VA = "0x1824FEFD0")]
+	[Address(RVA = "0x5E8A5E0", Offset = "0x5E895E0", VA = "0x5E8A5E0")]
 	internal int NamesEqual(string s1, string s2, bool fCaseSensitive, CultureInfo locale)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000336")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5E8A6B0", Offset = "0x5E896B0", VA = "0x5E8A6B0")]
 	public InternalDataCollectionBase()
 	{
 	}

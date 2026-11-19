@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnDeselectMessageListener : MessageListener, IDeselectHandler, IEventSystemHandler
 {
 	[Token(Token = "0x600047F")]
-	[Address(RVA = "0x2DBDC60", Offset = "0x2DBC260", VA = "0x182DBDC60", Slot = "4")]
+	[Address(RVA = "0x67A6050", Offset = "0x67A5050", VA = "0x67A6050", Slot = "4")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A60E0", Offset = "0x67A50E0", VA = "0x67A60E0")]
 	public UnityOnDeselectMessageListener()
 	{
 	}

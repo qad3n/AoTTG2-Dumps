@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200018C")]
+[Token(Token = "0x200018D")]
 internal sealed class ExceptionFilter
 {
-	[Token(Token = "0x4000349")]
+	[Token(Token = "0x4000352")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly int LabelIndex;
 
-	[Token(Token = "0x400034A")]
+	[Token(Token = "0x4000353")]
 	[FieldOffset(Offset = "0x14")]
 	public readonly int StartIndex;
 
-	[Token(Token = "0x400034B")]
+	[Token(Token = "0x4000354")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly int EndIndex;
 
-	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x19AB170", Offset = "0x19A9770", VA = "0x1819AB170")]
+	[Token(Token = "0x600086C")]
+	[Address(RVA = "0x5DF4540", Offset = "0x5DF3540", VA = "0x5DF4540")]
 	internal ExceptionFilter(int labelIndex, int start, int end)
 	{
 	}

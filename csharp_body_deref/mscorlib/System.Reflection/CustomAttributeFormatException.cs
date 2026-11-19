@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000504")]
+[Token(Token = "0x20004DD")]
 public class CustomAttributeFormatException : FormatException
 {
-	[Token(Token = "0x600246F")]
-	[Address(RVA = "0x1A42C00", Offset = "0x1A41200", VA = "0x181A42C00")]
+	[Token(Token = "0x600243D")]
+	[Address(RVA = "0x53D7BA0", Offset = "0x53D6BA0", VA = "0x53D7BA0")]
 	public CustomAttributeFormatException()
 	{
 	}
 
-	[Token(Token = "0x6002470")]
-	[Address(RVA = "0x1A42C50", Offset = "0x1A41250", VA = "0x181A42C50")]
+	[Token(Token = "0x600243E")]
+	[Address(RVA = "0x53D7BE0", Offset = "0x53D6BE0", VA = "0x53D7BE0")]
 	public CustomAttributeFormatException(string message)
 	{
 	}
 
-	[Token(Token = "0x6002471")]
-	[Address(RVA = "0x1A42C80", Offset = "0x1A41280", VA = "0x181A42C80")]
+	[Token(Token = "0x600243F")]
+	[Address(RVA = "0x53D7C00", Offset = "0x53D6C00", VA = "0x53D7C00")]
 	public CustomAttributeFormatException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x6002472")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x6002440")]
+	[Address(RVA = "0x53D7C20", Offset = "0x53D6C20", VA = "0x53D7C20")]
 	protected CustomAttributeFormatException(SerializationInfo info, StreamingContext context)
 	{
 	}

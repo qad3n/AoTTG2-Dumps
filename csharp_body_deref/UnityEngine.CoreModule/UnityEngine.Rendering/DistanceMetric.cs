@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003CB")]
+[Token(Token = "0x200039F")]
 public enum DistanceMetric
 {
-	[Token(Token = "0x4000C3A")]
+	[Token(Token = "0x4000B1A")]
 	Perspective,
-	[Token(Token = "0x4000C3B")]
+	[Token(Token = "0x4000B1B")]
 	Orthographic,
-	[Token(Token = "0x4000C3C")]
+	[Token(Token = "0x4000B1C")]
 	CustomAxis
 }

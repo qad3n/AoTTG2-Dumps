@@ -24,14 +24,14 @@ internal abstract class BsonToken
 	public BsonToken Parent
 	{
 		[Token(Token = "0x6001001")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x564B540", Offset = "0x564A540", VA = "0x564B540")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001002")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x564B550", Offset = "0x564A550", VA = "0x564B550")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,14 +42,14 @@ internal abstract class BsonToken
 	public int CalculatedSize
 	{
 		[Token(Token = "0x6001003")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x564B560", Offset = "0x564A560", VA = "0x564B560")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001004")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x564B570", Offset = "0x564A570", VA = "0x564B570")]
 		[CompilerGenerated]
 		set
 		{
@@ -57,7 +57,7 @@ internal abstract class BsonToken
 	}
 
 	[Token(Token = "0x6001005")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x564B580", Offset = "0x564A580", VA = "0x564B580")]
 	protected BsonToken()
 	{
 	}

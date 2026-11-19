@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public static class ExceptionUtility
 {
 	[Token(Token = "0x6001032")]
-	[Address(RVA = "0x2E50940", Offset = "0x2E4EF40", VA = "0x182E50940")]
+	[Address(RVA = "0x684A780", Offset = "0x6849780", VA = "0x684A780")]
 	public static Exception Relevant(this Exception ex)
 	{
 		return null;

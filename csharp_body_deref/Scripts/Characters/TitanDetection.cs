@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000644")]
+[Token(Token = "0x20006A3")]
 internal class TitanDetection : BaseDetection
 {
-	[Token(Token = "0x6003DCD")]
-	[Address(RVA = "0x211D110", Offset = "0x211B710", VA = "0x18211D110")]
+	[Token(Token = "0x6004062")]
+	[Address(RVA = "0x5AE6520", Offset = "0x5AE5520", VA = "0x5AE6520")]
 	public TitanDetection(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003DCE")]
-	[Address(RVA = "0x211D030", Offset = "0x211B630", VA = "0x18211D030", Slot = "9")]
+	[Token(Token = "0x6004063")]
+	[Address(RVA = "0x5AE6530", Offset = "0x5AE5530", VA = "0x5AE6530", Slot = "9")]
 	protected override void OnRecalculate(BaseCharacter character, float distance)
 	{
 	}

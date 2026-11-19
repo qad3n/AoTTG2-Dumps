@@ -15,110 +15,155 @@ using Utility;
 
 namespace Characters;
 
-[Token(Token = "0x20006BA")]
+[Token(Token = "0x2000719")]
 internal class BasicTitanSetup : MonoBehaviour
 {
-	[Token(Token = "0x4002156")]
+	[Token(Token = "0x400231D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static JSONNode Info;
 
-	[Token(Token = "0x4002157")]
+	[Token(Token = "0x400231E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public static int BodyCount;
 
-	[Token(Token = "0x4002158")]
+	[Token(Token = "0x400231F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	public static int HeadCount;
 
-	[Token(Token = "0x4002159")]
+	[Token(Token = "0x4002320")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public static int EyeCount;
 
-	[Token(Token = "0x400215A")]
+	[Token(Token = "0x4002321")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	public static int HairMCount;
 
-	[Token(Token = "0x400215B")]
+	[Token(Token = "0x4002322")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public static int HairFCount;
 
-	[Token(Token = "0x400215C")]
+	[Token(Token = "0x4002323")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static Dictionary<string, string> HairPrefabs;
 
-	[Token(Token = "0x400215D")]
+	[Token(Token = "0x4002324")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public static List<string> AllHairs;
 
-	[Token(Token = "0x400215E")]
+	[Token(Token = "0x4002325")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public static List<string> AIHairs;
 
-	[Token(Token = "0x400215F")]
+	[Token(Token = "0x4002326")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public static List<int> AIEyes;
 
-	[Token(Token = "0x4002160")]
+	[Token(Token = "0x4002327")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	public static List<Color255> AIHairColors;
 
-	[Token(Token = "0x4002161")]
+	[Token(Token = "0x4002328")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly HashSet<Material> _ownedMaterials;
 
-	[Token(Token = "0x6004292")]
-	[Address(RVA = "0x219EEF0", Offset = "0x219D4F0", VA = "0x18219EEF0")]
+	[Token(Token = "0x4002329")]
+	private const string HairPrefabPath = "Titans/Hairs/Prefabs/";
+
+	[Token(Token = "0x400232A")]
+	private const string HeadPrefabPath = "Titans/Heads/Prefabs/";
+
+	[Token(Token = "0x400232B")]
+	private const string HeadPart = "TitanHead";
+
+	[Token(Token = "0x400232C")]
+	private const string HeadColliderPart = "TitanHeadCollider";
+
+	[Token(Token = "0x400232D")]
+	private const string EyesPart = "TitanEyes";
+
+	[Token(Token = "0x400232E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	private static readonly string[] HeadParts;
+
+	[Token(Token = "0x600453F")]
+	[Address(RVA = "0x5B421B0", Offset = "0x5B411B0", VA = "0x5B421B0")]
+	public static void PreloadAIAssets()
+	{
+	}
+
+	[Token(Token = "0x6004540")]
+	[Address(RVA = "0x5B42850", Offset = "0x5B41850", VA = "0x5B42850")]
+	private static GameObject LoadHair(string hair)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6004541")]
+	[Address(RVA = "0x5B42980", Offset = "0x5B41980", VA = "0x5B42980")]
+	public static void ResetCloth(Transform hairSocket)
+	{
+	}
+
+	[Token(Token = "0x6004542")]
+	[Address(RVA = "0x5B42750", Offset = "0x5B41750", VA = "0x5B42750")]
+	private static Transform LoadHeadPart(string part, int head)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6004543")]
+	[Address(RVA = "0x5B42B00", Offset = "0x5B41B00", VA = "0x5B42B00")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004293")]
-	[Address(RVA = "0x219F7E0", Offset = "0x219DDE0", VA = "0x18219F7E0")]
+	[Token(Token = "0x6004544")]
+	[Address(RVA = "0x5B433F0", Offset = "0x5B423F0", VA = "0x5B433F0")]
 	private static void LoadHairs(string key)
 	{
 	}
 
-	[Token(Token = "0x6004294")]
-	[Address(RVA = "0x219E960", Offset = "0x219CF60", VA = "0x18219E960")]
+	[Token(Token = "0x6004545")]
+	[Address(RVA = "0x5B438D0", Offset = "0x5B428D0", VA = "0x5B438D0")]
 	public static int[] GetRandomBodyHeadCombo([Optional] JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004295")]
-	[Address(RVA = "0x219E720", Offset = "0x219CD20", VA = "0x18219E720")]
+	[Token(Token = "0x6004546")]
+	[Address(RVA = "0x5B43EA0", Offset = "0x5B42EA0", VA = "0x5B43EA0")]
 	public TitanCustomSet CreateRandomSet(int headPrefab)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004296")]
-	[Address(RVA = "0x219FC90", Offset = "0x219E290", VA = "0x18219FC90")]
+	[Token(Token = "0x6004547")]
+	[Address(RVA = "0x5B440D0", Offset = "0x5B430D0", VA = "0x5B440D0")]
 	public void Load(TitanCustomSet set)
 	{
 	}
 
-	[Token(Token = "0x6004297")]
-	[Address(RVA = "0x21A1160", Offset = "0x219F760", VA = "0x1821A1160")]
+	[Token(Token = "0x6004548")]
+	[Address(RVA = "0x5B44E40", Offset = "0x5B43E40", VA = "0x5B44E40")]
 	private Material OwnInstance(Renderer renderer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004298")]
-	[Address(RVA = "0x21A1000", Offset = "0x219F600", VA = "0x1821A1000")]
+	[Token(Token = "0x6004549")]
+	[Address(RVA = "0x5B450C0", Offset = "0x5B440C0", VA = "0x5B450C0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6004299")]
-	[Address(RVA = "0x219E490", Offset = "0x219CA90", VA = "0x18219E490")]
+	[Token(Token = "0x600454A")]
+	[Address(RVA = "0x5B44EB0", Offset = "0x5B43EB0", VA = "0x5B44EB0")]
 	protected void CopyColliders(Transform from, Transform to, bool capsule, bool moveTransform)
 	{
 	}
 
-	[Token(Token = "0x600429A")]
-	[Address(RVA = "0x21A13D0", Offset = "0x219F9D0", VA = "0x1821A13D0")]
+	[Token(Token = "0x600454B")]
+	[Address(RVA = "0x5B45250", Offset = "0x5B44250", VA = "0x5B45250")]
 	public BasicTitanSetup()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Light
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,142 +15,61 @@ using UnityEngine.Rendering;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F0")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Graphics/Light.bindings.h")]
-[RequireComponent(typeof(Transform))]
+[Token(Token = "0x20000F1")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/Light.h")]
+[RequireComponent(typeof(Transform))]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Graphics/Light.bindings.h")]
 [RequireComponent(typeof(Transform))]
 public sealed class Light : Behaviour
 {
-	[Token(Token = "0x400026C")]
+	[Token(Token = "0x4000271")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private LightShape _003Cshape_003Ek__BackingField;
 
-	[Token(Token = "0x400026D")]
+	[Token(Token = "0x4000272")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private int m_BakedIndex;
 
-	[Token(Token = "0x1700012E")]
+	[Token(Token = "0x17000134")]
 	[UnityEngine.Bindings.NativeProperty("LightType")]
 	public LightType type
 	{
-		[Token(Token = "0x60006D3")]
-		[Address(RVA = "0x2EDCC30", Offset = "0x2EDB230", VA = "0x182EDCC30")]
+		[Token(Token = "0x60006E3")]
+		[Address(RVA = "0x68E28C0", Offset = "0x68E18C0", VA = "0x68E28C0")]
 		get
 		{
 			return default(LightType);
 		}
-		[Token(Token = "0x60006D4")]
-		[Address(RVA = "0x2EDD640", Offset = "0x2EDBC40", VA = "0x182EDD640")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700012F")]
-	public float spotAngle
-	{
-		[Token(Token = "0x60006D5")]
-		[Address(RVA = "0x2EDCB70", Offset = "0x2EDB170", VA = "0x182EDCB70")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60006D6")]
-		[Address(RVA = "0x2EDD570", Offset = "0x2EDBB70", VA = "0x182EDD570")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000130")]
-	public float innerSpotAngle
-	{
-		[Token(Token = "0x60006D7")]
-		[Address(RVA = "0x2EDC4B0", Offset = "0x2EDAAB0", VA = "0x182EDC4B0")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000131")]
-	public Color color
-	{
-		[Token(Token = "0x60006D8")]
-		[Address(RVA = "0x2EDC0A0", Offset = "0x2EDA6A0", VA = "0x182EDC0A0")]
-		get
-		{
-			return default(Color);
-		}
-		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x2EDCEA0", Offset = "0x2EDB4A0", VA = "0x182EDCEA0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000132")]
-	public float colorTemperature
-	{
-		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0x2EDBFD0", Offset = "0x2EDA5D0", VA = "0x182EDBFD0")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000133")]
-	public bool useColorTemperature
-	{
-		[Token(Token = "0x60006DB")]
-		[Address(RVA = "0x2EDCCF0", Offset = "0x2EDB2F0", VA = "0x182EDCCF0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000134")]
-	public float intensity
-	{
-		[Token(Token = "0x60006DC")]
-		[Address(RVA = "0x2EDC570", Offset = "0x2EDAB70", VA = "0x182EDC570")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60006DD")]
-		[Address(RVA = "0x2EDCF80", Offset = "0x2EDB580", VA = "0x182EDCF80")]
+		[Token(Token = "0x60006E4")]
+		[Address(RVA = "0x68E2970", Offset = "0x68E1970", VA = "0x68E2970")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000135")]
-	public float bounceIntensity
+	public float spotAngle
 	{
-		[Token(Token = "0x60006DE")]
-		[Address(RVA = "0x2EDBF10", Offset = "0x2EDA510", VA = "0x182EDBF10")]
+		[Token(Token = "0x60006E5")]
+		[Address(RVA = "0x68E2A30", Offset = "0x68E1A30", VA = "0x68E2A30")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60006DF")]
-		[Address(RVA = "0x2EDCDC0", Offset = "0x2EDB3C0", VA = "0x182EDCDC0")]
+		[Token(Token = "0x60006E6")]
+		[Address(RVA = "0x68E2AE0", Offset = "0x68E1AE0", VA = "0x68E2AE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000136")]
-	public float luxAtDistance
+	public float innerSpotAngle
 	{
-		[Token(Token = "0x60006E0")]
-		[Address(RVA = "0x2EDC630", Offset = "0x2EDAC30", VA = "0x182EDC630")]
+		[Token(Token = "0x60006E7")]
+		[Address(RVA = "0x68E2BC0", Offset = "0x68E1BC0", VA = "0x68E2BC0")]
 		get
 		{
 			return default(float);
@@ -158,75 +77,80 @@ public sealed class Light : Behaviour
 	}
 
 	[Token(Token = "0x17000137")]
-	public bool enableSpotReflector
+	public Color color
 	{
-		[Token(Token = "0x60006E1")]
-		[Address(RVA = "0x2EDC3F0", Offset = "0x2EDA9F0", VA = "0x182EDC3F0")]
+		[Token(Token = "0x60006E8")]
+		[Address(RVA = "0x68E2C70", Offset = "0x68E1C70", VA = "0x68E2C70")]
+		get
+		{
+			return default(Color);
+		}
+		[Token(Token = "0x60006E9")]
+		[Address(RVA = "0x68E2D50", Offset = "0x68E1D50", VA = "0x68E2D50")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000138")]
+	public float colorTemperature
+	{
+		[Token(Token = "0x60006EA")]
+		[Address(RVA = "0x68E2E20", Offset = "0x68E1E20", VA = "0x68E2E20")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000139")]
+	public bool useColorTemperature
+	{
+		[Token(Token = "0x60006EB")]
+		[Address(RVA = "0x68E2ED0", Offset = "0x68E1ED0", VA = "0x68E2ED0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000138")]
-	public float shadowBias
+	[Token(Token = "0x1700013A")]
+	public float intensity
 	{
-		[Token(Token = "0x60006E2")]
-		[Address(RVA = "0x2EDC7B0", Offset = "0x2EDADB0", VA = "0x182EDC7B0")]
+		[Token(Token = "0x60006EC")]
+		[Address(RVA = "0x68E2F80", Offset = "0x68E1F80", VA = "0x68E2F80")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x2EDD2E0", Offset = "0x2EDB8E0", VA = "0x182EDD2E0")]
+		[Token(Token = "0x60006ED")]
+		[Address(RVA = "0x68E3030", Offset = "0x68E2030", VA = "0x68E3030")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000139")]
-	public float shadowNormalBias
-	{
-		[Token(Token = "0x60006E4")]
-		[Address(RVA = "0x2EDC930", Offset = "0x2EDAF30", VA = "0x182EDC930")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x1700013A")]
-	public float shadowNearPlane
-	{
-		[Token(Token = "0x60006E5")]
-		[Address(RVA = "0x2EDC870", Offset = "0x2EDAE70", VA = "0x182EDC870")]
-		get
-		{
-			return default(float);
-		}
-	}
-
 	[Token(Token = "0x1700013B")]
-	public float range
+	public float bounceIntensity
 	{
-		[Token(Token = "0x60006E6")]
-		[Address(RVA = "0x2EDC6F0", Offset = "0x2EDACF0", VA = "0x182EDC6F0")]
+		[Token(Token = "0x60006EE")]
+		[Address(RVA = "0x68E3110", Offset = "0x68E2110", VA = "0x68E3110")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x2EDD060", Offset = "0x2EDB660", VA = "0x182EDD060")]
+		[Token(Token = "0x60006EF")]
+		[Address(RVA = "0x68E31C0", Offset = "0x68E21C0", VA = "0x68E31C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700013C")]
-	public float dilatedRange
+	public float luxAtDistance
 	{
-		[Token(Token = "0x60006E8")]
-		[Address(RVA = "0x2EDC330", Offset = "0x2EDA930", VA = "0x182EDC330")]
+		[Token(Token = "0x60006F0")]
+		[Address(RVA = "0x68E32A0", Offset = "0x68E22A0", VA = "0x68E32A0")]
 		get
 		{
 			return default(float);
@@ -234,295 +158,371 @@ public sealed class Light : Behaviour
 	}
 
 	[Token(Token = "0x1700013D")]
-	public LightBakingOutput bakingOutput
+	public bool enableSpotReflector
 	{
-		[Token(Token = "0x60006E9")]
-		[Address(RVA = "0x2EDBE30", Offset = "0x2EDA430", VA = "0x182EDBE30")]
+		[Token(Token = "0x60006F1")]
+		[Address(RVA = "0x68E3350", Offset = "0x68E2350", VA = "0x68E3350")]
 		get
 		{
-			return default(LightBakingOutput);
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1700013E")]
-	public int renderingLayerMask
+	public float shadowBias
 	{
-		[Token(Token = "0x60006EA")]
-		[Address(RVA = "0x2EDD200", Offset = "0x2EDB800", VA = "0x182EDD200")]
+		[Token(Token = "0x60006F2")]
+		[Address(RVA = "0x68E3400", Offset = "0x68E2400", VA = "0x68E3400")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x60006F3")]
+		[Address(RVA = "0x68E34B0", Offset = "0x68E24B0", VA = "0x68E34B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700013F")]
+	public float shadowNormalBias
+	{
+		[Token(Token = "0x60006F4")]
+		[Address(RVA = "0x68E3590", Offset = "0x68E2590", VA = "0x68E3590")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000140")]
+	public float shadowNearPlane
+	{
+		[Token(Token = "0x60006F5")]
+		[Address(RVA = "0x68E3640", Offset = "0x68E2640", VA = "0x68E3640")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000141")]
+	public float range
+	{
+		[Token(Token = "0x60006F6")]
+		[Address(RVA = "0x68E36F0", Offset = "0x68E26F0", VA = "0x68E36F0")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x60006F7")]
+		[Address(RVA = "0x68E37A0", Offset = "0x68E27A0", VA = "0x68E37A0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000142")]
+	public float dilatedRange
+	{
+		[Token(Token = "0x60006F8")]
+		[Address(RVA = "0x68E3880", Offset = "0x68E2880", VA = "0x68E3880")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000143")]
+	public LightBakingOutput bakingOutput
+	{
+		[Token(Token = "0x60006F9")]
+		[Address(RVA = "0x68E3930", Offset = "0x68E2930", VA = "0x68E3930")]
+		get
+		{
+			return default(LightBakingOutput);
+		}
+	}
+
+	[Token(Token = "0x17000144")]
+	public int renderingLayerMask
+	{
+		[Token(Token = "0x60006FA")]
+		[Address(RVA = "0x68E3A20", Offset = "0x68E2A20", VA = "0x68E3A20")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000145")]
 	public LightShadows shadows
 	{
-		[Token(Token = "0x60006EB")]
-		[Address(RVA = "0x2EDCAB0", Offset = "0x2EDB0B0", VA = "0x182EDCAB0")]
+		[Token(Token = "0x60006FB")]
+		[Address(RVA = "0x68E3AE0", Offset = "0x68E2AE0", VA = "0x68E3AE0")]
 		[UnityEngine.Bindings.NativeMethod("GetShadowType")]
 		get
 		{
 			return default(LightShadows);
 		}
-		[Token(Token = "0x60006EC")]
-		[Address(RVA = "0x2EDD490", Offset = "0x2EDBA90", VA = "0x182EDD490")]
+		[Token(Token = "0x60006FC")]
+		[Address(RVA = "0x68E3B90", Offset = "0x68E2B90", VA = "0x68E3B90")]
 		[UnityEngine.Bindings.FreeFunction("Light_Bindings::SetShadowType", HasExplicitThis = true, ThrowsException = true)]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000140")]
+	[Token(Token = "0x17000146")]
 	public float shadowStrength
 	{
-		[Token(Token = "0x60006ED")]
-		[Address(RVA = "0x2EDC9F0", Offset = "0x2EDAFF0", VA = "0x182EDC9F0")]
+		[Token(Token = "0x60006FD")]
+		[Address(RVA = "0x68E3C50", Offset = "0x68E2C50", VA = "0x68E3C50")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60006EE")]
-		[Address(RVA = "0x2EDD3C0", Offset = "0x2EDB9C0", VA = "0x182EDD3C0")]
+		[Token(Token = "0x60006FE")]
+		[Address(RVA = "0x68E3D00", Offset = "0x68E2D00", VA = "0x68E3D00")]
 		[UnityEngine.Bindings.FreeFunction("Light_Bindings::SetShadowStrength", HasExplicitThis = true)]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000141")]
+	[Token(Token = "0x17000147")]
 	public LightShadowResolution shadowResolution
 	{
-		[Token(Token = "0x60006EF")]
-		[Address(RVA = "0x2EDBC80", Offset = "0x2EDA280", VA = "0x182EDBC80")]
+		[Token(Token = "0x60006FF")]
+		[Address(RVA = "0x68E3DE0", Offset = "0x68E2DE0", VA = "0x68E3DE0")]
 		get
 		{
 			return default(LightShadowResolution);
 		}
 	}
 
-	[Token(Token = "0x17000142")]
+	[Token(Token = "0x17000148")]
 	private LightShadowResolution ShadowResolution
 	{
-		[Token(Token = "0x60006F0")]
-		[Address(RVA = "0x2EDBC80", Offset = "0x2EDA280", VA = "0x182EDBC80")]
+		[Token(Token = "0x6000700")]
+		[Address(RVA = "0x68E3E60", Offset = "0x68E2E60", VA = "0x68E3E60")]
 		get
 		{
 			return default(LightShadowResolution);
 		}
 	}
 
-	[Token(Token = "0x17000143")]
+	[Token(Token = "0x17000149")]
 	public Vector2 cookieSize2D
 	{
-		[Token(Token = "0x60006F1")]
-		[Address(RVA = "0x2EDC180", Offset = "0x2EDA780", VA = "0x182EDC180")]
+		[Token(Token = "0x6000701")]
+		[Address(RVA = "0x68E3F10", Offset = "0x68E2F10", VA = "0x68E3F10")]
 		get
 		{
 			return default(Vector2);
 		}
 	}
 
-	[Token(Token = "0x17000144")]
+	[Token(Token = "0x1700014A")]
 	public Texture cookie
 	{
-		[Token(Token = "0x60006F2")]
-		[Address(RVA = "0x2EDC250", Offset = "0x2EDA850", VA = "0x182EDC250")]
+		[Token(Token = "0x6000702")]
+		[Address(RVA = "0x68E3FE0", Offset = "0x68E2FE0", VA = "0x68E3FE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000145")]
+	[Token(Token = "0x1700014B")]
 	public LightRenderMode renderMode
 	{
-		[Token(Token = "0x60006F3")]
-		[Address(RVA = "0x2EDD130", Offset = "0x2EDB730", VA = "0x182EDD130")]
+		[Token(Token = "0x6000703")]
+		[Address(RVA = "0x68E40B0", Offset = "0x68E30B0", VA = "0x68E40B0")]
 		[UnityEngine.Bindings.FreeFunction("Light_Bindings::SetRenderMode", HasExplicitThis = true, ThrowsException = true)]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000146")]
+	[Token(Token = "0x1700014C")]
 	public Vector2 areaSize
 	{
-		[Token(Token = "0x60006F4")]
-		[Address(RVA = "0x2EDBD50", Offset = "0x2EDA350", VA = "0x182EDBD50")]
+		[Token(Token = "0x6000704")]
+		[Address(RVA = "0x68E4170", Offset = "0x68E3170", VA = "0x68E4170")]
 		get
 		{
 			return default(Vector2);
 		}
 	}
 
-	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000705")]
+	[Address(RVA = "0x68E4240", Offset = "0x68E3240", VA = "0x68E4240")]
 	public Light()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x2EDCBF0", Offset = "0x2EDB1F0", VA = "0x182EDCBF0")]
+	[Token(Token = "0x6000706")]
+	[Address(RVA = "0x68E2940", Offset = "0x68E1940", VA = "0x68E2940")]
 	private static extern LightType get_type_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006F7")]
-	[Address(RVA = "0x2EDD600", Offset = "0x2EDBC00", VA = "0x182EDD600")]
+	[Token(Token = "0x6000707")]
+	[Address(RVA = "0x68E29F0", Offset = "0x68E19F0", VA = "0x68E29F0")]
 	private static extern void set_type_Injected(IntPtr _unity_self, LightType value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x2EDCB30", Offset = "0x2EDB130", VA = "0x182EDCB30")]
+	[Token(Token = "0x6000708")]
+	[Address(RVA = "0x68E2AB0", Offset = "0x68E1AB0", VA = "0x68E2AB0")]
 	private static extern float get_spotAngle_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x2EDD520", Offset = "0x2EDBB20", VA = "0x182EDD520")]
+	[Token(Token = "0x6000709")]
+	[Address(RVA = "0x68E2B70", Offset = "0x68E1B70", VA = "0x68E2B70")]
 	private static extern void set_spotAngle_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FA")]
-	[Address(RVA = "0x2EDC470", Offset = "0x2EDAA70", VA = "0x182EDC470")]
+	[Token(Token = "0x600070A")]
+	[Address(RVA = "0x68E2C40", Offset = "0x68E1C40", VA = "0x68E2C40")]
 	private static extern float get_innerSpotAngle_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FB")]
-	[Address(RVA = "0x2EDC050", Offset = "0x2EDA650", VA = "0x182EDC050")]
+	[Token(Token = "0x600070B")]
+	[Address(RVA = "0x68E2D10", Offset = "0x68E1D10", VA = "0x68E2D10")]
 	private static extern void get_color_Injected(IntPtr _unity_self, out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x2EDCE50", Offset = "0x2EDB450", VA = "0x182EDCE50")]
+	[Token(Token = "0x600070C")]
+	[Address(RVA = "0x68E2DE0", Offset = "0x68E1DE0", VA = "0x68E2DE0")]
 	private static extern void set_color_Injected(IntPtr _unity_self, [In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x2EDBF90", Offset = "0x2EDA590", VA = "0x182EDBF90")]
+	[Token(Token = "0x600070D")]
+	[Address(RVA = "0x68E2EA0", Offset = "0x68E1EA0", VA = "0x68E2EA0")]
 	private static extern float get_colorTemperature_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x2EDCCB0", Offset = "0x2EDB2B0", VA = "0x182EDCCB0")]
+	[Token(Token = "0x600070E")]
+	[Address(RVA = "0x68E2F50", Offset = "0x68E1F50", VA = "0x68E2F50")]
 	private static extern bool get_useColorTemperature_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x2EDC530", Offset = "0x2EDAB30", VA = "0x182EDC530")]
+	[Token(Token = "0x600070F")]
+	[Address(RVA = "0x68E3000", Offset = "0x68E2000", VA = "0x68E3000")]
 	private static extern float get_intensity_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x2EDCF30", Offset = "0x2EDB530", VA = "0x182EDCF30")]
+	[Token(Token = "0x6000710")]
+	[Address(RVA = "0x68E30C0", Offset = "0x68E20C0", VA = "0x68E30C0")]
 	private static extern void set_intensity_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x2EDBED0", Offset = "0x2EDA4D0", VA = "0x182EDBED0")]
+	[Token(Token = "0x6000711")]
+	[Address(RVA = "0x68E3190", Offset = "0x68E2190", VA = "0x68E3190")]
 	private static extern float get_bounceIntensity_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x2EDCD70", Offset = "0x2EDB370", VA = "0x182EDCD70")]
+	[Token(Token = "0x6000712")]
+	[Address(RVA = "0x68E3250", Offset = "0x68E2250", VA = "0x68E3250")]
 	private static extern void set_bounceIntensity_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x2EDC5F0", Offset = "0x2EDABF0", VA = "0x182EDC5F0")]
+	[Token(Token = "0x6000713")]
+	[Address(RVA = "0x68E3320", Offset = "0x68E2320", VA = "0x68E3320")]
 	private static extern float get_luxAtDistance_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x2EDC3B0", Offset = "0x2EDA9B0", VA = "0x182EDC3B0")]
+	[Token(Token = "0x6000714")]
+	[Address(RVA = "0x68E33D0", Offset = "0x68E23D0", VA = "0x68E33D0")]
 	private static extern bool get_enableSpotReflector_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000705")]
-	[Address(RVA = "0x2EDC770", Offset = "0x2EDAD70", VA = "0x182EDC770")]
+	[Token(Token = "0x6000715")]
+	[Address(RVA = "0x68E3480", Offset = "0x68E2480", VA = "0x68E3480")]
 	private static extern float get_shadowBias_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x2EDD290", Offset = "0x2EDB890", VA = "0x182EDD290")]
+	[Token(Token = "0x6000716")]
+	[Address(RVA = "0x68E3540", Offset = "0x68E2540", VA = "0x68E3540")]
 	private static extern void set_shadowBias_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000707")]
-	[Address(RVA = "0x2EDC8F0", Offset = "0x2EDAEF0", VA = "0x182EDC8F0")]
+	[Token(Token = "0x6000717")]
+	[Address(RVA = "0x68E3610", Offset = "0x68E2610", VA = "0x68E3610")]
 	private static extern float get_shadowNormalBias_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000708")]
-	[Address(RVA = "0x2EDC830", Offset = "0x2EDAE30", VA = "0x182EDC830")]
+	[Token(Token = "0x6000718")]
+	[Address(RVA = "0x68E36C0", Offset = "0x68E26C0", VA = "0x68E36C0")]
 	private static extern float get_shadowNearPlane_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000709")]
-	[Address(RVA = "0x2EDC6B0", Offset = "0x2EDACB0", VA = "0x182EDC6B0")]
+	[Token(Token = "0x6000719")]
+	[Address(RVA = "0x68E3770", Offset = "0x68E2770", VA = "0x68E3770")]
 	private static extern float get_range_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070A")]
-	[Address(RVA = "0x2EDD010", Offset = "0x2EDB610", VA = "0x182EDD010")]
+	[Token(Token = "0x600071A")]
+	[Address(RVA = "0x68E3830", Offset = "0x68E2830", VA = "0x68E3830")]
 	private static extern void set_range_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070B")]
-	[Address(RVA = "0x2EDC2F0", Offset = "0x2EDA8F0", VA = "0x182EDC2F0")]
+	[Token(Token = "0x600071B")]
+	[Address(RVA = "0x68E3900", Offset = "0x68E2900", VA = "0x68E3900")]
 	private static extern float get_dilatedRange_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070C")]
-	[Address(RVA = "0x2EDBDE0", Offset = "0x2EDA3E0", VA = "0x182EDBDE0")]
+	[Token(Token = "0x600071C")]
+	[Address(RVA = "0x68E39E0", Offset = "0x68E29E0", VA = "0x68E39E0")]
 	private static extern void get_bakingOutput_Injected(IntPtr _unity_self, out LightBakingOutput ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070D")]
-	[Address(RVA = "0x2EDD1C0", Offset = "0x2EDB7C0", VA = "0x182EDD1C0")]
+	[Token(Token = "0x600071D")]
+	[Address(RVA = "0x68E3AA0", Offset = "0x68E2AA0", VA = "0x68E3AA0")]
 	private static extern void set_renderingLayerMask_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070E")]
-	[Address(RVA = "0x2EDCA70", Offset = "0x2EDB070", VA = "0x182EDCA70")]
+	[Token(Token = "0x600071E")]
+	[Address(RVA = "0x68E3B60", Offset = "0x68E2B60", VA = "0x68E3B60")]
 	private static extern LightShadows get_shadows_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x2EDD450", Offset = "0x2EDBA50", VA = "0x182EDD450")]
+	[Token(Token = "0x600071F")]
+	[Address(RVA = "0x68E3C10", Offset = "0x68E2C10", VA = "0x68E3C10")]
 	private static extern void set_shadows_Injected(IntPtr _unity_self, LightShadows value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x2EDC9B0", Offset = "0x2EDAFB0", VA = "0x182EDC9B0")]
+	[Token(Token = "0x6000720")]
+	[Address(RVA = "0x68E3CD0", Offset = "0x68E2CD0", VA = "0x68E3CD0")]
 	private static extern float get_shadowStrength_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000711")]
-	[Address(RVA = "0x2EDD370", Offset = "0x2EDB970", VA = "0x182EDD370")]
+	[Token(Token = "0x6000721")]
+	[Address(RVA = "0x68E3D90", Offset = "0x68E2D90", VA = "0x68E3D90")]
 	private static extern void set_shadowStrength_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x2EDBC40", Offset = "0x2EDA240", VA = "0x182EDBC40")]
+	[Token(Token = "0x6000722")]
+	[Address(RVA = "0x68E3EE0", Offset = "0x68E2EE0", VA = "0x68E3EE0")]
 	private static extern LightShadowResolution get_ShadowResolution_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x2EDC130", Offset = "0x2EDA730", VA = "0x182EDC130")]
+	[Token(Token = "0x6000723")]
+	[Address(RVA = "0x68E3FA0", Offset = "0x68E2FA0", VA = "0x68E3FA0")]
 	private static extern void get_cookieSize2D_Injected(IntPtr _unity_self, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x2EDC210", Offset = "0x2EDA810", VA = "0x182EDC210")]
+	[Token(Token = "0x6000724")]
+	[Address(RVA = "0x68E4080", Offset = "0x68E3080", VA = "0x68E4080")]
 	private static extern IntPtr get_cookie_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x2EDD0F0", Offset = "0x2EDB6F0", VA = "0x182EDD0F0")]
+	[Token(Token = "0x6000725")]
+	[Address(RVA = "0x68E4130", Offset = "0x68E3130", VA = "0x68E4130")]
 	private static extern void set_renderMode_Injected(IntPtr _unity_self, LightRenderMode value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x2EDBD00", Offset = "0x2EDA300", VA = "0x182EDBD00")]
+	[Token(Token = "0x6000726")]
+	[Address(RVA = "0x68E4200", Offset = "0x68E3200", VA = "0x68E4200")]
 	private static extern void get_areaSize_Injected(IntPtr _unity_self, out Vector2 ret);
 }

@@ -1,0 +1,93 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RaycastHit2D
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using UnityEngine.Bindings;
+using UnityEngine.Scripting;
+
+namespace UnityEngine;
+
+[Token(Token = "0x2000008")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Interfaces/IPhysics2D.h")]
+[UnityEngine.NativeClass("RaycastHit2D", "struct RaycastHit2D;")]
+[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = false)]
+public struct RaycastHit2D
+{
+	[Token(Token = "0x4000028")]
+	[FieldOffset(Offset = "0x0")]
+	[UnityEngine.Bindings.NativeName("centroid")]
+	private Vector2 m_Centroid;
+
+	[Token(Token = "0x4000029")]
+	[FieldOffset(Offset = "0x8")]
+	[UnityEngine.Bindings.NativeName("point")]
+	private Vector2 m_Point;
+
+	[Token(Token = "0x400002A")]
+	[FieldOffset(Offset = "0x10")]
+	[UnityEngine.Bindings.NativeName("normal")]
+	private Vector2 m_Normal;
+
+	[Token(Token = "0x400002B")]
+	[FieldOffset(Offset = "0x18")]
+	[UnityEngine.Bindings.NativeName("distance")]
+	private float m_Distance;
+
+	[Token(Token = "0x400002C")]
+	[FieldOffset(Offset = "0x1C")]
+	[UnityEngine.Bindings.NativeName("fraction")]
+	private float m_Fraction;
+
+	[Token(Token = "0x400002D")]
+	[FieldOffset(Offset = "0x20")]
+	[UnityEngine.Bindings.NativeName("collider")]
+	private EntityId m_Collider;
+
+	[Token(Token = "0x17000003")]
+	public Vector2 point
+	{
+		[Token(Token = "0x600002A")]
+		[Address(RVA = "0x69C7AF0", Offset = "0x69C6AF0", VA = "0x69C7AF0")]
+		get
+		{
+			return default(Vector2);
+		}
+	}
+
+	[Token(Token = "0x17000004")]
+	public Vector2 normal
+	{
+		[Token(Token = "0x600002B")]
+		[Address(RVA = "0x69C7B00", Offset = "0x69C6B00", VA = "0x69C7B00")]
+		get
+		{
+			return default(Vector2);
+		}
+	}
+
+	[Token(Token = "0x17000005")]
+	public float distance
+	{
+		[Token(Token = "0x600002C")]
+		[Address(RVA = "0x69C7B10", Offset = "0x69C6B10", VA = "0x69C7B10")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000006")]
+	public Collider2D collider
+	{
+		[Token(Token = "0x600002D")]
+		[Address(RVA = "0x69C7B20", Offset = "0x69C6B20", VA = "0x69C7B20")]
+		get
+		{
+			return null;
+		}
+	}
+}

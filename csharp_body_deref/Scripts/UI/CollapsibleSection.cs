@@ -14,72 +14,72 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000731")]
+[Token(Token = "0x20007D7")]
 internal class CollapsibleSection : MonoBehaviour
 {
-	[Token(Token = "0x40023F7")]
+	[Token(Token = "0x4002764")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Text _headerText;
 
-	[Token(Token = "0x40023F8")]
+	[Token(Token = "0x4002765")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string _title;
 
-	[Token(Token = "0x40023F9")]
+	[Token(Token = "0x4002766")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private bool _expanded;
 
-	[Token(Token = "0x40023FA")]
+	[Token(Token = "0x4002767")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private Action<bool> _onExpandedChanged;
 
-	[Token(Token = "0x40023FB")]
+	[Token(Token = "0x4002768")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private readonly List<GameObject> _children;
 
-	[Token(Token = "0x17000CBD")]
+	[Token(Token = "0x17000D40")]
 	public bool IsExpanded
 	{
-		[Token(Token = "0x600468B")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Token(Token = "0x6004BA7")]
+		[Address(RVA = "0x5BE77E0", Offset = "0x5BE67E0", VA = "0x5BE77E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600468C")]
-	[Address(RVA = "0x2202820", Offset = "0x2200E20", VA = "0x182202820")]
+	[Token(Token = "0x6004BA8")]
+	[Address(RVA = "0x5BE77F0", Offset = "0x5BE67F0", VA = "0x5BE77F0")]
 	public void Setup(string title, ElementStyle style, [Optional][DefaultParameterValue(true)] bool startExpanded, [Optional] Action<bool> onExpandedChanged)
 	{
 	}
 
-	[Token(Token = "0x600468D")]
-	[Address(RVA = "0x22025E0", Offset = "0x2200BE0", VA = "0x1822025E0")]
+	[Token(Token = "0x6004BA9")]
+	[Address(RVA = "0x5BE7A40", Offset = "0x5BE6A40", VA = "0x5BE7A40")]
 	public void AddChild(GameObject child)
 	{
 	}
 
-	[Token(Token = "0x600468E")]
-	[Address(RVA = "0x22029B0", Offset = "0x2200FB0", VA = "0x1822029B0")]
+	[Token(Token = "0x6004BAA")]
+	[Address(RVA = "0x5BE7B20", Offset = "0x5BE6B20", VA = "0x5BE7B20")]
 	public void Toggle()
 	{
 	}
 
-	[Token(Token = "0x600468F")]
-	[Address(RVA = "0x2202680", Offset = "0x2200C80", VA = "0x182202680")]
+	[Token(Token = "0x6004BAB")]
+	[Address(RVA = "0x5BE7CE0", Offset = "0x5BE6CE0", VA = "0x5BE7CE0")]
 	public void SetExpanded(bool expanded)
 	{
 	}
 
-	[Token(Token = "0x6004690")]
-	[Address(RVA = "0x2202B50", Offset = "0x2201150", VA = "0x182202B50")]
+	[Token(Token = "0x6004BAC")]
+	[Address(RVA = "0x5BE7980", Offset = "0x5BE6980", VA = "0x5BE7980")]
 	private void UpdateHeader()
 	{
 	}
 
-	[Token(Token = "0x6004691")]
-	[Address(RVA = "0x2202C10", Offset = "0x2201210", VA = "0x182202C10")]
+	[Token(Token = "0x6004BAD")]
+	[Address(RVA = "0x5BE7EB0", Offset = "0x5BE6EB0", VA = "0x5BE7EB0")]
 	public CollapsibleSection()
 	{
 	}

@@ -22,7 +22,7 @@ public abstract class XmlNameTable
 	public abstract string Add(string array);
 
 	[Token(Token = "0x6000BFF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6103310", Offset = "0x6102310", VA = "0x6103310")]
 	protected XmlNameTable()
 	{
 	}

@@ -104,31 +104,31 @@ public class FreeCamera : MonoBehaviour
 	private bool fire1;
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64B3700", Offset = "0x64B2700", VA = "0x64B3700")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64B3710", Offset = "0x64B2710", VA = "0x64B3710")]
 	private void RegisterInputs()
 	{
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x2AC1320", Offset = "0x2ABF920", VA = "0x182AC1320")]
+	[Address(RVA = "0x64B3720", Offset = "0x64B2720", VA = "0x64B3720")]
 	private void UpdateInputs()
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x2AC1500", Offset = "0x2ABFB00", VA = "0x182AC1500")]
+	[Address(RVA = "0x64B38F0", Offset = "0x64B28F0", VA = "0x64B38F0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x2AC1CF0", Offset = "0x2AC02F0", VA = "0x182AC1CF0")]
+	[Address(RVA = "0x64B3CE0", Offset = "0x64B2CE0", VA = "0x64B3CE0")]
 	public FreeCamera()
 	{
 	}

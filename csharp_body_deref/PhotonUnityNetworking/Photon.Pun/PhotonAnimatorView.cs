@@ -57,7 +57,7 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 		public string Name;
 
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x56FADD0", Offset = "0x56F9DD0", VA = "0x56FADD0")]
 		public SynchronizedParameter()
 		{
 		}
@@ -76,7 +76,7 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 		public int LayerIndex;
 
 		[Token(Token = "0x60001A4")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x56FAB70", Offset = "0x56F9B70", VA = "0x56FAB70")]
 		public SynchronizedLayer()
 		{
 		}
@@ -135,121 +135,121 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 	private List<string> m_raisedDiscreteTriggersCache;
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x1D611A0", Offset = "0x1D5F7A0", VA = "0x181D611A0")]
+	[Address(RVA = "0x56F9BD0", Offset = "0x56F8BD0", VA = "0x56F9BD0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x1D62E10", Offset = "0x1D61410", VA = "0x181D62E10")]
+	[Address(RVA = "0x56F9C20", Offset = "0x56F8C20", VA = "0x56F9C20")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x1D611F0", Offset = "0x1D5F7F0", VA = "0x181D611F0")]
+	[Address(RVA = "0x56FA0B0", Offset = "0x56F90B0", VA = "0x56FA0B0")]
 	public void CacheDiscreteTriggers()
 	{
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x1D61C50", Offset = "0x1D60250", VA = "0x181D61C50")]
+	[Address(RVA = "0x56FA4F0", Offset = "0x56F94F0", VA = "0x56FA4F0")]
 	public bool DoesLayerSynchronizeTypeExist(int layerIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x1D61D20", Offset = "0x1D60320", VA = "0x181D61D20")]
+	[Address(RVA = "0x56FA5D0", Offset = "0x56F95D0", VA = "0x56FA5D0")]
 	public bool DoesParameterSynchronizeTypeExist(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+	[Address(RVA = "0x56FA6C0", Offset = "0x56F96C0", VA = "0x56FA6C0")]
 	public List<SynchronizedLayer> GetSynchronizedLayers()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000196")]
-	[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+	[Address(RVA = "0x56FA6D0", Offset = "0x56F96D0", VA = "0x56FA6D0")]
 	public List<SynchronizedParameter> GetSynchronizedParameters()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x1D61E00", Offset = "0x1D60400", VA = "0x181D61E00")]
+	[Address(RVA = "0x56FA6E0", Offset = "0x56F96E0", VA = "0x56FA6E0")]
 	public SynchronizeType GetLayerSynchronizeType(int layerIndex)
 	{
 		return default(SynchronizeType);
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x1D61F10", Offset = "0x1D60510", VA = "0x181D61F10")]
+	[Address(RVA = "0x56FA800", Offset = "0x56F9800", VA = "0x56FA800")]
 	public SynchronizeType GetParameterSynchronizeType(string name)
 	{
 		return default(SynchronizeType);
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x1D629F0", Offset = "0x1D60FF0", VA = "0x181D629F0")]
+	[Address(RVA = "0x56FA930", Offset = "0x56F9930", VA = "0x56FA930")]
 	public void SetLayerSynchronized(int layerIndex, SynchronizeType synchronizeType)
 	{
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x1D62BF0", Offset = "0x1D611F0", VA = "0x181D62BF0")]
+	[Address(RVA = "0x56FAB80", Offset = "0x56F9B80", VA = "0x56FAB80")]
 	public void SetParameterSynchronized(string name, ParameterType type, SynchronizeType synchronizeType)
 	{
 	}
 
 	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x1D62170", Offset = "0x1D60770", VA = "0x181D62170")]
+	[Address(RVA = "0x56F9D90", Offset = "0x56F8D90", VA = "0x56F9D90")]
 	private void SerializeDataContinuously()
 	{
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x1D612E0", Offset = "0x1D5F8E0", VA = "0x181D612E0")]
+	[Address(RVA = "0x56FA1F0", Offset = "0x56F91F0", VA = "0x56FA1F0")]
 	private void DeserializeDataContinuously()
 	{
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x1D624D0", Offset = "0x1D60AD0", VA = "0x181D624D0")]
+	[Address(RVA = "0x56FADE0", Offset = "0x56F9DE0", VA = "0x56FADE0")]
 	private void SerializeDataDiscretly(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x1D61660", Offset = "0x1D5FC60", VA = "0x181D61660")]
+	[Address(RVA = "0x56FB190", Offset = "0x56FA190", VA = "0x56FB190")]
 	private void DeserializeDataDiscretly(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x1D62830", Offset = "0x1D60E30", VA = "0x181D62830")]
+	[Address(RVA = "0x56FB5D0", Offset = "0x56FA5D0", VA = "0x56FB5D0")]
 	private void SerializeSynchronizationTypeState(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x1D61AA0", Offset = "0x1D600A0", VA = "0x181D61AA0")]
+	[Address(RVA = "0x56FB790", Offset = "0x56FA790", VA = "0x56FB790")]
 	private void DeserializeSynchronizationTypeState(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x1D62030", Offset = "0x1D60630", VA = "0x181D62030", Slot = "4")]
+	[Address(RVA = "0x56FB940", Offset = "0x56FA940", VA = "0x56FB940", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x1D63040", Offset = "0x1D61640", VA = "0x181D63040")]
+	[Address(RVA = "0x56FBA60", Offset = "0x56FAA60", VA = "0x56FBA60")]
 	public PhotonAnimatorView()
 	{
 	}

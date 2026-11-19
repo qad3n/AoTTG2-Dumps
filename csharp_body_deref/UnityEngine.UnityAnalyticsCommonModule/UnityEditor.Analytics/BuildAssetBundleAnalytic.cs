@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.BuildAssetBundleAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,21 +22,21 @@ namespace UnityEditor.Analytics;
 public class BuildAssetBundleAnalytic : AnalyticsEventBase
 {
 	[Token(Token = "0x400001F")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	public bool success;
 
 	[Token(Token = "0x4000020")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public string error;
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x3306E10", Offset = "0x3305410", VA = "0x183306E10")]
+	[Address(RVA = "0x6D17750", Offset = "0x6D16750", VA = "0x6D17750")]
 	public BuildAssetBundleAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x3306D80", Offset = "0x3305380", VA = "0x183306D80")]
+	[Address(RVA = "0x6D177B0", Offset = "0x6D167B0", VA = "0x6D177B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static BuildAssetBundleAnalytic CreateBuildAssetBundleAnalytic()
 	{

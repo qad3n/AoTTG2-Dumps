@@ -11,94 +11,94 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000275")]
+[Token(Token = "0x200029B")]
 public sealed class AottgProfileBanner : AottgComponent
 {
-	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x1DE5210", Offset = "0x1DE3810", VA = "0x181DE5210", Slot = "4")]
+	[Token(Token = "0x6000FE2")]
+	[Address(RVA = "0x57B8DD0", Offset = "0x57B7DD0", VA = "0x57B8DD0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x1DE5CE0", Offset = "0x1DE42E0", VA = "0x181DE5CE0")]
+	[Token(Token = "0x6000FE3")]
+	[Address(RVA = "0x57B9540", Offset = "0x57B8540", VA = "0x57B9540")]
 	private static GisketchUIBindingDefinition Visible(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ED7")]
-	[Address(RVA = "0x1DE5090", Offset = "0x1DE3690", VA = "0x181DE5090")]
+	[Token(Token = "0x6000FE4")]
+	[Address(RVA = "0x57B9490", Offset = "0x57B8490", VA = "0x57B9490")]
 	private static GisketchLayoutDefinition BannerRootLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x1DE56D0", Offset = "0x1DE3CD0", VA = "0x181DE56D0")]
+	[Token(Token = "0x6000FE5")]
+	[Address(RVA = "0x57B95B0", Offset = "0x57B85B0", VA = "0x57B95B0")]
 	private static GisketchLayoutDefinition EditButtonLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ED9")]
-	[Address(RVA = "0x1DE5820", Offset = "0x1DE3E20", VA = "0x181DE5820")]
+	[Token(Token = "0x6000FE6")]
+	[Address(RVA = "0x57B9660", Offset = "0x57B8660", VA = "0x57B9660")]
 	private static GisketchLayoutDefinition FullWidthButtonLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDA")]
-	[Address(RVA = "0x1DE5900", Offset = "0x1DE3F00", VA = "0x181DE5900")]
+	[Token(Token = "0x6000FE7")]
+	[Address(RVA = "0x57B9710", Offset = "0x57B8710", VA = "0x57B9710")]
 	private static GisketchLayoutDefinition GrowActionButtonLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDB")]
-	[Address(RVA = "0x1DE59E0", Offset = "0x1DE3FE0", VA = "0x181DE59E0")]
+	[Token(Token = "0x6000FE8")]
+	[Address(RVA = "0x57B97B0", Offset = "0x57B87B0", VA = "0x57B97B0")]
 	private static GisketchLayoutDefinition NameTextLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDC")]
-	[Address(RVA = "0x1DE5B40", Offset = "0x1DE4140", VA = "0x181DE5B40")]
+	[Token(Token = "0x6000FE9")]
+	[Address(RVA = "0x57B9880", Offset = "0x57B8880", VA = "0x57B9880")]
 	private static GisketchLayoutDefinition SkeletonTextLayout(float width, float height)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDD")]
-	[Address(RVA = "0x1DE57B0", Offset = "0x1DE3DB0", VA = "0x181DE57B0")]
+	[Token(Token = "0x6000FEA")]
+	[Address(RVA = "0x57B9950", Offset = "0x57B8950", VA = "0x57B9950")]
 	private static GisketchUIBindingDefinition Enabled(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDE")]
-	[Address(RVA = "0x1DE5C50", Offset = "0x1DE4250", VA = "0x181DE5C50")]
+	[Token(Token = "0x6000FEB")]
+	[Address(RVA = "0x57B99C0", Offset = "0x57B89C0", VA = "0x57B99C0")]
 	private static GisketchUIBindingDefinition TextVisible(string textKey, string visibleKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EDF")]
-	[Address(RVA = "0x1DE5170", Offset = "0x1DE3770", VA = "0x181DE5170")]
+	[Token(Token = "0x6000FEC")]
+	[Address(RVA = "0x57B9A40", Offset = "0x57B8A40", VA = "0x57B9A40")]
 	private static GisketchUIBindingDefinition BoundCta(string textKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EE0")]
-	[Address(RVA = "0x1DE5AF0", Offset = "0x1DE40F0", VA = "0x181DE5AF0")]
+	[Token(Token = "0x6000FED")]
+	[Address(RVA = "0x57B9AD0", Offset = "0x57B8AD0", VA = "0x57B9AD0")]
 	private static GisketchMotionDefinition RevealMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EE1")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000FEE")]
+	[Address(RVA = "0x57B9B20", Offset = "0x57B8B20", VA = "0x57B9B20")]
 	public AottgProfileBanner()
 	{
 	}

@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x2000410")]
+[Token(Token = "0x20003E9")]
 internal class FixupHolder
 {
-	[Token(Token = "0x4001008")]
+	[Token(Token = "0x4000F68")]
 	[FieldOffset(Offset = "0x10")]
 	internal long m_id;
 
-	[Token(Token = "0x4001009")]
+	[Token(Token = "0x4000F69")]
 	[FieldOffset(Offset = "0x18")]
 	internal object m_fixupInfo;
 
-	[Token(Token = "0x400100A")]
+	[Token(Token = "0x4000F6A")]
 	[FieldOffset(Offset = "0x20")]
 	internal int m_fixupType;
 
-	[Token(Token = "0x6002039")]
-	[Address(RVA = "0x1A11EA0", Offset = "0x1A104A0", VA = "0x181A11EA0")]
+	[Token(Token = "0x600200F")]
+	[Address(RVA = "0x53A47E0", Offset = "0x53A37E0", VA = "0x53A47E0")]
 	internal FixupHolder(long id, object fixupInfo, int fixupType)
 	{
 	}

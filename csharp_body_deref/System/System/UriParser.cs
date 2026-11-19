@@ -10,318 +10,318 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000CA")]
+[Token(Token = "0x200008B")]
 public abstract class UriParser
 {
-	[Token(Token = "0x20000CB")]
+	[Token(Token = "0x200008C")]
 	private enum UriQuirksVersion
 	{
-		[Token(Token = "0x4000302")]
+		[Token(Token = "0x4000233")]
 		V2 = 2,
-		[Token(Token = "0x4000303")]
+		[Token(Token = "0x4000234")]
 		V3
 	}
 
-	[Token(Token = "0x20000CC")]
+	[Token(Token = "0x200008D")]
 	private class BuiltInUriParser : UriParser
 	{
-		[Token(Token = "0x600042A")]
-		[Address(RVA = "0x28485F0", Offset = "0x2846BF0", VA = "0x1828485F0")]
+		[Token(Token = "0x6000276")]
+		[Address(RVA = "0x61DA740", Offset = "0x61D9740", VA = "0x61DA740")]
 		internal BuiltInUriParser(string lwrCaseScheme, int defaultPort, UriSyntaxFlags syntaxFlags)
 		{
 		}
 	}
 
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x4000218")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, UriParser> m_Table;
 
-	[Token(Token = "0x40002E8")]
+	[Token(Token = "0x4000219")]
 	[FieldOffset(Offset = "0x8")]
 	private static Dictionary<string, UriParser> m_TempTable;
 
-	[Token(Token = "0x40002E9")]
+	[Token(Token = "0x400021A")]
 	[FieldOffset(Offset = "0x10")]
 	private UriSyntaxFlags m_Flags;
 
-	[Token(Token = "0x40002EA")]
+	[Token(Token = "0x400021B")]
 	[FieldOffset(Offset = "0x14")]
 	private UriSyntaxFlags m_UpdatableFlags;
 
-	[Token(Token = "0x40002EB")]
+	[Token(Token = "0x400021C")]
 	[FieldOffset(Offset = "0x18")]
 	private bool m_UpdatableFlagsUsed;
 
-	[Token(Token = "0x40002EC")]
+	[Token(Token = "0x400021D")]
 	[FieldOffset(Offset = "0x1C")]
 	private int m_Port;
 
-	[Token(Token = "0x40002ED")]
+	[Token(Token = "0x400021E")]
 	[FieldOffset(Offset = "0x20")]
 	private string m_Scheme;
 
-	[Token(Token = "0x40002EE")]
+	[Token(Token = "0x400021F")]
 	[FieldOffset(Offset = "0x10")]
 	internal static UriParser HttpUri;
 
-	[Token(Token = "0x40002EF")]
+	[Token(Token = "0x4000220")]
 	[FieldOffset(Offset = "0x18")]
 	internal static UriParser HttpsUri;
 
-	[Token(Token = "0x40002F0")]
+	[Token(Token = "0x4000221")]
 	[FieldOffset(Offset = "0x20")]
 	internal static UriParser WsUri;
 
-	[Token(Token = "0x40002F1")]
+	[Token(Token = "0x4000222")]
 	[FieldOffset(Offset = "0x28")]
 	internal static UriParser WssUri;
 
-	[Token(Token = "0x40002F2")]
+	[Token(Token = "0x4000223")]
 	[FieldOffset(Offset = "0x30")]
 	internal static UriParser FtpUri;
 
-	[Token(Token = "0x40002F3")]
+	[Token(Token = "0x4000224")]
 	[FieldOffset(Offset = "0x38")]
 	internal static UriParser FileUri;
 
-	[Token(Token = "0x40002F4")]
+	[Token(Token = "0x4000225")]
 	[FieldOffset(Offset = "0x40")]
 	internal static UriParser GopherUri;
 
-	[Token(Token = "0x40002F5")]
+	[Token(Token = "0x4000226")]
 	[FieldOffset(Offset = "0x48")]
 	internal static UriParser NntpUri;
 
-	[Token(Token = "0x40002F6")]
+	[Token(Token = "0x4000227")]
 	[FieldOffset(Offset = "0x50")]
 	internal static UriParser NewsUri;
 
-	[Token(Token = "0x40002F7")]
+	[Token(Token = "0x4000228")]
 	[FieldOffset(Offset = "0x58")]
 	internal static UriParser MailToUri;
 
-	[Token(Token = "0x40002F8")]
+	[Token(Token = "0x4000229")]
 	[FieldOffset(Offset = "0x60")]
 	internal static UriParser UuidUri;
 
-	[Token(Token = "0x40002F9")]
+	[Token(Token = "0x400022A")]
 	[FieldOffset(Offset = "0x68")]
 	internal static UriParser TelnetUri;
 
-	[Token(Token = "0x40002FA")]
+	[Token(Token = "0x400022B")]
 	[FieldOffset(Offset = "0x70")]
 	internal static UriParser LdapUri;
 
-	[Token(Token = "0x40002FB")]
+	[Token(Token = "0x400022C")]
 	[FieldOffset(Offset = "0x78")]
 	internal static UriParser NetTcpUri;
 
-	[Token(Token = "0x40002FC")]
+	[Token(Token = "0x400022D")]
 	[FieldOffset(Offset = "0x80")]
 	internal static UriParser NetPipeUri;
 
-	[Token(Token = "0x40002FD")]
+	[Token(Token = "0x400022E")]
 	[FieldOffset(Offset = "0x88")]
 	internal static UriParser VsMacrosUri;
 
-	[Token(Token = "0x40002FE")]
+	[Token(Token = "0x400022F")]
 	[FieldOffset(Offset = "0x90")]
 	private static readonly UriQuirksVersion s_QuirksVersion;
 
-	[Token(Token = "0x40002FF")]
+	[Token(Token = "0x4000230")]
 	[FieldOffset(Offset = "0x94")]
 	private static readonly UriSyntaxFlags HttpSyntaxFlags;
 
-	[Token(Token = "0x4000300")]
+	[Token(Token = "0x4000231")]
 	[FieldOffset(Offset = "0x98")]
 	private static readonly UriSyntaxFlags FileSyntaxFlags;
 
-	[Token(Token = "0x170000AC")]
+	[Token(Token = "0x1700007D")]
 	internal string SchemeName
 	{
-		[Token(Token = "0x6000411")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600025D")]
+		[Address(RVA = "0x61D9120", Offset = "0x61D8120", VA = "0x61D9120")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000AD")]
+	[Token(Token = "0x1700007E")]
 	internal int DefaultPort
 	{
-		[Token(Token = "0x6000412")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Token(Token = "0x600025E")]
+		[Address(RVA = "0x61D9130", Offset = "0x61D8130", VA = "0x61D9130")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000AE")]
+	[Token(Token = "0x1700007F")]
 	internal static bool ShouldUseLegacyV2Quirks
 	{
-		[Token(Token = "0x6000419")]
-		[Address(RVA = "0x28464A0", Offset = "0x2844AA0", VA = "0x1828464A0")]
+		[Token(Token = "0x6000265")]
+		[Address(RVA = "0x61D8FC0", Offset = "0x61D7FC0", VA = "0x61D8FC0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000AF")]
+	[Token(Token = "0x17000080")]
 	internal UriSyntaxFlags Flags
 	{
-		[Token(Token = "0x600041B")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6000267")]
+		[Address(RVA = "0x61DA7E0", Offset = "0x61D97E0", VA = "0x61DA7E0")]
 		get
 		{
 			return default(UriSyntaxFlags);
 		}
 	}
 
-	[Token(Token = "0x170000B0")]
+	[Token(Token = "0x17000081")]
 	internal bool IsSimple
 	{
-		[Token(Token = "0x6000423")]
-		[Address(RVA = "0x2846490", Offset = "0x2844A90", VA = "0x182846490")]
+		[Token(Token = "0x600026F")]
+		[Address(RVA = "0x61DAC50", Offset = "0x61D9C50", VA = "0x61DAC50")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000413")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "4")]
+	[Token(Token = "0x600025F")]
+	[Address(RVA = "0x61D9140", Offset = "0x61D8140", VA = "0x61D9140", Slot = "4")]
 	protected virtual UriParser OnNewUri()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000414")]
-	[Address(RVA = "0x28452A0", Offset = "0x28438A0", VA = "0x1828452A0", Slot = "5")]
+	[Token(Token = "0x6000260")]
+	[Address(RVA = "0x61D9150", Offset = "0x61D8150", VA = "0x61D9150", Slot = "5")]
 	protected virtual void InitializeAndValidate(Uri uri, out UriFormatException parsingError)
 	{
 	}
 
-	[Token(Token = "0x6000415")]
-	[Address(RVA = "0x2845540", Offset = "0x2843B40", VA = "0x182845540", Slot = "6")]
+	[Token(Token = "0x6000261")]
+	[Address(RVA = "0x61D9180", Offset = "0x61D8180", VA = "0x61D9180", Slot = "6")]
 	protected virtual string Resolve(Uri baseUri, Uri relativeUri, out UriFormatException parsingError)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000416")]
-	[Address(RVA = "0x2845440", Offset = "0x2843A40", VA = "0x182845440", Slot = "7")]
+	[Token(Token = "0x6000262")]
+	[Address(RVA = "0x61D9360", Offset = "0x61D8360", VA = "0x61D9360", Slot = "7")]
 	protected virtual bool IsBaseOf(Uri baseUri, Uri relativeUri)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000417")]
-	[Address(RVA = "0x2844EF0", Offset = "0x28434F0", VA = "0x182844EF0", Slot = "8")]
+	[Token(Token = "0x6000263")]
+	[Address(RVA = "0x61D9380", Offset = "0x61D8380", VA = "0x61D9380", Slot = "8")]
 	protected virtual string GetComponents(Uri uri, UriComponents components, UriFormat format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000418")]
-	[Address(RVA = "0x28454C0", Offset = "0x2843AC0", VA = "0x1828454C0", Slot = "9")]
+	[Token(Token = "0x6000264")]
+	[Address(RVA = "0x61D9580", Offset = "0x61D8580", VA = "0x61D9580", Slot = "9")]
 	protected virtual bool IsWellFormedOriginalString(Uri uri)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x2845770", Offset = "0x2843D70", VA = "0x182845770")]
+	[Token(Token = "0x6000266")]
+	[Address(RVA = "0x61D95A0", Offset = "0x61D85A0", VA = "0x61D95A0")]
 	static UriParser()
 	{
 	}
 
-	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x28454E0", Offset = "0x2843AE0", VA = "0x1828454E0")]
+	[Token(Token = "0x6000268")]
+	[Address(RVA = "0x61D4ED0", Offset = "0x61D3ED0", VA = "0x61D4ED0")]
 	internal bool NotAny(UriSyntaxFlags flags)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x2845240", Offset = "0x2843840", VA = "0x182845240")]
+	[Token(Token = "0x6000269")]
+	[Address(RVA = "0x61D4E90", Offset = "0x61D3E90", VA = "0x61D4E90")]
 	internal bool InFact(UriSyntaxFlags flags)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x28453E0", Offset = "0x28439E0", VA = "0x1828453E0")]
+	[Token(Token = "0x600026A")]
+	[Address(RVA = "0x61DA840", Offset = "0x61D9840", VA = "0x61DA840")]
 	internal bool IsAllSet(UriSyntaxFlags flags)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x2845470", Offset = "0x2843A70", VA = "0x182845470")]
+	[Token(Token = "0x600026B")]
+	[Address(RVA = "0x61DA7F0", Offset = "0x61D97F0", VA = "0x61DA7F0")]
 	private bool IsFullMatch(UriSyntaxFlags flags, UriSyntaxFlags expected)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x2846440", Offset = "0x2844A40", VA = "0x182846440")]
+	[Token(Token = "0x600026C")]
+	[Address(RVA = "0x61DA890", Offset = "0x61D9890", VA = "0x61DA890")]
 	internal UriParser(UriSyntaxFlags flags)
 	{
 	}
 
-	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x2844BA0", Offset = "0x28431A0", VA = "0x182844BA0")]
+	[Token(Token = "0x600026D")]
+	[Address(RVA = "0x61DA8D0", Offset = "0x61D98D0", VA = "0x61DA8D0")]
 	internal static UriParser FindOrFetchAsUnknownV1Syntax(string lwrCaseScheme)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x2845160", Offset = "0x2843760", VA = "0x182845160")]
+	[Token(Token = "0x600026E")]
+	[Address(RVA = "0x61D4DC0", Offset = "0x61D3DC0", VA = "0x61D4DC0")]
 	internal static UriParser GetSyntax(string lwrCaseScheme)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x2845340", Offset = "0x2843940", VA = "0x182845340")]
+	[Token(Token = "0x6000270")]
+	[Address(RVA = "0x61DAC60", Offset = "0x61D9C60", VA = "0x61DAC60")]
 	internal UriParser InternalOnNewUri()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x28453C0", Offset = "0x28439C0", VA = "0x1828453C0")]
+	[Token(Token = "0x6000271")]
+	[Address(RVA = "0x61DACC0", Offset = "0x61D9CC0", VA = "0x61DACC0")]
 	internal void InternalValidate(Uri thisUri, out UriFormatException parsingError)
 	{
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x28453A0", Offset = "0x28439A0", VA = "0x1828453A0")]
+	[Token(Token = "0x6000272")]
+	[Address(RVA = "0x61DACE0", Offset = "0x61D9CE0", VA = "0x61DACE0")]
 	internal string InternalResolve(Uri thisBaseUri, Uri uriLink, out UriFormatException parsingError)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x2845300", Offset = "0x2843900", VA = "0x182845300")]
+	[Token(Token = "0x6000273")]
+	[Address(RVA = "0x61DAD00", Offset = "0x61D9D00", VA = "0x61DAD00")]
 	internal bool InternalIsBaseOf(Uri thisBaseUri, Uri uriLink)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x28452E0", Offset = "0x28438E0", VA = "0x1828452E0")]
+	[Token(Token = "0x6000274")]
+	[Address(RVA = "0x61DAD20", Offset = "0x61D9D20", VA = "0x61DAD20")]
 	internal string InternalGetComponents(Uri thisUri, UriComponents uriComponents, UriFormat uriFormat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x2845320", Offset = "0x2843920", VA = "0x182845320")]
+	[Token(Token = "0x6000275")]
+	[Address(RVA = "0x61DAD40", Offset = "0x61D9D40", VA = "0x61DAD40")]
 	internal bool InternalIsWellFormedOriginalString(Uri thisUri)
 	{
 		return default(bool);

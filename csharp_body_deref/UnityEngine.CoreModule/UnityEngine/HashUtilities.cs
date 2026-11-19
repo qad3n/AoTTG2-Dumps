@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200012F")]
+[Token(Token = "0x2000130")]
 public static class HashUtilities
 {
-	[Token(Token = "0x60009D1")]
-	[Address(RVA = "0x2F03CC0", Offset = "0x2F022C0", VA = "0x182F03CC0")]
+	[Token(Token = "0x60009E2")]
+	[Address(RVA = "0x68FA2D0", Offset = "0x68F92D0", VA = "0x68FA2D0")]
 	public static void AppendHash(ref Hash128 inHash, ref Hash128 outHash)
 	{
 	}

@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x200001F")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Field)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public class NotKeyableAttribute : Attribute
 {
 }

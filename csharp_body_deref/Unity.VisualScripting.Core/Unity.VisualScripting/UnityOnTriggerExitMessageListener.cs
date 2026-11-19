@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnTriggerExitMessageListener : MessageListener
 {
 	[Token(Token = "0x600045D")]
-	[Address(RVA = "0x2DBF430", Offset = "0x2DBDA30", VA = "0x182DBF430")]
+	[Address(RVA = "0x67A5270", Offset = "0x67A4270", VA = "0x67A5270")]
 	private void OnTriggerExit(Collider other)
 	{
 	}
 
 	[Token(Token = "0x600045E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5300", Offset = "0x67A4300", VA = "0x67A5300")]
 	public UnityOnTriggerExitMessageListener()
 	{
 	}

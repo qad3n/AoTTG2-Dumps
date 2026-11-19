@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_LinkInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,27 +41,27 @@ public struct TMP_LinkInfo
 	internal char[] linkID;
 
 	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x2D619D0", Offset = "0x2D5FFD0", VA = "0x182D619D0")]
+	[Address(RVA = "0x6760890", Offset = "0x675F890", VA = "0x6760890")]
 	internal void SetLinkID(char[] text, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x6000655")]
-	[Address(RVA = "0x2D618F0", Offset = "0x2D5FEF0", VA = "0x182D618F0")]
+	[Address(RVA = "0x6760970", Offset = "0x675F970", VA = "0x6760970")]
 	public string GetLinkText()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x2D619C0", Offset = "0x2D5FFC0", VA = "0x182D619C0")]
+	[Address(RVA = "0x6760A50", Offset = "0x675FA50", VA = "0x6760A50")]
 	public string GetLink()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x2D61850", Offset = "0x2D5FE50", VA = "0x182D61850")]
+	[Address(RVA = "0x6760AE0", Offset = "0x675FAE0", VA = "0x6760AE0")]
 	public string GetLinkID()
 	{
 		return null;

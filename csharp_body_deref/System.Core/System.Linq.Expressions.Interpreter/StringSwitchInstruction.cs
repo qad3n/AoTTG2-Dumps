@@ -11,47 +11,47 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000100")]
+[Token(Token = "0x2000101")]
 internal sealed class StringSwitchInstruction : Instruction
 {
-	[Token(Token = "0x4000256")]
+	[Token(Token = "0x400025F")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Dictionary<string, int> _cases;
 
-	[Token(Token = "0x4000257")]
+	[Token(Token = "0x4000260")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly StrongBox<int> _nullCase;
 
-	[Token(Token = "0x1700018E")]
+	[Token(Token = "0x17000190")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000673")]
-		[Address(RVA = "0x243F350", Offset = "0x243D950", VA = "0x18243F350", Slot = "9")]
+		[Token(Token = "0x600067E")]
+		[Address(RVA = "0x5DDF780", Offset = "0x5DDE780", VA = "0x5DDF780", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700018F")]
+	[Token(Token = "0x17000191")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000674")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x600067F")]
+		[Address(RVA = "0x5DDF7B0", Offset = "0x5DDE7B0", VA = "0x5DDF7B0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Token(Token = "0x600067D")]
+	[Address(RVA = "0x5DDF740", Offset = "0x5DDE740", VA = "0x5DDF740")]
 	internal StringSwitchInstruction(Dictionary<string, int> cases, StrongBox<int> nullCase)
 	{
 	}
 
-	[Token(Token = "0x6000675")]
-	[Address(RVA = "0x243F290", Offset = "0x243D890", VA = "0x18243F290", Slot = "8")]
+	[Token(Token = "0x6000680")]
+	[Address(RVA = "0x5DDF7C0", Offset = "0x5DDE7C0", VA = "0x5DDF7C0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

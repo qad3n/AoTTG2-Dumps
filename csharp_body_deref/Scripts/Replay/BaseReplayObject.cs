@@ -10,21 +10,21 @@ using UnityEngine;
 
 namespace Replay;
 
-[Token(Token = "0x20000F5")]
+[Token(Token = "0x2000069")]
 internal class BaseReplayObject : MonoBehaviour
 {
-	[Token(Token = "0x40005B9")]
+	[Token(Token = "0x400021E")]
 	[FieldOffset(Offset = "0x20")]
 	public int ObjectId;
 
-	[Token(Token = "0x60004B1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x6000318")]
+	[Address(RVA = "0x576E4B0", Offset = "0x576D4B0", VA = "0x576E4B0", Slot = "4")]
 	public virtual void SetState(BaseReplayState state)
 	{
 	}
 
-	[Token(Token = "0x60004B2")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000319")]
+	[Address(RVA = "0x576E4C0", Offset = "0x576D4C0", VA = "0x576E4C0")]
 	public BaseReplayObject()
 	{
 	}

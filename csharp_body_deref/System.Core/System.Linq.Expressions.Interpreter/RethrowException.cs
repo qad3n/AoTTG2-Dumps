@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000190")]
+[Token(Token = "0x2000191")]
 internal sealed class RethrowException : Exception
 {
-	[Token(Token = "0x600086D")]
-	[Address(RVA = "0x2465680", Offset = "0x2463C80", VA = "0x182465680")]
+	[Token(Token = "0x6000878")]
+	[Address(RVA = "0x5DF4C40", Offset = "0x5DF3C40", VA = "0x5DF4C40")]
 	public RethrowException()
 	{
 	}

@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000076")]
+[Token(Token = "0x2000077")]
 internal static class ConstantCheck
 {
-	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x242B6F0", Offset = "0x2429CF0", VA = "0x18242B6F0")]
+	[Token(Token = "0x6000311")]
+	[Address(RVA = "0x5DC6300", Offset = "0x5DC5300", VA = "0x5DC6300")]
 	internal static AnalyzeTypeIsResult AnalyzeTypeIs(TypeBinaryExpression typeIs)
 	{
 		return default(AnalyzeTypeIsResult);
 	}
 
-	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x242B720", Offset = "0x2429D20", VA = "0x18242B720")]
+	[Token(Token = "0x6000312")]
+	[Address(RVA = "0x5DC6320", Offset = "0x5DC5320", VA = "0x5DC6320")]
 	private static AnalyzeTypeIsResult AnalyzeTypeIs(Expression operand, Type testType)
 	{
 		return default(AnalyzeTypeIsResult);

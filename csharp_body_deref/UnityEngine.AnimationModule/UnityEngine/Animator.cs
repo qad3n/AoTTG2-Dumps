@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Animator
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,9 +16,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000015")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerParameter.bindings.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerParameter.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Animator.h")]
 public class Animator : Behaviour
 {
@@ -26,7 +26,7 @@ public class Animator : Behaviour
 	public bool hasRootMotion
 	{
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x2EB0AC0", Offset = "0x2EAF0C0", VA = "0x182EB0AC0")]
+		[Address(RVA = "0x68A9AA0", Offset = "0x68A8AA0", VA = "0x68A9AA0")]
 		[UnityEngine.Bindings.NativeMethod("HasRootMotion")]
 		get
 		{
@@ -38,7 +38,7 @@ public class Animator : Behaviour
 	public Vector3 deltaPosition
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2EB0840", Offset = "0x2EAEE40", VA = "0x182EB0840")]
+		[Address(RVA = "0x68AA960", Offset = "0x68A9960", VA = "0x68AA960")]
 		get
 		{
 			return default(Vector3);
@@ -49,7 +49,7 @@ public class Animator : Behaviour
 	public Quaternion deltaRotation
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x2EB0930", Offset = "0x2EAEF30", VA = "0x182EB0930")]
+		[Address(RVA = "0x68AAA40", Offset = "0x68A9A40", VA = "0x68AAA40")]
 		get
 		{
 			return default(Quaternion);
@@ -60,13 +60,13 @@ public class Animator : Behaviour
 	public bool applyRootMotion
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x2EB0770", Offset = "0x2EAED70", VA = "0x182EB0770")]
+		[Address(RVA = "0x68AAB20", Offset = "0x68A9B20", VA = "0x68AAB20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x2EB0DD0", Offset = "0x2EAF3D0", VA = "0x182EB0DD0")]
+		[Address(RVA = "0x68AABD0", Offset = "0x68A9BD0", VA = "0x68AABD0")]
 		set
 		{
 		}
@@ -76,13 +76,13 @@ public class Animator : Behaviour
 	public float speed
 	{
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x2EB0D00", Offset = "0x2EAF300", VA = "0x182EB0D00")]
+		[Address(RVA = "0x68AB2D0", Offset = "0x68AA2D0", VA = "0x68AB2D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x2EB0F80", Offset = "0x2EAF580", VA = "0x182EB0F80")]
+		[Address(RVA = "0x68AB380", Offset = "0x68AA380", VA = "0x68AB380")]
 		set
 		{
 		}
@@ -92,7 +92,7 @@ public class Animator : Behaviour
 	public AnimatorCullingMode cullingMode
 	{
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x2EB0EA0", Offset = "0x2EAF4A0", VA = "0x182EB0EA0")]
+		[Address(RVA = "0x68AB9F0", Offset = "0x68AA9F0", VA = "0x68AB9F0")]
 		set
 		{
 		}
@@ -102,7 +102,7 @@ public class Animator : Behaviour
 	public RuntimeAnimatorController runtimeAnimatorController
 	{
 		[Token(Token = "0x600007C")]
-		[Address(RVA = "0x2EB0C20", Offset = "0x2EAF220", VA = "0x182EB0C20")]
+		[Address(RVA = "0x68ABAB0", Offset = "0x68AAAB0", VA = "0x68ABAB0")]
 		get
 		{
 			return null;
@@ -113,7 +113,7 @@ public class Animator : Behaviour
 	public bool hasBoundPlayables
 	{
 		[Token(Token = "0x600007D")]
-		[Address(RVA = "0x2EB0A00", Offset = "0x2EAF000", VA = "0x182EB0A00")]
+		[Address(RVA = "0x68ABB80", Offset = "0x68AAB80", VA = "0x68ABB80")]
 		[UnityEngine.Bindings.NativeMethod("HasBoundPlayables")]
 		get
 		{
@@ -125,7 +125,7 @@ public class Animator : Behaviour
 	public PlayableGraph playableGraph
 	{
 		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x2EB0B40", Offset = "0x2EAF140", VA = "0x182EB0B40")]
+		[Address(RVA = "0x68ABC60", Offset = "0x68AAC60", VA = "0x68ABC60")]
 		get
 		{
 			return default(PlayableGraph);
@@ -133,155 +133,155 @@ public class Animator : Behaviour
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2EAF220", Offset = "0x2EAD820", VA = "0x182EAF220")]
+	[Address(RVA = "0x68A9B50", Offset = "0x68A8B50", VA = "0x68A9B50")]
 	public float GetFloat(string name)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2EAFF30", Offset = "0x2EAE530", VA = "0x182EAFF30")]
+	[Address(RVA = "0x68A9D10", Offset = "0x68A8D10", VA = "0x68A9D10")]
 	public void SetFloat(string name, float value)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2EAEE30", Offset = "0x2EAD430", VA = "0x182EAEE30")]
+	[Address(RVA = "0x68A9EE0", Offset = "0x68A8EE0", VA = "0x68A9EE0")]
 	public bool GetBool(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2EAFCF0", Offset = "0x2EAE2F0", VA = "0x182EAFCF0")]
+	[Address(RVA = "0x68AA0A0", Offset = "0x68A90A0", VA = "0x68AA0A0")]
 	public void SetBool(string name, bool value)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2EAF450", Offset = "0x2EADA50", VA = "0x182EAF450")]
+	[Address(RVA = "0x68AA260", Offset = "0x68A9260", VA = "0x68AA260")]
 	public int GetInteger(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x2EB0170", Offset = "0x2EAE770", VA = "0x182EB0170")]
+	[Address(RVA = "0x68AA420", Offset = "0x68A9420", VA = "0x68AA420")]
 	public void SetInteger(string name, int value)
 	{
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x2EB0470", Offset = "0x2EAEA70", VA = "0x182EB0470")]
+	[Address(RVA = "0x68AA5E0", Offset = "0x68A95E0", VA = "0x68AA5E0")]
 	public void SetTrigger(string name)
 	{
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x2EAFAB0", Offset = "0x2EAE0B0", VA = "0x182EAFAB0")]
+	[Address(RVA = "0x68AA7A0", Offset = "0x68A97A0", VA = "0x68AA7A0")]
 	public void ResetTrigger(string name)
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x2EAF4A0", Offset = "0x2EADAA0", VA = "0x182EAF4A0")]
+	[Address(RVA = "0x68AAC90", Offset = "0x68A9C90", VA = "0x68AAC90")]
 	public float GetLayerWeight(int layerIndex)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x2EB01D0", Offset = "0x2EAE7D0", VA = "0x182EB01D0")]
+	[Address(RVA = "0x68AAD50", Offset = "0x68A9D50", VA = "0x68AAD50")]
 	public void SetLayerWeight(int layerIndex, float weight)
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x2EAE9B0", Offset = "0x2EACFB0", VA = "0x182EAE9B0")]
+	[Address(RVA = "0x68AAE20", Offset = "0x68A9E20", VA = "0x68AAE20")]
 	private void GetAnimatorStateInfo(int layerIndex, StateInfoIndex stateInfoIndex, out AnimatorStateInfo info)
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x2EAEE40", Offset = "0x2EAD440", VA = "0x182EAEE40")]
+	[Address(RVA = "0x68AAF00", Offset = "0x68A9F00", VA = "0x68AAF00")]
 	public AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex)
 	{
 		return default(AnimatorStateInfo);
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x2EAF530", Offset = "0x2EADB30", VA = "0x182EAF530")]
+	[Address(RVA = "0x68AAFC0", Offset = "0x68A9FC0", VA = "0x68AAFC0")]
 	public AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex)
 	{
 		return default(AnimatorStateInfo);
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x2EAEAA0", Offset = "0x2EAD0A0", VA = "0x182EAEAA0")]
+	[Address(RVA = "0x68AB090", Offset = "0x68AA090", VA = "0x68AB090")]
 	private void GetAnimatorTransitionInfo(int layerIndex, out AnimatorTransitionInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x2EAEB40", Offset = "0x2EAD140", VA = "0x182EAEB40")]
+	[Address(RVA = "0x68AB160", Offset = "0x68AA160", VA = "0x68AB160")]
 	public AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex)
 	{
 		return default(AnimatorTransitionInfo);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x2EAF650", Offset = "0x2EADC50", VA = "0x182EAF650")]
+	[Address(RVA = "0x68AB210", Offset = "0x68AA210", VA = "0x68AB210")]
 	public bool IsInTransition(int layerIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x2EAE670", Offset = "0x2EACC70", VA = "0x182EAE670")]
+	[Address(RVA = "0x68AB460", Offset = "0x68AA460", VA = "0x68AB460")]
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset)
 	{
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2EAE5A0", Offset = "0x2EACBA0", VA = "0x182EAE5A0")]
+	[Address(RVA = "0x68AB5D0", Offset = "0x68AA5D0", VA = "0x68AB5D0")]
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x2EAE7E0", Offset = "0x2EACDE0", VA = "0x182EAE7E0")]
+	[Address(RVA = "0x68AB680", Offset = "0x68AA680", VA = "0x68AB680")]
 	public void CrossFade(string stateName, float normalizedTransitionDuration)
 	{
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x2EAE8A0", Offset = "0x2EACEA0", VA = "0x182EAE8A0")]
+	[Address(RVA = "0x68AB510", Offset = "0x68AA510", VA = "0x68AB510")]
 	public void CrossFade(string stateName, float normalizedTransitionDuration, [DefaultValue("-1")] int layer, [DefaultValue("float.NegativeInfinity")] float normalizedTimeOffset, [DefaultValue("0.0f")] float normalizedTransitionTime)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x2EAE730", Offset = "0x2EACD30", VA = "0x182EAE730")]
+	[Address(RVA = "0x68AB730", Offset = "0x68AA730", VA = "0x68AB730")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::CrossFade", HasExplicitThis = true)]
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, [DefaultValue("-1")] int layer, [DefaultValue("0.0f")] float normalizedTimeOffset, [DefaultValue("0.0f")] float normalizedTransitionTime)
 	{
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x2EAF7F0", Offset = "0x2EADDF0", VA = "0x182EAF7F0")]
+	[Address(RVA = "0x68AB860", Offset = "0x68AA860", VA = "0x68AB860")]
 	public void Play(string stateName, [DefaultValue("-1")] int layer, [DefaultValue("float.NegativeInfinity")] float normalizedTime)
 	{
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2EAF740", Offset = "0x2EADD40", VA = "0x182EAF740")]
+	[Address(RVA = "0x68AB900", Offset = "0x68AA900", VA = "0x68AB900")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::Play", HasExplicitThis = true)]
 	public void Play(int stateNameHash, [DefaultValue("-1")] int layer, [DefaultValue("float.NegativeInfinity")] float normalizedTime)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2EB04C0", Offset = "0x2EAEAC0", VA = "0x182EB04C0")]
+	[Address(RVA = "0x68A98F0", Offset = "0x68A88F0", VA = "0x68A98F0")]
 	[UnityEngine.Bindings.NativeMethod(Name = "ScriptingStringToCRC32", IsThreadSafe = true)]
 	public static int StringToHash(string name)
 	{
@@ -289,21 +289,21 @@ public class Animator : Behaviour
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x2EAEF70", Offset = "0x2EAD570", VA = "0x182EAEF70")]
+	[Address(RVA = "0x68ABCF0", Offset = "0x68AACF0", VA = "0x68ABCF0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::GetCurrentGraph", HasExplicitThis = true)]
 	private void GetCurrentGraph(ref PlayableGraph graph)
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2EAFD60", Offset = "0x2EAE360", VA = "0x182EAFD60")]
+	[Address(RVA = "0x68A9D20", Offset = "0x68A8D20", VA = "0x68A9D20")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::SetFloatString", HasExplicitThis = true)]
 	private void SetFloatString(string name, float value)
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x2EAF050", Offset = "0x2EAD650", VA = "0x182EAF050")]
+	[Address(RVA = "0x68A9B60", Offset = "0x68A8B60", VA = "0x68A9B60")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::GetFloatString", HasExplicitThis = true)]
 	private float GetFloatString(string name)
 	{
@@ -311,14 +311,14 @@ public class Animator : Behaviour
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2EAFB20", Offset = "0x2EAE120", VA = "0x182EAFB20")]
+	[Address(RVA = "0x68AA0B0", Offset = "0x68A90B0", VA = "0x68AA0B0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::SetBoolString", HasExplicitThis = true)]
 	private void SetBoolString(string name, bool value)
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x2EAEC60", Offset = "0x2EAD260", VA = "0x182EAEC60")]
+	[Address(RVA = "0x68A9EF0", Offset = "0x68A8EF0", VA = "0x68A9EF0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::GetBoolString", HasExplicitThis = true)]
 	private bool GetBoolString(string name)
 	{
@@ -326,14 +326,14 @@ public class Animator : Behaviour
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x2EAFFA0", Offset = "0x2EAE5A0", VA = "0x182EAFFA0")]
+	[Address(RVA = "0x68AA430", Offset = "0x68A9430", VA = "0x68AA430")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::SetIntegerString", HasExplicitThis = true)]
 	private void SetIntegerString(string name, int value)
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x2EAF280", Offset = "0x2EAD880", VA = "0x182EAF280")]
+	[Address(RVA = "0x68AA270", Offset = "0x68A9270", VA = "0x68AA270")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::GetIntegerString", HasExplicitThis = true)]
 	private int GetIntegerString(string name)
 	{
@@ -341,180 +341,180 @@ public class Animator : Behaviour
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x2EB02C0", Offset = "0x2EAE8C0", VA = "0x182EB02C0")]
+	[Address(RVA = "0x68AA5F0", Offset = "0x68A95F0", VA = "0x68AA5F0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::SetTriggerString", HasExplicitThis = true)]
 	private void SetTriggerString(string name)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x2EAF900", Offset = "0x2EADF00", VA = "0x182EAF900")]
+	[Address(RVA = "0x68AA7B0", Offset = "0x68A97B0", VA = "0x68AA7B0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "AnimatorBindings::ResetTriggerString", HasExplicitThis = true)]
 	private void ResetTriggerString(string name)
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x2EB06A0", Offset = "0x2EAECA0", VA = "0x182EB06A0")]
+	[Address(RVA = "0x68ABFC0", Offset = "0x68AAFC0", VA = "0x68ABFC0")]
 	[UnityEngine.Bindings.NativeMethod("UpdateWithDelta")]
 	public void Update(float deltaTime)
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x2EAE4C0", Offset = "0x2EACAC0", VA = "0x182EAE4C0")]
+	[Address(RVA = "0x68AC0A0", Offset = "0x68AB0A0", VA = "0x68AC0A0")]
 	public void ApplyBuiltinRootMotion()
 	{
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x68AC150", Offset = "0x68AB150", VA = "0x68AC150")]
 	public Animator()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2EB0A80", Offset = "0x2EAF080", VA = "0x182EB0A80")]
+	[Address(RVA = "0x68A9B20", Offset = "0x68A8B20", VA = "0x68A9B20")]
 	private static extern bool get_hasRootMotion_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2EB07F0", Offset = "0x2EAEDF0", VA = "0x182EB07F0")]
+	[Address(RVA = "0x68AAA00", Offset = "0x68A9A00", VA = "0x68AAA00")]
 	private static extern void get_deltaPosition_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x2EB08E0", Offset = "0x2EAEEE0", VA = "0x182EB08E0")]
+	[Address(RVA = "0x68AAAE0", Offset = "0x68A9AE0", VA = "0x68AAAE0")]
 	private static extern void get_deltaRotation_Injected(IntPtr _unity_self, out Quaternion ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2EB0730", Offset = "0x2EAED30", VA = "0x182EB0730")]
+	[Address(RVA = "0x68AABA0", Offset = "0x68A9BA0", VA = "0x68AABA0")]
 	private static extern bool get_applyRootMotion_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2EB0D80", Offset = "0x2EAF380", VA = "0x182EB0D80")]
+	[Address(RVA = "0x68AAC50", Offset = "0x68A9C50", VA = "0x68AAC50")]
 	private static extern void set_applyRootMotion_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2EAF460", Offset = "0x2EADA60", VA = "0x182EAF460")]
+	[Address(RVA = "0x68AAD10", Offset = "0x68A9D10", VA = "0x68AAD10")]
 	private static extern float GetLayerWeight_Injected(IntPtr _unity_self, int layerIndex);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2EB0180", Offset = "0x2EAE780", VA = "0x182EB0180")]
+	[Address(RVA = "0x68AADE0", Offset = "0x68A9DE0", VA = "0x68AADE0")]
 	private static extern void SetLayerWeight_Injected(IntPtr _unity_self, int layerIndex, float weight);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2EAE960", Offset = "0x2EACF60", VA = "0x182EAE960")]
+	[Address(RVA = "0x68AAEB0", Offset = "0x68A9EB0", VA = "0x68AAEB0")]
 	private static extern void GetAnimatorStateInfo_Injected(IntPtr _unity_self, int layerIndex, StateInfoIndex stateInfoIndex, out AnimatorStateInfo info);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x2EAEA50", Offset = "0x2EAD050", VA = "0x182EAEA50")]
+	[Address(RVA = "0x68AB120", Offset = "0x68AA120", VA = "0x68AB120")]
 	private static extern void GetAnimatorTransitionInfo_Injected(IntPtr _unity_self, int layerIndex, out AnimatorTransitionInfo info);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2EAF610", Offset = "0x2EADC10", VA = "0x182EAF610")]
+	[Address(RVA = "0x68AB290", Offset = "0x68AA290", VA = "0x68AB290")]
 	private static extern bool IsInTransition_Injected(IntPtr _unity_self, int layerIndex);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x2EB0CC0", Offset = "0x2EAF2C0", VA = "0x182EB0CC0")]
+	[Address(RVA = "0x68AB350", Offset = "0x68AA350", VA = "0x68AB350")]
 	private static extern float get_speed_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2EB0F30", Offset = "0x2EAF530", VA = "0x182EB0F30")]
+	[Address(RVA = "0x68AB410", Offset = "0x68AA410", VA = "0x68AB410")]
 	private static extern void set_speed_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2EAE540", Offset = "0x2EACB40", VA = "0x182EAE540")]
+	[Address(RVA = "0x68AB7F0", Offset = "0x68AA7F0", VA = "0x68AB7F0")]
 	private static extern void CrossFade_Injected(IntPtr _unity_self, int stateHashName, float normalizedTransitionDuration, [DefaultValue("-1")] int layer, [DefaultValue("0.0f")] float normalizedTimeOffset, [DefaultValue("0.0f")] float normalizedTransitionTime);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x2EAF6E0", Offset = "0x2EADCE0", VA = "0x182EAF6E0")]
+	[Address(RVA = "0x68AB9A0", Offset = "0x68AA9A0", VA = "0x68AB9A0")]
 	private static extern void Play_Injected(IntPtr _unity_self, int stateNameHash, [DefaultValue("-1")] int layer, [DefaultValue("float.NegativeInfinity")] float normalizedTime);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2EB0E60", Offset = "0x2EAF460", VA = "0x182EB0E60")]
+	[Address(RVA = "0x68ABA70", Offset = "0x68AAA70", VA = "0x68ABA70")]
 	private static extern void set_cullingMode_Injected(IntPtr _unity_self, AnimatorCullingMode value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x2EB0BE0", Offset = "0x2EAF1E0", VA = "0x182EB0BE0")]
+	[Address(RVA = "0x68ABB50", Offset = "0x68AAB50", VA = "0x68ABB50")]
 	private static extern IntPtr get_runtimeAnimatorController_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2EB09C0", Offset = "0x2EAEFC0", VA = "0x182EB09C0")]
+	[Address(RVA = "0x68ABC00", Offset = "0x68AAC00", VA = "0x68ABC00")]
 	private static extern bool get_hasBoundPlayables_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2EB0480", Offset = "0x2EAEA80", VA = "0x182EB0480")]
+	[Address(RVA = "0x68ABC30", Offset = "0x68AAC30", VA = "0x68ABC30")]
 	private static extern int StringToHash_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2EAEF20", Offset = "0x2EAD520", VA = "0x182EAEF20")]
+	[Address(RVA = "0x68ABD70", Offset = "0x68AAD70", VA = "0x68ABD70")]
 	private static extern void GetCurrentGraph_Injected(IntPtr _unity_self, ref PlayableGraph graph);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2EAFD00", Offset = "0x2EAE300", VA = "0x182EAFD00")]
+	[Address(RVA = "0x68ABDB0", Offset = "0x68AADB0", VA = "0x68ABDB0")]
 	private static extern void SetFloatString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2EAF000", Offset = "0x2EAD600", VA = "0x182EAF000")]
+	[Address(RVA = "0x68ABE00", Offset = "0x68AAE00", VA = "0x68ABE00")]
 	private static extern float GetFloatString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2EAFAC0", Offset = "0x2EAE0C0", VA = "0x182EAFAC0")]
+	[Address(RVA = "0x68ABE40", Offset = "0x68AAE40", VA = "0x68ABE40")]
 	private static extern void SetBoolString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2EAEC10", Offset = "0x2EAD210", VA = "0x182EAEC10")]
+	[Address(RVA = "0x68ABE80", Offset = "0x68AAE80", VA = "0x68ABE80")]
 	private static extern bool GetBoolString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2EAFF40", Offset = "0x2EAE540", VA = "0x182EAFF40")]
+	[Address(RVA = "0x68ABEC0", Offset = "0x68AAEC0", VA = "0x68ABEC0")]
 	private static extern void SetIntegerString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2EAF230", Offset = "0x2EAD830", VA = "0x182EAF230")]
+	[Address(RVA = "0x68ABF00", Offset = "0x68AAF00", VA = "0x68ABF00")]
 	private static extern int GetIntegerString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x2EB0270", Offset = "0x2EAE870", VA = "0x182EB0270")]
+	[Address(RVA = "0x68ABF40", Offset = "0x68AAF40", VA = "0x68ABF40")]
 	private static extern void SetTriggerString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x2EAF8B0", Offset = "0x2EADEB0", VA = "0x182EAF8B0")]
+	[Address(RVA = "0x68ABF80", Offset = "0x68AAF80", VA = "0x68ABF80")]
 	private static extern void ResetTriggerString_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x2EB0650", Offset = "0x2EAEC50", VA = "0x182EB0650")]
+	[Address(RVA = "0x68AC050", Offset = "0x68AB050", VA = "0x68AC050")]
 	private static extern void Update_Injected(IntPtr _unity_self, float deltaTime);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x2EAE480", Offset = "0x2EACA80", VA = "0x182EAE480")]
+	[Address(RVA = "0x68AC120", Offset = "0x68AB120", VA = "0x68AC120")]
 	private static extern void ApplyBuiltinRootMotion_Injected(IntPtr _unity_self);
 }

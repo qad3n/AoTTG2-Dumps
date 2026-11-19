@@ -12,13 +12,13 @@ namespace System.Reflection.Emit;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000561")]
+[Token(Token = "0x200053A")]
 [Obsolete("An alternate API is available: Emit the MarshalAs custom attribute instead.")]
 [ComVisible(true)]
 public sealed class UnmanagedMarshal
 {
-	[Token(Token = "0x6002844")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6002812")]
+	[Address(RVA = "0x53F0870", Offset = "0x53EF870", VA = "0x53F0870")]
 	private UnmanagedMarshal()
 	{
 	}

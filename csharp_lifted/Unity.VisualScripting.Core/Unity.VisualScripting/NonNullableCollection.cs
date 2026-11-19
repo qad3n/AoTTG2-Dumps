@@ -1,0 +1,36 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.NonNullableCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x2000026")]
+public abstract class NonNullableCollection<T> : Collection<T>
+{
+	[Token(Token = "0x6000109")]
+	protected override void InsertItem(int index, T item)
+	{
+	}
+
+	[Token(Token = "0x600010A")]
+	protected override void SetItem(int index, T item)
+	{
+	}
+
+	[Token(Token = "0x600010B")]
+	public void AddRange(IEnumerable<T> collection)
+	{
+	}
+
+	[Token(Token = "0x600010C")]
+	protected NonNullableCollection()
+	{
+	}
+}

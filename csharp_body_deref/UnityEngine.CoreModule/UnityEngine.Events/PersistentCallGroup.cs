@@ -16,20 +16,20 @@ namespace UnityEngine.Events;
 [Token(Token = "0x200022A")]
 internal class PersistentCallGroup
 {
-	[Token(Token = "0x400072A")]
+	[Token(Token = "0x4000728")]
 	[FieldOffset(Offset = "0x10")]
-	[FormerlySerializedAs("m_Listeners")]
 	[SerializeField]
+	[FormerlySerializedAs("m_Listeners")]
 	private List<PersistentCall> m_Calls;
 
-	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x2F4BD40", Offset = "0x2F4A340", VA = "0x182F4BD40")]
+	[Token(Token = "0x6001145")]
+	[Address(RVA = "0x6934320", Offset = "0x6933320", VA = "0x6934320")]
 	public PersistentCallGroup()
 	{
 	}
 
-	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x2F4BBD0", Offset = "0x2F4A1D0", VA = "0x182F4BBD0")]
+	[Token(Token = "0x6001146")]
+	[Address(RVA = "0x69343A0", Offset = "0x69333A0", VA = "0x69343A0")]
 	public void Initialize(InvokableCallList invokableList, UnityEventBase unityEventBase)
 	{
 	}

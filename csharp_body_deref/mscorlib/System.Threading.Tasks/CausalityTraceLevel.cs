@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200028F")]
+[Token(Token = "0x2000267")]
 [System.Runtime.CompilerServices.FriendAccessAllowed]
 internal enum CausalityTraceLevel
 {
-	[Token(Token = "0x4000B54")]
+	[Token(Token = "0x4000AB2")]
 	Required,
-	[Token(Token = "0x4000B55")]
+	[Token(Token = "0x4000AB3")]
 	Important,
-	[Token(Token = "0x4000B56")]
+	[Token(Token = "0x4000AB4")]
 	Verbose
 }

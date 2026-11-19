@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009E")]
+[Token(Token = "0x200009F")]
 public enum MemberBindingType
 {
-	[Token(Token = "0x40001AC")]
+	[Token(Token = "0x40001B5")]
 	Assignment,
-	[Token(Token = "0x40001AD")]
+	[Token(Token = "0x40001B6")]
 	MemberBinding,
-	[Token(Token = "0x40001AE")]
+	[Token(Token = "0x40001B7")]
 	ListBinding
 }

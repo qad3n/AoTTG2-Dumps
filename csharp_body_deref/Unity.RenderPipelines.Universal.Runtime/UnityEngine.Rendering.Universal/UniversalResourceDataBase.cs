@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalResourceDataBase
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,14 +27,14 @@ public abstract class UniversalResourceDataBase : ContextItem
 	internal bool isAccessible
 	{
 		[Token(Token = "0x60005BE")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6641CB0", Offset = "0x6640CB0", VA = "0x6641CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005BF")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6641CC0", Offset = "0x6640CC0", VA = "0x6641CC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,52 +42,52 @@ public abstract class UniversalResourceDataBase : ContextItem
 	}
 
 	[Token(Token = "0x60005C0")]
-	[Address(RVA = "0xB3C020", Offset = "0xB3A620", VA = "0x180B3C020")]
+	[Address(RVA = "0x6639A80", Offset = "0x6638A80", VA = "0x6639A80")]
 	internal void InitFrame()
 	{
 	}
 
 	[Token(Token = "0x60005C1")]
-	[Address(RVA = "0x1C6F5D0", Offset = "0x1C6DBD0", VA = "0x181C6F5D0")]
+	[Address(RVA = "0x663E940", Offset = "0x663D940", VA = "0x663E940")]
 	internal void EndFrame()
 	{
 	}
 
 	[Token(Token = "0x60005C2")]
-	[Address(RVA = "0x2C50070", Offset = "0x2C4E670", VA = "0x182C50070")]
+	[Address(RVA = "0x6641350", Offset = "0x6640350", VA = "0x6641350")]
 	protected void CheckAndSetTextureHandle(ref TextureHandle handle, TextureHandle newHandle)
 	{
 	}
 
 	[Token(Token = "0x60005C3")]
-	[Address(RVA = "0x2C4FF70", Offset = "0x2C4E570", VA = "0x182C4FF70")]
+	[Address(RVA = "0x66411C0", Offset = "0x66401C0", VA = "0x66411C0")]
 	protected TextureHandle CheckAndGetTextureHandle(ref TextureHandle handle)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x60005C4")]
-	[Address(RVA = "0x2C50100", Offset = "0x2C4E700", VA = "0x182C50100")]
+	[Address(RVA = "0x6641060", Offset = "0x6640060", VA = "0x6641060")]
 	protected void CheckAndSetTextureHandle(ref TextureHandle[] handle, TextureHandle[] newHandle)
 	{
 	}
 
 	[Token(Token = "0x60005C5")]
-	[Address(RVA = "0x2C4FE30", Offset = "0x2C4E430", VA = "0x182C4FE30")]
+	[Address(RVA = "0x6640F00", Offset = "0x663FF00", VA = "0x6640F00")]
 	protected TextureHandle[] CheckAndGetTextureHandle(ref TextureHandle[] handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005C6")]
-	[Address(RVA = "0x2C50220", Offset = "0x2C4E820", VA = "0x182C50220")]
+	[Address(RVA = "0x6640CF0", Offset = "0x663FCF0", VA = "0x6640CF0")]
 	protected bool CheckAndWarnAboutAccessibility()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005C7")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6641B30", Offset = "0x6640B30", VA = "0x6641B30")]
 	protected UniversalResourceDataBase()
 	{
 	}

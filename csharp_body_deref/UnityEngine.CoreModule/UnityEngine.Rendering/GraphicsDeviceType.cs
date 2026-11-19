@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GraphicsDeviceType
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,65 +15,65 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Scripting.UsedByNativeCode]
 public enum GraphicsDeviceType
 {
-	[Token(Token = "0x400089C")]
+	[Token(Token = "0x400089A")]
 	[Obsolete("OpenGL2 is no longer supported in Unity 5.5+")]
 	OpenGL2 = 0,
-	[Token(Token = "0x400089D")]
+	[Token(Token = "0x400089B")]
 	[Obsolete("Direct3D 9 is no longer supported in Unity 2017.2+")]
 	Direct3D9 = 1,
-	[Token(Token = "0x400089E")]
+	[Token(Token = "0x400089C")]
 	Direct3D11 = 2,
-	[Token(Token = "0x400089F")]
+	[Token(Token = "0x400089D")]
 	[Obsolete("PS3 is no longer supported in Unity 5.5+")]
 	PlayStation3 = 3,
-	[Token(Token = "0x40008A0")]
+	[Token(Token = "0x400089E")]
 	Null = 4,
-	[Token(Token = "0x40008A1")]
+	[Token(Token = "0x400089F")]
 	[Obsolete("Xbox360 is no longer supported in Unity 5.5+")]
 	Xbox360 = 6,
-	[Token(Token = "0x40008A2")]
+	[Token(Token = "0x40008A0")]
 	[Obsolete("OpenGL ES 2.0 is no longer supported in Unity 2023.1")]
 	OpenGLES2 = 8,
-	[Token(Token = "0x40008A3")]
+	[Token(Token = "0x40008A1")]
 	OpenGLES3 = 11,
-	[Token(Token = "0x40008A4")]
+	[Token(Token = "0x40008A2")]
 	[Obsolete("PVita is no longer supported as of Unity 2018")]
 	PlayStationVita = 12,
-	[Token(Token = "0x40008A5")]
+	[Token(Token = "0x40008A3")]
 	PlayStation4 = 13,
-	[Token(Token = "0x40008A6")]
+	[Token(Token = "0x40008A4")]
 	XboxOne = 14,
-	[Token(Token = "0x40008A7")]
+	[Token(Token = "0x40008A5")]
 	[Obsolete("PlayStationMobile is no longer supported in Unity 5.3+")]
 	PlayStationMobile = 15,
-	[Token(Token = "0x40008A8")]
+	[Token(Token = "0x40008A6")]
 	Metal = 16,
-	[Token(Token = "0x40008A9")]
+	[Token(Token = "0x40008A7")]
 	OpenGLCore = 17,
-	[Token(Token = "0x40008AA")]
+	[Token(Token = "0x40008A8")]
 	Direct3D12 = 18,
-	[Token(Token = "0x40008AB")]
+	[Token(Token = "0x40008A9")]
 	[Obsolete("Nintendo 3DS support is unavailable since 2018.1")]
 	N3DS = 19,
-	[Token(Token = "0x40008AC")]
+	[Token(Token = "0x40008AA")]
 	Vulkan = 21,
-	[Token(Token = "0x40008AD")]
+	[Token(Token = "0x40008AB")]
 	Switch = 22,
-	[Token(Token = "0x40008AE")]
+	[Token(Token = "0x40008AC")]
 	XboxOneD3D12 = 23,
-	[Token(Token = "0x40008AF")]
+	[Token(Token = "0x40008AD")]
 	GameCoreXboxOne = 24,
-	[Token(Token = "0x40008B0")]
+	[Token(Token = "0x40008AE")]
 	[Obsolete("GameCoreScarlett is deprecated, please use GameCoreXboxSeries (UnityUpgradable) -> GameCoreXboxSeries", false)]
 	GameCoreScarlett = -1,
-	[Token(Token = "0x40008B1")]
+	[Token(Token = "0x40008AF")]
 	GameCoreXboxSeries = 25,
-	[Token(Token = "0x40008B2")]
+	[Token(Token = "0x40008B0")]
 	PlayStation5 = 26,
-	[Token(Token = "0x40008B3")]
+	[Token(Token = "0x40008B1")]
 	PlayStation5NGGC = 27,
-	[Token(Token = "0x40008B4")]
+	[Token(Token = "0x40008B2")]
 	WebGPU = 28,
-	[Token(Token = "0x40008B5")]
+	[Token(Token = "0x40008B3")]
 	Switch2 = 29
 }

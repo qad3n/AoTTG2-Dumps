@@ -24,31 +24,31 @@ public sealed class DownloadHandlerBuffer : DownloadHandler
 	private NativeArray<byte> m_NativeData;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x3309150", Offset = "0x3307750", VA = "0x183309150")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x6D1B9F0", Offset = "0x6D1A9F0", VA = "0x6D1B9F0")]
 	private static extern IntPtr Create([UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] DownloadHandlerBuffer obj);
 
-	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x3309320", Offset = "0x3307920", VA = "0x183309320")]
+	[Token(Token = "0x600002F")]
+	[Address(RVA = "0x6D1BA20", Offset = "0x6D1AA20", VA = "0x6D1BA20")]
 	private void InternalCreateBuffer()
 	{
 	}
 
-	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x3309360", Offset = "0x3307960", VA = "0x183309360")]
+	[Token(Token = "0x6000030")]
+	[Address(RVA = "0x6D1BA60", Offset = "0x6D1AA60", VA = "0x6D1BA60")]
 	public DownloadHandlerBuffer()
 	{
 	}
 
-	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x3309210", Offset = "0x3307810", VA = "0x183309210", Slot = "6")]
+	[Token(Token = "0x6000031")]
+	[Address(RVA = "0x6D1BAA0", Offset = "0x6D1AAA0", VA = "0x6D1BAA0", Slot = "6")]
 	protected override NativeArray<byte> GetNativeData()
 	{
 		return default(NativeArray<byte>);
 	}
 
-	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x3309190", Offset = "0x3307790", VA = "0x183309190", Slot = "5")]
+	[Token(Token = "0x6000032")]
+	[Address(RVA = "0x6D1BAB0", Offset = "0x6D1AAB0", VA = "0x6D1BAB0", Slot = "5")]
 	public override void Dispose()
 	{
 	}

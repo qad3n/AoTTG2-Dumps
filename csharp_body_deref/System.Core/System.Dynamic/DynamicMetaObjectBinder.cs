@@ -12,56 +12,56 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000267")]
+[Token(Token = "0x2000268")]
 public abstract class DynamicMetaObjectBinder : CallSiteBinder
 {
-	[Token(Token = "0x17000268")]
+	[Token(Token = "0x1700026A")]
 	public virtual Type ReturnType
 	{
-		[Token(Token = "0x6000BEA")]
-		[Address(RVA = "0x1C79630", Offset = "0x1C77C30", VA = "0x181C79630", Slot = "6")]
+		[Token(Token = "0x6000BF5")]
+		[Address(RVA = "0x5E1F750", Offset = "0x5E1E750", VA = "0x5E1F750", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000269")]
+	[Token(Token = "0x1700026B")]
 	internal virtual bool IsStandardBinder
 	{
-		[Token(Token = "0x6000BEF")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6000BFA")]
+		[Address(RVA = "0x5E200C0", Offset = "0x5E1F0C0", VA = "0x5E200C0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x246B7D0", Offset = "0x2469DD0", VA = "0x18246B7D0")]
+	[Token(Token = "0x6000BF4")]
+	[Address(RVA = "0x5E1F6E0", Offset = "0x5E1E6E0", VA = "0x5E1F6E0")]
 	protected DynamicMetaObjectBinder()
 	{
 	}
 
-	[Token(Token = "0x6000BEB")]
-	[Address(RVA = "0x246AD70", Offset = "0x2469370", VA = "0x18246AD70", Slot = "4")]
+	[Token(Token = "0x6000BF6")]
+	[Address(RVA = "0x5E1F780", Offset = "0x5E1E780", VA = "0x5E1F780", Slot = "4")]
 	public sealed override Expression Bind(object[] args, ReadOnlyCollection<ParameterExpression> parameters, LabelTarget returnLabel)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BEC")]
-	[Address(RVA = "0x246B580", Offset = "0x2469B80", VA = "0x18246B580")]
+	[Token(Token = "0x6000BF7")]
+	[Address(RVA = "0x5E1FDE0", Offset = "0x5E1EDE0", VA = "0x5E1FDE0")]
 	private static DynamicMetaObject[] CreateArgumentMetaObjects(object[] args, ReadOnlyCollection<ParameterExpression> parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BED")]
+	[Token(Token = "0x6000BF8")]
 	public abstract DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args);
 
-	[Token(Token = "0x6000BEE")]
-	[Address(RVA = "0x246B710", Offset = "0x2469D10", VA = "0x18246B710")]
+	[Token(Token = "0x6000BF9")]
+	[Address(RVA = "0x5E1FFC0", Offset = "0x5E1EFC0", VA = "0x5E1FFC0")]
 	public Expression GetUpdateExpression(Type type)
 	{
 		return null;

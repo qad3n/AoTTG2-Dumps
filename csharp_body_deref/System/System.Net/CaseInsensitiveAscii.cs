@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002DB")]
+[Token(Token = "0x200029C")]
 internal class CaseInsensitiveAscii : IEqualityComparer, IComparer
 {
-	[Token(Token = "0x4000AF2")]
+	[Token(Token = "0x4000A23")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly CaseInsensitiveAscii StaticInstance;
 
-	[Token(Token = "0x4000AF3")]
+	[Token(Token = "0x4000A24")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly byte[] AsciiToLower;
 
-	[Token(Token = "0x60013EE")]
-	[Address(RVA = "0x27C0740", Offset = "0x27BED40", VA = "0x1827C0740", Slot = "5")]
+	[Token(Token = "0x6001230")]
+	[Address(RVA = "0x62AA9D0", Offset = "0x62A99D0", VA = "0x62AA9D0", Slot = "5")]
 	public int GetHashCode(object myObject)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60013EF")]
-	[Address(RVA = "0x27C0350", Offset = "0x27BE950", VA = "0x1827C0350", Slot = "6")]
+	[Token(Token = "0x6001231")]
+	[Address(RVA = "0x62AAAC0", Offset = "0x62A9AC0", VA = "0x62AAAC0", Slot = "6")]
 	public int Compare(object firstObject, object secondObject)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60013F0")]
-	[Address(RVA = "0x27C0640", Offset = "0x27BEC40", VA = "0x1827C0640")]
+	[Token(Token = "0x6001232")]
+	[Address(RVA = "0x62AAC50", Offset = "0x62A9C50", VA = "0x62AAC50")]
 	private int FastGetHashCode(string myString)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60013F1")]
-	[Address(RVA = "0x27C04C0", Offset = "0x27BEAC0", VA = "0x1827C04C0", Slot = "4")]
+	[Token(Token = "0x6001233")]
+	[Address(RVA = "0x62AAD30", Offset = "0x62A9D30", VA = "0x62AAD30", Slot = "4")]
 	public new bool Equals(object firstObject, object secondObject)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60013F2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001234")]
+	[Address(RVA = "0x62AAEC0", Offset = "0x62A9EC0", VA = "0x62AAEC0")]
 	public CaseInsensitiveAscii()
 	{
 	}

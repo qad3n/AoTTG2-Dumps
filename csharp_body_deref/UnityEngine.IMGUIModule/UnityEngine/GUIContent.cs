@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.GUIContent
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -72,13 +72,13 @@ public class GUIContent
 	public string text
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Address(RVA = "0x6980840", Offset = "0x697F840", VA = "0x6980840")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x2F873F0", Offset = "0x2F859F0", VA = "0x182F873F0")]
+		[Address(RVA = "0x6981000", Offset = "0x6980000", VA = "0x6981000")]
 		set
 		{
 		}
@@ -88,13 +88,13 @@ public class GUIContent
 	internal string textWithWhitespace
 	{
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x2F87260", Offset = "0x2F85860", VA = "0x182F87260")]
+		[Address(RVA = "0x698AE90", Offset = "0x6989E90", VA = "0x698AE90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x2F87370", Offset = "0x2F85970", VA = "0x182F87370")]
+		[Address(RVA = "0x698AE20", Offset = "0x6989E20", VA = "0x698AE20")]
 		set
 		{
 		}
@@ -104,7 +104,7 @@ public class GUIContent
 	public Texture image
 	{
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x698AF80", Offset = "0x6989F80", VA = "0x698AF80")]
 		set
 		{
 		}
@@ -114,13 +114,13 @@ public class GUIContent
 	public string tooltip
 	{
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x6983890", Offset = "0x6982890", VA = "0x6983890")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x698AF90", Offset = "0x6989F90", VA = "0x698AF90")]
 		set
 		{
 		}
@@ -130,13 +130,13 @@ public class GUIContent
 	internal event Action OnTextChanged
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x2F871C0", Offset = "0x2F857C0", VA = "0x182F871C0")]
+		[Address(RVA = "0x698AD00", Offset = "0x6989D00", VA = "0x698AD00")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x2F872D0", Offset = "0x2F858D0", VA = "0x182F872D0")]
+		[Address(RVA = "0x698AD90", Offset = "0x6989D90", VA = "0x698AD90")]
 		[CompilerGenerated]
 		remove
 		{
@@ -144,57 +144,57 @@ public class GUIContent
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x2F86B50", Offset = "0x2F85150", VA = "0x182F86B50")]
+	[Address(RVA = "0x698AF00", Offset = "0x6989F00", VA = "0x698AF00")]
 	internal void SetTextWithoutNotify(string value)
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x2F87110", Offset = "0x2F85710", VA = "0x182F87110")]
+	[Address(RVA = "0x698AFA0", Offset = "0x6989FA0", VA = "0x698AFA0")]
 	public GUIContent()
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x2F87190", Offset = "0x2F85790", VA = "0x182F87190")]
+	[Address(RVA = "0x698B020", Offset = "0x698A020", VA = "0x698B020")]
 	public GUIContent(string text)
 	{
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x2F86FF0", Offset = "0x2F855F0", VA = "0x182F86FF0")]
+	[Address(RVA = "0x698B1A0", Offset = "0x698A1A0", VA = "0x698B1A0")]
 	public GUIContent(string text, string tooltip)
 	{
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x2F86F00", Offset = "0x2F85500", VA = "0x182F86F00")]
+	[Address(RVA = "0x698B0E0", Offset = "0x698A0E0", VA = "0x698B0E0")]
 	public GUIContent(string text, Texture image, string tooltip)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x2F87010", Offset = "0x2F85610", VA = "0x182F87010")]
+	[Address(RVA = "0x698B260", Offset = "0x698A260", VA = "0x698B260")]
 	public GUIContent(GUIContent src)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x2F86B90", Offset = "0x2F85190", VA = "0x182F86B90")]
+	[Address(RVA = "0x697CEB0", Offset = "0x697BEB0", VA = "0x697CEB0")]
 	internal static GUIContent Temp(string t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x2F86970", Offset = "0x2F84F70", VA = "0x182F86970")]
+	[Address(RVA = "0x698B330", Offset = "0x698A330", VA = "0x698B330")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void ClearStaticCache()
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x2F86C70", Offset = "0x2F85270", VA = "0x182F86C70", Slot = "3")]
+	[Address(RVA = "0x698B530", Offset = "0x698A530", VA = "0x698B530", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

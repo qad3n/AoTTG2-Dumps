@@ -9,61 +9,61 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000F6")]
+[Token(Token = "0x20000F7")]
 internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 {
-	[Token(Token = "0x4000244")]
+	[Token(Token = "0x400024D")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly EnterFinallyInstruction[] s_cache;
 
-	[Token(Token = "0x17000175")]
+	[Token(Token = "0x17000177")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000639")]
-		[Address(RVA = "0x242DC90", Offset = "0x242C290", VA = "0x18242DC90", Slot = "9")]
+		[Token(Token = "0x6000644")]
+		[Address(RVA = "0x5DDE8C0", Offset = "0x5DDD8C0", VA = "0x5DDE8C0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000176")]
+	[Token(Token = "0x17000178")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "5")]
+		[Token(Token = "0x6000645")]
+		[Address(RVA = "0x5DDE8F0", Offset = "0x5DDD8F0", VA = "0x5DDE8F0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000177")]
+	[Token(Token = "0x17000179")]
 	public override int ConsumedContinuations
 	{
-		[Token(Token = "0x600063B")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "6")]
+		[Token(Token = "0x6000646")]
+		[Address(RVA = "0x5DDE900", Offset = "0x5DDD900", VA = "0x5DDE900", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000643")]
+	[Address(RVA = "0x5DDE8A0", Offset = "0x5DDD8A0", VA = "0x5DDE8A0")]
 	private EnterFinallyInstruction(int labelIndex)
 	{
 	}
 
-	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x242DA80", Offset = "0x242C080", VA = "0x18242DA80")]
+	[Token(Token = "0x6000647")]
+	[Address(RVA = "0x5DDE910", Offset = "0x5DDD910", VA = "0x5DDE910")]
 	internal static EnterFinallyInstruction Create(int labelIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x242DB90", Offset = "0x242C190", VA = "0x18242DB90", Slot = "8")]
+	[Token(Token = "0x6000648")]
+	[Address(RVA = "0x5DDEA10", Offset = "0x5DDDA10", VA = "0x5DDEA10", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

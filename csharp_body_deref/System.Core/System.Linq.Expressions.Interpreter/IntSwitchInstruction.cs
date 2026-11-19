@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000FF")]
+[Token(Token = "0x2000100")]
 internal sealed class IntSwitchInstruction<T> : Instruction
 {
-	[Token(Token = "0x4000255")]
+	[Token(Token = "0x400025E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Dictionary<T, int> _cases;
 
-	[Token(Token = "0x1700018C")]
+	[Token(Token = "0x1700018E")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600066F")]
+		[Token(Token = "0x600067A")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700018D")]
+	[Token(Token = "0x1700018F")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000670")]
+		[Token(Token = "0x600067B")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600066E")]
+	[Token(Token = "0x6000679")]
 	internal IntSwitchInstruction(Dictionary<T, int> cases)
 	{
 	}
 
-	[Token(Token = "0x6000671")]
+	[Token(Token = "0x600067C")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyFlattenedChildrenEnumerable
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ public readonly struct HierarchyFlattenedChildrenEnumerable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000006")]
-			[Address(RVA = "0x2F7C400", Offset = "0x2F7AA00", VA = "0x182F7C400")]
+			[Address(RVA = "0x696FAD0", Offset = "0x696EAD0", VA = "0x696FAD0")]
 			get
 			{
 				return ref *(HierarchyFlattenedNode*)null;
@@ -49,14 +49,14 @@ public readonly struct HierarchyFlattenedChildrenEnumerable
 		}
 
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x2F7C160", Offset = "0x2F7A760", VA = "0x182F7C160")]
+		[Address(RVA = "0x696FA80", Offset = "0x696EA80", VA = "0x696FA80")]
 		internal Enumerator(HierarchyFlattenedChildrenEnumerable enumerable)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x2F7BD60", Offset = "0x2F7A360", VA = "0x182F7BD60")]
+		[Address(RVA = "0x696FBD0", Offset = "0x696EBD0", VA = "0x696FBD0")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -64,7 +64,7 @@ public readonly struct HierarchyFlattenedChildrenEnumerable
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x2F7B340", Offset = "0x2F79940", VA = "0x182F7B340")]
+		[Address(RVA = "0x696FCF0", Offset = "0x696ECF0", VA = "0x696FCF0")]
 		private void ThrowIfVersionChanged()
 		{
 		}
@@ -83,13 +83,13 @@ public readonly struct HierarchyFlattenedChildrenEnumerable
 	private readonly int m_ParentIndex;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2F7C8D0", Offset = "0x2F7AED0", VA = "0x182F7C8D0")]
+	[Address(RVA = "0x696F630", Offset = "0x696E630", VA = "0x696F630")]
 	internal HierarchyFlattenedChildrenEnumerable(HierarchyFlattened hierarchyFlattened, in HierarchyNode node)
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2F7C860", Offset = "0x2F7AE60", VA = "0x182F7C860")]
+	[Address(RVA = "0x696FA20", Offset = "0x696EA20", VA = "0x696FA20")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);

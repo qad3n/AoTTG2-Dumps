@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncTriggerEnter2DTrigger : AsyncTriggerBase<Collider2D>
 {
 	[Token(Token = "0x6000BD7")]
-	[Address(RVA = "0x2939990", Offset = "0x2937F90", VA = "0x182939990")]
+	[Address(RVA = "0x6300D70", Offset = "0x62FFD70", VA = "0x6300D70")]
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 	}
 
 	[Token(Token = "0x6000BD8")]
-	[Address(RVA = "0x29396F0", Offset = "0x2937CF0", VA = "0x1829396F0")]
+	[Address(RVA = "0x6300DC0", Offset = "0x62FFDC0", VA = "0x6300DC0")]
 	public IAsyncOnTriggerEnter2DHandler GetOnTriggerEnter2DAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BD9")]
-	[Address(RVA = "0x2939670", Offset = "0x2937C70", VA = "0x182939670")]
+	[Address(RVA = "0x6300E30", Offset = "0x62FFE30", VA = "0x6300E30")]
 	public IAsyncOnTriggerEnter2DHandler GetOnTriggerEnter2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x2939870", Offset = "0x2937E70", VA = "0x182939870")]
+	[Address(RVA = "0x6300EA0", Offset = "0x62FFEA0", VA = "0x6300EA0")]
 	public UniTask<Collider2D> OnTriggerEnter2DAsync()
 	{
 		return default(UniTask<Collider2D>);
 	}
 
 	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x2939760", Offset = "0x2937D60", VA = "0x182939760")]
+	[Address(RVA = "0x6300FA0", Offset = "0x62FFFA0", VA = "0x6300FA0")]
 	public UniTask<Collider2D> OnTriggerEnter2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collider2D>);
 	}
 
 	[Token(Token = "0x6000BDC")]
-	[Address(RVA = "0x29399E0", Offset = "0x2937FE0", VA = "0x1829399E0")]
+	[Address(RVA = "0x63010B0", Offset = "0x63000B0", VA = "0x63010B0")]
 	public AsyncTriggerEnter2DTrigger()
 	{
 	}

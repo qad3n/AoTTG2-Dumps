@@ -1,5 +1,5 @@
 // Type: UI.MapEditorHierarchyPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/MapEditorHierarchyPanel.cs
@@ -8,608 +8,686 @@
 
 // UI.MapEditorHierarchyPanel.RowData$$.ctor
 // il2cpp: void UI_MapEditorHierarchyPanel_RowData___ctor (UI_MapEditorHierarchyPanel_RowData_o __this, int32_t id, int32_t depth, const MethodInfo* method);
-// 0x180acca30
+// 0x5d77070
 
-void
-UI_MapEditorHierarchyPanel_RowData___ctor(UI_MapEditorHierarchyPanel_RowData_o __this, int32_t id, int32_t depth, MethodInfo* method)
+void UI_MapEditorHierarchyPanel_RowData___ctor
+               (UI_MapEditorHierarchyPanel_RowData_o *__this,int32_t id,int32_t depth,MethodInfo *method)
 
 {
-  (__this->fields).tileX = tileX;
-  (__this->fields).tileZ = tileZ;
+  (__this->fields).Id = id;
+  (__this->fields).Depth = depth;
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel.<>c$$.cctor
 // il2cpp: void UI_MapEditorHierarchyPanel___c___cctor (const MethodInfo* method);
-// 0x1822d11b0
+// 0x5d7d760
 
 void UI_MapEditorHierarchyPanel___c___cctor(MethodInfo *method)
 
 {
-  UI_MapEditorHierarchyPanel___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_184347541 == '\0') {
+  if (Il2CppMethodInitialized_07547ffb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c);
-    Il2CppMethodInitialized_184347541 = '\x01';
+    Il2CppMethodInitialized_07547ffb = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9,__this);
+  __this = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9 = (UI_MapEditorHierarchyPanel___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel.<>c$$.ctor
 // il2cpp: void UI_MapEditorHierarchyPanel___c___ctor (UI_MapEditorHierarchyPanel___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5d7d7d0
 
-void
-UI_MapEditorHierarchyPanel___c___ctor(UI_MapEditorHierarchyPanel___c_o* __this, MethodInfo* method)
+void UI_MapEditorHierarchyPanel___c___ctor(UI_MapEditorHierarchyPanel___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c$$<BuildTreeGraph>b__84_0
-// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__84_0 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t id, const MethodInfo* method);
-// 0x1822cf740
+// UI.MapEditorHierarchyPanel.<>c$$<BuildTreeGraph>b__85_0
+// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__85_0 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t id, const MethodInfo* method);
+// 0x5d7d7e0
 
-int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__84_0
+int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__85_0
                   (UI_MapEditorHierarchyPanel___c_o *__this,int32_t id,MethodInfo *method)
 
 {
+  uint32_t uVar1;
   System_Collections_Generic_List_int__o *__this_00;
-  int32_t iVar1;
+  uint uVar2;
   
-  if (Il2CppMethodInitialized_184347542 == '\0') {
+  if (Il2CppMethodInitialized_07547ffc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_IndexOf);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347542 = '\x01';
+    Il2CppMethodInitialized_07547ffc = '\x01';
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
   }
-  __this_00 = TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
-  if (__this_00 != (System_Collections_Generic_List_int__o *)0x0) {
-    iVar1 = System_Collections_Generic_List_int___IndexOf
-                      (__this_00,id,
-                       (MethodInfo_91F570 *)MethodInfo_System_Collections_Generic_List_int_IndexOf);
-    if (iVar1 < 0) {
-      iVar1 = 0x7fffffff;
-    }
-    return iVar1;
+  else {
+    __this_00 = *(System_Collections_Generic_List_int__o **)
+                 ((long)((Il2CppClass *)TypeInfo_Map_MapLoader)->static_fields + 0x10);
   }
-  ThrowNullReferenceException();
+  if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  uVar2 = System_Collections_Generic_List_int___IndexOf
+                    (__this_00,id,(MethodInfo_3917A80 *)MethodInfo_System_Collections_Generic_List_int_IndexOf
+                    );
+  if (0x7ffffffe < uVar2) {
+    uVar2 = 0x7fffffff;
+  }
+  return uVar2;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c$$<BuildTreeGraph>b__84_1
-// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__84_1 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t id, const MethodInfo* method);
-// 0x1822cf7d0
+// UI.MapEditorHierarchyPanel.<>c$$<BuildTreeGraph>b__85_1
+// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__85_1 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t id, const MethodInfo* method);
+// 0x5d7d890
 
-int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__84_1
+int32_t UI_MapEditorHierarchyPanel___c___BuildTreeGraph_b__85_1
                   (UI_MapEditorHierarchyPanel___c_o *__this,int32_t id,MethodInfo *method)
 
 {
+  uint32_t uVar1;
   System_Collections_Generic_List_int__o *__this_00;
-  int32_t iVar1;
+  uint uVar2;
   
-  if (Il2CppMethodInitialized_184347543 == '\0') {
+  if (Il2CppMethodInitialized_07547ffd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_IndexOf);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347543 = '\x01';
+    Il2CppMethodInitialized_07547ffd = '\x01';
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
   }
-  __this_00 = TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
-  if (__this_00 != (System_Collections_Generic_List_int__o *)0x0) {
-    iVar1 = System_Collections_Generic_List_int___IndexOf
-                      (__this_00,id,
-                       (MethodInfo_91F570 *)MethodInfo_System_Collections_Generic_List_int_IndexOf);
-    if (iVar1 < 0) {
-      iVar1 = 0x7fffffff;
-    }
-    return iVar1;
+  else {
+    __this_00 = *(System_Collections_Generic_List_int__o **)
+                 ((long)((Il2CppClass *)TypeInfo_Map_MapLoader)->static_fields + 0x10);
   }
-  ThrowNullReferenceException();
+  if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  uVar2 = System_Collections_Generic_List_int___IndexOf
+                    (__this_00,id,(MethodInfo_3917A80 *)MethodInfo_System_Collections_Generic_List_int_IndexOf
+                    );
+  if (0x7ffffffe < uVar2) {
+    uVar2 = 0x7fffffff;
+  }
+  return uVar2;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c$$<FocusSelectionFromScene>b__120_1
-// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__120_1 (UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, const MethodInfo* method);
-// 0x181e7b690
+// UI.MapEditorHierarchyPanel.<>c$$<FocusSelectionFromScene>b__121_1
+// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__121_1 (UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, const MethodInfo* method);
+// 0x5d7d940
 
-int32_t
-UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__120_1(UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, MethodInfo* method)
+int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__121_1
+                  (UI_MapEditorHierarchyPanel___c_o *__this,Map_MapObject_o *x,MethodInfo *method)
 
 {
   Map_MapScriptBaseObject_o *pMVar1;
   
-  if ((o != (Map_MapObject_o *)0x0) &&
-     (pMVar1 = (o->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    return (pMVar1->fields).Id;
+  if ((x == (Map_MapObject_o *)0x0) ||
+     (pMVar1 = (x->fields).ScriptObject, pMVar1 == (Map_MapScriptBaseObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Id;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c$$<FocusSelectionFromScene>b__120_2
-// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__120_2 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t x, const MethodInfo* method);
-// 0x180c8a8c0
+// UI.MapEditorHierarchyPanel.<>c$$<FocusSelectionFromScene>b__121_2
+// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__121_2 (UI_MapEditorHierarchyPanel___c_o* __this, int32_t x, const MethodInfo* method);
+// 0x5d7d960
 
-int32_t
-UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__120_2(UI_MapEditorHierarchyPanel___c_o* __this, int32_t x, MethodInfo* method)
+int32_t UI_MapEditorHierarchyPanel___c___FocusSelectionFromScene_b__121_2
+                  (UI_MapEditorHierarchyPanel___c_o *__this,int32_t x,MethodInfo *method)
 
 {
-  return value;
+  return x;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c$$<OnItemBeginDrag>b__127_1
-// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___OnItemBeginDrag_b__127_1 (UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, const MethodInfo* method);
-// 0x181e7b690
+// UI.MapEditorHierarchyPanel.<>c$$<OnItemBeginDrag>b__128_1
+// il2cpp: int32_t UI_MapEditorHierarchyPanel___c___OnItemBeginDrag_b__128_1 (UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, const MethodInfo* method);
+// 0x5d7d970
 
-int32_t
-UI_MapEditorHierarchyPanel___c___OnItemBeginDrag_b__127_1(UI_MapEditorHierarchyPanel___c_o* __this, Map_MapObject_o* x, MethodInfo* method)
+int32_t UI_MapEditorHierarchyPanel___c___OnItemBeginDrag_b__128_1
+                  (UI_MapEditorHierarchyPanel___c_o *__this,Map_MapObject_o *x,MethodInfo *method)
 
 {
   Map_MapScriptBaseObject_o *pMVar1;
   
-  if ((o != (Map_MapObject_o *)0x0) &&
-     (pMVar1 = (o->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    return (pMVar1->fields).Id;
+  if ((x == (Map_MapObject_o *)0x0) ||
+     (pMVar1 = (x->fields).ScriptObject, pMVar1 == (Map_MapScriptBaseObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Id;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$.ctor
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$.ctor
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d79ef0
 
-void
-UI_MapEditorHierarchyPanel___c__DisplayClass106_0___ctor(UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, MethodInfo* method)
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___ctor
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__0
-// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, Map_MapObject_o* obj, const MethodInfo* method);
-// 0x1822d00c0
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__0
+// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, Map_MapObject_o* obj, const MethodInfo* method);
+// 0x5d7d990
 
-bool
-UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__0(UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, Map_MapObject_o* obj, MethodInfo* method)
-
-{
-  Map_MapScriptBaseObject_o *pMVar1;
-  
-  if ((x != (Map_MapObject_o *)0x0) &&
-     (pMVar1 = (x->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    return (pMVar1->fields).Id == (__this->fields).id;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__1
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__1 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d00f0
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__1
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__Copy(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__2
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__2 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d0120
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__2
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__Cut(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__3
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__3 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d0150
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__3
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__Paste(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__4
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__4 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d0180
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__4
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__PasteAsChild
-              (__this_00,(pUVar1->fields)._contextTargetId,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__5
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__5 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d01c0
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__5
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__CreateEmptyParent
-              (__this_00,(pUVar1->fields)._contextTargetId,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__6
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__6 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d0200
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__6
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__ResetOrigin(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass106_0$$<OnItemRightClick>b__7
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__7 (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o* __this, const MethodInfo* method);
-// 0x1822d0230
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass106_0___OnItemRightClick_b__7
-               (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *pUVar1;
-  GameManagers_MapEditorGameManager_o *__this_00;
-  
-  pUVar1 = (__this->fields).__4__this;
-  if ((pUVar1 != (UI_MapEditorHierarchyPanel_o *)0x0) &&
-     (__this_00 = (pUVar1->fields)._gameManager, __this_00 != (GameManagers_MapEditorGameManager_o *)0x0)) {
-    GameManagers_MapEditorGameManager__Delete(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass120_0$$.ctor
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass120_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o* __this, const MethodInfo* method);
-// 0x18054c890
-
-void
-UI_MapEditorHierarchyPanel___c__DisplayClass120_0___ctor(UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o* __this, MethodInfo* method)
-
-{
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass120_0$$<FocusSelectionFromScene>b__0
-// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass120_0___FocusSelectionFromScene_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o* __this, Map_MapObject_o* x, const MethodInfo* method);
-// 0x1822d00c0
-
-bool
-UI_MapEditorHierarchyPanel___c__DisplayClass120_0___FocusSelectionFromScene_b__0(UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o* __this, Map_MapObject_o* x, MethodInfo* method)
-
-{
-  Map_MapScriptBaseObject_o *pMVar1;
-  
-  if ((x != (Map_MapObject_o *)0x0) &&
-     (pMVar1 = (x->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    return (pMVar1->fields).Id == (__this->fields).targetId;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass127_0$$.ctor
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass127_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o* __this, const MethodInfo* method);
-// 0x18054c890
-
-void
-UI_MapEditorHierarchyPanel___c__DisplayClass127_0___ctor(UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o* __this, MethodInfo* method)
-
-{
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass127_0$$<OnItemBeginDrag>b__0
-// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass127_0___OnItemBeginDrag_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o* __this, Map_MapObject_o* x, const MethodInfo* method);
-// 0x1822d00c0
-
-bool UI_MapEditorHierarchyPanel___c__DisplayClass127_0___OnItemBeginDrag_b__0
-               (UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o *__this,Map_MapObject_o *x,
+bool UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__0
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,Map_MapObject_o *obj,
                MethodInfo *method)
 
 {
   Map_MapScriptBaseObject_o *pMVar1;
   
-  if ((x != (Map_MapObject_o *)0x0) &&
-     (pMVar1 = (x->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    return (pMVar1->fields).Id == (__this->fields).id;
+  if ((obj == (Map_MapObject_o *)0x0) ||
+     (pMVar1 = (obj->fields).ScriptObject, pMVar1 == (Map_MapScriptBaseObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Id == (__this->fields).id;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$.ctor
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__1
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__1 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7d9b0
 
-void
-UI_MapEditorHierarchyPanel___c__DisplayClass90_0___ctor(UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, MethodInfo* method)
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__1
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  GameManagers_MapEditorGameManager__Copy(__this_00,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__0
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, const MethodInfo* method);
-// 0x1822d0df0
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__2
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__2 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7d9e0
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__0
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,MethodInfo *method)
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__2
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
 
 {
-  UI_MapEditorHierarchyPanel_o *__this_00;
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnButtonClick(__this_00,(__this->fields).row.fields.Id,(MethodInfo *)0x0);
-    return;
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  GameManagers_MapEditorGameManager__Cut(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__1
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__1 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, const MethodInfo* method);
-// 0x1822d0e20
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__3
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__3 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7da10
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__1
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,MethodInfo *method)
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__3
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
 
 {
-  UI_MapEditorHierarchyPanel_o *__this_00;
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    System_Configuration_ConfigurationCollectionAttribute___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,
-               (MethodInfo *)(ulonglong)(uint)(__this->fields).row.fields.Id);
-    return;
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  GameManagers_MapEditorGameManager__Paste(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__2
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__2 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822d0e50
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__4
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__4 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7da40
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__2
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__4
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  GameManagers_MapEditorGameManager__PasteAsChild
+            (__this_00,(pUVar1->fields)._contextTargetId,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__5
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__5 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7da70
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__5
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  GameManagers_MapEditorGameManager__CreateEmptyParent
+            (__this_00,(pUVar1->fields)._contextTargetId,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__6
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__6 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7daa0
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__6
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  GameManagers_MapEditorGameManager__ResetOrigin(__this_00,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass107_0$$<OnItemRightClick>b__7
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__7 (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o* __this, const MethodInfo* method);
+// 0x5d7dad0
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass107_0___OnItemRightClick_b__7
+               (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  GameManagers_MapEditorGameManager_o *__this_00;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     (__this_00 = (pUVar1->fields)._gameManager, __this_00 == (GameManagers_MapEditorGameManager_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  GameManagers_MapEditorGameManager__Delete(__this_00,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass121_0$$.ctor
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass121_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o* __this, const MethodInfo* method);
+// 0x5d7b3d0
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass121_0___ctor
+               (UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass121_0$$<FocusSelectionFromScene>b__0
+// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass121_0___FocusSelectionFromScene_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o* __this, Map_MapObject_o* x, const MethodInfo* method);
+// 0x5d7db00
+
+bool UI_MapEditorHierarchyPanel___c__DisplayClass121_0___FocusSelectionFromScene_b__0
+               (UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o *__this,Map_MapObject_o *x,
+               MethodInfo *method)
+
+{
+  Map_MapScriptBaseObject_o *pMVar1;
+  
+  if ((x == (Map_MapObject_o *)0x0) ||
+     (pMVar1 = (x->fields).ScriptObject, pMVar1 == (Map_MapScriptBaseObject_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  return (pMVar1->fields).Id == (__this->fields).targetId;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass128_0$$.ctor
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass128_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o* __this, const MethodInfo* method);
+// 0x5d7bf10
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass128_0___ctor
+               (UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass128_0$$<OnItemBeginDrag>b__0
+// il2cpp: bool UI_MapEditorHierarchyPanel___c__DisplayClass128_0___OnItemBeginDrag_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o* __this, Map_MapObject_o* x, const MethodInfo* method);
+// 0x5d7db20
+
+bool UI_MapEditorHierarchyPanel___c__DisplayClass128_0___OnItemBeginDrag_b__0
+               (UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o *__this,Map_MapObject_o *x,
+               MethodInfo *method)
+
+{
+  Map_MapScriptBaseObject_o *pMVar1;
+  
+  if ((x == (Map_MapObject_o *)0x0) ||
+     (pMVar1 = (x->fields).ScriptObject, pMVar1 == (Map_MapScriptBaseObject_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  return (pMVar1->fields).Id == (__this->fields).id;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$.ctor
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___ctor (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, const MethodInfo* method);
+// 0x5d77af0
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___ctor
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__0
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__0 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, const MethodInfo* method);
+// 0x5d7db40
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__0
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *__this_00;
+  MethodInfo *in_RDX;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  UI_MapEditorHierarchyPanel__OnButtonClick(__this_00,(__this->fields).row.fields.Id,in_RDX);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__1
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__1 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, const MethodInfo* method);
+// 0x5d7db60
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__1
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,MethodInfo *method)
+
+{
+  if ((__this->fields).__4__this == (UI_MapEditorHierarchyPanel_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__2
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__2 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+// 0x5d7db70
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__2
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
   UI_MapEditorHierarchyPanel_o *__this_00;
+  MethodInfo *in_RCX;
   
   __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnItemRightClick
-              (__this_00,(__this->fields).row.fields.Id,eventData,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UI_MapEditorHierarchyPanel__OnItemRightClick(__this_00,(__this->fields).row.fields.Id,eventData,in_RCX);
+  return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__3
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__3 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822d0e80
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__3
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__3 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+// 0x5d7db90
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__3
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__3
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,
+               UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
+
+{
+  UI_MapEditorHierarchyPanel_o *pUVar1;
+  
+  pUVar1 = (__this->fields).__4__this;
+  if ((pUVar1 == (UI_MapEditorHierarchyPanel_o *)0x0) ||
+     ((pUVar1->fields)._dragSourceId = (__this->fields).row.fields.Id,
+     eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  (pUVar1->fields)._dragStartMouse.fields = (eventData->fields)._position_k__BackingField.fields;
+  (pUVar1->fields)._suppressClick = false;
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__4
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__4 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+// 0x5d7dbd0
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__4
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
   UI_MapEditorHierarchyPanel_o *__this_00;
+  MethodInfo *in_RCX;
   
   __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnItemPointerDown
-              (__this_00,(__this->fields).row.fields.Id,eventData,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UI_MapEditorHierarchyPanel__OnItemBeginDrag(__this_00,(__this->fields).row.fields.Id,eventData,in_RCX);
+  return;
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__4
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__4 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822d0eb0
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__5
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__5 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+// 0x5d7dbf0
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__4
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__5
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,
+               UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
+
+{
+  UnityEngine_Vector2_Fields UVar1;
+  UnityEngine_Vector2_Fields UVar2;
+  UI_MapEditorHierarchyPanel_o *__this_00;
+  UnityEngine_Camera_o *eventCamera;
+  MethodInfo *method_00;
+  UnityEngine_EventSystems_PointerEventData_o *method_01;
+  float fVar3;
+  float fVar4;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+label_05d7dcfe:
+    ThrowNullReferenceException();
+  }
+  if ((__this_00->fields)._draggingItem != false) {
+    if (eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0) goto label_05d7dcfe;
+    UVar1 = (eventData->fields)._position_k__BackingField.fields;
+    UVar2 = (__this_00->fields)._dragStartMouse.fields;
+    method_01 = eventData;
+    if (Il2CppMethodInitialized_0753e7b5 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e7b5 = '\x01';
+    }
+    fVar3 = UVar1.x - UVar2.x;
+    fVar4 = UVar1.y - UVar2.y;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    fVar3 = fVar4 * fVar4 + fVar3 * fVar3;
+    if (fVar3 < 0.0) {
+      fVar3 = sqrtf(fVar3);
+    }
+    else {
+      fVar3 = SQRT(fVar3);
+    }
+    if (6.0 <= fVar3) {
+      UI_MapEditorHierarchyPanel__MoveDragGhost
+                (__this_00,(UnityEngine_Vector2_o)(eventData->fields)._position_k__BackingField.fields,
+                 (MethodInfo *)method_01);
+      UVar1 = (eventData->fields)._position_k__BackingField.fields;
+      eventCamera = UnityEngine_EventSystems_PointerEventData__get_pressEventCamera
+                              (eventData,(MethodInfo *)0x0);
+      UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer
+                (__this_00,(UnityEngine_Vector2_o)UVar1,eventCamera,method_00);
+      return;
+    }
+  }
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__6
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__6 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+// 0x5d7dd10
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__6
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
   UI_MapEditorHierarchyPanel_o *__this_00;
+  MethodInfo *in_RCX;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  UI_MapEditorHierarchyPanel__OnItemEndDrag(__this_00,(int32_t)eventData,eventData,in_RCX);
+  return;
+}
+
+
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__7
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__7 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, const MethodInfo* method);
+// 0x5d7dd30
+
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__7
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,MethodInfo *method)
+
+{
+  uint item;
+  UI_MapEditorHierarchyPanel_o *__this_00;
+  System_Collections_Generic_HashSet_int__o *__this_01;
+  MethodInfo *method_00;
   
   __this_00 = (__this->fields).__4__this;
   if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnItemBeginDrag
-              (__this_00,(__this->fields).row.fields.Id,eventData,(MethodInfo *)0x0);
-    return;
+    item = (__this->fields).row.fields.Id;
+    if (Il2CppMethodInitialized_07547feb == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Remove);
+      Il2CppMethodInitialized_07547feb = '\x01';
+    }
+    __this_01 = (__this_00->fields)._expanded;
+    if (__this_01 != (System_Collections_Generic_HashSet_int__o *)0x0) {
+      method_00 = (MethodInfo *)(ulong)item;
+      System_Collections_Generic_HashSet_int___Add
+                (__this_01,item,(MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+      UI_MapEditorHierarchyPanel__Sync(__this_00,method_00);
+      return;
+    }
   }
   ThrowNullReferenceException();
 }
 
 
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__5
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__5 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822d0ee0
+// UI.MapEditorHierarchyPanel.<>c__DisplayClass91_0$$<BindPooledItem>b__8
+// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__8 (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o* __this, const MethodInfo* method);
+// 0x5d7dda0
 
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__5
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,
-               UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
+void UI_MapEditorHierarchyPanel___c__DisplayClass91_0___BindPooledItem_b__8
+               (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this,MethodInfo *method)
 
 {
+  uint item;
   UI_MapEditorHierarchyPanel_o *__this_00;
+  System_Collections_Generic_HashSet_int__o *__this_01;
+  MethodInfo *method_00;
   
   __this_00 = (__this->fields).__4__this;
   if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnItemDrag
-              (__this_00,(__this->fields).row.fields.Id,eventData,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__6
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__6 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822d0f10
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__6
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,
-               UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *__this_00;
-  
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__OnItemEndDrag
-              (__this_00,(__this->fields).row.fields.Id,eventData,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__7
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__7 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, const MethodInfo* method);
-// 0x1822d0f40
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__7
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *__this_00;
-  
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__ToggleExpanded
-              (__this_00,(__this->fields).row.fields.Id,true,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// UI.MapEditorHierarchyPanel.<>c__DisplayClass90_0$$<BindPooledItem>b__8
-// il2cpp: void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__8 (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o* __this, const MethodInfo* method);
-// 0x1822d0f70
-
-void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__8
-               (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *__this,MethodInfo *method)
-
-{
-  UI_MapEditorHierarchyPanel_o *__this_00;
-  
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_MapEditorHierarchyPanel_o *)0x0) {
-    UI_MapEditorHierarchyPanel__ToggleExpanded
-              (__this_00,(__this->fields).row.fields.Id,false,(MethodInfo *)0x0);
-    return;
+    item = (__this->fields).row.fields.Id;
+    if (Il2CppMethodInitialized_07547feb == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Remove);
+      Il2CppMethodInitialized_07547feb = '\x01';
+    }
+    __this_01 = (__this_00->fields)._expanded;
+    if (__this_01 != (System_Collections_Generic_HashSet_int__o *)0x0) {
+      method_00 = (MethodInfo *)(ulong)item;
+      System_Collections_Generic_HashSet_int___Remove
+                (__this_01,item,(MethodInfo_4FA80C0 *)MethodInfo_System_Collections_Generic_HashSet_int_Remove
+                );
+      UI_MapEditorHierarchyPanel__Sync(__this_00,method_00);
+      return;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -617,7 +695,7 @@ void UI_MapEditorHierarchyPanel___c__DisplayClass90_0___BindPooledItem_b__8
 
 // UI.MapEditorHierarchyPanel$$get_Width
 // il2cpp: float UI_MapEditorHierarchyPanel__get_Width (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1821d9240
+// 0x5d71b30
 
 float UI_MapEditorHierarchyPanel__get_Width(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -628,7 +706,7 @@ float UI_MapEditorHierarchyPanel__get_Width(UI_MapEditorHierarchyPanel_o *__this
 
 // UI.MapEditorHierarchyPanel$$get_Height
 // il2cpp: float UI_MapEditorHierarchyPanel__get_Height (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b8870
+// 0x5d71b40
 
 float UI_MapEditorHierarchyPanel__get_Height(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -639,7 +717,7 @@ float UI_MapEditorHierarchyPanel__get_Height(UI_MapEditorHierarchyPanel_o *__thi
 
 // UI.MapEditorHierarchyPanel$$get_TopBarHeight
 // il2cpp: float UI_MapEditorHierarchyPanel__get_TopBarHeight (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b8880
+// 0x5d71b50
 
 float UI_MapEditorHierarchyPanel__get_TopBarHeight(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -650,7 +728,7 @@ float UI_MapEditorHierarchyPanel__get_TopBarHeight(UI_MapEditorHierarchyPanel_o 
 
 // UI.MapEditorHierarchyPanel$$GetWidth
 // il2cpp: float UI_MapEditorHierarchyPanel__GetWidth (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b3500
+// 0x5d71b60
 
 float UI_MapEditorHierarchyPanel__GetWidth(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -658,227 +736,175 @@ float UI_MapEditorHierarchyPanel__GetWidth(UI_MapEditorHierarchyPanel_o *__this,
   Settings_MapEditorSettings_o *pSVar1;
   Settings_FloatSetting_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184347508 == '\0') {
+  if (Il2CppMethodInitialized_07547fc1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
-    Il2CppMethodInitialized_184347508 = '\x01';
+    Il2CppMethodInitialized_07547fc1 = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->MapEditorSettings;
-  if ((pSVar1 != (Settings_MapEditorSettings_o *)0x0) &&
-     (pSVar2 = (pSVar1->fields).HierarchyPanelWidth, pSVar2 != (Settings_FloatSetting_o *)0x0)) {
-    return (pSVar2->fields)._value;
+  if ((pSVar1 == (Settings_MapEditorSettings_o *)0x0) ||
+     (pSVar2 = (pSVar1->fields).HierarchyPanelWidth, pSVar2 == (Settings_FloatSetting_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pSVar2->fields)._value;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetHeight
 // il2cpp: float UI_MapEditorHierarchyPanel__GetHeight (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b21b0
+// 0x5d71bc0
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d71c84: shufps xmm1, xmm1, 0x55
+// asm:   0x5d71c88: xorps xmm0, xmm0
+// asm:   0x5d71c8b: ucomiss xmm1, xmm0
+// asm:   0x5d71c8e: jbe 0x5d71cc5
 
 float UI_MapEditorHierarchyPanel__GetHeight(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
-  UI_BaseMenu_o *pUVar2;
-  System_Collections_Generic_List_BasePopup__o *pSVar3;
-  bool bVar4;
+  bool bVar1;
   UnityEngine_Canvas_o *x;
-  UnityEngine_RectTransform_o *pUVar5;
-  UnityEngine_Rect_o *pUVar6;
-  UnityEngine_Vector2_o UVar7;
-  UnityEngine_Vector2_o UVar8;
-  UI_BaseMenu_o *x_00;
-  float fVar9;
-  float fVar10;
-  float fStackX_1c;
-  float fStackX_24;
-  UnityEngine_Rect_o local_38 [3];
+  UnityEngine_RectTransform_o *__this_00;
+  UnityEngine_Rect_c *method_00;
+  float fVar2;
+  UnityEngine_Rect_o UVar3;
   
-  if (Il2CppMethodInitialized_184347509 == '\0') {
+  if (Il2CppMethodInitialized_07547fc2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponentInParent_Canvas);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347509 = '\x01';
+    Il2CppMethodInitialized_07547fc2 = '\x01';
   }
-  x = UnityEngine_Component__GetComponentInParent_object__664f20
+  x = UnityEngine_Component__GetComponentInParent_object__34b0d00
                 ((UnityEngine_Component_o *)__this,
-                 (MethodInfo_664F20 *)MethodInfo_UnityEngine_Component_GetComponentInParent_Canvas);
+                 (MethodInfo_34B0D00 *)MethodInfo_UnityEngine_Component_GetComponentInParent_Canvas);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Inequality
+  bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar4) {
+  if (bVar1) {
     if ((x == (UnityEngine_Canvas_o *)0x0) ||
-       (pUVar5 = UnityEngine_Component__GetComponent_object_
-                           ((UnityEngine_Component_o *)x,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
-       pUVar5 == (UnityEngine_RectTransform_o *)0x0)) goto label_1822b2438;
-    pUVar6 = UnityEngine_RectTransform__get_rect(local_38,pUVar5,(MethodInfo *)0x0);
-    fVar9 = (pUVar6->fields).m_Height;
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)x,
+                               (MethodInfo_34B0830 *)
+                               MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
+       __this_00 == (UnityEngine_RectTransform_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    UVar3 = UnityEngine_RectTransform__get_rect(__this_00,(MethodInfo *)0x0);
+    method_00 = TypeInfo_UnityEngine_Rect;
     if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
     }
-    if (0.0 < fVar9) {
-      if (Il2CppMethodInitialized_18434750a == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorMenu);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
-        Il2CppMethodInitialized_18434750a = '\x01';
-      }
-      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-      }
-      pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
-      x_00 = (UI_BaseMenu_o *)0x0;
-      if (pUVar2 != (UI_BaseMenu_o *)0x0) {
-        bVar1 = (TypeInfo_UI_MapEditorMenu->_2).typeHierarchyDepth;
-        if (((pUVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-           (bVar4 = true,
-           (pUVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_UI_MapEditorMenu
-           )) {
-          bVar4 = false;
-        }
-        if (bVar4) {
-          x_00 = pUVar2;
-        }
-      }
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar4 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (!bVar4) {
-label_1822b23ff:
-        return fVar9 - 55.0;
-      }
-      if (x_00 != (UI_BaseMenu_o *)0x0) {
-        pSVar3 = (*(uint64_t *)((char *)x_00 + 0xb8));
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar4 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pSVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (!bVar4) goto label_1822b23ff;
-        pSVar3 = (*(uint64_t *)((char *)x_00 + 0xb8));
-        if ((pSVar3 != (System_Collections_Generic_List_BasePopup__o *)0x0) &&
-           (pUVar5 = UnityEngine_Component__GetComponent_object_
-                               ((UnityEngine_Component_o *)pSVar3,
-                                (MethodInfo_6651A0 *)
-                                MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
-           pUVar5 != (UnityEngine_RectTransform_o *)0x0)) {
-          UVar7 = UnityEngine_RectTransform__get_sizeDelta(pUVar5,(MethodInfo *)0x0);
-          UVar8 = UnityEngine_RectTransform__get_anchoredPosition(pUVar5,(MethodInfo *)0x0);
-          fStackX_1c = UVar7.fields.y;
-          fStackX_24 = UVar8.fields.y;
-          fVar10 = 0.0;
-          if (0.0 <= fStackX_1c - fStackX_24) {
-            fVar10 = fStackX_1c - fStackX_24;
-          }
-          return fVar9 - fVar10;
-        }
-      }
-label_1822b2438:
-      ThrowNullReferenceException();
+    if (0.0 < UVar3.fields.m_Height) {
+      fVar2 = UI_MapEditorHierarchyPanel__GetTopOffset((MethodInfo *)method_00);
+      return UVar3.fields.m_Height - fVar2;
     }
   }
-  fVar9 = (*(__this->klass->vtable)._6_get_Height.methodPtr)
+  fVar2 = (*(__this->klass->vtable)._6_get_Height.methodPtr)
                     (__this,(__this->klass->vtable)._6_get_Height.method);
-  return fVar9;
+  return fVar2;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetTopOffset
 // il2cpp: float UI_MapEditorHierarchyPanel__GetTopOffset (const MethodInfo* method);
-// 0x1822b2e70
+// 0x5d71cf0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d71d25: jmp 0x5d71dac
+// asm:   0x5d71e9b: jmp 0x5d71dc1
 
 float UI_MapEditorHierarchyPanel__GetTopOffset(MethodInfo *method)
 
 {
   byte bVar1;
-  UI_BaseMenu_o *pUVar2;
+  uint32_t uVar2;
   System_Collections_Generic_List_BasePopup__o *pSVar3;
-  bool bVar4;
-  UnityEngine_RectTransform_o *__this;
+  UnityEngine_Vector2_o UVar4;
   UnityEngine_Vector2_o UVar5;
-  UnityEngine_Vector2_o UVar6;
+  bool bVar6;
+  UI_BaseMenu_o *pUVar7;
+  UnityEngine_RectTransform_o *__this;
   UI_BaseMenu_o *x;
-  float fVar7;
-  float fStackX_14;
-  float fStackX_1c;
+  float fVar8;
+  float fStack_24;
   
-  if (Il2CppMethodInitialized_18434750a == '\0') {
+  if (Il2CppMethodInitialized_07547fc3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorMenu);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
-    Il2CppMethodInitialized_18434750a = '\x01';
-  }
-  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-  }
-  pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
-  x = (UI_BaseMenu_o *)0x0;
-  if (pUVar2 != (UI_BaseMenu_o *)0x0) {
+    Il2CppMethodInitialized_07547fc3 = '\x01';
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) goto label_05d71d74;
+label_05d71d15:
+    pUVar7 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar7 == (UI_BaseMenu_o *)0x0) goto label_05d71dac;
+label_05d71d8c:
     bVar1 = (TypeInfo_UI_MapEditorMenu->_2).typeHierarchyDepth;
-    if (((pUVar2->klass->_2).typeHierarchyDepth < bVar1) ||
-       (bVar4 = true,
-       (pUVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_UI_MapEditorMenu)) {
-      bVar4 = false;
+    if ((pUVar7->klass->_2).typeHierarchyDepth < bVar1) goto label_05d71dac;
+    x = (UI_BaseMenu_o *)0x0;
+    if ((pUVar7->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_UI_MapEditorMenu) {
+      x = pUVar7;
     }
-    if (bVar4) {
-      x = pUVar2;
-    }
+    uVar2 = (TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor != 0) goto label_05d71d15;
+label_05d71d74:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    pUVar7 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar7 != (UI_BaseMenu_o *)0x0) goto label_05d71d8c;
+label_05d71dac:
+    x = (UI_BaseMenu_o *)0x0;
+    uVar2 = (TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Inequality
+  bVar6 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar4) {
-    return 55.0;
-  }
-  if (x != (UI_BaseMenu_o *)0x0) {
+  fVar8 = 55.0;
+  if (bVar6) {
+    if (x == (UI_BaseMenu_o *)0x0) {
+label_05d71ea0:
+      ThrowNullReferenceException();
+    }
     pSVar3 = (*(uint64_t *)((char *)x + 0xb8));
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality
+    bVar6 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)pSVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar4) {
-      return 55.0;
-    }
-    pSVar3 = (*(uint64_t *)((char *)x + 0xb8));
-    if ((pSVar3 != (System_Collections_Generic_List_BasePopup__o *)0x0) &&
-       (__this = UnityEngine_Component__GetComponent_object_
-                           ((UnityEngine_Component_o *)pSVar3,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
-       __this != (UnityEngine_RectTransform_o *)0x0)) {
-      UVar5 = UnityEngine_RectTransform__get_sizeDelta(__this,(MethodInfo *)0x0);
-      UVar6 = UnityEngine_RectTransform__get_anchoredPosition(__this,(MethodInfo *)0x0);
-      fStackX_14 = UVar5.fields.y;
-      fStackX_1c = UVar6.fields.y;
-      fVar7 = 0.0;
-      if (0.0 <= fStackX_14 - fStackX_1c) {
-        fVar7 = fStackX_14 - fStackX_1c;
+    fVar8 = 55.0;
+    if (bVar6) {
+      pSVar3 = (*(uint64_t *)((char *)x + 0xb8));
+      if ((pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) ||
+         (__this = UnityEngine_Component__GetComponent_object_
+                             ((UnityEngine_Component_o *)pSVar3,
+                              (MethodInfo_34B0830 *)
+                              MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
+         __this == (UnityEngine_RectTransform_o *)0x0)) goto label_05d71ea0;
+      UVar4 = UnityEngine_RectTransform__get_sizeDelta(__this,(MethodInfo *)0x0);
+      UVar5 = UnityEngine_RectTransform__get_anchoredPosition(__this,(MethodInfo *)0x0);
+      fStack_24 = UVar4.fields.y;
+      fStack_24 = fStack_24 - UVar5.fields.y;
+      fVar8 = 0.0;
+      if (0.0 <= fStack_24) {
+        fVar8 = fStack_24;
       }
-      return fVar7;
     }
   }
-  ThrowNullReferenceException();
+  return fVar8;
 }
 
 
 // UI.MapEditorHierarchyPanel$$get_BottomBarHeight
 // il2cpp: float UI_MapEditorHierarchyPanel__get_BottomBarHeight (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d71eb0
 
-float
-UI_MapEditorHierarchyPanel__get_BottomBarHeight(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+float UI_MapEditorHierarchyPanel__get_BottomBarHeight(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -887,10 +913,9 @@ UI_MapEditorHierarchyPanel__get_BottomBarHeight(UI_MapEditorHierarchyPanel_o* __
 
 // UI.MapEditorHierarchyPanel$$get_VerticalSpacing
 // il2cpp: float UI_MapEditorHierarchyPanel__get_VerticalSpacing (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x181d9f790
+// 0x5d71ec0
 
-float
-UI_MapEditorHierarchyPanel__get_VerticalSpacing(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+float UI_MapEditorHierarchyPanel__get_VerticalSpacing(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return 2.0;
@@ -899,10 +924,10 @@ UI_MapEditorHierarchyPanel__get_VerticalSpacing(UI_MapEditorHierarchyPanel_o* __
 
 // UI.MapEditorHierarchyPanel$$get_HorizontalPadding
 // il2cpp: int32_t UI_MapEditorHierarchyPanel__get_HorizontalPadding (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x180847040
+// 0x5d71ed0
 
-int32_t
-UI_MapEditorHierarchyPanel__get_HorizontalPadding(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+int32_t UI_MapEditorHierarchyPanel__get_HorizontalPadding
+                  (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return 0x14;
@@ -911,10 +936,10 @@ UI_MapEditorHierarchyPanel__get_HorizontalPadding(UI_MapEditorHierarchyPanel_o* 
 
 // UI.MapEditorHierarchyPanel$$get_VerticalPadding
 // il2cpp: int32_t UI_MapEditorHierarchyPanel__get_VerticalPadding (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x181b56090
+// 0x5d71ee0
 
-int32_t
-UI_MapEditorHierarchyPanel__get_VerticalPadding(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+int32_t UI_MapEditorHierarchyPanel__get_VerticalPadding
+                  (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return 10;
@@ -923,10 +948,9 @@ UI_MapEditorHierarchyPanel__get_VerticalPadding(UI_MapEditorHierarchyPanel_o* __
 
 // UI.MapEditorHierarchyPanel$$get_ScrollBar
 // il2cpp: bool UI_MapEditorHierarchyPanel__get_ScrollBar (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5d71ef0
 
-bool
-UI_MapEditorHierarchyPanel__get_ScrollBar(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+bool UI_MapEditorHierarchyPanel__get_ScrollBar(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -935,7 +959,7 @@ UI_MapEditorHierarchyPanel__get_ScrollBar(UI_MapEditorHierarchyPanel_o* __this, 
 
 // UI.MapEditorHierarchyPanel$$GetPanelVerticalOffset
 // il2cpp: float UI_MapEditorHierarchyPanel__GetPanelVerticalOffset (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b2b60
+// 0x5d71f00
 
 float UI_MapEditorHierarchyPanel__GetPanelVerticalOffset
                 (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
@@ -954,7 +978,12 @@ float UI_MapEditorHierarchyPanel__GetPanelVerticalOffset
 
 // UI.MapEditorHierarchyPanel$$Setup
 // il2cpp: void UI_MapEditorHierarchyPanel__Setup (UI_MapEditorHierarchyPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x1822b6570
+// 0x5d71f50
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d72101: lea rdi, [r13 + 0x128]
+// asm:   0x5d72108: jmp 0x5d7211c
+// asm:   0x5d7219e: lea rdi, [r13 + 0x118]
+// asm:   0x5d721a5: jmp 0x5d721d1
 
 void UI_MapEditorHierarchyPanel__Setup
                (UI_MapEditorHierarchyPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
@@ -973,12 +1002,13 @@ void UI_MapEditorHierarchyPanel__Setup
   UnityEngine_RectOffset_o *__this_01;
   UnityEngine_RectTransform_o *__this_02;
   UnityEngine_Events_UnityAction_o *pUVar9;
-  UI_InputSettingElement_o *value;
-  UnityEngine_UI_Text_o *value_00;
-  UI_MapEditorMenu_o *pUVar10;
+  UI_InputSettingElement_o *pUVar10;
+  UnityEngine_UI_Text_o *method_00;
+  GameManagers_MapEditorGameManager_c *pGVar11;
+  UI_MapEditorMenu_o *pUVar12;
   float size;
   
-  if (Il2CppMethodInitialized_18434750b == '\0') {
+  if (Il2CppMethodInitialized_07547fc4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponent_HorizontalLayoutGroup);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
@@ -1003,60 +1033,56 @@ void UI_MapEditorHierarchyPanel__Setup
     il2cpp_codegen_initialize_runtime_metadata(&"");
     il2cpp_codegen_initialize_runtime_metadata(&"Icons/Navigation/ArrowLeftIcon");
     il2cpp_codegen_initialize_runtime_metadata(&"Icons/Navigation/TreeView");
-    Il2CppMethodInitialized_18434750b = '\x01';
+    Il2CppMethodInitialized_07547fc4 = '\x01';
   }
   UI_MapEditorScaledPanel__Setup((UI_MapEditorScaledPanel_o *)__this,parent,(MethodInfo *)0x0);
-  pUVar10 = (UI_MapEditorMenu_o *)TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
-  if (pUVar10 == (UI_MapEditorMenu_o *)0x0) {
+  pGVar11 = TypeInfo_GameManagers_MapEditorGameManager;
+  pUVar12 = (UI_MapEditorMenu_o *)TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+  if (pUVar12 == (UI_MapEditorMenu_o *)0x0) {
     (__this->fields)._gameManager = (GameManagers_MapEditorGameManager_o *)0x0;
-    pUVar10 = (UI_MapEditorMenu_o *)0x0;
   }
   else {
     bVar1 = (TypeInfo_GameManagers_MapEditorGameManager->_2).typeHierarchyDepth;
-    if (((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchyDepth < bVar1) ||
-       ((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_GameManagers_MapEditorGameManager)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-    }
-    (__this->fields)._gameManager = (GameManagers_MapEditorGameManager_o *)pUVar10;
-    bVar1 = (TypeInfo_GameManagers_MapEditorGameManager->_2).typeHierarchyDepth;
-    if (((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchyDepth < bVar1) ||
-       ((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_GameManagers_MapEditorGameManager)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-    }
+    if (((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchyDepth < bVar1) ||
+       ((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_GameManagers_MapEditorGameManager)) goto label_05d7272d;
+    (__this->fields)._gameManager = (GameManagers_MapEditorGameManager_o *)pUVar12;
+    if (((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchyDepth < bVar1) ||
+       ((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+        (Il2CppClass *)pGVar11)) goto label_05d7272d;
   }
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._gameManager,pUVar10);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._gameManager);
   if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-  }
-  pUVar10 = (UI_MapEditorMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
-  if (pUVar10 == (UI_MapEditorMenu_o *)0x0) {
+    pUVar12 = (UI_MapEditorMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar12 != (UI_MapEditorMenu_o *)0x0) goto label_05d72144;
+label_05d721bf:
     (__this->fields)._menu = (UI_MapEditorMenu_o *)0x0;
-    pUVar10 = (UI_MapEditorMenu_o *)0x0;
   }
   else {
+    pUVar12 = (UI_MapEditorMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar12 == (UI_MapEditorMenu_o *)0x0) goto label_05d721bf;
+label_05d72144:
+    pGVar11 = (GameManagers_MapEditorGameManager_c *)TypeInfo_UI_MapEditorMenu;
     bVar1 = (TypeInfo_UI_MapEditorMenu->_2).typeHierarchyDepth;
-    if (((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchyDepth < bVar1) ||
-       ((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+    if (((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchyDepth < bVar1) ||
+       ((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
         (Il2CppClass *)TypeInfo_UI_MapEditorMenu)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
+label_05d7272d:
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar12,pGVar11);
     }
-    (__this->fields)._menu = pUVar10;
-    bVar1 = (TypeInfo_UI_MapEditorMenu->_2).typeHierarchyDepth;
-    if (((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchyDepth < bVar1) ||
-       ((((GameManagers_MapEditorGameManager_c *)pUVar10->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_UI_MapEditorMenu)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-    }
+    (__this->fields)._menu = pUVar12;
+    if (((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchyDepth < bVar1) ||
+       ((((GameManagers_BaseGameManager_c *)pUVar12->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+        (Il2CppClass *)pGVar11)) goto label_05d7272d;
   }
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._menu,pUVar10);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._menu);
   pSVar5 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
   pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
   UI_ElementStyle___ctor(pUVar6,0x12,0.0,20.0,pSVar5,(MethodInfo *)0x0);
   (__this->fields)._style = pUVar6;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._style,pUVar6);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._style);
   pSVar5 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
   pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
@@ -1069,7 +1095,7 @@ void UI_MapEditorHierarchyPanel__Setup
                     ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar4) {
     pUVar7 = (__this->fields).TopBar;
-    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1822b6db0;
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d72728;
     pUVar7 = UnityEngine_Transform__Find(pUVar7,"Label",(MethodInfo *)0x0);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -1078,19 +1104,19 @@ void UI_MapEditorHierarchyPanel__Setup
                       ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar4) {
       pUVar7 = (__this->fields).TopBar;
-      if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1822b6db0;
-      pUVar7 = UnityEngine_Transform__Find(pUVar7,"Label",(MethodInfo *)0x0);
-      if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1822b6db0;
-      pUVar8 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_GameObject_o *)0x0) goto label_1822b6db0;
+      if (((pUVar7 == (UnityEngine_Transform_o *)0x0) ||
+          (pUVar7 = UnityEngine_Transform__Find(pUVar7,"Label",(MethodInfo *)0x0),
+          pUVar7 == (UnityEngine_Transform_o *)0x0)) ||
+         (pUVar8 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0),
+         pUVar8 == (UnityEngine_GameObject_o *)0x0)) goto label_05d72728;
       UnityEngine_GameObject__SetActive(pUVar8,false,(MethodInfo *)0x0);
     }
   }
   pUVar7 = (__this->fields).TopBar;
-  if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1822b6db0;
+  if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d72728;
   __this_00 = UnityEngine_Component__GetComponent_object_
                         ((UnityEngine_Component_o *)pUVar7,
-                         (MethodInfo_6651A0 *)
+                         (MethodInfo_34B0830 *)
                          MethodInfo_UnityEngine_Component_GetComponent_HorizontalLayoutGroup);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -1098,7 +1124,7 @@ void UI_MapEditorHierarchyPanel__Setup
   bVar4 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar4) {
-    if (__this_00 == (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) goto label_1822b6db0;
+    if (__this_00 == (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) goto label_05d72728;
     UnityEngine_UI_LayoutGroup__set_childAlignment
               ((UnityEngine_UI_LayoutGroup_o *)__this_00,3,(MethodInfo *)0x0);
     UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
@@ -1112,7 +1138,7 @@ void UI_MapEditorHierarchyPanel__Setup
     UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
               ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_00,8.0,(MethodInfo *)0x0);
     __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_RectOffset);
-    UnityEngine_RectOffset___ctor_2ed1030(__this_01,8,8,4,4,(MethodInfo *)0x0);
+    UnityEngine_RectOffset___ctor_68cd0a0(__this_01,8,8,4,4,(MethodInfo *)0x0);
     UnityEngine_UI_LayoutGroup__set_padding
               ((UnityEngine_UI_LayoutGroup_o *)__this_00,__this_01,(MethodInfo *)0x0);
   }
@@ -1124,93 +1150,97 @@ void UI_MapEditorHierarchyPanel__Setup
                     ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar4) {
     pUVar7 = (__this->fields).TopBar;
-    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1822b6db0;
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d72728;
     __this_02 = UnityEngine_Component__GetComponent_object_
                           ((UnityEngine_Component_o *)pUVar7,
-                           (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+                           (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     size = (*(__this->klass->vtable)._36_get_TopBarHeight.methodPtr)
                      (__this,(__this->klass->vtable)._36_get_TopBarHeight.method);
-    if (__this_02 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b6db0;
+    if (__this_02 == (UnityEngine_RectTransform_o *)0x0) goto label_05d72728;
     UnityEngine_RectTransform__SetInsetAndSizeFromParentEdge(__this_02,2,0.0,size,(MethodInfo *)0x0);
   }
   pUVar7 = (__this->fields).TopBar;
   setting = (__this->fields)._searchSetting;
   pUVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
   UnityEngine_Events_UnityAction___ctor
-            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar9,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_0,(MethodInfo *)0x0);
+            (pUVar9,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_0,
+             (MethodInfo *)0x0);
   pUVar8 = UI_ElementFactory__CreateInputSetting
                      (pUVar7,pUVar6,(Settings_BaseSetting_o *)setting,"",
                       "",120.0,28.0,false,(UnityEngine_Events_UnityAction_o *)0x0,pUVar9,
                       (System_Func_string__bool__o *)0x0,(System_Func_string__string__o *)0x0,
                       (MethodInfo *)0x0);
   if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
-    value = UnityEngine_GameObject__GetComponent_object_
-                      (pUVar8,(MethodInfo_6F5650 *)
-                              MethodInfo_UnityEngine_GameObject_GetComponent_InputSettingElement);
-    (__this->fields)._searchInput = value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._searchInput,value);
+    pUVar10 = UnityEngine_GameObject__GetComponent_object_
+                        (pUVar8,(MethodInfo_353B730 *)
+                                MethodInfo_UnityEngine_GameObject_GetComponent_InputSettingElement);
+    (__this->fields)._searchInput = pUVar10;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._searchInput);
     pUVar7 = (__this->fields).TopBar;
     pUVar2 = (__this->fields)._style;
     pUVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
     UnityEngine_Events_UnityAction___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar9,(Il2CppObject *)__this,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_1,(MethodInfo *)0x0);
+              (pUVar9,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_1,
+               (MethodInfo *)0x0);
     pUVar8 = UI_ElementFactory__CreateIconButton
-                       (pUVar7,pUVar2,"Icons/Navigation/TreeView",28.0,28.0,pUVar9,(MethodInfo *)0x0);
+                       (pUVar7,pUVar2,"Icons/Navigation/TreeView",28.0,28.0,pUVar9,(System_String_o *)0x0,
+                        (MethodInfo *)0x0);
     (__this->fields)._modeButton = pUVar8;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._modeButton,pUVar8);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._modeButton);
     pUVar7 = (__this->fields).TopBar;
     pUVar2 = (__this->fields)._style;
     pUVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
     UnityEngine_Events_UnityAction___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar9,(Il2CppObject *)__this,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_2,(MethodInfo *)0x0);
+              (pUVar9,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_2,
+               (MethodInfo *)0x0);
     pUVar8 = UI_ElementFactory__CreateIconButton
-                       (pUVar7,pUVar2,"Icons/Navigation/ArrowLeftIcon",18.0,18.0,pUVar9,(MethodInfo *)0x0);
+                       (pUVar7,pUVar2,"Icons/Navigation/ArrowLeftIcon",18.0,18.0,pUVar9,(System_String_o *)0x0,
+                        (MethodInfo *)0x0);
     (__this->fields)._pageLeftButton = pUVar8;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._pageLeftButton,pUVar8);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._pageLeftButton);
     pUVar7 = (__this->fields).TopBar;
     pUVar2 = (__this->fields)._style;
     pUVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
     UnityEngine_Events_UnityAction___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar9,(Il2CppObject *)__this,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_3,(MethodInfo *)0x0);
+              (pUVar9,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_Setup_b__75_3,
+               (MethodInfo *)0x0);
     pUVar8 = UI_ElementFactory__CreateIconButton
-                       (pUVar7,pUVar2,"Icons/Navigation/ArrowRightIcon",18.0,18.0,pUVar9,(MethodInfo *)0x0);
+                       (pUVar7,pUVar2,"Icons/Navigation/ArrowRightIcon",18.0,18.0,pUVar9,(System_String_o *)0x0,
+                        (MethodInfo *)0x0);
     (__this->fields)._pageRightButton = pUVar8;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._pageRightButton,pUVar8);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._pageRightButton);
     pUVar8 = UI_ElementFactory__CreateDefaultLabel
                        ((__this->fields).TopBar,pUVar6,"0/0",0,4,(MethodInfo *)0x0);
     if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
-      value_00 = UnityEngine_GameObject__GetComponent_object_
-                           (pUVar8,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-      (__this->fields)._pageLabel = value_00;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._pageLabel,value_00);
-      pGVar3 = (__this->fields)._gameManager;
+      method_00 = UnityEngine_GameObject__GetComponent_object_
+                            (pUVar8,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text)
+      ;
+      (__this->fields)._pageLabel = method_00;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._pageLabel);
       (__this->fields)._currentPage = 1;
+      pGVar3 = (__this->fields)._gameManager;
       if (pGVar3 != (GameManagers_MapEditorGameManager_o *)0x0) {
         bVar4 = (pGVar3->fields).HierarchyTreeViewEnabled;
         (__this->fields)._treeViewEnabled = bVar4;
         if (bVar4 != false) {
-          UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,(MethodInfo *)0x0);
+          UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,(MethodInfo *)method_00);
         }
-        UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__AddResizeHandle(__this,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+        UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,(MethodInfo *)method_00);
+        UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,(MethodInfo *)method_00);
+        UI_MapEditorHierarchyPanel__AddResizeHandle(__this,(MethodInfo *)method_00);
+        UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)method_00);
         return;
       }
     }
   }
-label_1822b6db0:
+label_05d72728:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$AddResizeHandle
 // il2cpp: void UI_MapEditorHierarchyPanel__AddResizeHandle (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822ad620
+// 0x5d74150
 
 void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -1221,10 +1251,10 @@ void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *_
   UnityEngine_RectTransform_o *__this_02;
   UnityEngine_UI_Image_o *pUVar1;
   UI_PanelResizeHandle_o *pUVar2;
-  DG_Tweening_Core_DOSetter_float__o *__this_03;
-  UnityEngine_Color_Fields local_38 [3];
+  System_Action_float__o *__this_03;
+  UnityEngine_Color_o UVar3;
   
-  if (Il2CppMethodInitialized_18434750c == '\0') {
+  if (Il2CppMethodInitialized_07547fc5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_float);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_Image);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1234,7 +1264,7 @@ void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *_
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_MapEditorHierarchyPanel_AddResizeHandle_b__76_0)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&"ResizeHandle");
-    Il2CppMethodInitialized_18434750c = '\x01';
+    Il2CppMethodInitialized_07547fc5 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
   UnityEngine_GameObject___ctor(__this_00,"ResizeHandle",(MethodInfo *)0x0);
@@ -1242,11 +1272,11 @@ void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *_
     __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
     parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
     if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+      UnityEngine_Transform__SetParent_692d510(__this_01,parent,false,(MethodInfo *)0x0);
       __this_02 = UnityEngine_GameObject__AddComponent_object_
                             (__this_00,
-                             (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_RectTransform
-                            );
+                             (MethodInfo_353B6A0 *)
+                             MethodInfo_UnityEngine_GameObject_AddComponent_RectTransform);
       if (__this_02 != (UnityEngine_RectTransform_o *)0x0) {
         UnityEngine_RectTransform__set_anchorMin
                   (__this_02,(UnityEngine_Vector2_o)0x3f800000,(MethodInfo *)0x0);
@@ -1257,30 +1287,29 @@ void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *_
                   (__this_02,(UnityEngine_Vector2_o)0x41000000,(MethodInfo *)0x0);
         pUVar1 = UnityEngine_GameObject__AddComponent_object_
                            (__this_00,
-                            (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+                            (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_Image);
         if (pUVar1 != (UnityEngine_UI_Image_o *)0x0) {
-          local_38[0].r = 1.0;
-          local_38[0].g = 1.0;
-          local_38[0].b = 1.0;
-          local_38[0].a = 0.04;
+          UVar3.fields.b = 1.0;
+          UVar3.fields.a = 0.04;
+          UVar3.fields.r = 1.0;
+          UVar3.fields.g = 1.0;
           (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
-                    (pUVar1,(UnityEngine_Color_o *)local_38,(pUVar1->klass->vtable)._23_set_color.method);
+                    (pUVar1,UVar3,(pUVar1->klass->vtable)._23_set_color.method);
           pUVar2 = UnityEngine_GameObject__AddComponent_object_
                              (__this_00,
-                              (MethodInfo_6F4D60 *)
+                              (MethodInfo_353B6A0 *)
                               MethodInfo_UnityEngine_GameObject_AddComponent_PanelResizeHandle);
           if (pUVar2 != (UI_PanelResizeHandle_o *)0x0) {
             (pUVar2->fields).IsRightEdge = true;
             (pUVar2->fields).MinWidth = 150.0;
             (pUVar2->fields).MaxWidth = 600.0;
-            __this_03 = (DG_Tweening_Core_DOSetter_float__o *)
-                        il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_float);
+            __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_float);
             System_Action_float____ctor
                       (__this_03,(Il2CppObject *)__this,
                        (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_AddResizeHandle_b__76_0,
-                       (MethodInfo_E5A750 *)0x0);
-            (pUVar2->fields).OnResize = (System_Action_float__o *)__this_03;
-            Il2CppCodeGenWriteBarrier(&(pUVar2->fields).OnResize,__this_03);
+                       (MethodInfo_4A82E50 *)0x0);
+            (pUVar2->fields).OnResize = __this_03;
+            Il2CppCodeGenWriteBarrier(&(pUVar2->fields).OnResize);
             return;
           }
         }
@@ -1293,7 +1322,7 @@ void UI_MapEditorHierarchyPanel__AddResizeHandle(UI_MapEditorHierarchyPanel_o *_
 
 // UI.MapEditorHierarchyPanel$$Show
 // il2cpp: void UI_MapEditorHierarchyPanel__Show (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b72b0
+// 0x5d747d0
 
 void UI_MapEditorHierarchyPanel__Show(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -1305,35 +1334,40 @@ void UI_MapEditorHierarchyPanel__Show(UI_MapEditorHierarchyPanel_o *__this,Metho
 
 // UI.MapEditorHierarchyPanel$$Sync
 // il2cpp: void UI_MapEditorHierarchyPanel__Sync (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b7840
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b7aff: nop 
-// asm:   0x1822b7b96: jmp 0x1822b7b00
+// 0x5d74330
 
 void UI_MapEditorHierarchyPanel__Sync(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__GameObject__o *__this_00;
-  System_Collections_Generic_Dictionary_int__int__o *pSVar1;
-  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar2;
-  UnityEngine_UI_Text_o *pUVar3;
-  UnityEngine_Object_o *pUVar4;
-  System_Collections_Generic_List_GameObject__o *pSVar5;
-  bool bVar6;
-  uint uVar7;
-  System_String_o *pSVar8;
+  int iVar1;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
+  System_Collections_Generic_Dictionary_int__int__o *pSVar2;
+  UnityEngine_Object_o *pUVar3;
+  UnityEngine_GameObject_o *pUVar4;
+  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar5;
+  UnityEngine_UI_Text_o *pUVar6;
+  bool bVar7;
+  int iVar8;
+  System_String_o *pSVar9;
   System_String_o *str2;
-  UnityEngine_GameObject_o *pUVar9;
+  MethodInfo *pMVar10;
   UI_MapEditorHierarchyPanel_RowData_o row;
-  int iVar10;
-  uint uVar11;
-  int size;
-  int index;
-  int iVar12;
-  int32_t local_res8 [2];
-  uint local_res18 [4];
+  int iVar11;
+  UnityEngine_UI_Text_c *pUVar12;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  uint uVar13;
+  uint uVar14;
+  MethodInfo *method_01;
+  System_Collections_Generic_List_GameObject__o *__this_01;
+  MethodInfo *in_R8;
+  int32_t local_38;
+  int32_t local_34;
   
-  if (Il2CppMethodInitialized_18434750d == '\0') {
+  if (Il2CppMethodInitialized_07547fc6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1349,149 +1383,177 @@ void UI_MapEditorHierarchyPanel__Sync(UI_MapEditorHierarchyPanel_o *__this,Metho
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&" items");
     il2cpp_codegen_initialize_runtime_metadata(&"/");
-    Il2CppMethodInitialized_18434750d = '\x01';
+    Il2CppMethodInitialized_07547fc6 = '\x01';
   }
-  __this_00 = (__this->fields)._idToItem;
-  index = 0;
-  local_res8[0] = 0;
-  local_res18[0] = 0;
-  if (__this_00 != (System_Collections_Generic_Dictionary_int__GameObject__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
-    pSVar1 = (__this->fields)._idToIndex;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-                 (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-      pSVar1 = (__this->fields)._indexToId;
-      if (pSVar1 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-                   (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
+  local_38 = 0;
+  local_34 = 0;
+  __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+  if (__this_00 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_int__object___Clear
+              (__this_00,
+               (MethodInfo_4A0F8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
+    pSVar2 = (__this->fields)._idToIndex;
+    if (pSVar2 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+      System_Collections_Generic_Dictionary_int__int___Clear
+                (pSVar2,(MethodInfo_4A040E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
+      pSVar2 = (__this->fields)._indexToId;
+      if (pSVar2 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+        pMVar10 = MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear;
+        System_Collections_Generic_Dictionary_int__int___Clear
+                  (pSVar2,(MethodInfo_4A040E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear
+                  );
         (__this->fields)._dropIndicatorId = -1;
         (__this->fields)._dropToRoot = false;
-        UI_MapEditorHierarchyPanel__SetRootDropOverlay(__this,false,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__BuildRows(__this,(MethodInfo *)0x0);
-        pSVar2 = (__this->fields)._rows;
-        if (pSVar2 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-          local_res8[0] = (pSVar2->fields)._size;
+        if (Il2CppMethodInitialized_07547fe3 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+          Il2CppMethodInitialized_07547fe3 = '\x01';
+        }
+        UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,pMVar10);
+        pUVar3 = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        pMVar10 = (MethodInfo *)0x0;
+        bVar7 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar7) {
+          pUVar4 = (__this->fields)._rootDropOverlay;
+          if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05d747c3;
+          pMVar10 = (MethodInfo *)0x0;
+          UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
+        }
+        UI_MapEditorHierarchyPanel__BuildRows(__this,pMVar10);
+        pSVar5 = (__this->fields)._rows;
+        if (pSVar5 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
+          iVar1 = (pSVar5->fields)._size;
+          local_34 = iVar1;
           if ((__this->fields)._treeViewEnabled == false) {
-            UI_MapEditorHierarchyPanel__SetVirtualizationActive(__this,false,(MethodInfo *)0x0);
-            local_res18[0] = (local_res8[0] + 0x1d) / 0x1e;
-            if ((int)local_res18[0] < 1) {
-              local_res18[0] = 1;
+            UI_MapEditorHierarchyPanel__SetVirtualizationActive(__this,false,method_00);
+            iVar8 = (int)((ulong)((long)(iVar1 + 0x1d) * -0x77777777) >> 0x20) + iVar1 + 0x1d;
+            local_38 = (iVar8 >> 4) - (iVar8 >> 0x1f);
+            if (local_38 < 2) {
+              local_38 = 1;
             }
-            uVar7 = (__this->fields)._currentPage;
-            if ((int)uVar7 < 1) {
-              uVar7 = 1;
+            iVar8 = (__this->fields)._currentPage;
+            iVar11 = 1;
+            if (1 < iVar8) {
+              iVar11 = iVar8;
             }
-            uVar11 = local_res18[0];
-            if (uVar7 <= local_res18[0]) {
-              uVar11 = uVar7;
+            if (local_38 <= iVar11) {
+              iVar11 = local_38;
             }
-            pUVar3 = (__this->fields)._pageLabel;
-            (__this->fields)._currentPage = uVar11;
-            pSVar8 = System_Int32__ToString(&(__this->fields)._currentPage,(MethodInfo *)0x0);
-            str2 = System_Int32__ToString((int32_t *)local_res18,(MethodInfo *)0x0);
-            pSVar8 = System_String__Concat_1969b70(pSVar8,"/",str2,(MethodInfo *)0x0);
-            if (pUVar3 != (UnityEngine_UI_Text_o *)0x0) {
-              (*(pUVar3->klass->vtable)._75_set_text.methodPtr)
-                        (pUVar3,pSVar8,(pUVar3->klass->vtable)._75_set_text.method);
-              pUVar4 = (UnityEngine_Object_o *)(__this->fields)._pageLeftButton;
+            (__this->fields)._currentPage = iVar11;
+            pUVar6 = (__this->fields)._pageLabel;
+            pSVar9 = System_Int32__ToString(&(__this->fields)._currentPage,(MethodInfo *)0x0);
+            str2 = System_Int32__ToString(&local_38,(MethodInfo *)0x0);
+            pSVar9 = System_String__Concat_5301f10(pSVar9,"/",str2,(MethodInfo *)0x0);
+            if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
+              pUVar12 = pUVar6->klass;
+              (*(pUVar12->vtable)._75_set_text.methodPtr)(pUVar6,pSVar9,(pUVar12->vtable)._75_set_text.method)
+              ;
+              pUVar3 = (UnityEngine_Object_o *)(__this->fields)._pageLeftButton;
               if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar6 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                pUVar9 = (__this->fields)._pageLeftButton;
-                if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1822b7cae;
-                UnityEngine_GameObject__SetActive(pUVar9,true,(MethodInfo *)0x0);
+              bVar7 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              if (bVar7) {
+                pUVar4 = (__this->fields)._pageLeftButton;
+                if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05d747c3;
+                UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
               }
-              pUVar4 = (UnityEngine_Object_o *)(__this->fields)._pageRightButton;
+              pUVar3 = (UnityEngine_Object_o *)(__this->fields)._pageRightButton;
               if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar6 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                pUVar9 = (__this->fields)._pageRightButton;
-                if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1822b7cae;
-                UnityEngine_GameObject__SetActive(pUVar9,true,(MethodInfo *)0x0);
+              bVar7 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              pMVar10 = extraout_RDX_01;
+              if (bVar7) {
+                pUVar4 = (__this->fields)._pageRightButton;
+                if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05d747c3;
+                UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
+                pMVar10 = extraout_RDX_02;
               }
-              iVar12 = (__this->fields)._currentPage * 0x1e;
-              iVar10 = local_res8[0] - (iVar12 + -0x1e);
-              size = 0;
-              if (-1 < iVar10) {
-                size = iVar10;
+              iVar8 = (__this->fields)._currentPage * 0x1e + -0x1e;
+              uVar14 = iVar1 - iVar8;
+              uVar13 = 0;
+              if (0 < (int)uVar14) {
+                uVar13 = uVar14;
               }
-              if (0x1e < size) {
-                size = 0x1e;
+              uVar14 = 0x1e;
+              if ((int)uVar13 < 0x1e) {
+                uVar14 = uVar13;
               }
-              UI_MapEditorHierarchyPanel__EnsurePoolSize(__this,size,(MethodInfo *)0x0);
-              pSVar5 = (__this->fields)._itemPool;
-              while (pSVar5 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-                if ((pSVar5->fields)._size <= index) goto label_1822b7c7e;
-                pSVar5 = (__this->fields)._itemPool;
-                if (pSVar5 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-                pUVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                   ((System_Collections_Generic_List_object__o *)pSVar5,index,
-                                    (MethodInfo_92B830 *)
-                                    MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
-                if (index < size) {
-                  pSVar2 = (__this->fields)._rows;
-                  if (pSVar2 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0)
-                  break;
-                  row.fields = (UI_MapEditorHierarchyPanel_RowData_Fields)
-                               System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                         ((System_Collections_Generic_List_object__o *)pSVar2,
-                                          iVar12 + -0x1e + index,
-                                          (MethodInfo_92B830 *)
-                                          MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
-                                         );
-                  UI_MapEditorHierarchyPanel__BindPooledItem
-                            (__this,pUVar9,row,iVar12 + -0x1e + index,(MethodInfo *)0x0);
-                }
-                else {
-                  if (pUVar9 == (UnityEngine_GameObject_o *)0x0) break;
-                  UnityEngine_GameObject__SetActive(pUVar9,false,(MethodInfo *)0x0);
-                }
-                index = index + 1;
-                pSVar5 = (__this->fields)._itemPool;
+              method_01 = (MethodInfo *)(ulong)uVar14;
+              UI_MapEditorHierarchyPanel__EnsurePoolSize(__this,uVar14,pMVar10);
+              __this_01 = (__this->fields)._itemPool;
+              if (__this_01 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+                uVar13 = 0;
+                do {
+                  if ((__this_01->fields)._size <= (int)uVar13) goto label_05d745aa;
+                  pMVar10 = (MethodInfo *)
+                            System_Collections_Generic_List_object___get_Item
+                                      ((System_Collections_Generic_List_object__o *)__this_01,uVar13,
+                                       (MethodInfo_395CF20 *)
+                                       MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+                  if (uVar13 < uVar14) {
+                    pSVar5 = (__this->fields)._rows;
+                    if (pSVar5 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0)
+                    break;
+                    row = System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___get_Item
+                                    (pSVar5,iVar8 + uVar13,
+                                     (MethodInfo_3AAA990 *)
+                                     MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
+                                    );
+                    UI_MapEditorHierarchyPanel__BindPooledItem
+                              (__this,(UnityEngine_GameObject_o *)pMVar10,row,(int32_t)pUVar12,in_R8);
+                    method_01 = pMVar10;
+                  }
+                  else {
+                    if (pMVar10 == (MethodInfo *)0x0) break;
+                    method_01 = (MethodInfo *)0x0;
+                    UnityEngine_GameObject__SetActive
+                              ((UnityEngine_GameObject_o *)pMVar10,false,(MethodInfo *)0x0);
+                  }
+                  uVar13 = uVar13 + 1;
+                  __this_01 = (__this->fields)._itemPool;
+                } while (__this_01 != (System_Collections_Generic_List_GameObject__o *)0x0);
               }
             }
           }
           else {
-            UI_MapEditorHierarchyPanel__SetVirtualizationActive(__this,true,(MethodInfo *)0x0);
-            pUVar3 = (__this->fields)._pageLabel;
-            pSVar8 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-            pSVar8 = System_String__Concat_1969e50(pSVar8," items",(MethodInfo *)0x0);
-            if (pUVar3 != (UnityEngine_UI_Text_o *)0x0) {
-              (*(pUVar3->klass->vtable)._75_set_text.methodPtr)
-                        (pUVar3,pSVar8,(pUVar3->klass->vtable)._75_set_text.method);
-              pUVar4 = (UnityEngine_Object_o *)(__this->fields)._pageLeftButton;
+            UI_MapEditorHierarchyPanel__SetVirtualizationActive(__this,true,method_00);
+            pUVar6 = (__this->fields)._pageLabel;
+            pSVar9 = System_Int32__ToString(&local_34,(MethodInfo *)0x0);
+            pSVar9 = System_String__Concat_52f0320(pSVar9," items",(MethodInfo *)0x0);
+            if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
+              (*(pUVar6->klass->vtable)._75_set_text.methodPtr)
+                        (pUVar6,pSVar9,(pUVar6->klass->vtable)._75_set_text.method);
+              pUVar3 = (UnityEngine_Object_o *)(__this->fields)._pageLeftButton;
               if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar6 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                pUVar9 = (__this->fields)._pageLeftButton;
-                if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1822b7cae;
-                UnityEngine_GameObject__SetActive(pUVar9,false,(MethodInfo *)0x0);
+              bVar7 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              if (bVar7) {
+                pUVar4 = (__this->fields)._pageLeftButton;
+                if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05d747c3;
+                UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
               }
-              pUVar4 = (UnityEngine_Object_o *)(__this->fields)._pageRightButton;
+              pUVar3 = (UnityEngine_Object_o *)(__this->fields)._pageRightButton;
               if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                 il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar6 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                pUVar9 = (__this->fields)._pageRightButton;
-                if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1822b7cae;
-                UnityEngine_GameObject__SetActive(pUVar9,false,(MethodInfo *)0x0);
+              bVar7 = UnityEngine_Object__op_Inequality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              pMVar10 = extraout_RDX;
+              if (bVar7) {
+                pUVar4 = (__this->fields)._pageRightButton;
+                if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_05d747c3;
+                UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
+                pMVar10 = extraout_RDX_00;
               }
-              UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,true,(MethodInfo *)0x0);
-label_1822b7c7e:
-              UI_MapEditorHierarchyPanel__SyncSelectedItems(__this,(MethodInfo *)0x0);
-              UI_MapEditorHierarchyPanel__UpdateModeButtonText(__this,(MethodInfo *)0x0);
+              method_01 = (MethodInfo *)0x0;
+              UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,pMVar10);
+label_05d745aa:
+              UI_MapEditorHierarchyPanel__SyncSelectedItems(__this,method_01);
+              UI_MapEditorHierarchyPanel__UpdateModeButtonText(__this,method_01);
               return;
             }
           }
@@ -1499,218 +1561,249 @@ label_1822b7c7e:
       }
     }
   }
-label_1822b7cae:
+label_05d747c3:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnModeButtonClick
 // il2cpp: void UI_MapEditorHierarchyPanel__OnModeButtonClick (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b5200
+// 0x5d76570
 
-void
-UI_MapEditorHierarchyPanel__OnModeButtonClick(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+void UI_MapEditorHierarchyPanel__OnModeButtonClick(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
+  UnityEngine_Object_o *x;
+  UnityEngine_GameObject_o *__this_00;
   GameManagers_MapEditorGameManager_o *pGVar1;
   UnityEngine_UI_ScrollRect_o *pUVar2;
   bool bVar3;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_18434750e == '\0') {
+  if (Il2CppMethodInitialized_07547fc7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434750e = '\x01';
+    Il2CppMethodInitialized_07547fc7 = '\x01';
   }
   (__this->fields)._draggingItem = false;
   (__this->fields)._dropTargetId = -1;
   (__this->fields)._dropIndicatorId = -1;
   (__this->fields)._dropToRoot = false;
   (__this->fields)._currentDropMode = 0;
-  UI_MapEditorHierarchyPanel__HideDragGhost(__this,(MethodInfo *)0x0);
-  UI_MapEditorHierarchyPanel__HideInsertLine(__this,(MethodInfo *)0x0);
-  bVar3 = (__this->fields)._treeViewEnabled == false;
-  pGVar1 = (__this->fields)._gameManager;
-  (__this->fields)._currentPage = 1;
+  UI_MapEditorHierarchyPanel__HideDragGhost(__this,method);
+  if (Il2CppMethodInitialized_07547fe5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_07547fe5 = '\x01';
+  }
+  x = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  method_00 = (MethodInfo *)0x0;
+  bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    __this_00 = (__this->fields)._insertLineIndicator;
+    if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_05d766b9;
+    method_00 = (MethodInfo *)0x0;
+    UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+  }
+  bVar3 = (bool)((__this->fields)._treeViewEnabled ^ 1);
   (__this->fields)._treeViewEnabled = bVar3;
-  if (pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) {
-    (pGVar1->fields).HierarchyTreeViewEnabled = bVar3;
+  (__this->fields)._currentPage = 1;
+  pGVar1 = (__this->fields)._gameManager;
+  if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) {
+label_05d766b9:
+    ThrowNullReferenceException();
+  }
+  (pGVar1->fields).HierarchyTreeViewEnabled = bVar3;
+  if (bVar3 != false) {
+    UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,method_00);
     if ((__this->fields)._treeViewEnabled != false) {
-      UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,(MethodInfo *)0x0);
-      if ((__this->fields)._treeViewEnabled != false) {
+      pUVar2 = (__this->fields)._scrollRect;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      method_00 = (MethodInfo *)0x0;
+      bVar3 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar3) {
         pUVar2 = (__this->fields)._scrollRect;
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar3 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar3) {
-          pUVar2 = (__this->fields)._scrollRect;
-          if (pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_1822b5310;
-          UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(pUVar2,1.0,(MethodInfo *)0x0);
-        }
+        if (pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_05d766b9;
+        method_00 = (MethodInfo *)0x0;
+        UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(pUVar2,1.0,(MethodInfo *)0x0);
       }
     }
-    UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
-    return;
   }
-label_1822b5310:
-  ThrowNullReferenceException();
+  UI_MapEditorHierarchyPanel__Sync(__this,method_00);
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$UpdateModeButtonText
 // il2cpp: void UI_MapEditorHierarchyPanel__UpdateModeButtonText (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b7ff0
+// 0x5d76330
 
 void UI_MapEditorHierarchyPanel__UpdateModeButtonText(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  undefined4 uVar1;
   UnityEngine_Object_o *x;
   UnityEngine_GameObject_o *pUVar2;
-  undefined8 uVar3;
-  undefined8 uVar4;
-  UnityEngine_UI_ColorBlock_o *pUVar5;
-  bool bVar6;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  UnityEngine_UI_ColorBlock_o value;
+  UnityEngine_UI_ColorBlock_o *pUVar8;
+  bool bVar9;
   UnityEngine_UI_Button_o *__this_00;
-  UnityEngine_UI_RawImage_o *pUVar7;
-  float fVar8;
-  UnityEngine_Color_o local_128 [2];
-  undefined8 local_108;
-  undefined8 uStack_100;
-  undefined8 local_f8;
-  undefined8 uStack_f0;
-  undefined8 local_e8;
-  undefined8 uStack_e0;
-  UnityEngine_UI_ColorBlock_o local_b8 [2];
+  UnityEngine_UI_RawImage_o *pUVar10;
+  MethodInfo *method_00;
+  float fVar11;
+  UnityEngine_Color_o UVar12;
+  UnityEngine_Color_o UVar13;
   
-  if (Il2CppMethodInitialized_18434750f == '\0') {
+  if (Il2CppMethodInitialized_07547fc8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_UI_ColorBlock);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Button);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RawImage);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434750f = '\x01';
+    Il2CppMethodInitialized_07547fc8 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._modeButton;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar6 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar6) {
+  bVar9 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar9) {
     return;
   }
   pUVar2 = (__this->fields)._modeButton;
   if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
     __this_00 = UnityEngine_GameObject__GetComponent_object_
-                          (pUVar2,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button);
-    fVar8 = 1.0;
-    if ((__this->fields)._treeViewEnabled == false) {
-      fVar8 = 0.75;
-    }
+                          (pUVar2,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button)
+    ;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar6 = UnityEngine_Object__op_Inequality
+    method_00 = (MethodInfo *)0x0;
+    bVar9 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar6) {
-      if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b82c3;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      local_108._0_4_ = (pUVar5->fields).m_HighlightedColor.fields.r;
-      local_108._4_4_ = (pUVar5->fields).m_HighlightedColor.fields.g;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      uStack_100._0_4_ = (pUVar5->fields).m_HighlightedColor.fields.b;
-      uStack_100._4_4_ = (pUVar5->fields).m_HighlightedColor.fields.a;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      local_f8._0_4_ = (pUVar5->fields).m_PressedColor.fields.r;
-      local_f8._4_4_ = (pUVar5->fields).m_PressedColor.fields.g;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      uStack_f0._0_4_ = (pUVar5->fields).m_PressedColor.fields.b;
-      uStack_f0._4_4_ = (pUVar5->fields).m_PressedColor.fields.a;
-      local_128[0].fields.a = 1.0;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      uVar3._0_4_ = (pUVar5->fields).m_DisabledColor.fields.r;
-      uVar3._4_4_ = (pUVar5->fields).m_DisabledColor.fields.g;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      uVar4._0_4_ = (pUVar5->fields).m_DisabledColor.fields.b;
-      uVar4._4_4_ = (pUVar5->fields).m_DisabledColor.fields.a;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      local_e8._0_4_ = (pUVar5->fields).m_SelectedColor.fields.r;
-      local_e8._4_4_ = (pUVar5->fields).m_SelectedColor.fields.g;
-      pUVar5 = &(__this_00->fields).m_Colors;
-      uStack_e0._0_4_ = (pUVar5->fields).m_SelectedColor.fields.b;
-      uStack_e0._4_4_ = (pUVar5->fields).m_SelectedColor.fields.a;
-      uVar1._0_4_ = (__this_00->fields).m_Colors.fields.m_ColorMultiplier;
-      uVar1._4_4_ = (__this_00->fields).m_Colors.fields.m_FadeDuration;
-      local_128[0].fields.r = fVar8;
-      local_128[0].fields.g = fVar8;
-      local_128[0].fields.b = fVar8;
+    if (bVar9) {
+      if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_05d76563;
+      uVar1 = (__this_00->fields).m_Colors.fields.m_ColorMultiplier;
+      uVar3 = (__this_00->fields).m_Colors.fields.m_FadeDuration;
+      value.fields.m_FadeDuration = (float)uVar3;
+      value.fields.m_ColorMultiplier = (float)uVar1;
+      pUVar8 = &(__this_00->fields).m_Colors;
+      uVar4 = (pUVar8->fields).m_DisabledColor.fields.r;
+      uVar5 = (pUVar8->fields).m_DisabledColor.fields.g;
+      value.fields.m_DisabledColor.fields.g = (float)uVar5;
+      value.fields.m_DisabledColor.fields.r = (float)uVar4;
+      pUVar8 = &(__this_00->fields).m_Colors;
+      uVar6 = (pUVar8->fields).m_DisabledColor.fields.b;
+      uVar7 = (pUVar8->fields).m_DisabledColor.fields.a;
+      value.fields.m_DisabledColor.fields.a = (float)uVar7;
+      value.fields.m_DisabledColor.fields.b = (float)uVar6;
       if ((TypeInfo_UnityEngine_UI_ColorBlock->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_UI_ColorBlock);
       }
-      local_b8[0].fields.m_NormalColor.fields.g = local_128[0].fields.g;
-      local_b8[0].fields.m_NormalColor.fields.r = local_128[0].fields.r;
-      local_b8[0].fields.m_NormalColor.fields.a = local_128[0].fields.a;
-      local_b8[0].fields.m_NormalColor.fields.b = local_128[0].fields.b;
-      uStack_100 = CONCAT44(0x3f800000,(undefined4)uStack_100);
-      uStack_f0 = CONCAT44(0x3f800000,(undefined4)uStack_f0);
-      local_b8[0].fields.m_HighlightedColor.fields.a = 1.0;
-      uStack_e0 = CONCAT44(0x3f800000,(undefined4)uStack_e0);
-      local_b8[0].fields.m_PressedColor.fields.a = 1.0;
-      local_b8[0].fields.m_SelectedColor.fields.a = 1.0;
-      local_b8[0].fields.m_HighlightedColor.fields.r = fVar8;
-      local_b8[0].fields.m_HighlightedColor.fields.g = fVar8;
-      local_b8[0].fields.m_HighlightedColor.fields.b = fVar8;
-      local_b8[0].fields.m_PressedColor.fields.r = fVar8;
-      local_b8[0].fields.m_PressedColor.fields.g = fVar8;
-      local_b8[0].fields.m_PressedColor.fields.b = fVar8;
-      local_b8[0].fields.m_SelectedColor.fields.r = fVar8;
-      local_b8[0].fields.m_SelectedColor.fields.g = fVar8;
-      local_b8[0].fields.m_SelectedColor.fields.b = fVar8;
-      local_b8[0].fields.m_DisabledColor.fields._0_8_ = uVar3;
-      local_b8[0].fields.m_DisabledColor.fields._8_8_ = uVar4;
-      local_b8[0].fields._80_8_ = uVar1;
-      UnityEngine_UI_Selectable__set_colors
-                ((UnityEngine_UI_Selectable_o *)__this_00,local_b8,(MethodInfo *)0x0);
+      method_00 = (MethodInfo *)0x0;
+      value.fields.m_NormalColor.fields.b = 1.0;
+      value.fields.m_NormalColor.fields.a = 1.0;
+      value.fields.m_NormalColor.fields.r = 1.0;
+      value.fields.m_NormalColor.fields.g = 1.0;
+      value.fields.m_HighlightedColor.fields.r = 1.0;
+      value.fields.m_HighlightedColor.fields.g = 1.0;
+      value.fields.m_HighlightedColor.fields.b = 1.0;
+      value.fields.m_HighlightedColor.fields.a = 1.0;
+      value.fields.m_PressedColor.fields.r = 1.0;
+      value.fields.m_PressedColor.fields.g = 1.0;
+      value.fields.m_PressedColor.fields.b = 1.0;
+      value.fields.m_PressedColor.fields.a = 1.0;
+      value.fields.m_SelectedColor.fields.r = 1.0;
+      value.fields.m_SelectedColor.fields.g = 1.0;
+      value.fields.m_SelectedColor.fields.b = 1.0;
+      value.fields.m_SelectedColor.fields.a = 1.0;
+      UnityEngine_UI_Selectable__set_colors((UnityEngine_UI_Selectable_o *)__this_00,value,(MethodInfo *)0x0);
+    }
+    UVar12 = UI_MapEditorHierarchyPanel__IconColor(__this,method_00);
+    UVar13.fields.b = UVar12.fields.b;
+    fVar11 = UVar12.fields.a;
+    if ((__this->fields)._treeViewEnabled == false) {
+      fVar11 = fVar11 * 0.6;
     }
     pUVar2 = (__this->fields)._modeButton;
-    if ((pUVar2 != (UnityEngine_GameObject_o *)0x0) &&
-       (pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                           (pUVar2,(MethodInfo_6F5650 *)
-                                   MethodInfo_UnityEngine_GameObject_GetComponent_RawImage),
-       pUVar7 != (UnityEngine_UI_RawImage_o *)0x0)) {
-      local_128[0].fields.a = 1.0;
-      local_128[0].fields.r = fVar8;
-      local_128[0].fields.g = fVar8;
-      local_128[0].fields.b = fVar8;
-      (*(pUVar7->klass->vtable)._23_set_color.methodPtr)
-                (pUVar7,local_128,(pUVar7->klass->vtable)._23_set_color.method);
-      return;
+    if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+      pUVar10 = UnityEngine_GameObject__GetComponent_object_
+                          (pUVar2,(MethodInfo_353B730 *)
+                                  MethodInfo_UnityEngine_GameObject_GetComponent_RawImage);
+      if (pUVar10 != (UnityEngine_UI_RawImage_o *)0x0) {
+        UVar13.fields.a = fVar11;
+        UVar13.fields.r = UVar12.fields.r;
+        UVar13.fields.g = UVar12.fields.g;
+        (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                  (pUVar10,UVar13,(pUVar10->klass->vtable)._23_set_color.method);
+        return;
+      }
     }
   }
-label_1822b82c3:
+label_05d76563:
   ThrowNullReferenceException();
+}
+
+
+// UI.MapEditorHierarchyPanel$$IconColor
+// il2cpp: UnityEngine_Color_o UI_MapEditorHierarchyPanel__IconColor (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
+// 0x5d76820
+
+UnityEngine_Color_o
+UI_MapEditorHierarchyPanel__IconColor(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
+
+{
+  System_String_o *panel;
+  UnityEngine_Color_Fields UVar1;
+  
+  if (Il2CppMethodInitialized_07547fc9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"TextColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
+    il2cpp_codegen_initialize_runtime_metadata(&"IconButton");
+    Il2CppMethodInitialized_07547fc9 = '\x01';
+  }
+  panel = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                    (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  UVar1 = (UnityEngine_Color_Fields)
+          UI_UIManager__GetThemeColor
+                    (panel,"IconButton","TextColor","DefaultPanel",(MethodInfo *)0x0
+                    );
+  return (UnityEngine_Color_o)UVar1;
 }
 
 
 // UI.MapEditorHierarchyPanel$$BuildRows
 // il2cpp: void UI_MapEditorHierarchyPanel__BuildRows (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822aecd0
+// 0x5d74870
 // asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822aee0d: nop dword ptr [rax]
-// asm:   0x1822aeea1: jmp 0x1822aee10
+// asm:   0x5d74999: jmp 0x5d74a3b
+// asm:   0x5d749c9: nop dword ptr [rax]
 
 void UI_MapEditorHierarchyPanel__BuildRows(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar2;
-  System_Collections_Generic_Dictionary_int__int__o *pSVar3;
-  Settings_StringSetting_o *pSVar4;
-  System_String_o **ppSVar5;
-  System_String_o *pSVar6;
-  Il2CppObject *pIVar7;
-  int index;
+  System_Collections_Generic_Dictionary_int__int__o *pSVar2;
+  Settings_StringSetting_o *pSVar3;
+  System_String_o *pSVar4;
+  UI_MapEditorHierarchyPanel_RowData_o UVar5;
+  MethodInfo *method_00;
+  int32_t index;
+  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar6;
   
-  if (Il2CppMethodInitialized_184347510 == '\0') {
+  if (Il2CppMethodInitialized_07547fca == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1722,73 +1815,69 @@ void UI_MapEditorHierarchyPanel__BuildRows(UI_MapEditorHierarchyPanel_o *__this,
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    Il2CppMethodInitialized_184347510 = '\x01';
+    Il2CppMethodInitialized_07547fca = '\x01';
   }
-  pSVar2 = (__this->fields)._rows;
-  if (pSVar2 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-    piVar1 = &(pSVar2->fields)._version;
+  pSVar6 = (__this->fields)._rows;
+  if (pSVar6 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
+    piVar1 = &(pSVar6->fields)._version;
     *piVar1 = *piVar1 + 1;
-    (pSVar2->fields)._size = 0;
-    pSVar3 = (__this->fields)._idToIndex;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                 (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-      pSVar3 = (__this->fields)._indexToId;
-      if (pSVar3 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                   (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-        pSVar4 = (__this->fields)._searchSetting;
-        if (pSVar4 != (Settings_StringSetting_o *)0x0) {
-          ppSVar5 = &(pSVar4->fields)._value;
-          if (*ppSVar5 == (System_String_o *)0x0) {
-            ppSVar5 = *(System_String_o ***)(g_data_184354e50 + 0xb8);
+    (pSVar6->fields)._size = 0;
+    pSVar2 = (__this->fields)._idToIndex;
+    if (pSVar2 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+      System_Collections_Generic_Dictionary_int__int___Clear
+                (pSVar2,(MethodInfo_4A040E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
+      pSVar2 = (__this->fields)._indexToId;
+      if (pSVar2 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+        System_Collections_Generic_Dictionary_int__int___Clear
+                  (pSVar2,(MethodInfo_4A040E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear
+                  );
+        pSVar3 = (__this->fields)._searchSetting;
+        if ((pSVar3 != (Settings_StringSetting_o *)0x0) &&
+           (((pSVar4 = (pSVar3->fields)._value, pSVar4 != (System_String_o *)0x0 ||
+             (pSVar4 = (System_String_o *)**(long **)(g_data_07556758 + 0xb8), pSVar4 != (System_String_o *)0x0))
+            && (pSVar4 = System_String__Trim(pSVar4,(MethodInfo *)0x0), pSVar4 != (System_String_o *)0x0)))) {
+          pSVar4 = System_String__ToLower(pSVar4,(MethodInfo *)0x0);
+          if ((__this->fields)._treeViewEnabled == false) {
+            UI_MapEditorHierarchyPanel__BuildFlatRows(__this,pSVar4,method_00);
+            pSVar6 = (__this->fields)._rows;
           }
-          if ((*ppSVar5 != (System_String_o *)0x0) &&
-             (pSVar6 = System_String__Trim(*ppSVar5,(MethodInfo *)0x0), pSVar6 != (System_String_o *)0x0)) {
-            pSVar6 = System_String__ToLower(pSVar6,(MethodInfo *)0x0);
-            if ((__this->fields)._treeViewEnabled == false) {
-              UI_MapEditorHierarchyPanel__BuildFlatRows(__this,pSVar6,(MethodInfo *)0x0);
-            }
-            else {
-              UI_MapEditorHierarchyPanel__BuildTreeRows(__this,pSVar6,(MethodInfo *)0x0);
-            }
+          else {
+            UI_MapEditorHierarchyPanel__BuildTreeRows(__this,pSVar4,method_00);
+            pSVar6 = (__this->fields)._rows;
+          }
+          if (pSVar6 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
             index = 0;
-            pSVar2 = (__this->fields)._rows;
-            while (pSVar2 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-              if ((pSVar2->fields)._size <= index) {
+            do {
+              if ((pSVar6->fields)._size <= index) {
                 return;
               }
-              pSVar2 = (__this->fields)._rows;
-              if (pSVar2 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) break;
-              pSVar3 = (__this->fields)._idToIndex;
-              pIVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                 ((System_Collections_Generic_List_object__o *)pSVar2,index,
-                                  (MethodInfo_92B830 *)
-                                  MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
-                                 );
-              if (pSVar3 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) break;
+              pSVar2 = (__this->fields)._idToIndex;
+              UVar5 = System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___get_Item
+                                (pSVar6,index,
+                                 (MethodInfo_3AAA990 *)
+                                 MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
+                                );
+              if (pSVar2 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) break;
               System_Collections_Generic_Dictionary_int__int___set_Item
-                        (pSVar3,(int32_t)pIVar7,index,
-                         (MethodInfo_14159F0 *)
+                        (pSVar2,UVar5.fields.Id,index,
+                         (MethodInfo_4A03F00 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_int_set_Item);
-              pSVar2 = (__this->fields)._rows;
-              if (pSVar2 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) break;
-              pSVar3 = (__this->fields)._indexToId;
-              pIVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                 ((System_Collections_Generic_List_object__o *)pSVar2,index,
-                                  (MethodInfo_92B830 *)
-                                  MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
-                                 );
-              if (pSVar3 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) break;
+              pSVar6 = (__this->fields)._rows;
+              if (pSVar6 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) break;
+              pSVar2 = (__this->fields)._indexToId;
+              UVar5 = System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___get_Item
+                                (pSVar6,index,
+                                 (MethodInfo_3AAA990 *)
+                                 MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
+                                );
+              if (pSVar2 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) break;
               System_Collections_Generic_Dictionary_int__int___set_Item
-                        (pSVar3,index,(int32_t)pIVar7,
-                         (MethodInfo_14159F0 *)
+                        (pSVar2,index,UVar5.fields.Id,
+                         (MethodInfo_4A03F00 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_int_set_Item);
               index = index + 1;
-              pSVar2 = (__this->fields)._rows;
-            }
+              pSVar6 = (__this->fields)._rows;
+            } while (pSVar6 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0);
           }
         }
       }
@@ -1800,45 +1889,69 @@ void UI_MapEditorHierarchyPanel__BuildRows(UI_MapEditorHierarchyPanel_o *__this,
 
 // UI.MapEditorHierarchyPanel$$BuildFlatRows
 // il2cpp: void UI_MapEditorHierarchyPanel__BuildFlatRows (UI_MapEditorHierarchyPanel_o* __this, System_String_o* search, const MethodInfo* method);
-// 0x1822aea70
-// eh: try 0x1822aeb70..0x1822aecba -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822aeb6f: nop 
-// asm:   0x1822aec80: mov rdx, qword ptr [rip + 0x1dd9661]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822aec87: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822aec8c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822aec91: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822aec96: test rcx, rcx
-// asm:   0x1822aec99: jne 0x1822aecba
-// asm:   0x1822aecba: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d768c0
+// eh: try 0x5d76974..0x5d76b37 -> pad 0x5d76b49 (+9 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d76b61..0x5d76b66 -> pad 0x5d76b8b cleanup
+// eh: try 0x5d76b8e..0x5d76b98 -> pad 0x5d76ba0 catch (...) [compiler noexcept guard]
+// asm: 32 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d76b37: jmp 0x5d76b49
+// asm:   0x5d76b39: jmp 0x5d76b49
+// asm:   0x5d76b3b: jmp 0x5d76b49
+// asm:   0x5d76b3d: jmp 0x5d76b49
+// asm:   0x5d76b3f: jmp 0x5d76b49
+// asm:   0x5d76b41: jmp 0x5d76b49
+// asm:   0x5d76b43: jmp 0x5d76b49
+// asm:   0x5d76b45: jmp 0x5d76b49
+// asm:   0x5d76b47: jmp 0x5d76b49
+// asm:   0x5d76b49: mov rbx, rax
+// asm:   0x5d76b4c: cmp edx, 1
+// asm:   0x5d76b4f: jne 0x5d76b8e
+// asm:   0x5d76b51: mov rdi, rbx
+// asm:   0x5d76b54: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d76b59: mov rbx, qword ptr [rax]
+// asm:   0x5d76b5c: mov qword ptr [rsp + 8], rbx
+// asm:   0x5d76b61: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d76b66: lea rax, [rip + 0x151768b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d76b6d: mov rsi, qword ptr [rax]
+// asm:   0x5d76b70: lea rdi, [rsp + 0x20]
+// asm:   0x5d76b75: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d76b7a: test rbx, rbx
+// asm:   0x5d76b7d: je 0x5d76a78
+// asm:   0x5d76b83: mov rdi, rbx
+// asm:   0x5d76b86: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d76b8b: mov rbx, rax
+// asm:   0x5d76b8e: lea rdi, [rsp + 8]
+// asm:   0x5d76b93: call 0x2fdd210  ; il2cpp_runtime_helper_02fdd210()
+// asm:   0x5d76b98: mov rdi, rbx
+// asm:   0x5d76b9b: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d76ba0: mov rdi, rax
+// asm:   0x5d76ba3: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__BuildFlatRows
                (UI_MapEditorHierarchyPanel_o *__this,System_String_o *search,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_00;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
-  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar2;
-  int32_t key;
-  bool bVar3;
+  int32_t *piVar1;
+  uint32_t uVar2;
+  uint uVar3;
+  System_Collections_Generic_List_int__o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *__this_01;
+  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *__this_02;
+  UI_MapEditorHierarchyPanel_RowData_array *pUVar4;
+  undefined4 key;
+  bool bVar5;
   Map_MapObject_o *obj;
-  UnityEngine_TerrainUtils_TerrainTileCoord_Fields local_res20;
+  MethodInfo *in_RCX;
+  MethodInfo *pMVar6;
+  UI_MapEditorHierarchyPanel_RowData_Fields item;
+  UI_MapEditorHierarchyPanel_o *__this_03;
   undefined1 local_70 [16];
   Il2CppObject *local_60;
-  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined1 local_58 [32];
+  UI_MapEditorHierarchyPanel_o *local_38;
   
-  if (Il2CppMethodInitialized_184347511 == '\0') {
+  local_38 = __this;
+  if (Il2CppMethodInitialized_07547fcb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1853,79 +1966,91 @@ void UI_MapEditorHierarchyPanel__BuildFlatRows
               (&MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347511 = '\x01';
+    Il2CppMethodInitialized_07547fcb = '\x01';
+    uVar2 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
   }
-  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_58.fields._index = 0;
-  local_58.fields._version = 0;
-  local_58.fields._current = (Il2CppObject *)0x0;
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar2 = (TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
   }
-  __this_00 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-              TypeInfo_Map_MapLoader->static_fields->ObjectOrder;
-  if (__this_00 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_70,__this_00,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    local_58.fields._list = (System_Collections_Generic_List_T__o *)local_70._0_8_;
-    local_58.fields._index = local_70._8_4_;
-    local_58.fields._version = local_70._12_4_;
-    local_58.fields._current = local_60;
-    local_70._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_70._8_8_ = &local_58;
-    while( true ) {
-      bVar3 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                        (&local_58,
-                         (MethodInfo_1530180 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-      if (!bVar3) {
-        System_Collections_Generic_List_Enumerator_int___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_58,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-        return;
-      }
-      key = (int32_t)local_58.fields._current;
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) break;
-      bVar3 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (pSVar1,key,
-                         (MethodInfo_1407110 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (bVar3) {
+  else {
+    __this_00 = *(System_Collections_Generic_List_int__o **)
+                 ((long)((Il2CppClass *)TypeInfo_Map_MapLoader)->static_fields + 0x10);
+  }
+  if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_int___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)local_70,__this_00,
+             (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+  local_58._16_8_ = local_60;
+  local_58._0_8_ = local_70._0_8_;
+  local_58._8_8_ = local_70._8_8_;
+  local_70._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  local_70._8_8_ = (System_Collections_Generic_List_Enumerator_int__o *)local_58;
+  while( true ) {
+    do {
+      do {
+        bVar5 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                          ((System_Collections_Generic_List_Enumerator_int__o *)local_58,
+                           (MethodInfo_4C3B4A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+        if (!bVar5) {
+          System_Collections_Generic_List_Enumerator_int___Dispose
+                    ((System_Collections_Generic_List_Enumerator_int__o *)local_58,
+                     (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+          return;
+        }
+        key = local_58._16_4_;
+        item = (UI_MapEditorHierarchyPanel_RowData_Fields)(local_58._16_8_ & 0xffffffff);
         if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
         }
-        pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-        if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+        __this_01 = (System_Collections_Generic_Dictionary_int__object__o *)
+                    TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+        if (__this_01 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
           ThrowNullReferenceException();
         }
-        obj = (Map_MapObject_o *)
-              System_Collections_Generic_Dictionary_int__ulong___get_Item
-                        (pSVar1,key,
-                         (MethodInfo_14156F0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-        bVar3 = UI_MapEditorHierarchyPanel__MatchesSearch(__this,obj,search,(MethodInfo *)0x0);
-        if (bVar3) {
-          pSVar2 = (__this->fields)._rows;
-          local_res20.tileX = 0;
-          local_res20.tileZ = 0;
-          UnityEngine_TerrainUtils_TerrainTileCoord___ctor
-                    ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_res20,key,0,(MethodInfo *)0x0);
-          if (pSVar2 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          il2cpp_runtime_helper_180030d60(pSVar2,local_res20,
-                        MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_Add);
-        }
+        bVar5 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                          (__this_01,key,
+                           (MethodInfo_4A0F950 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+      } while (!bVar5);
+      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
+      __this_03 = (UI_MapEditorHierarchyPanel_o *)TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+      if (__this_03 == (UI_MapEditorHierarchyPanel_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      obj = System_Collections_Generic_Dictionary_int__object___get_Item
+                      ((System_Collections_Generic_Dictionary_int__object__o *)__this_03,key,
+                       (MethodInfo_4A0F690 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+      bVar5 = UI_MapEditorHierarchyPanel__MatchesSearch(__this_03,obj,search,in_RCX);
+      pMVar6 = MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_Add;
+    } while (!bVar5);
+    __this_02 = (local_38->fields)._rows;
+    if (__this_02 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) break;
+    piVar1 = &(__this_02->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (__this_02->fields)._items;
+    if (pUVar4 == (UI_MapEditorHierarchyPanel_RowData_array *)0x0) break;
+    uVar3 = (__this_02->fields)._size;
+    if (uVar3 < (uint)pUVar4->max_length) {
+      in_RCX = (MethodInfo *)(ulong)(uVar3 + 1);
+      (__this_02->fields)._size = uVar3 + 1;
+      pUVar4->m_Items[(int)uVar3].fields = item;
     }
-    ThrowNullReferenceException();
+    else {
+      System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___AddWithResize
+                (__this_02,(UI_MapEditorHierarchyPanel_RowData_o)item,
+                 (MethodInfo_3AAAC90 *)pMVar6->klass->rgctx_data[0xe].method);
+      in_RCX = pMVar6;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -1933,72 +2058,89 @@ void UI_MapEditorHierarchyPanel__BuildFlatRows
 
 // UI.MapEditorHierarchyPanel$$BuildTreeRows
 // il2cpp: void UI_MapEditorHierarchyPanel__BuildTreeRows (UI_MapEditorHierarchyPanel_o* __this, System_String_o* search, const MethodInfo* method);
-// 0x1822afa30
-// eh: try 0x1822afc00..0x1822afe4f -> pad 0x183317e10 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 39 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822afd0d: mov rdx, qword ptr [rip + 0x1e00134]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
-// asm:   0x1822afd14: mov rcx, qword ptr [rsp + 0x48]
-// asm:   0x1822afd19: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822afd1e: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x1822afd23: test rcx, rcx
-// asm:   0x1822afd26: jne 0x1822afe4f
-// asm:   0x1822afd2c: xor r15d, r15d
-// asm:   0x1822afd2f: mov r13, qword ptr [rsp + 0xc0]
-// asm:   0x1822afd37: mov rsi, qword ptr [rsp + 0xc8]
-// asm:   0x1822afdf7: mov rdx, qword ptr [rip + 0x1dd84ea]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822afdfe: mov rcx, qword ptr [rsp + 0x48]
-// asm:   0x1822afe03: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822afe08: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x1822afe0d: test rcx, rcx
-// asm:   0x1822afe10: jne 0x1822afe55
-// asm:   0x1822afe4f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1822afe55: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315b20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315b25: push rbp
-// asm:   0x183315b26: sub rsp, 0x30
-// asm:   0x183315b2a: mov rbp, rdx
-// asm:   0x183315b2d: mov rax, qword ptr [rbp + 0x38]
-// asm:   0x183315b31: mov rcx, qword ptr [rax]
-// asm:   0x183315b34: mov qword ptr [rbp + 0x40], rcx
-// asm:   0x183315b38: movabs rax, 0
-// asm:   0x183315b42: add rsp, 0x30
-// asm:   0x183315b46: pop rbp
-// asm:   0x183315b47: ret 
-// asm:   0x183317e10: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317e15: push rbp
-// asm:   0x183317e16: sub rsp, 0x30
-// asm:   0x183317e1a: mov rbp, rdx
-// asm:   0x183317e1d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183317e21: mov rcx, qword ptr [rax]
-// asm:   0x183317e24: mov qword ptr [rbp + 0x40], rcx
-// asm:   0x183317e28: movabs rax, 0
-// asm:   0x183317e32: add rsp, 0x30
-// asm:   0x183317e36: pop rbp
-// asm:   0x183317e37: ret 
+// 0x5d76bb0
+// eh: try 0x5d76da3..0x5d76efe -> pad 0x5d76f0c (+9 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d76f24..0x5d76f29 -> pad 0x5d76f48 cleanup
+// eh: try 0x5d76f4b..0x5d76f55 -> pad 0x5d76fb0 catch (...) [compiler noexcept guard]
+// eh: try 0x5d76f71..0x5d76f76 -> pad 0x5d76f9b cleanup
+// eh: try 0x5d76f9e..0x5d76fa8 -> pad 0x5d76fb0 catch (...) [compiler noexcept guard]
+// asm: 51 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d76e99: nop dword ptr [rax]
+// asm:   0x5d76efe: jmp 0x5d76f0c
+// asm:   0x5d76f00: jmp 0x5d76f0c
+// asm:   0x5d76f02: jmp 0x5d76f0c
+// asm:   0x5d76f04: jmp 0x5d76f0c
+// asm:   0x5d76f06: jmp 0x5d76f0c
+// asm:   0x5d76f08: jmp 0x5d76f0c
+// asm:   0x5d76f0a: jmp 0x5d76f0c
+// asm:   0x5d76f0c: mov rbp, rax
+// asm:   0x5d76f0f: cmp edx, 1
+// asm:   0x5d76f12: jne 0x5d76f4b
+// asm:   0x5d76f14: mov rdi, rbp
+// asm:   0x5d76f17: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d76f1c: mov rbx, qword ptr [rax]
+// asm:   0x5d76f1f: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x5d76f24: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d76f29: lea rax, [rip + 0x1518a08]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
+// asm:   0x5d76f30: mov rsi, qword ptr [rax]
+// asm:   0x5d76f33: lea rdi, [rsp + 0x10]
+// asm:   0x5d76f38: call 0x4da2970  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___Dispose()
+// asm:   0x5d76f3d: test rbx, rbx
+// asm:   0x5d76f40: je 0x5d76e45
+// asm:   0x5d76f46: jmp 0x5d76f93
+// asm:   0x5d76f48: mov rbp, rax
+// asm:   0x5d76f4b: lea rdi, [rsp + 0x28]
+// asm:   0x5d76f50: call 0x2fdd240  ; il2cpp_runtime_helper_02fdd240()
+// asm:   0x5d76f55: jmp 0x5d76fa8
+// asm:   0x5d76f57: jmp 0x5d76f59
+// asm:   0x5d76f59: mov rbp, rax
+// asm:   0x5d76f5c: cmp edx, 1
+// asm:   0x5d76f5f: jne 0x5d76f9e
+// asm:   0x5d76f61: mov rdi, rbp
+// asm:   0x5d76f64: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d76f69: mov rbx, qword ptr [rax]
+// asm:   0x5d76f6c: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x5d76f71: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d76f76: lea rax, [rip + 0x151727b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d76f7d: mov rsi, qword ptr [rax]
+// asm:   0x5d76f80: lea rdi, [rsp + 0x40]
+// asm:   0x5d76f85: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d76f8a: test rbx, rbx
+// asm:   0x5d76f8d: je 0x5d76ed9
+// asm:   0x5d76f93: mov rdi, rbx
+// asm:   0x5d76f96: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d76f9b: mov rbp, rax
+// asm:   0x5d76f9e: lea rdi, [rsp + 0x28]
+// asm:   0x5d76fa3: call 0x2fdd270  ; il2cpp_runtime_helper_02fdd270()
+// asm:   0x5d76fa8: mov rdi, rbp
+// asm:   0x5d76fab: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d76fb0: mov rdi, rax
+// asm:   0x5d76fb3: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__BuildTreeRows
                (UI_MapEditorHierarchyPanel_o *__this,System_String_o *search,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__MapObject__o *__this_00;
-  Il2CppClass *pIVar1;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_01;
-  Il2CppObject *pIVar2;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
+  Map_MapScriptBaseObject_o *pMVar1;
+  System_Collections_Generic_List_int__o *__this_01;
+  UnityEngine_Transform_Fields UVar2;
+  bool forceExpand;
   bool bVar3;
-  bool bVar4;
-  System_Collections_Generic_HashSet_int__o *pSVar5;
+  System_Collections_Generic_HashSet_int__o *pSVar4;
   System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_02;
-  System_String_o *pSVar6;
-  undefined1 local_78 [16];
-  Il2CppObject *local_68;
-  undefined1 local_60 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_58;
-  Il2CppObject *local_50;
-  undefined1 local_48 [8];
-  uint64_t uStack_40;
-  Il2CppObject *local_38;
+  MethodInfo **method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  UI_MapEditorHierarchyPanel_o *pUVar5;
+  MethodInfo *in_R9;
+  UnityEngine_Transform_o local_78;
+  undefined1 local_60 [16];
+  Map_MapObject_o *local_50;
+  UnityEngine_Transform_o local_48;
   
-  if (Il2CppMethodInitialized_184347512 == '\0') {
+  method_02 = (MethodInfo *)search;
+  if (Il2CppMethodInitialized_07547fcc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Values);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2026,236 +2168,268 @@ void UI_MapEditorHierarchyPanel__BuildTreeRows
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator);
-    Il2CppMethodInitialized_184347512 = '\x01';
+    Il2CppMethodInitialized_07547fcc = '\x01';
   }
-  local_60 = (undefined1  [8])0x0;
-  pUStack_58 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_50 = (Il2CppObject *)0x0;
-  local_48 = (undefined1  [8])0x0;
-  uStack_40 = 0;
-  local_38 = (Il2CppObject *)0x0;
-  UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,(MethodInfo *)0x0);
-  bVar3 = System_String__op_Inequality
-                    (search,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-  if (bVar3) {
-    pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+  local_78.klass = (UnityEngine_Transform_c *)0x0;
+  local_78.monitor = (UnityEngine_Transform_o *)0x0;
+  local_78.fields.m_CachedPtr = 0;
+  local_48.klass = (UnityEngine_Transform_c *)0x0;
+  local_48.monitor = (System_Collections_Generic_List_BasePopup__o *)0x0;
+  local_48.fields.m_CachedPtr = 0;
+  UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,method_02);
+  pSVar4 = (System_Collections_Generic_HashSet_int__o *)0x0;
+  forceExpand = System_String__op_Inequality
+                          (search,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0)
+  ;
+  if (forceExpand) {
+    pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
     System_Collections_Generic_HashSet_int____ctor
-              (pSVar5,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+              (pSVar4,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
     }
-    __this_00 = TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if (__this_00 == (System_Collections_Generic_Dictionary_int__MapObject__o *)0x0) goto label_1822afe5b;
-    __this_02 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                           (MethodInfo_13C65A0 *)
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+    if (__this_00 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d76ef4;
+    __this_02 = System_Collections_Generic_Dictionary_int__object___get_Values
+                          (__this_00,
+                           (MethodInfo_4A0F4E0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Values);
     if (__this_02 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)
-    goto label_1822afe5b;
-    System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_78,
+    goto label_05d76ef4;
+    method_00 = &MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator;
+    System_Collections_Generic_Dictionary_ValueCollection_int__object___GetEnumerator
+              ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_60,
                __this_02,
-               (MethodInfo_F1E4D0 *)
+               (MethodInfo_43E8AC0 *)
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator);
-    local_60 = (undefined1  [8])local_78._0_8_;
-    pUStack_58 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78._8_8_;
-    local_50 = local_68;
-    local_78._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-    local_78._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60;
-label_1822afc00:
-    bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                      ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                       local_60,(MethodInfo_155CFB0 *)
-                                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_MoveNext
-                      );
-    pIVar2 = local_50;
-    if (bVar3) {
-      bVar3 = System_String__op_Equality
-                        (search,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-      if (bVar3) goto label_1822afcc6;
-      if (pIVar2 == (Il2CppObject *)0x0) {
+    local_78.fields.m_CachedPtr = (intptr_t)local_50;
+    local_78.klass = (UnityEngine_Transform_c *)local_60._0_8_;
+    local_78.monitor = (void *)local_60._8_8_;
+    local_60._0_8_ = (UI_MapEditorHierarchyPanel_c *)0x0;
+    local_60._8_8_ = &local_78;
+    if (pSVar4 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+      do {
+        pUVar5 = (UI_MapEditorHierarchyPanel_o *)&local_78;
+        bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___MoveNext
+                          ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *
+                           )&local_78,
+                           (MethodInfo_4CA2980 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_MoveNext
+                          );
+        UVar2.m_CachedPtr = local_78.fields.m_CachedPtr;
+        if (!bVar3) goto label_05d76e31;
+        bVar3 = UI_MapEditorHierarchyPanel__MatchesSearch
+                          (pUVar5,(Map_MapObject_o *)local_78.fields.m_CachedPtr,search,
+                           (MethodInfo *)method_00);
+      } while (!bVar3);
+      if ((Map_MapObject_o *)UVar2.m_CachedPtr != (Map_MapObject_o *)0x0) {
+        if (*(Map_MapScriptBaseObject_o **)(UVar2.m_CachedPtr + 0x20) != (Map_MapScriptBaseObject_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+label_05d76eef:
         ThrowNullReferenceException();
       }
-      pIVar1 = pIVar2[2].klass;
-      if (pIVar1 == (Il2CppClass *)0x0) {
-        ThrowNullReferenceException();
-      }
-      if ((pIVar1->_1).this_arg.data == (void *)0x0) {
-        pSVar6 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-      }
-      else {
-        pSVar6 = System_String__ToLower((pIVar1->_1).this_arg.data,(MethodInfo *)0x0);
-      }
-      if (pSVar6 == (System_String_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      bVar3 = System_String__Contains(pSVar6,search,(MethodInfo *)0x0);
-      if (!bVar3) goto code_r0x0001822afc98;
-      goto label_1822afccf;
+label_05d76e2c:
+      ThrowNullReferenceException();
     }
+    while( true ) {
+      pUVar5 = (UI_MapEditorHierarchyPanel_o *)&local_78;
+      bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___MoveNext
+                        ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                         &local_78,
+                         (MethodInfo_4CA2980 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_MoveNext
+                        );
+      UVar2.m_CachedPtr = local_78.fields.m_CachedPtr;
+      if (!bVar3) break;
+      bVar3 = UI_MapEditorHierarchyPanel__MatchesSearch
+                        (pUVar5,(Map_MapObject_o *)local_78.fields.m_CachedPtr,search,(MethodInfo *)method_00)
+      ;
+      if (bVar3) {
+        if ((Map_MapObject_o *)UVar2.m_CachedPtr == (Map_MapObject_o *)0x0) goto label_05d76e2c;
+        pMVar1 = *(Map_MapScriptBaseObject_o **)(UVar2.m_CachedPtr + 0x20);
+        if (pMVar1 == (Map_MapScriptBaseObject_o *)0x0) goto label_05d76eef;
+        System_Collections_Generic_HashSet_int___Add
+                  (pSVar4,(pMVar1->fields).Id,
+                   (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+      }
+    }
+label_05d76e31:
     System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60,
+              ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)&local_78,
+               (MethodInfo_4CA2970 *)
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
               );
-    pSVar5 = UI_MapEditorHierarchyPanel__BuildSearchContext(__this,pSVar5,(MethodInfo *)0x0);
-    bVar3 = true;
+    pSVar4 = UI_MapEditorHierarchyPanel__BuildSearchContext(__this,pSVar4,method_01);
   }
-  else {
-    pSVar5 = (System_Collections_Generic_HashSet_int__o *)0x0;
-    bVar3 = false;
-  }
-  __this_01 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)(__this->fields)._treeRoots;
-  if (__this_01 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_78,__this_01,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    local_48 = (undefined1  [8])local_78._0_8_;
-    uStack_40 = local_78._8_8_;
-    local_38 = local_68;
-    local_78._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-    local_78._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48;
+  __this_01 = (__this->fields)._treeRoots;
+  if (__this_01 != (System_Collections_Generic_List_int__o *)0x0) {
+    System_Collections_Generic_List_int___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)&local_48,__this_01,
+               (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+    local_60._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+    local_60._8_8_ = &local_48;
     while( true ) {
-      bVar4 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
-                         (MethodInfo_1530180 *)
+      bVar3 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                        ((System_Collections_Generic_List_Enumerator_int__o *)&local_48,
+                         (MethodInfo_4C3B4A0 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-      if (!bVar4) break;
+      if (!bVar3) break;
       UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
-                (__this,(int32_t)local_38,0,pSVar5,bVar3,(MethodInfo *)0x0);
+                (__this,(int32_t)local_48.fields.m_CachedPtr,0,pSVar4,forceExpand,in_R9);
     }
     System_Collections_Generic_List_Enumerator_int___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48,
-               MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+              ((System_Collections_Generic_List_Enumerator_int__o *)&local_48,
+               (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
     return;
   }
-label_1822afe5b:
+label_05d76ef4:
   ThrowNullReferenceException();
-code_r0x0001822afc98:
-  if (pIVar2[2].klass == (Il2CppClass *)0x0) {
-    ThrowNullReferenceException();
-  }
-  pSVar6 = System_Int32__ToString((int32_t *)&((pIVar2[2].klass)->_1).byval_arg,(MethodInfo *)0x0);
-  bVar3 = System_String__op_Equality(pSVar6,search,(MethodInfo *)0x0);
-  if (bVar3) {
-label_1822afcc6:
-    if (pIVar2 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-label_1822afccf:
-    if (pIVar2[2].klass == (Il2CppClass *)0x0) {
-      ThrowNullReferenceException();
-    }
-    if (pSVar5 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    System_Collections_Generic_HashSet_int___Add
-              (pSVar5,*(int32_t *)&((pIVar2[2].klass)->_1).byval_arg.data,
-               (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-  }
-  goto label_1822afc00;
 }
 
 
 // UI.MapEditorHierarchyPanel$$BuildTreeGraph
 // il2cpp: void UI_MapEditorHierarchyPanel__BuildTreeGraph (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822af1f0
-// eh: try 0x1822af482..0x1822afa1d -> pad 0x183318130 (+5 call sites) catch Il2CppExceptionWrapper
-// asm: 58 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822af518: mov rdx, qword ptr [rip + 0x1e00689]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_Dispose
-// asm:   0x1822af51f: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822af524: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822af529: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x1822af52e: test rcx, rcx
-// asm:   0x1822af531: jne 0x1822af9ec
-// asm:   0x1822af537: xor r12d, r12d
-// asm:   0x1822af53a: mov rdi, qword ptr [rsp + 0xd0]
-// asm:   0x1822af6e3: mov rdx, qword ptr [rip + 0x1e0075e]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
-// asm:   0x1822af6ea: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822af6ef: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822af6f4: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x1822af6f9: test rcx, rcx
-// asm:   0x1822af6fc: jne 0x1822afa11
-// asm:   0x1822af702: xor r12d, r12d
-// asm:   0x1822af705: mov rdi, qword ptr [rsp + 0xd0]
-// asm:   0x1822af9a8: mov rdx, qword ptr [rip + 0x1dd8939]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822af9af: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822af9b4: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822af9b9: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x1822af9be: test rcx, rcx
-// asm:   0x1822af9c1: jne 0x1822afa1d
-// asm:   0x1822af9ec: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1822afa11: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1822afa1d: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183318130: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183318135: push rbp
-// asm:   0x183318136: sub rsp, 0x20
-// asm:   0x18331813a: mov rbp, rdx
-// asm:   0x18331813d: mov rax, qword ptr [rbp + 0x80]
-// asm:   0x183318144: mov rcx, qword ptr [rax]
-// asm:   0x183318147: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18331814b: movabs rax, 0
-// asm:   0x183318155: add rsp, 0x20
-// asm:   0x183318159: pop rbp
-// asm:   0x18331815a: ret 
-// asm:   0x183320de0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183320de5: push rbp
-// asm:   0x183320de6: sub rsp, 0x20
-// asm:   0x183320dea: mov rbp, rdx
-// asm:   0x183320ded: mov rax, qword ptr [rbp + 0x88]
-// asm:   0x183320df4: mov rcx, qword ptr [rax]
-// asm:   0x183320df7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x183320dfb: movabs rax, 0
-// asm:   0x183320e05: add rsp, 0x20
-// asm:   0x183320e09: pop rbp
-// asm:   0x183320e0a: ret 
-// asm:   0x183324460: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183324465: push rbp
-// asm:   0x183324466: sub rsp, 0x20
-// asm:   0x18332446a: mov rbp, rdx
-// asm:   0x18332446d: mov rax, qword ptr [rbp + 0x90]
-// asm:   0x183324474: mov rcx, qword ptr [rax]
-// asm:   0x183324477: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x18332447b: movabs rax, 0
-// asm:   0x183324485: add rsp, 0x20
-// asm:   0x183324489: pop rbp
-// asm:   0x18332448a: ret 
+// 0x5d72740
+// eh: try 0x5d72a03..0x5d72fe7 -> pad 0x5d73030 (+27 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d73054..0x5d73059 -> pad 0x5d7307b cleanup
+// eh: try 0x5d7307e..0x5d73088 -> pad 0x5d7313b catch (...) [compiler noexcept guard]
+// eh: try 0x5d730aa..0x5d730af -> pad 0x5d730d5 cleanup
+// eh: try 0x5d730d8..0x5d730e2 -> pad 0x5d7313b catch (...) [compiler noexcept guard]
+// eh: try 0x5d730fc..0x5d73101 -> pad 0x5d73126 cleanup
+// eh: try 0x5d73129..0x5d73133 -> pad 0x5d7313b catch (...) [compiler noexcept guard]
+// asm: 93 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d729f9: nop dword ptr [rax]
+// asm:   0x5d72d20: jmp 0x5d72d3a
+// asm:   0x5d72ecc: jmp 0x5d72ee8
+// asm:   0x5d72fe7: jmp 0x5d7302b
+// asm:   0x5d72fe9: jmp 0x5d730e4
+// asm:   0x5d72fee: jmp 0x5d7302b
+// asm:   0x5d72ff0: jmp 0x5d73037
+// asm:   0x5d72ff2: jmp 0x5d7302b
+// asm:   0x5d72ff4: jmp 0x5d730e4
+// asm:   0x5d72ff9: jmp 0x5d7302b
+// asm:   0x5d72ffb: jmp 0x5d7302b
+// asm:   0x5d72ffd: jmp 0x5d73037
+// asm:   0x5d72fff: jmp 0x5d73037
+// asm:   0x5d73001: jmp 0x5d7302b
+// asm:   0x5d73003: jmp 0x5d7308d
+// asm:   0x5d73008: jmp 0x5d730e4
+// asm:   0x5d7300d: jmp 0x5d730e4
+// asm:   0x5d73012: jmp 0x5d730e4
+// asm:   0x5d73017: jmp 0x5d730e4
+// asm:   0x5d7301c: jmp 0x5d73037
+// asm:   0x5d7301e: jmp 0x5d73037
+// asm:   0x5d73020: jmp 0x5d7302b
+// asm:   0x5d73022: jmp 0x5d7308d
+// asm:   0x5d73024: jmp 0x5d7308d
+// asm:   0x5d73026: jmp 0x5d730e4
+// asm:   0x5d7302b: mov r15, rax
+// asm:   0x5d7302e: jmp 0x5d7303f
+// asm:   0x5d73030: jmp 0x5d7308d
+// asm:   0x5d73032: jmp 0x5d730e4
+// asm:   0x5d73037: mov r15, rax
+// asm:   0x5d7303a: mov r12, qword ptr [rsp + 8]
+// asm:   0x5d7303f: cmp edx, 1
+// asm:   0x5d73042: jne 0x5d7307e
+// asm:   0x5d73044: mov rdi, r15
+// asm:   0x5d73047: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7304c: mov rbx, qword ptr [rax]
+// asm:   0x5d7304f: mov qword ptr [rsp + 0x10], rbx
+// asm:   0x5d73054: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d73059: lea rax, [rip + 0x151c8d8]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
+// asm:   0x5d73060: mov rsi, qword ptr [rax]
+// asm:   0x5d73063: lea rdi, [rsp + 0x50]
+// asm:   0x5d73068: call 0x4da2970  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___Dispose()
+// asm:   0x5d7306d: test rbx, rbx
+// asm:   0x5d73070: je 0x5d72ce3
+// asm:   0x5d73076: jmp 0x5d7311e
+// asm:   0x5d7307b: mov r15, rax
+// asm:   0x5d7307e: lea rdi, [rsp + 0x10]
+// asm:   0x5d73083: call 0x2fdd2d0  ; il2cpp_runtime_helper_02fdd2d0()
+// asm:   0x5d73088: jmp 0x5d73133
+// asm:   0x5d7308d: mov r15, rax
+// asm:   0x5d73090: cmp edx, 1
+// asm:   0x5d73093: mov r12, qword ptr [rsp + 8]
+// asm:   0x5d73098: jne 0x5d730d8
+// asm:   0x5d7309a: mov rdi, r15
+// asm:   0x5d7309d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d730a2: mov rbx, qword ptr [rax]
+// asm:   0x5d730a5: mov qword ptr [rsp + 0x10], rbx
+// asm:   0x5d730aa: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d730af: lea rax, [rip + 0x151c86a]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_Dispose
+// asm:   0x5d730b6: mov rsi, qword ptr [rax]
+// asm:   0x5d730b9: lea rdi, [rsp + 0x70]
+// asm:   0x5d730be: call 0x4da27d0  ; System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__object___Dispose()
+// asm:   0x5d730c3: test rbx, rbx
+// asm:   0x5d730c6: lea rbp, [rip + 0x15078c3]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d730cd: je 0x5d72ab3
+// asm:   0x5d730d3: jmp 0x5d7311e
+// asm:   0x5d730d5: mov r15, rax
+// asm:   0x5d730d8: lea rdi, [rsp + 0x10]
+// asm:   0x5d730dd: call 0x2fdd2a0  ; il2cpp_runtime_helper_02fdd2a0()
+// asm:   0x5d730e2: jmp 0x5d73133
+// asm:   0x5d730e4: mov r15, rax
+// asm:   0x5d730e7: cmp edx, 1
+// asm:   0x5d730ea: jne 0x5d73129
+// asm:   0x5d730ec: mov rdi, r15
+// asm:   0x5d730ef: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d730f4: mov rbx, qword ptr [rax]
+// asm:   0x5d730f7: mov qword ptr [rsp + 0x10], rbx
+// asm:   0x5d730fc: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d73101: lea rax, [rip + 0x151b0f0]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d73108: mov rsi, qword ptr [rax]
+// asm:   0x5d7310b: lea rdi, [rsp + 0x30]
+// asm:   0x5d73110: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d73115: test rbx, rbx
+// asm:   0x5d73118: je 0x5d72fa3
+// asm:   0x5d7311e: mov rdi, rbx
+// asm:   0x5d73121: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d73126: mov r15, rax
+// asm:   0x5d73129: lea rdi, [rsp + 0x10]
+// asm:   0x5d7312e: call 0x2fdd300  ; il2cpp_runtime_helper_02fdd300()
+// asm:   0x5d73133: mov rdi, r15
+// asm:   0x5d73136: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7313b: mov rdi, rax
+// asm:   0x5d7313e: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__BuildTreeGraph(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int iVar2;
-  System_Collections_Generic_Dictionary_int__List_int___o *pSVar3;
-  System_Collections_Generic_Dictionary_int__MapObject__o *pSVar4;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar5;
-  System_Collections_Generic_Dictionary_int__object__o *__this_00;
-  Map_MapScriptBaseObject_o *pMVar6;
-  Il2CppObject *pIVar7;
+  int item;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar2;
+  Map_MapScriptBaseObject_o *pMVar3;
+  MethodInfo *pMVar4;
   Map_MapObject_o *obj;
-  bool bVar8;
-  int32_t iVar9;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *pSVar10;
-  System_Collections_Generic_List_int__o *pSVar11;
-  uint64_t uVar12;
-  System_Collections_Generic_IEnumerable_TSource__o *pSVar13;
-  Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *pMVar14;
-  System_Linq_IOrderedEnumerable_TSource__o *pSVar15;
-  System_Collections_Generic_List_TSource__o *pSVar16;
-  System_Collections_Generic_IEnumerable_TKey__o *source;
+  bool bVar5;
+  int32_t iVar6;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *pSVar7;
+  System_Collections_Generic_List_int__o *pSVar8;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
+  System_Collections_Generic_IEnumerable_TSource__o *pSVar9;
+  System_Func_int__int__o *pSVar10;
+  System_Linq_IOrderedEnumerable_TSource__o *pSVar11;
+  System_Collections_Generic_List_TSource__o *pSVar12;
+  Il2CppObject *pIVar13;
+  UI_MapEditorHierarchyPanel___c_StaticFields *pUVar14;
+  System_Int32_array *pSVar15;
+  uint uVar16;
   undefined1 local_a8 [16];
   Map_MapObject_o *local_98;
-  undefined1 local_90 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_88;
-  Map_MapObject_o *local_80;
-  undefined1 local_78 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_70;
-  Map_MapObject_o *local_68;
-  undefined1 local_60 [8];
-  uint64_t uStack_58;
-  Map_MapObject_o *local_50;
+  System_Collections_Generic_List_int__o **local_90;
+  undefined1 local_88 [8];
+  undefined8 uStack_80;
+  Map_MapObject_o *local_78;
+  undefined1 local_68 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_60;
+  Map_MapObject_o *local_58;
+  undefined1 local_48 [8];
+  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *pSStack_40;
+  Map_MapObject_o *local_38;
   
-  if (Il2CppMethodInitialized_184347513 == '\0') {
+  if (Il2CppMethodInitialized_07547fcd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_List_int_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2315,322 +2489,383 @@ void UI_MapEditorHierarchyPanel__BuildTreeGraph(UI_MapEditorHierarchyPanel_o *__
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__84_0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__85_0);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__84_1);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__85_1);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator);
-    Il2CppMethodInitialized_184347513 = '\x01';
+    Il2CppMethodInitialized_07547fcd = '\x01';
   }
-  local_90 = (undefined1  [8])0x0;
-  pUStack_88 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_80 = (Map_MapObject_o *)0x0;
-  local_78 = (undefined1  [8])0x0;
-  pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_68 = (Map_MapObject_o *)0x0;
-  local_60 = (undefined1  [8])0x0;
-  uStack_58 = 0;
-  local_50 = (Map_MapObject_o *)0x0;
-  pSVar3 = (__this->fields)._treeChildren;
-  if (pSVar3 != (System_Collections_Generic_Dictionary_int__List_int___o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_List_int_Clear);
-    pSVar11 = (__this->fields)._treeRoots;
-    if (pSVar11 != (System_Collections_Generic_List_int__o *)0x0) {
-      piVar1 = &(pSVar11->fields)._version;
+  local_48 = (undefined1  [8])0x0;
+  pSStack_40 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_38 = (Map_MapObject_o *)0x0;
+  local_68 = (undefined1  [8])0x0;
+  pSStack_60 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)0x0;
+  local_58 = (Map_MapObject_o *)0x0;
+  local_88 = (undefined1  [8])0x0;
+  uStack_80._0_4_ = 0;
+  uStack_80._4_4_ = 0;
+  local_78 = (Map_MapObject_o *)0x0;
+  pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+  if (pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_int__object___Clear
+              (pSVar2,(MethodInfo_4A0F8F0 *)
+                      MethodInfo_System_Collections_Generic_Dictionary_int_List_int_Clear);
+    pSVar8 = (__this->fields)._treeRoots;
+    if (pSVar8 != (System_Collections_Generic_List_int__o *)0x0) {
+      piVar1 = &(pSVar8->fields)._version;
       *piVar1 = *piVar1 + 1;
-      (pSVar11->fields)._size = 0;
+      (pSVar8->fields)._size = 0;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar4 = TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar4 != (System_Collections_Generic_Dictionary_int__MapObject__o *)0x0) {
-        pSVar10 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,
-                             (MethodInfo_13C6500 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Keys);
-        if (pSVar10 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-          System_Collections_Generic_Dictionary_ValueCollection_StylePropertyAnimationSystem_ElementPropertyPair__Int32Enum___GetEnumerator
-                    ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                     local_a8,pSVar10,
-                     (MethodInfo_F1E550 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_MapObject_GetEnumerator
-                    );
-          local_90 = (undefined1  [8])local_a8._0_8_;
-          pUStack_88 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8._8_8_;
-          local_80 = local_98;
-          local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-          local_a8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90;
-          while( true ) {
-            bVar8 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_uint__object___MoveNext
-                              ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
-                                *)local_90,
-                               (MethodInfo_15638A0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_MoveNext
-                              );
-            if (!bVar8) break;
-            pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-            if (pSVar5 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+      pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
+               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+      if ((pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) &&
+         (pSVar7 = System_Collections_Generic_Dictionary_int__object___get_Keys
+                             (pSVar2,(MethodInfo_4A0F330 *)
+                                     MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Keys),
+         pSVar7 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
+        local_90 = &(__this->fields)._treeRoots;
+        System_Collections_Generic_Dictionary_KeyCollection_int__object___GetEnumerator
+                  ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_a8,
+                   pSVar7,(MethodInfo_510AAB0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_MapObject_GetEnumerator
+                  );
+        local_38 = local_98;
+        local_48 = (undefined1  [8])local_a8._0_8_;
+        pSStack_40 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                     local_a8._8_8_;
+        local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+        local_a8._8_8_ =
+             (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_48;
+        while (bVar5 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__object___MoveNext
+                                 ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                                   *)local_48,
+                                  (MethodInfo_4CA27E0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_MoveNext
+                                 ), bVar5) {
+          pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+          if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          iVar6 = (int32_t)local_38;
+          bVar5 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                            (pSVar2,(int32_t)local_38,
+                             (MethodInfo_4A0F950 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
+          if (!bVar5) {
+            pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+            pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+            System_Collections_Generic_List_int____ctor
+                      (pSVar8,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+            if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
               ThrowNullReferenceException();
             }
-            iVar9 = (int32_t)local_80;
-            bVar8 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                              (pSVar5,(int32_t)local_80,
-                               (MethodInfo_1407110 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
-            if (!bVar8) {
-              __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
-                          (__this->fields)._treeChildren;
-              pSVar11 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int)
-              ;
-              System_Collections_Generic_LowLevelList___Il2CppFullySharedGenericType____ctor
-                        ((System_Collections_Generic_LowLevelList_T__o *)pSVar11,
-                         (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
-              if (__this_00 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+            System_Collections_Generic_Dictionary_int__object___set_Item
+                      (pSVar2,iVar6,(Il2CppObject *)pSVar8,
+                       (MethodInfo_4A0F720 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_List_int_set_Item);
+          }
+        }
+        System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__object___Dispose
+                  ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_48,
+                   (MethodInfo_4CA27D0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_Dispose
+                  );
+        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+        }
+        pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
+                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+        if ((pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) &&
+           (__this_00 = System_Collections_Generic_Dictionary_int__object___get_Values
+                                  (pSVar2,(MethodInfo_4A0F4E0 *)
+                                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Values
+                                  ),
+           __this_00 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)) {
+          System_Collections_Generic_Dictionary_ValueCollection_int__object___GetEnumerator
+                    ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                     local_a8,__this_00,
+                     (MethodInfo_43E8AC0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator
+                    );
+          local_58 = local_98;
+          local_68 = (undefined1  [8])local_a8._0_8_;
+          pSStack_60 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                       local_a8._8_8_;
+          local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+          local_a8._8_8_ =
+               (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_68;
+          while (bVar5 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___MoveNext
+                                   ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
+                                     *)local_68,
+                                    (MethodInfo_4CA2980 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_MoveNext
+                                   ), obj = local_58, bVar5) {
+            if (local_58 == (Map_MapObject_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            pMVar3 = (local_58->fields).ScriptObject;
+            if (pMVar3 == (Map_MapScriptBaseObject_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            item = (pMVar3->fields).Id;
+            if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+            }
+            iVar6 = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
+            if ((iVar6 < 0) || (iVar6 == item)) {
+label_05d72c80:
+              pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
+              pSVar8 = *local_90;
+              if (pSVar8 == (System_Collections_Generic_List_int__o *)0x0) {
+label_05d72fb5:
                 ThrowNullReferenceException();
               }
-              System_Collections_Generic_Dictionary_int__object___set_Item
-                        (__this_00,iVar9,(Il2CppObject *)pSVar11,
-                         (MethodInfo_1423510 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_List_int_set_Item);
+              piVar1 = &(pSVar8->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pSVar15 = (pSVar8->fields)._items;
+              if (pSVar15 == (System_Int32_array *)0x0) goto label_05d72fb5;
+              uVar16 = (pSVar8->fields)._size;
+              if (uVar16 < (uint)pSVar15->max_length) goto label_05d72b50;
+              System_Collections_Generic_List_int___AddWithResize
+                        (pSVar8,item,(MethodInfo_3916AC0 *)pMVar4->klass->rgctx_data[0xe].method);
+            }
+            else {
+              if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+              }
+              pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
+                       TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+              if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              bVar5 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                                (pSVar2,iVar6,
+                                 (MethodInfo_4A0F950 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+              if (!bVar5) goto label_05d72c80;
+              pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+              if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              pSVar8 = (System_Collections_Generic_List_int__o *)
+                       System_Collections_Generic_Dictionary_int__object___get_Item
+                                 (pSVar2,iVar6,
+                                  (MethodInfo_4A0F690 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item);
+              pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
+              if (pSVar8 == (System_Collections_Generic_List_int__o *)0x0) {
+label_05d72fd8:
+                ThrowNullReferenceException();
+              }
+              piVar1 = &(pSVar8->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pSVar15 = (pSVar8->fields)._items;
+              if (pSVar15 == (System_Int32_array *)0x0) goto label_05d72fd8;
+              uVar16 = (pSVar8->fields)._size;
+              if (uVar16 < (uint)pSVar15->max_length) {
+label_05d72b50:
+                (pSVar8->fields)._size = uVar16 + 1;
+                pSVar15->m_Items[(int)uVar16] = item;
+              }
+              else {
+                System_Collections_Generic_List_int___AddWithResize
+                          (pSVar8,item,(MethodInfo_3916AC0 *)pMVar4->klass->rgctx_data[0xe].method);
+              }
             }
           }
-          System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90,
-                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_MapObject_Dispose
+          System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___Dispose
+                    ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                     local_68,(MethodInfo_4CA2970 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
                     );
-          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-          }
-          pSVar4 = TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-          if (pSVar4 != (System_Collections_Generic_Dictionary_int__MapObject__o *)0x0) {
-            pSVar10 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar4,
-                                 (MethodInfo_13C65A0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Values);
-            if (pSVar10 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-              System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                        ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                         local_a8,pSVar10,
-                         (MethodInfo_F1E4D0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_int_MapObject_GetEnumerator
-                        );
-              local_78 = (undefined1  [8])local_a8._0_8_;
-              pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8._8_8_;
-              local_68 = local_98;
-              local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-              local_a8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78;
-label_1822af5c2:
-              do {
-                bVar8 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                                  ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                                    *)local_78,
-                                   (MethodInfo_155CFB0 *)
-                                   MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_MoveNext
-                                  );
-                obj = local_68;
-                if (!bVar8) goto label_1822af6d2;
-                if (local_68 == (Map_MapObject_o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                pMVar6 = (local_68->fields).ScriptObject;
-                if (pMVar6 == (Map_MapScriptBaseObject_o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                iVar2 = (pMVar6->fields).Id;
-                if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-                }
-                iVar9 = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-                if ((-1 < iVar9) && (iVar9 != iVar2)) {
-                  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-                  }
-                  pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                           TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-                  if (pSVar5 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-                    ThrowNullReferenceException();
-                  }
-                  bVar8 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                                    (pSVar5,iVar9,
-                                     (MethodInfo_1407110 *)
-                                     MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey
-                                    );
-                  if (bVar8) {
-                    pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                             (__this->fields)._treeChildren;
-                    if (pSVar5 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-                      ThrowNullReferenceException();
-                    }
-                    uVar12 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                       (pSVar5,iVar9,
-                                        (MethodInfo_14156F0 *)
-                                        MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item
-                                       );
-                    if (uVar12 == 0) {
-                      ThrowNullReferenceException();
-                    }
-                    il2cpp_runtime_helper_180026690(uVar12,iVar2,MethodInfo_System_Collections_Generic_List_int_Add);
-                    goto label_1822af5c2;
-                  }
-                }
-                pSVar11 = (__this->fields)._treeRoots;
-                if (pSVar11 == (System_Collections_Generic_List_int__o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                il2cpp_runtime_helper_180026690(pSVar11,iVar2,MethodInfo_System_Collections_Generic_List_int_Add);
-              } while( true );
-            }
-          }
-        }
-      }
-    }
-  }
-label_1822afa23:
-  ThrowNullReferenceException();
-label_1822af6d2:
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int__object___Dispose
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78,
-             MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_int_MapObject_Dispose
-            );
-  pSVar13 = System_Linq_Enumerable__Distinct_int_
-                      ((System_Collections_Generic_IEnumerable_TSource__o *)(__this->fields)._treeRoots,
-                       (MethodInfo_6BB130 *)MethodInfo_System_Linq_Enumerable_Distinct_int);
-  if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-  }
-  pMVar14 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-            TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_0;
-  if (pMVar14 == (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)0x0
-     ) {
-    if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-    }
-    pIVar7 = (Il2CppObject *)TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9;
-    pMVar14 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
-    System_Func_int__int____ctor
-              (pMVar14,pIVar7,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__84_0,
-               (MethodInfo *)0x0);
-    TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_0 = (System_Func_int__int__o *)pMVar14;
-    Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_0,pMVar14);
-  }
-  pSVar15 = System_Linq_Enumerable__OrderBy_object__int_
-                      (pSVar13,(System_Func_TSource__TKey__o *)pMVar14,
-                       (MethodInfo_6C12E0 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
-  pSVar16 = System_Linq_Enumerable__ToList_int_
-                      ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar15,
-                       (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-  (__this->fields)._treeRoots = (System_Collections_Generic_List_int__o *)pSVar16;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._treeRoots,pSVar16);
-  pSVar3 = (__this->fields)._treeChildren;
-  if (pSVar3 != (System_Collections_Generic_Dictionary_int__List_int___o *)0x0) {
-    source = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                       ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar3,
-                        (MethodInfo_13C6500 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Keys);
-    pSVar16 = System_Linq_Enumerable__ToList_int_
-                        ((System_Collections_Generic_IEnumerable_TSource__o *)source,
-                         (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-    if (pSVar16 != (System_Collections_Generic_List_TSource__o *)0x0) {
-      System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_a8,
-                 (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)pSVar16,
-                 (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-      local_60 = (undefined1  [8])local_a8._0_8_;
-      uStack_58 = local_a8._8_8_;
-      local_50 = local_98;
-      local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-      local_a8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60;
-      while( true ) {
-        bVar8 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                          ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
-                           (MethodInfo_1530180 *)
-                           MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-        if (!bVar8) {
-          System_Collections_Generic_List_Enumerator_int___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-          return;
-        }
-        pSVar5 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-        if (pSVar5 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) break;
-        iVar9 = (int32_t)local_50;
-        pSVar13 = (System_Collections_Generic_IEnumerable_TSource__o *)
-                  System_Collections_Generic_Dictionary_int__ulong___get_Item
-                            (pSVar5,(int32_t)local_50,
-                             (MethodInfo_14156F0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item);
-        pSVar13 = System_Linq_Enumerable__Distinct_int_
-                            (pSVar13,(MethodInfo_6BB130 *)MethodInfo_System_Linq_Enumerable_Distinct_int);
-        if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-        }
-        pMVar14 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-                  TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_1;
-        if (pMVar14 ==
-            (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)0x0) {
+          pSVar9 = System_Linq_Enumerable__Distinct_int_
+                             ((System_Collections_Generic_IEnumerable_TSource__o *)*local_90,
+                              (MethodInfo_34E8AC0 *)MethodInfo_System_Linq_Enumerable_Distinct_int);
           if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+            pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            pSVar10 = pUVar14->__9__85_0;
           }
-          pIVar7 = (Il2CppObject *)TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9;
-          pMVar14 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
-          System_Func_int__int____ctor
-                    (pMVar14,pIVar7,(intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__84_1,
-                     (MethodInfo *)0x0);
-          TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_1 = (System_Func_int__int__o *)pMVar14
-          ;
-          Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__84_1,pMVar14);
+          else {
+            pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            pSVar10 = pUVar14->__9__85_0;
+          }
+          if (pSVar10 == (System_Func_int__int__o *)0x0) {
+            if ((((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c)->_2).cctor_finished_or_no_cctor == 0)
+            {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+              pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            }
+            pIVar13 = (Il2CppObject *)pUVar14->__9;
+            pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
+            System_Func_int__int____ctor
+                      (pSVar10,pIVar13,
+                       (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__85_0,
+                       (MethodInfo_4F12F40 *)0x0);
+            pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            pUVar14->__9__85_0 = pSVar10;
+            Il2CppCodeGenWriteBarrier(&pUVar14->__9__85_0);
+          }
+          pSVar11 = System_Linq_Enumerable__OrderBy_int__int_
+                              (pSVar9,(System_Func_TSource__TKey__o *)pSVar10,
+                               (MethodInfo_34F1B50 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
+          pSVar12 = System_Linq_Enumerable__ToList_int_
+                              ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar11,
+                               (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+          (__this->fields)._treeRoots = (System_Collections_Generic_List_int__o *)pSVar12;
+          Il2CppCodeGenWriteBarrier(local_90);
+          pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+          if (pSVar2 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+            pSVar7 = System_Collections_Generic_Dictionary_int__object___get_Keys
+                               (pSVar2,(MethodInfo_4A0F330 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Keys)
+            ;
+            pSVar12 = System_Linq_Enumerable__ToList_int_
+                                ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar7,
+                                 (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+            if (pSVar12 != (System_Collections_Generic_List_TSource__o *)0x0) {
+              System_Collections_Generic_List_int___GetEnumerator
+                        ((System_Collections_Generic_List_Enumerator_T__o *)local_a8,
+                         (System_Collections_Generic_List_int__o *)pSVar12,
+                         (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+              local_78 = local_98;
+              local_88 = (undefined1  [8])local_a8._0_8_;
+              uStack_80 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                          local_a8._8_8_;
+              local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+              local_a8._8_8_ = local_88;
+              while( true ) {
+                bVar5 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                                  ((System_Collections_Generic_List_Enumerator_int__o *)local_88,
+                                   (MethodInfo_4C3B4A0 *)
+                                   MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+                if (!bVar5) {
+                  System_Collections_Generic_List_Enumerator_int___Dispose
+                            ((System_Collections_Generic_List_Enumerator_int__o *)local_88,
+                             (MethodInfo_4C3B490 *)
+                             MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+                  return;
+                }
+                pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
+                         (__this->fields)._treeChildren;
+                if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) break;
+                iVar6 = (int32_t)local_78;
+                pIVar13 = System_Collections_Generic_Dictionary_int__object___get_Item
+                                    (pSVar2,(int32_t)local_78,
+                                     (MethodInfo_4A0F690 *)
+                                     MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item);
+                pSVar9 = System_Linq_Enumerable__Distinct_int_
+                                   ((System_Collections_Generic_IEnumerable_TSource__o *)pIVar13,
+                                    (MethodInfo_34E8AC0 *)MethodInfo_System_Linq_Enumerable_Distinct_int);
+                if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+                  pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+                  pSVar10 = pUVar14->__9__85_1;
+                }
+                else {
+                  pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+                  pSVar10 = pUVar14->__9__85_1;
+                }
+                if (pSVar10 == (System_Func_int__int__o *)0x0) {
+                  if ((((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c)->_2).cctor_finished_or_no_cctor
+                      == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+                    pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+                  }
+                  pIVar13 = (Il2CppObject *)pUVar14->__9;
+                  pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
+                  System_Func_int__int____ctor
+                            (pSVar10,pIVar13,
+                             (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_BuildTreeGraph_b__85_1,
+                             (MethodInfo_4F12F40 *)0x0);
+                  pUVar14 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+                  pUVar14->__9__85_1 = pSVar10;
+                  Il2CppCodeGenWriteBarrier(&pUVar14->__9__85_1);
+                }
+                pSVar11 = System_Linq_Enumerable__OrderBy_int__int_
+                                    (pSVar9,(System_Func_TSource__TKey__o *)pSVar10,
+                                     (MethodInfo_34F1B50 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
+                pSVar12 = System_Linq_Enumerable__ToList_int_
+                                    ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar11,
+                                     (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+                System_Collections_Generic_Dictionary_int__object___set_Item
+                          (pSVar2,iVar6,(Il2CppObject *)pSVar12,
+                           (MethodInfo_4A0F720 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_List_int_set_Item);
+              }
+              ThrowNullReferenceException();
+            }
+          }
         }
-        pSVar15 = System_Linq_Enumerable__OrderBy_object__int_
-                            (pSVar13,(System_Func_TSource__TKey__o *)pMVar14,
-                             (MethodInfo_6C12E0 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
-        pSVar16 = System_Linq_Enumerable__ToList_int_
-                            ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar15,
-                             (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-        System_Collections_Generic_Dictionary_int__object___set_Item
-                  ((System_Collections_Generic_Dictionary_int__object__o *)pSVar5,iVar9,
-                   (Il2CppObject *)pSVar16,
-                   (MethodInfo_1423510 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_int_List_int_set_Item);
       }
-      ThrowNullReferenceException();
     }
   }
-  goto label_1822afa23;
+  ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$BuildSearchContext
 // il2cpp: System_Collections_Generic_HashSet_int__o* UI_MapEditorHierarchyPanel__BuildSearchContext (UI_MapEditorHierarchyPanel_o* __this, System_Collections_Generic_HashSet_int__o* matches, const MethodInfo* method);
-// 0x1822aeec0
-// eh: try 0x1822aefe0..0x1822af1e6 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 20 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822aefdc: nop dword ptr [rax]
-// asm:   0x1822af189: mov rdx, qword ptr [rip + 0x1dd8eb8]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
-// asm:   0x1822af190: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822af195: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822af19a: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822af19f: test rcx, rcx
-// asm:   0x1822af1a2: jne 0x1822af1e6
-// asm:   0x1822af1a4: mov rsi, qword ptr [rsp + 0x88]
-// asm:   0x1822af1e6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d77080
+// eh: try 0x5d771c0..0x5d773c2 -> pad 0x5d773cb (+20 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d77405..0x5d7740a -> pad 0x5d7742d cleanup
+// eh: try 0x5d77430..0x5d7743a -> pad 0x5d77442 catch (...) [compiler noexcept guard]
+// asm: 51 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7719f: lea r14, [rip + 0x15037ea]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d771a6: lea r13, [rip + 0x1512e33]  ; MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey
+// asm:   0x5d771ad: lea r15, [rip + 0x151a14c]  ; MethodInfo_System_Collections_Generic_HashSet_int_Add
+// asm:   0x5d771b4: jmp 0x5d771cf
+// asm:   0x5d77320: lea r14, [rip + 0x1516ec1]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext
+// asm:   0x5d77327: mov r15, rsp
+// asm:   0x5d7732a: lea rbx, [rip + 0x150365f]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d77331: lea r13, [rip + 0x1512ca8]  ; MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey
+// asm:   0x5d77338: nop dword ptr [rax + rax]
+// asm:   0x5d773c7: jmp 0x5d773ed
+// asm:   0x5d773c9: jmp 0x5d773ed
+// asm:   0x5d773cb: jmp 0x5d773ed
+// asm:   0x5d773cd: jmp 0x5d773ed
+// asm:   0x5d773cf: jmp 0x5d773ed
+// asm:   0x5d773d1: jmp 0x5d773ed
+// asm:   0x5d773d3: jmp 0x5d773ed
+// asm:   0x5d773d5: jmp 0x5d773ed
+// asm:   0x5d773d7: jmp 0x5d773ed
+// asm:   0x5d773d9: jmp 0x5d773ed
+// asm:   0x5d773db: jmp 0x5d773ed
+// asm:   0x5d773dd: jmp 0x5d773ed
+// asm:   0x5d773df: jmp 0x5d773ed
+// asm:   0x5d773e1: jmp 0x5d773ed
+// asm:   0x5d773e3: jmp 0x5d773ed
+// asm:   0x5d773e5: jmp 0x5d773ed
+// asm:   0x5d773e7: jmp 0x5d773ed
+// asm:   0x5d773e9: jmp 0x5d773ed
+// asm:   0x5d773eb: jmp 0x5d773ed
+// asm:   0x5d773ed: mov rbp, rax
+// asm:   0x5d773f0: cmp edx, 1
+// asm:   0x5d773f3: jne 0x5d77430
+// asm:   0x5d773f5: mov rdi, rbp
+// asm:   0x5d773f8: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d773fd: mov rbx, qword ptr [rax]
+// asm:   0x5d77400: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5d77405: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7740a: lea rax, [rip + 0x1516dcf]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
+// asm:   0x5d77411: mov rsi, qword ptr [rax]
+// asm:   0x5d77414: mov rdi, rsp
+// asm:   0x5d77417: call 0x4d3aed0  ; System_Collections_Generic_HashSet_Enumerator_int___Dispose()
+// asm:   0x5d7741c: test rbx, rbx
+// asm:   0x5d7741f: je 0x5d7739c
+// asm:   0x5d77425: mov rdi, rbx
+// asm:   0x5d77428: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7742d: mov rbp, rax
+// asm:   0x5d77430: lea rdi, [rsp + 0x18]
+// asm:   0x5d77435: call 0x2fdd330  ; il2cpp_runtime_helper_02fdd330()
+// asm:   0x5d7743a: mov rdi, rbp
+// asm:   0x5d7743d: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d77442: mov rdi, rax
+// asm:   0x5d77445: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Collections_Generic_HashSet_int__o *
 UI_MapEditorHierarchyPanel__BuildSearchContext
@@ -2638,17 +2873,21 @@ UI_MapEditorHierarchyPanel__BuildSearchContext
           MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
+  int32_t iVar2;
+  System_Collections_Generic_HashSet_Enumerator_T__o *pSVar3;
+  bool bVar4;
   int32_t key;
-  bool bVar2;
-  int32_t key_00;
   System_Collections_Generic_HashSet_int__o *__this_00;
-  Map_MapObject_o *pMVar3;
+  Map_MapObject_o *pMVar5;
+  MethodInfo *in_RCX;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_68;
   undefined1 local_50 [16];
   Il2CppObject *local_40;
-  System_Collections_Generic_HashSet_Enumerator_T__o local_38;
+  UI_MapEditorHierarchyPanel_o *local_38;
   
-  if (Il2CppMethodInitialized_184347514 == '\0') {
+  local_38 = __this;
+  if (Il2CppMethodInitialized_07547fce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2665,150 +2904,185 @@ UI_MapEditorHierarchyPanel__BuildSearchContext
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347514 = '\x01';
+    Il2CppMethodInitialized_07547fce = '\x01';
   }
-  local_38.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_38.fields._index = 0;
-  local_38.fields._version = 0;
-  local_38.fields._current = (Il2CppObject *)0x0;
+  local_68.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_68.fields._index = 0;
+  local_68.fields._version = 0;
+  local_68.fields._current = (Il2CppObject *)0x0;
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (__this_00,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+            (__this_00,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
   if (matches == (System_Collections_Generic_HashSet_int__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_HashSet_uint___GetEnumerator
-            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_50,
-             (System_Collections_Generic_HashSet_uint__o *)matches,
-             (MethodInfo_175C240 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
-  local_38.fields._set = (System_Collections_Generic_HashSet_T__o *)local_50._0_8_;
-  local_38.fields._index = local_50._8_4_;
-  local_38.fields._version = local_50._12_4_;
-  local_38.fields._current = local_40;
+  System_Collections_Generic_HashSet_int___GetEnumerator
+            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_50,matches,
+             (MethodInfo_4FA8440 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
+  local_68.fields._current = local_40;
+  local_68.fields._set = (System_Collections_Generic_HashSet_T__o *)local_50._0_8_;
+  local_68.fields._index = local_50._8_4_;
+  local_68.fields._version = local_50._12_4_;
   local_50._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_50._8_8_ = &local_38;
-  do {
-    do {
-      bVar2 = System_Collections_Generic_HashSet_Enumerator_uint___MoveNext
-                        (&local_38,
-                         (MethodInfo_1537E90 *)
-                         MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext);
-      if (!bVar2) {
-        System_Collections_Generic_HashSet_Enumerator_int___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_38,
-                   MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
-        return __this_00;
-      }
-      key = (int32_t)local_38.fields._current;
+  local_50._8_8_ = &local_68;
+  pSVar3 = &local_68;
+  if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+    while (local_50._8_8_ = pSVar3,
+          bVar4 = System_Collections_Generic_HashSet_Enumerator_int___MoveNext
+                            (&local_68,
+                             (MethodInfo_4C3AEE0 *)
+                             MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext), bVar4) {
+      iVar2 = (int32_t)local_68.fields._current;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (pSVar1,key,
-                         (MethodInfo_1407110 *)
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d773b8;
+      bVar4 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                        (pSVar1,iVar2,
+                         (MethodInfo_4A0F950 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-    } while (!bVar2);
-    if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-      ThrowNullReferenceException();
+      pSVar3 = (System_Collections_Generic_HashSet_Enumerator_T__o *)local_50._8_8_;
+      if (bVar4) {
+        ThrowNullReferenceException();
+      }
     }
-    System_Collections_Generic_HashSet_int___Add
-              (__this_00,key,(MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-    }
-    pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pMVar3 = (Map_MapObject_o *)
-             System_Collections_Generic_Dictionary_int__ulong___get_Item
-                       (pSVar1,key,
-                        (MethodInfo_14156F0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-    key_00 = Map_MapLoader__GetLogicalParentId(pMVar3,(MethodInfo *)0x0);
-    while (-1 < key_00) {
+  }
+  else {
+    while (bVar4 = System_Collections_Generic_HashSet_Enumerator_int___MoveNext
+                             (&local_68,
+                              (MethodInfo_4C3AEE0 *)
+                              MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext), bVar4) {
+      iVar2 = (int32_t)local_68.fields._current;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+label_05d773b8:
         ThrowNullReferenceException();
       }
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (pSVar1,key_00,
-                         (MethodInfo_1407110 *)
+      bVar4 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                        (pSVar1,iVar2,
+                         (MethodInfo_4A0F950 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar2) break;
-      bVar2 = System_Collections_Generic_HashSet_int___Add
-                        (__this_00,key_00,
-                         (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-      if (!bVar2) break;
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+      if (bVar4) {
+        System_Collections_Generic_HashSet_int___Add
+                  (__this_00,iVar2,(MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add
+                  );
+        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+        }
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+        if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pMVar5 = System_Collections_Generic_Dictionary_int__object___get_Item
+                           (pSVar1,iVar2,
+                            (MethodInfo_4A0F690 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+        key = Map_MapLoader__GetLogicalParentId(pMVar5,(MethodInfo *)0x0);
+        while (-1 < key) {
+          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+          }
+          pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                   TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar4 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                            (pSVar1,key,
+                             (MethodInfo_4A0F950 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+          if ((!bVar4) ||
+             (bVar4 = System_Collections_Generic_HashSet_int___Add
+                                (__this_00,key,
+                                 (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add),
+             !bVar4)) break;
+          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+          }
+          pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                   TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pMVar5 = System_Collections_Generic_Dictionary_int__object___get_Item
+                             (pSVar1,key,
+                              (MethodInfo_4A0F690 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+          key = Map_MapLoader__GetLogicalParentId(pMVar5,(MethodInfo *)0x0);
+        }
+        UI_MapEditorHierarchyPanel__AddDescendants(local_38,iVar2,__this_00,in_RCX);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      pMVar3 = (Map_MapObject_o *)
-               System_Collections_Generic_Dictionary_int__ulong___get_Item
-                         (pSVar1,key_00,
-                          (MethodInfo_14156F0 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-      key_00 = Map_MapLoader__GetLogicalParentId(pMVar3,(MethodInfo *)0x0);
     }
-    UI_MapEditorHierarchyPanel__AddDescendants(__this,key,__this_00,(MethodInfo *)0x0);
-  } while( true );
+  }
+  System_Collections_Generic_HashSet_Enumerator_int___Dispose
+            (&local_68,
+             (MethodInfo_4C3AED0 *)MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
+  return __this_00;
 }
 
 
 // UI.MapEditorHierarchyPanel$$AddDescendants
 // il2cpp: void UI_MapEditorHierarchyPanel__AddDescendants (UI_MapEditorHierarchyPanel_o* __this, int32_t id, System_Collections_Generic_HashSet_int__o* result, const MethodInfo* method);
-// 0x1822ad480
-// eh: try 0x1822ad590..0x1822ad611 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822ad58f: nop 
-// asm:   0x1822ad5e6: mov rdx, qword ptr [rip + 0x1ddacfb]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822ad5ed: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822ad5f2: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822ad5f7: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822ad5fc: test rcx, rcx
-// asm:   0x1822ad5ff: jne 0x1822ad611
-// asm:   0x1822ad611: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d77780
+// eh: try 0x5d778a4..0x5d77916 -> pad 0x5d7791e (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d77936..0x5d7793b -> pad 0x5d7795a cleanup
+// eh: try 0x5d7795d..0x5d77967 -> pad 0x5d7796f catch (...) [compiler noexcept guard]
+// asm: 31 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d77888: lea r12, [rip + 0x1516971]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext
+// asm:   0x5d7788f: mov r15, rsp
+// asm:   0x5d77892: lea r13, [rip + 0x1519a67]  ; MethodInfo_System_Collections_Generic_HashSet_int_Add
+// asm:   0x5d77899: nop dword ptr [rax]
+// asm:   0x5d77916: jmp 0x5d7791e
+// asm:   0x5d77918: jmp 0x5d7791e
+// asm:   0x5d7791a: jmp 0x5d7791e
+// asm:   0x5d7791c: jmp 0x5d7791e
+// asm:   0x5d7791e: mov rbx, rax
+// asm:   0x5d77921: cmp edx, 1
+// asm:   0x5d77924: jne 0x5d7795d
+// asm:   0x5d77926: mov rdi, rbx
+// asm:   0x5d77929: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7792e: mov rbx, qword ptr [rax]
+// asm:   0x5d77931: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5d77936: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7793b: lea rax, [rip + 0x15168b6]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d77942: mov rsi, qword ptr [rax]
+// asm:   0x5d77945: mov rdi, rsp
+// asm:   0x5d77948: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d7794d: test rbx, rbx
+// asm:   0x5d77950: je 0x5d778fd
+// asm:   0x5d77952: mov rdi, rbx
+// asm:   0x5d77955: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7795a: mov rbx, rax
+// asm:   0x5d7795d: lea rdi, [rsp + 0x18]
+// asm:   0x5d77962: call 0x2fdd360  ; il2cpp_runtime_helper_02fdd360()
+// asm:   0x5d77967: mov rdi, rbx
+// asm:   0x5d7796a: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7796f: mov rdi, rax
+// asm:   0x5d77972: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__AddDescendants
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
                System_Collections_Generic_HashSet_int__o *result,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
   int32_t id_00;
-  bool bVar2;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_00;
-  undefined1 local_60 [16];
-  Il2CppObject *local_50;
-  System_Collections_Generic_List_Enumerator_T__o local_48;
+  System_Collections_Generic_List_Enumerator_T__o *pSVar2;
+  bool bVar3;
+  System_Collections_Generic_List_int__o *__this_00;
+  MethodInfo **method_00;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_184347515 == '\0') {
+  if (Il2CppMethodInitialized_07547fcf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2821,59 +3095,68 @@ void UI_MapEditorHierarchyPanel__AddDescendants
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_get_Current);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    Il2CppMethodInitialized_184347515 = '\x01';
+    Il2CppMethodInitialized_07547fcf = '\x01';
   }
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
-  pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-  if (pSVar1 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-    bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
+  pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+  if (pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    bVar3 = System_Collections_Generic_Dictionary_int__object___ContainsKey
                       (pSVar1,id,
-                       (MethodInfo_1407110 *)
+                       (MethodInfo_4A0F950 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
-    if (!bVar2) {
+    if (!bVar3) {
       return;
     }
-    pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-    if ((pSVar1 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) &&
-       (__this_00 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                    System_Collections_Generic_Dictionary_int__ulong___get_Item
-                              (pSVar1,id,
-                               (MethodInfo_14156F0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item),
-       __this_00 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)) {
-      System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_60,__this_00,
-                 (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-      local_48.fields._list = (System_Collections_Generic_List_T__o *)local_60._0_8_;
-      local_48.fields._index = local_60._8_4_;
-      local_48.fields._version = local_60._12_4_;
-      local_48.fields._current = local_50;
-      local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-      local_60._8_8_ = &local_48;
-      while( true ) {
-        bVar2 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                          (&local_48,
-                           (MethodInfo_1530180 *)
-                           MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-        if (!bVar2) {
-          System_Collections_Generic_List_Enumerator_int___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-          return;
+    pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+    if (pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+      __this_00 = (System_Collections_Generic_List_int__o *)
+                  System_Collections_Generic_Dictionary_int__object___get_Item
+                            (pSVar1,id,
+                             (MethodInfo_4A0F690 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item);
+      local_38 = (undefined1 *)&local_58;
+      if (__this_00 != (System_Collections_Generic_List_int__o *)0x0) {
+        method_00 = &MethodInfo_System_Collections_Generic_List_int_GetEnumerator;
+        System_Collections_Generic_List_int___GetEnumerator
+                  (&local_58,__this_00,
+                   (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+        local_40 = 0;
+        pSVar2 = &local_58;
+        if (result == (System_Collections_Generic_HashSet_int__o *)0x0) {
+          bVar3 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                            ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                             (MethodInfo_4C3B4A0 *)
+                             MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+          if (bVar3) {
+            ThrowNullReferenceException();
+          }
         }
-        if (result == (System_Collections_Generic_HashSet_int__o *)0x0) break;
-        id_00 = (int32_t)local_48.fields._current;
-        bVar2 = System_Collections_Generic_HashSet_int___Add
-                          (result,(int32_t)local_48.fields._current,
-                           (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-        if (bVar2) {
-          UI_MapEditorHierarchyPanel__AddDescendants(__this,id_00,result,(MethodInfo *)0x0);
+        else {
+          while (local_38 = (undefined1 *)pSVar2,
+                bVar3 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                                  ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                                   (MethodInfo_4C3B4A0 *)
+                                   MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext), bVar3)
+          {
+            id_00 = (int32_t)local_58.fields._current;
+            bVar3 = System_Collections_Generic_HashSet_int___Add
+                              (result,(int32_t)local_58.fields._current,
+                               (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+            pSVar2 = (System_Collections_Generic_List_Enumerator_T__o *)local_38;
+            if (bVar3) {
+              UI_MapEditorHierarchyPanel__AddDescendants(__this,id_00,result,(MethodInfo *)method_00);
+              pSVar2 = (System_Collections_Generic_List_Enumerator_T__o *)local_38;
+            }
+          }
         }
+        System_Collections_Generic_List_Enumerator_int___Dispose
+                  ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                   (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+        return;
       }
-      ThrowNullReferenceException();
     }
   }
   ThrowNullReferenceException();
@@ -2882,27 +3165,35 @@ void UI_MapEditorHierarchyPanel__AddDescendants
 
 // UI.MapEditorHierarchyPanel$$AddTreeRowsRecursive
 // il2cpp: void UI_MapEditorHierarchyPanel__AddTreeRowsRecursive (UI_MapEditorHierarchyPanel_o* __this, int32_t id, int32_t depth, System_Collections_Generic_HashSet_int__o* context, bool forceExpand, const MethodInfo* method);
-// 0x1822ad840
-// eh: try 0x1822adae0..0x1822adb14 -> pad 0x18333d4c0 catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822adb25: mov rdx, qword ptr [rip + 0x1dda7bc]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822adb2c: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1822adb31: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822adb36: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822adb3b: test rcx, rcx
-// asm:   0x1822adb3e: jne 0x1822adb56
-// asm:   0x1822adb56: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d4c0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d4c5: push rbp
-// asm:   0x18333d4c6: sub rsp, 0x30
-// asm:   0x18333d4ca: mov rbp, rdx
-// asm:   0x18333d4cd: mov rax, qword ptr [rbp + 0x48]
-// asm:   0x18333d4d1: mov rcx, qword ptr [rax]
-// asm:   0x18333d4d4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333d4d8: movabs rax, 0
-// asm:   0x18333d4e2: add rsp, 0x30
-// asm:   0x18333d4e6: pop rbp
-// asm:   0x18333d4e7: ret 
+// 0x5d77450
+// eh: try 0x5d776d4..0x5d776f5 -> pad 0x5d77721 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d77739..0x5d7773e -> pad 0x5d7775f cleanup
+// eh: try 0x5d77762..0x5d7776c -> pad 0x5d77774 catch (...) [compiler noexcept guard]
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7771f: jmp 0x5d77721
+// asm:   0x5d77721: mov rbx, rax
+// asm:   0x5d77724: cmp edx, 1
+// asm:   0x5d77727: jne 0x5d77762
+// asm:   0x5d77729: mov rdi, rbx
+// asm:   0x5d7772c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d77731: mov rbx, qword ptr [rax]
+// asm:   0x5d77734: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x5d77739: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7773e: lea rax, [rip + 0x1516ab3]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d77745: mov rsi, qword ptr [rax]
+// asm:   0x5d77748: lea rdi, [rsp + 0x10]
+// asm:   0x5d7774d: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d77752: test rbx, rbx
+// asm:   0x5d77755: je 0x5d7770b
+// asm:   0x5d77757: mov rdi, rbx
+// asm:   0x5d7775a: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7775f: mov rbx, rax
+// asm:   0x5d77762: lea rdi, [rsp + 0x28]
+// asm:   0x5d77767: call 0x2fdd390  ; il2cpp_runtime_helper_02fdd390()
+// asm:   0x5d7776c: mov rdi, rbx
+// asm:   0x5d7776f: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d77774: mov rdi, rax
+// asm:   0x5d77777: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,int32_t depth,
@@ -2911,19 +3202,20 @@ void UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
 {
   int32_t *piVar1;
   uint uVar2;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar3;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar3;
   System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *__this_00;
   UI_MapEditorHierarchyPanel_RowData_array *pUVar4;
   System_Collections_Generic_HashSet_int__o *__this_01;
   MethodInfo *pMVar5;
   bool bVar6;
-  uint64_t uVar7;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_02;
-  undefined1 local_78 [16];
-  Il2CppObject *local_68;
+  Il2CppObject *pIVar7;
+  System_Collections_Generic_List_int__o *__this_02;
+  UI_MapEditorHierarchyPanel_RowData_Fields item;
   System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_40;
+  System_Collections_Generic_List_Enumerator_T__o *local_38;
   
-  if (Il2CppMethodInitialized_184347516 == '\0') {
+  if (Il2CppMethodInitialized_07547fd0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2942,7 +3234,7 @@ void UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347516 = '\x01';
+    Il2CppMethodInitialized_07547fd0 = '\x01';
   }
   local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
   local_58.fields._index = 0;
@@ -2951,124 +3243,114 @@ void UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
   if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
   }
-  pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+  pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)
            TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (pSVar3 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822adb62;
-  bVar6 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                    (pSVar3,id,
-                     (MethodInfo_1407110 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-  if (!bVar6) {
-    return;
-  }
-  if ((context != (System_Collections_Generic_HashSet_int__o *)0x0) &&
-     (bVar6 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                        ((System_Collections_Generic_HashSet_T__o *)context,id,
-                         (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains),
-     !bVar6)) {
-    return;
-  }
-  __this_00 = (__this->fields)._rows;
-  local_78._0_4_ = 0;
-  local_78._4_4_ = 0;
-  UnityEngine_TerrainUtils_TerrainTileCoord___ctor
-            ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)local_78,id,depth,(MethodInfo *)0x0);
-  pMVar5 = MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_Add;
-  if (__this_00 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-    piVar1 = &(__this_00->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pUVar4 = (__this_00->fields)._items;
-    if (pUVar4 != (UI_MapEditorHierarchyPanel_RowData_array *)0x0) {
-      uVar2 = (__this_00->fields)._size;
-      if (uVar2 < (uint)pUVar4->max_length) {
-        (__this_00->fields)._size = uVar2 + 1;
-        if ((uint)pUVar4->max_length <= uVar2) {
-          ThrowIndexOutOfRangeException();
+  if (pSVar3 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                      (pSVar3,id,
+                       (MethodInfo_4A0F950 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+    if (!bVar6) {
+      return;
+    }
+    if ((context != (System_Collections_Generic_HashSet_int__o *)0x0) &&
+       (bVar6 = System_Collections_Generic_HashSet_int___Contains
+                          (context,id,
+                           (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains),
+       !bVar6)) {
+      return;
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_Add;
+    __this_00 = (__this->fields)._rows;
+    if (__this_00 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
+      piVar1 = &(__this_00->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar4 = (__this_00->fields)._items;
+      if (pUVar4 != (UI_MapEditorHierarchyPanel_RowData_array *)0x0) {
+        item.Depth = depth;
+        item.Id = id;
+        uVar2 = (__this_00->fields)._size;
+        if (uVar2 < (uint)pUVar4->max_length) {
+          (__this_00->fields)._size = uVar2 + 1;
+          pUVar4->m_Items[(int)uVar2].fields = item;
         }
-        pUVar4->m_Items[(int)uVar2].fields.Id = local_78._0_4_;
-        pUVar4->m_Items[(int)uVar2].fields.Depth = local_78._4_4_;
-      }
-      else {
-        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___AddWithResize
-                  ((System_Collections_Generic_List_T__o *)__this_00,
-                   (UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_o)local_78._0_8_,
-                   (MethodInfo_985420 *)pMVar5->klass->rgctx_data[0xe].method);
-      }
-      pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-      if (pSVar3 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-        bVar6 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                          (pSVar3,id,
-                           (MethodInfo_1407110 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
-        if (!bVar6) {
-          return;
+        else {
+          System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___AddWithResize
+                    (__this_00,(UI_MapEditorHierarchyPanel_RowData_o)item,
+                     (MethodInfo_3AAAC90 *)pMVar5->klass->rgctx_data[0xe].method);
         }
-        pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-        if ((pSVar3 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) &&
-           (uVar7 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                              (pSVar3,id,
-                               (MethodInfo_14156F0 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item),
-           uVar7 != 0)) {
-          if (*(int *)(uVar7 + 0x18) == 0) {
+        pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+        if (pSVar3 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+          bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                            (pSVar3,id,
+                             (MethodInfo_4A0F950 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey);
+          if (!bVar6) {
             return;
           }
-          if (!forceExpand) {
-            __this_01 = (__this->fields)._expanded;
-            if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822adb62;
-            bVar6 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                              ((System_Collections_Generic_HashSet_T__o *)__this_01,id,
-                               (MethodInfo_1759C90 *)
-                               MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-            if (!bVar6) {
+          pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+          if ((pSVar3 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) &&
+             (pIVar7 = System_Collections_Generic_Dictionary_int__object___get_Item
+                                 (pSVar3,id,
+                                  (MethodInfo_4A0F690 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item),
+             pIVar7 != (Il2CppObject *)0x0)) {
+            if (*(int *)&pIVar7[1].monitor == 0) {
+              return;
+            }
+            if (!forceExpand) {
+              __this_01 = (__this->fields)._expanded;
+              if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7771a;
+              bVar6 = System_Collections_Generic_HashSet_int___Contains
+                                (__this_01,id,
+                                 (MethodInfo_4FA7E00 *)
+                                 MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+              if (!bVar6) {
+                return;
+              }
+            }
+            pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._treeChildren;
+            if ((pSVar3 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) &&
+               (__this_02 = (System_Collections_Generic_List_int__o *)
+                            System_Collections_Generic_Dictionary_int__object___get_Item
+                                      (pSVar3,id,
+                                       (MethodInfo_4A0F690 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item)
+               , __this_02 != (System_Collections_Generic_List_int__o *)0x0)) {
+              System_Collections_Generic_List_int___GetEnumerator
+                        (&local_58,__this_02,
+                         (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+              local_40 = 0;
+              local_38 = &local_58;
+              while (bVar6 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                                       ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                                        (MethodInfo_4C3B4A0 *)
+                                        MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext),
+                    bVar6) {
+                UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
+                          (__this,(int32_t)local_58.fields._current,depth + 1,context,forceExpand,method);
+              }
+              System_Collections_Generic_List_Enumerator_int___Dispose
+                        ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                         (MethodInfo_4C3B490 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
               return;
             }
           }
-          pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._treeChildren;
-          if ((pSVar3 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) &&
-             (__this_02 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                          System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                    (pSVar3,id,
-                                     (MethodInfo_14156F0 *)
-                                     MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item),
-             __this_02 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)) {
-            System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-                      ((System_Collections_Generic_List_Enumerator_T__o *)local_78,__this_02,
-                       (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-            local_58.fields._list = (System_Collections_Generic_List_T__o *)local_78._0_8_;
-            local_58.fields._index = local_78._8_4_;
-            local_58.fields._version = local_78._12_4_;
-            local_58.fields._current = local_68;
-            local_78._0_4_ = 0;
-            local_78._4_4_ = 0;
-            local_78._8_8_ = &local_58;
-            while (bVar6 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                                     (&local_58,
-                                      (MethodInfo_1530180 *)
-                                      MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext),
-                  bVar6) {
-              UI_MapEditorHierarchyPanel__AddTreeRowsRecursive
-                        (__this,(int32_t)local_58.fields._current,depth + 1,context,forceExpand,
-                         (MethodInfo *)0x0);
-            }
-            System_Collections_Generic_List_Enumerator_int___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_58,
-                       MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-            return;
-          }
         }
-label_1822adb62:
-        ThrowNullReferenceException();
       }
     }
   }
+label_05d7771a:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$MatchesSearch
 // il2cpp: bool UI_MapEditorHierarchyPanel__MatchesSearch (UI_MapEditorHierarchyPanel_o* __this, Map_MapObject_o* obj, System_String_o* search, const MethodInfo* method);
-// 0x1822b3b10
+// 0x5d76fc0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d77017: jmp 0x5d7706b
 
 bool UI_MapEditorHierarchyPanel__MatchesSearch
                (UI_MapEditorHierarchyPanel_o *__this,Map_MapObject_o *obj,System_String_o *search,
@@ -3080,17 +3362,18 @@ bool UI_MapEditorHierarchyPanel__MatchesSearch
   System_String_o *pSVar3;
   
   bVar2 = System_String__op_Equality
-                    (search,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
+                    (search,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
   if (bVar2) {
     return true;
   }
   if ((obj != (Map_MapObject_o *)0x0) &&
      (pMVar1 = (obj->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
-    if ((pMVar1->fields).Name == (System_String_o *)0x0) {
-      pSVar3 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    pSVar3 = (pMVar1->fields).Name;
+    if (pSVar3 == (System_String_o *)0x0) {
+      pSVar3 = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
     else {
-      pSVar3 = System_String__ToLower((pMVar1->fields).Name,(MethodInfo *)0x0);
+      pSVar3 = System_String__ToLower(pSVar3,(MethodInfo *)0x0);
     }
     if (pSVar3 != (System_String_o *)0x0) {
       bVar2 = System_String__Contains(pSVar3,search,(MethodInfo *)0x0);
@@ -3111,20 +3394,29 @@ bool UI_MapEditorHierarchyPanel__MatchesSearch
 
 // UI.MapEditorHierarchyPanel$$EnsurePoolSize
 // il2cpp: void UI_MapEditorHierarchyPanel__EnsurePoolSize (UI_MapEditorHierarchyPanel_o* __this, int32_t size, const MethodInfo* method);
-// 0x1822b0eb0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b0fd4: jmp 0x1822b0f31
+// 0x5d74f60
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d74fd9: lea r12, [rip + 0x1506410]  ; TypeInfo_UnityEngine_Object
+// asm:   0x5d74fe0: lea r13, [rip + 0x151f781]  ; MethodInfo_System_Collections_Generic_List_GameObject_Add
+// asm:   0x5d74fe7: jmp 0x5d750e6
+// asm:   0x5d75017: jmp 0x5d7511f
 
 void UI_MapEditorHierarchyPanel__EnsurePoolSize
                (UI_MapEditorHierarchyPanel_o *__this,int32_t size,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_GameObject__o *pSVar1;
-  bool bVar2;
-  UnityEngine_GameObject_o *__this_00;
+  int32_t *piVar1;
+  uint uVar2;
+  UnityEngine_GameObject_array *pUVar3;
+  MethodInfo *pMVar4;
+  bool bVar5;
+  MethodInfo *method_00;
   UnityEngine_UI_RectMask2D_o *x;
+  System_Collections_Generic_List_GameObject__o *pSVar6;
+  undefined4 in_register_00000034;
   
-  if (Il2CppMethodInitialized_184347517 == '\0') {
+  method_00 = (MethodInfo *)CONCAT44(in_register_00000034,size);
+  if (Il2CppMethodInitialized_07547fd1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_RectMask2D);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectMask2D);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
@@ -3132,82 +3424,112 @@ void UI_MapEditorHierarchyPanel__EnsurePoolSize
               (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/Misc/MapEditorHierarchyButton");
-    Il2CppMethodInitialized_184347517 = '\x01';
+    Il2CppMethodInitialized_07547fd1 = '\x01';
   }
-  pSVar1 = (__this->fields)._itemPool;
-  while (pSVar1 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    if (size <= (pSVar1->fields)._size) {
-      if ((__this->fields)._treeViewEnabled != false) {
-        UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,(MethodInfo *)0x0);
+  pSVar6 = (__this->fields)._itemPool;
+  while (pSVar6 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+    while( true ) {
+      if (size <= (pSVar6->fields)._size) {
+        if ((__this->fields)._treeViewEnabled == false) {
+          return;
+        }
+        UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,method_00);
+        return;
       }
-      return;
+      method_00 = (MethodInfo *)
+                  UI_ElementFactory__InstantiateAndBind
+                            ((__this->fields).SinglePanel,"Prefabs/Misc/MapEditorHierarchyButton",(MethodInfo *)0x0);
+      if (method_00 == (MethodInfo *)0x0) goto label_05d7511f;
+      UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)method_00,false,(MethodInfo *)0x0);
+      x = UnityEngine_GameObject__GetComponent_object_
+                    ((UnityEngine_GameObject_o *)method_00,
+                     (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_RectMask2D);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar5 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar5) {
+        UnityEngine_GameObject__AddComponent_object_
+                  ((UnityEngine_GameObject_o *)method_00,
+                   (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_RectMask2D);
+      }
+      pMVar4 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
+      pSVar6 = (__this->fields)._itemPool;
+      if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d7511f;
+      piVar1 = &(pSVar6->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar3 = (pSVar6->fields)._items;
+      if (pUVar3 == (UnityEngine_GameObject_array *)0x0) goto label_05d7511f;
+      uVar2 = (pSVar6->fields)._size;
+      if ((uint)pUVar3->max_length <= uVar2) break;
+      (pSVar6->fields)._size = uVar2 + 1;
+      pUVar3->m_Items[(int)uVar2] = (UnityEngine_GameObject_o *)method_00;
+      Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
+      pSVar6 = (__this->fields)._itemPool;
+      if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d7511f;
     }
-    __this_00 = UI_ElementFactory__InstantiateAndBind
-                          ((__this->fields).SinglePanel,"Prefabs/Misc/MapEditorHierarchyButton",(MethodInfo *)0x0);
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) break;
-    UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
-    x = UnityEngine_GameObject__GetComponent_object_
-                  (__this_00,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_RectMask2D);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar2 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar2) {
-      UnityEngine_GameObject__AddComponent_object_
-                (__this_00,(MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_RectMask2D);
-    }
-    if ((__this->fields)._itemPool == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-    il2cpp_runtime_helper_180012890();
-    pSVar1 = (__this->fields)._itemPool;
+    System_Collections_Generic_List_object___AddWithResize
+              ((System_Collections_Generic_List_object__o *)pSVar6,(Il2CppObject *)method_00,
+               (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+    pSVar6 = (__this->fields)._itemPool;
   }
+label_05d7511f:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$BindPooledItem
 // il2cpp: void UI_MapEditorHierarchyPanel__BindPooledItem (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_GameObject_o* go, UI_MapEditorHierarchyPanel_RowData_o row, int32_t rowIndex, const MethodInfo* method);
-// 0x1822ade80
+// 0x5d75130
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d75662: jmp 0x5d75cac
 
 void UI_MapEditorHierarchyPanel__BindPooledItem
                (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_GameObject_o *go,
                UI_MapEditorHierarchyPanel_RowData_o row,int32_t rowIndex,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
-  System_Collections_Generic_Dictionary_int__object__o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
   System_Collections_Generic_HashSet_int__o *pSVar2;
-  UnityEngine_UI_Button_ButtonClickedEvent_o *pUVar3;
-  UnityEngine_Events_UnityEvent_o *pUVar4;
-  bool bVar5;
+  Map_MapScriptBaseObject_o *pMVar3;
+  UnityEngine_UI_Button_ButtonClickedEvent_o *pUVar4;
+  UnityEngine_Events_UnityEvent_o *pUVar5;
   bool value;
-  UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *object;
-  uint64_t uVar6;
-  UnityEngine_Transform_o *pUVar7;
-  UnityEngine_GameObject_o *pUVar8;
+  bool bVar6;
+  bool bVar7;
+  UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *__this_00;
+  Map_MapObject_o *pMVar8;
+  UnityEngine_Transform_o *pUVar9;
+  UI_MapEditorHierarchyPanel_o *pUVar10;
   UnityEngine_Object_o *x;
   UnityEngine_UI_Text_o *__this_01;
-  UnityEngine_Color_o *pUVar9;
-  UnityEngine_UI_LayoutElement_o *pUVar10;
+  UnityEngine_UI_LayoutElement_o *pUVar11;
   UnityEngine_UI_HorizontalLayoutGroup_o *__this_02;
   UnityEngine_RectOffset_o *__this_03;
   UI_MapEditorHirarchyButton_o *__this_04;
-  UnityEngine_Events_UnityAction_o *pUVar11;
+  UnityEngine_Events_UnityAction_o *pUVar12;
   UnityEngine_Events_UnityAction_o *__this_05;
-  DG_Tweening_Core_DOSetter_T__o *__this_06;
-  DG_Tweening_Core_DOSetter_T__o *__this_07;
-  DG_Tweening_Core_DOSetter_T__o *__this_08;
-  DG_Tweening_Core_DOSetter_T__o *__this_09;
-  UnityEngine_GameObject_o *__this_10;
+  UnityEngine_Events_UnityAction_T0__o *__this_06;
+  UnityEngine_Events_UnityAction_T0__o *__this_07;
+  UnityEngine_Events_UnityAction_T0__o *__this_08;
+  UnityEngine_Events_UnityAction_T0__o *__this_09;
+  UnityEngine_Events_UnityAction_T0__o *__this_10;
+  Il2CppObject *pIVar13;
+  UnityEngine_GameObject_o *arrowObject;
   UnityEngine_GameObject_o *__this_11;
+  UnityEngine_GameObject_o *__this_12;
   UnityEngine_UI_Button_o *x_00;
   UnityEngine_UI_Button_o *x_01;
-  int32_t iVar12;
-  float fVar13;
-  float fVar14;
-  DG_Tweening_Core_DOSetter_T__o *local_58 [6];
+  System_String_o **method_00;
+  MethodInfo *method_01;
+  int32_t iVar14;
+  float fVar15;
+  float fVar16;
+  UnityEngine_Color_o UVar17;
+  MethodInfo *in_stack_ffffffffffffff88;
   
-  if (Il2CppMethodInitialized_184347518 == '\0') {
+  if (Il2CppMethodInitialized_07547fd2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3234,24 +3556,24 @@ void UI_MapEditorHierarchyPanel__BindPooledItem
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectOffset);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__0);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__1);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__1);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__2);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__2);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__3);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__3);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__4);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__4);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__5);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__5);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__6);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__6);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__7);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__7);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__8);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__8);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
@@ -3264,463 +3586,368 @@ void UI_MapEditorHierarchyPanel__BindPooledItem
     il2cpp_codegen_initialize_runtime_metadata(&"Highlight");
     il2cpp_codegen_initialize_runtime_metadata(&"DefaultLabel");
     il2cpp_codegen_initialize_runtime_metadata(&"ArrowRightButton");
-    Il2CppMethodInitialized_184347518 = '\x01';
+    Il2CppMethodInitialized_07547fd2 = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0);
-  UI_MapEditorHierarchyPanel___c__DisplayClass90_0___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)object,(MethodInfo *)0x0);
-  if (object != (UI_MapEditorHierarchyPanel___c__DisplayClass90_0_o *)0x0) {
-    (object->fields).__4__this = __this;
-    Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
-    (object->fields).row.fields = row.fields;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  if (__this_00 != (UI_MapEditorHierarchyPanel___c__DisplayClass91_0_o *)0x0) {
+    (__this_00->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+    (__this_00->fields).row.fields = row.fields;
     if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
     }
-    pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+    pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
              TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-      bVar5 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (pSVar1,(object->fields).row.fields.Id,
-                         (MethodInfo_1407110 *)
+    if (pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+      value = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                        (pSVar1,(__this_00->fields).row.fields.Id,
+                         (MethodInfo_4A0F950 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar5) {
-        if (go == (UnityEngine_GameObject_o *)0x0) goto label_1822aea67;
-        bVar5 = false;
-label_1822aea29:
-        UnityEngine_GameObject__SetActive(go,bVar5,(MethodInfo *)0x0);
-        return;
+      if (!value) {
+        if (go == (UnityEngine_GameObject_o *)0x0) goto label_05d75cac;
+        goto label_05d75c90;
       }
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-        uVar6 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                          (pSVar1,(object->fields).row.fields.Id,
-                           (MethodInfo_14156F0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-        __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
-        if (__this_00 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
-          System_Collections_Generic_Dictionary_int__object___set_Item
-                    (__this_00,(object->fields).row.fields.Id,(Il2CppObject *)go,
-                     (MethodInfo_1423510 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_set_Item);
-          if (go != (UnityEngine_GameObject_o *)0x0) {
-            pUVar7 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
-            if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-              pUVar7 = UnityEngine_Transform__Find(pUVar7,"Highlight",(MethodInfo *)0x0);
-              if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                pUVar8 = UnityEngine_Component__get_gameObject
-                                   ((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0);
-                pSVar2 = (__this->fields)._selected;
-                if (pSVar2 != (System_Collections_Generic_HashSet_int__o *)0x0) {
-                  bVar5 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                                    ((System_Collections_Generic_HashSet_T__o *)pSVar2,
-                                     (object->fields).row.fields.Id,
-                                     (MethodInfo_1759C90 *)
-                                     MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-                  if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
-                    UnityEngine_GameObject__SetActive(pUVar8,bVar5,(MethodInfo *)0x0);
-                    x = (UnityEngine_Object_o *)
-                        UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay(__this,go,(MethodInfo *)0x0);
+      if (pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+        pMVar8 = System_Collections_Generic_Dictionary_int__object___get_Item
+                           (pSVar1,(__this_00->fields).row.fields.Id,
+                            (MethodInfo_4A0F690 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+        if ((((pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) &&
+             (System_Collections_Generic_Dictionary_int__object___set_Item
+                        (pSVar1,(__this_00->fields).row.fields.Id,(Il2CppObject *)go,
+                         (MethodInfo_4A0F720 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_set_Item),
+             go != (UnityEngine_GameObject_o *)0x0)) &&
+            (pUVar9 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0),
+            pUVar9 != (UnityEngine_Transform_o *)0x0)) &&
+           (pUVar9 = UnityEngine_Transform__Find(pUVar9,"Highlight",(MethodInfo *)0x0),
+           pUVar9 != (UnityEngine_Transform_o *)0x0)) {
+          pUVar10 = (UI_MapEditorHierarchyPanel_o *)
+                    UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar9,(MethodInfo *)0x0)
+          ;
+          pSVar2 = (__this->fields)._selected;
+          if ((pSVar2 != (System_Collections_Generic_HashSet_int__o *)0x0) &&
+             (bVar6 = System_Collections_Generic_HashSet_int___Contains
+                                (pSVar2,(__this_00->fields).row.fields.Id,
+                                 (MethodInfo_4FA7E00 *)
+                                 MethodInfo_System_Collections_Generic_HashSet_int_Contains),
+             pUVar10 != (UI_MapEditorHierarchyPanel_o *)0x0)) {
+            UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)pUVar10,bVar6,(MethodInfo *)0x0);
+            x = (UnityEngine_Object_o *)
+                UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay(pUVar10,go,method_01);
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+            }
+            bVar6 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            if (bVar6) {
+              if (x == (UnityEngine_Object_o *)0x0) goto label_05d75cac;
+              UnityEngine_GameObject__SetActive
+                        ((UnityEngine_GameObject_o *)x,
+                         (__this_00->fields).row.fields.Id == (__this->fields)._dropIndicatorId,
+                         (MethodInfo *)0x0);
+            }
+            pUVar9 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
+            if (((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
+                (pUVar9 = UnityEngine_Transform__Find(pUVar9,"Text",(MethodInfo *)0x0),
+                pUVar9 != (UnityEngine_Transform_o *)0x0)) &&
+               ((__this_01 = UnityEngine_Component__GetComponent_object_
+                                       ((UnityEngine_Component_o *)pUVar9,
+                                        (MethodInfo_34B0830 *)
+                                        MethodInfo_UnityEngine_Component_GetComponent_Text),
+                pMVar8 != (Map_MapObject_o *)0x0 &&
+                ((pMVar3 = (pMVar8->fields).ScriptObject, pMVar3 != (Map_MapScriptBaseObject_o *)0x0 &&
+                 (__this_01 != (UnityEngine_UI_Text_o *)0x0)))))) {
+              (*(__this_01->klass->vtable)._75_set_text.methodPtr)
+                        (__this_01,(pMVar3->fields).Name,(__this_01->klass->vtable)._75_set_text.method);
+              UnityEngine_UI_Text__set_horizontalOverflow(__this_01,1,(MethodInfo *)0x0);
+              if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              }
+              UVar17 = UI_UIManager__GetThemeColor
+                                 ("DefaultPanel","DefaultLabel","TextColor",
+                                  "DefaultPanel",(MethodInfo *)0x0);
+              (*(__this_01->klass->vtable)._23_set_color.methodPtr)
+                        (__this_01,UVar17,(__this_01->klass->vtable)._23_set_color.method);
+              pUVar11 = UnityEngine_Component__GetComponent_object_
+                                  ((UnityEngine_Component_o *)__this_01,
+                                   (MethodInfo_34B0830 *)
+                                   MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+              if (pUVar11 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                (*(pUVar11->klass->vtable)._32_set_minWidth.methodPtr)
+                          (pUVar11,0.0,(pUVar11->klass->vtable)._32_set_minWidth.method);
+                (*(pUVar11->klass->vtable)._36_set_preferredWidth.methodPtr)
+                          (pUVar11,0.0,(pUVar11->klass->vtable)._36_set_preferredWidth.method);
+                (*(pUVar11->klass->vtable)._40_set_flexibleWidth.methodPtr)
+                          (pUVar11,1.0,(pUVar11->klass->vtable)._40_set_flexibleWidth.method);
+                if ((__this->fields)._treeViewEnabled == false) {
+                  iVar14 = 10;
+                }
+                else {
+                  iVar14 = (__this_00->fields).row.fields.Depth * 0x12 + 6;
+                }
+                __this_02 = UnityEngine_GameObject__GetComponent_object_
+                                      (go,(MethodInfo_353B730 *)
+                                          MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup
+                                      );
+                __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_RectOffset);
+                UnityEngine_RectOffset___ctor_68cd0a0(__this_03,iVar14,0,0,0,(MethodInfo *)0x0);
+                if (__this_02 != (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) {
+                  UnityEngine_UI_LayoutGroup__set_padding
+                            ((UnityEngine_UI_LayoutGroup_o *)__this_02,__this_03,(MethodInfo *)0x0);
+                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
+                            ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,2.0,
+                             (MethodInfo *)0x0);
+                  pUVar11 = UnityEngine_GameObject__GetComponent_object_
+                                      (go,(MethodInfo_353B730 *)
+                                          MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+                  if (pUVar11 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                    (*(pUVar11->klass->vtable)._32_set_minWidth.methodPtr)
+                              (pUVar11,0.0,(pUVar11->klass->vtable)._32_set_minWidth.method);
+                    fVar15 = (*(__this->klass->vtable)._30_GetPanelWidth.methodPtr)
+                                       (__this,(__this->klass->vtable)._30_GetPanelWidth.method);
+                    iVar14 = (*(__this->klass->vtable)._10_get_HorizontalPadding.methodPtr)
+                                       (__this,(__this->klass->vtable)._10_get_HorizontalPadding.method);
+                    fVar15 = fVar15 - ((float)iVar14 + (float)iVar14);
+                    fVar16 = 0.0;
+                    if (0.0 <= fVar15) {
+                      fVar16 = fVar15;
+                    }
+                    (*(pUVar11->klass->vtable)._36_set_preferredWidth.methodPtr)
+                              (pUVar11,fVar16,(pUVar11->klass->vtable)._36_set_preferredWidth.method);
+                    (*(pUVar11->klass->vtable)._38_set_preferredHeight.methodPtr)
+                              (pUVar11,22.0,(pUVar11->klass->vtable)._38_set_preferredHeight.method);
+                    (*(pUVar11->klass->vtable)._34_set_minHeight.methodPtr)
+                              (pUVar11,22.0,(pUVar11->klass->vtable)._34_set_minHeight.method);
+                    (__this->fields)._virtualRowHeight = 22.0;
+                    __this_04 = UnityEngine_GameObject__GetComponent_object_
+                                          (go,(MethodInfo_353B730 *)
+                                              MethodInfo_UnityEngine_GameObject_GetComponent_MapEditorHirarchyButton
+                                          );
                     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                     }
-                    bVar5 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
-                    ;
-                    if (bVar5) {
-                      if (x == (UnityEngine_Object_o *)0x0) goto label_1822aea67;
-                      UnityEngine_GameObject__SetActive
-                                ((UnityEngine_GameObject_o *)x,
-                                 (object->fields).row.fields.Id == (__this->fields)._dropIndicatorId,
-                                 (MethodInfo *)0x0);
+                    bVar6 = UnityEngine_Object__op_Equality
+                                      ((UnityEngine_Object_o *)__this_04,(UnityEngine_Object_o *)0x0,
+                                       (MethodInfo *)0x0);
+                    if (bVar6) {
+                      __this_04 = UnityEngine_GameObject__AddComponent_object_
+                                            (go,(MethodInfo_353B6A0 *)
+                                                MethodInfo_UnityEngine_GameObject_AddComponent_MapEditorHirarchyButton
+                                            );
                     }
-                    pUVar7 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
-                    if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                      pUVar7 = UnityEngine_Transform__Find(pUVar7,"Text",(MethodInfo *)0x0);
-                      if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                        __this_01 = UnityEngine_Component__GetComponent_object_
-                                              ((UnityEngine_Component_o *)pUVar7,
-                                               (MethodInfo_6651A0 *)
-                                               MethodInfo_UnityEngine_Component_GetComponent_Text);
-                        if (((uVar6 != 0) && (*(longlong *)(uVar6 + 0x20) != 0)) &&
-                           (__this_01 != (UnityEngine_UI_Text_o *)0x0)) {
-                          (*(__this_01->klass->vtable)._75_set_text.methodPtr)
-                                    (__this_01,*(System_String_o **)(*(longlong *)(uVar6 + 0x20) + 0x30),
-                                     (__this_01->klass->vtable)._75_set_text.method);
-                          UnityEngine_UI_Text__set_horizontalOverflow(__this_01,1,(MethodInfo *)0x0);
-                          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-                            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-                          }
-                          pUVar9 = UI_UIManager__GetThemeColor
-                                             ((UnityEngine_Color_o *)local_58,"DefaultPanel",
-                                              "DefaultLabel","TextColor",
-                                              "DefaultPanel",(MethodInfo *)0x0);
-                          local_58[0] = *(DG_Tweening_Core_DOSetter_T__o **)&pUVar9->fields;
-                          local_58[1]._0_4_ = (pUVar9->fields).b;
-                          local_58[1]._4_4_ = (pUVar9->fields).a;
-                          (*(__this_01->klass->vtable)._23_set_color.methodPtr)
-                                    (__this_01,(UnityEngine_Color_o *)local_58,
-                                     (__this_01->klass->vtable)._23_set_color.method);
-                          pUVar10 = UnityEngine_Component__GetComponent_object_
-                                              ((UnityEngine_Component_o *)__this_01,
-                                               (MethodInfo_6651A0 *)
-                                               MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
-                          if (pUVar10 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                            (*(pUVar10->klass->vtable)._32_set_minWidth.methodPtr)
-                                      (pUVar10,0.0,(pUVar10->klass->vtable)._32_set_minWidth.method);
-                            (*(pUVar10->klass->vtable)._36_set_preferredWidth.methodPtr)
-                                      (pUVar10,0.0,(pUVar10->klass->vtable)._36_set_preferredWidth.method);
-                            (*(pUVar10->klass->vtable)._40_set_flexibleWidth.methodPtr)
-                                      (pUVar10,1.0,(pUVar10->klass->vtable)._40_set_flexibleWidth.method);
-                            if ((__this->fields)._treeViewEnabled == false) {
-                              iVar12 = 10;
-                            }
-                            else {
-                              iVar12 = (object->fields).row.fields.Depth * 0x12 + 6;
-                            }
-                            __this_02 = UnityEngine_GameObject__GetComponent_object_
-                                                  (go,(MethodInfo_6F5650 *)
-                                                      MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup
-                                                  );
-                            __this_03 = il2cpp_codegen_object_new
-                                                  ((Il2CppClass *)TypeInfo_UnityEngine_RectOffset);
-                            UnityEngine_RectOffset___ctor_2ed1030(__this_03,iVar12,0,0,0,(MethodInfo *)0x0);
-                            if (__this_02 != (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) {
-                              UnityEngine_UI_LayoutGroup__set_padding
-                                        ((UnityEngine_UI_LayoutGroup_o *)__this_02,__this_03,(MethodInfo *)0x0
-                                        );
-                              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
-                                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,2.0,
-                                         (MethodInfo *)0x0);
-                              pUVar10 = UnityEngine_GameObject__GetComponent_object_
-                                                  (go,(MethodInfo_6F5650 *)
-                                                      MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
-                                                  );
-                              if (pUVar10 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                                (*(pUVar10->klass->vtable)._32_set_minWidth.methodPtr)
-                                          (pUVar10,0.0,(pUVar10->klass->vtable)._32_set_minWidth.method);
-                                fVar13 = (*(__this->klass->vtable)._30_GetPanelWidth.methodPtr)
-                                                   (__this,(__this->klass->vtable)._30_GetPanelWidth.method);
-                                iVar12 = (*(__this->klass->vtable)._10_get_HorizontalPadding.methodPtr)
-                                                   (__this);
-                                fVar13 = fVar13 - ((float)iVar12 + (float)iVar12);
-                                fVar14 = 0.0;
-                                if (0.0 <= fVar13) {
-                                  fVar14 = fVar13;
+                    pUVar12 = il2cpp_codegen_object_new
+                                        ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                    UnityEngine_Events_UnityAction___ctor
+                              (pUVar12,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__0,
+                               (MethodInfo *)0x0);
+                    __this_05 = il2cpp_codegen_object_new
+                                          ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                    UnityEngine_Events_UnityAction___ctor
+                              (__this_05,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__1,
+                               (MethodInfo *)0x0);
+                    __this_06 = (UnityEngine_Events_UnityAction_T0__o *)
+                                il2cpp_codegen_object_new
+                                          ((Il2CppClass *)
+                                           TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
+                    UnityEngine_Events_UnityAction_object____ctor
+                              (__this_06,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__2,
+                               (MethodInfo_4311A10 *)0x0);
+                    __this_07 = (UnityEngine_Events_UnityAction_T0__o *)
+                                il2cpp_codegen_object_new
+                                          ((Il2CppClass *)
+                                           TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
+                    UnityEngine_Events_UnityAction_object____ctor
+                              (__this_07,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__3,
+                               (MethodInfo_4311A10 *)0x0);
+                    __this_08 = (UnityEngine_Events_UnityAction_T0__o *)
+                                il2cpp_codegen_object_new
+                                          ((Il2CppClass *)
+                                           TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
+                    UnityEngine_Events_UnityAction_object____ctor
+                              (__this_08,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__4,
+                               (MethodInfo_4311A10 *)0x0);
+                    __this_09 = (UnityEngine_Events_UnityAction_T0__o *)
+                                il2cpp_codegen_object_new
+                                          ((Il2CppClass *)
+                                           TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
+                    UnityEngine_Events_UnityAction_object____ctor
+                              (__this_09,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__5,
+                               (MethodInfo_4311A10 *)0x0);
+                    __this_10 = (UnityEngine_Events_UnityAction_T0__o *)
+                                il2cpp_codegen_object_new
+                                          ((Il2CppClass *)
+                                           TypeInfo_UnityEngine_Events_UnityAction_PointerEventData);
+                    UnityEngine_Events_UnityAction_object____ctor
+                              (__this_10,(Il2CppObject *)__this_00,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__6,
+                               (MethodInfo_4311A10 *)0x0);
+                    if (__this_04 != (UI_MapEditorHirarchyButton_o *)0x0) {
+                      UI_MapEditorHirarchyButton__Setup
+                                (__this_04,pUVar12,__this_05,
+                                 (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_06,
+                                 (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_07,
+                                 (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_08,
+                                 (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_09,
+                                 (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_10,
+                                 in_stack_ffffffffffffff88);
+                      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                               (__this->fields)._treeChildren;
+                      if (pSVar1 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+                        bVar7 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                                          (pSVar1,(__this_00->fields).row.fields.Id,
+                                           (MethodInfo_4A0F950 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey
+                                          );
+                        bVar6 = false;
+                        if (bVar7) {
+                          pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                                   (__this->fields)._treeChildren;
+                          if ((pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+                             (pIVar13 = System_Collections_Generic_Dictionary_int__object___get_Item
+                                                  (pSVar1,(__this_00->fields).row.fields.Id,
+                                                   (MethodInfo_4A0F690 *)
+                                                   MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item
+                                                  ), pIVar13 == (Il2CppObject *)0x0)) goto label_05d75cac;
+                          bVar6 = 0 < *(int *)&pIVar13[1].monitor;
+                        }
+                        pSVar2 = (__this->fields)._expanded;
+                        if (pSVar2 != (System_Collections_Generic_HashSet_int__o *)0x0) {
+                          bVar7 = System_Collections_Generic_HashSet_int___Contains
+                                            (pSVar2,(__this_00->fields).row.fields.Id,
+                                             (MethodInfo_4FA7E00 *)
+                                             MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+                          pUVar9 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
+                          if ((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
+                             (pUVar9 = UnityEngine_Transform__Find
+                                                 (pUVar9,"ArrowRightButton",(MethodInfo *)0x0),
+                             pUVar9 != (UnityEngine_Transform_o *)0x0)) {
+                            arrowObject = UnityEngine_Component__get_gameObject
+                                                    ((UnityEngine_Component_o *)pUVar9,(MethodInfo *)0x0);
+                            pUVar9 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
+                            if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
+                              method_00 = &"ArrowDownButton";
+                              pUVar9 = UnityEngine_Transform__Find
+                                                 (pUVar9,"ArrowDownButton",(MethodInfo *)0x0);
+                              if (((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
+                                  (__this_11 = UnityEngine_Component__get_gameObject
+                                                         ((UnityEngine_Component_o *)pUVar9,(MethodInfo *)0x0)
+                                  , __this_11 != (UnityEngine_GameObject_o *)0x0)) &&
+                                 (pUVar10 = (UI_MapEditorHierarchyPanel_o *)
+                                            UnityEngine_GameObject__get_transform(__this_11,(MethodInfo *)0x0)
+                                 , pUVar10 != (UI_MapEditorHierarchyPanel_o *)0x0)) {
+                                iVar14 = UnityEngine_Transform__GetSiblingIndex
+                                                   ((UnityEngine_Transform_o *)pUVar10,(MethodInfo *)0x0);
+                                __this_12 = UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer
+                                                      (pUVar10,go,iVar14,(MethodInfo *)method_00);
+                                UI_MapEditorHierarchyPanel__SetTreeArrowIcon
+                                          (__this,arrowObject,"Icons/Navigation/ArrowRight",(MethodInfo *)method_00);
+                                UI_MapEditorHierarchyPanel__SetTreeArrowIcon
+                                          (__this,__this_11,"Icons/Navigation/ArrowDown",(MethodInfo *)method_00);
+                                if ((bVar6 & (__this->fields)._treeViewEnabled) == 0) {
+                                  if (arrowObject != (UnityEngine_GameObject_o *)0x0) {
+                                    UnityEngine_GameObject__SetActive(arrowObject,false,(MethodInfo *)0x0);
+                                    UnityEngine_GameObject__SetActive(__this_11,false,(MethodInfo *)0x0);
+                                    if (__this_12 != (UnityEngine_GameObject_o *)0x0) {
+                                      UnityEngine_GameObject__SetActive
+                                                (__this_12,(__this->fields)._treeViewEnabled,(MethodInfo *)0x0
+                                                );
+                                      goto label_05d75c90;
+                                    }
+                                  }
                                 }
-                                (*(pUVar10->klass->vtable)._36_set_preferredWidth.methodPtr)
-                                          (pUVar10,fVar14,
-                                           (pUVar10->klass->vtable)._36_set_preferredWidth.method);
-                                (*(pUVar10->klass->vtable)._38_set_preferredHeight.methodPtr)
-                                          (pUVar10,22.0,
-                                           (pUVar10->klass->vtable)._38_set_preferredHeight.method);
-                                (*(pUVar10->klass->vtable)._34_set_minHeight.methodPtr)
-                                          (pUVar10,22.0,(pUVar10->klass->vtable)._34_set_minHeight.method);
-                                (__this->fields)._virtualRowHeight = 22.0;
-                                __this_04 = UnityEngine_GameObject__GetComponent_object_
-                                                      (go,(MethodInfo_6F5650 *)
-                                                                                                                    
-                                                       MethodInfo_UnityEngine_GameObject_GetComponent_MapEditorHirarchyButton
-                                                      );
-                                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                                  il2cpp_codegen_runtime_class_init
-                                            ((Il2CppClass *)TypeInfo_UnityEngine_Object);
-                                }
-                                bVar5 = UnityEngine_Object__op_Equality
-                                                  ((UnityEngine_Object_o *)__this_04,
-                                                   (UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                                if (bVar5) {
-                                  __this_04 = UnityEngine_GameObject__AddComponent_object_
-                                                        (go,(MethodInfo_6F4D60 *)
-                                                                                                                        
-                                                       MethodInfo_UnityEngine_GameObject_AddComponent_MapEditorHirarchyButton
-                                                       );
-                                }
-                                pUVar11 = il2cpp_codegen_object_new
-                                                    ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
-                                UnityEngine_Events_UnityAction___ctor
-                                          ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar11,
-                                           (Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__0
-                                           ,(MethodInfo *)0x0);
-                                __this_05 = il2cpp_codegen_object_new
-                                                      ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction)
-                                ;
-                                UnityEngine_Font_FontTextureRebuildCallback___ctor
-                                          ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_05,
-                                           (Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__1
-                                           ,(MethodInfo *)0x0);
-                                __this_06 = (DG_Tweening_Core_DOSetter_T__o *)
-                                            il2cpp_codegen_object_new
-                                                      ((Il2CppClass *)
-                                                       TypeInfo_UnityEngine_Events_UnityAction_PointerEventData
-                                                      );
-                                UnityEngine_Events_UnityAction_object____ctor
-                                          (__this_06,(Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__2
-                                           ,(MethodInfo_EB6EC0 *)0x0);
-                                __this_07 = (DG_Tweening_Core_DOSetter_T__o *)
-                                            il2cpp_codegen_object_new
-                                                      ((Il2CppClass *)
-                                                       TypeInfo_UnityEngine_Events_UnityAction_PointerEventData
-                                                      );
-                                UnityEngine_Events_UnityAction_object____ctor
-                                          (__this_07,(Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__3
-                                           ,(MethodInfo_EB6EC0 *)0x0);
-                                __this_08 = (DG_Tweening_Core_DOSetter_T__o *)
-                                            il2cpp_codegen_object_new
-                                                      ((Il2CppClass *)
-                                                       TypeInfo_UnityEngine_Events_UnityAction_PointerEventData
-                                                      );
-                                UnityEngine_Events_UnityAction_object____ctor
-                                          (__this_08,(Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__4
-                                           ,(MethodInfo_EB6EC0 *)0x0);
-                                __this_09 = (DG_Tweening_Core_DOSetter_T__o *)
-                                            il2cpp_codegen_object_new
-                                                      ((Il2CppClass *)
-                                                       TypeInfo_UnityEngine_Events_UnityAction_PointerEventData
-                                                      );
-                                UnityEngine_Events_UnityAction_object____ctor
-                                          (__this_09,(Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__5
-                                           ,(MethodInfo_EB6EC0 *)0x0);
-                                local_58[0] = (DG_Tweening_Core_DOSetter_T__o *)
-                                              il2cpp_codegen_object_new
+                                else if ((__this_12 != (UnityEngine_GameObject_o *)0x0) &&
+                                        (UnityEngine_GameObject__SetActive(__this_12,false,(MethodInfo *)0x0),
+                                        arrowObject != (UnityEngine_GameObject_o *)0x0)) {
+                                  UnityEngine_GameObject__SetActive(arrowObject,!bVar7,(MethodInfo *)0x0);
+                                  UnityEngine_GameObject__SetActive(__this_11,bVar7,(MethodInfo *)0x0);
+                                  x_00 = UnityEngine_GameObject__GetComponent_object_
+                                                   (arrowObject,
+                                                    (MethodInfo_353B730 *)
+                                                    MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                                  x_01 = UnityEngine_GameObject__GetComponent_object_
+                                                   (__this_11,
+                                                    (MethodInfo_353B730 *)
+                                                    MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                                    il2cpp_codegen_runtime_class_init
+                                              ((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                                  }
+                                  bVar6 = UnityEngine_Object__op_Inequality
+                                                    ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,
+                                                     (MethodInfo *)0x0);
+                                  if (bVar6) {
+                                    if ((x_00 == (UnityEngine_UI_Button_o *)0x0) ||
+                                       (pUVar4 = (x_00->fields).m_OnClick,
+                                       pUVar4 == (UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0))
+                                    goto label_05d75cac;
+                                    UnityEngine_Events_UnityEventBase__RemoveAllListeners
+                                              ((UnityEngine_Events_UnityEventBase_o *)pUVar4,(MethodInfo *)0x0
+                                              );
+                                    pUVar5 = (UnityEngine_Events_UnityEvent_o *)(x_00->fields).m_OnClick;
+                                    pUVar12 = il2cpp_codegen_object_new
                                                         ((Il2CppClass *)
-                                                                                                                  
-                                                       TypeInfo_UnityEngine_Events_UnityAction_PointerEventData
-                                                       );
-                                DG_Tweening_Core_DOSetter_object____ctor
-                                          (local_58[0],(Il2CppObject *)object,
-                                           (intptr_t)
-                                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__6
-                                           ,(MethodInfo_EB6EC0 *)0x0);
-                                if ((__this_04 != (UI_MapEditorHirarchyButton_o *)0x0) &&
-                                   (pUVar3 = (__this_04->fields).m_OnClick,
-                                   pUVar3 != (UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0)) {
-                                  UnityEngine_Events_UnityEventBase__RemoveAllListeners
-                                            ((UnityEngine_Events_UnityEventBase_o *)pUVar3,(MethodInfo *)0x0);
-                                  pUVar4 = (UnityEngine_Events_UnityEvent_o *)(__this_04->fields).m_OnClick;
-                                  if (pUVar4 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+                                                         TypeInfo_UnityEngine_Events_UnityAction);
+                                    UnityEngine_Events_UnityAction___ctor
+                                              (pUVar12,(Il2CppObject *)__this_00,
+                                               (intptr_t)
+                                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__7
+                                               ,(MethodInfo *)0x0);
+                                    if (pUVar5 == (UnityEngine_Events_UnityEvent_o *)0x0) goto label_05d75cac;
                                     UnityEngine_Events_UnityEvent__AddListener
-                                              (pUVar4,pUVar11,(MethodInfo *)0x0);
-                                    (__this_04->fields)._onButtonRelease = __this_05;
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onButtonRelease,__this_05)
-                                    ;
-                                    (__this_04->fields)._onRightClick =
-                                         (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_06;
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onRightClick,__this_06);
-                                    (__this_04->fields)._onPointerDown =
-                                         (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_07;
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onPointerDown,__this_07);
-                                    (__this_04->fields)._onBeginDrag =
-                                         (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_08;
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onBeginDrag,__this_08);
-                                    (__this_04->fields)._onDrag =
-                                         (UnityEngine_Events_UnityAction_PointerEventData__o *)__this_09;
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onDrag,__this_09);
-                                    (__this_04->fields)._onEndDrag =
-                                         (UnityEngine_Events_UnityAction_PointerEventData__o *)local_58[0];
-                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields)._onEndDrag,local_58[0]);
-                                    UnityEngine_UI_Selectable__set_transition
-                                              ((UnityEngine_UI_Selectable_o *)__this_04,0,(MethodInfo *)0x0);
-                                    pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                                             (__this->fields)._treeChildren;
-                                    if (pSVar1 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0)
-                                    {
-                                      bVar5 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                                                        (pSVar1,(object->fields).row.fields.Id,
-                                                         (MethodInfo_1407110 *)
-                                                                                                                  
-                                                       MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ContainsKey
-                                                       );
-                                      if (bVar5) {
-                                        pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                                                 (__this->fields)._treeChildren;
-                                        if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)
-                                                      0x0) goto label_1822aea67;
-                                        uVar6 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                                          (pSVar1,(object->fields).row.fields.Id,
-                                                           (MethodInfo_14156F0 *)
-                                                                                                                      
-                                                       MethodInfo_System_Collections_Generic_Dictionary_int_List_int_get_Item
-                                                       );
-                                        if (uVar6 == 0) goto label_1822aea67;
-                                        bVar5 = 0 < *(int *)(uVar6 + 0x18);
-                                      }
-                                      else {
-                                        bVar5 = false;
-                                      }
-                                      pSVar2 = (__this->fields)._expanded;
-                                      if (pSVar2 != (System_Collections_Generic_HashSet_int__o *)0x0) {
-                                        value = System_Collections_Generic_HashSet_Int32Enum___Contains
-                                                          ((System_Collections_Generic_HashSet_T__o *)pSVar2,
-                                                           (object->fields).row.fields.Id,
-                                                           (MethodInfo_1759C90 *)
-                                                                                                                      
-                                                       MethodInfo_System_Collections_Generic_HashSet_int_Contains
-                                                       );
-                                        pUVar7 = UnityEngine_GameObject__get_transform(go,(MethodInfo *)0x0);
-                                        if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                                          pUVar7 = UnityEngine_Transform__Find
-                                                             (pUVar7,"ArrowRightButton",(MethodInfo *)0x0);
-                                          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                                            pUVar8 = UnityEngine_Component__get_gameObject
-                                                               ((UnityEngine_Component_o *)pUVar7,
-                                                                (MethodInfo *)0x0);
-                                            pUVar7 = UnityEngine_GameObject__get_transform
-                                                               (go,(MethodInfo *)0x0);
-                                            if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                                              pUVar7 = UnityEngine_Transform__Find
-                                                                 (pUVar7,"ArrowDownButton",
-                                                                  (MethodInfo *)0x0);
-                                              if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                                                __this_10 = UnityEngine_Component__get_gameObject
-                                                                      ((UnityEngine_Component_o *)pUVar7,
-                                                                       (MethodInfo *)0x0);
-                                                if (__this_10 != (UnityEngine_GameObject_o *)0x0) {
-                                                  pUVar7 = UnityEngine_GameObject__get_transform
-                                                                     (__this_10,(MethodInfo *)0x0);
-                                                  if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                                                    iVar12 = UnityEngine_Transform__GetSiblingIndex
-                                                                       (pUVar7,(MethodInfo *)0x0);
-                                                    __this_11 = 
-                                                       UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer
-                                                                 (__this,go,iVar12,(MethodInfo *)0x0);
-                                                    UI_MapEditorHierarchyPanel__SetTreeArrowIcon
-                                                              (__this,pUVar8,"Icons/Navigation/ArrowRight",
-                                                               (MethodInfo *)0x0);
-                                                    UI_MapEditorHierarchyPanel__SetTreeArrowIcon
-                                                              (__this,__this_10,"Icons/Navigation/ArrowDown",
-                                                               (MethodInfo *)0x0);
-                                                    if (((__this->fields)._treeViewEnabled & bVar5) == 0) {
-                                                      if (pUVar8 == (UnityEngine_GameObject_o *)0x0)
-                                                      goto label_1822aea67;
-                                                      UnityEngine_GameObject__SetActive
-                                                                (pUVar8,false,(MethodInfo *)0x0);
-                                                      UnityEngine_GameObject__SetActive
-                                                                (__this_10,false,(MethodInfo *)0x0);
-                                                      if (__this_11 == (UnityEngine_GameObject_o *)0x0)
-                                                      goto label_1822aea67;
-                                                      UnityEngine_GameObject__SetActive
-                                                                (__this_11,(__this->fields)._treeViewEnabled,
-                                                                 (MethodInfo *)0x0);
-                                                    }
-                                                    else {
-                                                      if (__this_11 == (UnityEngine_GameObject_o *)0x0)
-                                                      goto label_1822aea67;
-                                                      UnityEngine_GameObject__SetActive
-                                                                (__this_11,false,(MethodInfo *)0x0);
-                                                      if (pUVar8 == (UnityEngine_GameObject_o *)0x0)
-                                                      goto label_1822aea67;
-                                                      UnityEngine_GameObject__SetActive
-                                                                (pUVar8,!value,(MethodInfo *)0x0);
-                                                      UnityEngine_GameObject__SetActive
-                                                                (__this_10,value,(MethodInfo *)0x0);
-                                                      x_00 = UnityEngine_GameObject__GetComponent_object_
-                                                                       (pUVar8,(MethodInfo_6F5650 *)
-                                                                                                                                                              
-                                                       MethodInfo_UnityEngine_GameObject_GetComponent_Button);
-                                                      x_01 = UnityEngine_GameObject__GetComponent_object_
-                                                                       (__this_10,
-                                                                        (MethodInfo_6F5650 *)
-                                                                                                                                                
-                                                       MethodInfo_UnityEngine_GameObject_GetComponent_Button);
-                                                      if ((TypeInfo_UnityEngine_Object->_2).
-                                                          cctor_finished_or_no_cctor == 0) {
-                                                        il2cpp_codegen_runtime_class_init
-                                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Object)
-                                                        ;
-                                                      }
-                                                      bVar5 = UnityEngine_Object__op_Inequality
-                                                                        ((UnityEngine_Object_o *)x_00,
-                                                                         (UnityEngine_Object_o *)0x0,
-                                                                         (MethodInfo *)0x0);
-                                                      if (bVar5) {
-                                                        if ((x_00 == (UnityEngine_UI_Button_o *)0x0) ||
-                                                           (pUVar3 = (x_00->fields).m_OnClick,
-                                                           pUVar3 == (
-                                                       UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0))
-                                                       goto label_1822aea67;
-                                                       UnityEngine_Events_UnityEventBase__RemoveAllListeners
-                                                                 ((UnityEngine_Events_UnityEventBase_o *)
-                                                                  pUVar3,(MethodInfo *)0x0);
-                                                       pUVar4 = (UnityEngine_Events_UnityEvent_o *)
-                                                                (x_00->fields).m_OnClick;
-                                                       pUVar11 = il2cpp_codegen_object_new
-                                                                           ((Il2CppClass *)
-                                                                                                                                                        
-                                                       TypeInfo_UnityEngine_Events_UnityAction);
-                                                       UnityEngine_Font_FontTextureRebuildCallback___ctor
-                                                                 ((
-                                                       UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar11
-                                                       ,(Il2CppObject *)object,
-                                                       (intptr_t)
-                                                       MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__7
-                                                       ,(MethodInfo *)0x0);
-                                                       if (pUVar4 == (UnityEngine_Events_UnityEvent_o *)0x0)
-                                                       goto label_1822aea67;
-                                                       UnityEngine_Events_UnityEvent__AddListener
-                                                                 (pUVar4,pUVar11,(MethodInfo *)0x0);
-                                                      }
-                                                      if ((TypeInfo_UnityEngine_Object->_2).
-                                                          cctor_finished_or_no_cctor == 0) {
-                                                        il2cpp_codegen_runtime_class_init
-                                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Object)
-                                                        ;
-                                                      }
-                                                      bVar5 = UnityEngine_Object__op_Inequality
-                                                                        ((UnityEngine_Object_o *)x_01,
-                                                                         (UnityEngine_Object_o *)0x0,
-                                                                         (MethodInfo *)0x0);
-                                                      if (bVar5) {
-                                                        if ((x_01 == (UnityEngine_UI_Button_o *)0x0) ||
-                                                           (pUVar3 = (x_01->fields).m_OnClick,
-                                                           pUVar3 == (
-                                                       UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0))
-                                                       goto label_1822aea67;
-                                                       UnityEngine_Events_UnityEventBase__RemoveAllListeners
-                                                                 ((UnityEngine_Events_UnityEventBase_o *)
-                                                                  pUVar3,(MethodInfo *)0x0);
-                                                       pUVar4 = (UnityEngine_Events_UnityEvent_o *)
-                                                                (x_01->fields).m_OnClick;
-                                                       pUVar11 = il2cpp_codegen_object_new
-                                                                           ((Il2CppClass *)
-                                                                                                                                                        
-                                                       TypeInfo_UnityEngine_Events_UnityAction);
-                                                       UnityEngine_Font_FontTextureRebuildCallback___ctor
-                                                                 ((
-                                                       UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar11
-                                                       ,(Il2CppObject *)object,
-                                                       (intptr_t)
-                                                       MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass90_0_BindPooledItem_b__8
-                                                       ,(MethodInfo *)0x0);
-                                                       if (pUVar4 == (UnityEngine_Events_UnityEvent_o *)0x0)
-                                                       goto label_1822aea67;
-                                                       UnityEngine_Events_UnityEvent__AddListener
-                                                                 (pUVar4,pUVar11,(MethodInfo *)0x0);
-                                                      }
-                                                    }
-                                                    bVar5 = true;
-                                                    goto label_1822aea29;
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
+                                              (pUVar5,pUVar12,(MethodInfo *)0x0);
+                                  }
+                                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                                    il2cpp_codegen_runtime_class_init
+                                              ((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                                  }
+                                  bVar6 = UnityEngine_Object__op_Inequality
+                                                    ((UnityEngine_Object_o *)x_01,(UnityEngine_Object_o *)0x0,
+                                                     (MethodInfo *)0x0);
+                                  if (!bVar6) {
+label_05d75c90:
+                                    UnityEngine_GameObject__SetActive(go,value,(MethodInfo *)0x0);
+                                    return;
+                                  }
+                                  if ((x_01 != (UnityEngine_UI_Button_o *)0x0) &&
+                                     (pUVar4 = (x_01->fields).m_OnClick,
+                                     pUVar4 != (UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0)) {
+                                    UnityEngine_Events_UnityEventBase__RemoveAllListeners
+                                              ((UnityEngine_Events_UnityEventBase_o *)pUVar4,(MethodInfo *)0x0
+                                              );
+                                    pUVar5 = (UnityEngine_Events_UnityEvent_o *)(x_01->fields).m_OnClick;
+                                    pUVar12 = il2cpp_codegen_object_new
+                                                        ((Il2CppClass *)
+                                                         TypeInfo_UnityEngine_Events_UnityAction);
+                                    UnityEngine_Events_UnityAction___ctor
+                                              (pUVar12,(Il2CppObject *)__this_00,
+                                               (intptr_t)
+                                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass91_0_BindPooledItem_b__8
+                                               ,(MethodInfo *)0x0);
+                                    if (pUVar5 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+                                      UnityEngine_Events_UnityEvent__AddListener
+                                                (pUVar5,pUVar12,(MethodInfo *)0x0);
+                                      goto label_05d75c90;
                                     }
                                   }
                                 }
@@ -3739,43 +3966,44 @@ label_1822aea29:
       }
     }
   }
-label_1822aea67:
+label_05d75cac:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$SetTreeArrowIcon
 // il2cpp: void UI_MapEditorHierarchyPanel__SetTreeArrowIcon (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_GameObject_o* arrowObject, System_String_o* icon, const MethodInfo* method);
-// 0x1822b5ea0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b616f: jmp 0x1822b6176
-// asm:   0x1822b6171: xor esi, esi
+// 0x5d78200
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7849b: jmp 0x5d784ab
+// asm:   0x5d7849d: xor ebp, ebp
+// asm:   0x5d78722: jmp 0x5d784ab
 
 void UI_MapEditorHierarchyPanel__SetTreeArrowIcon
                (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_GameObject_o *arrowObject,
                System_String_o *icon,MethodInfo *method)
 
 {
-  UnityEngine_UI_ColorBlock_o *pUVar1;
+  undefined4 uVar1;
   undefined4 uVar2;
-  undefined4 uVar3;
-  byte bVar4;
-  UnityEngine_Quaternion_StaticFields *pUVar5;
+  byte bVar3;
+  uint32_t uVar4;
+  undefined4 uVar5;
   UnityEngine_Vector3_StaticFields *pUVar6;
   UnityEngine_UI_RawImage_o *pUVar7;
   System_String_o *path;
-  bool bVar8;
-  UnityEngine_Transform_o *pUVar9;
+  undefined4 uVar8;
+  UnityEngine_UI_ColorBlock_o value;
+  bool bVar9;
+  UnityEngine_Transform_o *pUVar10;
   UnityEngine_UI_LayoutElement_o *x;
   UnityEngine_UI_Button_o *__this_00;
   UnityEngine_UI_RawImage_o *__this_01;
-  UnityEngine_Texture_o *pUVar10;
-  UnityEngine_Texture_o *value;
-  undefined8 uVar11;
-  UnityEngine_Color_Fields local_88;
-  UnityEngine_UI_ColorBlock_o local_78;
+  MethodInfo *method_00;
+  UnityEngine_Color_o UVar11;
+  UnityEngine_Vector3_o value_00;
   
-  if (Il2CppMethodInitialized_184347519 == '\0') {
+  if (Il2CppMethodInitialized_07547fd3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_UI_ColorBlock);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_RawImage);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Button);
@@ -3786,45 +4014,42 @@ void UI_MapEditorHierarchyPanel__SetTreeArrowIcon
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Texture2D);
-    Il2CppMethodInitialized_184347519 = '\x01';
+    Il2CppMethodInitialized_07547fd3 = '\x01';
   }
-  if (arrowObject == (UnityEngine_GameObject_o *)0x0) goto label_1822b63f2;
-  pUVar9 = UnityEngine_GameObject__get_transform(arrowObject,(MethodInfo *)0x0);
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (arrowObject == (UnityEngine_GameObject_o *)0x0) goto label_05d78727;
+  pUVar10 = UnityEngine_GameObject__get_transform(arrowObject,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
-  if (pUVar9 == (UnityEngine_Transform_o *)0x0) goto label_1822b63f2;
-  pUVar5 = TypeInfo_UnityEngine_Quaternion->static_fields;
-  local_88.r = (pUVar5->identityQuaternion).fields.x;
-  local_88.g = (pUVar5->identityQuaternion).fields.y;
-  local_88.b = (pUVar5->identityQuaternion).fields.z;
-  local_88.a = (pUVar5->identityQuaternion).fields.w;
-  UnityEngine_Transform__set_localRotation(pUVar9,(UnityEngine_Quaternion_o *)&local_88,(MethodInfo *)0x0);
-  pUVar9 = UnityEngine_GameObject__get_transform(arrowObject,(MethodInfo *)0x0);
-  if (Il2CppMethodInitialized_18433dbeb == '\0') {
+  if (pUVar10 == (UnityEngine_Transform_o *)0x0) goto label_05d78727;
+  UnityEngine_Transform__set_localRotation
+            (pUVar10,(UnityEngine_Quaternion_o)
+                     *(UnityEngine_Quaternion_Fields *)TypeInfo_UnityEngine_Quaternion->static_fields,
+             (MethodInfo *)0x0);
+  pUVar10 = UnityEngine_GameObject__get_transform(arrowObject,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0753e4b7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbeb = '\x01';
+    Il2CppMethodInitialized_0753e4b7 = '\x01';
   }
+  if (pUVar10 == (UnityEngine_Transform_o *)0x0) goto label_05d78727;
   pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-  uVar2 = (pUVar6->oneVector).fields.x;
-  uVar3 = (pUVar6->oneVector).fields.y;
-  uVar11._0_4_ = (float)uVar2 * 2.25;
-  uVar11._4_4_ = (float)uVar3 * 2.25;
-  if (pUVar9 == (UnityEngine_Transform_o *)0x0) goto label_1822b63f2;
-  local_88.b = (pUVar6->oneVector).fields.z * 2.25;
-  local_88._0_8_ = uVar11;
-  UnityEngine_Transform__set_localScale(pUVar9,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
+  value_00.fields.z = (pUVar6->oneVector).fields.z * 2.25;
+  uVar1 = (pUVar6->oneVector).fields.x;
+  uVar2 = (pUVar6->oneVector).fields.y;
+  value_00.fields.x = (float)uVar1 * 2.25;
+  value_00.fields.y = (float)uVar2 * 2.25;
+  UnityEngine_Transform__set_localScale(pUVar10,value_00,(MethodInfo *)0x0);
   x = UnityEngine_GameObject__GetComponent_object_
-                (arrowObject,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
-                );
+                (arrowObject,
+                 (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Inequality
+  bVar9 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
-    if (x == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b63f2;
+  if (bVar9) {
+    if (x == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d78727;
     (*(x->klass->vtable)._32_set_minWidth.methodPtr)(x,16.0,(x->klass->vtable)._32_set_minWidth.method);
     (*(x->klass->vtable)._34_set_minHeight.methodPtr)(x,18.0,(x->klass->vtable)._34_set_minHeight.method);
     (*(x->klass->vtable)._36_set_preferredWidth.methodPtr)
@@ -3834,59 +4059,61 @@ void UI_MapEditorHierarchyPanel__SetTreeArrowIcon
   }
   __this_00 = UnityEngine_GameObject__GetComponent_object_
                         (arrowObject,
-                         (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                         (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Inequality
+  bVar9 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
-    if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b63f2;
+  if (bVar9) {
+    if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_05d78727;
     pUVar7 = (UnityEngine_UI_RawImage_o *)(__this_00->fields).m_TargetGraphic;
-    if (pUVar7 == (UnityEngine_UI_RawImage_o *)0x0) goto label_1822b6173;
-    bVar4 = (TypeInfo_UnityEngine_UI_RawImage->_2).typeHierarchyDepth;
-    if (((pUVar7->klass->_2).typeHierarchyDepth < bVar4) ||
-       (bVar8 = true,
-       (pUVar7->klass->_2).typeHierarchy[(ulonglong)bVar4 - 1] !=
-       (Il2CppClass *)TypeInfo_UnityEngine_UI_RawImage)) {
-      bVar8 = false;
+    if (pUVar7 == (UnityEngine_UI_RawImage_o *)0x0) goto label_05d7849f;
+    bVar3 = (TypeInfo_UnityEngine_UI_RawImage->_2).typeHierarchyDepth;
+    if ((pUVar7->klass->_2).typeHierarchyDepth < bVar3) {
+      __this_01 = (UnityEngine_UI_RawImage_o *)0x0;
+      uVar4 = (TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor;
     }
-    __this_01 = (UnityEngine_UI_RawImage_o *)0x0;
-    if (bVar8) {
-      __this_01 = pUVar7;
+    else {
+      __this_01 = (UnityEngine_UI_RawImage_o *)0x0;
+      if ((pUVar7->klass->_2).typeHierarchy[(ulong)bVar3 - 1] ==
+          (Il2CppClass *)TypeInfo_UnityEngine_UI_RawImage) {
+        __this_01 = pUVar7;
+      }
+      uVar4 = (TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor;
     }
   }
   else {
-label_1822b6173:
+label_05d7849f:
     __this_01 = (UnityEngine_UI_RawImage_o *)0x0;
+    uVar4 = (TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor;
   }
-  value = (UnityEngine_Texture_o *)0x0;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+  if (uVar4 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Equality
+  bVar9 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
+  if (bVar9) {
     __this_01 = UnityEngine_GameObject__GetComponent_object_
                           (arrowObject,
-                           (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_RawImage);
+                           (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_RawImage);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar8 = UnityEngine_Object__op_Equality
+    bVar9 = UnityEngine_Object__op_Equality
                       ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar8) {
+    if (bVar9) {
       __this_01 = UnityEngine_GameObject__AddComponent_object_
                             (arrowObject,
-                             (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_RawImage);
+                             (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_RawImage);
     }
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar8 = UnityEngine_Object__op_Inequality
+    bVar9 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar8) {
-      if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b63f2;
+    if (bVar9) {
+      if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_05d78727;
       UnityEngine_UI_Selectable__set_targetGraphic
                 ((UnityEngine_UI_Selectable_o *)__this_00,(UnityEngine_UI_Graphic_o *)__this_01,
                  (MethodInfo *)0x0);
@@ -3899,91 +4126,56 @@ label_1822b6173:
   if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pUVar10 = (UnityEngine_Texture_o *)
-            ApplicationManagers_ResourceManager__LoadAsset(path,icon,true,(MethodInfo *)0x0);
+  method_00 = (MethodInfo *)
+              ApplicationManagers_ResourceManager__LoadAsset(path,icon,true,false,(MethodInfo *)0x0);
   if (__this_01 == (UnityEngine_UI_RawImage_o *)0x0) {
-label_1822b63f2:
+label_05d78727:
     ThrowNullReferenceException();
   }
-  if (pUVar10 != (UnityEngine_Texture_o *)0x0) {
-    if (pUVar10->klass == (UnityEngine_Texture_c *)TypeInfo_UnityEngine_Texture2D) {
-      value = pUVar10;
-    }
-    if (value == (UnityEngine_Texture_o *)0x0) {
-      il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-    }
+  if ((method_00 != (MethodInfo *)0x0) &&
+     ((UnityEngine_Texture_c *)method_00->methodPointer !=
+      (UnityEngine_Texture_c *)TypeInfo_UnityEngine_Texture2D)) {
+    il2cpp_codegen_raise_invalid_cast_exception(method_00);
   }
-  UnityEngine_UI_RawImage__set_texture(__this_01,value,(MethodInfo *)0x0);
-  local_88.r = 1.0;
-  local_88.g = 1.0;
-  local_88.b = 1.0;
-  local_88.a = 1.0;
+  UnityEngine_UI_RawImage__set_texture(__this_01,(UnityEngine_Texture_o *)method_00,(MethodInfo *)0x0);
+  UVar11 = UI_MapEditorHierarchyPanel__IconColor(__this,method_00);
   (*(__this_01->klass->vtable)._23_set_color.methodPtr)
-            (__this_01,(UnityEngine_Color_o *)&local_88,(__this_01->klass->vtable)._23_set_color.method);
+            (__this_01,UVar11,(__this_01->klass->vtable)._23_set_color.method);
   (*(__this_01->klass->vtable)._25_set_raycastTarget.methodPtr)
             (__this_01,true,(__this_01->klass->vtable)._25_set_raycastTarget.method);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Inequality
+  bVar9 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
-    if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b63f2;
+  if (bVar9) {
+    if (__this_00 == (UnityEngine_UI_Button_o *)0x0) goto label_05d78727;
     UnityEngine_UI_Selectable__set_transition((UnityEngine_UI_Selectable_o *)__this_00,1,(MethodInfo *)0x0);
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_NormalColor.fields.r = (pUVar1->fields).m_NormalColor.fields.r;
-    local_78.fields.m_NormalColor.fields.g = (pUVar1->fields).m_NormalColor.fields.g;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_NormalColor.fields.b = (pUVar1->fields).m_NormalColor.fields.b;
-    local_78.fields.m_NormalColor.fields.a = (pUVar1->fields).m_NormalColor.fields.a;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_HighlightedColor.fields.r = (pUVar1->fields).m_HighlightedColor.fields.r;
-    local_78.fields.m_HighlightedColor.fields.g = (pUVar1->fields).m_HighlightedColor.fields.g;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_HighlightedColor.fields.b = (pUVar1->fields).m_HighlightedColor.fields.b;
-    local_78.fields.m_HighlightedColor.fields.a = (pUVar1->fields).m_HighlightedColor.fields.a;
-    local_78.fields.m_ColorMultiplier = (__this_00->fields).m_Colors.fields.m_ColorMultiplier;
-    local_78.fields.m_FadeDuration = (__this_00->fields).m_Colors.fields.m_FadeDuration;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_PressedColor.fields.r = (pUVar1->fields).m_PressedColor.fields.r;
-    local_78.fields.m_PressedColor.fields.g = (pUVar1->fields).m_PressedColor.fields.g;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_PressedColor.fields.b = (pUVar1->fields).m_PressedColor.fields.b;
-    local_78.fields.m_PressedColor.fields.a = (pUVar1->fields).m_PressedColor.fields.a;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_SelectedColor.fields.r = (pUVar1->fields).m_SelectedColor.fields.r;
-    local_78.fields.m_SelectedColor.fields.g = (pUVar1->fields).m_SelectedColor.fields.g;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_SelectedColor.fields.b = (pUVar1->fields).m_SelectedColor.fields.b;
-    local_78.fields.m_SelectedColor.fields.a = (pUVar1->fields).m_SelectedColor.fields.a;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_DisabledColor.fields.r = (pUVar1->fields).m_DisabledColor.fields.r;
-    local_78.fields.m_DisabledColor.fields.g = (pUVar1->fields).m_DisabledColor.fields.g;
-    pUVar1 = &(__this_00->fields).m_Colors;
-    local_78.fields.m_DisabledColor.fields.b = (pUVar1->fields).m_DisabledColor.fields.b;
-    local_78.fields.m_DisabledColor.fields.a = (pUVar1->fields).m_DisabledColor.fields.a;
+    uVar5 = (__this_00->fields).m_Colors.fields.m_ColorMultiplier;
+    uVar8 = (__this_00->fields).m_Colors.fields.m_FadeDuration;
+    value.fields.m_FadeDuration = (float)uVar8;
+    value.fields.m_ColorMultiplier = (float)uVar5;
     if ((TypeInfo_UnityEngine_UI_ColorBlock->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_UI_ColorBlock);
     }
-    local_78.fields.m_NormalColor.fields._0_8_ = 0x3f2666663f266666;
-    local_78.fields.m_NormalColor.fields.b = 0.65;
-    local_78.fields.m_NormalColor.fields.a = 1.0;
-    local_78.fields.m_HighlightedColor.fields.r = 0.8;
-    local_78.fields.m_HighlightedColor.fields.g = 0.8;
-    local_78.fields.m_HighlightedColor.fields.b = 0.8;
-    local_78.fields.m_HighlightedColor.fields.a = 1.0;
-    local_78.fields.m_PressedColor.fields._0_8_ = 0x3f2666663f266666;
-    local_78.fields.m_PressedColor.fields.b = 0.65;
-    local_78.fields.m_PressedColor.fields.a = 1.0;
-    local_78.fields.m_SelectedColor.fields._0_8_ = 0x3f2666663f266666;
-    local_78.fields.m_SelectedColor.fields.b = 0.65;
-    local_78.fields.m_SelectedColor.fields.a = 1.0;
-    local_78.fields.m_DisabledColor.fields.r = 0.45;
-    local_78.fields.m_DisabledColor.fields.g = 0.45;
-    local_78.fields.m_DisabledColor.fields.b = 0.45;
-    local_78.fields.m_DisabledColor.fields.a = 1.0;
-    UnityEngine_UI_Selectable__set_colors
-              ((UnityEngine_UI_Selectable_o *)__this_00,&local_78,(MethodInfo *)0x0);
+    value.fields.m_NormalColor.fields.b = 0.65;
+    value.fields.m_NormalColor.fields.a = 1.0;
+    value.fields.m_NormalColor.fields._0_8_ = 0x3f2666663f266666;
+    value.fields.m_HighlightedColor.fields.r = 0.8;
+    value.fields.m_HighlightedColor.fields.g = 0.8;
+    value.fields.m_HighlightedColor.fields.b = 0.8;
+    value.fields.m_HighlightedColor.fields.a = 1.0;
+    value.fields.m_PressedColor.fields._0_8_ = 0x3f2666663f266666;
+    value.fields.m_PressedColor.fields.b = 0.65;
+    value.fields.m_PressedColor.fields.a = 1.0;
+    value.fields.m_SelectedColor.fields._0_8_ = 0x3f2666663f266666;
+    value.fields.m_SelectedColor.fields.b = 0.65;
+    value.fields.m_SelectedColor.fields.a = 1.0;
+    value.fields.m_DisabledColor.fields.r = 0.45;
+    value.fields.m_DisabledColor.fields.g = 0.45;
+    value.fields.m_DisabledColor.fields.b = 0.45;
+    value.fields.m_DisabledColor.fields.a = 1.0;
+    UnityEngine_UI_Selectable__set_colors((UnityEngine_UI_Selectable_o *)__this_00,value,(MethodInfo *)0x0);
   }
   return;
 }
@@ -3991,12 +4183,7 @@ label_1822b63f2:
 
 // UI.MapEditorHierarchyPanel$$GetOrCreateTreeArrowSpacer
 // il2cpp: UnityEngine_GameObject_o* UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_GameObject_o* row, int32_t siblingIndex, const MethodInfo* method);
-// 0x1822b2860
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b2b20: xor edx, edx
-// asm:   0x1822b2b22: mov rcx, rbx
-// asm:   0x1822b2b25: call 0x182f14830  ; UnityEngine_Component__get_gameObject()
-// asm:   0x1822b2b2a: jmp 0x1822b2b06
+// 0x5d77f10
 
 UnityEngine_GameObject_o *
 UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer
@@ -4007,14 +4194,14 @@ UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer
   Il2CppType *handle;
   bool bVar1;
   UnityEngine_Transform_o *pUVar2;
+  UnityEngine_GameObject_o *pUVar3;
   System_Type_array *components;
-  System_Type_o *pSVar3;
-  Il2CppObject *pIVar4;
-  UnityEngine_GameObject_o *pUVar5;
+  System_Type_o *pSVar4;
+  Il2CppObject *pIVar5;
   UnityEngine_Transform_o *parent;
   UnityEngine_UI_LayoutElement_o *pUVar6;
   
-  if (Il2CppMethodInitialized_18434751a == '\0') {
+  if (Il2CppMethodInitialized_07547fd4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
@@ -4022,96 +4209,91 @@ UI_MapEditorHierarchyPanel__GetOrCreateTreeArrowSpacer
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
     il2cpp_codegen_initialize_runtime_metadata(&"TreeArrowSpacer");
-    Il2CppMethodInitialized_18434751a = '\x01';
+    Il2CppMethodInitialized_07547fd4 = '\x01';
   }
-  if ((row != (UnityEngine_GameObject_o *)0x0) &&
-     (pUVar2 = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0),
-     pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar2 = UnityEngine_Transform__Find(pUVar2,"TreeArrowSpacer",(MethodInfo *)0x0);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  if (row == (UnityEngine_GameObject_o *)0x0) {
+label_05d781e1:
+    ThrowNullReferenceException();
+  }
+  pUVar2 = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
+  if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_05d781e1;
+  pUVar2 = UnityEngine_Transform__Find(pUVar2,"TreeArrowSpacer",(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+      pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
+      return pUVar3;
     }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-        pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-        return pUVar5;
+    goto label_05d781e1;
+  }
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
+  }
+  pSVar4 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) goto label_05d781e1;
+  if (pSVar4 != (System_Type_o *)0x0) {
+    pIVar5 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar4,(((components->obj).klass)->_1).element_class);
+    if (pIVar5 == (Il2CppObject *)0x0) goto label_05d781eb;
+  }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar4;
+    Il2CppCodeGenWriteBarrier(components->m_Items);
+    pSVar4 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+    if (pSVar4 != (System_Type_o *)0x0) {
+      pIVar5 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar4,(((components->obj).klass)->_1).element_class);
+      if (pIVar5 == (Il2CppObject *)0x0) {
+label_05d781eb:
+        pIVar5 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar5,(MethodInfo *)0x0);
       }
     }
-    else {
-      components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
-      handle = TypeRef_UnityEngine_RectTransform;
-      if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(g_data_184354ea0);
-      }
-      pSVar3 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-      if (components != (System_Type_array *)0x0) {
-        if ((pSVar3 != (System_Type_o *)0x0) &&
-           (pIVar4 = il2cpp_vm_Object_IsInst
-                               ((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class),
-           pIVar4 == (Il2CppObject *)0x0)) {
-          pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
-          il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
-        }
-        if ((int)components->max_length != 0) {
-          components->m_Items[0] = pSVar3;
-          Il2CppCodeGenWriteBarrier(components->m_Items,pSVar3);
-          pSVar3 = System_Type__GetTypeFromHandle
-                             ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,
-                              (MethodInfo *)0x0);
-          if ((pSVar3 != (System_Type_o *)0x0) &&
-             (pIVar4 = il2cpp_vm_Object_IsInst
-                                 ((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class),
-             pIVar4 == (Il2CppObject *)0x0)) {
-            pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
-            il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
-          }
-          if (1 < (uint)components->max_length) {
-            components->m_Items[1] = pSVar3;
-            Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar3);
-            pUVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-            UnityEngine_GameObject___ctor_2f1abe0(pUVar5,"TreeArrowSpacer",components,(MethodInfo *)0x0);
-            if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-              pUVar2 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
-              parent = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
-              if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                UnityEngine_Transform__SetParent_2f5a7e0(pUVar2,parent,false,(MethodInfo *)0x0);
-                pUVar2 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
-                if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                  UnityEngine_Transform__SetSiblingIndex(pUVar2,siblingIndex,(MethodInfo *)0x0);
-                  pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                     (pUVar5,(MethodInfo_6F5650 *)
-                                             MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
-                  if (pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                    (*(pUVar6->klass->vtable)._32_set_minWidth.methodPtr)
-                              (pUVar6,16.0,(pUVar6->klass->vtable)._32_set_minWidth.method);
-                    (*(pUVar6->klass->vtable)._34_set_minHeight.methodPtr)
-                              (pUVar6,18.0,(pUVar6->klass->vtable)._34_set_minHeight.method);
-                    (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
-                              (pUVar6,16.0,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
-                    (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
-                              (pUVar6,18.0,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
-                    return pUVar5;
-                  }
-                }
-              }
+    if ((components->max_length & 0xfffffffe) != 0) {
+      components->m_Items[1] = pSVar4;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1);
+      pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_691aa60(pUVar3,"TreeArrowSpacer",components,(MethodInfo *)0x0);
+      if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
+        parent = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
+        if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_692d510(pUVar2,parent,false,(MethodInfo *)0x0);
+          pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
+          if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+            UnityEngine_Transform__SetSiblingIndex(pUVar2,siblingIndex,(MethodInfo *)0x0);
+            pUVar6 = UnityEngine_GameObject__GetComponent_object_
+                               (pUVar3,(MethodInfo_353B730 *)
+                                       MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+            if (pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+              (*(pUVar6->klass->vtable)._32_set_minWidth.methodPtr)
+                        (pUVar6,16.0,(pUVar6->klass->vtable)._32_set_minWidth.method);
+              (*(pUVar6->klass->vtable)._34_set_minHeight.methodPtr)
+                        (pUVar6,18.0,(pUVar6->klass->vtable)._34_set_minHeight.method);
+              (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
+                        (pUVar6,16.0,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
+              (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
+                        (pUVar6,18.0,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
+              return pUVar3;
             }
-            goto label_1822b2b2c;
           }
         }
-        ThrowIndexOutOfRangeException();
       }
+      goto label_05d781e1;
     }
   }
-label_1822b2b2c:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetViewportRect
 // il2cpp: UnityEngine_RectTransform_o* UI_MapEditorHierarchyPanel__GetViewportRect (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b3000
+// 0x5d78740
 
 UnityEngine_RectTransform_o *
 UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
@@ -4121,10 +4303,10 @@ UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this
   UnityEngine_Transform_o *pUVar2;
   UnityEngine_RectTransform_o *pUVar3;
   
-  if (Il2CppMethodInitialized_18434751b == '\0') {
+  if (Il2CppMethodInitialized_07547fd5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434751b = '\x01';
+    Il2CppMethodInitialized_07547fd5 = '\x01';
   }
   pUVar2 = (__this->fields).SinglePanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -4137,7 +4319,7 @@ UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this
   }
   pUVar2 = (__this->fields).SinglePanel;
   if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-    pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
+    pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -4148,9 +4330,9 @@ UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this
     }
     pUVar2 = (__this->fields).SinglePanel;
     if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-       (pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0),
+       (pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0),
        pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-      pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
+      pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
@@ -4161,13 +4343,14 @@ UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this
       }
       pUVar2 = (__this->fields).SinglePanel;
       if (((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-          (pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0),
+          (pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0),
           pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-         (pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0),
+         (pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0),
          pUVar2 != (UnityEngine_Transform_o *)0x0)) {
         pUVar3 = UnityEngine_Component__GetComponent_object_
                            ((UnityEngine_Component_o *)pUVar2,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+                            (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform)
+        ;
         return pUVar3;
       }
     }
@@ -4178,21 +4361,24 @@ UI_MapEditorHierarchyPanel__GetViewportRect(UI_MapEditorHierarchyPanel_o *__this
 
 // UI.MapEditorHierarchyPanel$$EnsureVirtualizationElements
 // il2cpp: void UI_MapEditorHierarchyPanel__EnsureVirtualizationElements (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b1010
+// 0x5d73150
 
 void UI_MapEditorHierarchyPanel__EnsureVirtualizationElements
                (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_UI_ScrollRect_ScrollRectEvent_o *__this_00;
-  UnityEngine_Events_UnityEvent_Vector2__o *__this_01;
-  bool bVar1;
-  UnityEngine_Transform_o *pUVar2;
-  UnityEngine_UI_ScrollRect_o *pUVar3;
-  DG_Tweening_Core_DOSetter_Vector2__o *pDVar4;
-  UnityEngine_UI_LayoutElement_o *pUVar5;
+  UnityEngine_UI_ScrollRect_o **targetAddress;
+  UnityEngine_Events_UnityEvent_Vector2__o *pUVar1;
+  bool bVar2;
+  UnityEngine_Transform_o *pUVar3;
+  UnityEngine_UI_ScrollRect_o *pUVar4;
+  UnityEngine_Events_UnityAction_T0__o *pUVar5;
+  UnityEngine_UI_LayoutElement_o *pUVar6;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
   
-  if (Il2CppMethodInitialized_18434751c == '\0') {
+  if (Il2CppMethodInitialized_07547fd6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ScrollRect);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_MapEditorHierarchyPanel_OnScrollValueChanged);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
@@ -4202,131 +4388,131 @@ void UI_MapEditorHierarchyPanel__EnsureVirtualizationElements
               (&MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
     il2cpp_codegen_initialize_runtime_metadata(&"TreeVirtualTopSpacer");
     il2cpp_codegen_initialize_runtime_metadata(&"TreeVirtualBottomSpacer");
-    Il2CppMethodInitialized_18434751c = '\x01';
+    Il2CppMethodInitialized_07547fd6 = '\x01';
   }
-  pUVar3 = (__this->fields)._scrollRect;
+  pUVar4 = (__this->fields)._scrollRect;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
-    pUVar2 = (__this->fields).SinglePanel;
+  bVar2 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    pUVar3 = (__this->fields).SinglePanel;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      pUVar2 = (__this->fields).SinglePanel;
-      if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-      pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
+    targetAddress = &(__this->fields)._scrollRect;
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      pUVar3 = (__this->fields).SinglePanel;
+      if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+      pUVar3 = UnityEngine_Transform__get_parent(pUVar3,(MethodInfo *)0x0);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar1 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar1) {
-        pUVar2 = (__this->fields).SinglePanel;
-        if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-        pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
-        if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-        pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
+      bVar2 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar2) {
+        pUVar3 = (__this->fields).SinglePanel;
+        if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+        pUVar3 = UnityEngine_Transform__get_parent(pUVar3,(MethodInfo *)0x0);
+        if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+        pUVar3 = UnityEngine_Transform__get_parent(pUVar3,(MethodInfo *)0x0);
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar1 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar1) {
-          pUVar2 = (__this->fields).SinglePanel;
-          if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-          pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
-          if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-          pUVar2 = UnityEngine_Transform__GetParent(pUVar2,(MethodInfo *)0x0);
-          if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1822b1371;
-          pUVar3 = UnityEngine_Component__GetComponent_object_
-                             ((UnityEngine_Component_o *)pUVar2,
-                              (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ScrollRect);
-          (__this->fields)._scrollRect = pUVar3;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._scrollRect,pUVar3);
+        bVar2 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar2) {
+          pUVar3 = (__this->fields).SinglePanel;
+          if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+          pUVar3 = UnityEngine_Transform__get_parent(pUVar3,(MethodInfo *)0x0);
+          if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+          pUVar3 = UnityEngine_Transform__get_parent(pUVar3,(MethodInfo *)0x0);
+          if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_05d7349a;
+          pUVar4 = UnityEngine_Component__GetComponent_object_
+                             ((UnityEngine_Component_o *)pUVar3,
+                              (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_ScrollRect);
+          *targetAddress = pUVar4;
+          Il2CppCodeGenWriteBarrier(targetAddress);
         }
       }
     }
-    pUVar3 = (__this->fields)._scrollRect;
+    pUVar4 = *targetAddress;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      pUVar3 = (__this->fields)._scrollRect;
-      if (pUVar3 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-        __this_00 = (pUVar3->fields).m_OnValueChanged;
-        pDVar4 = (DG_Tweening_Core_DOSetter_Vector2__o *)
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      if (*targetAddress != (UnityEngine_UI_ScrollRect_o *)0x0) {
+        pUVar1 = (UnityEngine_Events_UnityEvent_Vector2__o *)((*targetAddress)->fields).m_OnValueChanged;
+        pUVar5 = (UnityEngine_Events_UnityAction_T0__o *)
                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2);
         UnityEngine_Events_UnityAction_Vector2____ctor
-                  (pDVar4,(Il2CppObject *)__this,
+                  ((UnityEngine_Events_UnityAction_Vector2__o *)pUVar5,(Il2CppObject *)__this,
                    (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_OnScrollValueChanged,
-                   (MethodInfo_E5A7E0 *)0x0);
-        if (__this_00 != (UnityEngine_UI_ScrollRect_ScrollRectEvent_o *)0x0) {
-          UnityEngine_Events_UnityEvent___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___RemoveListener
-                    ((UnityEngine_Events_UnityEvent_T0__T1__T2__o *)__this_00,
-                     (UnityEngine_Events_UnityAction_T0__T1__T2__o *)pDVar4,
-                     (MethodInfo_EBD4A0 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
-          pUVar3 = (__this->fields)._scrollRect;
-          if (pUVar3 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-            __this_01 = (UnityEngine_Events_UnityEvent_Vector2__o *)(pUVar3->fields).m_OnValueChanged;
-            pDVar4 = (DG_Tweening_Core_DOSetter_Vector2__o *)
+                   (MethodInfo_4311CC0 *)0x0);
+        if (pUVar1 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
+          UnityEngine_Events_UnityEvent_Vector2___RemoveListener
+                    (pUVar1,pUVar5,
+                     (MethodInfo_4319B00 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
+          if (*targetAddress != (UnityEngine_UI_ScrollRect_o *)0x0) {
+            pUVar1 = (UnityEngine_Events_UnityEvent_Vector2__o *)((*targetAddress)->fields).m_OnValueChanged;
+            pUVar5 = (UnityEngine_Events_UnityAction_T0__o *)
                      il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2)
             ;
             UnityEngine_Events_UnityAction_Vector2____ctor
-                      (pDVar4,(Il2CppObject *)__this,
+                      ((UnityEngine_Events_UnityAction_Vector2__o *)pUVar5,(Il2CppObject *)__this,
                        (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_OnScrollValueChanged,
-                       (MethodInfo_E5A7E0 *)0x0);
-            if (__this_01 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
+                       (MethodInfo_4311CC0 *)0x0);
+            if (pUVar1 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
               UnityEngine_Events_UnityEvent_Vector2___AddListener
-                        (__this_01,(UnityEngine_Events_UnityAction_T0__o *)pDVar4,
-                         (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_AddListener);
-              goto label_1822b12ae;
+                        (pUVar1,pUVar5,
+                         (MethodInfo_4319A50 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_AddListener);
+              goto label_05d733dc;
             }
           }
         }
       }
-label_1822b1371:
+label_05d7349a:
       ThrowNullReferenceException();
     }
   }
-label_1822b12ae:
-  pUVar5 = (__this->fields)._topSpacer;
+label_05d733dc:
+  pUVar6 = (__this->fields)._topSpacer;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
-    pUVar5 = UI_MapEditorHierarchyPanel__CreateSpacer(__this,"TreeVirtualTopSpacer",(MethodInfo *)0x0);
-    (__this->fields)._topSpacer = pUVar5;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._topSpacer,pUVar5);
+  bVar2 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    pUVar6 = UI_MapEditorHierarchyPanel__CreateSpacer(__this,"TreeVirtualTopSpacer",method_01);
+    (__this->fields)._topSpacer = pUVar6;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._topSpacer);
   }
-  pUVar5 = (__this->fields)._bottomSpacer;
+  pUVar6 = (__this->fields)._bottomSpacer;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
-    pUVar5 = UI_MapEditorHierarchyPanel__CreateSpacer(__this,"TreeVirtualBottomSpacer",(MethodInfo *)0x0);
-    (__this->fields)._bottomSpacer = pUVar5;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._bottomSpacer,pUVar5);
+  method_00 = (MethodInfo *)0x0;
+  bVar2 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    method_00 = (MethodInfo *)UI_MapEditorHierarchyPanel__CreateSpacer(__this,"TreeVirtualBottomSpacer",method_02)
+    ;
+    (__this->fields)._bottomSpacer = (UnityEngine_UI_LayoutElement_o *)method_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._bottomSpacer);
   }
-  UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,method_00);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$CreateSpacer
 // il2cpp: UnityEngine_UI_LayoutElement_o* UI_MapEditorHierarchyPanel__CreateSpacer (UI_MapEditorHierarchyPanel_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x1822afe70
+// 0x5d78870
 
 UnityEngine_UI_LayoutElement_o *
 UI_MapEditorHierarchyPanel__CreateSpacer
@@ -4341,56 +4527,54 @@ UI_MapEditorHierarchyPanel__CreateSpacer
   UnityEngine_Transform_o *__this_01;
   UnityEngine_UI_LayoutElement_o *pUVar3;
   
-  if (Il2CppMethodInitialized_18434751d == '\0') {
+  if (Il2CppMethodInitialized_07547fd7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
-    Il2CppMethodInitialized_18434751d = '\x01';
+    Il2CppMethodInitialized_07547fd7 = '\x01';
   }
   components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
   handle = TypeRef_UnityEngine_RectTransform;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
   pSVar1 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
   if (components == (System_Type_array *)0x0) {
-label_1822b003f:
+label_05d78a5d:
     ThrowNullReferenceException();
   }
   if (pSVar1 != (System_Type_o *)0x0) {
     pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
-    if (pIVar2 == (Il2CppObject *)0x0) {
-      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
-    }
+    if (pIVar2 == (Il2CppObject *)0x0) goto label_05d78a67;
   }
   if ((int)components->max_length != 0) {
     components->m_Items[0] = pSVar1;
-    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar1);
+    Il2CppCodeGenWriteBarrier(components->m_Items);
     pSVar1 = System_Type__GetTypeFromHandle
                        ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
     if (pSVar1 != (System_Type_o *)0x0) {
       pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
       if (pIVar2 == (Il2CppObject *)0x0) {
+label_05d78a67:
         pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
         il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
       }
     }
-    if (1 < (uint)components->max_length) {
+    if ((components->max_length & 0xfffffffe) != 0) {
       components->m_Items[1] = pSVar1;
-      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar1);
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-      UnityEngine_GameObject___ctor_2f1abe0(__this_00,name,components,(MethodInfo *)0x0);
+      UnityEngine_GameObject___ctor_691aa60(__this_00,name,components,(MethodInfo *)0x0);
       if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
         __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
         if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__SetParent_2f5a7e0
+          UnityEngine_Transform__SetParent_692d510
                     (__this_01,(__this->fields).SinglePanel,false,(MethodInfo *)0x0);
           pUVar3 = UnityEngine_GameObject__GetComponent_object_
                              (__this_00,
-                              (MethodInfo_6F5650 *)
+                              (MethodInfo_353B730 *)
                               MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
           if (pUVar3 != (UnityEngine_UI_LayoutElement_o *)0x0) {
             (*(pUVar3->klass->vtable)._34_set_minHeight.methodPtr)
@@ -4403,7 +4587,7 @@ label_1822b003f:
           }
         }
       }
-      goto label_1822b003f;
+      goto label_05d78a5d;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -4412,7 +4596,7 @@ label_1822b003f:
 
 // UI.MapEditorHierarchyPanel$$SetVirtualizationActive
 // il2cpp: void UI_MapEditorHierarchyPanel__SetVirtualizationActive (UI_MapEditorHierarchyPanel_o* __this, bool active, const MethodInfo* method);
-// 0x1822b6410
+// 0x5d74a50
 
 void UI_MapEditorHierarchyPanel__SetVirtualizationActive
                (UI_MapEditorHierarchyPanel_o *__this,bool active,MethodInfo *method)
@@ -4421,12 +4605,15 @@ void UI_MapEditorHierarchyPanel__SetVirtualizationActive
   UnityEngine_UI_LayoutElement_o *pUVar1;
   bool bVar2;
   UnityEngine_GameObject_o *pUVar3;
+  undefined7 in_register_00000031;
+  MethodInfo *pMVar4;
   
-  if (Il2CppMethodInitialized_18434751e == '\0') {
+  pMVar4 = (MethodInfo *)CONCAT71(in_register_00000031,active);
+  if (Il2CppMethodInitialized_07547fd8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434751e = '\x01';
+    Il2CppMethodInitialized_07547fd8 = '\x01';
   }
-  UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,pMVar4);
   pUVar1 = (__this->fields)._topSpacer;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -4435,12 +4622,12 @@ void UI_MapEditorHierarchyPanel__SetVirtualizationActive
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar2) {
     pUVar1 = (__this->fields)._topSpacer;
-    if (pUVar1 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b655c;
+    if (pUVar1 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74b90;
     pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
-    if (pUVar3 == (UnityEngine_GameObject_o *)0x0) goto label_1822b655c;
+    if (pUVar3 == (UnityEngine_GameObject_o *)0x0) goto label_05d74b90;
     UnityEngine_GameObject__SetActive(pUVar3,active,(MethodInfo *)0x0);
     pUVar1 = (__this->fields)._topSpacer;
-    if (pUVar1 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b655c;
+    if (pUVar1 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74b90;
     (*(pUVar1->klass->vtable)._38_set_preferredHeight.methodPtr)
               (pUVar1,0.0,(pUVar1->klass->vtable)._38_set_preferredHeight.method);
   }
@@ -4448,6 +4635,7 @@ void UI_MapEditorHierarchyPanel__SetVirtualizationActive
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  pMVar4 = (MethodInfo *)0x0;
   bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar2) {
@@ -4458,18 +4646,19 @@ void UI_MapEditorHierarchyPanel__SetVirtualizationActive
         UnityEngine_GameObject__SetActive(pUVar3,active,(MethodInfo *)0x0);
         pUVar1 = (__this->fields)._bottomSpacer;
         if (pUVar1 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-          (*(pUVar1->klass->vtable)._38_set_preferredHeight.methodPtr)
-                    (pUVar1,0.0,(pUVar1->klass->vtable)._38_set_preferredHeight.method);
-          goto label_1822b653d;
+          pMVar4 = (pUVar1->klass->vtable)._38_set_preferredHeight.method;
+          (*(pUVar1->klass->vtable)._38_set_preferredHeight.methodPtr)(pUVar1,0.0,pMVar4);
+          goto label_05d74b6e;
         }
       }
     }
-label_1822b655c:
+label_05d74b90:
     ThrowNullReferenceException();
   }
-label_1822b653d:
+label_05d74b6e:
   if (active) {
-    UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,(MethodInfo *)0x0);
+    UI_MapEditorHierarchyPanel__OrderVirtualizedChildren(__this,pMVar4);
+    return;
   }
   return;
 }
@@ -4477,10 +4666,9 @@ label_1822b653d:
 
 // UI.MapEditorHierarchyPanel$$OrderVirtualizedChildren
 // il2cpp: void UI_MapEditorHierarchyPanel__OrderVirtualizedChildren (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b5360
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b5449: nop dword ptr [rax]
-// asm:   0x1822b54a2: jmp 0x1822b5450
+// 0x5d77980
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d77ab0: jmp 0x5d77ae3
 
 void UI_MapEditorHierarchyPanel__OrderVirtualizedChildren
                (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
@@ -4488,19 +4676,19 @@ void UI_MapEditorHierarchyPanel__OrderVirtualizedChildren
 {
   UnityEngine_UI_LayoutElement_o *pUVar1;
   bool bVar2;
-  int index;
-  UnityEngine_Transform_o *pUVar3;
-  System_Collections_Generic_List_GameObject__o *pSVar4;
+  int32_t iVar3;
+  UnityEngine_Transform_o *pUVar4;
   UnityEngine_GameObject_o *__this_00;
-  int32_t index_00;
+  int32_t index;
+  System_Collections_Generic_List_GameObject__o *__this_01;
   
-  if (Il2CppMethodInitialized_18434751f == '\0') {
+  if (Il2CppMethodInitialized_07547fd9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434751f = '\x01';
+    Il2CppMethodInitialized_07547fd9 = '\x01';
   }
   pUVar1 = (__this->fields)._topSpacer;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -4518,38 +4706,36 @@ void UI_MapEditorHierarchyPanel__OrderVirtualizedChildren
     if (!bVar2) {
       pUVar1 = (__this->fields)._topSpacer;
       if ((pUVar1 != (UnityEngine_UI_LayoutElement_o *)0x0) &&
-         (pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
-         pUVar3 != (UnityEngine_Transform_o *)0x0)) {
-        index = UnityEngine_Transform__GetSiblingIndex(pUVar3,(MethodInfo *)0x0);
-        index_00 = 0;
-        pSVar4 = (__this->fields)._itemPool;
-        if (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-          while (index = index + 1, index_00 < (pSVar4->fields)._size) {
-            pSVar4 = (__this->fields)._itemPool;
-            if (((pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) ||
-                (__this_00 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                       ((System_Collections_Generic_List_object__o *)pSVar4,index_00,
-                                        (MethodInfo_92B830 *)
-                                        MethodInfo_System_Collections_Generic_List_GameObject_get_Item),
-                __this_00 == (UnityEngine_GameObject_o *)0x0)) ||
-               (pUVar3 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0),
-               pUVar3 == (UnityEngine_Transform_o *)0x0)) goto label_1822b54d9;
-            UnityEngine_Transform__SetSiblingIndex(pUVar3,index,(MethodInfo *)0x0);
-            pSVar4 = (__this->fields)._itemPool;
-            index_00 = index_00 + 1;
-            if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_1822b54d9;
+         (pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
+         pUVar4 != (UnityEngine_Transform_o *)0x0)) {
+        index = 0;
+        iVar3 = UnityEngine_Transform__GetSiblingIndex(pUVar4,(MethodInfo *)0x0);
+        __this_01 = (__this->fields)._itemPool;
+        if (__this_01 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+          while (index < (__this_01->fields)._size) {
+            __this_00 = System_Collections_Generic_List_object___get_Item
+                                  ((System_Collections_Generic_List_object__o *)__this_01,index,
+                                   (MethodInfo_395CF20 *)
+                                   MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+            if ((__this_00 == (UnityEngine_GameObject_o *)0x0) ||
+               (pUVar4 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0),
+               pUVar4 == (UnityEngine_Transform_o *)0x0)) goto label_05d77ae3;
+            UnityEngine_Transform__SetSiblingIndex(pUVar4,iVar3 + 1 + index,(MethodInfo *)0x0);
+            index = index + 1;
+            __this_01 = (__this->fields)._itemPool;
+            if (__this_01 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d77ae3;
           }
           pUVar1 = (__this->fields)._bottomSpacer;
           if ((pUVar1 != (UnityEngine_UI_LayoutElement_o *)0x0) &&
-             (pUVar3 = UnityEngine_Component__get_transform
+             (pUVar4 = UnityEngine_Component__get_transform
                                  ((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
-             pUVar3 != (UnityEngine_Transform_o *)0x0)) {
-            UnityEngine_Transform__SetSiblingIndex(pUVar3,index,(MethodInfo *)0x0);
+             pUVar4 != (UnityEngine_Transform_o *)0x0)) {
+            UnityEngine_Transform__SetSiblingIndex(pUVar4,iVar3 + index + 1,(MethodInfo *)0x0);
             return;
           }
         }
       }
-label_1822b54d9:
+label_05d77ae3:
       ThrowNullReferenceException();
     }
   }
@@ -4559,23 +4745,25 @@ label_1822b54d9:
 
 // UI.MapEditorHierarchyPanel$$OnScrollValueChanged
 // il2cpp: void UI_MapEditorHierarchyPanel__OnScrollValueChanged (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_Vector2_o value, const MethodInfo* method);
-// 0x1822b5340
+// 0x5d78a80
 
 void UI_MapEditorHierarchyPanel__OnScrollValueChanged
                (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_Vector2_o value,MethodInfo *method)
 
 {
-  if ((__this->fields)._treeViewEnabled != false) {
-    UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,(MethodInfo *)0x0);
+  MethodInfo *in_RDX;
+  
+  if ((__this->fields)._treeViewEnabled == false) {
     return;
   }
+  UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,in_RDX);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetVirtualStride
 // il2cpp: float UI_MapEditorHierarchyPanel__GetVirtualStride (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b3430
+// 0x5d78aa0
 
 float UI_MapEditorHierarchyPanel__GetVirtualStride(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -4586,114 +4774,146 @@ float UI_MapEditorHierarchyPanel__GetVirtualStride(UI_MapEditorHierarchyPanel_o 
   float fVar2;
   float fVar3;
   
-  if (Il2CppMethodInitialized_184347520 == '\0') {
+  if (Il2CppMethodInitialized_07547fda == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347520 = '\x01';
+    Il2CppMethodInitialized_07547fda = '\x01';
   }
   fVar2 = (*(__this->klass->vtable)._11_get_VerticalSpacing.methodPtr)
                     (__this,(__this->klass->vtable)._11_get_VerticalSpacing.method);
   __this_00 = (__this->fields).SinglePanel;
-  if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-    x = UnityEngine_Component__GetComponent_object_
-                  ((UnityEngine_Component_o *)__this_00,
-                   (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      if (x == (UnityEngine_UI_VerticalLayoutGroup_o *)0x0) goto label_1822b34ed;
-      fVar2 = (x->fields).m_Spacing;
-    }
-    fVar2 = fVar2 + (__this->fields)._virtualRowHeight;
-    fVar3 = 1.0;
-    if (1.0 <= fVar2) {
-      fVar3 = fVar2;
-    }
-    return fVar3;
+  if (__this_00 == (UnityEngine_Transform_o *)0x0) {
+label_05d78b58:
+    ThrowNullReferenceException();
   }
-label_1822b34ed:
-  ThrowNullReferenceException();
+  x = UnityEngine_Component__GetComponent_object_
+                ((UnityEngine_Component_o *)__this_00,
+                 (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (x == (UnityEngine_UI_VerticalLayoutGroup_o *)0x0) goto label_05d78b58;
+    fVar2 = (x->fields).m_Spacing;
+  }
+  fVar2 = fVar2 + (__this->fields)._virtualRowHeight;
+  fVar3 = 1.0;
+  if (1.0 <= fVar2) {
+    fVar3 = fVar2;
+  }
+  return fVar3;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetVirtualPoolSize
 // il2cpp: int32_t UI_MapEditorHierarchyPanel__GetVirtualPoolSize (UI_MapEditorHierarchyPanel_o* __this, int32_t totalRows, const MethodInfo* method);
-// 0x1822b3140
+// 0x5d78b60
 
 int32_t UI_MapEditorHierarchyPanel__GetVirtualPoolSize
                   (UI_MapEditorHierarchyPanel_o *__this,int32_t totalRows,MethodInfo *method)
 
 {
+  float fVar1;
+  uint32_t uVar2;
   UnityEngine_Transform_o *__this_00;
-  bool bVar1;
-  int32_t iVar2;
+  bool bVar3;
+  int iVar4;
   UnityEngine_RectTransform_o *__this_01;
-  UnityEngine_Rect_o *pUVar3;
   UnityEngine_UI_VerticalLayoutGroup_o *x;
-  float viewportHeight;
-  float spacing;
-  UnityEngine_Rect_o local_38 [3];
+  int iVar5;
+  MethodInfo *method_00;
+  float fVar6;
+  float fVar7;
+  UnityEngine_Rect_o UVar8;
+  float local_3c;
   
-  if (Il2CppMethodInitialized_184347521 == '\0') {
+  if (Il2CppMethodInitialized_07547fdb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347521 = '\x01';
+    Il2CppMethodInitialized_07547fdb = '\x01';
   }
-  viewportHeight =
-       (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)
-                 (__this,(__this->klass->vtable)._31_GetPanelHeight.method);
-  __this_01 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
+  method_00 = (__this->klass->vtable)._31_GetPanelHeight.method;
+  fVar6 = (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)(__this,method_00);
+  __this_01 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,method_00);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Inequality
+  bVar3 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
-    if (__this_01 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b32ba;
-    pUVar3 = UnityEngine_RectTransform__get_rect(local_38,__this_01,(MethodInfo *)0x0);
-    viewportHeight = (pUVar3->fields).m_Height;
+  if (bVar3) {
+    if (__this_01 == (UnityEngine_RectTransform_o *)0x0) goto label_05d78d65;
+    UVar8 = UnityEngine_RectTransform__get_rect(__this_01,(MethodInfo *)0x0);
     if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
     }
+    fVar6 = UVar8.fields.m_Height;
   }
-  spacing = (*(__this->klass->vtable)._11_get_VerticalSpacing.methodPtr)
-                      (__this,(__this->klass->vtable)._11_get_VerticalSpacing.method);
+  local_3c = (*(__this->klass->vtable)._11_get_VerticalSpacing.methodPtr)
+                       (__this,(__this->klass->vtable)._11_get_VerticalSpacing.method);
   __this_00 = (__this->fields).SinglePanel;
-  if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-    x = UnityEngine_Component__GetComponent_object_
-                  ((UnityEngine_Component_o *)__this_00,
-                   (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar1) {
-      if (x == (UnityEngine_UI_VerticalLayoutGroup_o *)0x0) goto label_1822b32ba;
-      spacing = (x->fields).m_Spacing;
-    }
-    iVar2 = UI_MapEditorHierarchyVirtualization__ComputePoolSize
-                      (viewportHeight,(__this->fields)._virtualRowHeight,spacing,0xe,0x28,totalRows,
-                       (MethodInfo *)0x0);
-    return iVar2;
+  if (__this_00 == (UnityEngine_Transform_o *)0x0) {
+label_05d78d65:
+    ThrowNullReferenceException();
   }
-label_1822b32ba:
-  ThrowNullReferenceException();
+  x = UnityEngine_Component__GetComponent_object_
+                ((UnityEngine_Component_o *)__this_00,
+                 (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    if (x == (UnityEngine_UI_VerticalLayoutGroup_o *)0x0) goto label_05d78d65;
+    local_3c = (x->fields).m_Spacing;
+  }
+  fVar1 = (__this->fields)._virtualRowHeight;
+  if (Il2CppMethodInitialized_0753e7f9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e7f9 = '\x01';
+    uVar2 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar2 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar7 = 1.0;
+  if (1.0 <= fVar6) {
+    fVar7 = fVar6;
+  }
+  local_3c = local_3c + fVar1;
+  fVar6 = 1.0;
+  if (1.0 <= local_3c) {
+    fVar6 = local_3c;
+  }
+  fVar6 = ceilf(fVar7 / fVar6);
+  iVar5 = 0x28;
+  if (0x28 < (int)fVar6 + 0xe) {
+    iVar5 = (int)fVar6 + 0xe;
+  }
+  iVar4 = 1;
+  if (1 < totalRows) {
+    iVar4 = totalRows;
+  }
+  if (iVar5 < iVar4) {
+    iVar4 = iVar5;
+  }
+  return iVar4;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetListHeaderOffset
 // il2cpp: float UI_MapEditorHierarchyPanel__GetListHeaderOffset (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5d78e80
 
-float
-UI_MapEditorHierarchyPanel__GetListHeaderOffset(UI_MapEditorHierarchyPanel_o* __this, MethodInfo* method)
+float UI_MapEditorHierarchyPanel__GetListHeaderOffset(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -4702,7 +4922,13 @@ UI_MapEditorHierarchyPanel__GetListHeaderOffset(UI_MapEditorHierarchyPanel_o* __
 
 // UI.MapEditorHierarchyPanel$$GetVirtualStartIndex
 // il2cpp: int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex (UI_MapEditorHierarchyPanel_o* __this, int32_t maxStart, int32_t totalRows, int32_t poolSize, float stride, const MethodInfo* method);
-// 0x1822b32c0
+// 0x5d78e90
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d78f65: mov ebx, ebp
+// asm:   0x5d78f67: jle 0x5d79060
+// asm:   0x5d79004: jmp 0x5d7905c
+// asm:   0x5d7905c: mov eax, ebp
+// asm:   0x5d7905e: jmp 0x5d79067
 
 int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex
                   (UI_MapEditorHierarchyPanel_o *__this,int32_t maxStart,int32_t totalRows,int32_t poolSize,
@@ -4712,14 +4938,17 @@ int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex
   UnityEngine_UI_ScrollRect_o *pUVar1;
   UnityEngine_RectTransform_o *pUVar2;
   bool bVar3;
-  int32_t iVar4;
-  UnityEngine_Vector2_o UVar5;
-  float verticalNormalizedPosition;
-  float fStackX_c;
+  uint uVar4;
+  int32_t iVar5;
+  MethodInfo *method_00;
+  uint uVar6;
+  float fVar7;
+  float fVar8;
+  UnityEngine_Vector2_o UVar9;
   
-  if (Il2CppMethodInitialized_184347522 == '\0') {
+  if (Il2CppMethodInitialized_07547fdc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347522 = '\x01';
+    Il2CppMethodInitialized_07547fdc = '\x01';
   }
   pUVar1 = (__this->fields)._scrollRect;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -4729,7 +4958,7 @@ int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar3) {
     pUVar1 = (__this->fields)._scrollRect;
-    if (pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_1822b3427;
+    if (pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_05d79076;
     pUVar2 = (pUVar1->fields).m_Content;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -4738,21 +4967,45 @@ int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex
                       ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar3) {
       pUVar1 = (__this->fields)._scrollRect;
-      if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-         (pUVar2 = (pUVar1->fields).m_Content, pUVar2 != (UnityEngine_RectTransform_o *)0x0)) {
-        UVar5 = UnityEngine_RectTransform__get_anchoredPosition(pUVar2,(MethodInfo *)0x0);
-        fStackX_c = UVar5.fields.y;
-        iVar4 = UI_MapEditorHierarchyVirtualization__ComputeStartIndex
-                          (fStackX_c,stride,0xe,totalRows,poolSize,(MethodInfo *)0x0);
-        if (iVar4 < 0) {
-          return 0;
+      if ((pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) ||
+         (pUVar2 = (pUVar1->fields).m_Content, pUVar2 == (UnityEngine_RectTransform_o *)0x0))
+      goto label_05d79076;
+      UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar2,(MethodInfo *)0x0);
+      uVar6 = totalRows - poolSize;
+      if (0 < (int)uVar6) {
+        fVar8 = 0.0;
+        if (0.0 <= UVar9.fields.y) {
+          fVar8 = UVar9.fields.y;
         }
-        if (maxStart < iVar4) {
-          return maxStart;
+        fVar7 = 1.0;
+        if (1.0 <= stride) {
+          fVar7 = stride;
         }
-        return iVar4;
+        if (Il2CppMethodInitialized_0753e7f6 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+          Il2CppMethodInitialized_0753e7f6 = '\x01';
+        }
+        if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+        }
+        fVar8 = floorf(fVar8 / fVar7);
+        uVar4 = (int)fVar8 - 7;
+        if (-1 < (int)uVar4) {
+          if ((int)uVar4 < (int)uVar6) {
+            uVar6 = uVar4;
+          }
+          if ((int)uVar6 < maxStart) {
+            maxStart = uVar6;
+          }
+          uVar4 = 0;
+          if (-1 < (int)uVar6) {
+            uVar4 = maxStart;
+          }
+          goto label_05d79067;
+        }
       }
-      goto label_1822b3427;
+      uVar4 = maxStart >> 0x1f & maxStart;
+      goto label_05d79067;
     }
   }
   pUVar1 = (__this->fields)._scrollRect;
@@ -4761,64 +5014,59 @@ int32_t UI_MapEditorHierarchyPanel__GetVirtualStartIndex
   }
   bVar3 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar3) {
-    pUVar1 = (__this->fields)._scrollRect;
-    if (pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) {
-label_1822b3427:
-      ThrowNullReferenceException();
-    }
-    verticalNormalizedPosition =
-         UnityEngine_UI_ScrollRect__get_verticalNormalizedPosition(pUVar1,(MethodInfo *)0x0);
-    iVar4 = UI_MapEditorHierarchyVirtualization__ComputeStartIndexFromNormalized
-                      (verticalNormalizedPosition,maxStart,(MethodInfo *)0x0);
+  uVar4 = 0;
+  if (!bVar3) {
+label_05d79067:
+    return uVar4;
   }
-  else {
-    iVar4 = 0;
+  pUVar1 = (__this->fields)._scrollRect;
+  if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
+    method_00 = (MethodInfo *)0x0;
+    fVar8 = UnityEngine_UI_ScrollRect__get_verticalNormalizedPosition(pUVar1,(MethodInfo *)0x0);
+    iVar5 = UI_MapEditorHierarchyVirtualization__ComputeStartIndexFromNormalized(fVar8,maxStart,method_00);
+    return iVar5;
   }
-  return iVar4;
+label_05d79076:
+  ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$RenderVirtualizedRows
 // il2cpp: void UI_MapEditorHierarchyPanel__RenderVirtualizedRows (UI_MapEditorHierarchyPanel_o* __this, bool forceRebind, const MethodInfo* method);
-// 0x1822b57c0
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b5ae3: jmp 0x1822b5b38
-// asm:   0x1822b5b12: mov esi, r15d
-// asm:   0x1822b5b15: jmp 0x1822b5b3a
-// asm:   0x1822b5c2c: nop dword ptr [rax]
-// asm:   0x1822b5cc0: jmp 0x1822b5def
-// asm:   0x1822b5db8: jmp 0x1822b5d77
+// 0x5d74ba0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d74df4: jmp 0x5d74f53
+// asm:   0x5d74f1d: nop dword ptr [rax]
 
 void UI_MapEditorHierarchyPanel__RenderVirtualizedRows
                (UI_MapEditorHierarchyPanel_o *__this,bool forceRebind,MethodInfo *method)
 
 {
-  int totalRows;
-  System_Collections_Generic_Dictionary_int__GameObject__o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
   System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar1;
-  UnityEngine_Transform_o *__this_01;
-  UnityEngine_UI_ScrollRect_o *pUVar2;
-  UnityEngine_UI_LayoutElement_o *pUVar3;
-  System_Collections_Generic_List_GameObject__o *pSVar4;
-  bool bVar5;
-  int size;
+  UnityEngine_UI_LayoutElement_o *pUVar2;
+  uint uVar3;
+  bool bVar4;
+  uint uVar5;
   int32_t iVar6;
-  UnityEngine_RectTransform_o *pUVar7;
-  UnityEngine_Rect_o *pUVar8;
-  UnityEngine_UI_VerticalLayoutGroup_o *x;
-  UnityEngine_Vector2_o UVar9;
-  UnityEngine_GameObject_o *pUVar10;
+  UnityEngine_GameObject_o *pUVar7;
   UI_MapEditorHierarchyPanel_RowData_o row;
-  int maxStart;
-  int index;
-  int start;
-  float fVar11;
-  float fVar12;
-  float fStackX_c;
-  UnityEngine_Rect_o local_48 [3];
+  ulong uVar8;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  uint uVar9;
+  int iVar10;
+  undefined7 in_register_00000031;
+  MethodInfo *pMVar11;
+  System_Collections_Generic_List_GameObject__o *pSVar12;
+  MethodInfo *in_R8;
+  int iVar13;
+  float fVar14;
+  float fVar15;
+  float fVar16;
   
-  if (Il2CppMethodInitialized_184347523 == '\0') {
+  pMVar11 = (MethodInfo *)CONCAT71(in_register_00000031,forceRebind);
+  if (Il2CppMethodInitialized_07547fdd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
     il2cpp_codegen_initialize_runtime_metadata
@@ -4830,255 +5078,204 @@ void UI_MapEditorHierarchyPanel__RenderVirtualizedRows
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347523 = '\x01';
+    Il2CppMethodInitialized_07547fdd = '\x01';
   }
-  UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,(MethodInfo *)0x0);
-  __this_00 = (__this->fields)._idToItem;
-  if (__this_00 == (System_Collections_Generic_Dictionary_int__GameObject__o *)0x0) goto label_1822b5def;
-  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
-  pSVar1 = (__this->fields)._rows;
-  if (pSVar1 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) goto label_1822b5def;
-  totalRows = (pSVar1->fields)._size;
-  if (Il2CppMethodInitialized_184347521 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347521 = '\x01';
-  }
-  fVar11 = (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)
-                     (__this,(__this->klass->vtable)._31_GetPanelHeight.method);
-  pUVar7 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b5def;
-    pUVar8 = UnityEngine_RectTransform__get_rect(local_48,pUVar7,(MethodInfo *)0x0);
-    fVar11 = (pUVar8->fields).m_Height;
-    if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-    }
-  }
-  fVar12 = (*(__this->klass->vtable)._11_get_VerticalSpacing.methodPtr)
-                     (__this,(__this->klass->vtable)._11_get_VerticalSpacing.method);
-  __this_01 = (__this->fields).SinglePanel;
-  if (__this_01 == (UnityEngine_Transform_o *)0x0) goto label_1822b5def;
-  x = UnityEngine_Component__GetComponent_object_
-                ((UnityEngine_Component_o *)__this_01,
-                 (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_VerticalLayoutGroup);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    if (x == (UnityEngine_UI_VerticalLayoutGroup_o *)0x0) goto label_1822b5def;
-    fVar12 = (x->fields).m_Spacing;
-  }
-  index = 0;
-  start = 0;
-  size = UI_MapEditorHierarchyVirtualization__ComputePoolSize
-                   (fVar11,(__this->fields)._virtualRowHeight,fVar12,0xe,0x28,totalRows,(MethodInfo *)0x0);
-  if (totalRows < size) {
-    size = totalRows;
-  }
-  UI_MapEditorHierarchyPanel__EnsurePoolSize(__this,size,(MethodInfo *)0x0);
-  if (totalRows == 0) {
-    pUVar3 = (__this->fields)._topSpacer;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar5) {
-      pUVar3 = (__this->fields)._topSpacer;
-      if (pUVar3 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b5def;
-      (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
-                (pUVar3,0.0,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
-    }
-    pUVar3 = (__this->fields)._bottomSpacer;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar5) {
-      pUVar3 = (__this->fields)._bottomSpacer;
-      if (pUVar3 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b5def;
-      (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
-                (pUVar3,0.0,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
-    }
-    pSVar4 = (__this->fields)._itemPool;
-    while (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-      if ((pSVar4->fields)._size <= index) {
-        return;
+  UI_MapEditorHierarchyPanel__EnsureVirtualizationElements(__this,pMVar11);
+  __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+  if (__this_00 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_int__object___Clear
+              (__this_00,
+               (MethodInfo_4A0F8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_Clear);
+    pSVar1 = (__this->fields)._rows;
+    if (pSVar1 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
+      uVar9 = (pSVar1->fields)._size;
+      uVar5 = UI_MapEditorHierarchyPanel__GetVirtualPoolSize(__this,uVar9,method_00);
+      if ((int)uVar9 < (int)uVar5) {
+        uVar5 = uVar9;
       }
-      pSVar4 = (__this->fields)._itemPool;
-      if ((pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) ||
-         (pUVar10 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar4,index,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_GameObject_get_Item),
-         pUVar10 == (UnityEngine_GameObject_o *)0x0)) break;
-      UnityEngine_GameObject__SetActive(pUVar10,false,(MethodInfo *)0x0);
-      index = index + 1;
-      pSVar4 = (__this->fields)._itemPool;
+      pMVar11 = (MethodInfo *)(ulong)uVar5;
+      UI_MapEditorHierarchyPanel__EnsurePoolSize(__this,uVar5,method_01);
+      if (uVar9 == 0) {
+        pUVar2 = (__this->fields)._topSpacer;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar4 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar4) {
+          pUVar2 = (__this->fields)._topSpacer;
+          if (pUVar2 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74f53;
+          (*(pUVar2->klass->vtable)._38_set_preferredHeight.methodPtr)
+                    (pUVar2,0.0,(pUVar2->klass->vtable)._38_set_preferredHeight.method);
+        }
+        pUVar2 = (__this->fields)._bottomSpacer;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar4 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar4) {
+          pUVar2 = (__this->fields)._bottomSpacer;
+          if (pUVar2 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74f53;
+          (*(pUVar2->klass->vtable)._38_set_preferredHeight.methodPtr)
+                    (pUVar2,0.0,(pUVar2->klass->vtable)._38_set_preferredHeight.method);
+        }
+        pSVar12 = (__this->fields)._itemPool;
+        if (pSVar12 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+          iVar10 = 0;
+          do {
+            if ((pSVar12->fields)._size <= iVar10) {
+              return;
+            }
+            pUVar7 = System_Collections_Generic_List_object___get_Item
+                               ((System_Collections_Generic_List_object__o *)pSVar12,iVar10,
+                                (MethodInfo_395CF20 *)
+                                MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+            if (pUVar7 == (UnityEngine_GameObject_o *)0x0) break;
+            UnityEngine_GameObject__SetActive(pUVar7,false,(MethodInfo *)0x0);
+            iVar10 = iVar10 + 1;
+            pSVar12 = (__this->fields)._itemPool;
+          } while (pSVar12 != (System_Collections_Generic_List_GameObject__o *)0x0);
+        }
+      }
+      else {
+        fVar14 = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,pMVar11);
+        iVar6 = 0;
+        if (0 < (int)(uVar9 - uVar5)) {
+          iVar6 = uVar9 - uVar5;
+        }
+        iVar6 = UI_MapEditorHierarchyPanel__GetVirtualStartIndex(__this,iVar6,uVar9,uVar5,fVar14,in_R8);
+        uVar3 = uVar9 - iVar6;
+        if ((int)uVar5 < (int)(uVar9 - iVar6)) {
+          uVar3 = uVar5;
+        }
+        uVar8 = (ulong)uVar3;
+        uVar5 = 1;
+        if (1 < (int)uVar3) {
+          uVar5 = uVar3;
+        }
+        pUVar2 = (__this->fields)._topSpacer;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar4 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar4) {
+          pUVar2 = (__this->fields)._topSpacer;
+          if (pUVar2 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74f53;
+          fVar16 = 1.0;
+          if (1.0 <= fVar14) {
+            fVar16 = fVar14;
+          }
+          fVar15 = 0.0;
+          if (0.0 <= (float)iVar6 * fVar16) {
+            fVar15 = (float)iVar6 * fVar16;
+          }
+          (*(pUVar2->klass->vtable)._38_set_preferredHeight.methodPtr)
+                    (pUVar2,fVar15,(pUVar2->klass->vtable)._38_set_preferredHeight.method);
+        }
+        pUVar2 = (__this->fields)._bottomSpacer;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar4 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar4) {
+          pUVar2 = (__this->fields)._bottomSpacer;
+          if (pUVar2 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74f53;
+          fVar16 = 1.0;
+          if (1.0 <= fVar14) {
+            fVar16 = fVar14;
+          }
+          iVar13 = uVar9 - (iVar6 + uVar5);
+          iVar10 = 0;
+          if (0 < iVar13) {
+            iVar10 = iVar13;
+          }
+          fVar14 = 0.0;
+          if (0.0 <= (float)iVar10 * fVar16) {
+            fVar14 = (float)iVar10 * fVar16;
+          }
+          (*(pUVar2->klass->vtable)._38_set_preferredHeight.methodPtr)
+                    (pUVar2,fVar14,(pUVar2->klass->vtable)._38_set_preferredHeight.method);
+        }
+        pSVar12 = (__this->fields)._itemPool;
+        if (pSVar12 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+          uVar9 = 0;
+          do {
+            while( true ) {
+              if ((pSVar12->fields)._size <= (int)uVar9) {
+                return;
+              }
+              pUVar7 = System_Collections_Generic_List_object___get_Item
+                                 ((System_Collections_Generic_List_object__o *)pSVar12,uVar9,
+                                  (MethodInfo_395CF20 *)
+                                  MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+              if (uVar5 <= uVar9) break;
+              pSVar1 = (__this->fields)._rows;
+              if (pSVar1 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0)
+              goto label_05d74f53;
+              row = System_Collections_Generic_List_MapEditorHierarchyPanel_RowData___get_Item
+                              (pSVar1,iVar6 + uVar9,
+                               (MethodInfo_3AAA990 *)
+                               MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
+                              );
+              UI_MapEditorHierarchyPanel__BindPooledItem(__this,pUVar7,row,(int32_t)uVar8,in_R8);
+              uVar9 = uVar9 + 1;
+              pSVar12 = (__this->fields)._itemPool;
+              if (pSVar12 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d74f53;
+            }
+            if (pUVar7 == (UnityEngine_GameObject_o *)0x0) break;
+            UnityEngine_GameObject__SetActive(pUVar7,false,(MethodInfo *)0x0);
+            uVar9 = uVar9 + 1;
+            pSVar12 = (__this->fields)._itemPool;
+          } while (pSVar12 != (System_Collections_Generic_List_GameObject__o *)0x0);
+        }
+      }
     }
-    goto label_1822b5def;
   }
-  fVar11 = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,(MethodInfo *)0x0);
-  maxStart = index;
-  if (-1 < totalRows - size) {
-    maxStart = totalRows - size;
-  }
-  if (Il2CppMethodInitialized_184347522 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347522 = '\x01';
-  }
-  pUVar2 = (__this->fields)._scrollRect;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    pUVar2 = (__this->fields)._scrollRect;
-    if (pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_1822b5def;
-    pUVar7 = (pUVar2->fields).m_Content;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar5) goto label_1822b5ae5;
-    pUVar2 = (__this->fields)._scrollRect;
-    if ((pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) ||
-       (pUVar7 = (pUVar2->fields).m_Content, pUVar7 == (UnityEngine_RectTransform_o *)0x0))
-    goto label_1822b5def;
-    UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar7,(MethodInfo *)0x0);
-    fStackX_c = UVar9.fields.y;
-    iVar6 = UI_MapEditorHierarchyVirtualization__ComputeStartIndex
-                      (fStackX_c,fVar11,0xe,totalRows,size,(MethodInfo *)0x0);
-    if ((-1 < iVar6) && (start = maxStart, iVar6 <= maxStart)) goto label_1822b5b38;
-  }
-  else {
-label_1822b5ae5:
-    pUVar2 = (__this->fields)._scrollRect;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar5) {
-      pUVar2 = (__this->fields)._scrollRect;
-      if (pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_1822b5def;
-      fVar12 = UnityEngine_UI_ScrollRect__get_verticalNormalizedPosition(pUVar2,(MethodInfo *)0x0);
-      iVar6 = UI_MapEditorHierarchyVirtualization__ComputeStartIndexFromNormalized
-                        (fVar12,maxStart,(MethodInfo *)0x0);
-label_1822b5b38:
-      start = iVar6;
-    }
-  }
-  if (totalRows - start <= size) {
-    size = totalRows - start;
-  }
-  if (size < 1) {
-    size = 1;
-  }
-  pUVar3 = (__this->fields)._topSpacer;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    pUVar3 = (__this->fields)._topSpacer;
-    fVar12 = UI_MapEditorHierarchyVirtualization__ComputeTopSpacerHeight(start,fVar11,(MethodInfo *)0x0);
-    if (pUVar3 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b5def;
-    (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
-              (pUVar3,fVar12,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
-  }
-  pUVar3 = (__this->fields)._bottomSpacer;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    pUVar3 = (__this->fields)._bottomSpacer;
-    fVar11 = UI_MapEditorHierarchyVirtualization__ComputeBottomSpacerHeight
-                       (totalRows,start,size,fVar11,(MethodInfo *)0x0);
-    if (pUVar3 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_1822b5def;
-    (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
-              (pUVar3,fVar11,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
-  }
-  pSVar4 = (__this->fields)._itemPool;
-  while (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    if ((pSVar4->fields)._size <= index) {
-      return;
-    }
-    pSVar4 = (__this->fields)._itemPool;
-    if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-    pUVar10 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                        ((System_Collections_Generic_List_object__o *)pSVar4,index,
-                         (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
-    if (index < size) {
-      pSVar1 = (__this->fields)._rows;
-      if (pSVar1 == (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) break;
-      row.fields = (UI_MapEditorHierarchyPanel_RowData_Fields)
-                   System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                             ((System_Collections_Generic_List_object__o *)pSVar1,index + start,
-                              (MethodInfo_92B830 *)
-                              MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Item
-                             );
-      UI_MapEditorHierarchyPanel__BindPooledItem(__this,pUVar10,row,index + start,(MethodInfo *)0x0);
-    }
-    else {
-      if (pUVar10 == (UnityEngine_GameObject_o *)0x0) break;
-      UnityEngine_GameObject__SetActive(pUVar10,false,(MethodInfo *)0x0);
-    }
-    index = index + 1;
-    pSVar4 = (__this->fields)._itemPool;
-  }
-label_1822b5def:
+label_05d74f53:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$EnsureDragVisuals
 // il2cpp: void UI_MapEditorHierarchyPanel__EnsureDragVisuals (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b0150
+// 0x5d734a0
 
 void UI_MapEditorHierarchyPanel__EnsureDragVisuals(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
-  UnityEngine_Object_o *pUVar2;
+  UnityEngine_GameObject_o **ppUVar1;
+  UnityEngine_RectTransform_o **ppUVar2;
+  UnityEngine_UI_Text_o **targetAddress;
+  byte bVar3;
+  UnityEngine_Object_o *pUVar4;
   UI_MapEditorMenu_o *__this_00;
-  Il2CppType *pIVar3;
-  bool bVar4;
-  UnityEngine_Transform_o *pUVar5;
-  UnityEngine_GameObject_o *pUVar6;
-  UnityEngine_RectTransform_o *pUVar7;
-  UnityEngine_UI_LayoutElement_o *pUVar8;
+  UI_ElementStyle_o *style;
+  Il2CppType *pIVar5;
+  bool bVar6;
+  UnityEngine_Transform_o *pUVar7;
+  UnityEngine_GameObject_o *pUVar8;
+  UnityEngine_RectTransform_o *pUVar9;
+  UnityEngine_UI_LayoutElement_o *pUVar10;
   UnityEngine_UI_Button_o *__this_01;
-  UnityEngine_UI_Image_o *x;
+  UnityEngine_UI_Image_o *pUVar11;
   UnityEngine_Canvas_o *__this_02;
   UnityEngine_UI_GraphicRaycaster_o *__this_03;
-  UnityEngine_UI_Text_o *pUVar9;
-  UnityEngine_RectTransform_o *pUVar10;
-  System_Type_array *pSVar11;
-  System_Type_o *pSVar12;
-  Il2CppObject *pIVar13;
-  UnityEngine_UI_Image_o *pUVar14;
-  UnityEngine_Color_Fields local_48 [4];
+  UnityEngine_UI_Text_o *pUVar12;
+  UnityEngine_RectTransform_o *pUVar13;
+  System_Type_array *pSVar14;
+  System_Type_o *pSVar15;
+  Il2CppObject *pIVar16;
+  System_String_o *title;
+  MethodInfo *pMVar17;
+  UnityEngine_Color_o UVar18;
+  UnityEngine_Color_o UVar19;
+  UnityEngine_Color_o UVar20;
+  UnityEngine_Color_o UVar21;
   
-  if (Il2CppMethodInitialized_184347524 == '\0') {
+  if (Il2CppMethodInitialized_07547fde == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_Canvas);
     il2cpp_codegen_initialize_runtime_metadata
@@ -5097,66 +5294,68 @@ void UI_MapEditorHierarchyPanel__EnsureDragVisuals(UI_MapEditorHierarchyPanel_o 
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Hierarchy");
     il2cpp_codegen_initialize_runtime_metadata(&"HierarchyDragGhost");
     il2cpp_codegen_initialize_runtime_metadata(&"Text");
     il2cpp_codegen_initialize_runtime_metadata(&"HierarchyRootDropOverlay");
-    il2cpp_codegen_initialize_runtime_metadata(&"Drop to root");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapEditor");
     il2cpp_codegen_initialize_runtime_metadata(&"HierarchyInsertLine");
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/Elements/DefaultButton");
-    Il2CppMethodInitialized_184347524 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"DropToRoot");
+    Il2CppMethodInitialized_07547fde = '\x01';
   }
-  pUVar2 = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
+  pUVar4 = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar4) {
+  bVar6 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar6) {
     __this_00 = (__this->fields)._menu;
-    if (__this_00 == (UI_MapEditorMenu_o *)0x0) goto label_1822b0e4d;
-    pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-    pUVar6 = UI_ElementFactory__InstantiateAndBind(pUVar5,"Prefabs/Elements/DefaultButton",(MethodInfo *)0x0);
-    (__this->fields)._dragGhost = pUVar6;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._dragGhost,pUVar6);
-    pUVar2 = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
-    if (pUVar2 == (UnityEngine_Object_o *)0x0) goto label_1822b0e4d;
-    UnityEngine_Object__set_name(pUVar2,"HierarchyDragGhost",(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._dragGhost;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-    pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                       (pUVar6,(MethodInfo_6F5650 *)
-                               MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-    (__this->fields)._dragGhostRect = pUVar7;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._dragGhostRect,pUVar7);
-    pUVar7 = (__this->fields)._dragGhostRect;
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b0e4d;
-    UnityEngine_RectTransform__set_anchorMax(pUVar7,(UnityEngine_Vector2_o)0x0,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchorMin(pUVar7,(UnityEngine_Vector2_o)0x0,(MethodInfo *)0x0);
-    pUVar7 = (__this->fields)._dragGhostRect;
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b0e4d;
-    UnityEngine_RectTransform__set_pivot(pUVar7,(UnityEngine_Vector2_o)0x3f80000000000000,(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._dragGhost;
-    if ((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-       (pUVar8 = UnityEngine_GameObject__GetComponent_object_
-                           (pUVar6,(MethodInfo_6F5650 *)
-                                   MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement),
-       pUVar8 == (UnityEngine_UI_LayoutElement_o *)0x0)) goto label_1822b0e4d;
-    (*(pUVar8->klass->vtable)._28_set_ignoreLayout.methodPtr)
-              (pUVar8,true,(pUVar8->klass->vtable)._28_set_ignoreLayout.method);
-    pUVar7 = (__this->fields)._dragGhostRect;
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b0e4d;
+    if (__this_00 == (UI_MapEditorMenu_o *)0x0) goto label_05d74122;
+    ppUVar1 = &(__this->fields)._dragGhost;
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    pUVar8 = UI_ElementFactory__InstantiateAndBind(pUVar7,"Prefabs/Elements/DefaultButton",(MethodInfo *)0x0);
+    *ppUVar1 = pUVar8;
+    Il2CppCodeGenWriteBarrier(ppUVar1);
+    if ((UnityEngine_Object_o *)*ppUVar1 == (UnityEngine_Object_o *)0x0) goto label_05d74122;
+    UnityEngine_Object__set_name((UnityEngine_Object_o *)*ppUVar1,"HierarchyDragGhost",(MethodInfo *)0x0);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                       (*ppUVar1,(MethodInfo_353B730 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+    ppUVar2 = &(__this->fields)._dragGhostRect;
+    (__this->fields)._dragGhostRect = pUVar9;
+    Il2CppCodeGenWriteBarrier(ppUVar2);
+    pUVar9 = (__this->fields)._dragGhostRect;
+    if (pUVar9 == (UnityEngine_RectTransform_o *)0x0) goto label_05d74122;
+    UnityEngine_RectTransform__set_anchorMax(pUVar9,(UnityEngine_Vector2_o)0x0,(MethodInfo *)0x0);
+    UnityEngine_RectTransform__set_anchorMin(pUVar9,(UnityEngine_Vector2_o)0x0,(MethodInfo *)0x0);
+    if (*ppUVar2 == (UnityEngine_RectTransform_o *)0x0) goto label_05d74122;
+    UnityEngine_RectTransform__set_pivot(*ppUVar2,(UnityEngine_Vector2_o)0x3f80000000000000,(MethodInfo *)0x0)
+    ;
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar10 = UnityEngine_GameObject__GetComponent_object_
+                        (*ppUVar1,(MethodInfo_353B730 *)
+                                  MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+    if (pUVar10 == (UnityEngine_UI_LayoutElement_o *)0x0) goto label_05d74122;
+    (*(pUVar10->klass->vtable)._28_set_ignoreLayout.methodPtr)
+              (pUVar10,true,(pUVar10->klass->vtable)._28_set_ignoreLayout.method);
+    if (*ppUVar2 == (UnityEngine_RectTransform_o *)0x0) goto label_05d74122;
     UnityEngine_RectTransform__set_sizeDelta
-              (pUVar7,(UnityEngine_Vector2_o)0x41f00000435c0000,(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._dragGhost;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
+              (*ppUVar2,(UnityEngine_Vector2_o)0x41f00000435c0000,(MethodInfo *)0x0);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
     __this_01 = UnityEngine_GameObject__GetComponent_object_
-                          (pUVar6,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                          (*ppUVar1,(MethodInfo_353B730 *)
+                                    MethodInfo_UnityEngine_GameObject_GetComponent_Button);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality
+    bVar6 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      if (__this_01 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b0e4d;
+    if (bVar6) {
+      if (__this_01 == (UnityEngine_UI_Button_o *)0x0) goto label_05d74122;
       UnityEngine_UI_Selectable__set_interactable
                 ((UnityEngine_UI_Selectable_o *)__this_01,false,(MethodInfo *)0x0);
       UnityEngine_UI_Selectable__set_transition((UnityEngine_UI_Selectable_o *)__this_01,0,(MethodInfo *)0x0);
@@ -5164,338 +5363,313 @@ void UI_MapEditorHierarchyPanel__EnsureDragVisuals(UI_MapEditorHierarchyPanel_o 
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality
+    bVar6 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      if (__this_01 == (UnityEngine_UI_Button_o *)0x0) goto label_1822b0e4d;
-      pUVar14 = (UnityEngine_UI_Image_o *)(__this_01->fields).m_TargetGraphic;
-      if (pUVar14 == (UnityEngine_UI_Image_o *)0x0) {
-        x = (UnityEngine_UI_Image_o *)0x0;
-      }
-      else {
-        bVar1 = (TypeInfo_UnityEngine_UI_Image->_2).typeHierarchyDepth;
-        if (((pUVar14->klass->_2).typeHierarchyDepth < bVar1) ||
-           ((pUVar14->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-            (Il2CppClass *)TypeInfo_UnityEngine_UI_Image)) {
-          bVar4 = false;
-        }
-        else {
-          bVar4 = true;
-        }
-        x = (UnityEngine_UI_Image_o *)0x0;
-        if (bVar4) {
-          x = pUVar14;
-        }
-      }
-      if (x == (UnityEngine_UI_Image_o *)0x0) goto label_1822b051a;
+    if (!bVar6) goto label_05d7381d;
+    if (__this_01 == (UnityEngine_UI_Button_o *)0x0) goto label_05d74122;
+    pUVar11 = (UnityEngine_UI_Image_o *)(__this_01->fields).m_TargetGraphic;
+    if (pUVar11 == (UnityEngine_UI_Image_o *)0x0) {
+label_05d7381d:
+      if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+      pUVar11 = UnityEngine_GameObject__GetComponentInChildren_object_
+                          (*ppUVar1,(MethodInfo_353B8D0 *)
+                                    MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Image);
     }
     else {
-label_1822b051a:
-      pUVar6 = (__this->fields)._dragGhost;
-      if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-      x = UnityEngine_GameObject__GetComponentInChildren_object_
-                    (pUVar6,(MethodInfo_6F5040 *)
-                            MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Image);
+      bVar3 = (TypeInfo_UnityEngine_UI_Image->_2).typeHierarchyDepth;
+      if (((pUVar11->klass->_2).typeHierarchyDepth < bVar3) ||
+         ((pUVar11->klass->_2).typeHierarchy[(ulong)bVar3 - 1] != (Il2CppClass *)TypeInfo_UnityEngine_UI_Image
+         )) goto label_05d7381d;
     }
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      if (x == (UnityEngine_UI_Image_o *)0x0) goto label_1822b0e4d;
-      (*(x->klass->vtable)._25_set_raycastTarget.methodPtr)
-                (x,false,(x->klass->vtable)._25_set_raycastTarget.method);
-      local_48[0].r = 0.18;
-      local_48[0].g = 0.18;
-      local_48[0].b = 0.18;
-      local_48[0].a = 0.75;
-      (*(x->klass->vtable)._23_set_color.methodPtr)
-                (x,(UnityEngine_Color_o *)local_48,(x->klass->vtable)._23_set_color.method);
+    bVar6 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar11,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar6) {
+      if (pUVar11 == (UnityEngine_UI_Image_o *)0x0) goto label_05d74122;
+      (*(pUVar11->klass->vtable)._25_set_raycastTarget.methodPtr)
+                (pUVar11,false,(pUVar11->klass->vtable)._25_set_raycastTarget.method);
+      UVar18.fields.b = 0.18;
+      UVar18.fields.a = 0.75;
+      UVar18.fields.r = 0.18;
+      UVar18.fields.g = 0.18;
+      (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
+                (pUVar11,UVar18,(pUVar11->klass->vtable)._23_set_color.method);
     }
-    pUVar6 = (__this->fields)._dragGhost;
-    if ((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-       (__this_02 = UnityEngine_GameObject__AddComponent_object_
-                              (pUVar6,(MethodInfo_6F4D60 *)
-                                      MethodInfo_UnityEngine_GameObject_AddComponent_Canvas),
-       __this_02 == (UnityEngine_Canvas_o *)0x0)) goto label_1822b0e4d;
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    __this_02 = UnityEngine_GameObject__AddComponent_object_
+                          (*ppUVar1,(MethodInfo_353B6A0 *)
+                                    MethodInfo_UnityEngine_GameObject_AddComponent_Canvas);
+    if (__this_02 == (UnityEngine_Canvas_o *)0x0) goto label_05d74122;
     UnityEngine_Canvas__set_overrideSorting(__this_02,true,(MethodInfo *)0x0);
     UnityEngine_Canvas__set_sortingOrder(__this_02,0x7fff,(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._dragGhost;
-    if ((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-       (__this_03 = UnityEngine_GameObject__AddComponent_object_
-                              (pUVar6,(MethodInfo_6F4D60 *)
-                                      MethodInfo_UnityEngine_GameObject_AddComponent_GraphicRaycaster),
-       __this_03 == (UnityEngine_UI_GraphicRaycaster_o *)0x0)) goto label_1822b0e4d;
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    __this_03 = UnityEngine_GameObject__AddComponent_object_
+                          (*ppUVar1,(MethodInfo_353B6A0 *)
+                                    MethodInfo_UnityEngine_GameObject_AddComponent_GraphicRaycaster);
+    if (__this_03 == (UnityEngine_UI_GraphicRaycaster_o *)0x0) goto label_05d74122;
     UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)__this_03,false,(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._dragGhost;
-    if (((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-        (pUVar5 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0),
-        pUVar5 == (UnityEngine_Transform_o *)0x0)) ||
-       (pUVar5 = UnityEngine_Transform__Find(pUVar5,"Text",(MethodInfo *)0x0),
-       pUVar5 == (UnityEngine_Transform_o *)0x0)) goto label_1822b0e4d;
-    pUVar9 = UnityEngine_Component__GetComponent_object_
-                       ((UnityEngine_Component_o *)pUVar5,
-                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
-    (__this->fields)._dragGhostText = pUVar9;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._dragGhostText,pUVar9);
-    pUVar9 = (__this->fields)._dragGhostText;
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar7 = UnityEngine_GameObject__get_transform(*ppUVar1,(MethodInfo *)0x0);
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d74122;
+    pUVar7 = UnityEngine_Transform__Find(pUVar7,"Text",(MethodInfo *)0x0);
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d74122;
+    pUVar12 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar7,
+                         (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+    targetAddress = &(__this->fields)._dragGhostText;
+    (__this->fields)._dragGhostText = pUVar12;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    pUVar12 = (__this->fields)._dragGhostText;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      pUVar9 = (__this->fields)._dragGhostText;
-      if (pUVar9 == (UnityEngine_UI_Text_o *)0x0) goto label_1822b0e4d;
-      (*(pUVar9->klass->vtable)._25_set_raycastTarget.methodPtr)
-                (pUVar9,false,(pUVar9->klass->vtable)._25_set_raycastTarget.method);
-      pUVar9 = (__this->fields)._dragGhostText;
-      if (pUVar9 == (UnityEngine_UI_Text_o *)0x0) goto label_1822b0e4d;
-      local_48[0].r = 1.0;
-      local_48[0].g = 1.0;
-      local_48[0].b = 1.0;
-      local_48[0].a = 1.0;
-      (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
-                (pUVar9,(UnityEngine_Color_o *)local_48,(pUVar9->klass->vtable)._23_set_color.method);
+    bVar6 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar12,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar6) {
+      pUVar12 = *targetAddress;
+      if (pUVar12 == (UnityEngine_UI_Text_o *)0x0) goto label_05d74122;
+      (*(pUVar12->klass->vtable)._25_set_raycastTarget.methodPtr)
+                (pUVar12,false,(pUVar12->klass->vtable)._25_set_raycastTarget.method);
+      pUVar12 = *targetAddress;
+      if (pUVar12 == (UnityEngine_UI_Text_o *)0x0) goto label_05d74122;
+      UVar19.fields.b = 1.0;
+      UVar19.fields.a = 1.0;
+      UVar19.fields.r = 1.0;
+      UVar19.fields.g = 1.0;
+      (*(pUVar12->klass->vtable)._23_set_color.methodPtr)
+                (pUVar12,UVar19,(pUVar12->klass->vtable)._23_set_color.method);
     }
-    pUVar6 = (__this->fields)._dragGhost;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-    UnityEngine_GameObject__SetActive(pUVar6,false,(MethodInfo *)0x0);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    UnityEngine_GameObject__SetActive(*ppUVar1,false,(MethodInfo *)0x0);
   }
-  pUVar2 = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
+  pUVar4 = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar4) {
-    pUVar7 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) {
-      pUVar5 = (__this->fields).SinglePanel;
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_1822b0e4d;
-      pUVar10 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__GetParent(pUVar5,(MethodInfo *)0x0);
-      if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-        if (pUVar10->klass == TypeInfo_UnityEngine_RectTransform) {
-          pUVar7 = pUVar10;
-        }
-        if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) {
-          il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-        }
+  pMVar17 = (MethodInfo *)0x0;
+  bVar6 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar6) {
+    pUVar9 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,pMVar17);
+    if (pUVar9 == (UnityEngine_RectTransform_o *)0x0) {
+      pUVar7 = (__this->fields).SinglePanel;
+      if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d74122;
+      pUVar13 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__get_parent(pUVar7,(MethodInfo *)0x0);
+      pUVar9 = (UnityEngine_RectTransform_o *)0x0;
+      if (pUVar13 != (UnityEngine_RectTransform_o *)0x0) {
+        if (pUVar13->klass != TypeInfo_UnityEngine_RectTransform) goto label_05d7413b;
+        pUVar9 = pUVar13;
       }
     }
-    pSVar11 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
-    pIVar3 = TypeRef_UnityEngine_RectTransform;
-    if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+    pSVar14 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+    pIVar5 = TypeRef_UnityEngine_RectTransform;
+    if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(g_data_075567a8);
     }
-    pSVar12 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)pIVar3,(MethodInfo *)0x0);
-    if (pSVar11 == (System_Type_array *)0x0) goto label_1822b0e4d;
-    if ((pSVar12 != (System_Type_o *)0x0) &&
-       (pIVar13 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar12,(((pSVar11->obj).klass)->_1).element_class),
-       pIVar13 == (Il2CppObject *)0x0)) {
-      pIVar13 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar13,(MethodInfo *)0x0);
+    pSVar15 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)pIVar5,(MethodInfo *)0x0);
+    if (pSVar14 == (System_Type_array *)0x0) goto label_05d74122;
+    if (pSVar15 != (System_Type_o *)0x0) {
+      pIVar16 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar15,(((pSVar14->obj).klass)->_1).element_class);
+      if (pIVar16 == (Il2CppObject *)0x0) goto label_05d7412c;
     }
-    if ((int)pSVar11->max_length == 0) goto label_1822b0e9c;
-    pSVar11->m_Items[0] = pSVar12;
-    Il2CppCodeGenWriteBarrier(pSVar11->m_Items,pSVar12);
-    pSVar12 = System_Type__GetTypeFromHandle
+    if ((int)pSVar14->max_length == 0) goto label_05d74127;
+    pSVar14->m_Items[0] = pSVar15;
+    Il2CppCodeGenWriteBarrier(pSVar14->m_Items);
+    pSVar15 = System_Type__GetTypeFromHandle
                         ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_Image,(MethodInfo *)0x0);
-    if ((pSVar12 != (System_Type_o *)0x0) &&
-       (pIVar13 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar12,(((pSVar11->obj).klass)->_1).element_class),
-       pIVar13 == (Il2CppObject *)0x0)) {
-      pIVar13 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar13,(MethodInfo *)0x0);
+    if (pSVar15 != (System_Type_o *)0x0) {
+      pIVar16 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar15,(((pSVar14->obj).klass)->_1).element_class);
+      if (pIVar16 == (Il2CppObject *)0x0) goto label_05d7412c;
     }
-    if ((uint)pSVar11->max_length < 2) goto label_1822b0e9c;
-    pSVar11->m_Items[1] = pSVar12;
-    Il2CppCodeGenWriteBarrier(pSVar11->m_Items + 1,pSVar12);
-    pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-    UnityEngine_GameObject___ctor_2f1abe0(pUVar6,"HierarchyRootDropOverlay",pSVar11,(MethodInfo *)0x0);
-    (__this->fields)._rootDropOverlay = pUVar6;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._rootDropOverlay,pUVar6);
-    pUVar6 = (__this->fields)._rootDropOverlay;
-    if ((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-       (pUVar5 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0),
-       pUVar5 == (UnityEngine_Transform_o *)0x0)) goto label_1822b0e4d;
-    UnityEngine_Transform__SetParent_2f5a7e0(pUVar5,(UnityEngine_Transform_o *)pUVar7,false,(MethodInfo *)0x0)
+    if ((pSVar14->max_length & 0xfffffffe) == 0) goto label_05d74127;
+    ppUVar1 = &(__this->fields)._rootDropOverlay;
+    pSVar14->m_Items[1] = pSVar15;
+    Il2CppCodeGenWriteBarrier(pSVar14->m_Items + 1);
+    pUVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+    UnityEngine_GameObject___ctor_691aa60(pUVar8,"HierarchyRootDropOverlay",pSVar14,(MethodInfo *)0x0);
+    *ppUVar1 = pUVar8;
+    Il2CppCodeGenWriteBarrier(ppUVar1);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar7 = UnityEngine_GameObject__get_transform(*ppUVar1,(MethodInfo *)0x0);
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d74122;
+    UnityEngine_Transform__SetParent_692d510(pUVar7,(UnityEngine_Transform_o *)pUVar9,false,(MethodInfo *)0x0)
     ;
-    pUVar6 = (__this->fields)._rootDropOverlay;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-    pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                       (pUVar6,(MethodInfo_6F5650 *)
-                               MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                       (*ppUVar1,(MethodInfo_353B730 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+    if (Il2CppMethodInitialized_0753ecc8 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_18433e3c9 = '\x01';
+      Il2CppMethodInitialized_0753ecc8 = '\x01';
     }
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b0e4d;
+    if (pUVar9 == (UnityEngine_RectTransform_o *)0x0) goto label_05d74122;
     UnityEngine_RectTransform__set_anchorMin
-              (pUVar7,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+              (pUVar9,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_184341f36 == '\0') {
+    if (Il2CppMethodInitialized_07542885 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_184341f36 = '\x01';
+      Il2CppMethodInitialized_07542885 = '\x01';
     }
     UnityEngine_RectTransform__set_anchorMax
-              (pUVar7,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
+              (pUVar9,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
                (MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+    if (Il2CppMethodInitialized_0753ecc8 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_18433e3c9 = '\x01';
+      Il2CppMethodInitialized_0753ecc8 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMin
-              (pUVar7,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+              (pUVar9,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+    if (Il2CppMethodInitialized_0753ecc8 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_18433e3c9 = '\x01';
+      Il2CppMethodInitialized_0753ecc8 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMax
-              (pUVar7,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+              (pUVar9,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._rootDropOverlay;
-    if ((pUVar6 == (UnityEngine_GameObject_o *)0x0) ||
-       (pUVar14 = UnityEngine_GameObject__GetComponent_object_
-                            (pUVar6,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Image)
-       , pUVar14 == (UnityEngine_UI_Image_o *)0x0)) goto label_1822b0e4d;
-    local_48[0].r = 0.95;
-    local_48[0].g = 0.64;
-    local_48[0].b = 0.15;
-    local_48[0].a = 0.14;
-    (*(pUVar14->klass->vtable)._23_set_color.methodPtr)
-              (pUVar14,(UnityEngine_Color_o *)local_48,(pUVar14->klass->vtable)._23_set_color.method);
-    (*(pUVar14->klass->vtable)._25_set_raycastTarget.methodPtr)
-              (pUVar14,false,(pUVar14->klass->vtable)._25_set_raycastTarget.method);
-    pUVar6 = (__this->fields)._rootDropOverlay;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-    pUVar5 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-    pUVar6 = UI_ElementFactory__CreateDefaultLabel
-                       (pUVar5,(__this->fields)._style,"Drop to root",0,1,(MethodInfo *)0x0);
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar11 = UnityEngine_GameObject__GetComponent_object_
+                        (*ppUVar1,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Image);
+    if (pUVar11 == (UnityEngine_UI_Image_o *)0x0) goto label_05d74122;
+    UVar20.fields.b = 0.15;
+    UVar20.fields.a = 0.14;
+    UVar20.fields.r = 0.95;
+    UVar20.fields.g = 0.64;
+    (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
+              (pUVar11,UVar20,(pUVar11->klass->vtable)._23_set_color.method);
+    (*(pUVar11->klass->vtable)._25_set_raycastTarget.methodPtr)
+              (pUVar11,false,(pUVar11->klass->vtable)._25_set_raycastTarget.method);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar7 = UnityEngine_GameObject__get_transform(*ppUVar1,(MethodInfo *)0x0);
+    style = (__this->fields)._style;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    title = UI_UIManager__GetLocale
+                      ("MapEditor","Hierarchy","DropToRoot",""
+                       ,"",(MethodInfo *)0x0);
+    pUVar8 = UI_ElementFactory__CreateDefaultLabel(pUVar7,style,title,0,1,(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    pUVar12 = UnityEngine_GameObject__GetComponent_object_
+                        (pUVar8,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    (__this->fields)._rootDropOverlayText = pUVar12;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._rootDropOverlayText);
     pUVar9 = UnityEngine_GameObject__GetComponent_object_
-                       (pUVar6,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-    (__this->fields)._rootDropOverlayText = pUVar9;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._rootDropOverlayText,pUVar9);
-    pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                       (pUVar6,(MethodInfo_6F5650 *)
+                       (pUVar8,(MethodInfo_353B730 *)
                                MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-    if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b0e4d;
+    if (pUVar9 == (UnityEngine_RectTransform_o *)0x0) goto label_05d74122;
     UnityEngine_RectTransform__set_anchorMin
-              (pUVar7,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+              (pUVar9,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
     UnityEngine_RectTransform__set_anchorMax
-              (pUVar7,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_pivot(pUVar7,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+              (pUVar9,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+    UnityEngine_RectTransform__set_pivot(pUVar9,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
     UnityEngine_RectTransform__set_anchoredPosition
-              (pUVar7,(UnityEngine_Vector2_o)0xc0c0000000000000,(MethodInfo *)0x0);
-    pUVar6 = (__this->fields)._rootDropOverlay;
-    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1822b0e4d;
-    UnityEngine_GameObject__SetActive(pUVar6,false,(MethodInfo *)0x0);
+              (pUVar9,(UnityEngine_Vector2_o)0xc0c0000000000000,(MethodInfo *)0x0);
+    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_05d74122;
+    UnityEngine_GameObject__SetActive(*ppUVar1,false,(MethodInfo *)0x0);
   }
-  pUVar2 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
+  pUVar4 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar4) {
+  pMVar17 = (MethodInfo *)0x0;
+  bVar6 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar6) {
     return;
   }
-  pUVar7 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
-  if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) {
-    pUVar5 = (__this->fields).SinglePanel;
-    if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_1822b0e4d;
-    pUVar10 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__GetParent(pUVar5,(MethodInfo *)0x0);
-    if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-      if (pUVar10->klass == TypeInfo_UnityEngine_RectTransform) {
-        pUVar7 = pUVar10;
+  pUVar9 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,pMVar17);
+  if (pUVar9 == (UnityEngine_RectTransform_o *)0x0) {
+    pUVar7 = (__this->fields).SinglePanel;
+    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_05d74122;
+    pUVar13 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__get_parent(pUVar7,(MethodInfo *)0x0);
+    pUVar9 = (UnityEngine_RectTransform_o *)0x0;
+    if (pUVar13 != (UnityEngine_RectTransform_o *)0x0) {
+      if (pUVar13->klass != TypeInfo_UnityEngine_RectTransform) {
+label_05d7413b:
+        il2cpp_codegen_raise_invalid_cast_exception(pUVar13);
       }
-      if (pUVar7 == (UnityEngine_RectTransform_o *)0x0) {
-        il2cpp_codegen_raise_invalid_cast_exception(pUVar10);
-      }
+      pUVar9 = pUVar13;
     }
   }
-  pSVar11 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
-  pIVar3 = TypeRef_UnityEngine_RectTransform;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  pSVar14 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  pIVar5 = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
-  pSVar12 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)pIVar3,(MethodInfo *)0x0);
-  if (pSVar11 == (System_Type_array *)0x0) {
-label_1822b0e4d:
+  pSVar15 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)pIVar5,(MethodInfo *)0x0);
+  if (pSVar14 == (System_Type_array *)0x0) {
+label_05d74122:
     ThrowNullReferenceException();
   }
-  if ((pSVar12 != (System_Type_o *)0x0) &&
-     (pIVar13 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar12,(((pSVar11->obj).klass)->_1).element_class),
-     pIVar13 == (Il2CppObject *)0x0)) {
-    pIVar13 = il2cpp_codegen_get_array_type_mismatch_exception();
-    il2cpp_codegen_raise_exception(pIVar13,(MethodInfo *)0x0);
+  if (pSVar15 != (System_Type_o *)0x0) {
+    pIVar16 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar15,(((pSVar14->obj).klass)->_1).element_class);
+    if (pIVar16 == (Il2CppObject *)0x0) goto label_05d7412c;
   }
-  if ((int)pSVar11->max_length != 0) {
-    pSVar11->m_Items[0] = pSVar12;
-    Il2CppCodeGenWriteBarrier(pSVar11->m_Items,pSVar12);
-    pSVar12 = System_Type__GetTypeFromHandle
+  if ((int)pSVar14->max_length != 0) {
+    pSVar14->m_Items[0] = pSVar15;
+    Il2CppCodeGenWriteBarrier(pSVar14->m_Items);
+    pSVar15 = System_Type__GetTypeFromHandle
                         ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_Image,(MethodInfo *)0x0);
-    if ((pSVar12 != (System_Type_o *)0x0) &&
-       (pIVar13 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar12,(((pSVar11->obj).klass)->_1).element_class),
-       pIVar13 == (Il2CppObject *)0x0)) {
-      pIVar13 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar13,(MethodInfo *)0x0);
+    if (pSVar15 != (System_Type_o *)0x0) {
+      pIVar16 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar15,(((pSVar14->obj).klass)->_1).element_class);
+      if (pIVar16 == (Il2CppObject *)0x0) {
+label_05d7412c:
+        pIVar16 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar16,(MethodInfo *)0x0);
+      }
     }
-    if (1 < (uint)pSVar11->max_length) {
-      pSVar11->m_Items[1] = pSVar12;
-      Il2CppCodeGenWriteBarrier(pSVar11->m_Items + 1,pSVar12);
-      pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-      UnityEngine_GameObject___ctor_2f1abe0(pUVar6,"HierarchyInsertLine",pSVar11,(MethodInfo *)0x0);
-      (__this->fields)._insertLineIndicator = pUVar6;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._insertLineIndicator,pUVar6);
-      pUVar6 = (__this->fields)._insertLineIndicator;
-      if ((pUVar6 != (UnityEngine_GameObject_o *)0x0) &&
-         (pUVar5 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0),
-         pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-        UnityEngine_Transform__SetParent_2f5a7e0
-                  (pUVar5,(UnityEngine_Transform_o *)pUVar7,false,(MethodInfo *)0x0);
-        pUVar6 = (__this->fields)._insertLineIndicator;
-        if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                             (pUVar6,(MethodInfo_6F5650 *)
-                                     MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-          (__this->fields)._insertLineRect = pUVar7;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._insertLineRect,pUVar7);
-          pUVar7 = (__this->fields)._insertLineRect;
-          if (pUVar7 != (UnityEngine_RectTransform_o *)0x0) {
-            UnityEngine_RectTransform__set_anchorMin
-                      (pUVar7,(UnityEngine_Vector2_o)0x3f00000000000000,(MethodInfo *)0x0);
-            pUVar7 = (__this->fields)._insertLineRect;
-            if (pUVar7 != (UnityEngine_RectTransform_o *)0x0) {
-              UnityEngine_RectTransform__set_anchorMax
-                        (pUVar7,(UnityEngine_Vector2_o)0x3f0000003f800000,(MethodInfo *)0x0);
-              pUVar7 = (__this->fields)._insertLineRect;
-              if (pUVar7 != (UnityEngine_RectTransform_o *)0x0) {
-                UnityEngine_RectTransform__set_pivot
-                          (pUVar7,(UnityEngine_Vector2_o)0x3f0000003f000000,(MethodInfo *)0x0);
-                pUVar7 = (__this->fields)._insertLineRect;
-                if (pUVar7 != (UnityEngine_RectTransform_o *)0x0) {
-                  UnityEngine_RectTransform__set_sizeDelta
-                            (pUVar7,(UnityEngine_Vector2_o)0x4000000000000000,(MethodInfo *)0x0);
-                  pUVar6 = (__this->fields)._insertLineIndicator;
-                  if ((pUVar6 != (UnityEngine_GameObject_o *)0x0) &&
-                     (pUVar14 = UnityEngine_GameObject__GetComponent_object_
-                                          (pUVar6,(MethodInfo_6F5650 *)
-                                                  MethodInfo_UnityEngine_GameObject_GetComponent_Image),
-                     pUVar14 != (UnityEngine_UI_Image_o *)0x0)) {
-                    local_48[0].r = 0.95;
-                    local_48[0].g = 0.64;
-                    local_48[0].b = 0.15;
-                    local_48[0].a = 0.9;
-                    (*(pUVar14->klass->vtable)._23_set_color.methodPtr)
-                              (pUVar14,(UnityEngine_Color_o *)local_48,
-                               (pUVar14->klass->vtable)._23_set_color.method);
-                    (*(pUVar14->klass->vtable)._25_set_raycastTarget.methodPtr)
-                              (pUVar14,false,(pUVar14->klass->vtable)._25_set_raycastTarget.method);
-                    pUVar6 = (__this->fields)._insertLineIndicator;
-                    if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                      UnityEngine_GameObject__SetActive(pUVar6,false,(MethodInfo *)0x0);
-                      return;
+    if ((pSVar14->max_length & 0xfffffffe) != 0) {
+      ppUVar1 = &(__this->fields)._insertLineIndicator;
+      pSVar14->m_Items[1] = pSVar15;
+      Il2CppCodeGenWriteBarrier(pSVar14->m_Items + 1);
+      pUVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_691aa60(pUVar8,"HierarchyInsertLine",pSVar14,(MethodInfo *)0x0);
+      *ppUVar1 = pUVar8;
+      Il2CppCodeGenWriteBarrier(ppUVar1);
+      if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar7 = UnityEngine_GameObject__get_transform(*ppUVar1,(MethodInfo *)0x0);
+        if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_692d510
+                    (pUVar7,(UnityEngine_Transform_o *)pUVar9,false,(MethodInfo *)0x0);
+          if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
+            pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                               (*ppUVar1,(MethodInfo_353B730 *)
+                                         MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+            ppUVar2 = &(__this->fields)._insertLineRect;
+            (__this->fields)._insertLineRect = pUVar9;
+            Il2CppCodeGenWriteBarrier(ppUVar2);
+            pUVar9 = (__this->fields)._insertLineRect;
+            if (pUVar9 != (UnityEngine_RectTransform_o *)0x0) {
+              UnityEngine_RectTransform__set_anchorMin
+                        (pUVar9,(UnityEngine_Vector2_o)0x3f00000000000000,(MethodInfo *)0x0);
+              if (*ppUVar2 != (UnityEngine_RectTransform_o *)0x0) {
+                UnityEngine_RectTransform__set_anchorMax
+                          (*ppUVar2,(UnityEngine_Vector2_o)0x3f0000003f800000,(MethodInfo *)0x0);
+                if (*ppUVar2 != (UnityEngine_RectTransform_o *)0x0) {
+                  UnityEngine_RectTransform__set_pivot
+                            (*ppUVar2,(UnityEngine_Vector2_o)0x3f0000003f000000,(MethodInfo *)0x0);
+                  if (*ppUVar2 != (UnityEngine_RectTransform_o *)0x0) {
+                    UnityEngine_RectTransform__set_sizeDelta
+                              (*ppUVar2,(UnityEngine_Vector2_o)0x4000000000000000,(MethodInfo *)0x0);
+                    if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
+                      pUVar11 = UnityEngine_GameObject__GetComponent_object_
+                                          (*ppUVar1,(MethodInfo_353B730 *)
+                                                    MethodInfo_UnityEngine_GameObject_GetComponent_Image);
+                      if (pUVar11 != (UnityEngine_UI_Image_o *)0x0) {
+                        UVar21.fields.b = 0.15;
+                        UVar21.fields.a = 0.9;
+                        UVar21.fields.r = 0.95;
+                        UVar21.fields.g = 0.64;
+                        (*(pUVar11->klass->vtable)._23_set_color.methodPtr)
+                                  (pUVar11,UVar21,(pUVar11->klass->vtable)._23_set_color.method);
+                        (*(pUVar11->klass->vtable)._25_set_raycastTarget.methodPtr)
+                                  (pUVar11,false,(pUVar11->klass->vtable)._25_set_raycastTarget.method);
+                        if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
+                          UnityEngine_GameObject__SetActive(*ppUVar1,false,(MethodInfo *)0x0);
+                          return;
+                        }
+                      }
                     }
                   }
                 }
@@ -5504,102 +5678,111 @@ label_1822b0e4d:
           }
         }
       }
-      goto label_1822b0e4d;
+      goto label_05d74122;
     }
   }
-label_1822b0e9c:
+label_05d74127:
   ThrowIndexOutOfRangeException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$EnsureContextMenu
 // il2cpp: void UI_MapEditorHierarchyPanel__EnsureContextMenu (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b0070
+// 0x5d792c0
 
 void UI_MapEditorHierarchyPanel__EnsureContextMenu(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   UI_MapEditorMenu_o *__this_00;
-  UnityEngine_Transform_o *value;
-  System_String_o *value_00;
+  UnityEngine_Transform_o *pUVar1;
+  System_String_o *pSVar2;
   UI_MapEditorContextMenu_o *__this_01;
   
-  if (Il2CppMethodInitialized_184347525 == '\0') {
+  if (Il2CppMethodInitialized_07547fdf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorContextMenu);
-    Il2CppMethodInitialized_184347525 = '\x01';
+    Il2CppMethodInitialized_07547fdf = '\x01';
   }
-  if ((__this->fields)._contextMenu == (UI_MapEditorContextMenu_o *)0x0) {
-    __this_00 = (__this->fields)._menu;
-    if (__this_00 == (UI_MapEditorMenu_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    value = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-    value_00 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorContextMenu);
-    System_Object___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
-    (__this_01->fields)._parent = value;
-    Il2CppCodeGenWriteBarrier(&(__this_01->fields)._parent,value);
-    (__this_01->fields)._themePanel = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_01->fields)._themePanel,value_00);
-    (__this->fields)._contextMenu = __this_01;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._contextMenu,__this_01);
+  if ((__this->fields)._contextMenu != (UI_MapEditorContextMenu_o *)0x0) {
+    return;
   }
+  __this_00 = (__this->fields)._menu;
+  if (__this_00 == (UI_MapEditorMenu_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+  pSVar2 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                     (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorContextMenu);
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  (__this_01->fields)._parent = pUVar1;
+  Il2CppCodeGenWriteBarrier(&(__this_01->fields)._parent);
+  (__this_01->fields)._themePanel = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this_01->fields)._themePanel);
+  (__this->fields)._contextMenu = __this_01;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._contextMenu);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnItemRightClick
 // il2cpp: void UI_MapEditorHierarchyPanel__OnItemRightClick (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822b4a70
+// 0x5d79390
 
 void UI_MapEditorHierarchyPanel__OnItemRightClick
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
-  UI_MapEditorMenu_o *pUVar1;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar2;
-  GameManagers_MapEditorGameManager_o *pGVar3;
+  int32_t *piVar1;
+  uint uVar2;
+  UI_MapEditorMenu_o *__this_00;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar3;
+  GameManagers_MapEditorGameManager_o *pGVar4;
   System_Collections_Generic_HashSet_MapObject__o *source;
-  bool bVar4;
-  UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *object;
-  System_Func_MapObject__bool__o *__this_00;
-  Map_MapObject_o *obj;
-  UnityEngine_Transform_o *value;
-  System_String_o *value_00;
   UI_MapEditorContextMenu_o *pUVar5;
-  System_Collections_Generic_List_MapEditorContextMenu_Item__o *__this_01;
-  System_Action_o *pSVar6;
-  undefined4 local_e8;
-  undefined4 uStack_e4;
-  undefined4 uStack_e0;
-  undefined4 uStack_dc;
-  undefined8 local_d8;
-  undefined8 local_c8;
+  UI_MapEditorContextMenu_Item_array *pUVar6;
+  UI_MapEditorContextMenu_Item_o item;
+  UI_MapEditorContextMenu_Item_o item_00;
+  UI_MapEditorContextMenu_Item_o item_01;
+  UI_MapEditorContextMenu_Item_o item_02;
+  UI_MapEditorContextMenu_Item_o item_03;
+  UI_MapEditorContextMenu_Item_o item_04;
+  UI_MapEditorContextMenu_Item_o item_05;
+  UI_MapEditorContextMenu_Item_o *pUVar7;
+  bool bVar8;
+  UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *__this_01;
+  System_Func_MapObject__bool__o *__this_02;
+  Map_MapObject_o *obj;
+  System_Collections_Generic_List_MapEditorContextMenu_Item__o *__this_03;
+  System_String_o *pSVar9;
+  System_Action_o *pSVar10;
+  MethodInfo *pMVar11;
+  long lVar12;
+  System_String_o *pSStack_e8;
+  System_Action_o *pSStack_e0;
+  undefined8 uStack_d8;
+  System_String_o *pSStack_d0;
+  System_Action_o *pSStack_c8;
   undefined8 uStack_c0;
-  undefined8 uStack_b8;
-  undefined8 local_b0;
+  System_String_o *pSStack_b8;
+  System_Action_o *pSStack_b0;
   undefined8 uStack_a8;
-  undefined8 uStack_a0;
-  undefined8 local_98;
+  System_String_o *pSStack_a0;
+  System_Action_o *pSStack_98;
   undefined8 uStack_90;
-  undefined8 uStack_88;
-  undefined8 local_80;
+  System_String_o *pSStack_88;
+  System_Action_o *pSStack_80;
   undefined8 uStack_78;
-  undefined8 uStack_70;
-  undefined8 local_68;
+  System_String_o *pSStack_70;
+  System_Action_o *pSStack_68;
   undefined8 uStack_60;
-  undefined8 uStack_58;
-  undefined8 local_50;
+  System_String_o *pSStack_58;
+  System_Action_o *pSStack_50;
   undefined8 uStack_48;
-  undefined8 uStack_40;
-  undefined8 local_38;
-  undefined8 uStack_30;
-  undefined8 uStack_28;
+  UI_MapEditorContextMenu_o *pUStack_40;
+  UnityEngine_EventSystems_PointerEventData_o *pUStack_38;
   
-  if (Il2CppMethodInitialized_184347526 == '\0') {
+  if (Il2CppMethodInitialized_07547fe0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
@@ -5615,278 +5798,487 @@ void UI_MapEditorHierarchyPanel__OnItemRightClick
               (&TypeInfo_System_Collections_Generic_List_MapEditorContextMenu_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__0);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__1);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__1);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__2);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__2);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__3);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__3);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__4);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__4);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__5);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__5);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__6);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__6);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__7);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0);
-    il2cpp_codegen_initialize_runtime_metadata(&"Paste as child");
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__7);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Hierarchy");
+    il2cpp_codegen_initialize_runtime_metadata(&"ResetOrigin");
+    il2cpp_codegen_initialize_runtime_metadata(&"PasteAsChild");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapEditor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Keybinds");
     il2cpp_codegen_initialize_runtime_metadata(&"Copy");
     il2cpp_codegen_initialize_runtime_metadata(&"Delete");
-    il2cpp_codegen_initialize_runtime_metadata(&"Create Empty Parent");
     il2cpp_codegen_initialize_runtime_metadata(&"Paste");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapEditorSettings");
     il2cpp_codegen_initialize_runtime_metadata(&"Cut");
-    il2cpp_codegen_initialize_runtime_metadata(&"Reset origin");
-    Il2CppMethodInitialized_184347526 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"CreateEmptyParent");
+    Il2CppMethodInitialized_07547fe0 = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0);
-  UI_MapEditorHierarchyPanel___c__DisplayClass106_0___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)object,(MethodInfo *)0x0);
-  if (object == (UI_MapEditorHierarchyPanel___c__DisplayClass106_0_o *)0x0) {
-label_1822b51f2:
-    ThrowNullReferenceException();
-  }
-  (object->fields).id = id;
-  (object->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
-  pUVar1 = (__this->fields)._menu;
-  if (pUVar1 == (UI_MapEditorMenu_o *)0x0) goto label_1822b51f2;
-  bVar4 = UI_MapEditorMenu__IsPopupActive(pUVar1,(MethodInfo *)0x0);
-  if (bVar4) {
-    return;
-  }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-  }
-  pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-           TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (pSVar2 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b51f2;
-  bVar4 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                    (pSVar2,(object->fields).id,
-                     (MethodInfo_1407110 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-  if (!bVar4) {
-    return;
-  }
-  pGVar3 = (__this->fields)._gameManager;
-  if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b51f2;
-  source = (pGVar3->fields).SelectedObjects;
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
-  System_Func_object__bool____ctor
-            ((System_Predicate_object__o *)__this_00,(Il2CppObject *)object,
-             (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__0,
-             (MethodInfo_B61EB0 *)0x0);
-  bVar4 = System_Linq_Enumerable__Any_object__6b6920
-                    ((System_Collections_Generic_IEnumerable_TSource__o *)source,
-                     (System_Func_TSource__bool__o *)__this_00,
-                     (MethodInfo_6B6920 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
-  if (!bVar4) {
-    pGVar3 = (__this->fields)._gameManager;
-    if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b51f2;
-    GameManagers_MapEditorGameManager__DeselectAll(pGVar3,(MethodInfo *)0x0);
-    pGVar3 = (__this->fields)._gameManager;
-    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-    }
-    pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if ((pSVar2 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-       (obj = (Map_MapObject_o *)
-              System_Collections_Generic_Dictionary_int__ulong___get_Item
-                        (pSVar2,(object->fields).id,
-                         (MethodInfo_14156F0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-       pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_1822b51f2;
-    GameManagers_MapEditorGameManager__SelectObject(pGVar3,obj,(MethodInfo *)0x0);
-    pGVar3 = (__this->fields)._gameManager;
-    if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b51f2;
-    GameManagers_MapEditorGameManager__OnSelectionChange(pGVar3,false,(MethodInfo *)0x0);
-  }
-  if (Il2CppMethodInitialized_184347525 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorContextMenu);
-    Il2CppMethodInitialized_184347525 = '\x01';
-  }
-  if ((__this->fields)._contextMenu == (UI_MapEditorContextMenu_o *)0x0) {
-    pUVar1 = (__this->fields)._menu;
-    if (pUVar1 == (UI_MapEditorMenu_o *)0x0) goto label_1822b51f8;
-    value = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
-    value_00 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    pUVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorContextMenu);
-    System_Object___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pUVar5,(MethodInfo *)0x0);
-    (pUVar5->fields)._parent = value;
-    Il2CppCodeGenWriteBarrier(&(pUVar5->fields)._parent,value);
-    (pUVar5->fields)._themePanel = value_00;
-    Il2CppCodeGenWriteBarrier(&(pUVar5->fields)._themePanel,value_00);
-    (__this->fields)._contextMenu = pUVar5;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._contextMenu,pUVar5);
-  }
-  pUVar5 = (__this->fields)._contextMenu;
-  (__this->fields)._contextTargetId = (object->fields).id;
   __this_01 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapEditorContextMenu_Item);
-  System_Collections_Generic_List_MapEditorContextMenu_Item____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_ctor);
-  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-  System_Action___ctor
-            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-             (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__1,
-             (MethodInfo *)0x0);
-  local_c8 = "Copy";
-  uStack_c0 = (void *)0x0;
-  uStack_b8 = 0;
-  Il2CppCodeGenWriteBarrier((void **)&local_c8,"Copy");
-  uStack_c0 = pSVar6;
-  Il2CppCodeGenWriteBarrier((void **)&uStack_c0,pSVar6);
-  uStack_b8 = CONCAT62(uStack_b8._2_6_,1);
-  if (__this_01 != (System_Collections_Generic_List_MapEditorContextMenu_Item__o *)0x0) {
-    local_e8 = (undefined4)local_c8;
-    uStack_e4 = local_c8._4_4_;
-    uStack_e0 = (undefined4)uStack_c0;
-    uStack_dc = uStack_c0._4_4_;
-    local_d8 = uStack_b8;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__2,
-               (MethodInfo *)0x0);
-    local_b0 = "Cut";
-    uStack_a8 = (void *)0x0;
-    uStack_a0 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_b0,"Cut");
-    uStack_a8 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_a8,pSVar6);
-    uStack_a0 = CONCAT62(uStack_a0._2_6_,1);
-    local_e8 = (undefined4)local_b0;
-    uStack_e4 = local_b0._4_4_;
-    uStack_e0 = (undefined4)uStack_a8;
-    uStack_dc = uStack_a8._4_4_;
-    local_d8 = uStack_a0;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__3,
-               (MethodInfo *)0x0);
-    local_98 = "Paste";
-    uStack_90 = (void *)0x0;
-    uStack_88 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_98,"Paste");
-    uStack_90 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_90,pSVar6);
-    uStack_88 = CONCAT62(uStack_88._2_6_,1);
-    local_e8 = (undefined4)local_98;
-    uStack_e4 = local_98._4_4_;
-    uStack_e0 = (undefined4)uStack_90;
-    uStack_dc = uStack_90._4_4_;
-    local_d8 = uStack_88;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__4,
-               (MethodInfo *)0x0);
-    local_80 = "Paste as child";
-    uStack_78 = (void *)0x0;
-    uStack_70 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_80,"Paste as child");
-    uStack_78 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_78,pSVar6);
-    uStack_70 = CONCAT62(uStack_70._2_6_,1);
-    local_e8 = (undefined4)local_80;
-    uStack_e4 = local_80._4_4_;
-    uStack_e0 = (undefined4)uStack_78;
-    uStack_dc = uStack_78._4_4_;
-    local_d8 = uStack_70;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__5,
-               (MethodInfo *)0x0);
-    local_68 = "Create Empty Parent";
-    uStack_60 = (void *)0x0;
-    uStack_58 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_68,"Create Empty Parent");
-    uStack_60 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_60,pSVar6);
-    uStack_58 = CONCAT62(uStack_58._2_6_,1);
-    local_e8 = (undefined4)local_68;
-    uStack_e4 = local_68._4_4_;
-    uStack_e0 = (undefined4)uStack_60;
-    uStack_dc = uStack_60._4_4_;
-    local_d8 = uStack_58;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__6,
-               (MethodInfo *)0x0);
-    local_50 = "Reset origin";
-    uStack_48 = (void *)0x0;
-    uStack_40 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_50,"Reset origin");
-    uStack_48 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_48,pSVar6);
-    uStack_40 = CONCAT62(uStack_40._2_6_,1);
-    local_e8 = (undefined4)local_50;
-    uStack_e4 = local_50._4_4_;
-    uStack_e0 = (undefined4)uStack_48;
-    uStack_dc = uStack_48._4_4_;
-    local_d8 = uStack_40;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
-    System_Action___ctor
-              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar6,(Il2CppObject *)object,
-               (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass106_0_OnItemRightClick_b__7,
-               (MethodInfo *)0x0);
-    local_38 = "Delete";
-    uStack_30 = (void *)0x0;
-    uStack_28 = 0;
-    Il2CppCodeGenWriteBarrier((void **)&local_38,"Delete");
-    uStack_30 = pSVar6;
-    Il2CppCodeGenWriteBarrier((void **)&uStack_30,pSVar6);
-    uStack_28 = CONCAT62(uStack_28._2_6_,0x101);
-    local_e8 = (undefined4)local_38;
-    uStack_e4 = local_38._4_4_;
-    uStack_e0 = (undefined4)uStack_30;
-    uStack_dc = uStack_30._4_4_;
-    local_d8 = uStack_28;
-    il2cpp_runtime_helper_18000e230(__this_01,&local_e8,MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add
-                 );
-    if (pUVar5 != (UI_MapEditorContextMenu_o *)0x0) {
-      UI_MapEditorContextMenu__Show
-                (pUVar5,eventData,(System_Collections_Generic_IList_MapEditorContextMenu_Item__o *)__this_01,
-                 (MethodInfo *)0x0);
-      return;
+                        ((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0);
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  if (__this_01 != (UI_MapEditorHierarchyPanel___c__DisplayClass107_0_o *)0x0) {
+    (__this_01->fields).id = id;
+    (__this_01->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(__this_01->fields).__4__this);
+    __this_00 = (__this->fields)._menu;
+    if (__this_00 != (UI_MapEditorMenu_o *)0x0) {
+      bVar8 = UI_MapEditorMenu__IsPopupActive(__this_00,(MethodInfo *)0x0);
+      if (bVar8) {
+        return;
+      }
+      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+      }
+      pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)
+               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+      if (pSVar3 != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+        bVar8 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                          (pSVar3,(__this_01->fields).id,
+                           (MethodInfo_4A0F950 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+        if (!bVar8) {
+          return;
+        }
+        pGVar4 = (__this->fields)._gameManager;
+        if (pGVar4 != (GameManagers_MapEditorGameManager_o *)0x0) {
+          source = (pGVar4->fields).SelectedObjects;
+          __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
+          System_Func_object__bool____ctor
+                    ((System_Func_object__bool__o *)__this_02,(Il2CppObject *)__this_01,
+                     (intptr_t)
+                     MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__0,
+                     (MethodInfo_4F19300 *)0x0);
+          bVar8 = System_Linq_Enumerable__Any_object__34dfce0
+                            ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                             (System_Func_TSource__bool__o *)__this_02,
+                             (MethodInfo_34DFCE0 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
+          if (!bVar8) {
+            pGVar4 = (__this->fields)._gameManager;
+            if (pGVar4 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d79ee1;
+            GameManagers_MapEditorGameManager__DeselectAll(pGVar4,(MethodInfo *)0x0);
+            pGVar4 = (__this->fields)._gameManager;
+            if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+            }
+            pSVar3 = (System_Collections_Generic_Dictionary_int__object__o *)
+                     TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+            if ((pSVar3 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+               (obj = System_Collections_Generic_Dictionary_int__object___get_Item
+                                (pSVar3,(__this_01->fields).id,
+                                 (MethodInfo_4A0F690 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
+               pGVar4 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_05d79ee1;
+            GameManagers_MapEditorGameManager__SelectObject(pGVar4,obj,(MethodInfo *)0x0);
+            pGVar4 = (__this->fields)._gameManager;
+            if (pGVar4 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d79ee1;
+            __this_02 = (System_Func_MapObject__bool__o *)0x0;
+            GameManagers_MapEditorGameManager__OnSelectionChange(pGVar4,false,(MethodInfo *)0x0);
+          }
+          pUStack_38 = eventData;
+          UI_MapEditorHierarchyPanel__EnsureContextMenu(__this,(MethodInfo *)__this_02);
+          (__this->fields)._contextTargetId = (__this_01->fields).id;
+          pUVar5 = (__this->fields)._contextMenu;
+          __this_03 = il2cpp_codegen_object_new
+                                ((Il2CppClass *)
+                                 TypeInfo_System_Collections_Generic_List_MapEditorContextMenu_Item);
+          System_Collections_Generic_List_MapEditorContextMenu_Item____ctor
+                    (__this_03,
+                     (MethodInfo_3AA6D40 *)
+                     MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_ctor);
+          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+          }
+          pSVar9 = UI_UIManager__GetLocaleCommon("Copy",(MethodInfo *)0x0);
+          pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+          System_Action___ctor
+                    (pSVar10,(Il2CppObject *)__this_01,
+                     (intptr_t)
+                     MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__1,
+                     (MethodInfo *)0x0);
+          pSStack_50 = (System_Action_o *)0x0;
+          uStack_48 = 0;
+          pSStack_58 = pSVar9;
+          Il2CppCodeGenWriteBarrier(&pSStack_58);
+          pSStack_50 = pSVar10;
+          Il2CppCodeGenWriteBarrier(&pSStack_50);
+          pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+          uStack_48 = CONCAT62(uStack_48._2_6_,1);
+          if (__this_03 != (System_Collections_Generic_List_MapEditorContextMenu_Item__o *)0x0) {
+            piVar1 = &(__this_03->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar6 = (__this_03->fields)._items;
+            if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+              uVar2 = (__this_03->fields)._size;
+              pUStack_40 = pUVar5;
+              if (uVar2 < (uint)pUVar6->max_length) {
+                (__this_03->fields)._size = uVar2 + 1;
+                pUVar7 = pUVar6->m_Items + (int)uVar2;
+                uStack_48._0_1_ = (undefined1)1;
+                uStack_48._1_1_ = (undefined1)(1 >> 8);
+                (pUVar7->fields).Enabled = (bool)(undefined1)uStack_48;
+                (pUVar7->fields).SeparatorBefore = (bool)uStack_48._1_1_;
+                *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_48._2_6_;
+                pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_58;
+                pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_50;
+                Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+              }
+              else {
+                item.fields.Action = pSStack_50;
+                item.fields.Label = pSStack_58;
+                uStack_48._0_1_ = (undefined1)1;
+                uStack_48._1_1_ = (undefined1)(1 >> 8);
+                item.fields.Enabled = (bool)(undefined1)uStack_48;
+                item.fields.SeparatorBefore = (bool)uStack_48._1_1_;
+                item.fields._18_6_ = uStack_48._2_6_;
+                System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                          (__this_03,item,(MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+              }
+              pSVar9 = UI_UIManager__GetLocale
+                                 ("MapEditorSettings","Keybinds","Cut",
+                                  "","",(MethodInfo *)0x0);
+              pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+              System_Action___ctor
+                        (pSVar10,(Il2CppObject *)__this_01,
+                         (intptr_t)
+                         MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__2,
+                         (MethodInfo *)0x0);
+              pSStack_68 = (System_Action_o *)0x0;
+              uStack_60 = 0;
+              pSStack_70 = pSVar9;
+              Il2CppCodeGenWriteBarrier(&pSStack_70);
+              pSStack_68 = pSVar10;
+              Il2CppCodeGenWriteBarrier(&pSStack_68);
+              pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+              uStack_60 = CONCAT62(uStack_60._2_6_,1);
+              piVar1 = &(__this_03->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar6 = (__this_03->fields)._items;
+              if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                uVar2 = (__this_03->fields)._size;
+                if (uVar2 < (uint)pUVar6->max_length) {
+                  (__this_03->fields)._size = uVar2 + 1;
+                  pUVar7 = pUVar6->m_Items + (int)uVar2;
+                  uStack_60._0_1_ = (undefined1)1;
+                  uStack_60._1_1_ = (undefined1)(1 >> 8);
+                  (pUVar7->fields).Enabled = (bool)(undefined1)uStack_60;
+                  (pUVar7->fields).SeparatorBefore = (bool)uStack_60._1_1_;
+                  *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_60._2_6_;
+                  pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_70;
+                  pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_68;
+                  Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+                }
+                else {
+                  item_00.fields.Action = pSStack_68;
+                  item_00.fields.Label = pSStack_70;
+                  uStack_60._0_1_ = (undefined1)1;
+                  uStack_60._1_1_ = (undefined1)(1 >> 8);
+                  item_00.fields.Enabled = (bool)(undefined1)uStack_60;
+                  item_00.fields.SeparatorBefore = (bool)uStack_60._1_1_;
+                  item_00.fields._18_6_ = uStack_60._2_6_;
+                  System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                            (__this_03,item_00,(MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+                }
+                pSVar9 = UI_UIManager__GetLocale
+                                   ("MapEditorSettings","Keybinds","Paste",
+                                    "","",(MethodInfo *)0x0);
+                pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                System_Action___ctor
+                          (pSVar10,(Il2CppObject *)__this_01,
+                           (intptr_t)
+                           MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__3,
+                           (MethodInfo *)0x0);
+                pSStack_80 = (System_Action_o *)0x0;
+                uStack_78 = 0;
+                pSStack_88 = pSVar9;
+                Il2CppCodeGenWriteBarrier(&pSStack_88);
+                pSStack_80 = pSVar10;
+                Il2CppCodeGenWriteBarrier(&pSStack_80);
+                pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+                uStack_78 = CONCAT62(uStack_78._2_6_,1);
+                piVar1 = &(__this_03->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                pUVar6 = (__this_03->fields)._items;
+                if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                  uVar2 = (__this_03->fields)._size;
+                  if (uVar2 < (uint)pUVar6->max_length) {
+                    (__this_03->fields)._size = uVar2 + 1;
+                    pUVar7 = pUVar6->m_Items + (int)uVar2;
+                    uStack_78._0_1_ = (undefined1)1;
+                    uStack_78._1_1_ = (undefined1)(1 >> 8);
+                    (pUVar7->fields).Enabled = (bool)(undefined1)uStack_78;
+                    (pUVar7->fields).SeparatorBefore = (bool)uStack_78._1_1_;
+                    *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_78._2_6_;
+                    pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_88;
+                    pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_80;
+                    Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+                  }
+                  else {
+                    item_01.fields.Action = pSStack_80;
+                    item_01.fields.Label = pSStack_88;
+                    uStack_78._0_1_ = (undefined1)1;
+                    uStack_78._1_1_ = (undefined1)(1 >> 8);
+                    item_01.fields.Enabled = (bool)(undefined1)uStack_78;
+                    item_01.fields.SeparatorBefore = (bool)uStack_78._1_1_;
+                    item_01.fields._18_6_ = uStack_78._2_6_;
+                    System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                              (__this_03,item_01,(MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method)
+                    ;
+                  }
+                  pSVar9 = UI_UIManager__GetLocale
+                                     ("MapEditor","Hierarchy","PasteAsChild",
+                                      "","",(MethodInfo *)0x0);
+                  pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                  System_Action___ctor
+                            (pSVar10,(Il2CppObject *)__this_01,
+                             (intptr_t)
+                             MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__4,
+                             (MethodInfo *)0x0);
+                  pSStack_98 = (System_Action_o *)0x0;
+                  uStack_90 = 0;
+                  pSStack_a0 = pSVar9;
+                  Il2CppCodeGenWriteBarrier(&pSStack_a0);
+                  pSStack_98 = pSVar10;
+                  Il2CppCodeGenWriteBarrier(&pSStack_98);
+                  pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+                  uStack_90 = CONCAT62(uStack_90._2_6_,1);
+                  piVar1 = &(__this_03->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pUVar6 = (__this_03->fields)._items;
+                  if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                    uVar2 = (__this_03->fields)._size;
+                    if (uVar2 < (uint)pUVar6->max_length) {
+                      (__this_03->fields)._size = uVar2 + 1;
+                      pUVar7 = pUVar6->m_Items + (int)uVar2;
+                      uStack_90._0_1_ = (undefined1)1;
+                      uStack_90._1_1_ = (undefined1)(1 >> 8);
+                      (pUVar7->fields).Enabled = (bool)(undefined1)uStack_90;
+                      (pUVar7->fields).SeparatorBefore = (bool)uStack_90._1_1_;
+                      *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_90._2_6_;
+                      pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_a0;
+                      pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_98;
+                      Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+                    }
+                    else {
+                      item_02.fields.Action = pSStack_98;
+                      item_02.fields.Label = pSStack_a0;
+                      uStack_90._0_1_ = (undefined1)1;
+                      uStack_90._1_1_ = (undefined1)(1 >> 8);
+                      item_02.fields.Enabled = (bool)(undefined1)uStack_90;
+                      item_02.fields.SeparatorBefore = (bool)uStack_90._1_1_;
+                      item_02.fields._18_6_ = uStack_90._2_6_;
+                      System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                                (__this_03,item_02,
+                                 (MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+                    }
+                    pSVar9 = UI_UIManager__GetLocale
+                                       ("MapEditor","Hierarchy","CreateEmptyParent",
+                                        "","",(MethodInfo *)0x0);
+                    pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                    System_Action___ctor
+                              (pSVar10,(Il2CppObject *)__this_01,
+                               (intptr_t)
+                               MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__5
+                               ,(MethodInfo *)0x0);
+                    pSStack_b0 = (System_Action_o *)0x0;
+                    uStack_a8 = 0;
+                    pSStack_b8 = pSVar9;
+                    Il2CppCodeGenWriteBarrier(&pSStack_b8);
+                    pSStack_b0 = pSVar10;
+                    Il2CppCodeGenWriteBarrier(&pSStack_b0);
+                    pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+                    uStack_a8 = CONCAT62(uStack_a8._2_6_,1);
+                    piVar1 = &(__this_03->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pUVar6 = (__this_03->fields)._items;
+                    if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                      uVar2 = (__this_03->fields)._size;
+                      if (uVar2 < (uint)pUVar6->max_length) {
+                        (__this_03->fields)._size = uVar2 + 1;
+                        pUVar7 = pUVar6->m_Items + (int)uVar2;
+                        uStack_a8._0_1_ = (undefined1)1;
+                        uStack_a8._1_1_ = (undefined1)(1 >> 8);
+                        (pUVar7->fields).Enabled = (bool)(undefined1)uStack_a8;
+                        (pUVar7->fields).SeparatorBefore = (bool)uStack_a8._1_1_;
+                        *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_a8._2_6_;
+                        pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_b8;
+                        pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_b0;
+                        Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+                      }
+                      else {
+                        item_03.fields.Action = pSStack_b0;
+                        item_03.fields.Label = pSStack_b8;
+                        uStack_a8._0_1_ = (undefined1)1;
+                        uStack_a8._1_1_ = (undefined1)(1 >> 8);
+                        item_03.fields.Enabled = (bool)(undefined1)uStack_a8;
+                        item_03.fields.SeparatorBefore = (bool)uStack_a8._1_1_;
+                        item_03.fields._18_6_ = uStack_a8._2_6_;
+                        System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                                  (__this_03,item_03,
+                                   (MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+                      }
+                      pSVar9 = UI_UIManager__GetLocale
+                                         ("MapEditor","Hierarchy","ResetOrigin",
+                                          "","",(MethodInfo *)0x0);
+                      pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                      System_Action___ctor
+                                (pSVar10,(Il2CppObject *)__this_01,
+                                 (intptr_t)
+                                 MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__6
+                                 ,(MethodInfo *)0x0);
+                      pSStack_c8 = (System_Action_o *)0x0;
+                      uStack_c0 = 0;
+                      pSStack_d0 = pSVar9;
+                      Il2CppCodeGenWriteBarrier(&pSStack_d0);
+                      pSStack_c8 = pSVar10;
+                      Il2CppCodeGenWriteBarrier(&pSStack_c8);
+                      pUVar5 = pUStack_40;
+                      pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+                      uStack_c0 = CONCAT62(uStack_c0._2_6_,1);
+                      piVar1 = &(__this_03->fields)._version;
+                      *piVar1 = *piVar1 + 1;
+                      pUVar6 = (__this_03->fields)._items;
+                      if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                        uVar2 = (__this_03->fields)._size;
+                        if (uVar2 < (uint)pUVar6->max_length) {
+                          (__this_03->fields)._size = uVar2 + 1;
+                          pUVar7 = pUVar6->m_Items + (int)uVar2;
+                          uStack_c0._0_1_ = (undefined1)1;
+                          uStack_c0._1_1_ = (undefined1)(1 >> 8);
+                          (pUVar7->fields).Enabled = (bool)(undefined1)uStack_c0;
+                          (pUVar7->fields).SeparatorBefore = (bool)uStack_c0._1_1_;
+                          *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_c0._2_6_;
+                          pUVar6->m_Items[(int)uVar2].fields.Label = pSStack_d0;
+                          pUVar6->m_Items[(int)uVar2].fields.Action = pSStack_c8;
+                          Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + (int)uVar2));
+                        }
+                        else {
+                          item_04.fields.Action = pSStack_c8;
+                          item_04.fields.Label = pSStack_d0;
+                          uStack_c0._0_1_ = (undefined1)1;
+                          uStack_c0._1_1_ = (undefined1)(1 >> 8);
+                          item_04.fields.Enabled = (bool)(undefined1)uStack_c0;
+                          item_04.fields.SeparatorBefore = (bool)uStack_c0._1_1_;
+                          item_04.fields._18_6_ = uStack_c0._2_6_;
+                          System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                                    (__this_03,item_04,
+                                     (MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+                        }
+                        pSVar9 = UI_UIManager__GetLocaleCommon("Delete",(MethodInfo *)0x0);
+                        pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                        System_Action___ctor
+                                  (pSVar10,(Il2CppObject *)__this_01,
+                                   (intptr_t)
+                                   MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass107_0_OnItemRightClick_b__7
+                                   ,(MethodInfo *)0x0);
+                        pSStack_e0 = (System_Action_o *)0x0;
+                        uStack_d8 = 0;
+                        pSStack_e8 = pSVar9;
+                        Il2CppCodeGenWriteBarrier(&pSStack_e8);
+                        pSStack_e0 = pSVar10;
+                        Il2CppCodeGenWriteBarrier(&pSStack_e0);
+                        pMVar11 = MethodInfo_System_Collections_Generic_List_MapEditorContextMenu_Item_Add;
+                        uStack_d8 = CONCAT62(uStack_d8._2_6_,0x101);
+                        piVar1 = &(__this_03->fields)._version;
+                        *piVar1 = *piVar1 + 1;
+                        pUVar6 = (__this_03->fields)._items;
+                        if (pUVar6 != (UI_MapEditorContextMenu_Item_array *)0x0) {
+                          uVar2 = (__this_03->fields)._size;
+                          lVar12 = (long)(int)uVar2;
+                          if (uVar2 < (uint)pUVar6->max_length) {
+                            (__this_03->fields)._size = uVar2 + 1;
+                            pMVar11 = (MethodInfo *)(lVar12 * 3);
+                            pUVar7 = pUVar6->m_Items + lVar12;
+                            uStack_d8._0_1_ = (undefined1)0x101;
+                            uStack_d8._1_1_ = (undefined1)(0x101 >> 8);
+                            (pUVar7->fields).Enabled = (bool)(undefined1)uStack_d8;
+                            (pUVar7->fields).SeparatorBefore = (bool)uStack_d8._1_1_;
+                            *(undefined6 *)&(pUVar7->fields).field_0x12 = uStack_d8._2_6_;
+                            pUVar6->m_Items[lVar12].fields.Label = pSStack_e8;
+                            pUVar6->m_Items[lVar12].fields.Action = pSStack_e0;
+                            Il2CppCodeGenWriteBarrier((void **)(pUVar6->m_Items + lVar12));
+                          }
+                          else {
+                            item_05.fields.Action = pSStack_e0;
+                            item_05.fields.Label = pSStack_e8;
+                            uStack_d8._0_1_ = (undefined1)0x101;
+                            uStack_d8._1_1_ = (undefined1)(0x101 >> 8);
+                            item_05.fields.Enabled = (bool)(undefined1)uStack_d8;
+                            item_05.fields.SeparatorBefore = (bool)uStack_d8._1_1_;
+                            item_05.fields._18_6_ = uStack_d8._2_6_;
+                            System_Collections_Generic_List_MapEditorContextMenu_Item___AddWithResize
+                                      (__this_03,item_05,
+                                       (MethodInfo_3AA76F0 *)pMVar11->klass->rgctx_data[0xe].method);
+                          }
+                          if (pUVar5 != (UI_MapEditorContextMenu_o *)0x0) {
+                            UI_MapEditorContextMenu__Show
+                                      (pUVar5,pUStack_38,
+                                       (System_Collections_Generic_IList_MapEditorContextMenu_Item__o *)
+                                       __this_03,pMVar11);
+                            return;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
-label_1822b51f8:
+label_05d79ee1:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$HideContextMenu
 // il2cpp: void UI_MapEditorHierarchyPanel__HideContextMenu (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b3560
+// 0x5d79f00
 
 void UI_MapEditorHierarchyPanel__HideContextMenu(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  if ((__this->fields)._contextMenu != (UI_MapEditorContextMenu_o *)0x0) {
-    UI_MapEditorContextMenu__Hide((__this->fields)._contextMenu,(MethodInfo *)0x0);
-    (__this->fields)._contextTargetId = -1;
-    return;
+  UI_MapEditorContextMenu_o *pUVar1;
+  UnityEngine_Object_o *x;
+  UnityEngine_GameObject_o *__this_00;
+  bool bVar2;
+  
+  pUVar1 = (__this->fields)._contextMenu;
+  if (pUVar1 != (UI_MapEditorContextMenu_o *)0x0) {
+    if (Il2CppMethodInitialized_07547fa1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+      Il2CppMethodInitialized_07547fa1 = '\x01';
+    }
+    x = (UnityEngine_Object_o *)(pUVar1->fields)._root;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      __this_00 = (pUVar1->fields)._root;
+      if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+    }
   }
   (__this->fields)._contextTargetId = -1;
   return;
@@ -5895,7 +6287,7 @@ void UI_MapEditorHierarchyPanel__HideContextMenu(UI_MapEditorHierarchyPanel_o *_
 
 // UI.MapEditorHierarchyPanel$$GetOrCreateRowDropOverlay
 // il2cpp: UnityEngine_GameObject_o* UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_GameObject_o* row, const MethodInfo* method);
-// 0x1822b2440
+// 0x5d77b00
 
 UnityEngine_GameObject_o *
 UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay
@@ -5905,17 +6297,17 @@ UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay
   Il2CppType *handle;
   bool bVar1;
   UnityEngine_Transform_o *pUVar2;
+  UnityEngine_GameObject_o *pUVar3;
   System_Type_array *components;
-  System_Type_o *pSVar3;
-  Il2CppObject *pIVar4;
-  UnityEngine_GameObject_o *pUVar5;
+  System_Type_o *pSVar4;
+  Il2CppObject *pIVar5;
   UnityEngine_Transform_o *parent;
   UnityEngine_RectTransform_o *__this_00;
   UnityEngine_UI_Image_o *pUVar6;
   UnityEngine_UI_LayoutElement_o *pUVar7;
-  UnityEngine_Color_Fields local_18;
+  UnityEngine_Color_o UVar8;
   
-  if (Il2CppMethodInitialized_184347527 == '\0') {
+  if (Il2CppMethodInitialized_07547fe1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Image);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
@@ -5925,191 +6317,198 @@ UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
     il2cpp_codegen_initialize_runtime_metadata(&"DropOverlay");
-    Il2CppMethodInitialized_184347527 = '\x01';
+    Il2CppMethodInitialized_07547fe1 = '\x01';
   }
-  if (row != (UnityEngine_GameObject_o *)0x0) {
-    pUVar2 = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
+  if (row == (UnityEngine_GameObject_o *)0x0) {
+label_05d77eee:
+    ThrowNullReferenceException();
+  }
+  pUVar2 = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
+  if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_05d77eee;
+  pUVar2 = UnityEngine_Transform__Find(pUVar2,"DropOverlay",(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
     if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-      pUVar2 = UnityEngine_Transform__Find(pUVar2,"DropOverlay",(MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar1 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar1) {
-        if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-          pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-          return pUVar5;
-        }
-      }
-      else {
-        components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
-        handle = TypeRef_UnityEngine_RectTransform;
-        if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init(g_data_184354ea0);
-        }
-        pSVar3 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-        if (components != (System_Type_array *)0x0) {
-          if (pSVar3 != (System_Type_o *)0x0) {
-            pIVar4 = il2cpp_vm_Object_IsInst
-                               ((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class);
-            if (pIVar4 == (Il2CppObject *)0x0) {
-              pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
-              il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
-            }
-          }
-          if ((int)components->max_length != 0) {
-            components->m_Items[0] = pSVar3;
-            Il2CppCodeGenWriteBarrier(components->m_Items,pSVar3);
-            pSVar3 = System_Type__GetTypeFromHandle
-                               ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_Image,(MethodInfo *)0x0);
-            if (pSVar3 != (System_Type_o *)0x0) {
-              pIVar4 = il2cpp_vm_Object_IsInst
-                                 ((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class);
-              if (pIVar4 == (Il2CppObject *)0x0) {
-                pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
-              }
-            }
-            if (1 < (uint)components->max_length) {
-              components->m_Items[1] = pSVar3;
-              Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar3);
-              pUVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-              UnityEngine_GameObject___ctor_2f1abe0(pUVar5,"DropOverlay",components,(MethodInfo *)0x0)
-              ;
-              if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar2 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
-                parent = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
-                if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                  UnityEngine_Transform__SetParent_2f5a7e0(pUVar2,parent,false,(MethodInfo *)0x0);
-                  pUVar2 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
-                  if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                    UnityEngine_Transform__SetAsLastSibling(pUVar2,(MethodInfo *)0x0);
-                    __this_00 = UnityEngine_GameObject__GetComponent_object_
-                                          (pUVar5,(MethodInfo_6F5650 *)
-                                                  MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform
-                                          );
-                    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-                      Il2CppMethodInitialized_18433e3c9 = '\x01';
-                    }
-                    if (__this_00 != (UnityEngine_RectTransform_o *)0x0) {
-                      UnityEngine_RectTransform__set_anchorMin
-                                (__this_00,
-                                 (UnityEngine_Vector2_o)
-                                 (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
-                                 (MethodInfo *)0x0);
-                      if (Il2CppMethodInitialized_184341f36 == '\0') {
-                        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-                        Il2CppMethodInitialized_184341f36 = '\x01';
-                      }
-                      UnityEngine_RectTransform__set_anchorMax
-                                (__this_00,
-                                 (UnityEngine_Vector2_o)
-                                 (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
-                                 (MethodInfo *)0x0);
-                      if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-                        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-                        Il2CppMethodInitialized_18433e3c9 = '\x01';
-                      }
-                      UnityEngine_RectTransform__set_offsetMin
-                                (__this_00,
-                                 (UnityEngine_Vector2_o)
-                                 (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
-                                 (MethodInfo *)0x0);
-                      if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-                        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-                        Il2CppMethodInitialized_18433e3c9 = '\x01';
-                      }
-                      UnityEngine_RectTransform__set_offsetMax
-                                (__this_00,
-                                 (UnityEngine_Vector2_o)
-                                 (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
-                                 (MethodInfo *)0x0);
-                      pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                         (pUVar5,(MethodInfo_6F5650 *)
-                                                 MethodInfo_UnityEngine_GameObject_GetComponent_Image);
-                      if (pUVar6 != (UnityEngine_UI_Image_o *)0x0) {
-                        local_18.r = 0.95;
-                        local_18.g = 0.64;
-                        local_18.b = 0.15;
-                        local_18.a = 0.24;
-                        (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
-                                  (pUVar6,(UnityEngine_Color_o *)&local_18,
-                                   (pUVar6->klass->vtable)._23_set_color.method);
-                        (*(pUVar6->klass->vtable)._25_set_raycastTarget.methodPtr)
-                                  (pUVar6,false,(pUVar6->klass->vtable)._25_set_raycastTarget.method);
-                        pUVar7 = UnityEngine_GameObject__AddComponent_object_
-                                           (pUVar5,(MethodInfo_6F4D60 *)
-                                                   MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement
-                                           );
-                        if (pUVar7 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                          (*(pUVar7->klass->vtable)._28_set_ignoreLayout.methodPtr)
-                                    (pUVar7,true,(pUVar7->klass->vtable)._28_set_ignoreLayout.method);
-                          UnityEngine_GameObject__SetActive(pUVar5,false,(MethodInfo *)0x0);
-                          return pUVar5;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              goto label_1822b2833;
-            }
-          }
-          ThrowIndexOutOfRangeException();
-        }
+      pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
+      return pUVar3;
+    }
+    goto label_05d77eee;
+  }
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
+  }
+  pSVar4 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) goto label_05d77eee;
+  if (pSVar4 != (System_Type_o *)0x0) {
+    pIVar5 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar4,(((components->obj).klass)->_1).element_class);
+    if (pIVar5 == (Il2CppObject *)0x0) goto label_05d77ef8;
+  }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar4;
+    Il2CppCodeGenWriteBarrier(components->m_Items);
+    pSVar4 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_Image,(MethodInfo *)0x0);
+    if (pSVar4 != (System_Type_o *)0x0) {
+      pIVar5 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar4,(((components->obj).klass)->_1).element_class);
+      if (pIVar5 == (Il2CppObject *)0x0) {
+label_05d77ef8:
+        pIVar5 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar5,(MethodInfo *)0x0);
       }
     }
+    if ((components->max_length & 0xfffffffe) != 0) {
+      components->m_Items[1] = pSVar4;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1);
+      pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_691aa60(pUVar3,"DropOverlay",components,(MethodInfo *)0x0);
+      if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
+        parent = UnityEngine_GameObject__get_transform(row,(MethodInfo *)0x0);
+        if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_692d510(pUVar2,parent,false,(MethodInfo *)0x0);
+          pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
+          if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+            UnityEngine_Transform__SetAsLastSibling(pUVar2,(MethodInfo *)0x0);
+            __this_00 = UnityEngine_GameObject__GetComponent_object_
+                                  (pUVar3,(MethodInfo_353B730 *)
+                                          MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+            if (Il2CppMethodInitialized_0753ecc8 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+              Il2CppMethodInitialized_0753ecc8 = '\x01';
+            }
+            if (__this_00 != (UnityEngine_RectTransform_o *)0x0) {
+              UnityEngine_RectTransform__set_anchorMin
+                        (__this_00,
+                         (UnityEngine_Vector2_o)
+                         (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,(MethodInfo *)0x0);
+              if (Il2CppMethodInitialized_07542885 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                Il2CppMethodInitialized_07542885 = '\x01';
+              }
+              UnityEngine_RectTransform__set_anchorMax
+                        (__this_00,
+                         (UnityEngine_Vector2_o)
+                         (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,(MethodInfo *)0x0);
+              if (Il2CppMethodInitialized_0753ecc8 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                Il2CppMethodInitialized_0753ecc8 = '\x01';
+              }
+              UnityEngine_RectTransform__set_offsetMin
+                        (__this_00,
+                         (UnityEngine_Vector2_o)
+                         (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,(MethodInfo *)0x0);
+              if (Il2CppMethodInitialized_0753ecc8 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                Il2CppMethodInitialized_0753ecc8 = '\x01';
+              }
+              UnityEngine_RectTransform__set_offsetMax
+                        (__this_00,
+                         (UnityEngine_Vector2_o)
+                         (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,(MethodInfo *)0x0);
+              pUVar6 = UnityEngine_GameObject__GetComponent_object_
+                                 (pUVar3,(MethodInfo_353B730 *)
+                                         MethodInfo_UnityEngine_GameObject_GetComponent_Image);
+              if (pUVar6 != (UnityEngine_UI_Image_o *)0x0) {
+                UVar8.fields.b = 0.15;
+                UVar8.fields.a = 0.24;
+                UVar8.fields.r = 0.95;
+                UVar8.fields.g = 0.64;
+                (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
+                          (pUVar6,UVar8,(pUVar6->klass->vtable)._23_set_color.method);
+                (*(pUVar6->klass->vtable)._25_set_raycastTarget.methodPtr)
+                          (pUVar6,false,(pUVar6->klass->vtable)._25_set_raycastTarget.method);
+                pUVar7 = UnityEngine_GameObject__AddComponent_object_
+                                   (pUVar3,(MethodInfo_353B6A0 *)
+                                           MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+                if (pUVar7 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                  (*(pUVar7->klass->vtable)._28_set_ignoreLayout.methodPtr)
+                            (pUVar7,true,(pUVar7->klass->vtable)._28_set_ignoreLayout.method);
+                  UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
+                  return pUVar3;
+                }
+              }
+            }
+          }
+        }
+      }
+      goto label_05d77eee;
+    }
   }
-label_1822b2833:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$RefreshDropIndicators
 // il2cpp: void UI_MapEditorHierarchyPanel__RefreshDropIndicators (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b54e0
-// eh: try 0x1822b5622..0x1822b57ae -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b56b3: mov rdx, qword ptr [rip + 0x1df97ce]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose
-// asm:   0x1822b56ba: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b56bf: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b56c4: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822b56c9: test rcx, rcx
-// asm:   0x1822b56cc: jne 0x1822b57ae
-// asm:   0x1822b56d2: xor esi, esi
-// asm:   0x1822b56d4: mov rdi, qword ptr [rsp + 0xc0]
-// asm:   0x1822b56dc: movzx r12d, byte ptr [rsp + 0xd0]
-// asm:   0x1822b57ae: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d79f90
+// eh: try 0x5d7a0d4..0x5d7a27f -> pad 0x5d7a28e (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d7a2a6..0x5d7a2ab -> pad 0x5d7a2d0 cleanup
+// eh: try 0x5d7a2d3..0x5d7a2dd -> pad 0x5d7a2e5 catch (...) [compiler noexcept guard]
+// asm: 30 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7a0cc: nop dword ptr [rax]
+// asm:   0x5d7a20c: jmp 0x5d7a18c
+// asm:   0x5d7a284: jmp 0x5d7a28e
+// asm:   0x5d7a286: jmp 0x5d7a28e
+// asm:   0x5d7a288: jmp 0x5d7a28e
+// asm:   0x5d7a28a: jmp 0x5d7a28e
+// asm:   0x5d7a28c: jmp 0x5d7a28e
+// asm:   0x5d7a28e: mov rbx, rax
+// asm:   0x5d7a291: cmp edx, 1
+// asm:   0x5d7a294: jne 0x5d7a2d3
+// asm:   0x5d7a296: mov rdi, rbx
+// asm:   0x5d7a299: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7a29e: mov rbx, qword ptr [rax]
+// asm:   0x5d7a2a1: mov qword ptr [rsp + 0x40], rbx
+// asm:   0x5d7a2a6: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7a2ab: lea rax, [rip + 0x15155f6]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose
+// asm:   0x5d7a2b2: mov rsi, qword ptr [rax]
+// asm:   0x5d7a2b5: lea rdi, [rsp + 0x10]
+// asm:   0x5d7a2ba: call 0x4da11d0  ; System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose()
+// asm:   0x5d7a2bf: test rbx, rbx
+// asm:   0x5d7a2c2: je 0x5d7a156
+// asm:   0x5d7a2c8: mov rdi, rbx
+// asm:   0x5d7a2cb: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7a2d0: mov rbx, rax
+// asm:   0x5d7a2d3: lea rdi, [rsp + 0x40]
+// asm:   0x5d7a2d8: call 0x2fdd3c0  ; il2cpp_runtime_helper_02fdd3c0()
+// asm:   0x5d7a2dd: mov rdi, rbx
+// asm:   0x5d7a2e0: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7a2e5: mov rdi, rax
+// asm:   0x5d7a2e8: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__RefreshDropIndicators
                (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *__this_00;
-  System_Collections_Generic_Dictionary_int__GameObject__o *__this_01;
-  UnityEngine_GameObject_o *__this_02;
-  int iVar1;
-  bool bVar2;
-  bool bVar3;
-  UnityEngine_Object_o *pUVar4;
-  bool active;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_80;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_58;
+  int32_t key;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
+  UnityEngine_GameObject_o *pUVar2;
+  int iVar3;
+  bool bVar4;
+  bool bVar5;
+  UnityEngine_Object_o *pUVar6;
+  int iVar7;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  UI_MapEditorHierarchyPanel_o *__this_00;
+  undefined1 auStack_88 [8];
+  UI_MapEditorHierarchyPanel_o *pUStack_80;
+  UnityEngine_GameObject_o *pUStack_78;
+  System_Threading_CancellationTokenSource_o *pSStack_70;
+  System_Collections_Generic_Dictionary_string__Type__o *pSStack_68;
+  undefined1 auStack_58 [16];
+  UnityEngine_GameObject_o *pUStack_48;
+  System_Threading_CancellationTokenSource_o *pSStack_40;
+  System_Collections_Generic_Dictionary_string__Type__o *pSStack_38;
   
-  if (Il2CppMethodInitialized_184347528 == '\0') {
+  if (Il2CppMethodInitialized_07547fe2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -6125,107 +6524,119 @@ void UI_MapEditorHierarchyPanel__RefreshDropIndicators
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_KeyValuePair_int_GameObject_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347528 = '\x01';
+    Il2CppMethodInitialized_07547fe2 = '\x01';
   }
-  local_80.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_80.fields._version = 0;
-  local_80.fields._index = 0;
-  local_80.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_80.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_80.fields._getEnumeratorRetType = 0;
-  local_80.fields._36_4_ = 0;
-  if ((((__this->fields)._currentDropMode == 2) || ((__this->fields)._currentDropMode == 3)) &&
-     (0 < (__this->fields)._dropTargetId)) {
-    __this_00 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-    if (__this_00 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b57a2;
-    bVar3 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                      (__this_00,(__this->fields)._dropTargetId,
-                       (MethodInfo_1407110 *)
+  pUStack_78 = (UnityEngine_GameObject_o *)0x0;
+  pSStack_70 = (System_Threading_CancellationTokenSource_o *)0x0;
+  auStack_88 = (undefined1  [8])0x0;
+  pUStack_80 = (UI_MapEditorHierarchyPanel_o *)0x0;
+  pSStack_68 = (System_Collections_Generic_Dictionary_string__Type__o *)0x0;
+  method_00 = (MethodInfo *)0x0;
+  if ((((__this->fields)._currentDropMode & 0xfffffffeU) == 2) &&
+     (key = (__this->fields)._dropTargetId, 0 < key)) {
+    pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+    if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7a27f;
+    bVar4 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                      (pSVar1,key,
+                       (MethodInfo_4A0F950 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
+    method_00 = (MethodInfo *)(ulong)bVar4;
+  }
+  iVar7 = (int)method_00;
+  pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+  if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+label_05d7a27f:
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_Dictionary_int__object___GetEnumerator
+            ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_58,pSVar1,
+             (MethodInfo_4A0FBD0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_GetEnumerator);
+  pSStack_68 = pSStack_38;
+  pUStack_78 = pUStack_48;
+  pSStack_70 = pSStack_40;
+  auStack_88 = (undefined1  [8])auStack_58._0_8_;
+  pUStack_80 = (UI_MapEditorHierarchyPanel_o *)auStack_58._8_8_;
+  auStack_58._0_8_ = (UI_MapEditorHierarchyPanel_c *)0x0;
+  auStack_58._8_8_ = (UI_MapEditorHierarchyPanel_o *)auStack_88;
+  while (__this_00 = (UI_MapEditorHierarchyPanel_o *)auStack_88,
+        bVar4 = System_Collections_Generic_Dictionary_Enumerator_int__object___MoveNext
+                          ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_88,
+                           (MethodInfo_4CA10B0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_MoveNext
+                          ), bVar4) {
+    iVar3 = (int)pUStack_78;
+    pUVar6 = (UnityEngine_Object_o *)
+             UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay
+                       (__this_00,(UnityEngine_GameObject_o *)pSStack_70,method_01);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar4 = UnityEngine_Object__op_Inequality(pUVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      bVar4 = false;
+      if ((__this->fields)._currentDropMode == 1) {
+        bVar4 = iVar3 == (__this->fields)._dropIndicatorId;
+      }
+      if (pUVar6 == (UnityEngine_Object_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)pUVar6,bVar4,(MethodInfo *)0x0);
+    }
+  }
+  method_02 = MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose;
+  System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose
+            ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_88,
+             (MethodInfo_4CA11D0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose);
+  if ((__this->fields)._dropToRoot == false) {
+    bVar4 = false;
   }
   else {
-    bVar3 = false;
+    bVar4 = (__this->fields)._currentDropMode == 0;
   }
-  __this_01 = (__this->fields)._idToItem;
-  if (__this_01 != (System_Collections_Generic_Dictionary_int__GameObject__o *)0x0) {
-    System_Collections_Generic_Dictionary_PhotonNetwork_RaiseEventBatch__object___GetEnumerator
-              (&local_58,(System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-               (MethodInfo_13C1150 *)
-               MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_GetEnumerator);
-    local_80.fields._dictionary = local_58.fields._dictionary;
-    local_80.fields._version = local_58.fields._version;
-    local_80.fields._index = local_58.fields._index;
-    local_80.fields._current.fields.key = local_58.fields._current.fields.key;
-    local_80.fields._current.fields.value = local_58.fields._current.fields.value;
-    local_80.fields._getEnumeratorRetType = local_58.fields._getEnumeratorRetType;
-    local_80.fields._36_4_ = local_58.fields._36_4_;
-    active = false;
-    while( true ) {
-      bVar2 = System_Collections_Generic_Dictionary_Enumerator_uint__object___MoveNext
-                        (&local_80,
-                         (MethodInfo_15642D0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_MoveNext);
-      if (!bVar2) break;
-      iVar1 = (int)local_80.fields._current.fields.key;
-      pUVar4 = (UnityEngine_Object_o *)
-               UI_MapEditorHierarchyPanel__GetOrCreateRowDropOverlay
-                         (__this,(UnityEngine_GameObject_o *)local_80.fields._current.fields.value,
-                          (MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar2 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar2) {
-        if ((__this->fields)._currentDropMode == 1) {
-          bVar2 = iVar1 == (__this->fields)._dropIndicatorId;
-        }
-        else {
-          bVar2 = false;
-        }
-        if (pUVar4 == (UnityEngine_Object_o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)pUVar4,bVar2,(MethodInfo *)0x0);
-      }
-    }
-    System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_80,
-               MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose);
-    if ((__this->fields)._dropToRoot != false) {
-      active = (__this->fields)._currentDropMode == 0;
-    }
-    UI_MapEditorHierarchyPanel__SetRootDropOverlay(__this,active,(MethodInfo *)0x0);
-    if (bVar3 == false) {
-      if (Il2CppMethodInitialized_18434752b == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-        Il2CppMethodInitialized_18434752b = '\x01';
-      }
-      pUVar4 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar3 = UnityEngine_Object__op_Inequality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar3) {
-        __this_02 = (__this->fields)._insertLineIndicator;
-        if (__this_02 == (UnityEngine_GameObject_o *)0x0) goto label_1822b57a2;
-        UnityEngine_GameObject__SetActive(__this_02,false,(MethodInfo *)0x0);
-      }
-    }
-    else {
-      UI_MapEditorHierarchyPanel__ShowInsertLine
-                (__this,(__this->fields)._dropTargetId,(__this->fields)._currentDropMode == 2,
-                 (MethodInfo *)0x0);
-    }
-    return;
+  if (Il2CppMethodInitialized_07547fe3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_07547fe3 = '\x01';
   }
-label_1822b57a2:
-  ThrowNullReferenceException();
+  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,method_02);
+  pUVar6 = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar5 = UnityEngine_Object__op_Inequality(pUVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar5) {
+    pUVar2 = (__this->fields)._rootDropOverlay;
+    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_05d7a27f;
+    UnityEngine_GameObject__SetActive(pUVar2,bVar4,(MethodInfo *)0x0);
+  }
+  if (iVar7 == 0) {
+    if (Il2CppMethodInitialized_07547fe5 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+      Il2CppMethodInitialized_07547fe5 = '\x01';
+    }
+    pUVar6 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar4 = UnityEngine_Object__op_Inequality(pUVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pUVar2 = (__this->fields)._insertLineIndicator;
+      if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_05d7a27f;
+      UnityEngine_GameObject__SetActive(pUVar2,false,(MethodInfo *)0x0);
+    }
+  }
+  else {
+    UI_MapEditorHierarchyPanel__ShowInsertLine
+              (__this,(__this->fields)._dropTargetId,(__this->fields)._currentDropMode == 2,method_00);
+  }
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$SetRootDropOverlay
 // il2cpp: void UI_MapEditorHierarchyPanel__SetRootDropOverlay (UI_MapEditorHierarchyPanel_o* __this, bool active, const MethodInfo* method);
-// 0x1822b5e00
+// 0x5d747e0
 
 void UI_MapEditorHierarchyPanel__SetRootDropOverlay
                (UI_MapEditorHierarchyPanel_o *__this,bool active,MethodInfo *method)
@@ -6234,12 +6645,15 @@ void UI_MapEditorHierarchyPanel__SetRootDropOverlay
   UnityEngine_Object_o *x;
   UnityEngine_GameObject_o *__this_00;
   bool bVar1;
+  undefined7 in_register_00000031;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347529 == '\0') {
+  method_00 = (MethodInfo *)CONCAT71(in_register_00000031,active);
+  if (Il2CppMethodInitialized_07547fe3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347529 = '\x01';
+    Il2CppMethodInitialized_07547fe3 = '\x01';
   }
-  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,method_00);
   x = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -6251,6 +6665,7 @@ void UI_MapEditorHierarchyPanel__SetRootDropOverlay
       ThrowNullReferenceException();
     }
     UnityEngine_GameObject__SetActive(__this_00,active,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -6258,24 +6673,29 @@ void UI_MapEditorHierarchyPanel__SetRootDropOverlay
 
 // UI.MapEditorHierarchyPanel$$ShowInsertLine
 // il2cpp: void UI_MapEditorHierarchyPanel__ShowInsertLine (UI_MapEditorHierarchyPanel_o* __this, int32_t targetId, bool atTop, const MethodInfo* method);
-// 0x1822b6fe0
+// 0x5d7a2f0
 
 void UI_MapEditorHierarchyPanel__ShowInsertLine
                (UI_MapEditorHierarchyPanel_o *__this,int32_t targetId,bool atTop,MethodInfo *method)
 
 {
   UnityEngine_Object_o *pUVar1;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar2;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar2;
   UnityEngine_Transform_o *__this_00;
   bool bVar3;
   UnityEngine_GameObject_o *pUVar4;
   UnityEngine_RectTransform_o *pUVar5;
   UnityEngine_Vector3_array *fourCornersArray;
   UnityEngine_RectTransform_o *pUVar6;
-  float fVar7;
-  UnityEngine_Vector2_Fields local_res8 [4];
+  UnityEngine_Vector3_o *pUVar7;
+  MethodInfo *method_00;
+  UnityEngine_Vector3_array *method_01;
+  UnityEngine_Vector2_o screenPoint;
+  undefined1 auVar8 [16];
+  UnityEngine_Vector2_Fields local_40;
+  undefined1 local_38 [16];
   
-  if (Il2CppMethodInitialized_18434752a == '\0') {
+  if (Il2CppMethodInitialized_07547fe4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -6285,109 +6705,131 @@ void UI_MapEditorHierarchyPanel__ShowInsertLine
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransformUtility);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3_array);
-    Il2CppMethodInitialized_18434752a = '\x01';
+    Il2CppMethodInitialized_07547fe4 = '\x01';
   }
-  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
-  local_res8[0].x = 0.0;
-  local_res8[0].y = 0.0;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar3) {
-    UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,(MethodInfo *)0x0);
-  }
+  local_40.x = 0.0;
+  local_40.y = 0.0;
   pUVar1 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  method_00 = (MethodInfo *)0x0;
   bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar3) {
-label_1822b7275:
-    UI_MapEditorHierarchyPanel__HideInsertLine(__this,(MethodInfo *)0x0);
-    return;
+    UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,method_00);
   }
-  pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-  if (pSVar2 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-    bVar3 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
+    pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+    if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7a606;
+    bVar3 = System_Collections_Generic_Dictionary_int__object___ContainsKey
                       (pSVar2,targetId,
-                       (MethodInfo_1407110 *)
+                       (MethodInfo_4A0F950 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
-    if (!bVar3) goto label_1822b7275;
-    pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-    if ((pSVar2 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) &&
-       (pUVar4 = (UnityEngine_GameObject_o *)
-                 System_Collections_Generic_Dictionary_int__ulong___get_Item
-                           (pSVar2,targetId,
-                            (MethodInfo_14156F0 *)
-                            MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_get_Item),
-       pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
+    if (bVar3) {
+      pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+      if ((pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+         (pUVar4 = System_Collections_Generic_Dictionary_int__object___get_Item
+                             (pSVar2,targetId,
+                              (MethodInfo_4A0F690 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_get_Item),
+         pUVar4 == (UnityEngine_GameObject_o *)0x0)) goto label_05d7a606;
       pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                         (pUVar4,(MethodInfo_6F5650 *)
+                         (pUVar4,(MethodInfo_353B730 *)
                                  MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
       bVar3 = UnityEngine_Object__op_Equality
                         ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar3) goto label_1822b7275;
-      pUVar4 = (__this->fields)._insertLineIndicator;
-      if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-        UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
-        fourCornersArray = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,4);
-        if ((pUVar5 != (UnityEngine_RectTransform_o *)0x0) &&
-           (UnityEngine_RectTransform__GetWorldCorners(pUVar5,fourCornersArray,(MethodInfo *)0x0),
-           fourCornersArray != (UnityEngine_Vector3_array *)0x0)) {
-          if (atTop) {
-            if ((uint)fourCornersArray->max_length < 2) {
-label_1822b7292:
-              ThrowIndexOutOfRangeException();
+      if (!bVar3) {
+        pUVar4 = (__this->fields)._insertLineIndicator;
+        if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+          UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
+          fourCornersArray = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,4);
+          if (pUVar5 != (UnityEngine_RectTransform_o *)0x0) {
+            method_01 = fourCornersArray;
+            UnityEngine_RectTransform__GetWorldCorners(pUVar5,fourCornersArray,(MethodInfo *)0x0);
+            if (atTop) {
+              if (fourCornersArray == (UnityEngine_Vector3_array *)0x0) goto label_05d7a606;
+              if ((fourCornersArray->max_length & 0xfffffffe) == 0) {
+label_05d7a60b:
+                ThrowIndexOutOfRangeException();
+              }
+              pUVar7 = fourCornersArray->m_Items + 1;
             }
-            fVar7 = fourCornersArray->m_Items[1].fields.y;
-          }
-          else {
-            if ((int)fourCornersArray->max_length == 0) goto label_1822b7292;
-            fVar7 = fourCornersArray->m_Items[0].fields.y;
-          }
-          pUVar5 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
-          if (pUVar5 == (UnityEngine_RectTransform_o *)0x0) {
-            __this_00 = (__this->fields).SinglePanel;
-            if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_1822b72a1;
-            pUVar6 = (UnityEngine_RectTransform_o *)
-                     UnityEngine_Transform__GetParent(__this_00,(MethodInfo *)0x0);
-            if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
-              if (pUVar6->klass == TypeInfo_UnityEngine_RectTransform) {
+            else {
+              if (fourCornersArray == (UnityEngine_Vector3_array *)0x0) goto label_05d7a606;
+              if ((int)fourCornersArray->max_length == 0) goto label_05d7a60b;
+              pUVar7 = fourCornersArray->m_Items;
+            }
+            local_38 = ZEXT416((uint)(pUVar7->fields).y);
+            pUVar5 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)method_01);
+            if (pUVar5 == (UnityEngine_RectTransform_o *)0x0) {
+              __this_00 = (__this->fields).SinglePanel;
+              if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_05d7a606;
+              pUVar6 = (UnityEngine_RectTransform_o *)
+                       UnityEngine_Transform__get_parent(__this_00,(MethodInfo *)0x0);
+              pUVar5 = (UnityEngine_RectTransform_o *)0x0;
+              if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
+                if (pUVar6->klass != TypeInfo_UnityEngine_RectTransform) {
+                  il2cpp_codegen_raise_invalid_cast_exception(pUVar6);
+                }
                 pUVar5 = pUVar6;
               }
-              if (pUVar5 == (UnityEngine_RectTransform_o *)0x0) {
-                il2cpp_codegen_raise_invalid_cast_exception(pUVar6);
-              }
+            }
+            auVar8 = ZEXT416(local_38._0_4_) << 0x20;
+            screenPoint.fields = auVar8._0_8_;
+            if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
+              local_38 = auVar8;
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
+              screenPoint.fields = (UnityEngine_Vector2_Fields)local_38._0_8_;
+            }
+            UnityEngine_RectTransformUtility__ScreenPointToLocalPointInRectangle
+                      (pUVar5,screenPoint,(UnityEngine_Camera_o *)0x0,(UnityEngine_Vector2_o *)&local_40,
+                       (MethodInfo *)0x0);
+            pUVar5 = (__this->fields)._insertLineRect;
+            if (pUVar5 != (UnityEngine_RectTransform_o *)0x0) {
+              UnityEngine_RectTransform__set_anchoredPosition
+                        (pUVar5,(UnityEngine_Vector2_o)((ulong)local_40 & 0xffffffff00000000),
+                         (MethodInfo *)0x0);
+              return;
             }
           }
-          if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
-          }
-          UnityEngine_RectTransformUtility__ScreenPointToLocalPointInRectangle
-                    (pUVar5,(UnityEngine_Vector2_o)((ulonglong)(uint)fVar7 << 0x20),
-                     (UnityEngine_Camera_o *)0x0,(UnityEngine_Vector2_o *)local_res8,(MethodInfo *)0x0);
-          pUVar5 = (__this->fields)._insertLineRect;
-          if (pUVar5 != (UnityEngine_RectTransform_o *)0x0) {
-            UnityEngine_RectTransform__set_anchoredPosition
-                      (pUVar5,(UnityEngine_Vector2_o)(local_res8[0] & 0xffffffff00000000),(MethodInfo *)0x0);
-            return;
-          }
         }
+        goto label_05d7a606;
       }
     }
   }
-label_1822b72a1:
+  if (Il2CppMethodInitialized_07547fe5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_07547fe5 = '\x01';
+  }
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
+    return;
+  }
+  pUVar4 = (__this->fields)._insertLineIndicator;
+  if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+    UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
+    return;
+  }
+label_05d7a606:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$HideInsertLine
 // il2cpp: void UI_MapEditorHierarchyPanel__HideInsertLine (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b3640
+// 0x5d767a0
 
 void UI_MapEditorHierarchyPanel__HideInsertLine(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -6396,9 +6838,9 @@ void UI_MapEditorHierarchyPanel__HideInsertLine(UI_MapEditorHierarchyPanel_o *__
   UnityEngine_GameObject_o *__this_00;
   bool bVar1;
   
-  if (Il2CppMethodInitialized_18434752b == '\0') {
+  if (Il2CppMethodInitialized_07547fe5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434752b = '\x01';
+    Il2CppMethodInitialized_07547fe5 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._insertLineIndicator;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -6411,6 +6853,7 @@ void UI_MapEditorHierarchyPanel__HideInsertLine(UI_MapEditorHierarchyPanel_o *__
       ThrowNullReferenceException();
     }
     UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -6418,9 +6861,7 @@ void UI_MapEditorHierarchyPanel__HideInsertLine(UI_MapEditorHierarchyPanel_o *__
 
 // UI.MapEditorHierarchyPanel$$ShowDragGhost
 // il2cpp: void UI_MapEditorHierarchyPanel__ShowDragGhost (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_Vector2_o mousePosition, const MethodInfo* method);
-// 0x1822b6de0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b6f56: mov rdx, qword ptr [rip + 0x1dee23b]  ; "Object"
+// 0x5d7a620
 
 void UI_MapEditorHierarchyPanel__ShowDragGhost
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,UnityEngine_Vector2_o mousePosition,
@@ -6429,89 +6870,108 @@ void UI_MapEditorHierarchyPanel__ShowDragGhost
 {
   UnityEngine_Object_o *x;
   UnityEngine_UI_Text_o *pUVar1;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar2;
-  UnityEngine_GameObject_o *pUVar3;
-  bool bVar4;
-  uint64_t uVar5;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar2;
+  Map_MapScriptBaseObject_o *pMVar3;
+  UnityEngine_GameObject_o *pUVar4;
+  bool bVar5;
+  Map_MapObject_o *pMVar6;
+  System_String_o *pSVar7;
   UnityEngine_Transform_o *__this_00;
-  System_String_o *pSVar6;
+  undefined4 in_register_00000034;
+  MethodInfo *pMVar8;
   
-  if (Il2CppMethodInitialized_18434752c == '\0') {
+  pMVar8 = (MethodInfo *)CONCAT44(in_register_00000034,id);
+  if (Il2CppMethodInitialized_07547fe6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Hierarchy");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapEditor");
     il2cpp_codegen_initialize_runtime_metadata(&"Object");
-    Il2CppMethodInitialized_18434752c = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_07547fe6 = '\x01';
   }
-  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,pMVar8);
   x = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar4) {
+  bVar5 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar5) {
     return;
   }
   pUVar1 = (__this->fields)._dragGhostText;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Inequality
+  bVar5 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar4) {
+  if (bVar5) {
     if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
     }
-    pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+    pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
              TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b6fd6;
-    bVar4 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+    if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7a875;
+    bVar5 = System_Collections_Generic_Dictionary_int__object___ContainsKey
                       (pSVar2,id,
-                       (MethodInfo_1407110 *)
+                       (MethodInfo_4A0F950 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-    pSVar6 = "Object";
-    if (bVar4) {
+    if (bVar5) {
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar2 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar2 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (((pSVar2 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-          (uVar5 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                             (pSVar2,id,
-                              (MethodInfo_14156F0 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-          uVar5 == 0)) || (*(longlong *)(uVar5 + 0x20) == 0)) goto label_1822b6fd6;
-      pSVar6 = *(System_String_o **)(*(longlong *)(uVar5 + 0x20) + 0x30);
+      if (pSVar2 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7a875;
+      pMVar6 = System_Collections_Generic_Dictionary_int__object___get_Item
+                         (pSVar2,id,
+                          (MethodInfo_4A0F690 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+      if ((pMVar6 == (Map_MapObject_o *)0x0) ||
+         (pMVar3 = (pMVar6->fields).ScriptObject, pMVar3 == (Map_MapScriptBaseObject_o *)0x0))
+      goto label_05d7a875;
+      pSVar7 = (pMVar3->fields).Name;
+    }
+    else {
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+      }
+      pSVar7 = UI_UIManager__GetLocale
+                         ("MapEditor","Hierarchy","Object",
+                          "","",(MethodInfo *)0x0);
     }
     pUVar1 = (__this->fields)._dragGhostText;
-    if (pUVar1 == (UnityEngine_UI_Text_o *)0x0) goto label_1822b6fd6;
+    if (pUVar1 == (UnityEngine_UI_Text_o *)0x0) goto label_05d7a875;
     (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-              (pUVar1,pSVar6,(pUVar1->klass->vtable)._75_set_text.method);
+              (pUVar1,pSVar7,(pUVar1->klass->vtable)._75_set_text.method);
   }
-  pUVar3 = (__this->fields)._dragGhost;
-  if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-     (__this_00 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0),
-     __this_00 != (UnityEngine_Transform_o *)0x0)) {
-    UnityEngine_Transform__SetAsLastSibling(__this_00,(MethodInfo *)0x0);
-    pUVar3 = (__this->fields)._dragGhost;
-    if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-      UnityEngine_GameObject__SetActive(pUVar3,true,(MethodInfo *)0x0);
-      UI_MapEditorHierarchyPanel__MoveDragGhost(__this,mousePosition,(MethodInfo *)0x0);
-      return;
+  pUVar4 = (__this->fields)._dragGhost;
+  if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+    __this_00 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
+    if (__this_00 != (UnityEngine_Transform_o *)0x0) {
+      UnityEngine_Transform__SetAsLastSibling(__this_00,(MethodInfo *)0x0);
+      pUVar4 = (__this->fields)._dragGhost;
+      if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+        pMVar8 = (MethodInfo *)0x1;
+        UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
+        UI_MapEditorHierarchyPanel__MoveDragGhost(__this,mousePosition,pMVar8);
+        return;
+      }
     }
   }
-label_1822b6fd6:
+label_05d7a875:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$MoveDragGhost
 // il2cpp: void UI_MapEditorHierarchyPanel__MoveDragGhost (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_Vector2_o mousePosition, const MethodInfo* method);
-// 0x1822b3bd0
+// 0x5d7a880
 
 void UI_MapEditorHierarchyPanel__MoveDragGhost
                (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_Vector2_o mousePosition,MethodInfo *method)
@@ -6523,12 +6983,14 @@ void UI_MapEditorHierarchyPanel__MoveDragGhost
   UnityEngine_Canvas_o *__this_01;
   float fVar3;
   UnityEngine_Vector2_o value;
-  float fStack_24;
+  undefined8 in_XMM0_Qb;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
   
-  if (Il2CppMethodInitialized_18434752d == '\0') {
+  if (Il2CppMethodInitialized_07547fe7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Canvas);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434752d = '\x01';
+    Il2CppMethodInitialized_07547fe7 = '\x01';
   }
   pUVar1 = (__this->fields)._dragGhostRect;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -6540,22 +7002,26 @@ void UI_MapEditorHierarchyPanel__MoveDragGhost
     return;
   }
   __this_00 = (__this->fields)._menu;
-  if ((__this_00 != (UI_MapEditorMenu_o *)0x0) &&
-     (__this_01 = UnityEngine_Component__GetComponent_object_
-                            ((UnityEngine_Component_o *)__this_00,
-                             (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Canvas),
-     __this_01 != (UnityEngine_Canvas_o *)0x0)) {
-    fVar3 = UnityEngine_Canvas__get_scaleFactor(__this_01,(MethodInfo *)0x0);
-    if (fVar3 <= 0.0) {
-      fVar3 = 1.0;
-    }
-    pUVar1 = (__this->fields)._dragGhostRect;
-    fStack_24 = mousePosition.fields.y;
-    if (pUVar1 != (UnityEngine_RectTransform_o *)0x0) {
-      value.fields.x = mousePosition.fields.x / fVar3 + 12.0;
-      value.fields.y = fStack_24 / fVar3 + -6.0;
-      UnityEngine_RectTransform__set_anchoredPosition(pUVar1,value,(MethodInfo *)0x0);
-      return;
+  if (__this_00 != (UI_MapEditorMenu_o *)0x0) {
+    __this_01 = UnityEngine_Component__GetComponent_object_
+                          ((UnityEngine_Component_o *)__this_00,
+                           (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Canvas);
+    if (__this_01 != (UnityEngine_Canvas_o *)0x0) {
+      fVar3 = UnityEngine_Canvas__get_scaleFactor(__this_01,(MethodInfo *)0x0);
+      pUVar1 = (__this->fields)._dragGhostRect;
+      if (pUVar1 != (UnityEngine_RectTransform_o *)0x0) {
+        auVar5._0_4_ = ~-(uint)(0.0 < fVar3) & 0x3f800000 | -(uint)(0.0 < fVar3) & (uint)fVar3;
+        auVar5._4_4_ = auVar5._0_4_;
+        auVar5._8_4_ = auVar5._0_4_;
+        auVar5._12_4_ = auVar5._0_4_;
+        auVar4._8_8_ = in_XMM0_Qb;
+        auVar4._0_8_ = mousePosition.fields;
+        auVar4 = divps(auVar4,auVar5);
+        value.fields.x = auVar4._0_4_ + 12.0;
+        value.fields.y = auVar4._4_4_ + -6.0;
+        UnityEngine_RectTransform__set_anchoredPosition(pUVar1,value,(MethodInfo *)0x0);
+        return;
+      }
     }
   }
   ThrowNullReferenceException();
@@ -6564,94 +7030,131 @@ void UI_MapEditorHierarchyPanel__MoveDragGhost
 
 // UI.MapEditorHierarchyPanel$$HideDragGhost
 // il2cpp: void UI_MapEditorHierarchyPanel__HideDragGhost (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b35b0
+// 0x5d766c0
 
 void UI_MapEditorHierarchyPanel__HideDragGhost(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  UnityEngine_GameObject_o *__this_00;
-  bool bVar1;
+  UnityEngine_Object_o *pUVar1;
+  UnityEngine_GameObject_o *pUVar2;
+  bool bVar3;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_18434752e == '\0') {
+  if (Il2CppMethodInitialized_07547fe8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434752e = '\x01';
+    Il2CppMethodInitialized_07547fe8 = '\x01';
   }
-  x = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._dragGhost;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar1) {
-    __this_00 = (__this->fields)._dragGhost;
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+  method_00 = (MethodInfo *)0x0;
+  bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pUVar2 = (__this->fields)._dragGhost;
+    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_05d76794;
+    method_00 = (MethodInfo *)0x0;
+    UnityEngine_GameObject__SetActive(pUVar2,false,(MethodInfo *)0x0);
   }
-  UI_MapEditorHierarchyPanel__SetRootDropOverlay(__this,false,(MethodInfo *)0x0);
-  return;
+  if (Il2CppMethodInitialized_07547fe3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_07547fe3 = '\x01';
+  }
+  UI_MapEditorHierarchyPanel__EnsureDragVisuals(__this,method_00);
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._rootDropOverlay;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
+    return;
+  }
+  pUVar2 = (__this->fields)._rootDropOverlay;
+  if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+    UnityEngine_GameObject__SetActive(pUVar2,false,(MethodInfo *)0x0);
+    return;
+  }
+label_05d76794:
+  ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$Update
 // il2cpp: void UI_MapEditorHierarchyPanel__Update (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b82d0
+// 0x5d7a970
 
 void UI_MapEditorHierarchyPanel__Update(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   UI_MapEditorContextMenu_o *pUVar1;
-  UnityEngine_Object_o *x;
-  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Object_o *pUVar2;
+  UnityEngine_GameObject_o *pUVar3;
   UnityEngine_RectTransform_o *rect;
-  UnityEngine_UI_ScrollRect_o *x_00;
-  UnityEngine_Vector2_Fields screenPoint;
-  bool bVar2;
-  UnityEngine_Vector2_Fields *pUVar3;
-  UnityEngine_Vector3_o local_38 [4];
+  UnityEngine_UI_ScrollRect_o *x;
+  bool bVar4;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  UnityEngine_Vector3_o UVar5;
   
-  if (Il2CppMethodInitialized_18434752f == '\0') {
+  if (Il2CppMethodInitialized_07547fe9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransformUtility);
-    Il2CppMethodInitialized_18434752f = '\x01';
+    Il2CppMethodInitialized_07547fe9 = '\x01';
   }
-  if ((__this->fields)._contextMenu != (UI_MapEditorContextMenu_o *)0x0) {
-    pUVar1 = (__this->fields)._contextMenu;
-    if (Il2CppMethodInitialized_1843474e6 == '\0') {
+  pUVar1 = (__this->fields)._contextMenu;
+  if (pUVar1 != (UI_MapEditorContextMenu_o *)0x0) {
+    if (Il2CppMethodInitialized_07547f9f == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-      Il2CppMethodInitialized_1843474e6 = '\x01';
+      Il2CppMethodInitialized_07547f9f = '\x01';
     }
-    x = (UnityEngine_Object_o *)(pUVar1->fields)._root;
+    pUVar2 = (UnityEngine_Object_o *)(pUVar1->fields)._root;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar2) {
-      __this_00 = (pUVar1->fields)._root;
-      if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
-label_1822b84dc:
+    method = (MethodInfo *)0x0;
+    bVar4 = UnityEngine_Object__op_Inequality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pUVar3 = (pUVar1->fields)._root;
+      if (pUVar3 == (UnityEngine_GameObject_o *)0x0) {
+label_05d7ab73:
         ThrowNullReferenceException();
       }
-      bVar2 = UnityEngine_GameObject__get_activeSelf(__this_00,(MethodInfo *)0x0);
-      if (bVar2) {
-        bVar2 = UnityEngine_Input__GetMouseButtonDown(1,(MethodInfo *)0x0);
-        if (bVar2) {
+      method = (MethodInfo *)0x0;
+      bVar4 = UnityEngine_GameObject__get_activeSelf(pUVar3,(MethodInfo *)0x0);
+      if (bVar4) {
+        method = (MethodInfo *)0x0;
+        bVar4 = UnityEngine_Input__GetMouseButtonDown(1,(MethodInfo *)0x0);
+        if (bVar4) {
           pUVar1 = (__this->fields)._contextMenu;
-          if (pUVar1 == (UI_MapEditorContextMenu_o *)0x0) goto label_1822b84dc;
+          if (pUVar1 == (UI_MapEditorContextMenu_o *)0x0) goto label_05d7ab73;
           rect = (pUVar1->fields)._menuRect;
-          pUVar3 = (UnityEngine_Vector2_Fields *)
-                   UnityEngine_Input__get_mousePosition(local_38,(MethodInfo *)0x0);
-          screenPoint = *pUVar3;
+          UVar5 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
           if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
           }
-          bVar2 = UnityEngine_RectTransformUtility__RectangleContainsScreenPoint_32c16a0
-                            (rect,(UnityEngine_Vector2_o)screenPoint,(UnityEngine_Camera_o *)0x0,
+          method = (MethodInfo *)0x0;
+          bVar4 = UnityEngine_RectTransformUtility__RectangleContainsScreenPoint_6ccb790
+                            (rect,(UnityEngine_Vector2_o)UVar5.fields._0_8_,(UnityEngine_Camera_o *)0x0,
                              (MethodInfo *)0x0);
-          if (!bVar2) {
-            if ((__this->fields)._contextMenu != (UI_MapEditorContextMenu_o *)0x0) {
-              UI_MapEditorContextMenu__Hide((__this->fields)._contextMenu,(MethodInfo *)0x0);
+          if (!bVar4) {
+            pUVar1 = (__this->fields)._contextMenu;
+            if (pUVar1 != (UI_MapEditorContextMenu_o *)0x0) {
+              if (Il2CppMethodInitialized_07547fa1 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+                Il2CppMethodInitialized_07547fa1 = '\x01';
+              }
+              pUVar2 = (UnityEngine_Object_o *)(pUVar1->fields)._root;
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+              }
+              method = (MethodInfo *)0x0;
+              bVar4 = UnityEngine_Object__op_Inequality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              if (bVar4) {
+                pUVar3 = (pUVar1->fields)._root;
+                if (pUVar3 == (UnityEngine_GameObject_o *)0x0) goto label_05d7ab73;
+                method = (MethodInfo *)0x0;
+                UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
+              }
             }
             (__this->fields)._contextTargetId = -1;
           }
@@ -6660,22 +7163,23 @@ label_1822b84dc:
     }
   }
   if ((__this->fields)._draggingItem != false) {
-    pUVar3 = (UnityEngine_Vector2_Fields *)UnityEngine_Input__get_mousePosition(local_38,(MethodInfo *)0x0);
-    UI_MapEditorHierarchyPanel__MoveDragGhost(__this,(UnityEngine_Vector2_o)*pUVar3,(MethodInfo *)0x0);
+    UVar5 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
+    UI_MapEditorHierarchyPanel__MoveDragGhost(__this,(UnityEngine_Vector2_o)UVar5.fields._0_8_,method);
     if ((__this->fields)._treeViewEnabled != false) {
-      x_00 = (__this->fields)._scrollRect;
+      x = (__this->fields)._scrollRect;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar2 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar2) {
-        bVar2 = UI_MapEditorHierarchyPanel__AutoScrollDuringDrag(__this,(MethodInfo *)0x0);
-        if (bVar2) {
-          pUVar3 = (UnityEngine_Vector2_Fields *)
-                   UnityEngine_Input__get_mousePosition(local_38,(MethodInfo *)0x0);
+      method_01 = (MethodInfo *)0x0;
+      bVar4 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar4) {
+        bVar4 = UI_MapEditorHierarchyPanel__AutoScrollDuringDrag(__this,method_01);
+        if (bVar4) {
+          UVar5 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
           UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer
-                    (__this,(UnityEngine_Vector2_o)*pUVar3,(UnityEngine_Camera_o *)0x0,(MethodInfo *)0x0);
+                    (__this,(UnityEngine_Vector2_o)UVar5.fields._0_8_,(UnityEngine_Camera_o *)0x0,method_00);
+          return;
         }
       }
     }
@@ -6686,199 +7190,216 @@ label_1822b84dc:
 
 // UI.MapEditorHierarchyPanel$$AutoScrollDuringDrag
 // il2cpp: bool UI_MapEditorHierarchyPanel__AutoScrollDuringDrag (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822adb70
+// 0x5d7ab80
 
 bool UI_MapEditorHierarchyPanel__AutoScrollDuringDrag(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Transform_o *__this_00;
   UnityEngine_UI_ScrollRect_o *pUVar1;
-  UnityEngine_Vector2_Fields screenPoint;
   bool bVar2;
   UnityEngine_RectTransform_o *rect;
   UnityEngine_RectTransform_o *pUVar3;
-  UnityEngine_Vector2_Fields *pUVar4;
-  UnityEngine_Rect_o *pUVar5;
+  MethodInfo *method_00;
+  float fVar4;
+  float fVar5;
+  undefined4 extraout_XMM0_Db;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dc_00;
+  undefined4 extraout_XMM0_Dd;
+  undefined4 extraout_XMM0_Dd_00;
   float fVar6;
   float fVar7;
   float fVar8;
-  float fVar9;
-  float fVar10;
-  UnityEngine_Vector2_Fields local_res18 [2];
-  UnityEngine_Rect_o local_78 [7];
+  UnityEngine_Rect_o UVar9;
+  UnityEngine_Vector3_o UVar10;
+  UnityEngine_Vector2_Fields local_30;
+  undefined1 local_28 [8];
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
   
-  if (Il2CppMethodInitialized_184347530 == '\0') {
+  if (Il2CppMethodInitialized_07547fea == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransformUtility);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347530 = '\x01';
+    Il2CppMethodInitialized_07547fea = '\x01';
   }
-  local_res18[0].x = 0.0;
-  local_res18[0].y = 0.0;
-  rect = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
+  local_30.x = 0.0;
+  local_30.y = 0.0;
+  rect = UI_MapEditorHierarchyPanel__GetViewportRect(__this,method);
   if (rect == (UnityEngine_RectTransform_o *)0x0) {
     __this_00 = (__this->fields).SinglePanel;
-    if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_1822ade6b;
-    pUVar3 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__GetParent(__this_00,(MethodInfo *)0x0);
+    if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_05d7ae0a;
+    pUVar3 = (UnityEngine_RectTransform_o *)UnityEngine_Transform__get_parent(__this_00,(MethodInfo *)0x0);
+    rect = (UnityEngine_RectTransform_o *)0x0;
     if (pUVar3 != (UnityEngine_RectTransform_o *)0x0) {
-      if (pUVar3->klass == TypeInfo_UnityEngine_RectTransform) {
-        rect = pUVar3;
-      }
-      if (rect == (UnityEngine_RectTransform_o *)0x0) {
+      if (pUVar3->klass != TypeInfo_UnityEngine_RectTransform) {
         il2cpp_codegen_raise_invalid_cast_exception(pUVar3);
       }
+      rect = pUVar3;
     }
   }
-  pUVar4 = (UnityEngine_Vector2_Fields *)
-           UnityEngine_Input__get_mousePosition((UnityEngine_Vector3_o *)local_78,(MethodInfo *)0x0);
-  screenPoint = *pUVar4;
+  UVar10 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
   if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
   }
   bVar2 = UnityEngine_RectTransformUtility__ScreenPointToLocalPointInRectangle
-                    (rect,(UnityEngine_Vector2_o)screenPoint,(UnityEngine_Camera_o *)0x0,
-                     (UnityEngine_Vector2_o *)local_res18,(MethodInfo *)0x0);
+                    (rect,(UnityEngine_Vector2_o)UVar10.fields._0_8_,(UnityEngine_Camera_o *)0x0,
+                     (UnityEngine_Vector2_o *)&local_30,(MethodInfo *)0x0);
   if (!bVar2) {
     return false;
   }
-  if (rect != (UnityEngine_RectTransform_o *)0x0) {
-    pUVar5 = UnityEngine_RectTransform__get_rect(local_78,rect,(MethodInfo *)0x0);
-    fVar7 = (pUVar5->fields).m_YMin;
-    fVar9 = (pUVar5->fields).m_Height;
-    if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+  if (rect == (UnityEngine_RectTransform_o *)0x0) goto label_05d7ae0a;
+  UVar9 = UnityEngine_RectTransform__get_rect(rect,(MethodInfo *)0x0);
+  fVar5 = UVar9.fields.m_YMin;
+  if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+    uStack_20 = extraout_XMM0_Dc;
+    local_28 = (undefined1  [8])UVar9.fields._0_8_;
+    uStack_1c = extraout_XMM0_Dd;
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+    fVar5 = (float)local_28._4_4_;
+  }
+  fVar6 = (UVar9.fields.m_Height + fVar5) - local_30.y;
+  fVar4 = 0.0;
+  if ((fVar6 < 0.0) || (70.0 <= fVar6)) {
+    fVar6 = local_30.y - fVar5;
+    if ((0.0 <= fVar6) && (fVar6 < 70.0)) {
+      fVar5 = -0.9;
+      goto label_05d7ace2;
     }
-    fVar9 = (fVar7 + fVar9) - local_res18[0].y;
-    if ((fVar9 < 0.0) || (70.0 <= fVar9)) {
-      fVar7 = local_res18[0].y - fVar7;
-      fVar6 = 0.0;
-      if ((0.0 <= fVar7) && (fVar7 < 70.0)) {
-        fVar6 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
-        fVar6 = fVar6 * (1.0 - fVar7 / 70.0) * -0.9;
-      }
+  }
+  else {
+    fVar5 = 0.9;
+label_05d7ace2:
+    fVar4 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
+    fVar4 = fVar4 * (fVar6 / -70.0 + 1.0) * fVar5;
+  }
+  if (ABS(fVar4) <= 0.0001) {
+    return false;
+  }
+  pUVar1 = (__this->fields)._scrollRect;
+  if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
+    fVar6 = UnityEngine_UI_ScrollRect__get_verticalNormalizedPosition(pUVar1,(MethodInfo *)0x0);
+    fVar4 = fVar4 + fVar6;
+    fVar5 = 1.0;
+    if (fVar4 <= 1.0) {
+      fVar5 = fVar4;
     }
-    else {
-      fVar6 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
-      fVar6 = fVar6 * (1.0 - fVar9 / 70.0) * 0.9;
+    fVar5 = (float)(-(uint)(0.0 <= fVar4) & (uint)fVar5);
+    if (g_data_0753e7b4 == '\0') {
+      local_28._4_4_ = extraout_XMM0_Db;
+      local_28._0_4_ = fVar6;
+      uStack_20 = extraout_XMM0_Dc_00;
+      uStack_1c = extraout_XMM0_Dd_00;
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mathf);
+      g_data_0753e7b4 = '\x01';
+      fVar6 = (float)local_28._0_4_;
     }
-    if (ABS(fVar6) <= 0.0001) {
+    fVar4 = ABS(fVar6);
+    if (ABS(fVar6) <= ABS(fVar5)) {
+      fVar4 = ABS(fVar5);
+    }
+    fVar7 = TypeInfo_UnityEngine_Mathf->static_fields->Epsilon * 8.0;
+    fVar8 = fVar4 * 1e-06;
+    if (fVar4 * 1e-06 <= fVar7) {
+      fVar8 = fVar7;
+    }
+    if (ABS(fVar5 - fVar6) < fVar8) {
       return false;
     }
     pUVar1 = (__this->fields)._scrollRect;
     if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-      fVar7 = UnityEngine_UI_ScrollRect__get_verticalNormalizedPosition(pUVar1,(MethodInfo *)0x0);
-      fVar6 = fVar7 + fVar6;
-      if (fVar6 < 0.0) {
-        fVar6 = 0.0;
-      }
-      else if (1.0 < fVar6) {
-        fVar6 = 1.0;
-      }
-      if (Il2CppMethodInitialized_18433dee4 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mathf);
-        Il2CppMethodInitialized_18433dee4 = '\x01';
-      }
-      fVar9 = ABS(fVar7);
-      if (ABS(fVar7) <= ABS(fVar6)) {
-        fVar9 = ABS(fVar6);
-      }
-      fVar8 = TypeInfo_UnityEngine_Mathf->static_fields->Epsilon * 8.0;
-      fVar10 = fVar9 * 1e-06;
-      if (fVar9 * 1e-06 <= fVar8) {
-        fVar10 = fVar8;
-      }
-      if (ABS(fVar6 - fVar7) < fVar10) {
-        return false;
-      }
-      pUVar1 = (__this->fields)._scrollRect;
-      if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-        UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(pUVar1,fVar6,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,(MethodInfo *)0x0);
-        return true;
-      }
+      UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(pUVar1,fVar5,(MethodInfo *)0x0);
+      UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,method_00);
+      return true;
     }
   }
-label_1822ade6b:
+label_05d7ae0a:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$ToggleExpanded
 // il2cpp: void UI_MapEditorHierarchyPanel__ToggleExpanded (UI_MapEditorHierarchyPanel_o* __this, int32_t id, bool expand, const MethodInfo* method);
-// 0x1822b7cc0
+// 0x5d7afb0
 
 void UI_MapEditorHierarchyPanel__ToggleExpanded
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,bool expand,MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_int__o *__this_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347531 == '\0') {
+  if (Il2CppMethodInitialized_07547feb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Remove);
-    Il2CppMethodInitialized_184347531 = '\x01';
+    Il2CppMethodInitialized_07547feb = '\x01';
   }
   __this_00 = (__this->fields)._expanded;
-  if (__this_00 != (System_Collections_Generic_HashSet_int__o *)0x0) {
-    if (expand) {
-      System_Collections_Generic_HashSet_int___Add
-                (__this_00,id,(MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+  if (expand) {
+    if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+label_05d7b02c:
+      ThrowNullReferenceException();
     }
-    else {
-      System_Collections_Generic_HashSet_Int32Enum___Remove
-                ((System_Collections_Generic_HashSet_T__o *)__this_00,id,
-                 (MethodInfo_17666A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Remove);
-    }
-    UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
-    return;
+    method_00 = (MethodInfo *)(ulong)(uint)id;
+    System_Collections_Generic_HashSet_int___Add
+              (__this_00,id,(MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
   }
-  ThrowNullReferenceException();
+  else {
+    if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7b02c;
+    method_00 = (MethodInfo *)(ulong)(uint)id;
+    System_Collections_Generic_HashSet_int___Remove
+              (__this_00,id,(MethodInfo_4FA80C0 *)MethodInfo_System_Collections_Generic_HashSet_int_Remove);
+  }
+  UI_MapEditorHierarchyPanel__Sync(__this,method_00);
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnPageClick
 // il2cpp: void UI_MapEditorHierarchyPanel__OnPageClick (UI_MapEditorHierarchyPanel_o* __this, bool left, const MethodInfo* method);
-// 0x1822b5320
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b5320: nop 
+// 0x5d7b040
 
 void UI_MapEditorHierarchyPanel__OnPageClick
                (UI_MapEditorHierarchyPanel_o *__this,bool left,MethodInfo *method)
 
 {
-  int32_t *piVar1;
+  undefined7 in_register_00000031;
   
-  piVar1 = &(__this->fields)._currentPage;
-  *piVar1 = *piVar1 + (uint)!left * 2 + -1;
-  UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+  (__this->fields)._currentPage = (__this->fields)._currentPage + (uint)!left * 2 + -1;
+  UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)CONCAT71(in_register_00000031,!left));
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$FocusSelectionFromScene
 // il2cpp: void UI_MapEditorHierarchyPanel__FocusSelectionFromScene (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b1c60
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b1fae: mov rdi, qword ptr [rsp + 0x30]
+// 0x5d7b060
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7b247: jmp 0x5d7b262
+// asm:   0x5d7b2f7: jmp 0x5d7b312
 
 void UI_MapEditorHierarchyPanel__FocusSelectionFromScene
                (UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  GameManagers_MapEditorGameManager_o *pGVar2;
-  System_Collections_Generic_HashSet_MapObject__o *pSVar3;
-  Il2CppObject *pIVar4;
-  bool bVar5;
-  int32_t iVar6;
-  UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o *object;
-  System_Func_MapObject__bool__o *__this_00;
-  Newtonsoft_Json_Serialization_ObjectConstructor_T__o *__this_01;
+  System_Collections_Generic_HashSet_MapObject__o *pSVar1;
+  Il2CppObject *pIVar2;
+  bool bVar3;
+  int iVar4;
+  UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o *__this_00;
+  System_Func_MapObject__bool__o *__this_01;
+  GameManagers_MapEditorGameManager_o *pGVar5;
+  System_Func_MapObject__int__o *__this_02;
   System_Collections_Generic_IEnumerable_TResult__o *source;
-  Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *__this_02;
+  UI_MapEditorHierarchyPanel___c_StaticFields *pUVar6;
+  System_Func_int__int__o *__this_03;
   System_Linq_IOrderedEnumerable_TSource__o *source_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347532 == '\0') {
+  if (Il2CppMethodInitialized_07547fec == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Any_MapObject);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_FirstOrDefault_int);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
@@ -6890,147 +7411,154 @@ void UI_MapEditorHierarchyPanel__FocusSelectionFromScene
               (&MethodInfo_System_Collections_Generic_HashSet_MapObject_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__120_1);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__121_1);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__120_2);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__121_2);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass120_0_FocusSelectionFromScene_b__0);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass120_0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass121_0_FocusSelectionFromScene_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass121_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c);
-    Il2CppMethodInitialized_184347532 = '\x01';
+    Il2CppMethodInitialized_07547fec = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass120_0);
-  UI_MapEditorHierarchyPanel___c__DisplayClass120_0___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)object,(MethodInfo *)0x0);
-  pGVar2 = (__this->fields)._gameManager;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass121_0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  pGVar5 = (__this->fields)._gameManager;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar5 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pGVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar5) {
-    return;
-  }
-  pGVar2 = (__this->fields)._gameManager;
-  if ((pGVar2 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-     (pSVar3 = (pGVar2->fields).SelectedObjects,
-     pSVar3 != (System_Collections_Generic_HashSet_MapObject__o *)0x0)) {
-    if ((pSVar3->fields)._count == 0) {
+  bVar3 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
+    pGVar5 = (__this->fields)._gameManager;
+    if ((pGVar5 == (GameManagers_MapEditorGameManager_o *)0x0) ||
+       (pSVar1 = (pGVar5->fields).SelectedObjects,
+       pSVar1 == (System_Collections_Generic_HashSet_MapObject__o *)0x0)) {
+label_05d7b3be:
+      ThrowNullReferenceException();
+    }
+    if ((pSVar1->fields)._count == 0) {
       return;
     }
-    if (object == (UI_MapEditorHierarchyPanel___c__DisplayClass120_0_o *)0x0) goto label_1822b1fc3;
-    iVar1 = (pGVar2->fields).LastSelectedObjectId;
-    (object->fields).targetId = iVar1;
-    if (0 < iVar1) {
-      pGVar2 = (__this->fields)._gameManager;
-      if (pGVar2 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b1fc3;
-      pSVar3 = (pGVar2->fields).SelectedObjects;
-      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
+    if (__this_00 == (UI_MapEditorHierarchyPanel___c__DisplayClass121_0_o *)0x0) goto label_05d7b3be;
+    iVar4 = (pGVar5->fields).LastSelectedObjectId;
+    (__this_00->fields).targetId = iVar4;
+    if (0 < iVar4) {
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
       System_Func_object__bool____ctor
-                ((System_Predicate_object__o *)__this_00,(Il2CppObject *)object,
+                ((System_Func_object__bool__o *)__this_01,(Il2CppObject *)__this_00,
                  (intptr_t)
-                 MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass120_0_FocusSelectionFromScene_b__0,
-                 (MethodInfo_B61EB0 *)0x0);
-      bVar5 = System_Linq_Enumerable__Any_object__6b6920
-                        ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar3,
-                         (System_Func_TSource__bool__o *)__this_00,
-                         (MethodInfo_6B6920 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
-      if (bVar5) goto label_1822b1f9a;
+                 MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass121_0_FocusSelectionFromScene_b__0,
+                 (MethodInfo_4F19300 *)0x0);
+      bVar3 = System_Linq_Enumerable__Any_object__34dfce0
+                        ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar1,
+                         (System_Func_TSource__bool__o *)__this_01,
+                         (MethodInfo_34DFCE0 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
+      if (bVar3) {
+        iVar4 = (__this_00->fields).targetId;
+        method_00 = extraout_RDX;
+        if (iVar4 < 1) {
+          return;
+        }
+        goto label_05d7b3a6;
+      }
+      pGVar5 = (__this->fields)._gameManager;
+      if (pGVar5 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7b3be;
     }
-    pGVar2 = (__this->fields)._gameManager;
-    if (pGVar2 != (GameManagers_MapEditorGameManager_o *)0x0) {
-      pSVar3 = (pGVar2->fields).SelectedObjects;
-      if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+    pSVar1 = (pGVar5->fields).SelectedObjects;
+    if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      __this_02 = pUVar6->__9__121_1;
+    }
+    else {
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      __this_02 = pUVar6->__9__121_1;
+    }
+    if (__this_02 == (System_Func_MapObject__int__o *)0x0) {
+      if ((((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c)->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+        pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
       }
-      __this_01 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
-                  TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_1;
-      if (__this_01 == (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)0x0) {
-        if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-        }
-        pIVar4 = (Il2CppObject *)TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9;
-        __this_01 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
-                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_int);
-        System_Func_object__int____ctor
-                  (__this_01,pIVar4,
-                   (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__120_1,
-                   (MethodInfo_AF4D50 *)0x0);
-        TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_1 =
-             (System_Func_MapObject__int__o *)__this_01;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_1,__this_01)
-        ;
-      }
-      source = System_Linq_Enumerable__Select_Vector3__object_
-                         ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar3,
-                          (System_Func_TSource__TResult__o *)__this_01,
-                          (MethodInfo_6C2170 *)MethodInfo_System_Linq_Enumerable_Select_MapObject_int);
-      if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+      pIVar2 = (Il2CppObject *)pUVar6->__9;
+      __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_int);
+      System_Func_object__int____ctor
+                ((System_Func_object__int__o *)__this_02,pIVar2,
+                 (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__121_1,
+                 (MethodInfo_4F198F0 *)0x0);
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      pUVar6->__9__121_1 = __this_02;
+      Il2CppCodeGenWriteBarrier(&pUVar6->__9__121_1);
+    }
+    source = System_Linq_Enumerable__Select_object__int_
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar1,
+                        (System_Func_TSource__TResult__o *)__this_02,
+                        (MethodInfo_34F5DF0 *)MethodInfo_System_Linq_Enumerable_Select_MapObject_int);
+    if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      __this_03 = pUVar6->__9__121_2;
+    }
+    else {
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      __this_03 = pUVar6->__9__121_2;
+    }
+    if (__this_03 == (System_Func_int__int__o *)0x0) {
+      if ((((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c)->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+        pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
       }
-      __this_02 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-                  TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_2;
-      if (__this_02 ==
-          (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)0x0) {
-        if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
-        }
-        pIVar4 = (Il2CppObject *)TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9;
-        __this_02 = (Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_x509verify_result_to_string_t_o *)
-                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
-        System_Func_int__int____ctor
-                  (__this_02,pIVar4,
-                   (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__120_2,
-                   (MethodInfo *)0x0);
-        TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_2 =
-             (System_Func_int__int__o *)__this_02;
-        Il2CppCodeGenWriteBarrier(&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__120_2,__this_02)
-        ;
-      }
-      source_00 = System_Linq_Enumerable__OrderBy_object__int_
-                            ((System_Collections_Generic_IEnumerable_TSource__o *)source,
-                             (System_Func_TSource__TKey__o *)__this_02,
-                             (MethodInfo_6C12E0 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
-      iVar6 = System_Linq_Enumerable__FirstOrDefault_int_
-                        ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
-                         (MethodInfo_6BCB80 *)MethodInfo_System_Linq_Enumerable_FirstOrDefault_int);
-      (object->fields).targetId = iVar6;
-label_1822b1f9a:
-      if (0 < (object->fields).targetId) {
-        UI_MapEditorHierarchyPanel__FocusObject(__this,(object->fields).targetId,(MethodInfo *)0x0);
-      }
+      pIVar2 = (Il2CppObject *)pUVar6->__9;
+      __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_int_int);
+      System_Func_int__int____ctor
+                (__this_03,pIVar2,
+                 (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_FocusSelectionFromScene_b__121_2,
+                 (MethodInfo_4F12F40 *)0x0);
+      pUVar6 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+      pUVar6->__9__121_2 = __this_03;
+      Il2CppCodeGenWriteBarrier(&pUVar6->__9__121_2);
+    }
+    source_00 = System_Linq_Enumerable__OrderBy_int__int_
+                          ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                           (System_Func_TSource__TKey__o *)__this_03,
+                           (MethodInfo_34F1B50 *)MethodInfo_System_Linq_Enumerable_OrderBy_int_int);
+    iVar4 = System_Linq_Enumerable__FirstOrDefault_int_
+                      ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
+                       (MethodInfo_34EC8B0 *)MethodInfo_System_Linq_Enumerable_FirstOrDefault_int);
+    (__this_00->fields).targetId = iVar4;
+    method_00 = extraout_RDX_00;
+    if (0 < iVar4) {
+label_05d7b3a6:
+      UI_MapEditorHierarchyPanel__FocusObject(__this,iVar4,method_00);
       return;
     }
   }
-label_1822b1fc3:
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$FocusObject
 // il2cpp: void UI_MapEditorHierarchyPanel__FocusObject (UI_MapEditorHierarchyPanel_o* __this, int32_t id, const MethodInfo* method);
-// 0x1822b18c0
+// 0x5d7b3e0
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b1b95: jmp 0x1822b1ac0
+// asm:   0x5d7b417: jmp 0x5d7b619
 
 void UI_MapEditorHierarchyPanel__FocusObject
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar2;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *pSVar3;
-  System_Collections_Generic_HashSet_int__o *__this_00;
-  System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *pSVar4;
-  bool bVar5;
-  bool bVar6;
-  UnityEngine_LayerMask_o UVar7;
-  int32_t item;
-  System_Collections_Generic_HashSet_int__o *__this_01;
-  Map_MapObject_o *obj;
-  int iVar8;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
+  System_Collections_Generic_Dictionary_int__int__o *pSVar1;
+  bool bVar2;
+  int32_t iVar3;
+  int iVar4;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *pMVar5;
+  MethodInfo *pMVar6;
   
-  if (Il2CppMethodInitialized_184347533 == '\0') {
+  pMVar5 = (MethodInfo *)(ulong)(uint)id;
+  if (Il2CppMethodInitialized_07547fed == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -7040,253 +7568,251 @@ void UI_MapEditorHierarchyPanel__FocusObject
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347533 = '\x01';
-  }
-  if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+    Il2CppMethodInitialized_07547fed = '\x01';
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor != 0) goto label_05d7b408;
+label_05d7b472:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
   }
-  pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-           TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-  if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b1c52;
-  bVar5 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                    (pSVar1,id,
-                     (MethodInfo_1407110 *)
+  else {
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) goto label_05d7b472;
+label_05d7b408:
+    __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
+                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+  }
+  if (__this_00 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7b619;
+  bVar2 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                    (__this_00,id,
+                     (MethodInfo_4A0F950 *)
                      MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-  if (!bVar5) {
+  if (!bVar2) {
     return;
   }
   if ((__this->fields)._treeViewEnabled == false) {
-    pSVar2 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_1822b1c52;
-    bVar5 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                      (pSVar2,id,
-                       (MethodInfo_14070E0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar5) {
-      UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+    pSVar1 = (__this->fields)._idToIndex;
+    if (pSVar1 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+      pMVar6 = pMVar5;
+      bVar2 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                        (pSVar1,id,
+                         (MethodInfo_4A04140 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
+      if (!bVar2) {
+        UI_MapEditorHierarchyPanel__Sync(__this,pMVar6);
+      }
+      pSVar1 = (__this->fields)._idToIndex;
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7b619;
+      bVar2 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                        (pSVar1,id,
+                         (MethodInfo_4A04140 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
+      if (!bVar2) {
+        return;
+      }
+      pSVar1 = (__this->fields)._idToIndex;
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7b619;
+      iVar3 = System_Collections_Generic_Dictionary_int__int___get_Item
+                        (pSVar1,id,
+                         (MethodInfo_4A03E70 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+      iVar4 = iVar3 / 0x1e + 1;
+      if ((__this->fields)._currentPage != iVar4) {
+        (__this->fields)._currentPage = iVar4;
+        UI_MapEditorHierarchyPanel__Sync(__this,pMVar5);
+      }
+      goto label_05d7b5fc;
     }
-    pSVar2 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_1822b1c52;
-    bVar5 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                      (pSVar2,id,
-                       (MethodInfo_14070E0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar5) {
-      return;
-    }
-    pSVar3 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar3 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b1c52;
-    UVar7 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                      (pSVar3,id,
-                       (MethodInfo_14157A0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item
-                      );
-    iVar8 = (int)UVar7.fields.m_Mask / 0x1e + 1;
-    if ((__this->fields)._currentPage != iVar8) {
-      (__this->fields)._currentPage = iVar8;
-      UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
-    }
-    goto label_1822b1c2d;
+    goto label_05d7b619;
   }
-  if (Il2CppMethodInitialized_184347535 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347535 = '\x01';
-  }
-  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
-  System_Collections_Generic_HashSet_int____ctor
-            (__this_01,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-  if (id < 0) {
-label_1822b1b9f:
-    pSVar2 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_1822b1c52;
-    bVar5 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                      (pSVar2,id,
-                       (MethodInfo_14070E0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar5) goto label_1822b1bc1;
+  pMVar6 = pMVar5;
+  bVar2 = UI_MapEditorHierarchyPanel__ExpandAncestors(__this,id,method_00);
+  if (bVar2) {
+label_05d7b4e7:
+    UI_MapEditorHierarchyPanel__Sync(__this,pMVar6);
   }
   else {
-    if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b1c52;
-    bVar5 = false;
-    item = id;
-    while (bVar6 = System_Collections_Generic_HashSet_int___Add
-                             (__this_01,item,
-                              (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add),
-          bVar6) {
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b1c52;
-      bVar6 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                        (pSVar1,item,
-                         (MethodInfo_1407110 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar6) break;
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b1c52;
-      obj = (Map_MapObject_o *)
-            System_Collections_Generic_Dictionary_int__ulong___get_Item
-                      (pSVar1,item,
-                       (MethodInfo_14156F0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-      item = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-      if (item < 0) break;
-      __this_00 = (__this->fields)._expanded;
-      if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b1c52;
-      bVar6 = System_Collections_Generic_HashSet_int___Add
-                        (__this_00,item,
-                         (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-      if (bVar6) {
-        bVar5 = true;
-      }
-    }
-    if (!bVar5) goto label_1822b1b9f;
-label_1822b1bc1:
-    UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
-  }
-  pSVar2 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-  if (pSVar2 != (System_Collections_Generic_Dictionary_int__float__o *)0x0) {
-    bVar5 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                      (pSVar2,id,
-                       (MethodInfo_14070E0 *)
+    pSVar1 = (__this->fields)._idToIndex;
+    if (pSVar1 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7b619;
+    bVar2 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                      (pSVar1,id,
+                       (MethodInfo_4A04140 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar5) {
+    pMVar6 = pMVar5;
+    if (!bVar2) goto label_05d7b4e7;
+  }
+  pSVar1 = (__this->fields)._idToIndex;
+  if (pSVar1 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+    bVar2 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                      (pSVar1,id,
+                       (MethodInfo_4A04140 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
+    if (!bVar2) {
       return;
     }
-    pSVar3 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-      UVar7 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                        (pSVar3,id,
-                         (MethodInfo_14157A0 *)
+    pSVar1 = (__this->fields)._idToIndex;
+    if (pSVar1 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+      iVar3 = System_Collections_Generic_Dictionary_int__int___get_Item
+                        (pSVar1,id,
+                         (MethodInfo_4A03E70 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
-      pSVar4 = (__this->fields)._rows;
-      if (pSVar4 != (System_Collections_Generic_List_MapEditorHierarchyPanel_RowData__o *)0x0) {
-        UI_MapEditorHierarchyPanel__FocusVirtualRow
-                  (__this,(int32_t)UVar7.fields.m_Mask,(pSVar4->fields)._size,(MethodInfo *)0x0);
-        UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,true,(MethodInfo *)0x0);
-label_1822b1c2d:
-        UI_MapEditorHierarchyPanel__SyncSelectedItems(__this,(MethodInfo *)0x0);
+      pMVar5 = (MethodInfo *)(__this->fields)._rows;
+      if (pMVar5 != (MethodInfo *)0x0) {
+        UI_MapEditorHierarchyPanel__FocusVirtualRow(__this,iVar3,*(int32_t *)&pMVar5->name,pMVar5);
+        pMVar5 = (MethodInfo *)0x0;
+        UI_MapEditorHierarchyPanel__RenderVirtualizedRows(__this,false,method_01);
+label_05d7b5fc:
+        UI_MapEditorHierarchyPanel__SyncSelectedItems(__this,pMVar5);
         return;
       }
     }
   }
-label_1822b1c52:
+label_05d7b619:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$FocusVirtualRow
 // il2cpp: void UI_MapEditorHierarchyPanel__FocusVirtualRow (UI_MapEditorHierarchyPanel_o* __this, int32_t rowIndex, int32_t totalRows, const MethodInfo* method);
-// 0x1822b1fd0
+// 0x5d7b7d0
 
 void UI_MapEditorHierarchyPanel__FocusVirtualRow
                (UI_MapEditorHierarchyPanel_o *__this,int32_t rowIndex,int32_t totalRows,MethodInfo *method)
 
 {
   UnityEngine_UI_ScrollRect_o *pUVar1;
-  bool bVar2;
-  UnityEngine_RectTransform_o *pUVar3;
-  UnityEngine_Rect_o *pUVar4;
-  UnityEngine_Vector2_o UVar5;
-  float stride;
-  float fVar6;
-  UnityEngine_Rect_o local_58 [3];
+  UnityEngine_Vector2_o UVar2;
+  bool bVar3;
+  UnityEngine_RectTransform_o *pUVar4;
+  int iVar5;
+  MethodInfo *pMVar6;
+  float fVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  UnityEngine_Rect_o UVar12;
+  float local_48;
   
-  if (Il2CppMethodInitialized_184347534 == '\0') {
+  if (Il2CppMethodInitialized_07547fee == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347534 = '\x01';
+    Il2CppMethodInitialized_07547fee = '\x01';
   }
   pUVar1 = (__this->fields)._scrollRect;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality
+  bVar3 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
+  if (bVar3) {
     return;
   }
   pUVar1 = (__this->fields)._scrollRect;
   if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-    pUVar3 = (pUVar1->fields).m_Content;
+    pUVar4 = (pUVar1->fields).m_Content;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar2) {
+    pMVar6 = (MethodInfo *)0x0;
+    bVar3 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
       return;
     }
-    pUVar3 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,(MethodInfo *)0x0);
+    pUVar4 = UI_MapEditorHierarchyPanel__GetViewportRect(__this,pMVar6);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar2) {
-      if (pUVar3 == (UnityEngine_RectTransform_o *)0x0) goto label_1822b21a8;
-      pUVar4 = UnityEngine_RectTransform__get_rect(local_58,pUVar3,(MethodInfo *)0x0);
-      fVar6 = (pUVar4->fields).m_Height;
+    bVar3 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
+      if (pUVar4 == (UnityEngine_RectTransform_o *)0x0) goto label_05d7ba06;
+      UVar12 = UnityEngine_RectTransform__get_rect(pUVar4,(MethodInfo *)0x0);
       if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
       }
+      fVar9 = UVar12.fields.m_Height;
     }
     else {
-      fVar6 = (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)
+      fVar9 = (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)
                         (__this,(__this->klass->vtable)._31_GetPanelHeight.method);
     }
     pUVar1 = (__this->fields)._scrollRect;
     if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-       (pUVar3 = (pUVar1->fields).m_Content, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-      UVar5 = UnityEngine_RectTransform__get_anchoredPosition(pUVar3,(MethodInfo *)0x0);
-      stride = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,(MethodInfo *)0x0);
-      fVar6 = UI_MapEditorHierarchyVirtualization__ComputeFocusScrollY
-                        (UVar5.fields.y,rowIndex,stride,fVar6,totalRows,0.25,0.75,(MethodInfo *)0x0);
+       (pUVar4 = (pUVar1->fields).m_Content, pUVar4 != (UnityEngine_RectTransform_o *)0x0)) {
+      pMVar6 = (MethodInfo *)0x0;
+      UVar2 = UnityEngine_RectTransform__get_anchoredPosition(pUVar4,(MethodInfo *)0x0);
+      fVar7 = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,pMVar6);
+      fVar10 = 1.0;
+      if (1.0 <= fVar7) {
+        fVar10 = fVar7;
+      }
+      if (rowIndex < 1) {
+        rowIndex = 0;
+      }
+      fVar7 = 1.0;
+      if (1.0 <= fVar9) {
+        fVar7 = fVar9;
+      }
+      fVar8 = ((float)rowIndex + 0.5) * fVar10;
+      fVar9 = 0.0;
+      if (0.0 <= UVar2.fields.y) {
+        fVar9 = UVar2.fields.y;
+      }
+      fVar11 = fVar8 - fVar9;
+      if ((fVar11 < fVar7 * 0.25) || (fVar7 * 0.75 < fVar11)) {
+        iVar5 = 0;
+        if (0 < totalRows) {
+          iVar5 = totalRows;
+        }
+        fVar10 = fVar10 * (float)iVar5 - fVar7;
+        fVar9 = 0.0;
+        if (0.0 <= fVar10) {
+          fVar9 = fVar10;
+        }
+        fVar8 = fVar8 - fVar7 * 0.25;
+        if (fVar8 <= fVar9) {
+          fVar9 = fVar8;
+        }
+        fVar9 = (float)(-(uint)(0.0 <= fVar8) & (uint)fVar9);
+      }
       pUVar1 = (__this->fields)._scrollRect;
       if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-         (pUVar3 = (pUVar1->fields).m_Content, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-        UVar5.fields.y = fVar6;
-        UnityEngine_RectTransform__set_anchoredPosition(pUVar3,UVar5,(MethodInfo *)0x0);
+         (pUVar4 = (pUVar1->fields).m_Content, pUVar4 != (UnityEngine_RectTransform_o *)0x0)) {
+        local_48 = UVar2.fields.x;
+        UVar2.fields.y = fVar9;
+        UVar2.fields.x = local_48;
+        UnityEngine_RectTransform__set_anchoredPosition(pUVar4,UVar2,(MethodInfo *)0x0);
         return;
       }
     }
   }
-label_1822b21a8:
+label_05d7ba06:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$ExpandAncestors
 // il2cpp: bool UI_MapEditorHierarchyPanel__ExpandAncestors (UI_MapEditorHierarchyPanel_o* __this, int32_t id, const MethodInfo* method);
-// 0x1822b1380
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b141d: mov r14d, 1
-// asm:   0x1822b14f0: jmp 0x1822b1423
+// 0x5d7b620
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7b6dc: lea r13, [rip + 0x14ff2ad]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d7b6e3: nop word ptr cs:[rax + rax]
+// asm:   0x5d7b7b2: jmp 0x5d7b7b6
 
 bool UI_MapEditorHierarchyPanel__ExpandAncestors
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
   System_Collections_Generic_HashSet_int__o *__this_00;
   bool bVar2;
+  bool bVar3;
   System_Collections_Generic_HashSet_int__o *__this_01;
   Map_MapObject_o *obj;
-  bool bVar3;
+  bool bVar4;
   
-  if (Il2CppMethodInitialized_184347535 == '\0') {
+  if (Il2CppMethodInitialized_07547fef == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -7295,58 +7821,67 @@ bool UI_MapEditorHierarchyPanel__ExpandAncestors
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347535 = '\x01';
+    Il2CppMethodInitialized_07547fef = '\x01';
   }
-  bVar3 = false;
   __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (__this_01,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-  if (-1 < id) {
+            (__this_01,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+  if (id < 0) {
     bVar3 = false;
+  }
+  else {
     if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-label_1822b1507:
+label_05d7b7ca:
       ThrowNullReferenceException();
     }
-    while (bVar2 = System_Collections_Generic_HashSet_int___Add
-                             (__this_01,id,
-                              (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add),
-          bVar2) {
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b1507;
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+    bVar2 = System_Collections_Generic_HashSet_int___Add
+                      (__this_01,id,
+                       (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+    bVar4 = false;
+    bVar3 = false;
+    if (bVar2) {
+      do {
+        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+        }
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+        if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7b7ca;
+        bVar3 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                          (pSVar1,id,
+                           (MethodInfo_4A0F950 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+        if (!bVar3) {
+          return bVar4;
+        }
+        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+        }
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+        if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7b7ca;
+        obj = System_Collections_Generic_Dictionary_int__object___get_Item
                         (pSVar1,id,
-                         (MethodInfo_1407110 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar2) {
-        return bVar3;
-      }
-      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b1507;
-      obj = (Map_MapObject_o *)
-            System_Collections_Generic_Dictionary_int__ulong___get_Item
-                      (pSVar1,id,
-                       (MethodInfo_14156F0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-      id = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-      if (id < 0) {
-        return bVar3;
-      }
-      __this_00 = (__this->fields)._expanded;
-      if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b1507;
-      bVar2 = System_Collections_Generic_HashSet_int___Add
-                        (__this_00,id,
-                         (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-      if (bVar2) {
-        bVar3 = true;
-      }
+                         (MethodInfo_4A0F690 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
+        id = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
+        if (id < 0) {
+          return bVar4;
+        }
+        __this_00 = (__this->fields)._expanded;
+        if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7b7ca;
+        bVar2 = System_Collections_Generic_HashSet_int___Add
+                          (__this_00,id,
+                           (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+        bVar3 = bVar4;
+        if (bVar2) {
+          bVar3 = true;
+        }
+        bVar2 = System_Collections_Generic_HashSet_int___Add
+                          (__this_01,id,
+                           (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+        bVar4 = bVar3;
+      } while (bVar2);
     }
   }
   return bVar3;
@@ -7355,10 +7890,10 @@ label_1822b1507:
 
 // UI.MapEditorHierarchyPanel$$OnButtonRelease
 // il2cpp: void UI_MapEditorHierarchyPanel__OnButtonRelease (UI_MapEditorHierarchyPanel_o* __this, int32_t id, const MethodInfo* method);
-// 0x180547020
+// 0x5d7bac0
 
-void
-UI_MapEditorHierarchyPanel__OnButtonRelease(UI_MapEditorHierarchyPanel_o* __this, int32_t id, MethodInfo* method)
+void UI_MapEditorHierarchyPanel__OnButtonRelease
+               (UI_MapEditorHierarchyPanel_o *__this,int32_t id,MethodInfo *method)
 
 {
   return;
@@ -7367,9 +7902,7 @@ UI_MapEditorHierarchyPanel__OnButtonRelease(UI_MapEditorHierarchyPanel_o* __this
 
 // UI.MapEditorHierarchyPanel$$OnDestroy
 // il2cpp: void UI_MapEditorHierarchyPanel__OnDestroy (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b42f0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b438a: mov rbx, qword ptr [rsp + 0x30]
+// 0x5d7bad0
 
 void UI_MapEditorHierarchyPanel__OnDestroy(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -7378,11 +7911,11 @@ void UI_MapEditorHierarchyPanel__OnDestroy(UI_MapEditorHierarchyPanel_o *__this,
   UnityEngine_Object_o *pUVar2;
   bool bVar3;
   
-  if ((__this->fields)._contextMenu != (UI_MapEditorContextMenu_o *)0x0) {
-    pUVar1 = (__this->fields)._contextMenu;
-    if (Il2CppMethodInitialized_1843474e9 == '\0') {
+  pUVar1 = (__this->fields)._contextMenu;
+  if (pUVar1 != (UI_MapEditorContextMenu_o *)0x0) {
+    if (Il2CppMethodInitialized_07547fa2 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-      Il2CppMethodInitialized_1843474e9 = '\x01';
+      Il2CppMethodInitialized_07547fa2 = '\x01';
     }
     pUVar2 = (UnityEngine_Object_o *)(pUVar1->fields)._root;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -7394,7 +7927,7 @@ void UI_MapEditorHierarchyPanel__OnDestroy(UI_MapEditorHierarchyPanel_o *__this,
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      UnityEngine_Object__Destroy_2f1ff70(pUVar2,(MethodInfo *)0x0);
+      UnityEngine_Object__Destroy_69214e0(pUVar2,(MethodInfo *)0x0);
       return;
     }
   }
@@ -7404,50 +7937,55 @@ void UI_MapEditorHierarchyPanel__OnDestroy(UI_MapEditorHierarchyPanel_o *__this,
 
 // UI.MapEditorHierarchyPanel$$OnItemPointerDown
 // il2cpp: void UI_MapEditorHierarchyPanel__OnItemPointerDown (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822b4a20
+// 0x5d7bb60
 
 void UI_MapEditorHierarchyPanel__OnItemPointerDown
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
-  float fVar1;
-  
   (__this->fields)._dragSourceId = id;
-  if (eventData != (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
-    fVar1 = (eventData->fields)._position_k__BackingField.fields.y;
-    (__this->fields)._dragStartMouse.fields.x = (eventData->fields)._position_k__BackingField.fields.x;
-    (__this->fields)._dragStartMouse.fields.y = fVar1;
-    (__this->fields)._suppressClick = false;
-    return;
+  if (eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields)._dragStartMouse.fields = (eventData->fields)._position_k__BackingField.fields;
+  (__this->fields)._suppressClick = false;
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnItemBeginDrag
 // il2cpp: void UI_MapEditorHierarchyPanel__OnItemBeginDrag (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822b43a0
+// 0x5d7bb90
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7bdf9: jmp 0x5d7be13
 
 void UI_MapEditorHierarchyPanel__OnItemBeginDrag
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
                UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
 
 {
+  uint id_00;
   UI_MapEditorMenu_o *__this_00;
   GameManagers_MapEditorGameManager_o *pGVar1;
   System_Collections_Generic_HashSet_MapObject__o *pSVar2;
-  System_Collections_Generic_Dictionary_int__ulong__o *__this_01;
+  System_Collections_Generic_Dictionary_int__object__o *__this_01;
   Il2CppObject *object;
   bool bVar3;
-  UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o *object_00;
-  System_Func_MapObject__bool__o *__this_02;
+  UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o *__this_02;
+  System_Func_MapObject__bool__o *__this_03;
   Map_MapObject_o *obj;
-  Newtonsoft_Json_Serialization_ObjectConstructor_T__o *__this_03;
+  UI_MapEditorHierarchyPanel___c_StaticFields *pUVar4;
+  System_Func_MapObject__int__o *__this_04;
   System_Collections_Generic_IEnumerable_TResult__o *collection;
-  System_Collections_Generic_HashSet_int__o *pSVar4;
+  UI_MapEditorHierarchyPanel_o *__this_05;
+  System_Collections_Generic_HashSet_int__o *pSVar5;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  UI_MapEditorHierarchyPanel_o *__this_06;
   
-  if (Il2CppMethodInitialized_184347536 == '\0') {
+  if (Il2CppMethodInitialized_07547ff0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Any_MapObject);
@@ -7455,67 +7993,65 @@ void UI_MapEditorHierarchyPanel__OnItemBeginDrag
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_MapObject_bool);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_MapObject_int);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_HashSet_int_ctor_40dc988);
+              (&MethodInfo_System_Collections_Generic_HashSet_int_ctor_71912f0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c_OnItemBeginDrag_b__127_1);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c_OnItemBeginDrag_b__128_1);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass127_0_OnItemBeginDrag_b__0);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass127_0);
+              (&MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass128_0_OnItemBeginDrag_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass128_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorHierarchyPanel_c);
-    Il2CppMethodInitialized_184347536 = '\x01';
+    Il2CppMethodInitialized_07547ff0 = '\x01';
   }
-  object_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass127_0);
-  UI_MapEditorHierarchyPanel___c__DisplayClass127_0___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)object_00,(MethodInfo *)0x0);
-  if (object_00 != (UI_MapEditorHierarchyPanel___c__DisplayClass127_0_o *)0x0) {
-    (object_00->fields).id = id;
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c__DisplayClass128_0);
+  System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
+  if (__this_02 != (UI_MapEditorHierarchyPanel___c__DisplayClass128_0_o *)0x0) {
+    (__this_02->fields).id = id;
     __this_00 = (__this->fields)._menu;
     if (__this_00 != (UI_MapEditorMenu_o *)0x0) {
       bVar3 = UI_MapEditorMenu__IsPopupActive(__this_00,(MethodInfo *)0x0);
       if (bVar3) {
         return;
       }
-      pGVar1 = (__this->fields)._gameManager;
       (__this->fields)._draggingItem = true;
       (__this->fields)._dropTargetId = -1;
       (__this->fields)._dropToRoot = false;
       (__this->fields)._dropIndicatorId = -1;
       (__this->fields)._currentDropMode = 0;
-      (__this->fields)._dragSourceId = (object_00->fields).id;
+      (__this->fields)._dragSourceId = (__this_02->fields).id;
+      pGVar1 = (__this->fields)._gameManager;
       if (pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) {
         pSVar2 = (pGVar1->fields).SelectedObjects;
-        __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
+        __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_bool);
         System_Func_object__bool____ctor
-                  ((System_Predicate_object__o *)__this_02,(Il2CppObject *)object_00,
-                   (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass127_0_OnItemBeginDrag_b__0,
-                   (MethodInfo_B61EB0 *)0x0);
-        bVar3 = System_Linq_Enumerable__Any_object__6b6920
+                  ((System_Func_object__bool__o *)__this_03,(Il2CppObject *)__this_02,
+                   (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c__DisplayClass128_0_OnItemBeginDrag_b__0,
+                   (MethodInfo_4F19300 *)0x0);
+        bVar3 = System_Linq_Enumerable__Any_object__34dfce0
                           ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar2,
-                           (System_Func_TSource__bool__o *)__this_02,
-                           (MethodInfo_6B6920 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
+                           (System_Func_TSource__bool__o *)__this_03,
+                           (MethodInfo_34DFCE0 *)MethodInfo_System_Linq_Enumerable_Any_MapObject);
         if (!bVar3) {
           pGVar1 = (__this->fields)._gameManager;
-          if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b4714;
+          if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7bf06;
           GameManagers_MapEditorGameManager__DeselectAll(pGVar1,(MethodInfo *)0x0);
           pGVar1 = (__this->fields)._gameManager;
           if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
           }
-          __this_01 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+          __this_01 = (System_Collections_Generic_Dictionary_int__object__o *)
                       TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-          if ((__this_01 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-             (obj = (Map_MapObject_o *)
-                    System_Collections_Generic_Dictionary_int__ulong___get_Item
-                              (__this_01,(object_00->fields).id,
-                               (MethodInfo_14156F0 *)
+          if ((__this_01 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+             (obj = System_Collections_Generic_Dictionary_int__object___get_Item
+                              (__this_01,(__this_02->fields).id,
+                               (MethodInfo_4A0F690 *)
                                MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-             pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_1822b4714;
+             pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_05d7bf06;
           GameManagers_MapEditorGameManager__SelectObject(pGVar1,obj,(MethodInfo *)0x0);
           pGVar1 = (__this->fields)._gameManager;
-          if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b4714;
+          if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7bf06;
           GameManagers_MapEditorGameManager__OnSelectionChange(pGVar1,false,(MethodInfo *)0x0);
         }
         pGVar1 = (__this->fields)._gameManager;
@@ -7523,57 +8059,67 @@ void UI_MapEditorHierarchyPanel__OnItemBeginDrag
           pSVar2 = (pGVar1->fields).SelectedObjects;
           if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+            pUVar4 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            __this_04 = pUVar4->__9__128_1;
           }
-          __this_03 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
-                      TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__127_1;
-          if (__this_03 == (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)0x0) {
-            if ((TypeInfo_UI_MapEditorHierarchyPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+          else {
+            pUVar4 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            __this_04 = pUVar4->__9__128_1;
+          }
+          if (__this_04 == (System_Func_MapObject__int__o *)0x0) {
+            if ((((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c)->_2).cctor_finished_or_no_cctor == 0)
+            {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_MapEditorHierarchyPanel_c);
+              pUVar4 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
             }
-            object = (Il2CppObject *)TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9;
-            __this_03 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
-                        il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_int);
+            object = (Il2CppObject *)pUVar4->__9;
+            __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_int);
             System_Func_object__int____ctor
-                      (__this_03,object,
-                       (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_OnItemBeginDrag_b__127_1,
-                       (MethodInfo_AF4D50 *)0x0);
-            TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__127_1 =
-                 (System_Func_MapObject__int__o *)__this_03;
-            Il2CppCodeGenWriteBarrier
-                      (&TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields->__9__127_1,__this_03);
+                      ((System_Func_object__int__o *)__this_04,object,
+                       (intptr_t)MethodInfo_UI_MapEditorHierarchyPanel_c_OnItemBeginDrag_b__128_1,
+                       (MethodInfo_4F198F0 *)0x0);
+            pUVar4 = TypeInfo_UI_MapEditorHierarchyPanel_c->static_fields;
+            pUVar4->__9__128_1 = __this_04;
+            Il2CppCodeGenWriteBarrier(&pUVar4->__9__128_1);
           }
-          collection = System_Linq_Enumerable__Select_Vector3__object_
+          collection = System_Linq_Enumerable__Select_object__int_
                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar2,
-                                  (System_Func_TSource__TResult__o *)__this_03,
-                                  (MethodInfo_6C2170 *)MethodInfo_System_Linq_Enumerable_Select_MapObject_int)
-          ;
-          pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
-          System_Collections_Generic_HashSet_int____ctor_176c3b0
-                    (pSVar4,(System_Collections_Generic_IEnumerable_T__o *)collection,
-                     (MethodInfo_176C3B0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor_40dc988);
-          pSVar4 = UI_MapEditorHierarchyPanel__GetTopLevelIds(__this,pSVar4,(MethodInfo *)0x0);
-          (__this->fields)._dragTopLevel = pSVar4;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._dragTopLevel,pSVar4);
+                                  (System_Func_TSource__TResult__o *)__this_04,
+                                  (MethodInfo_34F5DF0 *)MethodInfo_System_Linq_Enumerable_Select_MapObject_int
+                                 );
+          __this_05 = (UI_MapEditorHierarchyPanel_o *)
+                      il2cpp_codegen_object_new
+                                ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+          __this_06 = __this_05;
+          System_Collections_Generic_HashSet_int____ctor_4fa7660
+                    ((System_Collections_Generic_HashSet_int__o *)__this_05,
+                     (System_Collections_Generic_IEnumerable_T__o *)collection,
+                     (MethodInfo_4FA7660 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor_71912f0);
+          pSVar5 = UI_MapEditorHierarchyPanel__GetTopLevelIds
+                             (__this_06,(System_Collections_Generic_HashSet_int__o *)__this_05,method_00);
+          (__this->fields)._dragTopLevel = pSVar5;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._dragTopLevel);
           if (eventData != (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
+            id_00 = (__this_02->fields).id;
+            method_02 = (MethodInfo *)(ulong)id_00;
             UI_MapEditorHierarchyPanel__ShowDragGhost
-                      (__this,(object_00->fields).id,
-                       (UnityEngine_Vector2_o)(eventData->fields)._position_k__BackingField.fields,
-                       (MethodInfo *)0x0);
-            UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,(MethodInfo *)0x0);
+                      (__this,id_00,
+                       (UnityEngine_Vector2_o)(eventData->fields)._position_k__BackingField.fields,method_01);
+            UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,method_02);
             return;
           }
         }
       }
     }
   }
-label_1822b4714:
+label_05d7bf06:
   ThrowNullReferenceException();
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnItemDrag
 // il2cpp: void UI_MapEditorHierarchyPanel__OnItemDrag (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822b4720
+// 0x5d7c240
 
 void UI_MapEditorHierarchyPanel__OnItemDrag
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
@@ -7583,26 +8129,45 @@ void UI_MapEditorHierarchyPanel__OnItemDrag
   UnityEngine_Vector2_Fields UVar1;
   UnityEngine_Vector2_Fields UVar2;
   UnityEngine_Camera_o *eventCamera;
+  MethodInfo *method_00;
+  undefined4 in_register_00000034;
+  MethodInfo *method_01;
   float fVar3;
-  undefined8 local_res8;
+  float fVar4;
   
+  method_01 = (MethodInfo *)CONCAT44(in_register_00000034,id);
   if ((__this->fields)._draggingItem != false) {
     if (eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
       ThrowNullReferenceException();
     }
-    UVar1 = (__this->fields)._dragStartMouse.fields;
-    UVar2 = (eventData->fields)._position_k__BackingField.fields;
-    local_res8 = CONCAT44(UVar2.y - UVar1.y,UVar2.x - UVar1.x);
-    fVar3 = (float)il2cpp_runtime_helper_180562bc0(&local_res8,0);
+    UVar1 = (eventData->fields)._position_k__BackingField.fields;
+    UVar2 = (__this->fields)._dragStartMouse.fields;
+    if (Il2CppMethodInitialized_0753e7b5 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e7b5 = '\x01';
+    }
+    fVar3 = UVar1.x - UVar2.x;
+    fVar4 = UVar1.y - UVar2.y;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    fVar3 = fVar4 * fVar4 + fVar3 * fVar3;
+    if (fVar3 < 0.0) {
+      fVar3 = sqrtf(fVar3);
+    }
+    else {
+      fVar3 = SQRT(fVar3);
+    }
     if (6.0 <= fVar3) {
       UI_MapEditorHierarchyPanel__MoveDragGhost
-                (__this,(UnityEngine_Vector2_o)(eventData->fields)._position_k__BackingField.fields,
-                 (MethodInfo *)0x0);
+                (__this,(UnityEngine_Vector2_o)(eventData->fields)._position_k__BackingField.fields,method_01)
+      ;
       UVar1 = (eventData->fields)._position_k__BackingField.fields;
       eventCamera = UnityEngine_EventSystems_PointerEventData__get_pressEventCamera
                               (eventData,(MethodInfo *)0x0);
       UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer
-                (__this,(UnityEngine_Vector2_o)UVar1,eventCamera,(MethodInfo *)0x0);
+                (__this,(UnityEngine_Vector2_o)UVar1,eventCamera,method_00);
+      return;
     }
   }
   return;
@@ -7611,7 +8176,7 @@ void UI_MapEditorHierarchyPanel__OnItemDrag
 
 // UI.MapEditorHierarchyPanel$$UpdateDropTargetFromPointer
 // il2cpp: void UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_Vector2_o screenPosition, UnityEngine_Camera_o* eventCamera, const MethodInfo* method);
-// 0x1822b7e40
+// 0x5d7ae20
 
 void UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer
                (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_Vector2_o screenPosition,
@@ -7620,86 +8185,109 @@ void UI_MapEditorHierarchyPanel__UpdateDropTargetFromPointer
 {
   UnityEngine_Transform_o *__this_00;
   System_Collections_Generic_HashSet_int__o *__this_01;
+  UnityEngine_Vector2_o screenPosition_00;
   bool bVar1;
-  int32_t targetId;
+  uint item;
   UnityEngine_RectTransform_o *rect;
+  MethodInfo *in_RCX;
+  MethodInfo *method_00;
+  MethodInfo *eventCamera_00;
   int32_t iVar2;
-  int32_t local_res18 [4];
+  float fVar3;
+  float fVar4;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  int32_t iStack_2c;
+  undefined1 auStack_28 [16];
   
-  if (Il2CppMethodInitialized_184347537 == '\0') {
+  auStack_28._8_4_ = in_XMM0_Dc;
+  auStack_28._0_8_ = screenPosition.fields;
+  auStack_28._12_4_ = in_XMM0_Dd;
+  eventCamera_00 = (MethodInfo *)eventCamera;
+  fVar3 = screenPosition.fields.x;
+  fVar4 = screenPosition.fields.y;
+  if (Il2CppMethodInitialized_07547ff1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransformUtility);
-    Il2CppMethodInitialized_184347537 = '\x01';
+    Il2CppMethodInitialized_07547ff1 = '\x01';
+    fVar3 = (float)auStack_28._0_4_;
+    fVar4 = (float)auStack_28._4_4_;
   }
-  local_res18[0] = 0;
-  targetId = UI_MapEditorHierarchyPanel__FindHoveredItem
-                       (__this,screenPosition,eventCamera,local_res18,(MethodInfo *)0x0);
-  iVar2 = local_res18[0];
-  if (targetId < 0) {
-    (__this->fields)._currentDropMode = 0;
+  iStack_2c = 0;
+  screenPosition_00.fields.y = fVar4;
+  screenPosition_00.fields.x = fVar3;
+  item = UI_MapEditorHierarchyPanel__FindHoveredItem
+                   (__this,screenPosition_00,(UnityEngine_Camera_o *)eventCamera_00,&iStack_2c,in_RCX);
+  iVar2 = iStack_2c;
+  if ((int)item < 0) {
     (__this->fields)._dropTargetId = -1;
     (__this->fields)._dropIndicatorId = -1;
-    if ((__this->fields)._treeViewEnabled == false) {
-      (__this->fields)._dropToRoot = false;
-    }
-    else {
+    (__this->fields)._currentDropMode = 0;
+    if ((__this->fields)._treeViewEnabled != false) {
       __this_00 = (__this->fields).SinglePanel;
-      if (__this_00 == (UnityEngine_Transform_o *)0x0) {
-label_1822b7fe0:
-        ThrowNullReferenceException();
-      }
+      if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_05d7af9c;
       rect = UnityEngine_Component__GetComponent_object_
                        ((UnityEngine_Component_o *)__this_00,
-                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+                        (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
       if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
       }
-      bVar1 = UnityEngine_RectTransformUtility__RectangleContainsScreenPoint_32c16a0
-                        (rect,screenPosition,eventCamera,(MethodInfo *)0x0);
-      (__this->fields)._dropToRoot = bVar1;
+      bVar1 = UnityEngine_RectTransformUtility__RectangleContainsScreenPoint_6ccb790
+                        (rect,(UnityEngine_Vector2_o)auStack_28._0_8_,eventCamera,(MethodInfo *)0x0);
+      goto label_05d7af86;
     }
-    goto label_1822b7fc9;
-  }
-  if (local_res18[0] == 1) {
-    if ((__this->fields)._treeViewEnabled != false) {
-      bVar1 = UI_MapEditorHierarchyPanel__IsValidDropTarget(__this,targetId,(MethodInfo *)0x0);
-      if (bVar1) {
-        (__this->fields)._currentDropMode = 1;
-        (__this->fields)._dropToRoot = false;
-        iVar2 = targetId;
-        goto label_1822b7fbd;
-      }
-    }
-    (__this->fields)._dropToRoot = false;
-label_1822b7fb0:
-    targetId = -1;
-    (__this->fields)._currentDropMode = 0;
-    iVar2 = targetId;
   }
   else {
-    __this_01 = (__this->fields)._dragTopLevel;
-    if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b7fe0;
-    bVar1 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                      ((System_Collections_Generic_HashSet_T__o *)__this_01,targetId,
-                       (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-    (__this->fields)._dropToRoot = false;
-    if (bVar1) goto label_1822b7fb0;
+    if (iStack_2c == 1) {
+      if ((__this->fields)._treeViewEnabled == false) {
+label_05d7af5d:
+        (__this->fields)._dropTargetId = -1;
+        iVar2 = 0;
+        goto label_05d7af72;
+      }
+      eventCamera_00 = (MethodInfo *)(ulong)item;
+      bVar1 = UI_MapEditorHierarchyPanel__IsValidDropTarget(__this,item,method_00);
+      if (!bVar1) goto label_05d7af5d;
+      (__this->fields)._dropTargetId = item;
+      iVar2 = 1;
+    }
+    else {
+      __this_01 = (__this->fields)._dragTopLevel;
+      if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+label_05d7af9c:
+        ThrowNullReferenceException();
+      }
+      eventCamera_00 = (MethodInfo *)(ulong)item;
+      bVar1 = System_Collections_Generic_HashSet_int___Contains
+                        (__this_01,item,
+                         (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+      if (bVar1) goto label_05d7af5d;
+      (__this->fields)._dropTargetId = item;
+label_05d7af72:
+      item = 0xffffffff;
+    }
+    (__this->fields)._dropIndicatorId = item;
     (__this->fields)._currentDropMode = iVar2;
-    iVar2 = -1;
   }
-label_1822b7fbd:
-  (__this->fields)._dropTargetId = targetId;
-  (__this->fields)._dropIndicatorId = iVar2;
-label_1822b7fc9:
-  UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,(MethodInfo *)0x0);
+  eventCamera = (UnityEngine_Camera_o *)eventCamera_00;
+  bVar1 = false;
+label_05d7af86:
+  (__this->fields)._dropToRoot = bVar1;
+  UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,(MethodInfo *)eventCamera);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$OnItemEndDrag
 // il2cpp: void UI_MapEditorHierarchyPanel__OnItemEndDrag (UI_MapEditorHierarchyPanel_o* __this, int32_t id, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x1822b4800
+// 0x5d7c8f0
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7c9db: jmp 0x5d7cb2c
+// asm:   0x5d7cac8: jmp 0x5d7caf1
+// asm:   0x5d7caca: xor eax, eax
+// asm:   0x5d7cacc: test al, al
+// asm:   0x5d7cace: jne 0x5d7caf1
 
 void UI_MapEditorHierarchyPanel__OnItemEndDrag
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,
@@ -7708,128 +8296,185 @@ void UI_MapEditorHierarchyPanel__OnItemEndDrag
 {
   UnityEngine_Vector2_Fields UVar1;
   UnityEngine_Vector2_Fields UVar2;
-  System_Collections_Generic_HashSet_int__o *__this_00;
   GameManagers_MapEditorGameManager_o *pGVar3;
-  System_Collections_Generic_List_TSource__o *pSVar4;
+  System_Collections_Generic_HashSet_int__o *__this_00;
+  char cVar4;
+  MethodInfo *method_00;
   int32_t item;
+  undefined4 in_register_00000034;
   float fVar5;
-  undefined8 local_res8;
+  float fVar6;
   
-  if (Il2CppMethodInitialized_184347538 == '\0') {
+  method_00 = (MethodInfo *)CONCAT44(in_register_00000034,id);
+  if (Il2CppMethodInitialized_07547ff2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToList_int);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184347538 = '\x01';
+    Il2CppMethodInitialized_07547ff2 = '\x01';
   }
-  if ((__this->fields)._draggingItem != false) {
-    (__this->fields)._draggingItem = false;
-    UI_MapEditorHierarchyPanel__HideDragGhost(__this,(MethodInfo *)0x0);
-    if (eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
-label_1822b4a19:
-      ThrowNullReferenceException();
-    }
-    UVar1 = (__this->fields)._dragStartMouse.fields;
-    UVar2 = (eventData->fields)._position_k__BackingField.fields;
-    local_res8 = CONCAT44(UVar2.y - UVar1.y,UVar2.x - UVar1.x);
-    fVar5 = (float)il2cpp_runtime_helper_180562bc0(&local_res8);
-    if ((6.0 <= fVar5) &&
-       (((__this->fields)._suppressClick = true, (__this->fields)._dropTargetId != -1 ||
-        ((__this->fields)._dropToRoot != false)))) {
-      if (((__this->fields)._currentDropMode == 2) || ((__this->fields)._currentDropMode == 3)) {
-        pGVar3 = (__this->fields)._gameManager;
-        pSVar4 = System_Linq_Enumerable__ToList_int_
-                           ((System_Collections_Generic_IEnumerable_TSource__o *)
-                            (__this->fields)._dragTopLevel,
-                            (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-        if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b4a19;
-        GameManagers_MapEditorGameManager__ReorderObjects
-                  (pGVar3,(System_Collections_Generic_List_int__o *)pSVar4,(__this->fields)._dropTargetId,
-                   (__this->fields)._currentDropMode == 3,(__this->fields)._treeViewEnabled,(MethodInfo *)0x0)
+  if ((__this->fields)._draggingItem == false) {
+    return;
+  }
+  (__this->fields)._draggingItem = false;
+  UI_MapEditorHierarchyPanel__HideDragGhost(__this,method_00);
+  if (eventData == (UnityEngine_EventSystems_PointerEventData_o *)0x0) goto label_05d7cb57;
+  UVar1 = (eventData->fields)._position_k__BackingField.fields;
+  UVar2 = (__this->fields)._dragStartMouse.fields;
+  if (Il2CppMethodInitialized_0753e7b5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e7b5 = '\x01';
+  }
+  fVar5 = UVar1.x - UVar2.x;
+  fVar6 = UVar1.y - UVar2.y;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar5 = fVar6 * fVar6 + fVar5 * fVar5;
+  if (fVar5 < 0.0) {
+    fVar5 = sqrtf(fVar5);
+  }
+  else {
+    fVar5 = SQRT(fVar5);
+  }
+  if (fVar5 < 6.0) goto label_05d7cb2c;
+  (__this->fields)._suppressClick = true;
+  item = (__this->fields)._dropTargetId;
+  if ((item == -1) && ((__this->fields)._dropToRoot == false)) goto label_05d7cb2c;
+  if (((__this->fields)._currentDropMode & 0xfffffffeU) == 2) {
+    pGVar3 = (__this->fields)._gameManager;
+    method_00 = (MethodInfo *)
+                System_Linq_Enumerable__ToList_int_
+                          ((System_Collections_Generic_IEnumerable_TSource__o *)(__this->fields)._dragTopLevel
+                           ,(MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+    if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7cb57;
+    GameManagers_MapEditorGameManager__ReorderObjects
+              (pGVar3,(System_Collections_Generic_List_int__o *)method_00,(__this->fields)._dropTargetId,
+               (__this->fields)._currentDropMode == 3,(__this->fields)._treeViewEnabled,(MethodInfo *)0x0);
+  }
+  else if ((__this->fields)._treeViewEnabled != false) {
+    if ((__this->fields)._dropToRoot == false) {
+label_05d7cad0:
+      if (-1 < item) {
+        __this_00 = (__this->fields)._expanded;
+        if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7cb57;
+        System_Collections_Generic_HashSet_int___Add
+                  (__this_00,item,(MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add)
         ;
       }
-      else if ((__this->fields)._treeViewEnabled != false) {
-        if ((__this->fields)._dropToRoot == false) {
-          item = (__this->fields)._dropTargetId;
-        }
-        else {
-          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-          }
-          item = TypeInfo_Map_MapLoader->static_fields->ROOT_OBJECT_ID;
-        }
-        if (((__this->fields)._dropToRoot == false) && (-1 < item)) {
-          __this_00 = (__this->fields)._expanded;
-          if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b4a19;
-          System_Collections_Generic_HashSet_int___Add
-                    (__this_00,item,
-                     (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-        }
-        pGVar3 = (__this->fields)._gameManager;
-        pSVar4 = System_Linq_Enumerable__ToList_int_
-                           ((System_Collections_Generic_IEnumerable_TSource__o *)
-                            (__this->fields)._dragTopLevel,
-                            (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-        if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b4a19;
-        GameManagers_MapEditorGameManager__ReparentObjects
-                  (pGVar3,(System_Collections_Generic_List_int__o *)pSVar4,item,(MethodInfo *)0x0);
-      }
-      (__this->fields)._dropTargetId = -1;
     }
-    (__this->fields)._dropIndicatorId = -1;
-    (__this->fields)._dropToRoot = false;
-    (__this->fields)._currentDropMode = 0;
-    UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,(MethodInfo *)0x0);
+    else {
+      cVar4 = '\x01';
+      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+        cVar4 = (__this->fields)._dropToRoot;
+      }
+      item = TypeInfo_Map_MapLoader->static_fields->ROOT_OBJECT_ID;
+      if (cVar4 == '\0') goto label_05d7cad0;
+    }
+    pGVar3 = (__this->fields)._gameManager;
+    method_00 = (MethodInfo *)
+                System_Linq_Enumerable__ToList_int_
+                          ((System_Collections_Generic_IEnumerable_TSource__o *)(__this->fields)._dragTopLevel
+                           ,(MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+    if (pGVar3 == (GameManagers_MapEditorGameManager_o *)0x0) {
+label_05d7cb57:
+      ThrowNullReferenceException();
+    }
+    GameManagers_MapEditorGameManager__ReparentObjects
+              (pGVar3,(System_Collections_Generic_List_int__o *)method_00,item,(MethodInfo *)0x0);
   }
+  (__this->fields)._dropTargetId = -1;
+label_05d7cb2c:
+  (__this->fields)._dropIndicatorId = -1;
+  (__this->fields)._dropToRoot = false;
+  (__this->fields)._currentDropMode = 0;
+  UI_MapEditorHierarchyPanel__RefreshDropIndicators(__this,method_00);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$FindHoveredItem
 // il2cpp: int32_t UI_MapEditorHierarchyPanel__FindHoveredItem (UI_MapEditorHierarchyPanel_o* __this, UnityEngine_Vector2_o screenPosition, UnityEngine_Camera_o* eventCamera, int32_t* mode, const MethodInfo* method);
-// 0x1822b1510
-// eh: try 0x1822b1664..0x1822b18ad -> pad 0x1833392e0 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b1801: jmp 0x1822b1808
-// asm:   0x1822b1860: mov rdx, qword ptr [rip + 0x1dfd621]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose
-// asm:   0x1822b1867: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b186c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b1871: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822b1876: test rcx, rcx
-// asm:   0x1822b1879: jne 0x1822b18ad
-// asm:   0x1822b18ad: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833392e0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833392e5: push rbp
-// asm:   0x1833392e6: sub rsp, 0x20
-// asm:   0x1833392ea: mov rbp, rdx
-// asm:   0x1833392ed: mov rax, qword ptr [rbp + 0x60]
-// asm:   0x1833392f1: mov rcx, qword ptr [rax]
-// asm:   0x1833392f4: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x1833392f8: movabs rax, 0
-// asm:   0x183339302: add rsp, 0x20
-// asm:   0x183339306: pop rbp
-// asm:   0x183339307: ret 
+// 0x5d7c350
+// eh: try 0x5d7c4b3..0x5d7c6cd -> pad 0x5d7c6ec (+13 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d7c704..0x5d7c709 -> pad 0x5d7c735 cleanup
+// eh: try 0x5d7c738..0x5d7c742 -> pad 0x5d7c74a catch (...) [compiler noexcept guard]
+// asm: 39 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7c640: jmp 0x5d7c6ab
+// asm:   0x5d7c6d2: jmp 0x5d7c6ec
+// asm:   0x5d7c6d4: jmp 0x5d7c6ec
+// asm:   0x5d7c6d6: jmp 0x5d7c6ec
+// asm:   0x5d7c6d8: jmp 0x5d7c6ec
+// asm:   0x5d7c6da: jmp 0x5d7c6ec
+// asm:   0x5d7c6dc: jmp 0x5d7c6ec
+// asm:   0x5d7c6de: jmp 0x5d7c6ec
+// asm:   0x5d7c6e0: jmp 0x5d7c6ec
+// asm:   0x5d7c6e2: jmp 0x5d7c6ec
+// asm:   0x5d7c6e4: jmp 0x5d7c6ec
+// asm:   0x5d7c6e6: jmp 0x5d7c6ec
+// asm:   0x5d7c6e8: jmp 0x5d7c6ec
+// asm:   0x5d7c6ea: jmp 0x5d7c6ec
+// asm:   0x5d7c6ec: mov rbx, rax
+// asm:   0x5d7c6ef: cmp edx, 1
+// asm:   0x5d7c6f2: jne 0x5d7c738
+// asm:   0x5d7c6f4: mov rdi, rbx
+// asm:   0x5d7c6f7: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7c6fc: mov r14, qword ptr [rax]
+// asm:   0x5d7c6ff: mov qword ptr [rsp + 0x70], r14
+// asm:   0x5d7c704: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7c709: lea rax, [rip + 0x1513198]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose
+// asm:   0x5d7c710: mov rsi, qword ptr [rax]
+// asm:   0x5d7c713: lea rdi, [rsp + 0x20]
+// asm:   0x5d7c718: call 0x4da11d0  ; System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose()
+// asm:   0x5d7c71d: xor ebp, ebp
+// asm:   0x5d7c71f: mov ebx, 0
+// asm:   0x5d7c724: test r14, r14
+// asm:   0x5d7c727: je 0x5d7c65d
+// asm:   0x5d7c72d: mov rdi, r14
+// asm:   0x5d7c730: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7c735: mov rbx, rax
+// asm:   0x5d7c738: lea rdi, [rsp + 0x70]
+// asm:   0x5d7c73d: call 0x2fdd3f0  ; il2cpp_runtime_helper_02fdd3f0()
+// asm:   0x5d7c742: mov rdi, rbx
+// asm:   0x5d7c745: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7c74a: mov rdi, rax
+// asm:   0x5d7c74d: call 0x2ab61e0  ; __clang_call_terminate()
 
 int32_t UI_MapEditorHierarchyPanel__FindHoveredItem
                   (UI_MapEditorHierarchyPanel_o *__this,UnityEngine_Vector2_o screenPosition,
                   UnityEngine_Camera_o *eventCamera,int32_t *mode,MethodInfo *method)
 
 {
-  float fVar1;
-  System_Collections_Generic_Dictionary_int__GameObject__o *__this_00;
-  int32_t iVar2;
+  System_Collections_Generic_Dictionary_int__object__o *__this_00;
   Il2CppObject *x;
-  bool bVar3;
-  int iVar4;
+  bool bVar1;
+  int32_t iVar2;
+  uint uVar3;
   UnityEngine_RectTransform_o *__this_01;
   UnityEngine_Vector3_array *fourCornersArray;
-  float fVar5;
+  int iVar4;
+  int32_t iVar5;
   float fVar6;
-  float local_d8;
-  float fStack_d4;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_c0;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_90 [2];
+  float fVar7;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  float fVar8;
+  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_a8;
+  float local_78;
+  float fStack_74;
+  float fStack_70;
+  float fStack_6c;
+  undefined1 local_68 [16];
+  undefined1 local_58 [16];
+  Il2CppObject *local_48;
+  UnityEngine_Object_o *pUStack_40;
+  int32_t local_38;
+  undefined4 uStack_34;
   
-  if (Il2CppMethodInitialized_184347539 == '\0') {
+  local_68._8_4_ = in_XMM0_Dc;
+  local_68._0_8_ = screenPosition.fields;
+  local_68._12_4_ = in_XMM0_Dd;
+  if (Il2CppMethodInitialized_07547ff3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata
@@ -7845,76 +8490,80 @@ int32_t UI_MapEditorHierarchyPanel__FindHoveredItem
               (&MethodInfo_System_Collections_Generic_KeyValuePair_int_GameObject_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3_array);
-    Il2CppMethodInitialized_184347539 = '\x01';
+    Il2CppMethodInitialized_07547ff3 = '\x01';
   }
-  local_c0.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_c0.fields._version = 0;
-  local_c0.fields._index = 0;
-  local_c0.fields._current.fields.key = (Il2CppObject *)0x0;
-  local_c0.fields._current.fields.value = (Il2CppObject *)0x0;
-  local_c0.fields._getEnumeratorRetType = 0;
-  local_c0.fields._36_4_ = 0;
+  local_a8.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_a8.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_a8.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_a8.fields._version = 0;
+  local_a8.fields._index = 0;
+  local_a8.fields._getEnumeratorRetType = 0;
+  local_a8.fields._36_4_ = 0;
   *mode = 1;
-  fVar5 = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,(MethodInfo *)0x0);
-  fVar5 = (fVar5 - (__this->fields)._virtualRowHeight) * 0.5;
-  if (fVar5 < 0.0) {
-    fVar5 = 0.0;
-  }
-  __this_00 = (__this->fields)._idToItem;
-  if (__this_00 == (System_Collections_Generic_Dictionary_int__GameObject__o *)0x0) {
+  fVar6 = UI_MapEditorHierarchyPanel__GetVirtualStride(__this,(MethodInfo *)eventCamera);
+  __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+  if (__this_00 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_Dictionary_PhotonNetwork_RaiseEventBatch__object___GetEnumerator
-            (local_90,(System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_13C1150 *)
+  fVar7 = (fVar6 - (__this->fields)._virtualRowHeight) * 0.5;
+  fVar6 = 0.0;
+  if (0.0 <= fVar7) {
+    fVar6 = fVar7;
+  }
+  System_Collections_Generic_Dictionary_int__object___GetEnumerator
+            ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_58,__this_00,
+             (MethodInfo_4A0FBD0 *)
              MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_GetEnumerator);
-  local_c0.fields._dictionary = local_90[0].fields._dictionary;
-  local_c0.fields._version = local_90[0].fields._version;
-  local_c0.fields._index = local_90[0].fields._index;
-  local_c0.fields._current.fields.key = local_90[0].fields._current.fields.key;
-  local_c0.fields._current.fields.value = local_90[0].fields._current.fields.value;
-  local_c0.fields._getEnumeratorRetType = local_90[0].fields._getEnumeratorRetType;
-  local_c0.fields._36_4_ = local_90[0].fields._36_4_;
-  fStack_d4 = screenPosition.fields.y;
-  local_d8 = screenPosition.fields.x;
-  while( true ) {
+  local_a8.fields._getEnumeratorRetType = local_38;
+  local_a8.fields._36_4_ = uStack_34;
+  local_a8.fields._current.fields.key = local_48;
+  local_a8.fields._current.fields.value = (Il2CppObject *)pUStack_40;
+  local_a8.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_58._0_8_;
+  local_a8.fields._version = local_58._8_4_;
+  local_a8.fields._index = local_58._12_4_;
+  local_58._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_78 = (float)local_68._4_4_;
+  fStack_74 = (float)local_68._4_4_;
+  fStack_70 = (float)local_68._4_4_;
+  fStack_6c = (float)local_68._4_4_;
+  local_58._8_8_ = &local_a8;
+  do {
     do {
       do {
         do {
-          bVar3 = System_Collections_Generic_Dictionary_Enumerator_uint__object___MoveNext
-                            (&local_c0,
-                             (MethodInfo_15642D0 *)
+          bVar1 = System_Collections_Generic_Dictionary_Enumerator_int__object___MoveNext
+                            (&local_a8,
+                             (MethodInfo_4CA10B0 *)
                              MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_MoveNext
                             );
-          x = local_c0.fields._current.fields.value;
-          if (!bVar3) {
-            System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_c0,
-                       MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose);
-            return -1;
+          x = local_a8.fields._current.fields.value;
+          if (!bVar1) {
+            iVar5 = 0;
+            iVar4 = 0xd;
+            goto label_05d7c649;
           }
-          iVar2 = (int32_t)local_c0.fields._current.fields.key;
+          iVar5 = (int32_t)local_a8.fields._current.fields.key;
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          bVar3 = UnityEngine_Object__op_Equality
+          bVar1 = UnityEngine_Object__op_Equality
                             ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        } while (bVar3);
+        } while (bVar1);
         if ((UnityEngine_Object_o *)x == (UnityEngine_Object_o *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar3 = UnityEngine_GameObject__get_activeSelf((UnityEngine_GameObject_o *)x,(MethodInfo *)0x0);
-      } while (!bVar3);
+        bVar1 = UnityEngine_GameObject__get_activeSelf((UnityEngine_GameObject_o *)x,(MethodInfo *)0x0);
+      } while (!bVar1);
       __this_01 = UnityEngine_GameObject__GetComponent_object_
                             ((UnityEngine_GameObject_o *)x,
-                             (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform
-                            );
+                             (MethodInfo_353B730 *)
+                             MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar3 = UnityEngine_Object__op_Equality
+      bVar1 = UnityEngine_Object__op_Equality
                         ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    } while (bVar3);
+    } while (bVar1);
     fourCornersArray = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,4);
     if (__this_01 == (UnityEngine_RectTransform_o *)0x0) {
       ThrowNullReferenceException();
@@ -7923,94 +8572,100 @@ int32_t UI_MapEditorHierarchyPanel__FindHoveredItem
     if (fourCornersArray == (UnityEngine_Vector3_array *)0x0) {
       ThrowNullReferenceException();
     }
-    if ((int)fourCornersArray->max_length == 0) {
+    uVar3 = (uint)fourCornersArray->max_length;
+    if (uVar3 == 0) {
       ThrowIndexOutOfRangeException();
     }
-    if ((uint)fourCornersArray->max_length < 3) {
+    if (uVar3 < 3) {
       ThrowIndexOutOfRangeException();
     }
-    if ((int)fourCornersArray->max_length == 0) {
-      ThrowIndexOutOfRangeException();
-    }
-    if ((uint)fourCornersArray->max_length < 2) break;
-    if ((((fourCornersArray->m_Items[0].fields.x <= local_d8) &&
-         (local_d8 < fourCornersArray->m_Items[2].fields.x ||
-          local_d8 == fourCornersArray->m_Items[2].fields.x)) &&
-        (fVar1 = fourCornersArray->m_Items[0].fields.y, fVar1 - fVar5 <= fStack_d4)) &&
-       (fVar6 = fourCornersArray->m_Items[1].fields.y, fStack_d4 <= fVar6 + fVar5)) {
-      fVar6 = fVar6 - fVar1;
-      if (fVar6 <= 0.0) {
-        fVar6 = 0.5;
-      }
-      else {
-        fVar6 = (fStack_d4 - fVar1) / fVar6;
-      }
-      if ((__this->fields)._treeViewEnabled == false) {
-        iVar4 = (fVar6 < 0.5) + 2;
-      }
-      else if (0.85 < fVar6) {
-        iVar4 = 2;
-      }
-      else {
-        iVar4 = 3;
-        if (0.15 <= fVar6) {
-          iVar4 = 1;
-        }
-      }
-      *mode = iVar4;
-      System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_c0,
-                 MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose);
-      return iVar2;
+  } while (((((float)local_68._0_4_ < fourCornersArray->m_Items[0].fields.x) ||
+            (fourCornersArray->m_Items[2].fields.x <= (float)local_68._0_4_ &&
+             (float)local_68._0_4_ != fourCornersArray->m_Items[2].fields.x)) ||
+           (fVar7 = fourCornersArray->m_Items[0].fields.y, local_78 < fVar7 - fVar6)) ||
+          (fVar8 = fourCornersArray->m_Items[1].fields.y, fVar6 + fVar8 < local_78));
+  fVar8 = fVar8 - fVar7;
+  if (fVar8 <= 0.0) {
+    if ((__this->fields)._treeViewEnabled == false) {
+      fVar8 = 0.5;
+      goto label_05d7c69c;
     }
   }
-  ThrowIndexOutOfRangeException();
+  else {
+    fVar8 = (local_78 - fVar7) / fVar8;
+    if ((__this->fields)._treeViewEnabled == false) {
+label_05d7c69c:
+      uVar3 = fVar8 < 0.5 | 2;
+      goto label_05d7c6ab;
+    }
+    uVar3 = 2;
+    if ((0.85 < fVar8) || (uVar3 = 3, fVar8 < 0.15)) goto label_05d7c6ab;
+  }
+  uVar3 = 1;
+label_05d7c6ab:
+  *mode = uVar3;
+  iVar4 = 0xc;
+label_05d7c649:
+  System_Collections_Generic_Dictionary_Enumerator_int__object___Dispose
+            (&local_a8,
+             (MethodInfo_4CA11D0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_Enumerator_int_GameObject_Dispose);
+  iVar2 = -1;
+  if (iVar4 == 0xc) {
+    iVar2 = iVar5;
+  }
+  return iVar2;
 }
 
 
 // UI.MapEditorHierarchyPanel$$IsValidDropTarget
 // il2cpp: bool UI_MapEditorHierarchyPanel__IsValidDropTarget (UI_MapEditorHierarchyPanel_o* __this, int32_t targetId, const MethodInfo* method);
-// 0x1822b3840
-// eh: try 0x1822b3930..0x1822b3a8a -> pad 0x183315930 catch Il2CppExceptionWrapper
-// eh: try 0x1822b3ac7..0x1822b3ae5 -> pad 0x180182eb0 cleanup
-// eh: try 0x1822b3ae5..0x1822b3af6 -> pad 0x183315930 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b3aac: mov rdx, qword ptr [rip + 0x1dd4595]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
-// asm:   0x1822b3ab3: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b3ab8: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b3abd: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822b3ac2: test rcx, rcx
-// asm:   0x1822b3ac5: jne 0x1822b3af6
-// asm:   0x1822b3ac7: jmp 0x1822b3ad7
-// asm:   0x1822b3af6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d7c760
+// eh: try 0x5d7c843..0x5d7c85a -> pad 0x5d7c894 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d7c8ac..0x5d7c8b1 -> pad 0x5d7c8d2 cleanup
+// eh: try 0x5d7c8d5..0x5d7c8df -> pad 0x5d7c8e7 catch (...) [compiler noexcept guard]
+// asm: 26 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7c83c: nop dword ptr [rax]
+// asm:   0x5d7c892: jmp 0x5d7c894
+// asm:   0x5d7c894: mov rbx, rax
+// asm:   0x5d7c897: cmp edx, 1
+// asm:   0x5d7c89a: jne 0x5d7c8d5
+// asm:   0x5d7c89c: mov rdi, rbx
+// asm:   0x5d7c89f: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7c8a4: mov rbx, qword ptr [rax]
+// asm:   0x5d7c8a7: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5d7c8ac: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7c8b1: lea rax, [rip + 0x1511928]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
+// asm:   0x5d7c8b8: mov rsi, qword ptr [rax]
+// asm:   0x5d7c8bb: mov rdi, rsp
+// asm:   0x5d7c8be: call 0x4d3aed0  ; System_Collections_Generic_HashSet_Enumerator_int___Dispose()
+// asm:   0x5d7c8c3: xor ebp, ebp
+// asm:   0x5d7c8c5: test rbx, rbx
+// asm:   0x5d7c8c8: je 0x5d7c87c
+// asm:   0x5d7c8ca: mov rdi, rbx
+// asm:   0x5d7c8cd: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7c8d2: mov rbx, rax
+// asm:   0x5d7c8d5: lea rdi, [rsp + 0x18]
+// asm:   0x5d7c8da: call 0x2fdd420  ; il2cpp_runtime_helper_02fdd420()
+// asm:   0x5d7c8df: mov rdi, rbx
+// asm:   0x5d7c8e2: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7c8e7: mov rdi, rax
+// asm:   0x5d7c8ea: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool UI_MapEditorHierarchyPanel__IsValidDropTarget
                (UI_MapEditorHierarchyPanel_o *__this,int32_t targetId,MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_uint__o *__this_00;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
-  int iVar2;
-  bool bVar3;
-  int32_t item;
-  System_Collections_Generic_HashSet_int__o *pSVar4;
-  Map_MapObject_o *obj;
-  undefined1 local_60 [16];
-  Il2CppObject *local_50;
-  System_Collections_Generic_HashSet_Enumerator_T__o local_48;
+  System_Collections_Generic_HashSet_int__o *pSVar1;
+  bool bVar2;
+  MethodInfo *in_RCX;
+  int iVar3;
+  UI_MapEditorHierarchyPanel_o *__this_00;
+  UnityEngine_Transform_o local_48;
+  System_Threading_CancellationTokenSource_o *local_30;
+  UnityEngine_Transform_o *local_28;
   
-  if (Il2CppMethodInitialized_18434753a == '\0') {
+  if (Il2CppMethodInitialized_07547ff4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -8020,126 +8675,78 @@ bool UI_MapEditorHierarchyPanel__IsValidDropTarget
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
-    Il2CppMethodInitialized_18434753a = '\x01';
+    Il2CppMethodInitialized_07547ff4 = '\x01';
   }
-  local_48.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
+  local_48.klass = (UnityEngine_Transform_c *)0x0;
+  local_48.monitor = (void *)0x0;
+  local_48.fields.m_CachedPtr = 0;
   if (targetId < 0) {
-    return true;
+    bVar2 = true;
   }
-  pSVar4 = (__this->fields)._dragTopLevel;
-  if (pSVar4 != (System_Collections_Generic_HashSet_int__o *)0x0) {
-    bVar3 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                      ((System_Collections_Generic_HashSet_T__o *)pSVar4,targetId,
-                       (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-    if (bVar3) {
-      return false;
+  else {
+    pSVar1 = (__this->fields)._dragTopLevel;
+    if (pSVar1 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+label_05d7c88d:
+      ThrowNullReferenceException();
     }
-    __this_00 = (System_Collections_Generic_HashSet_uint__o *)(__this->fields)._dragTopLevel;
-    if (__this_00 != (System_Collections_Generic_HashSet_uint__o *)0x0) {
-      System_Collections_Generic_HashSet_uint___GetEnumerator
-                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_60,__this_00,
-                 (MethodInfo_175C240 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
-      local_48.fields._set = (System_Collections_Generic_HashSet_T__o *)local_60._0_8_;
-      local_48.fields._index = local_60._8_4_;
-      local_48.fields._version = local_60._12_4_;
-      local_48.fields._current = local_50;
-      local_60._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-      local_60._8_8_ = &local_48;
+    bVar2 = System_Collections_Generic_HashSet_int___Contains
+                      (pSVar1,targetId,
+                       (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+    if (bVar2) {
+      bVar2 = false;
+    }
+    else {
+      pSVar1 = (__this->fields)._dragTopLevel;
+      if (pSVar1 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7c88d;
+      System_Collections_Generic_HashSet_int___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)&local_48,pSVar1,
+                 (MethodInfo_4FA8440 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
+      local_30 = (System_Threading_CancellationTokenSource_o *)0x0;
+      local_28 = &local_48;
       do {
-        bVar3 = System_Collections_Generic_HashSet_Enumerator_uint___MoveNext
-                          (&local_48,
-                           (MethodInfo_1537E90 *)
+        __this_00 = (UI_MapEditorHierarchyPanel_o *)&local_48;
+        bVar2 = System_Collections_Generic_HashSet_Enumerator_int___MoveNext
+                          ((System_Collections_Generic_HashSet_Enumerator_T__o *)&local_48,
+                           (MethodInfo_4C3AEE0 *)
                            MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext);
-        if (!bVar3) {
-          System_Collections_Generic_HashSet_Enumerator_int___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                     MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
-          return true;
+        if (!bVar2) {
+          iVar3 = 7;
+          goto label_05d7c86a;
         }
-        iVar2 = (int)local_48.fields._current;
-        if (Il2CppMethodInitialized_18434753b == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
-          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-          Il2CppMethodInitialized_18434753b = '\x01';
-        }
-        pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
-        System_Collections_Generic_HashSet_int____ctor
-                  (pSVar4,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-        item = targetId;
-        while (-1 < item) {
-          if (pSVar4 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          bVar3 = System_Collections_Generic_HashSet_int___Add
-                            (pSVar4,item,
-                             (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-          if (!bVar3) break;
-          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-          }
-          pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                   TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-          if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          bVar3 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                            (pSVar1,item,
-                             (MethodInfo_1407110 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-          if (!bVar3) break;
-          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-          }
-          pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                   TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-          if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          obj = (Map_MapObject_o *)
-                System_Collections_Generic_Dictionary_int__ulong___get_Item
-                          (pSVar1,item,
-                           (MethodInfo_14156F0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
-          item = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-          if (item == iVar2) {
-            System_Collections_Generic_HashSet_Enumerator_int___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
-            return false;
-          }
-        }
-      } while( true );
+        bVar2 = UI_MapEditorHierarchyPanel__IsDescendant
+                          (__this_00,targetId,(int32_t)local_48.fields.m_CachedPtr,in_RCX);
+      } while (!bVar2);
+      iVar3 = 6;
+label_05d7c86a:
+      System_Collections_Generic_HashSet_Enumerator_int___Dispose
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)&local_48,
+                 (MethodInfo_4C3AED0 *)MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
+      bVar2 = iVar3 != 6;
     }
   }
-  ThrowNullReferenceException();
+  return bVar2;
 }
 
 
 // UI.MapEditorHierarchyPanel$$IsDescendant
 // il2cpp: bool UI_MapEditorHierarchyPanel__IsDescendant (UI_MapEditorHierarchyPanel_o* __this, int32_t id, int32_t ancestorId, const MethodInfo* method);
-// 0x1822b36c0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b375b: nop dword ptr [rax + rax]
+// 0x5d7cb60
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7cbf5: lea r15, [rip + 0x1514704]  ; MethodInfo_System_Collections_Generic_HashSet_int_Add
+// asm:   0x5d7cbfc: lea r12, [rip + 0x14fdd8d]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d7cc03: lea r13, [rip + 0x150d3d6]  ; MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey
+// asm:   0x5d7cc0a: nop word ptr [rax + rax]
 
 bool UI_MapEditorHierarchyPanel__IsDescendant
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,int32_t ancestorId,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
   bool bVar2;
   System_Collections_Generic_HashSet_int__o *__this_00;
   Map_MapObject_o *obj;
   
-  if (Il2CppMethodInitialized_18434753b == '\0') {
+  if (Il2CppMethodInitialized_07547ff5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -8148,82 +8755,99 @@ bool UI_MapEditorHierarchyPanel__IsDescendant
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_18434753b = '\x01';
+    Il2CppMethodInitialized_07547ff5 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (__this_00,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-  if (-1 < id) {
-    if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-label_1822b3835:
+            (__this_00,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+  if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+    if (-1 < id) {
+label_05d7ccc5:
       ThrowNullReferenceException();
     }
+label_05d7ccb4:
+    bVar2 = false;
+  }
+  else {
     do {
-      bVar2 = System_Collections_Generic_HashSet_int___Add
-                        (__this_00,id,
-                         (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-      if (!bVar2) {
-        return false;
-      }
+      if ((id < 0) ||
+         (bVar2 = System_Collections_Generic_HashSet_int___Add
+                            (__this_00,id,
+                             (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add),
+         !bVar2)) goto label_05d7ccb4;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b3835;
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7ccc5;
+      bVar2 = System_Collections_Generic_Dictionary_int__object___ContainsKey
                         (pSVar1,id,
-                         (MethodInfo_1407110 *)
+                         (MethodInfo_4A0F950 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar2) {
-        return false;
-      }
+      if (!bVar2) goto label_05d7ccb4;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b3835;
-      obj = (Map_MapObject_o *)
-            System_Collections_Generic_Dictionary_int__ulong___get_Item
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7ccc5;
+      obj = System_Collections_Generic_Dictionary_int__object___get_Item
                       (pSVar1,id,
-                       (MethodInfo_14156F0 *)
+                       (MethodInfo_4A0F690 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
       id = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-      if (id == ancestorId) {
-        return true;
-      }
-    } while (-1 < id);
+    } while (id != ancestorId);
+    bVar2 = true;
   }
-  return false;
+  return bVar2;
 }
 
 
 // UI.MapEditorHierarchyPanel$$GetTopLevelIds
 // il2cpp: System_Collections_Generic_HashSet_int__o* UI_MapEditorHierarchyPanel__GetTopLevelIds (UI_MapEditorHierarchyPanel_o* __this, System_Collections_Generic_HashSet_int__o* ids, const MethodInfo* method);
-// 0x1822b2bb0
-// eh: try 0x1822b2cd4..0x1822b2e68 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 20 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b2de6: jmp 0x1822b2d13
-// asm:   0x1822b2e18: mov rdx, qword ptr [rip + 0x1dd5229]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
-// asm:   0x1822b2e1f: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b2e24: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b2e29: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822b2e2e: test rcx, rcx
-// asm:   0x1822b2e31: jne 0x1822b2e68
-// asm:   0x1822b2e33: mov r14, qword ptr [rsp + 0xa8]
-// asm:   0x1822b2e68: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d7bf20
+// eh: try 0x5d7c06a..0x5d7c1c9 -> pad 0x5d7c1d4 (+13 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d7c1fe..0x5d7c203 -> pad 0x5d7c222 cleanup
+// eh: try 0x5d7c225..0x5d7c22f -> pad 0x5d7c237 catch (...) [compiler noexcept guard]
+// asm: 37 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7c0af: nop 
+// asm:   0x5d7c169: jmp 0x5d7c060
+// asm:   0x5d7c1ce: jmp 0x5d7c1e6
+// asm:   0x5d7c1d0: jmp 0x5d7c1e6
+// asm:   0x5d7c1d2: jmp 0x5d7c1e6
+// asm:   0x5d7c1d4: jmp 0x5d7c1e6
+// asm:   0x5d7c1d6: jmp 0x5d7c1e6
+// asm:   0x5d7c1d8: jmp 0x5d7c1e6
+// asm:   0x5d7c1da: jmp 0x5d7c1e6
+// asm:   0x5d7c1dc: jmp 0x5d7c1e6
+// asm:   0x5d7c1de: jmp 0x5d7c1e6
+// asm:   0x5d7c1e0: jmp 0x5d7c1e6
+// asm:   0x5d7c1e2: jmp 0x5d7c1e6
+// asm:   0x5d7c1e4: jmp 0x5d7c1e6
+// asm:   0x5d7c1e6: mov rbx, rax
+// asm:   0x5d7c1e9: cmp edx, 1
+// asm:   0x5d7c1ec: jne 0x5d7c225
+// asm:   0x5d7c1ee: mov rdi, rbx
+// asm:   0x5d7c1f1: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7c1f6: mov rbx, qword ptr [rax]
+// asm:   0x5d7c1f9: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5d7c1fe: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d7c203: lea rax, [rip + 0x1511fd6]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose
+// asm:   0x5d7c20a: mov rsi, qword ptr [rax]
+// asm:   0x5d7c20d: mov rdi, rsp
+// asm:   0x5d7c210: call 0x4d3aed0  ; System_Collections_Generic_HashSet_Enumerator_int___Dispose()
+// asm:   0x5d7c215: test rbx, rbx
+// asm:   0x5d7c218: je 0x5d7c1a1
+// asm:   0x5d7c21a: mov rdi, rbx
+// asm:   0x5d7c21d: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d7c222: mov rbx, rax
+// asm:   0x5d7c225: lea rdi, [rsp + 0x20]
+// asm:   0x5d7c22a: call 0x2fdd450  ; il2cpp_runtime_helper_02fdd450()
+// asm:   0x5d7c22f: mov rdi, rbx
+// asm:   0x5d7c232: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7c237: mov rdi, rax
+// asm:   0x5d7c23a: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Collections_Generic_HashSet_int__o *
 UI_MapEditorHierarchyPanel__GetTopLevelIds
@@ -8231,18 +8855,18 @@ UI_MapEditorHierarchyPanel__GetTopLevelIds
           MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar1;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
   int32_t item;
   bool bVar2;
   int32_t item_00;
   System_Collections_Generic_HashSet_int__o *__this_00;
-  System_Collections_Generic_HashSet_int__o *__this_01;
   Map_MapObject_o *obj;
-  undefined1 local_70 [16];
-  Il2CppObject *local_60;
-  System_Collections_Generic_HashSet_Enumerator_T__o local_58;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_68;
+  System_Collections_Generic_HashSet_int__o *local_50;
+  undefined1 local_48 [16];
+  Il2CppObject *local_38;
   
-  if (Il2CppMethodInitialized_18434753c == '\0') {
+  if (Il2CppMethodInitialized_07547ff6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -8260,92 +8884,91 @@ UI_MapEditorHierarchyPanel__GetTopLevelIds
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_18434753c = '\x01';
+    Il2CppMethodInitialized_07547ff6 = '\x01';
   }
-  local_58.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_58.fields._index = 0;
-  local_58.fields._version = 0;
-  local_58.fields._current = (Il2CppObject *)0x0;
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+  local_68.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_68.fields._index = 0;
+  local_68.fields._version = 0;
+  local_68.fields._current = (Il2CppObject *)0x0;
+  local_50 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (__this_00,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+            (local_50,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
   if (ids == (System_Collections_Generic_HashSet_int__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_HashSet_uint___GetEnumerator
-            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_70,
-             (System_Collections_Generic_HashSet_uint__o *)ids,
-             (MethodInfo_175C240 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
-  local_58.fields._set = (System_Collections_Generic_HashSet_T__o *)local_70._0_8_;
-  local_58.fields._index = local_70._8_4_;
-  local_58.fields._version = local_70._12_4_;
-  local_58.fields._current = local_60;
-  local_70._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_70._8_8_ = &local_58;
+  System_Collections_Generic_HashSet_int___GetEnumerator
+            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_48,ids,
+             (MethodInfo_4FA8440 *)MethodInfo_System_Collections_Generic_HashSet_int_GetEnumerator);
+  local_68.fields._current = local_38;
+  local_68.fields._set = (System_Collections_Generic_HashSet_T__o *)local_48._0_8_;
+  local_68.fields._index = local_48._8_4_;
+  local_68.fields._version = local_48._12_4_;
+  local_48._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_48._8_8_ = &local_68;
   do {
-    bVar2 = System_Collections_Generic_HashSet_Enumerator_uint___MoveNext
-                      (&local_58,
-                       (MethodInfo_1537E90 *)
-                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext);
-    if (!bVar2) {
-      System_Collections_Generic_HashSet_Enumerator_int___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_58,
-                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose);
-      return __this_00;
-    }
-    item = (int32_t)local_58.fields._current;
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
-    System_Collections_Generic_HashSet_int____ctor
-              (__this_01,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-    item_00 = item;
-    do {
-      if (item_00 < 0) {
-label_1822b2deb:
-        if (__this_00 == (System_Collections_Generic_HashSet_int__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        System_Collections_Generic_HashSet_int___Add
-                  (__this_00,item,(MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add)
+    while( true ) {
+      bVar2 = System_Collections_Generic_HashSet_Enumerator_int___MoveNext
+                        (&local_68,
+                         (MethodInfo_4C3AEE0 *)
+                         MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_MoveNext);
+      if (!bVar2) {
+        System_Collections_Generic_HashSet_Enumerator_int___Dispose
+                  (&local_68,
+                   (MethodInfo_4C3AED0 *)MethodInfo_System_Collections_Generic_HashSet_Enumerator_int_Dispose)
         ;
-        break;
+        return local_50;
       }
-      if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+      item = (int32_t)local_68.fields._current;
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+      System_Collections_Generic_HashSet_int____ctor
+                (__this_00,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+      item_00 = item;
+      if (__this_00 != (System_Collections_Generic_HashSet_int__o *)0x0) break;
+      if (-1 < item) {
         ThrowNullReferenceException();
       }
-      bVar2 = System_Collections_Generic_HashSet_int___Add
-                        (__this_01,item_00,
-                         (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-      if (!bVar2) goto label_1822b2deb;
+label_05d7c175:
+      if (local_50 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      System_Collections_Generic_HashSet_int___Add
+                (local_50,item,(MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+    }
+    do {
+      if ((item_00 < 0) ||
+         (bVar2 = System_Collections_Generic_HashSet_int___Add
+                            (__this_00,item_00,
+                             (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add),
+         !bVar2)) goto label_05d7c175;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
         ThrowNullReferenceException();
       }
-      bVar2 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
+      bVar2 = System_Collections_Generic_Dictionary_int__object___ContainsKey
                         (pSVar1,item_00,
-                         (MethodInfo_1407110 *)
+                         (MethodInfo_4A0F950 *)
                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (!bVar2) goto label_1822b2deb;
+      if (!bVar2) goto label_05d7c175;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar1 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
         ThrowNullReferenceException();
       }
-      obj = (Map_MapObject_o *)
-            System_Collections_Generic_Dictionary_int__ulong___get_Item
+      obj = System_Collections_Generic_Dictionary_int__object___get_Item
                       (pSVar1,item_00,
-                       (MethodInfo_14156F0 *)
+                       (MethodInfo_4A0F690 *)
                        MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item);
       item_00 = Map_MapLoader__GetLogicalParentId(obj,(MethodInfo *)0x0);
-      bVar2 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                        ((System_Collections_Generic_HashSet_T__o *)ids,item_00,
-                         (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+      bVar2 = System_Collections_Generic_HashSet_int___Contains
+                        (ids,item_00,
+                         (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
     } while (!bVar2);
   } while( true );
 }
@@ -8353,50 +8976,47 @@ label_1822b2deb:
 
 // UI.MapEditorHierarchyPanel$$OnButtonClick
 // il2cpp: void UI_MapEditorHierarchyPanel__OnButtonClick (UI_MapEditorHierarchyPanel_o* __this, int32_t id, const MethodInfo* method);
-// 0x1822b3cd0
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b3f34: cmp edi, r15d
-// asm:   0x1822b3f3d: nop dword ptr [rax]
-// asm:   0x1822b400a: jmp 0x1822b4284
-// asm:   0x1822b4225: mov rcx, rdi
-// asm:   0x1822b4228: test rdi, rdi
-// asm:   0x1822b422b: jmp 0x1822b406f
+// 0x5d7ccd0
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7d034: jmp 0x5d7d2be
+// asm:   0x5d7d13f: mov rdi, r15
+// asm:   0x5d7d1eb: lea r14, [rip + 0x14fd79e]  ; TypeInfo_Map_MapLoader
+// asm:   0x5d7d1f2: mov dword ptr [rsp + 0xc], r15d
+// asm:   0x5d7d1f7: jmp 0x5d7d220
 
 void UI_MapEditorHierarchyPanel__OnButtonClick
                (UI_MapEditorHierarchyPanel_o *__this,int32_t id,MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  undefined4 uVar2;
-  undefined4 uVar3;
-  undefined4 uVar4;
+  int iVar1;
   UI_MapEditorMenu_o *__this_00;
-  Settings_InputSettings_o *pSVar5;
-  Settings_MapEditorInputSettings_o *pSVar6;
+  Settings_InputSettings_o *pSVar2;
+  Settings_MapEditorInputSettings_o *pSVar3;
   Settings_KeybindSetting_o *__this_01;
-  System_Collections_Generic_Dictionary_int__float__o *pSVar7;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *pSVar8;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar9;
-  System_Collections_Generic_HashSet_int__o *pSVar10;
-  System_Collections_Generic_HashSet_MapObject__o *pSVar11;
-  Cameras_BaseCamera_o *pCVar12;
-  Utility_BaseComponentCache_o *pUVar13;
+  System_Collections_Generic_Dictionary_int__int__o *pSVar4;
+  System_Collections_Generic_HashSet_int__o *pSVar5;
+  System_Collections_Generic_HashSet_MapObject__o *pSVar6;
+  Cameras_BaseCamera_o *pCVar7;
+  Utility_BaseComponentCache_o *pUVar8;
   UnityEngine_Transform_o *__this_02;
-  bool bVar14;
-  bool bVar15;
-  UnityEngine_LayerMask_o UVar16;
-  UnityEngine_LayerMask_o key;
-  UnityEngine_LayerMask_o UVar17;
-  Map_MapObject_o *pMVar18;
-  uint64_t uVar19;
-  UnityEngine_Transform_o *__this_03;
-  UnityEngine_Vector3_o *pUVar20;
-  GameManagers_MapEditorGameManager_o *pGVar21;
-  float fVar22;
-  UnityEngine_Vector3_Fields local_58;
-  UnityEngine_Vector3_o local_48 [4];
+  UnityEngine_GameObject_o *__this_03;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar9;
+  bool bVar10;
+  bool bVar11;
+  int32_t iVar12;
+  int32_t key;
+  int32_t iVar13;
+  UnityEngine_Transform_o *__this_04;
+  Map_MapObject_o *pMVar14;
+  GameManagers_MapEditorGameManager_o *pGVar15;
+  float fVar16;
+  UnityEngine_Vector3_o UVar17;
+  UnityEngine_Vector3_o UVar18;
+  UnityEngine_Vector3_o value;
+  float fStack_48;
+  float fStack_44;
   
-  if (Il2CppMethodInitialized_18434753d == '\0') {
+  if (Il2CppMethodInitialized_07547ff7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -8412,301 +9032,336 @@ void UI_MapEditorHierarchyPanel__OnButtonClick
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
-    Il2CppMethodInitialized_18434753d = '\x01';
+    Il2CppMethodInitialized_07547ff7 = '\x01';
   }
   if ((__this->fields)._suppressClick != false) {
     (__this->fields)._suppressClick = false;
     return;
   }
   __this_00 = (__this->fields)._menu;
-  if (__this_00 == (UI_MapEditorMenu_o *)0x0) goto label_1822b42e4;
-  bVar14 = UI_MapEditorMenu__IsPopupActive(__this_00,(MethodInfo *)0x0);
-  if (bVar14) {
+  if (__this_00 == (UI_MapEditorMenu_o *)0x0) goto label_05d7d2be;
+  bVar10 = UI_MapEditorMenu__IsPopupActive(__this_00,(MethodInfo *)0x0);
+  if (bVar10) {
     return;
   }
-  bVar14 = UnityEngine_Input__GetKey(0x130,(MethodInfo *)0x0);
-  if (bVar14) {
-    bVar14 = true;
+  bVar10 = UnityEngine_Input__GetKey(0x130,(MethodInfo *)0x0);
+  bVar11 = true;
+  if (!bVar10) {
+    bVar11 = UnityEngine_Input__GetKey(0x12f,(MethodInfo *)0x0);
   }
-  else {
-    bVar14 = UnityEngine_Input__GetKey(0x12f,(MethodInfo *)0x0);
-  }
-  pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->InputSettings;
-  if (((pSVar5 == (Settings_InputSettings_o *)0x0) ||
-      (pSVar6 = (pSVar5->fields).MapEditor, pSVar6 == (Settings_MapEditorInputSettings_o *)0x0)) ||
-     (__this_01 = (pSVar6->fields).Multiselect, __this_01 == (Settings_KeybindSetting_o *)0x0))
-  goto label_1822b42e4;
-  bVar15 = Settings_KeybindSetting__GetKey(__this_01,false,(MethodInfo *)0x0);
-  if ((bVar14 == false) || ((__this->fields)._lastClickedItem == -1)) {
-label_1822b400f:
-    pSVar10 = (__this->fields)._selected;
-    if (pSVar10 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b42e4;
-    bVar14 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                       ((System_Collections_Generic_HashSet_T__o *)pSVar10,id,
-                        (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
-    if (bVar14) {
-      pGVar21 = (__this->fields)._gameManager;
-      if (bVar15) {
-        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-        }
-        pSVar9 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-        if ((pSVar9 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-           (pMVar18 = (Map_MapObject_o *)
-                      System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                (pSVar9,id,
-                                 (MethodInfo_14156F0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-           pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_1822b42e4;
-        GameManagers_MapEditorGameManager__DeselectObject(pGVar21,pMVar18,(MethodInfo *)0x0);
-        goto label_1822b4284;
-      }
-      if ((pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0) ||
-         (pSVar11 = (pGVar21->fields).SelectedObjects,
-         pSVar11 == (System_Collections_Generic_HashSet_MapObject__o *)0x0)) goto label_1822b42e4;
-      if ((pSVar11->fields)._count < 2) {
-        pCVar12 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
-        if ((pCVar12 != (Cameras_BaseCamera_o *)0x0) &&
-           (pUVar13 = (pCVar12->fields).Cache, pUVar13 != (Utility_BaseComponentCache_o *)0x0)) {
-          __this_02 = (pUVar13->fields).Transform;
-          if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-          }
-          pSVar9 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                   TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-          if ((((pSVar9 != (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) &&
-               (uVar19 = System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                   (pSVar9,id,
-                                    (MethodInfo_14156F0 *)
-                                    MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-               uVar19 != 0)) &&
-              (*(UnityEngine_GameObject_o **)(uVar19 + 0x18) != (UnityEngine_GameObject_o *)0x0)) &&
-             ((__this_03 = UnityEngine_GameObject__get_transform
-                                     (*(UnityEngine_GameObject_o **)(uVar19 + 0x18),(MethodInfo *)0x0),
-              __this_03 != (UnityEngine_Transform_o *)0x0 &&
-              (pUVar20 = UnityEngine_Transform__get_position
-                                   ((UnityEngine_Vector3_o *)&local_58,__this_03,(MethodInfo *)0x0),
-              __this_02 != (UnityEngine_Transform_o *)0x0)))) {
-            uVar1 = (pUVar20->fields).x;
-            uVar3 = (pUVar20->fields).y;
-            fVar22 = (pUVar20->fields).z;
-            pUVar20 = UnityEngine_Transform__get_forward(local_48,__this_02,(MethodInfo *)0x0);
-            uVar2 = (pUVar20->fields).x;
-            uVar4 = (pUVar20->fields).y;
-            local_58.z = fVar22 - (pUVar20->fields).z * 50.0;
-            local_58.y = (float)uVar3 - (float)uVar4 * 50.0;
-            local_58.x = (float)uVar1 - (float)uVar2 * 50.0;
-            UnityEngine_Transform__set_position
-                      (__this_02,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
-            goto label_1822b429a;
-          }
-        }
-        goto label_1822b42e4;
-      }
-label_1822b406f:
-      if (pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b42e4;
-      GameManagers_MapEditorGameManager__DeselectAll(pGVar21,(MethodInfo *)0x0);
-    }
-    else {
-      pSVar10 = (__this->fields)._selected;
-      if (pSVar10 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_1822b42e4;
-      bVar14 = bVar15;
-      if ((pSVar10->fields)._count == 0) {
-        bVar14 = true;
-      }
-      if (bVar14 == false) {
-        if (((pSVar10->fields)._count < 1) || (bVar15)) goto label_1822b429a;
-        pGVar21 = (__this->fields)._gameManager;
-        goto label_1822b406f;
-      }
-    }
-    pGVar21 = (__this->fields)._gameManager;
-    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-    }
-    pSVar9 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-    if ((pSVar9 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-       (pMVar18 = (Map_MapObject_o *)
-                  System_Collections_Generic_Dictionary_int__ulong___get_Item
-                            (pSVar9,id,
-                             (MethodInfo_14156F0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-       pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_1822b42e4;
-    GameManagers_MapEditorGameManager__SelectObject(pGVar21,pMVar18,(MethodInfo *)0x0);
-  }
-  else {
-    pSVar7 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-    if (pSVar7 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_1822b42e4;
-    bVar14 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                       (pSVar7,(__this->fields)._lastClickedItem,
-                        (MethodInfo_14070E0 *)
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->InputSettings;
+  if (((pSVar2 == (Settings_InputSettings_o *)0x0) ||
+      (pSVar3 = (pSVar2->fields).MapEditor, pSVar3 == (Settings_MapEditorInputSettings_o *)0x0)) ||
+     (__this_01 = (pSVar3->fields).Multiselect, __this_01 == (Settings_KeybindSetting_o *)0x0))
+  goto label_05d7d2be;
+  bVar10 = Settings_KeybindSetting__GetKey(__this_01,false,(MethodInfo *)0x0);
+  if ((bVar11 != false) && (iVar1 = (__this->fields)._lastClickedItem, iVar1 != -1)) {
+    pSVar4 = (__this->fields)._idToIndex;
+    if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+    bVar11 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                       (pSVar4,iVar1,
+                        (MethodInfo_4A04140 *)
                         MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar14) goto label_1822b400f;
-    pSVar7 = (System_Collections_Generic_Dictionary_int__float__o *)(__this->fields)._idToIndex;
-    if (pSVar7 == (System_Collections_Generic_Dictionary_int__float__o *)0x0) goto label_1822b42e4;
-    bVar14 = System_Collections_Generic_Dictionary_int__float___ContainsKey
-                       (pSVar7,id,
-                        (MethodInfo_14070E0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
-    if (!bVar14) goto label_1822b400f;
-    if (!bVar15) {
-      pGVar21 = (__this->fields)._gameManager;
-      if (pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1822b42e4;
-      GameManagers_MapEditorGameManager__DeselectAll(pGVar21,(MethodInfo *)0x0);
+    if (bVar11) {
+      pSVar4 = (__this->fields)._idToIndex;
+      if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+      bVar11 = System_Collections_Generic_Dictionary_int__int___ContainsKey
+                         (pSVar4,id,
+                          (MethodInfo_4A04140 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_int_int_ContainsKey);
+      if (bVar11) {
+        if (!bVar10) {
+          pGVar15 = (__this->fields)._gameManager;
+          if (pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7d2be;
+          GameManagers_MapEditorGameManager__DeselectAll(pGVar15,(MethodInfo *)0x0);
+        }
+        pSVar4 = (__this->fields)._idToIndex;
+        if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+        iVar12 = System_Collections_Generic_Dictionary_int__int___get_Item
+                           (pSVar4,(__this->fields)._lastClickedItem,
+                            (MethodInfo_4A03E70 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+        pSVar4 = (__this->fields)._idToIndex;
+        if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+        key = System_Collections_Generic_Dictionary_int__int___get_Item
+                        (pSVar4,id,
+                         (MethodInfo_4A03E70 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+        if (iVar12 < key) {
+          key = iVar12;
+        }
+        pSVar4 = (__this->fields)._idToIndex;
+        if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+        iVar12 = System_Collections_Generic_Dictionary_int__int___get_Item
+                           (pSVar4,(__this->fields)._lastClickedItem,
+                            (MethodInfo_4A03E70 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+        pSVar4 = (__this->fields)._idToIndex;
+        if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+        iVar13 = System_Collections_Generic_Dictionary_int__int___get_Item
+                           (pSVar4,id,
+                            (MethodInfo_4A03E70 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+        if (iVar13 < iVar12) {
+          iVar13 = iVar12;
+        }
+        if (key <= iVar13) {
+          do {
+            pSVar4 = (__this->fields)._indexToId;
+            if (pSVar4 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) goto label_05d7d2be;
+            iVar12 = System_Collections_Generic_Dictionary_int__int___get_Item
+                               (pSVar4,key,
+                                (MethodInfo_4A03E70 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+            if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+            }
+            pSVar9 = (System_Collections_Generic_Dictionary_int__object__o *)
+                     TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+            if (pSVar9 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) goto label_05d7d2be;
+            bVar10 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                               (pSVar9,iVar12,
+                                (MethodInfo_4A0F950 *)
+                                MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
+            if (bVar10) {
+              pGVar15 = (__this->fields)._gameManager;
+              if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+              }
+              pSVar9 = (System_Collections_Generic_Dictionary_int__object__o *)
+                       TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+              if ((pSVar9 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+                 (pMVar14 = System_Collections_Generic_Dictionary_int__object___get_Item
+                                      (pSVar9,iVar12,
+                                       (MethodInfo_4A0F690 *)
+                                       MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item
+                                      ), pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0))
+              goto label_05d7d2be;
+              GameManagers_MapEditorGameManager__SelectObject(pGVar15,pMVar14,(MethodInfo *)0x0);
+            }
+            key = key + 1;
+          } while (key <= iVar13);
+        }
+        pGVar15 = (__this->fields)._gameManager;
+        if (pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7d2be;
+        GameManagers_MapEditorGameManager__OnSelectionChange(pGVar15,false,(MethodInfo *)0x0);
+        (__this->fields)._lastClickedItem = id;
+        goto label_05d7d1cb;
+      }
     }
-    pSVar8 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar8 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b42e4;
-    UVar16 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                       (pSVar8,(__this->fields)._lastClickedItem,
-                        (MethodInfo_14157A0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
-    pSVar8 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar8 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b42e4;
-    key = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                    (pSVar8,id,
-                     (MethodInfo_14157A0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
-    if ((int)UVar16.fields.m_Mask < (int)key.fields.m_Mask) {
-      key = UVar16;
-    }
-    pSVar8 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar8 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b42e4;
-    UVar16 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                       (pSVar8,(__this->fields)._lastClickedItem,
-                        (MethodInfo_14157A0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
-    pSVar8 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._idToIndex;
-    if (pSVar8 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b42e4;
-    UVar17 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                       (pSVar8,id,
-                        (MethodInfo_14157A0 *)
-                        MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
-    if ((int)UVar17.fields.m_Mask < (int)UVar16.fields.m_Mask) {
-      UVar17 = UVar16;
-    }
-    for (; (int)key.fields.m_Mask <= (int)UVar17.fields.m_Mask;
-        key.fields.m_Mask = (UnityEngine_LayerMask_Fields)((int)key.fields.m_Mask + 1)) {
-      pSVar8 = (System_Collections_Generic_Dictionary_int__LayerMask__o *)(__this->fields)._indexToId;
-      if (pSVar8 == (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) goto label_1822b42e4;
-      UVar16 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
-                         (pSVar8,(int32_t)key.fields.m_Mask,
-                          (MethodInfo_14157A0 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Item);
+  }
+  pSVar5 = (__this->fields)._selected;
+  if (pSVar5 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7d2be;
+  bVar11 = System_Collections_Generic_HashSet_int___Contains
+                     (pSVar5,id,
+                      (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+  if (bVar11) {
+    pGVar15 = (__this->fields)._gameManager;
+    if (bVar10) {
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      pSVar9 = (System_Collections_Generic_Dictionary_int__ulong__o *)
+      pSVar9 = (System_Collections_Generic_Dictionary_int__object__o *)
                TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (pSVar9 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) goto label_1822b42e4;
-      bVar14 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                         (pSVar9,(int32_t)UVar16.fields.m_Mask,
-                          (MethodInfo_1407110 *)
-                          MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_ContainsKey);
-      if (bVar14) {
-        pGVar21 = (__this->fields)._gameManager;
-        if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
-        }
-        pSVar9 = (System_Collections_Generic_Dictionary_int__ulong__o *)
-                 TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-        if ((pSVar9 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) ||
-           (pMVar18 = (Map_MapObject_o *)
-                      System_Collections_Generic_Dictionary_int__ulong___get_Item
-                                (pSVar9,(int32_t)UVar16.fields.m_Mask,
-                                 (MethodInfo_14156F0 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
-           pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_1822b42e4;
-        GameManagers_MapEditorGameManager__SelectObject(pGVar21,pMVar18,(MethodInfo *)0x0);
-      }
+      if ((pSVar9 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+         (pMVar14 = System_Collections_Generic_Dictionary_int__object___get_Item
+                              (pSVar9,id,
+                               (MethodInfo_4A0F690 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
+         pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_05d7d2be;
+      GameManagers_MapEditorGameManager__DeselectObject(pGVar15,pMVar14,(MethodInfo *)0x0);
+      goto label_05d7d1a9;
     }
+    if ((pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0) ||
+       (pSVar6 = (pGVar15->fields).SelectedObjects,
+       pSVar6 == (System_Collections_Generic_HashSet_MapObject__o *)0x0)) goto label_05d7d2be;
+    if (1 < (pSVar6->fields)._count) goto label_05d7d142;
+    pCVar7 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+    if ((pCVar7 == (Cameras_BaseCamera_o *)0x0) ||
+       (pUVar8 = (pCVar7->fields).Cache, pUVar8 == (Utility_BaseComponentCache_o *)0x0)) goto label_05d7d2be;
+    __this_02 = (pUVar8->fields).Transform;
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    }
+    pSVar9 = (System_Collections_Generic_Dictionary_int__object__o *)
+             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+    if ((((pSVar9 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+         (pMVar14 = System_Collections_Generic_Dictionary_int__object___get_Item
+                              (pSVar9,id,
+                               (MethodInfo_4A0F690 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
+         pMVar14 == (Map_MapObject_o *)0x0)) ||
+        (__this_03 = (pMVar14->fields).GameObject, __this_03 == (UnityEngine_GameObject_o *)0x0)) ||
+       (__this_04 = UnityEngine_GameObject__get_transform(__this_03,(MethodInfo *)0x0),
+       __this_04 == (UnityEngine_Transform_o *)0x0)) goto label_05d7d2be;
+    UVar17 = UnityEngine_Transform__get_position(__this_04,(MethodInfo *)0x0);
+    if (__this_02 == (UnityEngine_Transform_o *)0x0) goto label_05d7d2be;
+    UVar18 = UnityEngine_Transform__get_forward(__this_02,(MethodInfo *)0x0);
+    fStack_48 = UVar17.fields.x;
+    fStack_44 = UVar17.fields.y;
+    value.fields.x = UVar18.fields.x * -50.0 + fStack_48;
+    value.fields.y = UVar18.fields.y * -50.0 + fStack_44;
+    value.fields.z = UVar18.fields.z * -50.0 + UVar17.fields.z;
+    UnityEngine_Transform__set_position(__this_02,value,(MethodInfo *)0x0);
   }
-label_1822b4284:
-  pGVar21 = (__this->fields)._gameManager;
-  if (pGVar21 != (GameManagers_MapEditorGameManager_o *)0x0) {
-    GameManagers_MapEditorGameManager__OnSelectionChange(pGVar21,false,(MethodInfo *)0x0);
-label_1822b429a:
-    (__this->fields)._lastClickedItem = id;
-    fVar22 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-    (__this->fields)._lastclickedTime = fVar22;
-    return;
+  else {
+    pSVar5 = (__this->fields)._selected;
+    if (pSVar5 == (System_Collections_Generic_HashSet_int__o *)0x0) goto label_05d7d2be;
+    iVar1 = (pSVar5->fields)._count;
+    if ((~bVar10 & iVar1 != 0) != 0) {
+      if (iVar1 < 1) goto label_05d7d1c3;
+      pGVar15 = (__this->fields)._gameManager;
+      if (pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_05d7d2be;
+label_05d7d142:
+      GameManagers_MapEditorGameManager__DeselectAll(pGVar15,(MethodInfo *)0x0);
+    }
+    pGVar15 = (__this->fields)._gameManager;
+    if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+    }
+    pSVar9 = (System_Collections_Generic_Dictionary_int__object__o *)
+             TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+    if ((pSVar9 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) ||
+       (pMVar14 = System_Collections_Generic_Dictionary_int__object___get_Item
+                            (pSVar9,id,
+                             (MethodInfo_4A0F690 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_get_Item),
+       pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0)) goto label_05d7d2be;
+    GameManagers_MapEditorGameManager__SelectObject(pGVar15,pMVar14,(MethodInfo *)0x0);
+label_05d7d1a9:
+    pGVar15 = (__this->fields)._gameManager;
+    if (pGVar15 == (GameManagers_MapEditorGameManager_o *)0x0) {
+label_05d7d2be:
+      ThrowNullReferenceException();
+    }
+    GameManagers_MapEditorGameManager__OnSelectionChange(pGVar15,false,(MethodInfo *)0x0);
   }
-label_1822b42e4:
-  ThrowNullReferenceException();
+label_05d7d1c3:
+  (__this->fields)._lastClickedItem = id;
+label_05d7d1cb:
+  fVar16 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+  (__this->fields)._lastclickedTime = fVar16;
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$SyncSelectedItems
 // il2cpp: void UI_MapEditorHierarchyPanel__SyncSelectedItems (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b72c0
-// eh: try 0x1822b7440..0x1822b7831 -> pad 0x183317f30 (+3 call sites) catch Il2CppExceptionWrapper
-// asm: 39 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b743d: nop dword ptr [rax]
-// asm:   0x1822b75b5: mov rdx, qword ptr [rip + 0x1dd0d2c]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x1822b75bc: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1822b75c1: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b75c6: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b75cb: test rcx, rcx
-// asm:   0x1822b75ce: jne 0x1822b77e9
-// asm:   0x1822b75d4: xor r14d, r14d
-// asm:   0x1822b75d7: mov rdi, qword ptr [rsp + 0xa0]
-// asm:   0x1822b7782: mov rdx, qword ptr [rip + 0x1dd3a9f]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose
-// asm:   0x1822b7789: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x1822b778e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822b7793: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822b7798: test rcx, rcx
-// asm:   0x1822b779b: jne 0x1822b7831
-// asm:   0x1822b77e9: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1822b7831: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317f35: push rbp
-// asm:   0x183317f36: sub rsp, 0x20
-// asm:   0x183317f3a: mov rbp, rdx
-// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183317f41: mov rcx, qword ptr [rax]
-// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317f48: movabs rax, 0
-// asm:   0x183317f52: add rsp, 0x20
-// asm:   0x183317f56: pop rbp
-// asm:   0x183317f57: ret 
-// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317fd5: push rbp
-// asm:   0x183317fd6: sub rsp, 0x20
-// asm:   0x183317fda: mov rbp, rdx
-// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
-// asm:   0x183317fe1: mov rcx, qword ptr [rax]
-// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317fe8: movabs rax, 0
-// asm:   0x183317ff2: add rsp, 0x20
-// asm:   0x183317ff6: pop rbp
-// asm:   0x183317ff7: ret 
+// 0x5d75cc0
+// eh: try 0x5d75e64..0x5d7620f -> pad 0x5d762c8 (+40 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d76291..0x5d76296 -> pad 0x5d762bb cleanup
+// eh: try 0x5d762be..0x5d762c6 -> pad 0x5d7631c catch (...) [compiler noexcept guard]
+// eh: try 0x5d762df..0x5d762e4 -> pad 0x5d76309 cleanup
+// eh: try 0x5d7630c..0x5d76314 -> pad 0x5d7631c catch (...) [compiler noexcept guard]
+// asm: 83 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d7603c: nop dword ptr [rax]
+// asm:   0x5d76214: jmp 0x5d762c8
+// asm:   0x5d76219: jmp 0x5d762c8
+// asm:   0x5d7621e: jmp 0x5d762c8
+// asm:   0x5d76223: jmp 0x5d762c8
+// asm:   0x5d76228: jmp 0x5d762c8
+// asm:   0x5d7622d: jmp 0x5d762c8
+// asm:   0x5d76232: jmp 0x5d762c8
+// asm:   0x5d76237: jmp 0x5d762c8
+// asm:   0x5d7623c: jmp 0x5d7627a
+// asm:   0x5d7623e: jmp 0x5d7627a
+// asm:   0x5d76240: jmp 0x5d7627a
+// asm:   0x5d76242: jmp 0x5d7627a
+// asm:   0x5d76244: jmp 0x5d7627a
+// asm:   0x5d76246: jmp 0x5d7627a
+// asm:   0x5d76248: jmp 0x5d7627a
+// asm:   0x5d7624a: jmp 0x5d7627a
+// asm:   0x5d7624c: jmp 0x5d7627a
+// asm:   0x5d7624e: jmp 0x5d762c8
+// asm:   0x5d76250: jmp 0x5d762c8
+// asm:   0x5d76252: jmp 0x5d762c8
+// asm:   0x5d76254: jmp 0x5d762c8
+// asm:   0x5d76256: jmp 0x5d762c8
+// asm:   0x5d76258: jmp 0x5d762c8
+// asm:   0x5d7625a: jmp 0x5d7627a
+// asm:   0x5d7625c: jmp 0x5d7627a
+// asm:   0x5d7625e: jmp 0x5d7627a
+// asm:   0x5d76260: jmp 0x5d7627a
+// asm:   0x5d76262: jmp 0x5d7627a
+// asm:   0x5d76264: jmp 0x5d7627a
+// asm:   0x5d76266: jmp 0x5d7627a
+// asm:   0x5d76268: jmp 0x5d762c8
+// asm:   0x5d7626a: jmp 0x5d762c8
+// asm:   0x5d7626c: jmp 0x5d762c8
+// asm:   0x5d7626e: jmp 0x5d762c8
+// asm:   0x5d76270: jmp 0x5d762c8
+// asm:   0x5d76272: jmp 0x5d7627a
+// asm:   0x5d76274: jmp 0x5d7627a
+// asm:   0x5d76276: jmp 0x5d7627a
+// asm:   0x5d76278: jmp 0x5d7627a
+// asm:   0x5d7627a: mov r14, rax
+// asm:   0x5d7627d: cmp edx, 1
+// asm:   0x5d76280: jne 0x5d762be
+// asm:   0x5d76282: mov rdi, r14
+// asm:   0x5d76285: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d7628a: mov rbx, qword ptr [rax]
+// asm:   0x5d7628d: mov qword ptr [rsp], rbx
+// asm:   0x5d76291: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d76296: lea rax, [rip + 0x151810b]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose
+// asm:   0x5d7629d: mov rsi, qword ptr [rax]
+// asm:   0x5d762a0: lea rdi, [rsp + 0x20]
+// asm:   0x5d762a5: call 0x4d456c0  ; System_Collections_Generic_HashSet_Enumerator_object___Dispose()
+// asm:   0x5d762aa: test rbx, rbx
+// asm:   0x5d762ad: je 0x5d7618d
+// asm:   0x5d762b3: mov rdi, rbx
+// asm:   0x5d762b6: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d762bb: mov r14, rax
+// asm:   0x5d762be: mov rdi, rsp
+// asm:   0x5d762c1: call 0x2fdd4b0  ; il2cpp_runtime_helper_02fdd4b0()
+// asm:   0x5d762c6: jmp 0x5d76314
+// asm:   0x5d762c8: mov r14, rax
+// asm:   0x5d762cb: cmp edx, 1
+// asm:   0x5d762ce: jne 0x5d7630c
+// asm:   0x5d762d0: mov rdi, r14
+// asm:   0x5d762d3: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d762d8: mov rbp, qword ptr [rax]
+// asm:   0x5d762db: mov qword ptr [rsp], rbp
+// asm:   0x5d762df: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d762e4: lea rax, [rip + 0x1517f0d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x5d762eb: mov rsi, qword ptr [rax]
+// asm:   0x5d762ee: lea rdi, [rsp + 0x40]
+// asm:   0x5d762f3: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x5d762f8: test rbp, rbp
+// asm:   0x5d762fb: je 0x5d75fd3
+// asm:   0x5d76301: mov rdi, rbp
+// asm:   0x5d76304: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d76309: mov r14, rax
+// asm:   0x5d7630c: mov rdi, rsp
+// asm:   0x5d7630f: call 0x2fdd480  ; il2cpp_runtime_helper_02fdd480()
+// asm:   0x5d76314: mov rdi, r14
+// asm:   0x5d76317: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d7631c: mov rdi, rax
+// asm:   0x5d7631f: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_MapEditorHierarchyPanel__SyncSelectedItems(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_int__object__o *__this_00;
-  GameManagers_MapEditorGameManager_o *pGVar1;
-  System_Collections_Generic_HashSet_object__o *__this_01;
-  System_Collections_Generic_HashSet_int__o *pSVar2;
-  System_Collections_Generic_Dictionary_int__ulong__o *pSVar3;
-  System_Collections_Generic_HashSet_Vector2Int__o *__this_02;
+  System_Collections_Generic_Dictionary_int__object__o *pSVar1;
+  GameManagers_MapEditorGameManager_o *pGVar2;
+  System_Collections_Generic_HashSet_object__o *pSVar3;
+  System_Collections_Generic_HashSet_int__o *pSVar4;
+  Il2CppObject *pIVar5;
   int32_t key;
-  Il2CppObject *pIVar4;
-  bool bVar5;
-  System_Collections_Generic_List_TSource__o *__this_03;
-  UnityEngine_GameObject_o *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
-  Il2CppObject *local_res18 [2];
-  undefined1 local_68 [16];
+  bool bVar6;
+  System_Collections_Generic_List_TSource__o *__this_00;
+  UnityEngine_GameObject_o *pUVar7;
+  UnityEngine_Transform_o *pUVar8;
+  undefined1 local_88 [16];
+  Il2CppObject *local_78;
+  Il2CppObject *local_70;
+  undefined1 local_68 [8];
+  undefined8 uStack_60;
   Il2CppObject *local_58;
-  undefined1 local_50 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_48;
-  Il2CppObject *local_40;
-  undefined1 local_38 [8];
-  uint64_t uStack_30;
-  Il2CppObject *local_28;
+  undefined1 local_48 [8];
+  System_Collections_Generic_List_Enumerator_int__o *pSStack_40;
+  Il2CppObject *local_38;
   
-  if (Il2CppMethodInitialized_18434753e == '\0') {
+  if (Il2CppMethodInitialized_07547ff8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
     il2cpp_codegen_initialize_runtime_metadata
@@ -8736,197 +9391,195 @@ void UI_MapEditorHierarchyPanel__SyncSelectedItems(UI_MapEditorHierarchyPanel_o 
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata(&"Highlight");
-    Il2CppMethodInitialized_18434753e = '\x01';
+    Il2CppMethodInitialized_07547ff8 = '\x01';
   }
-  local_50 = (undefined1  [8])0x0;
-  pUStack_48 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_40 = (Il2CppObject *)0x0;
-  local_res18[0] = (Il2CppObject *)0x0;
-  local_38 = (undefined1  [8])0x0;
-  uStack_30 = 0;
-  local_28 = (Il2CppObject *)0x0;
-  __this_03 = System_Linq_Enumerable__ToList_int_
+  local_48 = (undefined1  [8])0x0;
+  pSStack_40 = (System_Collections_Generic_List_Enumerator_int__o *)0x0;
+  local_38 = (Il2CppObject *)0x0;
+  local_70 = (Il2CppObject *)0x0;
+  local_68 = (undefined1  [8])0x0;
+  uStack_60._0_4_ = 0;
+  uStack_60._4_4_ = 0;
+  local_58 = (Il2CppObject *)0x0;
+  __this_00 = System_Linq_Enumerable__ToList_int_
                         ((System_Collections_Generic_IEnumerable_TSource__o *)(__this->fields)._selected,
-                         (MethodInfo_6C9670 *)MethodInfo_System_Linq_Enumerable_ToList_int);
-  if (__this_03 != (System_Collections_Generic_List_TSource__o *)0x0) {
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_68,
-               (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_03,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    local_50 = (undefined1  [8])local_68._0_8_;
-    pUStack_48 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_68._8_8_;
-    local_40 = local_58;
-    local_68._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-    local_68._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_50;
+                         (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+  if (__this_00 != (System_Collections_Generic_List_TSource__o *)0x0) {
+    System_Collections_Generic_List_int___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_88,
+               (System_Collections_Generic_List_int__o *)__this_00,
+               (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+    local_38 = local_78;
+    local_48 = (undefined1  [8])local_88._0_8_;
+    pSStack_40 = (System_Collections_Generic_List_Enumerator_int__o *)local_88._8_8_;
+    local_88._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+    local_88._8_8_ = (System_Collections_Generic_List_Enumerator_int__o *)local_48;
     while( true ) {
-      bVar5 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_50,
-                         (MethodInfo_1530180 *)
+      bVar6 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                        ((System_Collections_Generic_List_Enumerator_int__o *)local_48,
+                         (MethodInfo_4C3B4A0 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-      if (!bVar5) break;
-      key = (int32_t)local_40;
-      local_res18[0] = (Il2CppObject *)0x0;
+      if (!bVar6) break;
+      key = (int32_t)local_38;
+      local_70 = (Il2CppObject *)0x0;
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
       }
-      __this_00 = (System_Collections_Generic_Dictionary_int__object__o *)
-                  TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
-      if (__this_00 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+      pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)
+               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+      if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
         ThrowNullReferenceException();
       }
       System_Collections_Generic_Dictionary_int__object___TryGetValue
-                (__this_00,key,local_res18,
-                 (MethodInfo_141F4E0 *)
+                (pSVar1,key,&local_70,
+                 (MethodInfo_4A114B0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_TryGetValue);
-      pGVar1 = (__this->fields)._gameManager;
-      if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) {
+      pGVar2 = (__this->fields)._gameManager;
+      if (pGVar2 == (GameManagers_MapEditorGameManager_o *)0x0) {
         ThrowNullReferenceException();
       }
-      __this_01 = (System_Collections_Generic_HashSet_object__o *)(pGVar1->fields).SelectedObjects;
-      if (__this_01 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+      pSVar3 = (System_Collections_Generic_HashSet_object__o *)(pGVar2->fields).SelectedObjects;
+      if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) {
         ThrowNullReferenceException();
       }
-      bVar5 = System_Collections_Generic_HashSet_object___Contains
-                        (__this_01,local_res18[0],
-                         (MethodInfo_1759E40 *)
+      bVar6 = System_Collections_Generic_HashSet_object___Contains
+                        (pSVar3,local_70,
+                         (MethodInfo_4FB3720 *)
                          MethodInfo_System_Collections_Generic_HashSet_MapObject_Contains);
-      if (!bVar5) {
-        pSVar2 = (__this->fields)._selected;
-        if (pSVar2 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+      if (!bVar6) {
+        pSVar4 = (__this->fields)._selected;
+        if (pSVar4 == (System_Collections_Generic_HashSet_int__o *)0x0) {
           ThrowNullReferenceException();
         }
-        System_Collections_Generic_HashSet_Int32Enum___Remove
-                  ((System_Collections_Generic_HashSet_T__o *)pSVar2,key,
-                   (MethodInfo_17666A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Remove);
-        pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+        System_Collections_Generic_HashSet_int___Remove
+                  (pSVar4,key,(MethodInfo_4FA80C0 *)MethodInfo_System_Collections_Generic_HashSet_int_Remove);
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+        if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar5 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                          (pSVar3,key,
-                           (MethodInfo_1407110 *)
+        bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                          (pSVar1,key,
+                           (MethodInfo_4A0F950 *)
                            MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
-        if (bVar5) {
-          pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-          if (pSVar3 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+        if (bVar6) {
+          pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar6 = (UnityEngine_GameObject_o *)
-                   System_Collections_Generic_Dictionary_int__ulong___get_Item
-                             (pSVar3,key,
-                              (MethodInfo_14156F0 *)
+          pUVar7 = System_Collections_Generic_Dictionary_int__object___get_Item
+                             (pSVar1,key,
+                              (MethodInfo_4A0F690 *)
                               MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_get_Item);
-          if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+          if (pUVar7 == (UnityEngine_GameObject_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Transform_o *)0x0) {
+          pUVar8 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+          if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar7 = UnityEngine_Transform__Find(pUVar7,"Highlight",(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Transform_o *)0x0) {
+          pUVar8 = UnityEngine_Transform__Find(pUVar8,"Highlight",(MethodInfo *)0x0);
+          if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0);
-          if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+          pUVar7 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar8,(MethodInfo *)0x0);
+          if (pUVar7 == (UnityEngine_GameObject_o *)0x0) {
             ThrowNullReferenceException();
           }
-          UnityEngine_GameObject__SetActive(pUVar6,false,(MethodInfo *)0x0);
+          UnityEngine_GameObject__SetActive(pUVar7,false,(MethodInfo *)0x0);
         }
       }
     }
     System_Collections_Generic_List_Enumerator_int___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_50,
-               MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-    pGVar1 = (__this->fields)._gameManager;
-    if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-       (__this_02 = (System_Collections_Generic_HashSet_Vector2Int__o *)(pGVar1->fields).SelectedObjects,
-       __this_02 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0)) {
-      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
-                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_68,__this_02,
-                 (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
-      local_38 = (undefined1  [8])local_68._0_8_;
-      uStack_30 = local_68._8_8_;
-      local_28 = local_58;
-      local_68._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-      local_68._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38;
+              ((System_Collections_Generic_List_Enumerator_int__o *)local_48,
+               (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+    pGVar2 = (__this->fields)._gameManager;
+    if ((pGVar2 != (GameManagers_MapEditorGameManager_o *)0x0) &&
+       (pSVar3 = (System_Collections_Generic_HashSet_object__o *)(pGVar2->fields).SelectedObjects,
+       pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
+      System_Collections_Generic_HashSet_object___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_88,pSVar3,
+                 (MethodInfo_4FB3DA0 *)MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
+      local_58 = local_78;
+      local_68 = (undefined1  [8])local_88._0_8_;
+      uStack_60 = (System_Collections_Generic_List_Enumerator_int__o *)local_88._8_8_;
+      local_88._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+      local_88._8_8_ = (System_Collections_Generic_HashSet_Enumerator_T__o *)local_68;
       while( true ) {
         do {
-          bVar5 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_38,
-                             (MethodInfo_15381F0 *)
+          bVar6 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_68,
+                             (MethodInfo_4C456D0 *)
                              MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_MoveNext);
-          pIVar4 = local_28;
-          if (!bVar5) {
+          pIVar5 = local_58;
+          if (!bVar6) {
             System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38,
+                      ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_68,
+                       (MethodInfo_4C456C0 *)
                        MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose);
             return;
           }
-          if (local_28 == (Il2CppObject *)0x0) {
+          if (local_58 == (Il2CppObject *)0x0) {
             ThrowNullReferenceException();
           }
-          if (local_28[2].klass == (Il2CppClass *)0x0) {
+          if (local_58[2].klass == (Il2CppClass *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar2 = (__this->fields)._selected;
-          if (pSVar2 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+          pSVar4 = (__this->fields)._selected;
+          if (pSVar4 == (System_Collections_Generic_HashSet_int__o *)0x0) {
             ThrowNullReferenceException();
           }
-          bVar5 = System_Collections_Generic_HashSet_Int32Enum___Contains
-                            ((System_Collections_Generic_HashSet_T__o *)pSVar2,
-                             *(int32_t *)&((local_28[2].klass)->_1).byval_arg.data,
-                             (MethodInfo_1759C90 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains)
+          bVar6 = System_Collections_Generic_HashSet_int___Contains
+                            (pSVar4,*(int32_t *)&((local_58[2].klass)->_1).byval_arg.data,
+                             (MethodInfo_4FA7E00 *)MethodInfo_System_Collections_Generic_HashSet_int_Contains)
           ;
-        } while (bVar5);
-        if (pIVar4[2].klass == (Il2CppClass *)0x0) {
+        } while (bVar6);
+        if (pIVar5[2].klass == (Il2CppClass *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar2 = (__this->fields)._selected;
-        if (pSVar2 == (System_Collections_Generic_HashSet_int__o *)0x0) {
+        pSVar4 = (__this->fields)._selected;
+        if (pSVar4 == (System_Collections_Generic_HashSet_int__o *)0x0) {
           ThrowNullReferenceException();
         }
         System_Collections_Generic_HashSet_int___Add
-                  (pSVar2,*(int32_t *)&((pIVar4[2].klass)->_1).byval_arg.data,
-                   (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
-        if (pIVar4[2].klass == (Il2CppClass *)0x0) {
+                  (pSVar4,*(int32_t *)&((pIVar5[2].klass)->_1).byval_arg.data,
+                   (MethodInfo_4FA8AF0 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+        if (pIVar5[2].klass == (Il2CppClass *)0x0) {
           ThrowNullReferenceException();
         }
-        pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-        if (pSVar3 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) break;
-        bVar5 = System_Collections_Generic_Dictionary_int__ulong___ContainsKey
-                          (pSVar3,*(int32_t *)&((pIVar4[2].klass)->_1).byval_arg.data,
-                           (MethodInfo_1407110 *)
+        pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+        if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) break;
+        bVar6 = System_Collections_Generic_Dictionary_int__object___ContainsKey
+                          (pSVar1,*(int32_t *)&((pIVar5[2].klass)->_1).byval_arg.data,
+                           (MethodInfo_4A0F950 *)
                            MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ContainsKey);
-        if (bVar5) {
-          if (pIVar4[2].klass == (Il2CppClass *)0x0) {
+        if (bVar6) {
+          if (pIVar5[2].klass == (Il2CppClass *)0x0) {
             ThrowNullReferenceException();
           }
-          pSVar3 = (System_Collections_Generic_Dictionary_int__ulong__o *)(__this->fields)._idToItem;
-          if (pSVar3 == (System_Collections_Generic_Dictionary_int__ulong__o *)0x0) {
+          pSVar1 = (System_Collections_Generic_Dictionary_int__object__o *)(__this->fields)._idToItem;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar6 = (UnityEngine_GameObject_o *)
-                   System_Collections_Generic_Dictionary_int__ulong___get_Item
-                             (pSVar3,*(int32_t *)&((pIVar4[2].klass)->_1).byval_arg.data,
-                              (MethodInfo_14156F0 *)
+          pUVar7 = System_Collections_Generic_Dictionary_int__object___get_Item
+                             (pSVar1,*(int32_t *)&((pIVar5[2].klass)->_1).byval_arg.data,
+                              (MethodInfo_4A0F690 *)
                               MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_get_Item);
-          if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+          if (pUVar7 == (UnityEngine_GameObject_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Transform_o *)0x0) {
+          pUVar8 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+          if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar7 = UnityEngine_Transform__Find(pUVar7,"Highlight",(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Transform_o *)0x0) {
+          pUVar8 = UnityEngine_Transform__Find(pUVar8,"Highlight",(MethodInfo *)0x0);
+          if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
             ThrowNullReferenceException();
           }
-          pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0);
-          if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+          pUVar7 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar8,(MethodInfo *)0x0);
+          if (pUVar7 == (UnityEngine_GameObject_o *)0x0) {
             ThrowNullReferenceException();
           }
-          UnityEngine_GameObject__SetActive(pUVar6,true,(MethodInfo *)0x0);
+          UnityEngine_GameObject__SetActive(pUVar7,true,(MethodInfo *)0x0);
         }
       }
       ThrowNullReferenceException();
@@ -8938,7 +9591,7 @@ void UI_MapEditorHierarchyPanel__SyncSelectedItems(UI_MapEditorHierarchyPanel_o 
 
 // UI.MapEditorHierarchyPanel$$.ctor
 // il2cpp: void UI_MapEditorHierarchyPanel___ctor (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b84f0
+// 0x5d7d2d0
 
 void UI_MapEditorHierarchyPanel___ctor(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -8953,7 +9606,7 @@ void UI_MapEditorHierarchyPanel___ctor(UI_MapEditorHierarchyPanel_o *__this,Meth
   System_Collections_Generic_List_int__o *__this_04;
   Settings_StringSetting_o *__this_05;
   
-  if (Il2CppMethodInitialized_18434753f == '\0') {
+  if (Il2CppMethodInitialized_07547ff9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor)
     ;
     il2cpp_codegen_initialize_runtime_metadata
@@ -8975,155 +9628,110 @@ void UI_MapEditorHierarchyPanel___ctor(UI_MapEditorHierarchyPanel_o *__this,Meth
               (&TypeInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
-    Il2CppMethodInitialized_18434753f = '\x01';
+    Il2CppMethodInitialized_07547ff9 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._itemPool = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._itemPool,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._itemPool);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData);
   System_Collections_Generic_List_MapEditorHierarchyPanel_RowData____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)
+            (__this_01,
+             (MethodInfo_3AAA380 *)
              MethodInfo_System_Collections_Generic_List_MapEditorHierarchyPanel_RowData_ctor);
   (__this->fields)._rows = __this_01;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._rows,__this_01);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._rows);
   __this_02 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_GameObject);
   System_Collections_Generic_Dictionary_int__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ctor);
+            ((System_Collections_Generic_Dictionary_int__object__o *)__this_02,
+             (MethodInfo_4A0EB10 *)MethodInfo_System_Collections_Generic_Dictionary_int_GameObject_ctor);
   (__this->fields)._idToItem = __this_02;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._idToItem,__this_02);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._idToItem);
   pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_int);
   System_Collections_Generic_Dictionary_int__int____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
+            (pSVar1,(MethodInfo_4A032E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
   (__this->fields)._idToIndex = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._idToIndex,pSVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._idToIndex);
   pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_int);
   System_Collections_Generic_Dictionary_int__int____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
-             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
+            (pSVar1,(MethodInfo_4A032E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
   (__this->fields)._indexToId = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._indexToId,pSVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._indexToId);
   pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (pSVar2,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+            (pSVar2,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
   (__this->fields)._selected = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._selected,pSVar2);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._selected);
   pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (pSVar2,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+            (pSVar2,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
   (__this->fields)._expanded = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._expanded,pSVar2);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._expanded);
   __this_03 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_List_int);
   System_Collections_Generic_Dictionary_int__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ctor);
+            ((System_Collections_Generic_Dictionary_int__object__o *)__this_03,
+             (MethodInfo_4A0EB10 *)MethodInfo_System_Collections_Generic_Dictionary_int_List_int_ctor);
   (__this->fields)._treeChildren = __this_03;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._treeChildren,__this_03);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._treeChildren);
   __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
   System_Collections_Generic_List_int____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_04,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+            (__this_04,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
   (__this->fields)._treeRoots = __this_04;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._treeRoots,__this_04);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._treeRoots);
   (__this->fields)._lastClickedItem = -1;
   (__this->fields)._dragSourceId = -1;
   (__this->fields)._dropTargetId = -1;
   pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (pSVar2,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+            (pSVar2,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
   (__this->fields)._dragTopLevel = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._dragTopLevel,pSVar2);
-  defaultValue = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._dragTopLevel);
+  defaultValue = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
-  Settings_StringSetting___ctor_1f27ee0(__this_05,defaultValue,0x7fffffff,(MethodInfo *)0x0);
+  Settings_StringSetting___ctor_5b7b730(__this_05,defaultValue,0x7fffffff,(MethodInfo *)0x0);
   (__this->fields)._searchSetting = __this_05;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._searchSetting,__this_05);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._searchSetting);
   (__this->fields)._virtualRowHeight = 22.0;
   (__this->fields)._dropIndicatorId = -1;
   (__this->fields)._contextTargetId = -1;
-  UI_MapEditorScaledPanel___ctor((UI_SnapshotViewerMainPanel_o *)__this,(MethodInfo *)0x0);
+  UI_MapEditorScaledPanel___ctor((UI_MapEditorScaledPanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$<Setup>b__75_0
 // il2cpp: void UI_MapEditorHierarchyPanel___Setup_b__75_0 (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b7e10
+// 0x5d7d660
 
 void UI_MapEditorHierarchyPanel___Setup_b__75_0(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__Sync(__this,method);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$<Setup>b__75_1
 // il2cpp: void UI_MapEditorHierarchyPanel___Setup_b__75_1 (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b5200
+// 0x5d7d670
 
 void UI_MapEditorHierarchyPanel___Setup_b__75_1(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
 {
-  GameManagers_MapEditorGameManager_o *pGVar1;
-  UnityEngine_UI_ScrollRect_o *pUVar2;
-  bool bVar3;
-  
-  if (Il2CppMethodInitialized_18434750e == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434750e = '\x01';
-  }
-  (__this->fields)._draggingItem = false;
-  (__this->fields)._dropTargetId = -1;
-  (__this->fields)._dropIndicatorId = -1;
-  (__this->fields)._dropToRoot = false;
-  (__this->fields)._currentDropMode = 0;
-  UI_MapEditorHierarchyPanel__HideDragGhost(__this,(MethodInfo *)0x0);
-  UI_MapEditorHierarchyPanel__HideInsertLine(__this,(MethodInfo *)0x0);
-  bVar3 = (__this->fields)._treeViewEnabled == false;
-  pGVar1 = (__this->fields)._gameManager;
-  (__this->fields)._currentPage = 1;
-  (__this->fields)._treeViewEnabled = bVar3;
-  if (pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) {
-    (pGVar1->fields).HierarchyTreeViewEnabled = bVar3;
-    if ((__this->fields)._treeViewEnabled != false) {
-      UI_MapEditorHierarchyPanel__BuildTreeGraph(__this,(MethodInfo *)0x0);
-      if ((__this->fields)._treeViewEnabled != false) {
-        pUVar2 = (__this->fields)._scrollRect;
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar3 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar3) {
-          pUVar2 = (__this->fields)._scrollRect;
-          if (pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_1822b5310;
-          UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(pUVar2,1.0,(MethodInfo *)0x0);
-        }
-      }
-    }
-    UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
-    return;
-  }
-label_1822b5310:
-  ThrowNullReferenceException();
+  UI_MapEditorHierarchyPanel__OnModeButtonClick(__this,method);
+  return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$<Setup>b__75_2
 // il2cpp: void UI_MapEditorHierarchyPanel___Setup_b__75_2 (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b7e20
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b7e20: nop 
+// 0x5d7d680
 
 void UI_MapEditorHierarchyPanel___Setup_b__75_2(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -9132,16 +9740,14 @@ void UI_MapEditorHierarchyPanel___Setup_b__75_2(UI_MapEditorHierarchyPanel_o *__
   
   piVar1 = &(__this->fields)._currentPage;
   *piVar1 = *piVar1 + -1;
-  UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__Sync(__this,method);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$<Setup>b__75_3
 // il2cpp: void UI_MapEditorHierarchyPanel___Setup_b__75_3 (UI_MapEditorHierarchyPanel_o* __this, const MethodInfo* method);
-// 0x1822b7e30
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822b7e30: nop 
+// 0x5d7d690
 
 void UI_MapEditorHierarchyPanel___Setup_b__75_3(UI_MapEditorHierarchyPanel_o *__this,MethodInfo *method)
 
@@ -9150,14 +9756,14 @@ void UI_MapEditorHierarchyPanel___Setup_b__75_3(UI_MapEditorHierarchyPanel_o *__
   
   piVar1 = &(__this->fields)._currentPage;
   *piVar1 = *piVar1 + 1;
-  UI_MapEditorHierarchyPanel__Sync(__this,(MethodInfo *)0x0);
+  UI_MapEditorHierarchyPanel__Sync(__this,method);
   return;
 }
 
 
 // UI.MapEditorHierarchyPanel$$<AddResizeHandle>b__76_0
 // il2cpp: void UI_MapEditorHierarchyPanel___AddResizeHandle_b__76_0 (UI_MapEditorHierarchyPanel_o* __this, float w, const MethodInfo* method);
-// 0x1822b7d50
+// 0x5d7d6a0
 
 void UI_MapEditorHierarchyPanel___AddResizeHandle_b__76_0
                (UI_MapEditorHierarchyPanel_o *__this,float w,MethodInfo *method)
@@ -9167,17 +9773,17 @@ void UI_MapEditorHierarchyPanel___AddResizeHandle_b__76_0
   Settings_FloatSetting_o *__this_00;
   UI_MapEditorMenu_o *__this_01;
   
-  if (Il2CppMethodInitialized_184347540 == '\0') {
+  if (Il2CppMethodInitialized_07547ffa == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_set_Value);
-    Il2CppMethodInitialized_184347540 = '\x01';
+    Il2CppMethodInitialized_07547ffa = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->MapEditorSettings;
   if ((pSVar1 != (Settings_MapEditorSettings_o *)0x0) &&
      (__this_00 = (pSVar1->fields).HierarchyPanelWidth, __this_00 != (Settings_FloatSetting_o *)0x0)) {
     Settings_TypedSetting_float___set_Value
               ((Settings_TypedSetting_float__o *)__this_00,w,
-               (MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value);
+               (MethodInfo_42DA3B0 *)MethodInfo_Settings_TypedSetting_float_set_Value);
     pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->MapEditorSettings;
     if (pSVar1 != (Settings_MapEditorSettings_o *)0x0) {
       (*(pSVar1->klass->vtable)._18_Save.methodPtr)(pSVar1,(pSVar1->klass->vtable)._18_Save.method);

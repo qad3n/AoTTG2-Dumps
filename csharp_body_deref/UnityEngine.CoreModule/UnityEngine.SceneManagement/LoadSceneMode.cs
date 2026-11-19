@@ -12,8 +12,8 @@ namespace UnityEngine.SceneManagement;
 [Token(Token = "0x2000250")]
 public enum LoadSceneMode
 {
-	[Token(Token = "0x400075D")]
+	[Token(Token = "0x400075B")]
 	Single,
-	[Token(Token = "0x400075E")]
+	[Token(Token = "0x400075C")]
 	Additive
 }

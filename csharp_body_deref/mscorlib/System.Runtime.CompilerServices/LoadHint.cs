@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004CC")]
+[Token(Token = "0x20004A5")]
 public enum LoadHint
 {
-	[Token(Token = "0x4001332")]
+	[Token(Token = "0x4001292")]
 	Default,
-	[Token(Token = "0x4001333")]
+	[Token(Token = "0x4001293")]
 	Always,
-	[Token(Token = "0x4001334")]
+	[Token(Token = "0x4001294")]
 	Sometimes
 }

@@ -12,67 +12,67 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003ED")]
+[Token(Token = "0x200044C")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 internal class CLPropertyAttribute : CLBaseAttribute
 {
-	[Token(Token = "0x17000293")]
+	[Token(Token = "0x170002D4")]
 	public bool ReadOnly
 	{
-		[Token(Token = "0x600181E")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6001A95")]
+		[Address(RVA = "0x58A98E0", Offset = "0x58A88E0", VA = "0x58A98E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600181F")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Token(Token = "0x6001A96")]
+		[Address(RVA = "0x58A98F0", Offset = "0x58A88F0", VA = "0x58A98F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000294")]
+	[Token(Token = "0x170002D5")]
 	public string[] TypeArguments
 	{
-		[Token(Token = "0x6001820")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001A97")]
+		[Address(RVA = "0x58A9900", Offset = "0x58A8900", VA = "0x58A9900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001821")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6001A98")]
+		[Address(RVA = "0x58A9910", Offset = "0x58A8910", VA = "0x58A9910")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000295")]
+	[Token(Token = "0x170002D6")]
 	public Type[] Enum
 	{
-		[Token(Token = "0x6001822")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001A99")]
+		[Address(RVA = "0x58A9920", Offset = "0x58A8920", VA = "0x58A9920")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001823")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Token(Token = "0x6001A9A")]
+		[Address(RVA = "0x58A9930", Offset = "0x58A8930", VA = "0x58A9930")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001824")]
-	[Address(RVA = "0x1ECD8F0", Offset = "0x1ECBEF0", VA = "0x181ECD8F0")]
+	[Token(Token = "0x6001A9B")]
+	[Address(RVA = "0x58A9940", Offset = "0x58A8940", VA = "0x58A9940")]
 	public CLPropertyAttribute(bool readOnly = false)
 	{
 	}

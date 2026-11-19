@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200063A")]
+[Token(Token = "0x2000615")]
 internal sealed class DictionaryDebugView<K, V>
 {
 }

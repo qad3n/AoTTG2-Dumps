@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000078")]
+[Token(Token = "0x2000079")]
 internal class FullConditionalExpression : ConditionalExpression
 {
-	[Token(Token = "0x4000119")]
+	[Token(Token = "0x4000122")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Expression _false;
 
-	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x2439890", Offset = "0x2437E90", VA = "0x182439890")]
+	[Token(Token = "0x600031D")]
+	[Address(RVA = "0x5DC6890", Offset = "0x5DC5890", VA = "0x5DC6890")]
 	internal FullConditionalExpression(Expression test, Expression ifTrue, Expression ifFalse)
 	{
 	}
 
-	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "10")]
+	[Token(Token = "0x600031E")]
+	[Address(RVA = "0x5DC6AF0", Offset = "0x5DC5AF0", VA = "0x5DC6AF0", Slot = "10")]
 	internal override Expression GetFalse()
 	{
 		return null;

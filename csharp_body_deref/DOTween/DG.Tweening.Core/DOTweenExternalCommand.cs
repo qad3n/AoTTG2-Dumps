@@ -25,13 +25,13 @@ public static class DOTweenExternalCommand
 	public static event Action<PathOptions, Tween, Quaternion, Transform> SetOrientationOnPath
 	{
 		[Token(Token = "0x6000423")]
-		[Address(RVA = "0x577490", Offset = "0x575A90", VA = "0x180577490")]
+		[Address(RVA = "0x31971E0", Offset = "0x31961E0", VA = "0x31971E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000424")]
-		[Address(RVA = "0x577560", Offset = "0x575B60", VA = "0x180577560")]
+		[Address(RVA = "0x31972B0", Offset = "0x31962B0", VA = "0x31972B0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -39,7 +39,7 @@ public static class DOTweenExternalCommand
 	}
 
 	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x5773C0", Offset = "0x5759C0", VA = "0x1805773C0")]
+	[Address(RVA = "0x3197380", Offset = "0x3196380", VA = "0x3197380")]
 	internal static void Dispatch_SetOrientationOnPath(PathOptions options, Tween t, Quaternion newRot, Transform trans)
 	{
 	}

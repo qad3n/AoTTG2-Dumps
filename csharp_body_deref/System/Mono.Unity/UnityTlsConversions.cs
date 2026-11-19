@@ -16,43 +16,43 @@ namespace Mono.Unity;
 [Token(Token = "0x2000042")]
 internal static class UnityTlsConversions
 {
-	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x24A5AE0", Offset = "0x24A40E0", VA = "0x1824A5AE0")]
+	[Token(Token = "0x600008D")]
+	[Address(RVA = "0x5E322E0", Offset = "0x5E312E0", VA = "0x5E322E0")]
 	public static UnityTls.unitytls_protocol GetMinProtocol(SslProtocols protocols)
 	{
 		return default(UnityTls.unitytls_protocol);
 	}
 
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x24A5AA0", Offset = "0x24A40A0", VA = "0x1824A5AA0")]
+	[Token(Token = "0x600008E")]
+	[Address(RVA = "0x5E32310", Offset = "0x5E31310", VA = "0x5E32310")]
 	public static UnityTls.unitytls_protocol GetMaxProtocol(SslProtocols protocols)
 	{
 		return default(UnityTls.unitytls_protocol);
 	}
 
-	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x24A5A70", Offset = "0x24A4070", VA = "0x1824A5A70")]
+	[Token(Token = "0x600008F")]
+	[Address(RVA = "0x5E33260", Offset = "0x5E32260", VA = "0x5E33260")]
 	public static TlsProtocols ConvertProtocolVersion(UnityTls.unitytls_protocol protocol)
 	{
 		return default(TlsProtocols);
 	}
 
-	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x24A5B20", Offset = "0x24A4120", VA = "0x1824A5B20")]
+	[Token(Token = "0x6000090")]
+	[Address(RVA = "0x5E2F440", Offset = "0x5E2E440", VA = "0x5E2F440")]
 	public static AlertDescription VerifyResultToAlertDescription(UnityTls.unitytls_x509verify_result verifyResult, AlertDescription defaultAlert = AlertDescription.InternalError)
 	{
 		return default(AlertDescription);
 	}
 
-	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x24A5BC0", Offset = "0x24A41C0", VA = "0x1824A5BC0")]
+	[Token(Token = "0x6000091")]
+	[Address(RVA = "0x5E348A0", Offset = "0x5E338A0", VA = "0x5E348A0")]
 	public static SslPolicyErrors VerifyResultToPolicyErrror(UnityTls.unitytls_x509verify_result verifyResult)
 	{
 		return default(SslPolicyErrors);
 	}
 
-	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x24A5B80", Offset = "0x24A4180", VA = "0x1824A5B80")]
+	[Token(Token = "0x6000092")]
+	[Address(RVA = "0x5E348D0", Offset = "0x5E338D0", VA = "0x5E348D0")]
 	public static X509ChainStatusFlags VerifyResultToChainStatus(UnityTls.unitytls_x509verify_result verifyResult)
 	{
 		return default(X509ChainStatusFlags);

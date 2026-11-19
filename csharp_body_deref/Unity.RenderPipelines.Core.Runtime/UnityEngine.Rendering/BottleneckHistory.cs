@@ -22,38 +22,38 @@ internal class BottleneckHistory
 	internal BottleneckHistogram Histogram;
 
 	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x2AD31C0", Offset = "0x2AD17C0", VA = "0x182AD31C0")]
+	[Address(RVA = "0x64C8800", Offset = "0x64C7800", VA = "0x64C8800")]
 	public BottleneckHistory(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x2AD3120", Offset = "0x2AD1720", VA = "0x182AD3120")]
+	[Address(RVA = "0x64C9480", Offset = "0x64C8480", VA = "0x64C9480")]
 	internal void DiscardOldSamples(int historySize)
 	{
 	}
 
 	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x2AD2DA0", Offset = "0x2AD13A0", VA = "0x182AD2DA0")]
+	[Address(RVA = "0x64C9510", Offset = "0x64C8510", VA = "0x64C9510")]
 	internal void AddBottleneckFromAveragedSample(FrameTimeSample frameHistorySampleAverage)
 	{
 	}
 
 	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x2AD2F20", Offset = "0x2AD1520", VA = "0x182AD2F20")]
+	[Address(RVA = "0x64C9610", Offset = "0x64C8610", VA = "0x64C9610")]
 	internal void ComputeHistogram()
 	{
 	}
 
 	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x2AD3080", Offset = "0x2AD1680", VA = "0x182AD3080")]
+	[Address(RVA = "0x64D8050", Offset = "0x64D7050", VA = "0x64D8050")]
 	private static PerformanceBottleneck DetermineBottleneck(FrameTimeSample s)
 	{
 		return default(PerformanceBottleneck);
 	}
 
 	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x2AD2ED0", Offset = "0x2AD14D0", VA = "0x182AD2ED0")]
+	[Address(RVA = "0x64CB490", Offset = "0x64CA490", VA = "0x64CB490")]
 	internal void Clear()
 	{
 	}

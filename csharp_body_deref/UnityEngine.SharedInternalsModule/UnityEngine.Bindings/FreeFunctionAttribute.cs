@@ -16,19 +16,19 @@ namespace UnityEngine.Bindings;
 internal class FreeFunctionAttribute : NativeMethodAttribute
 {
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2FF6D00", Offset = "0x2FF5300", VA = "0x182FF6D00")]
+	[Address(RVA = "0x69F18E0", Offset = "0x69F08E0", VA = "0x69F18E0")]
 	public FreeFunctionAttribute()
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x2FF6D20", Offset = "0x2FF5320", VA = "0x182FF6D20")]
+	[Address(RVA = "0x69F1900", Offset = "0x69F0900", VA = "0x69F1900")]
 	public FreeFunctionAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x2FF6D40", Offset = "0x2FF5340", VA = "0x182FF6D40")]
+	[Address(RVA = "0x69F1910", Offset = "0x69F0910", VA = "0x69F1910")]
 	public FreeFunctionAttribute(string name, bool isThreadSafe)
 	{
 	}

@@ -20,7 +20,7 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		public override string Name
 		{
 			[Token(Token = "0x60001F8")]
-			[Address(RVA = "0x2FF66B0", Offset = "0x2FF4CB0", VA = "0x182FF66B0", Slot = "12")]
+			[Address(RVA = "0x69EE2F0", Offset = "0x69ED2F0", VA = "0x69EE2F0", Slot = "12")]
 			get
 			{
 				return null;
@@ -31,7 +31,7 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001F9")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE320", Offset = "0x69ED320", VA = "0x69EE320", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -39,20 +39,20 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		}
 
 		[Token(Token = "0x60001FA")]
-		[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "14")]
+		[Address(RVA = "0x69EE330", Offset = "0x69ED330", VA = "0x69EE330", Slot = "14")]
 		public override int GetValue(ref Vector2Int container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x2FF6340", Offset = "0x2FF4940", VA = "0x182FF6340", Slot = "15")]
+		[Address(RVA = "0x69EE340", Offset = "0x69ED340", VA = "0x69EE340", Slot = "15")]
 		public override void SetValue(ref Vector2Int container, int value)
 		{
 		}
 
 		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x2FF6480", Offset = "0x2FF4A80", VA = "0x182FF6480")]
+		[Address(RVA = "0x69EE270", Offset = "0x69ED270", VA = "0x69EE270")]
 		public XProperty()
 		{
 		}
@@ -65,7 +65,7 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		public override string Name
 		{
 			[Token(Token = "0x60001FD")]
-			[Address(RVA = "0x2FF6A70", Offset = "0x2FF5070", VA = "0x182FF6A70", Slot = "12")]
+			[Address(RVA = "0x69EE350", Offset = "0x69ED350", VA = "0x69EE350", Slot = "12")]
 			get
 			{
 				return null;
@@ -76,7 +76,7 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001FE")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE380", Offset = "0x69ED380", VA = "0x69EE380", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -84,27 +84,27 @@ internal class Vector2IntPropertyBag : ContainerPropertyBag<Vector2Int>
 		}
 
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x2FF6710", Offset = "0x2FF4D10", VA = "0x182FF6710", Slot = "14")]
+		[Address(RVA = "0x69EE390", Offset = "0x69ED390", VA = "0x69EE390", Slot = "14")]
 		public override int GetValue(ref Vector2Int container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x2FF6870", Offset = "0x2FF4E70", VA = "0x182FF6870", Slot = "15")]
+		[Address(RVA = "0x69EE3A0", Offset = "0x69ED3A0", VA = "0x69EE3A0", Slot = "15")]
 		public override void SetValue(ref Vector2Int container, int value)
 		{
 		}
 
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x2FF6A00", Offset = "0x2FF5000", VA = "0x182FF6A00")]
+		[Address(RVA = "0x69EE2B0", Offset = "0x69ED2B0", VA = "0x69EE2B0")]
 		public YProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x2FF58C0", Offset = "0x2FF3EC0", VA = "0x182FF58C0")]
+	[Address(RVA = "0x69ED020", Offset = "0x69EC020", VA = "0x69ED020")]
 	public Vector2IntPropertyBag()
 	{
 	}

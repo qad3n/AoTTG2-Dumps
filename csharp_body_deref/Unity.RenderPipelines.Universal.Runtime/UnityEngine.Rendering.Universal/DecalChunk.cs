@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalChunk
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,14 +21,14 @@ internal abstract class DecalChunk : IDisposable
 	public int count
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6612C80", Offset = "0x6611C80", VA = "0x6612C80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000306")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6612C90", Offset = "0x6611C90", VA = "0x6612C90")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -39,14 +39,14 @@ internal abstract class DecalChunk : IDisposable
 	public int capacity
 	{
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6612CA0", Offset = "0x6611CA0", VA = "0x6612CA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000308")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x6612CB0", Offset = "0x6611CB0", VA = "0x6612CB0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -57,14 +57,14 @@ internal abstract class DecalChunk : IDisposable
 	public JobHandle currentJobHandle
 	{
 		[Token(Token = "0x6000309")]
-		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
+		[Address(RVA = "0x6612CC0", Offset = "0x6611CC0", VA = "0x6612CC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(JobHandle);
 		}
 		[Token(Token = "0x600030A")]
-		[Address(RVA = "0x111C9E0", Offset = "0x111AFE0", VA = "0x18111C9E0")]
+		[Address(RVA = "0x6612CD0", Offset = "0x6611CD0", VA = "0x6612CD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -72,7 +72,7 @@ internal abstract class DecalChunk : IDisposable
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0xC7D820", Offset = "0xC7BE20", VA = "0x180C7D820", Slot = "5")]
+	[Address(RVA = "0x6612CE0", Offset = "0x6611CE0", VA = "0x6612CE0", Slot = "5")]
 	public virtual void Push()
 	{
 	}
@@ -84,13 +84,13 @@ internal abstract class DecalChunk : IDisposable
 	public abstract void SetCapacity(int capacity);
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Address(RVA = "0x6612CF0", Offset = "0x6611CF0", VA = "0x6612CF0", Slot = "8")]
 	public virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x2C1BE60", Offset = "0x2C1A460", VA = "0x182C1BE60")]
+	[Address(RVA = "0x6612D00", Offset = "0x6611D00", VA = "0x6612D00")]
 	protected void ResizeNativeArray(ref TransformAccessArray array, DecalProjector[] decalProjectors, int capacity)
 	{
 	}
@@ -106,7 +106,7 @@ internal abstract class DecalChunk : IDisposable
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6612DB0", Offset = "0x6611DB0", VA = "0x6612DB0")]
 	protected DecalChunk()
 	{
 	}

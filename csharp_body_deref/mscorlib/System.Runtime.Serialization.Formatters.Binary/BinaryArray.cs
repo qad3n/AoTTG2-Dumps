@@ -9,71 +9,71 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000440")]
+[Token(Token = "0x2000419")]
 internal sealed class BinaryArray
 {
-	[Token(Token = "0x40010E4")]
+	[Token(Token = "0x4001044")]
 	[FieldOffset(Offset = "0x10")]
 	internal int objectId;
 
-	[Token(Token = "0x40010E5")]
+	[Token(Token = "0x4001045")]
 	[FieldOffset(Offset = "0x14")]
 	internal int rank;
 
-	[Token(Token = "0x40010E6")]
+	[Token(Token = "0x4001046")]
 	[FieldOffset(Offset = "0x18")]
 	internal int[] lengthA;
 
-	[Token(Token = "0x40010E7")]
+	[Token(Token = "0x4001047")]
 	[FieldOffset(Offset = "0x20")]
 	internal int[] lowerBoundA;
 
-	[Token(Token = "0x40010E8")]
+	[Token(Token = "0x4001048")]
 	[FieldOffset(Offset = "0x28")]
 	internal System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum;
 
-	[Token(Token = "0x40010E9")]
+	[Token(Token = "0x4001049")]
 	[FieldOffset(Offset = "0x30")]
 	internal object typeInformation;
 
-	[Token(Token = "0x40010EA")]
+	[Token(Token = "0x400104A")]
 	[FieldOffset(Offset = "0x38")]
 	internal int assemId;
 
-	[Token(Token = "0x40010EB")]
+	[Token(Token = "0x400104B")]
 	[FieldOffset(Offset = "0x3C")]
 	private System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum;
 
-	[Token(Token = "0x40010EC")]
+	[Token(Token = "0x400104C")]
 	[FieldOffset(Offset = "0x40")]
 	internal System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum;
 
-	[Token(Token = "0x60020DF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60020B5")]
+	[Address(RVA = "0x53AB6C0", Offset = "0x53AA6C0", VA = "0x53AB6C0")]
 	internal BinaryArray()
 	{
 	}
 
-	[Token(Token = "0x60020E0")]
-	[Address(RVA = "0x1A0BF40", Offset = "0x1A0A540", VA = "0x181A0BF40")]
+	[Token(Token = "0x60020B6")]
+	[Address(RVA = "0x53AB6D0", Offset = "0x53AA6D0", VA = "0x53AB6D0")]
 	internal BinaryArray(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
 	{
 	}
 
-	[Token(Token = "0x60020E1")]
-	[Address(RVA = "0x1A0BB40", Offset = "0x1A0A140", VA = "0x181A0BB40")]
+	[Token(Token = "0x60020B7")]
+	[Address(RVA = "0x53AB6F0", Offset = "0x53AA6F0", VA = "0x53AB6F0")]
 	internal void Set(int objectId, int rank, int[] lengthA, int[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId)
 	{
 	}
 
-	[Token(Token = "0x60020E2")]
-	[Address(RVA = "0x1A0BC00", Offset = "0x1A0A200", VA = "0x181A0BC00", Slot = "4")]
+	[Token(Token = "0x60020B8")]
+	[Address(RVA = "0x53AB790", Offset = "0x53AA790", VA = "0x53AB790", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x60020E3")]
-	[Address(RVA = "0x1A0B610", Offset = "0x1A09C10", VA = "0x181A0B610", Slot = "5")]
+	[Token(Token = "0x60020B9")]
+	[Address(RVA = "0x53ABAE0", Offset = "0x53AAAE0", VA = "0x53ABAE0", Slot = "5")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}

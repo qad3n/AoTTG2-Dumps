@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005CA")]
+[Token(Token = "0x20005A5")]
 public struct DictionaryEntry
 {
-	[Token(Token = "0x4001866")]
+	[Token(Token = "0x40017CD")]
 	[FieldOffset(Offset = "0x0")]
 	private object _key;
 
-	[Token(Token = "0x4001867")]
+	[Token(Token = "0x40017CE")]
 	[FieldOffset(Offset = "0x8")]
 	private object _value;
 
-	[Token(Token = "0x170006A9")]
+	[Token(Token = "0x170006AA")]
 	public object Key
 	{
-		[Token(Token = "0x6002BBA")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6002B99")]
+		[Address(RVA = "0x5450510", Offset = "0x544F510", VA = "0x5450510")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006AA")]
+	[Token(Token = "0x170006AB")]
 	public object Value
 	{
-		[Token(Token = "0x6002BBB")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x6002B9A")]
+		[Address(RVA = "0x5450520", Offset = "0x544F520", VA = "0x5450520")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002BB9")]
-	[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+	[Token(Token = "0x6002B98")]
+	[Address(RVA = "0x54504E0", Offset = "0x544F4E0", VA = "0x54504E0")]
 	public DictionaryEntry(object key, object value)
 	{
 	}

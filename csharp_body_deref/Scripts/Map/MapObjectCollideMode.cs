@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x20003B0")]
+[Token(Token = "0x200040D")]
 public static class MapObjectCollideMode
 {
-	[Token(Token = "0x400134A")]
+	[Token(Token = "0x40014E1")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Physical;
 
-	[Token(Token = "0x400134B")]
+	[Token(Token = "0x40014E2")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Region;
 
-	[Token(Token = "0x400134C")]
+	[Token(Token = "0x40014E3")]
 	[FieldOffset(Offset = "0x10")]
 	public static string None;
 }

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200012B")]
+[Token(Token = "0x20000EC")]
 public enum StoreName
 {
-	[Token(Token = "0x400052D")]
+	[Token(Token = "0x400045E")]
 	AddressBook = 1,
-	[Token(Token = "0x400052E")]
+	[Token(Token = "0x400045F")]
 	AuthRoot,
-	[Token(Token = "0x400052F")]
+	[Token(Token = "0x4000460")]
 	CertificateAuthority,
-	[Token(Token = "0x4000530")]
+	[Token(Token = "0x4000461")]
 	Disallowed,
-	[Token(Token = "0x4000531")]
+	[Token(Token = "0x4000462")]
 	My,
-	[Token(Token = "0x4000532")]
+	[Token(Token = "0x4000463")]
 	Root,
-	[Token(Token = "0x4000533")]
+	[Token(Token = "0x4000464")]
 	TrustedPeople,
-	[Token(Token = "0x4000534")]
+	[Token(Token = "0x4000465")]
 	TrustedPublisher
 }

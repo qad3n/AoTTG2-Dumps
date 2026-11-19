@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgScoreboardMuteDialog
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgScoreboardMuteDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,78 +11,78 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200026A")]
+[Token(Token = "0x2000290")]
 [AottgDialog("ingame-scoreboard-mute")]
 public sealed class AottgScoreboardMuteDialog : AottgDialog
 {
-	[Token(Token = "0x4000C68")]
+	[Token(Token = "0x4000D18")]
 	public const string Id = "ingame-scoreboard-mute";
 
-	[Token(Token = "0x4000C69")]
+	[Token(Token = "0x4000D19")]
 	public const string EmoteId = "ingame-scoreboard-mute-emote";
 
-	[Token(Token = "0x4000C6A")]
+	[Token(Token = "0x4000D1A")]
 	public const string TextId = "ingame-scoreboard-mute-text";
 
-	[Token(Token = "0x4000C6B")]
+	[Token(Token = "0x4000D1B")]
 	public const string VoiceId = "ingame-scoreboard-mute-voice";
 
-	[Token(Token = "0x4000C6C")]
+	[Token(Token = "0x4000D1C")]
 	public const string VolumeId = "ingame-scoreboard-mute-volume";
 
-	[Token(Token = "0x17000199")]
+	[Token(Token = "0x170001A4")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000E8E")]
-		[Address(RVA = "0x1DE6CF0", Offset = "0x1DE52F0", VA = "0x181DE6CF0", Slot = "4")]
+		[Token(Token = "0x6000F9D")]
+		[Address(RVA = "0x57B53A0", Offset = "0x57B43A0", VA = "0x57B53A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700019A")]
+	[Token(Token = "0x170001A5")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000E8F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Token(Token = "0x6000F9E")]
+		[Address(RVA = "0x57B5400", Offset = "0x57B4400", VA = "0x57B5400", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700019B")]
+	[Token(Token = "0x170001A6")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000E90")]
-		[Address(RVA = "0x1DE6BF0", Offset = "0x1DE51F0", VA = "0x181DE6BF0", Slot = "15")]
+		[Token(Token = "0x6000F9F")]
+		[Address(RVA = "0x57B5410", Offset = "0x57B4410", VA = "0x57B5410", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E91")]
-	[Address(RVA = "0x1DE6780", Offset = "0x1DE4D80", VA = "0x181DE6780", Slot = "20")]
+	[Token(Token = "0x6000FA0")]
+	[Address(RVA = "0x57B54D0", Offset = "0x57B44D0", VA = "0x57B54D0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000E92")]
-	[Address(RVA = "0x1DE6A00", Offset = "0x1DE5000", VA = "0x181DE6A00")]
-	private static void MuteRow(AottgUi body, string id, string key, string fallback)
+	[Token(Token = "0x6000FA1")]
+	[Address(RVA = "0x57B5630", Offset = "0x57B4630", VA = "0x57B5630")]
+	private static void MuteRow(AottgUi body, string id, string key)
 	{
 	}
 
-	[Token(Token = "0x6000E93")]
-	[Address(RVA = "0x1DE6940", Offset = "0x1DE4F40", VA = "0x181DE6940", Slot = "21")]
+	[Token(Token = "0x6000FA2")]
+	[Address(RVA = "0x57B57F0", Offset = "0x57B47F0", VA = "0x57B57F0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000E94")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000FA3")]
+	[Address(RVA = "0x57B5880", Offset = "0x57B4880", VA = "0x57B5880")]
 	public AottgScoreboardMuteDialog()
 	{
 	}

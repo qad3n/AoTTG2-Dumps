@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.SharedStatic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -102,28 +102,28 @@ internal static class SharedStatic
 	internal class PreserveAttribute : Attribute
 	{
 		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Address(RVA = "0x6318BC0", Offset = "0x6317BC0", VA = "0x6318BC0")]
 		public PreserveAttribute()
 		{
 		}
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x297BFB0", Offset = "0x297A5B0", VA = "0x18297BFB0")]
+	[Address(RVA = "0x6318AC0", Offset = "0x6317AC0", VA = "0x6318AC0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	private static void CheckSizeOf(uint sizeOf)
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x297BF50", Offset = "0x297A550", VA = "0x18297BF50")]
+	[Address(RVA = "0x6318B30", Offset = "0x6317B30", VA = "0x6318B30")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	private unsafe static void CheckResult(void* result)
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x297C030", Offset = "0x297A630", VA = "0x18297C030")]
+	[Address(RVA = "0x6318B80", Offset = "0x6317B80", VA = "0x6318B80")]
 	[Preserve]
 	public unsafe static void* GetOrCreateSharedStaticInternal(long getHashCode64, long getSubHashCode64, uint sizeOf, uint alignment)
 	{

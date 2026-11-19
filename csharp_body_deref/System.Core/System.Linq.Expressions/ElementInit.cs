@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200007E")]
+[Token(Token = "0x200007F")]
 public sealed class ElementInit : IArgumentProvider
 {
-	[Token(Token = "0x17000082")]
+	[Token(Token = "0x17000084")]
 	public MethodInfo AddMethod
 	{
-		[Token(Token = "0x6000325")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000330")]
+		[Address(RVA = "0x5DC6E10", Offset = "0x5DC5E10", VA = "0x5DC6E10")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,11 +27,11 @@ public sealed class ElementInit : IArgumentProvider
 		}
 	}
 
-	[Token(Token = "0x17000083")]
+	[Token(Token = "0x17000085")]
 	public ReadOnlyCollection<Expression> Arguments
 	{
-		[Token(Token = "0x6000326")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000331")]
+		[Address(RVA = "0x5DC6E20", Offset = "0x5DC5E20", VA = "0x5DC6E20")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,19 +39,19 @@ public sealed class ElementInit : IArgumentProvider
 		}
 	}
 
-	[Token(Token = "0x17000084")]
+	[Token(Token = "0x17000086")]
 	public int ArgumentCount
 	{
-		[Token(Token = "0x6000328")]
-		[Address(RVA = "0x242D670", Offset = "0x242BC70", VA = "0x18242D670", Slot = "5")]
+		[Token(Token = "0x6000333")]
+		[Address(RVA = "0x5DC6E80", Offset = "0x5DC5E80", VA = "0x5DC6E80", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x242D610", Offset = "0x242BC10", VA = "0x18242D610", Slot = "4")]
+	[Token(Token = "0x6000332")]
+	[Address(RVA = "0x5DC6E30", Offset = "0x5DC5E30", VA = "0x5DC6E30", Slot = "4")]
 	public Expression GetArgument(int index)
 	{
 		return null;

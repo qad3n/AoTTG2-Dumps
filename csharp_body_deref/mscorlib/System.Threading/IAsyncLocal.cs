@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001F3")]
+[Token(Token = "0x20001CB")]
 internal interface IAsyncLocal
 {
-	[Token(Token = "0x60011B4")]
+	[Token(Token = "0x600118B")]
 	void OnValueChanged(object previousValue, object currentValue, bool contextChanged);
 }

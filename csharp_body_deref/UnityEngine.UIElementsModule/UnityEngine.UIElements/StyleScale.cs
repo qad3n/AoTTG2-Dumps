@@ -28,13 +28,13 @@ public struct StyleScale : IStyleValue<Scale>, IEquatable<StyleScale>
 	public Scale value
 	{
 		[Token(Token = "0x600209B")]
-		[Address(RVA = "0x31181A0", Offset = "0x31167A0", VA = "0x1831181A0", Slot = "4")]
+		[Address(RVA = "0x6B142B0", Offset = "0x6B132B0", VA = "0x6B142B0", Slot = "4")]
 		get
 		{
 			return default(Scale);
 		}
 		[Token(Token = "0x600209C")]
-		[Address(RVA = "0x1AB4580", Offset = "0x1AB2B80", VA = "0x181AB4580", Slot = "5")]
+		[Address(RVA = "0x6B143A0", Offset = "0x6B133A0", VA = "0x6B143A0", Slot = "5")]
 		set
 		{
 		}
@@ -44,80 +44,80 @@ public struct StyleScale : IStyleValue<Scale>, IEquatable<StyleScale>
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x600209D")]
-		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700", Slot = "6")]
+		[Address(RVA = "0x6B143B0", Offset = "0x6B133B0", VA = "0x6B143B0", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x600209E")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20", Slot = "7")]
+		[Address(RVA = "0x6B143C0", Offset = "0x6B133C0", VA = "0x6B143C0", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600209F")]
-	[Address(RVA = "0x1AB4580", Offset = "0x1AB2B80", VA = "0x181AB4580")]
+	[Address(RVA = "0x6B143D0", Offset = "0x6B133D0", VA = "0x6B143D0")]
 	public StyleScale(Scale v)
 	{
 	}
 
 	[Token(Token = "0x60020A0")]
-	[Address(RVA = "0x3118190", Offset = "0x3116790", VA = "0x183118190")]
+	[Address(RVA = "0x6B143F0", Offset = "0x6B133F0", VA = "0x6B143F0")]
 	public StyleScale(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020A1")]
-	[Address(RVA = "0x1028C90", Offset = "0x1027290", VA = "0x181028C90")]
+	[Address(RVA = "0x6B143E0", Offset = "0x6B133E0", VA = "0x6B143E0")]
 	internal StyleScale(Scale v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020A2")]
-	[Address(RVA = "0x31182F0", Offset = "0x31168F0", VA = "0x1831182F0")]
+	[Address(RVA = "0x6B14400", Offset = "0x6B13400", VA = "0x6B14400")]
 	public static bool operator ==(StyleScale lhs, StyleScale rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020A3")]
-	[Address(RVA = "0x3112360", Offset = "0x3110960", VA = "0x183112360")]
+	[Address(RVA = "0x6B14470", Offset = "0x6B13470", VA = "0x6B14470")]
 	public static implicit operator StyleScale(StyleKeyword keyword)
 	{
 		return default(StyleScale);
 	}
 
 	[Token(Token = "0x60020A4")]
-	[Address(RVA = "0x3112370", Offset = "0x3110970", VA = "0x183112370")]
+	[Address(RVA = "0x6B14480", Offset = "0x6B13480", VA = "0x6B14480")]
 	public static implicit operator StyleScale(Scale v)
 	{
 		return default(StyleScale);
 	}
 
 	[Token(Token = "0x60020A5")]
-	[Address(RVA = "0x3117F80", Offset = "0x3116580", VA = "0x183117F80", Slot = "8")]
+	[Address(RVA = "0x6B144A0", Offset = "0x6B134A0", VA = "0x6B144A0", Slot = "8")]
 	public bool Equals(StyleScale other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020A6")]
-	[Address(RVA = "0x3117FE0", Offset = "0x31165E0", VA = "0x183117FE0", Slot = "0")]
+	[Address(RVA = "0x6B144F0", Offset = "0x6B134F0", VA = "0x6B144F0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020A7")]
-	[Address(RVA = "0x31180C0", Offset = "0x31166C0", VA = "0x1831180C0", Slot = "2")]
+	[Address(RVA = "0x6B14590", Offset = "0x6B13590", VA = "0x6B14590", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60020A8")]
-	[Address(RVA = "0x3118120", Offset = "0x3116720", VA = "0x183118120", Slot = "3")]
+	[Address(RVA = "0x6B145E0", Offset = "0x6B135E0", VA = "0x6B145E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

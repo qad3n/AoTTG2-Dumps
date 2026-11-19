@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000715")]
+[Token(Token = "0x20007BF")]
 internal class CharacterEditorMenu : BaseMenu
 {
-	[Token(Token = "0x4002377")]
+	[Token(Token = "0x40026F7")]
 	[FieldOffset(Offset = "0x98")]
 	public CharacterEditorGameManager _gameManager;
 
-	[Token(Token = "0x6004589")]
-	[Address(RVA = "0x21DA6D0", Offset = "0x21D8CD0", VA = "0x1821DA6D0", Slot = "4")]
+	[Token(Token = "0x6004AB5")]
+	[Address(RVA = "0x5BD4F30", Offset = "0x5BD3F30", VA = "0x5BD4F30", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x600458A")]
-	[Address(RVA = "0x21DA690", Offset = "0x21D8C90", VA = "0x1821DA690", Slot = "7")]
+	[Token(Token = "0x6004AB6")]
+	[Address(RVA = "0x5BD51F0", Offset = "0x5BD41F0", VA = "0x5BD51F0", Slot = "8")]
 	public virtual bool IsPopupActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600458B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x6004AB7")]
+	[Address(RVA = "0x5BD5BE0", Offset = "0x5BD4BE0", VA = "0x5BD5BE0", Slot = "9")]
 	public virtual void RebuildPanels(bool costumePopup)
 	{
 	}
 
-	[Token(Token = "0x600458C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x6004AB8")]
+	[Address(RVA = "0x5BD5BF0", Offset = "0x5BD4BF0", VA = "0x5BD5BF0", Slot = "10")]
 	public virtual void ResetCharacter(bool fullReset = false)
 	{
 	}
 
-	[Token(Token = "0x600458D")]
-	[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "10")]
+	[Token(Token = "0x6004AB9")]
+	[Address(RVA = "0x5BD5C00", Offset = "0x5BD4C00", VA = "0x5BD5C00", Slot = "11")]
 	public virtual float GetMinMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600458E")]
-	[Address(RVA = "0x21DA670", Offset = "0x21D8C70", VA = "0x1821DA670", Slot = "11")]
+	[Token(Token = "0x6004ABA")]
+	[Address(RVA = "0x5BD5C10", Offset = "0x5BD4C10", VA = "0x5BD5C10", Slot = "12")]
 	public virtual float GetMaxMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600458F")]
-	[Address(RVA = "0x21DA7E0", Offset = "0x21D8DE0", VA = "0x1821DA7E0")]
+	[Token(Token = "0x6004ABB")]
+	[Address(RVA = "0x5BD5BD0", Offset = "0x5BD4BD0", VA = "0x5BD5BD0")]
 	public CharacterEditorMenu()
 	{
 	}

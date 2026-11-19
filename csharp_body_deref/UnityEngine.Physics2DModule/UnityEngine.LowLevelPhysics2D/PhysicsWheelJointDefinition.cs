@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsWheelJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,8 +41,8 @@ public struct PhysicsWheelJointDefinition
 
 	[Token(Token = "0x40000B2")]
 	[FieldOffset(Offset = "0x34")]
-	[SerializeField]
 	[Min(0f)]
+	[SerializeField]
 	private float m_SpringFrequency;
 
 	[Token(Token = "0x40000B3")]
@@ -84,8 +84,8 @@ public struct PhysicsWheelJointDefinition
 
 	[Token(Token = "0x40000BA")]
 	[FieldOffset(Offset = "0x54")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_ForceThreshold;
 
 	[Token(Token = "0x40000BB")]
@@ -96,8 +96,8 @@ public struct PhysicsWheelJointDefinition
 
 	[Token(Token = "0x40000BC")]
 	[FieldOffset(Offset = "0x5C")]
-	[Range(0f, 1000f)]
 	[SerializeField]
+	[Range(0f, 1000f)]
 	private float m_TuningFrequency;
 
 	[Token(Token = "0x40000BD")]
@@ -108,8 +108,8 @@ public struct PhysicsWheelJointDefinition
 
 	[Token(Token = "0x40000BE")]
 	[FieldOffset(Offset = "0x64")]
-	[SerializeField]
 	[Range(0.001f, 10f)]
+	[SerializeField]
 	private float m_DrawScale;
 
 	[Token(Token = "0x40000BF")]
@@ -121,7 +121,7 @@ public struct PhysicsWheelJointDefinition
 	public static PhysicsWheelJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x2FD7C70", Offset = "0x2FD6270", VA = "0x182FD7C70")]
+		[Address(RVA = "0x69CC190", Offset = "0x69CB190", VA = "0x69CC190")]
 		get
 		{
 			return default(PhysicsWheelJointDefinition);
@@ -129,13 +129,13 @@ public struct PhysicsWheelJointDefinition
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x2FD7BD0", Offset = "0x2FD61D0", VA = "0x182FD7BD0")]
+	[Address(RVA = "0x69CC0A0", Offset = "0x69CB0A0", VA = "0x69CC0A0")]
 	public PhysicsWheelJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2FD7B20", Offset = "0x2FD6120", VA = "0x182FD7B20")]
+	[Address(RVA = "0x69C9260", Offset = "0x69C8260", VA = "0x69C9260")]
 	public PhysicsWheelJointDefinition(bool useSettings)
 	{
 	}

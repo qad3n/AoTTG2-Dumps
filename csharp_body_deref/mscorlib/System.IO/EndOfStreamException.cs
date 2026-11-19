@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000662")]
+[Token(Token = "0x200063B")]
 public class EndOfStreamException : IOException
 {
-	[Token(Token = "0x60030B8")]
-	[Address(RVA = "0x1ACD7A0", Offset = "0x1ACBDA0", VA = "0x181ACD7A0")]
+	[Token(Token = "0x600307D")]
+	[Address(RVA = "0x5464770", Offset = "0x5463770", VA = "0x5464770")]
 	public EndOfStreamException()
 	{
 	}
 
-	[Token(Token = "0x60030B9")]
-	[Address(RVA = "0x1ACD7F0", Offset = "0x1ACBDF0", VA = "0x181ACD7F0")]
+	[Token(Token = "0x600307E")]
+	[Address(RVA = "0x54647B0", Offset = "0x54637B0", VA = "0x54647B0")]
 	public EndOfStreamException(string message)
 	{
 	}
 
-	[Token(Token = "0x60030BA")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x600307F")]
+	[Address(RVA = "0x54647D0", Offset = "0x54637D0", VA = "0x54647D0")]
 	protected EndOfStreamException(SerializationInfo info, StreamingContext context)
 	{
 	}

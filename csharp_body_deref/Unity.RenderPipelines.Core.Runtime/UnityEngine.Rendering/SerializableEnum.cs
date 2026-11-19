@@ -28,20 +28,20 @@ public class SerializableEnum
 	public Enum value
 	{
 		[Token(Token = "0x600056A")]
-		[Address(RVA = "0x2AE54A0", Offset = "0x2AE3AA0", VA = "0x182AE54A0")]
+		[Address(RVA = "0x64BF700", Offset = "0x64BE700", VA = "0x64BF700")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600056B")]
-		[Address(RVA = "0x2AE55B0", Offset = "0x2AE3BB0", VA = "0x182AE55B0")]
+		[Address(RVA = "0x64BF810", Offset = "0x64BE810", VA = "0x64BF810")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x2AE5410", Offset = "0x2AE3A10", VA = "0x182AE5410")]
+	[Address(RVA = "0x64BF850", Offset = "0x64BE850", VA = "0x64BF850")]
 	public SerializableEnum(Type enumType)
 	{
 	}

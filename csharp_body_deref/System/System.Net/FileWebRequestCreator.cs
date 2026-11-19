@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000302")]
+[Token(Token = "0x20002C3")]
 internal class FileWebRequestCreator : IWebRequestCreate
 {
-	[Token(Token = "0x60014F6")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001338")]
+	[Address(RVA = "0x62AB910", Offset = "0x62AA910", VA = "0x62AB910")]
 	internal FileWebRequestCreator()
 	{
 	}
 
-	[Token(Token = "0x60014F7")]
-	[Address(RVA = "0x27C9660", Offset = "0x27C7C60", VA = "0x1827C9660", Slot = "4")]
+	[Token(Token = "0x6001339")]
+	[Address(RVA = "0x62BE7F0", Offset = "0x62BD7F0", VA = "0x62BE7F0", Slot = "4")]
 	public WebRequest Create(Uri uri)
 	{
 		return null;

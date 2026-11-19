@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.RenderTextureDescriptor
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,128 +13,47 @@ using UnityEngine.Rendering;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200012C")]
+[Token(Token = "0x200012D")]
 public struct RenderTextureDescriptor
 {
-	[Token(Token = "0x40003AA")]
+	[Token(Token = "0x40003AF")]
 	[FieldOffset(Offset = "0x14")]
 	private GraphicsFormat _graphicsFormat;
 
-	[Token(Token = "0x40003B0")]
+	[Token(Token = "0x40003B5")]
 	[FieldOffset(Offset = "0x2C")]
 	private RenderTextureCreationFlags _flags;
 
-	[Token(Token = "0x170001A0")]
+	[Token(Token = "0x170001A5")]
 	public int width
 	{
-		[Token(Token = "0x6000982")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Token(Token = "0x6000993")]
+		[Address(RVA = "0x68F8880", Offset = "0x68F7880", VA = "0x68F8880")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000983")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Token(Token = "0x6000994")]
+		[Address(RVA = "0x68F8890", Offset = "0x68F7890", VA = "0x68F8890")]
 		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A1")]
-	public int height
-	{
-		[Token(Token = "0x6000984")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
-		[CompilerGenerated]
-		readonly get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000985")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A2")]
-	public int msaaSamples
-	{
-		[Token(Token = "0x6000986")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
-		[CompilerGenerated]
-		readonly get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000987")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A3")]
-	public int volumeDepth
-	{
-		[Token(Token = "0x6000988")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
-		[CompilerGenerated]
-		readonly get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000989")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A4")]
-	public int mipCount
-	{
-		[Token(Token = "0x600098A")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
-		[CompilerGenerated]
-		readonly get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x600098B")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A5")]
-	public GraphicsFormat graphicsFormat
-	{
-		[Token(Token = "0x600098C")]
-		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0")]
-		get
-		{
-			return default(GraphicsFormat);
-		}
-		[Token(Token = "0x600098D")]
-		[Address(RVA = "0x2EF0660", Offset = "0x2EEEC60", VA = "0x182EF0660")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001A6")]
-	public GraphicsFormat stencilFormat
+	public int height
 	{
-		[Token(Token = "0x600098E")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x6000995")]
+		[Address(RVA = "0x68F88A0", Offset = "0x68F78A0", VA = "0x68F88A0")]
+		[CompilerGenerated]
+		readonly get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x6000996")]
+		[Address(RVA = "0x68F88B0", Offset = "0x68F78B0", VA = "0x68F88B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -142,17 +61,17 @@ public struct RenderTextureDescriptor
 	}
 
 	[Token(Token = "0x170001A7")]
-	public GraphicsFormat depthStencilFormat
+	public int msaaSamples
 	{
-		[Token(Token = "0x600098F")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Token(Token = "0x6000997")]
+		[Address(RVA = "0x68F88C0", Offset = "0x68F78C0", VA = "0x68F88C0")]
 		[CompilerGenerated]
 		readonly get
 		{
-			return default(GraphicsFormat);
+			return default(int);
 		}
-		[Token(Token = "0x6000990")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Token(Token = "0x6000998")]
+		[Address(RVA = "0x68F88D0", Offset = "0x68F78D0", VA = "0x68F88D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -160,65 +79,62 @@ public struct RenderTextureDescriptor
 	}
 
 	[Token(Token = "0x170001A8")]
-	public RenderTextureFormat colorFormat
+	public int volumeDepth
 	{
-		[Token(Token = "0x6000991")]
-		[Address(RVA = "0x2EF02C0", Offset = "0x2EEE8C0", VA = "0x182EF02C0")]
-		get
+		[Token(Token = "0x6000999")]
+		[Address(RVA = "0x68F88E0", Offset = "0x68F78E0", VA = "0x68F88E0")]
+		[CompilerGenerated]
+		readonly get
 		{
-			return default(RenderTextureFormat);
+			return default(int);
 		}
-		[Token(Token = "0x6000992")]
-		[Address(RVA = "0x2EF0460", Offset = "0x2EEEA60", VA = "0x182EF0460")]
+		[Token(Token = "0x600099A")]
+		[Address(RVA = "0x68F88F0", Offset = "0x68F78F0", VA = "0x68F88F0")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001A9")]
-	public bool sRGB
+	public int mipCount
 	{
-		[Token(Token = "0x6000993")]
-		[Address(RVA = "0x2EF03A0", Offset = "0x2EEE9A0", VA = "0x182EF03A0")]
-		get
+		[Token(Token = "0x600099B")]
+		[Address(RVA = "0x68F8900", Offset = "0x68F7900", VA = "0x68F8900")]
+		[CompilerGenerated]
+		readonly get
 		{
-			return default(bool);
+			return default(int);
 		}
-		[Token(Token = "0x6000994")]
-		[Address(RVA = "0x2EF06D0", Offset = "0x2EEECD0", VA = "0x182EF06D0")]
+		[Token(Token = "0x600099C")]
+		[Address(RVA = "0x68F8910", Offset = "0x68F7910", VA = "0x68F8910")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001AA")]
-	public int depthBufferBits
+	public GraphicsFormat graphicsFormat
 	{
-		[Token(Token = "0x6000995")]
-		[Address(RVA = "0x2EF0330", Offset = "0x2EEE930", VA = "0x182EF0330")]
+		[Token(Token = "0x600099D")]
+		[Address(RVA = "0x68F8750", Offset = "0x68F7750", VA = "0x68F8750")]
 		get
 		{
-			return default(int);
+			return default(GraphicsFormat);
 		}
-		[Token(Token = "0x6000996")]
-		[Address(RVA = "0x2EF05F0", Offset = "0x2EEEBF0", VA = "0x182EF05F0")]
+		[Token(Token = "0x600099E")]
+		[Address(RVA = "0x68F8920", Offset = "0x68F7920", VA = "0x68F8920")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001AB")]
-	public TextureDimension dimension
+	public GraphicsFormat stencilFormat
 	{
-		[Token(Token = "0x6000997")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
-		[CompilerGenerated]
-		readonly get
-		{
-			return default(TextureDimension);
-		}
-		[Token(Token = "0x6000998")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Token(Token = "0x600099F")]
+		[Address(RVA = "0x68F89A0", Offset = "0x68F79A0", VA = "0x68F89A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -226,17 +142,17 @@ public struct RenderTextureDescriptor
 	}
 
 	[Token(Token = "0x170001AC")]
-	public ShadowSamplingMode shadowSamplingMode
+	public GraphicsFormat depthStencilFormat
 	{
-		[Token(Token = "0x6000999")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Token(Token = "0x60009A0")]
+		[Address(RVA = "0x68F89B0", Offset = "0x68F79B0", VA = "0x68F89B0")]
 		[CompilerGenerated]
 		readonly get
 		{
-			return default(ShadowSamplingMode);
+			return default(GraphicsFormat);
 		}
-		[Token(Token = "0x600099A")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Token(Token = "0x60009A1")]
+		[Address(RVA = "0x68F89C0", Offset = "0x68F79C0", VA = "0x68F89C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -244,227 +160,311 @@ public struct RenderTextureDescriptor
 	}
 
 	[Token(Token = "0x170001AD")]
-	public VRTextureUsage vrUsage
+	public RenderTextureFormat colorFormat
 	{
-		[Token(Token = "0x600099B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
-		[CompilerGenerated]
-		readonly get
+		[Token(Token = "0x60009A2")]
+		[Address(RVA = "0x68F8760", Offset = "0x68F7760", VA = "0x68F8760")]
+		get
 		{
-			return default(VRTextureUsage);
+			return default(RenderTextureFormat);
 		}
-		[Token(Token = "0x600099C")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
-		[CompilerGenerated]
+		[Token(Token = "0x60009A3")]
+		[Address(RVA = "0x68F89D0", Offset = "0x68F79D0", VA = "0x68F89D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001AE")]
-	public RenderTextureMemoryless memoryless
+	public bool sRGB
 	{
-		[Token(Token = "0x600099D")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
-		[CompilerGenerated]
-		readonly get
+		[Token(Token = "0x60009A4")]
+		[Address(RVA = "0x68F8B30", Offset = "0x68F7B30", VA = "0x68F8B30")]
+		get
 		{
-			return default(RenderTextureMemoryless);
+			return default(bool);
 		}
-		[Token(Token = "0x600099E")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
-		[CompilerGenerated]
+		[Token(Token = "0x60009A5")]
+		[Address(RVA = "0x68F8BD0", Offset = "0x68F7BD0", VA = "0x68F8BD0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001AF")]
-	public bool useMipMap
+	public int depthBufferBits
 	{
-		[Token(Token = "0x60009A9")]
-		[Address(RVA = "0x2EF0410", Offset = "0x2EEEA10", VA = "0x182EF0410")]
+		[Token(Token = "0x60009A6")]
+		[Address(RVA = "0x68F8B80", Offset = "0x68F7B80", VA = "0x68F8B80")]
 		get
 		{
-			return default(bool);
+			return default(int);
 		}
-		[Token(Token = "0x60009AA")]
-		[Address(RVA = "0x2EF0810", Offset = "0x2EEEE10", VA = "0x182EF0810")]
+		[Token(Token = "0x60009A7")]
+		[Address(RVA = "0x68F8CE0", Offset = "0x68F7CE0", VA = "0x68F8CE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B0")]
-	public bool autoGenerateMips
+	public TextureDimension dimension
 	{
-		[Token(Token = "0x60009AB")]
-		[Address(RVA = "0x2EF02A0", Offset = "0x2EEE8A0", VA = "0x182EF02A0")]
-		get
+		[Token(Token = "0x60009A8")]
+		[Address(RVA = "0x68F8D00", Offset = "0x68F7D00", VA = "0x68F8D00")]
+		[CompilerGenerated]
+		readonly get
 		{
-			return default(bool);
+			return default(TextureDimension);
 		}
-		[Token(Token = "0x60009AC")]
-		[Address(RVA = "0x2EF0420", Offset = "0x2EEEA20", VA = "0x182EF0420")]
+		[Token(Token = "0x60009A9")]
+		[Address(RVA = "0x68F8D10", Offset = "0x68F7D10", VA = "0x68F8D10")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B1")]
-	public bool enableRandomWrite
+	public ShadowSamplingMode shadowSamplingMode
 	{
-		[Token(Token = "0x60009AD")]
-		[Address(RVA = "0x2EF0380", Offset = "0x2EEE980", VA = "0x182EF0380")]
-		get
+		[Token(Token = "0x60009AA")]
+		[Address(RVA = "0x68F8D20", Offset = "0x68F7D20", VA = "0x68F8D20")]
+		[CompilerGenerated]
+		readonly get
 		{
-			return default(bool);
+			return default(ShadowSamplingMode);
 		}
-		[Token(Token = "0x60009AE")]
-		[Address(RVA = "0x2EF0620", Offset = "0x2EEEC20", VA = "0x182EF0620")]
+		[Token(Token = "0x60009AB")]
+		[Address(RVA = "0x68F8D30", Offset = "0x68F7D30", VA = "0x68F8D30")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B2")]
-	public bool bindMS
+	public VRTextureUsage vrUsage
 	{
-		[Token(Token = "0x60009AF")]
-		[Address(RVA = "0x2EF02B0", Offset = "0x2EEE8B0", VA = "0x182EF02B0")]
-		get
+		[Token(Token = "0x60009AC")]
+		[Address(RVA = "0x68F8D40", Offset = "0x68F7D40", VA = "0x68F8D40")]
+		[CompilerGenerated]
+		readonly get
 		{
-			return default(bool);
+			return default(VRTextureUsage);
 		}
-		[Token(Token = "0x60009B0")]
-		[Address(RVA = "0x2EF0440", Offset = "0x2EEEA40", VA = "0x182EF0440")]
+		[Token(Token = "0x60009AD")]
+		[Address(RVA = "0x68F8D50", Offset = "0x68F7D50", VA = "0x68F8D50")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B3")]
-	internal bool createdFromScript
+	public RenderTextureMemoryless memoryless
 	{
-		[Token(Token = "0x60009B1")]
-		[Address(RVA = "0x2EF05D0", Offset = "0x2EEEBD0", VA = "0x182EF05D0")]
+		[Token(Token = "0x60009AE")]
+		[Address(RVA = "0x68F8D60", Offset = "0x68F7D60", VA = "0x68F8D60")]
+		[CompilerGenerated]
+		readonly get
+		{
+			return default(RenderTextureMemoryless);
+		}
+		[Token(Token = "0x60009AF")]
+		[Address(RVA = "0x68F8D70", Offset = "0x68F7D70", VA = "0x68F8D70")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B4")]
-	public bool useDynamicScale
+	public bool useMipMap
 	{
-		[Token(Token = "0x60009B2")]
-		[Address(RVA = "0x2EF0400", Offset = "0x2EEEA00", VA = "0x182EF0400")]
+		[Token(Token = "0x60009BA")]
+		[Address(RVA = "0x68F94A0", Offset = "0x68F84A0", VA = "0x68F94A0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60009B3")]
-		[Address(RVA = "0x2EF07F0", Offset = "0x2EEEDF0", VA = "0x182EF07F0")]
+		[Token(Token = "0x60009BB")]
+		[Address(RVA = "0x68F94B0", Offset = "0x68F84B0", VA = "0x68F94B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B5")]
-	public bool useDynamicScaleExplicit
+	public bool autoGenerateMips
 	{
-		[Token(Token = "0x60009B4")]
-		[Address(RVA = "0x2EF03F0", Offset = "0x2EEE9F0", VA = "0x182EF03F0")]
+		[Token(Token = "0x60009BC")]
+		[Address(RVA = "0x68F94C0", Offset = "0x68F84C0", VA = "0x68F94C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60009B5")]
-		[Address(RVA = "0x2EF07D0", Offset = "0x2EEEDD0", VA = "0x182EF07D0")]
+		[Token(Token = "0x60009BD")]
+		[Address(RVA = "0x68F94D0", Offset = "0x68F84D0", VA = "0x68F94D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001B6")]
-	public bool enableShadingRate
+	public bool enableRandomWrite
 	{
-		[Token(Token = "0x60009B6")]
-		[Address(RVA = "0x2EF0390", Offset = "0x2EEE990", VA = "0x182EF0390")]
+		[Token(Token = "0x60009BE")]
+		[Address(RVA = "0x68F94E0", Offset = "0x68F84E0", VA = "0x68F94E0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60009B7")]
-		[Address(RVA = "0x2EF0640", Offset = "0x2EEEC40", VA = "0x182EF0640")]
+		[Token(Token = "0x60009BF")]
+		[Address(RVA = "0x68F94F0", Offset = "0x68F84F0", VA = "0x68F94F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600099F")]
-	[Address(RVA = "0x2EEFDA0", Offset = "0x2EEE3A0", VA = "0x182EEFDA0")]
+	[Token(Token = "0x170001B7")]
+	public bool bindMS
+	{
+		[Token(Token = "0x60009C0")]
+		[Address(RVA = "0x68F9500", Offset = "0x68F8500", VA = "0x68F9500")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60009C1")]
+		[Address(RVA = "0x68F9510", Offset = "0x68F8510", VA = "0x68F9510")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B8")]
+	internal bool createdFromScript
+	{
+		[Token(Token = "0x60009C2")]
+		[Address(RVA = "0x68F8870", Offset = "0x68F7870", VA = "0x68F8870")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B9")]
+	public bool useDynamicScale
+	{
+		[Token(Token = "0x60009C3")]
+		[Address(RVA = "0x68F9530", Offset = "0x68F8530", VA = "0x68F9530")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60009C4")]
+		[Address(RVA = "0x68F9540", Offset = "0x68F8540", VA = "0x68F9540")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BA")]
+	public bool useDynamicScaleExplicit
+	{
+		[Token(Token = "0x60009C5")]
+		[Address(RVA = "0x68F9560", Offset = "0x68F8560", VA = "0x68F9560")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60009C6")]
+		[Address(RVA = "0x68F9570", Offset = "0x68F8570", VA = "0x68F9570")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BB")]
+	public bool enableShadingRate
+	{
+		[Token(Token = "0x60009C7")]
+		[Address(RVA = "0x68F9590", Offset = "0x68F8590", VA = "0x68F9590")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60009C8")]
+		[Address(RVA = "0x68F95A0", Offset = "0x68F85A0", VA = "0x68F95A0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x60009B0")]
+	[Address(RVA = "0x68F8D80", Offset = "0x68F7D80", VA = "0x68F8D80")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height)
 	{
 	}
 
-	[Token(Token = "0x60009A0")]
-	[Address(RVA = "0x2EEFFE0", Offset = "0x2EEE5E0", VA = "0x182EEFFE0")]
+	[Token(Token = "0x60009B1")]
+	[Address(RVA = "0x68F8EE0", Offset = "0x68F7EE0", VA = "0x68F8EE0")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, RenderTextureFormat colorFormat)
 	{
 	}
 
-	[Token(Token = "0x60009A1")]
-	[Address(RVA = "0x2EF0200", Offset = "0x2EEE800", VA = "0x182EF0200")]
+	[Token(Token = "0x60009B2")]
+	[Address(RVA = "0x68F8F70", Offset = "0x68F7F70", VA = "0x68F8F70")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, RenderTextureFormat colorFormat, int depthBufferBits)
 	{
 	}
 
-	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x2EEFDC0", Offset = "0x2EEE3C0", VA = "0x182EEFDC0")]
+	[Token(Token = "0x60009B3")]
+	[Address(RVA = "0x68F9020", Offset = "0x68F8020", VA = "0x68F9020")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, GraphicsFormat colorFormat, int depthBufferBits)
 	{
 	}
 
-	[Token(Token = "0x60009A3")]
-	[Address(RVA = "0x2EEFEE0", Offset = "0x2EEE4E0", VA = "0x182EEFEE0")]
+	[Token(Token = "0x60009B4")]
+	[Address(RVA = "0x68F9000", Offset = "0x68F8000", VA = "0x68F9000")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, RenderTextureFormat colorFormat, int depthBufferBits, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x60009A4")]
-	[Address(RVA = "0x2EF00D0", Offset = "0x2EEE6D0", VA = "0x182EF00D0")]
+	[Token(Token = "0x60009B5")]
+	[Address(RVA = "0x68F91B0", Offset = "0x68F81B0", VA = "0x68F91B0")]
 	public RenderTextureDescriptor(int width, int height, [DefaultValue("RenderTextureFormat.Default")] RenderTextureFormat colorFormat, [DefaultValue("0")] int depthBufferBits, [DefaultValue("Texture.GenerateAllMips")] int mipCount, [DefaultValue("RenderTextureReadWrite.Linear")] RenderTextureReadWrite readWrite)
 	{
 	}
 
-	[Token(Token = "0x60009A5")]
-	[Address(RVA = "0x2EF0000", Offset = "0x2EEE600", VA = "0x182EF0000")]
+	[Token(Token = "0x60009B6")]
+	[Address(RVA = "0x68F90A0", Offset = "0x68F80A0", VA = "0x68F90A0")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, GraphicsFormat colorFormat, int depthBufferBits, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x60009A6")]
-	[Address(RVA = "0x2EEFE50", Offset = "0x2EEE450", VA = "0x182EEFE50")]
+	[Token(Token = "0x60009B7")]
+	[Address(RVA = "0x68F9380", Offset = "0x68F8380", VA = "0x68F9380")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, GraphicsFormat colorFormat, GraphicsFormat depthStencilFormat)
 	{
 	}
 
-	[Token(Token = "0x60009A7")]
-	[Address(RVA = "0x2EEFF10", Offset = "0x2EEE510", VA = "0x182EEFF10")]
+	[Token(Token = "0x60009B8")]
+	[Address(RVA = "0x68F92C0", Offset = "0x68F82C0", VA = "0x68F92C0")]
 	[ExcludeFromDocs]
 	public RenderTextureDescriptor(int width, int height, GraphicsFormat colorFormat, GraphicsFormat depthStencilFormat, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x60009A8")]
-	[Address(RVA = "0x2EEFD80", Offset = "0x2EEE380", VA = "0x182EEFD80")]
+	[Token(Token = "0x60009B9")]
+	[Address(RVA = "0x68F8980", Offset = "0x68F7980", VA = "0x68F8980")]
 	private void SetOrClearRenderTextureCreationFlag(bool value, RenderTextureCreationFlags flag)
 	{
 	}

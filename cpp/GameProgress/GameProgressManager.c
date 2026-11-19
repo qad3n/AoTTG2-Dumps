@@ -1,21 +1,21 @@
 // Type: GameProgress.GameProgressManager
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameProgress/GameProgressManager.cs
 // Prior real C# source (older reference): Assets/Scripts/GameProgress/GameProgressManager.cs
 // --------------------------------
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$.ctor
 // il2cpp: void GameProgress_GameProgressManager__IncrementPlayTime_d__19___ctor (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x59216a0
 
-void
-GameProgress_GameProgressManager__IncrementPlayTime_d__19___ctor(GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, int32_t __1__state, MethodInfo* method)
+void GameProgress_GameProgressManager__IncrementPlayTime_d__19___ctor
+               (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ GameProgress_GameProgressManager__IncrementPlayTime_d__19___ctor(GameProgress_Ga
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$System.IDisposable.Dispose
 // il2cpp: void GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_IDisposable_Dispose (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5921750
 
-void
-GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_IDisposable_Dispose(GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, MethodInfo* method)
+void GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_IDisposable_Dispose
+               (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,MethodInfo *method)
 
 {
   return;
@@ -35,7 +35,7 @@ GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_IDisposable_Di
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$MoveNext
 // il2cpp: bool GameProgress_GameProgressManager__IncrementPlayTime_d__19__MoveNext (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, const MethodInfo* method);
-// 0x181e3d160
+// 0x5921760
 
 bool GameProgress_GameProgressManager__IncrementPlayTime_d__19__MoveNext
                (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,MethodInfo *method)
@@ -45,23 +45,17 @@ bool GameProgress_GameProgressManager__IncrementPlayTime_d__19__MoveNext
   GameProgress_GameProgressContainer_o *pGVar2;
   GameProgress_GameStatContainer_o *pGVar3;
   Settings_FloatSetting_o *__this_00;
-  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *__this_01;
+  UnityEngine_WaitForSeconds_o *__this_01;
   
-  if (Il2CppMethodInitialized_184344dc2 == '\0') {
+  if (Il2CppMethodInitialized_07545756 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
-    Il2CppMethodInitialized_184344dc2 = '\x01';
+    Il2CppMethodInitialized_07545756 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 0) {
-    (__this->fields).__1__state = -1;
-  }
-  else {
-    if (iVar1 != 1) {
-      return false;
-    }
+  if (iVar1 == 1) {
     (__this->fields).__1__state = -1;
     if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
@@ -74,13 +68,18 @@ bool GameProgress_GameProgressManager__IncrementPlayTime_d__19__MoveNext
     }
     Settings_TypedSetting_float___set_Value
               ((Settings_TypedSetting_float__o *)__this_00,(__this_00->fields)._value + 10.0,
-               (MethodInfo_E8F490 *)MethodInfo_Settings_TypedSetting_float_set_Value);
+               (MethodInfo_42DA3B0 *)MethodInfo_Settings_TypedSetting_float_set_Value);
   }
-  __this_01 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+  else {
+    if (iVar1 != 0) {
+      return false;
+    }
+    (__this->fields).__1__state = -1;
+  }
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
   UnityEngine_WaitForSeconds___ctor(__this_01,10.0,(MethodInfo *)0x0);
   (__this->fields).__2__current = (Il2CppObject *)__this_01;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
   (__this->fields).__1__state = 1;
   return true;
 }
@@ -88,10 +87,11 @@ bool GameProgress_GameProgressManager__IncrementPlayTime_d__19__MoveNext
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_Generic_IEnumerator_System_Object__get_Current (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5921880
 
-Il2CppObject*
-GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_Generic_IEnumerator_System_Object__get_Current(GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, MethodInfo* method)
+Il2CppObject *
+GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -100,7 +100,7 @@ GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_Ge
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$System.Collections.IEnumerator.Reset
 // il2cpp: void GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IEnumerator_Reset (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, const MethodInfo* method);
-// 0x181e3d280
+// 0x5921890
 
 void GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IEnumerator_Reset
                (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,MethodInfo *method)
@@ -124,10 +124,11 @@ void GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collectio
 
 // GameProgress.GameProgressManager.<IncrementPlayTime>d__19$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IEnumerator_get_Current (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x59218d0
 
-Il2CppObject*
-GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IEnumerator_get_Current(GameProgress_GameProgressManager__IncrementPlayTime_d__19_o* __this, MethodInfo* method)
+Il2CppObject *
+GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IEnumerator_get_Current
+          (GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -136,28 +137,34 @@ GameProgress_GameProgressManager__IncrementPlayTime_d__19__System_Collections_IE
 
 // GameProgress.GameProgressManager$$Init
 // il2cpp: void GameProgress_GameProgressManager__Init (const MethodInfo* method);
-// 0x181e34ba0
+// 0x591fb30
 
 void GameProgress_GameProgressManager__Init(MethodInfo *method)
 
 {
   int32_t *piVar1;
   uint uVar2;
-  System_Collections_Generic_List_object__o *pSVar3;
-  System_Object_array *pSVar4;
-  MethodInfo *pMVar5;
-  GameProgress_GameProgressManager_o *pGVar6;
+  GameProgress_GameProgressManager_StaticFields *pGVar3;
+  GameProgress_GameProgressManager_o *__this;
+  GameProgress_GameStatContainer_o *gameStat;
+  GameProgress_QuestContainer_o *quest;
+  System_Collections_Generic_List_object__o *pSVar4;
+  System_Object_array *pSVar5;
+  MethodInfo *pMVar6;
   GameProgress_GameProgressContainer_o *pGVar7;
-  GameProgress_AchievementContainer_o *pGVar8;
-  GameProgress_QuestContainer_o *pGVar9;
-  GameProgress_GameStatContainer_o *pGVar10;
-  GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *routine;
-  GameProgress_GameStatHandler_o *pGVar11;
-  GameProgress_AchievementHandler_o *pGVar12;
-  GameProgress_QuestHandler_o *pGVar13;
-  Events_OnLoadScene_o *value;
+  GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this_00;
+  GameProgress_GameStatHandler_o *pGVar8;
+  GameProgress_AchievementHandler_o *pGVar9;
+  GameProgress_QuestHandler_o *pGVar10;
+  Events_OnLoadScene_o *__this_01;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
   
-  if (Il2CppMethodInitialized_184344db3 == '\0') {
+  if (Il2CppMethodInitialized_07545747 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_AchievementHandler);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressContainer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_GameProgress_GameProgressManager_OnLoadScene);
@@ -169,291 +176,352 @@ void GameProgress_GameProgressManager__Init(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_QuestHandler);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Utility_SingletonFactory_CreateSingleton_GameProgressManager);
-    Il2CppMethodInitialized_184344db3 = '\x01';
+    Il2CppMethodInitialized_07545747 = '\x01';
   }
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  pGVar6 = Utility_SingletonFactory__CreateSingleton_object_
+  pMVar6 = (MethodInfo *)
+           Utility_SingletonFactory__CreateSingleton_object_
                      ((Il2CppObject *)TypeInfo_GameProgress_GameProgressManager->static_fields->_instance,
-                      (MethodInfo_798ED0 *)
+                      (MethodInfo_3680650 *)
                       MethodInfo_Utility_SingletonFactory_CreateSingleton_GameProgressManager);
-  TypeInfo_GameProgress_GameProgressManager->static_fields->_instance = pGVar6;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameProgress_GameProgressManager->static_fields->_instance,pGVar6);
+  TypeInfo_GameProgress_GameProgressManager->static_fields->_instance =
+       (GameProgress_GameProgressManager_o *)pMVar6;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameProgress_GameProgressManager->static_fields->_instance);
   pGVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_GameProgressContainer);
-  if (Il2CppMethodInitialized_184344db2 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_AchievementContainer);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameStatContainer);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_QuestContainer);
-    Il2CppMethodInitialized_184344db2 = '\x01';
-  }
-  pGVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_AchievementContainer);
-  GameProgress_AchievementContainer___ctor(pGVar8,(MethodInfo *)0x0);
-  (pGVar7->fields).Achievement = pGVar8;
-  Il2CppCodeGenWriteBarrier(&(pGVar7->fields).Achievement,pGVar8);
-  pGVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_QuestContainer);
-  GameProgress_QuestContainer___ctor(pGVar9,(MethodInfo *)0x0);
-  (pGVar7->fields).Quest = pGVar9;
-  Il2CppCodeGenWriteBarrier(&(pGVar7->fields).Quest,pGVar9);
-  pGVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_GameStatContainer);
-  GameProgress_GameStatContainer___ctor(pGVar10,(MethodInfo *)0x0);
-  (pGVar7->fields).GameStat = pGVar10;
-  Il2CppCodeGenWriteBarrier(&(pGVar7->fields).GameStat,pGVar10);
-  Settings_SaveableSettingsContainer___ctor((Settings_SaveableSettingsContainer_o *)pGVar7,(MethodInfo *)0x0);
-  TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress = pGVar7;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress,pGVar7);
-  if (TypeInfo_GameProgress_GameProgressManager->static_fields->_instance !=
-      (GameProgress_GameProgressManager_o *)0x0) {
-    pGVar6 = TypeInfo_GameProgress_GameProgressManager->static_fields->_instance;
-    if (Il2CppMethodInitialized_184344dc0 == '\0') {
+  GameProgress_GameProgressContainer___ctor(pGVar7,pMVar6);
+  pGVar3 = TypeInfo_GameProgress_GameProgressManager->static_fields;
+  pGVar3->GameProgress = pGVar7;
+  Il2CppCodeGenWriteBarrier(&pGVar3->GameProgress);
+  __this = TypeInfo_GameProgress_GameProgressManager->static_fields->_instance;
+  if (__this != (GameProgress_GameProgressManager_o *)0x0) {
+    if (Il2CppMethodInitialized_07545754 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata
                 (&TypeInfo_GameProgress_GameProgressManager_IncrementPlayTime_d__19);
-      Il2CppMethodInitialized_184344dc0 = '\x01';
+      Il2CppMethodInitialized_07545754 = '\x01';
     }
-    routine = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager_IncrementPlayTime_d__19);
-    System_Object___ctor
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-    (routine->fields).__1__state = 0;
-    UnityEngine_MonoBehaviour__StartCoroutine_Auto
-              ((UnityEngine_MonoBehaviour_o *)pGVar6,(System_Collections_IEnumerator_o *)routine,
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager_IncrementPlayTime_d__19);
+    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+    (__this_00->fields).__1__state = 0;
+    UnityEngine_MonoBehaviour__StartCoroutine_691c390
+              ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
                (MethodInfo *)0x0);
     pGVar7 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-    if (pGVar7 == (GameProgress_GameProgressContainer_o *)0x0) goto label_181e350fe;
-    pGVar10 = (pGVar7->fields).GameStat;
-    pGVar11 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_GameStatHandler);
-    GameProgress_GameStatHandler___ctor(pGVar11,pGVar10,(MethodInfo *)0x0);
-    TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler = pGVar11;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler,pGVar11);
-    pGVar7 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-    if (pGVar7 == (GameProgress_GameProgressContainer_o *)0x0) goto label_181e350fe;
-    pGVar8 = (pGVar7->fields).Achievement;
-    pGVar12 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_AchievementHandler);
-    if (Il2CppMethodInitialized_184344d97 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_QuestHandler);
-      Il2CppMethodInitialized_184344d97 = '\x01';
-    }
-    if ((TypeInfo_GameProgress_QuestHandler->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_QuestHandler);
-    }
-    GameProgress_QuestHandler___ctor
-              ((GameProgress_QuestHandler_o *)pGVar12,(GameProgress_QuestContainer_o *)0x0,(MethodInfo *)0x0);
-    (pGVar12->fields)._achievement = pGVar8;
-    Il2CppCodeGenWriteBarrier(&(pGVar12->fields)._achievement,pGVar8);
-    GameProgress_AchievementHandler__LoadAchievements(pGVar12,(MethodInfo *)0x0);
-    GameProgress_AchievementHandler__CacheActiveAchievements(pGVar12,(MethodInfo *)0x0);
-    TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler = pGVar12;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler,pGVar12);
-    pGVar7 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-    if (pGVar7 == (GameProgress_GameProgressContainer_o *)0x0) goto label_181e350fe;
-    pGVar9 = (pGVar7->fields).Quest;
-    pGVar13 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_QuestHandler);
-    GameProgress_QuestHandler___ctor(pGVar13,pGVar9,(MethodInfo *)0x0);
-    TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler = pGVar13;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler,pGVar13);
-    pMVar5 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
-    pSVar3 = (System_Collections_Generic_List_object__o *)
-             TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-    if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_181e350fe;
-    pGVar11 = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
-    piVar1 = &(pSVar3->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar4 = (pSVar3->fields)._items;
-    if (pSVar4 == (System_Object_array *)0x0) goto label_181e350fe;
-    uVar2 = (pSVar3->fields)._size;
-    if (uVar2 < (uint)pSVar4->max_length) {
-      (pSVar3->fields)._size = uVar2 + 1;
-      if ((uint)pSVar4->max_length <= uVar2) goto label_181e35104;
-      pSVar4->m_Items[(int)uVar2] = (Il2CppObject *)pGVar11;
-      Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pGVar11);
-    }
-    else {
-      System_Collections_Generic_List_object___AddWithResize
-                (pSVar3,(Il2CppObject *)pGVar11,(MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
-    }
-    pMVar5 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
-    pSVar3 = (System_Collections_Generic_List_object__o *)
-             TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-    if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_181e350fe;
-    pGVar12 = TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler;
-    piVar1 = &(pSVar3->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar4 = (pSVar3->fields)._items;
-    if (pSVar4 == (System_Object_array *)0x0) goto label_181e350fe;
-    uVar2 = (pSVar3->fields)._size;
-    if (uVar2 < (uint)pSVar4->max_length) {
-      (pSVar3->fields)._size = uVar2 + 1;
-      if ((uint)pSVar4->max_length <= uVar2) goto label_181e35104;
-      pSVar4->m_Items[(int)uVar2] = (Il2CppObject *)pGVar12;
-      Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pGVar12);
-    }
-    else {
-      System_Collections_Generic_List_object___AddWithResize
-                (pSVar3,(Il2CppObject *)pGVar12,(MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
-    }
-    pMVar5 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
-    pSVar3 = (System_Collections_Generic_List_object__o *)
-             TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-    if (pSVar3 != (System_Collections_Generic_List_object__o *)0x0) {
-      pGVar13 = TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler;
-      piVar1 = &(pSVar3->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar4 = (pSVar3->fields)._items;
-      if (pSVar4 != (System_Object_array *)0x0) {
-        uVar2 = (pSVar3->fields)._size;
-        if (uVar2 < (uint)pSVar4->max_length) {
-          (pSVar3->fields)._size = uVar2 + 1;
-          if ((uint)pSVar4->max_length <= uVar2) {
-label_181e35104:
-            ThrowIndexOutOfRangeException();
+    if (pGVar7 != (GameProgress_GameProgressContainer_o *)0x0) {
+      gameStat = (pGVar7->fields).GameStat;
+      pGVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_GameStatHandler);
+      GameProgress_GameStatHandler___ctor(pGVar8,gameStat,method_00);
+      pGVar3 = TypeInfo_GameProgress_GameProgressManager->static_fields;
+      pGVar3->_gameStatHandler = pGVar8;
+      Il2CppCodeGenWriteBarrier(&pGVar3->_gameStatHandler);
+      pGVar7 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+      if (pGVar7 != (GameProgress_GameProgressContainer_o *)0x0) {
+        pMVar6 = (MethodInfo *)(pGVar7->fields).Achievement;
+        pGVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_AchievementHandler);
+        method_01 = extraout_RDX;
+        if (Il2CppMethodInitialized_07545727 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_QuestHandler);
+          Il2CppMethodInitialized_07545727 = '\x01';
+          method_01 = extraout_RDX_00;
+        }
+        if ((TypeInfo_GameProgress_QuestHandler->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_QuestHandler);
+          method_01 = extraout_RDX_01;
+        }
+        GameProgress_QuestHandler___ctor
+                  ((GameProgress_QuestHandler_o *)pGVar9,(GameProgress_QuestContainer_o *)0x0,method_01);
+        (pGVar9->fields)._achievement = (GameProgress_AchievementContainer_o *)pMVar6;
+        Il2CppCodeGenWriteBarrier(&(pGVar9->fields)._achievement);
+        GameProgress_AchievementHandler__LoadAchievements(pGVar9,pMVar6);
+        GameProgress_AchievementHandler__CacheActiveAchievements(pGVar9,pMVar6);
+        pGVar3 = TypeInfo_GameProgress_GameProgressManager->static_fields;
+        pGVar3->_achievementHandler = pGVar9;
+        Il2CppCodeGenWriteBarrier(&pGVar3->_achievementHandler);
+        pGVar7 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+        if (pGVar7 != (GameProgress_GameProgressContainer_o *)0x0) {
+          quest = (pGVar7->fields).Quest;
+          pGVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_QuestHandler);
+          GameProgress_QuestHandler___ctor(pGVar10,quest,method_02);
+          pGVar3 = TypeInfo_GameProgress_GameProgressManager->static_fields;
+          pGVar3->_questHandler = pGVar10;
+          Il2CppCodeGenWriteBarrier(&pGVar3->_questHandler);
+          pMVar6 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
+          pSVar4 = (System_Collections_Generic_List_object__o *)
+                   TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
+          if (pSVar4 != (System_Collections_Generic_List_object__o *)0x0) {
+            pGVar8 = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
+            piVar1 = &(pSVar4->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pSVar5 = (pSVar4->fields)._items;
+            if (pSVar5 != (System_Object_array *)0x0) {
+              uVar2 = (pSVar4->fields)._size;
+              if (uVar2 < (uint)pSVar5->max_length) {
+                (pSVar4->fields)._size = uVar2 + 1;
+                pSVar5->m_Items[(int)uVar2] = (Il2CppObject *)pGVar8;
+                Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar2);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          (pSVar4,(Il2CppObject *)pGVar8,
+                           (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+              }
+              pMVar6 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
+              pSVar4 = (System_Collections_Generic_List_object__o *)
+                       TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
+              if (pSVar4 != (System_Collections_Generic_List_object__o *)0x0) {
+                pGVar9 = TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler;
+                piVar1 = &(pSVar4->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                pSVar5 = (pSVar4->fields)._items;
+                if (pSVar5 != (System_Object_array *)0x0) {
+                  uVar2 = (pSVar4->fields)._size;
+                  if (uVar2 < (uint)pSVar5->max_length) {
+                    (pSVar4->fields)._size = uVar2 + 1;
+                    pSVar5->m_Items[(int)uVar2] = (Il2CppObject *)pGVar9;
+                    Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar2);
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              (pSVar4,(Il2CppObject *)pGVar9,
+                               (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+                  }
+                  pMVar6 = MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_Add;
+                  pSVar4 = (System_Collections_Generic_List_object__o *)
+                           TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
+                  if (pSVar4 != (System_Collections_Generic_List_object__o *)0x0) {
+                    pGVar10 = TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler;
+                    piVar1 = &(pSVar4->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pSVar5 = (pSVar4->fields)._items;
+                    if (pSVar5 != (System_Object_array *)0x0) {
+                      uVar2 = (pSVar4->fields)._size;
+                      if (uVar2 < (uint)pSVar5->max_length) {
+                        (pSVar4->fields)._size = uVar2 + 1;
+                        pSVar5->m_Items[(int)uVar2] = (Il2CppObject *)pGVar10;
+                        Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar2);
+                      }
+                      else {
+                        System_Collections_Generic_List_object___AddWithResize
+                                  (pSVar4,(Il2CppObject *)pGVar10,
+                                   (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+                      }
+                      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnLoadScene);
+                      Events_OnLoadScene___ctor
+                                (__this_01,(Il2CppObject *)0x0,
+                                 (intptr_t)MethodInfo_GameProgress_GameProgressManager_OnLoadScene,
+                                 (MethodInfo *)0x0);
+                      Events_EventManager__add_OnLoadScene(__this_01,(MethodInfo *)0x0);
+                      return;
+                    }
+                  }
+                }
+              }
+            }
           }
-          pSVar4->m_Items[(int)uVar2] = (Il2CppObject *)pGVar13;
-          Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pGVar13);
         }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar3,(Il2CppObject *)pGVar13,(MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method
-                    );
-        }
-        value = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Events_OnLoadScene);
-        Events_OnLoadScene___ctor
-                  ((UnityEngine_AudioClip_PCMSetPositionCallback_o *)value,(Il2CppObject *)0x0,
-                   (intptr_t)MethodInfo_GameProgress_GameProgressManager_OnLoadScene,(MethodInfo *)0x0);
-        Events_EventManager__add_OnLoadScene(value,(MethodInfo *)0x0);
-        return;
       }
     }
   }
-label_181e350fe:
   ThrowNullReferenceException();
 }
 
 
 // GameProgress.GameProgressManager$$OnApplicationQuit
 // il2cpp: void GameProgress_GameProgressManager__OnApplicationQuit (GameProgress_GameProgressManager_o* __this, const MethodInfo* method);
-// 0x181e35110
+// 0x5920150
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x592016d: cmp byte ptr [rip + 0x1c255d6], 0
 
 void GameProgress_GameProgressManager__OnApplicationQuit
                (GameProgress_GameProgressManager_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344db4 == '\0') {
+  uint32_t uVar1;
+  GameProgress_GameProgressContainer_o *pGVar2;
+  
+  if (Il2CppMethodInitialized_07545748 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db4 = '\x01';
+    Il2CppMethodInitialized_07545748 = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  GameProgress_GameProgressManager__Save((MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0754574a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
+    Il2CppMethodInitialized_0754574a = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+  }
+  else {
+    pGVar2 = *(GameProgress_GameProgressContainer_o **)
+              ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 8);
+  }
+  if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (*(pGVar2->klass->vtable)._18_Save.methodPtr)(pGVar2,(pGVar2->klass->vtable)._18_Save.method);
   return;
 }
 
 
 // GameProgress.GameProgressManager$$OnLoadScene
 // il2cpp: void GameProgress_GameProgressManager__OnLoadScene (int32_t sceneName, const MethodInfo* method);
-// 0x181e35150
+// 0x59202b0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59202ea: cmp byte ptr [rip + 0x1c25459], 0
+// asm:   0x59202f1: je 0x592032a
+// asm:   0x592030f: jmp 0x59203be
 
 void GameProgress_GameProgressManager__OnLoadScene(int32_t sceneName,MethodInfo *method)
 
 {
+  uint32_t uVar1;
+  GameProgress_GameProgressContainer_o *pGVar2;
   GameProgress_AchievementHandler_o *__this;
   GameProgress_QuestHandler_o *__this_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184344db5 == '\0') {
+  if (Il2CppMethodInitialized_07545749 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db5 = '\x01';
+    Il2CppMethodInitialized_07545749 = '\x01';
   }
-  if (sceneName == 1) {
-    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
-    }
-    GameProgress_GameProgressManager__Save((MethodInfo *)0x0);
-    __this = TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler;
-    if (__this != (GameProgress_AchievementHandler_o *)0x0) {
-      GameProgress_AchievementHandler__LoadAchievements(__this,(MethodInfo *)0x0);
-      GameProgress_AchievementHandler__CacheActiveAchievements(__this,(MethodInfo *)0x0);
-      __this_00 = TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler;
-      if (__this_00 != (GameProgress_QuestHandler_o *)0x0) {
-        GameProgress_QuestHandler__LoadQuests(__this_00,(MethodInfo *)0x0);
-        GameProgress_QuestHandler__CacheActiveQuests(__this_00,(MethodInfo *)0x0);
-        return;
-      }
-    }
-    ThrowNullReferenceException();
-  }
-  return;
-}
-
-
-// GameProgress.GameProgressManager$$Save
-// il2cpp: void GameProgress_GameProgressManager__Save (const MethodInfo* method);
-// 0x181e35950
-
-void GameProgress_GameProgressManager__Save(MethodInfo *method)
-
-{
-  GameProgress_GameProgressContainer_o *pGVar1;
-  
-  if (Il2CppMethodInitialized_184344db6 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db6 = '\x01';
+  if (sceneName != 1) {
+    return;
   }
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-  if (pGVar1 != (GameProgress_GameProgressContainer_o *)0x0) {
-    (*(pGVar1->klass->vtable)._18_Save.methodPtr)(pGVar1,(pGVar1->klass->vtable)._18_Save.method);
-    return;
+  if (Il2CppMethodInitialized_0754574a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
+    Il2CppMethodInitialized_0754574a = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+  }
+  else {
+    pGVar2 = *(GameProgress_GameProgressContainer_o **)
+              ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 8);
+  }
+  if (pGVar2 != (GameProgress_GameProgressContainer_o *)0x0) {
+    method_00 = (pGVar2->klass->vtable)._18_Save.method;
+    (*(pGVar2->klass->vtable)._18_Save.methodPtr)(pGVar2,method_00);
+    __this = TypeInfo_GameProgress_GameProgressManager->static_fields->_achievementHandler;
+    if (__this != (GameProgress_AchievementHandler_o *)0x0) {
+      GameProgress_AchievementHandler__LoadAchievements(__this,method_00);
+      GameProgress_AchievementHandler__CacheActiveAchievements(__this,method_00);
+      __this_00 = TypeInfo_GameProgress_GameProgressManager->static_fields->_questHandler;
+      if (__this_00 != (GameProgress_QuestHandler_o *)0x0) {
+        GameProgress_QuestHandler__LoadQuests(__this_00,method_00);
+        GameProgress_QuestHandler__CacheActiveQuests(__this_00,method_00);
+        return;
+      }
+    }
   }
   ThrowNullReferenceException();
 }
 
 
+// GameProgress.GameProgressManager$$Save
+// il2cpp: void GameProgress_GameProgressManager__Save (const MethodInfo* method);
+// 0x5920220
+
+void GameProgress_GameProgressManager__Save(MethodInfo *method)
+
+{
+  uint32_t uVar1;
+  GameProgress_GameProgressContainer_o *pGVar2;
+  
+  if (Il2CppMethodInitialized_0754574a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
+    Il2CppMethodInitialized_0754574a = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+  }
+  else {
+    pGVar2 = *(GameProgress_GameProgressContainer_o **)
+              ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 8);
+  }
+  if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (*(pGVar2->klass->vtable)._18_Save.methodPtr)(pGVar2,(pGVar2->klass->vtable)._18_Save.method);
+  return;
+}
+
+
 // GameProgress.GameProgressManager$$GetExpToNext
 // il2cpp: int32_t GameProgress_GameProgressManager__GetExpToNext (const MethodInfo* method);
-// 0x181e34a90
+// 0x59203f0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x592041d: jmp 0x59204bf
 
 int32_t GameProgress_GameProgressManager__GetExpToNext(MethodInfo *method)
 
 {
-  GameProgress_GameStatHandler_o *pGVar1;
-  GameProgress_GameStatContainer_o *pGVar2;
-  Settings_IntSetting_o *pSVar3;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this;
+  uint32_t uVar1;
+  GameProgress_GameStatHandler_o *pGVar2;
+  GameProgress_GameStatContainer_o *pGVar3;
+  Settings_IntSetting_o *pSVar4;
+  System_Collections_Generic_List_int__o *__this;
   int32_t iVar5;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o SVar4;
   
-  if (Il2CppMethodInitialized_184344db7 == '\0') {
+  if (Il2CppMethodInitialized_0754574b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db7 = '\x01';
+    Il2CppMethodInitialized_0754574b = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
   }
-  pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
-  if (pGVar1 != (GameProgress_GameStatHandler_o *)0x0) {
-    if (Il2CppMethodInitialized_184344dca == '\0') {
+  else {
+    pGVar2 = *(GameProgress_GameStatHandler_o **)
+              ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 0x10);
+  }
+  if (pGVar2 != (GameProgress_GameStatHandler_o *)0x0) {
+    if (Il2CppMethodInitialized_0754575e == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Item);
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-      Il2CppMethodInitialized_184344dca = '\x01';
+      Il2CppMethodInitialized_0754575e = '\x01';
     }
-    pGVar2 = (pGVar1->fields)._gameStat;
-    if ((pGVar2 != (GameProgress_GameStatContainer_o *)0x0) &&
-       (pSVar3 = (pGVar2->fields).Level, pSVar3 != (Settings_IntSetting_o *)0x0)) {
-      if (0x31 < (pSVar3->fields)._value) {
+    pGVar3 = (pGVar2->fields)._gameStat;
+    if ((pGVar3 != (GameProgress_GameStatContainer_o *)0x0) &&
+       (pSVar4 = (pGVar3->fields).Level, pSVar4 != (Settings_IntSetting_o *)0x0)) {
+      iVar5 = (pSVar4->fields)._value;
+      if (0x31 < iVar5) {
         return 0;
       }
-      __this = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)(pGVar1->fields)._expPerLevel;
-      if (__this != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-        SVar4 = System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                          (__this,(((pGVar2->fields).Level)->fields)._value,
-                           (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        iVar5._0_2_ = SVar4.fields.First;
-        iVar5._2_2_ = SVar4.fields.Last;
+      __this = (pGVar2->fields)._expPerLevel;
+      if (__this != (System_Collections_Generic_List_int__o *)0x0) {
+        iVar5 = System_Collections_Generic_List_int___get_Item
+                          (__this,iVar5,
+                           (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
         return iVar5;
       }
     }
@@ -464,24 +532,53 @@ int32_t GameProgress_GameProgressManager__GetExpToNext(MethodInfo *method)
 
 // GameProgress.GameProgressManager$$AddExp
 // il2cpp: void GameProgress_GameProgressManager__AddExp (int32_t exp, const MethodInfo* method);
-// 0x181e348e0
+// 0x5920540
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5920571: jmp 0x5920610
 
 void GameProgress_GameProgressManager__AddExp(int32_t exp,MethodInfo *method)
 
 {
+  uint32_t uVar1;
   GameProgress_GameStatHandler_o *__this;
+  GameProgress_GameStatContainer_o *pGVar2;
+  Settings_IntSetting_o *__this_00;
+  uint value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184344db8 == '\0') {
+  if (Il2CppMethodInitialized_0754574c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db8 = '\x01';
+    Il2CppMethodInitialized_0754574c = '\x01';
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    __this = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
   }
-  __this = TypeInfo_GameProgress_GameProgressManager->static_fields->_gameStatHandler;
+  else {
+    __this = *(GameProgress_GameStatHandler_o **)
+              ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 0x10);
+  }
   if (__this != (GameProgress_GameStatHandler_o *)0x0) {
-    GameProgress_GameStatHandler__AddExp(__this,exp,(MethodInfo *)0x0);
-    return;
+    if (Il2CppMethodInitialized_0754575f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+      Il2CppMethodInitialized_0754575f = '\x01';
+    }
+    pGVar2 = (__this->fields)._gameStat;
+    if ((pGVar2 != (GameProgress_GameStatContainer_o *)0x0) &&
+       (__this_00 = (pGVar2->fields).Exp, __this_00 != (Settings_IntSetting_o *)0x0)) {
+      value = exp + (__this_00->fields)._value;
+      method_00 = (MethodInfo *)(ulong)value;
+      Settings_TypedSetting_int___set_Value
+                ((Settings_TypedSetting_int__o *)__this_00,value,
+                 (MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      GameProgress_GameStatHandler__CheckLevelUp(__this,method_00);
+      return;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -489,108 +586,178 @@ void GameProgress_GameProgressManager__AddExp(int32_t exp,MethodInfo *method)
 
 // GameProgress.GameProgressManager$$ClearGameStat
 // il2cpp: void GameProgress_GameProgressManager__ClearGameStat (int32_t record, const MethodInfo* method);
-// 0x181e349f0
+// 0x5920690
 
 void GameProgress_GameProgressManager__ClearGameStat(int32_t record,MethodInfo *method)
 
 {
-  GameProgress_GameProgressContainer_o *pGVar1;
+  uint32_t uVar1;
   GameProgress_GameStatContainer_o *__this;
+  GameProgress_GameProgressContainer_o *pGVar2;
+  MethodInfo *in_RDX;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
   
-  if (Il2CppMethodInitialized_184344db9 == '\0') {
+  if (Il2CppMethodInitialized_0754574d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344db9 = '\x01';
-  }
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+    Il2CppMethodInitialized_0754574d = '\x01';
+    in_RDX = extraout_RDX_00;
+    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor != 0) goto label_059206ba;
+label_0592077c:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+    in_RDX = extraout_RDX_01;
   }
-  if (TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress !=
-      (GameProgress_GameProgressContainer_o *)0x0) {
-    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+  else {
+    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) goto label_0592077c;
+label_059206ba:
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+  }
+  if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) {
+    return;
+  }
+  if ((((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+    in_RDX = extraout_RDX;
+    if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) goto label_059207df;
+  }
+  __this = (pGVar2->fields).GameStat;
+  if (__this != (GameProgress_GameStatContainer_o *)0x0) {
+    GameProgress_GameStatContainer__Clear(__this,record,in_RDX);
+    if (Il2CppMethodInitialized_0754574a == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
+      Il2CppMethodInitialized_0754574a = '\x01';
+      uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
     }
-    pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-    if ((pGVar1 != (GameProgress_GameProgressContainer_o *)0x0) &&
-       (__this = (pGVar1->fields).GameStat, __this != (GameProgress_GameStatContainer_o *)0x0)) {
-      GameProgress_GameStatContainer__Clear(__this,record,(MethodInfo *)0x0);
-      GameProgress_GameProgressManager__Save((MethodInfo *)0x0);
+    else {
+      uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+    }
+    if (uVar1 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+      pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+    }
+    else {
+      pGVar2 = *(GameProgress_GameProgressContainer_o **)
+                ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 8);
+    }
+    if (pGVar2 != (GameProgress_GameProgressContainer_o *)0x0) {
+      (*(pGVar2->klass->vtable)._18_Save.methodPtr)(pGVar2,(pGVar2->klass->vtable)._18_Save.method);
       return;
     }
-    ThrowNullReferenceException();
   }
-  return;
+label_059207df:
+  ThrowNullReferenceException();
 }
 
 
 // GameProgress.GameProgressManager$$ClearAllGameStats
 // il2cpp: void GameProgress_GameProgressManager__ClearAllGameStats (const MethodInfo* method);
-// 0x181e34950
+// 0x5920a40
 
 void GameProgress_GameProgressManager__ClearAllGameStats(MethodInfo *method)
 
 {
-  GameProgress_GameProgressContainer_o *pGVar1;
+  uint32_t uVar1;
   GameProgress_GameStatContainer_o *__this;
+  GameProgress_GameProgressContainer_o *pGVar2;
+  MethodInfo *in_RSI;
   
-  if (Il2CppMethodInitialized_184344dba == '\0') {
+  if (Il2CppMethodInitialized_0754574e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
-    Il2CppMethodInitialized_184344dba = '\x01';
-  }
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+    Il2CppMethodInitialized_0754574e = '\x01';
+    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor != 0) goto label_05920a65;
+label_05920b1f:
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
   }
-  if (TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress !=
-      (GameProgress_GameProgressContainer_o *)0x0) {
-    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+  else {
+    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) goto label_05920b1f;
+label_05920a65:
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+  }
+  if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) {
+    return;
+  }
+  if ((((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+    if (pGVar2 == (GameProgress_GameProgressContainer_o *)0x0) goto label_05920b7c;
+  }
+  __this = (pGVar2->fields).GameStat;
+  if (__this != (GameProgress_GameStatContainer_o *)0x0) {
+    GameProgress_GameStatContainer__ClearAll(__this,in_RSI);
+    if (Il2CppMethodInitialized_0754574a == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
+      Il2CppMethodInitialized_0754574a = '\x01';
+      uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
     }
-    pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
-    if ((pGVar1 != (GameProgress_GameProgressContainer_o *)0x0) &&
-       (__this = (pGVar1->fields).GameStat, __this != (GameProgress_GameStatContainer_o *)0x0)) {
-      GameProgress_GameStatContainer__ClearAll(__this,(MethodInfo *)0x0);
-      GameProgress_GameProgressManager__Save((MethodInfo *)0x0);
+    else {
+      uVar1 = (TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor;
+    }
+    if (uVar1 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+      pGVar2 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
+    }
+    else {
+      pGVar2 = *(GameProgress_GameProgressContainer_o **)
+                ((long)((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager)->static_fields + 8);
+    }
+    if (pGVar2 != (GameProgress_GameProgressContainer_o *)0x0) {
+      (*(pGVar2->klass->vtable)._18_Save.methodPtr)(pGVar2,(pGVar2->klass->vtable)._18_Save.method);
       return;
     }
-    ThrowNullReferenceException();
   }
-  return;
+label_05920b7c:
+  ThrowNullReferenceException();
 }
 
 
 // GameProgress.GameProgressManager$$RegisterTitanKill
 // il2cpp: void GameProgress_GameProgressManager__RegisterTitanKill (Characters_BasicTitan_o* victim, GameProgress_KillMethod_o method, const MethodInfo* method);
-// 0x181e357d0
-// eh: try 0x181e358b0..0x181e35938 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e35902: mov rdx, qword ptr [rip + 0x223feaf]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
-// asm:   0x181e35909: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e3590e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e35913: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e35918: test rcx, rcx
-// asm:   0x181e3591b: jne 0x181e35938
-// asm:   0x181e35938: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5920ec0
+// eh: try 0x5920f93..0x5920fe8 -> pad 0x5920ff1 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5921009..0x592100e -> pad 0x592102d cleanup
+// eh: try 0x5921030..0x592103a -> pad 0x5921042 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5920fed: jmp 0x5920ff1
+// asm:   0x5920fef: jmp 0x5920ff1
+// asm:   0x5920ff1: mov rbx, rax
+// asm:   0x5920ff4: cmp edx, 1
+// asm:   0x5920ff7: jne 0x5921030
+// asm:   0x5920ff9: mov rdi, rbx
+// asm:   0x5920ffc: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5921001: mov rbx, qword ptr [rax]
+// asm:   0x5921004: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5921009: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x592100e: lea rax, [rip + 0x196c71b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
+// asm:   0x5921015: mov rsi, qword ptr [rax]
+// asm:   0x5921018: mov rdi, rsp
+// asm:   0x592101b: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5921020: test rbx, rbx
+// asm:   0x5921023: je 0x5920fd6
+// asm:   0x5921025: mov rdi, rbx
+// asm:   0x5921028: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x592102d: mov rbx, rax
+// asm:   0x5921030: lea rdi, [rsp + 0x20]
+// asm:   0x5921035: call 0x2fd2540  ; il2cpp_runtime_helper_02fd2540()
+// asm:   0x592103a: mov rdi, rbx
+// asm:   0x592103d: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5921042: mov rdi, rax
+// asm:   0x5921045: call 0x2ab61e0  ; __clang_call_terminate()
 
 void GameProgress_GameProgressManager__RegisterTitanKill
-               (Characters_BasicTitan_o *victim,GameProgress_KillMethod_o *method,MethodInfo *methodInfo)
+               (Characters_BasicTitan_o *victim,GameProgress_KillMethod_o method,MethodInfo *methodInfo)
 
 {
-  System_Collections_Generic_List_T__o *__this;
+  System_Collections_Generic_List_object__o *__this;
   bool bVar1;
-  System_Collections_Generic_List_Enumerator_T__o local_48;
-  System_Collections_Generic_List_Enumerator_object__o local_28;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_184344dbb == '\0') {
+  if (Il2CppMethodInitialized_0754574f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -600,45 +767,43 @@ void GameProgress_GameProgressManager__RegisterTitanKill
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    Il2CppMethodInitialized_184344dbb = '\x01';
+    Il2CppMethodInitialized_0754574f = '\x01';
   }
-  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  __this = (System_Collections_Generic_List_T__o *)
+  __this = (System_Collections_Generic_List_object__o *)
            TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-  if (__this != (System_Collections_Generic_List_T__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              (&local_48,__this,
-               (MethodInfo_91F180 *)
-               MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    local_28.fields._current = local_48.fields._current;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_28,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext
-                        );
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
-        return;
-      }
-      if (local_28.fields._current == (Il2CppObject *)0x0) break;
-      local_48.fields._list._0_4_ = (method->fields).Weapon;
-      local_48.fields._list._4_4_ = *(undefined4 *)&(method->fields).field_0x4;
-      local_48.fields._index = *(int32_t *)&(method->fields).Special;
-      local_48.fields._version = *(int32_t *)((longlong)&(method->fields).Special + 4);
-      (*(local_28.fields._current)->klass->vtable[4].methodPtr)
-                (local_28.fields._current,victim,&local_48,(local_28.fields._current)->klass->vtable[4].method
-                );
-    }
+  if (__this == (System_Collections_Generic_List_object__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&local_58,__this,
+             (MethodInfo_395E050 *)
+             MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
+  local_38 = 0;
+  local_30 = (undefined1 *)&local_58;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext)
+    ;
+    if (!bVar1) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                 (MethodInfo_4C45C40 *)
+                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
+      return;
+    }
+    if (local_58.fields._current == (Il2CppObject *)0x0) break;
+    (*(local_58.fields._current)->klass->vtable[4].methodPtr)
+              (local_58.fields._current,victim,(ulong)(uint)method.fields.Weapon,method.fields.Special,
+               (local_58.fields._current)->klass->vtable[4].method);
   }
   ThrowNullReferenceException();
 }
@@ -646,38 +811,48 @@ void GameProgress_GameProgressManager__RegisterTitanKill
 
 // GameProgress.GameProgressManager$$RegisterHumanKill
 // il2cpp: void GameProgress_GameProgressManager__RegisterHumanKill (Characters_Human_o* victim, GameProgress_KillMethod_o method, const MethodInfo* method);
-// 0x181e35380
-// eh: try 0x181e35460..0x181e354e8 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e354b2: mov rdx, qword ptr [rip + 0x22402ff]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
-// asm:   0x181e354b9: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e354be: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e354c3: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e354c8: test rcx, rcx
-// asm:   0x181e354cb: jne 0x181e354e8
-// asm:   0x181e354e8: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5921050
+// eh: try 0x5921123..0x5921178 -> pad 0x5921181 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5921199..0x592119e -> pad 0x59211bd cleanup
+// eh: try 0x59211c0..0x59211ca -> pad 0x59211d2 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x592117d: jmp 0x5921181
+// asm:   0x592117f: jmp 0x5921181
+// asm:   0x5921181: mov rbx, rax
+// asm:   0x5921184: cmp edx, 1
+// asm:   0x5921187: jne 0x59211c0
+// asm:   0x5921189: mov rdi, rbx
+// asm:   0x592118c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5921191: mov rbx, qword ptr [rax]
+// asm:   0x5921194: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5921199: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x592119e: lea rax, [rip + 0x196c58b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
+// asm:   0x59211a5: mov rsi, qword ptr [rax]
+// asm:   0x59211a8: mov rdi, rsp
+// asm:   0x59211ab: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59211b0: test rbx, rbx
+// asm:   0x59211b3: je 0x5921166
+// asm:   0x59211b5: mov rdi, rbx
+// asm:   0x59211b8: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59211bd: mov rbx, rax
+// asm:   0x59211c0: lea rdi, [rsp + 0x20]
+// asm:   0x59211c5: call 0x2fd2570  ; il2cpp_runtime_helper_02fd2570()
+// asm:   0x59211ca: mov rdi, rbx
+// asm:   0x59211cd: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59211d2: mov rdi, rax
+// asm:   0x59211d5: call 0x2ab61e0  ; __clang_call_terminate()
 
 void GameProgress_GameProgressManager__RegisterHumanKill
-               (Characters_Human_o *victim,GameProgress_KillMethod_o *method,MethodInfo *methodInfo)
+               (Characters_Human_o *victim,GameProgress_KillMethod_o method,MethodInfo *methodInfo)
 
 {
-  System_Collections_Generic_List_T__o *__this;
+  System_Collections_Generic_List_object__o *__this;
   bool bVar1;
-  System_Collections_Generic_List_Enumerator_T__o local_48;
-  System_Collections_Generic_List_Enumerator_object__o local_28;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_184344dbc == '\0') {
+  if (Il2CppMethodInitialized_07545750 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -687,45 +862,43 @@ void GameProgress_GameProgressManager__RegisterHumanKill
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    Il2CppMethodInitialized_184344dbc = '\x01';
+    Il2CppMethodInitialized_07545750 = '\x01';
   }
-  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  __this = (System_Collections_Generic_List_T__o *)
+  __this = (System_Collections_Generic_List_object__o *)
            TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-  if (__this != (System_Collections_Generic_List_T__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              (&local_48,__this,
-               (MethodInfo_91F180 *)
-               MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    local_28.fields._current = local_48.fields._current;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_28,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext
-                        );
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
-        return;
-      }
-      if (local_28.fields._current == (Il2CppObject *)0x0) break;
-      local_48.fields._list._0_4_ = (method->fields).Weapon;
-      local_48.fields._list._4_4_ = *(undefined4 *)&(method->fields).field_0x4;
-      local_48.fields._index = *(int32_t *)&(method->fields).Special;
-      local_48.fields._version = *(int32_t *)((longlong)&(method->fields).Special + 4);
-      (*(local_28.fields._current)->klass->vtable[5].methodPtr)
-                (local_28.fields._current,victim,&local_48,(local_28.fields._current)->klass->vtable[5].method
-                );
-    }
+  if (__this == (System_Collections_Generic_List_object__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&local_58,__this,
+             (MethodInfo_395E050 *)
+             MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
+  local_38 = 0;
+  local_30 = (undefined1 *)&local_58;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext)
+    ;
+    if (!bVar1) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                 (MethodInfo_4C45C40 *)
+                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
+      return;
+    }
+    if (local_58.fields._current == (Il2CppObject *)0x0) break;
+    (*(local_58.fields._current)->klass->vtable[5].methodPtr)
+              (local_58.fields._current,victim,(ulong)(uint)method.fields.Weapon,method.fields.Special,
+               (local_58.fields._current)->klass->vtable[5].method);
   }
   ThrowNullReferenceException();
 }
@@ -733,39 +906,49 @@ void GameProgress_GameProgressManager__RegisterHumanKill
 
 // GameProgress.GameProgressManager$$RegisterDamage
 // il2cpp: void GameProgress_GameProgressManager__RegisterDamage (UnityEngine_GameObject_o* victim, GameProgress_KillMethod_o method, int32_t damage, const MethodInfo* method);
-// 0x181e35200
-// eh: try 0x181e352e4..0x181e35370 -> pad 0x183315a20 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e35342: mov rdx, qword ptr [rip + 0x224046f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
-// asm:   0x181e35349: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x181e3534e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e35353: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181e35358: test rcx, rcx
-// asm:   0x181e3535b: jne 0x181e35370
-// asm:   0x181e35370: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315a25: push rbp
-// asm:   0x183315a26: sub rsp, 0x30
-// asm:   0x183315a2a: mov rbp, rdx
-// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315a31: mov rcx, qword ptr [rax]
-// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
-// asm:   0x183315a38: movabs rax, 0
-// asm:   0x183315a42: add rsp, 0x30
-// asm:   0x183315a46: pop rbp
-// asm:   0x183315a47: ret 
+// 0x59211e0
+// eh: try 0x59212c3..0x592131d -> pad 0x5921326 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x592133e..0x5921343 -> pad 0x5921362 cleanup
+// eh: try 0x5921365..0x592136f -> pad 0x5921377 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5921322: jmp 0x5921326
+// asm:   0x5921324: jmp 0x5921326
+// asm:   0x5921326: mov rbx, rax
+// asm:   0x5921329: cmp edx, 1
+// asm:   0x592132c: jne 0x5921365
+// asm:   0x592132e: mov rdi, rbx
+// asm:   0x5921331: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5921336: mov rbx, qword ptr [rax]
+// asm:   0x5921339: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x592133e: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5921343: lea rax, [rip + 0x196c3e6]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
+// asm:   0x592134a: mov rsi, qword ptr [rax]
+// asm:   0x592134d: mov rdi, rsp
+// asm:   0x5921350: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5921355: test rbx, rbx
+// asm:   0x5921358: je 0x5921309
+// asm:   0x592135a: mov rdi, rbx
+// asm:   0x592135d: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5921362: mov rbx, rax
+// asm:   0x5921365: lea rdi, [rsp + 0x18]
+// asm:   0x592136a: call 0x2fd25a0  ; il2cpp_runtime_helper_02fd25a0()
+// asm:   0x592136f: mov rdi, rbx
+// asm:   0x5921372: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5921377: mov rdi, rax
+// asm:   0x592137a: call 0x2ab61e0  ; __clang_call_terminate()
 
 void GameProgress_GameProgressManager__RegisterDamage
-               (UnityEngine_GameObject_o *victim,GameProgress_KillMethod_o *method,int32_t damage,
+               (UnityEngine_GameObject_o *victim,GameProgress_KillMethod_o method,int32_t damage,
                MethodInfo *methodInfo)
 
 {
-  System_Collections_Generic_List_T__o *__this;
+  System_Collections_Generic_List_object__o *__this;
   bool bVar1;
-  System_Collections_Generic_List_Enumerator_T__o local_68;
-  System_Collections_Generic_List_Enumerator_object__o local_48;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_184344dbd == '\0') {
+  if (Il2CppMethodInitialized_07545751 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -775,85 +958,93 @@ void GameProgress_GameProgressManager__RegisterDamage
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    Il2CppMethodInitialized_184344dbd = '\x01';
+    Il2CppMethodInitialized_07545751 = '\x01';
   }
-  local_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_48.fields._index = 0;
-  local_48.fields._version = 0;
-  local_48.fields._current = (Il2CppObject *)0x0;
-  if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
-  }
-  __this = (System_Collections_Generic_List_T__o *)
-           TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-  if (__this != (System_Collections_Generic_List_T__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              (&local_68,__this,
-               (MethodInfo_91F180 *)
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
+  if (0 < damage) {
+    if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+    }
+    __this = (System_Collections_Generic_List_object__o *)
+             TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
+    if (__this == (System_Collections_Generic_List_object__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    System_Collections_Generic_List_object___GetEnumerator
+              (&local_58,__this,
+               (MethodInfo_395E050 *)
                MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    local_48.fields._current = local_68.fields._current;
+    local_40 = 0;
+    local_38 = (undefined1 *)&local_58;
     while( true ) {
       bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_48,
-                         (MethodInfo_153A2A0 *)
+                        ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                         (MethodInfo_4C45C50 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext
                         );
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_48,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
-        return;
+      if (!bVar1) break;
+      if (local_58.fields._current == (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
       }
-      if (local_48.fields._current == (Il2CppObject *)0x0) break;
-      local_68.fields._list._0_4_ = (method->fields).Weapon;
-      local_68.fields._list._4_4_ = *(undefined4 *)&(method->fields).field_0x4;
-      local_68.fields._index = *(int32_t *)&(method->fields).Special;
-      local_68.fields._version = *(int32_t *)((longlong)&(method->fields).Special + 4);
-      (*(local_48.fields._current)->klass->vtable[6].methodPtr)
-                (local_48.fields._current,victim,&local_68,damage,
-                 (local_48.fields._current)->klass->vtable[6].method);
+      (*(local_58.fields._current)->klass->vtable[6].methodPtr)
+                (local_58.fields._current,victim,(ulong)(uint)method.fields.Weapon,method.fields.Special,
+                 (ulong)(uint)damage,(local_58.fields._current)->klass->vtable[6].method);
     }
-    ThrowNullReferenceException();
+    System_Collections_Generic_List_Enumerator_object___Dispose
+              ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+               (MethodInfo_4C45C40 *)
+               MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
   }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // GameProgress.GameProgressManager$$RegisterSpeed
 // il2cpp: void GameProgress_GameProgressManager__RegisterSpeed (float speed, const MethodInfo* method);
-// 0x181e35670
-// eh: try 0x181e35750..0x181e357c1 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e35795: mov rdx, qword ptr [rip + 0x224001c]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
-// asm:   0x181e3579c: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e357a1: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e357a6: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e357ab: test rcx, rcx
-// asm:   0x181e357ae: jne 0x181e357c1
-// asm:   0x181e357c1: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5921380
+// eh: try 0x5921453..0x59214a2 -> pad 0x59214ab (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59214c3..0x59214c8 -> pad 0x59214e9 cleanup
+// eh: try 0x59214ec..0x59214f6 -> pad 0x59214fe catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59214a7: jmp 0x59214ab
+// asm:   0x59214a9: jmp 0x59214ab
+// asm:   0x59214ab: mov rbx, rax
+// asm:   0x59214ae: cmp edx, 1
+// asm:   0x59214b1: jne 0x59214ec
+// asm:   0x59214b3: mov rdi, rbx
+// asm:   0x59214b6: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59214bb: mov rbx, qword ptr [rax]
+// asm:   0x59214be: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x59214c3: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59214c8: lea rax, [rip + 0x196c261]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
+// asm:   0x59214cf: mov rsi, qword ptr [rax]
+// asm:   0x59214d2: lea rdi, [rsp + 0x10]
+// asm:   0x59214d7: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59214dc: test rbx, rbx
+// asm:   0x59214df: je 0x5921495
+// asm:   0x59214e1: mov rdi, rbx
+// asm:   0x59214e4: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59214e9: mov rbx, rax
+// asm:   0x59214ec: lea rdi, [rsp + 0x28]
+// asm:   0x59214f1: call 0x2fd25d0  ; il2cpp_runtime_helper_02fd25d0()
+// asm:   0x59214f6: mov rdi, rbx
+// asm:   0x59214f9: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59214fe: mov rdi, rax
+// asm:   0x5921501: call 0x2ab61e0  ; __clang_call_terminate()
 
 void GameProgress_GameProgressManager__RegisterSpeed(float speed,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_T__o *__this;
+  System_Collections_Generic_List_object__o *__this;
   bool bVar1;
-  undefined4 in_XMM0_Db;
-  undefined1 local_50 [16];
-  Il2CppObject *local_40;
-  System_Collections_Generic_List_Enumerator_object__o local_38 [2];
+  System_Collections_Generic_List_Enumerator_T__o local_38;
+  undefined8 local_20;
+  System_Collections_Generic_List_Enumerator_T__o *local_18;
   
-  if (Il2CppMethodInitialized_184344dbe == '\0') {
+  if (Il2CppMethodInitialized_07545752 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -863,45 +1054,42 @@ void GameProgress_GameProgressManager__RegisterSpeed(float speed,MethodInfo *met
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    Il2CppMethodInitialized_184344dbe = '\x01';
+    Il2CppMethodInitialized_07545752 = '\x01';
   }
-  local_38[0].fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_38[0].fields._index = 0;
-  local_38[0].fields._version = 0;
-  local_38[0].fields._current = (Il2CppObject *)0x0;
+  local_38.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_38.fields._index = 0;
+  local_38.fields._version = 0;
+  local_38.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  __this = (System_Collections_Generic_List_T__o *)
+  __this = (System_Collections_Generic_List_object__o *)
            TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-  if (__this != (System_Collections_Generic_List_T__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_50,__this,
-               (MethodInfo_91F180 *)
-               MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    local_38[0].fields._list = (System_Collections_Generic_List_T__o *)local_50._0_8_;
-    local_38[0].fields._index = local_50._8_4_;
-    local_38[0].fields._version = local_50._12_4_;
-    local_38[0].fields._current = local_40;
-    local_50._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_50._8_8_ = local_38;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (local_38,(MethodInfo_153A2A0 *)
-                                  MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext
-                        );
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
-        return;
-      }
-      if (local_38[0].fields._current == (Il2CppObject *)0x0) break;
-      (*(local_38[0].fields._current)->klass->vtable[7].methodPtr)
-                (local_38[0].fields._current,CONCAT44(in_XMM0_Db,speed),
-                 (local_38[0].fields._current)->klass->vtable[7].method);
-    }
+  if (__this == (System_Collections_Generic_List_object__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&local_38,__this,
+             (MethodInfo_395E050 *)
+             MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
+  local_20 = 0;
+  local_18 = &local_38;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&local_38,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext)
+    ;
+    if (!bVar1) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&local_38,
+                 (MethodInfo_4C45C40 *)
+                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
+      return;
+    }
+    if (local_38.fields._current == (Il2CppObject *)0x0) break;
+    (*(local_38.fields._current)->klass->vtable[7].methodPtr)
+              (speed,local_38.fields._current,(local_38.fields._current)->klass->vtable[7].method);
   }
   ThrowNullReferenceException();
 }
@@ -909,40 +1097,48 @@ void GameProgress_GameProgressManager__RegisterSpeed(float speed,MethodInfo *met
 
 // GameProgress.GameProgressManager$$RegisterInteraction
 // il2cpp: void GameProgress_GameProgressManager__RegisterInteraction (UnityEngine_GameObject_o* interact, int32_t interactionType, const MethodInfo* method);
-// 0x181e35500
-// eh: try 0x181e355e0..0x181e35659 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e355dc: nop dword ptr [rax]
-// asm:   0x181e35628: mov rdx, qword ptr [rip + 0x2240189]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
-// asm:   0x181e3562f: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e35634: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e35639: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e3563e: test rcx, rcx
-// asm:   0x181e35641: jne 0x181e35659
-// asm:   0x181e35659: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5921510
+// eh: try 0x59215e3..0x5921633 -> pad 0x592163c (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5921654..0x5921659 -> pad 0x5921678 cleanup
+// eh: try 0x592167b..0x5921685 -> pad 0x592168d catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5921638: jmp 0x592163c
+// asm:   0x592163a: jmp 0x592163c
+// asm:   0x592163c: mov rbx, rax
+// asm:   0x592163f: cmp edx, 1
+// asm:   0x5921642: jne 0x592167b
+// asm:   0x5921644: mov rdi, rbx
+// asm:   0x5921647: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x592164c: mov rbx, qword ptr [rax]
+// asm:   0x592164f: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5921654: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5921659: lea rax, [rip + 0x196c0d0]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose
+// asm:   0x5921660: mov rsi, qword ptr [rax]
+// asm:   0x5921663: mov rdi, rsp
+// asm:   0x5921666: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x592166b: test rbx, rbx
+// asm:   0x592166e: je 0x5921623
+// asm:   0x5921670: mov rdi, rbx
+// asm:   0x5921673: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5921678: mov rbx, rax
+// asm:   0x592167b: lea rdi, [rsp + 0x18]
+// asm:   0x5921680: call 0x2fd2600  ; il2cpp_runtime_helper_02fd2600()
+// asm:   0x5921685: mov rdi, rbx
+// asm:   0x5921688: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x592168d: mov rdi, rax
+// asm:   0x5921690: call 0x2ab61e0  ; __clang_call_terminate()
 
 void GameProgress_GameProgressManager__RegisterInteraction
                (UnityEngine_GameObject_o *interact,int32_t interactionType,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_T__o *__this;
+  System_Collections_Generic_List_object__o *__this;
   bool bVar1;
-  undefined1 local_40 [16];
-  Il2CppObject *local_30;
-  System_Collections_Generic_List_Enumerator_object__o local_28;
+  System_Collections_Generic_List_Enumerator_T__o SStack_48;
+  undefined8 uStack_30;
+  undefined1 *puStack_28;
   
-  if (Il2CppMethodInitialized_184344dbf == '\0') {
+  if (Il2CppMethodInitialized_07545753 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -952,46 +1148,43 @@ void GameProgress_GameProgressManager__RegisterInteraction
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    Il2CppMethodInitialized_184344dbf = '\x01';
+    Il2CppMethodInitialized_07545753 = '\x01';
   }
-  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
+  SStack_48.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  SStack_48.fields._index = 0;
+  SStack_48.fields._version = 0;
+  SStack_48.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
   }
-  __this = (System_Collections_Generic_List_T__o *)
+  __this = (System_Collections_Generic_List_object__o *)
            TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers;
-  if (__this != (System_Collections_Generic_List_T__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,__this,
-               (MethodInfo_91F180 *)
-               MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
-    local_28.fields._list = (System_Collections_Generic_List_T__o *)local_40._0_8_;
-    local_28.fields._index = local_40._8_4_;
-    local_28.fields._version = local_40._12_4_;
-    local_28.fields._current = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = &local_28;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_28,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext
-                        );
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
-        return;
-      }
-      if (local_28.fields._current == (Il2CppObject *)0x0) break;
-      (*(local_28.fields._current)->klass->vtable[8].methodPtr)
-                (local_28.fields._current,interact,(ulonglong)(uint)interactionType,
-                 (local_28.fields._current)->klass->vtable[8].method);
-    }
+  if (__this == (System_Collections_Generic_List_object__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&SStack_48,__this,
+             (MethodInfo_395E050 *)
+             MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_GetEnumerator);
+  uStack_30 = 0;
+  puStack_28 = (undefined1 *)&SStack_48;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_48,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_MoveNext)
+    ;
+    if (!bVar1) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&SStack_48,
+                 (MethodInfo_4C45C40 *)
+                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseGameProgressHandler_Dispose);
+      return;
+    }
+    if (SStack_48.fields._current == (Il2CppObject *)0x0) break;
+    (*(SStack_48.fields._current)->klass->vtable[8].methodPtr)
+              (SStack_48.fields._current,interact,(ulong)(uint)interactionType,
+               (SStack_48.fields._current)->klass->vtable[8].method);
   }
   ThrowNullReferenceException();
 }
@@ -999,7 +1192,7 @@ void GameProgress_GameProgressManager__RegisterInteraction
 
 // GameProgress.GameProgressManager$$IncrementPlayTime
 // il2cpp: System_Collections_IEnumerator_o* GameProgress_GameProgressManager__IncrementPlayTime (GameProgress_GameProgressManager_o* __this, const MethodInfo* method);
-// 0x181e34b50
+// 0x591ff60
 
 System_Collections_IEnumerator_o *
 GameProgress_GameProgressManager__IncrementPlayTime
@@ -1008,15 +1201,14 @@ GameProgress_GameProgressManager__IncrementPlayTime
 {
   GameProgress_GameProgressManager__IncrementPlayTime_d__19_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344dc0 == '\0') {
+  if (Il2CppMethodInitialized_07545754 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_GameProgress_GameProgressManager_IncrementPlayTime_d__19);
-    Il2CppMethodInitialized_184344dc0 = '\x01';
+    Il2CppMethodInitialized_07545754 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager_IncrementPlayTime_d__19);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
@@ -1024,10 +1216,9 @@ GameProgress_GameProgressManager__IncrementPlayTime
 
 // GameProgress.GameProgressManager$$.ctor
 // il2cpp: void GameProgress_GameProgressManager___ctor (GameProgress_GameProgressManager_o* __this, const MethodInfo* method);
-// 0x180528540
+// 0x59216c0
 
-void
-GameProgress_GameProgressManager___ctor(GameProgress_GameProgressManager_o* __this, MethodInfo* method)
+void GameProgress_GameProgressManager___ctor(GameProgress_GameProgressManager_o *__this,MethodInfo *method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
@@ -1037,28 +1228,31 @@ GameProgress_GameProgressManager___ctor(GameProgress_GameProgressManager_o* __th
 
 // GameProgress.GameProgressManager$$.cctor
 // il2cpp: void GameProgress_GameProgressManager___cctor (const MethodInfo* method);
-// 0x181e359c0
+// 0x59216d0
 
 void GameProgress_GameProgressManager___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_List_BaseGameProgressHandler__o *__this;
+  GameProgress_GameProgressManager_StaticFields *pGVar1;
+  System_Collections_Generic_List_object__o *__this;
   
-  if (Il2CppMethodInitialized_184344dc1 == '\0') {
+  if (Il2CppMethodInitialized_07545755 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_List_BaseGameProgressHandler);
-    Il2CppMethodInitialized_184344dc1 = '\x01';
+    Il2CppMethodInitialized_07545755 = '\x01';
   }
-  __this = il2cpp_codegen_object_new
+  __this = (System_Collections_Generic_List_object__o *)
+           il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BaseGameProgressHandler);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_ctor);
-  TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_GameProgress_GameProgressManager->static_fields->_handlers,__this);
+            (__this,(MethodInfo_395C910 *)
+                    MethodInfo_System_Collections_Generic_List_BaseGameProgressHandler_ctor);
+  pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields;
+  pGVar1->_handlers = (System_Collections_Generic_List_BaseGameProgressHandler__o *)__this;
+  Il2CppCodeGenWriteBarrier(&pGVar1->_handlers);
   return;
 }
 

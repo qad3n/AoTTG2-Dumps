@@ -49,13 +49,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 		private YieldAwaitable.YieldAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x187D9E0", Offset = "0x187BFE0", VA = "0x18187D9E0", Slot = "4")]
+		[Address(RVA = "0x5215BC0", Offset = "0x5214BC0", VA = "0x5215BC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x187DE20", Offset = "0x187C420", VA = "0x18187DE20", Slot = "5")]
+		[Address(RVA = "0x5216040", Offset = "0x5215040", VA = "0x5216040", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -266,7 +266,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public bool IsRootLayoutNode
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x187BA70", Offset = "0x187A070", VA = "0x18187BA70")]
+		[Address(RVA = "0x520EAE0", Offset = "0x520DAE0", VA = "0x520EAE0")]
 		get
 		{
 			return default(bool);
@@ -277,7 +277,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public FlexLayout RootLayoutNode
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x187BDA0", Offset = "0x187A3A0", VA = "0x18187BDA0")]
+		[Address(RVA = "0x520EB30", Offset = "0x520DB30", VA = "0x520EB30")]
 		get
 		{
 			return null;
@@ -288,7 +288,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public FlexLayout ParentLayoutNode
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Address(RVA = "0x520EBB0", Offset = "0x520DBB0", VA = "0x520EBB0")]
 		get
 		{
 			return null;
@@ -299,7 +299,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public RectTransform RectTransform
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x187BCC0", Offset = "0x187A2C0", VA = "0x18187BCC0")]
+		[Address(RVA = "0x520EBC0", Offset = "0x520DBC0", VA = "0x520EBC0")]
 		get
 		{
 			return null;
@@ -310,13 +310,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public FlexLayoutConfig Configuration
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x520EC70", Offset = "0x520DC70", VA = "0x520EC70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x187C0F0", Offset = "0x187A6F0", VA = "0x18187C0F0")]
+		[Address(RVA = "0x520EC80", Offset = "0x520DC80", VA = "0x520EC80")]
 		set
 		{
 		}
@@ -326,13 +326,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public PositionType PositionType
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x520F390", Offset = "0x520E390", VA = "0x520F390")]
 		get
 		{
 			return default(PositionType);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x187D730", Offset = "0x187BD30", VA = "0x18187D730")]
+		[Address(RVA = "0x520F3A0", Offset = "0x520E3A0", VA = "0x520F3A0")]
 		set
 		{
 		}
@@ -342,13 +342,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PositionLeft
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x187BC90", Offset = "0x187A290", VA = "0x18187BC90")]
+		[Address(RVA = "0x520F540", Offset = "0x520E540", VA = "0x520F540")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x187D640", Offset = "0x187BC40", VA = "0x18187D640")]
+		[Address(RVA = "0x520F550", Offset = "0x520E550", VA = "0x520F550")]
 		set
 		{
 		}
@@ -358,13 +358,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PositionTop
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x187BCB0", Offset = "0x187A2B0", VA = "0x18187BCB0")]
+		[Address(RVA = "0x520F820", Offset = "0x520E820", VA = "0x520F820")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x187D6E0", Offset = "0x187BCE0", VA = "0x18187D6E0")]
+		[Address(RVA = "0x520F830", Offset = "0x520E830", VA = "0x520F830")]
 		set
 		{
 		}
@@ -374,13 +374,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PositionRight
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x187BCA0", Offset = "0x187A2A0", VA = "0x18187BCA0")]
+		[Address(RVA = "0x520F900", Offset = "0x520E900", VA = "0x520F900")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x187D690", Offset = "0x187BC90", VA = "0x18187D690")]
+		[Address(RVA = "0x520F910", Offset = "0x520E910", VA = "0x520F910")]
 		set
 		{
 		}
@@ -390,13 +390,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PositionBottom
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x187BC80", Offset = "0x187A280", VA = "0x18187BC80")]
+		[Address(RVA = "0x520F9E0", Offset = "0x520E9E0", VA = "0x520F9E0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x187D5F0", Offset = "0x187BBF0", VA = "0x18187D5F0")]
+		[Address(RVA = "0x520F9F0", Offset = "0x520E9F0", VA = "0x520F9F0")]
 		set
 		{
 		}
@@ -406,13 +406,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Direction Direction
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
+		[Address(RVA = "0x520FAC0", Offset = "0x520EAC0", VA = "0x520FAC0")]
 		get
 		{
 			return default(Direction);
 		}
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x187C1B0", Offset = "0x187A7B0", VA = "0x18187C1B0")]
+		[Address(RVA = "0x520FAD0", Offset = "0x520EAD0", VA = "0x520FAD0")]
 		set
 		{
 		}
@@ -422,13 +422,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public FlexDirection FlexDirection
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x520FC70", Offset = "0x520EC70", VA = "0x520FC70")]
 		get
 		{
 			return default(FlexDirection);
 		}
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x187C460", Offset = "0x187AA60", VA = "0x18187C460")]
+		[Address(RVA = "0x520FC80", Offset = "0x520EC80", VA = "0x520FC80")]
 		set
 		{
 		}
@@ -438,13 +438,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Wrap FlexWrap
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
+		[Address(RVA = "0x520FE20", Offset = "0x520EE20", VA = "0x520FE20")]
 		get
 		{
 			return default(Wrap);
 		}
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x187C670", Offset = "0x187AC70", VA = "0x18187C670")]
+		[Address(RVA = "0x520FE30", Offset = "0x520EE30", VA = "0x520FE30")]
 		set
 		{
 		}
@@ -454,13 +454,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue FlexBasis
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x520FFD0", Offset = "0x520EFD0", VA = "0x520FFD0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x187C260", Offset = "0x187A860", VA = "0x18187C260")]
+		[Address(RVA = "0x520FFE0", Offset = "0x520EFE0", VA = "0x520FFE0")]
 		set
 		{
 		}
@@ -470,13 +470,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public float FlexGrow
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x58A700", Offset = "0x588D00", VA = "0x18058A700")]
+		[Address(RVA = "0x52102C0", Offset = "0x520F2C0", VA = "0x52102C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x187C510", Offset = "0x187AB10", VA = "0x18187C510")]
+		[Address(RVA = "0x52102D0", Offset = "0x520F2D0", VA = "0x52102D0")]
 		set
 		{
 		}
@@ -486,13 +486,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public float FlexShrink
 	{
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0xCDE8A0", Offset = "0xCDCEA0", VA = "0x180CDE8A0")]
+		[Address(RVA = "0x5210490", Offset = "0x520F490", VA = "0x5210490")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x187C5C0", Offset = "0x187ABC0", VA = "0x18187C5C0")]
+		[Address(RVA = "0x52104A0", Offset = "0x520F4A0", VA = "0x52104A0")]
 		set
 		{
 		}
@@ -502,13 +502,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Justify JustifyContent
 	{
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0xA4D530", Offset = "0xA4BB30", VA = "0x180A4D530")]
+		[Address(RVA = "0x5210660", Offset = "0x520F660", VA = "0x5210660")]
 		get
 		{
 			return default(Justify);
 		}
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x187CA90", Offset = "0x187B090", VA = "0x18187CA90")]
+		[Address(RVA = "0x5210670", Offset = "0x520F670", VA = "0x5210670")]
 		set
 		{
 		}
@@ -518,13 +518,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Align AlignItems
 	{
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0xACB500", Offset = "0xAC9B00", VA = "0x180ACB500")]
+		[Address(RVA = "0x5210810", Offset = "0x520F810", VA = "0x5210810")]
 		get
 		{
 			return default(Align);
 		}
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x187BEE0", Offset = "0x187A4E0", VA = "0x18187BEE0")]
+		[Address(RVA = "0x5210820", Offset = "0x520F820", VA = "0x5210820")]
 		set
 		{
 		}
@@ -534,13 +534,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Align AlignSelf
 	{
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560")]
+		[Address(RVA = "0x52109C0", Offset = "0x520F9C0", VA = "0x52109C0")]
 		get
 		{
 			return default(Align);
 		}
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x187BF90", Offset = "0x187A590", VA = "0x18187BF90")]
+		[Address(RVA = "0x52109D0", Offset = "0x520F9D0", VA = "0x52109D0")]
 		set
 		{
 		}
@@ -550,13 +550,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public Align AlignContent
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x187BA40", Offset = "0x187A040", VA = "0x18187BA40")]
+		[Address(RVA = "0x5210B70", Offset = "0x520FB70", VA = "0x5210B70")]
 		get
 		{
 			return default(Align);
 		}
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x187BE30", Offset = "0x187A430", VA = "0x18187BE30")]
+		[Address(RVA = "0x5210B80", Offset = "0x520FB80", VA = "0x5210B80")]
 		set
 		{
 		}
@@ -566,13 +566,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue Width
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x5210D20", Offset = "0x520FD20", VA = "0x5210D20")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x187D7E0", Offset = "0x187BDE0", VA = "0x18187D7E0")]
+		[Address(RVA = "0x5210D30", Offset = "0x520FD30", VA = "0x5210D30")]
 		set
 		{
 		}
@@ -582,13 +582,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue Height
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x5211010", Offset = "0x5210010", VA = "0x5211010")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x187C890", Offset = "0x187AE90", VA = "0x18187C890")]
+		[Address(RVA = "0x5211020", Offset = "0x5210020", VA = "0x5211020")]
 		set
 		{
 		}
@@ -598,13 +598,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MinWidth
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x5211300", Offset = "0x5210300", VA = "0x5211300")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x187D460", Offset = "0x187BA60", VA = "0x18187D460")]
+		[Address(RVA = "0x5211310", Offset = "0x5210310", VA = "0x5211310")]
 		set
 		{
 		}
@@ -614,13 +614,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MinHeight
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x52115D0", Offset = "0x52105D0", VA = "0x52115D0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x187D410", Offset = "0x187BA10", VA = "0x18187D410")]
+		[Address(RVA = "0x52115E0", Offset = "0x52105E0", VA = "0x52115E0")]
 		set
 		{
 		}
@@ -630,13 +630,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MaxWidth
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x52118A0", Offset = "0x52108A0", VA = "0x52118A0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x187D3C0", Offset = "0x187B9C0", VA = "0x18187D3C0")]
+		[Address(RVA = "0x52118B0", Offset = "0x52108B0", VA = "0x52118B0")]
 		set
 		{
 		}
@@ -646,13 +646,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MaxHeight
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
+		[Address(RVA = "0x5211B70", Offset = "0x5210B70", VA = "0x5211B70")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x187D370", Offset = "0x187B970", VA = "0x18187D370")]
+		[Address(RVA = "0x5211B80", Offset = "0x5210B80", VA = "0x5211B80")]
 		set
 		{
 		}
@@ -662,13 +662,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue AspectRatio
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Address(RVA = "0x5211E40", Offset = "0x5210E40", VA = "0x5211E40")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x187C040", Offset = "0x187A640", VA = "0x18187C040")]
+		[Address(RVA = "0x5211E50", Offset = "0x5210E50", VA = "0x5211E50")]
 		set
 		{
 		}
@@ -678,13 +678,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MarginLeft
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[Address(RVA = "0x5212010", Offset = "0x5211010", VA = "0x5212010")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x187CD50", Offset = "0x187B350", VA = "0x18187CD50")]
+		[Address(RVA = "0x5212020", Offset = "0x5211020", VA = "0x5212020")]
 		set
 		{
 		}
@@ -694,13 +694,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MarginTop
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Address(RVA = "0x5212300", Offset = "0x5211300", VA = "0x5212300")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x187D160", Offset = "0x187B760", VA = "0x18187D160")]
+		[Address(RVA = "0x5212310", Offset = "0x5211310", VA = "0x5212310")]
 		set
 		{
 		}
@@ -710,13 +710,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MarginRight
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
+		[Address(RVA = "0x52123E0", Offset = "0x52113E0", VA = "0x52123E0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x187CF50", Offset = "0x187B550", VA = "0x18187CF50")]
+		[Address(RVA = "0x52123F0", Offset = "0x52113F0", VA = "0x52123F0")]
 		set
 		{
 		}
@@ -726,13 +726,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue MarginBottom
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Address(RVA = "0x52124C0", Offset = "0x52114C0", VA = "0x52124C0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x187CB40", Offset = "0x187B140", VA = "0x18187CB40")]
+		[Address(RVA = "0x52124D0", Offset = "0x52114D0", VA = "0x52124D0")]
 		set
 		{
 		}
@@ -742,13 +742,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PaddingLeft
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
+		[Address(RVA = "0x52125A0", Offset = "0x52115A0", VA = "0x52125A0")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x187D500", Offset = "0x187BB00", VA = "0x18187D500")]
+		[Address(RVA = "0x52125B0", Offset = "0x52115B0", VA = "0x52125B0")]
 		set
 		{
 		}
@@ -758,13 +758,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PaddingTop
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x187BC60", Offset = "0x187A260", VA = "0x18187BC60")]
+		[Address(RVA = "0x5212880", Offset = "0x5211880", VA = "0x5212880")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x187D5A0", Offset = "0x187BBA0", VA = "0x18187D5A0")]
+		[Address(RVA = "0x5212890", Offset = "0x5211890", VA = "0x5212890")]
 		set
 		{
 		}
@@ -774,13 +774,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PaddingRight
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x187BC50", Offset = "0x187A250", VA = "0x18187BC50")]
+		[Address(RVA = "0x5212960", Offset = "0x5211960", VA = "0x5212960")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x187D550", Offset = "0x187BB50", VA = "0x18187D550")]
+		[Address(RVA = "0x5212970", Offset = "0x5211970", VA = "0x5212970")]
 		set
 		{
 		}
@@ -790,13 +790,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public YGValue PaddingBottom
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x187BC30", Offset = "0x187A230", VA = "0x18187BC30")]
+		[Address(RVA = "0x5212A40", Offset = "0x5211A40", VA = "0x5212A40")]
 		get
 		{
 			return default(YGValue);
 		}
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x187D4B0", Offset = "0x187BAB0", VA = "0x18187D4B0")]
+		[Address(RVA = "0x5212A50", Offset = "0x5211A50", VA = "0x5212A50")]
 		set
 		{
 		}
@@ -806,13 +806,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public float GapColumn
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x187BA50", Offset = "0x187A050", VA = "0x18187BA50")]
+		[Address(RVA = "0x5212B20", Offset = "0x5211B20", VA = "0x5212B20")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x187C720", Offset = "0x187AD20", VA = "0x18187C720")]
+		[Address(RVA = "0x5212B30", Offset = "0x5211B30", VA = "0x5212B30")]
 		set
 		{
 		}
@@ -822,13 +822,13 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	public float GapRow
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x187BA60", Offset = "0x187A060", VA = "0x18187BA60")]
+		[Address(RVA = "0x5212CF0", Offset = "0x5211CF0", VA = "0x5212CF0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x187C7D0", Offset = "0x187ADD0", VA = "0x18187C7D0")]
+		[Address(RVA = "0x5212D00", Offset = "0x5211D00", VA = "0x5212D00")]
 		set
 		{
 		}
@@ -838,7 +838,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	protected YGNode LayoutNode
 	{
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x187BAD0", Offset = "0x187A0D0", VA = "0x18187BAD0")]
+		[Address(RVA = "0x520EF30", Offset = "0x520DF30", VA = "0x520EF30")]
 		get
 		{
 			return default(YGNode);
@@ -846,130 +846,130 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x1879260", Offset = "0x1877860", VA = "0x181879260", Slot = "5")]
+	[Address(RVA = "0x5213A30", Offset = "0x5212A30", VA = "0x5213A30", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x1879230", Offset = "0x1877830", VA = "0x181879230", Slot = "7")]
+	[Address(RVA = "0x5213FC0", Offset = "0x5212FC0", VA = "0x5213FC0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x18791F0", Offset = "0x18777F0", VA = "0x1818791F0", Slot = "8")]
+	[Address(RVA = "0x5214360", Offset = "0x5213360", VA = "0x5214360", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x18794C0", Offset = "0x1877AC0", VA = "0x1818794C0", Slot = "12")]
+	[Address(RVA = "0x52143B0", Offset = "0x52133B0", VA = "0x52143B0", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x1879480", Offset = "0x1877A80", VA = "0x181879480", Slot = "18")]
+	[Address(RVA = "0x52143E0", Offset = "0x52133E0", VA = "0x52143E0", Slot = "18")]
 	protected virtual void OnTransformChildrenChanged()
 	{
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x1879290", Offset = "0x1877890", VA = "0x181879290", Slot = "10")]
+	[Address(RVA = "0x5214410", Offset = "0x5213410", VA = "0x5214410", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x187A0F0", Offset = "0x18786F0", VA = "0x18187A0F0")]
+	[Address(RVA = "0x520F2E0", Offset = "0x520E2E0", VA = "0x520F2E0")]
 	[AsyncStateMachine(typeof(_003CRefreshRootLayout_003Ed__155))]
 	public void RefreshRootLayout()
 	{
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x187A060", Offset = "0x1878660", VA = "0x18187A060")]
+	[Address(RVA = "0x5214AD0", Offset = "0x5213AD0", VA = "0x5214AD0")]
 	[ContextMenu("Refresh Layout")]
 	public void RefreshRootLayoutImmediate()
 	{
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x18790D0", Offset = "0x18776D0", VA = "0x1818790D0", Slot = "17")]
+	[Address(RVA = "0x5214B50", Offset = "0x5213B50", VA = "0x5214B50", Slot = "17")]
 	public int Compare(FlexLayout x, FlexLayout y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x1879AC0", Offset = "0x18780C0", VA = "0x181879AC0")]
+	[Address(RVA = "0x5214830", Offset = "0x5213830", VA = "0x5214830")]
 	protected void RefreshLayout()
 	{
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x187A4E0", Offset = "0x1878AE0", VA = "0x18187A4E0")]
+	[Address(RVA = "0x52130E0", Offset = "0x52120E0", VA = "0x52130E0")]
 	protected void UpdateNodeStyle()
 	{
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x187A3F0", Offset = "0x18789F0", VA = "0x18187A3F0")]
+	[Address(RVA = "0x5212EC0", Offset = "0x5211EC0", VA = "0x5212EC0")]
 	protected void UpdateNodeMeasure()
 	{
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x1879EF0", Offset = "0x18784F0", VA = "0x181879EF0")]
+	[Address(RVA = "0x5213A50", Offset = "0x5212A50", VA = "0x5213A50")]
 	protected void RefreshParent()
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x1878CD0", Offset = "0x18772D0", VA = "0x181878CD0")]
+	[Address(RVA = "0x5214050", Offset = "0x5213050", VA = "0x5214050")]
 	protected void ClearParent()
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x18795D0", Offset = "0x1877BD0", VA = "0x1818795D0")]
+	[Address(RVA = "0x5213C50", Offset = "0x5212C50", VA = "0x5213C50")]
 	protected void RefreshChildren()
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x187A1A0", Offset = "0x18787A0", VA = "0x18187A1A0")]
+	[Address(RVA = "0x5215130", Offset = "0x5214130", VA = "0x5215130")]
 	protected void TrackChild(FlexLayout child, bool callChildrenChanged = true)
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x187A2B0", Offset = "0x18788B0", VA = "0x18187A2B0")]
+	[Address(RVA = "0x5215230", Offset = "0x5214230", VA = "0x5215230")]
 	protected void UntrackChild(FlexLayout child, bool callChildrenChanged = true)
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x1879980", Offset = "0x1877F80", VA = "0x181879980")]
+	[Address(RVA = "0x52155E0", Offset = "0x52145E0", VA = "0x52155E0")]
 	protected void RefreshDrivenRectTransformTracker()
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x18791D0", Offset = "0x18777D0", VA = "0x1818791D0")]
+	[Address(RVA = "0x5215340", Offset = "0x5214340", VA = "0x5215340")]
 	protected void OnChildrenChanged()
 	{
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x1878E50", Offset = "0x1877450", VA = "0x181878E50")]
+	[Address(RVA = "0x52140D0", Offset = "0x52130D0", VA = "0x52140D0")]
 	protected void ClearTrackedChildren()
 	{
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x1879500", Offset = "0x1877B00", VA = "0x181879500")]
+	[Address(RVA = "0x520EA10", Offset = "0x520DA10", VA = "0x520EA10")]
 	[MonoPInvokeCallback(typeof(Gilzoide.FlexUi.Yoga.Yoga.YGMeasureFunc))]
 	private static Vector2 RectTransformMeasureFunc(IntPtr nodePtr, float width, MeasureMode widthMode, float height, MeasureMode heightMode)
 	{
@@ -977,7 +977,7 @@ public class FlexLayout : UIBehaviour, IComparer<FlexLayout>
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x187B7A0", Offset = "0x1879DA0", VA = "0x18187B7A0")]
+	[Address(RVA = "0x52157D0", Offset = "0x52147D0", VA = "0x52157D0")]
 	public FlexLayout()
 	{
 	}

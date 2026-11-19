@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001FC")]
+[Token(Token = "0x20001BD")]
 public delegate void AsyncCompletedEventHandler(object sender, AsyncCompletedEventArgs e);

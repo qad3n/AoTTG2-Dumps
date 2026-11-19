@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006E4")]
+[Token(Token = "0x200078D")]
 internal class CategoryPanel : BasePanel
 {
-	[Token(Token = "0x60043B9")]
-	[Address(RVA = "0x21BC8F0", Offset = "0x21BAEF0", VA = "0x1821BC8F0", Slot = "33")]
+	[Token(Token = "0x60048DE")]
+	[Address(RVA = "0x5BB8300", Offset = "0x5BB7300", VA = "0x5BB8300", Slot = "33")]
 	protected override float GetWidth()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60043BA")]
-	[Address(RVA = "0x21BC8C0", Offset = "0x21BAEC0", VA = "0x1821BC8C0", Slot = "34")]
+	[Token(Token = "0x60048DF")]
+	[Address(RVA = "0x5BB8330", Offset = "0x5BB7330", VA = "0x5BB8330", Slot = "34")]
 	protected override float GetHeight()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60043BB")]
-	[Address(RVA = "0x21BC920", Offset = "0x21BAF20", VA = "0x1821BC920")]
+	[Token(Token = "0x60048E0")]
+	[Address(RVA = "0x5BB8360", Offset = "0x5BB7360", VA = "0x5BB8360")]
 	public CategoryPanel()
 	{
 	}

@@ -37,7 +37,7 @@ internal class TextResourceManager
 		public readonly FontAsset fontAsset;
 
 		[Token(Token = "0x600034D")]
-		[Address(RVA = "0x2D337C0", Offset = "0x2D31DC0", VA = "0x182D337C0")]
+		[Address(RVA = "0x6A56D10", Offset = "0x6A55D10", VA = "0x6A56D10")]
 		public FontAssetRef(int nameHashCode, int familyNameHashCode, int styleNameHashCode, FontAsset fontAsset)
 		{
 		}
@@ -64,7 +64,7 @@ internal class TextResourceManager
 	private static readonly int k_RegularStyleHashCode;
 
 	[Token(Token = "0x600034B")]
-	[Address(RVA = "0x305A710", Offset = "0x3058D10", VA = "0x18305A710")]
+	[Address(RVA = "0x6A56770", Offset = "0x6A55770", VA = "0x6A56770")]
 	internal static void AddFontAsset(FontAsset fontAsset)
 	{
 	}

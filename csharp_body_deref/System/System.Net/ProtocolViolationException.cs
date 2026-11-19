@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002D2")]
+[Token(Token = "0x2000293")]
 public class ProtocolViolationException : InvalidOperationException, ISerializable
 {
-	[Token(Token = "0x60013AE")]
-	[Address(RVA = "0x27D1680", Offset = "0x27CFC80", VA = "0x1827D1680")]
+	[Token(Token = "0x60011F0")]
+	[Address(RVA = "0x62A6D40", Offset = "0x62A5D40", VA = "0x62A6D40")]
 	public ProtocolViolationException()
 	{
 	}
 
-	[Token(Token = "0x60013AF")]
-	[Address(RVA = "0x27D1690", Offset = "0x27CFC90", VA = "0x1827D1690")]
+	[Token(Token = "0x60011F1")]
+	[Address(RVA = "0x62A6D50", Offset = "0x62A5D50", VA = "0x62A6D50")]
 	public ProtocolViolationException(string message)
 	{
 	}
 
-	[Token(Token = "0x60013B0")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x60011F2")]
+	[Address(RVA = "0x62A6D60", Offset = "0x62A5D60", VA = "0x62A6D60")]
 	protected ProtocolViolationException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013B1")]
-	[Address(RVA = "0x27C5080", Offset = "0x27C3680", VA = "0x1827C5080", Slot = "4")]
+	[Token(Token = "0x60011F3")]
+	[Address(RVA = "0x62A6D70", Offset = "0x62A5D70", VA = "0x62A6D70", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013B2")]
-	[Address(RVA = "0x27C5080", Offset = "0x27C3680", VA = "0x1827C5080", Slot = "11")]
+	[Token(Token = "0x60011F4")]
+	[Address(RVA = "0x62A6D80", Offset = "0x62A5D80", VA = "0x62A6D80", Slot = "11")]
 	public override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

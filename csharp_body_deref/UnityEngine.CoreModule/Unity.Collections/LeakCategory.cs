@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace Unity.Collections;
 
 [Token(Token = "0x2000057")]
-[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.AIModule" })]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.AIModule" })]
 internal enum LeakCategory
 {
 	[Token(Token = "0x40000F6")]

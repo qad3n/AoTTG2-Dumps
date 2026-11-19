@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Universal2DResourceData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,13 +45,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle[][] lightTextures
 	{
 		[Token(Token = "0x600059E")]
-		[Address(RVA = "0x2C417C0", Offset = "0x2C3FDC0", VA = "0x182C417C0")]
+		[Address(RVA = "0x6640ED0", Offset = "0x663FED0", VA = "0x6640ED0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600059F")]
-		[Address(RVA = "0x2C41900", Offset = "0x2C3FF00", VA = "0x182C41900")]
+		[Address(RVA = "0x6640EE0", Offset = "0x663FEE0", VA = "0x6640EE0")]
 		set
 		{
 		}
@@ -61,13 +61,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle[] normalsTexture
 	{
 		[Token(Token = "0x60005A0")]
-		[Address(RVA = "0x2C41800", Offset = "0x2C3FE00", VA = "0x182C41800")]
+		[Address(RVA = "0x6640EF0", Offset = "0x663FEF0", VA = "0x6640EF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005A1")]
-		[Address(RVA = "0x2C41990", Offset = "0x2C3FF90", VA = "0x182C41990")]
+		[Address(RVA = "0x6641050", Offset = "0x6640050", VA = "0x6641050")]
 		set
 		{
 		}
@@ -77,13 +77,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle normalsDepth
 	{
 		[Token(Token = "0x60005A2")]
-		[Address(RVA = "0x2C417D0", Offset = "0x2C3FDD0", VA = "0x182C417D0")]
+		[Address(RVA = "0x66411B0", Offset = "0x66401B0", VA = "0x66411B0")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005A3")]
-		[Address(RVA = "0x2C41910", Offset = "0x2C3FF10", VA = "0x182C41910")]
+		[Address(RVA = "0x66412D0", Offset = "0x66402D0", VA = "0x66412D0")]
 		set
 		{
 		}
@@ -93,13 +93,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle[][] shadowTextures
 	{
 		[Token(Token = "0x60005A4")]
-		[Address(RVA = "0x2C41840", Offset = "0x2C3FE40", VA = "0x182C41840")]
+		[Address(RVA = "0x66413E0", Offset = "0x66403E0", VA = "0x66413E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60005A5")]
-		[Address(RVA = "0x2C41A20", Offset = "0x2C40020", VA = "0x182C41A20")]
+		[Address(RVA = "0x66413F0", Offset = "0x66403F0", VA = "0x66413F0")]
 		set
 		{
 		}
@@ -109,13 +109,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle shadowDepth
 	{
 		[Token(Token = "0x60005A6")]
-		[Address(RVA = "0x2C41810", Offset = "0x2C3FE10", VA = "0x182C41810")]
+		[Address(RVA = "0x6641400", Offset = "0x6640400", VA = "0x6641400")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005A7")]
-		[Address(RVA = "0x2C419A0", Offset = "0x2C3FFA0", VA = "0x182C419A0")]
+		[Address(RVA = "0x6641410", Offset = "0x6640410", VA = "0x6641410")]
 		set
 		{
 		}
@@ -125,13 +125,13 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle upscaleTexture
 	{
 		[Token(Token = "0x60005A8")]
-		[Address(RVA = "0x2C41850", Offset = "0x2C3FE50", VA = "0x182C41850")]
+		[Address(RVA = "0x6641490", Offset = "0x6640490", VA = "0x6641490")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005A9")]
-		[Address(RVA = "0x2C41A30", Offset = "0x2C40030", VA = "0x182C41A30")]
+		[Address(RVA = "0x66414A0", Offset = "0x66404A0", VA = "0x66414A0")]
 		set
 		{
 		}
@@ -141,39 +141,39 @@ internal class Universal2DResourceData : UniversalResourceDataBase
 	internal TextureHandle cameraSortingLayerTexture
 	{
 		[Token(Token = "0x60005AA")]
-		[Address(RVA = "0x2C41790", Offset = "0x2C3FD90", VA = "0x182C41790")]
+		[Address(RVA = "0x6641520", Offset = "0x6640520", VA = "0x6641520")]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x60005AB")]
-		[Address(RVA = "0x2C41880", Offset = "0x2C3FE80", VA = "0x182C41880")]
+		[Address(RVA = "0x6641530", Offset = "0x6640530", VA = "0x6641530")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x2C41070", Offset = "0x2C3F670", VA = "0x182C41070")]
+	[Address(RVA = "0x6640B50", Offset = "0x663FB50", VA = "0x6640B50")]
 	private TextureHandle[][] CheckAndGetTextureHandle(ref TextureHandle[][] handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x2C411E0", Offset = "0x2C3F7E0", VA = "0x182C411E0")]
+	[Address(RVA = "0x6640D60", Offset = "0x663FD60", VA = "0x6640D60")]
 	private void CheckAndSetTextureHandle(ref TextureHandle[][] handle, TextureHandle[][] newHandle)
 	{
 	}
 
 	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x2C41310", Offset = "0x2C3F910", VA = "0x182C41310", Slot = "4")]
+	[Address(RVA = "0x66415B0", Offset = "0x66405B0", VA = "0x66415B0", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x2C416F0", Offset = "0x2C3FCF0", VA = "0x182C416F0")]
+	[Address(RVA = "0x6641A90", Offset = "0x6640A90", VA = "0x6641A90")]
 	public Universal2DResourceData()
 	{
 	}

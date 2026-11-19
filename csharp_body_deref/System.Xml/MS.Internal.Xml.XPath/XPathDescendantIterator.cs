@@ -18,32 +18,32 @@ internal class XPathDescendantIterator : XPathAxisIterator
 	private int _level;
 
 	[Token(Token = "0x6001C13")]
-	[Address(RVA = "0x26D4730", Offset = "0x26D2D30", VA = "0x1826D4730")]
+	[Address(RVA = "0x608F990", Offset = "0x608E990", VA = "0x608F990")]
 	public XPathDescendantIterator(XPathNavigator nav, XPathNodeType type, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C14")]
-	[Address(RVA = "0x26D4820", Offset = "0x26D2E20", VA = "0x1826D4820")]
+	[Address(RVA = "0x608F9E0", Offset = "0x608E9E0", VA = "0x608F9E0")]
 	public XPathDescendantIterator(XPathNavigator nav, string name, string namespaceURI, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C15")]
-	[Address(RVA = "0x26D4EB0", Offset = "0x26D34B0", VA = "0x1826D4EB0")]
+	[Address(RVA = "0x608F9F0", Offset = "0x608E9F0", VA = "0x608F9F0")]
 	public XPathDescendantIterator(XPathDescendantIterator it)
 	{
 	}
 
 	[Token(Token = "0x6001C16")]
-	[Address(RVA = "0x26D4D00", Offset = "0x26D3300", VA = "0x1826D4D00", Slot = "6")]
+	[Address(RVA = "0x608FA20", Offset = "0x608EA20", VA = "0x608FA20", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C17")]
-	[Address(RVA = "0x26D4DD0", Offset = "0x26D33D0", VA = "0x1826D4DD0", Slot = "7")]
+	[Address(RVA = "0x608FA80", Offset = "0x608EA80", VA = "0x608FA80", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

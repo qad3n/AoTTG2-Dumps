@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000124")]
+[Token(Token = "0x20000FC")]
 [AttributeUsage(AttributeTargets.Parameter, Inherited = true, AllowMultiple = false)]
 public sealed class ParamArrayAttribute : Attribute
 {
-	[Token(Token = "0x6000982")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600095D")]
+	[Address(RVA = "0x54CCC70", Offset = "0x54CBC70", VA = "0x54CCC70")]
 	public ParamArrayAttribute()
 	{
 	}

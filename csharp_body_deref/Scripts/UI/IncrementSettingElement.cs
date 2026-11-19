@@ -15,62 +15,62 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200074C")]
+[Token(Token = "0x20007F4")]
 internal class IncrementSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4002436")]
+	[Token(Token = "0x40027A7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	protected Text _valueLabel;
 
-	[Token(Token = "0x4002437")]
+	[Token(Token = "0x40027A8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	protected string[] _options;
 
-	[Token(Token = "0x4002438")]
+	[Token(Token = "0x40027A9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	protected UnityAction _onValueChanged;
 
-	[Token(Token = "0x4002439")]
+	[Token(Token = "0x40027AA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	protected Func<bool> _validation;
 
-	[Token(Token = "0x17000CC9")]
+	[Token(Token = "0x17000D4C")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6004734")]
-		[Address(RVA = "0x2212B00", Offset = "0x2211100", VA = "0x182212B00", Slot = "4")]
+		[Token(Token = "0x6004C56")]
+		[Address(RVA = "0x5BF12C0", Offset = "0x5BF02C0", VA = "0x5BF12C0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004735")]
-	[Address(RVA = "0x2212320", Offset = "0x2210920", VA = "0x182212320")]
+	[Token(Token = "0x6004C57")]
+	[Address(RVA = "0x5BF1340", Offset = "0x5BF0340", VA = "0x5BF1340")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip, float elementWidth, float elementHeight, string[] options, UnityAction onValueChanged, [Optional] Func<bool> validation)
 	{
 	}
 
-	[Token(Token = "0x6004736")]
-	[Address(RVA = "0x22121F0", Offset = "0x22107F0", VA = "0x1822121F0")]
+	[Token(Token = "0x6004C58")]
+	[Address(RVA = "0x5BF1A40", Offset = "0x5BF0A40", VA = "0x5BF1A40")]
 	protected void OnButtonPressed(bool increment)
 	{
 	}
 
-	[Token(Token = "0x6004737")]
-	[Address(RVA = "0x22129A0", Offset = "0x2210FA0", VA = "0x1822129A0")]
+	[Token(Token = "0x6004C59")]
+	[Address(RVA = "0x5BF1B50", Offset = "0x5BF0B50", VA = "0x5BF1B50")]
 	protected void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6004738")]
-	[Address(RVA = "0x2212970", Offset = "0x2210F70", VA = "0x182212970", Slot = "6")]
+	[Token(Token = "0x6004C5A")]
+	[Address(RVA = "0x5BF1C70", Offset = "0x5BF0C70", VA = "0x5BF1C70", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6004739")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6004C5B")]
+	[Address(RVA = "0x5BF1C80", Offset = "0x5BF0C80", VA = "0x5BF1C80")]
 	public IncrementSettingElement()
 	{
 	}

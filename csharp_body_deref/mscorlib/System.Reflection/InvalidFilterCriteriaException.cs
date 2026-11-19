@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000510")]
+[Token(Token = "0x20004E9")]
 public class InvalidFilterCriteriaException : ApplicationException
 {
-	[Token(Token = "0x60024A6")]
-	[Address(RVA = "0x1A464E0", Offset = "0x1A44AE0", VA = "0x181A464E0")]
+	[Token(Token = "0x6002474")]
+	[Address(RVA = "0x53D93B0", Offset = "0x53D83B0", VA = "0x53D93B0")]
 	public InvalidFilterCriteriaException()
 	{
 	}
 
-	[Token(Token = "0x60024A7")]
-	[Address(RVA = "0x1A46470", Offset = "0x1A44A70", VA = "0x181A46470")]
+	[Token(Token = "0x6002475")]
+	[Address(RVA = "0x53D93F0", Offset = "0x53D83F0", VA = "0x53D93F0")]
 	public InvalidFilterCriteriaException(string message)
 	{
 	}
 
-	[Token(Token = "0x60024A8")]
-	[Address(RVA = "0x1A464C0", Offset = "0x1A44AC0", VA = "0x181A464C0")]
+	[Token(Token = "0x6002476")]
+	[Address(RVA = "0x53D9410", Offset = "0x53D8410", VA = "0x53D9410")]
 	public InvalidFilterCriteriaException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x60024A9")]
-	[Address(RVA = "0x1A464A0", Offset = "0x1A44AA0", VA = "0x181A464A0")]
+	[Token(Token = "0x6002477")]
+	[Address(RVA = "0x53D9430", Offset = "0x53D8430", VA = "0x53D9430")]
 	protected InvalidFilterCriteriaException(SerializationInfo info, StreamingContext context)
 	{
 	}

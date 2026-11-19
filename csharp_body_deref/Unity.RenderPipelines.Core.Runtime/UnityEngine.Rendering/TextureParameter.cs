@@ -21,19 +21,19 @@ public class TextureParameter : VolumeParameter<Texture>
 	public TextureDimension dimension;
 
 	[Token(Token = "0x6000F59")]
-	[Address(RVA = "0x2B63D90", Offset = "0x2B62390", VA = "0x182B63D90")]
+	[Address(RVA = "0x65562F0", Offset = "0x65552F0", VA = "0x65562F0")]
 	public TextureParameter(Texture value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x2B63D30", Offset = "0x2B62330", VA = "0x182B63D30")]
+	[Address(RVA = "0x6556340", Offset = "0x6555340", VA = "0x6556340")]
 	public TextureParameter(Texture value, TextureDimension dimension, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F5B")]
-	[Address(RVA = "0x2B63C40", Offset = "0x2B62240", VA = "0x182B63C40", Slot = "2")]
+	[Address(RVA = "0x65563A0", Offset = "0x65553A0", VA = "0x65563A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

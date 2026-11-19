@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters;
 
-[Token(Token = "0x2000424")]
+[Token(Token = "0x20003FD")]
 public enum TypeFilterLevel
 {
-	[Token(Token = "0x4001042")]
+	[Token(Token = "0x4000FA2")]
 	Low = 2,
-	[Token(Token = "0x4001043")]
+	[Token(Token = "0x4000FA3")]
 	Full
 }

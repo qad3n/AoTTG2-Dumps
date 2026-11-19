@@ -11,41 +11,41 @@ using UnityEngine;
 
 namespace Spawnables;
 
-[Token(Token = "0x200005F")]
+[Token(Token = "0x200005E")]
 internal class BaseSpawnable : MonoBehaviour
 {
-	[Token(Token = "0x40001F9")]
+	[Token(Token = "0x4000208")]
 	[FieldOffset(Offset = "0x20")]
 	protected Player _owner;
 
-	[Token(Token = "0x40001FA")]
+	[Token(Token = "0x4000209")]
 	[FieldOffset(Offset = "0x28")]
 	protected float _timeLeft;
 
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x400020A")]
 	[FieldOffset(Offset = "0x2C")]
 	protected bool _expires;
 
-	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x1DB9AF0", Offset = "0x1DB80F0", VA = "0x181DB9AF0", Slot = "4")]
+	[Token(Token = "0x6000309")]
+	[Address(RVA = "0x576DA90", Offset = "0x576CA90", VA = "0x576DA90", Slot = "4")]
 	public virtual void Setup(Player owner, float liveTime, object[] settings)
 	{
 	}
 
-	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x600030A")]
+	[Address(RVA = "0x576DAF0", Offset = "0x576CAF0", VA = "0x576DAF0", Slot = "5")]
 	protected virtual void SetupSettings(object[] settings)
 	{
 	}
 
-	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x1DB9B50", Offset = "0x1DB8150", VA = "0x181DB9B50", Slot = "6")]
+	[Token(Token = "0x600030B")]
+	[Address(RVA = "0x576DB00", Offset = "0x576CB00", VA = "0x576DB00", Slot = "6")]
 	protected virtual void Update()
 	{
 	}
 
-	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x600030C")]
+	[Address(RVA = "0x576DB90", Offset = "0x576CB90", VA = "0x576DB90")]
 	public BaseSpawnable()
 	{
 	}

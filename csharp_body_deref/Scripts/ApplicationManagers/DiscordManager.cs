@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: ApplicationManagers.DiscordManager
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/ApplicationManagers/DiscordManager.c
 // Prior real C# source (older reference): Assets/Scripts/ApplicationManagers/DiscordManager.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,99 +12,76 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000910")]
+[Token(Token = "0x200097A")]
 internal class DiscordManager : MonoBehaviour
 {
-	[Token(Token = "0x4002D0B")]
+	[Token(Token = "0x4002FCD")]
+	private const float StatusUpdateInterval = 5f;
+
+	[Token(Token = "0x4002FCE")]
+	private const string LargeImage = "aottg2-logo2";
+
+	[Token(Token = "0x4002FCF")]
 	[FieldOffset(Offset = "0x0")]
+	private static readonly string[] TrackedProperties;
+
+	[Token(Token = "0x4002FD0")]
+	[FieldOffset(Offset = "0x8")]
 	private static DiscordManager _instance;
 
-	[Token(Token = "0x4002D0C")]
-	[FieldOffset(Offset = "0x8")]
+	[Token(Token = "0x4002FD1")]
+	[FieldOffset(Offset = "0x10")]
 	public static global::Discord.Discord discord;
 
-	[Token(Token = "0x4002D0D")]
-	[FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x4002FD2")]
+	[FieldOffset(Offset = "0x18")]
 	private static long appID;
 
-	[Token(Token = "0x4002D0E")]
-	[FieldOffset(Offset = "0x18")]
-	private static bool instanceExists;
-
-	[Token(Token = "0x4002D0F")]
-	[FieldOffset(Offset = "0x20")]
-	private string largeImage;
-
-	[Token(Token = "0x4002D10")]
+	[Token(Token = "0x4002FD3")]
 	[FieldOffset(Offset = "0x20")]
 	private static long time;
 
-	[Token(Token = "0x4002D11")]
+	[Token(Token = "0x4002FD4")]
+	[FieldOffset(Offset = "0x20")]
+	private float _nextStatusUpdateTime;
+
+	[Token(Token = "0x4002FD5")]
 	[FieldOffset(Offset = "0x28")]
-	private string roomName;
+	private string _lastStatus;
 
-	[Token(Token = "0x4002D12")]
-	[FieldOffset(Offset = "0x30")]
-	private int playerCount;
-
-	[Token(Token = "0x4002D13")]
-	[FieldOffset(Offset = "0x34")]
-	private int maxPlayerCount;
-
-	[Token(Token = "0x4002D14")]
-	[FieldOffset(Offset = "0x38")]
-	private RoomInfo roomInfo;
-
-	[Token(Token = "0x4002D15")]
-	[FieldOffset(Offset = "0x40")]
-	private Activity roomActivity;
-
-	[Token(Token = "0x4002D16")]
-	[FieldOffset(Offset = "0xD0")]
-	private Activity mainMenuActivity;
-
-	[Token(Token = "0x4002D17")]
-	[FieldOffset(Offset = "0x160")]
-	private string[] trackedProperties;
-
-	[Token(Token = "0x600553D")]
-	[Address(RVA = "0x234D9D0", Offset = "0x234BFD0", VA = "0x18234D9D0")]
+	[Token(Token = "0x600589F")]
+	[Address(RVA = "0x5D09FD0", Offset = "0x5D08FD0", VA = "0x5D09FD0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600553E")]
-	[Address(RVA = "0x234E720", Offset = "0x234CD20", VA = "0x18234E720")]
+	[Token(Token = "0x60058A0")]
+	[Address(RVA = "0x5D140E0", Offset = "0x5D130E0", VA = "0x5D140E0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x600553F")]
-	[Address(RVA = "0x234DC90", Offset = "0x234C290", VA = "0x18234DC90")]
+	[Token(Token = "0x60058A1")]
+	[Address(RVA = "0x5D141F0", Offset = "0x5D131F0", VA = "0x5D141F0")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6005540")]
-	[Address(RVA = "0x234DD30", Offset = "0x234C330", VA = "0x18234DD30")]
-	private void SetRoomActivity(string state, string details, string profileIcon, long startTime, int playerCount, int maxPlayers)
-	{
-	}
-
-	[Token(Token = "0x6005541")]
-	[Address(RVA = "0x234DCA0", Offset = "0x234C2A0", VA = "0x18234DCA0")]
-	private void SetMenuActivity(string state, string details, string profileIcon, long startTime)
-	{
-	}
-
-	[Token(Token = "0x6005542")]
-	[Address(RVA = "0x234DDC0", Offset = "0x234C3C0", VA = "0x18234DDC0")]
+	[Token(Token = "0x60058A2")]
+	[Address(RVA = "0x5D14230", Offset = "0x5D13230", VA = "0x5D14230")]
 	private void UpdateStatus()
 	{
 	}
 
-	[Token(Token = "0x6005543")]
-	[Address(RVA = "0x234E820", Offset = "0x234CE20", VA = "0x18234E820")]
+	[Token(Token = "0x60058A3")]
+	[Address(RVA = "0x5D14C10", Offset = "0x5D13C10", VA = "0x5D14C10")]
+	private static string GetScore(Player player)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60058A4")]
+	[Address(RVA = "0x5D14DF0", Offset = "0x5D13DF0", VA = "0x5D14DF0")]
 	public DiscordManager()
 	{
 	}

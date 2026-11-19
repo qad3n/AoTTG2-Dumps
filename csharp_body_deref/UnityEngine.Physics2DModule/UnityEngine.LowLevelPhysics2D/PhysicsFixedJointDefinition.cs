@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsFixedJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,14 +36,14 @@ public struct PhysicsFixedJointDefinition
 
 	[Token(Token = "0x400005B")]
 	[FieldOffset(Offset = "0x30")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_LinearFrequency;
 
 	[Token(Token = "0x400005C")]
 	[FieldOffset(Offset = "0x34")]
-	[SerializeField]
 	[Min(0f)]
+	[SerializeField]
 	private float m_LinearDamping;
 
 	[Token(Token = "0x400005D")]
@@ -54,8 +54,8 @@ public struct PhysicsFixedJointDefinition
 
 	[Token(Token = "0x400005E")]
 	[FieldOffset(Offset = "0x3C")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_AngularDamping;
 
 	[Token(Token = "0x400005F")]
@@ -84,8 +84,8 @@ public struct PhysicsFixedJointDefinition
 
 	[Token(Token = "0x4000063")]
 	[FieldOffset(Offset = "0x50")]
-	[Range(0.001f, 10f)]
 	[SerializeField]
+	[Range(0.001f, 10f)]
 	private float m_DrawScale;
 
 	[Token(Token = "0x4000064")]
@@ -97,7 +97,7 @@ public struct PhysicsFixedJointDefinition
 	public static PhysicsFixedJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x2FD1D40", Offset = "0x2FD0340", VA = "0x182FD1D40")]
+		[Address(RVA = "0x69CB700", Offset = "0x69CA700", VA = "0x69CB700")]
 		get
 		{
 			return default(PhysicsFixedJointDefinition);
@@ -105,13 +105,13 @@ public struct PhysicsFixedJointDefinition
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x2FD1BF0", Offset = "0x2FD01F0", VA = "0x182FD1BF0")]
+	[Address(RVA = "0x69CB640", Offset = "0x69CA640", VA = "0x69CB640")]
 	public PhysicsFixedJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x2FD1C90", Offset = "0x2FD0290", VA = "0x182FD1C90")]
+	[Address(RVA = "0x69C8EE0", Offset = "0x69C7EE0", VA = "0x69C8EE0")]
 	public PhysicsFixedJointDefinition(bool useSettings)
 	{
 	}

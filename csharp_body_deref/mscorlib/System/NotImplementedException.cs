@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000118")]
+[Token(Token = "0x20000F0")]
 public class NotImplementedException : SystemException
 {
-	[Token(Token = "0x60008F4")]
-	[Address(RVA = "0x1B2E3B0", Offset = "0x1B2C9B0", VA = "0x181B2E3B0")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x54BCAB0", Offset = "0x54BBAB0", VA = "0x54BCAB0")]
 	public NotImplementedException()
 	{
 	}
 
-	[Token(Token = "0x60008F5")]
-	[Address(RVA = "0x1B2E390", Offset = "0x1B2C990", VA = "0x181B2E390")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x54BCAF0", Offset = "0x54BBAF0", VA = "0x54BCAF0")]
 	public NotImplementedException(string message)
 	{
 	}
 
-	[Token(Token = "0x60008F6")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x54BCB10", Offset = "0x54BBB10", VA = "0x54BCB10")]
 	protected NotImplementedException(SerializationInfo info, StreamingContext context)
 	{
 	}

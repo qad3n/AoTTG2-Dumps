@@ -12,8 +12,8 @@ namespace UnityEngine.Events;
 [Token(Token = "0x200021F")]
 internal class UnityEventTools
 {
-	[Token(Token = "0x60010F8")]
-	[Address(RVA = "0x2F5E3C0", Offset = "0x2F5C9C0", VA = "0x182F5E3C0")]
+	[Token(Token = "0x600110C")]
+	[Address(RVA = "0x6932EF0", Offset = "0x6931EF0", VA = "0x6932EF0")]
 	internal static string TidyAssemblyTypeName(string assemblyTypeName)
 	{
 		return null;

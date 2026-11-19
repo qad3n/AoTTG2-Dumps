@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001A9")]
+[Token(Token = "0x20001AA")]
 internal sealed class AssignLocalBoxedInstruction : LocalAccessInstruction
 {
-	[Token(Token = "0x170001E2")]
+	[Token(Token = "0x170001E4")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000969")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000974")]
+		[Address(RVA = "0x5E0B7D0", Offset = "0x5E0A7D0", VA = "0x5E0B7D0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001E3")]
+	[Token(Token = "0x170001E5")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600096A")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000975")]
+		[Address(RVA = "0x5E0B7E0", Offset = "0x5E0A7E0", VA = "0x5E0B7E0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001E4")]
+	[Token(Token = "0x170001E6")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600096B")]
-		[Address(RVA = "0x2466540", Offset = "0x2464B40", VA = "0x182466540", Slot = "9")]
+		[Token(Token = "0x6000976")]
+		[Address(RVA = "0x5E0B7F0", Offset = "0x5E0A7F0", VA = "0x5E0B7F0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000968")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000973")]
+	[Address(RVA = "0x5E0B7B0", Offset = "0x5E0A7B0", VA = "0x5E0B7B0")]
 	internal AssignLocalBoxedInstruction(int index)
 	{
 	}
 
-	[Token(Token = "0x600096C")]
-	[Address(RVA = "0x2466460", Offset = "0x2464A60", VA = "0x182466460", Slot = "8")]
+	[Token(Token = "0x6000977")]
+	[Address(RVA = "0x5E0B820", Offset = "0x5E0A820", VA = "0x5E0B820", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000081")]
+[Token(Token = "0x2000087")]
 public sealed class AottgStepperStep
 {
 	[Token(Token = "0x17000084")]
 	public string Id
 	{
-		[Token(Token = "0x60003CC")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000418")]
+		[Address(RVA = "0x5267BC0", Offset = "0x5266BC0", VA = "0x5267BC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,8 +30,8 @@ public sealed class AottgStepperStep
 	[Token(Token = "0x17000085")]
 	public string Title
 	{
-		[Token(Token = "0x60003CD")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000419")]
+		[Address(RVA = "0x5267BD0", Offset = "0x5266BD0", VA = "0x5267BD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,8 +42,8 @@ public sealed class AottgStepperStep
 	[Token(Token = "0x17000086")]
 	public string Text
 	{
-		[Token(Token = "0x60003CE")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600041A")]
+		[Address(RVA = "0x5267BE0", Offset = "0x5266BE0", VA = "0x5267BE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,29 +54,29 @@ public sealed class AottgStepperStep
 	[Token(Token = "0x17000087")]
 	public GisketchNodeDefinition[] Children
 	{
-		[Token(Token = "0x60003CF")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x600041B")]
+		[Address(RVA = "0x5267BF0", Offset = "0x5266BF0", VA = "0x5267BF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60003D0")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x600041C")]
+		[Address(RVA = "0x5267C00", Offset = "0x5266C00", VA = "0x5267C00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+	[Token(Token = "0x6000417")]
+	[Address(RVA = "0x5267B60", Offset = "0x5266B60", VA = "0x5267B60")]
 	public AottgStepperStep(string id, string title, [Optional] string text)
 	{
 	}
 
-	[Token(Token = "0x60003D1")]
-	[Address(RVA = "0x18C6BD0", Offset = "0x18C51D0", VA = "0x1818C6BD0")]
+	[Token(Token = "0x600041D")]
+	[Address(RVA = "0x5267C10", Offset = "0x5266C10", VA = "0x5267C10")]
 	internal GisketchStepperStepDefinition ToDefinition()
 	{
 		return null;

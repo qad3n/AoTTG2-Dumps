@@ -18,28 +18,28 @@ public static class TMP_FontUtilities
 	private static List<int> k_searchedFontAssets;
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x2CF72B0", Offset = "0x2CF58B0", VA = "0x182CF72B0")]
+	[Address(RVA = "0x66F4130", Offset = "0x66F3130", VA = "0x66F4130")]
 	public static TMP_FontAsset SearchForCharacter(TMP_FontAsset font, uint unicode, out TMP_Character character)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x2CF71C0", Offset = "0x2CF57C0", VA = "0x182CF71C0")]
+	[Address(RVA = "0x66F4500", Offset = "0x66F3500", VA = "0x66F4500")]
 	public static TMP_FontAsset SearchForCharacter(List<TMP_FontAsset> fonts, uint unicode, out TMP_Character character)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x2CF6EF0", Offset = "0x2CF54F0", VA = "0x182CF6EF0")]
+	[Address(RVA = "0x66F4220", Offset = "0x66F3220", VA = "0x66F4220")]
 	private static TMP_FontAsset SearchForCharacterInternal(TMP_FontAsset font, uint unicode, out TMP_Character character)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x2CF71C0", Offset = "0x2CF57C0", VA = "0x182CF71C0")]
+	[Address(RVA = "0x66F4510", Offset = "0x66F3510", VA = "0x66F4510")]
 	private static TMP_FontAsset SearchForCharacterInternal(List<TMP_FontAsset> fonts, uint unicode, out TMP_Character character)
 	{
 		return null;

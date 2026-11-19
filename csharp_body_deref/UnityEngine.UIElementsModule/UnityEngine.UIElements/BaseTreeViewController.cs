@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.BaseTreeViewController
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -89,7 +89,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private int System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EInt32_003E_002ECurrent
 		{
 			[Token(Token = "0x6000238")]
-			[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "6")]
+			[Address(RVA = "0x6A983D0", Offset = "0x6A973D0", VA = "0x6A983D0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -101,7 +101,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600023A")]
-			[Address(RVA = "0x2424CF0", Offset = "0x24232F0", VA = "0x182424CF0", Slot = "9")]
+			[Address(RVA = "0x6A98420", Offset = "0x6A97420", VA = "0x6A98420", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -110,41 +110,41 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x8E81F0", Offset = "0x8E67F0", VA = "0x1808E81F0")]
+		[Address(RVA = "0x6A97950", Offset = "0x6A96950", VA = "0x6A97950")]
 		[DebuggerHidden]
 		public _003CGetAllItemIds_003Ed__23(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000235")]
-		[Address(RVA = "0x30B3880", Offset = "0x30B1E80", VA = "0x1830B3880", Slot = "7")]
+		[Address(RVA = "0x6A97980", Offset = "0x6A96980", VA = "0x6A97980", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000236")]
-		[Address(RVA = "0x30B2F20", Offset = "0x30B1520", VA = "0x1830B2F20", Slot = "8")]
+		[Address(RVA = "0x6A97A30", Offset = "0x6A96A30", VA = "0x6A97A30", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000237")]
-		[Address(RVA = "0x30B38E0", Offset = "0x30B1EE0", VA = "0x1830B38E0")]
+		[Address(RVA = "0x6A98330", Offset = "0x6A97330", VA = "0x6A98330")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000239")]
-		[Address(RVA = "0x30B3840", Offset = "0x30B1E40", VA = "0x1830B3840", Slot = "10")]
+		[Address(RVA = "0x6A983E0", Offset = "0x6A973E0", VA = "0x6A983E0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x600023B")]
-		[Address(RVA = "0x30B3790", Offset = "0x30B1D90", VA = "0x1830B3790", Slot = "4")]
+		[Address(RVA = "0x6A98440", Offset = "0x6A97440", VA = "0x6A98440", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<int> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EInt32_003E_002EGetEnumerator()
 		{
@@ -152,7 +152,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x600023C")]
-		[Address(RVA = "0x30B3790", Offset = "0x30B1D90", VA = "0x1830B3790", Slot = "5")]
+		[Address(RVA = "0x6A984F0", Offset = "0x6A974F0", VA = "0x6A984F0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -208,7 +208,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private int System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EInt32_003E_002ECurrent
 		{
 			[Token(Token = "0x6000240")]
-			[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "6")]
+			[Address(RVA = "0x6A987C0", Offset = "0x6A977C0", VA = "0x6A987C0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -220,7 +220,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000242")]
-			[Address(RVA = "0x2424CF0", Offset = "0x24232F0", VA = "0x182424CF0", Slot = "9")]
+			[Address(RVA = "0x6A98810", Offset = "0x6A97810", VA = "0x6A98810", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -229,35 +229,35 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x600023D")]
-		[Address(RVA = "0x8E81F0", Offset = "0x8E67F0", VA = "0x1808E81F0")]
+		[Address(RVA = "0x6A98500", Offset = "0x6A97500", VA = "0x6A98500")]
 		[DebuggerHidden]
 		public _003CGetChildrenIds_003Ed__25(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600023E")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Address(RVA = "0x6A98530", Offset = "0x6A97530", VA = "0x6A98530", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600023F")]
-		[Address(RVA = "0x30B3C30", Offset = "0x30B2230", VA = "0x1830B3C30", Slot = "8")]
+		[Address(RVA = "0x6A98540", Offset = "0x6A97540", VA = "0x6A98540", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000241")]
-		[Address(RVA = "0x30B3E80", Offset = "0x30B2480", VA = "0x1830B3E80", Slot = "10")]
+		[Address(RVA = "0x6A987D0", Offset = "0x6A977D0", VA = "0x6A987D0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x30B3DD0", Offset = "0x30B23D0", VA = "0x1830B3DD0", Slot = "4")]
+		[Address(RVA = "0x6A98830", Offset = "0x6A97830", VA = "0x6A98830", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<int> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EInt32_003E_002EGetEnumerator()
 		{
@@ -265,7 +265,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x6000244")]
-		[Address(RVA = "0x30B3DD0", Offset = "0x30B23D0", VA = "0x1830B3DD0", Slot = "5")]
+		[Address(RVA = "0x6A988D0", Offset = "0x6A978D0", VA = "0x6A988D0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -317,7 +317,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private int System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EInt32_003E_002ECurrent
 		{
 			[Token(Token = "0x6000248")]
-			[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "6")]
+			[Address(RVA = "0x6A98C20", Offset = "0x6A97C20", VA = "0x6A98C20", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -329,7 +329,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600024A")]
-			[Address(RVA = "0x2424CF0", Offset = "0x24232F0", VA = "0x182424CF0", Slot = "9")]
+			[Address(RVA = "0x6A98C70", Offset = "0x6A97C70", VA = "0x6A98C70", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -338,35 +338,35 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x8E81F0", Offset = "0x8E67F0", VA = "0x1808E81F0")]
+		[Address(RVA = "0x6A988E0", Offset = "0x6A978E0", VA = "0x6A988E0")]
 		[DebuggerHidden]
 		public _003CGetChildrenIdsByIndex_003Ed__41(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Address(RVA = "0x6A98910", Offset = "0x6A97910", VA = "0x6A98910", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x30B3940", Offset = "0x30B1F40", VA = "0x1830B3940", Slot = "8")]
+		[Address(RVA = "0x6A98920", Offset = "0x6A97920", VA = "0x6A98920", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000249")]
-		[Address(RVA = "0x30B3BF0", Offset = "0x30B21F0", VA = "0x1830B3BF0", Slot = "10")]
+		[Address(RVA = "0x6A98C30", Offset = "0x6A97C30", VA = "0x6A98C30", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x30B3B40", Offset = "0x30B2140", VA = "0x1830B3B40", Slot = "4")]
+		[Address(RVA = "0x6A98C90", Offset = "0x6A97C90", VA = "0x6A98C90", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<int> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EInt32_003E_002EGetEnumerator()
 		{
@@ -374,7 +374,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 		}
 
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x30B3B40", Offset = "0x30B2140", VA = "0x1830B3B40", Slot = "5")]
+		[Address(RVA = "0x6A98D30", Offset = "0x6A97D30", VA = "0x6A98D30", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -420,7 +420,7 @@ public abstract class BaseTreeViewController : CollectionViewController
 	protected BaseTreeView baseTreeView
 	{
 		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x3084630", Offset = "0x3082C30", VA = "0x183084630")]
+		[Address(RVA = "0x6A93650", Offset = "0x6A92650", VA = "0x6A93650")]
 		get
 		{
 			return null;
@@ -431,13 +431,13 @@ public abstract class BaseTreeViewController : CollectionViewController
 	private protected Hierarchy hierarchy
 	{
 		[Token(Token = "0x6000203")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6A93B60", Offset = "0x6A92B60", VA = "0x6A93B60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x3084760", Offset = "0x3082D60", VA = "0x183084760")]
+		[Address(RVA = "0x6A938A0", Offset = "0x6A928A0", VA = "0x6A938A0")]
 		set
 		{
 		}
@@ -447,13 +447,13 @@ public abstract class BaseTreeViewController : CollectionViewController
 	public override IList itemsSource
 	{
 		[Token(Token = "0x6000206")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
+		[Address(RVA = "0x6A93B70", Offset = "0x6A92B70", VA = "0x6A93B70", Slot = "5")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000207")]
-		[Address(RVA = "0x30848D0", Offset = "0x3082ED0", VA = "0x1830848D0", Slot = "6")]
+		[Address(RVA = "0x6A93B80", Offset = "0x6A92B80", VA = "0x6A93B80", Slot = "6")]
 		set
 		{
 		}
@@ -463,13 +463,13 @@ public abstract class BaseTreeViewController : CollectionViewController
 	internal event Action<TreeViewExpansionChangedArgs> itemExpandedChanged
 	{
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x3084580", Offset = "0x3082B80", VA = "0x183084580")]
+		[Address(RVA = "0x6A936B0", Offset = "0x6A926B0", VA = "0x6A936B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x30846B0", Offset = "0x3082CB0", VA = "0x1830846B0")]
+		[Address(RVA = "0x6A93750", Offset = "0x6A92750", VA = "0x6A93750")]
 		[CompilerGenerated]
 		remove
 		{
@@ -477,25 +477,25 @@ public abstract class BaseTreeViewController : CollectionViewController
 	}
 
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x3084390", Offset = "0x3082990", VA = "0x183084390")]
+	[Address(RVA = "0x6A937F0", Offset = "0x6A927F0", VA = "0x6A937F0")]
 	protected BaseTreeViewController()
 	{
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x30816B0", Offset = "0x307FCB0", VA = "0x1830816B0", Slot = "1")]
+	[Address(RVA = "0x6A93A00", Offset = "0x6A92A00", VA = "0x6A93A00", Slot = "1")]
 	~BaseTreeViewController()
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x3080F50", Offset = "0x307F550", VA = "0x183080F50")]
+	[Address(RVA = "0x6A93A90", Offset = "0x6A92A90", VA = "0x6A93A90")]
 	internal void DisposeHierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x3081710", Offset = "0x307FD10", VA = "0x183081710", Slot = "24")]
+	[Address(RVA = "0x6A93BD0", Offset = "0x6A92BD0", VA = "0x6A93BD0", Slot = "24")]
 	[IteratorStateMachine(typeof(_003CGetAllItemIds_003Ed__23))]
 	public virtual IEnumerable<int> GetAllItemIds([Optional] IEnumerable<int> rootIds)
 	{
@@ -503,14 +503,14 @@ public abstract class BaseTreeViewController : CollectionViewController
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x30823C0", Offset = "0x30809C0", VA = "0x1830823C0", Slot = "25")]
+	[Address(RVA = "0x6A93C50", Offset = "0x6A92C50", VA = "0x6A93C50", Slot = "25")]
 	public virtual int GetParentId(int id)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x3081A60", Offset = "0x3080060", VA = "0x183081A60", Slot = "26")]
+	[Address(RVA = "0x6A93E50", Offset = "0x6A92E50", VA = "0x6A93E50", Slot = "26")]
 	[IteratorStateMachine(typeof(_003CGetChildrenIds_003Ed__25))]
 	public virtual IEnumerable<int> GetChildrenIds(int id)
 	{
@@ -518,90 +518,90 @@ public abstract class BaseTreeViewController : CollectionViewController
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x3082FA0", Offset = "0x30815A0", VA = "0x183082FA0", Slot = "27")]
+	[Address(RVA = "0x6A93EC0", Offset = "0x6A92EC0", VA = "0x6A93EC0", Slot = "27")]
 	public virtual void Move(int id, int newParentId, int childIndex = -1, bool rebuildTree = true)
 	{
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x30829C0", Offset = "0x3080FC0", VA = "0x1830829C0", Slot = "14")]
+	[Address(RVA = "0x6A94640", Offset = "0x6A93640", VA = "0x6A94640", Slot = "14")]
 	internal override void InvokeMakeItem(ReusableCollectionItem reusableItem)
 	{
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x30826A0", Offset = "0x3080CA0", VA = "0x1830826A0", Slot = "16")]
+	[Address(RVA = "0x6A947B0", Offset = "0x6A937B0", VA = "0x6A947B0", Slot = "16")]
 	internal override void InvokeBindItem(ReusableCollectionItem reusableItem, int index)
 	{
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x30828A0", Offset = "0x3080EA0", VA = "0x1830828A0", Slot = "18")]
+	[Address(RVA = "0x6A94BB0", Offset = "0x6A93BB0", VA = "0x6A94BB0", Slot = "18")]
 	internal override void InvokeDestroyItem(ReusableCollectionItem reusableItem)
 	{
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x3083D30", Offset = "0x3082330", VA = "0x183083D30")]
+	[Address(RVA = "0x6A946E0", Offset = "0x6A936E0", VA = "0x6A946E0")]
 	internal void PostInitRegistration(ReusableTreeViewItem treeItem)
 	{
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x3083280", Offset = "0x3081880", VA = "0x183083280")]
+	[Address(RVA = "0x6A94CC0", Offset = "0x6A93CC0", VA = "0x6A94CC0")]
 	private void OnItemPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x3083E20", Offset = "0x3082420", VA = "0x183083E20")]
+	[Address(RVA = "0x6A958B0", Offset = "0x6A948B0", VA = "0x6A958B0")]
 	private void RaiseItemExpandedChanged(int id, bool isExpanded, bool isAppliedToAllChildren)
 	{
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x30838C0", Offset = "0x3081EC0", VA = "0x1830838C0")]
+	[Address(RVA = "0x6A95940", Offset = "0x6A94940", VA = "0x6A95940")]
 	private void OnToggleValueChanged(ChangeEvent<bool> evt)
 	{
 	}
 
 	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x3082300", Offset = "0x3080900", VA = "0x183082300", Slot = "11")]
+	[Address(RVA = "0x6A95D50", Offset = "0x6A94D50", VA = "0x6A95D50", Slot = "11")]
 	public override int GetIndexForId(int id)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x3082030", Offset = "0x3080630", VA = "0x183082030", Slot = "12")]
+	[Address(RVA = "0x6A95E00", Offset = "0x6A94E00", VA = "0x6A95E00", Slot = "12")]
 	public override int GetIdForIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x30825F0", Offset = "0x3080BF0", VA = "0x1830825F0", Slot = "28")]
+	[Address(RVA = "0x6A96100", Offset = "0x6A95100", VA = "0x6A96100", Slot = "28")]
 	public virtual bool HasChildren(int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x3081020", Offset = "0x307F620", VA = "0x183081020")]
+	[Address(RVA = "0x6A961A0", Offset = "0x6A951A0", VA = "0x6A961A0")]
 	public bool Exists(int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x3082580", Offset = "0x3080B80", VA = "0x183082580")]
+	[Address(RVA = "0x6A94B40", Offset = "0x6A93B40", VA = "0x6A94B40")]
 	public bool HasChildrenByIndex(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x30819E0", Offset = "0x307FFE0", VA = "0x1830819E0")]
+	[Address(RVA = "0x6A95700", Offset = "0x6A94700", VA = "0x6A95700")]
 	[IteratorStateMachine(typeof(_003CGetChildrenIdsByIndex_003Ed__41))]
 	public IEnumerable<int> GetChildrenIdsByIndex(int index)
 	{
@@ -609,169 +609,169 @@ public abstract class BaseTreeViewController : CollectionViewController
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x30817A0", Offset = "0x307FDA0", VA = "0x1830817A0")]
+	[Address(RVA = "0x6A941F0", Offset = "0x6A931F0", VA = "0x6A941F0")]
 	public int GetChildIndexForId(int id)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x3082250", Offset = "0x3080850", VA = "0x183082250")]
+	[Address(RVA = "0x6A961F0", Offset = "0x6A951F0", VA = "0x6A961F0")]
 	public int GetIndentationDepth(int id)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x3082190", Offset = "0x3080790", VA = "0x183082190")]
+	[Address(RVA = "0x6A94A20", Offset = "0x6A93A20", VA = "0x6A94A20")]
 	public int GetIndentationDepthByIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x10B79A0", Offset = "0x10B5FA0", VA = "0x1810B79A0", Slot = "29")]
+	[Address(RVA = "0x6A962A0", Offset = "0x6A952A0", VA = "0x6A962A0", Slot = "29")]
 	public virtual bool CanChangeExpandedState(int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x3082DF0", Offset = "0x30813F0", VA = "0x183082DF0")]
+	[Address(RVA = "0x6A962B0", Offset = "0x6A952B0", VA = "0x6A962B0")]
 	public bool IsExpanded(int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x3082CA0", Offset = "0x30812A0", VA = "0x183082CA0")]
+	[Address(RVA = "0x6A94AE0", Offset = "0x6A93AE0", VA = "0x6A94AE0")]
 	public bool IsExpandedByIndex(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x3081080", Offset = "0x307F680", VA = "0x183081080")]
+	[Address(RVA = "0x6A95BC0", Offset = "0x6A94BC0", VA = "0x6A95BC0")]
 	public void ExpandItemByIndex(int index, bool expandAllChildren, bool refresh = true)
 	{
 	}
 
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x30815F0", Offset = "0x307FBF0", VA = "0x1830815F0")]
+	[Address(RVA = "0x6A96AA0", Offset = "0x6A95AA0", VA = "0x6A96AA0")]
 	public void ExpandItem(int id, bool expandAllChildren, bool refresh = true)
 	{
 	}
 
 	[Token(Token = "0x6000221")]
-	[Address(RVA = "0x30809D0", Offset = "0x307EFD0", VA = "0x1830809D0")]
+	[Address(RVA = "0x6A95B10", Offset = "0x6A94B10", VA = "0x6A95B10")]
 	public void CollapseItemByIndex(int index, bool collapseAllChildren, bool refresh = true)
 	{
 	}
 
 	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x3080E00", Offset = "0x307F400", VA = "0x183080E00")]
+	[Address(RVA = "0x6A971B0", Offset = "0x6A961B0", VA = "0x6A971B0")]
 	public void CollapseItem(int id, bool collapseAllChildren, bool refresh = true)
 	{
 	}
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x3081210", Offset = "0x307F810", VA = "0x183081210")]
+	[Address(RVA = "0x6A963A0", Offset = "0x6A953A0", VA = "0x6A963A0")]
 	private void ExpandItemByNode(in HierarchyNode node, bool expandAllChildren, bool refresh)
 	{
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x3080AA0", Offset = "0x307F0A0", VA = "0x183080AA0")]
+	[Address(RVA = "0x6A96B50", Offset = "0x6A95B50", VA = "0x6A96B50")]
 	private void CollapseItemByNode(in HierarchyNode node, bool collapseAllChildren, bool refresh)
 	{
 	}
 
 	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x3081AE0", Offset = "0x30800E0", VA = "0x183081AE0")]
+	[Address(RVA = "0x6A97260", Offset = "0x6A96260", VA = "0x6A97260")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal void GetExpandedItemIds(List<int> list)
 	{
 	}
 
 	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x3082F40", Offset = "0x3081540", VA = "0x183082F40")]
+	[Address(RVA = "0x6A95630", Offset = "0x6A94630", VA = "0x6A95630")]
 	internal bool IsViewDataKeyEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x3083E10", Offset = "0x3082410", VA = "0x183083E10", Slot = "19")]
+	[Address(RVA = "0x6A974F0", Offset = "0x6A964F0", VA = "0x6A974F0", Slot = "19")]
 	internal override void PreRefresh()
 	{
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x3082F00", Offset = "0x3081500", VA = "0x183082F00")]
+	[Address(RVA = "0x6A960D0", Offset = "0x6A950D0", VA = "0x6A960D0")]
 	private bool IsIndexValid(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x3082B10", Offset = "0x3081110", VA = "0x183082B10")]
+	[Address(RVA = "0x6A94060", Offset = "0x6A93060", VA = "0x6A94060")]
 	private bool IsChildOf(int childId, int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x3083EB0", Offset = "0x30824B0", VA = "0x183083EB0")]
+	[Address(RVA = "0x6A94630", Offset = "0x6A93630", VA = "0x6A94630")]
 	internal void RaiseItemParentChanged(int id, int newParentId)
 	{
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x3080EC0", Offset = "0x307F4C0", VA = "0x183080EC0")]
+	[Address(RVA = "0x6A97500", Offset = "0x6A96500", VA = "0x6A97500")]
 	internal HierarchyNode CreateNode(in HierarchyNode parent)
 	{
 		return default(HierarchyNode);
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x3083F50", Offset = "0x3082550", VA = "0x183083F50")]
+	[Address(RVA = "0x6A97570", Offset = "0x6A96570", VA = "0x6A97570")]
 	internal void UpdateIdToNodeDictionary(int id, in HierarchyNode node, bool isAdd = true)
 	{
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x3080980", Offset = "0x307EF80", VA = "0x183080980")]
+	[Address(RVA = "0x6A976A0", Offset = "0x6A966A0", VA = "0x6A976A0")]
 	internal void ClearIdToNodeDictionary()
 	{
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x3084080", Offset = "0x3082680", VA = "0x183084080")]
+	[Address(RVA = "0x6A943F0", Offset = "0x6A933F0", VA = "0x6A943F0")]
 	internal void UpdateSortOrder(in HierarchyNode newParent, in HierarchyNode insertedNode, int insertedIndex)
 	{
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x3083B30", Offset = "0x3082130", VA = "0x183083B30")]
+	[Address(RVA = "0x6A976E0", Offset = "0x6A966E0", VA = "0x6A976E0")]
 	internal void OnViewDataReadyUpdateNodes()
 	{
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x3083EC0", Offset = "0x30824C0", VA = "0x183083EC0")]
+	[Address(RVA = "0x6A95830", Offset = "0x6A94830", VA = "0x6A95830")]
 	internal void UpdateHierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x3081F00", Offset = "0x3080500", VA = "0x183081F00")]
+	[Address(RVA = "0x6A93DC0", Offset = "0x6A92DC0", VA = "0x6A93DC0")]
 	internal HierarchyNode GetHierarchyNodeById(int id)
 	{
 		return default(HierarchyNode);
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x3081FA0", Offset = "0x30805A0", VA = "0x183081FA0")]
+	[Address(RVA = "0x6A95770", Offset = "0x6A94770", VA = "0x6A95770")]
 	internal HierarchyNode GetHierarchyNodeByIndex(int index)
 	{
 		return default(HierarchyNode);

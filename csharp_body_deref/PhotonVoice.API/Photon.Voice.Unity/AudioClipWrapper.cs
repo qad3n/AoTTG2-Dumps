@@ -12,98 +12,98 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000A1")]
 public class AudioClipWrapper : IAudioReader<float>, IDataReader<float>, IDisposable, IAudioDesc
 {
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x40002AB")]
 	[FieldOffset(Offset = "0x10")]
 	private AudioClip audioClip;
 
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x40002AC")]
 	[FieldOffset(Offset = "0x18")]
 	private int readPos;
 
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x40002AD")]
 	[FieldOffset(Offset = "0x1C")]
 	private float startTime;
 
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x40002AF")]
 	[FieldOffset(Offset = "0x21")]
 	private bool playing;
 
-	[Token(Token = "0x170000F5")]
+	[Token(Token = "0x170000F2")]
 	public bool Loop
 	{
-		[Token(Token = "0x6000392")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x600037A")]
+		[Address(RVA = "0x5721EE0", Offset = "0x5720EE0", VA = "0x5721EE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000393")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Token(Token = "0x600037B")]
+		[Address(RVA = "0x5721EF0", Offset = "0x5720EF0", VA = "0x5721EF0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000F6")]
+	[Token(Token = "0x170000F3")]
 	public int SamplingRate
 	{
-		[Token(Token = "0x6000396")]
-		[Address(RVA = "0x1D831E0", Offset = "0x1D817E0", VA = "0x181D831E0", Slot = "6")]
+		[Token(Token = "0x600037E")]
+		[Address(RVA = "0x5722050", Offset = "0x5721050", VA = "0x5722050", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000F7")]
+	[Token(Token = "0x170000F4")]
 	public int Channels
 	{
-		[Token(Token = "0x6000397")]
-		[Address(RVA = "0x1D831C0", Offset = "0x1D817C0", VA = "0x181D831C0", Slot = "7")]
+		[Token(Token = "0x600037F")]
+		[Address(RVA = "0x5722070", Offset = "0x5721070", VA = "0x5722070", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000F8")]
+	[Token(Token = "0x170000F5")]
 	public string Error
 	{
-		[Token(Token = "0x6000398")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "8")]
+		[Token(Token = "0x6000380")]
+		[Address(RVA = "0x5722090", Offset = "0x5721090", VA = "0x5722090", Slot = "8")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000399")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6000381")]
+		[Address(RVA = "0x57220A0", Offset = "0x57210A0", VA = "0x57220A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x1D83170", Offset = "0x1D81770", VA = "0x181D83170")]
+	[Token(Token = "0x600037C")]
+	[Address(RVA = "0x5721F00", Offset = "0x5720F00", VA = "0x5721F00")]
 	public AudioClipWrapper(AudioClip audioClip)
 	{
 	}
 
-	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x1D83040", Offset = "0x1D81640", VA = "0x181D83040", Slot = "4")]
+	[Token(Token = "0x600037D")]
+	[Address(RVA = "0x5721F40", Offset = "0x5720F40", VA = "0x5721F40", Slot = "4")]
 	public bool Read(float[] buffer)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6000382")]
+	[Address(RVA = "0x57220B0", Offset = "0x57210B0", VA = "0x57220B0", Slot = "5")]
 	public void Dispose()
 	{
 	}

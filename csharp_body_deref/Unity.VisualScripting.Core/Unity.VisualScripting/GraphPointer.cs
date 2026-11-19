@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.VisualScripting.GraphPointer
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,14 +46,14 @@ public abstract class GraphPointer
 	public IGraphRoot root
 	{
 		[Token(Token = "0x6000358")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x679DB70", Offset = "0x679CB70", VA = "0x679DB70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000359")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x679DB80", Offset = "0x679CB80", VA = "0x679DB80")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -64,7 +64,7 @@ public abstract class GraphPointer
 	public UnityEngine.Object rootObject
 	{
 		[Token(Token = "0x600035A")]
-		[Address(RVA = "0x2DAD4F0", Offset = "0x2DABAF0", VA = "0x182DAD4F0")]
+		[Address(RVA = "0x679DB90", Offset = "0x679CB90", VA = "0x679DB90")]
 		get
 		{
 			return null;
@@ -75,7 +75,7 @@ public abstract class GraphPointer
 	public IMachine machine
 	{
 		[Token(Token = "0x600035B")]
-		[Address(RVA = "0x2DAD1C0", Offset = "0x2DAB7C0", VA = "0x182DAD1C0")]
+		[Address(RVA = "0x679C0F0", Offset = "0x679B0F0", VA = "0x679C0F0")]
 		get
 		{
 			return null;
@@ -86,7 +86,7 @@ public abstract class GraphPointer
 	public IMacro macro
 	{
 		[Token(Token = "0x600035C")]
-		[Address(RVA = "0x2DAD200", Offset = "0x2DAB800", VA = "0x182DAD200")]
+		[Address(RVA = "0x679DBF0", Offset = "0x679CBF0", VA = "0x679DBF0")]
 		get
 		{
 			return null;
@@ -97,7 +97,7 @@ public abstract class GraphPointer
 	public MonoBehaviour component
 	{
 		[Token(Token = "0x600035D")]
-		[Address(RVA = "0x2DAC8C0", Offset = "0x2DAAEC0", VA = "0x182DAC8C0")]
+		[Address(RVA = "0x679C130", Offset = "0x679B130", VA = "0x679C130")]
 		get
 		{
 			return null;
@@ -108,14 +108,14 @@ public abstract class GraphPointer
 	public GameObject gameObject
 	{
 		[Token(Token = "0x600035E")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x679DC30", Offset = "0x679CC30", VA = "0x679DC30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600035F")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x679DC40", Offset = "0x679CC40", VA = "0x679DC40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -126,7 +126,7 @@ public abstract class GraphPointer
 	public GameObject self
 	{
 		[Token(Token = "0x6000360")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x679DC50", Offset = "0x679CC50", VA = "0x679DC50")]
 		get
 		{
 			return null;
@@ -137,7 +137,7 @@ public abstract class GraphPointer
 	public ScriptableObject scriptableObject
 	{
 		[Token(Token = "0x6000361")]
-		[Address(RVA = "0x2DAD640", Offset = "0x2DABC40", VA = "0x182DAD640")]
+		[Address(RVA = "0x679DC60", Offset = "0x679CC60", VA = "0x679DC60")]
 		get
 		{
 			return null;
@@ -148,7 +148,7 @@ public abstract class GraphPointer
 	public Scene? scene
 	{
 		[Token(Token = "0x6000362")]
-		[Address(RVA = "0x2DAD570", Offset = "0x2DABB70", VA = "0x182DAD570")]
+		[Address(RVA = "0x679DCC0", Offset = "0x679CCC0", VA = "0x679DCC0")]
 		get
 		{
 			return null;
@@ -159,7 +159,7 @@ public abstract class GraphPointer
 	public UnityEngine.Object serializedObject
 	{
 		[Token(Token = "0x6000363")]
-		[Address(RVA = "0x2DAD6C0", Offset = "0x2DABCC0", VA = "0x182DAD6C0")]
+		[Address(RVA = "0x679DD90", Offset = "0x679CD90", VA = "0x679DD90")]
 		get
 		{
 			return null;
@@ -170,7 +170,7 @@ public abstract class GraphPointer
 	public IEnumerable<Guid> parentElementGuids
 	{
 		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x2DAD240", Offset = "0x2DAB840", VA = "0x182DAD240")]
+		[Address(RVA = "0x679DFD0", Offset = "0x679CFD0", VA = "0x679DFD0")]
 		get
 		{
 			return null;
@@ -181,7 +181,7 @@ public abstract class GraphPointer
 	public int depth
 	{
 		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x2DACB40", Offset = "0x2DAB140", VA = "0x182DACB40")]
+		[Address(RVA = "0x679DF90", Offset = "0x679CF90", VA = "0x679DF90")]
 		get
 		{
 			return default(int);
@@ -192,7 +192,7 @@ public abstract class GraphPointer
 	public bool isRoot
 	{
 		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x2DACD50", Offset = "0x2DAB350", VA = "0x182DACD50")]
+		[Address(RVA = "0x679E0E0", Offset = "0x679D0E0", VA = "0x679E0E0")]
 		get
 		{
 			return default(bool);
@@ -203,7 +203,7 @@ public abstract class GraphPointer
 	public bool isChild
 	{
 		[Token(Token = "0x6000367")]
-		[Address(RVA = "0x2DACD00", Offset = "0x2DAB300", VA = "0x182DACD00")]
+		[Address(RVA = "0x679E120", Offset = "0x679D120", VA = "0x679E120")]
 		get
 		{
 			return default(bool);
@@ -214,7 +214,7 @@ public abstract class GraphPointer
 	public IGraphParent parent
 	{
 		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x2DAD440", Offset = "0x2DABA40", VA = "0x182DAD440")]
+		[Address(RVA = "0x679A300", Offset = "0x6799300", VA = "0x679A300")]
 		get
 		{
 			return null;
@@ -225,7 +225,7 @@ public abstract class GraphPointer
 	public IGraphParentElement parentElement
 	{
 		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x2DAD360", Offset = "0x2DAB960", VA = "0x182DAD360")]
+		[Address(RVA = "0x679E400", Offset = "0x679D400", VA = "0x679E400")]
 		get
 		{
 			return null;
@@ -236,7 +236,7 @@ public abstract class GraphPointer
 	public IGraph rootGraph
 	{
 		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x2DAD4A0", Offset = "0x2DABAA0", VA = "0x182DAD4A0")]
+		[Address(RVA = "0x679E460", Offset = "0x679D460", VA = "0x679E460")]
 		get
 		{
 			return null;
@@ -247,7 +247,7 @@ public abstract class GraphPointer
 	public IGraph graph
 	{
 		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x2DACBC0", Offset = "0x2DAB1C0", VA = "0x182DACBC0")]
+		[Address(RVA = "0x679A2B0", Offset = "0x67992B0", VA = "0x679A2B0")]
 		get
 		{
 			return null;
@@ -258,13 +258,13 @@ public abstract class GraphPointer
 	protected IGraphData _data
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x2DAC7A0", Offset = "0x2DAADA0", VA = "0x182DAC7A0")]
+		[Address(RVA = "0x679E4A0", Offset = "0x679D4A0", VA = "0x679E4A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x2DAD7E0", Offset = "0x2DABDE0", VA = "0x182DAD7E0")]
+		[Address(RVA = "0x679E4F0", Offset = "0x679D4F0", VA = "0x679E4F0")]
 		set
 		{
 		}
@@ -274,7 +274,7 @@ public abstract class GraphPointer
 	public IGraphData data
 	{
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x2DAC940", Offset = "0x2DAAF40", VA = "0x182DAC940")]
+		[Address(RVA = "0x679E550", Offset = "0x679D550", VA = "0x679E550")]
 		get
 		{
 			return null;
@@ -285,7 +285,7 @@ public abstract class GraphPointer
 	protected IGraphData _parentData
 	{
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x2DAC860", Offset = "0x2DAAE60", VA = "0x182DAC860")]
+		[Address(RVA = "0x679E660", Offset = "0x679D660", VA = "0x679E660")]
 		get
 		{
 			return null;
@@ -296,7 +296,7 @@ public abstract class GraphPointer
 	public bool hasData
 	{
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x2DACC20", Offset = "0x2DAB220", VA = "0x182DACC20")]
+		[Address(RVA = "0x679E6B0", Offset = "0x679D6B0", VA = "0x679E6B0")]
 		get
 		{
 			return default(bool);
@@ -307,14 +307,14 @@ public abstract class GraphPointer
 	public static Func<IGraphRoot, IGraphDebugData> fetchRootDebugDataBinding
 	{
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x2DACB80", Offset = "0x2DAB180", VA = "0x182DACB80")]
+		[Address(RVA = "0x679E710", Offset = "0x679D710", VA = "0x679E710")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x2DAD8C0", Offset = "0x2DABEC0", VA = "0x182DAD8C0")]
+		[Address(RVA = "0x679E750", Offset = "0x679D750", VA = "0x679E750")]
 		[CompilerGenerated]
 		set
 		{
@@ -325,7 +325,7 @@ public abstract class GraphPointer
 	public bool hasDebugData
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x2DACC90", Offset = "0x2DAB290", VA = "0x182DACC90")]
+		[Address(RVA = "0x679E7A0", Offset = "0x679D7A0", VA = "0x679E7A0")]
 		get
 		{
 			return default(bool);
@@ -336,13 +336,13 @@ public abstract class GraphPointer
 	protected IGraphDebugData _debugData
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x2DAC800", Offset = "0x2DAAE00", VA = "0x182DAC800")]
+		[Address(RVA = "0x679E800", Offset = "0x679D800", VA = "0x679E800")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x2DAD850", Offset = "0x2DABE50", VA = "0x182DAD850")]
+		[Address(RVA = "0x679E900", Offset = "0x679D900", VA = "0x679E900")]
 		set
 		{
 		}
@@ -352,7 +352,7 @@ public abstract class GraphPointer
 	public IGraphDebugData debugData
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x2DACA40", Offset = "0x2DAB040", VA = "0x182DACA40")]
+		[Address(RVA = "0x679E960", Offset = "0x679D960", VA = "0x679E960")]
 		get
 		{
 			return null;
@@ -363,7 +363,7 @@ public abstract class GraphPointer
 	public bool isValid
 	{
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x2DACDA0", Offset = "0x2DAB3A0", VA = "0x182DACDA0")]
+		[Address(RVA = "0x679F130", Offset = "0x679E130", VA = "0x679F130")]
 		get
 		{
 			return default(bool);
@@ -371,39 +371,39 @@ public abstract class GraphPointer
 	}
 
 	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x2DABDB0", Offset = "0x2DAA3B0", VA = "0x182DABDB0")]
+	[Address(RVA = "0x679B580", Offset = "0x679A580", VA = "0x679B580")]
 	protected static bool IsValidRoot(IGraphRoot root)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x2DABD00", Offset = "0x2DAA300", VA = "0x182DABD00")]
+	[Address(RVA = "0x679B6A0", Offset = "0x679A6A0", VA = "0x679B6A0")]
 	protected static bool IsValidRoot(UnityEngine.Object rootObject)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x2DAC610", Offset = "0x2DAAC10", VA = "0x182DAC610")]
+	[Address(RVA = "0x679B7A0", Offset = "0x679A7A0", VA = "0x679B7A0")]
 	internal GraphPointer()
 	{
 	}
 
 	[Token(Token = "0x6000353")]
-	[Address(RVA = "0x2DAB360", Offset = "0x2DA9960", VA = "0x182DAB360")]
+	[Address(RVA = "0x679B950", Offset = "0x679A950", VA = "0x679B950")]
 	protected void Initialize(IGraphRoot root)
 	{
 	}
 
 	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x2DAB860", Offset = "0x2DA9E60", VA = "0x182DAB860")]
+	[Address(RVA = "0x679C250", Offset = "0x679B250", VA = "0x679C250")]
 	protected void Initialize(IGraphRoot root, IEnumerable<IGraphParentElement> parentElements, bool ensureValid)
 	{
 	}
 
 	[Token(Token = "0x6000355")]
-	[Address(RVA = "0x2DAB090", Offset = "0x2DA9690", VA = "0x182DAB090")]
+	[Address(RVA = "0x679CBA0", Offset = "0x679BBA0", VA = "0x679CBA0")]
 	protected void Initialize(UnityEngine.Object rootObject, IEnumerable<Guid> parentElementGuids, bool ensureValid)
 	{
 	}
@@ -412,19 +412,19 @@ public abstract class GraphPointer
 	public abstract GraphReference AsReference();
 
 	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x2DA9B20", Offset = "0x2DA8120", VA = "0x182DA9B20", Slot = "5")]
+	[Address(RVA = "0x679D220", Offset = "0x679C220", VA = "0x679D220", Slot = "5")]
 	public virtual void CopyFrom(GraphPointer other)
 	{
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x2DAA7A0", Offset = "0x2DA8DA0", VA = "0x182DAA7A0")]
+	[Address(RVA = "0x679E160", Offset = "0x679D160", VA = "0x679E160")]
 	public void EnsureDepthValid(int depth)
 	{
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x2DAA580", Offset = "0x2DA8B80", VA = "0x182DAA580")]
+	[Address(RVA = "0x679E370", Offset = "0x679D370", VA = "0x679E370")]
 	public void EnsureChild()
 	{
 	}
@@ -447,7 +447,7 @@ public abstract class GraphPointer
 	}
 
 	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x2DAA620", Offset = "0x2DA8C20", VA = "0x182DAA620")]
+	[Address(RVA = "0x679E5B0", Offset = "0x679D5B0", VA = "0x679E5B0")]
 	public void EnsureDataAvailable()
 	{
 	}
@@ -465,7 +465,7 @@ public abstract class GraphPointer
 	}
 
 	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x2DAA6E0", Offset = "0x2DA8CE0", VA = "0x182DAA6E0")]
+	[Address(RVA = "0x679E850", Offset = "0x679D850", VA = "0x679E850")]
 	public void EnsureDebugDataAvailable()
 	{
 	}
@@ -483,72 +483,72 @@ public abstract class GraphPointer
 	}
 
 	[Token(Token = "0x6000382")]
-	[Address(RVA = "0x2DAC420", Offset = "0x2DAAA20", VA = "0x182DAC420")]
+	[Address(RVA = "0x679D010", Offset = "0x679C010", VA = "0x679D010")]
 	protected bool TryEnterParentElement(Guid parentElementGuid, out string error, [Optional] int? maxRecursionDepth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x2DAC000", Offset = "0x2DAA600", VA = "0x182DAC000")]
+	[Address(RVA = "0x679C690", Offset = "0x679B690", VA = "0x679C690")]
 	protected bool TryEnterParentElement(IGraphParentElement parentElement, out string error, [Optional] int? maxRecursionDepth, bool skipContainsCheck = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x2DAA980", Offset = "0x2DA8F80", VA = "0x182DAA980")]
+	[Address(RVA = "0x679EE70", Offset = "0x679DE70", VA = "0x679EE70")]
 	protected void EnterParentElement(IGraphParentElement parentElement)
 	{
 	}
 
 	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x2DAAA10", Offset = "0x2DA9010", VA = "0x182DAAA10")]
+	[Address(RVA = "0x679EEF0", Offset = "0x679DEF0", VA = "0x679EEF0")]
 	protected void EnterParentElement(Guid parentElementGuid)
 	{
 	}
 
 	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x2DAAAB0", Offset = "0x2DA90B0", VA = "0x182DAAAB0")]
+	[Address(RVA = "0x679E9C0", Offset = "0x679D9C0", VA = "0x679E9C0")]
 	private void EnterValidParentElement(IGraphParentElement parentElement)
 	{
 	}
 
 	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x2DAAEE0", Offset = "0x2DA94E0", VA = "0x182DAAEE0")]
+	[Address(RVA = "0x679EF70", Offset = "0x679DF70", VA = "0x679EF70")]
 	protected void ExitParentElement()
 	{
 	}
 
 	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x2DAA910", Offset = "0x2DA8F10", VA = "0x182DAA910")]
+	[Address(RVA = "0x679F640", Offset = "0x679E640", VA = "0x679F640")]
 	public void EnsureValid()
 	{
 	}
 
 	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x2DABA90", Offset = "0x2DAA090", VA = "0x182DABA90")]
+	[Address(RVA = "0x679F6A0", Offset = "0x679E6A0", VA = "0x679F6A0")]
 	public bool InstanceEquals(GraphPointer other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x2DAA3F0", Offset = "0x2DA89F0", VA = "0x182DAA3F0")]
+	[Address(RVA = "0x679F840", Offset = "0x679E840", VA = "0x679F840")]
 	public bool DefinitionEquals(GraphPointer other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x2DA9900", Offset = "0x2DA7F00", VA = "0x182DA9900")]
+	[Address(RVA = "0x679F9B0", Offset = "0x679E9B0", VA = "0x679F9B0")]
 	public int ComputeHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x2DABE70", Offset = "0x2DAA470", VA = "0x182DABE70", Slot = "3")]
+	[Address(RVA = "0x679FC60", Offset = "0x679EC60", VA = "0x679FC60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

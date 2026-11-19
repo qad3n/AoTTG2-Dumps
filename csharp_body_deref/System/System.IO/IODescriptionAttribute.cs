@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000288")]
+[Token(Token = "0x2000249")]
 [AttributeUsage(AttributeTargets.All)]
 public class IODescriptionAttribute : DescriptionAttribute
 {
-	[Token(Token = "0x170003AA")]
+	[Token(Token = "0x1700037B")]
 	public override string Description
 	{
-		[Token(Token = "0x60011D8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "7")]
+		[Token(Token = "0x6001018")]
+		[Address(RVA = "0x628B070", Offset = "0x628A070", VA = "0x628B070", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011D7")]
-	[Address(RVA = "0x28FFAF0", Offset = "0x28FE0F0", VA = "0x1828FFAF0")]
+	[Token(Token = "0x6001017")]
+	[Address(RVA = "0x628B010", Offset = "0x628A010", VA = "0x628B010")]
 	public IODescriptionAttribute(string description)
 	{
 	}

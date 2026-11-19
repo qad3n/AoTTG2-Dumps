@@ -21,7 +21,7 @@ public struct CaretInfo
 	public CaretPosition position;
 
 	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x6758BB0", Offset = "0x6757BB0", VA = "0x6758BB0")]
 	public CaretInfo(int index, CaretPosition position)
 	{
 	}

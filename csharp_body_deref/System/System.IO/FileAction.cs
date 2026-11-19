@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000282")]
+[Token(Token = "0x2000243")]
 internal enum FileAction
 {
-	[Token(Token = "0x40008DA")]
+	[Token(Token = "0x400080B")]
 	Added = 1,
-	[Token(Token = "0x40008DB")]
+	[Token(Token = "0x400080C")]
 	Removed,
-	[Token(Token = "0x40008DC")]
+	[Token(Token = "0x400080D")]
 	Modified,
-	[Token(Token = "0x40008DD")]
+	[Token(Token = "0x400080E")]
 	RenamedOldName,
-	[Token(Token = "0x40008DE")]
+	[Token(Token = "0x400080F")]
 	RenamedNewName
 }

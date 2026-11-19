@@ -23,7 +23,7 @@ public sealed class CloningContext : IPoolable, IDisposable
 	public Dictionary<object, object> clonings
 	{
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x67922C0", Offset = "0x67912C0", VA = "0x67922C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -35,14 +35,14 @@ public sealed class CloningContext : IPoolable, IDisposable
 	public ICloner fallbackCloner
 	{
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x67922D0", Offset = "0x67912D0", VA = "0x67922D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x67922E0", Offset = "0x67912E0", VA = "0x67922E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -53,14 +53,14 @@ public sealed class CloningContext : IPoolable, IDisposable
 	public bool tryPreserveInstances
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x67922F0", Offset = "0x67912F0", VA = "0x67922F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x6792300", Offset = "0x6791300", VA = "0x6792300")]
 		[CompilerGenerated]
 		private set
 		{
@@ -68,32 +68,32 @@ public sealed class CloningContext : IPoolable, IDisposable
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2D9C2D0", Offset = "0x2D9A8D0", VA = "0x182D9C2D0", Slot = "4")]
+	[Address(RVA = "0x6792310", Offset = "0x6791310", VA = "0x6792310", Slot = "4")]
 	private void Unity_002EVisualScripting_002EIPoolable_002ENew()
 	{
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2D9C280", Offset = "0x2D9A880", VA = "0x182D9C280", Slot = "5")]
+	[Address(RVA = "0x6792320", Offset = "0x6791320", VA = "0x6792320", Slot = "5")]
 	private void Unity_002EVisualScripting_002EIPoolable_002EFree()
 	{
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x2D9C070", Offset = "0x2D9A670", VA = "0x182D9C070", Slot = "6")]
+	[Address(RVA = "0x6792370", Offset = "0x6791370", VA = "0x6792370", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2D9C130", Offset = "0x2D9A730", VA = "0x182D9C130")]
+	[Address(RVA = "0x67919C0", Offset = "0x67909C0", VA = "0x67919C0")]
 	public static CloningContext New(ICloner fallbackCloner, bool tryPreserveInstances)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x2D9C2E0", Offset = "0x2D9A8E0", VA = "0x182D9C2E0")]
+	[Address(RVA = "0x6792430", Offset = "0x6791430", VA = "0x6792430")]
 	public CloningContext()
 	{
 	}

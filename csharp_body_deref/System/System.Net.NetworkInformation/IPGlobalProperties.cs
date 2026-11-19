@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System.Net.NetworkInformation;
 
-[Token(Token = "0x200035D")]
+[Token(Token = "0x200031E")]
 public abstract class IPGlobalProperties
 {
-	[Token(Token = "0x1700050C")]
+	[Token(Token = "0x170004DD")]
 	public abstract string DomainName
 	{
-		[Token(Token = "0x6001757")]
+		[Token(Token = "0x6001599")]
 		get;
 	}
 
-	[Token(Token = "0x6001755")]
-	[Address(RVA = "0x27F3BB0", Offset = "0x27F21B0", VA = "0x1827F3BB0")]
+	[Token(Token = "0x6001597")]
+	[Address(RVA = "0x61A44C0", Offset = "0x61A34C0", VA = "0x61A44C0")]
 	public static IPGlobalProperties GetIPGlobalProperties()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001756")]
-	[Address(RVA = "0x27F3BB0", Offset = "0x27F21B0", VA = "0x1827F3BB0")]
+	[Token(Token = "0x6001598")]
+	[Address(RVA = "0x61A4560", Offset = "0x61A3560", VA = "0x61A4560")]
 	internal static IPGlobalProperties InternalGetIPGlobalProperties()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001758")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600159A")]
+	[Address(RVA = "0x61A45B0", Offset = "0x61A35B0", VA = "0x61A45B0")]
 	protected IPGlobalProperties()
 	{
 	}

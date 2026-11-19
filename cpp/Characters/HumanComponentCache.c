@@ -1,5 +1,5 @@
 // Type: Characters.HumanComponentCache
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/HumanComponentCache.cs
@@ -8,20 +8,25 @@
 
 // Characters.HumanComponentCache$$.ctor
 // il2cpp: void Characters_HumanComponentCache___ctor (Characters_HumanComponentCache_o* __this, UnityEngine_GameObject_o* owner, const MethodInfo* method);
-// 0x182151f00
+// 0x5be6a00
 
 void Characters_HumanComponentCache___ctor
                (Characters_HumanComponentCache_o *__this,UnityEngine_GameObject_o *owner,MethodInfo *method)
 
 {
+  UnityEngine_Transform_o **targetAddress;
+  UnityEngine_Transform_o **targetAddress_00;
+  UnityEngine_ParticleSystem_o **targetAddress_01;
   bool bVar1;
   UnityEngine_Transform_o *pUVar2;
   UnityEngine_ParticleSystem_o *pUVar3;
   Characters_BaseCharacter_o *owner_00;
   UnityEngine_GameObject_o *pUVar4;
   Characters_BaseHitbox_o *pCVar5;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
   
-  if (Il2CppMethodInitialized_184346c5c == '\0') {
+  if (Il2CppMethodInitialized_0754762c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentInChildren_ParticleSystem);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem);
@@ -50,178 +55,185 @@ void Characters_HumanComponentCache___ctor
     il2cpp_codegen_initialize_runtime_metadata(&"buff2");
     il2cpp_codegen_initialize_runtime_metadata(&"speedFX");
     il2cpp_codegen_initialize_runtime_metadata(&"forearm_R");
-    Il2CppMethodInitialized_184346c5c = '\x01';
+    Il2CppMethodInitialized_0754762c = '\x01';
   }
   Utility_BaseComponentCache___ctor((Utility_BaseComponentCache_o *)__this,owner,(MethodInfo *)0x0);
   pUVar2 = (__this->fields).Transform;
   if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
     pUVar2 = UnityEngine_Transform__Find(pUVar2,"Armature/Core/Controller_Body/hip/spine",(MethodInfo *)0x0);
     (__this->fields).Spine = pUVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).Spine,pUVar2);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).Spine);
     pUVar2 = (__this->fields).Spine;
     if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
       pUVar2 = UnityEngine_Transform__Find(pUVar2,"chest",(MethodInfo *)0x0);
       (__this->fields).Chest = pUVar2;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).Chest,pUVar2);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).Chest);
       pUVar2 = (__this->fields).Transform;
       if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
         pUVar2 = UnityEngine_Transform__Find(pUVar2,"GroundLeft",(MethodInfo *)0x0);
         (__this->fields).GroundLeft = pUVar2;
-        Il2CppCodeGenWriteBarrier(&(__this->fields).GroundLeft,pUVar2);
+        Il2CppCodeGenWriteBarrier(&(__this->fields).GroundLeft);
         pUVar2 = (__this->fields).Transform;
         if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
           pUVar2 = UnityEngine_Transform__Find(pUVar2,"GroundRight",(MethodInfo *)0x0);
           (__this->fields).GroundRight = pUVar2;
-          Il2CppCodeGenWriteBarrier(&(__this->fields).GroundRight,pUVar2);
+          Il2CppCodeGenWriteBarrier(&(__this->fields).GroundRight);
           pUVar2 = (__this->fields).Chest;
           if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
             pUVar2 = UnityEngine_Transform__Find(pUVar2,"neck",(MethodInfo *)0x0);
             (__this->fields).Neck = pUVar2;
-            Il2CppCodeGenWriteBarrier(&(__this->fields).Neck,pUVar2);
+            Il2CppCodeGenWriteBarrier(&(__this->fields).Neck);
             pUVar2 = (__this->fields).Neck;
             if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
               pUVar2 = UnityEngine_Transform__Find(pUVar2,"head",(MethodInfo *)0x0);
               (__this->fields).Head = pUVar2;
-              Il2CppCodeGenWriteBarrier(&(__this->fields).Head,pUVar2);
+              Il2CppCodeGenWriteBarrier(&(__this->fields).Head);
               pUVar2 = (__this->fields).Chest;
               if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                 pUVar2 = UnityEngine_Transform__Find(pUVar2,"shoulder_L/upper_arm_L",(MethodInfo *)0x0);
                 (__this->fields).UpperarmL = pUVar2;
-                Il2CppCodeGenWriteBarrier(&(__this->fields).UpperarmL,pUVar2);
+                Il2CppCodeGenWriteBarrier(&(__this->fields).UpperarmL);
                 pUVar2 = (__this->fields).Chest;
                 if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                   pUVar2 = UnityEngine_Transform__Find(pUVar2,"shoulder_R/upper_arm_R",(MethodInfo *)0x0);
                   (__this->fields).UpperarmR = pUVar2;
-                  Il2CppCodeGenWriteBarrier(&(__this->fields).UpperarmR,pUVar2);
+                  Il2CppCodeGenWriteBarrier(&(__this->fields).UpperarmR);
                   pUVar2 = (__this->fields).UpperarmL;
                   if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                     pUVar2 = UnityEngine_Transform__Find(pUVar2,"forearm_L",(MethodInfo *)0x0);
                     (__this->fields).ForearmL = pUVar2;
-                    Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmL,pUVar2);
+                    Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmL);
                     pUVar2 = (__this->fields).UpperarmR;
                     if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                       pUVar2 = UnityEngine_Transform__Find(pUVar2,"forearm_R",(MethodInfo *)0x0);
                       (__this->fields).ForearmR = pUVar2;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmR,pUVar2);
+                      Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmR);
                       pUVar2 = (__this->fields).ForearmL;
                       if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                         pUVar2 = UnityEngine_Transform__Find(pUVar2,"hand_L",(MethodInfo *)0x0);
+                        targetAddress = &(__this->fields).HandL;
                         (__this->fields).HandL = pUVar2;
-                        Il2CppCodeGenWriteBarrier(&(__this->fields).HandL,pUVar2);
+                        Il2CppCodeGenWriteBarrier(targetAddress);
                         pUVar2 = (__this->fields).ForearmR;
                         if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                           pUVar2 = UnityEngine_Transform__Find(pUVar2,"hand_R",(MethodInfo *)0x0)
                           ;
+                          targetAddress_00 = &(__this->fields).HandR;
                           (__this->fields).HandR = pUVar2;
-                          Il2CppCodeGenWriteBarrier(&(__this->fields).HandR,pUVar2);
+                          Il2CppCodeGenWriteBarrier(targetAddress_00);
                           pUVar2 = (__this->fields).Transform;
-                          if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                             (pUVar2 = UnityEngine_Transform__Find
-                                                 (pUVar2,"slideSparks",(MethodInfo *)0x0),
-                             pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                            pUVar3 = UnityEngine_Component__GetComponent_object_
-                                               ((UnityEngine_Component_o *)pUVar2,
-                                                (MethodInfo_6651A0 *)
-                                                MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem);
-                            (__this->fields).Sparks = pUVar3;
-                            Il2CppCodeGenWriteBarrier(&(__this->fields).Sparks,pUVar3);
-                            pUVar2 = (__this->fields).Transform;
-                            if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                               (pUVar2 = UnityEngine_Transform__Find
-                                                   (pUVar2,"3dmg_smoke",(MethodInfo *)0x0),
-                               pUVar2 != (UnityEngine_Transform_o *)0x0)) {
+                          if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                            pUVar2 = UnityEngine_Transform__Find
+                                               (pUVar2,"slideSparks",(MethodInfo *)0x0);
+                            if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                               pUVar3 = UnityEngine_Component__GetComponent_object_
                                                  ((UnityEngine_Component_o *)pUVar2,
-                                                  (MethodInfo_6651A0 *)
+                                                  (MethodInfo_34B0830 *)
                                                   MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem
                                                  );
-                              (__this->fields).Smoke = pUVar3;
-                              Il2CppCodeGenWriteBarrier(&(__this->fields).Smoke,pUVar3);
+                              targetAddress_01 = &(__this->fields).Sparks;
+                              (__this->fields).Sparks = pUVar3;
+                              Il2CppCodeGenWriteBarrier(targetAddress_01);
                               pUVar2 = (__this->fields).Transform;
                               if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                 pUVar2 = UnityEngine_Transform__Find
-                                                   (pUVar2,"buff1",(MethodInfo *)0x0);
-                                (__this->fields).Buff1 = pUVar2;
-                                Il2CppCodeGenWriteBarrier(&(__this->fields).Buff1,pUVar2);
-                                pUVar2 = (__this->fields).Transform;
+                                                   (pUVar2,"3dmg_smoke",(MethodInfo *)0x0);
                                 if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                                  pUVar2 = UnityEngine_Transform__Find
-                                                     (pUVar2,"buff2",(MethodInfo *)0x0);
-                                  (__this->fields).Buff2 = pUVar2;
-                                  Il2CppCodeGenWriteBarrier(&(__this->fields).Buff2,pUVar2);
+                                  pUVar3 = UnityEngine_Component__GetComponent_object_
+                                                     ((UnityEngine_Component_o *)pUVar2,
+                                                      (MethodInfo_34B0830 *)
+                                                      MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem
+                                                     );
+                                  (__this->fields).Smoke = pUVar3;
+                                  Il2CppCodeGenWriteBarrier(&(__this->fields).Smoke);
                                   pUVar2 = (__this->fields).Transform;
                                   if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                     pUVar2 = UnityEngine_Transform__Find
-                                                       (pUVar2,"fire1",(MethodInfo *)0x0);
-                                    (__this->fields).Fire1 = pUVar2;
-                                    Il2CppCodeGenWriteBarrier(&(__this->fields).Fire1,pUVar2);
-                                    pUVar3 = (__this->fields).Smoke;
-                                    if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
-                                      UnityEngine_ParticleSystem__Stop_2fca820(pUVar3,(MethodInfo *)0x0);
-                                      pUVar3 = (__this->fields).Sparks;
-                                      if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
-                                        UnityEngine_ParticleSystem__Stop_2fca820(pUVar3,(MethodInfo *)0x0);
-                                        pUVar2 = (__this->fields).Transform;
-                                        if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                                           (pUVar2 = UnityEngine_Transform__Find
-                                                               (pUVar2,"speedFX",(MethodInfo *)0x0
-                                                               ), pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                          pUVar3 = UnityEngine_Component__GetComponentInChildren_object__664b50
-                                                             ((UnityEngine_Component_o *)pUVar2,
-                                                              (MethodInfo_664B50 *)
-                                                                                                                            
-                                                       MethodInfo_UnityEngine_Component_GetComponentInChildren_ParticleSystem
-                                                       );
-                                          (__this->fields).Wind = pUVar3;
-                                          Il2CppCodeGenWriteBarrier(&(__this->fields).Wind,pUVar3);
-                                          pUVar3 = (__this->fields).Wind;
+                                                       (pUVar2,"buff1",(MethodInfo *)0x0);
+                                    (__this->fields).Buff1 = pUVar2;
+                                    Il2CppCodeGenWriteBarrier(&(__this->fields).Buff1);
+                                    pUVar2 = (__this->fields).Transform;
+                                    if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                      pUVar2 = UnityEngine_Transform__Find
+                                                         (pUVar2,"buff2",(MethodInfo *)0x0);
+                                      (__this->fields).Buff2 = pUVar2;
+                                      Il2CppCodeGenWriteBarrier(&(__this->fields).Buff2);
+                                      pUVar2 = (__this->fields).Transform;
+                                      if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                        pUVar2 = UnityEngine_Transform__Find
+                                                           (pUVar2,"fire1",(MethodInfo *)0x0);
+                                        (__this->fields).Fire1 = pUVar2;
+                                        Il2CppCodeGenWriteBarrier(&(__this->fields).Fire1);
+                                        pUVar3 = (__this->fields).Smoke;
+                                        if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
+                                          UnityEngine_ParticleSystem__Stop_69c2810(pUVar3,(MethodInfo *)0x0);
+                                          pUVar3 = *targetAddress_01;
                                           if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
-                                            UnityEngine_ParticleSystem__Stop_2fca820(pUVar3,(MethodInfo *)0x0)
+                                            UnityEngine_ParticleSystem__Stop_69c2810(pUVar3,(MethodInfo *)0x0)
                                             ;
                                             pUVar2 = (__this->fields).Transform;
                                             if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                               pUVar2 = UnityEngine_Transform__Find
                                                                  (pUVar2,"speedFX",
                                                                   (MethodInfo *)0x0);
-                                              (__this->fields).WindTransform = pUVar2;
-                                              Il2CppCodeGenWriteBarrier
-                                                        (&(__this->fields).WindTransform,pUVar2);
-                                              pUVar2 = (__this->fields).Chest;
                                               if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                                                pUVar2 = UnityEngine_Transform__Find
-                                                                   (pUVar2,"hookRefL1",
-                                                                    (MethodInfo *)0x0);
-                                                (__this->fields).HookLeftAnchorDefault = pUVar2;
-                                                Il2CppCodeGenWriteBarrier
-                                                          (&(__this->fields).HookLeftAnchorDefault,pUVar2);
-                                                pUVar2 = (__this->fields).Chest;
-                                                if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                                                  pUVar2 = UnityEngine_Transform__Find
-                                                                     (pUVar2,"hookRefR1",
-                                                                      (MethodInfo *)0x0);
-                                                  (__this->fields).HookRightAnchorDefault = pUVar2;
-                                                  Il2CppCodeGenWriteBarrier
-                                                            (&(__this->fields).HookRightAnchorDefault,pUVar2);
-                                                  pUVar2 = (__this->fields).HandL;
+                                                pUVar3 = 
+                                                       UnityEngine_Component__GetComponentInChildren_object__34b09d0
+                                                                 ((UnityEngine_Component_o *)pUVar2,
+                                                                  (MethodInfo_34B09D0 *)
+                                                                                                                                    
+                                                       MethodInfo_UnityEngine_Component_GetComponentInChildren_ParticleSystem
+                                                       );
+                                                (__this->fields).Wind = pUVar3;
+                                                Il2CppCodeGenWriteBarrier(&(__this->fields).Wind);
+                                                pUVar3 = (__this->fields).Wind;
+                                                if (pUVar3 != (UnityEngine_ParticleSystem_o *)0x0) {
+                                                  UnityEngine_ParticleSystem__Stop_69c2810
+                                                            (pUVar3,(MethodInfo *)0x0);
+                                                  pUVar2 = (__this->fields).Transform;
                                                   if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                                     pUVar2 = UnityEngine_Transform__Find
-                                                                       (pUVar2,"hookRef",
+                                                                       (pUVar2,"speedFX",
                                                                         (MethodInfo *)0x0);
-                                                    (__this->fields).HookLeftAnchorGun = pUVar2;
-                                                    Il2CppCodeGenWriteBarrier
-                                                              (&(__this->fields).HookLeftAnchorGun,pUVar2);
-                                                    pUVar2 = (__this->fields).HandR;
+                                                    (__this->fields).WindTransform = pUVar2;
+                                                    Il2CppCodeGenWriteBarrier(&(__this->fields).WindTransform)
+                                                    ;
+                                                    pUVar2 = (__this->fields).Chest;
                                                     if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                                       pUVar2 = UnityEngine_Transform__Find
-                                                                         (pUVar2,"hookRef",
+                                                                         (pUVar2,"hookRefL1",
                                                                           (MethodInfo *)0x0);
-                                                      (__this->fields).HookRightAnchorGun = pUVar2;
+                                                      (__this->fields).HookLeftAnchorDefault = pUVar2;
                                                       Il2CppCodeGenWriteBarrier
-                                                                (&(__this->fields).HookRightAnchorGun,pUVar2);
-                                                      if (owner != (UnityEngine_GameObject_o *)0x0) {
-                                                        owner_00 = 
+                                                                (&(__this->fields).HookLeftAnchorDefault);
+                                                      pUVar2 = (__this->fields).Chest;
+                                                      if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                        pUVar2 = UnityEngine_Transform__Find
+                                                                           (pUVar2,"hookRefR1",
+                                                                            (MethodInfo *)0x0);
+                                                        (__this->fields).HookRightAnchorDefault = pUVar2;
+                                                        Il2CppCodeGenWriteBarrier
+                                                                  (&(__this->fields).HookRightAnchorDefault);
+                                                        pUVar2 = (__this->fields).HandL;
+                                                        if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                          pUVar2 = UnityEngine_Transform__Find
+                                                                             (pUVar2,"hookRef",
+                                                                              (MethodInfo *)0x0);
+                                                          (__this->fields).HookLeftAnchorGun = pUVar2;
+                                                          Il2CppCodeGenWriteBarrier
+                                                                    (&(__this->fields).HookLeftAnchorGun);
+                                                          pUVar2 = (__this->fields).HandR;
+                                                          if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                            pUVar2 = UnityEngine_Transform__Find
+                                                                               (pUVar2,"hookRef",
+                                                                                (MethodInfo *)0x0);
+                                                            (__this->fields).HookRightAnchorGun = pUVar2;
+                                                            Il2CppCodeGenWriteBarrier
+                                                                      (&(__this->fields).HookRightAnchorGun);
+                                                            if (owner != (UnityEngine_GameObject_o *)0x0) {
+                                                              owner_00 = 
                                                        UnityEngine_GameObject__GetComponent_object_
-                                                                 (owner,(MethodInfo_6F5650 *)
+                                                                 (owner,(MethodInfo_353B730 *)
                                                                                                                                                 
                                                        MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter
                                                        );
@@ -238,31 +250,31 @@ void Characters_HumanComponentCache___ctor
                                                        if (!bVar1) {
                                                          return;
                                                        }
-                                                       pUVar2 = (__this->fields).HandL;
-                                                       if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                                                          (pUVar2 = UnityEngine_Transform__Find
-                                                                              (pUVar2,"checkBox",
-                                                                               (MethodInfo *)0x0),
-                                                          pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                                         pUVar4 = UnityEngine_Component__get_gameObject
-                                                                            ((UnityEngine_Component_o *)pUVar2
-                                                                             ,(MethodInfo *)0x0);
-                                                         pCVar5 = Characters_BaseHitbox__Create
-                                                                            (owner_00,pUVar4,
-                                                                             (UnityEngine_Collider_o *)0x0,
+                                                       pUVar2 = *targetAddress;
+                                                       if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                         pUVar2 = UnityEngine_Transform__Find
+                                                                            (pUVar2,"checkBox",
                                                                              (MethodInfo *)0x0);
-                                                         (__this->fields).BladeHitLeft = pCVar5;
-                                                         Il2CppCodeGenWriteBarrier
-                                                                   (&(__this->fields).BladeHitLeft,pCVar5);
-                                                         pCVar5 = (__this->fields).BladeHitLeft;
-                                                         if (pCVar5 != (Characters_BaseHitbox_o *)0x0) {
-                                                           (pCVar5->fields).TwoFixedUpdates = true;
-                                                           pUVar2 = (__this->fields).HandR;
-                                                           if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                                                              (pUVar2 = UnityEngine_Transform__Find
+                                                         if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                           pUVar4 = UnityEngine_Component__get_gameObject
+                                                                              ((UnityEngine_Component_o *)
+                                                                               pUVar2,(MethodInfo *)0x0);
+                                                           pCVar5 = Characters_BaseHitbox__Create
+                                                                              (owner_00,pUVar4,
+                                                                               (UnityEngine_Collider_o *)0x0,
+                                                                               (MethodInfo *)0x0);
+                                                           (__this->fields).BladeHitLeft = pCVar5;
+                                                           Il2CppCodeGenWriteBarrier
+                                                                     (&(__this->fields).BladeHitLeft);
+                                                           pCVar5 = (__this->fields).BladeHitLeft;
+                                                           if (pCVar5 != (Characters_BaseHitbox_o *)0x0) {
+                                                             (pCVar5->fields).TwoFixedUpdates = true;
+                                                             pUVar2 = *targetAddress_00;
+                                                             if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                                                               pUVar2 = UnityEngine_Transform__Find
                                                                                   (pUVar2,
-                                                       "checkBox",(MethodInfo *)0x0),
-                                                       pUVar2 != (UnityEngine_Transform_o *)0x0)) {
+                                                       "checkBox",(MethodInfo *)0x0);
+                                                       if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                                          pUVar4 = UnityEngine_Component__get_gameObject
                                                                             ((UnityEngine_Component_o *)pUVar2
                                                                              ,(MethodInfo *)0x0);
@@ -272,14 +284,14 @@ void Characters_HumanComponentCache___ctor
                                                                              (MethodInfo *)0x0);
                                                          (__this->fields).BladeHitRight = pCVar5;
                                                          Il2CppCodeGenWriteBarrier
-                                                                   (&(__this->fields).BladeHitRight,pCVar5);
+                                                                   (&(__this->fields).BladeHitRight);
                                                          pCVar5 = (__this->fields).BladeHitRight;
                                                          if (pCVar5 != (Characters_BaseHitbox_o *)0x0) {
                                                            (pCVar5->fields).TwoFixedUpdates = true;
                                                            Characters_HumanComponentCache__CreateAHSSHitbox
-                                                                     (__this,owner_00,(MethodInfo *)0x0);
+                                                                     (__this,owner_00,method_00);
                                                            Characters_HumanComponentCache__CreateAPGHitbox
-                                                                     (__this,owner_00,(MethodInfo *)0x0);
+                                                                     (__this,owner_00,method_01);
                                                            Utility_BaseComponentCache__LoadAudio
                                                                      ((Utility_BaseComponentCache_o *)__this,
                                                                       "Human/Prefabs/HumanSounds",
@@ -287,6 +299,11 @@ void Characters_HumanComponentCache___ctor
                                                                       (MethodInfo *)0x0);
                                                            return;
                                                          }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
                                                        }
                                                        }
                                                        }
@@ -323,23 +340,22 @@ void Characters_HumanComponentCache___ctor
 
 // Characters.HumanComponentCache$$CreateAHSSHitbox
 // il2cpp: void Characters_HumanComponentCache__CreateAHSSHitbox (Characters_HumanComponentCache_o* __this, Characters_BaseCharacter_o* human, const MethodInfo* method);
-// 0x1821519d0
+// 0x5bf50f0
 
 void Characters_HumanComponentCache__CreateAHSSHitbox
                (Characters_HumanComponentCache_o *__this,Characters_BaseCharacter_o *human,MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_o *pSVar1;
+  undefined1 auVar1 [12];
   UnityEngine_GameObject_o *__this_00;
   UnityEngine_Rigidbody_o *__this_01;
   UnityEngine_CapsuleCollider_o *__this_02;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
-  longlong *plVar3;
-  Characters_BaseHitbox_o *value;
-  float fVar4;
-  UnityEngine_Vector3_Fields local_18;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  long *plVar3;
+  Characters_BaseHitbox_o *pCVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184346c5d == '\0') {
+  if (Il2CppMethodInitialized_0754762d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_CharacterData);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_CapsuleCollider);
@@ -349,14 +365,14 @@ void Characters_HumanComponentCache__CreateAHSSHitbox
     il2cpp_codegen_initialize_runtime_metadata(&"Radius");
     il2cpp_codegen_initialize_runtime_metadata(&"AHSS");
     il2cpp_codegen_initialize_runtime_metadata(&"Range");
-    Il2CppMethodInitialized_184346c5d = '\x01';
+    Il2CppMethodInitialized_0754762d = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-  UnityEngine_GameObject___ctor_2f1ad20(__this_00,(MethodInfo *)0x0);
+  UnityEngine_GameObject___ctor_691aa10(__this_00,(MethodInfo *)0x0);
   if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
     __this_01 = UnityEngine_GameObject__AddComponent_object_
                           (__this_00,
-                           (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
+                           (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
     if (__this_01 != (UnityEngine_Rigidbody_o *)0x0) {
       UnityEngine_Rigidbody__set_useGravity(__this_01,false,(MethodInfo *)0x0);
       UnityEngine_Rigidbody__set_isKinematic(__this_01,true,(MethodInfo *)0x0);
@@ -367,7 +383,7 @@ void Characters_HumanComponentCache__CreateAHSSHitbox
                 (__this_00,TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox,(MethodInfo *)0x0);
       __this_02 = UnityEngine_GameObject__AddComponent_object_
                             (__this_00,
-                             (MethodInfo_6F4D60 *)
+                             (MethodInfo_353B6A0 *)
                              MethodInfo_UnityEngine_GameObject_AddComponent_CapsuleCollider);
       if (__this_02 != (UnityEngine_CapsuleCollider_o *)0x0) {
         UnityEngine_CapsuleCollider__set_direction(__this_02,2,(MethodInfo *)0x0);
@@ -375,33 +391,32 @@ void Characters_HumanComponentCache__CreateAHSSHitbox
         if ((TypeInfo_Characters_CharacterData->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_CharacterData);
         }
-        pSVar1 = TypeInfo_Characters_CharacterData->static_fields->HumanWeaponInfo;
-        if (pSVar1 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-          pSVar2 = (*(pSVar1->klass->vtable)._7_get_Item.methodPtr)
-                             (pSVar1,(MethodInfo *)"AHSS");
-          if (pSVar2 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-            plVar3 = (longlong *)
-                     (*(pSVar2->klass->vtable)._7_get_IdAttribute.methodPtr)
-                               (pSVar2,(MethodInfo *)"Radius");
-            if (plVar3 != (longlong *)0x0) {
-              fVar4 = (float)(**(code **)(*plVar3 + 0x388))(plVar3,*(undefined8 *)(*plVar3 + 0x390));
-              UnityEngine_CapsuleCollider__set_radius(__this_02,fVar4,(MethodInfo *)0x0);
-              plVar3 = (longlong *)
-                       (*(pSVar2->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                 (pSVar2,(MethodInfo *)"Range");
-              if (plVar3 != (longlong *)0x0) {
-                fVar4 = (float)(**(code **)(*plVar3 + 0x388))(plVar3);
-                UnityEngine_CapsuleCollider__set_height(__this_02,fVar4,(MethodInfo *)0x0);
-                local_18.x = 0.0;
-                local_18.y = 0.0;
-                fVar4 = UnityEngine_CapsuleCollider__get_height(__this_02,(MethodInfo *)0x0);
-                local_18.z = fVar4 * 0.5 + 0.5;
+        pSVar2 = TypeInfo_Characters_CharacterData->static_fields->HumanWeaponInfo;
+        if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+          pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                             (pSVar2,"AHSS",(pSVar2->klass->vtable)._7_get_Item.method);
+          if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+            plVar3 = (long *)(*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                                       (pSVar2,"Radius",
+                                        *(MethodInfo **)((long)&(pSVar2->klass->vtable)._7_get_Item + 8));
+            if (plVar3 != (long *)0x0) {
+              fVar5 = (float)(**(code **)(*plVar3 + 0x388))(plVar3);
+              UnityEngine_CapsuleCollider__set_radius(__this_02,fVar5,(MethodInfo *)0x0);
+              plVar3 = (long *)(*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                                         (pSVar2,"Range",
+                                          *(MethodInfo **)((long)&(pSVar2->klass->vtable)._7_get_Item + 8));
+              if (plVar3 != (long *)0x0) {
+                fVar5 = (float)(**(code **)(*plVar3 + 0x388))(plVar3);
+                UnityEngine_CapsuleCollider__set_height(__this_02,fVar5,(MethodInfo *)0x0);
+                fVar5 = UnityEngine_CapsuleCollider__get_height(__this_02,(MethodInfo *)0x0);
+                auVar1._4_8_ = 0;
+                auVar1._0_4_ = fVar5 * 0.5 + 0.5;
                 UnityEngine_CapsuleCollider__set_center
-                          (__this_02,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-                value = Characters_BaseHitbox__Create
-                                  (human,__this_00,(UnityEngine_Collider_o *)0x0,(MethodInfo *)0x0);
-                (__this->fields).AHSSHit = value;
-                Il2CppCodeGenWriteBarrier(&(__this->fields).AHSSHit,value);
+                          (__this_02,(UnityEngine_Vector3_o)(auVar1 << 0x40),(MethodInfo *)0x0);
+                pCVar4 = Characters_BaseHitbox__Create
+                                   (human,__this_00,(UnityEngine_Collider_o *)0x0,(MethodInfo *)0x0);
+                (__this->fields).AHSSHit = pCVar4;
+                Il2CppCodeGenWriteBarrier(&(__this->fields).AHSSHit);
                 return;
               }
             }
@@ -416,23 +431,22 @@ void Characters_HumanComponentCache__CreateAHSSHitbox
 
 // Characters.HumanComponentCache$$CreateAPGHitbox
 // il2cpp: void Characters_HumanComponentCache__CreateAPGHitbox (Characters_HumanComponentCache_o* __this, Characters_BaseCharacter_o* human, const MethodInfo* method);
-// 0x182151c90
+// 0x5bf5370
 
 void Characters_HumanComponentCache__CreateAPGHitbox
                (Characters_HumanComponentCache_o *__this,Characters_BaseCharacter_o *human,MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_o *pSVar1;
+  undefined1 auVar1 [12];
   UnityEngine_GameObject_o *__this_00;
   UnityEngine_Rigidbody_o *__this_01;
   UnityEngine_CapsuleCollider_o *__this_02;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
-  longlong *plVar3;
-  Characters_BaseHitbox_o *value;
-  float fVar4;
-  UnityEngine_Vector3_Fields local_18;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  long *plVar3;
+  Characters_BaseHitbox_o *pCVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184346c5e == '\0') {
+  if (Il2CppMethodInitialized_0754762e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_CharacterData);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_CapsuleCollider);
@@ -441,14 +455,14 @@ void Characters_HumanComponentCache__CreateAPGHitbox
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
     il2cpp_codegen_initialize_runtime_metadata(&"Radius");
     il2cpp_codegen_initialize_runtime_metadata(&"APG");
-    Il2CppMethodInitialized_184346c5e = '\x01';
+    Il2CppMethodInitialized_0754762e = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-  UnityEngine_GameObject___ctor_2f1ad20(__this_00,(MethodInfo *)0x0);
+  UnityEngine_GameObject___ctor_691aa10(__this_00,(MethodInfo *)0x0);
   if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
     __this_01 = UnityEngine_GameObject__AddComponent_object_
                           (__this_00,
-                           (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
+                           (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
     if (__this_01 != (UnityEngine_Rigidbody_o *)0x0) {
       UnityEngine_Rigidbody__set_useGravity(__this_01,false,(MethodInfo *)0x0);
       UnityEngine_Rigidbody__set_isKinematic(__this_01,true,(MethodInfo *)0x0);
@@ -459,7 +473,7 @@ void Characters_HumanComponentCache__CreateAPGHitbox
                 (__this_00,TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox,(MethodInfo *)0x0);
       __this_02 = UnityEngine_GameObject__AddComponent_object_
                             (__this_00,
-                             (MethodInfo_6F4D60 *)
+                             (MethodInfo_353B6A0 *)
                              MethodInfo_UnityEngine_GameObject_AddComponent_CapsuleCollider);
       if (__this_02 != (UnityEngine_CapsuleCollider_o *)0x0) {
         UnityEngine_CapsuleCollider__set_direction(__this_02,2,(MethodInfo *)0x0);
@@ -467,28 +481,27 @@ void Characters_HumanComponentCache__CreateAPGHitbox
         if ((TypeInfo_Characters_CharacterData->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_CharacterData);
         }
-        pSVar1 = TypeInfo_Characters_CharacterData->static_fields->HumanWeaponInfo;
-        if (pSVar1 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-          pSVar2 = (*(pSVar1->klass->vtable)._7_get_Item.methodPtr)
-                             (pSVar1,(MethodInfo *)"APG");
-          if (pSVar2 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-            plVar3 = (longlong *)
-                     (*(pSVar2->klass->vtable)._7_get_IdAttribute.methodPtr)
-                               (pSVar2,(MethodInfo *)"Radius");
-            if (plVar3 != (longlong *)0x0) {
-              fVar4 = (float)(**(code **)(*plVar3 + 0x388))(plVar3);
-              UnityEngine_CapsuleCollider__set_radius(__this_02,fVar4,(MethodInfo *)0x0);
+        pSVar2 = TypeInfo_Characters_CharacterData->static_fields->HumanWeaponInfo;
+        if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+          pSVar2 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                             (pSVar2,"APG",(pSVar2->klass->vtable)._7_get_Item.method);
+          if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+            plVar3 = (long *)(*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
+                                       (pSVar2,"Radius",
+                                        *(MethodInfo **)((long)&(pSVar2->klass->vtable)._7_get_Item + 8));
+            if (plVar3 != (long *)0x0) {
+              fVar5 = (float)(**(code **)(*plVar3 + 0x388))(plVar3);
+              UnityEngine_CapsuleCollider__set_radius(__this_02,fVar5,(MethodInfo *)0x0);
               UnityEngine_CapsuleCollider__set_height(__this_02,10.0,(MethodInfo *)0x0);
-              local_18.x = 0.0;
-              local_18.y = 0.0;
-              fVar4 = UnityEngine_CapsuleCollider__get_height(__this_02,(MethodInfo *)0x0);
-              local_18.z = fVar4 * 0.5 + 0.5;
+              fVar5 = UnityEngine_CapsuleCollider__get_height(__this_02,(MethodInfo *)0x0);
+              auVar1._4_8_ = 0;
+              auVar1._0_4_ = fVar5 * 0.5 + 0.5;
               UnityEngine_CapsuleCollider__set_center
-                        (__this_02,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-              value = Characters_BaseHitbox__Create
-                                (human,__this_00,(UnityEngine_Collider_o *)0x0,(MethodInfo *)0x0);
-              (__this->fields).APGHit = value;
-              Il2CppCodeGenWriteBarrier(&(__this->fields).APGHit,value);
+                        (__this_02,(UnityEngine_Vector3_o)(auVar1 << 0x40),(MethodInfo *)0x0);
+              pCVar4 = Characters_BaseHitbox__Create
+                                 (human,__this_00,(UnityEngine_Collider_o *)0x0,(MethodInfo *)0x0);
+              (__this->fields).APGHit = pCVar4;
+              Il2CppCodeGenWriteBarrier(&(__this->fields).APGHit);
               return;
             }
           }

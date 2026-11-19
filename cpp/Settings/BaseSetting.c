@@ -1,124 +1,108 @@
 // Type: Settings.BaseSetting
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/BaseSetting.cs
 // Prior real C# source (older reference): Assets/Scripts/Settings/SettingTypes/BaseSetting.cs
 // --------------------------------
 
 // Settings.BaseSetting$$GetDefaultValue
 // il2cpp: Il2CppObject* Settings_BaseSetting__GetDefaultValue (Settings_BaseSetting_o* __this, const MethodInfo* method);
-// 0x18059b2e0
+// 0x5b54ee0
 
-Il2CppObject*
-Settings_BaseSetting__GetDefaultValue(Settings_BaseSetting_o* __this, MethodInfo* method)
+Il2CppObject * Settings_BaseSetting__GetDefaultValue(Settings_BaseSetting_o *__this,MethodInfo *method)
 
 {
-  return (Unity_Collections_AllocatorManager_TryFunction_o *)0x0;
+  return (Il2CppObject *)0x0;
 }
 
 
 // Settings.BaseSetting$$SerializeToJsonString
 // il2cpp: System_String_o* Settings_BaseSetting__SerializeToJsonString (Settings_BaseSetting_o* __this, const MethodInfo* method);
-// 0x181f0ec10
+// 0x5b54ef0
 
 System_String_o *
 Settings_BaseSetting__SerializeToJsonString(Settings_BaseSetting_o *__this,MethodInfo *method)
 
 {
-  longlong *plVar1;
-  System_String_o *pSVar2;
+  long lVar1;
+  long *plVar2;
+  System_String_o *pSVar3;
   
-  plVar1 = (longlong *)
-           (*(__this->klass->vtable)._5_unknown.methodPtr)(__this,(__this->klass->vtable)._5_unknown.method);
-  if (plVar1 != (longlong *)0x0) {
-    pSVar2 = (System_String_o *)(**(code **)(*plVar1 + 0x318))(plVar1,4,*(undefined8 *)(*plVar1 + 800));
-    return pSVar2;
+  plVar2 = (long *)(*(__this->klass->vtable)._5_unknown.methodPtr)
+                             (__this,(__this->klass->vtable)._5_unknown.method);
+  if (plVar2 == (long *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  lVar1 = *plVar2;
+  pSVar3 = (System_String_o *)
+           (**(code **)(lVar1 + 0x318))(plVar2,4,*(undefined8 *)(lVar1 + 800),lVar1,*(code **)(lVar1 + 0x318))
+  ;
+  return pSVar3;
 }
 
 
 // Settings.BaseSetting$$DeserializeFromJsonString
 // il2cpp: void Settings_BaseSetting__DeserializeFromJsonString (Settings_BaseSetting_o* __this, System_String_o* json, const MethodInfo* method);
-// 0x181f0ebd0
+// 0x5b54f30
 
 void Settings_BaseSetting__DeserializeFromJsonString
                (Settings_BaseSetting_o *__this,System_String_o *json,MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_o *pSVar1;
+  Settings_BaseSetting_c *pSVar1;
+  Il2CppMethodPointer vtableDispatch;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
   
-  pSVar1 = SimpleJSONFixed_JSON__Parse(json,(MethodInfo *)0x0);
-  (*(__this->klass->vtable)._6_unknown.methodPtr)(__this,pSVar1,(__this->klass->vtable)._6_unknown.method);
+  pSVar2 = SimpleJSONFixed_JSON__Parse(json,(MethodInfo *)0x0);
+  pSVar1 = __this->klass;
+  vtableDispatch = (pSVar1->vtable)._6_unknown.methodPtr;
+  (*vtableDispatch)(__this,pSVar2,(pSVar1->vtable)._6_unknown.method,pSVar1,vtableDispatch);
   return;
 }
 
 
 // Settings.BaseSetting$$Copy
 // il2cpp: void Settings_BaseSetting__Copy (Settings_BaseSetting_o* __this, Settings_BaseSetting_o* other, const MethodInfo* method);
-// 0x181f0eb80
+// 0x5b54f60
 
 void Settings_BaseSetting__Copy
                (Settings_BaseSetting_o *__this,Settings_BaseSetting_o *other,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Settings_BaseSetting_c *pSVar1;
+  Il2CppMethodPointer vtableDispatch;
+  undefined8 uVar2;
   
-  if (other != (Settings_BaseSetting_o *)0x0) {
-    uVar1 = (*(other->klass->vtable)._5_unknown.methodPtr)(other,(other->klass->vtable)._5_unknown.method);
-    (*(__this->klass->vtable)._6_unknown.methodPtr)(__this,uVar1,(__this->klass->vtable)._6_unknown.method);
-    return;
+  if (other == (Settings_BaseSetting_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  uVar2 = (*(other->klass->vtable)._5_unknown.methodPtr)(other,(other->klass->vtable)._5_unknown.method);
+  pSVar1 = __this->klass;
+  vtableDispatch = (pSVar1->vtable)._6_unknown.methodPtr;
+  (*vtableDispatch)(__this,uVar2,(pSVar1->vtable)._6_unknown.method,pSVar1,vtableDispatch);
+  return;
 }
 
 
 // Settings.BaseSetting$$.ctor
 // il2cpp: void Settings_BaseSetting___ctor (Settings_BaseSetting_o* __this, const MethodInfo* method);
-// 0x181f0ec50
+// 0x5b54fa0
 
 void Settings_BaseSetting___ctor(Settings_BaseSetting_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
   Settings_InspectorSettingMetadata_o *__this_00;
-  System_Collections_Generic_List_string__o *__this_01;
   
-  if (Il2CppMethodInitialized_18434547f == '\0') {
+  if (Il2CppMethodInitialized_075472cb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_InspectorSettingMetadata);
-    Il2CppMethodInitialized_18434547f = '\x01';
+    Il2CppMethodInitialized_075472cb = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_InspectorSettingMetadata);
-  if (Il2CppMethodInitialized_184345480 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
-    Il2CppMethodInitialized_184345480 = '\x01';
-  }
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this_00->fields).Tooltip = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Tooltip,pSVar1);
-  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
-  (__this_00->fields).Dropbox = __this_01;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Dropbox,__this_01);
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this_00->fields).Header = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Header,pSVar1);
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this_00->fields).GroupId = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).GroupId,pSVar1);
-  pSVar1 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  (__this_00->fields).GroupHeader = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).GroupHeader,pSVar1);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  Settings_InspectorSettingMetadata___ctor(__this_00,method);
   (__this->fields).InspectorMetadata = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).InspectorMetadata,__this_00);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).InspectorMetadata);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 

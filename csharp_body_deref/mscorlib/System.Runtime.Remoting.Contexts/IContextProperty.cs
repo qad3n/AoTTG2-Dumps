@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x200039E")]
+[Token(Token = "0x2000377")]
 [ComVisible(true)]
 public interface IContextProperty
 {
-	[Token(Token = "0x1700036E")]
+	[Token(Token = "0x1700036D")]
 	string Name
 	{
-		[Token(Token = "0x6001DE0")]
+		[Token(Token = "0x6001DB6")]
 		get;
 	}
 
-	[Token(Token = "0x6001DE1")]
+	[Token(Token = "0x6001DB7")]
 	void Freeze(Context newContext);
 
-	[Token(Token = "0x6001DE2")]
+	[Token(Token = "0x6001DB8")]
 	bool IsNewContextOK(Context newCtx);
 }

@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice.IOS;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x20000B0")]
 public static class AudioSessionParametersPresets
 {
-	[Token(Token = "0x40002ED")]
+	[Token(Token = "0x40002DF")]
 	[FieldOffset(Offset = "0x0")]
 	public static AudioSessionParameters Game;
 
-	[Token(Token = "0x40002EE")]
+	[Token(Token = "0x40002E0")]
 	[FieldOffset(Offset = "0x10")]
 	public static AudioSessionParameters VoIP;
 }

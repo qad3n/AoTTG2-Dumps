@@ -30,8 +30,8 @@ internal static class BeforeRenderHelper
 	[FieldOffset(Offset = "0x0")]
 	private static List<OrderBlock> s_OrderBlocks;
 
-	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x2EBBB10", Offset = "0x2EBA110", VA = "0x182EBBB10")]
+	[Token(Token = "0x600042C")]
+	[Address(RVA = "0x68BDD40", Offset = "0x68BCD40", VA = "0x68BDD40")]
 	public static void Invoke()
 	{
 	}

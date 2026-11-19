@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003EB")]
+[Token(Token = "0x20003C4")]
 internal class RemotingSurrogate : ISerializationSurrogate
 {
-	[Token(Token = "0x6001F5D")]
-	[Address(RVA = "0x1A07850", Offset = "0x1A05E50", VA = "0x181A07850", Slot = "6")]
+	[Token(Token = "0x6001F33")]
+	[Address(RVA = "0x53999D0", Offset = "0x53989D0", VA = "0x53999D0", Slot = "6")]
 	public virtual void GetObjectData(object obj, SerializationInfo si, StreamingContext sc)
 	{
 	}
 
-	[Token(Token = "0x6001F5E")]
-	[Address(RVA = "0x1A07990", Offset = "0x1A05F90", VA = "0x181A07990", Slot = "7")]
+	[Token(Token = "0x6001F34")]
+	[Address(RVA = "0x5399AF0", Offset = "0x5398AF0", VA = "0x5399AF0", Slot = "7")]
 	public virtual object SetObjectData(object obj, SerializationInfo si, StreamingContext sc, ISurrogateSelector selector)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F5F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001F35")]
+	[Address(RVA = "0x5399B30", Offset = "0x5398B30", VA = "0x5399B30")]
 	public RemotingSurrogate()
 	{
 	}

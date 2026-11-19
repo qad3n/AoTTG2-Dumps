@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.DetachedAllocator
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -59,19 +59,19 @@ internal class DetachedAllocator : IDisposable
 	private bool m_Disposed;
 
 	[Token(Token = "0x6002914")]
-	[Address(RVA = "0x317E740", Offset = "0x317CD40", VA = "0x18317E740")]
+	[Address(RVA = "0x6B7D120", Offset = "0x6B7C120", VA = "0x6B7D120")]
 	public DetachedAllocator()
 	{
 	}
 
 	[Token(Token = "0x6002915")]
-	[Address(RVA = "0x317E600", Offset = "0x317CC00", VA = "0x18317E600", Slot = "4")]
+	[Address(RVA = "0x6B7D390", Offset = "0x6B7C390", VA = "0x6B7D390", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6002916")]
-	[Address(RVA = "0x317E6B0", Offset = "0x317CCB0", VA = "0x18317E6B0")]
+	[Address(RVA = "0x6B7D470", Offset = "0x6B7C470", VA = "0x6B7D470")]
 	protected void Dispose(bool disposing)
 	{
 	}

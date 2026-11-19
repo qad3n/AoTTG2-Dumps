@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace Unity.Collections.LowLevel.Unsafe;
 
 [Token(Token = "0x2000075")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Field)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute
 {
 }

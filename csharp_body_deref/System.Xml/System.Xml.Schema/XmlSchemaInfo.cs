@@ -48,13 +48,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaValidity Validity
 	{
 		[Token(Token = "0x60016A3")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "4")]
+		[Address(RVA = "0x602D5C0", Offset = "0x602C5C0", VA = "0x602D5C0", Slot = "4")]
 		get
 		{
 			return default(XmlSchemaValidity);
 		}
 		[Token(Token = "0x60016A4")]
-		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		[Address(RVA = "0x602D5D0", Offset = "0x602C5D0", VA = "0x602D5D0")]
 		set
 		{
 		}
@@ -64,13 +64,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public bool IsDefault
 	{
 		[Token(Token = "0x60016A5")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "5")]
+		[Address(RVA = "0x602D5E0", Offset = "0x602C5E0", VA = "0x602D5E0", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60016A6")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x602D5F0", Offset = "0x602C5F0", VA = "0x602D5F0")]
 		set
 		{
 		}
@@ -80,13 +80,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public bool IsNil
 	{
 		[Token(Token = "0x60016A7")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330", Slot = "6")]
+		[Address(RVA = "0x602D600", Offset = "0x602C600", VA = "0x602D600", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60016A8")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x602D610", Offset = "0x602C610", VA = "0x602D610")]
 		set
 		{
 		}
@@ -96,13 +96,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaSimpleType MemberType
 	{
 		[Token(Token = "0x60016A9")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "7")]
+		[Address(RVA = "0x602D620", Offset = "0x602C620", VA = "0x602D620", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016AA")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x602D630", Offset = "0x602C630", VA = "0x602D630")]
 		set
 		{
 		}
@@ -112,13 +112,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaType SchemaType
 	{
 		[Token(Token = "0x60016AB")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "8")]
+		[Address(RVA = "0x602D640", Offset = "0x602C640", VA = "0x602D640", Slot = "8")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016AC")]
-		[Address(RVA = "0x266CA50", Offset = "0x266B050", VA = "0x18266CA50")]
+		[Address(RVA = "0x602D650", Offset = "0x602C650", VA = "0x602D650")]
 		set
 		{
 		}
@@ -128,13 +128,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaElement SchemaElement
 	{
 		[Token(Token = "0x60016AD")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+		[Address(RVA = "0x602D680", Offset = "0x602C680", VA = "0x602D680", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016AE")]
-		[Address(RVA = "0x266CA10", Offset = "0x266B010", VA = "0x18266CA10")]
+		[Address(RVA = "0x602D690", Offset = "0x602C690", VA = "0x602D690")]
 		set
 		{
 		}
@@ -144,13 +144,13 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaAttribute SchemaAttribute
 	{
 		[Token(Token = "0x60016AF")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "10")]
+		[Address(RVA = "0x602D6E0", Offset = "0x602C6E0", VA = "0x602D6E0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016B0")]
-		[Address(RVA = "0x266C9D0", Offset = "0x266AFD0", VA = "0x18266C9D0")]
+		[Address(RVA = "0x602D6F0", Offset = "0x602C6F0", VA = "0x602D6F0")]
 		set
 		{
 		}
@@ -160,7 +160,7 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	public XmlSchemaContentType ContentType
 	{
 		[Token(Token = "0x60016B1")]
-		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
+		[Address(RVA = "0x602D740", Offset = "0x602C740", VA = "0x602D740")]
 		get
 		{
 			return default(XmlSchemaContentType);
@@ -171,7 +171,7 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	internal XmlSchemaType XmlType
 	{
 		[Token(Token = "0x60016B2")]
-		[Address(RVA = "0x266C9B0", Offset = "0x266AFB0", VA = "0x18266C9B0")]
+		[Address(RVA = "0x602D750", Offset = "0x602C750", VA = "0x602D750")]
 		get
 		{
 			return null;
@@ -182,7 +182,7 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	internal bool HasDefaultValue
 	{
 		[Token(Token = "0x60016B3")]
-		[Address(RVA = "0x266C930", Offset = "0x266AF30", VA = "0x18266C930")]
+		[Address(RVA = "0x602D760", Offset = "0x602C760", VA = "0x602D760")]
 		get
 		{
 			return default(bool);
@@ -193,7 +193,7 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	internal bool IsUnionType
 	{
 		[Token(Token = "0x60016B4")]
-		[Address(RVA = "0x266C970", Offset = "0x266AF70", VA = "0x18266C970")]
+		[Address(RVA = "0x602D790", Offset = "0x602C790", VA = "0x602D790")]
 		get
 		{
 			return default(bool);
@@ -201,19 +201,19 @@ public class XmlSchemaInfo : IXmlSchemaInfo
 	}
 
 	[Token(Token = "0x60016A1")]
-	[Address(RVA = "0x266C8C0", Offset = "0x266AEC0", VA = "0x18266C8C0")]
+	[Address(RVA = "0x602D460", Offset = "0x602C460", VA = "0x602D460")]
 	public XmlSchemaInfo()
 	{
 	}
 
 	[Token(Token = "0x60016A2")]
-	[Address(RVA = "0x266C840", Offset = "0x266AE40", VA = "0x18266C840")]
+	[Address(RVA = "0x602D540", Offset = "0x602C540", VA = "0x602D540")]
 	internal XmlSchemaInfo(XmlSchemaValidity validity)
 	{
 	}
 
 	[Token(Token = "0x60016B5")]
-	[Address(RVA = "0x266C7D0", Offset = "0x266ADD0", VA = "0x18266C7D0")]
+	[Address(RVA = "0x602D4D0", Offset = "0x602C4D0", VA = "0x602D4D0")]
 	internal void Clear()
 	{
 	}

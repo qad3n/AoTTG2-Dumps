@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class NoInterpTextureParameter : VolumeParameter<Texture>
 {
 	[Token(Token = "0x6000F5C")]
-	[Address(RVA = "0x2B5FC30", Offset = "0x2B5E230", VA = "0x182B5FC30")]
+	[Address(RVA = "0x6556480", Offset = "0x6555480", VA = "0x6556480")]
 	public NoInterpTextureParameter(Texture value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F5D")]
-	[Address(RVA = "0x2B5FB40", Offset = "0x2B5E140", VA = "0x182B5FB40", Slot = "2")]
+	[Address(RVA = "0x65564D0", Offset = "0x65554D0", VA = "0x65564D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

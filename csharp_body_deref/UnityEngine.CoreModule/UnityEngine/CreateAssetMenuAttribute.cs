@@ -11,34 +11,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000174")]
+[Token(Token = "0x2000175")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
 public sealed class CreateAssetMenuAttribute : Attribute
 {
-	[Token(Token = "0x1700021C")]
+	[Token(Token = "0x17000221")]
 	public string menuName
 	{
-		[Token(Token = "0x6000CB9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000CCB")]
+		[Address(RVA = "0x6911300", Offset = "0x6910300", VA = "0x6911300")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700021D")]
+	[Token(Token = "0x17000222")]
 	public string fileName
 	{
-		[Token(Token = "0x6000CBA")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6000CCC")]
+		[Address(RVA = "0x6911310", Offset = "0x6910310", VA = "0x6911310")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CBB")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000CCD")]
+	[Address(RVA = "0x6911320", Offset = "0x6910320", VA = "0x6911320")]
 	public CreateAssetMenuAttribute()
 	{
 	}

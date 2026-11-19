@@ -20,7 +20,7 @@ internal readonly struct DataKey
 	internal DataColumn[] ColumnsReference
 	{
 		[Token(Token = "0x60003DF")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x5E944F0", Offset = "0x5E934F0", VA = "0x5E944F0")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ internal readonly struct DataKey
 	internal bool HasValue
 	{
 		[Token(Token = "0x60003E0")]
-		[Address(RVA = "0x1B96F50", Offset = "0x1B95550", VA = "0x181B96F50")]
+		[Address(RVA = "0x5E94500", Offset = "0x5E93500", VA = "0x5E94500")]
 		get
 		{
 			return default(bool);
@@ -42,7 +42,7 @@ internal readonly struct DataKey
 	internal DataTable Table
 	{
 		[Token(Token = "0x60003E1")]
-		[Address(RVA = "0x24EF270", Offset = "0x24ED870", VA = "0x1824EF270")]
+		[Address(RVA = "0x5E8FCF0", Offset = "0x5E8ECF0", VA = "0x5E8FCF0")]
 		get
 		{
 			return null;
@@ -50,103 +50,103 @@ internal readonly struct DataKey
 	}
 
 	[Token(Token = "0x60003DE")]
-	[Address(RVA = "0x24EEFC0", Offset = "0x24ED5C0", VA = "0x1824EEFC0")]
+	[Address(RVA = "0x5E94240", Offset = "0x5E93240", VA = "0x5E94240")]
 	internal DataKey(DataColumn[] columns, bool copyColumns)
 	{
 	}
 
 	[Token(Token = "0x60003E2")]
-	[Address(RVA = "0x24EE620", Offset = "0x24ECC20", VA = "0x1824EE620")]
+	[Address(RVA = "0x5E94460", Offset = "0x5E93460", VA = "0x5E94460")]
 	internal void CheckState()
 	{
 	}
 
 	[Token(Token = "0x60003E3")]
-	[Address(RVA = "0x24EE7D0", Offset = "0x24ECDD0", VA = "0x1824EE7D0")]
+	[Address(RVA = "0x5E94510", Offset = "0x5E93510", VA = "0x5E94510")]
 	internal bool ColumnsEqual(DataKey key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003E4")]
-	[Address(RVA = "0x24EE720", Offset = "0x24ECD20", VA = "0x1824EE720")]
+	[Address(RVA = "0x5E94520", Offset = "0x5E93520", VA = "0x5E94520")]
 	internal static bool ColumnsEqual(DataColumn[] column1, DataColumn[] column2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003E5")]
-	[Address(RVA = "0x24EE880", Offset = "0x24ECE80", VA = "0x1824EE880")]
+	[Address(RVA = "0x5E92AB0", Offset = "0x5E91AB0", VA = "0x5E92AB0")]
 	internal bool ContainsColumn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003E6")]
-	[Address(RVA = "0x24EEAD0", Offset = "0x24ED0D0", VA = "0x1824EEAD0", Slot = "2")]
+	[Address(RVA = "0x5E945F0", Offset = "0x5E935F0", VA = "0x5E945F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003E7")]
-	[Address(RVA = "0x24EE970", Offset = "0x24ECF70", VA = "0x1824EE970", Slot = "0")]
+	[Address(RVA = "0x5E94640", Offset = "0x5E93640", VA = "0x5E94640", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003E8")]
-	[Address(RVA = "0x24EE8D0", Offset = "0x24ECED0", VA = "0x1824EE8D0")]
+	[Address(RVA = "0x5E94720", Offset = "0x5E93720", VA = "0x5E94720")]
 	internal bool Equals(DataKey value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003E9")]
-	[Address(RVA = "0x24EE9F0", Offset = "0x24ECFF0", VA = "0x1824EE9F0")]
+	[Address(RVA = "0x5E947A0", Offset = "0x5E937A0", VA = "0x5E947A0")]
 	internal string[] GetColumnNames()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EA")]
-	[Address(RVA = "0x24EEB20", Offset = "0x24ED120", VA = "0x1824EEB20")]
+	[Address(RVA = "0x5E94870", Offset = "0x5E93870", VA = "0x5E94870")]
 	internal IndexField[] GetIndexDesc()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EB")]
-	[Address(RVA = "0x24EEC20", Offset = "0x24ED220", VA = "0x1824EEC20")]
+	[Address(RVA = "0x5E94980", Offset = "0x5E93980", VA = "0x5E94980")]
 	internal object[] GetKeyValues(int record)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x24EEDC0", Offset = "0x24ED3C0", VA = "0x1824EEDC0")]
+	[Address(RVA = "0x5E94AA0", Offset = "0x5E93AA0", VA = "0x5E94AA0")]
 	internal Index GetSortIndex()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x24EED50", Offset = "0x24ED350", VA = "0x1824EED50")]
+	[Address(RVA = "0x5E94AF0", Offset = "0x5E93AF0", VA = "0x5E94AF0")]
 	internal Index GetSortIndex(DataViewRowState recordStates)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x24EEE20", Offset = "0x24ED420", VA = "0x1824EEE20")]
+	[Address(RVA = "0x5E94B40", Offset = "0x5E93B40", VA = "0x5E94B40")]
 	internal bool RecordsEqual(int record1, int record2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x24EEEB0", Offset = "0x24ED4B0", VA = "0x1824EEEB0")]
+	[Address(RVA = "0x5E94BB0", Offset = "0x5E93BB0", VA = "0x5E94BB0")]
 	internal DataColumn[] ToArray()
 	{
 		return null;

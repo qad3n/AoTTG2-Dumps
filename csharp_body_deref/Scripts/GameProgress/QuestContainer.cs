@@ -10,25 +10,25 @@ using Settings;
 
 namespace GameProgress;
 
-[Token(Token = "0x200030F")]
+[Token(Token = "0x2000370")]
 internal class QuestContainer : BaseSettingsContainer
 {
-	[Token(Token = "0x4000F93")]
+	[Token(Token = "0x4001132")]
 	[FieldOffset(Offset = "0x30")]
 	public ListSetting<QuestItem> DailyQuestItems;
 
-	[Token(Token = "0x4000F94")]
+	[Token(Token = "0x4001133")]
 	[FieldOffset(Offset = "0x38")]
 	public ListSetting<QuestItem> WeeklyQuestItems;
 
-	[Token(Token = "0x60012E2")]
-	[Address(RVA = "0x1E36ED0", Offset = "0x1E354D0", VA = "0x181E36ED0")]
+	[Token(Token = "0x6001554")]
+	[Address(RVA = "0x581F2B0", Offset = "0x581E2B0", VA = "0x581F2B0")]
 	public void CollectRewards()
 	{
 	}
 
-	[Token(Token = "0x60012E3")]
-	[Address(RVA = "0x1E370D0", Offset = "0x1E356D0", VA = "0x181E370D0")]
+	[Token(Token = "0x6001555")]
+	[Address(RVA = "0x581F650", Offset = "0x581E650", VA = "0x581F650")]
 	public QuestContainer()
 	{
 	}

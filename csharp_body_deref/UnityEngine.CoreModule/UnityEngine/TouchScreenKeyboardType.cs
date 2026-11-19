@@ -10,34 +10,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001DF")]
+[Token(Token = "0x20001E0")]
 public enum TouchScreenKeyboardType
 {
-	[Token(Token = "0x400067F")]
-	Default,
-	[Token(Token = "0x4000680")]
-	ASCIICapable,
-	[Token(Token = "0x4000681")]
-	NumbersAndPunctuation,
-	[Token(Token = "0x4000682")]
-	URL,
-	[Token(Token = "0x4000683")]
-	NumberPad,
 	[Token(Token = "0x4000684")]
-	PhonePad,
+	Default,
 	[Token(Token = "0x4000685")]
-	NamePhonePad,
+	ASCIICapable,
 	[Token(Token = "0x4000686")]
-	EmailAddress,
+	NumbersAndPunctuation,
 	[Token(Token = "0x4000687")]
+	URL,
+	[Token(Token = "0x4000688")]
+	NumberPad,
+	[Token(Token = "0x4000689")]
+	PhonePad,
+	[Token(Token = "0x400068A")]
+	NamePhonePad,
+	[Token(Token = "0x400068B")]
+	EmailAddress,
+	[Token(Token = "0x400068C")]
 	[Obsolete("Wii U is no longer supported as of Unity 2018.1.")]
 	NintendoNetworkAccount,
-	[Token(Token = "0x4000688")]
+	[Token(Token = "0x400068D")]
 	Social,
-	[Token(Token = "0x4000689")]
+	[Token(Token = "0x400068E")]
 	Search,
-	[Token(Token = "0x400068A")]
+	[Token(Token = "0x400068F")]
 	DecimalPad,
-	[Token(Token = "0x400068B")]
+	[Token(Token = "0x4000690")]
 	OneTimeCode
 }

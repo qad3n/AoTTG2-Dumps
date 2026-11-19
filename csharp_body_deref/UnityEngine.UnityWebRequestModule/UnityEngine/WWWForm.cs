@@ -49,7 +49,7 @@ public class WWWForm
 	internal static Encoding DefaultEncoding
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x330DE80", Offset = "0x330C480", VA = "0x18330DE80")]
+		[Address(RVA = "0x6D19F50", Offset = "0x6D18F50", VA = "0x6D19F50")]
 		get
 		{
 			return null;

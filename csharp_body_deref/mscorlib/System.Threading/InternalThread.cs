@@ -13,183 +13,183 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200024C")]
+[Token(Token = "0x2000224")]
 internal sealed class InternalThread : CriticalFinalizerObject
 {
-	[Token(Token = "0x4000A74")]
+	[Token(Token = "0x40009D2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int lock_thread_id;
 
-	[Token(Token = "0x4000A75")]
+	[Token(Token = "0x40009D3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private IntPtr handle;
 
-	[Token(Token = "0x4000A76")]
+	[Token(Token = "0x40009D4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private IntPtr native_handle;
 
-	[Token(Token = "0x4000A77")]
+	[Token(Token = "0x40009D5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private IntPtr name_chars;
 
-	[Token(Token = "0x4000A78")]
+	[Token(Token = "0x40009D6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private int name_free;
 
-	[Token(Token = "0x4000A79")]
+	[Token(Token = "0x40009D7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x34")]
 	private int name_length;
 
-	[Token(Token = "0x4000A7A")]
+	[Token(Token = "0x40009D8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private ThreadState state;
 
-	[Token(Token = "0x4000A7B")]
+	[Token(Token = "0x40009D9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private object abort_exc;
 
-	[Token(Token = "0x4000A7C")]
+	[Token(Token = "0x40009DA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int abort_state_handle;
 
-	[Token(Token = "0x4000A7D")]
+	[Token(Token = "0x40009DB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	internal long thread_id;
 
-	[Token(Token = "0x4000A7E")]
+	[Token(Token = "0x40009DC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private IntPtr debugger_thread;
 
-	[Token(Token = "0x4000A7F")]
+	[Token(Token = "0x40009DD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private UIntPtr static_data;
 
-	[Token(Token = "0x4000A80")]
+	[Token(Token = "0x40009DE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private IntPtr runtime_thread_info;
 
-	[Token(Token = "0x4000A81")]
+	[Token(Token = "0x40009DF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private object current_appcontext;
 
-	[Token(Token = "0x4000A82")]
+	[Token(Token = "0x40009E0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private object root_domain_thread;
 
-	[Token(Token = "0x4000A83")]
+	[Token(Token = "0x40009E1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	internal byte[] _serialized_principal;
 
-	[Token(Token = "0x4000A84")]
+	[Token(Token = "0x40009E2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	internal int _serialized_principal_version;
 
-	[Token(Token = "0x4000A85")]
+	[Token(Token = "0x40009E3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private IntPtr appdomain_refs;
 
-	[Token(Token = "0x4000A86")]
+	[Token(Token = "0x40009E4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private int interruption_requested;
 
-	[Token(Token = "0x4000A87")]
+	[Token(Token = "0x40009E5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private IntPtr longlived;
 
-	[Token(Token = "0x4000A88")]
+	[Token(Token = "0x40009E6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	internal bool threadpool_thread;
 
-	[Token(Token = "0x4000A89")]
+	[Token(Token = "0x40009E7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA9")]
 	private bool thread_interrupt_requested;
 
-	[Token(Token = "0x4000A8A")]
+	[Token(Token = "0x40009E8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xAC")]
 	internal int stack_size;
 
-	[Token(Token = "0x4000A8B")]
+	[Token(Token = "0x40009E9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	internal byte apartment_state;
 
-	[Token(Token = "0x4000A8C")]
+	[Token(Token = "0x40009EA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB4")]
 	internal int critical_region_level;
 
-	[Token(Token = "0x4000A8D")]
+	[Token(Token = "0x40009EB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	internal int managed_id;
 
-	[Token(Token = "0x4000A8E")]
+	[Token(Token = "0x40009EC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xBC")]
 	private int small_id;
 
-	[Token(Token = "0x4000A8F")]
+	[Token(Token = "0x40009ED")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private IntPtr manage_callback;
 
-	[Token(Token = "0x4000A90")]
+	[Token(Token = "0x40009EE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private IntPtr flags;
 
-	[Token(Token = "0x4000A91")]
+	[Token(Token = "0x40009EF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private IntPtr thread_pinning_ref;
 
-	[Token(Token = "0x4000A92")]
+	[Token(Token = "0x40009F0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	private IntPtr abort_protected_block_count;
 
-	[Token(Token = "0x4000A93")]
+	[Token(Token = "0x40009F1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	private int priority;
 
-	[Token(Token = "0x4000A94")]
+	[Token(Token = "0x40009F2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
 	private IntPtr owned_mutex;
 
-	[Token(Token = "0x4000A95")]
+	[Token(Token = "0x40009F3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF0")]
 	private IntPtr suspended_event;
 
-	[Token(Token = "0x4000A96")]
+	[Token(Token = "0x40009F4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF8")]
 	private int self_suspended;
 
-	[Token(Token = "0x4000A97")]
+	[Token(Token = "0x40009F5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x100")]
 	private IntPtr thread_state;
 
-	[Token(Token = "0x4000A98")]
+	[Token(Token = "0x40009F6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x108")]
 	private IntPtr netcore0;
 
-	[Token(Token = "0x4000A99")]
+	[Token(Token = "0x40009F7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x110")]
 	private IntPtr netcore1;
 
-	[Token(Token = "0x4000A9A")]
+	[Token(Token = "0x40009F8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x118")]
 	private IntPtr netcore2;
 
-	[Token(Token = "0x4000A9B")]
+	[Token(Token = "0x40009F9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x120")]
 	private IntPtr last;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60013BE")]
-	[Address(RVA = "0x1BAFEF0", Offset = "0x1BAE4F0", VA = "0x181BAFEF0")]
+	[Token(Token = "0x6001395")]
+	[Address(RVA = "0x553F360", Offset = "0x553E360", VA = "0x553F360")]
 	private extern void Thread_free_internal();
 
-	[Token(Token = "0x60013BF")]
-	[Address(RVA = "0x1BAFE90", Offset = "0x1BAE490", VA = "0x181BAFE90", Slot = "1")]
+	[Token(Token = "0x6001396")]
+	[Address(RVA = "0x553F370", Offset = "0x553E370", VA = "0x553F370", Slot = "1")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	~InternalThread()
 	{
 	}
 
-	[Token(Token = "0x60013C0")]
-	[Address(RVA = "0x1BAFF00", Offset = "0x1BAE500", VA = "0x181BAFF00")]
+	[Token(Token = "0x6001397")]
+	[Address(RVA = "0x553F400", Offset = "0x553E400", VA = "0x553F400")]
 	public InternalThread()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ShadowSliceData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ public struct ShadowSliceData
 	public ShadowSplitData splitData;
 
 	[Token(Token = "0x6000924")]
-	[Address(RVA = "0x2C948C0", Offset = "0x2C92EC0", VA = "0x182C948C0")]
+	[Address(RVA = "0x668BAC0", Offset = "0x668AAC0", VA = "0x668BAC0")]
 	public void Clear()
 	{
 	}

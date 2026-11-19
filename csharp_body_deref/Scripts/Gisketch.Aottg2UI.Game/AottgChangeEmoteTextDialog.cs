@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgChangeEmoteTextDialog
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgChangeEmoteTextDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,81 +11,81 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002A4")]
+[Token(Token = "0x2000301")]
 [AottgDialog("profile-change-emote-text")]
 public sealed class AottgChangeEmoteTextDialog : AottgDialog
 {
-	[Token(Token = "0x4000DBC")]
+	[Token(Token = "0x4000F51")]
 	public const string Id = "profile-change-emote-text";
 
-	[Token(Token = "0x4000DBD")]
+	[Token(Token = "0x4000F52")]
 	public const string InputId = "profile-change-emote-text-input";
 
-	[Token(Token = "0x170001CE")]
+	[Token(Token = "0x1700020B")]
 	protected override string Title
 	{
-		[Token(Token = "0x6001089")]
-		[Address(RVA = "0x1E0F2B0", Offset = "0x1E0D8B0", VA = "0x181E0F2B0", Slot = "4")]
+		[Token(Token = "0x60012DA")]
+		[Address(RVA = "0x57F5310", Offset = "0x57F4310", VA = "0x57F5310", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001CF")]
+	[Token(Token = "0x1700020C")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x600108A")]
-		[Address(RVA = "0x1E0F280", Offset = "0x1E0D880", VA = "0x181E0F280", Slot = "5")]
+		[Token(Token = "0x60012DB")]
+		[Address(RVA = "0x57F5370", Offset = "0x57F4370", VA = "0x57F5370", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001D0")]
+	[Token(Token = "0x1700020D")]
 	protected override bool GuardUnsavedChanges
 	{
-		[Token(Token = "0x600108B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "12")]
+		[Token(Token = "0x60012DC")]
+		[Address(RVA = "0x57F53A0", Offset = "0x57F43A0", VA = "0x57F53A0", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001D1")]
+	[Token(Token = "0x1700020E")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x600108C")]
-		[Address(RVA = "0x1E0F180", Offset = "0x1E0D780", VA = "0x181E0F180", Slot = "15")]
+		[Token(Token = "0x60012DD")]
+		[Address(RVA = "0x57F53B0", Offset = "0x57F43B0", VA = "0x57F53B0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600108D")]
-	[Address(RVA = "0x1E0ED00", Offset = "0x1E0D300", VA = "0x181E0ED00", Slot = "20")]
+	[Token(Token = "0x60012DE")]
+	[Address(RVA = "0x57F5470", Offset = "0x57F4470", VA = "0x57F5470", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x600108E")]
-	[Address(RVA = "0x1E0EFD0", Offset = "0x1E0D5D0", VA = "0x181E0EFD0", Slot = "21")]
+	[Token(Token = "0x60012DF")]
+	[Address(RVA = "0x57F5730", Offset = "0x57F4730", VA = "0x57F5730", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x600108F")]
-	[Address(RVA = "0x1E0F090", Offset = "0x1E0D690", VA = "0x181E0F090")]
+	[Token(Token = "0x60012E0")]
+	[Address(RVA = "0x57F5650", Offset = "0x57F4650", VA = "0x57F5650")]
 	private static string TextValue(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001090")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60012E1")]
+	[Address(RVA = "0x57F57C0", Offset = "0x57F47C0", VA = "0x57F57C0")]
 	public AottgChangeEmoteTextDialog()
 	{
 	}

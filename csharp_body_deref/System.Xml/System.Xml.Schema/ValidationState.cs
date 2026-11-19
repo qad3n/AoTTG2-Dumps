@@ -86,7 +86,7 @@ internal sealed class ValidationState
 	public bool TooComplex;
 
 	[Token(Token = "0x6001441")]
-	[Address(RVA = "0x2655970", Offset = "0x2653F70", VA = "0x182655970")]
+	[Address(RVA = "0x6014A80", Offset = "0x6013A80", VA = "0x6014A80")]
 	public ValidationState()
 	{
 	}

@@ -12,171 +12,171 @@ using Il2CppDummyDll;
 namespace System.Net.Sockets;
 
 [StructLayout(LayoutKind.Sequential)]
-[Token(Token = "0x2000394")]
+[Token(Token = "0x2000350")]
 internal sealed class SocketAsyncResult : IOAsyncResult
 {
-	[Token(Token = "0x4000F89")]
+	[Token(Token = "0x4000EA1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public Socket socket;
 
-	[Token(Token = "0x4000F8A")]
+	[Token(Token = "0x4000EA2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public SocketOperation operation;
 
-	[Token(Token = "0x4000F8B")]
+	[Token(Token = "0x4000EA3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private Exception DelayedException;
 
-	[Token(Token = "0x4000F8C")]
+	[Token(Token = "0x4000EA4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	public EndPoint EndPoint;
 
-	[Token(Token = "0x4000F8D")]
+	[Token(Token = "0x4000EA5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	public Memory<byte> Buffer;
 
-	[Token(Token = "0x4000F8E")]
+	[Token(Token = "0x4000EA6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	public int Offset;
 
-	[Token(Token = "0x4000F8F")]
+	[Token(Token = "0x4000EA7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x64")]
 	public int Size;
 
-	[Token(Token = "0x4000F90")]
+	[Token(Token = "0x4000EA8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	public SocketFlags SockFlags;
 
-	[Token(Token = "0x4000F91")]
+	[Token(Token = "0x4000EA9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	public Socket AcceptSocket;
 
-	[Token(Token = "0x4000F92")]
+	[Token(Token = "0x4000EAA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	public IPAddress[] Addresses;
 
-	[Token(Token = "0x4000F93")]
+	[Token(Token = "0x4000EAB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	public int Port;
 
-	[Token(Token = "0x4000F94")]
+	[Token(Token = "0x4000EAC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	public IList<ArraySegment<byte>> Buffers;
 
-	[Token(Token = "0x4000F95")]
+	[Token(Token = "0x4000EAD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	public bool ReuseSocket;
 
-	[Token(Token = "0x4000F96")]
+	[Token(Token = "0x4000EAE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x94")]
 	public int CurrentAddress;
 
-	[Token(Token = "0x4000F97")]
+	[Token(Token = "0x4000EAF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	public Socket AcceptedSocket;
 
-	[Token(Token = "0x4000F98")]
+	[Token(Token = "0x4000EB0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	public int Total;
 
-	[Token(Token = "0x4000F99")]
+	[Token(Token = "0x4000EB1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA4")]
 	internal int error;
 
-	[Token(Token = "0x4000F9A")]
+	[Token(Token = "0x4000EB2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public int EndCalled;
 
-	[Token(Token = "0x1700054D")]
+	[Token(Token = "0x17000520")]
 	public IntPtr Handle
 	{
-		[Token(Token = "0x60018B6")]
-		[Address(RVA = "0x281A530", Offset = "0x2818B30", VA = "0x18281A530")]
+		[Token(Token = "0x60016FD")]
+		[Address(RVA = "0x61B9860", Offset = "0x61B8860", VA = "0x61B9860")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x1700054E")]
+	[Token(Token = "0x17000521")]
 	public SocketError ErrorCode
 	{
-		[Token(Token = "0x60018BA")]
-		[Address(RVA = "0x281A4A0", Offset = "0x2818AA0", VA = "0x18281A4A0")]
+		[Token(Token = "0x6001701")]
+		[Address(RVA = "0x61B9A10", Offset = "0x61B8A10", VA = "0x61B9A10")]
 		get
 		{
 			return default(SocketError);
 		}
 	}
 
-	[Token(Token = "0x60018B7")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60016FE")]
+	[Address(RVA = "0x61B9570", Offset = "0x61B8570", VA = "0x61B9570")]
 	public SocketAsyncResult()
 	{
 	}
 
-	[Token(Token = "0x60018B8")]
-	[Address(RVA = "0x281A330", Offset = "0x2818930", VA = "0x18281A330")]
+	[Token(Token = "0x60016FF")]
+	[Address(RVA = "0x61B9880", Offset = "0x61B8880", VA = "0x61B9880")]
 	public void Init(Socket socket, AsyncCallback callback, object state, SocketOperation operation)
 	{
 	}
 
-	[Token(Token = "0x60018B9")]
-	[Address(RVA = "0x281A450", Offset = "0x2818A50", VA = "0x18281A450")]
+	[Token(Token = "0x6001700")]
+	[Address(RVA = "0x61B99D0", Offset = "0x61B89D0", VA = "0x61B99D0")]
 	public SocketAsyncResult(Socket socket, AsyncCallback callback, object state, SocketOperation operation)
 	{
 	}
 
-	[Token(Token = "0x60018BB")]
-	[Address(RVA = "0x2819F30", Offset = "0x2818530", VA = "0x182819F30")]
+	[Token(Token = "0x6001702")]
+	[Address(RVA = "0x61B9A80", Offset = "0x61B8A80", VA = "0x61B9A80")]
 	public void CheckIfThrowDelayedException()
 	{
 	}
 
-	[Token(Token = "0x60018BC")]
-	[Address(RVA = "0x2819FE0", Offset = "0x28185E0", VA = "0x182819FE0", Slot = "8")]
+	[Token(Token = "0x6001703")]
+	[Address(RVA = "0x61B9B10", Offset = "0x61B8B10", VA = "0x61B9B10", Slot = "8")]
 	internal override void CompleteDisposed()
 	{
 	}
 
-	[Token(Token = "0x60018BD")]
-	[Address(RVA = "0x281A0F0", Offset = "0x28186F0", VA = "0x18281A0F0")]
+	[Token(Token = "0x6001704")]
+	[Address(RVA = "0x61B5F50", Offset = "0x61B4F50", VA = "0x61B5F50")]
 	public void Complete()
 	{
 	}
 
-	[Token(Token = "0x60018BE")]
-	[Address(RVA = "0x2819FF0", Offset = "0x28185F0", VA = "0x182819FF0")]
+	[Token(Token = "0x6001705")]
+	[Address(RVA = "0x61B9B20", Offset = "0x61B8B20", VA = "0x61B9B20")]
 	public void Complete(bool synch)
 	{
 	}
 
-	[Token(Token = "0x60018BF")]
-	[Address(RVA = "0x281A0B0", Offset = "0x28186B0", VA = "0x18281A0B0")]
+	[Token(Token = "0x6001706")]
+	[Address(RVA = "0x61B6AD0", Offset = "0x61B5AD0", VA = "0x61B6AD0")]
 	public void Complete(int total)
 	{
 	}
 
-	[Token(Token = "0x60018C0")]
-	[Address(RVA = "0x281A030", Offset = "0x2818630", VA = "0x18281A030")]
+	[Token(Token = "0x6001707")]
+	[Address(RVA = "0x61B9B30", Offset = "0x61B8B30", VA = "0x61B9B30")]
 	public void Complete(Exception e, bool synch)
 	{
 	}
 
-	[Token(Token = "0x60018C1")]
-	[Address(RVA = "0x281A000", Offset = "0x2818600", VA = "0x18281A000")]
+	[Token(Token = "0x6001708")]
+	[Address(RVA = "0x61B56C0", Offset = "0x61B46C0", VA = "0x61B56C0")]
 	public void Complete(Exception e)
 	{
 	}
 
-	[Token(Token = "0x60018C2")]
-	[Address(RVA = "0x281A0C0", Offset = "0x28186C0", VA = "0x18281A0C0")]
+	[Token(Token = "0x6001709")]
+	[Address(RVA = "0x61B56E0", Offset = "0x61B46E0", VA = "0x61B56E0")]
 	public void Complete(Socket s)
 	{
 	}
 
-	[Token(Token = "0x60018C3")]
-	[Address(RVA = "0x281A070", Offset = "0x2818670", VA = "0x18281A070")]
+	[Token(Token = "0x600170A")]
+	[Address(RVA = "0x61B59A0", Offset = "0x61B49A0", VA = "0x61B59A0")]
 	public void Complete(Socket s, int total)
 	{
 	}

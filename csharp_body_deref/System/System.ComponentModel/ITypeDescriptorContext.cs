@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001AF")]
+[Token(Token = "0x2000170")]
 public interface ITypeDescriptorContext : IServiceProvider
 {
-	[Token(Token = "0x1700022A")]
+	[Token(Token = "0x170001FB")]
 	IContainer Container
 	{
-		[Token(Token = "0x6000AF4")]
+		[Token(Token = "0x6000934")]
 		get;
 	}
 
-	[Token(Token = "0x1700022B")]
+	[Token(Token = "0x170001FC")]
 	object Instance
 	{
-		[Token(Token = "0x6000AF5")]
+		[Token(Token = "0x6000935")]
 		get;
 	}
 
-	[Token(Token = "0x1700022C")]
+	[Token(Token = "0x170001FD")]
 	PropertyDescriptor PropertyDescriptor
 	{
-		[Token(Token = "0x6000AF6")]
+		[Token(Token = "0x6000936")]
 		get;
 	}
 
-	[Token(Token = "0x6000AF7")]
+	[Token(Token = "0x6000937")]
 	bool OnComponentChanging();
 
-	[Token(Token = "0x6000AF8")]
+	[Token(Token = "0x6000938")]
 	void OnComponentChanged();
 }

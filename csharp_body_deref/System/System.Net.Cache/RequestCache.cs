@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x200036F")]
+[Token(Token = "0x200032B")]
 internal abstract class RequestCache
 {
-	[Token(Token = "0x4000E11")]
+	[Token(Token = "0x4000D29")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly char[] LineSplits;
 }

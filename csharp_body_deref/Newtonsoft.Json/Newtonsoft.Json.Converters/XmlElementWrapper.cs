@@ -21,7 +21,7 @@ internal class XmlElementWrapper : XmlNodeWrapper, IXmlElement, IXmlNode
 	public bool IsEmpty
 	{
 		[Token(Token = "0x6000F14")]
-		[Address(RVA = "0x1CB3670", Offset = "0x1CB1C70", VA = "0x181CB3670", Slot = "18")]
+		[Address(RVA = "0x563A3B0", Offset = "0x56393B0", VA = "0x563A3B0", Slot = "18")]
 		get
 		{
 			return default(bool);
@@ -29,19 +29,19 @@ internal class XmlElementWrapper : XmlNodeWrapper, IXmlElement, IXmlNode
 	}
 
 	[Token(Token = "0x6000F11")]
-	[Address(RVA = "0x1CB2BE0", Offset = "0x1CB11E0", VA = "0x181CB2BE0")]
+	[Address(RVA = "0x5639FB0", Offset = "0x5638FB0", VA = "0x5639FB0")]
 	public XmlElementWrapper(XmlElement element)
 	{
 	}
 
 	[Token(Token = "0x6000F12")]
-	[Address(RVA = "0x1CB3590", Offset = "0x1CB1B90", VA = "0x181CB3590", Slot = "16")]
+	[Address(RVA = "0x563A2A0", Offset = "0x56392A0", VA = "0x563A2A0", Slot = "16")]
 	public void SetAttributeNode(IXmlNode attribute)
 	{
 	}
 
 	[Token(Token = "0x6000F13")]
-	[Address(RVA = "0x1CB3560", Offset = "0x1CB1B60", VA = "0x181CB3560", Slot = "17")]
+	[Address(RVA = "0x563A380", Offset = "0x5639380", VA = "0x563A380", Slot = "17")]
 	public string GetPrefixOfNamespace(string namespaceUri)
 	{
 		return null;

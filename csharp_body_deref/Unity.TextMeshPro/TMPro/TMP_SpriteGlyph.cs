@@ -21,19 +21,19 @@ public class TMP_SpriteGlyph : Glyph
 	public Sprite sprite;
 
 	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x2D42A30", Offset = "0x2D41030", VA = "0x182D42A30")]
+	[Address(RVA = "0x673CAE0", Offset = "0x673BAE0", VA = "0x673CAE0")]
 	public TMP_SpriteGlyph()
 	{
 	}
 
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x2D429A0", Offset = "0x2D40FA0", VA = "0x182D429A0")]
+	[Address(RVA = "0x673CDD0", Offset = "0x673BDD0", VA = "0x673CDD0")]
 	public TMP_SpriteGlyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex)
 	{
 	}
 
 	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x2D428F0", Offset = "0x2D40EF0", VA = "0x182D428F0")]
+	[Address(RVA = "0x673CE60", Offset = "0x673BE60", VA = "0x673CE60")]
 	public TMP_SpriteGlyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex, Sprite sprite)
 	{
 	}

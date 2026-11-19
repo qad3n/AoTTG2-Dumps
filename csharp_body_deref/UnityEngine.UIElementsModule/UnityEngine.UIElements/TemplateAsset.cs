@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TemplateAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,7 +38,7 @@ internal class TemplateAsset : VisualElementAsset
 		public string m_Value;
 
 		[Token(Token = "0x6002646")]
-		[Address(RVA = "0x313C460", Offset = "0x313AA60", VA = "0x18313C460")]
+		[Address(RVA = "0x6B57700", Offset = "0x6B56700", VA = "0x6B57700")]
 		public bool NamesPathMatchesElementNamesPath(IList<string> elementNamesPath)
 		{
 			return default(bool);
@@ -86,7 +86,7 @@ internal class TemplateAsset : VisualElementAsset
 	public string templateAlias
 	{
 		[Token(Token = "0x6002642")]
-		[Address(RVA = "0x2E8E8C0", Offset = "0x2E8CEC0", VA = "0x182E8E8C0")]
+		[Address(RVA = "0x6B57670", Offset = "0x6B56670", VA = "0x6B57670")]
 		get
 		{
 			return null;
@@ -97,7 +97,7 @@ internal class TemplateAsset : VisualElementAsset
 	public List<AttributeOverride> attributeOverrides
 	{
 		[Token(Token = "0x6002643")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x6B57680", Offset = "0x6B56680", VA = "0x6B57680")]
 		get
 		{
 			return null;
@@ -109,7 +109,7 @@ internal class TemplateAsset : VisualElementAsset
 	internal List<VisualTreeAsset.SlotUsageEntry> slotUsages
 	{
 		[Token(Token = "0x6002644")]
-		[Address(RVA = "0x1CCD790", Offset = "0x1CCBD90", VA = "0x181CCD790")]
+		[Address(RVA = "0x6B57690", Offset = "0x6B56690", VA = "0x6B57690")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{

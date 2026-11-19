@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001DF")]
+[Token(Token = "0x20001B7")]
 internal struct BRECORD
 {
-	[Token(Token = "0x4000937")]
+	[Token(Token = "0x4000895")]
 	[FieldOffset(Offset = "0x0")]
 	private IntPtr pvRecord;
 
-	[Token(Token = "0x4000938")]
+	[Token(Token = "0x4000896")]
 	[FieldOffset(Offset = "0x8")]
 	private IntPtr pRecInfo;
 }

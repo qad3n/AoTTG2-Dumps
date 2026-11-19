@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.Dimension
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -48,83 +48,83 @@ internal struct Dimension : IEquatable<Dimension>
 	public float value;
 
 	[Token(Token = "0x6002D3E")]
-	[Address(RVA = "0x31EC430", Offset = "0x31EAA30", VA = "0x1831EC430")]
+	[Address(RVA = "0x6BEEEF0", Offset = "0x6BEDEF0", VA = "0x6BEEEF0")]
 	public Dimension(float value, Unit unit)
 	{
 	}
 
 	[Token(Token = "0x6002D3F")]
-	[Address(RVA = "0x31EC2F0", Offset = "0x31EA8F0", VA = "0x1831EC2F0")]
+	[Address(RVA = "0x6BEEF00", Offset = "0x6BEDF00", VA = "0x6BEEF00")]
 	public Length ToLength()
 	{
 		return default(Length);
 	}
 
 	[Token(Token = "0x6002D40")]
-	[Address(RVA = "0x31EC3F0", Offset = "0x31EA9F0", VA = "0x1831EC3F0")]
+	[Address(RVA = "0x6BEEF30", Offset = "0x6BEDF30", VA = "0x6BEEF30")]
 	public TimeValue ToTime()
 	{
 		return default(TimeValue);
 	}
 
 	[Token(Token = "0x6002D41")]
-	[Address(RVA = "0x31EC260", Offset = "0x31EA860", VA = "0x1831EC260")]
+	[Address(RVA = "0x6BEEF60", Offset = "0x6BEDF60", VA = "0x6BEEF60")]
 	public Angle ToAngle()
 	{
 		return default(Angle);
 	}
 
 	[Token(Token = "0x6002D42")]
-	[Address(RVA = "0x31EC440", Offset = "0x31EAA40", VA = "0x1831EC440")]
+	[Address(RVA = "0x6BEEFE0", Offset = "0x6BEDFE0", VA = "0x6BEEFE0")]
 	public static bool operator ==(Dimension lhs, Dimension rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D43")]
-	[Address(RVA = "0x31EC190", Offset = "0x31EA790", VA = "0x1831EC190", Slot = "4")]
+	[Address(RVA = "0x6BEF010", Offset = "0x6BEE010", VA = "0x6BEF010", Slot = "4")]
 	public bool Equals(Dimension other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D44")]
-	[Address(RVA = "0x31EC0D0", Offset = "0x31EA6D0", VA = "0x1831EC0D0", Slot = "0")]
+	[Address(RVA = "0x6BEF030", Offset = "0x6BEE030", VA = "0x6BEF030", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D45")]
-	[Address(RVA = "0x31EC1C0", Offset = "0x31EA7C0", VA = "0x1831EC1C0", Slot = "2")]
+	[Address(RVA = "0x6BEF0A0", Offset = "0x6BEE0A0", VA = "0x6BEF0A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002D46")]
-	[Address(RVA = "0x31EC330", Offset = "0x31EA930", VA = "0x1831EC330", Slot = "3")]
+	[Address(RVA = "0x6BEF0E0", Offset = "0x6BEE0E0", VA = "0x6BEF0E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D47")]
-	[Address(RVA = "0x31EC220", Offset = "0x31EA820", VA = "0x1831EC220")]
+	[Address(RVA = "0x6BEF1D0", Offset = "0x6BEE1D0", VA = "0x6BEF1D0")]
 	public bool IsLength()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D48")]
-	[Address(RVA = "0x31EC240", Offset = "0x31EA840", VA = "0x1831EC240")]
+	[Address(RVA = "0x6BEF1E0", Offset = "0x6BEE1E0", VA = "0x6BEF1E0")]
 	public bool IsTimeValue()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D49")]
-	[Address(RVA = "0x31EC200", Offset = "0x31EA800", VA = "0x1831EC200")]
+	[Address(RVA = "0x6BEF1F0", Offset = "0x6BEE1F0", VA = "0x6BEF1F0")]
 	public bool IsAngle()
 	{
 		return default(bool);

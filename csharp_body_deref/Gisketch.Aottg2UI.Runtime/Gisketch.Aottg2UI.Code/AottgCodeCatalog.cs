@@ -12,26 +12,26 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000073")]
+[Token(Token = "0x2000079")]
 public sealed class AottgCodeCatalog
 {
-	[Token(Token = "0x400028A")]
+	[Token(Token = "0x40002AE")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<AottgScreenEntry> _screens;
 
-	[Token(Token = "0x400028B")]
+	[Token(Token = "0x40002AF")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly List<AottgDialogEntry> _dialogs;
 
-	[Token(Token = "0x400028C")]
+	[Token(Token = "0x40002B0")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<AottgPopoverEntry> _popovers;
 
 	[Token(Token = "0x1700005A")]
 	public IReadOnlyList<AottgScreenEntry> Screens
 	{
-		[Token(Token = "0x6000357")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60003A2")]
+		[Address(RVA = "0x5262060", Offset = "0x5261060", VA = "0x5262060")]
 		get
 		{
 			return null;
@@ -41,8 +41,8 @@ public sealed class AottgCodeCatalog
 	[Token(Token = "0x1700005B")]
 	public IReadOnlyList<AottgDialogEntry> Dialogs
 	{
-		[Token(Token = "0x6000358")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60003A3")]
+		[Address(RVA = "0x5262070", Offset = "0x5261070", VA = "0x5262070")]
 		get
 		{
 			return null;
@@ -52,8 +52,8 @@ public sealed class AottgCodeCatalog
 	[Token(Token = "0x1700005C")]
 	public IReadOnlyList<AottgPopoverEntry> Popovers
 	{
-		[Token(Token = "0x6000359")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60003A4")]
+		[Address(RVA = "0x5262080", Offset = "0x5261080", VA = "0x5262080")]
 		get
 		{
 			return null;
@@ -63,80 +63,80 @@ public sealed class AottgCodeCatalog
 	[Token(Token = "0x1700005D")]
 	public string[] ScreenIds
 	{
-		[Token(Token = "0x600035A")]
-		[Address(RVA = "0x18C2800", Offset = "0x18C0E00", VA = "0x1818C2800")]
+		[Token(Token = "0x60003A5")]
+		[Address(RVA = "0x5262090", Offset = "0x5261090", VA = "0x5262090")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600035B")]
-	[Address(RVA = "0x18C22A0", Offset = "0x18C08A0", VA = "0x1818C22A0")]
+	[Token(Token = "0x60003A6")]
+	[Address(RVA = "0x52621A0", Offset = "0x52611A0", VA = "0x52621A0")]
 	public bool HasScreen(string id)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x18C1F20", Offset = "0x18C0520", VA = "0x1818C1F20")]
+	[Token(Token = "0x60003A7")]
+	[Address(RVA = "0x5262320", Offset = "0x5261320", VA = "0x5262320")]
 	public static AottgCodeCatalog Discover()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x18C1940", Offset = "0x18BFF40", VA = "0x1818C1940")]
+	[Token(Token = "0x60003A8")]
+	[Address(RVA = "0x5262330", Offset = "0x5261330", VA = "0x5262330")]
 	private static AottgCodeCatalog DiscoverFresh()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x18C23F0", Offset = "0x18C09F0", VA = "0x1818C23F0")]
+	[Token(Token = "0x60003A9")]
+	[Address(RVA = "0x52629D0", Offset = "0x52619D0", VA = "0x52629D0")]
 	private void ReadAssembly(Assembly assembly, Dictionary<string, Type> screens, Dictionary<string, Type> dialogs, Dictionary<string, Type> popovers)
 	{
 	}
 
-	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x18C1700", Offset = "0x18BFD00", VA = "0x1818C1700")]
+	[Token(Token = "0x60003AA")]
+	[Address(RVA = "0x5262D30", Offset = "0x5261D30", VA = "0x5262D30")]
 	private void AddScreen(Type type, AottgScreenAttribute attribute, Dictionary<string, Type> seen)
 	{
 	}
 
-	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x18C1460", Offset = "0x18BFA60", VA = "0x1818C1460")]
+	[Token(Token = "0x60003AB")]
+	[Address(RVA = "0x5262F20", Offset = "0x5261F20", VA = "0x5262F20")]
 	private void AddDialog(Type type, AottgDialogAttribute attribute, Dictionary<string, Type> seen)
 	{
 	}
 
-	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x18C15B0", Offset = "0x18BFBB0", VA = "0x1818C15B0")]
+	[Token(Token = "0x60003AC")]
+	[Address(RVA = "0x5263060", Offset = "0x5262060", VA = "0x5263060")]
 	private void AddPopover(Type type, AottgPopoverAttribute attribute, Dictionary<string, Type> seen)
 	{
 	}
 
-	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x18C1F30", Offset = "0x18C0530", VA = "0x1818C1F30")]
+	[Token(Token = "0x60003AD")]
+	[Address(RVA = "0x52631A0", Offset = "0x52621A0", VA = "0x52631A0")]
 	private static void GuardDuplicate(string kind, string id, Type type, Dictionary<string, Type> seen)
 	{
 	}
 
-	[Token(Token = "0x6000363")]
+	[Token(Token = "0x60003AE")]
 	private static T Attribute<T>(Type type) where T : Attribute
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000364")]
-	[Address(RVA = "0x18C26B0", Offset = "0x18C0CB0", VA = "0x1818C26B0")]
+	[Token(Token = "0x60003AF")]
+	[Address(RVA = "0x5262C80", Offset = "0x5261C80", VA = "0x5262C80")]
 	private static Type[] SafeTypes(Assembly assembly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x18C26F0", Offset = "0x18C0CF0", VA = "0x1818C26F0")]
+	[Token(Token = "0x60003B0")]
+	[Address(RVA = "0x52628C0", Offset = "0x52618C0", VA = "0x52628C0")]
 	public AottgCodeCatalog()
 	{
 	}

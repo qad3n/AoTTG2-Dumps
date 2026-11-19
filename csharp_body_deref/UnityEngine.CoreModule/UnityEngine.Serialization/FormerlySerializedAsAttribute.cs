@@ -16,12 +16,12 @@ namespace UnityEngine.Serialization;
 [AttributeUsage(AttributeTargets.Field, AllowMultiple = true, Inherited = false)]
 public class FormerlySerializedAsAttribute : Attribute
 {
-	[Token(Token = "0x4000737")]
+	[Token(Token = "0x4000735")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_oldName;
 
-	[Token(Token = "0x600116E")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6001182")]
+	[Address(RVA = "0x69358D0", Offset = "0x69348D0", VA = "0x69358D0")]
 	public FormerlySerializedAsAttribute(string oldName)
 	{
 	}

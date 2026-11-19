@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x20000CD")]
 public enum BloomLevel
 {
-	[Token(Token = "0x40002FE")]
+	[Token(Token = "0x4000434")]
 	Off,
-	[Token(Token = "0x40002FF")]
+	[Token(Token = "0x4000435")]
 	Low,
-	[Token(Token = "0x4000300")]
+	[Token(Token = "0x4000436")]
 	High
 }

@@ -21,83 +21,83 @@ public class XmlSchemaObjectCollection : CollectionBase
 	public virtual XmlSchemaObject this[int index]
 	{
 		[Token(Token = "0x60016D9")]
-		[Address(RVA = "0x266D160", Offset = "0x266B760", VA = "0x18266D160", Slot = "29")]
+		[Address(RVA = "0x602DA80", Offset = "0x602CA80", VA = "0x602DA80", Slot = "29")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016DA")]
-		[Address(RVA = "0x266D210", Offset = "0x266B810", VA = "0x18266D210", Slot = "30")]
+		[Address(RVA = "0x602DB70", Offset = "0x602CB70", VA = "0x602DB70", Slot = "30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60016D8")]
-	[Address(RVA = "0x1924500", Offset = "0x1922B00", VA = "0x181924500")]
+	[Address(RVA = "0x6024010", Offset = "0x6023010", VA = "0x6024010")]
 	public XmlSchemaObjectCollection()
 	{
 	}
 
 	[Token(Token = "0x60016DB")]
-	[Address(RVA = "0x266CED0", Offset = "0x266B4D0", VA = "0x18266CED0")]
+	[Address(RVA = "0x602DC20", Offset = "0x602CC20", VA = "0x602DC20")]
 	public new XmlSchemaObjectEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60016DC")]
-	[Address(RVA = "0x266CDE0", Offset = "0x266B3E0", VA = "0x18266CDE0")]
+	[Address(RVA = "0x6025AF0", Offset = "0x6024AF0", VA = "0x6025AF0")]
 	public int Add(XmlSchemaObject item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60016DD")]
-	[Address(RVA = "0x266CF50", Offset = "0x266B550", VA = "0x18266CF50")]
+	[Address(RVA = "0x602DC90", Offset = "0x602CC90", VA = "0x602DC90")]
 	public void Insert(int index, XmlSchemaObject item)
 	{
 	}
 
 	[Token(Token = "0x60016DE")]
-	[Address(RVA = "0x266D090", Offset = "0x266B690", VA = "0x18266D090")]
+	[Address(RVA = "0x602DD40", Offset = "0x602CD40", VA = "0x602DD40")]
 	public void Remove(XmlSchemaObject item)
 	{
 	}
 
 	[Token(Token = "0x60016DF")]
-	[Address(RVA = "0x266CFF0", Offset = "0x266B5F0", VA = "0x18266CFF0", Slot = "21")]
+	[Address(RVA = "0x602DDF0", Offset = "0x602CDF0", VA = "0x602DDF0", Slot = "21")]
 	protected override void OnInsert(int index, object item)
 	{
 	}
 
 	[Token(Token = "0x60016E0")]
-	[Address(RVA = "0x266D030", Offset = "0x266B630", VA = "0x18266D030", Slot = "20")]
+	[Address(RVA = "0x602DE20", Offset = "0x602CE20", VA = "0x602DE20", Slot = "20")]
 	protected override void OnSet(int index, object oldValue, object newValue)
 	{
 	}
 
 	[Token(Token = "0x60016E1")]
-	[Address(RVA = "0x266CFD0", Offset = "0x266B5D0", VA = "0x18266CFD0", Slot = "22")]
+	[Address(RVA = "0x602DE80", Offset = "0x602CE80", VA = "0x602DE80", Slot = "22")]
 	protected override void OnClear()
 	{
 	}
 
 	[Token(Token = "0x60016E2")]
-	[Address(RVA = "0x266D010", Offset = "0x266B610", VA = "0x18266D010", Slot = "23")]
+	[Address(RVA = "0x602DEA0", Offset = "0x602CEA0", VA = "0x602DEA0", Slot = "23")]
 	protected override void OnRemove(int index, object item)
 	{
 	}
 
 	[Token(Token = "0x60016E3")]
-	[Address(RVA = "0x266CE50", Offset = "0x266B450", VA = "0x18266CE50")]
+	[Address(RVA = "0x602A5A0", Offset = "0x60295A0", VA = "0x602A5A0")]
 	internal XmlSchemaObjectCollection Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60016E4")]
-	[Address(RVA = "0x266CDB0", Offset = "0x266B3B0", VA = "0x18266CDB0")]
+	[Address(RVA = "0x602DED0", Offset = "0x602CED0", VA = "0x602DED0")]
 	private void Add(XmlSchemaObjectCollection collToAdd)
 	{
 	}

@@ -21,7 +21,7 @@ internal class LineInfoAnnotation
 	internal int linePosition;
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x1C88650", Offset = "0x1C86C50", VA = "0x181C88650")]
+	[Address(RVA = "0x5F9D760", Offset = "0x5F9C760", VA = "0x5F9D760")]
 	public LineInfoAnnotation(int lineNumber, int linePosition)
 	{
 	}

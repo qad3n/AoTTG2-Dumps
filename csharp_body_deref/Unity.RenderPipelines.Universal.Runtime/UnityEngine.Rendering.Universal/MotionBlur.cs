@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.MotionBlur
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,14 +37,14 @@ public sealed class MotionBlur : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter clamp;
 
 	[Token(Token = "0x60006C8")]
-	[Address(RVA = "0x2C19050", Offset = "0x2C17650", VA = "0x182C19050", Slot = "8")]
+	[Address(RVA = "0x664B9A0", Offset = "0x664A9A0", VA = "0x664B9A0", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006C9")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x664B9D0", Offset = "0x664A9D0", VA = "0x664B9D0", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -52,7 +52,7 @@ public sealed class MotionBlur : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006CA")]
-	[Address(RVA = "0x2C5ABE0", Offset = "0x2C591E0", VA = "0x182C5ABE0")]
+	[Address(RVA = "0x664B9E0", Offset = "0x664A9E0", VA = "0x664B9E0")]
 	public MotionBlur()
 	{
 	}

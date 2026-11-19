@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleProperty
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,7 +47,7 @@ internal class StyleProperty
 	internal StylePropertyId id
 	{
 		[Token(Token = "0x600227F")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6B20220", Offset = "0x6B1F220", VA = "0x6B20220")]
 		get
 		{
 			return default(StylePropertyId);
@@ -58,13 +58,13 @@ internal class StyleProperty
 	public string name
 	{
 		[Token(Token = "0x6002280")]
-		[Address(RVA = "0x31170B0", Offset = "0x31156B0", VA = "0x1831170B0")]
+		[Address(RVA = "0x6B20230", Offset = "0x6B1F230", VA = "0x6B20230")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002281")]
-		[Address(RVA = "0x31163C0", Offset = "0x31149C0", VA = "0x1831163C0")]
+		[Address(RVA = "0x6B20310", Offset = "0x6B1F310", VA = "0x6B20310")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -75,13 +75,13 @@ internal class StyleProperty
 	public StyleValueHandle[] values
 	{
 		[Token(Token = "0x6002282")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x6B204A0", Offset = "0x6B1F4A0", VA = "0x6B204A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002283")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6B204B0", Offset = "0x6B1F4B0", VA = "0x6B204B0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -92,7 +92,7 @@ internal class StyleProperty
 	internal int handleCount
 	{
 		[Token(Token = "0x6002284")]
-		[Address(RVA = "0x3117090", Offset = "0x3115690", VA = "0x183117090")]
+		[Address(RVA = "0x6B204C0", Offset = "0x6B1F4C0", VA = "0x6B204C0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -104,7 +104,7 @@ internal class StyleProperty
 	internal bool isCustomProperty
 	{
 		[Token(Token = "0x6002285")]
-		[Address(RVA = "0x31170A0", Offset = "0x31156A0", VA = "0x1831170A0")]
+		[Address(RVA = "0x6B204D0", Offset = "0x6B1F4D0", VA = "0x6B204D0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -113,26 +113,26 @@ internal class StyleProperty
 	}
 
 	[Token(Token = "0x6002286")]
-	[Address(RVA = "0x3116FE0", Offset = "0x31155E0", VA = "0x183116FE0")]
+	[Address(RVA = "0x6B204E0", Offset = "0x6B1F4E0", VA = "0x6B204E0")]
 	internal StyleProperty()
 	{
 	}
 
 	[Token(Token = "0x6002287")]
-	[Address(RVA = "0x31163C0", Offset = "0x31149C0", VA = "0x1831163C0")]
+	[Address(RVA = "0x6B20320", Offset = "0x6B1F320", VA = "0x6B20320")]
 	internal void CacheId(string value)
 	{
 	}
 
 	[Token(Token = "0x6002288")]
-	[Address(RVA = "0x3116640", Offset = "0x3114C40", VA = "0x183116640")]
+	[Address(RVA = "0x6B205B0", Offset = "0x6B1F5B0", VA = "0x6B205B0")]
 	public bool TryGetMaterialDefinition(StyleSheet styleSheet, out MaterialDefinition value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002289")]
-	[Address(RVA = "0x31165C0", Offset = "0x3114BC0", VA = "0x1831165C0")]
+	[Address(RVA = "0x6B21650", Offset = "0x6B20650", VA = "0x6B21650")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal static FilterFunctionType ToFilterFunctionType(StyleValueFunction function)
 	{
@@ -140,7 +140,7 @@ internal class StyleProperty
 	}
 
 	[Token(Token = "0x600228A")]
-	[Address(RVA = "0x3116520", Offset = "0x3114B20", VA = "0x183116520")]
+	[Address(RVA = "0x6B21660", Offset = "0x6B20660", VA = "0x6B21660")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal static float ConvertDimensionToFilterFloat(Dimension dim)
 	{

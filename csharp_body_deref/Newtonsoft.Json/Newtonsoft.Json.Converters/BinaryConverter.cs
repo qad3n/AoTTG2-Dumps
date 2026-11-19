@@ -25,47 +25,47 @@ public class BinaryConverter : JsonConverter
 	private static ReflectionObject? _reflectionObject;
 
 	[Token(Token = "0x6000E95")]
-	[Address(RVA = "0x1C8EDB0", Offset = "0x1C8D3B0", VA = "0x181C8EDB0", Slot = "4")]
+	[Address(RVA = "0x56304A0", Offset = "0x562F4A0", VA = "0x56304A0", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000E96")]
-	[Address(RVA = "0x1C8E4C0", Offset = "0x1C8CAC0", VA = "0x181C8E4C0")]
+	[Address(RVA = "0x5630500", Offset = "0x562F500", VA = "0x5630500")]
 	private byte[] GetByteArray(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E97")]
-	[Address(RVA = "0x1C8E310", Offset = "0x1C8C910", VA = "0x181C8E310")]
+	[Address(RVA = "0x5630700", Offset = "0x562F700", VA = "0x5630700")]
 	private static void EnsureReflectionObject(Type t)
 	{
 	}
 
 	[Token(Token = "0x6000E98")]
-	[Address(RVA = "0x1C8E940", Offset = "0x1C8CF40", VA = "0x181C8E940", Slot = "5")]
+	[Address(RVA = "0x56308C0", Offset = "0x562F8C0", VA = "0x56308C0", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E99")]
-	[Address(RVA = "0x1C8E6F0", Offset = "0x1C8CCF0", VA = "0x181C8E6F0")]
+	[Address(RVA = "0x5630CE0", Offset = "0x562FCE0", VA = "0x5630CE0")]
 	private byte[] ReadByteArray(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E9A")]
-	[Address(RVA = "0x1C8E200", Offset = "0x1C8C800", VA = "0x181C8E200", Slot = "6")]
+	[Address(RVA = "0x5631020", Offset = "0x5630020", VA = "0x5631020", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E9B")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5631120", Offset = "0x5630120", VA = "0x5631120")]
 	public BinaryConverter()
 	{
 	}

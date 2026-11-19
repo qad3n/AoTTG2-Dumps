@@ -13,52 +13,52 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200075B")]
+[Token(Token = "0x2000803")]
 internal class Vector3SettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4002475")]
+	[Token(Token = "0x40027E6")]
 	[FieldOffset(Offset = "0x38")]
 	private Text _text;
 
-	[Token(Token = "0x4002476")]
+	[Token(Token = "0x40027E7")]
 	[FieldOffset(Offset = "0x40")]
 	private Vector3Popup _vector3Popup;
 
-	[Token(Token = "0x4002477")]
+	[Token(Token = "0x40027E8")]
 	[FieldOffset(Offset = "0x48")]
 	private UnityAction _onChangeVector;
 
-	[Token(Token = "0x17000CD5")]
+	[Token(Token = "0x17000D58")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x600479D")]
-		[Address(RVA = "0x223AC00", Offset = "0x2239200", VA = "0x18223AC00", Slot = "4")]
+		[Token(Token = "0x6004CBF")]
+		[Address(RVA = "0x5BF97E0", Offset = "0x5BF87E0", VA = "0x5BF97E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600479E")]
-	[Address(RVA = "0x223A710", Offset = "0x2238D10", VA = "0x18223A710")]
+	[Token(Token = "0x6004CC0")]
+	[Address(RVA = "0x5BF9860", Offset = "0x5BF8860", VA = "0x5BF9860")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, Vector3Popup vector3Popup, string tooltip, float elementWidth, float elementHeight, UnityAction onChangeVector)
 	{
 	}
 
-	[Token(Token = "0x600479F")]
-	[Address(RVA = "0x223A670", Offset = "0x2238C70", VA = "0x18223A670")]
+	[Token(Token = "0x6004CC1")]
+	[Address(RVA = "0x5BF9C20", Offset = "0x5BF8C20", VA = "0x5BF9C20")]
 	protected void OnButtonClicked()
 	{
 	}
 
-	[Token(Token = "0x60047A0")]
-	[Address(RVA = "0x223AB00", Offset = "0x2239100", VA = "0x18223AB00", Slot = "6")]
+	[Token(Token = "0x6004CC2")]
+	[Address(RVA = "0x5BF9CA0", Offset = "0x5BF8CA0", VA = "0x5BF9CA0", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x60047A1")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Token(Token = "0x6004CC3")]
+	[Address(RVA = "0x5BF9D90", Offset = "0x5BF8D90", VA = "0x5BF9D90")]
 	public Vector3SettingElement()
 	{
 	}

@@ -12,22 +12,22 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x20000CB")]
 internal sealed class AottgChoiceOptions
 {
-	[Token(Token = "0x40003FA")]
+	[Token(Token = "0x4000421")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly GisketchChoiceOptionDefinition[] _items;
 
-	[Token(Token = "0x40003FB")]
+	[Token(Token = "0x4000422")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly IGisketchLocalizer _localizer;
 
 	[Token(Token = "0x170000A3")]
 	public int Count
 	{
-		[Token(Token = "0x60005FF")]
-		[Address(RVA = "0x92B6E0", Offset = "0x929CE0", VA = "0x18092B6E0")]
+		[Token(Token = "0x600064C")]
+		[Address(RVA = "0x5296350", Offset = "0x5295350", VA = "0x5296350")]
 		get
 		{
 			return default(int);
@@ -37,64 +37,64 @@ internal sealed class AottgChoiceOptions
 	[Token(Token = "0x170000A4")]
 	public int EnabledCount
 	{
-		[Token(Token = "0x6000600")]
-		[Address(RVA = "0x18F7970", Offset = "0x18F5F70", VA = "0x1818F7970")]
+		[Token(Token = "0x600064D")]
+		[Address(RVA = "0x5295380", Offset = "0x5294380", VA = "0x5295380")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x600064B")]
+	[Address(RVA = "0x5298440", Offset = "0x5297440", VA = "0x5298440")]
 	private AottgChoiceOptions(GisketchChoiceOptionDefinition[] items, IGisketchLocalizer localizer)
 	{
 	}
 
-	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x18F73F0", Offset = "0x18F59F0", VA = "0x1818F73F0")]
+	[Token(Token = "0x600064E")]
+	[Address(RVA = "0x5294BC0", Offset = "0x5293BC0", VA = "0x5294BC0")]
 	public static AottgChoiceOptions Create(GisketchNodeDefinition node, string value, string[] options, IGisketchLocalizer localizer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x18F7720", Offset = "0x18F5D20", VA = "0x1818F7720")]
+	[Token(Token = "0x600064F")]
+	[Address(RVA = "0x5296C10", Offset = "0x5295C10", VA = "0x5296C10")]
 	public GisketchChoiceOptionDefinition Option(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x18F7610", Offset = "0x18F5C10", VA = "0x1818F7610")]
+	[Token(Token = "0x6000650")]
+	[Address(RVA = "0x5295330", Offset = "0x5294330", VA = "0x5295330")]
 	public bool Enabled(int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x18F78F0", Offset = "0x18F5EF0", VA = "0x1818F78F0")]
+	[Token(Token = "0x6000651")]
+	[Address(RVA = "0x5295240", Offset = "0x5294240", VA = "0x5295240")]
 	public string Value(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x18F7770", Offset = "0x18F5D70", VA = "0x1818F7770")]
+	[Token(Token = "0x6000652")]
+	[Address(RVA = "0x5296A70", Offset = "0x5295A70", VA = "0x5296A70")]
 	public string Text(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x18F7670", Offset = "0x18F5C70", VA = "0x1818F7670")]
+	[Token(Token = "0x6000653")]
+	[Address(RVA = "0x52950A0", Offset = "0x52940A0", VA = "0x52950A0")]
 	public int NextEnabledIndex(int start, int step)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x18F7360", Offset = "0x18F5960", VA = "0x1818F7360")]
+	[Token(Token = "0x6000654")]
+	[Address(RVA = "0x5298480", Offset = "0x5297480", VA = "0x5298480")]
 	public static void ApplyDisabledArrowVisual(GameObject go, bool enabled)
 	{
 	}

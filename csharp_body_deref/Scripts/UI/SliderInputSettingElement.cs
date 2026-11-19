@@ -17,30 +17,30 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000754")]
+[Token(Token = "0x20007FC")]
 internal class SliderInputSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x2000755")]
+	[Token(Token = "0x20007FD")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndFixInputField_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002461")]
+		[Token(Token = "0x40027D2")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002462")]
+		[Token(Token = "0x40027D3")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002463")]
+		[Token(Token = "0x40027D4")]
 		[FieldOffset(Offset = "0x20")]
 		public SliderInputSettingElement _003C_003E4__this;
 
-		[Token(Token = "0x17000CD0")]
+		[Token(Token = "0x17000D53")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004780")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004CA2")]
+			[Address(RVA = "0x5BF73C0", Offset = "0x5BF63C0", VA = "0x5BF73C0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -48,11 +48,11 @@ internal class SliderInputSettingElement : BaseSettingElement
 			}
 		}
 
-		[Token(Token = "0x17000CD1")]
+		[Token(Token = "0x17000D54")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004782")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004CA4")]
+			[Address(RVA = "0x5BF7410", Offset = "0x5BF6410", VA = "0x5BF7410", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -60,124 +60,124 @@ internal class SliderInputSettingElement : BaseSettingElement
 			}
 		}
 
-		[Token(Token = "0x600477D")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004C9F")]
+		[Address(RVA = "0x5BF6C60", Offset = "0x5BF5C60", VA = "0x5BF6C60")]
 		[DebuggerHidden]
 		public _003CWaitAndFixInputField_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600477E")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004CA0")]
+		[Address(RVA = "0x5BF7270", Offset = "0x5BF6270", VA = "0x5BF7270", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600477F")]
-		[Address(RVA = "0x223A4E0", Offset = "0x2238AE0", VA = "0x18223A4E0", Slot = "6")]
+		[Token(Token = "0x6004CA1")]
+		[Address(RVA = "0x5BF7280", Offset = "0x5BF6280", VA = "0x5BF7280", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004781")]
-		[Address(RVA = "0x223A630", Offset = "0x2238C30", VA = "0x18223A630", Slot = "8")]
+		[Token(Token = "0x6004CA3")]
+		[Address(RVA = "0x5BF73D0", Offset = "0x5BF63D0", VA = "0x5BF73D0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400245C")]
+	[Token(Token = "0x40027CD")]
 	[FieldOffset(Offset = "0x38")]
 	protected Slider _slider;
 
-	[Token(Token = "0x400245D")]
+	[Token(Token = "0x40027CE")]
 	[FieldOffset(Offset = "0x40")]
 	protected InputField _inputField;
 
-	[Token(Token = "0x400245E")]
+	[Token(Token = "0x40027CF")]
 	[FieldOffset(Offset = "0x48")]
 	protected int _inputFontSizeOffset;
 
-	[Token(Token = "0x400245F")]
+	[Token(Token = "0x40027D0")]
 	[FieldOffset(Offset = "0x50")]
 	protected NumberFormatInfo _formatInfo;
 
-	[Token(Token = "0x4002460")]
+	[Token(Token = "0x40027D1")]
 	[FieldOffset(Offset = "0x58")]
 	protected bool _fixedInputField;
 
-	[Token(Token = "0x17000CCF")]
+	[Token(Token = "0x17000D52")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x600476F")]
-		[Address(RVA = "0x221A860", Offset = "0x2218E60", VA = "0x18221A860", Slot = "4")]
+		[Token(Token = "0x6004C91")]
+		[Address(RVA = "0x5BF6000", Offset = "0x5BF5000", VA = "0x5BF6000", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004770")]
-	[Address(RVA = "0x22198E0", Offset = "0x2217EE0", VA = "0x1822198E0")]
+	[Token(Token = "0x6004C92")]
+	[Address(RVA = "0x5BF60A0", Offset = "0x5BF50A0", VA = "0x5BF60A0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip, float sliderWidth, float sliderHeight, float inputWidth, float inputHeight, int decimalPlaces)
 	{
 	}
 
-	[Token(Token = "0x6004771")]
-	[Address(RVA = "0x2219520", Offset = "0x2217B20", VA = "0x182219520")]
+	[Token(Token = "0x6004C93")]
+	[Address(RVA = "0x5BF6BB0", Offset = "0x5BF5BB0", VA = "0x5BF6BB0")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6004772")]
-	[Address(RVA = "0x221A7E0", Offset = "0x2218DE0", VA = "0x18221A7E0")]
+	[Token(Token = "0x6004C94")]
+	[Address(RVA = "0x5BF6B40", Offset = "0x5BF5B40", VA = "0x5BF6B40")]
 	[IteratorStateMachine(typeof(_003CWaitAndFixInputField_003Ed__9))]
 	private IEnumerator WaitAndFixInputField()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004773")]
-	[Address(RVA = "0x22197C0", Offset = "0x2217DC0", VA = "0x1822197C0")]
+	[Token(Token = "0x6004C95")]
+	[Address(RVA = "0x5BF6C80", Offset = "0x5BF5C80", VA = "0x5BF6C80")]
 	protected void OnSliderValueChanged(float value)
 	{
 	}
 
-	[Token(Token = "0x6004774")]
-	[Address(RVA = "0x22195D0", Offset = "0x2217BD0", VA = "0x1822195D0")]
+	[Token(Token = "0x6004C96")]
+	[Address(RVA = "0x5BF6F00", Offset = "0x5BF5F00", VA = "0x5BF6F00")]
 	protected void OnInputValueChanged(string value)
 	{
 	}
 
-	[Token(Token = "0x6004775")]
-	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00")]
+	[Token(Token = "0x6004C97")]
+	[Address(RVA = "0x5BF70E0", Offset = "0x5BF60E0", VA = "0x5BF70E0")]
 	protected void OnInputFinishEditing(string value)
 	{
 	}
 
-	[Token(Token = "0x6004776")]
-	[Address(RVA = "0x221A690", Offset = "0x2218C90", VA = "0x18221A690")]
+	[Token(Token = "0x6004C98")]
+	[Address(RVA = "0x5BF7100", Offset = "0x5BF6100", VA = "0x5BF7100")]
 	protected void SyncSlider()
 	{
 	}
 
-	[Token(Token = "0x6004777")]
-	[Address(RVA = "0x221A4F0", Offset = "0x2218AF0", VA = "0x18221A4F0")]
+	[Token(Token = "0x6004C99")]
+	[Address(RVA = "0x5BF6DA0", Offset = "0x5BF5DA0", VA = "0x5BF6DA0")]
 	protected void SyncInput()
 	{
 	}
 
-	[Token(Token = "0x6004778")]
-	[Address(RVA = "0x221A3C0", Offset = "0x22189C0", VA = "0x18221A3C0", Slot = "6")]
+	[Token(Token = "0x6004C9A")]
+	[Address(RVA = "0x5BF7200", Offset = "0x5BF6200", VA = "0x5BF7200", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6004779")]
-	[Address(RVA = "0x221A850", Offset = "0x2218E50", VA = "0x18221A850")]
+	[Token(Token = "0x6004C9B")]
+	[Address(RVA = "0x5BF7220", Offset = "0x5BF6220", VA = "0x5BF7220")]
 	public SliderInputSettingElement()
 	{
 	}

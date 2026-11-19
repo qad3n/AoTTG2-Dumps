@@ -19,7 +19,7 @@ public class SpriteGlyph : Glyph
 	public Sprite sprite;
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x2D42A30", Offset = "0x2D41030", VA = "0x182D42A30")]
+	[Address(RVA = "0x6A41230", Offset = "0x6A40230", VA = "0x6A41230")]
 	public SpriteGlyph()
 	{
 	}

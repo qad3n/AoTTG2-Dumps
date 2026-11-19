@@ -10,59 +10,59 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200027C")]
+[Token(Token = "0x200023D")]
 public struct WaitForChangedResult
 {
-	[Token(Token = "0x40008C2")]
+	[Token(Token = "0x40007F3")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly WaitForChangedResult TimedOutResult;
 
-	[Token(Token = "0x1700039E")]
+	[Token(Token = "0x1700036F")]
 	public WatcherChangeTypes ChangeType
 	{
-		[Token(Token = "0x6001195")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Token(Token = "0x6000FD5")]
+		[Address(RVA = "0x6286460", Offset = "0x6285460", VA = "0x6286460")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700039F")]
+	[Token(Token = "0x17000370")]
 	public string Name
 	{
-		[Token(Token = "0x6001196")]
-		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
+		[Token(Token = "0x6000FD6")]
+		[Address(RVA = "0x6286470", Offset = "0x6285470", VA = "0x6286470")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003A0")]
+	[Token(Token = "0x17000371")]
 	public string OldName
 	{
-		[Token(Token = "0x6001197")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000FD7")]
+		[Address(RVA = "0x6286480", Offset = "0x6285480", VA = "0x6286480")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003A1")]
+	[Token(Token = "0x17000372")]
 	public bool TimedOut
 	{
-		[Token(Token = "0x6001198")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Token(Token = "0x6000FD8")]
+		[Address(RVA = "0x6286490", Offset = "0x6285490", VA = "0x6286490")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001194")]
-	[Address(RVA = "0x28E9190", Offset = "0x28E7790", VA = "0x1828E9190")]
+	[Token(Token = "0x6000FD4")]
+	[Address(RVA = "0x62863E0", Offset = "0x62853E0", VA = "0x62863E0")]
 	internal WaitForChangedResult(WatcherChangeTypes changeType, string name, string oldName, bool timedOut)
 	{
 	}

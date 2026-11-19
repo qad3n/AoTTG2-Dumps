@@ -35,20 +35,20 @@ public struct YGValue
 	public static readonly YGValue Auto;
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x1381B80", Offset = "0x1380180", VA = "0x181381B80")]
+	[Address(RVA = "0x5219C70", Offset = "0x5218C70", VA = "0x5219C70")]
 	public YGValue(float value, Unit unit)
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x1880A40", Offset = "0x187F040", VA = "0x181880A40")]
+	[Address(RVA = "0x5219C80", Offset = "0x5218C80", VA = "0x5219C80")]
 	public static YGValue Percent(float value)
 	{
 		return default(YGValue);
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x1880B00", Offset = "0x187F100", VA = "0x181880B00")]
+	[Address(RVA = "0x5219CA0", Offset = "0x5218CA0", VA = "0x5219CA0")]
 	public static implicit operator YGValue(float value)
 	{
 		return default(YGValue);

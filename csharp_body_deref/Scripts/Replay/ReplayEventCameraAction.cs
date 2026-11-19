@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000F2")]
+[Token(Token = "0x2000066")]
 public enum ReplayEventCameraAction
 {
-	[Token(Token = "0x40005B5")]
+	[Token(Token = "0x400021A")]
 	Follow
 }

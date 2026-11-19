@@ -62,7 +62,7 @@ public struct LobbySearchQuery
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x537D60", Offset = "0x536360", VA = "0x180537D60")]
+		[Address(RVA = "0x31415E0", Offset = "0x31405E0", VA = "0x31415E0")]
 		get
 		{
 			return default(FFIMethods);
@@ -70,25 +70,25 @@ public struct LobbySearchQuery
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x537B60", Offset = "0x536160", VA = "0x180537B60")]
+	[Address(RVA = "0x31416F0", Offset = "0x31406F0", VA = "0x31416F0")]
 	public void Filter(string key, LobbySearchComparison comparison, LobbySearchCast cast, string value)
 	{
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x537CB0", Offset = "0x5362B0", VA = "0x180537CB0")]
+	[Address(RVA = "0x31417A0", Offset = "0x31407A0", VA = "0x31417A0")]
 	public void Sort(string key, LobbySearchCast cast, string value)
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x537C10", Offset = "0x536210", VA = "0x180537C10")]
+	[Address(RVA = "0x3141840", Offset = "0x3140840", VA = "0x3141840")]
 	public void Limit(uint limit)
 	{
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x537AC0", Offset = "0x5360C0", VA = "0x180537AC0")]
+	[Address(RVA = "0x31418D0", Offset = "0x31408D0", VA = "0x31418D0")]
 	public void Distance(LobbySearchDistance distance)
 	{
 	}

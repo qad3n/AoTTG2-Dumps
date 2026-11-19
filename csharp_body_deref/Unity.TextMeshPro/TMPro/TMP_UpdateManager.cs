@@ -74,7 +74,7 @@ public class TMP_UpdateManager
 	private static TMP_UpdateManager instance
 	{
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x2D68120", Offset = "0x2D66720", VA = "0x182D68120")]
+		[Address(RVA = "0x675D5C0", Offset = "0x675C5C0", VA = "0x675D5C0")]
 		get
 		{
 			return null;
@@ -82,97 +82,97 @@ public class TMP_UpdateManager
 	}
 
 	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x2D67F00", Offset = "0x2D66500", VA = "0x182D67F00")]
+	[Address(RVA = "0x675D6A0", Offset = "0x675C6A0", VA = "0x675D6A0")]
 	private TMP_UpdateManager()
 	{
 	}
 
 	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x2D67A10", Offset = "0x2D66010", VA = "0x182D67A10")]
+	[Address(RVA = "0x675D8B0", Offset = "0x675C8B0", VA = "0x675D8B0")]
 	internal static void RegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
 	[Token(Token = "0x6000613")]
-	[Address(RVA = "0x2D67460", Offset = "0x2D65A60", VA = "0x182D67460")]
+	[Address(RVA = "0x675D920", Offset = "0x675C920", VA = "0x675D920")]
 	private void InternalRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
 	[Token(Token = "0x6000614")]
-	[Address(RVA = "0x2D67910", Offset = "0x2D65F10", VA = "0x182D67910")]
+	[Address(RVA = "0x675DA20", Offset = "0x675CA20", VA = "0x675DA20")]
 	public static void RegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000615")]
-	[Address(RVA = "0x2D673A0", Offset = "0x2D659A0", VA = "0x182D673A0")]
+	[Address(RVA = "0x675DA90", Offset = "0x675CA90", VA = "0x675DA90")]
 	private void InternalRegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x2D67810", Offset = "0x2D65E10", VA = "0x182D67810")]
+	[Address(RVA = "0x675DB90", Offset = "0x675CB90", VA = "0x675DB90")]
 	public static void RegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x2D672E0", Offset = "0x2D658E0", VA = "0x182D672E0")]
+	[Address(RVA = "0x675DC00", Offset = "0x675CC00", VA = "0x675DC00")]
 	private void InternalRegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000618")]
-	[Address(RVA = "0x2D67710", Offset = "0x2D65D10", VA = "0x182D67710")]
+	[Address(RVA = "0x675DD00", Offset = "0x675CD00", VA = "0x675DD00")]
 	public static void RegisterTextElementForCullingUpdate(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000619")]
-	[Address(RVA = "0x2D67220", Offset = "0x2D65820", VA = "0x182D67220")]
+	[Address(RVA = "0x675DD70", Offset = "0x675CD70", VA = "0x675DD70")]
 	private void InternalRegisterTextElementForCullingUpdate(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x600061A")]
-	[Address(RVA = "0x2D67700", Offset = "0x2D65D00", VA = "0x182D67700")]
+	[Address(RVA = "0x675DE70", Offset = "0x675CE70", VA = "0x675DE70")]
 	private void OnCameraPreCull()
 	{
 	}
 
 	[Token(Token = "0x600061B")]
-	[Address(RVA = "0x2D66F30", Offset = "0x2D65530", VA = "0x182D66F30")]
+	[Address(RVA = "0x675DE80", Offset = "0x675CE80", VA = "0x675DE80")]
 	private void DoRebuilds()
 	{
 	}
 
 	[Token(Token = "0x600061C")]
-	[Address(RVA = "0x2D67CE0", Offset = "0x2D662E0", VA = "0x182D67CE0")]
+	[Address(RVA = "0x675E0D0", Offset = "0x675D0D0", VA = "0x675E0D0")]
 	internal static void UnRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
 	[Token(Token = "0x600061D")]
-	[Address(RVA = "0x2D67B10", Offset = "0x2D66110", VA = "0x182D67B10")]
+	[Address(RVA = "0x675E1D0", Offset = "0x675D1D0", VA = "0x675E1D0")]
 	public static void UnRegisterTextElementForRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x600061E")]
-	[Address(RVA = "0x2D67520", Offset = "0x2D65B20", VA = "0x182D67520")]
+	[Address(RVA = "0x675E270", Offset = "0x675D270", VA = "0x675E270")]
 	private void InternalUnRegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x600061F")]
-	[Address(RVA = "0x2D675C0", Offset = "0x2D65BC0", VA = "0x182D675C0")]
+	[Address(RVA = "0x675E300", Offset = "0x675D300", VA = "0x675E300")]
 	private void InternalUnRegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
 	[Token(Token = "0x6000620")]
-	[Address(RVA = "0x2D67660", Offset = "0x2D65C60", VA = "0x182D67660")]
+	[Address(RVA = "0x675E140", Offset = "0x675D140", VA = "0x675E140")]
 	private void InternalUnRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}

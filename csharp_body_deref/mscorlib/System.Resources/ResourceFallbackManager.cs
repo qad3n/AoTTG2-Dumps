@@ -14,38 +14,38 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004DF")]
+[Token(Token = "0x20004B8")]
 internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 {
-	[Token(Token = "0x20004E0")]
+	[Token(Token = "0x20004B9")]
 	[CompilerGenerated]
 	private sealed class _003CGetEnumerator_003Ed__5 : IEnumerator<CultureInfo>, IDisposable, IEnumerator
 	{
-		[Token(Token = "0x400134C")]
+		[Token(Token = "0x40012AC")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400134D")]
+		[Token(Token = "0x40012AD")]
 		[FieldOffset(Offset = "0x18")]
 		private CultureInfo _003C_003E2__current;
 
-		[Token(Token = "0x400134E")]
+		[Token(Token = "0x40012AE")]
 		[FieldOffset(Offset = "0x20")]
 		public System.Resources.ResourceFallbackManager _003C_003E4__this;
 
-		[Token(Token = "0x400134F")]
+		[Token(Token = "0x40012AF")]
 		[FieldOffset(Offset = "0x28")]
 		private bool _003CreachedNeutralResourcesCulture_003E5__2;
 
-		[Token(Token = "0x4001350")]
+		[Token(Token = "0x40012B0")]
 		[FieldOffset(Offset = "0x30")]
 		private CultureInfo _003CcurrentCulture_003E5__3;
 
-		[Token(Token = "0x1700048B")]
+		[Token(Token = "0x1700048A")]
 		private CultureInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EGlobalization_002ECultureInfo_003E_002ECurrent
 		{
-			[Token(Token = "0x60023C6")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6002394")]
+			[Address(RVA = "0x53CC230", Offset = "0x53CB230", VA = "0x53CC230", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,11 +53,11 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 			}
 		}
 
-		[Token(Token = "0x1700048C")]
+		[Token(Token = "0x1700048B")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60023C8")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6002396")]
+			[Address(RVA = "0x53CC280", Offset = "0x53CB280", VA = "0x53CC280", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,62 +65,62 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 			}
 		}
 
-		[Token(Token = "0x60023C3")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6002391")]
+		[Address(RVA = "0x53CBFE0", Offset = "0x53CAFE0", VA = "0x53CBFE0")]
 		[DebuggerHidden]
 		public _003CGetEnumerator_003Ed__5(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60023C4")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6002392")]
+		[Address(RVA = "0x53CC000", Offset = "0x53CB000", VA = "0x53CC000", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60023C5")]
-		[Address(RVA = "0x1A58890", Offset = "0x1A56E90", VA = "0x181A58890", Slot = "6")]
+		[Token(Token = "0x6002393")]
+		[Address(RVA = "0x53CC010", Offset = "0x53CB010", VA = "0x53CC010", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60023C7")]
-		[Address(RVA = "0x1A58AE0", Offset = "0x1A570E0", VA = "0x181A58AE0", Slot = "8")]
+		[Token(Token = "0x6002395")]
+		[Address(RVA = "0x53CC240", Offset = "0x53CB240", VA = "0x53CC240", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001349")]
+	[Token(Token = "0x40012A9")]
 	[FieldOffset(Offset = "0x10")]
 	private CultureInfo m_startingCulture;
 
-	[Token(Token = "0x400134A")]
+	[Token(Token = "0x40012AA")]
 	[FieldOffset(Offset = "0x18")]
 	private CultureInfo m_neutralResourcesCulture;
 
-	[Token(Token = "0x400134B")]
+	[Token(Token = "0x40012AB")]
 	[FieldOffset(Offset = "0x20")]
 	private bool m_useParents;
 
-	[Token(Token = "0x60023C0")]
-	[Address(RVA = "0x1A4CF70", Offset = "0x1A4B570", VA = "0x181A4CF70")]
+	[Token(Token = "0x600238E")]
+	[Address(RVA = "0x53CBE60", Offset = "0x53CAE60", VA = "0x53CBE60")]
 	internal ResourceFallbackManager(CultureInfo startingCulture, CultureInfo neutralResourcesCulture, bool useParents)
 	{
 	}
 
-	[Token(Token = "0x60023C1")]
-	[Address(RVA = "0x1A4CF00", Offset = "0x1A4B500", VA = "0x181A4CF00", Slot = "5")]
+	[Token(Token = "0x600238F")]
+	[Address(RVA = "0x53CBF00", Offset = "0x53CAF00", VA = "0x53CBF00", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023C2")]
-	[Address(RVA = "0x1A4CF00", Offset = "0x1A4B500", VA = "0x181A4CF00", Slot = "4")]
+	[Token(Token = "0x6002390")]
+	[Address(RVA = "0x53CBF70", Offset = "0x53CAF70", VA = "0x53CBF70", Slot = "4")]
 	[IteratorStateMachine(typeof(_003CGetEnumerator_003Ed__5))]
 	public IEnumerator<CultureInfo> GetEnumerator()
 	{

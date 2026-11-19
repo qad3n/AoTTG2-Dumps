@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace System.Linq;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000036")]
 public interface IGrouping<out TKey, out TElement> : IEnumerable<TElement>, IEnumerable
 {
-	[Token(Token = "0x1700002E")]
+	[Token(Token = "0x17000030")]
 	TKey Key
 	{
-		[Token(Token = "0x6000163")]
+		[Token(Token = "0x600016E")]
 		get;
 	}
 }

@@ -1,0 +1,50 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheets.StyleValue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+using Il2CppDummyDll;
+
+namespace UnityEngine.UIElements.StyleSheets;
+
+[StructLayout((LayoutKind)2)]
+[Token(Token = "0x2000639")]
+[DebuggerDisplay("id = {id}, keyword = {keyword}, number = {number}, boolean = {boolean}, color = {color}, object = {resource}")]
+internal struct StyleValue
+{
+	[Token(Token = "0x40017C6")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	public StylePropertyId id;
+
+	[Token(Token = "0x40017C7")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
+	public StyleKeyword keyword;
+
+	[Token(Token = "0x40017C8")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public float number;
+
+	[Token(Token = "0x40017C9")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public Length length;
+
+	[Token(Token = "0x40017CA")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public Color color;
+
+	[Token(Token = "0x40017CB")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public GCHandle resource;
+
+	[Token(Token = "0x40017CC")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public BackgroundPosition position;
+
+	[Token(Token = "0x40017CD")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	public BackgroundRepeat repeat;
+}

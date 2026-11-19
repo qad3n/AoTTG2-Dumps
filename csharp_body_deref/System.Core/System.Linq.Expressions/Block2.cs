@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000068")]
+[Token(Token = "0x2000069")]
 internal sealed class Block2 : BlockExpression
 {
-	[Token(Token = "0x40000F5")]
+	[Token(Token = "0x40000FE")]
 	[FieldOffset(Offset = "0x10")]
 	private object _arg0;
 
-	[Token(Token = "0x40000F6")]
+	[Token(Token = "0x40000FF")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Expression _arg1;
 
-	[Token(Token = "0x1700005F")]
+	[Token(Token = "0x17000061")]
 	internal override int ExpressionCount
 	{
-		[Token(Token = "0x60002BF")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "11")]
+		[Token(Token = "0x60002CA")]
+		[Address(RVA = "0x5DC44F0", Offset = "0x5DC34F0", VA = "0x5DC44F0", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x2428330", Offset = "0x2426930", VA = "0x182428330")]
+	[Token(Token = "0x60002C8")]
+	[Address(RVA = "0x5DC43A0", Offset = "0x5DC33A0", VA = "0x5DC43A0")]
 	internal Block2(Expression arg0, Expression arg1)
 	{
 	}
 
-	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x24281B0", Offset = "0x24267B0", VA = "0x1824281B0", Slot = "10")]
+	[Token(Token = "0x60002C9")]
+	[Address(RVA = "0x5DC4420", Offset = "0x5DC3420", VA = "0x5DC4420", Slot = "10")]
 	internal override Expression GetExpression(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x2428240", Offset = "0x2426840", VA = "0x182428240", Slot = "12")]
+	[Token(Token = "0x60002CB")]
+	[Address(RVA = "0x5DC4500", Offset = "0x5DC3500", VA = "0x5DC4500", Slot = "12")]
 	internal override ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x2428250", Offset = "0x2426850", VA = "0x182428250", Slot = "14")]
+	[Token(Token = "0x60002CC")]
+	[Address(RVA = "0x5DC4510", Offset = "0x5DC3510", VA = "0x5DC4510", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

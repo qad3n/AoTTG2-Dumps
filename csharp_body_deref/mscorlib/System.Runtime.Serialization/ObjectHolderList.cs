@@ -9,66 +9,66 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000413")]
+[Token(Token = "0x20003EC")]
 internal class ObjectHolderList
 {
-	[Token(Token = "0x4001011")]
+	[Token(Token = "0x4000F71")]
 	[FieldOffset(Offset = "0x10")]
 	internal System.Runtime.Serialization.ObjectHolder[] m_values;
 
-	[Token(Token = "0x4001012")]
+	[Token(Token = "0x4000F72")]
 	[FieldOffset(Offset = "0x18")]
 	internal int m_count;
 
-	[Token(Token = "0x17000437")]
+	[Token(Token = "0x17000436")]
 	internal int Version
 	{
-		[Token(Token = "0x600204C")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6002022")]
+		[Address(RVA = "0x53A5560", Offset = "0x53A4560", VA = "0x53A5560")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000438")]
+	[Token(Token = "0x17000437")]
 	internal int Count
 	{
-		[Token(Token = "0x600204D")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6002023")]
+		[Address(RVA = "0x53A5570", Offset = "0x53A4570", VA = "0x53A5570")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002047")]
-	[Address(RVA = "0x1A15250", Offset = "0x1A13850", VA = "0x181A15250")]
+	[Token(Token = "0x600201D")]
+	[Address(RVA = "0x53A0570", Offset = "0x539F570", VA = "0x53A0570")]
 	internal ObjectHolderList()
 	{
 	}
 
-	[Token(Token = "0x6002048")]
-	[Address(RVA = "0x1A152B0", Offset = "0x1A138B0", VA = "0x181A152B0")]
+	[Token(Token = "0x600201E")]
+	[Address(RVA = "0x53A5350", Offset = "0x53A4350", VA = "0x53A5350")]
 	internal ObjectHolderList(int startingSize)
 	{
 	}
 
-	[Token(Token = "0x6002049")]
-	[Address(RVA = "0x1A15060", Offset = "0x1A13660", VA = "0x181A15060", Slot = "4")]
+	[Token(Token = "0x600201F")]
+	[Address(RVA = "0x53A53B0", Offset = "0x53A43B0", VA = "0x53A53B0", Slot = "4")]
 	internal virtual void Add(System.Runtime.Serialization.ObjectHolder value)
 	{
 	}
 
-	[Token(Token = "0x600204A")]
-	[Address(RVA = "0x1A151D0", Offset = "0x1A137D0", VA = "0x181A151D0")]
+	[Token(Token = "0x6002020")]
+	[Address(RVA = "0x53A4120", Offset = "0x53A3120", VA = "0x53A4120")]
 	internal System.Runtime.Serialization.ObjectHolderListEnumerator GetFixupEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600204B")]
-	[Address(RVA = "0x1A15140", Offset = "0x1A13740", VA = "0x181A15140")]
+	[Token(Token = "0x6002021")]
+	[Address(RVA = "0x53A5490", Offset = "0x53A4490", VA = "0x53A5490")]
 	private void EnlargeArray()
 	{
 	}

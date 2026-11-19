@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000298")]
+[Token(Token = "0x2000296")]
 internal interface ISerializableJsonDictionary
 {
-	[Token(Token = "0x600119B")]
+	[Token(Token = "0x600119A")]
 	void Set<T>(string key, T value) where T : class;
 
-	[Token(Token = "0x600119C")]
+	[Token(Token = "0x600119B")]
 	T Get<T>(string key) where T : class;
 
-	[Token(Token = "0x600119D")]
+	[Token(Token = "0x600119C")]
 	void Overwrite(object obj, string key);
 
-	[Token(Token = "0x600119E")]
+	[Token(Token = "0x600119D")]
 	bool ContainsKey(string key);
 }

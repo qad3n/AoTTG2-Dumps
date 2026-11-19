@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.LicensingErrorAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,13 +42,13 @@ public class LicensingErrorAnalytic : AnalyticsEventBase
 	public string sessionId;
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x3307010", Offset = "0x3305610", VA = "0x183307010")]
+	[Address(RVA = "0x6D17930", Offset = "0x6D16930", VA = "0x6D17930")]
 	public LicensingErrorAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x3306F80", Offset = "0x3305580", VA = "0x183306F80")]
+	[Address(RVA = "0x6D17990", Offset = "0x6D16990", VA = "0x6D17990")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static LicensingErrorAnalytic CreateLicensingErrorAnalytic()
 	{

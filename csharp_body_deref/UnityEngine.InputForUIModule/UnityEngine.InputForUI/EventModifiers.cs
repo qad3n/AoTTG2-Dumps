@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.EventModifiers
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -62,7 +62,7 @@ internal struct EventModifiers
 	public bool isShiftPressed
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x2FBA6F0", Offset = "0x2FB8CF0", VA = "0x182FBA6F0")]
+		[Address(RVA = "0x69B4E80", Offset = "0x69B3E80", VA = "0x69B4E80")]
 		get
 		{
 			return default(bool);
@@ -73,7 +73,7 @@ internal struct EventModifiers
 	public bool isCtrlPressed
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x2FBA6B0", Offset = "0x2FB8CB0", VA = "0x182FBA6B0")]
+		[Address(RVA = "0x69B4E90", Offset = "0x69B3E90", VA = "0x69B4E90")]
 		get
 		{
 			return default(bool);
@@ -84,7 +84,7 @@ internal struct EventModifiers
 	public bool isAltPressed
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x2FBA690", Offset = "0x2FB8C90", VA = "0x182FBA690")]
+		[Address(RVA = "0x69B4EA0", Offset = "0x69B3EA0", VA = "0x69B4EA0")]
 		get
 		{
 			return default(bool);
@@ -95,7 +95,7 @@ internal struct EventModifiers
 	public bool isMetaPressed
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x2FBA6D0", Offset = "0x2FB8CD0", VA = "0x182FBA6D0")]
+		[Address(RVA = "0x69B4EB0", Offset = "0x69B3EB0", VA = "0x69B4EB0")]
 		get
 		{
 			return default(bool);
@@ -106,7 +106,7 @@ internal struct EventModifiers
 	public bool isCapsLockEnabled
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x2FBA6A0", Offset = "0x2FB8CA0", VA = "0x182FBA6A0")]
+		[Address(RVA = "0x69B4EC0", Offset = "0x69B3EC0", VA = "0x69B4EC0")]
 		get
 		{
 			return default(bool);
@@ -117,7 +117,7 @@ internal struct EventModifiers
 	public bool isFunctionKeyPressed
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x2FBA6C0", Offset = "0x2FB8CC0", VA = "0x182FBA6C0")]
+		[Address(RVA = "0x69B4ED0", Offset = "0x69B3ED0", VA = "0x69B4ED0")]
 		get
 		{
 			return default(bool);
@@ -128,7 +128,7 @@ internal struct EventModifiers
 	public bool isNumericPressed
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x2FBA6E0", Offset = "0x2FB8CE0", VA = "0x182FBA6E0")]
+		[Address(RVA = "0x69B4EE0", Offset = "0x69B3EE0", VA = "0x69B4EE0")]
 		get
 		{
 			return default(bool);
@@ -137,7 +137,7 @@ internal struct EventModifiers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2FBA100", Offset = "0x2FB8700", VA = "0x182FBA100")]
+	[Address(RVA = "0x69B4E70", Offset = "0x69B3E70", VA = "0x69B4E70")]
 	public bool IsPressed(Modifiers mod)
 	{
 		return default(bool);
@@ -145,25 +145,25 @@ internal struct EventModifiers
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x28CBD50", Offset = "0x28CA350", VA = "0x1828CBD50")]
+	[Address(RVA = "0x69B4EF0", Offset = "0x69B3EF0", VA = "0x69B4EF0")]
 	public void SetPressed(Modifiers modifier, bool pressed)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0xB47950", Offset = "0xB45F50", VA = "0x180B47950")]
+	[Address(RVA = "0x69B4F10", Offset = "0x69B3F10", VA = "0x69B4F10")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2FBA090", Offset = "0x2FB8690", VA = "0x182FBA090")]
+	[Address(RVA = "0x69B4F20", Offset = "0x69B3F20", VA = "0x69B4F20")]
 	private static void Append(ref string str, string value)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x2FBA110", Offset = "0x2FB8710", VA = "0x182FBA110", Slot = "3")]
+	[Address(RVA = "0x69B3C80", Offset = "0x69B2C80", VA = "0x69B3C80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -12,211 +12,211 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000DB")]
+[Token(Token = "0x20000B3")]
 internal static class DateTimeFormat
 {
-	[Token(Token = "0x4000300")]
+	[Token(Token = "0x400025B")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly TimeSpan NullOffset;
 
-	[Token(Token = "0x4000301")]
+	[Token(Token = "0x400025C")]
 	[FieldOffset(Offset = "0x8")]
 	internal static char[] allStandardFormats;
 
-	[Token(Token = "0x4000302")]
+	[Token(Token = "0x400025D")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly DateTimeFormatInfo InvariantFormatInfo;
 
-	[Token(Token = "0x4000303")]
+	[Token(Token = "0x400025E")]
 	[FieldOffset(Offset = "0x18")]
 	internal static readonly string[] InvariantAbbreviatedMonthNames;
 
-	[Token(Token = "0x4000304")]
+	[Token(Token = "0x400025F")]
 	[FieldOffset(Offset = "0x20")]
 	internal static readonly string[] InvariantAbbreviatedDayNames;
 
-	[Token(Token = "0x4000305")]
+	[Token(Token = "0x4000260")]
 	[FieldOffset(Offset = "0x28")]
 	internal static string[] fixedNumberFormats;
 
-	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x1B0A070", Offset = "0x1B08670", VA = "0x181B0A070")]
+	[Token(Token = "0x60006C5")]
+	[Address(RVA = "0x549F070", Offset = "0x549E070", VA = "0x549F070")]
 	internal static void FormatDigits(StringBuilder outputBuffer, int value, int len)
 	{
 	}
 
-	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x1B0A0F0", Offset = "0x1B086F0", VA = "0x181B0A0F0")]
+	[Token(Token = "0x60006C6")]
+	[Address(RVA = "0x549F180", Offset = "0x549E180", VA = "0x549F180")]
 	internal static void FormatDigits(StringBuilder outputBuffer, int value, int len, bool overrideLengthLimit)
 	{
 	}
 
-	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x1B0AD20", Offset = "0x1B09320", VA = "0x181B0AD20")]
+	[Token(Token = "0x60006C7")]
+	[Address(RVA = "0x549F260", Offset = "0x549E260", VA = "0x549F260")]
 	private static void HebrewFormatDigits(StringBuilder outputBuffer, int digits)
 	{
 	}
 
-	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x1B0B0F0", Offset = "0x1B096F0", VA = "0x181B0B0F0")]
+	[Token(Token = "0x60006C8")]
+	[Address(RVA = "0x549F2D0", Offset = "0x549E2D0", VA = "0x549F2D0")]
 	internal static int ParseRepeatPattern(ReadOnlySpan<char> format, int pos, char patternChar)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x1B0A030", Offset = "0x1B08630", VA = "0x181B0A030")]
+	[Token(Token = "0x60006C9")]
+	[Address(RVA = "0x549F340", Offset = "0x549E340", VA = "0x549F340")]
 	private static string FormatDayOfWeek(int dayOfWeek, int repeat, DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x1B0A2D0", Offset = "0x1B088D0", VA = "0x181B0A2D0")]
+	[Token(Token = "0x60006CA")]
+	[Address(RVA = "0x549F380", Offset = "0x549E380", VA = "0x549F380")]
 	private static string FormatMonth(int month, int repeatCount, DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x1B0A1F0", Offset = "0x1B087F0", VA = "0x181B0A1F0")]
+	[Token(Token = "0x60006CB")]
+	[Address(RVA = "0x549F3C0", Offset = "0x549E3C0", VA = "0x549F3C0")]
 	private static string FormatHebrewMonthName(DateTime time, int month, int repeatCount, DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x1B0AF00", Offset = "0x1B09500", VA = "0x181B0AF00")]
+	[Token(Token = "0x60006CC")]
+	[Address(RVA = "0x549F480", Offset = "0x549E480", VA = "0x549F480")]
 	internal static int ParseQuoteString(ReadOnlySpan<char> format, int pos, StringBuilder result)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x1B0AE90", Offset = "0x1B09490", VA = "0x181B0AE90")]
+	[Token(Token = "0x60006CD")]
+	[Address(RVA = "0x549F640", Offset = "0x549E640", VA = "0x549F640")]
 	internal static int ParseNextChar(ReadOnlySpan<char> format, int pos)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x1B0AD90", Offset = "0x1B09390", VA = "0x181B0AD90")]
+	[Token(Token = "0x60006CE")]
+	[Address(RVA = "0x549F690", Offset = "0x549E690", VA = "0x549F690")]
 	private static bool IsUseGenitiveForm(ReadOnlySpan<char> format, int index, int tokenLen, char patternToMatch)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006F4")]
-	[Address(RVA = "0x1B08AC0", Offset = "0x1B070C0", VA = "0x181B08AC0")]
+	[Token(Token = "0x60006CF")]
+	[Address(RVA = "0x549F7C0", Offset = "0x549E7C0", VA = "0x549F7C0")]
 	private static StringBuilder FormatCustomized(DateTime dateTime, ReadOnlySpan<char> format, DateTimeFormatInfo dtfi, TimeSpan offset, StringBuilder result)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x1B08690", Offset = "0x1B06C90", VA = "0x181B08690")]
+	[Token(Token = "0x60006D0")]
+	[Address(RVA = "0x54A1570", Offset = "0x54A0570", VA = "0x54A1570")]
 	private static void FormatCustomizedTimeZone(DateTime dateTime, TimeSpan offset, ReadOnlySpan<char> format, int tokenLen, bool timeOnly, StringBuilder result)
 	{
 	}
 
-	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x1B08390", Offset = "0x1B06990", VA = "0x181B08390")]
+	[Token(Token = "0x60006D1")]
+	[Address(RVA = "0x54A1A10", Offset = "0x54A0A10", VA = "0x54A1A10")]
 	private static void FormatCustomizedRoundripTimeZone(DateTime dateTime, TimeSpan offset, StringBuilder result)
 	{
 	}
 
-	[Token(Token = "0x60006F7")]
-	[Address(RVA = "0x1B07C60", Offset = "0x1B06260", VA = "0x181B07C60")]
+	[Token(Token = "0x60006D2")]
+	[Address(RVA = "0x54A1D30", Offset = "0x54A0D30", VA = "0x54A1D30")]
 	private static void Append2DigitNumber(StringBuilder result, int val)
 	{
 	}
 
-	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x1B0A9E0", Offset = "0x1B08FE0", VA = "0x181B0A9E0")]
+	[Token(Token = "0x60006D3")]
+	[Address(RVA = "0x54A1DA0", Offset = "0x54A0DA0", VA = "0x54A1DA0")]
 	internal static string GetRealFormat(ReadOnlySpan<char> format, DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x1B07CE0", Offset = "0x1B062E0", VA = "0x181B07CE0")]
+	[Token(Token = "0x60006D4")]
+	[Address(RVA = "0x54A1FC0", Offset = "0x54A0FC0", VA = "0x54A1FC0")]
 	private static string ExpandPredefinedFormat(ReadOnlySpan<char> format, ref DateTime dateTime, ref DateTimeFormatInfo dtfi, ref TimeSpan offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FA")]
-	[Address(RVA = "0x1B0A690", Offset = "0x1B08C90", VA = "0x181B0A690")]
+	[Token(Token = "0x60006D5")]
+	[Address(RVA = "0x5497640", Offset = "0x5496640", VA = "0x5497640")]
 	internal static string Format(DateTime dateTime, string format, IFormatProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FB")]
-	[Address(RVA = "0x1B0A720", Offset = "0x1B08D20", VA = "0x181B0A720")]
+	[Token(Token = "0x60006D6")]
+	[Address(RVA = "0x549C150", Offset = "0x549B150", VA = "0x549C150")]
 	internal static string Format(DateTime dateTime, string format, IFormatProvider provider, TimeSpan offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x1B0BDA0", Offset = "0x1B0A3A0", VA = "0x181B0BDA0")]
+	[Token(Token = "0x60006D7")]
+	[Address(RVA = "0x5497A70", Offset = "0x5496A70", VA = "0x5497A70")]
 	internal static bool TryFormat(DateTime dateTime, Span<char> destination, out int charsWritten, ReadOnlySpan<char> format, IFormatProvider provider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x1B0BE50", Offset = "0x1B0A450", VA = "0x181B0BE50")]
+	[Token(Token = "0x60006D8")]
+	[Address(RVA = "0x549C6F0", Offset = "0x549B6F0", VA = "0x549C6F0")]
 	internal static bool TryFormat(DateTime dateTime, Span<char> destination, out int charsWritten, ReadOnlySpan<char> format, IFormatProvider provider, TimeSpan offset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x1B0A310", Offset = "0x1B08910", VA = "0x181B0A310")]
+	[Token(Token = "0x60006D9")]
+	[Address(RVA = "0x54A3250", Offset = "0x54A2250", VA = "0x54A3250")]
 	private static StringBuilder FormatStringBuilder(DateTime dateTime, ReadOnlySpan<char> format, DateTimeFormatInfo dtfi, TimeSpan offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x1B0B160", Offset = "0x1B09760", VA = "0x181B0B160")]
+	[Token(Token = "0x60006DA")]
+	[Address(RVA = "0x54A2510", Offset = "0x54A1510", VA = "0x54A2510")]
 	private static bool TryFormatO(DateTime dateTime, TimeSpan offset, Span<char> destination, out int charsWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x1B0B880", Offset = "0x1B09E80", VA = "0x181B0B880")]
+	[Token(Token = "0x60006DB")]
+	[Address(RVA = "0x54A2CF0", Offset = "0x54A1CF0", VA = "0x54A2CF0")]
 	private static bool TryFormatR(DateTime dateTime, TimeSpan offset, Span<char> destination, out int charsWritten)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x1B0C120", Offset = "0x1B0A720", VA = "0x181B0C120")]
+	[Token(Token = "0x60006DC")]
+	[Address(RVA = "0x54A35F0", Offset = "0x54A25F0", VA = "0x54A35F0")]
 	private static void WriteTwoDecimalDigits(uint value, Span<char> destination, int offset)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x1B073F0", Offset = "0x1B059F0", VA = "0x181B073F0")]
+	[Token(Token = "0x60006DD")]
+	[Address(RVA = "0x54A3640", Offset = "0x54A2640", VA = "0x54A3640")]
 	private static void WriteFourDecimalDigits(uint value, Span<char> buffer, int startingIndex = 0)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x1B0C080", Offset = "0x1B0A680", VA = "0x181B0C080")]
+	[Token(Token = "0x60006DE")]
+	[Address(RVA = "0x54A36E0", Offset = "0x54A26E0", VA = "0x54A36E0")]
 	private static void WriteDigits(ulong value, Span<char> buffer)
 	{
 	}
 
-	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60006DF")]
+	[Address(RVA = "0x54A2500", Offset = "0x54A1500", VA = "0x54A2500")]
 	internal static void InvalidFormatForLocal(ReadOnlySpan<char> format, DateTime dateTime)
 	{
 	}

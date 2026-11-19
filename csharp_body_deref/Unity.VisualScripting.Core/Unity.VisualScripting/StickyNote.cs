@@ -47,14 +47,14 @@ public class StickyNote : GraphElement<IGraph>
 	public Rect position
 	{
 		[Token(Token = "0x6000FB4")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x6846A50", Offset = "0x6845A50", VA = "0x6846A50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000FB5")]
-		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
+		[Address(RVA = "0x6846A60", Offset = "0x6845A60", VA = "0x6846A60")]
 		[CompilerGenerated]
 		set
 		{
@@ -66,14 +66,14 @@ public class StickyNote : GraphElement<IGraph>
 	public string title
 	{
 		[Token(Token = "0x6000FB6")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6846A70", Offset = "0x6845A70", VA = "0x6846A70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FB7")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x6846A80", Offset = "0x6845A80", VA = "0x6846A80")]
 		[CompilerGenerated]
 		set
 		{
@@ -86,14 +86,14 @@ public class StickyNote : GraphElement<IGraph>
 	public string body
 	{
 		[Token(Token = "0x6000FB8")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6846A90", Offset = "0x6845A90", VA = "0x6846A90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FB9")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x6846AA0", Offset = "0x6845AA0", VA = "0x6846AA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -106,14 +106,14 @@ public class StickyNote : GraphElement<IGraph>
 	public ColorEnum colorTheme
 	{
 		[Token(Token = "0x6000FBA")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x6846AB0", Offset = "0x6845AB0", VA = "0x6846AB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ColorEnum);
 		}
 		[Token(Token = "0x6000FBB")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x6846AC0", Offset = "0x6845AC0", VA = "0x6846AC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -121,20 +121,20 @@ public class StickyNote : GraphElement<IGraph>
 	}
 
 	[Token(Token = "0x6000FB3")]
-	[Address(RVA = "0x2E3D670", Offset = "0x2E3BC70", VA = "0x182E3D670")]
+	[Address(RVA = "0x68469F0", Offset = "0x68459F0", VA = "0x68469F0")]
 	public StickyNote()
 	{
 	}
 
 	[Token(Token = "0x6000FBC")]
-	[Address(RVA = "0x2E3D4C0", Offset = "0x2E3BAC0", VA = "0x182E3D4C0")]
+	[Address(RVA = "0x6846AD0", Offset = "0x6845AD0", VA = "0x6846AD0")]
 	public static Color GetStickyColor(ColorEnum enumValue)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x2E3D480", Offset = "0x2E3BA80", VA = "0x182E3D480")]
+	[Address(RVA = "0x6846B70", Offset = "0x6845B70", VA = "0x6846B70")]
 	public static Color GetFontColor(ColorEnum enumValue)
 	{
 		return default(Color);

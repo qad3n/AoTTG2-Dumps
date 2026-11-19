@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000047")]
+[Token(Token = "0x2000048")]
 internal sealed class CoalesceConversionBinaryExpression : BinaryExpression
 {
-	[Token(Token = "0x40000EB")]
+	[Token(Token = "0x40000F4")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly LambdaExpression _conversion;
 
-	[Token(Token = "0x17000053")]
+	[Token(Token = "0x17000055")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x106DD80", Offset = "0x106C380", VA = "0x18106DD80", Slot = "4")]
+		[Token(Token = "0x60001DC")]
+		[Address(RVA = "0x5DAD1E0", Offset = "0x5DAC1E0", VA = "0x5DAD1E0", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x17000054")]
+	[Token(Token = "0x17000056")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x1C702C0", Offset = "0x1C6E8C0", VA = "0x181C702C0", Slot = "5")]
+		[Token(Token = "0x60001DD")]
+		[Address(RVA = "0x5DAD1F0", Offset = "0x5DAC1F0", VA = "0x5DAD1F0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x2409A70", Offset = "0x2408070", VA = "0x182409A70")]
+	[Token(Token = "0x60001DA")]
+	[Address(RVA = "0x5DAD140", Offset = "0x5DAC140", VA = "0x5DAD140")]
 	internal CoalesceConversionBinaryExpression(Expression left, Expression right, LambdaExpression conversion)
 	{
 	}
 
-	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "11")]
+	[Token(Token = "0x60001DB")]
+	[Address(RVA = "0x5DAD1D0", Offset = "0x5DAC1D0", VA = "0x5DAD1D0", Slot = "11")]
 	internal override LambdaExpression GetConversion()
 	{
 		return null;

@@ -9,100 +9,100 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000109")]
+[Token(Token = "0x20000CA")]
 internal static class TraceInternal
 {
-	[Token(Token = "0x4000463")]
+	[Token(Token = "0x4000394")]
 	[FieldOffset(Offset = "0x0")]
 	private static string appName;
 
-	[Token(Token = "0x4000464")]
+	[Token(Token = "0x4000395")]
 	[FieldOffset(Offset = "0x8")]
 	private static TraceListenerCollection listeners;
 
-	[Token(Token = "0x4000465")]
+	[Token(Token = "0x4000396")]
 	[FieldOffset(Offset = "0x10")]
 	private static bool autoFlush;
 
-	[Token(Token = "0x4000466")]
+	[Token(Token = "0x4000397")]
 	[FieldOffset(Offset = "0x11")]
 	private static bool useGlobalLock;
 
-	[Token(Token = "0x4000467")]
+	[Token(Token = "0x4000398")]
 	[ThreadStatic]
 	private static int indentLevel;
 
-	[Token(Token = "0x4000468")]
+	[Token(Token = "0x4000399")]
 	[FieldOffset(Offset = "0x14")]
 	private static int indentSize;
 
-	[Token(Token = "0x4000469")]
+	[Token(Token = "0x400039A")]
 	[FieldOffset(Offset = "0x18")]
 	internal static readonly object critSec;
 
-	[Token(Token = "0x170000F9")]
+	[Token(Token = "0x170000CA")]
 	public static TraceListenerCollection Listeners
 	{
-		[Token(Token = "0x600065A")]
-		[Address(RVA = "0x2875800", Offset = "0x2873E00", VA = "0x182875800")]
+		[Token(Token = "0x60004A4")]
+		[Address(RVA = "0x6200BB0", Offset = "0x61FFBB0", VA = "0x6200BB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000FA")]
+	[Token(Token = "0x170000CB")]
 	public static bool AutoFlush
 	{
-		[Token(Token = "0x600065B")]
-		[Address(RVA = "0x28756F0", Offset = "0x2873CF0", VA = "0x1828756F0")]
+		[Token(Token = "0x60004A5")]
+		[Address(RVA = "0x6200F70", Offset = "0x61FFF70", VA = "0x6200F70")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000FB")]
+	[Token(Token = "0x170000CC")]
 	public static bool UseGlobalLock
 	{
-		[Token(Token = "0x600065C")]
-		[Address(RVA = "0x2875B20", Offset = "0x2874120", VA = "0x182875B20")]
+		[Token(Token = "0x60004A6")]
+		[Address(RVA = "0x6201AD0", Offset = "0x6200AD0", VA = "0x6201AD0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000FC")]
+	[Token(Token = "0x170000CD")]
 	public static int IndentLevel
 	{
-		[Token(Token = "0x600065D")]
-		[Address(RVA = "0x2875750", Offset = "0x2873D50", VA = "0x182875750")]
+		[Token(Token = "0x60004A7")]
+		[Address(RVA = "0x6201B20", Offset = "0x6200B20", VA = "0x6201B20")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000FD")]
+	[Token(Token = "0x170000CE")]
 	public static int IndentSize
 	{
-		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x28757A0", Offset = "0x2873DA0", VA = "0x1828757A0")]
+		[Token(Token = "0x60004A8")]
+		[Address(RVA = "0x6201B80", Offset = "0x6200B80", VA = "0x6201B80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60004A9")]
+	[Address(RVA = "0x6201810", Offset = "0x6200810", VA = "0x6201810")]
 	private static void InitializeSettings()
 	{
 	}
 
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x2874F30", Offset = "0x2873530", VA = "0x182874F30")]
+	[Token(Token = "0x60004AA")]
+	[Address(RVA = "0x61FF8F0", Offset = "0x61FE8F0", VA = "0x61FF8F0")]
 	public static void WriteLine(string message)
 	{
 	}

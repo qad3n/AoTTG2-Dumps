@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public static class XGettable
 {
 	[Token(Token = "0x600103C")]
-	[Address(RVA = "0x2E5C470", Offset = "0x2E5AA70", VA = "0x182E5C470")]
+	[Address(RVA = "0x684A870", Offset = "0x6849870", VA = "0x684A870")]
 	public static object GetValue(this IGettable gettable, Type type)
 	{
 		return null;

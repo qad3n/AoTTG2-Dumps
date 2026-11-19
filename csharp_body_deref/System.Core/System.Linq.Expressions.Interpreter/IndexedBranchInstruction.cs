@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000F2")]
+[Token(Token = "0x20000F3")]
 internal abstract class IndexedBranchInstruction : Instruction
 {
-	[Token(Token = "0x400023C")]
+	[Token(Token = "0x4000245")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly int _labelIndex;
 
-	[Token(Token = "0x600061E")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000629")]
+	[Address(RVA = "0x5DDDA80", Offset = "0x5DDCA80", VA = "0x5DDDA80")]
 	public IndexedBranchInstruction(int labelIndex)
 	{
 	}
 
-	[Token(Token = "0x600061F")]
-	[Address(RVA = "0x243A150", Offset = "0x2438750", VA = "0x18243A150")]
+	[Token(Token = "0x600062A")]
+	[Address(RVA = "0x5DDDAA0", Offset = "0x5DDCAA0", VA = "0x5DDDAA0")]
 	public RuntimeLabel GetLabel(InterpretedFrame frame)
 	{
 		return default(RuntimeLabel);
 	}
 
-	[Token(Token = "0x6000620")]
-	[Address(RVA = "0x243A1A0", Offset = "0x24387A0", VA = "0x18243A1A0", Slot = "10")]
+	[Token(Token = "0x600062B")]
+	[Address(RVA = "0x5DDDAE0", Offset = "0x5DDCAE0", VA = "0x5DDDAE0", Slot = "10")]
 	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000621")]
-	[Address(RVA = "0x243A260", Offset = "0x2438860", VA = "0x18243A260", Slot = "3")]
+	[Token(Token = "0x600062C")]
+	[Address(RVA = "0x5DDDBA0", Offset = "0x5DDCBA0", VA = "0x5DDDBA0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

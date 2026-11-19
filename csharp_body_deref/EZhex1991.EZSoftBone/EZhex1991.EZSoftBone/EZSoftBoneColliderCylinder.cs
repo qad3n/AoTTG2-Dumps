@@ -27,13 +27,13 @@ public class EZSoftBoneColliderCylinder : EZSoftBoneColliderBase
 	public float margin
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x584280", Offset = "0x582880", VA = "0x180584280")]
+		[Address(RVA = "0x31A8000", Offset = "0x31A7000", VA = "0x31A8000")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x5842A0", Offset = "0x5828A0", VA = "0x1805842A0")]
+		[Address(RVA = "0x31A8010", Offset = "0x31A7010", VA = "0x31A8010")]
 		set
 		{
 		}
@@ -43,26 +43,26 @@ public class EZSoftBoneColliderCylinder : EZSoftBoneColliderBase
 	public bool insideMode
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x584270", Offset = "0x582870", VA = "0x180584270")]
+		[Address(RVA = "0x31A8020", Offset = "0x31A7020", VA = "0x31A8020")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x584290", Offset = "0x582890", VA = "0x180584290")]
+		[Address(RVA = "0x31A8030", Offset = "0x31A7030", VA = "0x31A8030")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x584010", Offset = "0x582610", VA = "0x180584010", Slot = "4")]
+	[Address(RVA = "0x31A8040", Offset = "0x31A7040", VA = "0x31A8040", Slot = "4")]
 	public override void Collide(ref Vector3 position, float spacing)
 	{
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x584220", Offset = "0x582820", VA = "0x180584220")]
+	[Address(RVA = "0x31A8360", Offset = "0x31A7360", VA = "0x31A8360")]
 	public EZSoftBoneColliderCylinder()
 	{
 	}

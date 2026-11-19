@@ -13,7 +13,7 @@ namespace UnityEngine.UIElements;
 internal static class RuntimeEventDispatcher
 {
 	[Token(Token = "0x60010E1")]
-	[Address(RVA = "0x3284150", Offset = "0x3282750", VA = "0x183284150")]
+	[Address(RVA = "0x6C895F0", Offset = "0x6C885F0", VA = "0x6C895F0")]
 	public static EventDispatcher Create()
 	{
 		return null;

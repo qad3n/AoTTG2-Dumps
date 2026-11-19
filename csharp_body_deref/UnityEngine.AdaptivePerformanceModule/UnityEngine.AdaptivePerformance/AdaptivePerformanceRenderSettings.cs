@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,209 +10,209 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200001C")]
+[Token(Token = "0x200002E")]
 public static class AdaptivePerformanceRenderSettings
 {
-	[Token(Token = "0x4000080")]
+	[Token(Token = "0x40000AB")]
 	[FieldOffset(Offset = "0x0")]
 	private static float s_MaxShadowDistanceMultiplier;
 
-	[Token(Token = "0x4000081")]
+	[Token(Token = "0x40000AC")]
 	[FieldOffset(Offset = "0x4")]
 	private static float s_ShadowResolutionMultiplier;
 
-	[Token(Token = "0x4000082")]
+	[Token(Token = "0x40000AD")]
 	[FieldOffset(Offset = "0x8")]
 	private static float s_RenderScaleMultiplier;
 
-	[Token(Token = "0x4000083")]
+	[Token(Token = "0x40000AE")]
 	[FieldOffset(Offset = "0xC")]
 	private static float s_DecalsMaxDistance;
 
-	[Token(Token = "0x1700003D")]
+	[Token(Token = "0x1700005B")]
 	public static float MainLightShadowmapResolutionMultiplier
 	{
-		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x2E8BBA0", Offset = "0x2E8A1A0", VA = "0x182E8BBA0")]
+		[Token(Token = "0x6000119")]
+		[Address(RVA = "0x6889790", Offset = "0x6888790", VA = "0x6889790")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x2E8BF50", Offset = "0x2E8A550", VA = "0x182E8BF50")]
+		[Token(Token = "0x600011A")]
+		[Address(RVA = "0x6889800", Offset = "0x6888800", VA = "0x6889800")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700003E")]
+	[Token(Token = "0x1700005C")]
 	public static float DecalsDrawDistance
 	{
-		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x2E8BAB0", Offset = "0x2E8A0B0", VA = "0x182E8BAB0")]
+		[Token(Token = "0x600011B")]
+		[Address(RVA = "0x6889880", Offset = "0x6888880", VA = "0x6889880")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x2E8BE30", Offset = "0x2E8A430", VA = "0x182E8BE30")]
+		[Token(Token = "0x600011C")]
+		[Address(RVA = "0x68898F0", Offset = "0x68888F0", VA = "0x68898F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700003F")]
+	[Token(Token = "0x1700005D")]
 	public static int MainLightShadowCascadesCountBias
 	{
-		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x2E8BB50", Offset = "0x2E8A150", VA = "0x182E8BB50")]
+		[Token(Token = "0x600011D")]
+		[Address(RVA = "0x6889960", Offset = "0x6888960", VA = "0x6889960")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x2E8BEF0", Offset = "0x2E8A4F0", VA = "0x182E8BEF0")]
+		[Token(Token = "0x600011E")]
+		[Address(RVA = "0x68899D0", Offset = "0x68889D0", VA = "0x68899D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000040")]
+	[Token(Token = "0x1700005E")]
 	public static int ShadowQualityBias
 	{
-		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x2E8BC90", Offset = "0x2E8A290", VA = "0x182E8BC90")]
+		[Token(Token = "0x600011F")]
+		[Address(RVA = "0x6889A20", Offset = "0x6888A20", VA = "0x6889A20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x2E8C0D0", Offset = "0x2E8A6D0", VA = "0x182E8C0D0")]
+		[Token(Token = "0x6000120")]
+		[Address(RVA = "0x6889A90", Offset = "0x6888A90", VA = "0x6889A90")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000041")]
+	[Token(Token = "0x1700005F")]
 	public static float LutBias
 	{
-		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x2E8BB00", Offset = "0x2E8A100", VA = "0x182E8BB00")]
+		[Token(Token = "0x6000121")]
+		[Address(RVA = "0x6889AE0", Offset = "0x6888AE0", VA = "0x6889AE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000DE")]
-		[Address(RVA = "0x2E8BE90", Offset = "0x2E8A490", VA = "0x182E8BE90")]
+		[Token(Token = "0x6000122")]
+		[Address(RVA = "0x6889B50", Offset = "0x6888B50", VA = "0x6889B50")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000042")]
+	[Token(Token = "0x17000060")]
 	public static float MaxShadowDistanceMultiplier
 	{
-		[Token(Token = "0x60000DF")]
-		[Address(RVA = "0x2E8BBF0", Offset = "0x2E8A1F0", VA = "0x182E8BBF0")]
+		[Token(Token = "0x6000123")]
+		[Address(RVA = "0x6889BC0", Offset = "0x6888BC0", VA = "0x6889BC0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000E0")]
-		[Address(RVA = "0x2E8BFD0", Offset = "0x2E8A5D0", VA = "0x182E8BFD0")]
+		[Token(Token = "0x6000124")]
+		[Address(RVA = "0x6889C30", Offset = "0x6888C30", VA = "0x6889C30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000043")]
+	[Token(Token = "0x17000061")]
 	public static float RenderScaleMultiplier
 	{
-		[Token(Token = "0x60000E1")]
-		[Address(RVA = "0x2E8BC40", Offset = "0x2E8A240", VA = "0x182E8BC40")]
+		[Token(Token = "0x6000125")]
+		[Address(RVA = "0x6889CB0", Offset = "0x6888CB0", VA = "0x6889CB0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x2E8C050", Offset = "0x2E8A650", VA = "0x182E8C050")]
+		[Token(Token = "0x6000126")]
+		[Address(RVA = "0x6889D20", Offset = "0x6888D20", VA = "0x6889D20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000044")]
+	[Token(Token = "0x17000062")]
 	public static int AntiAliasingQualityBias
 	{
-		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x2E8BA60", Offset = "0x2E8A060", VA = "0x182E8BA60")]
+		[Token(Token = "0x6000127")]
+		[Address(RVA = "0x6889DA0", Offset = "0x6888DA0", VA = "0x6889DA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x2E8BDD0", Offset = "0x2E8A3D0", VA = "0x182E8BDD0")]
+		[Token(Token = "0x6000128")]
+		[Address(RVA = "0x6889E10", Offset = "0x6888E10", VA = "0x6889E10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000045")]
+	[Token(Token = "0x17000063")]
 	public static bool SkipDynamicBatching
 	{
-		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x2E8BCE0", Offset = "0x2E8A2E0", VA = "0x182E8BCE0")]
+		[Token(Token = "0x6000129")]
+		[Address(RVA = "0x6889E60", Offset = "0x6888E60", VA = "0x6889E60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x2E8C130", Offset = "0x2E8A730", VA = "0x182E8C130")]
+		[Token(Token = "0x600012A")]
+		[Address(RVA = "0x6889ED0", Offset = "0x6888ED0", VA = "0x6889ED0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000046")]
+	[Token(Token = "0x17000064")]
 	public static bool SkipFrontToBackSorting
 	{
-		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x2E8BD30", Offset = "0x2E8A330", VA = "0x182E8BD30")]
+		[Token(Token = "0x600012B")]
+		[Address(RVA = "0x6889F20", Offset = "0x6888F20", VA = "0x6889F20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x2E8C190", Offset = "0x2E8A790", VA = "0x182E8C190")]
+		[Token(Token = "0x600012C")]
+		[Address(RVA = "0x6889F90", Offset = "0x6888F90", VA = "0x6889F90")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000047")]
+	[Token(Token = "0x17000065")]
 	public static bool SkipTransparentObjects
 	{
-		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x2E8BD80", Offset = "0x2E8A380", VA = "0x182E8BD80")]
+		[Token(Token = "0x600012D")]
+		[Address(RVA = "0x6889FE0", Offset = "0x6888FE0", VA = "0x6889FE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x2E8C1F0", Offset = "0x2E8A7F0", VA = "0x182E8C1F0")]
+		[Token(Token = "0x600012E")]
+		[Address(RVA = "0x688A050", Offset = "0x6889050", VA = "0x688A050")]
 		[CompilerGenerated]
 		set
 		{

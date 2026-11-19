@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x2000116")]
+[Token(Token = "0x200008A")]
 public static class NameEffectHelpers
 {
-	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x20C8FB0", Offset = "0x20C75B0", VA = "0x1820C8FB0")]
+	[Token(Token = "0x60003D9")]
+	[Address(RVA = "0x58C1090", Offset = "0x58C0090", VA = "0x58C1090")]
 	public static bool TryGetNameEffect(Player player, out ResolvedNameEffect result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x20C8C60", Offset = "0x20C7260", VA = "0x1820C8C60")]
+	[Token(Token = "0x60003DA")]
+	[Address(RVA = "0x58C6380", Offset = "0x58C5380", VA = "0x58C6380")]
 	public static bool TryGetGuildEffect(Player player, out ResolvedNameEffect result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x20C8B60", Offset = "0x20C7160", VA = "0x1820C8B60")]
+	[Token(Token = "0x60003DB")]
+	[Address(RVA = "0x58C6170", Offset = "0x58C5170", VA = "0x58C6170")]
 	private static ProfileSettings GetProfile(Player player)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000572")]
-	[Address(RVA = "0x20C9300", Offset = "0x20C7900", VA = "0x1820C9300")]
+	[Token(Token = "0x60003DC")]
+	[Address(RVA = "0x58C6280", Offset = "0x58C5280", VA = "0x58C6280")]
 	private static bool TryGet(Player player, ProfileSettings profile, bool enabled, string effectStr, Color colorA, Color colorB, Color colorC, Color colorD, out ResolvedNameEffect result)
 	{
 		return default(bool);

@@ -33,13 +33,13 @@ public sealed class VFXSpawnerState : IDisposable
 	private VFXEventAttribute m_WrapEventAttribute;
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2EB8F10", Offset = "0x2EB7510", VA = "0x182EB8F10")]
+	[Address(RVA = "0x6D20780", Offset = "0x6D1F780", VA = "0x6D20780")]
 	internal VFXSpawnerState(IntPtr ptr, bool owner)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x3310A30", Offset = "0x330F030", VA = "0x183310A30")]
+	[Address(RVA = "0x6D207B0", Offset = "0x6D1F7B0", VA = "0x6D207B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VFXSpawnerState CreateSpawnerStateWrapper()
 	{
@@ -47,39 +47,39 @@ public sealed class VFXSpawnerState : IDisposable
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x3310CD0", Offset = "0x330F2D0", VA = "0x183310CD0")]
+	[Address(RVA = "0x6D20810", Offset = "0x6D1F810", VA = "0x6D20810")]
 	private void PrepareWrapper()
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x3310E60", Offset = "0x330F460", VA = "0x183310E60")]
+	[Address(RVA = "0x6D20900", Offset = "0x6D1F900", VA = "0x6D20900")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void SetWrapValue(IntPtr ptrToSpawnerState, IntPtr ptrToEventAttribute)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3310DF0", Offset = "0x330F3F0", VA = "0x183310DF0")]
+	[Address(RVA = "0x6D209C0", Offset = "0x6D1F9C0", VA = "0x6D209C0")]
 	private void Release()
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3310BE0", Offset = "0x330F1E0", VA = "0x183310BE0", Slot = "1")]
+	[Address(RVA = "0x6D20A50", Offset = "0x6D1FA50", VA = "0x6D20A50", Slot = "1")]
 	~VFXSpawnerState()
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3310B40", Offset = "0x330F140", VA = "0x183310B40", Slot = "4")]
+	[Address(RVA = "0x6D20B30", Offset = "0x6D1FB30", VA = "0x6D20B30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x3310C90", Offset = "0x330F290", VA = "0x183310C90")]
+	[Address(RVA = "0x6D20A20", Offset = "0x6D1FA20", VA = "0x6D20A20")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern void Internal_Destroy(IntPtr ptr);
 }

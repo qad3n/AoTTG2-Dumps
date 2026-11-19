@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.ThermalMetrics
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,57 +10,57 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x2000026")]
 public struct ThermalMetrics
 {
-	[Token(Token = "0x17000071")]
+	[Token(Token = "0x17000052")]
 	public WarningLevel WarningLevel
 	{
-		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Token(Token = "0x60000F0")]
+		[Address(RVA = "0x68864E0", Offset = "0x68854E0", VA = "0x68864E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(WarningLevel);
 		}
-		[Token(Token = "0x6000159")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Token(Token = "0x60000F1")]
+		[Address(RVA = "0x68864F0", Offset = "0x68854F0", VA = "0x68864F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000072")]
+	[Token(Token = "0x17000053")]
 	public float TemperatureLevel
 	{
-		[Token(Token = "0x600015A")]
-		[Address(RVA = "0x562BB0", Offset = "0x5611B0", VA = "0x180562BB0")]
+		[Token(Token = "0x60000F2")]
+		[Address(RVA = "0x6886500", Offset = "0x6885500", VA = "0x6886500")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Token(Token = "0x60000F3")]
+		[Address(RVA = "0x6886510", Offset = "0x6885510", VA = "0x6886510")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000073")]
+	[Token(Token = "0x17000054")]
 	public float TemperatureTrend
 	{
-		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Token(Token = "0x60000F4")]
+		[Address(RVA = "0x6886520", Offset = "0x6885520", VA = "0x6886520")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Token(Token = "0x60000F5")]
+		[Address(RVA = "0x6886530", Offset = "0x6885530", VA = "0x6886530")]
 		[CompilerGenerated]
 		set
 		{

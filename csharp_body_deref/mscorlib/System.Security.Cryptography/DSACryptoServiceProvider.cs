@@ -12,278 +12,278 @@ using Mono.Security.Cryptography;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000346")]
+[Token(Token = "0x200031F")]
 [ComVisible(true)]
 public sealed class DSACryptoServiceProvider : DSA, ICspAsymmetricAlgorithm
 {
-	[Token(Token = "0x4000DF8")]
+	[Token(Token = "0x4000D58")]
 	private const int PROV_DSS_DH = 13;
 
-	[Token(Token = "0x4000DF9")]
+	[Token(Token = "0x4000D59")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Mono.Security.Cryptography.KeyPairPersistence store;
 
-	[Token(Token = "0x4000DFA")]
+	[Token(Token = "0x4000D5A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private bool persistKey;
 
-	[Token(Token = "0x4000DFB")]
+	[Token(Token = "0x4000D5B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x29")]
 	private bool persisted;
 
-	[Token(Token = "0x4000DFC")]
+	[Token(Token = "0x4000D5C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2A")]
 	private bool privateKeyExportable;
 
-	[Token(Token = "0x4000DFD")]
+	[Token(Token = "0x4000D5D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2B")]
 	private bool m_disposed;
 
-	[Token(Token = "0x4000DFE")]
+	[Token(Token = "0x4000D5E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private Mono.Security.Cryptography.DSAManaged dsa;
 
-	[Token(Token = "0x4000DFF")]
+	[Token(Token = "0x4000D5F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static bool useMachineKeyStore;
 
-	[Token(Token = "0x170002FD")]
+	[Token(Token = "0x170002FC")]
 	public override string KeyExchangeAlgorithm
 	{
-		[Token(Token = "0x6001B85")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+		[Token(Token = "0x6001B62")]
+		[Address(RVA = "0x535AF00", Offset = "0x5359F00", VA = "0x535AF00", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FE")]
+	[Token(Token = "0x170002FD")]
 	public override int KeySize
 	{
-		[Token(Token = "0x6001B86")]
-		[Address(RVA = "0x19BF590", Offset = "0x19BDB90", VA = "0x1819BF590", Slot = "6")]
+		[Token(Token = "0x6001B63")]
+		[Address(RVA = "0x535AF10", Offset = "0x5359F10", VA = "0x535AF10", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002FF")]
+	[Token(Token = "0x170002FE")]
 	public bool PersistKeyInCsp
 	{
-		[Token(Token = "0x6001B87")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Token(Token = "0x6001B64")]
+		[Address(RVA = "0x535AF40", Offset = "0x5359F40", VA = "0x535AF40")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001B88")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Token(Token = "0x6001B65")]
+		[Address(RVA = "0x535AF50", Offset = "0x5359F50", VA = "0x535AF50")]
 		set
 		{
+		}
+	}
+
+	[Token(Token = "0x170002FF")]
+	[ComVisible(false)]
+	public bool PublicOnly
+	{
+		[Token(Token = "0x6001B66")]
+		[Address(RVA = "0x535AF60", Offset = "0x5359F60", VA = "0x535AF60")]
+		get
+		{
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000300")]
-	[ComVisible(false)]
-	public bool PublicOnly
-	{
-		[Token(Token = "0x6001B89")]
-		[Address(RVA = "0x19BF5C0", Offset = "0x19BDBC0", VA = "0x1819BF5C0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000301")]
 	public override string SignatureAlgorithm
 	{
-		[Token(Token = "0x6001B8A")]
-		[Address(RVA = "0x19BF5E0", Offset = "0x19BDBE0", VA = "0x1819BF5E0", Slot = "9")]
+		[Token(Token = "0x6001B67")]
+		[Address(RVA = "0x535AF80", Offset = "0x5359F80", VA = "0x535AF80", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000302")]
+	[Token(Token = "0x17000301")]
 	public static bool UseMachineKeyStore
 	{
-		[Token(Token = "0x6001B8B")]
-		[Address(RVA = "0x19BF610", Offset = "0x19BDC10", VA = "0x1819BF610")]
+		[Token(Token = "0x6001B68")]
+		[Address(RVA = "0x535AFB0", Offset = "0x5359FB0", VA = "0x535AFB0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001B8C")]
-		[Address(RVA = "0x19BF650", Offset = "0x19BDC50", VA = "0x1819BF650")]
+		[Token(Token = "0x6001B69")]
+		[Address(RVA = "0x535AFF0", Offset = "0x5359FF0", VA = "0x535AFF0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000303")]
+	[Token(Token = "0x17000302")]
 	[ComVisible(false)]
 	[System.MonoTODO("call into KeyPairPersistence to get details")]
 	public CspKeyContainerInfo CspKeyContainerInfo
 	{
-		[Token(Token = "0x6001B9B")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "40")]
+		[Token(Token = "0x6001B78")]
+		[Address(RVA = "0x535B8C0", Offset = "0x535A8C0", VA = "0x535B8C0", Slot = "40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001B7E")]
-	[Address(RVA = "0x19BF380", Offset = "0x19BD980", VA = "0x1819BF380")]
+	[Token(Token = "0x6001B5B")]
+	[Address(RVA = "0x53580C0", Offset = "0x53570C0", VA = "0x53580C0")]
 	public DSACryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001B7F")]
-	[Address(RVA = "0x19BF4A0", Offset = "0x19BDAA0", VA = "0x1819BF4A0")]
+	[Token(Token = "0x6001B5C")]
+	[Address(RVA = "0x535AAD0", Offset = "0x5359AD0", VA = "0x535AAD0")]
 	public DSACryptoServiceProvider(CspParameters parameters)
 	{
 	}
 
-	[Token(Token = "0x6001B80")]
-	[Address(RVA = "0x19BF340", Offset = "0x19BD940", VA = "0x1819BF340")]
+	[Token(Token = "0x6001B5D")]
+	[Address(RVA = "0x535AAA0", Offset = "0x5359AA0", VA = "0x535AAA0")]
 	public DSACryptoServiceProvider(int dwKeySize)
 	{
 	}
 
-	[Token(Token = "0x6001B81")]
-	[Address(RVA = "0x19BF3B0", Offset = "0x19BD9B0", VA = "0x1819BF3B0")]
+	[Token(Token = "0x6001B5E")]
+	[Address(RVA = "0x535AB20", Offset = "0x5359B20", VA = "0x535AB20")]
 	public DSACryptoServiceProvider(int dwKeySize, CspParameters parameters)
 	{
 	}
 
-	[Token(Token = "0x6001B82")]
-	[Address(RVA = "0x19BE5F0", Offset = "0x19BCBF0", VA = "0x1819BE5F0")]
+	[Token(Token = "0x6001B5F")]
+	[Address(RVA = "0x535AB70", Offset = "0x5359B70", VA = "0x535AB70")]
 	private void Common(int dwKeySize, bool parameters)
 	{
 	}
 
-	[Token(Token = "0x6001B83")]
-	[Address(RVA = "0x19BE520", Offset = "0x19BCB20", VA = "0x1819BE520")]
+	[Token(Token = "0x6001B60")]
+	[Address(RVA = "0x535ADA0", Offset = "0x5359DA0", VA = "0x535ADA0")]
 	private void Common(CspParameters parameters)
 	{
 	}
 
-	[Token(Token = "0x6001B84")]
-	[Address(RVA = "0x193BBF0", Offset = "0x193A1F0", VA = "0x18193BBF0", Slot = "1")]
+	[Token(Token = "0x6001B61")]
+	[Address(RVA = "0x535AE60", Offset = "0x5359E60", VA = "0x535AE60", Slot = "1")]
 	~DSACryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001B8D")]
-	[Address(RVA = "0x19BE8B0", Offset = "0x19BCEB0", VA = "0x1819BE8B0", Slot = "33")]
+	[Token(Token = "0x6001B6A")]
+	[Address(RVA = "0x535B030", Offset = "0x535A030", VA = "0x535B030", Slot = "33")]
 	public override DSAParameters ExportParameters(bool includePrivateParameters)
 	{
 		return default(DSAParameters);
 	}
 
-	[Token(Token = "0x6001B8E")]
-	[Address(RVA = "0x19BEDD0", Offset = "0x19BD3D0", VA = "0x1819BEDD0", Slot = "34")]
+	[Token(Token = "0x6001B6B")]
+	[Address(RVA = "0x535B0F0", Offset = "0x535A0F0", VA = "0x535B0F0", Slot = "34")]
 	public override void ImportParameters(DSAParameters parameters)
 	{
 	}
 
-	[Token(Token = "0x6001B8F")]
-	[Address(RVA = "0x19BE810", Offset = "0x19BCE10", VA = "0x1819BE810", Slot = "25")]
+	[Token(Token = "0x6001B6C")]
+	[Address(RVA = "0x535B120", Offset = "0x535A120", VA = "0x535B120", Slot = "25")]
 	public override byte[] CreateSignature(byte[] rgbHash)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B90")]
-	[Address(RVA = "0x19BEEA0", Offset = "0x19BD4A0", VA = "0x1819BEEA0")]
+	[Token(Token = "0x6001B6D")]
+	[Address(RVA = "0x535B150", Offset = "0x535A150", VA = "0x535B150")]
 	public byte[] SignData(byte[] buffer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B91")]
-	[Address(RVA = "0x19BEF30", Offset = "0x19BD530", VA = "0x1819BEF30")]
+	[Token(Token = "0x6001B6E")]
+	[Address(RVA = "0x535B1D0", Offset = "0x535A1D0", VA = "0x535B1D0")]
 	public byte[] SignData(byte[] buffer, int offset, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B92")]
-	[Address(RVA = "0x19BEFD0", Offset = "0x19BD5D0", VA = "0x1819BEFD0")]
+	[Token(Token = "0x6001B6F")]
+	[Address(RVA = "0x535B270", Offset = "0x535A270", VA = "0x535B270")]
 	public byte[] SignData(Stream inputStream)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B93")]
-	[Address(RVA = "0x19BF060", Offset = "0x19BD660", VA = "0x1819BF060")]
+	[Token(Token = "0x6001B70")]
+	[Address(RVA = "0x535B2F0", Offset = "0x535A2F0", VA = "0x535B2F0")]
 	public byte[] SignHash(byte[] rgbHash, string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B94")]
-	[Address(RVA = "0x19BF170", Offset = "0x19BD770", VA = "0x1819BF170")]
+	[Token(Token = "0x6001B71")]
+	[Address(RVA = "0x535B3F0", Offset = "0x535A3F0", VA = "0x535B3F0")]
 	public bool VerifyData(byte[] rgbData, byte[] rgbSignature)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B95")]
-	[Address(RVA = "0x19BF200", Offset = "0x19BD800", VA = "0x1819BF200")]
+	[Token(Token = "0x6001B72")]
+	[Address(RVA = "0x535B480", Offset = "0x535A480", VA = "0x535B480")]
 	public bool VerifyHash(byte[] rgbHash, string str, byte[] rgbSignature)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B96")]
-	[Address(RVA = "0x19BF310", Offset = "0x19BD910", VA = "0x1819BF310", Slot = "26")]
+	[Token(Token = "0x6001B73")]
+	[Address(RVA = "0x535B5D0", Offset = "0x535A5D0", VA = "0x535B5D0", Slot = "26")]
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B97")]
-	[Address(RVA = "0x19BEA80", Offset = "0x19BD080", VA = "0x1819BEA80", Slot = "27")]
+	[Token(Token = "0x6001B74")]
+	[Address(RVA = "0x535B600", Offset = "0x535A600", VA = "0x535B600", Slot = "27")]
 	protected override byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B98")]
-	[Address(RVA = "0x19BE970", Offset = "0x19BCF70", VA = "0x1819BE970", Slot = "28")]
+	[Token(Token = "0x6001B75")]
+	[Address(RVA = "0x535B700", Offset = "0x535A700", VA = "0x535B700", Slot = "28")]
 	protected override byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B99")]
-	[Address(RVA = "0x19BE840", Offset = "0x19BCE40", VA = "0x1819BE840", Slot = "5")]
+	[Token(Token = "0x6001B76")]
+	[Address(RVA = "0x535B7F0", Offset = "0x535A7F0", VA = "0x535B7F0", Slot = "5")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001B9A")]
-	[Address(RVA = "0x19BEE20", Offset = "0x19BD420", VA = "0x1819BEE20")]
+	[Token(Token = "0x6001B77")]
+	[Address(RVA = "0x535B840", Offset = "0x535A840", VA = "0x535B840")]
 	private void OnKeyGenerated(object sender, EventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6001B9C")]
-	[Address(RVA = "0x19BE890", Offset = "0x19BCE90", VA = "0x1819BE890", Slot = "41")]
+	[Token(Token = "0x6001B79")]
+	[Address(RVA = "0x535B8D0", Offset = "0x535A8D0", VA = "0x535B8D0", Slot = "41")]
 	[ComVisible(false)]
 	public byte[] ExportCspBlob(bool includePrivateParameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B9D")]
-	[Address(RVA = "0x19BEBA0", Offset = "0x19BD1A0", VA = "0x1819BEBA0", Slot = "42")]
+	[Token(Token = "0x6001B7A")]
+	[Address(RVA = "0x535B8F0", Offset = "0x535A8F0", VA = "0x535B8F0", Slot = "42")]
 	[ComVisible(false)]
 	public void ImportCspBlob(byte[] keyBlob)
 	{

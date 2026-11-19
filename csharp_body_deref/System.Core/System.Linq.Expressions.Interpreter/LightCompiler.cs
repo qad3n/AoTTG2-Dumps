@@ -12,669 +12,669 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000194")]
+[Token(Token = "0x2000195")]
 internal sealed class LightCompiler
 {
-	[Token(Token = "0x2000195")]
+	[Token(Token = "0x2000196")]
 	private sealed class QuoteVisitor : ExpressionVisitor
 	{
-		[Token(Token = "0x400036C")]
+		[Token(Token = "0x4000375")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly Dictionary<ParameterExpression, int> _definedParameters;
 
-		[Token(Token = "0x400036D")]
+		[Token(Token = "0x4000376")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly HashSet<ParameterExpression> _hoistedParameters;
 
-		[Token(Token = "0x60008D3")]
-		[Address(RVA = "0x247D060", Offset = "0x247B660", VA = "0x18247D060", Slot = "21")]
+		[Token(Token = "0x60008DE")]
+		[Address(RVA = "0x5E06070", Offset = "0x5E05070", VA = "0x5E06070", Slot = "21")]
 		protected internal override Expression VisitParameter(ParameterExpression node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60008D4")]
-		[Address(RVA = "0x247CE60", Offset = "0x247B460", VA = "0x18247CE60", Slot = "6")]
+		[Token(Token = "0x60008DF")]
+		[Address(RVA = "0x5E060F0", Offset = "0x5E050F0", VA = "0x5E060F0", Slot = "6")]
 		protected internal override Expression VisitBlock(BlockExpression node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60008D5")]
-		[Address(RVA = "0x247CED0", Offset = "0x247B4D0", VA = "0x18247CED0", Slot = "22")]
+		[Token(Token = "0x60008E0")]
+		[Address(RVA = "0x5E06880", Offset = "0x5E05880", VA = "0x5E06880", Slot = "22")]
 		protected override CatchBlock VisitCatchBlock(CatchBlock node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60008D6")]
+		[Token(Token = "0x60008E1")]
 		protected internal override Expression VisitLambda<T>(Expression<T> node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60008D7")]
-		[Address(RVA = "0x247CC30", Offset = "0x247B230", VA = "0x18247CC30")]
+		[Token(Token = "0x60008E2")]
+		[Address(RVA = "0x5E06150", Offset = "0x5E05150", VA = "0x5E06150")]
 		private void PushParameters(IEnumerable<ParameterExpression> parameters)
 		{
 		}
 
-		[Token(Token = "0x60008D8")]
-		[Address(RVA = "0x247CA00", Offset = "0x247B000", VA = "0x18247CA00")]
+		[Token(Token = "0x60008E3")]
+		[Address(RVA = "0x5E064F0", Offset = "0x5E054F0", VA = "0x5E064F0")]
 		private void PopParameters(IEnumerable<ParameterExpression> parameters)
 		{
 		}
 
-		[Token(Token = "0x60008D9")]
-		[Address(RVA = "0x247D0E0", Offset = "0x247B6E0", VA = "0x18247D0E0")]
+		[Token(Token = "0x60008E4")]
+		[Address(RVA = "0x5E069E0", Offset = "0x5E059E0", VA = "0x5E069E0")]
 		public QuoteVisitor()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000363")]
+	[Token(Token = "0x400036C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly InstructionList _instructions;
 
-	[Token(Token = "0x4000364")]
+	[Token(Token = "0x400036D")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly LocalVariables _locals;
 
-	[Token(Token = "0x4000365")]
+	[Token(Token = "0x400036E")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<DebugInfo> _debugInfos;
 
-	[Token(Token = "0x4000366")]
+	[Token(Token = "0x400036F")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly HybridReferenceDictionary<LabelTarget, LabelInfo> _treeLabels;
 
-	[Token(Token = "0x4000367")]
+	[Token(Token = "0x4000370")]
 	[FieldOffset(Offset = "0x30")]
 	private LabelScopeInfo _labelBlock;
 
-	[Token(Token = "0x4000368")]
+	[Token(Token = "0x4000371")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly Stack<ParameterExpression> _exceptionForRethrowStack;
 
-	[Token(Token = "0x4000369")]
+	[Token(Token = "0x4000372")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly LightCompiler _parent;
 
-	[Token(Token = "0x400036A")]
+	[Token(Token = "0x4000373")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly StackGuard _guard;
 
-	[Token(Token = "0x400036B")]
+	[Token(Token = "0x4000374")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly LocalDefinition[] s_emptyLocals;
 
-	[Token(Token = "0x170001D2")]
+	[Token(Token = "0x170001D4")]
 	public InstructionList Instructions
 	{
-		[Token(Token = "0x6000878")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000883")]
+		[Address(RVA = "0x5DF52D0", Offset = "0x5DF42D0", VA = "0x5DF52D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000876")]
-	[Address(RVA = "0x2465250", Offset = "0x2463850", VA = "0x182465250")]
+	[Token(Token = "0x6000881")]
+	[Address(RVA = "0x5DF5030", Offset = "0x5DF4030", VA = "0x5DF5030")]
 	public LightCompiler()
 	{
 	}
 
-	[Token(Token = "0x6000877")]
-	[Address(RVA = "0x2465210", Offset = "0x2463810", VA = "0x182465210")]
+	[Token(Token = "0x6000882")]
+	[Address(RVA = "0x5DF52A0", Offset = "0x5DF42A0", VA = "0x5DF52A0")]
 	private LightCompiler(LightCompiler parent)
 	{
 	}
 
-	[Token(Token = "0x6000879")]
-	[Address(RVA = "0x2461620", Offset = "0x245FC20", VA = "0x182461620")]
+	[Token(Token = "0x6000884")]
+	[Address(RVA = "0x5DF52E0", Offset = "0x5DF42E0", VA = "0x5DF52E0")]
 	public LightDelegateCreator CompileTop(LambdaExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600087A")]
-	[Address(RVA = "0x2464520", Offset = "0x2462B20", VA = "0x182464520")]
+	[Token(Token = "0x6000885")]
+	[Address(RVA = "0x5DF5640", Offset = "0x5DF4640", VA = "0x5DF5640")]
 	private Interpreter MakeInterpreter(string lambdaName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600087B")]
-	[Address(RVA = "0x2459330", Offset = "0x2457930", VA = "0x182459330")]
+	[Token(Token = "0x6000886")]
+	[Address(RVA = "0x5DF59F0", Offset = "0x5DF49F0", VA = "0x5DF59F0")]
 	private void CompileConstantExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600087C")]
-	[Address(RVA = "0x245A510", Offset = "0x2458B10", VA = "0x18245A510")]
+	[Token(Token = "0x6000887")]
+	[Address(RVA = "0x5DF5A90", Offset = "0x5DF4A90", VA = "0x5DF5A90")]
 	private void CompileDefaultExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600087D")]
-	[Address(RVA = "0x245A410", Offset = "0x2458A10", VA = "0x18245A410")]
+	[Token(Token = "0x6000888")]
+	[Address(RVA = "0x5DF5AC0", Offset = "0x5DF4AC0", VA = "0x5DF5AC0")]
 	private void CompileDefaultExpression(Type type)
 	{
 	}
 
-	[Token(Token = "0x600087E")]
-	[Address(RVA = "0x2464040", Offset = "0x2462640", VA = "0x182464040")]
+	[Token(Token = "0x6000889")]
+	[Address(RVA = "0x5DF5BF0", Offset = "0x5DF4BF0", VA = "0x5DF5BF0")]
 	private LocalVariable EnsureAvailableForClosure(ParameterExpression expr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600087F")]
-	[Address(RVA = "0x2464B80", Offset = "0x2463180", VA = "0x182464B80")]
+	[Token(Token = "0x600088A")]
+	[Address(RVA = "0x5DF5D10", Offset = "0x5DF4D10", VA = "0x5DF5D10")]
 	private LocalVariable ResolveLocal(ParameterExpression variable)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000880")]
-	[Address(RVA = "0x245A750", Offset = "0x2458D50", VA = "0x18245A750")]
+	[Token(Token = "0x600088B")]
+	[Address(RVA = "0x5DF5D60", Offset = "0x5DF4D60", VA = "0x5DF5D60")]
 	private void CompileGetVariable(ParameterExpression variable)
 	{
 	}
 
-	[Token(Token = "0x6000881")]
-	[Address(RVA = "0x2463B70", Offset = "0x2462170", VA = "0x182463B70")]
+	[Token(Token = "0x600088C")]
+	[Address(RVA = "0x5DF5EA0", Offset = "0x5DF4EA0", VA = "0x5DF5EA0")]
 	private void EmitCopyValueType(Type valueType)
 	{
 	}
 
-	[Token(Token = "0x6000882")]
-	[Address(RVA = "0x24643F0", Offset = "0x24629F0", VA = "0x1824643F0")]
+	[Token(Token = "0x600088D")]
+	[Address(RVA = "0x5DF5DA0", Offset = "0x5DF4DA0", VA = "0x5DF5DA0")]
 	private void LoadLocalNoValueTypeCopy(ParameterExpression variable)
 	{
 	}
 
-	[Token(Token = "0x6000883")]
-	[Address(RVA = "0x2464990", Offset = "0x2462F90", VA = "0x182464990")]
+	[Token(Token = "0x600088E")]
+	[Address(RVA = "0x5DF5F50", Offset = "0x5DF4F50", VA = "0x5DF5F50")]
 	private bool MaybeMutableValueType(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000884")]
-	[Address(RVA = "0x245A6B0", Offset = "0x2458CB0", VA = "0x18245A6B0")]
+	[Token(Token = "0x600088F")]
+	[Address(RVA = "0x5DF5FB0", Offset = "0x5DF4FB0", VA = "0x5DF5FB0")]
 	private void CompileGetBoxedVariable(ParameterExpression variable)
 	{
 	}
 
-	[Token(Token = "0x6000885")]
-	[Address(RVA = "0x2460300", Offset = "0x245E900", VA = "0x182460300")]
+	[Token(Token = "0x6000890")]
+	[Address(RVA = "0x5DF6040", Offset = "0x5DF5040", VA = "0x5DF6040")]
 	private void CompileSetVariable(ParameterExpression variable, bool isVoid)
 	{
 	}
 
-	[Token(Token = "0x6000886")]
-	[Address(RVA = "0x245FCE0", Offset = "0x245E2E0", VA = "0x18245FCE0")]
+	[Token(Token = "0x6000891")]
+	[Address(RVA = "0x5DF6210", Offset = "0x5DF5210", VA = "0x5DF6210")]
 	private void CompileParameterExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x6000887")]
-	[Address(RVA = "0x2458010", Offset = "0x2456610", VA = "0x182458010")]
+	[Token(Token = "0x6000892")]
+	[Address(RVA = "0x5DF62B0", Offset = "0x5DF52B0", VA = "0x5DF62B0")]
 	private void CompileBlockExpression(Expression expr, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x6000888")]
-	[Address(RVA = "0x24581F0", Offset = "0x24567F0", VA = "0x1824581F0")]
+	[Token(Token = "0x6000893")]
+	[Address(RVA = "0x5DF6420", Offset = "0x5DF5420", VA = "0x5DF6420")]
 	private LocalDefinition[] CompileBlockStart(BlockExpression node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000889")]
-	[Address(RVA = "0x2457F60", Offset = "0x2456560", VA = "0x182457F60")]
+	[Token(Token = "0x6000894")]
+	[Address(RVA = "0x5DF6970", Offset = "0x5DF5970", VA = "0x5DF6970")]
 	private void CompileBlockEnd(LocalDefinition[] locals)
 	{
 	}
 
-	[Token(Token = "0x600088A")]
-	[Address(RVA = "0x245AEE0", Offset = "0x24594E0", VA = "0x18245AEE0")]
+	[Token(Token = "0x6000895")]
+	[Address(RVA = "0x5DF6C10", Offset = "0x5DF5C10", VA = "0x5DF6C10")]
 	private void CompileIndexExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600088B")]
-	[Address(RVA = "0x2463C30", Offset = "0x2462230", VA = "0x182463C30")]
+	[Token(Token = "0x6000896")]
+	[Address(RVA = "0x5DF6D20", Offset = "0x5DF5D20", VA = "0x5DF6D20")]
 	private void EmitIndexGet(IndexExpression index)
 	{
 	}
 
-	[Token(Token = "0x600088C")]
-	[Address(RVA = "0x245AB40", Offset = "0x2459140", VA = "0x18245AB40")]
+	[Token(Token = "0x6000897")]
+	[Address(RVA = "0x5DF6EB0", Offset = "0x5DF5EB0", VA = "0x5DF6EB0")]
 	private void CompileIndexAssignment(BinaryExpression node, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x600088D")]
-	[Address(RVA = "0x245D200", Offset = "0x245B800", VA = "0x18245D200")]
+	[Token(Token = "0x6000898")]
+	[Address(RVA = "0x5DF7340", Offset = "0x5DF6340", VA = "0x5DF7340")]
 	private void CompileMemberAssignment(BinaryExpression node, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x600088E")]
-	[Address(RVA = "0x245CC10", Offset = "0x245B210", VA = "0x18245CC10")]
+	[Token(Token = "0x6000899")]
+	[Address(RVA = "0x5DF7400", Offset = "0x5DF6400", VA = "0x5DF7400")]
 	private void CompileMemberAssignment(bool asVoid, MemberInfo refMember, Expression value, bool forBinding)
 	{
 	}
 
-	[Token(Token = "0x600088F")]
-	[Address(RVA = "0x2463850", Offset = "0x2461E50", VA = "0x182463850")]
+	[Token(Token = "0x600089A")]
+	[Address(RVA = "0x5DF78D0", Offset = "0x5DF68D0", VA = "0x5DF78D0")]
 	private void CompileVariableAssignment(BinaryExpression node, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x6000890")]
-	[Address(RVA = "0x2456C90", Offset = "0x2455290", VA = "0x182456C90")]
+	[Token(Token = "0x600089B")]
+	[Address(RVA = "0x5DF79A0", Offset = "0x5DF69A0", VA = "0x5DF79A0")]
 	private void CompileAssignBinaryExpression(Expression expr, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x6000891")]
-	[Address(RVA = "0x2456F00", Offset = "0x2455500", VA = "0x182456F00")]
+	[Token(Token = "0x600089C")]
+	[Address(RVA = "0x5DF7AC0", Offset = "0x5DF6AC0", VA = "0x5DF7AC0")]
 	private void CompileBinaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x6000892")]
-	[Address(RVA = "0x245A630", Offset = "0x2458C30", VA = "0x18245A630")]
+	[Token(Token = "0x600089D")]
+	[Address(RVA = "0x5DF8FA0", Offset = "0x5DF7FA0", VA = "0x5DF8FA0")]
 	private void CompileEqual(Expression left, Expression right, bool liftedToNull)
 	{
 	}
 
-	[Token(Token = "0x6000893")]
-	[Address(RVA = "0x245FB70", Offset = "0x245E170", VA = "0x18245FB70")]
+	[Token(Token = "0x600089E")]
+	[Address(RVA = "0x5DF9070", Offset = "0x5DF8070", VA = "0x5DF9070")]
 	private void CompileNotEqual(Expression left, Expression right, bool liftedToNull)
 	{
 	}
 
-	[Token(Token = "0x6000894")]
-	[Address(RVA = "0x2458EC0", Offset = "0x24574C0", VA = "0x182458EC0")]
+	[Token(Token = "0x600089F")]
+	[Address(RVA = "0x5DF9140", Offset = "0x5DF8140", VA = "0x5DF9140")]
 	private void CompileComparison(BinaryExpression node)
 	{
 	}
 
-	[Token(Token = "0x6000895")]
-	[Address(RVA = "0x2456580", Offset = "0x2454B80", VA = "0x182456580")]
+	[Token(Token = "0x60008A0")]
+	[Address(RVA = "0x5DF8D00", Offset = "0x5DF7D00", VA = "0x5DF8D00")]
 	private void CompileArithmetic(ExpressionType nodeType, Expression left, Expression right)
 	{
 	}
 
-	[Token(Token = "0x6000896")]
-	[Address(RVA = "0x2459A70", Offset = "0x2458070", VA = "0x182459A70")]
+	[Token(Token = "0x60008A1")]
+	[Address(RVA = "0x5DF9340", Offset = "0x5DF8340", VA = "0x5DF9340")]
 	private void CompileConvertUnaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x6000897")]
-	[Address(RVA = "0x24593E0", Offset = "0x24579E0", VA = "0x1824593E0")]
+	[Token(Token = "0x60008A2")]
+	[Address(RVA = "0x5DFA7E0", Offset = "0x5DF97E0", VA = "0x5DFA7E0")]
 	private void CompileConvertToType(Type typeFrom, Type typeTo, bool isChecked, bool isLiftedToNull)
 	{
 	}
 
-	[Token(Token = "0x6000898")]
-	[Address(RVA = "0x245FBF0", Offset = "0x245E1F0", VA = "0x18245FBF0")]
+	[Token(Token = "0x60008A3")]
+	[Address(RVA = "0x5DFAEA0", Offset = "0x5DF9EA0", VA = "0x5DFAEA0")]
 	private void CompileNotExpression(UnaryExpression node)
 	{
 	}
 
-	[Token(Token = "0x6000899")]
-	[Address(RVA = "0x2463090", Offset = "0x2461690", VA = "0x182463090")]
+	[Token(Token = "0x60008A4")]
+	[Address(RVA = "0x5DFAF30", Offset = "0x5DF9F30", VA = "0x5DFAF30")]
 	private void CompileUnaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600089A")]
-	[Address(RVA = "0x2463F40", Offset = "0x2462540", VA = "0x182463F40")]
+	[Token(Token = "0x60008A5")]
+	[Address(RVA = "0x5DFB480", Offset = "0x5DFA480", VA = "0x5DFB480")]
 	private void EmitUnaryMethodCall(UnaryExpression node)
 	{
 	}
 
-	[Token(Token = "0x600089B")]
-	[Address(RVA = "0x2463D60", Offset = "0x2462360", VA = "0x182463D60")]
+	[Token(Token = "0x60008A6")]
+	[Address(RVA = "0x5DFB740", Offset = "0x5DFA740", VA = "0x5DFB740")]
 	private void EmitUnaryBoolCheck(UnaryExpression node)
 	{
 	}
 
-	[Token(Token = "0x600089C")]
-	[Address(RVA = "0x2456500", Offset = "0x2454B00", VA = "0x182456500")]
+	[Token(Token = "0x60008A7")]
+	[Address(RVA = "0x5DFB960", Offset = "0x5DFA960", VA = "0x5DFB960")]
 	private void CompileAndAlsoBinaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600089D")]
-	[Address(RVA = "0x245FC60", Offset = "0x245E260", VA = "0x18245FC60")]
+	[Token(Token = "0x60008A8")]
+	[Address(RVA = "0x5DFBB60", Offset = "0x5DFAB60", VA = "0x5DFBB60")]
 	private void CompileOrElseBinaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x600089E")]
-	[Address(RVA = "0x245C4A0", Offset = "0x245AAA0", VA = "0x18245C4A0")]
+	[Token(Token = "0x60008A9")]
+	[Address(RVA = "0x5DFB9E0", Offset = "0x5DFA9E0", VA = "0x5DFB9E0")]
 	private void CompileLogicalBinaryExpression(BinaryExpression b, bool andAlso)
 	{
 	}
 
-	[Token(Token = "0x600089F")]
-	[Address(RVA = "0x245E180", Offset = "0x245C780", VA = "0x18245E180")]
+	[Token(Token = "0x60008AA")]
+	[Address(RVA = "0x5DFBBE0", Offset = "0x5DFABE0", VA = "0x5DFBBE0")]
 	private void CompileMethodLogicalBinaryExpression(BinaryExpression expr, bool andAlso)
 	{
 	}
 
-	[Token(Token = "0x60008A0")]
-	[Address(RVA = "0x245B750", Offset = "0x2459D50", VA = "0x18245B750")]
+	[Token(Token = "0x60008AB")]
+	[Address(RVA = "0x5DFBEA0", Offset = "0x5DFAEA0", VA = "0x5DFBEA0")]
 	private void CompileLiftedLogicalBinaryExpression(BinaryExpression node, bool andAlso)
 	{
 	}
 
-	[Token(Token = "0x60008A1")]
-	[Address(RVA = "0x24636D0", Offset = "0x2461CD0", VA = "0x1824636D0")]
+	[Token(Token = "0x60008AC")]
+	[Address(RVA = "0x5DFC7E0", Offset = "0x5DFB7E0", VA = "0x5DFC7E0")]
 	private void CompileUnliftedLogicalBinaryExpression(BinaryExpression expr, bool andAlso)
 	{
 	}
 
-	[Token(Token = "0x60008A2")]
-	[Address(RVA = "0x24590A0", Offset = "0x24576A0", VA = "0x1824590A0")]
+	[Token(Token = "0x60008AD")]
+	[Address(RVA = "0x5DFC950", Offset = "0x5DFB950", VA = "0x5DFC950")]
 	private void CompileConditionalExpression(Expression expr, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x60008A3")]
-	[Address(RVA = "0x245C8D0", Offset = "0x245AED0", VA = "0x18245C8D0")]
+	[Token(Token = "0x60008AE")]
+	[Address(RVA = "0x5DFCC90", Offset = "0x5DFBC90", VA = "0x5DFCC90")]
 	private void CompileLoopExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008A4")]
-	[Address(RVA = "0x2460B40", Offset = "0x245F140", VA = "0x182460B40")]
+	[Token(Token = "0x60008AF")]
+	[Address(RVA = "0x5DFD0D0", Offset = "0x5DFC0D0", VA = "0x5DFD0D0")]
 	private void CompileSwitchExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008A5")]
+	[Token(Token = "0x60008B0")]
 	private void CompileIntSwitchExpression<T>(SwitchExpression node)
 	{
 	}
 
-	[Token(Token = "0x60008A6")]
-	[Address(RVA = "0x24604E0", Offset = "0x245EAE0", VA = "0x1824604E0")]
+	[Token(Token = "0x60008B1")]
+	[Address(RVA = "0x5DFDB80", Offset = "0x5DFCB80", VA = "0x5DFDB80")]
 	private void CompileStringSwitchExpression(SwitchExpression node)
 	{
 	}
 
-	[Token(Token = "0x60008A7")]
-	[Address(RVA = "0x245B230", Offset = "0x2459830", VA = "0x18245B230")]
+	[Token(Token = "0x60008B2")]
+	[Address(RVA = "0x5DFE440", Offset = "0x5DFD440", VA = "0x5DFE440")]
 	private void CompileLabelExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008A8")]
-	[Address(RVA = "0x245A830", Offset = "0x2458E30", VA = "0x18245A830")]
+	[Token(Token = "0x60008B3")]
+	[Address(RVA = "0x5DFE740", Offset = "0x5DFD740", VA = "0x5DFE740")]
 	private void CompileGotoExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008A9")]
-	[Address(RVA = "0x2464A20", Offset = "0x2463020", VA = "0x182464A20")]
+	[Token(Token = "0x60008B4")]
+	[Address(RVA = "0x5DFCFB0", Offset = "0x5DFBFB0", VA = "0x5DFCFB0")]
 	private void PushLabelBlock(LabelScopeKind type)
 	{
 	}
 
-	[Token(Token = "0x60008AA")]
-	[Address(RVA = "0x24649F0", Offset = "0x2462FF0", VA = "0x1824649F0")]
+	[Token(Token = "0x60008B5")]
+	[Address(RVA = "0x5DFD0B0", Offset = "0x5DFC0B0", VA = "0x5DFD0B0")]
 	private void PopLabelBlock(LabelScopeKind kind)
 	{
 	}
 
-	[Token(Token = "0x60008AB")]
-	[Address(RVA = "0x24641A0", Offset = "0x24627A0", VA = "0x1824641A0")]
+	[Token(Token = "0x60008B6")]
+	[Address(RVA = "0x5DFE990", Offset = "0x5DFD990", VA = "0x5DFE990")]
 	private LabelInfo EnsureLabel(LabelTarget node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008AC")]
-	[Address(RVA = "0x2464AA0", Offset = "0x24630A0", VA = "0x182464AA0")]
+	[Token(Token = "0x60008B7")]
+	[Address(RVA = "0x5DFE960", Offset = "0x5DFD960", VA = "0x5DFE960")]
 	private LabelInfo ReferenceLabel(LabelTarget node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008AD")]
-	[Address(RVA = "0x2463AD0", Offset = "0x24620D0", VA = "0x182463AD0")]
+	[Token(Token = "0x60008B8")]
+	[Address(RVA = "0x5DFD030", Offset = "0x5DFC030", VA = "0x5DFD030")]
 	private LabelInfo DefineLabel(LabelTarget node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008AE")]
-	[Address(RVA = "0x2464DB0", Offset = "0x24633B0", VA = "0x182464DB0")]
+	[Token(Token = "0x60008B9")]
+	[Address(RVA = "0x5DFEA60", Offset = "0x5DFDA60", VA = "0x5DFEA60")]
 	private bool TryPushLabelBlock(Expression node)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60008AF")]
-	[Address(RVA = "0x2463990", Offset = "0x2461F90", VA = "0x182463990")]
+	[Token(Token = "0x60008BA")]
+	[Address(RVA = "0x5DFF0B0", Offset = "0x5DFE0B0", VA = "0x5DFF0B0")]
 	private void DefineBlockLabels(Expression node)
 	{
 	}
 
-	[Token(Token = "0x60008B0")]
-	[Address(RVA = "0x2455970", Offset = "0x2453F70", VA = "0x182455970")]
+	[Token(Token = "0x60008BB")]
+	[Address(RVA = "0x5DFF220", Offset = "0x5DFE220", VA = "0x5DFF220")]
 	private void CheckRethrow()
 	{
 	}
 
-	[Token(Token = "0x60008B1")]
-	[Address(RVA = "0x2461350", Offset = "0x245F950", VA = "0x182461350")]
+	[Token(Token = "0x60008BC")]
+	[Address(RVA = "0x5DFF270", Offset = "0x5DFE270", VA = "0x5DFF270")]
 	private void CompileThrowUnaryExpression(Expression expr, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x60008B2")]
-	[Address(RVA = "0x2461920", Offset = "0x245FF20", VA = "0x182461920")]
+	[Token(Token = "0x60008BD")]
+	[Address(RVA = "0x5DFF500", Offset = "0x5DFE500", VA = "0x5DFF500")]
 	private void CompileTryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008B3")]
-	[Address(RVA = "0x2462640", Offset = "0x2460C40", VA = "0x182462640")]
+	[Token(Token = "0x60008BE")]
+	[Address(RVA = "0x5E00920", Offset = "0x5DFF920", VA = "0x5E00920")]
 	private void CompileTryFaultExpression(TryExpression expr)
 	{
 	}
 
-	[Token(Token = "0x60008B4")]
-	[Address(RVA = "0x245E0E0", Offset = "0x245C6E0", VA = "0x18245E0E0")]
+	[Token(Token = "0x60008BF")]
+	[Address(RVA = "0x5E00E80", Offset = "0x5DFFE80", VA = "0x5E00E80")]
 	private void CompileMethodCallExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008B5")]
-	[Address(RVA = "0x245DBE0", Offset = "0x245C1E0", VA = "0x18245DBE0")]
+	[Token(Token = "0x60008C0")]
+	[Address(RVA = "0x5E00F10", Offset = "0x5DFFF10", VA = "0x5E00F10")]
 	private void CompileMethodCallExpression(Expression @object, MethodInfo method, IArgumentProvider arguments)
 	{
 	}
 
-	[Token(Token = "0x60008B6")]
-	[Address(RVA = "0x24567E0", Offset = "0x2454DE0", VA = "0x1824567E0")]
+	[Token(Token = "0x60008C1")]
+	[Address(RVA = "0x5E015E0", Offset = "0x5E005E0", VA = "0x5E015E0")]
 	private ByRefUpdater CompileArrayIndexAddress(Expression array, Expression index, int argumentIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008B7")]
-	[Address(RVA = "0x2463D50", Offset = "0x2462350", VA = "0x182463D50")]
+	[Token(Token = "0x60008C2")]
+	[Address(RVA = "0x5DF6D10", Offset = "0x5DF5D10", VA = "0x5DF6D10")]
 	private void EmitThisForMethodCall(Expression node)
 	{
 	}
 
-	[Token(Token = "0x60008B8")]
-	[Address(RVA = "0x2464BF0", Offset = "0x24631F0", VA = "0x182464BF0")]
+	[Token(Token = "0x60008C3")]
+	[Address(RVA = "0x5E01900", Offset = "0x5E00900", VA = "0x5E01900")]
 	private static bool ShouldWritebackNode(Expression node)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60008B9")]
-	[Address(RVA = "0x24559D0", Offset = "0x2453FD0", VA = "0x1824559D0")]
+	[Token(Token = "0x60008C4")]
+	[Address(RVA = "0x5DF9B70", Offset = "0x5DF8B70", VA = "0x5DF9B70")]
 	private ByRefUpdater CompileAddress(Expression node, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008BA")]
-	[Address(RVA = "0x245E350", Offset = "0x245C950", VA = "0x18245E350")]
+	[Token(Token = "0x60008C5")]
+	[Address(RVA = "0x5E01A90", Offset = "0x5E00A90", VA = "0x5E01A90")]
 	private ByRefUpdater CompileMultiDimArrayAccess(Expression array, IArgumentProvider arguments, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008BB")]
-	[Address(RVA = "0x245ECB0", Offset = "0x245D2B0", VA = "0x18245ECB0")]
+	[Token(Token = "0x60008C6")]
+	[Address(RVA = "0x5E020B0", Offset = "0x5E010B0", VA = "0x5E020B0")]
 	private void CompileNewExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008BC")]
-	[Address(RVA = "0x245D2F0", Offset = "0x245B8F0", VA = "0x18245D2F0")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x5E02560", Offset = "0x5E01560", VA = "0x5E02560")]
 	private void CompileMemberExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008BD")]
-	[Address(RVA = "0x245D870", Offset = "0x245BE70", VA = "0x18245D870")]
+	[Token(Token = "0x60008C8")]
+	[Address(RVA = "0x5E025F0", Offset = "0x5E015F0", VA = "0x5E025F0")]
 	private void CompileMember(Expression from, MemberInfo member, bool forBinding)
 	{
 	}
 
-	[Token(Token = "0x60008BE")]
-	[Address(RVA = "0x245E940", Offset = "0x245CF40", VA = "0x18245E940")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x5E02A40", Offset = "0x5E01A40", VA = "0x5E02A40")]
 	private void CompileNewArrayExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008BF")]
-	[Address(RVA = "0x245A230", Offset = "0x2458830", VA = "0x18245A230")]
+	[Token(Token = "0x60008CA")]
+	[Address(RVA = "0x5E02EE0", Offset = "0x5E01EE0", VA = "0x5E02EE0")]
 	private void CompileDebugInfoExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C0")]
-	[Address(RVA = "0x2460080", Offset = "0x245E680", VA = "0x182460080")]
+	[Token(Token = "0x60008CB")]
+	[Address(RVA = "0x5E030A0", Offset = "0x5E020A0", VA = "0x5E030A0")]
 	private void CompileRuntimeVariablesExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C1")]
-	[Address(RVA = "0x245B4F0", Offset = "0x2459AF0", VA = "0x18245B4F0")]
+	[Token(Token = "0x60008CC")]
+	[Address(RVA = "0x5E033D0", Offset = "0x5E023D0", VA = "0x5E033D0")]
 	private void CompileLambdaExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C2")]
-	[Address(RVA = "0x2458720", Offset = "0x2456D20", VA = "0x182458720")]
+	[Token(Token = "0x60008CD")]
+	[Address(RVA = "0x5E03640", Offset = "0x5E02640", VA = "0x5E03640")]
 	private void CompileCoalesceBinaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C3")]
-	[Address(RVA = "0x245AFC0", Offset = "0x24595C0", VA = "0x18245AFC0")]
+	[Token(Token = "0x60008CE")]
+	[Address(RVA = "0x5E03DE0", Offset = "0x5E02DE0", VA = "0x5E03DE0")]
 	private void CompileInvocationExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C4")]
-	[Address(RVA = "0x245C130", Offset = "0x245A730", VA = "0x18245C130")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x5E040E0", Offset = "0x5E030E0", VA = "0x5E040E0")]
 	private void CompileListInitExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C5")]
-	[Address(RVA = "0x245C1C0", Offset = "0x245A7C0", VA = "0x18245C1C0")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x5E04150", Offset = "0x5E03150", VA = "0x5E04150")]
 	private void CompileListInit(ReadOnlyCollection<ElementInit> initializers)
 	{
 	}
 
-	[Token(Token = "0x60008C6")]
-	[Address(RVA = "0x245D3A0", Offset = "0x245B9A0", VA = "0x18245D3A0")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x5E04670", Offset = "0x5E03670", VA = "0x5E04670")]
 	private void CompileMemberInitExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008C7")]
-	[Address(RVA = "0x245D430", Offset = "0x245BA30", VA = "0x18245D430")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x5E046E0", Offset = "0x5E036E0", VA = "0x5E046E0")]
 	private void CompileMemberInit(ReadOnlyCollection<MemberBinding> bindings)
 	{
 	}
 
-	[Token(Token = "0x60008C8")]
-	[Address(RVA = "0x2464270", Offset = "0x2462870", VA = "0x182464270")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x5E04D50", Offset = "0x5E03D50", VA = "0x5E04D50")]
 	private static Type GetMemberType(MemberInfo member)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008C9")]
-	[Address(RVA = "0x245FD60", Offset = "0x245E360", VA = "0x18245FD60")]
+	[Token(Token = "0x60008D4")]
+	[Address(RVA = "0x5E04EC0", Offset = "0x5E03EC0", VA = "0x5E04EC0")]
 	private void CompileQuoteUnaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008CA")]
-	[Address(RVA = "0x2463590", Offset = "0x2461B90", VA = "0x182463590")]
+	[Token(Token = "0x60008D5")]
+	[Address(RVA = "0x5E05250", Offset = "0x5E04250", VA = "0x5E05250")]
 	private void CompileUnboxUnaryExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008CB")]
-	[Address(RVA = "0x2462BF0", Offset = "0x24611F0", VA = "0x182462BF0")]
+	[Token(Token = "0x60008D6")]
+	[Address(RVA = "0x5E053B0", Offset = "0x5E043B0", VA = "0x5E053B0")]
 	private void CompileTypeEqualExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008CC")]
-	[Address(RVA = "0x2462B40", Offset = "0x2461140", VA = "0x182462B40")]
+	[Token(Token = "0x60008D7")]
+	[Address(RVA = "0x5DFB670", Offset = "0x5DFA670", VA = "0x5DFB670")]
 	private void CompileTypeAsExpression(UnaryExpression node)
 	{
 	}
 
-	[Token(Token = "0x60008CD")]
-	[Address(RVA = "0x2462E10", Offset = "0x2461410", VA = "0x182462E10")]
+	[Token(Token = "0x60008D8")]
+	[Address(RVA = "0x5E055D0", Offset = "0x5E045D0", VA = "0x5E055D0")]
 	private void CompileTypeIsExpression(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008CE")]
-	[Address(RVA = "0x2463970", Offset = "0x2461F70", VA = "0x182463970")]
+	[Token(Token = "0x60008D9")]
+	[Address(RVA = "0x5DF6900", Offset = "0x5DF5900", VA = "0x5DF6900")]
 	private void Compile(Expression expr, bool asVoid)
 	{
 	}
 
-	[Token(Token = "0x60008CF")]
-	[Address(RVA = "0x2456B20", Offset = "0x2455120", VA = "0x182456B20")]
+	[Token(Token = "0x60008DA")]
+	[Address(RVA = "0x5DF6A50", Offset = "0x5DF5A50", VA = "0x5DF6A50")]
 	private void CompileAsVoid(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008D0")]
-	[Address(RVA = "0x245F060", Offset = "0x245D660", VA = "0x18245F060")]
+	[Token(Token = "0x60008DB")]
+	[Address(RVA = "0x5E058F0", Offset = "0x5E048F0", VA = "0x5E058F0")]
 	private void CompileNoLabelPush(Expression expr)
 	{
 	}
 
-	[Token(Token = "0x60008D1")]
-	[Address(RVA = "0x2463900", Offset = "0x2461F00", VA = "0x182463900")]
+	[Token(Token = "0x60008DC")]
+	[Address(RVA = "0x5DF55F0", Offset = "0x5DF45F0", VA = "0x5DF55F0")]
 	private void Compile(Expression expr)
 	{
 	}

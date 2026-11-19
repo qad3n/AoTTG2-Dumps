@@ -11,171 +11,171 @@ using Mono.Util;
 
 namespace System.IO.Compression;
 
-[Token(Token = "0x2000296")]
+[Token(Token = "0x2000257")]
 internal class DeflateStreamNative
 {
-	[Token(Token = "0x2000297")]
+	[Token(Token = "0x2000258")]
 	[UnmanagedFunctionPointer(CallingConvention.Cdecl)]
 	private delegate int UnmanagedReadOrWrite(IntPtr buffer, int length, IntPtr data);
 
-	[Token(Token = "0x2000298")]
+	[Token(Token = "0x2000259")]
 	private sealed class SafeDeflateStreamHandle : SafeHandle
 	{
-		[Token(Token = "0x170003B6")]
+		[Token(Token = "0x17000387")]
 		public override bool IsInvalid
 		{
-			[Token(Token = "0x600123D")]
-			[Address(RVA = "0x2498690", Offset = "0x2496C90", VA = "0x182498690", Slot = "5")]
+			[Token(Token = "0x600107F")]
+			[Address(RVA = "0x628E8F0", Offset = "0x628D8F0", VA = "0x628E8F0", Slot = "5")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x600123E")]
-		[Address(RVA = "0x1967BE0", Offset = "0x19661E0", VA = "0x181967BE0")]
+		[Token(Token = "0x6001080")]
+		[Address(RVA = "0x628E8B0", Offset = "0x628D8B0", VA = "0x628E8B0")]
 		private SafeDeflateStreamHandle()
 		{
 		}
 
-		[Token(Token = "0x600123F")]
-		[Address(RVA = "0x2905070", Offset = "0x2903670", VA = "0x182905070", Slot = "7")]
+		[Token(Token = "0x6001081")]
+		[Address(RVA = "0x628E900", Offset = "0x628D900", VA = "0x628E900", Slot = "7")]
 		protected override bool ReleaseHandle()
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x400092A")]
+	[Token(Token = "0x400085B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private UnmanagedReadOrWrite feeder;
 
-	[Token(Token = "0x400092B")]
+	[Token(Token = "0x400085C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private Stream base_stream;
 
-	[Token(Token = "0x400092C")]
+	[Token(Token = "0x400085D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private SafeDeflateStreamHandle z_stream;
 
-	[Token(Token = "0x400092D")]
+	[Token(Token = "0x400085E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private GCHandle data;
 
-	[Token(Token = "0x400092E")]
+	[Token(Token = "0x400085F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private bool disposed;
 
-	[Token(Token = "0x400092F")]
+	[Token(Token = "0x4000860")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private byte[] io_buffer;
 
-	[Token(Token = "0x4000930")]
+	[Token(Token = "0x4000861")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private Exception last_error;
 
-	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600106C")]
+	[Address(RVA = "0x628E170", Offset = "0x628D170", VA = "0x628E170")]
 	private DeflateStreamNative()
 	{
 	}
 
-	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x28EE030", Offset = "0x28EC630", VA = "0x1828EE030")]
+	[Token(Token = "0x600106D")]
+	[Address(RVA = "0x628C590", Offset = "0x628B590", VA = "0x628C590")]
 	public static DeflateStreamNative Create(Stream compressedStream, CompressionMode mode, bool gzip)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600122C")]
-	[Address(RVA = "0x28EE3B0", Offset = "0x28EC9B0", VA = "0x1828EE3B0", Slot = "1")]
+	[Token(Token = "0x600106E")]
+	[Address(RVA = "0x628E2A0", Offset = "0x628D2A0", VA = "0x628E2A0", Slot = "1")]
 	~DeflateStreamNative()
 	{
 	}
 
-	[Token(Token = "0x600122D")]
-	[Address(RVA = "0x28EE2A0", Offset = "0x28EC8A0", VA = "0x1828EE2A0")]
+	[Token(Token = "0x600106F")]
+	[Address(RVA = "0x628C9C0", Offset = "0x628B9C0", VA = "0x628C9C0")]
 	public void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x600122E")]
-	[Address(RVA = "0x28EE410", Offset = "0x28ECA10", VA = "0x1828EE410")]
+	[Token(Token = "0x6001070")]
+	[Address(RVA = "0x628D180", Offset = "0x628C180", VA = "0x628D180")]
 	public void Flush()
 	{
 	}
 
-	[Token(Token = "0x600122F")]
-	[Address(RVA = "0x28EE530", Offset = "0x28ECB30", VA = "0x1828EE530")]
+	[Token(Token = "0x6001071")]
+	[Address(RVA = "0x628CB10", Offset = "0x628BB10", VA = "0x628CB10")]
 	public int ReadZStream(IntPtr buffer, int length)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001230")]
-	[Address(RVA = "0x28EEB50", Offset = "0x28ED150", VA = "0x1828EEB50")]
+	[Token(Token = "0x6001072")]
+	[Address(RVA = "0x628CE00", Offset = "0x628BE00", VA = "0x628CE00")]
 	public void WriteZStream(IntPtr buffer, int length)
 	{
 	}
 
-	[Token(Token = "0x6001231")]
-	[Address(RVA = "0x28EE660", Offset = "0x28ECC60", VA = "0x1828EE660")]
+	[Token(Token = "0x6001073")]
+	[Address(RVA = "0x628DF90", Offset = "0x628CF90", VA = "0x628DF90")]
 	[MonoPInvokeCallback(typeof(UnmanagedReadOrWrite))]
 	private static int UnmanagedRead(IntPtr buffer, int length, IntPtr data)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001232")]
-	[Address(RVA = "0x28EE770", Offset = "0x28ECD70", VA = "0x1828EE770")]
+	[Token(Token = "0x6001074")]
+	[Address(RVA = "0x628E530", Offset = "0x628D530", VA = "0x628E530")]
 	private int UnmanagedRead(IntPtr buffer, int length)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001233")]
-	[Address(RVA = "0x28EEA40", Offset = "0x28ED040", VA = "0x1828EEA40")]
+	[Token(Token = "0x6001075")]
+	[Address(RVA = "0x628E080", Offset = "0x628D080", VA = "0x628E080")]
 	[MonoPInvokeCallback(typeof(UnmanagedReadOrWrite))]
 	private static int UnmanagedWrite(IntPtr buffer, int length, IntPtr data)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001234")]
-	[Address(RVA = "0x28EE8C0", Offset = "0x28ECEC0", VA = "0x1828EE8C0")]
+	[Token(Token = "0x6001076")]
+	[Address(RVA = "0x628E6D0", Offset = "0x628D6D0", VA = "0x628E6D0")]
 	private int UnmanagedWrite(IntPtr buffer, int length)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001235")]
-	[Address(RVA = "0x28EDE50", Offset = "0x28EC450", VA = "0x1828EDE50")]
+	[Token(Token = "0x6001077")]
+	[Address(RVA = "0x628E390", Offset = "0x628D390", VA = "0x628E390")]
 	private void CheckResult(int result, string where)
 	{
 	}
 
 	[PreserveSig]
-	[Token(Token = "0x6001236")]
-	[Address(RVA = "0x28EDFB0", Offset = "0x28EC5B0", VA = "0x1828EDFB0")]
+	[Token(Token = "0x6001078")]
+	[Address(RVA = "0x628E220", Offset = "0x628D220", VA = "0x628E220")]
 	private static extern SafeDeflateStreamHandle CreateZStream(CompressionMode compress, bool gzip, UnmanagedReadOrWrite feeder, IntPtr data);
 
 	[PreserveSig]
-	[Token(Token = "0x6001237")]
-	[Address(RVA = "0x28EDFA0", Offset = "0x28EC5A0", VA = "0x1828EDFA0")]
+	[Token(Token = "0x6001079")]
+	[Address(RVA = "0x628E8C0", Offset = "0x628D8C0", VA = "0x628E8C0")]
 	private static extern int CloseZStream(IntPtr stream);
 
 	[PreserveSig]
-	[Token(Token = "0x6001238")]
-	[Address(RVA = "0x28EE4C0", Offset = "0x28ECAC0", VA = "0x1828EE4C0")]
+	[Token(Token = "0x600107A")]
+	[Address(RVA = "0x628E330", Offset = "0x628D330", VA = "0x628E330")]
 	private static extern int Flush(SafeDeflateStreamHandle stream);
 
 	[PreserveSig]
-	[Token(Token = "0x6001239")]
-	[Address(RVA = "0x28EE5E0", Offset = "0x28ECBE0", VA = "0x1828EE5E0")]
+	[Token(Token = "0x600107B")]
+	[Address(RVA = "0x628E450", Offset = "0x628D450", VA = "0x628E450")]
 	private static extern int ReadZStream(SafeDeflateStreamHandle stream, IntPtr buffer, int length);
 
 	[PreserveSig]
-	[Token(Token = "0x600123A")]
-	[Address(RVA = "0x28EEC00", Offset = "0x28ED200", VA = "0x1828EEC00")]
+	[Token(Token = "0x600107C")]
+	[Address(RVA = "0x628E4C0", Offset = "0x628D4C0", VA = "0x628E4C0")]
 	private static extern int WriteZStream(SafeDeflateStreamHandle stream, IntPtr buffer, int length);
 }

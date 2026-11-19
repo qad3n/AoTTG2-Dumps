@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002AD")]
+[Token(Token = "0x200026E")]
 internal class ReceiveState
 {
-	[Token(Token = "0x40009BE")]
+	[Token(Token = "0x40008EF")]
 	[FieldOffset(Offset = "0x10")]
 	internal ResponseDescription Resp;
 
-	[Token(Token = "0x40009BF")]
+	[Token(Token = "0x40008F0")]
 	[FieldOffset(Offset = "0x18")]
 	internal int ValidThrough;
 
-	[Token(Token = "0x40009C0")]
+	[Token(Token = "0x40008F1")]
 	[FieldOffset(Offset = "0x20")]
 	internal byte[] Buffer;
 
-	[Token(Token = "0x40009C1")]
+	[Token(Token = "0x40008F2")]
 	[FieldOffset(Offset = "0x28")]
 	internal CommandStream Connection;
 
-	[Token(Token = "0x60012CF")]
-	[Address(RVA = "0x2904E50", Offset = "0x2903450", VA = "0x182904E50")]
+	[Token(Token = "0x6001111")]
+	[Address(RVA = "0x6297380", Offset = "0x6296380", VA = "0x6297380")]
 	internal ReceiveState(CommandStream connection)
 	{
 	}

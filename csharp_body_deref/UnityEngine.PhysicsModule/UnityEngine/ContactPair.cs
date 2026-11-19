@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.ContactPair
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,7 +47,7 @@ public readonly struct ContactPair
 	public EntityId colliderEntityId
 	{
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x69E02E0", Offset = "0x69DF2E0", VA = "0x69E02E0")]
 		get
 		{
 			return default(EntityId);
@@ -58,7 +58,7 @@ public readonly struct ContactPair
 	public EntityId otherColliderEntityId
 	{
 		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x69E02F0", Offset = "0x69DF2F0", VA = "0x69E02F0")]
 		get
 		{
 			return default(EntityId);
@@ -69,7 +69,7 @@ public readonly struct ContactPair
 	public Collider collider
 	{
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0x2FDE9C0", Offset = "0x2FDCFC0", VA = "0x182FDE9C0")]
+		[Address(RVA = "0x69D6870", Offset = "0x69D5870", VA = "0x69D6870")]
 		get
 		{
 			return null;
@@ -80,7 +80,7 @@ public readonly struct ContactPair
 	public Collider otherCollider
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x2FDEA70", Offset = "0x2FDD070", VA = "0x182FDEA70")]
+		[Address(RVA = "0x69D6750", Offset = "0x69D5750", VA = "0x69D6750")]
 		get
 		{
 			return null;
@@ -91,7 +91,7 @@ public readonly struct ContactPair
 	public Vector3 impulseSum
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x111AD10", Offset = "0x1119310", VA = "0x18111AD10")]
+		[Address(RVA = "0x69E0300", Offset = "0x69DF300", VA = "0x69E0300")]
 		get
 		{
 			return default(Vector3);
@@ -102,7 +102,7 @@ public readonly struct ContactPair
 	public bool isCollisionEnter
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x2FDEA40", Offset = "0x2FDD040", VA = "0x182FDEA40")]
+		[Address(RVA = "0x69DFB50", Offset = "0x69DEB50", VA = "0x69DFB50")]
 		get
 		{
 			return default(bool);
@@ -113,7 +113,7 @@ public readonly struct ContactPair
 	public bool isCollisionExit
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x2FDEA50", Offset = "0x2FDD050", VA = "0x182FDEA50")]
+		[Address(RVA = "0x69DFD10", Offset = "0x69DED10", VA = "0x69DFD10")]
 		get
 		{
 			return default(bool);
@@ -124,7 +124,7 @@ public readonly struct ContactPair
 	public bool isCollisionStay
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x2FDEA60", Offset = "0x2FDD060", VA = "0x182FDEA60")]
+		[Address(RVA = "0x69DFD00", Offset = "0x69DED00", VA = "0x69DFD00")]
 		get
 		{
 			return default(bool);
@@ -135,7 +135,7 @@ public readonly struct ContactPair
 	internal bool hasRemovedCollider
 	{
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x2FDE6F0", Offset = "0x2FDCCF0", VA = "0x182FDE6F0")]
+		[Address(RVA = "0x69DFB40", Offset = "0x69DEB40", VA = "0x69DFB40")]
 		get
 		{
 			return default(bool);
@@ -143,21 +143,21 @@ public readonly struct ContactPair
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x2FDE760", Offset = "0x2FDCD60", VA = "0x182FDE760")]
+	[Address(RVA = "0x69D6AA0", Offset = "0x69D5AA0", VA = "0x69D6AA0")]
 	internal int ExtractContactsArray(ContactPoint[] managedContainer, bool flipped)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x2FDE9B0", Offset = "0x2FDCFB0", VA = "0x182FDE9B0")]
+	[Address(RVA = "0x69E0310", Offset = "0x69DF310", VA = "0x69E0310")]
 	public unsafe ref ContactPairPoint GetContactPoint(int index)
 	{
 		return ref *(ContactPairPoint*)null;
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x2FDE930", Offset = "0x2FDCF30", VA = "0x182FDE930")]
+	[Address(RVA = "0x69D6FF0", Offset = "0x69D5FF0", VA = "0x69D6FF0")]
 	internal unsafe ContactPairPoint* GetContactPoint_Internal(int index)
 	{
 		//IL_0002: Expected I, but got O

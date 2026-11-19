@@ -15,99 +15,99 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004E8")]
+[Token(Token = "0x20004C1")]
 internal class ManifestBasedResourceGroveler : System.Resources.IResourceGroveler
 {
-	[Token(Token = "0x4001372")]
+	[Token(Token = "0x40012D2")]
 	[FieldOffset(Offset = "0x10")]
 	private ResourceManager.ResourceManagerMediator _mediator;
 
-	[Token(Token = "0x60023E8")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x60023B6")]
+	[Address(RVA = "0x53CDF70", Offset = "0x53CCF70", VA = "0x53CDF70")]
 	public ManifestBasedResourceGroveler(ResourceManager.ResourceManagerMediator mediator)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x60023E9")]
-	[Address(RVA = "0x1A47D40", Offset = "0x1A46340", VA = "0x181A47D40", Slot = "4")]
+	[Token(Token = "0x60023B7")]
+	[Address(RVA = "0x53CDFA0", Offset = "0x53CCFA0", VA = "0x53CDFA0", Slot = "4")]
 	public ResourceSet GrovelForResourceSet(CultureInfo culture, Dictionary<string, ResourceSet> localResourceSets, bool tryParents, bool createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023EA")]
-	[Address(RVA = "0x1A48860", Offset = "0x1A46E60", VA = "0x181A48860")]
+	[Token(Token = "0x60023B8")]
+	[Address(RVA = "0x53CE280", Offset = "0x53CD280", VA = "0x53CE280")]
 	private CultureInfo UltimateFallbackFixup(CultureInfo lookForCulture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023EB")]
-	[Address(RVA = "0x1A477D0", Offset = "0x1A45DD0", VA = "0x181A477D0")]
+	[Token(Token = "0x60023B9")]
+	[Address(RVA = "0x53CF690", Offset = "0x53CE690", VA = "0x53CF690")]
 	internal static CultureInfo GetNeutralResourcesLanguage(Assembly a, ref UltimateResourceFallbackLocation fallbackLocation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023EC")]
-	[Address(RVA = "0x1A46B40", Offset = "0x1A45140", VA = "0x181A46B40")]
+	[Token(Token = "0x60023BA")]
+	[Address(RVA = "0x53CEA20", Offset = "0x53CDA20", VA = "0x53CEA20")]
 	internal ResourceSet CreateResourceSet(Stream store, Assembly assembly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023ED")]
-	[Address(RVA = "0x1A47600", Offset = "0x1A45C00", VA = "0x181A47600")]
+	[Token(Token = "0x60023BB")]
+	[Address(RVA = "0x53CE950", Offset = "0x53CD950", VA = "0x53CE950")]
 	private Stream GetManifestResourceStream(System.Reflection.RuntimeAssembly satellite, string fileName, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x60023EE")]
-	[Address(RVA = "0x1A466B0", Offset = "0x1A44CB0", VA = "0x181A466B0")]
+	[Token(Token = "0x60023BC")]
+	[Address(RVA = "0x53CFBB0", Offset = "0x53CEBB0", VA = "0x53CFBB0")]
 	private Stream CaseInsensitiveManifestResourceStreamLookup(System.Reflection.RuntimeAssembly satellite, string name)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x60023EF")]
-	[Address(RVA = "0x1A47B70", Offset = "0x1A46170", VA = "0x181A47B70")]
+	[Token(Token = "0x60023BD")]
+	[Address(RVA = "0x53CE390", Offset = "0x53CD390", VA = "0x53CE390")]
 	private System.Reflection.RuntimeAssembly GetSatelliteAssembly(CultureInfo lookForCulture, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023F0")]
-	[Address(RVA = "0x1A46530", Offset = "0x1A44B30", VA = "0x181A46530")]
+	[Token(Token = "0x60023BE")]
+	[Address(RVA = "0x53CFA60", Offset = "0x53CEA60", VA = "0x53CFA60")]
 	private bool CanUseDefaultResourceClasses(string readerTypeName, string resSetTypeName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60023F1")]
-	[Address(RVA = "0x1A47AF0", Offset = "0x1A460F0", VA = "0x181A47AF0")]
+	[Token(Token = "0x60023BF")]
+	[Address(RVA = "0x53CFF70", Offset = "0x53CEF70", VA = "0x53CFF70")]
 	private string GetSatelliteAssemblyName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023F2")]
-	[Address(RVA = "0x1A484B0", Offset = "0x1A46AB0", VA = "0x181A484B0")]
+	[Token(Token = "0x60023C0")]
+	[Address(RVA = "0x53CE570", Offset = "0x53CD570", VA = "0x53CE570")]
 	private void HandleSatelliteMissing()
 	{
 	}
 
-	[Token(Token = "0x60023F3")]
-	[Address(RVA = "0x1A48200", Offset = "0x1A46800", VA = "0x181A48200")]
+	[Token(Token = "0x60023C1")]
+	[Address(RVA = "0x53CF3C0", Offset = "0x53CE3C0", VA = "0x53CF3C0")]
 	private void HandleResourceStreamMissing(string fileName)
 	{
 	}
 
-	[Token(Token = "0x60023F4")]
-	[Address(RVA = "0x1A47740", Offset = "0x1A45D40", VA = "0x181A47740")]
+	[Token(Token = "0x60023C2")]
+	[Address(RVA = "0x53CF9F0", Offset = "0x53CE9F0", VA = "0x53CF9F0")]
 	private static bool GetNeutralResourcesLanguageAttribute(Assembly assembly, ref string cultureName, ref short fallbackLocation)
 	{
 		return default(bool);

@@ -16,42 +16,42 @@ using UnityEngine;
 
 namespace Settings;
 
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x2000111")]
 internal class KeybindSetting : BaseSetting
 {
-	[Token(Token = "0x20000D7")]
+	[Token(Token = "0x2000112")]
 	[CompilerGenerated]
-	private sealed class _003CDefaultInputKeys_003Ed__5 : IEnumerable<InputKey>, IEnumerable, IEnumerator<InputKey>, IEnumerator, IDisposable
+	private sealed class _003CDefaultInputKeys_003Ed__6 : IEnumerable<InputKey>, IEnumerable, IEnumerator<InputKey>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000519")]
+		[Token(Token = "0x4000658")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400051A")]
+		[Token(Token = "0x4000659")]
 		[FieldOffset(Offset = "0x18")]
 		private InputKey _003C_003E2__current;
 
-		[Token(Token = "0x400051B")]
+		[Token(Token = "0x400065A")]
 		[FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x400051C")]
+		[Token(Token = "0x400065B")]
 		[FieldOffset(Offset = "0x28")]
 		public KeybindSetting _003C_003E4__this;
 
-		[Token(Token = "0x400051D")]
+		[Token(Token = "0x400065C")]
 		[FieldOffset(Offset = "0x30")]
 		private string[] _003C_003E7__wrap1;
 
-		[Token(Token = "0x400051E")]
+		[Token(Token = "0x400065D")]
 		[FieldOffset(Offset = "0x38")]
 		private int _003C_003E7__wrap2;
 
-		[Token(Token = "0x170000A6")]
+		[Token(Token = "0x170000C3")]
 		private InputKey System_002ECollections_002EGeneric_002EIEnumerator_003CSettings_002EInputKey_003E_002ECurrent
 		{
-			[Token(Token = "0x6000448")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Token(Token = "0x60005C6")]
+			[Address(RVA = "0x5B7B5B0", Offset = "0x5B7A5B0", VA = "0x5B7B5B0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,11 +59,11 @@ internal class KeybindSetting : BaseSetting
 			}
 		}
 
-		[Token(Token = "0x170000A7")]
+		[Token(Token = "0x170000C4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600044A")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Token(Token = "0x60005C8")]
+			[Address(RVA = "0x5B7B600", Offset = "0x5B7A600", VA = "0x5B7B600", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -71,44 +71,44 @@ internal class KeybindSetting : BaseSetting
 			}
 		}
 
-		[Token(Token = "0x6000445")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Token(Token = "0x60005C3")]
+		[Address(RVA = "0x5B7B460", Offset = "0x5B7A460", VA = "0x5B7B460")]
 		[DebuggerHidden]
-		public _003CDefaultInputKeys_003Ed__5(int _003C_003E1__state)
+		public _003CDefaultInputKeys_003Ed__6(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000446")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Token(Token = "0x60005C4")]
+		[Address(RVA = "0x5B7B490", Offset = "0x5B7A490", VA = "0x5B7B490", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000447")]
-		[Address(RVA = "0x1F29EB0", Offset = "0x1F284B0", VA = "0x181F29EB0", Slot = "8")]
+		[Token(Token = "0x60005C5")]
+		[Address(RVA = "0x5B7B4A0", Offset = "0x5B7A4A0", VA = "0x5B7B4A0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x1F2A070", Offset = "0x1F28670", VA = "0x181F2A070", Slot = "10")]
+		[Token(Token = "0x60005C7")]
+		[Address(RVA = "0x5B7B5C0", Offset = "0x5B7A5C0", VA = "0x5B7B5C0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600044B")]
-		[Address(RVA = "0x1F29FD0", Offset = "0x1F285D0", VA = "0x181F29FD0", Slot = "4")]
+		[Token(Token = "0x60005C9")]
+		[Address(RVA = "0x5B7B610", Offset = "0x5B7A610", VA = "0x5B7B610", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<InputKey> System_002ECollections_002EGeneric_002EIEnumerable_003CSettings_002EInputKey_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600044C")]
-		[Address(RVA = "0x1F29FD0", Offset = "0x1F285D0", VA = "0x181F29FD0", Slot = "5")]
+		[Token(Token = "0x60005CA")]
+		[Address(RVA = "0x5B7B6B0", Offset = "0x5B7A6B0", VA = "0x5B7B6B0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -116,98 +116,102 @@ internal class KeybindSetting : BaseSetting
 		}
 	}
 
-	[Token(Token = "0x4000517")]
+	[Token(Token = "0x4000655")]
 	[FieldOffset(Offset = "0x18")]
 	public List<InputKey> InputKeys;
 
-	[Token(Token = "0x4000518")]
+	[Token(Token = "0x4000656")]
 	[FieldOffset(Offset = "0x20")]
+	public MobileInput MobileInput;
+
+	[Token(Token = "0x4000657")]
+	[FieldOffset(Offset = "0x28")]
 	protected string[] _defaultKeyStrings;
 
-	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x1F1FBF0", Offset = "0x1F1E1F0", VA = "0x181F1FBF0")]
+	[Token(Token = "0x60005B6")]
+	[Address(RVA = "0x5A4B800", Offset = "0x5A4A800", VA = "0x5A4B800")]
 	public KeybindSetting(string[] defaultKeyStrings)
 	{
 	}
 
-	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x1F1EA90", Offset = "0x1F1D090", VA = "0x181F1EA90")]
+	[Token(Token = "0x60005B7")]
+	[Address(RVA = "0x5A57080", Offset = "0x5A56080", VA = "0x5A57080")]
 	public bool ContainsEnter()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x1F1F9D0", Offset = "0x1F1DFD0", VA = "0x181F1F9D0", Slot = "4")]
+	[Token(Token = "0x60005B8")]
+	[Address(RVA = "0x5A57220", Offset = "0x5A56220", VA = "0x5A57220", Slot = "4")]
 	public override void SetDefault()
 	{
 	}
 
-	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x1F1ED70", Offset = "0x1F1D370", VA = "0x181F1ED70")]
-	[IteratorStateMachine(typeof(_003CDefaultInputKeys_003Ed__5))]
+	[Token(Token = "0x60005B9")]
+	[Address(RVA = "0x5A57380", Offset = "0x5A56380", VA = "0x5A57380")]
+	[IteratorStateMachine(typeof(_003CDefaultInputKeys_003Ed__6))]
 	public IEnumerable<InputKey> DefaultInputKeys()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600043C")]
-	[Address(RVA = "0x1F1F6C0", Offset = "0x1F1DCC0", VA = "0x181F1F6C0")]
+	[Token(Token = "0x60005BA")]
+	[Address(RVA = "0x5A57230", Offset = "0x5A56230", VA = "0x5A57230")]
 	protected void LoadFromStringArray(string[] keyStrings)
 	{
 	}
 
-	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x1F1F9E0", Offset = "0x1F1DFE0", VA = "0x181F1F9E0", Slot = "3")]
+	[Token(Token = "0x60005BB")]
+	[Address(RVA = "0x5A573F0", Offset = "0x5A563F0", VA = "0x5A573F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x1F1EAD0", Offset = "0x1F1D0D0", VA = "0x181F1EAD0")]
+	[Token(Token = "0x60005BC")]
+	[Address(RVA = "0x5A576F0", Offset = "0x5A566F0", VA = "0x5A576F0")]
 	public bool Contains(InputKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x1F1EC20", Offset = "0x1F1D220", VA = "0x181F1EC20")]
+	[Token(Token = "0x60005BD")]
+	[Address(RVA = "0x5A570B0", Offset = "0x5A560B0", VA = "0x5A570B0")]
 	public bool Contains(KeyCode key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x1F1F0A0", Offset = "0x1F1D6A0", VA = "0x181F1F0A0")]
+	[Token(Token = "0x60005BE")]
+	[Address(RVA = "0x5A57870", Offset = "0x5A56870", VA = "0x5A57870")]
 	public bool GetKeyDown(bool cl = false)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x1F1F480", Offset = "0x1F1DA80", VA = "0x181F1F480")]
+	[Token(Token = "0x60005BF")]
+	[Address(RVA = "0x5A57A50", Offset = "0x5A56A50", VA = "0x5A57A50")]
 	public bool GetKey(bool cl = false)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x1F1F290", Offset = "0x1F1D890", VA = "0x181F1F290")]
+	[Token(Token = "0x60005C0")]
+	[Address(RVA = "0x5A57C80", Offset = "0x5A56C80", VA = "0x5A57C80")]
 	public bool GetKeyUp(bool cl = false)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x1F1F820", Offset = "0x1F1DE20", VA = "0x181F1F820", Slot = "5")]
+	[Token(Token = "0x60005C1")]
+	[Address(RVA = "0x5A57E60", Offset = "0x5A56E60", VA = "0x5A57E60", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x1F1EDF0", Offset = "0x1F1D3F0", VA = "0x181F1EDF0", Slot = "6")]
+	[Token(Token = "0x60005C2")]
+	[Address(RVA = "0x5A58090", Offset = "0x5A57090", VA = "0x5A58090", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}

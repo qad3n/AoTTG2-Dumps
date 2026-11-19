@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005CE")]
+[Token(Token = "0x20005A9")]
 public interface IDictionary : ICollection, IEnumerable
 {
-	[Token(Token = "0x170006AF")]
+	[Token(Token = "0x170006B0")]
 	object this[object key]
 	{
-		[Token(Token = "0x6002BC6")]
+		[Token(Token = "0x6002BA5")]
 		get;
-		[Token(Token = "0x6002BC7")]
+		[Token(Token = "0x6002BA6")]
 		set;
 	}
 
-	[Token(Token = "0x170006B0")]
+	[Token(Token = "0x170006B1")]
 	ICollection Keys
 	{
-		[Token(Token = "0x6002BC8")]
-		get;
-	}
-
-	[Token(Token = "0x170006B1")]
-	ICollection Values
-	{
-		[Token(Token = "0x6002BC9")]
+		[Token(Token = "0x6002BA7")]
 		get;
 	}
 
 	[Token(Token = "0x170006B2")]
-	bool IsReadOnly
+	ICollection Values
 	{
-		[Token(Token = "0x6002BCD")]
+		[Token(Token = "0x6002BA8")]
 		get;
 	}
 
 	[Token(Token = "0x170006B3")]
-	bool IsFixedSize
+	bool IsReadOnly
 	{
-		[Token(Token = "0x6002BCE")]
+		[Token(Token = "0x6002BAC")]
 		get;
 	}
 
-	[Token(Token = "0x6002BCA")]
+	[Token(Token = "0x170006B4")]
+	bool IsFixedSize
+	{
+		[Token(Token = "0x6002BAD")]
+		get;
+	}
+
+	[Token(Token = "0x6002BA9")]
 	bool Contains(object key);
 
-	[Token(Token = "0x6002BCB")]
+	[Token(Token = "0x6002BAA")]
 	void Add(object key, object value);
 
-	[Token(Token = "0x6002BCC")]
+	[Token(Token = "0x6002BAB")]
 	void Clear();
 
-	[Token(Token = "0x6002BCF")]
+	[Token(Token = "0x6002BAE")]
 	new IDictionaryEnumerator GetEnumerator();
 
-	[Token(Token = "0x6002BD0")]
+	[Token(Token = "0x6002BAF")]
 	void Remove(object key);
 }

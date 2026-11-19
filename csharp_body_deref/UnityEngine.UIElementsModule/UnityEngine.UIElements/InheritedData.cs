@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.InheritedData
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -86,41 +86,41 @@ internal struct InheritedData : IStyleDataGroup<InheritedData>, IEquatable<Inher
 	public Length wordSpacing;
 
 	[Token(Token = "0x6001D74")]
-	[Address(RVA = "0x30EE4A0", Offset = "0x30ECAA0", VA = "0x1830EE4A0", Slot = "4")]
+	[Address(RVA = "0x6AF7FA0", Offset = "0x6AF6FA0", VA = "0x6AF7FA0", Slot = "4")]
 	public InheritedData Copy()
 	{
 		return default(InheritedData);
 	}
 
 	[Token(Token = "0x6001D75")]
-	[Address(RVA = "0x30EE3D0", Offset = "0x30EC9D0", VA = "0x1830EE3D0", Slot = "5")]
+	[Address(RVA = "0x6AF7FC0", Offset = "0x6AF6FC0", VA = "0x6AF7FC0", Slot = "5")]
 	public void CopyFrom(ref InheritedData other)
 	{
 	}
 
 	[Token(Token = "0x6001D76")]
-	[Address(RVA = "0x30EEA10", Offset = "0x30ED010", VA = "0x1830EEA10")]
+	[Address(RVA = "0x6AF7FE0", Offset = "0x6AF6FE0", VA = "0x6AF7FE0")]
 	public static bool operator ==(InheritedData lhs, InheritedData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D77")]
-	[Address(RVA = "0x30EE520", Offset = "0x30ECB20", VA = "0x1830EE520", Slot = "6")]
+	[Address(RVA = "0x6AF8300", Offset = "0x6AF7300", VA = "0x6AF8300", Slot = "6")]
 	public bool Equals(InheritedData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D78")]
-	[Address(RVA = "0x30EE630", Offset = "0x30ECC30", VA = "0x1830EE630", Slot = "0")]
+	[Address(RVA = "0x6AF8340", Offset = "0x6AF7340", VA = "0x6AF8340", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D79")]
-	[Address(RVA = "0x30EE760", Offset = "0x30ECD60", VA = "0x1830EE760", Slot = "2")]
+	[Address(RVA = "0x6AF83D0", Offset = "0x6AF73D0", VA = "0x6AF83D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

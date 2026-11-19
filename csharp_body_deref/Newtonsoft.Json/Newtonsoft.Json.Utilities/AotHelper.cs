@@ -18,7 +18,7 @@ public static class AotHelper
 	private static bool s_alwaysFalse;
 
 	[Token(Token = "0x60004CD")]
-	[Address(RVA = "0x1C16D10", Offset = "0x1C15310", VA = "0x181C16D10")]
+	[Address(RVA = "0x55A2E50", Offset = "0x55A1E50", VA = "0x55A2E50")]
 	public static void Ensure(Action action)
 	{
 	}
@@ -39,7 +39,7 @@ public static class AotHelper
 	}
 
 	[Token(Token = "0x60004D1")]
-	[Address(RVA = "0x1C16E20", Offset = "0x1C15420", VA = "0x181C16E20")]
+	[Address(RVA = "0x55A2FE0", Offset = "0x55A1FE0", VA = "0x55A2FE0")]
 	public static bool IsFalse()
 	{
 		return default(bool);

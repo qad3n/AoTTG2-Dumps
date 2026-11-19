@@ -51,7 +51,7 @@ public struct InstantiateParameters
 	public int timestamp;
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x1D2F540", Offset = "0x1D2DB40", VA = "0x181D2F540")]
+	[Address(RVA = "0x56CAB60", Offset = "0x56C9B60", VA = "0x56CAB60")]
 	public InstantiateParameters(string prefabName, Vector3 position, Quaternion rotation, byte group, object[] data, byte objLevelPrefix, int[] viewIDs, Player creator, int timestamp)
 	{
 	}

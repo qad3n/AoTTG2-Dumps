@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000329")]
+[Token(Token = "0x20002EA")]
 public interface ICredentialPolicy
 {
 }

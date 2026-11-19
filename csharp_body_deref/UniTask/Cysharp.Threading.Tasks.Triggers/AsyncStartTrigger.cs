@@ -15,24 +15,24 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncStartTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x4000639")]
-	[FieldOffset(Offset = "0x40")]
+	[FieldOffset(Offset = "0x3A")]
 	private bool called;
 
 	[Token(Token = "0x6000A0C")]
-	[Address(RVA = "0x2938A80", Offset = "0x2937080", VA = "0x182938A80")]
+	[Address(RVA = "0x62F66F0", Offset = "0x62F56F0", VA = "0x62F66F0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000A0D")]
-	[Address(RVA = "0x2938920", Offset = "0x2936F20", VA = "0x182938920")]
+	[Address(RVA = "0x62F3680", Offset = "0x62F2680", VA = "0x62F3680")]
 	public UniTask StartAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000A0E")]
-	[Address(RVA = "0x2938B00", Offset = "0x2937100", VA = "0x182938B00")]
+	[Address(RVA = "0x62F6770", Offset = "0x62F5770", VA = "0x62F6770")]
 	public AsyncStartTrigger()
 	{
 	}

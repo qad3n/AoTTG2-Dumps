@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.BitField64DebugView
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ internal sealed class BitField64DebugView
 	public bool[] Bits
 	{
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x2995D00", Offset = "0x2994300", VA = "0x182995D00")]
+		[Address(RVA = "0x635F6E0", Offset = "0x635E6E0", VA = "0x635F6E0")]
 		get
 		{
 			return null;
@@ -28,7 +28,7 @@ internal sealed class BitField64DebugView
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0xAA1890", Offset = "0xA9FE90", VA = "0x180AA1890")]
+	[Address(RVA = "0x635F6C0", Offset = "0x635E6C0", VA = "0x635F6C0")]
 	public BitField64DebugView(BitField64 data)
 	{
 	}

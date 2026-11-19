@@ -11,43 +11,43 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D3")]
+[Token(Token = "0x20001EA")]
 public static class AottgChangelogMarkdown
 {
-	[Token(Token = "0x40009E0")]
+	[Token(Token = "0x4000A54")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Regex InlinePattern;
 
-	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x23A5E40", Offset = "0x23A4440", VA = "0x1823A5E40")]
+	[Token(Token = "0x6000B61")]
+	[Address(RVA = "0x5D77370", Offset = "0x5D76370", VA = "0x5D77370")]
 	public static IReadOnlyList<AottgChangelogMarkdownBlock> Parse(string markdown)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x23A64E0", Offset = "0x23A4AE0", VA = "0x1823A64E0")]
+	[Token(Token = "0x6000B62")]
+	[Address(RVA = "0x5D77B50", Offset = "0x5D76B50", VA = "0x5D77B50")]
 	public static string RenderInline(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x23A6B60", Offset = "0x23A5160", VA = "0x1823A6B60")]
+	[Token(Token = "0x6000B63")]
+	[Address(RVA = "0x5D779F0", Offset = "0x5D769F0", VA = "0x5D779F0")]
 	private static bool TryReadHeader(string line, out string header)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x23A5DE0", Offset = "0x23A43E0", VA = "0x1823A5DE0")]
+	[Token(Token = "0x6000B64")]
+	[Address(RVA = "0x5D77AF0", Offset = "0x5D76AF0", VA = "0x5D77AF0")]
 	private static bool IsBullet(string line)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x23A5CF0", Offset = "0x23A42F0", VA = "0x1823A5CF0")]
+	[Token(Token = "0x6000B65")]
+	[Address(RVA = "0x5D78280", Offset = "0x5D77280", VA = "0x5D78280")]
 	private static string Escape(string value)
 	{
 		return null;

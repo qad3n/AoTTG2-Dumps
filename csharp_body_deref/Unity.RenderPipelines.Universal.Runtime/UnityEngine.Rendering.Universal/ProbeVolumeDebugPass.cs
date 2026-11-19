@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ProbeVolumeDebugPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ internal class ProbeVolumeDebugPass : ScriptableRenderPass
 		public TextureHandle normalBuffer;
 
 		[Token(Token = "0x60007A2")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x666EAD0", Offset = "0x666DAD0", VA = "0x666EAD0")]
 		public WriteApvData()
 		{
 		}
@@ -48,13 +48,13 @@ internal class ProbeVolumeDebugPass : ScriptableRenderPass
 	private ComputeShader m_ComputeShader;
 
 	[Token(Token = "0x60007A0")]
-	[Address(RVA = "0x2C73760", Offset = "0x2C71D60", VA = "0x182C73760")]
+	[Address(RVA = "0x666E380", Offset = "0x666D380", VA = "0x666E380")]
 	public ProbeVolumeDebugPass(RenderPassEvent evt, ComputeShader computeShader)
 	{
 	}
 
 	[Token(Token = "0x60007A1")]
-	[Address(RVA = "0x2C73180", Offset = "0x2C71780", VA = "0x182C73180")]
+	[Address(RVA = "0x666E420", Offset = "0x666D420", VA = "0x666E420")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, TextureHandle depthPyramidBuffer, TextureHandle normalBuffer)
 	{
 	}

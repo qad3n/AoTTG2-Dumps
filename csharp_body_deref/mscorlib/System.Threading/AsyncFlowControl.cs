@@ -9,55 +9,55 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000227")]
+[Token(Token = "0x20001FF")]
 public struct AsyncFlowControl : IDisposable
 {
-	[Token(Token = "0x4000A05")]
+	[Token(Token = "0x4000963")]
 	[FieldOffset(Offset = "0x0")]
 	private bool useEC;
 
-	[Token(Token = "0x4000A06")]
+	[Token(Token = "0x4000964")]
 	[FieldOffset(Offset = "0x8")]
 	private ExecutionContext _ec;
 
-	[Token(Token = "0x4000A07")]
+	[Token(Token = "0x4000965")]
 	[FieldOffset(Offset = "0x10")]
 	private Thread _thread;
 
-	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x1B93FF0", Offset = "0x1B925F0", VA = "0x181B93FF0")]
+	[Token(Token = "0x6001268")]
+	[Address(RVA = "0x55352A0", Offset = "0x55342A0", VA = "0x55352A0")]
 	internal void Setup()
 	{
 	}
 
-	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x1B93E50", Offset = "0x1B92450", VA = "0x181B93E50", Slot = "4")]
+	[Token(Token = "0x6001269")]
+	[Address(RVA = "0x5535440", Offset = "0x5534440", VA = "0x5535440", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x1B94060", Offset = "0x1B92660", VA = "0x181B94060")]
+	[Token(Token = "0x600126A")]
+	[Address(RVA = "0x5535450", Offset = "0x5534450", VA = "0x5535450")]
 	public void Undo()
 	{
 	}
 
-	[Token(Token = "0x6001294")]
-	[Address(RVA = "0x1B93F20", Offset = "0x1B92520", VA = "0x181B93F20", Slot = "2")]
+	[Token(Token = "0x600126B")]
+	[Address(RVA = "0x5535790", Offset = "0x5534790", VA = "0x5535790", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001295")]
-	[Address(RVA = "0x1B93E60", Offset = "0x1B92460", VA = "0x181B93E60", Slot = "0")]
+	[Token(Token = "0x600126C")]
+	[Address(RVA = "0x5535850", Offset = "0x5534850", VA = "0x5535850", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001296")]
-	[Address(RVA = "0x1B93F00", Offset = "0x1B92500", VA = "0x181B93F00")]
+	[Token(Token = "0x600126D")]
+	[Address(RVA = "0x55358D0", Offset = "0x55348D0", VA = "0x55358D0")]
 	public bool Equals(AsyncFlowControl obj)
 	{
 		return default(bool);

@@ -46,14 +46,14 @@ public struct Keyframe
 	[Token(Token = "0x17000037")]
 	public float time
 	{
-		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
+		[Token(Token = "0x60001DF")]
+		[Address(RVA = "0x68BA8D0", Offset = "0x68B98D0", VA = "0x68BA8D0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
+		[Token(Token = "0x60001E0")]
+		[Address(RVA = "0x68BA8E0", Offset = "0x68B98E0", VA = "0x68BA8E0")]
 		set
 		{
 		}
@@ -62,14 +62,14 @@ public struct Keyframe
 	[Token(Token = "0x17000038")]
 	public float value
 	{
-		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
+		[Token(Token = "0x60001E1")]
+		[Address(RVA = "0x68BA8F0", Offset = "0x68B98F0", VA = "0x68BA8F0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Token(Token = "0x60001E2")]
+		[Address(RVA = "0x68BA900", Offset = "0x68B9900", VA = "0x68BA900")]
 		set
 		{
 		}
@@ -78,14 +78,14 @@ public struct Keyframe
 	[Token(Token = "0x17000039")]
 	public float inTangent
 	{
-		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
+		[Token(Token = "0x60001E3")]
+		[Address(RVA = "0x68BA910", Offset = "0x68B9910", VA = "0x68BA910")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Token(Token = "0x60001E4")]
+		[Address(RVA = "0x68BA920", Offset = "0x68B9920", VA = "0x68BA920")]
 		set
 		{
 		}
@@ -94,14 +94,14 @@ public struct Keyframe
 	[Token(Token = "0x1700003A")]
 	public float outTangent
 	{
-		[Token(Token = "0x60001E3")]
-		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
+		[Token(Token = "0x60001E5")]
+		[Address(RVA = "0x68BA930", Offset = "0x68B9930", VA = "0x68BA930")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001E4")]
-		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
+		[Token(Token = "0x60001E6")]
+		[Address(RVA = "0x68BA940", Offset = "0x68B9940", VA = "0x68BA940")]
 		set
 		{
 		}
@@ -110,14 +110,14 @@ public struct Keyframe
 	[Token(Token = "0x1700003B")]
 	public float inWeight
 	{
-		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x15477A0", Offset = "0x1545DA0", VA = "0x1815477A0")]
+		[Token(Token = "0x60001E7")]
+		[Address(RVA = "0x68BA950", Offset = "0x68B9950", VA = "0x68BA950")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
+		[Token(Token = "0x60001E8")]
+		[Address(RVA = "0x68BA960", Offset = "0x68B9960", VA = "0x68BA960")]
 		set
 		{
 		}
@@ -126,14 +126,14 @@ public struct Keyframe
 	[Token(Token = "0x1700003C")]
 	public float outWeight
 	{
-		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x2E82BD0", Offset = "0x2E811D0", VA = "0x182E82BD0")]
+		[Token(Token = "0x60001E9")]
+		[Address(RVA = "0x68BA970", Offset = "0x68B9970", VA = "0x68BA970")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0x585060", Offset = "0x583660", VA = "0x180585060")]
+		[Token(Token = "0x60001EA")]
+		[Address(RVA = "0x68BA980", Offset = "0x68B9980", VA = "0x68BA980")]
 		set
 		{
 		}
@@ -142,14 +142,14 @@ public struct Keyframe
 	[Token(Token = "0x1700003D")]
 	public WeightedMode weightedMode
 	{
-		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700")]
+		[Token(Token = "0x60001EB")]
+		[Address(RVA = "0x68BA990", Offset = "0x68B9990", VA = "0x68BA990")]
 		get
 		{
 			return default(WeightedMode);
 		}
-		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x60001EC")]
+		[Address(RVA = "0x68BA9A0", Offset = "0x68B99A0", VA = "0x68BA9A0")]
 		set
 		{
 		}
@@ -159,14 +159,14 @@ public struct Keyframe
 	[Obsolete("Use AnimationUtility.SetKeyLeftTangentMode, AnimationUtility.SetKeyRightTangentMode, AnimationUtility.GetKeyLeftTangentMode or AnimationUtility.GetKeyRightTangentMode instead.")]
 	public int tangentMode
 	{
-		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0xB62B40", Offset = "0xB61140", VA = "0x180B62B40")]
+		[Token(Token = "0x60001ED")]
+		[Address(RVA = "0x68BA9B0", Offset = "0x68B99B0", VA = "0x68BA9B0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Token(Token = "0x60001EE")]
+		[Address(RVA = "0x68BA9D0", Offset = "0x68B99D0", VA = "0x68BA9D0")]
 		set
 		{
 		}
@@ -175,27 +175,27 @@ public struct Keyframe
 	[Token(Token = "0x1700003F")]
 	internal int tangentModeInternal
 	{
-		[Token(Token = "0x60001ED")]
-		[Address(RVA = "0xB62B40", Offset = "0xB61140", VA = "0x180B62B40")]
+		[Token(Token = "0x60001EF")]
+		[Address(RVA = "0x68BA9C0", Offset = "0x68B99C0", VA = "0x68BA9C0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Token(Token = "0x60001F0")]
+		[Address(RVA = "0x68BA9E0", Offset = "0x68B99E0", VA = "0x68BA9E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x2ECC6A0", Offset = "0x2ECACA0", VA = "0x182ECC6A0")]
+	[Token(Token = "0x60001DD")]
+	[Address(RVA = "0x68BA880", Offset = "0x68B9880", VA = "0x68BA880")]
 	public Keyframe(float time, float value)
 	{
 	}
 
-	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x2ECC670", Offset = "0x2ECAC70", VA = "0x182ECC670")]
+	[Token(Token = "0x60001DE")]
+	[Address(RVA = "0x68BA8A0", Offset = "0x68B98A0", VA = "0x68BA8A0")]
 	public Keyframe(float time, float value, float inTangent, float outTangent)
 	{
 	}

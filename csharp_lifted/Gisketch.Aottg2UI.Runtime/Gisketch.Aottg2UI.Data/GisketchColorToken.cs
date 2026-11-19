@@ -1,0 +1,33 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Data.GisketchColorToken
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Data/GisketchColorToken.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are the native C lifted into C# syntax by tools/pipeline/lift_csharp.py.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace Gisketch.Aottg2UI.Data;
+
+[Serializable]
+[Token(Token = "0x200006F")]
+public sealed class GisketchColorToken
+{
+	[Token(Token = "0x400026F")]
+	[FieldOffset(Offset = "0x10")]
+	public string name;
+
+	[Token(Token = "0x4000270")]
+	[FieldOffset(Offset = "0x18")]
+	public string value;
+
+	[Token(Token = "0x6000378")]
+	[Address(RVA = "0x5261210", Offset = "0x5260210", VA = "0x5261210")]
+	public GisketchColorToken()
+	{
+		// Lifted from source/cpp/Gisketch/Aottg2UI/Data/GisketchColorToken.c (Gisketch.Aottg2UI.Data.GisketchColorToken$$.ctor): clean
+		base();
+		return;
+	}
+}

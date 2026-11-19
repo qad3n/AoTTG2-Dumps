@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003DF")]
+[Token(Token = "0x20003B8")]
 [ComVisible(true)]
 public interface IMethodCallMessage : IMethodMessage, IMessage
 {

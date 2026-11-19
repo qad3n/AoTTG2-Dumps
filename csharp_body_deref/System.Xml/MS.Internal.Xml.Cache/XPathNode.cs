@@ -45,7 +45,7 @@ internal struct XPathNode
 	public XPathNodeType NodeType
 	{
 		[Token(Token = "0x6001CAB")]
-		[Address(RVA = "0x26DA2D0", Offset = "0x26D88D0", VA = "0x1826DA2D0")]
+		[Address(RVA = "0x6095A00", Offset = "0x6094A00", VA = "0x6095A00")]
 		get
 		{
 			return default(XPathNodeType);
@@ -56,7 +56,7 @@ internal struct XPathNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001CAC")]
-		[Address(RVA = "0x26DA300", Offset = "0x26D8900", VA = "0x1826DA300")]
+		[Address(RVA = "0x6095BF0", Offset = "0x6094BF0", VA = "0x6095BF0")]
 		get
 		{
 			return null;
@@ -67,7 +67,7 @@ internal struct XPathNode
 	public string LocalName
 	{
 		[Token(Token = "0x6001CAD")]
-		[Address(RVA = "0x194CC80", Offset = "0x194B280", VA = "0x18194CC80")]
+		[Address(RVA = "0x6095A50", Offset = "0x6094A50", VA = "0x6095A50")]
 		get
 		{
 			return null;
@@ -78,7 +78,7 @@ internal struct XPathNode
 	public string Name
 	{
 		[Token(Token = "0x6001CAE")]
-		[Address(RVA = "0x26DA240", Offset = "0x26D8840", VA = "0x1826DA240")]
+		[Address(RVA = "0x6095B50", Offset = "0x6094B50", VA = "0x6095B50")]
 		get
 		{
 			return null;
@@ -89,7 +89,7 @@ internal struct XPathNode
 	public string NamespaceUri
 	{
 		[Token(Token = "0x6001CAF")]
-		[Address(RVA = "0x26DA2B0", Offset = "0x26D88B0", VA = "0x1826DA2B0")]
+		[Address(RVA = "0x6095AB0", Offset = "0x6094AB0", VA = "0x6095AB0")]
 		get
 		{
 			return null;
@@ -100,7 +100,7 @@ internal struct XPathNode
 	public XPathDocument Document
 	{
 		[Token(Token = "0x6001CB0")]
-		[Address(RVA = "0x26DA090", Offset = "0x26D8690", VA = "0x1826DA090")]
+		[Address(RVA = "0x6095D80", Offset = "0x6094D80", VA = "0x6095D80")]
 		get
 		{
 			return null;
@@ -111,7 +111,7 @@ internal struct XPathNode
 	public string BaseUri
 	{
 		[Token(Token = "0x6001CB1")]
-		[Address(RVA = "0x26DA040", Offset = "0x26D8640", VA = "0x1826DA040")]
+		[Address(RVA = "0x6095CF0", Offset = "0x6094CF0", VA = "0x6095CF0")]
 		get
 		{
 			return null;
@@ -122,7 +122,7 @@ internal struct XPathNode
 	public int LineNumber
 	{
 		[Token(Token = "0x6001CB2")]
-		[Address(RVA = "0x26DA1F0", Offset = "0x26D87F0", VA = "0x1826DA1F0")]
+		[Address(RVA = "0x60984F0", Offset = "0x60974F0", VA = "0x60984F0")]
 		get
 		{
 			return default(int);
@@ -133,7 +133,7 @@ internal struct XPathNode
 	public int LinePosition
 	{
 		[Token(Token = "0x6001CB3")]
-		[Address(RVA = "0x26DA220", Offset = "0x26D8820", VA = "0x1826DA220")]
+		[Address(RVA = "0x60985C0", Offset = "0x60975C0", VA = "0x60985C0")]
 		get
 		{
 			return default(int);
@@ -144,7 +144,7 @@ internal struct XPathNode
 	public int CollapsedLinePosition
 	{
 		[Token(Token = "0x6001CB4")]
-		[Address(RVA = "0x26DA060", Offset = "0x26D8660", VA = "0x1826DA060")]
+		[Address(RVA = "0x60985A0", Offset = "0x60975A0", VA = "0x60985A0")]
 		get
 		{
 			return default(int);
@@ -155,7 +155,7 @@ internal struct XPathNode
 	public XPathNodePageInfo PageInfo
 	{
 		[Token(Token = "0x6001CB5")]
-		[Address(RVA = "0x26DA2E0", Offset = "0x26D88E0", VA = "0x1826DA2E0")]
+		[Address(RVA = "0x6098630", Offset = "0x6097630", VA = "0x6098630")]
 		get
 		{
 			return null;
@@ -166,7 +166,7 @@ internal struct XPathNode
 	public bool IsXmlNamespaceNode
 	{
 		[Token(Token = "0x6001CBC")]
-		[Address(RVA = "0x26DA180", Offset = "0x26D8780", VA = "0x1826DA180")]
+		[Address(RVA = "0x60964B0", Offset = "0x60954B0", VA = "0x60964B0")]
 		get
 		{
 			return default(bool);
@@ -177,7 +177,7 @@ internal struct XPathNode
 	public bool HasSibling
 	{
 		[Token(Token = "0x6001CBD")]
-		[Address(RVA = "0x26DA100", Offset = "0x26D8700", VA = "0x1826DA100")]
+		[Address(RVA = "0x60986B0", Offset = "0x60976B0", VA = "0x60986B0")]
 		get
 		{
 			return default(bool);
@@ -188,7 +188,7 @@ internal struct XPathNode
 	public bool HasCollapsedText
 	{
 		[Token(Token = "0x6001CBE")]
-		[Address(RVA = "0x26DA0C0", Offset = "0x26D86C0", VA = "0x1826DA0C0")]
+		[Address(RVA = "0x60968D0", Offset = "0x60958D0", VA = "0x60968D0")]
 		get
 		{
 			return default(bool);
@@ -199,7 +199,7 @@ internal struct XPathNode
 	public bool HasAttribute
 	{
 		[Token(Token = "0x6001CBF")]
-		[Address(RVA = "0x26DA0B0", Offset = "0x26D86B0", VA = "0x1826DA0B0")]
+		[Address(RVA = "0x60986C0", Offset = "0x60976C0", VA = "0x60986C0")]
 		get
 		{
 			return default(bool);
@@ -210,7 +210,7 @@ internal struct XPathNode
 	public bool HasContentChild
 	{
 		[Token(Token = "0x6001CC0")]
-		[Address(RVA = "0x26DA0D0", Offset = "0x26D86D0", VA = "0x1826DA0D0")]
+		[Address(RVA = "0x60986D0", Offset = "0x60976D0", VA = "0x60986D0")]
 		get
 		{
 			return default(bool);
@@ -221,7 +221,7 @@ internal struct XPathNode
 	public bool HasElementChild
 	{
 		[Token(Token = "0x6001CC1")]
-		[Address(RVA = "0x26DA0E0", Offset = "0x26D86E0", VA = "0x1826DA0E0")]
+		[Address(RVA = "0x60986E0", Offset = "0x60976E0", VA = "0x60986E0")]
 		get
 		{
 			return default(bool);
@@ -232,7 +232,7 @@ internal struct XPathNode
 	public bool IsAttrNmsp
 	{
 		[Token(Token = "0x6001CC2")]
-		[Address(RVA = "0x26DA110", Offset = "0x26D8710", VA = "0x1826DA110")]
+		[Address(RVA = "0x60986F0", Offset = "0x60976F0", VA = "0x60986F0")]
 		get
 		{
 			return default(bool);
@@ -243,7 +243,7 @@ internal struct XPathNode
 	public bool IsText
 	{
 		[Token(Token = "0x6001CC3")]
-		[Address(RVA = "0x26DA130", Offset = "0x26D8730", VA = "0x1826DA130")]
+		[Address(RVA = "0x6098700", Offset = "0x6097700", VA = "0x6098700")]
 		get
 		{
 			return default(bool);
@@ -254,7 +254,7 @@ internal struct XPathNode
 	public bool HasNamespaceDecls
 	{
 		[Token(Token = "0x6001CC4")]
-		[Address(RVA = "0x26DA0F0", Offset = "0x26D86F0", VA = "0x1826DA0F0")]
+		[Address(RVA = "0x6098750", Offset = "0x6097750", VA = "0x6098750")]
 		get
 		{
 			return default(bool);
@@ -265,7 +265,7 @@ internal struct XPathNode
 	public string Value
 	{
 		[Token(Token = "0x6001CC5")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6098760", Offset = "0x6097760", VA = "0x6098760")]
 		get
 		{
 			return null;
@@ -273,42 +273,42 @@ internal struct XPathNode
 	}
 
 	[Token(Token = "0x6001CB6")]
-	[Address(RVA = "0x26D9F50", Offset = "0x26D8550", VA = "0x1826D9F50")]
+	[Address(RVA = "0x6096D40", Offset = "0x6095D40", VA = "0x6096D40")]
 	public int GetRoot(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB7")]
-	[Address(RVA = "0x26D9F10", Offset = "0x26D8510", VA = "0x1826D9F10")]
+	[Address(RVA = "0x6095D10", Offset = "0x6094D10", VA = "0x6095D10")]
 	public int GetParent(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB8")]
-	[Address(RVA = "0x26D9F80", Offset = "0x26D8580", VA = "0x1826D9F80")]
+	[Address(RVA = "0x6096510", Offset = "0x6095510", VA = "0x6096510")]
 	public int GetSibling(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB9")]
-	[Address(RVA = "0x26D9FC0", Offset = "0x26D85C0", VA = "0x1826D9FC0")]
+	[Address(RVA = "0x6098650", Offset = "0x6097650", VA = "0x6098650")]
 	public int GetSimilarElement(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CBA")]
-	[Address(RVA = "0x26DA000", Offset = "0x26D8600", VA = "0x1826DA000")]
+	[Address(RVA = "0x6098680", Offset = "0x6097680", VA = "0x6098680")]
 	public bool NameMatch(string localName, string namespaceName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CBB")]
-	[Address(RVA = "0x26D9ED0", Offset = "0x26D84D0", VA = "0x1826D9ED0")]
+	[Address(RVA = "0x60985F0", Offset = "0x60975F0", VA = "0x60985F0")]
 	public bool ElementMatch(string localName, string namespaceName)
 	{
 		return default(bool);

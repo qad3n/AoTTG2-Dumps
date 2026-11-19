@@ -21,27 +21,27 @@ public class UxmlEnumeration : UxmlTypeRestriction
 	public IEnumerable<string> values
 	{
 		[Token(Token = "0x60026FA")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Address(RVA = "0x6B5CE30", Offset = "0x6B5BE30", VA = "0x6B5CE30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60026FB")]
-		[Address(RVA = "0x3161FF0", Offset = "0x31605F0", VA = "0x183161FF0")]
+		[Address(RVA = "0x6B5CE40", Offset = "0x6B5BE40", VA = "0x6B5CE40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60026FC")]
-	[Address(RVA = "0x3161E10", Offset = "0x3160410", VA = "0x183161E10", Slot = "5")]
+	[Address(RVA = "0x6B5CEA0", Offset = "0x6B5BEA0", VA = "0x6B5CEA0", Slot = "5")]
 	public override bool Equals(UxmlTypeRestriction other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026FD")]
-	[Address(RVA = "0x3161F70", Offset = "0x3160570", VA = "0x183161F70")]
+	[Address(RVA = "0x6B5CFC0", Offset = "0x6B5BFC0", VA = "0x6B5CFC0")]
 	public UxmlEnumeration()
 	{
 	}

@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnTriggerEnterMessageListener : MessageListener
 {
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x2DBF310", Offset = "0x2DBD910", VA = "0x182DBF310")]
+	[Address(RVA = "0x67A5130", Offset = "0x67A4130", VA = "0x67A5130")]
 	private void OnTriggerEnter(Collider other)
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A51C0", Offset = "0x67A41C0", VA = "0x67A51C0")]
 	public UnityOnTriggerEnterMessageListener()
 	{
 	}

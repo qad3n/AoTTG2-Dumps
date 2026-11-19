@@ -11,63 +11,63 @@ using Mono;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000358")]
+[Token(Token = "0x2000331")]
 internal static class X509Helper
 {
-	[Token(Token = "0x1700031B")]
+	[Token(Token = "0x1700031A")]
 	private static Mono.ISystemCertificateProvider CertificateProvider
 	{
-		[Token(Token = "0x6001C2C")]
-		[Address(RVA = "0x19EC170", Offset = "0x19EA770", VA = "0x1819EC170")]
+		[Token(Token = "0x6001C03")]
+		[Address(RVA = "0x5364400", Offset = "0x5363400", VA = "0x5364400")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001C2D")]
-	[Address(RVA = "0x19EC010", Offset = "0x19EA610", VA = "0x1819EC010")]
+	[Token(Token = "0x6001C04")]
+	[Address(RVA = "0x5362DB0", Offset = "0x5361DB0", VA = "0x5362DB0")]
 	public static System.Security.Cryptography.X509Certificates.X509CertificateImpl InitFromCertificate(X509Certificate cert)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C2E")]
-	[Address(RVA = "0x19EC0E0", Offset = "0x19EA6E0", VA = "0x1819EC0E0")]
+	[Token(Token = "0x6001C05")]
+	[Address(RVA = "0x5362CB0", Offset = "0x5361CB0", VA = "0x5362CB0")]
 	public static System.Security.Cryptography.X509Certificates.X509CertificateImpl InitFromCertificate(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C2F")]
-	[Address(RVA = "0x19EC100", Offset = "0x19EA700", VA = "0x1819EC100")]
+	[Token(Token = "0x6001C06")]
+	[Address(RVA = "0x5363CB0", Offset = "0x5362CB0", VA = "0x5363CB0")]
 	public static bool IsValid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001C30")]
-	[Address(RVA = "0x19EC120", Offset = "0x19EA720", VA = "0x1819EC120")]
+	[Token(Token = "0x6001C07")]
+	[Address(RVA = "0x5364050", Offset = "0x5363050", VA = "0x5364050")]
 	internal static void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
 	{
 	}
 
-	[Token(Token = "0x6001C31")]
-	[Address(RVA = "0x19EBE00", Offset = "0x19EA400", VA = "0x1819EBE00")]
+	[Token(Token = "0x6001C08")]
+	[Address(RVA = "0x53640D0", Offset = "0x53630D0", VA = "0x53640D0")]
 	internal static Exception GetInvalidContextException()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C32")]
-	[Address(RVA = "0x19EBF50", Offset = "0x19EA550", VA = "0x1819EBF50")]
+	[Token(Token = "0x6001C09")]
+	[Address(RVA = "0x5362B60", Offset = "0x5361B60", VA = "0x5362B60")]
 	public static System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(byte[] rawData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C33")]
-	[Address(RVA = "0x19EBE70", Offset = "0x19EA470", VA = "0x1819EBE70")]
+	[Token(Token = "0x6001C0A")]
+	[Address(RVA = "0x53644F0", Offset = "0x53634F0", VA = "0x53644F0")]
 	public static System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(byte[] rawData, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags)
 	{
 		return null;

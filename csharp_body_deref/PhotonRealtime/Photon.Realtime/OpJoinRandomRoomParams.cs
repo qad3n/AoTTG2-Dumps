@@ -38,7 +38,7 @@ public class OpJoinRandomRoomParams
 	public string[] ExpectedUsers;
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56AE510", Offset = "0x56AD510", VA = "0x56AE510")]
 	public OpJoinRandomRoomParams()
 	{
 	}

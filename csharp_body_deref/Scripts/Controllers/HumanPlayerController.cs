@@ -13,210 +13,217 @@ using UnityEngine;
 
 namespace Controllers;
 
-[Token(Token = "0x2000624")]
+[Token(Token = "0x2000683")]
 internal class HumanPlayerController : BasePlayerController, IHumanController
 {
-	[Token(Token = "0x4001B94")]
+	[Token(Token = "0x4001D37")]
 	[FieldOffset(Offset = "0x58")]
 	protected Human _human;
 
-	[Token(Token = "0x4001B95")]
+	[Token(Token = "0x4001D38")]
 	[FieldOffset(Offset = "0x60")]
 	protected float _reelOutScrollTimeLeft;
 
-	[Token(Token = "0x4001B96")]
+	[Token(Token = "0x4001D39")]
 	[FieldOffset(Offset = "0x64")]
 	protected float _reelInScrollCooldownLeft;
 
-	[Token(Token = "0x4001B97")]
+	[Token(Token = "0x4001D3A")]
 	[FieldOffset(Offset = "0x68")]
 	protected float _reelInScrollCooldown;
 
-	[Token(Token = "0x4001B98")]
+	[Token(Token = "0x4001D3B")]
 	[FieldOffset(Offset = "0x70")]
 	protected HumanInputSettings _humanInput;
 
-	[Token(Token = "0x4001B99")]
+	[Token(Token = "0x4001D3C")]
 	[FieldOffset(Offset = "0x78")]
 	protected Dictionary<HumanDashDirection, KeybindSetting> _dashKeys;
 
-	[Token(Token = "0x4001B9A")]
+	[Token(Token = "0x4001D3D")]
 	[FieldOffset(Offset = "0x80")]
 	protected Dictionary<HumanDashDirection, float> _dashTimes;
 
-	[Token(Token = "0x4001B9B")]
+	[Token(Token = "0x4001D3E")]
 	[FieldOffset(Offset = "0x0")]
 	protected static LayerMask HookMask;
 
-	[Token(Token = "0x4001B9C")]
+	[Token(Token = "0x4001D3F")]
 	[FieldOffset(Offset = "0x88")]
 	private HashSet<HumanState> _illegalWeaponStates;
 
-	[Token(Token = "0x6003C60")]
-	[Address(RVA = "0x2117B30", Offset = "0x2116130", VA = "0x182117B30", Slot = "4")]
+	[Token(Token = "0x6003EEF")]
+	[Address(RVA = "0x5AAAAE0", Offset = "0x5AA9AE0", VA = "0x5AAAAE0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003C61")]
-	[Address(RVA = "0x2118360", Offset = "0x2116960", VA = "0x182118360")]
+	[Token(Token = "0x6003EF0")]
+	[Address(RVA = "0x5AAAB80", Offset = "0x5AA9B80", VA = "0x5AAAB80")]
 	private void SetupDash()
 	{
 	}
 
-	[Token(Token = "0x6003C62")]
-	[Address(RVA = "0x211CAA0", Offset = "0x211B0A0", VA = "0x18211CAA0", Slot = "6")]
+	[Token(Token = "0x6003EF1")]
+	[Address(RVA = "0x5AAAD70", Offset = "0x5AA9D70", VA = "0x5AAAD70", Slot = "6")]
 	protected override void Update()
 	{
 	}
 
-	[Token(Token = "0x6003C63")]
-	[Address(RVA = "0x211AD40", Offset = "0x2119340", VA = "0x18211AD40", Slot = "8")]
+	[Token(Token = "0x6003EF2")]
+	[Address(RVA = "0x5AAADA0", Offset = "0x5AA9DA0", VA = "0x5AAADA0", Slot = "8")]
 	protected override void UpdateMovementInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C64")]
-	[Address(RVA = "0x211B7B0", Offset = "0x2119DB0", VA = "0x18211B7B0", Slot = "9")]
+	[Token(Token = "0x6003EF3")]
+	[Address(RVA = "0x5AAB300", Offset = "0x5AAA300", VA = "0x5AAB300", Slot = "9")]
 	protected override void UpdateUI(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C65")]
-	[Address(RVA = "0x2117E70", Offset = "0x2116470", VA = "0x182117E70")]
+	[Token(Token = "0x6003EF4")]
+	[Address(RVA = "0x5AAC970", Offset = "0x5AAB970", VA = "0x5AAC970")]
 	private Quaternion GetHookArrowRotation(bool left, Vector3 position)
 	{
 		return default(Quaternion);
 	}
 
-	[Token(Token = "0x6003C66")]
-	[Address(RVA = "0x211A830", Offset = "0x2118E30", VA = "0x18211A830")]
+	[Token(Token = "0x6003EF5")]
+	[Address(RVA = "0x5AACA00", Offset = "0x5AABA00", VA = "0x5AACA00")]
 	private void UpdateHookInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C67")]
-	[Address(RVA = "0x2118600", Offset = "0x2116C00", VA = "0x182118600")]
+	[Token(Token = "0x6003EF6")]
+	[Address(RVA = "0x5AACFE0", Offset = "0x5AABFE0", VA = "0x5AACFE0")]
 	private void TestScore()
 	{
 	}
 
-	[Token(Token = "0x6003C68")]
-	[Address(RVA = "0x2118810", Offset = "0x2116E10", VA = "0x182118810", Slot = "7")]
+	[Token(Token = "0x6003EF7")]
+	[Address(RVA = "0x5AAD0F0", Offset = "0x5AAC0F0", VA = "0x5AAD0F0", Slot = "7")]
 	protected override void UpdateActionInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C69")]
-	[Address(RVA = "0x2118560", Offset = "0x2116B60", VA = "0x182118560")]
+	[Token(Token = "0x6003EF8")]
+	[Address(RVA = "0x5AAF110", Offset = "0x5AAE110", VA = "0x5AAF110")]
 	private bool SwapTSInput()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C6A")]
-	[Address(RVA = "0x2117DB0", Offset = "0x21163B0", VA = "0x182117DB0")]
+	[Token(Token = "0x6003EF9")]
+	[Address(RVA = "0x5AAEF70", Offset = "0x5AADF70", VA = "0x5AAEF70")]
 	private KeybindSetting GetAttackInput()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003C6B")]
-	[Address(RVA = "0x2117F20", Offset = "0x2116520", VA = "0x182117F20")]
+	[Token(Token = "0x6003EFA")]
+	[Address(RVA = "0x5AAEFB0", Offset = "0x5AADFB0", VA = "0x5AAEFB0")]
 	private KeybindSetting GetSpecialInput()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003C6C")]
-	[Address(RVA = "0x2118080", Offset = "0x2116680", VA = "0x182118080")]
+	[Token(Token = "0x6003EFB")]
+	[Address(RVA = "0x5AAEFF0", Offset = "0x5AADFF0", VA = "0x5AAEFF0")]
 	private bool IsSheathedWeaponSpecial()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C6D")]
-	[Address(RVA = "0x211B710", Offset = "0x2119D10", VA = "0x18211B710")]
+	[Token(Token = "0x6003EFC")]
+	[Address(RVA = "0x5AAEED0", Offset = "0x5AADED0", VA = "0x5AAEED0")]
 	private void UpdateSheatheInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C6E")]
-	[Address(RVA = "0x2118730", Offset = "0x2116D30", VA = "0x182118730")]
+	[Token(Token = "0x6003EFD")]
+	[Address(RVA = "0x5AAF1B0", Offset = "0x5AAE1B0", VA = "0x5AAF1B0")]
 	private void ToggleUI()
 	{
 	}
 
-	[Token(Token = "0x6003C6F")]
-	[Address(RVA = "0x211B250", Offset = "0x2119850", VA = "0x18211B250")]
+	[Token(Token = "0x6003EFE")]
+	[Address(RVA = "0x5AADC90", Offset = "0x5AACC90", VA = "0x5AADC90")]
 	private void UpdateReelInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C70")]
-	[Address(RVA = "0x2119720", Offset = "0x2117D20", VA = "0x182119720")]
+	[Token(Token = "0x6003EFF")]
+	[Address(RVA = "0x5AAE270", Offset = "0x5AAD270", VA = "0x5AAE270")]
 	private void UpdateDashInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003C71")]
-	[Address(RVA = "0x2117DF0", Offset = "0x21163F0", VA = "0x182117DF0")]
+	[Token(Token = "0x6003F00")]
+	[Address(RVA = "0x5AAF280", Offset = "0x5AAE280", VA = "0x5AAF280")]
 	private float GetDashAngle(HumanDashDirection direction)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C72")]
-	[Address(RVA = "0x2118200", Offset = "0x2116800", VA = "0x182118200")]
+	[Token(Token = "0x6003F01")]
+	[Address(RVA = "0x5AACF60", Offset = "0x5AABF60", VA = "0x5AACF60")]
 	private bool IsSpin3Special()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C73")]
-	[Address(RVA = "0x21182A0", Offset = "0x21168A0", VA = "0x1821182A0", Slot = "10")]
+	[Token(Token = "0x6003F02")]
+	[Address(RVA = "0x5AAF2E0", Offset = "0x5AAE2E0", VA = "0x5AAF2E0", Slot = "10")]
 	public bool MovingLeft()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C74")]
-	[Address(RVA = "0x2118300", Offset = "0x2116900", VA = "0x182118300", Slot = "11")]
+	[Token(Token = "0x6003F03")]
+	[Address(RVA = "0x5AAF340", Offset = "0x5AAE340", VA = "0x5AAF340", Slot = "11")]
 	public bool MovingRight()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C75")]
-	[Address(RVA = "0x211CAD0", Offset = "0x211B0D0", VA = "0x18211CAD0", Slot = "12")]
+	[Token(Token = "0x6003F04")]
+	[Address(RVA = "0x5AAF3A0", Offset = "0x5AAE3A0", VA = "0x5AAF3A0", Slot = "12")]
 	public bool UsingGas()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C76")]
-	[Address(RVA = "0x2117FC0", Offset = "0x21165C0", VA = "0x182117FC0", Slot = "13")]
+	[Token(Token = "0x6003F05")]
+	[Address(RVA = "0x5AAF400", Offset = "0x5AAE400", VA = "0x5AAF400", Slot = "13")]
 	public bool HookingLeft()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C77")]
-	[Address(RVA = "0x2118020", Offset = "0x2116620", VA = "0x182118020", Slot = "14")]
+	[Token(Token = "0x6003F06")]
+	[Address(RVA = "0x5AAF460", Offset = "0x5AAE460", VA = "0x5AAF460", Slot = "14")]
 	public bool HookingRight()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C78")]
-	[Address(RVA = "0x2117F60", Offset = "0x2116560", VA = "0x182117F60", Slot = "15")]
+	[Token(Token = "0x6003F07")]
+	[Address(RVA = "0x5AAF4C0", Offset = "0x5AAE4C0", VA = "0x5AAF4C0", Slot = "15")]
 	public bool HookingBoth()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C79")]
-	[Address(RVA = "0x211CC60", Offset = "0x211B260", VA = "0x18211CC60")]
+	[Token(Token = "0x6003F08")]
+	[Address(RVA = "0x5AAF520", Offset = "0x5AAE520", VA = "0x5AAF520", Slot = "16")]
+	public Vector3 GetAimPoint()
+	{
+		return default(Vector3);
+	}
+
+	[Token(Token = "0x6003F09")]
+	[Address(RVA = "0x5AAF6A0", Offset = "0x5AAE6A0", VA = "0x5AAF6A0")]
 	public HumanPlayerController()
 	{
 	}

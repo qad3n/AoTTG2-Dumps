@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextCacheEntry
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ internal struct TextCacheEntry
 	public float lastTimeInCache;
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x3056B90", Offset = "0x3055190", VA = "0x183056B90")]
+	[Address(RVA = "0x6A53760", Offset = "0x6A52760", VA = "0x6A53760")]
 	public TextCacheEntry(TextHandle handle, TextInfo info, float time = 0f)
 	{
 	}

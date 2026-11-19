@@ -14,7 +14,7 @@ namespace System.Xml.Serialization;
 public class XmlIgnoreAttribute : Attribute
 {
 	[Token(Token = "0x6000D55")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6117950", Offset = "0x6116950", VA = "0x6117950")]
 	public XmlIgnoreAttribute()
 	{
 	}

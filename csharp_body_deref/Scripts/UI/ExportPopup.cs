@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.ExportPopup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/ExportPopup.c
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/ExportPopup.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,116 +13,116 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20006E9")]
+[Token(Token = "0x2000792")]
 internal class ExportPopup : PromptPopup
 {
-	[Token(Token = "0x40022CB")]
+	[Token(Token = "0x4002645")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private GameObject _element;
 
-	[Token(Token = "0x40022CC")]
+	[Token(Token = "0x4002646")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private GameObject _versionElement;
 
-	[Token(Token = "0x40022CD")]
+	[Token(Token = "0x4002647")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private string _mapExportSource;
 
-	[Token(Token = "0x40022CE")]
+	[Token(Token = "0x4002648")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private StringSetting _version;
 
-	[Token(Token = "0x40022CF")]
+	[Token(Token = "0x4002649")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	public StringSetting ExportSetting;
 
-	[Token(Token = "0x17000BF9")]
+	[Token(Token = "0x17000C7D")]
 	protected override string Title
 	{
-		[Token(Token = "0x60043F4")]
-		[Address(RVA = "0x21C1EB0", Offset = "0x21C04B0", VA = "0x1821C1EB0", Slot = "35")]
+		[Token(Token = "0x6004919")]
+		[Address(RVA = "0x5BBCCF0", Offset = "0x5BBBCF0", VA = "0x5BBCCF0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000BFA")]
+	[Token(Token = "0x17000C7E")]
 	protected override float Width
 	{
-		[Token(Token = "0x60043F5")]
-		[Address(RVA = "0x210FB90", Offset = "0x210E190", VA = "0x18210FB90", Slot = "5")]
+		[Token(Token = "0x600491A")]
+		[Address(RVA = "0x5BBCD50", Offset = "0x5BBBD50", VA = "0x5BBCD50", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000BFB")]
+	[Token(Token = "0x17000C7F")]
 	protected override float Height
 	{
-		[Token(Token = "0x60043F6")]
-		[Address(RVA = "0x21C1EA0", Offset = "0x21C04A0", VA = "0x1821C1EA0", Slot = "6")]
+		[Token(Token = "0x600491B")]
+		[Address(RVA = "0x5BBCD60", Offset = "0x5BBBD60", VA = "0x5BBCD60", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000BFC")]
+	[Token(Token = "0x17000C80")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x60043F7")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
+		[Token(Token = "0x600491C")]
+		[Address(RVA = "0x5BBCD70", Offset = "0x5BBBD70", VA = "0x5BBCD70", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000BFD")]
+	[Token(Token = "0x17000C81")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x60043F8")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "10")]
+		[Token(Token = "0x600491D")]
+		[Address(RVA = "0x5BBCD80", Offset = "0x5BBBD80", VA = "0x5BBCD80", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60043F9")]
-	[Address(RVA = "0x21C12A0", Offset = "0x21BF8A0", VA = "0x1821C12A0", Slot = "20")]
+	[Token(Token = "0x600491E")]
+	[Address(RVA = "0x5BBCD90", Offset = "0x5BBBD90", VA = "0x5BBCD90", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60043FA")]
-	[Address(RVA = "0x21C13F0", Offset = "0x21BF9F0", VA = "0x1821C13F0")]
+	[Token(Token = "0x600491F")]
+	[Address(RVA = "0x5BBCED0", Offset = "0x5BBBED0", VA = "0x5BBCED0")]
 	public void Show(string value)
 	{
 	}
 
-	[Token(Token = "0x60043FB")]
-	[Address(RVA = "0x21C1660", Offset = "0x21BFC60", VA = "0x1821C1660")]
+	[Token(Token = "0x6004920")]
+	[Address(RVA = "0x5BBD110", Offset = "0x5BBC110", VA = "0x5BBD110")]
 	public void Show(MapScript mapScript)
 	{
 	}
 
-	[Token(Token = "0x60043FC")]
-	[Address(RVA = "0x21C1C40", Offset = "0x21C0240", VA = "0x1821C1C40")]
+	[Token(Token = "0x6004921")]
+	[Address(RVA = "0x5BBD550", Offset = "0x5BBC550", VA = "0x5BBD550")]
 	private void UpdateMapExport()
 	{
 	}
 
-	[Token(Token = "0x60043FD")]
-	[Address(RVA = "0x21C1240", Offset = "0x21BF840", VA = "0x1821C1240")]
+	[Token(Token = "0x6004922")]
+	[Address(RVA = "0x5BBD6D0", Offset = "0x5BBC6D0", VA = "0x5BBD6D0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60043FE")]
-	[Address(RVA = "0x21C1DC0", Offset = "0x21C03C0", VA = "0x1821C1DC0")]
+	[Token(Token = "0x6004923")]
+	[Address(RVA = "0x5BBD740", Offset = "0x5BBC740", VA = "0x5BBD740")]
 	public ExportPopup()
 	{
 	}

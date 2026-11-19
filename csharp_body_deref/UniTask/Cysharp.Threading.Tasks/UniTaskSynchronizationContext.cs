@@ -27,13 +27,13 @@ public class UniTaskSynchronizationContext : SynchronizationContext
 		private readonly object state;
 
 		[Token(Token = "0x60007EB")]
-		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+		[Address(RVA = "0x62E5020", Offset = "0x62E4020", VA = "0x62E5020")]
 		public Callback(SendOrPostCallback callback, object state)
 		{
 		}
 
 		[Token(Token = "0x60007EC")]
-		[Address(RVA = "0x293FD30", Offset = "0x293E330", VA = "0x18293FD30")]
+		[Address(RVA = "0x62E5480", Offset = "0x62E4480", VA = "0x62E5480")]
 		public void Invoke()
 		{
 		}
@@ -74,44 +74,44 @@ public class UniTaskSynchronizationContext : SynchronizationContext
 	private static int opCount;
 
 	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x12BC920", Offset = "0x12BAF20", VA = "0x1812BC920", Slot = "4")]
+	[Address(RVA = "0x62E4BC0", Offset = "0x62E3BC0", VA = "0x62E4BC0", Slot = "4")]
 	public override void Send(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x60007E4")]
-	[Address(RVA = "0x2949190", Offset = "0x2947790", VA = "0x182949190", Slot = "5")]
+	[Address(RVA = "0x62E4BE0", Offset = "0x62E3BE0", VA = "0x62E4BE0", Slot = "5")]
 	public override void Post(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x2949130", Offset = "0x2947730", VA = "0x182949130", Slot = "6")]
+	[Address(RVA = "0x62E5050", Offset = "0x62E4050", VA = "0x62E5050", Slot = "6")]
 	public override void OperationStarted()
 	{
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x29490D0", Offset = "0x29476D0", VA = "0x1829490D0", Slot = "7")]
+	[Address(RVA = "0x62E50A0", Offset = "0x62E40A0", VA = "0x62E50A0", Slot = "7")]
 	public override void OperationCompleted()
 	{
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "9")]
+	[Address(RVA = "0x62E50F0", Offset = "0x62E40F0", VA = "0x62E50F0", Slot = "9")]
 	public override SynchronizationContext CreateCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x2949630", Offset = "0x2947C30", VA = "0x182949630")]
+	[Address(RVA = "0x62E5100", Offset = "0x62E4100", VA = "0x62E5100")]
 	internal static void Run()
 	{
 	}
 
 	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x62E5540", Offset = "0x62E4540", VA = "0x62E5540")]
 	public UniTaskSynchronizationContext()
 	{
 	}

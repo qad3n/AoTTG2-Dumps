@@ -30,34 +30,34 @@ public static class TaskTracker
 	private static bool dirty;
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x62C5900", Offset = "0x62C4900", VA = "0x62C5900")]
 	[Conditional("UNITY_EDITOR")]
 	public static void TrackActiveTask(IUniTaskSource task, int skipFrame)
 	{
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x62C5910", Offset = "0x62C4910", VA = "0x62C5910")]
 	[Conditional("UNITY_EDITOR")]
 	public static void RemoveTracking(IUniTaskSource task)
 	{
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x2912110", Offset = "0x2910710", VA = "0x182912110")]
+	[Address(RVA = "0x62C5920", Offset = "0x62C4920", VA = "0x62C5920")]
 	public static bool CheckAndResetDirty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x2912170", Offset = "0x2910770", VA = "0x182912170")]
+	[Address(RVA = "0x62C5970", Offset = "0x62C4970", VA = "0x62C5970")]
 	public static void ForEachActiveTask(Action<int, string, UniTaskStatus, DateTime, string> action)
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x29125F0", Offset = "0x2910BF0", VA = "0x1829125F0")]
+	[Address(RVA = "0x62C5E80", Offset = "0x62C4E80", VA = "0x62C5E80")]
 	private static void TypeBeautify(Type type, StringBuilder sb)
 	{
 	}

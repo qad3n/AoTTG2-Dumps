@@ -12,353 +12,353 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002AF")]
+[Token(Token = "0x2000270")]
 internal class FtpControlStream : CommandStream
 {
-	[Token(Token = "0x20002B0")]
+	[Token(Token = "0x2000271")]
 	private enum GetPathOption
 	{
-		[Token(Token = "0x40009DD")]
+		[Token(Token = "0x400090E")]
 		Normal,
-		[Token(Token = "0x40009DE")]
+		[Token(Token = "0x400090F")]
 		AssumeFilename,
-		[Token(Token = "0x40009DF")]
+		[Token(Token = "0x4000910")]
 		AssumeNoFilename
 	}
 
-	[Token(Token = "0x40009C7")]
+	[Token(Token = "0x40008F8")]
 	[FieldOffset(Offset = "0x88")]
 	private Socket _dataSocket;
 
-	[Token(Token = "0x40009C8")]
+	[Token(Token = "0x40008F9")]
 	[FieldOffset(Offset = "0x90")]
 	private IPEndPoint _passiveEndPoint;
 
-	[Token(Token = "0x40009C9")]
+	[Token(Token = "0x40008FA")]
 	[FieldOffset(Offset = "0x98")]
 	private TlsStream _tlsStream;
 
-	[Token(Token = "0x40009CA")]
+	[Token(Token = "0x40008FB")]
 	[FieldOffset(Offset = "0xA0")]
 	private StringBuilder _bannerMessage;
 
-	[Token(Token = "0x40009CB")]
+	[Token(Token = "0x40008FC")]
 	[FieldOffset(Offset = "0xA8")]
 	private StringBuilder _welcomeMessage;
 
-	[Token(Token = "0x40009CC")]
+	[Token(Token = "0x40008FD")]
 	[FieldOffset(Offset = "0xB0")]
 	private StringBuilder _exitMessage;
 
-	[Token(Token = "0x40009CD")]
+	[Token(Token = "0x40008FE")]
 	[FieldOffset(Offset = "0xB8")]
 	private WeakReference _credentials;
 
-	[Token(Token = "0x40009CE")]
+	[Token(Token = "0x40008FF")]
 	[FieldOffset(Offset = "0xC0")]
 	private string _currentTypeSetting;
 
-	[Token(Token = "0x40009CF")]
+	[Token(Token = "0x4000900")]
 	[FieldOffset(Offset = "0xC8")]
 	private long _contentLength;
 
-	[Token(Token = "0x40009D0")]
+	[Token(Token = "0x4000901")]
 	[FieldOffset(Offset = "0xD0")]
 	private DateTime _lastModified;
 
-	[Token(Token = "0x40009D1")]
+	[Token(Token = "0x4000902")]
 	[FieldOffset(Offset = "0xD8")]
 	private bool _dataHandshakeStarted;
 
-	[Token(Token = "0x40009D2")]
+	[Token(Token = "0x4000903")]
 	[FieldOffset(Offset = "0xE0")]
 	private string _loginDirectory;
 
-	[Token(Token = "0x40009D3")]
+	[Token(Token = "0x4000904")]
 	[FieldOffset(Offset = "0xE8")]
 	private string _establishedServerDirectory;
 
-	[Token(Token = "0x40009D4")]
+	[Token(Token = "0x4000905")]
 	[FieldOffset(Offset = "0xF0")]
 	private string _requestedServerDirectory;
 
-	[Token(Token = "0x40009D5")]
+	[Token(Token = "0x4000906")]
 	[FieldOffset(Offset = "0xF8")]
 	private Uri _responseUri;
 
-	[Token(Token = "0x40009D6")]
+	[Token(Token = "0x4000907")]
 	[FieldOffset(Offset = "0x100")]
 	private FtpLoginState _loginState;
 
-	[Token(Token = "0x40009D7")]
+	[Token(Token = "0x4000908")]
 	[FieldOffset(Offset = "0x104")]
 	internal FtpStatusCode StatusCode;
 
-	[Token(Token = "0x40009D8")]
+	[Token(Token = "0x4000909")]
 	[FieldOffset(Offset = "0x108")]
 	internal string StatusLine;
 
-	[Token(Token = "0x40009D9")]
+	[Token(Token = "0x400090A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AsyncCallback s_acceptCallbackDelegate;
 
-	[Token(Token = "0x40009DA")]
+	[Token(Token = "0x400090B")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly AsyncCallback s_connectCallbackDelegate;
 
-	[Token(Token = "0x40009DB")]
+	[Token(Token = "0x400090C")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly AsyncCallback s_SSLHandshakeCallback;
 
-	[Token(Token = "0x170003C8")]
+	[Token(Token = "0x17000399")]
 	internal NetworkCredential Credentials
 	{
-		[Token(Token = "0x60012D0")]
-		[Address(RVA = "0x28F7420", Offset = "0x28F5A20", VA = "0x1828F7420")]
+		[Token(Token = "0x6001112")]
+		[Address(RVA = "0x6297690", Offset = "0x6296690", VA = "0x6297690")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012D1")]
-		[Address(RVA = "0x28F7540", Offset = "0x28F5B40", VA = "0x1828F7540")]
+		[Token(Token = "0x6001113")]
+		[Address(RVA = "0x6297730", Offset = "0x6296730", VA = "0x6297730")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003C9")]
+	[Token(Token = "0x1700039A")]
 	internal long ContentLength
 	{
-		[Token(Token = "0x60012DF")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Token(Token = "0x6001121")]
+		[Address(RVA = "0x629C450", Offset = "0x629B450", VA = "0x629C450")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170003CA")]
+	[Token(Token = "0x1700039B")]
 	internal DateTime LastModified
 	{
-		[Token(Token = "0x60012E0")]
-		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
+		[Token(Token = "0x6001122")]
+		[Address(RVA = "0x629C460", Offset = "0x629B460", VA = "0x629C460")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x170003CB")]
+	[Token(Token = "0x1700039C")]
 	internal Uri ResponseUri
 	{
-		[Token(Token = "0x60012E1")]
-		[Address(RVA = "0x1BD4F90", Offset = "0x1BD3590", VA = "0x181BD4F90")]
+		[Token(Token = "0x6001123")]
+		[Address(RVA = "0x629C470", Offset = "0x629B470", VA = "0x629C470")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003CC")]
+	[Token(Token = "0x1700039D")]
 	internal string BannerMessage
 	{
-		[Token(Token = "0x60012E2")]
-		[Address(RVA = "0x28F73F0", Offset = "0x28F59F0", VA = "0x1828F73F0")]
+		[Token(Token = "0x6001124")]
+		[Address(RVA = "0x629C480", Offset = "0x629B480", VA = "0x629C480")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003CD")]
+	[Token(Token = "0x1700039E")]
 	internal string WelcomeMessage
 	{
-		[Token(Token = "0x60012E3")]
-		[Address(RVA = "0x28F7510", Offset = "0x28F5B10", VA = "0x1828F7510")]
+		[Token(Token = "0x6001125")]
+		[Address(RVA = "0x629C4B0", Offset = "0x629B4B0", VA = "0x629C4B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003CE")]
+	[Token(Token = "0x1700039F")]
 	internal string ExitMessage
 	{
-		[Token(Token = "0x60012E4")]
-		[Address(RVA = "0x28F74E0", Offset = "0x28F5AE0", VA = "0x1828F74E0")]
+		[Token(Token = "0x6001126")]
+		[Address(RVA = "0x629C4E0", Offset = "0x629B4E0", VA = "0x629C4E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60012D2")]
-	[Address(RVA = "0x28F72F0", Offset = "0x28F58F0", VA = "0x1828F72F0")]
+	[Token(Token = "0x6001114")]
+	[Address(RVA = "0x62977C0", Offset = "0x62967C0", VA = "0x62977C0")]
 	internal FtpControlStream(TcpClient client)
 	{
 	}
 
-	[Token(Token = "0x60012D3")]
-	[Address(RVA = "0x28F23F0", Offset = "0x28F09F0", VA = "0x1828F23F0")]
+	[Token(Token = "0x6001115")]
+	[Address(RVA = "0x6297850", Offset = "0x6296850", VA = "0x6297850")]
 	internal void AbortConnect()
 	{
 	}
 
-	[Token(Token = "0x60012D4")]
-	[Address(RVA = "0x28F2410", Offset = "0x28F0A10", VA = "0x1828F2410")]
+	[Token(Token = "0x6001116")]
+	[Address(RVA = "0x62978E0", Offset = "0x62968E0", VA = "0x62978E0")]
 	private static void AcceptCallback(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x60012D5")]
-	[Address(RVA = "0x28F3EC0", Offset = "0x28F24C0", VA = "0x1828F3EC0")]
+	[Token(Token = "0x6001117")]
+	[Address(RVA = "0x6297C40", Offset = "0x6296C40", VA = "0x6297C40")]
 	private static void ConnectCallback(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x60012D6")]
-	[Address(RVA = "0x28F6BF0", Offset = "0x28F51F0", VA = "0x1828F6BF0")]
+	[Token(Token = "0x6001118")]
+	[Address(RVA = "0x6297DF0", Offset = "0x6296DF0", VA = "0x6297DF0")]
 	private static void SSLHandshakeCallback(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x60012D7")]
-	[Address(RVA = "0x28F6840", Offset = "0x28F4E40", VA = "0x1828F6840")]
+	[Token(Token = "0x6001119")]
+	[Address(RVA = "0x6297FB0", Offset = "0x6296FB0", VA = "0x6297FB0")]
 	private PipelineInstruction QueueOrCreateFtpDataStream(ref Stream stream)
 	{
 		return default(PipelineInstruction);
 	}
 
-	[Token(Token = "0x60012D8")]
-	[Address(RVA = "0x28F3DC0", Offset = "0x28F23C0", VA = "0x1828F3DC0", Slot = "39")]
+	[Token(Token = "0x600111A")]
+	[Address(RVA = "0x6298690", Offset = "0x6297690", VA = "0x6298690", Slot = "40")]
 	protected override void ClearState()
 	{
 	}
 
-	[Token(Token = "0x60012D9")]
-	[Address(RVA = "0x28F5470", Offset = "0x28F3A70", VA = "0x1828F5470", Slot = "41")]
+	[Token(Token = "0x600111B")]
+	[Address(RVA = "0x6298800", Offset = "0x6297800", VA = "0x6298800", Slot = "42")]
 	protected override PipelineInstruction PipelineCallback(PipelineEntry entry, ResponseDescription response, bool timeout, ref Stream stream)
 	{
 		return default(PipelineInstruction);
 	}
 
-	[Token(Token = "0x60012DA")]
-	[Address(RVA = "0x28F26D0", Offset = "0x28F0CD0", VA = "0x1828F26D0", Slot = "40")]
+	[Token(Token = "0x600111C")]
+	[Address(RVA = "0x629A450", Offset = "0x6299450", VA = "0x629A450", Slot = "41")]
 	protected override PipelineEntry[] BuildCommandsList(WebRequest req)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012DB")]
-	[Address(RVA = "0x28F6100", Offset = "0x28F4700", VA = "0x1828F6100")]
+	[Token(Token = "0x600111D")]
+	[Address(RVA = "0x62992B0", Offset = "0x62982B0", VA = "0x62992B0")]
 	private PipelineInstruction QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, bool timeout, ref Stream stream, out bool isSocketReady)
 	{
 		return default(PipelineInstruction);
 	}
 
-	[Token(Token = "0x60012DC")]
-	[Address(RVA = "0x28F4A90", Offset = "0x28F3090", VA = "0x1828F4A90")]
+	[Token(Token = "0x600111E")]
+	[Address(RVA = "0x629B890", Offset = "0x629A890", VA = "0x629B890")]
 	private static void GetPathInfo(GetPathOption pathOption, Uri uri, out string path, out string directory, out string filename)
 	{
 	}
 
-	[Token(Token = "0x60012DD")]
-	[Address(RVA = "0x28F4380", Offset = "0x28F2980", VA = "0x1828F4380")]
+	[Token(Token = "0x600111F")]
+	[Address(RVA = "0x629C210", Offset = "0x629B210", VA = "0x629C210")]
 	private string FormatAddress(IPAddress address, int Port)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012DE")]
-	[Address(RVA = "0x28F4270", Offset = "0x28F2870", VA = "0x1828F4270")]
+	[Token(Token = "0x6001120")]
+	[Address(RVA = "0x629C350", Offset = "0x629B350", VA = "0x629C350")]
 	private string FormatAddressV6(IPAddress address, int port)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012E5")]
-	[Address(RVA = "0x28F45C0", Offset = "0x28F2BC0", VA = "0x1828F45C0")]
+	[Token(Token = "0x6001127")]
+	[Address(RVA = "0x6299F30", Offset = "0x6298F30", VA = "0x6299F30")]
 	private long GetContentLengthFrom213Response(string responseString)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x28F46F0", Offset = "0x28F2CF0", VA = "0x1828F46F0")]
+	[Token(Token = "0x6001128")]
+	[Address(RVA = "0x629A060", Offset = "0x6299060", VA = "0x629A060")]
 	private DateTime GetLastModifiedFrom213Response(string str)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60012E7")]
-	[Address(RVA = "0x28F6E00", Offset = "0x28F5400", VA = "0x1828F6E00")]
+	[Token(Token = "0x6001129")]
+	[Address(RVA = "0x6299BE0", Offset = "0x6298BE0", VA = "0x6299BE0")]
 	private void TryUpdateResponseUri(string str, FtpWebRequest request)
 	{
 	}
 
-	[Token(Token = "0x60012E8")]
-	[Address(RVA = "0x28F6D10", Offset = "0x28F5310", VA = "0x1828F6D10")]
+	[Token(Token = "0x600112A")]
+	[Address(RVA = "0x6299AF0", Offset = "0x6298AF0", VA = "0x6299AF0")]
 	private void TryUpdateContentLength(string str)
 	{
 	}
 
-	[Token(Token = "0x60012E9")]
-	[Address(RVA = "0x28F4A00", Offset = "0x28F3000", VA = "0x1828F4A00")]
+	[Token(Token = "0x600112B")]
+	[Address(RVA = "0x629A3D0", Offset = "0x62993D0", VA = "0x629A3D0")]
 	private string GetLoginDirectory(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012EA")]
-	[Address(RVA = "0x28F5000", Offset = "0x28F3600", VA = "0x1828F5000")]
+	[Token(Token = "0x600112C")]
+	[Address(RVA = "0x629BE50", Offset = "0x629AE50", VA = "0x629BE50")]
 	private int GetPortV4(string responseString)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60012EB")]
-	[Address(RVA = "0x28F51F0", Offset = "0x28F37F0", VA = "0x1828F51F0")]
+	[Token(Token = "0x600112D")]
+	[Address(RVA = "0x629C000", Offset = "0x629B000", VA = "0x629C000")]
 	private int GetPortV6(string responseString)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60012EC")]
-	[Address(RVA = "0x28F4060", Offset = "0x28F2660", VA = "0x1828F4060")]
+	[Token(Token = "0x600112E")]
+	[Address(RVA = "0x629BA20", Offset = "0x629AA20", VA = "0x629BA20")]
 	private void CreateFtpListenerSocket(FtpWebRequest request)
 	{
 	}
 
-	[Token(Token = "0x60012ED")]
-	[Address(RVA = "0x28F4C30", Offset = "0x28F3230", VA = "0x1828F4C30")]
+	[Token(Token = "0x600112F")]
+	[Address(RVA = "0x629BC70", Offset = "0x629AC70", VA = "0x629BC70")]
 	private string GetPortCommandLine(FtpWebRequest request)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012EE")]
-	[Address(RVA = "0x28F44B0", Offset = "0x28F2AB0", VA = "0x1828F44B0")]
+	[Token(Token = "0x6001130")]
+	[Address(RVA = "0x629B790", Offset = "0x629A790", VA = "0x629B790")]
 	private string FormatFtpCommand(string command, string parameter)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012EF")]
-	[Address(RVA = "0x28F3FD0", Offset = "0x28F25D0", VA = "0x1828F3FD0")]
+	[Token(Token = "0x6001131")]
+	[Address(RVA = "0x629C1A0", Offset = "0x629B1A0", VA = "0x629C1A0")]
 	protected Socket CreateFtpDataSocket(FtpWebRequest request, Socket templateSocket)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012F0")]
-	[Address(RVA = "0x28F39D0", Offset = "0x28F1FD0", VA = "0x1828F39D0", Slot = "42")]
+	[Token(Token = "0x6001132")]
+	[Address(RVA = "0x629C510", Offset = "0x629B510", VA = "0x629C510", Slot = "43")]
 	protected override bool CheckValid(ResponseDescription response, ref int validThrough, ref int completeLength)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012F1")]
-	[Address(RVA = "0x28F53E0", Offset = "0x28F39E0", VA = "0x1828F53E0")]
+	[Token(Token = "0x6001133")]
+	[Address(RVA = "0x6298370", Offset = "0x6297370", VA = "0x6298370")]
 	private TriState IsFtpDataStreamWriteable()
 	{
 		return default(TriState);

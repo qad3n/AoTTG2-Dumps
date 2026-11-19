@@ -15,19 +15,19 @@ namespace System.Data;
 public class InvalidExpressionException : DataException
 {
 	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Address(RVA = "0x5EBABB0", Offset = "0x5EB9BB0", VA = "0x5EBABB0")]
 	protected InvalidExpressionException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000646")]
-	[Address(RVA = "0x2515CF0", Offset = "0x25142F0", VA = "0x182515CF0")]
+	[Address(RVA = "0x5EBABC0", Offset = "0x5EB9BC0", VA = "0x5EBABC0")]
 	public InvalidExpressionException()
 	{
 	}
 
 	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x2515D00", Offset = "0x2514300", VA = "0x182515D00")]
+	[Address(RVA = "0x5EBABD0", Offset = "0x5EB9BD0", VA = "0x5EBABD0")]
 	public InvalidExpressionException(string s)
 	{
 	}

@@ -17,7 +17,7 @@ public class CustomStyleResolvedEvent : EventBase<CustomStyleResolvedEvent>
 	public ICustomStyle customStyle
 	{
 		[Token(Token = "0x6000EF7")]
-		[Address(RVA = "0x3257610", Offset = "0x3255C10", VA = "0x183257610")]
+		[Address(RVA = "0x6C71720", Offset = "0x6C70720", VA = "0x6C71720")]
 		get
 		{
 			return null;
@@ -25,13 +25,13 @@ public class CustomStyleResolvedEvent : EventBase<CustomStyleResolvedEvent>
 	}
 
 	[Token(Token = "0x6000EF6")]
-	[Address(RVA = "0x32574D0", Offset = "0x3255AD0", VA = "0x1832574D0")]
+	[Address(RVA = "0x6C71650", Offset = "0x6C70650", VA = "0x6C71650")]
 	static CustomStyleResolvedEvent()
 	{
 	}
 
 	[Token(Token = "0x6000EF8")]
-	[Address(RVA = "0x32575B0", Offset = "0x3255BB0", VA = "0x1832575B0")]
+	[Address(RVA = "0x6C71740", Offset = "0x6C70740", VA = "0x6C71740")]
 	public CustomStyleResolvedEvent()
 	{
 	}

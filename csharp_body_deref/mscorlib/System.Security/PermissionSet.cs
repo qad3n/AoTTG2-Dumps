@@ -14,156 +14,156 @@ using Il2CppDummyDll;
 namespace System.Security;
 
 [Serializable]
-[Token(Token = "0x20002D2")]
-[ComVisible(true)]
+[Token(Token = "0x20002AB")]
 [System.MonoTODO("CAS support is experimental (and unsupported).")]
+[ComVisible(true)]
 public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDeserializationCallback
 {
-	[Token(Token = "0x4000C1B")]
+	[Token(Token = "0x4000B7B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static object[] psUnrestricted;
 
-	[Token(Token = "0x4000C1C")]
+	[Token(Token = "0x4000B7C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private PermissionState state;
 
-	[Token(Token = "0x4000C1D")]
+	[Token(Token = "0x4000B7D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private ArrayList list;
 
-	[Token(Token = "0x4000C1E")]
+	[Token(Token = "0x4000B7E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private bool _declsec;
 
-	[Token(Token = "0x4000C1F")]
+	[Token(Token = "0x4000B7F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private bool[] _ignored;
 
-	[Token(Token = "0x4000C20")]
+	[Token(Token = "0x4000B80")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static object[] action;
 
-	[Token(Token = "0x1700025F")]
+	[Token(Token = "0x1700025E")]
 	public virtual int Count
 	{
-		[Token(Token = "0x60017F4")]
-		[Address(RVA = "0x19972D0", Offset = "0x19958D0", VA = "0x1819972D0", Slot = "14")]
+		[Token(Token = "0x60017D1")]
+		[Address(RVA = "0x53287F0", Offset = "0x53277F0", VA = "0x53287F0", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000260")]
+	[Token(Token = "0x1700025F")]
 	public virtual bool IsSynchronized
 	{
-		[Token(Token = "0x60017F5")]
-		[Address(RVA = "0x1997300", Offset = "0x1995900", VA = "0x181997300", Slot = "15")]
+		[Token(Token = "0x60017D2")]
+		[Address(RVA = "0x5328820", Offset = "0x5327820", VA = "0x5328820", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000261")]
+	[Token(Token = "0x17000260")]
 	public virtual object SyncRoot
 	{
-		[Token(Token = "0x60017F6")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "16")]
+		[Token(Token = "0x60017D3")]
+		[Address(RVA = "0x5328850", Offset = "0x5327850", VA = "0x5328850", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017E9")]
-	[Address(RVA = "0x1997150", Offset = "0x1995750", VA = "0x181997150")]
+	[Token(Token = "0x60017C6")]
+	[Address(RVA = "0x53275B0", Offset = "0x53265B0", VA = "0x53275B0")]
 	internal PermissionSet()
 	{
 	}
 
-	[Token(Token = "0x60017EA")]
-	[Address(RVA = "0x19971C0", Offset = "0x19957C0", VA = "0x1819971C0")]
+	[Token(Token = "0x60017C7")]
+	[Address(RVA = "0x5327710", Offset = "0x5326710", VA = "0x5327710")]
 	public PermissionSet(PermissionState state)
 	{
 	}
 
-	[Token(Token = "0x60017EB")]
-	[Address(RVA = "0x19970B0", Offset = "0x19956B0", VA = "0x1819970B0")]
+	[Token(Token = "0x60017C8")]
+	[Address(RVA = "0x53271B0", Offset = "0x53261B0", VA = "0x53271B0")]
 	internal PermissionSet(IPermission perm)
 	{
 	}
 
-	[Token(Token = "0x60017EC")]
-	[Address(RVA = "0x1996230", Offset = "0x1994830", VA = "0x181996230", Slot = "11")]
+	[Token(Token = "0x60017C9")]
+	[Address(RVA = "0x5328000", Offset = "0x5327000", VA = "0x5328000", Slot = "11")]
 	public virtual void CopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x60017ED")]
-	[Address(RVA = "0x19963C0", Offset = "0x19949C0", VA = "0x1819963C0", Slot = "12")]
+	[Token(Token = "0x60017CA")]
+	[Address(RVA = "0x5328160", Offset = "0x5327160", VA = "0x5328160", Slot = "12")]
 	public void Demand()
 	{
 	}
 
-	[Token(Token = "0x60017EE")]
-	[Address(RVA = "0x19961B0", Offset = "0x19947B0", VA = "0x1819961B0")]
+	[Token(Token = "0x60017CB")]
+	[Address(RVA = "0x5327250", Offset = "0x5326250", VA = "0x5327250")]
 	internal void CasOnlyDemand(int skip)
 	{
 	}
 
-	[Token(Token = "0x60017EF")]
-	[Address(RVA = "0x1996760", Offset = "0x1994D60", VA = "0x181996760", Slot = "9")]
+	[Token(Token = "0x60017CC")]
+	[Address(RVA = "0x5328780", Offset = "0x5327780", VA = "0x5328780", Slot = "9")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017F0")]
-	[Address(RVA = "0x19967E0", Offset = "0x1994DE0", VA = "0x1819967E0")]
+	[Token(Token = "0x60017CD")]
+	[Address(RVA = "0x53283B0", Offset = "0x53273B0", VA = "0x53283B0")]
 	public bool IsEmpty()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017F1")]
-	[Address(RVA = "0xC84280", Offset = "0xC82880", VA = "0x180C84280")]
+	[Token(Token = "0x60017CE")]
+	[Address(RVA = "0x5328770", Offset = "0x5327770", VA = "0x5328770")]
 	public bool IsUnrestricted()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017F2")]
-	[Address(RVA = "0x1996A50", Offset = "0x1995050", VA = "0x181996A50", Slot = "3")]
+	[Token(Token = "0x60017CF")]
+	[Address(RVA = "0x53287B0", Offset = "0x53277B0", VA = "0x53287B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017F3")]
-	[Address(RVA = "0x1996A90", Offset = "0x1995090", VA = "0x181996A90", Slot = "13")]
+	[Token(Token = "0x60017D0")]
+	[Address(RVA = "0x53278E0", Offset = "0x53268E0", VA = "0x53278E0", Slot = "13")]
 	public virtual SecurityElement ToXml()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60017F7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Token(Token = "0x60017D4")]
+	[Address(RVA = "0x5328860", Offset = "0x5327860", VA = "0x5328860", Slot = "10")]
 	[System.MonoTODO("may not be required")]
 	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
 	{
 	}
 
-	[Token(Token = "0x60017F8")]
-	[Address(RVA = "0x19965A0", Offset = "0x1994BA0", VA = "0x1819965A0", Slot = "0")]
+	[Token(Token = "0x60017D5")]
+	[Address(RVA = "0x5327DB0", Offset = "0x5326DB0", VA = "0x5327DB0", Slot = "0")]
 	[ComVisible(false)]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017F9")]
-	[Address(RVA = "0x1996790", Offset = "0x1994D90", VA = "0x181996790", Slot = "2")]
+	[Token(Token = "0x60017D6")]
+	[Address(RVA = "0x5327FC0", Offset = "0x5326FC0", VA = "0x5327FC0", Slot = "2")]
 	[ComVisible(false)]
 	public override int GetHashCode()
 	{

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TabDragLocationPreview
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,7 +36,7 @@ internal class TabDragLocationPreview : VisualElement
 	internal VisualElement preview
 	{
 		[Token(Token = "0x60009C3")]
-		[Address(RVA = "0xDB75F0", Offset = "0xDB5BF0", VA = "0x180DB75F0")]
+		[Address(RVA = "0x6C3BE50", Offset = "0x6C3AE50", VA = "0x6C3BE50")]
 		get
 		{
 			return null;
@@ -44,7 +44,7 @@ internal class TabDragLocationPreview : VisualElement
 	}
 
 	[Token(Token = "0x60009C4")]
-	[Address(RVA = "0x3232C20", Offset = "0x3231220", VA = "0x183232C20")]
+	[Address(RVA = "0x6C3BE60", Offset = "0x6C3AE60", VA = "0x6C3BE60")]
 	public TabDragLocationPreview()
 	{
 	}

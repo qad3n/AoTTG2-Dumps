@@ -49,7 +49,7 @@ internal class TextureRegistry
 	public static TextureRegistry instance
 	{
 		[Token(Token = "0x6001385")]
-		[Address(RVA = "0x32B7800", Offset = "0x32B5E00", VA = "0x1832B7800")]
+		[Address(RVA = "0x6CC1A70", Offset = "0x6CC0A70", VA = "0x6CC1A70")]
 		[CompilerGenerated]
 		get
 		{
@@ -58,47 +58,47 @@ internal class TextureRegistry
 	}
 
 	[Token(Token = "0x6001386")]
-	[Address(RVA = "0x32B6ED0", Offset = "0x32B54D0", VA = "0x1832B6ED0")]
+	[Address(RVA = "0x6CC1AE0", Offset = "0x6CC0AE0", VA = "0x6CC1AE0")]
 	public Texture GetTexture(TextureId id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001387")]
-	[Address(RVA = "0x32B6BF0", Offset = "0x32B51F0", VA = "0x1832B6BF0")]
+	[Address(RVA = "0x6CBCC00", Offset = "0x6CBBC00", VA = "0x6CBCC00")]
 	public TextureId AllocAndAcquireDynamic()
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x6001388")]
-	[Address(RVA = "0x32B7310", Offset = "0x32B5910", VA = "0x1832B7310")]
+	[Address(RVA = "0x6CC1F50", Offset = "0x6CC0F50", VA = "0x6CC1F50")]
 	public void UpdateDynamic(TextureId id, Texture texture)
 	{
 	}
 
 	[Token(Token = "0x6001389")]
-	[Address(RVA = "0x32B6C00", Offset = "0x32B5200", VA = "0x1832B6C00")]
+	[Address(RVA = "0x6CC1C80", Offset = "0x6CC0C80", VA = "0x6CC1C80")]
 	private TextureId AllocAndAcquire(Texture texture, bool dynamic)
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x600138A")]
-	[Address(RVA = "0x32B6A60", Offset = "0x32B5060", VA = "0x1832B6A60")]
+	[Address(RVA = "0x6CC21B0", Offset = "0x6CC11B0", VA = "0x6CC21B0")]
 	public TextureId Acquire(Texture tex)
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x600138B")]
-	[Address(RVA = "0x32B7070", Offset = "0x32B5670", VA = "0x1832B7070")]
+	[Address(RVA = "0x6CBCFA0", Offset = "0x6CBBFA0", VA = "0x6CBCFA0")]
 	public void Release(TextureId id)
 	{
 	}
 
 	[Token(Token = "0x600138C")]
-	[Address(RVA = "0x32B76F0", Offset = "0x32B5CF0", VA = "0x1832B76F0")]
+	[Address(RVA = "0x6CC2310", Offset = "0x6CC1310", VA = "0x6CC2310")]
 	public TextureRegistry()
 	{
 	}

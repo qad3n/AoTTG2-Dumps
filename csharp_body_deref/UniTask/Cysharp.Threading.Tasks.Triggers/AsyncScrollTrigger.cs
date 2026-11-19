@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncScrollTrigger : AsyncTriggerBase<PointerEventData>, IScrollHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C71")]
-	[Address(RVA = "0x2938120", Offset = "0x2936720", VA = "0x182938120", Slot = "5")]
+	[Address(RVA = "0x6305A30", Offset = "0x6304A30", VA = "0x6305A30", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIScrollHandler_002EOnScroll(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C72")]
-	[Address(RVA = "0x2937E80", Offset = "0x2936480", VA = "0x182937E80")]
+	[Address(RVA = "0x6305A80", Offset = "0x6304A80", VA = "0x6305A80")]
 	public IAsyncOnScrollHandler GetOnScrollAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C73")]
-	[Address(RVA = "0x2937E00", Offset = "0x2936400", VA = "0x182937E00")]
+	[Address(RVA = "0x6305AF0", Offset = "0x6304AF0", VA = "0x6305AF0")]
 	public IAsyncOnScrollHandler GetOnScrollAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C74")]
-	[Address(RVA = "0x2938000", Offset = "0x2936600", VA = "0x182938000")]
+	[Address(RVA = "0x6305B60", Offset = "0x6304B60", VA = "0x6305B60")]
 	public UniTask<PointerEventData> OnScrollAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C75")]
-	[Address(RVA = "0x2937EF0", Offset = "0x29364F0", VA = "0x182937EF0")]
+	[Address(RVA = "0x6305C60", Offset = "0x6304C60", VA = "0x6305C60")]
 	public UniTask<PointerEventData> OnScrollAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C76")]
-	[Address(RVA = "0x2938170", Offset = "0x2936770", VA = "0x182938170")]
+	[Address(RVA = "0x6305D70", Offset = "0x6304D70", VA = "0x6305D70")]
 	public AsyncScrollTrigger()
 	{
 	}

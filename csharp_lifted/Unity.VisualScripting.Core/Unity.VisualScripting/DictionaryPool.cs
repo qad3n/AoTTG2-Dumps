@@ -1,0 +1,39 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.DictionaryPool
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x20000D3")]
+public static class DictionaryPool<TKey, TValue>
+{
+	[Token(Token = "0x400013C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static readonly object @lock;
+
+	[Token(Token = "0x400013D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static readonly Stack<Dictionary<TKey, TValue>> free;
+
+	[Token(Token = "0x400013E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static readonly HashSet<Dictionary<TKey, TValue>> busy;
+
+	[Token(Token = "0x6000513")]
+	public static Dictionary<TKey, TValue> New([Optional] Dictionary<TKey, TValue> source)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000514")]
+	public static void Free(Dictionary<TKey, TValue> dictionary)
+	{
+	}
+}

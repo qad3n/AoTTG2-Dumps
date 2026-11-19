@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000018")]
 internal struct RuntimeGPtrArrayHandle
 {
-	[Token(Token = "0x4000112")]
+	[Token(Token = "0x4000090")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe Mono.RuntimeStructs.GPtrArray* value;
 
 	[Token(Token = "0x1700000B")]
 	internal int Length
 	{
-		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x194C6E0", Offset = "0x194ACE0", VA = "0x18194C6E0")]
+		[Token(Token = "0x6000056")]
+		[Address(RVA = "0x52D9520", Offset = "0x52D8520", VA = "0x52D9520")]
 		get
 		{
 			return default(int);
@@ -32,34 +32,34 @@ internal struct RuntimeGPtrArrayHandle
 	[Token(Token = "0x1700000C")]
 	internal IntPtr this[int i]
 	{
-		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x194C6D0", Offset = "0x194ACD0", VA = "0x18194C6D0")]
+		[Token(Token = "0x6000057")]
+		[Address(RVA = "0x52D9540", Offset = "0x52D8540", VA = "0x52D9540")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x194C500", Offset = "0x194AB00", VA = "0x18194C500")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x52D9500", Offset = "0x52D8500", VA = "0x52D9500")]
 	internal RuntimeGPtrArrayHandle(IntPtr ptr)
 	{
 	}
 
-	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x194C650", Offset = "0x194AC50", VA = "0x18194C650")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x52D95A0", Offset = "0x52D85A0", VA = "0x52D95A0")]
 	internal IntPtr Lookup(int i)
 	{
 		return default(IntPtr);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x194C640", Offset = "0x194AC40", VA = "0x18194C640")]
+	[Token(Token = "0x6000059")]
+	[Address(RVA = "0x52D9600", Offset = "0x52D8600", VA = "0x52D9600")]
 	private unsafe static extern void GPtrArrayFree(Mono.RuntimeStructs.GPtrArray* value);
 
-	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x194C620", Offset = "0x194AC20", VA = "0x18194C620")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x52D9610", Offset = "0x52D8610", VA = "0x52D9610")]
 	internal static void DestroyAndFree(ref Mono.RuntimeGPtrArrayHandle h)
 	{
 	}

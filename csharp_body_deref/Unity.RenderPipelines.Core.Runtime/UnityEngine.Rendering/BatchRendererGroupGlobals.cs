@@ -42,7 +42,7 @@ public struct BatchRendererGroupGlobals : IEquatable<BatchRendererGroupGlobals>
 	public static BatchRendererGroupGlobals Default
 	{
 		[Token(Token = "0x6000CC8")]
-		[Address(RVA = "0x2B35AB0", Offset = "0x2B340B0", VA = "0x182B35AB0")]
+		[Address(RVA = "0x6537B30", Offset = "0x6536B30", VA = "0x6537B30")]
 		get
 		{
 			return default(BatchRendererGroupGlobals);
@@ -50,35 +50,35 @@ public struct BatchRendererGroupGlobals : IEquatable<BatchRendererGroupGlobals>
 	}
 
 	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x2B35650", Offset = "0x2B33C50", VA = "0x182B35650", Slot = "4")]
+	[Address(RVA = "0x6537D20", Offset = "0x6536D20", VA = "0x6537D20", Slot = "4")]
 	public bool Equals(BatchRendererGroupGlobals other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x2B35450", Offset = "0x2B33A50", VA = "0x182B35450", Slot = "0")]
+	[Address(RVA = "0x6538170", Offset = "0x6537170", VA = "0x6538170", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CCB")]
-	[Address(RVA = "0x2B358D0", Offset = "0x2B33ED0", VA = "0x182B358D0", Slot = "2")]
+	[Address(RVA = "0x6538210", Offset = "0x6537210", VA = "0x6538210", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CCC")]
-	[Address(RVA = "0x2B35C70", Offset = "0x2B34270", VA = "0x182B35C70")]
+	[Address(RVA = "0x65383D0", Offset = "0x65373D0", VA = "0x65383D0")]
 	public static bool operator ==(BatchRendererGroupGlobals left, BatchRendererGroupGlobals right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x2B35D50", Offset = "0x2B34350", VA = "0x182B35D50")]
+	[Address(RVA = "0x6538440", Offset = "0x6537440", VA = "0x6538440")]
 	public static bool operator !=(BatchRendererGroupGlobals left, BatchRendererGroupGlobals right)
 	{
 		return default(bool);

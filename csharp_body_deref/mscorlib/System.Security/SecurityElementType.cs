@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Security;
 
-[Token(Token = "0x20002D4")]
+[Token(Token = "0x20002AD")]
 internal enum SecurityElementType
 {
-	[Token(Token = "0x4000C25")]
+	[Token(Token = "0x4000B85")]
 	Regular,
-	[Token(Token = "0x4000C26")]
+	[Token(Token = "0x4000B86")]
 	Format,
-	[Token(Token = "0x4000C27")]
+	[Token(Token = "0x4000B87")]
 	Comment
 }

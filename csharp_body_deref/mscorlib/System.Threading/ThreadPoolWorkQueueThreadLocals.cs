@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000240")]
+[Token(Token = "0x2000218")]
 internal sealed class ThreadPoolWorkQueueThreadLocals
 {
-	[Token(Token = "0x4000A4E")]
+	[Token(Token = "0x40009AC")]
 	[ThreadStatic]
 	public static System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals;
 
-	[Token(Token = "0x4000A4F")]
+	[Token(Token = "0x40009AD")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly System.Threading.ThreadPoolWorkQueue workQueue;
 
-	[Token(Token = "0x4000A50")]
+	[Token(Token = "0x40009AE")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly System.Threading.ThreadPoolWorkQueue.WorkStealingQueue workStealingQueue;
 
-	[Token(Token = "0x4000A51")]
+	[Token(Token = "0x40009AF")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly Random random;
 
-	[Token(Token = "0x600135D")]
-	[Address(RVA = "0x1BC0980", Offset = "0x1BBEF80", VA = "0x181BC0980")]
+	[Token(Token = "0x6001334")]
+	[Address(RVA = "0x553A240", Offset = "0x5539240", VA = "0x553A240")]
 	public ThreadPoolWorkQueueThreadLocals(System.Threading.ThreadPoolWorkQueue tpq)
 	{
 	}
 
-	[Token(Token = "0x600135E")]
-	[Address(RVA = "0x1BC07F0", Offset = "0x1BBEDF0", VA = "0x181BC07F0")]
+	[Token(Token = "0x6001335")]
+	[Address(RVA = "0x553C1F0", Offset = "0x553B1F0", VA = "0x553C1F0")]
 	private void CleanUp()
 	{
 	}
 
-	[Token(Token = "0x600135F")]
-	[Address(RVA = "0x1BC08F0", Offset = "0x1BBEEF0", VA = "0x181BC08F0", Slot = "1")]
+	[Token(Token = "0x6001336")]
+	[Address(RVA = "0x553C2E0", Offset = "0x553B2E0", VA = "0x553C2E0", Slot = "1")]
 	~ThreadPoolWorkQueueThreadLocals()
 	{
 	}

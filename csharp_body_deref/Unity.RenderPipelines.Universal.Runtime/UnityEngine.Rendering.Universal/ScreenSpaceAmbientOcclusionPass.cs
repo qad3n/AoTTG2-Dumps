@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -97,13 +97,13 @@ internal class ScreenSpaceAmbientOcclusionPass : ScriptableRenderPass
 		internal Vector4 ssaoParams;
 
 		[Token(Token = "0x60007B0")]
-		[Address(RVA = "0x2C80C40", Offset = "0x2C7F240", VA = "0x182C80C40")]
+		[Address(RVA = "0x666FEA0", Offset = "0x666EEA0", VA = "0x666FEA0")]
 		internal SSAOMaterialParams(ref ScreenSpaceAmbientOcclusionSettings settings, bool isOrthographic)
 		{
 		}
 
 		[Token(Token = "0x60007B1")]
-		[Address(RVA = "0x2C80B70", Offset = "0x2C7F170", VA = "0x182C80B70")]
+		[Address(RVA = "0x666FF80", Offset = "0x666EF80", VA = "0x666FF80")]
 		internal bool Equals(ref SSAOMaterialParams other)
 		{
 			return default(bool);
@@ -154,18 +154,18 @@ internal class ScreenSpaceAmbientOcclusionPass : ScriptableRenderPass
 		internal UniversalCameraData cameraData;
 
 		[Token(Token = "0x60007B2")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6671740", Offset = "0x6670740", VA = "0x6671740")]
 		public SSAOPassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000781")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private readonly bool m_SupportsR8RenderTextureFormat;
 
 	[Token(Token = "0x4000782")]
-	[FieldOffset(Offset = "0x64")]
+	[FieldOffset(Offset = "0x60")]
 	private int m_BlueNoiseTextureIndex;
 
 	[Token(Token = "0x4000783")]
@@ -271,57 +271,57 @@ internal class ScreenSpaceAmbientOcclusionPass : ScriptableRenderPass
 	private SSAOMaterialParams m_SSAOParamsPrev;
 
 	[Token(Token = "0x60007A6")]
-	[Address(RVA = "0x2C832E0", Offset = "0x2C818E0", VA = "0x182C832E0")]
+	[Address(RVA = "0x666ED30", Offset = "0x666DD30", VA = "0x666ED30")]
 	internal ScreenSpaceAmbientOcclusionPass()
 	{
 	}
 
 	[Token(Token = "0x60007A7")]
-	[Address(RVA = "0x2C82E50", Offset = "0x2C81450", VA = "0x182C82E50")]
+	[Address(RVA = "0x666EF10", Offset = "0x666DF10", VA = "0x666EF10")]
 	internal bool Setup(ref ScreenSpaceAmbientOcclusionSettings featureSettings, ref ScriptableRenderer renderer, ref Material material, ref Texture2D[] blueNoiseTextures)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007A8")]
-	[Address(RVA = "0x2C81F00", Offset = "0x2C80500", VA = "0x182C81F00")]
+	[Address(RVA = "0x666F0E0", Offset = "0x666E0E0", VA = "0x666F0E0")]
 	private void SetupKeywordsAndParameters(ref ScreenSpaceAmbientOcclusionSettings settings, ref UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x2C813B0", Offset = "0x2C7F9B0", VA = "0x182C813B0")]
+	[Address(RVA = "0x6670030", Offset = "0x666F030", VA = "0x6670030")]
 	private void InitSSAOPassData(ref SSAOPassData data)
 	{
 	}
 
 	[Token(Token = "0x60007AA")]
-	[Address(RVA = "0x2C80E10", Offset = "0x2C7F410", VA = "0x182C80E10")]
+	[Address(RVA = "0x6670090", Offset = "0x666F090", VA = "0x6670090")]
 	private static Vector4 ComputeScaleBias(in UnsafeGraphContext context, in TextureHandle source, in TextureHandle destination)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x60007AB")]
-	[Address(RVA = "0x2C81500", Offset = "0x2C7FB00", VA = "0x182C81500", Slot = "11")]
+	[Address(RVA = "0x66701E0", Offset = "0x666F1E0", VA = "0x66701E0", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x60007AC")]
-	[Address(RVA = "0x2C80F70", Offset = "0x2C7F570", VA = "0x182C80F70")]
+	[Address(RVA = "0x6670F60", Offset = "0x666FF60", VA = "0x6670F60")]
 	private void CreateRenderTextureHandles(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, out TextureHandle aoTexture, out TextureHandle blurTexture, out TextureHandle finalTexture)
 	{
 	}
 
 	[Token(Token = "0x60007AD")]
-	[Address(RVA = "0x2C81440", Offset = "0x2C7FA40", VA = "0x182C81440", Slot = "10")]
+	[Address(RVA = "0x6671430", Offset = "0x6670430", VA = "0x6671430", Slot = "10")]
 	public override void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x60007AE")]
-	[Address(RVA = "0x2C81390", Offset = "0x2C7F990", VA = "0x182C81390")]
+	[Address(RVA = "0x66714F0", Offset = "0x66704F0", VA = "0x66714F0")]
 	public void Dispose()
 	{
 	}

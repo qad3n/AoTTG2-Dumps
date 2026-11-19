@@ -18,27 +18,27 @@ public static class PlatformUtility
 	public static readonly bool supportsJit;
 
 	[Token(Token = "0x600050A")]
-	[Address(RVA = "0x2DB8B40", Offset = "0x2DB7140", VA = "0x182DB8B40")]
+	[Address(RVA = "0x67A87B0", Offset = "0x67A77B0", VA = "0x67A87B0")]
 	static PlatformUtility()
 	{
 	}
 
 	[Token(Token = "0x600050B")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x67A87F0", Offset = "0x67A77F0", VA = "0x67A87F0")]
 	private static bool CheckJitSupport()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600050C")]
-	[Address(RVA = "0x2DB8B00", Offset = "0x2DB7100", VA = "0x182DB8B00")]
+	[Address(RVA = "0x67A8800", Offset = "0x67A7800", VA = "0x67A8800")]
 	public static bool IsEditor(this RuntimePlatform platform)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600050D")]
-	[Address(RVA = "0x2DB8B20", Offset = "0x2DB7120", VA = "0x182DB8B20")]
+	[Address(RVA = "0x67A8820", Offset = "0x67A7820", VA = "0x67A8820")]
 	public static bool IsStandalone(this RuntimePlatform platform)
 	{
 		return default(bool);

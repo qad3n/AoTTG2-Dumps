@@ -1,22 +1,22 @@
 // Type: UI.ModerationBatchBanPopup
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/ModerationBatchBanPopup.cs
 // Prior real C# source: none
 // --------------------------------
 
 // UI.ModerationBatchBanPopup$$get_DialogId
 // il2cpp: System_String_o* UI_ModerationBatchBanPopup__get_DialogId (UI_ModerationBatchBanPopup_o* __this, const MethodInfo* method);
-// 0x18225db00
+// 0x5d39c00
 
 System_String_o *
 UI_ModerationBatchBanPopup__get_DialogId(UI_ModerationBatchBanPopup_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843472e1 == '\0') {
+  if (Il2CppMethodInitialized_07547e5e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"ingame-moderation-batch-ban");
-    Il2CppMethodInitialized_1843472e1 = '\x01';
+    Il2CppMethodInitialized_07547e5e = '\x01';
   }
   return "ingame-moderation-batch-ban";
 }
@@ -24,7 +24,7 @@ UI_ModerationBatchBanPopup__get_DialogId(UI_ModerationBatchBanPopup_o *__this,Me
 
 // UI.ModerationBatchBanPopup$$Setup
 // il2cpp: void UI_ModerationBatchBanPopup__Setup (UI_ModerationBatchBanPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x18225d880
+// 0x5d39c30
 
 void UI_ModerationBatchBanPopup__Setup
                (UI_ModerationBatchBanPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
@@ -32,13 +32,13 @@ void UI_ModerationBatchBanPopup__Setup
 {
   Gisketch_Aottg2UI_Building_GisketchView_o *__this_00;
   UnityEngine_GameObject_o *__this_01;
-  TMPro_TMP_InputField_o *value;
+  TMPro_TMP_InputField_o *pTVar1;
   
-  if (Il2CppMethodInitialized_1843472e2 == '\0') {
+  if (Il2CppMethodInitialized_07547e5f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_TMP_InputField)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&"ingame-moderation-batch-ban-targets");
-    Il2CppMethodInitialized_1843472e2 = '\x01';
+    Il2CppMethodInitialized_07547e5f = '\x01';
   }
   Gisketch_Aottg2UI_Game_AottgScoreboardPopup__Setup
             ((Gisketch_Aottg2UI_Game_AottgScoreboardPopup_o *)__this,parent,(MethodInfo *)0x0);
@@ -47,11 +47,12 @@ void UI_ModerationBatchBanPopup__Setup
     __this_01 = Gisketch_Aottg2UI_Building_GisketchView__Find
                           (__this_00,"ingame-moderation-batch-ban-targets",(MethodInfo *)0x0);
     if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-      value = UnityEngine_GameObject__GetComponent_object_
-                        (__this_01,
-                         (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_TMP_InputField);
-      (__this->fields)._targets = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._targets,value);
+      pTVar1 = UnityEngine_GameObject__GetComponent_object_
+                         (__this_01,
+                          (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_TMP_InputField)
+      ;
+      (__this->fields)._targets = pTVar1;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._targets);
       return;
     }
   }
@@ -61,7 +62,7 @@ void UI_ModerationBatchBanPopup__Setup
 
 // UI.ModerationBatchBanPopup$$Submit
 // il2cpp: void UI_ModerationBatchBanPopup__Submit (UI_ModerationBatchBanPopup_o* __this, System_String_o* action, const MethodInfo* method);
-// 0x18225d920
+// 0x5d39cd0
 
 void UI_ModerationBatchBanPopup__Submit
                (UI_ModerationBatchBanPopup_o *__this,System_String_o *action,MethodInfo *method)
@@ -71,80 +72,81 @@ void UI_ModerationBatchBanPopup__Submit
   System_String_o *pSVar2;
   bool bVar3;
   
-  if (Il2CppMethodInitialized_1843472e3 == '\0') {
+  if (Il2CppMethodInitialized_07547e60 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Anticheat_ModeratorManager);
     il2cpp_codegen_initialize_runtime_metadata(&"ingame.moderation.batch.ip-ban");
     il2cpp_codegen_initialize_runtime_metadata(&"ingame.moderation.batch.session-unban");
     il2cpp_codegen_initialize_runtime_metadata(&"ingame.moderation.batch.ip-unban");
     il2cpp_codegen_initialize_runtime_metadata(&"ingame.moderation.batch.session-ban");
-    Il2CppMethodInitialized_1843472e3 = '\x01';
+    Il2CppMethodInitialized_07547e60 = '\x01';
   }
-  if ((__this->fields).IsActive != false) {
-    bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.session-ban",(MethodInfo *)0x0);
+  if ((__this->fields).IsActive == false) {
+    return;
+  }
+  bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.session-ban",(MethodInfo *)0x0);
+  if (bVar3) {
+    pTVar1 = (__this->fields)._targets;
+    if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_05d39ea5;
+    pSVar2 = (pTVar1->fields).m_Text;
+    if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
+    }
+    Anticheat_ModeratorManager__BatchSessionBan(pSVar2,(MethodInfo *)0x0);
+  }
+  else {
+    bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.ip-ban",(MethodInfo *)0x0);
     if (bVar3) {
       pTVar1 = (__this->fields)._targets;
-      if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_18225dadf;
+      if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_05d39ea5;
       pSVar2 = (pTVar1->fields).m_Text;
       if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
       }
-      Anticheat_ModeratorManager__BatchSessionBan(pSVar2,(MethodInfo *)0x0);
+      Anticheat_ModeratorManager__BatchIPBan(pSVar2,(MethodInfo *)0x0);
     }
     else {
-      bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.ip-ban",(MethodInfo *)0x0);
+      bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.session-unban",(MethodInfo *)0x0);
       if (bVar3) {
         pTVar1 = (__this->fields)._targets;
-        if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_18225dadf;
+        if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) {
+label_05d39ea5:
+          ThrowNullReferenceException();
+        }
         pSVar2 = (pTVar1->fields).m_Text;
         if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
         }
-        Anticheat_ModeratorManager__BatchIPBan(pSVar2,(MethodInfo *)0x0);
+        Anticheat_ModeratorManager__BatchSessionUnban(pSVar2,(MethodInfo *)0x0);
       }
       else {
-        bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.session-unban",(MethodInfo *)0x0);
-        if (bVar3) {
-          pTVar1 = (__this->fields)._targets;
-          if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) {
-label_18225dadf:
-            ThrowNullReferenceException();
-          }
-          pSVar2 = (pTVar1->fields).m_Text;
-          if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
-          }
-          Anticheat_ModeratorManager__BatchSessionUnban(pSVar2,(MethodInfo *)0x0);
+        bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.ip-unban",(MethodInfo *)0x0);
+        if (!bVar3) {
+          return;
         }
-        else {
-          bVar3 = System_String__op_Equality(action,"ingame.moderation.batch.ip-unban",(MethodInfo *)0x0);
-          if (!bVar3) {
-            return;
-          }
-          pTVar1 = (__this->fields)._targets;
-          if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_18225dadf;
-          pSVar2 = (pTVar1->fields).m_Text;
-          if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
-          }
-          Anticheat_ModeratorManager__BatchIPUnban(pSVar2,(MethodInfo *)0x0);
+        pTVar1 = (__this->fields)._targets;
+        if (pTVar1 == (TMPro_TMP_InputField_o *)0x0) goto label_05d39ea5;
+        pSVar2 = (pTVar1->fields).m_Text;
+        if ((TypeInfo_Anticheat_ModeratorManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Anticheat_ModeratorManager);
         }
+        Anticheat_ModeratorManager__BatchIPUnban(pSVar2,(MethodInfo *)0x0);
       }
     }
-    (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
   }
+  (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
   return;
 }
 
 
 // UI.ModerationBatchBanPopup$$.ctor
 // il2cpp: void UI_ModerationBatchBanPopup___ctor (UI_ModerationBatchBanPopup_o* __this, const MethodInfo* method);
-// 0x18225daf0
+// 0x5d39eb0
 
-void
-UI_ModerationBatchBanPopup___ctor(UI_ModerationBatchBanPopup_o* __this, MethodInfo* method)
+void UI_ModerationBatchBanPopup___ctor(UI_ModerationBatchBanPopup_o *__this,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Game_AottgScoreboardPopup___ctor((UI_MapEditorVersionConversionPopup_o *)__this,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Game_AottgScoreboardPopup___ctor
+            ((Gisketch_Aottg2UI_Game_AottgScoreboardPopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

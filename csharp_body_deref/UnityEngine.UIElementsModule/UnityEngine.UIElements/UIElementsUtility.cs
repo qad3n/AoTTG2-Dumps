@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIElementsUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -93,7 +93,7 @@ internal class UIElementsUtility : IUIElementsUtility
 	public static bool isOSXContextualMenuPlatform
 	{
 		[Token(Token = "0x60025C3")]
-		[Address(RVA = "0x31500A0", Offset = "0x314E6A0", VA = "0x1831500A0")]
+		[Address(RVA = "0x6B53D80", Offset = "0x6B52D80", VA = "0x6B53D80")]
 		get
 		{
 			return default(bool);
@@ -104,7 +104,7 @@ internal class UIElementsUtility : IUIElementsUtility
 	internal static bool isCommandActionKeyPlatform
 	{
 		[Token(Token = "0x60025C4")]
-		[Address(RVA = "0x3150080", Offset = "0x314E680", VA = "0x183150080")]
+		[Address(RVA = "0x6B53E00", Offset = "0x6B52E00", VA = "0x6B53E00")]
 		get
 		{
 			return default(bool);
@@ -112,141 +112,141 @@ internal class UIElementsUtility : IUIElementsUtility
 	}
 
 	[Token(Token = "0x60025C5")]
-	[Address(RVA = "0x314FFC0", Offset = "0x314E5C0", VA = "0x18314FFC0")]
+	[Address(RVA = "0x6B53E10", Offset = "0x6B52E10", VA = "0x6B53E10")]
 	private UIElementsUtility()
 	{
 	}
 
 	[Token(Token = "0x60025C6")]
-	[Address(RVA = "0x314F640", Offset = "0x314DC40", VA = "0x18314F640", Slot = "9")]
+	[Address(RVA = "0x6B53EF0", Offset = "0x6B52EF0", VA = "0x6B53EF0", Slot = "9")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002EMakeCurrentIMGUIContainerDirty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025C7")]
-	[Address(RVA = "0x314F940", Offset = "0x314DF40", VA = "0x18314F940", Slot = "4")]
+	[Address(RVA = "0x6B53FE0", Offset = "0x6B52FE0", VA = "0x6B53FE0", Slot = "4")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002ETakeCapture()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025C8")]
-	[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0", Slot = "5")]
+	[Address(RVA = "0x6B540C0", Offset = "0x6B530C0", VA = "0x6B540C0", Slot = "5")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002EReleaseCapture()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025C9")]
-	[Address(RVA = "0x314F700", Offset = "0x314DD00", VA = "0x18314F700", Slot = "6")]
+	[Address(RVA = "0x6B540D0", Offset = "0x6B530D0", VA = "0x6B540D0", Slot = "6")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002EProcessEvent(int instanceID, IntPtr nativeEventPtr, ref bool eventHandled)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025CA")]
-	[Address(RVA = "0x314F490", Offset = "0x314DA90", VA = "0x18314F490", Slot = "7")]
+	[Address(RVA = "0x6B54950", Offset = "0x6B53950", VA = "0x6B54950", Slot = "7")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002ECleanupRoots()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025CB")]
-	[Address(RVA = "0x314F560", Offset = "0x314DB60", VA = "0x18314F560", Slot = "8")]
+	[Address(RVA = "0x6B549F0", Offset = "0x6B539F0", VA = "0x6B549F0", Slot = "8")]
 	private bool UnityEngine_002EUIElements_002EIUIElementsUtility_002EEndContainerGUIFromException(Exception exception)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025CC")]
-	[Address(RVA = "0x314F2F0", Offset = "0x314D8F0", VA = "0x18314F2F0")]
+	[Address(RVA = "0x6B4F9C0", Offset = "0x6B4E9C0", VA = "0x6B4F9C0")]
 	public static void RegisterCachedPanel(int instanceID, Panel panel)
 	{
 	}
 
 	[Token(Token = "0x60025CD")]
-	[Address(RVA = "0x314F380", Offset = "0x314D980", VA = "0x18314F380")]
+	[Address(RVA = "0x6B4FB10", Offset = "0x6B4EB10", VA = "0x6B4FB10")]
 	public static void RemoveCachedPanel(int instanceID)
 	{
 	}
 
 	[Token(Token = "0x60025CE")]
-	[Address(RVA = "0x314F400", Offset = "0x314DA00", VA = "0x18314F400")]
+	[Address(RVA = "0x6B4ECF0", Offset = "0x6B4DCF0", VA = "0x6B4ECF0")]
 	public static bool TryGetPanel(int instanceID, out Panel panel)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025CF")]
-	[Address(RVA = "0x314DCC0", Offset = "0x314C2C0", VA = "0x18314DCC0")]
+	[Address(RVA = "0x6B54AF0", Offset = "0x6B53AF0", VA = "0x6B54AF0")]
 	internal static void BeginContainerGUI(GUILayoutUtility.LayoutCache cache, Event evt, IMGUIContainer container)
 	{
 	}
 
 	[Token(Token = "0x60025D0")]
-	[Address(RVA = "0x314E8F0", Offset = "0x314CEF0", VA = "0x18314E8F0")]
+	[Address(RVA = "0x6B54D50", Offset = "0x6B53D50", VA = "0x6B54D50")]
 	internal static void EndContainerGUI(Event evt, Rect layoutSize)
 	{
 	}
 
 	[Token(Token = "0x60025D1")]
-	[Address(RVA = "0x314DF20", Offset = "0x314C520", VA = "0x18314DF20")]
+	[Address(RVA = "0x6B54FC0", Offset = "0x6B53FC0", VA = "0x6B54FC0")]
 	internal static EventBase CreateEvent(Event systemEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60025D2")]
-	[Address(RVA = "0x314DF90", Offset = "0x314C590", VA = "0x18314DF90")]
+	[Address(RVA = "0x6B4E830", Offset = "0x6B4D830", VA = "0x6B4E830")]
 	internal static EventBase CreateEvent(Event systemEvent, EventType eventType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60025D3")]
-	[Address(RVA = "0x314E340", Offset = "0x314C940", VA = "0x18314E340")]
+	[Address(RVA = "0x6B542F0", Offset = "0x6B532F0", VA = "0x6B542F0")]
 	private static bool DoDispatch(BaseVisualElementPanel panel)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025D4")]
-	[Address(RVA = "0x314EB50", Offset = "0x314D150", VA = "0x18314EB50")]
+	[Address(RVA = "0x6B4F790", Offset = "0x6B4E790", VA = "0x6B4F790")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIToolkitAuthoringModule" })]
 	internal static void GetAllPanels(List<Panel> panels, ContextType contextType)
 	{
 	}
 
 	[Token(Token = "0x60025D5")]
-	[Address(RVA = "0x314ECE0", Offset = "0x314D2E0", VA = "0x18314ECE0")]
+	[Address(RVA = "0x6B55020", Offset = "0x6B54020", VA = "0x6B55020")]
 	internal static Dictionary<int, Panel>.Enumerator GetPanelsIterator()
 	{
 		return default(Dictionary<int, Panel>.Enumerator);
 	}
 
 	[Token(Token = "0x60025D6")]
-	[Address(RVA = "0x314EF80", Offset = "0x314D580", VA = "0x18314EF80")]
+	[Address(RVA = "0x6B550D0", Offset = "0x6B540D0", VA = "0x6B550D0")]
 	internal static float PixelsPerUnitScaleForElement(VisualElement ve, Sprite sprite)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60025D7")]
-	[Address(RVA = "0x314EE40", Offset = "0x314D440", VA = "0x18314EE40")]
+	[Address(RVA = "0x6B55190", Offset = "0x6B54190", VA = "0x6B55190")]
 	internal static string ParseMenuName(string menuName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60025D8")]
-	[Address(RVA = "0x314ED90", Offset = "0x314D390", VA = "0x18314ED90")]
+	[Address(RVA = "0x6B552C0", Offset = "0x6B542C0", VA = "0x6B552C0")]
 	internal static void MarkStyleSheetAsChanged(StyleSheet styleSheet)
 	{
 	}
 
 	[Token(Token = "0x60025D9")]
-	[Address(RVA = "0x314F050", Offset = "0x314D650", VA = "0x18314F050")]
+	[Address(RVA = "0x6B55380", Offset = "0x6B54380", VA = "0x6B55380")]
 	internal static void RebuildDirtyStyleSheets()
 	{
 	}

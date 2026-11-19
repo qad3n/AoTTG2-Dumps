@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002EF")]
+[Token(Token = "0x200034D")]
 public readonly struct AottgScreenSectionContext
 {
-	[Token(Token = "0x4000EFF")]
+	[Token(Token = "0x4001094")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly string _group;
 
-	[Token(Token = "0x4000F00")]
+	[Token(Token = "0x4001095")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly int _order;
 
-	[Token(Token = "0x17000203")]
+	[Token(Token = "0x17000240")]
 	public string SectionId
 	{
-		[Token(Token = "0x6001254")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60014AD")]
+		[Address(RVA = "0x5816460", Offset = "0x5815460", VA = "0x5816460")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,11 +34,11 @@ public readonly struct AottgScreenSectionContext
 		}
 	}
 
-	[Token(Token = "0x17000204")]
+	[Token(Token = "0x17000241")]
 	public string SectionTitle
 	{
-		[Token(Token = "0x6001255")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60014AE")]
+		[Address(RVA = "0x5816470", Offset = "0x5815470", VA = "0x5816470")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,21 +46,21 @@ public readonly struct AottgScreenSectionContext
 		}
 	}
 
-	[Token(Token = "0x6001253")]
-	[Address(RVA = "0x1E2D5A0", Offset = "0x1E2BBA0", VA = "0x181E2D5A0")]
+	[Token(Token = "0x60014AC")]
+	[Address(RVA = "0x58163C0", Offset = "0x58153C0", VA = "0x58163C0")]
 	public AottgScreenSectionContext(string screenId, string sectionId, string sectionTitle, int order)
 	{
 	}
 
-	[Token(Token = "0x6001256")]
-	[Address(RVA = "0x1E2D4B0", Offset = "0x1E2BAB0", VA = "0x181E2D4B0")]
+	[Token(Token = "0x60014AF")]
+	[Address(RVA = "0x5816480", Offset = "0x5815480", VA = "0x5816480")]
 	public GisketchMotionDefinition HeaderMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001257")]
-	[Address(RVA = "0x1E2D520", Offset = "0x1E2BB20", VA = "0x181E2D520")]
+	[Token(Token = "0x60014B0")]
+	[Address(RVA = "0x58164D0", Offset = "0x58154D0", VA = "0x58164D0")]
 	public GisketchMotionDefinition RowMotion(int index)
 	{
 		return null;

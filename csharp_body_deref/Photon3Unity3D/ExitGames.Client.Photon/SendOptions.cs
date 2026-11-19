@@ -36,13 +36,13 @@ public struct SendOptions
 	public bool Reliability
 	{
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x1CE81D0", Offset = "0x1CE67D0", VA = "0x181CE81D0")]
+		[Address(RVA = "0x567A2F0", Offset = "0x56792F0", VA = "0x567A2F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x1CE81E0", Offset = "0x1CE67E0", VA = "0x181CE81E0")]
+		[Address(RVA = "0x567A300", Offset = "0x5679300", VA = "0x567A300")]
 		set
 		{
 		}

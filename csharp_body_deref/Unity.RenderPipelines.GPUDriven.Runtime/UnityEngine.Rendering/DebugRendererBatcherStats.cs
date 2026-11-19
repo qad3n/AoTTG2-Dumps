@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DebugRendererBatcherStats
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,26 +43,26 @@ internal class DebugRendererBatcherStats : IDisposable
 	public bool overrideOcclusionTestToAlwaysPass;
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x2BC02E0", Offset = "0x2BBE8E0", VA = "0x182BC02E0")]
+	[Address(RVA = "0x65C1500", Offset = "0x65C0500", VA = "0x65C1500")]
 	public DebugRendererBatcherStats()
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x2BBFE40", Offset = "0x2BBE440", VA = "0x182BBFE40")]
+	[Address(RVA = "0x65C15F0", Offset = "0x65C05F0", VA = "0x65C15F0")]
 	public void FinalizeInstanceCullerViewStats()
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x2BC0170", Offset = "0x2BBE770", VA = "0x182BC0170")]
+	[Address(RVA = "0x65C17A0", Offset = "0x65C07A0", VA = "0x65C17A0")]
 	private InstanceOcclusionEventStats GetLastInstanceOcclusionEventStatsForView(int viewIndex)
 	{
 		return default(InstanceOcclusionEventStats);
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x2BBFD80", Offset = "0x2BBE380", VA = "0x182BBFD80", Slot = "4")]
+	[Address(RVA = "0x65C1920", Offset = "0x65C0920", VA = "0x65C1920", Slot = "4")]
 	public void Dispose()
 	{
 	}

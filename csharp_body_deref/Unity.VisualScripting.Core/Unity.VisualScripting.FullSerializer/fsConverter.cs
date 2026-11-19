@@ -17,7 +17,7 @@ public abstract class fsConverter : fsBaseConverter
 	public abstract bool CanProcess(Type type);
 
 	[Token(Token = "0x6001248")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6857AD0", Offset = "0x6856AD0", VA = "0x6857AD0")]
 	protected fsConverter()
 	{
 	}

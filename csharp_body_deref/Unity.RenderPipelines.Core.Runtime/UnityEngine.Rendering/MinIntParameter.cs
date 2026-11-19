@@ -18,27 +18,27 @@ public class MinIntParameter : IntParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x4000991")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public int min;
 
 	[Token(Token = "0x170001EC")]
 	public override int value
 	{
 		[Token(Token = "0x6000F1D")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
+		[Address(RVA = "0x6555560", Offset = "0x6554560", VA = "0x6555560", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F1E")]
-		[Address(RVA = "0x2B5F3C0", Offset = "0x2B5D9C0", VA = "0x182B5F3C0", Slot = "15")]
+		[Address(RVA = "0x6555570", Offset = "0x6554570", VA = "0x6555570", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F1F")]
-	[Address(RVA = "0x2B5E330", Offset = "0x2B5C930", VA = "0x182B5E330")]
+	[Address(RVA = "0x6555580", Offset = "0x6554580", VA = "0x6555580")]
 	public MinIntParameter(int value, int min, bool overrideState = false)
 	{
 	}

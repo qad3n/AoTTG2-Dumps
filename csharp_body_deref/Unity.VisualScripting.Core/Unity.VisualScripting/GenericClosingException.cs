@@ -14,13 +14,13 @@ namespace Unity.VisualScripting;
 public sealed class GenericClosingException : Exception
 {
 	[Token(Token = "0x60005A6")]
-	[Address(RVA = "0x2DA7C10", Offset = "0x2DA6210", VA = "0x182DA7C10")]
+	[Address(RVA = "0x67B0640", Offset = "0x67AF640", VA = "0x67B0640")]
 	public GenericClosingException(string message)
 	{
 	}
 
 	[Token(Token = "0x60005A7")]
-	[Address(RVA = "0x2DA7B80", Offset = "0x2DA6180", VA = "0x182DA7B80")]
+	[Address(RVA = "0x67B06A0", Offset = "0x67AF6A0", VA = "0x67B06A0")]
 	public GenericClosingException(Type open, Type closed)
 	{
 	}

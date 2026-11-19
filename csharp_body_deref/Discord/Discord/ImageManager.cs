@@ -67,7 +67,7 @@ public class ImageManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x531530", Offset = "0x52FB30", VA = "0x180531530")]
+		[Address(RVA = "0x3147D60", Offset = "0x3146D60", VA = "0x3147D60")]
 		get
 		{
 			return default(FFIMethods);
@@ -75,58 +75,58 @@ public class ImageManager
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x531410", Offset = "0x52FA10", VA = "0x180531410")]
+	[Address(RVA = "0x3143100", Offset = "0x3142100", VA = "0x3143100")]
 	internal ImageManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x5313A0", Offset = "0x52F9A0", VA = "0x1805313A0")]
+	[Address(RVA = "0x3147E70", Offset = "0x3146E70", VA = "0x3147E70")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x530B10", Offset = "0x52F110", VA = "0x180530B10")]
+	[Address(RVA = "0x3147C60", Offset = "0x3146C60", VA = "0x3147C60")]
 	[MonoPInvokeCallback]
 	private static void FetchCallbackImpl(IntPtr ptr, Result result, ImageHandle handleResult)
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x530C50", Offset = "0x52F250", VA = "0x180530C50")]
+	[Address(RVA = "0x3147ED0", Offset = "0x3146ED0", VA = "0x3147ED0")]
 	public void Fetch(ImageHandle handle, bool refresh, FetchHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x531110", Offset = "0x52F710", VA = "0x180531110")]
+	[Address(RVA = "0x31480B0", Offset = "0x31470B0", VA = "0x31480B0")]
 	public ImageDimensions GetDimensions(ImageHandle handle)
 	{
 		return default(ImageDimensions);
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x530F10", Offset = "0x52F510", VA = "0x180530F10")]
+	[Address(RVA = "0x3148160", Offset = "0x3147160", VA = "0x3148160")]
 	public void GetData(ImageHandle handle, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x530DB0", Offset = "0x52F3B0", VA = "0x180530DB0")]
+	[Address(RVA = "0x3148200", Offset = "0x3147200", VA = "0x3148200")]
 	public void Fetch(ImageHandle handle, FetchHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x530FE0", Offset = "0x52F5E0", VA = "0x180530FE0")]
+	[Address(RVA = "0x3148210", Offset = "0x3147210", VA = "0x3148210")]
 	public byte[] GetData(ImageHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x5311E0", Offset = "0x52F7E0", VA = "0x1805311E0")]
+	[Address(RVA = "0x31482B0", Offset = "0x31472B0", VA = "0x31482B0")]
 	public Texture2D GetTexture(ImageHandle handle)
 	{
 		return null;

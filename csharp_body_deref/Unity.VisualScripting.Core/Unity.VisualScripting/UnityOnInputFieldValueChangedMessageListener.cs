@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnInputFieldValueChangedMessageListener : MessageListener
 {
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x2DBE140", Offset = "0x2DBC740", VA = "0x182DBE140")]
+	[Address(RVA = "0x67A5830", Offset = "0x67A4830", VA = "0x67A5830")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A58F0", Offset = "0x67A48F0", VA = "0x67A58F0")]
 	public UnityOnInputFieldValueChangedMessageListener()
 	{
 	}

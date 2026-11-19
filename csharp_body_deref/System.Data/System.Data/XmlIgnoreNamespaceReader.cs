@@ -19,20 +19,20 @@ internal sealed class XmlIgnoreNamespaceReader : XmlNodeReader
 	private List<string> _namespacesToIgnore;
 
 	[Token(Token = "0x600084E")]
-	[Address(RVA = "0x2544C10", Offset = "0x2543210", VA = "0x182544C10")]
+	[Address(RVA = "0x5EE7180", Offset = "0x5EE6180", VA = "0x5EE7180")]
 	internal XmlIgnoreNamespaceReader(XmlDocument xdoc, string[] namespacesToIgnore)
 	{
 	}
 
 	[Token(Token = "0x600084F")]
-	[Address(RVA = "0x2544A00", Offset = "0x2543000", VA = "0x182544A00", Slot = "27")]
+	[Address(RVA = "0x5EE7210", Offset = "0x5EE6210", VA = "0x5EE7210", Slot = "27")]
 	public override bool MoveToFirstAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000850")]
-	[Address(RVA = "0x2544B10", Offset = "0x2543110", VA = "0x182544B10", Slot = "28")]
+	[Address(RVA = "0x5EE7320", Offset = "0x5EE6320", VA = "0x5EE7320", Slot = "28")]
 	public override bool MoveToNextAttribute()
 	{
 		return default(bool);

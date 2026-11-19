@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003F7")]
+[Token(Token = "0x20003D0")]
 [CLSCompliant(false)]
 public interface IFormatterConverter
 {
-	[Token(Token = "0x6001F8E")]
+	[Token(Token = "0x6001F64")]
 	object Convert(object value, Type type);
 
-	[Token(Token = "0x6001F8F")]
+	[Token(Token = "0x6001F65")]
 	bool ToBoolean(object value);
 
-	[Token(Token = "0x6001F90")]
+	[Token(Token = "0x6001F66")]
 	int ToInt32(object value);
 
-	[Token(Token = "0x6001F91")]
+	[Token(Token = "0x6001F67")]
 	long ToInt64(object value);
 
-	[Token(Token = "0x6001F92")]
+	[Token(Token = "0x6001F68")]
 	float ToSingle(object value);
 
-	[Token(Token = "0x6001F93")]
+	[Token(Token = "0x6001F69")]
 	string ToString(object value);
 }

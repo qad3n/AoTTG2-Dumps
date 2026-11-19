@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005C2")]
+[Token(Token = "0x200059D")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class NonEventAttribute : Attribute
 {
-	[Token(Token = "0x6002BAF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6002B8E")]
+	[Address(RVA = "0x544FE80", Offset = "0x544EE80", VA = "0x544FE80")]
 	public NonEventAttribute()
 	{
 	}

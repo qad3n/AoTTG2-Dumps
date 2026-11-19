@@ -40,7 +40,7 @@ public class ParameterCode
 	public const byte UserId = 225;
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56A61D0", Offset = "0x56A51D0", VA = "0x56A61D0")]
 	public ParameterCode()
 	{
 	}

@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000079")]
+[Token(Token = "0x200007A")]
 internal sealed class FullConditionalExpressionWithType : FullConditionalExpression
 {
-	[Token(Token = "0x17000077")]
+	[Token(Token = "0x17000079")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000315")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "5")]
+		[Token(Token = "0x6000320")]
+		[Address(RVA = "0x5DC6B00", Offset = "0x5DC5B00", VA = "0x5DC6B00", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal sealed class FullConditionalExpressionWithType : FullConditionalExpress
 		}
 	}
 
-	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x2439840", Offset = "0x2437E40", VA = "0x182439840")]
+	[Token(Token = "0x600031F")]
+	[Address(RVA = "0x5DC67E0", Offset = "0x5DC57E0", VA = "0x5DC67E0")]
 	internal FullConditionalExpressionWithType(Expression test, Expression ifTrue, Expression ifFalse, Type type)
 	{
 	}

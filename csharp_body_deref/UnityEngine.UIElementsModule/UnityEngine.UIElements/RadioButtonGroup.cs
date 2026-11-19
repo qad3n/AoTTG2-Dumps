@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.RadioButtonGroup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 	public new class UxmlFactory : UxmlFactory<RadioButtonGroup, UxmlTraits>
 	{
 		[Token(Token = "0x60008EE")]
-		[Address(RVA = "0x323AEC0", Offset = "0x32394C0", VA = "0x18323AEC0")]
+		[Address(RVA = "0x6C2A6B0", Offset = "0x6C296B0", VA = "0x6C2A6B0")]
 		public UxmlFactory()
 		{
 		}
@@ -40,13 +40,13 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 		private UxmlStringAttributeDescription m_Choices;
 
 		[Token(Token = "0x60008EF")]
-		[Address(RVA = "0x323C930", Offset = "0x323AF30", VA = "0x18323C930", Slot = "4")]
+		[Address(RVA = "0x6C2A6F0", Offset = "0x6C296F0", VA = "0x6C2A6F0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60008F0")]
-		[Address(RVA = "0x323D440", Offset = "0x323BA40", VA = "0x18323D440")]
+		[Address(RVA = "0x6C2A810", Offset = "0x6C29810", VA = "0x6C2A810")]
 		public UxmlTraits()
 		{
 		}
@@ -92,7 +92,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 		private string System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EString_003E_002ECurrent
 		{
 			[Token(Token = "0x60008F6")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x6C2AD80", Offset = "0x6C29D80", VA = "0x6C2AD80", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -104,7 +104,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60008F8")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x6C2ADD0", Offset = "0x6C29DD0", VA = "0x6C2ADD0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -113,47 +113,47 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 		}
 
 		[Token(Token = "0x60008F1")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x6C2A8C0", Offset = "0x6C298C0", VA = "0x6C2A8C0")]
 		[DebuggerHidden]
 		public _003Cget_choices_003Ed__17(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60008F2")]
-		[Address(RVA = "0x323ACE0", Offset = "0x32392E0", VA = "0x18323ACE0", Slot = "7")]
+		[Address(RVA = "0x6C2A8F0", Offset = "0x6C298F0", VA = "0x6C2A8F0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60008F3")]
-		[Address(RVA = "0x323A910", Offset = "0x3238F10", VA = "0x18323A910", Slot = "8")]
+		[Address(RVA = "0x6C2AA20", Offset = "0x6C29A20", VA = "0x6C2AA20", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60008F4")]
-		[Address(RVA = "0x323ADE0", Offset = "0x32393E0", VA = "0x18323ADE0")]
+		[Address(RVA = "0x6C2AD40", Offset = "0x6C29D40", VA = "0x6C2AD40")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x60008F5")]
-		[Address(RVA = "0x323AE30", Offset = "0x3239430", VA = "0x18323AE30")]
+		[Address(RVA = "0x6C2AD00", Offset = "0x6C29D00", VA = "0x6C2AD00")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
 		[Token(Token = "0x60008F7")]
-		[Address(RVA = "0x323ACA0", Offset = "0x32392A0", VA = "0x18323ACA0", Slot = "10")]
+		[Address(RVA = "0x6C2AD90", Offset = "0x6C29D90", VA = "0x6C2AD90", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60008F9")]
-		[Address(RVA = "0x323AC00", Offset = "0x3239200", VA = "0x18323AC00", Slot = "4")]
+		[Address(RVA = "0x6C2ADE0", Offset = "0x6C29DE0", VA = "0x6C2ADE0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<string> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EString_003E_002EGetEnumerator()
 		{
@@ -161,7 +161,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 		}
 
 		[Token(Token = "0x60008FA")]
-		[Address(RVA = "0x323AC00", Offset = "0x3239200", VA = "0x18323AC00", Slot = "5")]
+		[Address(RVA = "0x6C2AE80", Offset = "0x6C29E80", VA = "0x6C2AE80", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -226,14 +226,14 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 	public IEnumerable<string> choices
 	{
 		[Token(Token = "0x60008DB")]
-		[Address(RVA = "0x3222920", Offset = "0x3220F20", VA = "0x183222920")]
+		[Address(RVA = "0x6C28850", Offset = "0x6C27850", VA = "0x6C28850")]
 		[IteratorStateMachine(typeof(_003Cget_choices_003Ed__17))]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008DC")]
-		[Address(RVA = "0x32229D0", Offset = "0x3220FD0", VA = "0x1832229D0")]
+		[Address(RVA = "0x6C288C0", Offset = "0x6C278C0", VA = "0x6C288C0")]
 		set
 		{
 		}
@@ -243,7 +243,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 	internal List<string> choicesList
 	{
 		[Token(Token = "0x60008DE")]
-		[Address(RVA = "0x32229C0", Offset = "0x3220FC0", VA = "0x1832229C0")]
+		[Address(RVA = "0x6C29320", Offset = "0x6C28320", VA = "0x6C29320")]
 		set
 		{
 		}
@@ -253,7 +253,7 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60008DF")]
-		[Address(RVA = "0x32229A0", Offset = "0x3220FA0", VA = "0x1832229A0", Slot = "138")]
+		[Address(RVA = "0x6C29330", Offset = "0x6C28330", VA = "0x6C29330", Slot = "138")]
 		get
 		{
 			return null;
@@ -261,73 +261,73 @@ public class RadioButtonGroup : BaseField<int>, IGroupBox
 	}
 
 	[Token(Token = "0x60008DD")]
-	[Address(RVA = "0x3220FA0", Offset = "0x321F5A0", VA = "0x183220FA0")]
+	[Address(RVA = "0x6C28F10", Offset = "0x6C27F10", VA = "0x6C28F10")]
 	private void RebuildRadioButtonsFromChoices()
 	{
 	}
 
 	[Token(Token = "0x60008E0")]
-	[Address(RVA = "0x3222910", Offset = "0x3220F10", VA = "0x183222910")]
+	[Address(RVA = "0x6C29340", Offset = "0x6C28340", VA = "0x6C29340")]
 	public RadioButtonGroup()
 	{
 	}
 
 	[Token(Token = "0x60008E1")]
-	[Address(RVA = "0x3222510", Offset = "0x3220B10", VA = "0x183222510")]
+	[Address(RVA = "0x6C29350", Offset = "0x6C28350", VA = "0x6C29350")]
 	public RadioButtonGroup(string label, [Optional] List<string> radioButtonChoices)
 	{
 	}
 
 	[Token(Token = "0x60008E2")]
-	[Address(RVA = "0x3220D40", Offset = "0x321F340", VA = "0x183220D40")]
+	[Address(RVA = "0x6C29770", Offset = "0x6C28770", VA = "0x6C29770")]
 	private void RadioButtonValueChangedCallback(ChangeEvent<bool> evt)
 	{
 	}
 
 	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x32216B0", Offset = "0x321FCB0", VA = "0x1832216B0", Slot = "159")]
+	[Address(RVA = "0x6C29A40", Offset = "0x6C28A40", VA = "0x6C29A40", Slot = "159")]
 	public override void SetValueWithoutNotify(int newValue)
 	{
 	}
 
 	[Token(Token = "0x60008E4")]
-	[Address(RVA = "0x3220C70", Offset = "0x321F270", VA = "0x183220C70")]
+	[Address(RVA = "0x6C29980", Offset = "0x6C28980", VA = "0x6C29980")]
 	private void GetAllRadioButtons(List<RadioButton> radioButtons)
 	{
 	}
 
 	[Token(Token = "0x60008E5")]
-	[Address(RVA = "0x3221DB0", Offset = "0x32203B0", VA = "0x183221DB0")]
+	[Address(RVA = "0x6C29A90", Offset = "0x6C28A90", VA = "0x6C29A90")]
 	private void UpdateRadioButtons(bool notify)
 	{
 	}
 
 	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x3221590", Offset = "0x321FB90", VA = "0x183221590")]
+	[Address(RVA = "0x6C29210", Offset = "0x6C28210", VA = "0x6C29210")]
 	private void ScheduleRadioButtons()
 	{
 	}
 
 	[Token(Token = "0x60008E7")]
-	[Address(RVA = "0x3221290", Offset = "0x321F890", VA = "0x183221290")]
+	[Address(RVA = "0x6C2A010", Offset = "0x6C29010", VA = "0x6C2A010")]
 	private void RegisterRadioButton(RadioButton radioButton)
 	{
 	}
 
 	[Token(Token = "0x60008E8")]
-	[Address(RVA = "0x3221CF0", Offset = "0x32202F0", VA = "0x183221CF0")]
+	[Address(RVA = "0x6C2A290", Offset = "0x6C29290", VA = "0x6C2A290")]
 	private void UnregisterRadioButton(RadioButton radioButton)
 	{
 	}
 
 	[Token(Token = "0x60008E9")]
-	[Address(RVA = "0x3221A90", Offset = "0x3220090", VA = "0x183221A90", Slot = "160")]
+	[Address(RVA = "0x6C2A350", Offset = "0x6C29350", VA = "0x6C2A350", Slot = "160")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionAdded(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x60008EA")]
-	[Address(RVA = "0x3221B50", Offset = "0x3220150", VA = "0x183221B50", Slot = "161")]
+	[Address(RVA = "0x6C2A400", Offset = "0x6C29400", VA = "0x6C2A400", Slot = "161")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionRemoved(IGroupBoxOption option)
 	{
 	}

@@ -52,13 +52,13 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public FitMode horizontalFit
 	{
 		[Token(Token = "0x6000280")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6CDDBF0", Offset = "0x6CDCBF0", VA = "0x6CDDBF0")]
 		get
 		{
 			return default(FitMode);
 		}
 		[Token(Token = "0x6000281")]
-		[Address(RVA = "0x32C3FC0", Offset = "0x32C25C0", VA = "0x1832C3FC0")]
+		[Address(RVA = "0x6CDDC00", Offset = "0x6CDCC00", VA = "0x6CDDC00")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public FitMode verticalFit
 	{
 		[Token(Token = "0x6000282")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6CDDD20", Offset = "0x6CDCD20", VA = "0x6CDDD20")]
 		get
 		{
 			return default(FitMode);
 		}
 		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x32C4020", Offset = "0x32C2620", VA = "0x1832C4020")]
+		[Address(RVA = "0x6CDDD30", Offset = "0x6CDCD30", VA = "0x6CDDD30")]
 		set
 		{
 		}
@@ -84,7 +84,7 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	private RectTransform rectTransform
 	{
 		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x32C3F30", Offset = "0x32C2530", VA = "0x1832C3F30")]
+		[Address(RVA = "0x6CDDDE0", Offset = "0x6CDCDE0", VA = "0x6CDDDE0")]
 		get
 		{
 			return null;
@@ -92,49 +92,49 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x6CDDE70", Offset = "0x6CDCE70", VA = "0x6CDDE70")]
 	protected ContentSizeFitter()
 	{
 	}
 
 	[Token(Token = "0x6000286")]
-	[Address(RVA = "0x32C3CC0", Offset = "0x32C22C0", VA = "0x1832C3CC0", Slot = "5")]
+	[Address(RVA = "0x6CDDE80", Offset = "0x6CDCE80", VA = "0x6CDDE80", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x32C3C40", Offset = "0x32C2240", VA = "0x1832C3C40", Slot = "7")]
+	[Address(RVA = "0x6CDDF00", Offset = "0x6CDCF00", VA = "0x6CDDF00", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000288")]
-	[Address(RVA = "0x32C3CE0", Offset = "0x32C22E0", VA = "0x1832C3CE0", Slot = "10")]
+	[Address(RVA = "0x6CDDF70", Offset = "0x6CDCF70", VA = "0x6CDDF70", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x6000289")]
-	[Address(RVA = "0x32C3B60", Offset = "0x32C2160", VA = "0x1832C3B60")]
+	[Address(RVA = "0x6CDDFE0", Offset = "0x6CDCFE0", VA = "0x6CDDFE0")]
 	private void HandleSelfFittingAlongAxis(int axis)
 	{
 	}
 
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x32C3D70", Offset = "0x32C2370", VA = "0x1832C3D70", Slot = "19")]
+	[Address(RVA = "0x6CDE0C0", Offset = "0x6CDD0C0", VA = "0x6CDE0C0", Slot = "19")]
 	public virtual void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x32C3E50", Offset = "0x32C2450", VA = "0x1832C3E50", Slot = "20")]
+	[Address(RVA = "0x6CDE0E0", Offset = "0x6CDD0E0", VA = "0x6CDE0E0", Slot = "20")]
 	public virtual void SetLayoutVertical()
 	{
 	}
 
 	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x32C3CF0", Offset = "0x32C22F0", VA = "0x1832C3CF0")]
+	[Address(RVA = "0x6CDDCB0", Offset = "0x6CDCCB0", VA = "0x6CDDCB0")]
 	protected void SetDirty()
 	{
 	}

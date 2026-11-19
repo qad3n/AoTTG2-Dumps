@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassCompiler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -129,96 +129,96 @@ internal class NativePassCompiler : IDisposable
 	private DynamicArray<Name> graphPassNamesForDebug;
 
 	[Token(Token = "0x6001366")]
-	[Address(RVA = "0x2B94040", Offset = "0x2B92640", VA = "0x182B94040")]
+	[Address(RVA = "0x658D220", Offset = "0x658C220", VA = "0x658D220")]
 	private static RenderGraph.DebugData.PassData.NRPInfo.NativeRenderPassInfo.AttachmentInfo MakeAttachmentInfo(CompilerContextData ctx, in NativePassData nativePass, int attachmentIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001367")]
-	[Address(RVA = "0x2B94630", Offset = "0x2B92C30", VA = "0x182B94630")]
+	[Address(RVA = "0x658D7D0", Offset = "0x658C7D0", VA = "0x658D7D0")]
 	internal static string MakePassBreakInfoMessage(CompilerContextData ctx, in NativePassData nativePass)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001368")]
-	[Address(RVA = "0x2B94760", Offset = "0x2B92D60", VA = "0x182B94760")]
+	[Address(RVA = "0x658D8F0", Offset = "0x658C8F0", VA = "0x658D8F0")]
 	internal static string MakePassMergeMessage(CompilerContextData ctx, in PassData pass, in PassData prevPass, in PassBreakAudit mergeResult)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001369")]
-	[Address(RVA = "0x2B93B90", Offset = "0x2B92190", VA = "0x182B93B90")]
+	[Address(RVA = "0x658E2A0", Offset = "0x658D2A0", VA = "0x658E2A0")]
 	private static string InjectSpaces(string camelCaseString)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600136A")]
-	[Address(RVA = "0x2B90E70", Offset = "0x2B8F470", VA = "0x182B90E70")]
+	[Address(RVA = "0x658E450", Offset = "0x658D450", VA = "0x658E450")]
 	internal void GenerateNativeCompilerDebugData(ref RenderGraph.DebugData debugData)
 	{
 	}
 
 	[Token(Token = "0x600136B")]
-	[Address(RVA = "0x2B96EF0", Offset = "0x2B954F0", VA = "0x182B96EF0")]
+	[Address(RVA = "0x6591530", Offset = "0x6590530", VA = "0x6591530")]
 	public NativePassCompiler(RenderGraphCompilationCache cache)
 	{
 	}
 
 	[Token(Token = "0x600136C")]
-	[Address(RVA = "0x2B901F0", Offset = "0x2B8E7F0", VA = "0x182B901F0", Slot = "1")]
+	[Address(RVA = "0x6591A20", Offset = "0x6590A20", VA = "0x6591A20", Slot = "1")]
 	~NativePassCompiler()
 	{
 	}
 
 	[Token(Token = "0x600136D")]
-	[Address(RVA = "0x2B8D650", Offset = "0x2B8BC50", VA = "0x182B8D650", Slot = "4")]
+	[Address(RVA = "0x6591BB0", Offset = "0x6590BB0", VA = "0x6591BB0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600136E")]
-	[Address(RVA = "0x2B8BAE0", Offset = "0x2B8A0E0", VA = "0x182B8BAE0")]
+	[Address(RVA = "0x6591AB0", Offset = "0x6590AB0", VA = "0x6591AB0")]
 	public void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x600136F")]
-	[Address(RVA = "0x2B93AA0", Offset = "0x2B920A0", VA = "0x182B93AA0")]
+	[Address(RVA = "0x6591C10", Offset = "0x6590C10", VA = "0x6591C10")]
 	public bool Initialize(RenderGraphResourceRegistry resources, List<RenderGraphPass> renderPasses, RenderGraphDebugParams debugParams, string debugName, bool useCompilationCaching, int graphHash, int frameIndex, RenderTextureUVOriginStrategy renderTextureUVOriginStrategy)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001370")]
-	[Address(RVA = "0x2B934D0", Offset = "0x2B91AD0", VA = "0x182B934D0")]
+	[Address(RVA = "0x6591F60", Offset = "0x6590F60", VA = "0x6591F60")]
 	private void HandleExtendedFeatureFlags()
 	{
 	}
 
 	[Token(Token = "0x6001371")]
-	[Address(RVA = "0x2B8C000", Offset = "0x2B8A600", VA = "0x182B8C000")]
+	[Address(RVA = "0x65922B0", Offset = "0x65912B0", VA = "0x65922B0")]
 	public void Compile(RenderGraphResourceRegistry resources)
 	{
 	}
 
 	[Token(Token = "0x6001372")]
-	[Address(RVA = "0x2B8BC70", Offset = "0x2B8A270", VA = "0x182B8BC70")]
+	[Address(RVA = "0x6591CF0", Offset = "0x6590CF0", VA = "0x6591CF0")]
 	public void Clear(bool clearContextData)
 	{
 	}
 
 	[Token(Token = "0x6001373")]
-	[Address(RVA = "0x2B95860", Offset = "0x2B93E60", VA = "0x182B95860")]
+	[Address(RVA = "0x6595660", Offset = "0x6594660", VA = "0x6595660")]
 	private void SetPassStatesForNativePass(int nativePassId)
 	{
 	}
 
 	[Token(Token = "0x6001374")]
-	[Address(RVA = "0x2B96C10", Offset = "0x2B95210", VA = "0x182B96C10")]
+	[Address(RVA = "0x6595670", Offset = "0x6594670", VA = "0x6595670")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	private void ValidatePasses()
@@ -226,127 +226,127 @@ internal class NativePassCompiler : IDisposable
 	}
 
 	[Token(Token = "0x6001375")]
-	[Address(RVA = "0x2B959D0", Offset = "0x2B93FD0", VA = "0x182B959D0")]
+	[Address(RVA = "0x6592310", Offset = "0x6591310", VA = "0x6592310")]
 	private void SetupContextData(RenderGraphResourceRegistry resources)
 	{
 	}
 
 	[Token(Token = "0x6001376")]
-	[Address(RVA = "0x2B95EF0", Offset = "0x2B944F0", VA = "0x182B95EF0")]
+	[Address(RVA = "0x6595930", Offset = "0x6594930", VA = "0x6595930")]
 	private bool TrySetupRasterFragmentList(ref PassData ctxPass, ref RenderGraphPass inputPass, out string errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001377")]
-	[Address(RVA = "0x2B8B070", Offset = "0x2B89670", VA = "0x182B8B070")]
+	[Address(RVA = "0x6592450", Offset = "0x6591450", VA = "0x6592450")]
 	private void BuildGraph()
 	{
 	}
 
 	[Token(Token = "0x6001378")]
-	[Address(RVA = "0x2B8C660", Offset = "0x2B8AC60", VA = "0x182B8C660")]
+	[Address(RVA = "0x6592F90", Offset = "0x6591F90", VA = "0x6592F90")]
 	private void CullUnusedRenderGraphPasses()
 	{
 	}
 
 	[Token(Token = "0x6001379")]
-	[Address(RVA = "0x2B8C120", Offset = "0x2B8A720", VA = "0x182B8C120")]
+	[Address(RVA = "0x65966A0", Offset = "0x65956A0", VA = "0x65966A0")]
 	private void CullRenderGraphPassesWritingOnlyUnusedResources()
 	{
 	}
 
 	[Token(Token = "0x600137A")]
-	[Address(RVA = "0x2B95AF0", Offset = "0x2B940F0", VA = "0x182B95AF0")]
+	[Address(RVA = "0x6593370", Offset = "0x6592370", VA = "0x6593370")]
 	private void TryMergeNativePasses()
 	{
 	}
 
 	[Token(Token = "0x600137B")]
-	[Address(RVA = "0x2B90320", Offset = "0x2B8E920", VA = "0x182B90320")]
+	[Address(RVA = "0x6596C30", Offset = "0x6595C30", VA = "0x6596C30")]
 	private bool FindFirstPassIdOnGraphicsQueueAwaitingFenceGoingForward(ref PassData startAsyncPass, out int firstPassIdAwaiting)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600137C")]
-	[Address(RVA = "0x2B90250", Offset = "0x2B8E850", VA = "0x182B90250")]
+	[Address(RVA = "0x6596D60", Offset = "0x6595D60", VA = "0x6596D60")]
 	private int FindFirstNonCulledPassIdGoingBackward(int startPassId, bool startPassIsIncluded)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600137D")]
-	[Address(RVA = "0x2B90410", Offset = "0x2B8EA10", VA = "0x182B90410")]
+	[Address(RVA = "0x6593720", Offset = "0x6592720", VA = "0x6593720")]
 	private void FindResourceUsageRangeAndSynchronization()
 	{
 	}
 
 	[Token(Token = "0x600137E")]
-	[Address(RVA = "0x2B8BBE0", Offset = "0x2B8A1E0", VA = "0x182B8BBE0")]
+	[Address(RVA = "0x6596E50", Offset = "0x6595E50", VA = "0x6596E50")]
 	private void ClearDelayedLastUseListAtPass(int passId)
 	{
 	}
 
 	[Token(Token = "0x600137F")]
-	[Address(RVA = "0x2B8ABB0", Offset = "0x2B891B0", VA = "0x182B8ABB0")]
+	[Address(RVA = "0x6596ED0", Offset = "0x6595ED0", VA = "0x6596ED0")]
 	private void AddDelayedLastUseToPass(in ResourceHandle releaseResource, int passId)
 	{
 	}
 
 	[Token(Token = "0x6001380")]
-	[Address(RVA = "0x2B8AD20", Offset = "0x2B89320", VA = "0x182B8AD20")]
+	[Address(RVA = "0x6597010", Offset = "0x6596010", VA = "0x6597010")]
 	public void AddLastUseFromDelayedList(ref PassData passData)
 	{
 	}
 
 	[Token(Token = "0x6001381")]
-	[Address(RVA = "0x2B951B0", Offset = "0x2B937B0", VA = "0x182B951B0")]
+	[Address(RVA = "0x6594E20", Offset = "0x6593E20", VA = "0x6594E20")]
 	private void PrepareNativeRenderPasses()
 	{
 	}
 
 	[Token(Token = "0x6001382")]
-	[Address(RVA = "0x2B95280", Offset = "0x2B93880", VA = "0x182B95280")]
+	[Address(RVA = "0x6594ED0", Offset = "0x6593ED0", VA = "0x6594ED0")]
 	private void PropagateTextureUVOrigin()
 	{
 	}
 
 	[Token(Token = "0x6001383")]
-	[Address(RVA = "0x2B93CF0", Offset = "0x2B922F0", VA = "0x182B93CF0")]
+	[Address(RVA = "0x65978B0", Offset = "0x65968B0", VA = "0x65978B0")]
 	private static bool IsGlobalTextureInPass(RenderGraphPass pass, in ResourceHandle handle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001384")]
-	[Address(RVA = "0x2B8CA10", Offset = "0x2B8B010", VA = "0x182B8CA10")]
+	[Address(RVA = "0x6594700", Offset = "0x6593700", VA = "0x6594700")]
 	private void DetectMemoryLessResources()
 	{
 	}
 
 	[Token(Token = "0x6001385")]
-	[Address(RVA = "0x2B93E70", Offset = "0x2B92470", VA = "0x182B93E70")]
+	[Address(RVA = "0x6597A50", Offset = "0x6596A50", VA = "0x6597A50")]
 	internal static bool IsSameNativeSubPass(ref SubPassDescriptor a, ref SubPassDescriptor b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001386")]
-	[Address(RVA = "0x2B8F0A0", Offset = "0x2B8D6A0", VA = "0x182B8F0A0")]
+	[Address(RVA = "0x6597C00", Offset = "0x6596C00", VA = "0x6597C00")]
 	private bool ExecuteInitializeResource(InternalRenderGraphContext rgContext, RenderGraphResourceRegistry resources, in PassData pass)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001387")]
-	[Address(RVA = "0x2B8CEC0", Offset = "0x2B8B4C0", VA = "0x182B8CEC0")]
+	[Address(RVA = "0x65971E0", Offset = "0x65961E0", VA = "0x65971E0")]
 	private void DetermineLoadStoreActions(ref NativePassData nativePass)
 	{
 	}
 
 	[Token(Token = "0x6001388")]
-	[Address(RVA = "0x2B969F0", Offset = "0x2B94FF0", VA = "0x182B969F0")]
+	[Address(RVA = "0x6598390", Offset = "0x6597390", VA = "0x6598390")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	private void ValidateNativePass(in NativePassData nativePass, int width, int height, int depth, int samples, int attachmentCount)
@@ -354,7 +354,7 @@ internal class NativePassCompiler : IDisposable
 	}
 
 	[Token(Token = "0x6001389")]
-	[Address(RVA = "0x2B96880", Offset = "0x2B94E80", VA = "0x182B96880")]
+	[Address(RVA = "0x6598540", Offset = "0x6597540", VA = "0x6598540")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	private void ValidateAttachment(in RenderTargetInfo attRenderTargetInfo, RenderGraphResourceRegistry resources, int nativePassWidth, int nativePassHeight, int nativePassMSAASamples, bool isVrs, bool isShaderResolve)
@@ -362,43 +362,43 @@ internal class NativePassCompiler : IDisposable
 	}
 
 	[Token(Token = "0x600138A")]
-	[Address(RVA = "0x2B8D9E0", Offset = "0x2B8BFE0", VA = "0x182B8D9E0")]
+	[Address(RVA = "0x65986C0", Offset = "0x65976C0", VA = "0x65986C0")]
 	internal void ExecuteBeginRenderPass(InternalRenderGraphContext rgContext, RenderGraphResourceRegistry resources, ref NativePassData nativePass)
 	{
 	}
 
 	[Token(Token = "0x600138B")]
-	[Address(RVA = "0x2B8E5A0", Offset = "0x2B8CBA0", VA = "0x182B8E5A0")]
+	[Address(RVA = "0x6599420", Offset = "0x6598420", VA = "0x6599420")]
 	private void ExecuteDestroyResource(InternalRenderGraphContext rgContext, RenderGraphResourceRegistry resources, ref PassData pass)
 	{
 	}
 
 	[Token(Token = "0x600138C")]
-	[Address(RVA = "0x2B8FCE0", Offset = "0x2B8E2E0", VA = "0x182B8FCE0")]
+	[Address(RVA = "0x6599A50", Offset = "0x6598A50", VA = "0x6599A50")]
 	private void ExecuteSetRenderTargets(RenderGraphPass pass, InternalRenderGraphContext rgContext)
 	{
 	}
 
 	[Token(Token = "0x600138D")]
-	[Address(RVA = "0x2B8F9F0", Offset = "0x2B8DFF0", VA = "0x182B8F9F0")]
+	[Address(RVA = "0x659A0F0", Offset = "0x65990F0", VA = "0x659A0F0")]
 	internal void ExecuteSetRandomWriteTarget(in CommandBuffer cmd, RenderGraphResourceRegistry resources, int index, in ResourceHandle resource, bool preserveCounterValue = true)
 	{
 	}
 
 	[Token(Token = "0x600138E")]
-	[Address(RVA = "0x2B8F6C0", Offset = "0x2B8DCC0", VA = "0x182B8F6C0")]
+	[Address(RVA = "0x659A330", Offset = "0x6599330", VA = "0x659A330")]
 	internal void ExecuteRenderGraphPass(ref InternalRenderGraphContext rgContext, RenderGraphResourceRegistry resources, RenderGraphPass pass)
 	{
 	}
 
 	[Token(Token = "0x600138F")]
-	[Address(RVA = "0x2B8EAB0", Offset = "0x2B8D0B0", VA = "0x182B8EAB0")]
+	[Address(RVA = "0x659A6E0", Offset = "0x65996E0", VA = "0x659A6E0")]
 	public void ExecuteGraph(InternalRenderGraphContext rgContext, RenderGraphResourceRegistry resources, in List<RenderGraphPass> passes)
 	{
 	}
 
 	[Token(Token = "0x6001390")]
-	[Address(RVA = "0x2B8D6B0", Offset = "0x2B8BCB0", VA = "0x182B8D6B0")]
+	[Address(RVA = "0x659AC30", Offset = "0x6599C30", VA = "0x659AC30")]
 	private void EndRenderGraphPass(ref InternalRenderGraphContext rgContext, ref PassData passData, ref bool inRenderPass, RenderGraphResourceRegistry resources, bool nrpBegan)
 	{
 	}

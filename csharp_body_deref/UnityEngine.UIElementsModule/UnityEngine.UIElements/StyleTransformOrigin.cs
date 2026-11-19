@@ -28,13 +28,13 @@ public struct StyleTransformOrigin : IStyleValue<TransformOrigin>, IEquatable<St
 	public TransformOrigin value
 	{
 		[Token(Token = "0x60020B7")]
-		[Address(RVA = "0x311C1C0", Offset = "0x311A7C0", VA = "0x18311C1C0", Slot = "4")]
+		[Address(RVA = "0x6B14A10", Offset = "0x6B13A10", VA = "0x6B14A10", Slot = "4")]
 		get
 		{
 			return default(TransformOrigin);
 		}
 		[Token(Token = "0x60020B8")]
-		[Address(RVA = "0x3111AC0", Offset = "0x31100C0", VA = "0x183111AC0", Slot = "5")]
+		[Address(RVA = "0x6B14AA0", Offset = "0x6B13AA0", VA = "0x6B14AA0", Slot = "5")]
 		set
 		{
 		}
@@ -44,80 +44,80 @@ public struct StyleTransformOrigin : IStyleValue<TransformOrigin>, IEquatable<St
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x60020B9")]
-		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0", Slot = "6")]
+		[Address(RVA = "0x6B14AC0", Offset = "0x6B13AC0", VA = "0x6B14AC0", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x60020BA")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0", Slot = "7")]
+		[Address(RVA = "0x6B14AD0", Offset = "0x6B13AD0", VA = "0x6B14AD0", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60020BB")]
-	[Address(RVA = "0x3111AC0", Offset = "0x31100C0", VA = "0x183111AC0")]
+	[Address(RVA = "0x6B14AE0", Offset = "0x6B13AE0", VA = "0x6B14AE0")]
 	public StyleTransformOrigin(TransformOrigin v)
 	{
 	}
 
 	[Token(Token = "0x60020BC")]
-	[Address(RVA = "0x3111AB0", Offset = "0x31100B0", VA = "0x183111AB0")]
+	[Address(RVA = "0x6B14B20", Offset = "0x6B13B20", VA = "0x6B14B20")]
 	public StyleTransformOrigin(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020BD")]
-	[Address(RVA = "0x3111A90", Offset = "0x3110090", VA = "0x183111A90")]
+	[Address(RVA = "0x6B14B00", Offset = "0x6B13B00", VA = "0x6B14B00")]
 	internal StyleTransformOrigin(TransformOrigin v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020BE")]
-	[Address(RVA = "0x311C290", Offset = "0x311A890", VA = "0x18311C290")]
+	[Address(RVA = "0x6B14B40", Offset = "0x6B13B40", VA = "0x6B14B40")]
 	public static bool operator ==(StyleTransformOrigin lhs, StyleTransformOrigin rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020BF")]
-	[Address(RVA = "0x3111B90", Offset = "0x3110190", VA = "0x183111B90")]
+	[Address(RVA = "0x6B14BF0", Offset = "0x6B13BF0", VA = "0x6B14BF0")]
 	public static implicit operator StyleTransformOrigin(StyleKeyword keyword)
 	{
 		return default(StyleTransformOrigin);
 	}
 
 	[Token(Token = "0x60020C0")]
-	[Address(RVA = "0x3111B60", Offset = "0x3110160", VA = "0x183111B60")]
+	[Address(RVA = "0x6B14C10", Offset = "0x6B13C10", VA = "0x6B14C10")]
 	public static implicit operator StyleTransformOrigin(TransformOrigin v)
 	{
 		return default(StyleTransformOrigin);
 	}
 
 	[Token(Token = "0x60020C1")]
-	[Address(RVA = "0x311BF90", Offset = "0x311A590", VA = "0x18311BF90", Slot = "8")]
+	[Address(RVA = "0x6B14C30", Offset = "0x6B13C30", VA = "0x6B14C30", Slot = "8")]
 	public bool Equals(StyleTransformOrigin other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020C2")]
-	[Address(RVA = "0x311C040", Offset = "0x311A640", VA = "0x18311C040", Slot = "0")]
+	[Address(RVA = "0x6B14CA0", Offset = "0x6B13CA0", VA = "0x6B14CA0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020C3")]
-	[Address(RVA = "0x311C0E0", Offset = "0x311A6E0", VA = "0x18311C0E0", Slot = "2")]
+	[Address(RVA = "0x6B14D60", Offset = "0x6B13D60", VA = "0x6B14D60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60020C4")]
-	[Address(RVA = "0x311C150", Offset = "0x311A750", VA = "0x18311C150", Slot = "3")]
+	[Address(RVA = "0x6B14E20", Offset = "0x6B13E20", VA = "0x6B14E20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

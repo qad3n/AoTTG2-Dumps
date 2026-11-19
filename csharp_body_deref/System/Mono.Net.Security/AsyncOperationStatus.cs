@@ -12,12 +12,12 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000048")]
 internal enum AsyncOperationStatus
 {
-	[Token(Token = "0x40000A0")]
+	[Token(Token = "0x400009F")]
 	Initialize,
-	[Token(Token = "0x40000A1")]
+	[Token(Token = "0x40000A0")]
 	Continue,
-	[Token(Token = "0x40000A2")]
+	[Token(Token = "0x40000A1")]
 	ReadDone,
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x40000A2")]
 	Complete
 }

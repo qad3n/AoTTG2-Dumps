@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001EF")]
+[Token(Token = "0x20001B0")]
 public interface IChangeTracking
 {
-	[Token(Token = "0x170002A3")]
+	[Token(Token = "0x17000274")]
 	bool IsChanged
 	{
-		[Token(Token = "0x6000D10")]
+		[Token(Token = "0x6000B50")]
 		get;
 	}
 
-	[Token(Token = "0x6000D11")]
+	[Token(Token = "0x6000B51")]
 	void AcceptChanges();
 }

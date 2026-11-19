@@ -17,46 +17,46 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000704")]
+[Token(Token = "0x20007AF")]
 internal class CharacterEditorCategoryPanel : HeadedPanel
 {
-	[Token(Token = "0x2000705")]
+	[Token(Token = "0x20007B0")]
 	[CompilerGenerated]
 	private sealed class _003CCategoryChangeCaptureCoroutine_003Ed__18 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400233A")]
+		[Token(Token = "0x40026B9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400233B")]
+		[Token(Token = "0x40026BA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400233C")]
+		[Token(Token = "0x40026BB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public bool isHuman;
 
-		[Token(Token = "0x400233D")]
+		[Token(Token = "0x40026BC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public CharacterEditorCategoryPanel _003C_003E4__this;
 
-		[Token(Token = "0x400233E")]
+		[Token(Token = "0x40026BD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public bool shouldPreserveSkinPreview;
 
-		[Token(Token = "0x400233F")]
+		[Token(Token = "0x40026BE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x31")]
 		private bool _003CoriginalGlobalEnabled_003E5__2;
 
-		[Token(Token = "0x4002340")]
+		[Token(Token = "0x40026BF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x32")]
 		private bool _003CoriginalSetEnabled_003E5__3;
 
-		[Token(Token = "0x17000C60")]
+		[Token(Token = "0x17000CE5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60044F9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004A26")]
+			[Address(RVA = "0x5BCA6B0", Offset = "0x5BC96B0", VA = "0x5BCA6B0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -64,11 +64,11 @@ internal class CharacterEditorCategoryPanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000C61")]
+		[Token(Token = "0x17000CE6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60044FB")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004A28")]
+			[Address(RVA = "0x5BCA700", Offset = "0x5BC9700", VA = "0x5BCA700", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -76,144 +76,144 @@ internal class CharacterEditorCategoryPanel : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x60044F6")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004A23")]
+		[Address(RVA = "0x5BCA140", Offset = "0x5BC9140", VA = "0x5BCA140")]
 		[DebuggerHidden]
 		public _003CCategoryChangeCaptureCoroutine_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60044F7")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004A24")]
+		[Address(RVA = "0x5BCA230", Offset = "0x5BC9230", VA = "0x5BCA230", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60044F8")]
-		[Address(RVA = "0x21E7250", Offset = "0x21E5850", VA = "0x1821E7250", Slot = "6")]
+		[Token(Token = "0x6004A25")]
+		[Address(RVA = "0x5BCA240", Offset = "0x5BC9240", VA = "0x5BCA240", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60044FA")]
-		[Address(RVA = "0x21E7770", Offset = "0x21E5D70", VA = "0x1821E7770", Slot = "8")]
+		[Token(Token = "0x6004A27")]
+		[Address(RVA = "0x5BCA6C0", Offset = "0x5BC96C0", VA = "0x5BCA6C0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002338")]
+	[Token(Token = "0x40026B7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private StringSetting _category;
 
-	[Token(Token = "0x4002339")]
+	[Token(Token = "0x40026B8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	protected CharacterEditorGameManager _gameManager;
 
-	[Token(Token = "0x17000C5A")]
+	[Token(Token = "0x17000CDF")]
 	protected override string Title
 	{
-		[Token(Token = "0x60044E9")]
-		[Address(RVA = "0x21D1FB0", Offset = "0x21D05B0", VA = "0x1821D1FB0", Slot = "35")]
+		[Token(Token = "0x6004A16")]
+		[Address(RVA = "0x5BC9700", Offset = "0x5BC8700", VA = "0x5BC9700", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C5B")]
+	[Token(Token = "0x17000CE0")]
 	protected override float Width
 	{
-		[Token(Token = "0x60044EA")]
-		[Address(RVA = "0x21D2010", Offset = "0x21D0610", VA = "0x1821D2010", Slot = "5")]
+		[Token(Token = "0x6004A17")]
+		[Address(RVA = "0x5BC9760", Offset = "0x5BC8760", VA = "0x5BC9760", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C5C")]
+	[Token(Token = "0x17000CE1")]
 	protected override float Height
 	{
-		[Token(Token = "0x60044EB")]
-		[Address(RVA = "0x21C11B0", Offset = "0x21BF7B0", VA = "0x1821C11B0", Slot = "6")]
+		[Token(Token = "0x6004A18")]
+		[Address(RVA = "0x5BC9770", Offset = "0x5BC8770", VA = "0x5BC9770", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C5D")]
+	[Token(Token = "0x17000CE2")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x60044EC")]
-		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "11")]
+		[Token(Token = "0x6004A19")]
+		[Address(RVA = "0x5BC9780", Offset = "0x5BC8780", VA = "0x5BC9780", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C5E")]
+	[Token(Token = "0x17000CE3")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x60044ED")]
-		[Address(RVA = "0x21D1FA0", Offset = "0x21D05A0", VA = "0x1821D1FA0", Slot = "10")]
+		[Token(Token = "0x6004A1A")]
+		[Address(RVA = "0x5BC9790", Offset = "0x5BC8790", VA = "0x5BC9790", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C5F")]
+	[Token(Token = "0x17000CE4")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x60044EE")]
-		[Address(RVA = "0x21D1FA0", Offset = "0x21D05A0", VA = "0x1821D1FA0", Slot = "9")]
+		[Token(Token = "0x6004A1B")]
+		[Address(RVA = "0x5BC97A0", Offset = "0x5BC87A0", VA = "0x5BC97A0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60044EF")]
-	[Address(RVA = "0x21D1BC0", Offset = "0x21D01C0", VA = "0x1821D1BC0", Slot = "20")]
+	[Token(Token = "0x6004A1C")]
+	[Address(RVA = "0x5BC97B0", Offset = "0x5BC87B0", VA = "0x5BC97B0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044F0")]
-	[Address(RVA = "0x21D16C0", Offset = "0x21CFCC0", VA = "0x1821D16C0")]
+	[Token(Token = "0x6004A1D")]
+	[Address(RVA = "0x5BC9B80", Offset = "0x5BC8B80", VA = "0x5BC9B80")]
 	private string GetCurrentCategory()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60044F1")]
-	[Address(RVA = "0x21D1740", Offset = "0x21CFD40", VA = "0x1821D1740")]
+	[Token(Token = "0x6004A1E")]
+	[Address(RVA = "0x5BC9C10", Offset = "0x5BC8C10", VA = "0x5BC9C10")]
 	private void OnCategoryChange()
 	{
 	}
 
-	[Token(Token = "0x60044F2")]
-	[Address(RVA = "0x21D1B70", Offset = "0x21D0170", VA = "0x1821D1B70")]
+	[Token(Token = "0x6004A1F")]
+	[Address(RVA = "0x5BCA120", Offset = "0x5BC9120", VA = "0x5BCA120")]
 	private void ResetHumanSkinPreviewToggles()
 	{
 	}
 
-	[Token(Token = "0x60044F3")]
-	[Address(RVA = "0x21D1640", Offset = "0x21CFC40", VA = "0x1821D1640")]
+	[Token(Token = "0x6004A20")]
+	[Address(RVA = "0x5BCA0A0", Offset = "0x5BC90A0", VA = "0x5BCA0A0")]
 	[IteratorStateMachine(typeof(_003CCategoryChangeCaptureCoroutine_003Ed__18))]
 	private IEnumerator CategoryChangeCaptureCoroutine(bool isHuman, bool shouldPreserveSkinPreview)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60044F4")]
-	[Address(RVA = "0x21D1F30", Offset = "0x21D0530", VA = "0x1821D1F30")]
+	[Token(Token = "0x6004A21")]
+	[Address(RVA = "0x5BCA160", Offset = "0x5BC9160", VA = "0x5BCA160")]
 	public CharacterEditorCategoryPanel()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ResolvedStyleAccessPropertyBag
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B6C")]
-			[Address(RVA = "0x30E9040", Offset = "0x30E7640", VA = "0x1830E9040", Slot = "12")]
+			[Address(RVA = "0x6AF0E70", Offset = "0x6AEFE70", VA = "0x6AF0E70", Slot = "12")]
 			get
 			{
 				return null;
@@ -33,7 +33,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B6D")]
-			[Address(RVA = "0x30E9070", Offset = "0x30E7670", VA = "0x1830E9070", Slot = "19")]
+			[Address(RVA = "0x6AF0EA0", Offset = "0x6AEFEA0", VA = "0x6AF0EA0", Slot = "19")]
 			get
 			{
 				return null;
@@ -44,7 +44,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B6E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF0ED0", Offset = "0x6AEFED0", VA = "0x6AF0ED0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -52,20 +52,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B6F")]
-		[Address(RVA = "0x30E8F70", Offset = "0x30E7570", VA = "0x1830E8F70", Slot = "14")]
+		[Address(RVA = "0x6AF0EE0", Offset = "0x6AEFEE0", VA = "0x6AF0EE0", Slot = "14")]
 		public override Align GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Align);
 		}
 
 		[Token(Token = "0x6001B70")]
-		[Address(RVA = "0x30E8FC0", Offset = "0x30E75C0", VA = "0x1830E8FC0", Slot = "15")]
+		[Address(RVA = "0x6AF0F70", Offset = "0x6AEFF70", VA = "0x6AF0F70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Align value)
 		{
 		}
 
 		[Token(Token = "0x6001B71")]
-		[Address(RVA = "0x30E9000", Offset = "0x30E7600", VA = "0x1830E9000")]
+		[Address(RVA = "0x6AEF560", Offset = "0x6AEE560", VA = "0x6AEF560")]
 		public AlignContentProperty()
 		{
 		}
@@ -78,7 +78,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B72")]
-			[Address(RVA = "0x30E9170", Offset = "0x30E7770", VA = "0x1830E9170", Slot = "12")]
+			[Address(RVA = "0x6AF0FB0", Offset = "0x6AEFFB0", VA = "0x6AF0FB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -89,7 +89,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B73")]
-			[Address(RVA = "0x30E91A0", Offset = "0x30E77A0", VA = "0x1830E91A0", Slot = "19")]
+			[Address(RVA = "0x6AF0FE0", Offset = "0x6AEFFE0", VA = "0x6AF0FE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -100,7 +100,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B74")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1010", Offset = "0x6AF0010", VA = "0x6AF1010", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -108,20 +108,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B75")]
-		[Address(RVA = "0x30E90A0", Offset = "0x30E76A0", VA = "0x1830E90A0", Slot = "14")]
+		[Address(RVA = "0x6AF1020", Offset = "0x6AF0020", VA = "0x6AF1020", Slot = "14")]
 		public override Align GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Align);
 		}
 
 		[Token(Token = "0x6001B76")]
-		[Address(RVA = "0x30E90F0", Offset = "0x30E76F0", VA = "0x1830E90F0", Slot = "15")]
+		[Address(RVA = "0x6AF10C0", Offset = "0x6AF00C0", VA = "0x6AF10C0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Align value)
 		{
 		}
 
 		[Token(Token = "0x6001B77")]
-		[Address(RVA = "0x30E9130", Offset = "0x30E7730", VA = "0x1830E9130")]
+		[Address(RVA = "0x6AEF5A0", Offset = "0x6AEE5A0", VA = "0x6AEF5A0")]
 		public AlignItemsProperty()
 		{
 		}
@@ -134,7 +134,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B78")]
-			[Address(RVA = "0x30E92A0", Offset = "0x30E78A0", VA = "0x1830E92A0", Slot = "12")]
+			[Address(RVA = "0x6AF1100", Offset = "0x6AF0100", VA = "0x6AF1100", Slot = "12")]
 			get
 			{
 				return null;
@@ -145,7 +145,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B79")]
-			[Address(RVA = "0x30E92D0", Offset = "0x30E78D0", VA = "0x1830E92D0", Slot = "19")]
+			[Address(RVA = "0x6AF1130", Offset = "0x6AF0130", VA = "0x6AF1130", Slot = "19")]
 			get
 			{
 				return null;
@@ -156,7 +156,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B7A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1160", Offset = "0x6AF0160", VA = "0x6AF1160", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -164,20 +164,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B7B")]
-		[Address(RVA = "0x30E91D0", Offset = "0x30E77D0", VA = "0x1830E91D0", Slot = "14")]
+		[Address(RVA = "0x6AF1170", Offset = "0x6AF0170", VA = "0x6AF1170", Slot = "14")]
 		public override Align GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Align);
 		}
 
 		[Token(Token = "0x6001B7C")]
-		[Address(RVA = "0x30E9220", Offset = "0x30E7820", VA = "0x1830E9220", Slot = "15")]
+		[Address(RVA = "0x6AF1210", Offset = "0x6AF0210", VA = "0x6AF1210", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Align value)
 		{
 		}
 
 		[Token(Token = "0x6001B7D")]
-		[Address(RVA = "0x30E9260", Offset = "0x30E7860", VA = "0x1830E9260")]
+		[Address(RVA = "0x6AEF5E0", Offset = "0x6AEE5E0", VA = "0x6AEF5E0")]
 		public AlignSelfProperty()
 		{
 		}
@@ -190,7 +190,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B7E")]
-			[Address(RVA = "0x30E9440", Offset = "0x30E7A40", VA = "0x1830E9440", Slot = "12")]
+			[Address(RVA = "0x6AF1250", Offset = "0x6AF0250", VA = "0x6AF1250", Slot = "12")]
 			get
 			{
 				return null;
@@ -201,7 +201,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B7F")]
-			[Address(RVA = "0x30E9470", Offset = "0x30E7A70", VA = "0x1830E9470", Slot = "19")]
+			[Address(RVA = "0x6AF1280", Offset = "0x6AF0280", VA = "0x6AF1280", Slot = "19")]
 			get
 			{
 				return null;
@@ -212,7 +212,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B80")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF12B0", Offset = "0x6AF02B0", VA = "0x6AF12B0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -220,20 +220,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B81")]
-		[Address(RVA = "0x30E9300", Offset = "0x30E7900", VA = "0x1830E9300", Slot = "14")]
+		[Address(RVA = "0x6AF12C0", Offset = "0x6AF02C0", VA = "0x6AF12C0", Slot = "14")]
 		public override Ratio GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Ratio);
 		}
 
 		[Token(Token = "0x6001B82")]
-		[Address(RVA = "0x30E93C0", Offset = "0x30E79C0", VA = "0x1830E93C0", Slot = "15")]
+		[Address(RVA = "0x6AF1360", Offset = "0x6AF0360", VA = "0x6AF1360", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Ratio value)
 		{
 		}
 
 		[Token(Token = "0x6001B83")]
-		[Address(RVA = "0x30E9400", Offset = "0x30E7A00", VA = "0x1830E9400")]
+		[Address(RVA = "0x6AEF620", Offset = "0x6AEE620", VA = "0x6AEF620")]
 		public AspectRatioProperty()
 		{
 		}
@@ -246,7 +246,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B84")]
-			[Address(RVA = "0x30E95F0", Offset = "0x30E7BF0", VA = "0x1830E95F0", Slot = "12")]
+			[Address(RVA = "0x6AF13E0", Offset = "0x6AF03E0", VA = "0x6AF13E0", Slot = "12")]
 			get
 			{
 				return null;
@@ -257,7 +257,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B85")]
-			[Address(RVA = "0x30E9620", Offset = "0x30E7C20", VA = "0x1830E9620", Slot = "19")]
+			[Address(RVA = "0x6AF1410", Offset = "0x6AF0410", VA = "0x6AF1410", Slot = "19")]
 			get
 			{
 				return null;
@@ -268,7 +268,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B86")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1440", Offset = "0x6AF0440", VA = "0x6AF1440", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -276,20 +276,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B87")]
-		[Address(RVA = "0x30E94A0", Offset = "0x30E7AA0", VA = "0x1830E94A0", Slot = "14")]
+		[Address(RVA = "0x6AF1450", Offset = "0x6AF0450", VA = "0x6AF1450", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001B88")]
-		[Address(RVA = "0x30E9570", Offset = "0x30E7B70", VA = "0x1830E9570", Slot = "15")]
+		[Address(RVA = "0x6AF14F0", Offset = "0x6AF04F0", VA = "0x6AF14F0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001B89")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEF660", Offset = "0x6AEE660", VA = "0x6AEF660")]
 		public BackgroundColorProperty()
 		{
 		}
@@ -302,7 +302,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B8A")]
-			[Address(RVA = "0x30E97B0", Offset = "0x30E7DB0", VA = "0x1830E97B0", Slot = "12")]
+			[Address(RVA = "0x6AF1570", Offset = "0x6AF0570", VA = "0x6AF1570", Slot = "12")]
 			get
 			{
 				return null;
@@ -313,7 +313,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B8B")]
-			[Address(RVA = "0x30E97E0", Offset = "0x30E7DE0", VA = "0x1830E97E0", Slot = "19")]
+			[Address(RVA = "0x6AF15A0", Offset = "0x6AF05A0", VA = "0x6AF15A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -324,7 +324,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B8C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF15D0", Offset = "0x6AF05D0", VA = "0x6AF15D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -332,20 +332,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B8D")]
-		[Address(RVA = "0x30E9650", Offset = "0x30E7C50", VA = "0x1830E9650", Slot = "14")]
+		[Address(RVA = "0x6AF15E0", Offset = "0x6AF05E0", VA = "0x6AF15E0", Slot = "14")]
 		public override Background GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Background);
 		}
 
 		[Token(Token = "0x6001B8E")]
-		[Address(RVA = "0x30E9730", Offset = "0x30E7D30", VA = "0x1830E9730", Slot = "15")]
+		[Address(RVA = "0x6AF16B0", Offset = "0x6AF06B0", VA = "0x6AF16B0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Background value)
 		{
 		}
 
 		[Token(Token = "0x6001B8F")]
-		[Address(RVA = "0x30E9770", Offset = "0x30E7D70", VA = "0x1830E9770")]
+		[Address(RVA = "0x6AEF6A0", Offset = "0x6AEE6A0", VA = "0x6AEF6A0")]
 		public BackgroundImageProperty()
 		{
 		}
@@ -358,7 +358,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B90")]
-			[Address(RVA = "0x30E9970", Offset = "0x30E7F70", VA = "0x1830E9970", Slot = "12")]
+			[Address(RVA = "0x6AF1730", Offset = "0x6AF0730", VA = "0x6AF1730", Slot = "12")]
 			get
 			{
 				return null;
@@ -369,7 +369,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B91")]
-			[Address(RVA = "0x30E99A0", Offset = "0x30E7FA0", VA = "0x1830E99A0", Slot = "19")]
+			[Address(RVA = "0x6AF1760", Offset = "0x6AF0760", VA = "0x6AF1760", Slot = "19")]
 			get
 			{
 				return null;
@@ -380,7 +380,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B92")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1790", Offset = "0x6AF0790", VA = "0x6AF1790", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -388,20 +388,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B93")]
-		[Address(RVA = "0x30E9810", Offset = "0x30E7E10", VA = "0x1830E9810", Slot = "14")]
+		[Address(RVA = "0x6AF17A0", Offset = "0x6AF07A0", VA = "0x6AF17A0", Slot = "14")]
 		public override BackgroundPosition GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(BackgroundPosition);
 		}
 
 		[Token(Token = "0x6001B94")]
-		[Address(RVA = "0x30E98F0", Offset = "0x30E7EF0", VA = "0x1830E98F0", Slot = "15")]
+		[Address(RVA = "0x6AF1840", Offset = "0x6AF0840", VA = "0x6AF1840", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, BackgroundPosition value)
 		{
 		}
 
 		[Token(Token = "0x6001B95")]
-		[Address(RVA = "0x30E9930", Offset = "0x30E7F30", VA = "0x1830E9930")]
+		[Address(RVA = "0x6AEF6E0", Offset = "0x6AEE6E0", VA = "0x6AEF6E0")]
 		public BackgroundPositionXProperty()
 		{
 		}
@@ -414,7 +414,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B96")]
-			[Address(RVA = "0x30E9AF0", Offset = "0x30E80F0", VA = "0x1830E9AF0", Slot = "12")]
+			[Address(RVA = "0x6AF18C0", Offset = "0x6AF08C0", VA = "0x6AF18C0", Slot = "12")]
 			get
 			{
 				return null;
@@ -425,7 +425,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B97")]
-			[Address(RVA = "0x30E9B20", Offset = "0x30E8120", VA = "0x1830E9B20", Slot = "19")]
+			[Address(RVA = "0x6AF18F0", Offset = "0x6AF08F0", VA = "0x6AF18F0", Slot = "19")]
 			get
 			{
 				return null;
@@ -436,7 +436,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B98")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1920", Offset = "0x6AF0920", VA = "0x6AF1920", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -444,20 +444,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B99")]
-		[Address(RVA = "0x30E99D0", Offset = "0x30E7FD0", VA = "0x1830E99D0", Slot = "14")]
+		[Address(RVA = "0x6AF1930", Offset = "0x6AF0930", VA = "0x6AF1930", Slot = "14")]
 		public override BackgroundPosition GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(BackgroundPosition);
 		}
 
 		[Token(Token = "0x6001B9A")]
-		[Address(RVA = "0x30E9AB0", Offset = "0x30E80B0", VA = "0x1830E9AB0", Slot = "15")]
+		[Address(RVA = "0x6AF19D0", Offset = "0x6AF09D0", VA = "0x6AF19D0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, BackgroundPosition value)
 		{
 		}
 
 		[Token(Token = "0x6001B9B")]
-		[Address(RVA = "0x30E9930", Offset = "0x30E7F30", VA = "0x1830E9930")]
+		[Address(RVA = "0x6AEF720", Offset = "0x6AEE720", VA = "0x6AEF720")]
 		public BackgroundPositionYProperty()
 		{
 		}
@@ -470,7 +470,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001B9C")]
-			[Address(RVA = "0x30E9C90", Offset = "0x30E8290", VA = "0x1830E9C90", Slot = "12")]
+			[Address(RVA = "0x6AF1A10", Offset = "0x6AF0A10", VA = "0x6AF1A10", Slot = "12")]
 			get
 			{
 				return null;
@@ -481,7 +481,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001B9D")]
-			[Address(RVA = "0x30E9CC0", Offset = "0x30E82C0", VA = "0x1830E9CC0", Slot = "19")]
+			[Address(RVA = "0x6AF1A40", Offset = "0x6AF0A40", VA = "0x6AF1A40", Slot = "19")]
 			get
 			{
 				return null;
@@ -492,7 +492,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001B9E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1A70", Offset = "0x6AF0A70", VA = "0x6AF1A70", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -500,20 +500,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001B9F")]
-		[Address(RVA = "0x30E9B50", Offset = "0x30E8150", VA = "0x1830E9B50", Slot = "14")]
+		[Address(RVA = "0x6AF1A80", Offset = "0x6AF0A80", VA = "0x6AF1A80", Slot = "14")]
 		public override BackgroundRepeat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(BackgroundRepeat);
 		}
 
 		[Token(Token = "0x6001BA0")]
-		[Address(RVA = "0x30E9C10", Offset = "0x30E8210", VA = "0x1830E9C10", Slot = "15")]
+		[Address(RVA = "0x6AF1B20", Offset = "0x6AF0B20", VA = "0x6AF1B20", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, BackgroundRepeat value)
 		{
 		}
 
 		[Token(Token = "0x6001BA1")]
-		[Address(RVA = "0x30E9C50", Offset = "0x30E8250", VA = "0x1830E9C50")]
+		[Address(RVA = "0x6AEF760", Offset = "0x6AEE760", VA = "0x6AEF760")]
 		public BackgroundRepeatProperty()
 		{
 		}
@@ -526,7 +526,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BA2")]
-			[Address(RVA = "0x30E9E50", Offset = "0x30E8450", VA = "0x1830E9E50", Slot = "12")]
+			[Address(RVA = "0x6AF1BA0", Offset = "0x6AF0BA0", VA = "0x6AF1BA0", Slot = "12")]
 			get
 			{
 				return null;
@@ -537,7 +537,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BA3")]
-			[Address(RVA = "0x30E9E80", Offset = "0x30E8480", VA = "0x1830E9E80", Slot = "19")]
+			[Address(RVA = "0x6AF1BD0", Offset = "0x6AF0BD0", VA = "0x6AF1BD0", Slot = "19")]
 			get
 			{
 				return null;
@@ -548,7 +548,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BA4")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1C00", Offset = "0x6AF0C00", VA = "0x6AF1C00", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -556,20 +556,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BA5")]
-		[Address(RVA = "0x30E9CF0", Offset = "0x30E82F0", VA = "0x1830E9CF0", Slot = "14")]
+		[Address(RVA = "0x6AF1C10", Offset = "0x6AF0C10", VA = "0x6AF1C10", Slot = "14")]
 		public override BackgroundSize GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(BackgroundSize);
 		}
 
 		[Token(Token = "0x6001BA6")]
-		[Address(RVA = "0x30E9DD0", Offset = "0x30E83D0", VA = "0x1830E9DD0", Slot = "15")]
+		[Address(RVA = "0x6AF1CE0", Offset = "0x6AF0CE0", VA = "0x6AF1CE0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, BackgroundSize value)
 		{
 		}
 
 		[Token(Token = "0x6001BA7")]
-		[Address(RVA = "0x30E9E10", Offset = "0x30E8410", VA = "0x1830E9E10")]
+		[Address(RVA = "0x6AEF7A0", Offset = "0x6AEE7A0", VA = "0x6AEF7A0")]
 		public BackgroundSizeProperty()
 		{
 		}
@@ -582,7 +582,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BA8")]
-			[Address(RVA = "0x30EA9A0", Offset = "0x30E8FA0", VA = "0x1830EA9A0", Slot = "12")]
+			[Address(RVA = "0x6AF1D60", Offset = "0x6AF0D60", VA = "0x6AF1D60", Slot = "12")]
 			get
 			{
 				return null;
@@ -593,7 +593,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BA9")]
-			[Address(RVA = "0x30EA9D0", Offset = "0x30E8FD0", VA = "0x1830EA9D0", Slot = "19")]
+			[Address(RVA = "0x6AF1D90", Offset = "0x6AF0D90", VA = "0x6AF1D90", Slot = "19")]
 			get
 			{
 				return null;
@@ -604,7 +604,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BAA")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1DC0", Offset = "0x6AF0DC0", VA = "0x6AF1DC0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -612,20 +612,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BAB")]
-		[Address(RVA = "0x30EA890", Offset = "0x30E8E90", VA = "0x1830EA890", Slot = "14")]
+		[Address(RVA = "0x6AF1DD0", Offset = "0x6AF0DD0", VA = "0x6AF1DD0", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001BAC")]
-		[Address(RVA = "0x30EA960", Offset = "0x30E8F60", VA = "0x1830EA960", Slot = "15")]
+		[Address(RVA = "0x6AF1E70", Offset = "0x6AF0E70", VA = "0x6AF1E70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001BAD")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEF7E0", Offset = "0x6AEE7E0", VA = "0x6AEF7E0")]
 		public BorderBottomColorProperty()
 		{
 		}
@@ -638,7 +638,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BAE")]
-			[Address(RVA = "0x30EAAD0", Offset = "0x30E90D0", VA = "0x1830EAAD0", Slot = "12")]
+			[Address(RVA = "0x6AF1EB0", Offset = "0x6AF0EB0", VA = "0x6AF1EB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -649,7 +649,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BAF")]
-			[Address(RVA = "0x30EAB00", Offset = "0x30E9100", VA = "0x1830EAB00", Slot = "19")]
+			[Address(RVA = "0x6AF1EE0", Offset = "0x6AF0EE0", VA = "0x6AF1EE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -660,7 +660,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BB0")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF1F10", Offset = "0x6AF0F10", VA = "0x6AF1F10", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -668,20 +668,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BB1")]
-		[Address(RVA = "0x30EAA00", Offset = "0x30E9000", VA = "0x1830EAA00", Slot = "14")]
+		[Address(RVA = "0x6AF1F20", Offset = "0x6AF0F20", VA = "0x6AF1F20", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BB2")]
-		[Address(RVA = "0x30EAA50", Offset = "0x30E9050", VA = "0x1830EAA50", Slot = "15")]
+		[Address(RVA = "0x6AF1FC0", Offset = "0x6AF0FC0", VA = "0x6AF1FC0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BB3")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEF820", Offset = "0x6AEE820", VA = "0x6AEF820")]
 		public BorderBottomLeftRadiusProperty()
 		{
 		}
@@ -694,7 +694,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BB4")]
-			[Address(RVA = "0x30EABC0", Offset = "0x30E91C0", VA = "0x1830EABC0", Slot = "12")]
+			[Address(RVA = "0x6AF2040", Offset = "0x6AF1040", VA = "0x6AF2040", Slot = "12")]
 			get
 			{
 				return null;
@@ -705,7 +705,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BB5")]
-			[Address(RVA = "0x30EABF0", Offset = "0x30E91F0", VA = "0x1830EABF0", Slot = "19")]
+			[Address(RVA = "0x6AF2070", Offset = "0x6AF1070", VA = "0x6AF2070", Slot = "19")]
 			get
 			{
 				return null;
@@ -716,7 +716,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BB6")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF20A0", Offset = "0x6AF10A0", VA = "0x6AF20A0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -724,20 +724,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BB7")]
-		[Address(RVA = "0x30EAB30", Offset = "0x30E9130", VA = "0x1830EAB30", Slot = "14")]
+		[Address(RVA = "0x6AF20B0", Offset = "0x6AF10B0", VA = "0x6AF20B0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BB8")]
-		[Address(RVA = "0x30EAB80", Offset = "0x30E9180", VA = "0x1830EAB80", Slot = "15")]
+		[Address(RVA = "0x6AF2150", Offset = "0x6AF1150", VA = "0x6AF2150", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BB9")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEF860", Offset = "0x6AEE860", VA = "0x6AEF860")]
 		public BorderBottomRightRadiusProperty()
 		{
 		}
@@ -750,7 +750,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BBA")]
-			[Address(RVA = "0x30EACB0", Offset = "0x30E92B0", VA = "0x1830EACB0", Slot = "12")]
+			[Address(RVA = "0x6AF2190", Offset = "0x6AF1190", VA = "0x6AF2190", Slot = "12")]
 			get
 			{
 				return null;
@@ -761,7 +761,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BBB")]
-			[Address(RVA = "0x30EACE0", Offset = "0x30E92E0", VA = "0x1830EACE0", Slot = "19")]
+			[Address(RVA = "0x6AF21C0", Offset = "0x6AF11C0", VA = "0x6AF21C0", Slot = "19")]
 			get
 			{
 				return null;
@@ -772,7 +772,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BBC")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF21F0", Offset = "0x6AF11F0", VA = "0x6AF21F0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -780,20 +780,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BBD")]
-		[Address(RVA = "0x30EAC20", Offset = "0x30E9220", VA = "0x1830EAC20", Slot = "14")]
+		[Address(RVA = "0x6AF2200", Offset = "0x6AF1200", VA = "0x6AF2200", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BBE")]
-		[Address(RVA = "0x30EAC70", Offset = "0x30E9270", VA = "0x1830EAC70", Slot = "15")]
+		[Address(RVA = "0x6AF22A0", Offset = "0x6AF12A0", VA = "0x6AF22A0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BBF")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEF8A0", Offset = "0x6AEE8A0", VA = "0x6AEF8A0")]
 		public BorderBottomWidthProperty()
 		{
 		}
@@ -806,7 +806,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BC0")]
-			[Address(RVA = "0x30EAE20", Offset = "0x30E9420", VA = "0x1830EAE20", Slot = "12")]
+			[Address(RVA = "0x6AF22E0", Offset = "0x6AF12E0", VA = "0x6AF22E0", Slot = "12")]
 			get
 			{
 				return null;
@@ -817,7 +817,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BC1")]
-			[Address(RVA = "0x30EAE50", Offset = "0x30E9450", VA = "0x1830EAE50", Slot = "19")]
+			[Address(RVA = "0x6AF2310", Offset = "0x6AF1310", VA = "0x6AF2310", Slot = "19")]
 			get
 			{
 				return null;
@@ -828,7 +828,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BC2")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2340", Offset = "0x6AF1340", VA = "0x6AF2340", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -836,20 +836,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BC3")]
-		[Address(RVA = "0x30EAD10", Offset = "0x30E9310", VA = "0x1830EAD10", Slot = "14")]
+		[Address(RVA = "0x6AF2350", Offset = "0x6AF1350", VA = "0x6AF2350", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001BC4")]
-		[Address(RVA = "0x30EADE0", Offset = "0x30E93E0", VA = "0x1830EADE0", Slot = "15")]
+		[Address(RVA = "0x6AF23F0", Offset = "0x6AF13F0", VA = "0x6AF23F0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001BC5")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEF8E0", Offset = "0x6AEE8E0", VA = "0x6AEF8E0")]
 		public BorderLeftColorProperty()
 		{
 		}
@@ -862,7 +862,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BC6")]
-			[Address(RVA = "0x30EAF10", Offset = "0x30E9510", VA = "0x1830EAF10", Slot = "12")]
+			[Address(RVA = "0x6AF2430", Offset = "0x6AF1430", VA = "0x6AF2430", Slot = "12")]
 			get
 			{
 				return null;
@@ -873,7 +873,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BC7")]
-			[Address(RVA = "0x30EAF40", Offset = "0x30E9540", VA = "0x1830EAF40", Slot = "19")]
+			[Address(RVA = "0x6AF2460", Offset = "0x6AF1460", VA = "0x6AF2460", Slot = "19")]
 			get
 			{
 				return null;
@@ -884,7 +884,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BC8")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2490", Offset = "0x6AF1490", VA = "0x6AF2490", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -892,20 +892,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BC9")]
-		[Address(RVA = "0x30EAE80", Offset = "0x30E9480", VA = "0x1830EAE80", Slot = "14")]
+		[Address(RVA = "0x6AF24A0", Offset = "0x6AF14A0", VA = "0x6AF24A0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BCA")]
-		[Address(RVA = "0x30EAED0", Offset = "0x30E94D0", VA = "0x1830EAED0", Slot = "15")]
+		[Address(RVA = "0x6AF2540", Offset = "0x6AF1540", VA = "0x6AF2540", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BCB")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEF920", Offset = "0x6AEE920", VA = "0x6AEF920")]
 		public BorderLeftWidthProperty()
 		{
 		}
@@ -918,7 +918,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BCC")]
-			[Address(RVA = "0x30EB080", Offset = "0x30E9680", VA = "0x1830EB080", Slot = "12")]
+			[Address(RVA = "0x6AF2580", Offset = "0x6AF1580", VA = "0x6AF2580", Slot = "12")]
 			get
 			{
 				return null;
@@ -929,7 +929,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BCD")]
-			[Address(RVA = "0x30EB0B0", Offset = "0x30E96B0", VA = "0x1830EB0B0", Slot = "19")]
+			[Address(RVA = "0x6AF25B0", Offset = "0x6AF15B0", VA = "0x6AF25B0", Slot = "19")]
 			get
 			{
 				return null;
@@ -940,7 +940,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BCE")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF25E0", Offset = "0x6AF15E0", VA = "0x6AF25E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -948,20 +948,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BCF")]
-		[Address(RVA = "0x30EAF70", Offset = "0x30E9570", VA = "0x1830EAF70", Slot = "14")]
+		[Address(RVA = "0x6AF25F0", Offset = "0x6AF15F0", VA = "0x6AF25F0", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001BD0")]
-		[Address(RVA = "0x30EB040", Offset = "0x30E9640", VA = "0x1830EB040", Slot = "15")]
+		[Address(RVA = "0x6AF2690", Offset = "0x6AF1690", VA = "0x6AF2690", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001BD1")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEF960", Offset = "0x6AEE960", VA = "0x6AEF960")]
 		public BorderRightColorProperty()
 		{
 		}
@@ -974,7 +974,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BD2")]
-			[Address(RVA = "0x30EB170", Offset = "0x30E9770", VA = "0x1830EB170", Slot = "12")]
+			[Address(RVA = "0x6AF26D0", Offset = "0x6AF16D0", VA = "0x6AF26D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -985,7 +985,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BD3")]
-			[Address(RVA = "0x30EB1A0", Offset = "0x30E97A0", VA = "0x1830EB1A0", Slot = "19")]
+			[Address(RVA = "0x6AF2700", Offset = "0x6AF1700", VA = "0x6AF2700", Slot = "19")]
 			get
 			{
 				return null;
@@ -996,7 +996,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BD4")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2730", Offset = "0x6AF1730", VA = "0x6AF2730", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1004,20 +1004,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BD5")]
-		[Address(RVA = "0x30EB0E0", Offset = "0x30E96E0", VA = "0x1830EB0E0", Slot = "14")]
+		[Address(RVA = "0x6AF2740", Offset = "0x6AF1740", VA = "0x6AF2740", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BD6")]
-		[Address(RVA = "0x30EB130", Offset = "0x30E9730", VA = "0x1830EB130", Slot = "15")]
+		[Address(RVA = "0x6AF27E0", Offset = "0x6AF17E0", VA = "0x6AF27E0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BD7")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEF9A0", Offset = "0x6AEE9A0", VA = "0x6AEF9A0")]
 		public BorderRightWidthProperty()
 		{
 		}
@@ -1030,7 +1030,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BD8")]
-			[Address(RVA = "0x30EB2E0", Offset = "0x30E98E0", VA = "0x1830EB2E0", Slot = "12")]
+			[Address(RVA = "0x6AF2820", Offset = "0x6AF1820", VA = "0x6AF2820", Slot = "12")]
 			get
 			{
 				return null;
@@ -1041,7 +1041,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BD9")]
-			[Address(RVA = "0x30EB310", Offset = "0x30E9910", VA = "0x1830EB310", Slot = "19")]
+			[Address(RVA = "0x6AF2850", Offset = "0x6AF1850", VA = "0x6AF2850", Slot = "19")]
 			get
 			{
 				return null;
@@ -1052,7 +1052,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BDA")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2880", Offset = "0x6AF1880", VA = "0x6AF2880", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1060,20 +1060,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BDB")]
-		[Address(RVA = "0x30EB1D0", Offset = "0x30E97D0", VA = "0x1830EB1D0", Slot = "14")]
+		[Address(RVA = "0x6AF2890", Offset = "0x6AF1890", VA = "0x6AF2890", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001BDC")]
-		[Address(RVA = "0x30EB2A0", Offset = "0x30E98A0", VA = "0x1830EB2A0", Slot = "15")]
+		[Address(RVA = "0x6AF2930", Offset = "0x6AF1930", VA = "0x6AF2930", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001BDD")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEF9E0", Offset = "0x6AEE9E0", VA = "0x6AEF9E0")]
 		public BorderTopColorProperty()
 		{
 		}
@@ -1086,7 +1086,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BDE")]
-			[Address(RVA = "0x30EB3D0", Offset = "0x30E99D0", VA = "0x1830EB3D0", Slot = "12")]
+			[Address(RVA = "0x6AF2970", Offset = "0x6AF1970", VA = "0x6AF2970", Slot = "12")]
 			get
 			{
 				return null;
@@ -1097,7 +1097,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BDF")]
-			[Address(RVA = "0x30EB400", Offset = "0x30E9A00", VA = "0x1830EB400", Slot = "19")]
+			[Address(RVA = "0x6AF29A0", Offset = "0x6AF19A0", VA = "0x6AF29A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1108,7 +1108,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BE0")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF29D0", Offset = "0x6AF19D0", VA = "0x6AF29D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1116,20 +1116,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BE1")]
-		[Address(RVA = "0x30EB340", Offset = "0x30E9940", VA = "0x1830EB340", Slot = "14")]
+		[Address(RVA = "0x6AF29E0", Offset = "0x6AF19E0", VA = "0x6AF29E0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BE2")]
-		[Address(RVA = "0x30EB390", Offset = "0x30E9990", VA = "0x1830EB390", Slot = "15")]
+		[Address(RVA = "0x6AF2A80", Offset = "0x6AF1A80", VA = "0x6AF2A80", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BE3")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFA20", Offset = "0x6AEEA20", VA = "0x6AEFA20")]
 		public BorderTopLeftRadiusProperty()
 		{
 		}
@@ -1142,7 +1142,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BE4")]
-			[Address(RVA = "0x30EB4C0", Offset = "0x30E9AC0", VA = "0x1830EB4C0", Slot = "12")]
+			[Address(RVA = "0x6AF2AC0", Offset = "0x6AF1AC0", VA = "0x6AF2AC0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1153,7 +1153,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BE5")]
-			[Address(RVA = "0x30EB4F0", Offset = "0x30E9AF0", VA = "0x1830EB4F0", Slot = "19")]
+			[Address(RVA = "0x6AF2AF0", Offset = "0x6AF1AF0", VA = "0x6AF2AF0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1164,7 +1164,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BE6")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2B20", Offset = "0x6AF1B20", VA = "0x6AF2B20", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1172,20 +1172,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BE7")]
-		[Address(RVA = "0x30EB430", Offset = "0x30E9A30", VA = "0x1830EB430", Slot = "14")]
+		[Address(RVA = "0x6AF2B30", Offset = "0x6AF1B30", VA = "0x6AF2B30", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BE8")]
-		[Address(RVA = "0x30EB480", Offset = "0x30E9A80", VA = "0x1830EB480", Slot = "15")]
+		[Address(RVA = "0x6AF2BD0", Offset = "0x6AF1BD0", VA = "0x6AF2BD0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BE9")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFA60", Offset = "0x6AEEA60", VA = "0x6AEFA60")]
 		public BorderTopRightRadiusProperty()
 		{
 		}
@@ -1198,7 +1198,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BEA")]
-			[Address(RVA = "0x30EB5B0", Offset = "0x30E9BB0", VA = "0x1830EB5B0", Slot = "12")]
+			[Address(RVA = "0x6AF2C10", Offset = "0x6AF1C10", VA = "0x6AF2C10", Slot = "12")]
 			get
 			{
 				return null;
@@ -1209,7 +1209,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BEB")]
-			[Address(RVA = "0x30EB5E0", Offset = "0x30E9BE0", VA = "0x1830EB5E0", Slot = "19")]
+			[Address(RVA = "0x6AF2C40", Offset = "0x6AF1C40", VA = "0x6AF2C40", Slot = "19")]
 			get
 			{
 				return null;
@@ -1220,7 +1220,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BEC")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2C70", Offset = "0x6AF1C70", VA = "0x6AF2C70", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1228,20 +1228,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BED")]
-		[Address(RVA = "0x30EB520", Offset = "0x30E9B20", VA = "0x1830EB520", Slot = "14")]
+		[Address(RVA = "0x6AF2C80", Offset = "0x6AF1C80", VA = "0x6AF2C80", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BEE")]
-		[Address(RVA = "0x30EB570", Offset = "0x30E9B70", VA = "0x1830EB570", Slot = "15")]
+		[Address(RVA = "0x6AF2D20", Offset = "0x6AF1D20", VA = "0x6AF2D20", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BEF")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFAA0", Offset = "0x6AEEAA0", VA = "0x6AEFAA0")]
 		public BorderTopWidthProperty()
 		{
 		}
@@ -1254,7 +1254,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BF0")]
-			[Address(RVA = "0x30EB6A0", Offset = "0x30E9CA0", VA = "0x1830EB6A0", Slot = "12")]
+			[Address(RVA = "0x6AF2D60", Offset = "0x6AF1D60", VA = "0x6AF2D60", Slot = "12")]
 			get
 			{
 				return null;
@@ -1265,7 +1265,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BF1")]
-			[Address(RVA = "0x30EB6D0", Offset = "0x30E9CD0", VA = "0x1830EB6D0", Slot = "19")]
+			[Address(RVA = "0x6AF2D90", Offset = "0x6AF1D90", VA = "0x6AF2D90", Slot = "19")]
 			get
 			{
 				return null;
@@ -1276,7 +1276,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BF2")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2DC0", Offset = "0x6AF1DC0", VA = "0x6AF2DC0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1284,20 +1284,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BF3")]
-		[Address(RVA = "0x30EB610", Offset = "0x30E9C10", VA = "0x1830EB610", Slot = "14")]
+		[Address(RVA = "0x6AF2DD0", Offset = "0x6AF1DD0", VA = "0x6AF2DD0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001BF4")]
-		[Address(RVA = "0x30EB660", Offset = "0x30E9C60", VA = "0x1830EB660", Slot = "15")]
+		[Address(RVA = "0x6AF2E70", Offset = "0x6AF1E70", VA = "0x6AF2E70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001BF5")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFAE0", Offset = "0x6AEEAE0", VA = "0x6AEFAE0")]
 		public BottomProperty()
 		{
 		}
@@ -1310,7 +1310,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BF6")]
-			[Address(RVA = "0x30EB810", Offset = "0x30E9E10", VA = "0x1830EB810", Slot = "12")]
+			[Address(RVA = "0x6AF2EB0", Offset = "0x6AF1EB0", VA = "0x6AF2EB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1321,7 +1321,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BF7")]
-			[Address(RVA = "0x30EB840", Offset = "0x30E9E40", VA = "0x1830EB840", Slot = "19")]
+			[Address(RVA = "0x6AF2EE0", Offset = "0x6AF1EE0", VA = "0x6AF2EE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1332,7 +1332,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BF8")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF2F10", Offset = "0x6AF1F10", VA = "0x6AF2F10", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1340,20 +1340,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BF9")]
-		[Address(RVA = "0x30EB700", Offset = "0x30E9D00", VA = "0x1830EB700", Slot = "14")]
+		[Address(RVA = "0x6AF2F20", Offset = "0x6AF1F20", VA = "0x6AF2F20", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001BFA")]
-		[Address(RVA = "0x30EB7D0", Offset = "0x30E9DD0", VA = "0x1830EB7D0", Slot = "15")]
+		[Address(RVA = "0x6AF2FC0", Offset = "0x6AF1FC0", VA = "0x6AF2FC0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001BFB")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AEFB20", Offset = "0x6AEEB20", VA = "0x6AEFB20")]
 		public ColorProperty()
 		{
 		}
@@ -1366,7 +1366,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001BFC")]
-			[Address(RVA = "0x30EC260", Offset = "0x30EA860", VA = "0x1830EC260", Slot = "12")]
+			[Address(RVA = "0x6AF3000", Offset = "0x6AF2000", VA = "0x6AF3000", Slot = "12")]
 			get
 			{
 				return null;
@@ -1377,7 +1377,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001BFD")]
-			[Address(RVA = "0x30EC290", Offset = "0x30EA890", VA = "0x1830EC290", Slot = "19")]
+			[Address(RVA = "0x6AF3030", Offset = "0x6AF2030", VA = "0x6AF3030", Slot = "19")]
 			get
 			{
 				return null;
@@ -1388,7 +1388,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001BFE")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3060", Offset = "0x6AF2060", VA = "0x6AF3060", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1396,20 +1396,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001BFF")]
-		[Address(RVA = "0x30EC190", Offset = "0x30EA790", VA = "0x1830EC190", Slot = "14")]
+		[Address(RVA = "0x6AF3070", Offset = "0x6AF2070", VA = "0x6AF3070", Slot = "14")]
 		public override DisplayStyle GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(DisplayStyle);
 		}
 
 		[Token(Token = "0x6001C00")]
-		[Address(RVA = "0x30EC1E0", Offset = "0x30EA7E0", VA = "0x1830EC1E0", Slot = "15")]
+		[Address(RVA = "0x6AF3110", Offset = "0x6AF2110", VA = "0x6AF3110", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, DisplayStyle value)
 		{
 		}
 
 		[Token(Token = "0x6001C01")]
-		[Address(RVA = "0x30EC220", Offset = "0x30EA820", VA = "0x1830EC220")]
+		[Address(RVA = "0x6AEFB60", Offset = "0x6AEEB60", VA = "0x6AEFB60")]
 		public DisplayProperty()
 		{
 		}
@@ -1422,7 +1422,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C02")]
-			[Address(RVA = "0x30EC390", Offset = "0x30EA990", VA = "0x1830EC390", Slot = "12")]
+			[Address(RVA = "0x6AF3150", Offset = "0x6AF2150", VA = "0x6AF3150", Slot = "12")]
 			get
 			{
 				return null;
@@ -1433,7 +1433,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C03")]
-			[Address(RVA = "0x30EC3C0", Offset = "0x30EA9C0", VA = "0x1830EC3C0", Slot = "19")]
+			[Address(RVA = "0x6AF3180", Offset = "0x6AF2180", VA = "0x6AF3180", Slot = "19")]
 			get
 			{
 				return null;
@@ -1444,7 +1444,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C04")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF31B0", Offset = "0x6AF21B0", VA = "0x6AF31B0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1452,20 +1452,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C05")]
-		[Address(RVA = "0x30EC2C0", Offset = "0x30EA8C0", VA = "0x1830EC2C0", Slot = "14")]
+		[Address(RVA = "0x6AF31C0", Offset = "0x6AF21C0", VA = "0x6AF31C0", Slot = "14")]
 		public override IEnumerable<FilterFunction> GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001C06")]
-		[Address(RVA = "0x30EC310", Offset = "0x30EA910", VA = "0x1830EC310", Slot = "15")]
+		[Address(RVA = "0x6AF3260", Offset = "0x6AF2260", VA = "0x6AF3260", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, IEnumerable<FilterFunction> value)
 		{
 		}
 
 		[Token(Token = "0x6001C07")]
-		[Address(RVA = "0x30EC350", Offset = "0x30EA950", VA = "0x1830EC350")]
+		[Address(RVA = "0x6AEFBA0", Offset = "0x6AEEBA0", VA = "0x6AEFBA0")]
 		public FilterProperty()
 		{
 		}
@@ -1478,7 +1478,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C08")]
-			[Address(RVA = "0x30EC4C0", Offset = "0x30EAAC0", VA = "0x1830EC4C0", Slot = "12")]
+			[Address(RVA = "0x6AF32A0", Offset = "0x6AF22A0", VA = "0x6AF32A0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1489,7 +1489,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C09")]
-			[Address(RVA = "0x30EC4F0", Offset = "0x30EAAF0", VA = "0x1830EC4F0", Slot = "19")]
+			[Address(RVA = "0x6AF32D0", Offset = "0x6AF22D0", VA = "0x6AF32D0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1500,7 +1500,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C0A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3300", Offset = "0x6AF2300", VA = "0x6AF3300", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1508,20 +1508,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C0B")]
-		[Address(RVA = "0x30EC3F0", Offset = "0x30EA9F0", VA = "0x1830EC3F0", Slot = "14")]
+		[Address(RVA = "0x6AF3310", Offset = "0x6AF2310", VA = "0x6AF3310", Slot = "14")]
 		public override StyleFloat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(StyleFloat);
 		}
 
 		[Token(Token = "0x6001C0C")]
-		[Address(RVA = "0x30EC440", Offset = "0x30EAA40", VA = "0x1830EC440", Slot = "15")]
+		[Address(RVA = "0x6AF33B0", Offset = "0x6AF23B0", VA = "0x6AF33B0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, StyleFloat value)
 		{
 		}
 
 		[Token(Token = "0x6001C0D")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AEFBE0", Offset = "0x6AEEBE0", VA = "0x6AEFBE0")]
 		public FlexBasisProperty()
 		{
 		}
@@ -1534,7 +1534,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C0E")]
-			[Address(RVA = "0x30EC5F0", Offset = "0x30EABF0", VA = "0x1830EC5F0", Slot = "12")]
+			[Address(RVA = "0x6AF3430", Offset = "0x6AF2430", VA = "0x6AF3430", Slot = "12")]
 			get
 			{
 				return null;
@@ -1545,7 +1545,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C0F")]
-			[Address(RVA = "0x30EC620", Offset = "0x30EAC20", VA = "0x1830EC620", Slot = "19")]
+			[Address(RVA = "0x6AF3460", Offset = "0x6AF2460", VA = "0x6AF3460", Slot = "19")]
 			get
 			{
 				return null;
@@ -1556,7 +1556,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C10")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3490", Offset = "0x6AF2490", VA = "0x6AF3490", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1564,20 +1564,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C11")]
-		[Address(RVA = "0x30EC520", Offset = "0x30EAB20", VA = "0x1830EC520", Slot = "14")]
+		[Address(RVA = "0x6AF34A0", Offset = "0x6AF24A0", VA = "0x6AF34A0", Slot = "14")]
 		public override FlexDirection GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(FlexDirection);
 		}
 
 		[Token(Token = "0x6001C12")]
-		[Address(RVA = "0x30EC570", Offset = "0x30EAB70", VA = "0x1830EC570", Slot = "15")]
+		[Address(RVA = "0x6AF3540", Offset = "0x6AF2540", VA = "0x6AF3540", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, FlexDirection value)
 		{
 		}
 
 		[Token(Token = "0x6001C13")]
-		[Address(RVA = "0x30EC5B0", Offset = "0x30EABB0", VA = "0x1830EC5B0")]
+		[Address(RVA = "0x6AEFC20", Offset = "0x6AEEC20", VA = "0x6AEFC20")]
 		public FlexDirectionProperty()
 		{
 		}
@@ -1590,7 +1590,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C14")]
-			[Address(RVA = "0x30EC6E0", Offset = "0x30EACE0", VA = "0x1830EC6E0", Slot = "12")]
+			[Address(RVA = "0x6AF3580", Offset = "0x6AF2580", VA = "0x6AF3580", Slot = "12")]
 			get
 			{
 				return null;
@@ -1601,7 +1601,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C15")]
-			[Address(RVA = "0x30EC710", Offset = "0x30EAD10", VA = "0x1830EC710", Slot = "19")]
+			[Address(RVA = "0x6AF35B0", Offset = "0x6AF25B0", VA = "0x6AF35B0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1612,7 +1612,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C16")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF35E0", Offset = "0x6AF25E0", VA = "0x6AF35E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1620,20 +1620,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C17")]
-		[Address(RVA = "0x30EC650", Offset = "0x30EAC50", VA = "0x1830EC650", Slot = "14")]
+		[Address(RVA = "0x6AF35F0", Offset = "0x6AF25F0", VA = "0x6AF35F0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C18")]
-		[Address(RVA = "0x30EC6A0", Offset = "0x30EACA0", VA = "0x1830EC6A0", Slot = "15")]
+		[Address(RVA = "0x6AF3690", Offset = "0x6AF2690", VA = "0x6AF3690", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C19")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFC60", Offset = "0x6AEEC60", VA = "0x6AEFC60")]
 		public FlexGrowProperty()
 		{
 		}
@@ -1646,7 +1646,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C1A")]
-			[Address(RVA = "0x30EC7D0", Offset = "0x30EADD0", VA = "0x1830EC7D0", Slot = "12")]
+			[Address(RVA = "0x6AF36D0", Offset = "0x6AF26D0", VA = "0x6AF36D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1657,7 +1657,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C1B")]
-			[Address(RVA = "0x30EC800", Offset = "0x30EAE00", VA = "0x1830EC800", Slot = "19")]
+			[Address(RVA = "0x6AF3700", Offset = "0x6AF2700", VA = "0x6AF3700", Slot = "19")]
 			get
 			{
 				return null;
@@ -1668,7 +1668,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C1C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3730", Offset = "0x6AF2730", VA = "0x6AF3730", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1676,20 +1676,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C1D")]
-		[Address(RVA = "0x30EC740", Offset = "0x30EAD40", VA = "0x1830EC740", Slot = "14")]
+		[Address(RVA = "0x6AF3740", Offset = "0x6AF2740", VA = "0x6AF3740", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C1E")]
-		[Address(RVA = "0x30EC790", Offset = "0x30EAD90", VA = "0x1830EC790", Slot = "15")]
+		[Address(RVA = "0x6AF37E0", Offset = "0x6AF27E0", VA = "0x6AF37E0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C1F")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFCA0", Offset = "0x6AEECA0", VA = "0x6AEFCA0")]
 		public FlexShrinkProperty()
 		{
 		}
@@ -1702,7 +1702,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C20")]
-			[Address(RVA = "0x30EC900", Offset = "0x30EAF00", VA = "0x1830EC900", Slot = "12")]
+			[Address(RVA = "0x6AF3820", Offset = "0x6AF2820", VA = "0x6AF3820", Slot = "12")]
 			get
 			{
 				return null;
@@ -1713,7 +1713,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C21")]
-			[Address(RVA = "0x30EC930", Offset = "0x30EAF30", VA = "0x1830EC930", Slot = "19")]
+			[Address(RVA = "0x6AF3850", Offset = "0x6AF2850", VA = "0x6AF3850", Slot = "19")]
 			get
 			{
 				return null;
@@ -1724,7 +1724,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C22")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3880", Offset = "0x6AF2880", VA = "0x6AF3880", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1732,20 +1732,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C23")]
-		[Address(RVA = "0x30EC830", Offset = "0x30EAE30", VA = "0x1830EC830", Slot = "14")]
+		[Address(RVA = "0x6AF3890", Offset = "0x6AF2890", VA = "0x6AF3890", Slot = "14")]
 		public override Wrap GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Wrap);
 		}
 
 		[Token(Token = "0x6001C24")]
-		[Address(RVA = "0x30EC880", Offset = "0x30EAE80", VA = "0x1830EC880", Slot = "15")]
+		[Address(RVA = "0x6AF3930", Offset = "0x6AF2930", VA = "0x6AF3930", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Wrap value)
 		{
 		}
 
 		[Token(Token = "0x6001C25")]
-		[Address(RVA = "0x30EC8C0", Offset = "0x30EAEC0", VA = "0x1830EC8C0")]
+		[Address(RVA = "0x6AEFCE0", Offset = "0x6AEECE0", VA = "0x6AEFCE0")]
 		public FlexWrapProperty()
 		{
 		}
@@ -1758,7 +1758,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C26")]
-			[Address(RVA = "0x30EC9F0", Offset = "0x30EAFF0", VA = "0x1830EC9F0", Slot = "12")]
+			[Address(RVA = "0x6AF3970", Offset = "0x6AF2970", VA = "0x6AF3970", Slot = "12")]
 			get
 			{
 				return null;
@@ -1769,7 +1769,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C27")]
-			[Address(RVA = "0x30ECA20", Offset = "0x30EB020", VA = "0x1830ECA20", Slot = "19")]
+			[Address(RVA = "0x6AF39A0", Offset = "0x6AF29A0", VA = "0x6AF39A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1780,7 +1780,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C28")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF39D0", Offset = "0x6AF29D0", VA = "0x6AF39D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1788,20 +1788,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C29")]
-		[Address(RVA = "0x30EC960", Offset = "0x30EAF60", VA = "0x1830EC960", Slot = "14")]
+		[Address(RVA = "0x6AF39E0", Offset = "0x6AF29E0", VA = "0x6AF39E0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C2A")]
-		[Address(RVA = "0x30EC9B0", Offset = "0x30EAFB0", VA = "0x1830EC9B0", Slot = "15")]
+		[Address(RVA = "0x6AF3A80", Offset = "0x6AF2A80", VA = "0x6AF3A80", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C2B")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFD20", Offset = "0x6AEED20", VA = "0x6AEFD20")]
 		public FontSizeProperty()
 		{
 		}
@@ -1814,7 +1814,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C2C")]
-			[Address(RVA = "0x30ECAE0", Offset = "0x30EB0E0", VA = "0x1830ECAE0", Slot = "12")]
+			[Address(RVA = "0x6AF3AC0", Offset = "0x6AF2AC0", VA = "0x6AF3AC0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1825,7 +1825,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C2D")]
-			[Address(RVA = "0x30ECB10", Offset = "0x30EB110", VA = "0x1830ECB10", Slot = "19")]
+			[Address(RVA = "0x6AF3AF0", Offset = "0x6AF2AF0", VA = "0x6AF3AF0", Slot = "19")]
 			get
 			{
 				return null;
@@ -1836,7 +1836,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C2E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3B20", Offset = "0x6AF2B20", VA = "0x6AF3B20", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1844,20 +1844,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C2F")]
-		[Address(RVA = "0x30ECA50", Offset = "0x30EB050", VA = "0x1830ECA50", Slot = "14")]
+		[Address(RVA = "0x6AF3B30", Offset = "0x6AF2B30", VA = "0x6AF3B30", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C30")]
-		[Address(RVA = "0x30ECAA0", Offset = "0x30EB0A0", VA = "0x1830ECAA0", Slot = "15")]
+		[Address(RVA = "0x6AF3BD0", Offset = "0x6AF2BD0", VA = "0x6AF3BD0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C31")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFD60", Offset = "0x6AEED60", VA = "0x6AEFD60")]
 		public HeightProperty()
 		{
 		}
@@ -1870,7 +1870,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C32")]
-			[Address(RVA = "0x30EF160", Offset = "0x30ED760", VA = "0x1830EF160", Slot = "12")]
+			[Address(RVA = "0x6AF3C10", Offset = "0x6AF2C10", VA = "0x6AF3C10", Slot = "12")]
 			get
 			{
 				return null;
@@ -1881,7 +1881,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C33")]
-			[Address(RVA = "0x30EF190", Offset = "0x30ED790", VA = "0x1830EF190", Slot = "19")]
+			[Address(RVA = "0x6AF3C40", Offset = "0x6AF2C40", VA = "0x6AF3C40", Slot = "19")]
 			get
 			{
 				return null;
@@ -1892,7 +1892,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C34")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3C70", Offset = "0x6AF2C70", VA = "0x6AF3C70", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1900,20 +1900,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C35")]
-		[Address(RVA = "0x30EF090", Offset = "0x30ED690", VA = "0x1830EF090", Slot = "14")]
+		[Address(RVA = "0x6AF3C80", Offset = "0x6AF2C80", VA = "0x6AF3C80", Slot = "14")]
 		public override Justify GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Justify);
 		}
 
 		[Token(Token = "0x6001C36")]
-		[Address(RVA = "0x30EF0E0", Offset = "0x30ED6E0", VA = "0x1830EF0E0", Slot = "15")]
+		[Address(RVA = "0x6AF3D20", Offset = "0x6AF2D20", VA = "0x6AF3D20", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Justify value)
 		{
 		}
 
 		[Token(Token = "0x6001C37")]
-		[Address(RVA = "0x30EF120", Offset = "0x30ED720", VA = "0x1830EF120")]
+		[Address(RVA = "0x6AEFDA0", Offset = "0x6AEEDA0", VA = "0x6AEFDA0")]
 		public JustifyContentProperty()
 		{
 		}
@@ -1926,7 +1926,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C38")]
-			[Address(RVA = "0x30F1320", Offset = "0x30EF920", VA = "0x1830F1320", Slot = "12")]
+			[Address(RVA = "0x6AF3D60", Offset = "0x6AF2D60", VA = "0x6AF3D60", Slot = "12")]
 			get
 			{
 				return null;
@@ -1937,7 +1937,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C39")]
-			[Address(RVA = "0x30F1350", Offset = "0x30EF950", VA = "0x1830F1350", Slot = "19")]
+			[Address(RVA = "0x6AF3D90", Offset = "0x6AF2D90", VA = "0x6AF3D90", Slot = "19")]
 			get
 			{
 				return null;
@@ -1948,7 +1948,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C3A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3DC0", Offset = "0x6AF2DC0", VA = "0x6AF3DC0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -1956,20 +1956,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C3B")]
-		[Address(RVA = "0x30F1290", Offset = "0x30EF890", VA = "0x1830F1290", Slot = "14")]
+		[Address(RVA = "0x6AF3DD0", Offset = "0x6AF2DD0", VA = "0x6AF3DD0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C3C")]
-		[Address(RVA = "0x30F12E0", Offset = "0x30EF8E0", VA = "0x1830F12E0", Slot = "15")]
+		[Address(RVA = "0x6AF3E70", Offset = "0x6AF2E70", VA = "0x6AF3E70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C3D")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFDE0", Offset = "0x6AEEDE0", VA = "0x6AEFDE0")]
 		public LeftProperty()
 		{
 		}
@@ -1982,7 +1982,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C3E")]
-			[Address(RVA = "0x30F1410", Offset = "0x30EFA10", VA = "0x1830F1410", Slot = "12")]
+			[Address(RVA = "0x6AF3EB0", Offset = "0x6AF2EB0", VA = "0x6AF3EB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -1993,7 +1993,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C3F")]
-			[Address(RVA = "0x30F1440", Offset = "0x30EFA40", VA = "0x1830F1440", Slot = "19")]
+			[Address(RVA = "0x6AF3EE0", Offset = "0x6AF2EE0", VA = "0x6AF3EE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2004,7 +2004,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C40")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF3F10", Offset = "0x6AF2F10", VA = "0x6AF3F10", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2012,20 +2012,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C41")]
-		[Address(RVA = "0x30F1380", Offset = "0x30EF980", VA = "0x1830F1380", Slot = "14")]
+		[Address(RVA = "0x6AF3F20", Offset = "0x6AF2F20", VA = "0x6AF3F20", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C42")]
-		[Address(RVA = "0x30F13D0", Offset = "0x30EF9D0", VA = "0x1830F13D0", Slot = "15")]
+		[Address(RVA = "0x6AF3FC0", Offset = "0x6AF2FC0", VA = "0x6AF3FC0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C43")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFE20", Offset = "0x6AEEE20", VA = "0x6AEFE20")]
 		public LetterSpacingProperty()
 		{
 		}
@@ -2038,7 +2038,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C44")]
-			[Address(RVA = "0x30F1500", Offset = "0x30EFB00", VA = "0x1830F1500", Slot = "12")]
+			[Address(RVA = "0x6AF4000", Offset = "0x6AF3000", VA = "0x6AF4000", Slot = "12")]
 			get
 			{
 				return null;
@@ -2049,7 +2049,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C45")]
-			[Address(RVA = "0x30F1530", Offset = "0x30EFB30", VA = "0x1830F1530", Slot = "19")]
+			[Address(RVA = "0x6AF4030", Offset = "0x6AF3030", VA = "0x6AF4030", Slot = "19")]
 			get
 			{
 				return null;
@@ -2060,7 +2060,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C46")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4060", Offset = "0x6AF3060", VA = "0x6AF4060", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2068,20 +2068,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C47")]
-		[Address(RVA = "0x30F1470", Offset = "0x30EFA70", VA = "0x1830F1470", Slot = "14")]
+		[Address(RVA = "0x6AF4070", Offset = "0x6AF3070", VA = "0x6AF4070", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C48")]
-		[Address(RVA = "0x30F14C0", Offset = "0x30EFAC0", VA = "0x1830F14C0", Slot = "15")]
+		[Address(RVA = "0x6AF4110", Offset = "0x6AF3110", VA = "0x6AF4110", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C49")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFE60", Offset = "0x6AEEE60", VA = "0x6AEFE60")]
 		public MarginBottomProperty()
 		{
 		}
@@ -2094,7 +2094,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C4A")]
-			[Address(RVA = "0x30F15F0", Offset = "0x30EFBF0", VA = "0x1830F15F0", Slot = "12")]
+			[Address(RVA = "0x6AF4150", Offset = "0x6AF3150", VA = "0x6AF4150", Slot = "12")]
 			get
 			{
 				return null;
@@ -2105,7 +2105,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C4B")]
-			[Address(RVA = "0x30F1620", Offset = "0x30EFC20", VA = "0x1830F1620", Slot = "19")]
+			[Address(RVA = "0x6AF4180", Offset = "0x6AF3180", VA = "0x6AF4180", Slot = "19")]
 			get
 			{
 				return null;
@@ -2116,7 +2116,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C4C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF41B0", Offset = "0x6AF31B0", VA = "0x6AF41B0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2124,20 +2124,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C4D")]
-		[Address(RVA = "0x30F1560", Offset = "0x30EFB60", VA = "0x1830F1560", Slot = "14")]
+		[Address(RVA = "0x6AF41C0", Offset = "0x6AF31C0", VA = "0x6AF41C0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C4E")]
-		[Address(RVA = "0x30F15B0", Offset = "0x30EFBB0", VA = "0x1830F15B0", Slot = "15")]
+		[Address(RVA = "0x6AF4260", Offset = "0x6AF3260", VA = "0x6AF4260", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C4F")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFEA0", Offset = "0x6AEEEA0", VA = "0x6AEFEA0")]
 		public MarginLeftProperty()
 		{
 		}
@@ -2150,7 +2150,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C50")]
-			[Address(RVA = "0x30F16E0", Offset = "0x30EFCE0", VA = "0x1830F16E0", Slot = "12")]
+			[Address(RVA = "0x6AF42A0", Offset = "0x6AF32A0", VA = "0x6AF42A0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2161,7 +2161,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C51")]
-			[Address(RVA = "0x30F1710", Offset = "0x30EFD10", VA = "0x1830F1710", Slot = "19")]
+			[Address(RVA = "0x6AF42D0", Offset = "0x6AF32D0", VA = "0x6AF42D0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2172,7 +2172,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C52")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4300", Offset = "0x6AF3300", VA = "0x6AF4300", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2180,20 +2180,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C53")]
-		[Address(RVA = "0x30F1650", Offset = "0x30EFC50", VA = "0x1830F1650", Slot = "14")]
+		[Address(RVA = "0x6AF4310", Offset = "0x6AF3310", VA = "0x6AF4310", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C54")]
-		[Address(RVA = "0x30F16A0", Offset = "0x30EFCA0", VA = "0x1830F16A0", Slot = "15")]
+		[Address(RVA = "0x6AF43B0", Offset = "0x6AF33B0", VA = "0x6AF43B0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C55")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFEE0", Offset = "0x6AEEEE0", VA = "0x6AEFEE0")]
 		public MarginRightProperty()
 		{
 		}
@@ -2206,7 +2206,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C56")]
-			[Address(RVA = "0x30F17D0", Offset = "0x30EFDD0", VA = "0x1830F17D0", Slot = "12")]
+			[Address(RVA = "0x6AF43F0", Offset = "0x6AF33F0", VA = "0x6AF43F0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2217,7 +2217,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C57")]
-			[Address(RVA = "0x30F1800", Offset = "0x30EFE00", VA = "0x1830F1800", Slot = "19")]
+			[Address(RVA = "0x6AF4420", Offset = "0x6AF3420", VA = "0x6AF4420", Slot = "19")]
 			get
 			{
 				return null;
@@ -2228,7 +2228,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C58")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4450", Offset = "0x6AF3450", VA = "0x6AF4450", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2236,20 +2236,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C59")]
-		[Address(RVA = "0x30F1740", Offset = "0x30EFD40", VA = "0x1830F1740", Slot = "14")]
+		[Address(RVA = "0x6AF4460", Offset = "0x6AF3460", VA = "0x6AF4460", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C5A")]
-		[Address(RVA = "0x30F1790", Offset = "0x30EFD90", VA = "0x1830F1790", Slot = "15")]
+		[Address(RVA = "0x6AF4500", Offset = "0x6AF3500", VA = "0x6AF4500", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C5B")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AEFF20", Offset = "0x6AEEF20", VA = "0x6AEFF20")]
 		public MarginTopProperty()
 		{
 		}
@@ -2262,7 +2262,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C5C")]
-			[Address(RVA = "0x30F18C0", Offset = "0x30EFEC0", VA = "0x1830F18C0", Slot = "12")]
+			[Address(RVA = "0x6AF4540", Offset = "0x6AF3540", VA = "0x6AF4540", Slot = "12")]
 			get
 			{
 				return null;
@@ -2273,7 +2273,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C5D")]
-			[Address(RVA = "0x30F18F0", Offset = "0x30EFEF0", VA = "0x1830F18F0", Slot = "19")]
+			[Address(RVA = "0x6AF4570", Offset = "0x6AF3570", VA = "0x6AF4570", Slot = "19")]
 			get
 			{
 				return null;
@@ -2284,7 +2284,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C5E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF45A0", Offset = "0x6AF35A0", VA = "0x6AF45A0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2292,20 +2292,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C5F")]
-		[Address(RVA = "0x30F1830", Offset = "0x30EFE30", VA = "0x1830F1830", Slot = "14")]
+		[Address(RVA = "0x6AF45B0", Offset = "0x6AF35B0", VA = "0x6AF45B0", Slot = "14")]
 		public override StyleFloat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(StyleFloat);
 		}
 
 		[Token(Token = "0x6001C60")]
-		[Address(RVA = "0x30F1880", Offset = "0x30EFE80", VA = "0x1830F1880", Slot = "15")]
+		[Address(RVA = "0x6AF4650", Offset = "0x6AF3650", VA = "0x6AF4650", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, StyleFloat value)
 		{
 		}
 
 		[Token(Token = "0x6001C61")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AEFF60", Offset = "0x6AEEF60", VA = "0x6AEFF60")]
 		public MaxHeightProperty()
 		{
 		}
@@ -2318,7 +2318,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C62")]
-			[Address(RVA = "0x30F19B0", Offset = "0x30EFFB0", VA = "0x1830F19B0", Slot = "12")]
+			[Address(RVA = "0x6AF4690", Offset = "0x6AF3690", VA = "0x6AF4690", Slot = "12")]
 			get
 			{
 				return null;
@@ -2329,7 +2329,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C63")]
-			[Address(RVA = "0x30F19E0", Offset = "0x30EFFE0", VA = "0x1830F19E0", Slot = "19")]
+			[Address(RVA = "0x6AF46C0", Offset = "0x6AF36C0", VA = "0x6AF46C0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2340,7 +2340,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C64")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF46F0", Offset = "0x6AF36F0", VA = "0x6AF46F0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2348,20 +2348,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C65")]
-		[Address(RVA = "0x30F1920", Offset = "0x30EFF20", VA = "0x1830F1920", Slot = "14")]
+		[Address(RVA = "0x6AF4700", Offset = "0x6AF3700", VA = "0x6AF4700", Slot = "14")]
 		public override StyleFloat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(StyleFloat);
 		}
 
 		[Token(Token = "0x6001C66")]
-		[Address(RVA = "0x30F1970", Offset = "0x30EFF70", VA = "0x1830F1970", Slot = "15")]
+		[Address(RVA = "0x6AF47A0", Offset = "0x6AF37A0", VA = "0x6AF47A0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, StyleFloat value)
 		{
 		}
 
 		[Token(Token = "0x6001C67")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AEFFA0", Offset = "0x6AEEFA0", VA = "0x6AEFFA0")]
 		public MaxWidthProperty()
 		{
 		}
@@ -2374,7 +2374,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C68")]
-			[Address(RVA = "0x30F1AA0", Offset = "0x30F00A0", VA = "0x1830F1AA0", Slot = "12")]
+			[Address(RVA = "0x6AF47E0", Offset = "0x6AF37E0", VA = "0x6AF47E0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2385,7 +2385,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C69")]
-			[Address(RVA = "0x30F1AD0", Offset = "0x30F00D0", VA = "0x1830F1AD0", Slot = "19")]
+			[Address(RVA = "0x6AF4810", Offset = "0x6AF3810", VA = "0x6AF4810", Slot = "19")]
 			get
 			{
 				return null;
@@ -2396,7 +2396,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C6A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4840", Offset = "0x6AF3840", VA = "0x6AF4840", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2404,20 +2404,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C6B")]
-		[Address(RVA = "0x30F1A10", Offset = "0x30F0010", VA = "0x1830F1A10", Slot = "14")]
+		[Address(RVA = "0x6AF4850", Offset = "0x6AF3850", VA = "0x6AF4850", Slot = "14")]
 		public override StyleFloat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(StyleFloat);
 		}
 
 		[Token(Token = "0x6001C6C")]
-		[Address(RVA = "0x30F1A60", Offset = "0x30F0060", VA = "0x1830F1A60", Slot = "15")]
+		[Address(RVA = "0x6AF48F0", Offset = "0x6AF38F0", VA = "0x6AF48F0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, StyleFloat value)
 		{
 		}
 
 		[Token(Token = "0x6001C6D")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AEFFE0", Offset = "0x6AEEFE0", VA = "0x6AEFFE0")]
 		public MinHeightProperty()
 		{
 		}
@@ -2430,7 +2430,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C6E")]
-			[Address(RVA = "0x30F1B90", Offset = "0x30F0190", VA = "0x1830F1B90", Slot = "12")]
+			[Address(RVA = "0x6AF4930", Offset = "0x6AF3930", VA = "0x6AF4930", Slot = "12")]
 			get
 			{
 				return null;
@@ -2441,7 +2441,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C6F")]
-			[Address(RVA = "0x30F1BC0", Offset = "0x30F01C0", VA = "0x1830F1BC0", Slot = "19")]
+			[Address(RVA = "0x6AF4960", Offset = "0x6AF3960", VA = "0x6AF4960", Slot = "19")]
 			get
 			{
 				return null;
@@ -2452,7 +2452,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C70")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4990", Offset = "0x6AF3990", VA = "0x6AF4990", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2460,20 +2460,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C71")]
-		[Address(RVA = "0x30F1B00", Offset = "0x30F0100", VA = "0x1830F1B00", Slot = "14")]
+		[Address(RVA = "0x6AF49A0", Offset = "0x6AF39A0", VA = "0x6AF49A0", Slot = "14")]
 		public override StyleFloat GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(StyleFloat);
 		}
 
 		[Token(Token = "0x6001C72")]
-		[Address(RVA = "0x30F1B50", Offset = "0x30F0150", VA = "0x1830F1B50", Slot = "15")]
+		[Address(RVA = "0x6AF4A40", Offset = "0x6AF3A40", VA = "0x6AF4A40", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, StyleFloat value)
 		{
 		}
 
 		[Token(Token = "0x6001C73")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AF0020", Offset = "0x6AEF020", VA = "0x6AF0020")]
 		public MinWidthProperty()
 		{
 		}
@@ -2486,7 +2486,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C74")]
-			[Address(RVA = "0x30F1C80", Offset = "0x30F0280", VA = "0x1830F1C80", Slot = "12")]
+			[Address(RVA = "0x6AF4A80", Offset = "0x6AF3A80", VA = "0x6AF4A80", Slot = "12")]
 			get
 			{
 				return null;
@@ -2497,7 +2497,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C75")]
-			[Address(RVA = "0x30F1CB0", Offset = "0x30F02B0", VA = "0x1830F1CB0", Slot = "19")]
+			[Address(RVA = "0x6AF4AB0", Offset = "0x6AF3AB0", VA = "0x6AF4AB0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2508,7 +2508,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C76")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4AE0", Offset = "0x6AF3AE0", VA = "0x6AF4AE0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2516,20 +2516,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C77")]
-		[Address(RVA = "0x30F1BF0", Offset = "0x30F01F0", VA = "0x1830F1BF0", Slot = "14")]
+		[Address(RVA = "0x6AF4AF0", Offset = "0x6AF3AF0", VA = "0x6AF4AF0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C78")]
-		[Address(RVA = "0x30F1C40", Offset = "0x30F0240", VA = "0x1830F1C40", Slot = "15")]
+		[Address(RVA = "0x6AF4B90", Offset = "0x6AF3B90", VA = "0x6AF4B90", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C79")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF0060", Offset = "0x6AEF060", VA = "0x6AF0060")]
 		public OpacityProperty()
 		{
 		}
@@ -2542,7 +2542,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C7A")]
-			[Address(RVA = "0x30F1D70", Offset = "0x30F0370", VA = "0x1830F1D70", Slot = "12")]
+			[Address(RVA = "0x6AF4BD0", Offset = "0x6AF3BD0", VA = "0x6AF4BD0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2553,7 +2553,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C7B")]
-			[Address(RVA = "0x30F1DA0", Offset = "0x30F03A0", VA = "0x1830F1DA0", Slot = "19")]
+			[Address(RVA = "0x6AF4C00", Offset = "0x6AF3C00", VA = "0x6AF4C00", Slot = "19")]
 			get
 			{
 				return null;
@@ -2564,7 +2564,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C7C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4C30", Offset = "0x6AF3C30", VA = "0x6AF4C30", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2572,20 +2572,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C7D")]
-		[Address(RVA = "0x30F1CE0", Offset = "0x30F02E0", VA = "0x1830F1CE0", Slot = "14")]
+		[Address(RVA = "0x6AF4C40", Offset = "0x6AF3C40", VA = "0x6AF4C40", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C7E")]
-		[Address(RVA = "0x30F1D30", Offset = "0x30F0330", VA = "0x1830F1D30", Slot = "15")]
+		[Address(RVA = "0x6AF4CE0", Offset = "0x6AF3CE0", VA = "0x6AF4CE0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C7F")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF00A0", Offset = "0x6AEF0A0", VA = "0x6AF00A0")]
 		public PaddingBottomProperty()
 		{
 		}
@@ -2598,7 +2598,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C80")]
-			[Address(RVA = "0x30F1E60", Offset = "0x30F0460", VA = "0x1830F1E60", Slot = "12")]
+			[Address(RVA = "0x6AF4D20", Offset = "0x6AF3D20", VA = "0x6AF4D20", Slot = "12")]
 			get
 			{
 				return null;
@@ -2609,7 +2609,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C81")]
-			[Address(RVA = "0x30F1E90", Offset = "0x30F0490", VA = "0x1830F1E90", Slot = "19")]
+			[Address(RVA = "0x6AF4D50", Offset = "0x6AF3D50", VA = "0x6AF4D50", Slot = "19")]
 			get
 			{
 				return null;
@@ -2620,7 +2620,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C82")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4D80", Offset = "0x6AF3D80", VA = "0x6AF4D80", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2628,20 +2628,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C83")]
-		[Address(RVA = "0x30F1DD0", Offset = "0x30F03D0", VA = "0x1830F1DD0", Slot = "14")]
+		[Address(RVA = "0x6AF4D90", Offset = "0x6AF3D90", VA = "0x6AF4D90", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C84")]
-		[Address(RVA = "0x30F1E20", Offset = "0x30F0420", VA = "0x1830F1E20", Slot = "15")]
+		[Address(RVA = "0x6AF4E30", Offset = "0x6AF3E30", VA = "0x6AF4E30", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C85")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF00E0", Offset = "0x6AEF0E0", VA = "0x6AF00E0")]
 		public PaddingLeftProperty()
 		{
 		}
@@ -2654,7 +2654,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C86")]
-			[Address(RVA = "0x30F1F50", Offset = "0x30F0550", VA = "0x1830F1F50", Slot = "12")]
+			[Address(RVA = "0x6AF4E70", Offset = "0x6AF3E70", VA = "0x6AF4E70", Slot = "12")]
 			get
 			{
 				return null;
@@ -2665,7 +2665,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C87")]
-			[Address(RVA = "0x30F1F80", Offset = "0x30F0580", VA = "0x1830F1F80", Slot = "19")]
+			[Address(RVA = "0x6AF4EA0", Offset = "0x6AF3EA0", VA = "0x6AF4EA0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2676,7 +2676,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C88")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF4ED0", Offset = "0x6AF3ED0", VA = "0x6AF4ED0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2684,20 +2684,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C89")]
-		[Address(RVA = "0x30F1EC0", Offset = "0x30F04C0", VA = "0x1830F1EC0", Slot = "14")]
+		[Address(RVA = "0x6AF4EE0", Offset = "0x6AF3EE0", VA = "0x6AF4EE0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C8A")]
-		[Address(RVA = "0x30F1F10", Offset = "0x30F0510", VA = "0x1830F1F10", Slot = "15")]
+		[Address(RVA = "0x6AF4F80", Offset = "0x6AF3F80", VA = "0x6AF4F80", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C8B")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF0120", Offset = "0x6AEF120", VA = "0x6AF0120")]
 		public PaddingRightProperty()
 		{
 		}
@@ -2710,7 +2710,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C8C")]
-			[Address(RVA = "0x30F2040", Offset = "0x30F0640", VA = "0x1830F2040", Slot = "12")]
+			[Address(RVA = "0x6AF4FC0", Offset = "0x6AF3FC0", VA = "0x6AF4FC0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2721,7 +2721,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C8D")]
-			[Address(RVA = "0x30F2070", Offset = "0x30F0670", VA = "0x1830F2070", Slot = "19")]
+			[Address(RVA = "0x6AF4FF0", Offset = "0x6AF3FF0", VA = "0x6AF4FF0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2732,7 +2732,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C8E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5020", Offset = "0x6AF4020", VA = "0x6AF5020", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2740,20 +2740,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C8F")]
-		[Address(RVA = "0x30F1FB0", Offset = "0x30F05B0", VA = "0x1830F1FB0", Slot = "14")]
+		[Address(RVA = "0x6AF5030", Offset = "0x6AF4030", VA = "0x6AF5030", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C90")]
-		[Address(RVA = "0x30F2000", Offset = "0x30F0600", VA = "0x1830F2000", Slot = "15")]
+		[Address(RVA = "0x6AF50D0", Offset = "0x6AF40D0", VA = "0x6AF50D0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C91")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF0160", Offset = "0x6AEF160", VA = "0x6AF0160")]
 		public PaddingTopProperty()
 		{
 		}
@@ -2766,7 +2766,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C92")]
-			[Address(RVA = "0x30F2170", Offset = "0x30F0770", VA = "0x1830F2170", Slot = "12")]
+			[Address(RVA = "0x6AF5110", Offset = "0x6AF4110", VA = "0x6AF5110", Slot = "12")]
 			get
 			{
 				return null;
@@ -2777,7 +2777,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C93")]
-			[Address(RVA = "0x30F21A0", Offset = "0x30F07A0", VA = "0x1830F21A0", Slot = "19")]
+			[Address(RVA = "0x6AF5140", Offset = "0x6AF4140", VA = "0x6AF5140", Slot = "19")]
 			get
 			{
 				return null;
@@ -2788,7 +2788,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C94")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5170", Offset = "0x6AF4170", VA = "0x6AF5170", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2796,20 +2796,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C95")]
-		[Address(RVA = "0x30F20A0", Offset = "0x30F06A0", VA = "0x1830F20A0", Slot = "14")]
+		[Address(RVA = "0x6AF5180", Offset = "0x6AF4180", VA = "0x6AF5180", Slot = "14")]
 		public override Position GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Position);
 		}
 
 		[Token(Token = "0x6001C96")]
-		[Address(RVA = "0x30F20F0", Offset = "0x30F06F0", VA = "0x1830F20F0", Slot = "15")]
+		[Address(RVA = "0x6AF5220", Offset = "0x6AF4220", VA = "0x6AF5220", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Position value)
 		{
 		}
 
 		[Token(Token = "0x6001C97")]
-		[Address(RVA = "0x30F2130", Offset = "0x30F0730", VA = "0x1830F2130")]
+		[Address(RVA = "0x6AF01A0", Offset = "0x6AEF1A0", VA = "0x6AF01A0")]
 		public PositionProperty()
 		{
 		}
@@ -2822,7 +2822,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C98")]
-			[Address(RVA = "0x30F5E50", Offset = "0x30F4450", VA = "0x1830F5E50", Slot = "12")]
+			[Address(RVA = "0x6AF5260", Offset = "0x6AF4260", VA = "0x6AF5260", Slot = "12")]
 			get
 			{
 				return null;
@@ -2833,7 +2833,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C99")]
-			[Address(RVA = "0x30F5E80", Offset = "0x30F4480", VA = "0x1830F5E80", Slot = "19")]
+			[Address(RVA = "0x6AF5290", Offset = "0x6AF4290", VA = "0x6AF5290", Slot = "19")]
 			get
 			{
 				return null;
@@ -2844,7 +2844,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001C9A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF52C0", Offset = "0x6AF42C0", VA = "0x6AF52C0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2852,20 +2852,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001C9B")]
-		[Address(RVA = "0x30F5DC0", Offset = "0x30F43C0", VA = "0x1830F5DC0", Slot = "14")]
+		[Address(RVA = "0x6AF52D0", Offset = "0x6AF42D0", VA = "0x6AF52D0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001C9C")]
-		[Address(RVA = "0x30F5E10", Offset = "0x30F4410", VA = "0x1830F5E10", Slot = "15")]
+		[Address(RVA = "0x6AF5370", Offset = "0x6AF4370", VA = "0x6AF5370", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001C9D")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF01E0", Offset = "0x6AEF1E0", VA = "0x6AF01E0")]
 		public RightProperty()
 		{
 		}
@@ -2878,7 +2878,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001C9E")]
-			[Address(RVA = "0x30F5FD0", Offset = "0x30F45D0", VA = "0x1830F5FD0", Slot = "12")]
+			[Address(RVA = "0x6AF53B0", Offset = "0x6AF43B0", VA = "0x6AF53B0", Slot = "12")]
 			get
 			{
 				return null;
@@ -2889,7 +2889,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001C9F")]
-			[Address(RVA = "0x30F6000", Offset = "0x30F4600", VA = "0x1830F6000", Slot = "19")]
+			[Address(RVA = "0x6AF53E0", Offset = "0x6AF43E0", VA = "0x6AF53E0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2900,7 +2900,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CA0")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5410", Offset = "0x6AF4410", VA = "0x6AF5410", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2908,20 +2908,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CA1")]
-		[Address(RVA = "0x30F5EB0", Offset = "0x30F44B0", VA = "0x1830F5EB0", Slot = "14")]
+		[Address(RVA = "0x6AF5420", Offset = "0x6AF4420", VA = "0x6AF5420", Slot = "14")]
 		public override Rotate GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Rotate);
 		}
 
 		[Token(Token = "0x6001CA2")]
-		[Address(RVA = "0x30F5F90", Offset = "0x30F4590", VA = "0x1830F5F90", Slot = "15")]
+		[Address(RVA = "0x6AF54F0", Offset = "0x6AF44F0", VA = "0x6AF54F0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Rotate value)
 		{
 		}
 
 		[Token(Token = "0x6001CA3")]
-		[Address(RVA = "0x30F2810", Offset = "0x30F0E10", VA = "0x1830F2810")]
+		[Address(RVA = "0x6AF0220", Offset = "0x6AEF220", VA = "0x6AF0220")]
 		public RotateProperty()
 		{
 		}
@@ -2934,7 +2934,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CA4")]
-			[Address(RVA = "0x30F6140", Offset = "0x30F4740", VA = "0x1830F6140", Slot = "12")]
+			[Address(RVA = "0x6AF5570", Offset = "0x6AF4570", VA = "0x6AF5570", Slot = "12")]
 			get
 			{
 				return null;
@@ -2945,7 +2945,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CA5")]
-			[Address(RVA = "0x30F6170", Offset = "0x30F4770", VA = "0x1830F6170", Slot = "19")]
+			[Address(RVA = "0x6AF55A0", Offset = "0x6AF45A0", VA = "0x6AF55A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -2956,7 +2956,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CA6")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF55D0", Offset = "0x6AF45D0", VA = "0x6AF55D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -2964,20 +2964,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CA7")]
-		[Address(RVA = "0x30F6030", Offset = "0x30F4630", VA = "0x1830F6030", Slot = "14")]
+		[Address(RVA = "0x6AF55E0", Offset = "0x6AF45E0", VA = "0x6AF55E0", Slot = "14")]
 		public override Scale GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Scale);
 		}
 
 		[Token(Token = "0x6001CA8")]
-		[Address(RVA = "0x30F6100", Offset = "0x30F4700", VA = "0x1830F6100", Slot = "15")]
+		[Address(RVA = "0x6AF5680", Offset = "0x6AF4680", VA = "0x6AF5680", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Scale value)
 		{
 		}
 
 		[Token(Token = "0x6001CA9")]
-		[Address(RVA = "0x30F2850", Offset = "0x30F0E50", VA = "0x1830F2850")]
+		[Address(RVA = "0x6AF0260", Offset = "0x6AEF260", VA = "0x6AF0260")]
 		public ScaleProperty()
 		{
 		}
@@ -2990,7 +2990,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CAA")]
-			[Address(RVA = "0x30F6300", Offset = "0x30F4900", VA = "0x1830F6300", Slot = "12")]
+			[Address(RVA = "0x6AF5700", Offset = "0x6AF4700", VA = "0x6AF5700", Slot = "12")]
 			get
 			{
 				return null;
@@ -3001,7 +3001,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CAB")]
-			[Address(RVA = "0x30F6330", Offset = "0x30F4930", VA = "0x1830F6330", Slot = "19")]
+			[Address(RVA = "0x6AF5730", Offset = "0x6AF4730", VA = "0x6AF5730", Slot = "19")]
 			get
 			{
 				return null;
@@ -3012,7 +3012,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CAC")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5760", Offset = "0x6AF4760", VA = "0x6AF5760", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3020,20 +3020,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CAD")]
-		[Address(RVA = "0x30F6230", Offset = "0x30F4830", VA = "0x1830F6230", Slot = "14")]
+		[Address(RVA = "0x6AF5770", Offset = "0x6AF4770", VA = "0x6AF5770", Slot = "14")]
 		public override TextOverflow GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(TextOverflow);
 		}
 
 		[Token(Token = "0x6001CAE")]
-		[Address(RVA = "0x30F6280", Offset = "0x30F4880", VA = "0x1830F6280", Slot = "15")]
+		[Address(RVA = "0x6AF5810", Offset = "0x6AF4810", VA = "0x6AF5810", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, TextOverflow value)
 		{
 		}
 
 		[Token(Token = "0x6001CAF")]
-		[Address(RVA = "0x30F62C0", Offset = "0x30F48C0", VA = "0x1830F62C0")]
+		[Address(RVA = "0x6AF02A0", Offset = "0x6AEF2A0", VA = "0x6AF02A0")]
 		public TextOverflowProperty()
 		{
 		}
@@ -3046,7 +3046,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CB0")]
-			[Address(RVA = "0x30F6490", Offset = "0x30F4A90", VA = "0x1830F6490", Slot = "12")]
+			[Address(RVA = "0x6AF5850", Offset = "0x6AF4850", VA = "0x6AF5850", Slot = "12")]
 			get
 			{
 				return null;
@@ -3057,7 +3057,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CB1")]
-			[Address(RVA = "0x30F64C0", Offset = "0x30F4AC0", VA = "0x1830F64C0", Slot = "19")]
+			[Address(RVA = "0x6AF5880", Offset = "0x6AF4880", VA = "0x6AF5880", Slot = "19")]
 			get
 			{
 				return null;
@@ -3068,7 +3068,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CB2")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF58B0", Offset = "0x6AF48B0", VA = "0x6AF58B0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3076,20 +3076,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CB3")]
-		[Address(RVA = "0x30F6400", Offset = "0x30F4A00", VA = "0x1830F6400", Slot = "14")]
+		[Address(RVA = "0x6AF58C0", Offset = "0x6AF48C0", VA = "0x6AF58C0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001CB4")]
-		[Address(RVA = "0x30F6450", Offset = "0x30F4A50", VA = "0x1830F6450", Slot = "15")]
+		[Address(RVA = "0x6AF5960", Offset = "0x6AF4960", VA = "0x6AF5960", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001CB5")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF02E0", Offset = "0x6AEF2E0", VA = "0x6AF02E0")]
 		public TopProperty()
 		{
 		}
@@ -3102,7 +3102,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CB6")]
-			[Address(RVA = "0x30F6B50", Offset = "0x30F5150", VA = "0x1830F6B50", Slot = "12")]
+			[Address(RVA = "0x6AF59A0", Offset = "0x6AF49A0", VA = "0x6AF59A0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3113,7 +3113,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CB7")]
-			[Address(RVA = "0x30F6B80", Offset = "0x30F5180", VA = "0x1830F6B80", Slot = "19")]
+			[Address(RVA = "0x6AF59D0", Offset = "0x6AF49D0", VA = "0x6AF59D0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3124,7 +3124,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CB8")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5A00", Offset = "0x6AF4A00", VA = "0x6AF5A00", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3132,20 +3132,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CB9")]
-		[Address(RVA = "0x30F6A30", Offset = "0x30F5030", VA = "0x1830F6A30", Slot = "14")]
+		[Address(RVA = "0x6AF5A10", Offset = "0x6AF4A10", VA = "0x6AF5A10", Slot = "14")]
 		public override Vector3 GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Vector3);
 		}
 
 		[Token(Token = "0x6001CBA")]
-		[Address(RVA = "0x30F6B10", Offset = "0x30F5110", VA = "0x1830F6B10", Slot = "15")]
+		[Address(RVA = "0x6AF5AB0", Offset = "0x6AF4AB0", VA = "0x6AF5AB0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Vector3 value)
 		{
 		}
 
 		[Token(Token = "0x6001CBB")]
-		[Address(RVA = "0x30F5D80", Offset = "0x30F4380", VA = "0x1830F5D80")]
+		[Address(RVA = "0x6AF0320", Offset = "0x6AEF320", VA = "0x6AF0320")]
 		public TransformOriginProperty()
 		{
 		}
@@ -3158,7 +3158,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CBC")]
-			[Address(RVA = "0x30F7170", Offset = "0x30F5770", VA = "0x1830F7170", Slot = "12")]
+			[Address(RVA = "0x6AF5B30", Offset = "0x6AF4B30", VA = "0x6AF5B30", Slot = "12")]
 			get
 			{
 				return null;
@@ -3169,7 +3169,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CBD")]
-			[Address(RVA = "0x30F71A0", Offset = "0x30F57A0", VA = "0x1830F71A0", Slot = "19")]
+			[Address(RVA = "0x6AF5B60", Offset = "0x6AF4B60", VA = "0x6AF5B60", Slot = "19")]
 			get
 			{
 				return null;
@@ -3180,7 +3180,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CBE")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5B90", Offset = "0x6AF4B90", VA = "0x6AF5B90", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3188,20 +3188,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CBF")]
-		[Address(RVA = "0x30F70A0", Offset = "0x30F56A0", VA = "0x1830F70A0", Slot = "14")]
+		[Address(RVA = "0x6AF5BA0", Offset = "0x6AF4BA0", VA = "0x6AF5BA0", Slot = "14")]
 		public override IEnumerable<TimeValue> GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001CC0")]
-		[Address(RVA = "0x30F70F0", Offset = "0x30F56F0", VA = "0x1830F70F0", Slot = "15")]
+		[Address(RVA = "0x6AF5C40", Offset = "0x6AF4C40", VA = "0x6AF5C40", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, IEnumerable<TimeValue> value)
 		{
 		}
 
 		[Token(Token = "0x6001CC1")]
-		[Address(RVA = "0x30F7130", Offset = "0x30F5730", VA = "0x1830F7130")]
+		[Address(RVA = "0x6AF0360", Offset = "0x6AEF360", VA = "0x6AF0360")]
 		public TransitionDelayProperty()
 		{
 		}
@@ -3214,7 +3214,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CC2")]
-			[Address(RVA = "0x30F72A0", Offset = "0x30F58A0", VA = "0x1830F72A0", Slot = "12")]
+			[Address(RVA = "0x6AF5C80", Offset = "0x6AF4C80", VA = "0x6AF5C80", Slot = "12")]
 			get
 			{
 				return null;
@@ -3225,7 +3225,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CC3")]
-			[Address(RVA = "0x30F72D0", Offset = "0x30F58D0", VA = "0x1830F72D0", Slot = "19")]
+			[Address(RVA = "0x6AF5CB0", Offset = "0x6AF4CB0", VA = "0x6AF5CB0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3236,7 +3236,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CC4")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5CE0", Offset = "0x6AF4CE0", VA = "0x6AF5CE0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3244,20 +3244,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CC5")]
-		[Address(RVA = "0x30F71D0", Offset = "0x30F57D0", VA = "0x1830F71D0", Slot = "14")]
+		[Address(RVA = "0x6AF5CF0", Offset = "0x6AF4CF0", VA = "0x6AF5CF0", Slot = "14")]
 		public override IEnumerable<TimeValue> GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001CC6")]
-		[Address(RVA = "0x30F7220", Offset = "0x30F5820", VA = "0x1830F7220", Slot = "15")]
+		[Address(RVA = "0x6AF5D90", Offset = "0x6AF4D90", VA = "0x6AF5D90", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, IEnumerable<TimeValue> value)
 		{
 		}
 
 		[Token(Token = "0x6001CC7")]
-		[Address(RVA = "0x30F7260", Offset = "0x30F5860", VA = "0x1830F7260")]
+		[Address(RVA = "0x6AF03A0", Offset = "0x6AEF3A0", VA = "0x6AF03A0")]
 		public TransitionDurationProperty()
 		{
 		}
@@ -3270,7 +3270,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CC8")]
-			[Address(RVA = "0x30F73D0", Offset = "0x30F59D0", VA = "0x1830F73D0", Slot = "12")]
+			[Address(RVA = "0x6AF5DD0", Offset = "0x6AF4DD0", VA = "0x6AF5DD0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3281,7 +3281,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CC9")]
-			[Address(RVA = "0x30F7400", Offset = "0x30F5A00", VA = "0x1830F7400", Slot = "19")]
+			[Address(RVA = "0x6AF5E00", Offset = "0x6AF4E00", VA = "0x6AF5E00", Slot = "19")]
 			get
 			{
 				return null;
@@ -3292,7 +3292,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CCA")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5E30", Offset = "0x6AF4E30", VA = "0x6AF5E30", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3300,20 +3300,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CCB")]
-		[Address(RVA = "0x30F7300", Offset = "0x30F5900", VA = "0x1830F7300", Slot = "14")]
+		[Address(RVA = "0x6AF5E40", Offset = "0x6AF4E40", VA = "0x6AF5E40", Slot = "14")]
 		public override IEnumerable<StylePropertyName> GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001CCC")]
-		[Address(RVA = "0x30F7350", Offset = "0x30F5950", VA = "0x1830F7350", Slot = "15")]
+		[Address(RVA = "0x6AF5EE0", Offset = "0x6AF4EE0", VA = "0x6AF5EE0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, IEnumerable<StylePropertyName> value)
 		{
 		}
 
 		[Token(Token = "0x6001CCD")]
-		[Address(RVA = "0x30F7390", Offset = "0x30F5990", VA = "0x1830F7390")]
+		[Address(RVA = "0x6AF03E0", Offset = "0x6AEF3E0", VA = "0x6AF03E0")]
 		public TransitionPropertyProperty()
 		{
 		}
@@ -3326,7 +3326,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CCE")]
-			[Address(RVA = "0x30F7500", Offset = "0x30F5B00", VA = "0x1830F7500", Slot = "12")]
+			[Address(RVA = "0x6AF5F20", Offset = "0x6AF4F20", VA = "0x6AF5F20", Slot = "12")]
 			get
 			{
 				return null;
@@ -3337,7 +3337,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CCF")]
-			[Address(RVA = "0x30F7530", Offset = "0x30F5B30", VA = "0x1830F7530", Slot = "19")]
+			[Address(RVA = "0x6AF5F50", Offset = "0x6AF4F50", VA = "0x6AF5F50", Slot = "19")]
 			get
 			{
 				return null;
@@ -3348,7 +3348,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CD0")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF5F80", Offset = "0x6AF4F80", VA = "0x6AF5F80", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3356,20 +3356,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CD1")]
-		[Address(RVA = "0x30F7430", Offset = "0x30F5A30", VA = "0x1830F7430", Slot = "14")]
+		[Address(RVA = "0x6AF5F90", Offset = "0x6AF4F90", VA = "0x6AF5F90", Slot = "14")]
 		public override IEnumerable<EasingFunction> GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001CD2")]
-		[Address(RVA = "0x30F7480", Offset = "0x30F5A80", VA = "0x1830F7480", Slot = "15")]
+		[Address(RVA = "0x6AF6030", Offset = "0x6AF5030", VA = "0x6AF6030", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, IEnumerable<EasingFunction> value)
 		{
 		}
 
 		[Token(Token = "0x6001CD3")]
-		[Address(RVA = "0x30F74C0", Offset = "0x30F5AC0", VA = "0x1830F74C0")]
+		[Address(RVA = "0x6AF0420", Offset = "0x6AEF420", VA = "0x6AF0420")]
 		public TransitionTimingFunctionProperty()
 		{
 		}
@@ -3382,7 +3382,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CD4")]
-			[Address(RVA = "0x30F7680", Offset = "0x30F5C80", VA = "0x1830F7680", Slot = "12")]
+			[Address(RVA = "0x6AF6070", Offset = "0x6AF5070", VA = "0x6AF6070", Slot = "12")]
 			get
 			{
 				return null;
@@ -3393,7 +3393,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CD5")]
-			[Address(RVA = "0x30F76B0", Offset = "0x30F5CB0", VA = "0x1830F76B0", Slot = "19")]
+			[Address(RVA = "0x6AF60A0", Offset = "0x6AF50A0", VA = "0x6AF60A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3404,7 +3404,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CD6")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF60D0", Offset = "0x6AF50D0", VA = "0x6AF60D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3412,20 +3412,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CD7")]
-		[Address(RVA = "0x30F7560", Offset = "0x30F5B60", VA = "0x1830F7560", Slot = "14")]
+		[Address(RVA = "0x6AF60E0", Offset = "0x6AF50E0", VA = "0x6AF60E0", Slot = "14")]
 		public override Vector3 GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Vector3);
 		}
 
 		[Token(Token = "0x6001CD8")]
-		[Address(RVA = "0x30F7640", Offset = "0x30F5C40", VA = "0x1830F7640", Slot = "15")]
+		[Address(RVA = "0x6AF6180", Offset = "0x6AF5180", VA = "0x6AF6180", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Vector3 value)
 		{
 		}
 
 		[Token(Token = "0x6001CD9")]
-		[Address(RVA = "0x30F5D80", Offset = "0x30F4380", VA = "0x1830F5D80")]
+		[Address(RVA = "0x6AF0460", Offset = "0x6AEF460", VA = "0x6AF0460")]
 		public TranslateProperty()
 		{
 		}
@@ -3438,7 +3438,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CDA")]
-			[Address(RVA = "0x310A470", Offset = "0x3108A70", VA = "0x18310A470", Slot = "12")]
+			[Address(RVA = "0x6AF61C0", Offset = "0x6AF51C0", VA = "0x6AF61C0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3449,7 +3449,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CDB")]
-			[Address(RVA = "0x310A4A0", Offset = "0x3108AA0", VA = "0x18310A4A0", Slot = "19")]
+			[Address(RVA = "0x6AF61F0", Offset = "0x6AF51F0", VA = "0x6AF61F0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3460,7 +3460,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CDC")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6220", Offset = "0x6AF5220", VA = "0x6AF6220", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3468,20 +3468,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CDD")]
-		[Address(RVA = "0x310A360", Offset = "0x3108960", VA = "0x18310A360", Slot = "14")]
+		[Address(RVA = "0x6AF6230", Offset = "0x6AF5230", VA = "0x6AF6230", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001CDE")]
-		[Address(RVA = "0x310A430", Offset = "0x3108A30", VA = "0x18310A430", Slot = "15")]
+		[Address(RVA = "0x6AF62D0", Offset = "0x6AF52D0", VA = "0x6AF62D0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001CDF")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AF04A0", Offset = "0x6AEF4A0", VA = "0x6AF04A0")]
 		public UnityBackgroundImageTintColorProperty()
 		{
 		}
@@ -3494,7 +3494,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CE0")]
-			[Address(RVA = "0x310A5A0", Offset = "0x3108BA0", VA = "0x18310A5A0", Slot = "12")]
+			[Address(RVA = "0x6AF6310", Offset = "0x6AF5310", VA = "0x6AF6310", Slot = "12")]
 			get
 			{
 				return null;
@@ -3505,7 +3505,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CE1")]
-			[Address(RVA = "0x310A5D0", Offset = "0x3108BD0", VA = "0x18310A5D0", Slot = "19")]
+			[Address(RVA = "0x6AF6340", Offset = "0x6AF5340", VA = "0x6AF6340", Slot = "19")]
 			get
 			{
 				return null;
@@ -3516,7 +3516,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CE2")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6370", Offset = "0x6AF5370", VA = "0x6AF6370", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3524,20 +3524,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CE3")]
-		[Address(RVA = "0x310A4D0", Offset = "0x3108AD0", VA = "0x18310A4D0", Slot = "14")]
+		[Address(RVA = "0x6AF6380", Offset = "0x6AF5380", VA = "0x6AF6380", Slot = "14")]
 		public override EditorTextRenderingMode GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(EditorTextRenderingMode);
 		}
 
 		[Token(Token = "0x6001CE4")]
-		[Address(RVA = "0x310A520", Offset = "0x3108B20", VA = "0x18310A520", Slot = "15")]
+		[Address(RVA = "0x6AF6420", Offset = "0x6AF5420", VA = "0x6AF6420", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, EditorTextRenderingMode value)
 		{
 		}
 
 		[Token(Token = "0x6001CE5")]
-		[Address(RVA = "0x310A560", Offset = "0x3108B60", VA = "0x18310A560")]
+		[Address(RVA = "0x6AF04E0", Offset = "0x6AEF4E0", VA = "0x6AF04E0")]
 		public UnityEditorTextRenderingModeProperty()
 		{
 		}
@@ -3550,7 +3550,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CE6")]
-			[Address(RVA = "0x310A870", Offset = "0x3108E70", VA = "0x18310A870", Slot = "12")]
+			[Address(RVA = "0x6AF6460", Offset = "0x6AF5460", VA = "0x6AF6460", Slot = "12")]
 			get
 			{
 				return null;
@@ -3561,7 +3561,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CE7")]
-			[Address(RVA = "0x310A8A0", Offset = "0x3108EA0", VA = "0x18310A8A0", Slot = "19")]
+			[Address(RVA = "0x6AF6490", Offset = "0x6AF5490", VA = "0x6AF6490", Slot = "19")]
 			get
 			{
 				return null;
@@ -3572,7 +3572,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CE8")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF64C0", Offset = "0x6AF54C0", VA = "0x6AF64C0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3580,20 +3580,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CE9")]
-		[Address(RVA = "0x310A770", Offset = "0x3108D70", VA = "0x18310A770", Slot = "14")]
+		[Address(RVA = "0x6AF64D0", Offset = "0x6AF54D0", VA = "0x6AF64D0", Slot = "14")]
 		public override Font GetValue(ref ResolvedStyleAccess container)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001CEA")]
-		[Address(RVA = "0x310A830", Offset = "0x3108E30", VA = "0x18310A830", Slot = "15")]
+		[Address(RVA = "0x6AF6570", Offset = "0x6AF5570", VA = "0x6AF6570", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Font value)
 		{
 		}
 
 		[Token(Token = "0x6001CEB")]
-		[Address(RVA = "0x30F2750", Offset = "0x30F0D50", VA = "0x1830F2750")]
+		[Address(RVA = "0x6AF0520", Offset = "0x6AEF520", VA = "0x6AF0520")]
 		public UnityFontProperty()
 		{
 		}
@@ -3606,7 +3606,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CEC")]
-			[Address(RVA = "0x310A710", Offset = "0x3108D10", VA = "0x18310A710", Slot = "12")]
+			[Address(RVA = "0x6AF65F0", Offset = "0x6AF55F0", VA = "0x6AF65F0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3617,7 +3617,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CED")]
-			[Address(RVA = "0x310A740", Offset = "0x3108D40", VA = "0x18310A740", Slot = "19")]
+			[Address(RVA = "0x6AF6620", Offset = "0x6AF5620", VA = "0x6AF6620", Slot = "19")]
 			get
 			{
 				return null;
@@ -3628,7 +3628,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CEE")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6650", Offset = "0x6AF5650", VA = "0x6AF6650", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3636,20 +3636,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CEF")]
-		[Address(RVA = "0x310A600", Offset = "0x3108C00", VA = "0x18310A600", Slot = "14")]
+		[Address(RVA = "0x6AF6660", Offset = "0x6AF5660", VA = "0x6AF6660", Slot = "14")]
 		public override FontDefinition GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(FontDefinition);
 		}
 
 		[Token(Token = "0x6001CF0")]
-		[Address(RVA = "0x310A6D0", Offset = "0x3108CD0", VA = "0x18310A6D0", Slot = "15")]
+		[Address(RVA = "0x6AF6700", Offset = "0x6AF5700", VA = "0x6AF6700", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, FontDefinition value)
 		{
 		}
 
 		[Token(Token = "0x6001CF1")]
-		[Address(RVA = "0x30F2710", Offset = "0x30F0D10", VA = "0x1830F2710")]
+		[Address(RVA = "0x6AF0560", Offset = "0x6AEF560", VA = "0x6AF0560")]
 		public UnityFontDefinitionProperty()
 		{
 		}
@@ -3662,7 +3662,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CF2")]
-			[Address(RVA = "0x310A9A0", Offset = "0x3108FA0", VA = "0x18310A9A0", Slot = "12")]
+			[Address(RVA = "0x6AF6780", Offset = "0x6AF5780", VA = "0x6AF6780", Slot = "12")]
 			get
 			{
 				return null;
@@ -3673,7 +3673,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CF3")]
-			[Address(RVA = "0x310A9D0", Offset = "0x3108FD0", VA = "0x18310A9D0", Slot = "19")]
+			[Address(RVA = "0x6AF67B0", Offset = "0x6AF57B0", VA = "0x6AF67B0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3684,7 +3684,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CF4")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF67E0", Offset = "0x6AF57E0", VA = "0x6AF67E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3692,20 +3692,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CF5")]
-		[Address(RVA = "0x310A8D0", Offset = "0x3108ED0", VA = "0x18310A8D0", Slot = "14")]
+		[Address(RVA = "0x6AF67F0", Offset = "0x6AF57F0", VA = "0x6AF67F0", Slot = "14")]
 		public override FontStyle GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(FontStyle);
 		}
 
 		[Token(Token = "0x6001CF6")]
-		[Address(RVA = "0x310A920", Offset = "0x3108F20", VA = "0x18310A920", Slot = "15")]
+		[Address(RVA = "0x6AF6890", Offset = "0x6AF5890", VA = "0x6AF6890", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, FontStyle value)
 		{
 		}
 
 		[Token(Token = "0x6001CF7")]
-		[Address(RVA = "0x310A960", Offset = "0x3108F60", VA = "0x18310A960")]
+		[Address(RVA = "0x6AF05A0", Offset = "0x6AEF5A0", VA = "0x6AF05A0")]
 		public UnityFontStyleAndWeightProperty()
 		{
 		}
@@ -3718,7 +3718,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CF8")]
-			[Address(RVA = "0x310AB10", Offset = "0x3109110", VA = "0x18310AB10", Slot = "12")]
+			[Address(RVA = "0x6AF68D0", Offset = "0x6AF58D0", VA = "0x6AF68D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3729,7 +3729,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CF9")]
-			[Address(RVA = "0x310AB40", Offset = "0x3109140", VA = "0x18310AB40", Slot = "19")]
+			[Address(RVA = "0x6AF6900", Offset = "0x6AF5900", VA = "0x6AF6900", Slot = "19")]
 			get
 			{
 				return null;
@@ -3740,7 +3740,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001CFA")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6930", Offset = "0x6AF5930", VA = "0x6AF6930", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3748,20 +3748,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001CFB")]
-		[Address(RVA = "0x310AA00", Offset = "0x3109000", VA = "0x18310AA00", Slot = "14")]
+		[Address(RVA = "0x6AF6940", Offset = "0x6AF5940", VA = "0x6AF6940", Slot = "14")]
 		public override MaterialDefinition GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(MaterialDefinition);
 		}
 
 		[Token(Token = "0x6001CFC")]
-		[Address(RVA = "0x310AAD0", Offset = "0x31090D0", VA = "0x18310AAD0", Slot = "15")]
+		[Address(RVA = "0x6AF69E0", Offset = "0x6AF59E0", VA = "0x6AF69E0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, MaterialDefinition value)
 		{
 		}
 
 		[Token(Token = "0x6001CFD")]
-		[Address(RVA = "0x30F27D0", Offset = "0x30F0DD0", VA = "0x1830F27D0")]
+		[Address(RVA = "0x6AF05E0", Offset = "0x6AEF5E0", VA = "0x6AF05E0")]
 		public UnityMaterialProperty()
 		{
 		}
@@ -3774,7 +3774,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001CFE")]
-			[Address(RVA = "0x310AC00", Offset = "0x3109200", VA = "0x18310AC00", Slot = "12")]
+			[Address(RVA = "0x6AF6A60", Offset = "0x6AF5A60", VA = "0x6AF6A60", Slot = "12")]
 			get
 			{
 				return null;
@@ -3785,7 +3785,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001CFF")]
-			[Address(RVA = "0x310AC30", Offset = "0x3109230", VA = "0x18310AC30", Slot = "19")]
+			[Address(RVA = "0x6AF6A90", Offset = "0x6AF5A90", VA = "0x6AF6A90", Slot = "19")]
 			get
 			{
 				return null;
@@ -3796,7 +3796,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D00")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6AC0", Offset = "0x6AF5AC0", VA = "0x6AF6AC0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3804,20 +3804,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D01")]
-		[Address(RVA = "0x310AB70", Offset = "0x3109170", VA = "0x18310AB70", Slot = "14")]
+		[Address(RVA = "0x6AF6AD0", Offset = "0x6AF5AD0", VA = "0x6AF6AD0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001D02")]
-		[Address(RVA = "0x310ABC0", Offset = "0x31091C0", VA = "0x18310ABC0", Slot = "15")]
+		[Address(RVA = "0x6AF6B70", Offset = "0x6AF5B70", VA = "0x6AF6B70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001D03")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF0620", Offset = "0x6AEF620", VA = "0x6AF0620")]
 		public UnityParagraphSpacingProperty()
 		{
 		}
@@ -3830,7 +3830,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D04")]
-			[Address(RVA = "0x310ACF0", Offset = "0x31092F0", VA = "0x18310ACF0", Slot = "12")]
+			[Address(RVA = "0x6AF6BB0", Offset = "0x6AF5BB0", VA = "0x6AF6BB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -3841,7 +3841,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D05")]
-			[Address(RVA = "0x310AD20", Offset = "0x3109320", VA = "0x18310AD20", Slot = "19")]
+			[Address(RVA = "0x6AF6BE0", Offset = "0x6AF5BE0", VA = "0x6AF6BE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3852,7 +3852,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D06")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6C10", Offset = "0x6AF5C10", VA = "0x6AF6C10", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3860,20 +3860,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D07")]
-		[Address(RVA = "0x310AC60", Offset = "0x3109260", VA = "0x18310AC60", Slot = "14")]
+		[Address(RVA = "0x6AF6C20", Offset = "0x6AF5C20", VA = "0x6AF6C20", Slot = "14")]
 		public override int GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001D08")]
-		[Address(RVA = "0x310ACB0", Offset = "0x31092B0", VA = "0x18310ACB0", Slot = "15")]
+		[Address(RVA = "0x6AF6CC0", Offset = "0x6AF5CC0", VA = "0x6AF6CC0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, int value)
 		{
 		}
 
 		[Token(Token = "0x6001D09")]
-		[Address(RVA = "0x30F2790", Offset = "0x30F0D90", VA = "0x1830F2790")]
+		[Address(RVA = "0x6AF0660", Offset = "0x6AEF660", VA = "0x6AF0660")]
 		public UnitySliceBottomProperty()
 		{
 		}
@@ -3886,7 +3886,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D0A")]
-			[Address(RVA = "0x310ADE0", Offset = "0x31093E0", VA = "0x18310ADE0", Slot = "12")]
+			[Address(RVA = "0x6AF6D40", Offset = "0x6AF5D40", VA = "0x6AF6D40", Slot = "12")]
 			get
 			{
 				return null;
@@ -3897,7 +3897,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D0B")]
-			[Address(RVA = "0x310AE10", Offset = "0x3109410", VA = "0x18310AE10", Slot = "19")]
+			[Address(RVA = "0x6AF6D70", Offset = "0x6AF5D70", VA = "0x6AF6D70", Slot = "19")]
 			get
 			{
 				return null;
@@ -3908,7 +3908,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D0C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6DA0", Offset = "0x6AF5DA0", VA = "0x6AF6DA0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3916,20 +3916,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D0D")]
-		[Address(RVA = "0x310AD50", Offset = "0x3109350", VA = "0x18310AD50", Slot = "14")]
+		[Address(RVA = "0x6AF6DB0", Offset = "0x6AF5DB0", VA = "0x6AF6DB0", Slot = "14")]
 		public override int GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001D0E")]
-		[Address(RVA = "0x310ADA0", Offset = "0x31093A0", VA = "0x18310ADA0", Slot = "15")]
+		[Address(RVA = "0x6AF6E50", Offset = "0x6AF5E50", VA = "0x6AF6E50", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, int value)
 		{
 		}
 
 		[Token(Token = "0x6001D0F")]
-		[Address(RVA = "0x30F2790", Offset = "0x30F0D90", VA = "0x1830F2790")]
+		[Address(RVA = "0x6AF06A0", Offset = "0x6AEF6A0", VA = "0x6AF06A0")]
 		public UnitySliceLeftProperty()
 		{
 		}
@@ -3942,7 +3942,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D10")]
-			[Address(RVA = "0x310AED0", Offset = "0x31094D0", VA = "0x18310AED0", Slot = "12")]
+			[Address(RVA = "0x6AF6E90", Offset = "0x6AF5E90", VA = "0x6AF6E90", Slot = "12")]
 			get
 			{
 				return null;
@@ -3953,7 +3953,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D11")]
-			[Address(RVA = "0x310AF00", Offset = "0x3109500", VA = "0x18310AF00", Slot = "19")]
+			[Address(RVA = "0x6AF6EC0", Offset = "0x6AF5EC0", VA = "0x6AF6EC0", Slot = "19")]
 			get
 			{
 				return null;
@@ -3964,7 +3964,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D12")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF6EF0", Offset = "0x6AF5EF0", VA = "0x6AF6EF0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -3972,20 +3972,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D13")]
-		[Address(RVA = "0x310AE40", Offset = "0x3109440", VA = "0x18310AE40", Slot = "14")]
+		[Address(RVA = "0x6AF6F00", Offset = "0x6AF5F00", VA = "0x6AF6F00", Slot = "14")]
 		public override int GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001D14")]
-		[Address(RVA = "0x310AE90", Offset = "0x3109490", VA = "0x18310AE90", Slot = "15")]
+		[Address(RVA = "0x6AF6FA0", Offset = "0x6AF5FA0", VA = "0x6AF6FA0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, int value)
 		{
 		}
 
 		[Token(Token = "0x6001D15")]
-		[Address(RVA = "0x30F2790", Offset = "0x30F0D90", VA = "0x1830F2790")]
+		[Address(RVA = "0x6AF06E0", Offset = "0x6AEF6E0", VA = "0x6AF06E0")]
 		public UnitySliceRightProperty()
 		{
 		}
@@ -3998,7 +3998,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D16")]
-			[Address(RVA = "0x310AFC0", Offset = "0x31095C0", VA = "0x18310AFC0", Slot = "12")]
+			[Address(RVA = "0x6AF6FE0", Offset = "0x6AF5FE0", VA = "0x6AF6FE0", Slot = "12")]
 			get
 			{
 				return null;
@@ -4009,7 +4009,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D17")]
-			[Address(RVA = "0x310AFF0", Offset = "0x31095F0", VA = "0x18310AFF0", Slot = "19")]
+			[Address(RVA = "0x6AF7010", Offset = "0x6AF6010", VA = "0x6AF7010", Slot = "19")]
 			get
 			{
 				return null;
@@ -4020,7 +4020,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D18")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7040", Offset = "0x6AF6040", VA = "0x6AF7040", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4028,20 +4028,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D19")]
-		[Address(RVA = "0x310AF30", Offset = "0x3109530", VA = "0x18310AF30", Slot = "14")]
+		[Address(RVA = "0x6AF7050", Offset = "0x6AF6050", VA = "0x6AF7050", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001D1A")]
-		[Address(RVA = "0x310AF80", Offset = "0x3109580", VA = "0x18310AF80", Slot = "15")]
+		[Address(RVA = "0x6AF70F0", Offset = "0x6AF60F0", VA = "0x6AF70F0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001D1B")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF0720", Offset = "0x6AEF720", VA = "0x6AF0720")]
 		public UnitySliceScaleProperty()
 		{
 		}
@@ -4054,7 +4054,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D1C")]
-			[Address(RVA = "0x310B0B0", Offset = "0x31096B0", VA = "0x18310B0B0", Slot = "12")]
+			[Address(RVA = "0x6AF7130", Offset = "0x6AF6130", VA = "0x6AF7130", Slot = "12")]
 			get
 			{
 				return null;
@@ -4065,7 +4065,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D1D")]
-			[Address(RVA = "0x310B0E0", Offset = "0x31096E0", VA = "0x18310B0E0", Slot = "19")]
+			[Address(RVA = "0x6AF7160", Offset = "0x6AF6160", VA = "0x6AF7160", Slot = "19")]
 			get
 			{
 				return null;
@@ -4076,7 +4076,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D1E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7190", Offset = "0x6AF6190", VA = "0x6AF7190", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4084,20 +4084,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D1F")]
-		[Address(RVA = "0x310B020", Offset = "0x3109620", VA = "0x18310B020", Slot = "14")]
+		[Address(RVA = "0x6AF71A0", Offset = "0x6AF61A0", VA = "0x6AF71A0", Slot = "14")]
 		public override int GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001D20")]
-		[Address(RVA = "0x310B070", Offset = "0x3109670", VA = "0x18310B070", Slot = "15")]
+		[Address(RVA = "0x6AF7240", Offset = "0x6AF6240", VA = "0x6AF7240", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, int value)
 		{
 		}
 
 		[Token(Token = "0x6001D21")]
-		[Address(RVA = "0x30F2790", Offset = "0x30F0D90", VA = "0x1830F2790")]
+		[Address(RVA = "0x6AF0760", Offset = "0x6AEF760", VA = "0x6AF0760")]
 		public UnitySliceTopProperty()
 		{
 		}
@@ -4110,7 +4110,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D22")]
-			[Address(RVA = "0x310B1E0", Offset = "0x31097E0", VA = "0x18310B1E0", Slot = "12")]
+			[Address(RVA = "0x6AF7280", Offset = "0x6AF6280", VA = "0x6AF7280", Slot = "12")]
 			get
 			{
 				return null;
@@ -4121,7 +4121,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D23")]
-			[Address(RVA = "0x310B210", Offset = "0x3109810", VA = "0x18310B210", Slot = "19")]
+			[Address(RVA = "0x6AF72B0", Offset = "0x6AF62B0", VA = "0x6AF72B0", Slot = "19")]
 			get
 			{
 				return null;
@@ -4132,7 +4132,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D24")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF72E0", Offset = "0x6AF62E0", VA = "0x6AF72E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4140,20 +4140,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D25")]
-		[Address(RVA = "0x310B110", Offset = "0x3109710", VA = "0x18310B110", Slot = "14")]
+		[Address(RVA = "0x6AF72F0", Offset = "0x6AF62F0", VA = "0x6AF72F0", Slot = "14")]
 		public override SliceType GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(SliceType);
 		}
 
 		[Token(Token = "0x6001D26")]
-		[Address(RVA = "0x310B160", Offset = "0x3109760", VA = "0x18310B160", Slot = "15")]
+		[Address(RVA = "0x6AF7390", Offset = "0x6AF6390", VA = "0x6AF7390", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, SliceType value)
 		{
 		}
 
 		[Token(Token = "0x6001D27")]
-		[Address(RVA = "0x310B1A0", Offset = "0x31097A0", VA = "0x18310B1A0")]
+		[Address(RVA = "0x6AF07A0", Offset = "0x6AEF7A0", VA = "0x6AF07A0")]
 		public UnitySliceTypeProperty()
 		{
 		}
@@ -4166,7 +4166,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D28")]
-			[Address(RVA = "0x310B310", Offset = "0x3109910", VA = "0x18310B310", Slot = "12")]
+			[Address(RVA = "0x6AF73D0", Offset = "0x6AF63D0", VA = "0x6AF73D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -4177,7 +4177,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D29")]
-			[Address(RVA = "0x310B340", Offset = "0x3109940", VA = "0x18310B340", Slot = "19")]
+			[Address(RVA = "0x6AF7400", Offset = "0x6AF6400", VA = "0x6AF7400", Slot = "19")]
 			get
 			{
 				return null;
@@ -4188,7 +4188,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D2A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7430", Offset = "0x6AF6430", VA = "0x6AF7430", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4196,20 +4196,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D2B")]
-		[Address(RVA = "0x310B240", Offset = "0x3109840", VA = "0x18310B240", Slot = "14")]
+		[Address(RVA = "0x6AF7440", Offset = "0x6AF6440", VA = "0x6AF7440", Slot = "14")]
 		public override TextAnchor GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(TextAnchor);
 		}
 
 		[Token(Token = "0x6001D2C")]
-		[Address(RVA = "0x310B290", Offset = "0x3109890", VA = "0x18310B290", Slot = "15")]
+		[Address(RVA = "0x6AF74E0", Offset = "0x6AF64E0", VA = "0x6AF74E0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, TextAnchor value)
 		{
 		}
 
 		[Token(Token = "0x6001D2D")]
-		[Address(RVA = "0x310B2D0", Offset = "0x31098D0", VA = "0x18310B2D0")]
+		[Address(RVA = "0x6AF07E0", Offset = "0x6AEF7E0", VA = "0x6AF07E0")]
 		public UnityTextAlignProperty()
 		{
 		}
@@ -4222,7 +4222,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D2E")]
-			[Address(RVA = "0x310B440", Offset = "0x3109A40", VA = "0x18310B440", Slot = "12")]
+			[Address(RVA = "0x6AF7520", Offset = "0x6AF6520", VA = "0x6AF7520", Slot = "12")]
 			get
 			{
 				return null;
@@ -4233,7 +4233,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D2F")]
-			[Address(RVA = "0x310B470", Offset = "0x3109A70", VA = "0x18310B470", Slot = "19")]
+			[Address(RVA = "0x6AF7550", Offset = "0x6AF6550", VA = "0x6AF7550", Slot = "19")]
 			get
 			{
 				return null;
@@ -4244,7 +4244,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D30")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7580", Offset = "0x6AF6580", VA = "0x6AF7580", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4252,20 +4252,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D31")]
-		[Address(RVA = "0x310B370", Offset = "0x3109970", VA = "0x18310B370", Slot = "14")]
+		[Address(RVA = "0x6AF7590", Offset = "0x6AF6590", VA = "0x6AF7590", Slot = "14")]
 		public override TextGeneratorType GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(TextGeneratorType);
 		}
 
 		[Token(Token = "0x6001D32")]
-		[Address(RVA = "0x310B3C0", Offset = "0x31099C0", VA = "0x18310B3C0", Slot = "15")]
+		[Address(RVA = "0x6AF7630", Offset = "0x6AF6630", VA = "0x6AF7630", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, TextGeneratorType value)
 		{
 		}
 
 		[Token(Token = "0x6001D33")]
-		[Address(RVA = "0x310B400", Offset = "0x3109A00", VA = "0x18310B400")]
+		[Address(RVA = "0x6AF0820", Offset = "0x6AEF820", VA = "0x6AF0820")]
 		public UnityTextGeneratorProperty()
 		{
 		}
@@ -4278,7 +4278,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D34")]
-			[Address(RVA = "0x310B5B0", Offset = "0x3109BB0", VA = "0x18310B5B0", Slot = "12")]
+			[Address(RVA = "0x6AF7670", Offset = "0x6AF6670", VA = "0x6AF7670", Slot = "12")]
 			get
 			{
 				return null;
@@ -4289,7 +4289,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D35")]
-			[Address(RVA = "0x310B5E0", Offset = "0x3109BE0", VA = "0x18310B5E0", Slot = "19")]
+			[Address(RVA = "0x6AF76A0", Offset = "0x6AF66A0", VA = "0x6AF76A0", Slot = "19")]
 			get
 			{
 				return null;
@@ -4300,7 +4300,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D36")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF76D0", Offset = "0x6AF66D0", VA = "0x6AF76D0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4308,20 +4308,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D37")]
-		[Address(RVA = "0x310B4A0", Offset = "0x3109AA0", VA = "0x18310B4A0", Slot = "14")]
+		[Address(RVA = "0x6AF76E0", Offset = "0x6AF66E0", VA = "0x6AF76E0", Slot = "14")]
 		public override Color GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x6001D38")]
-		[Address(RVA = "0x310B570", Offset = "0x3109B70", VA = "0x18310B570", Slot = "15")]
+		[Address(RVA = "0x6AF7780", Offset = "0x6AF6780", VA = "0x6AF7780", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Color value)
 		{
 		}
 
 		[Token(Token = "0x6001D39")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AF0860", Offset = "0x6AEF860", VA = "0x6AF0860")]
 		public UnityTextOutlineColorProperty()
 		{
 		}
@@ -4334,7 +4334,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D3A")]
-			[Address(RVA = "0x310B6A0", Offset = "0x3109CA0", VA = "0x18310B6A0", Slot = "12")]
+			[Address(RVA = "0x6AF77C0", Offset = "0x6AF67C0", VA = "0x6AF77C0", Slot = "12")]
 			get
 			{
 				return null;
@@ -4345,7 +4345,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D3B")]
-			[Address(RVA = "0x310B6D0", Offset = "0x3109CD0", VA = "0x18310B6D0", Slot = "19")]
+			[Address(RVA = "0x6AF77F0", Offset = "0x6AF67F0", VA = "0x6AF77F0", Slot = "19")]
 			get
 			{
 				return null;
@@ -4356,7 +4356,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D3C")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7820", Offset = "0x6AF6820", VA = "0x6AF7820", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4364,20 +4364,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D3D")]
-		[Address(RVA = "0x310B610", Offset = "0x3109C10", VA = "0x18310B610", Slot = "14")]
+		[Address(RVA = "0x6AF7830", Offset = "0x6AF6830", VA = "0x6AF7830", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001D3E")]
-		[Address(RVA = "0x310B660", Offset = "0x3109C60", VA = "0x18310B660", Slot = "15")]
+		[Address(RVA = "0x6AF78D0", Offset = "0x6AF68D0", VA = "0x6AF78D0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001D3F")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF08A0", Offset = "0x6AEF8A0", VA = "0x6AF08A0")]
 		public UnityTextOutlineWidthProperty()
 		{
 		}
@@ -4390,7 +4390,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D40")]
-			[Address(RVA = "0x310B7D0", Offset = "0x3109DD0", VA = "0x18310B7D0", Slot = "12")]
+			[Address(RVA = "0x6AF7910", Offset = "0x6AF6910", VA = "0x6AF7910", Slot = "12")]
 			get
 			{
 				return null;
@@ -4401,7 +4401,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D41")]
-			[Address(RVA = "0x310B800", Offset = "0x3109E00", VA = "0x18310B800", Slot = "19")]
+			[Address(RVA = "0x6AF7940", Offset = "0x6AF6940", VA = "0x6AF7940", Slot = "19")]
 			get
 			{
 				return null;
@@ -4412,7 +4412,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D42")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7970", Offset = "0x6AF6970", VA = "0x6AF7970", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4420,20 +4420,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D43")]
-		[Address(RVA = "0x310B700", Offset = "0x3109D00", VA = "0x18310B700", Slot = "14")]
+		[Address(RVA = "0x6AF7980", Offset = "0x6AF6980", VA = "0x6AF7980", Slot = "14")]
 		public override TextOverflowPosition GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(TextOverflowPosition);
 		}
 
 		[Token(Token = "0x6001D44")]
-		[Address(RVA = "0x310B750", Offset = "0x3109D50", VA = "0x18310B750", Slot = "15")]
+		[Address(RVA = "0x6AF7A20", Offset = "0x6AF6A20", VA = "0x6AF7A20", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, TextOverflowPosition value)
 		{
 		}
 
 		[Token(Token = "0x6001D45")]
-		[Address(RVA = "0x310B790", Offset = "0x3109D90", VA = "0x18310B790")]
+		[Address(RVA = "0x6AF08E0", Offset = "0x6AEF8E0", VA = "0x6AF08E0")]
 		public UnityTextOverflowPositionProperty()
 		{
 		}
@@ -4446,7 +4446,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D46")]
-			[Address(RVA = "0x310C530", Offset = "0x310AB30", VA = "0x18310C530", Slot = "12")]
+			[Address(RVA = "0x6AF7A60", Offset = "0x6AF6A60", VA = "0x6AF7A60", Slot = "12")]
 			get
 			{
 				return null;
@@ -4457,7 +4457,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D47")]
-			[Address(RVA = "0x310C560", Offset = "0x310AB60", VA = "0x18310C560", Slot = "19")]
+			[Address(RVA = "0x6AF7A90", Offset = "0x6AF6A90", VA = "0x6AF7A90", Slot = "19")]
 			get
 			{
 				return null;
@@ -4468,7 +4468,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D48")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7AC0", Offset = "0x6AF6AC0", VA = "0x6AF7AC0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4476,20 +4476,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D49")]
-		[Address(RVA = "0x310C460", Offset = "0x310AA60", VA = "0x18310C460", Slot = "14")]
+		[Address(RVA = "0x6AF7AD0", Offset = "0x6AF6AD0", VA = "0x6AF7AD0", Slot = "14")]
 		public override Visibility GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(Visibility);
 		}
 
 		[Token(Token = "0x6001D4A")]
-		[Address(RVA = "0x310C4B0", Offset = "0x310AAB0", VA = "0x18310C4B0", Slot = "15")]
+		[Address(RVA = "0x6AF7B70", Offset = "0x6AF6B70", VA = "0x6AF7B70", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, Visibility value)
 		{
 		}
 
 		[Token(Token = "0x6001D4B")]
-		[Address(RVA = "0x310C4F0", Offset = "0x310AAF0", VA = "0x18310C4F0")]
+		[Address(RVA = "0x6AF0920", Offset = "0x6AEF920", VA = "0x6AF0920")]
 		public VisibilityProperty()
 		{
 		}
@@ -4502,7 +4502,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D4C")]
-			[Address(RVA = "0x310DA30", Offset = "0x310C030", VA = "0x18310DA30", Slot = "12")]
+			[Address(RVA = "0x6AF7BB0", Offset = "0x6AF6BB0", VA = "0x6AF7BB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -4513,7 +4513,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D4D")]
-			[Address(RVA = "0x310DA60", Offset = "0x310C060", VA = "0x18310DA60", Slot = "19")]
+			[Address(RVA = "0x6AF7BE0", Offset = "0x6AF6BE0", VA = "0x6AF7BE0", Slot = "19")]
 			get
 			{
 				return null;
@@ -4524,7 +4524,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D4E")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7C10", Offset = "0x6AF6C10", VA = "0x6AF7C10", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4532,20 +4532,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D4F")]
-		[Address(RVA = "0x310D960", Offset = "0x310BF60", VA = "0x18310D960", Slot = "14")]
+		[Address(RVA = "0x6AF7C20", Offset = "0x6AF6C20", VA = "0x6AF7C20", Slot = "14")]
 		public override WhiteSpace GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(WhiteSpace);
 		}
 
 		[Token(Token = "0x6001D50")]
-		[Address(RVA = "0x310D9B0", Offset = "0x310BFB0", VA = "0x18310D9B0", Slot = "15")]
+		[Address(RVA = "0x6AF7CC0", Offset = "0x6AF6CC0", VA = "0x6AF7CC0", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, WhiteSpace value)
 		{
 		}
 
 		[Token(Token = "0x6001D51")]
-		[Address(RVA = "0x310D9F0", Offset = "0x310BFF0", VA = "0x18310D9F0")]
+		[Address(RVA = "0x6AF0960", Offset = "0x6AEF960", VA = "0x6AF0960")]
 		public WhiteSpaceProperty()
 		{
 		}
@@ -4558,7 +4558,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D52")]
-			[Address(RVA = "0x310DB20", Offset = "0x310C120", VA = "0x18310DB20", Slot = "12")]
+			[Address(RVA = "0x6AF7D00", Offset = "0x6AF6D00", VA = "0x6AF7D00", Slot = "12")]
 			get
 			{
 				return null;
@@ -4569,7 +4569,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D53")]
-			[Address(RVA = "0x310DB50", Offset = "0x310C150", VA = "0x18310DB50", Slot = "19")]
+			[Address(RVA = "0x6AF7D30", Offset = "0x6AF6D30", VA = "0x6AF7D30", Slot = "19")]
 			get
 			{
 				return null;
@@ -4580,7 +4580,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D54")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7D60", Offset = "0x6AF6D60", VA = "0x6AF7D60", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4588,20 +4588,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D55")]
-		[Address(RVA = "0x310DA90", Offset = "0x310C090", VA = "0x18310DA90", Slot = "14")]
+		[Address(RVA = "0x6AF7D70", Offset = "0x6AF6D70", VA = "0x6AF7D70", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001D56")]
-		[Address(RVA = "0x310DAE0", Offset = "0x310C0E0", VA = "0x18310DAE0", Slot = "15")]
+		[Address(RVA = "0x6AF7E10", Offset = "0x6AF6E10", VA = "0x6AF7E10", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001D57")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF09A0", Offset = "0x6AEF9A0", VA = "0x6AF09A0")]
 		public WidthProperty()
 		{
 		}
@@ -4614,7 +4614,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string Name
 		{
 			[Token(Token = "0x6001D58")]
-			[Address(RVA = "0x310DC10", Offset = "0x310C210", VA = "0x18310DC10", Slot = "12")]
+			[Address(RVA = "0x6AF7E50", Offset = "0x6AF6E50", VA = "0x6AF7E50", Slot = "12")]
 			get
 			{
 				return null;
@@ -4625,7 +4625,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override string ussName
 		{
 			[Token(Token = "0x6001D59")]
-			[Address(RVA = "0x310DC40", Offset = "0x310C240", VA = "0x18310DC40", Slot = "19")]
+			[Address(RVA = "0x6AF7E80", Offset = "0x6AF6E80", VA = "0x6AF7E80", Slot = "19")]
 			get
 			{
 				return null;
@@ -4636,7 +4636,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6001D5A")]
-			[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+			[Address(RVA = "0x6AF7EB0", Offset = "0x6AF6EB0", VA = "0x6AF7EB0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -4644,20 +4644,20 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 		}
 
 		[Token(Token = "0x6001D5B")]
-		[Address(RVA = "0x310DB80", Offset = "0x310C180", VA = "0x18310DB80", Slot = "14")]
+		[Address(RVA = "0x6AF7EC0", Offset = "0x6AF6EC0", VA = "0x6AF7EC0", Slot = "14")]
 		public override float GetValue(ref ResolvedStyleAccess container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6001D5C")]
-		[Address(RVA = "0x310DBD0", Offset = "0x310C1D0", VA = "0x18310DBD0", Slot = "15")]
+		[Address(RVA = "0x6AF7F60", Offset = "0x6AF6F60", VA = "0x6AF7F60", Slot = "15")]
 		public override void SetValue(ref ResolvedStyleAccess container, float value)
 		{
 		}
 
 		[Token(Token = "0x6001D5D")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF09E0", Offset = "0x6AEF9E0", VA = "0x6AF09E0")]
 		public WordSpacingProperty()
 		{
 		}
@@ -4703,7 +4703,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedColorProperty : ResolvedStyleProperty<Color>
 	{
 		[Token(Token = "0x6001D62")]
-		[Address(RVA = "0x30E95B0", Offset = "0x30E7BB0", VA = "0x1830E95B0")]
+		[Address(RVA = "0x6AF1530", Offset = "0x6AF0530", VA = "0x6AF1530")]
 		protected ResolvedColorProperty()
 		{
 		}
@@ -4713,7 +4713,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedBackgroundProperty : ResolvedStyleProperty<Background>
 	{
 		[Token(Token = "0x6001D63")]
-		[Address(RVA = "0x30E9770", Offset = "0x30E7D70", VA = "0x1830E9770")]
+		[Address(RVA = "0x6AF16F0", Offset = "0x6AF06F0", VA = "0x6AF16F0")]
 		protected ResolvedBackgroundProperty()
 		{
 		}
@@ -4723,7 +4723,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedFloatProperty : ResolvedStyleProperty<float>
 	{
 		[Token(Token = "0x6001D64")]
-		[Address(RVA = "0x30EAA90", Offset = "0x30E9090", VA = "0x1830EAA90")]
+		[Address(RVA = "0x6AF2000", Offset = "0x6AF1000", VA = "0x6AF2000")]
 		protected ResolvedFloatProperty()
 		{
 		}
@@ -4733,7 +4733,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedStyleFloatProperty : ResolvedStyleProperty<StyleFloat>
 	{
 		[Token(Token = "0x6001D65")]
-		[Address(RVA = "0x30EC480", Offset = "0x30EAA80", VA = "0x1830EC480")]
+		[Address(RVA = "0x6AF33F0", Offset = "0x6AF23F0", VA = "0x6AF33F0")]
 		protected ResolvedStyleFloatProperty()
 		{
 		}
@@ -4752,7 +4752,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedFontProperty : ResolvedStyleProperty<Font>
 	{
 		[Token(Token = "0x6001D67")]
-		[Address(RVA = "0x30F2750", Offset = "0x30F0D50", VA = "0x1830F2750")]
+		[Address(RVA = "0x6AF65B0", Offset = "0x6AF55B0", VA = "0x6AF65B0")]
 		protected ResolvedFontProperty()
 		{
 		}
@@ -4762,7 +4762,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedFontDefinitionProperty : ResolvedStyleProperty<FontDefinition>
 	{
 		[Token(Token = "0x6001D68")]
-		[Address(RVA = "0x30F2710", Offset = "0x30F0D10", VA = "0x1830F2710")]
+		[Address(RVA = "0x6AF6740", Offset = "0x6AF5740", VA = "0x6AF6740")]
 		protected ResolvedFontDefinitionProperty()
 		{
 		}
@@ -4772,7 +4772,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedIntProperty : ResolvedStyleProperty<int>
 	{
 		[Token(Token = "0x6001D69")]
-		[Address(RVA = "0x30F2790", Offset = "0x30F0D90", VA = "0x1830F2790")]
+		[Address(RVA = "0x6AF6D00", Offset = "0x6AF5D00", VA = "0x6AF6D00")]
 		protected ResolvedIntProperty()
 		{
 		}
@@ -4782,7 +4782,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedRotateProperty : ResolvedStyleProperty<Rotate>
 	{
 		[Token(Token = "0x6001D6A")]
-		[Address(RVA = "0x30F2810", Offset = "0x30F0E10", VA = "0x1830F2810")]
+		[Address(RVA = "0x6AF5530", Offset = "0x6AF4530", VA = "0x6AF5530")]
 		protected ResolvedRotateProperty()
 		{
 		}
@@ -4792,7 +4792,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedScaleProperty : ResolvedStyleProperty<Scale>
 	{
 		[Token(Token = "0x6001D6B")]
-		[Address(RVA = "0x30F2850", Offset = "0x30F0E50", VA = "0x1830F2850")]
+		[Address(RVA = "0x6AF56C0", Offset = "0x6AF46C0", VA = "0x6AF56C0")]
 		protected ResolvedScaleProperty()
 		{
 		}
@@ -4802,7 +4802,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedVector3Property : ResolvedStyleProperty<Vector3>
 	{
 		[Token(Token = "0x6001D6C")]
-		[Address(RVA = "0x30F5D80", Offset = "0x30F4380", VA = "0x1830F5D80")]
+		[Address(RVA = "0x6AF5AF0", Offset = "0x6AF4AF0", VA = "0x6AF5AF0")]
 		protected ResolvedVector3Property()
 		{
 		}
@@ -4812,7 +4812,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedBackgroundPositionProperty : ResolvedStyleProperty<BackgroundPosition>
 	{
 		[Token(Token = "0x6001D6D")]
-		[Address(RVA = "0x30E9930", Offset = "0x30E7F30", VA = "0x1830E9930")]
+		[Address(RVA = "0x6AF1880", Offset = "0x6AF0880", VA = "0x6AF1880")]
 		protected ResolvedBackgroundPositionProperty()
 		{
 		}
@@ -4822,7 +4822,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedBackgroundRepeatProperty : ResolvedStyleProperty<BackgroundRepeat>
 	{
 		[Token(Token = "0x6001D6E")]
-		[Address(RVA = "0x30E9C50", Offset = "0x30E8250", VA = "0x1830E9C50")]
+		[Address(RVA = "0x6AF1B60", Offset = "0x6AF0B60", VA = "0x6AF1B60")]
 		protected ResolvedBackgroundRepeatProperty()
 		{
 		}
@@ -4832,7 +4832,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedBackgroundSizeProperty : ResolvedStyleProperty<BackgroundSize>
 	{
 		[Token(Token = "0x6001D6F")]
-		[Address(RVA = "0x30E9E10", Offset = "0x30E8410", VA = "0x1830E9E10")]
+		[Address(RVA = "0x6AF1D20", Offset = "0x6AF0D20", VA = "0x6AF1D20")]
 		protected ResolvedBackgroundSizeProperty()
 		{
 		}
@@ -4842,7 +4842,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedMaterialDefinitionProperty : ResolvedStyleProperty<MaterialDefinition>
 	{
 		[Token(Token = "0x6001D70")]
-		[Address(RVA = "0x30F27D0", Offset = "0x30F0DD0", VA = "0x1830F27D0")]
+		[Address(RVA = "0x6AF6A20", Offset = "0x6AF5A20", VA = "0x6AF6A20")]
 		protected ResolvedMaterialDefinitionProperty()
 		{
 		}
@@ -4852,7 +4852,7 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private abstract class ResolvedRatioProperty : ResolvedStyleProperty<Ratio>
 	{
 		[Token(Token = "0x6001D71")]
-		[Address(RVA = "0x30E9400", Offset = "0x30E7A00", VA = "0x1830E9400")]
+		[Address(RVA = "0x6AF13A0", Offset = "0x6AF03A0", VA = "0x6AF13A0")]
 		protected ResolvedRatioProperty()
 		{
 		}
@@ -4867,33 +4867,33 @@ internal class ResolvedStyleAccessPropertyBag : PropertyBag<ResolvedStyleAccess>
 	private readonly Dictionary<string, IProperty<ResolvedStyleAccess>> m_PropertiesHash;
 
 	[Token(Token = "0x6001B67")]
-	[Address(RVA = "0x30F2CC0", Offset = "0x30F12C0", VA = "0x1830F2CC0")]
+	[Address(RVA = "0x6AEC8A0", Offset = "0x6AEB8A0", VA = "0x6AEC8A0")]
 	public ResolvedStyleAccessPropertyBag()
 	{
 	}
 
 	[Token(Token = "0x6001B68")]
-	[Address(RVA = "0x30F2890", Offset = "0x30F0E90", VA = "0x1830F2890")]
+	[Address(RVA = "0x6AF0A20", Offset = "0x6AEFA20", VA = "0x6AF0A20")]
 	private void AddPropertyRange(params IStyleProperty[] properties)
 	{
 	}
 
 	[Token(Token = "0x6001B69")]
-	[Address(RVA = "0x30F2BF0", Offset = "0x30F11F0", VA = "0x1830F2BF0", Slot = "12")]
+	[Address(RVA = "0x6AF0D50", Offset = "0x6AEFD50", VA = "0x6AF0D50", Slot = "12")]
 	public override PropertyCollection<ResolvedStyleAccess> GetProperties()
 	{
 		return default(PropertyCollection<ResolvedStyleAccess>);
 	}
 
 	[Token(Token = "0x6001B6A")]
-	[Address(RVA = "0x30F2B90", Offset = "0x30F1190", VA = "0x1830F2B90", Slot = "13")]
+	[Address(RVA = "0x6AF0DB0", Offset = "0x6AEFDB0", VA = "0x6AF0DB0", Slot = "13")]
 	public override PropertyCollection<ResolvedStyleAccess> GetProperties(ref ResolvedStyleAccess container)
 	{
 		return default(PropertyCollection<ResolvedStyleAccess>);
 	}
 
 	[Token(Token = "0x6001B6B")]
-	[Address(RVA = "0x30F2C50", Offset = "0x30F1250", VA = "0x1830F2C50", Slot = "16")]
+	[Address(RVA = "0x6AF0E10", Offset = "0x6AEFE10", VA = "0x6AF0E10", Slot = "16")]
 	public bool TryGetProperty(ref ResolvedStyleAccess container, string name, out IProperty<ResolvedStyleAccess> property)
 	{
 		return default(bool);

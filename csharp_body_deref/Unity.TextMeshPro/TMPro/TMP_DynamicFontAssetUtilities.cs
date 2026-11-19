@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_DynamicFontAssetUtilities
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ internal class TMP_DynamicFontAssetUtilities
 		public ulong hashCode;
 
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x2CDDA20", Offset = "0x2CDC020", VA = "0x182CDDA20")]
+		[Address(RVA = "0x66E5C20", Offset = "0x66E4C20", VA = "0x66E5C20")]
 		public FontReference(string fontFilePath, string faceNameAndStyle, int index)
 		{
 		}
@@ -60,34 +60,34 @@ internal class TMP_DynamicFontAssetUtilities
 	private uint s_RegularStyleNameHashCode;
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x2CE6BD0", Offset = "0x2CE51D0", VA = "0x182CE6BD0")]
+	[Address(RVA = "0x66E5580", Offset = "0x66E4580", VA = "0x66E5580")]
 	private void InitializeSystemFontReferenceCache()
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x2CE75A0", Offset = "0x2CE5BA0", VA = "0x182CE75A0")]
+	[Address(RVA = "0x66E5EE0", Offset = "0x66E4EE0", VA = "0x66E5EE0")]
 	public static bool TryGetSystemFontReference(string familyName, out FontReference fontRef)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x2CE7510", Offset = "0x2CE5B10", VA = "0x182CE7510")]
+	[Address(RVA = "0x66E6290", Offset = "0x66E5290", VA = "0x66E6290")]
 	public static bool TryGetSystemFontReference(string familyName, string styleName, out FontReference fontRef)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x2CE7220", Offset = "0x2CE5820", VA = "0x182CE7220")]
+	[Address(RVA = "0x66E5F70", Offset = "0x66E4F70", VA = "0x66E5F70")]
 	private bool TryGetSystemFontReferenceInternal(string familyName, string styleName, out FontReference fontRef)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x2CE76A0", Offset = "0x2CE5CA0", VA = "0x182CE76A0")]
+	[Address(RVA = "0x66E6330", Offset = "0x66E5330", VA = "0x66E6330")]
 	public TMP_DynamicFontAssetUtilities()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.VCProviderAnalytics
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,13 +26,13 @@ public class VCProviderAnalytics : AnalyticsEventBase
 	public string Mode;
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x33086E0", Offset = "0x3306CE0", VA = "0x1833086E0")]
+	[Address(RVA = "0x6D18D40", Offset = "0x6D17D40", VA = "0x6D18D40")]
 	public VCProviderAnalytics()
 	{
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x3308650", Offset = "0x3306C50", VA = "0x183308650")]
+	[Address(RVA = "0x6D18DA0", Offset = "0x6D17DA0", VA = "0x6D18DA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VCProviderAnalytics CreateVCProviderAnalytics()
 	{

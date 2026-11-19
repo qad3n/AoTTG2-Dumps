@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnPointerClickMessageListener : MessageListener, IPointerClickHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x2DBE7E0", Offset = "0x2DBCDE0", VA = "0x182DBE7E0", Slot = "4")]
+	[Address(RVA = "0x67A6370", Offset = "0x67A5370", VA = "0x67A6370", Slot = "4")]
 	public void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A6400", Offset = "0x67A5400", VA = "0x67A6400")]
 	public UnityOnPointerClickMessageListener()
 	{
 	}

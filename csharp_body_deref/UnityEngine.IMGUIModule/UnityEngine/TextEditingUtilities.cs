@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextEditingUtilities
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ internal class TextEditingUtilities
 		public readonly KeyCode key
 		{
 			[Token(Token = "0x60002DF")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+			[Address(RVA = "0x69ACCE0", Offset = "0x69ABCE0", VA = "0x69ACCE0")]
 			[CompilerGenerated]
 			get
 			{
@@ -38,7 +38,7 @@ internal class TextEditingUtilities
 		public readonly EventModifiers modifiers
 		{
 			[Token(Token = "0x60002E0")]
-			[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+			[Address(RVA = "0x69ACCF0", Offset = "0x69ABCF0", VA = "0x69ACCF0")]
 			[CompilerGenerated]
 			get
 			{
@@ -47,13 +47,13 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002DE")]
-		[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+		[Address(RVA = "0x69A6A70", Offset = "0x69A5A70", VA = "0x69A6A70")]
 		public KeyEvent(KeyCode key, EventModifiers modifiers)
 		{
 		}
 
 		[Token(Token = "0x60002E1")]
-		[Address(RVA = "0x2FA9B90", Offset = "0x2FA8190", VA = "0x182FA9B90", Slot = "3")]
+		[Address(RVA = "0x69ACD00", Offset = "0x69ABD00", VA = "0x69ACD00", Slot = "3")]
 		[CompilerGenerated]
 		public override readonly string ToString()
 		{
@@ -61,7 +61,7 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x2FA9A90", Offset = "0x2FA8090", VA = "0x182FA9A90")]
+		[Address(RVA = "0x69ACDD0", Offset = "0x69ABDD0", VA = "0x69ACDD0")]
 		[CompilerGenerated]
 		private readonly bool PrintMembers(StringBuilder builder)
 		{
@@ -69,7 +69,7 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002E3")]
-		[Address(RVA = "0x2FA9C70", Offset = "0x2FA8270", VA = "0x182FA9C70")]
+		[Address(RVA = "0x69A6A80", Offset = "0x69A5A80", VA = "0x69A6A80")]
 		[CompilerGenerated]
 		public static bool operator ==(KeyEvent left, KeyEvent right)
 		{
@@ -77,7 +77,7 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0x2FA99F0", Offset = "0x2FA7FF0", VA = "0x182FA99F0", Slot = "2")]
+		[Address(RVA = "0x69ACF80", Offset = "0x69ABF80", VA = "0x69ACF80", Slot = "2")]
 		[CompilerGenerated]
 		public override readonly int GetHashCode()
 		{
@@ -85,7 +85,7 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x2FA9890", Offset = "0x2FA7E90", VA = "0x182FA9890", Slot = "0")]
+		[Address(RVA = "0x69AD020", Offset = "0x69AC020", VA = "0x69AD020", Slot = "0")]
 		[CompilerGenerated]
 		public override readonly bool Equals(object obj)
 		{
@@ -93,7 +93,7 @@ internal class TextEditingUtilities
 		}
 
 		[Token(Token = "0x60002E6")]
-		[Address(RVA = "0x2FA9920", Offset = "0x2FA7F20", VA = "0x182FA9920", Slot = "4")]
+		[Address(RVA = "0x69ACED0", Offset = "0x69ABED0", VA = "0x69ACED0", Slot = "4")]
 		[CompilerGenerated]
 		public readonly bool Equals(KeyEvent other)
 		{
@@ -154,7 +154,7 @@ internal class TextEditingUtilities
 	private bool hasSelection
 	{
 		[Token(Token = "0x60002B5")]
-		[Address(RVA = "0x2FB0000", Offset = "0x2FAE600", VA = "0x182FB0000")]
+		[Address(RVA = "0x69A5550", Offset = "0x69A4550", VA = "0x69A5550")]
 		get
 		{
 			return default(bool);
@@ -165,7 +165,7 @@ internal class TextEditingUtilities
 	internal bool revealCursor
 	{
 		[Token(Token = "0x60002B6")]
-		[Address(RVA = "0x2FB0290", Offset = "0x2FAE890", VA = "0x182FB0290")]
+		[Address(RVA = "0x69A5670", Offset = "0x69A4670", VA = "0x69A5670")]
 		set
 		{
 		}
@@ -175,7 +175,7 @@ internal class TextEditingUtilities
 	internal int stringCursorIndex
 	{
 		[Token(Token = "0x60002B7")]
-		[Address(RVA = "0x2FB0130", Offset = "0x2FAE730", VA = "0x182FB0130")]
+		[Address(RVA = "0x69A56E0", Offset = "0x69A46E0", VA = "0x69A56E0")]
 		get
 		{
 			return default(int);
@@ -186,13 +186,13 @@ internal class TextEditingUtilities
 	private int cursorIndex
 	{
 		[Token(Token = "0x60002B8")]
-		[Address(RVA = "0x2FAFF90", Offset = "0x2FAE590", VA = "0x182FAFF90")]
+		[Address(RVA = "0x69A5750", Offset = "0x69A4750", VA = "0x69A5750")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002B9")]
-		[Address(RVA = "0x2FB0250", Offset = "0x2FAE850", VA = "0x182FB0250")]
+		[Address(RVA = "0x69A5800", Offset = "0x69A4800", VA = "0x69A5800")]
 		set
 		{
 		}
@@ -202,13 +202,13 @@ internal class TextEditingUtilities
 	private int cursorIndexNoValidation
 	{
 		[Token(Token = "0x60002BA")]
-		[Address(RVA = "0x2FAFF70", Offset = "0x2FAE570", VA = "0x182FAFF70")]
+		[Address(RVA = "0x69A5860", Offset = "0x69A4860", VA = "0x69A5860")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002BB")]
-		[Address(RVA = "0x2FB0250", Offset = "0x2FAE850", VA = "0x182FB0250")]
+		[Address(RVA = "0x69A5890", Offset = "0x69A4890", VA = "0x69A5890")]
 		set
 		{
 		}
@@ -218,7 +218,7 @@ internal class TextEditingUtilities
 	private int selectIndexNoValidation
 	{
 		[Token(Token = "0x60002BC")]
-		[Address(RVA = "0x2FB02D0", Offset = "0x2FAE8D0", VA = "0x182FB02D0")]
+		[Address(RVA = "0x69A58F0", Offset = "0x69A48F0", VA = "0x69A58F0")]
 		set
 		{
 		}
@@ -228,7 +228,7 @@ internal class TextEditingUtilities
 	internal int stringSelectIndex
 	{
 		[Token(Token = "0x60002BD")]
-		[Address(RVA = "0x2FB01C0", Offset = "0x2FAE7C0", VA = "0x182FB01C0")]
+		[Address(RVA = "0x69A5950", Offset = "0x69A4950", VA = "0x69A5950")]
 		get
 		{
 			return default(int);
@@ -239,13 +239,13 @@ internal class TextEditingUtilities
 	private int selectIndex
 	{
 		[Token(Token = "0x60002BE")]
-		[Address(RVA = "0x2FB00C0", Offset = "0x2FAE6C0", VA = "0x182FB00C0")]
+		[Address(RVA = "0x69A59C0", Offset = "0x69A49C0", VA = "0x69A59C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002BF")]
-		[Address(RVA = "0x2FB02D0", Offset = "0x2FAE8D0", VA = "0x182FB02D0")]
+		[Address(RVA = "0x69A5A70", Offset = "0x69A4A70", VA = "0x69A5A70")]
 		set
 		{
 		}
@@ -255,78 +255,78 @@ internal class TextEditingUtilities
 	public string text
 	{
 		[Token(Token = "0x60002C0")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x69A5AD0", Offset = "0x69A4AD0", VA = "0x69A5AD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002C1")]
-		[Address(RVA = "0x2FB0310", Offset = "0x2FAE910", VA = "0x182FB0310")]
+		[Address(RVA = "0x69A5AE0", Offset = "0x69A4AE0", VA = "0x69A5AE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60002C2")]
-	[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+	[Address(RVA = "0x69A5B50", Offset = "0x69A4B50", VA = "0x69A5B50")]
 	internal void SetTextWithoutNotify(string value)
 	{
 	}
 
 	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x2FAFF10", Offset = "0x2FAE510", VA = "0x182FAFF10")]
+	[Address(RVA = "0x69A5B60", Offset = "0x69A4B60", VA = "0x69A5B60")]
 	public TextEditingUtilities(TextSelectingUtilities selectingUtilities, UnityEngine.TextCore.Text.TextHandle textHandle, string text)
 	{
 	}
 
 	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x2FAE000", Offset = "0x2FAC600", VA = "0x182FAE000")]
+	[Address(RVA = "0x69A5BD0", Offset = "0x69A4BD0", VA = "0x69A5BD0")]
 	public bool UpdateImeState()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x2FADC60", Offset = "0x2FAC260", VA = "0x182FADC60")]
+	[Address(RVA = "0x69A5ED0", Offset = "0x69A4ED0", VA = "0x69A5ED0")]
 	public bool ShouldUpdateImeWindowPosition()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x2FADB30", Offset = "0x2FAC130", VA = "0x182FADB30")]
+	[Address(RVA = "0x69A5EE0", Offset = "0x69A4EE0", VA = "0x69A5EE0")]
 	public void SetImeWindowPosition(Vector2 worldPosition)
 	{
 	}
 
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x2FACD30", Offset = "0x2FAB330", VA = "0x182FACD30")]
+	[Address(RVA = "0x69A5FB0", Offset = "0x69A4FB0", VA = "0x69A5FB0")]
 	public string GeneratePreviewString(bool richText)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x2FACC60", Offset = "0x2FAB260", VA = "0x182FACC60")]
+	[Address(RVA = "0x69A6220", Offset = "0x69A5220", VA = "0x69A6220")]
 	public void EnableCursorPreviewState()
 	{
 	}
 
 	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x2FADAB0", Offset = "0x2FAC0B0", VA = "0x182FADAB0")]
+	[Address(RVA = "0x69A61B0", Offset = "0x69A51B0", VA = "0x69A61B0")]
 	public void RestoreCursorState()
 	{
 	}
 
 	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x2FACEC0", Offset = "0x2FAB4C0", VA = "0x182FACEC0")]
+	[Address(RVA = "0x69A62F0", Offset = "0x69A52F0", VA = "0x69A62F0")]
 	internal bool HandleKeyEvent(Event e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x2FACE00", Offset = "0x2FAB400", VA = "0x182FACE00")]
+	[Address(RVA = "0x69A6330", Offset = "0x69A5330", VA = "0x69A6330")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal bool HandleKeyEvent(KeyCode key, EventModifiers modifiers)
 	{
@@ -334,110 +334,110 @@ internal class TextEditingUtilities
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x2FADC70", Offset = "0x2FAC270", VA = "0x182FADC70")]
+	[Address(RVA = "0x69A63E0", Offset = "0x69A53E0", VA = "0x69A63E0")]
 	internal static TextEditOp? TextEditOpFromEnum(KeyCode key, EventModifiers modifiers, bool IsMacOsFamily)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x2FAD2B0", Offset = "0x2FAB8B0", VA = "0x182FAD2B0")]
+	[Address(RVA = "0x69A6720", Offset = "0x69A5720", VA = "0x69A6720")]
 	private void PerformOperation(TextEditOp operation)
 	{
 	}
 
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x2FAC270", Offset = "0x2FAA870", VA = "0x182FAC270")]
+	[Address(RVA = "0x69A99E0", Offset = "0x69A89E0", VA = "0x69A99E0")]
 	public bool DeleteLineBack()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x2FAC770", Offset = "0x2FAAD70", VA = "0x182FAC770")]
+	[Address(RVA = "0x69A9750", Offset = "0x69A8750", VA = "0x69A9750")]
 	public bool DeleteWordBack()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x2FAC8E0", Offset = "0x2FAAEE0", VA = "0x182FAC8E0")]
+	[Address(RVA = "0x69A9EA0", Offset = "0x69A8EA0", VA = "0x69A9EA0")]
 	public bool DeleteWordForward()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x2FACA10", Offset = "0x2FAB010", VA = "0x182FACA10")]
+	[Address(RVA = "0x69A8830", Offset = "0x69A7830", VA = "0x69A8830")]
 	public bool Delete()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x2FABD40", Offset = "0x2FAA340", VA = "0x182FABD40")]
+	[Address(RVA = "0x69A8DD0", Offset = "0x69A7DD0", VA = "0x69A8DD0")]
 	public bool Backspace()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x2FAC470", Offset = "0x2FAAA70", VA = "0x182FAC470")]
+	[Address(RVA = "0x69AA150", Offset = "0x69A9150", VA = "0x69AA150")]
 	public bool DeleteSelection()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x2FAD920", Offset = "0x2FABF20", VA = "0x182FAD920")]
+	[Address(RVA = "0x69A5C90", Offset = "0x69A4C90", VA = "0x69A5C90")]
 	public void ReplaceSelection(string replace)
 	{
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x2FACFC0", Offset = "0x2FAB5C0", VA = "0x182FACFC0")]
+	[Address(RVA = "0x69AAD10", Offset = "0x69A9D10", VA = "0x69AAD10")]
 	public bool Insert(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x2FAC1E0", Offset = "0x2FAA7E0", VA = "0x182FAC1E0")]
+	[Address(RVA = "0x69AAE50", Offset = "0x69A9E50", VA = "0x69AAE50")]
 	public bool CanPaste()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x2FAC240", Offset = "0x2FAA840", VA = "0x182FAC240")]
+	[Address(RVA = "0x69A9610", Offset = "0x69A8610", VA = "0x69A9610")]
 	public bool Cut()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x2FAD160", Offset = "0x2FAB760", VA = "0x182FAD160")]
+	[Address(RVA = "0x69A9630", Offset = "0x69A8630", VA = "0x69A9630")]
 	public bool Paste()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x2FAD890", Offset = "0x2FABE90", VA = "0x182FAD890")]
+	[Address(RVA = "0x69AAFA0", Offset = "0x69A9FA0", VA = "0x69AAFA0")]
 	private static string ReplaceNewlinesWithSpaces(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x2FAD100", Offset = "0x2FAB700", VA = "0x182FAD100")]
+	[Address(RVA = "0x69AB030", Offset = "0x69AA030", VA = "0x69AB030")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal void OnBlur()
 	{
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x2FADF90", Offset = "0x2FAC590", VA = "0x182FADF90")]
+	[Address(RVA = "0x69AB1B0", Offset = "0x69AA1B0", VA = "0x69AB1B0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal bool TouchScreenKeyboardCanBeUsed()
 	{
@@ -445,7 +445,7 @@ internal class TextEditingUtilities
 	}
 
 	[Token(Token = "0x60002DC")]
-	[Address(RVA = "0x2FAD860", Offset = "0x2FABE60", VA = "0x182FAD860")]
+	[Address(RVA = "0x69AB210", Offset = "0x69AA210", VA = "0x69AB210")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal bool PhysicalKeyboardCanBeUsed()
 	{

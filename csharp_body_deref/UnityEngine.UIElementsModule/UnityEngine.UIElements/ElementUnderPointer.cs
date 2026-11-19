@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ElementUnderPointer
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,64 +37,64 @@ internal class ElementUnderPointer
 	private bool[] m_IsPickingPointerTemporaries;
 
 	[Token(Token = "0x6000C0B")]
-	[Address(RVA = "0x325B3B0", Offset = "0x32599B0", VA = "0x18325B3B0")]
+	[Address(RVA = "0x6C5F3B0", Offset = "0x6C5E3B0", VA = "0x6C5F3B0")]
 	public ElementUnderPointer()
 	{
 	}
 
 	[Token(Token = "0x6000C0C")]
-	[Address(RVA = "0x325AE90", Offset = "0x3259490", VA = "0x18325AE90")]
+	[Address(RVA = "0x6C5F5E0", Offset = "0x6C5E5E0", VA = "0x6C5F5E0")]
 	internal VisualElement GetTopElementUnderPointer(int pointerId, out Vector2 pickPosition, out bool isTemporary)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C0D")]
-	[Address(RVA = "0x277EF80", Offset = "0x277D580", VA = "0x18277EF80")]
+	[Address(RVA = "0x6C5F640", Offset = "0x6C5E640", VA = "0x6C5F640")]
 	internal VisualElement GetTopElementUnderPointer(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C0E")]
-	[Address(RVA = "0x325AF10", Offset = "0x3259510", VA = "0x18325AF10")]
+	[Address(RVA = "0x6C5F670", Offset = "0x6C5E670", VA = "0x6C5F670")]
 	internal void RemoveElementUnderPointer(VisualElement elementToRemove)
 	{
 	}
 
 	[Token(Token = "0x6000C0F")]
-	[Address(RVA = "0x325B210", Offset = "0x3259810", VA = "0x18325B210")]
+	[Address(RVA = "0x6C5F6F0", Offset = "0x6C5E6F0", VA = "0x6C5F6F0")]
 	internal void SetElementUnderPointer(VisualElement newElementUnderPointer, int pointerId, Vector2 pointerPos)
 	{
 	}
 
 	[Token(Token = "0x6000C10")]
-	[Address(RVA = "0x325ACD0", Offset = "0x32592D0", VA = "0x18325ACD0")]
+	[Address(RVA = "0x6C5F860", Offset = "0x6C5E860", VA = "0x6C5F860")]
 	private Vector2 GetEventPointerPosition(EventBase triggerEvent)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000C11")]
-	[Address(RVA = "0x325B390", Offset = "0x3259990", VA = "0x18325B390")]
+	[Address(RVA = "0x6C5FA30", Offset = "0x6C5EA30", VA = "0x6C5FA30")]
 	internal void SetTemporaryElementUnderPointer(VisualElement newElementUnderPointer, int pointerId, EventBase triggerEvent)
 	{
 	}
 
 	[Token(Token = "0x6000C12")]
-	[Address(RVA = "0x325B1F0", Offset = "0x32597F0", VA = "0x18325B1F0")]
+	[Address(RVA = "0x6C5F6E0", Offset = "0x6C5E6E0", VA = "0x6C5F6E0")]
 	internal void SetElementUnderPointer(VisualElement newElementUnderPointer, int pointerId, EventBase triggerEvent)
 	{
 	}
 
 	[Token(Token = "0x6000C13")]
-	[Address(RVA = "0x325AF90", Offset = "0x3259590", VA = "0x18325AF90")]
+	[Address(RVA = "0x6C5FA40", Offset = "0x6C5EA40", VA = "0x6C5FA40")]
 	private void SetElementUnderPointer(VisualElement newElementUnderPointer, int pointerId, EventBase triggerEvent, bool temporary)
 	{
 	}
 
 	[Token(Token = "0x6000C14")]
-	[Address(RVA = "0x325A7B0", Offset = "0x3258DB0", VA = "0x18325A7B0")]
+	[Address(RVA = "0x6C5FCE0", Offset = "0x6C5ECE0", VA = "0x6C5FCE0")]
 	internal bool CommitElementUnderPointers(EventDispatcher dispatcher, ContextType contextType)
 	{
 		return default(bool);

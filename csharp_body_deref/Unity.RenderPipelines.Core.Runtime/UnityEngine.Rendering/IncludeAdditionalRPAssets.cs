@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.IncludeAdditionalRPAssets
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -54,7 +54,7 @@ public class IncludeAdditionalRPAssets : IRenderPipelineGraphicsSettings
 	private int UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002Eversion
 	{
 		[Token(Token = "0x6000B94")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x6525580", Offset = "0x6524580", VA = "0x6525580", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -65,13 +65,13 @@ public class IncludeAdditionalRPAssets : IRenderPipelineGraphicsSettings
 	public bool includeReferencedInScenes
 	{
 		[Token(Token = "0x6000B95")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x6525590", Offset = "0x6524590", VA = "0x6525590")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B96")]
-		[Address(RVA = "0x2B41440", Offset = "0x2B3FA40", VA = "0x182B41440")]
+		[Address(RVA = "0x65255A0", Offset = "0x65245A0", VA = "0x65255A0")]
 		set
 		{
 		}
@@ -81,13 +81,13 @@ public class IncludeAdditionalRPAssets : IRenderPipelineGraphicsSettings
 	public bool includeAssetsByLabel
 	{
 		[Token(Token = "0x6000B97")]
-		[Address(RVA = "0x1A78700", Offset = "0x1A76D00", VA = "0x181A78700")]
+		[Address(RVA = "0x6525600", Offset = "0x6524600", VA = "0x6525600")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B98")]
-		[Address(RVA = "0x2B413D0", Offset = "0x2B3F9D0", VA = "0x182B413D0")]
+		[Address(RVA = "0x6525610", Offset = "0x6524610", VA = "0x6525610")]
 		set
 		{
 		}
@@ -97,20 +97,20 @@ public class IncludeAdditionalRPAssets : IRenderPipelineGraphicsSettings
 	public string labelToInclude
 	{
 		[Token(Token = "0x6000B99")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6525670", Offset = "0x6524670", VA = "0x6525670")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B9A")]
-		[Address(RVA = "0x2B414B0", Offset = "0x2B3FAB0", VA = "0x182B414B0")]
+		[Address(RVA = "0x6525680", Offset = "0x6524680", VA = "0x6525680")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B9B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65256E0", Offset = "0x65246E0", VA = "0x65256E0")]
 	public IncludeAdditionalRPAssets()
 	{
 	}

@@ -18,27 +18,27 @@ public class NoInterpMaxIntParameter : VolumeParameter<int>
 {
 	[NonSerialized]
 	[Token(Token = "0x4000994")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public int max;
 
 	[Token(Token = "0x170001EF")]
 	public override int value
 	{
 		[Token(Token = "0x6000F26")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
+		[Address(RVA = "0x65556E0", Offset = "0x65546E0", VA = "0x65556E0", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F27")]
-		[Address(RVA = "0x2B5E390", Offset = "0x2B5C990", VA = "0x182B5E390", Slot = "15")]
+		[Address(RVA = "0x65556F0", Offset = "0x65546F0", VA = "0x65556F0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x2B5F8C0", Offset = "0x2B5DEC0", VA = "0x182B5F8C0")]
+	[Address(RVA = "0x6555700", Offset = "0x6554700", VA = "0x6555700")]
 	public NoInterpMaxIntParameter(int value, int max, bool overrideState = false)
 	{
 	}

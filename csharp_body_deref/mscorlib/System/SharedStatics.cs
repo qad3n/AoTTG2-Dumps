@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000197")]
+[Token(Token = "0x200016F")]
 internal sealed class SharedStatics
 {
-	[Token(Token = "0x40005F5")]
+	[Token(Token = "0x4000553")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly System.SharedStatics _sharedStatics;
 
-	[Token(Token = "0x40005F6")]
+	[Token(Token = "0x4000554")]
 	[FieldOffset(Offset = "0x10")]
 	private System.Security.Util.Tokenizer.StringMaker _maker;
 
-	[Token(Token = "0x6000F22")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6000EFC")]
+	[Address(RVA = "0x5506150", Offset = "0x5505150", VA = "0x5506150")]
 	private SharedStatics()
 	{
 	}
 
-	[Token(Token = "0x6000F23")]
-	[Address(RVA = "0x1B8A040", Offset = "0x1B88640", VA = "0x181B8A040")]
+	[Token(Token = "0x6000EFD")]
+	[Address(RVA = "0x5506170", Offset = "0x5505170", VA = "0x5506170")]
 	public static System.Security.Util.Tokenizer.StringMaker GetSharedStringMaker()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F24")]
-	[Address(RVA = "0x1B8A1C0", Offset = "0x1B887C0", VA = "0x181B8A1C0")]
+	[Token(Token = "0x6000EFE")]
+	[Address(RVA = "0x5506330", Offset = "0x5505330", VA = "0x5506330")]
 	public static void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer.StringMaker maker)
 	{
 	}

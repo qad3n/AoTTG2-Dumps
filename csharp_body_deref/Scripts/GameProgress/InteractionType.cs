@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace GameProgress;
 
-[Token(Token = "0x200030B")]
+[Token(Token = "0x200036C")]
 public enum InteractionType
 {
-	[Token(Token = "0x4000F70")]
+	[Token(Token = "0x400110F")]
 	ShareGas,
-	[Token(Token = "0x4000F71")]
+	[Token(Token = "0x4001110")]
 	CarryHuman
 }

@@ -21,7 +21,7 @@ public static class DocumentationUtils
 	}
 
 	[Token(Token = "0x6000866")]
-	[Address(RVA = "0x2B0BDB0", Offset = "0x2B0A3B0", VA = "0x182B0BDB0")]
+	[Address(RVA = "0x64FB680", Offset = "0x64FA680", VA = "0x64FB680")]
 	public static bool TryGetHelpURL(Type type, out string url)
 	{
 		return default(bool);

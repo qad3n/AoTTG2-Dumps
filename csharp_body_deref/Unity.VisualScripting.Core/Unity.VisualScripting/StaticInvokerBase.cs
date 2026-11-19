@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public abstract class StaticInvokerBase : InvokerBase
 {
 	[Token(Token = "0x6000E79")]
-	[Address(RVA = "0x2E3D260", Offset = "0x2E3B860", VA = "0x182E3D260")]
+	[Address(RVA = "0x6832CC0", Offset = "0x6831CC0", VA = "0x6832CC0")]
 	protected StaticInvokerBase(MethodInfo methodInfo)
 	{
 	}
 
 	[Token(Token = "0x6000E7A")]
-	[Address(RVA = "0x2E3D130", Offset = "0x2E3B730", VA = "0x182E3D130", Slot = "20")]
+	[Address(RVA = "0x68332C0", Offset = "0x68322C0", VA = "0x68332C0", Slot = "20")]
 	protected sealed override void CompileExpression()
 	{
 	}
@@ -30,7 +30,7 @@ public abstract class StaticInvokerBase : InvokerBase
 	protected abstract void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions);
 
 	[Token(Token = "0x6000E7C")]
-	[Address(RVA = "0x2E3D1C0", Offset = "0x2E3B7C0", VA = "0x182E3D1C0", Slot = "22")]
+	[Address(RVA = "0x6833340", Offset = "0x6832340", VA = "0x6833340", Slot = "22")]
 	protected override void VerifyTarget(object target)
 	{
 	}

@@ -19,13 +19,13 @@ public abstract class EZSoftBoneColliderBase : MonoBehaviour
 	public static HashSet<EZSoftBoneColliderBase> EnabledColliders;
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x583F00", Offset = "0x582500", VA = "0x180583F00")]
+	[Address(RVA = "0x31A7E40", Offset = "0x31A6E40", VA = "0x31A7E40")]
 	protected void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x583E80", Offset = "0x582480", VA = "0x180583E80")]
+	[Address(RVA = "0x31A7EE0", Offset = "0x31A6EE0", VA = "0x31A7EE0")]
 	protected void OnDisable()
 	{
 	}
@@ -34,7 +34,7 @@ public abstract class EZSoftBoneColliderBase : MonoBehaviour
 	public abstract void Collide(ref Vector3 position, float spacing);
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x31A7E30", Offset = "0x31A6E30", VA = "0x31A7E30")]
 	protected EZSoftBoneColliderBase()
 	{
 	}

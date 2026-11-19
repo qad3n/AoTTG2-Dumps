@@ -12,49 +12,49 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x200024F")]
+[Token(Token = "0x2000250")]
 public abstract class CallSiteBinder
 {
-	[Token(Token = "0x2000250")]
+	[Token(Token = "0x2000251")]
 	private sealed class LambdaSignature<T> where T : class
 	{
-		[Token(Token = "0x400043E")]
+		[Token(Token = "0x4000447")]
 		[FieldOffset(Offset = "0x0")]
 		private static LambdaSignature<T> s_instance;
 
-		[Token(Token = "0x400043F")]
+		[Token(Token = "0x4000448")]
 		[FieldOffset(Offset = "0x0")]
 		internal readonly ReadOnlyCollection<ParameterExpression> Parameters;
 
-		[Token(Token = "0x4000440")]
+		[Token(Token = "0x4000449")]
 		[FieldOffset(Offset = "0x0")]
 		internal readonly LabelTarget ReturnLabel;
 
-		[Token(Token = "0x17000250")]
+		[Token(Token = "0x17000252")]
 		internal static LambdaSignature<T> Instance
 		{
-			[Token(Token = "0x6000B64")]
+			[Token(Token = "0x6000B6F")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000B65")]
+		[Token(Token = "0x6000B70")]
 		private LambdaSignature()
 		{
 		}
 	}
 
-	[Token(Token = "0x400043C")]
+	[Token(Token = "0x4000445")]
 	[FieldOffset(Offset = "0x10")]
 	internal Dictionary<Type, object> Cache;
 
-	[Token(Token = "0x1700024F")]
+	[Token(Token = "0x17000251")]
 	public static LabelTarget UpdateLabel
 	{
-		[Token(Token = "0x6000B5C")]
-		[Address(RVA = "0x2467220", Offset = "0x2465820", VA = "0x182467220")]
+		[Token(Token = "0x6000B67")]
+		[Address(RVA = "0x5E1D0E0", Offset = "0x5E1C0E0", VA = "0x5E1D0E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,39 +62,39 @@ public abstract class CallSiteBinder
 		}
 	}
 
-	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000B66")]
+	[Address(RVA = "0x5E1D0D0", Offset = "0x5E1C0D0", VA = "0x5E1D0D0")]
 	protected CallSiteBinder()
 	{
 	}
 
-	[Token(Token = "0x6000B5D")]
+	[Token(Token = "0x6000B68")]
 	public abstract Expression Bind(object[] args, ReadOnlyCollection<ParameterExpression> parameters, LabelTarget returnLabel);
 
-	[Token(Token = "0x6000B5E")]
+	[Token(Token = "0x6000B69")]
 	public virtual T BindDelegate<T>(CallSite<T> site, object[] args) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B5F")]
+	[Token(Token = "0x6000B6A")]
 	internal T BindCore<T>(CallSite<T> site, object[] args) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B60")]
+	[Token(Token = "0x6000B6B")]
 	protected void CacheTarget<T>(T target) where T : class
 	{
 	}
 
-	[Token(Token = "0x6000B61")]
+	[Token(Token = "0x6000B6C")]
 	private static Expression<T> Stitch<T>(Expression binding, LambdaSignature<T> signature) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B62")]
+	[Token(Token = "0x6000B6D")]
 	internal RuleCache<T> GetRuleCache<T>() where T : class
 	{
 		return null;

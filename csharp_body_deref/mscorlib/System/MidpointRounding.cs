@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000114")]
+[Token(Token = "0x20000EC")]
 public enum MidpointRounding
 {
-	[Token(Token = "0x4000414")]
+	[Token(Token = "0x400036F")]
 	ToEven,
-	[Token(Token = "0x4000415")]
+	[Token(Token = "0x4000370")]
 	AwayFromZero
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.BoundsField
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public class BoundsField : BaseField<Bounds>
 	public new class UxmlFactory : UxmlFactory<BoundsField, UxmlTraits>
 	{
 		[Token(Token = "0x60004F9")]
-		[Address(RVA = "0x31E38C0", Offset = "0x31E1EC0", VA = "0x1831E38C0")]
+		[Address(RVA = "0x6BD2DA0", Offset = "0x6BD1DA0", VA = "0x6BD2DA0")]
 		public UxmlFactory()
 		{
 		}
@@ -55,13 +55,13 @@ public class BoundsField : BaseField<Bounds>
 		private UxmlFloatAttributeDescription m_ExtentsZValue;
 
 		[Token(Token = "0x60004FA")]
-		[Address(RVA = "0x31E46F0", Offset = "0x31E2CF0", VA = "0x1831E46F0", Slot = "4")]
+		[Address(RVA = "0x6BD2DE0", Offset = "0x6BD1DE0", VA = "0x6BD2DE0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60004FB")]
-		[Address(RVA = "0x31E6FD0", Offset = "0x31E55D0", VA = "0x1831E6FD0")]
+		[Address(RVA = "0x6BD3100", Offset = "0x6BD2100", VA = "0x6BD3100")]
 		public UxmlTraits()
 		{
 		}
@@ -96,25 +96,25 @@ public class BoundsField : BaseField<Bounds>
 	private Vector3Field m_ExtentsField;
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x31CD5E0", Offset = "0x31CBBE0", VA = "0x1831CD5E0")]
+	[Address(RVA = "0x6BD2420", Offset = "0x6BD1420", VA = "0x6BD2420")]
 	public BoundsField()
 	{
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x31CD1D0", Offset = "0x31CB7D0", VA = "0x1831CD1D0")]
+	[Address(RVA = "0x6BD2430", Offset = "0x6BD1430", VA = "0x6BD2430")]
 	public BoundsField(string label)
 	{
 	}
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x31CCD10", Offset = "0x31CB310", VA = "0x1831CCD10", Slot = "159")]
+	[Address(RVA = "0x6BD2940", Offset = "0x6BD1940", VA = "0x6BD2940", Slot = "159")]
 	public override void SetValueWithoutNotify(Bounds newValue)
 	{
 	}
 
 	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x31CCF80", Offset = "0x31CB580", VA = "0x1831CCF80", Slot = "158")]
+	[Address(RVA = "0x6BD2A30", Offset = "0x6BD1A30", VA = "0x6BD2A30", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

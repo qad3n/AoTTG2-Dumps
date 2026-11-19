@@ -14,83 +14,83 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000732")]
+[Token(Token = "0x20007D8")]
 internal class CollapsibleToggleSection : MonoBehaviour
 {
-	[Token(Token = "0x40023FC")]
+	[Token(Token = "0x4002769")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Text _arrowText;
 
-	[Token(Token = "0x40023FD")]
+	[Token(Token = "0x400276A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private Toggle _enableToggle;
 
-	[Token(Token = "0x40023FE")]
+	[Token(Token = "0x400276B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string _title;
 
-	[Token(Token = "0x40023FF")]
+	[Token(Token = "0x400276C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private bool _expanded;
 
-	[Token(Token = "0x4002400")]
+	[Token(Token = "0x400276D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private readonly List<GameObject> _children;
 
-	[Token(Token = "0x17000CBE")]
+	[Token(Token = "0x17000D41")]
 	public bool IsExpanded
 	{
-		[Token(Token = "0x6004692")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Token(Token = "0x6004BAE")]
+		[Address(RVA = "0x5BE7F30", Offset = "0x5BE6F30", VA = "0x5BE7F30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CBF")]
+	[Token(Token = "0x17000D42")]
 	public bool IsEnabled
 	{
-		[Token(Token = "0x6004693")]
-		[Address(RVA = "0x2203290", Offset = "0x2201890", VA = "0x182203290")]
+		[Token(Token = "0x6004BAF")]
+		[Address(RVA = "0x5BE7F40", Offset = "0x5BE6F40", VA = "0x5BE7F40")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004694")]
-	[Address(RVA = "0x2202DC0", Offset = "0x22013C0", VA = "0x182202DC0")]
+	[Token(Token = "0x6004BB0")]
+	[Address(RVA = "0x5BE7FC0", Offset = "0x5BE6FC0", VA = "0x5BE7FC0")]
 	public void Setup(Text arrowButtonText, Button arrowButton, Toggle enableToggle, string title, bool startEnabled, [Optional][DefaultParameterValue(true)] bool startExpanded, [Optional] Action<bool> onToggleChanged)
 	{
 	}
 
-	[Token(Token = "0x6004695")]
-	[Address(RVA = "0x2202C90", Offset = "0x2201290", VA = "0x182202C90")]
+	[Token(Token = "0x6004BB1")]
+	[Address(RVA = "0x5BE82C0", Offset = "0x5BE72C0", VA = "0x5BE82C0")]
 	public void AddChild(GameObject child)
 	{
 	}
 
-	[Token(Token = "0x6004696")]
-	[Address(RVA = "0x2202FD0", Offset = "0x22015D0", VA = "0x182202FD0")]
+	[Token(Token = "0x6004BB2")]
+	[Address(RVA = "0x5BE83A0", Offset = "0x5BE73A0", VA = "0x5BE83A0")]
 	public void ToggleExpand()
 	{
 	}
 
-	[Token(Token = "0x6004697")]
-	[Address(RVA = "0x2202D30", Offset = "0x2201330", VA = "0x182202D30")]
+	[Token(Token = "0x6004BB3")]
+	[Address(RVA = "0x5BE8540", Offset = "0x5BE7540", VA = "0x5BE8540")]
 	public void SetEnabled(bool enabled)
 	{
 	}
 
-	[Token(Token = "0x6004698")]
-	[Address(RVA = "0x2203150", Offset = "0x2201750", VA = "0x182203150")]
+	[Token(Token = "0x6004BB4")]
+	[Address(RVA = "0x5BE8200", Offset = "0x5BE7200", VA = "0x5BE8200")]
 	private void UpdateArrow()
 	{
 	}
 
-	[Token(Token = "0x6004699")]
-	[Address(RVA = "0x2203210", Offset = "0x2201810", VA = "0x182203210")]
+	[Token(Token = "0x6004BB5")]
+	[Address(RVA = "0x5BE85C0", Offset = "0x5BE75C0", VA = "0x5BE85C0")]
 	public CollapsibleToggleSection()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: UI.ChatScrollRect
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/ChatScrollRect.cs
@@ -8,23 +8,22 @@
 
 // UI.ChatScrollRect$$Start
 // il2cpp: void UI_ChatScrollRect__Start (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x18223efe0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18223f1ae: mov rsi, qword ptr [rsp + 0x30]
+// 0x5d1ab90
 
 void UI_ChatScrollRect__Start(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
 {
+  UnityEngine_UI_Image_o **targetAddress;
   UnityEngine_UI_Scrollbar_o *pUVar1;
   UnityEngine_RectTransform_o *__this_00;
-  UnityEngine_Events_UnityEvent_Vector2__o *__this_01;
+  UnityEngine_Events_UnityEvent_float__o *__this_01;
   bool bVar2;
-  UI_ChatPanel_o *value;
-  UnityEngine_UI_Image_o *pUVar3;
-  DG_Tweening_Core_DOSetter_float__o *__this_02;
-  UnityEngine_GameObject_o *__this_03;
+  UI_ChatPanel_o *pUVar3;
+  UnityEngine_UI_Image_o *pUVar4;
+  UnityEngine_Events_UnityAction_T0__o *call;
+  UnityEngine_GameObject_o *__this_02;
   
-  if (Il2CppMethodInitialized_184347222 == '\0') {
+  if (Il2CppMethodInitialized_07547d94 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ChatScrollRect_OnScrollbarValueChanged);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentInParent_ChatPanel);
@@ -32,15 +31,15 @@ void UI_ChatScrollRect__Start(UI_ChatScrollRect_o *__this,MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction_float);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Events_UnityEvent_float_AddListener);
-    Il2CppMethodInitialized_184347222 = '\x01';
+    Il2CppMethodInitialized_07547d94 = '\x01';
   }
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  value = UnityEngine_Component__GetComponentInParent_object__664f20
-                    ((UnityEngine_Component_o *)__this,
-                     (MethodInfo_664F20 *)MethodInfo_UnityEngine_Component_GetComponentInParent_ChatPanel);
-  (__this->fields)._chatPanel = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._chatPanel,value);
+  UnityEngine_EventSystems_UIBehaviour__Start
+            ((UnityEngine_EventSystems_UIBehaviour_o *)__this,(MethodInfo *)0x0);
+  pUVar3 = UnityEngine_Component__GetComponentInParent_object__34b0d00
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_34B0D00 *)MethodInfo_UnityEngine_Component_GetComponentInParent_ChatPanel);
+  (__this->fields)._chatPanel = pUVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._chatPanel);
   pUVar1 = (__this->fields).m_VerticalScrollbar;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -55,126 +54,152 @@ void UI_ChatScrollRect__Start(UI_ChatScrollRect_o *__this,MethodInfo *method)
   pUVar1 = (__this->fields).m_VerticalScrollbar;
   if ((pUVar1 != (UnityEngine_UI_Scrollbar_o *)0x0) &&
      (__this_00 = (pUVar1->fields).m_HandleRect, __this_00 != (UnityEngine_RectTransform_o *)0x0)) {
-    pUVar3 = UnityEngine_Component__GetComponent_object_
+    pUVar4 = UnityEngine_Component__GetComponent_object_
                        ((UnityEngine_Component_o *)__this_00,
-                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
-    (__this->fields).handleImage = pUVar3;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).handleImage,pUVar3);
+                        (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    targetAddress = &(__this->fields).handleImage;
+    (__this->fields).handleImage = pUVar4;
+    Il2CppCodeGenWriteBarrier(targetAddress);
     pUVar1 = (__this->fields).m_VerticalScrollbar;
     if (pUVar1 != (UnityEngine_UI_Scrollbar_o *)0x0) {
-      __this_01 = (UnityEngine_Events_UnityEvent_Vector2__o *)(pUVar1->fields).m_OnValueChanged;
-      __this_02 = (DG_Tweening_Core_DOSetter_float__o *)
-                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_float);
+      __this_01 = (UnityEngine_Events_UnityEvent_float__o *)(pUVar1->fields).m_OnValueChanged;
+      call = (UnityEngine_Events_UnityAction_T0__o *)
+             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_float);
       UnityEngine_Events_UnityAction_float____ctor
-                (__this_02,(Il2CppObject *)__this,
-                 (intptr_t)MethodInfo_UI_ChatScrollRect_OnScrollbarValueChanged,(MethodInfo_E5A750 *)0x0);
-      if (__this_01 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
-        UnityEngine_Events_UnityEvent_Vector2___AddListener
-                  (__this_01,(UnityEngine_Events_UnityAction_T0__o *)__this_02,
-                   (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_float_AddListener);
+                ((UnityEngine_Events_UnityAction_float__o *)call,(Il2CppObject *)__this,
+                 (intptr_t)MethodInfo_UI_ChatScrollRect_OnScrollbarValueChanged,(MethodInfo_4311C00 *)0x0);
+      if (__this_01 != (UnityEngine_Events_UnityEvent_float__o *)0x0) {
+        UnityEngine_Events_UnityEvent_float___AddListener
+                  (__this_01,call,
+                   (MethodInfo_43194E0 *)MethodInfo_UnityEngine_Events_UnityEvent_float_AddListener);
         pUVar1 = (__this->fields).m_VerticalScrollbar;
         if ((pUVar1 != (UnityEngine_UI_Scrollbar_o *)0x0) &&
-           (__this_03 = UnityEngine_Component__get_gameObject
+           (__this_02 = UnityEngine_Component__get_gameObject
                                   ((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
-           __this_03 != (UnityEngine_GameObject_o *)0x0)) {
-          UnityEngine_GameObject__SetActive(__this_03,true,(MethodInfo *)0x0);
-          pUVar3 = (__this->fields).handleImage;
+           __this_02 != (UnityEngine_GameObject_o *)0x0)) {
+          UnityEngine_GameObject__SetActive(__this_02,true,(MethodInfo *)0x0);
+          pUVar4 = *targetAddress;
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
           bVar2 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if (bVar2) {
-            pUVar3 = (__this->fields).handleImage;
-            if (pUVar3 == (UnityEngine_UI_Image_o *)0x0) goto label_18223f1be;
-            UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar3,false,(MethodInfo *)0x0);
+                            ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (!bVar2) {
+            return;
           }
-          return;
+          if (*targetAddress != (UnityEngine_UI_Image_o *)0x0) {
+            UnityEngine_Behaviour__set_enabled
+                      ((UnityEngine_Behaviour_o *)*targetAddress,false,(MethodInfo *)0x0);
+            return;
+          }
         }
       }
     }
   }
-label_18223f1be:
   ThrowNullReferenceException();
 }
 
 
 // UI.ChatScrollRect$$OnScrollbarValueChanged
 // il2cpp: void UI_ChatScrollRect__OnScrollbarValueChanged (UI_ChatScrollRect_o* __this, float value, const MethodInfo* method);
-// 0x18223ef80
+// 0x5d1ad80
 
 void UI_ChatScrollRect__OnScrollbarValueChanged(UI_ChatScrollRect_o *__this,float value,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184347223 == '\0') {
+  UnityEngine_Events_UnityEvent_Vector2__o *__this_00;
+  undefined1 in_register_00001204 [12];
+  undefined1 auVar1 [16];
+  
+  auVar1._4_12_ = in_register_00001204;
+  auVar1._0_4_ = value;
+  if (Il2CppMethodInitialized_07547d95 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Events_UnityEvent_Vector2_Invoke);
-    Il2CppMethodInitialized_184347223 = '\x01';
+    Il2CppMethodInitialized_07547d95 = '\x01';
   }
-  if ((__this->fields).m_OnValueChanged != (UnityEngine_UI_ScrollRect_ScrollRectEvent_o *)0x0) {
-    UnityEngine_Events_UnityEvent_Vector2___Invoke
-              ((UnityEngine_Events_UnityEvent_Vector2__o *)(__this->fields).m_OnValueChanged,
-               (UnityEngine_Vector2_o)((ulonglong)(uint)value << 0x20),
-               (MethodInfo_EBDB60 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_Invoke);
+  __this_00 = (UnityEngine_Events_UnityEvent_Vector2__o *)(__this->fields).m_OnValueChanged;
+  if (__this_00 == (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
+    return;
   }
+  UnityEngine_Events_UnityEvent_Vector2___Invoke
+            (__this_00,(UnityEngine_Vector2_o)(auVar1._0_8_ << 0x20),
+             (MethodInfo_4319D20 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_Invoke);
   return;
 }
 
 
 // UI.ChatScrollRect$$LateUpdate
 // il2cpp: void UI_ChatScrollRect__LateUpdate (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x18223eac0
+// 0x5d1ade0
 
 void UI_ChatScrollRect__LateUpdate(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
 {
   UI_ChatPanel_o *pUVar1;
-  UnityEngine_UI_Image_o *pUVar2;
-  bool bVar3;
-  float fVar4;
+  TMPro_TMP_InputField_o *pTVar2;
+  UnityEngine_UI_Image_o *pUVar3;
+  bool bVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184347224 == '\0') {
+  if (Il2CppMethodInitialized_07547d96 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347224 = '\x01';
+    Il2CppMethodInitialized_07547d96 = '\x01';
   }
   UnityEngine_UI_ScrollRect__LateUpdate((UnityEngine_UI_ScrollRect_o *)__this,(MethodInfo *)0x0);
   pUVar1 = (__this->fields)._chatPanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality
+  bVar4 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar3) goto label_18223eb75;
-  pUVar1 = (__this->fields)._chatPanel;
-  if (pUVar1 == (UI_ChatPanel_o *)0x0) goto label_18223ebcc;
-  bVar3 = UI_ChatPanel__IsInteractingWithChatUI(pUVar1,(MethodInfo *)0x0);
-  if (bVar3) {
-label_18223eb75:
-    if ((__this->fields).isDragging == false) {
-      return;
+  if (bVar4) {
+    pUVar1 = (__this->fields)._chatPanel;
+    if (pUVar1 == (UI_ChatPanel_o *)0x0) goto label_05d1af69;
+    if ((pUVar1->fields)._isInteractingWithChatUI == false) {
+      if (Il2CppMethodInitialized_07547d53 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+        Il2CppMethodInitialized_07547d53 = '\x01';
+      }
+      if ((pUVar1->fields)._isDestroyed == false) {
+        pTVar2 = (pUVar1->fields)._inputField;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar4 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pTVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar4) {
+          pTVar2 = (pUVar1->fields)._inputField;
+          if (pTVar2 == (TMPro_TMP_InputField_o *)0x0) goto label_05d1af69;
+          if ((pTVar2->fields).m_AllowInput != false) goto label_05d1af08;
+        }
+      }
+      if ((((pUVar1->fields)._emojiPanelActive == false) && ((__this->fields).isDragging == false)) &&
+         ((__this->fields).isMouseOver == false)) {
+        fVar5 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+        if ((__this->fields).lastScrollTime + 1.0 < fVar5) {
+          UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition
+                    ((UnityEngine_UI_ScrollRect_o *)__this,0.0,(MethodInfo *)0x0);
+        }
+      }
     }
   }
-  else if ((__this->fields).isDragging == false) {
-    if (((__this->fields).isMouseOver == false) &&
-       (fVar4 = UnityEngine_Time__get_time((MethodInfo *)0x0), (__this->fields).lastScrollTime + 1.0 < fVar4))
-    {
-      UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition
-                ((UnityEngine_UI_ScrollRect_o *)__this,0.0,(MethodInfo *)0x0);
+label_05d1af08:
+  if ((__this->fields).isDragging != false) {
+    pUVar3 = (__this->fields).handleImage;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    goto label_18223eb75;
-  }
-  pUVar2 = (__this->fields).handleImage;
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar3 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar3) {
-    pUVar2 = (__this->fields).handleImage;
-    if (pUVar2 == (UnityEngine_UI_Image_o *)0x0) {
-label_18223ebcc:
+    bVar4 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pUVar3 = (__this->fields).handleImage;
+      if (pUVar3 != (UnityEngine_UI_Image_o *)0x0) {
+        UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar3,true,(MethodInfo *)0x0);
+        return;
+      }
+label_05d1af69:
       ThrowNullReferenceException();
     }
-    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar2,true,(MethodInfo *)0x0);
   }
   return;
 }
@@ -182,37 +207,36 @@ label_18223ebcc:
 
 // UI.ChatScrollRect$$OnMouseEnter
 // il2cpp: void UI_ChatScrollRect__OnMouseEnter (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x18223ed40
+// 0x5d199e0
 
 void UI_ChatScrollRect__OnMouseEnter(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
 {
   UnityEngine_UI_Image_o *pUVar1;
-  char cVar2;
-  bool bVar3;
+  bool bVar2;
   
-  bVar3 = Il2CppMethodInitialized_184347226 == '\0';
   (__this->fields).isMouseOver = true;
-  if (bVar3) {
+  if (Il2CppMethodInitialized_07547d98 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347226 = '\x01';
+    Il2CppMethodInitialized_07547d98 = '\x01';
   }
   pUVar1 = (__this->fields).handleImage;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality
+  bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar3) {
-    cVar2 = '\x01';
+  if (bVar2) {
     pUVar1 = (__this->fields).handleImage;
+    bVar2 = true;
     if ((__this->fields).isMouseOver == false) {
-      cVar2 = (__this->fields).isDragging;
+      bVar2 = (__this->fields).isDragging != false;
     }
     if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) {
       ThrowNullReferenceException();
     }
-    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,cVar2 != '\0',(MethodInfo *)0x0);
+    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,bVar2,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -220,7 +244,7 @@ void UI_ChatScrollRect__OnMouseEnter(UI_ChatScrollRect_o *__this,MethodInfo *met
 
 // UI.ChatScrollRect$$OnMouseExit
 // il2cpp: void UI_ChatScrollRect__OnMouseExit (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x18223ede0
+// 0x5d19b20
 
 void UI_ChatScrollRect__OnMouseExit(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
@@ -228,12 +252,12 @@ void UI_ChatScrollRect__OnMouseExit(UI_ChatScrollRect_o *__this,MethodInfo *meth
   UnityEngine_UI_Image_o *pUVar1;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_184347225 == '\0') {
+  if (Il2CppMethodInitialized_07547d97 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347225 = '\x01';
+    Il2CppMethodInitialized_07547d97 = '\x01';
   }
-  pUVar1 = (__this->fields).handleImage;
   (__this->fields).isMouseOver = false;
+  pUVar1 = (__this->fields).handleImage;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
@@ -245,6 +269,7 @@ void UI_ChatScrollRect__OnMouseExit(UI_ChatScrollRect_o *__this,MethodInfo *meth
       ThrowNullReferenceException();
     }
     UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,false,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -252,18 +277,17 @@ void UI_ChatScrollRect__OnMouseExit(UI_ChatScrollRect_o *__this,MethodInfo *meth
 
 // UI.ChatScrollRect$$UpdateHandleVisibility
 // il2cpp: void UI_ChatScrollRect__UpdateHandleVisibility (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x18223f1d0
+// 0x5d1af70
 
 void UI_ChatScrollRect__UpdateHandleVisibility(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
 {
   UnityEngine_UI_Image_o *pUVar1;
   bool bVar2;
-  char cVar3;
   
-  if (Il2CppMethodInitialized_184347226 == '\0') {
+  if (Il2CppMethodInitialized_07547d98 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347226 = '\x01';
+    Il2CppMethodInitialized_07547d98 = '\x01';
   }
   pUVar1 = (__this->fields).handleImage;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -272,15 +296,16 @@ void UI_ChatScrollRect__UpdateHandleVisibility(UI_ChatScrollRect_o *__this,Metho
   bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar2) {
-    cVar3 = '\x01';
     pUVar1 = (__this->fields).handleImage;
+    bVar2 = true;
     if ((__this->fields).isMouseOver == false) {
-      cVar3 = (__this->fields).isDragging;
+      bVar2 = (__this->fields).isDragging != false;
     }
     if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) {
       ThrowNullReferenceException();
     }
-    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,cVar3 != '\0',(MethodInfo *)0x0);
+    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,bVar2,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -288,7 +313,7 @@ void UI_ChatScrollRect__UpdateHandleVisibility(UI_ChatScrollRect_o *__this,Metho
 
 // UI.ChatScrollRect$$OnBeginDrag
 // il2cpp: void UI_ChatScrollRect__OnBeginDrag (UI_ChatScrollRect_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x18223ebe0
+// 0x5d1b010
 
 void UI_ChatScrollRect__OnBeginDrag
                (UI_ChatScrollRect_o *__this,UnityEngine_EventSystems_PointerEventData_o *eventData,
@@ -303,7 +328,7 @@ void UI_ChatScrollRect__OnBeginDrag
 
 // UI.ChatScrollRect$$OnEndDrag
 // il2cpp: void UI_ChatScrollRect__OnEndDrag (UI_ChatScrollRect_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x18223eca0
+// 0x5d1b020
 
 void UI_ChatScrollRect__OnEndDrag
                (UI_ChatScrollRect_o *__this,UnityEngine_EventSystems_PointerEventData_o *eventData,
@@ -313,13 +338,13 @@ void UI_ChatScrollRect__OnEndDrag
   UnityEngine_UI_Image_o *pUVar1;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_184347227 == '\0') {
+  if (Il2CppMethodInitialized_07547d99 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347227 = '\x01';
+    Il2CppMethodInitialized_07547d99 = '\x01';
   }
   UnityEngine_UI_ScrollRect__OnEndDrag((UnityEngine_UI_ScrollRect_o *)__this,eventData,(MethodInfo *)0x0);
-  pUVar1 = (__this->fields).handleImage;
   (__this->fields).isDragging = false;
+  pUVar1 = (__this->fields).handleImage;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
@@ -332,6 +357,7 @@ void UI_ChatScrollRect__OnEndDrag
     }
     UnityEngine_Behaviour__set_enabled
               ((UnityEngine_Behaviour_o *)pUVar1,(__this->fields).isMouseOver,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -339,7 +365,7 @@ void UI_ChatScrollRect__OnEndDrag
 
 // UI.ChatScrollRect$$OnDrag
 // il2cpp: void UI_ChatScrollRect__OnDrag (UI_ChatScrollRect_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x18223ebf0
+// 0x5d1b0c0
 
 void UI_ChatScrollRect__OnDrag
                (UI_ChatScrollRect_o *__this,UnityEngine_EventSystems_PointerEventData_o *eventData,
@@ -349,33 +375,34 @@ void UI_ChatScrollRect__OnDrag
   UnityEngine_UI_Image_o *pUVar1;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_184347228 == '\0') {
+  if (Il2CppMethodInitialized_07547d9a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347228 = '\x01';
+    Il2CppMethodInitialized_07547d9a = '\x01';
   }
-  if ((__this->fields).isDragging != false) {
+  if ((__this->fields).isDragging == false) {
+    return;
+  }
+  pUVar1 = (__this->fields).handleImage;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar2 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
     pUVar1 = (__this->fields).handleImage;
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    bVar2 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar2) {
-      pUVar1 = (__this->fields).handleImage;
-      if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,true,(MethodInfo *)0x0);
-    }
-    UnityEngine_UI_ScrollRect__OnDrag((UnityEngine_UI_ScrollRect_o *)__this,eventData,(MethodInfo *)0x0);
+    UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar1,true,(MethodInfo *)0x0);
   }
+  UnityEngine_UI_ScrollRect__OnDrag((UnityEngine_UI_ScrollRect_o *)__this,eventData,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.ChatScrollRect$$OnScroll
 // il2cpp: void UI_ChatScrollRect__OnScroll (UI_ChatScrollRect_o* __this, UnityEngine_EventSystems_PointerEventData_o* data, const MethodInfo* method);
-// 0x18223ee70
+// 0x5d1b160
 
 void UI_ChatScrollRect__OnScroll
                (UI_ChatScrollRect_o *__this,UnityEngine_EventSystems_PointerEventData_o *data,
@@ -386,35 +413,36 @@ void UI_ChatScrollRect__OnScroll
   UI_ChatPanel_o *pUVar2;
   UnityEngine_UI_Image_o *pUVar3;
   bool bVar4;
+  MethodInfo *method_00;
   float fVar5;
   UnityEngine_Vector2_Fields UVar6;
   
-  if (Il2CppMethodInitialized_184347229 == '\0') {
+  if (Il2CppMethodInitialized_07547d9b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347229 = '\x01';
+    Il2CppMethodInitialized_07547d9b = '\x01';
   }
-  if ((__this->fields).isMouseOver != false) {
-    if (data == (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
-label_18223ef74:
-      ThrowNullReferenceException();
-    }
+  if ((__this->fields).isMouseOver == false) {
+    return;
+  }
+  if (data != (UnityEngine_EventSystems_PointerEventData_o *)0x0) {
     UVar1 = (data->fields)._scrollDelta_k__BackingField.fields;
     UVar6.x = UVar1.x * 1.5;
     UVar6.y = UVar1.y * 1.5;
     (data->fields)._scrollDelta_k__BackingField.fields = UVar6;
     UnityEngine_UI_ScrollRect__OnScroll((UnityEngine_UI_ScrollRect_o *)__this,data,(MethodInfo *)0x0);
     fVar5 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-    pUVar2 = (__this->fields)._chatPanel;
     (__this->fields).lastScrollTime = fVar5;
+    pUVar2 = (__this->fields)._chatPanel;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
+    method_00 = (MethodInfo *)0x0;
     bVar4 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
     if (bVar4) {
       pUVar2 = (__this->fields)._chatPanel;
-      if (pUVar2 == (UI_ChatPanel_o *)0x0) goto label_18223ef74;
-      UI_ChatPanel__UpdateChatInteractionState(pUVar2,(MethodInfo *)0x0);
+      if (pUVar2 == (UI_ChatPanel_o *)0x0) goto label_05d1b25c;
+      UI_ChatPanel__UpdateChatInteractionState(pUVar2,method_00);
     }
     pUVar3 = (__this->fields).handleImage;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -422,22 +450,25 @@ label_18223ef74:
     }
     bVar4 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (bVar4) {
-      pUVar3 = (__this->fields).handleImage;
-      if (pUVar3 == (UnityEngine_UI_Image_o *)0x0) goto label_18223ef74;
+    if (!bVar4) {
+      return;
+    }
+    pUVar3 = (__this->fields).handleImage;
+    if (pUVar3 != (UnityEngine_UI_Image_o *)0x0) {
       UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)pUVar3,true,(MethodInfo *)0x0);
+      return;
     }
   }
-  return;
+label_05d1b25c:
+  ThrowNullReferenceException();
 }
 
 
 // UI.ChatScrollRect$$.ctor
 // il2cpp: void UI_ChatScrollRect___ctor (UI_ChatScrollRect_o* __this, const MethodInfo* method);
-// 0x1819050c0
+// 0x5d1b270
 
-void
-UI_ChatScrollRect___ctor(UI_ChatScrollRect_o* __this, MethodInfo* method)
+void UI_ChatScrollRect___ctor(UI_ChatScrollRect_o *__this,MethodInfo *method)
 
 {
   UnityEngine_UI_ScrollRect___ctor((UnityEngine_UI_ScrollRect_o *)__this,(MethodInfo *)0x0);

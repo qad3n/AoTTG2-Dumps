@@ -14,7 +14,7 @@ namespace UnityEngine.UIElements;
 internal class DisposeHelper
 {
 	[Token(Token = "0x6000B05")]
-	[Address(RVA = "0x323FD10", Offset = "0x323E310", VA = "0x18323FD10")]
+	[Address(RVA = "0x6C4E530", Offset = "0x6C4D530", VA = "0x6C4E530")]
 	public static void NotifyDisposedUsed(IDisposable disposable)
 	{
 	}

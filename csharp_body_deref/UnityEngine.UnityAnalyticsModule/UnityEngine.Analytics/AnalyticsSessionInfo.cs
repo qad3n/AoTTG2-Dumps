@@ -14,8 +14,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Analytics;
 
 [Token(Token = "0x2000009")]
-[UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/Public/UnityAnalytics.h")]
 public static class AnalyticsSessionInfo
 {
@@ -38,14 +38,14 @@ public static class AnalyticsSessionInfo
 	private static IdentityTokenChanged identityTokenChanged;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x3308A60", Offset = "0x3307060", VA = "0x183308A60")]
+	[Address(RVA = "0x6D19030", Offset = "0x6D18030", VA = "0x6D19030")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CallSessionStateChanged(AnalyticsSessionState sessionState, long sessionId, long sessionElapsedTime, bool sessionChanged)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x3308A00", Offset = "0x3307000", VA = "0x183308A00")]
+	[Address(RVA = "0x6D190B0", Offset = "0x6D180B0", VA = "0x6D190B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CallIdentityTokenChanged(string token)
 	{

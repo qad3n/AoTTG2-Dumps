@@ -22,13 +22,13 @@ public class AuthenticationValues
 	public CustomAuthenticationType AuthType
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x56A5C70", Offset = "0x56A4C70", VA = "0x56A5C70")]
 		get
 		{
 			return default(CustomAuthenticationType);
 		}
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x56A5C80", Offset = "0x56A4C80", VA = "0x56A5C80")]
 		set
 		{
 		}
@@ -38,14 +38,14 @@ public class AuthenticationValues
 	public string AuthGetParameters
 	{
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x56A5C90", Offset = "0x56A4C90", VA = "0x56A5C90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x56A5CA0", Offset = "0x56A4CA0", VA = "0x56A5CA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -56,14 +56,14 @@ public class AuthenticationValues
 	public object AuthPostData
 	{
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x56A5CB0", Offset = "0x56A4CB0", VA = "0x56A5CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000078")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x56A5CC0", Offset = "0x56A4CC0", VA = "0x56A5CC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -74,14 +74,14 @@ public class AuthenticationValues
 	public object Token
 	{
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x56A5CD0", Offset = "0x56A4CD0", VA = "0x56A5CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x56A5CE0", Offset = "0x56A4CE0", VA = "0x56A5CE0")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -92,14 +92,14 @@ public class AuthenticationValues
 	public string UserId
 	{
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x56A5CF0", Offset = "0x56A4CF0", VA = "0x56A5CF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600007C")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x56A5D00", Offset = "0x56A4D00", VA = "0x56A5D00")]
 		[CompilerGenerated]
 		set
 		{
@@ -107,50 +107,50 @@ public class AuthenticationValues
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x1D0ACC0", Offset = "0x1D092C0", VA = "0x181D0ACC0")]
+	[Address(RVA = "0x569F690", Offset = "0x569E690", VA = "0x569F690")]
 	public AuthenticationValues()
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x1D0ACD0", Offset = "0x1D092D0", VA = "0x181D0ACD0")]
+	[Address(RVA = "0x56A5D10", Offset = "0x56A4D10", VA = "0x56A5D10")]
 	public AuthenticationValues(string userId)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x1D0AA80", Offset = "0x1D09080", VA = "0x181D0AA80", Slot = "4")]
+	[Address(RVA = "0x56A5D40", Offset = "0x56A4D40", VA = "0x56A5D40", Slot = "4")]
 	public virtual void SetAuthPostData(string stringData)
 	{
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0", Slot = "5")]
+	[Address(RVA = "0x56A5D80", Offset = "0x56A4D80", VA = "0x56A5D80", Slot = "5")]
 	public virtual void SetAuthPostData(byte[] byteData)
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0", Slot = "6")]
+	[Address(RVA = "0x56A5D90", Offset = "0x56A4D90", VA = "0x56A5D90", Slot = "6")]
 	public virtual void SetAuthPostData(Dictionary<string, object> dictData)
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x1D0A7D0", Offset = "0x1D08DD0", VA = "0x181D0A7D0", Slot = "7")]
+	[Address(RVA = "0x56A5DA0", Offset = "0x56A4DA0", VA = "0x56A5DA0", Slot = "7")]
 	public virtual void AddAuthParameter(string key, string value)
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x1D0AAD0", Offset = "0x1D090D0", VA = "0x181D0AAD0", Slot = "3")]
+	[Address(RVA = "0x56A5FB0", Offset = "0x56A4FB0", VA = "0x56A5FB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x1D0AA10", Offset = "0x1D09010", VA = "0x181D0AA10")]
+	[Address(RVA = "0x56A6170", Offset = "0x56A5170", VA = "0x56A6170")]
 	public AuthenticationValues CopyTo(AuthenticationValues copy)
 	{
 		return null;

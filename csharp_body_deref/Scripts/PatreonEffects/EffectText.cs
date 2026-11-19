@@ -15,254 +15,258 @@ using UnityEngine;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x200010D")]
+[Token(Token = "0x2000081")]
 [DisallowMultipleComponent]
 public class EffectText : MonoBehaviour
 {
-	[Token(Token = "0x200010E")]
+	[Token(Token = "0x2000082")]
 	private struct Segment
 	{
-		[Token(Token = "0x4000622")]
+		[Token(Token = "0x4000288")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public string Content;
 
-		[Token(Token = "0x4000623")]
+		[Token(Token = "0x4000289")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public bool HasEffect;
 
-		[Token(Token = "0x4000624")]
+		[Token(Token = "0x400028A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 		public NameEffectType Effect;
 
-		[Token(Token = "0x4000625")]
+		[Token(Token = "0x400028B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public Color? ColorA;
 
-		[Token(Token = "0x4000626")]
+		[Token(Token = "0x400028C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 		public Color? ColorB;
 
-		[Token(Token = "0x4000627")]
+		[Token(Token = "0x400028D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public Color? ColorC;
 
-		[Token(Token = "0x4000628")]
+		[Token(Token = "0x400028E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 		public Color? ColorD;
 	}
 
-	[Token(Token = "0x4000619")]
+	[Token(Token = "0x400027E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private string _text;
 
-	[Token(Token = "0x400061A")]
+	[Token(Token = "0x400027F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private float _fontSize;
 
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x4000280")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	private Color _color;
 
-	[Token(Token = "0x400061C")]
+	[Token(Token = "0x4000281")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private TMP_FontAsset _font;
 
-	[Token(Token = "0x400061D")]
+	[Token(Token = "0x4000282")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	private TMP_FontAsset _segmentFont;
+
+	[Token(Token = "0x4000283")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private TextAlignmentOptions _alignment;
 
-	[Token(Token = "0x400061E")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
+	[Token(Token = "0x4000284")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x54")]
 	private bool _richText;
 
-	[Token(Token = "0x400061F")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000285")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private readonly List<GameObject> _segments;
 
-	[Token(Token = "0x4000620")]
+	[Token(Token = "0x4000286")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly Regex _fxTagRegex;
 
-	[Token(Token = "0x4000621")]
+	[Token(Token = "0x4000287")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static readonly Regex _attrRegex;
 
-	[Token(Token = "0x170000C0")]
+	[Token(Token = "0x1700008B")]
 	public string text
 	{
-		[Token(Token = "0x6000513")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600037C")]
+		[Address(RVA = "0x58BC3F0", Offset = "0x58BB3F0", VA = "0x58BC3F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000514")]
-		[Address(RVA = "0x20B9820", Offset = "0x20B7E20", VA = "0x1820B9820")]
+		[Token(Token = "0x600037D")]
+		[Address(RVA = "0x58BC400", Offset = "0x58BB400", VA = "0x58BC400")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000C1")]
+	[Token(Token = "0x1700008C")]
 	public float fontSize
 	{
-		[Token(Token = "0x6000515")]
-		[Address(RVA = "0x584AC0", Offset = "0x5830C0", VA = "0x180584AC0")]
+		[Token(Token = "0x600037E")]
+		[Address(RVA = "0x58BCE90", Offset = "0x58BBE90", VA = "0x58BCE90")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000516")]
-		[Address(RVA = "0x20B97D0", Offset = "0x20B7DD0", VA = "0x1820B97D0")]
+		[Token(Token = "0x600037F")]
+		[Address(RVA = "0x58BCEA0", Offset = "0x58BBEA0", VA = "0x58BCEA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000C2")]
+	[Token(Token = "0x1700008D")]
 	public Color color
 	{
-		[Token(Token = "0x6000517")]
-		[Address(RVA = "0x20B97A0", Offset = "0x20B7DA0", VA = "0x1820B97A0")]
+		[Token(Token = "0x6000380")]
+		[Address(RVA = "0x58BCEC0", Offset = "0x58BBEC0", VA = "0x58BCEC0")]
 		get
 		{
 			return default(Color);
 		}
-		[Token(Token = "0x6000518")]
-		[Address(RVA = "0x20B97C0", Offset = "0x20B7DC0", VA = "0x1820B97C0")]
+		[Token(Token = "0x6000381")]
+		[Address(RVA = "0x58BCED0", Offset = "0x58BBED0", VA = "0x58BCED0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000C3")]
+	[Token(Token = "0x1700008E")]
 	public TMP_FontAsset font
 	{
-		[Token(Token = "0x6000519")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6000382")]
+		[Address(RVA = "0x58BD160", Offset = "0x58BC160", VA = "0x58BD160")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600051A")]
-		[Address(RVA = "0x20B97E0", Offset = "0x20B7DE0", VA = "0x1820B97E0")]
+		[Token(Token = "0x6000383")]
+		[Address(RVA = "0x58BD170", Offset = "0x58BC170", VA = "0x58BD170")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000C4")]
+	[Token(Token = "0x1700008F")]
 	public TextAlignmentOptions alignment
 	{
-		[Token(Token = "0x600051B")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Token(Token = "0x6000384")]
+		[Address(RVA = "0x58BD190", Offset = "0x58BC190", VA = "0x58BD190")]
 		get
 		{
 			return default(TextAlignmentOptions);
 		}
-		[Token(Token = "0x600051C")]
-		[Address(RVA = "0x20B97B0", Offset = "0x20B7DB0", VA = "0x1820B97B0")]
+		[Token(Token = "0x6000385")]
+		[Address(RVA = "0x58BD1A0", Offset = "0x58BC1A0", VA = "0x58BD1A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000C5")]
+	[Token(Token = "0x17000090")]
 	public bool richText
 	{
-		[Token(Token = "0x600051D")]
-		[Address(RVA = "0x1CFDD60", Offset = "0x1CFC360", VA = "0x181CFDD60")]
+		[Token(Token = "0x6000386")]
+		[Address(RVA = "0x58BD3B0", Offset = "0x58BC3B0", VA = "0x58BD3B0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600051E")]
-		[Address(RVA = "0x20B9810", Offset = "0x20B7E10", VA = "0x1820B9810")]
+		[Token(Token = "0x6000387")]
+		[Address(RVA = "0x58BD3C0", Offset = "0x58BC3C0", VA = "0x58BD3C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x20B71D0", Offset = "0x20B57D0", VA = "0x1820B71D0")]
+	[Token(Token = "0x6000388")]
+	[Address(RVA = "0x58BD3D0", Offset = "0x58BC3D0", VA = "0x58BD3D0")]
 	public static string Compose(string content, NameEffectType effect, [Optional] Color colorA, [Optional] Color colorB, [Optional] Color colorC, [Optional] Color colorD)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x20B9430", Offset = "0x20B7A30", VA = "0x1820B9430")]
+	[Token(Token = "0x6000389")]
+	[Address(RVA = "0x58BD850", Offset = "0x58BC850", VA = "0x58BD850")]
 	public static string WithPresetColors(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x20B6D20", Offset = "0x20B5320", VA = "0x1820B6D20")]
+	[Token(Token = "0x600038A")]
+	[Address(RVA = "0x58BD780", Offset = "0x58BC780", VA = "0x58BD780")]
 	private static void AppendColorAttribute(StringBuilder sb, string key, Color color)
 	{
 	}
 
-	[Token(Token = "0x6000522")]
-	[Address(RVA = "0x20B8130", Offset = "0x20B6730", VA = "0x1820B8130")]
+	[Token(Token = "0x600038B")]
+	[Address(RVA = "0x58BD9E0", Offset = "0x58BC9E0", VA = "0x58BD9E0")]
 	private static List<Segment> ParseLine(string line)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000523")]
-	[Address(RVA = "0x20B8030", Offset = "0x20B6630", VA = "0x1820B8030")]
+	[Token(Token = "0x600038C")]
+	[Address(RVA = "0x58BF0E0", Offset = "0x58BE0E0", VA = "0x58BF0E0")]
 	private static Color? ParseColor(string hex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000524")]
-	[Address(RVA = "0x20B8C60", Offset = "0x20B7260", VA = "0x1820B8C60")]
+	[Token(Token = "0x600038D")]
+	[Address(RVA = "0x58BC4B0", Offset = "0x58BB4B0", VA = "0x58BC4B0")]
 	private void Rebuild()
 	{
 	}
 
-	[Token(Token = "0x6000525")]
-	[Address(RVA = "0x20B7640", Offset = "0x20B5C40", VA = "0x1820B7640")]
+	[Token(Token = "0x600038E")]
+	[Address(RVA = "0x58BF3E0", Offset = "0x58BE3E0", VA = "0x58BF3E0")]
 	private GameObject CreateSegmentGO(Transform parent, Segment seg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000526")]
-	[Address(RVA = "0x20B7C60", Offset = "0x20B6260", VA = "0x1820B7C60")]
+	[Token(Token = "0x600038F")]
+	[Address(RVA = "0x58BF1C0", Offset = "0x58BE1C0", VA = "0x58BF1C0")]
 	private GameObject CreateSpacerRow()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x20B71C0", Offset = "0x20B57C0", VA = "0x1820B71C0")]
+	[Token(Token = "0x6000390")]
+	[Address(RVA = "0x58BCEB0", Offset = "0x58BBEB0", VA = "0x58BCEB0")]
 	private void ApplyFontSize()
 	{
 	}
 
-	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x20B6FA0", Offset = "0x20B55A0", VA = "0x1820B6FA0")]
+	[Token(Token = "0x6000391")]
+	[Address(RVA = "0x58BCEE0", Offset = "0x58BBEE0", VA = "0x58BCEE0")]
 	private void ApplyColor()
 	{
 	}
 
-	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x20B6DF0", Offset = "0x20B53F0", VA = "0x1820B6DF0")]
+	[Token(Token = "0x6000392")]
+	[Address(RVA = "0x58BD1B0", Offset = "0x58BC1B0", VA = "0x58BD1B0")]
 	private void ApplyAlignment()
 	{
 	}
 
-	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x20B7E80", Offset = "0x20B6480", VA = "0x1820B7E80")]
+	[Token(Token = "0x6000393")]
+	[Address(RVA = "0x58C0030", Offset = "0x58BF030", VA = "0x58C0030")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x20B96D0", Offset = "0x20B7CD0", VA = "0x1820B96D0")]
+	[Token(Token = "0x6000394")]
+	[Address(RVA = "0x58C0200", Offset = "0x58BF200", VA = "0x58C0200")]
 	public EffectText()
 	{
 	}

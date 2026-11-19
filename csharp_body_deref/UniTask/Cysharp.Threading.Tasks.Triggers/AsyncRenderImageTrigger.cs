@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncRenderImageTrigger : AsyncTriggerBase<(RenderTexture source, RenderTexture destination)>
 {
 	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x29375B0", Offset = "0x2935BB0", VA = "0x1829375B0")]
+	[Address(RVA = "0x62FF870", Offset = "0x62FE870", VA = "0x62FF870")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x2937290", Offset = "0x2935890", VA = "0x182937290")]
+	[Address(RVA = "0x62FF8F0", Offset = "0x62FE8F0", VA = "0x62FF8F0")]
 	public IAsyncOnRenderImageHandler GetOnRenderImageAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x2937300", Offset = "0x2935900", VA = "0x182937300")]
+	[Address(RVA = "0x62FF960", Offset = "0x62FE960", VA = "0x62FF960")]
 	public IAsyncOnRenderImageHandler GetOnRenderImageAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x2937490", Offset = "0x2935A90", VA = "0x182937490")]
+	[Address(RVA = "0x62FF9D0", Offset = "0x62FE9D0", VA = "0x62FF9D0")]
 	public UniTask<(RenderTexture, RenderTexture)> OnRenderImageAsync()
 	{
 		return default(UniTask<(RenderTexture, RenderTexture)>);
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x2937380", Offset = "0x2935980", VA = "0x182937380")]
+	[Address(RVA = "0x62FFAD0", Offset = "0x62FEAD0", VA = "0x62FFAD0")]
 	public UniTask<(RenderTexture, RenderTexture)> OnRenderImageAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<(RenderTexture, RenderTexture)>);
 	}
 
 	[Token(Token = "0x6000BB2")]
-	[Address(RVA = "0x2937640", Offset = "0x2935C40", VA = "0x182937640")]
+	[Address(RVA = "0x62FFBF0", Offset = "0x62FEBF0", VA = "0x62FFBF0")]
 	public AsyncRenderImageTrigger()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.LowLevel.GlyphAnchorPoint
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,14 +33,14 @@ internal struct GlyphAnchorPoint
 	[Token(Token = "0x1700002D")]
 	public float xCoordinate
 	{
-		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
+		[Token(Token = "0x60000AE")]
+		[Address(RVA = "0x69FD450", Offset = "0x69FC450", VA = "0x69FD450")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
+		[Token(Token = "0x60000AF")]
+		[Address(RVA = "0x69FD460", Offset = "0x69FC460", VA = "0x69FD460")]
 		set
 		{
 		}
@@ -49,14 +49,14 @@ internal struct GlyphAnchorPoint
 	[Token(Token = "0x1700002E")]
 	public float yCoordinate
 	{
-		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
+		[Token(Token = "0x60000B0")]
+		[Address(RVA = "0x69FD470", Offset = "0x69FC470", VA = "0x69FD470")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Token(Token = "0x60000B1")]
+		[Address(RVA = "0x69FD480", Offset = "0x69FC480", VA = "0x69FD480")]
 		set
 		{
 		}

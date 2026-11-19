@@ -34,19 +34,19 @@ internal static class StringPluginExtensions
 	private static int _lastRndSeed;
 
 	[Token(Token = "0x600035B")]
-	[Address(RVA = "0x572730", Offset = "0x570D30", VA = "0x180572730")]
+	[Address(RVA = "0x318E0D0", Offset = "0x318D0D0", VA = "0x318E0D0")]
 	static StringPluginExtensions()
 	{
 	}
 
 	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x5726A0", Offset = "0x570CA0", VA = "0x1805726A0")]
+	[Address(RVA = "0x318E450", Offset = "0x318D450", VA = "0x318E450")]
 	internal static void ScrambleChars(this char[] chars)
 	{
 	}
 
 	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x572560", Offset = "0x570B60", VA = "0x180572560")]
+	[Address(RVA = "0x318DE90", Offset = "0x318CE90", VA = "0x318DE90")]
 	internal static StringBuilder AppendScrambledChars(this StringBuilder buffer, int length, char[] chars)
 	{
 		return null;

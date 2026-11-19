@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000237")]
+[Token(Token = "0x20001F8")]
 public interface IReferenceService
 {
-	[Token(Token = "0x6000F61")]
+	[Token(Token = "0x6000DA1")]
 	object GetReference(string name);
 
-	[Token(Token = "0x6000F62")]
+	[Token(Token = "0x6000DA2")]
 	string GetName(object reference);
 
-	[Token(Token = "0x6000F63")]
+	[Token(Token = "0x6000DA3")]
 	object[] GetReferences(Type baseType);
 }

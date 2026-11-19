@@ -12,49 +12,49 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003EC")]
+[Token(Token = "0x200044B")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Parameter)]
 internal class CLParamAttribute : Attribute
 {
-	[Token(Token = "0x17000291")]
+	[Token(Token = "0x170002D2")]
 	public string Type
 	{
-		[Token(Token = "0x6001819")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001A90")]
+		[Address(RVA = "0x58A9890", Offset = "0x58A8890", VA = "0x58A9890")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600181A")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6001A91")]
+		[Address(RVA = "0x58A98A0", Offset = "0x58A88A0", VA = "0x58A98A0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000292")]
+	[Token(Token = "0x170002D3")]
 	public Type[] Enum
 	{
-		[Token(Token = "0x600181B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001A92")]
+		[Address(RVA = "0x58A98B0", Offset = "0x58A88B0", VA = "0x58A98B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600181C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001A93")]
+		[Address(RVA = "0x58A98C0", Offset = "0x58A88C0", VA = "0x58A98C0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600181D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001A94")]
+	[Address(RVA = "0x58A98D0", Offset = "0x58A88D0", VA = "0x58A98D0")]
 	public CLParamAttribute()
 	{
 	}

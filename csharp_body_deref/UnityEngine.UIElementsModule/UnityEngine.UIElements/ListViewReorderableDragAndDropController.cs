@@ -17,20 +17,20 @@ internal class ListViewReorderableDragAndDropController : BaseReorderableDragAnd
 	protected readonly BaseListView m_ListView;
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x3248730", Offset = "0x3246D30", VA = "0x183248730")]
+	[Address(RVA = "0x6C59D40", Offset = "0x6C58D40", VA = "0x6C59D40")]
 	public ListViewReorderableDragAndDropController(BaseListView view)
 	{
 	}
 
 	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x32483C0", Offset = "0x32469C0", VA = "0x1832483C0", Slot = "19")]
+	[Address(RVA = "0x6C59D70", Offset = "0x6C58D70", VA = "0x6C59D70", Slot = "19")]
 	public override DragVisualMode HandleDragAndDrop(IListDragAndDropArgs args)
 	{
 		return default(DragVisualMode);
 	}
 
 	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x3248490", Offset = "0x3246A90", VA = "0x183248490", Slot = "20")]
+	[Address(RVA = "0x6C59EE0", Offset = "0x6C58EE0", VA = "0x6C59EE0", Slot = "20")]
 	public override void OnDrop(IListDragAndDropArgs args)
 	{
 	}

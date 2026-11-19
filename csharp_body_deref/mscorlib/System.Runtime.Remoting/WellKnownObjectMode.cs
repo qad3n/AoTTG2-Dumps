@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting;
 
 [Serializable]
-[Token(Token = "0x2000386")]
+[Token(Token = "0x200035F")]
 [ComVisible(true)]
 public enum WellKnownObjectMode
 {
-	[Token(Token = "0x4000ED2")]
+	[Token(Token = "0x4000E32")]
 	Singleton = 1,
-	[Token(Token = "0x4000ED3")]
+	[Token(Token = "0x4000E33")]
 	SingleCall
 }

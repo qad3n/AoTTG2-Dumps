@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x2000421")]
-[Flags]
+[Token(Token = "0x20003FA")]
 [ComVisible(true)]
+[Flags]
 public enum StreamingContextStates
 {
-	[Token(Token = "0x4001031")]
+	[Token(Token = "0x4000F91")]
 	CrossProcess = 1,
-	[Token(Token = "0x4001032")]
+	[Token(Token = "0x4000F92")]
 	CrossMachine = 2,
-	[Token(Token = "0x4001033")]
+	[Token(Token = "0x4000F93")]
 	File = 4,
-	[Token(Token = "0x4001034")]
+	[Token(Token = "0x4000F94")]
 	Persistence = 8,
-	[Token(Token = "0x4001035")]
+	[Token(Token = "0x4000F95")]
 	Remoting = 0x10,
-	[Token(Token = "0x4001036")]
+	[Token(Token = "0x4000F96")]
 	Other = 0x20,
-	[Token(Token = "0x4001037")]
+	[Token(Token = "0x4000F97")]
 	Clone = 0x40,
-	[Token(Token = "0x4001038")]
+	[Token(Token = "0x4000F98")]
 	CrossAppDomain = 0x80,
-	[Token(Token = "0x4001039")]
+	[Token(Token = "0x4000F99")]
 	All = CrossProcess | CrossMachine | File | Persistence | Remoting | Other | Clone | CrossAppDomain
 }

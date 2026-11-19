@@ -36,7 +36,7 @@ public class TMP_Sprite : TMP_TextElement_Legacy
 	public Sprite sprite;
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6739A80", Offset = "0x6738A80", VA = "0x6739A80")]
 	public TMP_Sprite()
 	{
 	}

@@ -21,14 +21,14 @@ public class ChannelCreationOptions
 	public bool PublishSubscribers
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x569E7B0", Offset = "0x569D7B0", VA = "0x569E7B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x569E7C0", Offset = "0x569D7C0", VA = "0x569E7C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -39,14 +39,14 @@ public class ChannelCreationOptions
 	public int MaxSubscribers
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x569E7D0", Offset = "0x569D7D0", VA = "0x569E7D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x569E7E0", Offset = "0x569D7E0", VA = "0x569E7E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,7 +54,7 @@ public class ChannelCreationOptions
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x569E7F0", Offset = "0x569D7F0", VA = "0x569E7F0")]
 	public ChannelCreationOptions()
 	{
 	}

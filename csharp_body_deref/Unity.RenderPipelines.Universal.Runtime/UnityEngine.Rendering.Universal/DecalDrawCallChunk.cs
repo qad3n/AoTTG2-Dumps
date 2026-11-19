@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalDrawCallChunk
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,38 +38,38 @@ internal class DecalDrawCallChunk : DecalChunk
 	public int subCallCount
 	{
 		[Token(Token = "0x6000315")]
-		[Address(RVA = "0x2C1CB10", Offset = "0x2C1B110", VA = "0x182C1CB10")]
+		[Address(RVA = "0x6612DE0", Offset = "0x6611DE0", VA = "0x6612DE0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000314")]
-		[Address(RVA = "0x2C1CB20", Offset = "0x2C1B120", VA = "0x182C1CB20")]
+		[Address(RVA = "0x6612DD0", Offset = "0x6611DD0", VA = "0x6612DD0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x2C1C9A0", Offset = "0x2C1AFA0", VA = "0x182C1C9A0", Slot = "6")]
+	[Address(RVA = "0x6612DF0", Offset = "0x6611DF0", VA = "0x6612DF0", Slot = "6")]
 	public override void RemoveAtSwapBack(int entityIndex)
 	{
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x2C1CA70", Offset = "0x2C1B070", VA = "0x182C1CA70", Slot = "7")]
+	[Address(RVA = "0x6612EA0", Offset = "0x6611EA0", VA = "0x6612EA0", Slot = "7")]
 	public override void SetCapacity(int newCapacity)
 	{
 	}
 
 	[Token(Token = "0x6000318")]
-	[Address(RVA = "0x2C1C8F0", Offset = "0x2C1AEF0", VA = "0x182C1C8F0", Slot = "8")]
+	[Address(RVA = "0x6612F40", Offset = "0x6611F40", VA = "0x6612F40", Slot = "8")]
 	public override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000319")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6613000", Offset = "0x6612000", VA = "0x6613000")]
 	public DecalDrawCallChunk()
 	{
 	}

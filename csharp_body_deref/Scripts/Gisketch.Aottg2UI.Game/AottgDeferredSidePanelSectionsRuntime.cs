@@ -17,38 +17,38 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002EA")]
+[Token(Token = "0x2000348")]
 internal sealed class AottgDeferredSidePanelSectionsRuntime : MonoBehaviour
 {
-	[Token(Token = "0x20002EB")]
+	[Token(Token = "0x2000349")]
 	[CompilerGenerated]
 	private sealed class _003CBuildDeferred_003Ed__12 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000EE6")]
+		[Token(Token = "0x400107C")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000EE7")]
+		[Token(Token = "0x400107D")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000EE8")]
+		[Token(Token = "0x400107E")]
 		[FieldOffset(Offset = "0x20")]
 		public AottgDeferredSidePanelSectionsRuntime _003C_003E4__this;
 
-		[Token(Token = "0x4000EE9")]
+		[Token(Token = "0x400107F")]
 		[FieldOffset(Offset = "0x28")]
 		private Transform _003Cparent_003E5__2;
 
-		[Token(Token = "0x4000EEA")]
+		[Token(Token = "0x4001080")]
 		[FieldOffset(Offset = "0x30")]
 		private int _003Ci_003E5__3;
 
-		[Token(Token = "0x170001FF")]
+		[Token(Token = "0x1700023C")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6001234")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x600148A")]
+			[Address(RVA = "0x5814C00", Offset = "0x5813C00", VA = "0x5814C00", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -56,11 +56,11 @@ internal sealed class AottgDeferredSidePanelSectionsRuntime : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000200")]
+		[Token(Token = "0x1700023D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6001236")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x600148C")]
+			[Address(RVA = "0x5814C50", Offset = "0x5813C50", VA = "0x5814C50", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,112 +68,112 @@ internal sealed class AottgDeferredSidePanelSectionsRuntime : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6001231")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6001487")]
+		[Address(RVA = "0x58148D0", Offset = "0x58138D0", VA = "0x58148D0")]
 		[DebuggerHidden]
 		public _003CBuildDeferred_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6001232")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6001488")]
+		[Address(RVA = "0x58149F0", Offset = "0x58139F0", VA = "0x58149F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6001233")]
-		[Address(RVA = "0x1E3A040", Offset = "0x1E38640", VA = "0x181E3A040", Slot = "6")]
+		[Token(Token = "0x6001489")]
+		[Address(RVA = "0x5814A00", Offset = "0x5813A00", VA = "0x5814A00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001235")]
-		[Address(RVA = "0x1E3A340", Offset = "0x1E38940", VA = "0x181E3A340", Slot = "8")]
+		[Token(Token = "0x600148B")]
+		[Address(RVA = "0x5814C10", Offset = "0x5813C10", VA = "0x5814C10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000EE0")]
+	[Token(Token = "0x4001076")]
 	public const string NodeType = "DeferredSidePanelSections";
 
-	[Token(Token = "0x4000EE1")]
+	[Token(Token = "0x4001077")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool _registered;
 
-	[Token(Token = "0x4000EE2")]
+	[Token(Token = "0x4001078")]
 	[FieldOffset(Offset = "0x20")]
 	private GisketchNodeDefinition[] _nodes;
 
-	[Token(Token = "0x4000EE3")]
+	[Token(Token = "0x4001079")]
 	[FieldOffset(Offset = "0x28")]
 	private GisketchBuildContext _context;
 
-	[Token(Token = "0x4000EE4")]
+	[Token(Token = "0x400107A")]
 	[FieldOffset(Offset = "0x30")]
 	private GisketchView _view;
 
-	[Token(Token = "0x4000EE5")]
+	[Token(Token = "0x400107B")]
 	[FieldOffset(Offset = "0x38")]
 	private Coroutine _build;
 
-	[Token(Token = "0x6001228")]
-	[Address(RVA = "0x1E2A1D0", Offset = "0x1E287D0", VA = "0x181E2A1D0")]
+	[Token(Token = "0x600147E")]
+	[Address(RVA = "0x5814400", Offset = "0x5813400", VA = "0x5814400")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x6001229")]
-	[Address(RVA = "0x1E29F90", Offset = "0x1E28590", VA = "0x181E29F90")]
+	[Token(Token = "0x600147F")]
+	[Address(RVA = "0x58144F0", Offset = "0x58134F0", VA = "0x58144F0")]
 	private static bool BuildRuntime(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x1E2A3D0", Offset = "0x1E289D0", VA = "0x181E2A3D0")]
+	[Token(Token = "0x6001480")]
+	[Address(RVA = "0x5814680", Offset = "0x5813680", VA = "0x5814680")]
 	private void Setup(GisketchNodeDefinition[] nodes, GisketchBuildContext context, GisketchView view)
 	{
 	}
 
-	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x1E2A1C0", Offset = "0x1E287C0", VA = "0x181E2A1C0")]
+	[Token(Token = "0x6001481")]
+	[Address(RVA = "0x5814820", Offset = "0x5813820", VA = "0x5814820")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600122C")]
-	[Address(RVA = "0x1E2A470", Offset = "0x1E28A70", VA = "0x181E2A470")]
+	[Token(Token = "0x6001482")]
+	[Address(RVA = "0x5814720", Offset = "0x5813720", VA = "0x5814720")]
 	private void StartIfReady()
 	{
 	}
 
-	[Token(Token = "0x600122D")]
-	[Address(RVA = "0x1E2A180", Offset = "0x1E28780", VA = "0x181E2A180")]
+	[Token(Token = "0x6001483")]
+	[Address(RVA = "0x58148A0", Offset = "0x58138A0", VA = "0x58148A0")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600122E")]
-	[Address(RVA = "0x1E29F20", Offset = "0x1E28520", VA = "0x181E29F20")]
+	[Token(Token = "0x6001484")]
+	[Address(RVA = "0x5814830", Offset = "0x5813830", VA = "0x5814830")]
 	[IteratorStateMachine(typeof(_003CBuildDeferred_003Ed__12))]
 	private IEnumerator BuildDeferred()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600122F")]
-	[Address(RVA = "0x1E2A2D0", Offset = "0x1E288D0", VA = "0x181E2A2D0")]
+	[Token(Token = "0x6001485")]
+	[Address(RVA = "0x58148F0", Offset = "0x58138F0", VA = "0x58148F0")]
 	private GameObject SettleRoot()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001230")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6001486")]
+	[Address(RVA = "0x58149E0", Offset = "0x58139E0", VA = "0x58149E0")]
 	public AottgDeferredSidePanelSectionsRuntime()
 	{
 	}

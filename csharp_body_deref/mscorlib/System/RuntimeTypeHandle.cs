@@ -16,272 +16,272 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20001C8")]
+[Token(Token = "0x20001A0")]
 [ComVisible(true)]
 public struct RuntimeTypeHandle : ISerializable
 {
-	[Token(Token = "0x4000728")]
+	[Token(Token = "0x4000686")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IntPtr value;
 
-	[Token(Token = "0x17000175")]
+	[Token(Token = "0x17000174")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x600104D")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6001024")]
+		[Address(RVA = "0x5516320", Offset = "0x5515320", VA = "0x5516320")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x600104A")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x6001021")]
+	[Address(RVA = "0x5516180", Offset = "0x5515180", VA = "0x5516180")]
 	internal RuntimeTypeHandle(IntPtr val)
 	{
 	}
 
-	[Token(Token = "0x600104B")]
-	[Address(RVA = "0x1B89FE0", Offset = "0x1B885E0", VA = "0x181B89FE0")]
+	[Token(Token = "0x6001022")]
+	[Address(RVA = "0x5516190", Offset = "0x5515190", VA = "0x5516190")]
 	internal RuntimeTypeHandle(System.RuntimeType type)
 	{
 	}
 
-	[Token(Token = "0x600104C")]
-	[Address(RVA = "0x1B89E40", Offset = "0x1B88440", VA = "0x181B89E40")]
+	[Token(Token = "0x6001023")]
+	[Address(RVA = "0x55161B0", Offset = "0x55151B0", VA = "0x55161B0")]
 	private RuntimeTypeHandle(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600104E")]
-	[Address(RVA = "0x1B89770", Offset = "0x1B87D70", VA = "0x181B89770", Slot = "4")]
+	[Token(Token = "0x6001025")]
+	[Address(RVA = "0x5516330", Offset = "0x5515330", VA = "0x5516330", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600104F")]
-	[Address(RVA = "0x1B895E0", Offset = "0x1B87BE0", VA = "0x181B895E0", Slot = "0")]
+	[Token(Token = "0x6001026")]
+	[Address(RVA = "0x5516490", Offset = "0x5515490", VA = "0x5516490", Slot = "0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001050")]
-	[Address(RVA = "0x187DED0", Offset = "0x187C4D0", VA = "0x18187DED0")]
+	[Token(Token = "0x6001027")]
+	[Address(RVA = "0x5516570", Offset = "0x5515570", VA = "0x5516570")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public bool Equals(RuntimeTypeHandle handle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001051")]
-	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "2")]
+	[Token(Token = "0x6001028")]
+	[Address(RVA = "0x5516580", Offset = "0x5515580", VA = "0x5516580", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001052")]
-	[Address(RVA = "0x1B896F0", Offset = "0x1B87CF0", VA = "0x181B896F0")]
+	[Token(Token = "0x6001029")]
+	[Address(RVA = "0x5516590", Offset = "0x5515590", VA = "0x5516590")]
 	internal static extern TypeAttributes GetAttributes(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001053")]
-	[Address(RVA = "0x1B89750", Offset = "0x1B87D50", VA = "0x181B89750")]
+	[Token(Token = "0x600102A")]
+	[Address(RVA = "0x55165A0", Offset = "0x55155A0", VA = "0x55165A0")]
 	private static extern int GetMetadataToken(System.RuntimeType type);
 
-	[Token(Token = "0x6001054")]
-	[Address(RVA = "0x1B89750", Offset = "0x1B87D50", VA = "0x181B89750")]
+	[Token(Token = "0x600102B")]
+	[Address(RVA = "0x55165B0", Offset = "0x55155B0", VA = "0x55165B0")]
 	internal static int GetToken(System.RuntimeType type)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001055")]
-	[Address(RVA = "0x1B89740", Offset = "0x1B87D40", VA = "0x181B89740")]
+	[Token(Token = "0x600102C")]
+	[Address(RVA = "0x55165C0", Offset = "0x55155C0", VA = "0x55165C0")]
 	private static extern Type GetGenericTypeDefinition_impl(System.RuntimeType type);
 
-	[Token(Token = "0x6001056")]
-	[Address(RVA = "0x1B89740", Offset = "0x1B87D40", VA = "0x181B89740")]
+	[Token(Token = "0x600102D")]
+	[Address(RVA = "0x55165D0", Offset = "0x55155D0", VA = "0x55165D0")]
 	internal static Type GetGenericTypeDefinition(System.RuntimeType type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001057")]
-	[Address(RVA = "0x1B89DC0", Offset = "0x1B883C0", VA = "0x181B89DC0")]
+	[Token(Token = "0x600102E")]
+	[Address(RVA = "0x55165E0", Offset = "0x55155E0", VA = "0x55165E0")]
 	internal static bool IsPrimitive(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001058")]
-	[Address(RVA = "0x1B89CA0", Offset = "0x1B882A0", VA = "0x181B89CA0")]
+	[Token(Token = "0x600102F")]
+	[Address(RVA = "0x5516610", Offset = "0x5515610", VA = "0x5516610")]
 	internal static bool IsByRef(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001059")]
-	[Address(RVA = "0x1B89DA0", Offset = "0x1B883A0", VA = "0x181B89DA0")]
+	[Token(Token = "0x6001030")]
+	[Address(RVA = "0x5516620", Offset = "0x5515620", VA = "0x5516620")]
 	internal static bool IsPointer(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600105A")]
-	[Address(RVA = "0x1B89C70", Offset = "0x1B88270", VA = "0x181B89C70")]
+	[Token(Token = "0x6001031")]
+	[Address(RVA = "0x5516630", Offset = "0x5515630", VA = "0x5516630")]
 	internal static bool IsArray(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600105B")]
-	[Address(RVA = "0x1B89E20", Offset = "0x1B88420", VA = "0x181B89E20")]
+	[Token(Token = "0x6001032")]
+	[Address(RVA = "0x5516650", Offset = "0x5515650", VA = "0x5516650")]
 	internal static bool IsSzArray(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600105C")]
-	[Address(RVA = "0x1B89C20", Offset = "0x1B88220", VA = "0x181B89C20")]
+	[Token(Token = "0x6001033")]
+	[Address(RVA = "0x5516660", Offset = "0x5515660", VA = "0x5516660")]
 	internal static bool HasElementType(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600105D")]
-	[Address(RVA = "0x1B89710", Offset = "0x1B87D10", VA = "0x181B89710")]
+	[Token(Token = "0x6001034")]
+	[Address(RVA = "0x5516600", Offset = "0x5515600", VA = "0x5516600")]
 	internal static extern System.Reflection.CorElementType GetCorElementType(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600105E")]
-	[Address(RVA = "0x1B89C50", Offset = "0x1B88250", VA = "0x181B89C50")]
+	[Token(Token = "0x6001035")]
+	[Address(RVA = "0x5516690", Offset = "0x5515690", VA = "0x5516690")]
 	internal static extern bool HasInstantiation(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600105F")]
-	[Address(RVA = "0x1948290", Offset = "0x1946890", VA = "0x181948290")]
+	[Token(Token = "0x6001036")]
+	[Address(RVA = "0x55166A0", Offset = "0x55156A0", VA = "0x55166A0")]
 	internal static extern bool IsComObject(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001060")]
-	[Address(RVA = "0x1B89D70", Offset = "0x1B88370", VA = "0x181B89D70")]
+	[Token(Token = "0x6001037")]
+	[Address(RVA = "0x55166B0", Offset = "0x55156B0", VA = "0x55166B0")]
 	internal static extern bool IsInstanceOfType(System.RuntimeType type, object o);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001061")]
-	[Address(RVA = "0x1B89C60", Offset = "0x1B88260", VA = "0x181B89C60")]
+	[Token(Token = "0x6001038")]
+	[Address(RVA = "0x55166C0", Offset = "0x55156C0", VA = "0x55166C0")]
 	internal static extern bool HasReferences(System.RuntimeType type);
 
-	[Token(Token = "0x6001062")]
-	[Address(RVA = "0x1B89CC0", Offset = "0x1B882C0", VA = "0x181B89CC0")]
+	[Token(Token = "0x6001039")]
+	[Address(RVA = "0x55166D0", Offset = "0x55156D0", VA = "0x55166D0")]
 	internal static bool IsComObject(System.RuntimeType type, bool isGenericCOM)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001063")]
-	[Address(RVA = "0x1B89CD0", Offset = "0x1B882D0", VA = "0x181B89CD0")]
+	[Token(Token = "0x600103A")]
+	[Address(RVA = "0x55166E0", Offset = "0x55156E0", VA = "0x55166E0")]
 	internal static bool IsContextful(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001064")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Token(Token = "0x600103B")]
+	[Address(RVA = "0x5516760", Offset = "0x5515760", VA = "0x5516760")]
 	internal static bool IsEquivalentTo(System.RuntimeType rtType1, System.RuntimeType rtType2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001065")]
-	[Address(RVA = "0x1B89D80", Offset = "0x1B88380", VA = "0x181B89D80")]
+	[Token(Token = "0x600103C")]
+	[Address(RVA = "0x5516770", Offset = "0x5515770", VA = "0x5516770")]
 	internal static bool IsInterface(System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001066")]
-	[Address(RVA = "0x1B896D0", Offset = "0x1B87CD0", VA = "0x181B896D0")]
+	[Token(Token = "0x600103D")]
+	[Address(RVA = "0x5516790", Offset = "0x5515790", VA = "0x5516790")]
 	internal static extern int GetArrayRank(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001067")]
-	[Address(RVA = "0x1B896E0", Offset = "0x1B87CE0", VA = "0x181B896E0")]
+	[Token(Token = "0x600103E")]
+	[Address(RVA = "0x55167A0", Offset = "0x55157A0", VA = "0x55167A0")]
 	internal static extern System.Reflection.RuntimeAssembly GetAssembly(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001068")]
-	[Address(RVA = "0x1B89720", Offset = "0x1B87D20", VA = "0x181B89720")]
+	[Token(Token = "0x600103F")]
+	[Address(RVA = "0x55167B0", Offset = "0x55157B0", VA = "0x55167B0")]
 	internal static extern System.RuntimeType GetElementType(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001069")]
-	[Address(RVA = "0x1B89760", Offset = "0x1B87D60", VA = "0x181B89760")]
+	[Token(Token = "0x6001040")]
+	[Address(RVA = "0x55167C0", Offset = "0x55157C0", VA = "0x55167C0")]
 	internal static extern System.Reflection.RuntimeModule GetModule(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600106A")]
-	[Address(RVA = "0x1B89D60", Offset = "0x1B88360", VA = "0x181B89D60")]
+	[Token(Token = "0x6001041")]
+	[Address(RVA = "0x55167D0", Offset = "0x55157D0", VA = "0x55167D0")]
 	internal static extern bool IsGenericVariable(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600106B")]
-	[Address(RVA = "0x1B89700", Offset = "0x1B87D00", VA = "0x181B89700")]
+	[Token(Token = "0x6001042")]
+	[Address(RVA = "0x55167E0", Offset = "0x55157E0", VA = "0x55167E0")]
 	internal static extern System.RuntimeType GetBaseType(System.RuntimeType type);
 
-	[Token(Token = "0x600106C")]
-	[Address(RVA = "0x1B895D0", Offset = "0x1B87BD0", VA = "0x181B895D0")]
+	[Token(Token = "0x6001043")]
+	[Address(RVA = "0x55167F0", Offset = "0x55157F0", VA = "0x55167F0")]
 	internal static bool CanCastTo(System.RuntimeType type, System.RuntimeType target)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600106D")]
-	[Address(RVA = "0x1B8A030", Offset = "0x1B88630", VA = "0x181B8A030")]
+	[Token(Token = "0x6001044")]
+	[Address(RVA = "0x5516800", Offset = "0x5515800", VA = "0x5516800")]
 	private static extern bool type_is_assignable_from(Type a, Type b);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600106E")]
-	[Address(RVA = "0x1B89D50", Offset = "0x1B88350", VA = "0x181B89D50")]
+	[Token(Token = "0x6001045")]
+	[Address(RVA = "0x5516810", Offset = "0x5515810", VA = "0x5516810")]
 	internal static extern bool IsGenericTypeDefinition(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600106F")]
-	[Address(RVA = "0x1B89730", Offset = "0x1B87D30", VA = "0x181B89730")]
+	[Token(Token = "0x6001046")]
+	[Address(RVA = "0x5516820", Offset = "0x5515820", VA = "0x5516820")]
 	internal static extern IntPtr GetGenericParameterInfo(System.RuntimeType type);
 
-	[Token(Token = "0x6001070")]
-	[Address(RVA = "0x1B89DF0", Offset = "0x1B883F0", VA = "0x181B89DF0")]
+	[Token(Token = "0x6001047")]
+	[Address(RVA = "0x5516830", Offset = "0x5515830", VA = "0x5516830")]
 	internal static bool IsSubclassOf(System.RuntimeType childType, System.RuntimeType baseType)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001071")]
-	[Address(RVA = "0x1B8A020", Offset = "0x1B88620", VA = "0x181B8A020")]
+	[Token(Token = "0x6001048")]
+	[Address(RVA = "0x5516850", Offset = "0x5515850", VA = "0x5516850")]
 	internal static extern bool is_subclass_of(IntPtr childType, IntPtr baseType);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001072")]
-	[Address(RVA = "0x1B89C90", Offset = "0x1B88290", VA = "0x181B89C90")]
+	[Token(Token = "0x6001049")]
+	[Address(RVA = "0x5516860", Offset = "0x5515860", VA = "0x5516860")]
 	internal static extern bool IsByRefLike(System.RuntimeType type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001073")]
-	[Address(RVA = "0x1B8A000", Offset = "0x1B88600", VA = "0x181B8A000")]
+	[Token(Token = "0x600104A")]
+	[Address(RVA = "0x5516870", Offset = "0x5515870", VA = "0x5516870")]
 	private static extern System.RuntimeType internal_from_name(string name, ref System.Threading.StackCrawlMark stackMark, Assembly callerAssembly, bool throwOnError, bool ignoreCase, bool reflectionOnly);
 
-	[Token(Token = "0x6001074")]
-	[Address(RVA = "0x1B898F0", Offset = "0x1B87EF0", VA = "0x181B898F0")]
+	[Token(Token = "0x600104B")]
+	[Address(RVA = "0x5516880", Offset = "0x5515880", VA = "0x5516880")]
 	internal static System.RuntimeType GetTypeByName(string typeName, bool throwOnError, bool ignoreCase, bool reflectionOnly, ref System.Threading.StackCrawlMark stackMark, bool loadTypeFromPartialName)
 	{
 		return null;

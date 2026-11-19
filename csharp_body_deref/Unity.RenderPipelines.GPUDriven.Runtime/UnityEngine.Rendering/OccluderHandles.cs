@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.OccluderHandles
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,20 +22,20 @@ internal struct OccluderHandles
 	public BufferHandle occlusionDebugOverlay;
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x2BF41B0", Offset = "0x2BF27B0", VA = "0x182BF41B0")]
+	[Address(RVA = "0x65E50B0", Offset = "0x65E40B0", VA = "0x65E50B0")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x2BF42C0", Offset = "0x2BF28C0", VA = "0x182BF42C0")]
+	[Address(RVA = "0x65E5220", Offset = "0x65E4220", VA = "0x65E5220")]
 	public void UseForOcclusionTest(IBaseRenderGraphBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x2BF4200", Offset = "0x2BF2800", VA = "0x182BF4200")]
+	[Address(RVA = "0x65E5380", Offset = "0x65E4380", VA = "0x65E5380")]
 	public void UseForOccluderUpdate(IBaseRenderGraphBuilder builder)
 	{
 	}

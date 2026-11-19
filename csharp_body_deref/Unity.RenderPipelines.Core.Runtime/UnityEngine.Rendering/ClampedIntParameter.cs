@@ -18,32 +18,32 @@ public class ClampedIntParameter : IntParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x4000995")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public int min;
 
 	[NonSerialized]
 	[Token(Token = "0x4000996")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x1C")]
 	public int max;
 
 	[Token(Token = "0x170001F0")]
 	public override int value
 	{
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
+		[Address(RVA = "0x6555760", Offset = "0x6554760", VA = "0x6555760", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F2A")]
-		[Address(RVA = "0x2B4FFB0", Offset = "0x2B4E5B0", VA = "0x182B4FFB0", Slot = "15")]
+		[Address(RVA = "0x6555770", Offset = "0x6554770", VA = "0x6555770", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x2B4FF50", Offset = "0x2B4E550", VA = "0x182B4FF50")]
+	[Address(RVA = "0x6555790", Offset = "0x6554790", VA = "0x6555790")]
 	public ClampedIntParameter(int value, int min, int max, bool overrideState = false)
 	{
 	}

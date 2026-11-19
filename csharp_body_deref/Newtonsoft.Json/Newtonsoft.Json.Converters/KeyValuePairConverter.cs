@@ -25,34 +25,34 @@ public class KeyValuePairConverter : JsonConverter
 	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType;
 
 	[Token(Token = "0x6000ED9")]
-	[Address(RVA = "0x1CA1900", Offset = "0x1C9FF00", VA = "0x181CA1900")]
+	[Address(RVA = "0x5636E20", Offset = "0x5635E20", VA = "0x5636E20")]
 	private static ReflectionObject InitializeReflectionObject(Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EDA")]
-	[Address(RVA = "0x1CA1F50", Offset = "0x1CA0550", VA = "0x181CA1F50", Slot = "4")]
+	[Address(RVA = "0x56370B0", Offset = "0x56360B0", VA = "0x56370B0", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000EDB")]
-	[Address(RVA = "0x1CA1B00", Offset = "0x1CA0100", VA = "0x181CA1B00", Slot = "5")]
+	[Address(RVA = "0x5637310", Offset = "0x5636310", VA = "0x5637310", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EDC")]
-	[Address(RVA = "0x1CA1810", Offset = "0x1C9FE10", VA = "0x181CA1810", Slot = "6")]
+	[Address(RVA = "0x5637830", Offset = "0x5636830", VA = "0x5637830", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EDD")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5637920", Offset = "0x5636920", VA = "0x5637920")]
 	public KeyValuePairConverter()
 	{
 	}

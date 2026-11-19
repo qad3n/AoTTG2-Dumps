@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderPipelineManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,107 +14,107 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003BE")]
+[Token(Token = "0x200038F")]
 public static class RenderPipelineManager
 {
-	[Token(Token = "0x4000BE9")]
+	[Token(Token = "0x4000AB6")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool s_CleanUpPipeline;
 
-	[Token(Token = "0x4000BEA")]
+	[Token(Token = "0x4000AB7")]
 	[FieldOffset(Offset = "0x8")]
 	private static RenderPipelineAsset s_CurrentPipelineAsset;
 
-	[Token(Token = "0x4000BEB")]
+	[Token(Token = "0x4000AB8")]
 	[FieldOffset(Offset = "0x10")]
 	private static RenderPipeline s_CurrentPipeline;
 
-	[Token(Token = "0x4000BEC")]
+	[Token(Token = "0x4000AB9")]
 	[FieldOffset(Offset = "0x18")]
 	private static bool s_PendingRPAssignationToRaise;
 
-	[Token(Token = "0x4000BED")]
+	[Token(Token = "0x4000ABA")]
 	[FieldOffset(Offset = "0x20")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static Action<ScriptableRenderContext, List<Camera>> m_beginContextRendering;
 
-	[Token(Token = "0x4000BEE")]
+	[Token(Token = "0x4000ABB")]
 	[FieldOffset(Offset = "0x28")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<ScriptableRenderContext, List<Camera>> m_endContextRendering;
 
-	[Token(Token = "0x4000BEF")]
+	[Token(Token = "0x4000ABC")]
 	[FieldOffset(Offset = "0x30")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<ScriptableRenderContext, Camera> m_beginCameraRendering;
 
-	[Token(Token = "0x4000BF0")]
+	[Token(Token = "0x4000ABD")]
 	[FieldOffset(Offset = "0x38")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static Action<ScriptableRenderContext, Camera> m_endCameraRendering;
 
-	[Token(Token = "0x4000BF1")]
+	[Token(Token = "0x4000ABE")]
 	[FieldOffset(Offset = "0x40")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action activeRenderPipelineTypeChanged;
 
-	[Token(Token = "0x4000BF2")]
+	[Token(Token = "0x4000ABF")]
 	[FieldOffset(Offset = "0x48")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<RenderPipelineAsset, RenderPipelineAsset> activeRenderPipelineAssetChanged;
 
-	[Token(Token = "0x4000BF3")]
+	[Token(Token = "0x4000AC0")]
 	[FieldOffset(Offset = "0x50")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action activeRenderPipelineCreated;
 
-	[Token(Token = "0x4000BF4")]
+	[Token(Token = "0x4000AC1")]
 	[FieldOffset(Offset = "0x58")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action m_activeRenderPipelineDisposed;
 
-	[Token(Token = "0x4000BF5")]
+	[Token(Token = "0x4000AC2")]
 	[FieldOffset(Offset = "0x60")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<ScriptableRenderContext, Camera[]> beginFrameRendering;
 
-	[Token(Token = "0x4000BF6")]
+	[Token(Token = "0x4000AC3")]
 	[FieldOffset(Offset = "0x68")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action<ScriptableRenderContext, Camera[]> endFrameRendering;
 
-	[Token(Token = "0x17000389")]
+	[Token(Token = "0x17000373")]
 	internal static RenderPipelineAsset currentPipelineAsset
 	{
-		[Token(Token = "0x6001693")]
-		[Address(RVA = "0x2F6A700", Offset = "0x2F68D00", VA = "0x182F6A700")]
+		[Token(Token = "0x600162C")]
+		[Address(RVA = "0x695C9A0", Offset = "0x695B9A0", VA = "0x695C9A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700038A")]
+	[Token(Token = "0x17000374")]
 	public static RenderPipeline currentPipeline
 	{
-		[Token(Token = "0x6001694")]
-		[Address(RVA = "0x2F6A740", Offset = "0x2F68D40", VA = "0x182F6A740")]
+		[Token(Token = "0x600162D")]
+		[Address(RVA = "0x695C9E0", Offset = "0x695B9E0", VA = "0x695C9E0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001695")]
-		[Address(RVA = "0x2F6AB80", Offset = "0x2F69180", VA = "0x182F6AB80")]
+		[Token(Token = "0x600162E")]
+		[Address(RVA = "0x695CA20", Offset = "0x695BA20", VA = "0x695CA20")]
 		private set
 		{
 		}
@@ -123,14 +123,14 @@ public static class RenderPipelineManager
 	[Token(Token = "0x1400000C")]
 	public static event Action<ScriptableRenderContext, List<Camera>> beginContextRendering
 	{
-		[Token(Token = "0x6001696")]
-		[Address(RVA = "0x2F6A490", Offset = "0x2F68A90", VA = "0x182F6A490")]
+		[Token(Token = "0x600162F")]
+		[Address(RVA = "0x695CAA0", Offset = "0x695BAA0", VA = "0x695CAA0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6001697")]
-		[Address(RVA = "0x2F6A910", Offset = "0x2F68F10", VA = "0x182F6A910")]
+		[Token(Token = "0x6001630")]
+		[Address(RVA = "0x695CB70", Offset = "0x695BB70", VA = "0x695CB70")]
 		[CompilerGenerated]
 		remove
 		{
@@ -140,14 +140,14 @@ public static class RenderPipelineManager
 	[Token(Token = "0x1400000D")]
 	public static event Action<ScriptableRenderContext, List<Camera>> endContextRendering
 	{
-		[Token(Token = "0x6001698")]
-		[Address(RVA = "0x2F6A630", Offset = "0x2F68C30", VA = "0x182F6A630")]
+		[Token(Token = "0x6001631")]
+		[Address(RVA = "0x695CC40", Offset = "0x695BC40", VA = "0x695CC40")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6001699")]
-		[Address(RVA = "0x2F6AAB0", Offset = "0x2F690B0", VA = "0x182F6AAB0")]
+		[Token(Token = "0x6001632")]
+		[Address(RVA = "0x695CD10", Offset = "0x695BD10", VA = "0x695CD10")]
 		[CompilerGenerated]
 		remove
 		{
@@ -157,14 +157,14 @@ public static class RenderPipelineManager
 	[Token(Token = "0x1400000E")]
 	public static event Action<ScriptableRenderContext, Camera> beginCameraRendering
 	{
-		[Token(Token = "0x600169A")]
-		[Address(RVA = "0x2F6A3C0", Offset = "0x2F689C0", VA = "0x182F6A3C0")]
+		[Token(Token = "0x6001633")]
+		[Address(RVA = "0x695CDE0", Offset = "0x695BDE0", VA = "0x695CDE0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600169B")]
-		[Address(RVA = "0x2F6A840", Offset = "0x2F68E40", VA = "0x182F6A840")]
+		[Token(Token = "0x6001634")]
+		[Address(RVA = "0x695CEB0", Offset = "0x695BEB0", VA = "0x695CEB0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -174,14 +174,14 @@ public static class RenderPipelineManager
 	[Token(Token = "0x1400000F")]
 	public static event Action<ScriptableRenderContext, Camera> endCameraRendering
 	{
-		[Token(Token = "0x600169C")]
-		[Address(RVA = "0x2F6A560", Offset = "0x2F68B60", VA = "0x182F6A560")]
+		[Token(Token = "0x6001635")]
+		[Address(RVA = "0x695CF80", Offset = "0x695BF80", VA = "0x695CF80")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600169D")]
-		[Address(RVA = "0x2F6A9E0", Offset = "0x2F68FE0", VA = "0x182F6A9E0")]
+		[Token(Token = "0x6001636")]
+		[Address(RVA = "0x695D050", Offset = "0x695C050", VA = "0x695D050")]
 		[CompilerGenerated]
 		remove
 		{
@@ -191,103 +191,103 @@ public static class RenderPipelineManager
 	[Token(Token = "0x14000010")]
 	public static event Action activeRenderPipelineDisposed
 	{
-		[Token(Token = "0x600169E")]
-		[Address(RVA = "0x2F6A300", Offset = "0x2F68900", VA = "0x182F6A300")]
+		[Token(Token = "0x6001637")]
+		[Address(RVA = "0x695D120", Offset = "0x695C120", VA = "0x695D120")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600169F")]
-		[Address(RVA = "0x2F6A780", Offset = "0x2F68D80", VA = "0x182F6A780")]
+		[Token(Token = "0x6001638")]
+		[Address(RVA = "0x695D1D0", Offset = "0x695C1D0", VA = "0x695D1D0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60016A0")]
-	[Address(RVA = "0x2F69540", Offset = "0x2F67B40", VA = "0x182F69540")]
+	[Token(Token = "0x6001639")]
+	[Address(RVA = "0x695B740", Offset = "0x695A740", VA = "0x695B740")]
 	internal static void BeginContextRendering(ScriptableRenderContext context, List<Camera> cameras)
 	{
 	}
 
-	[Token(Token = "0x60016A1")]
-	[Address(RVA = "0x2F694E0", Offset = "0x2F67AE0", VA = "0x182F694E0")]
+	[Token(Token = "0x600163A")]
+	[Address(RVA = "0x695B860", Offset = "0x695A860", VA = "0x695B860")]
 	internal static void BeginCameraRendering(ScriptableRenderContext context, Camera camera)
 	{
 	}
 
-	[Token(Token = "0x60016A2")]
-	[Address(RVA = "0x2F69BA0", Offset = "0x2F681A0", VA = "0x182F69BA0")]
+	[Token(Token = "0x600163B")]
+	[Address(RVA = "0x695B8E0", Offset = "0x695A8E0", VA = "0x695B8E0")]
 	internal static void EndContextRendering(ScriptableRenderContext context, List<Camera> cameras)
 	{
 	}
 
-	[Token(Token = "0x60016A3")]
-	[Address(RVA = "0x2F69B40", Offset = "0x2F68140", VA = "0x182F69B40")]
+	[Token(Token = "0x600163C")]
+	[Address(RVA = "0x695BA10", Offset = "0x695AA10", VA = "0x695BA10")]
 	internal static void EndCameraRendering(ScriptableRenderContext context, Camera camera)
 	{
 	}
 
-	[Token(Token = "0x60016A4")]
-	[Address(RVA = "0x2F69E80", Offset = "0x2F68480", VA = "0x182F69E80")]
+	[Token(Token = "0x600163D")]
+	[Address(RVA = "0x695D280", Offset = "0x695C280", VA = "0x695D280")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void OnActiveRenderPipelineAssetChanged(ScriptableObject from, ScriptableObject to, bool raiseTypeChanged)
 	{
 	}
 
-	[Token(Token = "0x60016A5")]
-	[Address(RVA = "0x2F69C60", Offset = "0x2F68260", VA = "0x182F69C60")]
+	[Token(Token = "0x600163E")]
+	[Address(RVA = "0x695D470", Offset = "0x695C470", VA = "0x695D470")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void HandleRenderPipelineChange(RenderPipelineAsset pipelineAsset)
 	{
 	}
 
-	[Token(Token = "0x60016A6")]
-	[Address(RVA = "0x2F68CA0", Offset = "0x2F672A0", VA = "0x182F68CA0")]
+	[Token(Token = "0x600163F")]
+	[Address(RVA = "0x695C010", Offset = "0x695B010", VA = "0x695C010")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RecreateCurrentPipeline(RenderPipelineAsset pipelineAsset)
 	{
 	}
 
-	[Token(Token = "0x60016A7")]
-	[Address(RVA = "0x2F69600", Offset = "0x2F67C00", VA = "0x182F69600")]
+	[Token(Token = "0x6001640")]
+	[Address(RVA = "0x695C0E0", Offset = "0x695B0E0", VA = "0x695C0E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CleanupRenderPipeline()
 	{
 	}
 
-	[Token(Token = "0x60016A8")]
-	[Address(RVA = "0x2F69860", Offset = "0x2F67E60", VA = "0x182F69860")]
+	[Token(Token = "0x6001641")]
+	[Address(RVA = "0x695D5B0", Offset = "0x695C5B0", VA = "0x695D5B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DoRenderLoop_Internal(RenderPipelineAsset pipelineAsset, IntPtr loopPtr, Object renderRequest)
 	{
 	}
 
-	[Token(Token = "0x60016A9")]
-	[Address(RVA = "0x2F6A090", Offset = "0x2F68690", VA = "0x182F6A090")]
+	[Token(Token = "0x6001642")]
+	[Address(RVA = "0x695D850", Offset = "0x695C850", VA = "0x695D850")]
 	internal static bool TryPrepareRenderPipeline(RenderPipelineAsset pipelineAsset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016AA")]
-	[Address(RVA = "0x2F69CE0", Offset = "0x2F682E0", VA = "0x182F69CE0")]
+	[Token(Token = "0x6001643")]
+	[Address(RVA = "0x695DBB0", Offset = "0x695CBB0", VA = "0x695DBB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InitializeGlobalRenderPipelineTag()
 	{
 	}
 
-	[Token(Token = "0x60016AB")]
-	[Address(RVA = "0x2F69D70", Offset = "0x2F68370", VA = "0x182F69D70")]
+	[Token(Token = "0x6001644")]
+	[Address(RVA = "0x695D4F0", Offset = "0x695C4F0", VA = "0x695D4F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool IsCurrentRenderPipelineValid()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016AC")]
-	[Address(RVA = "0x2F69DC0", Offset = "0x2F683C0", VA = "0x182F69DC0")]
+	[Token(Token = "0x6001645")]
+	[Address(RVA = "0x695DB00", Offset = "0x695CB00", VA = "0x695DB00")]
 	private static bool IsPipelineRequireCreation()
 	{
 		return default(bool);

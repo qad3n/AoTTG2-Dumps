@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000661")]
+[Token(Token = "0x200063A")]
 public class DirectoryNotFoundException : IOException
 {
-	[Token(Token = "0x60030B5")]
-	[Address(RVA = "0x1ACD680", Offset = "0x1ACBC80", VA = "0x181ACD680")]
+	[Token(Token = "0x600307A")]
+	[Address(RVA = "0x54646F0", Offset = "0x54636F0", VA = "0x54646F0")]
 	public DirectoryNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x60030B6")]
-	[Address(RVA = "0x1ACD6D0", Offset = "0x1ACBCD0", VA = "0x181ACD6D0")]
+	[Token(Token = "0x600307B")]
+	[Address(RVA = "0x5464730", Offset = "0x5463730", VA = "0x5464730")]
 	public DirectoryNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x60030B7")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x600307C")]
+	[Address(RVA = "0x5464750", Offset = "0x5463750", VA = "0x5464750")]
 	protected DirectoryNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}

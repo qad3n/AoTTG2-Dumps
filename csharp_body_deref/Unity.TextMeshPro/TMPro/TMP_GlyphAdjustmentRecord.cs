@@ -30,13 +30,13 @@ public struct TMP_GlyphAdjustmentRecord
 	public uint glyphIndex
 	{
 		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x66F68D0", Offset = "0x66F58D0", VA = "0x66F68D0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001F7")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x66F68E0", Offset = "0x66F58E0", VA = "0x66F68E0")]
 		set
 		{
 		}
@@ -46,26 +46,26 @@ public struct TMP_GlyphAdjustmentRecord
 	public TMP_GlyphValueRecord glyphValueRecord
 	{
 		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0xADC270", Offset = "0xADA870", VA = "0x180ADC270")]
+		[Address(RVA = "0x66F68F0", Offset = "0x66F58F0", VA = "0x66F68F0")]
 		get
 		{
 			return default(TMP_GlyphValueRecord);
 		}
 		[Token(Token = "0x60001F9")]
-		[Address(RVA = "0x2CF7460", Offset = "0x2CF5A60", VA = "0x182CF7460")]
+		[Address(RVA = "0x66F6900", Offset = "0x66F5900", VA = "0x66F6900")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x180D1A0", Offset = "0x180B7A0", VA = "0x18180D1A0")]
+	[Address(RVA = "0x66F6910", Offset = "0x66F5910", VA = "0x66F6910")]
 	public TMP_GlyphAdjustmentRecord(uint glyphIndex, TMP_GlyphValueRecord glyphValueRecord)
 	{
 	}
 
 	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x2CF73B0", Offset = "0x2CF59B0", VA = "0x182CF73B0")]
+	[Address(RVA = "0x66F6920", Offset = "0x66F5920", VA = "0x66F6920")]
 	internal TMP_GlyphAdjustmentRecord(GlyphAdjustmentRecord adjustmentRecord)
 	{
 	}

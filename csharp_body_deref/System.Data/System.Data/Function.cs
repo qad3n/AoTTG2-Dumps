@@ -45,7 +45,7 @@ internal sealed class Function
 	internal static string[] s_functionName;
 
 	[Token(Token = "0x6000319")]
-	[Address(RVA = "0x24FED10", Offset = "0x24FD310", VA = "0x1824FED10")]
+	[Address(RVA = "0x5E88460", Offset = "0x5E87460", VA = "0x5E88460")]
 	internal Function(string name, FunctionId id, Type result, bool IsValidateArguments, bool IsVariantArgumentList, int argumentCount, Type a1, Type a2, Type a3)
 	{
 	}

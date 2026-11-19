@@ -24,13 +24,13 @@ public struct Mesh_Extents
 	public Vector2 max;
 
 	[Token(Token = "0x600065C")]
-	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
+	[Address(RVA = "0x6760ED0", Offset = "0x675FED0", VA = "0x6760ED0")]
 	public Mesh_Extents(Vector2 min, Vector2 max)
 	{
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x2D613B0", Offset = "0x2D5F9B0", VA = "0x182D613B0", Slot = "3")]
+	[Address(RVA = "0x6760EE0", Offset = "0x675FEE0", VA = "0x6760EE0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

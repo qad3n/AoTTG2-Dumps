@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.FixedString
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,21 +15,21 @@ namespace Unity.Collections;
 public static class FixedString
 {
 	[Token(Token = "0x600057C")]
-	[Address(RVA = "0x29A6470", Offset = "0x29A4A70", VA = "0x1829A6470")]
+	[Address(RVA = "0x6370E50", Offset = "0x636FE50", VA = "0x6370E50")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, int arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x29A8930", Offset = "0x29A6F30", VA = "0x1829A8930")]
+	[Address(RVA = "0x6370F90", Offset = "0x636FF90", VA = "0x6370F90")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, int arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x29AEAE0", Offset = "0x29AD0E0", VA = "0x1829AEAE0")]
+	[Address(RVA = "0x63710F0", Offset = "0x63700F0", VA = "0x63710F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, int arg2, int arg3)
 	{
@@ -44,21 +44,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x29A6740", Offset = "0x29A4D40", VA = "0x1829A6740")]
+	[Address(RVA = "0x6371240", Offset = "0x6370240", VA = "0x6371240")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, int arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x6000581")]
-	[Address(RVA = "0x29ABE70", Offset = "0x29AA470", VA = "0x1829ABE70")]
+	[Address(RVA = "0x63713A0", Offset = "0x63703A0", VA = "0x63713A0")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, int arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x29A9540", Offset = "0x29A7B40", VA = "0x1829A9540")]
+	[Address(RVA = "0x6371510", Offset = "0x6370510", VA = "0x6371510")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, int arg2, int arg3)
 	{
@@ -73,7 +73,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x29A93D0", Offset = "0x29A79D0", VA = "0x1829A93D0")]
+	[Address(RVA = "0x6371690", Offset = "0x6370690", VA = "0x6371690")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, int arg2, int arg3)
 	{
@@ -81,7 +81,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000585")]
-	[Address(RVA = "0x29A7310", Offset = "0x29A5910", VA = "0x1829A7310")]
+	[Address(RVA = "0x63717F0", Offset = "0x63707F0", VA = "0x63717F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, int arg2, int arg3)
 	{
@@ -89,7 +89,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000586")]
-	[Address(RVA = "0x29A77B0", Offset = "0x29A5DB0", VA = "0x1829A77B0")]
+	[Address(RVA = "0x6371970", Offset = "0x6370970", VA = "0x6371970")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, int arg2, int arg3)
 	{
@@ -136,21 +136,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600058C")]
-	[Address(RVA = "0x29AE1B0", Offset = "0x29AC7B0", VA = "0x1829AE1B0")]
+	[Address(RVA = "0x6371AD0", Offset = "0x6370AD0", VA = "0x6371AD0")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, float arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x600058D")]
-	[Address(RVA = "0x29B0B80", Offset = "0x29AF180", VA = "0x1829B0B80")]
+	[Address(RVA = "0x6371C30", Offset = "0x6370C30", VA = "0x6371C30")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, float arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x29B03B0", Offset = "0x29AE9B0", VA = "0x1829B03B0")]
+	[Address(RVA = "0x6371DA0", Offset = "0x6370DA0", VA = "0x6371DA0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, float arg2, int arg3)
 	{
@@ -165,21 +165,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000590")]
-	[Address(RVA = "0x29AE330", Offset = "0x29AC930", VA = "0x1829AE330")]
+	[Address(RVA = "0x6371F10", Offset = "0x6370F10", VA = "0x6371F10")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, float arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x6000591")]
-	[Address(RVA = "0x29A84B0", Offset = "0x29A6AB0", VA = "0x1829A84B0")]
+	[Address(RVA = "0x6372080", Offset = "0x6371080", VA = "0x6372080")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, float arg2, int arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x6000592")]
-	[Address(RVA = "0x29AC260", Offset = "0x29AA860", VA = "0x1829AC260")]
+	[Address(RVA = "0x6372200", Offset = "0x6371200", VA = "0x6372200")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, float arg2, int arg3)
 	{
@@ -194,7 +194,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000594")]
-	[Address(RVA = "0x29A7620", Offset = "0x29A5C20", VA = "0x1829A7620")]
+	[Address(RVA = "0x6372380", Offset = "0x6371380", VA = "0x6372380")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, float arg2, int arg3)
 	{
@@ -202,7 +202,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000595")]
-	[Address(RVA = "0x29A90D0", Offset = "0x29A76D0", VA = "0x1829A90D0")]
+	[Address(RVA = "0x63724F0", Offset = "0x63714F0", VA = "0x63724F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, float arg2, int arg3)
 	{
@@ -210,7 +210,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000596")]
-	[Address(RVA = "0x29AD5F0", Offset = "0x29ABBF0", VA = "0x1829AD5F0")]
+	[Address(RVA = "0x6372670", Offset = "0x6371670", VA = "0x6372670")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, float arg2, int arg3)
 	{
@@ -257,7 +257,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x29A8650", Offset = "0x29A6C50", VA = "0x1829A8650")]
+	[Address(RVA = "0x63727E0", Offset = "0x63717E0", VA = "0x63727E0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, string arg2, int arg3)
 	{
@@ -265,7 +265,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x29A8C60", Offset = "0x29A7260", VA = "0x1829A8C60")]
+	[Address(RVA = "0x6372940", Offset = "0x6371940", VA = "0x6372940")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, string arg2, int arg3)
 	{
@@ -273,7 +273,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x29A8E00", Offset = "0x29A7400", VA = "0x1829A8E00")]
+	[Address(RVA = "0x6372AC0", Offset = "0x6371AC0", VA = "0x6372AC0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, string arg2, int arg3)
 	{
@@ -288,7 +288,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x29B0540", Offset = "0x29AEB40", VA = "0x1829B0540")]
+	[Address(RVA = "0x6372C20", Offset = "0x6371C20", VA = "0x6372C20")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, string arg2, int arg3)
 	{
@@ -296,7 +296,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x29A7920", Offset = "0x29A5F20", VA = "0x1829A7920")]
+	[Address(RVA = "0x6372DA0", Offset = "0x6371DA0", VA = "0x6372DA0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, string arg2, int arg3)
 	{
@@ -304,7 +304,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x29B06E0", Offset = "0x29AECE0", VA = "0x1829B06E0")]
+	[Address(RVA = "0x6372F30", Offset = "0x6371F30", VA = "0x6372F30")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, string arg2, int arg3)
 	{
@@ -319,7 +319,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x29ACC00", Offset = "0x29AB200", VA = "0x1829ACC00")]
+	[Address(RVA = "0x63730B0", Offset = "0x63720B0", VA = "0x63730B0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, string arg2, int arg3)
 	{
@@ -327,7 +327,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A5")]
-	[Address(RVA = "0x29AAB10", Offset = "0x29A9110", VA = "0x1829AAB10")]
+	[Address(RVA = "0x6373210", Offset = "0x6372210", VA = "0x6373210")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, string arg2, int arg3)
 	{
@@ -335,7 +335,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005A6")]
-	[Address(RVA = "0x29AE7E0", Offset = "0x29ACDE0", VA = "0x1829AE7E0")]
+	[Address(RVA = "0x6373390", Offset = "0x6372390", VA = "0x6373390")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, string arg2, int arg3)
 	{
@@ -511,21 +511,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005BC")]
-	[Address(RVA = "0x29AA470", Offset = "0x29A8A70", VA = "0x1829AA470")]
+	[Address(RVA = "0x63734F0", Offset = "0x63724F0", VA = "0x63734F0")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, int arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005BD")]
-	[Address(RVA = "0x29AF950", Offset = "0x29ADF50", VA = "0x1829AF950")]
+	[Address(RVA = "0x6373650", Offset = "0x6372650", VA = "0x6373650")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, int arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005BE")]
-	[Address(RVA = "0x29ACA70", Offset = "0x29AB070", VA = "0x1829ACA70")]
+	[Address(RVA = "0x63737C0", Offset = "0x63727C0", VA = "0x63737C0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, int arg2, float arg3)
 	{
@@ -540,21 +540,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005C0")]
-	[Address(RVA = "0x29AC0C0", Offset = "0x29AA6C0", VA = "0x1829AC0C0")]
+	[Address(RVA = "0x6373930", Offset = "0x6372930", VA = "0x6373930")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, int arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005C1")]
-	[Address(RVA = "0x29A99C0", Offset = "0x29A7FC0", VA = "0x1829A99C0")]
+	[Address(RVA = "0x6373AA0", Offset = "0x6372AA0", VA = "0x6373AA0")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, int arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005C2")]
-	[Address(RVA = "0x29AF440", Offset = "0x29ADA40", VA = "0x1829AF440")]
+	[Address(RVA = "0x6373C20", Offset = "0x6372C20", VA = "0x6373C20")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, int arg2, float arg3)
 	{
@@ -569,7 +569,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005C4")]
-	[Address(RVA = "0x29AB140", Offset = "0x29A9740", VA = "0x1829AB140")]
+	[Address(RVA = "0x6373DA0", Offset = "0x6372DA0", VA = "0x6373DA0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, int arg2, float arg3)
 	{
@@ -577,7 +577,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005C5")]
-	[Address(RVA = "0x29A7010", Offset = "0x29A5610", VA = "0x1829A7010")]
+	[Address(RVA = "0x6373F10", Offset = "0x6372F10", VA = "0x6373F10")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, int arg2, float arg3)
 	{
@@ -585,7 +585,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005C6")]
-	[Address(RVA = "0x29AAE00", Offset = "0x29A9400", VA = "0x1829AAE00")]
+	[Address(RVA = "0x6374090", Offset = "0x6373090", VA = "0x6374090")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, int arg2, float arg3)
 	{
@@ -632,21 +632,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005CC")]
-	[Address(RVA = "0x29AD780", Offset = "0x29ABD80", VA = "0x1829AD780")]
+	[Address(RVA = "0x6374200", Offset = "0x6373200", VA = "0x6374200")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, float arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005CD")]
-	[Address(RVA = "0x29AB440", Offset = "0x29A9A40", VA = "0x1829AB440")]
+	[Address(RVA = "0x6374360", Offset = "0x6373360", VA = "0x6374360")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, float arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005CE")]
-	[Address(RVA = "0x29A68D0", Offset = "0x29A4ED0", VA = "0x1829A68D0")]
+	[Address(RVA = "0x63744D0", Offset = "0x63734D0", VA = "0x63744D0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, float arg2, float arg3)
 	{
@@ -661,21 +661,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005D0")]
-	[Address(RVA = "0x29A81F0", Offset = "0x29A67F0", VA = "0x1829A81F0")]
+	[Address(RVA = "0x6374650", Offset = "0x6373650", VA = "0x6374650")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, float arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005D1")]
-	[Address(RVA = "0x29AD1D0", Offset = "0x29AB7D0", VA = "0x1829AD1D0")]
+	[Address(RVA = "0x63747C0", Offset = "0x63737C0", VA = "0x63747C0")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, float arg2, float arg3)
 	{
 		return default(FixedString512Bytes);
 	}
 
 	[Token(Token = "0x60005D2")]
-	[Address(RVA = "0x29AC5C0", Offset = "0x29AABC0", VA = "0x1829AC5C0")]
+	[Address(RVA = "0x6374930", Offset = "0x6373930", VA = "0x6374930")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, float arg2, float arg3)
 	{
@@ -690,7 +690,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005D4")]
-	[Address(RVA = "0x29AFAF0", Offset = "0x29AE0F0", VA = "0x1829AFAF0")]
+	[Address(RVA = "0x6374AB0", Offset = "0x6373AB0", VA = "0x6374AB0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, float arg2, float arg3)
 	{
@@ -698,7 +698,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005D5")]
-	[Address(RVA = "0x29A8050", Offset = "0x29A6650", VA = "0x1829A8050")]
+	[Address(RVA = "0x6374C30", Offset = "0x6373C30", VA = "0x6374C30")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, float arg2, float arg3)
 	{
@@ -706,7 +706,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005D6")]
-	[Address(RVA = "0x29A6E90", Offset = "0x29A5490", VA = "0x1829A6E90")]
+	[Address(RVA = "0x6374DB0", Offset = "0x6373DB0", VA = "0x6374DB0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, float arg2, float arg3)
 	{
@@ -753,7 +753,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005DC")]
-	[Address(RVA = "0x29AA020", Offset = "0x29A8620", VA = "0x1829AA020")]
+	[Address(RVA = "0x6374F20", Offset = "0x6373F20", VA = "0x6374F20")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, string arg2, float arg3)
 	{
@@ -761,7 +761,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005DD")]
-	[Address(RVA = "0x29AEEB0", Offset = "0x29AD4B0", VA = "0x1829AEEB0")]
+	[Address(RVA = "0x6375090", Offset = "0x6374090", VA = "0x6375090")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, string arg2, float arg3)
 	{
@@ -769,7 +769,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005DE")]
-	[Address(RVA = "0x29AB780", Offset = "0x29A9D80", VA = "0x1829AB780")]
+	[Address(RVA = "0x6375210", Offset = "0x6374210", VA = "0x6375210")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, string arg2, float arg3)
 	{
@@ -784,7 +784,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E0")]
-	[Address(RVA = "0x29AA850", Offset = "0x29A8E50", VA = "0x1829AA850")]
+	[Address(RVA = "0x6375380", Offset = "0x6374380", VA = "0x6375380")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, string arg2, float arg3)
 	{
@@ -792,7 +792,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E1")]
-	[Address(RVA = "0x29A9E80", Offset = "0x29A8480", VA = "0x1829A9E80")]
+	[Address(RVA = "0x6375500", Offset = "0x6374500", VA = "0x6375500")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, string arg2, float arg3)
 	{
@@ -800,7 +800,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x29ADE80", Offset = "0x29AC480", VA = "0x1829ADE80")]
+	[Address(RVA = "0x6375680", Offset = "0x6374680", VA = "0x6375680")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, string arg2, float arg3)
 	{
@@ -815,7 +815,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E4")]
-	[Address(RVA = "0x29AA2E0", Offset = "0x29A88E0", VA = "0x1829AA2E0")]
+	[Address(RVA = "0x63757F0", Offset = "0x63747F0", VA = "0x63757F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, string arg2, float arg3)
 	{
@@ -823,7 +823,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E5")]
-	[Address(RVA = "0x29AB5E0", Offset = "0x29A9BE0", VA = "0x1829AB5E0")]
+	[Address(RVA = "0x6375960", Offset = "0x6374960", VA = "0x6375960")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, string arg2, float arg3)
 	{
@@ -831,7 +831,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005E6")]
-	[Address(RVA = "0x29ADD00", Offset = "0x29AC300", VA = "0x1829ADD00")]
+	[Address(RVA = "0x6375AD0", Offset = "0x6374AD0", VA = "0x6375AD0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, string arg2, float arg3)
 	{
@@ -1007,7 +1007,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x29AC900", Offset = "0x29AAF00", VA = "0x1829AC900")]
+	[Address(RVA = "0x6375C30", Offset = "0x6374C30", VA = "0x6375C30")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, int arg2, string arg3)
 	{
@@ -1015,7 +1015,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x29AC760", Offset = "0x29AAD60", VA = "0x1829AC760")]
+	[Address(RVA = "0x6375D90", Offset = "0x6374D90", VA = "0x6375D90")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, int arg2, string arg3)
 	{
@@ -1023,7 +1023,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x29A87C0", Offset = "0x29A6DC0", VA = "0x1829A87C0")]
+	[Address(RVA = "0x6375F10", Offset = "0x6374F10", VA = "0x6375F10")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, int arg2, string arg3)
 	{
@@ -1038,7 +1038,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000600")]
-	[Address(RVA = "0x29A7EB0", Offset = "0x29A64B0", VA = "0x1829A7EB0")]
+	[Address(RVA = "0x6376070", Offset = "0x6375070", VA = "0x6376070")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, int arg2, string arg3)
 	{
@@ -1046,7 +1046,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x29AC410", Offset = "0x29AAA10", VA = "0x1829AC410")]
+	[Address(RVA = "0x63761F0", Offset = "0x63751F0", VA = "0x63761F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, int arg2, string arg3)
 	{
@@ -1054,7 +1054,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x29ABB30", Offset = "0x29AA130", VA = "0x1829ABB30")]
+	[Address(RVA = "0x6376380", Offset = "0x6375380", VA = "0x6376380")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, int arg2, string arg3)
 	{
@@ -1069,7 +1069,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x29AE4D0", Offset = "0x29ACAD0", VA = "0x1829AE4D0")]
+	[Address(RVA = "0x6376500", Offset = "0x6375500", VA = "0x6376500")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, int arg2, string arg3)
 	{
@@ -1077,7 +1077,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x29A6CF0", Offset = "0x29A52F0", VA = "0x1829A6CF0")]
+	[Address(RVA = "0x6376660", Offset = "0x6375660", VA = "0x6376660")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, int arg2, string arg3)
 	{
@@ -1085,7 +1085,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x29A65D0", Offset = "0x29A4BD0", VA = "0x1829A65D0")]
+	[Address(RVA = "0x63767E0", Offset = "0x63757E0", VA = "0x63767E0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, int arg2, string arg3)
 	{
@@ -1128,7 +1128,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0x29A96E0", Offset = "0x29A7CE0", VA = "0x1829A96E0")]
+	[Address(RVA = "0x6376940", Offset = "0x6375940", VA = "0x6376940")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, float arg2, string arg3)
 	{
@@ -1136,7 +1136,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x29AAF90", Offset = "0x29A9590", VA = "0x1829AAF90")]
+	[Address(RVA = "0x6376AC0", Offset = "0x6375AC0", VA = "0x6376AC0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, float arg2, string arg3)
 	{
@@ -1144,7 +1144,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x29AFDD0", Offset = "0x29AE3D0", VA = "0x1829AFDD0")]
+	[Address(RVA = "0x6376C40", Offset = "0x6375C40", VA = "0x6376C40")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, float arg2, string arg3)
 	{
@@ -1159,7 +1159,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000610")]
-	[Address(RVA = "0x29A62C0", Offset = "0x29A48C0", VA = "0x1829A62C0")]
+	[Address(RVA = "0x6376DC0", Offset = "0x6375DC0", VA = "0x6376DC0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, float arg2, string arg3)
 	{
@@ -1167,7 +1167,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x29AFF60", Offset = "0x29AE560", VA = "0x1829AFF60")]
+	[Address(RVA = "0x6376F40", Offset = "0x6375F40", VA = "0x6376F40")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, float arg2, string arg3)
 	{
@@ -1175,7 +1175,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x29A8AC0", Offset = "0x29A70C0", VA = "0x1829A8AC0")]
+	[Address(RVA = "0x63770C0", Offset = "0x63760C0", VA = "0x63770C0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, float arg2, string arg3)
 	{
@@ -1190,7 +1190,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000614")]
-	[Address(RVA = "0x29AE950", Offset = "0x29ACF50", VA = "0x1829AE950")]
+	[Address(RVA = "0x6377240", Offset = "0x6376240", VA = "0x6377240")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, float arg2, string arg3)
 	{
@@ -1198,7 +1198,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000615")]
-	[Address(RVA = "0x29ABCD0", Offset = "0x29AA2D0", VA = "0x1829ABCD0")]
+	[Address(RVA = "0x63773C0", Offset = "0x63763C0", VA = "0x63773C0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, float arg2, string arg3)
 	{
@@ -1206,7 +1206,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x29A9B60", Offset = "0x29A8160", VA = "0x1829A9B60")]
+	[Address(RVA = "0x6377530", Offset = "0x6376530", VA = "0x6377530")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, float arg2, string arg3)
 	{
@@ -1249,7 +1249,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600061C")]
-	[Address(RVA = "0x29AB2D0", Offset = "0x29A98D0", VA = "0x1829AB2D0")]
+	[Address(RVA = "0x63776A0", Offset = "0x63766A0", VA = "0x63776A0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, int arg1, string arg2, string arg3)
 	{
@@ -1257,7 +1257,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600061D")]
-	[Address(RVA = "0x29ADB60", Offset = "0x29AC160", VA = "0x1829ADB60")]
+	[Address(RVA = "0x6377800", Offset = "0x6376800", VA = "0x6377800")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, int arg1, string arg2, string arg3)
 	{
@@ -1265,7 +1265,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600061E")]
-	[Address(RVA = "0x29AB910", Offset = "0x29A9F10", VA = "0x1829AB910")]
+	[Address(RVA = "0x6377980", Offset = "0x6376980", VA = "0x6377980")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, int arg1, string arg2, string arg3)
 	{
@@ -1280,7 +1280,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000620")]
-	[Address(RVA = "0x29B0880", Offset = "0x29AEE80", VA = "0x1829B0880")]
+	[Address(RVA = "0x6377AE0", Offset = "0x6376AE0", VA = "0x6377AE0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, float arg1, string arg2, string arg3)
 	{
@@ -1288,7 +1288,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000621")]
-	[Address(RVA = "0x29B0210", Offset = "0x29AE810", VA = "0x1829B0210")]
+	[Address(RVA = "0x6377C60", Offset = "0x6376C60", VA = "0x6377C60")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, float arg1, string arg2, string arg3)
 	{
@@ -1296,7 +1296,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000622")]
-	[Address(RVA = "0x29AE640", Offset = "0x29ACC40", VA = "0x1829AE640")]
+	[Address(RVA = "0x6377DD0", Offset = "0x6376DD0", VA = "0x6377DD0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, float arg1, string arg2, string arg3)
 	{
@@ -1311,7 +1311,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000624")]
-	[Address(RVA = "0x29A74B0", Offset = "0x29A5AB0", VA = "0x1829A74B0")]
+	[Address(RVA = "0x6377F40", Offset = "0x6376F40", VA = "0x6377F40")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, int arg0, string arg1, string arg2, string arg3)
 	{
@@ -1319,7 +1319,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000625")]
-	[Address(RVA = "0x29A9CE0", Offset = "0x29A82E0", VA = "0x1829A9CE0")]
+	[Address(RVA = "0x63780A0", Offset = "0x63770A0", VA = "0x63780A0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, float arg0, string arg1, string arg2, string arg3)
 	{
@@ -1327,7 +1327,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000626")]
-	[Address(RVA = "0x29AD900", Offset = "0x29ABF00", VA = "0x1829AD900")]
+	[Address(RVA = "0x6378200", Offset = "0x6377200", VA = "0x6378200")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString512Bytes Format(FixedString512Bytes formatString, string arg0, string arg1, string arg2, string arg3)
 	{
@@ -2014,21 +2014,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600067C")]
-	[Address(RVA = "0x29A8390", Offset = "0x29A6990", VA = "0x1829A8390")]
+	[Address(RVA = "0x6378340", Offset = "0x6377340", VA = "0x6378340")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, int arg1, int arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x600067D")]
-	[Address(RVA = "0x29A7C00", Offset = "0x29A6200", VA = "0x1829A7C00")]
+	[Address(RVA = "0x63784C0", Offset = "0x63774C0", VA = "0x63784C0")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, int arg1, int arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x29AED80", Offset = "0x29AD380", VA = "0x1829AED80")]
+	[Address(RVA = "0x6378660", Offset = "0x6377660", VA = "0x6378660")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, int arg1, int arg2)
 	{
@@ -2043,21 +2043,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x29A71C0", Offset = "0x29A57C0", VA = "0x1829A71C0")]
+	[Address(RVA = "0x63787F0", Offset = "0x63777F0", VA = "0x63787F0")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, float arg1, int arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x29AF060", Offset = "0x29AD660", VA = "0x1829AF060")]
+	[Address(RVA = "0x6378990", Offset = "0x6377990", VA = "0x6378990")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, float arg1, int arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x29A7D50", Offset = "0x29A6350", VA = "0x1829A7D50")]
+	[Address(RVA = "0x6378B40", Offset = "0x6377B40", VA = "0x6378B40")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, float arg1, int arg2)
 	{
@@ -2072,7 +2072,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000684")]
-	[Address(RVA = "0x29AD370", Offset = "0x29AB970", VA = "0x1829AD370")]
+	[Address(RVA = "0x6378CF0", Offset = "0x6377CF0", VA = "0x6378CF0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, string arg1, int arg2)
 	{
@@ -2080,7 +2080,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000685")]
-	[Address(RVA = "0x29B0A20", Offset = "0x29AF020", VA = "0x1829B0A20")]
+	[Address(RVA = "0x6378E80", Offset = "0x6377E80", VA = "0x6378E80")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, string arg1, int arg2)
 	{
@@ -2088,7 +2088,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000686")]
-	[Address(RVA = "0x29AA720", Offset = "0x29A8D20", VA = "0x1829AA720")]
+	[Address(RVA = "0x6379030", Offset = "0x6378030", VA = "0x6379030")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, string arg1, int arg2)
 	{
@@ -2135,21 +2135,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x29AA5F0", Offset = "0x29A8BF0", VA = "0x1829AA5F0")]
+	[Address(RVA = "0x63791C0", Offset = "0x63781C0", VA = "0x63791C0")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, int arg1, float arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x600068D")]
-	[Address(RVA = "0x29AD080", Offset = "0x29AB680", VA = "0x1829AD080")]
+	[Address(RVA = "0x6379360", Offset = "0x6378360", VA = "0x6379360")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, int arg1, float arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x29A6A60", Offset = "0x29A5060", VA = "0x1829A6A60")]
+	[Address(RVA = "0x6379510", Offset = "0x6378510", VA = "0x6379510")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, int arg1, float arg2)
 	{
@@ -2164,21 +2164,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x29AFC80", Offset = "0x29AE280", VA = "0x1829AFC80")]
+	[Address(RVA = "0x63796C0", Offset = "0x63786C0", VA = "0x63796C0")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, float arg1, float arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x29A9280", Offset = "0x29A7880", VA = "0x1829A9280")]
+	[Address(RVA = "0x6379860", Offset = "0x6378860", VA = "0x6379860")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, float arg1, float arg2)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x29AD4A0", Offset = "0x29ABAA0", VA = "0x1829AD4A0")]
+	[Address(RVA = "0x6379A00", Offset = "0x6378A00", VA = "0x6379A00")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, float arg1, float arg2)
 	{
@@ -2193,7 +2193,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x29AF5F0", Offset = "0x29ADBF0", VA = "0x1829AF5F0")]
+	[Address(RVA = "0x6379BB0", Offset = "0x6378BB0", VA = "0x6379BB0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, string arg1, float arg2)
 	{
@@ -2201,7 +2201,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x29A6BA0", Offset = "0x29A51A0", VA = "0x1829A6BA0")]
+	[Address(RVA = "0x6379D60", Offset = "0x6378D60", VA = "0x6379D60")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, string arg1, float arg2)
 	{
@@ -2209,7 +2209,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x29AF310", Offset = "0x29AD910", VA = "0x1829AF310")]
+	[Address(RVA = "0x6379F10", Offset = "0x6378F10", VA = "0x6379F10")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, string arg1, float arg2)
 	{
@@ -2256,7 +2256,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x29A7AD0", Offset = "0x29A60D0", VA = "0x1829A7AD0")]
+	[Address(RVA = "0x637A0B0", Offset = "0x63790B0", VA = "0x637A0B0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, int arg1, string arg2)
 	{
@@ -2264,7 +2264,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x29A8F70", Offset = "0x29A7570", VA = "0x1829A8F70")]
+	[Address(RVA = "0x637A240", Offset = "0x6379240", VA = "0x637A240")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, int arg1, string arg2)
 	{
@@ -2272,7 +2272,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x29AEC50", Offset = "0x29AD250", VA = "0x1829AEC50")]
+	[Address(RVA = "0x637A3F0", Offset = "0x63793F0", VA = "0x637A3F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, int arg1, string arg2)
 	{
@@ -2287,7 +2287,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x29AF1B0", Offset = "0x29AD7B0", VA = "0x1829AF1B0")]
+	[Address(RVA = "0x637A580", Offset = "0x6379580", VA = "0x637A580")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, float arg1, string arg2)
 	{
@@ -2295,7 +2295,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x29A9870", Offset = "0x29A7E70", VA = "0x1829A9870")]
+	[Address(RVA = "0x637A730", Offset = "0x6379730", VA = "0x637A730")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, float arg1, string arg2)
 	{
@@ -2303,7 +2303,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A2")]
-	[Address(RVA = "0x29B0D20", Offset = "0x29AF320", VA = "0x1829B0D20")]
+	[Address(RVA = "0x637A8E0", Offset = "0x63798E0", VA = "0x637A8E0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, float arg1, string arg2)
 	{
@@ -2318,7 +2318,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x29AA1B0", Offset = "0x29A87B0", VA = "0x1829AA1B0")]
+	[Address(RVA = "0x637AA80", Offset = "0x6379A80", VA = "0x637AA80")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, string arg1, string arg2)
 	{
@@ -2326,7 +2326,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x29AACB0", Offset = "0x29A92B0", VA = "0x1829AACB0")]
+	[Address(RVA = "0x637AC00", Offset = "0x6379C00", VA = "0x637AC00")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, string arg1, string arg2)
 	{
@@ -2334,7 +2334,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x29ACD70", Offset = "0x29AB370", VA = "0x1829ACD70")]
+	[Address(RVA = "0x637ADA0", Offset = "0x6379DA0", VA = "0x637ADA0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, string arg1, string arg2)
 	{
@@ -2510,21 +2510,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x29AE020", Offset = "0x29AC620", VA = "0x1829AE020")]
+	[Address(RVA = "0x637AF10", Offset = "0x6379F10", VA = "0x637AF10")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, int arg1)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006BD")]
-	[Address(RVA = "0x29AF730", Offset = "0x29ADD30", VA = "0x1829AF730")]
+	[Address(RVA = "0x637B060", Offset = "0x637A060", VA = "0x637B060")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, int arg1)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006BE")]
-	[Address(RVA = "0x29ADA70", Offset = "0x29AC070", VA = "0x1829ADA70")]
+	[Address(RVA = "0x637B1D0", Offset = "0x637A1D0", VA = "0x637B1D0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, int arg1)
 	{
@@ -2539,21 +2539,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006C0")]
-	[Address(RVA = "0x29AAA00", Offset = "0x29A9000", VA = "0x1829AAA00")]
+	[Address(RVA = "0x637B330", Offset = "0x637A330", VA = "0x637B330")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, float arg1)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006C1")]
-	[Address(RVA = "0x29ACF70", Offset = "0x29AB570", VA = "0x1829ACF70")]
+	[Address(RVA = "0x637B490", Offset = "0x637A490", VA = "0x637B490")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, float arg1)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006C2")]
-	[Address(RVA = "0x29B0100", Offset = "0x29AE700", VA = "0x1829B0100")]
+	[Address(RVA = "0x637B5F0", Offset = "0x637A5F0", VA = "0x637B5F0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, float arg1)
 	{
@@ -2568,7 +2568,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x29A61D0", Offset = "0x29A47D0", VA = "0x1829A61D0")]
+	[Address(RVA = "0x637B760", Offset = "0x637A760", VA = "0x637B760")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0, string arg1)
 	{
@@ -2576,7 +2576,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006C5")]
-	[Address(RVA = "0x29AF840", Offset = "0x29ADE40", VA = "0x1829AF840")]
+	[Address(RVA = "0x637B8C0", Offset = "0x637A8C0", VA = "0x637B8C0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0, string arg1)
 	{
@@ -2584,7 +2584,7 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006C6")]
-	[Address(RVA = "0x29ACE90", Offset = "0x29AB490", VA = "0x1829ACE90")]
+	[Address(RVA = "0x637BA30", Offset = "0x637AA30", VA = "0x637BA30")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0, string arg1)
 	{
@@ -2631,21 +2631,21 @@ public static class FixedString
 	}
 
 	[Token(Token = "0x60006CC")]
-	[Address(RVA = "0x29AC010", Offset = "0x29AA610", VA = "0x1829AC010")]
+	[Address(RVA = "0x637BB80", Offset = "0x637AB80", VA = "0x637BB80")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, int arg0)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006CD")]
-	[Address(RVA = "0x29ABA80", Offset = "0x29AA080", VA = "0x1829ABA80")]
+	[Address(RVA = "0x637BC90", Offset = "0x637AC90", VA = "0x637BC90")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, float arg0)
 	{
 		return default(FixedString128Bytes);
 	}
 
 	[Token(Token = "0x60006CE")]
-	[Address(RVA = "0x29AE100", Offset = "0x29AC700", VA = "0x1829AE100")]
+	[Address(RVA = "0x637BDB0", Offset = "0x637ADB0", VA = "0x637BDB0")]
 	[ExcludeFromBurstCompatTesting("Takes managed string")]
 	public static FixedString128Bytes Format(FixedString128Bytes formatString, string arg0)
 	{

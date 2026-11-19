@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001F6")]
+[Token(Token = "0x20001CE")]
 public enum EventResetMode
 {
-	[Token(Token = "0x4000990")]
+	[Token(Token = "0x40008EE")]
 	AutoReset,
-	[Token(Token = "0x4000991")]
+	[Token(Token = "0x40008EF")]
 	ManualReset
 }

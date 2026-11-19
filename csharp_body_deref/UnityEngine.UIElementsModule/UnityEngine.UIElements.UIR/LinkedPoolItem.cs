@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005A1")]
+[Token(Token = "0x200058C")]
 internal class LinkedPoolItem<T>
 {
-	[Token(Token = "0x4001414")]
+	[Token(Token = "0x4001356")]
 	[FieldOffset(Offset = "0x0")]
 	internal T poolNext;
 
-	[Token(Token = "0x60029F3")]
+	[Token(Token = "0x6002992")]
 	public LinkedPoolItem()
 	{
 	}

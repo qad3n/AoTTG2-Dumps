@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000668")]
+[Token(Token = "0x20006C7")]
 internal class AdvancedAlloyPerk : BasePerk
 {
-	[Token(Token = "0x17000B01")]
+	[Token(Token = "0x17000B4B")]
 	public override string Name
 	{
-		[Token(Token = "0x6003F70")]
-		[Address(RVA = "0x21466C0", Offset = "0x2144CC0", VA = "0x1821466C0", Slot = "4")]
+		[Token(Token = "0x6004208")]
+		[Address(RVA = "0x5AFAFB0", Offset = "0x5AF9FB0", VA = "0x5AFAFB0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B02")]
+	[Token(Token = "0x17000B4C")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x6003F71")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6004209")]
+		[Address(RVA = "0x5AFAFE0", Offset = "0x5AF9FE0", VA = "0x5AFAFE0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003F72")]
-	[Address(RVA = "0x2146650", Offset = "0x2144C50", VA = "0x182146650", Slot = "6")]
+	[Token(Token = "0x600420A")]
+	[Address(RVA = "0x5AFAFF0", Offset = "0x5AF9FF0", VA = "0x5AFAFF0", Slot = "6")]
 	protected override void SetupRequirements()
 	{
 	}
 
-	[Token(Token = "0x6003F73")]
-	[Address(RVA = "0x21466B0", Offset = "0x2144CB0", VA = "0x1821466B0")]
+	[Token(Token = "0x600420B")]
+	[Address(RVA = "0x5AF95E0", Offset = "0x5AF85E0", VA = "0x5AF95E0")]
 	public AdvancedAlloyPerk()
 	{
 	}

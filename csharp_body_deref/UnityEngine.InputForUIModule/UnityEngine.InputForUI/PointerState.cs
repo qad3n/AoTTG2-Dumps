@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.PointerState
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,14 +26,14 @@ internal struct PointerState
 	public PointerEvent.Button LastPressedButton
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x69BD8C0", Offset = "0x69BC8C0", VA = "0x69BD8C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(PointerEvent.Button);
 		}
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x69BD8D0", Offset = "0x69BC8D0", VA = "0x69BD8D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -44,7 +44,7 @@ internal struct PointerState
 	public PointerEvent.ButtonsState ButtonsState
 	{
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x69BD8E0", Offset = "0x69BC8E0", VA = "0x69BD8E0")]
 		get
 		{
 			return default(PointerEvent.ButtonsState);
@@ -55,14 +55,14 @@ internal struct PointerState
 	public DiscreteTime NextPressTime
 	{
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x69BD8F0", Offset = "0x69BC8F0", VA = "0x69BD8F0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(DiscreteTime);
 		}
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
+		[Address(RVA = "0x69BD900", Offset = "0x69BC900", VA = "0x69BD900")]
 		[CompilerGenerated]
 		private set
 		{
@@ -73,14 +73,14 @@ internal struct PointerState
 	public int ClickCount
 	{
 		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x69BD910", Offset = "0x69BC910", VA = "0x69BD910")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x69BD920", Offset = "0x69BC920", VA = "0x69BD920")]
 		[CompilerGenerated]
 		private set
 		{
@@ -91,14 +91,14 @@ internal struct PointerState
 	public Vector2 LastPosition
 	{
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x155C620", Offset = "0x155AC20", VA = "0x18155C620")]
+		[Address(RVA = "0x69BD930", Offset = "0x69BC930", VA = "0x69BD930")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x2FC3080", Offset = "0x2FC1680", VA = "0x182FC3080")]
+		[Address(RVA = "0x69BD940", Offset = "0x69BC940", VA = "0x69BD940")]
 		[CompilerGenerated]
 		private set
 		{
@@ -109,14 +109,14 @@ internal struct PointerState
 	public int LastDisplayIndex
 	{
 		[Token(Token = "0x60000DE")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x69BD950", Offset = "0x69BC950", VA = "0x69BD950")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000DF")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x69BD960", Offset = "0x69BC960", VA = "0x69BD960")]
 		[CompilerGenerated]
 		private set
 		{
@@ -127,14 +127,14 @@ internal struct PointerState
 	public bool LastPositionValid
 	{
 		[Token(Token = "0x60000E0")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x69BD970", Offset = "0x69BC970", VA = "0x69BD970")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E1")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x69BD980", Offset = "0x69BC980", VA = "0x69BD980")]
 		[CompilerGenerated]
 		set
 		{
@@ -142,31 +142,31 @@ internal struct PointerState
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x2FC2CD0", Offset = "0x2FC12D0", VA = "0x182FC2CD0")]
+	[Address(RVA = "0x69BC6B0", Offset = "0x69BB6B0", VA = "0x69BC6B0")]
 	public void OnButtonDown(DiscreteTime currentTime, PointerEvent.Button button)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x2FC2E00", Offset = "0x2FC1400", VA = "0x182FC2E00")]
+	[Address(RVA = "0x69BC830", Offset = "0x69BB830", VA = "0x69BC830")]
 	public void OnButtonUp(DiscreteTime currentTime, PointerEvent.Button button)
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x2FC2C20", Offset = "0x2FC1220", VA = "0x182FC2C20")]
+	[Address(RVA = "0x69BCA40", Offset = "0x69BBA40", VA = "0x69BCA40")]
 	public void OnButtonChange(DiscreteTime currentTime, PointerEvent.Button button, bool previousState, bool newState)
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x2FC2E80", Offset = "0x2FC1480", VA = "0x182FC2E80")]
+	[Address(RVA = "0x69BC990", Offset = "0x69BB990", VA = "0x69BC990")]
 	public void OnMove(DiscreteTime currentTime, Vector2 position, int displayIndex)
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x2FC2F10", Offset = "0x2FC1510", VA = "0x182FC2F10")]
+	[Address(RVA = "0x69B9920", Offset = "0x69B8920", VA = "0x69B9920")]
 	public void Reset()
 	{
 	}

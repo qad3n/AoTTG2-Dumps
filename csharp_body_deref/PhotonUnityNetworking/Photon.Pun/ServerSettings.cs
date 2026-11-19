@@ -57,7 +57,7 @@ public class ServerSettings : ScriptableObject
 	public static string BestRegionSummaryInPreferences
 	{
 		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x1D67B10", Offset = "0x1D66110", VA = "0x181D67B10")]
+		[Address(RVA = "0x56F9900", Offset = "0x56F8900", VA = "0x56F9900")]
 		get
 		{
 			return null;
@@ -65,33 +65,33 @@ public class ServerSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x1D67A10", Offset = "0x1D66010", VA = "0x181D67A10")]
+	[Address(RVA = "0x56F97E0", Offset = "0x56F87E0", VA = "0x56F97E0")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x1D11290", Offset = "0x1D0F890", VA = "0x181D11290")]
+	[Address(RVA = "0x56F9860", Offset = "0x56F8860", VA = "0x56F9860")]
 	public static bool IsAppId(string val)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x1D67960", Offset = "0x1D65F60", VA = "0x181D67960")]
+	[Address(RVA = "0x56F9960", Offset = "0x56F8960", VA = "0x56F9960")]
 	public static void ResetBestRegionCodeInPreferences()
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x1D679B0", Offset = "0x1D65FB0", VA = "0x181D679B0", Slot = "3")]
+	[Address(RVA = "0x56F99C0", Offset = "0x56F89C0", VA = "0x56F99C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x1D67A90", Offset = "0x1D66090", VA = "0x181D67A90")]
+	[Address(RVA = "0x56F9A10", Offset = "0x56F8A10", VA = "0x56F9A10")]
 	public ServerSettings()
 	{
 	}

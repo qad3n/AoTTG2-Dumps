@@ -19,7 +19,7 @@ public sealed class fsContext
 	private readonly Dictionary<Type, object> _contextObjects;
 
 	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x2E5EF00", Offset = "0x2E5D500", VA = "0x182E5EF00")]
+	[Address(RVA = "0x6864120", Offset = "0x6863120", VA = "0x6864120")]
 	public void Reset()
 	{
 	}
@@ -42,7 +42,7 @@ public sealed class fsContext
 	}
 
 	[Token(Token = "0x6001246")]
-	[Address(RVA = "0x2E5EF50", Offset = "0x2E5D550", VA = "0x182E5EF50")]
+	[Address(RVA = "0x6864160", Offset = "0x6863160", VA = "0x6864160")]
 	public fsContext()
 	{
 	}

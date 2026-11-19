@@ -12,8 +12,8 @@ namespace UnityEngine;
 
 [Token(Token = "0x2000006")]
 [RequireComponent(typeof(Transform))]
-[UnityEngine.NativeClass("Physics::ArticulationBody")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/ArticulationBody.h")]
+[UnityEngine.NativeClass("Physics::ArticulationBody")]
 public class ArticulationBody : Behaviour
 {
 }

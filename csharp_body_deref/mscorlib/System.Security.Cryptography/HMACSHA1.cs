@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000311")]
+[Token(Token = "0x20002EA")]
 [ComVisible(true)]
 public class HMACSHA1 : HMAC
 {
-	[Token(Token = "0x6001991")]
-	[Address(RVA = "0x19A8AB0", Offset = "0x19A70B0", VA = "0x1819A8AB0")]
+	[Token(Token = "0x600196E")]
+	[Address(RVA = "0x533C0C0", Offset = "0x533B0C0", VA = "0x533C0C0")]
 	public HMACSHA1()
 	{
 	}
 
-	[Token(Token = "0x6001992")]
-	[Address(RVA = "0x19A89D0", Offset = "0x19A6FD0", VA = "0x1819A89D0")]
+	[Token(Token = "0x600196F")]
+	[Address(RVA = "0x533CB20", Offset = "0x533BB20", VA = "0x533CB20")]
 	public HMACSHA1(byte[] key)
 	{
 	}
 
-	[Token(Token = "0x6001993")]
-	[Address(RVA = "0x19A89D0", Offset = "0x19A6FD0", VA = "0x1819A89D0")]
+	[Token(Token = "0x6001970")]
+	[Address(RVA = "0x533CB30", Offset = "0x533BB30", VA = "0x533CB30")]
 	public HMACSHA1(byte[] key, bool useManagedSha1)
 	{
 	}

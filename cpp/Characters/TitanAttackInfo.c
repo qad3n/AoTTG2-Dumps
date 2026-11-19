@@ -1,5 +1,5 @@
 // Type: Characters.TitanAttackInfo
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/TitanAttackInfo.cs
@@ -8,33 +8,33 @@
 
 // Characters.TitanAttackInfo$$.ctor
 // il2cpp: void Characters_TitanAttackInfo___ctor (Characters_TitanAttackInfo_o* __this, SimpleJSONFixed_JSONNode_o* attackInfo, SimpleJSONFixed_JSONNode_o* keyframes, const MethodInfo* method);
-// 0x1821cc330
+// 0x5c61ab0
 
 void Characters_TitanAttackInfo___ctor
                (Characters_TitanAttackInfo_o *__this,SimpleJSONFixed_JSONNode_o *attackInfo,
                SimpleJSONFixed_JSONNode_o *keyframes,MethodInfo *method)
 
 {
+  System_Collections_Generic_List_TitanAttackKeyframe__o **targetAddress;
   int32_t *piVar1;
-  Characters_TitanAttackKeyframe_array *pCVar2;
-  MethodInfo *pMVar3;
-  bool bVar4;
-  char cVar5;
-  int32_t iVar6;
-  System_Collections_Generic_List_TitanAttackKeyframe__o *pSVar7;
-  System_Xml_Schema_XmlSchema_o *pSVar8;
-  System_String_o *pSVar9;
-  System_Collections_IEnumerator_o *pSVar10;
-  longlong *plVar11;
-  Characters_TitanAttackKeyframe_o *item;
-  longlong *plVar12;
-  uint uVar13;
-  System_Type_o *pSVar14;
+  uint uVar2;
+  Characters_TitanAttackKeyframe_array *pCVar3;
+  MethodInfo *pMVar4;
+  bool bVar5;
+  bool bVar6;
+  int32_t iVar7;
+  System_Collections_Generic_List_TitanAttackKeyframe__o *pSVar8;
+  SimpleJSONFixed_JSONNode_o *pSVar9;
+  SimpleJSONFixed_JSONNode_o *pSVar10;
+  long *plVar11;
+  Characters_TitanAttackKeyframe_o *__this_00;
+  MethodInfo *method_00;
+  int iVar12;
+  float fVar13;
+  float fVar14;
   float fVar15;
-  float fVar16;
-  float fVar17;
   
-  if (Il2CppMethodInitialized_184346eab == '\0') {
+  if (Il2CppMethodInitialized_0754789d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_Add);
@@ -52,197 +52,197 @@ void Characters_TitanAttackInfo___ctor
     il2cpp_codegen_initialize_runtime_metadata(&"Y");
     il2cpp_codegen_initialize_runtime_metadata(&"X");
     il2cpp_codegen_initialize_runtime_metadata(&"HumanOnly");
-    Il2CppMethodInitialized_184346eab = '\x01';
+    Il2CppMethodInitialized_0754789d = '\x01';
   }
-  pSVar7 = il2cpp_codegen_object_new
+  pSVar8 = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_TitanAttackKeyframe);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)pSVar7,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_ctor);
-  (__this->fields).Keyframes = pSVar7;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Keyframes,pSVar7);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+            ((System_Collections_Generic_List_object__o *)pSVar8,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_ctor);
+  targetAddress = &(__this->fields).Keyframes;
+  (__this->fields).Keyframes = pSVar8;
+  Il2CppCodeGenWriteBarrier(targetAddress);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   if ((attackInfo != (SimpleJSONFixed_JSONNode_o *)0x0) &&
-     (pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (attackInfo,(MethodInfo *)"HumanOnly"),
-     pSVar8 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
-    bVar4 = (bool)(*(code *)((Il2CppClass *)pSVar8->klass)->vtable[39].methodPtr)
-                            (pSVar8,((Il2CppClass *)pSVar8->klass)->vtable[39].method);
-    (__this->fields).HumanOnly = bVar4;
-    bVar4 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
-                      (attackInfo,(MethodInfo *)"MapObject");
-    if (bVar4) {
-      pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                         (attackInfo,(MethodInfo *)"MapObject");
-      if (pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_1821ccdc8;
-      cVar5 = (*(code *)((Il2CppClass *)pSVar8->klass)->vtable[39].methodPtr)
-                        (pSVar8,((Il2CppClass *)pSVar8->klass)->vtable[39].method);
+     (pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                         (attackInfo,"HumanOnly",(attackInfo->klass->vtable)._7_get_Item.method),
+     pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+    bVar5 = (*(pSVar9->klass->vtable)._39_get_AsBool.methodPtr)
+                      (pSVar9,(pSVar9->klass->vtable)._39_get_AsBool.method);
+    (__this->fields).HumanOnly = bVar5;
+    bVar5 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
+                      (attackInfo,"MapObject",(attackInfo->klass->vtable)._28_HasKey.method);
+    bVar6 = true;
+    if (bVar5) {
+      pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                         (attackInfo,"MapObject",(attackInfo->klass->vtable)._7_get_Item.method);
+      if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05c62400;
+      bVar6 = (*(pSVar9->klass->vtable)._39_get_AsBool.methodPtr)
+                        (pSVar9,(pSVar9->klass->vtable)._39_get_AsBool.method);
     }
-    else {
-      cVar5 = '\x01';
-    }
-    (__this->fields).MapObject = cVar5 != '\0';
-    pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                       (attackInfo,(MethodInfo *)"Far");
-    if (pSVar8 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      bVar4 = (bool)(*(code *)((Il2CppClass *)pSVar8->klass)->vtable[39].methodPtr)
-                              (pSVar8,((Il2CppClass *)pSVar8->klass)->vtable[39].method);
-      (__this->fields).FarOnly = bVar4;
-      bVar4 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
-                        (attackInfo,(MethodInfo *)"LeftArm");
-      if (bVar4) {
-        pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                           (attackInfo,(MethodInfo *)"LeftArm");
-        if (pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_1821ccdc8;
-        cVar5 = (*(code *)((Il2CppClass *)pSVar8->klass)->vtable[39].methodPtr)
-                          (pSVar8,((Il2CppClass *)pSVar8->klass)->vtable[39].method);
+    (__this->fields).MapObject = bVar6;
+    pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                       (attackInfo,"Far",(attackInfo->klass->vtable)._7_get_Item.method);
+    if (pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      bVar5 = (*(pSVar9->klass->vtable)._39_get_AsBool.methodPtr)
+                        (pSVar9,(pSVar9->klass->vtable)._39_get_AsBool.method);
+      (__this->fields).FarOnly = bVar5;
+      bVar5 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
+                        (attackInfo,"LeftArm",(attackInfo->klass->vtable)._28_HasKey.method);
+      if (bVar5) {
+        pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                           (attackInfo,"LeftArm",(attackInfo->klass->vtable)._7_get_Item.method);
+        if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05c62400;
+        bVar5 = (*(pSVar9->klass->vtable)._39_get_AsBool.methodPtr)
+                          (pSVar9,(pSVar9->klass->vtable)._39_get_AsBool.method);
       }
       else {
-        cVar5 = '\0';
+        bVar5 = false;
       }
-      (__this->fields).LeftArm = cVar5 != '\0';
-      bVar4 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
-                        (attackInfo,(MethodInfo *)"RightArm");
-      if (bVar4) {
-        pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                           (attackInfo,(MethodInfo *)"RightArm");
-        if (pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_1821ccdc8;
-        cVar5 = (*(code *)((Il2CppClass *)pSVar8->klass)->vtable[39].methodPtr)
-                          (pSVar8,((Il2CppClass *)pSVar8->klass)->vtable[39].method);
+      (__this->fields).LeftArm = bVar5;
+      bVar5 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
+                        (attackInfo,"RightArm",(attackInfo->klass->vtable)._28_HasKey.method);
+      if (bVar5) {
+        pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                           (attackInfo,"RightArm",(attackInfo->klass->vtable)._7_get_Item.method);
+        if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05c62400;
+        bVar5 = (*(pSVar9->klass->vtable)._39_get_AsBool.methodPtr)
+                          (pSVar9,(pSVar9->klass->vtable)._39_get_AsBool.method);
       }
       else {
-        cVar5 = '\0';
+        bVar5 = false;
       }
-      (__this->fields).RightArm = cVar5 != '\0';
-      bVar4 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
-                        (attackInfo,(MethodInfo *)"Ranges");
-      if (bVar4) {
-        pSVar8 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
-                           (attackInfo,(MethodInfo *)"Ranges");
-        if (((pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) ||
-            (pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                (pSVar8,(MethodInfo *)"X"), pSVar9 == (System_String_o *)0x0
-            )) || (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                               methodPtr)(pSVar9,(MethodInfo *)0x0),
-                  pSVar10 == (System_Collections_IEnumerator_o *)0x0)) goto label_1821ccdc8;
-        fVar15 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-        pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                           (pSVar8,(MethodInfo *)"Y");
-        if ((pSVar9 == (System_String_o *)0x0) ||
-           (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                (pSVar9,(MethodInfo *)0x0), pSVar10 == (System_Collections_IEnumerator_o *)0x0
-           )) goto label_1821ccdc8;
-        fVar16 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-        pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                           (pSVar8,(MethodInfo *)"Z");
-        if ((pSVar9 == (System_String_o *)0x0) ||
-           (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                (pSVar9,(MethodInfo *)0x0), pSVar10 == (System_Collections_IEnumerator_o *)0x0
-           )) goto label_1821ccdc8;
-        fVar17 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-        (__this->fields).MinRange.fields.x = fVar15;
-        (__this->fields).MinRange.fields.z = fVar17;
-        (__this->fields).MinRange.fields.y = fVar16;
-        pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                           (pSVar8,(MethodInfo *)"X");
-        if ((pSVar9 == (System_String_o *)0x0) ||
-           (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                (pSVar9,(MethodInfo *)0x1), pSVar10 == (System_Collections_IEnumerator_o *)0x0
-           )) goto label_1821ccdc8;
-        fVar15 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-        pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                           (pSVar8,(MethodInfo *)"Y");
-        if ((pSVar9 == (System_String_o *)0x0) ||
-           (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                (pSVar9,(MethodInfo *)0x1), pSVar10 == (System_Collections_IEnumerator_o *)0x0
-           )) goto label_1821ccdc8;
-        fVar16 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-        pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                           (pSVar8,(MethodInfo *)"Z");
-        if ((pSVar9 == (System_String_o *)0x0) ||
-           (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                (pSVar9,(MethodInfo *)0x1), pSVar10 == (System_Collections_IEnumerator_o *)0x0
-           )) goto label_1821ccdc8;
-        fVar17 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)(pSVar10);
-        (__this->fields).MaxRange.fields.z = fVar17;
-        (__this->fields).MaxRange.fields.x = fVar15;
-        (__this->fields).MaxRange.fields.y = fVar16;
+      (__this->fields).RightArm = bVar5;
+      bVar5 = (*(attackInfo->klass->vtable)._28_HasKey.methodPtr)
+                        (attackInfo,"Ranges",(attackInfo->klass->vtable)._28_HasKey.method);
+      if (bVar5) {
+        pSVar9 = (*(attackInfo->klass->vtable)._7_get_Item.methodPtr)
+                           (attackInfo,"Ranges",(attackInfo->klass->vtable)._7_get_Item.method);
+        if (((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+            (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                 (pSVar9,"X",(pSVar9->klass->vtable)._7_get_Item.method),
+            pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0)) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                        (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar13 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+        pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                            (pSVar9,"Y",(pSVar9->klass->vtable)._7_get_Item.method);
+        if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                        (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar14 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+        pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                            (pSVar9,"Z",(pSVar9->klass->vtable)._7_get_Item.method);
+        if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                        (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar15 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+        (__this->fields).MinRange.fields.x = fVar13;
+        (__this->fields).MinRange.fields.y = fVar14;
+        (__this->fields).MinRange.fields.z = fVar15;
+        pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                            (pSVar9,"X",(pSVar9->klass->vtable)._7_get_Item.method);
+        if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                        (pSVar10,1,*(undefined8 *)((long)pSVar10->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar13 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+        pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                            (pSVar9,"Y",(pSVar9->klass->vtable)._7_get_Item.method);
+        if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                        (pSVar10,1,*(undefined8 *)((long)pSVar10->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar14 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+        pSVar9 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                           (pSVar9,"Z",(pSVar9->klass->vtable)._7_get_Item.method);
+        if ((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (plVar11 = (long *)(**(code **)((long)pSVar9->klass + 0x188))
+                                        (pSVar9,1,*(undefined8 *)((long)pSVar9->klass + 400)),
+           plVar11 == (long *)0x0)) goto label_05c62400;
+        fVar15 = (float)(**(code **)(*plVar11 + 0x388))(plVar11);
+        (__this->fields).MaxRange.fields.x = fVar13;
+        (__this->fields).MaxRange.fields.y = fVar14;
+        (__this->fields).MaxRange.fields.z = fVar15;
       }
       if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      bVar4 = SimpleJSONFixed_JSONNode__op_Inequality(keyframes,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if (!bVar4) {
+      bVar5 = SimpleJSONFixed_JSONNode__op_Inequality(keyframes,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      if (!bVar5) {
         return;
       }
-      pSVar14 = (System_Type_o *)0x0;
       (__this->fields).HasKeyframes = true;
-      uVar13 = 0;
-      if (keyframes != (SimpleJSONFixed_JSONNode_o *)0x0) {
-        while (pSVar8 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
-                                  (keyframes,(MethodInfo *)"Keyframes"),
-              pSVar8 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-          pSVar8 = (*(pSVar8->klass->vtable)._11_get_NameAttribute.methodPtr)
-                             (pSVar8,(pSVar8->klass->vtable)._11_get_NameAttribute.method);
-          if ((int)pSVar8 <= (int)uVar13) {
-            pSVar8 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
-                               (keyframes,(MethodInfo *)"Ranges");
-            if (((pSVar8 != (System_Xml_Schema_XmlSchema_o *)0x0) &&
-                (pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                    (pSVar8,(MethodInfo *)"X"),
-                pSVar9 != (System_String_o *)0x0)) &&
-               (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.methodPtr)
-                                    (pSVar9,(MethodInfo *)0x0),
-               pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-              fVar15 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                        (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-              pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                 (pSVar8,(MethodInfo *)"Y");
-              if ((pSVar9 != (System_String_o *)0x0) &&
-                 (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                              methodPtr)(pSVar9,(MethodInfo *)0x0),
-                 pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-                fVar16 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                          (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-                pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                   (pSVar8,(MethodInfo *)"Z");
-                if ((pSVar9 != (System_String_o *)0x0) &&
-                   (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                                methodPtr)(pSVar9,(MethodInfo *)0x0),
-                   pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-                  fVar17 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                            (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-                  (__this->fields).MinRange.fields.x = fVar15;
-                  (__this->fields).MinRange.fields.z = fVar17;
-                  (__this->fields).MinRange.fields.y = fVar16;
-                  pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                     (pSVar8,(MethodInfo *)"X");
-                  if ((pSVar9 != (System_String_o *)0x0) &&
-                     (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                                  methodPtr)(pSVar9,(MethodInfo *)0x1),
-                     pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-                    fVar15 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                              (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-                    pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                       (pSVar8,(MethodInfo *)"Y");
-                    if ((pSVar9 != (System_String_o *)0x0) &&
-                       (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                                    methodPtr)(pSVar9,(MethodInfo *)0x1),
-                       pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-                      fVar16 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                                (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-                      pSVar9 = (*(pSVar8->klass->vtable)._7_get_IdAttribute.methodPtr)
-                                         (pSVar8,(MethodInfo *)"Z");
-                      if ((pSVar9 != (System_String_o *)0x0) &&
-                         (pSVar10 = (*(pSVar9->klass->vtable)._5_System_Collections_IEnumerable_GetEnumerator.
-                                      methodPtr)(pSVar9,(MethodInfo *)0x1),
-                         pSVar10 != (System_Collections_IEnumerator_o *)0x0)) {
-                        fVar17 = (float)(*(code *)((Il2CppClass *)pSVar10->klass)->vtable[37].methodPtr)
-                                                  (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[37].method);
-                        (__this->fields).MaxRange.fields.z = fVar17;
-                        (__this->fields).MaxRange.fields.x = fVar15;
-                        (__this->fields).MaxRange.fields.y = fVar16;
+      if ((keyframes != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+         (pSVar9 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
+                             (keyframes,"Keyframes",(keyframes->klass->vtable)._7_get_Item.method),
+         pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+        iVar12 = 0;
+        do {
+          iVar7 = (*(pSVar9->klass->vtable)._11_get_Count.methodPtr)
+                            (pSVar9,(pSVar9->klass->vtable)._11_get_Count.method);
+          if (iVar7 <= iVar12) {
+            pSVar9 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
+                               (keyframes,"Ranges",(keyframes->klass->vtable)._7_get_Item.method)
+            ;
+            if (((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                     (pSVar9,"X",(pSVar9->klass->vtable)._7_get_Item.method)
+                , pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0)) &&
+               (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                            (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+               plVar11 != (long *)0x0)) {
+              fVar13 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+              pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                  (pSVar9,"Y",(pSVar9->klass->vtable)._7_get_Item.method);
+              if ((pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                 (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                              (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+                 plVar11 != (long *)0x0)) {
+                fVar14 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+                pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar9,"Z",(pSVar9->klass->vtable)._7_get_Item.method);
+                if ((pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                   (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                                (pSVar10,0,*(undefined8 *)((long)pSVar10->klass + 400)),
+                   plVar11 != (long *)0x0)) {
+                  fVar15 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
+                  (__this->fields).MinRange.fields.x = fVar13;
+                  (__this->fields).MinRange.fields.y = fVar14;
+                  (__this->fields).MinRange.fields.z = fVar15;
+                  pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                      (pSVar9,"X",(pSVar9->klass->vtable)._7_get_Item.method
+                                      );
+                  if ((pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                     (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                                  (pSVar10,1,*(undefined8 *)((long)pSVar10->klass + 400)),
+                     plVar11 != (long *)0x0)) {
+                    fVar13 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390))
+                    ;
+                    pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                        (pSVar9,"Y",
+                                         (pSVar9->klass->vtable)._7_get_Item.method);
+                    if ((pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                       (plVar11 = (long *)(**(code **)((long)pSVar10->klass + 0x188))
+                                                    (pSVar10,1,*(undefined8 *)((long)pSVar10->klass + 400)),
+                       plVar11 != (long *)0x0)) {
+                      fVar14 = (float)(**(code **)(*plVar11 + 0x388))
+                                                (plVar11,*(undefined8 *)(*plVar11 + 0x390));
+                      pSVar9 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                         (pSVar9,"Z",
+                                          (pSVar9->klass->vtable)._7_get_Item.method);
+                      if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                         (plVar11 = (long *)(**(code **)((long)pSVar9->klass + 0x188))
+                                                      (pSVar9,1,*(undefined8 *)((long)pSVar9->klass + 400)),
+                         plVar11 != (long *)0x0)) {
+                        fVar15 = (float)(**(code **)(*plVar11 + 0x388))
+                                                  (plVar11,*(undefined8 *)(*plVar11 + 0x390));
+                        (__this->fields).MaxRange.fields.x = fVar13;
+                        (__this->fields).MaxRange.fields.y = fVar14;
+                        (__this->fields).MaxRange.fields.z = fVar15;
                         return;
                       }
                     }
@@ -252,156 +252,146 @@ void Characters_TitanAttackInfo___ctor
             }
             break;
           }
-          pSVar7 = (__this->fields).Keyframes;
-          pSVar8 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
-                             (keyframes,(MethodInfo *)"Keyframes");
-          if (pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) break;
-          plVar11 = (longlong *)
-                    (*(pSVar8->klass->vtable)._5_OnRemove.methodPtr)
-                              (pSVar8,pSVar14,(pSVar8->klass->vtable)._5_OnRemove.method);
-          item = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Characters_TitanAttackKeyframe);
-          if (Il2CppMethodInitialized_184346ead == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&"x");
-            il2cpp_codegen_initialize_runtime_metadata(&"f");
-            il2cpp_codegen_initialize_runtime_metadata(&"y");
-            il2cpp_codegen_initialize_runtime_metadata(&"z");
-            il2cpp_codegen_initialize_runtime_metadata(&"r");
-            Il2CppMethodInitialized_184346ead = '\x01';
-          }
-          System_Object___ctor
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)item,(MethodInfo *)0x0);
-          if ((plVar11 == (longlong *)0x0) ||
-             (plVar12 = (longlong *)
-                        (**(code **)(*plVar11 + 0x1a8))
-                                  (plVar11,"f",*(undefined8 *)(*plVar11 + 0x1b0)),
-             plVar12 == (longlong *)0x0)) break;
-          iVar6 = (**(code **)(*plVar12 + 0x368))(plVar12,*(undefined8 *)(*plVar12 + 0x370));
-          (item->fields).Frame = iVar6;
-          plVar12 = (longlong *)
-                    (**(code **)(*plVar11 + 0x1a8))
-                              (plVar11,"x",*(undefined8 *)(*plVar11 + 0x1b0));
-          if (plVar12 == (longlong *)0x0) break;
-          fVar15 = (float)(**(code **)(*plVar12 + 0x388))(plVar12,*(undefined8 *)(*plVar12 + 0x390));
-          plVar12 = (longlong *)
-                    (**(code **)(*plVar11 + 0x1a8))
-                              (plVar11,"y",*(undefined8 *)(*plVar11 + 0x1b0));
-          if (plVar12 == (longlong *)0x0) break;
-          fVar16 = (float)(**(code **)(*plVar12 + 0x388))(plVar12,*(undefined8 *)(*plVar12 + 0x390));
-          plVar12 = (longlong *)
-                    (**(code **)(*plVar11 + 0x1a8))
-                              (plVar11,"z",*(undefined8 *)(*plVar11 + 0x1b0));
-          if (plVar12 == (longlong *)0x0) break;
-          fVar17 = (float)(**(code **)(*plVar12 + 0x388))(plVar12,*(undefined8 *)(*plVar12 + 0x390));
-          (item->fields)._localPosition.fields.x = fVar15;
-          (item->fields)._localPosition.fields.z = fVar17;
-          (item->fields)._localPosition.fields.y = fVar16;
-          plVar11 = (longlong *)
-                    (**(code **)(*plVar11 + 0x1a8))
-                              (plVar11,"r",*(undefined8 *)(*plVar11 + 0x1b0));
-          if (plVar11 == (longlong *)0x0) break;
-          fVar15 = (float)(**(code **)(*plVar11 + 0x388))(plVar11,*(undefined8 *)(*plVar11 + 0x390));
-          (item->fields)._radius = fVar15;
-          pMVar3 = MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_Add;
-          if (pSVar7 == (System_Collections_Generic_List_TitanAttackKeyframe__o *)0x0) break;
-          piVar1 = &(pSVar7->fields)._version;
+          pSVar8 = *targetAddress;
+          pSVar9 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
+                             (keyframes,"Keyframes",(keyframes->klass->vtable)._7_get_Item.method);
+          if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) break;
+          pSVar9 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)
+                             (pSVar9,iVar12,(pSVar9->klass->vtable)._5_get_Item.method);
+          __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Characters_TitanAttackKeyframe);
+          Characters_TitanAttackKeyframe___ctor(__this_00,pSVar9,method_00);
+          pMVar4 = MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_Add;
+          if (pSVar8 == (System_Collections_Generic_List_TitanAttackKeyframe__o *)0x0) break;
+          piVar1 = &(pSVar8->fields)._version;
           *piVar1 = *piVar1 + 1;
-          pCVar2 = (pSVar7->fields)._items;
-          if (pCVar2 == (Characters_TitanAttackKeyframe_array *)0x0) break;
-          uVar13 = (pSVar7->fields)._size;
-          if (uVar13 < (uint)pCVar2->max_length) {
-            (pSVar7->fields)._size = uVar13 + 1;
-            if ((uint)pCVar2->max_length <= uVar13) {
-              ThrowIndexOutOfRangeException();
-            }
-            pCVar2->m_Items[(int)uVar13] = item;
-            Il2CppCodeGenWriteBarrier(pCVar2->m_Items + (int)uVar13,item);
-            uVar13 = (int)pSVar14 + 1;
-            pSVar14 = (System_Type_o *)(ulonglong)uVar13;
+          pCVar3 = (pSVar8->fields)._items;
+          if (pCVar3 == (Characters_TitanAttackKeyframe_array *)0x0) break;
+          uVar2 = (pSVar8->fields)._size;
+          if (uVar2 < (uint)pCVar3->max_length) {
+            (pSVar8->fields)._size = uVar2 + 1;
+            pCVar3->m_Items[(int)uVar2] = __this_00;
+            Il2CppCodeGenWriteBarrier(pCVar3->m_Items + (int)uVar2);
           }
           else {
             System_Collections_Generic_List_object___AddWithResize
-                      ((System_Collections_Generic_List_object__o *)pSVar7,(Il2CppObject *)item,
-                       (MethodInfo_93DD50 *)pMVar3->klass->rgctx_data[0xe].method);
-            uVar13 = (int)pSVar14 + 1;
-            pSVar14 = (System_Type_o *)(ulonglong)uVar13;
+                      ((System_Collections_Generic_List_object__o *)pSVar8,(Il2CppObject *)__this_00,
+                       (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
           }
-        }
+          iVar12 = iVar12 + 1;
+          pSVar9 = (*(keyframes->klass->vtable)._7_get_Item.methodPtr)
+                             (keyframes,"Keyframes",(keyframes->klass->vtable)._7_get_Item.method);
+        } while (pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0);
       }
     }
   }
-label_1821ccdc8:
+label_05c62400:
   ThrowNullReferenceException();
 }
 
 
 // Characters.TitanAttackInfo$$CheckSimpleAttack
 // il2cpp: bool Characters_TitanAttackInfo__CheckSimpleAttack (Characters_TitanAttackInfo_o* __this, UnityEngine_Vector3_o relativePosition, const MethodInfo* method);
-// 0x1821cc0c0
+// 0x5c625d0
 
 bool Characters_TitanAttackInfo__CheckSimpleAttack
-               (Characters_TitanAttackInfo_o *__this,UnityEngine_Vector3_o *relativePosition,
-               MethodInfo *method)
+               (Characters_TitanAttackInfo_o *__this,UnityEngine_Vector3_o relativePosition,MethodInfo *method
+               )
 
 {
-  if (((((__this->fields).MinRange.fields.x <= (relativePosition->fields).x) &&
-       ((__this->fields).MinRange.fields.y <= (relativePosition->fields).y)) &&
-      ((__this->fields).MinRange.fields.z <= (relativePosition->fields).z)) &&
-     (((relativePosition->fields).x <= (__this->fields).MaxRange.fields.x &&
-      ((relativePosition->fields).y <= (__this->fields).MaxRange.fields.y)))) {
-    return (relativePosition->fields).z <= (__this->fields).MaxRange.fields.z;
+  if (relativePosition.fields.x < (__this->fields).MinRange.fields.x) {
+    return false;
   }
-  return false;
+  if (relativePosition.fields.y < (__this->fields).MinRange.fields.y) {
+    return false;
+  }
+  if (relativePosition.fields.z < (__this->fields).MinRange.fields.z) {
+    return false;
+  }
+  if ((__this->fields).MaxRange.fields.x < relativePosition.fields.x) {
+    return false;
+  }
+  if ((__this->fields).MaxRange.fields.y < relativePosition.fields.y) {
+    return false;
+  }
+  return relativePosition.fields.z <= (__this->fields).MaxRange.fields.z;
 }
 
 
 // Characters.TitanAttackInfo$$CheckSmartAttack
 // il2cpp: bool Characters_TitanAttackInfo__CheckSmartAttack (Characters_TitanAttackInfo_o* __this, UnityEngine_Transform_o* titan, UnityEngine_Vector3_o worldPosition, UnityEngine_Vector3_o velocity, float attackSpeed, float size, const MethodInfo* method);
-// 0x1821cc110
-// eh: try 0x1821cc1db..0x1821cc31f -> pad 0x183320150 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821cc1ee: nop 
-// asm:   0x1821cc2ee: mov rdx, qword ptr [rip + 0x1ece023]  ; MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_Dispose
-// asm:   0x1821cc2f5: mov rcx, qword ptr [rsp + 0x68]
-// asm:   0x1821cc2fa: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1821cc2ff: mov rcx, qword ptr [rsp + 0x60]
-// asm:   0x1821cc304: test rcx, rcx
-// asm:   0x1821cc307: jne 0x1821cc31f
-// asm:   0x1821cc31f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183320150: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183320155: push rbp
-// asm:   0x183320156: sub rsp, 0x20
-// asm:   0x18332015a: mov rbp, rdx
-// asm:   0x18332015d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183320161: mov rcx, qword ptr [rax]
-// asm:   0x183320164: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x183320168: movabs rax, 0
-// asm:   0x183320172: add rsp, 0x20
-// asm:   0x183320176: pop rbp
-// asm:   0x183320177: ret 
+// 0x5c62620
+// eh: try 0x5c626f3..0x5c627cd -> pad 0x5c627d5 (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5c627ed..0x5c627f2 -> pad 0x5c6281a cleanup
+// eh: try 0x5c6281d..0x5c62827 -> pad 0x5c6282f catch (...) [compiler noexcept guard]
+// asm: 30 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5c626e9: nop dword ptr [rax]
+// asm:   0x5c627cd: jmp 0x5c627d5
+// asm:   0x5c627cf: jmp 0x5c627d5
+// asm:   0x5c627d1: jmp 0x5c627d5
+// asm:   0x5c627d3: jmp 0x5c627d5
+// asm:   0x5c627d5: mov rbx, rax
+// asm:   0x5c627d8: cmp edx, 1
+// asm:   0x5c627db: jne 0x5c6281d
+// asm:   0x5c627dd: mov rdi, rbx
+// asm:   0x5c627e0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5c627e5: mov r14, qword ptr [rax]
+// asm:   0x5c627e8: mov qword ptr [rsp + 0x40], r14
+// asm:   0x5c627ed: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5c627f2: lea rax, [rip + 0x162c47f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_Dispose
+// asm:   0x5c627f9: mov rsi, qword ptr [rax]
+// asm:   0x5c627fc: lea rdi, [rsp + 0x10]
+// asm:   0x5c62801: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5c62806: xor ebp, ebp
+// asm:   0x5c62808: mov ebx, 0
+// asm:   0x5c6280d: test r14, r14
+// asm:   0x5c62810: je 0x5c627a0
+// asm:   0x5c62812: mov rdi, r14
+// asm:   0x5c62815: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5c6281a: mov rbx, rax
+// asm:   0x5c6281d: lea rdi, [rsp + 0x40]
+// asm:   0x5c62822: call 0x2fd9ba0  ; il2cpp_runtime_helper_02fd9ba0()
+// asm:   0x5c62827: mov rdi, rbx
+// asm:   0x5c6282a: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5c6282f: mov rdi, rax
+// asm:   0x5c62832: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Characters_TitanAttackInfo__CheckSmartAttack
                (Characters_TitanAttackInfo_o *__this,UnityEngine_Transform_o *titan,
-               UnityEngine_Vector3_o *worldPosition,UnityEngine_Vector3_o *velocity,float attackSpeed,
-               float size,MethodInfo *method)
+               UnityEngine_Vector3_o worldPosition,UnityEngine_Vector3_o velocity,float attackSpeed,float size
+               ,MethodInfo *method)
 
 {
-  undefined8 uVar1;
   System_Collections_Generic_List_TitanAttackKeyframe__o *__this_00;
-  Il2CppObject *pIVar2;
-  bool bVar3;
-  UnityEngine_Vector3_o *pUVar4;
+  Il2CppObject *pIVar1;
+  bool bVar2;
+  int iVar3;
+  float fVar4;
   float fVar5;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  float in_XMM1_Db;
+  float in_XMM1_Dc;
+  undefined4 in_XMM1_Dd;
   float fVar6;
   float fVar7;
-  float fVar8;
-  UnityEngine_Vector3_Fields local_d8;
-  undefined8 local_c8;
-  UnityEngine_Vector3_o local_b8;
-  undefined1 local_a8 [16];
-  Il2CppObject *local_98;
-  System_Collections_Generic_List_Enumerator_object__o local_90 [4];
+  UnityEngine_Vector3_o UVar8;
+  System_Collections_Generic_List_Enumerator_T__o local_78;
+  float local_58;
+  float fStack_54;
+  float fStack_50;
+  undefined4 uStack_4c;
+  undefined8 local_48;
+  System_Collections_Generic_List_Enumerator_T__o *local_40;
+  undefined1 local_38 [16];
   
-  if (Il2CppMethodInitialized_184346eac == '\0') {
+  local_58 = worldPosition.fields.z;
+  local_38._8_4_ = in_XMM0_Dc;
+  local_38._0_8_ = worldPosition.fields._0_8_;
+  local_38._12_4_ = in_XMM0_Dd;
+  fStack_54 = in_XMM1_Db;
+  fStack_50 = in_XMM1_Dc;
+  uStack_4c = in_XMM1_Dd;
+  if (Il2CppMethodInitialized_0754789e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -410,61 +400,70 @@ bool Characters_TitanAttackInfo__CheckSmartAttack
               (&MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_get_Current);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_GetEnumerator);
-    Il2CppMethodInitialized_184346eac = '\x01';
+    Il2CppMethodInitialized_0754789e = '\x01';
   }
-  local_90[0].fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_90[0].fields._index = 0;
-  local_90[0].fields._version = 0;
-  local_90[0].fields._current = (Il2CppObject *)0x0;
+  local_78.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_78.fields._index = 0;
+  local_78.fields._version = 0;
+  local_78.fields._current = (Il2CppObject *)0x0;
   __this_00 = (__this->fields).Keyframes;
   if (__this_00 == (System_Collections_Generic_List_TitanAttackKeyframe__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_a8,
-             (System_Collections_Generic_List_T__o *)__this_00,
-             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_GetEnumerator
-            );
-  local_90[0].fields._list = (System_Collections_Generic_List_T__o *)local_a8._0_8_;
-  local_90[0].fields._index = local_a8._8_4_;
-  local_90[0].fields._version = local_a8._12_4_;
-  local_90[0].fields._current = local_98;
-  local_a8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_a8._8_8_ = local_90;
-  do {
-    bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                      (local_90,(MethodInfo_153A2A0 *)
-                                MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_MoveNext
-                      );
-    pIVar2 = local_90[0].fields._current;
-    if (!bVar3) {
-      System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90,
-                 MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_Dispose);
-      return false;
-    }
-    if (local_90[0].fields._current == (Il2CppObject *)0x0) {
+  System_Collections_Generic_List_object___GetEnumerator
+            (&local_78,(System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)
+             MethodInfo_System_Collections_Generic_List_TitanAttackKeyframe_GetEnumerator);
+  fVar4 = fStack_54;
+  local_48 = 0;
+  local_40 = &local_78;
+  if (titan == (UnityEngine_Transform_o *)0x0) {
+    bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&local_78,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_MoveNext);
+    if (bVar2) {
+      if (local_78.fields._current != (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
+      }
+label_05c627c3:
       ThrowNullReferenceException();
     }
-    if (titan == (UnityEngine_Transform_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    uVar1._0_4_ = (worldPosition->fields).x;
-    uVar1._4_4_ = (worldPosition->fields).y;
-    local_d8._0_8_ = *(undefined8 *)((longlong)&local_90[0].fields._current[1].klass + 4);
-    local_d8.z = *(float *)((longlong)&local_90[0].fields._current[1].monitor + 4);
-    local_c8 = uVar1;
-    pUVar4 = UnityEngine_Transform__TransformPoint
-                       (&local_b8,titan,(UnityEngine_Vector3_o *)&local_d8,(MethodInfo *)0x0);
-    fVar8 = (float)(undefined4)uVar1 - (pUVar4->fields).x;
-    fVar6 = local_c8._4_4_ - (pUVar4->fields).y;
-    fVar7 = (worldPosition->fields).z - (pUVar4->fields).z;
-    fVar5 = (float)il2cpp_runtime_helper_1804f6b50(size * *(float *)&pIVar2[2].klass,0x40000000);
-  } while (fVar5 < fVar7 * fVar7 + fVar6 * fVar6 + fVar8 * fVar8);
+    iVar3 = 5;
+    bVar2 = false;
+  }
+  else {
+    fStack_54 = (float)local_38._0_4_;
+    fStack_50 = fVar4;
+    uStack_4c = local_38._4_4_;
+    do {
+      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                        ((System_Collections_Generic_List_Enumerator_object__o *)&local_78,
+                         (MethodInfo_4C45C50 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_MoveNext);
+      pIVar1 = local_78.fields._current;
+      if (!bVar2) {
+        iVar3 = 5;
+        goto label_05c6278c;
+      }
+      if (local_78.fields._current == (Il2CppObject *)0x0) goto label_05c627c3;
+      UVar8 = UnityEngine_Transform__TransformPoint
+                        (titan,(UnityEngine_Vector3_o)
+                               *(UnityEngine_Vector3_Fields *)((long)&local_78.fields._current[1].klass + 4),
+                         (MethodInfo *)0x0);
+      fVar6 = *(float *)&pIVar1[2].klass * size;
+      fVar7 = (float)local_38._4_4_ - UVar8.fields.y;
+      fVar4 = local_58 - UVar8.fields.z;
+      fVar5 = fStack_54 - UVar8.fields.x;
+    } while (fVar6 * fVar6 < fVar7 * fVar7 + fVar5 * fVar5 + fVar4 * fVar4);
+    iVar3 = 4;
+  }
+label_05c6278c:
   System_Collections_Generic_List_Enumerator_object___Dispose
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90,
+            ((System_Collections_Generic_List_Enumerator_object__o *)&local_78,
+             (MethodInfo_4C45C40 *)
              MethodInfo_System_Collections_Generic_List_Enumerator_TitanAttackKeyframe_Dispose);
-  return true;
+  return (bool)(iVar3 == 4 & bVar2);
 }
 
 

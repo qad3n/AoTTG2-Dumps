@@ -1,17 +1,16 @@
 // Type: Characters.TitanSounds
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/TitanSounds.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Titan/TitanSounds.cs
 // --------------------------------
 
 // Characters.TitanSounds$$GetRandom
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandom (System_String_array* sounds, const MethodInfo* method);
-// 0x18215c630
+// 0x5c5fb70
 
-System_String_o*
-Characters_TitanSounds__GetRandom(System_String_array* sounds, MethodInfo* method)
+System_String_o * Characters_TitanSounds__GetRandom(System_String_array *sounds,MethodInfo *method)
 
 {
   uint uVar1;
@@ -19,17 +18,17 @@ Characters_TitanSounds__GetRandom(System_String_array* sounds, MethodInfo* metho
   if (sounds == (System_String_array *)0x0) {
     ThrowNullReferenceException();
   }
-  uVar1 = UnityEngine_Random__RandomRangeInt(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
-  if (uVar1 < (uint)sounds->max_length) {
-    return sounds->m_Items[(int)uVar1];
+  uVar1 = UnityEngine_Random__Range_690e2b0(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
+  if ((uint)sounds->max_length <= uVar1) {
+    ThrowIndexOutOfRangeException();
   }
-  ThrowIndexOutOfRangeException();
+  return sounds->m_Items[(int)uVar1];
 }
 
 
 // Characters.TitanSounds$$GetRandomFromList
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomFromList (System_String_array* sounds, const MethodInfo* method);
-// 0x18215c630
+// 0x5c5fba0
 
 System_String_o * Characters_TitanSounds__GetRandomFromList(System_String_array *sounds,MethodInfo *method)
 
@@ -39,102 +38,102 @@ System_String_o * Characters_TitanSounds__GetRandomFromList(System_String_array 
   if (sounds == (System_String_array *)0x0) {
     ThrowNullReferenceException();
   }
-  uVar1 = UnityEngine_Random__RandomRangeInt(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
-  if (uVar1 < (uint)sounds->max_length) {
-    return sounds->m_Items[(int)uVar1];
+  uVar1 = UnityEngine_Random__Range_690e2b0(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
+  if ((uint)sounds->max_length <= uVar1) {
+    ThrowIndexOutOfRangeException();
   }
-  ThrowIndexOutOfRangeException();
+  return sounds->m_Items[(int)uVar1];
 }
 
 
 // Characters.TitanSounds$$GetRandomFootstep
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomFootstep (const MethodInfo* method);
-// 0x1821cd8c0
+// 0x5c5fbd0
 
 System_String_o * Characters_TitanSounds__GetRandomFootstep(MethodInfo *method)
 
 {
-  System_String_array *pSVar1;
-  uint uVar2;
+  uint32_t uVar1;
+  System_String_array *pSVar2;
+  uint uVar3;
   
-  if (Il2CppMethodInitialized_184346ea1 == '\0') {
+  if (Il2CppMethodInitialized_07547893 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
-    Il2CppMethodInitialized_184346ea1 = '\x01';
+    Il2CppMethodInitialized_07547893 = '\x01';
+    uVar1 = (TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSounds);
+    pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Footsteps;
   }
-  pSVar1 = TypeInfo_Characters_TitanSounds->static_fields->Footsteps;
-  if (pSVar1 != (System_String_array *)0x0) {
-    uVar2 = UnityEngine_Random__RandomRangeInt(0,(int32_t)pSVar1->max_length,(MethodInfo *)0x0);
-    if (uVar2 < (uint)pSVar1->max_length) {
-      return pSVar1->m_Items[(int)uVar2];
-    }
+  else {
+    pSVar2 = *(System_String_array **)
+              ((long)((Il2CppClass *)TypeInfo_Characters_TitanSounds)->static_fields + 0x168);
+  }
+  if (pSVar2 == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  uVar3 = UnityEngine_Random__Range_690e2b0(0,(int32_t)pSVar2->max_length,(MethodInfo *)0x0);
+  if ((uint)pSVar2->max_length <= uVar3) {
     ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  return pSVar2->m_Items[(int)uVar3];
 }
 
 
 // Characters.TitanSounds$$GetRandomHurt
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomHurt (const MethodInfo* method);
-// 0x1821cdb80
+// 0x5c5fc70
 
 System_String_o * Characters_TitanSounds__GetRandomHurt(MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  System_String_o *pSVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
+  uint uVar1;
+  Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346ea2 == '\0') {
+  if (Il2CppMethodInitialized_07547894 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
-    Il2CppMethodInitialized_184346ea2 = '\x01';
+    Il2CppMethodInitialized_07547894 = '\x01';
   }
-  pIVar4 = SZArrayNew(TypeInfo_string_array,8);
+  pIVar2 = SZArrayNew(TypeInfo_string_array,8);
   if ((TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSounds);
   }
-  if (pIVar4 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar4[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt1;
-      pIVar4[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar4[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar4[1].monitor) {
-        pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Hurt2;
-        pIVar4[2].monitor = pSVar2;
-        Il2CppCodeGenWriteBarrier(&pIVar4[2].monitor,pSVar2);
-        if (2 < *(uint *)&pIVar4[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt3;
-          pIVar4[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar4[3].klass,pIVar1);
-          if (3 < *(uint *)&pIVar4[1].monitor) {
-            pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Hurt4;
-            pIVar4[3].monitor = pSVar2;
-            Il2CppCodeGenWriteBarrier(&pIVar4[3].monitor,pSVar2);
-            if (4 < *(uint *)&pIVar4[1].monitor) {
-              pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt5;
-              pIVar4[4].klass = pIVar1;
-              Il2CppCodeGenWriteBarrier(&pIVar4[4].klass,pIVar1);
-              if (5 < *(uint *)&pIVar4[1].monitor) {
-                pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Hurt6;
-                pIVar4[4].monitor = pSVar2;
-                Il2CppCodeGenWriteBarrier(&pIVar4[4].monitor,pSVar2);
-                if (6 < *(uint *)&pIVar4[1].monitor) {
-                  pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt7;
-                  pIVar4[5].klass = pIVar1;
-                  Il2CppCodeGenWriteBarrier(&pIVar4[5].klass,pIVar1);
-                  if (7 < *(uint *)&pIVar4[1].monitor) {
-                    pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Hurt8;
-                    pIVar4[5].monitor = pSVar2;
-                    Il2CppCodeGenWriteBarrier(&pIVar4[5].monitor,pSVar2);
-                    uVar3 = UnityEngine_Random__RandomRangeInt
-                                      (0,*(int32_t *)&pIVar4[1].monitor,(MethodInfo *)0x0);
-                    if (uVar3 < *(uint *)&pIVar4[1].monitor) {
-                      return (System_String_o *)(&pIVar4[2].klass)[(int)uVar3];
-                    }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_TitanSounds->static_fields->Hurt2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        if (((ulong)pIVar2[1].monitor & 0xfffffffc) != 0) {
+          pIVar2[3].monitor = TypeInfo_Characters_TitanSounds->static_fields->Hurt4;
+          Il2CppCodeGenWriteBarrier(&pIVar2[3].monitor);
+          if (4 < *(uint *)&pIVar2[1].monitor) {
+            pIVar2[4].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt5;
+            Il2CppCodeGenWriteBarrier(&pIVar2[4].klass);
+            if (5 < *(uint *)&pIVar2[1].monitor) {
+              pIVar2[4].monitor = TypeInfo_Characters_TitanSounds->static_fields->Hurt6;
+              Il2CppCodeGenWriteBarrier(&pIVar2[4].monitor);
+              if (6 < *(uint *)&pIVar2[1].monitor) {
+                pIVar2[5].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Hurt7;
+                Il2CppCodeGenWriteBarrier(&pIVar2[5].klass);
+                if (((ulong)pIVar2[1].monitor & 0xfffffff8) != 0) {
+                  pIVar2[5].monitor = TypeInfo_Characters_TitanSounds->static_fields->Hurt8;
+                  Il2CppCodeGenWriteBarrier(&pIVar2[5].monitor);
+                  uVar1 = UnityEngine_Random__Range_690e2b0
+                                    (0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+                  if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+                    return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
                   }
                 }
               }
@@ -143,79 +142,67 @@ System_String_o * Characters_TitanSounds__GetRandomHurt(MethodInfo *method)
         }
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.TitanSounds$$GetRandomGrabGrunt
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomGrabGrunt (const MethodInfo* method);
-// 0x1821cd940
+// 0x5c5fe30
 
 System_String_o * Characters_TitanSounds__GetRandomGrabGrunt(MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  System_String_o *pSVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
+  uint uVar1;
+  Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346ea3 == '\0') {
+  if (Il2CppMethodInitialized_07547895 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
-    Il2CppMethodInitialized_184346ea3 = '\x01';
+    Il2CppMethodInitialized_07547895 = '\x01';
   }
-  pIVar4 = SZArrayNew(TypeInfo_string_array,10);
+  pIVar2 = SZArrayNew(TypeInfo_string_array,10);
   if ((TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSounds);
   }
-  if (pIVar4 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar4[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt1;
-      pIVar4[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar4[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar4[1].monitor) {
-        pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Grunt2;
-        pIVar4[2].monitor = pSVar2;
-        Il2CppCodeGenWriteBarrier(&pIVar4[2].monitor,pSVar2);
-        if (2 < *(uint *)&pIVar4[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt3;
-          pIVar4[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar4[3].klass,pIVar1);
-          if (3 < *(uint *)&pIVar4[1].monitor) {
-            pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Grunt4;
-            pIVar4[3].monitor = pSVar2;
-            Il2CppCodeGenWriteBarrier(&pIVar4[3].monitor,pSVar2);
-            if (4 < *(uint *)&pIVar4[1].monitor) {
-              pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt5;
-              pIVar4[4].klass = pIVar1;
-              Il2CppCodeGenWriteBarrier(&pIVar4[4].klass,pIVar1);
-              if (5 < *(uint *)&pIVar4[1].monitor) {
-                pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Grunt6;
-                pIVar4[4].monitor = pSVar2;
-                Il2CppCodeGenWriteBarrier(&pIVar4[4].monitor,pSVar2);
-                if (6 < *(uint *)&pIVar4[1].monitor) {
-                  pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt7;
-                  pIVar4[5].klass = pIVar1;
-                  Il2CppCodeGenWriteBarrier(&pIVar4[5].klass,pIVar1);
-                  if (7 < *(uint *)&pIVar4[1].monitor) {
-                    pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Grunt8;
-                    pIVar4[5].monitor = pSVar2;
-                    Il2CppCodeGenWriteBarrier(&pIVar4[5].monitor,pSVar2);
-                    if (8 < *(uint *)&pIVar4[1].monitor) {
-                      pIVar1 = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt9;
-                      pIVar4[6].klass = pIVar1;
-                      Il2CppCodeGenWriteBarrier(&pIVar4[6].klass,pIVar1);
-                      if (9 < *(uint *)&pIVar4[1].monitor) {
-                        pSVar2 = TypeInfo_Characters_TitanSounds->static_fields->Grunt10;
-                        pIVar4[6].monitor = pSVar2;
-                        Il2CppCodeGenWriteBarrier(&pIVar4[6].monitor,pSVar2);
-                        uVar3 = UnityEngine_Random__RandomRangeInt
-                                          (0,*(int32_t *)&pIVar4[1].monitor,(MethodInfo *)0x0);
-                        if (uVar3 < *(uint *)&pIVar4[1].monitor) {
-                          return (System_String_o *)(&pIVar4[2].klass)[(int)uVar3];
-                        }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_TitanSounds->static_fields->Grunt2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        if (((ulong)pIVar2[1].monitor & 0xfffffffc) != 0) {
+          pIVar2[3].monitor = TypeInfo_Characters_TitanSounds->static_fields->Grunt4;
+          Il2CppCodeGenWriteBarrier(&pIVar2[3].monitor);
+          if (4 < *(uint *)&pIVar2[1].monitor) {
+            pIVar2[4].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt5;
+            Il2CppCodeGenWriteBarrier(&pIVar2[4].klass);
+            if (5 < *(uint *)&pIVar2[1].monitor) {
+              pIVar2[4].monitor = TypeInfo_Characters_TitanSounds->static_fields->Grunt6;
+              Il2CppCodeGenWriteBarrier(&pIVar2[4].monitor);
+              if (6 < *(uint *)&pIVar2[1].monitor) {
+                pIVar2[5].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt7;
+                Il2CppCodeGenWriteBarrier(&pIVar2[5].klass);
+                if (((ulong)pIVar2[1].monitor & 0xfffffff8) != 0) {
+                  pIVar2[5].monitor = TypeInfo_Characters_TitanSounds->static_fields->Grunt8;
+                  Il2CppCodeGenWriteBarrier(&pIVar2[5].monitor);
+                  if (8 < *(uint *)&pIVar2[1].monitor) {
+                    pIVar2[6].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Grunt9;
+                    Il2CppCodeGenWriteBarrier(&pIVar2[6].klass);
+                    if (9 < *(uint *)&pIVar2[1].monitor) {
+                      pIVar2[6].monitor = TypeInfo_Characters_TitanSounds->static_fields->Grunt10;
+                      Il2CppCodeGenWriteBarrier(&pIVar2[6].monitor);
+                      uVar1 = UnityEngine_Random__Range_690e2b0
+                                        (0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+                      if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+                        return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
                       }
                     }
                   }
@@ -226,121 +213,110 @@ System_String_o * Characters_TitanSounds__GetRandomGrabGrunt(MethodInfo *method)
         }
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.TitanSounds$$GetRandomLaugh
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomLaugh (const MethodInfo* method);
-// 0x1821cdd50
+// 0x5c60050
 
 System_String_o * Characters_TitanSounds__GetRandomLaugh(MethodInfo *method)
 
 {
-  Il2CppClass *value;
-  System_String_o *value_00;
   uint uVar1;
   Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346ea4 == '\0') {
+  if (Il2CppMethodInitialized_07547896 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
-    Il2CppMethodInitialized_184346ea4 = '\x01';
+    Il2CppMethodInitialized_07547896 = '\x01';
   }
   pIVar2 = SZArrayNew(TypeInfo_string_array,2);
   if ((TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSounds);
   }
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar2[1].monitor != 0) {
-      value = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Laugh1;
-      pIVar2[2].klass = value;
-      Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,value);
-      if (1 < *(uint *)&pIVar2[1].monitor) {
-        value_00 = TypeInfo_Characters_TitanSounds->static_fields->Laugh2;
-        pIVar2[2].monitor = value_00;
-        Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor,value_00);
-        uVar1 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
-        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
-          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
-        }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Laugh1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_TitanSounds->static_fields->Laugh2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+      if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+        return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.TitanSounds$$GetRandomBite
 // il2cpp: System_String_o* Characters_TitanSounds__GetRandomBite (const MethodInfo* method);
-// 0x1821cd7e0
+// 0x5c60130
 
 System_String_o * Characters_TitanSounds__GetRandomBite(MethodInfo *method)
 
 {
-  Il2CppClass *value;
-  System_String_o *value_00;
   uint uVar1;
   Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346ea5 == '\0') {
+  if (Il2CppMethodInitialized_07547897 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
-    Il2CppMethodInitialized_184346ea5 = '\x01';
+    Il2CppMethodInitialized_07547897 = '\x01';
   }
   pIVar2 = SZArrayNew(TypeInfo_string_array,2);
   if ((TypeInfo_Characters_TitanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSounds);
   }
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar2[1].monitor != 0) {
-      value = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Bite1;
-      pIVar2[2].klass = value;
-      Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,value);
-      if (1 < *(uint *)&pIVar2[1].monitor) {
-        value_00 = TypeInfo_Characters_TitanSounds->static_fields->Bite2;
-        pIVar2[2].monitor = value_00;
-        Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor,value_00);
-        uVar1 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
-        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
-          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
-        }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_TitanSounds->static_fields->Bite1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_TitanSounds->static_fields->Bite2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+      if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+        return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.TitanSounds$$.ctor
 // il2cpp: void Characters_TitanSounds___ctor (Characters_TitanSounds_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5c60210
 
-void
-Characters_TitanSounds___ctor(Characters_TitanSounds_o* __this, MethodInfo* method)
+void Characters_TitanSounds___ctor(Characters_TitanSounds_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Characters.TitanSounds$$.cctor
 // il2cpp: void Characters_TitanSounds___cctor (const MethodInfo* method);
-// 0x1821cde30
+// 0x5c60220
 
 void Characters_TitanSounds___cctor(MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  System_String_array *value;
+  Characters_TitanSounds_StaticFields *pCVar1;
+  System_String_array *pSVar2;
   
-  if (Il2CppMethodInitialized_184346ea6 == '\0') {
+  if (Il2CppMethodInitialized_07547898 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSounds);
     il2cpp_codegen_initialize_runtime_metadata(&"Hurt2");
@@ -388,126 +364,163 @@ void Characters_TitanSounds___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"Huff3");
     il2cpp_codegen_initialize_runtime_metadata(&"Steam");
     il2cpp_codegen_initialize_runtime_metadata(&"RockThrow1");
-    Il2CppMethodInitialized_184346ea6 = '\x01';
+    Il2CppMethodInitialized_07547898 = '\x01';
   }
   TypeInfo_Characters_TitanSounds->static_fields->Footstep1 = "Footstep1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Footstep1,"Footstep1");
-  TypeInfo_Characters_TitanSounds->static_fields->Footstep2 = "Footstep2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Footstep2,"Footstep2");
-  TypeInfo_Characters_TitanSounds->static_fields->Footstep3 = "Footstep3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Footstep3,"Footstep3");
-  TypeInfo_Characters_TitanSounds->static_fields->Swing1 = "Swing1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Swing1,"Swing1");
-  TypeInfo_Characters_TitanSounds->static_fields->Swing2 = "Swing2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Swing2,"Swing2");
-  TypeInfo_Characters_TitanSounds->static_fields->Swing3 = "Swing3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Swing3,"Swing3");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt1 = "Hurt1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt1,"Hurt1");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt2 = "Hurt2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt2,"Hurt2");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt3 = "Hurt3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt3,"Hurt3");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt4 = "Hurt4";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt4,"Hurt4");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt5 = "Hurt5";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt5,"Hurt5");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt6 = "Hurt6";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt6,"Hurt6");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt7 = "Hurt7";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt7,"Hurt7");
-  TypeInfo_Characters_TitanSounds->static_fields->Hurt8 = "Hurt8";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hurt8,"Hurt8");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt1 = "Grunt1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt1,"Grunt1");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt2 = "Grunt2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt2,"Grunt2");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt3 = "Grunt3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt3,"Grunt3");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt4 = "Grunt4";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt4,"Grunt4");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt5 = "Grunt5";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt5,"Grunt5");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt6 = "Grunt6";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt6,"Grunt6");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt7 = "Grunt7";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt7,"Grunt7");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt8 = "Grunt8";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt8,"Grunt8");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt9 = "Grunt9";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt9,"Grunt9");
-  TypeInfo_Characters_TitanSounds->static_fields->Grunt10 = "Grunt10";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Grunt10,"Grunt10");
-  TypeInfo_Characters_TitanSounds->static_fields->Hit = "Hit";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Hit,"Hit");
-  TypeInfo_Characters_TitanSounds->static_fields->Roar1 = "Roar1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Roar1,"Roar1");
-  TypeInfo_Characters_TitanSounds->static_fields->Roar2 = "Roar2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Roar2,"Roar2");
-  TypeInfo_Characters_TitanSounds->static_fields->DeathFall = "DeathFall";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->DeathFall,"DeathFall");
-  TypeInfo_Characters_TitanSounds->static_fields->DeathNoFall = "DeathNoFall";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_TitanSounds->static_fields->DeathNoFall,"DeathNoFall");
-  TypeInfo_Characters_TitanSounds->static_fields->Steam = "Steam";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Steam,"Steam");
-  TypeInfo_Characters_TitanSounds->static_fields->Bite1 = "Bite1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Bite1,"Bite1");
-  TypeInfo_Characters_TitanSounds->static_fields->Bite2 = "Bite2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Bite2,"Bite2");
-  TypeInfo_Characters_TitanSounds->static_fields->Laugh1 = "Laugh1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Laugh1,"Laugh1");
-  TypeInfo_Characters_TitanSounds->static_fields->Laugh2 = "Laugh2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Laugh2,"Laugh2");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff1 = "Huff1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff1,"Huff1");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff2 = "Huff2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff2,"Huff2");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff3 = "Huff3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff3,"Huff3");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff4 = "Huff4";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff4,"Huff4");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff5 = "Huff5";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff5,"Huff5");
-  TypeInfo_Characters_TitanSounds->static_fields->Huff6 = "Huff6";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Huff6,"Huff6");
-  TypeInfo_Characters_TitanSounds->static_fields->TitanJump = "TitanJump";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->TitanJump,"TitanJump");
-  TypeInfo_Characters_TitanSounds->static_fields->RockPickup = "RockPickup";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->RockPickup,"RockPickup")
-  ;
-  TypeInfo_Characters_TitanSounds->static_fields->RockThrow1 = "RockThrow1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->RockThrow1,"RockThrow1")
-  ;
-  TypeInfo_Characters_TitanSounds->static_fields->RockThrow2 = "RockThrow2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->RockThrow2,"RockThrow2")
-  ;
-  TypeInfo_Characters_TitanSounds->static_fields->Decapitate = "Decapitate";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Decapitate,"Decapitate")
-  ;
-  value = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
-  if (value != (System_String_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      pSVar1 = TypeInfo_Characters_TitanSounds->static_fields->Footstep1;
-      value->m_Items[0] = pSVar1;
-      Il2CppCodeGenWriteBarrier(value->m_Items,pSVar1);
-      if (1 < (uint)value->max_length) {
-        pSVar1 = TypeInfo_Characters_TitanSounds->static_fields->Footstep2;
-        value->m_Items[1] = pSVar1;
-        Il2CppCodeGenWriteBarrier(value->m_Items + 1,pSVar1);
-        if (2 < (uint)value->max_length) {
-          pSVar1 = TypeInfo_Characters_TitanSounds->static_fields->Footstep3;
-          value->m_Items[2] = pSVar1;
-          Il2CppCodeGenWriteBarrier(value->m_Items + 2,pSVar1);
-          TypeInfo_Characters_TitanSounds->static_fields->Footsteps = value;
-          Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Footsteps,value);
-          return;
-        }
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_TitanSounds->static_fields->Footstep1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Footstep2 = "Footstep2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Footstep2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Footstep3 = "Footstep3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Footstep3);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Swing1 = "Swing1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Swing1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Swing2 = "Swing2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Swing2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Swing3 = "Swing3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Swing3);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt1 = "Hurt1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt2 = "Hurt2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt3 = "Hurt3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt3);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt4 = "Hurt4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt4);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt5 = "Hurt5";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt5);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt6 = "Hurt6";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt6);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt7 = "Hurt7";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt7);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hurt8 = "Hurt8";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hurt8);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt1 = "Grunt1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt2 = "Grunt2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt3 = "Grunt3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt3);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt4 = "Grunt4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt4);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt5 = "Grunt5";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt5);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt6 = "Grunt6";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt6);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt7 = "Grunt7";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt7);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt8 = "Grunt8";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt8);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt9 = "Grunt9";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt9);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Grunt10 = "Grunt10";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Grunt10);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Hit = "Hit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Hit);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Roar1 = "Roar1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Roar1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Roar2 = "Roar2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Roar2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->DeathFall = "DeathFall";
+  Il2CppCodeGenWriteBarrier(&pCVar1->DeathFall);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->DeathNoFall = "DeathNoFall";
+  Il2CppCodeGenWriteBarrier(&pCVar1->DeathNoFall);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Steam = "Steam";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Steam);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Bite1 = "Bite1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Bite1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Bite2 = "Bite2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Bite2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Laugh1 = "Laugh1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Laugh1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Laugh2 = "Laugh2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Laugh2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff1 = "Huff1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff2 = "Huff2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff3 = "Huff3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff3);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff4 = "Huff4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff4);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff5 = "Huff5";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff5);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Huff6 = "Huff6";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Huff6);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->TitanJump = "TitanJump";
+  Il2CppCodeGenWriteBarrier(&pCVar1->TitanJump);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->RockPickup = "RockPickup";
+  Il2CppCodeGenWriteBarrier(&pCVar1->RockPickup);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->RockThrow1 = "RockThrow1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->RockThrow1);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->RockThrow2 = "RockThrow2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->RockThrow2);
+  pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+  pCVar1->Decapitate = "Decapitate";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Decapitate);
+  pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
+  if (pSVar2 == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar2->max_length != 0) {
+    pSVar2->m_Items[0] = TypeInfo_Characters_TitanSounds->static_fields->Footstep1;
+    Il2CppCodeGenWriteBarrier(pSVar2->m_Items);
+    if ((pSVar2->max_length & 0xfffffffe) != 0) {
+      pSVar2->m_Items[1] = TypeInfo_Characters_TitanSounds->static_fields->Footstep2;
+      Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 1);
+      if (2 < (uint)pSVar2->max_length) {
+        pSVar2->m_Items[2] = TypeInfo_Characters_TitanSounds->static_fields->Footstep3;
+        Il2CppCodeGenWriteBarrier(pSVar2->m_Items + 2);
+        pCVar1 = TypeInfo_Characters_TitanSounds->static_fields;
+        pCVar1->Footsteps = pSVar2;
+        Il2CppCodeGenWriteBarrier(&pCVar1->Footsteps);
+        return;
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 

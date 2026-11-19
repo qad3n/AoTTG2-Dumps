@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnPointerExitMessageListener : MessageListener, IPointerExitHandler, IEventSystemHandler
 {
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x2DBE990", Offset = "0x2DBCF90", VA = "0x182DBE990", Slot = "4")]
+	[Address(RVA = "0x67A6550", Offset = "0x67A5550", VA = "0x67A6550", Slot = "4")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A65E0", Offset = "0x67A55E0", VA = "0x67A65E0")]
 	public UnityOnPointerExitMessageListener()
 	{
 	}

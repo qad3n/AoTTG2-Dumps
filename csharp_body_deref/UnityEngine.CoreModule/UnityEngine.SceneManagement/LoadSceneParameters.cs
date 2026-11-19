@@ -14,18 +14,18 @@ namespace UnityEngine.SceneManagement;
 [Token(Token = "0x2000252")]
 public struct LoadSceneParameters
 {
-	[Token(Token = "0x4000763")]
+	[Token(Token = "0x4000761")]
 	[FieldOffset(Offset = "0x0")]
 	[SerializeField]
 	private LoadSceneMode m_LoadSceneMode;
 
-	[Token(Token = "0x4000764")]
+	[Token(Token = "0x4000762")]
 	[FieldOffset(Offset = "0x4")]
 	[SerializeField]
 	private LocalPhysicsMode m_LocalPhysicsMode;
 
-	[Token(Token = "0x60011C8")]
-	[Address(RVA = "0xD16C20", Offset = "0xD15220", VA = "0x180D16C20")]
+	[Token(Token = "0x60011DC")]
+	[Address(RVA = "0x69374F0", Offset = "0x69364F0", VA = "0x69374F0")]
 	public LoadSceneParameters(LoadSceneMode mode)
 	{
 	}

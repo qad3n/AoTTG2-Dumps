@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000519")]
+[Token(Token = "0x20004F2")]
 public sealed class Missing : ISerializable
 {
-	[Token(Token = "0x400143A")]
+	[Token(Token = "0x400139A")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Missing Value;
 
-	[Token(Token = "0x60024EC")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60024BA")]
+	[Address(RVA = "0x53DA870", Offset = "0x53D9870", VA = "0x53DA870")]
 	private Missing()
 	{
 	}
 
-	[Token(Token = "0x60024ED")]
-	[Address(RVA = "0x1A4B180", Offset = "0x1A49780", VA = "0x181A4B180", Slot = "4")]
+	[Token(Token = "0x60024BB")]
+	[Address(RVA = "0x53DA880", Offset = "0x53D9880", VA = "0x53DA880", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

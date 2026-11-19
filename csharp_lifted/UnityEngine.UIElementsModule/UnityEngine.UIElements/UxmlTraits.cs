@@ -1,0 +1,28 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UxmlTraits
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace UnityEngine.UIElements;
+
+[Token(Token = "0x2000504")]
+[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+public abstract class UxmlTraits : BaseUxmlTraits
+{
+	[Token(Token = "0x60026AE")]
+	[Address(RVA = "0x6B5A7F0", Offset = "0x6B597F0", VA = "0x6B5A7F0", Slot = "4")]
+	public virtual void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
+	{
+	}
+
+	[Token(Token = "0x60026AF")]
+	[Address(RVA = "0x6B57060", Offset = "0x6B56060", VA = "0x6B57060")]
+	protected UxmlTraits()
+	{
+	}
+}

@@ -31,7 +31,7 @@ public class XmlNamedNodeMap : IEnumerable
 			public object Current
 			{
 				[Token(Token = "0x6000964")]
-				[Address(RVA = "0x2729400", Offset = "0x2727A00", VA = "0x182729400", Slot = "5")]
+				[Address(RVA = "0x60DECC0", Offset = "0x60DDCC0", VA = "0x60DECC0", Slot = "5")]
 				get
 				{
 					return null;
@@ -39,20 +39,20 @@ public class XmlNamedNodeMap : IEnumerable
 			}
 
 			[Token(Token = "0x6000963")]
-			[Address(RVA = "0x18A2510", Offset = "0x18A0B10", VA = "0x1818A2510")]
+			[Address(RVA = "0x60DEC80", Offset = "0x60DDC80", VA = "0x60DEC80")]
 			public SingleObjectEnumerator(object value)
 			{
 			}
 
 			[Token(Token = "0x6000965")]
-			[Address(RVA = "0x27293E0", Offset = "0x27279E0", VA = "0x1827293E0", Slot = "4")]
+			[Address(RVA = "0x60DED10", Offset = "0x60DDD10", VA = "0x60DED10", Slot = "4")]
 			public bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000966")]
-			[Address(RVA = "0x1B5AFF0", Offset = "0x1B595F0", VA = "0x181B5AFF0", Slot = "6")]
+			[Address(RVA = "0x60DED30", Offset = "0x60DDD30", VA = "0x60DED30", Slot = "6")]
 			public void Reset()
 			{
 			}
@@ -66,7 +66,7 @@ public class XmlNamedNodeMap : IEnumerable
 		public int Count
 		{
 			[Token(Token = "0x600095D")]
-			[Address(RVA = "0x27299D0", Offset = "0x2727FD0", VA = "0x1827299D0")]
+			[Address(RVA = "0x60DE240", Offset = "0x60DD240", VA = "0x60DE240")]
 			get
 			{
 				return default(int);
@@ -77,7 +77,7 @@ public class XmlNamedNodeMap : IEnumerable
 		public object this[int index]
 		{
 			[Token(Token = "0x600095E")]
-			[Address(RVA = "0x2729A50", Offset = "0x2728050", VA = "0x182729A50")]
+			[Address(RVA = "0x60DDED0", Offset = "0x60DCED0", VA = "0x60DDED0")]
 			get
 			{
 				return null;
@@ -85,25 +85,25 @@ public class XmlNamedNodeMap : IEnumerable
 		}
 
 		[Token(Token = "0x600095F")]
-		[Address(RVA = "0x2729460", Offset = "0x2727A60", VA = "0x182729460")]
+		[Address(RVA = "0x60DE550", Offset = "0x60DD550", VA = "0x60DE550")]
 		public void Add(object value)
 		{
 		}
 
 		[Token(Token = "0x6000960")]
-		[Address(RVA = "0x27298A0", Offset = "0x2727EA0", VA = "0x1827298A0")]
+		[Address(RVA = "0x60DE880", Offset = "0x60DD880", VA = "0x60DE880")]
 		public void RemoveAt(int index)
 		{
 		}
 
 		[Token(Token = "0x6000961")]
-		[Address(RVA = "0x27296A0", Offset = "0x2727CA0", VA = "0x1827296A0")]
+		[Address(RVA = "0x60DEAF0", Offset = "0x60DDAF0", VA = "0x60DEAF0")]
 		public void Insert(int index, object value)
 		{
 		}
 
 		[Token(Token = "0x6000962")]
-		[Address(RVA = "0x27295A0", Offset = "0x2727BA0", VA = "0x1827295A0")]
+		[Address(RVA = "0x60DE2C0", Offset = "0x60DD2C0", VA = "0x60DE2C0")]
 		public IEnumerator GetEnumerator()
 		{
 			return null;
@@ -122,7 +122,7 @@ public class XmlNamedNodeMap : IEnumerable
 	public virtual int Count
 	{
 		[Token(Token = "0x6000954")]
-		[Address(RVA = "0x27330B0", Offset = "0x27316B0", VA = "0x1827330B0", Slot = "7")]
+		[Address(RVA = "0x60DE1D0", Offset = "0x60DD1D0", VA = "0x60DE1D0", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -130,76 +130,76 @@ public class XmlNamedNodeMap : IEnumerable
 	}
 
 	[Token(Token = "0x6000951")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x60D4F40", Offset = "0x60D3F40", VA = "0x60D4F40")]
 	internal XmlNamedNodeMap(XmlNode parent)
 	{
 	}
 
 	[Token(Token = "0x6000952")]
-	[Address(RVA = "0x2732A10", Offset = "0x2731010", VA = "0x182732A10", Slot = "5")]
+	[Address(RVA = "0x60DDD60", Offset = "0x60DCD60", VA = "0x60DDD60", Slot = "5")]
 	public virtual XmlNode GetNamedItem(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000953")]
-	[Address(RVA = "0x2732ED0", Offset = "0x27314D0", VA = "0x182732ED0", Slot = "6")]
+	[Address(RVA = "0x60DDFA0", Offset = "0x60DCFA0", VA = "0x60DDFA0", Slot = "6")]
 	public virtual XmlNode SetNamedItem(XmlNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x2732A00", Offset = "0x2731000", VA = "0x182732A00", Slot = "8")]
+	[Address(RVA = "0x60DE2B0", Offset = "0x60DD2B0", VA = "0x60DE2B0", Slot = "8")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x27327E0", Offset = "0x2730DE0", VA = "0x1827327E0")]
+	[Address(RVA = "0x60DDDF0", Offset = "0x60DCDF0", VA = "0x60DDDF0")]
 	internal int FindNodeOffset(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000957")]
-	[Address(RVA = "0x27328D0", Offset = "0x2730ED0", VA = "0x1827328D0")]
+	[Address(RVA = "0x60DE050", Offset = "0x60DD050", VA = "0x60DE050")]
 	internal int FindNodeOffset(string localName, string namespaceURI)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x2732650", Offset = "0x2730C50", VA = "0x182732650", Slot = "9")]
+	[Address(RVA = "0x60DE3B0", Offset = "0x60DD3B0", VA = "0x60DE3B0", Slot = "9")]
 	internal virtual XmlNode AddNode(XmlNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x27325A0", Offset = "0x2730BA0", VA = "0x1827325A0", Slot = "10")]
+	[Address(RVA = "0x60DE680", Offset = "0x60DD680", VA = "0x60DE680", Slot = "10")]
 	internal virtual XmlNode AddNodeForLoad(XmlNode node, XmlDocument doc)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x2732D10", Offset = "0x2731310", VA = "0x182732D10", Slot = "11")]
+	[Address(RVA = "0x60DE720", Offset = "0x60DD720", VA = "0x60DE720", Slot = "11")]
 	internal virtual XmlNode RemoveNodeAt(int i)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x2732E80", Offset = "0x2731480", VA = "0x182732E80")]
+	[Address(RVA = "0x60DE180", Offset = "0x60DD180", VA = "0x60DE180")]
 	internal XmlNode ReplaceNodeAt(int i, XmlNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095C")]
-	[Address(RVA = "0x2732B70", Offset = "0x2731170", VA = "0x182732B70", Slot = "12")]
+	[Address(RVA = "0x60DE950", Offset = "0x60DD950", VA = "0x60DE950", Slot = "12")]
 	internal virtual XmlNode InsertNodeAt(int i, XmlNode node)
 	{
 		return null;

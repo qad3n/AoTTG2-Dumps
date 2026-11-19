@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x20001D6")]
 public enum OperatingSystemFamily
 {
-	[Token(Token = "0x4000663")]
+	[Token(Token = "0x4000668")]
 	Other,
-	[Token(Token = "0x4000664")]
+	[Token(Token = "0x4000669")]
 	MacOSX,
-	[Token(Token = "0x4000665")]
+	[Token(Token = "0x400066A")]
 	Windows,
-	[Token(Token = "0x4000666")]
+	[Token(Token = "0x400066B")]
 	Linux
 }

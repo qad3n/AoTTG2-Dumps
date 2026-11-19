@@ -16,8 +16,8 @@ namespace Unity.Collections.LowLevel.Unsafe;
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class NativeDisableUnsafePtrRestrictionAttribute : Attribute
 {
-	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000159")]
+	[Address(RVA = "0x68B7D30", Offset = "0x68B6D30", VA = "0x68B7D30")]
 	public NativeDisableUnsafePtrRestrictionAttribute()
 	{
 	}

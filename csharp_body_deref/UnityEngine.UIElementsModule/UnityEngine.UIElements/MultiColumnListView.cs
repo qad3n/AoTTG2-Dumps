@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MultiColumnListView
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ public class MultiColumnListView : BaseListView
 	public new class UxmlFactory : UxmlFactory<MultiColumnListView, UxmlTraits>
 	{
 		[Token(Token = "0x6000866")]
-		[Address(RVA = "0x3224D20", Offset = "0x3223320", VA = "0x183224D20")]
+		[Address(RVA = "0x6C23650", Offset = "0x6C22650", VA = "0x6C23650")]
 		public UxmlFactory()
 		{
 		}
@@ -45,13 +45,13 @@ public class MultiColumnListView : BaseListView
 		private readonly UxmlObjectAttributeDescription<SortColumnDescriptions> m_SortColumnDescriptions;
 
 		[Token(Token = "0x6000867")]
-		[Address(RVA = "0x3225510", Offset = "0x3223B10", VA = "0x183225510", Slot = "4")]
+		[Address(RVA = "0x6C23690", Offset = "0x6C22690", VA = "0x6C23690", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000868")]
-		[Address(RVA = "0x3226280", Offset = "0x3224880", VA = "0x183226280")]
+		[Address(RVA = "0x6C238F0", Offset = "0x6C228F0", VA = "0x6C238F0")]
 		public UxmlTraits()
 		{
 		}
@@ -70,38 +70,38 @@ public class MultiColumnListView : BaseListView
 	private static readonly BindingId sortingModeProperty;
 
 	[Token(Token = "0x4000511")]
-	[FieldOffset(Offset = "0x4D8")]
+	[FieldOffset(Offset = "0x4D0")]
 	private Columns m_Columns;
 
 	[Token(Token = "0x4000512")]
-	[FieldOffset(Offset = "0x4E0")]
+	[FieldOffset(Offset = "0x4D8")]
 	private ColumnSortingMode m_SortingMode;
 
 	[Token(Token = "0x4000513")]
-	[FieldOffset(Offset = "0x4E8")]
+	[FieldOffset(Offset = "0x4E0")]
 	private SortColumnDescriptions m_SortColumnDescriptions;
 
 	[Token(Token = "0x4000514")]
-	[FieldOffset(Offset = "0x4F0")]
+	[FieldOffset(Offset = "0x4E8")]
 	private List<SortColumnDescription> m_SortedColumns;
 
 	[Token(Token = "0x4000515")]
-	[FieldOffset(Offset = "0x4F8")]
+	[FieldOffset(Offset = "0x4F0")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action columnSortingChanged;
 
 	[Token(Token = "0x4000516")]
-	[FieldOffset(Offset = "0x500")]
-	[CompilerGenerated]
+	[FieldOffset(Offset = "0x4F8")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private Action<ContextualMenuPopulateEvent, Column> headerContextMenuPopulateEvent;
 
 	[Token(Token = "0x17000189")]
 	public new MultiColumnListViewController viewController
 	{
 		[Token(Token = "0x6000856")]
-		[Address(RVA = "0x321F910", Offset = "0x321DF10", VA = "0x18321F910")]
+		[Address(RVA = "0x6C22250", Offset = "0x6C21250", VA = "0x6C22250")]
 		get
 		{
 			return null;
@@ -113,13 +113,13 @@ public class MultiColumnListView : BaseListView
 	public Columns columns
 	{
 		[Token(Token = "0x6000857")]
-		[Address(RVA = "0x3216B80", Offset = "0x3215180", VA = "0x183216B80")]
+		[Address(RVA = "0x6C222D0", Offset = "0x6C212D0", VA = "0x6C222D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000858")]
-		[Address(RVA = "0x321F990", Offset = "0x321DF90", VA = "0x18321F990")]
+		[Address(RVA = "0x6C222E0", Offset = "0x6C212E0", VA = "0x6C222E0")]
 		private set
 		{
 		}
@@ -130,13 +130,13 @@ public class MultiColumnListView : BaseListView
 	public SortColumnDescriptions sortColumnDescriptions
 	{
 		[Token(Token = "0x6000859")]
-		[Address(RVA = "0x3216B70", Offset = "0x3215170", VA = "0x183216B70")]
+		[Address(RVA = "0x6C225F0", Offset = "0x6C215F0", VA = "0x6C225F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600085A")]
-		[Address(RVA = "0x321FB40", Offset = "0x321E140", VA = "0x18321FB40")]
+		[Address(RVA = "0x6C22600", Offset = "0x6C21600", VA = "0x6C22600")]
 		private set
 		{
 		}
@@ -147,63 +147,63 @@ public class MultiColumnListView : BaseListView
 	public ColumnSortingMode sortingMode
 	{
 		[Token(Token = "0x600085B")]
-		[Address(RVA = "0x321F900", Offset = "0x321DF00", VA = "0x18321F900")]
+		[Address(RVA = "0x6C22900", Offset = "0x6C21900", VA = "0x6C22900")]
 		get
 		{
 			return default(ColumnSortingMode);
 		}
 		[Token(Token = "0x600085C")]
-		[Address(RVA = "0x321FC50", Offset = "0x321E250", VA = "0x18321FC50")]
+		[Address(RVA = "0x6C22910", Offset = "0x6C21910", VA = "0x6C22910")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600085D")]
-	[Address(RVA = "0x321F780", Offset = "0x321DD80", VA = "0x18321F780")]
+	[Address(RVA = "0x6C22A60", Offset = "0x6C21A60", VA = "0x6C22A60")]
 	public MultiColumnListView()
 	{
 	}
 
 	[Token(Token = "0x600085E")]
-	[Address(RVA = "0x321F630", Offset = "0x321DC30", VA = "0x18321F630")]
+	[Address(RVA = "0x6C22B20", Offset = "0x6C21B20", VA = "0x6C22B20")]
 	public MultiColumnListView(Columns columns)
 	{
 	}
 
 	[Token(Token = "0x600085F")]
-	[Address(RVA = "0x321F050", Offset = "0x321D650", VA = "0x18321F050", Slot = "146")]
+	[Address(RVA = "0x6C22DD0", Offset = "0x6C21DD0", VA = "0x6C22DD0", Slot = "146")]
 	protected override CollectionViewController CreateViewController()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000860")]
-	[Address(RVA = "0x321F150", Offset = "0x321D750", VA = "0x18321F150", Slot = "147")]
+	[Address(RVA = "0x6C22E50", Offset = "0x6C21E50", VA = "0x6C22E50", Slot = "147")]
 	public override void SetViewController(CollectionViewController controller)
 	{
 	}
 
 	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x321F0D0", Offset = "0x321D6D0", VA = "0x18321F0D0", Slot = "145")]
+	[Address(RVA = "0x6C23440", Offset = "0x6C22440", VA = "0x6C23440", Slot = "145")]
 	private protected override void CreateVirtualizationController()
 	{
 	}
 
 	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x321F110", Offset = "0x321D710", VA = "0x18321F110")]
+	[Address(RVA = "0x6C228E0", Offset = "0x6C218E0", VA = "0x6C228E0")]
 	private void RaiseColumnSortingChanged()
 	{
 	}
 
 	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x321EFC0", Offset = "0x321D5C0", VA = "0x18321EFC0")]
+	[Address(RVA = "0x6C23480", Offset = "0x6C22480", VA = "0x6C23480")]
 	private void ColumnsChanged(object sender, BindablePropertyChangedEventArgs args)
 	{
 	}
 
 	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x321F130", Offset = "0x321D730", VA = "0x18321F130")]
+	[Address(RVA = "0x6C234C0", Offset = "0x6C224C0", VA = "0x6C234C0")]
 	private void RaiseHeaderContextMenuPopulate(ContextualMenuPopulateEvent evt, Column column)
 	{
 	}

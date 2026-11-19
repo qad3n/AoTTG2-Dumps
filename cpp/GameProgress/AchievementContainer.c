@@ -1,5 +1,5 @@
 // Type: GameProgress.AchievementContainer
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameProgress/AchievementContainer.cs
@@ -8,28 +8,52 @@
 
 // GameProgress.AchievementContainer$$GetAchievementCount
 // il2cpp: GameProgress_AchievementCount_o* GameProgress_AchievementContainer__GetAchievementCount (GameProgress_AchievementContainer_o* __this, const MethodInfo* method);
-// 0x181e27b50
-// eh: try 0x181e27c70..0x181e27e15 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e27d97: mov rdx, qword ptr [rip + 0x224b7fa]  ; MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_Dispose
-// asm:   0x181e27d9e: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e27da3: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e27da8: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e27dad: test rcx, rcx
-// asm:   0x181e27db0: jne 0x181e27e15
-// asm:   0x181e27db2: mov rdi, qword ptr [rsp + 0x70]
-// asm:   0x181e27e15: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x591a680
+// eh: try 0x591a7c4..0x591a9ee -> pad 0x591aa13 (+16 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x591aa2b..0x591aa30 -> pad 0x591aa53 cleanup
+// eh: try 0x591aa56..0x591aa60 -> pad 0x591aa68 catch (...) [compiler noexcept guard]
+// asm: 41 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x591a855: jmp 0x591a970
+// asm:   0x591a8dc: jmp 0x591a970
+// asm:   0x591a9f3: jmp 0x591aa13
+// asm:   0x591a9f5: jmp 0x591aa13
+// asm:   0x591a9f7: jmp 0x591aa13
+// asm:   0x591a9f9: jmp 0x591aa13
+// asm:   0x591a9fb: jmp 0x591aa13
+// asm:   0x591a9fd: jmp 0x591aa13
+// asm:   0x591a9ff: jmp 0x591aa13
+// asm:   0x591aa01: jmp 0x591aa13
+// asm:   0x591aa03: jmp 0x591aa13
+// asm:   0x591aa05: jmp 0x591aa13
+// asm:   0x591aa07: jmp 0x591aa13
+// asm:   0x591aa09: jmp 0x591aa13
+// asm:   0x591aa0b: jmp 0x591aa13
+// asm:   0x591aa0d: jmp 0x591aa13
+// asm:   0x591aa0f: jmp 0x591aa13
+// asm:   0x591aa11: jmp 0x591aa13
+// asm:   0x591aa13: mov r14, rax
+// asm:   0x591aa16: cmp edx, 1
+// asm:   0x591aa19: jne 0x591aa56
+// asm:   0x591aa1b: mov rdi, r14
+// asm:   0x591aa1e: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x591aa23: mov r14, qword ptr [rax]
+// asm:   0x591aa26: mov qword ptr [rsp + 0x20], r14
+// asm:   0x591aa2b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x591aa30: lea rax, [rip + 0x1972ba9]  ; MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_Dispose
+// asm:   0x591aa37: mov rsi, qword ptr [rax]
+// asm:   0x591aa3a: mov rdi, rsp
+// asm:   0x591aa3d: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x591aa42: test r14, r14
+// asm:   0x591aa45: je 0x591a989
+// asm:   0x591aa4b: mov rdi, r14
+// asm:   0x591aa4e: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x591aa53: mov r14, rax
+// asm:   0x591aa56: lea rdi, [rsp + 0x20]
+// asm:   0x591aa5b: call 0x2fd23a0  ; il2cpp_runtime_helper_02fd23a0()
+// asm:   0x591aa60: mov rdi, r14
+// asm:   0x591aa63: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x591aa68: mov rdi, rax
+// asm:   0x591aa6b: call 0x2ab61e0  ; __clang_call_terminate()
 
 GameProgress_AchievementCount_o *
 GameProgress_AchievementContainer__GetAchievementCount
@@ -37,18 +61,27 @@ GameProgress_AchievementContainer__GetAchievementCount
 
 {
   int32_t *piVar1;
-  Settings_ListSetting_AchievementItem__o *pSVar2;
-  System_Collections_Generic_List_T__o *__this_00;
-  GameProgress_QuestItem_o *__this_01;
-  bool bVar3;
-  GameProgress_AchievementCount_o *__this_02;
-  undefined1 local_40 [16];
-  GameProgress_QuestItem_o *local_30;
-  undefined1 local_28 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
-  GameProgress_QuestItem_o *local_18;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  Settings_ListSetting_AchievementItem__o *pSVar8;
+  System_Collections_Generic_List_object__o *__this_00;
+  Il2CppObject *pIVar9;
+  bool bVar10;
+  GameProgress_AchievementCount_o *__this_01;
+  GameProgress_AchievementCount_Fields *pGVar11;
+  undefined1 local_78 [8];
+  undefined1 *puStack_70;
+  Il2CppObject *local_68;
+  undefined1 local_58 [16];
+  Il2CppObject *local_48;
+  GameProgress_AchievementCount_Fields *local_40;
+  GameProgress_AchievementCount_Fields *local_38;
   
-  if (Il2CppMethodInitialized_184344d95 == '\0') {
+  if (Il2CppMethodInitialized_07545725 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_AchievementCount);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_Dispose);
@@ -64,127 +97,152 @@ GameProgress_AchievementContainer__GetAchievementCount
     il2cpp_codegen_initialize_runtime_metadata(&"Silver");
     il2cpp_codegen_initialize_runtime_metadata(&"Bronze");
     il2cpp_codegen_initialize_runtime_metadata(&"Gold");
-    Il2CppMethodInitialized_184344d95 = '\x01';
+    Il2CppMethodInitialized_07545725 = '\x01';
   }
-  local_28 = (undefined1  [8])0x0;
-  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_18 = (GameProgress_QuestItem_o *)0x0;
-  __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_AchievementCount);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_02,(MethodInfo *)0x0);
-  pSVar2 = (__this->fields).AchievementItems;
-  if ((pSVar2 != (Settings_ListSetting_AchievementItem__o *)0x0) &&
-     (__this_00 = (pSVar2->fields)._value, __this_00 != (System_Collections_Generic_List_T__o *)0x0)) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,__this_00,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_AchievementItem_GetEnumerator);
-    local_28 = (undefined1  [8])local_40._0_8_;
-    pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
-    local_18 = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+  local_78 = (undefined1  [8])0x0;
+  puStack_70 = (undefined1 *)0x0;
+  local_68 = (Il2CppObject *)0x0;
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameProgress_AchievementCount);
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  pSVar8 = (__this->fields).AchievementItems;
+  if ((pSVar8 != (Settings_ListSetting_AchievementItem__o *)0x0) &&
+     (__this_00 = (System_Collections_Generic_List_object__o *)(pSVar8->fields)._value,
+     __this_00 != (System_Collections_Generic_List_object__o *)0x0)) {
+    System_Collections_Generic_List_object___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_58,__this_00,
+               (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_AchievementItem_GetEnumerator)
+    ;
+    local_68 = local_48;
+    local_78 = (undefined1  [8])local_58._0_8_;
+    puStack_70 = (undefined1 *)local_58._8_8_;
+    local_58._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    local_40 = (GameProgress_AchievementCount_Fields *)&(__this_01->fields).FinishedGold;
+    local_38 = (GameProgress_AchievementCount_Fields *)&(__this_01->fields).FinishedSilver;
+    local_58._8_8_ = local_78;
+label_0591a7c0:
     while( true ) {
-      bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_28,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_MoveNext);
-      __this_01 = local_18;
-      if (!bVar3) break;
-      if (local_18 == (GameProgress_QuestItem_o *)0x0) {
+      bVar10 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                         ((System_Collections_Generic_List_Enumerator_object__o *)local_78,
+                          (MethodInfo_4C45C50 *)
+                          MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_MoveNext);
+      pIVar9 = local_68;
+      if (!bVar10) break;
+      if (local_68 == (Il2CppObject *)0x0) {
         ThrowNullReferenceException();
       }
-      if ((*(uint64_t *)((char *)local_18 + 0x80)) == (GameProgress_QuestItem_c *)0x0) {
+      if (local_68[8].klass == (Il2CppClass *)0x0) {
         ThrowNullReferenceException();
       }
-      bVar3 = System_String__op_Equality
-                        ((((*(Il2CppClass **)((char *)local_18 + 0x80)))->_1).byval_arg.data,"Bronze",(MethodInfo *)0x0);
-      if (bVar3) {
-        if (__this_02 == (GameProgress_AchievementCount_o *)0x0) {
+      bVar10 = System_String__op_Equality
+                         (((local_68[8].klass)->_1).byval_arg.data,"Bronze",(MethodInfo *)0x0);
+      if (bVar10) {
+        if (__this_01 == (GameProgress_AchievementCount_o *)0x0) {
           ThrowNullReferenceException();
         }
-        piVar1 = &(__this_02->fields).TotalBronze;
+        piVar1 = &(__this_01->fields).TotalBronze;
         *piVar1 = *piVar1 + 1;
-        bVar3 = GameProgress_QuestItem__Finished(__this_01,(MethodInfo *)0x0);
-        if (bVar3) {
-          (__this_02->fields).FinishedBronze = (__this_02->fields).FinishedBronze + 1;
+        if (Il2CppMethodInitialized_07545777 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+          Il2CppMethodInitialized_07545777 = '\x01';
         }
+        if ((pIVar9[6].klass == (Il2CppClass *)0x0) || (pIVar9[4].klass == (Il2CppClass *)0x0)) {
+          ThrowNullReferenceException();
+        }
+        pGVar11 = &__this_01->fields;
+        if (*(int *)((long)&((pIVar9[4].klass)->_1).namespaze + 4) <=
+            *(int *)((long)&((pIVar9[6].klass)->_1).namespaze + 4)) goto label_0591a970;
       }
       else {
-        if ((*(uint64_t *)((char *)__this_01 + 0x80)) == (GameProgress_QuestItem_c *)0x0) {
+        if (pIVar9[8].klass == (Il2CppClass *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar3 = System_String__op_Equality
-                          ((((*(Il2CppClass **)((char *)__this_01 + 0x80)))->_1).byval_arg.data,"Silver",(MethodInfo *)0x0);
-        if (bVar3) {
-          if (__this_02 == (GameProgress_AchievementCount_o *)0x0) {
-            ThrowNullReferenceException();
-          }
-          piVar1 = &(__this_02->fields).TotalSilver;
-          *piVar1 = *piVar1 + 1;
-          bVar3 = GameProgress_QuestItem__Finished(__this_01,(MethodInfo *)0x0);
-          if (bVar3) {
-            piVar1 = &(__this_02->fields).FinishedSilver;
-            *piVar1 = *piVar1 + 1;
-          }
+        bVar10 = System_String__op_Equality
+                           (((pIVar9[8].klass)->_1).byval_arg.data,"Silver",(MethodInfo *)0x0);
+        if (!bVar10) goto label_0591a8f0;
+        if (__this_01 == (GameProgress_AchievementCount_o *)0x0) {
+          ThrowNullReferenceException();
         }
-        else {
-          if ((*(uint64_t *)((char *)__this_01 + 0x80)) == (GameProgress_QuestItem_c *)0x0) {
-            ThrowNullReferenceException();
-          }
-          bVar3 = System_String__op_Equality
-                            ((((*(Il2CppClass **)((char *)__this_01 + 0x80)))->_1).byval_arg.data,"Gold",(MethodInfo *)0x0
-                            );
-          if (bVar3) {
-            if (__this_02 == (GameProgress_AchievementCount_o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            piVar1 = &(__this_02->fields).TotalGold;
-            *piVar1 = *piVar1 + 1;
-            bVar3 = GameProgress_QuestItem__Finished(__this_01,(MethodInfo *)0x0);
-            if (bVar3) {
-              piVar1 = &(__this_02->fields).FinishedGold;
-              *piVar1 = *piVar1 + 1;
-            }
-          }
+        piVar1 = &(__this_01->fields).TotalSilver;
+        *piVar1 = *piVar1 + 1;
+        if (Il2CppMethodInitialized_07545777 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+          Il2CppMethodInitialized_07545777 = '\x01';
         }
+        if ((pIVar9[6].klass == (Il2CppClass *)0x0) || (pIVar9[4].klass == (Il2CppClass *)0x0)) {
+          ThrowNullReferenceException();
+        }
+        pGVar11 = local_38;
+        if (*(int *)((long)&((pIVar9[4].klass)->_1).namespaze + 4) <=
+            *(int *)((long)&((pIVar9[6].klass)->_1).namespaze + 4)) goto label_0591a970;
       }
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
+              ((System_Collections_Generic_List_Enumerator_object__o *)local_78,
+               (MethodInfo_4C45C40 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_AchievementItem_Dispose);
-    if (__this_02 != (GameProgress_AchievementCount_o *)0x0) {
-      (__this_02->fields).TotalAll =
-           (__this_02->fields).TotalGold + (__this_02->fields).TotalSilver + (__this_02->fields).TotalBronze;
-      (__this_02->fields).FinishedAll =
-           (__this_02->fields).FinishedGold + (__this_02->fields).FinishedSilver +
-           (__this_02->fields).FinishedBronze;
-      return __this_02;
+    if (__this_01 != (GameProgress_AchievementCount_o *)0x0) {
+      uVar2 = (__this_01->fields).FinishedBronze;
+      uVar5 = (__this_01->fields).TotalBronze;
+      uVar3 = (__this_01->fields).FinishedSilver;
+      uVar6 = (__this_01->fields).TotalSilver;
+      uVar4 = (__this_01->fields).FinishedGold;
+      uVar7 = (__this_01->fields).TotalGold;
+      (__this_01->fields).FinishedAll = uVar4 + uVar3 + uVar2;
+      (__this_01->fields).TotalAll = uVar7 + uVar6 + uVar5;
+      return __this_01;
     }
   }
   ThrowNullReferenceException();
+label_0591a8f0:
+  if (pIVar9[8].klass == (Il2CppClass *)0x0) {
+    ThrowNullReferenceException();
+  }
+  bVar10 = System_String__op_Equality
+                     (((pIVar9[8].klass)->_1).byval_arg.data,"Gold",(MethodInfo *)0x0);
+  if (bVar10) {
+    if (__this_01 == (GameProgress_AchievementCount_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    piVar1 = &(__this_01->fields).TotalGold;
+    *piVar1 = *piVar1 + 1;
+    if (Il2CppMethodInitialized_07545777 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+      Il2CppMethodInitialized_07545777 = '\x01';
+    }
+    if ((pIVar9[6].klass == (Il2CppClass *)0x0) || (pIVar9[4].klass == (Il2CppClass *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    pGVar11 = local_40;
+    if (*(int *)((long)&((pIVar9[4].klass)->_1).namespaze + 4) <=
+        *(int *)((long)&((pIVar9[6].klass)->_1).namespaze + 4)) {
+label_0591a970:
+      pGVar11->FinishedBronze = pGVar11->FinishedBronze + 1;
+    }
+  }
+  goto label_0591a7c0;
 }
 
 
 // GameProgress.AchievementContainer$$.ctor
 // il2cpp: void GameProgress_AchievementContainer___ctor (GameProgress_AchievementContainer_o* __this, const MethodInfo* method);
-// 0x181e27e20
+// 0x591aad0
 
 void GameProgress_AchievementContainer___ctor(GameProgress_AchievementContainer_o *__this,MethodInfo *method)
 
 {
   Settings_ListSetting_AchievementItem__o *__this_00;
   
-  if (Il2CppMethodInitialized_184344d96 == '\0') {
+  if (Il2CppMethodInitialized_07545726 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_AchievementItem_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ListSetting_AchievementItem);
-    Il2CppMethodInitialized_184344d96 = '\x01';
+    Il2CppMethodInitialized_07545726 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_AchievementItem);
-  Settings_ListSetting_object____ctor_182b940
+  Settings_ListSetting_object____ctor_515d6d0
             ((Settings_ListSetting_T__o *)__this_00,
-             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_AchievementItem_ctor);
+             (MethodInfo_515D6D0 *)MethodInfo_Settings_ListSetting_AchievementItem_ctor);
   (__this->fields).AchievementItems = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).AchievementItems,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).AchievementItems);
   Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }

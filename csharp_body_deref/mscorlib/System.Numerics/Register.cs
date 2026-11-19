@@ -11,270 +11,270 @@ using Il2CppDummyDll;
 namespace System.Numerics;
 
 [StructLayout((LayoutKind)2)]
-[Token(Token = "0x2000563")]
+[Token(Token = "0x200053C")]
 internal struct Register
 {
-	[Token(Token = "0x4001567")]
+	[Token(Token = "0x40014C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal byte byte_0;
 
-	[Token(Token = "0x4001568")]
+	[Token(Token = "0x40014C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1")]
 	internal byte byte_1;
 
-	[Token(Token = "0x4001569")]
+	[Token(Token = "0x40014C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	internal byte byte_2;
 
-	[Token(Token = "0x400156A")]
+	[Token(Token = "0x40014CA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3")]
 	internal byte byte_3;
 
-	[Token(Token = "0x400156B")]
+	[Token(Token = "0x40014CB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal byte byte_4;
 
-	[Token(Token = "0x400156C")]
+	[Token(Token = "0x40014CC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x5")]
 	internal byte byte_5;
 
-	[Token(Token = "0x400156D")]
+	[Token(Token = "0x40014CD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6")]
 	internal byte byte_6;
 
-	[Token(Token = "0x400156E")]
+	[Token(Token = "0x40014CE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x7")]
 	internal byte byte_7;
 
-	[Token(Token = "0x400156F")]
+	[Token(Token = "0x40014CF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal byte byte_8;
 
-	[Token(Token = "0x4001570")]
+	[Token(Token = "0x40014D0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x9")]
 	internal byte byte_9;
 
-	[Token(Token = "0x4001571")]
+	[Token(Token = "0x40014D1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA")]
 	internal byte byte_10;
 
-	[Token(Token = "0x4001572")]
+	[Token(Token = "0x40014D2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB")]
 	internal byte byte_11;
 
-	[Token(Token = "0x4001573")]
+	[Token(Token = "0x40014D3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal byte byte_12;
 
-	[Token(Token = "0x4001574")]
+	[Token(Token = "0x40014D4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD")]
 	internal byte byte_13;
 
-	[Token(Token = "0x4001575")]
+	[Token(Token = "0x40014D5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE")]
 	internal byte byte_14;
 
-	[Token(Token = "0x4001576")]
+	[Token(Token = "0x40014D6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF")]
 	internal byte byte_15;
 
-	[Token(Token = "0x4001577")]
+	[Token(Token = "0x40014D7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal sbyte sbyte_0;
 
-	[Token(Token = "0x4001578")]
+	[Token(Token = "0x40014D8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1")]
 	internal sbyte sbyte_1;
 
-	[Token(Token = "0x4001579")]
+	[Token(Token = "0x40014D9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	internal sbyte sbyte_2;
 
-	[Token(Token = "0x400157A")]
+	[Token(Token = "0x40014DA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3")]
 	internal sbyte sbyte_3;
 
-	[Token(Token = "0x400157B")]
+	[Token(Token = "0x40014DB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal sbyte sbyte_4;
 
-	[Token(Token = "0x400157C")]
+	[Token(Token = "0x40014DC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x5")]
 	internal sbyte sbyte_5;
 
-	[Token(Token = "0x400157D")]
+	[Token(Token = "0x40014DD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6")]
 	internal sbyte sbyte_6;
 
-	[Token(Token = "0x400157E")]
+	[Token(Token = "0x40014DE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x7")]
 	internal sbyte sbyte_7;
 
-	[Token(Token = "0x400157F")]
+	[Token(Token = "0x40014DF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal sbyte sbyte_8;
 
-	[Token(Token = "0x4001580")]
+	[Token(Token = "0x40014E0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x9")]
 	internal sbyte sbyte_9;
 
-	[Token(Token = "0x4001581")]
+	[Token(Token = "0x40014E1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA")]
 	internal sbyte sbyte_10;
 
-	[Token(Token = "0x4001582")]
+	[Token(Token = "0x40014E2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB")]
 	internal sbyte sbyte_11;
 
-	[Token(Token = "0x4001583")]
+	[Token(Token = "0x40014E3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal sbyte sbyte_12;
 
-	[Token(Token = "0x4001584")]
+	[Token(Token = "0x40014E4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD")]
 	internal sbyte sbyte_13;
 
-	[Token(Token = "0x4001585")]
+	[Token(Token = "0x40014E5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE")]
 	internal sbyte sbyte_14;
 
-	[Token(Token = "0x4001586")]
+	[Token(Token = "0x40014E6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF")]
 	internal sbyte sbyte_15;
 
-	[Token(Token = "0x4001587")]
+	[Token(Token = "0x40014E7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal ushort uint16_0;
 
-	[Token(Token = "0x4001588")]
+	[Token(Token = "0x40014E8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	internal ushort uint16_1;
 
-	[Token(Token = "0x4001589")]
+	[Token(Token = "0x40014E9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal ushort uint16_2;
 
-	[Token(Token = "0x400158A")]
+	[Token(Token = "0x40014EA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6")]
 	internal ushort uint16_3;
 
-	[Token(Token = "0x400158B")]
+	[Token(Token = "0x40014EB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal ushort uint16_4;
 
-	[Token(Token = "0x400158C")]
+	[Token(Token = "0x40014EC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA")]
 	internal ushort uint16_5;
 
-	[Token(Token = "0x400158D")]
+	[Token(Token = "0x40014ED")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal ushort uint16_6;
 
-	[Token(Token = "0x400158E")]
+	[Token(Token = "0x40014EE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE")]
 	internal ushort uint16_7;
 
-	[Token(Token = "0x400158F")]
+	[Token(Token = "0x40014EF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal short int16_0;
 
-	[Token(Token = "0x4001590")]
+	[Token(Token = "0x40014F0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	internal short int16_1;
 
-	[Token(Token = "0x4001591")]
+	[Token(Token = "0x40014F1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal short int16_2;
 
-	[Token(Token = "0x4001592")]
+	[Token(Token = "0x40014F2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6")]
 	internal short int16_3;
 
-	[Token(Token = "0x4001593")]
+	[Token(Token = "0x40014F3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal short int16_4;
 
-	[Token(Token = "0x4001594")]
+	[Token(Token = "0x40014F4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA")]
 	internal short int16_5;
 
-	[Token(Token = "0x4001595")]
+	[Token(Token = "0x40014F5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal short int16_6;
 
-	[Token(Token = "0x4001596")]
+	[Token(Token = "0x40014F6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE")]
 	internal short int16_7;
 
-	[Token(Token = "0x4001597")]
+	[Token(Token = "0x40014F7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal uint uint32_0;
 
-	[Token(Token = "0x4001598")]
+	[Token(Token = "0x40014F8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal uint uint32_1;
 
-	[Token(Token = "0x4001599")]
+	[Token(Token = "0x40014F9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal uint uint32_2;
 
-	[Token(Token = "0x400159A")]
+	[Token(Token = "0x40014FA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal uint uint32_3;
 
-	[Token(Token = "0x400159B")]
+	[Token(Token = "0x40014FB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal int int32_0;
 
-	[Token(Token = "0x400159C")]
+	[Token(Token = "0x40014FC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal int int32_1;
 
-	[Token(Token = "0x400159D")]
+	[Token(Token = "0x40014FD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal int int32_2;
 
-	[Token(Token = "0x400159E")]
+	[Token(Token = "0x40014FE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal int int32_3;
 
-	[Token(Token = "0x400159F")]
+	[Token(Token = "0x40014FF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal ulong uint64_0;
 
-	[Token(Token = "0x40015A0")]
+	[Token(Token = "0x4001500")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal ulong uint64_1;
 
-	[Token(Token = "0x40015A1")]
+	[Token(Token = "0x4001501")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal long int64_0;
 
-	[Token(Token = "0x40015A2")]
+	[Token(Token = "0x4001502")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal long int64_1;
 
-	[Token(Token = "0x40015A3")]
+	[Token(Token = "0x4001503")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal float single_0;
 
-	[Token(Token = "0x40015A4")]
+	[Token(Token = "0x4001504")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	internal float single_1;
 
-	[Token(Token = "0x40015A5")]
+	[Token(Token = "0x4001505")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal float single_2;
 
-	[Token(Token = "0x40015A6")]
+	[Token(Token = "0x4001506")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	internal float single_3;
 
-	[Token(Token = "0x40015A7")]
+	[Token(Token = "0x4001507")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal double double_0;
 
-	[Token(Token = "0x40015A8")]
+	[Token(Token = "0x4001508")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal double double_1;
 }

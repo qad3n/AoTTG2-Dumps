@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ public class TextSettings : ScriptableObject
 		public FontAsset fontAsset;
 
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+		[Address(RVA = "0x6A42820", Offset = "0x6A41820", VA = "0x6A42820")]
 		public FontReferenceMap(Font font, FontAsset fontAsset)
 		{
 		}
@@ -169,13 +169,13 @@ public class TextSettings : ScriptableObject
 	public string version
 	{
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6A41B70", Offset = "0x6A40B70", VA = "0x6A41B70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6A41B80", Offset = "0x6A40B80", VA = "0x6A41B80")]
 		internal set
 		{
 		}
@@ -185,13 +185,13 @@ public class TextSettings : ScriptableObject
 	public FontAsset defaultFontAsset
 	{
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6A41B90", Offset = "0x6A40B90", VA = "0x6A41B90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6A41BA0", Offset = "0x6A40BA0", VA = "0x6A41BA0")]
 		set
 		{
 		}
@@ -201,13 +201,13 @@ public class TextSettings : ScriptableObject
 	public string defaultFontAssetPath
 	{
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6A41BB0", Offset = "0x6A40BB0", VA = "0x6A41BB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6A41BC0", Offset = "0x6A40BC0", VA = "0x6A41BC0")]
 		set
 		{
 		}
@@ -217,13 +217,13 @@ public class TextSettings : ScriptableObject
 	public List<FontAsset> fallbackFontAssets
 	{
 		[Token(Token = "0x600019F")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6A41BD0", Offset = "0x6A40BD0", VA = "0x6A41BD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x3055A90", Offset = "0x3054090", VA = "0x183055A90")]
+		[Address(RVA = "0x6A41BE0", Offset = "0x6A40BE0", VA = "0x6A41BE0")]
 		set
 		{
 		}
@@ -233,7 +233,7 @@ public class TextSettings : ScriptableObject
 	internal List<FontAsset> fallbackOSFontAssets
 	{
 		[Token(Token = "0x60001A1")]
-		[Address(RVA = "0x30558E0", Offset = "0x3053EE0", VA = "0x1830558E0")]
+		[Address(RVA = "0x6A41C00", Offset = "0x6A40C00", VA = "0x6A41C00")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 		get
 		{
@@ -245,7 +245,7 @@ public class TextSettings : ScriptableObject
 	internal bool isFallbackOSFontAssetsInitialized
 	{
 		[Token(Token = "0x60001A2")]
-		[Address(RVA = "0xC82080", Offset = "0xC80680", VA = "0x180C82080")]
+		[Address(RVA = "0x6A41CE0", Offset = "0x6A40CE0", VA = "0x6A41CE0")]
 		get
 		{
 			return default(bool);
@@ -256,13 +256,13 @@ public class TextSettings : ScriptableObject
 	public bool matchMaterialPreset
 	{
 		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Address(RVA = "0x6A42050", Offset = "0x6A41050", VA = "0x6A42050")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0xA374F0", Offset = "0xA35AF0", VA = "0x180A374F0")]
+		[Address(RVA = "0x6A42060", Offset = "0x6A41060", VA = "0x6A42060")]
 		set
 		{
 		}
@@ -272,13 +272,13 @@ public class TextSettings : ScriptableObject
 	public int missingCharacterUnicode
 	{
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x58A870", Offset = "0x588E70", VA = "0x18058A870")]
+		[Address(RVA = "0x6A42070", Offset = "0x6A41070", VA = "0x6A42070")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x58AA10", Offset = "0x589010", VA = "0x18058AA10")]
+		[Address(RVA = "0x6A42080", Offset = "0x6A41080", VA = "0x6A42080")]
 		set
 		{
 		}
@@ -288,13 +288,13 @@ public class TextSettings : ScriptableObject
 	public bool clearDynamicDataOnBuild
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
+		[Address(RVA = "0x6A42090", Offset = "0x6A41090", VA = "0x6A42090")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x58A8C0", Offset = "0x588EC0", VA = "0x18058A8C0")]
+		[Address(RVA = "0x6A420A0", Offset = "0x6A410A0", VA = "0x6A420A0")]
 		set
 		{
 		}
@@ -304,13 +304,13 @@ public class TextSettings : ScriptableObject
 	public bool enableEmojiSupport
 	{
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x30558D0", Offset = "0x3053ED0", VA = "0x1830558D0")]
+		[Address(RVA = "0x6A420B0", Offset = "0x6A410B0", VA = "0x6A420B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x58AA20", Offset = "0x589020", VA = "0x18058AA20")]
+		[Address(RVA = "0x6A420C0", Offset = "0x6A410C0", VA = "0x6A420C0")]
 		set
 		{
 		}
@@ -320,13 +320,13 @@ public class TextSettings : ScriptableObject
 	public List<TextAsset> emojiFallbackTextAssets
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6A420D0", Offset = "0x6A410D0", VA = "0x6A420D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x3055A60", Offset = "0x3054060", VA = "0x183055A60")]
+		[Address(RVA = "0x6A420E0", Offset = "0x6A410E0", VA = "0x6A420E0")]
 		set
 		{
 		}
@@ -336,13 +336,13 @@ public class TextSettings : ScriptableObject
 	public SpriteAsset defaultSpriteAsset
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6A42100", Offset = "0x6A41100", VA = "0x6A42100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6A42110", Offset = "0x6A41110", VA = "0x6A42110")]
 		set
 		{
 		}
@@ -352,13 +352,13 @@ public class TextSettings : ScriptableObject
 	public string defaultSpriteAssetPath
 	{
 		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6A42120", Offset = "0x6A41120", VA = "0x6A42120")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x6A42130", Offset = "0x6A41130", VA = "0x6A42130")]
 		set
 		{
 		}
@@ -369,13 +369,13 @@ public class TextSettings : ScriptableObject
 	public List<SpriteAsset> fallbackSpriteAssets
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6A42140", Offset = "0x6A41140", VA = "0x6A42140")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x6A42150", Offset = "0x6A41150", VA = "0x6A42150")]
 		set
 		{
 		}
@@ -385,14 +385,14 @@ public class TextSettings : ScriptableObject
 	internal static SpriteAsset s_GlobalSpriteAsset
 	{
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x3055A20", Offset = "0x3054020", VA = "0x183055A20")]
+		[Address(RVA = "0x6A421B0", Offset = "0x6A411B0", VA = "0x6A421B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x3055AC0", Offset = "0x30540C0", VA = "0x183055AC0")]
+		[Address(RVA = "0x6A42160", Offset = "0x6A41160", VA = "0x6A42160")]
 		[CompilerGenerated]
 		private set
 		{
@@ -403,13 +403,13 @@ public class TextSettings : ScriptableObject
 	public uint missingSpriteCharacterUnicode
 	{
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560")]
+		[Address(RVA = "0x6A421F0", Offset = "0x6A411F0", VA = "0x6A421F0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x58A8F0", Offset = "0x588EF0", VA = "0x18058A8F0")]
+		[Address(RVA = "0x6A42200", Offset = "0x6A41200", VA = "0x6A42200")]
 		set
 		{
 		}
@@ -419,13 +419,13 @@ public class TextSettings : ScriptableObject
 	public TextStyleSheet defaultStyleSheet
 	{
 		[Token(Token = "0x60001B9")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x6A42210", Offset = "0x6A41210", VA = "0x6A42210")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0xCDB690", Offset = "0xCD9C90", VA = "0x180CDB690")]
+		[Address(RVA = "0x6A42220", Offset = "0x6A41220", VA = "0x6A42220")]
 		set
 		{
 		}
@@ -436,13 +436,13 @@ public class TextSettings : ScriptableObject
 	public string styleSheetsResourcePath
 	{
 		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x6A42230", Offset = "0x6A41230", VA = "0x6A42230")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
+		[Address(RVA = "0x6A42240", Offset = "0x6A41240", VA = "0x6A42240")]
 		set
 		{
 		}
@@ -452,13 +452,13 @@ public class TextSettings : ScriptableObject
 	public string defaultColorGradientPresetsPath
 	{
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x6A42250", Offset = "0x6A41250", VA = "0x6A42250")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0xB5BE30", Offset = "0xB5A430", VA = "0x180B5BE30")]
+		[Address(RVA = "0x6A42260", Offset = "0x6A41260", VA = "0x6A42260")]
 		set
 		{
 		}
@@ -468,13 +468,13 @@ public class TextSettings : ScriptableObject
 	public UnicodeLineBreakingRules lineBreakingRules
 	{
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x3055970", Offset = "0x3053F70", VA = "0x183055970")]
+		[Address(RVA = "0x6A42280", Offset = "0x6A41280", VA = "0x6A42280")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0xA4D750", Offset = "0xA4BD50", VA = "0x180A4D750")]
+		[Address(RVA = "0x6A42310", Offset = "0x6A41310", VA = "0x6A42310")]
 		set
 		{
 		}
@@ -484,13 +484,13 @@ public class TextSettings : ScriptableObject
 	public bool displayWarnings
 	{
 		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0xA4D590", Offset = "0xA4BB90", VA = "0x180A4D590")]
+		[Address(RVA = "0x6A42330", Offset = "0x6A41330", VA = "0x6A42330")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001C2")]
-		[Address(RVA = "0xA4D740", Offset = "0xA4BD40", VA = "0x180A4D740")]
+		[Address(RVA = "0x6A42340", Offset = "0x6A41340", VA = "0x6A42340")]
 		set
 		{
 		}
@@ -500,7 +500,7 @@ public class TextSettings : ScriptableObject
 	internal IntPtr nativeTextSettings
 	{
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x3055A00", Offset = "0x3054000", VA = "0x183055A00")]
+		[Address(RVA = "0x6A42A70", Offset = "0x6A41A70", VA = "0x6A42A70")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 		get
 		{
@@ -509,39 +509,39 @@ public class TextSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x3054C20", Offset = "0x3053220", VA = "0x183054C20")]
+	[Address(RVA = "0x6A41CF0", Offset = "0x6A40CF0", VA = "0x6A41CF0")]
 	private FontAsset GetDefaultFont()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0", Slot = "4")]
+	[Address(RVA = "0x6A42040", Offset = "0x6A41040", VA = "0x6A42040", Slot = "4")]
 	internal virtual List<FontAsset> GetFallbackFontAssets(bool isRaster, int textPixelSize = -1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x30552C0", Offset = "0x30538C0", VA = "0x1830552C0")]
+	[Address(RVA = "0x6A42350", Offset = "0x6A41350", VA = "0x6A42350")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x3055240", Offset = "0x3053840", VA = "0x183055240")]
+	[Address(RVA = "0x6A424F0", Offset = "0x6A414F0", VA = "0x6A424F0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x3054FF0", Offset = "0x30535F0", VA = "0x183054FF0")]
+	[Address(RVA = "0x6A425A0", Offset = "0x6A415A0", VA = "0x6A425A0")]
 	protected void InitializeFontReferenceLookup()
 	{
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x3054960", Offset = "0x3052F60", VA = "0x183054960")]
+	[Address(RVA = "0x6A41DA0", Offset = "0x6A40DA0", VA = "0x6A41DA0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 	internal FontAsset GetCachedFontAsset(Font font)
 	{
@@ -549,14 +549,14 @@ public class TextSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x3054F90", Offset = "0x3053590", VA = "0x183054F90")]
+	[Address(RVA = "0x6A41C90", Offset = "0x6A40C90", VA = "0x6A41C90")]
 	private List<FontAsset> GetOSFontAssetList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x3054840", Offset = "0x3052E40", VA = "0x183054840")]
+	[Address(RVA = "0x6A42850", Offset = "0x6A41850", VA = "0x6A42850")]
 	[UnityEngine.Bindings.NativeMethod(Name = "TextSettings::Create")]
 	private static IntPtr CreateNativeObject(IntPtr[] fallbacks, IntPtr managedObject)
 	{
@@ -565,49 +565,49 @@ public class TextSettings : ScriptableObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x3054910", Offset = "0x3052F10", VA = "0x183054910")]
+	[Address(RVA = "0x6A42560", Offset = "0x6A41560", VA = "0x6A42560")]
 	[UnityEngine.Bindings.NativeMethod(Name = "TextSettings::Destroy")]
 	private static extern void DestroyNativeObject(IntPtr m_NativeTextSettings, IntPtr managedObject);
 
 	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x30554B0", Offset = "0x3053AB0", VA = "0x1830554B0")]
+	[Address(RVA = "0x6A42960", Offset = "0x6A41960", VA = "0x6A42960")]
 	private static void UpdateFallbacks(IntPtr ptr, IntPtr[] fallbacks)
 	{
 	}
 
 	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x3054CF0", Offset = "0x30532F0", VA = "0x183054CF0")]
+	[Address(RVA = "0x6A42B90", Offset = "0x6A41B90", VA = "0x6A42B90")]
 	private IntPtr[] GetGlobalFallbacks()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x3055450", Offset = "0x3053A50", VA = "0x183055450")]
+	[Address(RVA = "0x6A42E60", Offset = "0x6A41E60", VA = "0x6A42E60")]
 	internal void SetNativeTextSettingsDirty()
 	{
 	}
 
 	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x3055580", Offset = "0x3053B80", VA = "0x183055580")]
+	[Address(RVA = "0x6A42B00", Offset = "0x6A41B00", VA = "0x6A42B00")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal void UpdateNativeTextSettings()
 	{
 	}
 
 	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x3055780", Offset = "0x3053D80", VA = "0x183055780")]
+	[Address(RVA = "0x6A42E70", Offset = "0x6A41E70", VA = "0x6A42E70")]
 	public TextSettings()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x30547F0", Offset = "0x3052DF0", VA = "0x1830547F0")]
+	[Address(RVA = "0x6A42920", Offset = "0x6A41920", VA = "0x6A42920")]
 	private static extern IntPtr CreateNativeObject_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper fallbacks, IntPtr managedObject);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x3055460", Offset = "0x3053A60", VA = "0x183055460")]
+	[Address(RVA = "0x6A42A30", Offset = "0x6A41A30", VA = "0x6A42A30")]
 	private static extern void UpdateFallbacks_Injected(IntPtr ptr, ref UnityEngine.Bindings.ManagedSpanWrapper fallbacks);
 }

@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 public static class EnumUtility
 {
 	[Token(Token = "0x6001025")]
-	[Address(RVA = "0x2E50590", Offset = "0x2E4EB90", VA = "0x182E50590")]
+	[Address(RVA = "0x684A210", Offset = "0x6849210", VA = "0x684A210")]
 	public static bool HasFlag(this Enum value, Enum flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001026")]
-	[Address(RVA = "0x2E50600", Offset = "0x2E4EC00", VA = "0x182E50600")]
+	[Address(RVA = "0x684A280", Offset = "0x6849280", VA = "0x684A280")]
 	public static Dictionary<string, Enum> ValuesByNames(Type enumType, bool obsolete = false)
 	{
 		return null;

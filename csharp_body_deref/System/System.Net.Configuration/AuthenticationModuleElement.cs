@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003DE")]
+[Token(Token = "0x200039A")]
 public sealed class AuthenticationModuleElement : ConfigurationElement
 {
-	[Token(Token = "0x17000581")]
+	[Token(Token = "0x17000553")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60019E3")]
-		[Address(RVA = "0x2829F10", Offset = "0x2828510", VA = "0x182829F10", Slot = "4")]
+		[Token(Token = "0x6001829")]
+		[Address(RVA = "0x61CF120", Offset = "0x61CE120", VA = "0x61CF120", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000582")]
+	[Token(Token = "0x17000554")]
 	public string Type
 	{
-		[Token(Token = "0x60019E4")]
-		[Address(RVA = "0x2829F40", Offset = "0x2828540", VA = "0x182829F40")]
+		[Token(Token = "0x600182A")]
+		[Address(RVA = "0x61CF150", Offset = "0x61CE150", VA = "0x61CF150")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60019E5")]
-		[Address(RVA = "0x2829F70", Offset = "0x2828570", VA = "0x182829F70")]
+		[Token(Token = "0x600182B")]
+		[Address(RVA = "0x61CF180", Offset = "0x61CE180", VA = "0x61CF180")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019E1")]
-	[Address(RVA = "0x2829EE0", Offset = "0x28284E0", VA = "0x182829EE0")]
+	[Token(Token = "0x6001827")]
+	[Address(RVA = "0x61CF0C0", Offset = "0x61CE0C0", VA = "0x61CF0C0")]
 	public AuthenticationModuleElement()
 	{
 	}
 
-	[Token(Token = "0x60019E2")]
-	[Address(RVA = "0x2829EB0", Offset = "0x28284B0", VA = "0x182829EB0")]
+	[Token(Token = "0x6001828")]
+	[Address(RVA = "0x61CF0F0", Offset = "0x61CE0F0", VA = "0x61CF0F0")]
 	public AuthenticationModuleElement(string typeName)
 	{
 	}

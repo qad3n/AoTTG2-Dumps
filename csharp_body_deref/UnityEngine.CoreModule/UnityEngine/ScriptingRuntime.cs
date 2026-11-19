@@ -11,13 +11,13 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001AF")]
+[Token(Token = "0x20001B0")]
 [UnityEngine.Bindings.VisibleToOtherModules]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Scripting/ScriptingRuntime.h")]
 internal class ScriptingRuntime
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x2F26AF0", Offset = "0x2F250F0", VA = "0x182F26AF0")]
+	[Token(Token = "0x6000E3C")]
+	[Address(RVA = "0x691D7E0", Offset = "0x691C7E0", VA = "0x691D7E0")]
 	public static extern string[] GetAllUserAssemblies();
 }

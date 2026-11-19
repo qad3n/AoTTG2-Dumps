@@ -13,104 +13,104 @@ using UnityEngine.UI;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x2000110")]
+[Token(Token = "0x2000084")]
 [RequireComponent(typeof(Text))]
 public class NameEffectApplier : MonoBehaviour
 {
-	[Token(Token = "0x400062B")]
+	[Token(Token = "0x4000291")]
 	[FieldOffset(Offset = "0x20")]
 	private Text _legacyText;
 
-	[Token(Token = "0x400062C")]
+	[Token(Token = "0x4000292")]
 	[FieldOffset(Offset = "0x28")]
 	private GameObject _tmpOverlay;
 
-	[Token(Token = "0x400062D")]
+	[Token(Token = "0x4000293")]
 	[FieldOffset(Offset = "0x30")]
 	private TextMeshProUGUI _tmpText;
 
-	[Token(Token = "0x400062E")]
+	[Token(Token = "0x4000294")]
 	[FieldOffset(Offset = "0x38")]
 	private NameEffectController _controller;
 
-	[Token(Token = "0x400062F")]
+	[Token(Token = "0x4000295")]
 	[FieldOffset(Offset = "0x40")]
 	private bool _styleActive;
 
-	[Token(Token = "0x170000C6")]
+	[Token(Token = "0x17000091")]
 	public bool IsEffectActive
 	{
-		[Token(Token = "0x6000534")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Token(Token = "0x600039D")]
+		[Address(RVA = "0x58C1F20", Offset = "0x58C0F20", VA = "0x58C1F20")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000530")]
-	[Address(RVA = "0x20C43C0", Offset = "0x20C29C0", VA = "0x1820C43C0")]
+	[Token(Token = "0x6000399")]
+	[Address(RVA = "0x58C0C80", Offset = "0x58BFC80", VA = "0x58C0C80")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000531")]
-	[Address(RVA = "0x20C3FB0", Offset = "0x20C25B0", VA = "0x1820C3FB0")]
+	[Token(Token = "0x600039A")]
+	[Address(RVA = "0x58C0CD0", Offset = "0x58BFCD0", VA = "0x58C0CD0")]
 	public void ApplyForPlayer(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000532")]
-	[Address(RVA = "0x20C4CD0", Offset = "0x20C32D0", VA = "0x1820C4CD0")]
+	[Token(Token = "0x600039B")]
+	[Address(RVA = "0x58C1B00", Offset = "0x58C0B00", VA = "0x58C1B00")]
 	public void SyncText()
 	{
 	}
 
-	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x20C4560", Offset = "0x20C2B60", VA = "0x1820C4560")]
+	[Token(Token = "0x600039C")]
+	[Address(RVA = "0x58C0FD0", Offset = "0x58BFFD0", VA = "0x58C0FD0")]
 	public void ClearEffect()
 	{
 	}
 
-	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x20C4630", Offset = "0x20C2C30", VA = "0x1820C4630")]
+	[Token(Token = "0x600039E")]
+	[Address(RVA = "0x58C15C0", Offset = "0x58C05C0", VA = "0x58C15C0")]
 	private void EnsureOverlay()
 	{
 	}
 
-	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x20C3DB0", Offset = "0x20C23B0", VA = "0x1820C3DB0")]
+	[Token(Token = "0x600039F")]
+	[Address(RVA = "0x58C1BD0", Offset = "0x58C0BD0", VA = "0x58C1BD0")]
 	private void ApplyEffect(ResolvedNameEffect effect)
 	{
 	}
 
-	[Token(Token = "0x6000537")]
-	[Address(RVA = "0x20C4410", Offset = "0x20C2A10", VA = "0x1820C4410")]
+	[Token(Token = "0x60003A0")]
+	[Address(RVA = "0x58C1DE0", Offset = "0x58C0DE0", VA = "0x58C1DE0")]
 	private void ClearController()
 	{
 	}
 
-	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x20C4AE0", Offset = "0x20C30E0", VA = "0x1820C4AE0")]
+	[Token(Token = "0x60003A1")]
+	[Address(RVA = "0x58C19B0", Offset = "0x58C09B0", VA = "0x58C19B0")]
 	private void SyncLegacyTextStyle()
 	{
 	}
 
-	[Token(Token = "0x6000539")]
-	[Address(RVA = "0x20C4DA0", Offset = "0x20C33A0", VA = "0x1820C4DA0")]
+	[Token(Token = "0x60003A2")]
+	[Address(RVA = "0x58C2060", Offset = "0x58C1060", VA = "0x58C2060")]
 	private static TextAlignmentOptions ToTmpAlignment(TextAnchor alignment)
 	{
 		return default(TextAlignmentOptions);
 	}
 
-	[Token(Token = "0x600053A")]
-	[Address(RVA = "0x20C4A50", Offset = "0x20C3050", VA = "0x1820C4A50")]
+	[Token(Token = "0x60003A3")]
+	[Address(RVA = "0x58C2080", Offset = "0x58C1080", VA = "0x58C2080")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600053B")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60003A4")]
+	[Address(RVA = "0x58C2100", Offset = "0x58C1100", VA = "0x58C2100")]
 	public NameEffectApplier()
 	{
 	}

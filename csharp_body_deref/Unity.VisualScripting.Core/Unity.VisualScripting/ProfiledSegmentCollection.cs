@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 public class ProfiledSegmentCollection : KeyedCollection<string, ProfiledSegment>
 {
 	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x18D9D00", Offset = "0x18D8300", VA = "0x1818D9D00", Slot = "39")]
+	[Address(RVA = "0x67A8A20", Offset = "0x67A7A20", VA = "0x67A8A20", Slot = "39")]
 	protected override string GetKeyForItem(ProfiledSegment item)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x2DB8B80", Offset = "0x2DB7180", VA = "0x182DB8B80")]
+	[Address(RVA = "0x67A8940", Offset = "0x67A7940", VA = "0x67A8940")]
 	public ProfiledSegmentCollection()
 	{
 	}

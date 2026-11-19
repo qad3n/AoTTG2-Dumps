@@ -11,12 +11,12 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x200001D")]
+[UnityEngine.Bindings.NativeHeader("ParticleSystemScriptingClasses.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystem.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystemForceField.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystemForceFieldManager.h")]
 [RequireComponent(typeof(Transform))]
 [UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ScriptBindings/ParticleSystemScriptBindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystemForceFieldManager.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystemForceField.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/ParticleSystem/ParticleSystem.h")]
-[UnityEngine.Bindings.NativeHeader("ParticleSystemScriptingClasses.h")]
 public class ParticleSystemForceField : Behaviour
 {
 }

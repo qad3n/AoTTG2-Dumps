@@ -13,14 +13,14 @@ namespace System.Xml.Schema;
 internal class Datatype_floatXdr : Datatype_float
 {
 	[Token(Token = "0x60011C0")]
-	[Address(RVA = "0x279ED80", Offset = "0x279D380", VA = "0x18279ED80", Slot = "6")]
+	[Address(RVA = "0x61634F0", Offset = "0x61624F0", VA = "0x61634F0", Slot = "6")]
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011C1")]
-	[Address(RVA = "0x279EF20", Offset = "0x279D520", VA = "0x18279EF20")]
+	[Address(RVA = "0x6155360", Offset = "0x6154360", VA = "0x6155360")]
 	public Datatype_floatXdr()
 	{
 	}

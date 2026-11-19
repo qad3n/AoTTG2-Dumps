@@ -19,7 +19,7 @@ public abstract class SubsystemDescriptor : ISubsystemDescriptor
 	public string id
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Address(RVA = "0x69F1E20", Offset = "0x69F0E20", VA = "0x69F1E20", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public abstract class SubsystemDescriptor : ISubsystemDescriptor
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69F1E30", Offset = "0x69F0E30", VA = "0x69F1E30")]
 	protected SubsystemDescriptor()
 	{
 	}

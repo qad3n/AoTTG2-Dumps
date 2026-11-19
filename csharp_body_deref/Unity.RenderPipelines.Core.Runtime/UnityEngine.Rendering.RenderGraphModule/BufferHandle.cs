@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.BufferHandle
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,7 +28,7 @@ public readonly struct BufferHandle
 	public static BufferHandle nullHandle
 	{
 		[Token(Token = "0x6001222")]
-		[Address(RVA = "0x2B88AA0", Offset = "0x2B870A0", VA = "0x182B88AA0")]
+		[Address(RVA = "0x657D9F0", Offset = "0x657C9F0", VA = "0x657D9F0")]
 		get
 		{
 			return default(BufferHandle);
@@ -36,26 +36,26 @@ public readonly struct BufferHandle
 	}
 
 	[Token(Token = "0x6001223")]
-	[Address(RVA = "0x2B889E0", Offset = "0x2B86FE0", VA = "0x182B889E0")]
+	[Address(RVA = "0x657DA40", Offset = "0x657CA40", VA = "0x657DA40")]
 	internal BufferHandle(in ResourceHandle h)
 	{
 	}
 
 	[Token(Token = "0x6001224")]
-	[Address(RVA = "0x2B889F0", Offset = "0x2B86FF0", VA = "0x182B889F0")]
+	[Address(RVA = "0x657DA50", Offset = "0x657CA50", VA = "0x657DA50")]
 	internal BufferHandle(int handle, bool shared = false)
 	{
 	}
 
 	[Token(Token = "0x6001225")]
-	[Address(RVA = "0x2B88B10", Offset = "0x2B87110", VA = "0x182B88B10")]
+	[Address(RVA = "0x657DAE0", Offset = "0x657CAE0", VA = "0x657DAE0")]
 	public static implicit operator GraphicsBuffer(BufferHandle buffer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001226")]
-	[Address(RVA = "0x2B88990", Offset = "0x2B86F90", VA = "0x182B88990")]
+	[Address(RVA = "0x657DC70", Offset = "0x657CC70", VA = "0x657DC70")]
 	public bool IsValid()
 	{
 		return default(bool);

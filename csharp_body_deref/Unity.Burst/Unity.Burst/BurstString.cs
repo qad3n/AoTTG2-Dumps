@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.BurstString
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,46 +30,46 @@ internal static class BurstString
 		public unsafe fixed uint m_blocks[35];
 
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6318730", Offset = "0x6317730", VA = "0x6318730")]
 		public int GetLength()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x297C1D0", Offset = "0x297A7D0", VA = "0x18297C1D0")]
+		[Address(RVA = "0x6315320", Offset = "0x6314320", VA = "0x6315320")]
 		public uint GetBlock(int idx)
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0xB47950", Offset = "0xB45F50", VA = "0x180B47950")]
+		[Address(RVA = "0x6318740", Offset = "0x6317740", VA = "0x6318740")]
 		public void SetZero()
 		{
 		}
 
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x2372150", Offset = "0x2370750", VA = "0x182372150")]
+		[Address(RVA = "0x6315330", Offset = "0x6314330", VA = "0x6315330")]
 		public bool IsZero()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x297C210", Offset = "0x297A810", VA = "0x18297C210")]
+		[Address(RVA = "0x63152F0", Offset = "0x63142F0", VA = "0x63152F0")]
 		public void SetU64(ulong val)
 		{
 		}
 
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x297C1F0", Offset = "0x297A7F0", VA = "0x18297C1F0")]
+		[Address(RVA = "0x6313620", Offset = "0x6312620", VA = "0x6313620")]
 		public void SetU32(uint val)
 		{
 		}
 
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x297C1E0", Offset = "0x297A7E0", VA = "0x18297C1E0")]
+		[Address(RVA = "0x6318750", Offset = "0x6317750", VA = "0x6318750")]
 		public uint GetU32()
 		{
 			return default(uint);
@@ -109,21 +109,21 @@ internal static class BurstString
 		public uint m_integer;
 
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x1B9B730", Offset = "0x1B99D30", VA = "0x181B9B730")]
+		[Address(RVA = "0x6316380", Offset = "0x6315380", VA = "0x6316380")]
 		public bool IsNegative()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x297C240", Offset = "0x297A840", VA = "0x18297C240")]
+		[Address(RVA = "0x6316360", Offset = "0x6315360", VA = "0x6316360")]
 		public uint GetExponent()
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x297C250", Offset = "0x297A850", VA = "0x18297C250")]
+		[Address(RVA = "0x6316370", Offset = "0x6315370", VA = "0x6316370")]
 		public uint GetMantissa()
 		{
 			return default(uint);
@@ -143,21 +143,21 @@ internal static class BurstString
 		public ulong m_integer;
 
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x297C290", Offset = "0x297A890", VA = "0x18297C290")]
+		[Address(RVA = "0x6316A20", Offset = "0x6315A20", VA = "0x6316A20")]
 		public bool IsNegative()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x297C260", Offset = "0x297A860", VA = "0x18297C260")]
+		[Address(RVA = "0x6316A00", Offset = "0x6315A00", VA = "0x6316A00")]
 		public uint GetExponent()
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0x297C270", Offset = "0x297A870", VA = "0x18297C270")]
+		[Address(RVA = "0x6316A10", Offset = "0x6315A10", VA = "0x6316A10")]
 		public ulong GetMantissa()
 		{
 			return default(ulong);
@@ -168,7 +168,7 @@ internal static class BurstString
 	internal class PreserveAttribute : Attribute
 	{
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+		[Address(RVA = "0x6318760", Offset = "0x6317760", VA = "0x6318760")]
 		public PreserveAttribute()
 		{
 		}
@@ -207,13 +207,13 @@ internal static class BurstString
 		public readonly bool IsNegative;
 
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x297BB90", Offset = "0x297A190", VA = "0x18297BB90")]
+		[Address(RVA = "0x6316390", Offset = "0x6315390", VA = "0x6316390")]
 		public unsafe NumberBuffer(NumberBufferKind kind, byte* buffer, int digitsCount, int scale, bool isNegative)
 		{
 		}
 
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6318770", Offset = "0x6317770", VA = "0x6318770")]
 		public unsafe byte* GetDigitsPointer()
 		{
 			//IL_0002: Expected I, but got O
@@ -257,7 +257,7 @@ internal static class BurstString
 		public bool Uppercase
 		{
 			[Token(Token = "0x60000D5")]
-			[Address(RVA = "0x25D0DF0", Offset = "0x25CF3F0", VA = "0x1825D0DF0")]
+			[Address(RVA = "0x6317A10", Offset = "0x6316A10", VA = "0x6317A10")]
 			get
 			{
 				return default(bool);
@@ -265,27 +265,27 @@ internal static class BurstString
 		}
 
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x1055E10", Offset = "0x1054410", VA = "0x181055E10")]
+		[Address(RVA = "0x6318520", Offset = "0x6317520", VA = "0x6318520")]
 		public FormatOptions(NumberFormatKind kind, sbyte alignAndSize, byte specifier, bool lowercase)
 		{
 		}
 
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6318780", Offset = "0x6317780", VA = "0x6318780")]
 		public int EncodeToRaw()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x295AC20", Offset = "0x2959220", VA = "0x18295AC20")]
+		[Address(RVA = "0x63179F0", Offset = "0x63169F0", VA = "0x63179F0")]
 		public int GetBase()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x295AC40", Offset = "0x2959240", VA = "0x18295AC40", Slot = "3")]
+		[Address(RVA = "0x6318790", Offset = "0x6317790", VA = "0x6318790", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -331,170 +331,170 @@ internal static class BurstString
 	private static readonly char[] SplitByColon;
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2959CF0", Offset = "0x29582F0", VA = "0x182959CF0")]
+	[Address(RVA = "0x63125F0", Offset = "0x63115F0", VA = "0x63125F0")]
 	private static uint LogBase2(uint val)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2955B00", Offset = "0x2954100", VA = "0x182955B00")]
+	[Address(RVA = "0x6312750", Offset = "0x6311750", VA = "0x6312750")]
 	private static int BigInt_Compare(in tBigInt lhs, in tBigInt rhs)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2955A70", Offset = "0x2954070", VA = "0x182955A70")]
+	[Address(RVA = "0x6312780", Offset = "0x6311780", VA = "0x6312780")]
 	private static void BigInt_Add(out tBigInt pResult, in tBigInt lhs, in tBigInt rhs)
 	{
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x29559C0", Offset = "0x2953FC0", VA = "0x1829559C0")]
+	[Address(RVA = "0x6312A50", Offset = "0x6311A50", VA = "0x6312A50")]
 	private static void BigInt_Add_internal(out tBigInt pResult, in tBigInt pLarge, in tBigInt pSmall)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2956280", Offset = "0x2954880", VA = "0x182956280")]
+	[Address(RVA = "0x6312B80", Offset = "0x6311B80", VA = "0x6312B80")]
 	private static void BigInt_Multiply(out tBigInt pResult, in tBigInt lhs, in tBigInt rhs)
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x29560F0", Offset = "0x29546F0", VA = "0x1829560F0")]
+	[Address(RVA = "0x6312E10", Offset = "0x6311E10", VA = "0x6312E10")]
 	private static void BigInt_Multiply_internal(out tBigInt pResult, in tBigInt pLarge, in tBigInt pSmall)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2956210", Offset = "0x2954810", VA = "0x182956210")]
+	[Address(RVA = "0x6312F20", Offset = "0x6311F20", VA = "0x6312F20")]
 	private static void BigInt_Multiply(out tBigInt pResult, in tBigInt lhs, uint rhs)
 	{
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2955D30", Offset = "0x2954330", VA = "0x182955D30")]
+	[Address(RVA = "0x6312FF0", Offset = "0x6311FF0", VA = "0x6312FF0")]
 	private static void BigInt_Multiply2(out tBigInt pResult, in tBigInt input)
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x2955DA0", Offset = "0x29543A0", VA = "0x182955DA0")]
+	[Address(RVA = "0x63130B0", Offset = "0x63120B0", VA = "0x63130B0")]
 	private static void BigInt_Multiply2(ref tBigInt pResult)
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2955CE0", Offset = "0x29542E0", VA = "0x182955CE0")]
+	[Address(RVA = "0x6313180", Offset = "0x6312180", VA = "0x6313180")]
 	private static void BigInt_Multiply10(ref tBigInt pResult)
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x295A7E0", Offset = "0x2958DE0", VA = "0x18295A7E0")]
+	[Address(RVA = "0x6313270", Offset = "0x6312270", VA = "0x6313270")]
 	private static tBigInt g_PowerOf10_Big(int i)
 	{
 		return default(tBigInt);
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2956310", Offset = "0x2954910", VA = "0x182956310")]
+	[Address(RVA = "0x63133E0", Offset = "0x63123E0", VA = "0x63133E0")]
 	private static void BigInt_Pow10(out tBigInt pResult, uint exponent)
 	{
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2955DF0", Offset = "0x29543F0", VA = "0x182955DF0")]
+	[Address(RVA = "0x6313640", Offset = "0x6312640", VA = "0x6313640")]
 	private static void BigInt_MultiplyPow10(out tBigInt pResult, in tBigInt input, uint exponent)
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x29565A0", Offset = "0x2954BA0", VA = "0x1829565A0")]
+	[Address(RVA = "0x6313940", Offset = "0x6312940", VA = "0x6313940")]
 	private static void BigInt_Pow2(out tBigInt pResult, uint exponent)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2955B50", Offset = "0x2954150", VA = "0x182955B50")]
+	[Address(RVA = "0x6313980", Offset = "0x6312980", VA = "0x6313980")]
 	private static uint BigInt_DivideWithRemainder_MaxQuotient9(ref tBigInt pDividend, in tBigInt divisor)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2956610", Offset = "0x2954C10", VA = "0x182956610")]
+	[Address(RVA = "0x6313B60", Offset = "0x6312B60", VA = "0x6313B60")]
 	private static void BigInt_ShiftLeft(ref tBigInt pResult, uint shift)
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2957080", Offset = "0x2955680", VA = "0x182957080")]
+	[Address(RVA = "0x6313D60", Offset = "0x6312D60", VA = "0x6313D60")]
 	private unsafe static uint Dragon4(ulong mantissa, int exponent, uint mantissaHighBitIdx, bool hasUnequalMargins, CutoffMode cutoffMode, uint cutoffNumber, byte* pOutBuffer, uint bufferSize, out int pOutExponent)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2958BD0", Offset = "0x29571D0", VA = "0x182958BD0")]
+	[Address(RVA = "0x6315340", Offset = "0x6314340", VA = "0x6315340")]
 	private unsafe static int FormatPositional(byte* pOutBuffer, uint bufferSize, ulong mantissa, int exponent, uint mantissaHighBitIdx, bool hasUnequalMargins, int precision)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2958DD0", Offset = "0x29573D0", VA = "0x182958DD0")]
+	[Address(RVA = "0x6315640", Offset = "0x6314640", VA = "0x6315640")]
 	private unsafe static int FormatScientific(byte* pOutBuffer, uint bufferSize, ulong mantissa, int exponent, uint mantissaHighBitIdx, bool hasUnequalMargins, int precision)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2958680", Offset = "0x2956C80", VA = "0x182958680")]
+	[Address(RVA = "0x63158F0", Offset = "0x63148F0", VA = "0x63158F0")]
 	private unsafe static void FormatInfinityNaN(byte* dest, ref int destIndex, int destLength, ulong mantissa, bool isNegative, FormatOptions formatOptions)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x2956A50", Offset = "0x2955050", VA = "0x182956A50")]
+	[Address(RVA = "0x6316100", Offset = "0x6315100", VA = "0x6316100")]
 	private unsafe static void ConvertFloatToString(byte* dest, ref int destIndex, int destLength, float value, FormatOptions formatOptions)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x2956790", Offset = "0x2954D90", VA = "0x182956790")]
+	[Address(RVA = "0x6316790", Offset = "0x6315790", VA = "0x6316790")]
 	private unsafe static void ConvertDoubleToString(byte* dest, ref int destIndex, int destLength, double value, FormatOptions formatOptions)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x2957050", Offset = "0x2955650", VA = "0x182957050")]
+	[Address(RVA = "0x6316A30", Offset = "0x6315A30", VA = "0x6316A30")]
 	[Preserve]
 	public unsafe static void CopyFixedString(byte* dest, int destLength, byte* src, int srcLength)
 	{
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x2959600", Offset = "0x2957C00", VA = "0x182959600")]
+	[Address(RVA = "0x6316A50", Offset = "0x6315A50", VA = "0x6316A50")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, byte* src, int srcLength, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x2959A50", Offset = "0x2958050", VA = "0x182959A50")]
+	[Address(RVA = "0x6316BC0", Offset = "0x6315BC0", VA = "0x6316BC0")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, float value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x2959770", Offset = "0x2957D70", VA = "0x182959770")]
+	[Address(RVA = "0x6316C40", Offset = "0x6315C40", VA = "0x6316C40")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, double value, int formatOptionsRaw)
 	{
@@ -502,7 +502,7 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x29597F0", Offset = "0x2957DF0", VA = "0x1829597F0")]
+	[Address(RVA = "0x6316CC0", Offset = "0x6315CC0", VA = "0x6316CC0")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, bool value, int formatOptionsRaw)
 	{
@@ -510,49 +510,49 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x2959000", Offset = "0x2957600", VA = "0x182959000")]
+	[Address(RVA = "0x6316EE0", Offset = "0x6315EE0", VA = "0x6316EE0")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, char value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x2959AD0", Offset = "0x29580D0", VA = "0x182959AD0")]
+	[Address(RVA = "0x6317110", Offset = "0x6316110", VA = "0x6317110")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, byte value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x2959260", Offset = "0x2957860", VA = "0x182959260")]
+	[Address(RVA = "0x6317250", Offset = "0x6316250", VA = "0x6317250")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, ushort value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x2959700", Offset = "0x2957D00", VA = "0x182959700")]
+	[Address(RVA = "0x6317320", Offset = "0x6316320", VA = "0x6317320")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, uint value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x29591F0", Offset = "0x29577F0", VA = "0x1829591F0")]
+	[Address(RVA = "0x63171E0", Offset = "0x63161E0", VA = "0x63171E0")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, ulong value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2959300", Offset = "0x2957900", VA = "0x182959300")]
+	[Address(RVA = "0x6317580", Offset = "0x6316580", VA = "0x6317580")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, sbyte value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x2959500", Offset = "0x2957B00", VA = "0x182959500")]
+	[Address(RVA = "0x6317810", Offset = "0x6316810", VA = "0x6317810")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, short value, int formatOptionsRaw)
 	{
@@ -560,14 +560,14 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x2959400", Offset = "0x2957A00", VA = "0x182959400")]
+	[Address(RVA = "0x63178B0", Offset = "0x63168B0", VA = "0x63178B0")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, int value, int formatOptionsRaw)
 	{
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x2959950", Offset = "0x2957F50", VA = "0x182959950")]
+	[Address(RVA = "0x6317950", Offset = "0x6316950", VA = "0x6317950")]
 	[Preserve]
 	public unsafe static void Format(byte* dest, ref int destIndex, int destLength, long value, int formatOptionsRaw)
 	{
@@ -575,13 +575,13 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x2956EA0", Offset = "0x29554A0", VA = "0x182956EA0")]
+	[Address(RVA = "0x6317390", Offset = "0x6316390", VA = "0x6317390")]
 	private unsafe static void ConvertUnsignedIntegerToString(byte* dest, ref int destIndex, int destLength, ulong value, FormatOptions options)
 	{
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x2959CC0", Offset = "0x29582C0", VA = "0x182959CC0")]
+	[Address(RVA = "0x6317A50", Offset = "0x6316A50", VA = "0x6317A50")]
 	private static int GetLengthIntegerToString(long value, int basis, int zeroPadding)
 	{
 		return default(int);
@@ -589,59 +589,59 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x2956CF0", Offset = "0x29552F0", VA = "0x182956CF0")]
+	[Address(RVA = "0x6317620", Offset = "0x6316620", VA = "0x6317620")]
 	private unsafe static void ConvertIntegerToString(byte* dest, ref int destIndex, int destLength, long value, FormatOptions options)
 	{
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x2958850", Offset = "0x2956E50", VA = "0x182958850")]
+	[Address(RVA = "0x63163B0", Offset = "0x63153B0", VA = "0x63163B0")]
 	private unsafe static void FormatNumber(byte* dest, ref int destIndex, int destLength, ref NumberBuffer number, int nMaxDigits, FormatOptions options)
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x2958430", Offset = "0x2956A30", VA = "0x182958430")]
+	[Address(RVA = "0x6317AA0", Offset = "0x6316AA0", VA = "0x6317AA0")]
 	private unsafe static void FormatDecimalOrHexadecimal(byte* dest, ref int destIndex, int destLength, ref NumberBuffer number, int zeroPadding, bool outputPositiveSign)
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x295A590", Offset = "0x2958B90", VA = "0x18295A590")]
+	[Address(RVA = "0x6317A20", Offset = "0x6316A20", VA = "0x6317A20")]
 	private static byte ValueToIntegerChar(int value, bool uppercase)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x2959E60", Offset = "0x2958460", VA = "0x182959E60")]
+	[Address(RVA = "0x6317FB0", Offset = "0x6316FB0", VA = "0x6317FB0")]
 	private static void OptsSplit(string fullFormat, out string padding, out string format)
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x295A020", Offset = "0x2958620", VA = "0x18295A020")]
+	[Address(RVA = "0x6318170", Offset = "0x6317170", VA = "0x6318170")]
 	public static FormatOptions ParseFormatToFormatOptions(string fullFormat)
 	{
 		return default(FormatOptions);
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x2955930", Offset = "0x2953F30", VA = "0x182955930")]
+	[Address(RVA = "0x6316060", Offset = "0x6315060", VA = "0x6316060")]
 	private unsafe static bool AlignRight(byte* dest, ref int destIndex, int destLength, int align, int length)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x29558F0", Offset = "0x2953EF0", VA = "0x1829558F0")]
+	[Address(RVA = "0x6316030", Offset = "0x6315030", VA = "0x6316030")]
 	private unsafe static bool AlignLeft(byte* dest, ref int destIndex, int destLength, int align, int length)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x2959B70", Offset = "0x2958170", VA = "0x182959B70")]
+	[Address(RVA = "0x6317C30", Offset = "0x6316C30", VA = "0x6317C30")]
 	private static int GetLengthForFormatGeneral(ref NumberBuffer number, int nMaxDigits)
 	{
 		return default(int);
@@ -649,19 +649,19 @@ internal static class BurstString
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x29584E0", Offset = "0x2956AE0", VA = "0x1829584E0")]
+	[Address(RVA = "0x6317DF0", Offset = "0x6316DF0", VA = "0x6317DF0")]
 	private unsafe static void FormatGeneral(byte* dest, ref int destIndex, int destLength, ref NumberBuffer number, int nMaxDigits, byte expChar)
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x295A480", Offset = "0x2958A80", VA = "0x18295A480")]
+	[Address(RVA = "0x6317B30", Offset = "0x6316B30", VA = "0x6317B30")]
 	private static void RoundNumber(ref NumberBuffer number, int pos, bool isCorrectlyRounded)
 	{
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x295A560", Offset = "0x2958B60", VA = "0x18295A560")]
+	[Address(RVA = "0x6318530", Offset = "0x6317530", VA = "0x6318530")]
 	private unsafe static bool ShouldRoundUp(byte* dig, int i, bool isCorrectlyRounded)
 	{
 		return default(bool);

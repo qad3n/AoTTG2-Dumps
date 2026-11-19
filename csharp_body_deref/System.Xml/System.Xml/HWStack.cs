@@ -36,13 +36,13 @@ internal class HWStack : ICloneable
 	internal object this[int index]
 	{
 		[Token(Token = "0x6000A71")]
-		[Address(RVA = "0x2728820", Offset = "0x2726E20", VA = "0x182728820")]
+		[Address(RVA = "0x60E7FA0", Offset = "0x60E6FA0", VA = "0x60E7FA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A72")]
-		[Address(RVA = "0x27288A0", Offset = "0x2726EA0", VA = "0x1827288A0")]
+		[Address(RVA = "0x60E8010", Offset = "0x60E7010", VA = "0x60E8010")]
 		set
 		{
 		}
@@ -52,7 +52,7 @@ internal class HWStack : ICloneable
 	internal int Length
 	{
 		[Token(Token = "0x6000A73")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x60E80C0", Offset = "0x60E70C0", VA = "0x60E80C0")]
 		get
 		{
 			return default(int);
@@ -60,52 +60,52 @@ internal class HWStack : ICloneable
 	}
 
 	[Token(Token = "0x6000A6B")]
-	[Address(RVA = "0x27287A0", Offset = "0x2726DA0", VA = "0x1827287A0")]
+	[Address(RVA = "0x60E7CD0", Offset = "0x60E6CD0", VA = "0x60E7CD0")]
 	internal HWStack(int GrowthRate)
 	{
 	}
 
 	[Token(Token = "0x6000A6C")]
-	[Address(RVA = "0x2728720", Offset = "0x2726D20", VA = "0x182728720")]
+	[Address(RVA = "0x60E7D40", Offset = "0x60E6D40", VA = "0x60E7D40")]
 	internal HWStack(int GrowthRate, int limit)
 	{
 	}
 
 	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x27285A0", Offset = "0x2726BA0", VA = "0x1827285A0")]
+	[Address(RVA = "0x60E7DB0", Offset = "0x60E6DB0", VA = "0x60E7DB0")]
 	internal object Push()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x2728560", Offset = "0x2726B60", VA = "0x182728560")]
+	[Address(RVA = "0x60E7EC0", Offset = "0x60E6EC0", VA = "0x60E7EC0")]
 	internal object Pop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A6F")]
-	[Address(RVA = "0x2728520", Offset = "0x2726B20", VA = "0x182728520")]
+	[Address(RVA = "0x60E7F00", Offset = "0x60E6F00", VA = "0x60E7F00")]
 	internal object Peek()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A70")]
-	[Address(RVA = "0x2728380", Offset = "0x2726980", VA = "0x182728380")]
+	[Address(RVA = "0x60E7F30", Offset = "0x60E6F30", VA = "0x60E7F30")]
 	internal void AddToTop(object o)
 	{
 	}
 
 	[Token(Token = "0x6000A74")]
-	[Address(RVA = "0x27286D0", Offset = "0x2726CD0", VA = "0x1827286D0")]
+	[Address(RVA = "0x60E80D0", Offset = "0x60E70D0", VA = "0x60E80D0")]
 	private HWStack(object[] stack, int growthRate, int used, int size)
 	{
 	}
 
 	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x2728410", Offset = "0x2726A10", VA = "0x182728410", Slot = "4")]
+	[Address(RVA = "0x60E8120", Offset = "0x60E7120", VA = "0x60E8120", Slot = "4")]
 	public object Clone()
 	{
 		return null;

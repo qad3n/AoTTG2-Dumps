@@ -29,7 +29,7 @@ internal sealed class NameNode : ExpressionNode
 	internal override bool IsSqlColumn
 	{
 		[Token(Token = "0x6000691")]
-		[Address(RVA = "0x2522780", Offset = "0x2520D80", VA = "0x182522780", Slot = "4")]
+		[Address(RVA = "0x5EBD390", Offset = "0x5EBC390", VA = "0x5EBD390", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -37,88 +37,88 @@ internal sealed class NameNode : ExpressionNode
 	}
 
 	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x25226E0", Offset = "0x2520CE0", VA = "0x1825226E0")]
+	[Address(RVA = "0x5EBD0D0", Offset = "0x5EBC0D0", VA = "0x5EBD0D0")]
 	internal NameNode(DataTable table, char[] text, int start, int pos)
 	{
 	}
 
 	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x2522740", Offset = "0x2520D40", VA = "0x182522740")]
+	[Address(RVA = "0x5EBD360", Offset = "0x5EBC360", VA = "0x5EBD360")]
 	internal NameNode(DataTable table, string name)
 	{
 	}
 
 	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x2522000", Offset = "0x2520600", VA = "0x182522000", Slot = "5")]
+	[Address(RVA = "0x5EBD3B0", Offset = "0x5EBC3B0", VA = "0x5EBD3B0", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
 	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x2522370", Offset = "0x2520970", VA = "0x182522370", Slot = "6")]
+	[Address(RVA = "0x5EBD600", Offset = "0x5EBC600", VA = "0x5EBD600", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x2522260", Offset = "0x2520860", VA = "0x182522260", Slot = "7")]
+	[Address(RVA = "0x5EBD620", Offset = "0x5EBC620", VA = "0x5EBD620", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x2522330", Offset = "0x2520930", VA = "0x182522330", Slot = "8")]
+	[Address(RVA = "0x5EBD6B0", Offset = "0x5EBC6B0", VA = "0x5EBD6B0", Slot = "8")]
 	internal override object Eval(int[] records)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x5EBD6F0", Offset = "0x5EBC6F0", VA = "0x5EBD6F0", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x2522440", Offset = "0x2520A40", VA = "0x182522440", Slot = "10")]
+	[Address(RVA = "0x5EBD700", Offset = "0x5EBC700", VA = "0x5EBD700", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000698")]
-	[Address(RVA = "0x25223A0", Offset = "0x25209A0", VA = "0x1825223A0", Slot = "11")]
+	[Address(RVA = "0x5EBD740", Offset = "0x5EBC740", VA = "0x5EBD740", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x25223F0", Offset = "0x25209F0", VA = "0x1825223F0", Slot = "12")]
+	[Address(RVA = "0x5EBD780", Offset = "0x5EBC780", VA = "0x5EBD780", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600069A")]
-	[Address(RVA = "0x25221F0", Offset = "0x25207F0", VA = "0x1825221F0", Slot = "14")]
+	[Address(RVA = "0x5EBD7C0", Offset = "0x5EBC7C0", VA = "0x5EBD7C0", Slot = "14")]
 	internal override bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600069B")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "13")]
+	[Address(RVA = "0x5EBD820", Offset = "0x5EBC820", VA = "0x5EBD820", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x2522490", Offset = "0x2520A90", VA = "0x182522490")]
+	[Address(RVA = "0x5EBD120", Offset = "0x5EBC120", VA = "0x5EBD120")]
 	internal static string ParseName(char[] text, int start, int pos)
 	{
 		return null;

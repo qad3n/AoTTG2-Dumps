@@ -14,8 +14,8 @@ namespace Unity.Collections.LowLevel.Unsafe;
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property)]
 public class WriteAccessRequiredAttribute : Attribute
 {
-	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x68B7D20", Offset = "0x68B6D20", VA = "0x68B7D20")]
 	public WriteAccessRequiredAttribute()
 	{
 	}

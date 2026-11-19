@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Api.AottgQueryPolicy
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Api/AottgQueryPolicy.cs
@@ -8,153 +8,149 @@
 
 // ApplicationManagers.Api.AottgQueryPolicy$$.ctor
 // il2cpp: void ApplicationManagers_Api_AottgQueryPolicy___ctor (ApplicationManagers_Api_AottgQueryPolicy_o* __this, System_TimeSpan_o successTtl, System_Nullable_TimeSpan__o failureTtl, bool preserveStaleOnFailure, const MethodInfo* method);
-// 0x1823680f0
+// 0x5e27d60
 
 void ApplicationManagers_Api_AottgQueryPolicy___ctor
                (ApplicationManagers_Api_AottgQueryPolicy_o *__this,System_TimeSpan_o successTtl,
-               System_Nullable_TimeSpan__o *failureTtl,bool preserveStaleOnFailure,MethodInfo *method)
+               System_Nullable_TimeSpan__o failureTtl,bool preserveStaleOnFailure,MethodInfo *method)
 
 {
-  int64_t iVar1;
-  undefined7 uVar2;
-  bool bVar3;
-  System_TimeSpan_o t1;
+  bool bVar1;
+  bool bVar2;
+  System_TimeSpan_o SVar3;
   Il2CppClass *pIVar4;
-  System_ArgumentOutOfRangeException_o *pSVar5;
-  System_String_o *pSVar6;
-  MethodInfo *pMVar7;
+  System_ArgumentOutOfRangeException_o *__this_00;
+  System_String_o *paramName;
+  MethodInfo *lastManagedFrame;
+  System_String_o **metadataPointer;
+  System_Nullable_TimeSpan__o local_40;
   
-  if (Il2CppMethodInitialized_184347a5a == '\0') {
+  SVar3 = failureTtl.fields.value.fields._ticks;
+  bVar2 = failureTtl.fields.hasValue;
+  local_40.fields.hasValue = bVar2;
+  local_40.fields.value.fields._ticks = SVar3.fields._ticks;
+  if (Il2CppMethodInitialized_07548514 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_TimeSpan_get_HasValue);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_TimeSpan_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
-    Il2CppMethodInitialized_184347a5a = '\x01';
+    Il2CppMethodInitialized_07548514 = '\x01';
   }
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
   }
-  bVar3 = System_TimeSpan__op_LessThan
+  bVar1 = System_TimeSpan__op_LessThan
                     (successTtl,
                      (System_TimeSpan_o)(TypeInfo_System_TimeSpan->static_fields->Zero).fields._ticks,
                      (MethodInfo *)0x0);
-  if (!bVar3) {
-    if ((failureTtl->fields).hasValue != false) {
-      t1.fields._ticks =
-           (System_TimeSpan_Fields)
-           System_Nullable_DefaultEventSystem_FocusBasedEventSequenceContext___get_Value
-                     ((System_Nullable_T__o *)failureTtl,
-                      (MethodInfo_AE2B70 *)MethodInfo_System_Nullable_TimeSpan_get_Value);
-      if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
-      }
-      bVar3 = System_TimeSpan__op_LessThan
-                        (t1,(System_TimeSpan_o)(TypeInfo_System_TimeSpan->static_fields->Zero).fields._ticks,
-                         (MethodInfo *)0x0);
-      if (bVar3) {
-        pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentOutOfRangeException);
-        pSVar5 = (System_ArgumentOutOfRangeException_o *)il2cpp_codegen_object_new(pIVar4);
-        pSVar6 = il2cpp_codegen_get_runtime_metadata(&"failureTtl");
-        System_ArgumentOutOfRangeException___ctor_1a78320(pSVar5,pSVar6,(MethodInfo *)0x0);
-        pMVar7 = il2cpp_codegen_get_runtime_metadata
-                           (&MethodInfo_ApplicationManagers_Api_AottgQueryPolicy_ctor);
-        il2cpp_codegen_raise_exception((Il2CppObject *)pSVar5,pMVar7);
-      }
-    }
-    bVar3 = (failureTtl->fields).hasValue;
-    uVar2 = *(undefined7 *)&(failureTtl->fields).field_0x1;
-    iVar1 = (failureTtl->fields).value.fields._ticks;
-    (__this->fields)._SuccessTtl_k__BackingField.fields._ticks = (int64_t)successTtl.fields._ticks;
-    (__this->fields)._PreserveStaleOnFailure_k__BackingField = preserveStaleOnFailure;
-    (__this->fields)._FailureTtl_k__BackingField.fields.hasValue = bVar3;
-    *(undefined7 *)&(__this->fields)._FailureTtl_k__BackingField.fields.field_0x1 = uVar2;
-    (__this->fields)._FailureTtl_k__BackingField.fields.value.fields._ticks = iVar1;
-    return;
+  if (bVar1) {
+    pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentOutOfRangeException);
+    __this_00 = (System_ArgumentOutOfRangeException_o *)il2cpp_codegen_object_new(pIVar4);
+    metadataPointer = &"successTtl";
+label_05e27ead:
+    paramName = il2cpp_codegen_get_runtime_metadata(metadataPointer);
+    System_ArgumentOutOfRangeException___ctor_5419ca0(__this_00,paramName,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata(&MethodInfo_ApplicationManagers_Api_AottgQueryPolicy_ctor);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentOutOfRangeException);
-  pSVar5 = (System_ArgumentOutOfRangeException_o *)il2cpp_codegen_object_new(pIVar4);
-  pSVar6 = il2cpp_codegen_get_runtime_metadata(&"successTtl");
-  System_ArgumentOutOfRangeException___ctor_1a78320(pSVar5,pSVar6,(MethodInfo *)0x0);
-  pMVar7 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_ApplicationManagers_Api_AottgQueryPolicy_ctor);
-  il2cpp_codegen_raise_exception((Il2CppObject *)pSVar5,pMVar7);
+  if (bVar2 == false) {
+    local_40.fields.hasValue = false;
+  }
+  else {
+    SVar3 = System_Nullable_TimeSpan___get_Value
+                      (&local_40,(MethodInfo_3CDB040 *)MethodInfo_System_Nullable_TimeSpan_get_Value);
+    if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
+    }
+    bVar2 = System_TimeSpan__op_LessThan
+                      (SVar3,(System_TimeSpan_o)(TypeInfo_System_TimeSpan->static_fields->Zero).fields._ticks,
+                       (MethodInfo *)0x0);
+    if (bVar2) {
+      pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentOutOfRangeException);
+      __this_00 = (System_ArgumentOutOfRangeException_o *)il2cpp_codegen_object_new(pIVar4);
+      metadataPointer = &"failureTtl";
+      goto label_05e27ead;
+    }
+    SVar3.fields._ticks = local_40.fields.value.fields._ticks;
+  }
+  (__this->fields)._SuccessTtl_k__BackingField.fields._ticks = (int64_t)successTtl.fields._ticks;
+  (__this->fields)._FailureTtl_k__BackingField.fields.hasValue = local_40.fields.hasValue;
+  (__this->fields)._FailureTtl_k__BackingField.fields.value.fields._ticks = (int64_t)SVar3.fields._ticks;
+  (__this->fields)._PreserveStaleOnFailure_k__BackingField = preserveStaleOnFailure;
+  return;
 }
 
 
 // ApplicationManagers.Api.AottgQueryPolicy$$get_SuccessTtl
 // il2cpp: System_TimeSpan_o ApplicationManagers_Api_AottgQueryPolicy__get_SuccessTtl (ApplicationManagers_Api_AottgQueryPolicy_o* __this, const MethodInfo* method);
-// 0x1808fb3a0
+// 0x5e2ad20
 
 System_TimeSpan_o
-ApplicationManagers_Api_AottgQueryPolicy__get_SuccessTtl(ApplicationManagers_Api_AottgQueryPolicy_o* __this, MethodInfo* method)
+ApplicationManagers_Api_AottgQueryPolicy__get_SuccessTtl
+          (ApplicationManagers_Api_AottgQueryPolicy_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields)._SuccessTtl_k__BackingField;
+  return (System_TimeSpan_o)(System_TimeSpan_Fields)(__this->fields)._SuccessTtl_k__BackingField.fields._ticks
+  ;
 }
 
 
 // ApplicationManagers.Api.AottgQueryPolicy$$set_SuccessTtl
 // il2cpp: void ApplicationManagers_Api_AottgQueryPolicy__set_SuccessTtl (ApplicationManagers_Api_AottgQueryPolicy_o* __this, System_TimeSpan_o value, const MethodInfo* method);
-// 0x180560ec0
+// 0x5e2ad30
 
-void
-ApplicationManagers_Api_AottgQueryPolicy__set_SuccessTtl(ApplicationManagers_Api_AottgQueryPolicy_o* __this, System_TimeSpan_o value, MethodInfo* method)
+void ApplicationManagers_Api_AottgQueryPolicy__set_SuccessTtl
+               (ApplicationManagers_Api_AottgQueryPolicy_o *__this,System_TimeSpan_o value,MethodInfo *method)
 
 {
-  (__this->fields)._SuccessTtl_k__BackingField.fields = value.fields;
+  (__this->fields)._SuccessTtl_k__BackingField.fields._ticks = (int64_t)value.fields._ticks;
   return;
 }
 
 
 // ApplicationManagers.Api.AottgQueryPolicy$$get_FailureTtl
 // il2cpp: System_Nullable_TimeSpan__o ApplicationManagers_Api_AottgQueryPolicy__get_FailureTtl (ApplicationManagers_Api_AottgQueryPolicy_o* __this, const MethodInfo* method);
-// 0x1808e7990
+// 0x5e2ad40
 
 System_Nullable_TimeSpan__o
-ApplicationManagers_Api_AottgQueryPolicy__get_FailureTtl(ApplicationManagers_Api_AottgQueryPolicy_o* __this, MethodInfo* method)
+ApplicationManagers_Api_AottgQueryPolicy__get_FailureTtl
+          (ApplicationManagers_Api_AottgQueryPolicy_o *__this,MethodInfo *method)
 
 {
-  int32_t iVar1;
-  int32_t iVar2;
+  System_Nullable_TimeSpan__o SVar1;
   
-  iVar1 = (__this->fields)._FailureTtl_k__BackingField.fields.m_Length;
-  iVar2 = (__this->fields)._FailureTtl_k__BackingField.fields.m_AllocatorLabel;
-  (__return_storage_ptr__->fields).m_Buffer = (__this->fields)._FailureTtl_k__BackingField.fields.m_Buffer;
-  (__return_storage_ptr__->fields).m_Length = iVar1;
-  (__return_storage_ptr__->fields).m_AllocatorLabel = iVar2;
-  return __return_storage_ptr__;
+  SVar1.fields._1_7_ = 0;
+  SVar1.fields.hasValue = (__this->fields)._FailureTtl_k__BackingField.fields.hasValue;
+  SVar1.fields.value.fields._ticks =
+       (System_TimeSpan_Fields)
+       (System_TimeSpan_Fields)(__this->fields)._FailureTtl_k__BackingField.fields.value.fields._ticks;
+  return (System_Nullable_TimeSpan__o)SVar1.fields;
 }
 
 
 // ApplicationManagers.Api.AottgQueryPolicy$$set_FailureTtl
 // il2cpp: void ApplicationManagers_Api_AottgQueryPolicy__set_FailureTtl (ApplicationManagers_Api_AottgQueryPolicy_o* __this, System_Nullable_TimeSpan__o value, const MethodInfo* method);
-// 0x18111c9e0
+// 0x5e2ad50
 
-void
-ApplicationManagers_Api_AottgQueryPolicy__set_FailureTtl(ApplicationManagers_Api_AottgQueryPolicy_o* __this, System_Nullable_TimeSpan__o value, MethodInfo* method)
+void ApplicationManagers_Api_AottgQueryPolicy__set_FailureTtl
+               (ApplicationManagers_Api_AottgQueryPolicy_o *__this,System_Nullable_TimeSpan__o value,
+               MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  
-  fVar1 = (value->fields).g;
-  fVar2 = (value->fields).b;
-  fVar3 = (value->fields).a;
-  (__this->fields)._FailureTtl_k__BackingField.fields.r = (value->fields).r;
-  (__this->fields)._FailureTtl_k__BackingField.fields.g = fVar1;
-  (__this->fields)._FailureTtl_k__BackingField.fields.b = fVar2;
-  (__this->fields)._FailureTtl_k__BackingField.fields.a = fVar3;
+  (__this->fields)._FailureTtl_k__BackingField.fields.hasValue = value.fields.hasValue;
+  (__this->fields)._FailureTtl_k__BackingField.fields.value.fields._ticks =
+       (int64_t)value.fields.value.fields._ticks.fields;
   return;
 }
 
 
 // ApplicationManagers.Api.AottgQueryPolicy$$get_PreserveStaleOnFailure
 // il2cpp: bool ApplicationManagers_Api_AottgQueryPolicy__get_PreserveStaleOnFailure (ApplicationManagers_Api_AottgQueryPolicy_o* __this, const MethodInfo* method);
-// 0x180f1d480
+// 0x5e2ad60
 
-bool
-ApplicationManagers_Api_AottgQueryPolicy__get_PreserveStaleOnFailure(ApplicationManagers_Api_AottgQueryPolicy_o* __this, MethodInfo* method)
+bool ApplicationManagers_Api_AottgQueryPolicy__get_PreserveStaleOnFailure
+               (ApplicationManagers_Api_AottgQueryPolicy_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._PreserveStaleOnFailure_k__BackingField;
@@ -163,10 +159,10 @@ ApplicationManagers_Api_AottgQueryPolicy__get_PreserveStaleOnFailure(Application
 
 // ApplicationManagers.Api.AottgQueryPolicy$$set_PreserveStaleOnFailure
 // il2cpp: void ApplicationManagers_Api_AottgQueryPolicy__set_PreserveStaleOnFailure (ApplicationManagers_Api_AottgQueryPolicy_o* __this, bool value, const MethodInfo* method);
-// 0x180f1d940
+// 0x5e2ad70
 
-void
-ApplicationManagers_Api_AottgQueryPolicy__set_PreserveStaleOnFailure(ApplicationManagers_Api_AottgQueryPolicy_o* __this, bool value, MethodInfo* method)
+void ApplicationManagers_Api_AottgQueryPolicy__set_PreserveStaleOnFailure
+               (ApplicationManagers_Api_AottgQueryPolicy_o *__this,bool value,MethodInfo *method)
 
 {
   (__this->fields)._PreserveStaleOnFailure_k__BackingField = value;
@@ -176,33 +172,29 @@ ApplicationManagers_Api_AottgQueryPolicy__set_PreserveStaleOnFailure(Application
 
 // ApplicationManagers.Api.AottgQueryPolicy$$.cctor
 // il2cpp: void ApplicationManagers_Api_AottgQueryPolicy___cctor (const MethodInfo* method);
-// 0x182368020
+// 0x5e2ad80
 
 void ApplicationManagers_Api_AottgQueryPolicy___cctor(MethodInfo *method)
 
 {
   System_TimeSpan_o successTtl;
   ApplicationManagers_Api_AottgQueryPolicy_o *__this;
-  System_Nullable_TimeSpan__Fields local_28 [2];
+  MethodInfo *in_R9;
   
-  if (Il2CppMethodInitialized_184347a5b == '\0') {
+  if (Il2CppMethodInitialized_07548515 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgQueryPolicy);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
-    Il2CppMethodInitialized_184347a5b = '\x01';
+    Il2CppMethodInitialized_07548515 = '\x01';
   }
   if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
   }
   successTtl = System_TimeSpan__FromMinutes(30.0,(MethodInfo *)0x0);
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgQueryPolicy);
-  local_28[0].hasValue = false;
-  local_28[0]._1_7_ = 0;
-  local_28[0].value.fields._ticks = (System_TimeSpan_Fields)0;
   ApplicationManagers_Api_AottgQueryPolicy___ctor
-            (__this,successTtl,(System_Nullable_TimeSpan__o *)local_28,true,(MethodInfo *)0x0);
+            (__this,successTtl,(System_Nullable_TimeSpan__o)ZEXT816(0),true,in_R9);
   TypeInfo_ApplicationManagers_Api_AottgQueryPolicy->static_fields->Default = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_Api_AottgQueryPolicy->static_fields->Default,__this)
-  ;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_Api_AottgQueryPolicy->static_fields->Default);
   return;
 }
 

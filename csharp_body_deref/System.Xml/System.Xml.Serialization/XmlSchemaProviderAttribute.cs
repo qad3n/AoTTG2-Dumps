@@ -25,7 +25,7 @@ public sealed class XmlSchemaProviderAttribute : Attribute
 	public string MethodName
 	{
 		[Token(Token = "0x6000D96")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x611F780", Offset = "0x611E780", VA = "0x611F780")]
 		get
 		{
 			return null;
@@ -36,20 +36,20 @@ public sealed class XmlSchemaProviderAttribute : Attribute
 	public bool IsAny
 	{
 		[Token(Token = "0x6000D97")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Address(RVA = "0x611F790", Offset = "0x611E790", VA = "0x611F790")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D98")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x611F7A0", Offset = "0x611E7A0", VA = "0x611F7A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D95")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x611F750", Offset = "0x611E750", VA = "0x611F750")]
 	public XmlSchemaProviderAttribute(string methodName)
 	{
 	}

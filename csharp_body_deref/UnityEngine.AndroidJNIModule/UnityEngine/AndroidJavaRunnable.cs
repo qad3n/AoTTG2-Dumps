@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000002")]
+[Token(Token = "0x2000007")]
 public delegate void AndroidJavaRunnable();

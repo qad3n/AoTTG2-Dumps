@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000476")]
-[ComVisible(true)]
+[Token(Token = "0x200044F")]
 [AttributeUsage(AttributeTargets.Parameter, Inherited = false)]
+[ComVisible(true)]
 public sealed class OutAttribute : Attribute
 {
-	[Token(Token = "0x6002244")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600221A")]
+	[Address(RVA = "0x53C4BD0", Offset = "0x53C3BD0", VA = "0x53C4BD0")]
 	public OutAttribute()
 	{
 	}

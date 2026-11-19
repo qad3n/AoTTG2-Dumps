@@ -27,7 +27,7 @@ public sealed class SceneVariables : MonoBehaviour, ISingleton
 	public Variables variables
 	{
 		[Token(Token = "0x6001124")]
-		[Address(RVA = "0x2E572A0", Offset = "0x2E558A0", VA = "0x182E572A0")]
+		[Address(RVA = "0x68506C0", Offset = "0x684F6C0", VA = "0x68506C0")]
 		get
 		{
 			return null;
@@ -35,40 +35,40 @@ public sealed class SceneVariables : MonoBehaviour, ISingleton
 	}
 
 	[Token(Token = "0x600111F")]
-	[Address(RVA = "0x2E57180", Offset = "0x2E55780", VA = "0x182E57180")]
+	[Address(RVA = "0x68504E0", Offset = "0x684F4E0", VA = "0x68504E0")]
 	public static SceneVariables Instance(Scene scene)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001120")]
-	[Address(RVA = "0x2E571E0", Offset = "0x2E557E0", VA = "0x182E571E0")]
+	[Address(RVA = "0x6850540", Offset = "0x684F540", VA = "0x6850540")]
 	public static bool InstantiatedIn(Scene scene)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001121")]
-	[Address(RVA = "0x2E56FE0", Offset = "0x2E555E0", VA = "0x182E56FE0")]
+	[Address(RVA = "0x68505A0", Offset = "0x684F5A0", VA = "0x68505A0")]
 	public static VariableDeclarations For(Scene? scene)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001122")]
-	[Address(RVA = "0x2E56F80", Offset = "0x2E55580", VA = "0x182E56F80")]
+	[Address(RVA = "0x6850760", Offset = "0x684F760", VA = "0x6850760")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6001123")]
-	[Address(RVA = "0x2E57240", Offset = "0x2E55840", VA = "0x182E57240")]
+	[Address(RVA = "0x68507C0", Offset = "0x684F7C0", VA = "0x68507C0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6001125")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6850820", Offset = "0x684F820", VA = "0x6850820")]
 	public SceneVariables()
 	{
 	}

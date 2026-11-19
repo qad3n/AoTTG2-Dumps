@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CullingJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -193,48 +193,48 @@ internal struct CullingJob : IJobParallelFor
 	public NativeArray<byte> rendererCrossFadeValues;
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x2BBDE90", Offset = "0x2BBC490", VA = "0x182BBDE90")]
+	[Address(RVA = "0x65C2610", Offset = "0x65C1610", VA = "0x65C2610")]
 	private static uint PackFloatToUint8(float percent)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x2BBCFF0", Offset = "0x2BBB5F0", VA = "0x182BBCFF0")]
+	[Address(RVA = "0x65C2670", Offset = "0x65C1670", VA = "0x65C2670")]
 	private uint CalculateLODVisibility(int instanceIndex, int sharedInstanceIndex, InstanceFlags instanceFlags)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x2BBD490", Offset = "0x2BBBA90", VA = "0x182BBD490")]
+	[Address(RVA = "0x65C2D40", Offset = "0x65C1D40", VA = "0x65C2D40")]
 	private uint CalculateVisibilityMask(int instanceIndex, int sharedInstanceIndex, InstanceFlags instanceFlags)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x2BBD850", Offset = "0x2BBBE50", VA = "0x182BBD850")]
+	[Address(RVA = "0x65C2F50", Offset = "0x65C1F50", VA = "0x65C2F50")]
 	private uint ComputeMeshLODLevel(int instanceIndex, int sharedInstanceIndex)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x2BBD730", Offset = "0x2BBBD30", VA = "0x182BBD730")]
+	[Address(RVA = "0x65C32C0", Offset = "0x65C22C0", VA = "0x65C32C0")]
 	private uint ComputeMeshLODCrossfade(int instanceIndex, ref uint meshLodLevel)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x2BBDBD0", Offset = "0x2BBC1D0", VA = "0x182BBDBD0")]
+	[Address(RVA = "0x65C3390", Offset = "0x65C2390", VA = "0x65C3390")]
 	private void EnforcePreviousFrameMeshLOD(int instanceIndex, ref uint meshLodLevel)
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x2BBDC30", Offset = "0x2BBC230", VA = "0x182BBDC30", Slot = "4")]
+	[Address(RVA = "0x65C33E0", Offset = "0x65C23E0", VA = "0x65C33E0", Slot = "4")]
 	public void Execute(int instanceIndex)
 	{
 	}

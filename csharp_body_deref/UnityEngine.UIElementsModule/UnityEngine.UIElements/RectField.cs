@@ -20,7 +20,7 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 	public new class UxmlFactory : UxmlFactory<RectField, UxmlTraits>
 	{
 		[Token(Token = "0x6000523")]
-		[Address(RVA = "0x31E3B00", Offset = "0x31E2100", VA = "0x1831E3B00")]
+		[Address(RVA = "0x6BD64F0", Offset = "0x6BD54F0", VA = "0x6BD64F0")]
 		public UxmlFactory()
 		{
 		}
@@ -47,13 +47,13 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 		private UxmlFloatAttributeDescription m_HValue;
 
 		[Token(Token = "0x6000524")]
-		[Address(RVA = "0x31E5310", Offset = "0x31E3910", VA = "0x1831E5310", Slot = "4")]
+		[Address(RVA = "0x6BD6530", Offset = "0x6BD5530", VA = "0x6BD6530", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000525")]
-		[Address(RVA = "0x31E7510", Offset = "0x31E5B10", VA = "0x1831E7510")]
+		[Address(RVA = "0x6BD6750", Offset = "0x6BD5750", VA = "0x6BD6750")]
 		public UxmlTraits()
 		{
 		}
@@ -72,20 +72,20 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x31DEFA0", Offset = "0x31DD5A0", VA = "0x1831DEFA0", Slot = "161")]
+	[Address(RVA = "0x6BD5A90", Offset = "0x6BD4A90", VA = "0x6BD5A90", Slot = "161")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x31DF8C0", Offset = "0x31DDEC0", VA = "0x1831DF8C0")]
+	[Address(RVA = "0x6BD62C0", Offset = "0x6BD52C0", VA = "0x6BD62C0")]
 	public RectField()
 	{
 	}
 
 	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x31DFA00", Offset = "0x31DE000", VA = "0x1831DFA00")]
+	[Address(RVA = "0x6BD62D0", Offset = "0x6BD52D0", VA = "0x6BD62D0")]
 	public RectField(string label)
 	{
 	}

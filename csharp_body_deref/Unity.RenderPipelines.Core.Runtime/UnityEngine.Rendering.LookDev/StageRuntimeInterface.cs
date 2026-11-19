@@ -33,7 +33,7 @@ public class StageRuntimeInterface
 	public Camera camera
 	{
 		[Token(Token = "0x60013DF")]
-		[Address(RVA = "0x2952A50", Offset = "0x2951050", VA = "0x182952A50")]
+		[Address(RVA = "0x65A2E40", Offset = "0x65A1E40", VA = "0x65A2E40")]
 		get
 		{
 			return null;
@@ -44,7 +44,7 @@ public class StageRuntimeInterface
 	public Light sunLight
 	{
 		[Token(Token = "0x60013E0")]
-		[Address(RVA = "0x18F79C0", Offset = "0x18F5FC0", VA = "0x1818F79C0")]
+		[Address(RVA = "0x65A2E60", Offset = "0x65A1E60", VA = "0x65A2E60")]
 		get
 		{
 			return null;
@@ -52,13 +52,13 @@ public class StageRuntimeInterface
 	}
 
 	[Token(Token = "0x60013DD")]
-	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+	[Address(RVA = "0x65A2DC0", Offset = "0x65A1DC0", VA = "0x65A2DC0")]
 	public StageRuntimeInterface(Func<bool, GameObject> AddGameObject, Func<Camera> GetCamera, Func<Light> GetSunLight)
 	{
 	}
 
 	[Token(Token = "0x60013DE")]
-	[Address(RVA = "0x221B0D0", Offset = "0x22196D0", VA = "0x18221B0D0")]
+	[Address(RVA = "0x65A2E20", Offset = "0x65A1E20", VA = "0x65A2E20")]
 	public GameObject AddGameObject(bool persistent = false)
 	{
 		return null;

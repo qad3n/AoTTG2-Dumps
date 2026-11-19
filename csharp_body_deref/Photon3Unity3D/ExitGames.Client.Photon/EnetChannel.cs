@@ -74,60 +74,60 @@ internal class EnetChannel
 	internal int highestReceivedAck;
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x1CBBF80", Offset = "0x1CBA580", VA = "0x181CBBF80")]
+	[Address(RVA = "0x564F970", Offset = "0x564E970", VA = "0x564F970")]
 	public EnetChannel(byte channelNumber, int commandBufferSize)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x1CBBC00", Offset = "0x1CBA200", VA = "0x181CBBC00")]
+	[Address(RVA = "0x564FB60", Offset = "0x564EB60", VA = "0x564FB60")]
 	public bool ContainsUnreliableSequenceNumber(int unreliableSequenceNumber)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x1CBBCC0", Offset = "0x1CBA2C0", VA = "0x181CBBCC0")]
+	[Address(RVA = "0x564FBB0", Offset = "0x564EBB0", VA = "0x564FBB0")]
 	public NCommand FetchUnreliableSequenceNumber(int unreliableSequenceNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x1CBBBA0", Offset = "0x1CBA1A0", VA = "0x181CBBBA0")]
+	[Address(RVA = "0x564FC00", Offset = "0x564EC00", VA = "0x564FC00")]
 	public bool ContainsReliableSequenceNumber(int reliableSequenceNumber)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x1CBBC60", Offset = "0x1CBA260", VA = "0x181CBBC60")]
+	[Address(RVA = "0x564FC50", Offset = "0x564EC50", VA = "0x564FC50")]
 	public NCommand FetchReliableSequenceNumber(int reliableSequenceNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x1CBBF10", Offset = "0x1CBA510", VA = "0x181CBBF10")]
+	[Address(RVA = "0x564FCA0", Offset = "0x564ECA0", VA = "0x564FCA0")]
 	public bool TryGetFragment(int reliableSequenceNumber, bool isSequenced, out NCommand fragment)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x1CBBEA0", Offset = "0x1CBA4A0", VA = "0x181CBBEA0")]
+	[Address(RVA = "0x564FD10", Offset = "0x564ED10", VA = "0x564FD10")]
 	public void RemoveFragment(int reliableSequenceNumber, bool isSequenced)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x1CBC160", Offset = "0x1CBA760", VA = "0x181CBC160")]
+	[Address(RVA = "0x564FD70", Offset = "0x564ED70", VA = "0x564FD70")]
 	public void clearAll()
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x1CBBD20", Offset = "0x1CBA320", VA = "0x181CBBD20")]
+	[Address(RVA = "0x564FEF0", Offset = "0x564EEF0", VA = "0x564FEF0")]
 	public bool QueueIncomingReliableUnsequenced(NCommand command)
 	{
 		return default(bool);

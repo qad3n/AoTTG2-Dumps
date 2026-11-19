@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection.Emit;
 
-[Token(Token = "0x2000556")]
+[Token(Token = "0x200052F")]
 public class EventBuilder
 {
 }

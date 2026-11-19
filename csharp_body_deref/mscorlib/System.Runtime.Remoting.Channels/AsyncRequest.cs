@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003AC")]
+[Token(Token = "0x2000385")]
 internal class AsyncRequest
 {
-	[Token(Token = "0x4000F21")]
+	[Token(Token = "0x4000E81")]
 	[FieldOffset(Offset = "0x10")]
 	internal IMessageSink ReplySink;
 
-	[Token(Token = "0x4000F22")]
+	[Token(Token = "0x4000E82")]
 	[FieldOffset(Offset = "0x18")]
 	internal IMessage MsgRequest;
 
-	[Token(Token = "0x6001E11")]
-	[Address(RVA = "0x19ED830", Offset = "0x19EBE30", VA = "0x1819ED830")]
+	[Token(Token = "0x6001DE7")]
+	[Address(RVA = "0x5389E40", Offset = "0x5388E40", VA = "0x5389E40")]
 	public AsyncRequest(IMessage msgRequest, IMessageSink replySink)
 	{
 	}

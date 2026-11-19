@@ -20,25 +20,25 @@ public class ButtonInsideScrollList : MonoBehaviour, IPointerDownHandler, IEvent
 	private ScrollRect scrollRect;
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x1D4FC70", Offset = "0x1D4E270", VA = "0x181D4FC70")]
+	[Address(RVA = "0x56F8000", Offset = "0x56F7000", VA = "0x56F8000")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x1D4FCC0", Offset = "0x1D4E2C0", VA = "0x181D4FCC0", Slot = "4")]
+	[Address(RVA = "0x56F8050", Offset = "0x56F7050", VA = "0x56F8050", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerDownHandler_002EOnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x1D4FD50", Offset = "0x1D4E350", VA = "0x181D4FD50", Slot = "5")]
+	[Address(RVA = "0x56F80E0", Offset = "0x56F70E0", VA = "0x56F80E0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerUpHandler_002EOnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F8170", Offset = "0x56F7170", VA = "0x56F8170")]
 	public ButtonInsideScrollList()
 	{
 	}

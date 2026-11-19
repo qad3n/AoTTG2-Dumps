@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassAttachment
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,7 +39,7 @@ internal readonly struct NativePassAttachment
 	public readonly int depthSlice;
 
 	[Token(Token = "0x60013AD")]
-	[Address(RVA = "0x2BB4CC0", Offset = "0x2BB32C0", VA = "0x182BB4CC0")]
+	[Address(RVA = "0x659DC60", Offset = "0x659CC60", VA = "0x659DC60")]
 	public NativePassAttachment(in ResourceHandle handle, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, bool memoryless, int mipLevel, int depthSlice)
 	{
 	}

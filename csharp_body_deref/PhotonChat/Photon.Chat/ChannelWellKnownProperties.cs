@@ -19,7 +19,7 @@ public class ChannelWellKnownProperties
 	public const byte PublishSubscribers = 254;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x569E870", Offset = "0x569D870", VA = "0x569E870")]
 	public ChannelWellKnownProperties()
 	{
 	}

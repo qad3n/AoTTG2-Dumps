@@ -9,68 +9,68 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x20002AF")]
+[Token(Token = "0x2000287")]
 public sealed class EncoderReplacementFallbackBuffer : EncoderFallbackBuffer
 {
-	[Token(Token = "0x4000BA4")]
+	[Token(Token = "0x4000B02")]
 	[FieldOffset(Offset = "0x30")]
 	private string _strDefault;
 
-	[Token(Token = "0x4000BA5")]
+	[Token(Token = "0x4000B03")]
 	[FieldOffset(Offset = "0x38")]
 	private int _fallbackCount;
 
-	[Token(Token = "0x4000BA6")]
+	[Token(Token = "0x4000B04")]
 	[FieldOffset(Offset = "0x3C")]
 	private int _fallbackIndex;
 
-	[Token(Token = "0x17000233")]
+	[Token(Token = "0x17000232")]
 	public override int Remaining
 	{
-		[Token(Token = "0x6001636")]
-		[Address(RVA = "0x1978E20", Offset = "0x1977420", VA = "0x181978E20", Slot = "8")]
+		[Token(Token = "0x600160D")]
+		[Address(RVA = "0x530B2D0", Offset = "0x530A2D0", VA = "0x530B2D0", Slot = "8")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001631")]
-	[Address(RVA = "0x1978DC0", Offset = "0x19773C0", VA = "0x181978DC0")]
+	[Token(Token = "0x6001608")]
+	[Address(RVA = "0x530AD90", Offset = "0x5309D90", VA = "0x530AD90")]
 	public EncoderReplacementFallbackBuffer(EncoderReplacementFallback fallback)
 	{
 	}
 
-	[Token(Token = "0x6001632")]
-	[Address(RVA = "0x1978BF0", Offset = "0x19771F0", VA = "0x181978BF0", Slot = "4")]
+	[Token(Token = "0x6001609")]
+	[Address(RVA = "0x530AE90", Offset = "0x5309E90", VA = "0x530AE90", Slot = "4")]
 	public override bool Fallback(char charUnknown, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001633")]
-	[Address(RVA = "0x19789D0", Offset = "0x1976FD0", VA = "0x1819789D0", Slot = "5")]
+	[Token(Token = "0x600160A")]
+	[Address(RVA = "0x530B020", Offset = "0x530A020", VA = "0x530B020", Slot = "5")]
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001634")]
-	[Address(RVA = "0x1978D20", Offset = "0x1977320", VA = "0x181978D20", Slot = "6")]
+	[Token(Token = "0x600160B")]
+	[Address(RVA = "0x530B270", Offset = "0x530A270", VA = "0x530B270", Slot = "6")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x6001635")]
-	[Address(RVA = "0x1978D80", Offset = "0x1977380", VA = "0x181978D80", Slot = "7")]
+	[Token(Token = "0x600160C")]
+	[Address(RVA = "0x530B2B0", Offset = "0x530A2B0", VA = "0x530B2B0", Slot = "7")]
 	public override bool MovePrevious()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001637")]
-	[Address(RVA = "0x1978DA0", Offset = "0x19773A0", VA = "0x181978DA0", Slot = "9")]
+	[Token(Token = "0x600160E")]
+	[Address(RVA = "0x530B2E0", Offset = "0x530A2E0", VA = "0x530B2E0", Slot = "9")]
 	public override void Reset()
 	{
 	}

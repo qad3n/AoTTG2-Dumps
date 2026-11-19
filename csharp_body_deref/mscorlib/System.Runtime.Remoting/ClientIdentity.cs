@@ -9,48 +9,48 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000371")]
+[Token(Token = "0x200034A")]
 internal class ClientIdentity : System.Runtime.Remoting.Identity
 {
-	[Token(Token = "0x4000E85")]
+	[Token(Token = "0x4000DE5")]
 	[FieldOffset(Offset = "0x48")]
 	private WeakReference _proxyReference;
 
-	[Token(Token = "0x1700033A")]
+	[Token(Token = "0x17000339")]
 	public MarshalByRefObject ClientProxy
 	{
-		[Token(Token = "0x6001C9C")]
-		[Address(RVA = "0x19D6210", Offset = "0x19D4810", VA = "0x1819D6210")]
+		[Token(Token = "0x6001C72")]
+		[Address(RVA = "0x53693A0", Offset = "0x53683A0", VA = "0x53693A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C9D")]
-		[Address(RVA = "0x19D62D0", Offset = "0x19D48D0", VA = "0x1819D62D0")]
+		[Token(Token = "0x6001C73")]
+		[Address(RVA = "0x5369420", Offset = "0x5368420", VA = "0x5369420")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700033B")]
+	[Token(Token = "0x1700033A")]
 	public string TargetUri
 	{
-		[Token(Token = "0x6001C9F")]
-		[Address(RVA = "0x19D62A0", Offset = "0x19D48A0", VA = "0x1819D62A0")]
+		[Token(Token = "0x6001C75")]
+		[Address(RVA = "0x5369490", Offset = "0x5368490", VA = "0x5369490")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001C9B")]
-	[Address(RVA = "0x19D6140", Offset = "0x19D4740", VA = "0x1819D6140")]
+	[Token(Token = "0x6001C71")]
+	[Address(RVA = "0x5369260", Offset = "0x5368260", VA = "0x5369260")]
 	public ClientIdentity(string objectUri, ObjRef objRef)
 	{
 	}
 
-	[Token(Token = "0x6001C9E")]
-	[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "4")]
+	[Token(Token = "0x6001C74")]
+	[Address(RVA = "0x5369480", Offset = "0x5368480", VA = "0x5369480", Slot = "4")]
 	public override ObjRef CreateObjRef(Type requestedType)
 	{
 		return null;

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E3")]
+[Token(Token = "0x20000BB")]
 internal enum DTSubStringType
 {
-	[Token(Token = "0x4000353")]
+	[Token(Token = "0x40002AE")]
 	Unknown,
-	[Token(Token = "0x4000354")]
+	[Token(Token = "0x40002AF")]
 	Invalid,
-	[Token(Token = "0x4000355")]
+	[Token(Token = "0x40002B0")]
 	Number,
-	[Token(Token = "0x4000356")]
+	[Token(Token = "0x40002B1")]
 	End,
-	[Token(Token = "0x4000357")]
+	[Token(Token = "0x40002B2")]
 	Other
 }

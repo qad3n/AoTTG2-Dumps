@@ -16,7 +16,7 @@ internal class ReusableMultiColumnListViewItem : ReusableListViewItem
 	public override VisualElement rootElement
 	{
 		[Token(Token = "0x600031A")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Address(RVA = "0x6A9CAB0", Offset = "0x6A9BAB0", VA = "0x6A9CAB0", Slot = "4")]
 		get
 		{
 			return null;
@@ -24,19 +24,19 @@ internal class ReusableMultiColumnListViewItem : ReusableListViewItem
 	}
 
 	[Token(Token = "0x600031B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6A9CAC0", Offset = "0x6A9BAC0", VA = "0x6A9CAC0", Slot = "5")]
 	public override void Init(VisualElement item)
 	{
 	}
 
 	[Token(Token = "0x600031C")]
-	[Address(RVA = "0x30B0A40", Offset = "0x30AF040", VA = "0x1830B0A40")]
+	[Address(RVA = "0x6A9A080", Offset = "0x6A99080", VA = "0x6A9A080")]
 	public void Init(VisualElement container, Columns columns, bool usesAnimatedDrag)
 	{
 	}
 
 	[Token(Token = "0x600031D")]
-	[Address(RVA = "0x30B0CB0", Offset = "0x30AF2B0", VA = "0x1830B0CB0")]
+	[Address(RVA = "0x6A9CAD0", Offset = "0x6A9BAD0", VA = "0x6A9CAD0")]
 	public ReusableMultiColumnListViewItem()
 	{
 	}

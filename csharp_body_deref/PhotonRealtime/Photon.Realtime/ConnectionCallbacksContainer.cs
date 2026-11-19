@@ -18,43 +18,43 @@ public class ConnectionCallbacksContainer : List<IConnectionCallbacks>, IConnect
 	private readonly LoadBalancingClient client;
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x1D12B00", Offset = "0x1D11100", VA = "0x181D12B00")]
+	[Address(RVA = "0x56ABE50", Offset = "0x56AAE50", VA = "0x56ABE50")]
 	public ConnectionCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x1D12260", Offset = "0x1D10860", VA = "0x181D12260", Slot = "35")]
+	[Address(RVA = "0x56B54F0", Offset = "0x56B44F0", VA = "0x56B54F0", Slot = "35")]
 	public void OnConnected()
 	{
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x1D120C0", Offset = "0x1D106C0", VA = "0x181D120C0", Slot = "36")]
+	[Address(RVA = "0x56B3710", Offset = "0x56B2710", VA = "0x56B3710", Slot = "36")]
 	public void OnConnectedToMaster()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x1D12940", Offset = "0x1D10F40", VA = "0x181D12940", Slot = "38")]
+	[Address(RVA = "0x56B3AD0", Offset = "0x56B2AD0", VA = "0x56B3AD0", Slot = "38")]
 	public void OnRegionListReceived(RegionHandler regionHandler)
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x1D12780", Offset = "0x1D10D80", VA = "0x181D12780", Slot = "37")]
+	[Address(RVA = "0x56B5890", Offset = "0x56B4890", VA = "0x56B5890", Slot = "37")]
 	public void OnDisconnected(DisconnectCause cause)
 	{
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x1D125C0", Offset = "0x1D10BC0", VA = "0x181D125C0", Slot = "39")]
+	[Address(RVA = "0x56B38E0", Offset = "0x56B28E0", VA = "0x56B38E0", Slot = "39")]
 	public void OnCustomAuthenticationResponse(Dictionary<string, object> data)
 	{
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x1D12400", Offset = "0x1D10A00", VA = "0x181D12400", Slot = "40")]
+	[Address(RVA = "0x56B3120", Offset = "0x56B2120", VA = "0x56B3120", Slot = "40")]
 	public void OnCustomAuthenticationFailed(string debugMessage)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgScoreboardProfileDialog
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgScoreboardProfileDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,52 +11,52 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000269")]
+[Token(Token = "0x200028F")]
 [AottgDialog("ingame-scoreboard-profile")]
 public sealed class AottgScoreboardProfileDialog : AottgDialog
 {
-	[Token(Token = "0x4000C66")]
+	[Token(Token = "0x4000D16")]
 	public const string Id = "ingame-scoreboard-profile";
 
-	[Token(Token = "0x4000C67")]
+	[Token(Token = "0x4000D17")]
 	public const string ContentId = "ingame-scoreboard-profile-content";
 
-	[Token(Token = "0x17000197")]
+	[Token(Token = "0x170001A2")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000E89")]
-		[Address(RVA = "0x1DE77A0", Offset = "0x1DE5DA0", VA = "0x181DE77A0", Slot = "4")]
+		[Token(Token = "0x6000F98")]
+		[Address(RVA = "0x57B50E0", Offset = "0x57B40E0", VA = "0x57B50E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000198")]
+	[Token(Token = "0x170001A3")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000E8A")]
-		[Address(RVA = "0x1DE7690", Offset = "0x1DE5C90", VA = "0x181DE7690", Slot = "15")]
+		[Token(Token = "0x6000F99")]
+		[Address(RVA = "0x57B5140", Offset = "0x57B4140", VA = "0x57B5140", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E8B")]
-	[Address(RVA = "0x1DE74C0", Offset = "0x1DE5AC0", VA = "0x181DE74C0", Slot = "20")]
+	[Token(Token = "0x6000F9A")]
+	[Address(RVA = "0x57B5210", Offset = "0x57B4210", VA = "0x57B5210", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000E8C")]
-	[Address(RVA = "0x1DE7610", Offset = "0x1DE5C10", VA = "0x181DE7610", Slot = "21")]
+	[Token(Token = "0x6000F9B")]
+	[Address(RVA = "0x57B5330", Offset = "0x57B4330", VA = "0x57B5330", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000E8D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000F9C")]
+	[Address(RVA = "0x57B5390", Offset = "0x57B4390", VA = "0x57B5390")]
 	public AottgScoreboardProfileDialog()
 	{
 	}

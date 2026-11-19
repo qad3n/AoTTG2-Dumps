@@ -20,7 +20,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001E3")]
-			[Address(RVA = "0x2FF65F0", Offset = "0x2FF4BF0", VA = "0x182FF65F0", Slot = "12")]
+			[Address(RVA = "0x69EE0F0", Offset = "0x69ED0F0", VA = "0x69EE0F0", Slot = "12")]
 			get
 			{
 				return null;
@@ -31,7 +31,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001E4")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE120", Offset = "0x69ED120", VA = "0x69EE120", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -39,20 +39,20 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x2FF1DB0", Offset = "0x2FF03B0", VA = "0x182FF1DB0", Slot = "14")]
+		[Address(RVA = "0x69EE130", Offset = "0x69ED130", VA = "0x69EE130", Slot = "14")]
 		public override float GetValue(ref Vector4 container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x2FF1DC0", Offset = "0x2FF03C0", VA = "0x182FF1DC0", Slot = "15")]
+		[Address(RVA = "0x69EE140", Offset = "0x69ED140", VA = "0x69EE140", Slot = "15")]
 		public override void SetValue(ref Vector4 container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x2FF6540", Offset = "0x2FF4B40", VA = "0x182FF6540")]
+		[Address(RVA = "0x69EDFF0", Offset = "0x69ECFF0", VA = "0x69EDFF0")]
 		public XProperty()
 		{
 		}
@@ -65,7 +65,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001E8")]
-			[Address(RVA = "0x2FF6A40", Offset = "0x2FF5040", VA = "0x182FF6A40", Slot = "12")]
+			[Address(RVA = "0x69EE150", Offset = "0x69ED150", VA = "0x69EE150", Slot = "12")]
 			get
 			{
 				return null;
@@ -76,7 +76,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001E9")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE180", Offset = "0x69ED180", VA = "0x69EE180", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -84,20 +84,20 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x2FEACE0", Offset = "0x2FE92E0", VA = "0x182FEACE0", Slot = "14")]
+		[Address(RVA = "0x69EE190", Offset = "0x69ED190", VA = "0x69EE190", Slot = "14")]
 		public override float GetValue(ref Vector4 container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x2FEACF0", Offset = "0x2FE92F0", VA = "0x182FEACF0", Slot = "15")]
+		[Address(RVA = "0x69EE1A0", Offset = "0x69ED1A0", VA = "0x69EE1A0", Slot = "15")]
 		public override void SetValue(ref Vector4 container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x2FF6900", Offset = "0x2FF4F00", VA = "0x182FF6900")]
+		[Address(RVA = "0x69EE030", Offset = "0x69ED030", VA = "0x69EE030")]
 		public YProperty()
 		{
 		}
@@ -110,7 +110,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001ED")]
-			[Address(RVA = "0x2FF6CD0", Offset = "0x2FF52D0", VA = "0x182FF6CD0", Slot = "12")]
+			[Address(RVA = "0x69EE1B0", Offset = "0x69ED1B0", VA = "0x69EE1B0", Slot = "12")]
 			get
 			{
 				return null;
@@ -121,7 +121,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001EE")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE1E0", Offset = "0x69ED1E0", VA = "0x69EE1E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -129,20 +129,20 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x2FE96D0", Offset = "0x2FE7CD0", VA = "0x182FE96D0", Slot = "14")]
+		[Address(RVA = "0x69EE1F0", Offset = "0x69ED1F0", VA = "0x69EE1F0", Slot = "14")]
 		public override float GetValue(ref Vector4 container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x2FE96E0", Offset = "0x2FE7CE0", VA = "0x182FE96E0", Slot = "15")]
+		[Address(RVA = "0x69EE200", Offset = "0x69ED200", VA = "0x69EE200", Slot = "15")]
 		public override void SetValue(ref Vector4 container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x2FF6BB0", Offset = "0x2FF51B0", VA = "0x182FF6BB0")]
+		[Address(RVA = "0x69EE070", Offset = "0x69ED070", VA = "0x69EE070")]
 		public ZProperty()
 		{
 		}
@@ -155,7 +155,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001F2")]
-			[Address(RVA = "0x2FF6040", Offset = "0x2FF4640", VA = "0x182FF6040", Slot = "12")]
+			[Address(RVA = "0x69EE210", Offset = "0x69ED210", VA = "0x69EE210", Slot = "12")]
 			get
 			{
 				return null;
@@ -166,7 +166,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001F3")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE240", Offset = "0x69ED240", VA = "0x69EE240", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -174,27 +174,27 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x2FE9460", Offset = "0x2FE7A60", VA = "0x182FE9460", Slot = "14")]
+		[Address(RVA = "0x69EE250", Offset = "0x69ED250", VA = "0x69EE250", Slot = "14")]
 		public override float GetValue(ref Vector4 container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001F5")]
-		[Address(RVA = "0x2FE9470", Offset = "0x2FE7A70", VA = "0x182FE9470", Slot = "15")]
+		[Address(RVA = "0x69EE260", Offset = "0x69ED260", VA = "0x69EE260", Slot = "15")]
 		public override void SetValue(ref Vector4 container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x2FF6000", Offset = "0x2FF4600", VA = "0x182FF6000")]
+		[Address(RVA = "0x69EE0B0", Offset = "0x69ED0B0", VA = "0x69EE0B0")]
 		public WProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x2FF5E20", Offset = "0x2FF4420", VA = "0x182FF5E20")]
+	[Address(RVA = "0x69ECE40", Offset = "0x69EBE40", VA = "0x69ECE40")]
 	public Vector4PropertyBag()
 	{
 	}

@@ -9,73 +9,73 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200001E")]
 public static class ChallengeResponse2
 {
-	[Token(Token = "0x400008E")]
+	[Token(Token = "0x4000088")]
 	[FieldOffset(Offset = "0x0")]
 	private static byte[] magic;
 
-	[Token(Token = "0x400008F")]
+	[Token(Token = "0x4000089")]
 	[FieldOffset(Offset = "0x8")]
 	private static byte[] nullEncMagic;
 
-	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x1913C10", Offset = "0x1912210", VA = "0x181913C10")]
+	[Token(Token = "0x60000F1")]
+	[Address(RVA = "0x52C4440", Offset = "0x52C3440", VA = "0x52C4440")]
 	private static byte[] Compute_LM(string password, byte[] challenge)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x1913EE0", Offset = "0x19124E0", VA = "0x181913EE0")]
+	[Token(Token = "0x60000F2")]
+	[Address(RVA = "0x52C4C80", Offset = "0x52C3C80", VA = "0x52C4C80")]
 	private static byte[] Compute_NTLM_Password(string password)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x1913FF0", Offset = "0x19125F0", VA = "0x181913FF0")]
+	[Token(Token = "0x60000F3")]
+	[Address(RVA = "0x52C4D80", Offset = "0x52C3D80", VA = "0x52C4D80")]
 	private static byte[] Compute_NTLM(string password, byte[] challenge)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x1914060", Offset = "0x1912660", VA = "0x181914060")]
+	[Token(Token = "0x60000F4")]
+	[Address(RVA = "0x52C4DE0", Offset = "0x52C3DE0", VA = "0x52C4DE0")]
 	private static void Compute_NTLMv2_Session(string password, byte[] challenge, out byte[] lm, out byte[] ntlm)
 	{
 	}
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x1914290", Offset = "0x1912890", VA = "0x181914290")]
+	[Token(Token = "0x60000F5")]
+	[Address(RVA = "0x52C5010", Offset = "0x52C4010", VA = "0x52C5010")]
 	private static byte[] Compute_NTLMv2(Type2Message type2, string username, string password, string domain)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x19147C0", Offset = "0x1912DC0", VA = "0x1819147C0")]
+	[Token(Token = "0x60000F6")]
+	[Address(RVA = "0x52C56A0", Offset = "0x52C46A0", VA = "0x52C56A0")]
 	public static void Compute(Type2Message type2, NtlmAuthLevel level, string username, string password, string domain, out byte[] lm, out byte[] ntlm)
 	{
 	}
 
-	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x19149D0", Offset = "0x1912FD0", VA = "0x1819149D0")]
+	[Token(Token = "0x60000F7")]
+	[Address(RVA = "0x52C4930", Offset = "0x52C3930", VA = "0x52C4930")]
 	private static byte[] GetResponse(byte[] challenge, byte[] pwd)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x1914D80", Offset = "0x1913380", VA = "0x181914D80")]
+	[Token(Token = "0x60000F8")]
+	[Address(RVA = "0x52C5AC0", Offset = "0x52C4AC0", VA = "0x52C5AC0")]
 	private static byte[] PrepareDESKey(byte[] key56bits, int position)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x1914C00", Offset = "0x1913200", VA = "0x181914C00")]
+	[Token(Token = "0x60000F9")]
+	[Address(RVA = "0x52C47D0", Offset = "0x52C37D0", VA = "0x52C47D0")]
 	private static byte[] PasswordToKey(string password, int position)
 	{
 		return null;

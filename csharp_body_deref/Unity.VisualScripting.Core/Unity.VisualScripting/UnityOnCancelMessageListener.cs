@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnCancelMessageListener : MessageListener, ICancelHandler, IEventSystemHandler
 {
 	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x2DBD7E0", Offset = "0x2DBBDE0", VA = "0x182DBD7E0", Slot = "4")]
+	[Address(RVA = "0x67A5FB0", Offset = "0x67A4FB0", VA = "0x67A5FB0", Slot = "4")]
 	public void OnCancel(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A6040", Offset = "0x67A5040", VA = "0x67A6040")]
 	public UnityOnCancelMessageListener()
 	{
 	}

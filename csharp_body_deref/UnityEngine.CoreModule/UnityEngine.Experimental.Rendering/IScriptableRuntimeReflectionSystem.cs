@@ -13,6 +13,6 @@ namespace UnityEngine.Experimental.Rendering;
 [Token(Token = "0x20003F4")]
 public interface IScriptableRuntimeReflectionSystem : IDisposable
 {
-	[Token(Token = "0x60017DF")]
+	[Token(Token = "0x60017F3")]
 	bool TickRealtimeProbes();
 }

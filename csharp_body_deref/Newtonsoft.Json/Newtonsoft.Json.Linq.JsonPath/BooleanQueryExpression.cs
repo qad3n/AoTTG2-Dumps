@@ -22,48 +22,48 @@ internal class BooleanQueryExpression : QueryExpression
 	public readonly object? Right;
 
 	[Token(Token = "0x6000E5C")]
-	[Address(RVA = "0x1522E90", Offset = "0x1521490", VA = "0x181522E90")]
+	[Address(RVA = "0x562B850", Offset = "0x562A850", VA = "0x562B850")]
 	public BooleanQueryExpression(QueryOperator @operator, object left, object? right)
 	{
 	}
 
 	[Token(Token = "0x6000E5D")]
-	[Address(RVA = "0x1C8F490", Offset = "0x1C8DA90", VA = "0x181C8F490")]
+	[Address(RVA = "0x562C4E0", Offset = "0x562B4E0", VA = "0x562C4E0")]
 	private IEnumerable<JToken> GetResult(JToken root, JToken t, object? o)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E5E")]
-	[Address(RVA = "0x1C8F680", Offset = "0x1C8DC80", VA = "0x181C8F680", Slot = "4")]
+	[Address(RVA = "0x562C6E0", Offset = "0x562B6E0", VA = "0x562C6E0", Slot = "4")]
 	public override bool IsMatch(JToken root, JToken t, JsonSelectSettings? settings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E5F")]
-	[Address(RVA = "0x1C8FB30", Offset = "0x1C8E130", VA = "0x181C8FB30")]
+	[Address(RVA = "0x562CE80", Offset = "0x562BE80", VA = "0x562CE80")]
 	private bool MatchTokens(JToken leftResult, JToken rightResult, JsonSelectSettings? settings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E60")]
-	[Address(RVA = "0x1C8FDB0", Offset = "0x1C8E3B0", VA = "0x181C8FDB0")]
+	[Address(RVA = "0x562D070", Offset = "0x562C070", VA = "0x562D070")]
 	private static bool RegexEquals(JValue input, JValue pattern, JsonSelectSettings? settings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E61")]
-	[Address(RVA = "0x1C8EF60", Offset = "0x1C8D560", VA = "0x181C8EF60")]
+	[Address(RVA = "0x562D220", Offset = "0x562C220", VA = "0x562D220")]
 	internal static bool EqualsWithStringCoercion(JValue value, JValue queryValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E62")]
-	[Address(RVA = "0x1C8EE20", Offset = "0x1C8D420", VA = "0x181C8EE20")]
+	[Address(RVA = "0x562D720", Offset = "0x562C720", VA = "0x562D720")]
 	internal static bool EqualsWithStrictMatch(JValue value, JValue queryValue)
 	{
 		return default(bool);

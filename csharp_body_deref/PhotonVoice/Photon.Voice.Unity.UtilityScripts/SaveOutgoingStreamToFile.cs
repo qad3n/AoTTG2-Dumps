@@ -24,20 +24,20 @@ public class SaveOutgoingStreamToFile : VoiceComponent
 		private WaveWriter wavWriter;
 
 		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x573ECD0", Offset = "0x573DCD0", VA = "0x573ECD0")]
 		public OutgoingStreamSaverFloat(WaveWriter waveWriter)
 		{
 		}
 
 		[Token(Token = "0x600014D")]
-		[Address(RVA = "0x1D8A650", Offset = "0x1D88C50", VA = "0x181D8A650", Slot = "4")]
+		[Address(RVA = "0x573EFA0", Offset = "0x573DFA0", VA = "0x573EFA0", Slot = "4")]
 		public float[] Process(float[] buf)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x1D8A5E0", Offset = "0x1D88BE0", VA = "0x181D8A5E0", Slot = "5")]
+		[Address(RVA = "0x573F010", Offset = "0x573E010", VA = "0x573F010", Slot = "5")]
 		public void Dispose()
 		{
 		}
@@ -51,20 +51,20 @@ public class SaveOutgoingStreamToFile : VoiceComponent
 		private WaveWriter wavWriter;
 
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x573ED00", Offset = "0x573DD00", VA = "0x573ED00")]
 		public OutgoingStreamSaverShort(WaveWriter waveWriter)
 		{
 		}
 
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x1D8A6C0", Offset = "0x1D88CC0", VA = "0x181D8A6C0", Slot = "4")]
+		[Address(RVA = "0x573F090", Offset = "0x573E090", VA = "0x573F090", Slot = "4")]
 		public short[] Process(short[] buf)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x1D8A5E0", Offset = "0x1D88BE0", VA = "0x181D8A5E0", Slot = "5")]
+		[Address(RVA = "0x573F140", Offset = "0x573E140", VA = "0x573F140", Slot = "5")]
 		public void Dispose()
 		{
 		}
@@ -75,26 +75,26 @@ public class SaveOutgoingStreamToFile : VoiceComponent
 	private WaveWriter wavWriter;
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x1D92810", Offset = "0x1D90E10", VA = "0x181D92810")]
+	[Address(RVA = "0x573E4C0", Offset = "0x573D4C0", VA = "0x573E4C0")]
 	private void PhotonVoiceCreated(PhotonVoiceCreatedParams photonVoiceCreatedParams)
 	{
 	}
 
 	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x1D926F0", Offset = "0x1D90CF0", VA = "0x181D926F0")]
+	[Address(RVA = "0x573EBB0", Offset = "0x573DBB0", VA = "0x573EBB0")]
 	private string GetFilePath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x1D93010", Offset = "0x1D91610", VA = "0x181D93010")]
+	[Address(RVA = "0x573ED30", Offset = "0x573DD30", VA = "0x573ED30")]
 	private void PhotonVoiceRemoved()
 	{
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x1D8D100", Offset = "0x1D8B700", VA = "0x181D8D100")]
+	[Address(RVA = "0x573EF40", Offset = "0x573DF40", VA = "0x573EF40")]
 	public SaveOutgoingStreamToFile()
 	{
 	}

@@ -12,192 +12,192 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005A7")]
+[Token(Token = "0x2000606")]
 [CompilerGenerated]
 internal class CustomLogicToggleBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x20005A8")]
+	[Token(Token = "0x2000607")]
 	public new static class Factory
 	{
-		[Token(Token = "0x600357C")]
-		[Address(RVA = "0x2074620", Offset = "0x2072C20", VA = "0x182074620")]
+		[Token(Token = "0x6003808")]
+		[Address(RVA = "0x5A08DB0", Offset = "0x5A07DB0", VA = "0x5A08DB0")]
 		public static CustomLogicToggleBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20005A9")]
+	[Token(Token = "0x2000608")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x4001809")]
+		[Token(Token = "0x40019A9")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600357D")]
-		[Address(RVA = "0x2048F10", Offset = "0x2047510", VA = "0x182048F10")]
+		[Token(Token = "0x6003809")]
+		[Address(RVA = "0x5A08E40", Offset = "0x5A07E40", VA = "0x5A08E40")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600357E")]
-		[Address(RVA = "0x2062A50", Offset = "0x2061050", VA = "0x182062A50")]
+		[Token(Token = "0x600380A")]
+		[Address(RVA = "0x5A09070", Offset = "0x5A08070", VA = "0x5A09070")]
 		public static CLPropertyBinding<CustomLogicToggleBuiltin> __CreatePropertyBinding__Label()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600357F")]
-		[Address(RVA = "0x2063680", Offset = "0x2061C80", VA = "0x182063680")]
+		[Token(Token = "0x600380B")]
+		[Address(RVA = "0x5A09150", Offset = "0x5A08150", VA = "0x5A09150")]
 		public static CLPropertyBinding<CustomLogicToggleBuiltin> __CreatePropertyBinding__Text()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003580")]
-		[Address(RVA = "0x2063C70", Offset = "0x2062270", VA = "0x182063C70")]
+		[Token(Token = "0x600380C")]
+		[Address(RVA = "0x5A09230", Offset = "0x5A08230", VA = "0x5A09230")]
 		public static CLPropertyBinding<CustomLogicToggleBuiltin> __CreatePropertyBinding__Value()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003581")]
-		[Address(RVA = "0x205B880", Offset = "0x2059E80", VA = "0x18205B880")]
+		[Token(Token = "0x600380D")]
+		[Address(RVA = "0x5A09310", Offset = "0x5A08310", VA = "0x5A09310")]
 		public static CLMethodBinding<CustomLogicToggleBuiltin> __CreateMethodBinding__OnValueChanged()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003582")]
-		[Address(RVA = "0x205F450", Offset = "0x205DA50", VA = "0x18205F450")]
+		[Token(Token = "0x600380E")]
+		[Address(RVA = "0x5A09450", Offset = "0x5A08450", VA = "0x5A09450")]
 		public static CLMethodBinding<CustomLogicToggleBuiltin> __CreateMethodBinding__SetValueWithoutNotify()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001807")]
+	[Token(Token = "0x40019A7")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly Toggle _toggle;
 
-	[Token(Token = "0x4001808")]
+	[Token(Token = "0x40019A8")]
 	[FieldOffset(Offset = "0x68")]
 	private UserMethod _valueChangedEvent;
 
-	[Token(Token = "0x170009E1")]
+	[Token(Token = "0x17000A29")]
 	public string Label
 	{
-		[Token(Token = "0x600356F")]
-		[Address(RVA = "0x206A380", Offset = "0x2068980", VA = "0x18206A380")]
+		[Token(Token = "0x60037FB")]
+		[Address(RVA = "0x5A08B80", Offset = "0x5A07B80", VA = "0x5A08B80")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003570")]
-		[Address(RVA = "0x206A3F0", Offset = "0x20689F0", VA = "0x18206A3F0")]
+		[Token(Token = "0x60037FC")]
+		[Address(RVA = "0x5A08BC0", Offset = "0x5A07BC0", VA = "0x5A08BC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009E2")]
+	[Token(Token = "0x17000A2A")]
 	public string Text
 	{
-		[Token(Token = "0x6003571")]
-		[Address(RVA = "0x206A3D0", Offset = "0x20689D0", VA = "0x18206A3D0")]
+		[Token(Token = "0x60037FD")]
+		[Address(RVA = "0x5A08C10", Offset = "0x5A07C10", VA = "0x5A08C10")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003572")]
-		[Address(RVA = "0x206A450", Offset = "0x2068A50", VA = "0x18206A450")]
+		[Token(Token = "0x60037FE")]
+		[Address(RVA = "0x5A08C30", Offset = "0x5A07C30", VA = "0x5A08C30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009E3")]
+	[Token(Token = "0x17000A2B")]
 	public bool Value
 	{
-		[Token(Token = "0x6003573")]
-		[Address(RVA = "0x2066F00", Offset = "0x2065500", VA = "0x182066F00")]
+		[Token(Token = "0x60037FF")]
+		[Address(RVA = "0x5A08C50", Offset = "0x5A07C50", VA = "0x5A08C50")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6003574")]
-		[Address(RVA = "0x20671C0", Offset = "0x20657C0", VA = "0x1820671C0")]
+		[Token(Token = "0x6003800")]
+		[Address(RVA = "0x5A08C80", Offset = "0x5A07C80", VA = "0x5A08C80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009E4")]
+	[Token(Token = "0x17000A2C")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003577")]
-		[Address(RVA = "0x206A350", Offset = "0x2068950", VA = "0x18206A350", Slot = "6")]
+		[Token(Token = "0x6003803")]
+		[Address(RVA = "0x5A08D00", Offset = "0x5A07D00", VA = "0x5A08D00", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009E5")]
+	[Token(Token = "0x17000A2D")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003578")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003804")]
+		[Address(RVA = "0x5A08D30", Offset = "0x5A07D30", VA = "0x5A08D30", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009E6")]
+	[Token(Token = "0x17000A2E")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003579")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003805")]
+		[Address(RVA = "0x5A08D40", Offset = "0x5A07D40", VA = "0x5A08D40", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009E7")]
+	[Token(Token = "0x17000A2F")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600357A")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003806")]
+		[Address(RVA = "0x5A08D50", Offset = "0x5A07D50", VA = "0x5A08D50", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600356D")]
-	[Address(RVA = "0x206A2A0", Offset = "0x20688A0", VA = "0x18206A2A0")]
+	[Token(Token = "0x60037F9")]
+	[Address(RVA = "0x5A089B0", Offset = "0x5A079B0", VA = "0x5A089B0")]
 	public CustomLogicToggleBuiltin(Toggle toggle)
 	{
 	}
 
-	[Token(Token = "0x600356E")]
-	[Address(RVA = "0x206A010", Offset = "0x2068610", VA = "0x18206A010")]
+	[Token(Token = "0x60037FA")]
+	[Address(RVA = "0x5A08A60", Offset = "0x5A07A60", VA = "0x5A08A60")]
 	private void OnValueChanged(bool value)
 	{
 	}
 
-	[Token(Token = "0x6003575")]
-	[Address(RVA = "0x55DEB0", Offset = "0x55C4B0", VA = "0x18055DEB0")]
+	[Token(Token = "0x6003801")]
+	[Address(RVA = "0x5A08CB0", Offset = "0x5A07CB0", VA = "0x5A08CB0")]
 	public CustomLogicToggleBuiltin OnValueChanged(UserMethod valueChangedEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003576")]
-	[Address(RVA = "0x2066A20", Offset = "0x2065020", VA = "0x182066A20")]
+	[Token(Token = "0x6003802")]
+	[Address(RVA = "0x5A08CD0", Offset = "0x5A07CD0", VA = "0x5A08CD0")]
 	public void SetValueWithoutNotify(bool value)
 	{
 	}

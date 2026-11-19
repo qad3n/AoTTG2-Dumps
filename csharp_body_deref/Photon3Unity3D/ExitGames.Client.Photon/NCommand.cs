@@ -198,7 +198,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal int SizeOfPayload
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x1CC74D0", Offset = "0x1CC5AD0", VA = "0x181CC74D0")]
+		[Address(RVA = "0x5657A20", Offset = "0x5656A20", VA = "0x5657A20")]
 		get
 		{
 			return default(int);
@@ -209,7 +209,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal bool IsFlaggedUnsequenced
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x1CC74C0", Offset = "0x1CC5AC0", VA = "0x181CC74C0")]
+		[Address(RVA = "0x56584D0", Offset = "0x56574D0", VA = "0x56584D0")]
 		get
 		{
 			return default(bool);
@@ -220,7 +220,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal bool IsFlaggedReliable
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x1CC74B0", Offset = "0x1CC5AB0", VA = "0x181CC74B0")]
+		[Address(RVA = "0x5657330", Offset = "0x5656330", VA = "0x5657330")]
 		get
 		{
 			return default(bool);
@@ -228,75 +228,75 @@ internal class NCommand : IComparable<NCommand>
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x1CC6400", Offset = "0x1CC4A00", VA = "0x181CC6400")]
+	[Address(RVA = "0x56585D0", Offset = "0x56575D0", VA = "0x56585D0")]
 	internal static void CreateAck(byte[] buffer, int offset, NCommand commandToAck, int sentTime)
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x1CC7400", Offset = "0x1CC5A00", VA = "0x181CC7400")]
+	[Address(RVA = "0x565CBE0", Offset = "0x565BBE0", VA = "0x565CBE0")]
 	internal NCommand(EnetPeer peer, byte commandType, StreamBuffer payload, byte channel)
 	{
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x1CC65D0", Offset = "0x1CC4BD0", VA = "0x181CC65D0")]
+	[Address(RVA = "0x565CC20", Offset = "0x565BC20", VA = "0x565CC20")]
 	internal void Initialize(EnetPeer peer, byte commandType, StreamBuffer payload, byte channel)
 	{
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x1CC7460", Offset = "0x1CC5A60", VA = "0x181CC7460")]
+	[Address(RVA = "0x565C870", Offset = "0x565B870", VA = "0x565C870")]
 	internal NCommand(EnetPeer peer, byte[] inBuff, ref int readingOffset)
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x1CC6930", Offset = "0x1CC4F30", VA = "0x181CC6930")]
+	[Address(RVA = "0x565C8B0", Offset = "0x565B8B0", VA = "0x565C8B0")]
 	internal void Initialize(EnetPeer peer, byte[] inBuff, ref int readingOffset)
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x1CC6CD0", Offset = "0x1CC52D0", VA = "0x181CC6CD0")]
+	[Address(RVA = "0x565D030", Offset = "0x565C030", VA = "0x565D030")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x1CC6D10", Offset = "0x1CC5310", VA = "0x181CC6D10")]
+	[Address(RVA = "0x5657860", Offset = "0x5656860", VA = "0x5657860")]
 	internal void SerializeHeader(byte[] buffer, ref int bufferIndex)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x1CC6EC0", Offset = "0x1CC54C0", VA = "0x181CC6EC0")]
+	[Address(RVA = "0x5657A40", Offset = "0x5656A40", VA = "0x5657A40")]
 	internal byte[] Serialize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x1CC6550", Offset = "0x1CC4B50", VA = "0x181CC6550")]
+	[Address(RVA = "0x5654AA0", Offset = "0x5653AA0", VA = "0x5654AA0")]
 	public void FreePayload()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x1CC6CA0", Offset = "0x1CC52A0", VA = "0x181CC6CA0")]
+	[Address(RVA = "0x5654B10", Offset = "0x5653B10", VA = "0x5654B10")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x1CC63D0", Offset = "0x1CC49D0", VA = "0x181CC63D0", Slot = "4")]
+	[Address(RVA = "0x565D070", Offset = "0x565C070", VA = "0x565D070", Slot = "4")]
 	public int CompareTo(NCommand other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x1CC6EE0", Offset = "0x1CC54E0", VA = "0x181CC6EE0", Slot = "3")]
+	[Address(RVA = "0x565D0A0", Offset = "0x565C0A0", VA = "0x565D0A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

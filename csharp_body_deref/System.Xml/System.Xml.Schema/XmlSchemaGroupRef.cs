@@ -30,13 +30,13 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	public XmlQualifiedName RefName
 	{
 		[Token(Token = "0x6001680")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x602D040", Offset = "0x602C040", VA = "0x602D040")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001681")]
-		[Address(RVA = "0x266C3B0", Offset = "0x266A9B0", VA = "0x18266C3B0")]
+		[Address(RVA = "0x602A7A0", Offset = "0x60297A0", VA = "0x602A7A0")]
 		set
 		{
 		}
@@ -47,7 +47,7 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	public XmlSchemaGroupBase Particle
 	{
 		[Token(Token = "0x6001682")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x602D050", Offset = "0x602C050", VA = "0x602D050")]
 		get
 		{
 			return null;
@@ -59,26 +59,26 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	internal XmlSchemaGroup Redefined
 	{
 		[Token(Token = "0x6001684")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x602D070", Offset = "0x602C070", VA = "0x602D070")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001685")]
-		[Address(RVA = "0xB5BE30", Offset = "0xB5A430", VA = "0x180B5BE30")]
+		[Address(RVA = "0x602D080", Offset = "0x602C080", VA = "0x602D080")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001683")]
-	[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
+	[Address(RVA = "0x602D060", Offset = "0x602C060", VA = "0x602D060")]
 	internal void SetParticle(XmlSchemaGroupBase value)
 	{
 	}
 
 	[Token(Token = "0x6001686")]
-	[Address(RVA = "0x266C320", Offset = "0x266A920", VA = "0x18266C320")]
+	[Address(RVA = "0x602D0A0", Offset = "0x602C0A0", VA = "0x602D0A0")]
 	public XmlSchemaGroupRef()
 	{
 	}

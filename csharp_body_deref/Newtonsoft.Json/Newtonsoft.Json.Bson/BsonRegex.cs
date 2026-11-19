@@ -17,14 +17,14 @@ internal class BsonRegex : BsonToken
 	public BsonString Pattern
 	{
 		[Token(Token = "0x600101F")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x564BD10", Offset = "0x564AD10", VA = "0x564BD10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001020")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x564BD20", Offset = "0x564AD20", VA = "0x564BD20")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ internal class BsonRegex : BsonToken
 	public BsonString Options
 	{
 		[Token(Token = "0x6001021")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x564BD30", Offset = "0x564AD30", VA = "0x564BD30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001022")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x564BD40", Offset = "0x564AD40", VA = "0x564BD40")]
 		[CompilerGenerated]
 		set
 		{
@@ -53,7 +53,7 @@ internal class BsonRegex : BsonToken
 	public override BsonType Type
 	{
 		[Token(Token = "0x6001024")]
-		[Address(RVA = "0x1CAC6B0", Offset = "0x1CAACB0", VA = "0x181CAC6B0", Slot = "4")]
+		[Address(RVA = "0x564BE20", Offset = "0x564AE20", VA = "0x564BE20", Slot = "4")]
 		get
 		{
 			return default(BsonType);
@@ -61,7 +61,7 @@ internal class BsonRegex : BsonToken
 	}
 
 	[Token(Token = "0x6001023")]
-	[Address(RVA = "0x1CAC5E0", Offset = "0x1CAABE0", VA = "0x181CAC5E0")]
+	[Address(RVA = "0x564BD50", Offset = "0x564AD50", VA = "0x564BD50")]
 	public BsonRegex(string pattern, string options)
 	{
 	}

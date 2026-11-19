@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000ED")]
+[Token(Token = "0x2000128")]
 public enum KDRMode
 {
-	[Token(Token = "0x40005A1")]
+	[Token(Token = "0x40006E0")]
 	Off,
-	[Token(Token = "0x40005A2")]
+	[Token(Token = "0x40006E1")]
 	Mine,
-	[Token(Token = "0x40005A3")]
+	[Token(Token = "0x40006E2")]
 	All
 }

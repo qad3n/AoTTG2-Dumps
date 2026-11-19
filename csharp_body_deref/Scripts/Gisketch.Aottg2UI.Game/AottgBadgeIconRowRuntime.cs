@@ -18,42 +18,42 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200028A")]
+[Token(Token = "0x20002E6")]
 internal sealed class AottgBadgeIconRowRuntime : MonoBehaviour
 {
-	[Token(Token = "0x200028B")]
+	[Token(Token = "0x20002E7")]
 	[CompilerGenerated]
 	private sealed class _003CBadgeIds_003Ed__27 : IEnumerable<string>, IEnumerable, IEnumerator<string>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000D13")]
+		[Token(Token = "0x4000EAF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000D14")]
+		[Token(Token = "0x4000EB0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private string _003C_003E2__current;
 
-		[Token(Token = "0x4000D15")]
+		[Token(Token = "0x4000EB1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x4000D16")]
+		[Token(Token = "0x4000EB2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private JSONNode badges;
 
-		[Token(Token = "0x4000D17")]
+		[Token(Token = "0x4000EB3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public JSONNode _003C_003E3__badges;
 
-		[Token(Token = "0x4000D18")]
+		[Token(Token = "0x4000EB4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private IEnumerator<JSONNode> _003C_003E7__wrap1;
 
-		[Token(Token = "0x170001BE")]
+		[Token(Token = "0x170001FB")]
 		private string System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EString_003E_002ECurrent
 		{
-			[Token(Token = "0x6000F64")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Token(Token = "0x60011B2")]
+			[Address(RVA = "0x57D8A90", Offset = "0x57D7A90", VA = "0x57D8A90", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,11 +61,11 @@ internal sealed class AottgBadgeIconRowRuntime : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x170001BF")]
+		[Token(Token = "0x170001FC")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000F66")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Token(Token = "0x60011B4")]
+			[Address(RVA = "0x57D8AE0", Offset = "0x57D7AE0", VA = "0x57D8AE0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -73,50 +73,50 @@ internal sealed class AottgBadgeIconRowRuntime : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6000F60")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Token(Token = "0x60011AE")]
+		[Address(RVA = "0x57D84C0", Offset = "0x57D74C0", VA = "0x57D84C0")]
 		[DebuggerHidden]
 		public _003CBadgeIds_003Ed__27(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000F61")]
-		[Address(RVA = "0x1E0C010", Offset = "0x1E0A610", VA = "0x181E0C010", Slot = "7")]
+		[Token(Token = "0x60011AF")]
+		[Address(RVA = "0x57D8510", Offset = "0x57D7510", VA = "0x57D8510", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000F62")]
-		[Address(RVA = "0x1E0BCA0", Offset = "0x1E0A2A0", VA = "0x181E0BCA0", Slot = "8")]
+		[Token(Token = "0x60011B0")]
+		[Address(RVA = "0x57D85C0", Offset = "0x57D75C0", VA = "0x57D85C0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000F63")]
-		[Address(RVA = "0x1E0C0A0", Offset = "0x1E0A6A0", VA = "0x181E0C0A0")]
+		[Token(Token = "0x60011B1")]
+		[Address(RVA = "0x57D89F0", Offset = "0x57D79F0", VA = "0x57D89F0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000F65")]
-		[Address(RVA = "0x1E0BFD0", Offset = "0x1E0A5D0", VA = "0x181E0BFD0", Slot = "10")]
+		[Token(Token = "0x60011B3")]
+		[Address(RVA = "0x57D8AA0", Offset = "0x57D7AA0", VA = "0x57D8AA0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000F67")]
-		[Address(RVA = "0x1E0BF30", Offset = "0x1E0A530", VA = "0x181E0BF30", Slot = "4")]
+		[Token(Token = "0x60011B5")]
+		[Address(RVA = "0x57D8AF0", Offset = "0x57D7AF0", VA = "0x57D8AF0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<string> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EString_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000F68")]
-		[Address(RVA = "0x1E0BF30", Offset = "0x1E0A530", VA = "0x181E0BF30", Slot = "5")]
+		[Token(Token = "0x60011B6")]
+		[Address(RVA = "0x57D8B80", Offset = "0x57D7B80", VA = "0x57D8B80", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -124,159 +124,159 @@ internal sealed class AottgBadgeIconRowRuntime : MonoBehaviour
 		}
 	}
 
-	[Token(Token = "0x4000D0B")]
+	[Token(Token = "0x4000EA7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private float _size;
 
-	[Token(Token = "0x4000D0C")]
+	[Token(Token = "0x4000EA8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private GisketchUIState _state;
 
-	[Token(Token = "0x4000D0D")]
+	[Token(Token = "0x4000EA9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string _stateKey;
 
-	[Token(Token = "0x4000D0E")]
+	[Token(Token = "0x4000EAA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private string[] _last;
 
-	[Token(Token = "0x4000D0F")]
+	[Token(Token = "0x4000EAB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private bool _controlsActive;
 
-	[Token(Token = "0x4000D10")]
+	[Token(Token = "0x4000EAC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x41")]
 	private bool _setupComplete;
 
-	[Token(Token = "0x4000D11")]
+	[Token(Token = "0x4000EAD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x42")]
 	private bool _subscribed;
 
-	[Token(Token = "0x170001BD")]
+	[Token(Token = "0x170001FA")]
 	public bool HasBadges
 	{
-		[Token(Token = "0x6000F4C")]
-		[Address(RVA = "0x1AD8260", Offset = "0x1AD6860", VA = "0x181AD8260")]
+		[Token(Token = "0x600119A")]
+		[Address(RVA = "0x57D7560", Offset = "0x57D6560", VA = "0x57D7560")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000F4D")]
-		[Address(RVA = "0x1D26380", Offset = "0x1D24980", VA = "0x181D26380")]
+		[Token(Token = "0x600119B")]
+		[Address(RVA = "0x57D7570", Offset = "0x57D6570", VA = "0x57D7570")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000F4E")]
-	[Address(RVA = "0x1DF0D10", Offset = "0x1DEF310", VA = "0x181DF0D10")]
+	[Token(Token = "0x600119C")]
+	[Address(RVA = "0x57D72F0", Offset = "0x57D62F0", VA = "0x57D72F0")]
 	public void Setup(float size, float gap, [Optional] GisketchUIState state, [Optional] string stateKey, bool controlsActive = true)
 	{
 	}
 
-	[Token(Token = "0x6000F4F")]
-	[Address(RVA = "0x1DF0AB0", Offset = "0x1DEF0B0", VA = "0x181DF0AB0")]
+	[Token(Token = "0x600119D")]
+	[Address(RVA = "0x57D76E0", Offset = "0x57D66E0", VA = "0x57D76E0")]
 	public void SetBadges(IEnumerable<string> ids)
 	{
 	}
 
-	[Token(Token = "0x6000F50")]
-	[Address(RVA = "0x1DF0C60", Offset = "0x1DEF260", VA = "0x181DF0C60")]
+	[Token(Token = "0x600119E")]
+	[Address(RVA = "0x57D79B0", Offset = "0x57D69B0", VA = "0x57D79B0")]
 	public void SetFromCharacterInfo(JSONNode info)
 	{
 	}
 
-	[Token(Token = "0x6000F51")]
-	[Address(RVA = "0x1DF0B80", Offset = "0x1DEF180", VA = "0x181DF0B80")]
+	[Token(Token = "0x600119F")]
+	[Address(RVA = "0x57D7B20", Offset = "0x57D6B20", VA = "0x57D7B20")]
 	public void SetFromCharacterInfoJson(string json, IEnumerable<string> roles)
 	{
 	}
 
-	[Token(Token = "0x6000F52")]
-	[Address(RVA = "0x1DF0960", Offset = "0x1DEEF60", VA = "0x181DF0960")]
+	[Token(Token = "0x60011A0")]
+	[Address(RVA = "0x57D7630", Offset = "0x57D6630", VA = "0x57D7630")]
 	public void Refresh()
 	{
 	}
 
-	[Token(Token = "0x6000F53")]
-	[Address(RVA = "0x1DF0590", Offset = "0x1DEEB90", VA = "0x181DF0590")]
+	[Token(Token = "0x60011A1")]
+	[Address(RVA = "0x57D7CE0", Offset = "0x57D6CE0", VA = "0x57D7CE0")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000F54")]
-	[Address(RVA = "0x1DF0580", Offset = "0x1DEEB80", VA = "0x181DF0580")]
+	[Token(Token = "0x60011A2")]
+	[Address(RVA = "0x57D7D00", Offset = "0x57D6D00", VA = "0x57D7D00")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000F55")]
-	[Address(RVA = "0x1DF0580", Offset = "0x1DEEB80", VA = "0x181DF0580")]
+	[Token(Token = "0x60011A3")]
+	[Address(RVA = "0x57D7E00", Offset = "0x57D6E00", VA = "0x57D7E00")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000F56")]
-	[Address(RVA = "0x1DF05B0", Offset = "0x1DEEBB0", VA = "0x181DF05B0")]
+	[Token(Token = "0x60011A4")]
+	[Address(RVA = "0x57D7E80", Offset = "0x57D6E80", VA = "0x57D7E80")]
 	private void OnStateChanged(string key)
 	{
 	}
 
-	[Token(Token = "0x6000F57")]
-	[Address(RVA = "0x1DF0680", Offset = "0x1DEEC80", VA = "0x181DF0680")]
+	[Token(Token = "0x60011A5")]
+	[Address(RVA = "0x57D7840", Offset = "0x57D6840", VA = "0x57D7840")]
 	private void Rebuild(string[] ids)
 	{
 	}
 
-	[Token(Token = "0x6000F58")]
-	[Address(RVA = "0x1DF0A20", Offset = "0x1DEF020", VA = "0x181DF0A20")]
+	[Token(Token = "0x60011A6")]
+	[Address(RVA = "0x57D77B0", Offset = "0x57D67B0", VA = "0x57D77B0")]
 	private void SetActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6000F59")]
-	[Address(RVA = "0x1DEFFB0", Offset = "0x1DEE5B0", VA = "0x181DEFFB0")]
+	[Token(Token = "0x60011A7")]
+	[Address(RVA = "0x57D80D0", Offset = "0x57D70D0", VA = "0x57D80D0")]
 	private void AddIcon(string id, Sprite sprite)
 	{
 	}
 
-	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x1DF0430", Offset = "0x1DEEA30", VA = "0x181DF0430")]
+	[Token(Token = "0x60011A8")]
+	[Address(RVA = "0x57D7F70", Offset = "0x57D6F70", VA = "0x57D7F70")]
 	private void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000F5B")]
-	[Address(RVA = "0x1DF0F80", Offset = "0x1DEF580", VA = "0x181DF0F80")]
+	[Token(Token = "0x60011A9")]
+	[Address(RVA = "0x57D7580", Offset = "0x57D6580", VA = "0x57D7580")]
 	private void Subscribe()
 	{
 	}
 
-	[Token(Token = "0x6000F5C")]
-	[Address(RVA = "0x1DF1040", Offset = "0x1DEF640", VA = "0x181DF1040")]
+	[Token(Token = "0x60011AA")]
+	[Address(RVA = "0x57D7D80", Offset = "0x57D6D80", VA = "0x57D7D80")]
 	private void Unsubscribe()
 	{
 	}
 
-	[Token(Token = "0x6000F5D")]
-	[Address(RVA = "0x1DF0650", Offset = "0x1DEEC50", VA = "0x181DF0650")]
+	[Token(Token = "0x60011AB")]
+	[Address(RVA = "0x57D7C40", Offset = "0x57D6C40", VA = "0x57D7C40")]
 	private static JSONNode Parse(string json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F5E")]
-	[Address(RVA = "0x1DF03B0", Offset = "0x1DEE9B0", VA = "0x181DF03B0")]
+	[Token(Token = "0x60011AC")]
+	[Address(RVA = "0x57D7AB0", Offset = "0x57D6AB0", VA = "0x57D7AB0")]
 	[IteratorStateMachine(typeof(_003CBadgeIds_003Ed__27))]
 	private static IEnumerable<string> BadgeIds(JSONNode badges)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F5F")]
-	[Address(RVA = "0x1DF10E0", Offset = "0x1DEF6E0", VA = "0x181DF10E0")]
+	[Token(Token = "0x60011AD")]
+	[Address(RVA = "0x57D84F0", Offset = "0x57D74F0", VA = "0x57D84F0")]
 	public AottgBadgeIconRowRuntime()
 	{
 	}

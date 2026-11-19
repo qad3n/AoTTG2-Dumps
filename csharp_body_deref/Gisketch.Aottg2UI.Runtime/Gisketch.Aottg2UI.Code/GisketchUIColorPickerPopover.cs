@@ -12,154 +12,154 @@ using UnityEngine.Events;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200009A")]
+[Token(Token = "0x20000A0")]
 internal sealed class GisketchUIColorPickerPopover : MonoBehaviour
 {
-	[Token(Token = "0x400033D")]
+	[Token(Token = "0x4000364")]
 	[FieldOffset(Offset = "0x20")]
 	private string _id;
 
-	[Token(Token = "0x400033E")]
+	[Token(Token = "0x4000365")]
 	[FieldOffset(Offset = "0x28")]
 	private bool _enableAlpha;
 
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x4000366")]
 	[FieldOffset(Offset = "0x30")]
 	private GameObject _source;
 
-	[Token(Token = "0x4000340")]
+	[Token(Token = "0x4000367")]
 	[FieldOffset(Offset = "0x38")]
 	private GisketchUIRoot _root;
 
-	[Token(Token = "0x4000341")]
+	[Token(Token = "0x4000368")]
 	[FieldOffset(Offset = "0x40")]
 	private GisketchUIColorPickerValue _value;
 
-	[Token(Token = "0x4000342")]
+	[Token(Token = "0x4000369")]
 	[FieldOffset(Offset = "0x50")]
 	private TMP_InputField _r;
 
-	[Token(Token = "0x4000343")]
+	[Token(Token = "0x400036A")]
 	[FieldOffset(Offset = "0x58")]
 	private TMP_InputField _g;
 
-	[Token(Token = "0x4000344")]
+	[Token(Token = "0x400036B")]
 	[FieldOffset(Offset = "0x60")]
 	private TMP_InputField _b;
 
-	[Token(Token = "0x4000345")]
+	[Token(Token = "0x400036C")]
 	[FieldOffset(Offset = "0x68")]
 	private TMP_InputField _hex;
 
-	[Token(Token = "0x4000346")]
+	[Token(Token = "0x400036D")]
 	[FieldOffset(Offset = "0x70")]
 	private GisketchUIColorPickerVisual _visual;
 
-	[Token(Token = "0x4000347")]
+	[Token(Token = "0x400036E")]
 	[FieldOffset(Offset = "0x78")]
 	private bool _syncing;
 
-	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x18EF1D0", Offset = "0x18ED7D0", VA = "0x1818EF1D0")]
+	[Token(Token = "0x60004E3")]
+	[Address(RVA = "0x5275760", Offset = "0x5274760", VA = "0x5275760")]
 	public void Setup(string id, GameObject source, GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x18EEB10", Offset = "0x18ED110", VA = "0x1818EEB10")]
+	[Token(Token = "0x60004E4")]
+	[Address(RVA = "0x52777B0", Offset = "0x52767B0", VA = "0x52777B0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x18EEE70", Offset = "0x18ED470", VA = "0x1818EEE70")]
+	[Token(Token = "0x60004E5")]
+	[Address(RVA = "0x52779B0", Offset = "0x52769B0", VA = "0x52779B0")]
 	private void OnVisualChanged(GisketchUIColorPickerValue value)
 	{
 	}
 
-	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x18EED70", Offset = "0x18ED370", VA = "0x1818EED70")]
+	[Token(Token = "0x60004E6")]
+	[Address(RVA = "0x5277A60", Offset = "0x5276A60", VA = "0x5277A60")]
 	private void OnRgbChanged(string _)
 	{
 	}
 
-	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x18EEC70", Offset = "0x18ED270", VA = "0x1818EEC70")]
+	[Token(Token = "0x60004E7")]
+	[Address(RVA = "0x5278030", Offset = "0x5277030", VA = "0x5278030")]
 	private void OnHexChanged(string text)
 	{
 	}
 
-	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x18EEF10", Offset = "0x18ED510", VA = "0x1818EEF10")]
+	[Token(Token = "0x60004E8")]
+	[Address(RVA = "0x52782E0", Offset = "0x52772E0", VA = "0x52782E0")]
 	private void Save()
 	{
 	}
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x18EEA80", Offset = "0x18ED080", VA = "0x1818EEA80")]
+	[Token(Token = "0x60004E9")]
+	[Address(RVA = "0x5278410", Offset = "0x5277410", VA = "0x5278410")]
 	private void Cancel()
 	{
 	}
 
-	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x18EF0D0", Offset = "0x18ED6D0", VA = "0x1818EF0D0")]
+	[Token(Token = "0x60004EA")]
+	[Address(RVA = "0x5277F30", Offset = "0x5276F30", VA = "0x5277F30")]
 	private void SetValue(GisketchUIColorPickerValue value, bool visual)
 	{
 	}
 
-	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x18EF840", Offset = "0x18EDE40", VA = "0x1818EF840")]
+	[Token(Token = "0x60004EB")]
+	[Address(RVA = "0x5277550", Offset = "0x5276550", VA = "0x5277550")]
 	private void SyncFields()
 	{
 	}
 
-	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x18EFBA0", Offset = "0x18EE1A0", VA = "0x1818EFBA0")]
+	[Token(Token = "0x60004EC")]
+	[Address(RVA = "0x5277B40", Offset = "0x5276B40", VA = "0x5277B40")]
 	private bool TryRgb(out byte r, out byte g, out byte b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004A0")]
-	[Address(RVA = "0x18F01B0", Offset = "0x18EE7B0", VA = "0x1818F01B0")]
+	[Token(Token = "0x60004ED")]
+	[Address(RVA = "0x52770A0", Offset = "0x52760A0", VA = "0x52770A0")]
 	private void WireRgbInput(TMP_InputField input)
 	{
 	}
 
-	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x18F0040", Offset = "0x18EE640", VA = "0x1818F0040")]
+	[Token(Token = "0x60004EE")]
+	[Address(RVA = "0x5277200", Offset = "0x5276200", VA = "0x5277200")]
 	private void WireHexInput(TMP_InputField input)
 	{
 	}
 
-	[Token(Token = "0x60004A2")]
-	[Address(RVA = "0x18EFF60", Offset = "0x18EE560", VA = "0x1818EFF60")]
+	[Token(Token = "0x60004EF")]
+	[Address(RVA = "0x5277360", Offset = "0x5276360", VA = "0x5277360")]
 	private void WireButton(string id, UnityAction action)
 	{
 	}
 
-	[Token(Token = "0x60004A3")]
-	[Address(RVA = "0x18EF040", Offset = "0x18ED640", VA = "0x1818EF040")]
+	[Token(Token = "0x60004F0")]
+	[Address(RVA = "0x5278490", Offset = "0x5277490", VA = "0x5278490")]
 	private static void SetText(TMP_InputField input, string value)
 	{
 	}
 
-	[Token(Token = "0x60004A4")]
-	[Address(RVA = "0x18EFEC0", Offset = "0x18EE4C0", VA = "0x1818EFEC0")]
+	[Token(Token = "0x60004F1")]
+	[Address(RVA = "0x52785D0", Offset = "0x52775D0", VA = "0x52785D0")]
 	private static char ValidateDigit(string text, int charIndex, char addedChar)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x18EFED0", Offset = "0x18EE4D0", VA = "0x1818EFED0")]
+	[Token(Token = "0x60004F2")]
+	[Address(RVA = "0x52785E0", Offset = "0x52775E0", VA = "0x52785E0")]
 	private static char ValidateHex(string text, int charIndex, char addedChar)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60004F3")]
+	[Address(RVA = "0x5278640", Offset = "0x5277640", VA = "0x5278640")]
 	public GisketchUIColorPickerPopover()
 	{
 	}

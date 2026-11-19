@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rigidbody2D
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,13 +23,13 @@ public sealed class Rigidbody2D : Component
 	public Vector2 position
 	{
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x2FDA830", Offset = "0x2FD8E30", VA = "0x182FDA830")]
+		[Address(RVA = "0x69C7BC0", Offset = "0x69C6BC0", VA = "0x69C7BC0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x2FDAB90", Offset = "0x2FD9190", VA = "0x182FDAB90")]
+		[Address(RVA = "0x69C7C90", Offset = "0x69C6C90", VA = "0x69C7C90")]
 		set
 		{
 		}
@@ -39,13 +39,13 @@ public sealed class Rigidbody2D : Component
 	public float rotation
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x2FDA900", Offset = "0x2FD8F00", VA = "0x182FDA900")]
+		[Address(RVA = "0x69C7D60", Offset = "0x69C6D60", VA = "0x69C7D60")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2FDAC70", Offset = "0x2FD9270", VA = "0x182FDAC70")]
+		[Address(RVA = "0x69C7E10", Offset = "0x69C6E10", VA = "0x69C7E10")]
 		set
 		{
 		}
@@ -55,13 +55,13 @@ public sealed class Rigidbody2D : Component
 	public Vector2 linearVelocity
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2FDA750", Offset = "0x2FD8D50", VA = "0x182FDA750")]
+		[Address(RVA = "0x69C7EF0", Offset = "0x69C6EF0", VA = "0x69C7EF0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x2FDAAB0", Offset = "0x2FD90B0", VA = "0x182FDAAB0")]
+		[Address(RVA = "0x69C7FC0", Offset = "0x69C6FC0", VA = "0x69C7FC0")]
 		set
 		{
 		}
@@ -71,80 +71,80 @@ public sealed class Rigidbody2D : Component
 	public float angularVelocity
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x2FDA680", Offset = "0x2FD8C80", VA = "0x182FDA680")]
+		[Address(RVA = "0x69C8090", Offset = "0x69C7090", VA = "0x69C8090")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x2FDA9D0", Offset = "0x2FD8FD0", VA = "0x182FDA9D0")]
+		[Address(RVA = "0x69C8140", Offset = "0x69C7140", VA = "0x69C8140")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2FDA5B0", Offset = "0x2FD8BB0", VA = "0x182FDA5B0")]
+	[Address(RVA = "0x69C8220", Offset = "0x69C7220", VA = "0x69C8220")]
 	[ExcludeFromDocs]
 	public void AddForce(Vector2 force)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x2FDA520", Offset = "0x2FD8B20", VA = "0x182FDA520")]
+	[Address(RVA = "0x69C82B0", Offset = "0x69C72B0", VA = "0x69C82B0")]
 	[UnityEngine.Bindings.NativeMethod("AddForce")]
 	private void AddForce_Internal(Vector2 force, [DefaultValue("ForceMode2D.Force")] ForceMode2D mode)
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x69C8380", Offset = "0x69C7380", VA = "0x69C8380")]
 	public Rigidbody2D()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x2FDA7E0", Offset = "0x2FD8DE0", VA = "0x182FDA7E0")]
+	[Address(RVA = "0x69C7C50", Offset = "0x69C6C50", VA = "0x69C7C50")]
 	private static extern void get_position_Injected(IntPtr _unity_self, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x2FDAB40", Offset = "0x2FD9140", VA = "0x182FDAB40")]
+	[Address(RVA = "0x69C7D20", Offset = "0x69C6D20", VA = "0x69C7D20")]
 	private static extern void set_position_Injected(IntPtr _unity_self, [In] ref Vector2 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2FDA8C0", Offset = "0x2FD8EC0", VA = "0x182FDA8C0")]
+	[Address(RVA = "0x69C7DE0", Offset = "0x69C6DE0", VA = "0x69C7DE0")]
 	private static extern float get_rotation_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x2FDAC20", Offset = "0x2FD9220", VA = "0x182FDAC20")]
+	[Address(RVA = "0x69C7EA0", Offset = "0x69C6EA0", VA = "0x69C7EA0")]
 	private static extern void set_rotation_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x2FDA700", Offset = "0x2FD8D00", VA = "0x182FDA700")]
+	[Address(RVA = "0x69C7F80", Offset = "0x69C6F80", VA = "0x69C7F80")]
 	private static extern void get_linearVelocity_Injected(IntPtr _unity_self, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2FDAA60", Offset = "0x2FD9060", VA = "0x182FDAA60")]
+	[Address(RVA = "0x69C8050", Offset = "0x69C7050", VA = "0x69C8050")]
 	private static extern void set_linearVelocity_Injected(IntPtr _unity_self, [In] ref Vector2 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2FDA640", Offset = "0x2FD8C40", VA = "0x182FDA640")]
+	[Address(RVA = "0x69C8110", Offset = "0x69C7110", VA = "0x69C8110")]
 	private static extern float get_angularVelocity_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2FDA980", Offset = "0x2FD8F80", VA = "0x182FDA980")]
+	[Address(RVA = "0x69C81D0", Offset = "0x69C71D0", VA = "0x69C81D0")]
 	private static extern void set_angularVelocity_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2FDA4C0", Offset = "0x2FD8AC0", VA = "0x182FDA4C0")]
+	[Address(RVA = "0x69C8340", Offset = "0x69C7340", VA = "0x69C8340")]
 	private static extern void AddForce_Internal_Injected(IntPtr _unity_self, [In] ref Vector2 force, [DefaultValue("ForceMode2D.Force")] ForceMode2D mode);
 }

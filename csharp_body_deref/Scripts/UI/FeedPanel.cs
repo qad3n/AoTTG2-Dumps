@@ -12,71 +12,71 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000792")]
+[Token(Token = "0x200083D")]
 internal class FeedPanel : BasePanel
 {
-	[Token(Token = "0x40025AA")]
+	[Token(Token = "0x400291B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private GameObject _panel;
 
-	[Token(Token = "0x40025AB")]
+	[Token(Token = "0x400291C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private List<GameObject> _lines;
 
-	[Token(Token = "0x40025AC")]
+	[Token(Token = "0x400291D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private Transform _horizontalLine;
 
-	[Token(Token = "0x17000D29")]
+	[Token(Token = "0x17000DA5")]
 	protected override string ThemePanel
 	{
-		[Token(Token = "0x6004962")]
-		[Address(RVA = "0x22458E0", Offset = "0x2243EE0", VA = "0x1822458E0", Slot = "4")]
+		[Token(Token = "0x6004E89")]
+		[Address(RVA = "0x5C21340", Offset = "0x5C20340", VA = "0x5C21340", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004963")]
-	[Address(RVA = "0x22453E0", Offset = "0x22439E0", VA = "0x1822453E0", Slot = "20")]
+	[Token(Token = "0x6004E8A")]
+	[Address(RVA = "0x5C21370", Offset = "0x5C20370", VA = "0x5C21370", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004964")]
-	[Address(RVA = "0x22456A0", Offset = "0x2243CA0", VA = "0x1822456A0")]
+	[Token(Token = "0x6004E8B")]
+	[Address(RVA = "0x5C21600", Offset = "0x5C20600", VA = "0x5C21600")]
 	public void Sync()
 	{
 	}
 
-	[Token(Token = "0x6004965")]
-	[Address(RVA = "0x2244D00", Offset = "0x2243300", VA = "0x182244D00")]
+	[Token(Token = "0x6004E8C")]
+	[Address(RVA = "0x5C219A0", Offset = "0x5C209A0", VA = "0x5C219A0")]
 	public void AddLine(string line)
 	{
 	}
 
-	[Token(Token = "0x6004966")]
-	[Address(RVA = "0x2244DD0", Offset = "0x22433D0", VA = "0x182244DD0")]
+	[Token(Token = "0x6004E8D")]
+	[Address(RVA = "0x5C217E0", Offset = "0x5C207E0", VA = "0x5C217E0")]
 	public void AddLines(List<string> lines)
 	{
 	}
 
-	[Token(Token = "0x6004967")]
-	[Address(RVA = "0x2244FA0", Offset = "0x22435A0", VA = "0x182244FA0")]
+	[Token(Token = "0x6004E8E")]
+	[Address(RVA = "0x5C21C60", Offset = "0x5C20C60", VA = "0x5C21C60")]
 	protected void ClearExcessLines()
 	{
 	}
 
-	[Token(Token = "0x6004968")]
-	[Address(RVA = "0x22451D0", Offset = "0x22437D0", VA = "0x1822451D0")]
+	[Token(Token = "0x6004E8F")]
+	[Address(RVA = "0x5C21A50", Offset = "0x5C20A50", VA = "0x5C21A50")]
 	protected GameObject CreateLine(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004969")]
-	[Address(RVA = "0x2245860", Offset = "0x2243E60", VA = "0x182245860")]
+	[Token(Token = "0x6004E90")]
+	[Address(RVA = "0x5C21E90", Offset = "0x5C20E90", VA = "0x5C21E90")]
 	public FeedPanel()
 	{
 	}

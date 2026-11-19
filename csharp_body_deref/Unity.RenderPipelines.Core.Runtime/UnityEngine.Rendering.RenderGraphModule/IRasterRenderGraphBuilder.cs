@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.IRasterRenderGraphBuilder
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,7 +16,7 @@ namespace UnityEngine.Rendering.RenderGraphModule;
 public interface IRasterRenderGraphBuilder : IRenderAttachmentRenderGraphBuilder, IBaseRenderGraphBuilder, IDisposable
 {
 	[Token(Token = "0x600110F")]
-	[Address(RVA = "0x2B6B020", Offset = "0x2B69620", VA = "0x182B6B020", Slot = "0")]
+	[Address(RVA = "0x6571EA0", Offset = "0x6570EA0", VA = "0x6571EA0", Slot = "0")]
 	void SetInputAttachment(TextureHandle tex, int index, AccessFlags flags = AccessFlags.Read)
 	{
 	}

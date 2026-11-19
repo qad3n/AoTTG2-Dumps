@@ -18,14 +18,14 @@ internal class NoThrowExpressionVisitor : ExpressionVisitor
 	internal static readonly object ErrorResult;
 
 	[Token(Token = "0x60005F7")]
-	[Address(RVA = "0x1C2B2F0", Offset = "0x1C298F0", VA = "0x181C2B2F0", Slot = "7")]
+	[Address(RVA = "0x55B0B10", Offset = "0x55AFB10", VA = "0x55B0B10", Slot = "7")]
 	protected override Expression VisitConditional(ConditionalExpression node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x55B0960", Offset = "0x55AF960", VA = "0x55B0960")]
 	public NoThrowExpressionVisitor()
 	{
 	}

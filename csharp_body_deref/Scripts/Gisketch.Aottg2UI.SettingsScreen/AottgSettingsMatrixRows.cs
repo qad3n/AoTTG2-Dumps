@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSettingsMatrixRows
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgSettingsMatrixRows.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,118 +12,118 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000189")]
+[Token(Token = "0x2000192")]
 internal sealed class AottgSettingsMatrixRows : AottgComponent, IAottgSettingsSearchable, IAottgSettingsStateSync, IAottgSettingsVirtualItemSource
 {
-	[Token(Token = "0x400089A")]
+	[Token(Token = "0x40008E7")]
 	internal const float ColumnGap = 72f;
 
-	[Token(Token = "0x400089B")]
+	[Token(Token = "0x40008E8")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x400089C")]
+	[Token(Token = "0x40008E9")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly AottgComponent[] _rows;
 
-	[Token(Token = "0x6000849")]
-	[Address(RVA = "0x238FF10", Offset = "0x238E510", VA = "0x18238FF10")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x5D472A0", Offset = "0x5D462A0", VA = "0x5D472A0")]
 	public AottgSettingsMatrixRows(string id, params AottgComponent[] rows)
 	{
 	}
 
-	[Token(Token = "0x600084A")]
-	[Address(RVA = "0x238F7D0", Offset = "0x238DDD0", VA = "0x18238F7D0", Slot = "4")]
+	[Token(Token = "0x60008C8")]
+	[Address(RVA = "0x5D47420", Offset = "0x5D46420", VA = "0x5D47420", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x600084B")]
-	[Address(RVA = "0x238F280", Offset = "0x238D880", VA = "0x18238F280", Slot = "5")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x5D475A0", Offset = "0x5D465A0", VA = "0x5D475A0", Slot = "5")]
 	public void ApplySearchContext(AottgSettingsSearchContext context)
 	{
 	}
 
-	[Token(Token = "0x600084C")]
-	[Address(RVA = "0x238FDF0", Offset = "0x238E3F0", VA = "0x18238FDF0", Slot = "6")]
+	[Token(Token = "0x60008CA")]
+	[Address(RVA = "0x5D476C0", Offset = "0x5D466C0", VA = "0x5D476C0", Slot = "6")]
 	public void SyncState(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x600084D")]
-	[Address(RVA = "0x238F030", Offset = "0x238D630", VA = "0x18238F030", Slot = "7")]
+	[Token(Token = "0x60008CB")]
+	[Address(RVA = "0x5D477C0", Offset = "0x5D467C0", VA = "0x5D477C0", Slot = "7")]
 	public void AddVirtualScrollItems(List<GisketchNodeDefinition> items, AottgUi owner, AottgSettingsSearchContext context)
 	{
 	}
 
-	[Token(Token = "0x600084E")]
-	[Address(RVA = "0x238F1E0", Offset = "0x238D7E0", VA = "0x18238F1E0")]
+	[Token(Token = "0x60008CC")]
+	[Address(RVA = "0x5D47320", Offset = "0x5D46320", VA = "0x5D47320")]
 	private void ApplyCompactLayout()
 	{
 	}
 
-	[Token(Token = "0x600084F")]
-	[Address(RVA = "0x238FD60", Offset = "0x238E360", VA = "0x18238FD60")]
+	[Token(Token = "0x60008CD")]
+	[Address(RVA = "0x5D47AB0", Offset = "0x5D46AB0", VA = "0x5D47AB0")]
 	private int RowsPerColumn()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000850")]
-	[Address(RVA = "0x238F490", Offset = "0x238DA90", VA = "0x18238F490")]
+	[Token(Token = "0x60008CE")]
+	[Address(RVA = "0x5D47AE0", Offset = "0x5D46AE0", VA = "0x5D47AE0")]
 	private void BuildPair(AottgUi ui, int index)
 	{
 	}
 
-	[Token(Token = "0x6000851")]
-	[Address(RVA = "0x238F350", Offset = "0x238D950", VA = "0x18238F350")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x5D47D40", Offset = "0x5D46D40", VA = "0x5D47D40")]
 	private void BuildCell(AottgUi pair, int index)
 	{
 	}
 
-	[Token(Token = "0x6000852")]
-	[Address(RVA = "0x238F700", Offset = "0x238DD00", VA = "0x18238F700")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x5D47FC0", Offset = "0x5D46FC0", VA = "0x5D47FC0")]
 	private void BuildSpacer(AottgUi pair, int index)
 	{
 	}
 
-	[Token(Token = "0x6000853")]
-	[Address(RVA = "0x238FBE0", Offset = "0x238E1E0", VA = "0x18238FBE0")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x5D47A50", Offset = "0x5D46A50", VA = "0x5D47A50")]
 	private string PairId(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000854")]
-	[Address(RVA = "0x238F970", Offset = "0x238DF70", VA = "0x18238F970")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x5D47EA0", Offset = "0x5D46EA0", VA = "0x5D47EA0")]
 	private string CellId(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000855")]
-	[Address(RVA = "0x238FD90", Offset = "0x238E390", VA = "0x18238FD90")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x5D48080", Offset = "0x5D47080", VA = "0x5D48080")]
 	private string SpacerId(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000856")]
-	[Address(RVA = "0x238FAE0", Offset = "0x238E0E0", VA = "0x18238FAE0")]
+	[Token(Token = "0x60008D4")]
+	[Address(RVA = "0x5D474D0", Offset = "0x5D464D0", VA = "0x5D474D0")]
 	private static GisketchLayoutDefinition MatrixLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000857")]
-	[Address(RVA = "0x238FC40", Offset = "0x238E240", VA = "0x18238FC40")]
+	[Token(Token = "0x60008D5")]
+	[Address(RVA = "0x5D47C60", Offset = "0x5D46C60", VA = "0x5D47C60")]
 	private static GisketchLayoutDefinition PairLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000858")]
-	[Address(RVA = "0x238F9D0", Offset = "0x238DFD0", VA = "0x18238F9D0")]
+	[Token(Token = "0x60008D6")]
+	[Address(RVA = "0x5D47F00", Offset = "0x5D46F00", VA = "0x5D47F00")]
 	private static GisketchLayoutDefinition CellLayout()
 	{
 		return null;

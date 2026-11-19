@@ -50,7 +50,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 		private object System_002EXml_002EIValidationEventHandling_002EEventHandler
 		{
 			[Token(Token = "0x6000627")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x60B6090", Offset = "0x60B5090", VA = "0x60B6090", Slot = "4")]
 			get
 			{
 				return null;
@@ -58,19 +58,19 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 		}
 
 		[Token(Token = "0x6000626")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x60B4AB0", Offset = "0x60B3AB0", VA = "0x60B4AB0")]
 		internal ValidationEventHandling(XmlValidatingReaderImpl reader)
 		{
 		}
 
 		[Token(Token = "0x6000628")]
-		[Address(RVA = "0x26F2EC0", Offset = "0x26F14C0", VA = "0x1826F2EC0", Slot = "5")]
+		[Address(RVA = "0x60B60A0", Offset = "0x60B50A0", VA = "0x60B60A0", Slot = "5")]
 		private void System_002EXml_002EIValidationEventHandling_002ESendEvent(Exception exception, XmlSeverityType severity)
 		{
 		}
 
 		[Token(Token = "0x6000629")]
-		[Address(RVA = "0x26F2E20", Offset = "0x26F1420", VA = "0x1826F2E20")]
+		[Address(RVA = "0x60B4AE0", Offset = "0x60B3AE0", VA = "0x60B4AE0")]
 		internal void AddHandler(ValidationEventHandler handler)
 		{
 		}
@@ -132,7 +132,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override XmlReaderSettings Settings
 	{
 		[Token(Token = "0x60005E9")]
-		[Address(RVA = "0x26FDD70", Offset = "0x26FC370", VA = "0x1826FDD70", Slot = "5")]
+		[Address(RVA = "0x60B4CF0", Offset = "0x60B3CF0", VA = "0x60B4CF0", Slot = "5")]
 		get
 		{
 			return null;
@@ -143,7 +143,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60005EA")]
-		[Address(RVA = "0x2547600", Offset = "0x2545C00", VA = "0x182547600", Slot = "6")]
+		[Address(RVA = "0x60B4DC0", Offset = "0x60B3DC0", VA = "0x60B4DC0", Slot = "6")]
 		get
 		{
 			return default(XmlNodeType);
@@ -154,7 +154,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string Name
 	{
 		[Token(Token = "0x60005EB")]
-		[Address(RVA = "0x1CA8960", Offset = "0x1CA6F60", VA = "0x181CA8960", Slot = "7")]
+		[Address(RVA = "0x60B4DF0", Offset = "0x60B3DF0", VA = "0x60B4DF0", Slot = "7")]
 		get
 		{
 			return null;
@@ -165,7 +165,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string LocalName
 	{
 		[Token(Token = "0x60005EC")]
-		[Address(RVA = "0x25475D0", Offset = "0x2545BD0", VA = "0x1825475D0", Slot = "8")]
+		[Address(RVA = "0x60B4E20", Offset = "0x60B3E20", VA = "0x60B4E20", Slot = "8")]
 		get
 		{
 			return null;
@@ -176,7 +176,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string NamespaceURI
 	{
 		[Token(Token = "0x60005ED")]
-		[Address(RVA = "0x1A1F330", Offset = "0x1A1D930", VA = "0x181A1F330", Slot = "9")]
+		[Address(RVA = "0x60B4E50", Offset = "0x60B3E50", VA = "0x60B4E50", Slot = "9")]
 		get
 		{
 			return null;
@@ -187,7 +187,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string Prefix
 	{
 		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x1A1F420", Offset = "0x1A1DA20", VA = "0x181A1F420", Slot = "10")]
+		[Address(RVA = "0x60B4E80", Offset = "0x60B3E80", VA = "0x60B4E80", Slot = "10")]
 		get
 		{
 			return null;
@@ -198,7 +198,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string Value
 	{
 		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x1A1F3F0", Offset = "0x1A1D9F0", VA = "0x181A1F3F0", Slot = "11")]
+		[Address(RVA = "0x60B4EB0", Offset = "0x60B3EB0", VA = "0x60B4EB0", Slot = "11")]
 		get
 		{
 			return null;
@@ -209,7 +209,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override int Depth
 	{
 		[Token(Token = "0x60005F0")]
-		[Address(RVA = "0x2547540", Offset = "0x2545B40", VA = "0x182547540", Slot = "12")]
+		[Address(RVA = "0x60B4EE0", Offset = "0x60B3EE0", VA = "0x60B4EE0", Slot = "12")]
 		get
 		{
 			return default(int);
@@ -220,7 +220,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string BaseURI
 	{
 		[Token(Token = "0x60005F1")]
-		[Address(RVA = "0x25474E0", Offset = "0x2545AE0", VA = "0x1825474E0", Slot = "13")]
+		[Address(RVA = "0x60B4F10", Offset = "0x60B3F10", VA = "0x60B4F10", Slot = "13")]
 		get
 		{
 			return null;
@@ -231,7 +231,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override bool IsEmptyElement
 	{
 		[Token(Token = "0x60005F2")]
-		[Address(RVA = "0x25475A0", Offset = "0x2545BA0", VA = "0x1825475A0", Slot = "14")]
+		[Address(RVA = "0x60B4F40", Offset = "0x60B3F40", VA = "0x60B4F40", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -242,7 +242,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override bool IsDefault
 	{
 		[Token(Token = "0x60005F3")]
-		[Address(RVA = "0x1A1F3C0", Offset = "0x1A1D9C0", VA = "0x181A1F3C0", Slot = "15")]
+		[Address(RVA = "0x60B4F70", Offset = "0x60B3F70", VA = "0x60B4F70", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -253,7 +253,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override char QuoteChar
 	{
 		[Token(Token = "0x60005F4")]
-		[Address(RVA = "0x1A1F300", Offset = "0x1A1D900", VA = "0x181A1F300", Slot = "16")]
+		[Address(RVA = "0x60B4FA0", Offset = "0x60B3FA0", VA = "0x60B4FA0", Slot = "16")]
 		get
 		{
 			return default(char);
@@ -264,7 +264,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override XmlSpace XmlSpace
 	{
 		[Token(Token = "0x60005F5")]
-		[Address(RVA = "0x1A1F390", Offset = "0x1A1D990", VA = "0x181A1F390", Slot = "17")]
+		[Address(RVA = "0x60B4FD0", Offset = "0x60B3FD0", VA = "0x60B4FD0", Slot = "17")]
 		get
 		{
 			return default(XmlSpace);
@@ -275,7 +275,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override string XmlLang
 	{
 		[Token(Token = "0x60005F6")]
-		[Address(RVA = "0x2547660", Offset = "0x2545C60", VA = "0x182547660", Slot = "18")]
+		[Address(RVA = "0x60B5000", Offset = "0x60B4000", VA = "0x60B5000", Slot = "18")]
 		get
 		{
 			return null;
@@ -286,7 +286,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override ReadState ReadState
 	{
 		[Token(Token = "0x60005F7")]
-		[Address(RVA = "0x26FDD30", Offset = "0x26FC330", VA = "0x1826FDD30", Slot = "34")]
+		[Address(RVA = "0x60B5030", Offset = "0x60B4030", VA = "0x60B5030", Slot = "34")]
 		get
 		{
 			return default(ReadState);
@@ -297,7 +297,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override bool EOF
 	{
 		[Token(Token = "0x60005F8")]
-		[Address(RVA = "0x2547570", Offset = "0x2545B70", VA = "0x182547570", Slot = "32")]
+		[Address(RVA = "0x60B5060", Offset = "0x60B4060", VA = "0x60B5060", Slot = "32")]
 		get
 		{
 			return default(bool);
@@ -308,7 +308,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override XmlNameTable NameTable
 	{
 		[Token(Token = "0x60005F9")]
-		[Address(RVA = "0x1CBA960", Offset = "0x1CB8F60", VA = "0x181CBA960", Slot = "36")]
+		[Address(RVA = "0x60B5090", Offset = "0x60B4090", VA = "0x60B5090", Slot = "36")]
 		get
 		{
 			return null;
@@ -319,7 +319,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override int AttributeCount
 	{
 		[Token(Token = "0x60005FA")]
-		[Address(RVA = "0x25474B0", Offset = "0x2545AB0", VA = "0x1825474B0", Slot = "21")]
+		[Address(RVA = "0x60B50C0", Offset = "0x60B40C0", VA = "0x60B50C0", Slot = "21")]
 		get
 		{
 			return default(int);
@@ -330,7 +330,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public override bool CanResolveEntity
 	{
 		[Token(Token = "0x6000607")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "38")]
+		[Address(RVA = "0x60B57E0", Offset = "0x60B47E0", VA = "0x60B57E0", Slot = "38")]
 		get
 		{
 			return default(bool);
@@ -341,7 +341,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public int LineNumber
 	{
 		[Token(Token = "0x600060C")]
-		[Address(RVA = "0x26FDBA0", Offset = "0x26FC1A0", VA = "0x1826FDBA0", Slot = "54")]
+		[Address(RVA = "0x60B5900", Offset = "0x60B4900", VA = "0x60B5900", Slot = "54")]
 		get
 		{
 			return default(int);
@@ -352,7 +352,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	public int LinePosition
 	{
 		[Token(Token = "0x600060D")]
-		[Address(RVA = "0x26FDC40", Offset = "0x26FC240", VA = "0x1826FDC40", Slot = "55")]
+		[Address(RVA = "0x60B59F0", Offset = "0x60B49F0", VA = "0x60B59F0", Slot = "55")]
 		get
 		{
 			return default(int);
@@ -363,7 +363,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal ValidationType ValidationType
 	{
 		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x60B5DC0", Offset = "0x60B4DC0", VA = "0x60B5DC0")]
 		get
 		{
 			return default(ValidationType);
@@ -374,7 +374,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal XmlSchemaCollection Schemas
 	{
 		[Token(Token = "0x6000614")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x60B5DD0", Offset = "0x60B4DD0", VA = "0x60B5DD0")]
 		get
 		{
 			return null;
@@ -385,7 +385,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal bool Namespaces
 	{
 		[Token(Token = "0x6000615")]
-		[Address(RVA = "0x26FDD10", Offset = "0x26FC310", VA = "0x1826FDD10")]
+		[Address(RVA = "0x60B4520", Offset = "0x60B3520", VA = "0x60B4520")]
 		get
 		{
 			return default(bool);
@@ -396,13 +396,13 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal BaseValidator Validator
 	{
 		[Token(Token = "0x600061C")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x60B5E50", Offset = "0x60B4E50", VA = "0x60B5E50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600061D")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x60B5E60", Offset = "0x60B4E60", VA = "0x60B5E60")]
 		set
 		{
 		}
@@ -412,7 +412,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal override XmlNamespaceManager NamespaceManager
 	{
 		[Token(Token = "0x600061E")]
-		[Address(RVA = "0x26FDCE0", Offset = "0x26FC2E0", VA = "0x1826FDCE0", Slot = "51")]
+		[Address(RVA = "0x60B5E70", Offset = "0x60B4E70", VA = "0x60B5E70", Slot = "51")]
 		get
 		{
 			return null;
@@ -423,7 +423,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal bool StandAlone
 	{
 		[Token(Token = "0x600061F")]
-		[Address(RVA = "0x26FDE40", Offset = "0x26FC440", VA = "0x1826FDE40")]
+		[Address(RVA = "0x60B5EA0", Offset = "0x60B4EA0", VA = "0x60B5EA0")]
 		get
 		{
 			return default(bool);
@@ -434,7 +434,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal object SchemaTypeObject
 	{
 		[Token(Token = "0x6000620")]
-		[Address(RVA = "0x26FDE80", Offset = "0x26FC480", VA = "0x1826FDE80")]
+		[Address(RVA = "0x60B5EC0", Offset = "0x60B4EC0", VA = "0x60B5EC0")]
 		set
 		{
 		}
@@ -444,13 +444,13 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal object TypedValueObject
 	{
 		[Token(Token = "0x6000621")]
-		[Address(RVA = "0x26FDE60", Offset = "0x26FC460", VA = "0x1826FDE60")]
+		[Address(RVA = "0x60B5EE0", Offset = "0x60B4EE0", VA = "0x60B5EE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000622")]
-		[Address(RVA = "0x26FDEA0", Offset = "0x26FC4A0", VA = "0x1826FDEA0")]
+		[Address(RVA = "0x60B5F00", Offset = "0x60B4F00", VA = "0x60B5F00")]
 		set
 		{
 		}
@@ -460,7 +460,7 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	internal override IDtdInfo DtdInfo
 	{
 		[Token(Token = "0x6000624")]
-		[Address(RVA = "0x26FDB70", Offset = "0x26FC170", VA = "0x1826FDB70", Slot = "52")]
+		[Address(RVA = "0x60B5F40", Offset = "0x60B4F40", VA = "0x60B5F40", Slot = "52")]
 		get
 		{
 			return null;
@@ -468,200 +468,200 @@ internal sealed class XmlValidatingReaderImpl : XmlReader, IXmlLineInfo, IXmlNam
 	}
 
 	[Token(Token = "0x60005E8")]
-	[Address(RVA = "0x26FD620", Offset = "0x26FBC20", VA = "0x1826FD620")]
+	[Address(RVA = "0x60B4540", Offset = "0x60B3540", VA = "0x60B4540")]
 	internal XmlValidatingReaderImpl(XmlReader reader, ValidationEventHandler settingsEventHandler, bool processIdentityConstraints)
 	{
 	}
 
 	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x24447C0", Offset = "0x2442DC0", VA = "0x1824447C0", Slot = "22")]
+	[Address(RVA = "0x60B50F0", Offset = "0x60B40F0", VA = "0x60B50F0", Slot = "22")]
 	public override string GetAttribute(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x25472F0", Offset = "0x25458F0", VA = "0x1825472F0", Slot = "23")]
+	[Address(RVA = "0x60B5120", Offset = "0x60B4120", VA = "0x60B5120", Slot = "23")]
 	public override string GetAttribute(string localName, string namespaceURI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x2547320", Offset = "0x2545920", VA = "0x182547320", Slot = "24")]
+	[Address(RVA = "0x60B5150", Offset = "0x60B4150", VA = "0x60B5150", Slot = "24")]
 	public override string GetAttribute(int i)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x26FC9F0", Offset = "0x26FAFF0", VA = "0x1826FC9F0", Slot = "25")]
+	[Address(RVA = "0x60B5180", Offset = "0x60B4180", VA = "0x60B5180", Slot = "25")]
 	public override bool MoveToAttribute(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x26FC9B0", Offset = "0x26FAFB0", VA = "0x1826FC9B0", Slot = "26")]
+	[Address(RVA = "0x60B51B0", Offset = "0x60B41B0", VA = "0x60B51B0", Slot = "26")]
 	public override void MoveToAttribute(int i)
 	{
 	}
 
 	[Token(Token = "0x6000600")]
-	[Address(RVA = "0x26FCA90", Offset = "0x26FB090", VA = "0x1826FCA90", Slot = "27")]
+	[Address(RVA = "0x60B51E0", Offset = "0x60B41E0", VA = "0x60B51E0", Slot = "27")]
 	public override bool MoveToFirstAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x26FCAE0", Offset = "0x26FB0E0", VA = "0x1826FCAE0", Slot = "28")]
+	[Address(RVA = "0x60B5210", Offset = "0x60B4210", VA = "0x60B5210", Slot = "28")]
 	public override bool MoveToNextAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x26FCA40", Offset = "0x26FB040", VA = "0x1826FCA40", Slot = "29")]
+	[Address(RVA = "0x60B5240", Offset = "0x60B4240", VA = "0x60B5240", Slot = "29")]
 	public override bool MoveToElement()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x26FCF20", Offset = "0x26FB520", VA = "0x1826FCF20", Slot = "31")]
+	[Address(RVA = "0x60B5270", Offset = "0x60B4270", VA = "0x60B5270", Slot = "31")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x26FC660", Offset = "0x26FAC60", VA = "0x1826FC660", Slot = "33")]
+	[Address(RVA = "0x60B5730", Offset = "0x60B4730", VA = "0x60B5730", Slot = "33")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x26FC860", Offset = "0x26FAE60", VA = "0x1826FC860", Slot = "37")]
+	[Address(RVA = "0x60B5760", Offset = "0x60B4760", VA = "0x60B5760", Slot = "37")]
 	public override string LookupNamespace(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x26FCE00", Offset = "0x26FB400", VA = "0x1826FCE00", Slot = "30")]
+	[Address(RVA = "0x60B5790", Offset = "0x60B4790", VA = "0x60B5790", Slot = "30")]
 	public override bool ReadAttributeValue()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000608")]
-	[Address(RVA = "0x26FD2B0", Offset = "0x26FB8B0", VA = "0x1826FD2B0", Slot = "39")]
+	[Address(RVA = "0x60B57F0", Offset = "0x60B47F0", VA = "0x60B57F0", Slot = "39")]
 	public override void ResolveEntity()
 	{
 	}
 
 	[Token(Token = "0x6000609")]
-	[Address(RVA = "0x26FC8F0", Offset = "0x26FAEF0", VA = "0x1826FC8F0")]
+	[Address(RVA = "0x60B5820", Offset = "0x60B4820", VA = "0x60B5820")]
 	internal void MoveOffEntityReference()
 	{
 	}
 
 	[Token(Token = "0x600060A")]
-	[Address(RVA = "0x26FCE60", Offset = "0x26FB460", VA = "0x1826FCE60", Slot = "42")]
+	[Address(RVA = "0x60B58D0", Offset = "0x60B48D0", VA = "0x60B58D0", Slot = "42")]
 	public override string ReadString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600060B")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
+	[Address(RVA = "0x60B58F0", Offset = "0x60B48F0", VA = "0x60B58F0", Slot = "53")]
 	public bool HasLineInfo()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x26FC6A0", Offset = "0x26FACA0", VA = "0x1826FC6A0", Slot = "56")]
+	[Address(RVA = "0x60B5AE0", Offset = "0x60B4AE0", VA = "0x60B5AE0", Slot = "56")]
 	private IDictionary<string, string> System_002EXml_002EIXmlNamespaceResolver_002EGetNamespacesInScope(XmlNamespaceScope scope)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600060F")]
-	[Address(RVA = "0x24B4C60", Offset = "0x24B3260", VA = "0x1824B4C60", Slot = "57")]
+	[Address(RVA = "0x60B5C40", Offset = "0x60B4C40", VA = "0x60B5C40", Slot = "57")]
 	private string System_002EXml_002EIXmlNamespaceResolver_002ELookupNamespace(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000610")]
-	[Address(RVA = "0x26FC890", Offset = "0x26FAE90", VA = "0x1826FC890", Slot = "58")]
+	[Address(RVA = "0x60B5C60", Offset = "0x60B4C60", VA = "0x60B5C60", Slot = "58")]
 	private string System_002EXml_002EIXmlNamespaceResolver_002ELookupPrefix(string namespaceName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x26FC6A0", Offset = "0x26FACA0", VA = "0x1826FC6A0")]
+	[Address(RVA = "0x60B5B90", Offset = "0x60B4B90", VA = "0x60B5B90")]
 	internal IDictionary<string, string> GetNamespacesInScope(XmlNamespaceScope scope)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x26FC890", Offset = "0x26FAE90", VA = "0x1826FC890")]
+	[Address(RVA = "0x60B5D10", Offset = "0x60B4D10", VA = "0x60B5D10")]
 	internal string LookupPrefix(string namespaceName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x26FCB30", Offset = "0x26FB130", VA = "0x1826FCB30")]
+	[Address(RVA = "0x60B54B0", Offset = "0x60B44B0", VA = "0x60B54B0")]
 	private void ParseDtdFromParserContext()
 	{
 	}
 
 	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x26FD5A0", Offset = "0x26FBBA0", VA = "0x1826FD5A0")]
+	[Address(RVA = "0x60B5DE0", Offset = "0x60B4DE0", VA = "0x60B5DE0")]
 	private void ValidateDtd()
 	{
 	}
 
 	[Token(Token = "0x6000618")]
-	[Address(RVA = "0x26FD220", Offset = "0x26FB820", VA = "0x1826FD220")]
+	[Address(RVA = "0x60B56A0", Offset = "0x60B46A0", VA = "0x60B56A0")]
 	private void ResolveEntityInternally()
 	{
 	}
 
 	[Token(Token = "0x6000619")]
-	[Address(RVA = "0x26FD2F0", Offset = "0x26FB8F0", VA = "0x1826FD2F0")]
+	[Address(RVA = "0x60B4B60", Offset = "0x60B3B60", VA = "0x60B4B60")]
 	private void SetupValidation(ValidationType valType)
 	{
 	}
 
 	[Token(Token = "0x600061A")]
-	[Address(RVA = "0x26FC760", Offset = "0x26FAD60", VA = "0x1826FC760")]
+	[Address(RVA = "0x60B49C0", Offset = "0x60B39C0", VA = "0x60B49C0")]
 	private XmlResolver GetResolver()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600061B")]
-	[Address(RVA = "0x26FCCF0", Offset = "0x26FB2F0", VA = "0x1826FCCF0")]
+	[Address(RVA = "0x60B5340", Offset = "0x60B4340", VA = "0x60B5340")]
 	private void ProcessCoreReaderEvent()
 	{
 	}
 
 	[Token(Token = "0x6000623")]
-	[Address(RVA = "0x26FC640", Offset = "0x26FAC40", VA = "0x1826FC640")]
+	[Address(RVA = "0x60B5F20", Offset = "0x60B4F20", VA = "0x60B5F20")]
 	internal bool AddDefaultAttribute(SchemaAttDef attdef)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000625")]
-	[Address(RVA = "0x26FD470", Offset = "0x26FBA70", VA = "0x1826FD470")]
+	[Address(RVA = "0x60B5F70", Offset = "0x60B4F70", VA = "0x60B5F70")]
 	internal void ValidateDefaultAttributeOnUse(IDtdDefaultAttributeInfo defaultAttribute, XmlTextReaderImpl coreReader)
 	{
 	}

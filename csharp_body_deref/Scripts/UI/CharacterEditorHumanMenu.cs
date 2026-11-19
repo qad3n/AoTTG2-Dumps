@@ -10,98 +10,98 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000714")]
+[Token(Token = "0x20007BE")]
 internal class CharacterEditorHumanMenu : CharacterEditorMenu
 {
-	[Token(Token = "0x400236E")]
+	[Token(Token = "0x40026EE")]
 	[FieldOffset(Offset = "0xA0")]
 	public CharacterEditorCostumePanel _costumePanel;
 
-	[Token(Token = "0x400236F")]
+	[Token(Token = "0x40026EF")]
 	[FieldOffset(Offset = "0xA8")]
 	private CharacterEditorStatsPanel _statsPanel;
 
-	[Token(Token = "0x4002370")]
+	[Token(Token = "0x40026F0")]
 	[FieldOffset(Offset = "0xB0")]
 	private CharacterEditorSkinsPanel _skinsPanel;
 
-	[Token(Token = "0x4002371")]
+	[Token(Token = "0x40026F1")]
 	[FieldOffset(Offset = "0xB8")]
 	private CharacterEditorHumanCategoryPanel _categoryPanel;
 
-	[Token(Token = "0x4002372")]
+	[Token(Token = "0x40026F2")]
 	[FieldOffset(Offset = "0xC0")]
 	public CharacterEditorEditStatsPopup _editStatsPopup;
 
-	[Token(Token = "0x4002373")]
+	[Token(Token = "0x40026F3")]
 	[FieldOffset(Offset = "0xC8")]
 	public CharacterEditorEditPerksPopup _editPerksPopup;
 
-	[Token(Token = "0x4002374")]
+	[Token(Token = "0x40026F4")]
 	[FieldOffset(Offset = "0xD0")]
 	public PresetSkinEditPopup _editPresetSkinPopup;
 
-	[Token(Token = "0x4002375")]
+	[Token(Token = "0x40026F5")]
 	[FieldOffset(Offset = "0xD8")]
 	public GlobalSkinEditPopup _editGlobalSkinPopup;
 
-	[Token(Token = "0x4002376")]
+	[Token(Token = "0x40026F6")]
 	[FieldOffset(Offset = "0xE0")]
 	public IntSetting Weapon;
 
-	[Token(Token = "0x6004580")]
-	[Address(RVA = "0x21DA5D0", Offset = "0x21D8BD0", VA = "0x1821DA5D0", Slot = "4")]
+	[Token(Token = "0x6004AAC")]
+	[Address(RVA = "0x5BD4F20", Offset = "0x5BD3F20", VA = "0x5BD4F20", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x6004581")]
-	[Address(RVA = "0x21DA4B0", Offset = "0x21D8AB0", VA = "0x1821DA4B0", Slot = "5")]
+	[Token(Token = "0x6004AAD")]
+	[Address(RVA = "0x5BD5030", Offset = "0x5BD4030", VA = "0x5BD5030", Slot = "5")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x6004582")]
-	[Address(RVA = "0x21D9C60", Offset = "0x21D8260", VA = "0x1821D9C60", Slot = "7")]
+	[Token(Token = "0x6004AAE")]
+	[Address(RVA = "0x5BD5160", Offset = "0x5BD4160", VA = "0x5BD5160", Slot = "8")]
 	public override bool IsPopupActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004583")]
-	[Address(RVA = "0x21D9CF0", Offset = "0x21D82F0", VA = "0x1821D9CF0", Slot = "8")]
+	[Token(Token = "0x6004AAF")]
+	[Address(RVA = "0x5BD5230", Offset = "0x5BD4230", VA = "0x5BD5230", Slot = "9")]
 	public override void RebuildPanels(bool costumePopup)
 	{
 	}
 
-	[Token(Token = "0x6004584")]
-	[Address(RVA = "0x21DA330", Offset = "0x21D8930", VA = "0x1821DA330", Slot = "9")]
+	[Token(Token = "0x6004AB0")]
+	[Address(RVA = "0x5BD5820", Offset = "0x5BD4820", VA = "0x5BD5820", Slot = "10")]
 	public override void ResetCharacter(bool fullReset = false)
 	{
 	}
 
-	[Token(Token = "0x6004585")]
-	[Address(RVA = "0x21DA1B0", Offset = "0x21D87B0", VA = "0x1821DA1B0")]
+	[Token(Token = "0x6004AB1")]
+	[Address(RVA = "0x5BD5980", Offset = "0x5BD4980", VA = "0x5BD5980")]
 	public void ResetCharacterWithSkins(bool fullReset)
 	{
 	}
 
-	[Token(Token = "0x6004586")]
-	[Address(RVA = "0x21D9C30", Offset = "0x21D8230", VA = "0x1821D9C30", Slot = "10")]
+	[Token(Token = "0x6004AB2")]
+	[Address(RVA = "0x5BD5AD0", Offset = "0x5BD4AD0", VA = "0x5BD5AD0", Slot = "11")]
 	public override float GetMinMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004587")]
-	[Address(RVA = "0x21D9BD0", Offset = "0x21D81D0", VA = "0x1821D9BD0", Slot = "11")]
+	[Token(Token = "0x6004AB3")]
+	[Address(RVA = "0x5BD5B00", Offset = "0x5BD4B00", VA = "0x5BD5B00", Slot = "12")]
 	public override float GetMaxMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004588")]
-	[Address(RVA = "0x21DA5E0", Offset = "0x21D8BE0", VA = "0x1821DA5E0")]
+	[Token(Token = "0x6004AB4")]
+	[Address(RVA = "0x5BD5B50", Offset = "0x5BD4B50", VA = "0x5BD5B50")]
 	public CharacterEditorHumanMenu()
 	{
 	}

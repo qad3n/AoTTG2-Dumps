@@ -33,7 +33,7 @@ internal static class RuntimeHelpersAbstraction
 	}
 
 	[Token(Token = "0x6000CF1")]
-	[Address(RVA = "0x2944520", Offset = "0x2942B20", VA = "0x182944520")]
+	[Address(RVA = "0x630A430", Offset = "0x6309430", VA = "0x630A430")]
 	private static bool WellKnownNoReferenceContainsTypeInitialize(Type t)
 	{
 		return default(bool);

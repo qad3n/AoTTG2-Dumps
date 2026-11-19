@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000BA")]
+[Token(Token = "0x200007B")]
 internal static class IriHelper
 {
-	[Token(Token = "0x600037B")]
-	[Address(RVA = "0x28312F0", Offset = "0x282F8F0", VA = "0x1828312F0")]
+	[Token(Token = "0x60001C7")]
+	[Address(RVA = "0x61D5490", Offset = "0x61D4490", VA = "0x61D5490")]
 	internal static bool CheckIriUnicodeRange(char unicode, bool isQuery)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x2830DA0", Offset = "0x282F3A0", VA = "0x182830DA0")]
+	[Token(Token = "0x60001C8")]
+	[Address(RVA = "0x61D54E0", Offset = "0x61D44E0", VA = "0x61D54E0")]
 	internal static bool CheckIriUnicodeRange(char highSurr, char lowSurr, ref bool surrogatePair, bool isQuery)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x2831360", Offset = "0x282F960", VA = "0x182831360")]
+	[Token(Token = "0x60001C9")]
+	[Address(RVA = "0x61D5A80", Offset = "0x61D4A80", VA = "0x61D5A80")]
 	internal static bool CheckIsReserved(char ch, UriComponents component)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x2831470", Offset = "0x282FA70", VA = "0x182831470")]
+	[Token(Token = "0x60001CA")]
+	[Address(RVA = "0x61D5BA0", Offset = "0x61D4BA0", VA = "0x61D5BA0")]
 	internal unsafe static string EscapeUnescapeIri(char* pInput, int start, int end, UriComponents component)
 	{
 		return null;

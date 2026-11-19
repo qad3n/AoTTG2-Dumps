@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.URPReflectionProbeSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ public class URPReflectionProbeSettings : IRenderPipelineGraphicsSettings
 	private int UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002Eversion
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x65F6D50", Offset = "0x65F5D50", VA = "0x65F6D50", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -45,7 +45,7 @@ public class URPReflectionProbeSettings : IRenderPipelineGraphicsSettings
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x65F6D60", Offset = "0x65F5D60", VA = "0x65F6D60", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -56,7 +56,7 @@ public class URPReflectionProbeSettings : IRenderPipelineGraphicsSettings
 	public bool UseReflectionProbeRotation
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x65F6D70", Offset = "0x65F5D70", VA = "0x65F6D70")]
 		get
 		{
 			return default(bool);
@@ -64,7 +64,7 @@ public class URPReflectionProbeSettings : IRenderPipelineGraphicsSettings
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2C0FFD0", Offset = "0x2C0E5D0", VA = "0x182C0FFD0")]
+	[Address(RVA = "0x65F6D80", Offset = "0x65F5D80", VA = "0x65F6D80")]
 	public URPReflectionProbeSettings()
 	{
 	}

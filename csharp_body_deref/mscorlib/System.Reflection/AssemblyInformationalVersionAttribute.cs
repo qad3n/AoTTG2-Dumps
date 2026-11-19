@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F9")]
+[Token(Token = "0x20004D2")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyInformationalVersionAttribute : Attribute
 {
-	[Token(Token = "0x40013AE")]
+	[Token(Token = "0x400130E")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CInformationalVersion_003Ek__BackingField;
 
-	[Token(Token = "0x6002459")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002427")]
+	[Address(RVA = "0x53D7860", Offset = "0x53D6860", VA = "0x53D7860")]
 	public AssemblyInformationalVersionAttribute(string informationalVersion)
 	{
 	}

@@ -12,59 +12,59 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x200010F")]
+[Token(Token = "0x20000D0")]
 internal class AsyncStreamReader
 {
-	[Token(Token = "0x400047F")]
+	[Token(Token = "0x40003B0")]
 	[FieldOffset(Offset = "0x10")]
 	private Stream stream;
 
-	[Token(Token = "0x4000480")]
+	[Token(Token = "0x40003B1")]
 	[FieldOffset(Offset = "0x18")]
 	private Encoding encoding;
 
-	[Token(Token = "0x4000481")]
+	[Token(Token = "0x40003B2")]
 	[FieldOffset(Offset = "0x20")]
 	private Decoder decoder;
 
-	[Token(Token = "0x4000482")]
+	[Token(Token = "0x40003B3")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] byteBuffer;
 
-	[Token(Token = "0x4000483")]
+	[Token(Token = "0x40003B4")]
 	[FieldOffset(Offset = "0x30")]
 	private char[] charBuffer;
 
-	[Token(Token = "0x4000484")]
+	[Token(Token = "0x40003B5")]
 	[FieldOffset(Offset = "0x38")]
 	private bool cancelOperation;
 
-	[Token(Token = "0x4000485")]
+	[Token(Token = "0x40003B6")]
 	[FieldOffset(Offset = "0x40")]
 	private ManualResetEvent eofEvent;
 
-	[Token(Token = "0x4000486")]
+	[Token(Token = "0x40003B7")]
 	[FieldOffset(Offset = "0x48")]
 	private object syncObject;
 
-	[Token(Token = "0x4000487")]
+	[Token(Token = "0x40003B8")]
 	[FieldOffset(Offset = "0x50")]
 	private IAsyncResult asyncReadResult;
 
-	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x281C4F0", Offset = "0x281AAF0", VA = "0x18281C4F0", Slot = "4")]
+	[Token(Token = "0x60004D2")]
+	[Address(RVA = "0x6203250", Offset = "0x6202250", VA = "0x6203250", Slot = "4")]
 	public virtual void Close()
 	{
 	}
 
-	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x28612E0", Offset = "0x285F8E0", VA = "0x1828612E0", Slot = "5")]
+	[Token(Token = "0x60004D3")]
+	[Address(RVA = "0x6203270", Offset = "0x6202270", VA = "0x6203270", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x600068A")]
-	[Address(RVA = "0xCD9BE0", Offset = "0xCD81E0", VA = "0x180CD9BE0")]
+	[Token(Token = "0x60004D4")]
+	[Address(RVA = "0x6203670", Offset = "0x6202670", VA = "0x6203670")]
 	internal void CancelOperation()
 	{
 	}

@@ -12,105 +12,105 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000285")]
+[Token(Token = "0x200025D")]
 internal class TaskExceptionHolder
 {
-	[Token(Token = "0x4000B3D")]
+	[Token(Token = "0x4000A9B")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly bool s_failFastOnUnobservedException;
 
-	[Token(Token = "0x4000B3E")]
+	[Token(Token = "0x4000A9C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Task m_task;
 
-	[Token(Token = "0x4000B3F")]
+	[Token(Token = "0x4000A9D")]
 	[FieldOffset(Offset = "0x18")]
 	private System.Collections.Generic.LowLevelListWithIList<ExceptionDispatchInfo> m_faultExceptions;
 
-	[Token(Token = "0x4000B40")]
+	[Token(Token = "0x4000A9E")]
 	[FieldOffset(Offset = "0x20")]
 	private ExceptionDispatchInfo m_cancellationException;
 
-	[Token(Token = "0x4000B41")]
+	[Token(Token = "0x4000A9F")]
 	[FieldOffset(Offset = "0x28")]
 	private bool m_isHandled;
 
-	[Token(Token = "0x17000208")]
+	[Token(Token = "0x17000207")]
 	internal bool ContainsFaultList
 	{
-		[Token(Token = "0x6001532")]
-		[Address(RVA = "0x1BB57D0", Offset = "0x1BB3DD0", VA = "0x181BB57D0")]
+		[Token(Token = "0x6001509")]
+		[Address(RVA = "0x5544FD0", Offset = "0x5543FD0", VA = "0x5544FD0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600152F")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6001506")]
+	[Address(RVA = "0x5545540", Offset = "0x5544540", VA = "0x5545540")]
 	internal TaskExceptionHolder(Task task)
 	{
 	}
 
-	[Token(Token = "0x6001530")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Token(Token = "0x6001507")]
+	[Address(RVA = "0x554D1F0", Offset = "0x554C1F0", VA = "0x554D1F0")]
 	private static bool ShouldFailFastOnUnobservedException()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001531")]
-	[Address(RVA = "0x1BB52D0", Offset = "0x1BB38D0", VA = "0x181BB52D0", Slot = "1")]
+	[Token(Token = "0x6001508")]
+	[Address(RVA = "0x554D200", Offset = "0x554C200", VA = "0x554D200", Slot = "1")]
 	~TaskExceptionHolder()
 	{
 	}
 
-	[Token(Token = "0x6001533")]
-	[Address(RVA = "0x1BB4FE0", Offset = "0x1BB35E0", VA = "0x181BB4FE0")]
+	[Token(Token = "0x600150A")]
+	[Address(RVA = "0x5545570", Offset = "0x5544570", VA = "0x5545570")]
 	internal void Add(object exceptionObject, bool representsCancellation)
 	{
 	}
 
-	[Token(Token = "0x6001534")]
-	[Address(RVA = "0x1BB5690", Offset = "0x1BB3C90", VA = "0x181BB5690")]
+	[Token(Token = "0x600150B")]
+	[Address(RVA = "0x554D610", Offset = "0x554C610", VA = "0x554D610")]
 	private void SetCancellationException(object exceptionObject)
 	{
 	}
 
-	[Token(Token = "0x6001535")]
-	[Address(RVA = "0x1BB4BC0", Offset = "0x1BB31C0", VA = "0x181BB4BC0")]
+	[Token(Token = "0x600150C")]
+	[Address(RVA = "0x554D730", Offset = "0x554C730", VA = "0x554D730")]
 	private void AddFaultException(object exceptionObject)
 	{
 	}
 
-	[Token(Token = "0x6001536")]
-	[Address(RVA = "0x1BB5620", Offset = "0x1BB3C20", VA = "0x181BB5620")]
+	[Token(Token = "0x600150D")]
+	[Address(RVA = "0x554DC90", Offset = "0x554CC90", VA = "0x554DC90")]
 	private void MarkAsUnhandled()
 	{
 	}
 
-	[Token(Token = "0x6001537")]
-	[Address(RVA = "0x1BB55A0", Offset = "0x1BB3BA0", VA = "0x181BB55A0")]
+	[Token(Token = "0x600150E")]
+	[Address(RVA = "0x5545240", Offset = "0x5544240", VA = "0x5545240")]
 	internal void MarkAsHandled(bool calledFromFinalizer)
 	{
 	}
 
-	[Token(Token = "0x6001538")]
-	[Address(RVA = "0x1BB50F0", Offset = "0x1BB36F0", VA = "0x181BB50F0")]
+	[Token(Token = "0x600150F")]
+	[Address(RVA = "0x5545580", Offset = "0x5544580", VA = "0x5545580")]
 	internal AggregateException CreateExceptionObject(bool calledFromFinalizer, Exception includeThisException)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001539")]
-	[Address(RVA = "0x1BB54D0", Offset = "0x1BB3AD0", VA = "0x181BB54D0")]
+	[Token(Token = "0x6001510")]
+	[Address(RVA = "0x55459A0", Offset = "0x55449A0", VA = "0x55459A0")]
 	internal ReadOnlyCollection<ExceptionDispatchInfo> GetExceptionDispatchInfos()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600153A")]
-	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+	[Token(Token = "0x6001511")]
+	[Address(RVA = "0x554DD00", Offset = "0x554CD00", VA = "0x554DD00")]
 	internal ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
 	{
 		return null;

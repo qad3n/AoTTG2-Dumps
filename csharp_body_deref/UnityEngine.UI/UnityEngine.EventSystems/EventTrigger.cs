@@ -24,7 +24,7 @@ public class EventTrigger : MonoBehaviour, IPointerEnterHandler, IEventSystemHan
 	public class TriggerEvent : UnityEvent<BaseEventData>
 	{
 		[Token(Token = "0x60006CE")]
-		[Address(RVA = "0x33044D0", Offset = "0x3302AD0", VA = "0x1833044D0")]
+		[Address(RVA = "0x6D0B2B0", Offset = "0x6D0A2B0", VA = "0x6D0B2B0")]
 		public TriggerEvent()
 		{
 		}
@@ -43,7 +43,7 @@ public class EventTrigger : MonoBehaviour, IPointerEnterHandler, IEventSystemHan
 		public TriggerEvent callback;
 
 		[Token(Token = "0x60006CF")]
-		[Address(RVA = "0x32F2630", Offset = "0x32F0C30", VA = "0x1832F2630")]
+		[Address(RVA = "0x6D0B2F0", Offset = "0x6D0A2F0", VA = "0x6D0B2F0")]
 		public Entry()
 		{
 		}
@@ -61,13 +61,13 @@ public class EventTrigger : MonoBehaviour, IPointerEnterHandler, IEventSystemHan
 	public List<Entry> delegates
 	{
 		[Token(Token = "0x60006B7")]
-		[Address(RVA = "0x32F4A80", Offset = "0x32F3080", VA = "0x1832F4A80")]
+		[Address(RVA = "0x6D0AEC0", Offset = "0x6D09EC0", VA = "0x6D0AEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60006B8")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6D0AFE0", Offset = "0x6D09FE0", VA = "0x6D0AFE0")]
 		set
 		{
 		}
@@ -77,128 +77,128 @@ public class EventTrigger : MonoBehaviour, IPointerEnterHandler, IEventSystemHan
 	public List<Entry> triggers
 	{
 		[Token(Token = "0x60006BA")]
-		[Address(RVA = "0x32F4A90", Offset = "0x32F3090", VA = "0x1832F4A90")]
+		[Address(RVA = "0x6D0AF50", Offset = "0x6D09F50", VA = "0x6D0AF50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60006BB")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6D0B000", Offset = "0x6D0A000", VA = "0x6D0B000")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60006B9")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6D0AFF0", Offset = "0x6D09FF0", VA = "0x6D0AFF0")]
 	protected EventTrigger()
 	{
 	}
 
 	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x32F47D0", Offset = "0x32F2DD0", VA = "0x1832F47D0")]
+	[Address(RVA = "0x6D0B010", Offset = "0x6D0A010", VA = "0x6D0B010")]
 	private void Execute(EventTriggerType id, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006BD")]
-	[Address(RVA = "0x32F4A10", Offset = "0x32F3010", VA = "0x1832F4A10", Slot = "21")]
+	[Address(RVA = "0x6D0B1A0", Offset = "0x6D0A1A0", VA = "0x6D0B1A0", Slot = "21")]
 	public virtual void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006BE")]
-	[Address(RVA = "0x32F4A20", Offset = "0x32F3020", VA = "0x1832F4A20", Slot = "22")]
+	[Address(RVA = "0x6D0B1B0", Offset = "0x6D0A1B0", VA = "0x6D0B1B0", Slot = "22")]
 	public virtual void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006BF")]
-	[Address(RVA = "0x32F49A0", Offset = "0x32F2FA0", VA = "0x1832F49A0", Slot = "23")]
+	[Address(RVA = "0x6D0B1C0", Offset = "0x6D0A1C0", VA = "0x6D0B1C0", Slot = "23")]
 	public virtual void OnDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C0")]
-	[Address(RVA = "0x32F49B0", Offset = "0x32F2FB0", VA = "0x1832F49B0", Slot = "24")]
+	[Address(RVA = "0x6D0B1D0", Offset = "0x6D0A1D0", VA = "0x6D0B1D0", Slot = "24")]
 	public virtual void OnDrop(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C1")]
-	[Address(RVA = "0x32F4A00", Offset = "0x32F3000", VA = "0x1832F4A00", Slot = "25")]
+	[Address(RVA = "0x6D0B1E0", Offset = "0x6D0A1E0", VA = "0x6D0B1E0", Slot = "25")]
 	public virtual void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C2")]
-	[Address(RVA = "0x32F4A30", Offset = "0x32F3030", VA = "0x1832F4A30", Slot = "26")]
+	[Address(RVA = "0x6D0B1F0", Offset = "0x6D0A1F0", VA = "0x6D0B1F0", Slot = "26")]
 	public virtual void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C3")]
-	[Address(RVA = "0x32F49F0", Offset = "0x32F2FF0", VA = "0x1832F49F0", Slot = "27")]
+	[Address(RVA = "0x6D0B200", Offset = "0x6D0A200", VA = "0x6D0B200", Slot = "27")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x32F4A50", Offset = "0x32F3050", VA = "0x1832F4A50", Slot = "28")]
+	[Address(RVA = "0x6D0B210", Offset = "0x6D0A210", VA = "0x6D0B210", Slot = "28")]
 	public virtual void OnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C5")]
-	[Address(RVA = "0x32F4990", Offset = "0x32F2F90", VA = "0x1832F4990", Slot = "29")]
+	[Address(RVA = "0x6D0B220", Offset = "0x6D0A220", VA = "0x6D0B220", Slot = "29")]
 	public virtual void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C6")]
-	[Address(RVA = "0x32F4A40", Offset = "0x32F3040", VA = "0x1832F4A40", Slot = "30")]
+	[Address(RVA = "0x6D0B230", Offset = "0x6D0A230", VA = "0x6D0B230", Slot = "30")]
 	public virtual void OnScroll(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C7")]
-	[Address(RVA = "0x32F49E0", Offset = "0x32F2FE0", VA = "0x1832F49E0", Slot = "31")]
+	[Address(RVA = "0x6D0B240", Offset = "0x6D0A240", VA = "0x6D0B240", Slot = "31")]
 	public virtual void OnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C8")]
-	[Address(RVA = "0x32F4A70", Offset = "0x32F3070", VA = "0x1832F4A70", Slot = "32")]
+	[Address(RVA = "0x6D0B250", Offset = "0x6D0A250", VA = "0x6D0B250", Slot = "32")]
 	public virtual void OnUpdateSelected(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006C9")]
-	[Address(RVA = "0x32F49D0", Offset = "0x32F2FD0", VA = "0x1832F49D0", Slot = "33")]
+	[Address(RVA = "0x6D0B260", Offset = "0x6D0A260", VA = "0x6D0B260", Slot = "33")]
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006CA")]
-	[Address(RVA = "0x32F4970", Offset = "0x32F2F70", VA = "0x1832F4970", Slot = "34")]
+	[Address(RVA = "0x6D0B270", Offset = "0x6D0A270", VA = "0x6D0B270", Slot = "34")]
 	public virtual void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006CB")]
-	[Address(RVA = "0x32F49C0", Offset = "0x32F2FC0", VA = "0x1832F49C0", Slot = "35")]
+	[Address(RVA = "0x6D0B280", Offset = "0x6D0A280", VA = "0x6D0B280", Slot = "35")]
 	public virtual void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006CC")]
-	[Address(RVA = "0x32F4A60", Offset = "0x32F3060", VA = "0x1832F4A60", Slot = "36")]
+	[Address(RVA = "0x6D0B290", Offset = "0x6D0A290", VA = "0x6D0B290", Slot = "36")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006CD")]
-	[Address(RVA = "0x32F4980", Offset = "0x32F2F80", VA = "0x1832F4980", Slot = "37")]
+	[Address(RVA = "0x6D0B2A0", Offset = "0x6D0A2A0", VA = "0x6D0B2A0", Slot = "37")]
 	public virtual void OnCancel(BaseEventData eventData)
 	{
 	}

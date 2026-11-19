@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_TextElement
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -48,7 +48,7 @@ public class TMP_TextElement
 	public TextElementType elementType
 	{
 		[Token(Token = "0x600058C")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6740760", Offset = "0x673F760", VA = "0x6740760")]
 		get
 		{
 			return default(TextElementType);
@@ -59,13 +59,13 @@ public class TMP_TextElement
 	public uint unicode
 	{
 		[Token(Token = "0x600058D")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6740770", Offset = "0x673F770", VA = "0x6740770")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x600058E")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x6740780", Offset = "0x673F780", VA = "0x6740780")]
 		set
 		{
 		}
@@ -75,13 +75,13 @@ public class TMP_TextElement
 	public TMP_Asset textAsset
 	{
 		[Token(Token = "0x600058F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6740790", Offset = "0x673F790", VA = "0x6740790")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000590")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x67407A0", Offset = "0x673F7A0", VA = "0x67407A0")]
 		set
 		{
 		}
@@ -91,13 +91,13 @@ public class TMP_TextElement
 	public Glyph glyph
 	{
 		[Token(Token = "0x6000591")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x67407B0", Offset = "0x673F7B0", VA = "0x67407B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000592")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x67407C0", Offset = "0x673F7C0", VA = "0x67407C0")]
 		set
 		{
 		}
@@ -107,13 +107,13 @@ public class TMP_TextElement
 	public uint glyphIndex
 	{
 		[Token(Token = "0x6000593")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x67407D0", Offset = "0x673F7D0", VA = "0x67407D0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000594")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x67407E0", Offset = "0x673F7E0", VA = "0x67407E0")]
 		set
 		{
 		}
@@ -123,20 +123,20 @@ public class TMP_TextElement
 	public float scale
 	{
 		[Token(Token = "0x6000595")]
-		[Address(RVA = "0x1D90480", Offset = "0x1D8EA80", VA = "0x181D90480")]
+		[Address(RVA = "0x67407F0", Offset = "0x673F7F0", VA = "0x67407F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000596")]
-		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
+		[Address(RVA = "0x6740800", Offset = "0x673F800", VA = "0x6740800")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000597")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x673CCB0", Offset = "0x673BCB0", VA = "0x673CCB0")]
 	public TMP_TextElement()
 	{
 	}

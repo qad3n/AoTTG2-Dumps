@@ -10,6 +10,6 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003DA")]
+[Token(Token = "0x20003B3")]
 [ComVisible(true)]
 public delegate object HeaderHandler(Header[] headers);

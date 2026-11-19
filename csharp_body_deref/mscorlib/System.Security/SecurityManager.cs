@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace System.Security;
 
-[Token(Token = "0x20002D8")]
+[Token(Token = "0x20002B1")]
 [ComVisible(true)]
 public static class SecurityManager
 {
-	[Token(Token = "0x17000269")]
+	[Token(Token = "0x17000268")]
 	[Obsolete("The security manager cannot be turned off on MS runtime")]
 	public static bool SecurityEnabled
 	{
-		[Token(Token = "0x6001821")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Token(Token = "0x60017FE")]
+		[Address(RVA = "0x53271A0", Offset = "0x53261A0", VA = "0x53271A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001822")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60017FF")]
+	[Address(RVA = "0x532ACC0", Offset = "0x5329CC0", VA = "0x532ACC0")]
 	internal static void EnsureElevatedPermissions()
 	{
 	}

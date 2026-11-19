@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace Unity.IO.Archive;
 
 [Token(Token = "0x200004A")]
-[UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 public struct ArchiveFileInfo
 {
 	[Token(Token = "0x40000E6")]

@@ -10,215 +10,215 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005EC")]
+[Token(Token = "0x20005C7")]
 public sealed class BitArray : ICollection, IEnumerable, ICloneable
 {
 	[Serializable]
-	[Token(Token = "0x20005ED")]
+	[Token(Token = "0x20005C8")]
 	private class BitArrayEnumeratorSimple : IEnumerator, ICloneable
 	{
-		[Token(Token = "0x40018AE")]
+		[Token(Token = "0x4001815")]
 		[FieldOffset(Offset = "0x10")]
 		private BitArray bitarray;
 
-		[Token(Token = "0x40018AF")]
+		[Token(Token = "0x4001816")]
 		[FieldOffset(Offset = "0x18")]
 		private int index;
 
-		[Token(Token = "0x40018B0")]
+		[Token(Token = "0x4001817")]
 		[FieldOffset(Offset = "0x1C")]
 		private int version;
 
-		[Token(Token = "0x40018B1")]
+		[Token(Token = "0x4001818")]
 		[FieldOffset(Offset = "0x20")]
 		private bool currentElement;
 
-		[Token(Token = "0x17000707")]
+		[Token(Token = "0x17000706")]
 		public virtual object Current
 		{
-			[Token(Token = "0x6002CDA")]
-			[Address(RVA = "0x1ACD120", Offset = "0x1ACB720", VA = "0x181ACD120", Slot = "9")]
+			[Token(Token = "0x6002CB7")]
+			[Address(RVA = "0x5459320", Offset = "0x5458320", VA = "0x5459320", Slot = "9")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6002CD7")]
-		[Address(RVA = "0x1ACD0D0", Offset = "0x1ACB6D0", VA = "0x181ACD0D0")]
+		[Token(Token = "0x6002CB4")]
+		[Address(RVA = "0x5459120", Offset = "0x5458120", VA = "0x5459120")]
 		internal BitArrayEnumeratorSimple(BitArray bitarray)
 		{
 		}
 
-		[Token(Token = "0x6002CD8")]
-		[Address(RVA = "0x1A7BC80", Offset = "0x1A7A280", VA = "0x181A7BC80", Slot = "7")]
+		[Token(Token = "0x6002CB5")]
+		[Address(RVA = "0x5459170", Offset = "0x5458170", VA = "0x5459170", Slot = "7")]
 		public object Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD9")]
-		[Address(RVA = "0x1ACCF40", Offset = "0x1ACB540", VA = "0x181ACCF40", Slot = "8")]
+		[Token(Token = "0x6002CB6")]
+		[Address(RVA = "0x5459180", Offset = "0x5458180", VA = "0x5459180", Slot = "8")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002CDB")]
-		[Address(RVA = "0x1ACD050", Offset = "0x1ACB650", VA = "0x181ACD050", Slot = "6")]
+		[Token(Token = "0x6002CB8")]
+		[Address(RVA = "0x5459470", Offset = "0x5458470", VA = "0x5459470", Slot = "6")]
 		public void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40018AA")]
+	[Token(Token = "0x4001811")]
 	[FieldOffset(Offset = "0x10")]
 	private int[] m_array;
 
-	[Token(Token = "0x40018AB")]
+	[Token(Token = "0x4001812")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_length;
 
-	[Token(Token = "0x40018AC")]
+	[Token(Token = "0x4001813")]
 	[FieldOffset(Offset = "0x1C")]
 	private int _version;
 
 	[NonSerialized]
-	[Token(Token = "0x40018AD")]
+	[Token(Token = "0x4001814")]
 	[FieldOffset(Offset = "0x20")]
 	private object _syncRoot;
 
-	[Token(Token = "0x17000702")]
+	[Token(Token = "0x17000701")]
 	public bool this[int index]
 	{
-		[Token(Token = "0x6002CC8")]
-		[Address(RVA = "0x1AB68A0", Offset = "0x1AB4EA0", VA = "0x181AB68A0")]
+		[Token(Token = "0x6002CA5")]
+		[Address(RVA = "0x54585E0", Offset = "0x54575E0", VA = "0x54585E0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002CC9")]
-		[Address(RVA = "0x1AB7090", Offset = "0x1AB5690", VA = "0x181AB7090")]
+		[Token(Token = "0x6002CA6")]
+		[Address(RVA = "0x54586C0", Offset = "0x54576C0", VA = "0x54586C0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000702")]
+	public int Length
+	{
+		[Token(Token = "0x6002CAB")]
+		[Address(RVA = "0x5458960", Offset = "0x5457960", VA = "0x5458960")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x6002CAC")]
+		[Address(RVA = "0x5458970", Offset = "0x5457970", VA = "0x5458970")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000703")]
-	public int Length
+	public int Count
 	{
-		[Token(Token = "0x6002CCE")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6002CAE")]
+		[Address(RVA = "0x5458FE0", Offset = "0x5457FE0", VA = "0x5458FE0", Slot = "5")]
 		get
 		{
 			return default(int);
-		}
-		[Token(Token = "0x6002CCF")]
-		[Address(RVA = "0x1AB71B0", Offset = "0x1AB57B0", VA = "0x181AB71B0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000704")]
-	public int Count
-	{
-		[Token(Token = "0x6002CD1")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "5")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000705")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x6002CD2")]
-		[Address(RVA = "0x1AB7020", Offset = "0x1AB5620", VA = "0x181AB7020", Slot = "6")]
+		[Token(Token = "0x6002CAF")]
+		[Address(RVA = "0x5458FF0", Offset = "0x5457FF0", VA = "0x5458FF0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000706")]
+	[Token(Token = "0x17000705")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x6002CD3")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x6002CB0")]
+		[Address(RVA = "0x5459070", Offset = "0x5458070", VA = "0x5459070", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002CC5")]
-	[Address(RVA = "0x1AB6DB0", Offset = "0x1AB53B0", VA = "0x181AB6DB0")]
+	[Token(Token = "0x6002CA2")]
+	[Address(RVA = "0x5458360", Offset = "0x5457360", VA = "0x5458360")]
 	public BitArray(int length)
 	{
 	}
 
-	[Token(Token = "0x6002CC6")]
-	[Address(RVA = "0x1AB6C40", Offset = "0x1AB5240", VA = "0x181AB6C40")]
+	[Token(Token = "0x6002CA3")]
+	[Address(RVA = "0x5458370", Offset = "0x5457370", VA = "0x5458370")]
 	public BitArray(int length, bool defaultValue)
 	{
 	}
 
-	[Token(Token = "0x6002CC7")]
-	[Address(RVA = "0x1AB6F20", Offset = "0x1AB5520", VA = "0x181AB6F20")]
+	[Token(Token = "0x6002CA4")]
+	[Address(RVA = "0x5458500", Offset = "0x5457500", VA = "0x5458500")]
 	public BitArray(BitArray bits)
 	{
 	}
 
-	[Token(Token = "0x6002CCA")]
-	[Address(RVA = "0x1AB68A0", Offset = "0x1AB4EA0", VA = "0x181AB68A0")]
+	[Token(Token = "0x6002CA7")]
+	[Address(RVA = "0x54585F0", Offset = "0x54575F0", VA = "0x54585F0")]
 	public bool Get(int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002CCB")]
-	[Address(RVA = "0x1AB6B20", Offset = "0x1AB5120", VA = "0x181AB6B20")]
+	[Token(Token = "0x6002CA8")]
+	[Address(RVA = "0x54586D0", Offset = "0x54576D0", VA = "0x54586D0")]
 	public void Set(int index, bool value)
 	{
 	}
 
-	[Token(Token = "0x6002CCC")]
-	[Address(RVA = "0x1AB6AB0", Offset = "0x1AB50B0", VA = "0x181AB6AB0")]
+	[Token(Token = "0x6002CA9")]
+	[Address(RVA = "0x54587D0", Offset = "0x54577D0", VA = "0x54587D0")]
 	public void SetAll(bool value)
 	{
 	}
 
-	[Token(Token = "0x6002CCD")]
-	[Address(RVA = "0x1AB6990", Offset = "0x1AB4F90", VA = "0x181AB6990")]
+	[Token(Token = "0x6002CAA")]
+	[Address(RVA = "0x5458870", Offset = "0x5457870", VA = "0x5458870")]
 	public BitArray Or(BitArray value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CD0")]
-	[Address(RVA = "0x1AB6220", Offset = "0x1AB4820", VA = "0x181AB6220", Slot = "4")]
+	[Token(Token = "0x6002CAD")]
+	[Address(RVA = "0x5458AF0", Offset = "0x5457AF0", VA = "0x5458AF0", Slot = "4")]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6002CD4")]
-	[Address(RVA = "0x1AB60F0", Offset = "0x1AB46F0", VA = "0x181AB60F0", Slot = "9")]
+	[Token(Token = "0x6002CB1")]
+	[Address(RVA = "0x5459080", Offset = "0x5458080", VA = "0x5459080", Slot = "9")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CD5")]
-	[Address(RVA = "0x1AB6840", Offset = "0x1AB4E40", VA = "0x181AB6840", Slot = "8")]
+	[Token(Token = "0x6002CB2")]
+	[Address(RVA = "0x54590D0", Offset = "0x54580D0", VA = "0x54590D0", Slot = "8")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CD6")]
-	[Address(RVA = "0x1AB6820", Offset = "0x1AB4E20", VA = "0x181AB6820")]
+	[Token(Token = "0x6002CB3")]
+	[Address(RVA = "0x54584E0", Offset = "0x54574E0", VA = "0x54584E0")]
 	private static int GetArrayLength(int n, int div)
 	{
 		return default(int);

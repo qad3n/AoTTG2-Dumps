@@ -13,20 +13,20 @@ namespace System.Data;
 internal class ForeignKeyConstraintEnumerator : ConstraintEnumerator
 {
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x24E9F10", Offset = "0x24E8510", VA = "0x1824E9F10")]
+	[Address(RVA = "0x5E90140", Offset = "0x5E8F140", VA = "0x5E90140")]
 	public ForeignKeyConstraintEnumerator(DataSet dataSet)
 	{
 	}
 
 	[Token(Token = "0x6000390")]
-	[Address(RVA = "0x24FE500", Offset = "0x24FCB00", VA = "0x1824FE500", Slot = "4")]
+	[Address(RVA = "0x5E901B0", Offset = "0x5E8F1B0", VA = "0x5E901B0", Slot = "4")]
 	protected override bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x24FE490", Offset = "0x24FCA90", VA = "0x1824FE490")]
+	[Address(RVA = "0x5E90210", Offset = "0x5E8F210", VA = "0x5E90210")]
 	public ForeignKeyConstraint GetForeignKeyConstraint()
 	{
 		return null;

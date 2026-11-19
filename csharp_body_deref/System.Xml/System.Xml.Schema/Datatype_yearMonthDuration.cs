@@ -16,7 +16,7 @@ internal class Datatype_yearMonthDuration : Datatype_duration
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60010ED")]
-		[Address(RVA = "0x2439B90", Offset = "0x2438190", VA = "0x182439B90", Slot = "8")]
+		[Address(RVA = "0x615DD80", Offset = "0x615CD80", VA = "0x615DD80", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -24,14 +24,14 @@ internal class Datatype_yearMonthDuration : Datatype_duration
 	}
 
 	[Token(Token = "0x60010EC")]
-	[Address(RVA = "0x27A34C0", Offset = "0x27A1AC0", VA = "0x1827A34C0", Slot = "16")]
+	[Address(RVA = "0x615DB70", Offset = "0x615CB70", VA = "0x615DB70", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010EE")]
-	[Address(RVA = "0x27A36D0", Offset = "0x27A1CD0", VA = "0x1827A36D0")]
+	[Address(RVA = "0x6157120", Offset = "0x6156120", VA = "0x6157120")]
 	public Datatype_yearMonthDuration()
 	{
 	}

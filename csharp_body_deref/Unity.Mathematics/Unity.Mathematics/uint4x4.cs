@@ -45,7 +45,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 	public unsafe ref uint4 this[int index]
 	{
 		[Token(Token = "0x60024A7")]
-		[Address(RVA = "0x841B00", Offset = "0x840100", VA = "0x180841B00")]
+		[Address(RVA = "0x640E5A0", Offset = "0x640D5A0", VA = "0x640E5A0")]
 		get
 		{
 			return ref *(uint4*)null;
@@ -54,84 +54,84 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002462")]
-	[Address(RVA = "0x2A401B0", Offset = "0x2A3E7B0", VA = "0x182A401B0")]
+	[Address(RVA = "0x640A7C0", Offset = "0x64097C0", VA = "0x640A7C0")]
 	public uint4x4(uint4 c0, uint4 c1, uint4 c2, uint4 c3)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002463")]
-	[Address(RVA = "0x2A40260", Offset = "0x2A3E860", VA = "0x182A40260")]
+	[Address(RVA = "0x640A7F0", Offset = "0x64097F0", VA = "0x640A7F0")]
 	public uint4x4(uint m00, uint m01, uint m02, uint m03, uint m10, uint m11, uint m12, uint m13, uint m20, uint m21, uint m22, uint m23, uint m30, uint m31, uint m32, uint m33)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002464")]
-	[Address(RVA = "0x2A40180", Offset = "0x2A3E780", VA = "0x182A40180")]
+	[Address(RVA = "0x640A850", Offset = "0x6409850", VA = "0x640A850")]
 	public uint4x4(uint v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002465")]
-	[Address(RVA = "0x29C8FB0", Offset = "0x29C75B0", VA = "0x1829C8FB0")]
+	[Address(RVA = "0x640A880", Offset = "0x6409880", VA = "0x640A880")]
 	public uint4x4(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002466")]
-	[Address(RVA = "0x29C9020", Offset = "0x29C7620", VA = "0x1829C9020")]
+	[Address(RVA = "0x640A8C0", Offset = "0x64098C0", VA = "0x640A8C0")]
 	public uint4x4(bool4x4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002467")]
-	[Address(RVA = "0x2A40180", Offset = "0x2A3E780", VA = "0x182A40180")]
+	[Address(RVA = "0x640A9A0", Offset = "0x64099A0", VA = "0x640A9A0")]
 	public uint4x4(int v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002468")]
-	[Address(RVA = "0x2A401E0", Offset = "0x2A3E7E0", VA = "0x182A401E0")]
+	[Address(RVA = "0x640A9D0", Offset = "0x64099D0", VA = "0x640A9D0")]
 	public uint4x4(int4x4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002469")]
-	[Address(RVA = "0x29CF240", Offset = "0x29CD840", VA = "0x1829CF240")]
+	[Address(RVA = "0x640AA00", Offset = "0x6409A00", VA = "0x640AA00")]
 	public uint4x4(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246A")]
-	[Address(RVA = "0x29CF530", Offset = "0x29CDB30", VA = "0x1829CF530")]
+	[Address(RVA = "0x640AA40", Offset = "0x6409A40", VA = "0x640AA40")]
 	public uint4x4(float4x4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246B")]
-	[Address(RVA = "0x29CF110", Offset = "0x29CD710", VA = "0x1829CF110")]
+	[Address(RVA = "0x640AC50", Offset = "0x6409C50", VA = "0x640AC50")]
 	public uint4x4(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246C")]
-	[Address(RVA = "0x29CF370", Offset = "0x29CD970", VA = "0x1829CF370")]
+	[Address(RVA = "0x640AC90", Offset = "0x6409C90", VA = "0x640AC90")]
 	public uint4x4(double4x4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246D")]
-	[Address(RVA = "0x29EC2C0", Offset = "0x29EA8C0", VA = "0x1829EC2C0")]
+	[Address(RVA = "0x640AF00", Offset = "0x6409F00", VA = "0x640AF00")]
 	public static implicit operator uint4x4(uint v)
 	{
 		return default(uint4x4);
@@ -139,7 +139,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246E")]
-	[Address(RVA = "0x29EC160", Offset = "0x29EA760", VA = "0x1829EC160")]
+	[Address(RVA = "0x640AF30", Offset = "0x6409F30", VA = "0x640AF30")]
 	public static explicit operator uint4x4(bool v)
 	{
 		return default(uint4x4);
@@ -147,7 +147,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246F")]
-	[Address(RVA = "0x2A40FD0", Offset = "0x2A3F5D0", VA = "0x182A40FD0")]
+	[Address(RVA = "0x640AF70", Offset = "0x6409F70", VA = "0x640AF70")]
 	public static explicit operator uint4x4(bool4x4 v)
 	{
 		return default(uint4x4);
@@ -155,7 +155,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002470")]
-	[Address(RVA = "0x29EC2C0", Offset = "0x29EA8C0", VA = "0x1829EC2C0")]
+	[Address(RVA = "0x640B050", Offset = "0x640A050", VA = "0x640B050")]
 	public static explicit operator uint4x4(int v)
 	{
 		return default(uint4x4);
@@ -163,7 +163,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002471")]
-	[Address(RVA = "0x29EC470", Offset = "0x29EAA70", VA = "0x1829EC470")]
+	[Address(RVA = "0x640B080", Offset = "0x640A080", VA = "0x640B080")]
 	public static explicit operator uint4x4(int4x4 v)
 	{
 		return default(uint4x4);
@@ -171,7 +171,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002472")]
-	[Address(RVA = "0x2A0FDE0", Offset = "0x2A0E3E0", VA = "0x182A0FDE0")]
+	[Address(RVA = "0x640B0B0", Offset = "0x640A0B0", VA = "0x640B0B0")]
 	public static explicit operator uint4x4(float v)
 	{
 		return default(uint4x4);
@@ -179,7 +179,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002473")]
-	[Address(RVA = "0x2A0FD00", Offset = "0x2A0E300", VA = "0x182A0FD00")]
+	[Address(RVA = "0x640B0F0", Offset = "0x640A0F0", VA = "0x640B0F0")]
 	public static explicit operator uint4x4(float4x4 v)
 	{
 		return default(uint4x4);
@@ -187,7 +187,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002474")]
-	[Address(RVA = "0x2A0FE10", Offset = "0x2A0E410", VA = "0x182A0FE10")]
+	[Address(RVA = "0x640B330", Offset = "0x640A330", VA = "0x640B330")]
 	public static explicit operator uint4x4(double v)
 	{
 		return default(uint4x4);
@@ -195,7 +195,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002475")]
-	[Address(RVA = "0x2A0FD60", Offset = "0x2A0E360", VA = "0x182A0FD60")]
+	[Address(RVA = "0x640B380", Offset = "0x640A380", VA = "0x640B380")]
 	public static explicit operator uint4x4(double4x4 v)
 	{
 		return default(uint4x4);
@@ -203,7 +203,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002476")]
-	[Address(RVA = "0x2A421A0", Offset = "0x2A407A0", VA = "0x182A421A0")]
+	[Address(RVA = "0x640B5F0", Offset = "0x640A5F0", VA = "0x640B5F0")]
 	public static uint4x4 operator *(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -211,7 +211,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002477")]
-	[Address(RVA = "0x2A420D0", Offset = "0x2A406D0", VA = "0x182A420D0")]
+	[Address(RVA = "0x640B740", Offset = "0x640A740", VA = "0x640B740")]
 	public static uint4x4 operator *(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -219,7 +219,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002478")]
-	[Address(RVA = "0x2A42280", Offset = "0x2A40880", VA = "0x182A42280")]
+	[Address(RVA = "0x640B840", Offset = "0x640A840", VA = "0x640B840")]
 	public static uint4x4 operator *(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -227,7 +227,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002479")]
-	[Address(RVA = "0x2A404B0", Offset = "0x2A3EAB0", VA = "0x182A404B0")]
+	[Address(RVA = "0x640B940", Offset = "0x640A940", VA = "0x640B940")]
 	public static uint4x4 operator +(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -235,7 +235,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247A")]
-	[Address(RVA = "0x2A403C0", Offset = "0x2A3E9C0", VA = "0x182A403C0")]
+	[Address(RVA = "0x640BA80", Offset = "0x640AA80", VA = "0x640BA80")]
 	public static uint4x4 operator +(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -243,7 +243,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247B")]
-	[Address(RVA = "0x2A402D0", Offset = "0x2A3E8D0", VA = "0x182A402D0")]
+	[Address(RVA = "0x640BAD0", Offset = "0x640AAD0", VA = "0x640BAD0")]
 	public static uint4x4 operator +(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -251,7 +251,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247C")]
-	[Address(RVA = "0x2A42550", Offset = "0x2A40B50", VA = "0x182A42550")]
+	[Address(RVA = "0x640BB20", Offset = "0x640AB20", VA = "0x640BB20")]
 	public static uint4x4 operator -(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -259,7 +259,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247D")]
-	[Address(RVA = "0x2A42470", Offset = "0x2A40A70", VA = "0x182A42470")]
+	[Address(RVA = "0x640BC70", Offset = "0x640AC70", VA = "0x640BC70")]
 	public static uint4x4 operator -(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -267,7 +267,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247E")]
-	[Address(RVA = "0x2A42620", Offset = "0x2A40C20", VA = "0x182A42620")]
+	[Address(RVA = "0x640BCC0", Offset = "0x640ACC0", VA = "0x640BCC0")]
 	public static uint4x4 operator -(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -275,7 +275,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600247F")]
-	[Address(RVA = "0x2A40910", Offset = "0x2A3EF10", VA = "0x182A40910")]
+	[Address(RVA = "0x640BD10", Offset = "0x640AD10", VA = "0x640BD10")]
 	public static uint4x4 operator /(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -283,7 +283,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002480")]
-	[Address(RVA = "0x2A40A20", Offset = "0x2A3F020", VA = "0x182A40A20")]
+	[Address(RVA = "0x640BED0", Offset = "0x640AED0", VA = "0x640BED0")]
 	public static uint4x4 operator /(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -291,7 +291,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002481")]
-	[Address(RVA = "0x2A40B20", Offset = "0x2A3F120", VA = "0x182A40B20")]
+	[Address(RVA = "0x640C020", Offset = "0x640B020", VA = "0x640C020")]
 	public static uint4x4 operator /(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -299,7 +299,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002482")]
-	[Address(RVA = "0x2A41DC0", Offset = "0x2A403C0", VA = "0x182A41DC0")]
+	[Address(RVA = "0x640C160", Offset = "0x640B160", VA = "0x640C160")]
 	public static uint4x4 operator %(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -307,7 +307,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002483")]
-	[Address(RVA = "0x2A41FD0", Offset = "0x2A405D0", VA = "0x182A41FD0")]
+	[Address(RVA = "0x640C320", Offset = "0x640B320", VA = "0x640C320")]
 	public static uint4x4 operator %(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -315,7 +315,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002484")]
-	[Address(RVA = "0x2A41ED0", Offset = "0x2A404D0", VA = "0x182A41ED0")]
+	[Address(RVA = "0x640C470", Offset = "0x640B470", VA = "0x640C470")]
 	public static uint4x4 operator %(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -323,7 +323,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002485")]
-	[Address(RVA = "0x2A414F0", Offset = "0x2A3FAF0", VA = "0x182A414F0")]
+	[Address(RVA = "0x640C5B0", Offset = "0x640B5B0", VA = "0x640C5B0")]
 	public static uint4x4 operator ++(uint4x4 val)
 	{
 		return default(uint4x4);
@@ -331,7 +331,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002486")]
-	[Address(RVA = "0x2A40800", Offset = "0x2A3EE00", VA = "0x182A40800")]
+	[Address(RVA = "0x640C640", Offset = "0x640B640", VA = "0x640C640")]
 	public static uint4x4 operator --(uint4x4 val)
 	{
 		return default(uint4x4);
@@ -339,7 +339,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002487")]
-	[Address(RVA = "0x2A41C10", Offset = "0x2A40210", VA = "0x182A41C10")]
+	[Address(RVA = "0x640C6D0", Offset = "0x640B6D0", VA = "0x640C6D0")]
 	public static bool4x4 operator <(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -347,7 +347,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002488")]
-	[Address(RVA = "0x2A41D00", Offset = "0x2A40300", VA = "0x182A41D00")]
+	[Address(RVA = "0x640C890", Offset = "0x640B890", VA = "0x640C890")]
 	public static bool4x4 operator <(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -355,7 +355,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002489")]
-	[Address(RVA = "0x2A41B50", Offset = "0x2A40150", VA = "0x182A41B50")]
+	[Address(RVA = "0x640C9F0", Offset = "0x640B9F0", VA = "0x640C9F0")]
 	public static bool4x4 operator <(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -363,7 +363,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248A")]
-	[Address(RVA = "0x2A419A0", Offset = "0x2A3FFA0", VA = "0x182A419A0")]
+	[Address(RVA = "0x640CB30", Offset = "0x640BB30", VA = "0x640CB30")]
 	public static bool4x4 operator <=(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -371,7 +371,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248B")]
-	[Address(RVA = "0x2A41A90", Offset = "0x2A40090", VA = "0x182A41A90")]
+	[Address(RVA = "0x640CCC0", Offset = "0x640BCC0", VA = "0x640CCC0")]
 	public static bool4x4 operator <=(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -379,7 +379,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248C")]
-	[Address(RVA = "0x2A418E0", Offset = "0x2A3FEE0", VA = "0x182A418E0")]
+	[Address(RVA = "0x640CE10", Offset = "0x640BE10", VA = "0x640CE10")]
 	public static bool4x4 operator <=(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -387,7 +387,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248D")]
-	[Address(RVA = "0x2A41400", Offset = "0x2A3FA00", VA = "0x182A41400")]
+	[Address(RVA = "0x640CF40", Offset = "0x640BF40", VA = "0x640CF40")]
 	public static bool4x4 operator >(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -395,7 +395,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248E")]
-	[Address(RVA = "0x2A41340", Offset = "0x2A3F940", VA = "0x182A41340")]
+	[Address(RVA = "0x640D100", Offset = "0x640C100", VA = "0x640D100")]
 	public static bool4x4 operator >(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -403,7 +403,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600248F")]
-	[Address(RVA = "0x2A41280", Offset = "0x2A3F880", VA = "0x182A41280")]
+	[Address(RVA = "0x640D260", Offset = "0x640C260", VA = "0x640D260")]
 	public static bool4x4 operator >(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -411,7 +411,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002490")]
-	[Address(RVA = "0x2A410D0", Offset = "0x2A3F6D0", VA = "0x182A410D0")]
+	[Address(RVA = "0x640D3A0", Offset = "0x640C3A0", VA = "0x640D3A0")]
 	public static bool4x4 operator >=(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -419,7 +419,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002491")]
-	[Address(RVA = "0x2A41010", Offset = "0x2A3F610", VA = "0x182A41010")]
+	[Address(RVA = "0x640D530", Offset = "0x640C530", VA = "0x640D530")]
 	public static bool4x4 operator >=(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -427,7 +427,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002492")]
-	[Address(RVA = "0x2A411C0", Offset = "0x2A3F7C0", VA = "0x182A411C0")]
+	[Address(RVA = "0x640D680", Offset = "0x640C680", VA = "0x640D680")]
 	public static bool4x4 operator >=(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -435,7 +435,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002493")]
-	[Address(RVA = "0x2A42700", Offset = "0x2A40D00", VA = "0x182A42700")]
+	[Address(RVA = "0x640D7B0", Offset = "0x640C7B0", VA = "0x640D7B0")]
 	public static uint4x4 operator -(uint4x4 val)
 	{
 		return default(uint4x4);
@@ -443,7 +443,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002494")]
-	[Address(RVA = "0x2A42760", Offset = "0x2A40D60", VA = "0x182A42760")]
+	[Address(RVA = "0x640D840", Offset = "0x640C840", VA = "0x640D840")]
 	public static uint4x4 operator +(uint4x4 val)
 	{
 		return default(uint4x4);
@@ -451,7 +451,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002495")]
-	[Address(RVA = "0x2A41870", Offset = "0x2A3FE70", VA = "0x182A41870")]
+	[Address(RVA = "0x640D870", Offset = "0x640C870", VA = "0x640D870")]
 	public static uint4x4 operator <<(uint4x4 x, int n)
 	{
 		return default(uint4x4);
@@ -459,7 +459,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002496")]
-	[Address(RVA = "0x2A423A0", Offset = "0x2A409A0", VA = "0x182A423A0")]
+	[Address(RVA = "0x640D960", Offset = "0x640C960", VA = "0x640D960")]
 	public static uint4x4 operator >>(uint4x4 x, int n)
 	{
 		return default(uint4x4);
@@ -467,7 +467,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002497")]
-	[Address(RVA = "0x2A40C20", Offset = "0x2A3F220", VA = "0x182A40C20")]
+	[Address(RVA = "0x640DA50", Offset = "0x640CA50", VA = "0x640DA50")]
 	public static bool4x4 operator ==(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -475,7 +475,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002498")]
-	[Address(RVA = "0x2A40DD0", Offset = "0x2A3F3D0", VA = "0x182A40DD0")]
+	[Address(RVA = "0x640DC10", Offset = "0x640CC10", VA = "0x640DC10")]
 	public static bool4x4 operator ==(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -483,7 +483,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002499")]
-	[Address(RVA = "0x2A40D10", Offset = "0x2A3F310", VA = "0x182A40D10")]
+	[Address(RVA = "0x640DD70", Offset = "0x640CD70", VA = "0x640DD70")]
 	public static bool4x4 operator ==(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -491,7 +491,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249A")]
-	[Address(RVA = "0x2A41780", Offset = "0x2A3FD80", VA = "0x182A41780")]
+	[Address(RVA = "0x640DEB0", Offset = "0x640CEB0", VA = "0x640DEB0")]
 	public static bool4x4 operator !=(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -499,7 +499,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249B")]
-	[Address(RVA = "0x2A416C0", Offset = "0x2A3FCC0", VA = "0x182A416C0")]
+	[Address(RVA = "0x640E040", Offset = "0x640D040", VA = "0x640E040")]
 	public static bool4x4 operator !=(uint4x4 lhs, uint rhs)
 	{
 		return default(bool4x4);
@@ -507,7 +507,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249C")]
-	[Address(RVA = "0x2A41600", Offset = "0x2A3FC00", VA = "0x182A41600")]
+	[Address(RVA = "0x640E190", Offset = "0x640D190", VA = "0x640E190")]
 	public static bool4x4 operator !=(uint lhs, uint4x4 rhs)
 	{
 		return default(bool4x4);
@@ -515,7 +515,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249D")]
-	[Address(RVA = "0x2A42350", Offset = "0x2A40950", VA = "0x182A42350")]
+	[Address(RVA = "0x640E2C0", Offset = "0x640D2C0", VA = "0x640E2C0")]
 	public static uint4x4 operator ~(uint4x4 val)
 	{
 		return default(uint4x4);
@@ -523,7 +523,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249E")]
-	[Address(RVA = "0x2A40580", Offset = "0x2A3EB80", VA = "0x182A40580")]
+	[Address(RVA = "0x640E300", Offset = "0x640D300", VA = "0x640E300")]
 	public static uint4x4 operator &(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -531,7 +531,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600249F")]
-	[Address(RVA = "0x2A40650", Offset = "0x2A3EC50", VA = "0x182A40650")]
+	[Address(RVA = "0x640E340", Offset = "0x640D340", VA = "0x640E340")]
 	public static uint4x4 operator &(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -539,7 +539,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A0")]
-	[Address(RVA = "0x2A405E0", Offset = "0x2A3EBE0", VA = "0x182A405E0")]
+	[Address(RVA = "0x640E390", Offset = "0x640D390", VA = "0x640E390")]
 	public static uint4x4 operator &(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -547,7 +547,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A1")]
-	[Address(RVA = "0x2A406C0", Offset = "0x2A3ECC0", VA = "0x182A406C0")]
+	[Address(RVA = "0x640E3E0", Offset = "0x640D3E0", VA = "0x640E3E0")]
 	public static uint4x4 operator |(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -555,7 +555,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A2")]
-	[Address(RVA = "0x2A40720", Offset = "0x2A3ED20", VA = "0x182A40720")]
+	[Address(RVA = "0x640E420", Offset = "0x640D420", VA = "0x640E420")]
 	public static uint4x4 operator |(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -563,7 +563,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A3")]
-	[Address(RVA = "0x2A40790", Offset = "0x2A3ED90", VA = "0x182A40790")]
+	[Address(RVA = "0x640E470", Offset = "0x640D470", VA = "0x640E470")]
 	public static uint4x4 operator |(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -571,7 +571,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A4")]
-	[Address(RVA = "0x2A40F70", Offset = "0x2A3F570", VA = "0x182A40F70")]
+	[Address(RVA = "0x640E4C0", Offset = "0x640D4C0", VA = "0x640E4C0")]
 	public static uint4x4 operator ^(uint4x4 lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -579,7 +579,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A5")]
-	[Address(RVA = "0x2A40E90", Offset = "0x2A3F490", VA = "0x182A40E90")]
+	[Address(RVA = "0x640E500", Offset = "0x640D500", VA = "0x640E500")]
 	public static uint4x4 operator ^(uint4x4 lhs, uint rhs)
 	{
 		return default(uint4x4);
@@ -587,7 +587,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A6")]
-	[Address(RVA = "0x2A40F00", Offset = "0x2A3F500", VA = "0x182A40F00")]
+	[Address(RVA = "0x640E550", Offset = "0x640D550", VA = "0x640E550")]
 	public static uint4x4 operator ^(uint lhs, uint4x4 rhs)
 	{
 		return default(uint4x4);
@@ -595,14 +595,14 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024A8")]
-	[Address(RVA = "0x2A38750", Offset = "0x2A36D50", VA = "0x182A38750", Slot = "4")]
+	[Address(RVA = "0x640E5B0", Offset = "0x640D5B0", VA = "0x640E5B0", Slot = "4")]
 	public bool Equals(uint4x4 rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024A9")]
-	[Address(RVA = "0x2A3F1F0", Offset = "0x2A3D7F0", VA = "0x182A3F1F0", Slot = "0")]
+	[Address(RVA = "0x640E660", Offset = "0x640D660", VA = "0x640E660", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
@@ -610,7 +610,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024AA")]
-	[Address(RVA = "0x2A3F2A0", Offset = "0x2A3D8A0", VA = "0x182A3F2A0", Slot = "2")]
+	[Address(RVA = "0x640E770", Offset = "0x640D770", VA = "0x640E770", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -618,7 +618,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024AB")]
-	[Address(RVA = "0x2A3F3E0", Offset = "0x2A3D9E0", VA = "0x182A3F3E0", Slot = "3")]
+	[Address(RVA = "0x640E880", Offset = "0x640D880", VA = "0x640E880", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -626,7 +626,7 @@ public struct uint4x4 : IEquatable<uint4x4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024AC")]
-	[Address(RVA = "0x2A3FA80", Offset = "0x2A3E080", VA = "0x182A3FA80", Slot = "5")]
+	[Address(RVA = "0x640EE50", Offset = "0x640DE50", VA = "0x640EE50", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

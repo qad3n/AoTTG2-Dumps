@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000204")]
+[Token(Token = "0x2000205")]
 public enum SpeechSystemStatus
 {
-	[Token(Token = "0x40006D7")]
+	[Token(Token = "0x40006DC")]
 	Stopped,
-	[Token(Token = "0x40006D8")]
+	[Token(Token = "0x40006DD")]
 	Running,
-	[Token(Token = "0x40006D9")]
+	[Token(Token = "0x40006DE")]
 	Failed
 }

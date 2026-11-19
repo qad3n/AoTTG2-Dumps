@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Sampling.SamplingResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,19 +45,19 @@ internal sealed class SamplingResources : IDisposable
 	public static readonly uint[] sobolMatrices;
 
 	[Token(Token = "0x6000FE1")]
-	[Address(RVA = "0x2B80C70", Offset = "0x2B7F270", VA = "0x182B80C70")]
+	[Address(RVA = "0x655CDD0", Offset = "0x655BDD0", VA = "0x655CDD0")]
 	public static void Bind(CommandBuffer cmd, SamplingResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000FE2")]
-	[Address(RVA = "0x2B80E80", Offset = "0x2B7F480", VA = "0x182B80E80", Slot = "4")]
+	[Address(RVA = "0x655CFC0", Offset = "0x655BFC0", VA = "0x655CFC0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000FE3")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x655CFE0", Offset = "0x655BFE0", VA = "0x655CFE0")]
 	public SamplingResources()
 	{
 	}

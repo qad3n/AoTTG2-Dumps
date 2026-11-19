@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncUpdateSelectedTrigger : AsyncTriggerBase<BaseEventData>, IUpdateSelectedHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C86")]
-	[Address(RVA = "0x293ED10", Offset = "0x293D310", VA = "0x18293ED10", Slot = "5")]
+	[Address(RVA = "0x63064B0", Offset = "0x63054B0", VA = "0x63064B0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIUpdateSelectedHandler_002EOnUpdateSelected(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C87")]
-	[Address(RVA = "0x293E9F0", Offset = "0x293CFF0", VA = "0x18293E9F0")]
+	[Address(RVA = "0x6306500", Offset = "0x6305500", VA = "0x6306500")]
 	public IAsyncOnUpdateSelectedHandler GetOnUpdateSelectedAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C88")]
-	[Address(RVA = "0x293EA60", Offset = "0x293D060", VA = "0x18293EA60")]
+	[Address(RVA = "0x6306570", Offset = "0x6305570", VA = "0x6306570")]
 	public IAsyncOnUpdateSelectedHandler GetOnUpdateSelectedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C89")]
-	[Address(RVA = "0x293EBF0", Offset = "0x293D1F0", VA = "0x18293EBF0")]
+	[Address(RVA = "0x63065E0", Offset = "0x63055E0", VA = "0x63065E0")]
 	public UniTask<BaseEventData> OnUpdateSelectedAsync()
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C8A")]
-	[Address(RVA = "0x293EAE0", Offset = "0x293D0E0", VA = "0x18293EAE0")]
+	[Address(RVA = "0x63066E0", Offset = "0x63056E0", VA = "0x63066E0")]
 	public UniTask<BaseEventData> OnUpdateSelectedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C8B")]
-	[Address(RVA = "0x293ED60", Offset = "0x293D360", VA = "0x18293ED60")]
+	[Address(RVA = "0x63067F0", Offset = "0x63057F0", VA = "0x63067F0")]
 	public AsyncUpdateSelectedTrigger()
 	{
 	}

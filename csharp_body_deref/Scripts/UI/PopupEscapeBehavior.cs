@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.PopupEscapeBehavior
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006E2")]
+[Token(Token = "0x200078B")]
 internal enum PopupEscapeBehavior
 {
-	[Token(Token = "0x400228F")]
+	[Token(Token = "0x4002609")]
 	Dismiss,
-	[Token(Token = "0x4002290")]
+	[Token(Token = "0x400260A")]
 	Block,
-	[Token(Token = "0x4002291")]
+	[Token(Token = "0x400260B")]
 	Ignore,
-	[Token(Token = "0x4002292")]
+	[Token(Token = "0x400260C")]
 	PassThrough
 }

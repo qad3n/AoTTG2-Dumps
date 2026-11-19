@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20007F8")]
+[Token(Token = "0x2000884")]
 internal class MainMenuBackgroundPanel : LoadingBackgroundPanel
 {
-	[Token(Token = "0x17000DEC")]
+	[Token(Token = "0x17000E31")]
 	protected override float AnimationTime
 	{
-		[Token(Token = "0x6004CF5")]
-		[Address(RVA = "0x20CF430", Offset = "0x20CDA30", VA = "0x1820CF430", Slot = "51")]
+		[Token(Token = "0x6005127")]
+		[Address(RVA = "0x5C58560", Offset = "0x5C57560", VA = "0x5C58560", Slot = "51")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6004CF6")]
-	[Address(RVA = "0x228DDF0", Offset = "0x228C3F0", VA = "0x18228DDF0")]
+	[Token(Token = "0x6005128")]
+	[Address(RVA = "0x5C58570", Offset = "0x5C57570", VA = "0x5C58570")]
 	public MainMenuBackgroundPanel()
 	{
 	}

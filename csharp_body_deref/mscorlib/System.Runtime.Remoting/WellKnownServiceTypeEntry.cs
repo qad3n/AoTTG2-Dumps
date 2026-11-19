@@ -10,63 +10,63 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000387")]
+[Token(Token = "0x2000360")]
 [ComVisible(true)]
 public class WellKnownServiceTypeEntry : TypeEntry
 {
-	[Token(Token = "0x4000ED4")]
+	[Token(Token = "0x4000E34")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Type obj_type;
 
-	[Token(Token = "0x4000ED5")]
+	[Token(Token = "0x4000E35")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string obj_uri;
 
-	[Token(Token = "0x4000ED6")]
+	[Token(Token = "0x4000E36")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private WellKnownObjectMode obj_mode;
 
-	[Token(Token = "0x17000353")]
+	[Token(Token = "0x17000352")]
 	public WellKnownObjectMode Mode
 	{
-		[Token(Token = "0x6001D52")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Token(Token = "0x6001D28")]
+		[Address(RVA = "0x5379810", Offset = "0x5378810", VA = "0x5379810")]
 		get
 		{
 			return default(WellKnownObjectMode);
 		}
 	}
 
-	[Token(Token = "0x17000354")]
+	[Token(Token = "0x17000353")]
 	public Type ObjectType
 	{
-		[Token(Token = "0x6001D53")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001D29")]
+		[Address(RVA = "0x5379820", Offset = "0x5378820", VA = "0x5379820")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000355")]
+	[Token(Token = "0x17000354")]
 	public string ObjectUri
 	{
-		[Token(Token = "0x6001D54")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001D2A")]
+		[Address(RVA = "0x5379830", Offset = "0x5378830", VA = "0x5379830")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D51")]
-	[Address(RVA = "0x1A0B4D0", Offset = "0x1A09AD0", VA = "0x181A0B4D0")]
+	[Token(Token = "0x6001D27")]
+	[Address(RVA = "0x53796D0", Offset = "0x53786D0", VA = "0x53796D0")]
 	public WellKnownServiceTypeEntry(string typeName, string assemblyName, string objectUri, WellKnownObjectMode mode)
 	{
 	}
 
-	[Token(Token = "0x6001D55")]
-	[Address(RVA = "0x1A0B3D0", Offset = "0x1A099D0", VA = "0x181A0B3D0", Slot = "3")]
+	[Token(Token = "0x6001D2B")]
+	[Address(RVA = "0x5379840", Offset = "0x5378840", VA = "0x5379840", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

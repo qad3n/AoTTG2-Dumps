@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x20001AD")]
 internal class TypeIdentifiers
 {
-	[Token(Token = "0x20001D6")]
+	[Token(Token = "0x20001AE")]
 	private class Display : System.TypeNames.ATypeName, System.TypeIdentifier, System.TypeName, IEquatable<System.TypeName>
 	{
-		[Token(Token = "0x4000911")]
+		[Token(Token = "0x400086F")]
 		[FieldOffset(Offset = "0x10")]
 		private string displayName;
 
-		[Token(Token = "0x4000912")]
+		[Token(Token = "0x4000870")]
 		[FieldOffset(Offset = "0x18")]
 		private string internal_name;
 
-		[Token(Token = "0x1700017F")]
+		[Token(Token = "0x1700017E")]
 		public override string DisplayName
 		{
-			[Token(Token = "0x60010C3")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "6")]
+			[Token(Token = "0x600109A")]
+			[Address(RVA = "0x551EAB0", Offset = "0x551DAB0", VA = "0x551EAB0", Slot = "6")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000180")]
+		[Token(Token = "0x1700017F")]
 		public string InternalName
 		{
-			[Token(Token = "0x60010C4")]
-			[Address(RVA = "0x1B809E0", Offset = "0x1B7EFE0", VA = "0x181B809E0", Slot = "7")]
+			[Token(Token = "0x600109B")]
+			[Address(RVA = "0x551EAC0", Offset = "0x551DAC0", VA = "0x551EAC0", Slot = "7")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60010C2")]
-		[Address(RVA = "0x1B809B0", Offset = "0x1B7EFB0", VA = "0x181B809B0")]
+		[Token(Token = "0x6001099")]
+		[Address(RVA = "0x551EA80", Offset = "0x551DA80", VA = "0x551EA80")]
 		internal Display(string displayName)
 		{
 		}
 
-		[Token(Token = "0x60010C5")]
-		[Address(RVA = "0x1B809A0", Offset = "0x1B7EFA0", VA = "0x181B809A0")]
+		[Token(Token = "0x600109C")]
+		[Address(RVA = "0x551EB00", Offset = "0x551DB00", VA = "0x551EB00")]
 		private string GetInternalName()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60010C1")]
-	[Address(RVA = "0x1B91040", Offset = "0x1B8F640", VA = "0x181B91040")]
+	[Token(Token = "0x6001098")]
+	[Address(RVA = "0x551EA10", Offset = "0x551DA10", VA = "0x551EA10")]
 	internal static System.TypeIdentifier FromDisplay(string displayName)
 	{
 		return null;

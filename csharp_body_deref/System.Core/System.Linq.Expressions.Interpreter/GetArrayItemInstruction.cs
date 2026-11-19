@@ -9,54 +9,54 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x20000E5")]
 internal sealed class GetArrayItemInstruction : Instruction
 {
-	[Token(Token = "0x4000227")]
+	[Token(Token = "0x4000230")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly GetArrayItemInstruction Instance;
 
-	[Token(Token = "0x1700014C")]
+	[Token(Token = "0x1700014E")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005D1")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
+		[Token(Token = "0x60005DC")]
+		[Address(RVA = "0x5DDB340", Offset = "0x5DDA340", VA = "0x5DDB340", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700014D")]
+	[Token(Token = "0x1700014F")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005D2")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x60005DD")]
+		[Address(RVA = "0x5DDB350", Offset = "0x5DDA350", VA = "0x5DDB350", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700014E")]
+	[Token(Token = "0x17000150")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x24399E0", Offset = "0x2437FE0", VA = "0x1824399E0", Slot = "9")]
+		[Token(Token = "0x60005DE")]
+		[Address(RVA = "0x5DDB360", Offset = "0x5DDA360", VA = "0x5DDB360", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005D0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60005DB")]
+	[Address(RVA = "0x5DDB330", Offset = "0x5DDA330", VA = "0x5DDB330")]
 	private GetArrayItemInstruction()
 	{
 	}
 
-	[Token(Token = "0x60005D4")]
-	[Address(RVA = "0x24398D0", Offset = "0x2437ED0", VA = "0x1824398D0", Slot = "8")]
+	[Token(Token = "0x60005DF")]
+	[Address(RVA = "0x5DDB390", Offset = "0x5DDA390", VA = "0x5DDB390", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

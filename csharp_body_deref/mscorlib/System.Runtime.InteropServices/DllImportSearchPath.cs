@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000478")]
+[Token(Token = "0x2000451")]
 [Flags]
 public enum DllImportSearchPath
 {
-	[Token(Token = "0x40012B2")]
+	[Token(Token = "0x4001212")]
 	UseDllDirectoryForDependencies = 0x100,
-	[Token(Token = "0x40012B3")]
+	[Token(Token = "0x4001213")]
 	ApplicationDirectory = 0x200,
-	[Token(Token = "0x40012B4")]
+	[Token(Token = "0x4001214")]
 	UserDirectories = 0x400,
-	[Token(Token = "0x40012B5")]
+	[Token(Token = "0x4001215")]
 	System32 = 0x800,
-	[Token(Token = "0x40012B6")]
+	[Token(Token = "0x4001216")]
 	SafeDirectories = 0x1000,
-	[Token(Token = "0x40012B7")]
+	[Token(Token = "0x4001217")]
 	AssemblyDirectory = 2,
-	[Token(Token = "0x40012B8")]
+	[Token(Token = "0x4001218")]
 	LegacyBehavior = 0
 }

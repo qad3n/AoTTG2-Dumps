@@ -17,10 +17,10 @@ namespace UnityEngine.XR;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x200000E")]
-[UnityEngine.Bindings.StaticAccessor("XRInputDevices::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
-[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
+[UnityEngine.Bindings.StaticAccessor("XRInputDevices::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 public class InputDevices
 {
 	[Token(Token = "0x4000040")]
@@ -42,7 +42,7 @@ public class InputDevices
 	private static Action<InputDevice> deviceConfigChanged;
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x33132D0", Offset = "0x33118D0", VA = "0x1833132D0")]
+	[Address(RVA = "0x6D22F70", Offset = "0x6D21F70", VA = "0x6D22F70")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeConnectionEvent(ulong deviceId, ConnectionChangeType change)
 	{

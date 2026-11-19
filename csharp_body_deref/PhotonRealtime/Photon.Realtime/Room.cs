@@ -28,14 +28,14 @@ public class Room : RoomInfo
 	public LoadBalancingClient LoadBalancingClient
 	{
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x56C0770", Offset = "0x56BF770", VA = "0x56C0770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x56C0780", Offset = "0x56BF780", VA = "0x56C0780")]
 		[CompilerGenerated]
 		set
 		{
@@ -46,13 +46,13 @@ public class Room : RoomInfo
 	public new string Name
 	{
 		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x56C0790", Offset = "0x56BF790", VA = "0x56C0790")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x56C07A0", Offset = "0x56BF7A0", VA = "0x56C07A0")]
 		internal set
 		{
 		}
@@ -62,13 +62,13 @@ public class Room : RoomInfo
 	public bool IsOffline
 	{
 		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x56C07B0", Offset = "0x56BF7B0", VA = "0x56C07B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x12BF400", Offset = "0x12BDA00", VA = "0x1812BF400")]
+		[Address(RVA = "0x56C07C0", Offset = "0x56BF7C0", VA = "0x56C07C0")]
 		private set
 		{
 		}
@@ -78,13 +78,13 @@ public class Room : RoomInfo
 	public new bool IsOpen
 	{
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x56C07D0", Offset = "0x56BF7D0", VA = "0x56C07D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0x1D2B490", Offset = "0x1D29A90", VA = "0x181D2B490")]
+		[Address(RVA = "0x56C07E0", Offset = "0x56BF7E0", VA = "0x56C07E0")]
 		set
 		{
 		}
@@ -94,13 +94,13 @@ public class Room : RoomInfo
 	public new bool IsVisible
 	{
 		[Token(Token = "0x60001C2")]
-		[Address(RVA = "0xF1D4C0", Offset = "0xF1BAC0", VA = "0x180F1D4C0")]
+		[Address(RVA = "0x56C0890", Offset = "0x56BF890", VA = "0x56C0890")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001C3")]
-		[Address(RVA = "0x1D2B560", Offset = "0x1D29B60", VA = "0x181D2B560")]
+		[Address(RVA = "0x56C08A0", Offset = "0x56BF8A0", VA = "0x56C08A0")]
 		set
 		{
 		}
@@ -110,13 +110,13 @@ public class Room : RoomInfo
 	public new int MaxPlayers
 	{
 		[Token(Token = "0x60001C4")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x56C0950", Offset = "0x56BF950", VA = "0x56C0950")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001C5")]
-		[Address(RVA = "0x1D2B630", Offset = "0x1D29C30", VA = "0x181D2B630")]
+		[Address(RVA = "0x56C0960", Offset = "0x56BF960", VA = "0x56C0960")]
 		set
 		{
 		}
@@ -126,7 +126,7 @@ public class Room : RoomInfo
 	public new int PlayerCount
 	{
 		[Token(Token = "0x60001C6")]
-		[Address(RVA = "0x1D2B380", Offset = "0x1D29980", VA = "0x181D2B380")]
+		[Address(RVA = "0x56C0A20", Offset = "0x56BFA20", VA = "0x56C0A20")]
 		get
 		{
 			return default(int);
@@ -137,13 +137,13 @@ public class Room : RoomInfo
 	public Dictionary<int, Player> Players
 	{
 		[Token(Token = "0x60001C7")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x56C0A70", Offset = "0x56BFA70", VA = "0x56C0A70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x56C0A80", Offset = "0x56BFA80", VA = "0x56C0A80")]
 		private set
 		{
 		}
@@ -153,7 +153,7 @@ public class Room : RoomInfo
 	public string[] ExpectedUsers
 	{
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x56C0A90", Offset = "0x56BFA90", VA = "0x56C0A90")]
 		get
 		{
 			return null;
@@ -164,13 +164,13 @@ public class Room : RoomInfo
 	public int PlayerTtl
 	{
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x56C0AA0", Offset = "0x56BFAA0", VA = "0x56C0AA0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x1D2B700", Offset = "0x1D29D00", VA = "0x181D2B700")]
+		[Address(RVA = "0x56C0AB0", Offset = "0x56BFAB0", VA = "0x56C0AB0")]
 		set
 		{
 		}
@@ -180,13 +180,13 @@ public class Room : RoomInfo
 	public int EmptyRoomTtl
 	{
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x56C0B10", Offset = "0x56BFB10", VA = "0x56C0B10")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x1D2B420", Offset = "0x1D29A20", VA = "0x181D2B420")]
+		[Address(RVA = "0x56C0B20", Offset = "0x56BFB20", VA = "0x56C0B20")]
 		set
 		{
 		}
@@ -196,7 +196,7 @@ public class Room : RoomInfo
 	public int MasterClientId
 	{
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x56C0B80", Offset = "0x56BFB80", VA = "0x56C0B80")]
 		get
 		{
 			return default(int);
@@ -207,13 +207,13 @@ public class Room : RoomInfo
 	public string[] PropertiesListedInLobby
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x56C0B90", Offset = "0x56BFB90", VA = "0x56C0B90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x56C0BA0", Offset = "0x56BFBA0", VA = "0x56C0BA0")]
 		private set
 		{
 		}
@@ -223,7 +223,7 @@ public class Room : RoomInfo
 	public bool AutoCleanUp
 	{
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x19EDC10", Offset = "0x19EC210", VA = "0x1819EDC10")]
+		[Address(RVA = "0x56C0BB0", Offset = "0x56BFBB0", VA = "0x56C0BB0")]
 		get
 		{
 			return default(bool);
@@ -234,14 +234,14 @@ public class Room : RoomInfo
 	public bool BroadcastPropertiesChangeToAll
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x1D2B360", Offset = "0x1D29960", VA = "0x181D2B360")]
+		[Address(RVA = "0x56C0BC0", Offset = "0x56BFBC0", VA = "0x56C0BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x1D2B400", Offset = "0x1D29A00", VA = "0x181D2B400")]
+		[Address(RVA = "0x56C0BD0", Offset = "0x56BFBD0", VA = "0x56C0BD0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -252,14 +252,14 @@ public class Room : RoomInfo
 	public bool SuppressRoomEvents
 	{
 		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0x1D2B3F0", Offset = "0x1D299F0", VA = "0x181D2B3F0")]
+		[Address(RVA = "0x56C0BE0", Offset = "0x56BFBE0", VA = "0x56C0BE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x1D2B790", Offset = "0x1D29D90", VA = "0x181D2B790")]
+		[Address(RVA = "0x56C0BF0", Offset = "0x56BFBF0", VA = "0x56C0BF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -270,14 +270,14 @@ public class Room : RoomInfo
 	public bool SuppressPlayerInfo
 	{
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x1D2B3E0", Offset = "0x1D299E0", VA = "0x181D2B3E0")]
+		[Address(RVA = "0x56C0C00", Offset = "0x56BFC00", VA = "0x56C0C00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x1D2B780", Offset = "0x1D29D80", VA = "0x181D2B780")]
+		[Address(RVA = "0x56C0C10", Offset = "0x56BFC10", VA = "0x56C0C10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -288,14 +288,14 @@ public class Room : RoomInfo
 	public bool PublishUserId
 	{
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x1D2B3D0", Offset = "0x1D299D0", VA = "0x181D2B3D0")]
+		[Address(RVA = "0x56C0C20", Offset = "0x56BFC20", VA = "0x56C0C20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x1D2B770", Offset = "0x1D29D70", VA = "0x181D2B770")]
+		[Address(RVA = "0x56C0C30", Offset = "0x56BFC30", VA = "0x56C0C30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -306,14 +306,14 @@ public class Room : RoomInfo
 	public bool DeleteNullProperties
 	{
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x1D2B370", Offset = "0x1D29970", VA = "0x181D2B370")]
+		[Address(RVA = "0x56C0C40", Offset = "0x56BFC40", VA = "0x56C0C40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x1D2B410", Offset = "0x1D29A10", VA = "0x181D2B410")]
+		[Address(RVA = "0x56C0C50", Offset = "0x56BFC50", VA = "0x56C0C50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -321,107 +321,107 @@ public class Room : RoomInfo
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x1D2B220", Offset = "0x1D29820", VA = "0x181D2B220")]
+	[Address(RVA = "0x56C0C60", Offset = "0x56BFC60", VA = "0x56C0C60")]
 	public Room(string roomName, RoomOptions options, bool isOffline = false)
 	{
 	}
 
 	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x1D2A5F0", Offset = "0x1D28BF0", VA = "0x181D2A5F0")]
+	[Address(RVA = "0x56C0DE0", Offset = "0x56BFDE0", VA = "0x56C0DE0")]
 	internal void InternalCacheRoomFlags(int roomFlags)
 	{
 	}
 
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x1D2A580", Offset = "0x1D28B80", VA = "0x181D2A580", Slot = "4")]
+	[Address(RVA = "0x56C0E20", Offset = "0x56BFE20", VA = "0x56C0E20", Slot = "4")]
 	protected internal override void InternalCacheProperties(Hashtable propertiesToCache)
 	{
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x1D2A6E0", Offset = "0x1D28CE0", VA = "0x181D2A6E0", Slot = "5")]
+	[Address(RVA = "0x56C1340", Offset = "0x56C0340", VA = "0x56C1340", Slot = "5")]
 	public virtual bool SetCustomProperties(Hashtable propertiesToSet, [Optional] Hashtable expectedProperties, [Optional] WebFlags webFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E0")]
-	[Address(RVA = "0x1D2AB00", Offset = "0x1D29100", VA = "0x181D2AB00")]
+	[Address(RVA = "0x56C1490", Offset = "0x56C0490", VA = "0x56C1490")]
 	public bool SetPropertiesListedInLobby(string[] lobbyProps)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x1D2A670", Offset = "0x1D28C70", VA = "0x181D2A670", Slot = "6")]
+	[Address(RVA = "0x56C1520", Offset = "0x56C0520", VA = "0x56C1520", Slot = "6")]
 	protected internal virtual void RemovePlayer(Player player)
 	{
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x1D2A630", Offset = "0x1D28C30", VA = "0x181D2A630", Slot = "7")]
+	[Address(RVA = "0x56C1590", Offset = "0x56C0590", VA = "0x56C1590", Slot = "7")]
 	protected internal virtual void RemovePlayer(int id)
 	{
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x1D2A9E0", Offset = "0x1D28FE0", VA = "0x181D2A9E0")]
+	[Address(RVA = "0x56C15D0", Offset = "0x56C05D0", VA = "0x56C15D0")]
 	public bool SetMasterClient(Player masterClientPlayer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x1D2A400", Offset = "0x1D28A00", VA = "0x181D2A400", Slot = "8")]
+	[Address(RVA = "0x56C16E0", Offset = "0x56C06E0", VA = "0x56C16E0", Slot = "8")]
 	public virtual bool AddPlayer(Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x1D2ABB0", Offset = "0x1D291B0", VA = "0x181D2ABB0", Slot = "9")]
+	[Address(RVA = "0x56C1760", Offset = "0x56C0760", VA = "0x56C1760", Slot = "9")]
 	public virtual Player StorePlayer(Player player)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x1D2A500", Offset = "0x1D28B00", VA = "0x181D2A500", Slot = "10")]
+	[Address(RVA = "0x56C17D0", Offset = "0x56C07D0", VA = "0x56C17D0", Slot = "10")]
 	public virtual Player GetPlayer(int id, bool findMaster = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x1D2A490", Offset = "0x1D28A90", VA = "0x181D2A490")]
+	[Address(RVA = "0x56C1850", Offset = "0x56C0850", VA = "0x56C1850")]
 	public bool ClearExpectedUsers()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x1D2A840", Offset = "0x1D28E40", VA = "0x181D2A840")]
+	[Address(RVA = "0x56C19A0", Offset = "0x56C09A0", VA = "0x56C19A0")]
 	public bool SetExpectedUsers(string[] newExpectedUsers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x1D2A8D0", Offset = "0x1D28ED0", VA = "0x181D2A8D0")]
+	[Address(RVA = "0x56C18B0", Offset = "0x56C08B0", VA = "0x56C18B0")]
 	private bool SetExpectedUsers(string[] newExpectedUsers, string[] oldExpectedUsers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x1D2AF60", Offset = "0x1D29560", VA = "0x181D2AF60", Slot = "3")]
+	[Address(RVA = "0x56C1A20", Offset = "0x56C0A20", VA = "0x56C1A20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x1D2AC20", Offset = "0x1D29220", VA = "0x181D2AC20")]
+	[Address(RVA = "0x56C1CD0", Offset = "0x56C0CD0", VA = "0x56C1CD0")]
 	public new string ToStringFull()
 	{
 		return null;

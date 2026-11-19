@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000014")]
 internal struct RuntimeRemoteClassHandle
 {
-	[Token(Token = "0x400010E")]
+	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe Mono.RuntimeStructs.RemoteClass* value;
 
 	[Token(Token = "0x17000006")]
 	internal Mono.RuntimeClassHandle ProxyClass
 	{
-		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x194CC80", Offset = "0x194B280", VA = "0x18194CC80")]
+		[Token(Token = "0x6000047")]
+		[Address(RVA = "0x52D9080", Offset = "0x52D8080", VA = "0x52D9080")]
 		get
 		{
 			return default(Mono.RuntimeClassHandle);

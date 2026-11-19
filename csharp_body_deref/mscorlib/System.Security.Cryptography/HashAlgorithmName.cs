@@ -9,18 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002F2")]
+[Token(Token = "0x20002CB")]
 public readonly struct HashAlgorithmName : IEquatable<HashAlgorithmName>
 {
-	[Token(Token = "0x4000CCA")]
+	[Token(Token = "0x4000C2A")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly string _name;
 
-	[Token(Token = "0x17000280")]
+	[Token(Token = "0x1700027F")]
 	public static HashAlgorithmName MD5
 	{
-		[Token(Token = "0x60018AE")]
-		[Address(RVA = "0x19AA000", Offset = "0x19A8600", VA = "0x1819AA000")]
+		[Token(Token = "0x600188B")]
+		[Address(RVA = "0x5334B70", Offset = "0x5333B70", VA = "0x5334B70")]
+		get
+		{
+			return default(HashAlgorithmName);
+		}
+	}
+
+	[Token(Token = "0x17000280")]
+	public static HashAlgorithmName SHA1
+	{
+		[Token(Token = "0x600188C")]
+		[Address(RVA = "0x532D970", Offset = "0x532C970", VA = "0x532D970")]
 		get
 		{
 			return default(HashAlgorithmName);
@@ -28,10 +39,10 @@ public readonly struct HashAlgorithmName : IEquatable<HashAlgorithmName>
 	}
 
 	[Token(Token = "0x17000281")]
-	public static HashAlgorithmName SHA1
+	public static HashAlgorithmName SHA256
 	{
-		[Token(Token = "0x60018AF")]
-		[Address(RVA = "0x19AA040", Offset = "0x19A8640", VA = "0x1819AA040")]
+		[Token(Token = "0x600188D")]
+		[Address(RVA = "0x532EF10", Offset = "0x532DF10", VA = "0x532EF10")]
 		get
 		{
 			return default(HashAlgorithmName);
@@ -39,10 +50,10 @@ public readonly struct HashAlgorithmName : IEquatable<HashAlgorithmName>
 	}
 
 	[Token(Token = "0x17000282")]
-	public static HashAlgorithmName SHA256
+	public static HashAlgorithmName SHA384
 	{
-		[Token(Token = "0x60018B0")]
-		[Address(RVA = "0x19AA080", Offset = "0x19A8680", VA = "0x1819AA080")]
+		[Token(Token = "0x600188E")]
+		[Address(RVA = "0x532EF50", Offset = "0x532DF50", VA = "0x532EF50")]
 		get
 		{
 			return default(HashAlgorithmName);
@@ -50,10 +61,10 @@ public readonly struct HashAlgorithmName : IEquatable<HashAlgorithmName>
 	}
 
 	[Token(Token = "0x17000283")]
-	public static HashAlgorithmName SHA384
+	public static HashAlgorithmName SHA512
 	{
-		[Token(Token = "0x60018B1")]
-		[Address(RVA = "0x19AA0C0", Offset = "0x19A86C0", VA = "0x1819AA0C0")]
+		[Token(Token = "0x600188F")]
+		[Address(RVA = "0x532EF90", Offset = "0x532DF90", VA = "0x532EF90")]
 		get
 		{
 			return default(HashAlgorithmName);
@@ -61,70 +72,59 @@ public readonly struct HashAlgorithmName : IEquatable<HashAlgorithmName>
 	}
 
 	[Token(Token = "0x17000284")]
-	public static HashAlgorithmName SHA512
-	{
-		[Token(Token = "0x60018B2")]
-		[Address(RVA = "0x19AA100", Offset = "0x19A8700", VA = "0x1819AA100")]
-		get
-		{
-			return default(HashAlgorithmName);
-		}
-	}
-
-	[Token(Token = "0x17000285")]
 	public string Name
 	{
-		[Token(Token = "0x60018B4")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6001891")]
+		[Address(RVA = "0x5334BC0", Offset = "0x5333BC0", VA = "0x5334BC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60018B3")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Token(Token = "0x6001890")]
+	[Address(RVA = "0x5334BB0", Offset = "0x5333BB0", VA = "0x5334BB0")]
 	public HashAlgorithmName(string name)
 	{
 	}
 
-	[Token(Token = "0x60018B5")]
-	[Address(RVA = "0x19A9FE0", Offset = "0x19A85E0", VA = "0x1819A9FE0", Slot = "3")]
+	[Token(Token = "0x6001892")]
+	[Address(RVA = "0x5334BD0", Offset = "0x5333BD0", VA = "0x5334BD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018B6")]
-	[Address(RVA = "0x19A9F20", Offset = "0x19A8520", VA = "0x1819A9F20", Slot = "0")]
+	[Token(Token = "0x6001893")]
+	[Address(RVA = "0x5334C00", Offset = "0x5333C00", VA = "0x5334C00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018B7")]
-	[Address(RVA = "0x19A9FB0", Offset = "0x19A85B0", VA = "0x1819A9FB0", Slot = "4")]
+	[Token(Token = "0x6001894")]
+	[Address(RVA = "0x5334C60", Offset = "0x5333C60", VA = "0x5334C60", Slot = "4")]
 	public bool Equals(HashAlgorithmName other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018B8")]
-	[Address(RVA = "0x19A9FC0", Offset = "0x19A85C0", VA = "0x1819A9FC0", Slot = "2")]
+	[Token(Token = "0x6001895")]
+	[Address(RVA = "0x5334C70", Offset = "0x5333C70", VA = "0x5334C70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018B9")]
-	[Address(RVA = "0x19AA140", Offset = "0x19A8740", VA = "0x1819AA140")]
+	[Token(Token = "0x6001896")]
+	[Address(RVA = "0x532EF00", Offset = "0x532DF00", VA = "0x532EF00")]
 	public static bool operator ==(HashAlgorithmName left, HashAlgorithmName right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018BA")]
-	[Address(RVA = "0x19AA150", Offset = "0x19A8750", VA = "0x1819AA150")]
+	[Token(Token = "0x6001897")]
+	[Address(RVA = "0x5334C90", Offset = "0x5333C90", VA = "0x5334C90")]
 	public static bool operator !=(HashAlgorithmName left, HashAlgorithmName right)
 	{
 		return default(bool);

@@ -36,13 +36,13 @@ public struct TMP_Offset
 	public float left
 	{
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
+		[Address(RVA = "0x66DCB10", Offset = "0x66DBB10", VA = "0x66DCB10")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
+		[Address(RVA = "0x66DCB20", Offset = "0x66DBB20", VA = "0x66DCB20")]
 		set
 		{
 		}
@@ -52,13 +52,13 @@ public struct TMP_Offset
 	public float right
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x562BB0", Offset = "0x5611B0", VA = "0x180562BB0")]
+		[Address(RVA = "0x66DCB30", Offset = "0x66DBB30", VA = "0x66DCB30")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
+		[Address(RVA = "0x66DCB40", Offset = "0x66DBB40", VA = "0x66DCB40")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ public struct TMP_Offset
 	public float top
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Address(RVA = "0x66DCB50", Offset = "0x66DBB50", VA = "0x66DCB50")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
+		[Address(RVA = "0x66DCB60", Offset = "0x66DBB60", VA = "0x66DCB60")]
 		set
 		{
 		}
@@ -84,13 +84,13 @@ public struct TMP_Offset
 	public float bottom
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
+		[Address(RVA = "0x66DCB70", Offset = "0x66DBB70", VA = "0x66DCB70")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
+		[Address(RVA = "0x66DCB80", Offset = "0x66DBB80", VA = "0x66DCB80")]
 		set
 		{
 		}
@@ -100,13 +100,13 @@ public struct TMP_Offset
 	public float horizontal
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
+		[Address(RVA = "0x66DCB90", Offset = "0x66DBB90", VA = "0x66DCB90")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x2A727B0", Offset = "0x2A70DB0", VA = "0x182A727B0")]
+		[Address(RVA = "0x66DCBA0", Offset = "0x66DBBA0", VA = "0x66DCBA0")]
 		set
 		{
 		}
@@ -116,13 +116,13 @@ public struct TMP_Offset
 	public float vertical
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+		[Address(RVA = "0x66DCBB0", Offset = "0x66DBBB0", VA = "0x66DCBB0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x2CF4200", Offset = "0x2CF2800", VA = "0x182CF4200")]
+		[Address(RVA = "0x66DCBC0", Offset = "0x66DBBC0", VA = "0x66DCBC0")]
 		set
 		{
 		}
@@ -132,7 +132,7 @@ public struct TMP_Offset
 	public static TMP_Offset zero
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x2CF4100", Offset = "0x2CF2700", VA = "0x182CF4100")]
+		[Address(RVA = "0x66DCBD0", Offset = "0x66DBBD0", VA = "0x66DCBD0")]
 		get
 		{
 			return default(TMP_Offset);
@@ -140,54 +140,54 @@ public struct TMP_Offset
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x66DCC20", Offset = "0x66DBC20", VA = "0x66DCC20")]
 	public TMP_Offset(float left, float right, float top, float bottom)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x2CF40E0", Offset = "0x2CF26E0", VA = "0x182CF40E0")]
+	[Address(RVA = "0x66DCC40", Offset = "0x66DBC40", VA = "0x66DCC40")]
 	public TMP_Offset(float horizontal, float vertical)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x25B49C0", Offset = "0x25B2FC0", VA = "0x1825B49C0")]
+	[Address(RVA = "0x66DCC50", Offset = "0x66DBC50", VA = "0x66DCC50")]
 	public static bool operator ==(TMP_Offset lhs, TMP_Offset rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x2CF4160", Offset = "0x2CF2760", VA = "0x182CF4160")]
+	[Address(RVA = "0x66DCC80", Offset = "0x66DBC80", VA = "0x66DCC80")]
 	public static bool operator !=(TMP_Offset lhs, TMP_Offset rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x29C7CF0", Offset = "0x29C62F0", VA = "0x1829C7CF0")]
+	[Address(RVA = "0x66DCD70", Offset = "0x66DBD70", VA = "0x66DCD70")]
 	public static TMP_Offset operator *(TMP_Offset a, float b)
 	{
 		return default(TMP_Offset);
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x2CF4050", Offset = "0x2CF2650", VA = "0x182CF4050", Slot = "2")]
+	[Address(RVA = "0x66DCD90", Offset = "0x66DBD90", VA = "0x66DCD90", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x2CF3FF0", Offset = "0x2CF25F0", VA = "0x182CF3FF0", Slot = "0")]
+	[Address(RVA = "0x66DCDE0", Offset = "0x66DBDE0", VA = "0x66DCDE0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2CF3F70", Offset = "0x2CF2570", VA = "0x182CF3F70")]
+	[Address(RVA = "0x66DCE40", Offset = "0x66DBE40", VA = "0x66DCE40")]
 	public bool Equals(TMP_Offset other)
 	{
 		return default(bool);

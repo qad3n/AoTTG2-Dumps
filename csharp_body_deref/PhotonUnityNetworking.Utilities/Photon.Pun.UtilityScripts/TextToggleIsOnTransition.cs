@@ -45,37 +45,37 @@ public class TextToggleIsOnTransition : MonoBehaviour, IPointerEnterHandler, IEv
 	private bool isHover;
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x1D5FD00", Offset = "0x1D5E300", VA = "0x181D5FD00")]
+	[Address(RVA = "0x56F8E30", Offset = "0x56F7E30", VA = "0x56F8E30")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x1D5FC50", Offset = "0x1D5E250", VA = "0x181D5FC50")]
+	[Address(RVA = "0x56F8FA0", Offset = "0x56F7FA0", VA = "0x56F8FA0")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x1D53310", Offset = "0x1D51910", VA = "0x181D53310")]
+	[Address(RVA = "0x56F8F60", Offset = "0x56F7F60", VA = "0x56F8F60")]
 	public void OnValueChanged(bool isOn)
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x1D53250", Offset = "0x1D51850", VA = "0x181D53250", Slot = "4")]
+	[Address(RVA = "0x56F9040", Offset = "0x56F8040", VA = "0x56F9040", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x1D532B0", Offset = "0x1D518B0", VA = "0x181D532B0", Slot = "5")]
+	[Address(RVA = "0x56F9090", Offset = "0x56F8090", VA = "0x56F9090", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x1D53360", Offset = "0x1D51960", VA = "0x181D53360")]
+	[Address(RVA = "0x56F90E0", Offset = "0x56F80E0", VA = "0x56F90E0")]
 	public TextToggleIsOnTransition()
 	{
 	}

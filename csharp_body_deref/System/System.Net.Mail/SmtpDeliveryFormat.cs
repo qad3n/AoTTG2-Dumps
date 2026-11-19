@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x20003A0")]
+[Token(Token = "0x200035C")]
 public enum SmtpDeliveryFormat
 {
-	[Token(Token = "0x4000FC8")]
+	[Token(Token = "0x4000EE0")]
 	SevenBit,
-	[Token(Token = "0x4000FC9")]
+	[Token(Token = "0x4000EE1")]
 	International
 }

@@ -18,27 +18,27 @@ public class PingMono : PhotonPing
 	private Socket sock;
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x1D24ED0", Offset = "0x1D234D0", VA = "0x181D24ED0", Slot = "5")]
+	[Address(RVA = "0x56BC300", Offset = "0x56BB300", VA = "0x56BC300", Slot = "5")]
 	public override bool StartPing(string ip)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x1D24CE0", Offset = "0x1D232E0", VA = "0x181D24CE0", Slot = "6")]
+	[Address(RVA = "0x56BC5E0", Offset = "0x56BB5E0", VA = "0x56BC5E0", Slot = "6")]
 	public override bool Done()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x1D24C80", Offset = "0x1D23280", VA = "0x181D24C80", Slot = "7")]
+	[Address(RVA = "0x56BC7F0", Offset = "0x56BB7F0", VA = "0x56BC7F0", Slot = "7")]
 	public override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x1D25140", Offset = "0x1D23740", VA = "0x181D25140")]
+	[Address(RVA = "0x56BC8A0", Offset = "0x56BB8A0", VA = "0x56BC8A0")]
 	public PingMono()
 	{
 	}

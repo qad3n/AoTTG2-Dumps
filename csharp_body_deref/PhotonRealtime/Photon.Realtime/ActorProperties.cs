@@ -22,7 +22,7 @@ public class ActorProperties
 	public const byte UserId = 253;
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB4F0", Offset = "0x56BA4F0", VA = "0x56BB4F0")]
 	public ActorProperties()
 	{
 	}

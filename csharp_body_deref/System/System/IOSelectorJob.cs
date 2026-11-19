@@ -12,41 +12,41 @@ using Il2CppDummyDll;
 namespace System;
 
 [StructLayout(LayoutKind.Sequential)]
-[Token(Token = "0x20000D4")]
+[Token(Token = "0x2000095")]
 internal class IOSelectorJob
 {
-	[Token(Token = "0x400032B")]
+	[Token(Token = "0x400025C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IOOperation operation;
 
-	[Token(Token = "0x400032C")]
+	[Token(Token = "0x400025D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private IOAsyncCallback callback;
 
-	[Token(Token = "0x400032D")]
+	[Token(Token = "0x400025E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private IOAsyncResult state;
 
-	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x1522E90", Offset = "0x1521490", VA = "0x181522E90")]
+	[Token(Token = "0x6000292")]
+	[Address(RVA = "0x61DC750", Offset = "0x61DB750", VA = "0x61DC750")]
 	public IOSelectorJob(IOOperation operation, IOAsyncCallback callback, IOAsyncResult state)
 	{
 	}
 
-	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x284C5B0", Offset = "0x284ABB0", VA = "0x18284C5B0", Slot = "4")]
+	[Token(Token = "0x6000293")]
+	[Address(RVA = "0x61DC7A0", Offset = "0x61DB7A0", VA = "0x61DC7A0", Slot = "4")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
-	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6000294")]
+	[Address(RVA = "0x61DC7D0", Offset = "0x61DB7D0", VA = "0x61DC7D0", Slot = "5")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EMarkAborted(ThreadAbortException tae)
 	{
 	}
 
-	[Token(Token = "0x6000449")]
-	[Address(RVA = "0x284C580", Offset = "0x284AB80", VA = "0x18284C580")]
+	[Token(Token = "0x6000295")]
+	[Address(RVA = "0x61DC7E0", Offset = "0x61DB7E0", VA = "0x61DC7E0")]
 	public void MarkDisposed()
 	{
 	}

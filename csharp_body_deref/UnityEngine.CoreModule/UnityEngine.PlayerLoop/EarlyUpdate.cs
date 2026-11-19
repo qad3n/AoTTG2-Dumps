@@ -210,8 +210,8 @@ public struct EarlyUpdate
 	}
 
 	[Token(Token = "0x2000282")]
-	[Obsolete("TangoUpdate has been deprecated. Use ARCoreUpdate instead (UnityUpgradable) -> UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate", false)]
 	[UnityEngine.Scripting.RequiredByNativeCode]
+	[Obsolete("TangoUpdate has been deprecated. Use ARCoreUpdate instead (UnityUpgradable) -> UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate", false)]
 	public struct TangoUpdate
 	{
 	}

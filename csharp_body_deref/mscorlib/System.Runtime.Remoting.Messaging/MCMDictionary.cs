@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003E3")]
+[Token(Token = "0x20003BC")]
 internal class MCMDictionary : System.Runtime.Remoting.Messaging.MessageDictionary
 {
-	[Token(Token = "0x4000F88")]
+	[Token(Token = "0x4000EE8")]
 	[FieldOffset(Offset = "0x0")]
 	public static string[] InternalKeys;
 
-	[Token(Token = "0x6001F07")]
-	[Address(RVA = "0x19FEC90", Offset = "0x19FD290", VA = "0x1819FEC90")]
+	[Token(Token = "0x6001EDD")]
+	[Address(RVA = "0x5395B20", Offset = "0x5394B20", VA = "0x5395B20")]
 	public MCMDictionary(IMethodMessage message)
 	{
 	}

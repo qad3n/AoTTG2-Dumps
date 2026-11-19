@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200042B")]
+[Token(Token = "0x200042F")]
 public enum TimeUnit
 {
-	[Token(Token = "0x4000DEB")]
+	[Token(Token = "0x4000DF1")]
 	Second,
-	[Token(Token = "0x4000DEC")]
+	[Token(Token = "0x4000DF2")]
 	Millisecond
 }

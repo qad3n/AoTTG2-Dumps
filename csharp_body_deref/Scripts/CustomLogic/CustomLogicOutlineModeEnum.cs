@@ -11,214 +11,214 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004EF")]
+[Token(Token = "0x200054E")]
 [CompilerGenerated]
 internal class CustomLogicOutlineModeEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20004F0")]
+	[Token(Token = "0x200054F")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002B53")]
-		[Address(RVA = "0x1FF0610", Offset = "0x1FEEC10", VA = "0x181FF0610")]
+		[Token(Token = "0x6002DDF")]
+		[Address(RVA = "0x5997260", Offset = "0x5996260", VA = "0x5997260")]
 		public static CustomLogicOutlineModeEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20004F1")]
+	[Token(Token = "0x2000550")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016D7")]
+		[Token(Token = "0x4001877")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002B54")]
-		[Address(RVA = "0x1FCFB30", Offset = "0x1FCE130", VA = "0x181FCFB30")]
+		[Token(Token = "0x6002DE0")]
+		[Address(RVA = "0x5997380", Offset = "0x5996380", VA = "0x5997380")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B55")]
-		[Address(RVA = "0x1FE6040", Offset = "0x1FE4640", VA = "0x181FE6040")]
+		[Token(Token = "0x6002DE1")]
+		[Address(RVA = "0x59975F0", Offset = "0x59965F0", VA = "0x59975F0")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__OutlineAll()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B56")]
-		[Address(RVA = "0x1FE62C0", Offset = "0x1FE48C0", VA = "0x181FE62C0")]
+		[Token(Token = "0x6002DE2")]
+		[Address(RVA = "0x5997690", Offset = "0x5996690", VA = "0x5997690")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__OutlineVisible()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B57")]
-		[Address(RVA = "0x1FE6220", Offset = "0x1FE4820", VA = "0x181FE6220")]
+		[Token(Token = "0x6002DE3")]
+		[Address(RVA = "0x5997730", Offset = "0x5996730", VA = "0x5997730")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__OutlineHidden()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B58")]
-		[Address(RVA = "0x1FE6180", Offset = "0x1FE4780", VA = "0x181FE6180")]
+		[Token(Token = "0x6002DE4")]
+		[Address(RVA = "0x59977D0", Offset = "0x59967D0", VA = "0x59977D0")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__OutlineAndSilhouette()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B59")]
-		[Address(RVA = "0x1FE71C0", Offset = "0x1FE57C0", VA = "0x181FE71C0")]
+		[Token(Token = "0x6002DE5")]
+		[Address(RVA = "0x5997870", Offset = "0x5996870", VA = "0x5997870")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__SilhouetteOnly()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002B5A")]
-		[Address(RVA = "0x1FE60E0", Offset = "0x1FE46E0", VA = "0x181FE60E0")]
+		[Token(Token = "0x6002DE6")]
+		[Address(RVA = "0x5997910", Offset = "0x5996910", VA = "0x5997910")]
 		public static CLPropertyBinding<CustomLogicOutlineModeEnum> __CreatePropertyBinding__OutlineAndLightenColor()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40016D1")]
+	[Token(Token = "0x4001871")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string _outlineAll;
 
-	[Token(Token = "0x40016D2")]
+	[Token(Token = "0x4001872")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly string _outlineVisible;
 
-	[Token(Token = "0x40016D3")]
+	[Token(Token = "0x4001873")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly string _outlineHidden;
 
-	[Token(Token = "0x40016D4")]
+	[Token(Token = "0x4001874")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly string _outlineAndSilhouette;
 
-	[Token(Token = "0x40016D5")]
+	[Token(Token = "0x4001875")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly string _silhouetteOnly;
 
-	[Token(Token = "0x40016D6")]
+	[Token(Token = "0x4001876")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly string _outlineAndLightenColor;
 
-	[Token(Token = "0x17000719")]
+	[Token(Token = "0x17000761")]
 	public static string OutlineAll
 	{
-		[Token(Token = "0x6002B48")]
-		[Address(RVA = "0x1FEE810", Offset = "0x1FECE10", VA = "0x181FEE810")]
+		[Token(Token = "0x6002DD4")]
+		[Address(RVA = "0x5996D80", Offset = "0x5995D80", VA = "0x5996D80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071A")]
+	[Token(Token = "0x17000762")]
 	public static string OutlineVisible
 	{
-		[Token(Token = "0x6002B49")]
-		[Address(RVA = "0x1FEE950", Offset = "0x1FECF50", VA = "0x181FEE950")]
+		[Token(Token = "0x6002DD5")]
+		[Address(RVA = "0x5996DF0", Offset = "0x5995DF0", VA = "0x5996DF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071B")]
+	[Token(Token = "0x17000763")]
 	public static string OutlineHidden
 	{
-		[Token(Token = "0x6002B4A")]
-		[Address(RVA = "0x1FEE900", Offset = "0x1FECF00", VA = "0x181FEE900")]
+		[Token(Token = "0x6002DD6")]
+		[Address(RVA = "0x5996E60", Offset = "0x5995E60", VA = "0x5996E60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071C")]
+	[Token(Token = "0x17000764")]
 	public static string OutlineAndSilhouette
 	{
-		[Token(Token = "0x6002B4B")]
-		[Address(RVA = "0x1FEE8B0", Offset = "0x1FECEB0", VA = "0x181FEE8B0")]
+		[Token(Token = "0x6002DD7")]
+		[Address(RVA = "0x5996ED0", Offset = "0x5995ED0", VA = "0x5996ED0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071D")]
+	[Token(Token = "0x17000765")]
 	public static string SilhouetteOnly
 	{
-		[Token(Token = "0x6002B4C")]
-		[Address(RVA = "0x1FEE9A0", Offset = "0x1FECFA0", VA = "0x181FEE9A0")]
+		[Token(Token = "0x6002DD8")]
+		[Address(RVA = "0x5996F40", Offset = "0x5995F40", VA = "0x5996F40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071E")]
+	[Token(Token = "0x17000766")]
 	public static string OutlineAndLightenColor
 	{
-		[Token(Token = "0x6002B4D")]
-		[Address(RVA = "0x1FEE860", Offset = "0x1FECE60", VA = "0x181FEE860")]
+		[Token(Token = "0x6002DD9")]
+		[Address(RVA = "0x5996FB0", Offset = "0x5995FB0", VA = "0x5996FB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071F")]
+	[Token(Token = "0x17000767")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002B4E")]
-		[Address(RVA = "0x1FEE7E0", Offset = "0x1FECDE0", VA = "0x181FEE7E0", Slot = "6")]
+		[Token(Token = "0x6002DDA")]
+		[Address(RVA = "0x5997020", Offset = "0x5996020", VA = "0x5997020", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000720")]
+	[Token(Token = "0x17000768")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002B4F")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002DDB")]
+		[Address(RVA = "0x5997050", Offset = "0x5996050", VA = "0x5997050", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000721")]
+	[Token(Token = "0x17000769")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002B50")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6002DDC")]
+		[Address(RVA = "0x5997060", Offset = "0x5996060", VA = "0x5997060", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000722")]
+	[Token(Token = "0x1700076A")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002B51")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002DDD")]
+		[Address(RVA = "0x5997070", Offset = "0x5996070", VA = "0x5997070", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002B47")]
-	[Address(RVA = "0x1FEE790", Offset = "0x1FECD90", VA = "0x181FEE790")]
+	[Token(Token = "0x6002DD3")]
+	[Address(RVA = "0x5996D10", Offset = "0x5995D10", VA = "0x5996D10")]
 	public CustomLogicOutlineModeEnum()
 	{
 	}

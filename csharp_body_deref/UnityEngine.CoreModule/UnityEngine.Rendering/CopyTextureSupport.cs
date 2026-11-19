@@ -14,16 +14,16 @@ namespace UnityEngine.Rendering;
 [Flags]
 public enum CopyTextureSupport
 {
-	[Token(Token = "0x4000928")]
+	[Token(Token = "0x4000926")]
 	None = 0,
-	[Token(Token = "0x4000929")]
+	[Token(Token = "0x4000927")]
 	Basic = 1,
-	[Token(Token = "0x400092A")]
+	[Token(Token = "0x4000928")]
 	Copy3D = 2,
-	[Token(Token = "0x400092B")]
+	[Token(Token = "0x4000929")]
 	DifferentTypes = 4,
-	[Token(Token = "0x400092C")]
+	[Token(Token = "0x400092A")]
 	TextureToRT = 8,
-	[Token(Token = "0x400092D")]
+	[Token(Token = "0x400092B")]
 	RTToTexture = 0x10
 }

@@ -26,7 +26,7 @@ public readonly struct SetupDragAndDropArgs
 	public readonly StartDragArgs startDragArgs;
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x3248990", Offset = "0x3246F90", VA = "0x183248990")]
+	[Address(RVA = "0x6C515D0", Offset = "0x6C505D0", VA = "0x6C515D0")]
 	internal SetupDragAndDropArgs(VisualElement draggedElement, IEnumerable<int> selectedIds, StartDragArgs startDragArgs)
 	{
 	}

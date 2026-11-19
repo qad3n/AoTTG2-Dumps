@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design.Serialization;
 
-[Token(Token = "0x2000240")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = true, Inherited = true)]
+[Token(Token = "0x2000201")]
 [Obsolete("This attribute has been deprecated. Use DesignerSerializerAttribute instead.  For example, to specify a root designer for CodeDom, use DesignerSerializerAttribute(...,typeof(TypeCodeDomSerializer)).  https://go.microsoft.com/fwlink/?linkid=14202")]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = true, Inherited = true)]
 public sealed class RootDesignerSerializerAttribute : Attribute
 {
-	[Token(Token = "0x400081A")]
+	[Token(Token = "0x400074B")]
 	[FieldOffset(Offset = "0x10")]
 	private string _typeId;
 
-	[Token(Token = "0x400081B")]
+	[Token(Token = "0x400074C")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly bool _003CReloadable_003Ek__BackingField;
 
-	[Token(Token = "0x400081C")]
+	[Token(Token = "0x400074D")]
 	[FieldOffset(Offset = "0x20")]
 	[CompilerGenerated]
 	private readonly string _003CSerializerTypeName_003Ek__BackingField;
 
-	[Token(Token = "0x17000310")]
+	[Token(Token = "0x170002E1")]
 	public string SerializerBaseTypeName
 	{
-		[Token(Token = "0x6000F8F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6000DCF")]
+		[Address(RVA = "0x627EF10", Offset = "0x627DF10", VA = "0x627EF10")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,19 +41,19 @@ public sealed class RootDesignerSerializerAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x17000311")]
+	[Token(Token = "0x170002E2")]
 	public override object TypeId
 	{
-		[Token(Token = "0x6000F90")]
-		[Address(RVA = "0x28DB130", Offset = "0x28D9730", VA = "0x1828DB130", Slot = "4")]
+		[Token(Token = "0x6000DD0")]
+		[Address(RVA = "0x627EF20", Offset = "0x627DF20", VA = "0x627EF20", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000F8E")]
-	[Address(RVA = "0x28DB0E0", Offset = "0x28D96E0", VA = "0x1828DB0E0")]
+	[Token(Token = "0x6000DCE")]
+	[Address(RVA = "0x627EEC0", Offset = "0x627DEC0", VA = "0x627EEC0")]
 	public RootDesignerSerializerAttribute(string serializerTypeName, string baseSerializerTypeName, bool reloadable)
 	{
 	}

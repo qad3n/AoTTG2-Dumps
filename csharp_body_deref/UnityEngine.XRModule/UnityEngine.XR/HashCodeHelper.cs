@@ -13,49 +13,49 @@ namespace UnityEngine.XR;
 internal static class HashCodeHelper
 {
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3313090", Offset = "0x3311690", VA = "0x183313090")]
+	[Address(RVA = "0x6D24B10", Offset = "0x6D23B10", VA = "0x6D24B10")]
 	public static int Combine(int hash1, int hash2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3313160", Offset = "0x3311760", VA = "0x183313160")]
+	[Address(RVA = "0x6D24B20", Offset = "0x6D23B20", VA = "0x6D24B20")]
 	public static int Combine(int hash1, int hash2, int hash3)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3313180", Offset = "0x3311780", VA = "0x183313180")]
+	[Address(RVA = "0x6D24B40", Offset = "0x6D23B40", VA = "0x6D24B40")]
 	public static int Combine(int hash1, int hash2, int hash3, int hash4)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x33130E0", Offset = "0x33116E0", VA = "0x1833130E0")]
+	[Address(RVA = "0x6D24B60", Offset = "0x6D23B60", VA = "0x6D24B60")]
 	public static int Combine(int hash1, int hash2, int hash3, int hash4, int hash5)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x33130A0", Offset = "0x33116A0", VA = "0x1833130A0")]
+	[Address(RVA = "0x6D24B90", Offset = "0x6D23B90", VA = "0x6D24B90")]
 	public static int Combine(int hash1, int hash2, int hash3, int hash4, int hash5, int hash6)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x3313050", Offset = "0x3311650", VA = "0x183313050")]
+	[Address(RVA = "0x6D24BC0", Offset = "0x6D23BC0", VA = "0x6D24BC0")]
 	public static int Combine(int hash1, int hash2, int hash3, int hash4, int hash5, int hash6, int hash7)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x3313110", Offset = "0x3311710", VA = "0x183313110")]
+	[Address(RVA = "0x6D24C00", Offset = "0x6D23C00", VA = "0x6D24C00")]
 	public static int Combine(int hash1, int hash2, int hash3, int hash4, int hash5, int hash6, int hash7, int hash8)
 	{
 		return default(int);

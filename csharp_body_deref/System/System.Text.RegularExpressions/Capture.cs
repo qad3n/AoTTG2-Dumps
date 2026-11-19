@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Text.RegularExpressions.Capture
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,103 +10,103 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000DC")]
+[Token(Token = "0x200009D")]
 public class Capture
 {
-	[Token(Token = "0x170000BB")]
+	[Token(Token = "0x1700008C")]
 	public int Index
 	{
-		[Token(Token = "0x6000468")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60002B4")]
+		[Address(RVA = "0x61DDE30", Offset = "0x61DCE30", VA = "0x61DDE30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000469")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x60002B5")]
+		[Address(RVA = "0x61DDE40", Offset = "0x61DCE40", VA = "0x61DDE40")]
 		[CompilerGenerated]
 		private protected set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BC")]
+	[Token(Token = "0x1700008D")]
 	public int Length
 	{
-		[Token(Token = "0x600046A")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Token(Token = "0x60002B6")]
+		[Address(RVA = "0x61DDE50", Offset = "0x61DCE50", VA = "0x61DDE50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600046B")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Token(Token = "0x60002B7")]
+		[Address(RVA = "0x61DDE60", Offset = "0x61DCE60", VA = "0x61DDE60")]
 		[CompilerGenerated]
 		private protected set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BD")]
+	[Token(Token = "0x1700008E")]
 	internal string Text
 	{
-		[Token(Token = "0x600046C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60002B8")]
+		[Address(RVA = "0x61DDE70", Offset = "0x61DCE70", VA = "0x61DDE70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600046D")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60002B9")]
+		[Address(RVA = "0x61DDE80", Offset = "0x61DCE80", VA = "0x61DDE80")]
 		[CompilerGenerated]
 		private protected set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BE")]
+	[Token(Token = "0x1700008F")]
 	public string Value
 	{
-		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x2849890", Offset = "0x2847E90", VA = "0x182849890")]
+		[Token(Token = "0x60002BA")]
+		[Address(RVA = "0x61DDE90", Offset = "0x61DCE90", VA = "0x61DDE90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x28498F0", Offset = "0x2847EF0", VA = "0x1828498F0")]
+	[Token(Token = "0x60002B3")]
+	[Address(RVA = "0x61DDDF0", Offset = "0x61DCDF0", VA = "0x61DDDF0")]
 	internal Capture(string text, int index, int length)
 	{
 	}
 
-	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x2849890", Offset = "0x2847E90", VA = "0x182849890", Slot = "3")]
+	[Token(Token = "0x60002BB")]
+	[Address(RVA = "0x61DDEB0", Offset = "0x61DCEB0", VA = "0x61DDEB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x2849720", Offset = "0x2847D20", VA = "0x182849720")]
+	[Token(Token = "0x60002BC")]
+	[Address(RVA = "0x61DDED0", Offset = "0x61DCED0", VA = "0x61DDED0")]
 	internal ReadOnlySpan<char> GetLeftSubstring()
 	{
 		return default(ReadOnlySpan<char>);
 	}
 
-	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x28497C0", Offset = "0x2847DC0", VA = "0x1828497C0")]
+	[Token(Token = "0x60002BD")]
+	[Address(RVA = "0x61DDF40", Offset = "0x61DCF40", VA = "0x61DDF40")]
 	internal ReadOnlySpan<char> GetRightSubstring()
 	{
 		return default(ReadOnlySpan<char>);
 	}
 
-	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x28498C0", Offset = "0x2847EC0", VA = "0x1828498C0")]
+	[Token(Token = "0x60002BE")]
+	[Address(RVA = "0x61DDFC0", Offset = "0x61DCFC0", VA = "0x61DDFC0")]
 	internal Capture()
 	{
 	}

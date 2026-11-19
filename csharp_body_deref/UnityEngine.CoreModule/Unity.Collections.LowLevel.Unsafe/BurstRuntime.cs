@@ -22,14 +22,14 @@ internal static class BurstRuntime
 		public static readonly long Value;
 	}
 
-	[Token(Token = "0x600014C")]
+	[Token(Token = "0x600014E")]
 	public static long GetHashCode64<T>()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x2955420", Offset = "0x2953A20", VA = "0x182955420")]
+	[Token(Token = "0x600014F")]
+	[Address(RVA = "0x68B7C30", Offset = "0x68B6C30", VA = "0x68B7C30")]
 	internal static long HashStringWithFNV1A64(string text)
 	{
 		return default(long);

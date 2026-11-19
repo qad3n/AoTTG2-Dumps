@@ -11,56 +11,56 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x200008C")]
 public class ArgumentOutOfRangeException : ArgumentException
 {
-	[Token(Token = "0x4000285")]
+	[Token(Token = "0x40001DC")]
 	[FieldOffset(Offset = "0x98")]
 	private object _actualValue;
 
 	[Token(Token = "0x17000057")]
 	public override string Message
 	{
-		[Token(Token = "0x600041E")]
-		[Address(RVA = "0x1A783E0", Offset = "0x1A769E0", VA = "0x181A783E0", Slot = "5")]
+		[Token(Token = "0x60003F3")]
+		[Address(RVA = "0x5419EB0", Offset = "0x5418EB0", VA = "0x5419EB0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000418")]
-	[Address(RVA = "0x1A782D0", Offset = "0x1A768D0", VA = "0x181A782D0")]
+	[Token(Token = "0x60003ED")]
+	[Address(RVA = "0x5419C60", Offset = "0x5418C60", VA = "0x5419C60")]
 	public ArgumentOutOfRangeException()
 	{
 	}
 
-	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x1A78320", Offset = "0x1A76920", VA = "0x181A78320")]
+	[Token(Token = "0x60003EE")]
+	[Address(RVA = "0x5419CA0", Offset = "0x5418CA0", VA = "0x5419CA0")]
 	public ArgumentOutOfRangeException(string paramName)
 	{
 	}
 
-	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x1A78390", Offset = "0x1A76990", VA = "0x181A78390")]
+	[Token(Token = "0x60003EF")]
+	[Address(RVA = "0x5414BE0", Offset = "0x5413BE0", VA = "0x5414BE0")]
 	public ArgumentOutOfRangeException(string paramName, string message)
 	{
 	}
 
-	[Token(Token = "0x600041B")]
-	[Address(RVA = "0x1A78150", Offset = "0x1A76750", VA = "0x181A78150")]
+	[Token(Token = "0x60003F0")]
+	[Address(RVA = "0x5416650", Offset = "0x5415650", VA = "0x5416650")]
 	public ArgumentOutOfRangeException(string paramName, object actualValue, string message)
 	{
 	}
 
-	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x1A781C0", Offset = "0x1A767C0", VA = "0x181A781C0")]
+	[Token(Token = "0x60003F1")]
+	[Address(RVA = "0x5419D00", Offset = "0x5418D00", VA = "0x5419D00")]
 	protected ArgumentOutOfRangeException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x1A78030", Offset = "0x1A76630", VA = "0x181A78030", Slot = "11")]
+	[Token(Token = "0x60003F2")]
+	[Address(RVA = "0x5419E00", Offset = "0x5418E00", VA = "0x5419E00", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

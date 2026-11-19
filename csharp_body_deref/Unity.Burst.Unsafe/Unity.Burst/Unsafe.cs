@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.Unsafe
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -93,7 +93,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x297C2A0", Offset = "0x297A8A0", VA = "0x18297C2A0")]
+	[Address(RVA = "0x633D510", Offset = "0x633C510", VA = "0x633D510")]
 	[System.Runtime.Versioning.NonVersionable]
 	public unsafe static void CopyBlock(void* destination, void* source, uint byteCount)
 	{
@@ -101,7 +101,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x297C2A0", Offset = "0x297A8A0", VA = "0x18297C2A0")]
+	[Address(RVA = "0x633D520", Offset = "0x633C520", VA = "0x633D520")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static void CopyBlock(ref byte destination, ref byte source, uint byteCount)
 	{
@@ -109,7 +109,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x297C2A0", Offset = "0x297A8A0", VA = "0x18297C2A0")]
+	[Address(RVA = "0x633D530", Offset = "0x633C530", VA = "0x633D530")]
 	[System.Runtime.Versioning.NonVersionable]
 	public unsafe static void CopyBlockUnaligned(void* destination, void* source, uint byteCount)
 	{
@@ -117,7 +117,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x297C2A0", Offset = "0x297A8A0", VA = "0x18297C2A0")]
+	[Address(RVA = "0x633D540", Offset = "0x633C540", VA = "0x633D540")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static void CopyBlockUnaligned(ref byte destination, ref byte source, uint byteCount)
 	{
@@ -125,7 +125,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x1A58C70", Offset = "0x1A57270", VA = "0x181A58C70")]
+	[Address(RVA = "0x633D550", Offset = "0x633C550", VA = "0x633D550")]
 	[System.Runtime.Versioning.NonVersionable]
 	public unsafe static void InitBlock(void* startAddress, byte value, uint byteCount)
 	{
@@ -133,7 +133,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x1A58C70", Offset = "0x1A57270", VA = "0x181A58C70")]
+	[Address(RVA = "0x633D560", Offset = "0x633C560", VA = "0x633D560")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static void InitBlock(ref byte startAddress, byte value, uint byteCount)
 	{
@@ -141,7 +141,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x1A58C70", Offset = "0x1A57270", VA = "0x181A58C70")]
+	[Address(RVA = "0x633D570", Offset = "0x633C570", VA = "0x633D570")]
 	[System.Runtime.Versioning.NonVersionable]
 	public unsafe static void InitBlockUnaligned(void* startAddress, byte value, uint byteCount)
 	{
@@ -149,7 +149,7 @@ internal static class Unsafe
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x1A58C70", Offset = "0x1A57270", VA = "0x181A58C70")]
+	[Address(RVA = "0x633D580", Offset = "0x633C580", VA = "0x633D580")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static void InitBlockUnaligned(ref byte startAddress, byte value, uint byteCount)
 	{

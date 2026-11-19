@@ -14,44 +14,44 @@ namespace Unity.VisualScripting.FullSerializer;
 public abstract class fsObjectProcessor
 {
 	[Token(Token = "0x60012A7")]
-	[Address(RVA = "0x2E71080", Offset = "0x2E6F680", VA = "0x182E71080", Slot = "4")]
+	[Address(RVA = "0x68697A0", Offset = "0x68687A0", VA = "0x68697A0", Slot = "4")]
 	public virtual bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012A8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x68697E0", Offset = "0x68687E0", VA = "0x68697E0", Slot = "5")]
 	public virtual void OnBeforeSerialize(Type storageType, object instance)
 	{
 	}
 
 	[Token(Token = "0x60012A9")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x68697F0", Offset = "0x68687F0", VA = "0x68697F0", Slot = "6")]
 	public virtual void OnAfterSerialize(Type storageType, object instance, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012AA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x6869800", Offset = "0x6868800", VA = "0x6869800", Slot = "7")]
 	public virtual void OnBeforeDeserialize(Type storageType, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012AB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Address(RVA = "0x6869810", Offset = "0x6868810", VA = "0x6869810", Slot = "8")]
 	public virtual void OnBeforeDeserializeAfterInstanceCreation(Type storageType, object instance, ref fsData data)
 	{
 	}
 
 	[Token(Token = "0x60012AC")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x6869820", Offset = "0x6868820", VA = "0x6869820", Slot = "9")]
 	public virtual void OnAfterDeserialize(Type storageType, object instance)
 	{
 	}
 
 	[Token(Token = "0x60012AD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6869830", Offset = "0x6868830", VA = "0x6869830")]
 	protected fsObjectProcessor()
 	{
 	}

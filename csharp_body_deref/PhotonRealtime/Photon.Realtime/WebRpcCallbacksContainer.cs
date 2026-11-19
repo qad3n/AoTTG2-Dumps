@@ -19,13 +19,13 @@ internal class WebRpcCallbacksContainer : List<IWebRpcCallback>, IWebRpcCallback
 	private LoadBalancingClient client;
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x1D27130", Offset = "0x1D25730", VA = "0x181D27130")]
+	[Address(RVA = "0x56AC050", Offset = "0x56AB050", VA = "0x56AC050")]
 	public WebRpcCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x1D26F90", Offset = "0x1D25590", VA = "0x181D26F90", Slot = "35")]
+	[Address(RVA = "0x56B4420", Offset = "0x56B3420", VA = "0x56B4420", Slot = "35")]
 	public void OnWebRpcResponse(OperationResponse response)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UITKTextHandle
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,7 +53,7 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	private List<(int, UnityEngine.TextCore.RichTextTagParser.TagType, string)> Links
 	{
 		[Token(Token = "0x6002367")]
-		[Address(RVA = "0x313B0B0", Offset = "0x31396B0", VA = "0x18313B0B0")]
+		[Address(RVA = "0x6B2B900", Offset = "0x6B2A900", VA = "0x6B2B900")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6002375")]
-		[Address(RVA = "0x313B150", Offset = "0x3139750", VA = "0x18313B150")]
+		[Address(RVA = "0x6B2DC70", Offset = "0x6B2CC70", VA = "0x6B2DC70")]
 		get
 		{
 			return null;
@@ -76,14 +76,14 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal float LastPixelPerPoint
 	{
 		[Token(Token = "0x600237A")]
-		[Address(RVA = "0x2C12040", Offset = "0x2C10640", VA = "0x182C12040")]
+		[Address(RVA = "0x6B2DDE0", Offset = "0x6B2CDE0", VA = "0x6B2DDE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600237B")]
-		[Address(RVA = "0x313B390", Offset = "0x3139990", VA = "0x18313B390")]
+		[Address(RVA = "0x6B2DDF0", Offset = "0x6B2CDF0", VA = "0x6B2DDF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -94,14 +94,14 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal float? MeasuredWidth
 	{
 		[Token(Token = "0x600237D")]
-		[Address(RVA = "0xB5B620", Offset = "0xB59C20", VA = "0x180B5B620")]
+		[Address(RVA = "0x6B2DE20", Offset = "0x6B2CE20", VA = "0x6B2DE20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600237E")]
-		[Address(RVA = "0x313B3A0", Offset = "0x31399A0", VA = "0x18313B3A0")]
+		[Address(RVA = "0x6B2DE30", Offset = "0x6B2CE30", VA = "0x6B2DE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -112,14 +112,14 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal float RoundedWidth
 	{
 		[Token(Token = "0x600237F")]
-		[Address(RVA = "0x313B140", Offset = "0x3139740", VA = "0x18313B140")]
+		[Address(RVA = "0x6B2DE40", Offset = "0x6B2CE40", VA = "0x6B2DE40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6002380")]
-		[Address(RVA = "0x313B3B0", Offset = "0x31399B0", VA = "0x18313B3B0")]
+		[Address(RVA = "0x6B2DE50", Offset = "0x6B2CE50", VA = "0x6B2DE50")]
 		[CompilerGenerated]
 		set
 		{
@@ -130,14 +130,14 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal float? ATGMeasuredWidth
 	{
 		[Token(Token = "0x6002381")]
-		[Address(RVA = "0x313B060", Offset = "0x3139660", VA = "0x18313B060")]
+		[Address(RVA = "0x6B2DE60", Offset = "0x6B2CE60", VA = "0x6B2DE60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002382")]
-		[Address(RVA = "0x313B380", Offset = "0x3139980", VA = "0x18313B380")]
+		[Address(RVA = "0x6B2DE70", Offset = "0x6B2CE70", VA = "0x6B2DE70")]
 		[CompilerGenerated]
 		set
 		{
@@ -148,14 +148,14 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal float ATGRoundedWidth
 	{
 		[Token(Token = "0x6002383")]
-		[Address(RVA = "0x5605B0", Offset = "0x55EBB0", VA = "0x1805605B0")]
+		[Address(RVA = "0x6B2DE80", Offset = "0x6B2CE80", VA = "0x6B2DE80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6002384")]
-		[Address(RVA = "0x560620", Offset = "0x55EC20", VA = "0x180560620")]
+		[Address(RVA = "0x6B2DE90", Offset = "0x6B2CE90", VA = "0x6B2DE90")]
 		[CompilerGenerated]
 		set
 		{
@@ -166,7 +166,7 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	public override bool IsPlaceholder
 	{
 		[Token(Token = "0x6002393")]
-		[Address(RVA = "0x313B070", Offset = "0x3139670", VA = "0x18313B070", Slot = "8")]
+		[Address(RVA = "0x6B2F500", Offset = "0x6B2E500", VA = "0x6B2F500", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -174,214 +174,214 @@ internal class UITKTextHandle : UnityEngine.TextCore.Text.TextHandle
 	}
 
 	[Token(Token = "0x6002368")]
-	[Address(RVA = "0x3138010", Offset = "0x3136610", VA = "0x183138010")]
+	[Address(RVA = "0x6B2B980", Offset = "0x6B2A980", VA = "0x6B2B980")]
 	private void ComputeNativeTextSize(in string textToMeasure, float width, VisualElement.MeasureMode widthMode, float height, VisualElement.MeasureMode heightMode, [Optional] float? fontsize)
 	{
 	}
 
 	[Token(Token = "0x6002369")]
-	[Address(RVA = "0x313AB70", Offset = "0x3139170", VA = "0x18313AB70")]
+	[Address(RVA = "0x6B2C8F0", Offset = "0x6B2B8F0", VA = "0x6B2C8F0")]
 	public (UnityEngine.TextCore.Text.NativeTextInfo, bool) UpdateNative(bool generateNativeSettings = true)
 	{
 		return default((UnityEngine.TextCore.Text.NativeTextInfo, bool));
 	}
 
 	[Token(Token = "0x600236A")]
-	[Address(RVA = "0x3137F30", Offset = "0x3136530", VA = "0x183137F30")]
+	[Address(RVA = "0x6B2CD00", Offset = "0x6B2BD00", VA = "0x6B2CD00")]
 	public void CacheTextGenerationInfo()
 	{
 	}
 
 	[Token(Token = "0x600236B")]
-	[Address(RVA = "0x313A830", Offset = "0x3138E30", VA = "0x18313A830")]
+	[Address(RVA = "0x6B2CDE0", Offset = "0x6B2BDE0", VA = "0x6B2CDE0")]
 	public void ShapeText()
 	{
 	}
 
 	[Token(Token = "0x600236C")]
-	[Address(RVA = "0x313A560", Offset = "0x3138B60", VA = "0x18313A560")]
+	[Address(RVA = "0x6B2CF70", Offset = "0x6B2BF70", VA = "0x6B2CF70")]
 	public void ProcessMeshInfos(UnityEngine.TextCore.Text.NativeTextInfo textInfo, ref List<List<List<int>>> textElementIndicesByMesh, ref List<bool> hasMultipleColorsByMesh)
 	{
 	}
 
 	[Token(Token = "0x600236D")]
-	[Address(RVA = "0x313A360", Offset = "0x3138960", VA = "0x18313A360")]
+	[Address(RVA = "0x6B2D070", Offset = "0x6B2C070", VA = "0x6B2D070")]
 	public bool HasMissingGlyphs(UnityEngine.TextCore.Text.NativeTextInfo textInfo, ref Dictionary<int, HashSet<uint>> missingGlyphsPerFontAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600236E")]
-	[Address(RVA = "0x313B1B0", Offset = "0x31397B0", VA = "0x18313B1B0")]
+	[Address(RVA = "0x6B2D0E0", Offset = "0x6B2C0E0", VA = "0x6B2D0E0")]
 	private (bool, bool) hasLinkAndHyperlink()
 	{
 		return default((bool, bool));
 	}
 
 	[Token(Token = "0x600236F")]
-	[Address(RVA = "0x3137CF0", Offset = "0x31362F0", VA = "0x183137CF0")]
+	[Address(RVA = "0x6B29F40", Offset = "0x6B28F40", VA = "0x6B29F40")]
 	internal (UnityEngine.TextCore.RichTextTagParser.TagType, string) ATGFindIntersectingLink(Vector2 point)
 	{
 		return default((UnityEngine.TextCore.RichTextTagParser.TagType, string));
 	}
 
 	[Token(Token = "0x6002370")]
-	[Address(RVA = "0x313AA20", Offset = "0x3139020", VA = "0x18313AA20")]
+	[Address(RVA = "0x6B2D2F0", Offset = "0x6B2C2F0", VA = "0x6B2D2F0")]
 	internal void UpdateATGTextEventHandler()
 	{
 	}
 
 	[Token(Token = "0x6002371")]
-	[Address(RVA = "0x3139B00", Offset = "0x3138100", VA = "0x183139B00")]
+	[Address(RVA = "0x6B2D380", Offset = "0x6B2C380", VA = "0x6B2D380")]
 	internal void EnsureIsReadyForJobs()
 	{
 	}
 
 	[Token(Token = "0x6002372")]
-	[Address(RVA = "0x3138830", Offset = "0x3136E30", VA = "0x183138830")]
+	[Address(RVA = "0x6B2BC30", Offset = "0x6B2AC30", VA = "0x6B2BC30")]
 	internal bool ConvertUssToNativeTextGenerationSettings([Optional] string? textToMeasure, [Optional] float? fontsize)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002373")]
-	[Address(RVA = "0x3139C60", Offset = "0x3138260", VA = "0x183139C60")]
+	[Address(RVA = "0x6B2D9A0", Offset = "0x6B2C9A0", VA = "0x6B2D9A0")]
 	private TextAsset GetICUAsset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002374")]
-	[Address(RVA = "0x3139BB0", Offset = "0x31381B0", VA = "0x183139BB0")]
+	[Address(RVA = "0x6B2DBC0", Offset = "0x6B2CBC0", VA = "0x6B2DBC0")]
 	internal static TextAsset GetICUAssetStaticFalback()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002376")]
-	[Address(RVA = "0x313A410", Offset = "0x3138A10", VA = "0x18313A410")]
+	[Address(RVA = "0x6B2D430", Offset = "0x6B2C430", VA = "0x6B2D430")]
 	protected internal void InitTextLib()
 	{
 	}
 
 	[Token(Token = "0x6002377")]
-	[Address(RVA = "0x313A7D0", Offset = "0x3138DD0", VA = "0x18313A7D0", Slot = "6")]
+	[Address(RVA = "0x6B2DCD0", Offset = "0x6B2CCD0", VA = "0x6B2DCD0", Slot = "6")]
 	public override void RemoveFromPermanentCacheATG()
 	{
 	}
 
 	[Token(Token = "0x6002378")]
-	[Address(RVA = "0x313AF80", Offset = "0x3139580", VA = "0x18313AF80")]
+	[Address(RVA = "0x6B2DD00", Offset = "0x6B2CD00", VA = "0x6B2DD00")]
 	public UITKTextHandle(TextElement te)
 	{
 	}
 
 	[Token(Token = "0x6002379")]
-	[Address(RVA = "0x3139F40", Offset = "0x3138540", VA = "0x183139F40", Slot = "4")]
+	[Address(RVA = "0x6B2DDC0", Offset = "0x6B2CDC0", VA = "0x6B2DDC0", Slot = "4")]
 	protected override float GetPixelsPerPoint()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600237C")]
-	[Address(RVA = "0x313A810", Offset = "0x3138E10", VA = "0x18313A810", Slot = "7")]
+	[Address(RVA = "0x6B2DE00", Offset = "0x6B2CE00", VA = "0x6B2DE00", Slot = "7")]
 	public override void SetDirty()
 	{
 	}
 
 	[Token(Token = "0x6002385")]
-	[Address(RVA = "0x3138400", Offset = "0x3136A00", VA = "0x183138400")]
+	[Address(RVA = "0x6B2DEA0", Offset = "0x6B2CEA0", VA = "0x6B2DEA0")]
 	public Vector2 ComputeTextSize(string textToMeasure, float width, VisualElement.MeasureMode widthMode, float height, VisualElement.MeasureMode heightMode, [Optional] float? fontsize)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6002386")]
-	[Address(RVA = "0x3138680", Offset = "0x3136C80", VA = "0x183138680")]
+	[Address(RVA = "0x6B2DFB0", Offset = "0x6B2CFB0", VA = "0x6B2DFB0")]
 	public Vector2 ComputeTextSize(in UnityEngine.TextCore.Text.RenderedText textToMeasure, float width, float height, [Optional] float? fontsize)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6002387")]
-	[Address(RVA = "0x31382C0", Offset = "0x31368C0", VA = "0x1831382C0")]
+	[Address(RVA = "0x6B2E130", Offset = "0x6B2D130", VA = "0x6B2E130")]
 	public void ComputeSettingsAndUpdate()
 	{
 	}
 
 	[Token(Token = "0x6002388")]
-	[Address(RVA = "0x313A300", Offset = "0x3138900", VA = "0x18313A300")]
+	[Address(RVA = "0x6B2E270", Offset = "0x6B2D270", VA = "0x6B2E270")]
 	public void HandleATag()
 	{
 	}
 
 	[Token(Token = "0x6002389")]
-	[Address(RVA = "0x313A340", Offset = "0x3138940", VA = "0x18313A340")]
+	[Address(RVA = "0x6B2E290", Offset = "0x6B2D290", VA = "0x6B2E290")]
 	public void HandleLinkTag()
 	{
 	}
 
 	[Token(Token = "0x600238A")]
-	[Address(RVA = "0x313A320", Offset = "0x3138920", VA = "0x18313A320")]
+	[Address(RVA = "0x6B2E2B0", Offset = "0x6B2D2B0", VA = "0x6B2E2B0")]
 	public void HandleLinkAndATagCallbacks()
 	{
 	}
 
 	[Token(Token = "0x600238B")]
-	[Address(RVA = "0x313AAA0", Offset = "0x31390A0", VA = "0x18313AAA0")]
+	[Address(RVA = "0x6B2E1B0", Offset = "0x6B2D1B0", VA = "0x6B2E1B0")]
 	public void UpdateMesh()
 	{
 	}
 
 	[Token(Token = "0x600238C")]
-	[Address(RVA = "0x3137EB0", Offset = "0x31364B0", VA = "0x183137EB0", Slot = "5")]
+	[Address(RVA = "0x6B2E2D0", Offset = "0x6B2D2D0", VA = "0x6B2E2D0", Slot = "5")]
 	public override void AddToPermanentCacheAndGenerateMesh()
 	{
 	}
 
 	[Token(Token = "0x600238D")]
-	[Address(RVA = "0x3139F70", Offset = "0x3138570", VA = "0x183139F70")]
+	[Address(RVA = "0x6B2E490", Offset = "0x6B2D490", VA = "0x6B2E490")]
 	private UnityEngine.TextCore.Text.TextOverflowMode GetTextOverflowMode()
 	{
 		return default(UnityEngine.TextCore.Text.TextOverflowMode);
 	}
 
 	[Token(Token = "0x600238E")]
-	[Address(RVA = "0x31392B0", Offset = "0x31378B0", VA = "0x1831392B0", Slot = "11")]
+	[Address(RVA = "0x6B2E550", Offset = "0x6B2D550", VA = "0x6B2E550", Slot = "11")]
 	internal virtual bool ConvertUssToTextGenerationSettings(bool populateScreenRect, [Optional] float? fontsize)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600238F")]
-	[Address(RVA = "0x313A9E0", Offset = "0x3138FE0", VA = "0x18313A9E0")]
+	[Address(RVA = "0x6B2D530", Offset = "0x6B2C530", VA = "0x6B2D530")]
 	internal bool TextLibraryCanElide()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002390")]
-	[Address(RVA = "0x313A060", Offset = "0x3138660", VA = "0x18313A060")]
+	[Address(RVA = "0x6B2D780", Offset = "0x6B2C780", VA = "0x6B2D780")]
 	internal float GetVertexPadding(FontAsset fontAsset)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6002391")]
-	[Address(RVA = "0x313A500", Offset = "0x3138B00", VA = "0x18313A500", Slot = "10")]
+	[Address(RVA = "0x6B2F4F0", Offset = "0x6B2E4F0", VA = "0x6B2F4F0", Slot = "10")]
 	internal override bool IsAdvancedTextEnabledForElement()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002392")]
-	[Address(RVA = "0x313A680", Offset = "0x3138C80", VA = "0x18313A680")]
+	[Address(RVA = "0x6B2E350", Offset = "0x6B2D350", VA = "0x6B2E350")]
 	internal void ReleaseResourcesIfPossible()
 	{
 	}
 
 	[Token(Token = "0x6002394")]
-	[Address(RVA = "0x313A510", Offset = "0x3138B10", VA = "0x18313A510")]
+	[Address(RVA = "0x6B2F560", Offset = "0x6B2E560", VA = "0x6B2F560")]
 	public bool IsElided()
 	{
 		return default(bool);

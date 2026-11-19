@@ -43,7 +43,7 @@ public class XmlException : SystemException
 	public int LineNumber
 	{
 		[Token(Token = "0x6000BF8")]
-		[Address(RVA = "0x25EDB20", Offset = "0x25EC120", VA = "0x1825EDB20")]
+		[Address(RVA = "0x61032C0", Offset = "0x61022C0", VA = "0x61032C0")]
 		get
 		{
 			return default(int);
@@ -54,7 +54,7 @@ public class XmlException : SystemException
 	public int LinePosition
 	{
 		[Token(Token = "0x6000BF9")]
-		[Address(RVA = "0x25EDB30", Offset = "0x25EC130", VA = "0x1825EDB30")]
+		[Address(RVA = "0x61032D0", Offset = "0x61022D0", VA = "0x61032D0")]
 		get
 		{
 			return default(int);
@@ -65,7 +65,7 @@ public class XmlException : SystemException
 	public override string Message
 	{
 		[Token(Token = "0x6000BFA")]
-		[Address(RVA = "0x2756720", Offset = "0x2754D20", VA = "0x182756720", Slot = "5")]
+		[Address(RVA = "0x61032E0", Offset = "0x61022E0", VA = "0x61032E0", Slot = "5")]
 		get
 		{
 			return null;
@@ -76,7 +76,7 @@ public class XmlException : SystemException
 	internal string ResString
 	{
 		[Token(Token = "0x6000BFB")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x6103300", Offset = "0x6102300", VA = "0x6103300")]
 		get
 		{
 			return null;
@@ -84,149 +84,149 @@ public class XmlException : SystemException
 	}
 
 	[Token(Token = "0x6000BE0")]
-	[Address(RVA = "0x2755A50", Offset = "0x2754050", VA = "0x182755A50")]
+	[Address(RVA = "0x61021A0", Offset = "0x61011A0", VA = "0x61021A0")]
 	protected XmlException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000BE1")]
-	[Address(RVA = "0x27557F0", Offset = "0x2753DF0", VA = "0x1827557F0", Slot = "11")]
+	[Address(RVA = "0x6102820", Offset = "0x6101820", VA = "0x6102820", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000BE2")]
-	[Address(RVA = "0x2755F00", Offset = "0x2754500", VA = "0x182755F00")]
+	[Address(RVA = "0x6102970", Offset = "0x6101970", VA = "0x6102970")]
 	public XmlException()
 	{
 	}
 
 	[Token(Token = "0x6000BE3")]
-	[Address(RVA = "0x2755ED0", Offset = "0x27544D0", VA = "0x182755ED0")]
+	[Address(RVA = "0x6102990", Offset = "0x6101990", VA = "0x6102990")]
 	public XmlException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000BE4")]
-	[Address(RVA = "0x2755A20", Offset = "0x2754020", VA = "0x182755A20")]
+	[Address(RVA = "0x61029C0", Offset = "0x61019C0", VA = "0x61029C0")]
 	public XmlException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6000BE5")]
-	[Address(RVA = "0x2755940", Offset = "0x2753F40", VA = "0x182755940")]
+	[Address(RVA = "0x61029B0", Offset = "0x61019B0", VA = "0x61029B0")]
 	public XmlException(string message, Exception innerException, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000BE6")]
-	[Address(RVA = "0x2756180", Offset = "0x2754780", VA = "0x182756180")]
+	[Address(RVA = "0x61029D0", Offset = "0x61019D0", VA = "0x61029D0")]
 	internal XmlException(string message, Exception innerException, int lineNumber, int linePosition, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BE7")]
-	[Address(RVA = "0x27563A0", Offset = "0x27549A0", VA = "0x1827563A0")]
+	[Address(RVA = "0x60F5A10", Offset = "0x60F4A10", VA = "0x60F5A10")]
 	internal XmlException(string res, string[] args)
 	{
 	}
 
 	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x27565D0", Offset = "0x2754BD0", VA = "0x1827565D0")]
+	[Address(RVA = "0x60F57E0", Offset = "0x60F47E0", VA = "0x60F57E0")]
 	internal XmlException(string res, string arg)
 	{
 	}
 
 	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x2756530", Offset = "0x2754B30", VA = "0x182756530")]
+	[Address(RVA = "0x6102C80", Offset = "0x6101C80", VA = "0x6102C80")]
 	internal XmlException(string res, string arg, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BEA")]
-	[Address(RVA = "0x2756040", Offset = "0x2754640", VA = "0x182756040")]
+	[Address(RVA = "0x6102D80", Offset = "0x6101D80", VA = "0x6102D80")]
 	internal XmlException(string res, string arg, IXmlLineInfo lineInfo)
 	{
 	}
 
 	[Token(Token = "0x6000BEB")]
-	[Address(RVA = "0x2756490", Offset = "0x2754A90", VA = "0x182756490")]
+	[Address(RVA = "0x6102FF0", Offset = "0x6101FF0", VA = "0x6102FF0")]
 	internal XmlException(string res, string[] args, IXmlLineInfo lineInfo)
 	{
 	}
 
 	[Token(Token = "0x6000BEC")]
-	[Address(RVA = "0x2756670", Offset = "0x2754C70", VA = "0x182756670")]
+	[Address(RVA = "0x6102E10", Offset = "0x6101E10", VA = "0x6102E10")]
 	internal XmlException(string res, string[] args, IXmlLineInfo lineInfo, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BED")]
-	[Address(RVA = "0x2755970", Offset = "0x2753F70", VA = "0x182755970")]
+	[Address(RVA = "0x60FDEA0", Offset = "0x60FCEA0", VA = "0x60FDEA0")]
 	internal XmlException(string res, string arg, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000BEE")]
-	[Address(RVA = "0x2755F60", Offset = "0x2754560", VA = "0x182755F60")]
+	[Address(RVA = "0x6103000", Offset = "0x6102000", VA = "0x6103000")]
 	internal XmlException(string res, string arg, int lineNumber, int linePosition, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BEF")]
-	[Address(RVA = "0x2756010", Offset = "0x2754610", VA = "0x182756010")]
+	[Address(RVA = "0x60FE130", Offset = "0x60FD130", VA = "0x60FE130")]
 	internal XmlException(string res, string[] args, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000BF0")]
-	[Address(RVA = "0x2756140", Offset = "0x2754740", VA = "0x182756140")]
+	[Address(RVA = "0x6103110", Offset = "0x6102110", VA = "0x6103110")]
 	internal XmlException(string res, string[] args, int lineNumber, int linePosition, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BF1")]
-	[Address(RVA = "0x2755F30", Offset = "0x2754530", VA = "0x182755F30")]
+	[Address(RVA = "0x61031C0", Offset = "0x61021C0", VA = "0x61031C0")]
 	internal XmlException(string res, string[] args, Exception innerException, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000BF2")]
-	[Address(RVA = "0x27563D0", Offset = "0x27549D0", VA = "0x1827563D0")]
+	[Address(RVA = "0x6102BD0", Offset = "0x6101BD0", VA = "0x6102BD0")]
 	internal XmlException(string res, string[] args, Exception innerException, int lineNumber, int linePosition, string sourceUri)
 	{
 	}
 
 	[Token(Token = "0x6000BF3")]
-	[Address(RVA = "0x27556E0", Offset = "0x2753CE0", VA = "0x1827556E0")]
+	[Address(RVA = "0x6102B00", Offset = "0x6101B00", VA = "0x6102B00")]
 	private static string FormatUserMessage(string message, int lineNumber, int linePosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF4")]
-	[Address(RVA = "0x2755520", Offset = "0x2753B20", VA = "0x182755520")]
+	[Address(RVA = "0x61025F0", Offset = "0x61015F0", VA = "0x61025F0")]
 	private static string CreateMessage(string res, string[] args, int lineNumber, int linePosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF5")]
-	[Address(RVA = "0x27551D0", Offset = "0x27537D0", VA = "0x1827551D0")]
+	[Address(RVA = "0x60F59C0", Offset = "0x60F49C0", VA = "0x60F59C0")]
 	internal static string[] BuildCharExceptionArgs(string data, int invCharIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF6")]
-	[Address(RVA = "0x27554D0", Offset = "0x2753AD0", VA = "0x1827554D0")]
+	[Address(RVA = "0x6103270", Offset = "0x6102270", VA = "0x6103270")]
 	internal static string[] BuildCharExceptionArgs(char[] data, int length, int invCharIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF7")]
-	[Address(RVA = "0x2755240", Offset = "0x2753840", VA = "0x182755240")]
+	[Address(RVA = "0x60F5E60", Offset = "0x60F4E60", VA = "0x60F5E60")]
 	internal static string[] BuildCharExceptionArgs(char invChar, char nextChar)
 	{
 		return null;

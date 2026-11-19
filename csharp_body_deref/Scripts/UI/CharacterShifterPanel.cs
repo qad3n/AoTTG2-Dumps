@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200076C")]
+[Token(Token = "0x2000816")]
 internal class CharacterShifterPanel : CharacterCategoryPanel
 {
-	[Token(Token = "0x600483B")]
-	[Address(RVA = "0x2227380", Offset = "0x2225980", VA = "0x182227380", Slot = "20")]
+	[Token(Token = "0x6004D5B")]
+	[Address(RVA = "0x5C06FF0", Offset = "0x5C05FF0", VA = "0x5C06FF0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600483C")]
-	[Address(RVA = "0x22279F0", Offset = "0x2225FF0", VA = "0x1822279F0")]
+	[Token(Token = "0x6004D5C")]
+	[Address(RVA = "0x5C074F0", Offset = "0x5C064F0", VA = "0x5C074F0")]
 	public CharacterShifterPanel()
 	{
 	}

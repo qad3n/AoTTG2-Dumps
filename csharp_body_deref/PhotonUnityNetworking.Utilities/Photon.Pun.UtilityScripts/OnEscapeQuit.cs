@@ -15,7 +15,7 @@ namespace Photon.Pun.UtilityScripts;
 public class OnEscapeQuit : MonoBehaviour
 {
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x1D53F50", Offset = "0x1D52550", VA = "0x181D53F50")]
+	[Address(RVA = "0x56F4E10", Offset = "0x56F3E10", VA = "0x56F4E10")]
 	[Conditional("UNITY_ANDROID")]
 	[Conditional("UNITY_IOS")]
 	public void Update()
@@ -23,7 +23,7 @@ public class OnEscapeQuit : MonoBehaviour
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F4E70", Offset = "0x56F3E70", VA = "0x56F4E70")]
 	public OnEscapeQuit()
 	{
 	}

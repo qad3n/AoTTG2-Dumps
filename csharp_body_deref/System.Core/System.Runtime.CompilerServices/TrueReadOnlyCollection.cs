@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000256")]
+[Token(Token = "0x2000257")]
 internal sealed class TrueReadOnlyCollection<T> : ReadOnlyCollection<T>
 {
-	[Token(Token = "0x6000B9E")]
+	[Token(Token = "0x6000BA9")]
 	public TrueReadOnlyCollection(params T[] list)
 	{
 	}

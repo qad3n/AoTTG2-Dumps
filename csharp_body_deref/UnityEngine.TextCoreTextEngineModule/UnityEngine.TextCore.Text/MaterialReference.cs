@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.MaterialReference
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,20 +46,20 @@ internal struct MaterialReference
 	public int referenceCount;
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x3015430", Offset = "0x3013A30", VA = "0x183015430")]
+	[Address(RVA = "0x6A0EF90", Offset = "0x6A0DF90", VA = "0x6A0EF90")]
 	public MaterialReference(int index, FontAsset fontAsset, SpriteAsset spriteAsset, Material material, float padding)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x3014FA0", Offset = "0x30135A0", VA = "0x183014FA0")]
+	[Address(RVA = "0x6A0F010", Offset = "0x6A0E010", VA = "0x6A0F010")]
 	public static int AddMaterialReference(Material material, FontAsset fontAsset, ref MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x30151E0", Offset = "0x30137E0", VA = "0x1830151E0")]
+	[Address(RVA = "0x6A0F220", Offset = "0x6A0E220", VA = "0x6A0F220")]
 	public static int AddMaterialReference(Material material, SpriteAsset spriteAsset, ref MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup)
 	{
 		return default(int);

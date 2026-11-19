@@ -11,48 +11,48 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002AF")]
+[Token(Token = "0x200030C")]
 internal sealed class AottgGuildPresetImageLayout : MonoBehaviour
 {
-	[Token(Token = "0x4000DE2")]
+	[Token(Token = "0x4000F77")]
 	[FieldOffset(Offset = "0x20")]
 	private LayoutElement _layout;
 
-	[Token(Token = "0x4000DE3")]
+	[Token(Token = "0x4000F78")]
 	[FieldOffset(Offset = "0x28")]
 	private float _baseWidth;
 
-	[Token(Token = "0x4000DE4")]
+	[Token(Token = "0x4000F79")]
 	[FieldOffset(Offset = "0x2C")]
 	private float _baseHeight;
 
-	[Token(Token = "0x60010BE")]
-	[Address(RVA = "0x1E12EA0", Offset = "0x1E114A0", VA = "0x181E12EA0")]
+	[Token(Token = "0x600130F")]
+	[Address(RVA = "0x57F78E0", Offset = "0x57F68E0", VA = "0x57F78E0")]
 	public static void Configure(Image image, float width, float height)
 	{
 	}
 
-	[Token(Token = "0x60010BF")]
-	[Address(RVA = "0x1E13170", Offset = "0x1E11770", VA = "0x181E13170")]
+	[Token(Token = "0x6001310")]
+	[Address(RVA = "0x57F7A30", Offset = "0x57F6A30", VA = "0x57F7A30")]
 	public static void Scale(Image image, float scale)
 	{
 	}
 
-	[Token(Token = "0x60010C0")]
-	[Address(RVA = "0x1E12F00", Offset = "0x1E11500", VA = "0x181E12F00")]
+	[Token(Token = "0x6001311")]
+	[Address(RVA = "0x57F7D70", Offset = "0x57F6D70", VA = "0x57F7D70")]
 	private static AottgGuildPresetImageLayout Runtime(Image image)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010C1")]
-	[Address(RVA = "0x1E12D80", Offset = "0x1E11380", VA = "0x181E12D80")]
+	[Token(Token = "0x6001312")]
+	[Address(RVA = "0x57F8000", Offset = "0x57F7000", VA = "0x57F8000")]
 	private void Apply(float scale)
 	{
 	}
 
-	[Token(Token = "0x60010C2")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6001313")]
+	[Address(RVA = "0x57F8110", Offset = "0x57F7110", VA = "0x57F8110")]
 	public AottgGuildPresetImageLayout()
 	{
 	}

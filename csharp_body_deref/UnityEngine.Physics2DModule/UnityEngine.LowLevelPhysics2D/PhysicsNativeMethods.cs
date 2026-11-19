@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsNativeMethods
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ internal readonly struct PhysicsNativeMethods
 		public bool TransformTweening;
 
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x2FCEE00", Offset = "0x2FCD400", VA = "0x182FCEE00", Slot = "4")]
+		[Address(RVA = "0x69D2A10", Offset = "0x69D1A10", VA = "0x69D2A10", Slot = "4")]
 		public void Execute(int index, TransformAccess transform)
 		{
 		}
@@ -58,7 +58,7 @@ internal readonly struct PhysicsNativeMethods
 		public bool TransformTweening;
 
 		[Token(Token = "0x600018D")]
-		[Address(RVA = "0x2FDAE20", Offset = "0x2FD9420", VA = "0x182FDAE20", Slot = "4")]
+		[Address(RVA = "0x69D2C50", Offset = "0x69D1C50", VA = "0x69D2C50", Slot = "4")]
 		public void Execute(int index, TransformAccess transform)
 		{
 		}
@@ -93,7 +93,7 @@ internal readonly struct PhysicsNativeMethods
 		public float ExtrapolationTime;
 
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x2FDB680", Offset = "0x2FD9C80", VA = "0x182FDB680", Slot = "4")]
+		[Address(RVA = "0x69D2EB0", Offset = "0x69D1EB0", VA = "0x69D2EB0", Slot = "4")]
 		public void Execute(int index, TransformAccess transform)
 		{
 		}
@@ -104,35 +104,35 @@ internal readonly struct PhysicsNativeMethods
 	private static TransformAccessArray[] s_WorldTransformAccessArrays;
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2FD52D0", Offset = "0x2FD38D0", VA = "0x182FD52D0")]
+	[Address(RVA = "0x69D1EA0", Offset = "0x69D0EA0", VA = "0x69D1EA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void CreateWorldTransformAccessArray(PhysicsWorld world, int capacity, int desiredJobCount)
 	{
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x2FD53F0", Offset = "0x2FD39F0", VA = "0x182FD53F0")]
+	[Address(RVA = "0x69D1FC0", Offset = "0x69D0FC0", VA = "0x69D1FC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DestroyWorldTransformAccessArray(PhysicsWorld world)
 	{
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2FD54D0", Offset = "0x2FD3AD0", VA = "0x182FD54D0")]
+	[Address(RVA = "0x69D20E0", Offset = "0x69D10E0", VA = "0x69D20E0")]
 	private static TransformAccessArray GetWorldTransformAccessArray(PhysicsWorld world)
 	{
 		return default(TransformAccessArray);
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x2FD5820", Offset = "0x2FD3E20", VA = "0x182FD5820")]
+	[Address(RVA = "0x69D2210", Offset = "0x69D1210", VA = "0x69D2210")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void WriteWorldTransforms(PhysicsWorld world, PhysicsWorld.TransformWriteMode transformWriteMode, PhysicsWorld.TransformPlane transformPlane, int eventCount, bool transformTweening)
 	{
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x2FD55F0", Offset = "0x2FD3BF0", VA = "0x182FD55F0")]
+	[Address(RVA = "0x69D2720", Offset = "0x69D1720", VA = "0x69D2720")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void WriteTransformTweens(PhysicsWorld world, double lastSimulationTimestamp, float lastSimulationDeltaTime, PhysicsWorld.TransformWriteMode transformWriteMode, PhysicsWorld.TransformPlane transformPlane, PhysicsLowLevelScripting2D.PhysicsBuffer transformWriteTweensBuffer)
 	{

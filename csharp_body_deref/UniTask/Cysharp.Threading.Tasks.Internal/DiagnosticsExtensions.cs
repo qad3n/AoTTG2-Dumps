@@ -30,42 +30,42 @@ internal static class DiagnosticsExtensions
 	private static readonly Dictionary<Type, string> builtInTypeNames;
 
 	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x2940F50", Offset = "0x293F550", VA = "0x182940F50")]
+	[Address(RVA = "0x6307070", Offset = "0x6306070", VA = "0x6307070")]
 	public static string CleanupAsyncStackTrace(this StackTrace stackTrace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x2941980", Offset = "0x293FF80", VA = "0x182941980")]
+	[Address(RVA = "0x63079C0", Offset = "0x63069C0", VA = "0x63079C0")]
 	private static bool IsAsync(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CB2")]
-	[Address(RVA = "0x2941A20", Offset = "0x2940020", VA = "0x182941A20")]
+	[Address(RVA = "0x6307A60", Offset = "0x6306A60", VA = "0x6307A60")]
 	private static bool TryResolveStateMachineMethod(ref MethodBase method, out Type declaringType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x2940930", Offset = "0x293EF30", VA = "0x182940930")]
+	[Address(RVA = "0x6307F60", Offset = "0x6306F60", VA = "0x6307F60")]
 	private static string BeautifyType(Type t, bool shortName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB4")]
-	[Address(RVA = "0x2941810", Offset = "0x293FE10", VA = "0x182941810")]
+	[Address(RVA = "0x6307860", Offset = "0x6306860", VA = "0x6307860")]
 	private static bool IgnoreLine(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x2940600", Offset = "0x293EC00", VA = "0x182940600")]
+	[Address(RVA = "0x6308570", Offset = "0x6307570", VA = "0x6308570")]
 	private static string AppendHyperLink(string path, string line)
 	{
 		return null;

@@ -32,7 +32,7 @@ internal class AxisElement
 	internal DoubleLinkAxis CurNode
 	{
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x613CAB0", Offset = "0x613BAB0", VA = "0x613CAB0")]
 		get
 		{
 			return null;
@@ -40,25 +40,25 @@ internal class AxisElement
 	}
 
 	[Token(Token = "0x6000F24")]
-	[Address(RVA = "0x2776510", Offset = "0x2774B10", VA = "0x182776510")]
+	[Address(RVA = "0x613CAC0", Offset = "0x613BAC0", VA = "0x613CAC0")]
 	internal AxisElement(DoubleLinkAxis node, int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F25")]
-	[Address(RVA = "0x2776500", Offset = "0x2774B00", VA = "0x182776500")]
+	[Address(RVA = "0x613CB00", Offset = "0x613BB00", VA = "0x613CB00")]
 	internal void SetDepth(int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F26")]
-	[Address(RVA = "0x27763B0", Offset = "0x27749B0", VA = "0x1827763B0")]
+	[Address(RVA = "0x613CB10", Offset = "0x613BB10", VA = "0x613CB10")]
 	internal void MoveToParent(int depth, ForwardAxis parent)
 	{
 	}
 
 	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x2776200", Offset = "0x2774800", VA = "0x182776200")]
+	[Address(RVA = "0x613CC10", Offset = "0x613BC10", VA = "0x613CC10")]
 	internal bool MoveToChild(string name, string URN, int depth, ForwardAxis parent)
 	{
 		return default(bool);

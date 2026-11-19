@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004DE")]
+[Token(Token = "0x20004B7")]
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = false)]
 public sealed class NeutralResourcesLanguageAttribute : Attribute
 {
-	[Token(Token = "0x17000489")]
+	[Token(Token = "0x17000488")]
 	public string CultureName
 	{
-		[Token(Token = "0x60023BE")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600238C")]
+		[Address(RVA = "0x53CBE40", Offset = "0x53CAE40", VA = "0x53CBE40")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public sealed class NeutralResourcesLanguageAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700048A")]
+	[Token(Token = "0x17000489")]
 	public UltimateResourceFallbackLocation Location
 	{
-		[Token(Token = "0x60023BF")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x600238D")]
+		[Address(RVA = "0x53CBE50", Offset = "0x53CAE50", VA = "0x53CBE50")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,8 +38,8 @@ public sealed class NeutralResourcesLanguageAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x60023BD")]
-	[Address(RVA = "0x1A4B810", Offset = "0x1A49E10", VA = "0x181A4B810")]
+	[Token(Token = "0x600238B")]
+	[Address(RVA = "0x53CBDC0", Offset = "0x53CADC0", VA = "0x53CBDC0")]
 	public NeutralResourcesLanguageAttribute(string cultureName)
 	{
 	}

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005F7")]
+[Token(Token = "0x2000656")]
 internal interface ICustomLogicToString
 {
-	[Token(Token = "0x6003A6B")]
+	[Token(Token = "0x6003CF9")]
 	string __Str__();
 }

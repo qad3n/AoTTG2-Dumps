@@ -25,7 +25,7 @@ internal sealed class OperatorInfo
 	internal int _priority;
 
 	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x19AB170", Offset = "0x19A9770", VA = "0x1819AB170")]
+	[Address(RVA = "0x5EBAB80", Offset = "0x5EB9B80", VA = "0x5EBAB80")]
 	internal OperatorInfo(Nodes type, int op, int pri)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.IRenderGraphResource
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -52,14 +52,14 @@ internal class IRenderGraphResource
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001302")]
-	[Address(RVA = "0x2B8AAD0", Offset = "0x2B890D0", VA = "0x182B8AAD0", Slot = "4")]
+	[Address(RVA = "0x6587410", Offset = "0x6586410", VA = "0x6587410", Slot = "4")]
 	public virtual void Reset([Optional] IRenderGraphResourcePool _)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001303")]
-	[Address(RVA = "0x2B8AA60", Offset = "0x2B89060", VA = "0x182B8AA60", Slot = "5")]
+	[Address(RVA = "0x6587440", Offset = "0x6586440", VA = "0x6587440", Slot = "5")]
 	public virtual string GetName()
 	{
 		return null;
@@ -67,7 +67,7 @@ internal class IRenderGraphResource
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001304")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+	[Address(RVA = "0x6587470", Offset = "0x6586470", VA = "0x6587470", Slot = "6")]
 	public virtual bool IsCreated()
 	{
 		return default(bool);
@@ -75,7 +75,7 @@ internal class IRenderGraphResource
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001305")]
-	[Address(RVA = "0x2B8AAA0", Offset = "0x2B890A0", VA = "0x182B8AAA0", Slot = "7")]
+	[Address(RVA = "0x6587480", Offset = "0x6586480", VA = "0x6587480", Slot = "7")]
 	public virtual uint IncrementWriteCount()
 	{
 		return default(uint);
@@ -83,77 +83,77 @@ internal class IRenderGraphResource
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001306")]
-	[Address(RVA = "0x2B8AA90", Offset = "0x2B89090", VA = "0x182B8AA90", Slot = "8")]
+	[Address(RVA = "0x6587490", Offset = "0x6586490", VA = "0x6587490", Slot = "8")]
 	public virtual void IncrementReadCount()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001307")]
-	[Address(RVA = "0x2B8AAB0", Offset = "0x2B890B0", VA = "0x182B8AAB0", Slot = "9")]
+	[Address(RVA = "0x65874A0", Offset = "0x65864A0", VA = "0x65874A0", Slot = "9")]
 	public virtual bool NeedsFallBack()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001308")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Address(RVA = "0x65874C0", Offset = "0x65864C0", VA = "0x65874C0", Slot = "10")]
 	public virtual void CreatePooledGraphicsResource(int frameIndex, int executionCount)
 	{
 	}
 
 	[Token(Token = "0x6001309")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+	[Address(RVA = "0x65874D0", Offset = "0x65864D0", VA = "0x65874D0", Slot = "11")]
 	public virtual void CreateGraphicsResource()
 	{
 	}
 
 	[Token(Token = "0x600130A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Address(RVA = "0x65874E0", Offset = "0x65864E0", VA = "0x65874E0", Slot = "12")]
 	public virtual void UpdateGraphicsResource()
 	{
 	}
 
 	[Token(Token = "0x600130B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
+	[Address(RVA = "0x65874F0", Offset = "0x65864F0", VA = "0x65874F0", Slot = "13")]
 	public virtual void ReleasePooledGraphicsResource(int frameIndex, int executionCount)
 	{
 	}
 
 	[Token(Token = "0x600130C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "14")]
+	[Address(RVA = "0x6587500", Offset = "0x6586500", VA = "0x6587500", Slot = "14")]
 	public virtual void ReleaseGraphicsResource()
 	{
 	}
 
 	[Token(Token = "0x600130D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+	[Address(RVA = "0x6587510", Offset = "0x6586510", VA = "0x6587510", Slot = "15")]
 	public virtual void LogCreation(RenderGraphLogger logger)
 	{
 	}
 
 	[Token(Token = "0x600130E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "16")]
+	[Address(RVA = "0x6587520", Offset = "0x6586520", VA = "0x6587520", Slot = "16")]
 	public virtual void LogRelease(RenderGraphLogger logger)
 	{
 	}
 
 	[Token(Token = "0x600130F")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "17")]
+	[Address(RVA = "0x6587530", Offset = "0x6586530", VA = "0x6587530", Slot = "17")]
 	public virtual int GetSortIndex()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001310")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "18")]
+	[Address(RVA = "0x6587540", Offset = "0x6586540", VA = "0x6587540", Slot = "18")]
 	public virtual int GetDescHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001311")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6587550", Offset = "0x6586550", VA = "0x6587550")]
 	public IRenderGraphResource()
 	{
 	}

@@ -18,27 +18,27 @@ public class MaxFloatParameter : FloatParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x400099B")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float max;
 
 	[Token(Token = "0x170001F4")]
 	public override float value
 	{
 		[Token(Token = "0x6000F38")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x6555A40", Offset = "0x6554A40", VA = "0x6555A40", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F39")]
-		[Address(RVA = "0x2B5E320", Offset = "0x2B5C920", VA = "0x182B5E320", Slot = "15")]
+		[Address(RVA = "0x6555A50", Offset = "0x6554A50", VA = "0x6555A50", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F3A")]
-	[Address(RVA = "0x2B5E2B0", Offset = "0x2B5C8B0", VA = "0x182B5E2B0")]
+	[Address(RVA = "0x6555A60", Offset = "0x6554A60", VA = "0x6555A60")]
 	public MaxFloatParameter(float value, float max, bool overrideState = false)
 	{
 	}

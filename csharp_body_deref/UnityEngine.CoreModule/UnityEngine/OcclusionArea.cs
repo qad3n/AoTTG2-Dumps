@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000EC")]
+[Token(Token = "0x20000ED")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/OcclusionArea.h")]
 public sealed class OcclusionArea : Component
 {

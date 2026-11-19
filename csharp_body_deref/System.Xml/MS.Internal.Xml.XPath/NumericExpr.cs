@@ -15,22 +15,22 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class NumericExpr : ValueQuery
 {
 	[Token(Token = "0x4000E64")]
-	[FieldOffset(Offset = "0x18")]
+	[FieldOffset(Offset = "0x14")]
 	private Operator.Op _op;
 
 	[Token(Token = "0x4000E65")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	private Query _opnd1;
 
 	[Token(Token = "0x4000E66")]
-	[FieldOffset(Offset = "0x28")]
+	[FieldOffset(Offset = "0x20")]
 	private Query _opnd2;
 
 	[Token(Token = "0x1700070F")]
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001B79")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "16")]
+		[Address(RVA = "0x6088ED0", Offset = "0x6087ED0", VA = "0x6088ED0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -38,39 +38,39 @@ internal sealed class NumericExpr : ValueQuery
 	}
 
 	[Token(Token = "0x6001B74")]
-	[Address(RVA = "0x26C13B0", Offset = "0x26BF9B0", VA = "0x1826C13B0")]
+	[Address(RVA = "0x6088B70", Offset = "0x6087B70", VA = "0x6088B70")]
 	public NumericExpr(Operator.Op op, Query opnd1, Query opnd2)
 	{
 	}
 
 	[Token(Token = "0x6001B75")]
-	[Address(RVA = "0x26BCF70", Offset = "0x26BB570", VA = "0x1826BCF70")]
+	[Address(RVA = "0x6088C90", Offset = "0x6087C90", VA = "0x6088C90")]
 	private NumericExpr(NumericExpr other)
 	{
 	}
 
 	[Token(Token = "0x6001B76")]
-	[Address(RVA = "0x26BB7F0", Offset = "0x26B9DF0", VA = "0x1826BB7F0", Slot = "13")]
+	[Address(RVA = "0x6088D00", Offset = "0x6087D00", VA = "0x6088D00", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001B77")]
-	[Address(RVA = "0x26C1240", Offset = "0x26BF840", VA = "0x1826C1240", Slot = "14")]
+	[Address(RVA = "0x6088D50", Offset = "0x6087D50", VA = "0x6088D50", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B78")]
-	[Address(RVA = "0x26C1370", Offset = "0x26BF970", VA = "0x1826C1370")]
+	[Address(RVA = "0x6088E90", Offset = "0x6087E90", VA = "0x6088E90")]
 	private static double GetValue(Operator.Op op, double n1, double n2)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B7A")]
-	[Address(RVA = "0x26C11A0", Offset = "0x26BF7A0", VA = "0x1826C11A0", Slot = "6")]
+	[Address(RVA = "0x6088EE0", Offset = "0x6087EE0", VA = "0x6088EE0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

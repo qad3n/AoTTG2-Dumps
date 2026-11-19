@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor;
 
-[Token(Token = "0x20005FC")]
+[Token(Token = "0x200065B")]
 internal abstract class BaseCustomLogicDocsGenerator
 {
-	[Token(Token = "0x4001A83")]
+	[Token(Token = "0x4001C24")]
 	[FieldOffset(Offset = "0x10")]
 	protected readonly CLType[] AllTypes;
 
-	[Token(Token = "0x6003A8B")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6003D19")]
+	[Address(RVA = "0x5A91B30", Offset = "0x5A90B30", VA = "0x5A91B30")]
 	protected BaseCustomLogicDocsGenerator(CLType[] allTypes)
 	{
 	}
 
-	[Token(Token = "0x6003A8C")]
+	[Token(Token = "0x6003D1A")]
 	public abstract string GetRelativeFilePath(CLType type);
 
-	[Token(Token = "0x6003A8D")]
+	[Token(Token = "0x6003D1B")]
 	public abstract string Generate(CLType type);
 }

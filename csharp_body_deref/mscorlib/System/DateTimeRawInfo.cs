@@ -9,59 +9,59 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E6")]
+[Token(Token = "0x20000BE")]
 internal struct DateTimeRawInfo
 {
-	[Token(Token = "0x4000360")]
+	[Token(Token = "0x40002BB")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe int* num;
 
-	[Token(Token = "0x4000361")]
+	[Token(Token = "0x40002BC")]
 	[FieldOffset(Offset = "0x8")]
 	internal int numCount;
 
-	[Token(Token = "0x4000362")]
+	[Token(Token = "0x40002BD")]
 	[FieldOffset(Offset = "0xC")]
 	internal int month;
 
-	[Token(Token = "0x4000363")]
+	[Token(Token = "0x40002BE")]
 	[FieldOffset(Offset = "0x10")]
 	internal int year;
 
-	[Token(Token = "0x4000364")]
+	[Token(Token = "0x40002BF")]
 	[FieldOffset(Offset = "0x14")]
 	internal int dayOfWeek;
 
-	[Token(Token = "0x4000365")]
+	[Token(Token = "0x40002C0")]
 	[FieldOffset(Offset = "0x18")]
 	internal int era;
 
-	[Token(Token = "0x4000366")]
+	[Token(Token = "0x40002C1")]
 	[FieldOffset(Offset = "0x1C")]
 	internal System.DateTimeParse.TM timeMark;
 
-	[Token(Token = "0x4000367")]
+	[Token(Token = "0x40002C2")]
 	[FieldOffset(Offset = "0x20")]
 	internal double fraction;
 
-	[Token(Token = "0x4000368")]
+	[Token(Token = "0x40002C3")]
 	[FieldOffset(Offset = "0x28")]
 	internal bool hasSameDateAndTimeSeparators;
 
-	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x1B23790", Offset = "0x1B21D90", VA = "0x181B23790")]
+	[Token(Token = "0x6000752")]
+	[Address(RVA = "0x54B15A0", Offset = "0x54B05A0", VA = "0x54B15A0")]
 	internal unsafe void Init(int* numberBuffer)
 	{
 	}
 
-	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x1B23770", Offset = "0x1B21D70", VA = "0x181B23770")]
+	[Token(Token = "0x6000753")]
+	[Address(RVA = "0x54B15D0", Offset = "0x54B05D0", VA = "0x54B15D0")]
 	internal void AddNumber(int value)
 	{
 	}
 
-	[Token(Token = "0x6000779")]
-	[Address(RVA = "0xECBF00", Offset = "0xECA500", VA = "0x180ECBF00")]
+	[Token(Token = "0x6000754")]
+	[Address(RVA = "0x54B15F0", Offset = "0x54B05F0", VA = "0x54B15F0")]
 	internal int GetNumber(int index)
 	{
 		return default(int);

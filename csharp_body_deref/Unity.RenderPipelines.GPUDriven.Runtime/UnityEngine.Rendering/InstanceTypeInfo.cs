@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceTypeInfo
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,51 +32,51 @@ internal static class InstanceTypeInfo
 	private static List<InstanceType>[] s_ChildTypes;
 
 	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x2BF1390", Offset = "0x2BEF990", VA = "0x182BF1390")]
+	[Address(RVA = "0x65E3F00", Offset = "0x65E2F00", VA = "0x65E3F00")]
 	static InstanceTypeInfo()
 	{
 	}
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x2BF11A0", Offset = "0x2BEF7A0", VA = "0x182BF11A0")]
+	[Address(RVA = "0x65E3F20", Offset = "0x65E2F20", VA = "0x65E3F20")]
 	private static void InitParentTypes()
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x2BF0F80", Offset = "0x2BEF580", VA = "0x182BF0F80")]
+	[Address(RVA = "0x65E3FE0", Offset = "0x65E2FE0", VA = "0x65E3FE0")]
 	private static void InitChildTypes()
 	{
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x2BF0D70", Offset = "0x2BEF370", VA = "0x182BF0D70")]
+	[Address(RVA = "0x65E44F0", Offset = "0x65E34F0", VA = "0x65E44F0")]
 	private static InstanceType GetMaxChildTypeRecursively(InstanceType type)
 	{
 		return default(InstanceType);
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x2BF0B40", Offset = "0x2BEF140", VA = "0x182BF0B40")]
+	[Address(RVA = "0x65E4690", Offset = "0x65E3690", VA = "0x65E4690")]
 	private static void FlattenChildInstanceTypes(InstanceType instanceType, NativeList<InstanceType> instanceTypes)
 	{
 	}
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x2BF1270", Offset = "0x2BEF870", VA = "0x182BF1270")]
+	[Address(RVA = "0x65E4350", Offset = "0x65E3350", VA = "0x65E4350")]
 	private static void ValidateTypeRelationsAreCorrectlySorted()
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x2BF0F10", Offset = "0x2BEF510", VA = "0x182BF0F10")]
+	[Address(RVA = "0x65E4860", Offset = "0x65E3860", VA = "0x65E4860")]
 	public static InstanceType GetParentType(InstanceType type)
 	{
 		return default(InstanceType);
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x2BF0D00", Offset = "0x2BEF300", VA = "0x182BF0D00")]
+	[Address(RVA = "0x65E48F0", Offset = "0x65E38F0", VA = "0x65E48F0")]
 	public static List<InstanceType> GetChildTypes(InstanceType type)
 	{
 		return null;

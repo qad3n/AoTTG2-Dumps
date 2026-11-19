@@ -14,25 +14,25 @@ namespace UnityEngine.Rendering;
 public struct ProfilingScope : IDisposable
 {
 	[Token(Token = "0x60007C1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64D8B50", Offset = "0x64D7B50", VA = "0x64D8B50")]
 	public ProfilingScope(ProfilingSampler sampler)
 	{
 	}
 
 	[Token(Token = "0x60007C2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64D8B60", Offset = "0x64D7B60", VA = "0x64D8B60")]
 	public ProfilingScope(CommandBuffer cmd, ProfilingSampler sampler)
 	{
 	}
 
 	[Token(Token = "0x60007C3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64D8B70", Offset = "0x64D7B70", VA = "0x64D8B70")]
 	public ProfilingScope(BaseCommandBuffer cmd, ProfilingSampler sampler)
 	{
 	}
 
 	[Token(Token = "0x60007C4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x64D8B80", Offset = "0x64D7B80", VA = "0x64D8B80", Slot = "4")]
 	public void Dispose()
 	{
 	}

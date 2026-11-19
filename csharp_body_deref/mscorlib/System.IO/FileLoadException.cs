@@ -12,25 +12,25 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000665")]
+[Token(Token = "0x200063E")]
 public class FileLoadException : IOException
 {
-	[Token(Token = "0x170007E0")]
+	[Token(Token = "0x170007DD")]
 	public override string Message
 	{
-		[Token(Token = "0x60030C1")]
-		[Address(RVA = "0x1ACDE10", Offset = "0x1ACC410", VA = "0x181ACDE10", Slot = "5")]
+		[Token(Token = "0x6003086")]
+		[Address(RVA = "0x54649C0", Offset = "0x54639C0", VA = "0x54649C0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007E1")]
+	[Token(Token = "0x170007DE")]
 	public string FileName
 	{
-		[Token(Token = "0x60030C2")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Token(Token = "0x6003087")]
+		[Address(RVA = "0x5464AB0", Offset = "0x5463AB0", VA = "0x5464AB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,11 +38,11 @@ public class FileLoadException : IOException
 		}
 	}
 
-	[Token(Token = "0x170007E2")]
+	[Token(Token = "0x170007DF")]
 	public string FusionLog
 	{
-		[Token(Token = "0x60030C3")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Token(Token = "0x6003088")]
+		[Address(RVA = "0x5464AC0", Offset = "0x5463AC0", VA = "0x5464AC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,39 +50,39 @@ public class FileLoadException : IOException
 		}
 	}
 
-	[Token(Token = "0x60030BF")]
-	[Address(RVA = "0x1ACDDC0", Offset = "0x1ACC3C0", VA = "0x181ACDDC0")]
+	[Token(Token = "0x6003084")]
+	[Address(RVA = "0x5464960", Offset = "0x5463960", VA = "0x5464960")]
 	public FileLoadException()
 	{
 	}
 
-	[Token(Token = "0x60030C0")]
-	[Address(RVA = "0x1ACDDA0", Offset = "0x1ACC3A0", VA = "0x181ACDDA0")]
+	[Token(Token = "0x6003085")]
+	[Address(RVA = "0x54649A0", Offset = "0x54639A0", VA = "0x54649A0")]
 	public FileLoadException(string message)
 	{
 	}
 
-	[Token(Token = "0x60030C4")]
-	[Address(RVA = "0x1ACDAE0", Offset = "0x1ACC0E0", VA = "0x181ACDAE0", Slot = "3")]
+	[Token(Token = "0x6003089")]
+	[Address(RVA = "0x5464AD0", Offset = "0x5463AD0", VA = "0x5464AD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60030C5")]
-	[Address(RVA = "0x1ACDCD0", Offset = "0x1ACC2D0", VA = "0x181ACDCD0")]
+	[Token(Token = "0x600308A")]
+	[Address(RVA = "0x5464CA0", Offset = "0x5463CA0", VA = "0x5464CA0")]
 	protected FileLoadException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60030C6")]
-	[Address(RVA = "0x1ACD9F0", Offset = "0x1ACBFF0", VA = "0x181ACD9F0", Slot = "11")]
+	[Token(Token = "0x600308B")]
+	[Address(RVA = "0x5464D60", Offset = "0x5463D60", VA = "0x5464D60", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60030C7")]
-	[Address(RVA = "0x1ACD990", Offset = "0x1ACBF90", VA = "0x181ACD990")]
+	[Token(Token = "0x600308C")]
+	[Address(RVA = "0x5464A50", Offset = "0x5463A50", VA = "0x5464A50")]
 	internal static string FormatFileLoadExceptionMessage(string fileName, int hResult)
 	{
 		return null;

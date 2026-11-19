@@ -9,51 +9,51 @@ using Il2CppDummyDll;
 
 namespace System.Security.Util;
 
-[Token(Token = "0x20002D9")]
+[Token(Token = "0x20002B2")]
 internal sealed class Parser
 {
-	[Token(Token = "0x4000C34")]
+	[Token(Token = "0x4000B94")]
 	[FieldOffset(Offset = "0x10")]
 	private System.Security.SecurityDocument _doc;
 
-	[Token(Token = "0x4000C35")]
+	[Token(Token = "0x4000B95")]
 	[FieldOffset(Offset = "0x18")]
 	private System.Security.Util.Tokenizer _t;
 
-	[Token(Token = "0x6001823")]
-	[Address(RVA = "0x1995AA0", Offset = "0x19940A0", VA = "0x181995AA0")]
+	[Token(Token = "0x6001800")]
+	[Address(RVA = "0x532ACD0", Offset = "0x5329CD0", VA = "0x532ACD0")]
 	internal SecurityElement GetTopElement()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001824")]
-	[Address(RVA = "0x19952A0", Offset = "0x19938A0", VA = "0x1819952A0")]
+	[Token(Token = "0x6001801")]
+	[Address(RVA = "0x532AD00", Offset = "0x5329D00", VA = "0x532AD00")]
 	private void GetRequiredSizes(System.Security.Util.TokenizerStream stream, ref int index)
 	{
 	}
 
-	[Token(Token = "0x6001825")]
-	[Address(RVA = "0x1995060", Offset = "0x1993660", VA = "0x181995060")]
+	[Token(Token = "0x6001802")]
+	[Address(RVA = "0x532B630", Offset = "0x532A630", VA = "0x532B630")]
 	private int DetermineFormat(System.Security.Util.TokenizerStream stream)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001826")]
-	[Address(RVA = "0x1995AD0", Offset = "0x19940D0", VA = "0x181995AD0")]
+	[Token(Token = "0x6001803")]
+	[Address(RVA = "0x532C380", Offset = "0x532B380", VA = "0x532C380")]
 	private void ParseContents()
 	{
 	}
 
-	[Token(Token = "0x6001827")]
-	[Address(RVA = "0x1996110", Offset = "0x1994710", VA = "0x181996110")]
+	[Token(Token = "0x6001804")]
+	[Address(RVA = "0x532CAF0", Offset = "0x532BAF0", VA = "0x532CAF0")]
 	private Parser(System.Security.Util.Tokenizer t)
 	{
 	}
 
-	[Token(Token = "0x6001828")]
-	[Address(RVA = "0x1996010", Offset = "0x1994610", VA = "0x181996010")]
+	[Token(Token = "0x6001805")]
+	[Address(RVA = "0x532CC00", Offset = "0x532BC00", VA = "0x532CC00")]
 	internal Parser(string input)
 	{
 	}

@@ -26,7 +26,7 @@ internal sealed class FilterQuery : BaseAxisQuery
 	public Query Condition
 	{
 		[Token(Token = "0x6001AEE")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x60808B0", Offset = "0x607F8B0", VA = "0x60808B0")]
 		get
 		{
 			return null;
@@ -37,7 +37,7 @@ internal sealed class FilterQuery : BaseAxisQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001AF2")]
-		[Address(RVA = "0x26B8A50", Offset = "0x26B7050", VA = "0x1826B8A50", Slot = "17")]
+		[Address(RVA = "0x6080BA0", Offset = "0x607FBA0", VA = "0x6080BA0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -45,45 +45,45 @@ internal sealed class FilterQuery : BaseAxisQuery
 	}
 
 	[Token(Token = "0x6001AEB")]
-	[Address(RVA = "0x26B8930", Offset = "0x26B6F30", VA = "0x1826B8930")]
+	[Address(RVA = "0x6080750", Offset = "0x607F750", VA = "0x6080750")]
 	public FilterQuery(Query qyParent, Query cond, bool noPosition)
 	{
 	}
 
 	[Token(Token = "0x6001AEC")]
-	[Address(RVA = "0x26B8980", Offset = "0x26B6F80", VA = "0x1826B8980")]
+	[Address(RVA = "0x6080800", Offset = "0x607F800", VA = "0x6080800")]
 	private FilterQuery(FilterQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AED")]
-	[Address(RVA = "0x26B87B0", Offset = "0x26B6DB0", VA = "0x1826B87B0", Slot = "12")]
+	[Address(RVA = "0x6080850", Offset = "0x607F850", VA = "0x6080850", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AEF")]
-	[Address(RVA = "0x26B8810", Offset = "0x26B6E10", VA = "0x1826B8810", Slot = "13")]
+	[Address(RVA = "0x60808C0", Offset = "0x607F8C0", VA = "0x60808C0", Slot = "13")]
 	public override void SetXsltContext(XsltContext input)
 	{
 	}
 
 	[Token(Token = "0x6001AF0")]
-	[Address(RVA = "0x26B82D0", Offset = "0x26B68D0", VA = "0x1826B82D0", Slot = "15")]
+	[Address(RVA = "0x60809E0", Offset = "0x607F9E0", VA = "0x60809E0", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AF1")]
-	[Address(RVA = "0x26B85E0", Offset = "0x26B6BE0", VA = "0x1826B85E0")]
+	[Address(RVA = "0x6080A60", Offset = "0x607FA60", VA = "0x6080A60")]
 	internal bool EvaluatePredicate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001AF3")]
-	[Address(RVA = "0x26B84E0", Offset = "0x26B6AE0", VA = "0x1826B84E0", Slot = "6")]
+	[Address(RVA = "0x6080BD0", Offset = "0x607FBD0", VA = "0x6080BD0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

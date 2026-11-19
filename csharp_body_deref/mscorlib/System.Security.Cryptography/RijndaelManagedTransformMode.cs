@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000322")]
+[Token(Token = "0x20002FB")]
 internal enum RijndaelManagedTransformMode
 {
-	[Token(Token = "0x4000D3D")]
+	[Token(Token = "0x4000C9D")]
 	Encrypt,
-	[Token(Token = "0x4000D3E")]
+	[Token(Token = "0x4000C9E")]
 	Decrypt
 }

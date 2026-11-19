@@ -10,161 +10,161 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x200010B")]
+[Token(Token = "0x20000CC")]
 public abstract class TraceListener : MarshalByRefObject, IDisposable
 {
-	[Token(Token = "0x4000470")]
+	[Token(Token = "0x40003A1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private int indentLevel;
 
-	[Token(Token = "0x4000471")]
+	[Token(Token = "0x40003A2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private int indentSize;
 
-	[Token(Token = "0x4000472")]
+	[Token(Token = "0x40003A3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private TraceOptions traceOptions;
 
-	[Token(Token = "0x4000473")]
+	[Token(Token = "0x40003A4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 	private bool needIndent;
 
-	[Token(Token = "0x4000474")]
+	[Token(Token = "0x40003A5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string listenerName;
 
-	[Token(Token = "0x4000475")]
+	[Token(Token = "0x40003A6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private TraceFilter filter;
 
-	[Token(Token = "0x170000FE")]
+	[Token(Token = "0x170000CF")]
 	public virtual bool IsThreadSafe
 	{
-		[Token(Token = "0x6000663")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x60004AD")]
+		[Address(RVA = "0x6201CE0", Offset = "0x6200CE0", VA = "0x6201CE0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000FF")]
+	[Token(Token = "0x170000D0")]
 	public int IndentLevel
 	{
-		[Token(Token = "0x6000667")]
-		[Address(RVA = "0x2877230", Offset = "0x2875830", VA = "0x182877230")]
+		[Token(Token = "0x60004B1")]
+		[Address(RVA = "0x62018F0", Offset = "0x62008F0", VA = "0x62018F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000100")]
+	[Token(Token = "0x170000D1")]
 	public int IndentSize
 	{
-		[Token(Token = "0x6000668")]
-		[Address(RVA = "0x2877250", Offset = "0x2875850", VA = "0x182877250")]
+		[Token(Token = "0x60004B2")]
+		[Address(RVA = "0x6201910", Offset = "0x6200910", VA = "0x6201910")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000101")]
+	[Token(Token = "0x170000D2")]
 	[ComVisible(false)]
 	public TraceFilter Filter
 	{
-		[Token(Token = "0x6000669")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x60004B3")]
+		[Address(RVA = "0x6201D80", Offset = "0x6200D80", VA = "0x6201D80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000102")]
+	[Token(Token = "0x170000D3")]
 	protected bool NeedIndent
 	{
-		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x584270", Offset = "0x582870", VA = "0x180584270")]
+		[Token(Token = "0x60004B4")]
+		[Address(RVA = "0x6201D90", Offset = "0x6200D90", VA = "0x6201D90")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600066B")]
-		[Address(RVA = "0x584290", Offset = "0x582890", VA = "0x180584290")]
+		[Token(Token = "0x60004B5")]
+		[Address(RVA = "0x6201DA0", Offset = "0x6200DA0", VA = "0x6201DA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000103")]
+	[Token(Token = "0x170000D4")]
 	[ComVisible(false)]
 	public TraceOptions TraceOutputOptions
 	{
-		[Token(Token = "0x600066C")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x60004B6")]
+		[Address(RVA = "0x6201DB0", Offset = "0x6200DB0", VA = "0x6201DB0")]
 		get
 		{
 			return default(TraceOptions);
 		}
 	}
 
-	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x28771F0", Offset = "0x28757F0", VA = "0x1828771F0")]
+	[Token(Token = "0x60004AC")]
+	[Address(RVA = "0x6201CA0", Offset = "0x6200CA0", VA = "0x6201CA0")]
 	protected TraceListener(string name)
 	{
 	}
 
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x28766F0", Offset = "0x2874CF0", VA = "0x1828766F0", Slot = "6")]
+	[Token(Token = "0x60004AE")]
+	[Address(RVA = "0x6201CF0", Offset = "0x6200CF0", VA = "0x6201CF0", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x60004AF")]
+	[Address(RVA = "0x6201D60", Offset = "0x6200D60", VA = "0x6201D60", Slot = "8")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x60004B0")]
+	[Address(RVA = "0x6201D70", Offset = "0x6200D70", VA = "0x6201D70", Slot = "9")]
 	public virtual void Flush()
 	{
 	}
 
-	[Token(Token = "0x600066D")]
+	[Token(Token = "0x60004B7")]
 	public abstract void Write(string message);
 
-	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x2877140", Offset = "0x2875740", VA = "0x182877140", Slot = "11")]
+	[Token(Token = "0x60004B8")]
+	[Address(RVA = "0x6201DC0", Offset = "0x6200DC0", VA = "0x6201DC0", Slot = "11")]
 	protected virtual void WriteIndent()
 	{
 	}
 
-	[Token(Token = "0x600066F")]
+	[Token(Token = "0x60004B9")]
 	public abstract void WriteLine(string message);
 
-	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x2876760", Offset = "0x2874D60", VA = "0x182876760", Slot = "13")]
+	[Token(Token = "0x60004BA")]
+	[Address(RVA = "0x6201E70", Offset = "0x6200E70", VA = "0x6201E70", Slot = "13")]
 	[ComVisible(false)]
 	public virtual void TraceEvent(TraceEventCache eventCache, string source, TraceEventType eventType, int id, string message)
 	{
 	}
 
-	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x2877050", Offset = "0x2875650", VA = "0x182877050")]
+	[Token(Token = "0x60004BB")]
+	[Address(RVA = "0x6201F20", Offset = "0x6200F20", VA = "0x6201F20")]
 	private void WriteHeader(string source, TraceEventType eventType, int id)
 	{
 	}
 
-	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x2876900", Offset = "0x2874F00", VA = "0x182876900")]
+	[Token(Token = "0x60004BC")]
+	[Address(RVA = "0x6202020", Offset = "0x6201020", VA = "0x6202020")]
 	private void WriteFooter(TraceEventCache eventCache)
 	{
 	}
 
-	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x2876750", Offset = "0x2874D50", VA = "0x182876750")]
+	[Token(Token = "0x60004BD")]
+	[Address(RVA = "0x6202720", Offset = "0x6201720", VA = "0x6202720")]
 	internal bool IsEnabled(TraceOptions opts)
 	{
 		return default(bool);

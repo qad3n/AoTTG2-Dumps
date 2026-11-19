@@ -22,7 +22,7 @@ public class ValidationEventArgs : EventArgs
 	public JsonSchemaException Exception
 	{
 		[Token(Token = "0x6000ADA")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x55FBD00", Offset = "0x55FAD00", VA = "0x55FBD00")]
 		get
 		{
 			return null;
@@ -33,7 +33,7 @@ public class ValidationEventArgs : EventArgs
 	public string Path
 	{
 		[Token(Token = "0x6000ADB")]
-		[Address(RVA = "0x1C702F0", Offset = "0x1C6E8F0", VA = "0x181C702F0")]
+		[Address(RVA = "0x55FBD10", Offset = "0x55FAD10", VA = "0x55FBD10")]
 		get
 		{
 			return null;
@@ -44,7 +44,7 @@ public class ValidationEventArgs : EventArgs
 	public string Message
 	{
 		[Token(Token = "0x6000ADC")]
-		[Address(RVA = "0x1C702C0", Offset = "0x1C6E8C0", VA = "0x181C702C0")]
+		[Address(RVA = "0x55EEFA0", Offset = "0x55EDFA0", VA = "0x55EEFA0")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public class ValidationEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x1C70230", Offset = "0x1C6E830", VA = "0x181C70230")]
+	[Address(RVA = "0x55FBC70", Offset = "0x55FAC70", VA = "0x55FBC70")]
 	internal ValidationEventArgs(JsonSchemaException ex)
 	{
 	}

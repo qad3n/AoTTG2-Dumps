@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000207")]
+[Token(Token = "0x20001DF")]
 public struct NativeOverlapped
 {
-	[Token(Token = "0x40009A9")]
+	[Token(Token = "0x4000907")]
 	[FieldOffset(Offset = "0x0")]
 	public IntPtr InternalLow;
 
-	[Token(Token = "0x40009AA")]
+	[Token(Token = "0x4000908")]
 	[FieldOffset(Offset = "0x8")]
 	public IntPtr InternalHigh;
 
-	[Token(Token = "0x40009AB")]
+	[Token(Token = "0x4000909")]
 	[FieldOffset(Offset = "0x10")]
 	public int OffsetLow;
 
-	[Token(Token = "0x40009AC")]
+	[Token(Token = "0x400090A")]
 	[FieldOffset(Offset = "0x14")]
 	public int OffsetHigh;
 
-	[Token(Token = "0x40009AD")]
+	[Token(Token = "0x400090B")]
 	[FieldOffset(Offset = "0x18")]
 	public IntPtr EventHandle;
 }

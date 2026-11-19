@@ -18,20 +18,20 @@ internal static class CustomTypes
 	public static readonly byte[] memPlayer;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x1D2F1B0", Offset = "0x1D2D7B0", VA = "0x181D2F1B0")]
+	[Address(RVA = "0x56C5430", Offset = "0x56C4430", VA = "0x56C5430")]
 	internal static void Register()
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x1D2F2D0", Offset = "0x1D2D8D0", VA = "0x181D2F2D0")]
+	[Address(RVA = "0x56C5550", Offset = "0x56C4550", VA = "0x56C5550")]
 	private static short SerializePhotonPlayer(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x1D2EF80", Offset = "0x1D2D580", VA = "0x181D2EF80")]
+	[Address(RVA = "0x56C5730", Offset = "0x56C4730", VA = "0x56C5730")]
 	private static object DeserializePhotonPlayer(StreamBuffer inStream, short length)
 	{
 		return null;

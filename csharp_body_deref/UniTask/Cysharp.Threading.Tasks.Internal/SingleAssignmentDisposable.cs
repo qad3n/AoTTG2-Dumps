@@ -29,7 +29,7 @@ internal sealed class SingleAssignmentDisposable : IDisposable
 	public bool IsDisposed
 	{
 		[Token(Token = "0x6000D4C")]
-		[Address(RVA = "0x2944B60", Offset = "0x2943160", VA = "0x182944B60")]
+		[Address(RVA = "0x630C7D0", Offset = "0x630B7D0", VA = "0x630C7D0")]
 		get
 		{
 			return default(bool);
@@ -40,26 +40,26 @@ internal sealed class SingleAssignmentDisposable : IDisposable
 	public IDisposable Disposable
 	{
 		[Token(Token = "0x6000D4D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x630C890", Offset = "0x630B890", VA = "0x630C890")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D4E")]
-		[Address(RVA = "0x2944C00", Offset = "0x2943200", VA = "0x182944C00")]
+		[Address(RVA = "0x630C8A0", Offset = "0x630B8A0", VA = "0x630C8A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D4F")]
-	[Address(RVA = "0x2944A00", Offset = "0x2943000", VA = "0x182944A00", Slot = "4")]
+	[Address(RVA = "0x630CAB0", Offset = "0x630BAB0", VA = "0x630CAB0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000D50")]
-	[Address(RVA = "0x2944AF0", Offset = "0x29430F0", VA = "0x182944AF0")]
+	[Address(RVA = "0x630CC20", Offset = "0x630BC20", VA = "0x630CC20")]
 	public SingleAssignmentDisposable()
 	{
 	}

@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlLongAttributeDescription : TypedUxmlAttributeDescription<long>
 {
 	[Token(Token = "0x6002684")]
-	[Address(RVA = "0x3157420", Offset = "0x3155A20", VA = "0x183157420")]
+	[Address(RVA = "0x6B59E00", Offset = "0x6B58E00", VA = "0x6B59E00")]
 	public UxmlLongAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x6002685")]
-	[Address(RVA = "0x31572B0", Offset = "0x31558B0", VA = "0x1831572B0", Slot = "4")]
+	[Address(RVA = "0x6B59E90", Offset = "0x6B58E90", VA = "0x6B59E90", Slot = "4")]
 	public override long GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002686")]
-	[Address(RVA = "0x3157270", Offset = "0x3155870", VA = "0x183157270")]
+	[Address(RVA = "0x6B5A010", Offset = "0x6B59010", VA = "0x6B5A010")]
 	private static long ConvertValueToLong(string v, long defaultValue)
 	{
 		return default(long);

@@ -30,7 +30,7 @@ public class ImageBufferNativeGCHandleBytes : ImageBufferNative, IDisposable
 	public byte[][] PlaneBytes
 	{
 		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x571A4E0", Offset = "0x57194E0", VA = "0x571A4E0")]
 		get
 		{
 			return null;
@@ -38,19 +38,19 @@ public class ImageBufferNativeGCHandleBytes : ImageBufferNative, IDisposable
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x1D6AA10", Offset = "0x1D69010", VA = "0x181D6AA10")]
+	[Address(RVA = "0x571A230", Offset = "0x5719230", VA = "0x571A230")]
 	public ImageBufferNativeGCHandleBytes(ImageBufferNativePool<ImageBufferNativeGCHandleBytes> pool, ImageBufferInfo info)
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x1D6A7E0", Offset = "0x1D68DE0", VA = "0x181D6A7E0", Slot = "4")]
+	[Address(RVA = "0x571A4F0", Offset = "0x57194F0", VA = "0x571A4F0", Slot = "4")]
 	public override void Release()
 	{
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x1D6A9A0", Offset = "0x1D68FA0", VA = "0x181D6A9A0", Slot = "5")]
+	[Address(RVA = "0x571A510", Offset = "0x5719510", VA = "0x571A510", Slot = "5")]
 	public override void Dispose()
 	{
 	}

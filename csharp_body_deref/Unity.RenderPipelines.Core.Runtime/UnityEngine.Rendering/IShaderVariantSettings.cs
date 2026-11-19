@@ -36,13 +36,13 @@ public interface IShaderVariantSettings
 	bool stripDebugVariants
 	{
 		[Token(Token = "0x600080E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+		[Address(RVA = "0x64F6590", Offset = "0x64F5590", VA = "0x64F6590", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600080F")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x64F65A0", Offset = "0x64F55A0", VA = "0x64F65A0", Slot = "5")]
 		set
 		{
 		}

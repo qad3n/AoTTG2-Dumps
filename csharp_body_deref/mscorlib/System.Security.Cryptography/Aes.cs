@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002F7")]
+[Token(Token = "0x20002D0")]
 [TypeForwardedFrom("System.Core, Version=2.0.5.0, Culture=Neutral, PublicKeyToken=7cec85d7bea7798e")]
 public abstract class Aes : SymmetricAlgorithm
 {
-	[Token(Token = "0x4000CDB")]
+	[Token(Token = "0x4000C3B")]
 	[FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalBlockSizes;
 
-	[Token(Token = "0x4000CDC")]
+	[Token(Token = "0x4000C3C")]
 	[FieldOffset(Offset = "0x8")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x60018D9")]
-	[Address(RVA = "0x19A28B0", Offset = "0x19A0EB0", VA = "0x1819A28B0")]
+	[Token(Token = "0x60018B6")]
+	[Address(RVA = "0x5335C60", Offset = "0x5334C60", VA = "0x5335C60")]
 	protected Aes()
 	{
 	}
 
-	[Token(Token = "0x60018DA")]
-	[Address(RVA = "0x19A2610", Offset = "0x19A0C10", VA = "0x1819A2610")]
+	[Token(Token = "0x60018B7")]
+	[Address(RVA = "0x5335D00", Offset = "0x5334D00", VA = "0x5335D00")]
 	public new static Aes Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018DB")]
-	[Address(RVA = "0x19A2520", Offset = "0x19A0B20", VA = "0x1819A2520")]
+	[Token(Token = "0x60018B8")]
+	[Address(RVA = "0x5335D80", Offset = "0x5334D80", VA = "0x5335D80")]
 	public new static Aes Create(string algorithmName)
 	{
 		return null;

@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000278")]
+[Token(Token = "0x2000250")]
 internal interface ITaskCompletionAction
 {
-	[Token(Token = "0x17000205")]
+	[Token(Token = "0x17000204")]
 	bool InvokeMayRunArbitraryCode
 	{
-		[Token(Token = "0x60014FF")]
+		[Token(Token = "0x60014D6")]
 		get;
 	}
 
-	[Token(Token = "0x60014FE")]
+	[Token(Token = "0x60014D5")]
 	void Invoke(Task completingTask);
 }

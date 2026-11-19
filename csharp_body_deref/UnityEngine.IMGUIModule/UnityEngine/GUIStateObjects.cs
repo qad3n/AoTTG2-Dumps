@@ -19,7 +19,7 @@ internal class GUIStateObjects
 	private static Dictionary<int, object> s_StateCache;
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x2F8FA60", Offset = "0x2F8E060", VA = "0x182F8FA60")]
+	[Address(RVA = "0x6993E30", Offset = "0x6992E30", VA = "0x6993E30")]
 	internal static object GetStateObject(Type t, int controlID)
 	{
 		return null;

@@ -32,7 +32,7 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public class ToggleEvent : UnityEvent<bool>
 	{
 		[Token(Token = "0x60004F4")]
-		[Address(RVA = "0x32ED0A0", Offset = "0x32EB6A0", VA = "0x1832ED0A0")]
+		[Address(RVA = "0x6CFB4F0", Offset = "0x6CFA4F0", VA = "0x6CFB4F0")]
 		public ToggleEvent()
 		{
 		}
@@ -65,13 +65,13 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public ToggleGroup group
 	{
 		[Token(Token = "0x60004DF")]
-		[Address(RVA = "0x1C41CF0", Offset = "0x1C402F0", VA = "0x181C41CF0")]
+		[Address(RVA = "0x6CFB100", Offset = "0x6CFA100", VA = "0x6CFB100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004E0")]
-		[Address(RVA = "0x32EE700", Offset = "0x32ECD00", VA = "0x1832EE700")]
+		[Address(RVA = "0x6CFB110", Offset = "0x6CFA110", VA = "0x6CFB110")]
 		set
 		{
 		}
@@ -81,116 +81,116 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public bool isOn
 	{
 		[Token(Token = "0x60004EA")]
-		[Address(RVA = "0x1C41CE0", Offset = "0x1C402E0", VA = "0x181C41CE0")]
+		[Address(RVA = "0x6CFC190", Offset = "0x6CFB190", VA = "0x6CFC190")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60004EB")]
-		[Address(RVA = "0x32EE730", Offset = "0x32ECD30", VA = "0x1832EE730")]
+		[Address(RVA = "0x6CFC1A0", Offset = "0x6CFB1A0", VA = "0x6CFC1A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x32EE640", Offset = "0x32ECC40", VA = "0x1832EE640")]
+	[Address(RVA = "0x6CFB430", Offset = "0x6CFA430", VA = "0x6CFB430")]
 	protected Toggle()
 	{
 	}
 
 	[Token(Token = "0x60004E2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "46")]
+	[Address(RVA = "0x6CFB530", Offset = "0x6CFA530", VA = "0x6CFB530", Slot = "46")]
 	public virtual void Rebuild(CanvasUpdate executing)
 	{
 	}
 
 	[Token(Token = "0x60004E3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "47")]
+	[Address(RVA = "0x6CFB540", Offset = "0x6CFA540", VA = "0x6CFB540", Slot = "47")]
 	public virtual void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "48")]
+	[Address(RVA = "0x6CFB550", Offset = "0x6CFA550", VA = "0x6CFB550", Slot = "48")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x32EDED0", Offset = "0x32EC4D0", VA = "0x1832EDED0", Slot = "8")]
+	[Address(RVA = "0x6CFB560", Offset = "0x6CFA560", VA = "0x6CFB560", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60004E6")]
-	[Address(RVA = "0x32EE0C0", Offset = "0x32EC6C0", VA = "0x1832EE0C0", Slot = "5")]
+	[Address(RVA = "0x6CFBA30", Offset = "0x6CFAA30", VA = "0x6CFBA30", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x32EE090", Offset = "0x32EC690", VA = "0x1832EE090", Slot = "7")]
+	[Address(RVA = "0x6CFBAF0", Offset = "0x6CFAAF0", VA = "0x6CFBAF0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x32EDF60", Offset = "0x32EC560", VA = "0x1832EDF60", Slot = "13")]
+	[Address(RVA = "0x6CFBB10", Offset = "0x6CFAB10", VA = "0x6CFBB10", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x32EE240", Offset = "0x32EC840", VA = "0x1832EE240")]
+	[Address(RVA = "0x6CFB1C0", Offset = "0x6CFA1C0", VA = "0x6CFB1C0")]
 	private void SetToggleGroup(ToggleGroup newGroup, bool setMemberValue)
 	{
 	}
 
 	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x32EE230", Offset = "0x32EC830", VA = "0x1832EE230")]
+	[Address(RVA = "0x6CFC1B0", Offset = "0x6CFB1B0", VA = "0x6CFC1B0")]
 	public void SetIsOnWithoutNotify(bool value)
 	{
 	}
 
 	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x32EE4A0", Offset = "0x32ECAA0", VA = "0x1832EE4A0")]
+	[Address(RVA = "0x6CFBCA0", Offset = "0x6CFACA0", VA = "0x6CFBCA0")]
 	private void Set(bool value, bool sendCallback = true)
 	{
 	}
 
 	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x32EE170", Offset = "0x32EC770", VA = "0x1832EE170")]
+	[Address(RVA = "0x6CFB380", Offset = "0x6CFA380", VA = "0x6CFB380")]
 	private void PlayEffect(bool instant)
 	{
 	}
 
 	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x32EE630", Offset = "0x32ECC30", VA = "0x1832EE630", Slot = "6")]
+	[Address(RVA = "0x6CFC320", Offset = "0x6CFB320", VA = "0x6CFC320", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x32EDE70", Offset = "0x32EC470", VA = "0x1832EDE70")]
+	[Address(RVA = "0x6CFC3D0", Offset = "0x6CFB3D0", VA = "0x6CFC3D0")]
 	private void InternalToggle()
 	{
 	}
 
 	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x32EE100", Offset = "0x32EC700", VA = "0x1832EE100", Slot = "49")]
+	[Address(RVA = "0x6CFC420", Offset = "0x6CFB420", VA = "0x6CFC420", Slot = "49")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x32EDE70", Offset = "0x32EC470", VA = "0x1832EDE70", Slot = "50")]
+	[Address(RVA = "0x6CFC480", Offset = "0x6CFB480", VA = "0x6CFC480", Slot = "50")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x2D057F0", Offset = "0x2D03DF0", VA = "0x182D057F0", Slot = "42")]
+	[Address(RVA = "0x6CFC4D0", Offset = "0x6CFB4D0", VA = "0x6CFC4D0", Slot = "42")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

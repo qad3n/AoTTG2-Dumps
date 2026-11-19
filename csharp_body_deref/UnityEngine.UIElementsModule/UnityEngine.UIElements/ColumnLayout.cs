@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ColumnLayout
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -102,15 +102,15 @@ internal class ColumnLayout
 
 	[Token(Token = "0x40004CE")]
 	[FieldOffset(Offset = "0x88")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action m_layoutRequested;
 
 	[Token(Token = "0x17000175")]
 	public Columns columns
 	{
 		[Token(Token = "0x60007C5")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6C15400", Offset = "0x6C14400", VA = "0x6C15400")]
 		get
 		{
 			return null;
@@ -121,7 +121,7 @@ internal class ColumnLayout
 	public float columnsWidth
 	{
 		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0x32113D0", Offset = "0x320F9D0", VA = "0x1832113D0")]
+		[Address(RVA = "0x6C15410", Offset = "0x6C14410", VA = "0x6C15410")]
 		get
 		{
 			return default(float);
@@ -132,7 +132,7 @@ internal class ColumnLayout
 	public float layoutWidth
 	{
 		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0xDA5AC0", Offset = "0xDA40C0", VA = "0x180DA5AC0")]
+		[Address(RVA = "0x6C15770", Offset = "0x6C14770", VA = "0x6C15770")]
 		get
 		{
 			return default(float);
@@ -143,7 +143,7 @@ internal class ColumnLayout
 	public float minColumnsWidth
 	{
 		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x2AC3BA0", Offset = "0x2AC21A0", VA = "0x182AC3BA0")]
+		[Address(RVA = "0x6C15780", Offset = "0x6C14780", VA = "0x6C15780")]
 		get
 		{
 			return default(float);
@@ -154,7 +154,7 @@ internal class ColumnLayout
 	public float maxColumnsWidth
 	{
 		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
+		[Address(RVA = "0x6C15790", Offset = "0x6C14790", VA = "0x6C15790")]
 		get
 		{
 			return default(float);
@@ -165,7 +165,7 @@ internal class ColumnLayout
 	public bool hasStretchableColumns
 	{
 		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x3211640", Offset = "0x320FC40", VA = "0x183211640")]
+		[Address(RVA = "0x6C157A0", Offset = "0x6C147A0", VA = "0x6C157A0")]
 		get
 		{
 			return default(bool);
@@ -176,7 +176,7 @@ internal class ColumnLayout
 	public bool hasRelativeWidthColumns
 	{
 		[Token(Token = "0x60007CB")]
-		[Address(RVA = "0x32115E0", Offset = "0x320FBE0", VA = "0x1832115E0")]
+		[Address(RVA = "0x6C157E0", Offset = "0x6C147E0", VA = "0x6C157E0")]
 		get
 		{
 			return default(bool);
@@ -187,13 +187,13 @@ internal class ColumnLayout
 	public event Action layoutRequested
 	{
 		[Token(Token = "0x60007CC")]
-		[Address(RVA = "0x3211330", Offset = "0x320F930", VA = "0x183211330")]
+		[Address(RVA = "0x6C15830", Offset = "0x6C14830", VA = "0x6C15830")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60007CD")]
-		[Address(RVA = "0x3211690", Offset = "0x320FC90", VA = "0x183211690")]
+		[Address(RVA = "0x6C158D0", Offset = "0x6C148D0", VA = "0x6C158D0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -201,191 +201,191 @@ internal class ColumnLayout
 	}
 
 	[Token(Token = "0x60007CE")]
-	[Address(RVA = "0x3210F10", Offset = "0x320F510", VA = "0x183210F10")]
+	[Address(RVA = "0x6C15970", Offset = "0x6C14970", VA = "0x6C15970")]
 	public ColumnLayout(Columns columns)
 	{
 	}
 
 	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x320B420", Offset = "0x3209A20", VA = "0x18320B420")]
+	[Address(RVA = "0x6C16420", Offset = "0x6C15420", VA = "0x6C16420")]
 	public void Dirty()
 	{
 	}
 
 	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x320E630", Offset = "0x320CC30", VA = "0x18320E630")]
+	[Address(RVA = "0x6C15F90", Offset = "0x6C14F90", VA = "0x6C15F90")]
 	private void OnColumnAdded(Column column, int index)
 	{
 	}
 
 	[Token(Token = "0x60007D1")]
-	[Address(RVA = "0x320E910", Offset = "0x320CF10", VA = "0x18320E910")]
+	[Address(RVA = "0x6C16500", Offset = "0x6C15500", VA = "0x6C16500")]
 	private void OnColumnRemoved(Column column)
 	{
 	}
 
 	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x320B420", Offset = "0x3209A20", VA = "0x18320B420")]
+	[Address(RVA = "0x6C16720", Offset = "0x6C15720", VA = "0x6C16720")]
 	private void OnColumnReordered(Column column, int from, int to)
 	{
 	}
 
 	[Token(Token = "0x60007D3")]
-	[Address(RVA = "0x320FD90", Offset = "0x320E390", VA = "0x18320FD90")]
+	[Address(RVA = "0x6C16750", Offset = "0x6C15750", VA = "0x6C16750")]
 	private bool RequiresLayoutUpdate(ColumnDataType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D4")]
-	[Address(RVA = "0x320E730", Offset = "0x320CD30", VA = "0x18320E730")]
+	[Address(RVA = "0x6C16770", Offset = "0x6C15770", VA = "0x6C16770")]
 	private void OnColumnChanged(Column column, ColumnDataType type)
 	{
 	}
 
 	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x320DBE0", Offset = "0x320C1E0", VA = "0x18320DBE0")]
+	[Address(RVA = "0x6C169F0", Offset = "0x6C159F0", VA = "0x6C169F0")]
 	private void MakeRoomForColumn(Column column)
 	{
 	}
 
 	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x320EA10", Offset = "0x320D010", VA = "0x18320EA10")]
+	[Address(RVA = "0x6C17380", Offset = "0x6C16380", VA = "0x6C17380")]
 	private void OnColumnResized(Column column)
 	{
 	}
 
 	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x320DBD0", Offset = "0x320C1D0", VA = "0x18320DBD0")]
+	[Address(RVA = "0x6C17390", Offset = "0x6C16390", VA = "0x6C17390")]
 	private static bool IsClamped(float value, float min, float max)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x320BB10", Offset = "0x320A110", VA = "0x18320BB10")]
+	[Address(RVA = "0x6C173B0", Offset = "0x6C163B0", VA = "0x6C173B0")]
 	public void DoLayout(float width)
 	{
 	}
 
 	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x32107F0", Offset = "0x320EDF0", VA = "0x1832107F0")]
+	[Address(RVA = "0x6C172B0", Offset = "0x6C162B0", VA = "0x6C172B0")]
 	public void StretchResizeColumns(List<Column> stretchableColumns, List<Column> fixedColumns, List<Column> relativeWidthColumns, ref float delta, bool resizeToFit, bool dragResize)
 	{
 	}
 
 	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x320B800", Offset = "0x3209E00", VA = "0x18320B800")]
+	[Address(RVA = "0x6C18AA0", Offset = "0x6C17AA0", VA = "0x6C18AA0")]
 	private void DistributeOverflow(List<Column> stretchableColumns, List<Column> fixedColumns, List<Column> relativeWidthColumns, ref float delta, bool resizeToFit, bool dragResize)
 	{
 	}
 
 	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x320B460", Offset = "0x3209A60", VA = "0x18320B460")]
+	[Address(RVA = "0x6C18D20", Offset = "0x6C17D20", VA = "0x6C18D20")]
 	private void DistributeExcess(List<Column> stretchableColumns, List<Column> fixedColumns, List<Column> relativeWidthColumns, ref float delta, bool resizeToFit, bool dragResize)
 	{
 	}
 
 	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x320EE90", Offset = "0x320D490", VA = "0x18320EE90")]
+	[Address(RVA = "0x6C19660", Offset = "0x6C18660", VA = "0x6C19660")]
 	private float RecomputeToMaxWidthProportionally(List<Column> columns, float distributedDelta, bool setDesiredWidthOnly = false)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007DD")]
-	[Address(RVA = "0x320F640", Offset = "0x320DC40", VA = "0x18320F640")]
+	[Address(RVA = "0x6C191A0", Offset = "0x6C181A0", VA = "0x6C191A0")]
 	private float RecomputeToMinWidthProportionally(List<Column> columns, float distributedDelta, bool setDesiredWidthOnly = false)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007DE")]
-	[Address(RVA = "0x320ED40", Offset = "0x320D340", VA = "0x18320ED40")]
+	[Address(RVA = "0x6C19080", Offset = "0x6C18080", VA = "0x6C19080")]
 	private float RecomputeToDesiredWidth(List<Column> columns, float distributedDelta, bool setDesiredWidthOnly, bool distributeOverflow)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x320EA20", Offset = "0x320D020", VA = "0x18320EA20")]
+	[Address(RVA = "0x6C19C20", Offset = "0x6C18C20", VA = "0x6C19C20")]
 	private float RecomputeToDesiredWidth(Column column, float distributedDelta, bool setDesiredWidthOnly, bool distributeOverflow)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x320FB10", Offset = "0x320E110", VA = "0x18320FB10")]
+	[Address(RVA = "0x6C194B0", Offset = "0x6C184B0", VA = "0x6C194B0")]
 	private float RecomputeToMinWidth(List<Column> columns, float distributedDelta, bool setDesiredWidthOnly = false)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x320F3A0", Offset = "0x320D9A0", VA = "0x18320F3A0")]
+	[Address(RVA = "0x6C19950", Offset = "0x6C18950", VA = "0x6C19950")]
 	private float RecomputeToMaxWidth(List<Column> columns, float distributedDelta, bool setDesiredWidthOnly = false)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x320FF80", Offset = "0x320E580", VA = "0x18320FF80")]
+	[Address(RVA = "0x6C19E00", Offset = "0x6C18E00", VA = "0x6C19E00")]
 	public void ResizeToFit(float width)
 	{
 	}
 
 	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x320FDB0", Offset = "0x320E3B0", VA = "0x18320FDB0")]
+	[Address(RVA = "0x6C19B00", Offset = "0x6C18B00", VA = "0x6C19B00")]
 	private void ResizeColumn(Column column, float width, bool setDesiredWidthOnly = false)
 	{
 	}
 
 	[Token(Token = "0x60007E4")]
-	[Address(RVA = "0x320B070", Offset = "0x3209670", VA = "0x18320B070")]
+	[Address(RVA = "0x6C1A170", Offset = "0x6C19170", VA = "0x6C1A170")]
 	internal void BeginDragResize(Column column, float pos, bool previewMode)
 	{
 	}
 
 	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x320D9E0", Offset = "0x320BFE0", VA = "0x18320D9E0")]
+	[Address(RVA = "0x6C1A550", Offset = "0x6C19550", VA = "0x6C1A550")]
 	public float GetDesiredPosition(Column column)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x320DB30", Offset = "0x320C130", VA = "0x18320DB30")]
+	[Address(RVA = "0x6C18A00", Offset = "0x6C17A00", VA = "0x6C18A00")]
 	public float GetDesiredWidth(Column c)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x320D090", Offset = "0x320B690", VA = "0x18320D090")]
+	[Address(RVA = "0x6C1A6D0", Offset = "0x6C196D0", VA = "0x6C1A6D0")]
 	public void DragResize(Column column, float pos)
 	{
 	}
 
 	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x320D7B0", Offset = "0x320BDB0", VA = "0x18320D7B0")]
+	[Address(RVA = "0x6C1A9E0", Offset = "0x6C199E0", VA = "0x6C1A9E0")]
 	internal void EndDragResize(Column column, bool cancelled)
 	{
 	}
 
 	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x32109B0", Offset = "0x320EFB0", VA = "0x1832109B0")]
+	[Address(RVA = "0x6C16D30", Offset = "0x6C15D30", VA = "0x6C16D30")]
 	private void UpdateCache()
 	{
 	}
 
 	[Token(Token = "0x60007EA")]
-	[Address(RVA = "0x3210CD0", Offset = "0x320F2D0", VA = "0x183210CD0")]
+	[Address(RVA = "0x6C18620", Offset = "0x6C17620", VA = "0x6C18620")]
 	private void UpdateMinAndMaxColumnsWidth()
 	{
 	}
 
 	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x320B360", Offset = "0x3209960", VA = "0x18320B360")]
+	[Address(RVA = "0x6C16450", Offset = "0x6C15450", VA = "0x6C16450")]
 	private void ClearCache()
 	{
 	}

@@ -12,16 +12,16 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000332")]
 public enum FormatSwizzle
 {
-	[Token(Token = "0x40008C6")]
+	[Token(Token = "0x40008C4")]
 	FormatSwizzleR,
-	[Token(Token = "0x40008C7")]
+	[Token(Token = "0x40008C5")]
 	FormatSwizzleG,
-	[Token(Token = "0x40008C8")]
+	[Token(Token = "0x40008C6")]
 	FormatSwizzleB,
-	[Token(Token = "0x40008C9")]
+	[Token(Token = "0x40008C7")]
 	FormatSwizzleA,
-	[Token(Token = "0x40008CA")]
+	[Token(Token = "0x40008C8")]
 	FormatSwizzle0,
-	[Token(Token = "0x40008CB")]
+	[Token(Token = "0x40008C9")]
 	FormatSwizzle1
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.Memory
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,14 +25,14 @@ internal struct Memory
 		internal struct Array
 		{
 			[Token(Token = "0x60006E6")]
-			[Address(RVA = "0x2994790", Offset = "0x2992D90", VA = "0x182994790")]
+			[Address(RVA = "0x637CBA0", Offset = "0x637BBA0", VA = "0x637CBA0")]
 			private static bool IsCustom(AllocatorManager.AllocatorHandle allocator)
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x60006E7")]
-			[Address(RVA = "0x29B3020", Offset = "0x29B1620", VA = "0x1829B3020")]
+			[Address(RVA = "0x637CBB0", Offset = "0x637BBB0", VA = "0x637CBB0")]
 			private unsafe static void* CustomResize(void* oldPointer, long oldCount, long newCount, AllocatorManager.AllocatorHandle allocator, long size, int align)
 			{
 				//IL_0002: Expected I, but got O
@@ -40,7 +40,7 @@ internal struct Memory
 			}
 
 			[Token(Token = "0x60006E8")]
-			[Address(RVA = "0x29B30E0", Offset = "0x29B16E0", VA = "0x1829B30E0")]
+			[Address(RVA = "0x637CA30", Offset = "0x637BA30", VA = "0x637CA30")]
 			internal unsafe static void* Resize(void* oldPointer, long oldCount, long newCount, AllocatorManager.AllocatorHandle allocator, long size, int align)
 			{
 				//IL_0002: Expected I, but got O
@@ -71,7 +71,7 @@ internal struct Memory
 		}
 
 		[Token(Token = "0x60006E2")]
-		[Address(RVA = "0x29BD840", Offset = "0x29BBE40", VA = "0x1829BD840")]
+		[Address(RVA = "0x637CA10", Offset = "0x637BA10", VA = "0x637CA10")]
 		internal unsafe static void* Allocate(long size, int align, AllocatorManager.AllocatorHandle allocator)
 		{
 			//IL_0002: Expected I, but got O
@@ -79,7 +79,7 @@ internal struct Memory
 		}
 
 		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x29BD870", Offset = "0x29BBE70", VA = "0x1829BD870")]
+		[Address(RVA = "0x637CB70", Offset = "0x637BB70", VA = "0x637CB70")]
 		internal unsafe static void Free(void* pointer, AllocatorManager.AllocatorHandle allocator)
 		{
 		}
@@ -126,7 +126,7 @@ internal struct Memory
 	internal const long k_MaximumRamSizeInBytes = 1099511627776L;
 
 	[Token(Token = "0x60006E1")]
-	[Address(RVA = "0x29B4C70", Offset = "0x29B3270", VA = "0x1829B4C70")]
+	[Address(RVA = "0x637C950", Offset = "0x637B950", VA = "0x637C950")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckByteCountIsReasonable(long size)

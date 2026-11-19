@@ -11,92 +11,92 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003F3")]
+[Token(Token = "0x20003AF")]
 public sealed class SmtpSection : ConfigurationSection
 {
-	[Token(Token = "0x170005B7")]
+	[Token(Token = "0x17000589")]
 	public SmtpDeliveryFormat DeliveryFormat
 	{
-		[Token(Token = "0x6001A6D")]
-		[Address(RVA = "0x282C4C0", Offset = "0x282AAC0", VA = "0x18282C4C0")]
+		[Token(Token = "0x60018B3")]
+		[Address(RVA = "0x61D0B00", Offset = "0x61CFB00", VA = "0x61D0B00")]
 		get
 		{
 			return default(SmtpDeliveryFormat);
 		}
-		[Token(Token = "0x6001A6E")]
-		[Address(RVA = "0x282C5E0", Offset = "0x282ABE0", VA = "0x18282C5E0")]
+		[Token(Token = "0x60018B4")]
+		[Address(RVA = "0x61D0B30", Offset = "0x61CFB30", VA = "0x61D0B30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005B8")]
+	[Token(Token = "0x1700058A")]
 	public SmtpDeliveryMethod DeliveryMethod
 	{
-		[Token(Token = "0x6001A6F")]
-		[Address(RVA = "0x282C4F0", Offset = "0x282AAF0", VA = "0x18282C4F0")]
+		[Token(Token = "0x60018B5")]
+		[Address(RVA = "0x61D0B60", Offset = "0x61CFB60", VA = "0x61D0B60")]
 		get
 		{
 			return default(SmtpDeliveryMethod);
 		}
-		[Token(Token = "0x6001A70")]
-		[Address(RVA = "0x282C610", Offset = "0x282AC10", VA = "0x18282C610")]
+		[Token(Token = "0x60018B6")]
+		[Address(RVA = "0x61D0B90", Offset = "0x61CFB90", VA = "0x61D0B90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005B9")]
+	[Token(Token = "0x1700058B")]
 	public string From
 	{
-		[Token(Token = "0x6001A71")]
-		[Address(RVA = "0x282C520", Offset = "0x282AB20", VA = "0x18282C520")]
+		[Token(Token = "0x60018B7")]
+		[Address(RVA = "0x61D0BC0", Offset = "0x61CFBC0", VA = "0x61D0BC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001A72")]
-		[Address(RVA = "0x282C640", Offset = "0x282AC40", VA = "0x18282C640")]
+		[Token(Token = "0x60018B8")]
+		[Address(RVA = "0x61D0BF0", Offset = "0x61CFBF0", VA = "0x61D0BF0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005BA")]
+	[Token(Token = "0x1700058C")]
 	public SmtpNetworkElement Network
 	{
-		[Token(Token = "0x6001A73")]
-		[Address(RVA = "0x282C550", Offset = "0x282AB50", VA = "0x18282C550")]
+		[Token(Token = "0x60018B9")]
+		[Address(RVA = "0x61D0C20", Offset = "0x61CFC20", VA = "0x61D0C20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005BB")]
+	[Token(Token = "0x1700058D")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A74")]
-		[Address(RVA = "0x282C580", Offset = "0x282AB80", VA = "0x18282C580", Slot = "4")]
+		[Token(Token = "0x60018BA")]
+		[Address(RVA = "0x61D0C50", Offset = "0x61CFC50", VA = "0x61D0C50", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005BC")]
+	[Token(Token = "0x1700058E")]
 	public SmtpSpecifiedPickupDirectoryElement SpecifiedPickupDirectory
 	{
-		[Token(Token = "0x6001A75")]
-		[Address(RVA = "0x282C5B0", Offset = "0x282ABB0", VA = "0x18282C5B0")]
+		[Token(Token = "0x60018BB")]
+		[Address(RVA = "0x61D0C80", Offset = "0x61CFC80", VA = "0x61D0C80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001A6C")]
-	[Address(RVA = "0x282C490", Offset = "0x282AA90", VA = "0x18282C490")]
+	[Token(Token = "0x60018B2")]
+	[Address(RVA = "0x61D0AD0", Offset = "0x61CFAD0", VA = "0x61D0AD0")]
 	public SmtpSection()
 	{
 	}

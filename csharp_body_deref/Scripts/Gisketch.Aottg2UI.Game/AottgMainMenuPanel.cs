@@ -1,218 +1,191 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgMainMenuPanel
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgMainMenuPanel.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Gisketch.Aottg2UI.Code;
-using Gisketch.Aottg2UI.Localization;
 using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200027A")]
+[Token(Token = "0x20002A5")]
 public sealed class AottgMainMenuPanel : AottgComponent
 {
-	[Token(Token = "0x200027B")]
+	[Token(Token = "0x20002A6")]
 	private readonly struct MainMenuOption
 	{
-		[Token(Token = "0x4000CD5")]
+		[Token(Token = "0x4000D9A")]
 		[FieldOffset(Offset = "0x0")]
-		public readonly string Label;
+		public readonly string Id;
 
-		[Token(Token = "0x4000CD6")]
+		[Token(Token = "0x4000D9B")]
 		[FieldOffset(Offset = "0x8")]
-		public readonly string SearchTitle;
-
-		[Token(Token = "0x4000CD7")]
-		[FieldOffset(Offset = "0x10")]
 		public readonly string LocaleKey;
 
-		[Token(Token = "0x4000CD8")]
-		[FieldOffset(Offset = "0x18")]
+		[Token(Token = "0x4000D9C")]
+		[FieldOffset(Offset = "0x10")]
 		public readonly string ActionId;
 
-		[Token(Token = "0x4000CD9")]
-		[FieldOffset(Offset = "0x20")]
+		[Token(Token = "0x4000D9D")]
+		[FieldOffset(Offset = "0x18")]
 		public readonly string Icon;
 
-		[Token(Token = "0x170001B6")]
-		public string Id
-		{
-			[Token(Token = "0x6000F09")]
-			[Address(RVA = "0x1DE7C00", Offset = "0x1DE6200", VA = "0x181DE7C00")]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x6000F08")]
-		[Address(RVA = "0x1DE7B80", Offset = "0x1DE6180", VA = "0x181DE7B80")]
-		public MainMenuOption(string label, string searchTitle, string localeKey, string actionId, string icon)
+		[Token(Token = "0x6001032")]
+		[Address(RVA = "0x57C0050", Offset = "0x57BF050", VA = "0x57C0050")]
+		public MainMenuOption(string id, string localeKey, string actionId, string icon)
 		{
 		}
 	}
 
-	[Token(Token = "0x200027C")]
+	[Token(Token = "0x20002A7")]
 	private readonly struct FooterIcon
 	{
-		[Token(Token = "0x4000CDA")]
+		[Token(Token = "0x4000D9E")]
 		[FieldOffset(Offset = "0x0")]
-		public readonly string Label;
+		public readonly string Id;
 
-		[Token(Token = "0x4000CDB")]
+		[Token(Token = "0x4000D9F")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly string LocaleKey;
 
-		[Token(Token = "0x4000CDC")]
+		[Token(Token = "0x4000DA0")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly string Sprite;
 
-		[Token(Token = "0x4000CDD")]
+		[Token(Token = "0x4000DA1")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly string ActionId;
 
-		[Token(Token = "0x170001B7")]
-		public string Id
-		{
-			[Token(Token = "0x6000F0B")]
-			[Address(RVA = "0x1DE7B60", Offset = "0x1DE6160", VA = "0x181DE7B60")]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x6000F0A")]
-		[Address(RVA = "0x16E8730", Offset = "0x16E6D30", VA = "0x1816E8730")]
-		public FooterIcon(string label, string localeKey, string sprite, string actionId)
+		[Token(Token = "0x6001033")]
+		[Address(RVA = "0x57C00B0", Offset = "0x57BF0B0", VA = "0x57C00B0")]
+		public FooterIcon(string id, string localeKey, string sprite, string actionId)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000CBA")]
+	[Token(Token = "0x4000D80")]
 	public const string PanelId = "main-menu-panel";
 
-	[Token(Token = "0x4000CBB")]
+	[Token(Token = "0x4000D81")]
 	public const string PanelVisualId = "main-menu-panel-visual";
 
-	[Token(Token = "0x4000CBC")]
+	[Token(Token = "0x4000D82")]
 	private const string Panel = "UI/AoTTG/MainMenu/MainMenuPanel";
 
-	[Token(Token = "0x4000CBD")]
+	[Token(Token = "0x4000D83")]
 	private const string Brush = "UI/Sprites/Elements/Brush";
 
-	[Token(Token = "0x4000CBE")]
+	[Token(Token = "0x4000D84")]
 	private const string LogoBlades = "UI/AoTTG/MainMenu/LogoBlades";
 
-	[Token(Token = "0x4000CBF")]
+	[Token(Token = "0x4000D85")]
 	private const string LogoText = "UI/AoTTG/MainMenu/LogoTextOnly";
 
-	[Token(Token = "0x4000CC0")]
+	[Token(Token = "0x4000D86")]
 	private const float PanelWidth = 979f;
 
-	[Token(Token = "0x4000CC1")]
+	[Token(Token = "0x4000D87")]
 	private const float PanelHeight = 1080f;
 
-	[Token(Token = "0x4000CC2")]
+	[Token(Token = "0x4000D88")]
 	private const float LogoSlotWidth = 747.175f;
 
-	[Token(Token = "0x4000CC3")]
+	[Token(Token = "0x4000D89")]
 	private const float LogoSlotHeight = 543.4f;
 
-	[Token(Token = "0x4000CC4")]
+	[Token(Token = "0x4000D8A")]
 	private const float ButtonListX = -86f;
 
-	[Token(Token = "0x4000CC5")]
+	[Token(Token = "0x4000D8B")]
 	private const float ButtonStartY = 360f;
 
-	[Token(Token = "0x4000CC6")]
+	[Token(Token = "0x4000D8C")]
 	private const float ButtonHeight = 118f;
 
-	[Token(Token = "0x4000CC7")]
+	[Token(Token = "0x4000D8D")]
 	private const float ButtonPitch = 74f;
 
-	[Token(Token = "0x4000CC8")]
+	[Token(Token = "0x4000D8E")]
 	private const float BrushGlyphWidth = 37f;
 
-	[Token(Token = "0x4000CC9")]
+	[Token(Token = "0x4000D8F")]
 	private const float BrushHorizontalPadding = 32f;
 
-	[Token(Token = "0x4000CCA")]
+	[Token(Token = "0x4000D90")]
 	private const float FooterIconSize = 48f;
 
-	[Token(Token = "0x4000CCB")]
+	[Token(Token = "0x4000D91")]
 	private const float FooterGap = 10f;
 
-	[Token(Token = "0x4000CCC")]
+	[Token(Token = "0x4000D92")]
 	private const float FooterOffsetX = 22f;
 
-	[Token(Token = "0x4000CCD")]
+	[Token(Token = "0x4000D93")]
 	private const float FooterOffsetY = -1018f;
 
-	[Token(Token = "0x4000CCE")]
+	[Token(Token = "0x4000D94")]
 	private const float ContentPaddingY = 36f;
 
-	[Token(Token = "0x4000CCF")]
+	[Token(Token = "0x4000D95")]
 	private const float IntroTotalSeconds = 1.2f;
 
-	[Token(Token = "0x4000CD0")]
+	[Token(Token = "0x4000D96")]
 	private const float IntroScale = 0.6f;
 
-	[Token(Token = "0x4000CD1")]
+	[Token(Token = "0x4000D97")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly MainMenuOption[] Options;
 
-	[Token(Token = "0x4000CD2")]
+	[Token(Token = "0x4000D98")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly FooterIcon[] FooterIcons;
 
-	[Token(Token = "0x4000CD3")]
-	[FieldOffset(Offset = "0x10")]
-	private static readonly IGisketchLocalizer Localizer;
-
-	[Token(Token = "0x4000CD4")]
+	[Token(Token = "0x4000D99")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _quitActionId;
 
-	[Token(Token = "0x6000F01")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x170001C6")]
+	private static float MainMenuPanelMobileSafeHeight
+	{
+		[Token(Token = "0x600102B")]
+		[Address(RVA = "0x57BEB50", Offset = "0x57BDB50", VA = "0x57BEB50")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x600102C")]
+	[Address(RVA = "0x57BEB70", Offset = "0x57BDB70", VA = "0x57BEB70")]
 	public AottgMainMenuPanel(string quitActionId = "main.quit")
 	{
 	}
 
-	[Token(Token = "0x6000F02")]
-	[Address(RVA = "0x1DE1D00", Offset = "0x1DE0300", VA = "0x181DE1D00", Slot = "4")]
+	[Token(Token = "0x600102D")]
+	[Address(RVA = "0x57BEBA0", Offset = "0x57BDBA0", VA = "0x57BEBA0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000F03")]
-	[Address(RVA = "0x1DE18E0", Offset = "0x1DDFEE0", VA = "0x181DE18E0")]
+	[Token(Token = "0x600102E")]
+	[Address(RVA = "0x57BEFB0", Offset = "0x57BDFB0", VA = "0x57BEFB0")]
 	private static void AddOption(AottgUi buttons, MainMenuOption option, int index, float brushWidth, string quitActionId)
 	{
 	}
 
-	[Token(Token = "0x6000F04")]
-	[Address(RVA = "0x1DE1C20", Offset = "0x1DE0220", VA = "0x181DE1C20")]
+	[Token(Token = "0x600102F")]
+	[Address(RVA = "0x57BEE80", Offset = "0x57BDE80", VA = "0x57BEE80")]
 	private static float BrushWidth()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000F05")]
-	[Address(RVA = "0x1DE2130", Offset = "0x1DE0730", VA = "0x181DE2130")]
+	[Token(Token = "0x6001030")]
+	[Address(RVA = "0x57BF240", Offset = "0x57BE240", VA = "0x57BF240")]
 	private static float FooterWidth()
 	{
 		return default(float);
-	}
-
-	[Token(Token = "0x6000F06")]
-	[Address(RVA = "0x1DE21B0", Offset = "0x1DE07B0", VA = "0x181DE21B0")]
-	private static string Localize(string key, string fallback)
-	{
-		return null;
 	}
 }

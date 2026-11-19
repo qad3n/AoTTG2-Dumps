@@ -9,55 +9,55 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001AC")]
+[Token(Token = "0x20001AD")]
 internal sealed class ValueTypeCopyInstruction : Instruction
 {
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x4000394")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ValueTypeCopyInstruction Instruction;
 
-	[Token(Token = "0x170001EA")]
+	[Token(Token = "0x170001EC")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000976")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000981")]
+		[Address(RVA = "0x5E0BC50", Offset = "0x5E0AC50", VA = "0x5E0BC50", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001EB")]
+	[Token(Token = "0x170001ED")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000977")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000982")]
+		[Address(RVA = "0x5E0BC60", Offset = "0x5E0AC60", VA = "0x5E0BC60", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001EC")]
+	[Token(Token = "0x170001EE")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000978")]
-		[Address(RVA = "0x2482CE0", Offset = "0x24812E0", VA = "0x182482CE0", Slot = "9")]
+		[Token(Token = "0x6000983")]
+		[Address(RVA = "0x5E0BC70", Offset = "0x5E0AC70", VA = "0x5E0BC70", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000979")]
-	[Address(RVA = "0x2482C20", Offset = "0x2481220", VA = "0x182482C20", Slot = "8")]
+	[Token(Token = "0x6000984")]
+	[Address(RVA = "0x5E0BCA0", Offset = "0x5E0ACA0", VA = "0x5E0BCA0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600097A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000985")]
+	[Address(RVA = "0x5E0BCF0", Offset = "0x5E0ACF0", VA = "0x5E0BCF0")]
 	public ValueTypeCopyInstruction()
 	{
 	}

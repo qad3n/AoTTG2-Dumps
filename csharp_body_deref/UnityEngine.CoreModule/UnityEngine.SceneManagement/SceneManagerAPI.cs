@@ -13,26 +13,26 @@ namespace UnityEngine.SceneManagement;
 [Token(Token = "0x200024E")]
 public class SceneManagerAPI
 {
-	[Token(Token = "0x4000756")]
+	[Token(Token = "0x4000754")]
 	[FieldOffset(Offset = "0x0")]
 	private static SceneManagerAPI s_DefaultAPI;
 
-	[Token(Token = "0x170002D9")]
+	[Token(Token = "0x170002DE")]
 	internal static SceneManagerAPI ActiveAPI
 	{
-		[Token(Token = "0x60011AB")]
-		[Address(RVA = "0x2F55F40", Offset = "0x2F54540", VA = "0x182F55F40")]
+		[Token(Token = "0x60011BF")]
+		[Address(RVA = "0x6936AA0", Offset = "0x6935AA0", VA = "0x6936AA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002DA")]
+	[Token(Token = "0x170002DF")]
 	public static SceneManagerAPI overrideAPI
 	{
-		[Token(Token = "0x60011AC")]
-		[Address(RVA = "0x2F56000", Offset = "0x2F54600", VA = "0x182F56000")]
+		[Token(Token = "0x60011C0")]
+		[Address(RVA = "0x6936B80", Offset = "0x6935B80", VA = "0x6936B80")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,21 +40,21 @@ public class SceneManagerAPI
 		}
 	}
 
-	[Token(Token = "0x60011AD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60011C1")]
+	[Address(RVA = "0x6936BF0", Offset = "0x6935BF0", VA = "0x6936BF0")]
 	protected internal SceneManagerAPI()
 	{
 	}
 
-	[Token(Token = "0x60011AE")]
-	[Address(RVA = "0x2F55EA0", Offset = "0x2F544A0", VA = "0x182F55EA0", Slot = "4")]
+	[Token(Token = "0x60011C2")]
+	[Address(RVA = "0x6936C00", Offset = "0x6935C00", VA = "0x6936C00", Slot = "4")]
 	protected internal virtual AsyncOperation LoadSceneAsyncByNameOrIndex(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011AF")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Token(Token = "0x60011C3")]
+	[Address(RVA = "0x6936C10", Offset = "0x6935C10", VA = "0x6936C10", Slot = "5")]
 	protected internal virtual AsyncOperation LoadFirstScene(bool mustLoadAsync)
 	{
 		return null;

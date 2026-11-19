@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.StylePropertyUtil
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,7 +43,7 @@ internal static class StylePropertyUtil
 	internal static Dictionary<string, StylePropertyId> propertyNameToStylePropertyId
 	{
 		[Token(Token = "0x6002D36")]
-		[Address(RVA = "0x31CCBC0", Offset = "0x31CB1C0", VA = "0x1831CCBC0")]
+		[Address(RVA = "0x6BCE370", Offset = "0x6BCD370", VA = "0x6BCE370")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -55,7 +55,7 @@ internal static class StylePropertyUtil
 	internal static Dictionary<StylePropertyId, string> stylePropertyIdToPropertyName
 	{
 		[Token(Token = "0x6002D37")]
-		[Address(RVA = "0x31CCC10", Offset = "0x31CB210", VA = "0x1831CCC10")]
+		[Address(RVA = "0x6BCE3E0", Offset = "0x6BCD3E0", VA = "0x6BCE3E0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		get
 		{
@@ -64,21 +64,21 @@ internal static class StylePropertyUtil
 	}
 
 	[Token(Token = "0x6002D34")]
-	[Address(RVA = "0x31C7AF0", Offset = "0x31C60F0", VA = "0x1831C7AF0")]
+	[Address(RVA = "0x6BCB8B0", Offset = "0x6BCA8B0", VA = "0x6BCB8B0")]
 	public static bool TryGetEnumIntValue(StyleEnumType enumType, string value, out int intValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D35")]
-	[Address(RVA = "0x31C7980", Offset = "0x31C5F80", VA = "0x1831C7980")]
+	[Address(RVA = "0x6BCE290", Offset = "0x6BCD290", VA = "0x6BCE290")]
 	public static bool IsMatchingShorthand(StylePropertyId shorthand, StylePropertyId id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D38")]
-	[Address(RVA = "0x31C7900", Offset = "0x31C5F00", VA = "0x1831C7900")]
+	[Address(RVA = "0x6BCE450", Offset = "0x6BCD450", VA = "0x6BCE450")]
 	public static bool IsAnimatable(StylePropertyId id)
 	{
 		return default(bool);

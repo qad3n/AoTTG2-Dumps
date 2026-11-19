@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TemplateContainer
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,8 +14,8 @@ using UnityEngine.Bindings;
 namespace UnityEngine.UIElements;
 
 [Token(Token = "0x2000495")]
-[HideInInspector]
 [UxmlElement("Instance")]
+[HideInInspector]
 public class TemplateContainer : BindableElement
 {
 	[Token(Token = "0x2000496")]
@@ -26,7 +26,7 @@ public class TemplateContainer : BindableElement
 		public override string uxmlName
 		{
 			[Token(Token = "0x600234D")]
-			[Address(RVA = "0x313B440", Offset = "0x3139A40", VA = "0x18313B440", Slot = "4")]
+			[Address(RVA = "0x6B28F50", Offset = "0x6B27F50", VA = "0x6B28F50", Slot = "4")]
 			get
 			{
 				return null;
@@ -37,7 +37,7 @@ public class TemplateContainer : BindableElement
 		public override string uxmlQualifiedName
 		{
 			[Token(Token = "0x600234E")]
-			[Address(RVA = "0x313B470", Offset = "0x3139A70", VA = "0x18313B470", Slot = "6")]
+			[Address(RVA = "0x6B28F80", Offset = "0x6B27F80", VA = "0x6B28F80", Slot = "6")]
 			get
 			{
 				return null;
@@ -45,7 +45,7 @@ public class TemplateContainer : BindableElement
 		}
 
 		[Token(Token = "0x600234F")]
-		[Address(RVA = "0x313B400", Offset = "0x3139A00", VA = "0x18313B400")]
+		[Address(RVA = "0x6B28FF0", Offset = "0x6B27FF0", VA = "0x6B28FF0")]
 		public UxmlFactory()
 		{
 		}
@@ -60,13 +60,13 @@ public class TemplateContainer : BindableElement
 		private UxmlStringAttributeDescription m_Template;
 
 		[Token(Token = "0x6002350")]
-		[Address(RVA = "0x313B4F0", Offset = "0x3139AF0", VA = "0x18313B4F0", Slot = "4")]
+		[Address(RVA = "0x6B29030", Offset = "0x6B28030", VA = "0x6B29030", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6002351")]
-		[Address(RVA = "0x313C2D0", Offset = "0x313A8D0", VA = "0x18313C2D0")]
+		[Address(RVA = "0x6B295C0", Offset = "0x6B285C0", VA = "0x6B295C0")]
 		public UxmlTraits()
 		{
 		}
@@ -96,14 +96,14 @@ public class TemplateContainer : BindableElement
 	public string templateId
 	{
 		[Token(Token = "0x6002343")]
-		[Address(RVA = "0x312F010", Offset = "0x312D610", VA = "0x18312F010")]
+		[Address(RVA = "0x6B28C90", Offset = "0x6B27C90", VA = "0x6B28C90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002344")]
-		[Address(RVA = "0x312F030", Offset = "0x312D630", VA = "0x18312F030")]
+		[Address(RVA = "0x6B28CA0", Offset = "0x6B27CA0", VA = "0x6B28CA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -115,13 +115,13 @@ public class TemplateContainer : BindableElement
 	public VisualTreeAsset templateSource
 	{
 		[Token(Token = "0x6002345")]
-		[Address(RVA = "0x312F020", Offset = "0x312D620", VA = "0x18312F020")]
+		[Address(RVA = "0x6B28CC0", Offset = "0x6B27CC0", VA = "0x6B28CC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002346")]
-		[Address(RVA = "0x312F050", Offset = "0x312D650", VA = "0x18312F050")]
+		[Address(RVA = "0x6B28CD0", Offset = "0x6B27CD0", VA = "0x6B28CD0")]
 		internal set
 		{
 		}
@@ -131,7 +131,7 @@ public class TemplateContainer : BindableElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x600234A")]
-		[Address(RVA = "0x312F000", Offset = "0x312D600", VA = "0x18312F000", Slot = "138")]
+		[Address(RVA = "0x6B28E10", Offset = "0x6B27E10", VA = "0x6B28E10", Slot = "138")]
 		get
 		{
 			return null;
@@ -139,25 +139,25 @@ public class TemplateContainer : BindableElement
 	}
 
 	[Token(Token = "0x6002347")]
-	[Address(RVA = "0x312EF30", Offset = "0x312D530", VA = "0x18312EF30")]
+	[Address(RVA = "0x6B28CF0", Offset = "0x6B27CF0", VA = "0x6B28CF0")]
 	public TemplateContainer()
 	{
 	}
 
 	[Token(Token = "0x6002348")]
-	[Address(RVA = "0x312EEC0", Offset = "0x312D4C0", VA = "0x18312EEC0")]
+	[Address(RVA = "0x6B28D50", Offset = "0x6B27D50", VA = "0x6B28D50")]
 	public TemplateContainer(string templateId)
 	{
 	}
 
 	[Token(Token = "0x6002349")]
-	[Address(RVA = "0x312EF90", Offset = "0x312D590", VA = "0x18312EF90")]
+	[Address(RVA = "0x6B28DB0", Offset = "0x6B27DB0", VA = "0x6B28DB0")]
 	internal TemplateContainer(string templateId, VisualTreeAsset templateSource)
 	{
 	}
 
 	[Token(Token = "0x600234B")]
-	[Address(RVA = "0x312ECB0", Offset = "0x312D2B0", VA = "0x18312ECB0")]
+	[Address(RVA = "0x6B28E20", Offset = "0x6B27E20", VA = "0x6B28E20")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal void SetContentContainer(VisualElement content)
 	{

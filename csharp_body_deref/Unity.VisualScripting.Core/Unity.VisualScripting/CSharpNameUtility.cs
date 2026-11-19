@@ -28,42 +28,42 @@ public static class CSharpNameUtility
 	private static readonly HashSet<char> illegalTypeFileNameCharacters;
 
 	[Token(Token = "0x6001006")]
-	[Address(RVA = "0x2E2C590", Offset = "0x2E2AB90", VA = "0x182E2C590")]
+	[Address(RVA = "0x68480C0", Offset = "0x68470C0", VA = "0x68480C0")]
 	public static string CSharpName(this MemberInfo member, ActionDirection direction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x2E2BF90", Offset = "0x2E2A590", VA = "0x182E2BF90")]
+	[Address(RVA = "0x6848460", Offset = "0x6847460", VA = "0x6848460")]
 	public static string CSharpName(this Type type, bool includeGenericParameters = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001008")]
-	[Address(RVA = "0x2E2BF30", Offset = "0x2E2A530", VA = "0x182E2BF30")]
+	[Address(RVA = "0x6848A70", Offset = "0x6847A70", VA = "0x6848A70")]
 	public static string CSharpFullName(this Type type, bool includeGenericParameters = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001009")]
-	[Address(RVA = "0x2E2C900", Offset = "0x2E2AF00", VA = "0x182E2C900")]
+	[Address(RVA = "0x6848AD0", Offset = "0x6847AD0", VA = "0x6848AD0")]
 	public static string CSharpUniqueName(this Type type, bool includeGenericParameters = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600100A")]
-	[Address(RVA = "0x2E2BDD0", Offset = "0x2E2A3D0", VA = "0x182E2BDD0")]
+	[Address(RVA = "0x6848B30", Offset = "0x6847B30", VA = "0x6848B30")]
 	public static string CSharpFileName(this Type type, bool includeNamespace, bool includeGenericParameters = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600100B")]
-	[Address(RVA = "0x2E2BFF0", Offset = "0x2E2A5F0", VA = "0x182E2BFF0")]
+	[Address(RVA = "0x68484B0", Offset = "0x68474B0", VA = "0x68484B0")]
 	private static string CSharpName(this Type type, TypeQualifier qualifier, bool includeGenericParameters = true)
 	{
 		return null;

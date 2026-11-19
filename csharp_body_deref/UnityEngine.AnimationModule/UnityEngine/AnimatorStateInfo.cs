@@ -56,7 +56,7 @@ public struct AnimatorStateInfo
 	public float normalizedTime
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
+		[Address(RVA = "0x68A9A50", Offset = "0x68A8A50", VA = "0x68A9A50")]
 		get
 		{
 			return default(float);
@@ -64,14 +64,14 @@ public struct AnimatorStateInfo
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2EAE3F0", Offset = "0x2EAC9F0", VA = "0x182EAE3F0")]
+	[Address(RVA = "0x68A98C0", Offset = "0x68A88C0", VA = "0x68A98C0")]
 	public bool IsName(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2EAE430", Offset = "0x2EACA30", VA = "0x182EAE430")]
+	[Address(RVA = "0x68A9A60", Offset = "0x68A8A60", VA = "0x68A9A60")]
 	public bool IsTag(string tag)
 	{
 		return default(bool);

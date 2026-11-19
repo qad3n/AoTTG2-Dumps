@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Building.GisketchNodeRefreshOptions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Building/GisketchNodeRefreshOptions.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x20000BB")]
+[Token(Token = "0x20000C1")]
 public sealed class GisketchNodeRefreshOptions
 {
-	[Token(Token = "0x40003D5")]
+	[Token(Token = "0x40003FC")]
 	[FieldOffset(Offset = "0x10")]
 	public bool PreserveScroll;
 
-	[Token(Token = "0x40003D6")]
+	[Token(Token = "0x40003FD")]
 	[FieldOffset(Offset = "0x11")]
 	public bool PreserveFocus;
 
-	[Token(Token = "0x40003D7")]
+	[Token(Token = "0x40003FE")]
 	[FieldOffset(Offset = "0x12")]
 	public bool SettleLayout;
 
-	[Token(Token = "0x60005C8")]
-	[Address(RVA = "0x19033A0", Offset = "0x19019A0", VA = "0x1819033A0")]
+	[Token(Token = "0x6000615")]
+	[Address(RVA = "0x5294530", Offset = "0x5293530", VA = "0x5294530")]
 	public GisketchNodeRefreshOptions()
 	{
 	}

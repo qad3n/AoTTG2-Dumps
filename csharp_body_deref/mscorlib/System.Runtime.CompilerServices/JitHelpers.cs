@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004D4")]
+[Token(Token = "0x20004AD")]
 internal static class JitHelpers
 {
-	[Token(Token = "0x6002381")]
+	[Token(Token = "0x600234E")]
 	internal static T UnsafeCast<T>(object o) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002382")]
+	[Token(Token = "0x600234F")]
 	internal static int UnsafeEnumCast<T>(T val) where T : struct
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002383")]
+	[Token(Token = "0x6002350")]
 	internal static long UnsafeEnumCastLong<T>(T val) where T : struct
 	{
 		return default(long);

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003F9")]
+[Token(Token = "0x20003FE")]
 public enum LengthUnit
 {
-	[Token(Token = "0x4000D88")]
+	[Token(Token = "0x4000D94")]
 	Pixel,
-	[Token(Token = "0x4000D89")]
+	[Token(Token = "0x4000D95")]
 	Percent
 }

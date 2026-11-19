@@ -16,7 +16,7 @@ internal sealed class PlusNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FF7")]
-		[Address(RVA = "0x2547600", Offset = "0x2545C00", VA = "0x182547600", Slot = "6")]
+		[Address(RVA = "0x61475E0", Offset = "0x61465E0", VA = "0x61475E0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -24,13 +24,13 @@ internal sealed class PlusNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FF6")]
-	[Address(RVA = "0x27836B0", Offset = "0x2781CB0", VA = "0x1827836B0", Slot = "5")]
+	[Address(RVA = "0x6147460", Offset = "0x6146460", VA = "0x6147460", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FF8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6147610", Offset = "0x6146610", VA = "0x6147610")]
 	public PlusNode()
 	{
 	}

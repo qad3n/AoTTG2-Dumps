@@ -1,0 +1,32 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.LocalAccessInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections.Generic;
+using Il2CppDummyDll;
+
+namespace System.Linq.Expressions.Interpreter;
+
+[Token(Token = "0x20001A3")]
+internal abstract class LocalAccessInstruction : Instruction
+{
+	[Token(Token = "0x4000393")]
+	[FieldOffset(Offset = "0x10")]
+	internal readonly int _index;
+
+	[Token(Token = "0x6000955")]
+	[Address(RVA = "0x5E0AD80", Offset = "0x5E09D80", VA = "0x5E0AD80")]
+	protected LocalAccessInstruction(int index)
+	{
+	}
+
+	[Token(Token = "0x6000956")]
+	[Address(RVA = "0x5E0ADA0", Offset = "0x5E09DA0", VA = "0x5E0ADA0", Slot = "10")]
+	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
+	{
+		return null;
+	}
+}

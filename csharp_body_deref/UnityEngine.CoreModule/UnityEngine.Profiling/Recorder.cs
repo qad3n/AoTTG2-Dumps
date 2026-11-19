@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Profiling.Recorder
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/Recorder.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,105 +12,105 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Profiling;
 
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x20001EF")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public sealed class Recorder
 {
-	[Token(Token = "0x40006BB")]
+	[Token(Token = "0x40006C0")]
 	private const ProfilerRecorderOptions s_RecorderDefaultOptions = (ProfilerRecorderOptions)153;
 
-	[Token(Token = "0x40006BC")]
+	[Token(Token = "0x40006C1")]
 	[FieldOffset(Offset = "0x0")]
 	internal static Recorder s_InvalidRecorder;
 
-	[Token(Token = "0x40006BD")]
+	[Token(Token = "0x40006C2")]
 	[FieldOffset(Offset = "0x10")]
 	private ProfilerRecorder m_RecorderCPU;
 
-	[Token(Token = "0x40006BE")]
+	[Token(Token = "0x40006C3")]
 	[FieldOffset(Offset = "0x18")]
 	private ProfilerRecorder m_RecorderGPU;
 
-	[Token(Token = "0x170002B4")]
+	[Token(Token = "0x170002BB")]
 	public bool enabled
 	{
-		[Token(Token = "0x6001068")]
-		[Address(RVA = "0x2F51F80", Offset = "0x2F50580", VA = "0x182F51F80")]
+		[Token(Token = "0x6001085")]
+		[Address(RVA = "0x69300F0", Offset = "0x692F0F0", VA = "0x69300F0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001069")]
-		[Address(RVA = "0x2F51DB0", Offset = "0x2F503B0", VA = "0x182F51DB0")]
+		[Token(Token = "0x6001086")]
+		[Address(RVA = "0x6930100", Offset = "0x692F100", VA = "0x6930100")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002B5")]
+	[Token(Token = "0x170002BC")]
 	public long elapsedNanoseconds
 	{
-		[Token(Token = "0x600106A")]
-		[Address(RVA = "0x2F51F50", Offset = "0x2F50550", VA = "0x182F51F50")]
+		[Token(Token = "0x6001087")]
+		[Address(RVA = "0x69301C0", Offset = "0x692F1C0", VA = "0x69301C0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170002B6")]
+	[Token(Token = "0x170002BD")]
 	public long gpuElapsedNanoseconds
 	{
-		[Token(Token = "0x600106B")]
-		[Address(RVA = "0x2F51F90", Offset = "0x2F50590", VA = "0x182F51F90")]
+		[Token(Token = "0x6001088")]
+		[Address(RVA = "0x69301F0", Offset = "0x692F1F0", VA = "0x69301F0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170002B7")]
+	[Token(Token = "0x170002BE")]
 	public int sampleBlockCount
 	{
-		[Token(Token = "0x600106C")]
-		[Address(RVA = "0x2F52010", Offset = "0x2F50610", VA = "0x182F52010")]
+		[Token(Token = "0x6001089")]
+		[Address(RVA = "0x6930220", Offset = "0x692F220", VA = "0x6930220")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002B8")]
+	[Token(Token = "0x170002BF")]
 	public int gpuSampleBlockCount
 	{
-		[Token(Token = "0x600106D")]
-		[Address(RVA = "0x2F51FC0", Offset = "0x2F505C0", VA = "0x182F51FC0")]
+		[Token(Token = "0x600108A")]
+		[Address(RVA = "0x6930270", Offset = "0x692F270", VA = "0x6930270")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001065")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001082")]
+	[Address(RVA = "0x692FF90", Offset = "0x692EF90", VA = "0x692FF90")]
 	internal Recorder()
 	{
 	}
 
-	[Token(Token = "0x6001066")]
-	[Address(RVA = "0x2F51E90", Offset = "0x2F50490", VA = "0x182F51E90")]
+	[Token(Token = "0x6001083")]
+	[Address(RVA = "0x692FFA0", Offset = "0x692EFA0", VA = "0x692FFA0")]
 	internal Recorder(ProfilerRecorderHandle handle)
 	{
 	}
 
-	[Token(Token = "0x6001067")]
-	[Address(RVA = "0x2F51D40", Offset = "0x2F50340", VA = "0x182F51D40", Slot = "1")]
+	[Token(Token = "0x6001084")]
+	[Address(RVA = "0x6930050", Offset = "0x692F050", VA = "0x6930050", Slot = "1")]
 	~Recorder()
 	{
 	}
 
-	[Token(Token = "0x600106E")]
-	[Address(RVA = "0x2F51DB0", Offset = "0x2F503B0", VA = "0x182F51DB0")]
+	[Token(Token = "0x600108B")]
+	[Address(RVA = "0x6930160", Offset = "0x692F160", VA = "0x6930160")]
 	private void SetEnabled(bool state)
 	{
 	}

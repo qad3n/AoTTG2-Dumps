@@ -14,19 +14,19 @@ namespace Unity.VisualScripting;
 public static class UnityObjectOwnershipUtility
 {
 	[Token(Token = "0x6000FFF")]
-	[Address(RVA = "0x2E4E550", Offset = "0x2E4CB50", VA = "0x182E4E550")]
+	[Address(RVA = "0x6847BE0", Offset = "0x6846BE0", VA = "0x6847BE0")]
 	public static void CopyOwner(object source, object destination)
 	{
 	}
 
 	[Token(Token = "0x6001000")]
-	[Address(RVA = "0x2E4E7C0", Offset = "0x2E4CDC0", VA = "0x182E4E7C0")]
+	[Address(RVA = "0x6847DA0", Offset = "0x6846DA0", VA = "0x6847DA0")]
 	public static void RemoveOwner(object o)
 	{
 	}
 
 	[Token(Token = "0x6001001")]
-	[Address(RVA = "0x2E4E6B0", Offset = "0x2E4CCB0", VA = "0x182E4E6B0")]
+	[Address(RVA = "0x6847CA0", Offset = "0x6846CA0", VA = "0x6847CA0")]
 	public static Object GetOwner(object o)
 	{
 		return null;

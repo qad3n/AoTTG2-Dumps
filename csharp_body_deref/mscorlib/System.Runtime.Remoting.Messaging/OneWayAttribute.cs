@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003EA")]
-[AttributeUsage(AttributeTargets.Method)]
+[Token(Token = "0x20003C3")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Method)]
 public class OneWayAttribute : Attribute
 {
 }

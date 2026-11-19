@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.EventSanitizer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,25 +33,25 @@ internal struct EventSanitizer
 	private IEventSanitizer[] _sanitizers;
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x2FBB9A0", Offset = "0x2FB9FA0", VA = "0x182FBB9A0")]
+	[Address(RVA = "0x69B79D0", Offset = "0x69B69D0", VA = "0x69B79D0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x2FBB760", Offset = "0x2FB9D60", VA = "0x182FBB760")]
+	[Address(RVA = "0x69B7DD0", Offset = "0x69B6DD0", VA = "0x69B7DD0")]
 	public void BeforeProviderUpdate()
 	{
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x2FBB640", Offset = "0x2FB9C40", VA = "0x182FBB640")]
+	[Address(RVA = "0x69B7EF0", Offset = "0x69B6EF0", VA = "0x69B7EF0")]
 	public void AfterProviderUpdate()
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x2FBB880", Offset = "0x2FB9E80", VA = "0x182FBB880")]
+	[Address(RVA = "0x69B78C0", Offset = "0x69B68C0", VA = "0x69B78C0")]
 	public void Inspect(in Event ev)
 	{
 	}

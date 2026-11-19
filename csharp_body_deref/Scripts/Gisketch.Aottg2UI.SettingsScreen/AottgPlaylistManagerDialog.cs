@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgPlaylistManagerDialog
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgPlaylistManagerDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,108 +13,108 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000163")]
+[Token(Token = "0x200016B")]
 [AottgDialog("setting-playlist-manager")]
 public sealed class AottgPlaylistManagerDialog : AottgDialog
 {
-	[Token(Token = "0x4000808")]
+	[Token(Token = "0x4000852")]
 	public const string Id = "setting-playlist-manager";
 
-	[Token(Token = "0x170000DD")]
+	[Token(Token = "0x170000E0")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000740")]
-		[Address(RVA = "0x230BCF0", Offset = "0x230A2F0", VA = "0x18230BCF0", Slot = "4")]
+		[Token(Token = "0x60007B6")]
+		[Address(RVA = "0x5CC4970", Offset = "0x5CC3970", VA = "0x5CC4970", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000DE")]
+	[Token(Token = "0x170000E1")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000741")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Token(Token = "0x60007B7")]
+		[Address(RVA = "0x5CC49D0", Offset = "0x5CC39D0", VA = "0x5CC49D0", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000DF")]
+	[Token(Token = "0x170000E2")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000742")]
-		[Address(RVA = "0x230BBF0", Offset = "0x230A1F0", VA = "0x18230BBF0", Slot = "15")]
+		[Token(Token = "0x60007B8")]
+		[Address(RVA = "0x5CC49E0", Offset = "0x5CC39E0", VA = "0x5CC49E0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000E0")]
+	[Token(Token = "0x170000E3")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x6000743")]
-		[Address(RVA = "0x230BAF0", Offset = "0x230A0F0", VA = "0x18230BAF0", Slot = "17")]
+		[Token(Token = "0x60007B9")]
+		[Address(RVA = "0x5CC4AA0", Offset = "0x5CC3AA0", VA = "0x5CC4AA0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x230AB40", Offset = "0x2309140", VA = "0x18230AB40", Slot = "20")]
+	[Token(Token = "0x60007BA")]
+	[Address(RVA = "0x5CC4B60", Offset = "0x5CC3B60", VA = "0x5CC4B60", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000745")]
-	[Address(RVA = "0x230AF60", Offset = "0x2309560", VA = "0x18230AF60", Slot = "21")]
+	[Token(Token = "0x60007BB")]
+	[Address(RVA = "0x5CC4CD0", Offset = "0x5CC3CD0", VA = "0x5CC4CD0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x230AAC0", Offset = "0x23090C0", VA = "0x18230AAC0")]
+	[Token(Token = "0x60007BC")]
+	[Address(RVA = "0x5CC4C10", Offset = "0x5CC3C10", VA = "0x5CC4C10")]
 	private static void BuildAvailableColumn(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000747")]
-	[Address(RVA = "0x230AFE0", Offset = "0x23095E0", VA = "0x18230AFE0")]
+	[Token(Token = "0x60007BD")]
+	[Address(RVA = "0x5CC4C70", Offset = "0x5CC3C70", VA = "0x5CC4C70")]
 	private static void BuildSelectedColumn(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000748")]
-	[Address(RVA = "0x230ACF0", Offset = "0x23092F0", VA = "0x18230ACF0")]
-	private static void BuildColumn(AottgUi body, string kind, string titleKey, string title, List<string> songs, bool available)
+	[Token(Token = "0x60007BE")]
+	[Address(RVA = "0x5CC4D30", Offset = "0x5CC3D30", VA = "0x5CC4D30")]
+	private static void BuildColumn(AottgUi body, string kind, string titleKey, List<string> songs, bool available)
 	{
 	}
 
-	[Token(Token = "0x6000749")]
-	[Address(RVA = "0x230B120", Offset = "0x2309720", VA = "0x18230B120")]
+	[Token(Token = "0x60007BF")]
+	[Address(RVA = "0x5CC4F60", Offset = "0x5CC3F60", VA = "0x5CC4F60")]
 	private static void BuildSongList(AottgUi list, string kind, List<string> songs, bool available)
 	{
 	}
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x230B7C0", Offset = "0x2309DC0", VA = "0x18230B7C0")]
+	[Token(Token = "0x60007C0")]
+	[Address(RVA = "0x5CC55D0", Offset = "0x5CC45D0", VA = "0x5CC55D0")]
 	private static void ToggleSong(GisketchActionContext context, string song, bool available)
 	{
 	}
 
-	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x230BA10", Offset = "0x230A010", VA = "0x18230BA10")]
+	[Token(Token = "0x60007C1")]
+	[Address(RVA = "0x5CC54F0", Offset = "0x5CC44F0", VA = "0x5CC54F0")]
 	private static int VisibleCount(List<string> songs, List<string> selected, bool available)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60007C2")]
+	[Address(RVA = "0x5CC55F0", Offset = "0x5CC45F0", VA = "0x5CC55F0")]
 	public AottgPlaylistManagerDialog()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderingData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,7 +36,7 @@ public struct RenderingData
 	internal UniversalRenderingData universalRenderingData
 	{
 		[Token(Token = "0x6000A84")]
-		[Address(RVA = "0x2CC5FB0", Offset = "0x2CC45B0", VA = "0x182CC5FB0")]
+		[Address(RVA = "0x66AE440", Offset = "0x66AD440", VA = "0x66AE440")]
 		get
 		{
 			return null;
@@ -47,7 +47,7 @@ public struct RenderingData
 	public unsafe ref CullingResults cullResults
 	{
 		[Token(Token = "0x6000A85")]
-		[Address(RVA = "0x2CC5E70", Offset = "0x2CC4470", VA = "0x182CC5E70")]
+		[Address(RVA = "0x66AE480", Offset = "0x66AD480", VA = "0x66AE480")]
 		get
 		{
 			return ref *(CullingResults*)null;
@@ -58,7 +58,7 @@ public struct RenderingData
 	public unsafe ref bool supportsDynamicBatching
 	{
 		[Token(Token = "0x6000A86")]
-		[Address(RVA = "0x2CC5F60", Offset = "0x2CC4560", VA = "0x182CC5F60")]
+		[Address(RVA = "0x66AE4D0", Offset = "0x66AD4D0", VA = "0x66AE4D0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -69,7 +69,7 @@ public struct RenderingData
 	public unsafe ref PerObjectData perObjectData
 	{
 		[Token(Token = "0x6000A87")]
-		[Address(RVA = "0x2CC5EC0", Offset = "0x2CC44C0", VA = "0x182CC5EC0")]
+		[Address(RVA = "0x66AE520", Offset = "0x66AD520", VA = "0x66AE520")]
 		get
 		{
 			return ref *(PerObjectData*)null;
@@ -80,7 +80,7 @@ public struct RenderingData
 	public unsafe ref bool postProcessingEnabled
 	{
 		[Token(Token = "0x6000A88")]
-		[Address(RVA = "0x2CC5F10", Offset = "0x2CC4510", VA = "0x182CC5F10")]
+		[Address(RVA = "0x66AE570", Offset = "0x66AD570", VA = "0x66AE570")]
 		get
 		{
 			return ref *(bool*)null;
@@ -88,7 +88,7 @@ public struct RenderingData
 	}
 
 	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x2CC5DB0", Offset = "0x2CC43B0", VA = "0x182CC5DB0")]
+	[Address(RVA = "0x66AE380", Offset = "0x66AD380", VA = "0x66AE380")]
 	internal RenderingData(ContextContainer frameData)
 	{
 	}

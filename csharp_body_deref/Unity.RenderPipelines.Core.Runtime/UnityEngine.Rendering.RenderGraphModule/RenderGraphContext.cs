@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.RenderGraphContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ public struct RenderGraphContext : IDerivedRendergraphContext
 	public ScriptableRenderContext renderContext
 	{
 		[Token(Token = "0x600111D")]
-		[Address(RVA = "0x194CC80", Offset = "0x194B280", VA = "0x18194CC80")]
+		[Address(RVA = "0x6571F80", Offset = "0x6570F80", VA = "0x6571F80")]
 		get
 		{
 			return default(ScriptableRenderContext);
@@ -35,7 +35,7 @@ public struct RenderGraphContext : IDerivedRendergraphContext
 	public CommandBuffer cmd
 	{
 		[Token(Token = "0x600111E")]
-		[Address(RVA = "0x26DA2B0", Offset = "0x26D88B0", VA = "0x1826DA2B0")]
+		[Address(RVA = "0x6571FA0", Offset = "0x6570FA0", VA = "0x6571FA0")]
 		get
 		{
 			return null;
@@ -46,7 +46,7 @@ public struct RenderGraphContext : IDerivedRendergraphContext
 	public RenderGraphObjectPool renderGraphPool
 	{
 		[Token(Token = "0x600111F")]
-		[Address(RVA = "0x26DA300", Offset = "0x26D8900", VA = "0x1826DA300")]
+		[Address(RVA = "0x6571FC0", Offset = "0x6570FC0", VA = "0x6571FC0")]
 		get
 		{
 			return null;
@@ -57,7 +57,7 @@ public struct RenderGraphContext : IDerivedRendergraphContext
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6001120")]
-		[Address(RVA = "0x26DA040", Offset = "0x26D8640", VA = "0x1826DA040")]
+		[Address(RVA = "0x6571FE0", Offset = "0x6570FE0", VA = "0x6571FE0")]
 		get
 		{
 			return null;
@@ -65,20 +65,20 @@ public struct RenderGraphContext : IDerivedRendergraphContext
 	}
 
 	[Token(Token = "0x600111B")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150", Slot = "4")]
+	[Address(RVA = "0x6571F60", Offset = "0x6570F60", VA = "0x6571F60", Slot = "4")]
 	public void FromInternalContext(InternalRenderGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x600111C")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Address(RVA = "0x6571F70", Offset = "0x6570F70", VA = "0x6571F70")]
 	public readonly TextureUVOrigin GetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);
 	}
 
 	[Token(Token = "0x6001121")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Address(RVA = "0x6572000", Offset = "0x6571000", VA = "0x6572000", Slot = "5")]
 	private TextureUVOrigin UnityEngine_002ERendering_002ERenderGraphModule_002EIDerivedRendergraphContext_002EGetTextureUVOrigin(in TextureHandle textureHandle)
 	{
 		return default(TextureUVOrigin);

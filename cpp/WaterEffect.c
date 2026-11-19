@@ -1,31 +1,32 @@
 // Type: WaterEffect
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/WaterEffect.cs
 // Prior real C# source (older reference): Assets/Scripts/Effects/WaterEffect.cs
 // --------------------------------
 
 // WaterEffect$$Start
 // il2cpp: void WaterEffect__Start (WaterEffect_o* __this, const MethodInfo* method);
-// 0x181db1ac0
+// 0x5845da0
 
 void WaterEffect__Start(WaterEffect_o *__this,MethodInfo *method)
 
 {
+  PostProcessingManager_o **targetAddress;
   UnityEngine_Object_o *x;
   bool bVar1;
   PostProcessingManager_o *pPVar2;
-  UnityEngine_BoxCollider_o *value;
+  UnityEngine_BoxCollider_o *pUVar3;
   
-  if (Il2CppMethodInitialized_1843448ac == '\0') {
+  if (Il2CppMethodInitialized_07544ffd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Object_FindFirstObjectByType_PostProcessingManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&"Unsupported Object for Water Effect (must have box collider).");
-    Il2CppMethodInitialized_1843448ac = '\x01';
+    Il2CppMethodInitialized_07544ffd = '\x01';
   }
   pPVar2 = (__this->fields)._postProcessingManager;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -34,20 +35,21 @@ void WaterEffect__Start(WaterEffect_o *__this,MethodInfo *method)
   bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)pPVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
+    targetAddress = &(__this->fields)._postProcessingManager;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
     pPVar2 = UnityEngine_Object__FindFirstObjectByType_object_
-                       ((MethodInfo_744E60 *)
+                       ((MethodInfo_35A3BB0 *)
                         MethodInfo_UnityEngine_Object_FindFirstObjectByType_PostProcessingManager);
-    (__this->fields)._postProcessingManager = pPVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._postProcessingManager,pPVar2);
+    *targetAddress = pPVar2;
+    Il2CppCodeGenWriteBarrier(targetAddress);
   }
-  value = UnityEngine_Component__GetComponent_object_
-                    ((UnityEngine_Component_o *)__this,
-                     (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
-  (__this->fields)._boxCollider = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._boxCollider,value);
+  pUVar3 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+  (__this->fields)._boxCollider = pUVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._boxCollider);
   x = (UnityEngine_Object_o *)(__this->fields)._boxCollider;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -59,6 +61,7 @@ void WaterEffect__Start(WaterEffect_o *__this,MethodInfo *method)
     }
     UnityEngine_Debug__Log((Il2CppObject *)"Unsupported Object for Water Effect (must have box collider).",(MethodInfo *)0x0);
     UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)__this,false,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -66,77 +69,89 @@ void WaterEffect__Start(WaterEffect_o *__this,MethodInfo *method)
 
 // WaterEffect$$IsInsideBounds
 // il2cpp: bool WaterEffect__IsInsideBounds (WaterEffect_o* __this, UnityEngine_Vector3_o worldPos, UnityEngine_BoxCollider_o* bc, const MethodInfo* method);
-// 0x181db18f0
+// 0x5845ef0
 
 bool WaterEffect__IsInsideBounds
-               (WaterEffect_o *__this,UnityEngine_Vector3_o *worldPos,UnityEngine_BoxCollider_o *bc,
+               (WaterEffect_o *__this,UnityEngine_Vector3_o worldPos,UnityEngine_BoxCollider_o *bc,
                MethodInfo *method)
 
 {
   float fVar1;
-  UnityEngine_Vector3_StaticFields *pUVar2;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  UnityEngine_Vector3_StaticFields *pUVar4;
   UnityEngine_Transform_o *__this_00;
-  UnityEngine_Vector3_o *pUVar3;
-  float fVar4;
   float fVar5;
   float fVar6;
   float fVar7;
-  float fVar8;
+  undefined4 uVar8;
   float fVar9;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_o local_78 [9];
+  undefined1 auVar10 [16];
+  undefined1 auVar11 [16];
+  float fVar12;
+  float fVar14;
+  undefined1 auVar13 [16];
+  UnityEngine_Vector3_o UVar15;
+  UnityEngine_Vector3_o UVar16;
+  UnityEngine_Vector3_o UVar17;
+  UnityEngine_Vector3_o UVar18;
+  float local_a8;
+  float fStack_a4;
+  float local_98;
+  float fStack_94;
+  float local_88;
+  undefined4 local_48;
   
   if (bc != (UnityEngine_BoxCollider_o *)0x0) {
     __this_00 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)bc,(MethodInfo *)0x0);
     if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-      local_88.z = (worldPos->fields).z;
-      local_88.x = (worldPos->fields).x;
-      local_88.y = (worldPos->fields).y;
-      pUVar3 = UnityEngine_Transform__InverseTransformPoint
-                         (local_78,__this_00,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
-      fVar7 = (pUVar3->fields).x;
-      fVar8 = (pUVar3->fields).y;
-      fVar9 = (pUVar3->fields).z;
-      pUVar3 = UnityEngine_BoxCollider__get_center(local_78,bc,(MethodInfo *)0x0);
-      fVar5 = (pUVar3->fields).x;
-      fVar6 = (pUVar3->fields).y;
-      fVar4 = (pUVar3->fields).z;
-      pUVar3 = UnityEngine_BoxCollider__get_size(local_78,bc,(MethodInfo *)0x0);
-      fVar7 = (pUVar3->fields).x * 0.5 + (fVar7 - fVar5);
-      fVar8 = (pUVar3->fields).y * 0.5 + (fVar8 - fVar6);
-      fVar9 = (pUVar3->fields).z * 0.5 + (fVar9 - fVar4);
-      if (Il2CppMethodInitialized_18433dbea == '\0') {
+      fVar7 = 0.0;
+      UVar15 = UnityEngine_Transform__InverseTransformPoint(__this_00,worldPos,(MethodInfo *)0x0);
+      fVar12 = fVar7;
+      UVar16 = UnityEngine_BoxCollider__get_center(bc,(MethodInfo *)0x0);
+      fVar14 = fVar12;
+      UVar17 = UnityEngine_BoxCollider__get_size(bc,(MethodInfo *)0x0);
+      if (Il2CppMethodInitialized_0753e4b6 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433dbea = '\x01';
+        Il2CppMethodInitialized_0753e4b6 = '\x01';
       }
-      pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
-      fVar5 = (pUVar2->zeroVector).fields.x;
-      if (fVar5 <= fVar7) {
-        fVar5 = fVar7;
+      fStack_94 = UVar15.fields.y;
+      fStack_a4 = UVar16.fields.y;
+      fVar9 = UVar17.fields.y * 0.5 + (fStack_94 - fStack_a4);
+      pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
+      uVar2 = (pUVar4->zeroVector).fields.x;
+      uVar3 = (pUVar4->zeroVector).fields.y;
+      fVar6 = (float)uVar3;
+      if ((float)uVar3 <= fVar9) {
+        fVar6 = fVar9;
       }
-      fVar6 = (pUVar2->zeroVector).fields.y;
-      if (fVar6 <= fVar8) {
-        fVar6 = fVar8;
+      fVar1 = (pUVar4->zeroVector).fields.z;
+      uVar8 = 0;
+      UVar18 = UnityEngine_BoxCollider__get_size(bc,(MethodInfo *)0x0);
+      fVar5 = UVar18.fields.y;
+      if (fVar5 <= fVar9) {
+        fVar9 = fVar5;
       }
-      fVar4 = (pUVar2->zeroVector).fields.z;
-      if (fVar4 <= fVar9) {
-        fVar4 = fVar9;
-      }
-      pUVar3 = UnityEngine_BoxCollider__get_size(local_78,bc,(MethodInfo *)0x0);
-      fVar1 = (pUVar3->fields).x;
-      if (fVar1 <= fVar7) {
-        fVar7 = fVar1;
-      }
-      fVar1 = (pUVar3->fields).y;
-      if (fVar1 <= fVar8) {
-        fVar8 = fVar1;
-      }
-      fVar1 = (pUVar3->fields).z;
-      if (fVar1 <= fVar9) {
-        fVar9 = fVar1;
-      }
-      return (fVar6 - fVar8) * (fVar6 - fVar8) + (fVar5 - fVar7) * (fVar5 - fVar7) +
-             (fVar4 - fVar9) * (fVar4 - fVar9) < 9.9999994e-11;
+      local_98 = UVar15.fields.x;
+      local_a8 = UVar16.fields.x;
+      local_88 = UVar17.fields.x;
+      auVar10._0_4_ = UVar17.fields.z * 0.5 + (UVar15.fields.z - UVar16.fields.z);
+      auVar10._4_4_ = local_88 * 0.5 + (local_98 - local_a8);
+      auVar10._8_4_ = fVar14 * 0.0 + (fVar7 - fVar12);
+      auVar10._12_4_ = UVar17.fields.y * 0.0 + (fStack_94 - fStack_a4);
+      auVar13._4_4_ = uVar2;
+      auVar13._0_4_ = fVar1;
+      auVar13._8_4_ = 0;
+      auVar13._12_4_ = uVar3;
+      auVar13 = maxps(auVar13,auVar10);
+      auVar11._4_4_ = UVar18.fields.x;
+      auVar11._0_4_ = UVar18.fields.z;
+      auVar11._8_4_ = uVar8;
+      auVar11._12_4_ = fVar5;
+      auVar11 = minps(auVar10,auVar11);
+      fVar12 = auVar13._0_4_ - auVar11._0_4_;
+      fVar14 = auVar13._4_4_ - auVar11._4_4_;
+      return fVar14 * fVar14 + (fVar6 - fVar9) * (fVar6 - fVar9) + fVar12 * fVar12 < 9.9999994e-11;
     }
   }
   ThrowNullReferenceException();
@@ -145,129 +160,58 @@ bool WaterEffect__IsInsideBounds
 
 // WaterEffect$$FixedUpdate
 // il2cpp: void WaterEffect__FixedUpdate (WaterEffect_o* __this, const MethodInfo* method);
-// 0x181db1660
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db18c3: mov rsi, qword ptr [rsp + 0xb0]
-// asm:   0x181db18cb: movaps xmm6, xmmword ptr [rsp + 0x90]
+// 0x5846080
 
 void WaterEffect__FixedUpdate(WaterEffect_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined8 uVar2;
-  PostProcessingManager_o *pPVar3;
-  Cameras_BaseCamera_o *pCVar4;
+  PostProcessingManager_o *pPVar1;
+  Cameras_BaseCamera_o *pCVar2;
   UnityEngine_Camera_o *__this_00;
-  UnityEngine_Component_o *__this_01;
-  UnityEngine_Vector3_StaticFields *pUVar5;
-  bool bVar6;
-  UnityEngine_Transform_o *pUVar7;
-  UnityEngine_Vector3_o *pUVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_o local_78 [9];
+  bool bVar3;
+  WaterEffect_o *__this_01;
+  MethodInfo *method_00;
+  UnityEngine_Vector3_o worldPos;
   
-  if (Il2CppMethodInitialized_1843448ad == '\0') {
+  if (Il2CppMethodInitialized_07544ffe == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
-    Il2CppMethodInitialized_1843448ad = '\x01';
+    Il2CppMethodInitialized_07544ffe = '\x01';
   }
-  pPVar3 = (__this->fields)._postProcessingManager;
+  pPVar1 = (__this->fields)._postProcessingManager;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar6 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pPVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar6) {
+  bVar3 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pPVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
     return;
   }
-  pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
-  if (((pCVar4 != (Cameras_BaseCamera_o *)0x0) &&
-      (__this_00 = (pCVar4->fields).Camera, __this_00 != (UnityEngine_Camera_o *)0x0)) &&
-     (pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0),
-     pUVar7 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar8 = UnityEngine_Transform__get_position((UnityEngine_Vector3_o *)&local_88,pUVar7,(MethodInfo *)0x0);
-    __this_01 = (UnityEngine_Component_o *)(__this->fields)._boxCollider;
-    if (__this_01 != (UnityEngine_Component_o *)0x0) {
-      uVar2._0_4_ = (pUVar8->fields).x;
-      uVar2._4_4_ = (pUVar8->fields).y;
-      fVar12 = (pUVar8->fields).z;
-      pUVar7 = UnityEngine_Component__get_transform(__this_01,(MethodInfo *)0x0);
-      if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-        local_88._0_8_ = uVar2;
-        local_88.z = fVar12;
-        pUVar8 = UnityEngine_Transform__InverseTransformPoint
-                           (local_78,pUVar7,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
-        fVar12 = (pUVar8->fields).x;
-        fVar13 = (pUVar8->fields).y;
-        fVar14 = (pUVar8->fields).z;
-        pUVar8 = UnityEngine_BoxCollider__get_center
-                           (local_78,(UnityEngine_BoxCollider_o *)__this_01,(MethodInfo *)0x0);
-        fVar10 = (pUVar8->fields).x;
-        fVar11 = (pUVar8->fields).y;
-        fVar9 = (pUVar8->fields).z;
-        pUVar8 = UnityEngine_BoxCollider__get_size
-                           (local_78,(UnityEngine_BoxCollider_o *)__this_01,(MethodInfo *)0x0);
-        fVar12 = (pUVar8->fields).x * 0.5 + (fVar12 - fVar10);
-        fVar13 = (pUVar8->fields).y * 0.5 + (fVar13 - fVar11);
-        fVar14 = (pUVar8->fields).z * 0.5 + (fVar14 - fVar9);
-        if (Il2CppMethodInitialized_18433dbea == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433dbea = '\x01';
-        }
-        pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
-        fVar10 = (pUVar5->zeroVector).fields.x;
-        if (fVar10 <= fVar12) {
-          fVar10 = fVar12;
-        }
-        fVar11 = (pUVar5->zeroVector).fields.y;
-        if (fVar11 <= fVar13) {
-          fVar11 = fVar13;
-        }
-        fVar9 = (pUVar5->zeroVector).fields.z;
-        if (fVar9 <= fVar14) {
-          fVar9 = fVar14;
-        }
-        pUVar8 = UnityEngine_BoxCollider__get_size
-                           (local_78,(UnityEngine_BoxCollider_o *)__this_01,(MethodInfo *)0x0);
-        fVar1 = (pUVar8->fields).x;
-        if (fVar1 <= fVar12) {
-          fVar12 = fVar1;
-        }
-        fVar1 = (pUVar8->fields).y;
-        if (fVar1 <= fVar13) {
-          fVar13 = fVar1;
-        }
-        fVar1 = (pUVar8->fields).z;
-        if (fVar1 <= fVar14) {
-          fVar14 = fVar1;
-        }
-        if ((fVar11 - fVar13) * (fVar11 - fVar13) + (fVar10 - fVar12) * (fVar10 - fVar12) +
-            (fVar9 - fVar14) * (fVar9 - fVar14) < 9.9999994e-11) {
-          pPVar3 = (__this->fields)._postProcessingManager;
-          if (pPVar3 == (PostProcessingManager_o *)0x0) goto label_181db18e4;
-          (pPVar3->fields).InsideWater = true;
-        }
-        return;
-      }
-    }
+  pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+  if (((pCVar2 == (Cameras_BaseCamera_o *)0x0) ||
+      (__this_00 = (pCVar2->fields).Camera, __this_00 == (UnityEngine_Camera_o *)0x0)) ||
+     (__this_01 = (WaterEffect_o *)
+                  UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0)
+     , __this_01 == (WaterEffect_o *)0x0)) {
+label_05846136:
+    ThrowNullReferenceException();
   }
-label_181db18e4:
-  ThrowNullReferenceException();
+  worldPos = UnityEngine_Transform__get_position((UnityEngine_Transform_o *)__this_01,(MethodInfo *)0x0);
+  bVar3 = WaterEffect__IsInsideBounds(__this_01,worldPos,(__this->fields)._boxCollider,method_00);
+  if (bVar3) {
+    pPVar1 = (__this->fields)._postProcessingManager;
+    if (pPVar1 == (PostProcessingManager_o *)0x0) goto label_05846136;
+    (pPVar1->fields).InsideWater = true;
+  }
+  return;
 }
 
 
 // WaterEffect$$.ctor
 // il2cpp: void WaterEffect___ctor (WaterEffect_o* __this, const MethodInfo* method);
-// 0x180528540
+// 0x5846140
 
-void
-WaterEffect___ctor(WaterEffect_o* __this, MethodInfo* method)
+void WaterEffect___ctor(WaterEffect_o *__this,MethodInfo *method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Cryptography;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x2000047")]
 internal abstract class MD4 : HashAlgorithm
 {
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x1934B40", Offset = "0x1933140", VA = "0x181934B40")]
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x52ED870", Offset = "0x52EC870", VA = "0x52ED870")]
 	protected MD4()
 	{
 	}
 
-	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x195EAB0", Offset = "0x195D0B0", VA = "0x18195EAB0")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x52ED890", Offset = "0x52EC890", VA = "0x52ED890")]
 	public new static Mono.Security.Cryptography.MD4 Create()
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,7 +35,7 @@ internal class DecalSettings
 	public DecalScreenSpaceSettings screenSpaceSettings;
 
 	[Token(Token = "0x600085C")]
-	[Address(RVA = "0x2C70450", Offset = "0x2C6EA50", VA = "0x182C70450")]
+	[Address(RVA = "0x667CD70", Offset = "0x667BD70", VA = "0x667CD70")]
 	public DecalSettings()
 	{
 	}

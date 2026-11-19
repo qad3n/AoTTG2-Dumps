@@ -14,133 +14,133 @@ namespace System.Diagnostics;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20005B8")]
+[Token(Token = "0x2000593")]
 [System.MonoTODO("Serialized objects are not compatible with MS.NET")]
 [ComVisible(true)]
 public class StackFrame
 {
-	[Token(Token = "0x4001827")]
+	[Token(Token = "0x400178E")]
 	public const int OFFSET_UNKNOWN = -1;
 
-	[Token(Token = "0x4001828")]
+	[Token(Token = "0x400178F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int ilOffset;
 
-	[Token(Token = "0x4001829")]
+	[Token(Token = "0x4001790")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	private int nativeOffset;
 
-	[Token(Token = "0x400182A")]
+	[Token(Token = "0x4001791")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private long methodAddress;
 
-	[Token(Token = "0x400182B")]
+	[Token(Token = "0x4001792")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private uint methodIndex;
 
-	[Token(Token = "0x400182C")]
+	[Token(Token = "0x4001793")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private MethodBase methodBase;
 
-	[Token(Token = "0x400182D")]
+	[Token(Token = "0x4001794")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string fileName;
 
-	[Token(Token = "0x400182E")]
+	[Token(Token = "0x4001795")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private int lineNumber;
 
-	[Token(Token = "0x400182F")]
+	[Token(Token = "0x4001796")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 	private int columnNumber;
 
-	[Token(Token = "0x4001830")]
+	[Token(Token = "0x4001797")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private string internalMethodName;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002B75")]
-	[Address(RVA = "0x1AC70D0", Offset = "0x1AC56D0", VA = "0x181AC70D0")]
+	[Token(Token = "0x6002B54")]
+	[Address(RVA = "0x544D8D0", Offset = "0x544C8D0", VA = "0x544D8D0")]
 	private static extern bool get_frame_info(int skip, bool needFileInfo, out MethodBase method, out int iloffset, out int native_offset, out string file, out int line, out int column);
 
-	[Token(Token = "0x6002B76")]
-	[Address(RVA = "0x1AC7070", Offset = "0x1AC5670", VA = "0x181AC7070")]
+	[Token(Token = "0x6002B55")]
+	[Address(RVA = "0x544D8E0", Offset = "0x544C8E0", VA = "0x544D8E0")]
 	public StackFrame()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002B77")]
-	[Address(RVA = "0x1AC7000", Offset = "0x1AC5600", VA = "0x181AC7000")]
+	[Token(Token = "0x6002B56")]
+	[Address(RVA = "0x544D930", Offset = "0x544C930", VA = "0x544D930")]
 	public StackFrame(int skipFrames, bool fNeedFileInfo)
 	{
 	}
 
-	[Token(Token = "0x6002B78")]
-	[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "4")]
+	[Token(Token = "0x6002B57")]
+	[Address(RVA = "0x544D990", Offset = "0x544C990", VA = "0x544D990", Slot = "4")]
 	public virtual int GetFileLineNumber()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002B79")]
-	[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "5")]
+	[Token(Token = "0x6002B58")]
+	[Address(RVA = "0x544D9A0", Offset = "0x544C9A0", VA = "0x544D9A0", Slot = "5")]
 	public virtual string GetFileName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B7A")]
-	[Address(RVA = "0x1AC6DA0", Offset = "0x1AC53A0", VA = "0x181AC6DA0")]
+	[Token(Token = "0x6002B59")]
+	[Address(RVA = "0x544D9B0", Offset = "0x544C9B0", VA = "0x544D9B0")]
 	internal string GetSecureFileName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B7B")]
-	[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "6")]
+	[Token(Token = "0x6002B5A")]
+	[Address(RVA = "0x544DA80", Offset = "0x544CA80", VA = "0x544DA80", Slot = "6")]
 	public virtual int GetILOffset()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002B7C")]
-	[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "7")]
+	[Token(Token = "0x6002B5B")]
+	[Address(RVA = "0x544DA90", Offset = "0x544CA90", VA = "0x544DA90", Slot = "7")]
 	public virtual MethodBase GetMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B7D")]
-	[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "8")]
+	[Token(Token = "0x6002B5C")]
+	[Address(RVA = "0x544DAA0", Offset = "0x544CAA0", VA = "0x544DAA0", Slot = "8")]
 	public virtual int GetNativeOffset()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002B7E")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+	[Token(Token = "0x6002B5D")]
+	[Address(RVA = "0x544DAB0", Offset = "0x544CAB0", VA = "0x544DAB0")]
 	internal long GetMethodAddress()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6002B7F")]
-	[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+	[Token(Token = "0x6002B5E")]
+	[Address(RVA = "0x544DAC0", Offset = "0x544CAC0", VA = "0x544DAC0")]
 	internal uint GetMethodIndex()
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6002B80")]
-	[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+	[Token(Token = "0x6002B5F")]
+	[Address(RVA = "0x544DAD0", Offset = "0x544CAD0", VA = "0x544DAD0")]
 	internal string GetInternalMethodName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B81")]
-	[Address(RVA = "0x1AC6E00", Offset = "0x1AC5400", VA = "0x181AC6E00", Slot = "3")]
+	[Token(Token = "0x6002B60")]
+	[Address(RVA = "0x544DAE0", Offset = "0x544CAE0", VA = "0x544DAE0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

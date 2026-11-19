@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000262")]
+[Token(Token = "0x2000263")]
 public abstract class ConvertBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x1700025F")]
+	[Token(Token = "0x17000261")]
 	public Type Type
 	{
-		[Token(Token = "0x6000BC3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000BCE")]
+		[Address(RVA = "0x5E1E820", Offset = "0x5E1D820", VA = "0x5E1E820")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,18 +25,18 @@ public abstract class ConvertBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x6000BC4")]
-	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700")]
+	[Token(Token = "0x6000BCF")]
+	[Address(RVA = "0x5E1E830", Offset = "0x5E1D830", VA = "0x5E1E830")]
 	public DynamicMetaObject FallbackConvert(DynamicMetaObject target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BC5")]
+	[Token(Token = "0x6000BD0")]
 	public abstract DynamicMetaObject FallbackConvert(DynamicMetaObject target, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000BC6")]
-	[Address(RVA = "0x2469350", Offset = "0x2467950", VA = "0x182469350", Slot = "7")]
+	[Token(Token = "0x6000BD1")]
+	[Address(RVA = "0x5E1E850", Offset = "0x5E1D850", VA = "0x5E1E850", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

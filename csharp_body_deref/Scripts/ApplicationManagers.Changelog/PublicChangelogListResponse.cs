@@ -11,83 +11,83 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Changelog;
 
-[Token(Token = "0x200093C")]
+[Token(Token = "0x20009A3")]
 public sealed class PublicChangelogListResponse
 {
-	[Token(Token = "0x17000F95")]
+	[Token(Token = "0x17000F74")]
 	public int Total
 	{
-		[Token(Token = "0x6005674")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60059CD")]
+		[Address(RVA = "0x5D24CB0", Offset = "0x5D23CB0", VA = "0x5D24CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6005675")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x60059CE")]
+		[Address(RVA = "0x5D24CC0", Offset = "0x5D23CC0", VA = "0x5D24CC0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F96")]
+	[Token(Token = "0x17000F75")]
 	public int Page
 	{
-		[Token(Token = "0x6005676")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Token(Token = "0x60059CF")]
+		[Address(RVA = "0x5D24CD0", Offset = "0x5D23CD0", VA = "0x5D24CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6005677")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Token(Token = "0x60059D0")]
+		[Address(RVA = "0x5D24CE0", Offset = "0x5D23CE0", VA = "0x5D24CE0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F97")]
+	[Token(Token = "0x17000F76")]
 	public int PageSize
 	{
-		[Token(Token = "0x6005678")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x60059D1")]
+		[Address(RVA = "0x5D24CF0", Offset = "0x5D23CF0", VA = "0x5D24CF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6005679")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x60059D2")]
+		[Address(RVA = "0x5D24D00", Offset = "0x5D23D00", VA = "0x5D24D00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F98")]
+	[Token(Token = "0x17000F77")]
 	public IReadOnlyList<ChangelogSummaryResponse> Entries
 	{
-		[Token(Token = "0x600567A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60059D3")]
+		[Address(RVA = "0x5D24D10", Offset = "0x5D23D10", VA = "0x5D24D10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600567B")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60059D4")]
+		[Address(RVA = "0x5D24D20", Offset = "0x5D23D20", VA = "0x5D24D20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6005673")]
-	[Address(RVA = "0x2371AD0", Offset = "0x23700D0", VA = "0x182371AD0")]
+	[Token(Token = "0x60059CC")]
+	[Address(RVA = "0x5D24C10", Offset = "0x5D23C10", VA = "0x5D24C10")]
 	public PublicChangelogListResponse(int total, int page, int pageSize, ChangelogSummaryResponse[] entries)
 	{
 	}

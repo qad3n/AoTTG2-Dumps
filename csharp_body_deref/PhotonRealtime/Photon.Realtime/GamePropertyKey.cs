@@ -46,7 +46,7 @@ public class GamePropertyKey
 	public const byte EmptyRoomTtl = 245;
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB500", Offset = "0x56BA500", VA = "0x56BB500")]
 	public GamePropertyKey()
 	{
 	}

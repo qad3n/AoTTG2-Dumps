@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001B8")]
+[Token(Token = "0x20001B9")]
 internal readonly struct LocalDefinition
 {
-	[Token(Token = "0x170001FA")]
+	[Token(Token = "0x170001FC")]
 	public int Index
 	{
-		[Token(Token = "0x60009A4")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Token(Token = "0x60009AF")]
+		[Address(RVA = "0x5E0CBD0", Offset = "0x5E0BBD0", VA = "0x5E0CBD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ internal readonly struct LocalDefinition
 		}
 	}
 
-	[Token(Token = "0x170001FB")]
+	[Token(Token = "0x170001FD")]
 	public ParameterExpression Parameter
 	{
-		[Token(Token = "0x60009A5")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x60009B0")]
+		[Address(RVA = "0x5E0CBE0", Offset = "0x5E0BBE0", VA = "0x5E0CBE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,21 +37,21 @@ internal readonly struct LocalDefinition
 		}
 	}
 
-	[Token(Token = "0x60009A3")]
-	[Address(RVA = "0x1028B90", Offset = "0x1027190", VA = "0x181028B90")]
+	[Token(Token = "0x60009AE")]
+	[Address(RVA = "0x5E0CBB0", Offset = "0x5E0BBB0", VA = "0x5E0CBB0")]
 	internal LocalDefinition(int localIndex, ParameterExpression parameter)
 	{
 	}
 
-	[Token(Token = "0x60009A6")]
-	[Address(RVA = "0x2473010", Offset = "0x2471610", VA = "0x182473010", Slot = "0")]
+	[Token(Token = "0x60009B1")]
+	[Address(RVA = "0x5E0CBF0", Offset = "0x5E0BBF0", VA = "0x5E0CBF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009A7")]
-	[Address(RVA = "0x24730A0", Offset = "0x24716A0", VA = "0x1824730A0", Slot = "2")]
+	[Token(Token = "0x60009B2")]
+	[Address(RVA = "0x5E0CC60", Offset = "0x5E0BC60", VA = "0x5E0CC60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

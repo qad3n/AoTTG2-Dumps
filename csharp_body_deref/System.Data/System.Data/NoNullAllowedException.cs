@@ -15,19 +15,19 @@ namespace System.Data;
 public class NoNullAllowedException : DataException
 {
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BD40", Offset = "0x5E6AD40", VA = "0x5E6BD40")]
 	protected NoNullAllowedException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x24E44B0", Offset = "0x24E2AB0", VA = "0x1824E44B0")]
+	[Address(RVA = "0x5E6BD50", Offset = "0x5E6AD50", VA = "0x5E6BD50")]
 	public NoNullAllowedException()
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x24E4490", Offset = "0x24E2A90", VA = "0x1824E4490")]
+	[Address(RVA = "0x5E6BD90", Offset = "0x5E6AD90", VA = "0x5E6BD90")]
 	public NoNullAllowedException(string s)
 	{
 	}

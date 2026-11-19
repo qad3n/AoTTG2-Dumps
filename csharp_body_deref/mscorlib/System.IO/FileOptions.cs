@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000668")]
+[Token(Token = "0x2000641")]
 [Flags]
 public enum FileOptions
 {
-	[Token(Token = "0x40019A3")]
+	[Token(Token = "0x4001906")]
 	None = 0,
-	[Token(Token = "0x40019A4")]
+	[Token(Token = "0x4001907")]
 	WriteThrough = -2147483648,
-	[Token(Token = "0x40019A5")]
+	[Token(Token = "0x4001908")]
 	Asynchronous = 0x40000000,
-	[Token(Token = "0x40019A6")]
+	[Token(Token = "0x4001909")]
 	RandomAccess = 0x10000000,
-	[Token(Token = "0x40019A7")]
+	[Token(Token = "0x400190A")]
 	DeleteOnClose = 0x4000000,
-	[Token(Token = "0x40019A8")]
+	[Token(Token = "0x400190B")]
 	SequentialScan = 0x8000000,
-	[Token(Token = "0x40019A9")]
+	[Token(Token = "0x400190C")]
 	Encrypted = 0x4000
 }

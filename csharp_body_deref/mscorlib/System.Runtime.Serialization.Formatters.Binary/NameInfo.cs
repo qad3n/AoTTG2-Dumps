@@ -9,96 +9,96 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200045C")]
+[Token(Token = "0x2000435")]
 internal sealed class NameInfo
 {
-	[Token(Token = "0x4001216")]
+	[Token(Token = "0x4001176")]
 	[FieldOffset(Offset = "0x10")]
 	internal string NIFullName;
 
-	[Token(Token = "0x4001217")]
+	[Token(Token = "0x4001177")]
 	[FieldOffset(Offset = "0x18")]
 	internal long NIobjectId;
 
-	[Token(Token = "0x4001218")]
+	[Token(Token = "0x4001178")]
 	[FieldOffset(Offset = "0x20")]
 	internal long NIassemId;
 
-	[Token(Token = "0x4001219")]
+	[Token(Token = "0x4001179")]
 	[FieldOffset(Offset = "0x28")]
 	internal System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE NIprimitiveTypeEnum;
 
-	[Token(Token = "0x400121A")]
+	[Token(Token = "0x400117A")]
 	[FieldOffset(Offset = "0x30")]
 	internal Type NItype;
 
-	[Token(Token = "0x400121B")]
+	[Token(Token = "0x400117B")]
 	[FieldOffset(Offset = "0x38")]
 	internal bool NIisSealed;
 
-	[Token(Token = "0x400121C")]
+	[Token(Token = "0x400117C")]
 	[FieldOffset(Offset = "0x39")]
 	internal bool NIisArray;
 
-	[Token(Token = "0x400121D")]
+	[Token(Token = "0x400117D")]
 	[FieldOffset(Offset = "0x3A")]
 	internal bool NIisArrayItem;
 
-	[Token(Token = "0x400121E")]
+	[Token(Token = "0x400117E")]
 	[FieldOffset(Offset = "0x3B")]
 	internal bool NItransmitTypeOnObject;
 
-	[Token(Token = "0x400121F")]
+	[Token(Token = "0x400117F")]
 	[FieldOffset(Offset = "0x3C")]
 	internal bool NItransmitTypeOnMember;
 
-	[Token(Token = "0x4001220")]
+	[Token(Token = "0x4001180")]
 	[FieldOffset(Offset = "0x3D")]
 	internal bool NIisParentTypeOnObject;
 
-	[Token(Token = "0x4001221")]
+	[Token(Token = "0x4001181")]
 	[FieldOffset(Offset = "0x40")]
 	internal System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum;
 
-	[Token(Token = "0x4001222")]
+	[Token(Token = "0x4001182")]
 	[FieldOffset(Offset = "0x44")]
 	private bool NIsealedStatusChecked;
 
-	[Token(Token = "0x1700045D")]
+	[Token(Token = "0x1700045C")]
 	public bool IsSealed
 	{
-		[Token(Token = "0x6002212")]
-		[Address(RVA = "0x1A2E080", Offset = "0x1A2C680", VA = "0x181A2E080")]
+		[Token(Token = "0x60021E8")]
+		[Address(RVA = "0x53BBCF0", Offset = "0x53BACF0", VA = "0x53BBCF0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700045E")]
+	[Token(Token = "0x1700045D")]
 	public string NIname
 	{
-		[Token(Token = "0x6002213")]
-		[Address(RVA = "0x1A2E0C0", Offset = "0x1A2C6C0", VA = "0x181A2E0C0")]
+		[Token(Token = "0x60021E9")]
+		[Address(RVA = "0x53C3950", Offset = "0x53C2950", VA = "0x53C3950")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002214")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x60021EA")]
+		[Address(RVA = "0x53C39A0", Offset = "0x53C29A0", VA = "0x53C39A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002210")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60021E6")]
+	[Address(RVA = "0x53BC170", Offset = "0x53BB170", VA = "0x53BC170")]
 	internal NameInfo()
 	{
 	}
 
-	[Token(Token = "0x6002211")]
-	[Address(RVA = "0x1A2E020", Offset = "0x1A2C620", VA = "0x181A2E020")]
+	[Token(Token = "0x60021E7")]
+	[Address(RVA = "0x53BC0A0", Offset = "0x53BB0A0", VA = "0x53BC0A0")]
 	internal void Init()
 	{
 	}

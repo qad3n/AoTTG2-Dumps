@@ -16,362 +16,380 @@ using Utility;
 
 namespace Cameras;
 
-[Token(Token = "0x2000889")]
+[Token(Token = "0x20008EF")]
 internal class InGameCamera : BaseCamera
 {
-	[Token(Token = "0x200088A")]
+	[Token(Token = "0x20008F0")]
 	public enum SpecateMode
 	{
-		[Token(Token = "0x4002ABE")]
+		[Token(Token = "0x4002D66")]
 		LiveSpectate,
-		[Token(Token = "0x4002ABF")]
+		[Token(Token = "0x4002D67")]
 		OrbitSpectate,
-		[Token(Token = "0x4002AC0")]
+		[Token(Token = "0x4002D68")]
 		FreeCam
 	}
 
-	[Token(Token = "0x4002AA1")]
+	[Token(Token = "0x4002D49")]
 	[FieldOffset(Offset = "0x38")]
 	public BaseCharacter _follow;
 
-	[Token(Token = "0x4002AA2")]
+	[Token(Token = "0x4002D4A")]
 	[FieldOffset(Offset = "0x40")]
 	public Cycle<SpecateMode> SpecMode;
 
-	[Token(Token = "0x4002AA3")]
+	[Token(Token = "0x4002D4B")]
 	[FieldOffset(Offset = "0x48")]
 	private InGameManager _inGameManager;
 
-	[Token(Token = "0x4002AA4")]
+	[Token(Token = "0x4002D4C")]
 	[FieldOffset(Offset = "0x50")]
 	private InGameMenu _menu;
 
-	[Token(Token = "0x4002AA5")]
+	[Token(Token = "0x4002D4D")]
 	[FieldOffset(Offset = "0x58")]
 	private GeneralInputSettings _input;
 
-	[Token(Token = "0x4002AA6")]
+	[Token(Token = "0x4002D4E")]
 	[FieldOffset(Offset = "0x60")]
 	private CameraDetection _detection;
 
-	[Token(Token = "0x4002AA7")]
+	[Token(Token = "0x4002D4F")]
 	[FieldOffset(Offset = "0x68")]
 	public CameraInputMode CurrentCameraMode;
 
-	[Token(Token = "0x4002AA8")]
+	[Token(Token = "0x4002D50")]
 	[FieldOffset(Offset = "0x6C")]
 	public float _cameraDistance;
 
-	[Token(Token = "0x4002AA9")]
+	[Token(Token = "0x4002D51")]
 	[FieldOffset(Offset = "0x70")]
 	private float _titanZoom;
 
-	[Token(Token = "0x4002AAA")]
+	[Token(Token = "0x4002D52")]
 	private const float TitanZoomStep = 0.1f;
 
-	[Token(Token = "0x4002AAB")]
+	[Token(Token = "0x4002D53")]
 	private const float MinTitanZoomDistance = 0.3f;
 
-	[Token(Token = "0x4002AAC")]
+	[Token(Token = "0x4002D54")]
 	private const float MaxTitanZoomDistance = 2f;
 
-	[Token(Token = "0x4002AAD")]
+	[Token(Token = "0x4002D55")]
 	[FieldOffset(Offset = "0x74")]
 	private float _occlusionRadius;
 
-	[Token(Token = "0x4002AAE")]
+	[Token(Token = "0x4002D56")]
 	private const float OcclusionRadiusFactor = 0.45f;
 
-	[Token(Token = "0x4002AAF")]
+	[Token(Token = "0x4002D57")]
 	[FieldOffset(Offset = "0x78")]
 	private float _heightDistance;
 
-	[Token(Token = "0x4002AB0")]
+	[Token(Token = "0x4002D58")]
 	[FieldOffset(Offset = "0x7C")]
 	private float _anchorDistance;
 
-	[Token(Token = "0x4002AB1")]
+	[Token(Token = "0x4002D59")]
 	private const float DistanceMultiplier = 10f;
 
-	[Token(Token = "0x4002AB2")]
+	[Token(Token = "0x4002D5A")]
 	[FieldOffset(Offset = "0x80")]
 	private bool _napeLock;
 
-	[Token(Token = "0x4002AB3")]
+	[Token(Token = "0x4002D5B")]
 	[FieldOffset(Offset = "0x88")]
 	private BaseTitan _napeLockTitan;
 
-	[Token(Token = "0x4002AB4")]
+	[Token(Token = "0x4002D5C")]
 	[FieldOffset(Offset = "0x90")]
 	private SnapshotHandler _snapshotHandler;
 
-	[Token(Token = "0x4002AB5")]
+	[Token(Token = "0x4002D5D")]
 	private const float ShakeDistance = 10f;
 
-	[Token(Token = "0x4002AB6")]
+	[Token(Token = "0x4002D5E")]
 	private const float ShakeDuration = 1f;
 
-	[Token(Token = "0x4002AB7")]
+	[Token(Token = "0x4002D5F")]
 	private const float ShakeDecay = 0.15f;
 
-	[Token(Token = "0x4002AB8")]
+	[Token(Token = "0x4002D60")]
 	[FieldOffset(Offset = "0x98")]
 	private bool _shakeFlip;
 
-	[Token(Token = "0x4002AB9")]
+	[Token(Token = "0x4002D61")]
 	[FieldOffset(Offset = "0x9C")]
 	private float _shakeTimeLeft;
 
-	[Token(Token = "0x4002ABA")]
+	[Token(Token = "0x4002D62")]
 	[FieldOffset(Offset = "0xA0")]
 	private float _currentShakeDistance;
 
-	[Token(Token = "0x4002ABB")]
+	[Token(Token = "0x4002D63")]
 	[FieldOffset(Offset = "0x0")]
 	private static LayerMask _clipMask;
 
-	[Token(Token = "0x4002ABC")]
+	[Token(Token = "0x4002D64")]
 	[FieldOffset(Offset = "0xA4")]
 	private float _lastChangeSpectateID;
 
-	[Token(Token = "0x17000EF0")]
+	[Token(Token = "0x17000ECF")]
 	public bool UsesMouseLook
 	{
-		[Token(Token = "0x60051BE")]
-		[Address(RVA = "0x22F5BF0", Offset = "0x22F41F0", VA = "0x1822F5BF0")]
+		[Token(Token = "0x60054F6")]
+		[Address(RVA = "0x5CCFDF0", Offset = "0x5CCEDF0", VA = "0x5CCFDF0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60051BF")]
-	[Address(RVA = "0x22F1AE0", Offset = "0x22F00E0", VA = "0x1822F1AE0")]
+	[Token(Token = "0x60054F7")]
+	[Address(RVA = "0x5CCFEF0", Offset = "0x5CCEEF0", VA = "0x5CCFEF0")]
 	internal static bool ShouldUseMouseLook(CameraInputMode mode, bool originalWOWRotation, bool rotateHeld)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60051C0")]
-	[Address(RVA = "0x22EF890", Offset = "0x22EDE90", VA = "0x1822EF890")]
+	[Token(Token = "0x60054F8")]
+	[Address(RVA = "0x5CCFF20", Offset = "0x5CCEF20", VA = "0x5CCFF20")]
 	private bool CheckSpectateRateLimit()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60051C1")]
-	[Address(RVA = "0x12BF1F0", Offset = "0x12BD7F0", VA = "0x1812BF1F0")]
+	[Token(Token = "0x60054F9")]
+	[Address(RVA = "0x5CCFF80", Offset = "0x5CCEF80", VA = "0x5CCFF80")]
 	public void SetCameraDistance(float distance)
 	{
 	}
 
-	[Token(Token = "0x60051C2")]
-	[Address(RVA = "0x22EF490", Offset = "0x22EDA90", VA = "0x1822EF490")]
+	[Token(Token = "0x60054FA")]
+	[Address(RVA = "0x5CCFF90", Offset = "0x5CCEF90", VA = "0x5CCFF90")]
 	public void ApplyGraphicsSettings()
 	{
 	}
 
-	[Token(Token = "0x60051C3")]
-	[Address(RVA = "0x22EF2E0", Offset = "0x22ED8E0", VA = "0x1822EF2E0")]
+	[Token(Token = "0x60054FB")]
+	[Address(RVA = "0x5CD0050", Offset = "0x5CCF050", VA = "0x5CD0050")]
 	public void ApplyGeneralSettings()
 	{
 	}
 
-	[Token(Token = "0x60051C4")]
-	[Address(RVA = "0x22F0E80", Offset = "0x22EF480", VA = "0x1822F0E80")]
+	[Token(Token = "0x60054FC")]
+	[Address(RVA = "0x5CD00C0", Offset = "0x5CCF0C0", VA = "0x5CD00C0")]
 	public void ResetDistance()
 	{
 	}
 
-	[Token(Token = "0x60051C5")]
-	[Address(RVA = "0x22F0E10", Offset = "0x22EF410", VA = "0x1822F0E10")]
+	[Token(Token = "0x60054FD")]
+	[Address(RVA = "0x5CD0210", Offset = "0x5CCF210", VA = "0x5CD0210")]
 	public void ResetCameraMode()
 	{
 	}
 
-	[Token(Token = "0x60051C6")]
-	[Address(RVA = "0x22F0D60", Offset = "0x22EF360", VA = "0x1822F0D60")]
+	[Token(Token = "0x60054FE")]
+	[Address(RVA = "0x5CD0270", Offset = "0x5CCF270", VA = "0x5CD0270")]
+	private void SetCameraMode(CameraInputMode mode)
+	{
+	}
+
+	[Token(Token = "0x60054FF")]
+	[Address(RVA = "0x5CD0280", Offset = "0x5CCF280", VA = "0x5CD0280")]
 	internal static CameraInputMode NextCameraMode(CameraInputMode current, CameraInputMode selected)
 	{
 		return default(CameraInputMode);
 	}
 
-	[Token(Token = "0x60051C7")]
-	[Address(RVA = "0x22EF9B0", Offset = "0x22EDFB0", VA = "0x1822EF9B0")]
+	[Token(Token = "0x6005500")]
+	[Address(RVA = "0x5CD02B0", Offset = "0x5CCF2B0", VA = "0x5CD02B0")]
 	public float GetCameraDistance()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60051C8")]
-	[Address(RVA = "0x22F1B10", Offset = "0x22F0110", VA = "0x1822F1B10")]
+	[Token(Token = "0x6005501")]
+	[Address(RVA = "0x5CD03C0", Offset = "0x5CCF3C0", VA = "0x5CD03C0")]
 	public void StartShake()
 	{
 	}
 
-	[Token(Token = "0x60051C9")]
-	[Address(RVA = "0x22F0FD0", Offset = "0x22EF5D0", VA = "0x1822F0FD0", Slot = "6")]
+	[Token(Token = "0x6005502")]
+	[Address(RVA = "0x5CD03E0", Offset = "0x5CCF3E0", VA = "0x5CD03E0", Slot = "6")]
 	protected override void SetDefaultCameraPosition()
 	{
 	}
 
-	[Token(Token = "0x60051CA")]
-	[Address(RVA = "0x22F1220", Offset = "0x22EF820", VA = "0x1822F1220")]
+	[Token(Token = "0x6005503")]
+	[Address(RVA = "0x5CD05E0", Offset = "0x5CCF5E0", VA = "0x5CD05E0")]
 	public void SetFollow(BaseCharacter character, bool resetRotation = true)
 	{
 	}
 
-	[Token(Token = "0x60051CB")]
-	[Address(RVA = "0x22EF550", Offset = "0x22EDB50", VA = "0x1822EF550", Slot = "4")]
+	[Token(Token = "0x6005504")]
+	[Address(RVA = "0x5CD0E00", Offset = "0x5CCFE00", VA = "0x5CD0E00", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60051CC")]
-	[Address(RVA = "0x22F1EA0", Offset = "0x22F04A0", VA = "0x1822F1EA0")]
+	[Token(Token = "0x6005505")]
+	[Address(RVA = "0x5CD0F40", Offset = "0x5CCFF40", VA = "0x5CD0F40")]
 	public void TakeSnapshot(Vector3 position, int damage)
 	{
 	}
 
-	[Token(Token = "0x60051CD")]
-	[Address(RVA = "0x22F1B30", Offset = "0x22F0130", VA = "0x1822F1B30")]
+	[Token(Token = "0x6005506")]
+	[Address(RVA = "0x5CD0FE0", Offset = "0x5CCFFE0", VA = "0x5CD0FE0")]
 	protected void Start()
 	{
 	}
 
-	[Token(Token = "0x60051CE")]
-	[Address(RVA = "0x22F1D20", Offset = "0x22F0320", VA = "0x1822F1D20")]
+	[Token(Token = "0x6005507")]
+	[Address(RVA = "0x5CD11A0", Offset = "0x5CD01A0", VA = "0x5CD11A0")]
 	public void SyncCustomPosition()
 	{
 	}
 
-	[Token(Token = "0x60051CF")]
-	[Address(RVA = "0x22F4020", Offset = "0x22F2620", VA = "0x1822F4020")]
+	[Token(Token = "0x6005508")]
+	[Address(RVA = "0x5CD12E0", Offset = "0x5CD02E0", VA = "0x5CD12E0")]
 	private void UpdateMapLights()
 	{
 	}
 
-	[Token(Token = "0x60051D0")]
-	[Address(RVA = "0x22EF970", Offset = "0x22EDF70", VA = "0x1822EF970")]
+	[Token(Token = "0x6005509")]
+	[Address(RVA = "0x5CD14F0", Offset = "0x5CD04F0", VA = "0x5CD14F0")]
 	protected void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x60051D1")]
-	[Address(RVA = "0x22F0680", Offset = "0x22EEC80", VA = "0x1822F0680", Slot = "7")]
+	[Token(Token = "0x600550A")]
+	[Address(RVA = "0x5CD1520", Offset = "0x5CD0520", VA = "0x5CD1520", Slot = "7")]
 	protected override void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60051D2")]
-	[Address(RVA = "0x22F47B0", Offset = "0x22F2DB0", VA = "0x1822F47B0")]
+	[Token(Token = "0x600550B")]
+	[Address(RVA = "0x5CD3F00", Offset = "0x5CD2F00", VA = "0x5CD3F00")]
 	private void UpdateOcclusion()
 	{
 	}
 
-	[Token(Token = "0x60051D3")]
-	[Address(RVA = "0x22F0D90", Offset = "0x22EF390", VA = "0x1822F0D90")]
+	[Token(Token = "0x600550C")]
+	[Address(RVA = "0x5CD47C0", Offset = "0x5CD37C0", VA = "0x5CD47C0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60051D4")]
-	[Address(RVA = "0x22F0DD0", Offset = "0x22EF3D0", VA = "0x1822F0DD0")]
+	[Token(Token = "0x600550D")]
+	[Address(RVA = "0x5CD4820", Offset = "0x5CD3820", VA = "0x5CD4820")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x60051D5")]
-	[Address(RVA = "0x22F4220", Offset = "0x22F2820", VA = "0x1822F4220")]
+	[Token(Token = "0x600550E")]
+	[Address(RVA = "0x5CD4550", Offset = "0x5CD3550", VA = "0x5CD4550")]
 	private void UpdateNapeLockImage()
 	{
 	}
 
-	[Token(Token = "0x60051D6")]
-	[Address(RVA = "0x22F2940", Offset = "0x22F0F40", VA = "0x1822F2940")]
+	[Token(Token = "0x600550F")]
+	[Address(RVA = "0x5CD1B20", Offset = "0x5CD0B20", VA = "0x5CD1B20")]
 	private void UpdateMain()
 	{
 	}
 
-	[Token(Token = "0x60051D7")]
-	[Address(RVA = "0x22F4D70", Offset = "0x22F3370", VA = "0x1822F4D70")]
+	[Token(Token = "0x6005510")]
+	[Address(RVA = "0x5CD2C10", Offset = "0x5CD1C10", VA = "0x5CD2C10")]
 	private void UpdateSpectate()
 	{
 	}
 
-	[Token(Token = "0x60051D8")]
-	[Address(RVA = "0x22F22C0", Offset = "0x22F08C0", VA = "0x1822F22C0")]
+	[Token(Token = "0x6005511")]
+	[Address(RVA = "0x5CD3920", Offset = "0x5CD2920", VA = "0x5CD3920")]
 	private void UpdateFreeCam()
 	{
 	}
 
-	[Token(Token = "0x60051D9")]
-	[Address(RVA = "0x22F5970", Offset = "0x22F3F70", VA = "0x1822F5970")]
+	[Token(Token = "0x6005512")]
+	[Address(RVA = "0x5CD4880", Offset = "0x5CD3880", VA = "0x5CD4880")]
 	private void UpdateTitanZoom()
 	{
 	}
 
-	[Token(Token = "0x60051DA")]
-	[Address(RVA = "0x22EFAE0", Offset = "0x22EE0E0", VA = "0x1822EFAE0")]
+	[Token(Token = "0x6005513")]
+	[Address(RVA = "0x5CD4EE0", Offset = "0x5CD3EE0", VA = "0x5CD4EE0")]
 	private float GetHeightDistance()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60051DB")]
-	[Address(RVA = "0x22F44C0", Offset = "0x22F2AC0", VA = "0x1822F44C0")]
+	[Token(Token = "0x6005514")]
+	[Address(RVA = "0x5CD3620", Offset = "0x5CD2620", VA = "0x5CD3620")]
 	private void UpdateObstacles()
 	{
 	}
 
-	[Token(Token = "0x60051DC")]
-	[Address(RVA = "0x22F1F40", Offset = "0x22F0540", VA = "0x1822F1F40")]
+	[Token(Token = "0x6005515")]
+	[Address(RVA = "0x5CD4150", Offset = "0x5CD3150", VA = "0x5CD4150")]
 	private void UpdateFOV()
 	{
 	}
 
-	[Token(Token = "0x60051DD")]
-	[Address(RVA = "0x22EF8E0", Offset = "0x22EDEE0", VA = "0x1822EF8E0")]
+	[Token(Token = "0x6005516")]
+	[Address(RVA = "0x5CD1AA0", Offset = "0x5CD0AA0", VA = "0x5CD1AA0")]
 	private void FindNextSpectate()
 	{
 	}
 
-	[Token(Token = "0x60051DE")]
-	[Address(RVA = "0x22F0580", Offset = "0x22EEB80", VA = "0x1822F0580")]
+	[Token(Token = "0x6005517")]
+	[Address(RVA = "0x5CD5950", Offset = "0x5CD4950", VA = "0x5CD5950")]
 	private int GetSpectateIndex(List<BaseCharacter> characters)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60051DF")]
-	[Address(RVA = "0x22F0030", Offset = "0x22EE630", VA = "0x1822F0030")]
+	[Token(Token = "0x6005518")]
+	[Address(RVA = "0x5CD4FA0", Offset = "0x5CD3FA0", VA = "0x5CD4FA0")]
 	private float GetSensitivityDeltaTime(float sensitivity)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60051E0")]
-	[Address(RVA = "0x22EFBB0", Offset = "0x22EE1B0", VA = "0x1822EFBB0")]
+	[Token(Token = "0x6005519")]
+	[Address(RVA = "0x5CD4FC0", Offset = "0x5CD3FC0", VA = "0x5CD4FC0")]
+	private void GetLookInput(float sensitivity, int invertY, out float inputX, out float inputY)
+	{
+	}
+
+	[Token(Token = "0x600551A")]
+	[Address(RVA = "0x5CD5A50", Offset = "0x5CD4A50", VA = "0x5CD5A50")]
+	private void GetFreeCamLookInput(float camSpeed, out float inputX, out float inputY)
+	{
+	}
+
+	[Token(Token = "0x600551B")]
+	[Address(RVA = "0x5CD49B0", Offset = "0x5CD39B0", VA = "0x5CD49B0")]
 	private BaseTitan GetNearestTitan()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60051E1")]
-	[Address(RVA = "0x22F0060", Offset = "0x22EE660", VA = "0x1822F0060")]
+	[Token(Token = "0x600551C")]
+	[Address(RVA = "0x5CD5210", Offset = "0x5CD4210", VA = "0x5CD5210")]
 	private List<BaseCharacter> GetSortedCharacters()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60051E2")]
-	[Address(RVA = "0x22F4BA0", Offset = "0x22F31A0", VA = "0x1822F4BA0")]
+	[Token(Token = "0x600551D")]
+	[Address(RVA = "0x5CD5060", Offset = "0x5CD4060", VA = "0x5CD5060")]
 	private void UpdateShake()
 	{
 	}
 
-	[Token(Token = "0x60051E3")]
-	[Address(RVA = "0x22F5B70", Offset = "0x22F4170", VA = "0x1822F5B70")]
+	[Token(Token = "0x600551E")]
+	[Address(RVA = "0x5CD5AD0", Offset = "0x5CD4AD0", VA = "0x5CD5AD0")]
 	public InGameCamera()
 	{
 	}

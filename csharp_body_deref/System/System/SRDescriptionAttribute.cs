@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x2000097")]
 [AttributeUsage(AttributeTargets.All)]
 internal class SRDescriptionAttribute : DescriptionAttribute
 {
-	[Token(Token = "0x400032E")]
+	[Token(Token = "0x400025F")]
 	[FieldOffset(Offset = "0x18")]
 	private bool isReplaced;
 
-	[Token(Token = "0x170000B6")]
+	[Token(Token = "0x17000087")]
 	public override string Description
 	{
-		[Token(Token = "0x600044C")]
-		[Address(RVA = "0x285F850", Offset = "0x285DE50", VA = "0x18285F850", Slot = "7")]
+		[Token(Token = "0x6000298")]
+		[Address(RVA = "0x61DC880", Offset = "0x61DB880", VA = "0x61DC880", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x285F7F0", Offset = "0x285DDF0", VA = "0x18285F7F0")]
+	[Token(Token = "0x6000297")]
+	[Address(RVA = "0x61DC820", Offset = "0x61DB820", VA = "0x61DC820")]
 	public SRDescriptionAttribute(string description)
 	{
 	}

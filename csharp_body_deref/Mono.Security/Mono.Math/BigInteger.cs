@@ -4,66 +4,66 @@ using Il2CppDummyDll;
 
 namespace Mono.Math;
 
-[Token(Token = "0x2000055")]
+[Token(Token = "0x2000042")]
 public class BigInteger
 {
-	[Token(Token = "0x2000056")]
+	[Token(Token = "0x2000043")]
 	public enum Sign
 	{
-		[Token(Token = "0x400024C")]
+		[Token(Token = "0x4000242")]
 		Negative = -1,
-		[Token(Token = "0x400024D")]
+		[Token(Token = "0x4000243")]
 		Zero,
-		[Token(Token = "0x400024E")]
+		[Token(Token = "0x4000244")]
 		Positive
 	}
 
-	[Token(Token = "0x2000057")]
+	[Token(Token = "0x2000044")]
 	public sealed class ModulusRing
 	{
-		[Token(Token = "0x400024F")]
+		[Token(Token = "0x4000245")]
 		[FieldOffset(Offset = "0x10")]
 		private BigInteger mod;
 
-		[Token(Token = "0x4000250")]
+		[Token(Token = "0x4000246")]
 		[FieldOffset(Offset = "0x18")]
 		private BigInteger constant;
 
-		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x1936FB0", Offset = "0x19355B0", VA = "0x181936FB0")]
+		[Token(Token = "0x60001E0")]
+		[Address(RVA = "0x52D49C0", Offset = "0x52D39C0", VA = "0x52D49C0")]
 		public ModulusRing(BigInteger modulus)
 		{
 		}
 
-		[Token(Token = "0x6000210")]
-		[Address(RVA = "0x1936470", Offset = "0x1934A70", VA = "0x181936470")]
+		[Token(Token = "0x60001E1")]
+		[Address(RVA = "0x52D4DA0", Offset = "0x52D3DA0", VA = "0x52D4DA0")]
 		public void BarrettReduction(BigInteger x)
 		{
 		}
 
-		[Token(Token = "0x6000211")]
-		[Address(RVA = "0x1936AF0", Offset = "0x19350F0", VA = "0x181936AF0")]
+		[Token(Token = "0x60001E2")]
+		[Address(RVA = "0x52D5730", Offset = "0x52D4730", VA = "0x52D5730")]
 		public BigInteger Multiply(BigInteger a, BigInteger b)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000212")]
-		[Address(RVA = "0x19368E0", Offset = "0x1934EE0", VA = "0x1819368E0")]
+		[Token(Token = "0x60001E3")]
+		[Address(RVA = "0x52D58D0", Offset = "0x52D48D0", VA = "0x52D58D0")]
 		public BigInteger Difference(BigInteger a, BigInteger b)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x1936E30", Offset = "0x1935430", VA = "0x181936E30")]
+		[Token(Token = "0x60001E4")]
+		[Address(RVA = "0x52D4B20", Offset = "0x52D3B20", VA = "0x52D4B20")]
 		public BigInteger Pow(BigInteger a, BigInteger k)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x1936DC0", Offset = "0x19353C0", VA = "0x181936DC0")]
+		[Token(Token = "0x60001E5")]
+		[Address(RVA = "0x52D5AA0", Offset = "0x52D4AA0", VA = "0x52D5AA0")]
 		[CLSCompliant(false)]
 		public BigInteger Pow(uint b, BigInteger exp)
 		{
@@ -71,429 +71,429 @@ public class BigInteger
 		}
 	}
 
-	[Token(Token = "0x2000058")]
+	[Token(Token = "0x2000045")]
 	private sealed class Kernel
 	{
-		[Token(Token = "0x6000215")]
-		[Address(RVA = "0x1931E30", Offset = "0x1930430", VA = "0x181931E30")]
+		[Token(Token = "0x60001E6")]
+		[Address(RVA = "0x52D2650", Offset = "0x52D1650", VA = "0x52D2650")]
 		public static BigInteger AddSameSign(BigInteger bi1, BigInteger bi2)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x1932F60", Offset = "0x1931560", VA = "0x181932F60")]
+		[Token(Token = "0x60001E7")]
+		[Address(RVA = "0x52D29D0", Offset = "0x52D19D0", VA = "0x52D29D0")]
 		public static BigInteger Subtract(BigInteger big, BigInteger small)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x1932730", Offset = "0x1930D30", VA = "0x181932730")]
+		[Token(Token = "0x60001E8")]
+		[Address(RVA = "0x52D5420", Offset = "0x52D4420", VA = "0x52D5420")]
 		public static void MinusEq(BigInteger big, BigInteger small)
 		{
 		}
 
-		[Token(Token = "0x6000218")]
-		[Address(RVA = "0x1932AB0", Offset = "0x19310B0", VA = "0x181932AB0")]
+		[Token(Token = "0x60001E9")]
+		[Address(RVA = "0x52D5540", Offset = "0x52D4540", VA = "0x52D5540")]
 		public static void PlusEq(BigInteger bi1, BigInteger bi2)
 		{
 		}
 
-		[Token(Token = "0x6000219")]
-		[Address(RVA = "0x1932070", Offset = "0x1930670", VA = "0x181932070")]
+		[Token(Token = "0x60001EA")]
+		[Address(RVA = "0x52D28C0", Offset = "0x52D18C0", VA = "0x52D28C0")]
 		public static Sign Compare(BigInteger bi1, BigInteger bi2)
 		{
 			return default(Sign);
 		}
 
-		[Token(Token = "0x600021A")]
-		[Address(RVA = "0x1932EB0", Offset = "0x19314B0", VA = "0x181932EB0")]
+		[Token(Token = "0x60001EB")]
+		[Address(RVA = "0x52D4080", Offset = "0x52D3080", VA = "0x52D4080")]
 		public static uint SingleByteDivideInPlace(BigInteger n, uint d)
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x600021B")]
-		[Address(RVA = "0x1930B80", Offset = "0x192F180", VA = "0x181930B80")]
+		[Token(Token = "0x60001EC")]
+		[Address(RVA = "0x52D2C00", Offset = "0x52D1C00", VA = "0x52D2C00")]
 		public static uint DwordMod(BigInteger n, uint d)
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x600021C")]
-		[Address(RVA = "0x19321C0", Offset = "0x19307C0", VA = "0x1819321C0")]
+		[Token(Token = "0x60001ED")]
+		[Address(RVA = "0x52D5B70", Offset = "0x52D4B70", VA = "0x52D5B70")]
 		public static BigInteger[] DwordDivMod(BigInteger n, uint d)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600021D")]
-		[Address(RVA = "0x1933BD0", Offset = "0x19321D0", VA = "0x181933BD0")]
+		[Token(Token = "0x60001EE")]
+		[Address(RVA = "0x52D2C80", Offset = "0x52D1C80", VA = "0x52D2C80")]
 		public static BigInteger[] multiByteDivide(BigInteger bi1, BigInteger bi2)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600021E")]
-		[Address(RVA = "0x1932430", Offset = "0x1930A30", VA = "0x181932430")]
+		[Token(Token = "0x60001EF")]
+		[Address(RVA = "0x52D3480", Offset = "0x52D2480", VA = "0x52D3480")]
 		public static BigInteger LeftShift(BigInteger bi, int n)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600021F")]
-		[Address(RVA = "0x1932C60", Offset = "0x1931260", VA = "0x181932C60")]
+		[Token(Token = "0x60001F0")]
+		[Address(RVA = "0x52D3720", Offset = "0x52D2720", VA = "0x52D3720")]
 		public static BigInteger RightShift(BigInteger bi, int n)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000220")]
-		[Address(RVA = "0x1932980", Offset = "0x1930F80", VA = "0x181932980")]
+		[Token(Token = "0x60001F1")]
+		[Address(RVA = "0x52D3390", Offset = "0x52D2390", VA = "0x52D3390")]
 		public static void Multiply(uint[] x, uint xOffset, uint xLen, uint[] y, uint yOffset, uint yLen, uint[] d, uint dOffset)
 		{
 		}
 
-		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x1932850", Offset = "0x1930E50", VA = "0x181932850")]
+		[Token(Token = "0x60001F2")]
+		[Address(RVA = "0x52D5330", Offset = "0x52D4330", VA = "0x52D5330")]
 		public static void MultiplyMod2p32pmod(uint[] x, int xOffset, int xLen, uint[] y, int yOffest, int yLen, uint[] d, int dOffset, int mod)
 		{
 		}
 
-		[Token(Token = "0x6000222")]
-		[Address(RVA = "0x1933160", Offset = "0x1931760", VA = "0x181933160")]
+		[Token(Token = "0x60001F3")]
+		[Address(RVA = "0x52D5DC0", Offset = "0x52D4DC0", VA = "0x52D5DC0")]
 		public static uint modInverse(BigInteger bi, uint modulus)
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x6000223")]
-		[Address(RVA = "0x1933280", Offset = "0x1931880", VA = "0x181933280")]
+		[Token(Token = "0x60001F4")]
+		[Address(RVA = "0x52D42E0", Offset = "0x52D32E0", VA = "0x52D42E0")]
 		public static BigInteger modInverse(BigInteger bi, BigInteger modulus)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000247")]
+	[Token(Token = "0x400023D")]
 	[FieldOffset(Offset = "0x10")]
 	private uint length;
 
-	[Token(Token = "0x4000248")]
+	[Token(Token = "0x400023E")]
 	[FieldOffset(Offset = "0x18")]
 	private uint[] data;
 
-	[Token(Token = "0x4000249")]
+	[Token(Token = "0x400023F")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly uint[] smallPrimes;
 
-	[Token(Token = "0x400024A")]
+	[Token(Token = "0x4000240")]
 	[FieldOffset(Offset = "0x8")]
 	private static RandomNumberGenerator rng;
 
-	[Token(Token = "0x17000088")]
+	[Token(Token = "0x17000085")]
 	private static RandomNumberGenerator Rng
 	{
-		[Token(Token = "0x60001F2")]
-		[Address(RVA = "0x1930470", Offset = "0x192EA70", VA = "0x181930470")]
+		[Token(Token = "0x60001C3")]
+		[Address(RVA = "0x52D3910", Offset = "0x52D2910", VA = "0x52D3910")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x1930000", Offset = "0x192E600", VA = "0x181930000")]
+	[Token(Token = "0x60001B4")]
+	[Address(RVA = "0x52D2300", Offset = "0x52D1300", VA = "0x52D2300")]
 	[CLSCompliant(false)]
 	public BigInteger(Sign sign, uint len)
 	{
 	}
 
-	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x192FF10", Offset = "0x192E510", VA = "0x18192FF10")]
+	[Token(Token = "0x60001B5")]
+	[Address(RVA = "0x52D2360", Offset = "0x52D1360", VA = "0x52D2360")]
 	public BigInteger(BigInteger bi)
 	{
 	}
 
-	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x19303A0", Offset = "0x192E9A0", VA = "0x1819303A0")]
+	[Token(Token = "0x60001B6")]
+	[Address(RVA = "0x52D2430", Offset = "0x52D1430", VA = "0x52D2430")]
 	[CLSCompliant(false)]
 	public BigInteger(BigInteger bi, uint len)
 	{
 	}
 
-	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x1930070", Offset = "0x192E670", VA = "0x181930070")]
+	[Token(Token = "0x60001B7")]
+	[Address(RVA = "0x52CDC70", Offset = "0x52CCC70", VA = "0x52CDC70")]
 	public BigInteger(byte[] inData)
 	{
 	}
 
-	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x1930310", Offset = "0x192E910", VA = "0x181930310")]
+	[Token(Token = "0x60001B8")]
+	[Address(RVA = "0x52D2550", Offset = "0x52D1550", VA = "0x52D2550")]
 	[CLSCompliant(false)]
 	public BigInteger(uint ui)
 	{
 	}
 
-	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x19308B0", Offset = "0x192EEB0", VA = "0x1819308B0")]
+	[Token(Token = "0x60001B9")]
+	[Address(RVA = "0x52CCB40", Offset = "0x52CBB40", VA = "0x52CCB40")]
 	[CLSCompliant(false)]
 	public static implicit operator BigInteger(uint value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x1930910", Offset = "0x192EF10", VA = "0x181930910")]
+	[Token(Token = "0x60001BA")]
+	[Address(RVA = "0x52CD130", Offset = "0x52CC130", VA = "0x52CD130")]
 	public static implicit operator BigInteger(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x1930550", Offset = "0x192EB50", VA = "0x181930550")]
+	[Token(Token = "0x60001BB")]
+	[Address(RVA = "0x52CDFB0", Offset = "0x52CCFB0", VA = "0x52CDFB0")]
 	public static BigInteger operator +(BigInteger bi1, BigInteger bi2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x1930F00", Offset = "0x192F500", VA = "0x181930F00")]
+	[Token(Token = "0x60001BC")]
+	[Address(RVA = "0x52CD230", Offset = "0x52CC230", VA = "0x52CD230")]
 	public static BigInteger operator -(BigInteger bi1, BigInteger bi2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x1930B80", Offset = "0x192F180", VA = "0x181930B80")]
+	[Token(Token = "0x60001BD")]
+	[Address(RVA = "0x52CCC60", Offset = "0x52CBC60", VA = "0x52CCC60")]
 	[CLSCompliant(false)]
 	public static uint operator %(BigInteger bi, uint ui)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x1930B50", Offset = "0x192F150", VA = "0x181930B50")]
+	[Token(Token = "0x60001BE")]
+	[Address(RVA = "0x52CD380", Offset = "0x52CC380", VA = "0x52CD380")]
 	public static BigInteger operator %(BigInteger bi1, BigInteger bi2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x19306F0", Offset = "0x192ECF0", VA = "0x1819306F0")]
+	[Token(Token = "0x60001BF")]
+	[Address(RVA = "0x52D3360", Offset = "0x52D2360", VA = "0x52D3360")]
 	public static BigInteger operator /(BigInteger bi1, BigInteger bi2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x1930BE0", Offset = "0x192F1E0", VA = "0x181930BE0")]
+	[Token(Token = "0x60001C0")]
+	[Address(RVA = "0x52CCD80", Offset = "0x52CBD80", VA = "0x52CCD80")]
 	public static BigInteger operator *(BigInteger bi1, BigInteger bi2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x1930B00", Offset = "0x192F100", VA = "0x181930B00")]
+	[Token(Token = "0x60001C1")]
+	[Address(RVA = "0x52D3470", Offset = "0x52D2470", VA = "0x52D3470")]
 	public static BigInteger operator <<(BigInteger bi1, int shiftVal)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x1930EF0", Offset = "0x192F4F0", VA = "0x181930EF0")]
+	[Token(Token = "0x60001C2")]
+	[Address(RVA = "0x52D3710", Offset = "0x52D2710", VA = "0x52D3710")]
 	public static BigInteger operator >>(BigInteger bi1, int shiftVal)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x192F190", Offset = "0x192D790", VA = "0x18192F190")]
+	[Token(Token = "0x60001C4")]
+	[Address(RVA = "0x52D39F0", Offset = "0x52D29F0", VA = "0x52D39F0")]
 	public static BigInteger GenerateRandom(int bits, RandomNumberGenerator rng)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x192F360", Offset = "0x192D960", VA = "0x18192F360")]
+	[Token(Token = "0x60001C5")]
+	[Address(RVA = "0x52CDEE0", Offset = "0x52CCEE0", VA = "0x52CDEE0")]
 	public static BigInteger GenerateRandom(int bits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x192EEC0", Offset = "0x192D4C0", VA = "0x18192EEC0")]
+	[Token(Token = "0x60001C6")]
+	[Address(RVA = "0x52CD080", Offset = "0x52CC080", VA = "0x52CD080")]
 	public int BitCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x192F990", Offset = "0x192DF90", VA = "0x18192F990")]
+	[Token(Token = "0x60001C7")]
+	[Address(RVA = "0x52D3BC0", Offset = "0x52D2BC0", VA = "0x52D3BC0")]
 	public bool TestBit(int bitNum)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x192F8E0", Offset = "0x192DEE0", VA = "0x18192F8E0")]
+	[Token(Token = "0x60001C8")]
+	[Address(RVA = "0x52D3C40", Offset = "0x52D2C40", VA = "0x52D3C40")]
 	[CLSCompliant(false)]
 	public void SetBit(uint bitNum)
 	{
 	}
 
-	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x192F930", Offset = "0x192DF30", VA = "0x18192F930")]
+	[Token(Token = "0x60001C9")]
+	[Address(RVA = "0x52D3C80", Offset = "0x52D2C80", VA = "0x52D3C80")]
 	[CLSCompliant(false)]
 	public void SetBit(uint bitNum, bool value)
 	{
 	}
 
-	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x192F710", Offset = "0x192DD10", VA = "0x18192F710")]
+	[Token(Token = "0x60001CA")]
+	[Address(RVA = "0x52D3CE0", Offset = "0x52D2CE0", VA = "0x52D3CE0")]
 	public int LowestSetBit()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x192F470", Offset = "0x192DA70", VA = "0x18192F470")]
+	[Token(Token = "0x60001CB")]
+	[Address(RVA = "0x52CE6E0", Offset = "0x52CD6E0", VA = "0x52CE6E0")]
 	public byte[] GetBytes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x1930720", Offset = "0x192ED20", VA = "0x181930720")]
+	[Token(Token = "0x60001CC")]
+	[Address(RVA = "0x52D25D0", Offset = "0x52D15D0", VA = "0x52D25D0")]
 	[CLSCompliant(false)]
 	public static bool operator ==(BigInteger bi1, uint ui)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001FC")]
-	[Address(RVA = "0x1930A70", Offset = "0x192F070", VA = "0x181930A70")]
+	[Token(Token = "0x60001CD")]
+	[Address(RVA = "0x52D3D60", Offset = "0x52D2D60", VA = "0x52D3D60")]
 	[CLSCompliant(false)]
 	public static bool operator !=(BigInteger bi1, uint ui)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x19307B0", Offset = "0x192EDB0", VA = "0x1819307B0")]
+	[Token(Token = "0x60001CE")]
+	[Address(RVA = "0x52CD510", Offset = "0x52CC510", VA = "0x52CD510")]
 	public static bool operator ==(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x19309B0", Offset = "0x192EFB0", VA = "0x1819309B0")]
+	[Token(Token = "0x60001CF")]
+	[Address(RVA = "0x52CCCE0", Offset = "0x52CBCE0", VA = "0x52CCCE0")]
 	public static bool operator !=(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x1930890", Offset = "0x192EE90", VA = "0x181930890")]
+	[Token(Token = "0x60001D0")]
+	[Address(RVA = "0x52CDFA0", Offset = "0x52CCFA0", VA = "0x52CDFA0")]
 	public static bool operator >(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x1930B30", Offset = "0x192F130", VA = "0x181930B30")]
+	[Token(Token = "0x60001D1")]
+	[Address(RVA = "0x52CD120", Offset = "0x52CC120", VA = "0x52CD120")]
 	public static bool operator <(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x1930870", Offset = "0x192EE70", VA = "0x181930870")]
+	[Token(Token = "0x60001D2")]
+	[Address(RVA = "0x52D3DE0", Offset = "0x52D2DE0", VA = "0x52D3DE0")]
 	public static bool operator >=(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x1930B10", Offset = "0x192F110", VA = "0x181930B10")]
+	[Token(Token = "0x60001D3")]
+	[Address(RVA = "0x52D3DF0", Offset = "0x52D2DF0", VA = "0x52D3DF0")]
 	public static bool operator <=(BigInteger bi1, BigInteger bi2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x192FDE0", Offset = "0x192E3E0", VA = "0x18192FDE0")]
+	[Token(Token = "0x60001D4")]
+	[Address(RVA = "0x52D3E00", Offset = "0x52D2E00", VA = "0x52D3E00")]
 	[CLSCompliant(false)]
 	public string ToString(uint radix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x192FA30", Offset = "0x192E030", VA = "0x18192FA30")]
+	[Token(Token = "0x60001D5")]
+	[Address(RVA = "0x52D3E40", Offset = "0x52D2E40", VA = "0x52D3E40")]
 	[CLSCompliant(false)]
 	public string ToString(uint radix, string characterSet)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x192F880", Offset = "0x192DE80", VA = "0x18192F880")]
+	[Token(Token = "0x60001D6")]
+	[Address(RVA = "0x52D2500", Offset = "0x52D1500", VA = "0x52D2500")]
 	private void Normalize()
 	{
 	}
 
-	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x192EF70", Offset = "0x192D570", VA = "0x18192EF70")]
+	[Token(Token = "0x60001D7")]
+	[Address(RVA = "0x52CE060", Offset = "0x52CD060", VA = "0x52CE060")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x192F610", Offset = "0x192DC10", VA = "0x18192F610", Slot = "2")]
+	[Token(Token = "0x60001D8")]
+	[Address(RVA = "0x52D4150", Offset = "0x52D3150", VA = "0x52D4150", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x192FE30", Offset = "0x192E430", VA = "0x18192FE30", Slot = "3")]
+	[Token(Token = "0x60001D9")]
+	[Address(RVA = "0x52D4190", Offset = "0x52D3190", VA = "0x52D4190", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x192EFC0", Offset = "0x192D5C0", VA = "0x18192EFC0", Slot = "0")]
+	[Token(Token = "0x60001DA")]
+	[Address(RVA = "0x52D41D0", Offset = "0x52D31D0", VA = "0x52D41D0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x192F800", Offset = "0x192DE00", VA = "0x18192F800")]
+	[Token(Token = "0x60001DB")]
+	[Address(RVA = "0x52CD370", Offset = "0x52CC370", VA = "0x52CD370")]
 	public BigInteger ModInverse(BigInteger modulus)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x192F810", Offset = "0x192DE10", VA = "0x18192F810")]
+	[Token(Token = "0x60001DC")]
+	[Address(RVA = "0x52CDF30", Offset = "0x52CCF30", VA = "0x52CDF30")]
 	public BigInteger ModPow(BigInteger exp, BigInteger n)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x192F120", Offset = "0x192D720", VA = "0x18192F120")]
+	[Token(Token = "0x60001DD")]
+	[Address(RVA = "0x52CCBF0", Offset = "0x52CBBF0", VA = "0x52CCBF0")]
 	public static BigInteger GeneratePseudoPrime(int bits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x192F660", Offset = "0x192DC60", VA = "0x18192F660")]
+	[Token(Token = "0x60001DE")]
+	[Address(RVA = "0x52D4CA0", Offset = "0x52D3CA0", VA = "0x52D4CA0")]
 	public void Incr2()
 	{
 	}

@@ -16,11 +16,11 @@ namespace Mono.Net.Security;
 [Token(Token = "0x200005F")]
 internal sealed class MonoSslClientAuthenticationOptions : MonoSslAuthenticationOptions
 {
-	[Token(Token = "0x17000049")]
+	[Token(Token = "0x17000046")]
 	public SslClientAuthenticationOptions Options
 	{
-		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000147")]
+		[Address(RVA = "0x5E3D080", Offset = "0x5E3C080", VA = "0x5E3D080")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,120 +28,109 @@ internal sealed class MonoSslClientAuthenticationOptions : MonoSslAuthentication
 		}
 	}
 
-	[Token(Token = "0x1700004A")]
+	[Token(Token = "0x17000047")]
 	public override bool ServerMode
 	{
-		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+		[Token(Token = "0x6000148")]
+		[Address(RVA = "0x5E3D090", Offset = "0x5E3C090", VA = "0x5E3D090", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700004B")]
-	public override bool AllowRenegotiation
-	{
-		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x249C890", Offset = "0x249AE90", VA = "0x18249C890", Slot = "5")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x1700004C")]
+	[Token(Token = "0x17000048")]
 	public override X509RevocationMode CertificateRevocationCheckMode
 	{
-		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x249C930", Offset = "0x249AF30", VA = "0x18249C930", Slot = "9")]
+		[Token(Token = "0x600014A")]
+		[Address(RVA = "0x5E3D0A0", Offset = "0x5E3C0A0", VA = "0x5E3D0A0", Slot = "8")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004D")]
+	[Token(Token = "0x17000049")]
 	public override EncryptionPolicy EncryptionPolicy
 	{
-		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x249C9A0", Offset = "0x249AFA0", VA = "0x18249C9A0", Slot = "8")]
+		[Token(Token = "0x600014B")]
+		[Address(RVA = "0x5E3D0C0", Offset = "0x5E3C0C0", VA = "0x5E3D0C0", Slot = "7")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700004A")]
+	public override SslProtocols EnabledSslProtocols
+	{
+		[Token(Token = "0x600014C")]
+		[Address(RVA = "0x5E3D0E0", Offset = "0x5E3C0E0", VA = "0x5E3D0E0", Slot = "5")]
+		get
+		{
+			return default(SslProtocols);
+		}
+		[Token(Token = "0x600014D")]
+		[Address(RVA = "0x5E3D100", Offset = "0x5E3C100", VA = "0x5E3D100", Slot = "6")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700004B")]
+	public override string TargetHost
+	{
+		[Token(Token = "0x600014E")]
+		[Address(RVA = "0x5E3D120", Offset = "0x5E3C120", VA = "0x5E3D120", Slot = "9")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600014F")]
+		[Address(RVA = "0x5E3D140", Offset = "0x5E3C140", VA = "0x5E3D140", Slot = "10")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700004C")]
+	public override bool ClientCertificateRequired
+	{
+		[Token(Token = "0x6000150")]
+		[Address(RVA = "0x5E3D160", Offset = "0x5E3C160", VA = "0x5E3D160", Slot = "14")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700004D")]
+	public override X509CertificateCollection ClientCertificates
+	{
+		[Token(Token = "0x6000151")]
+		[Address(RVA = "0x5E3D1A0", Offset = "0x5E3C1A0", VA = "0x5E3D1A0", Slot = "12")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000152")]
+		[Address(RVA = "0x5E3D1C0", Offset = "0x5E3C1C0", VA = "0x5E3D1C0", Slot = "13")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700004E")]
-	public override SslProtocols EnabledSslProtocols
-	{
-		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x1A07BE0", Offset = "0x1A061E0", VA = "0x181A07BE0", Slot = "6")]
-		get
-		{
-			return default(SslProtocols);
-		}
-		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x249C980", Offset = "0x249AF80", VA = "0x18249C980", Slot = "7")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004F")]
-	public override string TargetHost
-	{
-		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x1CB0C00", Offset = "0x1CAF200", VA = "0x181CB0C00", Slot = "10")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x1CB0C70", Offset = "0x1CAF270", VA = "0x181CB0C70", Slot = "11")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000050")]
-	public override bool ClientCertificateRequired
-	{
-		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x249C8B0", Offset = "0x249AEB0", VA = "0x18249C8B0", Slot = "15")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000051")]
-	public override X509CertificateCollection ClientCertificates
-	{
-		[Token(Token = "0x6000159")]
-		[Address(RVA = "0x1CB0D40", Offset = "0x1CAF340", VA = "0x181CB0D40", Slot = "13")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600015A")]
-		[Address(RVA = "0x249C950", Offset = "0x249AF50", VA = "0x18249C950", Slot = "14")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000052")]
 	public override X509Certificate ServerCertificate
 	{
-		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x249C8F0", Offset = "0x249AEF0", VA = "0x18249C8F0", Slot = "12")]
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x5E3D1E0", Offset = "0x5E3C1E0", VA = "0x5E3D1E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x249C820", Offset = "0x249AE20", VA = "0x18249C820")]
+	[Token(Token = "0x6000149")]
+	[Address(RVA = "0x5E39F30", Offset = "0x5E38F30", VA = "0x5E39F30")]
 	public MonoSslClientAuthenticationOptions()
 	{
 	}

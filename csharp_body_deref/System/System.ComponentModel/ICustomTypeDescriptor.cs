@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001A6")]
+[Token(Token = "0x2000167")]
 public interface ICustomTypeDescriptor
 {
-	[Token(Token = "0x6000ADB")]
+	[Token(Token = "0x600091B")]
 	AttributeCollection GetAttributes();
 
-	[Token(Token = "0x6000ADC")]
+	[Token(Token = "0x600091C")]
 	string GetClassName();
 
-	[Token(Token = "0x6000ADD")]
+	[Token(Token = "0x600091D")]
 	string GetComponentName();
 
-	[Token(Token = "0x6000ADE")]
+	[Token(Token = "0x600091E")]
 	TypeConverter GetConverter();
 
-	[Token(Token = "0x6000ADF")]
+	[Token(Token = "0x600091F")]
 	EventDescriptor GetDefaultEvent();
 
-	[Token(Token = "0x6000AE0")]
+	[Token(Token = "0x6000920")]
 	PropertyDescriptor GetDefaultProperty();
 
-	[Token(Token = "0x6000AE1")]
+	[Token(Token = "0x6000921")]
 	object GetEditor(Type editorBaseType);
 
-	[Token(Token = "0x6000AE2")]
+	[Token(Token = "0x6000922")]
 	EventDescriptorCollection GetEvents();
 
-	[Token(Token = "0x6000AE3")]
+	[Token(Token = "0x6000923")]
 	EventDescriptorCollection GetEvents(Attribute[] attributes);
 
-	[Token(Token = "0x6000AE4")]
+	[Token(Token = "0x6000924")]
 	PropertyDescriptorCollection GetProperties();
 
-	[Token(Token = "0x6000AE5")]
+	[Token(Token = "0x6000925")]
 	PropertyDescriptorCollection GetProperties(Attribute[] attributes);
 
-	[Token(Token = "0x6000AE6")]
+	[Token(Token = "0x6000926")]
 	object GetPropertyOwner(PropertyDescriptor pd);
 }

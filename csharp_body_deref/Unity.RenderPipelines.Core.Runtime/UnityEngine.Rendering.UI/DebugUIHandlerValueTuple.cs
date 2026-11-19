@@ -41,44 +41,44 @@ public class DebugUIHandlerValueTuple : DebugUIHandlerWidget
 	private static readonly Color k_ZeroColor;
 
 	[Token(Token = "0x60014CF")]
-	[Address(RVA = "0x16F6DE0", Offset = "0x16F53E0", VA = "0x1816F6DE0", Slot = "4")]
+	[Address(RVA = "0x65AD680", Offset = "0x65AC680", VA = "0x65AD680", Slot = "4")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60014D0")]
-	[Address(RVA = "0x2BA8BF0", Offset = "0x2BA71F0", VA = "0x182BA8BF0", Slot = "6")]
+	[Address(RVA = "0x65AD690", Offset = "0x65AC690", VA = "0x65AD690", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014D1")]
-	[Address(RVA = "0x2BA83A0", Offset = "0x2BA69A0", VA = "0x182BA83A0", Slot = "7")]
+	[Address(RVA = "0x65AD6C0", Offset = "0x65AC6C0", VA = "0x65AD6C0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x60014D2")]
-	[Address(RVA = "0x2BB1E70", Offset = "0x2BB0470", VA = "0x182BB1E70", Slot = "5")]
+	[Address(RVA = "0x65AD6F0", Offset = "0x65AC6F0", VA = "0x65AD6F0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60014D3")]
-	[Address(RVA = "0x2BB22B0", Offset = "0x2BB08B0", VA = "0x182BB22B0", Slot = "13")]
+	[Address(RVA = "0x65ADA90", Offset = "0x65ACA90", VA = "0x65ADA90", Slot = "13")]
 	internal virtual void UpdateValueLabels()
 	{
 	}
 
 	[Token(Token = "0x60014D4")]
-	[Address(RVA = "0x2BB2540", Offset = "0x2BB0B40", VA = "0x182BB2540")]
+	[Address(RVA = "0x65ADCF0", Offset = "0x65ACCF0", VA = "0x65ADCF0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60014D5")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65ADDA0", Offset = "0x65ACDA0", VA = "0x65ADDA0")]
 	public DebugUIHandlerValueTuple()
 	{
 	}

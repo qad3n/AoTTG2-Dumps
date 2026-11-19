@@ -11,103 +11,103 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20006AA")]
+[Token(Token = "0x2000709")]
 internal class WallColossalSteamWarningZone : MonoBehaviour
 {
-	[Token(Token = "0x4001FBA")]
+	[Token(Token = "0x400216B")]
 	[FieldOffset(Offset = "0x20")]
 	private HashSet<Human> _humansInZone;
 
-	[Token(Token = "0x4001FBB")]
+	[Token(Token = "0x400216C")]
 	[FieldOffset(Offset = "0x28")]
 	private HashSet<Rigidbody> _rigidbodiesInZone;
 
-	[Token(Token = "0x4001FBC")]
+	[Token(Token = "0x400216D")]
 	[FieldOffset(Offset = "0x30")]
 	private WallColossalShifter _owner;
 
-	[Token(Token = "0x4001FBD")]
+	[Token(Token = "0x400216E")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _isActive;
 
-	[Token(Token = "0x4001FBE")]
+	[Token(Token = "0x400216F")]
 	[FieldOffset(Offset = "0x3C")]
 	public float KnockbackForce;
 
-	[Token(Token = "0x4001FBF")]
+	[Token(Token = "0x4002170")]
 	[FieldOffset(Offset = "0x40")]
 	public float ThunderspearKnockbackMultiplier;
 
-	[Token(Token = "0x4001FC0")]
+	[Token(Token = "0x4002171")]
 	[FieldOffset(Offset = "0x44")]
 	public float KnockbackInterval;
 
-	[Token(Token = "0x4001FC1")]
+	[Token(Token = "0x4002172")]
 	[FieldOffset(Offset = "0x48")]
 	private float _knockbackTimer;
 
-	[Token(Token = "0x4001FC2")]
+	[Token(Token = "0x4002173")]
 	[FieldOffset(Offset = "0x4C")]
 	private float _projectileCheckTimer;
 
-	[Token(Token = "0x4001FC3")]
+	[Token(Token = "0x4002174")]
 	[FieldOffset(Offset = "0x50")]
 	private float _projectileCheckInterval;
 
-	[Token(Token = "0x4001FC4")]
+	[Token(Token = "0x4002175")]
 	[FieldOffset(Offset = "0x58")]
 	private BoxCollider _boxCollider;
 
-	[Token(Token = "0x600414E")]
-	[Address(RVA = "0x219A8D0", Offset = "0x2198ED0", VA = "0x18219A8D0")]
+	[Token(Token = "0x60043E8")]
+	[Address(RVA = "0x5B21830", Offset = "0x5B20830", VA = "0x5B21830")]
 	internal void Initialize(WallColossalShifter owner)
 	{
 	}
 
-	[Token(Token = "0x600414F")]
-	[Address(RVA = "0x219AE30", Offset = "0x2199430", VA = "0x18219AE30")]
+	[Token(Token = "0x60043E9")]
+	[Address(RVA = "0x5B21630", Offset = "0x5B20630", VA = "0x5B21630")]
 	internal void SetActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6004150")]
-	[Address(RVA = "0x219AB10", Offset = "0x2199110", VA = "0x18219AB10")]
+	[Token(Token = "0x60043EA")]
+	[Address(RVA = "0x5B23F40", Offset = "0x5B22F40", VA = "0x5B23F40")]
 	private void OnTriggerEnter(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6004151")]
-	[Address(RVA = "0x219AC90", Offset = "0x2199290", VA = "0x18219AC90")]
+	[Token(Token = "0x60043EB")]
+	[Address(RVA = "0x5B240D0", Offset = "0x5B230D0", VA = "0x5B240D0")]
 	private void OnTriggerExit(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6004152")]
-	[Address(RVA = "0x219A940", Offset = "0x2198F40", VA = "0x18219A940")]
+	[Token(Token = "0x60043EC")]
+	[Address(RVA = "0x5B24280", Offset = "0x5B23280", VA = "0x5B24280")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6004153")]
-	[Address(RVA = "0x219AFF0", Offset = "0x21995F0", VA = "0x18219AFF0")]
+	[Token(Token = "0x60043ED")]
+	[Address(RVA = "0x5B24480", Offset = "0x5B23480", VA = "0x5B24480")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6004154")]
-	[Address(RVA = "0x219A480", Offset = "0x2198A80", VA = "0x18219A480")]
+	[Token(Token = "0x60043EE")]
+	[Address(RVA = "0x5B248C0", Offset = "0x5B238C0", VA = "0x5B248C0")]
 	private void CheckForProjectiles()
 	{
 	}
 
-	[Token(Token = "0x6004155")]
-	[Address(RVA = "0x219A1D0", Offset = "0x21987D0", VA = "0x18219A1D0")]
+	[Token(Token = "0x60043EF")]
+	[Address(RVA = "0x5B24D00", Offset = "0x5B23D00", VA = "0x5B24D00")]
 	private void ApplyKnockback(Rigidbody rb)
 	{
 	}
 
-	[Token(Token = "0x6004156")]
-	[Address(RVA = "0x219B410", Offset = "0x2199A10", VA = "0x18219B410")]
+	[Token(Token = "0x60043F0")]
+	[Address(RVA = "0x5B25060", Offset = "0x5B24060", VA = "0x5B25060")]
 	public WallColossalSteamWarningZone()
 	{
 	}

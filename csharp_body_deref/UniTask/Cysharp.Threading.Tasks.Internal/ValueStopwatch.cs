@@ -25,7 +25,7 @@ internal readonly struct ValueStopwatch
 	public TimeSpan Elapsed
 	{
 		[Token(Token = "0x6000D37")]
-		[Address(RVA = "0x2950190", Offset = "0x294E790", VA = "0x182950190")]
+		[Address(RVA = "0x630C550", Offset = "0x630B550", VA = "0x630C550")]
 		get
 		{
 			return default(TimeSpan);
@@ -36,7 +36,7 @@ internal readonly struct ValueStopwatch
 	public bool IsInvalid
 	{
 		[Token(Token = "0x6000D38")]
-		[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
+		[Address(RVA = "0x630C6B0", Offset = "0x630B6B0", VA = "0x630C6B0")]
 		get
 		{
 			return default(bool);
@@ -47,7 +47,7 @@ internal readonly struct ValueStopwatch
 	public long ElapsedTicks
 	{
 		[Token(Token = "0x6000D39")]
-		[Address(RVA = "0x29500A0", Offset = "0x294E6A0", VA = "0x1829500A0")]
+		[Address(RVA = "0x630C5D0", Offset = "0x630B5D0", VA = "0x630C5D0")]
 		get
 		{
 			return default(long);
@@ -55,14 +55,14 @@ internal readonly struct ValueStopwatch
 	}
 
 	[Token(Token = "0x6000D35")]
-	[Address(RVA = "0x294FFE0", Offset = "0x294E5E0", VA = "0x18294FFE0")]
+	[Address(RVA = "0x630C4E0", Offset = "0x630B4E0", VA = "0x630C4E0")]
 	public static ValueStopwatch StartNew()
 	{
 		return default(ValueStopwatch);
 	}
 
 	[Token(Token = "0x6000D36")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Address(RVA = "0x630C540", Offset = "0x630B540", VA = "0x630C540")]
 	private ValueStopwatch(long startTimestamp)
 	{
 	}

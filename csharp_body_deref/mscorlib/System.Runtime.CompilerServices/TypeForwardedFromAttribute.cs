@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004B4")]
+[Token(Token = "0x200048D")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false, AllowMultiple = false)]
 public sealed class TypeForwardedFromAttribute : Attribute
 {
-	[Token(Token = "0x17000479")]
+	[Token(Token = "0x17000478")]
 	public string AssemblyFullName
 	{
-		[Token(Token = "0x600230F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60022DC")]
+		[Address(RVA = "0x53C8D40", Offset = "0x53C7D40", VA = "0x53C8D40")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ public sealed class TypeForwardedFromAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600230E")]
-	[Address(RVA = "0x1A386A0", Offset = "0x1A36CA0", VA = "0x181A386A0")]
+	[Token(Token = "0x60022DB")]
+	[Address(RVA = "0x53C8CC0", Offset = "0x53C7CC0", VA = "0x53C8CC0")]
 	public TypeForwardedFromAttribute(string assemblyFullName)
 	{
 	}

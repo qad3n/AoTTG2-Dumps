@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Accessibility.AccessibilityNodeData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ internal struct AccessibilityNodeData
 	public int[] childIds
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Address(RVA = "0x6878CF0", Offset = "0x6877CF0", VA = "0x6878CF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,7 +34,7 @@ internal struct AccessibilityNodeData
 	public string label
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
+		[Address(RVA = "0x6878D00", Offset = "0x6877D00", VA = "0x6878D00")]
 		[CompilerGenerated]
 		set
 		{
@@ -45,7 +45,7 @@ internal struct AccessibilityNodeData
 	public string value
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6878D10", Offset = "0x6877D10", VA = "0x6878D10")]
 		[CompilerGenerated]
 		set
 		{
@@ -56,7 +56,7 @@ internal struct AccessibilityNodeData
 	public string hint
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6878D20", Offset = "0x6877D20", VA = "0x6878D20")]
 		[CompilerGenerated]
 		set
 		{
@@ -67,7 +67,7 @@ internal struct AccessibilityNodeData
 	public Rect frame
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x19377C0", Offset = "0x1935DC0", VA = "0x1819377C0")]
+		[Address(RVA = "0x6878D30", Offset = "0x6877D30", VA = "0x6878D30")]
 		[CompilerGenerated]
 		set
 		{
@@ -78,14 +78,14 @@ internal struct AccessibilityNodeData
 	public int nodeId
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x6878D40", Offset = "0x6877D40", VA = "0x6878D40")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x6878D50", Offset = "0x6877D50", VA = "0x6878D50")]
 		[CompilerGenerated]
 		set
 		{
@@ -96,7 +96,7 @@ internal struct AccessibilityNodeData
 	public int parentId
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x6878D60", Offset = "0x6877D60", VA = "0x6878D60")]
 		[CompilerGenerated]
 		set
 		{
@@ -107,7 +107,7 @@ internal struct AccessibilityNodeData
 	public AccessibilityRole role
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x6878D70", Offset = "0x6877D70", VA = "0x6878D70")]
 		[CompilerGenerated]
 		set
 		{
@@ -118,7 +118,7 @@ internal struct AccessibilityNodeData
 	public AccessibilityState state
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0xF1DA30", Offset = "0xF1C030", VA = "0x180F1DA30")]
+		[Address(RVA = "0x6878D80", Offset = "0x6877D80", VA = "0x6878D80")]
 		[CompilerGenerated]
 		set
 		{
@@ -129,7 +129,7 @@ internal struct AccessibilityNodeData
 	public bool isActive
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x19EDC20", Offset = "0x19EC220", VA = "0x1819EDC20")]
+		[Address(RVA = "0x6878D90", Offset = "0x6877D90", VA = "0x6878D90")]
 		[CompilerGenerated]
 		set
 		{
@@ -140,7 +140,7 @@ internal struct AccessibilityNodeData
 	public bool allowsDirectInteraction
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x2E7E500", Offset = "0x2E7CB00", VA = "0x182E7E500")]
+		[Address(RVA = "0x6878DA0", Offset = "0x6877DA0", VA = "0x6878DA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -151,7 +151,7 @@ internal struct AccessibilityNodeData
 	public bool implementsInvoked
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0xDA7C80", Offset = "0xDA6280", VA = "0x180DA7C80")]
+		[Address(RVA = "0x6878DB0", Offset = "0x6877DB0", VA = "0x6878DB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -162,7 +162,7 @@ internal struct AccessibilityNodeData
 	public bool implementsScrolled
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x2E7E520", Offset = "0x2E7CB20", VA = "0x182E7E520")]
+		[Address(RVA = "0x6878DC0", Offset = "0x6877DC0", VA = "0x6878DC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -173,7 +173,7 @@ internal struct AccessibilityNodeData
 	public bool implementsDismissed
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x2E7E510", Offset = "0x2E7CB10", VA = "0x182E7E510")]
+		[Address(RVA = "0x6878DD0", Offset = "0x6877DD0", VA = "0x6878DD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -181,7 +181,7 @@ internal struct AccessibilityNodeData
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x2E7E460", Offset = "0x2E7CA60", VA = "0x182E7E460")]
+	[Address(RVA = "0x6877540", Offset = "0x6876540", VA = "0x6877540")]
 	public AccessibilityNodeData()
 	{
 	}

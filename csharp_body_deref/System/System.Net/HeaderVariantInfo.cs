@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002FC")]
+[Token(Token = "0x20002BD")]
 internal struct HeaderVariantInfo
 {
-	[Token(Token = "0x4000B86")]
+	[Token(Token = "0x4000AB7")]
 	[FieldOffset(Offset = "0x0")]
 	private string m_name;
 
-	[Token(Token = "0x4000B87")]
+	[Token(Token = "0x4000AB8")]
 	[FieldOffset(Offset = "0x8")]
 	private CookieVariant m_variant;
 
-	[Token(Token = "0x17000460")]
+	[Token(Token = "0x17000431")]
 	internal string Name
 	{
-		[Token(Token = "0x60014BE")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6001300")]
+		[Address(RVA = "0x62B7600", Offset = "0x62B6600", VA = "0x62B7600")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000461")]
+	[Token(Token = "0x17000432")]
 	internal CookieVariant Variant
 	{
-		[Token(Token = "0x60014BF")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Token(Token = "0x6001301")]
+		[Address(RVA = "0x62B7610", Offset = "0x62B6610", VA = "0x62B7610")]
 		get
 		{
 			return default(CookieVariant);
 		}
 	}
 
-	[Token(Token = "0x60014BD")]
-	[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
+	[Token(Token = "0x60012FF")]
+	[Address(RVA = "0x62B75E0", Offset = "0x62B65E0", VA = "0x62B75E0")]
 	internal HeaderVariantInfo(string name, CookieVariant variant)
 	{
 	}

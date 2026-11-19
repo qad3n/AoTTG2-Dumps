@@ -11,44 +11,44 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x200064D")]
+[Token(Token = "0x2000628")]
 internal sealed class LongEnumEqualityComparer<T> : EqualityComparer<T>, ISerializable where T : struct
 {
-	[Token(Token = "0x6003050")]
+	[Token(Token = "0x600302F")]
 	public override bool Equals(T x, T y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003051")]
+	[Token(Token = "0x6003030")]
 	public override int GetHashCode(T obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003052")]
+	[Token(Token = "0x6003031")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003053")]
+	[Token(Token = "0x6003032")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003054")]
+	[Token(Token = "0x6003033")]
 	public LongEnumEqualityComparer()
 	{
 	}
 
-	[Token(Token = "0x6003055")]
+	[Token(Token = "0x6003034")]
 	public LongEnumEqualityComparer(SerializationInfo information, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6003056")]
+	[Token(Token = "0x6003035")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

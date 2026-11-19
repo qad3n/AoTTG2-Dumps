@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,27 +31,27 @@ public static class SubsystemDescriptorStore
 	private static List<SubsystemDescriptor> s_DeprecatedDescriptors;
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x2FF7980", Offset = "0x2FF5F80", VA = "0x182FF7980")]
+	[Address(RVA = "0x69F2960", Offset = "0x69F1960", VA = "0x69F2960")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InitializeManagedDescriptor(IntPtr ptr, IntegratedSubsystemDescriptor desc)
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x2FF77E0", Offset = "0x2FF5DE0", VA = "0x182FF77E0")]
+	[Address(RVA = "0x69F2A30", Offset = "0x69F1A30", VA = "0x69F2A30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void ClearManagedDescriptors()
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2FF7BB0", Offset = "0x2FF61B0", VA = "0x182FF7BB0")]
+	[Address(RVA = "0x69F2BF0", Offset = "0x69F1BF0", VA = "0x69F2BF0")]
 	private static void ReportSingleSubsystemAnalytics(string id)
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x2FF7AE0", Offset = "0x2FF60E0", VA = "0x182FF7AE0")]
+	[Address(RVA = "0x69F2DB0", Offset = "0x69F1DB0", VA = "0x69F2DB0")]
 	public static void RegisterDescriptor(SubsystemDescriptorWithProvider descriptor)
 	{
 	}
@@ -72,13 +72,13 @@ public static class SubsystemDescriptorStore
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2FF7A70", Offset = "0x2FF6070", VA = "0x182FF7A70")]
+	[Address(RVA = "0x69F1F10", Offset = "0x69F0F10", VA = "0x69F1F10")]
 	internal static void RegisterDeprecatedDescriptor(SubsystemDescriptor descriptor)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2FF7B70", Offset = "0x2FF6170", VA = "0x182FF7B70")]
+	[Address(RVA = "0x69F2D80", Offset = "0x69F1D80", VA = "0x69F2D80")]
 	private static extern void ReportSingleSubsystemAnalytics_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper id);
 }

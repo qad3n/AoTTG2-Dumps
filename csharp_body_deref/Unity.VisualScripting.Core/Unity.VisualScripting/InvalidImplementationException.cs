@@ -14,13 +14,13 @@ namespace Unity.VisualScripting;
 public class InvalidImplementationException : Exception
 {
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x2DB1B40", Offset = "0x2DB0140", VA = "0x182DB1B40")]
+	[Address(RVA = "0x6797970", Offset = "0x6796970", VA = "0x6797970")]
 	public InvalidImplementationException()
 	{
 	}
 
 	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x2DB1B90", Offset = "0x2DB0190", VA = "0x182DB1B90")]
+	[Address(RVA = "0x67979E0", Offset = "0x67969E0", VA = "0x67979E0")]
 	public InvalidImplementationException(string message)
 	{
 	}

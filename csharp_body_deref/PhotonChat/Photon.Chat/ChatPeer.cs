@@ -31,7 +31,7 @@ public class ChatPeer : PhotonPeer
 	public string NameServerAddress
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x1D110C0", Offset = "0x1D0F6C0", VA = "0x181D110C0")]
+		[Address(RVA = "0x569FF30", Offset = "0x569EF30", VA = "0x569FF30")]
 		get
 		{
 			return null;
@@ -42,7 +42,7 @@ public class ChatPeer : PhotonPeer
 	internal virtual bool IsProtocolSecure
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x1D110A0", Offset = "0x1D0F6A0", VA = "0x181D110A0", Slot = "17")]
+		[Address(RVA = "0x56A59A0", Offset = "0x56A49A0", VA = "0x56A59A0", Slot = "17")]
 		get
 		{
 			return default(bool);
@@ -50,27 +50,27 @@ public class ChatPeer : PhotonPeer
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x1D10E70", Offset = "0x1D0F470", VA = "0x181D10E70")]
+	[Address(RVA = "0x569FAA0", Offset = "0x569EAA0", VA = "0x569FAA0")]
 	public ChatPeer(IPhotonPeerListener listener, ConnectionProtocol protocol)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x1D10950", Offset = "0x1D0EF50", VA = "0x181D10950")]
+	[Address(RVA = "0x56A59B0", Offset = "0x56A49B0", VA = "0x56A59B0")]
 	[Conditional("SUPPORTED_UNITY")]
 	private void ConfigUnitySockets()
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x1D10B00", Offset = "0x1D0F100", VA = "0x181D10B00")]
+	[Address(RVA = "0x56A5720", Offset = "0x56A4720", VA = "0x56A5720")]
 	private string GetNameServerAddress()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x1D10710", Offset = "0x1D0ED10", VA = "0x181D10710")]
+	[Address(RVA = "0x56A4CA0", Offset = "0x56A3CA0", VA = "0x56A4CA0")]
 	public bool AuthenticateOnNameServer(string appId, string appVersion, string region, AuthenticationValues authValues)
 	{
 		return default(bool);

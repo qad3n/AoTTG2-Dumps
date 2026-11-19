@@ -1,5 +1,5 @@
 // Type: EZhex1991.EZSoftBone.EZSoftBoneForceField
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/EZhex1991.EZSoftBone/EZhex1991.EZSoftBone/EZSoftBoneForceField.cs
@@ -8,19 +8,19 @@
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$get_conductivity
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneForceField__get_conductivity (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584280
+// 0x32a8700
 
 float EZhex1991_EZSoftBone_EZSoftBoneForceField__get_conductivity
-                (UnityEngine_AdaptivePerformance_Provider_PerformanceDataRecord_o *__this,MethodInfo *method)
+                (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields)._GpuFrameTime_k__BackingField;
+  return (__this->fields).m_Conductivity;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$set_conductivity
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_conductivity (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, float value, const MethodInfo* method);
-// 0x1805842a0
+// 0x32a8710
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_conductivity
                (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,float value,MethodInfo *method)
@@ -33,10 +33,11 @@ void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_conductivity
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$get_force
 // il2cpp: EZhex1991_EZSoftBone_EZSoftBoneForce_o* EZhex1991_EZSoftBone_EZSoftBoneForceField__get_force (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584c80
+// 0x32a8720
 
-EZhex1991_EZSoftBone_EZSoftBoneForce_o*
-EZhex1991_EZSoftBone_EZSoftBoneForceField__get_force(EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, MethodInfo* method)
+EZhex1991_EZSoftBone_EZSoftBoneForce_o *
+EZhex1991_EZSoftBone_EZSoftBoneForceField__get_force
+          (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).m_Force;
@@ -45,21 +46,22 @@ EZhex1991_EZSoftBone_EZSoftBoneForceField__get_force(EZhex1991_EZSoftBone_EZSoft
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$set_force
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_force (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, EZhex1991_EZSoftBone_EZSoftBoneForce_o* value, const MethodInfo* method);
-// 0x180584ca0
+// 0x32a8730
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_force
-               (Photon_Voice_VoiceInfo_o *__this,Il2CppObject *value,MethodInfo *method)
+               (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,
+               EZhex1991_EZSoftBone_EZSoftBoneForce_o *value,MethodInfo *method)
 
 {
-  (__this->fields)._UserData_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._UserData_k__BackingField,value);
+  (__this->fields).m_Force = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_Force);
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$get_time
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneForceField__get_time (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584c90
+// 0x32a8740
 
 float EZhex1991_EZSoftBone_EZSoftBoneForceField__get_time
                 (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)
@@ -71,20 +73,20 @@ float EZhex1991_EZSoftBone_EZSoftBoneForceField__get_time
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$set_time
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_time (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, float value, const MethodInfo* method);
-// 0x180584cb0
+// 0x32a8750
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField__set_time
-               (UnityEngine_TextCore_FaceInfo_o *__this,float value,MethodInfo *method)
+               (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,float value,MethodInfo *method)
 
 {
-  (__this->fields).m_MeanLine = value;
+  (__this->fields)._time_k__BackingField = value;
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$OnEnable
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField__OnEnable (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584c30
+// 0x32a8760
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField__OnEnable
                (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)
@@ -97,7 +99,7 @@ void EZhex1991_EZSoftBone_EZSoftBoneForceField__OnEnable
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$Update
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField__Update (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584c40
+// 0x32a8770
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField__Update
                (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)
@@ -115,41 +117,31 @@ void EZhex1991_EZSoftBone_EZSoftBoneForceField__Update
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$GetForce
 // il2cpp: UnityEngine_Vector3_o EZhex1991_EZSoftBone_EZSoftBoneForceField__GetForce (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, float normalizedLength, const MethodInfo* method);
-// 0x180584b80
+// 0x32a5e80
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 EZhex1991_EZSoftBone_EZSoftBoneForceField__GetForce
-          (UnityEngine_Vector3_o *__return_storage_ptr__,EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,
-          float normalizedLength,MethodInfo *method)
+          (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,float normalizedLength,MethodInfo *method)
 
 {
-  float fVar1;
   EZhex1991_EZSoftBone_EZSoftBoneForce_o *__this_00;
-  float fVar2;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Vector3_o *pUVar3;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Vector3_o local_28 [2];
+  MethodInfo *method_00;
+  UnityEngine_Vector3_o direction;
+  UnityEngine_Vector3_Fields UVar1;
   
+  method_00 = (MethodInfo *)0x0;
   __this_01 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   __this_00 = (__this->fields).m_Force;
   if (__this_00 != (EZhex1991_EZSoftBone_EZSoftBoneForce_o *)0x0) {
-    pUVar3 = EZhex1991_EZSoftBone_EZSoftBoneForce__GetForce
-                       (local_28,__this_00,
-                        (__this->fields)._time_k__BackingField -
-                        normalizedLength * (__this->fields).m_Conductivity,(MethodInfo *)0x0);
+    direction = EZhex1991_EZSoftBone_EZSoftBoneForce__GetForce
+                          (__this_00,
+                           (__this->fields)._time_k__BackingField -
+                           normalizedLength * (__this->fields).m_Conductivity,method_00);
     if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-      local_38.x = (pUVar3->fields).x;
-      local_38.y = (pUVar3->fields).y;
-      local_38.z = (pUVar3->fields).z;
-      pUVar3 = UnityEngine_Transform__TransformDirection
-                         (local_28,__this_01,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
-      fVar2 = (pUVar3->fields).y;
-      fVar1 = (pUVar3->fields).z;
-      (__return_storage_ptr__->fields).x = (pUVar3->fields).x;
-      (__return_storage_ptr__->fields).y = fVar2;
-      (__return_storage_ptr__->fields).z = fVar1;
-      return __return_storage_ptr__;
+      UVar1 = (UnityEngine_Vector3_Fields)
+              UnityEngine_Transform__TransformDirection(__this_01,direction,(MethodInfo *)0x0);
+      return (UnityEngine_Vector3_o)UVar1;
     }
   }
   ThrowNullReferenceException();
@@ -158,7 +150,7 @@ EZhex1991_EZSoftBone_EZSoftBoneForceField__GetForce
 
 // EZhex1991.EZSoftBone.EZSoftBoneForceField$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneForceField___ctor (EZhex1991_EZSoftBone_EZSoftBoneForceField_o* __this, const MethodInfo* method);
-// 0x180584c70
+// 0x32a87a0
 
 void EZhex1991_EZSoftBone_EZSoftBoneForceField___ctor
                (EZhex1991_EZSoftBone_EZSoftBoneForceField_o *__this,MethodInfo *method)

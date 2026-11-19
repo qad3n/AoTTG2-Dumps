@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DefaultEventSystem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,207 +17,178 @@ namespace UnityEngine.UIElements;
 internal class DefaultEventSystem
 {
 	[Token(Token = "0x200025C")]
-	public enum UpdateMode
-	{
-		[Token(Token = "0x40008B6")]
-		Always,
-		[Token(Token = "0x40008B7")]
-		IgnoreIfAppNotFocused
-	}
-
-	[Token(Token = "0x200025D")]
-	internal struct FocusBasedEventSequenceContext : IDisposable
-	{
-		[Token(Token = "0x40008B8")]
-		[FieldOffset(Offset = "0x0")]
-		private DefaultEventSystem es;
-
-		[Token(Token = "0x6000FD8")]
-		[Address(RVA = "0x3273C90", Offset = "0x3272290", VA = "0x183273C90")]
-		public FocusBasedEventSequenceContext(DefaultEventSystem es)
-		{
-		}
-
-		[Token(Token = "0x6000FD9")]
-		[Address(RVA = "0x3273C40", Offset = "0x3272240", VA = "0x183273C40", Slot = "4")]
-		public void Dispose()
-		{
-		}
-	}
-
-	[Token(Token = "0x200025E")]
 	private class InputForUIProcessor
 	{
-		[Token(Token = "0x40008B9")]
+		[Token(Token = "0x40008B5")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly DefaultEventSystem m_EventSystem;
 
-		[Token(Token = "0x40008BA")]
+		[Token(Token = "0x40008B6")]
 		[FieldOffset(Offset = "0x18")]
 		private DiscreteTime m_LastPointerTimestamp;
 
-		[Token(Token = "0x40008BB")]
+		[Token(Token = "0x40008B7")]
 		[FieldOffset(Offset = "0x20")]
 		private DiscreteTime m_NextPointerTimestamp;
 
-		[Token(Token = "0x40008BC")]
+		[Token(Token = "0x40008B8")]
 		[FieldOffset(Offset = "0x28")]
 		private readonly Queue<UnityEngine.InputForUI.Event> m_EventList;
 
-		[Token(Token = "0x6000FDA")]
-		[Address(RVA = "0x327C840", Offset = "0x327AE40", VA = "0x18327C840")]
+		[Token(Token = "0x6000FD8")]
+		[Address(RVA = "0x6C7B210", Offset = "0x6C7A210", VA = "0x6C7B210")]
 		public InputForUIProcessor(DefaultEventSystem eventSystem)
 		{
 		}
 
-		[Token(Token = "0x6000FDB")]
-		[Address(RVA = "0x327C6D0", Offset = "0x327ACD0", VA = "0x18327C6D0")]
+		[Token(Token = "0x6000FD9")]
+		[Address(RVA = "0x6C7B2E0", Offset = "0x6C7A2E0", VA = "0x6C7B2E0")]
 		public void Reset()
 		{
 		}
 
-		[Token(Token = "0x6000FDC")]
-		[Address(RVA = "0x3279F40", Offset = "0x3278540", VA = "0x183279F40")]
+		[Token(Token = "0x6000FDA")]
+		[Address(RVA = "0x6C7B370", Offset = "0x6C7A370", VA = "0x6C7B370")]
 		public bool OnEvent(in UnityEngine.InputForUI.Event ev)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000FDD")]
-		[Address(RVA = "0x327A1F0", Offset = "0x32787F0", VA = "0x18327A1F0")]
+		[Token(Token = "0x6000FDB")]
+		[Address(RVA = "0x6C7B3E0", Offset = "0x6C7A3E0", VA = "0x6C7B3E0")]
 		public void ProcessInputForUIEvents()
 		{
 		}
 
-		[Token(Token = "0x6000FDE")]
-		[Address(RVA = "0x3279E90", Offset = "0x3278490", VA = "0x183279E90")]
+		[Token(Token = "0x6000FDC")]
+		[Address(RVA = "0x6C7DA40", Offset = "0x6C7CA40", VA = "0x6C7DA40")]
 		private EventModifiers GetModifiers(UnityEngine.InputForUI.EventModifiers eventModifiers)
 		{
 			return default(EventModifiers);
 		}
 
-		[Token(Token = "0x6000FDF")]
-		[Address(RVA = "0x327B200", Offset = "0x3279800", VA = "0x18327B200")]
+		[Token(Token = "0x6000FDD")]
+		[Address(RVA = "0x6C7BB10", Offset = "0x6C7AB10", VA = "0x6C7BB10")]
 		private void ProcessPointerEvent(UnityEngine.InputForUI.PointerEvent pointerEvent)
 		{
 		}
 
-		[Token(Token = "0x6000FE0")]
-		[Address(RVA = "0x327AB80", Offset = "0x3279180", VA = "0x18327AB80")]
+		[Token(Token = "0x6000FDE")]
+		[Address(RVA = "0x6C7D3B0", Offset = "0x6C7C3B0", VA = "0x6C7D3B0")]
 		private void ProcessNavigationEvent(UnityEngine.InputForUI.NavigationEvent navigationEvent)
 		{
 		}
 
-		[Token(Token = "0x6000FE1")]
-		[Address(RVA = "0x327A870", Offset = "0x3278E70", VA = "0x18327A870")]
+		[Token(Token = "0x6000FDF")]
+		[Address(RVA = "0x6C7CBE0", Offset = "0x6C7BBE0", VA = "0x6C7CBE0")]
 		private void ProcessKeyEvent(UnityEngine.InputForUI.KeyEvent keyEvent)
 		{
 		}
 
-		[Token(Token = "0x6000FE2")]
-		[Address(RVA = "0x327C4F0", Offset = "0x327AAF0", VA = "0x18327C4F0")]
+		[Token(Token = "0x6000FE0")]
+		[Address(RVA = "0x6C7CFA0", Offset = "0x6C7BFA0", VA = "0x6C7CFA0")]
 		private void ProcessTextInputEvent(UnityEngine.InputForUI.TextInputEvent textInputEvent)
 		{
 		}
 
-		[Token(Token = "0x6000FE3")]
-		[Address(RVA = "0x327A010", Offset = "0x3278610", VA = "0x18327A010")]
+		[Token(Token = "0x6000FE1")]
+		[Address(RVA = "0x6C7D330", Offset = "0x6C7C330", VA = "0x6C7D330")]
 		private void ProcessCommandEvent(UnityEngine.InputForUI.CommandEvent commandEvent)
 		{
 		}
 
-		[Token(Token = "0x6000FE4")]
-		[Address(RVA = "0x327A0A0", Offset = "0x32786A0", VA = "0x18327A0A0")]
+		[Token(Token = "0x6000FE2")]
+		[Address(RVA = "0x6C7D1E0", Offset = "0x6C7C1E0", VA = "0x6C7D1E0")]
 		private void ProcessIMECompositionEvent(UnityEngine.InputForUI.IMECompositionEvent compositionEvent)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000261")]
+	[Token(Token = "0x200025F")]
 	internal class LegacyInputProcessor
 	{
-		[Token(Token = "0x2000262")]
+		[Token(Token = "0x2000260")]
 		internal interface IInput
 		{
 			[Token(Token = "0x1700031B")]
 			int touchCount
 			{
-				[Token(Token = "0x6001008")]
+				[Token(Token = "0x6001006")]
 				get;
 			}
 
 			[Token(Token = "0x1700031C")]
 			bool mousePresent
 			{
-				[Token(Token = "0x600100A")]
+				[Token(Token = "0x6001008")]
 				get;
 			}
 
 			[Token(Token = "0x1700031D")]
 			Vector3 mousePosition
 			{
-				[Token(Token = "0x600100D")]
+				[Token(Token = "0x600100B")]
 				get;
 			}
 
 			[Token(Token = "0x1700031E")]
 			int mouseButtonCount
 			{
-				[Token(Token = "0x600100E")]
+				[Token(Token = "0x600100C")]
 				get;
 			}
 
 			[Token(Token = "0x1700031F")]
 			bool anyKey
 			{
-				[Token(Token = "0x600100F")]
+				[Token(Token = "0x600100D")]
 				get;
 			}
 
 			[Token(Token = "0x17000320")]
 			float unscaledTime
 			{
-				[Token(Token = "0x6001010")]
+				[Token(Token = "0x600100E")]
 				get;
 			}
 
 			[Token(Token = "0x17000321")]
 			float doubleClickTime
 			{
-				[Token(Token = "0x6001011")]
+				[Token(Token = "0x600100F")]
 				get;
 			}
 
-			[Token(Token = "0x6001004")]
+			[Token(Token = "0x6001002")]
 			bool GetButtonDown(string button);
 
-			[Token(Token = "0x6001005")]
+			[Token(Token = "0x6001003")]
 			float GetAxisRaw(string axis);
 
-			[Token(Token = "0x6001006")]
+			[Token(Token = "0x6001004")]
 			void ClearLastPenContactEvent();
 
-			[Token(Token = "0x6001007")]
+			[Token(Token = "0x6001005")]
 			PenData GetLastPenContactEvent();
 
-			[Token(Token = "0x6001009")]
+			[Token(Token = "0x6001007")]
 			Touch GetTouch(int index);
 
-			[Token(Token = "0x600100B")]
+			[Token(Token = "0x6001009")]
 			bool GetMouseButtonDown(int button);
 
-			[Token(Token = "0x600100C")]
+			[Token(Token = "0x600100A")]
 			bool GetMouseButtonUp(int button);
 		}
 
-		[Token(Token = "0x2000263")]
+		[Token(Token = "0x2000261")]
 		private class Input : IInput
 		{
 			[Token(Token = "0x17000322")]
 			public int touchCount
 			{
-				[Token(Token = "0x6001016")]
-				[Address(RVA = "0x2FC1520", Offset = "0x2FBFB20", VA = "0x182FC1520", Slot = "8")]
+				[Token(Token = "0x6001014")]
+				[Address(RVA = "0x6C814B0", Offset = "0x6C804B0", VA = "0x6C814B0", Slot = "8")]
 				get
 				{
 					return default(int);
@@ -227,8 +198,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000323")]
 			public bool mousePresent
 			{
-				[Token(Token = "0x6001018")]
-				[Address(RVA = "0x2FC1500", Offset = "0x2FBFB00", VA = "0x182FC1500", Slot = "10")]
+				[Token(Token = "0x6001016")]
+				[Address(RVA = "0x6C81510", Offset = "0x6C80510", VA = "0x6C81510", Slot = "10")]
 				get
 				{
 					return default(bool);
@@ -238,8 +209,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000324")]
 			public Vector3 mousePosition
 			{
-				[Token(Token = "0x600101B")]
-				[Address(RVA = "0x2FC14D0", Offset = "0x2FBFAD0", VA = "0x182FC14D0", Slot = "13")]
+				[Token(Token = "0x6001019")]
+				[Address(RVA = "0x6C81540", Offset = "0x6C80540", VA = "0x6C81540", Slot = "13")]
 				get
 				{
 					return default(Vector3);
@@ -249,8 +220,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000325")]
 			public int mouseButtonCount
 			{
-				[Token(Token = "0x600101C")]
-				[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "14")]
+				[Token(Token = "0x600101A")]
+				[Address(RVA = "0x6C81550", Offset = "0x6C80550", VA = "0x6C81550", Slot = "14")]
 				get
 				{
 					return default(int);
@@ -260,8 +231,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000326")]
 			public bool anyKey
 			{
-				[Token(Token = "0x600101D")]
-				[Address(RVA = "0x327C950", Offset = "0x327AF50", VA = "0x18327C950", Slot = "15")]
+				[Token(Token = "0x600101B")]
+				[Address(RVA = "0x6C81560", Offset = "0x6C80560", VA = "0x6C81560", Slot = "15")]
 				get
 				{
 					return default(bool);
@@ -271,8 +242,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000327")]
 			public float unscaledTime
 			{
-				[Token(Token = "0x600101E")]
-				[Address(RVA = "0x327C980", Offset = "0x327AF80", VA = "0x18327C980", Slot = "16")]
+				[Token(Token = "0x600101C")]
+				[Address(RVA = "0x6C81570", Offset = "0x6C80570", VA = "0x6C81570", Slot = "16")]
 				get
 				{
 					return default(float);
@@ -282,77 +253,77 @@ internal class DefaultEventSystem
 			[Token(Token = "0x17000328")]
 			public float doubleClickTime
 			{
-				[Token(Token = "0x600101F")]
-				[Address(RVA = "0x327C960", Offset = "0x327AF60", VA = "0x18327C960", Slot = "17")]
+				[Token(Token = "0x600101D")]
+				[Address(RVA = "0x6C81580", Offset = "0x6C80580", VA = "0x6C81580", Slot = "17")]
 				get
 				{
 					return default(float);
 				}
 			}
 
-			[Token(Token = "0x6001012")]
-			[Address(RVA = "0x2FC13E0", Offset = "0x2FBF9E0", VA = "0x182FC13E0", Slot = "4")]
+			[Token(Token = "0x6001010")]
+			[Address(RVA = "0x6C81440", Offset = "0x6C80440", VA = "0x6C81440", Slot = "4")]
 			public bool GetButtonDown(string button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x6001013")]
-			[Address(RVA = "0x327C940", Offset = "0x327AF40", VA = "0x18327C940", Slot = "5")]
+			[Token(Token = "0x6001011")]
+			[Address(RVA = "0x6C81450", Offset = "0x6C80450", VA = "0x6C81450", Slot = "5")]
 			public float GetAxisRaw(string axis)
 			{
 				return default(float);
 			}
 
-			[Token(Token = "0x6001014")]
-			[Address(RVA = "0x327C930", Offset = "0x327AF30", VA = "0x18327C930", Slot = "6")]
+			[Token(Token = "0x6001012")]
+			[Address(RVA = "0x6C81460", Offset = "0x6C80460", VA = "0x6C81460", Slot = "6")]
 			public void ClearLastPenContactEvent()
 			{
 			}
 
-			[Token(Token = "0x6001015")]
-			[Address(RVA = "0x2FC1400", Offset = "0x2FBFA00", VA = "0x182FC1400", Slot = "7")]
+			[Token(Token = "0x6001013")]
+			[Address(RVA = "0x6C81470", Offset = "0x6C80470", VA = "0x6C81470", Slot = "7")]
 			public PenData GetLastPenContactEvent()
 			{
 				return default(PenData);
 			}
 
-			[Token(Token = "0x6001017")]
-			[Address(RVA = "0x2FC1470", Offset = "0x2FBFA70", VA = "0x182FC1470", Slot = "9")]
+			[Token(Token = "0x6001015")]
+			[Address(RVA = "0x6C814C0", Offset = "0x6C804C0", VA = "0x6C814C0", Slot = "9")]
 			public Touch GetTouch(int index)
 			{
 				return default(Touch);
 			}
 
-			[Token(Token = "0x6001019")]
-			[Address(RVA = "0x2FC1440", Offset = "0x2FBFA40", VA = "0x182FC1440", Slot = "11")]
+			[Token(Token = "0x6001017")]
+			[Address(RVA = "0x6C81520", Offset = "0x6C80520", VA = "0x6C81520", Slot = "11")]
 			public bool GetMouseButtonDown(int button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x600101A")]
-			[Address(RVA = "0x2FC1450", Offset = "0x2FBFA50", VA = "0x182FC1450", Slot = "12")]
+			[Token(Token = "0x6001018")]
+			[Address(RVA = "0x6C81530", Offset = "0x6C80530", VA = "0x6C81530", Slot = "12")]
 			public bool GetMouseButtonUp(int button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x6001020")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Token(Token = "0x600101E")]
+			[Address(RVA = "0x6C7E510", Offset = "0x6C7D510", VA = "0x6C7E510")]
 			public Input()
 			{
 			}
 		}
 
-		[Token(Token = "0x2000264")]
+		[Token(Token = "0x2000262")]
 		private class NoInput : IInput
 		{
 			[Token(Token = "0x17000329")]
 			public int touchCount
 			{
-				[Token(Token = "0x6001023")]
-				[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+				[Token(Token = "0x6001021")]
+				[Address(RVA = "0x6C815C0", Offset = "0x6C805C0", VA = "0x6C815C0", Slot = "8")]
 				get
 				{
 					return default(int);
@@ -362,8 +333,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032A")]
 			public bool mousePresent
 			{
-				[Token(Token = "0x6001027")]
-				[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "10")]
+				[Token(Token = "0x6001025")]
+				[Address(RVA = "0x6C81620", Offset = "0x6C80620", VA = "0x6C81620", Slot = "10")]
 				get
 				{
 					return default(bool);
@@ -373,8 +344,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032B")]
 			public Vector3 mousePosition
 			{
-				[Token(Token = "0x600102A")]
-				[Address(RVA = "0xB62B70", Offset = "0xB61170", VA = "0x180B62B70", Slot = "13")]
+				[Token(Token = "0x6001028")]
+				[Address(RVA = "0x6C81650", Offset = "0x6C80650", VA = "0x6C81650", Slot = "13")]
 				get
 				{
 					return default(Vector3);
@@ -384,8 +355,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032C")]
 			public int mouseButtonCount
 			{
-				[Token(Token = "0x600102B")]
-				[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
+				[Token(Token = "0x6001029")]
+				[Address(RVA = "0x6C81660", Offset = "0x6C80660", VA = "0x6C81660", Slot = "14")]
 				get
 				{
 					return default(int);
@@ -395,8 +366,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032D")]
 			public bool anyKey
 			{
-				[Token(Token = "0x600102C")]
-				[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "15")]
+				[Token(Token = "0x600102A")]
+				[Address(RVA = "0x6C81670", Offset = "0x6C80670", VA = "0x6C81670", Slot = "15")]
 				get
 				{
 					return default(bool);
@@ -406,8 +377,8 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032E")]
 			public float unscaledTime
 			{
-				[Token(Token = "0x600102D")]
-				[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "16")]
+				[Token(Token = "0x600102B")]
+				[Address(RVA = "0x6C81680", Offset = "0x6C80680", VA = "0x6C81680", Slot = "16")]
 				get
 				{
 					return default(float);
@@ -417,142 +388,142 @@ internal class DefaultEventSystem
 			[Token(Token = "0x1700032F")]
 			public float doubleClickTime
 			{
-				[Token(Token = "0x600102E")]
-				[Address(RVA = "0x20A7610", Offset = "0x20A5C10", VA = "0x1820A7610", Slot = "17")]
+				[Token(Token = "0x600102C")]
+				[Address(RVA = "0x6C81690", Offset = "0x6C80690", VA = "0x6C81690", Slot = "17")]
 				get
 				{
 					return default(float);
 				}
 			}
 
-			[Token(Token = "0x6001021")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+			[Token(Token = "0x600101F")]
+			[Address(RVA = "0x6C815A0", Offset = "0x6C805A0", VA = "0x6C815A0", Slot = "4")]
 			public bool GetButtonDown(string button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x6001022")]
-			[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "5")]
+			[Token(Token = "0x6001020")]
+			[Address(RVA = "0x6C815B0", Offset = "0x6C805B0", VA = "0x6C815B0", Slot = "5")]
 			public float GetAxisRaw(string axis)
 			{
 				return default(float);
 			}
 
-			[Token(Token = "0x6001024")]
-			[Address(RVA = "0x3280E80", Offset = "0x327F480", VA = "0x183280E80", Slot = "9")]
+			[Token(Token = "0x6001022")]
+			[Address(RVA = "0x6C815D0", Offset = "0x6C805D0", VA = "0x6C815D0", Slot = "9")]
 			public Touch GetTouch(int index)
 			{
 				return default(Touch);
 			}
 
-			[Token(Token = "0x6001025")]
-			[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+			[Token(Token = "0x6001023")]
+			[Address(RVA = "0x6C815F0", Offset = "0x6C805F0", VA = "0x6C815F0", Slot = "6")]
 			public void ClearLastPenContactEvent()
 			{
 			}
 
-			[Token(Token = "0x6001026")]
-			[Address(RVA = "0xB64860", Offset = "0xB62E60", VA = "0x180B64860", Slot = "7")]
+			[Token(Token = "0x6001024")]
+			[Address(RVA = "0x6C81600", Offset = "0x6C80600", VA = "0x6C81600", Slot = "7")]
 			public PenData GetLastPenContactEvent()
 			{
 				return default(PenData);
 			}
 
-			[Token(Token = "0x6001028")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
+			[Token(Token = "0x6001026")]
+			[Address(RVA = "0x6C81630", Offset = "0x6C80630", VA = "0x6C81630", Slot = "11")]
 			public bool GetMouseButtonDown(int button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x6001029")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "12")]
+			[Token(Token = "0x6001027")]
+			[Address(RVA = "0x6C81640", Offset = "0x6C80640", VA = "0x6C81640", Slot = "12")]
 			public bool GetMouseButtonUp(int button)
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x600102F")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Token(Token = "0x600102D")]
+			[Address(RVA = "0x6C7E520", Offset = "0x6C7D520", VA = "0x6C7E520")]
 			public NoInput()
 			{
 			}
 		}
 
-		[Token(Token = "0x40008CA")]
+		[Token(Token = "0x40008C6")]
 		[FieldOffset(Offset = "0x10")]
 		private bool m_SendingTouchEvents;
 
-		[Token(Token = "0x40008CB")]
+		[Token(Token = "0x40008C7")]
 		[FieldOffset(Offset = "0x11")]
 		private bool m_SendingPenEvent;
 
-		[Token(Token = "0x40008CC")]
+		[Token(Token = "0x40008C8")]
 		[FieldOffset(Offset = "0x14")]
 		private EventModifiers m_CurrentModifiers;
 
-		[Token(Token = "0x40008CD")]
+		[Token(Token = "0x40008C9")]
 		[FieldOffset(Offset = "0x18")]
 		private int m_LastMousePressButton;
 
-		[Token(Token = "0x40008CE")]
+		[Token(Token = "0x40008CA")]
 		[FieldOffset(Offset = "0x1C")]
 		private float m_NextMousePressTime;
 
-		[Token(Token = "0x40008CF")]
+		[Token(Token = "0x40008CB")]
 		[FieldOffset(Offset = "0x20")]
 		private int m_LastMouseClickCount;
 
-		[Token(Token = "0x40008D0")]
+		[Token(Token = "0x40008CC")]
 		[FieldOffset(Offset = "0x24")]
 		private Vector2 m_LastMousePosition;
 
-		[Token(Token = "0x40008D1")]
+		[Token(Token = "0x40008CD")]
 		[FieldOffset(Offset = "0x2C")]
 		private bool m_MouseProcessedAtLeastOnce;
 
-		[Token(Token = "0x40008D2")]
+		[Token(Token = "0x40008CE")]
 		[FieldOffset(Offset = "0x30")]
 		private Dictionary<int, int> m_TouchFingerIdToFingerIndex;
 
-		[Token(Token = "0x40008D3")]
+		[Token(Token = "0x40008CF")]
 		[FieldOffset(Offset = "0x38")]
 		private int m_TouchNextFingerIndex;
 
-		[Token(Token = "0x40008D4")]
+		[Token(Token = "0x40008D0")]
 		[FieldOffset(Offset = "0x40")]
 		private IInput m_Input;
 
-		[Token(Token = "0x40008D5")]
+		[Token(Token = "0x40008D1")]
 		[FieldOffset(Offset = "0x48")]
 		private readonly Event m_Event;
 
-		[Token(Token = "0x40008D6")]
+		[Token(Token = "0x40008D2")]
 		[FieldOffset(Offset = "0x50")]
 		private readonly DefaultEventSystem m_EventSystem;
 
-		[Token(Token = "0x40008D7")]
+		[Token(Token = "0x40008D3")]
 		[FieldOffset(Offset = "0x58")]
 		private int m_ConsecutiveMoveCount;
 
-		[Token(Token = "0x40008D8")]
+		[Token(Token = "0x40008D4")]
 		[FieldOffset(Offset = "0x5C")]
 		private Vector2 m_LastMoveVector;
 
-		[Token(Token = "0x40008D9")]
+		[Token(Token = "0x40008D5")]
 		[FieldOffset(Offset = "0x64")]
 		private float m_PrevActionTime;
 
-		[Token(Token = "0x40008DA")]
+		[Token(Token = "0x40008D6")]
 		[FieldOffset(Offset = "0x68")]
 		private bool m_IsMoveFromKeyboard;
 
 		[Token(Token = "0x17000319")]
 		private EventModifiers m_CurrentPointerModifiers
 		{
-			[Token(Token = "0x6000FF5")]
-			[Address(RVA = "0x327F780", Offset = "0x327DD80", VA = "0x18327F780")]
+			[Token(Token = "0x6000FF3")]
+			[Address(RVA = "0x6C7E210", Offset = "0x6C7D210", VA = "0x6C7E210")]
 			get
 			{
 				return default(EventModifiers);
@@ -562,97 +533,126 @@ internal class DefaultEventSystem
 		[Token(Token = "0x1700031A")]
 		public IInput input
 		{
-			[Token(Token = "0x6000FF6")]
-			[Address(RVA = "0x327F740", Offset = "0x327DD40", VA = "0x18327F740")]
+			[Token(Token = "0x6000FF4")]
+			[Address(RVA = "0x6C7E220", Offset = "0x6C7D220", VA = "0x6C7E220")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000FF7")]
-		[Address(RVA = "0x327F620", Offset = "0x327DC20", VA = "0x18327F620")]
+		[Token(Token = "0x6000FF5")]
+		[Address(RVA = "0x6C7E400", Offset = "0x6C7D400", VA = "0x6C7E400")]
 		public LegacyInputProcessor(DefaultEventSystem eventSystem)
 		{
 		}
 
-		[Token(Token = "0x6000FF8")]
-		[Address(RVA = "0x327C990", Offset = "0x327AF90", VA = "0x18327C990")]
+		[Token(Token = "0x6000FF6")]
+		[Address(RVA = "0x6C7E260", Offset = "0x6C7D260", VA = "0x6C7E260")]
 		public IInput GetDefaultInput()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000FF9")]
-		[Address(RVA = "0x327CE50", Offset = "0x327B450", VA = "0x18327CE50")]
+		[Token(Token = "0x6000FF7")]
+		[Address(RVA = "0x6C7E530", Offset = "0x6C7D530", VA = "0x6C7E530")]
 		public void ProcessLegacyInputEvents()
 		{
 		}
 
-		[Token(Token = "0x6000FFA")]
-		[Address(RVA = "0x327E730", Offset = "0x327CD30", VA = "0x18327E730")]
+		[Token(Token = "0x6000FF8")]
+		[Address(RVA = "0x6C7FCB0", Offset = "0x6C7ECB0", VA = "0x6C7FCB0")]
 		private void SendIMGUIEvents()
 		{
 		}
 
-		[Token(Token = "0x6000FFB")]
-		[Address(RVA = "0x327CF50", Offset = "0x327B550", VA = "0x18327CF50")]
+		[Token(Token = "0x6000FF9")]
+		[Address(RVA = "0x6C7F0F0", Offset = "0x6C7E0F0", VA = "0x6C7F0F0")]
 		private void ProcessMouseEvents()
 		{
 		}
 
-		[Token(Token = "0x6000FFC")]
-		[Address(RVA = "0x327EFB0", Offset = "0x327D5B0", VA = "0x18327EFB0")]
+		[Token(Token = "0x6000FFA")]
+		[Address(RVA = "0x6C80470", Offset = "0x6C7F470", VA = "0x6C80470")]
 		private void SendInputEvents()
 		{
 		}
 
-		[Token(Token = "0x6000FFD")]
-		[Address(RVA = "0x327E020", Offset = "0x327C620", VA = "0x18327E020")]
+		[Token(Token = "0x6000FFB")]
+		[Address(RVA = "0x6C7E9C0", Offset = "0x6C7D9C0", VA = "0x6C7E9C0")]
 		private bool ProcessTouchEvents()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000FFE")]
-		[Address(RVA = "0x327DA50", Offset = "0x327C050", VA = "0x18327DA50")]
+		[Token(Token = "0x6000FFC")]
+		[Address(RVA = "0x6C7E640", Offset = "0x6C7D640", VA = "0x6C7E640")]
 		private bool ProcessPenEvents()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000FFF")]
-		[Address(RVA = "0x327CA80", Offset = "0x327B080", VA = "0x18327CA80")]
+		[Token(Token = "0x6000FFD")]
+		[Address(RVA = "0x6C80F40", Offset = "0x6C7FF40", VA = "0x6C80F40")]
 		private Vector2 GetRawMoveVector()
 		{
 			return default(Vector2);
 		}
 
-		[Token(Token = "0x6001000")]
-		[Address(RVA = "0x327F340", Offset = "0x327D940", VA = "0x18327F340")]
+		[Token(Token = "0x6000FFE")]
+		[Address(RVA = "0x6C80AC0", Offset = "0x6C7FAC0", VA = "0x6C80AC0")]
 		private bool ShouldSendMoveFromInput()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001001")]
-		[Address(RVA = "0x327DE40", Offset = "0x327C440", VA = "0x18327DE40")]
+		[Token(Token = "0x6000FFF")]
+		[Address(RVA = "0x6C808F0", Offset = "0x6C7F8F0", VA = "0x6C808F0")]
 		private void ProcessTabEvent(Event e, EventModifiers modifiers)
 		{
 		}
 
-		[Token(Token = "0x6001002")]
-		[Address(RVA = "0x327CD50", Offset = "0x327B350", VA = "0x18327CD50")]
+		[Token(Token = "0x6001000")]
+		[Address(RVA = "0x6C812F0", Offset = "0x6C802F0", VA = "0x6C812F0")]
 		private static EventBase MakeTouchEvent(Touch touch, int pointerId, EventModifiers modifiers, int targetDisplay)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001003")]
-		[Address(RVA = "0x327CC80", Offset = "0x327B280", VA = "0x18327CC80")]
+		[Token(Token = "0x6001001")]
+		[Address(RVA = "0x6C813D0", Offset = "0x6C803D0", VA = "0x6C813D0")]
 		private static EventBase MakePenEvent(PenData pen, EventModifiers modifiers, int targetDisplay)
 		{
 			return null;
+		}
+	}
+
+	[Token(Token = "0x2000264")]
+	public enum UpdateMode
+	{
+		[Token(Token = "0x40008E5")]
+		Always,
+		[Token(Token = "0x40008E6")]
+		IgnoreIfAppNotFocused
+	}
+
+	[Token(Token = "0x2000265")]
+	internal struct FocusBasedEventSequenceContext : IDisposable
+	{
+		[Token(Token = "0x40008E7")]
+		[FieldOffset(Offset = "0x0")]
+		private DefaultEventSystem es;
+
+		[Token(Token = "0x600103C")]
+		[Address(RVA = "0x6C81F10", Offset = "0x6C80F10", VA = "0x6C81F10")]
+		public FocusBasedEventSequenceContext(DefaultEventSystem es)
+		{
+		}
+
+		[Token(Token = "0x600103D")]
+		[Address(RVA = "0x6C7DA00", Offset = "0x6C7CA00", VA = "0x6C7DA00", Slot = "4")]
+		public void Dispose()
+		{
 		}
 	}
 
@@ -740,7 +740,7 @@ internal class DefaultEventSystem
 	private bool isAppFocused
 	{
 		[Token(Token = "0x6000FBC")]
-		[Address(RVA = "0x32599F0", Offset = "0x3257FF0", VA = "0x1832599F0")]
+		[Address(RVA = "0x6C77AC0", Offset = "0x6C76AC0", VA = "0x6C77AC0")]
 		get
 		{
 			return default(bool);
@@ -751,13 +751,13 @@ internal class DefaultEventSystem
 	public RuntimePanel focusedPanel
 	{
 		[Token(Token = "0x6000FBE")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6C77B40", Offset = "0x6C76B40", VA = "0x6C77B40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FBF")]
-		[Address(RVA = "0x3258EA0", Offset = "0x32574A0", VA = "0x183258EA0")]
+		[Address(RVA = "0x6C77B50", Offset = "0x6C76B50", VA = "0x6C77B50")]
 		set
 		{
 		}
@@ -767,7 +767,7 @@ internal class DefaultEventSystem
 	internal LegacyInputProcessor legacyInputProcessor
 	{
 		[Token(Token = "0x6000FC1")]
-		[Address(RVA = "0x3259A30", Offset = "0x3258030", VA = "0x183259A30")]
+		[Address(RVA = "0x6C77E10", Offset = "0x6C76E10", VA = "0x6C77E10")]
 		get
 		{
 			return null;
@@ -778,7 +778,7 @@ internal class DefaultEventSystem
 	private InputForUIProcessor inputForUIProcessor
 	{
 		[Token(Token = "0x6000FC2")]
-		[Address(RVA = "0x3259980", Offset = "0x3257F80", VA = "0x183259980")]
+		[Address(RVA = "0x6C77DA0", Offset = "0x6C76DA0", VA = "0x6C77DA0")]
 		get
 		{
 			return null;
@@ -789,7 +789,7 @@ internal class DefaultEventSystem
 	internal bool isInputReady
 	{
 		[Token(Token = "0x6000FC3")]
-		[Address(RVA = "0x3259B10", Offset = "0x3258110", VA = "0x183259B10")]
+		[Address(RVA = "0x6C78610", Offset = "0x6C77610", VA = "0x6C78610")]
 		set
 		{
 		}
@@ -799,52 +799,52 @@ internal class DefaultEventSystem
 	public IScreenRaycaster raycaster
 	{
 		[Token(Token = "0x6000FCC")]
-		[Address(RVA = "0x3259AA0", Offset = "0x32580A0", VA = "0x183259AA0")]
+		[Address(RVA = "0x6C78960", Offset = "0x6C77960", VA = "0x6C78960")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FCD")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x6C789D0", Offset = "0x6C779D0", VA = "0x6C789D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x3258FC0", Offset = "0x32575C0", VA = "0x183258FC0")]
+	[Address(RVA = "0x6C77B20", Offset = "0x6C76B20", VA = "0x6C77B20")]
 	private bool ShouldIgnoreEventsOnAppNotFocused()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC0")]
-	[Address(RVA = "0x3259640", Offset = "0x3257C40", VA = "0x183259640")]
+	[Address(RVA = "0x6C77BA0", Offset = "0x6C76BA0", VA = "0x6C77BA0")]
 	public void Update(UpdateMode updateMode = UpdateMode.Always)
 	{
 	}
 
 	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x32585B0", Offset = "0x3256BB0", VA = "0x1832585B0")]
+	[Address(RVA = "0x6C788F0", Offset = "0x6C778F0", VA = "0x6C788F0")]
 	internal FocusBasedEventSequenceContext FocusBasedEventSequence()
 	{
 		return default(FocusBasedEventSequenceContext);
 	}
 
 	[Token(Token = "0x6000FC5")]
-	[Address(RVA = "0x3258F00", Offset = "0x3257500", VA = "0x183258F00")]
+	[Address(RVA = "0x6C787F0", Offset = "0x6C777F0", VA = "0x6C787F0")]
 	private void RemoveInputProcessor()
 	{
 	}
 
 	[Token(Token = "0x6000FC6")]
-	[Address(RVA = "0x3258770", Offset = "0x3256D70", VA = "0x183258770")]
+	[Address(RVA = "0x6C78630", Offset = "0x6C77630", VA = "0x6C78630")]
 	private void InitInputProcessor()
 	{
 	}
 
 	[Token(Token = "0x6000FC7")]
-	[Address(RVA = "0x3258EA0", Offset = "0x32574A0", VA = "0x183258EA0")]
+	[Address(RVA = "0x6C78910", Offset = "0x6C77910", VA = "0x6C78910")]
 	internal void OnFocusEvent(RuntimePanel panel, FocusEvent evt)
 	{
 	}
@@ -870,56 +870,56 @@ internal class DefaultEventSystem
 	}
 
 	[Token(Token = "0x6000FCE")]
-	[Address(RVA = "0x3257630", Offset = "0x3255C30", VA = "0x183257630")]
+	[Address(RVA = "0x6C789E0", Offset = "0x6C779E0", VA = "0x6C789E0")]
 	internal void FindTargetAtPosition(Vector2 mousePosition, Vector2 delta, int pointerId, int? targetDisplay, out VisualElement target, out RuntimePanel targetPanel, out Vector3 targetPanelPosition, out VisualElement elementUnderPointer, out Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6000FCF")]
-	[Address(RVA = "0x3258060", Offset = "0x3256660", VA = "0x183258060")]
+	[Address(RVA = "0x6C79760", Offset = "0x6C78760", VA = "0x6C79760")]
 	internal void FindTargetAtRay(Ray worldRay, float maxDistance, int pointerId, out VisualElement target, out RuntimePanel targetPanel, out Vector3 targetPanelPosition, out VisualElement elementUnderPointer)
 	{
 	}
 
 	[Token(Token = "0x6000FD0")]
-	[Address(RVA = "0x32585E0", Offset = "0x3256BE0", VA = "0x1832585E0")]
+	[Address(RVA = "0x6C795E0", Offset = "0x6C785E0", VA = "0x6C795E0")]
 	private Vector3 GetPanelPosition(VisualElement pickedElement, UIDocument document, Ray worldRay)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x3258FE0", Offset = "0x32575E0", VA = "0x183258FE0")]
+	[Address(RVA = "0x6C79D60", Offset = "0x6C78D60", VA = "0x6C79D60")]
 	private void UpdateFocusedPanel(RuntimePanel runtimePanel)
 	{
 	}
 
 	[Token(Token = "0x6000FD2")]
-	[Address(RVA = "0x32590C0", Offset = "0x32576C0", VA = "0x1832590C0")]
+	[Address(RVA = "0x6C77E80", Offset = "0x6C76E80", VA = "0x6C77E80")]
 	private void UpdateWorldSpacePointers()
 	{
 	}
 
 	[Token(Token = "0x6000FD3")]
-	[Address(RVA = "0x3258E00", Offset = "0x3257400", VA = "0x183258E00")]
+	[Address(RVA = "0x6C79E50", Offset = "0x6C78E50", VA = "0x6C79E50")]
 	private void Log(object o)
 	{
 	}
 
 	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x3258D40", Offset = "0x3257340", VA = "0x183258D40")]
+	[Address(RVA = "0x6C7A2F0", Offset = "0x6C792F0", VA = "0x6C7A2F0")]
 	private void LogWarning(object o)
 	{
 	}
 
 	[Token(Token = "0x6000FD5")]
-	[Address(RVA = "0x32588D0", Offset = "0x3256ED0", VA = "0x1832588D0")]
+	[Address(RVA = "0x6C79F00", Offset = "0x6C78F00", VA = "0x6C79F00")]
 	private void LogToGameScreen(string s)
 	{
 	}
 
 	[Token(Token = "0x6000FD6")]
-	[Address(RVA = "0x3259870", Offset = "0x3257E70", VA = "0x183259870")]
+	[Address(RVA = "0x6C7A3A0", Offset = "0x6C793A0", VA = "0x6C7A3A0")]
 	public DefaultEventSystem()
 	{
 	}

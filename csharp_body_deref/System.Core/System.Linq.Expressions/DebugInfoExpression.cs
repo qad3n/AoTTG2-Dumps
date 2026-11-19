@@ -12,39 +12,39 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x200007D")]
 [DebuggerTypeProxy(typeof(DebugInfoExpressionProxy))]
 public class DebugInfoExpression : Expression
 {
-	[Token(Token = "0x1700007C")]
+	[Token(Token = "0x1700007E")]
 	[ExcludeFromCodeCoverage]
 	public virtual int StartLine
 	{
-		[Token(Token = "0x600031D")]
-		[Address(RVA = "0x242BB50", Offset = "0x242A150", VA = "0x18242BB50", Slot = "10")]
+		[Token(Token = "0x6000328")]
+		[Address(RVA = "0x5DC6CB0", Offset = "0x5DC5CB0", VA = "0x5DC6CB0", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700007D")]
+	[Token(Token = "0x1700007F")]
 	[ExcludeFromCodeCoverage]
 	public virtual int EndLine
 	{
-		[Token(Token = "0x600031E")]
-		[Address(RVA = "0x242BAF0", Offset = "0x242A0F0", VA = "0x18242BAF0", Slot = "11")]
+		[Token(Token = "0x6000329")]
+		[Address(RVA = "0x5DC6CE0", Offset = "0x5DC5CE0", VA = "0x5DC6CE0", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700007E")]
+	[Token(Token = "0x17000080")]
 	public SymbolDocumentInfo Document
 	{
-		[Token(Token = "0x600031F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600032A")]
+		[Address(RVA = "0x5DC6D10", Offset = "0x5DC5D10", VA = "0x5DC6D10")]
 		[CompilerGenerated]
 		get
 		{
@@ -52,12 +52,12 @@ public class DebugInfoExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x1700007F")]
+	[Token(Token = "0x17000081")]
 	[ExcludeFromCodeCoverage]
 	public virtual bool IsClear
 	{
-		[Token(Token = "0x6000320")]
-		[Address(RVA = "0x242BB20", Offset = "0x242A120", VA = "0x18242BB20", Slot = "12")]
+		[Token(Token = "0x600032B")]
+		[Address(RVA = "0x5DC6D20", Offset = "0x5DC5D20", VA = "0x5DC6D20", Slot = "12")]
 		get
 		{
 			return default(bool);

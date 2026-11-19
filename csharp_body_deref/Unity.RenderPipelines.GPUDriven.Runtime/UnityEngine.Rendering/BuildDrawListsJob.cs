@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.BuildDrawListsJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -57,14 +57,14 @@ internal struct BuildDrawListsJob : IJobParallelFor
 	public NativeArray<int> drawInstanceIndices;
 
 	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x2BD4A20", Offset = "0x2BD3020", VA = "0x182BD4A20")]
+	[Address(RVA = "0x65CA550", Offset = "0x65C9550", VA = "0x65CA550")]
 	private unsafe static int IncrementCounter(int* counter)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x2BD4920", Offset = "0x2BD2F20", VA = "0x182BD4920", Slot = "4")]
+	[Address(RVA = "0x65CA580", Offset = "0x65C9580", VA = "0x65CA580", Slot = "4")]
 	public void Execute(int index)
 	{
 	}

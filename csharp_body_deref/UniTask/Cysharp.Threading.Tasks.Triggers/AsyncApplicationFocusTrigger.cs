@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncApplicationFocusTrigger : AsyncTriggerBase<bool>
 {
 	[Token(Token = "0x6000AA3")]
-	[Address(RVA = "0x2928780", Offset = "0x2926D80", VA = "0x182928780")]
+	[Address(RVA = "0x62F7540", Offset = "0x62F6540", VA = "0x62F7540")]
 	private void OnApplicationFocus(bool hasFocus)
 	{
 	}
 
 	[Token(Token = "0x6000AA4")]
-	[Address(RVA = "0x2928470", Offset = "0x2926A70", VA = "0x182928470")]
+	[Address(RVA = "0x62F7580", Offset = "0x62F6580", VA = "0x62F7580")]
 	public IAsyncOnApplicationFocusHandler GetOnApplicationFocusAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AA5")]
-	[Address(RVA = "0x29284E0", Offset = "0x2926AE0", VA = "0x1829284E0")]
+	[Address(RVA = "0x62F75F0", Offset = "0x62F65F0", VA = "0x62F75F0")]
 	public IAsyncOnApplicationFocusHandler GetOnApplicationFocusAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AA6")]
-	[Address(RVA = "0x2928670", Offset = "0x2926C70", VA = "0x182928670")]
+	[Address(RVA = "0x62F7660", Offset = "0x62F6660", VA = "0x62F7660")]
 	public UniTask<bool> OnApplicationFocusAsync()
 	{
 		return default(UniTask<bool>);
 	}
 
 	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x2928560", Offset = "0x2926B60", VA = "0x182928560")]
+	[Address(RVA = "0x62F7750", Offset = "0x62F6750", VA = "0x62F7750")]
 	public UniTask<bool> OnApplicationFocusAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<bool>);
 	}
 
 	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x29287D0", Offset = "0x2926DD0", VA = "0x1829287D0")]
+	[Address(RVA = "0x62F7840", Offset = "0x62F6840", VA = "0x62F7840")]
 	public AsyncApplicationFocusTrigger()
 	{
 	}

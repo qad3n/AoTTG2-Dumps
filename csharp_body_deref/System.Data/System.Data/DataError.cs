@@ -40,13 +40,13 @@ internal sealed class DataError
 	internal string Text
 	{
 		[Token(Token = "0x60003D4")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5E93C90", Offset = "0x5E92C90", VA = "0x5E93C90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003D5")]
-		[Address(RVA = "0x24EE510", Offset = "0x24ECB10", VA = "0x1824EE510")]
+		[Address(RVA = "0x5E93CA0", Offset = "0x5E92CA0", VA = "0x5E93CA0")]
 		set
 		{
 		}
@@ -56,7 +56,7 @@ internal sealed class DataError
 	internal bool HasErrors
 	{
 		[Token(Token = "0x60003D6")]
-		[Address(RVA = "0x24EE5F0", Offset = "0x24ECBF0", VA = "0x1824EE5F0")]
+		[Address(RVA = "0x5E93CE0", Offset = "0x5E92CE0", VA = "0x5E93CE0")]
 		get
 		{
 			return default(bool);
@@ -64,57 +64,57 @@ internal sealed class DataError
 	}
 
 	[Token(Token = "0x60003D2")]
-	[Address(RVA = "0x24EE5B0", Offset = "0x24ECBB0", VA = "0x1824EE5B0")]
+	[Address(RVA = "0x5E93B90", Offset = "0x5E92B90", VA = "0x5E93B90")]
 	internal DataError()
 	{
 	}
 
 	[Token(Token = "0x60003D3")]
-	[Address(RVA = "0x24EE540", Offset = "0x24ECB40", VA = "0x1824EE540")]
+	[Address(RVA = "0x5E93BD0", Offset = "0x5E92BD0", VA = "0x5E93BD0")]
 	internal DataError(string rowError)
 	{
 	}
 
 	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x24EE250", Offset = "0x24EC850", VA = "0x1824EE250")]
+	[Address(RVA = "0x5E93D10", Offset = "0x5E92D10", VA = "0x5E93D10")]
 	internal void SetColumnError(DataColumn column, string error)
 	{
 	}
 
 	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x24EDF90", Offset = "0x24EC590", VA = "0x1824EDF90")]
+	[Address(RVA = "0x5E94070", Offset = "0x5E93070", VA = "0x5E94070")]
 	internal string GetColumnError(DataColumn column)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x24EDE70", Offset = "0x24EC470", VA = "0x1824EDE70")]
+	[Address(RVA = "0x5E93E30", Offset = "0x5E92E30", VA = "0x5E93E30")]
 	internal void Clear(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x24EDF10", Offset = "0x24EC510", VA = "0x1824EDF10")]
+	[Address(RVA = "0x5E940D0", Offset = "0x5E930D0", VA = "0x5E940D0")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x60003DB")]
-	[Address(RVA = "0x24EE010", Offset = "0x24EC610", VA = "0x1824EE010")]
+	[Address(RVA = "0x5E94150", Offset = "0x5E93150", VA = "0x5E94150")]
 	internal DataColumn[] GetColumnsInError()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003DC")]
-	[Address(RVA = "0x24EE510", Offset = "0x24ECB10", VA = "0x1824EE510")]
+	[Address(RVA = "0x5E93C50", Offset = "0x5E92C50", VA = "0x5E93C50")]
 	private void SetText(string errorText)
 	{
 	}
 
 	[Token(Token = "0x60003DD")]
-	[Address(RVA = "0x24EE100", Offset = "0x24EC700", VA = "0x1824EE100")]
+	[Address(RVA = "0x5E93F20", Offset = "0x5E92F20", VA = "0x5E93F20")]
 	internal int IndexOf(DataColumn column)
 	{
 		return default(int);

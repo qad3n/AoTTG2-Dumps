@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UxmlObjectAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,13 +31,13 @@ internal class UxmlObjectAsset : UxmlAsset
 	public int parentId
 	{
 		[Token(Token = "0x60026EA")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x6B5BFC0", Offset = "0x6B5AFC0", VA = "0x6B5BFC0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60026EB")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x6B5BFD0", Offset = "0x6B5AFD0", VA = "0x6B5BFD0")]
 		set
 		{
 		}
@@ -47,7 +47,7 @@ internal class UxmlObjectAsset : UxmlAsset
 	public bool isField
 	{
 		[Token(Token = "0x60026EC")]
-		[Address(RVA = "0x1B020E0", Offset = "0x1B006E0", VA = "0x181B020E0")]
+		[Address(RVA = "0x6B5BFE0", Offset = "0x6B5AFE0", VA = "0x6B5BFE0")]
 		get
 		{
 			return default(bool);
@@ -55,27 +55,27 @@ internal class UxmlObjectAsset : UxmlAsset
 	}
 
 	[Token(Token = "0x60026E9")]
-	[Address(RVA = "0x31579F0", Offset = "0x3155FF0", VA = "0x1831579F0", Slot = "6")]
+	[Address(RVA = "0x6B5BFB0", Offset = "0x6B5AFB0", VA = "0x6B5BFB0", Slot = "6")]
 	public override bool HasParent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026ED")]
-	[Address(RVA = "0x3157B00", Offset = "0x3156100", VA = "0x183157B00")]
+	[Address(RVA = "0x6B5BFF0", Offset = "0x6B5AFF0", VA = "0x6B5BFF0")]
 	public UxmlObjectAsset(string fullTypeNameOrFieldName, bool isField, [Optional] UxmlNamespaceDefinition xmlNamespace)
 	{
 	}
 
 	[Token(Token = "0x60026EE")]
-	[Address(RVA = "0x3157830", Offset = "0x3155E30", VA = "0x183157830", Slot = "7")]
+	[Address(RVA = "0x6B5C040", Offset = "0x6B5B040", VA = "0x6B5C040", Slot = "7")]
 	internal override bool Accepts(UxmlAsset asset, out string errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026EF")]
-	[Address(RVA = "0x3157A00", Offset = "0x3156000", VA = "0x183157A00", Slot = "3")]
+	[Address(RVA = "0x6B5C1D0", Offset = "0x6B5B1D0", VA = "0x6B5C1D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

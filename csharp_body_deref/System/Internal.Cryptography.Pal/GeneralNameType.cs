@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Internal.Cryptography.Pal;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x200006D")]
 internal enum GeneralNameType
 {
-	[Token(Token = "0x4000208")]
+	[Token(Token = "0x4000138")]
 	OtherName = 0,
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x4000139")]
 	Rfc822Name = 1,
-	[Token(Token = "0x400020A")]
+	[Token(Token = "0x400013A")]
 	Email = Rfc822Name,
-	[Token(Token = "0x400020B")]
+	[Token(Token = "0x400013B")]
 	DnsName = 2,
-	[Token(Token = "0x400020C")]
+	[Token(Token = "0x400013C")]
 	X400Address = 3,
-	[Token(Token = "0x400020D")]
+	[Token(Token = "0x400013D")]
 	DirectoryName = 4,
-	[Token(Token = "0x400020E")]
+	[Token(Token = "0x400013E")]
 	EdiPartyName = 5,
-	[Token(Token = "0x400020F")]
+	[Token(Token = "0x400013F")]
 	UniformResourceIdentifier = 6,
-	[Token(Token = "0x4000210")]
+	[Token(Token = "0x4000140")]
 	IPAddress = 7,
-	[Token(Token = "0x4000211")]
+	[Token(Token = "0x4000141")]
 	RegisteredId = 8
 }

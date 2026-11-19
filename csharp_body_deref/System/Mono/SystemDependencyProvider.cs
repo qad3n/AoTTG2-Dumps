@@ -13,11 +13,11 @@ namespace Mono;
 [Token(Token = "0x2000003")]
 internal class SystemDependencyProvider
 {
-	[Token(Token = "0x4000005")]
+	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x0")]
 	private static SystemDependencyProvider instance;
 
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x8")]
 	private static object syncRoot;
 
@@ -25,7 +25,7 @@ internal class SystemDependencyProvider
 	public static SystemDependencyProvider Instance
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x249FBB0", Offset = "0x249E1B0", VA = "0x18249FBB0")]
+		[Address(RVA = "0x5E2E360", Offset = "0x5E2D360", VA = "0x5E2E360")]
 		get
 		{
 			return null;
@@ -36,7 +36,7 @@ internal class SystemDependencyProvider
 	private Mono.ISystemCertificateProvider Mono_002EISystemDependencyProvider_002ECertificateProvider
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Address(RVA = "0x5E2E590", Offset = "0x5E2D590", VA = "0x5E2E590", Slot = "4")]
 		get
 		{
 			return null;
@@ -47,7 +47,7 @@ internal class SystemDependencyProvider
 	public SystemCertificateProvider CertificateProvider
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5E2E5A0", Offset = "0x5E2D5A0", VA = "0x5E2E5A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -59,7 +59,7 @@ internal class SystemDependencyProvider
 	public X509PalImpl X509Pal
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x249FC10", Offset = "0x249E210", VA = "0x18249FC10")]
+		[Address(RVA = "0x5E2E5B0", Offset = "0x5E2D5B0", VA = "0x5E2E5B0")]
 		get
 		{
 			return null;
@@ -67,13 +67,13 @@ internal class SystemDependencyProvider
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x249F8B0", Offset = "0x249DEB0", VA = "0x18249F8B0")]
+	[Address(RVA = "0x5E2E3B0", Offset = "0x5E2D3B0", VA = "0x5E2E3B0")]
 	internal static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x249FB10", Offset = "0x249E110", VA = "0x18249FB10")]
+	[Address(RVA = "0x5E2E500", Offset = "0x5E2D500", VA = "0x5E2E500")]
 	private SystemDependencyProvider()
 	{
 	}

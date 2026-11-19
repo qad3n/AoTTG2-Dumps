@@ -15,7 +15,7 @@ namespace Newtonsoft.Json.Serialization;
 public sealed class OnErrorAttribute : Attribute
 {
 	[Token(Token = "0x600098D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x55EBDC0", Offset = "0x55EADC0", VA = "0x55EBDC0")]
 	public OnErrorAttribute()
 	{
 	}

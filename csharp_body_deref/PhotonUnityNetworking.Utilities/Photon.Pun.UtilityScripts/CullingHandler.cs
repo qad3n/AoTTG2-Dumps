@@ -52,50 +52,50 @@ public class CullingHandler : MonoBehaviour, IPunObservable
 	private float timeBetweenUpdatesMin;
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x1D52370", Offset = "0x1D50970", VA = "0x181D52370")]
+	[Address(RVA = "0x56E86A0", Offset = "0x56E76A0", VA = "0x56E86A0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x1D52AE0", Offset = "0x1D510E0", VA = "0x181D52AE0")]
+	[Address(RVA = "0x56E8860", Offset = "0x56E7860", VA = "0x56E8860")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x1D52E80", Offset = "0x1D51480", VA = "0x181D52E80")]
+	[Address(RVA = "0x56E89B0", Offset = "0x56E79B0", VA = "0x56E89B0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x1D52530", Offset = "0x1D50B30", VA = "0x181D52530")]
+	[Address(RVA = "0x56E8F60", Offset = "0x56E7F60", VA = "0x56E8F60")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x1D52050", Offset = "0x1D50650", VA = "0x181D52050")]
+	[Address(RVA = "0x56E8A80", Offset = "0x56E7A80", VA = "0x56E8A80")]
 	private bool HaveActiveCellsChanged()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x1D52C40", Offset = "0x1D51240", VA = "0x181D52C40")]
+	[Address(RVA = "0x56E8C60", Offset = "0x56E7C60", VA = "0x56E8C60")]
 	private void UpdateInterestGroups()
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x1D52900", Offset = "0x1D50F00", VA = "0x181D52900", Slot = "4")]
+	[Address(RVA = "0x56E9300", Offset = "0x56E8300", VA = "0x56E9300", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x1D52F80", Offset = "0x1D51580", VA = "0x181D52F80")]
+	[Address(RVA = "0x56E9460", Offset = "0x56E8460", VA = "0x56E9460")]
 	public CullingHandler()
 	{
 	}

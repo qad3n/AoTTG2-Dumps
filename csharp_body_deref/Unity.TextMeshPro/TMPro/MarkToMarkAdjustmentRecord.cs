@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.MarkToMarkAdjustmentRecord
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,13 +39,13 @@ public struct MarkToMarkAdjustmentRecord
 	public uint baseMarkGlyphID
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x66DACC0", Offset = "0x66D9CC0", VA = "0x66DACC0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x66DACD0", Offset = "0x66D9CD0", VA = "0x66DACD0")]
 		set
 		{
 		}
@@ -55,13 +55,13 @@ public struct MarkToMarkAdjustmentRecord
 	public GlyphAnchorPoint baseMarkGlyphAnchorPoint
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0xADC3B0", Offset = "0xADA9B0", VA = "0x180ADC3B0")]
+		[Address(RVA = "0x66DACE0", Offset = "0x66D9CE0", VA = "0x66DACE0")]
 		get
 		{
 			return default(GlyphAnchorPoint);
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x1B943B0", Offset = "0x1B929B0", VA = "0x181B943B0")]
+		[Address(RVA = "0x66DACF0", Offset = "0x66D9CF0", VA = "0x66DACF0")]
 		set
 		{
 		}
@@ -71,13 +71,13 @@ public struct MarkToMarkAdjustmentRecord
 	public uint combiningMarkGlyphID
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x66DAD00", Offset = "0x66D9D00", VA = "0x66DAD00")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
+		[Address(RVA = "0x66DAD10", Offset = "0x66D9D10", VA = "0x66DAD10")]
 		set
 		{
 		}
@@ -87,13 +87,13 @@ public struct MarkToMarkAdjustmentRecord
 	public MarkPositionAdjustment combiningMarkPositionAdjustment
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x560EA0", Offset = "0x55F4A0", VA = "0x180560EA0")]
+		[Address(RVA = "0x66DAD20", Offset = "0x66D9D20", VA = "0x66DAD20")]
 		get
 		{
 			return default(MarkPositionAdjustment);
 		}
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x560EC0", Offset = "0x55F4C0", VA = "0x180560EC0")]
+		[Address(RVA = "0x66DAD30", Offset = "0x66D9D30", VA = "0x66DAD30")]
 		set
 		{
 		}

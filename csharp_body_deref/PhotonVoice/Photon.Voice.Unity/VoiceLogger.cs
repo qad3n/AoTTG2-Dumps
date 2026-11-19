@@ -21,27 +21,27 @@ public class VoiceLogger : MonoBehaviour
 	public DebugLevel LogLevel;
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x5737290", Offset = "0x5736290", VA = "0x5737290")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x1D998C0", Offset = "0x1D97EC0", VA = "0x181D998C0")]
+	[Address(RVA = "0x57369B0", Offset = "0x57359B0", VA = "0x57369B0")]
 	public static VoiceLogger FindLogger(GameObject gameObject)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x1D99840", Offset = "0x1D97E40", VA = "0x181D99840")]
+	[Address(RVA = "0x5736DD0", Offset = "0x5735DD0", VA = "0x5736DD0")]
 	public static VoiceLogger CreateRootLogger()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x1D99BD0", Offset = "0x1D981D0", VA = "0x181D99BD0")]
+	[Address(RVA = "0x57372A0", Offset = "0x57362A0", VA = "0x57372A0")]
 	public VoiceLogger()
 	{
 	}

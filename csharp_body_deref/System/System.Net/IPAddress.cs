@@ -12,273 +12,273 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002A4")]
+[Token(Token = "0x2000265")]
 public class IPAddress
 {
-	[Token(Token = "0x20002A5")]
+	[Token(Token = "0x2000266")]
 	private sealed class ReadOnlyIPAddress : IPAddress
 	{
-		[Token(Token = "0x6001295")]
-		[Address(RVA = "0x2904DF0", Offset = "0x29033F0", VA = "0x182904DF0")]
+		[Token(Token = "0x60010D7")]
+		[Address(RVA = "0x6293FF0", Offset = "0x6292FF0", VA = "0x6293FF0")]
 		public ReadOnlyIPAddress(long newAddress)
 		{
 		}
 	}
 
-	[Token(Token = "0x400098C")]
+	[Token(Token = "0x40008BD")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly IPAddress Any;
 
-	[Token(Token = "0x400098D")]
+	[Token(Token = "0x40008BE")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly IPAddress Loopback;
 
-	[Token(Token = "0x400098E")]
+	[Token(Token = "0x40008BF")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly IPAddress Broadcast;
 
-	[Token(Token = "0x400098F")]
+	[Token(Token = "0x40008C0")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly IPAddress None;
 
-	[Token(Token = "0x4000990")]
+	[Token(Token = "0x40008C1")]
 	internal const long LoopbackMask = 255L;
 
-	[Token(Token = "0x4000991")]
+	[Token(Token = "0x40008C2")]
 	[FieldOffset(Offset = "0x20")]
 	public static readonly IPAddress IPv6Any;
 
-	[Token(Token = "0x4000992")]
+	[Token(Token = "0x40008C3")]
 	[FieldOffset(Offset = "0x28")]
 	public static readonly IPAddress IPv6Loopback;
 
-	[Token(Token = "0x4000993")]
+	[Token(Token = "0x40008C4")]
 	[FieldOffset(Offset = "0x30")]
 	public static readonly IPAddress IPv6None;
 
-	[Token(Token = "0x4000994")]
+	[Token(Token = "0x40008C5")]
 	[FieldOffset(Offset = "0x10")]
 	private uint _addressOrScopeId;
 
-	[Token(Token = "0x4000995")]
+	[Token(Token = "0x40008C6")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly ushort[] _numbers;
 
-	[Token(Token = "0x4000996")]
+	[Token(Token = "0x40008C7")]
 	[FieldOffset(Offset = "0x20")]
 	private string _toString;
 
-	[Token(Token = "0x4000997")]
+	[Token(Token = "0x40008C8")]
 	[FieldOffset(Offset = "0x28")]
 	private int _hashCode;
 
-	[Token(Token = "0x4000998")]
+	[Token(Token = "0x40008C9")]
 	internal const int NumberOfLabels = 8;
 
-	[Token(Token = "0x170003B8")]
+	[Token(Token = "0x17000389")]
 	private bool IsIPv4
 	{
-		[Token(Token = "0x6001278")]
-		[Address(RVA = "0x152F2E0", Offset = "0x152D8E0", VA = "0x18152F2E0")]
+		[Token(Token = "0x60010BA")]
+		[Address(RVA = "0x6292490", Offset = "0x6291490", VA = "0x6292490")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003B9")]
+	[Token(Token = "0x1700038A")]
 	private bool IsIPv6
 	{
-		[Token(Token = "0x6001279")]
-		[Address(RVA = "0x1979E60", Offset = "0x1978460", VA = "0x181979E60")]
+		[Token(Token = "0x60010BB")]
+		[Address(RVA = "0x62924A0", Offset = "0x62914A0", VA = "0x62924A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003BA")]
+	[Token(Token = "0x1700038B")]
 	private uint PrivateAddress
 	{
-		[Token(Token = "0x600127A")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60010BC")]
+		[Address(RVA = "0x62924B0", Offset = "0x62914B0", VA = "0x62924B0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x600127B")]
-		[Address(RVA = "0x2902760", Offset = "0x2900D60", VA = "0x182902760")]
+		[Token(Token = "0x60010BD")]
+		[Address(RVA = "0x62924C0", Offset = "0x62914C0", VA = "0x62924C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003BB")]
+	[Token(Token = "0x1700038C")]
 	private uint PrivateScopeId
 	{
-		[Token(Token = "0x600127C")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60010BE")]
+		[Address(RVA = "0x62924F0", Offset = "0x62914F0", VA = "0x62924F0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x600127D")]
-		[Address(RVA = "0x2902760", Offset = "0x2900D60", VA = "0x182902760")]
+		[Token(Token = "0x60010BF")]
+		[Address(RVA = "0x6292500", Offset = "0x6291500", VA = "0x6292500")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003BC")]
+	[Token(Token = "0x1700038D")]
 	public AddressFamily AddressFamily
 	{
-		[Token(Token = "0x600128B")]
-		[Address(RVA = "0x29026E0", Offset = "0x2900CE0", VA = "0x1829026E0")]
+		[Token(Token = "0x60010CD")]
+		[Address(RVA = "0x6293370", Offset = "0x6292370", VA = "0x6293370")]
 		get
 		{
 			return default(AddressFamily);
 		}
 	}
 
-	[Token(Token = "0x170003BD")]
+	[Token(Token = "0x1700038E")]
 	public long ScopeId
 	{
-		[Token(Token = "0x600128C")]
-		[Address(RVA = "0x2902700", Offset = "0x2900D00", VA = "0x182902700")]
+		[Token(Token = "0x60010CE")]
+		[Address(RVA = "0x6293390", Offset = "0x6292390", VA = "0x6293390")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x600127E")]
-	[Address(RVA = "0x2902280", Offset = "0x2900880", VA = "0x182902280")]
+	[Token(Token = "0x60010C0")]
+	[Address(RVA = "0x6292530", Offset = "0x6291530", VA = "0x6292530")]
 	public IPAddress(long newAddress)
 	{
 	}
 
-	[Token(Token = "0x600127F")]
-	[Address(RVA = "0x2902110", Offset = "0x2900710", VA = "0x182902110")]
+	[Token(Token = "0x60010C1")]
+	[Address(RVA = "0x62925C0", Offset = "0x62915C0", VA = "0x62925C0")]
 	public IPAddress(byte[] address, long scopeid)
 	{
 	}
 
-	[Token(Token = "0x6001280")]
-	[Address(RVA = "0x2902510", Offset = "0x2900B10", VA = "0x182902510")]
+	[Token(Token = "0x60010C2")]
+	[Address(RVA = "0x62926D0", Offset = "0x62916D0", VA = "0x62926D0")]
 	public IPAddress(ReadOnlySpan<byte> address, long scopeid)
 	{
 	}
 
-	[Token(Token = "0x6001281")]
-	[Address(RVA = "0x29021B0", Offset = "0x29007B0", VA = "0x1829021B0")]
+	[Token(Token = "0x60010C3")]
+	[Address(RVA = "0x62928B0", Offset = "0x62918B0", VA = "0x62928B0")]
 	internal unsafe IPAddress(ushort* numbers, int numbersLength, uint scopeid)
 	{
 	}
 
-	[Token(Token = "0x6001282")]
-	[Address(RVA = "0x29020B0", Offset = "0x29006B0", VA = "0x1829020B0")]
+	[Token(Token = "0x60010C4")]
+	[Address(RVA = "0x62929E0", Offset = "0x62919E0", VA = "0x62929E0")]
 	private IPAddress(ushort[] numbers, uint scopeid)
 	{
 	}
 
-	[Token(Token = "0x6001283")]
-	[Address(RVA = "0x2902020", Offset = "0x2900620", VA = "0x182902020")]
+	[Token(Token = "0x60010C5")]
+	[Address(RVA = "0x6292A30", Offset = "0x6291A30", VA = "0x6292A30")]
 	public IPAddress(byte[] address)
 	{
 	}
 
-	[Token(Token = "0x6001284")]
-	[Address(RVA = "0x2902320", Offset = "0x2900920", VA = "0x182902320")]
+	[Token(Token = "0x60010C6")]
+	[Address(RVA = "0x6292AE0", Offset = "0x6291AE0", VA = "0x6292AE0")]
 	public IPAddress(ReadOnlySpan<byte> address)
 	{
 	}
 
-	[Token(Token = "0x6001285")]
-	[Address(RVA = "0x29019A0", Offset = "0x28FFFA0", VA = "0x1829019A0")]
+	[Token(Token = "0x60010C7")]
+	[Address(RVA = "0x6292C80", Offset = "0x6291C80", VA = "0x6292C80")]
 	public static bool TryParse(string ipString, out IPAddress address)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001286")]
-	[Address(RVA = "0x2901830", Offset = "0x28FFE30", VA = "0x182901830")]
+	[Token(Token = "0x60010C8")]
+	[Address(RVA = "0x6292EE0", Offset = "0x6291EE0", VA = "0x6292EE0")]
 	public static IPAddress Parse(string ipString)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001287")]
-	[Address(RVA = "0x2901A50", Offset = "0x2900050", VA = "0x182901A50")]
+	[Token(Token = "0x60010C9")]
+	[Address(RVA = "0x6292F70", Offset = "0x6291F70", VA = "0x6292F70")]
 	public bool TryWriteBytes(Span<byte> destination, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	[Token(Token = "0x6001288")]
-	[Address(RVA = "0x28EB470", Offset = "0x28E9A70", VA = "0x1828EB470")]
+	[Token(Token = "0x60010CA")]
+	[Address(RVA = "0x6292FF0", Offset = "0x6291FF0", VA = "0x6292FF0")]
 	private void WriteIPv6Bytes(Span<byte> destination)
 	{
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	[Token(Token = "0x6001289")]
-	[Address(RVA = "0x2901B50", Offset = "0x2900150", VA = "0x182901B50")]
+	[Token(Token = "0x60010CB")]
+	[Address(RVA = "0x6293260", Offset = "0x6292260", VA = "0x6293260")]
 	private void WriteIPv4Bytes(Span<byte> destination)
 	{
 	}
 
-	[Token(Token = "0x600128A")]
-	[Address(RVA = "0x2900EB0", Offset = "0x28FF4B0", VA = "0x182900EB0")]
+	[Token(Token = "0x60010CC")]
+	[Address(RVA = "0x62932A0", Offset = "0x62922A0", VA = "0x62932A0")]
 	public byte[] GetAddressBytes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600128D")]
-	[Address(RVA = "0x2901940", Offset = "0x28FFF40", VA = "0x182901940", Slot = "3")]
+	[Token(Token = "0x60010CF")]
+	[Address(RVA = "0x62933E0", Offset = "0x62923E0", VA = "0x62933E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600128E")]
-	[Address(RVA = "0x2901650", Offset = "0x28FFC50", VA = "0x182901650")]
+	[Token(Token = "0x60010D0")]
+	[Address(RVA = "0x62934C0", Offset = "0x62924C0", VA = "0x62934C0")]
 	public static bool IsLoopback(IPAddress address)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600128F")]
-	[Address(RVA = "0x2900D70", Offset = "0x28FF370", VA = "0x182900D70")]
+	[Token(Token = "0x60010D1")]
+	[Address(RVA = "0x62935E0", Offset = "0x62925E0", VA = "0x62935E0")]
 	internal bool Equals(object comparandObj, bool compareScopeId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001290")]
-	[Address(RVA = "0x2900C80", Offset = "0x28FF280", VA = "0x182900C80", Slot = "0")]
+	[Token(Token = "0x60010D2")]
+	[Address(RVA = "0x6293780", Offset = "0x6292780", VA = "0x6293780", Slot = "0")]
 	public override bool Equals(object comparand)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x2901220", Offset = "0x28FF820", VA = "0x182901220", Slot = "2")]
+	[Token(Token = "0x60010D3")]
+	[Address(RVA = "0x6293790", Offset = "0x6292790", VA = "0x6293790", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x2901720", Offset = "0x28FFD20", VA = "0x182901720")]
+	[Token(Token = "0x60010D4")]
+	[Address(RVA = "0x6293BD0", Offset = "0x6292BD0", VA = "0x6293BD0")]
 	public IPAddress MapToIPv6()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x29018F0", Offset = "0x28FFEF0", VA = "0x1829018F0")]
+	[Token(Token = "0x60010D5")]
+	[Address(RVA = "0x6292680", Offset = "0x6291680", VA = "0x6292680")]
 	private static byte[] ThrowAddressNullException()
 	{
 		return null;

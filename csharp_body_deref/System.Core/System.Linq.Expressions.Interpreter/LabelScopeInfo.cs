@@ -9,54 +9,54 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200016A")]
+[Token(Token = "0x200016B")]
 internal sealed class LabelScopeInfo
 {
-	[Token(Token = "0x4000310")]
+	[Token(Token = "0x4000319")]
 	[FieldOffset(Offset = "0x10")]
 	private HybridReferenceDictionary<LabelTarget, LabelInfo> _labels;
 
-	[Token(Token = "0x4000311")]
+	[Token(Token = "0x400031A")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly LabelScopeKind Kind;
 
-	[Token(Token = "0x4000312")]
+	[Token(Token = "0x400031B")]
 	[FieldOffset(Offset = "0x20")]
 	internal readonly LabelScopeInfo Parent;
 
-	[Token(Token = "0x170001C5")]
+	[Token(Token = "0x170001C7")]
 	internal bool CanJumpInto
 	{
-		[Token(Token = "0x6000812")]
-		[Address(RVA = "0x2450D70", Offset = "0x244F370", VA = "0x182450D70")]
+		[Token(Token = "0x600081D")]
+		[Address(RVA = "0x5DF1A00", Offset = "0x5DF0A00", VA = "0x5DF1A00")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x2450D20", Offset = "0x244F320", VA = "0x182450D20")]
+	[Token(Token = "0x600081C")]
+	[Address(RVA = "0x5DF1B20", Offset = "0x5DF0B20", VA = "0x5DF1B20")]
 	internal LabelScopeInfo(LabelScopeInfo parent, LabelScopeKind kind)
 	{
 	}
 
-	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x2450C30", Offset = "0x244F230", VA = "0x182450C30")]
+	[Token(Token = "0x600081E")]
+	[Address(RVA = "0x5DF14F0", Offset = "0x5DF04F0", VA = "0x5DF14F0")]
 	internal bool ContainsTarget(LabelTarget target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x2450C90", Offset = "0x244F290", VA = "0x182450C90")]
+	[Token(Token = "0x600081F")]
+	[Address(RVA = "0x5DF1B50", Offset = "0x5DF0B50", VA = "0x5DF1B50")]
 	internal bool TryGetLabelInfo(LabelTarget target, out LabelInfo info)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x2450B70", Offset = "0x244F170", VA = "0x182450B70")]
+	[Token(Token = "0x6000820")]
+	[Address(RVA = "0x5DF1670", Offset = "0x5DF0670", VA = "0x5DF1670")]
 	internal void AddLabelInfo(LabelTarget target, LabelInfo info)
 	{
 	}

@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class DetachFromPanelEvent : PanelChangedEventBase<DetachFromPanelEvent>
 {
 	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x3259D20", Offset = "0x3258320", VA = "0x183259D20")]
+	[Address(RVA = "0x6C6C3D0", Offset = "0x6C6B3D0", VA = "0x6C6C3D0")]
 	static DetachFromPanelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x3259E00", Offset = "0x3258400", VA = "0x183259E00")]
+	[Address(RVA = "0x6C6C4A0", Offset = "0x6C6B4A0", VA = "0x6C6C4A0")]
 	public DetachFromPanelEvent()
 	{
 	}

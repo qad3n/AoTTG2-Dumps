@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.LODGroupDataPool
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -74,7 +74,7 @@ internal class LODGroupDataPool : IDisposable
 	public NativeParallelHashMap<int, GPUInstanceIndex> lodGroupDataHash
 	{
 		[Token(Token = "0x600032E")]
-		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
+		[Address(RVA = "0x65E8A80", Offset = "0x65E7A80", VA = "0x65E8A80")]
 		get
 		{
 			return default(NativeParallelHashMap<int, GPUInstanceIndex>);
@@ -85,7 +85,7 @@ internal class LODGroupDataPool : IDisposable
 	public NativeList<LODGroupCullingData> lodGroupCullingData
 	{
 		[Token(Token = "0x600032F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x65E8A90", Offset = "0x65E7A90", VA = "0x65E8A90")]
 		get
 		{
 			return default(NativeList<LODGroupCullingData>);
@@ -96,7 +96,7 @@ internal class LODGroupDataPool : IDisposable
 	public int crossfadedRendererCount
 	{
 		[Token(Token = "0x6000330")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x65E8AA0", Offset = "0x65E7AA0", VA = "0x65E8AA0")]
 		get
 		{
 			return default(int);
@@ -107,7 +107,7 @@ internal class LODGroupDataPool : IDisposable
 	public int activeLodGroupCount
 	{
 		[Token(Token = "0x6000331")]
-		[Address(RVA = "0x2BF2220", Offset = "0x2BF0820", VA = "0x182BF2220")]
+		[Address(RVA = "0x65E8AB0", Offset = "0x65E7AB0", VA = "0x65E8AB0")]
 		get
 		{
 			return default(int);
@@ -115,31 +115,31 @@ internal class LODGroupDataPool : IDisposable
 	}
 
 	[Token(Token = "0x6000332")]
-	[Address(RVA = "0x2BF20E0", Offset = "0x2BF06E0", VA = "0x182BF20E0")]
+	[Address(RVA = "0x65E8B00", Offset = "0x65E7B00", VA = "0x65E8B00")]
 	public LODGroupDataPool(GPUResidentDrawerResources resources, int initialInstanceCount, bool supportDitheringCrossFade)
 	{
 	}
 
 	[Token(Token = "0x6000333")]
-	[Address(RVA = "0x2BF1AE0", Offset = "0x2BF00E0", VA = "0x182BF1AE0", Slot = "4")]
+	[Address(RVA = "0x65E8C40", Offset = "0x65E7C40", VA = "0x65E8C40", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000334")]
-	[Address(RVA = "0x2BF1FA0", Offset = "0x2BF05A0", VA = "0x182BF1FA0")]
+	[Address(RVA = "0x65E8CE0", Offset = "0x65E7CE0", VA = "0x65E8CE0")]
 	public void UpdateLODGroupTransformData(in UnityEngine.Rendering.GPUDrivenLODGroupData inputData)
 	{
 	}
 
 	[Token(Token = "0x6000335")]
-	[Address(RVA = "0x2BF1BB0", Offset = "0x2BF01B0", VA = "0x182BF1BB0")]
+	[Address(RVA = "0x65E8F90", Offset = "0x65E7F90", VA = "0x65E8F90")]
 	public void UpdateLODGroupData(in UnityEngine.Rendering.GPUDrivenLODGroupData inputData)
 	{
 	}
 
 	[Token(Token = "0x6000336")]
-	[Address(RVA = "0x2BF1B70", Offset = "0x2BF0170", VA = "0x182BF1B70")]
+	[Address(RVA = "0x65E93B0", Offset = "0x65E83B0", VA = "0x65E93B0")]
 	public void FreeLODGroupData(NativeArray<EntityId> destroyedLODGroupsID)
 	{
 	}

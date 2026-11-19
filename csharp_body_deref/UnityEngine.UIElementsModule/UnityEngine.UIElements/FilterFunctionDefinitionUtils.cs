@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.FilterFunctionDefinitionUtils
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,55 +45,55 @@ internal static class FilterFunctionDefinitionUtils
 	private static FilterFunctionDefinition s_HueRotateDef;
 
 	[Token(Token = "0x6000F79")]
-	[Address(RVA = "0x32625A0", Offset = "0x3260BA0", VA = "0x1832625A0")]
+	[Address(RVA = "0x6C73160", Offset = "0x6C72160", VA = "0x6C73160")]
 	public static string GetBuiltinFilterName(FilterFunctionType type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7A")]
-	[Address(RVA = "0x32620E0", Offset = "0x32606E0", VA = "0x1832620E0")]
+	[Address(RVA = "0x6C73250", Offset = "0x6C72250", VA = "0x6C73250")]
 	public static FilterFunctionDefinition GetBuiltinDefinition(FilterFunctionType type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7B")]
-	[Address(RVA = "0x3261360", Offset = "0x325F960", VA = "0x183261360")]
+	[Address(RVA = "0x6C73650", Offset = "0x6C72650", VA = "0x6C73650")]
 	private static FilterFunctionDefinition CreateBlurFilterFunctionDefinition()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x3261C20", Offset = "0x3260220", VA = "0x183261C20")]
+	[Address(RVA = "0x6C73F10", Offset = "0x6C72F10", VA = "0x6C73F10")]
 	private static FilterFunctionDefinition CreateColorEffectFilterFunctionDefinition(FilterFunctionType filterType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x3261150", Offset = "0x325F750", VA = "0x183261150")]
+	[Address(RVA = "0x6C74360", Offset = "0x6C73360", VA = "0x6C74360")]
 	private static PostProcessingMargins ComputeHorizontalBlurMargins(FilterFunction func)
 	{
 		return default(PostProcessingMargins);
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x3261250", Offset = "0x325F850", VA = "0x183261250")]
+	[Address(RVA = "0x6C74450", Offset = "0x6C73450", VA = "0x6C74450")]
 	private static PostProcessingMargins ComputeVerticalBlurMargins(FilterFunction func)
 	{
 		return default(PostProcessingMargins);
 	}
 
 	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x32607F0", Offset = "0x325EDF0", VA = "0x1832607F0")]
+	[Address(RVA = "0x6C74540", Offset = "0x6C73540", VA = "0x6C74540")]
 	private static void ApplyBlurSettings(MaterialPropertyBlock mpb, FilterPassContext context)
 	{
 	}
 
 	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x32608B0", Offset = "0x325EEB0", VA = "0x1832608B0")]
+	[Address(RVA = "0x6C745E0", Offset = "0x6C735E0", VA = "0x6C745E0")]
 	private static void ApplySettings(MaterialPropertyBlock mpb, FilterPassContext context)
 	{
 	}

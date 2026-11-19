@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003F6")]
+[Token(Token = "0x20003CF")]
 public interface IDeserializationCallback
 {
-	[Token(Token = "0x6001F8D")]
+	[Token(Token = "0x6001F63")]
 	void OnDeserialization(object sender);
 }

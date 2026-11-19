@@ -10,25 +10,36 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000518")]
+[Token(Token = "0x20004F1")]
 public abstract class MethodInfo : MethodBase
 {
-	[Token(Token = "0x170004C9")]
+	[Token(Token = "0x170004C8")]
 	public override MemberTypes MemberType
 	{
-		[Token(Token = "0x60024DE")]
-		[Address(RVA = "0x846F50", Offset = "0x845550", VA = "0x180846F50", Slot = "7")]
+		[Token(Token = "0x60024AC")]
+		[Address(RVA = "0x53DA630", Offset = "0x53D9630", VA = "0x53DA630", Slot = "7")]
 		get
 		{
 			return default(MemberTypes);
 		}
 	}
 
-	[Token(Token = "0x170004CA")]
+	[Token(Token = "0x170004C9")]
 	public virtual ParameterInfo ReturnParameter
 	{
-		[Token(Token = "0x60024DF")]
-		[Address(RVA = "0x1A4B010", Offset = "0x1A49610", VA = "0x181A4B010", Slot = "40")]
+		[Token(Token = "0x60024AD")]
+		[Address(RVA = "0x53DA640", Offset = "0x53D9640", VA = "0x53DA640", Slot = "40")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170004CA")]
+	public virtual Type ReturnType
+	{
+		[Token(Token = "0x60024AE")]
+		[Address(RVA = "0x53DA670", Offset = "0x53D9670", VA = "0x53DA670", Slot = "41")]
 		get
 		{
 			return null;
@@ -36,94 +47,83 @@ public abstract class MethodInfo : MethodBase
 	}
 
 	[Token(Token = "0x170004CB")]
-	public virtual Type ReturnType
-	{
-		[Token(Token = "0x60024E0")]
-		[Address(RVA = "0x1A4B040", Offset = "0x1A49640", VA = "0x181A4B040", Slot = "41")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170004CC")]
 	internal virtual int GenericParameterCount
 	{
-		[Token(Token = "0x60024EB")]
-		[Address(RVA = "0x1A4AFE0", Offset = "0x1A495E0", VA = "0x181A4AFE0", Slot = "47")]
+		[Token(Token = "0x60024B9")]
+		[Address(RVA = "0x53DA850", Offset = "0x53D9850", VA = "0x53DA850", Slot = "47")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60024DD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60024AB")]
+	[Address(RVA = "0x53DA620", Offset = "0x53D9620", VA = "0x53DA620")]
 	protected MethodInfo()
 	{
 	}
 
-	[Token(Token = "0x60024E1")]
-	[Address(RVA = "0x1A4AEF0", Offset = "0x1A494F0", VA = "0x181A4AEF0", Slot = "29")]
+	[Token(Token = "0x60024AF")]
+	[Address(RVA = "0x53DA6A0", Offset = "0x53D96A0", VA = "0x53DA6A0", Slot = "29")]
 	public override Type[] GetGenericArguments()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60024E2")]
-	[Address(RVA = "0x1A4AF40", Offset = "0x1A49540", VA = "0x181A4AF40", Slot = "42")]
+	[Token(Token = "0x60024B0")]
+	[Address(RVA = "0x53DA6F0", Offset = "0x53D96F0", VA = "0x53DA6F0", Slot = "42")]
 	public virtual MethodInfo GetGenericMethodDefinition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60024E3")]
-	[Address(RVA = "0x1A4AF90", Offset = "0x1A49590", VA = "0x181A4AF90", Slot = "43")]
+	[Token(Token = "0x60024B1")]
+	[Address(RVA = "0x53DA740", Offset = "0x53D9740", VA = "0x53DA740", Slot = "43")]
 	public virtual MethodInfo MakeGenericMethod(params Type[] typeArguments)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60024E4")]
+	[Token(Token = "0x60024B2")]
 	public abstract MethodInfo GetBaseDefinition();
 
-	[Token(Token = "0x60024E5")]
-	[Address(RVA = "0x1A4AE50", Offset = "0x1A49450", VA = "0x181A4AE50", Slot = "45")]
+	[Token(Token = "0x60024B3")]
+	[Address(RVA = "0x53DA790", Offset = "0x53D9790", VA = "0x53DA790", Slot = "45")]
 	public virtual Delegate CreateDelegate(Type delegateType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60024E6")]
-	[Address(RVA = "0x1A4AEA0", Offset = "0x1A494A0", VA = "0x181A4AEA0", Slot = "46")]
+	[Token(Token = "0x60024B4")]
+	[Address(RVA = "0x53DA7E0", Offset = "0x53D97E0", VA = "0x53DA7E0", Slot = "46")]
 	public virtual Delegate CreateDelegate(Type delegateType, object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60024E7")]
-	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
+	[Token(Token = "0x60024B5")]
+	[Address(RVA = "0x53DA830", Offset = "0x53D9830", VA = "0x53DA830", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024E8")]
-	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
+	[Token(Token = "0x60024B6")]
+	[Address(RVA = "0x53DA840", Offset = "0x53D9840", VA = "0x53DA840", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60024E9")]
-	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
+	[Token(Token = "0x60024B7")]
+	[Address(RVA = "0x53D9ED0", Offset = "0x53D8ED0", VA = "0x53D9ED0")]
 	public static bool operator ==(MethodInfo left, MethodInfo right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024EA")]
-	[Address(RVA = "0x1A44730", Offset = "0x1A42D30", VA = "0x181A44730")]
+	[Token(Token = "0x60024B8")]
+	[Address(RVA = "0x53D9EA0", Offset = "0x53D8EA0", VA = "0x53D9EA0")]
 	public static bool operator !=(MethodInfo left, MethodInfo right)
 	{
 		return default(bool);

@@ -18,26 +18,26 @@ public sealed class ReflectionFieldAccessor : IOptimizedAccessor
 	private readonly FieldInfo fieldInfo;
 
 	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x2E35DD0", Offset = "0x2E343D0", VA = "0x182E35DD0")]
+	[Address(RVA = "0x682D990", Offset = "0x682C990", VA = "0x682D990")]
 	public ReflectionFieldAccessor(FieldInfo fieldInfo)
 	{
 	}
 
 	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x68322B0", Offset = "0x68312B0", VA = "0x68322B0", Slot = "4")]
 	public void Compile()
 	{
 	}
 
 	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x8F67D0", Offset = "0x8F4DD0", VA = "0x1808F67D0", Slot = "5")]
+	[Address(RVA = "0x68322C0", Offset = "0x68312C0", VA = "0x68322C0", Slot = "5")]
 	public object GetValue(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x8F7770", Offset = "0x8F5D70", VA = "0x1808F7770", Slot = "6")]
+	[Address(RVA = "0x68322F0", Offset = "0x68312F0", VA = "0x68322F0", Slot = "6")]
 	public void SetValue(object target, object value)
 	{
 	}

@@ -32,7 +32,7 @@ internal sealed class LogicalExpr : ValueQuery
 		public string Value
 		{
 			[Token(Token = "0x6001B55")]
-			[Address(RVA = "0x26C0860", Offset = "0x26BEE60", VA = "0x1826C0860")]
+			[Address(RVA = "0x6083AF0", Offset = "0x6082AF0", VA = "0x6083AF0")]
 			get
 			{
 				return null;
@@ -40,35 +40,35 @@ internal sealed class LogicalExpr : ValueQuery
 		}
 
 		[Token(Token = "0x6001B52")]
-		[Address(RVA = "0x26C0790", Offset = "0x26BED90", VA = "0x1826C0790")]
+		[Address(RVA = "0x60839F0", Offset = "0x60829F0", VA = "0x60839F0")]
 		public NodeSet(object opnd)
 		{
 		}
 
 		[Token(Token = "0x6001B53")]
-		[Address(RVA = "0x26C0710", Offset = "0x26BED10", VA = "0x1826C0710")]
+		[Address(RVA = "0x6083AB0", Offset = "0x6082AB0", VA = "0x6083AB0")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001B54")]
-		[Address(RVA = "0x26C0760", Offset = "0x26BED60", VA = "0x1826C0760")]
+		[Address(RVA = "0x6083B20", Offset = "0x6082B20", VA = "0x6083B20")]
 		public void Reset()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000E56")]
-	[FieldOffset(Offset = "0x18")]
+	[FieldOffset(Offset = "0x14")]
 	private Operator.Op _op;
 
 	[Token(Token = "0x4000E57")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	private Query _opnd1;
 
 	[Token(Token = "0x4000E58")]
-	[FieldOffset(Offset = "0x28")]
+	[FieldOffset(Offset = "0x20")]
 	private Query _opnd2;
 
 	[Token(Token = "0x4000E59")]
@@ -83,7 +83,7 @@ internal sealed class LogicalExpr : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001B4E")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "16")]
+		[Address(RVA = "0x60862F0", Offset = "0x60852F0", VA = "0x60862F0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -91,249 +91,249 @@ internal sealed class LogicalExpr : ValueQuery
 	}
 
 	[Token(Token = "0x6001B2A")]
-	[Address(RVA = "0x26BCF20", Offset = "0x26BB520", VA = "0x1826BCF20")]
+	[Address(RVA = "0x6083440", Offset = "0x6082440", VA = "0x6083440")]
 	public LogicalExpr(Operator.Op op, Query opnd1, Query opnd2)
 	{
 	}
 
 	[Token(Token = "0x6001B2B")]
-	[Address(RVA = "0x26BCF70", Offset = "0x26BB570", VA = "0x1826BCF70")]
+	[Address(RVA = "0x6083490", Offset = "0x6082490", VA = "0x6083490")]
 	private LogicalExpr(LogicalExpr other)
 	{
 	}
 
 	[Token(Token = "0x6001B2C")]
-	[Address(RVA = "0x26BB7F0", Offset = "0x26B9DF0", VA = "0x1826BB7F0", Slot = "13")]
+	[Address(RVA = "0x6083500", Offset = "0x6082500", VA = "0x6083500", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001B2D")]
-	[Address(RVA = "0x26BB500", Offset = "0x26B9B00", VA = "0x1826BB500", Slot = "14")]
+	[Address(RVA = "0x6083550", Offset = "0x6082550", VA = "0x6083550", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B2E")]
-	[Address(RVA = "0x26BDEA0", Offset = "0x26BC4A0", VA = "0x1826BDEA0")]
+	[Address(RVA = "0x6083860", Offset = "0x6082860", VA = "0x6083860")]
 	private static bool cmpQueryQueryE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B2F")]
-	[Address(RVA = "0x26BE180", Offset = "0x26BC780", VA = "0x1826BE180")]
+	[Address(RVA = "0x6083B50", Offset = "0x6082B50", VA = "0x6083B50")]
 	private static bool cmpQueryQueryO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B30")]
-	[Address(RVA = "0x26BDC10", Offset = "0x26BC210", VA = "0x1826BDC10")]
+	[Address(RVA = "0x6083EE0", Offset = "0x6082EE0", VA = "0x6083EE0")]
 	private static bool cmpQueryNumber(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B31")]
-	[Address(RVA = "0x26BE580", Offset = "0x26BCB80", VA = "0x1826BE580")]
+	[Address(RVA = "0x60840E0", Offset = "0x60830E0", VA = "0x60840E0")]
 	private static bool cmpQueryStringE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B32")]
-	[Address(RVA = "0x26BE760", Offset = "0x26BCD60", VA = "0x1826BE760")]
+	[Address(RVA = "0x6084210", Offset = "0x6083210", VA = "0x6084210")]
 	private static bool cmpQueryStringO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B33")]
-	[Address(RVA = "0x26BEE60", Offset = "0x26BD460", VA = "0x1826BEE60")]
+	[Address(RVA = "0x6084440", Offset = "0x6083440", VA = "0x6084440")]
 	private static bool cmpRtfQueryE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B34")]
-	[Address(RVA = "0x26BF0A0", Offset = "0x26BD6A0", VA = "0x1826BF0A0")]
+	[Address(RVA = "0x6084640", Offset = "0x6083640", VA = "0x6084640")]
 	private static bool cmpRtfQueryO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B35")]
-	[Address(RVA = "0x26BD870", Offset = "0x26BBE70", VA = "0x1826BD870")]
+	[Address(RVA = "0x60848B0", Offset = "0x60838B0", VA = "0x60848B0")]
 	private static bool cmpQueryBoolE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B36")]
-	[Address(RVA = "0x26BDA20", Offset = "0x26BC020", VA = "0x1826BDA20")]
+	[Address(RVA = "0x60849A0", Offset = "0x60839A0", VA = "0x60849A0")]
 	private static bool cmpQueryBoolO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B37")]
-	[Address(RVA = "0x26BCFE0", Offset = "0x26BB5E0", VA = "0x1826BCFE0")]
+	[Address(RVA = "0x6084990", Offset = "0x6083990", VA = "0x6084990")]
 	private static bool cmpBoolBoolE(Operator.Op op, bool n1, bool n2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B38")]
-	[Address(RVA = "0x26BCFF0", Offset = "0x26BB5F0", VA = "0x1826BCFF0")]
+	[Address(RVA = "0x6084B40", Offset = "0x6083B40", VA = "0x6084B40")]
 	private static bool cmpBoolBoolE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B39")]
-	[Address(RVA = "0x26BD0C0", Offset = "0x26BB6C0", VA = "0x1826BD0C0")]
+	[Address(RVA = "0x6084C10", Offset = "0x6083C10", VA = "0x6084C10")]
 	private static bool cmpBoolBoolO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3A")]
-	[Address(RVA = "0x26BD1F0", Offset = "0x26BB7F0", VA = "0x1826BD1F0")]
+	[Address(RVA = "0x6084D80", Offset = "0x6083D80", VA = "0x6084D80")]
 	private static bool cmpBoolNumberE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3B")]
-	[Address(RVA = "0x26BD310", Offset = "0x26BB910", VA = "0x1826BD310")]
+	[Address(RVA = "0x6084EA0", Offset = "0x6083EA0", VA = "0x6084EA0")]
 	private static bool cmpBoolNumberO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3C")]
-	[Address(RVA = "0x26BD430", Offset = "0x26BBA30", VA = "0x1826BD430")]
+	[Address(RVA = "0x6084FE0", Offset = "0x6083FE0", VA = "0x6084FE0")]
 	private static bool cmpBoolStringE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3D")]
-	[Address(RVA = "0x26BE9E0", Offset = "0x26BCFE0", VA = "0x1826BE9E0")]
+	[Address(RVA = "0x60850A0", Offset = "0x60840A0", VA = "0x60850A0")]
 	private static bool cmpRtfBoolE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3E")]
-	[Address(RVA = "0x26BD500", Offset = "0x26BBB00", VA = "0x1826BD500")]
+	[Address(RVA = "0x60851D0", Offset = "0x60841D0", VA = "0x60851D0")]
 	private static bool cmpBoolStringO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B3F")]
-	[Address(RVA = "0x26BEB00", Offset = "0x26BD100", VA = "0x1826BEB00")]
+	[Address(RVA = "0x6085340", Offset = "0x6084340", VA = "0x6085340")]
 	private static bool cmpRtfBoolO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B40")]
-	[Address(RVA = "0x26BD800", Offset = "0x26BBE00", VA = "0x1826BD800")]
+	[Address(RVA = "0x6083E80", Offset = "0x6082E80", VA = "0x6083E80")]
 	private static bool cmpNumberNumber(Operator.Op op, double n1, double n2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B41")]
-	[Address(RVA = "0x26BD660", Offset = "0x26BBC60", VA = "0x1826BD660")]
+	[Address(RVA = "0x6084400", Offset = "0x6083400", VA = "0x6084400")]
 	private static bool cmpNumberNumberO(Operator.Op op, double n1, double n2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B42")]
-	[Address(RVA = "0x26BD6A0", Offset = "0x26BBCA0", VA = "0x1826BD6A0")]
+	[Address(RVA = "0x6085500", Offset = "0x6084500", VA = "0x6085500")]
 	private static bool cmpNumberNumber(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B43")]
-	[Address(RVA = "0x26BF9C0", Offset = "0x26BDFC0", VA = "0x1826BF9C0")]
+	[Address(RVA = "0x6085650", Offset = "0x6084650", VA = "0x6085650")]
 	private static bool cmpStringNumber(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B44")]
-	[Address(RVA = "0x26BEC90", Offset = "0x26BD290", VA = "0x1826BEC90")]
+	[Address(RVA = "0x60857C0", Offset = "0x60847C0", VA = "0x60857C0")]
 	private static bool cmpRtfNumber(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B45")]
-	[Address(RVA = "0x26BFB50", Offset = "0x26BE150", VA = "0x1826BFB50")]
+	[Address(RVA = "0x60841F0", Offset = "0x60831F0", VA = "0x60841F0")]
 	private static bool cmpStringStringE(Operator.Op op, string n1, string n2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B46")]
-	[Address(RVA = "0x26BFB80", Offset = "0x26BE180", VA = "0x1826BFB80")]
+	[Address(RVA = "0x6085990", Offset = "0x6084990", VA = "0x6085990")]
 	private static bool cmpStringStringE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B47")]
-	[Address(RVA = "0x26BF6F0", Offset = "0x26BDCF0", VA = "0x1826BF6F0")]
+	[Address(RVA = "0x6085A20", Offset = "0x6084A20", VA = "0x6085A20")]
 	private static bool cmpRtfStringE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B48")]
-	[Address(RVA = "0x26BF380", Offset = "0x26BD980", VA = "0x1826BF380")]
+	[Address(RVA = "0x6085B50", Offset = "0x6084B50", VA = "0x6085B50")]
 	private static bool cmpRtfRtfE(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B49")]
-	[Address(RVA = "0x26BFC50", Offset = "0x26BE250", VA = "0x1826BFC50")]
+	[Address(RVA = "0x6085CB0", Offset = "0x6084CB0", VA = "0x6085CB0")]
 	private static bool cmpStringStringO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B4A")]
-	[Address(RVA = "0x26BF800", Offset = "0x26BDE00", VA = "0x1826BF800")]
+	[Address(RVA = "0x6085E30", Offset = "0x6084E30", VA = "0x6085E30")]
 	private static bool cmpRtfStringO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B4B")]
-	[Address(RVA = "0x26BF4E0", Offset = "0x26BDAE0", VA = "0x1826BF4E0")]
+	[Address(RVA = "0x6086020", Offset = "0x6085020", VA = "0x6086020")]
 	private static bool cmpRtfRtfO(Operator.Op op, object val1, object val2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B4C")]
-	[Address(RVA = "0x26BB460", Offset = "0x26B9A60", VA = "0x1826BB460", Slot = "6")]
+	[Address(RVA = "0x6086250", Offset = "0x6085250", VA = "0x6086250", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B4D")]
-	[Address(RVA = "0x26BB770", Offset = "0x26B9D70", VA = "0x1826BB770")]
+	[Address(RVA = "0x60845D0", Offset = "0x60835D0", VA = "0x60845D0")]
 	private static string Rtf(object o)
 	{
 		return null;

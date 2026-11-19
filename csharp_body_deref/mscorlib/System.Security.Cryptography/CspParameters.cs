@@ -11,150 +11,150 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000306")]
+[Token(Token = "0x20002DF")]
 [ComVisible(true)]
 public sealed class CspParameters
 {
-	[Token(Token = "0x4000D01")]
+	[Token(Token = "0x4000C61")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public int ProviderType;
 
-	[Token(Token = "0x4000D02")]
+	[Token(Token = "0x4000C62")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public string ProviderName;
 
-	[Token(Token = "0x4000D03")]
+	[Token(Token = "0x4000C63")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public string KeyContainerName;
 
-	[Token(Token = "0x4000D04")]
+	[Token(Token = "0x4000C64")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public int KeyNumber;
 
-	[Token(Token = "0x4000D05")]
+	[Token(Token = "0x4000C65")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	private int m_flags;
 
-	[Token(Token = "0x4000D06")]
+	[Token(Token = "0x4000C66")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private CryptoKeySecurity m_cryptoKeySecurity;
 
-	[Token(Token = "0x4000D07")]
+	[Token(Token = "0x4000C67")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private SecureString m_keyPassword;
 
-	[Token(Token = "0x4000D08")]
+	[Token(Token = "0x4000C68")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private IntPtr m_parentWindowHandle;
 
-	[Token(Token = "0x170002A1")]
+	[Token(Token = "0x170002A0")]
 	public CspProviderFlags Flags
 	{
-		[Token(Token = "0x6001935")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Token(Token = "0x6001912")]
+		[Address(RVA = "0x5337F20", Offset = "0x5336F20", VA = "0x5337F20")]
 		get
 		{
 			return default(CspProviderFlags);
 		}
-		[Token(Token = "0x6001936")]
-		[Address(RVA = "0x19A3AF0", Offset = "0x19A20F0", VA = "0x1819A3AF0")]
+		[Token(Token = "0x6001913")]
+		[Address(RVA = "0x5337F30", Offset = "0x5336F30", VA = "0x5337F30")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002A1")]
+	public CryptoKeySecurity CryptoKeySecurity
+	{
+		[Token(Token = "0x6001914")]
+		[Address(RVA = "0x5338010", Offset = "0x5337010", VA = "0x5338010")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001915")]
+		[Address(RVA = "0x5338020", Offset = "0x5337020", VA = "0x5338020")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A2")]
-	public CryptoKeySecurity CryptoKeySecurity
+	public SecureString KeyPassword
 	{
-		[Token(Token = "0x6001937")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001916")]
+		[Address(RVA = "0x5338030", Offset = "0x5337030", VA = "0x5338030")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001938")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Token(Token = "0x6001917")]
+		[Address(RVA = "0x5338040", Offset = "0x5337040", VA = "0x5338040")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A3")]
-	public SecureString KeyPassword
-	{
-		[Token(Token = "0x6001939")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600193A")]
-		[Address(RVA = "0x19A3BD0", Offset = "0x19A21D0", VA = "0x1819A3BD0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002A4")]
 	public IntPtr ParentWindowHandle
 	{
-		[Token(Token = "0x600193B")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6001918")]
+		[Address(RVA = "0x5338060", Offset = "0x5337060", VA = "0x5338060")]
 		get
 		{
 			return default(IntPtr);
 		}
-		[Token(Token = "0x600193C")]
-		[Address(RVA = "0x19A3C00", Offset = "0x19A2200", VA = "0x1819A3C00")]
+		[Token(Token = "0x6001919")]
+		[Address(RVA = "0x5338070", Offset = "0x5337070", VA = "0x5338070")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600193D")]
-	[Address(RVA = "0x19A37C0", Offset = "0x19A1DC0", VA = "0x1819A37C0")]
+	[Token(Token = "0x600191A")]
+	[Address(RVA = "0x5338090", Offset = "0x5337090", VA = "0x5338090")]
 	public CspParameters()
 	{
 	}
 
-	[Token(Token = "0x600193E")]
-	[Address(RVA = "0x19A3760", Offset = "0x19A1D60", VA = "0x1819A3760")]
+	[Token(Token = "0x600191B")]
+	[Address(RVA = "0x5338140", Offset = "0x5337140", VA = "0x5338140")]
 	public CspParameters(int dwTypeIn)
 	{
 	}
 
-	[Token(Token = "0x600193F")]
-	[Address(RVA = "0x19A3880", Offset = "0x19A1E80", VA = "0x1819A3880")]
+	[Token(Token = "0x600191C")]
+	[Address(RVA = "0x5338190", Offset = "0x5337190", VA = "0x5338190")]
 	public CspParameters(int dwTypeIn, string strProviderNameIn)
 	{
 	}
 
-	[Token(Token = "0x6001940")]
-	[Address(RVA = "0x19A3A10", Offset = "0x19A2010", VA = "0x1819A3A10")]
+	[Token(Token = "0x600191D")]
+	[Address(RVA = "0x53380E0", Offset = "0x53370E0", VA = "0x53380E0")]
 	public CspParameters(int dwTypeIn, string strProviderNameIn, string strContainerNameIn)
 	{
 	}
 
-	[Token(Token = "0x6001941")]
-	[Address(RVA = "0x19A3A70", Offset = "0x19A2070", VA = "0x1819A3A70")]
+	[Token(Token = "0x600191E")]
+	[Address(RVA = "0x5338240", Offset = "0x5337240", VA = "0x5338240")]
 	public CspParameters(int providerType, string providerName, string keyContainerName, CryptoKeySecurity cryptoKeySecurity, SecureString keyPassword)
 	{
 	}
 
-	[Token(Token = "0x6001942")]
-	[Address(RVA = "0x19A38F0", Offset = "0x19A1EF0", VA = "0x1819A38F0")]
+	[Token(Token = "0x600191F")]
+	[Address(RVA = "0x53382C0", Offset = "0x53372C0", VA = "0x53382C0")]
 	public CspParameters(int providerType, string providerName, string keyContainerName, CryptoKeySecurity cryptoKeySecurity, IntPtr parentWindowHandle)
 	{
 	}
 
-	[Token(Token = "0x6001943")]
-	[Address(RVA = "0x19A3820", Offset = "0x19A1E20", VA = "0x1819A3820")]
+	[Token(Token = "0x6001920")]
+	[Address(RVA = "0x53381E0", Offset = "0x53371E0", VA = "0x53381E0")]
 	internal CspParameters(int providerType, string providerName, string keyContainerName, CspProviderFlags flags)
 	{
 	}
 
-	[Token(Token = "0x6001944")]
-	[Address(RVA = "0x19A3970", Offset = "0x19A1F70", VA = "0x1819A3970")]
+	[Token(Token = "0x6001921")]
+	[Address(RVA = "0x5338340", Offset = "0x5337340", VA = "0x5338340")]
 	internal CspParameters(CspParameters parameters)
 	{
 	}

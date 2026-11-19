@@ -15,9 +15,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Playables;
 
 [Token(Token = "0x2000004")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Modules/Director/PlayableDirector.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Director/PlayableDirector.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public class PlayableDirector : Behaviour
 {
 	[Token(Token = "0x4000002")]
@@ -39,21 +39,21 @@ public class PlayableDirector : Behaviour
 	private Action<PlayableDirector> stopped;
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2F7AE40", Offset = "0x2F79440", VA = "0x182F7AE40")]
+	[Address(RVA = "0x696ED80", Offset = "0x696DD80", VA = "0x696ED80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void SendOnPlayableDirectorPlay()
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2F7AE20", Offset = "0x2F79420", VA = "0x182F7AE20")]
+	[Address(RVA = "0x696EDA0", Offset = "0x696DDA0", VA = "0x696EDA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void SendOnPlayableDirectorPause()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2F7AE60", Offset = "0x2F79460", VA = "0x182F7AE60")]
+	[Address(RVA = "0x696EDC0", Offset = "0x696DDC0", VA = "0x696EDC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void SendOnPlayableDirectorStop()
 	{

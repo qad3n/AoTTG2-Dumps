@@ -30,14 +30,14 @@ public struct DeviceInfo
 	public bool IsDefault
 	{
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
+		[Address(RVA = "0x57041D0", Offset = "0x57031D0", VA = "0x57041D0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0xFA0680", Offset = "0xF9EC80", VA = "0x180FA0680")]
+		[Address(RVA = "0x57041E0", Offset = "0x57031E0", VA = "0x57041E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -48,14 +48,14 @@ public struct DeviceInfo
 	public int IDInt
 	{
 		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x57041F0", Offset = "0x57031F0", VA = "0x57041F0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x5704200", Offset = "0x5703200", VA = "0x5704200")]
 		[CompilerGenerated]
 		private set
 		{
@@ -66,14 +66,14 @@ public struct DeviceInfo
 	public string IDString
 	{
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x5704210", Offset = "0x5703210", VA = "0x5704210")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
+		[Address(RVA = "0x5704220", Offset = "0x5703220", VA = "0x5704220")]
 		[CompilerGenerated]
 		private set
 		{
@@ -84,14 +84,14 @@ public struct DeviceInfo
 	public string Name
 	{
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5704230", Offset = "0x5703230", VA = "0x5704230")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x5704240", Offset = "0x5703240", VA = "0x5704240")]
 		[CompilerGenerated]
 		private set
 		{
@@ -102,7 +102,7 @@ public struct DeviceInfo
 	public DeviceFeatures Features
 	{
 		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x1D69770", Offset = "0x1D67D70", VA = "0x181D69770")]
+		[Address(RVA = "0x5704250", Offset = "0x5703250", VA = "0x5704250")]
 		get
 		{
 			return null;
@@ -110,59 +110,59 @@ public struct DeviceInfo
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x1D69650", Offset = "0x1D67C50", VA = "0x181D69650")]
+	[Address(RVA = "0x5703F60", Offset = "0x5702F60", VA = "0x5703F60")]
 	private DeviceInfo(bool isDefault, int idInt, string idString, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x1D69510", Offset = "0x1D67B10", VA = "0x181D69510")]
+	[Address(RVA = "0x5704000", Offset = "0x5703000", VA = "0x5704000")]
 	public DeviceInfo(int id, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x1D696E0", Offset = "0x1D67CE0", VA = "0x181D696E0")]
+	[Address(RVA = "0x57040A0", Offset = "0x57030A0", VA = "0x57040A0")]
 	public DeviceInfo(string id, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x1D695B0", Offset = "0x1D67BB0", VA = "0x181D695B0")]
+	[Address(RVA = "0x5704140", Offset = "0x5703140", VA = "0x5704140")]
 	public DeviceInfo(string name, [Optional] DeviceFeatures features)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x1D697E0", Offset = "0x1D67DE0", VA = "0x181D697E0")]
+	[Address(RVA = "0x57042C0", Offset = "0x57032C0", VA = "0x57042C0")]
 	public static bool operator ==(DeviceInfo d1, DeviceInfo d2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x1D69870", Offset = "0x1D67E70", VA = "0x181D69870")]
+	[Address(RVA = "0x5704420", Offset = "0x5703420", VA = "0x5704420")]
 	public static bool operator !=(DeviceInfo d1, DeviceInfo d2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x1D69110", Offset = "0x1D67710", VA = "0x181D69110", Slot = "0")]
+	[Address(RVA = "0x57043B0", Offset = "0x57033B0", VA = "0x57043B0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x1D69190", Offset = "0x1D67790", VA = "0x181D69190", Slot = "2")]
+	[Address(RVA = "0x5704510", Offset = "0x5703510", VA = "0x5704510", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x1D69200", Offset = "0x1D67800", VA = "0x181D69200", Slot = "3")]
+	[Address(RVA = "0x5704570", Offset = "0x5703570", VA = "0x5704570", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

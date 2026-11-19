@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000ED")]
+[Token(Token = "0x20000EE")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/Flare.h")]
 public sealed class LensFlare : Behaviour
 {

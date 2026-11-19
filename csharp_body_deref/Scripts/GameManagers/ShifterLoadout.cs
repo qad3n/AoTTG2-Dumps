@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000343")]
+[Token(Token = "0x20003A5")]
 internal class ShifterLoadout
 {
-	[Token(Token = "0x40010E6")]
+	[Token(Token = "0x4001296")]
 	public const string Annie = "Annie";
 
-	[Token(Token = "0x40010E7")]
+	[Token(Token = "0x4001297")]
 	public const string Eren = "Eren";
 
-	[Token(Token = "0x40010E8")]
+	[Token(Token = "0x4001298")]
 	public const string Armored = "Armored";
 
-	[Token(Token = "0x40010E9")]
+	[Token(Token = "0x4001299")]
 	public const string WallColossal = "WallColossal";
 
-	[Token(Token = "0x60014D7")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001757")]
+	[Address(RVA = "0x5858800", Offset = "0x5857800", VA = "0x5858800")]
 	public ShifterLoadout()
 	{
 	}

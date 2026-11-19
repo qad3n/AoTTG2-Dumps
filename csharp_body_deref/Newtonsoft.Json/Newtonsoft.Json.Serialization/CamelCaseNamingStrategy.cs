@@ -13,25 +13,25 @@ namespace Newtonsoft.Json.Serialization;
 public class CamelCaseNamingStrategy : NamingStrategy
 {
 	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x1C33E80", Offset = "0x1C32480", VA = "0x181C33E80")]
+	[Address(RVA = "0x55C10D0", Offset = "0x55C00D0", VA = "0x55C10D0")]
 	public CamelCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames)
 	{
 	}
 
 	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x1C33E40", Offset = "0x1C32440", VA = "0x181C33E40")]
+	[Address(RVA = "0x55C10F0", Offset = "0x55C00F0", VA = "0x55C10F0")]
 	public CamelCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames)
 	{
 	}
 
 	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x55C1120", Offset = "0x55C0120", VA = "0x55C1120")]
 	public CamelCaseNamingStrategy()
 	{
 	}
 
 	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x1C33E30", Offset = "0x1C32430", VA = "0x181C33E30", Slot = "7")]
+	[Address(RVA = "0x55C1130", Offset = "0x55C0130", VA = "0x55C1130", Slot = "7")]
 	protected override string ResolvePropertyName(string name)
 	{
 		return null;

@@ -19,14 +19,14 @@ public struct VoiceInfo
 	public Codec Codec
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x571A7E0", Offset = "0x57197E0", VA = "0x571A7E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(Codec);
 		}
 		[Token(Token = "0x6000306")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x571A7F0", Offset = "0x57197F0", VA = "0x571A7F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,14 +37,14 @@ public struct VoiceInfo
 	public int SamplingRate
 	{
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x571A800", Offset = "0x5719800", VA = "0x571A800")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000308")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x571A810", Offset = "0x5719810", VA = "0x571A810")]
 		[CompilerGenerated]
 		set
 		{
@@ -55,14 +55,14 @@ public struct VoiceInfo
 	public int Channels
 	{
 		[Token(Token = "0x6000309")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x571A820", Offset = "0x5719820", VA = "0x571A820")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600030A")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x571A830", Offset = "0x5719830", VA = "0x571A830")]
 		[CompilerGenerated]
 		set
 		{
@@ -73,14 +73,14 @@ public struct VoiceInfo
 	public int FrameDurationUs
 	{
 		[Token(Token = "0x600030B")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x571A840", Offset = "0x5719840", VA = "0x571A840")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600030C")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
+		[Address(RVA = "0x571A850", Offset = "0x5719850", VA = "0x571A850")]
 		[CompilerGenerated]
 		set
 		{
@@ -91,14 +91,14 @@ public struct VoiceInfo
 	public int Bitrate
 	{
 		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x571A860", Offset = "0x5719860", VA = "0x571A860")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600030E")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x571A870", Offset = "0x5719870", VA = "0x571A870")]
 		[CompilerGenerated]
 		set
 		{
@@ -109,14 +109,14 @@ public struct VoiceInfo
 	public int Width
 	{
 		[Token(Token = "0x600030F")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x571A880", Offset = "0x5719880", VA = "0x571A880")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000310")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x571A890", Offset = "0x5719890", VA = "0x571A890")]
 		[CompilerGenerated]
 		set
 		{
@@ -127,14 +127,14 @@ public struct VoiceInfo
 	public int Height
 	{
 		[Token(Token = "0x6000311")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x571A8A0", Offset = "0x57198A0", VA = "0x571A8A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000312")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x571A8B0", Offset = "0x57198B0", VA = "0x571A8B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -145,14 +145,14 @@ public struct VoiceInfo
 	public int FPS
 	{
 		[Token(Token = "0x6000313")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x571A8C0", Offset = "0x57198C0", VA = "0x571A8C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000314")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x571A8D0", Offset = "0x57198D0", VA = "0x571A8D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -163,14 +163,14 @@ public struct VoiceInfo
 	public int KeyFrameInt
 	{
 		[Token(Token = "0x6000315")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x571A8E0", Offset = "0x57198E0", VA = "0x571A8E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000316")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x571A8F0", Offset = "0x57198F0", VA = "0x571A8F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -181,14 +181,14 @@ public struct VoiceInfo
 	public object UserData
 	{
 		[Token(Token = "0x6000317")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x571A900", Offset = "0x5719900", VA = "0x571A900")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000318")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x571A910", Offset = "0x5719910", VA = "0x571A910")]
 		[CompilerGenerated]
 		set
 		{
@@ -199,7 +199,7 @@ public struct VoiceInfo
 	public int FrameDurationSamples
 	{
 		[Token(Token = "0x6000319")]
-		[Address(RVA = "0x1D7CE70", Offset = "0x1D7B470", VA = "0x181D7CE70")]
+		[Address(RVA = "0x571A920", Offset = "0x5719920", VA = "0x571A920")]
 		get
 		{
 			return default(int);
@@ -210,7 +210,7 @@ public struct VoiceInfo
 	public int FrameSize
 	{
 		[Token(Token = "0x600031A")]
-		[Address(RVA = "0x1D7CEA0", Offset = "0x1D7B4A0", VA = "0x181D7CEA0")]
+		[Address(RVA = "0x571A7B0", Offset = "0x57197B0", VA = "0x571A7B0")]
 		get
 		{
 			return default(int);
@@ -218,21 +218,21 @@ public struct VoiceInfo
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x1D7C910", Offset = "0x1D7AF10", VA = "0x181D7C910")]
+	[Address(RVA = "0x571A6E0", Offset = "0x57196E0", VA = "0x571A6E0")]
 	public static VoiceInfo CreateAudioOpus(SamplingRate samplingRate, int channels, OpusCodec.FrameDuration frameDurationUs, int bitrate, [Optional] object userdata)
 	{
 		return default(VoiceInfo);
 	}
 
 	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x1D7C960", Offset = "0x1D7AF60", VA = "0x181D7C960")]
+	[Address(RVA = "0x571A750", Offset = "0x5719750", VA = "0x571A750")]
 	public static VoiceInfo CreateAudio(Codec codec, int samplingRate, int channels, int frameDurationUs, [Optional] object userdata)
 	{
 		return default(VoiceInfo);
 	}
 
 	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x1D7C9B0", Offset = "0x1D7AFB0", VA = "0x181D7C9B0", Slot = "3")]
+	[Address(RVA = "0x5708FB0", Offset = "0x5707FB0", VA = "0x5708FB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E1")]
+[Token(Token = "0x20000E2")]
 internal sealed class NewArrayInitInstruction : Instruction
 {
-	[Token(Token = "0x4000222")]
+	[Token(Token = "0x400022B")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _elementType;
 
-	[Token(Token = "0x4000223")]
+	[Token(Token = "0x400022C")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly int _elementCount;
 
-	[Token(Token = "0x17000143")]
+	[Token(Token = "0x17000145")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005C2")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "4")]
+		[Token(Token = "0x60005CD")]
+		[Address(RVA = "0x5DDAF10", Offset = "0x5DD9F10", VA = "0x5DDAF10", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000144")]
+	[Token(Token = "0x17000146")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005C3")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x60005CE")]
+		[Address(RVA = "0x5DDAF20", Offset = "0x5DD9F20", VA = "0x5DDAF20", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000145")]
+	[Token(Token = "0x17000147")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005C4")]
-		[Address(RVA = "0x243DD80", Offset = "0x243C380", VA = "0x18243DD80", Slot = "9")]
+		[Token(Token = "0x60005CF")]
+		[Address(RVA = "0x5DDAF30", Offset = "0x5DD9F30", VA = "0x5DDAF30", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005C1")]
-	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
+	[Token(Token = "0x60005CC")]
+	[Address(RVA = "0x5DDAEE0", Offset = "0x5DD9EE0", VA = "0x5DDAEE0")]
 	internal NewArrayInitInstruction(Type elementType, int elementCount)
 	{
 	}
 
-	[Token(Token = "0x60005C5")]
-	[Address(RVA = "0x243DCF0", Offset = "0x243C2F0", VA = "0x18243DCF0", Slot = "8")]
+	[Token(Token = "0x60005D0")]
+	[Address(RVA = "0x5DDAF60", Offset = "0x5DD9F60", VA = "0x5DDAF60", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

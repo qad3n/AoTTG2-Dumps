@@ -9,46 +9,46 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000152")]
+[Token(Token = "0x2000113")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Delegate)]
 public sealed class EditorBrowsableAttribute : Attribute
 {
-	[Token(Token = "0x40005EF")]
+	[Token(Token = "0x4000520")]
 	[FieldOffset(Offset = "0x10")]
 	private EditorBrowsableState browsableState;
 
-	[Token(Token = "0x1700019C")]
+	[Token(Token = "0x1700016D")]
 	public EditorBrowsableState State
 	{
-		[Token(Token = "0x6000881")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60006C1")]
+		[Address(RVA = "0x6220780", Offset = "0x621F780", VA = "0x6220780")]
 		get
 		{
 			return default(EditorBrowsableState);
 		}
 	}
 
-	[Token(Token = "0x600087F")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x60006BF")]
+	[Address(RVA = "0x6220740", Offset = "0x621F740", VA = "0x6220740")]
 	public EditorBrowsableAttribute(EditorBrowsableState state)
 	{
 	}
 
-	[Token(Token = "0x6000880")]
-	[Address(RVA = "0x287DA40", Offset = "0x287C040", VA = "0x18287DA40")]
+	[Token(Token = "0x60006C0")]
+	[Address(RVA = "0x6220760", Offset = "0x621F760", VA = "0x6220760")]
 	public EditorBrowsableAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000882")]
-	[Address(RVA = "0x287D9C0", Offset = "0x287BFC0", VA = "0x18287D9C0", Slot = "0")]
+	[Token(Token = "0x60006C2")]
+	[Address(RVA = "0x6220790", Offset = "0x621F790", VA = "0x6220790", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000883")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x60006C3")]
+	[Address(RVA = "0x6220800", Offset = "0x621F800", VA = "0x6220800", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

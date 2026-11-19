@@ -31,14 +31,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget parentUIHandler
 	{
 		[Token(Token = "0x6001510")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x65AFE20", Offset = "0x65AEE20", VA = "0x65AFE20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001511")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x65AFE30", Offset = "0x65AEE30", VA = "0x65AFE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -49,14 +49,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget previousUIHandler
 	{
 		[Token(Token = "0x6001512")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x65AFE40", Offset = "0x65AEE40", VA = "0x65AFE40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001513")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x65AFE50", Offset = "0x65AEE50", VA = "0x65AFE50")]
 		[CompilerGenerated]
 		set
 		{
@@ -67,14 +67,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget nextUIHandler
 	{
 		[Token(Token = "0x6001514")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x65AFE60", Offset = "0x65AEE60", VA = "0x65AFE60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001515")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x65AFE70", Offset = "0x65AEE70", VA = "0x65AFE70")]
 		[CompilerGenerated]
 		set
 		{
@@ -82,19 +82,19 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	}
 
 	[Token(Token = "0x6001516")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x65AFE80", Offset = "0x65AEE80", VA = "0x65AFE80", Slot = "4")]
 	protected virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6001517")]
-	[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140", Slot = "5")]
+	[Address(RVA = "0x65AFE90", Offset = "0x65AEE90", VA = "0x65AFE90", Slot = "5")]
 	internal virtual void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6001518")]
-	[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+	[Address(RVA = "0x65AFEA0", Offset = "0x65AEEA0", VA = "0x65AFEA0")]
 	internal DebugUI.Widget GetWidget()
 	{
 		return null;
@@ -107,52 +107,52 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	}
 
 	[Token(Token = "0x600151A")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
+	[Address(RVA = "0x65AFEB0", Offset = "0x65AEEB0", VA = "0x65AFEB0", Slot = "6")]
 	public virtual bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600151B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x65AFEC0", Offset = "0x65AEEC0", VA = "0x65AFEC0", Slot = "7")]
 	public virtual void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x600151C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Address(RVA = "0x65AFED0", Offset = "0x65AEED0", VA = "0x65AFED0", Slot = "8")]
 	public virtual void OnAction()
 	{
 	}
 
 	[Token(Token = "0x600151D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x65AFEE0", Offset = "0x65AEEE0", VA = "0x65AFEE0", Slot = "9")]
 	public virtual void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x600151E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Address(RVA = "0x65AFEF0", Offset = "0x65AEEF0", VA = "0x65AFEF0", Slot = "10")]
 	public virtual void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x600151F")]
-	[Address(RVA = "0x2BB4AC0", Offset = "0x2BB30C0", VA = "0x182BB4AC0", Slot = "11")]
+	[Address(RVA = "0x65AFF00", Offset = "0x65AEF00", VA = "0x65AFF00", Slot = "11")]
 	public virtual DebugUIHandlerWidget Previous()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001520")]
-	[Address(RVA = "0x2BB49A0", Offset = "0x2BB2FA0", VA = "0x182BB49A0", Slot = "12")]
+	[Address(RVA = "0x65A3AE0", Offset = "0x65A2AE0", VA = "0x65A3AE0", Slot = "12")]
 	public virtual DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001521")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65A3C80", Offset = "0x65A2C80", VA = "0x65A3C80")]
 	public DebugUIHandlerWidget()
 	{
 	}

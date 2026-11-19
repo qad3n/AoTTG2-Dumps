@@ -42,13 +42,13 @@ public class PlayerNumbering : MonoBehaviourPunCallbacks
 	public static event PlayerNumberingChanged OnPlayerNumberingChanged
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x1D5AE10", Offset = "0x1D59410", VA = "0x181D5AE10")]
+		[Address(RVA = "0x56F1190", Offset = "0x56F0190", VA = "0x56F1190")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x1D5AED0", Offset = "0x1D594D0", VA = "0x181D5AED0")]
+		[Address(RVA = "0x56F1240", Offset = "0x56F0240", VA = "0x56F1240")]
 		[CompilerGenerated]
 		remove
 		{
@@ -56,49 +56,49 @@ public class PlayerNumbering : MonoBehaviourPunCallbacks
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x1D5A440", Offset = "0x1D58A40", VA = "0x181D5A440")]
+	[Address(RVA = "0x56F12F0", Offset = "0x56F02F0", VA = "0x56F12F0")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x1D5A5F0", Offset = "0x1D58BF0", VA = "0x181D5A5F0", Slot = "41")]
+	[Address(RVA = "0x56F1C70", Offset = "0x56F0C70", VA = "0x56F1C70", Slot = "41")]
 	public override void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x1D5A600", Offset = "0x1D58C00", VA = "0x181D5A600", Slot = "31")]
+	[Address(RVA = "0x56F1C80", Offset = "0x56F0C80", VA = "0x56F1C80", Slot = "31")]
 	public override void OnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x1D5A5F0", Offset = "0x1D58BF0", VA = "0x181D5A5F0", Slot = "42")]
+	[Address(RVA = "0x56F1D30", Offset = "0x56F0D30", VA = "0x56F1D30", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x1D5A5F0", Offset = "0x1D58BF0", VA = "0x181D5A5F0", Slot = "43")]
+	[Address(RVA = "0x56F1D40", Offset = "0x56F0D40", VA = "0x56F1D40", Slot = "43")]
 	public override void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x1D5A680", Offset = "0x1D58C80", VA = "0x181D5A680", Slot = "47")]
+	[Address(RVA = "0x56F1D50", Offset = "0x56F0D50", VA = "0x56F1D50", Slot = "47")]
 	public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x1D5A6F0", Offset = "0x1D58CF0", VA = "0x181D5A6F0")]
+	[Address(RVA = "0x56F1480", Offset = "0x56F0480", VA = "0x56F1480")]
 	public void RefreshData()
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x56F2270", Offset = "0x56F1270", VA = "0x56F2270")]
 	public PlayerNumbering()
 	{
 	}

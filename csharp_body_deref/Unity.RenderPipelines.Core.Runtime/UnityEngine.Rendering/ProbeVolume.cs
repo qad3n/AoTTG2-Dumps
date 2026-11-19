@@ -112,13 +112,13 @@ public class ProbeVolume : MonoBehaviour
 	public bool fillEmptySpaces;
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x2B191A0", Offset = "0x2B177A0", VA = "0x182B191A0")]
+	[Address(RVA = "0x6507DC0", Offset = "0x6506DC0", VA = "0x6507DC0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x2B191D0", Offset = "0x2B177D0", VA = "0x182B191D0")]
+	[Address(RVA = "0x6507DE0", Offset = "0x6506DE0", VA = "0x6507DE0")]
 	public ProbeVolume()
 	{
 	}

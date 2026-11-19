@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000441")]
+[Token(Token = "0x200041A")]
 internal sealed class MemberPrimitiveUnTyped
 {
-	[Token(Token = "0x40010ED")]
+	[Token(Token = "0x400104D")]
 	[FieldOffset(Offset = "0x10")]
 	internal System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation;
 
-	[Token(Token = "0x40010EE")]
+	[Token(Token = "0x400104E")]
 	[FieldOffset(Offset = "0x18")]
 	internal object value;
 
-	[Token(Token = "0x60020E4")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60020BA")]
+	[Address(RVA = "0x53ABED0", Offset = "0x53AAED0", VA = "0x53ABED0")]
 	internal MemberPrimitiveUnTyped()
 	{
 	}
 
-	[Token(Token = "0x60020E5")]
-	[Address(RVA = "0x1A0C0F0", Offset = "0x1A0A6F0", VA = "0x181A0C0F0")]
+	[Token(Token = "0x60020BB")]
+	[Address(RVA = "0x53ABEE0", Offset = "0x53AAEE0", VA = "0x53ABEE0")]
 	internal void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, object value)
 	{
 	}
 
-	[Token(Token = "0x60020E6")]
-	[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+	[Token(Token = "0x60020BC")]
+	[Address(RVA = "0x53ABF00", Offset = "0x53AAF00", VA = "0x53ABF00")]
 	internal void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
 	{
 	}
 
-	[Token(Token = "0x60020E7")]
-	[Address(RVA = "0x1A14E50", Offset = "0x1A13450", VA = "0x181A14E50", Slot = "4")]
+	[Token(Token = "0x60020BD")]
+	[Address(RVA = "0x53ABF10", Offset = "0x53AAF10", VA = "0x53ABF10", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x60020E8")]
-	[Address(RVA = "0x1A14E10", Offset = "0x1A13410", VA = "0x181A14E10", Slot = "5")]
+	[Token(Token = "0x60020BE")]
+	[Address(RVA = "0x53ABF30", Offset = "0x53AAF30", VA = "0x53ABF30", Slot = "5")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}
 
-	[Token(Token = "0x60020E9")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60020BF")]
+	[Address(RVA = "0x53ABF70", Offset = "0x53AAF70", VA = "0x53ABF70")]
 	public void Dump()
 	{
 	}

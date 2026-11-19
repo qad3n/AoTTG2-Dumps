@@ -16,7 +16,7 @@ public static class OpusLib
 	public static string Version
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x1D6EFE0", Offset = "0x1D6D5E0", VA = "0x181D6EFE0")]
+		[Address(RVA = "0x56FFEB0", Offset = "0x56FEEB0", VA = "0x56FFEB0")]
 		get
 		{
 			return null;

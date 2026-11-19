@@ -13,7 +13,7 @@ namespace DG.Tweening.Plugins.Options;
 public struct NoOptions : IPlugOptions
 {
 	[Token(Token = "0x6000375")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x318FEA0", Offset = "0x318EEA0", VA = "0x318FEA0", Slot = "4")]
 	public void Reset()
 	{
 	}

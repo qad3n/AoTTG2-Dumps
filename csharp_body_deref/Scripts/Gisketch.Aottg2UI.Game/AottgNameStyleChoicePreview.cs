@@ -12,130 +12,130 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000297")]
+[Token(Token = "0x20002F3")]
 internal sealed class AottgNameStyleChoicePreview : MonoBehaviour
 {
-	[Token(Token = "0x4000D5A")]
+	[Token(Token = "0x4000EF1")]
 	[FieldOffset(Offset = "0x20")]
 	private TMP_Text _text;
 
-	[Token(Token = "0x4000D5B")]
+	[Token(Token = "0x4000EF2")]
 	[FieldOffset(Offset = "0x28")]
 	private NameEffectController _effect;
 
-	[Token(Token = "0x4000D5C")]
+	[Token(Token = "0x4000EF3")]
 	[FieldOffset(Offset = "0x30")]
 	private Color[] _colors;
 
-	[Token(Token = "0x4000D5D")]
+	[Token(Token = "0x4000EF4")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _hooked;
 
-	[Token(Token = "0x170001C5")]
+	[Token(Token = "0x17000202")]
 	private TMP_Text Text
 	{
-		[Token(Token = "0x6000FE9")]
-		[Address(RVA = "0x1E0BB00", Offset = "0x1E0A100", VA = "0x181E0BB00")]
+		[Token(Token = "0x6001239")]
+		[Address(RVA = "0x57E8120", Offset = "0x57E7120", VA = "0x57E8120")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000FE4")]
-	[Address(RVA = "0x1E0ABA0", Offset = "0x1E091A0", VA = "0x181E0ABA0")]
+	[Token(Token = "0x6001234")]
+	[Address(RVA = "0x57E7590", Offset = "0x57E6590", VA = "0x57E7590")]
 	public void ConfigureDisabled()
 	{
 	}
 
-	[Token(Token = "0x6000FE5")]
-	[Address(RVA = "0x1E0AE50", Offset = "0x1E09450", VA = "0x181E0AE50")]
+	[Token(Token = "0x6001235")]
+	[Address(RVA = "0x57E7CD0", Offset = "0x57E6CD0", VA = "0x57E7CD0")]
 	public void ConfigureFont(string font)
 	{
 	}
 
-	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x1E0B120", Offset = "0x1E09720", VA = "0x181E0B120")]
+	[Token(Token = "0x6001236")]
+	[Address(RVA = "0x57E76B0", Offset = "0x57E66B0", VA = "0x57E76B0")]
 	public void ConfigureSolid(Color color, string font)
 	{
 	}
 
-	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x1E0AF70", Offset = "0x1E09570", VA = "0x181E0AF70")]
+	[Token(Token = "0x6001237")]
+	[Address(RVA = "0x57E7990", Offset = "0x57E6990", VA = "0x57E7990")]
 	public void ConfigureGradient(Color[] colors, string font)
 	{
 	}
 
-	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x1E0ACF0", Offset = "0x1E092F0", VA = "0x181E0ACF0")]
+	[Token(Token = "0x6001238")]
+	[Address(RVA = "0x57E7AB0", Offset = "0x57E6AB0", VA = "0x57E7AB0")]
 	public void ConfigureEffect(NameEffectType effect, Color[] colors, string font)
 	{
 	}
 
-	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x1E0B320", Offset = "0x1E09920", VA = "0x181E0B320")]
+	[Token(Token = "0x600123A")]
+	[Address(RVA = "0x57E81B0", Offset = "0x57E71B0", VA = "0x57E81B0")]
 	private void HookVertexColors()
 	{
 	}
 
-	[Token(Token = "0x6000FEB")]
-	[Address(RVA = "0x1E0AAB0", Offset = "0x1E090B0", VA = "0x181E0AAB0")]
+	[Token(Token = "0x600123B")]
+	[Address(RVA = "0x57E8250", Offset = "0x57E7250", VA = "0x57E8250")]
 	private void ClearVertexColors()
 	{
 	}
 
-	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0x1E0AA00", Offset = "0x1E09000", VA = "0x181E0AA00")]
+	[Token(Token = "0x600123C")]
+	[Address(RVA = "0x57E8330", Offset = "0x57E7330", VA = "0x57E8330")]
 	private void ClearEffect()
 	{
 	}
 
-	[Token(Token = "0x6000FED")]
-	[Address(RVA = "0x1E0B490", Offset = "0x1E09A90", VA = "0x181E0B490")]
+	[Token(Token = "0x600123D")]
+	[Address(RVA = "0x57E7FD0", Offset = "0x57E6FD0", VA = "0x57E7FD0")]
 	private void ResetPlainVisuals(string font)
 	{
 	}
 
-	[Token(Token = "0x6000FEE")]
-	[Address(RVA = "0x1E0A880", Offset = "0x1E08E80", VA = "0x181E0A880")]
+	[Token(Token = "0x600123E")]
+	[Address(RVA = "0x57E83E0", Offset = "0x57E73E0", VA = "0x57E83E0")]
 	private void ClearAllEffects()
 	{
 	}
 
-	[Token(Token = "0x6000FEF")]
-	[Address(RVA = "0x1E0B1B0", Offset = "0x1E097B0", VA = "0x181E0B1B0")]
+	[Token(Token = "0x600123F")]
+	[Address(RVA = "0x57E8580", Offset = "0x57E7580", VA = "0x57E8580")]
 	private void DestroyStalePopLayer(string name)
 	{
 	}
 
-	[Token(Token = "0x6000FF0")]
-	[Address(RVA = "0x1E0A460", Offset = "0x1E08A60", VA = "0x181E0A460")]
+	[Token(Token = "0x6001240")]
+	[Address(RVA = "0x57E86F0", Offset = "0x57E76F0", VA = "0x57E86F0")]
 	private void ApplyVertexColors(TMP_TextInfo textInfo)
 	{
 	}
 
-	[Token(Token = "0x6000FF1")]
-	[Address(RVA = "0x1E0B910", Offset = "0x1E09F10", VA = "0x181E0B910")]
+	[Token(Token = "0x6001241")]
+	[Address(RVA = "0x57E8A40", Offset = "0x57E7A40", VA = "0x57E8A40")]
 	private bool TryBounds(TMP_TextInfo textInfo, out float minX, out float maxX)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FF2")]
-	[Address(RVA = "0x1E0B750", Offset = "0x1E09D50", VA = "0x181E0B750")]
+	[Token(Token = "0x6001242")]
+	[Address(RVA = "0x57E8BE0", Offset = "0x57E7BE0", VA = "0x57E8BE0")]
 	private Color Sample(float t)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x6000FF3")]
-	[Address(RVA = "0x1E0B3D0", Offset = "0x1E099D0", VA = "0x181E0B3D0")]
+	[Token(Token = "0x6001243")]
+	[Address(RVA = "0x57E8D60", Offset = "0x57E7D60", VA = "0x57E8D60")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000FF4")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6001244")]
+	[Address(RVA = "0x57E8D80", Offset = "0x57E7D80", VA = "0x57E8D80")]
 	public AottgNameStyleChoicePreview()
 	{
 	}

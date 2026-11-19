@@ -15,21 +15,21 @@ namespace Unity.VisualScripting;
 public static class ComponentHolderProtocol
 {
 	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x2E50280", Offset = "0x2E4E880", VA = "0x182E50280")]
+	[Address(RVA = "0x6849980", Offset = "0x6848980", VA = "0x6849980")]
 	public static bool IsComponentHolderType(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x2E503C0", Offset = "0x2E4E9C0", VA = "0x182E503C0")]
+	[Address(RVA = "0x6849AD0", Offset = "0x6848AD0", VA = "0x6849AD0")]
 	public static bool IsComponentHolder(this UnityEngine.Object uo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x2E4FA20", Offset = "0x2E4E020", VA = "0x182E4FA20")]
+	[Address(RVA = "0x6849B50", Offset = "0x6848B50", VA = "0x6849B50")]
 	public static GameObject GameObject(this UnityEngine.Object uo)
 	{
 		return null;
@@ -84,42 +84,42 @@ public static class ComponentHolderProtocol
 	}
 
 	[Token(Token = "0x600101A")]
-	[Address(RVA = "0x2E4FD80", Offset = "0x2E4E380", VA = "0x182E4FD80")]
+	[Address(RVA = "0x6849BD0", Offset = "0x6848BD0", VA = "0x6849BD0")]
 	public static Component GetComponent(this UnityEngine.Object uo, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x2E4FB00", Offset = "0x2E4E100", VA = "0x182E4FB00")]
+	[Address(RVA = "0x6849CA0", Offset = "0x6848CA0", VA = "0x6849CA0")]
 	public static Component GetComponentInChildren(this UnityEngine.Object uo, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101C")]
-	[Address(RVA = "0x2E4FC40", Offset = "0x2E4E240", VA = "0x182E4FC40")]
+	[Address(RVA = "0x6849D70", Offset = "0x6848D70", VA = "0x6849D70")]
 	public static Component GetComponentInParent(this UnityEngine.Object uo, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101D")]
-	[Address(RVA = "0x2E50140", Offset = "0x2E4E740", VA = "0x182E50140")]
+	[Address(RVA = "0x6849E40", Offset = "0x6848E40", VA = "0x6849E40")]
 	public static Component[] GetComponents(this UnityEngine.Object uo, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101E")]
-	[Address(RVA = "0x2E4FEC0", Offset = "0x2E4E4C0", VA = "0x182E4FEC0")]
+	[Address(RVA = "0x6849F10", Offset = "0x6848F10", VA = "0x6849F10")]
 	public static Component[] GetComponentsInChildren(this UnityEngine.Object uo, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101F")]
-	[Address(RVA = "0x2E50000", Offset = "0x2E4E600", VA = "0x182E50000")]
+	[Address(RVA = "0x6849FE0", Offset = "0x6848FE0", VA = "0x6849FE0")]
 	public static Component[] GetComponentsInParent(this UnityEngine.Object uo, Type type)
 	{
 		return null;

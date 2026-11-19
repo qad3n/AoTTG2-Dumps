@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000077")]
+[Token(Token = "0x200007D")]
 public sealed class AottgPopoverEntry
 {
 	[Token(Token = "0x1700006B")]
 	public string Id
 	{
-		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60003C6")]
+		[Address(RVA = "0x5263800", Offset = "0x5262800", VA = "0x5263800")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,8 +29,8 @@ public sealed class AottgPopoverEntry
 	[Token(Token = "0x1700006C")]
 	public Type Type
 	{
-		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60003C7")]
+		[Address(RVA = "0x5263810", Offset = "0x5262810", VA = "0x5263810")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,8 +41,8 @@ public sealed class AottgPopoverEntry
 	[Token(Token = "0x1700006D")]
 	public AottgPopoverAttribute Attribute
 	{
-		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60003C8")]
+		[Address(RVA = "0x5263820", Offset = "0x5262820", VA = "0x5263820")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,8 +50,8 @@ public sealed class AottgPopoverEntry
 		}
 	}
 
-	[Token(Token = "0x600037A")]
-	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+	[Token(Token = "0x60003C5")]
+	[Address(RVA = "0x52635F0", Offset = "0x52625F0", VA = "0x52635F0")]
 	internal AottgPopoverEntry(string id, Type type, AottgPopoverAttribute attribute)
 	{
 	}

@@ -10,16 +10,16 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003B7")]
+[Token(Token = "0x2000395")]
 [MovedFrom("UnityEngine.Rendering.RendererUtils")]
 public enum RendererListStatus
 {
-	[Token(Token = "0x4000BD6")]
+	[Token(Token = "0x4000AE6")]
 	kRendererListInvalid = -2,
-	[Token(Token = "0x4000BD7")]
+	[Token(Token = "0x4000AE7")]
 	kRendererListProcessing,
-	[Token(Token = "0x4000BD8")]
+	[Token(Token = "0x4000AE8")]
 	kRendererListEmpty,
-	[Token(Token = "0x4000BD9")]
+	[Token(Token = "0x4000AE9")]
 	kRendererListPopulated
 }

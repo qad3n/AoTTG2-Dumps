@@ -11,34 +11,34 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003ED")]
+[Token(Token = "0x20003C6")]
 [ComVisible(true)]
 public class RemotingSurrogateSelector : ISurrogateSelector
 {
-	[Token(Token = "0x4000FB3")]
+	[Token(Token = "0x4000F13")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static Type s_cachedTypeObjRef;
 
-	[Token(Token = "0x4000FB4")]
+	[Token(Token = "0x4000F14")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static System.Runtime.Remoting.Messaging.ObjRefSurrogate _objRefSurrogate;
 
-	[Token(Token = "0x4000FB5")]
+	[Token(Token = "0x4000F15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static System.Runtime.Remoting.Messaging.RemotingSurrogate _objRemotingSurrogate;
 
-	[Token(Token = "0x4000FB6")]
+	[Token(Token = "0x4000F16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private ISurrogateSelector _next;
 
-	[Token(Token = "0x6001F63")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001F39")]
+	[Address(RVA = "0x538A220", Offset = "0x5389220", VA = "0x538A220")]
 	public RemotingSurrogateSelector()
 	{
 	}
 
-	[Token(Token = "0x6001F64")]
-	[Address(RVA = "0x1A07530", Offset = "0x1A05B30", VA = "0x181A07530", Slot = "5")]
+	[Token(Token = "0x6001F3A")]
+	[Address(RVA = "0x5399C90", Offset = "0x5398C90", VA = "0x5399C90", Slot = "5")]
 	public virtual ISerializationSurrogate GetSurrogate(Type type, StreamingContext context, out ISurrogateSelector ssout)
 	{
 		return null;

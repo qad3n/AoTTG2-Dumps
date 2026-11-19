@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001C5")]
+[Token(Token = "0x2000186")]
 public enum ListSortDirection
 {
-	[Token(Token = "0x40006D2")]
+	[Token(Token = "0x4000603")]
 	Ascending,
-	[Token(Token = "0x40006D3")]
+	[Token(Token = "0x4000604")]
 	Descending
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StylePropertyAnimationSystem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -132,21 +132,21 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		private class EqualityComparer : IEqualityComparer<ElementPropertyPair>
 		{
 			[Token(Token = "0x60021A3")]
-			[Address(RVA = "0x310DEF0", Offset = "0x310C4F0", VA = "0x18310DEF0", Slot = "4")]
+			[Address(RVA = "0x6B186F0", Offset = "0x6B176F0", VA = "0x6B186F0", Slot = "4")]
 			public bool Equals(ElementPropertyPair x, ElementPropertyPair y)
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x60021A4")]
-			[Address(RVA = "0x310DF10", Offset = "0x310C510", VA = "0x18310DF10", Slot = "5")]
+			[Address(RVA = "0x6B18700", Offset = "0x6B17700", VA = "0x6B18700", Slot = "5")]
 			public int GetHashCode(ElementPropertyPair obj)
 			{
 				return default(int);
 			}
 
 			[Token(Token = "0x60021A5")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x6B186E0", Offset = "0x6B176E0", VA = "0x6B186E0")]
 			public EqualityComparer()
 			{
 			}
@@ -165,7 +165,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public readonly StylePropertyId property;
 
 		[Token(Token = "0x60021A1")]
-		[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
+		[Address(RVA = "0x6B18650", Offset = "0x6B17650", VA = "0x6B18650")]
 		public ElementPropertyPair(VisualElement element, StylePropertyId property)
 		{
 		}
@@ -202,7 +202,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		protected abstract void UpdateComputedStyle(int i);
 
 		[Token(Token = "0x60021AF")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6B18730", Offset = "0x6B17730", VA = "0x6B18730")]
 		protected Values()
 		{
 		}
@@ -498,7 +498,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<float, float, bool> SameFunc
 		{
 			[Token(Token = "0x60021D5")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B18740", Offset = "0x6B17740", VA = "0x6B18740", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -507,38 +507,38 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x60021D6")]
-		[Address(RVA = "0x311FFB0", Offset = "0x311E5B0", VA = "0x18311FFB0")]
+		[Address(RVA = "0x6B18750", Offset = "0x6B17750", VA = "0x6B18750")]
 		private static bool IsSame(float a, float b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60021D7")]
-		[Address(RVA = "0x311FFC0", Offset = "0x311E5C0", VA = "0x18311FFC0")]
+		[Address(RVA = "0x6B187E0", Offset = "0x6B177E0", VA = "0x6B187E0")]
 		private static void Lerp(float a, float b, ref float result, float t)
 		{
 		}
 
 		[Token(Token = "0x60021D8")]
-		[Address(RVA = "0x3120130", Offset = "0x311E730", VA = "0x183120130", Slot = "10")]
+		[Address(RVA = "0x6B18800", Offset = "0x6B17800", VA = "0x6B18800", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x60021D9")]
-		[Address(RVA = "0x311FFE0", Offset = "0x311E5E0", VA = "0x18311FFE0", Slot = "11")]
+		[Address(RVA = "0x6B18880", Offset = "0x6B17880", VA = "0x6B18880", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021DA")]
-		[Address(RVA = "0x3120090", Offset = "0x311E690", VA = "0x183120090", Slot = "12")]
+		[Address(RVA = "0x6B18930", Offset = "0x6B17930", VA = "0x6B18930", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021DB")]
-		[Address(RVA = "0x31201C0", Offset = "0x311E7C0", VA = "0x1831201C0")]
+		[Address(RVA = "0x6B189B0", Offset = "0x6B179B0", VA = "0x6B189B0")]
 		public ValuesFloat()
 		{
 		}
@@ -551,7 +551,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<int, int, bool> SameFunc
 		{
 			[Token(Token = "0x60021DC")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B18A50", Offset = "0x6B17A50", VA = "0x6B18A50", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -560,39 +560,39 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x60021DD")]
-		[Address(RVA = "0x866D40", Offset = "0x865340", VA = "0x180866D40")]
+		[Address(RVA = "0x6B18A60", Offset = "0x6B17A60", VA = "0x6B18A60")]
 		private static bool IsSame(int a, int b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60021DE")]
-		[Address(RVA = "0x31205B0", Offset = "0x311EBB0", VA = "0x1831205B0")]
+		[Address(RVA = "0x6B18A70", Offset = "0x6B17A70", VA = "0x6B18A70")]
 		private static int Lerp(int a, int b, float t)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60021DF")]
-		[Address(RVA = "0x31206C0", Offset = "0x311ECC0", VA = "0x1831206C0", Slot = "10")]
+		[Address(RVA = "0x6B18BA0", Offset = "0x6B17BA0", VA = "0x6B18BA0", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x60021E0")]
-		[Address(RVA = "0x311FEC0", Offset = "0x311E4C0", VA = "0x18311FEC0", Slot = "11")]
+		[Address(RVA = "0x6B18C40", Offset = "0x6B17C40", VA = "0x6B18C40", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021E1")]
-		[Address(RVA = "0x311FE20", Offset = "0x311E420", VA = "0x18311FE20", Slot = "12")]
+		[Address(RVA = "0x6B18CF0", Offset = "0x6B17CF0", VA = "0x6B18CF0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021E2")]
-		[Address(RVA = "0x3120880", Offset = "0x311EE80", VA = "0x183120880")]
+		[Address(RVA = "0x6B18D70", Offset = "0x6B17D70", VA = "0x6B18D70")]
 		public ValuesInt()
 		{
 		}
@@ -605,7 +605,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Length, Length, bool> SameFunc
 		{
 			[Token(Token = "0x60021E3")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B18E10", Offset = "0x6B17E10", VA = "0x6B18E10", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -614,46 +614,46 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x60021E4")]
-		[Address(RVA = "0x3120960", Offset = "0x311EF60", VA = "0x183120960")]
+		[Address(RVA = "0x6B18E20", Offset = "0x6B17E20", VA = "0x6B18E20")]
 		private static bool IsSame(Length a, Length b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60021E5")]
-		[Address(RVA = "0x3120920", Offset = "0x311EF20", VA = "0x183120920", Slot = "14")]
+		[Address(RVA = "0x6B18ED0", Offset = "0x6B17ED0", VA = "0x6B18ED0", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref Length a, ref Length b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60021E6")]
-		[Address(RVA = "0x31209A0", Offset = "0x311EFA0", VA = "0x1831209A0")]
+		[Address(RVA = "0x6B18F00", Offset = "0x6B17F00", VA = "0x6B18F00")]
 		internal static Length Lerp(Length a, Length b, float t)
 		{
 			return default(Length);
 		}
 
 		[Token(Token = "0x60021E7")]
-		[Address(RVA = "0x3120B50", Offset = "0x311F150", VA = "0x183120B50", Slot = "10")]
+		[Address(RVA = "0x6B18F50", Offset = "0x6B17F50", VA = "0x6B18F50", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x60021E8")]
-		[Address(RVA = "0x3120A00", Offset = "0x311F000", VA = "0x183120A00", Slot = "11")]
+		[Address(RVA = "0x6B19010", Offset = "0x6B18010", VA = "0x6B19010", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021E9")]
-		[Address(RVA = "0x3120AB0", Offset = "0x311F0B0", VA = "0x183120AB0", Slot = "12")]
+		[Address(RVA = "0x6B190C0", Offset = "0x6B180C0", VA = "0x6B190C0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021EA")]
-		[Address(RVA = "0x3120C40", Offset = "0x311F240", VA = "0x183120C40")]
+		[Address(RVA = "0x6B19140", Offset = "0x6B18140", VA = "0x6B19140")]
 		public ValuesLength()
 		{
 		}
@@ -666,7 +666,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Color, Color, bool> SameFunc
 		{
 			[Token(Token = "0x60021EB")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B191E0", Offset = "0x6B181E0", VA = "0x6B191E0", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -675,39 +675,39 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x60021EC")]
-		[Address(RVA = "0x311F9E0", Offset = "0x311DFE0", VA = "0x18311F9E0")]
+		[Address(RVA = "0x6B191F0", Offset = "0x6B181F0", VA = "0x6B191F0")]
 		private static bool IsSame(Color c, Color d)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60021ED")]
-		[Address(RVA = "0x311FA60", Offset = "0x311E060", VA = "0x18311FA60")]
+		[Address(RVA = "0x6B19330", Offset = "0x6B18330", VA = "0x6B19330")]
 		private static Color Lerp(Color a, Color b, float t)
 		{
 			return default(Color);
 		}
 
 		[Token(Token = "0x60021EE")]
-		[Address(RVA = "0x311FC60", Offset = "0x311E260", VA = "0x18311FC60", Slot = "10")]
+		[Address(RVA = "0x6B19350", Offset = "0x6B18350", VA = "0x6B19350", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x60021EF")]
-		[Address(RVA = "0x311FB90", Offset = "0x311E190", VA = "0x18311FB90", Slot = "11")]
+		[Address(RVA = "0x6B193F0", Offset = "0x6B183F0", VA = "0x6B193F0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021F0")]
-		[Address(RVA = "0x311FAE0", Offset = "0x311E0E0", VA = "0x18311FAE0", Slot = "12")]
+		[Address(RVA = "0x6B194A0", Offset = "0x6B184A0", VA = "0x6B194A0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021F1")]
-		[Address(RVA = "0x311FD80", Offset = "0x311E380", VA = "0x18311FD80")]
+		[Address(RVA = "0x6B19530", Offset = "0x6B18530", VA = "0x6B19530")]
 		public ValuesColor()
 		{
 		}
@@ -754,19 +754,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesEnum : ValuesDiscrete<int>
 	{
 		[Token(Token = "0x60021F7")]
-		[Address(RVA = "0x311FEC0", Offset = "0x311E4C0", VA = "0x18311FEC0", Slot = "11")]
+		[Address(RVA = "0x6B195D0", Offset = "0x6B185D0", VA = "0x6B195D0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021F8")]
-		[Address(RVA = "0x311FE20", Offset = "0x311E420", VA = "0x18311FE20", Slot = "12")]
+		[Address(RVA = "0x6B19680", Offset = "0x6B18680", VA = "0x6B19680", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021F9")]
-		[Address(RVA = "0x311FF70", Offset = "0x311E570", VA = "0x18311FF70")]
+		[Address(RVA = "0x6B19700", Offset = "0x6B18700", VA = "0x6B19700")]
 		public ValuesEnum()
 		{
 		}
@@ -776,19 +776,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesBackground : ValuesDiscrete<Background>
 	{
 		[Token(Token = "0x60021FA")]
-		[Address(RVA = "0x311F8A0", Offset = "0x311DEA0", VA = "0x18311F8A0", Slot = "11")]
+		[Address(RVA = "0x6B19740", Offset = "0x6B18740", VA = "0x6B19740", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021FB")]
-		[Address(RVA = "0x311F7D0", Offset = "0x311DDD0", VA = "0x18311F7D0", Slot = "12")]
+		[Address(RVA = "0x6B19830", Offset = "0x6B18830", VA = "0x6B19830", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021FC")]
-		[Address(RVA = "0x311F9A0", Offset = "0x311DFA0", VA = "0x18311F9A0")]
+		[Address(RVA = "0x6B198F0", Offset = "0x6B188F0", VA = "0x6B198F0")]
 		public ValuesBackground()
 		{
 		}
@@ -798,19 +798,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesFontDefinition : ValuesDiscrete<FontDefinition>
 	{
 		[Token(Token = "0x60021FD")]
-		[Address(RVA = "0x3120310", Offset = "0x311E910", VA = "0x183120310", Slot = "11")]
+		[Address(RVA = "0x6B19930", Offset = "0x6B18930", VA = "0x6B19930", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x60021FE")]
-		[Address(RVA = "0x3120260", Offset = "0x311E860", VA = "0x183120260", Slot = "12")]
+		[Address(RVA = "0x6B199E0", Offset = "0x6B189E0", VA = "0x6B199E0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x60021FF")]
-		[Address(RVA = "0x31203E0", Offset = "0x311E9E0", VA = "0x1831203E0")]
+		[Address(RVA = "0x6B19A70", Offset = "0x6B18A70", VA = "0x6B19A70")]
 		public ValuesFontDefinition()
 		{
 		}
@@ -820,19 +820,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesFont : ValuesDiscrete<Font>
 	{
 		[Token(Token = "0x6002200")]
-		[Address(RVA = "0x31204C0", Offset = "0x311EAC0", VA = "0x1831204C0", Slot = "11")]
+		[Address(RVA = "0x6B19AB0", Offset = "0x6B18AB0", VA = "0x6B19AB0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002201")]
-		[Address(RVA = "0x3120420", Offset = "0x311EA20", VA = "0x183120420", Slot = "12")]
+		[Address(RVA = "0x6B19B60", Offset = "0x6B18B60", VA = "0x6B19B60", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002202")]
-		[Address(RVA = "0x3120570", Offset = "0x311EB70", VA = "0x183120570")]
+		[Address(RVA = "0x6B19BE0", Offset = "0x6B18BE0", VA = "0x6B19BE0")]
 		public ValuesFont()
 		{
 		}
@@ -845,7 +845,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<TextShadow, TextShadow, bool> SameFunc
 		{
 			[Token(Token = "0x6002203")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B19C20", Offset = "0x6B18C20", VA = "0x6B19C20", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -854,39 +854,39 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002204")]
-		[Address(RVA = "0x3123E90", Offset = "0x3122490", VA = "0x183123E90")]
+		[Address(RVA = "0x6B19C30", Offset = "0x6B18C30", VA = "0x6B19C30")]
 		private static bool IsSame(TextShadow a, TextShadow b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002205")]
-		[Address(RVA = "0x3123ED0", Offset = "0x31224D0", VA = "0x183123ED0")]
+		[Address(RVA = "0x6B19C40", Offset = "0x6B18C40", VA = "0x6B19C40")]
 		private static TextShadow Lerp(TextShadow a, TextShadow b, float t)
 		{
 			return default(TextShadow);
 		}
 
 		[Token(Token = "0x6002206")]
-		[Address(RVA = "0x3124110", Offset = "0x3122710", VA = "0x183124110", Slot = "10")]
+		[Address(RVA = "0x6B19CA0", Offset = "0x6B18CA0", VA = "0x6B19CA0", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002207")]
-		[Address(RVA = "0x3124010", Offset = "0x3122610", VA = "0x183124010", Slot = "11")]
+		[Address(RVA = "0x6B19DC0", Offset = "0x6B18DC0", VA = "0x6B19DC0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002208")]
-		[Address(RVA = "0x3123F40", Offset = "0x3122540", VA = "0x183123F40", Slot = "12")]
+		[Address(RVA = "0x6B19EC0", Offset = "0x6B18EC0", VA = "0x6B19EC0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002209")]
-		[Address(RVA = "0x3124220", Offset = "0x3122820", VA = "0x183124220")]
+		[Address(RVA = "0x6B19F90", Offset = "0x6B18F90", VA = "0x6B19F90")]
 		public ValuesTextShadow()
 		{
 		}
@@ -899,7 +899,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Scale, Scale, bool> SameFunc
 		{
 			[Token(Token = "0x600220A")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1A030", Offset = "0x6B19030", VA = "0x6B1A030", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -908,39 +908,39 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x600220B")]
-		[Address(RVA = "0x3123AA0", Offset = "0x31220A0", VA = "0x183123AA0")]
+		[Address(RVA = "0x6B1A040", Offset = "0x6B19040", VA = "0x6B1A040")]
 		private static bool IsSame(Scale a, Scale b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600220C")]
-		[Address(RVA = "0x3123C00", Offset = "0x3122200", VA = "0x183123C00", Slot = "11")]
+		[Address(RVA = "0x6B1A090", Offset = "0x6B19090", VA = "0x6B1A090", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x600220D")]
-		[Address(RVA = "0x3123B50", Offset = "0x3122150", VA = "0x183123B50", Slot = "12")]
+		[Address(RVA = "0x6B1A140", Offset = "0x6B19140", VA = "0x6B1A140", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x600220E")]
-		[Address(RVA = "0x3123AF0", Offset = "0x31220F0", VA = "0x183123AF0")]
+		[Address(RVA = "0x6B1A1D0", Offset = "0x6B191D0", VA = "0x6B1A1D0")]
 		private static Scale Lerp(Scale a, Scale b, float t)
 		{
 			return default(Scale);
 		}
 
 		[Token(Token = "0x600220F")]
-		[Address(RVA = "0x3123CD0", Offset = "0x31222D0", VA = "0x183123CD0", Slot = "10")]
+		[Address(RVA = "0x6B1A200", Offset = "0x6B19200", VA = "0x6B1A200", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002210")]
-		[Address(RVA = "0x3123DF0", Offset = "0x31223F0", VA = "0x183123DF0")]
+		[Address(RVA = "0x6B1A2B0", Offset = "0x6B192B0", VA = "0x6B1A2B0")]
 		public ValuesScale()
 		{
 		}
@@ -953,7 +953,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Rotate, Rotate, bool> SameFunc
 		{
 			[Token(Token = "0x6002211")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1A350", Offset = "0x6B19350", VA = "0x6B1A350", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -962,39 +962,39 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002212")]
-		[Address(RVA = "0x31234C0", Offset = "0x3121AC0", VA = "0x1831234C0")]
+		[Address(RVA = "0x6B1A360", Offset = "0x6B19360", VA = "0x6B1A360")]
 		private static bool IsSame(Rotate a, Rotate b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002213")]
-		[Address(RVA = "0x3123740", Offset = "0x3121D40", VA = "0x183123740", Slot = "11")]
+		[Address(RVA = "0x6B1A460", Offset = "0x6B19460", VA = "0x6B1A460", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002214")]
-		[Address(RVA = "0x3123670", Offset = "0x3121C70", VA = "0x183123670", Slot = "12")]
+		[Address(RVA = "0x6B1A550", Offset = "0x6B19550", VA = "0x6B1A550", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002215")]
-		[Address(RVA = "0x31235A0", Offset = "0x3121BA0", VA = "0x1831235A0")]
+		[Address(RVA = "0x6B1A610", Offset = "0x6B19610", VA = "0x6B1A610")]
 		private static Rotate Lerp(Rotate a, Rotate b, float t)
 		{
 			return default(Rotate);
 		}
 
 		[Token(Token = "0x6002216")]
-		[Address(RVA = "0x3123840", Offset = "0x3121E40", VA = "0x183123840", Slot = "10")]
+		[Address(RVA = "0x6B1A6E0", Offset = "0x6B196E0", VA = "0x6B1A6E0", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002217")]
-		[Address(RVA = "0x3123A00", Offset = "0x3122000", VA = "0x183123A00")]
+		[Address(RVA = "0x6B1A870", Offset = "0x6B19870", VA = "0x6B1A870")]
 		public ValuesRotate()
 		{
 		}
@@ -1007,7 +1007,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Ratio, Ratio, bool> SameFunc
 		{
 			[Token(Token = "0x6002218")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1A910", Offset = "0x6B19910", VA = "0x6B1A910", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1016,46 +1016,46 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002219")]
-		[Address(RVA = "0x31105C0", Offset = "0x310EBC0", VA = "0x1831105C0")]
+		[Address(RVA = "0x6B1A920", Offset = "0x6B19920", VA = "0x6B1A920")]
 		private static bool IsSame(Ratio a, Ratio b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600221A")]
-		[Address(RVA = "0x31230D0", Offset = "0x31216D0", VA = "0x1831230D0", Slot = "14")]
+		[Address(RVA = "0x6B1A960", Offset = "0x6B19960", VA = "0x6B1A960", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref Ratio a, ref Ratio b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600221B")]
-		[Address(RVA = "0x3123240", Offset = "0x3121840", VA = "0x183123240", Slot = "11")]
+		[Address(RVA = "0x6B1AC10", Offset = "0x6B19C10", VA = "0x6B1AC10", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x600221C")]
-		[Address(RVA = "0x31232F0", Offset = "0x31218F0", VA = "0x1831232F0", Slot = "12")]
+		[Address(RVA = "0x6B1ACC0", Offset = "0x6B19CC0", VA = "0x6B1ACC0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x600221D")]
-		[Address(RVA = "0x3123220", Offset = "0x3121820", VA = "0x183123220")]
+		[Address(RVA = "0x6B1AD40", Offset = "0x6B19D40", VA = "0x6B1AD40")]
 		private static Ratio Lerp(Ratio a, Ratio b, float t)
 		{
 			return default(Ratio);
 		}
 
 		[Token(Token = "0x600221E")]
-		[Address(RVA = "0x3123390", Offset = "0x3121990", VA = "0x183123390", Slot = "10")]
+		[Address(RVA = "0x6B1AD50", Offset = "0x6B19D50", VA = "0x6B1AD50", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x600221F")]
-		[Address(RVA = "0x3123420", Offset = "0x3121A20", VA = "0x183123420")]
+		[Address(RVA = "0x6B1ADD0", Offset = "0x6B19DD0", VA = "0x6B1ADD0")]
 		public ValuesRatio()
 		{
 		}
@@ -1068,7 +1068,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<Translate, Translate, bool> SameFunc
 		{
 			[Token(Token = "0x6002220")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1AE70", Offset = "0x6B19E70", VA = "0x6B1AE70", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1077,46 +1077,46 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002221")]
-		[Address(RVA = "0x3124900", Offset = "0x3122F00", VA = "0x183124900")]
+		[Address(RVA = "0x6B1AE80", Offset = "0x6B19E80", VA = "0x6B1AE80")]
 		private static bool IsSame(Translate a, Translate b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002222")]
-		[Address(RVA = "0x31248D0", Offset = "0x3122ED0", VA = "0x1831248D0", Slot = "14")]
+		[Address(RVA = "0x6B1AEE0", Offset = "0x6B19EE0", VA = "0x6B1AEE0", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref Translate a, ref Translate b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002223")]
-		[Address(RVA = "0x3124B80", Offset = "0x3123180", VA = "0x183124B80", Slot = "11")]
+		[Address(RVA = "0x6B1AF00", Offset = "0x6B19F00", VA = "0x6B1AF00", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002224")]
-		[Address(RVA = "0x3124AB0", Offset = "0x31230B0", VA = "0x183124AB0", Slot = "12")]
+		[Address(RVA = "0x6B1AFF0", Offset = "0x6B19FF0", VA = "0x6B1AFF0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002225")]
-		[Address(RVA = "0x31249B0", Offset = "0x3122FB0", VA = "0x1831249B0")]
+		[Address(RVA = "0x6B1B0B0", Offset = "0x6B1A0B0", VA = "0x6B1B0B0")]
 		private static Translate Lerp(Translate a, Translate b, float t)
 		{
 			return default(Translate);
 		}
 
 		[Token(Token = "0x6002226")]
-		[Address(RVA = "0x3124C80", Offset = "0x3123280", VA = "0x183124C80", Slot = "10")]
+		[Address(RVA = "0x6B1B150", Offset = "0x6B1A150", VA = "0x6B1B150", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002227")]
-		[Address(RVA = "0x3124EA0", Offset = "0x31234A0", VA = "0x183124EA0")]
+		[Address(RVA = "0x6B1B280", Offset = "0x6B1A280", VA = "0x6B1B280")]
 		public ValuesTranslate()
 		{
 		}
@@ -1129,7 +1129,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<TransformOrigin, TransformOrigin, bool> SameFunc
 		{
 			[Token(Token = "0x6002228")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1B320", Offset = "0x6B1A320", VA = "0x6B1B320", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1138,46 +1138,46 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002229")]
-		[Address(RVA = "0x31242F0", Offset = "0x31228F0", VA = "0x1831242F0")]
+		[Address(RVA = "0x6B1B330", Offset = "0x6B1A330", VA = "0x6B1B330")]
 		private static bool IsSame(TransformOrigin a, TransformOrigin b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600222A")]
-		[Address(RVA = "0x31242C0", Offset = "0x31228C0", VA = "0x1831242C0", Slot = "14")]
+		[Address(RVA = "0x6B1B390", Offset = "0x6B1A390", VA = "0x6B1B390", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref TransformOrigin a, ref TransformOrigin b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600222B")]
-		[Address(RVA = "0x3124540", Offset = "0x3122B40", VA = "0x183124540", Slot = "11")]
+		[Address(RVA = "0x6B1B3B0", Offset = "0x6B1A3B0", VA = "0x6B1B3B0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x600222C")]
-		[Address(RVA = "0x3124480", Offset = "0x3122A80", VA = "0x183124480", Slot = "12")]
+		[Address(RVA = "0x6B1B4A0", Offset = "0x6B1A4A0", VA = "0x6B1B4A0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x600222D")]
-		[Address(RVA = "0x3124390", Offset = "0x3122990", VA = "0x183124390")]
+		[Address(RVA = "0x6B1B560", Offset = "0x6B1A560", VA = "0x6B1B560")]
 		private static TransformOrigin Lerp(TransformOrigin a, TransformOrigin b, float t)
 		{
 			return default(TransformOrigin);
 		}
 
 		[Token(Token = "0x600222E")]
-		[Address(RVA = "0x3124630", Offset = "0x3122C30", VA = "0x183124630", Slot = "10")]
+		[Address(RVA = "0x6B1B5F0", Offset = "0x6B1A5F0", VA = "0x6B1B5F0", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x600222F")]
-		[Address(RVA = "0x3124830", Offset = "0x3122E30", VA = "0x183124830")]
+		[Address(RVA = "0x6B1B700", Offset = "0x6B1A700", VA = "0x6B1B700")]
 		public ValuesTransformOrigin()
 		{
 		}
@@ -1187,19 +1187,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesBackgroundPosition : ValuesDiscrete<BackgroundPosition>
 	{
 		[Token(Token = "0x6002230")]
-		[Address(RVA = "0x311EE50", Offset = "0x311D450", VA = "0x18311EE50", Slot = "11")]
+		[Address(RVA = "0x6B1B7A0", Offset = "0x6B1A7A0", VA = "0x6B1B7A0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002231")]
-		[Address(RVA = "0x311EF40", Offset = "0x311D540", VA = "0x18311EF40", Slot = "12")]
+		[Address(RVA = "0x6B1B850", Offset = "0x6B1A850", VA = "0x6B1B850", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002232")]
-		[Address(RVA = "0x311F010", Offset = "0x311D610", VA = "0x18311F010")]
+		[Address(RVA = "0x6B1B8E0", Offset = "0x6B1A8E0", VA = "0x6B1B8E0")]
 		public ValuesBackgroundPosition()
 		{
 		}
@@ -1209,19 +1209,19 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private class ValuesBackgroundRepeat : ValuesDiscrete<BackgroundRepeat>
 	{
 		[Token(Token = "0x6002233")]
-		[Address(RVA = "0x311F0F0", Offset = "0x311D6F0", VA = "0x18311F0F0", Slot = "11")]
+		[Address(RVA = "0x6B1B920", Offset = "0x6B1A920", VA = "0x6B1B920", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002234")]
-		[Address(RVA = "0x311F050", Offset = "0x311D650", VA = "0x18311F050", Slot = "12")]
+		[Address(RVA = "0x6B1B9D0", Offset = "0x6B1A9D0", VA = "0x6B1B9D0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002235")]
-		[Address(RVA = "0x311F1A0", Offset = "0x311D7A0", VA = "0x18311F1A0")]
+		[Address(RVA = "0x6B1BA50", Offset = "0x6B1AA50", VA = "0x6B1BA50")]
 		public ValuesBackgroundRepeat()
 		{
 		}
@@ -1234,7 +1234,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<BackgroundSize, BackgroundSize, bool> SameFunc
 		{
 			[Token(Token = "0x6002236")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1BA90", Offset = "0x6B1AA90", VA = "0x6B1BA90", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1243,46 +1243,46 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x6002237")]
-		[Address(RVA = "0x311F210", Offset = "0x311D810", VA = "0x18311F210")]
+		[Address(RVA = "0x6B1BAA0", Offset = "0x6B1AAA0", VA = "0x6B1BAA0")]
 		private static bool IsSame(BackgroundSize a, BackgroundSize b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002238")]
-		[Address(RVA = "0x311F1E0", Offset = "0x311D7E0", VA = "0x18311F1E0", Slot = "14")]
+		[Address(RVA = "0x6B1BAB0", Offset = "0x6B1AAB0", VA = "0x6B1BAB0", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref BackgroundSize a, ref BackgroundSize b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002239")]
-		[Address(RVA = "0x311F440", Offset = "0x311DA40", VA = "0x18311F440", Slot = "11")]
+		[Address(RVA = "0x6B1BAD0", Offset = "0x6B1AAD0", VA = "0x6B1BAD0", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x600223A")]
-		[Address(RVA = "0x311F380", Offset = "0x311D980", VA = "0x18311F380", Slot = "12")]
+		[Address(RVA = "0x6B1BBC0", Offset = "0x6B1ABC0", VA = "0x6B1BBC0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x600223B")]
-		[Address(RVA = "0x311F250", Offset = "0x311D850", VA = "0x18311F250")]
+		[Address(RVA = "0x6B1BC80", Offset = "0x6B1AC80", VA = "0x6B1BC80")]
 		private static BackgroundSize Lerp(BackgroundSize a, BackgroundSize b, float t)
 		{
 			return default(BackgroundSize);
 		}
 
 		[Token(Token = "0x600223C")]
-		[Address(RVA = "0x311F530", Offset = "0x311DB30", VA = "0x18311F530", Slot = "10")]
+		[Address(RVA = "0x6B1BD90", Offset = "0x6B1AD90", VA = "0x6B1BD90", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x600223D")]
-		[Address(RVA = "0x311F730", Offset = "0x311DD30", VA = "0x18311F730")]
+		[Address(RVA = "0x6B1BF80", Offset = "0x6B1AF80", VA = "0x6B1BF80")]
 		public ValuesBackgroundSize()
 		{
 		}
@@ -1295,7 +1295,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<List<FilterFunction>, List<FilterFunction>, bool> SameFunc
 		{
 			[Token(Token = "0x600223F")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1C090", Offset = "0x6B1B090", VA = "0x6B1C090", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1304,73 +1304,73 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x600223E")]
-		[Address(RVA = "0x3120F50", Offset = "0x311F550", VA = "0x183120F50", Slot = "15")]
+		[Address(RVA = "0x6B1C020", Offset = "0x6B1B020", VA = "0x6B1C020", Slot = "15")]
 		protected override List<FilterFunction> Copy(List<FilterFunction> value)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002240")]
-		[Address(RVA = "0x3121200", Offset = "0x311F800", VA = "0x183121200")]
+		[Address(RVA = "0x6B1C0A0", Offset = "0x6B1B0A0", VA = "0x6B1C0A0")]
 		private static bool IsSame(List<FilterFunction> a, List<FilterFunction> b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002241")]
-		[Address(RVA = "0x3120D80", Offset = "0x311F380", VA = "0x183120D80", Slot = "14")]
+		[Address(RVA = "0x6B1C250", Offset = "0x6B1B250", VA = "0x6B1C250", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref List<FilterFunction> a, ref List<FilterFunction> b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002242")]
-		[Address(RVA = "0x3120CE0", Offset = "0x311F2E0", VA = "0x183120CE0")]
+		[Address(RVA = "0x6B1C4A0", Offset = "0x6B1B4A0", VA = "0x6B1C4A0")]
 		private static bool AreFilterDefinitionsCompatible(FilterFunctionDefinition filterDef1, FilterFunctionDefinition filterDef2)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002243")]
-		[Address(RVA = "0x3121B80", Offset = "0x3120180", VA = "0x183121B80", Slot = "11")]
+		[Address(RVA = "0x6B1C530", Offset = "0x6B1B530", VA = "0x6B1C530", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x6002244")]
-		[Address(RVA = "0x3121AE0", Offset = "0x31200E0", VA = "0x183121AE0", Slot = "12")]
+		[Address(RVA = "0x6B1C5E0", Offset = "0x6B1B5E0", VA = "0x6B1C5E0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002245")]
-		[Address(RVA = "0x3121410", Offset = "0x311FA10", VA = "0x183121410")]
+		[Address(RVA = "0x6B1C660", Offset = "0x6B1B660", VA = "0x6B1C660")]
 		private static FilterParameter LerpFilterParameters(FilterParameter a, FilterParameter b, float t)
 		{
 			return default(FilterParameter);
 		}
 
 		[Token(Token = "0x6002246")]
-		[Address(RVA = "0x3121560", Offset = "0x311FB60", VA = "0x183121560")]
+		[Address(RVA = "0x6B1C720", Offset = "0x6B1B720", VA = "0x6B1C720")]
 		private static void Lerp(List<FilterFunction> a, List<FilterFunction> b, ref List<FilterFunction> result, float t)
 		{
 		}
 
 		[Token(Token = "0x6002247")]
-		[Address(RVA = "0x3120FC0", Offset = "0x311F5C0", VA = "0x183120FC0")]
+		[Address(RVA = "0x6B1D2D0", Offset = "0x6B1C2D0", VA = "0x6B1D2D0")]
 		private static FilterFunction GetFunctionOrDefault(ref List<FilterFunction> srcList, ref List<FilterFunction> refList, int index)
 		{
 			return default(FilterFunction);
 		}
 
 		[Token(Token = "0x6002248")]
-		[Address(RVA = "0x3121C30", Offset = "0x3120230", VA = "0x183121C30", Slot = "10")]
+		[Address(RVA = "0x6B1D590", Offset = "0x6B1C590", VA = "0x6B1D590", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002249")]
-		[Address(RVA = "0x3121CC0", Offset = "0x31202C0", VA = "0x183121CC0")]
+		[Address(RVA = "0x6B1D620", Offset = "0x6B1C620", VA = "0x6B1D620")]
 		public ValuesListFilterFunction()
 		{
 		}
@@ -1383,7 +1383,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		public override Func<MaterialDefinition, MaterialDefinition, bool> SameFunc
 		{
 			[Token(Token = "0x600224B")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "13")]
+			[Address(RVA = "0x6B1D6F0", Offset = "0x6B1C6F0", VA = "0x6B1D6F0", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
@@ -1392,66 +1392,66 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 		}
 
 		[Token(Token = "0x600224A")]
-		[Address(RVA = "0x3121FB0", Offset = "0x31205B0", VA = "0x183121FB0", Slot = "15")]
+		[Address(RVA = "0x6B1D6C0", Offset = "0x6B1C6C0", VA = "0x6B1D6C0", Slot = "15")]
 		protected override MaterialDefinition Copy(MaterialDefinition value)
 		{
 			return default(MaterialDefinition);
 		}
 
 		[Token(Token = "0x600224C")]
-		[Address(RVA = "0x3122200", Offset = "0x3120800", VA = "0x183122200")]
+		[Address(RVA = "0x6B1D700", Offset = "0x6B1C700", VA = "0x6B1D700")]
 		private static bool IsSame(MaterialDefinition a, MaterialDefinition b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600224D")]
-		[Address(RVA = "0x3121D60", Offset = "0x3120360", VA = "0x183121D60", Slot = "14")]
+		[Address(RVA = "0x6B1DAA0", Offset = "0x6B1CAA0", VA = "0x6B1DAA0", Slot = "14")]
 		protected sealed override bool ConvertUnits(VisualElement owner, StylePropertyId prop, ref MaterialDefinition a, ref MaterialDefinition b)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600224E")]
-		[Address(RVA = "0x3122E10", Offset = "0x3121410", VA = "0x183122E10", Slot = "11")]
+		[Address(RVA = "0x6B1DD10", Offset = "0x6B1CD10", VA = "0x6B1DD10", Slot = "11")]
 		protected sealed override void UpdateComputedStyle()
 		{
 		}
 
 		[Token(Token = "0x600224F")]
-		[Address(RVA = "0x3122EE0", Offset = "0x31214E0", VA = "0x183122EE0", Slot = "12")]
+		[Address(RVA = "0x6B1DDC0", Offset = "0x6B1CDC0", VA = "0x6B1DDC0", Slot = "12")]
 		protected sealed override void UpdateComputedStyle(int i)
 		{
 		}
 
 		[Token(Token = "0x6002250")]
-		[Address(RVA = "0x3122460", Offset = "0x3120A60", VA = "0x183122460")]
+		[Address(RVA = "0x6B1DE50", Offset = "0x6B1CE50", VA = "0x6B1DE50")]
 		private static MaterialPropertyValue LerpPropertyValues(MaterialPropertyValue a, MaterialPropertyValue b, float t)
 		{
 			return default(MaterialPropertyValue);
 		}
 
 		[Token(Token = "0x6002251")]
-		[Address(RVA = "0x3122080", Offset = "0x3120680", VA = "0x183122080")]
+		[Address(RVA = "0x6B1DF80", Offset = "0x6B1CF80", VA = "0x6B1DF80")]
 		private static MaterialPropertyValue GetValueOrDefault(List<MaterialPropertyValue> srcList, List<MaterialPropertyValue> refList, int index)
 		{
 			return default(MaterialPropertyValue);
 		}
 
 		[Token(Token = "0x6002252")]
-		[Address(RVA = "0x3122600", Offset = "0x3120C00", VA = "0x183122600")]
+		[Address(RVA = "0x6B1E0F0", Offset = "0x6B1D0F0", VA = "0x6B1E0F0")]
 		private static void Lerp(MaterialDefinition a, MaterialDefinition b, ref MaterialDefinition result, float t)
 		{
 		}
 
 		[Token(Token = "0x6002253")]
-		[Address(RVA = "0x3122F90", Offset = "0x3121590", VA = "0x183122F90", Slot = "10")]
+		[Address(RVA = "0x6B1E660", Offset = "0x6B1D660", VA = "0x6B1E660", Slot = "10")]
 		protected sealed override void UpdateValues()
 		{
 		}
 
 		[Token(Token = "0x6002254")]
-		[Address(RVA = "0x3123030", Offset = "0x3121630", VA = "0x183123030")]
+		[Address(RVA = "0x6B1E700", Offset = "0x6B1D700", VA = "0x6B1E700")]
 		public ValuesMaterialDefinition()
 		{
 		}
@@ -1546,7 +1546,7 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	private readonly Dictionary<StylePropertyId, Values> m_PropertyToValues;
 
 	[Token(Token = "0x6002178")]
-	[Address(RVA = "0x3115FB0", Offset = "0x31145B0", VA = "0x183115FB0")]
+	[Address(RVA = "0x6B17060", Offset = "0x6B16060", VA = "0x6B17060")]
 	public StylePropertyAnimationSystem(BaseVisualElementPanel p)
 	{
 	}
@@ -1564,164 +1564,164 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	}
 
 	[Token(Token = "0x600217B")]
-	[Address(RVA = "0x3115990", Offset = "0x3113F90", VA = "0x183115990", Slot = "4")]
+	[Address(RVA = "0x6B17160", Offset = "0x6B16160", VA = "0x6B17160", Slot = "4")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, float startValue, float endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600217C")]
-	[Address(RVA = "0x3115630", Offset = "0x3113C30", VA = "0x183115630", Slot = "5")]
+	[Address(RVA = "0x6B17210", Offset = "0x6B16210", VA = "0x6B17210", Slot = "5")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, int startValue, int endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600217D")]
-	[Address(RVA = "0x31153D0", Offset = "0x31139D0", VA = "0x1831153D0", Slot = "6")]
+	[Address(RVA = "0x6B172B0", Offset = "0x6B162B0", VA = "0x6B172B0", Slot = "6")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Length startValue, Length endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600217E")]
-	[Address(RVA = "0x3115480", Offset = "0x3113A80", VA = "0x183115480", Slot = "7")]
+	[Address(RVA = "0x6B17350", Offset = "0x6B16350", VA = "0x6B17350", Slot = "7")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Color startValue, Color endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600217F")]
-	[Address(RVA = "0x3114F10", Offset = "0x3113510", VA = "0x183114F10", Slot = "8")]
+	[Address(RVA = "0x6B17410", Offset = "0x6B16410", VA = "0x6B17410", Slot = "8")]
 	public bool StartTransitionEnum(VisualElement owner, StylePropertyId prop, int startValue, int endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002180")]
-	[Address(RVA = "0x3115150", Offset = "0x3113750", VA = "0x183115150", Slot = "9")]
+	[Address(RVA = "0x6B174B0", Offset = "0x6B164B0", VA = "0x6B174B0", Slot = "9")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Background startValue, Background endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002181")]
-	[Address(RVA = "0x3115300", Offset = "0x3113900", VA = "0x183115300", Slot = "10")]
+	[Address(RVA = "0x6B17580", Offset = "0x6B16580", VA = "0x6B17580", Slot = "10")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, FontDefinition startValue, FontDefinition endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002182")]
-	[Address(RVA = "0x3115B30", Offset = "0x3114130", VA = "0x183115B30", Slot = "11")]
+	[Address(RVA = "0x6B17640", Offset = "0x6B16640", VA = "0x6B17640", Slot = "11")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Font startValue, Font endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002183")]
-	[Address(RVA = "0x31158B0", Offset = "0x3113EB0", VA = "0x1831158B0", Slot = "12")]
+	[Address(RVA = "0x6B176E0", Offset = "0x6B166E0", VA = "0x6B176E0", Slot = "12")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, TextShadow startValue, TextShadow endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002184")]
-	[Address(RVA = "0x3115A60", Offset = "0x3114060", VA = "0x183115A60", Slot = "13")]
+	[Address(RVA = "0x6B177B0", Offset = "0x6B167B0", VA = "0x6B177B0", Slot = "13")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Scale startValue, Scale endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002185")]
-	[Address(RVA = "0x31157C0", Offset = "0x3113DC0", VA = "0x1831157C0", Slot = "16")]
+	[Address(RVA = "0x6B17860", Offset = "0x6B16860", VA = "0x6B17860", Slot = "16")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Rotate startValue, Rotate endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002186")]
-	[Address(RVA = "0x3115BE0", Offset = "0x31141E0", VA = "0x183115BE0", Slot = "15")]
+	[Address(RVA = "0x6B17930", Offset = "0x6B16930", VA = "0x6B17930", Slot = "15")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Translate startValue, Translate endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002187")]
-	[Address(RVA = "0x3115D80", Offset = "0x3114380", VA = "0x183115D80", Slot = "17")]
+	[Address(RVA = "0x6B17A00", Offset = "0x6B16A00", VA = "0x6B17A00", Slot = "17")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, Ratio startValue, Ratio endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002188")]
-	[Address(RVA = "0x3115550", Offset = "0x3113B50", VA = "0x183115550", Slot = "14")]
+	[Address(RVA = "0x6B17AB0", Offset = "0x6B16AB0", VA = "0x6B17AB0", Slot = "14")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, TransformOrigin startValue, TransformOrigin endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002189")]
-	[Address(RVA = "0x3115070", Offset = "0x3113670", VA = "0x183115070", Slot = "18")]
+	[Address(RVA = "0x6B17B80", Offset = "0x6B16B80", VA = "0x6B17B80", Slot = "18")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, BackgroundPosition startValue, BackgroundPosition endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600218A")]
-	[Address(RVA = "0x3115CD0", Offset = "0x31142D0", VA = "0x183115CD0", Slot = "19")]
+	[Address(RVA = "0x6B17C30", Offset = "0x6B16C30", VA = "0x6B17C30", Slot = "19")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, BackgroundRepeat startValue, BackgroundRepeat endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600218B")]
-	[Address(RVA = "0x31156E0", Offset = "0x3113CE0", VA = "0x1831156E0", Slot = "20")]
+	[Address(RVA = "0x6B17CD0", Offset = "0x6B16CD0", VA = "0x6B17CD0", Slot = "20")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, BackgroundSize startValue, BackgroundSize endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600218C")]
-	[Address(RVA = "0x3114FC0", Offset = "0x31135C0", VA = "0x183114FC0", Slot = "21")]
+	[Address(RVA = "0x6B17DA0", Offset = "0x6B16DA0", VA = "0x6B17DA0", Slot = "21")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, List<FilterFunction> startValue, List<FilterFunction> endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600218D")]
-	[Address(RVA = "0x3115230", Offset = "0x3113830", VA = "0x183115230", Slot = "22")]
+	[Address(RVA = "0x6B17E40", Offset = "0x6B16E40", VA = "0x6B17E40", Slot = "22")]
 	public bool StartTransition(VisualElement owner, StylePropertyId prop, MaterialDefinition startValue, MaterialDefinition endValue, int durationMs, int delayMs, [NotNull] Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600218E")]
-	[Address(RVA = "0x3114A20", Offset = "0x3113020", VA = "0x183114A20", Slot = "23")]
+	[Address(RVA = "0x6B17F00", Offset = "0x6B16F00", VA = "0x6B17F00", Slot = "23")]
 	public void CancelAllAnimations()
 	{
 	}
 
 	[Token(Token = "0x600218F")]
-	[Address(RVA = "0x3114B40", Offset = "0x3113140", VA = "0x183114B40", Slot = "24")]
+	[Address(RVA = "0x6B18040", Offset = "0x6B17040", VA = "0x6B18040", Slot = "24")]
 	public void CancelAllAnimations(VisualElement owner)
 	{
 	}
 
 	[Token(Token = "0x6002190")]
-	[Address(RVA = "0x3114D20", Offset = "0x3113320", VA = "0x183114D20", Slot = "25")]
+	[Address(RVA = "0x6B18310", Offset = "0x6B17310", VA = "0x6B18310", Slot = "25")]
 	public void CancelAnimation(VisualElement owner, StylePropertyId id)
 	{
 	}
 
 	[Token(Token = "0x6002191")]
-	[Address(RVA = "0x3115E50", Offset = "0x3114450", VA = "0x183115E50", Slot = "26")]
+	[Address(RVA = "0x6B183A0", Offset = "0x6B173A0", VA = "0x6B183A0", Slot = "26")]
 	public void UpdateAnimation(VisualElement owner, StylePropertyId id)
 	{
 	}
 
 	[Token(Token = "0x6002192")]
-	[Address(RVA = "0x3114DD0", Offset = "0x31133D0", VA = "0x183114DD0", Slot = "27")]
+	[Address(RVA = "0x6B18430", Offset = "0x6B17430", VA = "0x6B18430", Slot = "27")]
 	public void GetAllAnimations(VisualElement owner, List<StylePropertyId> propertyIds)
 	{
 	}
@@ -1732,14 +1732,14 @@ internal class StylePropertyAnimationSystem : IStylePropertyAnimationSystem
 	}
 
 	[Token(Token = "0x6002194")]
-	[Address(RVA = "0x3114DC0", Offset = "0x31133C0", VA = "0x183114DC0")]
+	[Address(RVA = "0x6B18590", Offset = "0x6B17590", VA = "0x6B18590")]
 	private double CurrentTimeSeconds()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6002195")]
-	[Address(RVA = "0x3115EF0", Offset = "0x31144F0", VA = "0x183115EF0", Slot = "28")]
+	[Address(RVA = "0x6B185A0", Offset = "0x6B175A0", VA = "0x6B185A0", Slot = "28")]
 	public void Update(double updateTime)
 	{
 	}

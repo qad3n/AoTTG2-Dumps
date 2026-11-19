@@ -19,7 +19,7 @@ public sealed class TypeIconAttribute : Attribute
 	public Type type
 	{
 		[Token(Token = "0x600020E")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x67933F0", Offset = "0x67923F0", VA = "0x67933F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public sealed class TypeIconAttribute : Attribute
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x2DBA400", Offset = "0x2DB8A00", VA = "0x182DBA400")]
+	[Address(RVA = "0x67932B0", Offset = "0x67922B0", VA = "0x67932B0")]
 	public TypeIconAttribute(Type type)
 	{
 	}

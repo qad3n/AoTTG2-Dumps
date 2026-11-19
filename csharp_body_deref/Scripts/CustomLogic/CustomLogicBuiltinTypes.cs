@@ -12,71 +12,71 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005DA")]
+[Token(Token = "0x2000639")]
 [CompilerGenerated]
 internal class CustomLogicBuiltinTypes
 {
-	[Token(Token = "0x4001928")]
+	[Token(Token = "0x4001AC9")]
 	[FieldOffset(Offset = "0x0")]
 	private static CustomLogicBuiltinTypes __selfForEasyReferencing;
 
-	[Token(Token = "0x4001929")]
+	[Token(Token = "0x4001ACA")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly HashSet<string> TypeNames;
 
-	[Token(Token = "0x400192A")]
+	[Token(Token = "0x4001ACB")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly Dictionary<string, string> BaseTypeNames;
 
-	[Token(Token = "0x400192B")]
+	[Token(Token = "0x4001ACC")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly Dictionary<string, HashSet<string>> MemberNames;
 
-	[Token(Token = "0x400192C")]
+	[Token(Token = "0x4001ACD")]
 	[FieldOffset(Offset = "0x20")]
 	public static readonly HashSet<string> StaticTypeNames;
 
-	[Token(Token = "0x400192D")]
+	[Token(Token = "0x4001ACE")]
 	[FieldOffset(Offset = "0x28")]
 	public static readonly HashSet<string> AbstractTypeNames;
 
-	[Token(Token = "0x60038DD")]
-	[Address(RVA = "0x20882B0", Offset = "0x20868B0", VA = "0x1820882B0")]
+	[Token(Token = "0x6003B6B")]
+	[Address(RVA = "0x5A58370", Offset = "0x5A57370", VA = "0x5A58370")]
 	public static bool IsBuiltinType(string typeName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60038DE")]
-	[Address(RVA = "0x2088230", Offset = "0x2086830", VA = "0x182088230")]
+	[Token(Token = "0x6003B6C")]
+	[Address(RVA = "0x5A58410", Offset = "0x5A57410", VA = "0x5A58410")]
 	public static bool IsAbstract(string typeName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60038DF")]
-	[Address(RVA = "0x207B6D0", Offset = "0x2079CD0", VA = "0x18207B6D0")]
+	[Token(Token = "0x6003B6D")]
+	[Address(RVA = "0x5A584B0", Offset = "0x5A574B0", VA = "0x5A584B0")]
 	public static ICLMemberBinding CreateBinding(string typeName, string varName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60038E0")]
-	[Address(RVA = "0x207EBB0", Offset = "0x207D1B0", VA = "0x18207EBB0")]
+	[Token(Token = "0x6003B6E")]
+	[Address(RVA = "0x5A5BB80", Offset = "0x5A5AB80", VA = "0x5A5BB80")]
 	public static BuiltinClassInstance CreateClassInstance(string typeName, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60038E1")]
-	[Address(RVA = "0x2080FB0", Offset = "0x207F5B0", VA = "0x182080FB0")]
+	[Token(Token = "0x6003B6F")]
+	[Address(RVA = "0x5A5E070", Offset = "0x5A5D070", VA = "0x5A5E070")]
 	public static Func<object[], BuiltinClassInstance> CreateFactory(string typeName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60038E2")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6003B70")]
+	[Address(RVA = "0x5A64BC0", Offset = "0x5A63BC0", VA = "0x5A64BC0")]
 	public CustomLogicBuiltinTypes()
 	{
 	}

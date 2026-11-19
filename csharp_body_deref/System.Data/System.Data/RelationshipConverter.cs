@@ -15,20 +15,20 @@ namespace System.Data;
 internal sealed class RelationshipConverter : ExpandableObjectConverter
 {
 	[Token(Token = "0x6000763")]
-	[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
+	[Address(RVA = "0x5EC7500", Offset = "0x5EC6500", VA = "0x5EC7500")]
 	public RelationshipConverter()
 	{
 	}
 
 	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x25247F0", Offset = "0x2522DF0", VA = "0x1825247F0", Slot = "5")]
+	[Address(RVA = "0x5EC7510", Offset = "0x5EC6510", VA = "0x5EC7510", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x2524880", Offset = "0x2522E80", VA = "0x182524880", Slot = "7")]
+	[Address(RVA = "0x5EC75B0", Offset = "0x5EC65B0", VA = "0x5EC75B0", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;

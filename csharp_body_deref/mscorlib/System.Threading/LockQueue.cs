@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000247")]
+[Token(Token = "0x200021F")]
 internal class LockQueue
 {
-	[Token(Token = "0x4000A63")]
+	[Token(Token = "0x40009C1")]
 	[FieldOffset(Offset = "0x10")]
 	private ReaderWriterLock rwlock;
 
-	[Token(Token = "0x4000A64")]
+	[Token(Token = "0x40009C2")]
 	[FieldOffset(Offset = "0x18")]
 	private int lockCount;
 
-	[Token(Token = "0x170001D5")]
+	[Token(Token = "0x170001D4")]
 	public bool IsEmpty
 	{
-		[Token(Token = "0x60013AA")]
-		[Address(RVA = "0x1BB0390", Offset = "0x1BAE990", VA = "0x181BB0390")]
+		[Token(Token = "0x6001381")]
+		[Address(RVA = "0x553E420", Offset = "0x553D420", VA = "0x553E420")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60013A8")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x600137F")]
+	[Address(RVA = "0x553E240", Offset = "0x553D240", VA = "0x553E240")]
 	public LockQueue(ReaderWriterLock rwlock)
 	{
 	}
 
-	[Token(Token = "0x60013A9")]
-	[Address(RVA = "0x1BB00E0", Offset = "0x1BAE6E0", VA = "0x181BB00E0")]
+	[Token(Token = "0x6001380")]
+	[Address(RVA = "0x553E270", Offset = "0x553D270", VA = "0x553E270")]
 	public bool Wait(int timeout)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60013AB")]
-	[Address(RVA = "0x1BAFF50", Offset = "0x1BAE550", VA = "0x181BAFF50")]
+	[Token(Token = "0x6001382")]
+	[Address(RVA = "0x553E4D0", Offset = "0x553D4D0", VA = "0x553E4D0")]
 	public void Pulse()
 	{
 	}

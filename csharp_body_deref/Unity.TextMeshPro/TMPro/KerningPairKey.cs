@@ -25,7 +25,7 @@ public struct KerningPairKey
 	public uint key;
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x2CF4600", Offset = "0x2CF2C00", VA = "0x182CF4600")]
+	[Address(RVA = "0x66F3420", Offset = "0x66F2420", VA = "0x66F3420")]
 	public KerningPairKey(uint ascii_left, uint ascii_right)
 	{
 	}

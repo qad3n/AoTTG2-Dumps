@@ -16,14 +16,14 @@ namespace Mono.Unity;
 [Token(Token = "0x2000044")]
 internal class UnityTlsStream : MobileAuthenticatedStream
 {
-	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x24A6860", Offset = "0x24A4E60", VA = "0x1824A6860")]
+	[Token(Token = "0x600009E")]
+	[Address(RVA = "0x5E34AE0", Offset = "0x5E33AE0", VA = "0x5E34AE0")]
 	public UnityTlsStream(Stream innerStream, bool leaveInnerStreamOpen, SslStream owner, MonoTlsSettings settings, MobileTlsProvider provider)
 	{
 	}
 
-	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x24A67F0", Offset = "0x24A4DF0", VA = "0x1824A67F0", Slot = "41")]
+	[Token(Token = "0x600009F")]
+	[Address(RVA = "0x5E359E0", Offset = "0x5E349E0", VA = "0x5E359E0", Slot = "42")]
 	protected override MobileTlsContext CreateContext(MonoSslAuthenticationOptions options)
 	{
 		return null;

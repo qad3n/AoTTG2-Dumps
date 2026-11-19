@@ -17,21 +17,21 @@ public abstract class PointerManipulator : MouseManipulator
 	private int m_CurrentPointerId;
 
 	[Token(Token = "0x60012CE")]
-	[Address(RVA = "0x32B5660", Offset = "0x32B3C60", VA = "0x1832B5660")]
+	[Address(RVA = "0x6CBAD70", Offset = "0x6CB9D70", VA = "0x6CBAD70")]
 	protected bool CanStartManipulation(IPointerEvent e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012CF")]
-	[Address(RVA = "0x32B5850", Offset = "0x32B3E50", VA = "0x1832B5850")]
+	[Address(RVA = "0x6CBAF80", Offset = "0x6CB9F80", VA = "0x6CBAF80")]
 	protected bool CanStopManipulation(IPointerEvent e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012D0")]
-	[Address(RVA = "0x32B0E00", Offset = "0x32AF400", VA = "0x1832B0E00")]
+	[Address(RVA = "0x6CBB040", Offset = "0x6CBA040", VA = "0x6CBB040")]
 	protected PointerManipulator()
 	{
 	}

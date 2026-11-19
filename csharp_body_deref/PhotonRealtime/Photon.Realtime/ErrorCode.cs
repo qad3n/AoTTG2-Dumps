@@ -106,7 +106,7 @@ public class ErrorCode
 	public const int InvalidEncryptionParameters = 32741;
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB4E0", Offset = "0x56BA4E0", VA = "0x56BB4E0")]
 	public ErrorCode()
 	{
 	}

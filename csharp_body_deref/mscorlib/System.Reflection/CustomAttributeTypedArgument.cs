@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000533")]
+[Token(Token = "0x200050C")]
 public struct CustomAttributeTypedArgument
 {
-	[Token(Token = "0x1700053B")]
+	[Token(Token = "0x1700053A")]
 	public readonly Type ArgumentType
 	{
-		[Token(Token = "0x600261A")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x60025E8")]
+		[Address(RVA = "0x53E0950", Offset = "0x53DF950", VA = "0x53E0950")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public struct CustomAttributeTypedArgument
 		}
 	}
 
-	[Token(Token = "0x1700053C")]
+	[Token(Token = "0x1700053B")]
 	public readonly object Value
 	{
-		[Token(Token = "0x600261B")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Token(Token = "0x60025E9")]
+		[Address(RVA = "0x53E0960", Offset = "0x53DF960", VA = "0x53E0960")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,62 +37,62 @@ public struct CustomAttributeTypedArgument
 		}
 	}
 
-	[Token(Token = "0x6002618")]
-	[Address(RVA = "0x1A44320", Offset = "0x1A42920", VA = "0x181A44320")]
+	[Token(Token = "0x60025E6")]
+	[Address(RVA = "0x53E0840", Offset = "0x53DF840", VA = "0x53E0840")]
 	public CustomAttributeTypedArgument(object value)
 	{
 	}
 
-	[Token(Token = "0x6002619")]
-	[Address(RVA = "0x1A43FF0", Offset = "0x1A425F0", VA = "0x181A43FF0")]
+	[Token(Token = "0x60025E7")]
+	[Address(RVA = "0x53D8E90", Offset = "0x53D7E90", VA = "0x53D8E90")]
 	public CustomAttributeTypedArgument(Type argumentType, object value)
 	{
 	}
 
-	[Token(Token = "0x600261C")]
-	[Address(RVA = "0x1A43890", Offset = "0x1A41E90", VA = "0x181A43890", Slot = "0")]
+	[Token(Token = "0x60025EA")]
+	[Address(RVA = "0x53E0970", Offset = "0x53DF970", VA = "0x53E0970", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600261D")]
-	[Address(RVA = "0x1A438F0", Offset = "0x1A41EF0", VA = "0x181A438F0", Slot = "2")]
+	[Token(Token = "0x60025EB")]
+	[Address(RVA = "0x53E09C0", Offset = "0x53DF9C0", VA = "0x53E09C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600261E")]
-	[Address(RVA = "0x1A44430", Offset = "0x1A42A30", VA = "0x181A44430")]
+	[Token(Token = "0x60025EC")]
+	[Address(RVA = "0x53E0A10", Offset = "0x53DFA10", VA = "0x53E0A10")]
 	public static bool operator ==(CustomAttributeTypedArgument left, CustomAttributeTypedArgument right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600261F")]
-	[Address(RVA = "0x1A444C0", Offset = "0x1A42AC0", VA = "0x181A444C0")]
+	[Token(Token = "0x60025ED")]
+	[Address(RVA = "0x53E0AB0", Offset = "0x53DFAB0", VA = "0x53E0AB0")]
 	public static bool operator !=(CustomAttributeTypedArgument left, CustomAttributeTypedArgument right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002620")]
-	[Address(RVA = "0x1A43FE0", Offset = "0x1A425E0", VA = "0x181A43FE0", Slot = "3")]
+	[Token(Token = "0x60025EE")]
+	[Address(RVA = "0x53E0B50", Offset = "0x53DFB50", VA = "0x53E0B50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002621")]
-	[Address(RVA = "0x1A43940", Offset = "0x1A41F40", VA = "0x181A43940")]
+	[Token(Token = "0x60025EF")]
+	[Address(RVA = "0x53DFFE0", Offset = "0x53DEFE0", VA = "0x53DFFE0")]
 	internal string ToString(bool typed)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002622")]
-	[Address(RVA = "0x1A43800", Offset = "0x1A41E00", VA = "0x181A43800")]
+	[Token(Token = "0x60025F0")]
+	[Address(RVA = "0x53E08D0", Offset = "0x53DF8D0", VA = "0x53E08D0")]
 	private static object CanonicalizeValue(object value)
 	{
 		return null;

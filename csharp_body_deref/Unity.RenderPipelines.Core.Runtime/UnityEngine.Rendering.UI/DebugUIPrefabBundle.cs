@@ -23,7 +23,7 @@ public class DebugUIPrefabBundle
 	public RectTransform prefab;
 
 	[Token(Token = "0x60013F0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65A3DE0", Offset = "0x65A2DE0", VA = "0x65A3DE0")]
 	public DebugUIPrefabBundle()
 	{
 	}

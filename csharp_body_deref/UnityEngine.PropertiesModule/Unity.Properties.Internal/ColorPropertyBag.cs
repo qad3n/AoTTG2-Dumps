@@ -20,7 +20,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override string Name
 		{
 			[Token(Token = "0x60001B3")]
-			[Address(RVA = "0x2FF1E10", Offset = "0x2FF0410", VA = "0x182FF1E10", Slot = "12")]
+			[Address(RVA = "0x69EDB50", Offset = "0x69ECB50", VA = "0x69EDB50", Slot = "12")]
 			get
 			{
 				return null;
@@ -31,7 +31,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001B4")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EDB80", Offset = "0x69ECB80", VA = "0x69EDB80", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -39,20 +39,20 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		}
 
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x2FF1DB0", Offset = "0x2FF03B0", VA = "0x182FF1DB0", Slot = "14")]
+		[Address(RVA = "0x69EDB90", Offset = "0x69ECB90", VA = "0x69EDB90", Slot = "14")]
 		public override float GetValue(ref Color container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x2FF1DC0", Offset = "0x2FF03C0", VA = "0x182FF1DC0", Slot = "15")]
+		[Address(RVA = "0x69EDBA0", Offset = "0x69ECBA0", VA = "0x69EDBA0", Slot = "15")]
 		public override void SetValue(ref Color container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x2FF1DD0", Offset = "0x2FF03D0", VA = "0x182FF1DD0")]
+		[Address(RVA = "0x69EDA50", Offset = "0x69ECA50", VA = "0x69EDA50")]
 		public RProperty()
 		{
 		}
@@ -65,7 +65,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override string Name
 		{
 			[Token(Token = "0x60001B8")]
-			[Address(RVA = "0x2FEAD40", Offset = "0x2FE9340", VA = "0x182FEAD40", Slot = "12")]
+			[Address(RVA = "0x69EDBB0", Offset = "0x69ECBB0", VA = "0x69EDBB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -76,7 +76,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001B9")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EDBE0", Offset = "0x69ECBE0", VA = "0x69EDBE0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -84,20 +84,20 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		}
 
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x2FEACE0", Offset = "0x2FE92E0", VA = "0x182FEACE0", Slot = "14")]
+		[Address(RVA = "0x69EDBF0", Offset = "0x69ECBF0", VA = "0x69EDBF0", Slot = "14")]
 		public override float GetValue(ref Color container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x2FEACF0", Offset = "0x2FE92F0", VA = "0x182FEACF0", Slot = "15")]
+		[Address(RVA = "0x69EDC00", Offset = "0x69ECC00", VA = "0x69EDC00", Slot = "15")]
 		public override void SetValue(ref Color container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x2FEAD00", Offset = "0x2FE9300", VA = "0x182FEAD00")]
+		[Address(RVA = "0x69EDA90", Offset = "0x69ECA90", VA = "0x69EDA90")]
 		public GProperty()
 		{
 		}
@@ -110,7 +110,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override string Name
 		{
 			[Token(Token = "0x60001BD")]
-			[Address(RVA = "0x2FE9730", Offset = "0x2FE7D30", VA = "0x182FE9730", Slot = "12")]
+			[Address(RVA = "0x69EDC10", Offset = "0x69ECC10", VA = "0x69EDC10", Slot = "12")]
 			get
 			{
 				return null;
@@ -121,7 +121,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001BE")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EDC40", Offset = "0x69ECC40", VA = "0x69EDC40", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -129,20 +129,20 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		}
 
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x2FE96D0", Offset = "0x2FE7CD0", VA = "0x182FE96D0", Slot = "14")]
+		[Address(RVA = "0x69EDC50", Offset = "0x69ECC50", VA = "0x69EDC50", Slot = "14")]
 		public override float GetValue(ref Color container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x2FE96E0", Offset = "0x2FE7CE0", VA = "0x182FE96E0", Slot = "15")]
+		[Address(RVA = "0x69EDC60", Offset = "0x69ECC60", VA = "0x69EDC60", Slot = "15")]
 		public override void SetValue(ref Color container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0x2FE96F0", Offset = "0x2FE7CF0", VA = "0x182FE96F0")]
+		[Address(RVA = "0x69EDAD0", Offset = "0x69ECAD0", VA = "0x69EDAD0")]
 		public BProperty()
 		{
 		}
@@ -155,7 +155,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override string Name
 		{
 			[Token(Token = "0x60001C2")]
-			[Address(RVA = "0x2FE94C0", Offset = "0x2FE7AC0", VA = "0x182FE94C0", Slot = "12")]
+			[Address(RVA = "0x69EDC70", Offset = "0x69ECC70", VA = "0x69EDC70", Slot = "12")]
 			get
 			{
 				return null;
@@ -166,7 +166,7 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x60001C3")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EDCA0", Offset = "0x69ECCA0", VA = "0x69EDCA0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -174,27 +174,27 @@ internal class ColorPropertyBag : ContainerPropertyBag<Color>
 		}
 
 		[Token(Token = "0x60001C4")]
-		[Address(RVA = "0x2FE9460", Offset = "0x2FE7A60", VA = "0x182FE9460", Slot = "14")]
+		[Address(RVA = "0x69EDCB0", Offset = "0x69ECCB0", VA = "0x69EDCB0", Slot = "14")]
 		public override float GetValue(ref Color container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x60001C5")]
-		[Address(RVA = "0x2FE9470", Offset = "0x2FE7A70", VA = "0x182FE9470", Slot = "15")]
+		[Address(RVA = "0x69EDCC0", Offset = "0x69ECCC0", VA = "0x69EDCC0", Slot = "15")]
 		public override void SetValue(ref Color container, float value)
 		{
 		}
 
 		[Token(Token = "0x60001C6")]
-		[Address(RVA = "0x2FE9480", Offset = "0x2FE7A80", VA = "0x182FE9480")]
+		[Address(RVA = "0x69EDB10", Offset = "0x69ECB10", VA = "0x69EDB10")]
 		public AProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x2FE9B30", Offset = "0x2FE8130", VA = "0x182FE9B30")]
+	[Address(RVA = "0x69EC9A0", Offset = "0x69EB9A0", VA = "0x69EC9A0")]
 	public ColorPropertyBag()
 	{
 	}

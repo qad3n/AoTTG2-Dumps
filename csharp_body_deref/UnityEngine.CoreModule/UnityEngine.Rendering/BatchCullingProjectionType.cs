@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000374")]
+[Token(Token = "0x20003B0")]
 public enum BatchCullingProjectionType
 {
-	[Token(Token = "0x4000A0E")]
+	[Token(Token = "0x4000B92")]
 	Unknown,
-	[Token(Token = "0x4000A0F")]
+	[Token(Token = "0x4000B93")]
 	Perspective,
-	[Token(Token = "0x4000A10")]
+	[Token(Token = "0x4000B94")]
 	Orthographic
 }

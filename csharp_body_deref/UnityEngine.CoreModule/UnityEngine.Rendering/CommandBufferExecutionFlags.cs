@@ -12,8 +12,8 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000342")]
 public enum CommandBufferExecutionFlags
 {
-	[Token(Token = "0x4000940")]
+	[Token(Token = "0x400093E")]
 	None = 0,
-	[Token(Token = "0x4000941")]
+	[Token(Token = "0x400093F")]
 	AsyncCompute = 2
 }

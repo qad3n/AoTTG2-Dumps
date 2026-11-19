@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.TaaHistory
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,66 +33,66 @@ public sealed class TaaHistory : CameraHistoryItem
 	private Hash128 m_DescKey;
 
 	[Token(Token = "0x600062A")]
-	[Address(RVA = "0x2C3CCF0", Offset = "0x2C3B2F0", VA = "0x182C3CCF0", Slot = "5")]
+	[Address(RVA = "0x6643A80", Offset = "0x6642A80", VA = "0x6643A80", Slot = "5")]
 	public override void OnCreate(BufferedRTHandleSystem owner, uint typeId)
 	{
 	}
 
 	[Token(Token = "0x600062B")]
-	[Address(RVA = "0x2C405F0", Offset = "0x2C3EBF0", VA = "0x182C405F0", Slot = "4")]
+	[Address(RVA = "0x6643AF0", Offset = "0x6642AF0", VA = "0x6643AF0", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x600062C")]
-	[Address(RVA = "0x2C404C0", Offset = "0x2C3EAC0", VA = "0x182C404C0")]
+	[Address(RVA = "0x6643B90", Offset = "0x6642B90", VA = "0x6643B90")]
 	public RTHandle GetAccumulationTexture(int eyeIndex = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600062D")]
-	[Address(RVA = "0x2C40500", Offset = "0x2C3EB00", VA = "0x182C40500")]
+	[Address(RVA = "0x6643BC0", Offset = "0x6642BC0", VA = "0x6643BC0")]
 	public int GetAccumulationVersion(int eyeIndex = 0)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600062E")]
-	[Address(RVA = "0x2C406A0", Offset = "0x2C3ECA0", VA = "0x182C406A0")]
+	[Address(RVA = "0x6643BF0", Offset = "0x6642BF0", VA = "0x6643BF0")]
 	internal void SetAccumulationVersion(int eyeIndex, int version)
 	{
 	}
 
 	[Token(Token = "0x600062F")]
-	[Address(RVA = "0x2C405B0", Offset = "0x2C3EBB0", VA = "0x182C405B0")]
+	[Address(RVA = "0x6643C20", Offset = "0x6642C20", VA = "0x6643C20")]
 	private bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000630")]
-	[Address(RVA = "0x2C40530", Offset = "0x2C3EB30", VA = "0x182C40530")]
+	[Address(RVA = "0x6643C50", Offset = "0x6642C50", VA = "0x6643C50")]
 	private bool IsDirty(ref RenderTextureDescriptor desc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000631")]
-	[Address(RVA = "0x2C40320", Offset = "0x2C3E920", VA = "0x182C40320")]
+	[Address(RVA = "0x6643CB0", Offset = "0x6642CB0", VA = "0x6643CB0")]
 	private void Alloc(ref RenderTextureDescriptor desc, bool xrMultipassEnabled)
 	{
 	}
 
 	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x2C406D0", Offset = "0x2C3ECD0", VA = "0x182C406D0")]
+	[Address(RVA = "0x6643E10", Offset = "0x6642E10", VA = "0x6643E10")]
 	internal bool Update(ref RenderTextureDescriptor cameraDesc, bool xrMultipassEnabled = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000633")]
-	[Address(RVA = "0x2C40A80", Offset = "0x2C3F080", VA = "0x182C40A80")]
+	[Address(RVA = "0x6643F70", Offset = "0x6642F70", VA = "0x6643F70")]
 	public TaaHistory()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -162,13 +162,13 @@ internal class UniversalRenderPipelineGlobalSettings : RenderPipelineGlobalSetti
 	public bool stripUnusedLODCrossFadeVariants
 	{
 		[Token(Token = "0x600045F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x66283B0", Offset = "0x66273B0", VA = "0x66283B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000460")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x66283C0", Offset = "0x66273C0", VA = "0x66283C0")]
 		set
 		{
 		}
@@ -178,7 +178,7 @@ internal class UniversalRenderPipelineGlobalSettings : RenderPipelineGlobalSetti
 	protected override List<IRenderPipelineGraphicsSettings> settingsList
 	{
 		[Token(Token = "0x6000461")]
-		[Address(RVA = "0x2C34070", Offset = "0x2C32670", VA = "0x182C34070", Slot = "6")]
+		[Address(RVA = "0x66283D0", Offset = "0x66273D0", VA = "0x66283D0", Slot = "6")]
 		get
 		{
 			return null;
@@ -190,7 +190,7 @@ internal class UniversalRenderPipelineGlobalSettings : RenderPipelineGlobalSetti
 	public string[] prefixedLightLayerNames
 	{
 		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x2C34030", Offset = "0x2C32630", VA = "0x182C34030")]
+		[Address(RVA = "0x6628490", Offset = "0x6627490", VA = "0x6628490")]
 		get
 		{
 			return null;
@@ -202,7 +202,7 @@ internal class UniversalRenderPipelineGlobalSettings : RenderPipelineGlobalSetti
 	public string[] lightLayerNames
 	{
 		[Token(Token = "0x6000466")]
-		[Address(RVA = "0x2C33FF0", Offset = "0x2C325F0", VA = "0x182C33FF0")]
+		[Address(RVA = "0x66284C0", Offset = "0x66274C0", VA = "0x66284C0")]
 		get
 		{
 			return null;
@@ -210,40 +210,40 @@ internal class UniversalRenderPipelineGlobalSettings : RenderPipelineGlobalSetti
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x2C33D50", Offset = "0x2C32350", VA = "0x182C33D50")]
+	[Address(RVA = "0x66283F0", Offset = "0x66273F0", VA = "0x66283F0")]
 	internal bool IsAtLastVersion()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x2C33DF0", Offset = "0x2C323F0", VA = "0x182C33DF0", Slot = "9")]
+	[Address(RVA = "0x6628400", Offset = "0x6627400", VA = "0x6628400", Slot = "9")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Address(RVA = "0x6628480", Offset = "0x6627480", VA = "0x6628480")]
 	internal static VolumeProfile GetOrCreateDefaultVolumeProfile(VolumeProfile defaultVolumeProfile)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x2C33D60", Offset = "0x2C32360", VA = "0x182C33D60")]
+	[Address(RVA = "0x66284F0", Offset = "0x66274F0", VA = "0x66284F0")]
 	internal void ResetRenderingLayerNames()
 	{
 	}
 
 	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x2C33CB0", Offset = "0x2C322B0", VA = "0x182C33CB0")]
+	[Address(RVA = "0x6628580", Offset = "0x6627580", VA = "0x6628580")]
 	internal ProbeVolumeSceneData GetOrCreateAPVSceneData()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x2C33E70", Offset = "0x2C32470", VA = "0x182C33E70")]
+	[Address(RVA = "0x6628620", Offset = "0x6627620", VA = "0x6628620")]
 	public UniversalRenderPipelineGlobalSettings()
 	{
 	}

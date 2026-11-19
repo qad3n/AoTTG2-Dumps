@@ -24,42 +24,42 @@ public static class DOTweenUtils
 	private static readonly string[] _defAssembliesToQuery;
 
 	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x577DA0", Offset = "0x5763A0", VA = "0x180577DA0")]
+	[Address(RVA = "0x319D2F0", Offset = "0x319C2F0", VA = "0x319D2F0")]
 	internal static Vector3 Vector3FromAngle(float degrees, float magnitude)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x577720", Offset = "0x575D20", VA = "0x180577720")]
+	[Address(RVA = "0x319D340", Offset = "0x319C340", VA = "0x319D340")]
 	internal static float Angle2D(Vector3 from, Vector3 to)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x577CB0", Offset = "0x5762B0", VA = "0x180577CB0")]
+	[Address(RVA = "0x319D4F0", Offset = "0x319C4F0", VA = "0x319D4F0")]
 	internal static Vector3 RotateAroundPivot(Vector3 point, Vector3 pivot, Quaternion rotation)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x577C20", Offset = "0x576220", VA = "0x180577C20")]
+	[Address(RVA = "0x319D530", Offset = "0x319C530", VA = "0x319D530")]
 	public static Vector2 GetPointOnCircle(Vector2 center, float radius, float degrees)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x577D30", Offset = "0x576330", VA = "0x180577D30")]
+	[Address(RVA = "0x319D590", Offset = "0x319C590", VA = "0x319D590")]
 	internal static bool Vector3AreApproximatelyEqual(Vector3 a, Vector3 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x577940", Offset = "0x575F40", VA = "0x180577940")]
+	[Address(RVA = "0x319D6A0", Offset = "0x319C6A0", VA = "0x319D6A0")]
 	internal static Type GetLooseScriptType(string typeName)
 	{
 		return null;

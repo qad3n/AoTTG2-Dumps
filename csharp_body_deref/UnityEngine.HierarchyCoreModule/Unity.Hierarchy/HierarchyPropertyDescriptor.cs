@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyPropertyDescriptor
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ public struct HierarchyPropertyDescriptor
 	public int Size
 	{
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x6974680", Offset = "0x6973680", VA = "0x6974680")]
 		set
 		{
 		}
@@ -36,7 +36,7 @@ public struct HierarchyPropertyDescriptor
 	public HierarchyPropertyStorageType Type
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x6974690", Offset = "0x6973690", VA = "0x6974690")]
 		set
 		{
 		}

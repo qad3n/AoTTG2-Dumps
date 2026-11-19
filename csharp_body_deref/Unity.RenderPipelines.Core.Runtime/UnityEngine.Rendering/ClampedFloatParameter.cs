@@ -18,32 +18,32 @@ public class ClampedFloatParameter : FloatParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x400099D")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float min;
 
 	[NonSerialized]
 	[Token(Token = "0x400099E")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x1C")]
 	public float max;
 
 	[Token(Token = "0x170001F6")]
 	public override float value
 	{
 		[Token(Token = "0x6000F3E")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x6555B40", Offset = "0x6554B40", VA = "0x6555B40", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F3F")]
-		[Address(RVA = "0x2B4FF20", Offset = "0x2B4E520", VA = "0x182B4FF20", Slot = "15")]
+		[Address(RVA = "0x6555B50", Offset = "0x6554B50", VA = "0x6555B50", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F40")]
-	[Address(RVA = "0x2B4FEA0", Offset = "0x2B4E4A0", VA = "0x182B4FEA0")]
+	[Address(RVA = "0x6555B80", Offset = "0x6554B80", VA = "0x6555B80")]
 	public ClampedFloatParameter(float value, float min, float max, bool overrideState = false)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000AD")]
+[Token(Token = "0x20000E4")]
 public enum VoiceChatMode
 {
-	[Token(Token = "0x40003B1")]
+	[Token(Token = "0x40004E6")]
 	Global,
-	[Token(Token = "0x40003B2")]
+	[Token(Token = "0x40004E7")]
 	Proximity,
-	[Token(Token = "0x40003B3")]
+	[Token(Token = "0x40004E8")]
 	Off
 }

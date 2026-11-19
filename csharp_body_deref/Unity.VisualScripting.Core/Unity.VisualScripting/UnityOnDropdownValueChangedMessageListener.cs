@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnDropdownValueChangedMessageListener : MessageListener
 {
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x2DBDE10", Offset = "0x2DBC410", VA = "0x182DBDE10")]
+	[Address(RVA = "0x67A5570", Offset = "0x67A4570", VA = "0x67A5570")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5630", Offset = "0x67A4630", VA = "0x67A5630")]
 	public UnityOnDropdownValueChangedMessageListener()
 	{
 	}

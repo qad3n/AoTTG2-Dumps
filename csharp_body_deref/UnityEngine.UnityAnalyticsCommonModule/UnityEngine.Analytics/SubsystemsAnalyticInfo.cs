@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Analytics.SubsystemsAnalyticInfo
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,8 +16,8 @@ namespace UnityEngine.Analytics;
 [Serializable]
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000005")]
-[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 [ExcludeFromDocs]
+[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 public class SubsystemsAnalyticInfo : SubsystemsAnalyticBase
 {
 	[Token(Token = "0x4000002")]
@@ -37,13 +37,13 @@ public class SubsystemsAnalyticInfo : SubsystemsAnalyticBase
 	private string library_name;
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3308270", Offset = "0x3306870", VA = "0x183308270")]
+	[Address(RVA = "0x6D17130", Offset = "0x6D16130", VA = "0x6D17130")]
 	public SubsystemsAnalyticInfo()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x33081C0", Offset = "0x33067C0", VA = "0x1833081C0")]
+	[Address(RVA = "0x6D171A0", Offset = "0x6D161A0", VA = "0x6D171A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static SubsystemsAnalyticInfo CreateSubsystemsAnalyticInfo()
 	{

@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x20006A2")]
+[Token(Token = "0x200067C")]
 internal static class MonoIO
 {
-	[Token(Token = "0x4001AD3")]
+	[Token(Token = "0x4001A39")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly IntPtr InvalidHandle;
 
-	[Token(Token = "0x4001AD4")]
+	[Token(Token = "0x4001A3A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static bool dump_handles;
 
@@ -26,8 +26,8 @@ internal static class MonoIO
 	public static extern IntPtr ConsoleOutput
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003371")]
-		[Address(RVA = "0x1AF0D80", Offset = "0x1AEF380", VA = "0x181AF0D80")]
+		[Token(Token = "0x600333E")]
+		[Address(RVA = "0x548AC60", Offset = "0x5489C60", VA = "0x548AC60")]
 		get;
 	}
 
@@ -35,8 +35,8 @@ internal static class MonoIO
 	public static extern IntPtr ConsoleInput
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003372")]
-		[Address(RVA = "0x1AF0D70", Offset = "0x1AEF370", VA = "0x181AF0D70")]
+		[Token(Token = "0x600333F")]
+		[Address(RVA = "0x548AC70", Offset = "0x5489C70", VA = "0x548AC70")]
 		get;
 	}
 
@@ -44,8 +44,8 @@ internal static class MonoIO
 	public static extern IntPtr ConsoleError
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003373")]
-		[Address(RVA = "0x1AF0D60", Offset = "0x1AEF360", VA = "0x181AF0D60")]
+		[Token(Token = "0x6003340")]
+		[Address(RVA = "0x548AC80", Offset = "0x5489C80", VA = "0x548AC80")]
 		get;
 	}
 
@@ -53,8 +53,8 @@ internal static class MonoIO
 	public static extern char VolumeSeparatorChar
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003376")]
-		[Address(RVA = "0x1AF0DB0", Offset = "0x1AEF3B0", VA = "0x181AF0DB0")]
+		[Token(Token = "0x6003343")]
+		[Address(RVA = "0x548ACB0", Offset = "0x5489CB0", VA = "0x548ACB0")]
 		get;
 	}
 
@@ -62,8 +62,8 @@ internal static class MonoIO
 	public static extern char DirectorySeparatorChar
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003377")]
-		[Address(RVA = "0x1AF0D90", Offset = "0x1AEF390", VA = "0x181AF0D90")]
+		[Token(Token = "0x6003344")]
+		[Address(RVA = "0x548ACC0", Offset = "0x5489CC0", VA = "0x548ACC0")]
 		get;
 	}
 
@@ -71,8 +71,8 @@ internal static class MonoIO
 	public static extern char AltDirectorySeparatorChar
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003378")]
-		[Address(RVA = "0x1AF0D50", Offset = "0x1AEF350", VA = "0x181AF0D50")]
+		[Token(Token = "0x6003345")]
+		[Address(RVA = "0x548ACD0", Offset = "0x5489CD0", VA = "0x548ACD0")]
 		get;
 	}
 
@@ -80,153 +80,148 @@ internal static class MonoIO
 	public static extern char PathSeparator
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6003379")]
-		[Address(RVA = "0x1AF0DA0", Offset = "0x1AEF3A0", VA = "0x181AF0DA0")]
+		[Token(Token = "0x6003346")]
+		[Address(RVA = "0x548ACE0", Offset = "0x5489CE0", VA = "0x548ACE0")]
 		get;
 	}
 
-	[Token(Token = "0x600335C")]
-	[Address(RVA = "0x1AF03D0", Offset = "0x1AEE9D0", VA = "0x181AF03D0")]
+	[Token(Token = "0x600332A")]
+	[Address(RVA = "0x54779F0", Offset = "0x54769F0", VA = "0x54779F0")]
 	public static Exception GetException(System.IO.MonoIOError error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600335D")]
-	[Address(RVA = "0x1AEFCE0", Offset = "0x1AEE2E0", VA = "0x181AEFCE0")]
+	[Token(Token = "0x600332B")]
+	[Address(RVA = "0x5486EB0", Offset = "0x5485EB0", VA = "0x5486EB0")]
 	public static Exception GetException(string path, System.IO.MonoIOError error)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600335E")]
-	[Address(RVA = "0x1AEFCD0", Offset = "0x1AEE2D0", VA = "0x181AEFCD0")]
+	[Token(Token = "0x600332C")]
+	[Address(RVA = "0x54779E0", Offset = "0x54769E0", VA = "0x54779E0")]
 	public static extern string GetCurrentDirectory(out System.IO.MonoIOError error);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600335F")]
-	[Address(RVA = "0x1AF05E0", Offset = "0x1AEEBE0", VA = "0x181AF05E0")]
+	[Token(Token = "0x600332D")]
+	[Address(RVA = "0x548AAC0", Offset = "0x5489AC0", VA = "0x548AAC0")]
 	private static extern System.IO.MonoFileType GetFileType(IntPtr handle, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x6003360")]
-	[Address(RVA = "0x1AF04D0", Offset = "0x1AEEAD0", VA = "0x181AF04D0")]
+	[Token(Token = "0x600332E")]
+	[Address(RVA = "0x54875C0", Offset = "0x54865C0", VA = "0x54875C0")]
 	public static System.IO.MonoFileType GetFileType(SafeHandle safeHandle, out System.IO.MonoIOError error)
 	{
 		return default(System.IO.MonoFileType);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003361")]
-	[Address(RVA = "0x1AEFCC0", Offset = "0x1AEE2C0", VA = "0x181AEFCC0")]
-	public static extern bool FindCloseFile(IntPtr hnd);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003362")]
-	[Address(RVA = "0x1AF0710", Offset = "0x1AEED10", VA = "0x181AF0710")]
+	[Token(Token = "0x600332F")]
+	[Address(RVA = "0x548AAD0", Offset = "0x5489AD0", VA = "0x548AAD0")]
 	private unsafe static extern IntPtr Open(char* filename, FileMode mode, FileAccess access, FileShare share, FileOptions options, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x6003363")]
-	[Address(RVA = "0x1AF0720", Offset = "0x1AEED20", VA = "0x181AF0720")]
+	[Token(Token = "0x6003330")]
+	[Address(RVA = "0x5486D50", Offset = "0x5485D50", VA = "0x5486D50")]
 	public static IntPtr Open(string filename, FileMode mode, FileAccess access, FileShare share, FileOptions options, out System.IO.MonoIOError error)
 	{
 		return default(IntPtr);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003364")]
-	[Address(RVA = "0x1AEFB60", Offset = "0x1AEE160", VA = "0x181AEFB60")]
+	[Token(Token = "0x6003331")]
+	[Address(RVA = "0x548AAE0", Offset = "0x5489AE0", VA = "0x548AAE0")]
 	private static extern bool Cancel_internal(IntPtr handle, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x6003365")]
-	[Address(RVA = "0x1AEFB70", Offset = "0x1AEE170", VA = "0x181AEFB70")]
+	[Token(Token = "0x6003332")]
+	[Address(RVA = "0x548AAF0", Offset = "0x5489AF0", VA = "0x548AAF0")]
 	internal static bool Cancel(SafeHandle safeHandle, out System.IO.MonoIOError error)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003366")]
-	[Address(RVA = "0x1AEFC90", Offset = "0x1AEE290", VA = "0x181AEFC90")]
+	[Token(Token = "0x6003333")]
+	[Address(RVA = "0x548A750", Offset = "0x5489750", VA = "0x548A750")]
 	public static extern bool Close(IntPtr handle, out System.IO.MonoIOError error);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003367")]
-	[Address(RVA = "0x1AF08E0", Offset = "0x1AEEEE0", VA = "0x181AF08E0")]
+	[Token(Token = "0x6003334")]
+	[Address(RVA = "0x548AC10", Offset = "0x5489C10", VA = "0x548AC10")]
 	private static extern int Read(IntPtr handle, byte[] dest, int dest_offset, int count, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x6003368")]
-	[Address(RVA = "0x1AF07A0", Offset = "0x1AEEDA0", VA = "0x181AF07A0")]
+	[Token(Token = "0x6003335")]
+	[Address(RVA = "0x548A800", Offset = "0x5489800", VA = "0x548A800")]
 	public static int Read(SafeHandle safeHandle, byte[] dest, int dest_offset, int count, out System.IO.MonoIOError error)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003369")]
-	[Address(RVA = "0x1AF0CC0", Offset = "0x1AEF2C0", VA = "0x181AF0CC0")]
+	[Token(Token = "0x6003336")]
+	[Address(RVA = "0x548AC20", Offset = "0x5489C20", VA = "0x548AC20")]
 	private static extern int Write(IntPtr handle, [In] byte[] src, int src_offset, int count, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x600336A")]
-	[Address(RVA = "0x1AF0B80", Offset = "0x1AEF180", VA = "0x181AF0B80")]
+	[Token(Token = "0x6003337")]
+	[Address(RVA = "0x5489480", Offset = "0x5488480", VA = "0x5489480")]
 	public static int Write(SafeHandle safeHandle, byte[] src, int src_offset, int count, out System.IO.MonoIOError error)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600336B")]
-	[Address(RVA = "0x1AF0A30", Offset = "0x1AEF030", VA = "0x181AF0A30")]
+	[Token(Token = "0x6003338")]
+	[Address(RVA = "0x548AC30", Offset = "0x5489C30", VA = "0x548AC30")]
 	private static extern long Seek(IntPtr handle, long offset, SeekOrigin origin, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x600336C")]
-	[Address(RVA = "0x1AF0900", Offset = "0x1AEEF00", VA = "0x181AF0900")]
+	[Token(Token = "0x6003339")]
+	[Address(RVA = "0x5487A30", Offset = "0x5486A30", VA = "0x5487A30")]
 	public static long Seek(SafeHandle safeHandle, long offset, SeekOrigin origin, out System.IO.MonoIOError error)
 	{
 		return default(long);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600336D")]
-	[Address(RVA = "0x1AF05F0", Offset = "0x1AEEBF0", VA = "0x181AF05F0")]
+	[Token(Token = "0x600333A")]
+	[Address(RVA = "0x548AC40", Offset = "0x5489C40", VA = "0x548AC40")]
 	private static extern long GetLength(IntPtr handle, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x600336E")]
-	[Address(RVA = "0x1AF0600", Offset = "0x1AEEC00", VA = "0x181AF0600")]
+	[Token(Token = "0x600333B")]
+	[Address(RVA = "0x5487D20", Offset = "0x5486D20", VA = "0x5487D20")]
 	public static long GetLength(SafeHandle safeHandle, out System.IO.MonoIOError error)
 	{
 		return default(long);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600336F")]
-	[Address(RVA = "0x1AF0A40", Offset = "0x1AEF040", VA = "0x181AF0A40")]
+	[Token(Token = "0x600333C")]
+	[Address(RVA = "0x548AC50", Offset = "0x5489C50", VA = "0x548AC50")]
 	private static extern bool SetLength(IntPtr handle, long length, out System.IO.MonoIOError error);
 
-	[Token(Token = "0x6003370")]
-	[Address(RVA = "0x1AF0A50", Offset = "0x1AEF050", VA = "0x181AF0A50")]
+	[Token(Token = "0x600333D")]
+	[Address(RVA = "0x548A180", Offset = "0x5489180", VA = "0x548A180")]
 	public static bool SetLength(SafeHandle safeHandle, long length, out System.IO.MonoIOError error)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003374")]
-	[Address(RVA = "0x1AEFCA0", Offset = "0x1AEE2A0", VA = "0x181AEFCA0")]
+	[Token(Token = "0x6003341")]
+	[Address(RVA = "0x548AC90", Offset = "0x5489C90", VA = "0x548AC90")]
 	public static extern bool CreatePipe(out IntPtr read_handle, out IntPtr write_handle, out System.IO.MonoIOError error);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6003375")]
-	[Address(RVA = "0x1AEFCB0", Offset = "0x1AEE2B0", VA = "0x181AEFCB0")]
+	[Token(Token = "0x6003342")]
+	[Address(RVA = "0x548ACA0", Offset = "0x5489CA0", VA = "0x548ACA0")]
 	public static extern bool DuplicateHandle(IntPtr source_process_handle, IntPtr source_handle, IntPtr target_process_handle, out IntPtr target_handle, int access, int inherit, int options, out System.IO.MonoIOError error);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600337A")]
-	[Address(RVA = "0x1A6DB30", Offset = "0x1A6C130", VA = "0x181A6DB30")]
+	[Token(Token = "0x6003347")]
+	[Address(RVA = "0x548AAB0", Offset = "0x5489AB0", VA = "0x548AAB0")]
 	private static extern void DumpHandles();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600337B")]
-	[Address(RVA = "0x1AF08F0", Offset = "0x1AEEEF0", VA = "0x181AF08F0")]
+	[Token(Token = "0x6003348")]
+	[Address(RVA = "0x548ACF0", Offset = "0x5489CF0", VA = "0x548ACF0")]
 	public static extern bool RemapPath(string path, out string newPath);
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TwoPaneSplitView
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public class TwoPaneSplitView : VisualElement
 	public new class UxmlFactory : UxmlFactory<TwoPaneSplitView, UxmlTraits>
 	{
 		[Token(Token = "0x6000A9A")]
-		[Address(RVA = "0x3254CC0", Offset = "0x32532C0", VA = "0x183254CC0")]
+		[Address(RVA = "0x6C496D0", Offset = "0x6C486D0", VA = "0x6C496D0")]
 		public UxmlFactory()
 		{
 		}
@@ -43,13 +43,13 @@ public class TwoPaneSplitView : VisualElement
 		private UxmlEnumAttributeDescription<TwoPaneSplitViewOrientation> m_Orientation;
 
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x3254E70", Offset = "0x3253470", VA = "0x183254E70", Slot = "4")]
+		[Address(RVA = "0x6C49710", Offset = "0x6C48710", VA = "0x6C49710", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x3255430", Offset = "0x3253A30", VA = "0x183255430")]
+		[Address(RVA = "0x6C498D0", Offset = "0x6C488D0", VA = "0x6C498D0")]
 		public UxmlTraits()
 		{
 		}
@@ -174,7 +174,7 @@ public class TwoPaneSplitView : VisualElement
 	public VisualElement fixedPane
 	{
 		[Token(Token = "0x6000A80")]
-		[Address(RVA = "0x312F010", Offset = "0x312D610", VA = "0x18312F010")]
+		[Address(RVA = "0x6C451B0", Offset = "0x6C441B0", VA = "0x6C451B0")]
 		get
 		{
 			return null;
@@ -185,7 +185,7 @@ public class TwoPaneSplitView : VisualElement
 	public VisualElement flexedPane
 	{
 		[Token(Token = "0x6000A81")]
-		[Address(RVA = "0x2D076E0", Offset = "0x2D05CE0", VA = "0x182D076E0")]
+		[Address(RVA = "0x6C451C0", Offset = "0x6C441C0", VA = "0x6C451C0")]
 		get
 		{
 			return null;
@@ -196,7 +196,7 @@ public class TwoPaneSplitView : VisualElement
 	internal VisualElement dragLine
 	{
 		[Token(Token = "0x6000A82")]
-		[Address(RVA = "0x2B08510", Offset = "0x2B06B10", VA = "0x182B08510")]
+		[Address(RVA = "0x6C451D0", Offset = "0x6C441D0", VA = "0x6C451D0")]
 		get
 		{
 			return null;
@@ -208,13 +208,13 @@ public class TwoPaneSplitView : VisualElement
 	public int fixedPaneIndex
 	{
 		[Token(Token = "0x6000A83")]
-		[Address(RVA = "0x3253050", Offset = "0x3251650", VA = "0x183253050")]
+		[Address(RVA = "0x6C451E0", Offset = "0x6C441E0", VA = "0x6C451E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000A84")]
-		[Address(RVA = "0x3253080", Offset = "0x3251680", VA = "0x183253080")]
+		[Address(RVA = "0x6C451F0", Offset = "0x6C441F0", VA = "0x6C451F0")]
 		set
 		{
 		}
@@ -225,13 +225,13 @@ public class TwoPaneSplitView : VisualElement
 	public float fixedPaneInitialDimension
 	{
 		[Token(Token = "0x6000A85")]
-		[Address(RVA = "0x2D24C90", Offset = "0x2D23290", VA = "0x182D24C90")]
+		[Address(RVA = "0x6C45290", Offset = "0x6C44290", VA = "0x6C45290")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000A86")]
-		[Address(RVA = "0x3253120", Offset = "0x3251720", VA = "0x183253120")]
+		[Address(RVA = "0x6C452A0", Offset = "0x6C442A0", VA = "0x6C452A0")]
 		set
 		{
 		}
@@ -242,13 +242,13 @@ public class TwoPaneSplitView : VisualElement
 	public TwoPaneSplitViewOrientation orientation
 	{
 		[Token(Token = "0x6000A87")]
-		[Address(RVA = "0x100AE70", Offset = "0x1009470", VA = "0x18100AE70")]
+		[Address(RVA = "0x6C45340", Offset = "0x6C44340", VA = "0x6C45340")]
 		get
 		{
 			return default(TwoPaneSplitViewOrientation);
 		}
 		[Token(Token = "0x6000A88")]
-		[Address(RVA = "0x32531D0", Offset = "0x32517D0", VA = "0x1832531D0")]
+		[Address(RVA = "0x6C45350", Offset = "0x6C44350", VA = "0x6C45350")]
 		set
 		{
 		}
@@ -258,13 +258,13 @@ public class TwoPaneSplitView : VisualElement
 	internal float fixedPaneDimension
 	{
 		[Token(Token = "0x6000A89")]
-		[Address(RVA = "0x3253020", Offset = "0x3251620", VA = "0x183253020")]
+		[Address(RVA = "0x6C453F0", Offset = "0x6C443F0", VA = "0x6C453F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000A8A")]
-		[Address(RVA = "0x3253060", Offset = "0x3251660", VA = "0x183253060")]
+		[Address(RVA = "0x6C45420", Offset = "0x6C44420", VA = "0x6C45420")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		set
 		{
@@ -275,7 +275,7 @@ public class TwoPaneSplitView : VisualElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x6000A95")]
-		[Address(RVA = "0x3253010", Offset = "0x3251610", VA = "0x183253010", Slot = "138")]
+		[Address(RVA = "0x6C492E0", Offset = "0x6C482E0", VA = "0x6C492E0", Slot = "138")]
 		get
 		{
 			return null;
@@ -283,79 +283,79 @@ public class TwoPaneSplitView : VisualElement
 	}
 
 	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x3252F70", Offset = "0x3251570", VA = "0x183252F70")]
+	[Address(RVA = "0x6C45440", Offset = "0x6C44440", VA = "0x6C45440")]
 	public TwoPaneSplitView()
 	{
 	}
 
 	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x3252030", Offset = "0x3250630", VA = "0x183252030")]
+	[Address(RVA = "0x6C454E0", Offset = "0x6C444E0", VA = "0x6C454E0")]
 	private void SetupSplitView()
 	{
 	}
 
 	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x3250050", Offset = "0x324E650", VA = "0x183250050")]
+	[Address(RVA = "0x6C45740", Offset = "0x6C44740", VA = "0x6C45740")]
 	public void CollapseChild(int index)
 	{
 	}
 
 	[Token(Token = "0x6000A8E")]
-	[Address(RVA = "0x3250520", Offset = "0x324EB20", VA = "0x183250520", Slot = "141")]
+	[Address(RVA = "0x6C465C0", Offset = "0x6C455C0", VA = "0x6C465C0", Slot = "141")]
 	internal virtual void Init(int fixedPaneIndex, float fixedPaneInitialDimension, TwoPaneSplitViewOrientation orientation)
 	{
 	}
 
 	[Token(Token = "0x6000A8F")]
-	[Address(RVA = "0x3250930", Offset = "0x324EF30", VA = "0x183250930")]
+	[Address(RVA = "0x6C47F90", Offset = "0x6C46F90", VA = "0x6C47F90")]
 	private void OnPostDisplaySetup(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000A90")]
-	[Address(RVA = "0x324F8B0", Offset = "0x324DEB0", VA = "0x18324F8B0")]
+	[Address(RVA = "0x6C45E60", Offset = "0x6C44E60", VA = "0x6C45E60")]
 	private void AdjustPanesBasedOnAnchor()
 	{
 	}
 
 	[Token(Token = "0x6000A91")]
-	[Address(RVA = "0x3250430", Offset = "0x324EA30", VA = "0x183250430")]
+	[Address(RVA = "0x6C480C0", Offset = "0x6C470C0", VA = "0x6C480C0")]
 	private void IdentifyLeftAndRightPane()
 	{
 	}
 
 	[Token(Token = "0x6000A92")]
-	[Address(RVA = "0x3250AB0", Offset = "0x324F0B0", VA = "0x183250AB0")]
+	[Address(RVA = "0x6C46940", Offset = "0x6C45940", VA = "0x6C46940")]
 	private void PostDisplaySetup()
 	{
 	}
 
 	[Token(Token = "0x6000A93")]
-	[Address(RVA = "0x3250A60", Offset = "0x324F060", VA = "0x183250A60")]
+	[Address(RVA = "0x6C48240", Offset = "0x6C47240", VA = "0x6C48240")]
 	private void OnSizeChange(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000A94")]
-	[Address(RVA = "0x32522A0", Offset = "0x32508A0", VA = "0x1832522A0")]
+	[Address(RVA = "0x6C48250", Offset = "0x6C47250", VA = "0x6C48250")]
 	private void UpdateLayout(bool updateFixedPane, bool updateDragLine)
 	{
 	}
 
 	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0x3250A70", Offset = "0x324F070", VA = "0x183250A70", Slot = "135")]
+	[Address(RVA = "0x6C492F0", Offset = "0x6C482F0", VA = "0x6C492F0", Slot = "135")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x6000A97")]
-	[Address(RVA = "0x3251D10", Offset = "0x3250310", VA = "0x183251D10")]
+	[Address(RVA = "0x6C48FA0", Offset = "0x6C47FA0", VA = "0x6C48FA0")]
 	private void SetDragLineOffset(float offset)
 	{
 	}
 
 	[Token(Token = "0x6000A98")]
-	[Address(RVA = "0x3251EA0", Offset = "0x32504A0", VA = "0x183251EA0")]
+	[Address(RVA = "0x6C49140", Offset = "0x6C48140", VA = "0x6C49140")]
 	private void SetFixedPaneDimension(float dimension)
 	{
 	}

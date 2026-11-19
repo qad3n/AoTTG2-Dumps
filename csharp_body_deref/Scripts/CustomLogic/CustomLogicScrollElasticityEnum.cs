@@ -11,136 +11,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000504")]
+[Token(Token = "0x2000563")]
 [CompilerGenerated]
 internal class CustomLogicScrollElasticityEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000505")]
+	[Token(Token = "0x2000564")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002D6E")]
-		[Address(RVA = "0x1FF09A0", Offset = "0x1FEEFA0", VA = "0x181FF09A0")]
+		[Token(Token = "0x6002FFA")]
+		[Address(RVA = "0x59A7F10", Offset = "0x59A6F10", VA = "0x59A7F10")]
 		public static CustomLogicScrollElasticityEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000506")]
+	[Token(Token = "0x2000565")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016DE")]
+		[Token(Token = "0x400187E")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002D6F")]
-		[Address(RVA = "0x1FCFF70", Offset = "0x1FCE570", VA = "0x181FCFF70")]
+		[Token(Token = "0x6002FFB")]
+		[Address(RVA = "0x59A8030", Offset = "0x59A7030", VA = "0x59A8030")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D70")]
-		[Address(RVA = "0x1FE0BE0", Offset = "0x1FDF1E0", VA = "0x181FE0BE0")]
+		[Token(Token = "0x6002FFC")]
+		[Address(RVA = "0x59A81C0", Offset = "0x59A71C0", VA = "0x59A81C0")]
 		public static CLPropertyBinding<CustomLogicScrollElasticityEnum> __CreatePropertyBinding__Clamped()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D71")]
-		[Address(RVA = "0x1FE15E0", Offset = "0x1FDFBE0", VA = "0x181FE15E0")]
+		[Token(Token = "0x6002FFD")]
+		[Address(RVA = "0x59A8260", Offset = "0x59A7260", VA = "0x59A8260")]
 		public static CLPropertyBinding<CustomLogicScrollElasticityEnum> __CreatePropertyBinding__Elastic()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002D72")]
-		[Address(RVA = "0x1FE8F20", Offset = "0x1FE7520", VA = "0x181FE8F20")]
+		[Token(Token = "0x6002FFE")]
+		[Address(RVA = "0x59A8300", Offset = "0x59A7300", VA = "0x59A8300")]
 		public static CLPropertyBinding<CustomLogicScrollElasticityEnum> __CreatePropertyBinding__Unrestricted()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007D7")]
+	[Token(Token = "0x1700081F")]
 	public static int Clamped
 	{
-		[Token(Token = "0x6002D67")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
+		[Token(Token = "0x6002FF3")]
+		[Address(RVA = "0x59A7E80", Offset = "0x59A6E80", VA = "0x59A7E80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007D8")]
+	[Token(Token = "0x17000820")]
 	public static int Elastic
 	{
-		[Token(Token = "0x6002D68")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6002FF4")]
+		[Address(RVA = "0x59A7E90", Offset = "0x59A6E90", VA = "0x59A7E90")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007D9")]
+	[Token(Token = "0x17000821")]
 	public static int Unrestricted
 	{
-		[Token(Token = "0x6002D69")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x6002FF5")]
+		[Address(RVA = "0x59A7EA0", Offset = "0x59A6EA0", VA = "0x59A7EA0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007DA")]
+	[Token(Token = "0x17000822")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002D6A")]
-		[Address(RVA = "0x1FEF060", Offset = "0x1FED660", VA = "0x181FEF060", Slot = "6")]
+		[Token(Token = "0x6002FF6")]
+		[Address(RVA = "0x59A7EB0", Offset = "0x59A6EB0", VA = "0x59A7EB0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007DB")]
+	[Token(Token = "0x17000823")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002D6B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002FF7")]
+		[Address(RVA = "0x59A7EE0", Offset = "0x59A6EE0", VA = "0x59A7EE0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007DC")]
+	[Token(Token = "0x17000824")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002D6C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6002FF8")]
+		[Address(RVA = "0x59A7EF0", Offset = "0x59A6EF0", VA = "0x59A7EF0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007DD")]
+	[Token(Token = "0x17000825")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002D6D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002FF9")]
+		[Address(RVA = "0x59A7F00", Offset = "0x59A6F00", VA = "0x59A7F00", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002D66")]
-	[Address(RVA = "0x1FEF010", Offset = "0x1FED610", VA = "0x181FEF010")]
+	[Token(Token = "0x6002FF2")]
+	[Address(RVA = "0x59A7E10", Offset = "0x59A6E10", VA = "0x59A7E10")]
 	public CustomLogicScrollElasticityEnum()
 	{
 	}

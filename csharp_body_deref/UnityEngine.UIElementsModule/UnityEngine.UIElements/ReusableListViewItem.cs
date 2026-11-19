@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ReusableListViewItem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ internal class ReusableListViewItem : ReusableCollectionItem
 	public override VisualElement rootElement
 	{
 		[Token(Token = "0x600030F")]
-		[Address(RVA = "0x30B0A20", Offset = "0x30AF020", VA = "0x1830B0A20", Slot = "4")]
+		[Address(RVA = "0x6A9C300", Offset = "0x6A9B300", VA = "0x6A9C300", Slot = "4")]
 		get
 		{
 			return null;
@@ -40,55 +40,55 @@ internal class ReusableListViewItem : ReusableCollectionItem
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x30B0220", Offset = "0x30AE820", VA = "0x1830B0220")]
+	[Address(RVA = "0x6A9C310", Offset = "0x6A9B310", VA = "0x6A9C310")]
 	public void Init(VisualElement item, bool usesAnimatedDragger)
 	{
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x30B06A0", Offset = "0x30AECA0", VA = "0x1830B06A0")]
+	[Address(RVA = "0x6A9C3D0", Offset = "0x6A9B3D0", VA = "0x6A9C3D0")]
 	protected void UpdateHierarchy(VisualElement root, VisualElement item, bool usesAnimatedDragger)
 	{
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x30B0530", Offset = "0x30AEB30", VA = "0x1830B0530")]
+	[Address(RVA = "0x6A9C6D0", Offset = "0x6A9B6D0", VA = "0x6A9C6D0")]
 	public void UpdateDragHandle(bool needsDragHandle)
 	{
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x30B0490", Offset = "0x30AEA90", VA = "0x1830B0490")]
+	[Address(RVA = "0x6A9A620", Offset = "0x6A99620", VA = "0x6A9A620")]
 	public void SetDragHandleEnabled(bool enabled)
 	{
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x30B0390", Offset = "0x30AE990", VA = "0x1830B0390", Slot = "6")]
+	[Address(RVA = "0x6A9C830", Offset = "0x6A9B830", VA = "0x6A9C830", Slot = "6")]
 	public override void PreAttachElement()
 	{
 	}
 
 	[Token(Token = "0x6000315")]
-	[Address(RVA = "0x30B0190", Offset = "0x30AE790", VA = "0x1830B0190", Slot = "7")]
+	[Address(RVA = "0x6A9C8C0", Offset = "0x6A9B8C0", VA = "0x6A9C8C0", Slot = "7")]
 	public override void DetachElement()
 	{
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x30B0420", Offset = "0x30AEA20", VA = "0x1830B0420", Slot = "10")]
+	[Address(RVA = "0x6A9C950", Offset = "0x6A9B950", VA = "0x6A9C950", Slot = "10")]
 	public override void SetDragGhost(bool dragGhost)
 	{
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x30B0300", Offset = "0x30AE900", VA = "0x1830B0300", Slot = "11")]
+	[Address(RVA = "0x6A9C9B0", Offset = "0x6A9B9B0", VA = "0x6A9C9B0", Slot = "11")]
 	protected override void OnGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000318")]
-	[Address(RVA = "0x30B0A10", Offset = "0x30AF010", VA = "0x1830B0A10")]
+	[Address(RVA = "0x6A9C9D0", Offset = "0x6A9B9D0", VA = "0x6A9C9D0")]
 	public ReusableListViewItem()
 	{
 	}

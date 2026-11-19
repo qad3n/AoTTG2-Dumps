@@ -27,7 +27,7 @@ internal abstract class CacheOutputQuery : Query
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001A9B")]
-		[Address(RVA = "0x26B6830", Offset = "0x26B4E30", VA = "0x1826B6830", Slot = "8")]
+		[Address(RVA = "0x607EF60", Offset = "0x607DF60", VA = "0x607EF60", Slot = "8")]
 		get
 		{
 			return null;
@@ -38,7 +38,7 @@ internal abstract class CacheOutputQuery : Query
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001A9C")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "16")]
+		[Address(RVA = "0x607EFB0", Offset = "0x607DFB0", VA = "0x607EFB0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -49,7 +49,7 @@ internal abstract class CacheOutputQuery : Query
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001A9D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "9")]
+		[Address(RVA = "0x607EFC0", Offset = "0x607DFC0", VA = "0x607EFC0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -60,7 +60,7 @@ internal abstract class CacheOutputQuery : Query
 	public override int Count
 	{
 		[Token(Token = "0x6001A9E")]
-		[Address(RVA = "0x26B67F0", Offset = "0x26B4DF0", VA = "0x1826B67F0", Slot = "10")]
+		[Address(RVA = "0x607EFD0", Offset = "0x607DFD0", VA = "0x607EFD0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -71,7 +71,7 @@ internal abstract class CacheOutputQuery : Query
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001A9F")]
-		[Address(RVA = "0x1AB5F20", Offset = "0x1AB4520", VA = "0x181AB5F20", Slot = "17")]
+		[Address(RVA = "0x607F010", Offset = "0x607E010", VA = "0x607F010", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -79,38 +79,38 @@ internal abstract class CacheOutputQuery : Query
 	}
 
 	[Token(Token = "0x6001A95")]
-	[Address(RVA = "0x26B6750", Offset = "0x26B4D50", VA = "0x1826B6750")]
+	[Address(RVA = "0x607ECF0", Offset = "0x607DCF0", VA = "0x607ECF0")]
 	public CacheOutputQuery(Query input)
 	{
 	}
 
 	[Token(Token = "0x6001A96")]
-	[Address(RVA = "0x26B6680", Offset = "0x26B4C80", VA = "0x1826B6680")]
+	[Address(RVA = "0x607ED80", Offset = "0x607DD80", VA = "0x607ED80")]
 	protected CacheOutputQuery(CacheOutputQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A97")]
-	[Address(RVA = "0x26B5820", Offset = "0x26B3E20", VA = "0x1826B5820", Slot = "12")]
+	[Address(RVA = "0x607EE40", Offset = "0x607DE40", VA = "0x607EE40", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001A98")]
-	[Address(RVA = "0x1A580D0", Offset = "0x1A566D0", VA = "0x181A580D0", Slot = "13")]
+	[Address(RVA = "0x607EE50", Offset = "0x607DE50", VA = "0x607EE50", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001A99")]
-	[Address(RVA = "0x26B65F0", Offset = "0x26B4BF0", VA = "0x1826B65F0", Slot = "14")]
+	[Address(RVA = "0x607EE80", Offset = "0x607DE80", VA = "0x607EE80", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A9A")]
-	[Address(RVA = "0x26B6580", Offset = "0x26B4B80", VA = "0x1826B6580", Slot = "15")]
+	[Address(RVA = "0x607EF00", Offset = "0x607DF00", VA = "0x607EF00", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;

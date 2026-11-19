@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000102")]
+[Token(Token = "0x2000103")]
 public enum SkinQuality
 {
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x40002C2")]
 	Auto = 0,
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x40002C3")]
 	Bone1 = 1,
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x40002C4")]
 	Bone2 = 2,
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x40002C5")]
 	Bone4 = 4
 }

@@ -13,489 +13,489 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200040D")]
+[Token(Token = "0x200046C")]
 [CompilerGenerated]
 internal class CustomLogicQuaternionBuiltin : BuiltinClassInstance, ICustomLogicMathOperators, ICustomLogicEquals, ICustomLogicCopyable
 {
-	[Token(Token = "0x200040E")]
+	[Token(Token = "0x200046D")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001956")]
-		[Address(RVA = "0x1ED9AD0", Offset = "0x1ED80D0", VA = "0x181ED9AD0")]
+		[Token(Token = "0x6001BCD")]
+		[Address(RVA = "0x58B5C80", Offset = "0x58B4C80", VA = "0x58B5C80")]
 		public static CustomLogicQuaternionBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200040F")]
+	[Token(Token = "0x200046E")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400145B")]
+		[Token(Token = "0x40015FB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001957")]
-		[Address(RVA = "0x1EBD770", Offset = "0x1EBBD70", VA = "0x181EBD770")]
+		[Token(Token = "0x6001BCE")]
+		[Address(RVA = "0x58B5F50", Offset = "0x58B4F50", VA = "0x58B5F50")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001958")]
-		[Address(RVA = "0x1ECBA00", Offset = "0x1ECA000", VA = "0x181ECBA00")]
+		[Token(Token = "0x6001BCF")]
+		[Address(RVA = "0x58B6750", Offset = "0x58B5750", VA = "0x58B6750")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__X()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001959")]
-		[Address(RVA = "0x1ECBCD0", Offset = "0x1ECA2D0", VA = "0x181ECBCD0")]
+		[Token(Token = "0x6001BD0")]
+		[Address(RVA = "0x58B6830", Offset = "0x58B5830", VA = "0x58B6830")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__Y()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195A")]
-		[Address(RVA = "0x1ECBDC0", Offset = "0x1ECA3C0", VA = "0x181ECBDC0")]
+		[Token(Token = "0x6001BD1")]
+		[Address(RVA = "0x58B6910", Offset = "0x58B5910", VA = "0x58B6910")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__Z()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195B")]
-		[Address(RVA = "0x1ECB910", Offset = "0x1EC9F10", VA = "0x181ECB910")]
+		[Token(Token = "0x6001BD2")]
+		[Address(RVA = "0x58B69F0", Offset = "0x58B59F0", VA = "0x58B69F0")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__W()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195C")]
-		[Address(RVA = "0x1ECAC40", Offset = "0x1EC9240", VA = "0x181ECAC40")]
+		[Token(Token = "0x6001BD3")]
+		[Address(RVA = "0x58B6AD0", Offset = "0x58B5AD0", VA = "0x58B6AD0")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__Euler()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195D")]
-		[Address(RVA = "0x1ECAE20", Offset = "0x1EC9420", VA = "0x181ECAE20")]
+		[Token(Token = "0x6001BD4")]
+		[Address(RVA = "0x58B6BB0", Offset = "0x58B5BB0", VA = "0x58B6BB0")]
 		public static CLPropertyBinding<CustomLogicQuaternionBuiltin> __CreatePropertyBinding__Identity()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195E")]
-		[Address(RVA = "0x1EC6B20", Offset = "0x1EC5120", VA = "0x181EC6B20")]
+		[Token(Token = "0x6001BD5")]
+		[Address(RVA = "0x58B6C50", Offset = "0x58B5C50", VA = "0x58B6C50")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__Lerp()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600195F")]
-		[Address(RVA = "0x1EC66A0", Offset = "0x1EC4CA0", VA = "0x181EC66A0")]
+		[Token(Token = "0x6001BD6")]
+		[Address(RVA = "0x58B6D90", Offset = "0x58B5D90", VA = "0x58B6D90")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__LerpUnclamped()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001960")]
-		[Address(RVA = "0x1EC83E0", Offset = "0x1EC69E0", VA = "0x181EC83E0")]
+		[Token(Token = "0x6001BD7")]
+		[Address(RVA = "0x58B6ED0", Offset = "0x58B5ED0", VA = "0x58B6ED0")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__Slerp()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001961")]
-		[Address(RVA = "0x1EC82C0", Offset = "0x1EC68C0", VA = "0x181EC82C0")]
+		[Token(Token = "0x6001BD8")]
+		[Address(RVA = "0x58B7010", Offset = "0x58B6010", VA = "0x58B7010")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__SlerpUnclamped()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001962")]
-		[Address(RVA = "0x1EC5920", Offset = "0x1EC3F20", VA = "0x181EC5920")]
+		[Token(Token = "0x6001BD9")]
+		[Address(RVA = "0x58B7150", Offset = "0x58B6150", VA = "0x58B7150")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__FromEuler()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001963")]
-		[Address(RVA = "0x1EC6C40", Offset = "0x1EC5240", VA = "0x181EC6C40")]
+		[Token(Token = "0x6001BDA")]
+		[Address(RVA = "0x58B7290", Offset = "0x58B6290", VA = "0x58B7290")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__LookRotation()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001964")]
-		[Address(RVA = "0x1EC5A40", Offset = "0x1EC4040", VA = "0x181EC5A40")]
+		[Token(Token = "0x6001BDB")]
+		[Address(RVA = "0x58B73D0", Offset = "0x58B63D0", VA = "0x58B73D0")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__FromToRotation()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001965")]
-		[Address(RVA = "0x1EC6100", Offset = "0x1EC4700", VA = "0x181EC6100")]
+		[Token(Token = "0x6001BDC")]
+		[Address(RVA = "0x58B7510", Offset = "0x58B6510", VA = "0x58B7510")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__Inverse()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001966")]
-		[Address(RVA = "0x1EC7C00", Offset = "0x1EC6200", VA = "0x181EC7C00")]
+		[Token(Token = "0x6001BDD")]
+		[Address(RVA = "0x58B7650", Offset = "0x58B6650", VA = "0x58B7650")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__RotateTowards()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001967")]
-		[Address(RVA = "0x1EC4830", Offset = "0x1EC2E30", VA = "0x181EC4830")]
+		[Token(Token = "0x6001BDE")]
+		[Address(RVA = "0x58B7790", Offset = "0x58B6790", VA = "0x58B7790")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__AngleAxis()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001968")]
-		[Address(RVA = "0x1EC4A70", Offset = "0x1EC3070", VA = "0x181EC4A70")]
+		[Token(Token = "0x6001BDF")]
+		[Address(RVA = "0x58B78D0", Offset = "0x58B68D0", VA = "0x58B78D0")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding__Angle()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001969")]
-		[Address(RVA = "0x1EC9170", Offset = "0x1EC7770", VA = "0x181EC9170")]
+		[Token(Token = "0x6001BE0")]
+		[Address(RVA = "0x58B7A10", Offset = "0x58B6A10", VA = "0x58B7A10")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding____Copy__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600196A")]
-		[Address(RVA = "0x1ECA170", Offset = "0x1EC8770", VA = "0x181ECA170")]
+		[Token(Token = "0x6001BE1")]
+		[Address(RVA = "0x58B7B50", Offset = "0x58B6B50", VA = "0x58B7B50")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding____Mul__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600196B")]
-		[Address(RVA = "0x1EC9720", Offset = "0x1EC7D20", VA = "0x181EC9720")]
+		[Token(Token = "0x6001BE2")]
+		[Address(RVA = "0x58B7C90", Offset = "0x58B6C90", VA = "0x58B7C90")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding____Eq__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600196C")]
-		[Address(RVA = "0x1EC9E00", Offset = "0x1EC8400", VA = "0x181EC9E00")]
+		[Token(Token = "0x6001BE3")]
+		[Address(RVA = "0x58B7DD0", Offset = "0x58B6DD0", VA = "0x58B7DD0")]
 		public static CLMethodBinding<CustomLogicQuaternionBuiltin> __CreateMethodBinding____Hash__()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x400145A")]
+	[Token(Token = "0x40015FA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public Quaternion Value;
 
-	[Token(Token = "0x170002BC")]
+	[Token(Token = "0x170002FD")]
 	public float X
 	{
-		[Token(Token = "0x6001931")]
-		[Address(RVA = "0x584C90", Offset = "0x583290", VA = "0x180584C90")]
+		[Token(Token = "0x6001BA8")]
+		[Address(RVA = "0x58B4E90", Offset = "0x58B3E90", VA = "0x58B4E90")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001932")]
-		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
+		[Token(Token = "0x6001BA9")]
+		[Address(RVA = "0x58B4EA0", Offset = "0x58B3EA0", VA = "0x58B4EA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002BD")]
+	[Token(Token = "0x170002FE")]
 	public float Y
 	{
-		[Token(Token = "0x6001933")]
-		[Address(RVA = "0x16EF890", Offset = "0x16EDE90", VA = "0x1816EF890")]
+		[Token(Token = "0x6001BAA")]
+		[Address(RVA = "0x58B4EB0", Offset = "0x58B3EB0", VA = "0x58B4EB0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001934")]
-		[Address(RVA = "0x16EF940", Offset = "0x16EDF40", VA = "0x1816EF940")]
+		[Token(Token = "0x6001BAB")]
+		[Address(RVA = "0x58B4EC0", Offset = "0x58B3EC0", VA = "0x58B4EC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002BE")]
+	[Token(Token = "0x170002FF")]
 	public float Z
 	{
-		[Token(Token = "0x6001935")]
-		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
+		[Token(Token = "0x6001BAC")]
+		[Address(RVA = "0x58B4ED0", Offset = "0x58B3ED0", VA = "0x58B4ED0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001936")]
-		[Address(RVA = "0x1ED2F30", Offset = "0x1ED1530", VA = "0x181ED2F30")]
+		[Token(Token = "0x6001BAD")]
+		[Address(RVA = "0x58B4EE0", Offset = "0x58B3EE0", VA = "0x58B4EE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002BF")]
+	[Token(Token = "0x17000300")]
 	public float W
 	{
-		[Token(Token = "0x6001937")]
-		[Address(RVA = "0x1ED2DD0", Offset = "0x1ED13D0", VA = "0x181ED2DD0")]
+		[Token(Token = "0x6001BAE")]
+		[Address(RVA = "0x58B4EF0", Offset = "0x58B3EF0", VA = "0x58B4EF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001938")]
-		[Address(RVA = "0x1ED2F20", Offset = "0x1ED1520", VA = "0x181ED2F20")]
+		[Token(Token = "0x6001BAF")]
+		[Address(RVA = "0x58B4F00", Offset = "0x58B3F00", VA = "0x58B4F00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C0")]
+	[Token(Token = "0x17000301")]
 	public CustomLogicVector3Builtin Euler
 	{
-		[Token(Token = "0x6001939")]
-		[Address(RVA = "0x1ED2CF0", Offset = "0x1ED12F0", VA = "0x181ED2CF0")]
+		[Token(Token = "0x6001BB0")]
+		[Address(RVA = "0x58B4F10", Offset = "0x58B3F10", VA = "0x58B4F10")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600193A")]
-		[Address(RVA = "0x1ED2EC0", Offset = "0x1ED14C0", VA = "0x181ED2EC0")]
+		[Token(Token = "0x6001BB1")]
+		[Address(RVA = "0x58B4F40", Offset = "0x58B3F40", VA = "0x58B4F40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C1")]
+	[Token(Token = "0x17000302")]
 	public static CustomLogicQuaternionBuiltin Identity
 	{
-		[Token(Token = "0x600193B")]
-		[Address(RVA = "0x1EC3D70", Offset = "0x1EC2370", VA = "0x181EC3D70")]
+		[Token(Token = "0x6001BB2")]
+		[Address(RVA = "0x58B4F90", Offset = "0x58B3F90", VA = "0x58B4F90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C2")]
+	[Token(Token = "0x17000303")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001952")]
-		[Address(RVA = "0x1ED2CC0", Offset = "0x1ED12C0", VA = "0x181ED2CC0", Slot = "6")]
+		[Token(Token = "0x6001BC9")]
+		[Address(RVA = "0x58B5C20", Offset = "0x58B4C20", VA = "0x58B5C20", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C3")]
+	[Token(Token = "0x17000304")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001953")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6001BCA")]
+		[Address(RVA = "0x58B5C50", Offset = "0x58B4C50", VA = "0x58B5C50", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002C4")]
+	[Token(Token = "0x17000305")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001954")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6001BCB")]
+		[Address(RVA = "0x58B5C60", Offset = "0x58B4C60", VA = "0x58B5C60", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002C5")]
+	[Token(Token = "0x17000306")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001955")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001BCC")]
+		[Address(RVA = "0x58B5C70", Offset = "0x58B4C70", VA = "0x58B5C70", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600192E")]
-	[Address(RVA = "0x1ED2AE0", Offset = "0x1ED10E0", VA = "0x181ED2AE0")]
+	[Token(Token = "0x6001BA5")]
+	[Address(RVA = "0x58B4C90", Offset = "0x58B3C90", VA = "0x58B4C90")]
 	public CustomLogicQuaternionBuiltin()
 	{
 	}
 
-	[Token(Token = "0x600192F")]
-	[Address(RVA = "0x1ED2BF0", Offset = "0x1ED11F0", VA = "0x181ED2BF0")]
+	[Token(Token = "0x6001BA6")]
+	[Address(RVA = "0x58B4D20", Offset = "0x58B3D20", VA = "0x58B4D20")]
 	public CustomLogicQuaternionBuiltin(float x, float y, float z, float w)
 	{
 	}
 
-	[Token(Token = "0x6001930")]
-	[Address(RVA = "0x1ED2B60", Offset = "0x1ED1160", VA = "0x181ED2B60")]
+	[Token(Token = "0x6001BA7")]
+	[Address(RVA = "0x58B4DF0", Offset = "0x58B3DF0", VA = "0x58B4DF0")]
 	public CustomLogicQuaternionBuiltin(Quaternion value)
 	{
 	}
 
-	[Token(Token = "0x600193C")]
-	[Address(RVA = "0x1ED1FE0", Offset = "0x1ED05E0", VA = "0x181ED1FE0")]
+	[Token(Token = "0x6001BB3")]
+	[Address(RVA = "0x58B50A0", Offset = "0x58B40A0", VA = "0x58B50A0")]
 	public static CustomLogicQuaternionBuiltin Lerp(CustomLogicQuaternionBuiltin a, CustomLogicQuaternionBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600193D")]
-	[Address(RVA = "0x1ED1F80", Offset = "0x1ED0580", VA = "0x181ED1F80")]
+	[Token(Token = "0x6001BB4")]
+	[Address(RVA = "0x58B50E0", Offset = "0x58B40E0", VA = "0x58B50E0")]
 	public static CustomLogicQuaternionBuiltin LerpUnclamped(CustomLogicQuaternionBuiltin a, CustomLogicQuaternionBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600193E")]
-	[Address(RVA = "0x1ED2330", Offset = "0x1ED0930", VA = "0x181ED2330")]
+	[Token(Token = "0x6001BB5")]
+	[Address(RVA = "0x58B5120", Offset = "0x58B4120", VA = "0x58B5120")]
 	public static CustomLogicQuaternionBuiltin Slerp(CustomLogicQuaternionBuiltin a, CustomLogicQuaternionBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600193F")]
-	[Address(RVA = "0x1ED22D0", Offset = "0x1ED08D0", VA = "0x181ED22D0")]
+	[Token(Token = "0x6001BB6")]
+	[Address(RVA = "0x58B5160", Offset = "0x58B4160", VA = "0x58B5160")]
 	public static CustomLogicQuaternionBuiltin SlerpUnclamped(CustomLogicQuaternionBuiltin a, CustomLogicQuaternionBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001940")]
-	[Address(RVA = "0x1ED1E60", Offset = "0x1ED0460", VA = "0x181ED1E60")]
+	[Token(Token = "0x6001BB7")]
+	[Address(RVA = "0x58B51A0", Offset = "0x58B41A0", VA = "0x58B51A0")]
 	public static CustomLogicQuaternionBuiltin FromEuler(CustomLogicVector3Builtin euler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001941")]
-	[Address(RVA = "0x1ED2040", Offset = "0x1ED0640", VA = "0x181ED2040")]
+	[Token(Token = "0x6001BB8")]
+	[Address(RVA = "0x58B51F0", Offset = "0x58B41F0", VA = "0x58B51F0")]
 	public static CustomLogicQuaternionBuiltin LookRotation(CustomLogicVector3Builtin forward, [Optional] CustomLogicVector3Builtin upwards)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001942")]
-	[Address(RVA = "0x1ED1EC0", Offset = "0x1ED04C0", VA = "0x181ED1EC0")]
+	[Token(Token = "0x6001BB9")]
+	[Address(RVA = "0x58B5380", Offset = "0x58B4380", VA = "0x58B5380")]
 	public static CustomLogicQuaternionBuiltin FromToRotation(CustomLogicVector3Builtin a, CustomLogicVector3Builtin b)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001943")]
-	[Address(RVA = "0x1ED1F30", Offset = "0x1ED0530", VA = "0x181ED1F30")]
+	[Token(Token = "0x6001BBA")]
+	[Address(RVA = "0x58B53E0", Offset = "0x58B43E0", VA = "0x58B53E0")]
 	public static CustomLogicQuaternionBuiltin Inverse(CustomLogicQuaternionBuiltin q)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001944")]
-	[Address(RVA = "0x1ED21B0", Offset = "0x1ED07B0", VA = "0x181ED21B0")]
+	[Token(Token = "0x6001BBB")]
+	[Address(RVA = "0x58B5410", Offset = "0x58B4410", VA = "0x58B5410")]
 	public static CustomLogicQuaternionBuiltin RotateTowards(CustomLogicQuaternionBuiltin from, CustomLogicQuaternionBuiltin to, float maxDegreesDelta)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001945")]
-	[Address(RVA = "0x1ED1D80", Offset = "0x1ED0380", VA = "0x181ED1D80")]
+	[Token(Token = "0x6001BBC")]
+	[Address(RVA = "0x58B5510", Offset = "0x58B4510", VA = "0x58B5510")]
 	public static CustomLogicQuaternionBuiltin AngleAxis(float angle, CustomLogicVector3Builtin axis)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001946")]
-	[Address(RVA = "0x1ED1DD0", Offset = "0x1ED03D0", VA = "0x181ED1DD0")]
+	[Token(Token = "0x6001BBD")]
+	[Address(RVA = "0x58B5550", Offset = "0x58B4550", VA = "0x58B5550")]
 	public static float Angle(CustomLogicQuaternionBuiltin a, CustomLogicQuaternionBuiltin b)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001947")]
-	[Address(RVA = "0x1ED2390", Offset = "0x1ED0990", VA = "0x181ED2390", Slot = "3")]
+	[Token(Token = "0x6001BBE")]
+	[Address(RVA = "0x58B55D0", Offset = "0x58B45D0", VA = "0x58B55D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001948")]
-	[Address(RVA = "0x1ED2400", Offset = "0x1ED0A00", VA = "0x181ED2400", Slot = "18")]
+	[Token(Token = "0x6001BBF")]
+	[Address(RVA = "0x58B55E0", Offset = "0x58B45E0", VA = "0x58B55E0", Slot = "18")]
 	public object __Copy__()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001949")]
-	[Address(RVA = "0x1ED23B0", Offset = "0x1ED09B0", VA = "0x181ED23B0", Slot = "11")]
+	[Token(Token = "0x6001BC0")]
+	[Address(RVA = "0x58B56C0", Offset = "0x58B46C0", VA = "0x58B56C0", Slot = "11")]
 	public object __Add__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600194A")]
-	[Address(RVA = "0x1ED2A90", Offset = "0x1ED1090", VA = "0x181ED2A90", Slot = "12")]
+	[Token(Token = "0x6001BC1")]
+	[Address(RVA = "0x58B5700", Offset = "0x58B4700", VA = "0x58B5700", Slot = "12")]
 	public object __Sub__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600194B")]
-	[Address(RVA = "0x1ED26F0", Offset = "0x1ED0CF0", VA = "0x181ED26F0", Slot = "13")]
+	[Token(Token = "0x6001BC2")]
+	[Address(RVA = "0x58B5740", Offset = "0x58B4740", VA = "0x58B5740", Slot = "13")]
 	public object __Mul__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600194C")]
-	[Address(RVA = "0x1ED2510", Offset = "0x1ED0B10", VA = "0x181ED2510", Slot = "14")]
+	[Token(Token = "0x6001BC3")]
+	[Address(RVA = "0x58B5A50", Offset = "0x58B4A50", VA = "0x58B5A50", Slot = "14")]
 	public object __Div__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600194D")]
-	[Address(RVA = "0x1ED2560", Offset = "0x1ED0B60", VA = "0x181ED2560", Slot = "16")]
+	[Token(Token = "0x6001BC4")]
+	[Address(RVA = "0x58B5A90", Offset = "0x58B4A90", VA = "0x58B5A90", Slot = "16")]
 	public bool __Eq__(object self, object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600194E")]
-	[Address(RVA = "0x1ED2650", Offset = "0x1ED0C50", VA = "0x181ED2650", Slot = "17")]
+	[Token(Token = "0x6001BC5")]
+	[Address(RVA = "0x58B5B60", Offset = "0x58B4B60", VA = "0x58B5B60", Slot = "17")]
 	public int __Hash__()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600194F")]
-	[Address(RVA = "0x1ED26B0", Offset = "0x1ED0CB0", VA = "0x181ED26B0", Slot = "15")]
+	[Token(Token = "0x6001BC6")]
+	[Address(RVA = "0x58B5BC0", Offset = "0x58B4BC0", VA = "0x58B5BC0", Slot = "15")]
 	public object __Mod__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001950")]
-	[Address(RVA = "0x1ED2DE0", Offset = "0x1ED13E0", VA = "0x181ED2DE0")]
+	[Token(Token = "0x6001BC7")]
+	[Address(RVA = "0x58B5C00", Offset = "0x58B4C00", VA = "0x58B5C00")]
 	public static implicit operator Quaternion(CustomLogicQuaternionBuiltin q)
 	{
 		return default(Quaternion);
 	}
 
-	[Token(Token = "0x6001951")]
-	[Address(RVA = "0x1ED2E00", Offset = "0x1ED1400", VA = "0x181ED2E00")]
+	[Token(Token = "0x6001BC8")]
+	[Address(RVA = "0x58B4FD0", Offset = "0x58B3FD0", VA = "0x58B4FD0")]
 	public static implicit operator CustomLogicQuaternionBuiltin(Quaternion q)
 	{
 		return null;

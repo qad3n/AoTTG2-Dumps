@@ -49,65 +49,65 @@ public class AsyncUnityEventHandler : IUniTaskSource, IValueTaskSource, IDisposa
 	private UniTaskCompletionSourceCore<AsyncUnit> core;
 
 	[Token(Token = "0x600090A")]
-	[Address(RVA = "0x293E800", Offset = "0x293CE00", VA = "0x18293E800")]
+	[Address(RVA = "0x62E8B80", Offset = "0x62E7B80", VA = "0x62E8B80")]
 	public AsyncUnityEventHandler(UnityEvent unityEvent, CancellationToken cancellationToken, bool callOnce)
 	{
 	}
 
 	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x293E6C0", Offset = "0x293CCC0", VA = "0x18293E6C0")]
+	[Address(RVA = "0x62E8DC0", Offset = "0x62E7DC0", VA = "0x62E8DC0")]
 	public UniTask OnInvokeAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x600090C")]
-	[Address(RVA = "0x293E650", Offset = "0x293CC50", VA = "0x18293E650")]
+	[Address(RVA = "0x62F0750", Offset = "0x62EF750", VA = "0x62F0750")]
 	private void Invoke()
 	{
 	}
 
 	[Token(Token = "0x600090D")]
-	[Address(RVA = "0x293E310", Offset = "0x293C910", VA = "0x18293E310")]
+	[Address(RVA = "0x62F07D0", Offset = "0x62EF7D0", VA = "0x62F07D0")]
 	private static void CancellationCallback(object state)
 	{
 	}
 
 	[Token(Token = "0x600090E")]
-	[Address(RVA = "0x293E5E0", Offset = "0x293CBE0", VA = "0x18293E5E0", Slot = "14")]
+	[Address(RVA = "0x62F08A0", Offset = "0x62EF8A0", VA = "0x62F08A0", Slot = "14")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600090F")]
-	[Address(RVA = "0x293E390", Offset = "0x293C990", VA = "0x18293E390", Slot = "15")]
+	[Address(RVA = "0x62F0910", Offset = "0x62EF910", VA = "0x62F0910", Slot = "15")]
 	private UniTask Cysharp_002EThreading_002ETasks_002EIAsyncClickEventHandler_002EOnClickAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000910")]
-	[Address(RVA = "0x293E450", Offset = "0x293CA50", VA = "0x18293E450", Slot = "6")]
+	[Address(RVA = "0x62F0920", Offset = "0x62EF920", VA = "0x62F0920", Slot = "6")]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x6000911")]
-	[Address(RVA = "0x293E4F0", Offset = "0x293CAF0", VA = "0x18293E4F0", Slot = "4")]
+	[Address(RVA = "0x62F0A40", Offset = "0x62EFA40", VA = "0x62F0A40", Slot = "4")]
 	private UniTaskStatus Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetStatus(short token)
 	{
 		return default(UniTaskStatus);
 	}
 
 	[Token(Token = "0x6000912")]
-	[Address(RVA = "0x293E5A0", Offset = "0x293CBA0", VA = "0x18293E5A0", Slot = "7")]
+	[Address(RVA = "0x62F0A90", Offset = "0x62EFA90", VA = "0x62F0A90", Slot = "7")]
 	private UniTaskStatus Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EUnsafeGetStatus()
 	{
 		return default(UniTaskStatus);
 	}
 
 	[Token(Token = "0x6000913")]
-	[Address(RVA = "0x293E540", Offset = "0x293CB40", VA = "0x18293E540", Slot = "5")]
+	[Address(RVA = "0x62F0B40", Offset = "0x62EFB40", VA = "0x62F0B40", Slot = "5")]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EOnCompleted(Action<object> continuation, object state, short token)
 	{
 	}

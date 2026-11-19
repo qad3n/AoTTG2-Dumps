@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x200052C")]
+[Token(Token = "0x2000505")]
 public sealed class TargetInvocationException : ApplicationException
 {
-	[Token(Token = "0x60025D6")]
-	[Address(RVA = "0x1A57F30", Offset = "0x1A56530", VA = "0x181A57F30")]
+	[Token(Token = "0x60025A4")]
+	[Address(RVA = "0x53DEA70", Offset = "0x53DDA70", VA = "0x53DEA70")]
 	public TargetInvocationException(Exception inner)
 	{
 	}
 
-	[Token(Token = "0x60025D7")]
-	[Address(RVA = "0x1A57F90", Offset = "0x1A56590", VA = "0x181A57F90")]
+	[Token(Token = "0x60025A5")]
+	[Address(RVA = "0x53DEAC0", Offset = "0x53DDAC0", VA = "0x53DEAC0")]
 	public TargetInvocationException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x60025D8")]
-	[Address(RVA = "0x1A464A0", Offset = "0x1A44AA0", VA = "0x181A464A0")]
+	[Token(Token = "0x60025A6")]
+	[Address(RVA = "0x53DEAE0", Offset = "0x53DDAE0", VA = "0x53DEAE0")]
 	internal TargetInvocationException(SerializationInfo info, StreamingContext context)
 	{
 	}

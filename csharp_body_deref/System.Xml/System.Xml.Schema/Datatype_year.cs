@@ -16,7 +16,7 @@ internal class Datatype_year : Datatype_dateTimeBase
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001108")]
-		[Address(RVA = "0x21C6610", Offset = "0x21C4C10", VA = "0x1821C6610", Slot = "8")]
+		[Address(RVA = "0x615E7B0", Offset = "0x615D7B0", VA = "0x615E7B0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -24,7 +24,7 @@ internal class Datatype_year : Datatype_dateTimeBase
 	}
 
 	[Token(Token = "0x6001109")]
-	[Address(RVA = "0x27A3780", Offset = "0x27A1D80", VA = "0x1827A3780")]
+	[Address(RVA = "0x6156AA0", Offset = "0x6155AA0", VA = "0x6156AA0")]
 	internal Datatype_year()
 	{
 	}

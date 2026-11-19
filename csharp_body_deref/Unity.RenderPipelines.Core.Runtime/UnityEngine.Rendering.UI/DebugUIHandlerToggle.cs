@@ -30,44 +30,44 @@ public class DebugUIHandlerToggle : DebugUIHandlerWidget
 	protected internal DebugUI.BoolField m_Field;
 
 	[Token(Token = "0x60014AB")]
-	[Address(RVA = "0x2BB1740", Offset = "0x2BAFD40", VA = "0x182BB1740", Slot = "5")]
+	[Address(RVA = "0x65AC380", Offset = "0x65AB380", VA = "0x65AC380", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60014AC")]
-	[Address(RVA = "0x2BB1710", Offset = "0x2BAFD10", VA = "0x182BB1710")]
+	[Address(RVA = "0x65AC4A0", Offset = "0x65AB4A0", VA = "0x65AC4A0")]
 	private void OnToggleValueChanged(bool value)
 	{
 	}
 
 	[Token(Token = "0x60014AD")]
-	[Address(RVA = "0x2BADE20", Offset = "0x2BAC420", VA = "0x182BADE20", Slot = "6")]
+	[Address(RVA = "0x65AC4D0", Offset = "0x65AB4D0", VA = "0x65AC4D0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014AE")]
-	[Address(RVA = "0x2BADDB0", Offset = "0x2BAC3B0", VA = "0x182BADDB0", Slot = "7")]
+	[Address(RVA = "0x65AC530", Offset = "0x65AB530", VA = "0x65AC530", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x60014AF")]
-	[Address(RVA = "0x2BB1690", Offset = "0x2BAFC90", VA = "0x182BB1690", Slot = "8")]
+	[Address(RVA = "0x65AC590", Offset = "0x65AB590", VA = "0x65AC590", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x60014B0")]
-	[Address(RVA = "0x2BB1870", Offset = "0x2BAFE70", VA = "0x182BB1870", Slot = "13")]
+	[Address(RVA = "0x65AC610", Offset = "0x65AB610", VA = "0x65AC610", Slot = "13")]
 	protected internal virtual void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x60014B1")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AC6B0", Offset = "0x65AB6B0", VA = "0x65AC6B0")]
 	public DebugUIHandlerToggle()
 	{
 	}

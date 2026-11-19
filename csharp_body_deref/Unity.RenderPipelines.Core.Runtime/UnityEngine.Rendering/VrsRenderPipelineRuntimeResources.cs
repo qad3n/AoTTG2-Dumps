@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VrsRenderPipelineRuntimeResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,7 +47,7 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	public int version
 	{
 		[Token(Token = "0x6000FB4")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x655B2C0", Offset = "0x655A2C0", VA = "0x655B2C0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -58,7 +58,7 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000FB5")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x655B2D0", Offset = "0x655A2D0", VA = "0x655B2D0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -69,13 +69,13 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	public ComputeShader textureComputeShader
 	{
 		[Token(Token = "0x6000FB6")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x655B2E0", Offset = "0x655A2E0", VA = "0x655B2E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FB7")]
-		[Address(RVA = "0x2B82820", Offset = "0x2B80E20", VA = "0x182B82820")]
+		[Address(RVA = "0x655B2F0", Offset = "0x655A2F0", VA = "0x655B2F0")]
 		set
 		{
 		}
@@ -85,13 +85,13 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	public Shader visualizationShader
 	{
 		[Token(Token = "0x6000FB8")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x655B350", Offset = "0x655A350", VA = "0x655B350")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FB9")]
-		[Address(RVA = "0x2B82900", Offset = "0x2B80F00", VA = "0x182B82900")]
+		[Address(RVA = "0x655B360", Offset = "0x655A360", VA = "0x655B360")]
 		set
 		{
 		}
@@ -101,13 +101,13 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	public VrsLut visualizationLookupTable
 	{
 		[Token(Token = "0x6000FBA")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x655B3C0", Offset = "0x655A3C0", VA = "0x655B3C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FBB")]
-		[Address(RVA = "0x2B82890", Offset = "0x2B80E90", VA = "0x182B82890")]
+		[Address(RVA = "0x655B3D0", Offset = "0x655A3D0", VA = "0x655B3D0")]
 		set
 		{
 		}
@@ -117,20 +117,20 @@ public sealed class VrsRenderPipelineRuntimeResources : IRenderPipelineResources
 	public VrsLut conversionLookupTable
 	{
 		[Token(Token = "0x6000FBC")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x655B430", Offset = "0x655A430", VA = "0x655B430")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FBD")]
-		[Address(RVA = "0x2B827B0", Offset = "0x2B80DB0", VA = "0x182B827B0")]
+		[Address(RVA = "0x655B440", Offset = "0x655A440", VA = "0x655B440")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FBE")]
-	[Address(RVA = "0x2B82760", Offset = "0x2B80D60", VA = "0x182B82760")]
+	[Address(RVA = "0x655B4A0", Offset = "0x655A4A0", VA = "0x655B4A0")]
 	public VrsRenderPipelineRuntimeResources()
 	{
 	}

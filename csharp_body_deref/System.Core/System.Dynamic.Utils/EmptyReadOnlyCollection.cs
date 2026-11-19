@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic.Utils;
 
-[Token(Token = "0x2000281")]
+[Token(Token = "0x2000282")]
 internal static class EmptyReadOnlyCollection<T>
 {
-	[Token(Token = "0x400049E")]
+	[Token(Token = "0x40004A7")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ReadOnlyCollection<T> Instance;
 }

@@ -20,14 +20,14 @@ public class WebRpcResponse
 	public string Name
 	{
 		[Token(Token = "0x600021F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x56C4EC0", Offset = "0x56C3EC0", VA = "0x56C4EC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000220")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x56C4ED0", Offset = "0x56C3ED0", VA = "0x56C4ED0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -38,14 +38,14 @@ public class WebRpcResponse
 	public int ResultCode
 	{
 		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x56C4EE0", Offset = "0x56C3EE0", VA = "0x56C4EE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000222")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x56C4EF0", Offset = "0x56C3EF0", VA = "0x56C4EF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -57,7 +57,7 @@ public class WebRpcResponse
 	public int ReturnCode
 	{
 		[Token(Token = "0x6000223")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x56C4F00", Offset = "0x56C3F00", VA = "0x56C4F00")]
 		get
 		{
 			return default(int);
@@ -68,14 +68,14 @@ public class WebRpcResponse
 	public string Message
 	{
 		[Token(Token = "0x6000224")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x56C4F10", Offset = "0x56C3F10", VA = "0x56C4F10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000225")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x56C4F20", Offset = "0x56C3F20", VA = "0x56C4F20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -87,7 +87,7 @@ public class WebRpcResponse
 	public string DebugMessage
 	{
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x56C4F30", Offset = "0x56C3F30", VA = "0x56C4F30")]
 		get
 		{
 			return null;
@@ -98,14 +98,14 @@ public class WebRpcResponse
 	public Dictionary<string, object> Parameters
 	{
 		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x56C4F40", Offset = "0x56C3F40", VA = "0x56C4F40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000228")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x56C4F50", Offset = "0x56C3F50", VA = "0x56C4F50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -113,13 +113,13 @@ public class WebRpcResponse
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x1D2EC80", Offset = "0x1D2D280", VA = "0x181D2EC80")]
+	[Address(RVA = "0x56C4F60", Offset = "0x56C3F60", VA = "0x56C4F60")]
 	public WebRpcResponse(OperationResponse response)
 	{
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x1D2EA80", Offset = "0x1D2D080", VA = "0x181D2EA80")]
+	[Address(RVA = "0x56C5120", Offset = "0x56C4120", VA = "0x56C5120")]
 	public string ToStringFull()
 	{
 		return null;

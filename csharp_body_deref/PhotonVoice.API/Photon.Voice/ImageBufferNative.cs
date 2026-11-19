@@ -38,13 +38,13 @@ public class ImageBufferNative
 		public IntPtr this[int key]
 		{
 			[Token(Token = "0x60002E6")]
-			[Address(RVA = "0x1D70530", Offset = "0x1D6EB30", VA = "0x181D70530")]
+			[Address(RVA = "0x5719EA0", Offset = "0x5718EA0", VA = "0x5719EA0")]
 			get
 			{
 				return default(IntPtr);
 			}
 			[Token(Token = "0x60002E7")]
-			[Address(RVA = "0x1D70560", Offset = "0x1D6EB60", VA = "0x181D70560")]
+			[Address(RVA = "0x5719EE0", Offset = "0x5718EE0", VA = "0x5719EE0")]
 			set
 			{
 			}
@@ -54,14 +54,14 @@ public class ImageBufferNative
 		public int Length
 		{
 			[Token(Token = "0x60002E8")]
-			[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+			[Address(RVA = "0x5719F10", Offset = "0x5718F10", VA = "0x5719F10")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60002E9")]
-			[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+			[Address(RVA = "0x5719F20", Offset = "0x5718F20", VA = "0x5719F20")]
 			[CompilerGenerated]
 			private set
 			{
@@ -69,7 +69,7 @@ public class ImageBufferNative
 		}
 
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x1D70510", Offset = "0x1D6EB10", VA = "0x181D70510")]
+		[Address(RVA = "0x5719DA0", Offset = "0x5718DA0", VA = "0x5719DA0")]
 		public PlaneSet(int length, [Optional] IntPtr p0, [Optional] IntPtr p1, [Optional] IntPtr p2, [Optional] IntPtr p3)
 		{
 		}
@@ -84,25 +84,25 @@ public class ImageBufferNative
 	public PlaneSet Planes;
 
 	[Token(Token = "0x60002E1")]
-	[Address(RVA = "0x1D6AE70", Offset = "0x1D69470", VA = "0x181D6AE70")]
+	[Address(RVA = "0x5719D50", Offset = "0x5718D50", VA = "0x5719D50")]
 	public ImageBufferNative(ImageBufferInfo info)
 	{
 	}
 
 	[Token(Token = "0x60002E2")]
-	[Address(RVA = "0x1D6AEE0", Offset = "0x1D694E0", VA = "0x181D6AEE0")]
+	[Address(RVA = "0x5719DC0", Offset = "0x5718DC0", VA = "0x5719DC0")]
 	public ImageBufferNative(IntPtr buf, int width, int height, int stride, ImageFormat imageFormat)
 	{
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x5719E80", Offset = "0x5718E80", VA = "0x5719E80", Slot = "4")]
 	public virtual void Release()
 	{
 	}
 
 	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x5719E90", Offset = "0x5718E90", VA = "0x5719E90", Slot = "5")]
 	public virtual void Dispose()
 	{
 	}

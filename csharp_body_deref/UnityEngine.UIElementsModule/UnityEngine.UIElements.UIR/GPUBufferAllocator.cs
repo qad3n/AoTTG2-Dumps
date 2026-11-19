@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x2000587")]
+[Token(Token = "0x20005E1")]
 internal class GPUBufferAllocator
 {
-	[Token(Token = "0x4001326")]
+	[Token(Token = "0x40015CF")]
 	[FieldOffset(Offset = "0x10")]
 	private BestFitAllocator m_Low;
 
-	[Token(Token = "0x4001327")]
+	[Token(Token = "0x40015D0")]
 	[FieldOffset(Offset = "0x18")]
 	private BestFitAllocator m_High;
 
-	[Token(Token = "0x17000A56")]
+	[Token(Token = "0x17000AAC")]
 	public bool isEmpty
 	{
-		[Token(Token = "0x600296C")]
-		[Address(RVA = "0x3182C50", Offset = "0x3181250", VA = "0x183182C50")]
+		[Token(Token = "0x6002BA6")]
+		[Address(RVA = "0x6BBABB0", Offset = "0x6BB9BB0", VA = "0x6BBABB0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002969")]
-	[Address(RVA = "0x3182BA0", Offset = "0x31811A0", VA = "0x183182BA0")]
+	[Token(Token = "0x6002BA3")]
+	[Address(RVA = "0x6BBAAE0", Offset = "0x6BB9AE0", VA = "0x6BBAAE0")]
 	public GPUBufferAllocator(uint maxSize)
 	{
 	}
 
-	[Token(Token = "0x600296A")]
-	[Address(RVA = "0x3182990", Offset = "0x3180F90", VA = "0x183182990")]
+	[Token(Token = "0x6002BA4")]
+	[Address(RVA = "0x6BB4570", Offset = "0x6BB3570", VA = "0x6BB4570")]
 	public Alloc Allocate(uint size, bool shortLived)
 	{
 		return default(Alloc);
 	}
 
-	[Token(Token = "0x600296B")]
-	[Address(RVA = "0x3182B10", Offset = "0x3181110", VA = "0x183182B10")]
+	[Token(Token = "0x6002BA5")]
+	[Address(RVA = "0x6BB46E0", Offset = "0x6BB36E0", VA = "0x6BB46E0")]
 	public void Free(Alloc alloc)
 	{
 	}
 
-	[Token(Token = "0x600296D")]
-	[Address(RVA = "0x3182B70", Offset = "0x3181170", VA = "0x183182B70")]
+	[Token(Token = "0x6002BA7")]
+	[Address(RVA = "0x6BBAB80", Offset = "0x6BB9B80", VA = "0x6BBAB80")]
 	private bool HighLowCollide()
 	{
 		return default(bool);

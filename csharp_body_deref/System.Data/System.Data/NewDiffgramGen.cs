@@ -51,74 +51,74 @@ internal sealed class NewDiffgramGen
 	private bool _writeHierarchy;
 
 	[Token(Token = "0x60008BA")]
-	[Address(RVA = "0x2549F20", Offset = "0x2548520", VA = "0x182549F20")]
+	[Address(RVA = "0x5EFE410", Offset = "0x5EFD410", VA = "0x5EFE410")]
 	internal NewDiffgramGen(DataSet ds)
 	{
 	}
 
 	[Token(Token = "0x60008BB")]
-	[Address(RVA = "0x2549E10", Offset = "0x2548410", VA = "0x182549E10")]
+	[Address(RVA = "0x5EFE7F0", Offset = "0x5EFD7F0", VA = "0x5EFE7F0")]
 	internal NewDiffgramGen(DataTable dt, bool writeHierarchy)
 	{
 	}
 
 	[Token(Token = "0x60008BC")]
-	[Address(RVA = "0x2547B60", Offset = "0x2546160", VA = "0x182547B60")]
+	[Address(RVA = "0x5EFE900", Offset = "0x5EFD900", VA = "0x5EFE900")]
 	private void CreateTableHierarchy(DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x60008BD")]
-	[Address(RVA = "0x2547E20", Offset = "0x2546420", VA = "0x182547E20")]
+	[Address(RVA = "0x5EFE560", Offset = "0x5EFD560", VA = "0x5EFE560")]
 	private void DoAssignments(ArrayList tables)
 	{
 	}
 
 	[Token(Token = "0x60008BE")]
-	[Address(RVA = "0x2548080", Offset = "0x2546680", VA = "0x182548080")]
+	[Address(RVA = "0x5EFECC0", Offset = "0x5EFDCC0", VA = "0x5EFECC0")]
 	private bool EmptyData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008BF")]
-	[Address(RVA = "0x2549E00", Offset = "0x2548400", VA = "0x182549E00")]
+	[Address(RVA = "0x5EFEDB0", Offset = "0x5EFDDB0", VA = "0x5EFEDB0")]
 	internal void Save(XmlWriter xmlw)
 	{
 	}
 
 	[Token(Token = "0x60008C0")]
-	[Address(RVA = "0x25497B0", Offset = "0x2547DB0", VA = "0x1825497B0")]
+	[Address(RVA = "0x5EFEDC0", Offset = "0x5EFDDC0", VA = "0x5EFEDC0")]
 	internal void Save(XmlWriter xmlw, DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60008C1")]
-	[Address(RVA = "0x25496E0", Offset = "0x2547CE0", VA = "0x1825496E0")]
+	[Address(RVA = "0x5F00020", Offset = "0x5EFF020", VA = "0x5F00020")]
 	private void GenerateTable(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60008C2")]
-	[Address(RVA = "0x2549120", Offset = "0x2547720", VA = "0x182549120")]
+	[Address(RVA = "0x5F000A0", Offset = "0x5EFF0A0", VA = "0x5F000A0")]
 	private void GenerateTableErrors(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60008C3")]
-	[Address(RVA = "0x2548AD0", Offset = "0x25470D0", VA = "0x182548AD0")]
+	[Address(RVA = "0x5F006C0", Offset = "0x5EFF6C0", VA = "0x5F006C0")]
 	private void GenerateRow(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x60008C4")]
-	[Address(RVA = "0x2548190", Offset = "0x2546790", VA = "0x182548190")]
+	[Address(RVA = "0x5F00DC0", Offset = "0x5EFFDC0", VA = "0x5F00DC0")]
 	private void GenerateColumn(DataRow row, DataColumn col, DataRowVersion version)
 	{
 	}
 
 	[Token(Token = "0x60008C5")]
-	[Address(RVA = "0x2549750", Offset = "0x2547D50", VA = "0x182549750")]
+	[Address(RVA = "0x5EFE3B0", Offset = "0x5EFD3B0", VA = "0x5EFE3B0")]
 	internal static string QualifiedName(string prefix, string name)
 	{
 		return null;

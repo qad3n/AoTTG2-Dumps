@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005A4")]
+[Token(Token = "0x200058F")]
 internal class BasicNodePool<T> : LinkedPool<BasicNode<T>>
 {
-	[Token(Token = "0x60029FC")]
+	[Token(Token = "0x600299B")]
 	private static void Reset(BasicNode<T> node)
 	{
 	}
 
-	[Token(Token = "0x60029FD")]
+	[Token(Token = "0x600299C")]
 	private static BasicNode<T> Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60029FE")]
+	[Token(Token = "0x600299D")]
 	public BasicNodePool()
 	{
 	}

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004C0")]
+[Token(Token = "0x2000499")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false, AllowMultiple = false)]
 internal class ReflectionBlockedAttribute : Attribute
 {
-	[Token(Token = "0x600233E")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600230B")]
+	[Address(RVA = "0x53C9C20", Offset = "0x53C8C20", VA = "0x53C9C20")]
 	public ReflectionBlockedAttribute()
 	{
 	}

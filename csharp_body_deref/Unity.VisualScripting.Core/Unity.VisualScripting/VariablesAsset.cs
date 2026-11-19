@@ -22,14 +22,14 @@ public sealed class VariablesAsset : LudiqScriptableObject
 	public VariableDeclarations declarations
 	{
 		[Token(Token = "0x6001167")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x68526C0", Offset = "0x68516C0", VA = "0x68526C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001168")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x68526D0", Offset = "0x68516D0", VA = "0x68526D0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -37,14 +37,14 @@ public sealed class VariablesAsset : LudiqScriptableObject
 	}
 
 	[Token(Token = "0x6001169")]
-	[Address(RVA = "0x2E5B5A0", Offset = "0x2E59BA0", VA = "0x182E5B5A0", Slot = "11")]
+	[Address(RVA = "0x68526E0", Offset = "0x68516E0", VA = "0x68526E0", Slot = "11")]
 	[ContextMenu("Show Data...")]
 	protected override void ShowData()
 	{
 	}
 
 	[Token(Token = "0x600116A")]
-	[Address(RVA = "0x2E5B5B0", Offset = "0x2E59BB0", VA = "0x182E5B5B0")]
+	[Address(RVA = "0x68526F0", Offset = "0x68516F0", VA = "0x68526F0")]
 	public VariablesAsset()
 	{
 	}

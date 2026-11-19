@@ -26,7 +26,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override string Name
 			{
 				[Token(Token = "0x600007C")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6A7D8F0", Offset = "0x6A7C8F0", VA = "0x6A7D8F0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -38,7 +38,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x600007D")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6A7D900", Offset = "0x6A7C900", VA = "0x6A7D900", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -47,20 +47,20 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			}
 
 			[Token(Token = "0x600007E")]
-			[Address(RVA = "0x3096BA0", Offset = "0x30951A0", VA = "0x183096BA0", Slot = "14")]
+			[Address(RVA = "0x6A7D910", Offset = "0x6A7C910", VA = "0x6A7D910", Slot = "14")]
 			public override BackgroundSizeType GetValue(ref BackgroundSize container)
 			{
 				return default(BackgroundSizeType);
 			}
 
 			[Token(Token = "0x600007F")]
-			[Address(RVA = "0x3096BB0", Offset = "0x30951B0", VA = "0x183096BB0", Slot = "15")]
+			[Address(RVA = "0x6A7D920", Offset = "0x6A7C920", VA = "0x6A7D920", Slot = "15")]
 			public override void SetValue(ref BackgroundSize container, BackgroundSizeType value)
 			{
 			}
 
 			[Token(Token = "0x6000080")]
-			[Address(RVA = "0x3096C10", Offset = "0x3095210", VA = "0x183096C10")]
+			[Address(RVA = "0x6A7D7D0", Offset = "0x6A7C7D0", VA = "0x6A7D7D0")]
 			public SizeTypeProperty()
 			{
 			}
@@ -73,7 +73,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override string Name
 			{
 				[Token(Token = "0x6000081")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6A7D970", Offset = "0x6A7C970", VA = "0x6A7D970", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -85,7 +85,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6000082")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6A7D980", Offset = "0x6A7C980", VA = "0x6A7D980", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -94,20 +94,20 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			}
 
 			[Token(Token = "0x6000083")]
-			[Address(RVA = "0x309D650", Offset = "0x309BC50", VA = "0x18309D650", Slot = "14")]
+			[Address(RVA = "0x6A7D990", Offset = "0x6A7C990", VA = "0x6A7D990", Slot = "14")]
 			public override Length GetValue(ref BackgroundSize container)
 			{
 				return default(Length);
 			}
 
 			[Token(Token = "0x6000084")]
-			[Address(RVA = "0x309D660", Offset = "0x309BC60", VA = "0x18309D660", Slot = "15")]
+			[Address(RVA = "0x6A7D9A0", Offset = "0x6A7C9A0", VA = "0x6A7D9A0", Slot = "15")]
 			public override void SetValue(ref BackgroundSize container, Length value)
 			{
 			}
 
 			[Token(Token = "0x6000085")]
-			[Address(RVA = "0x309D670", Offset = "0x309BC70", VA = "0x18309D670")]
+			[Address(RVA = "0x6A7D830", Offset = "0x6A7C830", VA = "0x6A7D830")]
 			public XProperty()
 			{
 			}
@@ -120,7 +120,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override string Name
 			{
 				[Token(Token = "0x6000086")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6A7D9B0", Offset = "0x6A7C9B0", VA = "0x6A7D9B0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -132,7 +132,7 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6000087")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6A7D9C0", Offset = "0x6A7C9C0", VA = "0x6A7D9C0", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -141,27 +141,27 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 			}
 
 			[Token(Token = "0x6000088")]
-			[Address(RVA = "0x309D750", Offset = "0x309BD50", VA = "0x18309D750", Slot = "14")]
+			[Address(RVA = "0x6A7D9D0", Offset = "0x6A7C9D0", VA = "0x6A7D9D0", Slot = "14")]
 			public override Length GetValue(ref BackgroundSize container)
 			{
 				return default(Length);
 			}
 
 			[Token(Token = "0x6000089")]
-			[Address(RVA = "0x309D760", Offset = "0x309BD60", VA = "0x18309D760", Slot = "15")]
+			[Address(RVA = "0x6A7D9E0", Offset = "0x6A7C9E0", VA = "0x6A7D9E0", Slot = "15")]
 			public override void SetValue(ref BackgroundSize container, Length value)
 			{
 			}
 
 			[Token(Token = "0x600008A")]
-			[Address(RVA = "0x309D770", Offset = "0x309BD70", VA = "0x18309D770")]
+			[Address(RVA = "0x6A7D890", Offset = "0x6A7C890", VA = "0x6A7D890")]
 			public YProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x30962D0", Offset = "0x30948D0", VA = "0x1830962D0")]
+		[Address(RVA = "0x6A7D5B0", Offset = "0x6A7C5B0", VA = "0x6A7D5B0")]
 		public PropertyBag()
 		{
 		}
@@ -186,13 +186,13 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 	public BackgroundSizeType sizeType
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
+		[Address(RVA = "0x6A7D270", Offset = "0x6A7C270", VA = "0x6A7D270")]
 		get
 		{
 			return default(BackgroundSizeType);
 		}
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x307E4A0", Offset = "0x307CAA0", VA = "0x18307E4A0")]
+		[Address(RVA = "0x6A7D280", Offset = "0x6A7C280", VA = "0x6A7D280")]
 		set
 		{
 		}
@@ -202,13 +202,13 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 	public Length x
 	{
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x1B943A0", Offset = "0x1B929A0", VA = "0x181B943A0")]
+		[Address(RVA = "0x6A7D2D0", Offset = "0x6A7C2D0", VA = "0x6A7D2D0")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x307E5F0", Offset = "0x307CBF0", VA = "0x18307E5F0")]
+		[Address(RVA = "0x6A7D2E0", Offset = "0x6A7C2E0", VA = "0x6A7D2E0")]
 		set
 		{
 		}
@@ -218,74 +218,74 @@ public struct BackgroundSize : IEquatable<BackgroundSize>
 	public Length y
 	{
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x307E500", Offset = "0x307CB00", VA = "0x18307E500")]
+		[Address(RVA = "0x6A7D2F0", Offset = "0x6A7C2F0", VA = "0x6A7D2F0")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x307E600", Offset = "0x307CC00", VA = "0x18307E600")]
+		[Address(RVA = "0x6A7D300", Offset = "0x6A7C300", VA = "0x6A7D300")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x307E490", Offset = "0x307CA90", VA = "0x18307E490")]
+	[Address(RVA = "0x6A7C930", Offset = "0x6A7B930", VA = "0x6A7C930")]
 	public BackgroundSize(Length sizeX, Length sizeY)
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x307E4A0", Offset = "0x307CAA0", VA = "0x18307E4A0")]
+	[Address(RVA = "0x6A7C8E0", Offset = "0x6A7B8E0", VA = "0x6A7C8E0")]
 	public BackgroundSize(BackgroundSizeType sizeType)
 	{
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x307E370", Offset = "0x307C970", VA = "0x18307E370")]
+	[Address(RVA = "0x6A7D310", Offset = "0x6A7C310", VA = "0x6A7D310")]
 	internal static BackgroundSize Initial()
 	{
 		return default(BackgroundSize);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x307E1F0", Offset = "0x307C7F0", VA = "0x18307E1F0", Slot = "0")]
+	[Address(RVA = "0x6A7D360", Offset = "0x6A7C360", VA = "0x6A7D360", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x307E2B0", Offset = "0x307C8B0", VA = "0x18307E2B0", Slot = "4")]
+	[Address(RVA = "0x6A7D3F0", Offset = "0x6A7C3F0", VA = "0x6A7D3F0", Slot = "4")]
 	public bool Equals(BackgroundSize other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x307E310", Offset = "0x307C910", VA = "0x18307E310", Slot = "2")]
+	[Address(RVA = "0x6A7D440", Offset = "0x6A7C440", VA = "0x6A7D440", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x307E510", Offset = "0x307CB10", VA = "0x18307E510")]
+	[Address(RVA = "0x6A7CDC0", Offset = "0x6A7BDC0", VA = "0x6A7CDC0")]
 	public static bool operator ==(BackgroundSize style1, BackgroundSize style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x307E580", Offset = "0x307CB80", VA = "0x18307E580")]
+	[Address(RVA = "0x6A7D490", Offset = "0x6A7C490", VA = "0x6A7D490")]
 	public static bool operator !=(BackgroundSize style1, BackgroundSize style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x307E3D0", Offset = "0x307C9D0", VA = "0x18307E3D0", Slot = "3")]
+	[Address(RVA = "0x6A7D4F0", Offset = "0x6A7C4F0", VA = "0x6A7D4F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,5 +1,5 @@
 // Type: Projectiles.Rock2Projectile
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Projectiles/Rock2Projectile.cs
@@ -8,10 +8,10 @@
 
 // Projectiles.Rock2Projectile$$get_DestroyOnImpact
 // il2cpp: bool Projectiles_Rock2Projectile__get_DestroyOnImpact (Projectiles_Rock2Projectile_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5873780
 
-bool
-Projectiles_Rock2Projectile__get_DestroyOnImpact(Projectiles_Rock2Projectile_o* __this, MethodInfo* method)
+bool Projectiles_Rock2Projectile__get_DestroyOnImpact
+               (Projectiles_Rock2Projectile_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -20,10 +20,10 @@ Projectiles_Rock2Projectile__get_DestroyOnImpact(Projectiles_Rock2Projectile_o* 
 
 // Projectiles.Rock2Projectile$$get_MinImpactVelocity
 // il2cpp: float Projectiles_Rock2Projectile__get_MinImpactVelocity (Projectiles_Rock2Projectile_o* __this, const MethodInfo* method);
-// 0x1820cf520
+// 0x5873790
 
-float
-Projectiles_Rock2Projectile__get_MinImpactVelocity(Projectiles_Rock2Projectile_o* __this, MethodInfo* method)
+float Projectiles_Rock2Projectile__get_MinImpactVelocity
+                (Projectiles_Rock2Projectile_o *__this,MethodInfo *method)
 
 {
   return 50.0;
@@ -32,7 +32,7 @@ Projectiles_Rock2Projectile__get_MinImpactVelocity(Projectiles_Rock2Projectile_o
 
 // Projectiles.Rock2Projectile$$RegisterObjects
 // il2cpp: void Projectiles_Rock2Projectile__RegisterObjects (Projectiles_Rock2Projectile_o* __this, const MethodInfo* method);
-// 0x1820cf440
+// 0x58737a0
 
 void Projectiles_Rock2Projectile__RegisterObjects(Projectiles_Rock2Projectile_o *__this,MethodInfo *method)
 
@@ -45,10 +45,10 @@ void Projectiles_Rock2Projectile__RegisterObjects(Projectiles_Rock2Projectile_o 
   UnityEngine_Transform_o *pUVar5;
   UnityEngine_GameObject_o *item;
   
-  if (Il2CppMethodInitialized_184346924 == '\0') {
+  if (Il2CppMethodInitialized_0754517f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
     il2cpp_codegen_initialize_runtime_metadata(&"Sphere1");
-    Il2CppMethodInitialized_184346924 = '\x01';
+    Il2CppMethodInitialized_0754517f = '\x01';
   }
   pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
@@ -63,19 +63,16 @@ void Projectiles_Rock2Projectile__RegisterObjects(Projectiles_Rock2Projectile_o 
         pUVar3 = (__this_00->fields)._items;
         if (pUVar3 != (UnityEngine_GameObject_array *)0x0) {
           uVar2 = (__this_00->fields)._size;
-          if ((uint)pUVar3->max_length <= uVar2) {
-            System_Collections_Generic_List_object___AddWithResize
-                      ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
-                       (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-            return;
-          }
-          (__this_00->fields)._size = uVar2 + 1;
           if (uVar2 < (uint)pUVar3->max_length) {
+            (__this_00->fields)._size = uVar2 + 1;
             pUVar3->m_Items[(int)uVar2] = item;
-            Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,item);
+            Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
             return;
           }
-          ThrowIndexOutOfRangeException();
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
+                     (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+          return;
         }
       }
     }
@@ -86,13 +83,12 @@ void Projectiles_Rock2Projectile__RegisterObjects(Projectiles_Rock2Projectile_o 
 
 // Projectiles.Rock2Projectile$$.ctor
 // il2cpp: void Projectiles_Rock2Projectile___ctor (Projectiles_Rock2Projectile_o* __this, const MethodInfo* method);
-// 0x1820b6310
+// 0x5873870
 
-void
-Projectiles_Rock2Projectile___ctor(Projectiles_Rock2Projectile_o* __this, MethodInfo* method)
+void Projectiles_Rock2Projectile___ctor(Projectiles_Rock2Projectile_o *__this,MethodInfo *method)
 
 {
-  Projectiles_BaseProjectile___ctor((Projectiles_BladeThrowProjectile_o *)__this,(MethodInfo *)0x0);
+  Projectiles_BaseProjectile___ctor((Projectiles_SmokeBombProjectile_o *)__this,method);
   return;
 }
 

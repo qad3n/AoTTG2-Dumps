@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000164")]
+[Token(Token = "0x2000125")]
 public interface ISynchronizeInvoke
 {
-	[Token(Token = "0x170001B5")]
+	[Token(Token = "0x17000186")]
 	bool InvokeRequired
 	{
-		[Token(Token = "0x60008F3")]
+		[Token(Token = "0x6000733")]
 		get;
 	}
 
-	[Token(Token = "0x60008F4")]
+	[Token(Token = "0x6000734")]
 	IAsyncResult BeginInvoke(Delegate method, object[] args);
 
-	[Token(Token = "0x60008F5")]
+	[Token(Token = "0x6000735")]
 	object EndInvoke(IAsyncResult result);
 
-	[Token(Token = "0x60008F6")]
+	[Token(Token = "0x6000736")]
 	object Invoke(Delegate method, object[] args);
 }

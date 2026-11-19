@@ -9,60 +9,60 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000F5")]
+[Token(Token = "0x20000F6")]
 internal sealed class EnterTryFaultInstruction : IndexedBranchInstruction
 {
-	[Token(Token = "0x4000243")]
+	[Token(Token = "0x400024C")]
 	[FieldOffset(Offset = "0x18")]
 	private TryFaultHandler _tryHandler;
 
-	[Token(Token = "0x17000172")]
+	[Token(Token = "0x17000174")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000633")]
-		[Address(RVA = "0x242E4F0", Offset = "0x242CAF0", VA = "0x18242E4F0", Slot = "9")]
+		[Token(Token = "0x600063E")]
+		[Address(RVA = "0x5DDE610", Offset = "0x5DDD610", VA = "0x5DDE610", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000173")]
+	[Token(Token = "0x17000175")]
 	public override int ProducedContinuations
 	{
-		[Token(Token = "0x6000634")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "7")]
+		[Token(Token = "0x600063F")]
+		[Address(RVA = "0x5DDE640", Offset = "0x5DDD640", VA = "0x5DDE640", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000174")]
+	[Token(Token = "0x17000176")]
 	internal TryFaultHandler Handler
 	{
-		[Token(Token = "0x6000635")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000640")]
+		[Address(RVA = "0x5DDE650", Offset = "0x5DDD650", VA = "0x5DDE650")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x600063D")]
+	[Address(RVA = "0x5DDE5F0", Offset = "0x5DDD5F0", VA = "0x5DDE5F0")]
 	internal EnterTryFaultInstruction(int targetIndex)
 	{
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+	[Token(Token = "0x6000641")]
+	[Address(RVA = "0x5DDE660", Offset = "0x5DDD660", VA = "0x5DDE660")]
 	internal void SetTryHandler(TryFaultHandler tryHandler)
 	{
 	}
 
-	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x242E290", Offset = "0x242C890", VA = "0x18242E290", Slot = "8")]
+	[Token(Token = "0x6000642")]
+	[Address(RVA = "0x5DDE670", Offset = "0x5DDD670", VA = "0x5DDE670", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

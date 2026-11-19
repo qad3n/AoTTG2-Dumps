@@ -11,33 +11,33 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x20003C7")]
+[Token(Token = "0x20003A0")]
 internal class CallContextSecurityData : ICloneable
 {
-	[Token(Token = "0x4000F46")]
+	[Token(Token = "0x4000EA6")]
 	[FieldOffset(Offset = "0x10")]
 	private IPrincipal _principal;
 
-	[Token(Token = "0x1700039E")]
+	[Token(Token = "0x1700039D")]
 	internal bool HasInfo
 	{
-		[Token(Token = "0x6001E6D")]
-		[Address(RVA = "0x19DA120", Offset = "0x19D8720", VA = "0x1819DA120")]
+		[Token(Token = "0x6001E43")]
+		[Address(RVA = "0x538E260", Offset = "0x538D260", VA = "0x538E260")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001E6E")]
-	[Address(RVA = "0x19F1330", Offset = "0x19EF930", VA = "0x1819F1330", Slot = "4")]
+	[Token(Token = "0x6001E44")]
+	[Address(RVA = "0x538E1E0", Offset = "0x538D1E0", VA = "0x538E1E0", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E6F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001E45")]
+	[Address(RVA = "0x538E450", Offset = "0x538D450", VA = "0x538E450")]
 	public CallContextSecurityData()
 	{
 	}

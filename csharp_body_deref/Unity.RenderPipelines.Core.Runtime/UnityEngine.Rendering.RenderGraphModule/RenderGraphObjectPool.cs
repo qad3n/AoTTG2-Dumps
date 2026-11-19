@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,13 +19,13 @@ public sealed class RenderGraphObjectPool
 	private class SharedObjectPoolBase
 	{
 		[Token(Token = "0x60011A8")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6579520", Offset = "0x6578520", VA = "0x6579520")]
 		public SharedObjectPoolBase()
 		{
 		}
 
 		[Token(Token = "0x60011A9")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+		[Address(RVA = "0x6579530", Offset = "0x6578530", VA = "0x6579530", Slot = "4")]
 		public virtual void Clear()
 		{
 		}
@@ -83,7 +83,7 @@ public sealed class RenderGraphObjectPool
 	private List<MaterialPropertyBlock> m_AllocatedMaterialPropertyBlocks;
 
 	[Token(Token = "0x600119F")]
-	[Address(RVA = "0x2B98620", Offset = "0x2B96C20", VA = "0x182B98620")]
+	[Address(RVA = "0x6578D00", Offset = "0x6577D00", VA = "0x6578D00")]
 	internal RenderGraphObjectPool()
 	{
 	}
@@ -95,20 +95,20 @@ public sealed class RenderGraphObjectPool
 	}
 
 	[Token(Token = "0x60011A1")]
-	[Address(RVA = "0x2B980D0", Offset = "0x2B966D0", VA = "0x182B980D0")]
+	[Address(RVA = "0x6578E10", Offset = "0x6577E10", VA = "0x6578E10")]
 	public MaterialPropertyBlock GetTempMaterialPropertyBlock()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011A2")]
-	[Address(RVA = "0x2B98240", Offset = "0x2B96840", VA = "0x182B98240")]
+	[Address(RVA = "0x6578EF0", Offset = "0x6577EF0", VA = "0x6578EF0")]
 	internal void ReleaseAllTempAlloc()
 	{
 	}
 
 	[Token(Token = "0x60011A3")]
-	[Address(RVA = "0x2B981D0", Offset = "0x2B967D0", VA = "0x182B981D0")]
+	[Address(RVA = "0x65792A0", Offset = "0x65782A0", VA = "0x65792A0")]
 	internal bool IsEmpty()
 	{
 		return default(bool);
@@ -126,7 +126,7 @@ public sealed class RenderGraphObjectPool
 	}
 
 	[Token(Token = "0x60011A6")]
-	[Address(RVA = "0x2B97F30", Offset = "0x2B96530", VA = "0x182B97F30")]
+	[Address(RVA = "0x6579300", Offset = "0x6578300", VA = "0x6579300")]
 	internal void Cleanup()
 	{
 	}

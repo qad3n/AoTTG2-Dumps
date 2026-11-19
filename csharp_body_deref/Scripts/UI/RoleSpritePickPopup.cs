@@ -15,134 +15,134 @@ using UnityEngine.Events;
 
 namespace UI;
 
-[Token(Token = "0x20006F5")]
+[Token(Token = "0x200079E")]
 internal class RoleSpritePickPopup : PromptPopup
 {
-	[Token(Token = "0x40022FC")]
+	[Token(Token = "0x4002676")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private readonly List<GameObject> _items;
 
-	[Token(Token = "0x40022FD")]
+	[Token(Token = "0x4002677")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private StringSetting _setting;
 
-	[Token(Token = "0x40022FE")]
+	[Token(Token = "0x4002678")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private TextMeshProUGUI _label;
 
-	[Token(Token = "0x40022FF")]
+	[Token(Token = "0x4002679")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private UnityAction _onSelect;
 
-	[Token(Token = "0x17000C38")]
+	[Token(Token = "0x17000CBC")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004478")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
+		[Token(Token = "0x600499D")]
+		[Address(RVA = "0x5BC2620", Offset = "0x5BC1620", VA = "0x5BC2620", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C39")]
+	[Token(Token = "0x17000CBD")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004479")]
-		[Address(RVA = "0x21C7920", Offset = "0x21C5F20", VA = "0x1821C7920", Slot = "5")]
+		[Token(Token = "0x600499E")]
+		[Address(RVA = "0x5BC2640", Offset = "0x5BC1640", VA = "0x5BC2640", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C3A")]
+	[Token(Token = "0x17000CBE")]
 	protected override float Height
 	{
-		[Token(Token = "0x600447A")]
-		[Address(RVA = "0x21C7910", Offset = "0x21C5F10", VA = "0x1821C7910", Slot = "6")]
+		[Token(Token = "0x600499F")]
+		[Address(RVA = "0x5BC2650", Offset = "0x5BC1650", VA = "0x5BC2650", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C3B")]
+	[Token(Token = "0x17000CBF")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x600447B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x60049A0")]
+		[Address(RVA = "0x5BC2660", Offset = "0x5BC1660", VA = "0x5BC2660", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C3C")]
+	[Token(Token = "0x17000CC0")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x600447C")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "10")]
+		[Token(Token = "0x60049A1")]
+		[Address(RVA = "0x5BC2670", Offset = "0x5BC1670", VA = "0x5BC2670", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C3D")]
+	[Token(Token = "0x17000CC1")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x600447D")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
+		[Token(Token = "0x60049A2")]
+		[Address(RVA = "0x5BC2680", Offset = "0x5BC1680", VA = "0x5BC2680", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C3E")]
+	[Token(Token = "0x17000CC2")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x600447E")]
-		[Address(RVA = "0x20B9980", Offset = "0x20B7F80", VA = "0x1820B9980", Slot = "11")]
+		[Token(Token = "0x60049A3")]
+		[Address(RVA = "0x5BC2690", Offset = "0x5BC1690", VA = "0x5BC2690", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x600447F")]
-	[Address(RVA = "0x21C7580", Offset = "0x21C5B80", VA = "0x1821C7580", Slot = "20")]
+	[Token(Token = "0x60049A4")]
+	[Address(RVA = "0x5BC26A0", Offset = "0x5BC16A0", VA = "0x5BC26A0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004480")]
-	[Address(RVA = "0x21C76B0", Offset = "0x21C5CB0", VA = "0x1821C76B0")]
+	[Token(Token = "0x60049A5")]
+	[Address(RVA = "0x5BC27C0", Offset = "0x5BC17C0", VA = "0x5BC27C0")]
 	public void Show(StringSetting setting, TextMeshProUGUI label, [Optional] UnityAction onSelect)
 	{
 	}
 
-	[Token(Token = "0x6004481")]
-	[Address(RVA = "0x21C6630", Offset = "0x21C4C30", VA = "0x1821C6630")]
+	[Token(Token = "0x60049A6")]
+	[Address(RVA = "0x5BC29D0", Offset = "0x5BC19D0", VA = "0x5BC29D0")]
 	private void BuildItems()
 	{
 	}
 
-	[Token(Token = "0x6004482")]
-	[Address(RVA = "0x21C6960", Offset = "0x21C4F60", VA = "0x1821C6960")]
+	[Token(Token = "0x60049A7")]
+	[Address(RVA = "0x5BC2D40", Offset = "0x5BC1D40", VA = "0x5BC2D40")]
 	private void CreateItem(ElementStyle style, string displayName, string value)
 	{
 	}
 
-	[Token(Token = "0x6004483")]
-	[Address(RVA = "0x21C7470", Offset = "0x21C5A70", VA = "0x1821C7470")]
+	[Token(Token = "0x60049A8")]
+	[Address(RVA = "0x5BC38F0", Offset = "0x5BC28F0", VA = "0x5BC38F0")]
 	private void OnSelect(string value, string displayText)
 	{
 	}
 
-	[Token(Token = "0x6004484")]
-	[Address(RVA = "0x21C7890", Offset = "0x21C5E90", VA = "0x1821C7890")]
+	[Token(Token = "0x60049A9")]
+	[Address(RVA = "0x5BC3A30", Offset = "0x5BC2A30", VA = "0x5BC3A30")]
 	public RoleSpritePickPopup()
 	{
 	}

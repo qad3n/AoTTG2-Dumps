@@ -10,73 +10,73 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003F2")]
+[Token(Token = "0x2000451")]
 internal abstract class CLPropertyBinding : ICLMemberBinding
 {
-	[Token(Token = "0x1700029B")]
+	[Token(Token = "0x170002DC")]
 	public abstract bool IsReadOnly
 	{
-		[Token(Token = "0x6001835")]
+		[Token(Token = "0x6001AAC")]
 		get;
 	}
 
-	[Token(Token = "0x6001836")]
+	[Token(Token = "0x6001AAD")]
 	public abstract object GetValue(object instance);
 
-	[Token(Token = "0x6001837")]
+	[Token(Token = "0x6001AAE")]
 	public abstract void SetValue(object instance, object value);
 
-	[Token(Token = "0x6001838")]
+	[Token(Token = "0x6001AAF")]
 	public abstract void SetValueSafe(object instance, object value);
 
-	[Token(Token = "0x6001839")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001AB0")]
+	[Address(RVA = "0x58A9E50", Offset = "0x58A8E50", VA = "0x58A9E50")]
 	protected CLPropertyBinding()
 	{
 	}
 }
-[Token(Token = "0x20003F3")]
+[Token(Token = "0x2000452")]
 internal class CLPropertyBinding<T> : CLPropertyBinding where T : CustomLogicClassInstance
 {
-	[Token(Token = "0x4001415")]
+	[Token(Token = "0x40015B5")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Func<T, object> _getter;
 
-	[Token(Token = "0x4001416")]
+	[Token(Token = "0x40015B6")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Action<T, object> _setter;
 
-	[Token(Token = "0x4001417")]
+	[Token(Token = "0x40015B7")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly bool _isReadOnly;
 
-	[Token(Token = "0x1700029C")]
+	[Token(Token = "0x170002DD")]
 	public override bool IsReadOnly
 	{
-		[Token(Token = "0x600183B")]
+		[Token(Token = "0x6001AB2")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600183A")]
+	[Token(Token = "0x6001AB1")]
 	public CLPropertyBinding(Func<T, object> getter, Action<T, object> setter)
 	{
 	}
 
-	[Token(Token = "0x600183C")]
+	[Token(Token = "0x6001AB3")]
 	public override object GetValue(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600183D")]
+	[Token(Token = "0x6001AB4")]
 	public override void SetValue(object instance, object value)
 	{
 	}
 
-	[Token(Token = "0x600183E")]
+	[Token(Token = "0x6001AB5")]
 	public override void SetValueSafe(object instance, object value)
 	{
 	}

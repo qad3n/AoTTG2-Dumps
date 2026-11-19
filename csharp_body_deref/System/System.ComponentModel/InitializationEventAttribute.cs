@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000166")]
+[Token(Token = "0x2000127")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class InitializationEventAttribute : Attribute
 {
-	[Token(Token = "0x170001B7")]
+	[Token(Token = "0x17000188")]
 	public string EventName
 	{
-		[Token(Token = "0x60008FE")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600073E")]
+		[Address(RVA = "0x62235D0", Offset = "0x62225D0", VA = "0x62235D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,8 +26,8 @@ public sealed class InitializationEventAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x60008FD")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x600073D")]
+	[Address(RVA = "0x62235A0", Offset = "0x62225A0", VA = "0x62235A0")]
 	public InitializationEventAttribute(string eventName)
 	{
 	}

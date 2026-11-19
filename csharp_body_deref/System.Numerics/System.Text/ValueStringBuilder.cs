@@ -24,7 +24,7 @@ internal ref struct ValueStringBuilder
 	public int Length
 	{
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5F89CC0", Offset = "0x5F88CC0", VA = "0x5F89CC0")]
 		get
 		{
 			return default(int);
@@ -32,66 +32,66 @@ internal ref struct ValueStringBuilder
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x19A1C90", Offset = "0x19A0290", VA = "0x1819A1C90")]
+	[Address(RVA = "0x5F82E70", Offset = "0x5F81E70", VA = "0x5F82E70")]
 	public ValueStringBuilder(Span<char> initialBuffer)
 	{
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x25CBBB0", Offset = "0x25CA1B0", VA = "0x1825CBBB0", Slot = "3")]
+	[Address(RVA = "0x5F83120", Offset = "0x5F82120", VA = "0x5F83120", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x25CBC80", Offset = "0x25CA280", VA = "0x1825CBC80")]
+	[Address(RVA = "0x5F83050", Offset = "0x5F82050", VA = "0x5F83050")]
 	public bool TryCopyTo(Span<char> destination, out int charsWritten)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x25CB9E0", Offset = "0x25C9FE0", VA = "0x1825CB9E0")]
+	[Address(RVA = "0x5F82E90", Offset = "0x5F81E90", VA = "0x5F82E90")]
 	public void Insert(int index, char value, int count)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x25CB6F0", Offset = "0x25C9CF0", VA = "0x1825CB6F0")]
+	[Address(RVA = "0x5F8A030", Offset = "0x5F89030", VA = "0x5F8A030")]
 	public void Append(char c)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x25CB570", Offset = "0x25C9B70", VA = "0x1825CB570")]
+	[Address(RVA = "0x5F8A100", Offset = "0x5F89100", VA = "0x5F8A100")]
 	public void Append(string s)
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x25CB290", Offset = "0x25C9890", VA = "0x1825CB290")]
+	[Address(RVA = "0x5F8A190", Offset = "0x5F89190", VA = "0x5F8A190")]
 	private void AppendSlow(string s)
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x25CB4B0", Offset = "0x25C9AB0", VA = "0x1825CB4B0")]
+	[Address(RVA = "0x5F88DB0", Offset = "0x5F87DB0", VA = "0x5F88DB0")]
 	public void Append(char c, int count)
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x25CB620", Offset = "0x25C9C20", VA = "0x1825CB620")]
+	[Address(RVA = "0x5F88C50", Offset = "0x5F87C50", VA = "0x5F88C50")]
 	public unsafe void Append(char* value, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x25CB3F0", Offset = "0x25C99F0", VA = "0x1825CB3F0")]
+	[Address(RVA = "0x5F8A2B0", Offset = "0x5F892B0", VA = "0x5F8A2B0")]
 	public Span<char> AppendSpan(int length)
 	{
 		return default(Span<char>);
@@ -99,21 +99,21 @@ internal ref struct ValueStringBuilder
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x25CB810", Offset = "0x25C9E10", VA = "0x1825CB810")]
+	[Address(RVA = "0x5F8A090", Offset = "0x5F89090", VA = "0x5F8A090")]
 	private void GrowAndAppend(char c)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x25CB850", Offset = "0x25C9E50", VA = "0x1825CB850")]
+	[Address(RVA = "0x5F89CD0", Offset = "0x5F88CD0", VA = "0x5F89CD0")]
 	private void Grow(int requiredAdditionalCapacity)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x25CB770", Offset = "0x25C9D70", VA = "0x1825CB770")]
+	[Address(RVA = "0x5F8A360", Offset = "0x5F89360", VA = "0x5F8A360")]
 	public void Dispose()
 	{
 	}

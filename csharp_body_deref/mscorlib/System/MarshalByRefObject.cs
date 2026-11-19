@@ -13,46 +13,46 @@ namespace System;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20001BB")]
+[Token(Token = "0x2000193")]
 [ComVisible(true)]
 public abstract class MarshalByRefObject
 {
 	[NonSerialized]
-	[Token(Token = "0x400070D")]
+	[Token(Token = "0x400066B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private object _identity;
 
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x1700016F")]
 	internal System.Runtime.Remoting.ServerIdentity ObjectIdentity
 	{
-		[Token(Token = "0x6001004")]
-		[Address(RVA = "0x1B82BF0", Offset = "0x1B811F0", VA = "0x181B82BF0")]
+		[Token(Token = "0x6000FDB")]
+		[Address(RVA = "0x5510570", Offset = "0x550F570", VA = "0x5510570")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001005")]
-		[Address(RVA = "0x1B82C30", Offset = "0x1B81230", VA = "0x181B82C30")]
+		[Token(Token = "0x6000FDC")]
+		[Address(RVA = "0x55105B0", Offset = "0x550F5B0", VA = "0x55105B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001003")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6000FDA")]
+	[Address(RVA = "0x5508640", Offset = "0x5507640", VA = "0x5508640")]
 	protected MarshalByRefObject()
 	{
 	}
 
-	[Token(Token = "0x6001006")]
-	[Address(RVA = "0x1B82B70", Offset = "0x1B81170", VA = "0x181B82B70", Slot = "4")]
+	[Token(Token = "0x6000FDD")]
+	[Address(RVA = "0x55105F0", Offset = "0x550F5F0", VA = "0x55105F0", Slot = "4")]
 	public virtual ObjRef CreateObjRef(Type requestedType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x1B82BB0", Offset = "0x1B811B0", VA = "0x181B82BB0", Slot = "5")]
+	[Token(Token = "0x6000FDE")]
+	[Address(RVA = "0x5510630", Offset = "0x550F630", VA = "0x5510630", Slot = "5")]
 	public virtual object InitializeLifetimeService()
 	{
 		return null;

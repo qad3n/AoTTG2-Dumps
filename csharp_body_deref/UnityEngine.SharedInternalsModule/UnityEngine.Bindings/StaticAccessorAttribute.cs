@@ -20,7 +20,7 @@ internal class StaticAccessorAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x69F1950", Offset = "0x69F0950", VA = "0x69F1950")]
 		[CompilerGenerated]
 		set
 		{
@@ -31,7 +31,7 @@ internal class StaticAccessorAttribute : Attribute
 	public StaticAccessorType Type
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x69F1960", Offset = "0x69F0960", VA = "0x69F1960")]
 		[CompilerGenerated]
 		set
 		{
@@ -39,14 +39,14 @@ internal class StaticAccessorAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x69F1970", Offset = "0x69F0970", VA = "0x69F1970")]
 	[VisibleToOtherModules]
 	internal StaticAccessorAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
+	[Address(RVA = "0x69F19A0", Offset = "0x69F09A0", VA = "0x69F19A0")]
 	public StaticAccessorAttribute(string name, StaticAccessorType type)
 	{
 	}

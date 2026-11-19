@@ -12,232 +12,232 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000185")]
+[Token(Token = "0x200015D")]
 internal class DefaultBinder : Binder
 {
-	[Token(Token = "0x2000186")]
+	[Token(Token = "0x200015E")]
 	internal class BinderState
 	{
-		[Token(Token = "0x4000589")]
+		[Token(Token = "0x40004E7")]
 		[FieldOffset(Offset = "0x10")]
 		internal int[] m_argsMap;
 
-		[Token(Token = "0x400058A")]
+		[Token(Token = "0x40004E8")]
 		[FieldOffset(Offset = "0x18")]
 		internal int m_originalSize;
 
-		[Token(Token = "0x400058B")]
+		[Token(Token = "0x40004E9")]
 		[FieldOffset(Offset = "0x1C")]
 		internal bool m_isParamArray;
 
-		[Token(Token = "0x6000E10")]
-		[Address(RVA = "0x1B5D7A0", Offset = "0x1B5BDA0", VA = "0x181B5D7A0")]
+		[Token(Token = "0x6000DEB")]
+		[Address(RVA = "0x54F1C20", Offset = "0x54F0C20", VA = "0x54F1C20")]
 		internal BinderState(int[] argsMap, int originalSize, bool isParamArray)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000187")]
+	[Token(Token = "0x200015F")]
 	[Flags]
 	private enum Primitives
 	{
-		[Token(Token = "0x400058D")]
+		[Token(Token = "0x40004EB")]
 		Boolean = 8,
-		[Token(Token = "0x400058E")]
+		[Token(Token = "0x40004EC")]
 		Char = 0x10,
-		[Token(Token = "0x400058F")]
+		[Token(Token = "0x40004ED")]
 		SByte = 0x20,
-		[Token(Token = "0x4000590")]
+		[Token(Token = "0x40004EE")]
 		Byte = 0x40,
-		[Token(Token = "0x4000591")]
+		[Token(Token = "0x40004EF")]
 		Int16 = 0x80,
-		[Token(Token = "0x4000592")]
+		[Token(Token = "0x40004F0")]
 		UInt16 = 0x100,
-		[Token(Token = "0x4000593")]
+		[Token(Token = "0x40004F1")]
 		Int32 = 0x200,
-		[Token(Token = "0x4000594")]
+		[Token(Token = "0x40004F2")]
 		UInt32 = 0x400,
-		[Token(Token = "0x4000595")]
+		[Token(Token = "0x40004F3")]
 		Int64 = 0x800,
-		[Token(Token = "0x4000596")]
+		[Token(Token = "0x40004F4")]
 		UInt64 = 0x1000,
-		[Token(Token = "0x4000597")]
+		[Token(Token = "0x40004F5")]
 		Single = 0x2000,
-		[Token(Token = "0x4000598")]
+		[Token(Token = "0x40004F6")]
 		Double = 0x4000,
-		[Token(Token = "0x4000599")]
+		[Token(Token = "0x40004F7")]
 		Decimal = 0x8000,
-		[Token(Token = "0x400059A")]
+		[Token(Token = "0x40004F8")]
 		DateTime = 0x10000,
-		[Token(Token = "0x400059B")]
+		[Token(Token = "0x40004F9")]
 		String = 0x40000
 	}
 
-	[Token(Token = "0x4000588")]
+	[Token(Token = "0x40004E6")]
 	[FieldOffset(Offset = "0x0")]
 	private static Primitives[] _primitiveConversions;
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x1B5E790", Offset = "0x1B5CD90", VA = "0x181B5E790", Slot = "5")]
+	[Token(Token = "0x6000DD2")]
+	[Address(RVA = "0x54EF120", Offset = "0x54EE120", VA = "0x54EF120", Slot = "5")]
 	public override MethodBase BindToMethod(BindingFlags bindingAttr, MethodBase[] match, ref object[] args, ParameterModifier[] modifiers, CultureInfo cultureInfo, string[] names, out object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x1B5E110", Offset = "0x1B5C710", VA = "0x181B5E110", Slot = "4")]
+	[Token(Token = "0x6000DD3")]
+	[Address(RVA = "0x54F1FF0", Offset = "0x54F0FF0", VA = "0x54F1FF0", Slot = "4")]
 	public override FieldInfo BindToField(BindingFlags bindingAttr, FieldInfo[] match, object value, CultureInfo cultureInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x1B63A60", Offset = "0x1B62060", VA = "0x181B63A60", Slot = "9")]
+	[Token(Token = "0x6000DD4")]
+	[Address(RVA = "0x54F26E0", Offset = "0x54F16E0", VA = "0x54F26E0", Slot = "9")]
 	public override PropertyInfo SelectProperty(BindingFlags bindingAttr, PropertyInfo[] match, Type returnType, Type[] indexes, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x1B612D0", Offset = "0x1B5F8D0", VA = "0x181B612D0", Slot = "6")]
+	[Token(Token = "0x6000DD5")]
+	[Address(RVA = "0x54F3F00", Offset = "0x54F2F00", VA = "0x54F3F00", Slot = "6")]
 	public override object ChangeType(object value, Type type, CultureInfo cultureInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x1B62D90", Offset = "0x1B61390", VA = "0x181B62D90", Slot = "7")]
+	[Token(Token = "0x6000DD6")]
+	[Address(RVA = "0x54F3F60", Offset = "0x54F2F60", VA = "0x54F3F60", Slot = "7")]
 	public override void ReorderArgumentArray(ref object[] args, object state)
 	{
 	}
 
-	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x1B61650", Offset = "0x1B5FC50", VA = "0x181B61650")]
+	[Token(Token = "0x6000DD7")]
+	[Address(RVA = "0x54F42C0", Offset = "0x54F32C0", VA = "0x54F42C0")]
 	public static MethodBase ExactBinding(MethodBase[] match, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFD")]
-	[Address(RVA = "0x1B618C0", Offset = "0x1B5FEC0", VA = "0x181B618C0")]
+	[Token(Token = "0x6000DD8")]
+	[Address(RVA = "0x54F47A0", Offset = "0x54F37A0", VA = "0x54F47A0")]
 	public static PropertyInfo ExactPropertyBinding(PropertyInfo[] match, Type returnType, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x1B62930", Offset = "0x1B60F30", VA = "0x181B62930")]
+	[Token(Token = "0x6000DD9")]
+	[Address(RVA = "0x54F3860", Offset = "0x54F2860", VA = "0x54F3860")]
 	private static int FindMostSpecific(ParameterInfo[] p1, int[] paramOrder1, Type paramArrayType1, ParameterInfo[] p2, int[] paramOrder2, Type paramArrayType2, Type[] types, object[] args)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x1B62540", Offset = "0x1B60B40", VA = "0x181B62540")]
+	[Token(Token = "0x6000DDA")]
+	[Address(RVA = "0x54F34E0", Offset = "0x54F24E0", VA = "0x54F34E0")]
 	private static int FindMostSpecificType(Type c1, Type c2, Type t)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x1B61E30", Offset = "0x1B60430", VA = "0x181B61E30")]
+	[Token(Token = "0x6000DDB")]
+	[Address(RVA = "0x54F1DD0", Offset = "0x54F0DD0", VA = "0x54F1DD0")]
 	private static int FindMostSpecificMethod(MethodBase m1, int[] paramOrder1, Type paramArrayType1, MethodBase m2, int[] paramOrder2, Type paramArrayType2, Type[] types, object[] args)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E01")]
-	[Address(RVA = "0x1B61D20", Offset = "0x1B60320", VA = "0x181B61D20")]
+	[Token(Token = "0x6000DDC")]
+	[Address(RVA = "0x54F2540", Offset = "0x54F1540", VA = "0x54F2540")]
 	private static int FindMostSpecificField(FieldInfo cur1, FieldInfo cur2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x1B62430", Offset = "0x1B60A30", VA = "0x181B62430")]
+	[Token(Token = "0x6000DDD")]
+	[Address(RVA = "0x54F3D60", Offset = "0x54F2D60", VA = "0x54F3D60")]
 	private static int FindMostSpecificProperty(PropertyInfo cur1, PropertyInfo cur2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x1B61330", Offset = "0x1B5F930", VA = "0x181B61330")]
+	[Token(Token = "0x6000DDE")]
+	[Address(RVA = "0x54F4AA0", Offset = "0x54F3AA0", VA = "0x54F4AA0")]
 	internal static bool CompareMethodSigAndName(MethodBase m1, MethodBase m2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x1B62D20", Offset = "0x1B61320", VA = "0x181B62D20")]
+	[Token(Token = "0x6000DDF")]
+	[Address(RVA = "0x54F4BE0", Offset = "0x54F3BE0", VA = "0x54F4BE0")]
 	internal static int GetHierarchyDepth(Type t)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x1B61B80", Offset = "0x1B60180", VA = "0x181B61B80")]
+	[Token(Token = "0x6000DE0")]
+	[Address(RVA = "0x54F45E0", Offset = "0x54F35E0", VA = "0x54F45E0")]
 	internal static MethodBase FindMostDerivedNewSlotMeth(MethodBase[] match, int cMatches)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x1B630F0", Offset = "0x1B616F0", VA = "0x181B630F0")]
+	[Token(Token = "0x6000DE1")]
+	[Address(RVA = "0x54F1C60", Offset = "0x54F0C60", VA = "0x54F1C60")]
 	private static void ReorderParams(int[] paramOrder, object[] vars)
 	{
 	}
 
-	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x1B61450", Offset = "0x1B5FA50", VA = "0x181B61450")]
+	[Token(Token = "0x6000DE2")]
+	[Address(RVA = "0x54F17F0", Offset = "0x54F07F0", VA = "0x54F17F0")]
 	private static bool CreateParamOrder(int[] paramOrder, ParameterInfo[] pars, string[] names)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x1B60FC0", Offset = "0x1B5F5C0", VA = "0x181B60FC0")]
+	[Token(Token = "0x6000DE3")]
+	[Address(RVA = "0x54F32E0", Offset = "0x54F22E0", VA = "0x54F32E0")]
 	private static bool CanConvertPrimitive(System.RuntimeType source, System.RuntimeType target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x1B60EB0", Offset = "0x1B5F4B0", VA = "0x181B60EB0")]
+	[Token(Token = "0x6000DE4")]
+	[Address(RVA = "0x54F1B30", Offset = "0x54F0B30", VA = "0x54F1B30")]
 	private static bool CanConvertPrimitiveObjectToType(object source, System.RuntimeType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x1B61330", Offset = "0x1B5F930", VA = "0x181B61330")]
+	[Token(Token = "0x6000DE5")]
+	[Address(RVA = "0x54F4C60", Offset = "0x54F3C60", VA = "0x54F4C60")]
 	internal static bool CompareMethodSig(MethodBase m1, MethodBase m2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x1B63280", Offset = "0x1B61880", VA = "0x181B63280", Slot = "8")]
+	[Token(Token = "0x6000DE6")]
+	[Address(RVA = "0x54F4DA0", Offset = "0x54F3DA0", VA = "0x54F4DA0", Slot = "8")]
 	public sealed override MethodBase SelectMethod(BindingFlags bindingAttr, MethodBase[] match, Type[] types, ParameterModifier[] modifiers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0C")]
-	[Address(RVA = "0x1B60DC0", Offset = "0x1B5F3C0", VA = "0x181B60DC0")]
+	[Token(Token = "0x6000DE7")]
+	[Address(RVA = "0x54F56B0", Offset = "0x54F46B0", VA = "0x54F56B0")]
 	private static bool CanChangePrimitive(Type source, Type target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x1B61200", Offset = "0x1B5F800", VA = "0x181B61200")]
+	[Token(Token = "0x6000DE8")]
+	[Address(RVA = "0x54F5700", Offset = "0x54F4700", VA = "0x54F5700")]
 	private static bool CanPrimitiveWiden(Type source, Type target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000DE9")]
+	[Address(RVA = "0x54F57B0", Offset = "0x54F47B0", VA = "0x54F57B0")]
 	public DefaultBinder()
 	{
 	}

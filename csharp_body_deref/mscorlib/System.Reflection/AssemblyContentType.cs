@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F3")]
+[Token(Token = "0x20004CC")]
 public enum AssemblyContentType
 {
-	[Token(Token = "0x40013A7")]
+	[Token(Token = "0x4001307")]
 	Default,
-	[Token(Token = "0x40013A8")]
+	[Token(Token = "0x4001308")]
 	WindowsRuntime
 }

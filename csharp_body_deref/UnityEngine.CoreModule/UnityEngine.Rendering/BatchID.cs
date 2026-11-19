@@ -12,36 +12,36 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200036D")]
+[Token(Token = "0x20003A9")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 [UnityEngine.NativeClass("BatchID")]
 [UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = true)]
-[UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 public struct BatchID : IEquatable<BatchID>
 {
-	[Token(Token = "0x40009EE")]
+	[Token(Token = "0x4000B72")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly BatchID Null;
 
-	[Token(Token = "0x40009EF")]
+	[Token(Token = "0x4000B73")]
 	[FieldOffset(Offset = "0x0")]
 	public uint value;
 
-	[Token(Token = "0x6001561")]
-	[Address(RVA = "0x2ED9490", Offset = "0x2ED7A90", VA = "0x182ED9490", Slot = "2")]
+	[Token(Token = "0x6001717")]
+	[Address(RVA = "0x6964820", Offset = "0x6963820", VA = "0x6964820", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001562")]
-	[Address(RVA = "0x2F5FF10", Offset = "0x2F5E510", VA = "0x182F5FF10", Slot = "0")]
+	[Token(Token = "0x6001718")]
+	[Address(RVA = "0x6964830", Offset = "0x6963830", VA = "0x6964830", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001563")]
-	[Address(RVA = "0x2ED9400", Offset = "0x2ED7A00", VA = "0x182ED9400", Slot = "4")]
+	[Token(Token = "0x6001719")]
+	[Address(RVA = "0x69648C0", Offset = "0x69638C0", VA = "0x69648C0", Slot = "4")]
 	public bool Equals(BatchID other)
 	{
 		return default(bool);

@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlFloatAttributeDescription : TypedUxmlAttributeDescription<float>
 {
 	[Token(Token = "0x6002664")]
-	[Address(RVA = "0x3156950", Offset = "0x3154F50", VA = "0x183156950")]
+	[Address(RVA = "0x6B58BC0", Offset = "0x6B57BC0", VA = "0x6B58BC0")]
 	public UxmlFloatAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x6002665")]
-	[Address(RVA = "0x31567E0", Offset = "0x3154DE0", VA = "0x1831567E0", Slot = "4")]
+	[Address(RVA = "0x6B58C50", Offset = "0x6B57C50", VA = "0x6B58C50", Slot = "4")]
 	public override float GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6002666")]
-	[Address(RVA = "0x3156740", Offset = "0x3154D40", VA = "0x183156740")]
+	[Address(RVA = "0x6B58DD0", Offset = "0x6B57DD0", VA = "0x6B58DD0")]
 	private static float ConvertValueToFloat(string v, float defaultValue)
 	{
 		return default(float);

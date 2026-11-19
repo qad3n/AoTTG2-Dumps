@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.CopyColorPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,26 +47,26 @@ public class CopyColorPass : ScriptableRenderPass
 		internal int sampleOffsetShaderHandle;
 
 		[Token(Token = "0x6000B81")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66C5B70", Offset = "0x66C4B70", VA = "0x66C5B70")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000CD8")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x5C")]
 	private int m_SampleOffsetShaderHandle;
 
 	[Token(Token = "0x4000CD9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private Material m_SamplingMaterial;
 
 	[Token(Token = "0x4000CDA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private Downsampling m_DownsamplingMethod;
 
 	[Token(Token = "0x4000CDB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private Material m_CopyColorMaterial;
 
 	[Token(Token = "0x4000CDC")]
@@ -78,71 +78,71 @@ public class CopyColorPass : ScriptableRenderPass
 	private static readonly string k_DownsampleAndCopyPassName;
 
 	[Token(Token = "0x6000B75")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x66C4960", Offset = "0x66C3960", VA = "0x66C4960", Slot = "6")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66C4970", Offset = "0x66C3970", VA = "0x66C4970", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B77")]
-	[Address(RVA = "0x2CBAF20", Offset = "0x2CB9520", VA = "0x182CBAF20")]
+	[Address(RVA = "0x66C4980", Offset = "0x66C3980", VA = "0x66C4980")]
 	public CopyColorPass(RenderPassEvent evt, Material samplingMaterial, [Optional] Material copyColorMaterial, [Optional] string customPassName)
 	{
 	}
 
 	[Token(Token = "0x6000B78")]
-	[Address(RVA = "0x2CBA330", Offset = "0x2CB8930", VA = "0x182CBA330")]
+	[Address(RVA = "0x66C4A80", Offset = "0x66C3A80", VA = "0x66C4A80")]
 	public static void ConfigureDescriptor(Downsampling downsamplingMethod, ref RenderTextureDescriptor descriptor, out FilterMode filterMode)
 	{
 	}
 
 	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x2CBAE20", Offset = "0x2CB9420", VA = "0x182CBAE20")]
+	[Address(RVA = "0x66C4AE0", Offset = "0x66C3AE0", VA = "0x66C4AE0")]
 	[Obsolete("Use RTHandles for source and destination #from(2022.1) #breakingFrom(2023.1).", true)]
 	public void Setup(RenderTargetIdentifier source, RenderTargetHandle destination, Downsampling downsampling)
 	{
 	}
 
 	[Token(Token = "0x6000B7A")]
-	[Address(RVA = "0x2CBAE10", Offset = "0x2CB9410", VA = "0x182CBAE10")]
+	[Address(RVA = "0x66C4B30", Offset = "0x66C3B30", VA = "0x66C4B30")]
 	public void Setup(RTHandle source, RTHandle destination, Downsampling downsampling)
 	{
 	}
 
 	[Token(Token = "0x6000B7B")]
-	[Address(RVA = "0x2CBA3B0", Offset = "0x2CB89B0", VA = "0x182CBA3B0")]
+	[Address(RVA = "0x66C4B40", Offset = "0x66C3B40", VA = "0x66C4B40")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RTHandle source, bool useDrawProceduralBlit)
 	{
 	}
 
 	[Token(Token = "0x6000B7C")]
-	[Address(RVA = "0x2CBABB0", Offset = "0x2CB91B0", VA = "0x182CBABB0")]
+	[Address(RVA = "0x66C4F20", Offset = "0x66C3F20", VA = "0x66C4F20")]
 	internal TextureHandle Render(RenderGraph renderGraph, ContextContainer frameData, out TextureHandle destination, in TextureHandle source, Downsampling downsampling)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000B7D")]
-	[Address(RVA = "0x2CBAB10", Offset = "0x2CB9110", VA = "0x182CBAB10")]
+	[Address(RVA = "0x66C54E0", Offset = "0x66C44E0", VA = "0x66C54E0")]
 	internal void RenderToExistingTexture(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle destination, in TextureHandle source, Downsampling downsampling = Downsampling.None)
 	{
 	}
 
 	[Token(Token = "0x6000B7E")]
-	[Address(RVA = "0x2CBA7E0", Offset = "0x2CB8DE0", VA = "0x182CBA7E0")]
+	[Address(RVA = "0x66C5170", Offset = "0x66C4170", VA = "0x66C5170")]
 	private void RenderInternal(RenderGraph renderGraph, in TextureHandle destination, in TextureHandle source, bool useProceduralBlit)
 	{
 	}
 
 	[Token(Token = "0x6000B7F")]
-	[Address(RVA = "0x2CB9EA0", Offset = "0x2CB84A0", VA = "0x182CB9EA0")]
+	[Address(RVA = "0x66C5580", Offset = "0x66C4580", VA = "0x66C5580")]
 	private void AddDownsampleAndCopyColorRenderPass(RenderGraph renderGraph, in TextureHandle destination, in TextureHandle source, bool useProceduralBlit, string passName)
 	{
 	}

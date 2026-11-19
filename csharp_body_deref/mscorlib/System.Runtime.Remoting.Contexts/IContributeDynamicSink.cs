@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x20003A0")]
+[Token(Token = "0x2000379")]
 [ComVisible(true)]
 public interface IContributeDynamicSink
 {
-	[Token(Token = "0x6001DE4")]
+	[Token(Token = "0x6001DBA")]
 	IDynamicMessageSink GetDynamicSink();
 }

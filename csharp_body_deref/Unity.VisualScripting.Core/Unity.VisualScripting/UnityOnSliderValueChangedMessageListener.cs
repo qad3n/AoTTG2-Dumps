@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnSliderValueChangedMessageListener : MessageListener
 {
 	[Token(Token = "0x6000475")]
-	[Address(RVA = "0x2DBEE70", Offset = "0x2DBD470", VA = "0x182DBEE70")]
+	[Address(RVA = "0x67A5C50", Offset = "0x67A4C50", VA = "0x67A5C50")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5D10", Offset = "0x67A4D10", VA = "0x67A5D10")]
 	public UnityOnSliderValueChangedMessageListener()
 	{
 	}

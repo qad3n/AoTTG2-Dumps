@@ -65,8 +65,8 @@ public enum EventType
 	[Token(Token = "0x400001F")]
 	TouchStationary = 35,
 	[Token(Token = "0x4000020")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Use MouseDown instead (UnityUpgradable) -> MouseDown", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	mouseDown = MouseDown,
 	[Token(Token = "0x4000021")]
 	[Obsolete("Use MouseUp instead (UnityUpgradable) -> MouseUp", true)]
@@ -81,16 +81,16 @@ public enum EventType
 	[Obsolete("Use MouseDrag instead (UnityUpgradable) -> MouseDrag", true)]
 	mouseDrag = MouseDrag,
 	[Token(Token = "0x4000024")]
-	[Obsolete("Use KeyDown instead (UnityUpgradable) -> KeyDown", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("Use KeyDown instead (UnityUpgradable) -> KeyDown", true)]
 	keyDown = KeyDown,
 	[Token(Token = "0x4000025")]
-	[Obsolete("Use KeyUp instead (UnityUpgradable) -> KeyUp", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("Use KeyUp instead (UnityUpgradable) -> KeyUp", true)]
 	keyUp = KeyUp,
 	[Token(Token = "0x4000026")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Use ScrollWheel instead (UnityUpgradable) -> ScrollWheel", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	scrollWheel = ScrollWheel,
 	[Token(Token = "0x4000027")]
 	[Obsolete("Use Repaint instead (UnityUpgradable) -> Repaint", true)]
@@ -109,8 +109,8 @@ public enum EventType
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	dragPerform = DragPerform,
 	[Token(Token = "0x400002B")]
-	[Obsolete("Use Ignore instead (UnityUpgradable) -> Ignore", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("Use Ignore instead (UnityUpgradable) -> Ignore", true)]
 	ignore = Ignore,
 	[Token(Token = "0x400002C")]
 	[EditorBrowsable(EditorBrowsableState.Never)]

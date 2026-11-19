@@ -38,7 +38,7 @@ public class UniqueConstraint : Constraint
 	internal string[] ColumnNames
 	{
 		[Token(Token = "0x60007D9")]
-		[Address(RVA = "0x2528EB0", Offset = "0x25274B0", VA = "0x182528EB0")]
+		[Address(RVA = "0x5ECD7C0", Offset = "0x5ECC7C0", VA = "0x5ECD7C0")]
 		get
 		{
 			return null;
@@ -49,7 +49,7 @@ public class UniqueConstraint : Constraint
 	internal Index ConstraintIndex
 	{
 		[Token(Token = "0x60007DA")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x5ECD7D0", Offset = "0x5ECC7D0", VA = "0x5ECD7D0")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ public class UniqueConstraint : Constraint
 	public virtual DataColumn[] Columns
 	{
 		[Token(Token = "0x60007E8")]
-		[Address(RVA = "0x2528EC0", Offset = "0x25274C0", VA = "0x182528EC0", Slot = "19")]
+		[Address(RVA = "0x5ECEA70", Offset = "0x5ECDA70", VA = "0x5ECEA70", Slot = "19")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ public class UniqueConstraint : Constraint
 	internal DataColumn[] ColumnsReference
 	{
 		[Token(Token = "0x60007E9")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x5ECDDF0", Offset = "0x5ECCDF0", VA = "0x5ECDDF0")]
 		get
 		{
 			return null;
@@ -83,7 +83,7 @@ public class UniqueConstraint : Constraint
 	public bool IsPrimaryKey
 	{
 		[Token(Token = "0x60007EA")]
-		[Address(RVA = "0x2528ED0", Offset = "0x25274D0", VA = "0x182528ED0")]
+		[Address(RVA = "0x5ECEA80", Offset = "0x5ECDA80", VA = "0x5ECEA80")]
 		get
 		{
 			return default(bool);
@@ -94,7 +94,7 @@ public class UniqueConstraint : Constraint
 	internal override bool InCollection
 	{
 		[Token(Token = "0x60007EE")]
-		[Address(RVA = "0x2528F60", Offset = "0x2527560", VA = "0x182528F60", Slot = "7")]
+		[Address(RVA = "0x5ECEB70", Offset = "0x5ECDB70", VA = "0x5ECEB70", Slot = "7")]
 		set
 		{
 		}
@@ -104,7 +104,7 @@ public class UniqueConstraint : Constraint
 	internal DataKey Key
 	{
 		[Token(Token = "0x60007EF")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x5ECEBB0", Offset = "0x5ECDBB0", VA = "0x5ECEBB0")]
 		get
 		{
 			return default(DataKey);
@@ -116,7 +116,7 @@ public class UniqueConstraint : Constraint
 	public override DataTable Table
 	{
 		[Token(Token = "0x60007F0")]
-		[Address(RVA = "0x2528F30", Offset = "0x2527530", VA = "0x182528F30", Slot = "8")]
+		[Address(RVA = "0x5ECEBC0", Offset = "0x5ECDBC0", VA = "0x5ECEBC0", Slot = "8")]
 		get
 		{
 			return null;
@@ -124,136 +124,136 @@ public class UniqueConstraint : Constraint
 	}
 
 	[Token(Token = "0x60007D4")]
-	[Address(RVA = "0x2528D20", Offset = "0x2527320", VA = "0x182528D20")]
+	[Address(RVA = "0x5ECD520", Offset = "0x5ECC520", VA = "0x5ECD520")]
 	public UniqueConstraint(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x2528DE0", Offset = "0x25273E0", VA = "0x182528DE0")]
+	[Address(RVA = "0x5ECD6D0", Offset = "0x5ECC6D0", VA = "0x5ECD6D0")]
 	public UniqueConstraint(string name, DataColumn[] columns)
 	{
 	}
 
 	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x2528CE0", Offset = "0x25272E0", VA = "0x182528CE0")]
+	[Address(RVA = "0x5ECD700", Offset = "0x5ECC700", VA = "0x5ECD700")]
 	public UniqueConstraint(DataColumn[] columns)
 	{
 	}
 
 	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x2528E60", Offset = "0x2527460", VA = "0x182528E60")]
+	[Address(RVA = "0x5ECD730", Offset = "0x5ECC730", VA = "0x5ECD730")]
 	[Browsable(false)]
 	public UniqueConstraint(string name, string[] columnNames, bool isPrimaryKey)
 	{
 	}
 
 	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x2528E20", Offset = "0x2527420", VA = "0x182528E20")]
+	[Address(RVA = "0x5ECD780", Offset = "0x5ECC780", VA = "0x5ECD780")]
 	public UniqueConstraint(string name, DataColumn[] columns, bool isPrimaryKey)
 	{
 	}
 
 	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x25287C0", Offset = "0x2526DC0", VA = "0x1825287C0")]
+	[Address(RVA = "0x5ECD7E0", Offset = "0x5ECC7E0", VA = "0x5ECD7E0")]
 	internal void ConstraintIndexClear()
 	{
 	}
 
 	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x2528800", Offset = "0x2526E00", VA = "0x182528800")]
+	[Address(RVA = "0x5ECD810", Offset = "0x5ECC810", VA = "0x5ECD810")]
 	internal void ConstraintIndexInitialize()
 	{
 	}
 
 	[Token(Token = "0x60007DD")]
-	[Address(RVA = "0x2527F20", Offset = "0x2526520", VA = "0x182527F20", Slot = "16")]
+	[Address(RVA = "0x5ECD860", Offset = "0x5ECC860", VA = "0x5ECD860", Slot = "16")]
 	internal override void CheckState()
 	{
 	}
 
 	[Token(Token = "0x60007DE")]
-	[Address(RVA = "0x2527F20", Offset = "0x2526520", VA = "0x182527F20")]
+	[Address(RVA = "0x5ECD870", Offset = "0x5ECC870", VA = "0x5ECD870")]
 	private void NonVirtualCheckState()
 	{
 	}
 
 	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
+	[Address(RVA = "0x5ECD880", Offset = "0x5ECC880", VA = "0x5ECD880", Slot = "13")]
 	internal override void CheckCanAddToCollection(ConstraintCollection constraints)
 	{
 	}
 
 	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x2527B30", Offset = "0x2526130", VA = "0x182527B30", Slot = "14")]
+	[Address(RVA = "0x5ECD890", Offset = "0x5ECC890", VA = "0x5ECD890", Slot = "14")]
 	internal override bool CanBeRemovedFromCollection(ConstraintCollection constraints, bool fThrowException)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x2527CE0", Offset = "0x25262E0", VA = "0x182527CE0", Slot = "10")]
+	[Address(RVA = "0x5ECDA00", Offset = "0x5ECCA00", VA = "0x5ECDA00", Slot = "10")]
 	internal override bool CanEnableConstraint()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x2528A20", Offset = "0x2527020", VA = "0x182528A20", Slot = "18")]
+	[Address(RVA = "0x5ECDA80", Offset = "0x5ECCA80", VA = "0x5ECDA80", Slot = "18")]
 	internal override bool IsConstraintViolated()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x2527D60", Offset = "0x2526360", VA = "0x182527D60", Slot = "15")]
+	[Address(RVA = "0x5ECDD20", Offset = "0x5ECCD20", VA = "0x5ECDD20", Slot = "15")]
 	internal override void CheckConstraint(DataRow row, DataRowAction action)
 	{
 	}
 
 	[Token(Token = "0x60007E4")]
-	[Address(RVA = "0x2528850", Offset = "0x2526E50", VA = "0x182528850", Slot = "9")]
+	[Address(RVA = "0x5ECDE00", Offset = "0x5ECCE00", VA = "0x5ECDE00", Slot = "9")]
 	internal override bool ContainsColumn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x251A260", Offset = "0x2518860", VA = "0x18251A260", Slot = "11")]
+	[Address(RVA = "0x5ECDE10", Offset = "0x5ECCE10", VA = "0x5ECDE10", Slot = "11")]
 	internal override Constraint Clone(DataSet destination)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x2528310", Offset = "0x2526910", VA = "0x182528310", Slot = "12")]
+	[Address(RVA = "0x5ECDE30", Offset = "0x5ECCE30", VA = "0x5ECDE30", Slot = "12")]
 	internal override Constraint Clone(DataSet destination, bool ignorNSforTableLookup)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x2527F30", Offset = "0x2526530", VA = "0x182527F30")]
+	[Address(RVA = "0x5ECE4D0", Offset = "0x5ECD4D0", VA = "0x5ECE4D0")]
 	internal UniqueConstraint Clone(DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x2528860", Offset = "0x2526E60", VA = "0x182528860")]
+	[Address(RVA = "0x5ECD5D0", Offset = "0x5ECC5D0", VA = "0x5ECD5D0")]
 	private void Create(string constraintName, DataColumn[] columns)
 	{
 	}
 
 	[Token(Token = "0x60007EC")]
-	[Address(RVA = "0x2528950", Offset = "0x2526F50", VA = "0x182528950", Slot = "0")]
+	[Address(RVA = "0x5ECEAD0", Offset = "0x5ECDAD0", VA = "0x5ECEAD0", Slot = "0")]
 	public override bool Equals(object key2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007ED")]
-	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
+	[Address(RVA = "0x5ECEB60", Offset = "0x5ECDB60", VA = "0x5ECEB60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

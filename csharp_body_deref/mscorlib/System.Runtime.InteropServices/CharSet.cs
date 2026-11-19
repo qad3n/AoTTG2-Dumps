@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x200045F")]
+[Token(Token = "0x2000438")]
 public enum CharSet
 {
-	[Token(Token = "0x4001240")]
+	[Token(Token = "0x40011A0")]
 	None = 1,
-	[Token(Token = "0x4001241")]
+	[Token(Token = "0x40011A1")]
 	Ansi,
-	[Token(Token = "0x4001242")]
+	[Token(Token = "0x40011A2")]
 	Unicode,
-	[Token(Token = "0x4001243")]
+	[Token(Token = "0x40011A3")]
 	Auto
 }

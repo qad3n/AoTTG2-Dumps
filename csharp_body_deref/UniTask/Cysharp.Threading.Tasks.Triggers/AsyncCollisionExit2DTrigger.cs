@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncCollisionExit2DTrigger : AsyncTriggerBase<Collision2D>
 {
 	[Token(Token = "0x6000AF0")]
-	[Address(RVA = "0x292B220", Offset = "0x2929820", VA = "0x18292B220")]
+	[Address(RVA = "0x62F9B30", Offset = "0x62F8B30", VA = "0x62F9B30")]
 	private void OnCollisionExit2D(Collision2D coll)
 	{
 	}
 
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x292AF80", Offset = "0x2929580", VA = "0x18292AF80")]
+	[Address(RVA = "0x62F9B80", Offset = "0x62F8B80", VA = "0x62F9B80")]
 	public IAsyncOnCollisionExit2DHandler GetOnCollisionExit2DAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AF2")]
-	[Address(RVA = "0x292AF00", Offset = "0x2929500", VA = "0x18292AF00")]
+	[Address(RVA = "0x62F9BF0", Offset = "0x62F8BF0", VA = "0x62F9BF0")]
 	public IAsyncOnCollisionExit2DHandler GetOnCollisionExit2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AF3")]
-	[Address(RVA = "0x292AFF0", Offset = "0x29295F0", VA = "0x18292AFF0")]
+	[Address(RVA = "0x62F9C60", Offset = "0x62F8C60", VA = "0x62F9C60")]
 	public UniTask<Collision2D> OnCollisionExit2DAsync()
 	{
 		return default(UniTask<Collision2D>);
 	}
 
 	[Token(Token = "0x6000AF4")]
-	[Address(RVA = "0x292B110", Offset = "0x2929710", VA = "0x18292B110")]
+	[Address(RVA = "0x62F9D60", Offset = "0x62F8D60", VA = "0x62F9D60")]
 	public UniTask<Collision2D> OnCollisionExit2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collision2D>);
 	}
 
 	[Token(Token = "0x6000AF5")]
-	[Address(RVA = "0x292B270", Offset = "0x2929870", VA = "0x18292B270")]
+	[Address(RVA = "0x62F9E70", Offset = "0x62F8E70", VA = "0x62F9E70")]
 	public AsyncCollisionExit2DTrigger()
 	{
 	}

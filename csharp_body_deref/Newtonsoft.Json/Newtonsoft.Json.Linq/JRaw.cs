@@ -52,13 +52,13 @@ public class JRaw : JValue
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000C90")]
-		[Address(RVA = "0x1C88CE0", Offset = "0x1C872E0", VA = "0x181C88CE0", Slot = "4")]
+		[Address(RVA = "0x5610620", Offset = "0x560F620", VA = "0x5610620", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000C91")]
-		[Address(RVA = "0x1C891E0", Offset = "0x1C877E0", VA = "0x181C891E0", Slot = "5")]
+		[Address(RVA = "0x5610C30", Offset = "0x560FC30", VA = "0x5610C30", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -66,7 +66,7 @@ public class JRaw : JValue
 	}
 
 	[Token(Token = "0x6000C8A")]
-	[Address(RVA = "0x1C7C260", Offset = "0x1C7A860", VA = "0x181C7C260")]
+	[Address(RVA = "0x5610170", Offset = "0x560F170", VA = "0x5610170")]
 	[AsyncStateMachine(typeof(_003CCreateAsync_003Ed__0))]
 	public static Task<JRaw> CreateAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
@@ -74,32 +74,32 @@ public class JRaw : JValue
 	}
 
 	[Token(Token = "0x6000C8B")]
-	[Address(RVA = "0x1C7C5C0", Offset = "0x1C7ABC0", VA = "0x181C7C5C0")]
+	[Address(RVA = "0x5610290", Offset = "0x560F290", VA = "0x5610290")]
 	public JRaw(JRaw other)
 	{
 	}
 
 	[Token(Token = "0x6000C8C")]
-	[Address(RVA = "0x1C7C5D0", Offset = "0x1C7ABD0", VA = "0x181C7C5D0")]
+	[Address(RVA = "0x56102A0", Offset = "0x560F2A0", VA = "0x56102A0")]
 	internal JRaw(JRaw other, JsonCloneSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x1C7C5B0", Offset = "0x1C7ABB0", VA = "0x181C7C5B0")]
+	[Address(RVA = "0x56102B0", Offset = "0x560F2B0", VA = "0x56102B0")]
 	public JRaw(object? rawJson)
 	{
 	}
 
 	[Token(Token = "0x6000C8E")]
-	[Address(RVA = "0x1C7C380", Offset = "0x1C7A980", VA = "0x181C7C380")]
+	[Address(RVA = "0x56102C0", Offset = "0x560F2C0", VA = "0x56102C0")]
 	public static JRaw Create(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C8F")]
-	[Address(RVA = "0x1C7C1F0", Offset = "0x1C7A7F0", VA = "0x181C7C1F0", Slot = "13")]
+	[Address(RVA = "0x56105C0", Offset = "0x560F5C0", VA = "0x56105C0", Slot = "13")]
 	internal override JToken CloneToken(JsonCloneSettings? settings)
 	{
 		return null;

@@ -13,35 +13,35 @@ namespace DG.Tweening.Core.Easing;
 public static class Flash
 {
 	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x57ABC0", Offset = "0x5791C0", VA = "0x18057ABC0")]
+	[Address(RVA = "0x319F110", Offset = "0x319E110", VA = "0x319F110")]
 	public static float Ease(float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x57A950", Offset = "0x578F50", VA = "0x18057A950")]
+	[Address(RVA = "0x319F220", Offset = "0x319E220", VA = "0x319F220")]
 	public static float EaseIn(float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x57AA80", Offset = "0x579080", VA = "0x18057AA80")]
+	[Address(RVA = "0x319F330", Offset = "0x319E330", VA = "0x319F330")]
 	public static float EaseOut(float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x57A7E0", Offset = "0x578DE0", VA = "0x18057A7E0")]
+	[Address(RVA = "0x319F450", Offset = "0x319E450", VA = "0x319F450")]
 	public static float EaseInOut(float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x57ACE0", Offset = "0x5792E0", VA = "0x18057ACE0")]
+	[Address(RVA = "0x31A2410", Offset = "0x31A1410", VA = "0x31A2410")]
 	private static float WeightedEase(float overshootOrAmplitude, float period, int stepIndex, float stepDuration, float dir, float res)
 	{
 		return default(float);

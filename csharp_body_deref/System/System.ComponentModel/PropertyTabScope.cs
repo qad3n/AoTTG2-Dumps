@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000194")]
+[Token(Token = "0x2000155")]
 public enum PropertyTabScope
 {
-	[Token(Token = "0x400068D")]
+	[Token(Token = "0x40005BE")]
 	Static,
-	[Token(Token = "0x400068E")]
+	[Token(Token = "0x40005BF")]
 	Global,
-	[Token(Token = "0x400068F")]
+	[Token(Token = "0x40005C0")]
 	Document,
-	[Token(Token = "0x4000690")]
+	[Token(Token = "0x40005C1")]
 	Component
 }

@@ -46,7 +46,7 @@ public struct LobbyMemberTransaction
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x537750", Offset = "0x535D50", VA = "0x180537750")]
+		[Address(RVA = "0x3141130", Offset = "0x3140130", VA = "0x3141130")]
 		get
 		{
 			return default(FFIMethods);
@@ -54,13 +54,13 @@ public struct LobbyMemberTransaction
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x5376A0", Offset = "0x535CA0", VA = "0x1805376A0")]
+	[Address(RVA = "0x3141220", Offset = "0x3140220", VA = "0x3141220")]
 	public void SetMetadata(string key, string value)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x537600", Offset = "0x535C00", VA = "0x180537600")]
+	[Address(RVA = "0x31412A0", Offset = "0x31402A0", VA = "0x31412A0")]
 	public void DeleteMetadata(string key)
 	{
 	}

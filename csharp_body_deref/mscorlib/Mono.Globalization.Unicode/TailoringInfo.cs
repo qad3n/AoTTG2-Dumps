@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000050")]
+[Token(Token = "0x2000032")]
 internal class TailoringInfo
 {
-	[Token(Token = "0x400015B")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly int LCID;
 
-	[Token(Token = "0x400015C")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x14")]
 	public readonly int TailoringIndex;
 
-	[Token(Token = "0x400015D")]
+	[Token(Token = "0x40000DB")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly int TailoringCount;
 
-	[Token(Token = "0x400015E")]
+	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x1C")]
 	public readonly bool FrenchSort;
 
-	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0xE59FC0", Offset = "0xE585C0", VA = "0x180E59FC0")]
+	[Token(Token = "0x60000A7")]
+	[Address(RVA = "0x52DCC50", Offset = "0x52DBC50", VA = "0x52DCC50")]
 	public TailoringInfo(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort)
 	{
 	}

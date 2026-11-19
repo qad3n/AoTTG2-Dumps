@@ -1,5 +1,5 @@
 // Type: UI.IgnoreScaler
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/IgnoreScaler.cs
@@ -8,36 +8,33 @@
 
 // UI.IgnoreScaler$$ApplyScale
 // il2cpp: void UI_IgnoreScaler__ApplyScale (UI_IgnoreScaler_o* __this, const MethodInfo* method);
-// 0x182212120
+// 0x5cec8b0
 
 void UI_IgnoreScaler__ApplyScale(UI_IgnoreScaler_o *__this,MethodInfo *method)
 
 {
+  Settings_UISettings_o *__this_00;
+  UnityEngine_RectTransform_o *__this_01;
   float fVar1;
-  Settings_UISettings_o *pSVar2;
-  Settings_FloatSetting_o *pSVar3;
-  UnityEngine_RectTransform_o *__this_00;
-  UnityEngine_Vector3_o local_28 [2];
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843470fb == '\0') {
+  if (Il2CppMethodInitialized_07547c68 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
-    Il2CppMethodInitialized_1843470fb = '\x01';
+    Il2CppMethodInitialized_07547c68 = '\x01';
   }
-  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
-  if ((pSVar2 != (Settings_UISettings_o *)0x0) &&
-     (pSVar3 = (pSVar2->fields).UIMasterScale, pSVar3 != (Settings_FloatSetting_o *)0x0)) {
-    fVar1 = (pSVar3->fields)._value;
-    __this_00 = UnityEngine_Component__GetComponent_object_
+  __this_00 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
+  if (__this_00 != (Settings_UISettings_o *)0x0) {
+    fVar1 = Settings_UISettings__get_AppliedMasterScale(__this_00,(MethodInfo *)0x0);
+    __this_01 = UnityEngine_Component__GetComponent_object_
                           ((UnityEngine_Component_o *)__this,
-                           (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
-    local_28[0].fields.x = 1.0 / fVar1;
-    (__this->fields).Scale = local_28[0].fields.x;
-    if (__this_00 != (UnityEngine_RectTransform_o *)0x0) {
-      local_28[0].fields.z = 0.0;
-      local_28[0].fields.y = local_28[0].fields.x;
-      UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)__this_00,local_28,(MethodInfo *)0x0);
+                           (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+    value.fields.x = 1.0 / fVar1;
+    (__this->fields).Scale = value.fields.x;
+    if (__this_01 != (UnityEngine_RectTransform_o *)0x0) {
+      value.fields.y = value.fields.x;
+      value.fields.z = 0.0;
+      UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)__this_01,value,(MethodInfo *)0x0);
       return;
     }
   }
@@ -47,10 +44,9 @@ void UI_IgnoreScaler__ApplyScale(UI_IgnoreScaler_o *__this,MethodInfo *method)
 
 // UI.IgnoreScaler$$.ctor
 // il2cpp: void UI_IgnoreScaler___ctor (UI_IgnoreScaler_o* __this, const MethodInfo* method);
-// 0x182206f90
+// 0x5cec960
 
-void
-UI_IgnoreScaler___ctor(UI_IgnoreScaler_o* __this, MethodInfo* method)
+void UI_IgnoreScaler___ctor(UI_IgnoreScaler_o *__this,MethodInfo *method)
 
 {
   (__this->fields).Scale = 1.0;

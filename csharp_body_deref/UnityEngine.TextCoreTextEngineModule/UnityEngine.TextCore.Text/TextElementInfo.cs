@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextElementInfo
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -179,7 +179,7 @@ internal struct TextElementInfo
 	public bool isVisible;
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x3045FE0", Offset = "0x30445E0", VA = "0x183045FE0", Slot = "3")]
+	[Address(RVA = "0x6A43E40", Offset = "0x6A42E40", VA = "0x6A43E40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

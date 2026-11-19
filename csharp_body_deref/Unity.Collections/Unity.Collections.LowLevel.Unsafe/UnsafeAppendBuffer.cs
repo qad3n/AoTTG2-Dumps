@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 		public bool EndOfBuffer
 		{
 			[Token(Token = "0x6000AFC")]
-			[Address(RVA = "0x29B9010", Offset = "0x29B7610", VA = "0x1829B9010")]
+			[Address(RVA = "0x638C480", Offset = "0x638B480", VA = "0x638C480")]
 			get
 			{
 				return default(bool);
@@ -45,13 +45,13 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000AFA")]
-		[Address(RVA = "0x29B8FF0", Offset = "0x29B75F0", VA = "0x1829B8FF0")]
+		[Address(RVA = "0x638C3C0", Offset = "0x638B3C0", VA = "0x638C3C0")]
 		public Reader(ref UnsafeAppendBuffer buffer)
 		{
 		}
 
 		[Token(Token = "0x6000AFB")]
-		[Address(RVA = "0x29B8FE0", Offset = "0x29B75E0", VA = "0x1829B8FE0")]
+		[Address(RVA = "0x638C470", Offset = "0x638B470", VA = "0x638C470")]
 		public unsafe Reader(void* ptr, int length)
 		{
 		}
@@ -70,7 +70,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000AFF")]
-		[Address(RVA = "0x29B8E70", Offset = "0x29B7470", VA = "0x1829B8E70")]
+		[Address(RVA = "0x638C490", Offset = "0x638B490", VA = "0x638C490")]
 		public unsafe void* ReadNext(int structSize)
 		{
 			//IL_0002: Expected I, but got O
@@ -92,7 +92,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 		}
 
 		[Token(Token = "0x6000B02")]
-		[Address(RVA = "0x29B8C90", Offset = "0x29B7290", VA = "0x1829B8C90")]
+		[Address(RVA = "0x638C4D0", Offset = "0x638B4D0", VA = "0x638C4D0")]
 		[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 		[Conditional("UNITY_DOTS_DEBUG")]
 		private void CheckBounds(int structSize)
@@ -126,7 +126,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000AEB")]
-		[Address(RVA = "0xC40300", Offset = "0xC3E900", VA = "0x180C40300")]
+		[Address(RVA = "0x638C190", Offset = "0x638B190", VA = "0x638C190")]
 		get
 		{
 			return default(bool);
@@ -138,7 +138,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000AEC")]
-		[Address(RVA = "0xA507A0", Offset = "0xA4EDA0", VA = "0x180A507A0")]
+		[Address(RVA = "0x638C1A0", Offset = "0x638B1A0", VA = "0x638C1A0")]
 		get
 		{
 			return default(bool);
@@ -146,44 +146,44 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000AE9")]
-	[Address(RVA = "0x29BDDF0", Offset = "0x29BC3F0", VA = "0x1829BDDF0")]
+	[Address(RVA = "0x638C030", Offset = "0x638B030", VA = "0x638C030")]
 	public UnsafeAppendBuffer(int initialCapacity, int alignment, AllocatorManager.AllocatorHandle allocator)
 	{
 	}
 
 	[Token(Token = "0x6000AEA")]
-	[Address(RVA = "0x29BDD60", Offset = "0x29BC360", VA = "0x1829BDD60")]
+	[Address(RVA = "0x638C110", Offset = "0x638B110", VA = "0x638C110")]
 	public unsafe UnsafeAppendBuffer(void* ptr, int length)
 	{
 	}
 
 	[Token(Token = "0x6000AED")]
-	[Address(RVA = "0x29BDA60", Offset = "0x29BC060", VA = "0x1829BDA60", Slot = "5")]
+	[Address(RVA = "0x638C1B0", Offset = "0x638B1B0", VA = "0x638C1B0", Slot = "5")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000AEE")]
-	[Address(RVA = "0x29BDB00", Offset = "0x29BC100", VA = "0x1829BDB00", Slot = "4")]
+	[Address(RVA = "0x638C240", Offset = "0x638B240", VA = "0x638C240", Slot = "4")]
 	public JobHandle Dispose(JobHandle inputDeps)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x6000AEF")]
-	[Address(RVA = "0xEC4FE0", Offset = "0xEC35E0", VA = "0x180EC4FE0")]
+	[Address(RVA = "0x638C300", Offset = "0x638B300", VA = "0x638C300")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000AF0")]
-	[Address(RVA = "0x29BDC80", Offset = "0x29BC280", VA = "0x1829BDC80")]
+	[Address(RVA = "0x638C050", Offset = "0x638B050", VA = "0x638C050")]
 	public void SetCapacity(int capacity)
 	{
 	}
 
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x29BDC50", Offset = "0x29BC250", VA = "0x1829BDC50")]
+	[Address(RVA = "0x638C310", Offset = "0x638B310", VA = "0x638C310")]
 	public void ResizeUninitialized(int length)
 	{
 	}
@@ -195,7 +195,7 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000AF3")]
-	[Address(RVA = "0x29BD960", Offset = "0x29BBF60", VA = "0x1829BD960")]
+	[Address(RVA = "0x638C330", Offset = "0x638B330", VA = "0x638C330")]
 	public unsafe void Add(void* ptr, int structSize)
 	{
 	}
@@ -220,20 +220,20 @@ public struct UnsafeAppendBuffer : INativeDisposable, IDisposable
 	}
 
 	[Token(Token = "0x6000AF7")]
-	[Address(RVA = "0x29BDC10", Offset = "0x29BC210", VA = "0x1829BDC10")]
+	[Address(RVA = "0x638C370", Offset = "0x638B370", VA = "0x638C370")]
 	public unsafe void Pop(void* ptr, int structSize)
 	{
 	}
 
 	[Token(Token = "0x6000AF8")]
-	[Address(RVA = "0xF0D7C0", Offset = "0xF0BDC0", VA = "0x180F0D7C0")]
+	[Address(RVA = "0x638C3B0", Offset = "0x638B3B0", VA = "0x638C3B0")]
 	public Reader AsReader()
 	{
 		return default(Reader);
 	}
 
 	[Token(Token = "0x6000AF9")]
-	[Address(RVA = "0x29BD9B0", Offset = "0x29BBFB0", VA = "0x1829BD9B0")]
+	[Address(RVA = "0x638C3E0", Offset = "0x638B3E0", VA = "0x638C3E0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckAlignment(int alignment)

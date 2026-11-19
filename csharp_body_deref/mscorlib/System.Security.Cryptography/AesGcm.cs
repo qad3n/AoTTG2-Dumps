@@ -10,69 +10,69 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000350")]
+[Token(Token = "0x2000329")]
 public sealed class AesGcm : IDisposable
 {
-	[Token(Token = "0x17000306")]
+	[Token(Token = "0x17000305")]
 	public static KeySizes NonceByteSizes
 	{
-		[Token(Token = "0x6001BE1")]
-		[Address(RVA = "0x19D25B0", Offset = "0x19D0BB0", VA = "0x1819D25B0")]
+		[Token(Token = "0x6001BBE")]
+		[Address(RVA = "0x5362440", Offset = "0x5361440", VA = "0x5362440")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000307")]
+	[Token(Token = "0x17000306")]
 	public static KeySizes TagByteSizes
 	{
-		[Token(Token = "0x6001BE2")]
-		[Address(RVA = "0x19D25F0", Offset = "0x19D0BF0", VA = "0x1819D25F0")]
+		[Token(Token = "0x6001BBF")]
+		[Address(RVA = "0x5362480", Offset = "0x5361480", VA = "0x5362480")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001BDF")]
-	[Address(RVA = "0x19D2510", Offset = "0x19D0B10", VA = "0x1819D2510")]
+	[Token(Token = "0x6001BBC")]
+	[Address(RVA = "0x53623C0", Offset = "0x53613C0", VA = "0x53623C0")]
 	public AesGcm(byte[] key)
 	{
 	}
 
-	[Token(Token = "0x6001BE0")]
-	[Address(RVA = "0x19D2560", Offset = "0x19D0B60", VA = "0x1819D2560")]
+	[Token(Token = "0x6001BBD")]
+	[Address(RVA = "0x5362400", Offset = "0x5361400", VA = "0x5362400")]
 	public AesGcm(ReadOnlySpan<byte> key)
 	{
 	}
 
-	[Token(Token = "0x6001BE3")]
-	[Address(RVA = "0x19D2410", Offset = "0x19D0A10", VA = "0x1819D2410")]
+	[Token(Token = "0x6001BC0")]
+	[Address(RVA = "0x53624C0", Offset = "0x53614C0", VA = "0x53624C0")]
 	public void Decrypt(byte[] nonce, byte[] ciphertext, byte[] tag, byte[] plaintext, [Optional] byte[] associatedData)
 	{
 	}
 
-	[Token(Token = "0x6001BE4")]
-	[Address(RVA = "0x19D2450", Offset = "0x19D0A50", VA = "0x1819D2450")]
+	[Token(Token = "0x6001BC1")]
+	[Address(RVA = "0x5362500", Offset = "0x5361500", VA = "0x5362500")]
 	public void Decrypt(ReadOnlySpan<byte> nonce, ReadOnlySpan<byte> ciphertext, ReadOnlySpan<byte> tag, Span<byte> plaintext, [Optional] ReadOnlySpan<byte> associatedData)
 	{
 	}
 
-	[Token(Token = "0x6001BE5")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x6001BC2")]
+	[Address(RVA = "0x5362540", Offset = "0x5361540", VA = "0x5362540", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001BE6")]
-	[Address(RVA = "0x19D2490", Offset = "0x19D0A90", VA = "0x1819D2490")]
+	[Token(Token = "0x6001BC3")]
+	[Address(RVA = "0x5362550", Offset = "0x5361550", VA = "0x5362550")]
 	public void Encrypt(byte[] nonce, byte[] plaintext, byte[] ciphertext, byte[] tag, [Optional] byte[] associatedData)
 	{
 	}
 
-	[Token(Token = "0x6001BE7")]
-	[Address(RVA = "0x19D24D0", Offset = "0x19D0AD0", VA = "0x1819D24D0")]
+	[Token(Token = "0x6001BC4")]
+	[Address(RVA = "0x5362590", Offset = "0x5361590", VA = "0x5362590")]
 	public void Encrypt(ReadOnlySpan<byte> nonce, ReadOnlySpan<byte> plaintext, Span<byte> ciphertext, Span<byte> tag, [Optional] ReadOnlySpan<byte> associatedData)
 	{
 	}

@@ -21,7 +21,7 @@ internal struct NamespaceCache
 	private string _namespaceName;
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x25E44E0", Offset = "0x25E2AE0", VA = "0x1825E44E0")]
+	[Address(RVA = "0x5FA2FF0", Offset = "0x5FA1FF0", VA = "0x5FA2FF0")]
 	public XNamespace Get(string namespaceName)
 	{
 		return null;

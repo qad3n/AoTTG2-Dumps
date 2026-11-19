@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class UxmlHash128AttributeDescription : TypedUxmlAttributeDescription<Hash128>
 {
 	[Token(Token = "0x600269E")]
-	[Address(RVA = "0x3156BA0", Offset = "0x31551A0", VA = "0x183156BA0")]
+	[Address(RVA = "0x6B5A460", Offset = "0x6B59460", VA = "0x6B5A460")]
 	public UxmlHash128AttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x600269F")]
-	[Address(RVA = "0x31569E0", Offset = "0x3154FE0", VA = "0x1831569E0", Slot = "4")]
+	[Address(RVA = "0x6B5A4F0", Offset = "0x6B594F0", VA = "0x6B5A4F0", Slot = "4")]
 	public override Hash128 GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(Hash128);

@@ -13,19 +13,19 @@ namespace Photon.Voice;
 internal class DeviceEnumeratorSingleDevice : DeviceEnumeratorBase
 {
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x1D68EC0", Offset = "0x1D674C0", VA = "0x181D68EC0")]
+	[Address(RVA = "0x5704B70", Offset = "0x5703B70", VA = "0x5704B70")]
 	public DeviceEnumeratorSingleDevice(ILogger logger, string deviceName)
 	{
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x1D68E60", Offset = "0x1D67460", VA = "0x181D68E60", Slot = "14")]
+	[Address(RVA = "0x5704D70", Offset = "0x5703D70", VA = "0x5704D70", Slot = "14")]
 	public override void Refresh()
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
+	[Address(RVA = "0x5704D90", Offset = "0x5703D90", VA = "0x5704D90", Slot = "15")]
 	public override void Dispose()
 	{
 	}

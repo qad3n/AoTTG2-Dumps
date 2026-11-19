@@ -15,12 +15,12 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x2000029")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationScriptPlayable.bindings.h")]
-[MovedFrom("UnityEngine.Experimental.Animations")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[MovedFrom("UnityEngine.Experimental.Animations")]
 [UnityEngine.Bindings.StaticAccessor("AnimationScriptPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
 public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable>
 {
 	[Token(Token = "0x4000065")]
@@ -32,20 +32,20 @@ public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable>
 	private static readonly AnimationScriptPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x2EAC700", Offset = "0x2EAAD00", VA = "0x182EAC700")]
+	[Address(RVA = "0x68AD0D0", Offset = "0x68AC0D0", VA = "0x68AD0D0")]
 	internal AnimationScriptPlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68AD1C0", Offset = "0x68AC1C0", VA = "0x68AD1C0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2EAC520", Offset = "0x2EAAB20", VA = "0x182EAC520", Slot = "4")]
+	[Address(RVA = "0x68AD1D0", Offset = "0x68AC1D0", VA = "0x68AD1D0", Slot = "4")]
 	public bool Equals(AnimationScriptPlayable other)
 	{
 		return default(bool);

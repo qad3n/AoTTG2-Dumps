@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x2000653")]
+[Token(Token = "0x200062E")]
 public interface IPinnable
 {
-	[Token(Token = "0x6003069")]
+	[Token(Token = "0x6003048")]
 	void Unpin();
 }

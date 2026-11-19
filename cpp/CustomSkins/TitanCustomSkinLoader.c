@@ -1,21 +1,21 @@
 // Type: CustomSkins.TitanCustomSkinLoader
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomSkins/TitanCustomSkinLoader.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomSkins/CustomSkinLoaders/TitanCustomSkinLoader.cs
 // --------------------------------
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$.ctor
 // il2cpp: void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5___ctor (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x59628e0
 
-void
-CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5___ctor(CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, int32_t __1__state, MethodInfo* method)
+void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5___ctor
+               (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5___ctor(CustomSkins_Tita
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$System.IDisposable.Dispose
 // il2cpp: void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_IDisposable_Dispose (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5962f00
 
-void
-CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_IDisposable_Dispose(CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, MethodInfo* method)
+void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_IDisposable_Dispose
+               (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,MethodInfo *method)
 
 {
   return;
@@ -35,103 +35,139 @@ CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_IDisposable_Dis
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$MoveNext
 // il2cpp: bool CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__MoveNext (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, const MethodInfo* method);
-// 0x181e99b60
+// 0x5962f10
+// asm: 27 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5963087: lea rax, [rip + 0x191d492]  ; TypeInfo_CustomSkins_BaseCustomSkinPart_LoadSkin_d__11
+// asm:   0x596308e: mov rdi, qword ptr [rax]
+// asm:   0x5963091: call 0x30d6370  ; il2cpp_runtime_helper_030d6370()
+// asm:   0x5963096: mov r13, rax
+// asm:   0x5963099: mov rdi, rax
+// asm:   0x596309c: xor esi, esi
+// asm:   0x596309e: call 0x5606160  ; System_Object___ctor()
+// asm:   0x59630a3: mov dword ptr [r13 + 0x10], 0
+// asm:   0x59630ab: lea rdi, [r13 + 0x28]
+// asm:   0x59630af: mov qword ptr [r13 + 0x28], r15
+// asm:   0x59630b3: mov rsi, r15
+// asm:   0x59630b6: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x59630bb: lea rdi, [r13 + 0x20]
+// asm:   0x59630bf: mov qword ptr [r13 + 0x20], r12
+// asm:   0x59630c3: mov rsi, r12
+// asm:   0x59630c6: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x59630cb: mov rdi, r14
+// asm:   0x59630ce: mov rsi, r13
+// asm:   0x59630d1: xor edx, edx
+// asm:   0x59630d3: call 0x6a1c390  ; UnityEngine_MonoBehaviour__StartCoroutine()
+// asm:   0x59630d8: lea rdi, [rbp + 0x18]
+// asm:   0x59630dc: mov qword ptr [rbp + 0x18], rax
+// asm:   0x59630e0: mov rsi, rax
+// asm:   0x59630e3: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x59630e8: mov dword ptr [rbp + 0x10], 1
+// asm:   0x59630ef: mov al, 1
+// asm:   0x59630f1: jmp 0x596303d
 
 bool CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__MoveNext
                (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,MethodInfo *method)
 
 {
-  int32_t *piVar1;
+  uint uVar1;
   int iVar2;
-  uint uVar3;
   CustomSkins_TitanCustomSkinLoader_o *__this_00;
-  System_Object_array *pSVar4;
-  System_String_o *pSVar5;
-  bool bVar6;
-  System_String_o *pSVar7;
-  System_String_array *pSVar8;
+  System_Object_array *pSVar3;
+  System_String_o *pSVar4;
+  bool bVar5;
+  System_String_array *pSVar6;
   CustomSkins_BaseCustomSkinPart_o *__this_01;
-  System_Collections_IEnumerator_o *routine;
-  UnityEngine_Coroutine_o *value;
+  CustomSkins_BaseCustomSkinPart__LoadSkin_d__11_o *__this_02;
+  UnityEngine_Coroutine_o *pUVar7;
+  uint uVar8;
+  undefined1 auVar9 [16];
   
   iVar2 = (__this->fields).__1__state;
   __this_00 = (__this->fields).__4__this;
-  if (iVar2 != 0) {
-    if (iVar2 != 1) {
-      return false;
-    }
+  if (iVar2 == 1) {
     (__this->fields).__1__state = -1;
-    goto label_181e99c03;
+    goto label_0596302a;
   }
-  pSVar4 = (__this->fields).data;
+  if (iVar2 != 0) {
+    return false;
+  }
   (__this->fields).__1__state = -1;
-  if (pSVar4 != (System_Object_array *)0x0) {
-    if ((int)pSVar4->max_length == 0) {
-label_181e99d13:
+  pSVar3 = (__this->fields).data;
+  if (pSVar3 != (System_Object_array *)0x0) {
+    if ((int)pSVar3->max_length == 0) {
+label_059630fb:
       ThrowIndexOutOfRangeException();
     }
-    pSVar5 = (System_String_o *)pSVar4->m_Items[0];
-    if (pSVar5 != (System_String_o *)0x0) {
-      pSVar7 = (System_String_o *)0x0;
-      if ((Il2CppClass *)pSVar5->klass == g_data_184354e50) {
-        pSVar7 = pSVar5;
+    pSVar4 = (System_String_o *)pSVar3->m_Items[0];
+    if (pSVar4 != (System_String_o *)0x0) {
+      if (pSVar4->klass != g_data_07556758) {
+        il2cpp_codegen_raise_invalid_cast_exception();
       }
-      if (pSVar7 == (System_String_o *)0x0) {
-        il2cpp_codegen_raise_invalid_cast_exception(pSVar5);
-      }
-      pSVar7 = (System_String_o *)0x0;
-      if ((Il2CppClass *)pSVar5->klass == g_data_184354e50) {
-        pSVar7 = pSVar5;
-      }
-      pSVar8 = System_String__Split(pSVar7,0x2c,0,(MethodInfo *)0x0);
-      (__this->fields)._skinUrls_5__2 = pSVar8;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._skinUrls_5__2,pSVar8);
+      uVar8 = 0;
+      pSVar6 = System_String__Split(pSVar4,0x2c,0,(MethodInfo *)0x0);
+      (__this->fields)._skinUrls_5__2 = pSVar6;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._skinUrls_5__2);
       (__this->fields)._partId_5__3 = 0;
       do {
-        if (3 < (__this->fields)._partId_5__3) {
+        if (3 < (int)uVar8) {
           return false;
         }
-        pSVar8 = (__this->fields)._skinUrls_5__2;
-        if (pSVar8 == (System_String_array *)0x0) break;
-        if ((__this->fields)._partId_5__3 < (int)pSVar8->max_length) {
-          pSVar8 = (__this->fields)._skinUrls_5__2;
-          uVar3 = (__this->fields)._partId_5__3;
-          if ((uint)pSVar8->max_length <= uVar3) goto label_181e99d13;
-          bVar6 = System_String__IsNullOrEmpty(pSVar8->m_Items[(int)uVar3],(MethodInfo *)0x0);
-          if (!bVar6) {
+        pSVar6 = (__this->fields)._skinUrls_5__2;
+        if (pSVar6 == (System_String_array *)0x0) break;
+        uVar1 = (uint)pSVar6->max_length;
+        if ((int)uVar8 < (int)uVar1) {
+          if (uVar1 <= uVar8) goto label_059630fb;
+          bVar5 = System_String__IsNullOrEmpty(pSVar6->m_Items[(int)uVar8],(MethodInfo *)0x0);
+          if (!bVar5) {
             if (__this_00 == (CustomSkins_TitanCustomSkinLoader_o *)0x0) break;
-            __this_01 = (*(__this_00->klass->vtable)._6_GetCustomSkinPart.methodPtr)
-                                  (__this_00,(__this->fields)._partId_5__3,
-                                   (__this_00->klass->vtable)._6_GetCustomSkinPart.method);
+            auVar9 = (undefined1  [16])
+                     (*(__this_00->klass->vtable)._6_GetCustomSkinPart.methodPtr)
+                               (__this_00,(__this->fields)._partId_5__3,
+                                (__this_00->klass->vtable)._6_GetCustomSkinPart.method);
+            __this_01 = auVar9._0_8_;
             if (__this_01 != (CustomSkins_BaseCustomSkinPart_o *)0x0) {
-              pSVar8 = (__this->fields)._skinUrls_5__2;
-              if (pSVar8 == (System_String_array *)0x0) break;
-              uVar3 = (__this->fields)._partId_5__3;
-              if ((uint)pSVar8->max_length <= uVar3) goto label_181e99d13;
-              bVar6 = CustomSkins_BaseCustomSkinPart__LoadCache
-                                (__this_01,pSVar8->m_Items[(int)uVar3],(MethodInfo *)0x0);
-              if (!bVar6) {
-                pSVar8 = (__this->fields)._skinUrls_5__2;
-                if (pSVar8 == (System_String_array *)0x0) break;
-                uVar3 = (__this->fields)._partId_5__3;
-                if (uVar3 < (uint)pSVar8->max_length) {
-                  routine = CustomSkins_BaseCustomSkinPart__LoadSkin
-                                      (__this_01,pSVar8->m_Items[(int)uVar3],(MethodInfo *)0x0);
-                  value = UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                                    ((UnityEngine_MonoBehaviour_o *)__this_00,routine,(MethodInfo *)0x0);
-                  (__this->fields).__2__current = (Il2CppObject *)value;
-                  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,value);
+              pSVar6 = (__this->fields)._skinUrls_5__2;
+              if (pSVar6 == (System_String_array *)0x0) break;
+              uVar8 = (__this->fields)._partId_5__3;
+              if ((uint)pSVar6->max_length <= uVar8) goto label_059630fb;
+              bVar5 = CustomSkins_BaseCustomSkinPart__LoadCache
+                                (__this_01,pSVar6->m_Items[(int)uVar8],auVar9._8_8_);
+              if (!bVar5) {
+                pSVar6 = (__this->fields)._skinUrls_5__2;
+                if (pSVar6 == (System_String_array *)0x0) break;
+                uVar8 = (__this->fields)._partId_5__3;
+                if (uVar8 < (uint)pSVar6->max_length) {
+                  pSVar4 = pSVar6->m_Items[(int)uVar8];
+                  if (Il2CppMethodInitialized_07545932 == '\0') {
+                    il2cpp_codegen_initialize_runtime_metadata
+                              (&TypeInfo_CustomSkins_BaseCustomSkinPart_LoadSkin_d__11);
+                    Il2CppMethodInitialized_07545932 = '\x01';
+                  }
+                  __this_02 = il2cpp_codegen_object_new
+                                        ((Il2CppClass *)TypeInfo_CustomSkins_BaseCustomSkinPart_LoadSkin_d__11
+                                        );
+                  System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
+                  (__this_02->fields).__1__state = 0;
+                  (__this_02->fields).__4__this = __this_01;
+                  Il2CppCodeGenWriteBarrier(&(__this_02->fields).__4__this);
+                  (__this_02->fields).url = pSVar4;
+                  Il2CppCodeGenWriteBarrier(&(__this_02->fields).url);
+                  pUVar7 = UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                                     ((UnityEngine_MonoBehaviour_o *)__this_00,
+                                      (System_Collections_IEnumerator_o *)__this_02,(MethodInfo *)0x0);
+                  (__this->fields).__2__current = (Il2CppObject *)pUVar7;
+                  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
                   (__this->fields).__1__state = 1;
                   return true;
                 }
-                goto label_181e99d13;
+                goto label_059630fb;
               }
             }
           }
         }
-label_181e99c03:
-        piVar1 = &(__this->fields)._partId_5__3;
-        *piVar1 = *piVar1 + 1;
+label_0596302a:
+        uVar8 = (__this->fields)._partId_5__3 + 1;
+        (__this->fields)._partId_5__3 = uVar8;
       } while( true );
     }
   }
@@ -141,10 +177,11 @@ label_181e99c03:
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_Generic_IEnumerator_System_Object__get_Current (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5963100
 
-Il2CppObject*
-CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_Generic_IEnumerator_System_Object__get_Current(CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -153,7 +190,7 @@ CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_Gen
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$System.Collections.IEnumerator.Reset
 // il2cpp: void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEnumerator_Reset (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, const MethodInfo* method);
-// 0x181e99d20
+// 0x5963110
 
 void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEnumerator_Reset
                (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,MethodInfo *method)
@@ -177,10 +214,11 @@ void CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collection
 
 // CustomSkins.TitanCustomSkinLoader.<LoadSkinsFromRPC>d__5$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEnumerator_get_Current (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5963150
 
-Il2CppObject*
-CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEnumerator_get_Current(CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEnumerator_get_Current
+          (CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -189,16 +227,16 @@ CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5__System_Collections_IEn
 
 // CustomSkins.TitanCustomSkinLoader$$get_RendererIdPrefix
 // il2cpp: System_String_o* CustomSkins_TitanCustomSkinLoader__get_RendererIdPrefix (CustomSkins_TitanCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e96130
+// 0x5962690
 
 System_String_o *
 CustomSkins_TitanCustomSkinLoader__get_RendererIdPrefix
           (CustomSkins_TitanCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f9b == '\0') {
+  if (Il2CppMethodInitialized_07545929 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"titan");
-    Il2CppMethodInitialized_184344f9b = '\x01';
+    Il2CppMethodInitialized_07545929 = '\x01';
   }
   return "titan";
 }
@@ -206,7 +244,7 @@ CustomSkins_TitanCustomSkinLoader__get_RendererIdPrefix
 
 // CustomSkins.TitanCustomSkinLoader$$get_AllowLocalFileTextures
 // il2cpp: bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures (CustomSkins_TitanCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e95f90
+// 0x59626c0
 
 bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures
                (CustomSkins_TitanCustomSkinLoader_o *__this,MethodInfo *method)
@@ -218,12 +256,12 @@ bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures
   Characters_DummyTitan_o *x;
   Characters_BasicTitan_o *x_00;
   
-  if (Il2CppMethodInitialized_184344f9c == '\0') {
+  if (Il2CppMethodInitialized_0754592a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_BasicTitan);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_DummyTitan);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    Il2CppMethodInitialized_184344f9c = '\x01';
+    Il2CppMethodInitialized_0754592a = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields)._owner;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -232,9 +270,9 @@ bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures
   bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar3) {
     pUVar2 = (__this->fields)._owner;
-    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_181e9611c;
+    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_0596284e;
     x = UnityEngine_GameObject__GetComponent_object_
-                  (pUVar2,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_DummyTitan);
+                  (pUVar2,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_DummyTitan);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
@@ -252,15 +290,13 @@ bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  x_00 = (Characters_BasicTitan_o *)0x0;
   bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar3) {
     pUVar2 = (__this->fields)._owner;
-    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_181e9611c;
+    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_0596284e;
     x_00 = UnityEngine_GameObject__GetComponent_object_
-                     (pUVar2,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_BasicTitan);
-  }
-  else {
-    x_00 = (Characters_BasicTitan_o *)0x0;
+                     (pUVar2,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_BasicTitan);
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -269,7 +305,7 @@ bool CustomSkins_TitanCustomSkinLoader__get_AllowLocalFileTextures
                     ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar3) {
     if (x_00 == (Characters_BasicTitan_o *)0x0) {
-label_181e9611c:
+label_0596284e:
       ThrowNullReferenceException();
     }
     bVar3 = UnityEngine_Behaviour__get_enabled((UnityEngine_Behaviour_o *)x_00,(MethodInfo *)0x0);
@@ -284,7 +320,7 @@ label_181e9611c:
 
 // CustomSkins.TitanCustomSkinLoader$$LoadSkinsFromRPC
 // il2cpp: System_Collections_IEnumerator_o* CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC (CustomSkins_TitanCustomSkinLoader_o* __this, System_Object_array* data, const MethodInfo* method);
-// 0x181e95eb0
+// 0x5962860
 
 System_Collections_IEnumerator_o *
 CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC
@@ -293,181 +329,200 @@ CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC
 {
   CustomSkins_TitanCustomSkinLoader__LoadSkinsFromRPC_d__5_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344f9d == '\0') {
+  if (Il2CppMethodInitialized_0754592b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomSkins_TitanCustomSkinLoader_LoadSkinsFromRPC_d__5);
-    Il2CppMethodInitialized_184344f9d = '\x01';
+    Il2CppMethodInitialized_0754592b = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomSkins_TitanCustomSkinLoader_LoadSkinsFromRPC_d__5);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   (__this_00->fields).data = data;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).data,data);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).data);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // CustomSkins.TitanCustomSkinLoader$$GetCustomSkinPart
 // il2cpp: CustomSkins_BaseCustomSkinPart_o* CustomSkins_TitanCustomSkinLoader__GetCustomSkinPart (CustomSkins_TitanCustomSkinLoader_o* __this, int32_t partId, const MethodInfo* method);
-// 0x181e95b30
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e95e86: movss dword ptr [rbx + 0x2c], xmm0
-// asm:   0x181e95e8b: mov rax, rbx
-// asm:   0x181e95e8e: movss dword ptr [rbx + 0x30], xmm1
-// asm:   0x181e95e93: mov byte ptr [rbx + 0x3c], 0
-// asm:   0x181e95e97: jmp 0x181e95c26
+// 0x5962900
 
 CustomSkins_BaseCustomSkinPart_o *
 CustomSkins_TitanCustomSkinLoader__GetCustomSkinPart
           (CustomSkins_TitanCustomSkinLoader_o *__this,int32_t partId,MethodInfo *method)
 
 {
-  UnityEngine_Transform_o *pUVar1;
+  bool bVar1;
+  UnityEngine_Transform_o *pUVar2;
   System_Collections_Generic_List_Renderer__o *renderers;
-  UnityEngine_GameObject_o *pUVar2;
-  System_String_o *pSVar3;
+  UnityEngine_GameObject_o *pUVar3;
+  UnityEngine_Object_o *x;
+  System_String_o *pSVar4;
+  System_String_o *pSVar5;
   CustomSkins_TitanCustomSkinPart_o *__this_00;
-  UnityEngine_Vector2_o UVar4;
-  int32_t iVar5;
-  float fVar6;
-  float fStackX_c;
-  System_Nullable_Vector2__Fields local_18;
+  uint *method_00;
+  System_String_o **ppSVar6;
+  System_Collections_Generic_List_Renderer__o *__this_01;
+  CustomSkins_BaseCustomSkinLoader_o *pCVar7;
+  int32_t iStack_2c;
   
-  if (Il2CppMethodInitialized_184344f9e == '\0') {
+  if (Il2CppMethodInitialized_0754592c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Renderer_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Renderer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_TitanCustomSkinPart);
     il2cpp_codegen_initialize_runtime_metadata(&"Eyes");
     il2cpp_codegen_initialize_runtime_metadata(&"Body");
     il2cpp_codegen_initialize_runtime_metadata(&"Head");
     il2cpp_codegen_initialize_runtime_metadata(&"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head");
     il2cpp_codegen_initialize_runtime_metadata(&"HairSocket");
-    Il2CppMethodInitialized_184344f9e = '\x01';
+    Il2CppMethodInitialized_0754592c = '\x01';
   }
-  pUVar2 = (__this->fields)._owner;
-  if ((pUVar2 == (UnityEngine_GameObject_o *)0x0) ||
-     (pUVar1 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0),
-     pUVar1 == (UnityEngine_Transform_o *)0x0)) {
-label_181e95e9c:
+  pUVar3 = (__this->fields)._owner;
+  if ((pUVar3 == (UnityEngine_GameObject_o *)0x0) ||
+     (pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0),
+     pUVar2 == (UnityEngine_Transform_o *)0x0)) {
+label_05962d8d:
     ThrowNullReferenceException();
   }
-  pUVar1 = UnityEngine_Transform__Find(pUVar1,"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head",(MethodInfo *)0x0);
+  __this_00 = (CustomSkins_TitanCustomSkinPart_o *)0x0;
+  pUVar2 = UnityEngine_Transform__Find(pUVar2,"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head",(MethodInfo *)0x0);
   renderers = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Renderer);
+  __this_01 = renderers;
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)renderers,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Renderer_ctor);
-  if (partId == 0) {
-    pUVar2 = (__this->fields)._owner;
-    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_181e95e9c;
-    pUVar1 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0);
-    pUVar2 = CustomSkins_TitanCustomSkinLoader__FindChild
-                       (__this,pUVar1,"Body",(MethodInfo *)0x0);
+            ((System_Collections_Generic_List_object__o *)renderers,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Renderer_ctor);
+  method_00 = &switchD_05962a03::switchdataD_010a57f4;
+  switch(partId) {
+  case 0:
+    pCVar7 = (CustomSkins_BaseCustomSkinLoader_o *)(__this->fields)._owner;
+    if (pCVar7 == (CustomSkins_BaseCustomSkinLoader_o *)0x0) goto label_05962d8d;
+    pUVar2 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pCVar7,(MethodInfo *)0x0);
+    ppSVar6 = &"Body";
+    pUVar3 = CustomSkins_TitanCustomSkinLoader__FindChild
+                       ((CustomSkins_TitanCustomSkinLoader_o *)pCVar7,pUVar2,"Body",
+                        (MethodInfo *)&"Body");
+    CustomSkins_BaseCustomSkinLoader__AddRendererIfExists(pCVar7,renderers,pUVar3,(MethodInfo *)ppSVar6);
+    iStack_2c = 0;
+    break;
+  case 1:
+    pCVar7 = (CustomSkins_BaseCustomSkinLoader_o *)(__this->fields)._owner;
+    if (pCVar7 == (CustomSkins_BaseCustomSkinLoader_o *)0x0) goto label_05962d8d;
+    pUVar2 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pCVar7,(MethodInfo *)0x0);
+    ppSVar6 = &"Head";
+    pUVar3 = CustomSkins_TitanCustomSkinLoader__FindChild
+                       ((CustomSkins_TitanCustomSkinLoader_o *)pCVar7,pUVar2,"Head",
+                        (MethodInfo *)&"Head");
+    CustomSkins_BaseCustomSkinLoader__AddRendererIfExists(pCVar7,renderers,pUVar3,(MethodInfo *)ppSVar6);
+    iStack_2c = 1;
+    break;
+  case 2:
+    pUVar3 = CustomSkins_TitanCustomSkinLoader__FindChild
+                       ((CustomSkins_TitanCustomSkinLoader_o *)__this_01,pUVar2,"Eyes",
+                        (MethodInfo *)&switchD_05962a03::switchdataD_010a57f4);
     CustomSkins_BaseCustomSkinLoader__AddRendererIfExists
-              ((CustomSkins_BaseCustomSkinLoader_o *)__this,renderers,pUVar2,(MethodInfo *)0x0);
-    iVar5 = 0;
-  }
-  else {
-    if (partId != 1) {
-      if (partId == 2) {
-        pUVar2 = CustomSkins_TitanCustomSkinLoader__FindChild
-                           (__this,pUVar1,"Eyes",(MethodInfo *)0x0);
-        CustomSkins_BaseCustomSkinLoader__AddRendererIfExists
-                  ((CustomSkins_BaseCustomSkinLoader_o *)__this,renderers,pUVar2,(MethodInfo *)0x0);
-        iVar5 = 2;
-      }
-      else {
-        if (partId != 3) {
-          return (CustomSkins_BaseCustomSkinPart_o *)0x0;
-        }
-        pUVar2 = CustomSkins_TitanCustomSkinLoader__FindChild
-                           (__this,pUVar1,"HairSocket",(MethodInfo *)0x0);
-        CustomSkins_BaseCustomSkinLoader__AddAllRenderersIfExists
-                  ((CustomSkins_BaseCustomSkinLoader_o *)__this,renderers,pUVar2,(MethodInfo *)0x0);
-        iVar5 = 3;
-      }
-      pSVar3 = CustomSkins_BaseCustomSkinLoader__GetRendererId
-                         ((CustomSkins_BaseCustomSkinLoader_o *)__this,iVar5,(MethodInfo *)0x0);
-      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomSkins_TitanCustomSkinPart);
-      local_18.value.fields.y = 0.0;
-      local_18.hasValue = false;
-      local_18._1_3_ = 0;
-      local_18.value.fields.x = 0.0;
-      if (Il2CppMethodInitialized_184344fa1 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_HasValue);
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_Value);
-        Il2CppMethodInitialized_184344fa1 = '\x01';
-      }
-      (__this_00->fields)._defaultTextureScale.fields.x = 1.0;
-      (__this_00->fields)._defaultTextureScale.fields.y = 1.0;
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-      (__this_00->fields)._loader = (CustomSkins_BaseCustomSkinLoader_o *)__this;
-      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader,__this);
-      (__this_00->fields)._renderers = renderers;
-      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers,renderers);
-      (__this_00->fields)._rendererId = pSVar3;
-      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId,pSVar3);
-      (__this_00->fields)._maxSize = 500000;
-      goto label_181e95e51;
+              ((CustomSkins_BaseCustomSkinLoader_o *)__this_01,renderers,pUVar3,(MethodInfo *)method_00);
+    iStack_2c = 2;
+    pSVar4 = (*(__this->klass->vtable)._4_get_RendererIdPrefix.methodPtr)
+                       (__this,(__this->klass->vtable)._4_get_RendererIdPrefix.method);
+    pSVar5 = System_Int32__ToString(&iStack_2c,(MethodInfo *)0x0);
+    pSVar4 = System_String__Concat_52f0320(pSVar4,pSVar5,(MethodInfo *)0x0);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomSkins_TitanCustomSkinPart);
+    if (Il2CppMethodInitialized_0754592f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_HasValue);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_Value);
+      Il2CppMethodInitialized_0754592f = '\x01';
     }
-    pUVar2 = (__this->fields)._owner;
-    if (pUVar2 == (UnityEngine_GameObject_o *)0x0) goto label_181e95e9c;
-    pUVar1 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0);
-    pUVar2 = CustomSkins_TitanCustomSkinLoader__FindChild
-                       (__this,pUVar1,"Head",(MethodInfo *)0x0);
-    CustomSkins_BaseCustomSkinLoader__AddRendererIfExists
-              ((CustomSkins_BaseCustomSkinLoader_o *)__this,renderers,pUVar2,(MethodInfo *)0x0);
-    iVar5 = 1;
+    (__this_00->fields)._defaultTextureScale.fields = (UnityEngine_Vector2_Fields)0x3f8000003f800000;
+    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+    (__this_00->fields)._loader = (CustomSkins_BaseCustomSkinLoader_o *)__this;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader);
+    (__this_00->fields)._renderers = renderers;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers);
+    (__this_00->fields)._rendererId = pSVar4;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId);
+    (__this_00->fields)._maxSize = 500000;
+    goto label_05962c19;
+  case 3:
+    x = (UnityEngine_Object_o *)
+        CustomSkins_TitanCustomSkinLoader__FindChild
+                  ((CustomSkins_TitanCustomSkinLoader_o *)__this_01,pUVar2,"HairSocket",
+                   (MethodInfo *)&switchD_05962a03::switchdataD_010a57f4);
+    CustomSkins_BaseCustomSkinLoader__AddAllRenderersIfExists
+              ((CustomSkins_BaseCustomSkinLoader_o *)__this_01,renderers,(UnityEngine_GameObject_o *)x,
+               (MethodInfo *)method_00);
+    iStack_2c = 3;
+    pSVar4 = (*(__this->klass->vtable)._4_get_RendererIdPrefix.methodPtr)
+                       (__this,(__this->klass->vtable)._4_get_RendererIdPrefix.method);
+    pSVar5 = System_Int32__ToString(&iStack_2c,(MethodInfo *)0x0);
+    pSVar4 = System_String__Concat_52f0320(pSVar4,pSVar5,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    pUVar2 = (UnityEngine_Transform_o *)0x0;
+    bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar1) {
+      if (x == (UnityEngine_Object_o *)0x0) goto label_05962d8d;
+      pUVar2 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)x,(MethodInfo *)0x0);
+    }
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomSkins_TitanCustomSkinPart);
+    if (Il2CppMethodInitialized_0754592f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_HasValue);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_Value);
+      Il2CppMethodInitialized_0754592f = '\x01';
+    }
+    (__this_00->fields)._defaultTextureScale.fields = (UnityEngine_Vector2_Fields)0x3f8000003f800000;
+    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+    (__this_00->fields)._loader = (CustomSkins_BaseCustomSkinLoader_o *)__this;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader);
+    (__this_00->fields)._renderers = renderers;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers);
+    (__this_00->fields)._rendererId = pSVar4;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId);
+    (__this_00->fields)._maxSize = 500000;
+    (__this_00->fields)._textureScale.fields = (__this_00->fields)._defaultTextureScale.fields;
+    (__this_00->fields)._useTransparentMaterial = false;
+    (__this_00->fields)._rendererRoot = pUVar2;
+    goto label_05962d78;
+  default:
+    goto switchD_05962a03_default;
   }
-  pSVar3 = CustomSkins_BaseCustomSkinLoader__GetRendererId
-                     ((CustomSkins_BaseCustomSkinLoader_o *)__this,iVar5,(MethodInfo *)0x0);
+  pSVar4 = (*(__this->klass->vtable)._4_get_RendererIdPrefix.methodPtr)
+                     (__this,(__this->klass->vtable)._4_get_RendererIdPrefix.method);
+  pSVar5 = System_Int32__ToString(&iStack_2c,(MethodInfo *)0x0);
+  pSVar4 = System_String__Concat_52f0320(pSVar4,pSVar5,(MethodInfo *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomSkins_TitanCustomSkinPart);
-  local_18.value.fields.y = 0.0;
-  local_18.hasValue = false;
-  local_18._1_3_ = 0;
-  local_18.value.fields.x = 0.0;
-  if (Il2CppMethodInitialized_184344fa1 == '\0') {
+  if (Il2CppMethodInitialized_0754592f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_HasValue);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_Value);
-    Il2CppMethodInitialized_184344fa1 = '\x01';
+    Il2CppMethodInitialized_0754592f = '\x01';
   }
-  (__this_00->fields)._defaultTextureScale.fields.x = 1.0;
-  (__this_00->fields)._defaultTextureScale.fields.y = 1.0;
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields)._defaultTextureScale.fields = (UnityEngine_Vector2_Fields)0x3f8000003f800000;
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields)._loader = (CustomSkins_BaseCustomSkinLoader_o *)__this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader);
   (__this_00->fields)._renderers = renderers;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers,renderers);
-  (__this_00->fields)._rendererId = pSVar3;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId,pSVar3);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers);
+  (__this_00->fields)._rendererId = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId);
   (__this_00->fields)._maxSize = 1000000;
-label_181e95e51:
-  if (local_18.hasValue == false) {
-    fVar6 = (((CustomSkins_BaseCustomSkinPart_o *)__this_00)->fields)._defaultTextureScale.fields.x;
-    fStackX_c = (((CustomSkins_BaseCustomSkinPart_o *)__this_00)->fields)._defaultTextureScale.fields.y;
-  }
-  else {
-    UVar4 = System_Nullable_Vector2___get_Value
-                      ((System_Nullable_Vector2__o *)&local_18,
-                       (MethodInfo_AE2BD0 *)MethodInfo_System_Nullable_Vector2_get_Value);
-    fVar6 = UVar4.fields.x;
-    fStackX_c = UVar4.fields.y;
-  }
-  (((CustomSkins_BaseCustomSkinPart_o *)__this_00)->fields)._textureScale.fields.x = fVar6;
-  (((CustomSkins_BaseCustomSkinPart_o *)__this_00)->fields)._textureScale.fields.y = fStackX_c;
-  (((CustomSkins_BaseCustomSkinPart_o *)__this_00)->fields)._useTransparentMaterial = false;
+label_05962c19:
+  (__this_00->fields)._textureScale.fields = (__this_00->fields)._defaultTextureScale.fields;
+  (__this_00->fields)._useTransparentMaterial = false;
+  (__this_00->fields)._rendererRoot = (UnityEngine_Transform_o *)0x0;
+label_05962d78:
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererRoot);
+switchD_05962a03_default:
   return (CustomSkins_BaseCustomSkinPart_o *)__this_00;
 }
 
 
 // CustomSkins.TitanCustomSkinLoader$$FindChild
 // il2cpp: UnityEngine_GameObject_o* CustomSkins_TitanCustomSkinLoader__FindChild (CustomSkins_TitanCustomSkinLoader_o* __this, UnityEngine_Transform_o* parent, System_String_o* name, const MethodInfo* method);
-// 0x181e95a70
+// 0x5962da0
 
 UnityEngine_GameObject_o *
 CustomSkins_TitanCustomSkinLoader__FindChild
@@ -479,9 +534,9 @@ CustomSkins_TitanCustomSkinLoader__FindChild
   UnityEngine_Transform_o *x;
   UnityEngine_GameObject_o *pUVar2;
   
-  if (Il2CppMethodInitialized_184344f9f == '\0') {
+  if (Il2CppMethodInitialized_0754592d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184344f9f = '\x01';
+    Il2CppMethodInitialized_0754592d = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -512,19 +567,27 @@ CustomSkins_TitanCustomSkinLoader__FindChild
 
 // CustomSkins.TitanCustomSkinLoader$$.ctor
 // il2cpp: void CustomSkins_TitanCustomSkinLoader___ctor (CustomSkins_TitanCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e95f40
+// 0x5962e90
 
 void CustomSkins_TitanCustomSkinLoader___ctor(CustomSkins_TitanCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344fa0 == '\0') {
+  uint32_t uVar1;
+  
+  if (Il2CppMethodInitialized_0754592e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_BaseCustomSkinLoader);
-    Il2CppMethodInitialized_184344fa0 = '\x01';
+    Il2CppMethodInitialized_0754592e = '\x01';
+    uVar1 = (TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_BaseCustomSkinLoader);
+    UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+    return;
   }
-  CustomSkins_BaseCustomSkinLoader___ctor((GetParentPosition_o *)__this,(MethodInfo *)0x0);
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

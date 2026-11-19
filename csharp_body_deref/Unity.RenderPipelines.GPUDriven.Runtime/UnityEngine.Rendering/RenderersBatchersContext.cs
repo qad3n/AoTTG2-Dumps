@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderersBatchersContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -79,7 +79,7 @@ internal class RenderersBatchersContext : IDisposable
 	public RenderersParameters renderersParameters
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x2BFBEC0", Offset = "0x2BFA4C0", VA = "0x182BFBEC0")]
+		[Address(RVA = "0x65EF880", Offset = "0x65EE880", VA = "0x65EF880")]
 		get
 		{
 			return default(RenderersParameters);
@@ -90,7 +90,7 @@ internal class RenderersBatchersContext : IDisposable
 	public GraphicsBuffer gpuInstanceDataBuffer
 	{
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x2BFBD00", Offset = "0x2BFA300", VA = "0x182BFBD00")]
+		[Address(RVA = "0x65EF8D0", Offset = "0x65EE8D0", VA = "0x65EF8D0")]
 		get
 		{
 			return null;
@@ -101,7 +101,7 @@ internal class RenderersBatchersContext : IDisposable
 	public int activeLodGroupCount
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x2BFBB50", Offset = "0x2BFA150", VA = "0x182BFBB50")]
+		[Address(RVA = "0x65EF8F0", Offset = "0x65EE8F0", VA = "0x65EF8F0")]
 		get
 		{
 			return default(int);
@@ -112,7 +112,7 @@ internal class RenderersBatchersContext : IDisposable
 	public NativeArray<GPUInstanceComponentDesc>.ReadOnly defaultDescriptions
 	{
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x2BFBC60", Offset = "0x2BFA260", VA = "0x182BFBC60")]
+		[Address(RVA = "0x65EF940", Offset = "0x65EE940", VA = "0x65EF940")]
 		get
 		{
 			return default(NativeArray<GPUInstanceComponentDesc>.ReadOnly);
@@ -123,7 +123,7 @@ internal class RenderersBatchersContext : IDisposable
 	public NativeArray<MetadataValue> defaultMetadata
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x2BFBCD0", Offset = "0x2BFA2D0", VA = "0x182BFBCD0")]
+		[Address(RVA = "0x65EF990", Offset = "0x65EE990", VA = "0x65EF990")]
 		get
 		{
 			return default(NativeArray<MetadataValue>);
@@ -134,7 +134,7 @@ internal class RenderersBatchersContext : IDisposable
 	public NativeList<LODGroupCullingData> lodGroupCullingData
 	{
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x1CB2C30", Offset = "0x1CB1230", VA = "0x181CB2C30")]
+		[Address(RVA = "0x65EF9B0", Offset = "0x65EE9B0", VA = "0x65EF9B0")]
 		get
 		{
 			return default(NativeList<LODGroupCullingData>);
@@ -145,7 +145,7 @@ internal class RenderersBatchersContext : IDisposable
 	public int instanceDataBufferVersion
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x2717ED0", Offset = "0x27164D0", VA = "0x182717ED0")]
+		[Address(RVA = "0x65EF9D0", Offset = "0x65EE9D0", VA = "0x65EF9D0")]
 		get
 		{
 			return default(int);
@@ -156,7 +156,7 @@ internal class RenderersBatchersContext : IDisposable
 	public int instanceDataBufferLayoutVersion
 	{
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x2BFBD40", Offset = "0x2BFA340", VA = "0x182BFBD40")]
+		[Address(RVA = "0x65EF9F0", Offset = "0x65EE9F0", VA = "0x65EF9F0")]
 		get
 		{
 			return default(int);
@@ -167,7 +167,7 @@ internal class RenderersBatchersContext : IDisposable
 	public SphericalHarmonicsL2 cachedAmbientProbe
 	{
 		[Token(Token = "0x6000385")]
-		[Address(RVA = "0x2BFBBF0", Offset = "0x2BFA1F0", VA = "0x182BFBBF0")]
+		[Address(RVA = "0x65EFA10", Offset = "0x65EEA10", VA = "0x65EFA10")]
 		get
 		{
 			return default(SphericalHarmonicsL2);
@@ -178,7 +178,7 @@ internal class RenderersBatchersContext : IDisposable
 	public bool hasBoundingSpheres
 	{
 		[Token(Token = "0x6000386")]
-		[Address(RVA = "0x2BFBD20", Offset = "0x2BFA320", VA = "0x182BFBD20")]
+		[Address(RVA = "0x65EFA60", Offset = "0x65EEA60", VA = "0x65EFA60")]
 		get
 		{
 			return default(bool);
@@ -189,7 +189,7 @@ internal class RenderersBatchersContext : IDisposable
 	public int cameraCount
 	{
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x2BFBC40", Offset = "0x2BFA240", VA = "0x182BFBC40")]
+		[Address(RVA = "0x65EFA80", Offset = "0x65EEA80", VA = "0x65EFA80")]
 		get
 		{
 			return default(int);
@@ -200,7 +200,7 @@ internal class RenderersBatchersContext : IDisposable
 	public CPUInstanceData.ReadOnly instanceData
 	{
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x2BFBDA0", Offset = "0x2BFA3A0", VA = "0x182BFBDA0")]
+		[Address(RVA = "0x65EFAA0", Offset = "0x65EEAA0", VA = "0x65EFAA0")]
 		get
 		{
 			return default(CPUInstanceData.ReadOnly);
@@ -211,7 +211,7 @@ internal class RenderersBatchersContext : IDisposable
 	public CPUSharedInstanceData.ReadOnly sharedInstanceData
 	{
 		[Token(Token = "0x6000389")]
-		[Address(RVA = "0x2BFBF10", Offset = "0x2BFA510", VA = "0x182BFBF10")]
+		[Address(RVA = "0x65EFAF0", Offset = "0x65EEAF0", VA = "0x65EFAF0")]
 		get
 		{
 			return default(CPUSharedInstanceData.ReadOnly);
@@ -222,7 +222,7 @@ internal class RenderersBatchersContext : IDisposable
 	public CPUPerCameraInstanceData perCameraInstanceData
 	{
 		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x2BFBE90", Offset = "0x2BFA490", VA = "0x182BFBE90")]
+		[Address(RVA = "0x65EFB40", Offset = "0x65EEB40", VA = "0x65EFB40")]
 		get
 		{
 			return default(CPUPerCameraInstanceData);
@@ -233,7 +233,7 @@ internal class RenderersBatchersContext : IDisposable
 	public GPUInstanceDataBuffer.ReadOnly instanceDataBuffer
 	{
 		[Token(Token = "0x600038B")]
-		[Address(RVA = "0x2BFBD60", Offset = "0x2BFA360", VA = "0x182BFBD60")]
+		[Address(RVA = "0x65EFB70", Offset = "0x65EEB70", VA = "0x65EFB70")]
 		get
 		{
 			return default(GPUInstanceDataBuffer.ReadOnly);
@@ -244,7 +244,7 @@ internal class RenderersBatchersContext : IDisposable
 	public NativeArray<InstanceHandle> aliveInstances
 	{
 		[Token(Token = "0x600038C")]
-		[Address(RVA = "0x2BFBBB0", Offset = "0x2BFA1B0", VA = "0x182BFBBB0")]
+		[Address(RVA = "0x65EFB90", Offset = "0x65EEB90", VA = "0x65EFB90")]
 		get
 		{
 			return default(NativeArray<InstanceHandle>);
@@ -255,7 +255,7 @@ internal class RenderersBatchersContext : IDisposable
 	public float smallMeshScreenPercentage
 	{
 		[Token(Token = "0x600038D")]
-		[Address(RVA = "0x2BFBFB0", Offset = "0x2BFA5B0", VA = "0x182BFBFB0")]
+		[Address(RVA = "0x65EFBB0", Offset = "0x65EEBB0", VA = "0x65EFBB0")]
 		get
 		{
 			return default(float);
@@ -266,7 +266,7 @@ internal class RenderersBatchersContext : IDisposable
 	public GPUResidentDrawerResources resources
 	{
 		[Token(Token = "0x600038E")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x65EFBC0", Offset = "0x65EEBC0", VA = "0x65EFBC0")]
 		get
 		{
 			return null;
@@ -277,7 +277,7 @@ internal class RenderersBatchersContext : IDisposable
 	internal OcclusionCullingCommon occlusionCullingCommon
 	{
 		[Token(Token = "0x600038F")]
-		[Address(RVA = "0x2BFBE80", Offset = "0x2BFA480", VA = "0x182BFBE80")]
+		[Address(RVA = "0x65EFBD0", Offset = "0x65EEBD0", VA = "0x65EFBD0")]
 		get
 		{
 			return null;
@@ -288,7 +288,7 @@ internal class RenderersBatchersContext : IDisposable
 	internal DebugRendererBatcherStats debugStats
 	{
 		[Token(Token = "0x6000390")]
-		[Address(RVA = "0x1D6BB50", Offset = "0x1D6A150", VA = "0x181D6BB50")]
+		[Address(RVA = "0x65EFBE0", Offset = "0x65EEBE0", VA = "0x65EFBE0")]
 		get
 		{
 			return null;
@@ -296,228 +296,228 @@ internal class RenderersBatchersContext : IDisposable
 	}
 
 	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x2BFB5E0", Offset = "0x2BF9BE0", VA = "0x182BFB5E0")]
+	[Address(RVA = "0x65EFBF0", Offset = "0x65EEBF0", VA = "0x65EFBF0")]
 	public RenderersBatchersContext(in RenderersBatchersContextDesc desc, UnityEngine.Rendering.GPUDrivenProcessor gpuDrivenProcessor, GPUResidentDrawerResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x2BFA460", Offset = "0x2BF8A60", VA = "0x182BFA460", Slot = "4")]
+	[Address(RVA = "0x65F0780", Offset = "0x65EF780", VA = "0x65F0780", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x2BFA810", Offset = "0x2BF8E10", VA = "0x182BFA810")]
+	[Address(RVA = "0x65F0920", Offset = "0x65EF920", VA = "0x65F0920")]
 	public int GetMaxInstancesOfType(InstanceType instanceType)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x2BFA7F0", Offset = "0x2BF8DF0", VA = "0x182BFA7F0")]
+	[Address(RVA = "0x65F0940", Offset = "0x65EF940", VA = "0x65F0940")]
 	public int GetAliveInstancesOfType(InstanceType instanceType)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x2BFA9C0", Offset = "0x2BF8FC0", VA = "0x182BFA9C0")]
+	[Address(RVA = "0x65F0960", Offset = "0x65EF960", VA = "0x65F0960")]
 	public void GrowInstanceBuffer(in InstanceNumInfo instanceNumInfo)
 	{
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x2BFA6B0", Offset = "0x2BF8CB0", VA = "0x182BFA6B0")]
+	[Address(RVA = "0x65F0AE0", Offset = "0x65EFAE0", VA = "0x65F0AE0")]
 	private void EnsureInstanceBufferCapacity()
 	{
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x2BFB510", Offset = "0x2BF9B10", VA = "0x182BFB510")]
+	[Address(RVA = "0x65F0B80", Offset = "0x65EFB80", VA = "0x65F0B80")]
 	private void UpdateLODGroupData(in UnityEngine.Rendering.GPUDrivenLODGroupData lodGroupData)
 	{
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x2BFAF70", Offset = "0x2BF9570", VA = "0x182BFAF70")]
+	[Address(RVA = "0x65F0BA0", Offset = "0x65EFBA0", VA = "0x65F0BA0")]
 	private void TransformLODGroupData(in UnityEngine.Rendering.GPUDrivenLODGroupData lodGroupData)
 	{
 	}
 
 	[Token(Token = "0x6000399")]
-	[Address(RVA = "0x2BFA400", Offset = "0x2BF8A00", VA = "0x182BFA400")]
+	[Address(RVA = "0x65F0BC0", Offset = "0x65EFBC0", VA = "0x65F0BC0")]
 	public void DestroyLODGroups(NativeArray<EntityId> destroyed)
 	{
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x2BFB530", Offset = "0x2BF9B30", VA = "0x182BFB530")]
+	[Address(RVA = "0x65F0BE0", Offset = "0x65EFBE0", VA = "0x65F0BE0")]
 	public void UpdateLODGroups(NativeArray<EntityId> changedID)
 	{
 	}
 
 	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x2BFABC0", Offset = "0x2BF91C0", VA = "0x182BFABC0")]
+	[Address(RVA = "0x65F0C60", Offset = "0x65EFC60", VA = "0x65F0C60")]
 	public void ReallocateAndGetInstances(in UnityEngine.Rendering.GPUDrivenRendererGroupData rendererData, NativeArray<InstanceHandle> instances)
 	{
 	}
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x2BFAE80", Offset = "0x2BF9480", VA = "0x182BFAE80")]
+	[Address(RVA = "0x65F0C90", Offset = "0x65EFC90", VA = "0x65F0C90")]
 	public JobHandle ScheduleUpdateInstanceDataJob(NativeArray<InstanceHandle> instances, in UnityEngine.Rendering.GPUDrivenRendererGroupData rendererData)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x2BFA7C0", Offset = "0x2BF8DC0", VA = "0x182BFA7C0")]
+	[Address(RVA = "0x65F0CC0", Offset = "0x65EFCC0", VA = "0x65F0CC0")]
 	public void FreeRendererGroupInstances(NativeArray<EntityId> rendererGroupsID)
 	{
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x2BFA760", Offset = "0x2BF8D60", VA = "0x182BFA760")]
+	[Address(RVA = "0x65F0CE0", Offset = "0x65EFCE0", VA = "0x65F0CE0")]
 	public void FreeInstances(NativeArray<InstanceHandle> instances)
 	{
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x2BFAD50", Offset = "0x2BF9350", VA = "0x182BFAD50")]
+	[Address(RVA = "0x65F0D00", Offset = "0x65EFD00", VA = "0x65F0D00")]
 	public JobHandle ScheduleQueryRendererGroupInstancesJob(NativeArray<EntityId> rendererGroupIDs, NativeArray<InstanceHandle> instances)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x2BFADB0", Offset = "0x2BF93B0", VA = "0x182BFADB0")]
+	[Address(RVA = "0x65F0D20", Offset = "0x65EFD20", VA = "0x65F0D20")]
 	public JobHandle ScheduleQueryRendererGroupInstancesJob(NativeArray<EntityId> rendererGroupIDs, NativeList<InstanceHandle> instances)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x2BFAE00", Offset = "0x2BF9400", VA = "0x182BFAE00")]
+	[Address(RVA = "0x65F0D40", Offset = "0x65EFD40", VA = "0x65F0D40")]
 	public JobHandle ScheduleQueryRendererGroupInstancesJob(NativeArray<EntityId> rendererGroupIDs, NativeArray<int> instancesOffset, NativeArray<int> instancesCount, NativeList<InstanceHandle> instances)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x2BFAD00", Offset = "0x2BF9300", VA = "0x182BFAD00")]
+	[Address(RVA = "0x65F0D80", Offset = "0x65EFD80", VA = "0x65F0D80")]
 	public JobHandle ScheduleQueryMeshInstancesJob(NativeArray<EntityId> sortedMeshIDs, NativeList<InstanceHandle> instances)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x2BFA390", Offset = "0x2BF8990", VA = "0x182BFA390")]
+	[Address(RVA = "0x65F0DA0", Offset = "0x65EFDA0", VA = "0x65F0DA0")]
 	public void ChangeInstanceBufferVersion()
 	{
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x2BFA3B0", Offset = "0x2BF89B0", VA = "0x182BFA3B0")]
+	[Address(RVA = "0x65F0DC0", Offset = "0x65EFDC0", VA = "0x65F0DC0")]
 	public GPUInstanceDataBufferUploader CreateDataBufferUploader(int capacity, InstanceType instanceType)
 	{
 		return default(GPUInstanceDataBufferUploader);
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x2BFAF30", Offset = "0x2BF9530", VA = "0x182BFAF30")]
+	[Address(RVA = "0x65F0E10", Offset = "0x65EFE10", VA = "0x65F0E10")]
 	public void SubmitToGpu(NativeArray<InstanceHandle> instances, ref GPUInstanceDataBufferUploader uploader, bool submitOnlyWrittenParams)
 	{
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x2BFAEF0", Offset = "0x2BF94F0", VA = "0x182BFAEF0")]
+	[Address(RVA = "0x65F0E40", Offset = "0x65EFE40", VA = "0x65F0E40")]
 	public void SubmitToGpu(NativeArray<GPUInstanceIndex> gpuInstanceIndices, ref GPUInstanceDataBufferUploader uploader, bool submitOnlyWrittenParams)
 	{
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x2BFAB40", Offset = "0x2BF9140", VA = "0x182BFAB40")]
+	[Address(RVA = "0x65F0E70", Offset = "0x65EFE70", VA = "0x65F0E70")]
 	public void InitializeInstanceTransforms(NativeArray<InstanceHandle> instances, NativeArray<Matrix4x4> localToWorldMatrices, NativeArray<Matrix4x4> prevLocalToWorldMatrices)
 	{
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x2BFB400", Offset = "0x2BF9A00", VA = "0x182BFB400")]
+	[Address(RVA = "0x65F0ED0", Offset = "0x65EFED0", VA = "0x65F0ED0")]
 	public void UpdateInstanceTransforms(NativeArray<InstanceHandle> instances, NativeArray<Matrix4x4> localToWorldMatrices)
 	{
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x2BFB150", Offset = "0x2BF9750", VA = "0x182BFB150")]
+	[Address(RVA = "0x65F0F10", Offset = "0x65EFF10", VA = "0x65F0F10")]
 	public void UpdateAmbientProbeAndGpuBuffer(bool forceUpdate)
 	{
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x2BFB470", Offset = "0x2BF9A70", VA = "0x182BFB470")]
+	[Address(RVA = "0x65F1130", Offset = "0x65F0130", VA = "0x65F1130")]
 	public void UpdateInstanceWindDataHistory(NativeArray<GPUInstanceIndex> gpuInstanceIndices)
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x2BFB3C0", Offset = "0x2BF99C0", VA = "0x182BFB3C0")]
+	[Address(RVA = "0x65F11B0", Offset = "0x65F01B0", VA = "0x65F11B0")]
 	public void UpdateInstanceMotions()
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x2BFB0C0", Offset = "0x2BF96C0", VA = "0x182BFB0C0")]
+	[Address(RVA = "0x65F11E0", Offset = "0x65F01E0", VA = "0x65F11E0")]
 	public void TransformLODGroups(NativeArray<EntityId> lodGroupsID)
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x2BFB5C0", Offset = "0x2BF9BC0", VA = "0x182BFB5C0")]
+	[Address(RVA = "0x65F1260", Offset = "0x65F0260", VA = "0x65F1260")]
 	public void UpdatePerFrameInstanceVisibility(in ParallelBitArray compactedVisibilityMasks)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x2BFACA0", Offset = "0x2BF92A0", VA = "0x182BFACA0")]
+	[Address(RVA = "0x65F1280", Offset = "0x65F0280", VA = "0x65F1280")]
 	public JobHandle ScheduleCollectInstancesLODGroupAndMasksJob(NativeArray<InstanceHandle> instances, NativeArray<uint> lodGroupAndMasks)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x2BFA830", Offset = "0x2BF8E30", VA = "0x182BFA830")]
+	[Address(RVA = "0x65F12A0", Offset = "0x65F02A0", VA = "0x65F12A0")]
 	public InstanceHandle GetRendererInstanceHandle(EntityId rendererID)
 	{
 		return default(InstanceHandle);
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x2BFA980", Offset = "0x2BF8F80", VA = "0x182BFA980")]
+	[Address(RVA = "0x65F13C0", Offset = "0x65F03C0", VA = "0x65F13C0")]
 	public void GetVisibleTreeInstances(in ParallelBitArray compactedVisibilityMasks, in ParallelBitArray processedBits, NativeList<int> visibeTreeRendererIDs, NativeList<InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly, out int becomeVisibeTreeInstancesCount)
 	{
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+	[Address(RVA = "0x65F13F0", Offset = "0x65F03F0", VA = "0x65F13F0")]
 	public GPUInstanceDataBuffer GetInstanceDataBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x2BFB360", Offset = "0x2BF9960", VA = "0x182BFB360")]
+	[Address(RVA = "0x65F1400", Offset = "0x65F0400", VA = "0x65F1400")]
 	public void UpdateFrame()
 	{
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x2BFA790", Offset = "0x2BF8D90", VA = "0x182BFA790")]
+	[Address(RVA = "0x65F1440", Offset = "0x65F0440", VA = "0x65F1440")]
 	public void FreePerCameraInstanceData(NativeArray<EntityId> cameraIDs)
 	{
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x2BFB330", Offset = "0x2BF9930", VA = "0x182BFB330")]
+	[Address(RVA = "0x65F1460", Offset = "0x65F0460", VA = "0x65F1460")]
 	public void UpdateCameras(NativeArray<EntityId> cameraIDs)
 	{
 	}

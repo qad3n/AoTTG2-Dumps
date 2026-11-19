@@ -18,32 +18,32 @@ public class NoInterpClampedIntParameter : VolumeParameter<int>
 {
 	[NonSerialized]
 	[Token(Token = "0x4000997")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public int min;
 
 	[NonSerialized]
 	[Token(Token = "0x4000998")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x1C")]
 	public int max;
 
 	[Token(Token = "0x170001F1")]
 	public override int value
 	{
 		[Token(Token = "0x6000F2C")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
+		[Address(RVA = "0x65557F0", Offset = "0x65547F0", VA = "0x65557F0", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F2D")]
-		[Address(RVA = "0x2B4FFB0", Offset = "0x2B4E5B0", VA = "0x182B4FFB0", Slot = "15")]
+		[Address(RVA = "0x6555800", Offset = "0x6554800", VA = "0x6555800", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x2B5F450", Offset = "0x2B5DA50", VA = "0x182B5F450")]
+	[Address(RVA = "0x6555820", Offset = "0x6554820", VA = "0x6555820")]
 	public NoInterpClampedIntParameter(int value, int min, int max, bool overrideState = false)
 	{
 	}

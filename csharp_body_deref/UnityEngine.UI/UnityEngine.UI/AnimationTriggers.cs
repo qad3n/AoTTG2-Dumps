@@ -64,13 +64,13 @@ public class AnimationTriggers
 	public string normalTrigger
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6A5D410", Offset = "0x6A5C410", VA = "0x6A5D410")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6A5D420", Offset = "0x6A5C420", VA = "0x6A5D420")]
 		set
 		{
 		}
@@ -80,13 +80,13 @@ public class AnimationTriggers
 	public string highlightedTrigger
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6A5D430", Offset = "0x6A5C430", VA = "0x6A5D430")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6A5D440", Offset = "0x6A5C440", VA = "0x6A5D440")]
 		set
 		{
 		}
@@ -96,13 +96,13 @@ public class AnimationTriggers
 	public string pressedTrigger
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6A5D450", Offset = "0x6A5C450", VA = "0x6A5D450")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6A5D460", Offset = "0x6A5C460", VA = "0x6A5D460")]
 		set
 		{
 		}
@@ -112,13 +112,13 @@ public class AnimationTriggers
 	public string selectedTrigger
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6A5D470", Offset = "0x6A5C470", VA = "0x6A5D470")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6A5D480", Offset = "0x6A5C480", VA = "0x6A5D480")]
 		set
 		{
 		}
@@ -128,20 +128,20 @@ public class AnimationTriggers
 	public string disabledTrigger
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6A5D490", Offset = "0x6A5C490", VA = "0x6A5D490")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x6A5D4A0", Offset = "0x6A5C4A0", VA = "0x6A5D4A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x3061940", Offset = "0x305FF40", VA = "0x183061940")]
+	[Address(RVA = "0x6A5D4B0", Offset = "0x6A5C4B0", VA = "0x6A5D4B0")]
 	public AnimationTriggers()
 	{
 	}

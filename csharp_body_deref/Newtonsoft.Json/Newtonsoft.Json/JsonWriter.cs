@@ -72,13 +72,13 @@ public abstract class JsonWriter : IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60004BB")]
-		[Address(RVA = "0x1C308D0", Offset = "0x1C2EED0", VA = "0x181C308D0", Slot = "4")]
+		[Address(RVA = "0x55A12C0", Offset = "0x55A02C0", VA = "0x55A12C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004BC")]
-		[Address(RVA = "0x1C30B40", Offset = "0x1C2F140", VA = "0x181C30B40", Slot = "5")]
+		[Address(RVA = "0x55A15A0", Offset = "0x55A05A0", VA = "0x55A15A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -119,13 +119,13 @@ public abstract class JsonWriter : IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60004BD")]
-		[Address(RVA = "0x1C31050", Offset = "0x1C2F650", VA = "0x181C31050", Slot = "4")]
+		[Address(RVA = "0x55A1600", Offset = "0x55A0600", VA = "0x55A1600", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004BE")]
-		[Address(RVA = "0x1C31210", Offset = "0x1C2F810", VA = "0x181C31210", Slot = "5")]
+		[Address(RVA = "0x55A1830", Offset = "0x55A0830", VA = "0x55A1830", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -170,13 +170,13 @@ public abstract class JsonWriter : IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60004BF")]
-		[Address(RVA = "0x1C31C30", Offset = "0x1C30230", VA = "0x181C31C30", Slot = "4")]
+		[Address(RVA = "0x55A1890", Offset = "0x55A0890", VA = "0x55A1890", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004C0")]
-		[Address(RVA = "0x1C32280", Offset = "0x1C30880", VA = "0x181C32280", Slot = "5")]
+		[Address(RVA = "0x55A2090", Offset = "0x55A1090", VA = "0x55A2090", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -233,13 +233,13 @@ public abstract class JsonWriter : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60004C1")]
-		[Address(RVA = "0x1C33310", Offset = "0x1C31910", VA = "0x181C33310", Slot = "4")]
+		[Address(RVA = "0x55A20F0", Offset = "0x55A10F0", VA = "0x55A20F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004C2")]
-		[Address(RVA = "0x1C33910", Offset = "0x1C31F10", VA = "0x181C33910", Slot = "5")]
+		[Address(RVA = "0x55A27B0", Offset = "0x55A17B0", VA = "0x55A27B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -280,13 +280,13 @@ public abstract class JsonWriter : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60004C3")]
-		[Address(RVA = "0x1C33970", Offset = "0x1C31F70", VA = "0x181C33970", Slot = "4")]
+		[Address(RVA = "0x55A2810", Offset = "0x55A1810", VA = "0x55A2810", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004C4")]
-		[Address(RVA = "0x1C33D80", Offset = "0x1C32380", VA = "0x181C33D80", Slot = "5")]
+		[Address(RVA = "0x55A2CB0", Offset = "0x55A1CB0", VA = "0x55A2CB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -345,14 +345,14 @@ public abstract class JsonWriter : IDisposable
 	public bool CloseOutput
 	{
 		[Token(Token = "0x600043B")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x559C380", Offset = "0x559B380", VA = "0x559C380")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600043C")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x559C390", Offset = "0x559B390", VA = "0x559C390")]
 		[CompilerGenerated]
 		set
 		{
@@ -363,14 +363,14 @@ public abstract class JsonWriter : IDisposable
 	public bool AutoCompleteOnClose
 	{
 		[Token(Token = "0x600043D")]
-		[Address(RVA = "0xF1D4C0", Offset = "0xF1BAC0", VA = "0x180F1D4C0")]
+		[Address(RVA = "0x559C3A0", Offset = "0x559B3A0", VA = "0x559C3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600043E")]
-		[Address(RVA = "0xF1DA30", Offset = "0xF1C030", VA = "0x180F1DA30")]
+		[Address(RVA = "0x559C3B0", Offset = "0x559B3B0", VA = "0x559C3B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -381,7 +381,7 @@ public abstract class JsonWriter : IDisposable
 	protected internal int Top
 	{
 		[Token(Token = "0x600043F")]
-		[Address(RVA = "0x1C0FE40", Offset = "0x1C0E440", VA = "0x181C0FE40")]
+		[Address(RVA = "0x55887D0", Offset = "0x55877D0", VA = "0x55887D0")]
 		get
 		{
 			return default(int);
@@ -392,7 +392,7 @@ public abstract class JsonWriter : IDisposable
 	public WriteState WriteState
 	{
 		[Token(Token = "0x6000440")]
-		[Address(RVA = "0x1C0FE90", Offset = "0x1C0E490", VA = "0x181C0FE90")]
+		[Address(RVA = "0x559C3C0", Offset = "0x559B3C0", VA = "0x559C3C0")]
 		get
 		{
 			return default(WriteState);
@@ -403,7 +403,7 @@ public abstract class JsonWriter : IDisposable
 	internal string ContainerPath
 	{
 		[Token(Token = "0x6000441")]
-		[Address(RVA = "0x1C0FC40", Offset = "0x1C0E240", VA = "0x181C0FC40")]
+		[Address(RVA = "0x559C460", Offset = "0x559B460", VA = "0x559C460")]
 		get
 		{
 			return null;
@@ -414,7 +414,7 @@ public abstract class JsonWriter : IDisposable
 	public string Path
 	{
 		[Token(Token = "0x6000442")]
-		[Address(RVA = "0x1C0FD30", Offset = "0x1C0E330", VA = "0x181C0FD30")]
+		[Address(RVA = "0x559C500", Offset = "0x559B500", VA = "0x559C500")]
 		get
 		{
 			return null;
@@ -425,13 +425,13 @@ public abstract class JsonWriter : IDisposable
 	public Formatting Formatting
 	{
 		[Token(Token = "0x6000443")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x559C600", Offset = "0x559B600", VA = "0x559C600")]
 		get
 		{
 			return default(Formatting);
 		}
 		[Token(Token = "0x6000444")]
-		[Address(RVA = "0x1C10100", Offset = "0x1C0E700", VA = "0x181C10100")]
+		[Address(RVA = "0x559C610", Offset = "0x559B610", VA = "0x559C610")]
 		set
 		{
 		}
@@ -441,13 +441,13 @@ public abstract class JsonWriter : IDisposable
 	public DateFormatHandling DateFormatHandling
 	{
 		[Token(Token = "0x6000445")]
-		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
+		[Address(RVA = "0x559C670", Offset = "0x559B670", VA = "0x559C670")]
 		get
 		{
 			return default(DateFormatHandling);
 		}
 		[Token(Token = "0x6000446")]
-		[Address(RVA = "0x1C0FFB0", Offset = "0x1C0E5B0", VA = "0x181C0FFB0")]
+		[Address(RVA = "0x559C680", Offset = "0x559B680", VA = "0x559C680")]
 		set
 		{
 		}
@@ -457,13 +457,13 @@ public abstract class JsonWriter : IDisposable
 	public DateTimeZoneHandling DateTimeZoneHandling
 	{
 		[Token(Token = "0x6000447")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
+		[Address(RVA = "0x559C6E0", Offset = "0x559B6E0", VA = "0x559C6E0")]
 		get
 		{
 			return default(DateTimeZoneHandling);
 		}
 		[Token(Token = "0x6000448")]
-		[Address(RVA = "0x1C10020", Offset = "0x1C0E620", VA = "0x181C10020")]
+		[Address(RVA = "0x559C6F0", Offset = "0x559B6F0", VA = "0x559C6F0")]
 		set
 		{
 		}
@@ -473,13 +473,13 @@ public abstract class JsonWriter : IDisposable
 	public StringEscapeHandling StringEscapeHandling
 	{
 		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x58A870", Offset = "0x588E70", VA = "0x18058A870")]
+		[Address(RVA = "0x559C750", Offset = "0x559B750", VA = "0x559C750")]
 		get
 		{
 			return default(StringEscapeHandling);
 		}
 		[Token(Token = "0x600044A")]
-		[Address(RVA = "0x1C10170", Offset = "0x1C0E770", VA = "0x181C10170")]
+		[Address(RVA = "0x559C760", Offset = "0x559B760", VA = "0x559C760")]
 		set
 		{
 		}
@@ -489,13 +489,13 @@ public abstract class JsonWriter : IDisposable
 	public FloatFormatHandling FloatFormatHandling
 	{
 		[Token(Token = "0x600044C")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x559C7E0", Offset = "0x559B7E0", VA = "0x559C7E0")]
 		get
 		{
 			return default(FloatFormatHandling);
 		}
 		[Token(Token = "0x600044D")]
-		[Address(RVA = "0x1C10090", Offset = "0x1C0E690", VA = "0x181C10090")]
+		[Address(RVA = "0x559C7F0", Offset = "0x559B7F0", VA = "0x559C7F0")]
 		set
 		{
 		}
@@ -505,13 +505,13 @@ public abstract class JsonWriter : IDisposable
 	public string? DateFormatString
 	{
 		[Token(Token = "0x600044E")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x559C850", Offset = "0x559B850", VA = "0x559C850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600044F")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x559C860", Offset = "0x559B860", VA = "0x559C860")]
 		set
 		{
 		}
@@ -521,27 +521,27 @@ public abstract class JsonWriter : IDisposable
 	public CultureInfo Culture
 	{
 		[Token(Token = "0x6000450")]
-		[Address(RVA = "0x1C0FCD0", Offset = "0x1C0E2D0", VA = "0x181C0FCD0")]
+		[Address(RVA = "0x558B5A0", Offset = "0x558A5A0", VA = "0x558B5A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000451")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x559C870", Offset = "0x559B870", VA = "0x559C870")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x1C04F20", Offset = "0x1C03520", VA = "0x181C04F20")]
+	[Address(RVA = "0x5595B90", Offset = "0x5594B90", VA = "0x5595B90")]
 	internal Task AutoCompleteAsync(JsonToken tokenBeingWritten, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x1C05240", Offset = "0x1C03840", VA = "0x181C05240")]
+	[Address(RVA = "0x5595E00", Offset = "0x5594E00", VA = "0x5595E00")]
 	[AsyncStateMachine(typeof(_003CAutoCompleteAsync_003Ed__1))]
 	private Task AutoCompleteAsync(CancellationToken cancellationToken)
 	{
@@ -549,133 +549,133 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x1C059C0", Offset = "0x1C03FC0", VA = "0x181C059C0", Slot = "5")]
+	[Address(RVA = "0x5595EF0", Offset = "0x5594EF0", VA = "0x5595EF0", Slot = "5")]
 	public virtual Task CloseAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x1C05BD0", Offset = "0x1C041D0", VA = "0x181C05BD0", Slot = "6")]
+	[Address(RVA = "0x5595FC0", Offset = "0x5594FC0", VA = "0x5595FC0", Slot = "6")]
 	public virtual Task FlushAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x1C07980", Offset = "0x1C05F80", VA = "0x181C07980", Slot = "7")]
+	[Address(RVA = "0x5596090", Offset = "0x5595090", VA = "0x5596090", Slot = "7")]
 	protected virtual Task WriteEndAsync(JsonToken token, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F2")]
-	[Address(RVA = "0x1C07F60", Offset = "0x1C06560", VA = "0x181C07F60", Slot = "8")]
+	[Address(RVA = "0x5596160", Offset = "0x5595160", VA = "0x5596160", Slot = "8")]
 	protected virtual Task WriteIndentAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F3")]
-	[Address(RVA = "0x1C0D910", Offset = "0x1C0BF10", VA = "0x181C0D910", Slot = "9")]
+	[Address(RVA = "0x5596230", Offset = "0x5595230", VA = "0x5596230", Slot = "9")]
 	protected virtual Task WriteValueDelimiterAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F4")]
-	[Address(RVA = "0x1C08030", Offset = "0x1C06630", VA = "0x181C08030", Slot = "10")]
+	[Address(RVA = "0x5596300", Offset = "0x5595300", VA = "0x5596300", Slot = "10")]
 	protected virtual Task WriteIndentSpaceAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F5")]
-	[Address(RVA = "0x1C083F0", Offset = "0x1C069F0", VA = "0x181C083F0", Slot = "11")]
+	[Address(RVA = "0x55963D0", Offset = "0x55953D0", VA = "0x55963D0", Slot = "11")]
 	public virtual Task WriteRawAsync(string? json, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F6")]
-	[Address(RVA = "0x1C078B0", Offset = "0x1C05EB0", VA = "0x181C078B0", Slot = "12")]
+	[Address(RVA = "0x55964A0", Offset = "0x55954A0", VA = "0x55964A0", Slot = "12")]
 	public virtual Task WriteEndAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F7")]
-	[Address(RVA = "0x1C07B40", Offset = "0x1C06140", VA = "0x181C07B40")]
+	[Address(RVA = "0x5596570", Offset = "0x5595570", VA = "0x5596570")]
 	internal Task WriteEndInternalAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F8")]
-	[Address(RVA = "0x1C05D80", Offset = "0x1C04380", VA = "0x181C05D80")]
+	[Address(RVA = "0x55966E0", Offset = "0x55956E0", VA = "0x55966E0")]
 	internal Task InternalWriteEndAsync(JsonContainerType type, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F9")]
-	[Address(RVA = "0x1C077D0", Offset = "0x1C05DD0", VA = "0x181C077D0", Slot = "13")]
+	[Address(RVA = "0x5596F90", Offset = "0x5595F90", VA = "0x5596F90", Slot = "13")]
 	public virtual Task WriteEndArrayAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FA")]
-	[Address(RVA = "0x1C07A60", Offset = "0x1C06060", VA = "0x181C07A60", Slot = "14")]
+	[Address(RVA = "0x5597060", Offset = "0x5596060", VA = "0x5597060", Slot = "14")]
 	public virtual Task WriteEndConstructorAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FB")]
-	[Address(RVA = "0x1C07CB0", Offset = "0x1C062B0", VA = "0x181C07CB0", Slot = "15")]
+	[Address(RVA = "0x5597130", Offset = "0x5596130", VA = "0x5597130", Slot = "15")]
 	public virtual Task WriteEndObjectAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FC")]
-	[Address(RVA = "0x1C08100", Offset = "0x1C06700", VA = "0x181C08100", Slot = "16")]
+	[Address(RVA = "0x5597200", Offset = "0x5596200", VA = "0x5597200", Slot = "16")]
 	public virtual Task WriteNullAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FD")]
-	[Address(RVA = "0x1C081F0", Offset = "0x1C067F0", VA = "0x181C081F0", Slot = "17")]
+	[Address(RVA = "0x55972D0", Offset = "0x55962D0", VA = "0x55972D0", Slot = "17")]
 	public virtual Task WritePropertyNameAsync(string name, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FE")]
-	[Address(RVA = "0x1C082D0", Offset = "0x1C068D0", VA = "0x181C082D0", Slot = "18")]
+	[Address(RVA = "0x55973A0", Offset = "0x55963A0", VA = "0x55973A0", Slot = "18")]
 	public virtual Task WritePropertyNameAsync(string name, bool escape, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FF")]
-	[Address(RVA = "0x1C06000", Offset = "0x1C04600", VA = "0x181C06000")]
+	[Address(RVA = "0x5589910", Offset = "0x5588910", VA = "0x5589910")]
 	internal Task InternalWritePropertyNameAsync(string name, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000400")]
-	[Address(RVA = "0x1C08600", Offset = "0x1C06C00", VA = "0x181C08600", Slot = "19")]
+	[Address(RVA = "0x5597480", Offset = "0x5596480", VA = "0x5597480", Slot = "19")]
 	public virtual Task WriteStartArrayAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000401")]
-	[Address(RVA = "0x1C06100", Offset = "0x1C04700", VA = "0x181C06100")]
+	[Address(RVA = "0x558A5D0", Offset = "0x55895D0", VA = "0x558A5D0")]
 	[AsyncStateMachine(typeof(_003CInternalWriteStartAsync_003Ed__20))]
 	internal Task InternalWriteStartAsync(JsonToken token, JsonContainerType container, CancellationToken cancellationToken)
 	{
@@ -683,70 +683,70 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x1C07510", Offset = "0x1C05B10", VA = "0x181C07510", Slot = "20")]
+	[Address(RVA = "0x5597550", Offset = "0x5596550", VA = "0x5597550", Slot = "20")]
 	public virtual Task WriteCommentAsync(string? text, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x1C05D60", Offset = "0x1C04360", VA = "0x181C05D60")]
+	[Address(RVA = "0x5588DD0", Offset = "0x5587DD0", VA = "0x5588DD0")]
 	internal Task InternalWriteCommentAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x1C084D0", Offset = "0x1C06AD0", VA = "0x181C084D0", Slot = "21")]
+	[Address(RVA = "0x5597620", Offset = "0x5596620", VA = "0x5597620", Slot = "21")]
 	public virtual Task WriteRawValueAsync(string? json, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000405")]
-	[Address(RVA = "0x1C086E0", Offset = "0x1C06CE0", VA = "0x181C086E0", Slot = "22")]
+	[Address(RVA = "0x55976F0", Offset = "0x55966F0", VA = "0x55976F0", Slot = "22")]
 	public virtual Task WriteStartConstructorAsync(string name, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000406")]
-	[Address(RVA = "0x1C087D0", Offset = "0x1C06DD0", VA = "0x181C087D0", Slot = "23")]
+	[Address(RVA = "0x55977C0", Offset = "0x55967C0", VA = "0x55977C0", Slot = "23")]
 	public virtual Task WriteStartObjectAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000407")]
-	[Address(RVA = "0x1C089D0", Offset = "0x1C06FD0", VA = "0x181C089D0")]
+	[Address(RVA = "0x5597890", Offset = "0x5596890", VA = "0x5597890")]
 	public Task WriteTokenAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000408")]
-	[Address(RVA = "0x1C093E0", Offset = "0x1C079E0", VA = "0x181C093E0")]
+	[Address(RVA = "0x5597910", Offset = "0x5596910", VA = "0x5597910")]
 	public Task WriteTokenAsync(JsonReader reader, bool writeChildren, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000409")]
-	[Address(RVA = "0x1C09460", Offset = "0x1C07A60", VA = "0x181C09460")]
+	[Address(RVA = "0x5597990", Offset = "0x5596990", VA = "0x5597990")]
 	public Task WriteTokenAsync(JsonToken token, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600040A")]
-	[Address(RVA = "0x1C08A60", Offset = "0x1C07060", VA = "0x181C08A60")]
+	[Address(RVA = "0x55979A0", Offset = "0x55969A0", VA = "0x55979A0")]
 	public Task WriteTokenAsync(JsonToken token, object? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600040B")]
-	[Address(RVA = "0x1C088B0", Offset = "0x1C06EB0", VA = "0x181C088B0", Slot = "24")]
+	[Address(RVA = "0x5598150", Offset = "0x5597150", VA = "0x5598150", Slot = "24")]
 	[AsyncStateMachine(typeof(_003CWriteTokenAsync_003Ed__30))]
 	internal virtual Task WriteTokenAsync(JsonReader reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments, CancellationToken cancellationToken)
 	{
@@ -754,7 +754,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x600040C")]
-	[Address(RVA = "0x1C09480", Offset = "0x1C07A80", VA = "0x181C09480")]
+	[Address(RVA = "0x55982A0", Offset = "0x55972A0", VA = "0x55982A0")]
 	[AsyncStateMachine(typeof(_003CWriteTokenSyncReadingAsync_003Ed__31))]
 	internal Task WriteTokenSyncReadingAsync(JsonReader reader, CancellationToken cancellationToken)
 	{
@@ -762,7 +762,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x600040D")]
-	[Address(RVA = "0x1C075F0", Offset = "0x1C05BF0", VA = "0x181C075F0")]
+	[Address(RVA = "0x55983B0", Offset = "0x55973B0", VA = "0x55983B0")]
 	[AsyncStateMachine(typeof(_003CWriteConstructorDateAsync_003Ed__32))]
 	private Task WriteConstructorDateAsync(JsonReader reader, CancellationToken cancellationToken)
 	{
@@ -770,175 +770,175 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x600040E")]
-	[Address(RVA = "0x1C0C050", Offset = "0x1C0A650", VA = "0x181C0C050", Slot = "25")]
+	[Address(RVA = "0x55984C0", Offset = "0x55974C0", VA = "0x55984C0", Slot = "25")]
 	public virtual Task WriteValueAsync(bool value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600040F")]
-	[Address(RVA = "0x1C0ACB0", Offset = "0x1C092B0", VA = "0x181C0ACB0", Slot = "26")]
+	[Address(RVA = "0x5598590", Offset = "0x5597590", VA = "0x5598590", Slot = "26")]
 	public virtual Task WriteValueAsync(bool? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000410")]
-	[Address(RVA = "0x1C0ABD0", Offset = "0x1C091D0", VA = "0x181C0ABD0", Slot = "27")]
+	[Address(RVA = "0x5598660", Offset = "0x5597660", VA = "0x5598660", Slot = "27")]
 	public virtual Task WriteValueAsync(byte value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000411")]
-	[Address(RVA = "0x1C0BA10", Offset = "0x1C0A010", VA = "0x181C0BA10", Slot = "28")]
+	[Address(RVA = "0x5598730", Offset = "0x5597730", VA = "0x5598730", Slot = "28")]
 	public virtual Task WriteValueAsync(byte? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000412")]
-	[Address(RVA = "0x1C0AAF0", Offset = "0x1C090F0", VA = "0x181C0AAF0", Slot = "29")]
+	[Address(RVA = "0x5598800", Offset = "0x5597800", VA = "0x5598800", Slot = "29")]
 	public virtual Task WriteValueAsync(byte[]? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000413")]
-	[Address(RVA = "0x1C0B4C0", Offset = "0x1C09AC0", VA = "0x181C0B4C0", Slot = "30")]
+	[Address(RVA = "0x55988D0", Offset = "0x55978D0", VA = "0x55988D0", Slot = "30")]
 	public virtual Task WriteValueAsync(char value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000414")]
-	[Address(RVA = "0x1C0BBD0", Offset = "0x1C0A1D0", VA = "0x181C0BBD0", Slot = "31")]
+	[Address(RVA = "0x55989A0", Offset = "0x55979A0", VA = "0x55989A0", Slot = "31")]
 	public virtual Task WriteValueAsync(char? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000415")]
-	[Address(RVA = "0x1C0AE70", Offset = "0x1C09470", VA = "0x181C0AE70", Slot = "32")]
+	[Address(RVA = "0x5598A70", Offset = "0x5597A70", VA = "0x5598A70", Slot = "32")]
 	public virtual Task WriteValueAsync(DateTime value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000416")]
-	[Address(RVA = "0x1C0D560", Offset = "0x1C0BB60", VA = "0x181C0D560", Slot = "33")]
+	[Address(RVA = "0x5598B40", Offset = "0x5597B40", VA = "0x5598B40", Slot = "33")]
 	public virtual Task WriteValueAsync(DateTime? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000417")]
-	[Address(RVA = "0x1C0B3D0", Offset = "0x1C099D0", VA = "0x181C0B3D0", Slot = "34")]
+	[Address(RVA = "0x5598C20", Offset = "0x5597C20", VA = "0x5598C20", Slot = "34")]
 	public virtual Task WriteValueAsync(DateTimeOffset value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000418")]
-	[Address(RVA = "0x1C0D730", Offset = "0x1C0BD30", VA = "0x181C0D730", Slot = "35")]
+	[Address(RVA = "0x5598D00", Offset = "0x5597D00", VA = "0x5598D00", Slot = "35")]
 	public virtual Task WriteValueAsync(DateTimeOffset? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x1C0BCB0", Offset = "0x1C0A2B0", VA = "0x181C0BCB0", Slot = "36")]
+	[Address(RVA = "0x5598DE0", Offset = "0x5597DE0", VA = "0x5598DE0", Slot = "36")]
 	public virtual Task WriteValueAsync(decimal value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x1C0AF50", Offset = "0x1C09550", VA = "0x181C0AF50", Slot = "37")]
+	[Address(RVA = "0x5598EC0", Offset = "0x5597EC0", VA = "0x5598EC0", Slot = "37")]
 	public virtual Task WriteValueAsync(decimal? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041B")]
-	[Address(RVA = "0x1C0B2F0", Offset = "0x1C098F0", VA = "0x181C0B2F0", Slot = "38")]
+	[Address(RVA = "0x5598FA0", Offset = "0x5597FA0", VA = "0x5598FA0", Slot = "38")]
 	public virtual Task WriteValueAsync(double value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x1C0A4A0", Offset = "0x1C08AA0", VA = "0x181C0A4A0", Slot = "39")]
+	[Address(RVA = "0x5599080", Offset = "0x5598080", VA = "0x5599080", Slot = "39")]
 	public virtual Task WriteValueAsync(double? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x1C0B210", Offset = "0x1C09810", VA = "0x181C0B210", Slot = "40")]
+	[Address(RVA = "0x5599160", Offset = "0x5598160", VA = "0x5599160", Slot = "40")]
 	public virtual Task WriteValueAsync(float value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x1C0B850", Offset = "0x1C09E50", VA = "0x181C0B850", Slot = "41")]
+	[Address(RVA = "0x5599240", Offset = "0x5598240", VA = "0x5599240", Slot = "41")]
 	public virtual Task WriteValueAsync(float? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x1C0A910", Offset = "0x1C08F10", VA = "0x181C0A910", Slot = "42")]
+	[Address(RVA = "0x5599310", Offset = "0x5598310", VA = "0x5599310", Slot = "42")]
 	public virtual Task WriteValueAsync(Guid value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x1C0BF60", Offset = "0x1C0A560", VA = "0x181C0BF60", Slot = "43")]
+	[Address(RVA = "0x55993F0", Offset = "0x55983F0", VA = "0x55993F0", Slot = "43")]
 	public virtual Task WriteValueAsync(Guid? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x1C0D830", Offset = "0x1C0BE30", VA = "0x181C0D830", Slot = "44")]
+	[Address(RVA = "0x55994D0", Offset = "0x55984D0", VA = "0x55994D0", Slot = "44")]
 	public virtual Task WriteValueAsync(int value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x1C0B050", Offset = "0x1C09650", VA = "0x181C0B050", Slot = "45")]
+	[Address(RVA = "0x55995A0", Offset = "0x55985A0", VA = "0x55995A0", Slot = "45")]
 	public virtual Task WriteValueAsync(int? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000423")]
-	[Address(RVA = "0x1C0B690", Offset = "0x1C09C90", VA = "0x181C0B690", Slot = "46")]
+	[Address(RVA = "0x5599670", Offset = "0x5598670", VA = "0x5599670", Slot = "46")]
 	public virtual Task WriteValueAsync(long value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x1C0A3B0", Offset = "0x1C089B0", VA = "0x181C0A3B0", Slot = "47")]
+	[Address(RVA = "0x5599740", Offset = "0x5598740", VA = "0x5599740", Slot = "47")]
 	public virtual Task WriteValueAsync(long? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x1C0AD90", Offset = "0x1C09390", VA = "0x181C0AD90", Slot = "48")]
+	[Address(RVA = "0x5599820", Offset = "0x5598820", VA = "0x5599820", Slot = "48")]
 	public virtual Task WriteValueAsync(object? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x1C0D650", Offset = "0x1C0BC50", VA = "0x181C0D650", Slot = "49")]
+	[Address(RVA = "0x55998F0", Offset = "0x55988F0", VA = "0x55998F0", Slot = "49")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(sbyte value, [Optional] CancellationToken cancellationToken)
 	{
@@ -946,7 +946,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x1C0A830", Offset = "0x1C08E30", VA = "0x181C0A830", Slot = "50")]
+	[Address(RVA = "0x55999C0", Offset = "0x55989C0", VA = "0x55999C0", Slot = "50")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(sbyte? value, [Optional] CancellationToken cancellationToken)
 	{
@@ -954,42 +954,42 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x1C0B130", Offset = "0x1C09730", VA = "0x181C0B130", Slot = "51")]
+	[Address(RVA = "0x5599A90", Offset = "0x5598A90", VA = "0x5599A90", Slot = "51")]
 	public virtual Task WriteValueAsync(short value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x1C0BDA0", Offset = "0x1C0A3A0", VA = "0x181C0BDA0", Slot = "52")]
+	[Address(RVA = "0x5599B60", Offset = "0x5598B60", VA = "0x5599B60", Slot = "52")]
 	public virtual Task WriteValueAsync(short? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x1C0B770", Offset = "0x1C09D70", VA = "0x181C0B770", Slot = "53")]
+	[Address(RVA = "0x5599C30", Offset = "0x5598C30", VA = "0x5599C30", Slot = "53")]
 	public virtual Task WriteValueAsync(string? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042B")]
-	[Address(RVA = "0x1C0B930", Offset = "0x1C09F30", VA = "0x181C0B930", Slot = "54")]
+	[Address(RVA = "0x5599D00", Offset = "0x5598D00", VA = "0x5599D00", Slot = "54")]
 	public virtual Task WriteValueAsync(TimeSpan value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042C")]
-	[Address(RVA = "0x1C0B5A0", Offset = "0x1C09BA0", VA = "0x181C0B5A0", Slot = "55")]
+	[Address(RVA = "0x5599DD0", Offset = "0x5598DD0", VA = "0x5599DD0", Slot = "55")]
 	public virtual Task WriteValueAsync(TimeSpan? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042D")]
-	[Address(RVA = "0x1C0C130", Offset = "0x1C0A730", VA = "0x181C0C130", Slot = "56")]
+	[Address(RVA = "0x5599EB0", Offset = "0x5598EB0", VA = "0x5599EB0", Slot = "56")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(uint value, [Optional] CancellationToken cancellationToken)
 	{
@@ -997,7 +997,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x1C0BAF0", Offset = "0x1C0A0F0", VA = "0x181C0BAF0", Slot = "57")]
+	[Address(RVA = "0x5599F80", Offset = "0x5598F80", VA = "0x5599F80", Slot = "57")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(uint? value, [Optional] CancellationToken cancellationToken)
 	{
@@ -1005,7 +1005,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x600042F")]
-	[Address(RVA = "0x1C0BE80", Offset = "0x1C0A480", VA = "0x181C0BE80", Slot = "58")]
+	[Address(RVA = "0x559A050", Offset = "0x5599050", VA = "0x559A050", Slot = "58")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(ulong value, [Optional] CancellationToken cancellationToken)
 	{
@@ -1013,7 +1013,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000430")]
-	[Address(RVA = "0x1C0AA00", Offset = "0x1C09000", VA = "0x181C0AA00", Slot = "59")]
+	[Address(RVA = "0x559A120", Offset = "0x5599120", VA = "0x559A120", Slot = "59")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(ulong? value, [Optional] CancellationToken cancellationToken)
 	{
@@ -1021,14 +1021,14 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000431")]
-	[Address(RVA = "0x1C0A750", Offset = "0x1C08D50", VA = "0x181C0A750", Slot = "60")]
+	[Address(RVA = "0x559A200", Offset = "0x5599200", VA = "0x559A200", Slot = "60")]
 	public virtual Task WriteValueAsync(Uri? value, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000432")]
-	[Address(RVA = "0x1C0A590", Offset = "0x1C08B90", VA = "0x181C0A590", Slot = "61")]
+	[Address(RVA = "0x559A2D0", Offset = "0x55992D0", VA = "0x559A2D0", Slot = "61")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(ushort value, [Optional] CancellationToken cancellationToken)
 	{
@@ -1036,7 +1036,7 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x1C0A670", Offset = "0x1C08C70", VA = "0x181C0A670", Slot = "62")]
+	[Address(RVA = "0x559A3A0", Offset = "0x55993A0", VA = "0x559A3A0", Slot = "62")]
 	[CLSCompliant(false)]
 	public virtual Task WriteValueAsync(ushort? value, [Optional] CancellationToken cancellationToken)
 	{
@@ -1044,86 +1044,86 @@ public abstract class JsonWriter : IDisposable
 	}
 
 	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x1C0A2C0", Offset = "0x1C088C0", VA = "0x181C0A2C0", Slot = "63")]
+	[Address(RVA = "0x559A470", Offset = "0x5599470", VA = "0x559A470", Slot = "63")]
 	public virtual Task WriteUndefinedAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x1C0F810", Offset = "0x1C0DE10", VA = "0x181C0F810", Slot = "64")]
+	[Address(RVA = "0x559A540", Offset = "0x5599540", VA = "0x559A540", Slot = "64")]
 	public virtual Task WriteWhitespaceAsync(string ws, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000436")]
-	[Address(RVA = "0x1C06390", Offset = "0x1C04990", VA = "0x181C06390")]
+	[Address(RVA = "0x558B4F0", Offset = "0x558A4F0", VA = "0x558B4F0")]
 	internal Task InternalWriteValueAsync(JsonToken token, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x1C069D0", Offset = "0x1C04FD0", VA = "0x181C069D0")]
+	[Address(RVA = "0x559A620", Offset = "0x5599620", VA = "0x559A620")]
 	protected Task SetWriteStateAsync(JsonToken token, object value, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x1C0C210", Offset = "0x1C0A810", VA = "0x181C0C210")]
+	[Address(RVA = "0x559A860", Offset = "0x5599860", VA = "0x559A860")]
 	internal static Task WriteValueAsync(JsonWriter writer, PrimitiveTypeCode typeCode, object value, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x1C05610", Offset = "0x1C03C10", VA = "0x181C05610")]
+	[Address(RVA = "0x559BDF0", Offset = "0x559ADF0", VA = "0x559BDF0")]
 	internal static State[][] BuildStateArray()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x1C0F8F0", Offset = "0x1C0DEF0", VA = "0x181C0F8F0")]
+	[Address(RVA = "0x559C070", Offset = "0x559B070", VA = "0x559C070")]
 	static JsonWriter()
 	{
 	}
 
 	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "65")]
+	[Address(RVA = "0x559C7D0", Offset = "0x559B7D0", VA = "0x559C7D0", Slot = "65")]
 	internal virtual void OnStringEscapeHandlingChanged()
 	{
 	}
 
 	[Token(Token = "0x6000452")]
-	[Address(RVA = "0x1C0FC10", Offset = "0x1C0E210", VA = "0x181C0FC10")]
+	[Address(RVA = "0x559C880", Offset = "0x559B880", VA = "0x559C880")]
 	protected JsonWriter()
 	{
 	}
 
 	[Token(Token = "0x6000453")]
-	[Address(RVA = "0x1C07500", Offset = "0x1C05B00", VA = "0x181C07500")]
+	[Address(RVA = "0x559A610", Offset = "0x5599610", VA = "0x559A610")]
 	internal void UpdateScopeWithFinishedValue()
 	{
 	}
 
 	[Token(Token = "0x6000454")]
-	[Address(RVA = "0x1C066D0", Offset = "0x1C04CD0", VA = "0x181C066D0")]
+	[Address(RVA = "0x559C8B0", Offset = "0x559B8B0", VA = "0x559C8B0")]
 	private void Push(JsonContainerType value)
 	{
 	}
 
 	[Token(Token = "0x6000455")]
-	[Address(RVA = "0x1C065A0", Offset = "0x1C04BA0", VA = "0x181C065A0")]
+	[Address(RVA = "0x5596A30", Offset = "0x5595A30", VA = "0x5596A30")]
 	private JsonContainerType Pop()
 	{
 		return default(JsonContainerType);
 	}
 
 	[Token(Token = "0x6000456")]
-	[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+	[Address(RVA = "0x55966D0", Offset = "0x55956D0", VA = "0x55966D0")]
 	private JsonContainerType Peek()
 	{
 		return default(JsonContainerType);
@@ -1133,537 +1133,537 @@ public abstract class JsonWriter : IDisposable
 	public abstract void Flush();
 
 	[Token(Token = "0x6000458")]
-	[Address(RVA = "0x1C05A90", Offset = "0x1C04090", VA = "0x181C05A90", Slot = "67")]
+	[Address(RVA = "0x559CA40", Offset = "0x559BA40", VA = "0x559CA40", Slot = "67")]
 	public virtual void Close()
 	{
 	}
 
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x1C088A0", Offset = "0x1C06EA0", VA = "0x181C088A0", Slot = "68")]
+	[Address(RVA = "0x559CB60", Offset = "0x559BB60", VA = "0x559CB60", Slot = "68")]
 	public virtual void WriteStartObject()
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x1C07D80", Offset = "0x1C06380", VA = "0x181C07D80", Slot = "69")]
+	[Address(RVA = "0x559CBC0", Offset = "0x559BBC0", VA = "0x559CBC0", Slot = "69")]
 	public virtual void WriteEndObject()
 	{
 	}
 
 	[Token(Token = "0x600045B")]
-	[Address(RVA = "0x1C086D0", Offset = "0x1C06CD0", VA = "0x181C086D0", Slot = "70")]
+	[Address(RVA = "0x559CBE0", Offset = "0x559BBE0", VA = "0x559CBE0", Slot = "70")]
 	public virtual void WriteStartArray()
 	{
 	}
 
 	[Token(Token = "0x600045C")]
-	[Address(RVA = "0x1C078A0", Offset = "0x1C05EA0", VA = "0x181C078A0", Slot = "71")]
+	[Address(RVA = "0x559CC10", Offset = "0x559BC10", VA = "0x559CC10", Slot = "71")]
 	public virtual void WriteEndArray()
 	{
 	}
 
 	[Token(Token = "0x600045D")]
-	[Address(RVA = "0x1C087C0", Offset = "0x1C06DC0", VA = "0x181C087C0", Slot = "72")]
+	[Address(RVA = "0x559CC20", Offset = "0x559BC20", VA = "0x559CC20", Slot = "72")]
 	public virtual void WriteStartConstructor(string name)
 	{
 	}
 
 	[Token(Token = "0x600045E")]
-	[Address(RVA = "0x1C07B30", Offset = "0x1C06130", VA = "0x181C07B30", Slot = "73")]
+	[Address(RVA = "0x559CC50", Offset = "0x559BC50", VA = "0x559CC50", Slot = "73")]
 	public virtual void WriteEndConstructor()
 	{
 	}
 
 	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x1C060D0", Offset = "0x1C046D0", VA = "0x181C060D0", Slot = "74")]
+	[Address(RVA = "0x559CC60", Offset = "0x559BC60", VA = "0x559CC60", Slot = "74")]
 	public virtual void WritePropertyName(string name)
 	{
 	}
 
 	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x1C083D0", Offset = "0x1C069D0", VA = "0x181C083D0", Slot = "75")]
+	[Address(RVA = "0x559CCA0", Offset = "0x559BCA0", VA = "0x559CCA0", Slot = "75")]
 	public virtual void WritePropertyName(string name, bool escape)
 	{
 	}
 
 	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x1C07D90", Offset = "0x1C06390", VA = "0x181C07D90", Slot = "76")]
+	[Address(RVA = "0x559CCC0", Offset = "0x559BCC0", VA = "0x559CCC0", Slot = "76")]
 	public virtual void WriteEnd()
 	{
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x1C09900", Offset = "0x1C07F00", VA = "0x181C09900")]
+	[Address(RVA = "0x559CDA0", Offset = "0x559BDA0", VA = "0x559CDA0")]
 	public void WriteToken(JsonReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x1C0A240", Offset = "0x1C08840", VA = "0x181C0A240")]
+	[Address(RVA = "0x5594C20", Offset = "0x5593C20", VA = "0x5594C20")]
 	public void WriteToken(JsonReader reader, bool writeChildren)
 	{
 	}
 
 	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x1C09990", Offset = "0x1C07F90", VA = "0x181C09990")]
+	[Address(RVA = "0x559CE10", Offset = "0x559BE10", VA = "0x559CE10")]
 	public void WriteToken(JsonToken token, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x1C09980", Offset = "0x1C07F80", VA = "0x181C09980")]
+	[Address(RVA = "0x559D4D0", Offset = "0x559C4D0", VA = "0x559D4D0")]
 	public void WriteToken(JsonToken token)
 	{
 	}
 
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x1C095A0", Offset = "0x1C07BA0", VA = "0x181C095A0", Slot = "77")]
+	[Address(RVA = "0x559D4E0", Offset = "0x559C4E0", VA = "0x559D4E0", Slot = "77")]
 	internal virtual void WriteToken(JsonReader reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments)
 	{
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x1C064D0", Offset = "0x1C04AD0", VA = "0x181C064D0")]
+	[Address(RVA = "0x559D8D0", Offset = "0x559C8D0", VA = "0x559D8D0")]
 	private bool IsWriteTokenIncomplete(JsonReader reader, bool writeChildren, int initialDepth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x1C05950", Offset = "0x1C03F50", VA = "0x181C05950")]
+	[Address(RVA = "0x559D7A0", Offset = "0x559C7A0", VA = "0x559D7A0")]
 	private int CalculateWriteTokenInitialDepth(JsonReader reader)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x1C058E0", Offset = "0x1C03EE0", VA = "0x181C058E0")]
+	[Address(RVA = "0x559D980", Offset = "0x559C980", VA = "0x559D980")]
 	private int CalculateWriteTokenFinalDepth(JsonReader reader)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x1C07710", Offset = "0x1C05D10", VA = "0x181C07710")]
+	[Address(RVA = "0x559D810", Offset = "0x559C810", VA = "0x559D810")]
 	private void WriteConstructorDate(JsonReader reader)
 	{
 	}
 
 	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x1C07E80", Offset = "0x1C06480", VA = "0x181C07E80")]
+	[Address(RVA = "0x559CCD0", Offset = "0x559BCD0", VA = "0x559CCD0")]
 	private void WriteEnd(JsonContainerType type)
 	{
 	}
 
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x1C04EC0", Offset = "0x1C034C0", VA = "0x181C04EC0")]
+	[Address(RVA = "0x559CAD0", Offset = "0x559BAD0", VA = "0x559CAD0")]
 	private void AutoCompleteAll()
 	{
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x1C05CA0", Offset = "0x1C042A0", VA = "0x181C05CA0")]
+	[Address(RVA = "0x5596B00", Offset = "0x5595B00", VA = "0x5596B00")]
 	private JsonToken GetCloseTokenForType(JsonContainerType type)
 	{
 		return default(JsonToken);
 	}
 
 	[Token(Token = "0x600046E")]
-	[Address(RVA = "0x1C05330", Offset = "0x1C03930", VA = "0x181C05330")]
+	[Address(RVA = "0x559D9E0", Offset = "0x559C9E0", VA = "0x559D9E0")]
 	private void AutoCompleteClose(JsonContainerType type)
 	{
 	}
 
 	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x1C057E0", Offset = "0x1C03DE0", VA = "0x181C057E0")]
+	[Address(RVA = "0x5596920", Offset = "0x5595920", VA = "0x5596920")]
 	private int CalculateLevelsToComplete(JsonContainerType type)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x1C07430", Offset = "0x1C05A30", VA = "0x181C07430")]
+	[Address(RVA = "0x5596EF0", Offset = "0x5595EF0", VA = "0x5596EF0")]
 	private void UpdateCurrentState()
 	{
 	}
 
 	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "78")]
+	[Address(RVA = "0x559DA80", Offset = "0x559CA80", VA = "0x559DA80", Slot = "78")]
 	protected virtual void WriteEnd(JsonToken token)
 	{
 	}
 
 	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "79")]
+	[Address(RVA = "0x559DA90", Offset = "0x559CA90", VA = "0x559DA90", Slot = "79")]
 	protected virtual void WriteIndent()
 	{
 	}
 
 	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "80")]
+	[Address(RVA = "0x559DAA0", Offset = "0x559CAA0", VA = "0x559DAA0", Slot = "80")]
 	protected virtual void WriteValueDelimiter()
 	{
 	}
 
 	[Token(Token = "0x6000474")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "81")]
+	[Address(RVA = "0x559DAB0", Offset = "0x559CAB0", VA = "0x559DAB0", Slot = "81")]
 	protected virtual void WriteIndentSpace()
 	{
 	}
 
 	[Token(Token = "0x6000475")]
-	[Address(RVA = "0x1C053E0", Offset = "0x1C039E0", VA = "0x181C053E0")]
+	[Address(RVA = "0x559DAC0", Offset = "0x559CAC0", VA = "0x559DAC0")]
 	internal void AutoComplete(JsonToken tokenBeingWritten)
 	{
 	}
 
 	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x1C081D0", Offset = "0x1C067D0", VA = "0x181C081D0", Slot = "82")]
+	[Address(RVA = "0x559DCE0", Offset = "0x559CCE0", VA = "0x559DCE0", Slot = "82")]
 	public virtual void WriteNull()
 	{
 	}
 
 	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x1C0A390", Offset = "0x1C08990", VA = "0x181C0A390", Slot = "83")]
+	[Address(RVA = "0x559DD10", Offset = "0x559CD10", VA = "0x559DD10", Slot = "83")]
 	public virtual void WriteUndefined()
 	{
 	}
 
 	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "84")]
+	[Address(RVA = "0x559DD30", Offset = "0x559CD30", VA = "0x559DD30", Slot = "84")]
 	public virtual void WriteRaw(string? json)
 	{
 	}
 
 	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x1C085B0", Offset = "0x1C06BB0", VA = "0x181C085B0", Slot = "85")]
+	[Address(RVA = "0x559DD50", Offset = "0x559CD50", VA = "0x559DD50", Slot = "85")]
 	public virtual void WriteRawValue(string? json)
 	{
 	}
 
 	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x1C0DDD0", Offset = "0x1C0C3D0", VA = "0x181C0DDD0", Slot = "86")]
+	[Address(RVA = "0x559DD90", Offset = "0x559CD90", VA = "0x559DD90", Slot = "86")]
 	public virtual void WriteValue(string? value)
 	{
 	}
 
 	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "87")]
+	[Address(RVA = "0x559DDB0", Offset = "0x559CDB0", VA = "0x559DDB0", Slot = "87")]
 	public virtual void WriteValue(int value)
 	{
 	}
 
 	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "88")]
+	[Address(RVA = "0x559DDD0", Offset = "0x559CDD0", VA = "0x559DDD0", Slot = "88")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(uint value)
 	{
 	}
 
 	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "89")]
+	[Address(RVA = "0x559DDF0", Offset = "0x559CDF0", VA = "0x559DDF0", Slot = "89")]
 	public virtual void WriteValue(long value)
 	{
 	}
 
 	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "90")]
+	[Address(RVA = "0x559DE10", Offset = "0x559CE10", VA = "0x559DE10", Slot = "90")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(ulong value)
 	{
 	}
 
 	[Token(Token = "0x600047F")]
-	[Address(RVA = "0x1C0DC30", Offset = "0x1C0C230", VA = "0x181C0DC30", Slot = "91")]
+	[Address(RVA = "0x559DE30", Offset = "0x559CE30", VA = "0x559DE30", Slot = "91")]
 	public virtual void WriteValue(float value)
 	{
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x1C0DC30", Offset = "0x1C0C230", VA = "0x181C0DC30", Slot = "92")]
+	[Address(RVA = "0x559DE50", Offset = "0x559CE50", VA = "0x559DE50", Slot = "92")]
 	public virtual void WriteValue(double value)
 	{
 	}
 
 	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x1C0DEF0", Offset = "0x1C0C4F0", VA = "0x181C0DEF0", Slot = "93")]
+	[Address(RVA = "0x559DE70", Offset = "0x559CE70", VA = "0x559DE70", Slot = "93")]
 	public virtual void WriteValue(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "94")]
+	[Address(RVA = "0x559DE90", Offset = "0x559CE90", VA = "0x559DE90", Slot = "94")]
 	public virtual void WriteValue(short value)
 	{
 	}
 
 	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "95")]
+	[Address(RVA = "0x559DEB0", Offset = "0x559CEB0", VA = "0x559DEB0", Slot = "95")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(ushort value)
 	{
 	}
 
 	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x1C0DDD0", Offset = "0x1C0C3D0", VA = "0x181C0DDD0", Slot = "96")]
+	[Address(RVA = "0x559DED0", Offset = "0x559CED0", VA = "0x559DED0", Slot = "96")]
 	public virtual void WriteValue(char value)
 	{
 	}
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "97")]
+	[Address(RVA = "0x559DEF0", Offset = "0x559CEF0", VA = "0x559DEF0", Slot = "97")]
 	public virtual void WriteValue(byte value)
 	{
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x1C0DA60", Offset = "0x1C0C060", VA = "0x181C0DA60", Slot = "98")]
+	[Address(RVA = "0x559DF10", Offset = "0x559CF10", VA = "0x559DF10", Slot = "98")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(sbyte value)
 	{
 	}
 
 	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x1C0DC30", Offset = "0x1C0C230", VA = "0x181C0DC30", Slot = "99")]
+	[Address(RVA = "0x559DF30", Offset = "0x559CF30", VA = "0x559DF30", Slot = "99")]
 	public virtual void WriteValue(decimal value)
 	{
 	}
 
 	[Token(Token = "0x6000488")]
-	[Address(RVA = "0x1C0DA80", Offset = "0x1C0C080", VA = "0x181C0DA80", Slot = "100")]
+	[Address(RVA = "0x559DF50", Offset = "0x559CF50", VA = "0x559DF50", Slot = "100")]
 	public virtual void WriteValue(DateTime value)
 	{
 	}
 
 	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x1C0DA80", Offset = "0x1C0C080", VA = "0x181C0DA80", Slot = "101")]
+	[Address(RVA = "0x559DF70", Offset = "0x559CF70", VA = "0x559DF70", Slot = "101")]
 	public virtual void WriteValue(DateTimeOffset value)
 	{
 	}
 
 	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x1C0DDD0", Offset = "0x1C0C3D0", VA = "0x181C0DDD0", Slot = "102")]
+	[Address(RVA = "0x559DF90", Offset = "0x559CF90", VA = "0x559DF90", Slot = "102")]
 	public virtual void WriteValue(Guid value)
 	{
 	}
 
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x1C0DDD0", Offset = "0x1C0C3D0", VA = "0x181C0DDD0", Slot = "103")]
+	[Address(RVA = "0x559DFB0", Offset = "0x559CFB0", VA = "0x559DFB0", Slot = "103")]
 	public virtual void WriteValue(TimeSpan value)
 	{
 	}
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x1C0F680", Offset = "0x1C0DC80", VA = "0x181C0F680", Slot = "104")]
+	[Address(RVA = "0x559DFD0", Offset = "0x559CFD0", VA = "0x559DFD0", Slot = "104")]
 	public virtual void WriteValue(int? value)
 	{
 	}
 
 	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x1C0DD50", Offset = "0x1C0C350", VA = "0x181C0DD50", Slot = "105")]
+	[Address(RVA = "0x559E050", Offset = "0x559D050", VA = "0x559E050", Slot = "105")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(uint? value)
 	{
 	}
 
 	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x1C0F380", Offset = "0x1C0D980", VA = "0x181C0F380", Slot = "106")]
+	[Address(RVA = "0x559E0D0", Offset = "0x559D0D0", VA = "0x559E0D0", Slot = "106")]
 	public virtual void WriteValue(long? value)
 	{
 	}
 
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x1C0DF10", Offset = "0x1C0C510", VA = "0x181C0DF10", Slot = "107")]
+	[Address(RVA = "0x559E140", Offset = "0x559D140", VA = "0x559E140", Slot = "107")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(ulong? value)
 	{
 	}
 
 	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x1C0DC50", Offset = "0x1C0C250", VA = "0x181C0DC50", Slot = "108")]
+	[Address(RVA = "0x559E1B0", Offset = "0x559D1B0", VA = "0x559E1B0", Slot = "108")]
 	public virtual void WriteValue(float? value)
 	{
 	}
 
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x1C0DDF0", Offset = "0x1C0C3F0", VA = "0x181C0DDF0", Slot = "109")]
+	[Address(RVA = "0x559E230", Offset = "0x559D230", VA = "0x559E230", Slot = "109")]
 	public virtual void WriteValue(double? value)
 	{
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x1C0F5D0", Offset = "0x1C0DBD0", VA = "0x181C0F5D0", Slot = "110")]
+	[Address(RVA = "0x559E2B0", Offset = "0x559D2B0", VA = "0x559E2B0", Slot = "110")]
 	public virtual void WriteValue(bool? value)
 	{
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x1C0DF90", Offset = "0x1C0C590", VA = "0x181C0DF90", Slot = "111")]
+	[Address(RVA = "0x559E330", Offset = "0x559D330", VA = "0x559E330", Slot = "111")]
 	public virtual void WriteValue(short? value)
 	{
 	}
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x1C0F790", Offset = "0x1C0DD90", VA = "0x181C0F790", Slot = "112")]
+	[Address(RVA = "0x559E3A0", Offset = "0x559D3A0", VA = "0x559E3A0", Slot = "112")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(ushort? value)
 	{
 	}
 
 	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x1C0D9E0", Offset = "0x1C0BFE0", VA = "0x181C0D9E0", Slot = "113")]
+	[Address(RVA = "0x559E410", Offset = "0x559D410", VA = "0x559E410", Slot = "113")]
 	public virtual void WriteValue(char? value)
 	{
 	}
 
 	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x1C0DE70", Offset = "0x1C0C470", VA = "0x181C0DE70", Slot = "114")]
+	[Address(RVA = "0x559E480", Offset = "0x559D480", VA = "0x559E480", Slot = "114")]
 	public virtual void WriteValue(byte? value)
 	{
 	}
 
 	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x1C0DBB0", Offset = "0x1C0C1B0", VA = "0x181C0DBB0", Slot = "115")]
+	[Address(RVA = "0x559E500", Offset = "0x559D500", VA = "0x559E500", Slot = "115")]
 	[CLSCompliant(false)]
 	public virtual void WriteValue(sbyte? value)
 	{
 	}
 
 	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x1C0DB20", Offset = "0x1C0C120", VA = "0x181C0DB20", Slot = "116")]
+	[Address(RVA = "0x559E580", Offset = "0x559D580", VA = "0x559E580", Slot = "116")]
 	public virtual void WriteValue(decimal? value)
 	{
 	}
 
 	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x1C0DAA0", Offset = "0x1C0C0A0", VA = "0x181C0DAA0", Slot = "117")]
+	[Address(RVA = "0x559E600", Offset = "0x559D600", VA = "0x559E600", Slot = "117")]
 	public virtual void WriteValue(DateTime? value)
 	{
 	}
 
 	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x1C0E010", Offset = "0x1C0C610", VA = "0x181C0E010", Slot = "118")]
+	[Address(RVA = "0x559E670", Offset = "0x559D670", VA = "0x559E670", Slot = "118")]
 	public virtual void WriteValue(DateTimeOffset? value)
 	{
 	}
 
 	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x1C0F700", Offset = "0x1C0DD00", VA = "0x181C0F700", Slot = "119")]
+	[Address(RVA = "0x559E6F0", Offset = "0x559D6F0", VA = "0x559E6F0", Slot = "119")]
 	public virtual void WriteValue(Guid? value)
 	{
 	}
 
 	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x1C0DCD0", Offset = "0x1C0C2D0", VA = "0x181C0DCD0", Slot = "120")]
+	[Address(RVA = "0x559E770", Offset = "0x559D770", VA = "0x559E770", Slot = "120")]
 	public virtual void WriteValue(TimeSpan? value)
 	{
 	}
 
 	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x1C0F650", Offset = "0x1C0DC50", VA = "0x181C0F650", Slot = "121")]
+	[Address(RVA = "0x559E7E0", Offset = "0x559D7E0", VA = "0x559E7E0", Slot = "121")]
 	public virtual void WriteValue(byte[]? value)
 	{
 	}
 
 	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x1C0F400", Offset = "0x1C0DA00", VA = "0x181C0F400", Slot = "122")]
+	[Address(RVA = "0x559E810", Offset = "0x559D810", VA = "0x559E810", Slot = "122")]
 	public virtual void WriteValue(Uri? value)
 	{
 	}
 
 	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x1C0F4A0", Offset = "0x1C0DAA0", VA = "0x181C0F4A0", Slot = "123")]
+	[Address(RVA = "0x559E8A0", Offset = "0x559D8A0", VA = "0x559E8A0", Slot = "123")]
 	public virtual void WriteValue(object? value)
 	{
 	}
 
 	[Token(Token = "0x60004A0")]
-	[Address(RVA = "0x1C05D70", Offset = "0x1C04370", VA = "0x181C05D70", Slot = "124")]
+	[Address(RVA = "0x559FC20", Offset = "0x559EC20", VA = "0x559FC20", Slot = "124")]
 	public virtual void WriteComment(string? text)
 	{
 	}
 
 	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x1C06470", Offset = "0x1C04A70", VA = "0x181C06470", Slot = "125")]
+	[Address(RVA = "0x559FC40", Offset = "0x559EC40", VA = "0x559FC40", Slot = "125")]
 	public virtual void WriteWhitespace(string ws)
 	{
 	}
 
 	[Token(Token = "0x60004A2")]
-	[Address(RVA = "0x1C06F60", Offset = "0x1C05560", VA = "0x181C06F60", Slot = "4")]
+	[Address(RVA = "0x559FCE0", Offset = "0x559ECE0", VA = "0x559FCE0", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x60004A3")]
-	[Address(RVA = "0x1C05BA0", Offset = "0x1C041A0", VA = "0x181C05BA0", Slot = "126")]
+	[Address(RVA = "0x559FD50", Offset = "0x559ED50", VA = "0x559FD50", Slot = "126")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60004A4")]
-	[Address(RVA = "0x1C0E0A0", Offset = "0x1C0C6A0", VA = "0x181C0E0A0")]
+	[Address(RVA = "0x559E9C0", Offset = "0x559D9C0", VA = "0x559E9C0")]
 	internal static void WriteValue(JsonWriter writer, PrimitiveTypeCode typeCode, object value)
 	{
 	}
 
 	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x1C06840", Offset = "0x1C04E40", VA = "0x181C06840")]
+	[Address(RVA = "0x559BB90", Offset = "0x559AB90", VA = "0x559BB90")]
 	private static void ResolveConvertibleValue(IConvertible convertible, out PrimitiveTypeCode typeCode, out object value)
 	{
 	}
 
 	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x1C05AF0", Offset = "0x1C040F0", VA = "0x181C05AF0")]
+	[Address(RVA = "0x559BD30", Offset = "0x559AD30", VA = "0x559BD30")]
 	private static JsonWriterException CreateUnsupportedTypeException(JsonWriter writer, object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x1C06D40", Offset = "0x1C05340", VA = "0x181C06D40")]
+	[Address(RVA = "0x559FD70", Offset = "0x559ED70", VA = "0x559FD70")]
 	protected void SetWriteState(JsonToken token, object value)
 	{
 	}
 
 	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x1C05330", Offset = "0x1C03930", VA = "0x181C05330")]
+	[Address(RVA = "0x559CBD0", Offset = "0x559BBD0", VA = "0x559CBD0")]
 	internal void InternalWriteEnd(JsonContainerType container)
 	{
 	}
 
 	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x1C060D0", Offset = "0x1C046D0", VA = "0x181C060D0")]
+	[Address(RVA = "0x559CC80", Offset = "0x559BC80", VA = "0x559CC80")]
 	internal void InternalWritePropertyName(string name)
 	{
 	}
 
 	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x559DD40", Offset = "0x559CD40", VA = "0x559DD40")]
 	internal void InternalWriteRaw()
 	{
 	}
 
 	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x1C06200", Offset = "0x1C04800", VA = "0x181C06200")]
+	[Address(RVA = "0x559CB90", Offset = "0x559BB90", VA = "0x559CB90")]
 	internal void InternalWriteStart(JsonToken token, JsonContainerType container)
 	{
 	}
 
 	[Token(Token = "0x60004AC")]
-	[Address(RVA = "0x1C06450", Offset = "0x1C04A50", VA = "0x181C06450")]
+	[Address(RVA = "0x559DD00", Offset = "0x559CD00", VA = "0x559DD00")]
 	internal void InternalWriteValue(JsonToken token)
 	{
 	}
 
 	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0x1C06470", Offset = "0x1C04A70", VA = "0x181C06470")]
+	[Address(RVA = "0x559FC90", Offset = "0x559EC90", VA = "0x559FC90")]
 	internal void InternalWriteWhitespace(string ws)
 	{
 	}
 
 	[Token(Token = "0x60004AE")]
-	[Address(RVA = "0x1C05D70", Offset = "0x1C04370", VA = "0x181C05D70")]
+	[Address(RVA = "0x559FC30", Offset = "0x559EC30", VA = "0x559FC30")]
 	internal void InternalWriteComment()
 	{
 	}

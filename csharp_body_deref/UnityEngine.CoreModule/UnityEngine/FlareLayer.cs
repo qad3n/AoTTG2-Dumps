@@ -10,8 +10,8 @@ using Il2CppDummyDll;
 namespace UnityEngine;
 
 [Token(Token = "0x20000AA")]
-[RequireComponent(typeof(Camera))]
 [HelpURL("create-lens-flare")]
+[RequireComponent(typeof(Camera))]
 public class FlareLayer : Behaviour
 {
 }

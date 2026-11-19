@@ -11,17 +11,17 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000105")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ColorGamut.h")]
+[Token(Token = "0x2000106")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ColorGamut.h")]
 public enum ColorPrimaries
 {
-	[Token(Token = "0x40002CE")]
+	[Token(Token = "0x40002D3")]
 	Unknown = -1,
-	[Token(Token = "0x40002CF")]
+	[Token(Token = "0x40002D4")]
 	Rec709,
-	[Token(Token = "0x40002D0")]
+	[Token(Token = "0x40002D5")]
 	Rec2020,
-	[Token(Token = "0x40002D1")]
+	[Token(Token = "0x40002D6")]
 	P3
 }

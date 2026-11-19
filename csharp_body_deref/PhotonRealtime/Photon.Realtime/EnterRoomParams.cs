@@ -54,7 +54,7 @@ public class EnterRoomParams
 	public string[] ExpectedUsers;
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x1D143C0", Offset = "0x1D129C0", VA = "0x181D143C0")]
+	[Address(RVA = "0x56AE520", Offset = "0x56AD520", VA = "0x56AE520")]
 	public EnterRoomParams()
 	{
 	}

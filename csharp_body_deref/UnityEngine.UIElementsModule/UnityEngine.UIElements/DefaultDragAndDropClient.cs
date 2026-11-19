@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DefaultDragAndDropClient
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ internal class DefaultDragAndDropClient : DragAndDropData, IDragAndDrop
 	public override object source
 	{
 		[Token(Token = "0x6000B13")]
-		[Address(RVA = "0x323FCC0", Offset = "0x323E2C0", VA = "0x18323FCC0", Slot = "5")]
+		[Address(RVA = "0x6C4F400", Offset = "0x6C4E400", VA = "0x6C4F400", Slot = "5")]
 		get
 		{
 			return null;
@@ -45,7 +45,7 @@ internal class DefaultDragAndDropClient : DragAndDropData, IDragAndDrop
 	public DragAndDropData data
 	{
 		[Token(Token = "0x6000B1A")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "12")]
+		[Address(RVA = "0x6C4FDF0", Offset = "0x6C4EDF0", VA = "0x6C4FDF0", Slot = "12")]
 		get
 		{
 			return null;
@@ -53,44 +53,44 @@ internal class DefaultDragAndDropClient : DragAndDropData, IDragAndDrop
 	}
 
 	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x323F3D0", Offset = "0x323D9D0", VA = "0x18323F3D0", Slot = "4")]
+	[Address(RVA = "0x6C4F450", Offset = "0x6C4E450", VA = "0x6C4F450", Slot = "4")]
 	public override object GetGenericData(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B15")]
-	[Address(RVA = "0x323F440", Offset = "0x323DA40", VA = "0x18323F440", Slot = "7")]
+	[Address(RVA = "0x6C4F4B0", Offset = "0x6C4E4B0", VA = "0x6C4F4B0", Slot = "7")]
 	public void StartDrag(StartDragArgs args, Vector3 pointerPosition)
 	{
 	}
 
 	[Token(Token = "0x6000B16")]
-	[Address(RVA = "0x323FA70", Offset = "0x323E070", VA = "0x18323FA70", Slot = "8")]
+	[Address(RVA = "0x6C4FBD0", Offset = "0x6C4EBD0", VA = "0x6C4FBD0", Slot = "8")]
 	public void UpdateDrag(Vector3 pointerPosition)
 	{
 	}
 
 	[Token(Token = "0x6000B17")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x6C4FD70", Offset = "0x6C4ED70", VA = "0x6C4FD70", Slot = "9")]
 	public void AcceptDrag()
 	{
 	}
 
 	[Token(Token = "0x6000B18")]
-	[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090", Slot = "11")]
+	[Address(RVA = "0x6C4FD80", Offset = "0x6C4ED80", VA = "0x6C4FD80", Slot = "11")]
 	public void SetVisualMode(DragVisualMode mode)
 	{
 	}
 
 	[Token(Token = "0x6000B19")]
-	[Address(RVA = "0x323F360", Offset = "0x323D960", VA = "0x18323F360", Slot = "10")]
+	[Address(RVA = "0x6C4FD90", Offset = "0x6C4ED90", VA = "0x6C4FD90", Slot = "10")]
 	public void DragCleanup()
 	{
 	}
 
 	[Token(Token = "0x6000B1B")]
-	[Address(RVA = "0x323FC50", Offset = "0x323E250", VA = "0x18323FC50")]
+	[Address(RVA = "0x6C4F3A0", Offset = "0x6C4E3A0", VA = "0x6C4F3A0")]
 	public DefaultDragAndDropClient()
 	{
 	}

@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class MultiplicationHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x2E14210", Offset = "0x2E12810", VA = "0x182E14210")]
+	[Address(RVA = "0x68120D0", Offset = "0x68110D0", VA = "0x68120D0")]
 	public MultiplicationHandler()
 	{
 	}

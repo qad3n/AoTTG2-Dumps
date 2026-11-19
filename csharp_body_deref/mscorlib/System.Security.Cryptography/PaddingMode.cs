@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000301")]
+[Token(Token = "0x20002DA")]
 [ComVisible(true)]
 public enum PaddingMode
 {
-	[Token(Token = "0x4000CEC")]
+	[Token(Token = "0x4000C4C")]
 	None = 1,
-	[Token(Token = "0x4000CED")]
+	[Token(Token = "0x4000C4D")]
 	PKCS7,
-	[Token(Token = "0x4000CEE")]
+	[Token(Token = "0x4000C4E")]
 	Zeros,
-	[Token(Token = "0x4000CEF")]
+	[Token(Token = "0x4000C4F")]
 	ANSIX923,
-	[Token(Token = "0x4000CF0")]
+	[Token(Token = "0x4000C50")]
 	ISO10126
 }

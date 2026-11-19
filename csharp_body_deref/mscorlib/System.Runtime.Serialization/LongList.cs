@@ -10,87 +10,87 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x2000412")]
+[Token(Token = "0x20003EB")]
 internal class LongList
 {
-	[Token(Token = "0x400100D")]
+	[Token(Token = "0x4000F6D")]
 	[FieldOffset(Offset = "0x10")]
 	private long[] m_values;
 
-	[Token(Token = "0x400100E")]
+	[Token(Token = "0x4000F6E")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_count;
 
-	[Token(Token = "0x400100F")]
+	[Token(Token = "0x4000F6F")]
 	[FieldOffset(Offset = "0x1C")]
 	private int m_totalItems;
 
-	[Token(Token = "0x4001010")]
+	[Token(Token = "0x4000F70")]
 	[FieldOffset(Offset = "0x20")]
 	private int m_currentItem;
 
-	[Token(Token = "0x17000435")]
+	[Token(Token = "0x17000434")]
 	internal int Count
 	{
-		[Token(Token = "0x6002041")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6002017")]
+		[Address(RVA = "0x53A5340", Offset = "0x53A4340", VA = "0x53A5340")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000436")]
+	[Token(Token = "0x17000435")]
 	internal long Current
 	{
-		[Token(Token = "0x6002044")]
-		[Address(RVA = "0x1A14D20", Offset = "0x1A13320", VA = "0x181A14D20")]
+		[Token(Token = "0x600201A")]
+		[Address(RVA = "0x53A2CD0", Offset = "0x53A1CD0", VA = "0x53A2CD0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x600203E")]
-	[Address(RVA = "0x1A14C50", Offset = "0x1A13250", VA = "0x181A14C50")]
+	[Token(Token = "0x6002014")]
+	[Address(RVA = "0x53A4E70", Offset = "0x53A3E70", VA = "0x53A4E70")]
 	internal LongList()
 	{
 	}
 
-	[Token(Token = "0x600203F")]
-	[Address(RVA = "0x1A14CB0", Offset = "0x1A132B0", VA = "0x181A14CB0")]
+	[Token(Token = "0x6002015")]
+	[Address(RVA = "0x53A5260", Offset = "0x53A4260", VA = "0x53A5260")]
 	internal LongList(int startingSize)
 	{
 	}
 
-	[Token(Token = "0x6002040")]
-	[Address(RVA = "0x1A14A20", Offset = "0x1A13020", VA = "0x181A14A20")]
+	[Token(Token = "0x6002016")]
+	[Address(RVA = "0x53A4ED0", Offset = "0x53A3ED0", VA = "0x53A4ED0")]
 	internal void Add(long value)
 	{
 	}
 
-	[Token(Token = "0x6002042")]
-	[Address(RVA = "0x1532BE0", Offset = "0x15311E0", VA = "0x181532BE0")]
+	[Token(Token = "0x6002018")]
+	[Address(RVA = "0x53A2CC0", Offset = "0x53A1CC0", VA = "0x53A2CC0")]
 	internal void StartEnumeration()
 	{
 	}
 
-	[Token(Token = "0x6002043")]
-	[Address(RVA = "0x1A14B80", Offset = "0x1A13180", VA = "0x181A14B80")]
+	[Token(Token = "0x6002019")]
+	[Address(RVA = "0x53A2D10", Offset = "0x53A1D10", VA = "0x53A2D10")]
 	internal bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002045")]
-	[Address(RVA = "0x1A14BD0", Offset = "0x1A131D0", VA = "0x181A14BD0")]
+	[Token(Token = "0x600201B")]
+	[Address(RVA = "0x53A4D80", Offset = "0x53A3D80", VA = "0x53A4D80")]
 	internal bool RemoveElement(long value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002046")]
-	[Address(RVA = "0x1A14AF0", Offset = "0x1A130F0", VA = "0x181A14AF0")]
+	[Token(Token = "0x600201C")]
+	[Address(RVA = "0x53A52C0", Offset = "0x53A42C0", VA = "0x53A52C0")]
 	private void EnlargeArray()
 	{
 	}

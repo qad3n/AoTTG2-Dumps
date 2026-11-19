@@ -1,0 +1,21 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Versioning.NonVersionableAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace System.Runtime.Versioning;
+
+[Token(Token = "0x20003CC")]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+internal sealed class NonVersionableAttribute : Attribute
+{
+	[Token(Token = "0x6001F5F")]
+	[Address(RVA = "0x539B350", Offset = "0x539A350", VA = "0x539B350")]
+	public NonVersionableAttribute()
+	{
+	}
+}

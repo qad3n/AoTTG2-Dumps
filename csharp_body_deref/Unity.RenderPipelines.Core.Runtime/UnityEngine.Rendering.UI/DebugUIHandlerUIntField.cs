@@ -26,50 +26,50 @@ public class DebugUIHandlerUIntField : DebugUIHandlerWidget
 	private DebugUI.UIntField m_Field;
 
 	[Token(Token = "0x60014BC")]
-	[Address(RVA = "0x2BB1B00", Offset = "0x2BB0100", VA = "0x182BB1B00", Slot = "5")]
+	[Address(RVA = "0x65ACE00", Offset = "0x65ABE00", VA = "0x65ACE00", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60014BD")]
-	[Address(RVA = "0x2BACCA0", Offset = "0x2BAB2A0", VA = "0x182BACCA0", Slot = "6")]
+	[Address(RVA = "0x65ACF70", Offset = "0x65ABF70", VA = "0x65ACF70", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014BE")]
-	[Address(RVA = "0x2BACC20", Offset = "0x2BAB220", VA = "0x182BACC20", Slot = "7")]
+	[Address(RVA = "0x65ACFD0", Offset = "0x65ABFD0", VA = "0x65ACFD0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x60014BF")]
-	[Address(RVA = "0x2BB1A60", Offset = "0x2BB0060", VA = "0x182BB1A60", Slot = "9")]
+	[Address(RVA = "0x65AD030", Offset = "0x65AC030", VA = "0x65AD030", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x60014C0")]
-	[Address(RVA = "0x2BB19C0", Offset = "0x2BAFFC0", VA = "0x182BB19C0", Slot = "10")]
+	[Address(RVA = "0x65AD140", Offset = "0x65AC140", VA = "0x65AD140", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x60014C1")]
-	[Address(RVA = "0x2BB1910", Offset = "0x2BAFF10", VA = "0x182BB1910")]
+	[Address(RVA = "0x65AD0B0", Offset = "0x65AC0B0", VA = "0x65AD0B0")]
 	private void ChangeValue(bool fast, int multiplier)
 	{
 	}
 
 	[Token(Token = "0x60014C2")]
-	[Address(RVA = "0x2BB1BA0", Offset = "0x2BB01A0", VA = "0x182BB1BA0")]
+	[Address(RVA = "0x65ACEA0", Offset = "0x65ABEA0", VA = "0x65ACEA0")]
 	private void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x60014C3")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AD150", Offset = "0x65AC150", VA = "0x65AD150")]
 	public DebugUIHandlerUIntField()
 	{
 	}

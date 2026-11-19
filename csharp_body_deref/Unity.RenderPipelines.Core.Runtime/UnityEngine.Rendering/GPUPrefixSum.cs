@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GPUPrefixSum
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,21 +31,21 @@ public struct GPUPrefixSum
 		public const int ArgsBufferLower = 8;
 
 		[Token(Token = "0x6000E19")]
-		[Address(RVA = "0x2B10AA0", Offset = "0x2B0F0A0", VA = "0x182B10AA0")]
+		[Address(RVA = "0x6549150", Offset = "0x6548150", VA = "0x6549150")]
 		public static int DivUpGroup(int value)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000E1A")]
-		[Address(RVA = "0x2B60E30", Offset = "0x2B5F430", VA = "0x182B60E30")]
+		[Address(RVA = "0x6549170", Offset = "0x6548170", VA = "0x6549170")]
 		public static int AlignUpGroup(int value)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000E1B")]
-		[Address(RVA = "0x2B60E40", Offset = "0x2B5F440", VA = "0x182B60E40")]
+		[Address(RVA = "0x6549190", Offset = "0x6548190", VA = "0x6549190")]
 		public static void CalculateTotalBufferSize(int maxElementCount, out int totalSize, out int levelCounts)
 		{
 		}
@@ -107,7 +107,7 @@ public struct GPUPrefixSum
 		public BufferHandle output
 		{
 			[Token(Token = "0x6000E1C")]
-			[Address(RVA = "0x180F8B0", Offset = "0x180DEB0", VA = "0x18180F8B0")]
+			[Address(RVA = "0x65491E0", Offset = "0x65481E0", VA = "0x65491E0")]
 			get
 			{
 				return default(BufferHandle);
@@ -115,7 +115,7 @@ public struct GPUPrefixSum
 		}
 
 		[Token(Token = "0x6000E1D")]
-		[Address(RVA = "0x2B60160", Offset = "0x2B5E760", VA = "0x182B60160")]
+		[Address(RVA = "0x65491F0", Offset = "0x65481F0", VA = "0x65491F0")]
 		[Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
 		public static RenderGraphResources Create(int newMaxElementCount, RenderGraph renderGraph, RenderGraphBuilder builder, bool outputIsTemp = false)
 		{
@@ -123,20 +123,20 @@ public struct GPUPrefixSum
 		}
 
 		[Token(Token = "0x6000E1E")]
-		[Address(RVA = "0x2B607D0", Offset = "0x2B5EDD0", VA = "0x182B607D0")]
+		[Address(RVA = "0x6549270", Offset = "0x6548270", VA = "0x6549270")]
 		private void Initialize(int newMaxElementCount, RenderGraph renderGraph, RenderGraphBuilder builder, bool outputIsTemp = false)
 		{
 		}
 
 		[Token(Token = "0x6000E1F")]
-		[Address(RVA = "0x2B60120", Offset = "0x2B5E720", VA = "0x182B60120")]
+		[Address(RVA = "0x65495C0", Offset = "0x65485C0", VA = "0x65495C0")]
 		public static RenderGraphResources Create(int newMaxElementCount, RenderGraph renderGraph, IBaseRenderGraphBuilder builder, bool outputIsTemp = false)
 		{
 			return default(RenderGraphResources);
 		}
 
 		[Token(Token = "0x6000E20")]
-		[Address(RVA = "0x2B601C0", Offset = "0x2B5E7C0", VA = "0x182B601C0")]
+		[Address(RVA = "0x6549630", Offset = "0x6548630", VA = "0x6549630")]
 		private void Initialize(int newMaxElementCount, RenderGraph renderGraph, IBaseRenderGraphBuilder builder, bool outputIsTemp = false)
 		{
 		}
@@ -185,7 +185,7 @@ public struct GPUPrefixSum
 		public GraphicsBuffer output
 		{
 			[Token(Token = "0x6000E21")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x6549BF0", Offset = "0x6548BF0", VA = "0x6549BF0")]
 			get
 			{
 				return null;
@@ -193,33 +193,33 @@ public struct GPUPrefixSum
 		}
 
 		[Token(Token = "0x6000E22")]
-		[Address(RVA = "0x2B61230", Offset = "0x2B5F830", VA = "0x182B61230")]
+		[Address(RVA = "0x6549C00", Offset = "0x6548C00", VA = "0x6549C00")]
 		public static SupportResources Create(int maxElementCount)
 		{
 			return default(SupportResources);
 		}
 
 		[Token(Token = "0x6000E23")]
-		[Address(RVA = "0x2B61590", Offset = "0x2B5FB90", VA = "0x182B61590")]
+		[Address(RVA = "0x6549F20", Offset = "0x6548F20", VA = "0x6549F20")]
 		public static SupportResources Load(RenderGraphResources shaderGraphResources)
 		{
 			return default(SupportResources);
 		}
 
 		[Token(Token = "0x6000E24")]
-		[Address(RVA = "0x2B616E0", Offset = "0x2B5FCE0", VA = "0x182B616E0")]
+		[Address(RVA = "0x6549C70", Offset = "0x6548C70", VA = "0x6549C70")]
 		internal void Resize(int newMaxElementCount)
 		{
 		}
 
 		[Token(Token = "0x6000E25")]
-		[Address(RVA = "0x2B61350", Offset = "0x2B5F950", VA = "0x182B61350")]
+		[Address(RVA = "0x6549FD0", Offset = "0x6548FD0", VA = "0x6549FD0")]
 		private void LoadFromShaderGraph(RenderGraphResources shaderGraphResources)
 		{
 		}
 
 		[Token(Token = "0x6000E26")]
-		[Address(RVA = "0x2B61270", Offset = "0x2B5F870", VA = "0x182B61270")]
+		[Address(RVA = "0x654A0D0", Offset = "0x65490D0", VA = "0x654A0D0")]
 		public void Dispose()
 		{
 		}
@@ -305,7 +305,7 @@ public struct GPUPrefixSum
 		internal int kernelPrefixSumResolveParentExclusive;
 
 		[Token(Token = "0x6000E28")]
-		[Address(RVA = "0x2B622B0", Offset = "0x2B608B0", VA = "0x182B622B0")]
+		[Address(RVA = "0x6548630", Offset = "0x6547630", VA = "0x6548630")]
 		internal void LoadKernels()
 		{
 		}
@@ -356,44 +356,44 @@ public struct GPUPrefixSum
 	private SystemResources resources;
 
 	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0x2B59440", Offset = "0x2B57A40", VA = "0x182B59440")]
+	[Address(RVA = "0x6548600", Offset = "0x6547600", VA = "0x6548600")]
 	public GPUPrefixSum(SystemResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x2B59410", Offset = "0x2B57A10", VA = "0x182B59410")]
+	[Address(RVA = "0x65487C0", Offset = "0x65477C0", VA = "0x65487C0")]
 	private Vector4 PackPrefixSumArgs(int a, int b, int c, int d)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x2B58FA0", Offset = "0x2B575A0", VA = "0x182B58FA0")]
+	[Address(RVA = "0x65487E0", Offset = "0x65477E0", VA = "0x65487E0")]
 	internal void ExecuteCommonIndirect(CommandBuffer cmdBuffer, GraphicsBuffer inputBuffer, in SupportResources supportResources, bool isExclusive)
 	{
 	}
 
 	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x2B58900", Offset = "0x2B56F00", VA = "0x182B58900")]
+	[Address(RVA = "0x6548C30", Offset = "0x6547C30", VA = "0x6548C30")]
 	public void DispatchDirect(IComputeCommandBuffer cmdBuffer, in DirectArgs arguments)
 	{
 	}
 
 	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x2B58990", Offset = "0x2B56F90", VA = "0x182B58990")]
+	[Address(RVA = "0x6548CB0", Offset = "0x6547CB0", VA = "0x6548CB0")]
 	public void DispatchDirect(CommandBuffer cmdBuffer, in DirectArgs arguments)
 	{
 	}
 
 	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x2B58F10", Offset = "0x2B57510", VA = "0x182B58F10")]
+	[Address(RVA = "0x6548EC0", Offset = "0x6547EC0", VA = "0x6548EC0")]
 	public void DispatchIndirect(IComputeCommandBuffer cmdBuffer, in IndirectDirectArgs arguments)
 	{
 	}
 
 	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x2B58C60", Offset = "0x2B57260", VA = "0x182B58C60")]
+	[Address(RVA = "0x6548F40", Offset = "0x6547F40", VA = "0x6548F40")]
 	public void DispatchIndirect(CommandBuffer cmdBuffer, in IndirectDirectArgs arguments)
 	{
 	}

@@ -17,7 +17,7 @@ public abstract class JsonConverter
 	public virtual bool CanRead
 	{
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
+		[Address(RVA = "0x555AE80", Offset = "0x5559E80", VA = "0x555AE80", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -28,7 +28,7 @@ public abstract class JsonConverter
 	public virtual bool CanWrite
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Address(RVA = "0x555AE90", Offset = "0x5559E90", VA = "0x555AE90", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -45,7 +45,7 @@ public abstract class JsonConverter
 	public abstract bool CanConvert(Type objectType);
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x555AEA0", Offset = "0x5559EA0", VA = "0x555AEA0")]
 	protected JsonConverter()
 	{
 	}

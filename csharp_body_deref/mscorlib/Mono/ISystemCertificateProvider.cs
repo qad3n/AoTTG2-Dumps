@@ -11,15 +11,15 @@ using Microsoft.Win32.SafeHandles;
 
 namespace Mono;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x2000010")]
 internal interface ISystemCertificateProvider
 {
-	[Token(Token = "0x6000051")]
+	[Token(Token = "0x600003B")]
 	System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(byte[] data, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None);
 
-	[Token(Token = "0x6000052")]
+	[Token(Token = "0x600003C")]
 	System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(byte[] data, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None);
 
-	[Token(Token = "0x6000053")]
+	[Token(Token = "0x600003D")]
 	System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(X509Certificate cert, Mono.CertificateImportFlags importFlags = Mono.CertificateImportFlags.None);
 }

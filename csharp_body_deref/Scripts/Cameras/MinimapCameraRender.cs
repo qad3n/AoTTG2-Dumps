@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Cameras.MinimapCameraRender
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Cameras/MinimapCameraRender.c
 // Prior real C# source (older reference): Assets/Scripts/Cameras/MinimapCamera.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,39 +12,39 @@ using UnityEngine;
 
 namespace Cameras;
 
-[Token(Token = "0x200088F")]
+[Token(Token = "0x20008F5")]
 internal class MinimapCameraRender : MonoBehaviour
 {
-	[Token(Token = "0x4002ADB")]
+	[Token(Token = "0x4002D83")]
 	[FieldOffset(Offset = "0x20")]
 	private List<MapLight> _disabledLights;
 
-	[Token(Token = "0x4002ADC")]
+	[Token(Token = "0x4002D84")]
 	[FieldOffset(Offset = "0x28")]
 	private Color _ambientLight;
 
-	[Token(Token = "0x4002ADD")]
+	[Token(Token = "0x4002D85")]
 	[FieldOffset(Offset = "0x38")]
 	private float _ambientIntensity;
 
-	[Token(Token = "0x4002ADE")]
+	[Token(Token = "0x4002D86")]
 	[FieldOffset(Offset = "0x3C")]
 	private bool _fog;
 
-	[Token(Token = "0x6005207")]
-	[Address(RVA = "0x22F8570", Offset = "0x22F6B70", VA = "0x1822F8570")]
+	[Token(Token = "0x6005543")]
+	[Address(RVA = "0x5CD8B50", Offset = "0x5CD7B50", VA = "0x5CD8B50")]
 	public void BeginRender()
 	{
 	}
 
-	[Token(Token = "0x6005208")]
-	[Address(RVA = "0x22F87A0", Offset = "0x22F6DA0", VA = "0x1822F87A0")]
+	[Token(Token = "0x6005544")]
+	[Address(RVA = "0x5CD91E0", Offset = "0x5CD81E0", VA = "0x5CD91E0")]
 	public void EndRender()
 	{
 	}
 
-	[Token(Token = "0x6005209")]
-	[Address(RVA = "0x22F8900", Offset = "0x22F6F00", VA = "0x1822F8900")]
+	[Token(Token = "0x6005545")]
+	[Address(RVA = "0x5CD9350", Offset = "0x5CD8350", VA = "0x5CD9350")]
 	public MinimapCameraRender()
 	{
 	}

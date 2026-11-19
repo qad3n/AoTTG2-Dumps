@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x200064E")]
+[Token(Token = "0x2000629")]
 internal sealed class InternalStringComparer : EqualityComparer<string>
 {
-	[Token(Token = "0x6003057")]
-	[Address(RVA = "0xB2C1D0", Offset = "0xB2A7D0", VA = "0x180B2C1D0", Slot = "9")]
+	[Token(Token = "0x6003036")]
+	[Address(RVA = "0x5461D70", Offset = "0x5460D70", VA = "0x5461D70", Slot = "9")]
 	public override int GetHashCode(string obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003058")]
-	[Address(RVA = "0x1AD55B0", Offset = "0x1AD3BB0", VA = "0x181AD55B0", Slot = "8")]
+	[Token(Token = "0x6003037")]
+	[Address(RVA = "0x5461DA0", Offset = "0x5460DA0", VA = "0x5461DA0", Slot = "8")]
 	public override bool Equals(string x, string y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003059")]
-	[Address(RVA = "0x1AD55E0", Offset = "0x1AD3BE0", VA = "0x181AD55E0", Slot = "10")]
+	[Token(Token = "0x6003038")]
+	[Address(RVA = "0x5461DD0", Offset = "0x5460DD0", VA = "0x5461DD0", Slot = "10")]
 	internal override int IndexOf(string[] array, string value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600305A")]
-	[Address(RVA = "0x1AD5640", Offset = "0x1AD3C40", VA = "0x181AD5640")]
+	[Token(Token = "0x6003039")]
+	[Address(RVA = "0x5461E40", Offset = "0x5460E40", VA = "0x5461E40")]
 	public InternalStringComparer()
 	{
 	}

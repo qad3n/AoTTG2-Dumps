@@ -26,31 +26,31 @@ internal class DefaultGroupManager : IGroupManager
 	private IGroupBox m_GroupBox;
 
 	[Token(Token = "0x6001165")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0", Slot = "4")]
+	[Address(RVA = "0x6C91240", Offset = "0x6C90240", VA = "0x6C91240", Slot = "4")]
 	public void Init(IGroupBox groupBox)
 	{
 	}
 
 	[Token(Token = "0x6001166")]
-	[Address(RVA = "0x32737E0", Offset = "0x3271DE0", VA = "0x1832737E0", Slot = "5")]
+	[Address(RVA = "0x6C91250", Offset = "0x6C90250", VA = "0x6C91250", Slot = "5")]
 	public void OnOptionSelectionChanged(IGroupBoxOption selectedOption)
 	{
 	}
 
 	[Token(Token = "0x6001167")]
-	[Address(RVA = "0x32739A0", Offset = "0x3271FA0", VA = "0x1832739A0", Slot = "6")]
+	[Address(RVA = "0x6C91440", Offset = "0x6C90440", VA = "0x6C91440", Slot = "6")]
 	public void RegisterOption(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x6001168")]
-	[Address(RVA = "0x3273AA0", Offset = "0x32720A0", VA = "0x183273AA0", Slot = "7")]
+	[Address(RVA = "0x6C91590", Offset = "0x6C90590", VA = "0x6C91590", Slot = "7")]
 	public void UnregisterOption(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x6001169")]
-	[Address(RVA = "0x3273B20", Offset = "0x3272120", VA = "0x183273B20")]
+	[Address(RVA = "0x6C90BE0", Offset = "0x6C8FBE0", VA = "0x6C90BE0")]
 	public DefaultGroupManager()
 	{
 	}

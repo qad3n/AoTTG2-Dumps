@@ -9,63 +9,63 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20006B0")]
+[Token(Token = "0x200070E")]
 public enum TitanState
 {
-	[Token(Token = "0x4002018")]
+	[Token(Token = "0x40021C9")]
 	Idle,
-	[Token(Token = "0x4002019")]
+	[Token(Token = "0x40021CA")]
 	Run,
-	[Token(Token = "0x400201A")]
+	[Token(Token = "0x40021CB")]
 	Sprint,
-	[Token(Token = "0x400201B")]
+	[Token(Token = "0x40021CC")]
 	Walk,
-	[Token(Token = "0x400201C")]
+	[Token(Token = "0x40021CD")]
 	PreJump,
-	[Token(Token = "0x400201D")]
+	[Token(Token = "0x40021CE")]
 	StartJump,
-	[Token(Token = "0x400201E")]
+	[Token(Token = "0x40021CF")]
 	Jump,
-	[Token(Token = "0x400201F")]
+	[Token(Token = "0x40021D0")]
 	Fall,
-	[Token(Token = "0x4002020")]
+	[Token(Token = "0x40021D1")]
 	Emote,
-	[Token(Token = "0x4002021")]
+	[Token(Token = "0x40021D2")]
 	Land,
-	[Token(Token = "0x4002022")]
+	[Token(Token = "0x40021D3")]
 	Attack,
-	[Token(Token = "0x4002023")]
+	[Token(Token = "0x40021D4")]
 	ArmHurt,
-	[Token(Token = "0x4002024")]
+	[Token(Token = "0x40021D5")]
 	Special,
-	[Token(Token = "0x4002025")]
+	[Token(Token = "0x40021D6")]
 	Stun,
-	[Token(Token = "0x4002026")]
+	[Token(Token = "0x40021D7")]
 	Block,
-	[Token(Token = "0x4002027")]
+	[Token(Token = "0x40021D8")]
 	Dead,
-	[Token(Token = "0x4002028")]
+	[Token(Token = "0x40021D9")]
 	Blind,
-	[Token(Token = "0x4002029")]
+	[Token(Token = "0x40021DA")]
 	SitCripple,
-	[Token(Token = "0x400202A")]
+	[Token(Token = "0x40021DB")]
 	SitBlind,
-	[Token(Token = "0x400202B")]
+	[Token(Token = "0x40021DC")]
 	SitFall,
-	[Token(Token = "0x400202C")]
+	[Token(Token = "0x40021DD")]
 	SitDown,
-	[Token(Token = "0x400202D")]
+	[Token(Token = "0x40021DE")]
 	SitUp,
-	[Token(Token = "0x400202E")]
+	[Token(Token = "0x40021DF")]
 	SitIdle,
-	[Token(Token = "0x400202F")]
+	[Token(Token = "0x40021E0")]
 	Eat,
-	[Token(Token = "0x4002030")]
+	[Token(Token = "0x40021E1")]
 	Turn,
-	[Token(Token = "0x4002031")]
+	[Token(Token = "0x40021E2")]
 	WallClimb,
-	[Token(Token = "0x4002032")]
+	[Token(Token = "0x40021E3")]
 	CoverNape,
-	[Token(Token = "0x4002033")]
+	[Token(Token = "0x40021E4")]
 	HumanThrow
 }

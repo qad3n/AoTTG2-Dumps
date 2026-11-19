@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001B2")]
+[Token(Token = "0x2000173")]
 public abstract class InstanceCreationEditor
 {
-	[Token(Token = "0x1700022E")]
+	[Token(Token = "0x170001FF")]
 	public virtual string Text
 	{
-		[Token(Token = "0x6000B00")]
-		[Address(RVA = "0x289EF30", Offset = "0x289D530", VA = "0x18289EF30", Slot = "4")]
+		[Token(Token = "0x6000940")]
+		[Address(RVA = "0x6234AA0", Offset = "0x6233AA0", VA = "0x6234AA0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B01")]
+	[Token(Token = "0x6000941")]
 	public abstract object CreateInstance(ITypeDescriptorContext context, Type instanceType);
 
-	[Token(Token = "0x6000B02")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000942")]
+	[Address(RVA = "0x6234AD0", Offset = "0x6233AD0", VA = "0x6234AD0")]
 	protected InstanceCreationEditor()
 	{
 	}

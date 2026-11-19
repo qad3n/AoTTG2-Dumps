@@ -10,79 +10,79 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200031F")]
+[Token(Token = "0x20002F8")]
 [ComVisible(true)]
 public sealed class RC2CryptoServiceProvider : RC2
 {
-	[Token(Token = "0x4000D38")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000C98")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private bool m_use40bitSalt;
 
-	[Token(Token = "0x4000D39")]
+	[Token(Token = "0x4000C99")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x170002BF")]
+	[Token(Token = "0x170002BE")]
 	public override int EffectiveKeySize
 	{
-		[Token(Token = "0x60019F9")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "28")]
+		[Token(Token = "0x60019D6")]
+		[Address(RVA = "0x5340C60", Offset = "0x533FC60", VA = "0x5340C60", Slot = "28")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60019FA")]
-		[Address(RVA = "0x19ADFB0", Offset = "0x19AC5B0", VA = "0x1819ADFB0", Slot = "29")]
+		[Token(Token = "0x60019D7")]
+		[Address(RVA = "0x5340C70", Offset = "0x533FC70", VA = "0x5340C70", Slot = "29")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C0")]
+	[Token(Token = "0x170002BF")]
 	[ComVisible(false)]
 	public bool UseSalt
 	{
-		[Token(Token = "0x60019FB")]
-		[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
+		[Token(Token = "0x60019D8")]
+		[Address(RVA = "0x5340CE0", Offset = "0x533FCE0", VA = "0x5340CE0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60019FC")]
-		[Address(RVA = "0x174C1E0", Offset = "0x174A7E0", VA = "0x18174C1E0")]
+		[Token(Token = "0x60019D9")]
+		[Address(RVA = "0x5340CF0", Offset = "0x533FCF0", VA = "0x5340CF0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019F8")]
-	[Address(RVA = "0x19ADD70", Offset = "0x19AC370", VA = "0x1819ADD70")]
+	[Token(Token = "0x60019D5")]
+	[Address(RVA = "0x5340830", Offset = "0x533F830", VA = "0x5340830")]
 	public RC2CryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x60019FD")]
-	[Address(RVA = "0x19ADA80", Offset = "0x19AC080", VA = "0x1819ADA80", Slot = "23")]
+	[Token(Token = "0x60019DA")]
+	[Address(RVA = "0x5340D00", Offset = "0x533FD00", VA = "0x5340D00", Slot = "23")]
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019FE")]
-	[Address(RVA = "0x19AD9B0", Offset = "0x19ABFB0", VA = "0x1819AD9B0", Slot = "25")]
+	[Token(Token = "0x60019DB")]
+	[Address(RVA = "0x5340DC0", Offset = "0x533FDC0", VA = "0x5340DC0", Slot = "25")]
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019FF")]
-	[Address(RVA = "0x19ADBF0", Offset = "0x19AC1F0", VA = "0x1819ADBF0", Slot = "26")]
+	[Token(Token = "0x60019DC")]
+	[Address(RVA = "0x5340E80", Offset = "0x533FE80", VA = "0x5340E80", Slot = "26")]
 	public override void GenerateKey()
 	{
 	}
 
-	[Token(Token = "0x6001A00")]
-	[Address(RVA = "0x19ADB50", Offset = "0x19AC150", VA = "0x1819ADB50", Slot = "27")]
+	[Token(Token = "0x60019DD")]
+	[Address(RVA = "0x5340F20", Offset = "0x533FF20", VA = "0x5340F20", Slot = "27")]
 	public override void GenerateIV()
 	{
 	}

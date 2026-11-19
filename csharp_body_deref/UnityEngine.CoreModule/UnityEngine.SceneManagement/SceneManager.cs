@@ -22,51 +22,51 @@ namespace UnityEngine.SceneManagement;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class SceneManager
 {
-	[Token(Token = "0x4000758")]
+	[Token(Token = "0x4000756")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal static bool s_AllowLoadScene;
 
-	[Token(Token = "0x4000759")]
+	[Token(Token = "0x4000757")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static UnityAction<Scene, LoadSceneMode> m_sceneLoaded;
 
-	[Token(Token = "0x400075A")]
+	[Token(Token = "0x4000758")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static UnityAction<Scene> m_sceneUnloaded;
 
-	[Token(Token = "0x400075B")]
+	[Token(Token = "0x4000759")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static UnityAction<Scene, Scene> activeSceneChanged;
 
-	[Token(Token = "0x170002DB")]
+	[Token(Token = "0x170002E0")]
 	public static extern int sceneCount
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x60011B1")]
-		[Address(RVA = "0x2F56C90", Offset = "0x2F55290", VA = "0x182F56C90")]
-		[UnityEngine.Bindings.StaticAccessor("GetSceneManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
-		[UnityEngine.Bindings.NativeHeader("Runtime/SceneManager/SceneManager.h")]
+		[Token(Token = "0x60011C5")]
+		[Address(RVA = "0x6936C90", Offset = "0x6935C90", VA = "0x6936C90")]
 		[UnityEngine.Bindings.NativeMethod("GetSceneCount")]
+		[UnityEngine.Bindings.NativeHeader("Runtime/SceneManager/SceneManager.h")]
+		[UnityEngine.Bindings.StaticAccessor("GetSceneManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 		get;
 	}
 
 	[Token(Token = "0x1400000A")]
 	public static event UnityAction<Scene, LoadSceneMode> sceneLoaded
 	{
-		[Token(Token = "0x60011B7")]
-		[Address(RVA = "0x2F56A70", Offset = "0x2F55070", VA = "0x182F56A70")]
+		[Token(Token = "0x60011CB")]
+		[Address(RVA = "0x69370D0", Offset = "0x69360D0", VA = "0x69370D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60011B8")]
-		[Address(RVA = "0x2F56CC0", Offset = "0x2F552C0", VA = "0x182F56CC0")]
+		[Token(Token = "0x60011CC")]
+		[Address(RVA = "0x69371C0", Offset = "0x69361C0", VA = "0x69371C0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -76,135 +76,135 @@ public class SceneManager
 	[Token(Token = "0x1400000B")]
 	public static event UnityAction<Scene> sceneUnloaded
 	{
-		[Token(Token = "0x60011B9")]
-		[Address(RVA = "0x2F56B80", Offset = "0x2F55180", VA = "0x182F56B80")]
+		[Token(Token = "0x60011CD")]
+		[Address(RVA = "0x69372B0", Offset = "0x69362B0", VA = "0x69372B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60011BA")]
-		[Address(RVA = "0x2F56DD0", Offset = "0x2F553D0", VA = "0x182F56DD0")]
+		[Token(Token = "0x60011CE")]
+		[Address(RVA = "0x69373A0", Offset = "0x69363A0", VA = "0x69373A0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60011B2")]
-	[Address(RVA = "0x2F56090", Offset = "0x2F54690", VA = "0x182F56090")]
+	[Token(Token = "0x60011C6")]
+	[Address(RVA = "0x6936CC0", Offset = "0x6935CC0", VA = "0x6936CC0")]
 	[UnityEngine.Bindings.StaticAccessor("SceneManagerBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	public static Scene GetActiveScene()
 	{
 		return default(Scene);
 	}
 
-	[Token(Token = "0x60011B3")]
-	[Address(RVA = "0x2F56140", Offset = "0x2F54740", VA = "0x182F56140")]
-	[UnityEngine.Bindings.StaticAccessor("SceneManagerBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+	[Token(Token = "0x60011C7")]
+	[Address(RVA = "0x6936D70", Offset = "0x6935D70", VA = "0x6936D70")]
 	[UnityEngine.Bindings.NativeThrows]
+	[UnityEngine.Bindings.StaticAccessor("SceneManagerBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	public static Scene GetSceneAt(int index)
 	{
 		return default(Scene);
 	}
 
-	[Token(Token = "0x60011B4")]
-	[Address(RVA = "0x2F56410", Offset = "0x2F54A10", VA = "0x182F56410")]
+	[Token(Token = "0x60011C8")]
+	[Address(RVA = "0x6936E40", Offset = "0x6935E40", VA = "0x6936E40")]
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011B5")]
-	[Address(RVA = "0x2F56960", Offset = "0x2F54F60", VA = "0x182F56960")]
-	[UnityEngine.Bindings.NativeThrows]
+	[Token(Token = "0x60011C9")]
+	[Address(RVA = "0x6936F40", Offset = "0x6935F40", VA = "0x6936F40")]
 	[UnityEngine.Bindings.StaticAccessor("SceneManagerBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+	[UnityEngine.Bindings.NativeThrows]
 	public static void MoveGameObjectToScene([UnityEngine.Bindings.NotNull] GameObject go, Scene scene)
 	{
 	}
 
-	[Token(Token = "0x60011B6")]
-	[Address(RVA = "0x2F563A0", Offset = "0x2F549A0", VA = "0x182F563A0")]
+	[Token(Token = "0x60011CA")]
+	[Address(RVA = "0x6937050", Offset = "0x6936050", VA = "0x6937050")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static AsyncOperation LoadFirstScene_Internal(bool async)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011BB")]
-	[Address(RVA = "0x2F56700", Offset = "0x2F54D00", VA = "0x182F56700")]
+	[Token(Token = "0x60011CF")]
+	[Address(RVA = "0x6937490", Offset = "0x6936490", VA = "0x6937490")]
 	[ExcludeFromDocs]
 	public static void LoadScene(int sceneBuildIndex)
 	{
 	}
 
-	[Token(Token = "0x60011BC")]
-	[Address(RVA = "0x2F56820", Offset = "0x2F54E20", VA = "0x182F56820")]
+	[Token(Token = "0x60011D0")]
+	[Address(RVA = "0x6937500", Offset = "0x6936500", VA = "0x6937500")]
 	public static Scene LoadScene(int sceneBuildIndex, LoadSceneParameters parameters)
 	{
 		return default(Scene);
 	}
 
-	[Token(Token = "0x60011BD")]
-	[Address(RVA = "0x2F564E0", Offset = "0x2F54AE0", VA = "0x182F564E0")]
+	[Token(Token = "0x60011D1")]
+	[Address(RVA = "0x6937620", Offset = "0x6936620", VA = "0x6937620")]
 	public static AsyncOperation LoadSceneAsync(int sceneBuildIndex, [DefaultValue("LoadSceneMode.Single")] LoadSceneMode mode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011BE")]
-	[Address(RVA = "0x2F56620", Offset = "0x2F54C20", VA = "0x182F56620")]
+	[Token(Token = "0x60011D2")]
+	[Address(RVA = "0x69376D0", Offset = "0x69366D0", VA = "0x69376D0")]
 	public static AsyncOperation LoadSceneAsync(int sceneBuildIndex, LoadSceneParameters parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011BF")]
-	[Address(RVA = "0x2F56580", Offset = "0x2F54B80", VA = "0x182F56580")]
+	[Token(Token = "0x60011D3")]
+	[Address(RVA = "0x6937720", Offset = "0x6936720", VA = "0x6937720")]
 	public static AsyncOperation LoadSceneAsync(string sceneName, [DefaultValue("LoadSceneMode.Single")] LoadSceneMode mode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011C0")]
-	[Address(RVA = "0x2F56690", Offset = "0x2F54C90", VA = "0x182F56690")]
+	[Token(Token = "0x60011D4")]
+	[Address(RVA = "0x69377D0", Offset = "0x69367D0", VA = "0x69377D0")]
 	public static AsyncOperation LoadSceneAsync(string sceneName, LoadSceneParameters parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011C1")]
-	[Address(RVA = "0x2F56260", Offset = "0x2F54860", VA = "0x182F56260")]
+	[Token(Token = "0x60011D5")]
+	[Address(RVA = "0x6937830", Offset = "0x6936830", VA = "0x6937830")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_SceneLoaded(Scene scene, LoadSceneMode mode)
 	{
 	}
 
-	[Token(Token = "0x60011C2")]
-	[Address(RVA = "0x2F56300", Offset = "0x2F54900", VA = "0x182F56300")]
+	[Token(Token = "0x60011D6")]
+	[Address(RVA = "0x69378F0", Offset = "0x69368F0", VA = "0x69378F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_SceneUnloaded(Scene scene)
 	{
 	}
 
-	[Token(Token = "0x60011C3")]
-	[Address(RVA = "0x2F561C0", Offset = "0x2F547C0", VA = "0x182F561C0")]
+	[Token(Token = "0x60011D7")]
+	[Address(RVA = "0x69379B0", Offset = "0x69369B0", VA = "0x69379B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_ActiveSceneChanged(Scene previousActiveScene, Scene newActiveScene)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60011C5")]
-	[Address(RVA = "0x2F56050", Offset = "0x2F54650", VA = "0x182F56050")]
+	[Token(Token = "0x60011D9")]
+	[Address(RVA = "0x6936D40", Offset = "0x6935D40", VA = "0x6936D40")]
 	private static extern void GetActiveScene_Injected(out Scene ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60011C6")]
-	[Address(RVA = "0x2F56100", Offset = "0x2F54700", VA = "0x182F56100")]
+	[Token(Token = "0x60011DA")]
+	[Address(RVA = "0x6936E00", Offset = "0x6935E00", VA = "0x6936E00")]
 	private static extern void GetSceneAt_Injected(int index, out Scene ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60011C7")]
-	[Address(RVA = "0x2F56910", Offset = "0x2F54F10", VA = "0x182F56910")]
+	[Token(Token = "0x60011DB")]
+	[Address(RVA = "0x6937010", Offset = "0x6936010", VA = "0x6937010")]
 	private static extern void MoveGameObjectToScene_Injected(IntPtr go, [In] ref Scene scene);
 }

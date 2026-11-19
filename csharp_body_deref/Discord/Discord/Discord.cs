@@ -438,7 +438,7 @@ public class Discord : IDisposable
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x52E9C0", Offset = "0x52CFC0", VA = "0x18052E9C0")]
+		[Address(RVA = "0x3142120", Offset = "0x3141120", VA = "0x3142120")]
 		get
 		{
 			return default(FFIMethods);
@@ -447,125 +447,125 @@ public class Discord : IDisposable
 
 	[PreserveSig]
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x52CCB0", Offset = "0x52B2B0", VA = "0x18052CCB0")]
+	[Address(RVA = "0x3142090", Offset = "0x3141090", VA = "0x3142090")]
 	private static extern Result DiscordCreate(uint version, ref FFICreateParams createParams, out IntPtr manager);
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x52E470", Offset = "0x52CA70", VA = "0x18052E470")]
+	[Address(RVA = "0x3142260", Offset = "0x3141260", VA = "0x3142260")]
 	public Discord(long clientId, ulong flags)
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x52E070", Offset = "0x52C670", VA = "0x18052E070")]
+	[Address(RVA = "0x3142880", Offset = "0x3141880", VA = "0x3142880")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x52CD50", Offset = "0x52B350", VA = "0x18052CD50", Slot = "4")]
+	[Address(RVA = "0x31428E0", Offset = "0x31418E0", VA = "0x31428E0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x52E0E0", Offset = "0x52C6E0", VA = "0x18052E0E0")]
+	[Address(RVA = "0x3142A80", Offset = "0x3141A80", VA = "0x3142A80")]
 	public void RunCallbacks()
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x52E180", Offset = "0x52C780", VA = "0x18052E180")]
+	[Address(RVA = "0x3141FC0", Offset = "0x3140FC0", VA = "0x3141FC0")]
 	[MonoPInvokeCallback]
 	private static void SetLogHookCallbackImpl(IntPtr ptr, LogLevel level, string message)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x52E280", Offset = "0x52C880", VA = "0x18052E280")]
+	[Address(RVA = "0x3142B00", Offset = "0x3141B00", VA = "0x3142B00")]
 	public void SetLogHook(LogLevel minLevel, SetLogHookHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x52D190", Offset = "0x52B790", VA = "0x18052D190")]
+	[Address(RVA = "0x3142D80", Offset = "0x3141D80", VA = "0x3142D80")]
 	public ApplicationManager GetApplicationManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x52DCC0", Offset = "0x52C2C0", VA = "0x18052DCC0")]
+	[Address(RVA = "0x3142F00", Offset = "0x3141F00", VA = "0x3142F00")]
 	public UserManager GetUserManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x52D350", Offset = "0x52B950", VA = "0x18052D350")]
+	[Address(RVA = "0x3143040", Offset = "0x3142040", VA = "0x3143040")]
 	public ImageManager GetImageManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x52D000", Offset = "0x52B600", VA = "0x18052D000")]
+	[Address(RVA = "0x31431C0", Offset = "0x31421C0", VA = "0x31431C0")]
 	public ActivityManager GetActivityManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x52D930", Offset = "0x52BF30", VA = "0x18052D930")]
+	[Address(RVA = "0x3143290", Offset = "0x3142290", VA = "0x3143290")]
 	public RelationshipManager GetRelationshipManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x52D510", Offset = "0x52BB10", VA = "0x18052D510")]
+	[Address(RVA = "0x31433E0", Offset = "0x31423E0", VA = "0x31433E0")]
 	public LobbyManager GetLobbyManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x52D6A0", Offset = "0x52BCA0", VA = "0x18052D6A0")]
+	[Address(RVA = "0x3143530", Offset = "0x3142530", VA = "0x3143530")]
 	public NetworkManager GetNetworkManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x52D830", Offset = "0x52BE30", VA = "0x18052D830")]
+	[Address(RVA = "0x3143680", Offset = "0x3142680", VA = "0x3143680")]
 	public OverlayManager GetOverlayManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x52DAC0", Offset = "0x52C0C0", VA = "0x18052DAC0")]
+	[Address(RVA = "0x3143750", Offset = "0x3142750", VA = "0x3143750")]
 	public StorageManager GetStorageManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x52DBC0", Offset = "0x52C1C0", VA = "0x18052DBC0")]
+	[Address(RVA = "0x3143820", Offset = "0x3142820", VA = "0x3143820")]
 	public StoreManager GetStoreManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x52DF70", Offset = "0x52C570", VA = "0x18052DF70")]
+	[Address(RVA = "0x31438F0", Offset = "0x31428F0", VA = "0x31438F0")]
 	public VoiceManager GetVoiceManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x52CF00", Offset = "0x52B500", VA = "0x18052CF00")]
+	[Address(RVA = "0x31439C0", Offset = "0x31429C0", VA = "0x31439C0")]
 	public AchievementManager GetAchievementManager()
 	{
 		return null;

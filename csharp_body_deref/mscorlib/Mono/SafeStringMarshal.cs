@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000028")]
 internal struct SafeStringMarshal : IDisposable
 {
-	[Token(Token = "0x400013D")]
+	[Token(Token = "0x40000BB")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly string str;
 
-	[Token(Token = "0x400013E")]
+	[Token(Token = "0x40000BC")]
 	[FieldOffset(Offset = "0x8")]
 	private IntPtr marshaled_string;
 
 	[Token(Token = "0x1700000F")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x194D080", Offset = "0x194B680", VA = "0x18194D080")]
+		[Token(Token = "0x6000069")]
+		[Address(RVA = "0x52D9980", Offset = "0x52D8980", VA = "0x52D9980")]
 		get
 		{
 			return default(IntPtr);
@@ -34,30 +34,30 @@ internal struct SafeStringMarshal : IDisposable
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x194D030", Offset = "0x194B630", VA = "0x18194D030")]
+	[Token(Token = "0x6000065")]
+	[Address(RVA = "0x52D9950", Offset = "0x52D8950", VA = "0x52D9950")]
 	private static extern IntPtr StringToUtf8_icall(ref string str);
 
-	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x194D040", Offset = "0x194B640", VA = "0x18194D040")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x52D9960", Offset = "0x52D8960", VA = "0x52D9960")]
 	public static IntPtr StringToUtf8(string str)
 	{
 		return default(IntPtr);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x194D020", Offset = "0x194B620", VA = "0x18194D020")]
+	[Token(Token = "0x6000067")]
+	[Address(RVA = "0x52D9970", Offset = "0x52D8970", VA = "0x52D9970")]
 	public static extern void GFree(IntPtr ptr);
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x194D060", Offset = "0x194B660", VA = "0x18194D060")]
+	[Token(Token = "0x6000068")]
+	[Address(RVA = "0x52D96E0", Offset = "0x52D86E0", VA = "0x52D96E0")]
 	public SafeStringMarshal(string str)
 	{
 	}
 
-	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x194CFF0", Offset = "0x194B5F0", VA = "0x18194CFF0", Slot = "4")]
+	[Token(Token = "0x600006A")]
+	[Address(RVA = "0x52D99C0", Offset = "0x52D89C0", VA = "0x52D99C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

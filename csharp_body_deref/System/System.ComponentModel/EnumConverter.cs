@@ -11,112 +11,112 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000208")]
+[Token(Token = "0x20001C9")]
 public class EnumConverter : TypeConverter
 {
-	[Token(Token = "0x400078A")]
+	[Token(Token = "0x40006BB")]
 	[FieldOffset(Offset = "0x10")]
 	private StandardValuesCollection values;
 
-	[Token(Token = "0x400078B")]
+	[Token(Token = "0x40006BC")]
 	[FieldOffset(Offset = "0x18")]
 	private Type type;
 
-	[Token(Token = "0x170002CD")]
+	[Token(Token = "0x1700029E")]
 	protected Type EnumType
 	{
-		[Token(Token = "0x6000D94")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000BD4")]
+		[Address(RVA = "0x6251200", Offset = "0x6250200", VA = "0x6251200")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002CE")]
+	[Token(Token = "0x1700029F")]
 	protected StandardValuesCollection Values
 	{
-		[Token(Token = "0x6000D95")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000BD5")]
+		[Address(RVA = "0x6251210", Offset = "0x6250210", VA = "0x6251210")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000D96")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000BD6")]
+		[Address(RVA = "0x6251220", Offset = "0x6250220", VA = "0x6251220")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002CF")]
+	[Token(Token = "0x170002A0")]
 	protected virtual IComparer Comparer
 	{
-		[Token(Token = "0x6000D99")]
-		[Address(RVA = "0x28B3D90", Offset = "0x28B2390", VA = "0x1828B3D90", Slot = "16")]
+		[Token(Token = "0x6000BD9")]
+		[Address(RVA = "0x62513E0", Offset = "0x62503E0", VA = "0x62513E0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000D93")]
-	[Address(RVA = "0x2547AB0", Offset = "0x25460B0", VA = "0x182547AB0")]
+	[Token(Token = "0x6000BD3")]
+	[Address(RVA = "0x62511D0", Offset = "0x62501D0", VA = "0x62511D0")]
 	public EnumConverter(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000D97")]
-	[Address(RVA = "0x28B2610", Offset = "0x28B0C10", VA = "0x1828B2610", Slot = "4")]
+	[Token(Token = "0x6000BD7")]
+	[Address(RVA = "0x6251230", Offset = "0x6250230", VA = "0x6251230", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D98")]
-	[Address(RVA = "0x28B26E0", Offset = "0x28B0CE0", VA = "0x1828B26E0", Slot = "5")]
+	[Token(Token = "0x6000BD8")]
+	[Address(RVA = "0x6251300", Offset = "0x6250300", VA = "0x6251300", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D9A")]
-	[Address(RVA = "0x28B27B0", Offset = "0x28B0DB0", VA = "0x1828B27B0", Slot = "6")]
+	[Token(Token = "0x6000BDA")]
+	[Address(RVA = "0x6251450", Offset = "0x6250450", VA = "0x6251450", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D9B")]
-	[Address(RVA = "0x28B2BF0", Offset = "0x28B11F0", VA = "0x1828B2BF0", Slot = "7")]
+	[Token(Token = "0x6000BDB")]
+	[Address(RVA = "0x6251950", Offset = "0x6250950", VA = "0x6251950", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D9C")]
-	[Address(RVA = "0x28B39B0", Offset = "0x28B1FB0", VA = "0x1828B39B0", Slot = "12")]
+	[Token(Token = "0x6000BDC")]
+	[Address(RVA = "0x6252860", Offset = "0x6251860", VA = "0x6252860", Slot = "12")]
 	public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D9D")]
-	[Address(RVA = "0x28B3920", Offset = "0x28B1F20", VA = "0x1828B3920", Slot = "13")]
+	[Token(Token = "0x6000BDD")]
+	[Address(RVA = "0x6252C60", Offset = "0x6251C60", VA = "0x6252C60", Slot = "13")]
 	public override bool GetStandardValuesExclusive(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D9E")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
+	[Token(Token = "0x6000BDE")]
+	[Address(RVA = "0x6252CF0", Offset = "0x6251CF0", VA = "0x6252CF0", Slot = "14")]
 	public override bool GetStandardValuesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D9F")]
-	[Address(RVA = "0x28B3D50", Offset = "0x28B2350", VA = "0x1828B3D50", Slot = "15")]
+	[Token(Token = "0x6000BDF")]
+	[Address(RVA = "0x6252D00", Offset = "0x6251D00", VA = "0x6252D00", Slot = "15")]
 	public override bool IsValid(ITypeDescriptorContext context, object value)
 	{
 		return default(bool);

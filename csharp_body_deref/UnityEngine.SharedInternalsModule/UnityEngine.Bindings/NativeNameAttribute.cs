@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 namespace UnityEngine.Bindings;
 
 [Token(Token = "0x200000B")]
-[VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field)]
+[VisibleToOtherModules]
 internal class NativeNameAttribute : Attribute
 {
 	[Token(Token = "0x17000007")]
 	public string Name
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "7")]
+		[Address(RVA = "0x69F1420", Offset = "0x69F0420", VA = "0x69F1420", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ internal class NativeNameAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x2FF7120", Offset = "0x2FF5720", VA = "0x182FF7120")]
+	[Address(RVA = "0x69F1430", Offset = "0x69F0430", VA = "0x69F1430")]
 	public NativeNameAttribute(string name)
 	{
 	}

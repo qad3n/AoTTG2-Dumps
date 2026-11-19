@@ -30,7 +30,7 @@ public sealed class XName : IEquatable<XName>, ISerializable
 	public string LocalName
 	{
 		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5FA6CA0", Offset = "0x5FA5CA0", VA = "0x5FA6CA0")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ public sealed class XName : IEquatable<XName>, ISerializable
 	public XNamespace Namespace
 	{
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5FA6CB0", Offset = "0x5FA5CB0", VA = "0x5FA6CB0")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public sealed class XName : IEquatable<XName>, ISerializable
 	public string NamespaceName
 	{
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x11282C0", Offset = "0x11268C0", VA = "0x1811282C0")]
+		[Address(RVA = "0x5F9DF10", Offset = "0x5F9CF10", VA = "0x5F9DF10")]
 		get
 		{
 			return null;
@@ -60,34 +60,34 @@ public sealed class XName : IEquatable<XName>, ISerializable
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x25EB730", Offset = "0x25E9D30", VA = "0x1825EB730")]
+	[Address(RVA = "0x5FA6BE0", Offset = "0x5FA5BE0", VA = "0x5FA6BE0")]
 	internal XName(XNamespace ns, string localName)
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x25EB6A0", Offset = "0x25E9CA0", VA = "0x1825EB6A0", Slot = "3")]
+	[Address(RVA = "0x5FA6CC0", Offset = "0x5FA5CC0", VA = "0x5FA6CC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x25EB3A0", Offset = "0x25E99A0", VA = "0x1825EB3A0")]
+	[Address(RVA = "0x5FA6D30", Offset = "0x5FA5D30", VA = "0x5FA6D30")]
 	public static XName Get(string expandedName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x25EB570", Offset = "0x25E9B70", VA = "0x1825EB570")]
+	[Address(RVA = "0x5FA73E0", Offset = "0x5FA63E0", VA = "0x5FA73E0")]
 	public static XName Get(string localName, string namespaceName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x25EB830", Offset = "0x25E9E30", VA = "0x1825EB830")]
+	[Address(RVA = "0x5FA7410", Offset = "0x5FA6410", VA = "0x5FA7410")]
 	[CLSCompliant(false)]
 	public static implicit operator XName(string expandedName)
 	{
@@ -95,41 +95,41 @@ public sealed class XName : IEquatable<XName>, ISerializable
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20", Slot = "0")]
+	[Address(RVA = "0x5FA7420", Offset = "0x5FA6420", VA = "0x5FA7420", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "2")]
+	[Address(RVA = "0x5FA7430", Offset = "0x5FA6430", VA = "0x5FA7430", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20")]
+	[Address(RVA = "0x5F9D880", Offset = "0x5F9C880", VA = "0x5F9D880")]
 	public static bool operator ==(XName left, XName right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20", Slot = "4")]
+	[Address(RVA = "0x5FA7440", Offset = "0x5FA6440", VA = "0x5FA7440", Slot = "4")]
 	private bool System_002EIEquatable_003CSystem_002EXml_002ELinq_002EXName_003E_002EEquals(XName other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x25EB660", Offset = "0x25E9C60", VA = "0x1825EB660", Slot = "5")]
+	[Address(RVA = "0x5FA7450", Offset = "0x5FA6450", VA = "0x5FA7450", Slot = "5")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x25EB800", Offset = "0x25E9E00", VA = "0x1825EB800")]
+	[Address(RVA = "0x5FA7490", Offset = "0x5FA6490", VA = "0x5FA7490")]
 	internal XName()
 	{
 	}

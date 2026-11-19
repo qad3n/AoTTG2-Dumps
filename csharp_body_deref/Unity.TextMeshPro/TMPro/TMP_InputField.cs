@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_InputField
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -101,7 +101,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public class SubmitEvent : UnityEvent<string>
 	{
 		[Token(Token = "0x60002FE")]
-		[Address(RVA = "0x2D371E0", Offset = "0x2D357E0", VA = "0x182D371E0")]
+		[Address(RVA = "0x672D2B0", Offset = "0x672C2B0", VA = "0x672D2B0")]
 		public SubmitEvent()
 		{
 		}
@@ -112,7 +112,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public class OnChangeEvent : UnityEvent<string>
 	{
 		[Token(Token = "0x60002FF")]
-		[Address(RVA = "0x2D33930", Offset = "0x2D31F30", VA = "0x182D33930")]
+		[Address(RVA = "0x672D2F0", Offset = "0x672C2F0", VA = "0x672D2F0")]
 		public OnChangeEvent()
 		{
 		}
@@ -123,7 +123,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public class SelectionEvent : UnityEvent<string>
 	{
 		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x2D33A90", Offset = "0x2D32090", VA = "0x182D33A90")]
+		[Address(RVA = "0x672D330", Offset = "0x672C330", VA = "0x672D330")]
 		public SelectionEvent()
 		{
 		}
@@ -134,7 +134,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public class TextSelectionEvent : UnityEvent<string, int, int>
 	{
 		[Token(Token = "0x6000301")]
-		[Address(RVA = "0x2D47B60", Offset = "0x2D46160", VA = "0x182D47B60")]
+		[Address(RVA = "0x672D370", Offset = "0x672C370", VA = "0x672D370")]
 		public TextSelectionEvent()
 		{
 		}
@@ -145,7 +145,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public class TouchScreenKeyboardEvent : UnityEvent<TouchScreenKeyboard.Status>
 	{
 		[Token(Token = "0x6000302")]
-		[Address(RVA = "0x2D47BA0", Offset = "0x2D461A0", VA = "0x182D47BA0")]
+		[Address(RVA = "0x672D3B0", Offset = "0x672C3B0", VA = "0x672D3B0")]
 		public TouchScreenKeyboardEvent()
 		{
 		}
@@ -180,7 +180,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000306")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x672D570", Offset = "0x672C570", VA = "0x672D570", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -192,7 +192,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000308")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x672D5C0", Offset = "0x672C5C0", VA = "0x672D5C0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -201,28 +201,28 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		}
 
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x672D3F0", Offset = "0x672C3F0", VA = "0x672D3F0")]
 		[DebuggerHidden]
 		public _003CCaretBlink_003Ed__293(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x672D410", Offset = "0x672C410", VA = "0x672D410", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x2D47BE0", Offset = "0x2D461E0", VA = "0x182D47BE0", Slot = "6")]
+		[Address(RVA = "0x672D420", Offset = "0x672C420", VA = "0x672D420", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x2D47D40", Offset = "0x2D46340", VA = "0x182D47D40", Slot = "8")]
+		[Address(RVA = "0x672D580", Offset = "0x672C580", VA = "0x672D580", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -253,7 +253,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x600030C")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x672D930", Offset = "0x672C930", VA = "0x672D930", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -265,7 +265,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600030E")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x672D980", Offset = "0x672C980", VA = "0x672D980", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -274,28 +274,28 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 		}
 
 		[Token(Token = "0x6000309")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x672D5D0", Offset = "0x672C5D0", VA = "0x672D5D0")]
 		[DebuggerHidden]
 		public _003CMouseDragOutsideRect_003Ed__314(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600030A")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x672D5F0", Offset = "0x672C5F0", VA = "0x672D5F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600030B")]
-		[Address(RVA = "0x2D48AA0", Offset = "0x2D470A0", VA = "0x182D48AA0", Slot = "6")]
+		[Address(RVA = "0x672D600", Offset = "0x672C600", VA = "0x672D600", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x2D48DE0", Offset = "0x2D473E0", VA = "0x182D48DE0", Slot = "8")]
+		[Address(RVA = "0x672D940", Offset = "0x672C940", VA = "0x672D940", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -758,7 +758,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private BaseInput inputSystem
 	{
 		[Token(Token = "0x6000206")]
-		[Address(RVA = "0x2D075D0", Offset = "0x2D05BD0", VA = "0x182D075D0")]
+		[Address(RVA = "0x66F6C60", Offset = "0x66F5C60", VA = "0x66F6C60")]
 		get
 		{
 			return null;
@@ -769,7 +769,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private string compositionString
 	{
 		[Token(Token = "0x6000207")]
-		[Address(RVA = "0x2D07490", Offset = "0x2D05A90", VA = "0x182D07490")]
+		[Address(RVA = "0x66F6D60", Offset = "0x66F5D60", VA = "0x66F6D60")]
 		get
 		{
 			return null;
@@ -780,7 +780,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private int compositionLength
 	{
 		[Token(Token = "0x6000208")]
-		[Address(RVA = "0x2D07460", Offset = "0x2D05A60", VA = "0x182D07460")]
+		[Address(RVA = "0x66F6DE0", Offset = "0x66F5DE0", VA = "0x66F6DE0")]
 		get
 		{
 			return default(int);
@@ -791,7 +791,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	protected Mesh mesh
 	{
 		[Token(Token = "0x600020A")]
-		[Address(RVA = "0x2D07730", Offset = "0x2D05D30", VA = "0x182D07730")]
+		[Address(RVA = "0x66F7200", Offset = "0x66F6200", VA = "0x66F7200")]
 		get
 		{
 			return null;
@@ -802,13 +802,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual bool shouldActivateOnSelect
 	{
 		[Token(Token = "0x600020C")]
-		[Address(RVA = "0x2D07C20", Offset = "0x2D06220", VA = "0x182D07C20", Slot = "62")]
+		[Address(RVA = "0x66F72B0", Offset = "0x66F62B0", VA = "0x66F72B0", Slot = "62")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600020B")]
-		[Address(RVA = "0x2D09220", Offset = "0x2D07820", VA = "0x182D09220", Slot = "61")]
+		[Address(RVA = "0x66F72A0", Offset = "0x66F62A0", VA = "0x66F72A0", Slot = "61")]
 		set
 		{
 		}
@@ -818,13 +818,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool shouldHideMobileInput
 	{
 		[Token(Token = "0x600020D")]
-		[Address(RVA = "0x2D07C80", Offset = "0x2D06280", VA = "0x182D07C80")]
+		[Address(RVA = "0x66F7310", Offset = "0x66F6310", VA = "0x66F7310")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600020E")]
-		[Address(RVA = "0x2D09230", Offset = "0x2D07830", VA = "0x182D09230")]
+		[Address(RVA = "0x66F73A0", Offset = "0x66F63A0", VA = "0x66F73A0")]
 		set
 		{
 		}
@@ -834,13 +834,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool shouldHideSoftKeyboard
 	{
 		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x2D07CF0", Offset = "0x2D062F0", VA = "0x182D07CF0")]
+		[Address(RVA = "0x66F7460", Offset = "0x66F6460", VA = "0x66F7460")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000210")]
-		[Address(RVA = "0x2D092D0", Offset = "0x2D078D0", VA = "0x182D092D0")]
+		[Address(RVA = "0x66F7500", Offset = "0x66F6500", VA = "0x66F7500")]
 		set
 		{
 		}
@@ -850,13 +850,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public string text
 	{
 		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x2D07D80", Offset = "0x2D06380", VA = "0x182D07D80")]
+		[Address(RVA = "0x66F7A30", Offset = "0x66F6A30", VA = "0x66F7A30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x2D095B0", Offset = "0x2D07BB0", VA = "0x182D095B0")]
+		[Address(RVA = "0x66F7A40", Offset = "0x66F6A40", VA = "0x66F7A40")]
 		set
 		{
 		}
@@ -866,7 +866,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool isFocused
 	{
 		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x2D076F0", Offset = "0x2D05CF0", VA = "0x182D076F0")]
+		[Address(RVA = "0x66F8180", Offset = "0x66F7180", VA = "0x66F8180")]
 		get
 		{
 			return default(bool);
@@ -877,13 +877,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public float caretBlinkRate
 	{
 		[Token(Token = "0x6000218")]
-		[Address(RVA = "0x2D07310", Offset = "0x2D05910", VA = "0x182D07310")]
+		[Address(RVA = "0x66F8190", Offset = "0x66F7190", VA = "0x66F8190")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000219")]
-		[Address(RVA = "0x2D07F90", Offset = "0x2D06590", VA = "0x182D07F90")]
+		[Address(RVA = "0x66F81A0", Offset = "0x66F71A0", VA = "0x66F81A0")]
 		set
 		{
 		}
@@ -893,13 +893,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int caretWidth
 	{
 		[Token(Token = "0x600021A")]
-		[Address(RVA = "0x2D07400", Offset = "0x2D05A00", VA = "0x182D07400")]
+		[Address(RVA = "0x66F82D0", Offset = "0x66F72D0", VA = "0x66F82D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600021B")]
-		[Address(RVA = "0x2D081B0", Offset = "0x2D067B0", VA = "0x182D081B0")]
+		[Address(RVA = "0x66F82E0", Offset = "0x66F72E0", VA = "0x66F82E0")]
 		set
 		{
 		}
@@ -909,13 +909,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public RectTransform textViewport
 	{
 		[Token(Token = "0x600021C")]
-		[Address(RVA = "0x1C41CF0", Offset = "0x1C402F0", VA = "0x181C41CF0")]
+		[Address(RVA = "0x66F83E0", Offset = "0x66F73E0", VA = "0x66F83E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600021D")]
-		[Address(RVA = "0x2D09560", Offset = "0x2D07B60", VA = "0x182D09560")]
+		[Address(RVA = "0x66F83F0", Offset = "0x66F73F0", VA = "0x66F83F0")]
 		set
 		{
 		}
@@ -925,13 +925,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TMP_Text textComponent
 	{
 		[Token(Token = "0x600021E")]
-		[Address(RVA = "0x2CE6A00", Offset = "0x2CE5000", VA = "0x182CE6A00")]
+		[Address(RVA = "0x66F8440", Offset = "0x66F7440", VA = "0x66F8440")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600021F")]
-		[Address(RVA = "0x2D09500", Offset = "0x2D07B00", VA = "0x182D09500")]
+		[Address(RVA = "0x66F8450", Offset = "0x66F7450", VA = "0x66F8450")]
 		set
 		{
 		}
@@ -941,13 +941,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public Graphic placeholder
 	{
 		[Token(Token = "0x6000220")]
-		[Address(RVA = "0xA29AC0", Offset = "0xA280C0", VA = "0x180A29AC0")]
+		[Address(RVA = "0x66F84B0", Offset = "0x66F74B0", VA = "0x66F84B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x2D08D20", Offset = "0x2D07320", VA = "0x182D08D20")]
+		[Address(RVA = "0x66F84C0", Offset = "0x66F74C0", VA = "0x66F84C0")]
 		set
 		{
 		}
@@ -957,13 +957,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public Scrollbar verticalScrollbar
 	{
 		[Token(Token = "0x6000222")]
-		[Address(RVA = "0x1D1FA50", Offset = "0x1D1E050", VA = "0x181D1FA50")]
+		[Address(RVA = "0x66F8510", Offset = "0x66F7510", VA = "0x66F8510")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000223")]
-		[Address(RVA = "0x2D095C0", Offset = "0x2D07BC0", VA = "0x182D095C0")]
+		[Address(RVA = "0x66F8520", Offset = "0x66F7520", VA = "0x66F8520")]
 		set
 		{
 		}
@@ -973,13 +973,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public float scrollSensitivity
 	{
 		[Token(Token = "0x6000224")]
-		[Address(RVA = "0x2BFBFB0", Offset = "0x2BFA5B0", VA = "0x182BFBFB0")]
+		[Address(RVA = "0x66F86D0", Offset = "0x66F76D0", VA = "0x66F86D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000225")]
-		[Address(RVA = "0x2D08FA0", Offset = "0x2D075A0", VA = "0x182D08FA0")]
+		[Address(RVA = "0x66F86E0", Offset = "0x66F76E0", VA = "0x66F86E0")]
 		set
 		{
 		}
@@ -989,13 +989,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public Color caretColor
 	{
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x2D07320", Offset = "0x2D05920", VA = "0x182D07320")]
+		[Address(RVA = "0x66F8780", Offset = "0x66F7780", VA = "0x66F8780")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x2D08000", Offset = "0x2D06600", VA = "0x182D08000")]
+		[Address(RVA = "0x66F87C0", Offset = "0x66F77C0", VA = "0x66F87C0")]
 		set
 		{
 		}
@@ -1005,13 +1005,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool customCaretColor
 	{
 		[Token(Token = "0x6000228")]
-		[Address(RVA = "0x2D07530", Offset = "0x2D05B30", VA = "0x182D07530")]
+		[Address(RVA = "0x66F8840", Offset = "0x66F7840", VA = "0x66F8840")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000229")]
-		[Address(RVA = "0x2D085F0", Offset = "0x2D06BF0", VA = "0x182D085F0")]
+		[Address(RVA = "0x66F8850", Offset = "0x66F7850", VA = "0x66F8850")]
 		set
 		{
 		}
@@ -1021,13 +1021,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public Color selectionColor
 	{
 		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x2D07B90", Offset = "0x2D06190", VA = "0x182D07B90")]
+		[Address(RVA = "0x66F88D0", Offset = "0x66F78D0", VA = "0x66F88D0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x2D09090", Offset = "0x2D07690", VA = "0x182D09090")]
+		[Address(RVA = "0x66F88F0", Offset = "0x66F78F0", VA = "0x66F88F0")]
 		set
 		{
 		}
@@ -1037,13 +1037,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public SubmitEvent onEndEdit
 	{
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x2D07800", Offset = "0x2D05E00", VA = "0x182D07800")]
+		[Address(RVA = "0x66F8970", Offset = "0x66F7970", VA = "0x66F8970")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x2D08A90", Offset = "0x2D07090", VA = "0x182D08A90")]
+		[Address(RVA = "0x66F8980", Offset = "0x66F7980", VA = "0x66F8980")]
 		set
 		{
 		}
@@ -1053,13 +1053,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public SubmitEvent onSubmit
 	{
 		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x2C32E30", Offset = "0x2C31430", VA = "0x182C32E30")]
+		[Address(RVA = "0x66F89D0", Offset = "0x66F79D0", VA = "0x66F89D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x2D08B90", Offset = "0x2D07190", VA = "0x182D08B90")]
+		[Address(RVA = "0x66F89E0", Offset = "0x66F79E0", VA = "0x66F89E0")]
 		set
 		{
 		}
@@ -1069,13 +1069,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public SelectionEvent onSelect
 	{
 		[Token(Token = "0x6000230")]
-		[Address(RVA = "0x2D07820", Offset = "0x2D05E20", VA = "0x182D07820")]
+		[Address(RVA = "0x66F8A30", Offset = "0x66F7A30", VA = "0x66F8A30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x2D08B40", Offset = "0x2D07140", VA = "0x182D08B40")]
+		[Address(RVA = "0x66F8A40", Offset = "0x66F7A40", VA = "0x66F8A40")]
 		set
 		{
 		}
@@ -1085,13 +1085,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public SelectionEvent onDeselect
 	{
 		[Token(Token = "0x6000232")]
-		[Address(RVA = "0x2602C20", Offset = "0x2601220", VA = "0x182602C20")]
+		[Address(RVA = "0x66F8A90", Offset = "0x66F7A90", VA = "0x66F8A90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000233")]
-		[Address(RVA = "0x2D08A40", Offset = "0x2D07040", VA = "0x182D08A40")]
+		[Address(RVA = "0x66F8AA0", Offset = "0x66F7AA0", VA = "0x66F8AA0")]
 		set
 		{
 		}
@@ -1101,13 +1101,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TextSelectionEvent onTextSelection
 	{
 		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x2D07830", Offset = "0x2D05E30", VA = "0x182D07830")]
+		[Address(RVA = "0x66F8AF0", Offset = "0x66F7AF0", VA = "0x66F8AF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000235")]
-		[Address(RVA = "0x2D08BE0", Offset = "0x2D071E0", VA = "0x182D08BE0")]
+		[Address(RVA = "0x66F8B00", Offset = "0x66F7B00", VA = "0x66F8B00")]
 		set
 		{
 		}
@@ -1117,13 +1117,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TextSelectionEvent onEndTextSelection
 	{
 		[Token(Token = "0x6000236")]
-		[Address(RVA = "0x2CF3D00", Offset = "0x2CF2300", VA = "0x182CF3D00")]
+		[Address(RVA = "0x66F8B50", Offset = "0x66F7B50", VA = "0x66F8B50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000237")]
-		[Address(RVA = "0x2D08AE0", Offset = "0x2D070E0", VA = "0x182D08AE0")]
+		[Address(RVA = "0x66F8B60", Offset = "0x66F7B60", VA = "0x66F8B60")]
 		set
 		{
 		}
@@ -1133,13 +1133,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public OnChangeEvent onValueChanged
 	{
 		[Token(Token = "0x6000238")]
-		[Address(RVA = "0x2D07860", Offset = "0x2D05E60", VA = "0x182D07860")]
+		[Address(RVA = "0x66F8BB0", Offset = "0x66F7BB0", VA = "0x66F8BB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000239")]
-		[Address(RVA = "0x2D08CD0", Offset = "0x2D072D0", VA = "0x182D08CD0")]
+		[Address(RVA = "0x66F8BC0", Offset = "0x66F7BC0", VA = "0x66F8BC0")]
 		set
 		{
 		}
@@ -1149,13 +1149,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TouchScreenKeyboardEvent onTouchScreenKeyboardStatusChanged
 	{
 		[Token(Token = "0x600023A")]
-		[Address(RVA = "0x2D07840", Offset = "0x2D05E40", VA = "0x182D07840")]
+		[Address(RVA = "0x66F8C10", Offset = "0x66F7C10", VA = "0x66F8C10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600023B")]
-		[Address(RVA = "0x2D08C30", Offset = "0x2D07230", VA = "0x182D08C30")]
+		[Address(RVA = "0x66F8C20", Offset = "0x66F7C20", VA = "0x66F8C20")]
 		set
 		{
 		}
@@ -1165,13 +1165,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public OnValidateInput onValidateInput
 	{
 		[Token(Token = "0x600023C")]
-		[Address(RVA = "0x2D07850", Offset = "0x2D05E50", VA = "0x182D07850")]
+		[Address(RVA = "0x66F8C70", Offset = "0x66F7C70", VA = "0x66F8C70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600023D")]
-		[Address(RVA = "0x2D08C80", Offset = "0x2D07280", VA = "0x182D08C80")]
+		[Address(RVA = "0x66F8C80", Offset = "0x66F7C80", VA = "0x66F8C80")]
 		set
 		{
 		}
@@ -1181,13 +1181,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int characterLimit
 	{
 		[Token(Token = "0x600023E")]
-		[Address(RVA = "0x2AF5970", Offset = "0x2AF3F70", VA = "0x182AF5970")]
+		[Address(RVA = "0x66F8CD0", Offset = "0x66F7CD0", VA = "0x66F8CD0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600023F")]
-		[Address(RVA = "0x2D08240", Offset = "0x2D06840", VA = "0x182D08240")]
+		[Address(RVA = "0x66F8CE0", Offset = "0x66F7CE0", VA = "0x66F8CE0")]
 		set
 		{
 		}
@@ -1197,13 +1197,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public float pointSize
 	{
 		[Token(Token = "0x6000240")]
-		[Address(RVA = "0x2AF7E10", Offset = "0x2AF6410", VA = "0x182AF7E10")]
+		[Address(RVA = "0x66F8D80", Offset = "0x66F7D80", VA = "0x66F8D80")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000241")]
-		[Address(RVA = "0x2D08D70", Offset = "0x2D07370", VA = "0x182D08D70")]
+		[Address(RVA = "0x66F8D90", Offset = "0x66F7D90", VA = "0x66F8D90")]
 		set
 		{
 		}
@@ -1213,13 +1213,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TMP_FontAsset fontAsset
 	{
 		[Token(Token = "0x6000242")]
-		[Address(RVA = "0x2D07550", Offset = "0x2D05B50", VA = "0x182D07550")]
+		[Address(RVA = "0x66F8F30", Offset = "0x66F7F30", VA = "0x66F8F30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x2D08650", Offset = "0x2D06C50", VA = "0x182D08650")]
+		[Address(RVA = "0x66F8F40", Offset = "0x66F7F40", VA = "0x66F8F40")]
 		set
 		{
 		}
@@ -1229,13 +1229,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool onFocusSelectAll
 	{
 		[Token(Token = "0x6000244")]
-		[Address(RVA = "0x2D07810", Offset = "0x2D05E10", VA = "0x182D07810")]
+		[Address(RVA = "0x66F9090", Offset = "0x66F8090", VA = "0x66F9090")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x2D08B30", Offset = "0x2D07130", VA = "0x182D08B30")]
+		[Address(RVA = "0x66F90A0", Offset = "0x66F80A0", VA = "0x66F90A0")]
 		set
 		{
 		}
@@ -1245,13 +1245,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool resetOnDeActivation
 	{
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x2D07B60", Offset = "0x2D06160", VA = "0x182D07B60")]
+		[Address(RVA = "0x66F90B0", Offset = "0x66F80B0", VA = "0x66F90B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x2D08EF0", Offset = "0x2D074F0", VA = "0x182D08EF0")]
+		[Address(RVA = "0x66F90C0", Offset = "0x66F80C0", VA = "0x66F90C0")]
 		set
 		{
 		}
@@ -1261,13 +1261,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool keepTextSelectionVisible
 	{
 		[Token(Token = "0x6000248")]
-		[Address(RVA = "0x2D07700", Offset = "0x2D05D00", VA = "0x182D07700")]
+		[Address(RVA = "0x66F90D0", Offset = "0x66F80D0", VA = "0x66F90D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000249")]
-		[Address(RVA = "0x2D08870", Offset = "0x2D06E70", VA = "0x182D08870")]
+		[Address(RVA = "0x66F90E0", Offset = "0x66F80E0", VA = "0x66F90E0")]
 		set
 		{
 		}
@@ -1277,13 +1277,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool restoreOriginalTextOnEscape
 	{
 		[Token(Token = "0x600024A")]
-		[Address(RVA = "0x2D07B70", Offset = "0x2D06170", VA = "0x182D07B70")]
+		[Address(RVA = "0x66F90F0", Offset = "0x66F80F0", VA = "0x66F90F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x2D08F00", Offset = "0x2D07500", VA = "0x182D08F00")]
+		[Address(RVA = "0x66F9100", Offset = "0x66F8100", VA = "0x66F9100")]
 		set
 		{
 		}
@@ -1293,13 +1293,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool isRichTextEditingAllowed
 	{
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x2B08220", Offset = "0x2B06820", VA = "0x182B08220")]
+		[Address(RVA = "0x66F9110", Offset = "0x66F8110", VA = "0x66F9110")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600024D")]
-		[Address(RVA = "0x2AFF200", Offset = "0x2AFD800", VA = "0x182AFF200")]
+		[Address(RVA = "0x66F9120", Offset = "0x66F8120", VA = "0x66F9120")]
 		set
 		{
 		}
@@ -1309,13 +1309,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public ContentType contentType
 	{
 		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x2146130", Offset = "0x2144730", VA = "0x182146130")]
+		[Address(RVA = "0x66F9130", Offset = "0x66F8130", VA = "0x66F9130")]
 		get
 		{
 			return default(ContentType);
 		}
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x2D083B0", Offset = "0x2D069B0", VA = "0x182D083B0")]
+		[Address(RVA = "0x66F9140", Offset = "0x66F8140", VA = "0x66F9140")]
 		set
 		{
 		}
@@ -1325,13 +1325,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public LineType lineType
 	{
 		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x2D07720", Offset = "0x2D05D20", VA = "0x182D07720")]
+		[Address(RVA = "0x66F9380", Offset = "0x66F8380", VA = "0x66F9380")]
 		get
 		{
 			return default(LineType);
 		}
 		[Token(Token = "0x6000251")]
-		[Address(RVA = "0x2D08960", Offset = "0x2D06F60", VA = "0x182D08960")]
+		[Address(RVA = "0x66F9390", Offset = "0x66F8390", VA = "0x66F9390")]
 		set
 		{
 		}
@@ -1341,13 +1341,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int lineLimit
 	{
 		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x2D07710", Offset = "0x2D05D10", VA = "0x182D07710")]
+		[Address(RVA = "0x66F95B0", Offset = "0x66F85B0", VA = "0x66F95B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000253")]
-		[Address(RVA = "0x2D088F0", Offset = "0x2D06EF0", VA = "0x182D088F0")]
+		[Address(RVA = "0x66F95C0", Offset = "0x66F85C0", VA = "0x66F95C0")]
 		set
 		{
 		}
@@ -1357,13 +1357,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public InputType inputType
 	{
 		[Token(Token = "0x6000254")]
-		[Address(RVA = "0x2D076D0", Offset = "0x2D05CD0", VA = "0x182D076D0")]
+		[Address(RVA = "0x66F9620", Offset = "0x66F8620", VA = "0x66F9620")]
 		get
 		{
 			return default(InputType);
 		}
 		[Token(Token = "0x6000255")]
-		[Address(RVA = "0x2D08790", Offset = "0x2D06D90", VA = "0x182D08790")]
+		[Address(RVA = "0x66F9630", Offset = "0x66F8630", VA = "0x66F9630")]
 		set
 		{
 		}
@@ -1373,7 +1373,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TouchScreenKeyboard touchScreenKeyboard
 	{
 		[Token(Token = "0x6000256")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Address(RVA = "0x66F9900", Offset = "0x66F8900", VA = "0x66F9900")]
 		get
 		{
 			return null;
@@ -1384,13 +1384,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TouchScreenKeyboardType keyboardType
 	{
 		[Token(Token = "0x6000257")]
-		[Address(RVA = "0x2C4F980", Offset = "0x2C4DF80", VA = "0x182C4F980")]
+		[Address(RVA = "0x66F9910", Offset = "0x66F8910", VA = "0x66F9910")]
 		get
 		{
 			return default(TouchScreenKeyboardType);
 		}
 		[Token(Token = "0x6000258")]
-		[Address(RVA = "0x2D08880", Offset = "0x2D06E80", VA = "0x182D08880")]
+		[Address(RVA = "0x66F9920", Offset = "0x66F8920", VA = "0x66F9920")]
 		set
 		{
 		}
@@ -1400,13 +1400,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public CharacterValidation characterValidation
 	{
 		[Token(Token = "0x6000259")]
-		[Address(RVA = "0x2D07410", Offset = "0x2D05A10", VA = "0x182D07410")]
+		[Address(RVA = "0x66F9AA0", Offset = "0x66F8AA0", VA = "0x66F9AA0")]
 		get
 		{
 			return default(CharacterValidation);
 		}
 		[Token(Token = "0x600025A")]
-		[Address(RVA = "0x2D082F0", Offset = "0x2D068F0", VA = "0x182D082F0")]
+		[Address(RVA = "0x66F9AB0", Offset = "0x66F8AB0", VA = "0x66F9AB0")]
 		set
 		{
 		}
@@ -1416,13 +1416,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public TMP_InputValidator inputValidator
 	{
 		[Token(Token = "0x600025B")]
-		[Address(RVA = "0x2D076E0", Offset = "0x2D05CE0", VA = "0x182D076E0")]
+		[Address(RVA = "0x66F9C30", Offset = "0x66F8C30", VA = "0x66F9C30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600025C")]
-		[Address(RVA = "0x2D08800", Offset = "0x2D06E00", VA = "0x182D08800")]
+		[Address(RVA = "0x66F9C40", Offset = "0x66F8C40", VA = "0x66F9C40")]
 		set
 		{
 		}
@@ -1432,13 +1432,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool readOnly
 	{
 		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x2D07B50", Offset = "0x2D06150", VA = "0x182D07B50")]
+		[Address(RVA = "0x66F9F20", Offset = "0x66F8F20", VA = "0x66F9F20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x2D08EE0", Offset = "0x2D074E0", VA = "0x182D08EE0")]
+		[Address(RVA = "0x66F9F30", Offset = "0x66F8F30", VA = "0x66F9F30")]
 		set
 		{
 		}
@@ -1448,13 +1448,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool richText
 	{
 		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x2D07B80", Offset = "0x2D06180", VA = "0x182D07B80")]
+		[Address(RVA = "0x66F9F40", Offset = "0x66F8F40", VA = "0x66F9F40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000260")]
-		[Address(RVA = "0x2D08F10", Offset = "0x2D07510", VA = "0x182D08F10")]
+		[Address(RVA = "0x66F9F50", Offset = "0x66F8F50", VA = "0x66F9F50")]
 		set
 		{
 		}
@@ -1464,7 +1464,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool multiLine
 	{
 		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x2D077E0", Offset = "0x2D05DE0", VA = "0x182D077E0")]
+		[Address(RVA = "0x66FA070", Offset = "0x66F9070", VA = "0x66FA070")]
 		get
 		{
 			return default(bool);
@@ -1475,13 +1475,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public char asteriskChar
 	{
 		[Token(Token = "0x6000262")]
-		[Address(RVA = "0x2D07300", Offset = "0x2D05900", VA = "0x182D07300")]
+		[Address(RVA = "0x66FA080", Offset = "0x66F9080", VA = "0x66FA080")]
 		get
 		{
 			return default(char);
 		}
 		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x2D07F30", Offset = "0x2D06530", VA = "0x182D07F30")]
+		[Address(RVA = "0x66FA090", Offset = "0x66F9090", VA = "0x66FA090")]
 		set
 		{
 		}
@@ -1491,7 +1491,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public bool wasCanceled
 	{
 		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x2D07D90", Offset = "0x2D06390", VA = "0x182D07D90")]
+		[Address(RVA = "0x66FA0F0", Offset = "0x66F90F0", VA = "0x66FA0F0")]
 		get
 		{
 			return default(bool);
@@ -1502,13 +1502,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	protected int caretPositionInternal
 	{
 		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x2D07380", Offset = "0x2D05980", VA = "0x182D07380")]
+		[Address(RVA = "0x66FA250", Offset = "0x66F9250", VA = "0x66FA250")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x2D08070", Offset = "0x2D06670", VA = "0x182D08070")]
+		[Address(RVA = "0x66FA280", Offset = "0x66F9280", VA = "0x66FA280")]
 		set
 		{
 		}
@@ -1518,13 +1518,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	protected int stringPositionInternal
 	{
 		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x2D07BA0", Offset = "0x2D061A0", VA = "0x182D07BA0")]
+		[Address(RVA = "0x66FA2A0", Offset = "0x66F92A0", VA = "0x66FA2A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x2D09420", Offset = "0x2D07A20", VA = "0x182D09420")]
+		[Address(RVA = "0x66FA2D0", Offset = "0x66F92D0", VA = "0x66FA2D0")]
 		set
 		{
 		}
@@ -1534,13 +1534,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	protected int caretSelectPositionInternal
 	{
 		[Token(Token = "0x600026C")]
-		[Address(RVA = "0x2D073C0", Offset = "0x2D059C0", VA = "0x182D073C0")]
+		[Address(RVA = "0x66FA2F0", Offset = "0x66F92F0", VA = "0x66FA2F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600026D")]
-		[Address(RVA = "0x2D08190", Offset = "0x2D06790", VA = "0x182D08190")]
+		[Address(RVA = "0x66FA320", Offset = "0x66F9320", VA = "0x66FA320")]
 		set
 		{
 		}
@@ -1550,13 +1550,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	protected int stringSelectPositionInternal
 	{
 		[Token(Token = "0x600026E")]
-		[Address(RVA = "0x2D07BE0", Offset = "0x2D061E0", VA = "0x182D07BE0")]
+		[Address(RVA = "0x66FA340", Offset = "0x66F9340", VA = "0x66FA340")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600026F")]
-		[Address(RVA = "0x2D094E0", Offset = "0x2D07AE0", VA = "0x182D094E0")]
+		[Address(RVA = "0x66FA370", Offset = "0x66F9370", VA = "0x66FA370")]
 		set
 		{
 		}
@@ -1566,7 +1566,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private bool hasSelection
 	{
 		[Token(Token = "0x6000270")]
-		[Address(RVA = "0x2D07560", Offset = "0x2D05B60", VA = "0x182D07560")]
+		[Address(RVA = "0x66FA390", Offset = "0x66F9390", VA = "0x66FA390")]
 		get
 		{
 			return default(bool);
@@ -1577,13 +1577,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int caretPosition
 	{
 		[Token(Token = "0x6000271")]
-		[Address(RVA = "0x2D073C0", Offset = "0x2D059C0", VA = "0x182D073C0")]
+		[Address(RVA = "0x66FA3F0", Offset = "0x66F93F0", VA = "0x66FA3F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x2D08090", Offset = "0x2D06690", VA = "0x182D08090")]
+		[Address(RVA = "0x66FA420", Offset = "0x66F9420", VA = "0x66FA420")]
 		set
 		{
 		}
@@ -1593,13 +1593,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int selectionAnchorPosition
 	{
 		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x2D07380", Offset = "0x2D05980", VA = "0x182D07380")]
+		[Address(RVA = "0x66FA5F0", Offset = "0x66F95F0", VA = "0x66FA5F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x2D09030", Offset = "0x2D07630", VA = "0x182D09030")]
+		[Address(RVA = "0x66FA500", Offset = "0x66F9500", VA = "0x66FA500")]
 		set
 		{
 		}
@@ -1609,13 +1609,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int selectionFocusPosition
 	{
 		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x2D073C0", Offset = "0x2D059C0", VA = "0x182D073C0")]
+		[Address(RVA = "0x66FA620", Offset = "0x66F9620", VA = "0x66FA620")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x2D09100", Offset = "0x2D07700", VA = "0x182D09100")]
+		[Address(RVA = "0x66FA550", Offset = "0x66F9550", VA = "0x66FA550")]
 		set
 		{
 		}
@@ -1625,13 +1625,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int stringPosition
 	{
 		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x2D07BE0", Offset = "0x2D061E0", VA = "0x182D07BE0")]
+		[Address(RVA = "0x66FA650", Offset = "0x66F9650", VA = "0x66FA650")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000278")]
-		[Address(RVA = "0x2D09440", Offset = "0x2D07A40", VA = "0x182D09440")]
+		[Address(RVA = "0x66FA680", Offset = "0x66F9680", VA = "0x66FA680")]
 		set
 		{
 		}
@@ -1641,13 +1641,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int selectionStringAnchorPosition
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x2D07BA0", Offset = "0x2D061A0", VA = "0x182D07BA0")]
+		[Address(RVA = "0x66FA850", Offset = "0x66F9850", VA = "0x66FA850")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x2D09160", Offset = "0x2D07760", VA = "0x182D09160")]
+		[Address(RVA = "0x66FA710", Offset = "0x66F9710", VA = "0x66FA710")]
 		set
 		{
 		}
@@ -1657,13 +1657,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public int selectionStringFocusPosition
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x2D07BE0", Offset = "0x2D061E0", VA = "0x182D07BE0")]
+		[Address(RVA = "0x66FA880", Offset = "0x66F9880", VA = "0x66FA880")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600027C")]
-		[Address(RVA = "0x2D091C0", Offset = "0x2D077C0", VA = "0x182D091C0")]
+		[Address(RVA = "0x66FA760", Offset = "0x66F9760", VA = "0x66FA760")]
 		set
 		{
 		}
@@ -1673,13 +1673,13 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private static string clipboard
 	{
 		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x2D07420", Offset = "0x2D05A20", VA = "0x182D07420")]
+		[Address(RVA = "0x66FC7E0", Offset = "0x66FB7E0", VA = "0x66FC7E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x2D08360", Offset = "0x2D06960", VA = "0x182D08360")]
+		[Address(RVA = "0x66FC840", Offset = "0x66FB840", VA = "0x66FC840")]
 		set
 		{
 		}
@@ -1689,7 +1689,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float minWidth
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "80")]
+		[Address(RVA = "0x6707A80", Offset = "0x6706A80", VA = "0x6707A80", Slot = "80")]
 		get
 		{
 			return default(float);
@@ -1700,7 +1700,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float preferredWidth
 	{
 		[Token(Token = "0x60002F0")]
-		[Address(RVA = "0x2D079E0", Offset = "0x2D05FE0", VA = "0x182D079E0", Slot = "81")]
+		[Address(RVA = "0x6707A90", Offset = "0x6706A90", VA = "0x6707A90", Slot = "81")]
 		get
 		{
 			return default(float);
@@ -1711,7 +1711,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float flexibleWidth
 	{
 		[Token(Token = "0x60002F1")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "82")]
+		[Address(RVA = "0x6707C00", Offset = "0x6706C00", VA = "0x6707C00", Slot = "82")]
 		get
 		{
 			return default(float);
@@ -1722,7 +1722,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float minHeight
 	{
 		[Token(Token = "0x60002F2")]
-		[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "83")]
+		[Address(RVA = "0x6707C10", Offset = "0x6706C10", VA = "0x6707C10", Slot = "83")]
 		get
 		{
 			return default(float);
@@ -1733,7 +1733,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float preferredHeight
 	{
 		[Token(Token = "0x60002F3")]
-		[Address(RVA = "0x2D07870", Offset = "0x2D05E70", VA = "0x182D07870", Slot = "84")]
+		[Address(RVA = "0x6707C20", Offset = "0x6706C20", VA = "0x6707C20", Slot = "84")]
 		get
 		{
 			return default(float);
@@ -1744,7 +1744,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual float flexibleHeight
 	{
 		[Token(Token = "0x60002F4")]
-		[Address(RVA = "0x2D07540", Offset = "0x2D05B40", VA = "0x182D07540", Slot = "85")]
+		[Address(RVA = "0x6707D90", Offset = "0x6706D90", VA = "0x6707D90", Slot = "85")]
 		get
 		{
 			return default(float);
@@ -1755,7 +1755,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	public virtual int layoutPriority
 	{
 		[Token(Token = "0x60002F5")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "86")]
+		[Address(RVA = "0x6707DA0", Offset = "0x6706DA0", VA = "0x6707DA0", Slot = "86")]
 		get
 		{
 			return default(int);
@@ -1763,76 +1763,76 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x2D06F90", Offset = "0x2D05590", VA = "0x182D06F90")]
+	[Address(RVA = "0x66F6E10", Offset = "0x66F5E10", VA = "0x66F6E10")]
 	protected TMP_InputField()
 	{
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x2D07DA0", Offset = "0x2D063A0", VA = "0x182D07DA0")]
+	[Address(RVA = "0x66F7660", Offset = "0x66F6660", VA = "0x66F7660")]
 	private bool isKeyboardUsingEvents()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x2D07EA0", Offset = "0x2D064A0", VA = "0x182D07EA0")]
+	[Address(RVA = "0x66F7990", Offset = "0x66F6990", VA = "0x66F7990")]
 	private bool isUWP()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x2D05530", Offset = "0x2D03B30", VA = "0x182D05530")]
+	[Address(RVA = "0x66F7BC0", Offset = "0x66F6BC0", VA = "0x66F7BC0")]
 	public void SetTextWithoutNotify(string input)
 	{
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x2D05540", Offset = "0x2D03B40", VA = "0x182D05540")]
+	[Address(RVA = "0x66F7A50", Offset = "0x66F6A50", VA = "0x66F7A50")]
 	private void SetText(string value, bool sendCallback = true)
 	{
 	}
 
 	[Token(Token = "0x6000265")]
-	[Address(RVA = "0x2CF9F20", Offset = "0x2CF8520", VA = "0x182CF9F20")]
+	[Address(RVA = "0x66FA100", Offset = "0x66F9100", VA = "0x66FA100")]
 	protected void ClampStringPos(ref int pos)
 	{
 	}
 
 	[Token(Token = "0x6000266")]
-	[Address(RVA = "0x2CF9EA0", Offset = "0x2CF84A0", VA = "0x182CF9EA0")]
+	[Address(RVA = "0x66FA1D0", Offset = "0x66F91D0", VA = "0x66FA1D0")]
 	protected void ClampCaretPos(ref int pos)
 	{
 	}
 
 	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x2CF9E90", Offset = "0x2CF8490", VA = "0x182CF9E90")]
+	[Address(RVA = "0x66FA240", Offset = "0x66F9240", VA = "0x66FA240")]
 	private int ClampArrayIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600027D")]
-	[Address(RVA = "0x2D022E0", Offset = "0x2D008E0", VA = "0x182D022E0", Slot = "5")]
+	[Address(RVA = "0x66FA8B0", Offset = "0x66F98B0", VA = "0x66FA8B0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600027E")]
-	[Address(RVA = "0x2D01AD0", Offset = "0x2D000D0", VA = "0x182D01AD0", Slot = "7")]
+	[Address(RVA = "0x66FB7F0", Offset = "0x66FA7F0", VA = "0x66FB7F0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600027F")]
-	[Address(RVA = "0x2D01750", Offset = "0x2CFFD50", VA = "0x182D01750")]
+	[Address(RVA = "0x66FBD90", Offset = "0x66FAD90", VA = "0x66FBD90")]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
 	}
 
 	[Token(Token = "0x6000280")]
-	[Address(RVA = "0x2CF9E20", Offset = "0x2CF8420", VA = "0x182CF9E20")]
+	[Address(RVA = "0x66FBFC0", Offset = "0x66FAFC0", VA = "0x66FBFC0")]
 	[IteratorStateMachine(typeof(_003CCaretBlink_003Ed__293))]
 	private IEnumerator CaretBlink()
 	{
@@ -1840,113 +1840,113 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	}
 
 	[Token(Token = "0x6000281")]
-	[Address(RVA = "0x2D051D0", Offset = "0x2D037D0", VA = "0x182D051D0")]
+	[Address(RVA = "0x66FC030", Offset = "0x66FB030", VA = "0x66FC030")]
 	private void SetCaretVisible()
 	{
 	}
 
 	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x2D05100", Offset = "0x2D03700", VA = "0x182D05100")]
+	[Address(RVA = "0x66F8210", Offset = "0x66F7210", VA = "0x66F8210")]
 	private void SetCaretActive()
 	{
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2D02EB0", Offset = "0x2D014B0", VA = "0x182D02EB0")]
+	[Address(RVA = "0x66FC060", Offset = "0x66FB060", VA = "0x66FC060")]
 	protected void OnFocus()
 	{
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x2D04B20", Offset = "0x2D03120", VA = "0x182D04B20")]
+	[Address(RVA = "0x66FC0C0", Offset = "0x66FB0C0", VA = "0x66FC0C0")]
 	protected void SelectAll()
 	{
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x2D00E80", Offset = "0x2CFF480", VA = "0x182D00E80")]
+	[Address(RVA = "0x66FC110", Offset = "0x66FB110", VA = "0x66FC110")]
 	public void MoveTextEnd(bool shift)
 	{
 	}
 
 	[Token(Token = "0x6000286")]
-	[Address(RVA = "0x2D00FC0", Offset = "0x2CFF5C0", VA = "0x182D00FC0")]
+	[Address(RVA = "0x66FC2C0", Offset = "0x66FB2C0", VA = "0x66FC2C0")]
 	public void MoveTextStart(bool shift)
 	{
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x2D010C0", Offset = "0x2CFF6C0", VA = "0x182D010C0")]
+	[Address(RVA = "0x66FC3C0", Offset = "0x66FB3C0", VA = "0x66FC3C0")]
 	public void MoveToEndOfLine(bool shift, bool ctrl)
 	{
 	}
 
 	[Token(Token = "0x6000288")]
-	[Address(RVA = "0x2D012B0", Offset = "0x2CFF8B0", VA = "0x182D012B0")]
+	[Address(RVA = "0x66FC5B0", Offset = "0x66FB5B0", VA = "0x66FC5B0")]
 	public void MoveToStartOfLine(bool shift, bool ctrl)
 	{
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x2CFD6B0", Offset = "0x2CFBCB0", VA = "0x182CFD6B0")]
+	[Address(RVA = "0x66F7750", Offset = "0x66F6750", VA = "0x66F7750")]
 	private bool InPlaceEditing()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x2CFD630", Offset = "0x2CFBC30", VA = "0x182CFD630")]
+	[Address(RVA = "0x66FC8B0", Offset = "0x66FB8B0", VA = "0x66FC8B0")]
 	private bool InPlaceEditingChanged()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x2D05750", Offset = "0x2D03D50", VA = "0x182D05750")]
+	[Address(RVA = "0x66FC950", Offset = "0x66FB950", VA = "0x66FC950")]
 	private bool TouchScreenKeyboardShouldBeUsed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600028E")]
-	[Address(RVA = "0x2D05A50", Offset = "0x2D04050", VA = "0x182D05A50")]
+	[Address(RVA = "0x66FCA10", Offset = "0x66FBA10", VA = "0x66FCA10")]
 	private void UpdateKeyboardStringPosition()
 	{
 	}
 
 	[Token(Token = "0x600028F")]
-	[Address(RVA = "0x2D06330", Offset = "0x2D04930", VA = "0x182D06330")]
+	[Address(RVA = "0x66FCC10", Offset = "0x66FBC10", VA = "0x66FCC10")]
 	private void UpdateStringPositionFromKeyboard()
 	{
 	}
 
 	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x2CFDE70", Offset = "0x2CFC470", VA = "0x182CFDE70", Slot = "63")]
+	[Address(RVA = "0x66FCE60", Offset = "0x66FBE60", VA = "0x66FCE60", Slot = "63")]
 	protected virtual void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x2CFF0F0", Offset = "0x2CFD6F0", VA = "0x182CFF0F0")]
+	[Address(RVA = "0x66FE810", Offset = "0x66FD810", VA = "0x66FE810")]
 	private bool MayDrag(PointerEventData eventData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x2D01950", Offset = "0x2CFFF50", VA = "0x182D01950", Slot = "64")]
+	[Address(RVA = "0x66FE990", Offset = "0x66FD990", VA = "0x66FE990", Slot = "64")]
 	public virtual void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x2D01E40", Offset = "0x2D00440", VA = "0x182D01E40", Slot = "65")]
+	[Address(RVA = "0x66FE9B0", Offset = "0x66FD9B0", VA = "0x66FE9B0", Slot = "65")]
 	public virtual void OnDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x2CFF1E0", Offset = "0x2CFD7E0", VA = "0x182CFF1E0")]
+	[Address(RVA = "0x66FEE00", Offset = "0x66FDE00", VA = "0x66FEE00")]
 	[IteratorStateMachine(typeof(_003CMouseDragOutsideRect_003Ed__314))]
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData)
 	{
@@ -1954,579 +1954,579 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x2D02B80", Offset = "0x2D01180", VA = "0x182D02B80", Slot = "66")]
+	[Address(RVA = "0x66FEE80", Offset = "0x66FDE80", VA = "0x66FEE80", Slot = "66")]
 	public virtual void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x2D02F20", Offset = "0x2D01520", VA = "0x182D02F20", Slot = "32")]
+	[Address(RVA = "0x66FEEA0", Offset = "0x66FDEA0", VA = "0x66FEEA0", Slot = "32")]
 	public override void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x2CFD9A0", Offset = "0x2CFBFA0", VA = "0x182CFD9A0")]
+	[Address(RVA = "0x66FF8E0", Offset = "0x66FE8E0", VA = "0x66FF8E0")]
 	protected EditState KeyPressed(Event evt)
 	{
 		return default(EditState);
 	}
 
 	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x2CFD980", Offset = "0x2CFBF80", VA = "0x182CFD980", Slot = "67")]
+	[Address(RVA = "0x67020A0", Offset = "0x67010A0", VA = "0x67020A0", Slot = "67")]
 	protected virtual bool IsValidChar(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000299")]
-	[Address(RVA = "0x2D04980", Offset = "0x2D02F80", VA = "0x182D04980")]
+	[Address(RVA = "0x67020C0", Offset = "0x67010C0", VA = "0x67020C0")]
 	public void ProcessEvent(Event e)
 	{
 	}
 
 	[Token(Token = "0x600029A")]
-	[Address(RVA = "0x2D03CD0", Offset = "0x2D022D0", VA = "0x182D03CD0", Slot = "68")]
+	[Address(RVA = "0x67020D0", Offset = "0x67010D0", VA = "0x67020D0", Slot = "68")]
 	public virtual void OnUpdateSelected(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600029B")]
-	[Address(RVA = "0x2D03900", Offset = "0x2D01F00", VA = "0x182D03900", Slot = "69")]
+	[Address(RVA = "0x67023C0", Offset = "0x67013C0", VA = "0x67023C0", Slot = "69")]
 	public virtual void OnScroll(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600029C")]
-	[Address(RVA = "0x2CFD270", Offset = "0x2CFB870", VA = "0x182CFD270")]
+	[Address(RVA = "0x6702610", Offset = "0x6701610", VA = "0x6702610")]
 	private float GetScrollPositionRelativeToViewport()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600029D")]
-	[Address(RVA = "0x2CFD450", Offset = "0x2CFBA50", VA = "0x182CFD450")]
+	[Address(RVA = "0x6700D40", Offset = "0x66FFD40", VA = "0x6700D40")]
 	private string GetSelectedString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600029E")]
-	[Address(RVA = "0x2CFAFD0", Offset = "0x2CF95D0", VA = "0x182CFAFD0")]
+	[Address(RVA = "0x6702A10", Offset = "0x6701A10", VA = "0x6702A10")]
 	private int FindNextWordBegin()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600029F")]
-	[Address(RVA = "0x2D00590", Offset = "0x2CFEB90", VA = "0x182D00590")]
+	[Address(RVA = "0x67018D0", Offset = "0x67008D0", VA = "0x67018D0")]
 	private void MoveRight(bool shift, bool ctrl)
 	{
 	}
 
 	[Token(Token = "0x60002A0")]
-	[Address(RVA = "0x2CFB0F0", Offset = "0x2CF96F0", VA = "0x182CFB0F0")]
+	[Address(RVA = "0x6702B00", Offset = "0x6701B00", VA = "0x6702B00")]
 	private int FindPrevWordBegin()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A1")]
-	[Address(RVA = "0x2CFF510", Offset = "0x2CFDB10", VA = "0x182CFF510")]
+	[Address(RVA = "0x6701200", Offset = "0x6700200", VA = "0x6701200")]
 	private void MoveLeft(bool shift, bool ctrl)
 	{
 	}
 
 	[Token(Token = "0x60002A2")]
-	[Address(RVA = "0x2CFECD0", Offset = "0x2CFD2D0", VA = "0x182CFECD0")]
+	[Address(RVA = "0x6702BE0", Offset = "0x6701BE0", VA = "0x6702BE0")]
 	private int LineUpCharacterPosition(int originalPos, bool goToFirstChar)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A3")]
-	[Address(RVA = "0x2CFE8D0", Offset = "0x2CFCED0", VA = "0x182CFE8D0")]
+	[Address(RVA = "0x6702E70", Offset = "0x6701E70", VA = "0x6702E70")]
 	private int LineDownCharacterPosition(int originalPos, bool goToLastChar)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A4")]
-	[Address(RVA = "0x2D04470", Offset = "0x2D02A70", VA = "0x182D04470")]
+	[Address(RVA = "0x6703130", Offset = "0x6702130", VA = "0x6703130")]
 	private int PageUpCharacterPosition(int originalPos, bool goToFirstChar)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A5")]
-	[Address(RVA = "0x2D03EE0", Offset = "0x2D024E0", VA = "0x182D03EE0")]
+	[Address(RVA = "0x67034E0", Offset = "0x67024E0", VA = "0x67034E0")]
 	private int PageDownCharacterPosition(int originalPos, bool goToLastChar)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A6")]
-	[Address(RVA = "0x2CFF500", Offset = "0x2CFDB00", VA = "0x182CFF500")]
+	[Address(RVA = "0x6702070", Offset = "0x6701070", VA = "0x6702070")]
 	private void MoveDown(bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002A7")]
-	[Address(RVA = "0x2CFF270", Offset = "0x2CFD870", VA = "0x182CFF270")]
+	[Address(RVA = "0x6703910", Offset = "0x6702910", VA = "0x6703910")]
 	private void MoveDown(bool shift, bool goToLastChar)
 	{
 	}
 
 	[Token(Token = "0x60002A8")]
-	[Address(RVA = "0x2D014E0", Offset = "0x2CFFAE0", VA = "0x182D014E0")]
+	[Address(RVA = "0x6702060", Offset = "0x6701060", VA = "0x6702060")]
 	private void MoveUp(bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002A9")]
-	[Address(RVA = "0x2D014F0", Offset = "0x2CFFAF0", VA = "0x182D014F0")]
+	[Address(RVA = "0x6703BA0", Offset = "0x6702BA0", VA = "0x6703BA0")]
 	private void MoveUp(bool shift, bool goToFirstChar)
 	{
 	}
 
 	[Token(Token = "0x60002AA")]
-	[Address(RVA = "0x2D00580", Offset = "0x2CFEB80", VA = "0x182D00580")]
+	[Address(RVA = "0x6702080", Offset = "0x6701080", VA = "0x6702080")]
 	private void MovePageUp(bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x2D00130", Offset = "0x2CFE730", VA = "0x182D00130")]
+	[Address(RVA = "0x6703E00", Offset = "0x6702E00", VA = "0x6703E00")]
 	private void MovePageUp(bool shift, bool goToFirstChar)
 	{
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x2D00120", Offset = "0x2CFE720", VA = "0x182D00120")]
+	[Address(RVA = "0x6702090", Offset = "0x6701090", VA = "0x6702090")]
 	private void MovePageDown(bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x2CFFCB0", Offset = "0x2CFE2B0", VA = "0x182CFFCB0")]
+	[Address(RVA = "0x6704210", Offset = "0x6703210", VA = "0x6704210")]
 	private void MovePageDown(bool shift, bool goToLastChar)
 	{
 	}
 
 	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x2CFA9E0", Offset = "0x2CF8FE0", VA = "0x182CFA9E0")]
+	[Address(RVA = "0x6700E50", Offset = "0x66FFE50", VA = "0x6700E50")]
 	private void Delete()
 	{
 	}
 
 	[Token(Token = "0x60002AF")]
-	[Address(RVA = "0x2CFA460", Offset = "0x2CF8A60", VA = "0x182CFA460")]
+	[Address(RVA = "0x67006C0", Offset = "0x66FF6C0", VA = "0x67006C0")]
 	private void DeleteKey()
 	{
 	}
 
 	[Token(Token = "0x60002B0")]
-	[Address(RVA = "0x2CF9610", Offset = "0x2CF7C10", VA = "0x182CF9610")]
+	[Address(RVA = "0x66FFF90", Offset = "0x66FEF90", VA = "0x66FFF90")]
 	private void Backspace()
 	{
 	}
 
 	[Token(Token = "0x60002B1")]
-	[Address(RVA = "0x2CFD8B0", Offset = "0x2CFBEB0", VA = "0x182CFD8B0")]
+	[Address(RVA = "0x6704650", Offset = "0x6703650", VA = "0x6704650")]
 	private static bool IsLigature(TMP_CharacterInfo characterInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002B2")]
-	[Address(RVA = "0x2CFCC60", Offset = "0x2CFB260", VA = "0x182CFCC60")]
+	[Address(RVA = "0x6704850", Offset = "0x6703850", VA = "0x6704850")]
 	private static uint GetCodePointBefore(string text, int position, int start, out int length)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60002B3")]
-	[Address(RVA = "0x2CFCB50", Offset = "0x2CFB150", VA = "0x182CFCB50")]
+	[Address(RVA = "0x6704960", Offset = "0x6703960", VA = "0x6704960")]
 	private static uint GetCodePointAt(string text, int position, int end, out int length)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x2CFCFF0", Offset = "0x2CFB5F0", VA = "0x182CFCFF0")]
+	[Address(RVA = "0x6704780", Offset = "0x6703780", VA = "0x6704780")]
 	private static int GetLastLigatureComponentLength(string text, int start, int end)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x2CFCD80", Offset = "0x2CFB380", VA = "0x182CFCD80")]
+	[Address(RVA = "0x6704670", Offset = "0x6703670", VA = "0x6704670")]
 	private static int GetFirstLigatureComponentLength(string text, int start, int end)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x2CF87E0", Offset = "0x2CF6DE0", VA = "0x182CF87E0", Slot = "70")]
+	[Address(RVA = "0x6704A70", Offset = "0x6703A70", VA = "0x6704A70", Slot = "70")]
 	protected virtual void Append(string input)
 	{
 	}
 
 	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x2CF8890", Offset = "0x2CF6E90", VA = "0x182CF8890", Slot = "71")]
+	[Address(RVA = "0x6704B00", Offset = "0x6703B00", VA = "0x6704B00", Slot = "71")]
 	protected virtual void Append(char input)
 	{
 	}
 
 	[Token(Token = "0x60002B8")]
-	[Address(RVA = "0x2CFD730", Offset = "0x2CFBD30", VA = "0x182CFD730")]
+	[Address(RVA = "0x6705050", Offset = "0x6704050", VA = "0x6705050")]
 	private void Insert(char c)
 	{
 	}
 
 	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x2D065D0", Offset = "0x2D04BD0", VA = "0x182D065D0")]
+	[Address(RVA = "0x67011C0", Offset = "0x67001C0", VA = "0x67011C0")]
 	private void UpdateTouchKeyboardFromEditChanges()
 	{
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x2D04FD0", Offset = "0x2D035D0", VA = "0x182D04FD0")]
+	[Address(RVA = "0x66FE7C0", Offset = "0x66FD7C0", VA = "0x66FE7C0")]
 	private void SendOnValueChangedAndUpdateLabel()
 	{
 	}
 
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x2D05030", Offset = "0x2D03630", VA = "0x182D05030")]
+	[Address(RVA = "0x66F8130", Offset = "0x66F7130", VA = "0x66F8130")]
 	private void SendOnValueChanged()
 	{
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x2D04C60", Offset = "0x2D03260", VA = "0x182D04C60")]
+	[Address(RVA = "0x67051D0", Offset = "0x67041D0", VA = "0x67051D0")]
 	protected void SendOnEndEdit()
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x2D04E80", Offset = "0x2D03480", VA = "0x182D04E80")]
+	[Address(RVA = "0x6702370", Offset = "0x6701370", VA = "0x6702370")]
 	protected void SendOnSubmit()
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x2D04E20", Offset = "0x2D03420", VA = "0x182D04E20")]
+	[Address(RVA = "0x6705220", Offset = "0x6704220", VA = "0x6705220")]
 	protected void SendOnFocus()
 	{
 	}
 
 	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x2D04DC0", Offset = "0x2D033C0", VA = "0x182D04DC0")]
+	[Address(RVA = "0x6705270", Offset = "0x6704270", VA = "0x6705270")]
 	protected void SendOnFocusLost()
 	{
 	}
 
 	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x2D04EE0", Offset = "0x2D034E0", VA = "0x182D04EE0")]
+	[Address(RVA = "0x67052C0", Offset = "0x67042C0", VA = "0x67052C0")]
 	protected void SendOnTextSelection()
 	{
 	}
 
 	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x2D04CC0", Offset = "0x2D032C0", VA = "0x182D04CC0")]
+	[Address(RVA = "0x6705380", Offset = "0x6704380", VA = "0x6705380")]
 	protected void SendOnEndTextSelection()
 	{
 	}
 
 	[Token(Token = "0x60002C2")]
-	[Address(RVA = "0x2D05090", Offset = "0x2D03690", VA = "0x182D05090")]
+	[Address(RVA = "0x66FDF20", Offset = "0x66FCF20", VA = "0x66FDF20")]
 	protected void SendTouchScreenKeyboardStatusChanged()
 	{
 	}
 
 	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x2D05C20", Offset = "0x2D04220", VA = "0x182D05C20")]
+	[Address(RVA = "0x66F7BD0", Offset = "0x66F6BD0", VA = "0x66F7BD0")]
 	protected void UpdateLabel()
 	{
 	}
 
 	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x2D061B0", Offset = "0x2D047B0", VA = "0x182D061B0")]
+	[Address(RVA = "0x66FBEB0", Offset = "0x66FAEB0", VA = "0x66FBEB0")]
 	private void UpdateScrollbar()
 	{
 	}
 
 	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x2D03B50", Offset = "0x2D02150", VA = "0x182D03B50")]
+	[Address(RVA = "0x6705440", Offset = "0x6704440", VA = "0x6705440")]
 	private void OnScrollbarValueChange(float value)
 	{
 	}
 
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66FB7E0", Offset = "0x66FA7E0", VA = "0x66FB7E0")]
 	private void UpdateMaskRegions()
 	{
 	}
 
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x2CF8570", Offset = "0x2CF6B70", VA = "0x182CF8570")]
+	[Address(RVA = "0x67027E0", Offset = "0x67017E0", VA = "0x67027E0")]
 	private void AdjustTextPositionRelativeToViewport(float relativePosition)
 	{
 	}
 
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x2CFCAC0", Offset = "0x2CFB0C0", VA = "0x182CFCAC0")]
+	[Address(RVA = "0x66FCDC0", Offset = "0x66FBDC0", VA = "0x66FCDC0")]
 	private int GetCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x2CFD190", Offset = "0x2CFB790", VA = "0x182CFD190")]
+	[Address(RVA = "0x6705480", Offset = "0x6704480", VA = "0x6705480")]
 	private int GetMinCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x2CFCAC0", Offset = "0x2CFB0C0", VA = "0x182CFCAC0")]
+	[Address(RVA = "0x6705550", Offset = "0x6704550", VA = "0x6705550")]
 	private int GetMaxCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x2CFD580", Offset = "0x2CFBB80", VA = "0x182CFD580")]
+	[Address(RVA = "0x66FC230", Offset = "0x66FB230", VA = "0x66FC230")]
 	private int GetStringIndexFromCaretPosition(int caretPosition)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x2D062C0", Offset = "0x2D048C0", VA = "0x182D062C0")]
+	[Address(RVA = "0x66FA5A0", Offset = "0x66F95A0", VA = "0x66FA5A0")]
 	private void UpdateStringIndexFromCaretPosition()
 	{
 	}
 
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x2D05800", Offset = "0x2D03E00", VA = "0x182D05800")]
+	[Address(RVA = "0x66FA7B0", Offset = "0x66F97B0", VA = "0x66FA7B0")]
 	private void UpdateCaretPositionFromStringIndex()
 	{
 	}
 
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x2CFB1F0", Offset = "0x2CF97F0", VA = "0x182CFB1F0")]
+	[Address(RVA = "0x67055F0", Offset = "0x67045F0", VA = "0x67055F0")]
 	public void ForceLabelUpdate()
 	{
 	}
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x2CFF0A0", Offset = "0x2CFD6A0", VA = "0x182CFF0A0")]
+	[Address(RVA = "0x66F8370", Offset = "0x66F7370", VA = "0x66F8370")]
 	private void MarkGeometryAsDirty()
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x2D04990", Offset = "0x2D02F90", VA = "0x182D04990", Slot = "72")]
+	[Address(RVA = "0x6705600", Offset = "0x6704600", VA = "0x6705600", Slot = "72")]
 	public virtual void Rebuild(CanvasUpdate update)
 	{
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "73")]
+	[Address(RVA = "0x67056C0", Offset = "0x67046C0", VA = "0x67056C0", Slot = "73")]
 	public virtual void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "74")]
+	[Address(RVA = "0x67056D0", Offset = "0x67046D0", VA = "0x67056D0", Slot = "74")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x2D05990", Offset = "0x2D03F90", VA = "0x182D05990")]
+	[Address(RVA = "0x6705610", Offset = "0x6704610", VA = "0x6705610")]
 	private void UpdateGeometry()
 	{
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x2CF8E90", Offset = "0x2CF7490", VA = "0x182CF8E90")]
+	[Address(RVA = "0x66FB1A0", Offset = "0x66FA1A0", VA = "0x66FB1A0")]
 	private void AssignPositioningIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x2D02BB0", Offset = "0x2D011B0", VA = "0x182D02BB0")]
+	[Address(RVA = "0x67056E0", Offset = "0x67046E0", VA = "0x67056E0")]
 	private void OnFillVBO(Mesh vbo)
 	{
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x2CFB200", Offset = "0x2CF9800", VA = "0x182CFB200")]
+	[Address(RVA = "0x67059C0", Offset = "0x67049C0", VA = "0x67059C0")]
 	private void GenerateCaret(VertexHelper vbo, Vector2 roundingOffset)
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x2CFA030", Offset = "0x2CF8630", VA = "0x182CFA030")]
+	[Address(RVA = "0x6706D10", Offset = "0x6705D10", VA = "0x6706D10")]
 	private void CreateCursorVerts()
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x2CFBF60", Offset = "0x2CFA560", VA = "0x182CFBF60")]
+	[Address(RVA = "0x67062E0", Offset = "0x67052E0", VA = "0x67062E0")]
 	private void GenerateHighlight(VertexHelper vbo, Vector2 roundingOffset)
 	{
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x2CF7D90", Offset = "0x2CF6390", VA = "0x182CF7D90")]
+	[Address(RVA = "0x6706E90", Offset = "0x6705E90", VA = "0x6706E90")]
 	private void AdjustRectTransformRelativeToViewport(Vector2 startPosition, float height, bool isCharVisible)
 	{
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x2D06620", Offset = "0x2D04C20", VA = "0x182D06620")]
+	[Address(RVA = "0x66FDF80", Offset = "0x66FCF80", VA = "0x66FDF80")]
 	protected char Validate(string text, int pos, char ch)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x2CF7C50", Offset = "0x2CF6250", VA = "0x182CF7C50")]
+	[Address(RVA = "0x6707620", Offset = "0x6706620", VA = "0x6707620")]
 	public void ActivateInputField()
 	{
 	}
 
 	[Token(Token = "0x60002DC")]
-	[Address(RVA = "0x2CF7770", Offset = "0x2CF5D70", VA = "0x182CF7770")]
+	[Address(RVA = "0x66FD7D0", Offset = "0x66FC7D0", VA = "0x66FD7D0")]
 	private void ActivateInputFieldInternal()
 	{
 	}
 
 	[Token(Token = "0x60002DD")]
-	[Address(RVA = "0x2D03B90", Offset = "0x2D02190", VA = "0x182D03B90", Slot = "36")]
+	[Address(RVA = "0x6707750", Offset = "0x6706750", VA = "0x6707750", Slot = "36")]
 	public override void OnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002DE")]
-	[Address(RVA = "0x2D02EF0", Offset = "0x2D014F0", VA = "0x182D02EF0", Slot = "75")]
+	[Address(RVA = "0x67077C0", Offset = "0x67067C0", VA = "0x67077C0", Slot = "75")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002DF")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x67077E0", Offset = "0x67067E0", VA = "0x67077E0")]
 	public void OnControlClick()
 	{
 	}
 
 	[Token(Token = "0x60002E0")]
-	[Address(RVA = "0x2D04A60", Offset = "0x2D03060", VA = "0x182D04A60")]
+	[Address(RVA = "0x66FDE70", Offset = "0x66FCE70", VA = "0x66FDE70")]
 	public void ReleaseSelection()
 	{
 	}
 
 	[Token(Token = "0x60002E1")]
-	[Address(RVA = "0x2CFA200", Offset = "0x2CF8800", VA = "0x182CFA200")]
+	[Address(RVA = "0x66FBB50", Offset = "0x66FAB50", VA = "0x66FBB50")]
 	public void DeactivateInputField(bool clearSelection = false)
 	{
 	}
 
 	[Token(Token = "0x60002E2")]
-	[Address(RVA = "0x2D01A10", Offset = "0x2D00010", VA = "0x182D01A10", Slot = "37")]
+	[Address(RVA = "0x67077F0", Offset = "0x67067F0", VA = "0x67077F0", Slot = "37")]
 	public override void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x2D03C10", Offset = "0x2D02210", VA = "0x182D03C10", Slot = "76")]
+	[Address(RVA = "0x67078A0", Offset = "0x67068A0", VA = "0x67078A0", Slot = "76")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x2D01980", Offset = "0x2CFFF80", VA = "0x182D01980", Slot = "77")]
+	[Address(RVA = "0x6707970", Offset = "0x6706970", VA = "0x6707970", Slot = "77")]
 	public virtual void OnCancel(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002E5")]
-	[Address(RVA = "0x2D02ED0", Offset = "0x2D014D0", VA = "0x182D02ED0", Slot = "31")]
+	[Address(RVA = "0x6707A00", Offset = "0x6706A00", VA = "0x6707A00", Slot = "31")]
 	public override void OnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x2CFADD0", Offset = "0x2CF93D0", VA = "0x182CFADD0")]
+	[Address(RVA = "0x66F9290", Offset = "0x66F8290", VA = "0x66F9290")]
 	private void EnforceContentType()
 	{
 	}
 
 	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x2D05480", Offset = "0x2D03A80", VA = "0x182D05480")]
+	[Address(RVA = "0x66F7160", Offset = "0x66F6160", VA = "0x66F7160")]
 	private void SetTextComponentWrapMode()
 	{
 	}
 
 	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x2D053F0", Offset = "0x2D039F0", VA = "0x182D053F0")]
+	[Address(RVA = "0x66F9FE0", Offset = "0x66F8FE0", VA = "0x66F9FE0")]
 	private void SetTextComponentRichTextMode()
 	{
 	}
 
 	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x2D056C0", Offset = "0x2D03CC0", VA = "0x182D056C0")]
+	[Address(RVA = "0x66F9430", Offset = "0x66F8430", VA = "0x66F9430")]
 	private void SetToCustomIfContentTypeIsNot(params ContentType[] allowedContentTypes)
 	{
 	}
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x2D05730", Offset = "0x2D03D30", VA = "0x182D05730")]
+	[Address(RVA = "0x66F97B0", Offset = "0x66F87B0", VA = "0x66F97B0")]
 	private void SetToCustom()
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x2D05730", Offset = "0x2D03D30", VA = "0x182D05730")]
+	[Address(RVA = "0x66F9DD0", Offset = "0x66F8DD0", VA = "0x66F9DD0")]
 	private void SetToCustom(CharacterValidation characterValidation)
 	{
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x2CFAD90", Offset = "0x2CF9390", VA = "0x182CFAD90", Slot = "26")]
+	[Address(RVA = "0x6707A20", Offset = "0x6706A20", VA = "0x6707A20", Slot = "26")]
 	protected override void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "78")]
+	[Address(RVA = "0x6707A60", Offset = "0x6706A60", VA = "0x6707A60", Slot = "78")]
 	public virtual void CalculateLayoutInputHorizontal()
 	{
 	}
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "79")]
+	[Address(RVA = "0x6707A70", Offset = "0x6706A70", VA = "0x6707A70", Slot = "79")]
 	public virtual void CalculateLayoutInputVertical()
 	{
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x2D05300", Offset = "0x2D03900", VA = "0x182D05300")]
+	[Address(RVA = "0x66F8E40", Offset = "0x66F7E40", VA = "0x66F8E40")]
 	public void SetGlobalPointSize(float pointSize)
 	{
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x2D05210", Offset = "0x2D03810", VA = "0x182D05210")]
+	[Address(RVA = "0x66F8FB0", Offset = "0x66F7FB0", VA = "0x66F8FB0")]
 	public void SetGlobalFontAsset(TMP_FontAsset fontAsset)
 	{
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x2D057F0", Offset = "0x2D03DF0", VA = "0x182D057F0", Slot = "47")]
+	[Address(RVA = "0x6707E50", Offset = "0x6706E50", VA = "0x6707E50", Slot = "47")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

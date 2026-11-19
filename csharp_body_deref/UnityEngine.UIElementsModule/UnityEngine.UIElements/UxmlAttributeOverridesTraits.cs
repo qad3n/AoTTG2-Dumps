@@ -19,7 +19,7 @@ public class UxmlAttributeOverridesTraits : UxmlTraits
 	private UxmlStringAttributeDescription m_ElementName;
 
 	[Token(Token = "0x6002641")]
-	[Address(RVA = "0x31560F0", Offset = "0x31546F0", VA = "0x1831560F0")]
+	[Address(RVA = "0x6B575D0", Offset = "0x6B565D0", VA = "0x6B575D0")]
 	public UxmlAttributeOverridesTraits()
 	{
 	}

@@ -11,141 +11,146 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004D6")]
+[Token(Token = "0x20004AF")]
 public sealed class ConditionalWeakTable<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable where TKey : class where TValue : class
 {
-	[Token(Token = "0x20004D7")]
+	[Token(Token = "0x20004B0")]
 	public delegate TValue CreateValueCallback(TKey key);
 
-	[Token(Token = "0x20004D8")]
+	[Token(Token = "0x20004B1")]
 	private sealed class Enumerator : IEnumerator<KeyValuePair<TKey, TValue>>, IDisposable, IEnumerator
 	{
-		[Token(Token = "0x4001343")]
+		[Token(Token = "0x40012A3")]
 		[FieldOffset(Offset = "0x0")]
 		private ConditionalWeakTable<TKey, TValue> _table;
 
-		[Token(Token = "0x4001344")]
+		[Token(Token = "0x40012A4")]
 		[FieldOffset(Offset = "0x0")]
 		private int _currentIndex;
 
-		[Token(Token = "0x4001345")]
+		[Token(Token = "0x40012A5")]
 		[FieldOffset(Offset = "0x0")]
 		private KeyValuePair<TKey, TValue> _current;
 
-		[Token(Token = "0x17000486")]
+		[Token(Token = "0x17000485")]
 		public KeyValuePair<TKey, TValue> Current
 		{
-			[Token(Token = "0x6002395")]
+			[Token(Token = "0x6002363")]
 			get
 			{
 				return default(KeyValuePair<TKey, TValue>);
 			}
 		}
 
-		[Token(Token = "0x17000487")]
+		[Token(Token = "0x17000486")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6002396")]
+			[Token(Token = "0x6002364")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6002391")]
+		[Token(Token = "0x600235F")]
 		public Enumerator(ConditionalWeakTable<TKey, TValue> table)
 		{
 		}
 
-		[Token(Token = "0x6002392")]
+		[Token(Token = "0x6002360")]
 		~Enumerator()
 		{
 		}
 
-		[Token(Token = "0x6002393")]
+		[Token(Token = "0x6002361")]
 		public void Dispose()
 		{
 		}
 
-		[Token(Token = "0x6002394")]
+		[Token(Token = "0x6002362")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002397")]
+		[Token(Token = "0x6002365")]
 		public void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001340")]
+	[Token(Token = "0x40012A0")]
 	[FieldOffset(Offset = "0x0")]
 	private System.Runtime.CompilerServices.Ephemeron[] data;
 
-	[Token(Token = "0x4001341")]
+	[Token(Token = "0x40012A1")]
 	[FieldOffset(Offset = "0x0")]
 	private object _lock;
 
-	[Token(Token = "0x4001342")]
+	[Token(Token = "0x40012A2")]
 	[FieldOffset(Offset = "0x0")]
 	private int size;
 
-	[Token(Token = "0x6002384")]
+	[Token(Token = "0x6002351")]
 	public ConditionalWeakTable()
 	{
 	}
 
-	[Token(Token = "0x6002385")]
+	[Token(Token = "0x6002352")]
 	~ConditionalWeakTable()
 	{
 	}
 
-	[Token(Token = "0x6002386")]
+	[Token(Token = "0x6002353")]
 	private void RehashWithoutResize()
 	{
 	}
 
-	[Token(Token = "0x6002387")]
+	[Token(Token = "0x6002354")]
 	private void RecomputeSize()
 	{
 	}
 
-	[Token(Token = "0x6002388")]
+	[Token(Token = "0x6002355")]
 	private void Rehash()
 	{
 	}
 
-	[Token(Token = "0x6002389")]
+	[Token(Token = "0x6002356")]
+	public void AddOrUpdate(TKey key, TValue value)
+	{
+	}
+
+	[Token(Token = "0x6002357")]
 	public void Add(TKey key, TValue value)
 	{
 	}
 
-	[Token(Token = "0x600238A")]
+	[Token(Token = "0x6002358")]
 	public bool Remove(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600238B")]
+	[Token(Token = "0x6002359")]
 	public bool TryGetValue(TKey key, out TValue value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600238C")]
+	[Token(Token = "0x600235A")]
 	public TValue GetValue(TKey key, CreateValueCallback createValueCallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600238D")]
+	[Token(Token = "0x600235B")]
 	private IEnumerator<KeyValuePair<TKey, TValue>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600238E")]
+	[Token(Token = "0x600235C")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200068D")]
+[Token(Token = "0x2000667")]
 internal enum SearchTarget
 {
-	[Token(Token = "0x4001A5A")]
+	[Token(Token = "0x40019C0")]
 	Files = 1,
-	[Token(Token = "0x4001A5B")]
+	[Token(Token = "0x40019C1")]
 	Directories,
-	[Token(Token = "0x4001A5C")]
+	[Token(Token = "0x40019C2")]
 	Both
 }

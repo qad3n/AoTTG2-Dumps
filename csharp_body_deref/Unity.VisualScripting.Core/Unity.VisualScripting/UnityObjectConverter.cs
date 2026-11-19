@@ -20,7 +20,7 @@ public class UnityObjectConverter : fsConverter
 	private List<UnityEngine.Object> objectReferences
 	{
 		[Token(Token = "0x6000F56")]
-		[Address(RVA = "0x2E4E500", Offset = "0x2E4CB00", VA = "0x182E4E500")]
+		[Address(RVA = "0x6841BB0", Offset = "0x6840BB0", VA = "0x6841BB0")]
 		get
 		{
 			return null;
@@ -28,49 +28,49 @@ public class UnityObjectConverter : fsConverter
 	}
 
 	[Token(Token = "0x6000F57")]
-	[Address(RVA = "0x2E4DF90", Offset = "0x2E4C590", VA = "0x182E4DF90", Slot = "9")]
+	[Address(RVA = "0x6841C00", Offset = "0x6840C00", VA = "0x6841C00", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F58")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
+	[Address(RVA = "0x6841C80", Offset = "0x6840C80", VA = "0x6841C80", Slot = "5")]
 	public override bool RequestCycleSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F59")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+	[Address(RVA = "0x6841C90", Offset = "0x6840C90", VA = "0x6841C90", Slot = "6")]
 	public override bool RequestInheritanceSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x2E4E2D0", Offset = "0x2E4C8D0", VA = "0x182E4E2D0", Slot = "7")]
+	[Address(RVA = "0x6841CA0", Offset = "0x6840CA0", VA = "0x6841CA0", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F5B")]
-	[Address(RVA = "0x2E4E010", Offset = "0x2E4C610", VA = "0x182E4E010", Slot = "8")]
+	[Address(RVA = "0x6841EC0", Offset = "0x6840EC0", VA = "0x6841EC0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData storage, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F5C")]
-	[Address(RVA = "0x546D10", Offset = "0x545310", VA = "0x180546D10", Slot = "4")]
+	[Address(RVA = "0x6842180", Offset = "0x6841180", VA = "0x6842180", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F5D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6842190", Offset = "0x6841190", VA = "0x6842190")]
 	public UnityObjectConverter()
 	{
 	}

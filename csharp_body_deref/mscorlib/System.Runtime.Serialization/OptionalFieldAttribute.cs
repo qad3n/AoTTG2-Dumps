@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000419")]
-[AttributeUsage(AttributeTargets.Field, Inherited = false)]
+[Token(Token = "0x20003F2")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Field, Inherited = false)]
 public sealed class OptionalFieldAttribute : Attribute
 {
-	[Token(Token = "0x400101F")]
+	[Token(Token = "0x4000F7F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int versionAdded;
 
-	[Token(Token = "0x1700043D")]
+	[Token(Token = "0x1700043C")]
 	public int VersionAdded
 	{
-		[Token(Token = "0x600205F")]
-		[Address(RVA = "0x1A1B910", Offset = "0x1A19F10", VA = "0x181A1B910")]
+		[Token(Token = "0x6002035")]
+		[Address(RVA = "0x53A6750", Offset = "0x53A5750", VA = "0x53A6750")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600205E")]
-	[Address(RVA = "0x1A1B900", Offset = "0x1A19F00", VA = "0x181A1B900")]
+	[Token(Token = "0x6002034")]
+	[Address(RVA = "0x53A6740", Offset = "0x53A5740", VA = "0x53A6740")]
 	public OptionalFieldAttribute()
 	{
 	}

@@ -13,171 +13,171 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20007A9")]
+[Token(Token = "0x2000854")]
 internal class PlayerKDRRow : MonoBehaviour
 {
-	[Token(Token = "0x40026AC")]
+	[Token(Token = "0x4002A29")]
 	[FieldOffset(Offset = "0x20")]
 	public Player player;
 
-	[Token(Token = "0x40026AD")]
+	[Token(Token = "0x4002A2A")]
 	[FieldOffset(Offset = "0x28")]
 	public Text id;
 
-	[Token(Token = "0x40026AE")]
+	[Token(Token = "0x4002A2B")]
 	[FieldOffset(Offset = "0x30")]
 	public RawImage weapon;
 
-	[Token(Token = "0x40026AF")]
+	[Token(Token = "0x4002A2C")]
 	[FieldOffset(Offset = "0x38")]
 	public Text playerName;
 
-	[Token(Token = "0x40026B0")]
+	[Token(Token = "0x4002A2D")]
 	[FieldOffset(Offset = "0x40")]
 	public Text score;
 
-	[Token(Token = "0x40026B1")]
+	[Token(Token = "0x4002A2E")]
 	[FieldOffset(Offset = "0x48")]
 	public bool isSet;
 
-	[Token(Token = "0x40026B2")]
+	[Token(Token = "0x4002A2F")]
 	[FieldOffset(Offset = "0x49")]
 	public bool isMasterClient;
 
-	[Token(Token = "0x40026B3")]
+	[Token(Token = "0x4002A30")]
 	[FieldOffset(Offset = "0x4C")]
 	public int actorNumber;
 
-	[Token(Token = "0x40026B4")]
+	[Token(Token = "0x4002A31")]
 	[FieldOffset(Offset = "0x50")]
 	public string status;
 
-	[Token(Token = "0x40026B5")]
+	[Token(Token = "0x4002A32")]
 	[FieldOffset(Offset = "0x58")]
 	public string character;
 
-	[Token(Token = "0x40026B6")]
+	[Token(Token = "0x4002A33")]
 	[FieldOffset(Offset = "0x60")]
 	public string loadout;
 
-	[Token(Token = "0x40026B7")]
+	[Token(Token = "0x4002A34")]
 	[FieldOffset(Offset = "0x68")]
 	public string team;
 
-	[Token(Token = "0x40026B8")]
+	[Token(Token = "0x4002A35")]
 	[FieldOffset(Offset = "0x70")]
 	public int kills;
 
-	[Token(Token = "0x40026B9")]
+	[Token(Token = "0x4002A36")]
 	[FieldOffset(Offset = "0x74")]
 	public int deaths;
 
-	[Token(Token = "0x40026BA")]
+	[Token(Token = "0x4002A37")]
 	[FieldOffset(Offset = "0x78")]
 	public int maxDamage;
 
-	[Token(Token = "0x40026BB")]
+	[Token(Token = "0x4002A38")]
 	[FieldOffset(Offset = "0x7C")]
 	public int totalDamage;
 
-	[Token(Token = "0x40026BC")]
+	[Token(Token = "0x4002A39")]
 	[FieldOffset(Offset = "0x80")]
 	private string[] trackedProperties;
 
-	[Token(Token = "0x40026BD")]
+	[Token(Token = "0x4002A3A")]
 	private const string _deadStatus = " <color=red>*dead*</color> ";
 
-	[Token(Token = "0x40026BE")]
+	[Token(Token = "0x4002A3B")]
 	[FieldOffset(Offset = "0x88")]
 	private StringBuilder _scoreBuilder;
 
-	[Token(Token = "0x40026BF")]
+	[Token(Token = "0x4002A3C")]
 	[FieldOffset(Offset = "0x90")]
 	private KDRPanel _kdrPanel;
 
-	[Token(Token = "0x6004A88")]
-	[Address(RVA = "0x225FA30", Offset = "0x225E030", VA = "0x18225FA30")]
+	[Token(Token = "0x6004F9F")]
+	[Address(RVA = "0x5C3A4F0", Offset = "0x5C394F0", VA = "0x5C3A4F0")]
 	public void Setup(ElementStyle style, Player player, KDRPanel panel)
 	{
 	}
 
-	[Token(Token = "0x6004A89")]
-	[Address(RVA = "0x225FCF0", Offset = "0x225E2F0", VA = "0x18225FCF0")]
+	[Token(Token = "0x6004FA0")]
+	[Address(RVA = "0x5C3AEA0", Offset = "0x5C39EA0", VA = "0x5C3AEA0")]
 	public bool StatsChanged()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004A8A")]
-	[Address(RVA = "0x225FCD0", Offset = "0x225E2D0", VA = "0x18225FCD0")]
+	[Token(Token = "0x6004FA1")]
+	[Address(RVA = "0x5C3AF80", Offset = "0x5C39F80", VA = "0x5C3AF80")]
 	public bool StatsChanged(int kills, int deaths, int maxDamage, int totalDamage)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004A8B")]
-	[Address(RVA = "0x225ED30", Offset = "0x225D330", VA = "0x18225ED30")]
+	[Token(Token = "0x6004FA2")]
+	[Address(RVA = "0x5C3AFA0", Offset = "0x5C39FA0", VA = "0x5C3AFA0")]
 	public int GetKillDiff()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004A8C")]
-	[Address(RVA = "0x225ECE0", Offset = "0x225D2E0", VA = "0x18225ECE0")]
+	[Token(Token = "0x6004FA3")]
+	[Address(RVA = "0x5C3AFE0", Offset = "0x5C39FE0", VA = "0x5C3AFE0")]
 	public int GetDeathDiff()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004A8D")]
-	[Address(RVA = "0x225ED80", Offset = "0x225D380", VA = "0x18225ED80")]
+	[Token(Token = "0x6004FA4")]
+	[Address(RVA = "0x5C3B020", Offset = "0x5C3A020", VA = "0x5C3B020")]
 	public int GetMaxDamageDiff()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004A8E")]
-	[Address(RVA = "0x225F9E0", Offset = "0x225DFE0", VA = "0x18225F9E0")]
+	[Token(Token = "0x6004FA5")]
+	[Address(RVA = "0x5C3B060", Offset = "0x5C3A060", VA = "0x5C3B060")]
 	public int GetTotalDamageDiff()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004A8F")]
-	[Address(RVA = "0x22605C0", Offset = "0x225EBC0", VA = "0x1822605C0")]
+	[Token(Token = "0x6004FA6")]
+	[Address(RVA = "0x5C3B0A0", Offset = "0x5C3A0A0", VA = "0x5C3B0A0")]
 	public void UpdateRow(Player player)
 	{
 	}
 
-	[Token(Token = "0x6004A90")]
-	[Address(RVA = "0x225FDD0", Offset = "0x225E3D0", VA = "0x18225FDD0")]
+	[Token(Token = "0x6004FA7")]
+	[Address(RVA = "0x5C3A780", Offset = "0x5C39780", VA = "0x5C3A780")]
 	public void UpdateRow()
 	{
 	}
 
-	[Token(Token = "0x6004A91")]
-	[Address(RVA = "0x225F8E0", Offset = "0x225DEE0", VA = "0x18225F8E0")]
+	[Token(Token = "0x6004FA8")]
+	[Address(RVA = "0x5C3B600", Offset = "0x5C3A600", VA = "0x5C3B600")]
 	public string GetPlayerStatus(string status)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004A92")]
-	[Address(RVA = "0x225F020", Offset = "0x225D620", VA = "0x18225F020")]
+	[Token(Token = "0x6004FA9")]
+	[Address(RVA = "0x5C3B0C0", Offset = "0x5C3A0C0", VA = "0x5C3B0C0")]
 	public Texture GetPlayerIcon(string character, string loadout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004A93")]
-	[Address(RVA = "0x225EDD0", Offset = "0x225D3D0", VA = "0x18225EDD0")]
+	[Token(Token = "0x6004FAA")]
+	[Address(RVA = "0x5C3B6E0", Offset = "0x5C3A6E0", VA = "0x5C3B6E0")]
 	public Texture GetPlayerIconFull(string character, string loadout, string status)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004A94")]
-	[Address(RVA = "0x22605F0", Offset = "0x225EBF0", VA = "0x1822605F0")]
+	[Token(Token = "0x6004FAB")]
+	[Address(RVA = "0x5C3B8C0", Offset = "0x5C3A8C0", VA = "0x5C3B8C0")]
 	public PlayerKDRRow()
 	{
 	}

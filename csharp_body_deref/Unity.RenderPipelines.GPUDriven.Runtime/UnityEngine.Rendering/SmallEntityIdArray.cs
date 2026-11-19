@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.SmallEntityIdArray
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,14 +36,14 @@ internal struct SmallEntityIdArray : IDisposable
 	public bool Valid
 	{
 		[Token(Token = "0x6000282")]
-		[Address(RVA = "0xF1D4C0", Offset = "0xF1BAC0", VA = "0x180F1D4C0")]
+		[Address(RVA = "0x65DA830", Offset = "0x65D9830", VA = "0x65DA830")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000283")]
-		[Address(RVA = "0xF1DA30", Offset = "0xF1C030", VA = "0x180F1DA30")]
+		[Address(RVA = "0x65DA840", Offset = "0x65D9840", VA = "0x65DA840")]
 		[CompilerGenerated]
 		private set
 		{
@@ -54,26 +54,26 @@ internal struct SmallEntityIdArray : IDisposable
 	public EntityId this[int index]
 	{
 		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x2BEAFC0", Offset = "0x2BE95C0", VA = "0x182BEAFC0")]
+		[Address(RVA = "0x65DAA10", Offset = "0x65D9A10", VA = "0x65DAA10")]
 		get
 		{
 			return default(EntityId);
 		}
 		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x2BEB0B0", Offset = "0x2BE96B0", VA = "0x182BEB0B0")]
+		[Address(RVA = "0x65DAB20", Offset = "0x65D9B20", VA = "0x65DAB20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x2BEAE40", Offset = "0x2BE9440", VA = "0x182BEAE40")]
+	[Address(RVA = "0x65DA850", Offset = "0x65D9850", VA = "0x65DA850")]
 	public SmallEntityIdArray(int length, Allocator allocator)
 	{
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x2BEADF0", Offset = "0x2BE93F0", VA = "0x182BEADF0", Slot = "4")]
+	[Address(RVA = "0x65D8390", Offset = "0x65D7390", VA = "0x65D8390", Slot = "4")]
 	public void Dispose()
 	{
 	}

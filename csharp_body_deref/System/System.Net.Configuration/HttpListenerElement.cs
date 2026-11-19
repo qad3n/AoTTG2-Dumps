@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003EE")]
+[Token(Token = "0x20003AA")]
 public sealed class HttpListenerElement : ConfigurationElement
 {
-	[Token(Token = "0x170005A5")]
+	[Token(Token = "0x17000577")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A50")]
-		[Address(RVA = "0x282AE70", Offset = "0x2829470", VA = "0x18282AE70", Slot = "4")]
+		[Token(Token = "0x6001896")]
+		[Address(RVA = "0x61D0590", Offset = "0x61CF590", VA = "0x61D0590", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005A6")]
+	[Token(Token = "0x17000578")]
 	public HttpListenerTimeoutsElement Timeouts
 	{
-		[Token(Token = "0x6001A51")]
-		[Address(RVA = "0x282AEA0", Offset = "0x28294A0", VA = "0x18282AEA0")]
+		[Token(Token = "0x6001897")]
+		[Address(RVA = "0x61D05C0", Offset = "0x61CF5C0", VA = "0x61D05C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005A7")]
+	[Token(Token = "0x17000579")]
 	public bool UnescapeRequestUrl
 	{
-		[Token(Token = "0x6001A52")]
-		[Address(RVA = "0x282AED0", Offset = "0x28294D0", VA = "0x18282AED0")]
+		[Token(Token = "0x6001898")]
+		[Address(RVA = "0x61D05F0", Offset = "0x61CF5F0", VA = "0x61D05F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001A4F")]
-	[Address(RVA = "0x282AE40", Offset = "0x2829440", VA = "0x18282AE40")]
+	[Token(Token = "0x6001895")]
+	[Address(RVA = "0x61D0560", Offset = "0x61CF560", VA = "0x61D0560")]
 	public HttpListenerElement()
 	{
 	}

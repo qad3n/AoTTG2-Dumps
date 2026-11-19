@@ -22,7 +22,7 @@ public class XmlEnumAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000D53")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6117940", Offset = "0x6116940", VA = "0x6117940")]
 		get
 		{
 			return null;
@@ -30,13 +30,13 @@ public class XmlEnumAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D52")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x6117910", Offset = "0x6116910", VA = "0x6117910")]
 	public XmlEnumAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x6000D54")]
-	[Address(RVA = "0x275EB20", Offset = "0x275D120", VA = "0x18275EB20")]
+	[Address(RVA = "0x6115C10", Offset = "0x6114C10", VA = "0x6115C10")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

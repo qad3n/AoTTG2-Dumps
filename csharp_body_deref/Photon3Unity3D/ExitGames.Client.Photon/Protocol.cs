@@ -35,21 +35,21 @@ public class Protocol
 	private static readonly byte[] memDeserialize;
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x1CE7A20", Offset = "0x1CE6020", VA = "0x181CE7A20")]
+	[Address(RVA = "0x5668080", Offset = "0x5667080", VA = "0x5668080")]
 	public static bool TryRegisterType(Type type, byte typeCode, SerializeMethod serializeFunction, DeserializeMethod deserializeFunction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x1CE7C10", Offset = "0x1CE6210", VA = "0x181CE7C10")]
+	[Address(RVA = "0x56682F0", Offset = "0x56672F0", VA = "0x56682F0")]
 	public static bool TryRegisterType(Type type, byte typeCode, SerializeStreamMethod serializeFunction, DeserializeStreamMethod deserializeFunction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x1CE77D0", Offset = "0x1CE5DD0", VA = "0x181CE77D0")]
+	[Address(RVA = "0x5669190", Offset = "0x5668190", VA = "0x5669190")]
 	[Obsolete]
 	public static byte[] Serialize(object obj)
 	{
@@ -57,7 +57,7 @@ public class Protocol
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x1CE7380", Offset = "0x1CE5980", VA = "0x181CE7380")]
+	[Address(RVA = "0x5669550", Offset = "0x5668550", VA = "0x5669550")]
 	[Obsolete]
 	public static object Deserialize(byte[] serializedData)
 	{
@@ -65,43 +65,43 @@ public class Protocol
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x1CE7780", Offset = "0x1CE5D80", VA = "0x181CE7780")]
+	[Address(RVA = "0x5669750", Offset = "0x5668750", VA = "0x5669750")]
 	public static void Serialize(short value, byte[] target, ref int targetOffset)
 	{
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x1CE79A0", Offset = "0x1CE5FA0", VA = "0x181CE79A0")]
+	[Address(RVA = "0x5669790", Offset = "0x5668790", VA = "0x5669790")]
 	public static void Serialize(int value, byte[] target, ref int targetOffset)
 	{
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x1CE7550", Offset = "0x1CE5B50", VA = "0x181CE7550")]
+	[Address(RVA = "0x5669800", Offset = "0x5668800", VA = "0x5669800")]
 	public static void Serialize(float value, byte[] target, ref int targetOffset)
 	{
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x1CE72E0", Offset = "0x1CE58E0", VA = "0x181CE72E0")]
+	[Address(RVA = "0x56699F0", Offset = "0x56689F0", VA = "0x56699F0")]
 	public static void Deserialize(out int value, byte[] source, ref int offset)
 	{
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x1CE7070", Offset = "0x1CE5670", VA = "0x181CE7070")]
+	[Address(RVA = "0x5669A70", Offset = "0x5668A70", VA = "0x5669A70")]
 	public static void Deserialize(out short value, byte[] source, ref int offset)
 	{
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x1CE70D0", Offset = "0x1CE56D0", VA = "0x181CE70D0")]
+	[Address(RVA = "0x5669AC0", Offset = "0x5668AC0", VA = "0x5669AC0")]
 	public static void Deserialize(out float value, byte[] source, ref int offset)
 	{
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5669C80", Offset = "0x5668C80", VA = "0x5669C80")]
 	public Protocol()
 	{
 	}

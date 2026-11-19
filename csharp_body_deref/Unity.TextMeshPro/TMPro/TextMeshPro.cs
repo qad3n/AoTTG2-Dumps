@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TextMeshPro
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,75 +24,75 @@ namespace TMPro;
 public class TextMeshPro : TMP_Text, ILayoutElement
 {
 	[Token(Token = "0x4000642")]
-	[FieldOffset(Offset = "0x6F0")]
+	[FieldOffset(Offset = "0x6E8")]
 	[SerializeField]
 	internal int _SortingLayer;
 
 	[Token(Token = "0x4000643")]
-	[FieldOffset(Offset = "0x6F4")]
+	[FieldOffset(Offset = "0x6EC")]
 	[SerializeField]
 	internal int _SortingLayerID;
 
 	[Token(Token = "0x4000644")]
-	[FieldOffset(Offset = "0x6F8")]
+	[FieldOffset(Offset = "0x6F0")]
 	[SerializeField]
 	internal int _SortingOrder;
 
 	[Token(Token = "0x4000645")]
-	[FieldOffset(Offset = "0x700")]
+	[FieldOffset(Offset = "0x6F8")]
 	[CompilerGenerated]
 	private new Action<TMP_TextInfo> m_OnPreRenderText;
 
 	[Token(Token = "0x4000646")]
-	[FieldOffset(Offset = "0x708")]
+	[FieldOffset(Offset = "0x700")]
 	[SerializeField]
 	private bool m_hasFontAssetChanged;
 
 	[Token(Token = "0x4000647")]
-	[FieldOffset(Offset = "0x70C")]
+	[FieldOffset(Offset = "0x704")]
 	private float m_previousLossyScaleY;
 
 	[Token(Token = "0x4000648")]
-	[FieldOffset(Offset = "0x710")]
+	[FieldOffset(Offset = "0x708")]
 	[SerializeField]
 	private Renderer m_renderer;
 
 	[Token(Token = "0x4000649")]
-	[FieldOffset(Offset = "0x718")]
+	[FieldOffset(Offset = "0x710")]
 	private MeshFilter m_meshFilter;
 
 	[Token(Token = "0x400064A")]
-	[FieldOffset(Offset = "0x720")]
+	[FieldOffset(Offset = "0x718")]
 	private bool m_isFirstAllocation;
 
 	[Token(Token = "0x400064B")]
-	[FieldOffset(Offset = "0x724")]
+	[FieldOffset(Offset = "0x71C")]
 	private int m_max_characters;
 
 	[Token(Token = "0x400064C")]
-	[FieldOffset(Offset = "0x728")]
+	[FieldOffset(Offset = "0x720")]
 	private int m_max_numberOfLines;
 
 	[Token(Token = "0x400064D")]
-	[FieldOffset(Offset = "0x730")]
+	[FieldOffset(Offset = "0x728")]
 	private TMP_SubMesh[] m_subTextObjects;
 
 	[Token(Token = "0x400064E")]
-	[FieldOffset(Offset = "0x738")]
+	[FieldOffset(Offset = "0x730")]
 	[SerializeField]
 	private MaskingTypes m_maskType;
 
 	[Token(Token = "0x400064F")]
-	[FieldOffset(Offset = "0x73C")]
+	[FieldOffset(Offset = "0x734")]
 	private Matrix4x4 m_EnvMapMatrix;
 
 	[Token(Token = "0x4000650")]
-	[FieldOffset(Offset = "0x780")]
+	[FieldOffset(Offset = "0x778")]
 	private Vector3[] m_RectTransformCorners;
 
 	[NonSerialized]
 	[Token(Token = "0x4000651")]
-	[FieldOffset(Offset = "0x788")]
+	[FieldOffset(Offset = "0x780")]
 	private bool m_isRegisteredForEvents;
 
 	[Token(Token = "0x4000652")]
@@ -180,20 +180,20 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	private static ProfilerMarker k_GenerateTextPhaseIIIMarker;
 
 	[Token(Token = "0x4000667")]
-	[FieldOffset(Offset = "0x790")]
+	[FieldOffset(Offset = "0x788")]
 	private Dictionary<int, int> materialIndexPairs;
 
 	[Token(Token = "0x17000199")]
 	public int sortingLayerID
 	{
 		[Token(Token = "0x6000683")]
-		[Address(RVA = "0x2D7DD70", Offset = "0x2D7C370", VA = "0x182D7DD70")]
+		[Address(RVA = "0x67623C0", Offset = "0x67613C0", VA = "0x67623C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000684")]
-		[Address(RVA = "0x2D7E150", Offset = "0x2D7C750", VA = "0x182D7E150")]
+		[Address(RVA = "0x67624E0", Offset = "0x67614E0", VA = "0x67624E0")]
 		set
 		{
 		}
@@ -203,13 +203,13 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public int sortingOrder
 	{
 		[Token(Token = "0x6000685")]
-		[Address(RVA = "0x2D7DE00", Offset = "0x2D7C400", VA = "0x182D7DE00")]
+		[Address(RVA = "0x6762690", Offset = "0x6761690", VA = "0x6762690")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000686")]
-		[Address(RVA = "0x2D7E310", Offset = "0x2D7C910", VA = "0x182D7E310")]
+		[Address(RVA = "0x6762710", Offset = "0x6761710", VA = "0x6762710")]
 		set
 		{
 		}
@@ -219,13 +219,13 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public override bool autoSizeTextContainer
 	{
 		[Token(Token = "0x6000687")]
-		[Address(RVA = "0x2D751C0", Offset = "0x2D737C0", VA = "0x182D751C0", Slot = "75")]
+		[Address(RVA = "0x67628C0", Offset = "0x67618C0", VA = "0x67628C0", Slot = "75")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000688")]
-		[Address(RVA = "0x2D7DFE0", Offset = "0x2D7C5E0", VA = "0x182D7DFE0", Slot = "76")]
+		[Address(RVA = "0x67628D0", Offset = "0x67618D0", VA = "0x67628D0", Slot = "76")]
 		set
 		{
 		}
@@ -236,7 +236,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public TextContainer textContainer
 	{
 		[Token(Token = "0x6000689")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x67629B0", Offset = "0x67619B0", VA = "0x67629B0")]
 		get
 		{
 			return null;
@@ -247,7 +247,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public new Transform transform
 	{
 		[Token(Token = "0x600068A")]
-		[Address(RVA = "0x2D7DE90", Offset = "0x2D7C490", VA = "0x182D7DE90")]
+		[Address(RVA = "0x67629C0", Offset = "0x67619C0", VA = "0x67629C0")]
 		get
 		{
 			return null;
@@ -258,7 +258,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public Renderer renderer
 	{
 		[Token(Token = "0x600068B")]
-		[Address(RVA = "0x2D7DCD0", Offset = "0x2D7C2D0", VA = "0x182D7DCD0")]
+		[Address(RVA = "0x6762440", Offset = "0x6761440", VA = "0x6762440")]
 		get
 		{
 			return null;
@@ -269,7 +269,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public override Mesh mesh
 	{
 		[Token(Token = "0x600068C")]
-		[Address(RVA = "0x2D7DC00", Offset = "0x2D7C200", VA = "0x182D7DC00", Slot = "77")]
+		[Address(RVA = "0x6762A60", Offset = "0x6761A60", VA = "0x6762A60", Slot = "77")]
 		get
 		{
 			return null;
@@ -280,7 +280,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public MeshFilter meshFilter
 	{
 		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x2D7DAD0", Offset = "0x2D7C0D0", VA = "0x182D7DAD0")]
+		[Address(RVA = "0x6762B20", Offset = "0x6761B20", VA = "0x6762B20")]
 		get
 		{
 			return null;
@@ -291,13 +291,13 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public MaskingTypes maskType
 	{
 		[Token(Token = "0x600068E")]
-		[Address(RVA = "0x2D7DAC0", Offset = "0x2D7C0C0", VA = "0x182D7DAC0")]
+		[Address(RVA = "0x6762C40", Offset = "0x6761C40", VA = "0x6762C40")]
 		get
 		{
 			return default(MaskingTypes);
 		}
 		[Token(Token = "0x600068F")]
-		[Address(RVA = "0x2D7E140", Offset = "0x2D7C740", VA = "0x182D7E140")]
+		[Address(RVA = "0x6762C50", Offset = "0x6761C50", VA = "0x6762C50")]
 		set
 		{
 		}
@@ -307,13 +307,13 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	public override event Action<TMP_TextInfo> OnPreRenderText
 	{
 		[Token(Token = "0x600069C")]
-		[Address(RVA = "0x2D7DA10", Offset = "0x2D7C010", VA = "0x182D7DA10", Slot = "78")]
+		[Address(RVA = "0x67639E0", Offset = "0x67629E0", VA = "0x67639E0", Slot = "78")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600069D")]
-		[Address(RVA = "0x2D7DF30", Offset = "0x2D7C530", VA = "0x182D7DF30", Slot = "79")]
+		[Address(RVA = "0x6763A90", Offset = "0x6762A90", VA = "0x6763A90", Slot = "79")]
 		[CompilerGenerated]
 		remove
 		{
@@ -321,374 +321,374 @@ public class TextMeshPro : TMP_Text, ILayoutElement
 	}
 
 	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x2D7B3D0", Offset = "0x2D799D0", VA = "0x182D7B3D0")]
+	[Address(RVA = "0x6762DF0", Offset = "0x6761DF0", VA = "0x6762DF0")]
 	public void SetMask(MaskingTypes type, Vector4 maskCoords)
 	{
 	}
 
 	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x2D7B620", Offset = "0x2D79C20", VA = "0x182D7B620")]
+	[Address(RVA = "0x6762F20", Offset = "0x6761F20", VA = "0x6762F20")]
 	public void SetMask(MaskingTypes type, Vector4 maskCoords, float softnessX, float softnessY)
 	{
 	}
 
 	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x2D7C1E0", Offset = "0x2D7A7E0", VA = "0x182D7C1E0", Slot = "28")]
+	[Address(RVA = "0x6763070", Offset = "0x6762070", VA = "0x6763070", Slot = "28")]
 	public override void SetVerticesDirty()
 	{
 	}
 
 	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x2D7B170", Offset = "0x2D79770", VA = "0x182D7B170", Slot = "27")]
+	[Address(RVA = "0x6763180", Offset = "0x6762180", VA = "0x6763180", Slot = "27")]
 	public override void SetLayoutDirty()
 	{
 	}
 
 	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x1AC67A0", Offset = "0x1AC4DA0", VA = "0x181AC67A0", Slot = "29")]
+	[Address(RVA = "0x6763240", Offset = "0x6762240", VA = "0x6763240", Slot = "29")]
 	public override void SetMaterialDirty()
 	{
 	}
 
 	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x2D6EE80", Offset = "0x2D6D480", VA = "0x182D6EE80", Slot = "26")]
+	[Address(RVA = "0x6763260", Offset = "0x6762260", VA = "0x6763260", Slot = "26")]
 	public override void SetAllDirty()
 	{
 	}
 
 	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x2D77930", Offset = "0x2D75F30", VA = "0x182D77930", Slot = "37")]
+	[Address(RVA = "0x67632A0", Offset = "0x67622A0", VA = "0x67632A0", Slot = "37")]
 	public override void Rebuild(CanvasUpdate update)
 	{
 	}
 
 	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x2D7C7B0", Offset = "0x2D7ADB0", VA = "0x182D7C7B0", Slot = "40")]
+	[Address(RVA = "0x6763650", Offset = "0x6762650", VA = "0x6763650", Slot = "40")]
 	protected override void UpdateMaterial()
 	{
 	}
 
 	[Token(Token = "0x6000698")]
-	[Address(RVA = "0x2D7C8F0", Offset = "0x2D7AEF0", VA = "0x182D7C8F0", Slot = "111")]
+	[Address(RVA = "0x6763770", Offset = "0x6762770", VA = "0x6763770", Slot = "111")]
 	public override void UpdateMeshPadding()
 	{
 	}
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x2D75F80", Offset = "0x2D74580", VA = "0x182D75F80", Slot = "106")]
+	[Address(RVA = "0x6763880", Offset = "0x6762880", VA = "0x6763880", Slot = "106")]
 	public override void ForceMeshUpdate(bool ignoreActiveState = false, bool forceTextReparsing = false)
 	{
 	}
 
 	[Token(Token = "0x600069A")]
-	[Address(RVA = "0x2D76860", Offset = "0x2D74E60", VA = "0x182D76860", Slot = "118")]
+	[Address(RVA = "0x67638A0", Offset = "0x67628A0", VA = "0x67638A0", Slot = "118")]
 	public override TMP_TextInfo GetTextInfo(string text)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600069B")]
-	[Address(RVA = "0x2D757B0", Offset = "0x2D73DB0", VA = "0x182D757B0", Slot = "130")]
+	[Address(RVA = "0x6763910", Offset = "0x6762910", VA = "0x6763910", Slot = "130")]
 	public override void ClearMesh(bool updateMesh)
 	{
 	}
 
 	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x2D7C650", Offset = "0x2D7AC50", VA = "0x182D7C650", Slot = "107")]
+	[Address(RVA = "0x6763B40", Offset = "0x6762B40", VA = "0x6763B40", Slot = "107")]
 	public override void UpdateGeometry(Mesh mesh, int index)
 	{
 	}
 
 	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x2D7CEA0", Offset = "0x2D7B4A0", VA = "0x182D7CEA0", Slot = "108")]
+	[Address(RVA = "0x6763B60", Offset = "0x6762B60", VA = "0x6763B60", Slot = "108")]
 	public override void UpdateVertexData(TMP_VertexDataUpdateFlags flags)
 	{
 	}
 
 	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x2D7D080", Offset = "0x2D7B680", VA = "0x182D7D080", Slot = "109")]
+	[Address(RVA = "0x6763ED0", Offset = "0x6762ED0", VA = "0x6763ED0", Slot = "109")]
 	public override void UpdateVertexData()
 	{
 	}
 
 	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x2D73950", Offset = "0x2D71F50", VA = "0x182D73950")]
+	[Address(RVA = "0x67641C0", Offset = "0x67631C0", VA = "0x67641C0")]
 	public void UpdateFontAsset()
 	{
 	}
 
 	[Token(Token = "0x60006A2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "133")]
+	[Address(RVA = "0x67641E0", Offset = "0x67631E0", VA = "0x67641E0", Slot = "133")]
 	public void CalculateLayoutInputHorizontal()
 	{
 	}
 
 	[Token(Token = "0x60006A3")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "134")]
+	[Address(RVA = "0x67641F0", Offset = "0x67631F0", VA = "0x67641F0", Slot = "134")]
 	public void CalculateLayoutInputVertical()
 	{
 	}
 
 	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x2D75440", Offset = "0x2D73A40", VA = "0x182D75440", Slot = "4")]
+	[Address(RVA = "0x6764200", Offset = "0x6763200", VA = "0x6764200", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x2D77290", Offset = "0x2D75890", VA = "0x182D77290", Slot = "5")]
+	[Address(RVA = "0x6764570", Offset = "0x6763570", VA = "0x6764570", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x2D771F0", Offset = "0x2D757F0", VA = "0x182D771F0", Slot = "7")]
+	[Address(RVA = "0x67646D0", Offset = "0x67636D0", VA = "0x67646D0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60006A7")]
-	[Address(RVA = "0x2D77100", Offset = "0x2D75700", VA = "0x182D77100", Slot = "8")]
+	[Address(RVA = "0x67647D0", Offset = "0x67637D0", VA = "0x67647D0", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60006A8")]
-	[Address(RVA = "0x2D769B0", Offset = "0x2D74FB0", VA = "0x182D769B0", Slot = "89")]
+	[Address(RVA = "0x67648F0", Offset = "0x67638F0", VA = "0x67648F0", Slot = "89")]
 	protected override void LoadFontAsset()
 	{
 	}
 
 	[Token(Token = "0x60006A9")]
-	[Address(RVA = "0x2D7D290", Offset = "0x2D7B890", VA = "0x182D7D290")]
+	[Address(RVA = "0x6764F50", Offset = "0x6763F50", VA = "0x6764F50")]
 	private void ValidateEnvMapProperty()
 	{
 	}
 
 	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x2D7C370", Offset = "0x2D7A970", VA = "0x182D7C370")]
+	[Address(RVA = "0x6765080", Offset = "0x6764080", VA = "0x6765080")]
 	private void UpdateEnvMapMatrix()
 	{
 	}
 
 	[Token(Token = "0x60006AB")]
-	[Address(RVA = "0x2D7B470", Offset = "0x2D79A70", VA = "0x182D7B470")]
+	[Address(RVA = "0x6762C60", Offset = "0x6761C60", VA = "0x6762C60")]
 	private void SetMask(MaskingTypes maskType)
 	{
 	}
 
 	[Token(Token = "0x60006AC")]
-	[Address(RVA = "0x2D7B340", Offset = "0x2D79940", VA = "0x182D7B340")]
+	[Address(RVA = "0x6762E80", Offset = "0x6761E80", VA = "0x6762E80")]
 	private void SetMaskCoordinates(Vector4 coords)
 	{
 	}
 
 	[Token(Token = "0x60006AD")]
-	[Address(RVA = "0x2D7B230", Offset = "0x2D79830", VA = "0x182D7B230")]
+	[Address(RVA = "0x6762F70", Offset = "0x6761F70", VA = "0x6762F70")]
 	private void SetMaskCoordinates(Vector4 coords, float softX, float softY)
 	{
 	}
 
 	[Token(Token = "0x60006AE")]
-	[Address(RVA = "0x2D75E40", Offset = "0x2D74440", VA = "0x182D75E40")]
+	[Address(RVA = "0x6765380", Offset = "0x6764380", VA = "0x6765380")]
 	private void EnableMasking()
 	{
 	}
 
 	[Token(Token = "0x60006AF")]
-	[Address(RVA = "0x2D75BF0", Offset = "0x2D741F0", VA = "0x182D75BF0")]
+	[Address(RVA = "0x6765570", Offset = "0x6764570", VA = "0x6765570")]
 	private void DisableMasking()
 	{
 	}
 
 	[Token(Token = "0x60006B0")]
-	[Address(RVA = "0x2D7C670", Offset = "0x2D7AC70", VA = "0x182D7C670")]
+	[Address(RVA = "0x67654F0", Offset = "0x67644F0", VA = "0x67654F0")]
 	private void UpdateMask()
 	{
 	}
 
 	[Token(Token = "0x60006B1")]
-	[Address(RVA = "0x2D76260", Offset = "0x2D74860", VA = "0x182D76260", Slot = "91")]
+	[Address(RVA = "0x67657B0", Offset = "0x67647B0", VA = "0x67657B0", Slot = "91")]
 	protected override Material GetMaterial(Material mat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006B2")]
-	[Address(RVA = "0x2D763A0", Offset = "0x2D749A0", VA = "0x182D763A0", Slot = "95")]
+	[Address(RVA = "0x67658E0", Offset = "0x67648E0", VA = "0x67658E0", Slot = "95")]
 	protected override Material[] GetMaterials(Material[] mats)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006B3")]
-	[Address(RVA = "0x2D72D60", Offset = "0x2D71360", VA = "0x182D72D60", Slot = "90")]
+	[Address(RVA = "0x6765B00", Offset = "0x6764B00", VA = "0x6765B00", Slot = "90")]
 	protected override void SetSharedMaterial(Material mat)
 	{
 	}
 
 	[Token(Token = "0x60006B4")]
-	[Address(RVA = "0x2D765C0", Offset = "0x2D74BC0", VA = "0x182D765C0", Slot = "93")]
+	[Address(RVA = "0x6765B50", Offset = "0x6764B50", VA = "0x6765B50", Slot = "93")]
 	protected override Material[] GetSharedMaterials()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006B5")]
-	[Address(RVA = "0x2D7BD70", Offset = "0x2D7A370", VA = "0x182D7BD70", Slot = "94")]
+	[Address(RVA = "0x6765D40", Offset = "0x6764D40", VA = "0x6765D40", Slot = "94")]
 	protected override void SetSharedMaterials(Material[] materials)
 	{
 	}
 
 	[Token(Token = "0x60006B6")]
-	[Address(RVA = "0x2D7BAE0", Offset = "0x2D7A0E0", VA = "0x182D7BAE0", Slot = "99")]
+	[Address(RVA = "0x67661A0", Offset = "0x67651A0", VA = "0x67661A0", Slot = "99")]
 	protected override void SetOutlineThickness(float thickness)
 	{
 	}
 
 	[Token(Token = "0x60006B7")]
-	[Address(RVA = "0x2D7AFF0", Offset = "0x2D795F0", VA = "0x182D7AFF0", Slot = "97")]
+	[Address(RVA = "0x6766310", Offset = "0x6765310", VA = "0x6766310", Slot = "97")]
 	protected override void SetFaceColor(Color32 color)
 	{
 	}
 
 	[Token(Token = "0x60006B8")]
-	[Address(RVA = "0x2D7B960", Offset = "0x2D79F60", VA = "0x182D7B960", Slot = "98")]
+	[Address(RVA = "0x6766470", Offset = "0x6765470", VA = "0x6766470", Slot = "98")]
 	protected override void SetOutlineColor(Color32 color)
 	{
 	}
 
 	[Token(Token = "0x60006B9")]
-	[Address(RVA = "0x2D75A10", Offset = "0x2D74010", VA = "0x182D75A10")]
+	[Address(RVA = "0x67656E0", Offset = "0x67646E0", VA = "0x67656E0")]
 	private void CreateMaterialInstance()
 	{
 	}
 
 	[Token(Token = "0x60006BA")]
-	[Address(RVA = "0x2D7BD30", Offset = "0x2D7A330", VA = "0x182D7BD30", Slot = "100")]
+	[Address(RVA = "0x67665D0", Offset = "0x67655D0", VA = "0x67665D0", Slot = "100")]
 	protected override void SetShaderDepth()
 	{
 	}
 
 	[Token(Token = "0x60006BB")]
-	[Address(RVA = "0x2D7ACB0", Offset = "0x2D792B0", VA = "0x182D7ACB0", Slot = "101")]
+	[Address(RVA = "0x6766610", Offset = "0x6765610", VA = "0x6766610", Slot = "101")]
 	protected override void SetCulling()
 	{
 	}
 
 	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x2D7BC70", Offset = "0x2D7A270", VA = "0x182D7BC70")]
+	[Address(RVA = "0x6766940", Offset = "0x6765940", VA = "0x6766940")]
 	private void SetPerspectiveCorrection()
 	{
 	}
 
 	[Token(Token = "0x60006BD")]
-	[Address(RVA = "0x2D77CA0", Offset = "0x2D762A0", VA = "0x182D77CA0", Slot = "114")]
+	[Address(RVA = "0x67669D0", Offset = "0x67659D0", VA = "0x67669D0", Slot = "114")]
 	internal override int SetArraySizes(TextProcessingElement[] textProcessingArray)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006BE")]
-	[Address(RVA = "0x2D758A0", Offset = "0x2D73EA0", VA = "0x182D758A0", Slot = "119")]
+	[Address(RVA = "0x6769A80", Offset = "0x6768A80", VA = "0x6769A80", Slot = "119")]
 	public override void ComputeMarginSize()
 	{
 	}
 
 	[Token(Token = "0x60006BF")]
-	[Address(RVA = "0x2D771D0", Offset = "0x2D757D0", VA = "0x182D771D0", Slot = "13")]
+	[Address(RVA = "0x6769BB0", Offset = "0x6768BB0", VA = "0x6769BB0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x60006C0")]
-	[Address(RVA = "0x2D778F0", Offset = "0x2D75EF0", VA = "0x182D778F0", Slot = "12")]
+	[Address(RVA = "0x6769BE0", Offset = "0x6768BE0", VA = "0x6769BE0", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x60006C1")]
-	[Address(RVA = "0x2D77720", Offset = "0x2D75D20", VA = "0x182D77720", Slot = "10")]
+	[Address(RVA = "0x6769C10", Offset = "0x6768C10", VA = "0x6769C10", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x60006C2")]
-	[Address(RVA = "0x2D768E0", Offset = "0x2D74EE0", VA = "0x182D768E0", Slot = "132")]
+	[Address(RVA = "0x6769DE0", Offset = "0x6768DE0", VA = "0x6769DE0", Slot = "132")]
 	internal override void InternalUpdate()
 	{
 	}
 
 	[Token(Token = "0x60006C3")]
-	[Address(RVA = "0x2D77380", Offset = "0x2D75980", VA = "0x182D77380")]
+	[Address(RVA = "0x6763370", Offset = "0x6762370", VA = "0x6763370")]
 	private void OnPreRenderObject()
 	{
 	}
 
 	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x2D49210", Offset = "0x2D47810", VA = "0x182D49210", Slot = "142")]
+	[Address(RVA = "0x6741EF0", Offset = "0x6740EF0", VA = "0x6741EF0", Slot = "142")]
 	protected virtual void GenerateTextMesh()
 	{
 	}
 
 	[Token(Token = "0x60006C5")]
-	[Address(RVA = "0x2D767B0", Offset = "0x2D74DB0", VA = "0x182D767B0", Slot = "105")]
+	[Address(RVA = "0x676A200", Offset = "0x6769200", VA = "0x676A200", Slot = "105")]
 	protected override Vector3[] GetTextContainerLocalCorners()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006C6")]
-	[Address(RVA = "0x2D7B730", Offset = "0x2D79D30", VA = "0x182D7B730")]
+	[Address(RVA = "0x676A2A0", Offset = "0x67692A0", VA = "0x676A2A0")]
 	private void SetMeshFilters(bool state)
 	{
 	}
 
 	[Token(Token = "0x60006C7")]
-	[Address(RVA = "0x2D77A10", Offset = "0x2D76010", VA = "0x182D77A10", Slot = "127")]
+	[Address(RVA = "0x676A5A0", Offset = "0x67695A0", VA = "0x676A5A0", Slot = "127")]
 	protected override void SetActiveSubMeshes(bool state)
 	{
 	}
 
 	[Token(Token = "0x60006C8")]
-	[Address(RVA = "0x2D77B40", Offset = "0x2D76140", VA = "0x182D77B40")]
+	[Address(RVA = "0x676A0D0", Offset = "0x67690D0", VA = "0x676A0D0")]
 	protected void SetActiveSubTextObjectRenderers(bool state)
 	{
 	}
 
 	[Token(Token = "0x60006C9")]
-	[Address(RVA = "0x2D75AF0", Offset = "0x2D740F0", VA = "0x182D75AF0", Slot = "128")]
+	[Address(RVA = "0x676A6B0", Offset = "0x67696B0", VA = "0x676A6B0", Slot = "128")]
 	protected override void DestroySubMeshObjects()
 	{
 	}
 
 	[Token(Token = "0x60006CA")]
-	[Address(RVA = "0x2D7CC20", Offset = "0x2D7B220", VA = "0x182D7CC20")]
+	[Address(RVA = "0x6762570", Offset = "0x6761570", VA = "0x6762570")]
 	internal void UpdateSubMeshSortingLayerID(int id)
 	{
 	}
 
 	[Token(Token = "0x60006CB")]
-	[Address(RVA = "0x2D7CD60", Offset = "0x2D7B360", VA = "0x182D7CD60")]
+	[Address(RVA = "0x67627A0", Offset = "0x67617A0", VA = "0x67627A0")]
 	internal void UpdateSubMeshSortingOrder(int order)
 	{
 	}
 
 	[Token(Token = "0x60006CC")]
-	[Address(RVA = "0x2D75FA0", Offset = "0x2D745A0", VA = "0x182D75FA0", Slot = "116")]
+	[Address(RVA = "0x676A7A0", Offset = "0x67697A0", VA = "0x676A7A0", Slot = "116")]
 	protected override Bounds GetCompoundBounds()
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x60006CD")]
-	[Address(RVA = "0x2D7CA00", Offset = "0x2D7B000", VA = "0x182D7CA00")]
+	[Address(RVA = "0x6769EA0", Offset = "0x6768EA0", VA = "0x6769EA0")]
 	private void UpdateSDFScale(float scaleDelta)
 	{
 	}
 
 	[Token(Token = "0x60006CE")]
-	[Address(RVA = "0x2D7D8E0", Offset = "0x2D7BEE0", VA = "0x182D7D8E0")]
+	[Address(RVA = "0x676AA10", Offset = "0x6769A10", VA = "0x676AA10")]
 	public TextMeshPro()
 	{
 	}

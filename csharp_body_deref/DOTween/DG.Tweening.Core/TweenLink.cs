@@ -26,7 +26,7 @@ internal class TweenLink
 	public bool lastSeenActive;
 
 	[Token(Token = "0x6000431")]
-	[Address(RVA = "0x57AF90", Offset = "0x579590", VA = "0x18057AF90")]
+	[Address(RVA = "0x3197520", Offset = "0x3196520", VA = "0x3197520")]
 	public TweenLink(GameObject target, LinkBehaviour behaviour)
 	{
 	}

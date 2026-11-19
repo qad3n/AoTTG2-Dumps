@@ -21,7 +21,7 @@ internal struct CharacterSubstitution
 	public uint unicode;
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x6A48840", Offset = "0x6A47840", VA = "0x6A48840")]
 	public CharacterSubstitution(int index, uint unicode)
 	{
 	}

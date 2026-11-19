@@ -138,7 +138,7 @@ public class VoiceManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x546270", Offset = "0x544870", VA = "0x180546270")]
+		[Address(RVA = "0x3160FC0", Offset = "0x315FFC0", VA = "0x3160FC0")]
 		get
 		{
 			return default(FFIMethods);
@@ -149,13 +149,13 @@ public class VoiceManager
 	public event SettingsUpdateHandler OnSettingsUpdate
 	{
 		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x5461D0", Offset = "0x5447D0", VA = "0x1805461D0")]
+		[Address(RVA = "0x31610E0", Offset = "0x31600E0", VA = "0x31610E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x5463A0", Offset = "0x5449A0", VA = "0x1805463A0")]
+		[Address(RVA = "0x3161170", Offset = "0x3160170", VA = "0x3161170")]
 		[CompilerGenerated]
 		remove
 		{
@@ -163,91 +163,91 @@ public class VoiceManager
 	}
 
 	[Token(Token = "0x60004DC")]
-	[Address(RVA = "0x545FE0", Offset = "0x5445E0", VA = "0x180545FE0")]
+	[Address(RVA = "0x3161200", Offset = "0x3160200", VA = "0x3161200")]
 	internal VoiceManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60004DD")]
-	[Address(RVA = "0x545640", Offset = "0x543C40", VA = "0x180545640")]
+	[Address(RVA = "0x3161280", Offset = "0x3160280", VA = "0x3161280")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60004DE")]
-	[Address(RVA = "0x5454E0", Offset = "0x543AE0", VA = "0x1805454E0")]
+	[Address(RVA = "0x3161450", Offset = "0x3160450", VA = "0x3161450")]
 	public InputMode GetInputMode()
 	{
 		return default(InputMode);
 	}
 
 	[Token(Token = "0x60004DF")]
-	[Address(RVA = "0x545AB0", Offset = "0x5440B0", VA = "0x180545AB0")]
+	[Address(RVA = "0x3160DF0", Offset = "0x315FDF0", VA = "0x3160DF0")]
 	[MonoPInvokeCallback]
 	private static void SetInputModeCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x60004E0")]
-	[Address(RVA = "0x545BC0", Offset = "0x5441C0", VA = "0x180545BC0")]
+	[Address(RVA = "0x31614E0", Offset = "0x31604E0", VA = "0x31614E0")]
 	public void SetInputMode(InputMode inputMode, SetInputModeHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x5458E0", Offset = "0x543EE0", VA = "0x1805458E0")]
+	[Address(RVA = "0x31616D0", Offset = "0x31606D0", VA = "0x31616D0")]
 	public bool IsSelfMute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E2")]
-	[Address(RVA = "0x545F40", Offset = "0x544540", VA = "0x180545F40")]
+	[Address(RVA = "0x3161760", Offset = "0x3160760", VA = "0x3161760")]
 	public void SetSelfMute(bool mute)
 	{
 	}
 
 	[Token(Token = "0x60004E3")]
-	[Address(RVA = "0x545830", Offset = "0x543E30", VA = "0x180545830")]
+	[Address(RVA = "0x31617F0", Offset = "0x31607F0", VA = "0x31617F0")]
 	public bool IsSelfDeaf()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0x545EA0", Offset = "0x5444A0", VA = "0x180545EA0")]
+	[Address(RVA = "0x3161880", Offset = "0x3160880", VA = "0x3161880")]
 	public void SetSelfDeaf(bool deaf)
 	{
 	}
 
 	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x545770", Offset = "0x543D70", VA = "0x180545770")]
+	[Address(RVA = "0x3161910", Offset = "0x3160910", VA = "0x3161910")]
 	public bool IsLocalMute(long userId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E6")]
-	[Address(RVA = "0x545D20", Offset = "0x544320", VA = "0x180545D20")]
+	[Address(RVA = "0x31619B0", Offset = "0x31609B0", VA = "0x31619B0")]
 	public void SetLocalMute(long userId, bool mute)
 	{
 	}
 
 	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x545580", Offset = "0x543B80", VA = "0x180545580")]
+	[Address(RVA = "0x3161A40", Offset = "0x3160A40", VA = "0x3161A40")]
 	public byte GetLocalVolume(long userId)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x545DE0", Offset = "0x5443E0", VA = "0x180545DE0")]
+	[Address(RVA = "0x3161AE0", Offset = "0x3160AE0", VA = "0x3161AE0")]
 	public void SetLocalVolume(long userId, byte volume)
 	{
 	}
 
 	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x545990", Offset = "0x543F90", VA = "0x180545990")]
+	[Address(RVA = "0x3160ED0", Offset = "0x315FED0", VA = "0x3160ED0")]
 	[MonoPInvokeCallback]
 	private static void OnSettingsUpdateImpl(IntPtr ptr)
 	{

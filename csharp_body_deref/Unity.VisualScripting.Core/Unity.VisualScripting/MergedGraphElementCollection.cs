@@ -33,13 +33,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action<IGraphElement> ItemAdded
 	{
 		[Token(Token = "0x6000401")]
-		[Address(RVA = "0x2DB82B0", Offset = "0x2DB68B0", VA = "0x182DB82B0", Slot = "17")]
+		[Address(RVA = "0x67A2DE0", Offset = "0x67A1DE0", VA = "0x67A2DE0", Slot = "17")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000402")]
-		[Address(RVA = "0x2DB84B0", Offset = "0x2DB6AB0", VA = "0x182DB84B0", Slot = "18")]
+		[Address(RVA = "0x67A2E80", Offset = "0x67A1E80", VA = "0x67A2E80", Slot = "18")]
 		[CompilerGenerated]
 		remove
 		{
@@ -50,13 +50,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action<IGraphElement> ItemRemoved
 	{
 		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x2DB8360", Offset = "0x2DB6960", VA = "0x182DB8360", Slot = "19")]
+		[Address(RVA = "0x67A2F20", Offset = "0x67A1F20", VA = "0x67A2F20", Slot = "19")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000404")]
-		[Address(RVA = "0x2DB8560", Offset = "0x2DB6B60", VA = "0x182DB8560", Slot = "20")]
+		[Address(RVA = "0x67A2FC0", Offset = "0x67A1FC0", VA = "0x67A2FC0", Slot = "20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -67,13 +67,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action CollectionChanged
 	{
 		[Token(Token = "0x6000405")]
-		[Address(RVA = "0x2DB8210", Offset = "0x2DB6810", VA = "0x182DB8210", Slot = "21")]
+		[Address(RVA = "0x67A3060", Offset = "0x67A2060", VA = "0x67A3060", Slot = "21")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000406")]
-		[Address(RVA = "0x2DB8410", Offset = "0x2DB6A10", VA = "0x182DB8410", Slot = "22")]
+		[Address(RVA = "0x67A30F0", Offset = "0x67A20F0", VA = "0x67A30F0", Slot = "22")]
 		[CompilerGenerated]
 		remove
 		{
@@ -86,7 +86,7 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	}
 
 	[Token(Token = "0x6000408")]
-	[Address(RVA = "0x2DB81D0", Offset = "0x2DB67D0", VA = "0x182DB81D0")]
+	[Address(RVA = "0x6797B20", Offset = "0x6796B20", VA = "0x6797B20")]
 	public MergedGraphElementCollection()
 	{
 	}

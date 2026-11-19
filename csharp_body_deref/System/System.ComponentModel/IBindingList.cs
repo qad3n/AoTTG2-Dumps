@@ -10,90 +10,90 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001A2")]
+[Token(Token = "0x2000163")]
 public interface IBindingList : IList, ICollection, IEnumerable
 {
-	[Token(Token = "0x17000215")]
+	[Token(Token = "0x170001E6")]
 	bool AllowNew
 	{
-		[Token(Token = "0x6000AB5")]
+		[Token(Token = "0x60008F5")]
 		get;
 	}
 
-	[Token(Token = "0x17000216")]
+	[Token(Token = "0x170001E7")]
 	bool AllowEdit
 	{
-		[Token(Token = "0x6000AB7")]
+		[Token(Token = "0x60008F7")]
 		get;
 	}
 
-	[Token(Token = "0x17000217")]
+	[Token(Token = "0x170001E8")]
 	bool AllowRemove
 	{
-		[Token(Token = "0x6000AB8")]
+		[Token(Token = "0x60008F8")]
 		get;
 	}
 
-	[Token(Token = "0x17000218")]
+	[Token(Token = "0x170001E9")]
 	bool SupportsChangeNotification
 	{
-		[Token(Token = "0x6000AB9")]
+		[Token(Token = "0x60008F9")]
 		get;
 	}
 
-	[Token(Token = "0x17000219")]
+	[Token(Token = "0x170001EA")]
 	bool SupportsSearching
 	{
-		[Token(Token = "0x6000ABA")]
+		[Token(Token = "0x60008FA")]
 		get;
 	}
 
-	[Token(Token = "0x1700021A")]
+	[Token(Token = "0x170001EB")]
 	bool SupportsSorting
 	{
-		[Token(Token = "0x6000ABB")]
+		[Token(Token = "0x60008FB")]
 		get;
 	}
 
-	[Token(Token = "0x1700021B")]
+	[Token(Token = "0x170001EC")]
 	bool IsSorted
 	{
-		[Token(Token = "0x6000ABC")]
+		[Token(Token = "0x60008FC")]
 		get;
 	}
 
-	[Token(Token = "0x1700021C")]
+	[Token(Token = "0x170001ED")]
 	PropertyDescriptor SortProperty
 	{
-		[Token(Token = "0x6000ABD")]
+		[Token(Token = "0x60008FD")]
 		get;
 	}
 
-	[Token(Token = "0x1700021D")]
+	[Token(Token = "0x170001EE")]
 	ListSortDirection SortDirection
 	{
-		[Token(Token = "0x6000ABE")]
+		[Token(Token = "0x60008FE")]
 		get;
 	}
 
 	[Token(Token = "0x14000007")]
 	event ListChangedEventHandler ListChanged;
 
-	[Token(Token = "0x6000AB6")]
+	[Token(Token = "0x60008F6")]
 	object AddNew();
 
-	[Token(Token = "0x6000AC1")]
+	[Token(Token = "0x6000901")]
 	void AddIndex(PropertyDescriptor property);
 
-	[Token(Token = "0x6000AC2")]
+	[Token(Token = "0x6000902")]
 	void ApplySort(PropertyDescriptor property, ListSortDirection direction);
 
-	[Token(Token = "0x6000AC3")]
+	[Token(Token = "0x6000903")]
 	int Find(PropertyDescriptor property, object key);
 
-	[Token(Token = "0x6000AC4")]
+	[Token(Token = "0x6000904")]
 	void RemoveIndex(PropertyDescriptor property);
 
-	[Token(Token = "0x6000AC5")]
+	[Token(Token = "0x6000905")]
 	void RemoveSort();
 }

@@ -13,40 +13,40 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000230")]
+[Token(Token = "0x20001F1")]
 internal class RuntimeLicenseContext : LicenseContext
 {
-	[Token(Token = "0x400080D")]
+	[Token(Token = "0x400073E")]
 	[FieldOffset(Offset = "0x0")]
 	private static TraceSwitch s_runtimeLicenseContextSwitch;
 
-	[Token(Token = "0x400080E")]
+	[Token(Token = "0x400073F")]
 	[FieldOffset(Offset = "0x10")]
 	internal Hashtable savedLicenseKeys;
 
-	[Token(Token = "0x6000F54")]
-	[Address(RVA = "0x28DB430", Offset = "0x28D9A30", VA = "0x1828DB430")]
+	[Token(Token = "0x6000D94")]
+	[Address(RVA = "0x627C960", Offset = "0x627B960", VA = "0x627C960")]
 	private string GetLocalPath(string fileName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F55")]
-	[Address(RVA = "0x28DB4B0", Offset = "0x28D9AB0", VA = "0x1828DB4B0", Slot = "6")]
+	[Token(Token = "0x6000D95")]
+	[Address(RVA = "0x627C9E0", Offset = "0x627B9E0", VA = "0x627C9E0", Slot = "6")]
 	public override string GetSavedLicenseKey(Type type, Assembly resourceAssembly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F56")]
-	[Address(RVA = "0x28DB240", Offset = "0x28D9840", VA = "0x1828DB240")]
+	[Token(Token = "0x6000D96")]
+	[Address(RVA = "0x627CF90", Offset = "0x627BF90", VA = "0x627CF90")]
 	private Stream CaseInsensitiveManifestResourceStreamLookup(Assembly satellite, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F57")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000D97")]
+	[Address(RVA = "0x627D3B0", Offset = "0x627C3B0", VA = "0x627D3B0")]
 	public RuntimeLicenseContext()
 	{
 	}

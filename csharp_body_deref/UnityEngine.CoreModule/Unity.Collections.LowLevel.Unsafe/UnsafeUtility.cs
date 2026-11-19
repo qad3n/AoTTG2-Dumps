@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,12 +25,12 @@ public static class UnsafeUtility
 		[FieldOffset(Offset = "0x0")]
 		internal static readonly int flags;
 
-		[Token(Token = "0x6000190")]
+		[Token(Token = "0x6000192")]
 		static TypeFlagsCache()
 		{
 		}
 
-		[Token(Token = "0x6000191")]
+		[Token(Token = "0x6000193")]
 		[BurstDiscard]
 		private static void Init(ref int flags)
 		{
@@ -49,30 +49,30 @@ public static class UnsafeUtility
 		public T data;
 	}
 
-	[Token(Token = "0x6000162")]
+	[Token(Token = "0x6000164")]
 	public static bool IsBlittable<T>() where T : struct
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x2ED6920", Offset = "0x2ED4F20", VA = "0x182ED6920")]
-	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.AIModule" })]
-	[BurstAuthorizedExternalMethod]
+	[Token(Token = "0x6000165")]
+	[Address(RVA = "0x68B7D50", Offset = "0x68B6D50", VA = "0x68B7D50")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = false)]
+	[BurstAuthorizedExternalMethod]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.AIModule" })]
 	internal static extern int LeakRecord(IntPtr handle, LeakCategory category, int callstacksToSkip);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x2ED68E0", Offset = "0x2ED4EE0", VA = "0x182ED68E0")]
-	[UnityEngine.Bindings.ThreadSafe(ThrowsException = false)]
-	[BurstAuthorizedExternalMethod]
+	[Token(Token = "0x6000166")]
+	[Address(RVA = "0x68B7D90", Offset = "0x68B6D90", VA = "0x68B7D90")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.AIModule" })]
+	[BurstAuthorizedExternalMethod]
+	[UnityEngine.Bindings.ThreadSafe(ThrowsException = false)]
 	internal static extern int LeakErase(IntPtr handle, LeakCategory category);
 
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x2ED6970", Offset = "0x2ED4F70", VA = "0x182ED6970")]
+	[Token(Token = "0x6000167")]
+	[Address(RVA = "0x68B7DD0", Offset = "0x68B6DD0", VA = "0x68B7DD0")]
 	public unsafe static void* MallocTracked(long size, int alignment, Allocator allocator, int callstacksToSkip)
 	{
 		//IL_0002: Expected I, but got O
@@ -80,27 +80,27 @@ public static class UnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x2ED69D0", Offset = "0x2ED4FD0", VA = "0x182ED69D0")]
+	[Token(Token = "0x6000168")]
+	[Address(RVA = "0x68B7E20", Offset = "0x68B6E20", VA = "0x68B7E20")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	internal unsafe static extern void* MallocTracked(long size, int alignment, Allocator allocator, int callstacksToSkip, IntPtr label);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x2ED6450", Offset = "0x2ED4A50", VA = "0x182ED6450")]
+	[Token(Token = "0x6000169")]
+	[Address(RVA = "0x68B7AE0", Offset = "0x68B6AE0", VA = "0x68B7AE0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void FreeTracked(void* memory, Allocator allocator);
 
-	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x2ED6AD0", Offset = "0x2ED50D0", VA = "0x182ED6AD0")]
+	[Token(Token = "0x600016A")]
+	[Address(RVA = "0x68B7E70", Offset = "0x68B6E70", VA = "0x68B7E70")]
 	public unsafe static void* Malloc(long size, int alignment, Allocator allocator)
 	{
 		//IL_0002: Expected I, but got O
 		return (void*)unchecked((nint)null);
 	}
 
-	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x2ED6A70", Offset = "0x2ED5070", VA = "0x182ED6A70")]
+	[Token(Token = "0x600016B")]
+	[Address(RVA = "0x68B7F00", Offset = "0x68B6F00", VA = "0x68B7F00")]
 	public unsafe static void* Malloc(long size, int alignment, MemoryLabel label)
 	{
 		//IL_0002: Expected I, but got O
@@ -108,185 +108,185 @@ public static class UnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x2ED6A20", Offset = "0x2ED5020", VA = "0x182ED6A20")]
+	[Token(Token = "0x600016C")]
+	[Address(RVA = "0x68B7EB0", Offset = "0x68B6EB0", VA = "0x68B7EB0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	private unsafe static extern void* Malloc(long size, int alignment, Allocator allocator, IntPtr label);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x2ED64E0", Offset = "0x2ED4AE0", VA = "0x182ED64E0")]
+	[Token(Token = "0x600016D")]
+	[Address(RVA = "0x68B7F50", Offset = "0x68B6F50", VA = "0x68B7F50")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void Free(void* memory, Allocator allocator);
 
-	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x2ED6490", Offset = "0x2ED4A90", VA = "0x182ED6490")]
+	[Token(Token = "0x600016E")]
+	[Address(RVA = "0x68B7F90", Offset = "0x68B6F90", VA = "0x68B7F90")]
 	public unsafe static void Free(void* memory, MemoryLabel label)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x2ED6C80", Offset = "0x2ED5280", VA = "0x182ED6C80")]
+	[Token(Token = "0x600016F")]
+	[Address(RVA = "0x68B6830", Offset = "0x68B5830", VA = "0x68B6830")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemCpy(void* destination, void* source, long size);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x2ED6BE0", Offset = "0x2ED51E0", VA = "0x182ED6BE0")]
+	[Token(Token = "0x6000170")]
+	[Address(RVA = "0x68B7FD0", Offset = "0x68B6FD0", VA = "0x68B7FD0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemCpyReplicate(void* destination, void* source, int size, int count);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x2ED6C30", Offset = "0x2ED5230", VA = "0x182ED6C30")]
+	[Token(Token = "0x6000171")]
+	[Address(RVA = "0x68B8020", Offset = "0x68B7020", VA = "0x68B8020")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemCpyStride(void* destination, int destinationStride, void* source, int sourceStride, int elementSize, int count);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x2ED6CE0", Offset = "0x2ED52E0", VA = "0x182ED6CE0")]
+	[Token(Token = "0x6000172")]
+	[Address(RVA = "0x68B8080", Offset = "0x68B7080", VA = "0x68B8080")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemMove(void* destination, void* source, long size);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x2ED6D40", Offset = "0x2ED5340", VA = "0x182ED6D40")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x68B80C0", Offset = "0x68B70C0", VA = "0x68B80C0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemSet(void* destination, byte value, long size);
 
-	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x2ED6B30", Offset = "0x2ED5130", VA = "0x182ED6B30")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x68B8100", Offset = "0x68B7100", VA = "0x68B8100")]
 	public unsafe static void MemClear(void* destination, long size)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x2ED6B80", Offset = "0x2ED5180", VA = "0x182ED6B80")]
+	[Token(Token = "0x6000175")]
+	[Address(RVA = "0x68B8140", Offset = "0x68B7140", VA = "0x68B8140")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern int MemCmp(void* ptr1, void* ptr2, long size);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x2ED6DA0", Offset = "0x2ED53A0", VA = "0x182ED6DA0")]
+	[Token(Token = "0x6000176")]
+	[Address(RVA = "0x68B8180", Offset = "0x68B7180", VA = "0x68B8180")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern int SizeOf(Type type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000175")]
-	[Address(RVA = "0x2ED68A0", Offset = "0x2ED4EA0", VA = "0x182ED68A0")]
+	[Token(Token = "0x6000177")]
+	[Address(RVA = "0x68B81B0", Offset = "0x68B71B0", VA = "0x68B81B0")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern bool IsBlittable(Type type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000176")]
-	[Address(RVA = "0x2ED6770", Offset = "0x2ED4D70", VA = "0x182ED6770")]
+	[Token(Token = "0x6000178")]
+	[Address(RVA = "0x68B81E0", Offset = "0x68B71E0", VA = "0x68B81E0")]
 	[UnityEngine.Bindings.ThreadSafe]
 	internal static extern int GetScriptingTypeFlags(Type type);
 
-	[Token(Token = "0x6000177")]
-	[Address(RVA = "0x2ED6840", Offset = "0x2ED4E40", VA = "0x182ED6840")]
+	[Token(Token = "0x6000179")]
+	[Address(RVA = "0x68B8210", Offset = "0x68B7210", VA = "0x68B8210")]
 	private static bool IsBlittableValueType(Type t)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x2ED6580", Offset = "0x2ED4B80", VA = "0x182ED6580")]
+	[Token(Token = "0x600017A")]
+	[Address(RVA = "0x68B8260", Offset = "0x68B7260", VA = "0x68B8260")]
 	private static string GetReasonForTypeNonBlittableImpl(Type t, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x2ED67B0", Offset = "0x2ED4DB0", VA = "0x182ED67B0")]
+	[Token(Token = "0x600017B")]
+	[Address(RVA = "0x68B8470", Offset = "0x68B7470", VA = "0x68B8470")]
 	internal static bool IsArrayBlittable(Array arr)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017A")]
+	[Token(Token = "0x600017C")]
 	internal static bool IsGenericListBlittable<T>() where T : struct
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x2ED6520", Offset = "0x2ED4B20", VA = "0x182ED6520")]
+	[Token(Token = "0x600017D")]
+	[Address(RVA = "0x68B84E0", Offset = "0x68B74E0", VA = "0x68B84E0")]
 	internal static string GetReasonForArrayNonBlittable(Array arr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600017C")]
+	[Token(Token = "0x600017E")]
 	internal static string GetReasonForGenericListNonBlittable<T>() where T : struct
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600017D")]
+	[Token(Token = "0x600017F")]
 	public static bool IsUnmanaged<T>()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017E")]
+	[Token(Token = "0x6000180")]
 	public static int AlignOf<T>() where T : struct
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600017F")]
+	[Token(Token = "0x6000181")]
 	public unsafe static void CopyPtrToStructure<T>(void* ptr, out T output) where T : struct
 	{
 	}
 
-	[Token(Token = "0x6000180")]
+	[Token(Token = "0x6000182")]
 	private unsafe static void InternalCopyPtrToStructure<T>(void* ptr, out T output) where T : struct
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000181")]
+	[Token(Token = "0x6000183")]
 	public unsafe static void CopyStructureToPtr<T>(ref T input, void* ptr) where T : struct
 	{
 	}
 
-	[Token(Token = "0x6000182")]
+	[Token(Token = "0x6000184")]
 	private unsafe static void InternalCopyStructureToPtr<T>(ref T input, void* ptr) where T : struct
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000183")]
+	[Token(Token = "0x6000185")]
 	public unsafe static T ReadArrayElement<T>(void* source, int index)
 	{
 		return (T)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000184")]
+	[Token(Token = "0x6000186")]
 	public unsafe static T ReadArrayElementWithStride<T>(void* source, int index, int stride)
 	{
 		return (T)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000185")]
+	[Token(Token = "0x6000187")]
 	public unsafe static void WriteArrayElement<T>(void* destination, int index, T value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000186")]
+	[Token(Token = "0x6000188")]
 	public unsafe static void WriteArrayElementWithStride<T>(void* destination, int index, int stride, T value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000187")]
+	[Token(Token = "0x6000189")]
 	public unsafe static void* AddressOf<T>(ref T output) where T : struct
 	{
 		//IL_0002: Expected I, but got O
@@ -294,54 +294,54 @@ public static class UnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000188")]
+	[Token(Token = "0x600018A")]
 	public static int SizeOf<T>() where T : struct
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000189")]
+	[Token(Token = "0x600018B")]
 	public unsafe static ref T As<U, T>(ref U from)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x600018A")]
+	[Token(Token = "0x600018C")]
 	internal static T As<T>(object from) where T : class
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600018B")]
+	[Token(Token = "0x600018D")]
 	public unsafe static ref T AsRef<T>(void* ptr) where T : struct
 	{
 		return ref *(T*)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600018C")]
+	[Token(Token = "0x600018E")]
 	public unsafe static ref T ArrayElementAsRef<T>(void* ptr, int index) where T : struct
 	{
 		return ref *(T*)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600018D")]
+	[Token(Token = "0x600018F")]
 	public static int EnumToInt<T>(T enumValue) where T : struct, IConvertible
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600018E")]
+	[Token(Token = "0x6000190")]
 	private static void InternalEnumToInt<T>(ref T enumValue, ref int intValue)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600018F")]
+	[Token(Token = "0x6000191")]
 	public static bool EnumEquals<T>(T lhs, T rhs) where T : struct, IConvertible
 	{
 		return default(bool);

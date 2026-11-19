@@ -27,17 +27,17 @@ public class BoolParameter : VolumeParameter<bool>
 
 	[NonSerialized]
 	[Token(Token = "0x400098D")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x14")]
 	public DisplayType displayType;
 
 	[Token(Token = "0x6000F16")]
-	[Address(RVA = "0x2B4FDE0", Offset = "0x2B4E3E0", VA = "0x182B4FDE0")]
+	[Address(RVA = "0x6555350", Offset = "0x6554350", VA = "0x6555350")]
 	public BoolParameter(bool value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F17")]
-	[Address(RVA = "0x2B4FE40", Offset = "0x2B4E440", VA = "0x182B4FE40")]
+	[Address(RVA = "0x65553A0", Offset = "0x65543A0", VA = "0x65553A0")]
 	public BoolParameter(bool value, DisplayType displayType, bool overrideState = false)
 	{
 	}

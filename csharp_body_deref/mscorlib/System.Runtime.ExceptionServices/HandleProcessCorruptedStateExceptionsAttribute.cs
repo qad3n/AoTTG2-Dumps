@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ExceptionServices;
 
-[Token(Token = "0x200048B")]
+[Token(Token = "0x2000464")]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
 public sealed class HandleProcessCorruptedStateExceptionsAttribute : Attribute
 {
-	[Token(Token = "0x60022C3")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6002290")]
+	[Address(RVA = "0x53C7DA0", Offset = "0x53C6DA0", VA = "0x53C7DA0")]
 	public HandleProcessCorruptedStateExceptionsAttribute()
 	{
 	}

@@ -14,32 +14,32 @@ namespace UnityEngine.Experimental.Rendering;
 [Obsolete("Use GraphicsFormatUsage instead", false)]
 public enum FormatUsage
 {
-	[Token(Token = "0x4000D38")]
+	[Token(Token = "0x4000D36")]
 	Sample = 0,
-	[Token(Token = "0x4000D39")]
+	[Token(Token = "0x4000D37")]
 	Linear = 1,
-	[Token(Token = "0x4000D3A")]
+	[Token(Token = "0x4000D38")]
 	Sparse = 2,
-	[Token(Token = "0x4000D3B")]
+	[Token(Token = "0x4000D39")]
 	Render = 4,
-	[Token(Token = "0x4000D3C")]
+	[Token(Token = "0x4000D3A")]
 	Blend = 5,
-	[Token(Token = "0x4000D3D")]
+	[Token(Token = "0x4000D3B")]
 	GetPixels = 6,
-	[Token(Token = "0x4000D3E")]
+	[Token(Token = "0x4000D3C")]
 	SetPixels = 7,
-	[Token(Token = "0x4000D3F")]
+	[Token(Token = "0x4000D3D")]
 	SetPixels32 = 8,
-	[Token(Token = "0x4000D40")]
+	[Token(Token = "0x4000D3E")]
 	ReadPixels = 9,
-	[Token(Token = "0x4000D41")]
+	[Token(Token = "0x4000D3F")]
 	LoadStore = 10,
-	[Token(Token = "0x4000D42")]
+	[Token(Token = "0x4000D40")]
 	MSAA2x = 11,
-	[Token(Token = "0x4000D43")]
+	[Token(Token = "0x4000D41")]
 	MSAA4x = 12,
-	[Token(Token = "0x4000D44")]
+	[Token(Token = "0x4000D42")]
 	MSAA8x = 13,
-	[Token(Token = "0x4000D45")]
+	[Token(Token = "0x4000D43")]
 	StencilSampling = 16
 }

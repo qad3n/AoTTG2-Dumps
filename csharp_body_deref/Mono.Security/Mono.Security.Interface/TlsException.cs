@@ -10,33 +10,21 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000033")]
 public sealed class TlsException : Exception
 {
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x40001F5")]
 	[FieldOffset(Offset = "0x90")]
 	private Alert alert;
 
-	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x193D950", Offset = "0x193BF50", VA = "0x18193D950")]
-	public TlsException(Alert alert)
-	{
-	}
-
-	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x193D7A0", Offset = "0x193BDA0", VA = "0x18193D7A0")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x52C8560", Offset = "0x52C7560", VA = "0x52C8560")]
 	public TlsException(Alert alert, string message)
 	{
 	}
 
-	[Token(Token = "0x600017D")]
-	[Address(RVA = "0x193D890", Offset = "0x193BE90", VA = "0x18193D890")]
-	public TlsException(AlertDescription description)
-	{
-	}
-
-	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x193D820", Offset = "0x193BE20", VA = "0x18193D820")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x52C85D0", Offset = "0x52C75D0", VA = "0x52C85D0")]
 	public TlsException(AlertDescription description, string message)
 	{
 	}

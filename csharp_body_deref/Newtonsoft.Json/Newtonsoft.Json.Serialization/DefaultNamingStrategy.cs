@@ -13,14 +13,14 @@ namespace Newtonsoft.Json.Serialization;
 public class DefaultNamingStrategy : NamingStrategy
 {
 	[Token(Token = "0x600079F")]
-	[Address(RVA = "0x8E13A0", Offset = "0x8DF9A0", VA = "0x1808E13A0", Slot = "7")]
+	[Address(RVA = "0x55CDD70", Offset = "0x55CCD70", VA = "0x55CDD70", Slot = "7")]
 	protected override string ResolvePropertyName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x55CDD80", Offset = "0x55CCD80", VA = "0x55CDD80")]
 	public DefaultNamingStrategy()
 	{
 	}

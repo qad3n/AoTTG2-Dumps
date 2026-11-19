@@ -40,7 +40,7 @@ internal class DynamicAtlas : AtlasBase
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x3096D00", Offset = "0x3095300", VA = "0x183096D00")]
+		[Address(RVA = "0x6A7AA60", Offset = "0x6A79A60", VA = "0x6A7AA60")]
 		private static TextureInfo Create()
 		{
 			return null;
@@ -48,13 +48,13 @@ internal class DynamicAtlas : AtlasBase
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x3096D70", Offset = "0x3095370", VA = "0x183096D70")]
+		[Address(RVA = "0x6A7AB10", Offset = "0x6A79B10", VA = "0x6A7AB10")]
 		private static void Reset(TextureInfo info)
 		{
 		}
 
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x3096EE0", Offset = "0x30954E0", VA = "0x183096EE0")]
+		[Address(RVA = "0x6A7AAD0", Offset = "0x6A79AD0", VA = "0x6A7AAD0")]
 		public TextureInfo()
 		{
 		}
@@ -104,7 +104,7 @@ internal class DynamicAtlas : AtlasBase
 	internal bool isInitialized
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x3091870", Offset = "0x308FE70", VA = "0x183091870")]
+		[Address(RVA = "0x6A79DC0", Offset = "0x6A78DC0", VA = "0x6A79DC0")]
 		get
 		{
 			return default(bool);
@@ -115,7 +115,7 @@ internal class DynamicAtlas : AtlasBase
 	public int minAtlasSize
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x3091940", Offset = "0x308FF40", VA = "0x183091940")]
+		[Address(RVA = "0x6A7A8B0", Offset = "0x6A798B0", VA = "0x6A7A8B0")]
 		set
 		{
 		}
@@ -125,7 +125,7 @@ internal class DynamicAtlas : AtlasBase
 	public int maxAtlasSize
 	{
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x3091900", Offset = "0x308FF00", VA = "0x183091900")]
+		[Address(RVA = "0x6A7A8D0", Offset = "0x6A798D0", VA = "0x6A7A8D0")]
 		set
 		{
 		}
@@ -135,7 +135,7 @@ internal class DynamicAtlas : AtlasBase
 	public static DynamicAtlasFilters defaultFilters
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x26C39F0", Offset = "0x26C1FF0", VA = "0x1826C39F0")]
+		[Address(RVA = "0x6A7A8F0", Offset = "0x6A798F0", VA = "0x6A7A8F0")]
 		get
 		{
 			return default(DynamicAtlasFilters);
@@ -146,7 +146,7 @@ internal class DynamicAtlas : AtlasBase
 	public DynamicAtlasFilters activeFilters
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x3091890", Offset = "0x308FE90", VA = "0x183091890")]
+		[Address(RVA = "0x6A7A900", Offset = "0x6A79900", VA = "0x6A7A900")]
 		set
 		{
 		}
@@ -156,13 +156,13 @@ internal class DynamicAtlas : AtlasBase
 	public int maxSubTextureSize
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x2E926C0", Offset = "0x2E90CC0", VA = "0x182E926C0")]
+		[Address(RVA = "0x6A7A8A0", Offset = "0x6A798A0", VA = "0x6A7A8A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3091920", Offset = "0x308FF20", VA = "0x183091920")]
+		[Address(RVA = "0x6A7A920", Offset = "0x6A79920", VA = "0x6A7A920")]
 		set
 		{
 		}
@@ -172,77 +172,77 @@ internal class DynamicAtlas : AtlasBase
 	public DynamicAtlasCustomFilter customFilter
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x30918B0", Offset = "0x308FEB0", VA = "0x1830918B0")]
+		[Address(RVA = "0x6A7A940", Offset = "0x6A79940", VA = "0x6A7A940")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x3090CC0", Offset = "0x308F2C0", VA = "0x183090CC0", Slot = "7")]
+	[Address(RVA = "0x6A79DE0", Offset = "0x6A78DE0", VA = "0x6A79DE0", Slot = "7")]
 	protected override void OnAssignedToPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x3090D90", Offset = "0x308F390", VA = "0x183090D90", Slot = "8")]
+	[Address(RVA = "0x6A79EA0", Offset = "0x6A78EA0", VA = "0x6A79EA0", Slot = "8")]
 	protected override void OnRemovedFromPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x3090EA0", Offset = "0x308F4A0", VA = "0x183090EA0", Slot = "6")]
+	[Address(RVA = "0x6A79FD0", Offset = "0x6A78FD0", VA = "0x6A79FD0", Slot = "6")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x3090920", Offset = "0x308EF20", VA = "0x183090920")]
+	[Address(RVA = "0x6A7A080", Offset = "0x6A79080", VA = "0x6A7A080")]
 	private void InitPages()
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x3090890", Offset = "0x308EE90", VA = "0x183090890")]
+	[Address(RVA = "0x6A79F30", Offset = "0x6A78F30", VA = "0x6A79F30")]
 	private void DestroyPages()
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x3091180", Offset = "0x308F780", VA = "0x183091180", Slot = "4")]
+	[Address(RVA = "0x6A7A1B0", Offset = "0x6A791B0", VA = "0x6A7A1B0", Slot = "4")]
 	public override bool TryGetAtlas(VisualElement ve, Texture2D src, out TextureId atlas, out RectInt atlasRect)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x3091020", Offset = "0x308F620", VA = "0x183091020", Slot = "5")]
+	[Address(RVA = "0x6A7A580", Offset = "0x6A79580", VA = "0x6A7A580", Slot = "5")]
 	public override void ReturnAtlas(VisualElement ve, Texture2D src, TextureId atlas)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x3090E20", Offset = "0x308F420", VA = "0x183090E20", Slot = "9")]
+	[Address(RVA = "0x6A7A6D0", Offset = "0x6A796D0", VA = "0x6A7A6D0", Slot = "9")]
 	protected override void OnUpdateDynamicTextures(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x3090A70", Offset = "0x308F070", VA = "0x183090A70")]
+	[Address(RVA = "0x6A7A740", Offset = "0x6A79740", VA = "0x6A7A740")]
 	internal static bool IsTextureFormatSupported(TextureFormat format)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3090B00", Offset = "0x308F100", VA = "0x183090B00", Slot = "10")]
+	[Address(RVA = "0x6A7A760", Offset = "0x6A79760", VA = "0x6A7A760", Slot = "10")]
 	public virtual bool IsTextureValid(Texture2D texture, FilterMode atlasFilterMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x3091710", Offset = "0x308FD10", VA = "0x183091710")]
+	[Address(RVA = "0x6A7A990", Offset = "0x6A79990", VA = "0x6A7A990")]
 	public DynamicAtlas()
 	{
 	}

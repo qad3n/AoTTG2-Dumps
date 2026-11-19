@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Tab
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ public class Tab : VisualElement
 	public new class UxmlFactory : UxmlFactory<Tab, UxmlTraits>
 	{
 		[Token(Token = "0x60009BB")]
-		[Address(RVA = "0x323B000", Offset = "0x3239600", VA = "0x18323B000")]
+		[Address(RVA = "0x6C3B8F0", Offset = "0x6C3A8F0", VA = "0x6C3B8F0")]
 		public UxmlFactory()
 		{
 		}
@@ -44,13 +44,13 @@ public class Tab : VisualElement
 		private readonly UxmlBoolAttributeDescription m_Closeable;
 
 		[Token(Token = "0x60009BC")]
-		[Address(RVA = "0x323B560", Offset = "0x3239B60", VA = "0x18323B560", Slot = "4")]
+		[Address(RVA = "0x6C3B930", Offset = "0x6C3A930", VA = "0x6C3B930", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60009BD")]
-		[Address(RVA = "0x323D000", Offset = "0x323B600", VA = "0x18323D000")]
+		[Address(RVA = "0x6C3BAF0", Offset = "0x6C3AAF0", VA = "0x6C3BAF0")]
 		public UxmlTraits()
 		{
 		}
@@ -130,20 +130,20 @@ public class Tab : VisualElement
 
 	[Token(Token = "0x400061F")]
 	[FieldOffset(Offset = "0x2C8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<Tab> m_selected;
 
 	[Token(Token = "0x4000620")]
 	[FieldOffset(Offset = "0x2D0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Func<bool> closing;
 
 	[Token(Token = "0x4000621")]
 	[FieldOffset(Offset = "0x2D8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private Action<Tab> m_closed;
 
 	[Token(Token = "0x4000622")]
@@ -184,15 +184,15 @@ public class Tab : VisualElement
 
 	[Token(Token = "0x400062B")]
 	[FieldOffset(Offset = "0x340")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly TabDragger _003Cdragger_003Ek__BackingField;
 
 	[Token(Token = "0x170001C8")]
 	public VisualElement tabHeader
 	{
 		[Token(Token = "0x60009A3")]
-		[Address(RVA = "0x100AEA0", Offset = "0x10094A0", VA = "0x18100AEA0")]
+		[Address(RVA = "0x6C39BB0", Offset = "0x6C38BB0", VA = "0x6C39BB0")]
 		get
 		{
 			return null;
@@ -203,14 +203,14 @@ public class Tab : VisualElement
 	internal int index
 	{
 		[Token(Token = "0x60009A4")]
-		[Address(RVA = "0x323A0A0", Offset = "0x32386A0", VA = "0x18323A0A0")]
+		[Address(RVA = "0x6C39BC0", Offset = "0x6C38BC0", VA = "0x6C39BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60009A5")]
-		[Address(RVA = "0x323A680", Offset = "0x3238C80", VA = "0x18323A680")]
+		[Address(RVA = "0x6C39BD0", Offset = "0x6C38BD0", VA = "0x6C39BD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -222,13 +222,13 @@ public class Tab : VisualElement
 	public string label
 	{
 		[Token(Token = "0x60009A6")]
-		[Address(RVA = "0x2D076E0", Offset = "0x2D05CE0", VA = "0x182D076E0")]
+		[Address(RVA = "0x6C39BE0", Offset = "0x6C38BE0", VA = "0x6C39BE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009A7")]
-		[Address(RVA = "0x323A690", Offset = "0x3238C90", VA = "0x18323A690")]
+		[Address(RVA = "0x6C39BF0", Offset = "0x6C38BF0", VA = "0x6C39BF0")]
 		set
 		{
 		}
@@ -239,13 +239,13 @@ public class Tab : VisualElement
 	public Background iconImage
 	{
 		[Token(Token = "0x60009A8")]
-		[Address(RVA = "0x323A080", Offset = "0x3238680", VA = "0x18323A080")]
+		[Address(RVA = "0x6C39D40", Offset = "0x6C38D40", VA = "0x6C39D40")]
 		get
 		{
 			return default(Background);
 		}
 		[Token(Token = "0x60009A9")]
-		[Address(RVA = "0x323A320", Offset = "0x3238920", VA = "0x18323A320")]
+		[Address(RVA = "0x6C39D60", Offset = "0x6C38D60", VA = "0x6C39D60")]
 		set
 		{
 		}
@@ -256,13 +256,13 @@ public class Tab : VisualElement
 	public bool closeable
 	{
 		[Token(Token = "0x60009AA")]
-		[Address(RVA = "0x323A070", Offset = "0x3238670", VA = "0x18323A070")]
+		[Address(RVA = "0x6C3A0A0", Offset = "0x6C390A0", VA = "0x6C3A0A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009AB")]
-		[Address(RVA = "0x323A210", Offset = "0x3238810", VA = "0x18323A210")]
+		[Address(RVA = "0x6C3A0B0", Offset = "0x6C390B0", VA = "0x6C3A0B0")]
 		set
 		{
 		}
@@ -272,7 +272,7 @@ public class Tab : VisualElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60009AC")]
-		[Address(RVA = "0x32036F0", Offset = "0x3201CF0", VA = "0x1832036F0", Slot = "138")]
+		[Address(RVA = "0x6C3A220", Offset = "0x6C39220", VA = "0x6C3A220", Slot = "138")]
 		get
 		{
 			return null;
@@ -283,13 +283,13 @@ public class Tab : VisualElement
 	public event Action<Tab> selected
 	{
 		[Token(Token = "0x600099F")]
-		[Address(RVA = "0x3239FC0", Offset = "0x32385C0", VA = "0x183239FC0")]
+		[Address(RVA = "0x6C398F0", Offset = "0x6C388F0", VA = "0x6C398F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60009A0")]
-		[Address(RVA = "0x323A160", Offset = "0x3238760", VA = "0x18323A160")]
+		[Address(RVA = "0x6C399A0", Offset = "0x6C389A0", VA = "0x6C399A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -300,13 +300,13 @@ public class Tab : VisualElement
 	public event Action<Tab> closed
 	{
 		[Token(Token = "0x60009A1")]
-		[Address(RVA = "0x3239F10", Offset = "0x3238510", VA = "0x183239F10")]
+		[Address(RVA = "0x6C39A50", Offset = "0x6C38A50", VA = "0x6C39A50")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60009A2")]
-		[Address(RVA = "0x323A0B0", Offset = "0x32386B0", VA = "0x18323A0B0")]
+		[Address(RVA = "0x6C39B00", Offset = "0x6C38B00", VA = "0x6C39B00")]
 		[CompilerGenerated]
 		remove
 		{
@@ -314,79 +314,79 @@ public class Tab : VisualElement
 	}
 
 	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x3239EC0", Offset = "0x32384C0", VA = "0x183239EC0")]
+	[Address(RVA = "0x6C3A230", Offset = "0x6C39230", VA = "0x6C3A230")]
 	public Tab()
 	{
 	}
 
 	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x3239050", Offset = "0x3237650", VA = "0x183239050")]
+	[Address(RVA = "0x6C3A270", Offset = "0x6C39270", VA = "0x6C3A270")]
 	public Tab(string label, Background iconImage)
 	{
 	}
 
 	[Token(Token = "0x60009AF")]
-	[Address(RVA = "0x3238710", Offset = "0x3236D10", VA = "0x183238710")]
+	[Address(RVA = "0x6C3AFC0", Offset = "0x6C39FC0", VA = "0x6C3AFC0")]
 	private void UpdateTooltip(TooltipEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60009B0")]
-	[Address(RVA = "0x3238430", Offset = "0x3236A30", VA = "0x183238430")]
+	[Address(RVA = "0x6C3B0A0", Offset = "0x6C3A0A0", VA = "0x6C3B0A0")]
 	private void AddDragHandles()
 	{
 	}
 
 	[Token(Token = "0x60009B1")]
-	[Address(RVA = "0x3238630", Offset = "0x3236C30", VA = "0x183238630")]
+	[Address(RVA = "0x6C3B0D0", Offset = "0x6C3A0D0", VA = "0x6C3B0D0")]
 	private void RemoveDragHandles()
 	{
 	}
 
 	[Token(Token = "0x60009B2")]
-	[Address(RVA = "0x32384D0", Offset = "0x3236AD0", VA = "0x1832384D0")]
+	[Address(RVA = "0x6C3B120", Offset = "0x6C3A120", VA = "0x6C3B120")]
 	internal void EnableTabDragHandles(bool enable)
 	{
 	}
 
 	[Token(Token = "0x60009B3")]
-	[Address(RVA = "0x3238400", Offset = "0x3236A00", VA = "0x183238400")]
+	[Address(RVA = "0x6C3B180", Offset = "0x6C3A180", VA = "0x6C3B180")]
 	private void AddCloseButton()
 	{
 	}
 
 	[Token(Token = "0x60009B4")]
-	[Address(RVA = "0x32385D0", Offset = "0x3236BD0", VA = "0x1832385D0")]
+	[Address(RVA = "0x6C3B1B0", Offset = "0x6C3A1B0", VA = "0x6C3B1B0")]
 	private void RemoveCloseButton()
 	{
 	}
 
 	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x3238460", Offset = "0x3236A60", VA = "0x183238460")]
+	[Address(RVA = "0x6C3A1C0", Offset = "0x6C391C0", VA = "0x6C3A1C0")]
 	internal void EnableTabCloseButton(bool enable)
 	{
 	}
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x3238690", Offset = "0x3236C90", VA = "0x183238690")]
+	[Address(RVA = "0x6C3B200", Offset = "0x6C3A200", VA = "0x6C3B200")]
 	internal void SetActive()
 	{
 	}
 
 	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x32386D0", Offset = "0x3236CD0", VA = "0x1832386D0")]
+	[Address(RVA = "0x6C3B240", Offset = "0x6C3A240", VA = "0x6C3B240")]
 	internal void SetInactive()
 	{
 	}
 
 	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x32385B0", Offset = "0x3236BB0", VA = "0x1832385B0")]
+	[Address(RVA = "0x6C3B270", Offset = "0x6C3A270", VA = "0x6C3B270")]
 	private void OnTabClicked(PointerDownEvent _)
 	{
 	}
 
 	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x3238540", Offset = "0x3236B40", VA = "0x183238540")]
+	[Address(RVA = "0x6C3B290", Offset = "0x6C3A290", VA = "0x6C3B290")]
 	private void OnCloseButtonClicked(PointerDownEvent evt)
 	{
 	}

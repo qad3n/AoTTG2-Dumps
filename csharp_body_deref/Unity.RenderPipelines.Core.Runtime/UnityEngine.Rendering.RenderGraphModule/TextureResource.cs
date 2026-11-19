@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.TextureResource
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ internal class TextureResource : RenderGraphResource<TextureDesc, RTHandle>
 	internal TextureUVOriginSelection textureUVOrigin;
 
 	[Token(Token = "0x60012E4")]
-	[Address(RVA = "0x2BA7BF0", Offset = "0x2BA61F0", VA = "0x182BA7BF0", Slot = "5")]
+	[Address(RVA = "0x6586700", Offset = "0x6585700", VA = "0x6586700", Slot = "5")]
 	public override string GetName()
 	{
 		return null;
@@ -32,45 +32,45 @@ internal class TextureResource : RenderGraphResource<TextureDesc, RTHandle>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012E5")]
-	[Address(RVA = "0x2BA7BE0", Offset = "0x2BA61E0", VA = "0x182BA7BE0", Slot = "18")]
+	[Address(RVA = "0x6586760", Offset = "0x6585760", VA = "0x6586760", Slot = "18")]
 	public override int GetDescHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x2BA7870", Offset = "0x2BA5E70", VA = "0x182BA7870", Slot = "11")]
+	[Address(RVA = "0x6586770", Offset = "0x6585770", VA = "0x6586770", Slot = "11")]
 	public override void CreateGraphicsResource()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60012E7")]
-	[Address(RVA = "0x2BA7DE0", Offset = "0x2BA63E0", VA = "0x182BA7DE0", Slot = "12")]
+	[Address(RVA = "0x6586BD0", Offset = "0x6585BD0", VA = "0x6586BD0", Slot = "12")]
 	public override void UpdateGraphicsResource()
 	{
 	}
 
 	[Token(Token = "0x60012E8")]
-	[Address(RVA = "0x2BA7D90", Offset = "0x2BA6390", VA = "0x182BA7D90", Slot = "14")]
+	[Address(RVA = "0x6586C10", Offset = "0x6585C10", VA = "0x6586C10", Slot = "14")]
 	public override void ReleaseGraphicsResource()
 	{
 	}
 
 	[Token(Token = "0x60012E9")]
-	[Address(RVA = "0x2BA7C60", Offset = "0x2BA6260", VA = "0x182BA7C60", Slot = "15")]
+	[Address(RVA = "0x6586C50", Offset = "0x6585C50", VA = "0x6586C50", Slot = "15")]
 	public override void LogCreation(RenderGraphLogger logger)
 	{
 	}
 
 	[Token(Token = "0x60012EA")]
-	[Address(RVA = "0x2BA7D10", Offset = "0x2BA6310", VA = "0x182BA7D10", Slot = "16")]
+	[Address(RVA = "0x6586D80", Offset = "0x6585D80", VA = "0x6586D80", Slot = "16")]
 	public override void LogRelease(RenderGraphLogger logger)
 	{
 	}
 
 	[Token(Token = "0x60012EB")]
-	[Address(RVA = "0x2BA7E30", Offset = "0x2BA6430", VA = "0x182BA7E30")]
+	[Address(RVA = "0x6586E80", Offset = "0x6585E80", VA = "0x6586E80")]
 	public TextureResource()
 	{
 	}

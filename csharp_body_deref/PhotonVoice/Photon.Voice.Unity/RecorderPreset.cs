@@ -51,13 +51,13 @@ public class RecorderPreset : VoiceComponent
 	public DSP DSPSettings;
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x1D8CA90", Offset = "0x1D8B090", VA = "0x181D8CA90", Slot = "4")]
+	[Address(RVA = "0x5730830", Offset = "0x572F830", VA = "0x5730830", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x1D8D100", Offset = "0x1D8B700", VA = "0x181D8D100")]
+	[Address(RVA = "0x5731020", Offset = "0x5730020", VA = "0x5731020")]
 	public RecorderPreset()
 	{
 	}

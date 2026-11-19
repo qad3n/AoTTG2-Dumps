@@ -1,0 +1,83 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.OperationCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace Photon.Realtime;
+
+[Token(Token = "0x200002C")]
+public class OperationCode
+{
+	[Token(Token = "0x400016B")]
+	[Obsolete("Exchanging encrpytion keys is done internally in the lib now. Don't expect this operation-result.")]
+	public const byte ExchangeKeysForEncryption = 250;
+
+	[Token(Token = "0x400016C")]
+	[Obsolete]
+	public const byte Join = 255;
+
+	[Token(Token = "0x400016D")]
+	public const byte AuthenticateOnce = 231;
+
+	[Token(Token = "0x400016E")]
+	public const byte Authenticate = 230;
+
+	[Token(Token = "0x400016F")]
+	public const byte JoinLobby = 229;
+
+	[Token(Token = "0x4000170")]
+	public const byte LeaveLobby = 228;
+
+	[Token(Token = "0x4000171")]
+	public const byte CreateGame = 227;
+
+	[Token(Token = "0x4000172")]
+	public const byte JoinGame = 226;
+
+	[Token(Token = "0x4000173")]
+	public const byte JoinRandomGame = 225;
+
+	[Token(Token = "0x4000174")]
+	public const byte Leave = 254;
+
+	[Token(Token = "0x4000175")]
+	public const byte RaiseEvent = 253;
+
+	[Token(Token = "0x4000176")]
+	public const byte SetProperties = 252;
+
+	[Token(Token = "0x4000177")]
+	public const byte GetProperties = 251;
+
+	[Token(Token = "0x4000178")]
+	public const byte ChangeGroups = 248;
+
+	[Token(Token = "0x4000179")]
+	public const byte FindFriends = 222;
+
+	[Token(Token = "0x400017A")]
+	public const byte GetLobbyStats = 221;
+
+	[Token(Token = "0x400017B")]
+	public const byte GetRegions = 220;
+
+	[Token(Token = "0x400017C")]
+	public const byte WebRpc = 219;
+
+	[Token(Token = "0x400017D")]
+	public const byte ServerSettings = 218;
+
+	[Token(Token = "0x400017E")]
+	public const byte GetGameList = 217;
+
+	[Token(Token = "0x6000122")]
+	[Address(RVA = "0x56BB530", Offset = "0x56BA530", VA = "0x56BB530")]
+	public OperationCode()
+	{
+	}
+}

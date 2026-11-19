@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001DA")]
+[Token(Token = "0x200019B")]
 public class RefreshEventArgs : EventArgs
 {
-	[Token(Token = "0x17000291")]
+	[Token(Token = "0x17000262")]
 	public object ComponentChanged
 	{
-		[Token(Token = "0x6000CA2")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000AE2")]
+		[Address(RVA = "0x62491C0", Offset = "0x62481C0", VA = "0x62491C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public class RefreshEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x17000292")]
+	[Token(Token = "0x17000263")]
 	public Type TypeChanged
 	{
-		[Token(Token = "0x6000CA3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000AE3")]
+		[Address(RVA = "0x62491D0", Offset = "0x62481D0", VA = "0x62491D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,14 +37,14 @@ public class RefreshEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x6000CA0")]
-	[Address(RVA = "0x28C8D30", Offset = "0x28C7330", VA = "0x1828C8D30")]
+	[Token(Token = "0x6000AE0")]
+	[Address(RVA = "0x62490C0", Offset = "0x62480C0", VA = "0x62490C0")]
 	public RefreshEventArgs(object componentChanged)
 	{
 	}
 
-	[Token(Token = "0x6000CA1")]
-	[Address(RVA = "0x28C8CC0", Offset = "0x28C72C0", VA = "0x1828C8CC0")]
+	[Token(Token = "0x6000AE1")]
+	[Address(RVA = "0x6249150", Offset = "0x6248150", VA = "0x6249150")]
 	public RefreshEventArgs(Type typeChanged)
 	{
 	}

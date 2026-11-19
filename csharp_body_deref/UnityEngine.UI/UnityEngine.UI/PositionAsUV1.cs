@@ -15,13 +15,13 @@ namespace UnityEngine.UI;
 public class PositionAsUV1 : BaseMeshEffect
 {
 	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x6CFFDD0", Offset = "0x6CFEDD0", VA = "0x6CFFDD0")]
 	protected PositionAsUV1()
 	{
 	}
 
 	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x32DAE60", Offset = "0x32D9460", VA = "0x1832DAE60", Slot = "20")]
+	[Address(RVA = "0x6CFFDE0", Offset = "0x6CFEDE0", VA = "0x6CFFDE0", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

@@ -10,15 +10,15 @@ using Utility;
 
 namespace Replay;
 
-[Token(Token = "0x20000FA")]
+[Token(Token = "0x200006E")]
 internal class ReplayScriptOptions : BaseCSVRow
 {
-	[Token(Token = "0x40005C3")]
+	[Token(Token = "0x4000228")]
 	[FieldOffset(Offset = "0x10")]
 	public string Version;
 
-	[Token(Token = "0x60004B8")]
-	[Address(RVA = "0x1F251C0", Offset = "0x1F237C0", VA = "0x181F251C0")]
+	[Token(Token = "0x600031F")]
+	[Address(RVA = "0x576E590", Offset = "0x576D590", VA = "0x576E590")]
 	public ReplayScriptOptions()
 	{
 	}

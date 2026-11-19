@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000621")]
+[Token(Token = "0x20005FC")]
 public interface IEqualityComparer<in T>
 {
-	[Token(Token = "0x6002F18")]
+	[Token(Token = "0x6002EF3")]
 	bool Equals(T x, T y);
 
-	[Token(Token = "0x6002F19")]
+	[Token(Token = "0x6002EF4")]
 	int GetHashCode(T obj);
 }

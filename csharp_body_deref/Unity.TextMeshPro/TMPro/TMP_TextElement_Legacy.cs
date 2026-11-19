@@ -51,7 +51,7 @@ public class TMP_TextElement_Legacy
 	public float scale;
 
 	[Token(Token = "0x6000598")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6739A90", Offset = "0x6738A90", VA = "0x6739A90")]
 	public TMP_TextElement_Legacy()
 	{
 	}

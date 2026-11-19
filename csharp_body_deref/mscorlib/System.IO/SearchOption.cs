@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200068C")]
+[Token(Token = "0x2000666")]
 public enum SearchOption
 {
-	[Token(Token = "0x4001A57")]
+	[Token(Token = "0x40019BD")]
 	TopDirectoryOnly,
-	[Token(Token = "0x4001A58")]
+	[Token(Token = "0x40019BE")]
 	AllDirectories
 }

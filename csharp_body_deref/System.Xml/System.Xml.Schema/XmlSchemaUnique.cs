@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaUnique : XmlSchemaIdentityConstraint
 {
 	[Token(Token = "0x6001696")]
-	[Address(RVA = "0x266CAA0", Offset = "0x266B0A0", VA = "0x18266CAA0")]
+	[Address(RVA = "0x602D2B0", Offset = "0x602C2B0", VA = "0x602D2B0")]
 	public XmlSchemaUnique()
 	{
 	}

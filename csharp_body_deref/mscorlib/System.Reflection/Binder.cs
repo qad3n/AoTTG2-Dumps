@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000500")]
+[Token(Token = "0x20004D9")]
 public abstract class Binder
 {
-	[Token(Token = "0x600245F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600242D")]
+	[Address(RVA = "0x53D7990", Offset = "0x53D6990", VA = "0x53D7990")]
 	protected Binder()
 	{
 	}
 
-	[Token(Token = "0x6002460")]
+	[Token(Token = "0x600242E")]
 	public abstract FieldInfo BindToField(BindingFlags bindingAttr, FieldInfo[] match, object value, CultureInfo culture);
 
-	[Token(Token = "0x6002461")]
+	[Token(Token = "0x600242F")]
 	public abstract MethodBase BindToMethod(BindingFlags bindingAttr, MethodBase[] match, ref object[] args, ParameterModifier[] modifiers, CultureInfo culture, string[] names, out object state);
 
-	[Token(Token = "0x6002462")]
+	[Token(Token = "0x6002430")]
 	public abstract object ChangeType(object value, Type type, CultureInfo culture);
 
-	[Token(Token = "0x6002463")]
+	[Token(Token = "0x6002431")]
 	public abstract void ReorderArgumentArray(ref object[] args, object state);
 
-	[Token(Token = "0x6002464")]
+	[Token(Token = "0x6002432")]
 	public abstract MethodBase SelectMethod(BindingFlags bindingAttr, MethodBase[] match, Type[] types, ParameterModifier[] modifiers);
 
-	[Token(Token = "0x6002465")]
+	[Token(Token = "0x6002433")]
 	public abstract PropertyInfo SelectProperty(BindingFlags bindingAttr, PropertyInfo[] match, Type returnType, Type[] indexes, ParameterModifier[] modifiers);
 }

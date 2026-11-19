@@ -29,13 +29,13 @@ public class JsonMergeSettings
 	public MergeArrayHandling MergeArrayHandling
 	{
 		[Token(Token = "0x6000C9E")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5610EF0", Offset = "0x560FEF0", VA = "0x5610EF0")]
 		get
 		{
 			return default(MergeArrayHandling);
 		}
 		[Token(Token = "0x6000C9F")]
-		[Address(RVA = "0x1C88500", Offset = "0x1C86B00", VA = "0x181C88500")]
+		[Address(RVA = "0x5610F00", Offset = "0x560FF00", VA = "0x5610F00")]
 		set
 		{
 		}
@@ -45,13 +45,13 @@ public class JsonMergeSettings
 	public MergeNullValueHandling MergeNullValueHandling
 	{
 		[Token(Token = "0x6000CA0")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x5610F60", Offset = "0x560FF60", VA = "0x5610F60")]
 		get
 		{
 			return default(MergeNullValueHandling);
 		}
 		[Token(Token = "0x6000CA1")]
-		[Address(RVA = "0x1C88570", Offset = "0x1C86B70", VA = "0x181C88570")]
+		[Address(RVA = "0x5610F70", Offset = "0x560FF70", VA = "0x5610F70")]
 		set
 		{
 		}
@@ -61,20 +61,20 @@ public class JsonMergeSettings
 	public StringComparison PropertyNameComparison
 	{
 		[Token(Token = "0x6000CA2")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5610FD0", Offset = "0x560FFD0", VA = "0x5610FD0")]
 		get
 		{
 			return default(StringComparison);
 		}
 		[Token(Token = "0x6000CA3")]
-		[Address(RVA = "0x1C885E0", Offset = "0x1C86BE0", VA = "0x181C885E0")]
+		[Address(RVA = "0x5610FE0", Offset = "0x560FFE0", VA = "0x5610FE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x1C884E0", Offset = "0x1C86AE0", VA = "0x181C884E0")]
+	[Address(RVA = "0x5610ED0", Offset = "0x560FED0", VA = "0x5610ED0")]
 	public JsonMergeSettings()
 	{
 	}

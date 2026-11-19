@@ -18,14 +18,14 @@ public class MicAmplifierFloat : IProcessor<float>, IDisposable
 	public float AmplificationFactor
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+		[Address(RVA = "0x5739AF0", Offset = "0x5738AF0", VA = "0x5739AF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
+		[Address(RVA = "0x5739B00", Offset = "0x5738B00", VA = "0x5739B00")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ public class MicAmplifierFloat : IProcessor<float>, IDisposable
 	public bool Disabled
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x5739B10", Offset = "0x5738B10", VA = "0x5739B10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x5739B20", Offset = "0x5738B20", VA = "0x5739B20")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,20 +51,20 @@ public class MicAmplifierFloat : IProcessor<float>, IDisposable
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x1D89AE0", Offset = "0x1D880E0", VA = "0x181D89AE0")]
+	[Address(RVA = "0x5739A20", Offset = "0x5738A20", VA = "0x5739A20")]
 	public MicAmplifierFloat(float amplificationFactor)
 	{
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x1D89A80", Offset = "0x1D88080", VA = "0x181D89A80", Slot = "4")]
+	[Address(RVA = "0x5739B30", Offset = "0x5738B30", VA = "0x5739B30", Slot = "4")]
 	public float[] Process(float[] buf)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x5739C60", Offset = "0x5738C60", VA = "0x5739C60", Slot = "5")]
 	public void Dispose()
 	{
 	}

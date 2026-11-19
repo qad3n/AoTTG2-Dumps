@@ -19,21 +19,21 @@ public abstract class fsBaseConverter
 	public fsSerializer Serializer;
 
 	[Token(Token = "0x600122E")]
-	[Address(RVA = "0x2E5E440", Offset = "0x2E5CA40", VA = "0x182E5E440", Slot = "4")]
+	[Address(RVA = "0x6863670", Offset = "0x6862670", VA = "0x6863670", Slot = "4")]
 	public virtual object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600122F")]
-	[Address(RVA = "0x2E5E930", Offset = "0x2E5CF30", VA = "0x182E5E930", Slot = "5")]
+	[Address(RVA = "0x68637E0", Offset = "0x68627E0", VA = "0x68637E0", Slot = "5")]
 	public virtual bool RequestCycleSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001230")]
-	[Address(RVA = "0x2E5EA20", Offset = "0x2E5D020", VA = "0x182E5EA20", Slot = "6")]
+	[Address(RVA = "0x68638C0", Offset = "0x68628C0", VA = "0x68638C0", Slot = "6")]
 	public virtual bool RequestInheritanceSupport(Type storageType)
 	{
 		return default(bool);
@@ -46,28 +46,28 @@ public abstract class fsBaseConverter
 	public abstract fsResult TryDeserialize(fsData data, ref object instance, Type storageType);
 
 	[Token(Token = "0x6001233")]
-	[Address(RVA = "0x2E5E5D0", Offset = "0x2E5CBD0", VA = "0x182E5E5D0")]
+	[Address(RVA = "0x6859870", Offset = "0x6858870", VA = "0x6859870")]
 	protected fsResult FailExpectedType(fsData data, params fsDataType[] types)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6001234")]
-	[Address(RVA = "0x2E5E1A0", Offset = "0x2E5C7A0", VA = "0x182E5E1A0")]
+	[Address(RVA = "0x68570B0", Offset = "0x68560B0", VA = "0x68570B0")]
 	protected fsResult CheckType(fsData data, fsDataType type)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6001235")]
-	[Address(RVA = "0x2E5DF20", Offset = "0x2E5C520", VA = "0x182E5DF20")]
+	[Address(RVA = "0x68593A0", Offset = "0x68583A0", VA = "0x68593A0")]
 	protected fsResult CheckKey(fsData data, string key, out fsData subitem)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6001236")]
-	[Address(RVA = "0x2E5DFB0", Offset = "0x2E5C5B0", VA = "0x182E5DFB0")]
+	[Address(RVA = "0x6863920", Offset = "0x6862920", VA = "0x6863920")]
 	protected fsResult CheckKey(Dictionary<string, fsData> data, string key, out fsData subitem)
 	{
 		return default(fsResult);
@@ -86,7 +86,7 @@ public abstract class fsBaseConverter
 	}
 
 	[Token(Token = "0x6001239")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6863B10", Offset = "0x6862B10", VA = "0x6863B10")]
 	protected fsBaseConverter()
 	{
 	}

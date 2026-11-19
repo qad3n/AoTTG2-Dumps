@@ -11,118 +11,118 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000525")]
+[Token(Token = "0x2000584")]
 [CompilerGenerated]
 internal class CustomLogicTextOverflowEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000526")]
+	[Token(Token = "0x2000585")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002E8C")]
-		[Address(RVA = "0x20169D0", Offset = "0x2014FD0", VA = "0x1820169D0")]
+		[Token(Token = "0x6003118")]
+		[Address(RVA = "0x59B0AD0", Offset = "0x59AFAD0", VA = "0x59B0AD0")]
 		public static CustomLogicTextOverflowEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000527")]
+	[Token(Token = "0x2000586")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016EF")]
+		[Token(Token = "0x400188F")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002E8D")]
-		[Address(RVA = "0x1FF4E30", Offset = "0x1FF3430", VA = "0x181FF4E30")]
+		[Token(Token = "0x6003119")]
+		[Address(RVA = "0x59B0BF0", Offset = "0x59AFBF0", VA = "0x59B0BF0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E8E")]
-		[Address(RVA = "0x20032D0", Offset = "0x20018D0", VA = "0x1820032D0")]
+		[Token(Token = "0x600311A")]
+		[Address(RVA = "0x59B0D30", Offset = "0x59AFD30", VA = "0x59B0D30")]
 		public static CLPropertyBinding<CustomLogicTextOverflowEnum> __CreatePropertyBinding__Clip()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E8F")]
-		[Address(RVA = "0x2003D70", Offset = "0x2002370", VA = "0x182003D70")]
+		[Token(Token = "0x600311B")]
+		[Address(RVA = "0x59B0DD0", Offset = "0x59AFDD0", VA = "0x59B0DD0")]
 		public static CLPropertyBinding<CustomLogicTextOverflowEnum> __CreatePropertyBinding__Ellipsis()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000845")]
+	[Token(Token = "0x1700088D")]
 	public static int Clip
 	{
-		[Token(Token = "0x6002E86")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x6003112")]
+		[Address(RVA = "0x59B0A50", Offset = "0x59AFA50", VA = "0x59B0A50")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000846")]
+	[Token(Token = "0x1700088E")]
 	public static int Ellipsis
 	{
-		[Token(Token = "0x6002E87")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Token(Token = "0x6003113")]
+		[Address(RVA = "0x59B0A60", Offset = "0x59AFA60", VA = "0x59B0A60")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000847")]
+	[Token(Token = "0x1700088F")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002E88")]
-		[Address(RVA = "0x2015190", Offset = "0x2013790", VA = "0x182015190", Slot = "6")]
+		[Token(Token = "0x6003114")]
+		[Address(RVA = "0x59B0A70", Offset = "0x59AFA70", VA = "0x59B0A70", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000848")]
+	[Token(Token = "0x17000890")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002E89")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003115")]
+		[Address(RVA = "0x59B0AA0", Offset = "0x59AFAA0", VA = "0x59B0AA0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000849")]
+	[Token(Token = "0x17000891")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002E8A")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003116")]
+		[Address(RVA = "0x59B0AB0", Offset = "0x59AFAB0", VA = "0x59B0AB0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700084A")]
+	[Token(Token = "0x17000892")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002E8B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003117")]
+		[Address(RVA = "0x59B0AC0", Offset = "0x59AFAC0", VA = "0x59B0AC0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002E85")]
-	[Address(RVA = "0x2015140", Offset = "0x2013740", VA = "0x182015140")]
+	[Token(Token = "0x6003111")]
+	[Address(RVA = "0x59B09E0", Offset = "0x59AF9E0", VA = "0x59B09E0")]
 	public CustomLogicTextOverflowEnum()
 	{
 	}

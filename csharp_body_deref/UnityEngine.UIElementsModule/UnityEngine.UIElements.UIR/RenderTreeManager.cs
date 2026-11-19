@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.RenderTreeManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,296 +15,484 @@ using UnityEngine.Pool;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005CA")]
+[Token(Token = "0x20005B5")]
 internal class RenderTreeManager : IDisposable
 {
-	[Token(Token = "0x20005CB")]
+	[Token(Token = "0x20005B6")]
 	internal struct ElementInsertionData
 	{
-		[Token(Token = "0x400156F")]
+		[Token(Token = "0x40014B1")]
 		[FieldOffset(Offset = "0x0")]
 		public VisualElement element;
 
-		[Token(Token = "0x4001570")]
+		[Token(Token = "0x40014B2")]
 		[FieldOffset(Offset = "0x8")]
 		public bool canceled;
 	}
 
-	[Token(Token = "0x20005CC")]
+	[Token(Token = "0x20005B7")]
 	internal class VisualChangesProcessor : IDisposable
 	{
-		[Token(Token = "0x20005CD")]
+		[Token(Token = "0x20005B8")]
 		private enum VisualsProcessingType
 		{
-			[Token(Token = "0x400157B")]
+			[Token(Token = "0x40014BD")]
 			Head,
-			[Token(Token = "0x400157C")]
+			[Token(Token = "0x40014BE")]
 			Tail
 		}
 
-		[Token(Token = "0x20005CE")]
+		[Token(Token = "0x20005B9")]
 		private struct EntryProcessingInfo
 		{
-			[Token(Token = "0x400157D")]
+			[Token(Token = "0x40014BF")]
 			[FieldOffset(Offset = "0x0")]
 			public RenderData renderData;
 
-			[Token(Token = "0x400157E")]
+			[Token(Token = "0x40014C0")]
 			[FieldOffset(Offset = "0x8")]
 			public VisualsProcessingType type;
 
-			[Token(Token = "0x400157F")]
+			[Token(Token = "0x40014C1")]
 			[FieldOffset(Offset = "0x10")]
 			public Entry rootEntry;
 		}
 
-		[Token(Token = "0x4001571")]
+		[Token(Token = "0x40014B3")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly ProfilerMarker k_GenerateEntriesMarker;
 
-		[Token(Token = "0x4001572")]
+		[Token(Token = "0x40014B4")]
 		[FieldOffset(Offset = "0x8")]
 		private static readonly ProfilerMarker k_ConvertEntriesToCommandsMarker;
 
-		[Token(Token = "0x4001573")]
+		[Token(Token = "0x40014B5")]
 		[FieldOffset(Offset = "0x10")]
 		private static readonly ProfilerMarker k_UpdateOpacityIdMarker;
 
-		[Token(Token = "0x4001574")]
+		[Token(Token = "0x40014B6")]
 		[FieldOffset(Offset = "0x10")]
 		private RenderTreeManager m_RenderTreeManager;
 
-		[Token(Token = "0x4001575")]
+		[Token(Token = "0x40014B7")]
 		[FieldOffset(Offset = "0x18")]
 		private MeshGenerationContext m_MeshGenerationContext;
 
-		[Token(Token = "0x4001576")]
+		[Token(Token = "0x40014B8")]
 		[FieldOffset(Offset = "0x20")]
 		private BaseElementBuilder m_ElementBuilder;
 
-		[Token(Token = "0x4001577")]
+		[Token(Token = "0x40014B9")]
 		[FieldOffset(Offset = "0x28")]
 		private List<EntryProcessingInfo> m_EntryProcessingList;
 
-		[Token(Token = "0x4001578")]
+		[Token(Token = "0x40014BA")]
 		[FieldOffset(Offset = "0x30")]
 		private List<EntryProcessor> m_Processors;
 
-		[Token(Token = "0x17000A9E")]
+		[Token(Token = "0x17000A92")]
 		public BaseElementBuilder elementBuilder
 		{
-			[Token(Token = "0x6002B1F")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Token(Token = "0x6002ABE")]
+			[Address(RVA = "0x6BA8670", Offset = "0x6BA7670", VA = "0x6BA8670")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000A9F")]
+		[Token(Token = "0x17000A93")]
 		public MeshGenerationContext meshGenerationContext
 		{
-			[Token(Token = "0x6002B20")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Token(Token = "0x6002ABF")]
+			[Address(RVA = "0x6BA8680", Offset = "0x6BA7680", VA = "0x6BA8680")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000AA0")]
+		[Token(Token = "0x17000A94")]
 		protected bool disposed
 		{
-			[Token(Token = "0x6002B29")]
-			[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+			[Token(Token = "0x6002AC8")]
+			[Address(RVA = "0x6BA97A0", Offset = "0x6BA87A0", VA = "0x6BA97A0")]
 			[CompilerGenerated]
 			get
 			{
 				return default(bool);
 			}
-			[Token(Token = "0x6002B2A")]
-			[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+			[Token(Token = "0x6002AC9")]
+			[Address(RVA = "0x6BA97B0", Offset = "0x6BA87B0", VA = "0x6BA97B0")]
 			[CompilerGenerated]
 			private set
 			{
 			}
 		}
 
-		[Token(Token = "0x6002B21")]
-		[Address(RVA = "0x31B8340", Offset = "0x31B6940", VA = "0x1831B8340")]
+		[Token(Token = "0x6002AC0")]
+		[Address(RVA = "0x6BA8690", Offset = "0x6BA7690", VA = "0x6BA8690")]
 		public VisualChangesProcessor(RenderTreeManager renderTreeManager)
 		{
 		}
 
-		[Token(Token = "0x6002B22")]
-		[Address(RVA = "0x31B80C0", Offset = "0x31B66C0", VA = "0x1831B80C0")]
+		[Token(Token = "0x6002AC1")]
+		[Address(RVA = "0x6BA8850", Offset = "0x6BA7850", VA = "0x6BA8850")]
 		public void ScheduleMeshGenerationJobs()
 		{
 		}
 
-		[Token(Token = "0x6002B23")]
-		[Address(RVA = "0x31B8070", Offset = "0x31B6670", VA = "0x1831B8070")]
+		[Token(Token = "0x6002AC2")]
+		[Address(RVA = "0x6BA8880", Offset = "0x6BA7880", VA = "0x6BA8880")]
 		public void ProcessOnVisualsChanged(RenderData renderData, uint dirtyID, ref ChainBuilderStats stats)
 		{
 		}
 
-		[Token(Token = "0x6002B24")]
-		[Address(RVA = "0x31B7780", Offset = "0x31B5D80", VA = "0x1831B7780")]
+		[Token(Token = "0x6002AC3")]
+		[Address(RVA = "0x6BA88C0", Offset = "0x6BA78C0", VA = "0x6BA88C0")]
 		private void DepthFirstOnVisualsChanged(RenderData renderData, uint dirtyID, bool hierarchical, ref ChainBuilderStats stats)
 		{
 		}
 
-		[Token(Token = "0x6002B25")]
-		[Address(RVA = "0x31B8220", Offset = "0x31B6820", VA = "0x1831B8220")]
+		[Token(Token = "0x6002AC4")]
+		[Address(RVA = "0x6BA8FF0", Offset = "0x6BA7FF0", VA = "0x6BA8FF0")]
 		private static void UpdateWorldFlipsWinding(RenderData renderData)
 		{
 		}
 
-		[Token(Token = "0x6002B26")]
-		[Address(RVA = "0x31B74F0", Offset = "0x31B5AF0", VA = "0x1831B74F0")]
+		[Token(Token = "0x6002AC5")]
+		[Address(RVA = "0x6BA9050", Offset = "0x6BA8050", VA = "0x6BA9050")]
 		public void ConvertEntriesToCommands(ref ChainBuilderStats stats)
 		{
 		}
 
-		[Token(Token = "0x6002B27")]
-		[Address(RVA = "0x31B80F0", Offset = "0x31B66F0", VA = "0x1831B80F0")]
+		[Token(Token = "0x6002AC6")]
+		[Address(RVA = "0x6BA8E90", Offset = "0x6BA7E90", VA = "0x6BA8E90")]
 		public static void UpdateOpacityId(RenderData renderData, RenderTreeManager renderTreeManager)
 		{
 		}
 
-		[Token(Token = "0x6002B28")]
-		[Address(RVA = "0x31B7E20", Offset = "0x31B6420", VA = "0x1831B7E20")]
+		[Token(Token = "0x6002AC7")]
+		[Address(RVA = "0x6BA9350", Offset = "0x6BA8350", VA = "0x6BA9350")]
 		private static void DoUpdateOpacityId(RenderData renderData, RenderTreeManager renderTreeManager, MeshHandle mesh)
 		{
 		}
 
-		[Token(Token = "0x6002B2B")]
-		[Address(RVA = "0x31B7D50", Offset = "0x31B6350", VA = "0x1831B7D50", Slot = "4")]
+		[Token(Token = "0x6002ACA")]
+		[Address(RVA = "0x6BA97C0", Offset = "0x6BA87C0", VA = "0x6BA97C0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
-		[Token(Token = "0x6002B2C")]
-		[Address(RVA = "0x31B7DD0", Offset = "0x31B63D0", VA = "0x1831B7DD0")]
+		[Token(Token = "0x6002ACB")]
+		[Address(RVA = "0x6BA9860", Offset = "0x6BA8860", VA = "0x6BA9860")]
 		protected void Dispose(bool disposing)
 		{
 		}
 	}
 
-	[Token(Token = "0x4001548")]
+	[Token(Token = "0x400148A")]
 	[FieldOffset(Offset = "0x10")]
 	private RenderTreeCompositor m_Compositor;
 
-	[Token(Token = "0x4001549")]
+	[Token(Token = "0x400148B")]
 	[FieldOffset(Offset = "0x18")]
 	private VisualChangesProcessor m_VisualChangesProcessor;
 
-	[Token(Token = "0x400154A")]
+	[Token(Token = "0x400148C")]
 	[FieldOffset(Offset = "0x20")]
 	private LinkedPool<RenderChainCommand> m_CommandPool;
 
-	[Token(Token = "0x400154B")]
+	[Token(Token = "0x400148D")]
 	[FieldOffset(Offset = "0x28")]
 	private LinkedPool<ExtraRenderData> m_ExtraDataPool;
 
-	[Token(Token = "0x400154C")]
+	[Token(Token = "0x400148E")]
 	[FieldOffset(Offset = "0x30")]
 	private BasicNodePool<MeshHandle> m_MeshHandleNodePool;
 
-	[Token(Token = "0x400154D")]
+	[Token(Token = "0x400148F")]
 	[FieldOffset(Offset = "0x38")]
 	private BasicNodePool<GraphicEntry> m_GraphicEntryPool;
 
-	[Token(Token = "0x400154E")]
+	[Token(Token = "0x4001490")]
 	[FieldOffset(Offset = "0x40")]
 	private Dictionary<RenderData, ExtraRenderData> m_ExtraData;
 
-	[Token(Token = "0x400154F")]
+	[Token(Token = "0x4001491")]
 	[FieldOffset(Offset = "0x48")]
 	internal List<ElementInsertionData> m_InsertionList;
 
-	[Token(Token = "0x4001550")]
+	[Token(Token = "0x4001492")]
 	[FieldOffset(Offset = "0x50")]
 	private MeshGenerationDeferrer m_MeshGenerationDeferrer;
 
-	[Token(Token = "0x4001551")]
+	[Token(Token = "0x4001493")]
 	[FieldOffset(Offset = "0x58")]
 	private Material m_DefaultMat;
 
-	[Token(Token = "0x4001552")]
+	[Token(Token = "0x4001494")]
 	[FieldOffset(Offset = "0x60")]
 	private bool m_BlockDirtyRegistration;
 
-	[Token(Token = "0x4001553")]
+	[Token(Token = "0x4001495")]
 	[FieldOffset(Offset = "0x64")]
 	private ChainBuilderStats m_Stats;
 
-	[Token(Token = "0x4001554")]
+	[Token(Token = "0x4001496")]
 	[FieldOffset(Offset = "0xC0")]
 	private uint m_StatsElementsAdded;
 
-	[Token(Token = "0x4001555")]
+	[Token(Token = "0x4001497")]
 	[FieldOffset(Offset = "0xC4")]
 	private uint m_StatsElementsRemoved;
 
-	[Token(Token = "0x4001556")]
+	[Token(Token = "0x4001498")]
 	[FieldOffset(Offset = "0xC8")]
 	private TextureRegistry m_TextureRegistry;
 
-	[Token(Token = "0x4001558")]
+	[Token(Token = "0x400149A")]
 	[FieldOffset(Offset = "0xD8")]
 	private UnityEngine.Pool.ObjectPool<RenderData> m_RenderDataPool;
 
-	[Token(Token = "0x4001559")]
+	[Token(Token = "0x400149B")]
 	[FieldOffset(Offset = "0xE0")]
 	private UnityEngine.Pool.ObjectPool<RenderTree> m_RenderTreePool;
 
-	[Token(Token = "0x400155A")]
+	[Token(Token = "0x400149C")]
 	[FieldOffset(Offset = "0xE8")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private bool _003CblockDirtyRegistration_003Ek__BackingField;
 
-	[Token(Token = "0x400155C")]
+	[Token(Token = "0x400149E")]
 	[FieldOffset(Offset = "0x0")]
 	private static EntryPool s_SharedEntryPool;
 
-	[Token(Token = "0x400155D")]
+	[Token(Token = "0x400149F")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly ProfilerMarker k_MarkerProcess;
 
-	[Token(Token = "0x400155E")]
+	[Token(Token = "0x40014A0")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly ProfilerMarker k_MarkerSerialize;
 
-	[Token(Token = "0x4001560")]
+	[Token(Token = "0x40014A2")]
 	[FieldOffset(Offset = "0xF8")]
 	private RenderTree m_RootRenderTree;
 
-	[Token(Token = "0x4001567")]
+	[Token(Token = "0x40014A9")]
 	[FieldOffset(Offset = "0x130")]
 	public EntryRecorder entryRecorder;
 
-	[Token(Token = "0x400156A")]
+	[Token(Token = "0x40014AC")]
 	[FieldOffset(Offset = "0x148")]
 	internal UIRVEShaderInfoAllocator shaderInfoAllocator;
 
-	[Token(Token = "0x17000A88")]
+	[Token(Token = "0x17000A7C")]
 	internal TextureRegistry textureRegistry
 	{
-		[Token(Token = "0x6002AD5")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Token(Token = "0x6002A74")]
+		[Address(RVA = "0x6BA5000", Offset = "0x6BA4000", VA = "0x6BA5000")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000A89")]
+	[Token(Token = "0x17000A7D")]
 	internal VisualChangesProcessor visualChangesProcessor
 	{
-		[Token(Token = "0x6002AD6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6002A75")]
+		[Address(RVA = "0x6BA5010", Offset = "0x6BA4010", VA = "0x6BA5010")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000A7E")]
+	public OpacityIdAccelerator opacityIdAccelerator
+	{
+		[Token(Token = "0x6002A76")]
+		[Address(RVA = "0x6BA5020", Offset = "0x6BA4020", VA = "0x6BA5020")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002A77")]
+		[Address(RVA = "0x6BA5030", Offset = "0x6BA4030", VA = "0x6BA5030")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A7F")]
+	public TextureSlotCount textureSlotCount
+	{
+		[Token(Token = "0x6002A78")]
+		[Address(RVA = "0x6BA5050", Offset = "0x6BA4050", VA = "0x6BA5050")]
+		[CompilerGenerated]
+		get
+		{
+			return default(TextureSlotCount);
+		}
+		[Token(Token = "0x6002A79")]
+		[Address(RVA = "0x6BA5060", Offset = "0x6BA4060", VA = "0x6BA5060")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A80")]
+	protected bool disposed
+	{
+		[Token(Token = "0x6002A7F")]
+		[Address(RVA = "0x6BA5E80", Offset = "0x6BA4E80", VA = "0x6BA5E80")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6002A80")]
+		[Address(RVA = "0x6BA5E90", Offset = "0x6BA4E90", VA = "0x6BA5E90")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A81")]
+	internal unsafe ref ChainBuilderStats statsByRef
+	{
+		[Token(Token = "0x6002A84")]
+		[Address(RVA = "0x6BA6470", Offset = "0x6BA5470", VA = "0x6BA6470")]
+		get
+		{
+			return ref *(ChainBuilderStats*)null;
+		}
+	}
+
+	[Token(Token = "0x17000A82")]
+	internal RenderTree rootRenderTree
+	{
+		[Token(Token = "0x6002A85")]
+		[Address(RVA = "0x6B9ABE0", Offset = "0x6B99BE0", VA = "0x6B9ABE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A83")]
+	internal BaseVisualElementPanel panel
+	{
+		[Token(Token = "0x6002A99")]
+		[Address(RVA = "0x6BA7DF0", Offset = "0x6BA6DF0", VA = "0x6BA7DF0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002A9A")]
+		[Address(RVA = "0x6BA7E00", Offset = "0x6BA6E00", VA = "0x6BA7E00")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A84")]
+	internal UIRenderDevice device
+	{
+		[Token(Token = "0x6002A9B")]
+		[Address(RVA = "0x6BA7E20", Offset = "0x6BA6E20", VA = "0x6BA7E20")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002A9C")]
+		[Address(RVA = "0x6BA7E30", Offset = "0x6BA6E30", VA = "0x6BA7E30")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A85")]
+	public BaseElementBuilder elementBuilder
+	{
+		[Token(Token = "0x6002A9D")]
+		[Address(RVA = "0x6B9E5E0", Offset = "0x6B9D5E0", VA = "0x6B9E5E0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000A86")]
+	internal AtlasBase atlas
+	{
+		[Token(Token = "0x6002A9E")]
+		[Address(RVA = "0x6BA7E50", Offset = "0x6BA6E50", VA = "0x6BA7E50")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002A9F")]
+		[Address(RVA = "0x6BA7E60", Offset = "0x6BA6E60", VA = "0x6BA7E60")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A87")]
+	internal VectorImageManager vectorImageManager
+	{
+		[Token(Token = "0x6002AA0")]
+		[Address(RVA = "0x6BA7E80", Offset = "0x6BA6E80", VA = "0x6BA7E80")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002AA1")]
+		[Address(RVA = "0x6BA7E90", Offset = "0x6BA6E90", VA = "0x6BA7E90")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A88")]
+	internal TempMeshAllocatorImpl tempMeshAllocator
+	{
+		[Token(Token = "0x6002AA2")]
+		[Address(RVA = "0x6BA7EB0", Offset = "0x6BA6EB0", VA = "0x6BA7EB0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002AA3")]
+		[Address(RVA = "0x6BA7EC0", Offset = "0x6BA6EC0", VA = "0x6BA7EC0")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000A89")]
+	internal MeshWriteDataPool meshWriteDataPool
+	{
+		[Token(Token = "0x6002AA4")]
+		[Address(RVA = "0x6BA7EE0", Offset = "0x6BA6EE0", VA = "0x6BA7EE0")]
+		[CompilerGenerated]
 		get
 		{
 			return null;
@@ -312,53 +500,39 @@ internal class RenderTreeManager : IDisposable
 	}
 
 	[Token(Token = "0x17000A8A")]
-	public OpacityIdAccelerator opacityIdAccelerator
+	internal EntryPool entryPool
 	{
-		[Token(Token = "0x6002AD7")]
-		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
+		[Token(Token = "0x6002AA5")]
+		[Address(RVA = "0x6BA7EF0", Offset = "0x6BA6EF0", VA = "0x6BA7EF0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000A8B")]
+	public MeshGenerationDeferrer meshGenerationDeferrer
+	{
+		[Token(Token = "0x6002AA6")]
+		[Address(RVA = "0x6BA7F60", Offset = "0x6BA6F60", VA = "0x6BA7F60")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000A8C")]
+	public MeshGenerationNodeManager meshGenerationNodeManager
+	{
+		[Token(Token = "0x6002AA7")]
+		[Address(RVA = "0x6BA7F70", Offset = "0x6BA6F70", VA = "0x6BA7F70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002AD8")]
-		[Address(RVA = "0x1BE7800", Offset = "0x1BE5E00", VA = "0x181BE7800")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A8B")]
-	public TextureSlotCount textureSlotCount
-	{
-		[Token(Token = "0x6002AD9")]
-		[Address(RVA = "0x31AEC80", Offset = "0x31AD280", VA = "0x1831AEC80")]
-		[CompilerGenerated]
-		get
-		{
-			return default(TextureSlotCount);
-		}
-		[Token(Token = "0x6002ADA")]
-		[Address(RVA = "0x31AED20", Offset = "0x31AD320", VA = "0x1831AED20")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A8C")]
-	protected bool disposed
-	{
-		[Token(Token = "0x6002AE0")]
-		[Address(RVA = "0x1C3F930", Offset = "0x1C3DF30", VA = "0x181C3F930")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6002AE1")]
-		[Address(RVA = "0x2C12990", Offset = "0x2C10F90", VA = "0x182C12990")]
+		[Token(Token = "0x6002AA8")]
+		[Address(RVA = "0x6BA7F80", Offset = "0x6BA6F80", VA = "0x6BA7F80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -366,244 +540,70 @@ internal class RenderTreeManager : IDisposable
 	}
 
 	[Token(Token = "0x17000A8D")]
-	internal unsafe ref ChainBuilderStats statsByRef
+	internal JobManager jobManager
 	{
-		[Token(Token = "0x6002AE5")]
-		[Address(RVA = "0x31AEC70", Offset = "0x31AD270", VA = "0x1831AEC70")]
+		[Token(Token = "0x6002AA9")]
+		[Address(RVA = "0x6BA7FA0", Offset = "0x6BA6FA0", VA = "0x6BA7FA0")]
+		[CompilerGenerated]
 		get
 		{
-			return ref *(ChainBuilderStats*)null;
+			return null;
+		}
+		[Token(Token = "0x6002AAA")]
+		[Address(RVA = "0x6BA7FB0", Offset = "0x6BA6FB0", VA = "0x6BA7FB0")]
+		[CompilerGenerated]
+		private set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000A8E")]
-	internal RenderTree rootRenderTree
+	internal bool drawStats
 	{
-		[Token(Token = "0x6002AE6")]
-		[Address(RVA = "0x31AECA0", Offset = "0x31AD2A0", VA = "0x1831AECA0")]
+		[Token(Token = "0x6002AAB")]
+		[Address(RVA = "0x6BA7FD0", Offset = "0x6BA6FD0", VA = "0x6BA7FD0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6002AAC")]
+		[Address(RVA = "0x6BA7FE0", Offset = "0x6BA6FE0", VA = "0x6BA7FE0")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000A8F")]
-	internal BaseVisualElementPanel panel
+	internal bool drawInCameras
 	{
-		[Token(Token = "0x6002AFA")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Token(Token = "0x6002AAD")]
+		[Address(RVA = "0x6BA7FF0", Offset = "0x6BA6FF0", VA = "0x6BA7FF0")]
 		[CompilerGenerated]
 		get
 		{
-			return null;
-		}
-		[Token(Token = "0x6002AFB")]
-		[Address(RVA = "0x1BD5920", Offset = "0x1BD3F20", VA = "0x181BD5920")]
-		[CompilerGenerated]
-		private set
-		{
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000A90")]
-	internal UIRenderDevice device
+	internal bool isFlat
 	{
-		[Token(Token = "0x6002AFC")]
-		[Address(RVA = "0x1BD4C80", Offset = "0x1BD3280", VA = "0x181BD4C80")]
+		[Token(Token = "0x6002AAE")]
+		[Address(RVA = "0x6BA8000", Offset = "0x6BA7000", VA = "0x6BA8000")]
 		[CompilerGenerated]
 		get
 		{
-			return null;
-		}
-		[Token(Token = "0x6002AFD")]
-		[Address(RVA = "0x1BD5400", Offset = "0x1BD3A00", VA = "0x181BD5400")]
-		[CompilerGenerated]
-		private set
-		{
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000A91")]
-	public BaseElementBuilder elementBuilder
-	{
-		[Token(Token = "0x6002AFE")]
-		[Address(RVA = "0x1CB0C00", Offset = "0x1CAF200", VA = "0x181CB0C00")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000A92")]
-	internal AtlasBase atlas
-	{
-		[Token(Token = "0x6002AFF")]
-		[Address(RVA = "0x1C41CF0", Offset = "0x1C402F0", VA = "0x181C41CF0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6002B00")]
-		[Address(RVA = "0x1C41E00", Offset = "0x1C40400", VA = "0x181C41E00")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A93")]
-	internal VectorImageManager vectorImageManager
-	{
-		[Token(Token = "0x6002B01")]
-		[Address(RVA = "0x1C54FF0", Offset = "0x1C535F0", VA = "0x181C54FF0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6002B02")]
-		[Address(RVA = "0x1C61340", Offset = "0x1C5F940", VA = "0x181C61340")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A94")]
-	internal TempMeshAllocatorImpl tempMeshAllocator
-	{
-		[Token(Token = "0x6002B03")]
-		[Address(RVA = "0xA2F260", Offset = "0xA2D860", VA = "0x180A2F260")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6002B04")]
-		[Address(RVA = "0x2CF3F20", Offset = "0x2CF2520", VA = "0x182CF3F20")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A95")]
-	internal MeshWriteDataPool meshWriteDataPool
-	{
-		[Token(Token = "0x6002B05")]
-		[Address(RVA = "0x2CE6A00", Offset = "0x2CE5000", VA = "0x182CE6A00")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000A96")]
-	internal EntryPool entryPool
-	{
-		[Token(Token = "0x6002B06")]
-		[Address(RVA = "0x31AEC00", Offset = "0x31AD200", VA = "0x1831AEC00")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000A97")]
-	public MeshGenerationDeferrer meshGenerationDeferrer
-	{
-		[Token(Token = "0x6002B07")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000A98")]
-	public MeshGenerationNodeManager meshGenerationNodeManager
-	{
-		[Token(Token = "0x6002B08")]
-		[Address(RVA = "0xA29AC0", Offset = "0xA280C0", VA = "0x180A29AC0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6002B09")]
-		[Address(RVA = "0x306D1A0", Offset = "0x306B7A0", VA = "0x18306D1A0")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A99")]
-	internal JobManager jobManager
-	{
-		[Token(Token = "0x6002B0A")]
-		[Address(RVA = "0x1D1FA50", Offset = "0x1D1E050", VA = "0x181D1FA50")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6002B0B")]
-		[Address(RVA = "0x1D1FE00", Offset = "0x1D1E400", VA = "0x181D1FE00")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A9A")]
-	internal bool drawStats
-	{
-		[Token(Token = "0x6002B0C")]
-		[Address(RVA = "0x31AEBF0", Offset = "0x31AD1F0", VA = "0x1831AEBF0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6002B0D")]
-		[Address(RVA = "0x31AEC90", Offset = "0x31AD290", VA = "0x1831AEC90")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000A9B")]
-	internal bool drawInCameras
-	{
-		[Token(Token = "0x6002B0E")]
-		[Address(RVA = "0x31AEBE0", Offset = "0x31AD1E0", VA = "0x1831AEBE0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000A9C")]
-	internal bool isFlat
-	{
-		[Token(Token = "0x6002B0F")]
-		[Address(RVA = "0x31AEC60", Offset = "0x31AD260", VA = "0x1831AEC60")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000A9D")]
 	public bool forceGammaRendering
 	{
-		[Token(Token = "0x6002B10")]
-		[Address(RVA = "0x31AEC50", Offset = "0x31AD250", VA = "0x1831AEC50")]
+		[Token(Token = "0x6002AAF")]
+		[Address(RVA = "0x6BA8010", Offset = "0x6BA7010", VA = "0x6BA8010")]
 		[CompilerGenerated]
 		get
 		{
@@ -611,247 +611,247 @@ internal class RenderTreeManager : IDisposable
 		}
 	}
 
-	[Token(Token = "0x6002ADB")]
-	[Address(RVA = "0x31AB690", Offset = "0x31A9C90", VA = "0x1831AB690")]
+	[Token(Token = "0x6002A7A")]
+	[Address(RVA = "0x6B9AB10", Offset = "0x6B99B10", VA = "0x6B9AB10")]
 	internal RenderData GetPooledRenderData()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002ADC")]
-	[Address(RVA = "0x31ACD40", Offset = "0x31AB340", VA = "0x1831ACD40")]
+	[Token(Token = "0x6002A7B")]
+	[Address(RVA = "0x6B9D280", Offset = "0x6B9C280", VA = "0x6B9D280")]
 	internal void ReturnPoolRenderData(RenderData data)
 	{
 	}
 
-	[Token(Token = "0x6002ADD")]
-	[Address(RVA = "0x31AB6F0", Offset = "0x31A9CF0", VA = "0x1831AB6F0")]
+	[Token(Token = "0x6002A7C")]
+	[Address(RVA = "0x6B9AB70", Offset = "0x6B99B70", VA = "0x6B9AB70")]
 	internal RenderTree GetPooledRenderTree(RenderTreeManager renderTreeManager, RenderData rootRenderData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002ADE")]
-	[Address(RVA = "0x31ACDB0", Offset = "0x31AB3B0", VA = "0x1831ACDB0")]
+	[Token(Token = "0x6002A7D")]
+	[Address(RVA = "0x6B9CCA0", Offset = "0x6B9BCA0", VA = "0x6B9CCA0")]
 	internal void ReturnPoolRenderTree(RenderTree tree)
 	{
 	}
 
-	[Token(Token = "0x6002ADF")]
-	[Address(RVA = "0x31AD990", Offset = "0x31ABF90", VA = "0x1831AD990")]
+	[Token(Token = "0x6002A7E")]
+	[Address(RVA = "0x6BA5070", Offset = "0x6BA4070", VA = "0x6BA5070")]
 	public RenderTreeManager(BaseVisualElementPanel panel)
 	{
 	}
 
-	[Token(Token = "0x6002AE2")]
-	[Address(RVA = "0x31AA0C0", Offset = "0x31A86C0", VA = "0x1831AA0C0", Slot = "4")]
+	[Token(Token = "0x6002A81")]
+	[Address(RVA = "0x6BA5EA0", Offset = "0x6BA4EA0", VA = "0x6BA5EA0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6002AE3")]
-	[Address(RVA = "0x31AA120", Offset = "0x31A8720", VA = "0x1831AA120")]
+	[Token(Token = "0x6002A82")]
+	[Address(RVA = "0x6BA5F00", Offset = "0x6BA4F00", VA = "0x6BA5F00")]
 	protected void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6002AE4")]
-	[Address(RVA = "0x31ACE80", Offset = "0x31AB480", VA = "0x1831ACE80")]
+	[Token(Token = "0x6002A83")]
+	[Address(RVA = "0x6BA63E0", Offset = "0x6BA53E0", VA = "0x6BA63E0")]
 	private static void ReverseDepthFirstDisposeRenderTrees(RenderTree renderTree)
 	{
 	}
 
-	[Token(Token = "0x6002AE7")]
-	[Address(RVA = "0x31A9F20", Offset = "0x31A8520", VA = "0x1831A9F20")]
+	[Token(Token = "0x6002A86")]
+	[Address(RVA = "0x6BA6480", Offset = "0x6BA5480", VA = "0x6BA6480")]
 	private void DepthFirstProcessChanges(RenderTree renderTree)
 	{
 	}
 
-	[Token(Token = "0x6002AE8")]
-	[Address(RVA = "0x31AB9C0", Offset = "0x31A9FC0", VA = "0x1831AB9C0")]
+	[Token(Token = "0x6002A87")]
+	[Address(RVA = "0x6BA64E0", Offset = "0x6BA54E0", VA = "0x6BA64E0")]
 	public void ProcessChanges()
 	{
 	}
 
-	[Token(Token = "0x6002AE9")]
-	[Address(RVA = "0x31ACF20", Offset = "0x31AB520", VA = "0x1831ACF20")]
+	[Token(Token = "0x6002A88")]
+	[Address(RVA = "0x6BA69E0", Offset = "0x6BA59E0", VA = "0x6BA69E0")]
 	private void SerializeRootTreeCommands()
 	{
 	}
 
-	[Token(Token = "0x6002AEA")]
-	[Address(RVA = "0x31AC230", Offset = "0x31AA830", VA = "0x1831AC230")]
+	[Token(Token = "0x6002A89")]
+	[Address(RVA = "0x6BA6C30", Offset = "0x6BA5C30", VA = "0x6BA6C30")]
 	public void RenderRootTree()
 	{
 	}
 
-	[Token(Token = "0x6002AEB")]
-	[Address(RVA = "0x31AC200", Offset = "0x31AA800", VA = "0x1831AC200")]
+	[Token(Token = "0x6002A8A")]
+	[Address(RVA = "0x6BA69C0", Offset = "0x6BA59C0", VA = "0x6BA69C0")]
 	private void RenderNestedTrees()
 	{
 	}
 
-	[Token(Token = "0x6002AEC")]
-	[Address(RVA = "0x31AC430", Offset = "0x31AAA30", VA = "0x1831AC430")]
+	[Token(Token = "0x6002A8B")]
+	[Address(RVA = "0x6BA4030", Offset = "0x6BA3030", VA = "0x6BA4030")]
 	public void RenderSingleTree(RenderTree renderTree, RenderTexture nestedTreeRT, RectInt nestedTreeViewport, Rect bounds)
 	{
 	}
 
-	[Token(Token = "0x6002AED")]
-	[Address(RVA = "0x31A9DF0", Offset = "0x31A83F0", VA = "0x1831A9DF0")]
+	[Token(Token = "0x6002A8C")]
+	[Address(RVA = "0x6B9AA00", Offset = "0x6B99A00", VA = "0x6B9AA00")]
 	public void CancelInsertion(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AEE")]
-	[Address(RVA = "0x31AD160", Offset = "0x31AB760", VA = "0x1831AD160")]
+	[Token(Token = "0x6002A8D")]
+	[Address(RVA = "0x6BA7830", Offset = "0x6BA6830", VA = "0x6BA7830")]
 	public void UIEOnChildAdded(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AEF")]
-	[Address(RVA = "0x31AC000", Offset = "0x31AA600", VA = "0x1831AC000")]
+	[Token(Token = "0x6002A8E")]
+	[Address(RVA = "0x6BA67E0", Offset = "0x6BA57E0", VA = "0x6BA67E0")]
 	private void ProcessChildAdded(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AF0")]
-	[Address(RVA = "0x31AD370", Offset = "0x31AB970", VA = "0x1831AD370")]
+	[Token(Token = "0x6002A8F")]
+	[Address(RVA = "0x6BA7930", Offset = "0x6BA6930", VA = "0x6BA7930")]
 	public void UIEOnChildrenReordered(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AF1")]
-	[Address(RVA = "0x31AD270", Offset = "0x31AB870", VA = "0x1831AD270")]
+	[Token(Token = "0x6002A90")]
+	[Address(RVA = "0x6BA7AC0", Offset = "0x6BA6AC0", VA = "0x6BA7AC0")]
 	public void UIEOnChildRemoving(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AF2")]
-	[Address(RVA = "0x31AD670", Offset = "0x31ABC70", VA = "0x1831AD670")]
+	[Token(Token = "0x6002A91")]
+	[Address(RVA = "0x6BA7BB0", Offset = "0x6BA6BB0", VA = "0x6BA7BB0")]
 	public void UIEOnRenderHintsChanged(VisualElement ve)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002AF3")]
-	[Address(RVA = "0x31A1F30", Offset = "0x31A0530", VA = "0x1831A1F30")]
+	[Token(Token = "0x6002A92")]
+	[Address(RVA = "0x6BA7C80", Offset = "0x6BA6C80", VA = "0x6BA7C80")]
 	private void RegisterDirty(VisualElement ve, RenderDataDirtyTypes dirtyTypes, RenderDataDirtyTypeClasses dirtyClasses)
 	{
 	}
 
-	[Token(Token = "0x6002AF4")]
-	[Address(RVA = "0x31AD520", Offset = "0x31ABB20", VA = "0x1831AD520")]
+	[Token(Token = "0x6002A93")]
+	[Address(RVA = "0x6B9ADA0", Offset = "0x6B99DA0", VA = "0x6B9ADA0")]
 	public void UIEOnClippingChanged(VisualElement ve, bool hierarchical)
 	{
 	}
 
-	[Token(Token = "0x6002AF5")]
-	[Address(RVA = "0x31AD630", Offset = "0x31ABC30", VA = "0x1831AD630")]
+	[Token(Token = "0x6002A94")]
+	[Address(RVA = "0x6B9ADC0", Offset = "0x6B99DC0", VA = "0x6B9ADC0")]
 	public void UIEOnOpacityChanged(VisualElement ve, bool hierarchical = false)
 	{
 	}
 
-	[Token(Token = "0x6002AF6")]
-	[Address(RVA = "0x31AD560", Offset = "0x31ABB60", VA = "0x1831AD560")]
+	[Token(Token = "0x6002A95")]
+	[Address(RVA = "0x6BA7D30", Offset = "0x6BA6D30", VA = "0x6BA7D30")]
 	public void UIEOnColorChanged(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002AF7")]
-	[Address(RVA = "0x31AD830", Offset = "0x31ABE30", VA = "0x1831AD830")]
+	[Token(Token = "0x6002A96")]
+	[Address(RVA = "0x6BA7920", Offset = "0x6BA6920", VA = "0x6BA7920")]
 	public void UIEOnTransformOrSizeChanged(VisualElement ve, bool transformChanged, bool clipRectSizeChanged)
 	{
 	}
 
-	[Token(Token = "0x6002AF8")]
-	[Address(RVA = "0x31AD860", Offset = "0x31ABE60", VA = "0x1831AD860")]
+	[Token(Token = "0x6002A97")]
+	[Address(RVA = "0x6B9ADF0", Offset = "0x6B99DF0", VA = "0x6B9ADF0")]
 	public void UIEOnVisualsChanged(VisualElement ve, bool hierarchical)
 	{
 	}
 
-	[Token(Token = "0x6002AF9")]
-	[Address(RVA = "0x31AD590", Offset = "0x31ABB90", VA = "0x1831AD590")]
+	[Token(Token = "0x6002A98")]
+	[Address(RVA = "0x6BA7D50", Offset = "0x6BA6D50", VA = "0x6BA7D50")]
 	public void UIEOnDisableRenderingChanged(VisualElement ve)
 	{
 	}
 
-	[Token(Token = "0x6002B11")]
-	[Address(RVA = "0x31A9DA0", Offset = "0x31A83A0", VA = "0x1831A9DA0")]
+	[Token(Token = "0x6002AB0")]
+	[Address(RVA = "0x6BA8020", Offset = "0x6BA7020", VA = "0x6BA8020")]
 	internal RenderChainCommand AllocCommand()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B12")]
-	[Address(RVA = "0x31AB340", Offset = "0x31A9940", VA = "0x1831AB340")]
+	[Token(Token = "0x6002AB1")]
+	[Address(RVA = "0x6BA8060", Offset = "0x6BA7060", VA = "0x6BA8060")]
 	internal void FreeCommand(RenderChainCommand cmd)
 	{
 	}
 
-	[Token(Token = "0x6002B13")]
-	[Address(RVA = "0x31ACAF0", Offset = "0x31AB0F0", VA = "0x1831ACAF0")]
+	[Token(Token = "0x6002AB2")]
+	[Address(RVA = "0x6BA80C0", Offset = "0x6BA70C0", VA = "0x6BA80C0")]
 	internal void RepaintTexturedElements()
 	{
 	}
 
-	[Token(Token = "0x6002B14")]
-	[Address(RVA = "0x31AA000", Offset = "0x31A8600", VA = "0x1831AA000")]
+	[Token(Token = "0x6002AB3")]
+	[Address(RVA = "0x6BA80E0", Offset = "0x6BA70E0", VA = "0x6BA80E0")]
 	private void DepthFirstRepaintTextured(RenderTree renderTree)
 	{
 	}
 
-	[Token(Token = "0x6002B15")]
-	[Address(RVA = "0x31A9F80", Offset = "0x31A8580", VA = "0x1831A9F80")]
+	[Token(Token = "0x6002AB4")]
+	[Address(RVA = "0x6BA8140", Offset = "0x6BA7140", VA = "0x6BA8140")]
 	private void DepthFirstRepaintTextured(RenderData renderData)
 	{
 	}
 
-	[Token(Token = "0x6002B16")]
-	[Address(RVA = "0x31AB5C0", Offset = "0x31A9BC0", VA = "0x1831AB5C0")]
+	[Token(Token = "0x6002AB5")]
+	[Address(RVA = "0x6B9E520", Offset = "0x6B9D520", VA = "0x6B9E520")]
 	public ExtraRenderData GetOrAddExtraData(RenderData renderData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B17")]
-	[Address(RVA = "0x31AB3B0", Offset = "0x31A99B0", VA = "0x1831AB3B0")]
+	[Token(Token = "0x6002AB6")]
+	[Address(RVA = "0x6B9D1A0", Offset = "0x6B9C1A0", VA = "0x6B9D1A0")]
 	public void FreeExtraData(RenderData renderData)
 	{
 	}
 
-	[Token(Token = "0x6002B18")]
-	[Address(RVA = "0x31AB770", Offset = "0x31A9D70", VA = "0x1831AB770")]
+	[Token(Token = "0x6002AB7")]
+	[Address(RVA = "0x6BA81B0", Offset = "0x6BA71B0", VA = "0x6BA81B0")]
 	public void InsertExtraMesh(RenderData renderData, MeshHandle mesh)
 	{
 	}
 
-	[Token(Token = "0x6002B19")]
-	[Address(RVA = "0x31AB4A0", Offset = "0x31A9AA0", VA = "0x1831AB4A0")]
+	[Token(Token = "0x6002AB8")]
+	[Address(RVA = "0x6B9D080", Offset = "0x6B9C080", VA = "0x6B9D080")]
 	public void FreeExtraMeshes(RenderData renderData)
 	{
 	}
 
-	[Token(Token = "0x6002B1A")]
-	[Address(RVA = "0x31AB820", Offset = "0x31A9E20", VA = "0x1831AB820")]
+	[Token(Token = "0x6002AB9")]
+	[Address(RVA = "0x6BA8270", Offset = "0x6BA7270", VA = "0x6BA8270")]
 	public void InsertTexture(RenderData renderData, Texture src, TextureId id, bool isAtlas)
 	{
 	}
 
-	[Token(Token = "0x6002B1B")]
-	[Address(RVA = "0x31AB8C0", Offset = "0x31A9EC0", VA = "0x1831AB8C0")]
+	[Token(Token = "0x6002ABA")]
+	[Address(RVA = "0x6BA8320", Offset = "0x6BA7320", VA = "0x6BA8320")]
 	public void InsertVectorImage(RenderData renderData, VectorImage vi)
 	{
 	}
 
-	[Token(Token = "0x6002B1C")]
-	[Address(RVA = "0x31ACBB0", Offset = "0x31AB1B0", VA = "0x1831ACBB0")]
+	[Token(Token = "0x6002ABB")]
+	[Address(RVA = "0x6B9CD80", Offset = "0x6B9BD80", VA = "0x6B9CD80")]
 	public void ResetGraphicEntries(RenderData renderData)
 	{
 	}
 
-	[Token(Token = "0x6002B1D")]
-	[Address(RVA = "0x31AA950", Offset = "0x31A8F50", VA = "0x1831AA950")]
+	[Token(Token = "0x6002ABC")]
+	[Address(RVA = "0x6BA6E60", Offset = "0x6BA5E60", VA = "0x6BA6E60")]
 	private void DrawStats()
 	{
 	}

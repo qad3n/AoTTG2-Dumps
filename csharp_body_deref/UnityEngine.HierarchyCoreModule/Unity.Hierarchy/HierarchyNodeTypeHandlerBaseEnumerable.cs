@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyNodeTypeHandlerBaseEnumerable
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ public readonly struct HierarchyNodeTypeHandlerBaseEnumerable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000038")]
-			[Address(RVA = "0x2F7C390", Offset = "0x2F7A990", VA = "0x182F7C390")]
+			[Address(RVA = "0x69717F0", Offset = "0x69707F0", VA = "0x69717F0")]
 			get
 			{
 				return null;
@@ -42,20 +42,20 @@ public readonly struct HierarchyNodeTypeHandlerBaseEnumerable
 		}
 
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x2F7BF30", Offset = "0x2F7A530", VA = "0x182F7BF30")]
+		[Address(RVA = "0x69712B0", Offset = "0x69702B0", VA = "0x69712B0")]
 		internal Enumerator(Hierarchy hierarchy)
 		{
 		}
 
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x2F7BCD0", Offset = "0x2F7A2D0", VA = "0x182F7BCD0", Slot = "4")]
+		[Address(RVA = "0x6971680", Offset = "0x6970680", VA = "0x6971680", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x152B020", Offset = "0x1529620", VA = "0x18152B020")]
+		[Address(RVA = "0x6971860", Offset = "0x6970860", VA = "0x6971860")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -67,13 +67,13 @@ public readonly struct HierarchyNodeTypeHandlerBaseEnumerable
 	private readonly Hierarchy m_Hierarchy;
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x6971270", Offset = "0x6970270", VA = "0x6971270")]
 	internal HierarchyNodeTypeHandlerBaseEnumerable(Hierarchy hierarchy)
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x2F7DA50", Offset = "0x2F7C050", VA = "0x182F7DA50")]
+	[Address(RVA = "0x6971280", Offset = "0x6970280", VA = "0x6971280")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);

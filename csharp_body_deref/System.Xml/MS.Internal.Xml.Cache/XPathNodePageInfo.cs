@@ -28,7 +28,7 @@ internal sealed class XPathNodePageInfo
 	public int PageNumber
 	{
 		[Token(Token = "0x6001CDC")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6098840", Offset = "0x6097840", VA = "0x6098840")]
 		get
 		{
 			return default(int);
@@ -39,7 +39,7 @@ internal sealed class XPathNodePageInfo
 	public int NodeCount
 	{
 		[Token(Token = "0x6001CDD")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x6098850", Offset = "0x6097850", VA = "0x6098850")]
 		get
 		{
 			return default(int);
@@ -50,7 +50,7 @@ internal sealed class XPathNodePageInfo
 	public XPathNode[] NextPage
 	{
 		[Token(Token = "0x6001CDE")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6098860", Offset = "0x6097860", VA = "0x6098860")]
 		get
 		{
 			return null;

@@ -15,41 +15,41 @@ namespace System.Data;
 internal class XMLSchema
 {
 	[Token(Token = "0x600080E")]
-	[Address(RVA = "0x252F530", Offset = "0x252DB30", VA = "0x18252F530")]
+	[Address(RVA = "0x5ED5150", Offset = "0x5ED4150", VA = "0x5ED5150")]
 	internal static TypeConverter GetConverter(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600080F")]
-	[Address(RVA = "0x252F580", Offset = "0x252DB80", VA = "0x18252F580")]
+	[Address(RVA = "0x5ED51C0", Offset = "0x5ED41C0", VA = "0x5ED51C0")]
 	internal static void SetProperties(object instance, XmlAttributeCollection attrs)
 	{
 	}
 
 	[Token(Token = "0x6000810")]
-	[Address(RVA = "0x252F240", Offset = "0x252D840", VA = "0x18252F240")]
+	[Address(RVA = "0x5ED5610", Offset = "0x5ED4610", VA = "0x5ED5610")]
 	internal static bool FEqualIdentity(XmlNode node, string name, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x252F400", Offset = "0x252DA00", VA = "0x18252F400")]
+	[Address(RVA = "0x5ED5680", Offset = "0x5ED4680", VA = "0x5ED5680")]
 	internal static bool GetBooleanAttribute(XmlElement element, string attrName, string attrNS, bool defVal)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x252F2D0", Offset = "0x252D8D0", VA = "0x18252F2D0")]
+	[Address(RVA = "0x5ED57B0", Offset = "0x5ED47B0", VA = "0x5ED57B0")]
 	internal static string GenUniqueColumnName(string proposedName, DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5ED58E0", Offset = "0x5ED48E0", VA = "0x5ED58E0")]
 	public XMLSchema()
 	{
 	}

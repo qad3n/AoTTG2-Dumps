@@ -41,7 +41,7 @@ public struct BitArray256 : IBitArray
 	public uint capacity
 	{
 		[Token(Token = "0x6000D33")]
-		[Address(RVA = "0x868110", Offset = "0x866710", VA = "0x180868110", Slot = "4")]
+		[Address(RVA = "0x6539D30", Offset = "0x6538D30", VA = "0x6539D30", Slot = "4")]
 		get
 		{
 			return default(uint);
@@ -52,7 +52,7 @@ public struct BitArray256 : IBitArray
 	public bool allFalse
 	{
 		[Token(Token = "0x6000D34")]
-		[Address(RVA = "0x2B36DC0", Offset = "0x2B353C0", VA = "0x182B36DC0", Slot = "5")]
+		[Address(RVA = "0x6539D40", Offset = "0x6538D40", VA = "0x6539D40", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -63,7 +63,7 @@ public struct BitArray256 : IBitArray
 	public bool allTrue
 	{
 		[Token(Token = "0x6000D35")]
-		[Address(RVA = "0x2B36DE0", Offset = "0x2B353E0", VA = "0x182B36DE0", Slot = "6")]
+		[Address(RVA = "0x6539D70", Offset = "0x6538D70", VA = "0x6539D70", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -74,7 +74,7 @@ public struct BitArray256 : IBitArray
 	public string humanizedData
 	{
 		[Token(Token = "0x6000D36")]
-		[Address(RVA = "0x2B36E00", Offset = "0x2B35400", VA = "0x182B36E00", Slot = "9")]
+		[Address(RVA = "0x6539DA0", Offset = "0x6538DA0", VA = "0x6539DA0", Slot = "9")]
 		get
 		{
 			return null;
@@ -85,95 +85,95 @@ public struct BitArray256 : IBitArray
 	public bool this[uint index]
 	{
 		[Token(Token = "0x6000D37")]
-		[Address(RVA = "0x2B36D70", Offset = "0x2B35370", VA = "0x182B36D70", Slot = "7")]
+		[Address(RVA = "0x653A080", Offset = "0x6539080", VA = "0x653A080", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D38")]
-		[Address(RVA = "0x2B37200", Offset = "0x2B35800", VA = "0x182B37200", Slot = "8")]
+		[Address(RVA = "0x653A120", Offset = "0x6539120", VA = "0x653A120", Slot = "8")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D39")]
-	[Address(RVA = "0x298BD00", Offset = "0x298A300", VA = "0x18298BD00")]
+	[Address(RVA = "0x653A220", Offset = "0x6539220", VA = "0x653A220")]
 	public BitArray256(ulong initValue1, ulong initValue2, ulong initValue3, ulong initValue4)
 	{
 	}
 
 	[Token(Token = "0x6000D3A")]
-	[Address(RVA = "0x2B36C70", Offset = "0x2B35270", VA = "0x182B36C70")]
+	[Address(RVA = "0x653A230", Offset = "0x6539230", VA = "0x653A230")]
 	public BitArray256(IEnumerable<uint> bitIndexTrue)
 	{
 	}
 
 	[Token(Token = "0x6000D3B")]
-	[Address(RVA = "0x2B371D0", Offset = "0x2B357D0", VA = "0x182B371D0")]
+	[Address(RVA = "0x653A320", Offset = "0x6539320", VA = "0x653A320")]
 	public static BitArray256 operator ~(BitArray256 a)
 	{
 		return default(BitArray256);
 	}
 
 	[Token(Token = "0x6000D3C")]
-	[Address(RVA = "0x2B37140", Offset = "0x2B35740", VA = "0x182B37140")]
+	[Address(RVA = "0x653A350", Offset = "0x6539350", VA = "0x653A350")]
 	public static BitArray256 operator |(BitArray256 a, BitArray256 b)
 	{
 		return default(BitArray256);
 	}
 
 	[Token(Token = "0x6000D3D")]
-	[Address(RVA = "0x2B37110", Offset = "0x2B35710", VA = "0x182B37110")]
+	[Address(RVA = "0x653A370", Offset = "0x6539370", VA = "0x653A370")]
 	public static BitArray256 operator &(BitArray256 a, BitArray256 b)
 	{
 		return default(BitArray256);
 	}
 
 	[Token(Token = "0x6000D3E")]
-	[Address(RVA = "0x2B36900", Offset = "0x2B34F00", VA = "0x182B36900", Slot = "10")]
+	[Address(RVA = "0x653A390", Offset = "0x6539390", VA = "0x653A390", Slot = "10")]
 	public IBitArray BitAnd(IBitArray other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3F")]
-	[Address(RVA = "0x2B36A50", Offset = "0x2B35050", VA = "0x182B36A50", Slot = "11")]
+	[Address(RVA = "0x653A430", Offset = "0x6539430", VA = "0x653A430", Slot = "11")]
 	public IBitArray BitOr(IBitArray other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D40")]
-	[Address(RVA = "0x2B369E0", Offset = "0x2B34FE0", VA = "0x182B369E0", Slot = "12")]
+	[Address(RVA = "0x653A4D0", Offset = "0x65394D0", VA = "0x653A4D0", Slot = "12")]
 	public IBitArray BitNot()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D41")]
-	[Address(RVA = "0x2B37170", Offset = "0x2B35770", VA = "0x182B37170")]
+	[Address(RVA = "0x653A530", Offset = "0x6539530", VA = "0x653A530")]
 	public static bool operator ==(BitArray256 a, BitArray256 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D42")]
-	[Address(RVA = "0x2B371A0", Offset = "0x2B357A0", VA = "0x182B371A0")]
+	[Address(RVA = "0x653A570", Offset = "0x6539570", VA = "0x653A570")]
 	public static bool operator !=(BitArray256 a, BitArray256 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D43")]
-	[Address(RVA = "0x2B36B30", Offset = "0x2B35130", VA = "0x182B36B30", Slot = "0")]
+	[Address(RVA = "0x653A5B0", Offset = "0x65395B0", VA = "0x653A5B0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D44")]
-	[Address(RVA = "0x2B36C10", Offset = "0x2B35210", VA = "0x182B36C10", Slot = "2")]
+	[Address(RVA = "0x653A670", Offset = "0x6539670", VA = "0x653A670", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200028D")]
+[Token(Token = "0x20002E9")]
 internal static class AottgCharacterFontUi
 {
-	[Token(Token = "0x6000F70")]
-	[Address(RVA = "0x1DF1EA0", Offset = "0x1DF04A0", VA = "0x181DF1EA0")]
+	[Token(Token = "0x60011C0")]
+	[Address(RVA = "0x57D9640", Offset = "0x57D8640", VA = "0x57D9640")]
 	public static GisketchChoiceOptionDefinition[] Options(bool hasAccess)
 	{
 		return null;

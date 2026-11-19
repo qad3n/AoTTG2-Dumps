@@ -9,177 +9,177 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000081")]
+[Token(Token = "0x2000082")]
 public enum ExpressionType
 {
-	[Token(Token = "0x4000124")]
-	Add,
-	[Token(Token = "0x4000125")]
-	AddChecked,
-	[Token(Token = "0x4000126")]
-	And,
-	[Token(Token = "0x4000127")]
-	AndAlso,
-	[Token(Token = "0x4000128")]
-	ArrayLength,
-	[Token(Token = "0x4000129")]
-	ArrayIndex,
-	[Token(Token = "0x400012A")]
-	Call,
-	[Token(Token = "0x400012B")]
-	Coalesce,
-	[Token(Token = "0x400012C")]
-	Conditional,
 	[Token(Token = "0x400012D")]
-	Constant,
+	Add,
 	[Token(Token = "0x400012E")]
-	Convert,
+	AddChecked,
 	[Token(Token = "0x400012F")]
-	ConvertChecked,
+	And,
 	[Token(Token = "0x4000130")]
-	Divide,
+	AndAlso,
 	[Token(Token = "0x4000131")]
-	Equal,
+	ArrayLength,
 	[Token(Token = "0x4000132")]
-	ExclusiveOr,
+	ArrayIndex,
 	[Token(Token = "0x4000133")]
-	GreaterThan,
+	Call,
 	[Token(Token = "0x4000134")]
-	GreaterThanOrEqual,
+	Coalesce,
 	[Token(Token = "0x4000135")]
-	Invoke,
+	Conditional,
 	[Token(Token = "0x4000136")]
-	Lambda,
+	Constant,
 	[Token(Token = "0x4000137")]
-	LeftShift,
+	Convert,
 	[Token(Token = "0x4000138")]
-	LessThan,
+	ConvertChecked,
 	[Token(Token = "0x4000139")]
-	LessThanOrEqual,
+	Divide,
 	[Token(Token = "0x400013A")]
-	ListInit,
+	Equal,
 	[Token(Token = "0x400013B")]
-	MemberAccess,
+	ExclusiveOr,
 	[Token(Token = "0x400013C")]
-	MemberInit,
+	GreaterThan,
 	[Token(Token = "0x400013D")]
-	Modulo,
+	GreaterThanOrEqual,
 	[Token(Token = "0x400013E")]
-	Multiply,
+	Invoke,
 	[Token(Token = "0x400013F")]
-	MultiplyChecked,
+	Lambda,
 	[Token(Token = "0x4000140")]
-	Negate,
+	LeftShift,
 	[Token(Token = "0x4000141")]
-	UnaryPlus,
+	LessThan,
 	[Token(Token = "0x4000142")]
-	NegateChecked,
+	LessThanOrEqual,
 	[Token(Token = "0x4000143")]
-	New,
+	ListInit,
 	[Token(Token = "0x4000144")]
-	NewArrayInit,
+	MemberAccess,
 	[Token(Token = "0x4000145")]
-	NewArrayBounds,
+	MemberInit,
 	[Token(Token = "0x4000146")]
-	Not,
+	Modulo,
 	[Token(Token = "0x4000147")]
-	NotEqual,
+	Multiply,
 	[Token(Token = "0x4000148")]
-	Or,
+	MultiplyChecked,
 	[Token(Token = "0x4000149")]
-	OrElse,
+	Negate,
 	[Token(Token = "0x400014A")]
-	Parameter,
+	UnaryPlus,
 	[Token(Token = "0x400014B")]
-	Power,
+	NegateChecked,
 	[Token(Token = "0x400014C")]
-	Quote,
+	New,
 	[Token(Token = "0x400014D")]
-	RightShift,
+	NewArrayInit,
 	[Token(Token = "0x400014E")]
-	Subtract,
+	NewArrayBounds,
 	[Token(Token = "0x400014F")]
-	SubtractChecked,
+	Not,
 	[Token(Token = "0x4000150")]
-	TypeAs,
+	NotEqual,
 	[Token(Token = "0x4000151")]
-	TypeIs,
+	Or,
 	[Token(Token = "0x4000152")]
-	Assign,
+	OrElse,
 	[Token(Token = "0x4000153")]
-	Block,
+	Parameter,
 	[Token(Token = "0x4000154")]
-	DebugInfo,
+	Power,
 	[Token(Token = "0x4000155")]
-	Decrement,
+	Quote,
 	[Token(Token = "0x4000156")]
-	Dynamic,
+	RightShift,
 	[Token(Token = "0x4000157")]
-	Default,
+	Subtract,
 	[Token(Token = "0x4000158")]
-	Extension,
+	SubtractChecked,
 	[Token(Token = "0x4000159")]
-	Goto,
+	TypeAs,
 	[Token(Token = "0x400015A")]
-	Increment,
+	TypeIs,
 	[Token(Token = "0x400015B")]
-	Index,
+	Assign,
 	[Token(Token = "0x400015C")]
-	Label,
+	Block,
 	[Token(Token = "0x400015D")]
-	RuntimeVariables,
+	DebugInfo,
 	[Token(Token = "0x400015E")]
-	Loop,
+	Decrement,
 	[Token(Token = "0x400015F")]
-	Switch,
+	Dynamic,
 	[Token(Token = "0x4000160")]
-	Throw,
+	Default,
 	[Token(Token = "0x4000161")]
-	Try,
+	Extension,
 	[Token(Token = "0x4000162")]
-	Unbox,
+	Goto,
 	[Token(Token = "0x4000163")]
-	AddAssign,
+	Increment,
 	[Token(Token = "0x4000164")]
-	AndAssign,
+	Index,
 	[Token(Token = "0x4000165")]
-	DivideAssign,
+	Label,
 	[Token(Token = "0x4000166")]
-	ExclusiveOrAssign,
+	RuntimeVariables,
 	[Token(Token = "0x4000167")]
-	LeftShiftAssign,
+	Loop,
 	[Token(Token = "0x4000168")]
-	ModuloAssign,
+	Switch,
 	[Token(Token = "0x4000169")]
-	MultiplyAssign,
+	Throw,
 	[Token(Token = "0x400016A")]
-	OrAssign,
+	Try,
 	[Token(Token = "0x400016B")]
-	PowerAssign,
+	Unbox,
 	[Token(Token = "0x400016C")]
-	RightShiftAssign,
+	AddAssign,
 	[Token(Token = "0x400016D")]
-	SubtractAssign,
+	AndAssign,
 	[Token(Token = "0x400016E")]
-	AddAssignChecked,
+	DivideAssign,
 	[Token(Token = "0x400016F")]
-	MultiplyAssignChecked,
+	ExclusiveOrAssign,
 	[Token(Token = "0x4000170")]
-	SubtractAssignChecked,
+	LeftShiftAssign,
 	[Token(Token = "0x4000171")]
-	PreIncrementAssign,
+	ModuloAssign,
 	[Token(Token = "0x4000172")]
-	PreDecrementAssign,
+	MultiplyAssign,
 	[Token(Token = "0x4000173")]
-	PostIncrementAssign,
+	OrAssign,
 	[Token(Token = "0x4000174")]
-	PostDecrementAssign,
+	PowerAssign,
 	[Token(Token = "0x4000175")]
-	TypeEqual,
+	RightShiftAssign,
 	[Token(Token = "0x4000176")]
-	OnesComplement,
+	SubtractAssign,
 	[Token(Token = "0x4000177")]
-	IsTrue,
+	AddAssignChecked,
 	[Token(Token = "0x4000178")]
+	MultiplyAssignChecked,
+	[Token(Token = "0x4000179")]
+	SubtractAssignChecked,
+	[Token(Token = "0x400017A")]
+	PreIncrementAssign,
+	[Token(Token = "0x400017B")]
+	PreDecrementAssign,
+	[Token(Token = "0x400017C")]
+	PostIncrementAssign,
+	[Token(Token = "0x400017D")]
+	PostDecrementAssign,
+	[Token(Token = "0x400017E")]
+	TypeEqual,
+	[Token(Token = "0x400017F")]
+	OnesComplement,
+	[Token(Token = "0x4000180")]
+	IsTrue,
+	[Token(Token = "0x4000181")]
 	IsFalse
 }

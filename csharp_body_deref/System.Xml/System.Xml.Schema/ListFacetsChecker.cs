@@ -14,21 +14,21 @@ namespace System.Xml.Schema;
 internal class ListFacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x6001251")]
-	[Address(RVA = "0x2603F30", Offset = "0x2602530", VA = "0x182603F30", Slot = "5")]
+	[Address(RVA = "0x5FBF680", Offset = "0x5FBE680", VA = "0x5FBF680", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001252")]
-	[Address(RVA = "0x2604170", Offset = "0x2602770", VA = "0x182604170", Slot = "17")]
+	[Address(RVA = "0x5FBF8C0", Offset = "0x5FBE8C0", VA = "0x5FBF8C0", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001253")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5FBF990", Offset = "0x5FBE990", VA = "0x5FBF990")]
 	public ListFacetsChecker()
 	{
 	}

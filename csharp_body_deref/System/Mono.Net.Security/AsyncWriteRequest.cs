@@ -12,14 +12,14 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000051")]
 internal class AsyncWriteRequest : AsyncReadOrWriteRequest
 {
-	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x248F790", Offset = "0x248DD90", VA = "0x18248F790")]
+	[Token(Token = "0x60000D2")]
+	[Address(RVA = "0x5E38510", Offset = "0x5E37510", VA = "0x5E38510")]
 	public AsyncWriteRequest(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size)
 	{
 	}
 
-	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x248F7A0", Offset = "0x248DDA0", VA = "0x18248F7A0", Slot = "4")]
+	[Token(Token = "0x60000D3")]
+	[Address(RVA = "0x5E38520", Offset = "0x5E37520", VA = "0x5E38520", Slot = "4")]
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status)
 	{
 		return default(AsyncOperationStatus);

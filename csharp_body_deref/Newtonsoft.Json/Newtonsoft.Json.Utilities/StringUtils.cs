@@ -45,63 +45,63 @@ internal static class StringUtils
 	public const char Tab = '\t';
 
 	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x1C52D30", Offset = "0x1C51330", VA = "0x181C52D30")]
+	[Address(RVA = "0x55BF950", Offset = "0x55BE950", VA = "0x55BF950")]
 	public static bool IsNullOrEmpty([NotNullWhen(false)] string? value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x1C52A30", Offset = "0x1C51030", VA = "0x181C52A30")]
+	[Address(RVA = "0x55BF960", Offset = "0x55BE960", VA = "0x55BF960")]
 	public static string FormatWith(this string format, IFormatProvider provider, object? arg0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x1C52B40", Offset = "0x1C51140", VA = "0x181C52B40")]
+	[Address(RVA = "0x55BFAA0", Offset = "0x55BEAA0", VA = "0x55BFAA0")]
 	public static string FormatWith(this string format, IFormatProvider provider, object? arg0, object? arg1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x1C52870", Offset = "0x1C50E70", VA = "0x181C52870")]
+	[Address(RVA = "0x55BFB90", Offset = "0x55BEB90", VA = "0x55BFB90")]
 	public static string FormatWith(this string format, IFormatProvider provider, object? arg0, object? arg1, object? arg2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000705")]
-	[Address(RVA = "0x1C52660", Offset = "0x1C50C60", VA = "0x181C52660")]
+	[Address(RVA = "0x55BFCC0", Offset = "0x55BECC0", VA = "0x55BFCC0")]
 	public static string? FormatWith(this string format, IFormatProvider provider, object? arg0, object? arg1, object? arg2, object? arg3)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x1C525C0", Offset = "0x1C50BC0", VA = "0x181C525C0")]
+	[Address(RVA = "0x55BFA10", Offset = "0x55BEA10", VA = "0x55BFA10")]
 	private static string FormatWith(this string format, IFormatProvider provider, params object?[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000707")]
-	[Address(RVA = "0x1C52D40", Offset = "0x1C51340", VA = "0x181C52D40")]
+	[Address(RVA = "0x55BFE80", Offset = "0x55BEE80", VA = "0x55BFE80")]
 	public static bool IsWhiteSpace(string s)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000708")]
-	[Address(RVA = "0x1C524C0", Offset = "0x1C50AC0", VA = "0x181C524C0")]
+	[Address(RVA = "0x55BFF40", Offset = "0x55BEF40", VA = "0x55BFF40")]
 	public static StringWriter CreateStringWriter(int capacity)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000709")]
-	[Address(RVA = "0x1C53040", Offset = "0x1C51640", VA = "0x181C53040")]
+	[Address(RVA = "0x55BFFF0", Offset = "0x55BEFF0", VA = "0x55BFFF0")]
 	public static void ToCharAsUnicode(char c, char[] buffer)
 	{
 	}
@@ -113,84 +113,84 @@ internal static class StringUtils
 	}
 
 	[Token(Token = "0x600070B")]
-	[Address(RVA = "0x1C52E70", Offset = "0x1C51470", VA = "0x181C52E70")]
+	[Address(RVA = "0x55C0090", Offset = "0x55BF090", VA = "0x55C0090")]
 	public static string ToCamelCase(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600070C")]
-	[Address(RVA = "0x1C53100", Offset = "0x1C51700", VA = "0x181C53100")]
+	[Address(RVA = "0x55C0340", Offset = "0x55BF340", VA = "0x55C0340")]
 	private static char ToLower(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600070D")]
-	[Address(RVA = "0x1C53450", Offset = "0x1C51A50", VA = "0x181C53450")]
+	[Address(RVA = "0x55C03C0", Offset = "0x55BF3C0", VA = "0x55C03C0")]
 	public static string ToSnakeCase(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600070E")]
-	[Address(RVA = "0x1C530F0", Offset = "0x1C516F0", VA = "0x181C530F0")]
+	[Address(RVA = "0x55C0680", Offset = "0x55BF680", VA = "0x55C0680")]
 	public static string ToKebabCase(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x1C53180", Offset = "0x1C51780", VA = "0x181C53180")]
+	[Address(RVA = "0x55C03D0", Offset = "0x55BF3D0", VA = "0x55C03D0")]
 	private static string ToSeparatedCase(string s, char separator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x1C52CD0", Offset = "0x1C512D0", VA = "0x181C52CD0")]
+	[Address(RVA = "0x55C0690", Offset = "0x55BF690", VA = "0x55C0690")]
 	public static bool IsHighSurrogate(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000711")]
-	[Address(RVA = "0x1C52D00", Offset = "0x1C51300", VA = "0x181C52D00")]
+	[Address(RVA = "0x55C06D0", Offset = "0x55BF6D0", VA = "0x55C06D0")]
 	public static bool IsLowSurrogate(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x1C52CB0", Offset = "0x1C512B0", VA = "0x181C52CB0")]
+	[Address(RVA = "0x55C0710", Offset = "0x55BF710", VA = "0x55C0710")]
 	public static int IndexOf(string s, char c)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x1C52E10", Offset = "0x1C51410", VA = "0x181C52E10")]
+	[Address(RVA = "0x55C0730", Offset = "0x55BF730", VA = "0x55C0730")]
 	public static string Replace(string s, string oldValue, string newValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x1C52E30", Offset = "0x1C51430", VA = "0x181C52E30")]
+	[Address(RVA = "0x55C0750", Offset = "0x55BF750", VA = "0x55C0750")]
 	public static bool StartsWith(this string source, char value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x1C52580", Offset = "0x1C50B80", VA = "0x181C52580")]
+	[Address(RVA = "0x55C0780", Offset = "0x55BF780", VA = "0x55C0780")]
 	public static bool EndsWith(this string source, char value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x1C53460", Offset = "0x1C51A60", VA = "0x181C53460")]
+	[Address(RVA = "0x55C07B0", Offset = "0x55BF7B0", VA = "0x55C07B0")]
 	public static string Trim(this string s, int start, int length)
 	{
 		return null;

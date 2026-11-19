@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000882")]
+[Token(Token = "0x20008E8")]
 public enum UISound
 {
-	[Token(Token = "0x4002A77")]
+	[Token(Token = "0x4002D1F")]
 	Forward,
-	[Token(Token = "0x4002A78")]
+	[Token(Token = "0x4002D20")]
 	Back,
-	[Token(Token = "0x4002A79")]
+	[Token(Token = "0x4002D21")]
 	Hover
 }

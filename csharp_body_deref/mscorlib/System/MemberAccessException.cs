@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200010F")]
+[Token(Token = "0x20000E7")]
 public class MemberAccessException : SystemException
 {
-	[Token(Token = "0x60008B7")]
-	[Address(RVA = "0x1B2CAE0", Offset = "0x1B2B0E0", VA = "0x181B2CAE0")]
+	[Token(Token = "0x6000892")]
+	[Address(RVA = "0x54BB860", Offset = "0x54BA860", VA = "0x54BB860")]
 	public MemberAccessException()
 	{
 	}
 
-	[Token(Token = "0x60008B8")]
-	[Address(RVA = "0x1B2CB30", Offset = "0x1B2B130", VA = "0x181B2CB30")]
+	[Token(Token = "0x6000893")]
+	[Address(RVA = "0x54BB8A0", Offset = "0x54BA8A0", VA = "0x54BB8A0")]
 	public MemberAccessException(string message)
 	{
 	}
 
-	[Token(Token = "0x60008B9")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x6000894")]
+	[Address(RVA = "0x54BB8C0", Offset = "0x54BA8C0", VA = "0x54BB8C0")]
 	protected MemberAccessException(SerializationInfo info, StreamingContext context)
 	{
 	}

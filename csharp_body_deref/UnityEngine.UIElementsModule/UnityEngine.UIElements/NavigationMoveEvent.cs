@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.NavigationMoveEvent
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,14 +36,14 @@ public class NavigationMoveEvent : NavigationEventBase<NavigationMoveEvent>
 	public Direction direction
 	{
 		[Token(Token = "0x6000DDF")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560")]
+		[Address(RVA = "0x6C6B670", Offset = "0x6C6A670", VA = "0x6C6B670")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Direction);
 		}
 		[Token(Token = "0x6000DE0")]
-		[Address(RVA = "0x58A8F0", Offset = "0x588EF0", VA = "0x18058A8F0")]
+		[Address(RVA = "0x6C6B680", Offset = "0x6C6A680", VA = "0x6C6B680")]
 		[CompilerGenerated]
 		private set
 		{
@@ -54,7 +54,7 @@ public class NavigationMoveEvent : NavigationEventBase<NavigationMoveEvent>
 	private Vector2 move
 	{
 		[Token(Token = "0x6000DE1")]
-		[Address(RVA = "0xA4D6D0", Offset = "0xA4BCD0", VA = "0x180A4D6D0")]
+		[Address(RVA = "0x6C6B690", Offset = "0x6C6A690", VA = "0x6C6B690")]
 		[CompilerGenerated]
 		set
 		{
@@ -62,59 +62,59 @@ public class NavigationMoveEvent : NavigationEventBase<NavigationMoveEvent>
 	}
 
 	[Token(Token = "0x6000DDD")]
-	[Address(RVA = "0x3269780", Offset = "0x3267D80", VA = "0x183269780")]
+	[Address(RVA = "0x6C6B540", Offset = "0x6C6A540", VA = "0x6C6B540")]
 	static NavigationMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DDE")]
-	[Address(RVA = "0x32692F0", Offset = "0x32678F0", VA = "0x1832692F0")]
+	[Address(RVA = "0x6C6B610", Offset = "0x6C6A610", VA = "0x6C6B610")]
 	internal static Direction DetermineMoveDirection(float x, float y, float deadZone = 0.6f)
 	{
 		return default(Direction);
 	}
 
 	[Token(Token = "0x6000DE2")]
-	[Address(RVA = "0x32694D0", Offset = "0x3267AD0", VA = "0x1832694D0")]
+	[Address(RVA = "0x6C678C0", Offset = "0x6C668C0", VA = "0x6C678C0")]
 	internal static NavigationMoveEvent GetPooled(Vector2 moveVector, NavigationDeviceType deviceType, EventModifiers modifiers = EventModifiers.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DE3")]
-	[Address(RVA = "0x3269380", Offset = "0x3267980", VA = "0x183269380")]
+	[Address(RVA = "0x6C6B6A0", Offset = "0x6C6A6A0", VA = "0x6C6B6A0")]
 	public static NavigationMoveEvent GetPooled(Direction direction, EventModifiers modifiers = EventModifiers.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DE4")]
-	[Address(RVA = "0x3269420", Offset = "0x3267A20", VA = "0x183269420")]
+	[Address(RVA = "0x6C67830", Offset = "0x6C66830", VA = "0x6C67830")]
 	internal static NavigationMoveEvent GetPooled(Direction direction, NavigationDeviceType deviceType, EventModifiers modifiers = EventModifiers.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DE5")]
-	[Address(RVA = "0x32695E0", Offset = "0x3267BE0", VA = "0x1832695E0", Slot = "13")]
+	[Address(RVA = "0x6C6B730", Offset = "0x6C6A730", VA = "0x6C6B730", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000DE6")]
-	[Address(RVA = "0x3269860", Offset = "0x3267E60", VA = "0x183269860")]
+	[Address(RVA = "0x6C6B800", Offset = "0x6C6A800", VA = "0x6C6B800")]
 	public NavigationMoveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DE7")]
-	[Address(RVA = "0x3269660", Offset = "0x3267C60", VA = "0x183269660")]
+	[Address(RVA = "0x6C6B7B0", Offset = "0x6C6A7B0", VA = "0x6C6B7B0")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000DE8")]
-	[Address(RVA = "0x32696C0", Offset = "0x3267CC0", VA = "0x1832696C0", Slot = "9")]
+	[Address(RVA = "0x6C6B880", Offset = "0x6C6A880", VA = "0x6C6B880", Slot = "9")]
 	protected internal override void PostDispatch(IPanel panel)
 	{
 	}

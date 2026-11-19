@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200045B")]
+[Token(Token = "0x2000434")]
 internal sealed class InternalFE
 {
-	[Token(Token = "0x4001212")]
+	[Token(Token = "0x4001172")]
 	[FieldOffset(Offset = "0x10")]
 	internal FormatterTypeStyle FEtypeFormat;
 
-	[Token(Token = "0x4001213")]
+	[Token(Token = "0x4001173")]
 	[FieldOffset(Offset = "0x14")]
 	internal FormatterAssemblyStyle FEassemblyFormat;
 
-	[Token(Token = "0x4001214")]
+	[Token(Token = "0x4001174")]
 	[FieldOffset(Offset = "0x18")]
 	internal TypeFilterLevel FEsecurityLevel;
 
-	[Token(Token = "0x4001215")]
+	[Token(Token = "0x4001175")]
 	[FieldOffset(Offset = "0x1C")]
 	internal System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum;
 
-	[Token(Token = "0x600220F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60021E5")]
+	[Address(RVA = "0x53C3940", Offset = "0x53C2940", VA = "0x53C3940")]
 	public InternalFE()
 	{
 	}

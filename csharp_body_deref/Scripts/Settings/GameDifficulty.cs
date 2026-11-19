@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000A9")]
+[Token(Token = "0x20000E0")]
 public enum GameDifficulty
 {
-	[Token(Token = "0x4000380")]
+	[Token(Token = "0x40004B4")]
 	Training,
-	[Token(Token = "0x4000381")]
+	[Token(Token = "0x40004B5")]
 	Easy,
-	[Token(Token = "0x4000382")]
+	[Token(Token = "0x40004B6")]
 	Normal,
-	[Token(Token = "0x4000383")]
+	[Token(Token = "0x40004B7")]
 	Hard,
-	[Token(Token = "0x4000384")]
+	[Token(Token = "0x40004B8")]
 	Abnormal
 }

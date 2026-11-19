@@ -14,13 +14,13 @@ namespace System.Data;
 internal sealed class DataTableTypeConverter : ReferenceConverter
 {
 	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x2509AE0", Offset = "0x25080E0", VA = "0x182509AE0")]
+	[Address(RVA = "0x5EA4440", Offset = "0x5EA3440", VA = "0x5EA4440")]
 	public DataTableTypeConverter()
 	{
 	}
 
 	[Token(Token = "0x6000504")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
+	[Address(RVA = "0x5EA44D0", Offset = "0x5EA34D0", VA = "0x5EA44D0", Slot = "11")]
 	public override bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);

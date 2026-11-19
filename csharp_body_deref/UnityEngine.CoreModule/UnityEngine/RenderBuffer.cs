@@ -11,15 +11,15 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x20000CF")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
 public struct RenderBuffer
 {
-	[Token(Token = "0x400021A")]
+	[Token(Token = "0x400021F")]
 	[FieldOffset(Offset = "0x0")]
 	internal int m_RenderTextureInstanceID;
 
-	[Token(Token = "0x400021B")]
+	[Token(Token = "0x4000220")]
 	[FieldOffset(Offset = "0x8")]
 	internal IntPtr m_BufferPtr;
 }

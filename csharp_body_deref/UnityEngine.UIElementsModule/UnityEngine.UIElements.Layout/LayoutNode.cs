@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutNode
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutX
 	{
 		[Token(Token = "0x6002BF5")]
-		[Address(RVA = "0x31C1200", Offset = "0x31BF800", VA = "0x1831C1200")]
+		[Address(RVA = "0x6BBDFF0", Offset = "0x6BBCFF0", VA = "0x6BBDFF0")]
 		get
 		{
 			return default(float);
@@ -42,7 +42,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutY
 	{
 		[Token(Token = "0x6002BF6")]
-		[Address(RVA = "0x31C1280", Offset = "0x31BF880", VA = "0x1831C1280")]
+		[Address(RVA = "0x6BBE0C0", Offset = "0x6BBD0C0", VA = "0x6BBE0C0")]
 		get
 		{
 			return default(float);
@@ -53,7 +53,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutRight
 	{
 		[Token(Token = "0x6002BF7")]
-		[Address(RVA = "0x31C1100", Offset = "0x31BF700", VA = "0x1831C1100")]
+		[Address(RVA = "0x6BBE130", Offset = "0x6BBD130", VA = "0x6BBE130")]
 		get
 		{
 			return default(float);
@@ -64,7 +64,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutBottom
 	{
 		[Token(Token = "0x6002BF8")]
-		[Address(RVA = "0x31C0BC0", Offset = "0x31BF1C0", VA = "0x1831C0BC0")]
+		[Address(RVA = "0x6BBE1A0", Offset = "0x6BBD1A0", VA = "0x6BBE1A0")]
 		get
 		{
 			return default(float);
@@ -75,7 +75,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutWidth
 	{
 		[Token(Token = "0x6002BF9")]
-		[Address(RVA = "0x31C1180", Offset = "0x31BF780", VA = "0x1831C1180")]
+		[Address(RVA = "0x6BBE210", Offset = "0x6BBD210", VA = "0x6BBE210")]
 		get
 		{
 			return default(float);
@@ -86,7 +86,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutHeight
 	{
 		[Token(Token = "0x6002BFA")]
-		[Address(RVA = "0x31C0C40", Offset = "0x31BF240", VA = "0x1831C0C40")]
+		[Address(RVA = "0x6BBE280", Offset = "0x6BBD280", VA = "0x6BBE280")]
 		get
 		{
 			return default(float);
@@ -97,7 +97,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutMarginLeft
 	{
 		[Token(Token = "0x6002BFE")]
-		[Address(RVA = "0x31C0D40", Offset = "0x31BF340", VA = "0x1831C0D40")]
+		[Address(RVA = "0x6BBE510", Offset = "0x6BBD510", VA = "0x6BBE510")]
 		get
 		{
 			return default(float);
@@ -108,7 +108,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutMarginTop
 	{
 		[Token(Token = "0x6002BFF")]
-		[Address(RVA = "0x31C0E60", Offset = "0x31BF460", VA = "0x1831C0E60")]
+		[Address(RVA = "0x6BBE5B0", Offset = "0x6BBD5B0", VA = "0x6BBE5B0")]
 		get
 		{
 			return default(float);
@@ -119,7 +119,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutMarginRight
 	{
 		[Token(Token = "0x6002C00")]
-		[Address(RVA = "0x31C0DD0", Offset = "0x31BF3D0", VA = "0x1831C0DD0")]
+		[Address(RVA = "0x6BBE620", Offset = "0x6BBD620", VA = "0x6BBE620")]
 		get
 		{
 			return default(float);
@@ -130,7 +130,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutMarginBottom
 	{
 		[Token(Token = "0x6002C01")]
-		[Address(RVA = "0x31C0CC0", Offset = "0x31BF2C0", VA = "0x1831C0CC0")]
+		[Address(RVA = "0x6BBE6C0", Offset = "0x6BBD6C0", VA = "0x6BBE6C0")]
 		get
 		{
 			return default(float);
@@ -141,7 +141,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutPaddingLeft
 	{
 		[Token(Token = "0x6002C02")]
-		[Address(RVA = "0x31C0F60", Offset = "0x31BF560", VA = "0x1831C0F60")]
+		[Address(RVA = "0x6BBE730", Offset = "0x6BBD730", VA = "0x6BBE730")]
 		get
 		{
 			return default(float);
@@ -152,7 +152,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutPaddingTop
 	{
 		[Token(Token = "0x6002C03")]
-		[Address(RVA = "0x31C1080", Offset = "0x31BF680", VA = "0x1831C1080")]
+		[Address(RVA = "0x6BBE7D0", Offset = "0x6BBD7D0", VA = "0x6BBE7D0")]
 		get
 		{
 			return default(float);
@@ -163,7 +163,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutPaddingRight
 	{
 		[Token(Token = "0x6002C04")]
-		[Address(RVA = "0x31C0FF0", Offset = "0x31BF5F0", VA = "0x1831C0FF0")]
+		[Address(RVA = "0x6BBE840", Offset = "0x6BBD840", VA = "0x6BBE840")]
 		get
 		{
 			return default(float);
@@ -174,7 +174,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutPaddingBottom
 	{
 		[Token(Token = "0x6002C05")]
-		[Address(RVA = "0x31C0EE0", Offset = "0x31BF4E0", VA = "0x1831C0EE0")]
+		[Address(RVA = "0x6BBE8E0", Offset = "0x6BBD8E0", VA = "0x6BBE8E0")]
 		get
 		{
 			return default(float);
@@ -185,7 +185,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutBorderLeft
 	{
 		[Token(Token = "0x6002C06")]
-		[Address(RVA = "0x31C0A20", Offset = "0x31BF020", VA = "0x1831C0A20")]
+		[Address(RVA = "0x6BBE950", Offset = "0x6BBD950", VA = "0x6BBE950")]
 		get
 		{
 			return default(float);
@@ -196,7 +196,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutBorderTop
 	{
 		[Token(Token = "0x6002C07")]
-		[Address(RVA = "0x31C0B40", Offset = "0x31BF140", VA = "0x1831C0B40")]
+		[Address(RVA = "0x6BBE9F0", Offset = "0x6BBD9F0", VA = "0x6BBE9F0")]
 		get
 		{
 			return default(float);
@@ -207,7 +207,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutBorderRight
 	{
 		[Token(Token = "0x6002C08")]
-		[Address(RVA = "0x31C0AB0", Offset = "0x31BF0B0", VA = "0x1831C0AB0")]
+		[Address(RVA = "0x6BBEA60", Offset = "0x6BBDA60", VA = "0x6BBEA60")]
 		get
 		{
 			return default(float);
@@ -218,7 +218,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float LayoutBorderBottom
 	{
 		[Token(Token = "0x6002C09")]
-		[Address(RVA = "0x31C09A0", Offset = "0x31BEFA0", VA = "0x1831C09A0")]
+		[Address(RVA = "0x6BBEB00", Offset = "0x6BBDB00", VA = "0x6BBEB00")]
 		get
 		{
 			return default(float);
@@ -229,7 +229,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float ComputedFlexBasis
 	{
 		[Token(Token = "0x6002C0A")]
-		[Address(RVA = "0x31C0610", Offset = "0x31BEC10", VA = "0x1831C0610")]
+		[Address(RVA = "0x6BBEB70", Offset = "0x6BBDB70", VA = "0x6BBEB70")]
 		get
 		{
 			return default(float);
@@ -240,13 +240,13 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutNode Parent
 	{
 		[Token(Token = "0x6002C0C")]
-		[Address(RVA = "0x31C1370", Offset = "0x31BF970", VA = "0x1831C1370")]
+		[Address(RVA = "0x6BBECD0", Offset = "0x6BBDCD0", VA = "0x6BBECD0")]
 		get
 		{
 			return default(LayoutNode);
 		}
 		[Token(Token = "0x6002C0D")]
-		[Address(RVA = "0x31C2640", Offset = "0x31C0C40", VA = "0x1831C2640")]
+		[Address(RVA = "0x6BBEDC0", Offset = "0x6BBDDC0", VA = "0x6BBEDC0")]
 		set
 		{
 		}
@@ -256,7 +256,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	private LayoutList<LayoutHandle> Children
 	{
 		[Token(Token = "0x6002C0E")]
-		[Address(RVA = "0x31C0590", Offset = "0x31BEB90", VA = "0x1831C0590")]
+		[Address(RVA = "0x6BBEE30", Offset = "0x6BBDE30", VA = "0x6BBEE30")]
 		get
 		{
 			return default(LayoutList<LayoutHandle>);
@@ -267,7 +267,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public int Count
 	{
 		[Token(Token = "0x6002C0F")]
-		[Address(RVA = "0x31C07A0", Offset = "0x31BEDA0", VA = "0x1831C07A0")]
+		[Address(RVA = "0x6BBEEA0", Offset = "0x6BBDEA0", VA = "0x6BBEEA0")]
 		get
 		{
 			return default(int);
@@ -278,7 +278,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutFlexDirection FlexDirection
 	{
 		[Token(Token = "0x6002C13")]
-		[Address(RVA = "0x31C1DE0", Offset = "0x31C03E0", VA = "0x1831C1DE0")]
+		[Address(RVA = "0x6BBF830", Offset = "0x6BBE830", VA = "0x6BBF830")]
 		set
 		{
 		}
@@ -288,7 +288,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutJustify JustifyContent
 	{
 		[Token(Token = "0x6002C14")]
-		[Address(RVA = "0x31C21B0", Offset = "0x31C07B0", VA = "0x1831C21B0")]
+		[Address(RVA = "0x6BBF930", Offset = "0x6BBE930", VA = "0x6BBF930")]
 		set
 		{
 		}
@@ -298,7 +298,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutDisplay Display
 	{
 		[Token(Token = "0x6002C15")]
-		[Address(RVA = "0x31C1CA0", Offset = "0x31C02A0", VA = "0x1831C1CA0")]
+		[Address(RVA = "0x6BBF9D0", Offset = "0x6BBE9D0", VA = "0x6BBF9D0")]
 		set
 		{
 		}
@@ -308,7 +308,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutAlign AlignItems
 	{
 		[Token(Token = "0x6002C16")]
-		[Address(RVA = "0x31C1760", Offset = "0x31BFD60", VA = "0x1831C1760")]
+		[Address(RVA = "0x6BBFA70", Offset = "0x6BBEA70", VA = "0x6BBFA70")]
 		set
 		{
 		}
@@ -318,7 +318,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutAlign AlignSelf
 	{
 		[Token(Token = "0x6002C17")]
-		[Address(RVA = "0x31C1800", Offset = "0x31BFE00", VA = "0x1831C1800")]
+		[Address(RVA = "0x6BBFB10", Offset = "0x6BBEB10", VA = "0x6BBFB10")]
 		set
 		{
 		}
@@ -328,7 +328,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutAlign AlignContent
 	{
 		[Token(Token = "0x6002C18")]
-		[Address(RVA = "0x31C16C0", Offset = "0x31BFCC0", VA = "0x1831C16C0")]
+		[Address(RVA = "0x6BBFBB0", Offset = "0x6BBEBB0", VA = "0x6BBFBB0")]
 		set
 		{
 		}
@@ -338,7 +338,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutPositionType PositionType
 	{
 		[Token(Token = "0x6002C19")]
-		[Address(RVA = "0x31C26D0", Offset = "0x31C0CD0", VA = "0x1831C26D0")]
+		[Address(RVA = "0x6BBFC50", Offset = "0x6BBEC50", VA = "0x6BBFC50")]
 		set
 		{
 		}
@@ -348,7 +348,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutWrap Wrap
 	{
 		[Token(Token = "0x6002C1A")]
-		[Address(RVA = "0x31C28E0", Offset = "0x31C0EE0", VA = "0x1831C28E0")]
+		[Address(RVA = "0x6BBFCF0", Offset = "0x6BBECF0", VA = "0x6BBFCF0")]
 		set
 		{
 		}
@@ -358,7 +358,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float FlexGrow
 	{
 		[Token(Token = "0x6002C1B")]
-		[Address(RVA = "0x31C1E80", Offset = "0x31C0480", VA = "0x1831C1E80")]
+		[Address(RVA = "0x6BBFD90", Offset = "0x6BBED90", VA = "0x6BBFD90")]
 		set
 		{
 		}
@@ -368,7 +368,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float FlexShrink
 	{
 		[Token(Token = "0x6002C1C")]
-		[Address(RVA = "0x31C1F20", Offset = "0x31C0520", VA = "0x1831C1F20")]
+		[Address(RVA = "0x6BBFE70", Offset = "0x6BBEE70", VA = "0x6BBFE70")]
 		set
 		{
 		}
@@ -378,7 +378,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue FlexBasis
 	{
 		[Token(Token = "0x6002C1D")]
-		[Address(RVA = "0x31C1D40", Offset = "0x31C0340", VA = "0x1831C1D40")]
+		[Address(RVA = "0x6BBFF10", Offset = "0x6BBEF10", VA = "0x6BBFF10")]
 		set
 		{
 		}
@@ -388,7 +388,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Width
 	{
 		[Token(Token = "0x6002C1E")]
-		[Address(RVA = "0x31C2830", Offset = "0x31C0E30", VA = "0x1831C2830")]
+		[Address(RVA = "0x6BC0120", Offset = "0x6BBF120", VA = "0x6BC0120")]
 		set
 		{
 		}
@@ -398,7 +398,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Height
 	{
 		[Token(Token = "0x6002C1F")]
-		[Address(RVA = "0x31C2060", Offset = "0x31C0660", VA = "0x1831C2060")]
+		[Address(RVA = "0x6BC02B0", Offset = "0x6BBF2B0", VA = "0x6BC02B0")]
 		set
 		{
 		}
@@ -408,7 +408,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MaxWidth
 	{
 		[Token(Token = "0x6002C20")]
-		[Address(RVA = "0x31C2350", Offset = "0x31C0950", VA = "0x1831C2350")]
+		[Address(RVA = "0x6BC0440", Offset = "0x6BBF440", VA = "0x6BC0440")]
 		set
 		{
 		}
@@ -418,7 +418,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MaxHeight
 	{
 		[Token(Token = "0x6002C21")]
-		[Address(RVA = "0x31C22A0", Offset = "0x31C08A0", VA = "0x1831C22A0")]
+		[Address(RVA = "0x6BC0650", Offset = "0x6BBF650", VA = "0x6BC0650")]
 		set
 		{
 		}
@@ -428,7 +428,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MinWidth
 	{
 		[Token(Token = "0x6002C22")]
-		[Address(RVA = "0x31C24B0", Offset = "0x31C0AB0", VA = "0x1831C24B0")]
+		[Address(RVA = "0x6BC07B0", Offset = "0x6BBF7B0", VA = "0x6BC07B0")]
 		set
 		{
 		}
@@ -438,7 +438,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MinHeight
 	{
 		[Token(Token = "0x6002C23")]
-		[Address(RVA = "0x31C2400", Offset = "0x31C0A00", VA = "0x1831C2400")]
+		[Address(RVA = "0x6BC0910", Offset = "0x6BBF910", VA = "0x6BC0910")]
 		set
 		{
 		}
@@ -448,7 +448,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float AspectRatio
 	{
 		[Token(Token = "0x6002C24")]
-		[Address(RVA = "0x31C18A0", Offset = "0x31BFEA0", VA = "0x1831C18A0")]
+		[Address(RVA = "0x6BC0A70", Offset = "0x6BBFA70", VA = "0x6BC0A70")]
 		set
 		{
 		}
@@ -458,7 +458,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutOverflow Overflow
 	{
 		[Token(Token = "0x6002C25")]
-		[Address(RVA = "0x31C2560", Offset = "0x31C0B60", VA = "0x1831C2560")]
+		[Address(RVA = "0x6BC0B10", Offset = "0x6BBFB10", VA = "0x6BC0B10")]
 		set
 		{
 		}
@@ -468,7 +468,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Left
 	{
 		[Token(Token = "0x6002C26")]
-		[Address(RVA = "0x31C2250", Offset = "0x31C0850", VA = "0x1831C2250")]
+		[Address(RVA = "0x6BC0BB0", Offset = "0x6BBFBB0", VA = "0x6BC0BB0")]
 		set
 		{
 		}
@@ -478,7 +478,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Top
 	{
 		[Token(Token = "0x6002C27")]
-		[Address(RVA = "0x31C2780", Offset = "0x31C0D80", VA = "0x1831C2780")]
+		[Address(RVA = "0x6BC0DE0", Offset = "0x6BBFDE0", VA = "0x6BC0DE0")]
 		set
 		{
 		}
@@ -488,7 +488,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Right
 	{
 		[Token(Token = "0x6002C28")]
-		[Address(RVA = "0x31C2770", Offset = "0x31C0D70", VA = "0x1831C2770")]
+		[Address(RVA = "0x6BC0DF0", Offset = "0x6BBFDF0", VA = "0x6BC0DF0")]
 		set
 		{
 		}
@@ -498,7 +498,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue Bottom
 	{
 		[Token(Token = "0x6002C29")]
-		[Address(RVA = "0x31C1C00", Offset = "0x31C0200", VA = "0x1831C1C00")]
+		[Address(RVA = "0x6BC0E00", Offset = "0x6BBFE00", VA = "0x6BC0E00")]
 		set
 		{
 		}
@@ -508,7 +508,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MarginLeft
 	{
 		[Token(Token = "0x6002C2A")]
-		[Address(RVA = "0x31C2270", Offset = "0x31C0870", VA = "0x1831C2270")]
+		[Address(RVA = "0x6BC0E10", Offset = "0x6BBFE10", VA = "0x6BC0E10")]
 		set
 		{
 		}
@@ -518,7 +518,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MarginTop
 	{
 		[Token(Token = "0x6002C2B")]
-		[Address(RVA = "0x31C2290", Offset = "0x31C0890", VA = "0x1831C2290")]
+		[Address(RVA = "0x6BC10D0", Offset = "0x6BC00D0", VA = "0x6BC10D0")]
 		set
 		{
 		}
@@ -528,7 +528,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MarginRight
 	{
 		[Token(Token = "0x6002C2C")]
-		[Address(RVA = "0x31C2280", Offset = "0x31C0880", VA = "0x1831C2280")]
+		[Address(RVA = "0x6BC10E0", Offset = "0x6BC00E0", VA = "0x6BC10E0")]
 		set
 		{
 		}
@@ -538,7 +538,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue MarginBottom
 	{
 		[Token(Token = "0x6002C2D")]
-		[Address(RVA = "0x31C2260", Offset = "0x31C0860", VA = "0x1831C2260")]
+		[Address(RVA = "0x6BC10F0", Offset = "0x6BC00F0", VA = "0x6BC10F0")]
 		set
 		{
 		}
@@ -548,7 +548,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue PaddingLeft
 	{
 		[Token(Token = "0x6002C2E")]
-		[Address(RVA = "0x31C2610", Offset = "0x31C0C10", VA = "0x1831C2610")]
+		[Address(RVA = "0x6BC1100", Offset = "0x6BC0100", VA = "0x6BC1100")]
 		set
 		{
 		}
@@ -558,7 +558,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue PaddingTop
 	{
 		[Token(Token = "0x6002C2F")]
-		[Address(RVA = "0x31C2630", Offset = "0x31C0C30", VA = "0x1831C2630")]
+		[Address(RVA = "0x6BC1330", Offset = "0x6BC0330", VA = "0x6BC1330")]
 		set
 		{
 		}
@@ -568,7 +568,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue PaddingRight
 	{
 		[Token(Token = "0x6002C30")]
-		[Address(RVA = "0x31C2620", Offset = "0x31C0C20", VA = "0x1831C2620")]
+		[Address(RVA = "0x6BC1340", Offset = "0x6BC0340", VA = "0x6BC1340")]
 		set
 		{
 		}
@@ -578,7 +578,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutValue PaddingBottom
 	{
 		[Token(Token = "0x6002C31")]
-		[Address(RVA = "0x31C2600", Offset = "0x31C0C00", VA = "0x1831C2600")]
+		[Address(RVA = "0x6BC1350", Offset = "0x6BC0350", VA = "0x6BC1350")]
 		set
 		{
 		}
@@ -588,7 +588,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float BorderLeftWidth
 	{
 		[Token(Token = "0x6002C32")]
-		[Address(RVA = "0x31C19F0", Offset = "0x31BFFF0", VA = "0x1831C19F0")]
+		[Address(RVA = "0x6BC1360", Offset = "0x6BC0360", VA = "0x6BC1360")]
 		set
 		{
 		}
@@ -598,7 +598,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float BorderTopWidth
 	{
 		[Token(Token = "0x6002C33")]
-		[Address(RVA = "0x31C1B50", Offset = "0x31C0150", VA = "0x1831C1B50")]
+		[Address(RVA = "0x6BC14F0", Offset = "0x6BC04F0", VA = "0x6BC14F0")]
 		set
 		{
 		}
@@ -608,7 +608,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float BorderRightWidth
 	{
 		[Token(Token = "0x6002C34")]
-		[Address(RVA = "0x31C1AA0", Offset = "0x31C00A0", VA = "0x1831C1AA0")]
+		[Address(RVA = "0x6BC1620", Offset = "0x6BC0620", VA = "0x6BC1620")]
 		set
 		{
 		}
@@ -618,7 +618,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public float BorderBottomWidth
 	{
 		[Token(Token = "0x6002C35")]
-		[Address(RVA = "0x31C1940", Offset = "0x31BFF40", VA = "0x1831C1940")]
+		[Address(RVA = "0x6BC1750", Offset = "0x6BC0750", VA = "0x6BC1750")]
 		set
 		{
 		}
@@ -628,7 +628,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public static LayoutNode Undefined
 	{
 		[Token(Token = "0x6002C42")]
-		[Address(RVA = "0x31C14C0", Offset = "0x31BFAC0", VA = "0x1831C14C0")]
+		[Address(RVA = "0x6BC1A10", Offset = "0x6BC0A10", VA = "0x6BC1A10")]
 		get
 		{
 			return default(LayoutNode);
@@ -639,7 +639,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public bool IsUndefined
 	{
 		[Token(Token = "0x6002C44")]
-		[Address(RVA = "0x31C0970", Offset = "0x31BEF70", VA = "0x1831C0970")]
+		[Address(RVA = "0x6BBE3A0", Offset = "0x6BBD3A0", VA = "0x6BBE3A0")]
 		get
 		{
 			return default(bool);
@@ -650,7 +650,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutHandle Handle
 	{
 		[Token(Token = "0x6002C45")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6BC1A40", Offset = "0x6BC0A40", VA = "0x6BC1A40")]
 		get
 		{
 			return default(LayoutHandle);
@@ -661,7 +661,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public unsafe ref LayoutComputedData Layout
 	{
 		[Token(Token = "0x6002C46")]
-		[Address(RVA = "0x31C1300", Offset = "0x31BF900", VA = "0x1831C1300")]
+		[Address(RVA = "0x6BBE060", Offset = "0x6BBD060", VA = "0x6BBE060")]
 		get
 		{
 			return ref *(LayoutComputedData*)null;
@@ -672,7 +672,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public unsafe ref LayoutStyleData Style
 	{
 		[Token(Token = "0x6002C47")]
-		[Address(RVA = "0x31C1450", Offset = "0x31BFA50", VA = "0x1831C1450")]
+		[Address(RVA = "0x6BBF8D0", Offset = "0x6BBE8D0", VA = "0x6BBF8D0")]
 		get
 		{
 			return ref *(LayoutStyleData*)null;
@@ -683,7 +683,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	internal unsafe ref LayoutCacheData Cache
 	{
 		[Token(Token = "0x6002C48")]
-		[Address(RVA = "0x31C0580", Offset = "0x31BEB80", VA = "0x1831C0580")]
+		[Address(RVA = "0x6BC1A50", Offset = "0x6BC0A50", VA = "0x6BC1A50")]
 		get
 		{
 			return ref *(LayoutCacheData*)null;
@@ -694,13 +694,13 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public bool IsDirty
 	{
 		[Token(Token = "0x6002C49")]
-		[Address(RVA = "0x31C08F0", Offset = "0x31BEEF0", VA = "0x1831C08F0")]
+		[Address(RVA = "0x6BC1AC0", Offset = "0x6BC0AC0", VA = "0x6BC1AC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C4A")]
-		[Address(RVA = "0x31C2110", Offset = "0x31C0710", VA = "0x1831C2110")]
+		[Address(RVA = "0x6BC1B40", Offset = "0x6BC0B40", VA = "0x6BC1B40")]
 		set
 		{
 		}
@@ -710,13 +710,13 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public bool HasNewLayout
 	{
 		[Token(Token = "0x6002C4B")]
-		[Address(RVA = "0x31C0870", Offset = "0x31BEE70", VA = "0x1831C0870")]
+		[Address(RVA = "0x6BC1BC0", Offset = "0x6BC0BC0", VA = "0x6BC1BC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C4C")]
-		[Address(RVA = "0x31C1FC0", Offset = "0x31C05C0", VA = "0x1831C1FC0")]
+		[Address(RVA = "0x6BC1C40", Offset = "0x6BC0C40", VA = "0x6BC1C40")]
 		set
 		{
 		}
@@ -726,13 +726,13 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public bool UsesMeasure
 	{
 		[Token(Token = "0x6002C4D")]
-		[Address(RVA = "0x31C1510", Offset = "0x31BFB10", VA = "0x1831C1510")]
+		[Address(RVA = "0x6BC1CC0", Offset = "0x6BC0CC0", VA = "0x6BC1CC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002C4E")]
-		[Address(RVA = "0x31C2790", Offset = "0x31C0D90", VA = "0x1831C2790")]
+		[Address(RVA = "0x6BC1D40", Offset = "0x6BC0D40", VA = "0x6BC1D40")]
 		set
 		{
 		}
@@ -742,13 +742,13 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 	public LayoutConfig Config
 	{
 		[Token(Token = "0x6002C51")]
-		[Address(RVA = "0x31C0690", Offset = "0x31BEC90", VA = "0x1831C0690")]
+		[Address(RVA = "0x6BC1EC0", Offset = "0x6BC0EC0", VA = "0x6BC1EC0")]
 		get
 		{
 			return default(LayoutConfig);
 		}
 		[Token(Token = "0x6002C52")]
-		[Address(RVA = "0x31C1C10", Offset = "0x31C0210", VA = "0x1831C1C10")]
+		[Address(RVA = "0x6BC1FA0", Offset = "0x6BC0FA0", VA = "0x6BC1FA0")]
 		set
 		{
 		}
@@ -756,7 +756,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002BFB")]
-	[Address(RVA = "0x31BF480", Offset = "0x31BDA80", VA = "0x1831BF480")]
+	[Address(RVA = "0x6BBE2F0", Offset = "0x6BBD2F0", VA = "0x6BBE2F0")]
 	public Rect GetLayoutRect()
 	{
 		return default(Rect);
@@ -764,7 +764,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002BFC")]
-	[Address(RVA = "0x31BF520", Offset = "0x31BDB20", VA = "0x1831BF520")]
+	[Address(RVA = "0x6BBE3C0", Offset = "0x6BBD3C0", VA = "0x6BBE3C0")]
 	public Vector2 GetLayoutSize()
 	{
 		return default(Vector2);
@@ -772,7 +772,7 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002BFD")]
-	[Address(RVA = "0x31BF410", Offset = "0x31BDA10", VA = "0x1831BF410")]
+	[Address(RVA = "0x6BBE470", Offset = "0x6BBD470", VA = "0x6BBE470")]
 	public Vector2 GetLayoutPosition()
 	{
 		return default(Vector2);
@@ -780,182 +780,182 @@ internal struct LayoutNode : IEquatable<LayoutNode>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002C0B")]
-	[Address(RVA = "0x31BF590", Offset = "0x31BDB90", VA = "0x1831BF590")]
+	[Address(RVA = "0x6BBEBE0", Offset = "0x6BBDBE0", VA = "0x6BBEBE0")]
 	private unsafe float GetLayoutValue(float* buffer, LayoutEdge edge)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6002C10")]
-	[Address(RVA = "0x31BF670", Offset = "0x31BDC70", VA = "0x1831BF670")]
+	[Address(RVA = "0x6BBF020", Offset = "0x6BBE020", VA = "0x6BBF020")]
 	public void Insert(int index, LayoutNode child)
 	{
 	}
 
 	[Token(Token = "0x6002C11")]
-	[Address(RVA = "0x31BFA10", Offset = "0x31BE010", VA = "0x1831BFA10")]
+	[Address(RVA = "0x6BBF470", Offset = "0x6BBE470", VA = "0x6BBF470")]
 	public void RemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6002C12")]
-	[Address(RVA = "0x31BED80", Offset = "0x31BD380", VA = "0x1831BED80")]
+	[Address(RVA = "0x6BBF6E0", Offset = "0x6BBE6E0", VA = "0x6BBF6E0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6002C36")]
-	[Address(RVA = "0x31C0330", Offset = "0x31BE930", VA = "0x1831C0330")]
+	[Address(RVA = "0x6BBFE30", Offset = "0x6BBEE30", VA = "0x6BBFE30")]
 	private void SetValue(ref float currentValue, float newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C37")]
-	[Address(RVA = "0x31C0200", Offset = "0x31BE800", VA = "0x1831C0200")]
+	[Address(RVA = "0x6BC05A0", Offset = "0x6BBF5A0", VA = "0x6BC05A0")]
 	private void SetStyleValue(ref LayoutValue currentValue, LayoutValue newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C38")]
-	[Address(RVA = "0x31C0160", Offset = "0x31BE760", VA = "0x1831C0160")]
+	[Address(RVA = "0x6BC0050", Offset = "0x6BBF050", VA = "0x6BC0050")]
 	private void SetStyleValueUnit(ref LayoutValue currentValue, LayoutValue newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C39")]
-	[Address(RVA = "0x31C00B0", Offset = "0x31BE6B0", VA = "0x1831C00B0")]
+	[Address(RVA = "0x6BC18C0", Offset = "0x6BC08C0", VA = "0x6BC18C0")]
 	private void SetStyleValuePoint(ref LayoutValue currentValue, LayoutValue newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C3A")]
-	[Address(RVA = "0x31C0040", Offset = "0x31BE640", VA = "0x1831C0040")]
+	[Address(RVA = "0x6BC1880", Offset = "0x6BC0880", VA = "0x6BC1880")]
 	private void SetStyleValuePercent(ref LayoutValue currentValue, LayoutValue newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C3B")]
-	[Address(RVA = "0x31C0010", Offset = "0x31BE610", VA = "0x1831C0010")]
+	[Address(RVA = "0x6BC1930", Offset = "0x6BC0930", VA = "0x6BC1930")]
 	private void SetStyleValueAuto(ref LayoutValue currentValue)
 	{
 	}
 
 	[Token(Token = "0x6002C3C")]
-	[Address(RVA = "0x31BFEF0", Offset = "0x31BE4F0", VA = "0x1831BFEF0")]
+	[Address(RVA = "0x6BC0BC0", Offset = "0x6BBFBC0", VA = "0x6BC0BC0")]
 	private void SetStyleEdgePosition(LayoutEdge edge, LayoutValue value)
 	{
 	}
 
 	[Token(Token = "0x6002C3D")]
-	[Address(RVA = "0x31BFC30", Offset = "0x31BE230", VA = "0x1831BFC30")]
+	[Address(RVA = "0x6BC0E20", Offset = "0x6BBFE20", VA = "0x6BC0E20")]
 	private void SetStyleEdgeMargin(LayoutEdge edge, LayoutValue value)
 	{
 	}
 
 	[Token(Token = "0x6002C3E")]
-	[Address(RVA = "0x31BFDD0", Offset = "0x31BE3D0", VA = "0x1831BFDD0")]
+	[Address(RVA = "0x6BC1110", Offset = "0x6BC0110", VA = "0x6BC1110")]
 	private void SetStyleEdgePadding(LayoutEdge edge, LayoutValue value)
 	{
 	}
 
 	[Token(Token = "0x6002C3F")]
-	[Address(RVA = "0x31C0470", Offset = "0x31BEA70", VA = "0x1831C0470")]
+	[Address(RVA = "0x6BC1980", Offset = "0x6BC0980", VA = "0x6BC1980")]
 	private void StyleEdgeSetPercent(ref LayoutValue value, float newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C40")]
-	[Address(RVA = "0x31C0010", Offset = "0x31BE610", VA = "0x1831C0010")]
+	[Address(RVA = "0x6BC19C0", Offset = "0x6BC09C0", VA = "0x6BC19C0")]
 	private void StyleEdgeSetAuto(ref LayoutValue value)
 	{
 	}
 
 	[Token(Token = "0x6002C41")]
-	[Address(RVA = "0x31C04F0", Offset = "0x31BEAF0", VA = "0x1831C04F0")]
+	[Address(RVA = "0x6BC1490", Offset = "0x6BC0490", VA = "0x6BC1490")]
 	private void StyleEdgeSetPoint(ref LayoutValue value, float newValue)
 	{
 	}
 
 	[Token(Token = "0x6002C43")]
-	[Address(RVA = "0x31A3B40", Offset = "0x31A2140", VA = "0x1831A3B40")]
+	[Address(RVA = "0x6BBED90", Offset = "0x6BBDD90", VA = "0x6BBED90")]
 	internal LayoutNode(LayoutDataAccess access, LayoutHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6002C4F")]
-	[Address(RVA = "0x31BFC20", Offset = "0x31BE220", VA = "0x1831BFC20")]
+	[Address(RVA = "0x6BC1DE0", Offset = "0x6BC0DE0", VA = "0x6BC1DE0")]
 	public void SetOwner(VisualElement func)
 	{
 	}
 
 	[Token(Token = "0x6002C50")]
-	[Address(RVA = "0x31BF600", Offset = "0x31BDC00", VA = "0x1831BF600")]
+	[Address(RVA = "0x6BC1E50", Offset = "0x6BC0E50", VA = "0x6BC1E50")]
 	public VisualElement GetOwner()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C53")]
-	[Address(RVA = "0x31BF840", Offset = "0x31BDE40", VA = "0x1831BF840")]
+	[Address(RVA = "0x6BBF1E0", Offset = "0x6BBE1E0", VA = "0x6BBF1E0")]
 	public void MarkDirty()
 	{
 	}
 
 	[Token(Token = "0x6002C54")]
-	[Address(RVA = "0x31BF990", Offset = "0x31BDF90", VA = "0x1831BF990")]
+	[Address(RVA = "0x6BC2010", Offset = "0x6BC1010", VA = "0x6BC2010")]
 	public void MarkLayoutSeen()
 	{
 	}
 
 	[Token(Token = "0x6002C55")]
-	[Address(RVA = "0x31BEEE0", Offset = "0x31BD4E0", VA = "0x1831BEEE0")]
+	[Address(RVA = "0x6BC2080", Offset = "0x6BC1080", VA = "0x6BC2080")]
 	public void CopyFromComputedStyle(ComputedStyle style)
 	{
 	}
 
 	[Token(Token = "0x6002C56")]
-	[Address(RVA = "0x31C0380", Offset = "0x31BE980", VA = "0x1831C0380")]
+	[Address(RVA = "0x6BC2450", Offset = "0x6BC1450", VA = "0x6BC2450")]
 	public void SoftReset()
 	{
 	}
 
 	[Token(Token = "0x6002C57")]
-	[Address(RVA = "0x31BF330", Offset = "0x31BD930", VA = "0x1831BF330", Slot = "4")]
+	[Address(RVA = "0x6BC2710", Offset = "0x6BC1710", VA = "0x6BC2710", Slot = "4")]
 	public bool Equals(LayoutNode other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C58")]
-	[Address(RVA = "0x31BF360", Offset = "0x31BD960", VA = "0x1831BF360", Slot = "0")]
+	[Address(RVA = "0x6BC2720", Offset = "0x6BC1720", VA = "0x6BC2720", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C59")]
-	[Address(RVA = "0x31BF400", Offset = "0x31BDA00", VA = "0x1831BF400", Slot = "2")]
+	[Address(RVA = "0x6BC2790", Offset = "0x6BC1790", VA = "0x6BC2790", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C5A")]
-	[Address(RVA = "0x31C1590", Offset = "0x31BFB90", VA = "0x1831C1590")]
+	[Address(RVA = "0x6BC27A0", Offset = "0x6BC17A0", VA = "0x6BC27A0")]
 	public static bool operator ==(LayoutNode lhs, LayoutNode rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C5B")]
-	[Address(RVA = "0x31C1610", Offset = "0x31BFC10", VA = "0x1831C1610")]
+	[Address(RVA = "0x6BC27F0", Offset = "0x6BC17F0", VA = "0x6BC27F0")]
 	public static bool operator !=(LayoutNode lhs, LayoutNode rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C5C")]
-	[Address(RVA = "0x31BEB80", Offset = "0x31BD180", VA = "0x1831BEB80")]
+	[Address(RVA = "0x6BC28B0", Offset = "0x6BC18B0", VA = "0x6BC28B0")]
 	public void CalculateLayout(float width = 0f / 0f, float height = 0f / 0f)
 	{
 	}

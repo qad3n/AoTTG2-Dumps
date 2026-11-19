@@ -31,14 +31,14 @@ public class PhotonVoiceView : VoiceComponent
 	public Recorder RecorderInUse
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x573FF20", Offset = "0x573EF20", VA = "0x573FF20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x573FF30", Offset = "0x573EF30", VA = "0x573FF30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -49,14 +49,14 @@ public class PhotonVoiceView : VoiceComponent
 	public Speaker SpeakerInUse
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x573FF40", Offset = "0x573EF40", VA = "0x573FF40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x573FF50", Offset = "0x573EF50", VA = "0x573FF50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -67,7 +67,7 @@ public class PhotonVoiceView : VoiceComponent
 	public bool IsSpeaking
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x1D9C5E0", Offset = "0x1D9ABE0", VA = "0x181D9C5E0")]
+		[Address(RVA = "0x573FF60", Offset = "0x573EF60", VA = "0x573FF60")]
 		get
 		{
 			return default(bool);
@@ -78,7 +78,7 @@ public class PhotonVoiceView : VoiceComponent
 	public bool IsRecording
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x1D9C560", Offset = "0x1D9AB60", VA = "0x181D9C560")]
+		[Address(RVA = "0x573FFE0", Offset = "0x573EFE0", VA = "0x573FFE0")]
 		get
 		{
 			return default(bool);
@@ -86,37 +86,37 @@ public class PhotonVoiceView : VoiceComponent
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x1D9BDB0", Offset = "0x1D9A3B0", VA = "0x181D9BDB0", Slot = "4")]
+	[Address(RVA = "0x5740060", Offset = "0x573F060", VA = "0x5740060", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x1D9C2D0", Offset = "0x1D9A8D0", VA = "0x181D9C2D0")]
+	[Address(RVA = "0x57407E0", Offset = "0x573F7E0", VA = "0x57407E0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x1D9BE50", Offset = "0x1D9A450", VA = "0x181D9BE50")]
+	[Address(RVA = "0x5740E40", Offset = "0x573FE40", VA = "0x5740E40")]
 	private void SetupRecorder()
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x1D9BE20", Offset = "0x1D9A420", VA = "0x181D9BE20")]
+	[Address(RVA = "0x57417E0", Offset = "0x57407E0", VA = "0x57417E0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x1D9C0A0", Offset = "0x1D9A6A0", VA = "0x181D9C0A0")]
+	[Address(RVA = "0x5741290", Offset = "0x5740290", VA = "0x5741290")]
 	private void SetupSpeaker()
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x1D9C550", Offset = "0x1D9AB50", VA = "0x181D9C550")]
+	[Address(RVA = "0x5741800", Offset = "0x5740800", VA = "0x5741800")]
 	public PhotonVoiceView()
 	{
 	}

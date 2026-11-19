@@ -14,8 +14,8 @@ namespace UnityEngine.Scripting;
 [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event)]
 public class RequiredMemberAttribute : Attribute
 {
-	[Token(Token = "0x6001186")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600119A")]
+	[Address(RVA = "0x6935BA0", Offset = "0x6934BA0", VA = "0x6935BA0")]
 	public RequiredMemberAttribute()
 	{
 	}

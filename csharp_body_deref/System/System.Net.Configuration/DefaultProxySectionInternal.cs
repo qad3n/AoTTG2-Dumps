@@ -9,62 +9,62 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200036B")]
+[Token(Token = "0x2000327")]
 internal sealed class DefaultProxySectionInternal
 {
-	[Token(Token = "0x4000DFC")]
+	[Token(Token = "0x4000D14")]
 	[FieldOffset(Offset = "0x10")]
 	private IWebProxy webProxy;
 
-	[Token(Token = "0x4000DFD")]
+	[Token(Token = "0x4000D15")]
 	[FieldOffset(Offset = "0x0")]
 	private static object classSyncObject;
 
-	[Token(Token = "0x1700050F")]
+	[Token(Token = "0x170004E2")]
 	internal static object ClassSyncObject
 	{
-		[Token(Token = "0x6001764")]
-		[Address(RVA = "0x27F3B10", Offset = "0x27F2110", VA = "0x1827F3B10")]
+		[Token(Token = "0x60015AB")]
+		[Address(RVA = "0x61A4CB0", Offset = "0x61A3CB0", VA = "0x61A4CB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000510")]
+	[Token(Token = "0x170004E3")]
 	internal IWebProxy WebProxy
 	{
-		[Token(Token = "0x6001766")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60015AD")]
+		[Address(RVA = "0x61A4EF0", Offset = "0x61A3EF0", VA = "0x61A4EF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001762")]
-	[Address(RVA = "0x27F3980", Offset = "0x27F1F80", VA = "0x1827F3980")]
+	[Token(Token = "0x60015A9")]
+	[Address(RVA = "0x61A4C90", Offset = "0x61A3C90", VA = "0x61A4C90")]
 	private static IWebProxy GetDefaultProxy_UsingOldMonoCode()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001763")]
-	[Address(RVA = "0x27F3980", Offset = "0x27F1F80", VA = "0x1827F3980")]
+	[Token(Token = "0x60015AA")]
+	[Address(RVA = "0x61A4CA0", Offset = "0x61A3CA0", VA = "0x61A4CA0")]
 	private static IWebProxy GetSystemWebProxy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001765")]
-	[Address(RVA = "0x27F3990", Offset = "0x27F1F90", VA = "0x1827F3990")]
+	[Token(Token = "0x60015AC")]
+	[Address(RVA = "0x61A4D50", Offset = "0x61A3D50", VA = "0x61A4D50")]
 	internal static DefaultProxySectionInternal GetSection()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001767")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60015AE")]
+	[Address(RVA = "0x61A4EE0", Offset = "0x61A3EE0", VA = "0x61A4EE0")]
 	public DefaultProxySectionInternal()
 	{
 	}

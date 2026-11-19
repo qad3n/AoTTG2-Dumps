@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000226")]
+[Token(Token = "0x20001FE")]
 internal struct ExecutionContextSwitcher
 {
-	[Token(Token = "0x4000A01")]
+	[Token(Token = "0x400095F")]
 	[FieldOffset(Offset = "0x0")]
 	internal ExecutionContext.Reader outerEC;
 
-	[Token(Token = "0x4000A02")]
+	[Token(Token = "0x4000960")]
 	[FieldOffset(Offset = "0x8")]
 	internal bool outerECBelongsToScope;
 
-	[Token(Token = "0x4000A03")]
+	[Token(Token = "0x4000961")]
 	[FieldOffset(Offset = "0x10")]
 	internal object hecsw;
 
-	[Token(Token = "0x4000A04")]
+	[Token(Token = "0x4000962")]
 	[FieldOffset(Offset = "0x18")]
 	internal Thread thread;
 
-	[Token(Token = "0x600128F")]
-	[Address(RVA = "0x1B9F0D0", Offset = "0x1B9D6D0", VA = "0x181B9F0D0")]
-	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
+	[Token(Token = "0x6001266")]
+	[Address(RVA = "0x5534AF0", Offset = "0x5533AF0", VA = "0x5534AF0")]
 	[HandleProcessCorruptedStateExceptions]
+	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	internal bool UndoNoThrow()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001290")]
-	[Address(RVA = "0x1B9F0F0", Offset = "0x1B9D6F0", VA = "0x181B9F0F0")]
+	[Token(Token = "0x6001267")]
+	[Address(RVA = "0x5534C20", Offset = "0x5533C20", VA = "0x5534C20")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	internal void Undo()
 	{

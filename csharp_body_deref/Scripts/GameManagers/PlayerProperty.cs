@@ -9,115 +9,115 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x200033F")]
+[Token(Token = "0x20003A1")]
 internal class PlayerProperty
 {
-	[Token(Token = "0x40010C0")]
+	[Token(Token = "0x4001270")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Name;
 
-	[Token(Token = "0x40010C1")]
+	[Token(Token = "0x4001271")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Guild;
 
-	[Token(Token = "0x40010C2")]
+	[Token(Token = "0x4001272")]
 	[FieldOffset(Offset = "0x10")]
 	public static string Status;
 
-	[Token(Token = "0x40010C3")]
+	[Token(Token = "0x4001273")]
 	[FieldOffset(Offset = "0x18")]
 	public static string CharacterViewId;
 
-	[Token(Token = "0x40010C4")]
+	[Token(Token = "0x4001274")]
 	[FieldOffset(Offset = "0x20")]
 	public static string Character;
 
-	[Token(Token = "0x40010C5")]
+	[Token(Token = "0x4001275")]
 	[FieldOffset(Offset = "0x28")]
 	public static string CustomMapHash;
 
-	[Token(Token = "0x40010C6")]
+	[Token(Token = "0x4001276")]
 	[FieldOffset(Offset = "0x30")]
 	public static string CustomLogicHash;
 
-	[Token(Token = "0x40010C7")]
+	[Token(Token = "0x4001277")]
 	[FieldOffset(Offset = "0x38")]
 	public static string CustomAddonHash;
 
-	[Token(Token = "0x40010C8")]
+	[Token(Token = "0x4001278")]
 	[FieldOffset(Offset = "0x40")]
 	public static string Team;
 
-	[Token(Token = "0x40010C9")]
+	[Token(Token = "0x4001279")]
 	[FieldOffset(Offset = "0x48")]
 	public static string Loadout;
 
-	[Token(Token = "0x40010CA")]
+	[Token(Token = "0x400127A")]
 	[FieldOffset(Offset = "0x50")]
 	public static string Kills;
 
-	[Token(Token = "0x40010CB")]
+	[Token(Token = "0x400127B")]
 	[FieldOffset(Offset = "0x58")]
 	public static string Deaths;
 
-	[Token(Token = "0x40010CC")]
+	[Token(Token = "0x400127C")]
 	[FieldOffset(Offset = "0x60")]
 	public static string HighestDamage;
 
-	[Token(Token = "0x40010CD")]
+	[Token(Token = "0x400127D")]
 	[FieldOffset(Offset = "0x68")]
 	public static string TotalDamage;
 
-	[Token(Token = "0x40010CE")]
+	[Token(Token = "0x400127E")]
 	[FieldOffset(Offset = "0x70")]
 	public static string SpawnPoint;
 
-	[Token(Token = "0x40010CF")]
+	[Token(Token = "0x400127F")]
 	[FieldOffset(Offset = "0x78")]
 	public static string CameraDistance;
 
-	[Token(Token = "0x40010D0")]
+	[Token(Token = "0x4001280")]
 	[FieldOffset(Offset = "0x80")]
 	public static string Ping;
 
-	[Token(Token = "0x40010D1")]
+	[Token(Token = "0x4001281")]
 	[FieldOffset(Offset = "0x88")]
 	public static string SpectateID;
 
-	[Token(Token = "0x40010D2")]
+	[Token(Token = "0x4001282")]
 	[FieldOffset(Offset = "0x90")]
 	public static string AccountId;
 
-	[Token(Token = "0x40010D3")]
+	[Token(Token = "0x4001283")]
 	[FieldOffset(Offset = "0x98")]
 	public static string DisplayName;
 
-	[Token(Token = "0x40010D4")]
+	[Token(Token = "0x4001284")]
 	[FieldOffset(Offset = "0xA0")]
 	public static string EmailVerified;
 
-	[Token(Token = "0x40010D5")]
+	[Token(Token = "0x4001285")]
 	[FieldOffset(Offset = "0xA8")]
 	public static string AuthoritativeRoles;
 
-	[Token(Token = "0x40010D6")]
+	[Token(Token = "0x4001286")]
 	[FieldOffset(Offset = "0xB0")]
 	public static string PatreonStatus;
 
-	[Token(Token = "0x40010D7")]
+	[Token(Token = "0x4001287")]
 	[FieldOffset(Offset = "0xB8")]
 	public static string PatreonLinked;
 
-	[Token(Token = "0x40010D8")]
+	[Token(Token = "0x4001288")]
 	[FieldOffset(Offset = "0xC0")]
 	public static string TierIds;
 
-	[Token(Token = "0x40010D9")]
+	[Token(Token = "0x4001289")]
 	[FieldOffset(Offset = "0xC8")]
 	public static string Entitlements;
 
-	[Token(Token = "0x60014CC")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600174C")]
+	[Address(RVA = "0x58578F0", Offset = "0x58568F0", VA = "0x58578F0")]
 	public PlayerProperty()
 	{
 	}

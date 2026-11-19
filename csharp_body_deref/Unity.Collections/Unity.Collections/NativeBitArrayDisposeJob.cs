@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.NativeBitArrayDisposeJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ internal struct NativeBitArrayDisposeJob : IJob
 	public NativeBitArrayDispose Data;
 
 	[Token(Token = "0x600072A")]
-	[Address(RVA = "0x29B4D90", Offset = "0x29B3390", VA = "0x1829B4D90", Slot = "4")]
+	[Address(RVA = "0x637DD00", Offset = "0x637CD00", VA = "0x637DD00", Slot = "4")]
 	public void Execute()
 	{
 	}

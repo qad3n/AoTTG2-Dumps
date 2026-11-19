@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200054B")]
+[Token(Token = "0x2000524")]
 internal struct MonoPropertyInfo
 {
-	[Token(Token = "0x400154C")]
+	[Token(Token = "0x40014AC")]
 	[FieldOffset(Offset = "0x0")]
 	public Type parent;
 
-	[Token(Token = "0x400154D")]
+	[Token(Token = "0x40014AD")]
 	[FieldOffset(Offset = "0x8")]
 	public Type declaring_type;
 
-	[Token(Token = "0x400154E")]
+	[Token(Token = "0x40014AE")]
 	[FieldOffset(Offset = "0x10")]
 	public string name;
 
-	[Token(Token = "0x400154F")]
+	[Token(Token = "0x40014AF")]
 	[FieldOffset(Offset = "0x18")]
 	public MethodInfo get_method;
 
-	[Token(Token = "0x4001550")]
+	[Token(Token = "0x40014B0")]
 	[FieldOffset(Offset = "0x20")]
 	public MethodInfo set_method;
 
-	[Token(Token = "0x4001551")]
+	[Token(Token = "0x40014B1")]
 	[FieldOffset(Offset = "0x28")]
 	public PropertyAttributes attrs;
 }

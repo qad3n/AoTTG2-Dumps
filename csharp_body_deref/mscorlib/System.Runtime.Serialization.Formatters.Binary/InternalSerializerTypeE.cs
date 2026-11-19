@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000428")]
+[Token(Token = "0x2000401")]
 internal enum InternalSerializerTypeE
 {
-	[Token(Token = "0x400106D")]
+	[Token(Token = "0x4000FCD")]
 	Soap = 1,
-	[Token(Token = "0x400106E")]
+	[Token(Token = "0x4000FCE")]
 	Binary
 }

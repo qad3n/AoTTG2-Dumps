@@ -23,53 +23,53 @@ public class RegexConverter : JsonConverter
 	private const string OptionsName = "Options";
 
 	[Token(Token = "0x6000EDF")]
-	[Address(RVA = "0x1CA3260", Offset = "0x1CA1860", VA = "0x181CA3260", Slot = "4")]
+	[Address(RVA = "0x5637A00", Offset = "0x5636A00", VA = "0x5637A00", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000EE0")]
-	[Address(RVA = "0x1A32630", Offset = "0x1A30C30", VA = "0x181A32630")]
+	[Address(RVA = "0x5637DF0", Offset = "0x5636DF0", VA = "0x5637DF0")]
 	private bool HasFlag(RegexOptions options, RegexOptions flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EE1")]
-	[Address(RVA = "0x1CA2F70", Offset = "0x1CA1570", VA = "0x181CA2F70")]
+	[Address(RVA = "0x5637B10", Offset = "0x5636B10", VA = "0x5637B10")]
 	private void WriteBson(BsonWriter writer, Regex regex)
 	{
 	}
 
 	[Token(Token = "0x6000EE2")]
-	[Address(RVA = "0x1CA30A0", Offset = "0x1CA16A0", VA = "0x181CA30A0")]
+	[Address(RVA = "0x5637C40", Offset = "0x5636C40", VA = "0x5637C40")]
 	private void WriteJson(JsonWriter writer, Regex regex, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000EE3")]
-	[Address(RVA = "0x1CA2950", Offset = "0x1CA0F50", VA = "0x181CA2950", Slot = "5")]
+	[Address(RVA = "0x5637E00", Offset = "0x5636E00", VA = "0x5637E00", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x1CA2E10", Offset = "0x1CA1410", VA = "0x181CA2E10")]
+	[Address(RVA = "0x5638140", Offset = "0x5637140", VA = "0x5638140")]
 	private object ReadRegexString(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x1CA2B40", Offset = "0x1CA1140", VA = "0x181CA2B40")]
+	[Address(RVA = "0x5637EA0", Offset = "0x5636EA0", VA = "0x5637EA0")]
 	private Regex ReadRegexObject(JsonReader reader, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE6")]
-	[Address(RVA = "0x1CA2850", Offset = "0x1CA0E50", VA = "0x181CA2850", Slot = "6")]
+	[Address(RVA = "0x5638280", Offset = "0x5637280", VA = "0x5638280", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
@@ -77,14 +77,14 @@ public class RegexConverter : JsonConverter
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6000EE7")]
-	[Address(RVA = "0x1CA28E0", Offset = "0x1CA0EE0", VA = "0x181CA28E0")]
+	[Address(RVA = "0x56382F0", Offset = "0x56372F0", VA = "0x56382F0")]
 	private bool IsRegex(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EE8")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5638360", Offset = "0x5637360", VA = "0x5638360")]
 	public RegexConverter()
 	{
 	}

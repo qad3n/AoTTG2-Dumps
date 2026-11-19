@@ -11,7 +11,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x20003BB")]
+[Token(Token = "0x2000394")]
 [ComVisible(true)]
 public interface IConstructionReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage
 {

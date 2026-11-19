@@ -18,7 +18,7 @@ public class UxmlRootElementFactory : UxmlFactory<VisualElement, UxmlRootElement
 	public override string uxmlName
 	{
 		[Token(Token = "0x600262E")]
-		[Address(RVA = "0x31584D0", Offset = "0x3156AD0", VA = "0x1831584D0", Slot = "4")]
+		[Address(RVA = "0x6B56DD0", Offset = "0x6B55DD0", VA = "0x6B56DD0", Slot = "4")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ public class UxmlRootElementFactory : UxmlFactory<VisualElement, UxmlRootElement
 	public override string uxmlQualifiedName
 	{
 		[Token(Token = "0x600262F")]
-		[Address(RVA = "0x3158500", Offset = "0x3156B00", VA = "0x183158500", Slot = "6")]
+		[Address(RVA = "0x6B56E00", Offset = "0x6B55E00", VA = "0x6B56E00", Slot = "6")]
 		get
 		{
 			return null;
@@ -37,14 +37,14 @@ public class UxmlRootElementFactory : UxmlFactory<VisualElement, UxmlRootElement
 	}
 
 	[Token(Token = "0x6002630")]
-	[Address(RVA = "0xB62B40", Offset = "0xB61140", VA = "0x180B62B40", Slot = "13")]
+	[Address(RVA = "0x6B56E70", Offset = "0x6B55E70", VA = "0x6B56E70", Slot = "13")]
 	public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002631")]
-	[Address(RVA = "0x3158490", Offset = "0x3156A90", VA = "0x183158490")]
+	[Address(RVA = "0x6B56E80", Offset = "0x6B55E80", VA = "0x6B56E80")]
 	public UxmlRootElementFactory()
 	{
 	}

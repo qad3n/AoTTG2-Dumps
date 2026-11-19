@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000506")]
+[Token(Token = "0x20004DF")]
 [Flags]
 public enum EventAttributes
 {
-	[Token(Token = "0x40013DB")]
+	[Token(Token = "0x400133B")]
 	None = 0,
-	[Token(Token = "0x40013DC")]
+	[Token(Token = "0x400133C")]
 	SpecialName = 0x200,
-	[Token(Token = "0x40013DD")]
+	[Token(Token = "0x400133D")]
 	RTSpecialName = 0x400,
-	[Token(Token = "0x40013DE")]
+	[Token(Token = "0x400133E")]
 	ReservedMask = RTSpecialName
 }

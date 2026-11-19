@@ -18,38 +18,38 @@ public class FloatRangeParameter : VolumeParameter<Vector2>
 {
 	[NonSerialized]
 	[Token(Token = "0x40009A1")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x1C")]
 	public float min;
 
 	[NonSerialized]
 	[Token(Token = "0x40009A2")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x20")]
 	public float max;
 
 	[Token(Token = "0x170001F8")]
 	public override Vector2 value
 	{
 		[Token(Token = "0x6000F44")]
-		[Address(RVA = "0x111AD40", Offset = "0x1119340", VA = "0x18111AD40", Slot = "14")]
+		[Address(RVA = "0x6555CC0", Offset = "0x6554CC0", VA = "0x6555CC0", Slot = "14")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000F45")]
-		[Address(RVA = "0x2B588D0", Offset = "0x2B56ED0", VA = "0x182B588D0", Slot = "15")]
+		[Address(RVA = "0x6555CD0", Offset = "0x6554CD0", VA = "0x6555CD0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x2B58850", Offset = "0x2B56E50", VA = "0x182B58850")]
+	[Address(RVA = "0x6555D00", Offset = "0x6554D00", VA = "0x6555D00")]
 	public FloatRangeParameter(Vector2 value, float min, float max, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F47")]
-	[Address(RVA = "0x2B58800", Offset = "0x2B56E00", VA = "0x182B58800", Slot = "16")]
+	[Address(RVA = "0x6555D70", Offset = "0x6554D70", VA = "0x6555D70", Slot = "16")]
 	public override void Interp(Vector2 from, Vector2 to, float t)
 	{
 	}

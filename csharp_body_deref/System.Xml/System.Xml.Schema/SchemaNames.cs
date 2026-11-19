@@ -828,33 +828,33 @@ internal sealed class SchemaNames
 	internal XmlQualifiedName[] TokenToQName;
 
 	[Token(Token = "0x60013E2")]
-	[Address(RVA = "0x2651FB0", Offset = "0x26505B0", VA = "0x182651FB0")]
+	[Address(RVA = "0x5FF8100", Offset = "0x5FF7100", VA = "0x5FF8100")]
 	public SchemaNames(XmlNameTable nameTable)
 	{
 	}
 
 	[Token(Token = "0x60013E3")]
-	[Address(RVA = "0x264EE20", Offset = "0x264D420", VA = "0x18264EE20")]
+	[Address(RVA = "0x5FFB370", Offset = "0x5FFA370", VA = "0x5FFB370")]
 	public void CreateTokenToQNameTable()
 	{
 	}
 
 	[Token(Token = "0x60013E4")]
-	[Address(RVA = "0x2651EF0", Offset = "0x26504F0", VA = "0x182651EF0")]
+	[Address(RVA = "0x5FFDD60", Offset = "0x5FFCD60", VA = "0x5FFDD60")]
 	public SchemaType SchemaTypeFromRoot(string localName, string ns)
 	{
 		return default(SchemaType);
 	}
 
 	[Token(Token = "0x60013E5")]
-	[Address(RVA = "0x2651EA0", Offset = "0x26504A0", VA = "0x182651EA0")]
+	[Address(RVA = "0x5FFDDF0", Offset = "0x5FFCDF0", VA = "0x5FFDDF0")]
 	public bool IsXSDRoot(string localName, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013E6")]
-	[Address(RVA = "0x2651E50", Offset = "0x2650450", VA = "0x182651E50")]
+	[Address(RVA = "0x5FFDE40", Offset = "0x5FFCE40", VA = "0x5FFDE40")]
 	public bool IsXDRRoot(string localName, string ns)
 	{
 		return default(bool);

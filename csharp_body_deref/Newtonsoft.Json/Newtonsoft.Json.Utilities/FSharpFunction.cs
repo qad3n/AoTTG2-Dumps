@@ -21,13 +21,13 @@ internal class FSharpFunction
 	private readonly MethodCall<object?, object> _invoker;
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x55B2570", Offset = "0x55B1570", VA = "0x55B2570")]
 	public FSharpFunction(object? instance, MethodCall<object?, object> invoker)
 	{
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x1C253F0", Offset = "0x1C239F0", VA = "0x181C253F0")]
+	[Address(RVA = "0x55B25B0", Offset = "0x55B15B0", VA = "0x55B25B0")]
 	public object Invoke(params object[] args)
 	{
 		return null;

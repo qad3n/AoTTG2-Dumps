@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.Intrinsics.v64
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -149,103 +149,103 @@ public struct v64
 	public double Double0;
 
 	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x298BF60", Offset = "0x298A560", VA = "0x18298BF60")]
+	[Address(RVA = "0x633F4A0", Offset = "0x633E4A0", VA = "0x633F4A0")]
 	public v64(byte b)
 	{
 	}
 
 	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x298BFC0", Offset = "0x298A5C0", VA = "0x18298BFC0")]
+	[Address(RVA = "0x633F4C0", Offset = "0x633E4C0", VA = "0x633F4C0")]
 	public v64(byte a, byte b, byte c, byte d, byte e, byte f, byte g, byte h)
 	{
 	}
 
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x298BF60", Offset = "0x298A560", VA = "0x18298BF60")]
+	[Address(RVA = "0x633F4F0", Offset = "0x633E4F0", VA = "0x633F4F0")]
 	public v64(sbyte b)
 	{
 	}
 
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x298BFC0", Offset = "0x298A5C0", VA = "0x18298BFC0")]
+	[Address(RVA = "0x633F510", Offset = "0x633E510", VA = "0x633F510")]
 	public v64(sbyte a, sbyte b, sbyte c, sbyte d, sbyte e, sbyte f, sbyte g, sbyte h)
 	{
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x298BFB0", Offset = "0x298A5B0", VA = "0x18298BFB0")]
+	[Address(RVA = "0x633F540", Offset = "0x633E540", VA = "0x633F540")]
 	public v64(short v)
 	{
 	}
 
 	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x298BF90", Offset = "0x298A590", VA = "0x18298BF90")]
+	[Address(RVA = "0x633F550", Offset = "0x633E550", VA = "0x633F550")]
 	public v64(short a, short b, short c, short d)
 	{
 	}
 
 	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x298BFB0", Offset = "0x298A5B0", VA = "0x18298BFB0")]
+	[Address(RVA = "0x633F570", Offset = "0x633E570", VA = "0x633F570")]
 	public v64(ushort v)
 	{
 	}
 
 	[Token(Token = "0x6000AAE")]
-	[Address(RVA = "0x298BF90", Offset = "0x298A590", VA = "0x18298BF90")]
+	[Address(RVA = "0x633F580", Offset = "0x633E580", VA = "0x633F580")]
 	public v64(ushort a, ushort b, ushort c, ushort d)
 	{
 	}
 
 	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0x298BF50", Offset = "0x298A550", VA = "0x18298BF50")]
+	[Address(RVA = "0x633F5A0", Offset = "0x633E5A0", VA = "0x633F5A0")]
 	public v64(int v)
 	{
 	}
 
 	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x633F5B0", Offset = "0x633E5B0", VA = "0x633F5B0")]
 	public v64(int a, int b)
 	{
 	}
 
 	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x298BF50", Offset = "0x298A550", VA = "0x18298BF50")]
+	[Address(RVA = "0x633F5C0", Offset = "0x633E5C0", VA = "0x633F5C0")]
 	public v64(uint v)
 	{
 	}
 
 	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x633F5D0", Offset = "0x633E5D0", VA = "0x633F5D0")]
 	public v64(uint a, uint b)
 	{
 	}
 
 	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x298BF40", Offset = "0x298A540", VA = "0x18298BF40")]
+	[Address(RVA = "0x633F5E0", Offset = "0x633E5E0", VA = "0x633F5E0")]
 	public v64(float f)
 	{
 	}
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x1028C00", Offset = "0x1027200", VA = "0x181028C00")]
+	[Address(RVA = "0x633F5F0", Offset = "0x633E5F0", VA = "0x633F5F0")]
 	public v64(float a, float b)
 	{
 	}
 
 	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x298BF80", Offset = "0x298A580", VA = "0x18298BF80")]
+	[Address(RVA = "0x633F600", Offset = "0x633E600", VA = "0x633F600")]
 	public v64(double a)
 	{
 	}
 
 	[Token(Token = "0x6000AB6")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Address(RVA = "0x633F610", Offset = "0x633E610", VA = "0x633F610")]
 	public v64(long a)
 	{
 	}
 
 	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Address(RVA = "0x633F620", Offset = "0x633E620", VA = "0x633F620")]
 	public v64(ulong a)
 	{
 	}

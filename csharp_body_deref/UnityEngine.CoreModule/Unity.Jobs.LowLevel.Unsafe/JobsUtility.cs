@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Jobs.LowLevel.Unsafe.JobsUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ public static class JobsUtility
 		public IntPtr JobDataPtr;
 
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x2ECC070", Offset = "0x2ECA670", VA = "0x182ECC070")]
+		[Address(RVA = "0x68B36E0", Offset = "0x68B26E0", VA = "0x68B36E0")]
 		public unsafe JobScheduleParameters(void* i_jobData, IntPtr i_reflectionData, JobHandle i_dependency, ScheduleMode i_scheduleMode)
 		{
 		}
@@ -58,7 +58,7 @@ public static class JobsUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x2ECC5A0", Offset = "0x2ECABA0", VA = "0x182ECC5A0")]
+		[Address(RVA = "0x68B3570", Offset = "0x68B2570", VA = "0x68B3570")]
 		[UnityEngine.Bindings.NativeMethod(Name = "GetIsExecutingScriptingJob", IsFreeFunction = true, IsThreadSafe = true)]
 		get;
 	}
@@ -68,7 +68,7 @@ public static class JobsUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x2ECC630", Offset = "0x2ECAC30", VA = "0x182ECC630")]
+		[Address(RVA = "0x68B35A0", Offset = "0x68B25A0", VA = "0x68B35A0")]
 		[UnityEngine.Bindings.FreeFunction]
 		set;
 	}
@@ -77,7 +77,7 @@ public static class JobsUtility
 	public static int JobWorkerCount
 	{
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x2ECC1C0", Offset = "0x2ECA7C0", VA = "0x182ECC1C0")]
+		[Address(RVA = "0x68B3600", Offset = "0x68B2600", VA = "0x68B3600")]
 		get
 		{
 			return default(int);
@@ -89,7 +89,7 @@ public static class JobsUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x2ECC600", Offset = "0x2ECAC00", VA = "0x182ECC600")]
+		[Address(RVA = "0x68B3630", Offset = "0x68B2630", VA = "0x68B3630")]
 		[BurstAuthorizedExternalMethod]
 		[UnityEngine.Bindings.FreeFunction("GetJobWorkerIndex", IsThreadSafe = true)]
 		get;
@@ -100,26 +100,26 @@ public static class JobsUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x2ECC5D0", Offset = "0x2ECABD0", VA = "0x182ECC5D0")]
+		[Address(RVA = "0x68B3660", Offset = "0x68B2660", VA = "0x68B3660")]
 		[UnityEngine.Bindings.FreeFunction("GetJobWorkerIndexCount", IsThreadSafe = true)]
 		[BurstAuthorizedExternalMethod]
 		get;
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2ECC1F0", Offset = "0x2ECA7F0", VA = "0x182ECC1F0")]
+	[Address(RVA = "0x68B3160", Offset = "0x68B2160", VA = "0x68B3160")]
 	public static void GetJobRange(ref JobRanges ranges, int jobIndex, out int beginIndex, out int endIndex)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2ECC240", Offset = "0x2ECA840", VA = "0x182ECC240")]
+	[Address(RVA = "0x68B31A0", Offset = "0x68B21A0", VA = "0x68B31A0")]
 	[UnityEngine.Bindings.NativeMethod(IsFreeFunction = true, IsThreadSafe = true)]
 	public static extern bool GetWorkStealingRange(ref JobRanges ranges, int jobIndex, out int beginIndex, out int endIndex);
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2ECC550", Offset = "0x2ECAB50", VA = "0x182ECC550")]
+	[Address(RVA = "0x68B31F0", Offset = "0x68B21F0", VA = "0x68B31F0")]
 	[UnityEngine.Bindings.FreeFunction("ScheduleManagedJob", ThrowsException = true, IsThreadSafe = true)]
 	public static JobHandle Schedule(ref JobScheduleParameters parameters)
 	{
@@ -127,7 +127,7 @@ public static class JobsUtility
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2ECC4A0", Offset = "0x2ECAAA0", VA = "0x182ECC4A0")]
+	[Address(RVA = "0x68B3280", Offset = "0x68B2280", VA = "0x68B3280")]
 	[UnityEngine.Bindings.FreeFunction("ScheduleManagedJobParallelFor", ThrowsException = true, IsThreadSafe = true)]
 	public static JobHandle ScheduleParallelFor(ref JobScheduleParameters parameters, int arrayLength, int innerloopBatchCount)
 	{
@@ -135,7 +135,7 @@ public static class JobsUtility
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2ECC330", Offset = "0x2ECA930", VA = "0x182ECC330")]
+	[Address(RVA = "0x68B3330", Offset = "0x68B2330", VA = "0x68B3330")]
 	[UnityEngine.Bindings.FreeFunction("ScheduleManagedJobParallelForDeferArraySize", ThrowsException = true, IsThreadSafe = true)]
 	public unsafe static JobHandle ScheduleParallelForDeferArraySize(ref JobScheduleParameters parameters, int innerloopBatchCount, void* listData, void* listDataAtomicSafetyHandle)
 	{
@@ -143,7 +143,7 @@ public static class JobsUtility
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2ECC3F0", Offset = "0x2ECA9F0", VA = "0x182ECC3F0")]
+	[Address(RVA = "0x68B33E0", Offset = "0x68B23E0", VA = "0x68B33E0")]
 	[UnityEngine.Bindings.FreeFunction("ScheduleManagedJobParallelForTransform", ThrowsException = true)]
 	public static JobHandle ScheduleParallelForTransform(ref JobScheduleParameters parameters, IntPtr transfromAccesssArray)
 	{
@@ -152,19 +152,19 @@ public static class JobsUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2ECC110", Offset = "0x2ECA710", VA = "0x182ECC110")]
+	[Address(RVA = "0x68B3470", Offset = "0x68B2470", VA = "0x68B3470")]
 	[UnityEngine.Bindings.FreeFunction(ThrowsException = true, IsThreadSafe = true)]
 	private static extern IntPtr CreateJobReflectionData(Type wrapperJobType, Type userJobType, object managedJobFunction0, object managedJobFunction1, object managedJobFunction2);
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2ECC0B0", Offset = "0x2ECA6B0", VA = "0x182ECC0B0")]
+	[Address(RVA = "0x68B34D0", Offset = "0x68B24D0", VA = "0x68B34D0")]
 	public static IntPtr CreateJobReflectionData(Type type, object managedJobFunction0, [Optional] object managedJobFunction1, [Optional] object managedJobFunction2)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2ECC160", Offset = "0x2ECA760", VA = "0x182ECC160")]
+	[Address(RVA = "0x68B3520", Offset = "0x68B2520", VA = "0x68B3520")]
 	public static IntPtr CreateJobReflectionData(Type wrapperJobType, Type userJobType, object managedJobFunction0)
 	{
 		return default(IntPtr);
@@ -172,12 +172,12 @@ public static class JobsUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2ECC1C0", Offset = "0x2ECA7C0", VA = "0x182ECC1C0")]
+	[Address(RVA = "0x68B35D0", Offset = "0x68B25D0", VA = "0x68B35D0")]
 	[UnityEngine.Bindings.FreeFunction("JobSystem::GetJobQueueWorkerThreadCount")]
 	private static extern int GetJobQueueWorkerThreadCount();
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x2ECC290", Offset = "0x2ECA890", VA = "0x182ECC290")]
+	[Address(RVA = "0x68B3690", Offset = "0x68B2690", VA = "0x68B3690")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokePanicFunction()
 	{
@@ -185,21 +185,21 @@ public static class JobsUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x2ECC500", Offset = "0x2ECAB00", VA = "0x182ECC500")]
+	[Address(RVA = "0x68B3240", Offset = "0x68B2240", VA = "0x68B3240")]
 	private static extern void Schedule_Injected(ref JobScheduleParameters parameters, out JobHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x2ECC450", Offset = "0x2ECAA50", VA = "0x182ECC450")]
+	[Address(RVA = "0x68B32E0", Offset = "0x68B22E0", VA = "0x68B32E0")]
 	private static extern void ScheduleParallelFor_Injected(ref JobScheduleParameters parameters, int arrayLength, int innerloopBatchCount, out JobHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2ECC2E0", Offset = "0x2ECA8E0", VA = "0x182ECC2E0")]
+	[Address(RVA = "0x68B3390", Offset = "0x68B2390", VA = "0x68B3390")]
 	private unsafe static extern void ScheduleParallelForDeferArraySize_Injected(ref JobScheduleParameters parameters, int innerloopBatchCount, void* listData, void* listDataAtomicSafetyHandle, out JobHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2ECC390", Offset = "0x2ECA990", VA = "0x182ECC390")]
+	[Address(RVA = "0x68B3430", Offset = "0x68B2430", VA = "0x68B3430")]
 	private static extern void ScheduleParallelForTransform_Injected(ref JobScheduleParameters parameters, IntPtr transfromAccesssArray, out JobHandle ret);
 }

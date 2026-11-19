@@ -34,38 +34,38 @@ public class DebugUIHandlerValue : DebugUIHandlerWidget
 	private static readonly Color k_ZeroColor;
 
 	[Token(Token = "0x60014C8")]
-	[Address(RVA = "0x2BB2620", Offset = "0x2BB0C20", VA = "0x182BB2620", Slot = "4")]
+	[Address(RVA = "0x65AD350", Offset = "0x65AC350", VA = "0x65AD350", Slot = "4")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60014C9")]
-	[Address(RVA = "0x2BB2630", Offset = "0x2BB0C30", VA = "0x182BB2630", Slot = "5")]
+	[Address(RVA = "0x65AD360", Offset = "0x65AC360", VA = "0x65AD360", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60014CA")]
-	[Address(RVA = "0x2BACCA0", Offset = "0x2BAB2A0", VA = "0x182BACCA0", Slot = "6")]
+	[Address(RVA = "0x65AD3F0", Offset = "0x65AC3F0", VA = "0x65AD3F0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014CB")]
-	[Address(RVA = "0x2BACC20", Offset = "0x2BAB220", VA = "0x182BACC20", Slot = "7")]
+	[Address(RVA = "0x65AD450", Offset = "0x65AC450", VA = "0x65AD450", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x60014CC")]
-	[Address(RVA = "0x2BB26D0", Offset = "0x2BB0CD0", VA = "0x182BB26D0")]
+	[Address(RVA = "0x65AD4B0", Offset = "0x65AC4B0", VA = "0x65AD4B0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60014CD")]
-	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
+	[Address(RVA = "0x65AD620", Offset = "0x65AC620", VA = "0x65AD620")]
 	public DebugUIHandlerValue()
 	{
 	}

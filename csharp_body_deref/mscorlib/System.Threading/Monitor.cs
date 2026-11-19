@@ -11,116 +11,116 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200022C")]
+[Token(Token = "0x2000204")]
 public static class Monitor
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x1BB0500", Offset = "0x1BAEB00", VA = "0x181BB0500")]
+	[Token(Token = "0x600129C")]
+	[Address(RVA = "0x5531300", Offset = "0x5530300", VA = "0x5531300")]
 	public static extern void Enter(object obj);
 
-	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x1BB0480", Offset = "0x1BAEA80", VA = "0x181BB0480")]
+	[Token(Token = "0x600129D")]
+	[Address(RVA = "0x552D580", Offset = "0x552C580", VA = "0x552D580")]
 	public static void Enter(object obj, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x60012C7")]
-	[Address(RVA = "0x1BB09B0", Offset = "0x1BAEFB0", VA = "0x181BB09B0")]
+	[Token(Token = "0x600129E")]
+	[Address(RVA = "0x5537350", Offset = "0x5536350", VA = "0x5537350")]
 	private static void ThrowLockTakenException()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012C8")]
-	[Address(RVA = "0x1BB0510", Offset = "0x1BAEB10", VA = "0x181BB0510")]
+	[Token(Token = "0x600129F")]
+	[Address(RVA = "0x5531310", Offset = "0x5530310", VA = "0x5531310")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static extern void Exit(object obj);
 
-	[Token(Token = "0x60012C9")]
-	[Address(RVA = "0x1BB0A20", Offset = "0x1BAF020", VA = "0x181BB0A20")]
+	[Token(Token = "0x60012A0")]
+	[Address(RVA = "0x5537420", Offset = "0x5536420", VA = "0x5537420")]
 	public static void TryEnter(object obj, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x60012CA")]
-	[Address(RVA = "0x1BB0AA0", Offset = "0x1BAF0A0", VA = "0x181BB0AA0")]
+	[Token(Token = "0x60012A1")]
+	[Address(RVA = "0x5537570", Offset = "0x5536570", VA = "0x5537570")]
 	public static bool Wait(object obj, int millisecondsTimeout, bool exitContext)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012CB")]
-	[Address(RVA = "0x1BB0AA0", Offset = "0x1BAF0A0", VA = "0x181BB0AA0")]
+	[Token(Token = "0x60012A2")]
+	[Address(RVA = "0x552E460", Offset = "0x552D460", VA = "0x552E460")]
 	public static bool Wait(object obj, int millisecondsTimeout)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012CC")]
-	[Address(RVA = "0x1BB07D0", Offset = "0x1BAEDD0", VA = "0x181BB07D0")]
+	[Token(Token = "0x60012A3")]
+	[Address(RVA = "0x5532930", Offset = "0x5531930", VA = "0x5532930")]
 	public static void Pulse(object obj)
 	{
 	}
 
-	[Token(Token = "0x60012CD")]
-	[Address(RVA = "0x1BB0710", Offset = "0x1BAED10", VA = "0x181BB0710")]
+	[Token(Token = "0x60012A4")]
+	[Address(RVA = "0x552D970", Offset = "0x552C970", VA = "0x552D970")]
 	public static void PulseAll(object obj)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012CE")]
-	[Address(RVA = "0x1BB0540", Offset = "0x1BAEB40", VA = "0x181BB0540")]
+	[Token(Token = "0x60012A5")]
+	[Address(RVA = "0x5537740", Offset = "0x5536740", VA = "0x5537740")]
 	private static extern bool Monitor_test_synchronised(object obj);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012CF")]
-	[Address(RVA = "0x1BB0530", Offset = "0x1BAEB30", VA = "0x181BB0530")]
+	[Token(Token = "0x60012A6")]
+	[Address(RVA = "0x5537750", Offset = "0x5536750", VA = "0x5537750")]
 	private static extern void Monitor_pulse(object obj);
 
-	[Token(Token = "0x60012D0")]
-	[Address(RVA = "0x1BB05D0", Offset = "0x1BAEBD0", VA = "0x181BB05D0")]
+	[Token(Token = "0x60012A7")]
+	[Address(RVA = "0x5537680", Offset = "0x5536680", VA = "0x5537680")]
 	private static void ObjPulse(object obj)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012D1")]
-	[Address(RVA = "0x1BB0520", Offset = "0x1BAEB20", VA = "0x181BB0520")]
+	[Token(Token = "0x60012A8")]
+	[Address(RVA = "0x5537760", Offset = "0x5536760", VA = "0x5537760")]
 	private static extern void Monitor_pulse_all(object obj);
 
-	[Token(Token = "0x60012D2")]
-	[Address(RVA = "0x1BB0560", Offset = "0x1BAEB60", VA = "0x181BB0560")]
+	[Token(Token = "0x60012A9")]
+	[Address(RVA = "0x55376E0", Offset = "0x55366E0", VA = "0x55376E0")]
 	private static void ObjPulseAll(object obj)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012D3")]
-	[Address(RVA = "0x1BB0550", Offset = "0x1BAEB50", VA = "0x181BB0550")]
+	[Token(Token = "0x60012AA")]
+	[Address(RVA = "0x5537770", Offset = "0x5536770", VA = "0x5537770")]
 	private static extern bool Monitor_wait(object obj, int ms);
 
-	[Token(Token = "0x60012D4")]
-	[Address(RVA = "0x1BB0640", Offset = "0x1BAEC40", VA = "0x181BB0640")]
+	[Token(Token = "0x60012AB")]
+	[Address(RVA = "0x55375D0", Offset = "0x55365D0", VA = "0x55375D0")]
 	private static bool ObjWait(bool exitContext, int millisecondsTimeout, object obj)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012D5")]
-	[Address(RVA = "0x1BB0BC0", Offset = "0x1BAF1C0", VA = "0x181BB0BC0")]
+	[Token(Token = "0x60012AC")]
+	[Address(RVA = "0x5537780", Offset = "0x5536780", VA = "0x5537780")]
 	private static extern void try_enter_with_atomic_var(object obj, int millisecondsTimeout, ref bool lockTaken);
 
-	[Token(Token = "0x60012D6")]
-	[Address(RVA = "0x1BB0890", Offset = "0x1BAEE90", VA = "0x181BB0890")]
+	[Token(Token = "0x60012AD")]
+	[Address(RVA = "0x55374E0", Offset = "0x55364E0", VA = "0x55374E0")]
 	private static void ReliableEnterTimeout(object obj, int timeout, ref bool lockTaken)
 	{
 	}
 
-	[Token(Token = "0x60012D7")]
-	[Address(RVA = "0x1BB0940", Offset = "0x1BAEF40", VA = "0x181BB0940")]
+	[Token(Token = "0x60012AE")]
+	[Address(RVA = "0x55373C0", Offset = "0x55363C0", VA = "0x55373C0")]
 	private static void ReliableEnter(object obj, ref bool lockTaken)
 	{
 	}

@@ -11,190 +11,190 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000332")]
+[Token(Token = "0x20002F3")]
 public class ServicePointManager
 {
-	[Token(Token = "0x2000333")]
+	[Token(Token = "0x20002F4")]
 	internal class SPKey
 	{
-		[Token(Token = "0x4000CAA")]
+		[Token(Token = "0x4000BDB")]
 		[FieldOffset(Offset = "0x10")]
 		private Uri uri;
 
-		[Token(Token = "0x4000CAB")]
+		[Token(Token = "0x4000BDC")]
 		[FieldOffset(Offset = "0x18")]
 		private Uri proxy;
 
-		[Token(Token = "0x4000CAC")]
+		[Token(Token = "0x4000BDD")]
 		[FieldOffset(Offset = "0x20")]
 		private bool use_connect;
 
-		[Token(Token = "0x170004C8")]
+		[Token(Token = "0x17000499")]
 		public bool UsesProxy
 		{
-			[Token(Token = "0x6001635")]
-			[Address(RVA = "0x27E80B0", Offset = "0x27E66B0", VA = "0x1827E80B0")]
+			[Token(Token = "0x6001477")]
+			[Address(RVA = "0x618F990", Offset = "0x618E990", VA = "0x618F990")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x6001634")]
-		[Address(RVA = "0x1A1E5E0", Offset = "0x1A1CBE0", VA = "0x181A1E5E0")]
+		[Token(Token = "0x6001476")]
+		[Address(RVA = "0x618F8B0", Offset = "0x618E8B0", VA = "0x618F8B0")]
 		public SPKey(Uri uri, Uri proxy, bool use_connect)
 		{
 		}
 
-		[Token(Token = "0x6001636")]
-		[Address(RVA = "0x27E7FD0", Offset = "0x27E65D0", VA = "0x1827E7FD0", Slot = "2")]
+		[Token(Token = "0x6001478")]
+		[Address(RVA = "0x618F9E0", Offset = "0x618E9E0", VA = "0x618F9E0", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6001637")]
-		[Address(RVA = "0x27E7EC0", Offset = "0x27E64C0", VA = "0x1827E7EC0", Slot = "0")]
+		[Token(Token = "0x6001479")]
+		[Address(RVA = "0x618FAB0", Offset = "0x618EAB0", VA = "0x618FAB0", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x4000C9C")]
+	[Token(Token = "0x4000BCD")]
 	[FieldOffset(Offset = "0x0")]
 	private static ConcurrentDictionary<SPKey, ServicePoint> servicePoints;
 
-	[Token(Token = "0x4000C9D")]
+	[Token(Token = "0x4000BCE")]
 	[FieldOffset(Offset = "0x8")]
 	private static ICertificatePolicy policy;
 
-	[Token(Token = "0x4000C9E")]
+	[Token(Token = "0x4000BCF")]
 	[FieldOffset(Offset = "0x10")]
 	private static int defaultConnectionLimit;
 
-	[Token(Token = "0x4000C9F")]
+	[Token(Token = "0x4000BD0")]
 	[FieldOffset(Offset = "0x14")]
 	private static int maxServicePointIdleTime;
 
-	[Token(Token = "0x4000CA0")]
+	[Token(Token = "0x4000BD1")]
 	[FieldOffset(Offset = "0x18")]
 	private static int maxServicePoints;
 
-	[Token(Token = "0x4000CA1")]
+	[Token(Token = "0x4000BD2")]
 	[FieldOffset(Offset = "0x1C")]
 	private static int dnsRefreshTimeout;
 
-	[Token(Token = "0x4000CA2")]
+	[Token(Token = "0x4000BD3")]
 	[FieldOffset(Offset = "0x20")]
 	private static bool _checkCRL;
 
-	[Token(Token = "0x4000CA3")]
+	[Token(Token = "0x4000BD4")]
 	[FieldOffset(Offset = "0x24")]
 	private static SecurityProtocolType _securityProtocol;
 
-	[Token(Token = "0x4000CA4")]
+	[Token(Token = "0x4000BD5")]
 	[FieldOffset(Offset = "0x28")]
 	private static bool expectContinue;
 
-	[Token(Token = "0x4000CA5")]
+	[Token(Token = "0x4000BD6")]
 	[FieldOffset(Offset = "0x29")]
 	private static bool useNagle;
 
-	[Token(Token = "0x4000CA6")]
+	[Token(Token = "0x4000BD7")]
 	[FieldOffset(Offset = "0x30")]
 	private static ServerCertValidationCallback server_cert_cb;
 
-	[Token(Token = "0x4000CA7")]
+	[Token(Token = "0x4000BD8")]
 	[FieldOffset(Offset = "0x38")]
 	private static bool tcp_keepalive;
 
-	[Token(Token = "0x4000CA8")]
+	[Token(Token = "0x4000BD9")]
 	[FieldOffset(Offset = "0x3C")]
 	private static int tcp_keepalive_time;
 
-	[Token(Token = "0x4000CA9")]
+	[Token(Token = "0x4000BDA")]
 	[FieldOffset(Offset = "0x40")]
 	private static int tcp_keepalive_interval;
 
-	[Token(Token = "0x170004C3")]
+	[Token(Token = "0x17000494")]
 	[System.MonoTODO("CRL checks not implemented")]
 	public static bool CheckCertificateRevocationList
 	{
-		[Token(Token = "0x600162D")]
-		[Address(RVA = "0x27E8FC0", Offset = "0x27E75C0", VA = "0x1827E8FC0")]
+		[Token(Token = "0x600146F")]
+		[Address(RVA = "0x618F650", Offset = "0x618E650", VA = "0x618F650")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004C4")]
+	[Token(Token = "0x17000495")]
 	public static int DnsRefreshTimeout
 	{
-		[Token(Token = "0x600162E")]
-		[Address(RVA = "0x27E9010", Offset = "0x27E7610", VA = "0x1827E9010")]
+		[Token(Token = "0x6001470")]
+		[Address(RVA = "0x618F6C0", Offset = "0x618E6C0", VA = "0x618F6C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170004C5")]
+	[Token(Token = "0x17000496")]
 	public static SecurityProtocolType SecurityProtocol
 	{
-		[Token(Token = "0x600162F")]
-		[Address(RVA = "0x27E9060", Offset = "0x27E7660", VA = "0x1827E9060")]
+		[Token(Token = "0x6001471")]
+		[Address(RVA = "0x618F730", Offset = "0x618E730", VA = "0x618F730")]
 		get
 		{
 			return default(SecurityProtocolType);
 		}
 	}
 
-	[Token(Token = "0x170004C6")]
+	[Token(Token = "0x17000497")]
 	internal static ServerCertValidationCallback ServerCertValidationCallback
 	{
-		[Token(Token = "0x6001630")]
-		[Address(RVA = "0x27E90B0", Offset = "0x27E76B0", VA = "0x1827E90B0")]
+		[Token(Token = "0x6001472")]
+		[Address(RVA = "0x618F7A0", Offset = "0x618E7A0", VA = "0x618F7A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004C7")]
+	[Token(Token = "0x17000498")]
 	public static RemoteCertificateValidationCallback ServerCertificateValidationCallback
 	{
-		[Token(Token = "0x6001631")]
-		[Address(RVA = "0x27E9100", Offset = "0x27E7700", VA = "0x1827E9100")]
+		[Token(Token = "0x6001473")]
+		[Address(RVA = "0x618F810", Offset = "0x618E810", VA = "0x618F810")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600162B")]
-	[Address(RVA = "0x27E8EB0", Offset = "0x27E74B0", VA = "0x1827E8EB0")]
+	[Token(Token = "0x600146D")]
+	[Address(RVA = "0x618F530", Offset = "0x618E530", VA = "0x618F530")]
 	static ServicePointManager()
 	{
 	}
 
-	[Token(Token = "0x600162C")]
-	[Address(RVA = "0x27E8DD0", Offset = "0x27E73D0", VA = "0x1827E8DD0")]
+	[Token(Token = "0x600146E")]
+	[Address(RVA = "0x618F5E0", Offset = "0x618E5E0", VA = "0x618F5E0")]
 	internal static ICertificatePolicy GetLegacyCertificatePolicy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001632")]
-	[Address(RVA = "0x27E8550", Offset = "0x27E6B50", VA = "0x1827E8550")]
+	[Token(Token = "0x6001474")]
+	[Address(RVA = "0x6185640", Offset = "0x6184640", VA = "0x6185640")]
 	public static ServicePoint FindServicePoint(Uri address, IWebProxy proxy)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001633")]
-	[Address(RVA = "0x27E8E20", Offset = "0x27E7420", VA = "0x1827E8E20")]
+	[Token(Token = "0x6001475")]
+	[Address(RVA = "0x618F900", Offset = "0x618E900", VA = "0x618F900")]
 	internal static void RemoveServicePoint(ServicePoint sp)
 	{
 	}

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000F9")]
+[Token(Token = "0x20000FF")]
 public interface IGisketchActionHandler
 {
-	[Token(Token = "0x6000772")]
+	[Token(Token = "0x60007C0")]
 	void HandleAction(string actionId, GisketchActionContext context);
 }

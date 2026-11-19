@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000070")]
+[Token(Token = "0x2000071")]
 internal sealed class ScopeWithType : ScopeN
 {
-	[Token(Token = "0x17000068")]
+	[Token(Token = "0x1700006A")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "5")]
+		[Token(Token = "0x60002F2")]
+		[Address(RVA = "0x5DC57E0", Offset = "0x5DC47E0", VA = "0x5DC57E0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,14 +27,14 @@ internal sealed class ScopeWithType : ScopeN
 		}
 	}
 
-	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x243F080", Offset = "0x243D680", VA = "0x18243F080")]
+	[Token(Token = "0x60002F1")]
+	[Address(RVA = "0x5DC5750", Offset = "0x5DC4750", VA = "0x5DC5750")]
 	internal ScopeWithType(IReadOnlyList<ParameterExpression> variables, IReadOnlyList<Expression> expressions, Type type)
 	{
 	}
 
-	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x243EEF0", Offset = "0x243D4F0", VA = "0x18243EEF0", Slot = "14")]
+	[Token(Token = "0x60002F3")]
+	[Address(RVA = "0x5DC57F0", Offset = "0x5DC47F0", VA = "0x5DC57F0", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

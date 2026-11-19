@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000132")]
+[Token(Token = "0x20000F3")]
 public enum X509RevocationMode
 {
-	[Token(Token = "0x4000582")]
+	[Token(Token = "0x40004B3")]
 	NoCheck,
-	[Token(Token = "0x4000583")]
+	[Token(Token = "0x40004B4")]
 	Online,
-	[Token(Token = "0x4000584")]
+	[Token(Token = "0x40004B5")]
 	Offline
 }

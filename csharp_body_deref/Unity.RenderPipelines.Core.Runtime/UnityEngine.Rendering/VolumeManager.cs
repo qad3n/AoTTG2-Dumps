@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VolumeManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -75,7 +75,7 @@ public sealed class VolumeManager
 	public static VolumeManager instance
 	{
 		[Token(Token = "0x6000813")]
-		[Address(RVA = "0x2B1E3B0", Offset = "0x2B1C9B0", VA = "0x182B1E3B0")]
+		[Address(RVA = "0x64F6D70", Offset = "0x64F5D70", VA = "0x64F6D70")]
 		get
 		{
 			return null;
@@ -86,14 +86,14 @@ public sealed class VolumeManager
 	public VolumeStack stack
 	{
 		[Token(Token = "0x6000814")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x64F6E00", Offset = "0x64F5E00", VA = "0x64F6E00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000815")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x64F6E10", Offset = "0x64F5E10", VA = "0x64F6E10")]
 		[CompilerGenerated]
 		set
 		{
@@ -105,7 +105,7 @@ public sealed class VolumeManager
 	public IEnumerable<Type> baseComponentTypes
 	{
 		[Token(Token = "0x6000816")]
-		[Address(RVA = "0x2B1E340", Offset = "0x2B1C940", VA = "0x182B1E340")]
+		[Address(RVA = "0x64F6E20", Offset = "0x64F5E20", VA = "0x64F6E20")]
 		get
 		{
 			return null;
@@ -116,13 +116,13 @@ public sealed class VolumeManager
 	public Type[] baseComponentTypeArray
 	{
 		[Token(Token = "0x6000819")]
-		[Address(RVA = "0x2B1E340", Offset = "0x2B1C940", VA = "0x182B1E340")]
+		[Address(RVA = "0x64F6E80", Offset = "0x64F5E80", VA = "0x64F6E80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081A")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x64F7790", Offset = "0x64F6790", VA = "0x64F7790")]
 		internal set
 		{
 		}
@@ -132,14 +132,14 @@ public sealed class VolumeManager
 	public VolumeProfile globalDefaultProfile
 	{
 		[Token(Token = "0x600081B")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x64F77A0", Offset = "0x64F67A0", VA = "0x64F77A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081C")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x64F77B0", Offset = "0x64F67B0", VA = "0x64F77B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -150,14 +150,14 @@ public sealed class VolumeManager
 	public VolumeProfile qualityDefaultProfile
 	{
 		[Token(Token = "0x600081D")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x64F77C0", Offset = "0x64F67C0", VA = "0x64F77C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x64F77D0", Offset = "0x64F67D0", VA = "0x64F77D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -168,14 +168,14 @@ public sealed class VolumeManager
 	public ReadOnlyCollection<VolumeProfile> customDefaultProfiles
 	{
 		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x64F77E0", Offset = "0x64F67E0", VA = "0x64F77E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000820")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x64F77F0", Offset = "0x64F67F0", VA = "0x64F77F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -186,14 +186,14 @@ public sealed class VolumeManager
 	public bool isInitialized
 	{
 		[Token(Token = "0x6000823")]
-		[Address(RVA = "0x198C740", Offset = "0x198AD40", VA = "0x18198C740")]
+		[Address(RVA = "0x64F79C0", Offset = "0x64F69C0", VA = "0x64F79C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000824")]
-		[Address(RVA = "0x1D1FF10", Offset = "0x1D1E510", VA = "0x181D1FF10")]
+		[Address(RVA = "0x64F79D0", Offset = "0x64F69D0", VA = "0x64F79D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -201,158 +201,158 @@ public sealed class VolumeManager
 	}
 
 	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x2B1CCB0", Offset = "0x2B1B2B0", VA = "0x182B1CCB0")]
+	[Address(RVA = "0x64F6750", Offset = "0x64F5750", VA = "0x64F6750")]
 	[Obsolete("Please use the Register without a given layer index. #from(6000.0)")]
 	public void Register(Volume volume, int layer)
 	{
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x2B1D720", Offset = "0x2B1BD20", VA = "0x182B1D720")]
+	[Address(RVA = "0x64F6A60", Offset = "0x64F5A60", VA = "0x64F6A60")]
 	[Obsolete("Please use the Register without a given layer index. #from(6000.0)")]
 	public void Unregister(Volume volume, int layer)
 	{
 	}
 
 	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x2B1BAD0", Offset = "0x2B1A0D0", VA = "0x182B1BAD0")]
+	[Address(RVA = "0x64F6EE0", Offset = "0x64F5EE0", VA = "0x64F6EE0")]
 	internal List<(string, Type)> GetVolumeComponentsForDisplay(Type currentPipelineAssetType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x2B1A6E0", Offset = "0x2B18CE0", VA = "0x182B1A6E0")]
+	[Address(RVA = "0x64F73C0", Offset = "0x64F63C0", VA = "0x64F73C0")]
 	private List<(string, Type)> BuildVolumeComponentDisplayList(Type[] types)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000821")]
-	[Address(RVA = "0x2B1B9B0", Offset = "0x2B19FB0", VA = "0x182B1B9B0")]
+	[Address(RVA = "0x64F7800", Offset = "0x64F6800", VA = "0x64F7800")]
 	public VolumeComponent GetVolumeComponentDefaultState(Type volumeComponentType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000822")]
-	[Address(RVA = "0x2B1E290", Offset = "0x2B1C890", VA = "0x182B1E290")]
+	[Address(RVA = "0x64F7910", Offset = "0x64F6910", VA = "0x64F7910")]
 	internal VolumeManager()
 	{
 	}
 
 	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x2B1C260", Offset = "0x2B1A860", VA = "0x182B1C260")]
+	[Address(RVA = "0x64F79E0", Offset = "0x64F69E0", VA = "0x64F79E0")]
 	public void Initialize([Optional] VolumeProfile globalDefaultVolumeProfile, [Optional] VolumeProfile qualityDefaultVolumeProfile)
 	{
 	}
 
 	[Token(Token = "0x6000826")]
-	[Address(RVA = "0x2B1BEB0", Offset = "0x2B1A4B0", VA = "0x182B1BEB0")]
+	[Address(RVA = "0x64F7150", Offset = "0x64F6150", VA = "0x64F7150")]
 	private void InitializeBaseTypesArray([Optional] VolumeProfile globalDefaultVolumeProfile)
 	{
 	}
 
 	[Token(Token = "0x6000827")]
-	[Address(RVA = "0x2B1C050", Offset = "0x2B1A650", VA = "0x182B1C050")]
+	[Address(RVA = "0x64F7B70", Offset = "0x64F6B70", VA = "0x64F7B70")]
 	internal void InitializeInternal([Optional] VolumeProfile globalDefaultVolumeProfile, [Optional] VolumeProfile qualityDefaultVolumeProfile)
 	{
 	}
 
 	[Token(Token = "0x6000828")]
-	[Address(RVA = "0x2B1AEE0", Offset = "0x2B194E0", VA = "0x182B1AEE0")]
+	[Address(RVA = "0x64F8920", Offset = "0x64F7920", VA = "0x64F8920")]
 	public void Deinitialize()
 	{
 	}
 
 	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x2B1D400", Offset = "0x2B1BA00", VA = "0x182B1D400")]
+	[Address(RVA = "0x64F8BC0", Offset = "0x64F7BC0", VA = "0x64F8BC0")]
 	public void SetGlobalDefaultProfile(VolumeProfile profile)
 	{
 	}
 
 	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x2B1D4A0", Offset = "0x2B1BAA0", VA = "0x182B1D4A0")]
+	[Address(RVA = "0x64F8C40", Offset = "0x64F7C40", VA = "0x64F8C40")]
 	public void SetQualityDefaultProfile(VolumeProfile profile)
 	{
 	}
 
 	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x2B1D1D0", Offset = "0x2B1B7D0", VA = "0x182B1D1D0")]
+	[Address(RVA = "0x64F8C60", Offset = "0x64F7C60", VA = "0x64F8C60")]
 	public void SetCustomDefaultProfiles(List<VolumeProfile> profiles)
 	{
 	}
 
 	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x2B1CA70", Offset = "0x2B1B070", VA = "0x182B1CA70")]
+	[Address(RVA = "0x64F8ED0", Offset = "0x64F7ED0", VA = "0x64F8ED0")]
 	public void OnVolumeProfileChanged(VolumeProfile profile)
 	{
 	}
 
 	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x2B1C7D0", Offset = "0x2B1ADD0", VA = "0x182B1C7D0")]
+	[Address(RVA = "0x64F8FB0", Offset = "0x64F7FB0", VA = "0x64F8FB0")]
 	public void OnVolumeComponentChanged(VolumeComponent component)
 	{
 	}
 
 	[Token(Token = "0x600082E")]
-	[Address(RVA = "0x2B1AE70", Offset = "0x2B19470", VA = "0x182B1AE70")]
+	[Address(RVA = "0x64F9260", Offset = "0x64F8260", VA = "0x64F9260")]
 	public VolumeStack CreateStack()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x2B1AD80", Offset = "0x2B19380", VA = "0x182B1AD80")]
+	[Address(RVA = "0x64F8850", Offset = "0x64F7850", VA = "0x64F8850")]
 	private VolumeStack CreateStackInternal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x2B1D1B0", Offset = "0x2B1B7B0", VA = "0x182B1D1B0")]
+	[Address(RVA = "0x64F92C0", Offset = "0x64F82C0", VA = "0x64F92C0")]
 	public void ResetMainStack()
 	{
 	}
 
 	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x2B1B0F0", Offset = "0x2B196F0", VA = "0x182B1B0F0")]
+	[Address(RVA = "0x64F8B60", Offset = "0x64F7B60", VA = "0x64F8B60")]
 	public void DestroyStack(VolumeStack stack)
 	{
 	}
 
 	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x2B1C460", Offset = "0x2B1AA60", VA = "0x182B1C460")]
+	[Address(RVA = "0x64F92E0", Offset = "0x64F82E0", VA = "0x64F92E0")]
 	internal void LoadBaseTypesByDefaultVolume(Type rpType, VolumeProfile globalDefaultVolumeProfile)
 	{
 	}
 
 	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x2B1C7C0", Offset = "0x2B1ADC0", VA = "0x182B1C7C0")]
+	[Address(RVA = "0x64F7BE0", Offset = "0x64F6BE0", VA = "0x64F7BE0")]
 	private void LoadBaseTypes(Type pipelineAssetType, [Optional] VolumeProfile globalDefaultVolumeProfile)
 	{
 	}
 
 	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x2B1C190", Offset = "0x2B1A790", VA = "0x182B1C190")]
+	[Address(RVA = "0x64F7BF0", Offset = "0x64F6BF0", VA = "0x64F7BF0")]
 	internal void InitializeVolumeComponents()
 	{
 	}
 
 	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x2B1B160", Offset = "0x2B19760", VA = "0x182B1B160")]
+	[Address(RVA = "0x64F7CB0", Offset = "0x64F6CB0", VA = "0x64F7CB0")]
 	private void EvaluateVolumeDefaultState()
 	{
 	}
 
 	[Token(Token = "0x6000836")]
-	[Address(RVA = "0x2B1CFA0", Offset = "0x2B1B5A0", VA = "0x182B1CFA0")]
+	[Address(RVA = "0x64F6A10", Offset = "0x64F5A10", VA = "0x64F6A10")]
 	public void Register(Volume volume)
 	{
 	}
 
 	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x2B1D6C0", Offset = "0x2B1BCC0", VA = "0x182B1D6C0")]
+	[Address(RVA = "0x64F6D20", Offset = "0x64F5D20", VA = "0x64F6D20")]
 	public void Unregister(Volume volume)
 	{
 	}
@@ -364,78 +364,78 @@ public sealed class VolumeManager
 	}
 
 	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x2B1D480", Offset = "0x2B1BA80", VA = "0x182B1D480")]
+	[Address(RVA = "0x64F99A0", Offset = "0x64F89A0", VA = "0x64F99A0")]
 	internal void SetLayerDirty(int layer)
 	{
 	}
 
 	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x2B1DA10", Offset = "0x2B1C010", VA = "0x182B1DA10")]
+	[Address(RVA = "0x64F99C0", Offset = "0x64F89C0", VA = "0x64F99C0")]
 	internal void UpdateVolumeLayer(Volume volume, int prevLayer, int newLayer)
 	{
 	}
 
 	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x2B1CB50", Offset = "0x2B1B150", VA = "0x182B1CB50")]
+	[Address(RVA = "0x64F99E0", Offset = "0x64F89E0", VA = "0x64F99E0")]
 	private void OverrideData(VolumeStack stack, Volume volume, float interpFactor)
 	{
 	}
 
 	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x2B1D000", Offset = "0x2B1B600", VA = "0x182B1D000")]
+	[Address(RVA = "0x64F9B70", Offset = "0x64F8B70", VA = "0x64F9B70")]
 	internal void ReplaceData(VolumeStack stack)
 	{
 	}
 
 	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x2B1AA70", Offset = "0x2B19070", VA = "0x182B1AA70")]
+	[Address(RVA = "0x64F9DA0", Offset = "0x64F8DA0", VA = "0x64F9DA0")]
 	[Conditional("UNITY_EDITOR")]
 	public void CheckDefaultVolumeState()
 	{
 	}
 
 	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x2B1AB00", Offset = "0x2B19100", VA = "0x182B1AB00")]
+	[Address(RVA = "0x64F9E30", Offset = "0x64F8E30", VA = "0x64F9E30")]
 	[Conditional("UNITY_EDITOR")]
 	public void CheckStack(VolumeStack stack)
 	{
 	}
 
 	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x2B1AD30", Offset = "0x2B19330", VA = "0x182B1AD30")]
+	[Address(RVA = "0x64FA0F0", Offset = "0x64F90F0", VA = "0x64FA0F0")]
 	private bool CheckUpdateRequired(VolumeStack stack)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x2B1DFD0", Offset = "0x2B1C5D0", VA = "0x182B1DFD0")]
+	[Address(RVA = "0x64FA140", Offset = "0x64F9140", VA = "0x64FA140")]
 	public void Update(Transform trigger, LayerMask layerMask)
 	{
 	}
 
 	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x2B1DA40", Offset = "0x2B1C040", VA = "0x182B1DA40")]
+	[Address(RVA = "0x64FA150", Offset = "0x64F9150", VA = "0x64FA150")]
 	public void Update(VolumeStack stack, Transform trigger, LayerMask layerMask)
 	{
 	}
 
 	[Token(Token = "0x6000842")]
-	[Address(RVA = "0x2B1BD30", Offset = "0x2B1A330", VA = "0x182B1BD30")]
+	[Address(RVA = "0x64FA690", Offset = "0x64F9690", VA = "0x64FA690")]
 	public Volume[] GetVolumes(LayerMask layerMask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000843")]
-	[Address(RVA = "0x2B1BE90", Offset = "0x2B1A490", VA = "0x182B1BE90")]
+	[Address(RVA = "0x64FA670", Offset = "0x64F9670", VA = "0x64FA670")]
 	private List<Volume> GrabVolumes(LayerMask mask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x64FA7F0", Offset = "0x64F97F0", VA = "0x64FA7F0")]
 	private static bool IsVolumeRenderedByCamera(Volume volume, Camera camera)
 	{
 		return default(bool);

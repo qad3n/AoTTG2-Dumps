@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D4")]
+[Token(Token = "0x20001EB")]
 public sealed class AottgChangelogMarkdownRenderer : AottgComponent
 {
-	[Token(Token = "0x40009E1")]
+	[Token(Token = "0x4000A55")]
 	private const float SpacerHeight = 12f;
 
-	[Token(Token = "0x40009E2")]
+	[Token(Token = "0x4000A56")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _markdown;
 
-	[Token(Token = "0x40009E3")]
+	[Token(Token = "0x4000A57")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _id;
 
-	[Token(Token = "0x40009E4")]
+	[Token(Token = "0x4000A58")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly int _maxLines;
 
-	[Token(Token = "0x6000AAE")]
-	[Address(RVA = "0x23A5C70", Offset = "0x23A4270", VA = "0x1823A5C70")]
+	[Token(Token = "0x6000B67")]
+	[Address(RVA = "0x5D78410", Offset = "0x5D77410", VA = "0x5D78410")]
 	public AottgChangelogMarkdownRenderer(string markdown, string id = "changelog-markdown", int maxLines = 0)
 	{
 	}
 
-	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0x23A5A50", Offset = "0x23A4050", VA = "0x1823A5A50", Slot = "4")]
+	[Token(Token = "0x6000B68")]
+	[Address(RVA = "0x5D78490", Offset = "0x5D77490", VA = "0x5D78490", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0x23A5610", Offset = "0x23A3C10", VA = "0x1823A5610")]
+	[Token(Token = "0x6000B69")]
+	[Address(RVA = "0x5D787A0", Offset = "0x5D777A0", VA = "0x5D787A0")]
 	private int BuildBlock(AottgUi ui, AottgChangelogMarkdownBlock block, int index, int remainingLines)
 	{
 		return default(int);

@@ -32,13 +32,13 @@ internal class XmlTypeMapMemberElement : XmlTypeMapMember
 	public XmlTypeMapElementInfoList ElementInfo
 	{
 		[Token(Token = "0x6000EBE")]
-		[Address(RVA = "0x278DD10", Offset = "0x278C310", VA = "0x18278DD10")]
+		[Address(RVA = "0x6132020", Offset = "0x6131020", VA = "0x6132020")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EBF")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6138330", Offset = "0x6137330", VA = "0x6138330")]
 		set
 		{
 		}
@@ -48,13 +48,13 @@ internal class XmlTypeMapMemberElement : XmlTypeMapMember
 	public string ChoiceMember
 	{
 		[Token(Token = "0x6000EC0")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6138340", Offset = "0x6137340", VA = "0x6138340")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EC1")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x6138350", Offset = "0x6137350", VA = "0x6138350")]
 		set
 		{
 		}
@@ -64,13 +64,13 @@ internal class XmlTypeMapMemberElement : XmlTypeMapMember
 	public TypeData ChoiceTypeData
 	{
 		[Token(Token = "0x6000EC2")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x6138360", Offset = "0x6137360", VA = "0x6138360")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EC3")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x6138370", Offset = "0x6137370", VA = "0x6138370")]
 		set
 		{
 		}
@@ -80,33 +80,33 @@ internal class XmlTypeMapMemberElement : XmlTypeMapMember
 	public bool IsXmlTextCollector
 	{
 		[Token(Token = "0x6000EC6")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x6138390", Offset = "0x6137390", VA = "0x6138390")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC7")]
-		[Address(RVA = "0x12BF400", Offset = "0x12BDA00", VA = "0x1812BF400")]
+		[Address(RVA = "0x61383A0", Offset = "0x61373A0", VA = "0x61383A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000EBD")]
-	[Address(RVA = "0x278D190", Offset = "0x278B790", VA = "0x18278D190")]
+	[Address(RVA = "0x61382C0", Offset = "0x61372C0", VA = "0x61382C0")]
 	public XmlTypeMapMemberElement()
 	{
 	}
 
 	[Token(Token = "0x6000EC4")]
-	[Address(RVA = "0x278D660", Offset = "0x278BC60", VA = "0x18278D660")]
+	[Address(RVA = "0x6133620", Offset = "0x6132620", VA = "0x6133620")]
 	public XmlTypeMapElementInfo FindElement(object ob, object memberValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EC5")]
-	[Address(RVA = "0x278DB50", Offset = "0x278C150", VA = "0x18278DB50")]
+	[Address(RVA = "0x6138380", Offset = "0x6137380", VA = "0x6138380")]
 	public void SetChoice(object ob, object choice)
 	{
 	}

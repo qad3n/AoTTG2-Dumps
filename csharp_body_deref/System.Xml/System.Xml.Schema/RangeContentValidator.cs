@@ -42,40 +42,40 @@ internal sealed class RangeContentValidator : ContentValidator
 	private int endMarkerPos;
 
 	[Token(Token = "0x600103C")]
-	[Address(RVA = "0x27AEF70", Offset = "0x27AD570", VA = "0x1827AEF70")]
+	[Address(RVA = "0x614BAB0", Offset = "0x614AAB0", VA = "0x614BAB0")]
 	internal RangeContentValidator(BitSet firstpos, BitSet[] followpos, SymbolsDictionary symbols, Positions positions, int endMarkerPos, XmlSchemaContentType contentType, bool isEmptiable, BitSet positionsWithRangeTerminals, int minmaxNodesCount)
 	{
 	}
 
 	[Token(Token = "0x600103D")]
-	[Address(RVA = "0x27AE430", Offset = "0x27ACA30", VA = "0x1827AE430", Slot = "5")]
+	[Address(RVA = "0x614BBA0", Offset = "0x614ABA0", VA = "0x614BBA0", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x600103E")]
-	[Address(RVA = "0x27AE620", Offset = "0x27ACC20", VA = "0x1827AE620", Slot = "6")]
+	[Address(RVA = "0x614BD70", Offset = "0x614AD70", VA = "0x614BD70", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600103F")]
-	[Address(RVA = "0x27ADF50", Offset = "0x27AC550", VA = "0x1827ADF50", Slot = "7")]
+	[Address(RVA = "0x614C780", Offset = "0x614B780", VA = "0x614C780", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001040")]
-	[Address(RVA = "0x27ADF70", Offset = "0x27AC570", VA = "0x1827ADF70", Slot = "8")]
+	[Address(RVA = "0x614C7A0", Offset = "0x614B7A0", VA = "0x614C7A0", Slot = "8")]
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001041")]
-	[Address(RVA = "0x27AE210", Offset = "0x27AC810", VA = "0x1827AE210", Slot = "9")]
+	[Address(RVA = "0x614CA30", Offset = "0x614BA30", VA = "0x614CA30", Slot = "9")]
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;

@@ -28,13 +28,13 @@ public abstract class PointerInputModule : BaseInputModule
 		public MouseButtonEventData eventData
 		{
 			[Token(Token = "0x600073D")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x6D108D0", Offset = "0x6D0F8D0", VA = "0x6D108D0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x600073E")]
-			[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+			[Address(RVA = "0x6D108E0", Offset = "0x6D0F8E0", VA = "0x6D108E0")]
 			set
 			{
 			}
@@ -44,20 +44,20 @@ public abstract class PointerInputModule : BaseInputModule
 		public PointerEventData.InputButton button
 		{
 			[Token(Token = "0x600073F")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Address(RVA = "0x6D108F0", Offset = "0x6D0F8F0", VA = "0x6D108F0")]
 			get
 			{
 				return default(PointerEventData.InputButton);
 			}
 			[Token(Token = "0x6000740")]
-			[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+			[Address(RVA = "0x6D10900", Offset = "0x6D0F900", VA = "0x6D10900")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000741")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6D10910", Offset = "0x6D0F910", VA = "0x6D10910")]
 		public ButtonState()
 		{
 		}
@@ -71,34 +71,34 @@ public abstract class PointerInputModule : BaseInputModule
 		private List<ButtonState> m_TrackedButtons;
 
 		[Token(Token = "0x6000742")]
-		[Address(RVA = "0x32F6630", Offset = "0x32F4C30", VA = "0x1832F6630")]
+		[Address(RVA = "0x6D10920", Offset = "0x6D0F920", VA = "0x6D10920")]
 		public bool AnyPressesThisFrame()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000743")]
-		[Address(RVA = "0x32F66F0", Offset = "0x32F4CF0", VA = "0x1832F66F0")]
+		[Address(RVA = "0x6D109D0", Offset = "0x6D0F9D0", VA = "0x6D109D0")]
 		public bool AnyReleasesThisFrame()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000744")]
-		[Address(RVA = "0x32F67B0", Offset = "0x32F4DB0", VA = "0x1832F67B0")]
+		[Address(RVA = "0x6D10A80", Offset = "0x6D0FA80", VA = "0x6D10A80")]
 		public ButtonState GetButtonState(PointerEventData.InputButton button)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000745")]
-		[Address(RVA = "0x32F6960", Offset = "0x32F4F60", VA = "0x1832F6960")]
+		[Address(RVA = "0x6D0FBF0", Offset = "0x6D0EBF0", VA = "0x6D0FBF0")]
 		public void SetButtonState(PointerEventData.InputButton button, PointerEventData.FramePressState stateForMouseButton, PointerEventData data)
 		{
 		}
 
 		[Token(Token = "0x6000746")]
-		[Address(RVA = "0x32F69C0", Offset = "0x32F4FC0", VA = "0x1832F69C0")]
+		[Address(RVA = "0x6D10850", Offset = "0x6D0F850", VA = "0x6D10850")]
 		public MouseState()
 		{
 		}
@@ -116,21 +116,21 @@ public abstract class PointerInputModule : BaseInputModule
 		public PointerEventData buttonData;
 
 		[Token(Token = "0x6000747")]
-		[Address(RVA = "0x32F65F0", Offset = "0x32F4BF0", VA = "0x1832F65F0")]
+		[Address(RVA = "0x6D109C0", Offset = "0x6D0F9C0", VA = "0x6D109C0")]
 		public bool PressedThisFrame()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000748")]
-		[Address(RVA = "0x32F6610", Offset = "0x32F4C10", VA = "0x1832F6610")]
+		[Address(RVA = "0x6D10A70", Offset = "0x6D0FA70", VA = "0x6D10A70")]
 		public bool ReleasedThisFrame()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000749")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6D10C20", Offset = "0x6D0FC20", VA = "0x6D10C20")]
 		public MouseButtonEventData()
 		{
 		}
@@ -157,106 +157,106 @@ public abstract class PointerInputModule : BaseInputModule
 	private readonly MouseState m_MouseState;
 
 	[Token(Token = "0x600072D")]
-	[Address(RVA = "0x32FDA70", Offset = "0x32FC070", VA = "0x1832FDA70")]
+	[Address(RVA = "0x6D0ED40", Offset = "0x6D0DD40", VA = "0x6D0ED40")]
 	protected bool GetPointerData(int id, out PointerEventData data, bool create)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600072E")]
-	[Address(RVA = "0x32FE5B0", Offset = "0x32FCBB0", VA = "0x1832FE5B0")]
+	[Address(RVA = "0x6D0EE30", Offset = "0x6D0DE30", VA = "0x6D0EE30")]
 	protected void RemovePointerData(PointerEventData data)
 	{
 	}
 
 	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x32FDDA0", Offset = "0x32FC3A0", VA = "0x1832FDDA0")]
+	[Address(RVA = "0x6D0EE90", Offset = "0x6D0DE90", VA = "0x6D0EE90")]
 	protected PointerEventData GetTouchPointerEventData(Touch input, out bool pressed, out bool released)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000730")]
-	[Address(RVA = "0x32FD050", Offset = "0x32FB650", VA = "0x1832FD050")]
+	[Address(RVA = "0x6D0F2C0", Offset = "0x6D0E2C0", VA = "0x6D0F2C0")]
 	protected void CopyFromTo(PointerEventData from, PointerEventData to)
 	{
 	}
 
 	[Token(Token = "0x6000731")]
-	[Address(RVA = "0x32FE660", Offset = "0x32FCC60", VA = "0x1832FE660")]
+	[Address(RVA = "0x6D0F3D0", Offset = "0x6D0E3D0", VA = "0x6D0F3D0")]
 	protected PointerEventData.FramePressState StateForMouseButton(int buttonId)
 	{
 		return default(PointerEventData.FramePressState);
 	}
 
 	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x32FD2D0", Offset = "0x32FB8D0", VA = "0x1832FD2D0", Slot = "29")]
+	[Address(RVA = "0x6D0F450", Offset = "0x6D0E450", VA = "0x6D0F450", Slot = "29")]
 	protected virtual MouseState GetMousePointerEventData()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x32FD2F0", Offset = "0x32FB8F0", VA = "0x1832FD2F0", Slot = "30")]
+	[Address(RVA = "0x6D0F470", Offset = "0x6D0E470", VA = "0x6D0F470", Slot = "30")]
 	protected virtual MouseState GetMousePointerEventData(int id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000734")]
-	[Address(RVA = "0x32FD2A0", Offset = "0x32FB8A0", VA = "0x1832FD2A0")]
+	[Address(RVA = "0x6D0FC30", Offset = "0x6D0EC30", VA = "0x6D0FC30")]
 	protected PointerEventData GetLastPointerEventData(int id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x32FE610", Offset = "0x32FCC10", VA = "0x1832FE610")]
+	[Address(RVA = "0x6D0FCB0", Offset = "0x6D0ECB0", VA = "0x6D0FCB0")]
 	private static bool ShouldStartDrag(Vector2 pressPos, Vector2 currentPos, float threshold, bool useDragThreshold)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x32FE550", Offset = "0x32FCB50", VA = "0x1832FE550", Slot = "31")]
+	[Address(RVA = "0x6D0FCE0", Offset = "0x6D0ECE0", VA = "0x6D0FCE0", Slot = "31")]
 	protected virtual void ProcessMove(PointerEventData pointerEvent)
 	{
 	}
 
 	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x32FE290", Offset = "0x32FC890", VA = "0x1832FE290", Slot = "32")]
+	[Address(RVA = "0x6D0FD20", Offset = "0x6D0ED20", VA = "0x6D0FD20", Slot = "32")]
 	protected virtual void ProcessDrag(PointerEventData pointerEvent)
 	{
 	}
 
 	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x32FE200", Offset = "0x32FC800", VA = "0x1832FE200", Slot = "20")]
+	[Address(RVA = "0x6D100D0", Offset = "0x6D0F0D0", VA = "0x6D100D0", Slot = "20")]
 	public override bool IsPointerOverGameObject(int pointerId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x32FCEA0", Offset = "0x32FB4A0", VA = "0x1832FCEA0")]
+	[Address(RVA = "0x6D101D0", Offset = "0x6D0F1D0", VA = "0x6D101D0")]
 	protected void ClearSelection()
 	{
 	}
 
 	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x32FE720", Offset = "0x32FCD20", VA = "0x1832FE720", Slot = "3")]
+	[Address(RVA = "0x6D10380", Offset = "0x6D0F380", VA = "0x6D10380", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x32FD1D0", Offset = "0x32FB7D0", VA = "0x1832FD1D0")]
+	[Address(RVA = "0x6D10600", Offset = "0x6D0F600", VA = "0x6D10600")]
 	protected void DeselectIfSelectionChanged(GameObject currentOverGo, BaseEventData pointerEvent)
 	{
 	}
 
 	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x32FE980", Offset = "0x32FCF80", VA = "0x1832FE980")]
+	[Address(RVA = "0x6D106E0", Offset = "0x6D0F6E0", VA = "0x6D106E0")]
 	protected PointerInputModule()
 	{
 	}

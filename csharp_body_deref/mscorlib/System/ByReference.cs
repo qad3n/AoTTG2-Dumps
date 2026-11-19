@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x200014D")]
 internal ref struct ByReference<T>
 {
-	[Token(Token = "0x400056D")]
+	[Token(Token = "0x40004CB")]
 	[FieldOffset(Offset = "0x0")]
 	private IntPtr _value;
 
 	[Token(Token = "0x17000126")]
 	public unsafe ref T Value
 	{
-		[Token(Token = "0x6000D9D")]
+		[Token(Token = "0x6000D78")]
 		[System.Runtime.CompilerServices.Intrinsic]
 		get
 		{
@@ -28,7 +28,7 @@ internal ref struct ByReference<T>
 		}
 	}
 
-	[Token(Token = "0x6000D9C")]
+	[Token(Token = "0x6000D77")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public ByReference(ref T value)
 	{

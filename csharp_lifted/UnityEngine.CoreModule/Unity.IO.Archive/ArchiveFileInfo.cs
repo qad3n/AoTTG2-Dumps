@@ -1,0 +1,26 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.IO.Archive.ArchiveFileInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using UnityEngine.Bindings;
+using UnityEngine.Scripting;
+
+namespace Unity.IO.Archive;
+
+[Token(Token = "0x200004A")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
+public struct ArchiveFileInfo
+{
+	[Token(Token = "0x40000E6")]
+	[FieldOffset(Offset = "0x0")]
+	public string Filename;
+
+	[Token(Token = "0x40000E7")]
+	[FieldOffset(Offset = "0x8")]
+	public ulong FileSize;
+}

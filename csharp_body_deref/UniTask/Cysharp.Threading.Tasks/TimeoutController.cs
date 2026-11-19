@@ -47,52 +47,52 @@ public sealed class TimeoutController : IDisposable
 	private readonly CancellationTokenSource originalLinkCancellationTokenSource;
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x2912980", Offset = "0x2910F80", VA = "0x182912980")]
+	[Address(RVA = "0x62C9C40", Offset = "0x62C8C40", VA = "0x62C9C40")]
 	private static void CancelCancellationTokenSourceState(object state)
 	{
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x2913020", Offset = "0x2911620", VA = "0x182913020")]
+	[Address(RVA = "0x62C9CB0", Offset = "0x62C8CB0", VA = "0x62C9CB0")]
 	public TimeoutController(DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x2912F30", Offset = "0x2911530", VA = "0x182912F30")]
+	[Address(RVA = "0x62C9D50", Offset = "0x62C8D50", VA = "0x62C9D50")]
 	public TimeoutController(CancellationTokenSource linkCancellationTokenSource, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x2912E30", Offset = "0x2911430", VA = "0x182912E30")]
+	[Address(RVA = "0x62C9E40", Offset = "0x62C8E40", VA = "0x62C9E40")]
 	public CancellationToken Timeout(int millisecondsTimeout)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x2912B00", Offset = "0x2911100", VA = "0x182912B00")]
+	[Address(RVA = "0x62C9EA0", Offset = "0x62C8EA0", VA = "0x62C9EA0")]
 	public CancellationToken Timeout(TimeSpan timeout)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x2912AD0", Offset = "0x29110D0", VA = "0x182912AD0")]
+	[Address(RVA = "0x62CA0E0", Offset = "0x62C90E0", VA = "0x62CA0E0")]
 	public bool IsTimeout()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x2912AF0", Offset = "0x29110F0", VA = "0x182912AF0")]
+	[Address(RVA = "0x62CA100", Offset = "0x62C9100", VA = "0x62CA100")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2912A00", Offset = "0x2911000", VA = "0x182912A00", Slot = "4")]
+	[Address(RVA = "0x62CA110", Offset = "0x62C9110", VA = "0x62CA110", Slot = "4")]
 	public void Dispose()
 	{
 	}

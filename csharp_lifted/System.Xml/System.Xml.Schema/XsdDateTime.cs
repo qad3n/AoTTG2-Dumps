@@ -1,0 +1,496 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XsdDateTime
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Text;
+using Il2CppDummyDll;
+
+namespace System.Xml.Schema;
+
+[Token(Token = "0x200027E")]
+internal struct XsdDateTime
+{
+	[Token(Token = "0x200027F")]
+	private enum DateTimeTypeCode
+	{
+		[Token(Token = "0x4000D9F")]
+		DateTime,
+		[Token(Token = "0x4000DA0")]
+		Time,
+		[Token(Token = "0x4000DA1")]
+		Date,
+		[Token(Token = "0x4000DA2")]
+		GYearMonth,
+		[Token(Token = "0x4000DA3")]
+		GYear,
+		[Token(Token = "0x4000DA4")]
+		GMonthDay,
+		[Token(Token = "0x4000DA5")]
+		GDay,
+		[Token(Token = "0x4000DA6")]
+		GMonth,
+		[Token(Token = "0x4000DA7")]
+		XdrDateTime
+	}
+
+	[Token(Token = "0x2000280")]
+	private enum XsdDateTimeKind
+	{
+		[Token(Token = "0x4000DA9")]
+		Unspecified,
+		[Token(Token = "0x4000DAA")]
+		Zulu,
+		[Token(Token = "0x4000DAB")]
+		LocalWestOfZulu,
+		[Token(Token = "0x4000DAC")]
+		LocalEastOfZulu
+	}
+
+	[Token(Token = "0x2000281")]
+	private struct Parser
+	{
+		[Token(Token = "0x4000DAD")]
+		[FieldOffset(Offset = "0x0")]
+		public DateTimeTypeCode typeCode;
+
+		[Token(Token = "0x4000DAE")]
+		[FieldOffset(Offset = "0x4")]
+		public int year;
+
+		[Token(Token = "0x4000DAF")]
+		[FieldOffset(Offset = "0x8")]
+		public int month;
+
+		[Token(Token = "0x4000DB0")]
+		[FieldOffset(Offset = "0xC")]
+		public int day;
+
+		[Token(Token = "0x4000DB1")]
+		[FieldOffset(Offset = "0x10")]
+		public int hour;
+
+		[Token(Token = "0x4000DB2")]
+		[FieldOffset(Offset = "0x14")]
+		public int minute;
+
+		[Token(Token = "0x4000DB3")]
+		[FieldOffset(Offset = "0x18")]
+		public int second;
+
+		[Token(Token = "0x4000DB4")]
+		[FieldOffset(Offset = "0x1C")]
+		public int fraction;
+
+		[Token(Token = "0x4000DB5")]
+		[FieldOffset(Offset = "0x20")]
+		public XsdDateTimeKind kind;
+
+		[Token(Token = "0x4000DB6")]
+		[FieldOffset(Offset = "0x24")]
+		public int zoneHour;
+
+		[Token(Token = "0x4000DB7")]
+		[FieldOffset(Offset = "0x28")]
+		public int zoneMinute;
+
+		[Token(Token = "0x4000DB8")]
+		[FieldOffset(Offset = "0x30")]
+		private string text;
+
+		[Token(Token = "0x4000DB9")]
+		[FieldOffset(Offset = "0x38")]
+		private int length;
+
+		[Token(Token = "0x4000DBA")]
+		[FieldOffset(Offset = "0x0")]
+		private static int[] Power10;
+
+		[Token(Token = "0x6001A08")]
+		[Address(RVA = "0x6071150", Offset = "0x6070150", VA = "0x6071150")]
+		public bool Parse(string text, XsdDateTimeFlags kinds)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A09")]
+		[Address(RVA = "0x6074E70", Offset = "0x6073E70", VA = "0x6074E70")]
+		private bool ParseDate(int start)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0A")]
+		[Address(RVA = "0x6075160", Offset = "0x6074160", VA = "0x6075160")]
+		private bool ParseTimeAndZoneAndWhitespace(int start)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0B")]
+		[Address(RVA = "0x60754C0", Offset = "0x60744C0", VA = "0x60754C0")]
+		private bool ParseTimeAndWhitespace(int start)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0C")]
+		[Address(RVA = "0x60756C0", Offset = "0x60746C0", VA = "0x60756C0")]
+		private bool ParseTime(ref int start)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0D")]
+		[Address(RVA = "0x60751F0", Offset = "0x60741F0", VA = "0x60751F0")]
+		private bool ParseZoneAndWhitespace(int start)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0E")]
+		[Address(RVA = "0x6075540", Offset = "0x6074540", VA = "0x6075540")]
+		private bool Parse4Dig(int start, ref int num)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A0F")]
+		[Address(RVA = "0x6075640", Offset = "0x6074640", VA = "0x6075640")]
+		private bool Parse2Dig(int start, ref int num)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A10")]
+		[Address(RVA = "0x6075130", Offset = "0x6074130", VA = "0x6075130")]
+		private bool ParseChar(int start, char ch)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6001A11")]
+		[Address(RVA = "0x6074E60", Offset = "0x6073E60", VA = "0x6074E60")]
+		private static bool Test(XsdDateTimeFlags left, XsdDateTimeFlags right)
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x4000D85")]
+	[FieldOffset(Offset = "0x0")]
+	private DateTime dt;
+
+	[Token(Token = "0x4000D86")]
+	[FieldOffset(Offset = "0x8")]
+	private uint extra;
+
+	[Token(Token = "0x4000D87")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly int Lzyyyy;
+
+	[Token(Token = "0x4000D88")]
+	[FieldOffset(Offset = "0x4")]
+	private static readonly int Lzyyyy_;
+
+	[Token(Token = "0x4000D89")]
+	[FieldOffset(Offset = "0x8")]
+	private static readonly int Lzyyyy_MM;
+
+	[Token(Token = "0x4000D8A")]
+	[FieldOffset(Offset = "0xC")]
+	private static readonly int Lzyyyy_MM_;
+
+	[Token(Token = "0x4000D8B")]
+	[FieldOffset(Offset = "0x10")]
+	private static readonly int Lzyyyy_MM_dd;
+
+	[Token(Token = "0x4000D8C")]
+	[FieldOffset(Offset = "0x14")]
+	private static readonly int Lzyyyy_MM_ddT;
+
+	[Token(Token = "0x4000D8D")]
+	[FieldOffset(Offset = "0x18")]
+	private static readonly int LzHH;
+
+	[Token(Token = "0x4000D8E")]
+	[FieldOffset(Offset = "0x1C")]
+	private static readonly int LzHH_;
+
+	[Token(Token = "0x4000D8F")]
+	[FieldOffset(Offset = "0x20")]
+	private static readonly int LzHH_mm;
+
+	[Token(Token = "0x4000D90")]
+	[FieldOffset(Offset = "0x24")]
+	private static readonly int LzHH_mm_;
+
+	[Token(Token = "0x4000D91")]
+	[FieldOffset(Offset = "0x28")]
+	private static readonly int LzHH_mm_ss;
+
+	[Token(Token = "0x4000D92")]
+	[FieldOffset(Offset = "0x2C")]
+	private static readonly int Lz_;
+
+	[Token(Token = "0x4000D93")]
+	[FieldOffset(Offset = "0x30")]
+	private static readonly int Lz_zz;
+
+	[Token(Token = "0x4000D94")]
+	[FieldOffset(Offset = "0x34")]
+	private static readonly int Lz_zz_;
+
+	[Token(Token = "0x4000D95")]
+	[FieldOffset(Offset = "0x38")]
+	private static readonly int Lz_zz_zz;
+
+	[Token(Token = "0x4000D96")]
+	[FieldOffset(Offset = "0x3C")]
+	private static readonly int Lz__;
+
+	[Token(Token = "0x4000D97")]
+	[FieldOffset(Offset = "0x40")]
+	private static readonly int Lz__mm;
+
+	[Token(Token = "0x4000D98")]
+	[FieldOffset(Offset = "0x44")]
+	private static readonly int Lz__mm_;
+
+	[Token(Token = "0x4000D99")]
+	[FieldOffset(Offset = "0x48")]
+	private static readonly int Lz__mm__;
+
+	[Token(Token = "0x4000D9A")]
+	[FieldOffset(Offset = "0x4C")]
+	private static readonly int Lz__mm_dd;
+
+	[Token(Token = "0x4000D9B")]
+	[FieldOffset(Offset = "0x50")]
+	private static readonly int Lz___;
+
+	[Token(Token = "0x4000D9C")]
+	[FieldOffset(Offset = "0x54")]
+	private static readonly int Lz___dd;
+
+	[Token(Token = "0x4000D9D")]
+	[FieldOffset(Offset = "0x58")]
+	private static readonly XmlTypeCode[] typeCodes;
+
+	[Token(Token = "0x170006B1")]
+	private DateTimeTypeCode InternalTypeCode
+	{
+		[Token(Token = "0x60019F4")]
+		[Address(RVA = "0x60728F0", Offset = "0x60718F0", VA = "0x60728F0")]
+		get
+		{
+			return default(DateTimeTypeCode);
+		}
+	}
+
+	[Token(Token = "0x170006B2")]
+	private XsdDateTimeKind InternalKind
+	{
+		[Token(Token = "0x60019F5")]
+		[Address(RVA = "0x6072900", Offset = "0x6071900", VA = "0x6072900")]
+		get
+		{
+			return default(XsdDateTimeKind);
+		}
+	}
+
+	[Token(Token = "0x170006B3")]
+	public int Year
+	{
+		[Token(Token = "0x60019F6")]
+		[Address(RVA = "0x6072910", Offset = "0x6071910", VA = "0x6072910")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B4")]
+	public int Month
+	{
+		[Token(Token = "0x60019F7")]
+		[Address(RVA = "0x6072980", Offset = "0x6071980", VA = "0x6072980")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B5")]
+	public int Day
+	{
+		[Token(Token = "0x60019F8")]
+		[Address(RVA = "0x60729F0", Offset = "0x60719F0", VA = "0x60729F0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B6")]
+	public int Hour
+	{
+		[Token(Token = "0x60019F9")]
+		[Address(RVA = "0x6072A60", Offset = "0x6071A60", VA = "0x6072A60")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B7")]
+	public int Minute
+	{
+		[Token(Token = "0x60019FA")]
+		[Address(RVA = "0x6072AD0", Offset = "0x6071AD0", VA = "0x6072AD0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B8")]
+	public int Second
+	{
+		[Token(Token = "0x60019FB")]
+		[Address(RVA = "0x6072B40", Offset = "0x6071B40", VA = "0x6072B40")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006B9")]
+	public int Fraction
+	{
+		[Token(Token = "0x60019FC")]
+		[Address(RVA = "0x6072BB0", Offset = "0x6071BB0", VA = "0x6072BB0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006BA")]
+	public int ZoneHour
+	{
+		[Token(Token = "0x60019FD")]
+		[Address(RVA = "0x6072CB0", Offset = "0x6071CB0", VA = "0x6072CB0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170006BB")]
+	public int ZoneMinute
+	{
+		[Token(Token = "0x60019FE")]
+		[Address(RVA = "0x6072CC0", Offset = "0x6071CC0", VA = "0x6072CC0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x60019ED")]
+	[Address(RVA = "0x6070E80", Offset = "0x606FE80", VA = "0x6070E80")]
+	public XsdDateTime(string text, XsdDateTimeFlags kinds)
+	{
+	}
+
+	[Token(Token = "0x60019EE")]
+	[Address(RVA = "0x60722C0", Offset = "0x60712C0", VA = "0x60722C0")]
+	private XsdDateTime(Parser parser)
+	{
+	}
+
+	[Token(Token = "0x60019EF")]
+	[Address(RVA = "0x6072200", Offset = "0x6071200", VA = "0x6072200")]
+	private void InitiateXsdDateTime(Parser parser)
+	{
+	}
+
+	[Token(Token = "0x60019F0")]
+	[Address(RVA = "0x6072470", Offset = "0x6071470", VA = "0x6072470")]
+	internal static bool TryParse(string text, XsdDateTimeFlags kinds, out XsdDateTime result)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60019F1")]
+	[Address(RVA = "0x6072540", Offset = "0x6071540", VA = "0x6072540")]
+	public XsdDateTime(DateTime dateTime, XsdDateTimeFlags kinds)
+	{
+	}
+
+	[Token(Token = "0x60019F2")]
+	[Address(RVA = "0x6072700", Offset = "0x6071700", VA = "0x6072700")]
+	public XsdDateTime(DateTimeOffset dateTimeOffset)
+	{
+	}
+
+	[Token(Token = "0x60019F3")]
+	[Address(RVA = "0x6072760", Offset = "0x6071760", VA = "0x6072760")]
+	public XsdDateTime(DateTimeOffset dateTimeOffset, XsdDateTimeFlags kinds)
+	{
+	}
+
+	[Token(Token = "0x60019FF")]
+	[Address(RVA = "0x6072CD0", Offset = "0x6071CD0", VA = "0x6072CD0")]
+	public static implicit operator DateTime(XsdDateTime xdt)
+	{
+		return default(DateTime);
+	}
+
+	[Token(Token = "0x6001A00")]
+	[Address(RVA = "0x60733C0", Offset = "0x60723C0", VA = "0x60733C0")]
+	public static implicit operator DateTimeOffset(XsdDateTime xdt)
+	{
+		return default(DateTimeOffset);
+	}
+
+	[Token(Token = "0x6001A01")]
+	[Address(RVA = "0x60738C0", Offset = "0x60728C0", VA = "0x60738C0", Slot = "3")]
+	public override string ToString()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6001A02")]
+	[Address(RVA = "0x6074130", Offset = "0x6073130", VA = "0x6074130")]
+	private void PrintDate(StringBuilder sb)
+	{
+	}
+
+	[Token(Token = "0x6001A03")]
+	[Address(RVA = "0x6074440", Offset = "0x6073440", VA = "0x6074440")]
+	private void PrintTime(StringBuilder sb)
+	{
+	}
+
+	[Token(Token = "0x6001A04")]
+	[Address(RVA = "0x60748A0", Offset = "0x60738A0", VA = "0x60748A0")]
+	private void PrintZone(StringBuilder sb)
+	{
+	}
+
+	[Token(Token = "0x6001A05")]
+	[Address(RVA = "0x60747D0", Offset = "0x60737D0", VA = "0x60747D0")]
+	private void IntToCharArray(char[] text, int start, int value, int digits)
+	{
+	}
+
+	[Token(Token = "0x6001A06")]
+	[Address(RVA = "0x6074840", Offset = "0x6073840", VA = "0x6074840")]
+	private void ShortToCharArray(char[] text, int start, int value)
+	{
+	}
+}

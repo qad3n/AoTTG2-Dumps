@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Line
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,21 +22,21 @@ internal struct Line
 	public float3 t;
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x2BCE670", Offset = "0x2BCCC70", VA = "0x182BCE670")]
+	[Address(RVA = "0x65B7B30", Offset = "0x65B6B30", VA = "0x65B7B30")]
 	internal static Line LineOfPlaneIntersectingPlane(float4 a, float4 b)
 	{
 		return default(Line);
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2BCE730", Offset = "0x2BCCD30", VA = "0x182BCE730")]
+	[Address(RVA = "0x65B7BB0", Offset = "0x65B6BB0", VA = "0x65B7BB0")]
 	internal static float4 PlaneContainingLineAndPoint(Line a, float3 b)
 	{
 		return default(float4);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x2BCE7F0", Offset = "0x2BCCDF0", VA = "0x182BCE7F0")]
+	[Address(RVA = "0x65B7C40", Offset = "0x65B6C40", VA = "0x65B7C40")]
 	internal static float4 PlaneContainingLineWithNormalPerpendicularToVector(Line a, float3 b)
 	{
 		return default(float4);

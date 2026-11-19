@@ -13,14 +13,14 @@ namespace UnityEngine.UIElements;
 internal static class ListViewDraggerExtension
 {
 	[Token(Token = "0x6000B85")]
-	[Address(RVA = "0x3243DA0", Offset = "0x32423A0", VA = "0x183243DA0")]
+	[Address(RVA = "0x6C4ED90", Offset = "0x6C4DD90", VA = "0x6C4ED90")]
 	public static ReusableCollectionItem GetRecycledItemFromId(this BaseVerticalCollectionView listView, int id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B86")]
-	[Address(RVA = "0x3243F40", Offset = "0x3242540", VA = "0x183243F40")]
+	[Address(RVA = "0x6C554C0", Offset = "0x6C544C0", VA = "0x6C554C0")]
 	public static ReusableCollectionItem GetRecycledItemFromIndex(this BaseVerticalCollectionView listView, int index)
 	{
 		return null;

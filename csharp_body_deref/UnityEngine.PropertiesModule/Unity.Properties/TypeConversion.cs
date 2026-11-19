@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.TypeConversion
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,7 +19,7 @@ public static class TypeConversion
 	internal struct Unsafe
 	{
 		[Token(Token = "0x6000166")]
-		[Address(RVA = "0x2FF5790", Offset = "0x2FF3D90", VA = "0x182FF5790")]
+		[Address(RVA = "0x69EAAE0", Offset = "0x69E9AE0", VA = "0x69EAAE0")]
 		public static void LazyRegister(Type source, Type destination, Func<Delegate> getConverterDelegate)
 		{
 		}
@@ -29,7 +29,7 @@ public static class TypeConversion
 	private static class PrimitiveConverters
 	{
 		[Token(Token = "0x6000167")]
-		[Address(RVA = "0x2FEB7C0", Offset = "0x2FE9DC0", VA = "0x182FEB7C0")]
+		[Address(RVA = "0x69EA930", Offset = "0x69E9930", VA = "0x69EA930")]
 		public static void Register()
 		{
 		}
@@ -129,7 +129,7 @@ public static class TypeConversion
 	private static readonly ConversionRegistry s_GlobalConverters;
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x2FF2FD0", Offset = "0x2FF15D0", VA = "0x182FF2FD0")]
+	[Address(RVA = "0x69EA8D0", Offset = "0x69E98D0", VA = "0x69EA8D0")]
 	static TypeConversion()
 	{
 	}
@@ -166,7 +166,7 @@ public static class TypeConversion
 	}
 
 	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x2FF2F90", Offset = "0x2FF1590", VA = "0x182FF2F90")]
+	[Address(RVA = "0x69EAAA0", Offset = "0x69E9AA0", VA = "0x69EAAA0")]
 	private static bool IsNumericType(Type t)
 	{
 		return default(bool);

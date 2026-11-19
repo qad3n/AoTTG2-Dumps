@@ -18,27 +18,38 @@ namespace System.Reflection;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000539")]
-[ComVisible(true)]
+[Token(Token = "0x2000512")]
 [ComDefaultInterface(typeof(_Assembly))]
+[ComVisible(true)]
 [ClassInterface(ClassInterfaceType.None)]
 public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly
 {
-	[Token(Token = "0x200053A")]
+	[Token(Token = "0x2000513")]
 	internal class ResolveEventHolder
 	{
-		[Token(Token = "0x600266B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6002639")]
+		[Address(RVA = "0x53E2DF0", Offset = "0x53E1DF0", VA = "0x53E2DF0")]
 		public ResolveEventHolder()
 		{
 		}
 	}
 
-	[Token(Token = "0x1700053D")]
+	[Token(Token = "0x1700053C")]
 	public virtual string CodeBase
 	{
-		[Token(Token = "0x6002637")]
-		[Address(RVA = "0x1A41340", Offset = "0x1A3F940", VA = "0x181A41340", Slot = "8")]
+		[Token(Token = "0x6002605")]
+		[Address(RVA = "0x53E1DD0", Offset = "0x53E0DD0", VA = "0x53E1DD0", Slot = "8")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700053D")]
+	public virtual string EscapedCodeBase
+	{
+		[Token(Token = "0x6002606")]
+		[Address(RVA = "0x53E1E10", Offset = "0x53E0E10", VA = "0x53E1E10", Slot = "9")]
 		get
 		{
 			return null;
@@ -46,10 +57,10 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly
 	}
 
 	[Token(Token = "0x1700053E")]
-	public virtual string EscapedCodeBase
+	public virtual string FullName
 	{
-		[Token(Token = "0x6002638")]
-		[Address(RVA = "0x1A41380", Offset = "0x1A3F980", VA = "0x181A41380", Slot = "9")]
+		[Token(Token = "0x6002607")]
+		[Address(RVA = "0x53E1E50", Offset = "0x53E0E50", VA = "0x53E1E50", Slot = "10")]
 		get
 		{
 			return null;
@@ -57,44 +68,45 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly
 	}
 
 	[Token(Token = "0x1700053F")]
-	public virtual string FullName
-	{
-		[Token(Token = "0x6002639")]
-		[Address(RVA = "0x1A413C0", Offset = "0x1A3F9C0", VA = "0x181A413C0", Slot = "10")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000540")]
 	internal virtual IntPtr MonoAssembly
 	{
-		[Token(Token = "0x600263A")]
-		[Address(RVA = "0x1A41440", Offset = "0x1A3FA40", VA = "0x181A41440", Slot = "11")]
+		[Token(Token = "0x6002608")]
+		[Address(RVA = "0x53E1E90", Offset = "0x53E0E90", VA = "0x53E1E90", Slot = "11")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x17000541")]
+	[Token(Token = "0x17000540")]
 	public virtual string Location
 	{
-		[Token(Token = "0x600263B")]
-		[Address(RVA = "0x1A41400", Offset = "0x1A3FA00", VA = "0x181A41400", Slot = "12")]
+		[Token(Token = "0x6002609")]
+		[Address(RVA = "0x53E1ED0", Offset = "0x53E0ED0", VA = "0x53E1ED0", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000542")]
+	[Token(Token = "0x17000541")]
 	[ComVisible(false)]
 	public virtual bool ReflectionOnly
 	{
-		[Token(Token = "0x600265F")]
-		[Address(RVA = "0x1A41480", Offset = "0x1A3FA80", VA = "0x181A41480", Slot = "28")]
+		[Token(Token = "0x600262D")]
+		[Address(RVA = "0x53E2C60", Offset = "0x53E1C60", VA = "0x53E2C60", Slot = "28")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000542")]
+	[System.MonoTODO]
+	public bool IsFullyTrusted
+	{
+		[Token(Token = "0x6002631")]
+		[Address(RVA = "0x53E2D20", Offset = "0x53E1D20", VA = "0x53E2D20")]
 		get
 		{
 			return default(bool);
@@ -102,197 +114,185 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly
 	}
 
 	[Token(Token = "0x17000543")]
-	[System.MonoTODO]
-	public bool IsFullyTrusted
-	{
-		[Token(Token = "0x6002663")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000544")]
 	public virtual bool IsDynamic
 	{
-		[Token(Token = "0x6002667")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "32")]
+		[Token(Token = "0x6002635")]
+		[Address(RVA = "0x53E2D90", Offset = "0x53E1D90", VA = "0x53E2D90", Slot = "32")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600263C")]
-	[Address(RVA = "0x1A40BC0", Offset = "0x1A3F1C0", VA = "0x181A40BC0", Slot = "13")]
+	[Token(Token = "0x600260A")]
+	[Address(RVA = "0x53E1F10", Offset = "0x53E0F10", VA = "0x53E1F10", Slot = "13")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600263D")]
-	[Address(RVA = "0x1A41110", Offset = "0x1A3F710", VA = "0x181A41110", Slot = "14")]
+	[Token(Token = "0x600260B")]
+	[Address(RVA = "0x53E1F50", Offset = "0x53E0F50", VA = "0x53E1F50", Slot = "14")]
 	public virtual bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600263E")]
-	[Address(RVA = "0x1A40680", Offset = "0x1A3EC80", VA = "0x181A40680", Slot = "15")]
+	[Token(Token = "0x600260C")]
+	[Address(RVA = "0x53E1F90", Offset = "0x53E0F90", VA = "0x53E1F90", Slot = "15")]
 	public virtual object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600263F")]
-	[Address(RVA = "0x1A40640", Offset = "0x1A3EC40", VA = "0x181A40640", Slot = "16")]
+	[Token(Token = "0x600260D")]
+	[Address(RVA = "0x53E1FD0", Offset = "0x53E0FD0", VA = "0x53E1FD0", Slot = "16")]
 	public virtual object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002640")]
-	[Address(RVA = "0x1A407A0", Offset = "0x1A3EDA0", VA = "0x181A407A0", Slot = "17")]
+	[Token(Token = "0x600260E")]
+	[Address(RVA = "0x53E2010", Offset = "0x53E1010", VA = "0x53E2010", Slot = "17")]
 	public virtual Stream GetManifestResourceStream(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002641")]
-	[Address(RVA = "0x1A40900", Offset = "0x1A3EF00", VA = "0x181A40900")]
+	[Token(Token = "0x600260F")]
+	[Address(RVA = "0x53E2050", Offset = "0x53E1050", VA = "0x53E2050")]
 	internal Stream GetManifestResourceStream(Type type, string name, bool skipSecurityCheck, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002642")]
-	[Address(RVA = "0x1A407E0", Offset = "0x1A3EDE0", VA = "0x181A407E0")]
+	[Token(Token = "0x6002610")]
+	[Address(RVA = "0x53E21F0", Offset = "0x53E11F0", VA = "0x53E21F0")]
 	internal Stream GetManifestResourceStream(string name, ref System.Threading.StackCrawlMark stackMark, bool skipSecurityCheck)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002643")]
-	[Address(RVA = "0x1A40C30", Offset = "0x1A3F230", VA = "0x181A40C30")]
+	[Token(Token = "0x6002611")]
+	[Address(RVA = "0x53E2200", Offset = "0x53E1200", VA = "0x53E2200")]
 	internal string GetSimpleName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002644")]
-	[Address(RVA = "0x1A40C00", Offset = "0x1A3F200", VA = "0x181A40C00")]
+	[Token(Token = "0x6002612")]
+	[Address(RVA = "0x53E2230", Offset = "0x53E1230", VA = "0x53E2230")]
 	internal byte[] GetPublicKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002645")]
-	[Address(RVA = "0x1A40D20", Offset = "0x1A3F320", VA = "0x181A40D20")]
+	[Token(Token = "0x6002613")]
+	[Address(RVA = "0x53E2260", Offset = "0x53E1260", VA = "0x53E2260")]
 	internal Version GetVersion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002646")]
-	[Address(RVA = "0x1A406F0", Offset = "0x1A3ECF0", VA = "0x181A406F0")]
+	[Token(Token = "0x6002614")]
+	[Address(RVA = "0x53E2290", Offset = "0x53E1290", VA = "0x53E2290")]
 	private AssemblyNameFlags GetFlags()
 	{
 		return default(AssemblyNameFlags);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002647")]
-	[Address(RVA = "0x1A40CF0", Offset = "0x1A3F2F0", VA = "0x181A40CF0", Slot = "18")]
+	[Token(Token = "0x6002615")]
+	[Address(RVA = "0x53E22C0", Offset = "0x53E12C0", VA = "0x53E22C0", Slot = "18")]
 	internal virtual extern Type[] GetTypes(bool exportedOnly);
 
-	[Token(Token = "0x6002648")]
-	[Address(RVA = "0x1A40D00", Offset = "0x1A3F300", VA = "0x181A40D00", Slot = "19")]
+	[Token(Token = "0x6002616")]
+	[Address(RVA = "0x53E22D0", Offset = "0x53E12D0", VA = "0x53E22D0", Slot = "19")]
 	public virtual Type[] GetTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002649")]
-	[Address(RVA = "0x1A40C90", Offset = "0x1A3F290", VA = "0x181A40C90", Slot = "20")]
+	[Token(Token = "0x6002617")]
+	[Address(RVA = "0x53E22F0", Offset = "0x53E12F0", VA = "0x53E22F0", Slot = "20")]
 	public virtual Type GetType(string name, bool throwOnError)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600264A")]
-	[Address(RVA = "0x1A40C60", Offset = "0x1A3F260", VA = "0x181A40C60", Slot = "21")]
+	[Token(Token = "0x6002618")]
+	[Address(RVA = "0x53E2310", Offset = "0x53E1310", VA = "0x53E2310", Slot = "21")]
 	public virtual Type GetType(string name)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600264B")]
-	[Address(RVA = "0x1A41100", Offset = "0x1A3F700", VA = "0x181A41100")]
+	[Token(Token = "0x6002619")]
+	[Address(RVA = "0x53E2330", Offset = "0x53E1330", VA = "0x53E2330")]
 	internal extern Type InternalGetType(Module module, string name, bool throwOnError, bool ignoreCase);
 
-	[Token(Token = "0x600264C")]
-	[Address(RVA = "0x1A40B60", Offset = "0x1A3F160", VA = "0x181A40B60", Slot = "22")]
+	[Token(Token = "0x600261A")]
+	[Address(RVA = "0x53E2340", Offset = "0x53E1340", VA = "0x53E2340", Slot = "22")]
 	public virtual AssemblyName GetName(bool copiedName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600264D")]
-	[Address(RVA = "0x1A40BA0", Offset = "0x1A3F1A0", VA = "0x181A40BA0", Slot = "23")]
+	[Token(Token = "0x600261B")]
+	[Address(RVA = "0x53E2380", Offset = "0x53E1380", VA = "0x53E2380", Slot = "23")]
 	public virtual AssemblyName GetName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600264E")]
-	[Address(RVA = "0x1A41330", Offset = "0x1A3F930", VA = "0x181A41330", Slot = "3")]
+	[Token(Token = "0x600261C")]
+	[Address(RVA = "0x53E23A0", Offset = "0x53E13A0", VA = "0x53E23A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600264F")]
-	[Address(RVA = "0x1A40590", Offset = "0x1A3EB90", VA = "0x181A40590")]
+	[Token(Token = "0x600261D")]
+	[Address(RVA = "0x53E23B0", Offset = "0x53E13B0", VA = "0x53E23B0")]
 	public static Assembly GetAssembly(Type type)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002650")]
-	[Address(RVA = "0x19E8C50", Offset = "0x19E7250", VA = "0x1819E8C50")]
+	[Token(Token = "0x600261E")]
+	[Address(RVA = "0x53E2450", Offset = "0x53E1450", VA = "0x53E2450")]
 	public static extern Assembly GetEntryAssembly();
 
-	[Token(Token = "0x6002651")]
-	[Address(RVA = "0x1A40D50", Offset = "0x1A3F350", VA = "0x181A40D50")]
+	[Token(Token = "0x600261F")]
+	[Address(RVA = "0x53E2460", Offset = "0x53E1460", VA = "0x53E2460")]
 	internal System.Reflection.RuntimeAssembly InternalGetSatelliteAssembly(string name, CultureInfo culture, Version version, bool throwOnFileNotFound, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002652")]
-	[Address(RVA = "0x1A41150", Offset = "0x1A3F750", VA = "0x181A41150")]
+	[Token(Token = "0x6002620")]
+	[Address(RVA = "0x53E2990", Offset = "0x53E1990", VA = "0x53E2990")]
 	private static extern Assembly LoadFrom(string assemblyFile, bool refOnly, ref System.Threading.StackCrawlMark stackMark);
 
-	[Token(Token = "0x6002653")]
-	[Address(RVA = "0x1A412B0", Offset = "0x1A3F8B0", VA = "0x181A412B0")]
+	[Token(Token = "0x6002621")]
+	[Address(RVA = "0x53E29A0", Offset = "0x53E19A0", VA = "0x53E29A0")]
 	public static Assembly Load(string assemblyString)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002654")]
-	[Address(RVA = "0x1A412E0", Offset = "0x1A3F8E0", VA = "0x181A412E0")]
+	[Token(Token = "0x6002622")]
+	[Address(RVA = "0x53E29D0", Offset = "0x53E19D0", VA = "0x53E29D0")]
 	public static Assembly ReflectionOnlyLoad(string assemblyString)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002655")]
-	[Address(RVA = "0x1A41160", Offset = "0x1A3F760", VA = "0x181A41160")]
+	[Token(Token = "0x6002623")]
+	[Address(RVA = "0x53E2A20", Offset = "0x53E1A20", VA = "0x53E2A20")]
 	[Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")]
 	public static Assembly LoadWithPartialName(string partialName)
 	{
@@ -300,121 +300,121 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002656")]
-	[Address(RVA = "0x1A414C0", Offset = "0x1A3FAC0", VA = "0x181A414C0")]
+	[Token(Token = "0x6002624")]
+	[Address(RVA = "0x53E2AC0", Offset = "0x53E1AC0", VA = "0x53E2AC0")]
 	private static extern Assembly load_with_partial_name(string name, Evidence e);
 
-	[Token(Token = "0x6002657")]
-	[Address(RVA = "0x1A41250", Offset = "0x1A3F850", VA = "0x181A41250")]
+	[Token(Token = "0x6002625")]
+	[Address(RVA = "0x53E2A70", Offset = "0x53E1A70", VA = "0x53E2A70")]
 	[Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")]
 	public static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002658")]
-	[Address(RVA = "0x1A411C0", Offset = "0x1A3F7C0", VA = "0x181A411C0")]
+	[Token(Token = "0x6002626")]
+	[Address(RVA = "0x53E2AD0", Offset = "0x53E1AD0", VA = "0x53E2AD0")]
 	internal static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence, bool oldBehavior)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002659")]
-	[Address(RVA = "0x1A40B40", Offset = "0x1A3F140", VA = "0x181A40B40", Slot = "24")]
+	[Token(Token = "0x6002627")]
+	[Address(RVA = "0x53E2B40", Offset = "0x53E1B40", VA = "0x53E2B40", Slot = "24")]
 	public Module[] GetModules()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600265A")]
-	[Address(RVA = "0x1A40AD0", Offset = "0x1A3F0D0", VA = "0x181A40AD0", Slot = "25")]
+	[Token(Token = "0x6002628")]
+	[Address(RVA = "0x53E2B60", Offset = "0x53E1B60", VA = "0x53E2B60", Slot = "25")]
 	internal virtual Module[] GetModulesInternal()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600265B")]
-	[Address(RVA = "0x1A406C0", Offset = "0x1A3ECC0", VA = "0x181A406C0")]
+	[Token(Token = "0x6002629")]
+	[Address(RVA = "0x53E2BA0", Offset = "0x53E1BA0", VA = "0x53E2BA0")]
 	public static extern Assembly GetExecutingAssembly();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600265C")]
-	[Address(RVA = "0x1A40630", Offset = "0x1A3EC30", VA = "0x181A40630")]
+	[Token(Token = "0x600262A")]
+	[Address(RVA = "0x53E2BD0", Offset = "0x53E1BD0", VA = "0x53E2BD0")]
 	public static extern Assembly GetCallingAssembly();
 
-	[Token(Token = "0x600265D")]
-	[Address(RVA = "0x1A40760", Offset = "0x1A3ED60", VA = "0x181A40760", Slot = "26")]
+	[Token(Token = "0x600262B")]
+	[Address(RVA = "0x53E2BE0", Offset = "0x53E1BE0", VA = "0x53E2BE0", Slot = "26")]
 	public virtual string[] GetManifestResourceNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600265E")]
-	[Address(RVA = "0x1A40720", Offset = "0x1A3ED20", VA = "0x181A40720", Slot = "27")]
+	[Token(Token = "0x600262C")]
+	[Address(RVA = "0x53E2C20", Offset = "0x53E1C20", VA = "0x53E2C20", Slot = "27")]
 	public virtual ManifestResourceInfo GetManifestResourceInfo(string resourceName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002660")]
-	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
+	[Token(Token = "0x600262E")]
+	[Address(RVA = "0x53E2CA0", Offset = "0x53E1CA0", VA = "0x53E2CA0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002661")]
-	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
+	[Token(Token = "0x600262F")]
+	[Address(RVA = "0x53E2CB0", Offset = "0x53E1CB0", VA = "0x53E2CB0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002662")]
-	[Address(RVA = "0x1A40520", Offset = "0x1A3EB20", VA = "0x181A40520")]
+	[Token(Token = "0x6002630")]
+	[Address(RVA = "0x53E2CC0", Offset = "0x53E1CC0", VA = "0x53E2CC0")]
 	private static Exception CreateNIE()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002664")]
-	[Address(RVA = "0x1A40CC0", Offset = "0x1A3F2C0", VA = "0x181A40CC0", Slot = "29")]
+	[Token(Token = "0x6002632")]
+	[Address(RVA = "0x53E2D30", Offset = "0x53E1D30", VA = "0x53E2D30", Slot = "29")]
 	public virtual Type GetType(string name, bool throwOnError, bool ignoreCase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002665")]
-	[Address(RVA = "0x1A40AA0", Offset = "0x1A3F0A0", VA = "0x181A40AA0", Slot = "30")]
+	[Token(Token = "0x6002633")]
+	[Address(RVA = "0x53E2D50", Offset = "0x53E1D50", VA = "0x53E2D50", Slot = "30")]
 	public virtual Module GetModule(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002666")]
-	[Address(RVA = "0x1A40B10", Offset = "0x1A3F110", VA = "0x181A40B10", Slot = "31")]
+	[Token(Token = "0x6002634")]
+	[Address(RVA = "0x53E2D70", Offset = "0x53E1D70", VA = "0x53E2D70", Slot = "31")]
 	public virtual Module[] GetModules(bool getResourceModules)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002668")]
-	[Address(RVA = "0x1A414D0", Offset = "0x1A3FAD0", VA = "0x181A414D0")]
+	[Token(Token = "0x6002636")]
+	[Address(RVA = "0x53E2DA0", Offset = "0x53E1DA0", VA = "0x53E2DA0")]
 	public static bool operator ==(Assembly left, Assembly right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002669")]
-	[Address(RVA = "0x1A41520", Offset = "0x1A3FB20", VA = "0x181A41520")]
+	[Token(Token = "0x6002637")]
+	[Address(RVA = "0x53E2950", Offset = "0x53E1950", VA = "0x53E2950")]
 	public static bool operator !=(Assembly left, Assembly right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600266A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6002638")]
+	[Address(RVA = "0x53E2DE0", Offset = "0x53E1DE0", VA = "0x53E2DE0")]
 	public Assembly()
 	{
 	}

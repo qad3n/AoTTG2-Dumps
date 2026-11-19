@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009D")]
+[Token(Token = "0x200009E")]
 public sealed class MemberAssignment : MemberBinding
 {
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x40001B3")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Expression _expression;
 
-	[Token(Token = "0x170000BE")]
+	[Token(Token = "0x170000C0")]
 	public Expression Expression
 	{
-		[Token(Token = "0x600046D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000478")]
+		[Address(RVA = "0x5DD2B50", Offset = "0x5DD1B50", VA = "0x5DD2B50")]
 		get
 		{
 			return null;

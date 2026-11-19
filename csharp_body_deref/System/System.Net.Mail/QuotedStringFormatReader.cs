@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x200039D")]
+[Token(Token = "0x2000359")]
 internal static class QuotedStringFormatReader
 {
-	[Token(Token = "0x60018DB")]
-	[Address(RVA = "0x2818D90", Offset = "0x2817390", VA = "0x182818D90")]
+	[Token(Token = "0x6001722")]
+	[Address(RVA = "0x61BD4D0", Offset = "0x61BC4D0", VA = "0x61BD4D0")]
 	internal static int ReadReverseQuoted(string data, int index, bool permitUnicode)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018DC")]
-	[Address(RVA = "0x2818FC0", Offset = "0x28175C0", VA = "0x182818FC0")]
+	[Token(Token = "0x6001723")]
+	[Address(RVA = "0x61BD6C0", Offset = "0x61BC6C0", VA = "0x61BD6C0")]
 	internal static int ReadReverseUnQuoted(string data, int index, bool permitUnicode, bool expectCommaDelimiter)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018DD")]
-	[Address(RVA = "0x2818CE0", Offset = "0x28172E0", VA = "0x182818CE0")]
+	[Token(Token = "0x6001724")]
+	[Address(RVA = "0x61BD9B0", Offset = "0x61BC9B0", VA = "0x61BD9B0")]
 	private static bool IsValidQtext(bool allowUnicode, char ch)
 	{
 		return default(bool);

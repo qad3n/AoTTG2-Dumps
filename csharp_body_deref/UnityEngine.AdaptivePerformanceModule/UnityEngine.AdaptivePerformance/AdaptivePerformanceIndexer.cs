@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,201 +13,201 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200002D")]
 public class AdaptivePerformanceIndexer
 {
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400009F")]
 	[FieldOffset(Offset = "0x10")]
 	private List<AdaptivePerformanceScaler> m_UnappliedScalers;
 
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x18")]
 	private List<AdaptivePerformanceScaler> m_AppliedScalers;
 
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x40000A1")]
 	[FieldOffset(Offset = "0x20")]
 	private List<AdaptivePerformanceScaler> m_DisabledScalers;
 
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x40000A2")]
 	[FieldOffset(Offset = "0x28")]
 	private ThermalStateTracker m_ThermalStateTracker;
 
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x40000A3")]
 	[FieldOffset(Offset = "0x30")]
 	private PerformanceStateTracker m_PerformanceStateTracker;
 
-	[Token(Token = "0x4000079")]
+	[Token(Token = "0x40000A4")]
 	[FieldOffset(Offset = "0x38")]
 	private AdaptivePerformanceScalerEfficiencyTracker m_ScalerEfficiencyTracker;
 
-	[Token(Token = "0x400007A")]
+	[Token(Token = "0x40000A5")]
 	[FieldOffset(Offset = "0x40")]
 	private IAdaptivePerformanceSettings m_Settings;
 
-	[Token(Token = "0x400007B")]
+	[Token(Token = "0x40000A6")]
 	private const string m_FeatureName = "Indexer";
 
-	[Token(Token = "0x400007F")]
+	[Token(Token = "0x40000AA")]
 	[FieldOffset(Offset = "0x58")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<AdaptivePerformanceScaler> ScalerLevelChanged;
 
-	[Token(Token = "0x1700003A")]
+	[Token(Token = "0x17000058")]
 	public float TimeUntilNextAction
 	{
-		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x5853E0", Offset = "0x5839E0", VA = "0x1805853E0")]
+		[Token(Token = "0x6000102")]
+		[Address(RVA = "0x6887550", Offset = "0x6886550", VA = "0x6887550")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x2E847A0", Offset = "0x2E82DA0", VA = "0x182E847A0")]
+		[Token(Token = "0x6000103")]
+		[Address(RVA = "0x6887560", Offset = "0x6886560", VA = "0x6887560")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700003B")]
+	[Token(Token = "0x17000059")]
 	private StateAction ThermalAction
 	{
-		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x58A9A0", Offset = "0x588FA0", VA = "0x18058A9A0")]
+		[Token(Token = "0x6000104")]
+		[Address(RVA = "0x6887570", Offset = "0x6886570", VA = "0x6887570")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700003C")]
+	[Token(Token = "0x1700005A")]
 	public StateAction PerformanceAction
 	{
-		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Token(Token = "0x6000105")]
+		[Address(RVA = "0x6887580", Offset = "0x6886580", VA = "0x6887580")]
 		[CompilerGenerated]
 		get
 		{
 			return default(StateAction);
 		}
-		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
+		[Token(Token = "0x6000106")]
+		[Address(RVA = "0x6887590", Offset = "0x6886590", VA = "0x6887590")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x2E83C30", Offset = "0x2E82230", VA = "0x182E83C30")]
+	[Token(Token = "0x6000107")]
+	[Address(RVA = "0x68875A0", Offset = "0x68865A0", VA = "0x68875A0")]
 	internal void NotifyScalerLevelChanged(AdaptivePerformanceScaler scaler)
 	{
 	}
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x2E83A80", Offset = "0x2E82080", VA = "0x182E83A80")]
+	[Token(Token = "0x6000108")]
+	[Address(RVA = "0x68875C0", Offset = "0x68865C0", VA = "0x68875C0")]
 	public void GetAppliedScalers(ref List<AdaptivePerformanceScaler> scalers)
 	{
 	}
 
-	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2E83BA0", Offset = "0x2E821A0", VA = "0x182E83BA0")]
+	[Token(Token = "0x6000109")]
+	[Address(RVA = "0x6887640", Offset = "0x6886640", VA = "0x6887640")]
 	public void GetUnappliedScalers(ref List<AdaptivePerformanceScaler> scalers)
 	{
 	}
 
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2E83B10", Offset = "0x2E82110", VA = "0x182E83B10")]
+	[Token(Token = "0x600010A")]
+	[Address(RVA = "0x68876C0", Offset = "0x68866C0", VA = "0x68876C0")]
 	public void GetDisabledScalers(ref List<AdaptivePerformanceScaler> scalers)
 	{
 	}
 
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x2E83D80", Offset = "0x2E82380", VA = "0x182E83D80")]
+	[Token(Token = "0x600010B")]
+	[Address(RVA = "0x68837B0", Offset = "0x68827B0", VA = "0x68837B0")]
 	public void UnapplyAllScalers()
 	{
 	}
 
-	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2E84180", Offset = "0x2E82780", VA = "0x182E84180")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x68879B0", Offset = "0x68869B0", VA = "0x68879B0")]
 	internal void UpdateOverrideLevel(AdaptivePerformanceScaler scaler)
 	{
 	}
 
-	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x2E82D90", Offset = "0x2E81390", VA = "0x182E82D90")]
+	[Token(Token = "0x600010D")]
+	[Address(RVA = "0x6887C60", Offset = "0x6886C60", VA = "0x6887C60")]
 	internal void AddScaler(AdaptivePerformanceScaler scaler)
 	{
 	}
 
-	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x2E83C50", Offset = "0x2E82250", VA = "0x182E83C50")]
+	[Token(Token = "0x600010E")]
+	[Address(RVA = "0x6887D40", Offset = "0x6886D40", VA = "0x6887D40")]
 	internal bool RemoveScaler(AdaptivePerformanceScaler scaler)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x2E845F0", Offset = "0x2E82BF0", VA = "0x182E845F0")]
+	[Token(Token = "0x600010F")]
+	[Address(RVA = "0x6883220", Offset = "0x6882220", VA = "0x6883220")]
 	internal AdaptivePerformanceIndexer(ref IAdaptivePerformanceSettings settings, PerformanceStateTracker tracker)
 	{
 	}
 
-	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2E841F0", Offset = "0x2E827F0", VA = "0x182E841F0")]
+	[Token(Token = "0x6000110")]
+	[Address(RVA = "0x6880520", Offset = "0x687F520", VA = "0x6880520")]
 	internal void Update()
 	{
 	}
 
-	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2E83A70", Offset = "0x2E82070", VA = "0x182E83A70", Slot = "4")]
+	[Token(Token = "0x6000111")]
+	[Address(RVA = "0x6888FD0", Offset = "0x6887FD0", VA = "0x6888FD0", Slot = "4")]
 	protected virtual float DeltaTime()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x2E833A0", Offset = "0x2E819A0", VA = "0x182E833A0")]
+	[Token(Token = "0x6000112")]
+	[Address(RVA = "0x6888690", Offset = "0x6887690", VA = "0x6888690")]
 	private void CollectProfilerStats()
 	{
 	}
 
-	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x2E83740", Offset = "0x2E81D40", VA = "0x182E83740")]
+	[Token(Token = "0x6000113")]
+	[Address(RVA = "0x6887F30", Offset = "0x6886F30", VA = "0x6887F30")]
 	private void DeactivateDisabledScalers()
 	{
 	}
 
-	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x2E82BE0", Offset = "0x2E811E0", VA = "0x182E82BE0")]
+	[Token(Token = "0x6000114")]
+	[Address(RVA = "0x6888470", Offset = "0x6887470", VA = "0x6888470")]
 	private void ActivateEnabledScalers()
 	{
 	}
 
-	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x2E82E30", Offset = "0x2E81430", VA = "0x182E82E30")]
+	[Token(Token = "0x6000115")]
+	[Address(RVA = "0x6888C60", Offset = "0x6887C60", VA = "0x6888C60")]
 	private bool ApplyLowestCostScaler()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x2E83180", Offset = "0x2E81780", VA = "0x182E83180")]
+	[Token(Token = "0x6000116")]
+	[Address(RVA = "0x6887A10", Offset = "0x6886A10", VA = "0x6887A10")]
 	private void ApplyScaler(AdaptivePerformanceScaler scaler)
 	{
 	}
 
-	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x2E83E20", Offset = "0x2E82420", VA = "0x182E83E20")]
+	[Token(Token = "0x6000117")]
+	[Address(RVA = "0x6888A70", Offset = "0x6887A70", VA = "0x6888A70")]
 	private bool UnapplyHighestCostScaler()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x2E84010", Offset = "0x2E82610", VA = "0x182E84010")]
+	[Token(Token = "0x6000118")]
+	[Address(RVA = "0x6887760", Offset = "0x6886760", VA = "0x6887760")]
 	private void UnapplyScaler(AdaptivePerformanceScaler scaler)
 	{
 	}

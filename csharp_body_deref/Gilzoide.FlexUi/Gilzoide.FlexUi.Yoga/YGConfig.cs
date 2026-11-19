@@ -21,7 +21,7 @@ public struct YGConfig : IDisposable, IEquatable<YGConfig>
 	public bool IsNull
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
+		[Address(RVA = "0x52164E0", Offset = "0x52154E0", VA = "0x52164E0")]
 		get
 		{
 			return default(bool);
@@ -29,57 +29,57 @@ public struct YGConfig : IDisposable, IEquatable<YGConfig>
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x187DF70", Offset = "0x187C570", VA = "0x18187DF70")]
+	[Address(RVA = "0x520F260", Offset = "0x520E260", VA = "0x520F260")]
 	public static YGConfig GetDefaultConfig()
 	{
 		return default(YGConfig);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x187DFE0", Offset = "0x187C5E0", VA = "0x18187DFE0")]
+	[Address(RVA = "0x52164F0", Offset = "0x52154F0", VA = "0x52164F0")]
 	public void Instantiate()
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x187DE30", Offset = "0x187C430", VA = "0x18187DE30", Slot = "4")]
+	[Address(RVA = "0x5216890", Offset = "0x5215890", VA = "0x5216890", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x187DED0", Offset = "0x187C4D0", VA = "0x18187DED0", Slot = "5")]
+	[Address(RVA = "0x5216880", Offset = "0x5215880", VA = "0x5216880", Slot = "5")]
 	public bool Equals(YGConfig other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x187E180", Offset = "0x187C780", VA = "0x18187E180")]
+	[Address(RVA = "0x52163D0", Offset = "0x52153D0", VA = "0x52163D0")]
 	public void SetExperimentalFeatures(ExperimentalFeatureFlags experimentalFeatures)
 	{
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x187DEE0", Offset = "0x187C4E0", VA = "0x18187DEE0")]
+	[Address(RVA = "0x5216A90", Offset = "0x5215A90", VA = "0x5216A90")]
 	public void Free()
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x187E1D0", Offset = "0x187C7D0", VA = "0x18187E1D0")]
+	[Address(RVA = "0x52160F0", Offset = "0x52150F0", VA = "0x52160F0")]
 	public void SetPointScaleFactor(float enabled)
 	{
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x187E050", Offset = "0x187C650", VA = "0x18187E050")]
+	[Address(RVA = "0x5216220", Offset = "0x5215220", VA = "0x5216220")]
 	public void SetErrata(Errata errata)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x187E0E0", Offset = "0x187C6E0", VA = "0x18187E0E0")]
+	[Address(RVA = "0x5216B10", Offset = "0x5215B10", VA = "0x5216B10")]
 	public void SetExperimentalFeatureEnabled(ExperimentalFeature feature, bool enabled)
 	{
 	}

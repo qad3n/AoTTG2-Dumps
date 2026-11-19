@@ -2,11 +2,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x2000075")]
 internal static class NotImplemented
 {
-	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x283E5D0", Offset = "0x283CBD0", VA = "0x18283E5D0")]
+	[Token(Token = "0x60001AA")]
+	[Address(RVA = "0x61D3AA0", Offset = "0x61D2AA0", VA = "0x61D3AA0")]
 	internal static Exception ByDesignWithMessage(string message)
 	{
 		return null;

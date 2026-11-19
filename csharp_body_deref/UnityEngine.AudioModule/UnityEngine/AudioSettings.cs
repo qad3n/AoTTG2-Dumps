@@ -14,37 +14,37 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000006")]
 [UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/ScriptBindings/Audio.bindings.h")]
 [UnityEngine.Bindings.StaticAccessor("GetAudioManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 public sealed class AudioSettings
 {
-	[Token(Token = "0x2000006")]
+	[Token(Token = "0x2000007")]
 	public delegate void AudioConfigurationChangeHandler(bool deviceWasChanged);
 
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x4000018")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static AudioConfigurationChangeHandler m_OnAudioConfigurationChanged;
 
-	[Token(Token = "0x4000014")]
+	[Token(Token = "0x4000019")]
 	[FieldOffset(Offset = "0x8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action OnAudioSystemShuttingDown;
 
-	[Token(Token = "0x4000015")]
+	[Token(Token = "0x400001A")]
 	[FieldOffset(Offset = "0x10")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action OnAudioSystemStartedUp;
 
 	[Token(Token = "0x17000001")]
 	public static AudioSpeakerMode speakerMode
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x2EB38E0", Offset = "0x2EB1EE0", VA = "0x182EB38E0")]
+		[Address(RVA = "0x68AE090", Offset = "0x68AD090", VA = "0x68AE090")]
 		get
 		{
 			return default(AudioSpeakerMode);
@@ -55,7 +55,7 @@ public sealed class AudioSettings
 	public static int outputSampleRate
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x2EB38B0", Offset = "0x2EB1EB0", VA = "0x182EB38B0")]
+		[Address(RVA = "0x68AE0C0", Offset = "0x68AD0C0", VA = "0x68AE0C0")]
 		get
 		{
 			return default(int);
@@ -66,13 +66,13 @@ public sealed class AudioSettings
 	public static event AudioConfigurationChangeHandler OnAudioConfigurationChanged
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x2EB3A10", Offset = "0x2EB2010", VA = "0x182EB3A10")]
+		[Address(RVA = "0x68AE0F0", Offset = "0x68AD0F0", VA = "0x68AE0F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x2EB3AD0", Offset = "0x2EB20D0", VA = "0x182EB3AD0")]
+		[Address(RVA = "0x68AE190", Offset = "0x68AD190", VA = "0x68AE190")]
 		[CompilerGenerated]
 		remove
 		{
@@ -81,31 +81,31 @@ public sealed class AudioSettings
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2EB38E0", Offset = "0x2EB1EE0", VA = "0x182EB38E0")]
+	[Address(RVA = "0x68AE030", Offset = "0x68AD030", VA = "0x68AE030")]
 	private static extern AudioSpeakerMode GetSpeakerMode();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2EB38B0", Offset = "0x2EB1EB0", VA = "0x182EB38B0")]
+	[Address(RVA = "0x68AE060", Offset = "0x68AD060", VA = "0x68AE060")]
 	[UnityEngine.Bindings.NativeMethod(Name = "AudioSettings::GetSampleRate", IsFreeFunction = true)]
 	private static extern int GetSampleRate();
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2EB3910", Offset = "0x2EB1F10", VA = "0x182EB3910")]
+	[Address(RVA = "0x68AE230", Offset = "0x68AD230", VA = "0x68AE230")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2EB3970", Offset = "0x2EB1F70", VA = "0x182EB3970")]
+	[Address(RVA = "0x68AE280", Offset = "0x68AD280", VA = "0x68AE280")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeOnAudioSystemShuttingDown()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x2EB39C0", Offset = "0x2EB1FC0", VA = "0x182EB39C0")]
+	[Address(RVA = "0x68AE2D0", Offset = "0x68AD2D0", VA = "0x68AE2D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeOnAudioSystemStartedUp()
 	{

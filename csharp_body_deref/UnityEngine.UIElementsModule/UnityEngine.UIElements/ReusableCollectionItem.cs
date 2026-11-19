@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ReusableCollectionItem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,15 +28,15 @@ internal class ReusableCollectionItem
 
 	[Token(Token = "0x4000165")]
 	[FieldOffset(Offset = "0x40")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<ReusableCollectionItem> m_onDestroy;
 
 	[Token(Token = "0x1700007E")]
 	public virtual VisualElement rootElement
 	{
 		[Token(Token = "0x60002F8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Address(RVA = "0x6A9BA20", Offset = "0x6A9AA20", VA = "0x6A9BA20", Slot = "4")]
 		get
 		{
 			return null;
@@ -47,14 +47,14 @@ internal class ReusableCollectionItem
 	public VisualElement bindableElement
 	{
 		[Token(Token = "0x60002F9")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6A9BA30", Offset = "0x6A9AA30", VA = "0x6A9BA30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002FA")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6A9BA40", Offset = "0x6A9AA40", VA = "0x6A9BA40")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -65,14 +65,14 @@ internal class ReusableCollectionItem
 	public ValueAnimation<StyleValues> animator
 	{
 		[Token(Token = "0x60002FB")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6A9BA50", Offset = "0x6A9AA50", VA = "0x6A9BA50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002FC")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6A9BA60", Offset = "0x6A9AA60", VA = "0x6A9BA60")]
 		[CompilerGenerated]
 		set
 		{
@@ -83,14 +83,14 @@ internal class ReusableCollectionItem
 	public int index
 	{
 		[Token(Token = "0x60002FD")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6A9BA70", Offset = "0x6A9AA70", VA = "0x6A9BA70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002FE")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x6A9BA80", Offset = "0x6A9AA80", VA = "0x6A9BA80")]
 		[CompilerGenerated]
 		set
 		{
@@ -101,14 +101,14 @@ internal class ReusableCollectionItem
 	public int id
 	{
 		[Token(Token = "0x60002FF")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6A9BA90", Offset = "0x6A9AA90", VA = "0x6A9BA90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000300")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x6A9BAA0", Offset = "0x6A9AAA0", VA = "0x6A9BAA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -119,14 +119,14 @@ internal class ReusableCollectionItem
 	internal bool isDragGhost
 	{
 		[Token(Token = "0x6000301")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x6A9BAB0", Offset = "0x6A9AAB0", VA = "0x6A9BAB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000302")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Address(RVA = "0x6A9BAC0", Offset = "0x6A9AAC0", VA = "0x6A9BAC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -137,13 +137,13 @@ internal class ReusableCollectionItem
 	public event Action<ReusableCollectionItem> onGeometryChanged
 	{
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x30AFF80", Offset = "0x30AE580", VA = "0x1830AFF80")]
+		[Address(RVA = "0x6A9BAD0", Offset = "0x6A9AAD0", VA = "0x6A9BAD0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x30B00E0", Offset = "0x30AE6E0", VA = "0x1830B00E0")]
+		[Address(RVA = "0x6A9BB70", Offset = "0x6A9AB70", VA = "0x6A9BB70")]
 		[CompilerGenerated]
 		remove
 		{
@@ -154,13 +154,13 @@ internal class ReusableCollectionItem
 	internal event Action<ReusableCollectionItem> onDestroy
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x30AFED0", Offset = "0x30AE4D0", VA = "0x1830AFED0")]
+		[Address(RVA = "0x6A9BC10", Offset = "0x6A9AC10", VA = "0x6A9BC10")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000306")]
-		[Address(RVA = "0x30B0030", Offset = "0x30AE630", VA = "0x1830B0030")]
+		[Address(RVA = "0x6A9BCB0", Offset = "0x6A9ACB0", VA = "0x6A9BCB0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -168,49 +168,49 @@ internal class ReusableCollectionItem
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x30AFE50", Offset = "0x30AE450", VA = "0x1830AFE50")]
+	[Address(RVA = "0x6A9BD50", Offset = "0x6A9AD50", VA = "0x6A9BD50")]
 	public ReusableCollectionItem()
 	{
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "5")]
+	[Address(RVA = "0x6A9BDD0", Offset = "0x6A9ADD0", VA = "0x6A9BDD0", Slot = "5")]
 	public virtual void Init(VisualElement item)
 	{
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x30AFA60", Offset = "0x30AE060", VA = "0x1830AFA60", Slot = "6")]
+	[Address(RVA = "0x6A9BDE0", Offset = "0x6A9ADE0", VA = "0x6A9BDE0", Slot = "6")]
 	public virtual void PreAttachElement()
 	{
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x30AF8C0", Offset = "0x30ADEC0", VA = "0x1830AF8C0", Slot = "7")]
+	[Address(RVA = "0x6A9BEA0", Offset = "0x6A9AEA0", VA = "0x6A9BEA0", Slot = "7")]
 	public virtual void DetachElement()
 	{
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x30AF8A0", Offset = "0x30ADEA0", VA = "0x1830AF8A0", Slot = "8")]
+	[Address(RVA = "0x6A9BFC0", Offset = "0x6A9AFC0", VA = "0x6A9BFC0", Slot = "8")]
 	public virtual void DestroyElement()
 	{
 	}
 
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x30AFD20", Offset = "0x30AE320", VA = "0x1830AFD20", Slot = "9")]
+	[Address(RVA = "0x6A9BFE0", Offset = "0x6A9AFE0", VA = "0x6A9BFE0", Slot = "9")]
 	public virtual void SetSelected(bool selected)
 	{
 	}
 
 	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x30AFB30", Offset = "0x30AE130", VA = "0x1830AFB30", Slot = "10")]
+	[Address(RVA = "0x6A9C0E0", Offset = "0x6A9B0E0", VA = "0x6A9C0E0", Slot = "10")]
 	public virtual void SetDragGhost(bool dragGhost)
 	{
 	}
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x30AF9E0", Offset = "0x30ADFE0", VA = "0x1830AF9E0", Slot = "11")]
+	[Address(RVA = "0x6A9C290", Offset = "0x6A9B290", VA = "0x6A9C290", Slot = "11")]
 	protected virtual void OnGeometryChanged(GeometryChangedEvent evt)
 	{
 	}

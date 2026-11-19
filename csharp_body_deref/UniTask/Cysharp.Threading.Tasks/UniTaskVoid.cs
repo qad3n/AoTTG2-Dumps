@@ -16,7 +16,7 @@ namespace Cysharp.Threading.Tasks;
 public readonly struct UniTaskVoid
 {
 	[Token(Token = "0x60007ED")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x62E3F40", Offset = "0x62E2F40", VA = "0x62E3F40")]
 	public void Forget()
 	{
 	}

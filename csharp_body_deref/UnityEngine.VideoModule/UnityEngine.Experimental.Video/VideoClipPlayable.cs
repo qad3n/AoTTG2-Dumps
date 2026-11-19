@@ -27,14 +27,14 @@ public struct VideoClipPlayable : IEquatable<VideoClipPlayable>
 	private PlayableHandle m_Handle;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x6D20EF0", Offset = "0x6D1FEF0", VA = "0x6D20EF0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x33115D0", Offset = "0x330FBD0", VA = "0x1833115D0", Slot = "4")]
+	[Address(RVA = "0x6D20F00", Offset = "0x6D1FF00", VA = "0x6D20F00", Slot = "4")]
 	public bool Equals(VideoClipPlayable other)
 	{
 		return default(bool);

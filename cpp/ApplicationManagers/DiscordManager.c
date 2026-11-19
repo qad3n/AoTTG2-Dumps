@@ -1,218 +1,189 @@
 // Type: ApplicationManagers.DiscordManager
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/ApplicationManagers/DiscordManager.cs
 // Prior real C# source (older reference): Assets/Scripts/ApplicationManagers/DiscordManager.cs
 // --------------------------------
 
 // ApplicationManagers.DiscordManager$$Init
 // il2cpp: void ApplicationManagers_DiscordManager__Init (const MethodInfo* method);
-// 0x18234d9d0
-// eh: try 0x18234da7c..0x18234dc8e -> pad 0x183315840 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 53 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18234dbea: lea rcx, [rip + 0x1dad847]  ; TypeInfo_UnityEngine_Debug
-// asm:   0x18234dbf1: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234dbf6: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234dbfd: jne 0x18234dc07
-// asm:   0x18234dbff: mov rcx, rax
-// asm:   0x18234dc02: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234dc07: lea rcx, [rip + 0x1d42e92]  ; "Unable to initialize discord manager."
-// asm:   0x18234dc0e: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234dc13: mov rcx, rax
-// asm:   0x18234dc16: xor edx, edx
-// asm:   0x18234dc18: call 0x182ec3bd0  ; UnityEngine_Debug__Log()
-// asm:   0x18234dc1d: lea rcx, [rip + 0x1d214dc]  ; TypeInfo_ApplicationManagers_DiscordManager
-// asm:   0x18234dc24: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234dc29: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234dc30: jne 0x18234dc3a
-// asm:   0x18234dc32: mov rcx, rax
-// asm:   0x18234dc35: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234dc3a: lea rcx, [rip + 0x1d214bf]  ; TypeInfo_ApplicationManagers_DiscordManager
-// asm:   0x18234dc41: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234dc46: mov rcx, qword ptr [rax + 0xb8]
-// asm:   0x18234dc4d: mov rbx, qword ptr [rcx]
-// asm:   0x18234dc50: lea rcx, [rip + 0x1d84701]  ; TypeInfo_UnityEngine_Object
-// asm:   0x18234dc57: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234dc5c: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234dc63: jne 0x18234dc6d
-// asm:   0x18234dc65: mov rcx, rax
-// asm:   0x18234dc68: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234dc6d: xor edx, edx
-// asm:   0x18234dc6f: mov rcx, rbx
-// asm:   0x18234dc72: call 0x182f1ff70  ; UnityEngine_Object__Destroy()
-// asm:   0x183315840: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315845: push rbx
-// asm:   0x183315846: push rbp
-// asm:   0x183315847: sub rsp, 0x28
-// asm:   0x18331584b: mov rbp, rdx
-// asm:   0x18331584e: mov rbx, qword ptr [rbp + 0x28]
-// asm:   0x183315852: mov rdx, qword ptr [rbx]
-// asm:   0x183315855: mov rdx, qword ptr [rdx]
-// asm:   0x183315858: mov rcx, qword ptr [rip + 0x103f571]
-// asm:   0x18331585f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x183315864: test al, al
-// asm:   0x183315866: je 0x183315874
-// asm:   0x183315868: movabs rax, 0
-// asm:   0x183315872: jmp 0x18331588c
-// asm:   0x183315874: mov rax, qword ptr [rbx]
-// asm:   0x183315877: mov qword ptr [rbp + 0x20], rax
-// asm:   0x18331587b: lea rdx, [rip + 0xcc6706]
-// asm:   0x183315882: lea rcx, [rbp + 0x20]
-// asm:   0x183315886: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x18331588c: add rsp, 0x28
-// asm:   0x183315890: pop rbp
-// asm:   0x183315891: pop rbx
-// asm:   0x183315892: ret 
+// 0x5e09fd0
+// eh: try 0x5e0a08a..0x5e0a10d -> pad 0x5e0a125 (+3 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5e0a153..0x5e0a219 -> pad 0x5e0a219 (+1 call sites) cleanup
+// eh: try 0x5e0a21c..0x5e0a221 -> pad 0x5e0a229 catch (...) [compiler noexcept guard]
+// asm: 62 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e0a125: jmp 0x5e0a12b
+// asm:   0x5e0a127: jmp 0x5e0a12b
+// asm:   0x5e0a129: jmp 0x5e0a12b
+// asm:   0x5e0a12b: mov rbx, rax
+// asm:   0x5e0a12e: cmp edx, 1
+// asm:   0x5e0a131: jne 0x5e0a221
+// asm:   0x5e0a137: mov rdi, rbx
+// asm:   0x5e0a13a: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5e0a13f: mov rbx, rax
+// asm:   0x5e0a142: lea rax, [rip + 0x174c57f]
+// asm:   0x5e0a149: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5e0a14d: mov rax, qword ptr [rbx]
+// asm:   0x5e0a150: mov rsi, qword ptr [rax]
+// asm:   0x5e0a153: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5e0a158: test al, al
+// asm:   0x5e0a15a: je 0x5e0a1f8
+// asm:   0x5e0a160: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e0a165: lea rdi, [rip + 0x146d4dc]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x5e0a16c: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e0a171: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e0a178: jne 0x5e0a182
+// asm:   0x5e0a17a: mov rdi, rax
+// asm:   0x5e0a17d: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e0a182: lea rdi, [rip + 0x14e36b7]  ; "Unable to initialize discord manager."
+// asm:   0x5e0a189: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e0a18e: mov rdi, rax
+// asm:   0x5e0a191: xor esi, esi
+// asm:   0x5e0a193: call 0x69c42a0  ; UnityEngine_Debug__Log()
+// asm:   0x5e0a198: lea rdi, [rip + 0x146d989]  ; TypeInfo_ApplicationManagers_DiscordManager
+// asm:   0x5e0a19f: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e0a1a4: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e0a1ab: jne 0x5e0a1b5
+// asm:   0x5e0a1ad: mov rdi, rax
+// asm:   0x5e0a1b0: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e0a1b5: lea rdi, [rip + 0x146d96c]  ; TypeInfo_ApplicationManagers_DiscordManager
+// asm:   0x5e0a1bc: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e0a1c1: mov rax, qword ptr [rax + 0xb8]
+// asm:   0x5e0a1c8: mov rbx, qword ptr [rax + 8]
+// asm:   0x5e0a1cc: lea rdi, [rip + 0x147121d]  ; TypeInfo_UnityEngine_Object
+// asm:   0x5e0a1d3: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e0a1d8: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e0a1df: jne 0x5e0a1e9
+// asm:   0x5e0a1e1: mov rdi, rax
+// asm:   0x5e0a1e4: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e0a1e9: mov rdi, rbx
+// asm:   0x5e0a1ec: xor esi, esi
+// asm:   0x5e0a1ee: call 0x6a214e0  ; UnityEngine_Object__Destroy()
+// asm:   0x5e0a1f3: jmp 0x5e0a11b
+// asm:   0x5e0a1f8: mov edi, 8
+// asm:   0x5e0a1fd: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5e0a202: mov rcx, qword ptr [rbx]
+// asm:   0x5e0a205: mov qword ptr [rax], rcx
+// asm:   0x5e0a208: lea rsi, [rip + 0x10232f1]
+// asm:   0x5e0a20f: mov rdi, rax
+// asm:   0x5e0a212: xor edx, edx
+// asm:   0x5e0a214: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5e0a219: mov rbx, rax
+// asm:   0x5e0a21c: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e0a221: mov rdi, rbx
+// asm:   0x5e0a224: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5e0a229: mov rdi, rax
+// asm:   0x5e0a22c: call 0x2ab61e0  ; __clang_call_terminate()
 
 void ApplicationManagers_DiscordManager__Init(MethodInfo *method)
 
 {
-  Discord_Activity_Fields *pDVar1;
-  ApplicationManagers_DiscordManager_o *pAVar2;
+  ApplicationManagers_DiscordManager_StaticFields *pAVar1;
+  bool bVar2;
+  ApplicationManagers_DiscordManager_o *pAVar3;
   Discord_Discord_o *__this;
-  System_DateTimeOffset_o *pSVar3;
   int64_t iVar4;
+  System_DateTimeOffset_o SVar5;
   System_DateTimeOffset_o local_28;
-  System_DateTimeOffset_o local_18;
   
-  if (Il2CppMethodInitialized_184347967 == '\0') {
+  if (Il2CppMethodInitialized_07548421 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Discord_Discord);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Utility_SingletonFactory_CreateSingleton_DiscordManager);
-    Il2CppMethodInitialized_184347967 = '\x01';
+    Il2CppMethodInitialized_07548421 = '\x01';
   }
   local_28.fields._dateTime.fields._dateData = (System_DateTime_Fields)0;
   local_28.fields._offsetMinutes = 0;
   local_28.fields._10_6_ = 0;
-  if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
-  }
-  pAVar2 = Utility_SingletonFactory__CreateSingleton_object_
-                     ((Il2CppObject *)TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance,
-                      (MethodInfo_798ED0 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_DiscordManager)
-  ;
-  TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance = pAVar2;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance,pAVar2);
-  if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
-  }
-  iVar4 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->appID;
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Discord_Discord);
-  Discord_Discord___ctor(__this,iVar4,1,(MethodInfo *)0x0);
-  TypeInfo_ApplicationManagers_DiscordManager->static_fields->discord = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_DiscordManager->static_fields->discord,__this);
-  if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
-  }
-  pSVar3 = System_DateTimeOffset__get_Now(&local_18,(MethodInfo *)0x0);
-  local_28.fields._dateTime.fields._dateData =
-       (System_DateTime_Fields)(pSVar3->fields)._dateTime.fields._dateData;
-  local_28.fields._offsetMinutes = (pSVar3->fields)._offsetMinutes;
-  local_28.fields._10_6_ = *(undefined6 *)&(pSVar3->fields).field_0xa;
-  iVar4 = System_DateTimeOffset__ToUnixTimeMilliseconds(&local_28,(MethodInfo *)0x0);
-  TypeInfo_ApplicationManagers_DiscordManager->static_fields->time = iVar4;
-  pAVar2 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance;
-  if (pAVar2 != (ApplicationManagers_DiscordManager_o *)0x0) {
-    *(undefined8 *)&(pAVar2->fields).roomActivity.fields = 0;
-    (pAVar2->fields).roomActivity.fields.ApplicationId = 0;
-    (pAVar2->fields).roomActivity.fields.Name = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.State = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Details = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Timestamps.fields.Start = 0;
-    (pAVar2->fields).roomActivity.fields.Timestamps.fields.End = 0;
-    (pAVar2->fields).roomActivity.fields.Assets.fields.LargeImage = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Assets.fields.LargeText = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Assets.fields.SmallImage = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Assets.fields.SmallText = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Party.fields.Id = (System_String_o *)0x0;
-    pDVar1 = &(pAVar2->fields).roomActivity.fields;
-    (pDVar1->Party).fields.Size.fields.CurrentSize = 0;
-    (pDVar1->Party).fields.Size.fields.MaxSize = 0;
-    *(undefined8 *)&(pAVar2->fields).roomActivity.fields.Party.fields.Privacy = 0;
-    (pAVar2->fields).roomActivity.fields.Secrets.fields.Match = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Secrets.fields.Join = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Secrets.fields.Spectate = (System_String_o *)0x0;
-    (pAVar2->fields).roomActivity.fields.Instance = false;
-    *(undefined3 *)&(pAVar2->fields).roomActivity.fields.field_0x89 = 0;
-    (pAVar2->fields).roomActivity.fields.SupportedPlatforms = 0;
-    pAVar2 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance;
-    if (pAVar2 != (ApplicationManagers_DiscordManager_o *)0x0) {
-      *(undefined8 *)&(pAVar2->fields).mainMenuActivity.fields = 0;
-      (pAVar2->fields).mainMenuActivity.fields.ApplicationId = 0;
-      (pAVar2->fields).mainMenuActivity.fields.Name = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.State = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Details = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Timestamps.fields.Start = 0;
-      (pAVar2->fields).mainMenuActivity.fields.Timestamps.fields.End = 0;
-      (pAVar2->fields).mainMenuActivity.fields.Assets.fields.LargeImage = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Assets.fields.LargeText = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Assets.fields.SmallImage = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Assets.fields.SmallText = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Party.fields.Id = (System_String_o *)0x0;
-      pDVar1 = &(pAVar2->fields).mainMenuActivity.fields;
-      (pDVar1->Party).fields.Size.fields.CurrentSize = 0;
-      (pDVar1->Party).fields.Size.fields.MaxSize = 0;
-      *(undefined8 *)&(pAVar2->fields).mainMenuActivity.fields.Party.fields.Privacy = 0;
-      (pAVar2->fields).mainMenuActivity.fields.Secrets.fields.Match = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Secrets.fields.Join = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Secrets.fields.Spectate = (System_String_o *)0x0;
-      (pAVar2->fields).mainMenuActivity.fields.Instance = false;
-      *(undefined3 *)&(pAVar2->fields).mainMenuActivity.fields.field_0x89 = 0;
-      (pAVar2->fields).mainMenuActivity.fields.SupportedPlatforms = 0;
-      return;
+  bVar2 = Utility_MobilePlatformUtility__IsMobileRuntime((MethodInfo *)0x0);
+  if (!bVar2) {
+    if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
     }
-    ThrowNullReferenceException();
+    pAVar3 = Utility_SingletonFactory__CreateSingleton_object_
+                       ((Il2CppObject *)TypeInfo_ApplicationManagers_DiscordManager->static_fields->_instance,
+                        (MethodInfo_3680650 *)
+                        MethodInfo_Utility_SingletonFactory_CreateSingleton_DiscordManager);
+    pAVar1 = TypeInfo_ApplicationManagers_DiscordManager->static_fields;
+    pAVar1->_instance = pAVar3;
+    Il2CppCodeGenWriteBarrier(&pAVar1->_instance);
+    if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
+    }
+    iVar4 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->appID;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Discord_Discord);
+    Discord_Discord___ctor(__this,iVar4,1,(MethodInfo *)0x0);
+    pAVar1 = TypeInfo_ApplicationManagers_DiscordManager->static_fields;
+    pAVar1->discord = __this;
+    Il2CppCodeGenWriteBarrier(&pAVar1->discord);
+    if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
+    }
+    SVar5 = System_DateTimeOffset__get_Now((MethodInfo *)0x0);
+    local_28.fields._dateTime = SVar5.fields._dateTime.fields._dateData;
+    local_28.fields._offsetMinutes = SVar5.fields._offsetMinutes;
+    iVar4 = System_DateTimeOffset__ToUnixTimeMilliseconds(&local_28,(MethodInfo *)0x0);
+    TypeInfo_ApplicationManagers_DiscordManager->static_fields->time = iVar4;
   }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // ApplicationManagers.DiscordManager$$Update
 // il2cpp: void ApplicationManagers_DiscordManager__Update (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
-// 0x18234e720
-// eh: try 0x18234e759..0x18234e7c7 -> pad 0x183315840 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 38 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18234e77f: xor edx, edx
-// asm:   0x18234e781: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x18234e786: call 0x182f14830  ; UnityEngine_Component__get_gameObject()
-// asm:   0x18234e78b: mov rbx, rax
-// asm:   0x18234e78e: lea rcx, [rip + 0x1d83bc3]  ; TypeInfo_UnityEngine_Object
-// asm:   0x18234e795: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234e79a: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234e7a1: jne 0x18234e7ab
-// asm:   0x18234e7a3: mov rcx, rax
-// asm:   0x18234e7a6: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234e7ab: xor edx, edx
-// asm:   0x18234e7ad: mov rcx, rbx
-// asm:   0x18234e7b0: add rsp, 0x30
-// asm:   0x18234e7b4: pop rbx
-// asm:   0x18234e7b5: jmp 0x182f1ff70  ; UnityEngine_Object__Destroy()
-// asm:   0x183315840: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315845: push rbx
-// asm:   0x183315846: push rbp
-// asm:   0x183315847: sub rsp, 0x28
-// asm:   0x18331584b: mov rbp, rdx
-// asm:   0x18331584e: mov rbx, qword ptr [rbp + 0x28]
-// asm:   0x183315852: mov rdx, qword ptr [rbx]
-// asm:   0x183315855: mov rdx, qword ptr [rdx]
-// asm:   0x183315858: mov rcx, qword ptr [rip + 0x103f571]
-// asm:   0x18331585f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x183315864: test al, al
-// asm:   0x183315866: je 0x183315874
-// asm:   0x183315868: movabs rax, 0
-// asm:   0x183315872: jmp 0x18331588c
-// asm:   0x183315874: mov rax, qword ptr [rbx]
-// asm:   0x183315877: mov qword ptr [rbp + 0x20], rax
-// asm:   0x18331587b: lea rdx, [rip + 0xcc6706]
-// asm:   0x183315882: lea rcx, [rbp + 0x20]
-// asm:   0x183315886: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x18331588c: add rsp, 0x28
-// asm:   0x183315890: pop rbp
-// asm:   0x183315891: pop rbx
-// asm:   0x183315892: ret 
+// 0x5e140e0
+// eh: try 0x5e14117..0x5e14141 -> pad 0x5e14141 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5e1416b..0x5e141d3 -> pad 0x5e141d3 (+1 call sites) cleanup
+// eh: try 0x5e141d6..0x5e141db -> pad 0x5e141e3 catch (...) [compiler noexcept guard]
+// asm: 45 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e14141: jmp 0x5e14143
+// asm:   0x5e14143: mov r14, rax
+// asm:   0x5e14146: cmp edx, 1
+// asm:   0x5e14149: jne 0x5e141db
+// asm:   0x5e1414f: mov rdi, r14
+// asm:   0x5e14152: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5e14157: mov r14, rax
+// asm:   0x5e1415a: lea rax, [rip + 0x1742567]
+// asm:   0x5e14161: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5e14165: mov rax, qword ptr [r14]
+// asm:   0x5e14168: mov rsi, qword ptr [rax]
+// asm:   0x5e1416b: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5e14170: test al, al
+// asm:   0x5e14172: je 0x5e141b2
+// asm:   0x5e14174: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e14179: mov rdi, r15
+// asm:   0x5e1417c: xor esi, esi
+// asm:   0x5e1417e: call 0x6a15330  ; UnityEngine_Component__get_gameObject()
+// asm:   0x5e14183: mov rbx, rax
+// asm:   0x5e14186: lea rdi, [rip + 0x1467263]  ; TypeInfo_UnityEngine_Object
+// asm:   0x5e1418d: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e14192: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e14199: jne 0x5e141a3
+// asm:   0x5e1419b: mov rdi, rax
+// asm:   0x5e1419e: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e141a3: mov rdi, rbx
+// asm:   0x5e141a6: xor esi, esi
+// asm:   0x5e141a8: pop rbx
+// asm:   0x5e141a9: pop r14
+// asm:   0x5e141ab: pop r15
+// asm:   0x5e141ad: jmp 0x6a214e0  ; UnityEngine_Object__Destroy()
+// asm:   0x5e141b2: mov edi, 8
+// asm:   0x5e141b7: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5e141bc: mov rcx, qword ptr [r14]
+// asm:   0x5e141bf: mov qword ptr [rax], rcx
+// asm:   0x5e141c2: lea rsi, [rip + 0x1019337]
+// asm:   0x5e141c9: mov rdi, rax
+// asm:   0x5e141cc: xor edx, edx
+// asm:   0x5e141ce: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5e141d3: mov r14, rax
+// asm:   0x5e141d6: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e141db: mov rdi, r14
+// asm:   0x5e141de: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5e141e3: mov rdi, rax
+// asm:   0x5e141e6: call 0x2ab61e0  ; __clang_call_terminate()
 
 void ApplicationManagers_DiscordManager__Update
                (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
@@ -220,220 +191,10 @@ void ApplicationManagers_DiscordManager__Update
 {
   Discord_Discord_o *__this_00;
   
-  if (Il2CppMethodInitialized_184347968 == '\0') {
+  if (Il2CppMethodInitialized_07548422 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
-    Il2CppMethodInitialized_184347968 = '\x01';
+    Il2CppMethodInitialized_07548422 = '\x01';
   }
-  if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
-  }
-  __this_00 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->discord;
-  if (__this_00 != (Discord_Discord_o *)0x0) {
-    Discord_Discord__RunCallbacks(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// ApplicationManagers.DiscordManager$$LateUpdate
-// il2cpp: void ApplicationManagers_DiscordManager__LateUpdate (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
-// 0x18234dc90
-
-void ApplicationManagers_DiscordManager__LateUpdate
-               (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
-
-{
-  ApplicationManagers_DiscordManager__UpdateStatus(__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// ApplicationManagers.DiscordManager$$SetRoomActivity
-// il2cpp: void ApplicationManagers_DiscordManager__SetRoomActivity (ApplicationManagers_DiscordManager_o* __this, System_String_o* state, System_String_o* details, System_String_o* profileIcon, int64_t startTime, int32_t playerCount, int32_t maxPlayers, const MethodInfo* method);
-// 0x18234dd30
-
-void ApplicationManagers_DiscordManager__SetRoomActivity
-               (ApplicationManagers_DiscordManager_o *__this,System_String_o *state,System_String_o *details,
-               System_String_o *profileIcon,int64_t startTime,int32_t playerCount,int32_t maxPlayers,
-               MethodInfo *method)
-
-{
-  Discord_ActivityAssets_o *targetAddress;
-  System_String_o *value;
-  
-  (__this->fields).roomActivity.fields.State = state;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).roomActivity.fields.State,state);
-  (__this->fields).roomActivity.fields.Details = details;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).roomActivity.fields.Details,details);
-  value = (__this->fields).largeImage;
-  targetAddress = &(__this->fields).roomActivity.fields.Assets;
-  (targetAddress->fields).LargeImage = value;
-  Il2CppCodeGenWriteBarrier((void **)targetAddress,value);
-  (__this->fields).roomActivity.fields.Assets.fields.SmallImage = profileIcon;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).roomActivity.fields.Assets.fields.SmallImage,profileIcon);
-  (__this->fields).roomActivity.fields.Timestamps.fields.Start = startTime;
-  (__this->fields).roomActivity.fields.Party.fields.Size.fields.CurrentSize = playerCount;
-  *(int32_t *)((longlong)&(__this->fields).roomActivity.fields.Party.fields.Size.fields + 4) = maxPlayers;
-  return;
-}
-
-
-// ApplicationManagers.DiscordManager$$SetMenuActivity
-// il2cpp: void ApplicationManagers_DiscordManager__SetMenuActivity (ApplicationManagers_DiscordManager_o* __this, System_String_o* state, System_String_o* details, System_String_o* profileIcon, int64_t startTime, const MethodInfo* method);
-// 0x18234dca0
-
-void ApplicationManagers_DiscordManager__SetMenuActivity
-               (ApplicationManagers_DiscordManager_o *__this,System_String_o *state,System_String_o *details,
-               System_String_o *profileIcon,int64_t startTime,MethodInfo *method)
-
-{
-  Discord_ActivityAssets_o *targetAddress;
-  System_String_o *value;
-  
-  (__this->fields).mainMenuActivity.fields.State = state;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).mainMenuActivity.fields.State,state);
-  (__this->fields).mainMenuActivity.fields.Details = details;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).mainMenuActivity.fields.Details,details);
-  value = (__this->fields).largeImage;
-  targetAddress = &(__this->fields).mainMenuActivity.fields.Assets;
-  (targetAddress->fields).LargeImage = value;
-  Il2CppCodeGenWriteBarrier((void **)targetAddress,value);
-  (__this->fields).mainMenuActivity.fields.Assets.fields.SmallImage = profileIcon;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).mainMenuActivity.fields.Assets.fields.SmallImage,profileIcon);
-  (__this->fields).mainMenuActivity.fields.Timestamps.fields.Start = startTime;
-  return;
-}
-
-
-// ApplicationManagers.DiscordManager$$UpdateStatus
-// il2cpp: void ApplicationManagers_DiscordManager__UpdateStatus (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
-// 0x18234ddc0
-// eh: try 0x18234ded8..0x18234e718 -> pad 0x183340620 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 49 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18234e3ad: mov rax, qword ptr [rip + 0x1d9b69c]  ; "0"
-// asm:   0x18234e62b: nop 
-// asm:   0x18234e62e: lea rcx, [rip + 0x1dace03]  ; TypeInfo_UnityEngine_Debug
-// asm:   0x18234e635: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234e63a: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234e641: jne 0x18234e64b
-// asm:   0x18234e643: mov rcx, rax
-// asm:   0x18234e646: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234e64b: lea rcx, [rip + 0x1d640ee]  ; "Discord activity update Failed"
-// asm:   0x18234e652: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234e657: mov rcx, rax
-// asm:   0x18234e65a: xor edx, edx
-// asm:   0x18234e65c: call 0x182ec3bd0  ; UnityEngine_Debug__Log()
-// asm:   0x18234e661: xor edx, edx
-// asm:   0x18234e663: mov rcx, qword ptr [rsp + 0x1c0]
-// asm:   0x18234e66b: call 0x182f14830  ; UnityEngine_Component__get_gameObject()
-// asm:   0x18234e670: mov rbx, rax
-// asm:   0x18234e673: lea rcx, [rip + 0x1d83cde]  ; TypeInfo_UnityEngine_Object
-// asm:   0x18234e67a: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18234e67f: cmp dword ptr [rax + 0xe4], 0
-// asm:   0x18234e686: jne 0x18234e690
-// asm:   0x18234e688: mov rcx, rax
-// asm:   0x18234e68b: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x18234e690: xor edx, edx
-// asm:   0x18234e692: mov rcx, rbx
-// asm:   0x18234e695: call 0x182f1ff70  ; UnityEngine_Object__Destroy()
-// asm:   0x183340620: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183340625: push rbx
-// asm:   0x183340626: push rbp
-// asm:   0x183340627: sub rsp, 0x38
-// asm:   0x18334062b: mov rbp, rdx
-// asm:   0x18334062e: mov rbx, qword ptr [rbp + 0x180]
-// asm:   0x183340635: mov rdx, qword ptr [rbx]
-// asm:   0x183340638: mov rdx, qword ptr [rdx]
-// asm:   0x18334063b: mov rcx, qword ptr [rip + 0x101478e]
-// asm:   0x183340642: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x183340647: test al, al
-// asm:   0x183340649: je 0x183340657
-// asm:   0x18334064b: movabs rax, 0
-// asm:   0x183340655: jmp 0x183340675
-// asm:   0x183340657: mov rax, qword ptr [rbx]
-// asm:   0x18334065a: mov qword ptr [rbp + 0xe0], rax
-// asm:   0x183340661: lea rdx, [rip + 0xc9b920]
-// asm:   0x183340668: lea rcx, [rbp + 0xe0]
-// asm:   0x18334066f: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x183340675: add rsp, 0x38
-// asm:   0x183340679: pop rbp
-// asm:   0x18334067a: pop rbx
-// asm:   0x18334067b: ret 
-
-void ApplicationManagers_DiscordManager__UpdateStatus
-               (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
-
-{
-  uint uVar1;
-  Discord_Discord_o *__this_00;
-  Settings_ProfileSettings_o *pSVar2;
-  Settings_NameSetting_o *pSVar3;
-  Settings_StringSetting_o *pSVar4;
-  Settings_InGameSet_o *pSVar5;
-  Settings_InGameGeneralSettings_o *pSVar6;
-  System_String_array *pSVar7;
-  bool bVar8;
-  int32_t iVar9;
-  Discord_ActivityManager_o *__this_01;
-  System_String_o *pSVar10;
-  System_String_o *pSVar11;
-  System_String_o *pSVar12;
-  Photon_Realtime_Room_o *pPVar13;
-  Photon_Realtime_Player_o *player;
-  Il2CppObject *pIVar14;
-  System_String_o *str1;
-  uint uVar15;
-  System_String_o *local_188;
-  System_String_o *pSStack_180;
-  System_String_o *local_178;
-  System_String_o *pSStack_170;
-  Discord_Activity_Fields local_168;
-  Discord_Activity_Fields local_c8;
-  
-  if (Il2CppMethodInitialized_184347969 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MiscExtensions);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
-    il2cpp_codegen_initialize_runtime_metadata(&"] ");
-    il2cpp_codegen_initialize_runtime_metadata(&" ");
-    il2cpp_codegen_initialize_runtime_metadata(&"Creating a room");
-    il2cpp_codegen_initialize_runtime_metadata(&"SinglePlayer");
-    il2cpp_codegen_initialize_runtime_metadata(&" / ");
-    il2cpp_codegen_initialize_runtime_metadata(&"[");
-    il2cpp_codegen_initialize_runtime_metadata(&"");
-    il2cpp_codegen_initialize_runtime_metadata(&"0");
-    Il2CppMethodInitialized_184347969 = '\x01';
-  }
-  local_168.Type = 0;
-  local_168._4_4_ = 0;
-  local_168.ApplicationId = 0;
-  local_168.Name = (System_String_o *)0x0;
-  local_168.State = (System_String_o *)0x0;
-  local_168.Details = (System_String_o *)0x0;
-  local_168.Timestamps.fields.Start = 0;
-  local_168.Timestamps.fields.End = 0;
-  local_168.Assets.fields.LargeImage = (System_String_o *)0x0;
-  local_168.Assets.fields.LargeText = (System_String_o *)0x0;
-  local_168.Assets.fields.SmallImage = (System_String_o *)0x0;
-  local_168.Assets.fields.SmallText = (System_String_o *)0x0;
-  local_168.Party.fields.Id = (System_String_o *)0x0;
-  local_168.Party.fields.Size.fields.CurrentSize = 0;
-  local_168.Party.fields.Size.fields.MaxSize = 0;
-  local_168.Party.fields.Privacy = 0;
-  local_168.Party.fields._20_4_ = 0;
-  local_168.Secrets.fields.Match = (System_String_o *)0x0;
-  local_168.Secrets.fields.Join = (System_String_o *)0x0;
-  local_168.Secrets.fields.Spectate = (System_String_o *)0x0;
-  local_168.Instance = false;
-  local_168._137_3_ = 0;
-  local_168.SupportedPlatforms = 0;
-  local_188 = (System_String_o *)0x0;
-  pSStack_180 = (System_String_o *)0x0;
-  local_178 = (System_String_o *)0x0;
-  pSStack_170 = (System_String_o *)0x0;
   if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
   }
@@ -441,374 +202,650 @@ void ApplicationManagers_DiscordManager__UpdateStatus
   if (__this_00 == (Discord_Discord_o *)0x0) {
     ThrowNullReferenceException();
   }
-  __this_01 = Discord_Discord__GetActivityManager(__this_00,(MethodInfo *)0x0);
-  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
-  if (pSVar2 == (Settings_ProfileSettings_o *)0x0) {
+  Discord_Discord__RunCallbacks(__this_00,(MethodInfo *)0x0);
+  return;
+}
+
+
+// ApplicationManagers.DiscordManager$$LateUpdate
+// il2cpp: void ApplicationManagers_DiscordManager__LateUpdate (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
+// 0x5e141f0
+
+void ApplicationManagers_DiscordManager__LateUpdate
+               (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
+
+{
+  float fVar1;
+  
+  fVar1 = UnityEngine_Time__get_unscaledTime((MethodInfo *)0x0);
+  if (fVar1 < (__this->fields)._nextStatusUpdateTime) {
+    return;
+  }
+  fVar1 = UnityEngine_Time__get_unscaledTime((MethodInfo *)0x0);
+  (__this->fields)._nextStatusUpdateTime = fVar1 + 5.0;
+  ApplicationManagers_DiscordManager__UpdateStatus(__this,method);
+  return;
+}
+
+
+// ApplicationManagers.DiscordManager$$UpdateStatus
+// il2cpp: void ApplicationManagers_DiscordManager__UpdateStatus (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
+// 0x5e14230
+// eh: try 0x5e143a3..0x5e14ad0 -> pad 0x5e14ada (+60 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5e14b52..0x5e14bf2 -> pad 0x5e14bf2 (+1 call sites) cleanup
+// eh: try 0x5e14bf5..0x5e14bfa -> pad 0x5e14c02 catch (...) [compiler noexcept guard]
+// asm: 101 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e14515: jmp 0x5e14546
+// asm:   0x5e14571: jmp 0x5e145a8
+// asm:   0x5e145e2: jmp 0x5e14659
+// asm:   0x5e14ad0: jmp 0x5e14b2a
+// asm:   0x5e14ad2: jmp 0x5e14b2a
+// asm:   0x5e14ad4: jmp 0x5e14b2a
+// asm:   0x5e14ad6: jmp 0x5e14b2a
+// asm:   0x5e14ad8: jmp 0x5e14b2a
+// asm:   0x5e14ada: jmp 0x5e14b2a
+// asm:   0x5e14adc: jmp 0x5e14b2a
+// asm:   0x5e14ade: jmp 0x5e14b2a
+// asm:   0x5e14ae0: jmp 0x5e14b2a
+// asm:   0x5e14ae2: jmp 0x5e14b2a
+// asm:   0x5e14ae4: jmp 0x5e14b2a
+// asm:   0x5e14ae6: jmp 0x5e14b2a
+// asm:   0x5e14ae8: jmp 0x5e14b2a
+// asm:   0x5e14aea: jmp 0x5e14b2a
+// asm:   0x5e14aec: jmp 0x5e14b2a
+// asm:   0x5e14aee: jmp 0x5e14b2a
+// asm:   0x5e14af0: jmp 0x5e14b2a
+// asm:   0x5e14af2: jmp 0x5e14b2a
+// asm:   0x5e14af4: jmp 0x5e14b2a
+// asm:   0x5e14af6: jmp 0x5e14b2a
+// asm:   0x5e14af8: jmp 0x5e14b2a
+// asm:   0x5e14afa: jmp 0x5e14b2a
+// asm:   0x5e14afc: jmp 0x5e14b2a
+// asm:   0x5e14afe: jmp 0x5e14b2a
+// asm:   0x5e14b00: jmp 0x5e14b2a
+// asm:   0x5e14b02: jmp 0x5e14b2a
+// asm:   0x5e14b04: jmp 0x5e14b2a
+// asm:   0x5e14b06: jmp 0x5e14b2a
+// asm:   0x5e14b08: jmp 0x5e14b2a
+// asm:   0x5e14b0a: jmp 0x5e14b2a
+// asm:   0x5e14b0c: jmp 0x5e14b2a
+// asm:   0x5e14b0e: jmp 0x5e14b2a
+// asm:   0x5e14b10: jmp 0x5e14b2a
+// asm:   0x5e14b12: jmp 0x5e14b2a
+// asm:   0x5e14b14: jmp 0x5e14b2a
+// asm:   0x5e14b16: jmp 0x5e14b2a
+// asm:   0x5e14b18: jmp 0x5e14b2a
+// asm:   0x5e14b1a: jmp 0x5e14b2a
+// asm:   0x5e14b1c: jmp 0x5e14b2a
+// asm:   0x5e14b1e: jmp 0x5e14b2a
+// asm:   0x5e14b20: jmp 0x5e14b2a
+// asm:   0x5e14b22: jmp 0x5e14b2a
+// asm:   0x5e14b24: jmp 0x5e14b2a
+// asm:   0x5e14b26: jmp 0x5e14b2a
+// asm:   0x5e14b28: jmp 0x5e14b2a
+// asm:   0x5e14b2a: mov rbx, rax
+// asm:   0x5e14b2d: cmp edx, 1
+// asm:   0x5e14b30: jne 0x5e14bfa
+// asm:   0x5e14b36: mov rdi, rbx
+// asm:   0x5e14b39: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5e14b3e: mov rbx, rax
+// asm:   0x5e14b41: lea rax, [rip + 0x1741b80]
+// asm:   0x5e14b48: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5e14b4c: mov rax, qword ptr [rbx]
+// asm:   0x5e14b4f: mov rsi, qword ptr [rax]
+// asm:   0x5e14b52: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5e14b57: test al, al
+// asm:   0x5e14b59: je 0x5e14bd1
+// asm:   0x5e14b5b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e14b60: lea rdi, [rip + 0x1462ae1]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x5e14b67: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e14b6c: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e14b73: jne 0x5e14b7d
+// asm:   0x5e14b75: mov rdi, rax
+// asm:   0x5e14b78: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e14b7d: lea rdi, [rip + 0x14c546c]  ; "Discord activity update Failed"
+// asm:   0x5e14b84: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e14b89: mov rdi, rax
+// asm:   0x5e14b8c: xor esi, esi
+// asm:   0x5e14b8e: call 0x69c42a0  ; UnityEngine_Debug__Log()
+// asm:   0x5e14b93: mov rdi, qword ptr [rsp + 0xa0]
+// asm:   0x5e14b9b: xor esi, esi
+// asm:   0x5e14b9d: call 0x6a15330  ; UnityEngine_Component__get_gameObject()
+// asm:   0x5e14ba2: mov rbx, rax
+// asm:   0x5e14ba5: lea rdi, [rip + 0x1466844]  ; TypeInfo_UnityEngine_Object
+// asm:   0x5e14bac: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5e14bb1: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5e14bb8: jne 0x5e14bc2
+// asm:   0x5e14bba: mov rdi, rax
+// asm:   0x5e14bbd: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5e14bc2: mov rdi, rbx
+// asm:   0x5e14bc5: xor esi, esi
+// asm:   0x5e14bc7: call 0x6a214e0  ; UnityEngine_Object__Destroy()
+// asm:   0x5e14bcc: jmp 0x5e14a05
+// asm:   0x5e14bd1: mov edi, 8
+// asm:   0x5e14bd6: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5e14bdb: mov rcx, qword ptr [rbx]
+// asm:   0x5e14bde: mov qword ptr [rax], rcx
+// asm:   0x5e14be1: lea rsi, [rip + 0x1018918]
+// asm:   0x5e14be8: mov rdi, rax
+// asm:   0x5e14beb: xor edx, edx
+// asm:   0x5e14bed: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5e14bf2: mov rbx, rax
+// asm:   0x5e14bf5: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e14bfa: mov rdi, rbx
+// asm:   0x5e14bfd: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5e14c02: mov rdi, rax
+// asm:   0x5e14c05: call 0x2ab61e0  ; __clang_call_terminate()
+
+void ApplicationManagers_DiscordManager__UpdateStatus
+               (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
+
+{
+  System_String_o **targetAddress;
+  uint32_t uVar1;
+  int32_t iVar2;
+  Settings_ProfileSettings_o *pSVar3;
+  Settings_NameSetting_o *pSVar4;
+  Settings_StringSetting_o *pSVar5;
+  Settings_InGameSet_o *pSVar6;
+  Settings_InGameGeneralSettings_o *pSVar7;
+  Discord_Discord_o *__this_00;
+  bool bVar8;
+  System_String_o *pSVar9;
+  System_String_o *pSVar10;
+  System_String_o *pSVar11;
+  Photon_Realtime_Room_o *pPVar12;
+  Photon_Realtime_Player_o *player;
+  System_String_o *pSVar13;
+  System_Object_array *values;
+  Il2CppObject *pIVar14;
+  Il2CppObject *pIVar15;
+  Discord_ActivityManager_o *__this_01;
+  long lVar16;
+  MethodInfo *method_00;
+  undefined8 *puVar17;
+  undefined8 *puVar18;
+  byte bVar19;
+  undefined8 auStackY_598 [128];
+  Discord_Activity_o in_stack_fffffffffffffe68;
+  int32_t iStack_104;
+  int32_t iStack_f0;
+  int32_t iStack_ec;
+  System_String_o *pSStack_e8;
+  undefined8 uStack_e0;
+  System_String_o *pSStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 uStack_c0;
+  undefined8 uStack_b8;
+  System_String_o *pSStack_b0;
+  System_String_o *pSStack_a8;
+  int64_t iStack_a0;
+  undefined8 uStack_98;
+  System_String_o *pSStack_90;
+  undefined8 uStack_88;
+  System_String_o *pSStack_80;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  
+  bVar19 = 0;
+  if (Il2CppMethodInitialized_07548423 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MiscExtensions);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"] ");
+    il2cpp_codegen_initialize_runtime_metadata(&"aottg2-logo2");
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&"Creating a room");
+    il2cpp_codegen_initialize_runtime_metadata(&"SinglePlayer");
+    il2cpp_codegen_initialize_runtime_metadata(&"|");
+    il2cpp_codegen_initialize_runtime_metadata(&"[");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_07548423 = '\x01';
+  }
+  uStack_48 = 0;
+  uStack_40 = 0;
+  uStack_58 = 0;
+  uStack_50 = 0;
+  uStack_68 = 0;
+  uStack_60 = 0;
+  uStack_78 = 0;
+  uStack_70 = 0;
+  uStack_88 = 0;
+  pSStack_80 = (System_String_o *)0x0;
+  uStack_98 = 0;
+  pSStack_90 = (System_String_o *)0x0;
+  pSStack_a8 = (System_String_o *)0x0;
+  iStack_a0 = 0;
+  uStack_b8 = 0;
+  pSStack_b0 = (System_String_o *)0x0;
+  uStack_c8 = 0;
+  uStack_c0 = 0;
+  pSStack_d8 = (System_String_o *)0x0;
+  uStack_d0 = 0;
+  pSStack_e8 = (System_String_o *)0x0;
+  uStack_e0 = 0;
+  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+  if (pSVar3 == (Settings_ProfileSettings_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar3 = (pSVar2->fields).Name;
-  if (pSVar3 == (Settings_NameSetting_o *)0x0) {
+  pSVar4 = (pSVar3->fields).Name;
+  if (pSVar4 == (Settings_NameSetting_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar12 = (pSVar3->fields)._value;
+  pSVar9 = (pSVar4->fields)._value;
   if ((TypeInfo_MiscExtensions->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MiscExtensions);
   }
-  pSVar10 = MiscExtensions__StripHex(pSVar12,(MethodInfo *)0x0);
-  pSVar12 = "";
-  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
-  if (pSVar2 == (Settings_ProfileSettings_o *)0x0) {
+  pSVar9 = MiscExtensions__StripHex(pSVar9,(MethodInfo *)0x0);
+  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+  if (pSVar3 == (Settings_ProfileSettings_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar3 = (pSVar2->fields).Guild;
-  if (pSVar3 == (Settings_NameSetting_o *)0x0) {
+  pSVar4 = (pSVar3->fields).Guild;
+  if (pSVar4 == (Settings_NameSetting_o *)0x0) {
     ThrowNullReferenceException();
   }
-  bVar8 = System_String__op_Inequality((pSVar3->fields)._value,"",(MethodInfo *)0x0);
+  bVar8 = System_String__op_Inequality((pSVar4->fields)._value,"",(MethodInfo *)0x0);
   if (bVar8) {
-    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
-    if (pSVar2 == (Settings_ProfileSettings_o *)0x0) {
+    pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+    if (pSVar3 == (Settings_ProfileSettings_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pSVar3 = (pSVar2->fields).Guild;
-    if (pSVar3 == (Settings_NameSetting_o *)0x0) {
+    pSVar4 = (pSVar3->fields).Guild;
+    if (pSVar4 == (Settings_NameSetting_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pSVar11 = (pSVar3->fields)._value;
+    pSVar10 = (pSVar4->fields)._value;
     if ((TypeInfo_MiscExtensions->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MiscExtensions);
     }
-    pSVar11 = MiscExtensions__StripHex(pSVar11,(MethodInfo *)0x0);
-    pSVar12 = System_String__Concat_1969590
-                        (pSVar12,"[",pSVar11,"] ",(MethodInfo *)0x0);
+    pSVar10 = MiscExtensions__StripHex(pSVar10,(MethodInfo *)0x0);
+    pSVar9 = System_String__Concat_5302810
+                       ("[",pSVar10,"] ",pSVar9,(MethodInfo *)0x0);
   }
-  pSVar11 = "Creating a room";
-  pSVar12 = System_String__Concat_1969e50(pSVar12,pSVar10,(MethodInfo *)0x0);
-  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
-  if (pSVar2 == (Settings_ProfileSettings_o *)0x0) {
+  pSVar10 = "Creating a room";
+  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+  if (pSVar3 == (Settings_ProfileSettings_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar4 = (pSVar2->fields).ProfileIcon;
-  if (pSVar4 == (Settings_StringSetting_o *)0x0) {
+  pSVar5 = (pSVar3->fields).ProfileIcon;
+  if (pSVar5 == (Settings_StringSetting_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar10 = (pSVar4->fields)._value;
-  if (pSVar10 == (System_String_o *)0x0) {
+  pSVar11 = (pSVar5->fields)._value;
+  if (pSVar11 == (System_String_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar10 = System_String__ToLower(pSVar10,(MethodInfo *)0x0);
+  pSVar11 = System_String__ToLower(pSVar11,(MethodInfo *)0x0);
   if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
   }
-  pPVar13 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
-  if (pPVar13 == (Photon_Realtime_Room_o *)0x0) {
-    local_168.Type = 0;
-    local_168._4_4_ = 0;
-    local_168.ApplicationId = 0;
-    local_168.Name = (System_String_o *)0x0;
-    local_168.Details = (System_String_o *)0x0;
-    local_168.Timestamps.fields.Start = 0;
-    local_168.Timestamps.fields.End = 0;
-    local_168.Assets.fields.LargeImage = (System_String_o *)0x0;
-    local_168.Assets.fields.LargeText = (System_String_o *)0x0;
-    local_168.Assets.fields.SmallImage = (System_String_o *)0x0;
-    local_168.Assets.fields.SmallText = (System_String_o *)0x0;
-    local_168.Party.fields.Id = (System_String_o *)0x0;
-    local_168.Party.fields.Size.fields.CurrentSize = 0;
-    local_168.Party.fields.Size.fields.MaxSize = 0;
-    local_168.Party.fields.Privacy = 0;
-    local_168.Party.fields._20_4_ = 0;
-    local_168.Secrets.fields.Match = (System_String_o *)0x0;
-    local_168.Secrets.fields.Join = (System_String_o *)0x0;
-    local_168.Secrets.fields.Spectate = (System_String_o *)0x0;
-    local_168.Instance = false;
-    local_168._137_3_ = 0;
-    local_168.SupportedPlatforms = 0;
-    local_168.State = pSVar11;
-    Il2CppCodeGenWriteBarrier(&local_168.State,pSVar11);
-    local_168.Details = pSVar12;
-    Il2CppCodeGenWriteBarrier(&local_168.Details,pSVar12);
-    pSStack_180 = (System_String_o *)0x0;
-    local_178 = (System_String_o *)0x0;
-    pSStack_170 = (System_String_o *)0x0;
-    local_188 = (__this->fields).largeImage;
-    Il2CppCodeGenWriteBarrier(&local_188,local_188);
-    local_178 = pSVar10;
-    Il2CppCodeGenWriteBarrier(&local_178,pSVar10);
-    local_168.Assets.fields.LargeImage = local_188;
-    local_168.Assets.fields.LargeText = pSStack_180;
-    local_168.Assets.fields.SmallImage = local_178;
-    local_168.Assets.fields.SmallText = pSStack_170;
-    Il2CppCodeGenWriteBarrier((void **)&local_168.Assets,(void *)0x0);
-    if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
-    }
-    local_168.Timestamps.fields.Start = TypeInfo_ApplicationManagers_DiscordManager->static_fields->time;
-    if (__this_01 == (Discord_ActivityManager_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    local_c8.Type = local_168.Type;
-    local_c8._4_4_ = local_168._4_4_;
-    local_c8.ApplicationId = local_168.ApplicationId;
-    local_c8.Name = local_168.Name;
-    local_c8.State = local_168.State;
-    local_c8.Details = local_168.Details;
-    local_c8.Timestamps.fields.End = local_168.Timestamps.fields.End;
-    local_c8.Assets.fields.LargeImage = local_168.Assets.fields.LargeImage;
-    local_c8.Assets.fields.LargeText = local_168.Assets.fields.LargeText;
-    local_c8.Assets.fields.SmallImage = local_168.Assets.fields.SmallImage;
-    local_c8.Assets.fields.SmallText = local_168.Assets.fields.SmallText;
-    local_c8.Party.fields.Id = local_168.Party.fields.Id;
-    local_c8.Party.fields.Size.fields = local_168.Party.fields.Size.fields;
-    local_c8.Party.fields.Privacy = local_168.Party.fields.Privacy;
-    local_c8.Party.fields._20_4_ = local_168.Party.fields._20_4_;
-    local_c8.Secrets.fields.Match = local_168.Secrets.fields.Match;
-    local_c8.Secrets.fields.Join = local_168.Secrets.fields.Join;
-    local_c8.Secrets.fields.Spectate = local_168.Secrets.fields.Spectate;
-    local_c8.Instance = local_168.Instance;
-    local_c8._137_3_ = local_168._137_3_;
-    local_c8.SupportedPlatforms = local_168.SupportedPlatforms;
-    local_c8.Timestamps.fields.Start = local_168.Timestamps.fields.Start;
-    Discord_ActivityManager__UpdateActivity
-              (__this_01,(Discord_Activity_o *)&local_c8,
-               (Discord_ActivityManager_UpdateActivityHandler_o *)0x0,(MethodInfo *)0x0);
+  iVar2 = 0;
+  pPVar12 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
+  if (pPVar12 == (Photon_Realtime_Room_o *)0x0) {
+    iStack_104 = 0;
+    goto label_05e146a2;
+  }
+  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+  }
+  pPVar12 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
+  if (pPVar12 == (Photon_Realtime_Room_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  method_00 = (MethodInfo *)0x0;
+  iStack_104 = Photon_Realtime_Room__get_PlayerCount(pPVar12,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_07544cc2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    Il2CppMethodInitialized_07544cc2 = '\x01';
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
   }
   else {
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+  }
+  iVar2 = 1;
+  if (TypeInfo_Photon_Pun_PhotonNetwork->static_fields->offlineMode == false) {
     if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
     }
-    pPVar13 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
-    if (pPVar13 == (Photon_Realtime_Room_o *)0x0) {
+    pPVar12 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
+    if (pPVar12 == (Photon_Realtime_Room_o *)0x0) {
       ThrowNullReferenceException();
     }
-    iVar9 = Photon_Realtime_Room__get_PlayerCount(pPVar13,(MethodInfo *)0x0);
-    (__this->fields).playerCount = iVar9;
-    if (Il2CppMethodInitialized_184344524 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-      Il2CppMethodInitialized_184344524 = '\x01';
-    }
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
-    if (TypeInfo_Photon_Pun_PhotonNetwork->static_fields->offlineMode == false) {
-      if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-      }
-      pPVar13 = Photon_Pun_PhotonNetwork__get_CurrentRoom((MethodInfo *)0x0);
-      if (pPVar13 == (Photon_Realtime_Room_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      iVar9 = (pPVar13->fields).maxPlayers;
-    }
-    else {
-      iVar9 = 1;
-    }
-    (__this->fields).maxPlayerCount = iVar9;
-    pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->InGameCurrent;
-    if (pSVar5 == (Settings_InGameSet_o *)0x0) {
+    iVar2 = (pPVar12->fields).maxPlayers;
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+  }
+  if (Il2CppMethodInitialized_07544cc2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    Il2CppMethodInitialized_07544cc2 = '\x01';
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) goto label_05e14603;
+label_05e145c2:
+    if (TypeInfo_Photon_Pun_PhotonNetwork->static_fields->offlineMode != false) goto label_05e145cf;
+label_05e14618:
+    pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->InGameCurrent;
+    if (pSVar6 == (Settings_InGameSet_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pSVar6 = (pSVar5->fields).General;
-    if (pSVar6 == (Settings_InGameGeneralSettings_o *)0x0) {
+    pSVar7 = (pSVar6->fields).General;
+    if (pSVar7 == (Settings_InGameGeneralSettings_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pSVar4 = (pSVar6->fields).RoomName;
-    if (pSVar4 == (Settings_StringSetting_o *)0x0) {
+    pSVar5 = (pSVar7->fields).RoomName;
+    if (pSVar5 == (Settings_StringSetting_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pSVar11 = (pSVar4->fields)._value;
-    (__this->fields).roomName = pSVar11;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).roomName,pSVar11);
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
-    player = Photon_Pun_PhotonNetwork__get_LocalPlayer((MethodInfo *)0x0);
-    pSVar11 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-    uVar15 = 0;
-    while( true ) {
-      pSVar7 = (__this->fields).trackedProperties;
-      if (pSVar7 == (System_String_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      uVar1 = (uint)pSVar7->max_length;
-      if ((int)uVar1 <= (int)uVar15) break;
-      if (uVar1 <= uVar15) {
-        ThrowIndexOutOfRangeException();
-      }
-      pIVar14 = PhotonExtensions__GetCustomProperty(player,pSVar7->m_Items[(int)uVar15],(MethodInfo *)0x0);
-      str1 = "0";
-      if (pIVar14 != (Il2CppObject *)0x0) {
-        str1 = (System_String_o *)
-               (*pIVar14->klass->vtable[3].methodPtr)(pIVar14,pIVar14->klass->vtable[3].method);
-      }
-      pSVar11 = System_String__Concat_1969e50(pSVar11,str1,(MethodInfo *)0x0);
-      pSVar7 = (__this->fields).trackedProperties;
-      if (pSVar7 == (System_String_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      if ((int)uVar15 < (int)pSVar7->max_length + -1) {
-        pSVar11 = System_String__Concat_1969e50(pSVar11," / ",(MethodInfo *)0x0);
-      }
-      uVar15 = uVar15 + 1;
-    }
-    pSVar12 = System_String__Concat_1969b70(pSVar12," ",pSVar11,(MethodInfo *)0x0);
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
-    if (Il2CppMethodInitialized_184344524 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
-      Il2CppMethodInitialized_184344524 = '\x01';
-    }
-    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
-    }
-    local_168.State = "SinglePlayer";
-    if (TypeInfo_Photon_Pun_PhotonNetwork->static_fields->offlineMode == false) {
-      local_168.State = (__this->fields).roomName;
-    }
-    local_168.Type = 0;
-    local_168._4_4_ = 0;
-    local_168.ApplicationId = 0;
-    local_168.Name = (System_String_o *)0x0;
-    local_168.Details = (System_String_o *)0x0;
-    local_168.Timestamps.fields.Start = 0;
-    local_168.Timestamps.fields.End = 0;
-    local_168.Assets.fields.LargeImage = (System_String_o *)0x0;
-    local_168.Assets.fields.LargeText = (System_String_o *)0x0;
-    local_168.Assets.fields.SmallImage = (System_String_o *)0x0;
-    local_168.Assets.fields.SmallText = (System_String_o *)0x0;
-    local_168.Party.fields.Id = (System_String_o *)0x0;
-    local_168.Party.fields.Size.fields.CurrentSize = 0;
-    local_168.Party.fields.Size.fields.MaxSize = 0;
-    local_168.Party.fields.Privacy = 0;
-    local_168.Party.fields._20_4_ = 0;
-    local_168.Secrets.fields.Match = (System_String_o *)0x0;
-    local_168.Secrets.fields.Join = (System_String_o *)0x0;
-    local_168.Secrets.fields.Spectate = (System_String_o *)0x0;
-    local_168.Instance = false;
-    local_168._137_3_ = 0;
-    local_168.SupportedPlatforms = 0;
-    Il2CppCodeGenWriteBarrier(&local_168.State,local_168.State);
-    local_168.Details = pSVar12;
-    Il2CppCodeGenWriteBarrier(&local_168.Details,pSVar12);
-    pSStack_180 = (System_String_o *)0x0;
-    local_178 = (System_String_o *)0x0;
-    pSStack_170 = (System_String_o *)0x0;
-    local_188 = (__this->fields).largeImage;
-    Il2CppCodeGenWriteBarrier(&local_188,local_188);
-    local_178 = pSVar10;
-    Il2CppCodeGenWriteBarrier(&local_178,pSVar10);
-    local_168.Assets.fields.LargeImage = local_188;
-    local_168.Assets.fields.LargeText = pSStack_180;
-    local_168.Assets.fields.SmallImage = local_178;
-    local_168.Assets.fields.SmallText = pSStack_170;
-    Il2CppCodeGenWriteBarrier((void **)&local_168.Assets,(void *)0x0);
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
+    pSVar10 = (pSVar5->fields)._value;
+  }
+  else {
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor != 0) goto label_05e145c2;
+label_05e14603:
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    if (TypeInfo_Photon_Pun_PhotonNetwork->static_fields->offlineMode == false) goto label_05e14618;
+label_05e145cf:
+    uVar1 = (TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor;
+    pSVar10 = "SinglePlayer";
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+  }
+  player = Photon_Pun_PhotonNetwork__get_LocalPlayer((MethodInfo *)0x0);
+  if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
+  }
+  pSVar13 = ApplicationManagers_DiscordManager__GetScore(player,method_00);
+  pSVar9 = System_String__Concat_5301f10(pSVar9," ",pSVar13,(MethodInfo *)0x0);
+label_05e146a2:
+  values = (System_Object_array *)SZArrayNew(TypeInfo_object_array,5);
+  if (values == (System_Object_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((pSVar10 != (System_String_o *)0x0) &&
+     (pIVar14 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar10,(((values->obj).klass)->_1).element_class),
+     pIVar14 == (Il2CppObject *)0x0)) {
+    pIVar14 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar14,(MethodInfo *)0x0);
+  }
+  if ((int)values->max_length == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[0] = (Il2CppObject *)pSVar10;
+  Il2CppCodeGenWriteBarrier(values->m_Items);
+  if ((pSVar9 != (System_String_o *)0x0) &&
+     (pIVar14 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar9,(((values->obj).klass)->_1).element_class),
+     pIVar14 == (Il2CppObject *)0x0)) {
+    pIVar14 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar14,(MethodInfo *)0x0);
+  }
+  if ((values->max_length & 0xfffffffe) == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[1] = (Il2CppObject *)pSVar9;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 1);
+  if ((pSVar11 != (System_String_o *)0x0) &&
+     (pIVar14 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar11,(((values->obj).klass)->_1).element_class),
+     pIVar14 == (Il2CppObject *)0x0)) {
+    pIVar14 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar14,(MethodInfo *)0x0);
+  }
+  if ((uint)values->max_length < 3) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[2] = (Il2CppObject *)pSVar11;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 2);
+  iStack_ec = iStack_104;
+  pIVar14 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_ec);
+  if ((pIVar14 != (Il2CppObject *)0x0) &&
+     (pIVar15 = il2cpp_vm_Object_IsInst(pIVar14,(((values->obj).klass)->_1).element_class),
+     pIVar15 == (Il2CppObject *)0x0)) {
+    pIVar14 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar14,(MethodInfo *)0x0);
+  }
+  if ((values->max_length & 0xfffffffc) == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[3] = pIVar14;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 3);
+  iStack_f0 = iVar2;
+  pIVar14 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_f0);
+  if ((pIVar14 != (Il2CppObject *)0x0) &&
+     (pIVar15 = il2cpp_vm_Object_IsInst(pIVar14,(((values->obj).klass)->_1).element_class),
+     pIVar15 == (Il2CppObject *)0x0)) {
+    pIVar14 = il2cpp_codegen_get_array_type_mismatch_exception();
+    il2cpp_codegen_raise_exception(pIVar14,(MethodInfo *)0x0);
+  }
+  if ((uint)values->max_length < 5) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[4] = pIVar14;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 4);
+  pSVar13 = System_String__Join_5303170("|",values,(MethodInfo *)0x0);
+  bVar8 = System_String__op_Equality(pSVar13,(__this->fields)._lastStatus,(MethodInfo *)0x0);
+  if (!bVar8) {
+    targetAddress = &(__this->fields)._lastStatus;
+    *targetAddress = pSVar13;
+    Il2CppCodeGenWriteBarrier(targetAddress);
     if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
     }
-    local_168.Timestamps.fields.Start = TypeInfo_ApplicationManagers_DiscordManager->static_fields->time;
-    local_168.Party.fields.Size.fields.CurrentSize = (__this->fields).playerCount;
-    local_168.Party.fields.Size.fields.MaxSize = (__this->fields).maxPlayerCount;
+    __this_00 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->discord;
+    if (__this_00 == (Discord_Discord_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    __this_01 = Discord_Discord__GetActivityManager(__this_00,(MethodInfo *)0x0);
+    uStack_b8 = 0;
+    uStack_48 = 0;
+    uStack_40 = 0;
+    uStack_58 = 0;
+    uStack_50 = 0;
+    uStack_68 = 0;
+    uStack_60 = 0;
+    uStack_78 = 0;
+    uStack_70 = 0;
+    uStack_88 = 0;
+    pSStack_80 = (System_String_o *)0x0;
+    uStack_98 = 0;
+    pSStack_90 = (System_String_o *)0x0;
+    pSStack_a8 = (System_String_o *)0x0;
+    iStack_a0 = 0;
+    uStack_c8 = 0;
+    uStack_c0 = 0;
+    pSStack_b0 = pSVar10;
+    Il2CppCodeGenWriteBarrier(&pSStack_b0);
+    pSStack_a8 = pSVar9;
+    Il2CppCodeGenWriteBarrier(&pSStack_a8);
+    uStack_e0 = 0;
+    pSStack_d8 = (System_String_o *)0x0;
+    uStack_d0 = 0;
+    pSStack_e8 = "aottg2-logo2";
+    Il2CppCodeGenWriteBarrier(&pSStack_e8);
+    pSStack_d8 = pSVar11;
+    Il2CppCodeGenWriteBarrier(&pSStack_d8);
+    pSStack_80 = pSStack_d8;
+    uStack_78 = uStack_d0;
+    pSStack_90 = pSStack_e8;
+    uStack_88 = uStack_e0;
+    Il2CppCodeGenWriteBarrier(&pSStack_90);
+    iStack_a0 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->time;
+    uStack_68 = CONCAT44(iVar2,iStack_104);
     if (__this_01 == (Discord_ActivityManager_o *)0x0) {
       ThrowNullReferenceException();
     }
-    local_c8.Type = local_168.Type;
-    local_c8._4_4_ = local_168._4_4_;
-    local_c8.ApplicationId = local_168.ApplicationId;
-    local_c8.Name = local_168.Name;
-    local_c8.State = local_168.State;
-    local_c8.Details = local_168.Details;
-    local_c8.Timestamps.fields.End = local_168.Timestamps.fields.End;
-    local_c8.Assets.fields.LargeImage = local_168.Assets.fields.LargeImage;
-    local_c8.Assets.fields.LargeText = local_168.Assets.fields.LargeText;
-    local_c8.Assets.fields.SmallImage = local_168.Assets.fields.SmallImage;
-    local_c8.Assets.fields.SmallText = local_168.Assets.fields.SmallText;
-    local_c8.Party.fields.Id = local_168.Party.fields.Id;
-    local_c8.Party.fields.Privacy = local_168.Party.fields.Privacy;
-    local_c8.Party.fields._20_4_ = local_168.Party.fields._20_4_;
-    local_c8.Secrets.fields.Match = local_168.Secrets.fields.Match;
-    local_c8.Secrets.fields.Join = local_168.Secrets.fields.Join;
-    local_c8.Secrets.fields.Spectate = local_168.Secrets.fields.Spectate;
-    local_c8.Instance = local_168.Instance;
-    local_c8._137_3_ = local_168._137_3_;
-    local_c8.SupportedPlatforms = local_168.SupportedPlatforms;
-    local_c8.Timestamps.fields.Start = local_168.Timestamps.fields.Start;
-    local_c8.Party.fields.Size.fields = local_168.Party.fields.Size.fields;
+    puVar17 = &uStack_c8;
+    puVar18 = auStackY_598 + 0x80;
+    for (lVar16 = 0x12; lVar16 != 0; lVar16 = lVar16 + -1) {
+      *puVar18 = *puVar17;
+      puVar17 = puVar17 + (ulong)bVar19 * -2 + 1;
+      puVar18 = puVar18 + (ulong)bVar19 * -2 + 1;
+    }
     Discord_ActivityManager__UpdateActivity
-              (__this_01,(Discord_Activity_o *)&local_c8,
-               (Discord_ActivityManager_UpdateActivityHandler_o *)0x0,(MethodInfo *)0x0);
+              (__this_01,in_stack_fffffffffffffe68,(Discord_ActivityManager_UpdateActivityHandler_o *)0x0,
+               (MethodInfo *)0x0);
   }
   return;
+}
+
+
+// ApplicationManagers.DiscordManager$$GetScore
+// il2cpp: System_String_o* ApplicationManagers_DiscordManager__GetScore (Photon_Realtime_Player_o* player, const MethodInfo* method);
+// 0x5e14c10
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e14c4a: jmp 0x5e14dda
+// asm:   0x5e14db3: jmp 0x5e14ce0
+
+System_String_o *
+ApplicationManagers_DiscordManager__GetScore(Photon_Realtime_Player_o *player,MethodInfo *method)
+
+{
+  uint32_t uVar1;
+  System_String_array *pSVar2;
+  System_String_array *pSVar3;
+  Il2CppObject *pIVar4;
+  ulong uVar5;
+  System_String_o *pSVar6;
+  System_String_o **targetAddress;
+  
+  if (Il2CppMethodInitialized_07548424 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&" / ");
+    il2cpp_codegen_initialize_runtime_metadata(&"0");
+    Il2CppMethodInitialized_07548424 = '\x01';
+    uVar1 = (TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar1 = (TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
+    pSVar2 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->TrackedProperties;
+  }
+  else {
+    pSVar2 = *(System_String_array **)
+              ((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager)->static_fields;
+  }
+  if (pSVar2 == (System_String_array *)0x0) {
+label_05e14dda:
+    ThrowNullReferenceException();
+  }
+  pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,(uint32_t)pSVar2->max_length);
+  targetAddress = pSVar2->m_Items;
+  uVar5 = 0;
+  uVar1 = (TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor;
+  while( true ) {
+    if (uVar1 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
+    }
+    pSVar3 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->TrackedProperties;
+    if (pSVar3 == (System_String_array *)0x0) goto label_05e14dda;
+    if ((long)(int)pSVar3->max_length <= (long)uVar5) {
+      pSVar6 = System_String__Join(" / ",pSVar2,(MethodInfo *)0x0);
+      return pSVar6;
+    }
+    if ((TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_DiscordManager);
+      pSVar3 = TypeInfo_ApplicationManagers_DiscordManager->static_fields->TrackedProperties;
+      if (pSVar3 == (System_String_array *)0x0) goto label_05e14dda;
+    }
+    if ((uint)pSVar3->max_length <= uVar5) break;
+    pIVar4 = PhotonExtensions__GetCustomProperty(player,pSVar3->m_Items[uVar5],(MethodInfo *)0x0);
+    pSVar6 = (System_String_o *)0x0;
+    if (pIVar4 != (Il2CppObject *)0x0) {
+      if (pIVar4 == (Il2CppObject *)0x0) goto label_05e14dda;
+      pSVar6 = (System_String_o *)
+               (*pIVar4->klass->vtable[3].methodPtr)(pIVar4,pIVar4->klass->vtable[3].method);
+    }
+    if (pSVar6 == (System_String_o *)0x0) {
+      pSVar6 = "0";
+    }
+    if (pSVar2 == (System_String_array *)0x0) goto label_05e14dda;
+    if ((uint)pSVar2->max_length <= uVar5) break;
+    *targetAddress = pSVar6;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    uVar5 = uVar5 + 1;
+    targetAddress = targetAddress + 1;
+    uVar1 = (TypeInfo_ApplicationManagers_DiscordManager->_2).cctor_finished_or_no_cctor;
+  }
+  ThrowIndexOutOfRangeException();
 }
 
 
 // ApplicationManagers.DiscordManager$$.ctor
 // il2cpp: void ApplicationManagers_DiscordManager___ctor (ApplicationManagers_DiscordManager_o* __this, const MethodInfo* method);
-// 0x18234e820
+// 0x5e14df0
 
 void ApplicationManagers_DiscordManager___ctor
                (ApplicationManagers_DiscordManager_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  System_String_array *value;
-  
-  if (Il2CppMethodInitialized_18434796a == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    il2cpp_codegen_initialize_runtime_metadata(&"aottg2-logo2");
-    il2cpp_codegen_initialize_runtime_metadata(&"Kills");
-    il2cpp_codegen_initialize_runtime_metadata(&"Deaths");
-    il2cpp_codegen_initialize_runtime_metadata(&"TotalDamage");
-    il2cpp_codegen_initialize_runtime_metadata(&"HighestDamage");
-    Il2CppMethodInitialized_18434796a = '\x01';
-  }
-  (__this->fields).largeImage = "aottg2-logo2";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).largeImage,"aottg2-logo2");
-  value = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
-  pSVar1 = "Kills";
-  if (value != (System_String_array *)0x0) {
-    if ((int)value->max_length != 0) {
-      value->m_Items[0] = "Kills";
-      Il2CppCodeGenWriteBarrier(value->m_Items,pSVar1);
-      pSVar1 = "Deaths";
-      if (1 < (uint)value->max_length) {
-        value->m_Items[1] = "Deaths";
-        Il2CppCodeGenWriteBarrier(value->m_Items + 1,pSVar1);
-        pSVar1 = "HighestDamage";
-        if (2 < (uint)value->max_length) {
-          value->m_Items[2] = "HighestDamage";
-          Il2CppCodeGenWriteBarrier(value->m_Items + 2,pSVar1);
-          pSVar1 = "TotalDamage";
-          if (3 < (uint)value->max_length) {
-            value->m_Items[3] = "TotalDamage";
-            Il2CppCodeGenWriteBarrier(value->m_Items + 3,pSVar1);
-            (__this->fields).trackedProperties = value;
-            Il2CppCodeGenWriteBarrier(&(__this->fields).trackedProperties,value);
-            UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
-            return;
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+  return;
 }
 
 
 // ApplicationManagers.DiscordManager$$.cctor
 // il2cpp: void ApplicationManagers_DiscordManager___cctor (const MethodInfo* method);
-// 0x18234e7d0
+// 0x5e14e00
 
 void ApplicationManagers_DiscordManager___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18434796b == '\0') {
+  System_String_array *pSVar1;
+  
+  if (Il2CppMethodInitialized_07548425 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_DiscordManager);
-    Il2CppMethodInitialized_18434796b = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"Kills");
+    il2cpp_codegen_initialize_runtime_metadata(&"Deaths");
+    il2cpp_codegen_initialize_runtime_metadata(&"TotalDamage");
+    il2cpp_codegen_initialize_runtime_metadata(&"HighestDamage");
+    Il2CppMethodInitialized_07548425 = '\x01';
   }
-  TypeInfo_ApplicationManagers_DiscordManager->static_fields->appID = 0x115181d372441070;
-  return;
+  pSVar1 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+  if (pSVar1 == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar1->max_length != 0) {
+    pSVar1->m_Items[0] = "Kills";
+    Il2CppCodeGenWriteBarrier(pSVar1->m_Items);
+    if ((pSVar1->max_length & 0xfffffffe) != 0) {
+      pSVar1->m_Items[1] = "Deaths";
+      Il2CppCodeGenWriteBarrier(pSVar1->m_Items + 1);
+      if (2 < (uint)pSVar1->max_length) {
+        pSVar1->m_Items[2] = "HighestDamage";
+        Il2CppCodeGenWriteBarrier(pSVar1->m_Items + 2);
+        if ((pSVar1->max_length & 0xfffffffc) != 0) {
+          pSVar1->m_Items[3] = "TotalDamage";
+          Il2CppCodeGenWriteBarrier(pSVar1->m_Items + 3);
+          TypeInfo_ApplicationManagers_DiscordManager->static_fields->TrackedProperties = pSVar1;
+          Il2CppCodeGenWriteBarrier
+                    (&TypeInfo_ApplicationManagers_DiscordManager->static_fields->TrackedProperties);
+          TypeInfo_ApplicationManagers_DiscordManager->static_fields->appID = 0x115181d372441070;
+          return;
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
 }
 
 

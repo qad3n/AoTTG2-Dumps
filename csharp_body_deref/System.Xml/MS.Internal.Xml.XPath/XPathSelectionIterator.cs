@@ -29,7 +29,7 @@ internal class XPathSelectionIterator : ResetableIterator
 	public override int Count
 	{
 		[Token(Token = "0x6001C59")]
-		[Address(RVA = "0x25279D0", Offset = "0x2525FD0", VA = "0x1825279D0", Slot = "10")]
+		[Address(RVA = "0x60941E0", Offset = "0x60931E0", VA = "0x60941E0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -40,7 +40,7 @@ internal class XPathSelectionIterator : ResetableIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C5A")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
+		[Address(RVA = "0x6094210", Offset = "0x6093210", VA = "0x6094210", Slot = "8")]
 		get
 		{
 			return null;
@@ -51,7 +51,7 @@ internal class XPathSelectionIterator : ResetableIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C5B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030", Slot = "9")]
+		[Address(RVA = "0x6094220", Offset = "0x6093220", VA = "0x6094220", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -59,32 +59,32 @@ internal class XPathSelectionIterator : ResetableIterator
 	}
 
 	[Token(Token = "0x6001C55")]
-	[Address(RVA = "0x26DEFB0", Offset = "0x26DD5B0", VA = "0x1826DEFB0")]
+	[Address(RVA = "0x6093FA0", Offset = "0x6092FA0", VA = "0x6093FA0")]
 	internal XPathSelectionIterator(XPathNavigator nav, Query query)
 	{
 	}
 
 	[Token(Token = "0x6001C56")]
-	[Address(RVA = "0x26DF030", Offset = "0x26DD630", VA = "0x1826DF030")]
+	[Address(RVA = "0x6094010", Offset = "0x6093010", VA = "0x6094010")]
 	protected XPathSelectionIterator(XPathSelectionIterator it)
 	{
 	}
 
 	[Token(Token = "0x6001C57")]
-	[Address(RVA = "0x2527970", Offset = "0x2525F70", VA = "0x182527970", Slot = "12")]
+	[Address(RVA = "0x6094120", Offset = "0x6093120", VA = "0x6094120", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001C58")]
-	[Address(RVA = "0x26DEF10", Offset = "0x26DD510", VA = "0x1826DEF10", Slot = "7")]
+	[Address(RVA = "0x6094150", Offset = "0x6093150", VA = "0x6094150", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C5C")]
-	[Address(RVA = "0x26DEDB0", Offset = "0x26DD3B0", VA = "0x1826DEDB0", Slot = "6")]
+	[Address(RVA = "0x6094230", Offset = "0x6093230", VA = "0x6094230", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

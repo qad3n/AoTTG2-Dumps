@@ -12,12 +12,12 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000006")]
-[VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Assembly)]
+[VisibleToOtherModules]
 internal class UnityEngineModuleAssembly : Attribute
 {
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1160", Offset = "0x69F0160", VA = "0x69F1160")]
 	public UnityEngineModuleAssembly()
 	{
 	}

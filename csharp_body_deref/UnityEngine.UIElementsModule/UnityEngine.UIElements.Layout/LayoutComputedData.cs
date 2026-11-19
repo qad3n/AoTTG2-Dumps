@@ -69,7 +69,7 @@ internal struct LayoutComputedData
 	public static LayoutComputedData Default
 	{
 		[Token(Token = "0x6002C6F")]
-		[Address(RVA = "0x31BCDE0", Offset = "0x31BB3E0", VA = "0x1831BCDE0")]
+		[Address(RVA = "0x6BC3EF0", Offset = "0x6BC2EF0", VA = "0x6BC3EF0")]
 		get
 		{
 			return default(LayoutComputedData);
@@ -81,7 +81,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6002C70")]
-		[Address(RVA = "0x31AFD80", Offset = "0x31AE380", VA = "0x1831AFD80")]
+		[Address(RVA = "0x6BC4000", Offset = "0x6BC3000", VA = "0x6BC4000")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -94,7 +94,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6002C71")]
-		[Address(RVA = "0x31BCDD0", Offset = "0x31BB3D0", VA = "0x1831BCDD0")]
+		[Address(RVA = "0x6BC4010", Offset = "0x6BC3010", VA = "0x6BC4010")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -107,7 +107,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6002C72")]
-		[Address(RVA = "0x31BCF90", Offset = "0x31BB590", VA = "0x1831BCF90")]
+		[Address(RVA = "0x6BC4020", Offset = "0x6BC3020", VA = "0x6BC4020")]
 		get
 		{
 			//IL_0002: Expected I, but got O

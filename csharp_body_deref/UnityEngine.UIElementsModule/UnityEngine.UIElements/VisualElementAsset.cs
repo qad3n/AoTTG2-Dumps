@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualElementAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,13 +55,13 @@ internal class VisualElementAsset : UxmlAsset
 	public int ruleIndex
 	{
 		[Token(Token = "0x60026FF")]
-		[Address(RVA = "0x1CFDD50", Offset = "0x1CFC350", VA = "0x181CFDD50")]
+		[Address(RVA = "0x6B5D1E0", Offset = "0x6B5C1E0", VA = "0x6B5D1E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6002700")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x6B5D1F0", Offset = "0x6B5C1F0", VA = "0x6B5D1F0")]
 		set
 		{
 		}
@@ -71,7 +71,7 @@ internal class VisualElementAsset : UxmlAsset
 	public string[] classes
 	{
 		[Token(Token = "0x6002701")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6B5D200", Offset = "0x6B5C200", VA = "0x6B5D200")]
 		get
 		{
 			return null;
@@ -82,7 +82,7 @@ internal class VisualElementAsset : UxmlAsset
 	public List<string> stylesheetPaths
 	{
 		[Token(Token = "0x6002702")]
-		[Address(RVA = "0x3163830", Offset = "0x3161E30", VA = "0x183163830")]
+		[Address(RVA = "0x6B5D210", Offset = "0x6B5C210", VA = "0x6B5D210")]
 		get
 		{
 			return null;
@@ -93,7 +93,7 @@ internal class VisualElementAsset : UxmlAsset
 	public bool hasStylesheetPaths
 	{
 		[Token(Token = "0x6002703")]
-		[Address(RVA = "0x264D420", Offset = "0x264BA20", VA = "0x18264D420")]
+		[Address(RVA = "0x6B5D290", Offset = "0x6B5C290", VA = "0x6B5D290")]
 		get
 		{
 			return default(bool);
@@ -104,7 +104,7 @@ internal class VisualElementAsset : UxmlAsset
 	public List<StyleSheet> stylesheets
 	{
 		[Token(Token = "0x6002704")]
-		[Address(RVA = "0x31638B0", Offset = "0x3161EB0", VA = "0x1831638B0")]
+		[Address(RVA = "0x6B5D2A0", Offset = "0x6B5C2A0", VA = "0x6B5D2A0")]
 		get
 		{
 			return null;
@@ -115,7 +115,7 @@ internal class VisualElementAsset : UxmlAsset
 	public bool hasStylesheets
 	{
 		[Token(Token = "0x6002705")]
-		[Address(RVA = "0x3163820", Offset = "0x3161E20", VA = "0x183163820")]
+		[Address(RVA = "0x6B5D320", Offset = "0x6B5C320", VA = "0x6B5D320")]
 		get
 		{
 			return default(bool);
@@ -126,7 +126,7 @@ internal class VisualElementAsset : UxmlAsset
 	public UxmlSerializedData serializedData
 	{
 		[Token(Token = "0x6002706")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x6B5D330", Offset = "0x6B5C330", VA = "0x6B5D330")]
 		get
 		{
 			return null;
@@ -138,7 +138,7 @@ internal class VisualElementAsset : UxmlAsset
 	internal bool skipClone
 	{
 		[Token(Token = "0x6002707")]
-		[Address(RVA = "0x1720FF0", Offset = "0x171F5F0", VA = "0x181720FF0")]
+		[Address(RVA = "0x6B5D340", Offset = "0x6B5C340", VA = "0x6B5D340")]
 		get
 		{
 			return default(bool);
@@ -146,20 +146,20 @@ internal class VisualElementAsset : UxmlAsset
 	}
 
 	[Token(Token = "0x6002708")]
-	[Address(RVA = "0x3163790", Offset = "0x3161D90", VA = "0x183163790")]
+	[Address(RVA = "0x6B5D350", Offset = "0x6B5C350", VA = "0x6B5D350")]
 	public VisualElementAsset(string fullTypeName, [Optional] UxmlNamespaceDefinition xmlNamespace)
 	{
 	}
 
 	[Token(Token = "0x6002709")]
-	[Address(RVA = "0x3162D70", Offset = "0x3161370", VA = "0x183162D70")]
+	[Address(RVA = "0x6B5D450", Offset = "0x6B5C450", VA = "0x6B5D450")]
 	private static bool IdsPathMatchesAttributeOverrideIdsPath(List<int> idsPath, List<int> attributeOverrideIdsPath, int templateId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600270A")]
-	[Address(RVA = "0x3162E90", Offset = "0x3161490", VA = "0x183162E90", Slot = "8")]
+	[Address(RVA = "0x6B5D560", Offset = "0x6B5C560", VA = "0x6B5D560", Slot = "8")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal virtual VisualElement Instantiate(CreationContext cc)
 	{
@@ -167,21 +167,21 @@ internal class VisualElementAsset : UxmlAsset
 	}
 
 	[Token(Token = "0x600270B")]
-	[Address(RVA = "0x3162D00", Offset = "0x3161300", VA = "0x183162D00", Slot = "7")]
+	[Address(RVA = "0x6B5E030", Offset = "0x6B5D030", VA = "0x6B5E030", Slot = "7")]
 	internal override bool Accepts(UxmlAsset asset, out string errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600270C")]
-	[Address(RVA = "0x31636B0", Offset = "0x3161CB0", VA = "0x1831636B0", Slot = "3")]
+	[Address(RVA = "0x6B5E0A0", Offset = "0x6B5D0A0", VA = "0x6B5E0A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600270D")]
-	[Address(RVA = "0x3163580", Offset = "0x3161B80", VA = "0x183163580", Slot = "5")]
+	[Address(RVA = "0x6B5E190", Offset = "0x6B5D190", VA = "0x6B5E190", Slot = "5")]
 	private protected override void OnVisualTreeAssetChanged(VisualTreeAsset previousVta, VisualTreeAsset newVta)
 	{
 	}

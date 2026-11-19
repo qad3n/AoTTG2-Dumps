@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_Dropdown
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -51,13 +51,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public TMP_Text text
 		{
 			[Token(Token = "0x60000F6")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Address(RVA = "0x66E5180", Offset = "0x66E4180", VA = "0x66E5180")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60000F7")]
-			[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+			[Address(RVA = "0x66E5190", Offset = "0x66E4190", VA = "0x66E5190")]
 			set
 			{
 			}
@@ -67,13 +67,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public Image image
 		{
 			[Token(Token = "0x60000F8")]
-			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+			[Address(RVA = "0x66E51A0", Offset = "0x66E41A0", VA = "0x66E51A0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60000F9")]
-			[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+			[Address(RVA = "0x66E51B0", Offset = "0x66E41B0", VA = "0x66E51B0")]
 			set
 			{
 			}
@@ -83,13 +83,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public RectTransform rectTransform
 		{
 			[Token(Token = "0x60000FA")]
-			[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+			[Address(RVA = "0x66E51C0", Offset = "0x66E41C0", VA = "0x66E51C0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60000FB")]
-			[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+			[Address(RVA = "0x66E51D0", Offset = "0x66E41D0", VA = "0x66E51D0")]
 			set
 			{
 			}
@@ -99,32 +99,32 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public Toggle toggle
 		{
 			[Token(Token = "0x60000FC")]
-			[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+			[Address(RVA = "0x66E51E0", Offset = "0x66E41E0", VA = "0x66E51E0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60000FD")]
-			[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+			[Address(RVA = "0x66E51F0", Offset = "0x66E41F0", VA = "0x66E51F0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x2CDD550", Offset = "0x2CDBB50", VA = "0x182CDD550", Slot = "6")]
+		[Address(RVA = "0x66E5200", Offset = "0x66E4200", VA = "0x66E5200", Slot = "6")]
 		public virtual void OnPointerEnter(PointerEventData eventData)
 		{
 		}
 
 		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x2CDD4C0", Offset = "0x2CDBAC0", VA = "0x182CDD4C0", Slot = "7")]
+		[Address(RVA = "0x66E5270", Offset = "0x66E4270", VA = "0x66E5270", Slot = "7")]
 		public virtual void OnCancel(BaseEventData eventData)
 		{
 		}
 
 		[Token(Token = "0x6000100")]
-		[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+		[Address(RVA = "0x66E52F0", Offset = "0x66E42F0", VA = "0x66E52F0")]
 		public DropdownItem()
 		{
 		}
@@ -153,13 +153,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public string text
 		{
 			[Token(Token = "0x6000101")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x66E5300", Offset = "0x66E4300", VA = "0x66E5300")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000102")]
-			[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+			[Address(RVA = "0x66E5310", Offset = "0x66E4310", VA = "0x66E5310")]
 			set
 			{
 			}
@@ -169,13 +169,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public Sprite image
 		{
 			[Token(Token = "0x6000103")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x66E5320", Offset = "0x66E4320", VA = "0x66E5320")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000104")]
-			[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+			[Address(RVA = "0x66E5330", Offset = "0x66E4330", VA = "0x66E5330")]
 			set
 			{
 			}
@@ -185,38 +185,38 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public Color color
 		{
 			[Token(Token = "0x6000105")]
-			[Address(RVA = "0xC84140", Offset = "0xC82740", VA = "0x180C84140")]
+			[Address(RVA = "0x66E5340", Offset = "0x66E4340", VA = "0x66E5340")]
 			get
 			{
 				return default(Color);
 			}
 			[Token(Token = "0x6000106")]
-			[Address(RVA = "0x19377C0", Offset = "0x1935DC0", VA = "0x1819377C0")]
+			[Address(RVA = "0x66E5350", Offset = "0x66E4350", VA = "0x66E5350")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x2CDF8C0", Offset = "0x2CDDEC0", VA = "0x182CDF8C0")]
+		[Address(RVA = "0x66DFAC0", Offset = "0x66DEAC0", VA = "0x66DFAC0")]
 		public OptionData()
 		{
 		}
 
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x2CDF960", Offset = "0x2CDDF60", VA = "0x182CDF960")]
+		[Address(RVA = "0x66E1680", Offset = "0x66E0680", VA = "0x66E1680")]
 		public OptionData(string text)
 		{
 		}
 
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x2CDF9B0", Offset = "0x2CDDFB0", VA = "0x182CDF9B0")]
+		[Address(RVA = "0x66E1830", Offset = "0x66E0830", VA = "0x66E1830")]
 		public OptionData(Sprite image)
 		{
 		}
 
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x2CDF8F0", Offset = "0x2CDDEF0", VA = "0x182CDF8F0")]
+		[Address(RVA = "0x66E5360", Offset = "0x66E4360", VA = "0x66E5360")]
 		public OptionData(string text, Sprite image, Color color)
 		{
 		}
@@ -235,20 +235,20 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		public List<OptionData> options
 		{
 			[Token(Token = "0x600010B")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x66E53D0", Offset = "0x66E43D0", VA = "0x66E53D0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x600010C")]
-			[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+			[Address(RVA = "0x66E53E0", Offset = "0x66E43E0", VA = "0x66E53E0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x2CDF840", Offset = "0x2CDDE40", VA = "0x182CDF840")]
+		[Address(RVA = "0x66E0930", Offset = "0x66DF930", VA = "0x66E0930")]
 		public OptionDataList()
 		{
 		}
@@ -259,7 +259,7 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public class DropdownEvent : UnityEvent<int>
 	{
 		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x2CDD480", Offset = "0x2CDBA80", VA = "0x182CDD480")]
+		[Address(RVA = "0x66E09B0", Offset = "0x66DF9B0", VA = "0x66E09B0")]
 		public DropdownEvent()
 		{
 		}
@@ -289,7 +289,7 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000117")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x66E5520", Offset = "0x66E4520", VA = "0x66E5520", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -301,7 +301,7 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000119")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x66E5570", Offset = "0x66E4570", VA = "0x66E5570", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -310,28 +310,28 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 		}
 
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x66E4C10", Offset = "0x66E3C10", VA = "0x66E4C10")]
 		[DebuggerHidden]
 		public _003CDelayedDestroyDropdownList_003Ed__90(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x66E5460", Offset = "0x66E4460", VA = "0x66E5460", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x2CF4280", Offset = "0x2CF2880", VA = "0x182CF4280", Slot = "6")]
+		[Address(RVA = "0x66E5470", Offset = "0x66E4470", VA = "0x66E5470", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x2CF4340", Offset = "0x2CF2940", VA = "0x182CF4340", Slot = "8")]
+		[Address(RVA = "0x66E5530", Offset = "0x66E4530", VA = "0x66E5530", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -441,13 +441,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public RectTransform template
 	{
 		[Token(Token = "0x60000BC")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Address(RVA = "0x66E0400", Offset = "0x66DF400", VA = "0x66E0400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x2CE6B90", Offset = "0x2CE5190", VA = "0x182CE6B90")]
+		[Address(RVA = "0x66DFA40", Offset = "0x66DEA40", VA = "0x66DFA40")]
 		set
 		{
 		}
@@ -457,13 +457,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public TMP_Text captionText
 	{
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x1BD4C80", Offset = "0x1BD3280", VA = "0x181BD4C80")]
+		[Address(RVA = "0x66E0410", Offset = "0x66DF410", VA = "0x66E0410")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x2CE6A90", Offset = "0x2CE5090", VA = "0x182CE6A90")]
+		[Address(RVA = "0x66DFA60", Offset = "0x66DEA60", VA = "0x66DFA60")]
 		set
 		{
 		}
@@ -473,13 +473,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public Image captionImage
 	{
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x1C41CF0", Offset = "0x1C402F0", VA = "0x181C41CF0")]
+		[Address(RVA = "0x66E0420", Offset = "0x66DF420", VA = "0x66E0420")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x2CE6A60", Offset = "0x2CE5060", VA = "0x182CE6A60")]
+		[Address(RVA = "0x66E0430", Offset = "0x66DF430", VA = "0x66E0430")]
 		set
 		{
 		}
@@ -489,13 +489,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public Graphic placeholder
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x1C54FF0", Offset = "0x1C535F0", VA = "0x181C54FF0")]
+		[Address(RVA = "0x66E0450", Offset = "0x66DF450", VA = "0x66E0450")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x2CE6B60", Offset = "0x2CE5160", VA = "0x182CE6B60")]
+		[Address(RVA = "0x66E0460", Offset = "0x66DF460", VA = "0x66E0460")]
 		set
 		{
 		}
@@ -505,13 +505,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public TMP_Text itemText
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0xA2F260", Offset = "0xA2D860", VA = "0x180A2F260")]
+		[Address(RVA = "0x66E0480", Offset = "0x66DF480", VA = "0x66E0480")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x2CE6AF0", Offset = "0x2CE50F0", VA = "0x182CE6AF0")]
+		[Address(RVA = "0x66DFA80", Offset = "0x66DEA80", VA = "0x66DFA80")]
 		set
 		{
 		}
@@ -521,13 +521,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public Image itemImage
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x2CE6A00", Offset = "0x2CE5000", VA = "0x182CE6A00")]
+		[Address(RVA = "0x66E0490", Offset = "0x66DF490", VA = "0x66E0490")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x2CE6AC0", Offset = "0x2CE50C0", VA = "0x182CE6AC0")]
+		[Address(RVA = "0x66E04A0", Offset = "0x66DF4A0", VA = "0x66E04A0")]
 		set
 		{
 		}
@@ -537,13 +537,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public List<OptionData> options
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x2CE6A10", Offset = "0x2CE5010", VA = "0x182CE6A10")]
+		[Address(RVA = "0x66DFAA0", Offset = "0x66DEAA0", VA = "0x66DFAA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x2CE6B20", Offset = "0x2CE5120", VA = "0x182CE6B20")]
+		[Address(RVA = "0x66E04C0", Offset = "0x66DF4C0", VA = "0x66E04C0")]
 		set
 		{
 		}
@@ -553,13 +553,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public DropdownEvent onValueChanged
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x1D1FA50", Offset = "0x1D1E050", VA = "0x181D1FA50")]
+		[Address(RVA = "0x66E04F0", Offset = "0x66DF4F0", VA = "0x66E04F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x1D1FE00", Offset = "0x1D1E400", VA = "0x181D1FE00")]
+		[Address(RVA = "0x66E0500", Offset = "0x66DF500", VA = "0x66E0500")]
 		set
 		{
 		}
@@ -569,13 +569,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public float alphaFadeSpeed
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x2CE69F0", Offset = "0x2CE4FF0", VA = "0x182CE69F0")]
+		[Address(RVA = "0x66E0520", Offset = "0x66DF520", VA = "0x66E0520")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x2CE6A50", Offset = "0x2CE5050", VA = "0x182CE6A50")]
+		[Address(RVA = "0x66E0530", Offset = "0x66DF530", VA = "0x66E0530")]
 		set
 		{
 		}
@@ -585,13 +585,13 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public int value
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x2CE6A30", Offset = "0x2CE5030", VA = "0x182CE6A30")]
+		[Address(RVA = "0x66E0540", Offset = "0x66DF540", VA = "0x66E0540")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x2CE6BC0", Offset = "0x2CE51C0", VA = "0x182CE6BC0")]
+		[Address(RVA = "0x66E0550", Offset = "0x66DF550", VA = "0x66E0550")]
 		set
 		{
 		}
@@ -601,7 +601,7 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public bool IsExpanded
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x2CE6980", Offset = "0x2CE4F80", VA = "0x182CE6980")]
+		[Address(RVA = "0x66E0710", Offset = "0x66DF710", VA = "0x66E0710")]
 		get
 		{
 			return default(bool);
@@ -612,86 +612,86 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	public bool MultiSelect
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x2CE69E0", Offset = "0x2CE4FE0", VA = "0x182CE69E0")]
+		[Address(RVA = "0x66E0760", Offset = "0x66DF760", VA = "0x66E0760")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x2CE6A40", Offset = "0x2CE5040", VA = "0x182CE6A40")]
+		[Address(RVA = "0x66E0770", Offset = "0x66DF770", VA = "0x66E0770")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x2CE4630", Offset = "0x2CE2C30", VA = "0x182CE4630")]
+	[Address(RVA = "0x66E0700", Offset = "0x66DF700", VA = "0x66E0700")]
 	public void SetValueWithoutNotify(int input)
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x2CE4640", Offset = "0x2CE2C40", VA = "0x182CE4640")]
+	[Address(RVA = "0x66E0560", Offset = "0x66DF560", VA = "0x66E0560")]
 	private void SetValue(int value, bool sendCallback = true)
 	{
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x2CE67E0", Offset = "0x2CE4DE0", VA = "0x182CE67E0")]
+	[Address(RVA = "0x66E0780", Offset = "0x66DF780", VA = "0x66E0780")]
 	protected TMP_Dropdown()
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x2CE2F60", Offset = "0x2CE1560", VA = "0x182CE2F60", Slot = "4")]
+	[Address(RVA = "0x66E09F0", Offset = "0x66DF9F0", VA = "0x66E09F0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x2CE64E0", Offset = "0x2CE4AE0", VA = "0x182CE64E0", Slot = "6")]
+	[Address(RVA = "0x66E0B20", Offset = "0x66DFB20", VA = "0x66E0B20", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x2CE3D10", Offset = "0x2CE2310", VA = "0x182CE3D10", Slot = "7")]
+	[Address(RVA = "0x66E0BD0", Offset = "0x66DFBD0", VA = "0x66E0BD0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x2CE4110", Offset = "0x2CE2710", VA = "0x182CE4110")]
+	[Address(RVA = "0x66DFAE0", Offset = "0x66DEAE0", VA = "0x66DFAE0")]
 	public void RefreshShownValue()
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x2CE29D0", Offset = "0x2CE0FD0", VA = "0x182CE29D0")]
+	[Address(RVA = "0x66E14A0", Offset = "0x66E04A0", VA = "0x66E14A0")]
 	public void AddOptions(List<OptionData> options)
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x2CE2A40", Offset = "0x2CE1040", VA = "0x182CE2A40")]
+	[Address(RVA = "0x66E1510", Offset = "0x66E0510", VA = "0x66E1510")]
 	public void AddOptions(List<string> options)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x2CE2BD0", Offset = "0x2CE11D0", VA = "0x182CE2BD0")]
+	[Address(RVA = "0x66E16C0", Offset = "0x66E06C0", VA = "0x66E16C0")]
 	public void AddOptions(List<Sprite> options)
 	{
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x2CE30B0", Offset = "0x2CE16B0", VA = "0x182CE30B0")]
+	[Address(RVA = "0x66E1870", Offset = "0x66E0870", VA = "0x66E1870")]
 	public void ClearOptions()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x2CE47C0", Offset = "0x2CE2DC0", VA = "0x182CE47C0")]
+	[Address(RVA = "0x66E1920", Offset = "0x66E0920", VA = "0x66E1920")]
 	private void SetupTemplate()
 	{
 	}
@@ -703,115 +703,115 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x2CE3DC0", Offset = "0x2CE23C0", VA = "0x182CE3DC0", Slot = "42")]
+	[Address(RVA = "0x66E1FF0", Offset = "0x66E0FF0", VA = "0x66E1FF0", Slot = "42")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x2CE3DC0", Offset = "0x2CE23C0", VA = "0x182CE3DC0", Slot = "43")]
+	[Address(RVA = "0x66E3C70", Offset = "0x66E2C70", VA = "0x66E3C70", Slot = "43")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x2CE3D00", Offset = "0x2CE2300", VA = "0x182CE3D00", Slot = "44")]
+	[Address(RVA = "0x66E3C80", Offset = "0x66E2C80", VA = "0x66E3C80", Slot = "44")]
 	public virtual void OnCancel(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x2CE4EB0", Offset = "0x2CE34B0", VA = "0x182CE4EB0")]
+	[Address(RVA = "0x66E2000", Offset = "0x66E1000", VA = "0x66E2000")]
 	public void Show()
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x2CE3CC0", Offset = "0x2CE22C0", VA = "0x182CE3CC0")]
+	[Address(RVA = "0x66E1020", Offset = "0x66E0020", VA = "0x66E1020")]
 	private static bool IsEverythingValue(int count, int value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x2CE3860", Offset = "0x2CE1E60", VA = "0x182CE3860")]
+	[Address(RVA = "0x66E4320", Offset = "0x66E3320", VA = "0x66E4320")]
 	private static int EverythingValue(int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x2CE3170", Offset = "0x2CE1770", VA = "0x182CE3170", Slot = "45")]
+	[Address(RVA = "0x66E4390", Offset = "0x66E3390", VA = "0x66E4390", Slot = "45")]
 	protected virtual GameObject CreateBlocker(Canvas rootCanvas)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x2CE37C0", Offset = "0x2CE1DC0", VA = "0x182CE37C0", Slot = "46")]
+	[Address(RVA = "0x66E48B0", Offset = "0x66E38B0", VA = "0x66E48B0", Slot = "46")]
 	protected virtual void DestroyBlocker(GameObject blocker)
 	{
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x2CE3680", Offset = "0x2CE1C80", VA = "0x182CE3680", Slot = "47")]
+	[Address(RVA = "0x66E4920", Offset = "0x66E3920", VA = "0x66E4920", Slot = "47")]
 	protected virtual GameObject CreateDropdownList(GameObject template)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x2CE3810", Offset = "0x2CE1E10", VA = "0x182CE3810", Slot = "48")]
+	[Address(RVA = "0x66E4980", Offset = "0x66E3980", VA = "0x66E4980", Slot = "48")]
 	protected virtual void DestroyDropdownList(GameObject dropdownList)
 	{
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x2CE36E0", Offset = "0x2CE1CE0", VA = "0x182CE36E0", Slot = "49")]
+	[Address(RVA = "0x66E49F0", Offset = "0x66E39F0", VA = "0x66E49F0", Slot = "49")]
 	protected virtual DropdownItem CreateItem(DropdownItem itemTemplate)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "50")]
+	[Address(RVA = "0x66E4A50", Offset = "0x66E3A50", VA = "0x66E4A50", Slot = "50")]
 	protected virtual void DestroyItem(DropdownItem item)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x2CE2670", Offset = "0x2CE0C70", VA = "0x182CE2670")]
+	[Address(RVA = "0x66E3EC0", Offset = "0x66E2EC0", VA = "0x66E3EC0")]
 	private DropdownItem AddItem(OptionData data, bool selected, DropdownItem itemTemplate, List<DropdownItem> items)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x2CE2ED0", Offset = "0x2CE14D0", VA = "0x182CE2ED0")]
+	[Address(RVA = "0x66E4A60", Offset = "0x66E3A60", VA = "0x66E4A60")]
 	private void AlphaFadeList(float duration, float alpha)
 	{
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x2CE2D60", Offset = "0x2CE1360", VA = "0x182CE2D60")]
+	[Address(RVA = "0x66E4200", Offset = "0x66E3200", VA = "0x66E4200")]
 	private void AlphaFadeList(float duration, float start, float end)
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x2CE4580", Offset = "0x2CE2B80", VA = "0x182CE4580")]
+	[Address(RVA = "0x66E4AE0", Offset = "0x66E3AE0", VA = "0x66E4AE0")]
 	private void SetAlpha(float alpha)
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x2CE38C0", Offset = "0x2CE1EC0", VA = "0x182CE38C0")]
+	[Address(RVA = "0x66E3C90", Offset = "0x66E2C90", VA = "0x66E3C90")]
 	public void Hide()
 	{
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x2CE3740", Offset = "0x2CE1D40", VA = "0x182CE3740")]
+	[Address(RVA = "0x66E4B90", Offset = "0x66E3B90", VA = "0x66E4B90")]
 	[IteratorStateMachine(typeof(_003CDelayedDestroyDropdownList_003Ed__90))]
 	private IEnumerator DelayedDestroyDropdownList(float delay)
 	{
@@ -819,19 +819,19 @@ public class TMP_Dropdown : Selectable, IPointerClickHandler, IEventSystemHandle
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x2CE3AC0", Offset = "0x2CE20C0", VA = "0x182CE3AC0")]
+	[Address(RVA = "0x66E0C70", Offset = "0x66DFC70", VA = "0x66E0C70")]
 	private void ImmediateDestroyDropdownList()
 	{
 	}
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x2CE3DD0", Offset = "0x2CE23D0", VA = "0x182CE3DD0")]
+	[Address(RVA = "0x66E4C30", Offset = "0x66E3C30", VA = "0x66E4C30")]
 	private void OnSelectItem(Toggle toggle)
 	{
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x2CE3890", Offset = "0x2CE1E90", VA = "0x182CE3890")]
+	[Address(RVA = "0x66E0E30", Offset = "0x66DFE30", VA = "0x66E0E30")]
 	private static int FirstActiveFlagIndex(int value)
 	{
 		return default(int);

@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000337")]
 public enum ReflectionProbeRefreshMode
 {
-	[Token(Token = "0x40008E6")]
+	[Token(Token = "0x40008E4")]
 	OnAwake,
-	[Token(Token = "0x40008E7")]
+	[Token(Token = "0x40008E5")]
 	EveryFrame,
-	[Token(Token = "0x40008E8")]
+	[Token(Token = "0x40008E6")]
 	ViaScripting
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TextJobSystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,19 +21,19 @@ internal class TextJobSystem
 	private ATGTextJobSystem m_ATGTextJobSystem;
 
 	[Token(Token = "0x600247A")]
-	[Address(RVA = "0x313FD80", Offset = "0x313E380", VA = "0x18313FD80")]
+	[Address(RVA = "0x6B40C90", Offset = "0x6B3FC90", VA = "0x6B40C90")]
 	internal void GenerateText(MeshGenerationContext mgc, TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x600247B")]
-	[Address(RVA = "0x3140110", Offset = "0x313E710", VA = "0x183140110")]
+	[Address(RVA = "0x6B41150", Offset = "0x6B40150", VA = "0x6B41150")]
 	internal void PrepareShapingBeforeLayout(BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600247C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6B411D0", Offset = "0x6B401D0", VA = "0x6B411D0")]
 	public TextJobSystem()
 	{
 	}

@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x20006A0")]
+[Token(Token = "0x200067A")]
 internal class FileStreamAsyncResult : IAsyncResult
 {
-	[Token(Token = "0x4001AC4")]
+	[Token(Token = "0x4001A2A")]
 	[FieldOffset(Offset = "0x10")]
 	private object state;
 
-	[Token(Token = "0x4001AC5")]
+	[Token(Token = "0x4001A2B")]
 	[FieldOffset(Offset = "0x18")]
 	private bool completed;
 
-	[Token(Token = "0x4001AC6")]
+	[Token(Token = "0x4001A2C")]
 	[FieldOffset(Offset = "0x20")]
 	private ManualResetEvent wh;
 
-	[Token(Token = "0x4001AC7")]
+	[Token(Token = "0x4001A2D")]
 	[FieldOffset(Offset = "0x28")]
 	private AsyncCallback cb;
 
-	[Token(Token = "0x4001AC8")]
+	[Token(Token = "0x4001A2E")]
 	[FieldOffset(Offset = "0x30")]
 	private bool completedSynch;
 
-	[Token(Token = "0x4001AC9")]
+	[Token(Token = "0x4001A2F")]
 	[FieldOffset(Offset = "0x34")]
 	public int Count;
 
-	[Token(Token = "0x4001ACA")]
+	[Token(Token = "0x4001A30")]
 	[FieldOffset(Offset = "0x38")]
 	public int OriginalCount;
 
-	[Token(Token = "0x4001ACB")]
+	[Token(Token = "0x4001A31")]
 	[FieldOffset(Offset = "0x3C")]
 	public int BytesRead;
 
-	[Token(Token = "0x4001ACC")]
+	[Token(Token = "0x4001A32")]
 	[FieldOffset(Offset = "0x40")]
 	private AsyncCallback realcb;
 
 	[Token(Token = "0x1700083A")]
 	public object AsyncState
 	{
-		[Token(Token = "0x6003358")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "6")]
+		[Token(Token = "0x6003326")]
+		[Address(RVA = "0x548AA70", Offset = "0x5489A70", VA = "0x548AA70", Slot = "6")]
 		get
 		{
 			return null;
@@ -63,8 +63,8 @@ internal class FileStreamAsyncResult : IAsyncResult
 	[Token(Token = "0x1700083B")]
 	public bool CompletedSynchronously
 	{
-		[Token(Token = "0x6003359")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00", Slot = "7")]
+		[Token(Token = "0x6003327")]
+		[Address(RVA = "0x548AA80", Offset = "0x5489A80", VA = "0x548AA80", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -74,8 +74,8 @@ internal class FileStreamAsyncResult : IAsyncResult
 	[Token(Token = "0x1700083C")]
 	public WaitHandle AsyncWaitHandle
 	{
-		[Token(Token = "0x600335A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "5")]
+		[Token(Token = "0x6003328")]
+		[Address(RVA = "0x548AA90", Offset = "0x5489A90", VA = "0x548AA90", Slot = "5")]
 		get
 		{
 			return null;
@@ -85,22 +85,22 @@ internal class FileStreamAsyncResult : IAsyncResult
 	[Token(Token = "0x1700083D")]
 	public bool IsCompleted
 	{
-		[Token(Token = "0x600335B")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30", Slot = "4")]
+		[Token(Token = "0x6003329")]
+		[Address(RVA = "0x548AAA0", Offset = "0x5489AA0", VA = "0x548AAA0", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003356")]
-	[Address(RVA = "0x1AE8980", Offset = "0x1AE6F80", VA = "0x181AE8980")]
+	[Token(Token = "0x6003324")]
+	[Address(RVA = "0x54899A0", Offset = "0x54889A0", VA = "0x54899A0")]
 	public FileStreamAsyncResult(AsyncCallback cb, object state)
 	{
 	}
 
-	[Token(Token = "0x6003357")]
-	[Address(RVA = "0x1AE88F0", Offset = "0x1AE6EF0", VA = "0x181AE88F0")]
+	[Token(Token = "0x6003325")]
+	[Address(RVA = "0x548A9F0", Offset = "0x54899F0", VA = "0x548A9F0")]
 	private static void CBWrapper(IAsyncResult ares)
 	{
 	}

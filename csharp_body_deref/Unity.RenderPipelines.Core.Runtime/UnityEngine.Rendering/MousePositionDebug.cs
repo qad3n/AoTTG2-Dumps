@@ -20,7 +20,7 @@ public class MousePositionDebug
 	public static MousePositionDebug instance
 	{
 		[Token(Token = "0x60007A5")]
-		[Address(RVA = "0x2AE3700", Offset = "0x2AE1D00", VA = "0x182AE3700")]
+		[Address(RVA = "0x64D85C0", Offset = "0x64D75C0", VA = "0x64D85C0")]
 		get
 		{
 			return null;
@@ -28,40 +28,40 @@ public class MousePositionDebug
 	}
 
 	[Token(Token = "0x60007A6")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64D8660", Offset = "0x64D7660", VA = "0x64D8660")]
 	public void Build()
 	{
 	}
 
 	[Token(Token = "0x60007A7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x64D8670", Offset = "0x64D7670", VA = "0x64D8670")]
 	public void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x60007A8")]
-	[Address(RVA = "0x2AE36D0", Offset = "0x2AE1CD0", VA = "0x182AE36D0")]
+	[Address(RVA = "0x64D8680", Offset = "0x64D7680", VA = "0x64D8680")]
 	public Vector2 GetMousePosition(float ScreenHeight, bool sceneView)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x2AE36D0", Offset = "0x2AE1CD0", VA = "0x182AE36D0")]
+	[Address(RVA = "0x64D8690", Offset = "0x64D7690", VA = "0x64D8690")]
 	private Vector2 GetInputMousePosition()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60007AA")]
-	[Address(RVA = "0xA3A940", Offset = "0xA38F40", VA = "0x180A3A940")]
+	[Address(RVA = "0x64D86A0", Offset = "0x64D76A0", VA = "0x64D86A0")]
 	public Vector2 GetMouseClickPosition(float ScreenHeight)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60007AB")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64D8650", Offset = "0x64D7650", VA = "0x64D8650")]
 	public MousePositionDebug()
 	{
 	}

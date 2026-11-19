@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001AB")]
+[Token(Token = "0x200016C")]
 public interface INestedContainer : IContainer, IDisposable
 {
-	[Token(Token = "0x17000226")]
+	[Token(Token = "0x170001F7")]
 	IComponent Owner
 	{
-		[Token(Token = "0x6000AEE")]
+		[Token(Token = "0x600092E")]
 		get;
 	}
 }

@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class DecrementHandler : UnaryOperatorHandler
 {
 	[Token(Token = "0x600079A")]
-	[Address(RVA = "0x2DC9C70", Offset = "0x2DC8270", VA = "0x182DC9C70")]
+	[Address(RVA = "0x67CBD20", Offset = "0x67CAD20", VA = "0x67CBD20")]
 	public DecrementHandler()
 	{
 	}

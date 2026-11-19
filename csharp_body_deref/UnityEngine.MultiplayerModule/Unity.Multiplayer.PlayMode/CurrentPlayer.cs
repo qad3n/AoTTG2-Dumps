@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Multiplayer.PlayMode.CurrentPlayer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public static class CurrentPlayer
 	private static CurrentPlayerApi s_CurrentPlayerApi;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2FC7090", Offset = "0x2FC5690", VA = "0x182FC7090")]
+	[Address(RVA = "0x69C18B0", Offset = "0x69C08B0", VA = "0x69C18B0")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
 	private static void ReloadLatestTagsOnEnterPlaymode()
 	{

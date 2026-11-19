@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.AllocatorManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public static class AllocatorManager
 		internal unsafe ref TableEntry TableEntry
 		{
 			[Token(Token = "0x6000073")]
-			[Address(RVA = "0x2994050", Offset = "0x2992650", VA = "0x182994050")]
+			[Address(RVA = "0x635A220", Offset = "0x6359220", VA = "0x635A220")]
 			get
 			{
 				return ref *(TableEntry*)null;
@@ -48,7 +48,7 @@ public static class AllocatorManager
 		internal bool IsInstalled
 		{
 			[Token(Token = "0x6000074")]
-			[Address(RVA = "0x2993FA0", Offset = "0x29925A0", VA = "0x182993FA0")]
+			[Address(RVA = "0x635B220", Offset = "0x635A220", VA = "0x635B220")]
 			get
 			{
 				return default(bool);
@@ -59,7 +59,7 @@ public static class AllocatorManager
 		public int Value
 		{
 			[Token(Token = "0x6000079")]
-			[Address(RVA = "0x846ED0", Offset = "0x8454D0", VA = "0x180846ED0")]
+			[Address(RVA = "0x635B330", Offset = "0x635A330", VA = "0x635B330")]
 			get
 			{
 				return default(int);
@@ -70,7 +70,7 @@ public static class AllocatorManager
 		public TryFunction Function
 		{
 			[Token(Token = "0x600007D")]
-			[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+			[Address(RVA = "0x635B3C0", Offset = "0x635A3C0", VA = "0x635B3C0", Slot = "4")]
 			get
 			{
 				return null;
@@ -81,13 +81,13 @@ public static class AllocatorManager
 		public AllocatorHandle Handle
 		{
 			[Token(Token = "0x600007F")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "6")]
+			[Address(RVA = "0x635A460", Offset = "0x6359460", VA = "0x635A460", Slot = "6")]
 			get
 			{
 				return default(AllocatorHandle);
 			}
 			[Token(Token = "0x6000080")]
-			[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+			[Address(RVA = "0x635B430", Offset = "0x635A430", VA = "0x635B430", Slot = "7")]
 			set
 			{
 			}
@@ -97,7 +97,7 @@ public static class AllocatorManager
 		public Allocator ToAllocator
 		{
 			[Token(Token = "0x6000081")]
-			[Address(RVA = "0x29940E0", Offset = "0x29926E0", VA = "0x1829940E0", Slot = "8")]
+			[Address(RVA = "0x635B440", Offset = "0x635A440", VA = "0x635B440", Slot = "8")]
 			get
 			{
 				return default(Allocator);
@@ -108,7 +108,7 @@ public static class AllocatorManager
 		public bool IsCustomAllocator
 		{
 			[Token(Token = "0x6000082")]
-			[Address(RVA = "0x2993F90", Offset = "0x2992590", VA = "0x182993F90", Slot = "9")]
+			[Address(RVA = "0x635B450", Offset = "0x635A450", VA = "0x635B450", Slot = "9")]
 			get
 			{
 				return default(bool);
@@ -119,7 +119,7 @@ public static class AllocatorManager
 		public bool IsAutoDispose
 		{
 			[Token(Token = "0x6000083")]
-			[Address(RVA = "0x2993EE0", Offset = "0x29924E0", VA = "0x182993EE0", Slot = "10")]
+			[Address(RVA = "0x635B460", Offset = "0x635A460", VA = "0x635B460", Slot = "10")]
 			get
 			{
 				return default(bool);
@@ -127,25 +127,25 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x635B310", Offset = "0x635A310", VA = "0x635B310")]
 		internal void IncrementVersion()
 		{
 		}
 
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x635B320", Offset = "0x635A320", VA = "0x635B320")]
 		internal void Rewind()
 		{
 		}
 
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x2993E60", Offset = "0x2992460", VA = "0x182993E60")]
+		[Address(RVA = "0x635A9B0", Offset = "0x63599B0", VA = "0x635A9B0")]
 		internal void Install(TableEntry tableEntry)
 		{
 		}
 
 		[Token(Token = "0x6000078")]
-		[Address(RVA = "0x2994120", Offset = "0x2992720", VA = "0x182994120")]
+		[Address(RVA = "0x635A5D0", Offset = "0x63595D0", VA = "0x635A5D0")]
 		public static implicit operator AllocatorHandle(Allocator a)
 		{
 			return default(AllocatorHandle);
@@ -164,7 +164,7 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x600007C")]
-		[Address(RVA = "0x2993C90", Offset = "0x2992290", VA = "0x182993C90")]
+		[Address(RVA = "0x635B340", Offset = "0x635A340", VA = "0x635B340")]
 		[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 		[Conditional("UNITY_DOTS_DEBUG")]
 		private static void CheckAllocatedSuccessfully(int error)
@@ -172,20 +172,20 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x2993E80", Offset = "0x2992480", VA = "0x182993E80", Slot = "5")]
+		[Address(RVA = "0x635B3D0", Offset = "0x635A3D0", VA = "0x635B3D0", Slot = "5")]
 		public int Try(ref Block block)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x2993D30", Offset = "0x2992330", VA = "0x182993D30", Slot = "11")]
+		[Address(RVA = "0x635B510", Offset = "0x635A510", VA = "0x635B510", Slot = "11")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x2993D70", Offset = "0x2992370", VA = "0x182993D70", Slot = "0")]
+		[Address(RVA = "0x635B5A0", Offset = "0x635A5A0", VA = "0x635B5A0", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
@@ -193,7 +193,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x1A7C310", Offset = "0x1A7A910", VA = "0x181A7C310", Slot = "12")]
+		[Address(RVA = "0x635B620", Offset = "0x635A620", VA = "0x635B620", Slot = "12")]
 		public bool Equals(AllocatorHandle other)
 		{
 			return default(bool);
@@ -201,7 +201,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x2993D50", Offset = "0x2992350", VA = "0x182993D50")]
+		[Address(RVA = "0x635B630", Offset = "0x635A630", VA = "0x635B630")]
 		public bool Equals(Allocator other)
 		{
 			return default(bool);
@@ -209,7 +209,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x846ED0", Offset = "0x8454D0", VA = "0x180846ED0", Slot = "2")]
+		[Address(RVA = "0x635B640", Offset = "0x635A640", VA = "0x635B640", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
@@ -217,7 +217,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x29940F0", Offset = "0x29926F0", VA = "0x1829940F0")]
+		[Address(RVA = "0x635B650", Offset = "0x635A650", VA = "0x635B650")]
 		public static bool operator ==(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -225,7 +225,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x2994140", Offset = "0x2992740", VA = "0x182994140")]
+		[Address(RVA = "0x635B660", Offset = "0x635A660", VA = "0x635B660")]
 		public static bool operator !=(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -233,7 +233,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x2994160", Offset = "0x2992760", VA = "0x182994160")]
+		[Address(RVA = "0x635B670", Offset = "0x635A670", VA = "0x635B670")]
 		public static bool operator <(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -241,7 +241,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x2994110", Offset = "0x2992710", VA = "0x182994110")]
+		[Address(RVA = "0x635B680", Offset = "0x635A680", VA = "0x635B680")]
 		public static bool operator >(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -249,7 +249,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x2994150", Offset = "0x2992750", VA = "0x182994150")]
+		[Address(RVA = "0x635B690", Offset = "0x635A690", VA = "0x635B690")]
 		public static bool operator <=(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -257,7 +257,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x2994100", Offset = "0x2992700", VA = "0x182994100")]
+		[Address(RVA = "0x635B6A0", Offset = "0x635A6A0", VA = "0x635B6A0")]
 		public static bool operator >=(AllocatorHandle lhs, AllocatorHandle rhs)
 		{
 			return default(bool);
@@ -265,7 +265,7 @@ public static class AllocatorManager
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600008F")]
-		[Address(RVA = "0x1A7BFA0", Offset = "0x1A7A5A0", VA = "0x181A7BFA0", Slot = "13")]
+		[Address(RVA = "0x635B6B0", Offset = "0x635A6B0", VA = "0x635B6B0", Slot = "13")]
 		public int CompareTo(AllocatorHandle other)
 		{
 			return default(int);
@@ -296,7 +296,7 @@ public static class AllocatorManager
 		public AllocatorHandle Allocator;
 
 		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x29B11A0", Offset = "0x29AF7A0", VA = "0x1829B11A0", Slot = "4")]
+		[Address(RVA = "0x635B6C0", Offset = "0x635A6C0", VA = "0x635B6C0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -337,7 +337,7 @@ public static class AllocatorManager
 		public long Bytes
 		{
 			[Token(Token = "0x6000091")]
-			[Address(RVA = "0x2997A10", Offset = "0x2996010", VA = "0x182997A10")]
+			[Address(RVA = "0x635A5B0", Offset = "0x63595B0", VA = "0x635A5B0")]
 			get
 			{
 				return default(long);
@@ -348,7 +348,7 @@ public static class AllocatorManager
 		public long AllocatedBytes
 		{
 			[Token(Token = "0x6000092")]
-			[Address(RVA = "0x2997A00", Offset = "0x2996000", VA = "0x182997A00")]
+			[Address(RVA = "0x635B7A0", Offset = "0x635A7A0", VA = "0x635B7A0")]
 			get
 			{
 				return default(long);
@@ -359,52 +359,52 @@ public static class AllocatorManager
 		public int Alignment
 		{
 			[Token(Token = "0x6000093")]
-			[Address(RVA = "0x29979F0", Offset = "0x2995FF0", VA = "0x1829979F0")]
+			[Address(RVA = "0x635A5C0", Offset = "0x63595C0", VA = "0x635A5C0")]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x6000094")]
-			[Address(RVA = "0x2997A20", Offset = "0x2996020", VA = "0x182997A20")]
+			[Address(RVA = "0x635B7B0", Offset = "0x635A7B0", VA = "0x635B7B0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000095")]
-		[Address(RVA = "0x29979A0", Offset = "0x2995FA0", VA = "0x1829979A0", Slot = "4")]
+		[Address(RVA = "0x635B740", Offset = "0x635A740", VA = "0x635B740", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x29977D0", Offset = "0x2995DD0", VA = "0x1829977D0")]
+		[Address(RVA = "0x635B850", Offset = "0x635A850", VA = "0x635B850")]
 		public int TryAllocate()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x29979A0", Offset = "0x2995FA0", VA = "0x1829979A0")]
+		[Address(RVA = "0x635B7F0", Offset = "0x635A7F0", VA = "0x635B7F0")]
 		public int TryFree()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x29977D0", Offset = "0x2995DD0", VA = "0x1829977D0")]
+		[Address(RVA = "0x635B8B0", Offset = "0x635A8B0", VA = "0x635B8B0")]
 		public void Allocate()
 		{
 		}
 
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x29979A0", Offset = "0x2995FA0", VA = "0x1829979A0")]
+		[Address(RVA = "0x635B910", Offset = "0x635A910", VA = "0x635B910")]
 		public void Free()
 		{
 		}
 
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x2997820", Offset = "0x2995E20", VA = "0x182997820")]
+		[Address(RVA = "0x635B970", Offset = "0x635A970", VA = "0x635B970")]
 		[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 		[Conditional("UNITY_DOTS_DEBUG")]
 		private void CheckFailedToAllocate(int error)
@@ -412,7 +412,7 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x29978E0", Offset = "0x2995EE0", VA = "0x1829978E0")]
+		[Address(RVA = "0x635BA30", Offset = "0x635AA30", VA = "0x635BA30")]
 		[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 		[Conditional("UNITY_DOTS_DEBUG")]
 		private void CheckFailedToFree(int error)
@@ -457,7 +457,7 @@ public static class AllocatorManager
 		bool IsAutoDispose
 		{
 			[Token(Token = "0x60000A2")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+			[Address(RVA = "0x635BAF0", Offset = "0x635AAF0", VA = "0x635BAF0", Slot = "6")]
 			get
 			{
 				return default(bool);
@@ -484,21 +484,21 @@ public static class AllocatorManager
 			private static IntPtr Pointer;
 
 			[Token(Token = "0x60000B1")]
-			[Address(RVA = "0x29B1F70", Offset = "0x29B0570", VA = "0x1829B1F70")]
+			[Address(RVA = "0x635BF90", Offset = "0x635AF90", VA = "0x635BF90")]
 			[BurstDiscard]
 			private static void GetFunctionPointerDiscard(ref IntPtr P_0)
 			{
 			}
 
 			[Token(Token = "0x60000B2")]
-			[Address(RVA = "0x29B20F0", Offset = "0x29B06F0", VA = "0x1829B20F0")]
+			[Address(RVA = "0x635C0F0", Offset = "0x635B0F0", VA = "0x635C0F0")]
 			private static IntPtr GetFunctionPointer()
 			{
 				return default(IntPtr);
 			}
 
 			[Token(Token = "0x60000B3")]
-			[Address(RVA = "0x29B1AA0", Offset = "0x29B00A0", VA = "0x1829B1AA0")]
+			[Address(RVA = "0x635BC50", Offset = "0x635AC50", VA = "0x635BC50")]
 			public static int Invoke(IntPtr allocatorState, ref Block block)
 			{
 				return default(int);
@@ -521,13 +521,13 @@ public static class AllocatorManager
 		public AllocatorHandle Handle
 		{
 			[Token(Token = "0x60000A3")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "6")]
+			[Address(RVA = "0x635BB10", Offset = "0x635AB10", VA = "0x635BB10", Slot = "6")]
 			get
 			{
 				return default(AllocatorHandle);
 			}
 			[Token(Token = "0x60000A4")]
-			[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+			[Address(RVA = "0x635BB20", Offset = "0x635AB20", VA = "0x635BB20", Slot = "7")]
 			set
 			{
 			}
@@ -537,7 +537,7 @@ public static class AllocatorManager
 		public Allocator ToAllocator
 		{
 			[Token(Token = "0x60000A5")]
-			[Address(RVA = "0x29940E0", Offset = "0x29926E0", VA = "0x1829940E0", Slot = "8")]
+			[Address(RVA = "0x635BB30", Offset = "0x635AB30", VA = "0x635BB30", Slot = "8")]
 			get
 			{
 				return default(Allocator);
@@ -548,7 +548,7 @@ public static class AllocatorManager
 		public bool IsCustomAllocator
 		{
 			[Token(Token = "0x60000A6")]
-			[Address(RVA = "0x2993F90", Offset = "0x2992590", VA = "0x182993F90", Slot = "9")]
+			[Address(RVA = "0x635BB40", Offset = "0x635AB40", VA = "0x635BB40", Slot = "9")]
 			get
 			{
 				return default(bool);
@@ -559,7 +559,7 @@ public static class AllocatorManager
 		public TryFunction Function
 		{
 			[Token(Token = "0x60000AA")]
-			[Address(RVA = "0x29B1D90", Offset = "0x29B0390", VA = "0x1829B1D90", Slot = "4")]
+			[Address(RVA = "0x635BD00", Offset = "0x635AD00", VA = "0x635BD00", Slot = "4")]
 			get
 			{
 				return null;
@@ -567,20 +567,20 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x29B1A50", Offset = "0x29B0050", VA = "0x1829B1A50")]
+		[Address(RVA = "0x635BB50", Offset = "0x635AB50", VA = "0x635BB50")]
 		public void Initialize(Block storage)
 		{
 		}
 
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x29B1C90", Offset = "0x29B0290", VA = "0x1829B1C90", Slot = "5")]
+		[Address(RVA = "0x635BB70", Offset = "0x635AB70", VA = "0x635BB70", Slot = "5")]
 		public int Try(ref Block block)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x29B1AA0", Offset = "0x29B00A0", VA = "0x1829B1AA0")]
+		[Address(RVA = "0x635BB00", Offset = "0x635AB00", VA = "0x635BB00")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(TryFunction))]
 		public static int Try(IntPtr allocatorState, ref Block block)
@@ -589,14 +589,14 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+		[Address(RVA = "0x635BDD0", Offset = "0x635ADD0", VA = "0x635BDD0", Slot = "11")]
 		public void Dispose()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x29B1A70", Offset = "0x29B0070", VA = "0x1829B1A70")]
+		[Address(RVA = "0x635BDE0", Offset = "0x635ADE0", VA = "0x635BDE0")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(TryFunction))]
 		internal static int Try_0024BurstManaged(IntPtr allocatorState, ref Block block)
@@ -621,21 +621,21 @@ public static class AllocatorManager
 			private static IntPtr Pointer;
 
 			[Token(Token = "0x60000C7")]
-			[Address(RVA = "0x29B2300", Offset = "0x29B0900", VA = "0x1829B2300")]
+			[Address(RVA = "0x635CEF0", Offset = "0x635BEF0", VA = "0x635CEF0")]
 			[BurstDiscard]
 			private static void GetFunctionPointerDiscard(ref IntPtr P_0)
 			{
 			}
 
 			[Token(Token = "0x60000C8")]
-			[Address(RVA = "0x29B2480", Offset = "0x29B0A80", VA = "0x1829B2480")]
+			[Address(RVA = "0x635D050", Offset = "0x635C050", VA = "0x635D050")]
 			private static IntPtr GetFunctionPointer()
 			{
 				return default(IntPtr);
 			}
 
 			[Token(Token = "0x60000C9")]
-			[Address(RVA = "0x29B1340", Offset = "0x29AF940", VA = "0x1829B1340")]
+			[Address(RVA = "0x635CBB0", Offset = "0x635BBB0", VA = "0x635CBB0")]
 			public static int Invoke(IntPtr allocatorState, ref Block block)
 			{
 				return default(int);
@@ -670,13 +670,13 @@ public static class AllocatorManager
 		public AllocatorHandle Handle
 		{
 			[Token(Token = "0x60000B4")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "6")]
+			[Address(RVA = "0x635C120", Offset = "0x635B120", VA = "0x635C120", Slot = "6")]
 			get
 			{
 				return default(AllocatorHandle);
 			}
 			[Token(Token = "0x60000B5")]
-			[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+			[Address(RVA = "0x635C130", Offset = "0x635B130", VA = "0x635C130", Slot = "7")]
 			set
 			{
 			}
@@ -686,7 +686,7 @@ public static class AllocatorManager
 		public Allocator ToAllocator
 		{
 			[Token(Token = "0x60000B6")]
-			[Address(RVA = "0x29940E0", Offset = "0x29926E0", VA = "0x1829940E0", Slot = "8")]
+			[Address(RVA = "0x635C140", Offset = "0x635B140", VA = "0x635C140", Slot = "8")]
 			get
 			{
 				return default(Allocator);
@@ -697,7 +697,7 @@ public static class AllocatorManager
 		public bool IsCustomAllocator
 		{
 			[Token(Token = "0x60000B7")]
-			[Address(RVA = "0x2993F90", Offset = "0x2992590", VA = "0x182993F90", Slot = "9")]
+			[Address(RVA = "0x635C150", Offset = "0x635B150", VA = "0x635C150", Slot = "9")]
 			get
 			{
 				return default(bool);
@@ -708,7 +708,7 @@ public static class AllocatorManager
 		public long BudgetInBytes
 		{
 			[Token(Token = "0x60000B8")]
-			[Address(RVA = "0x29B1770", Offset = "0x29AFD70", VA = "0x1829B1770")]
+			[Address(RVA = "0x635C160", Offset = "0x635B160", VA = "0x635C160")]
 			get
 			{
 				return default(long);
@@ -719,7 +719,7 @@ public static class AllocatorManager
 		public long AllocatedBytes
 		{
 			[Token(Token = "0x60000B9")]
-			[Address(RVA = "0x29B1760", Offset = "0x29AFD60", VA = "0x1829B1760")]
+			[Address(RVA = "0x635C170", Offset = "0x635B170", VA = "0x635C170")]
 			get
 			{
 				return default(long);
@@ -730,13 +730,13 @@ public static class AllocatorManager
 		internal int SlabSizeInBytes
 		{
 			[Token(Token = "0x60000BA")]
-			[Address(RVA = "0x29B1860", Offset = "0x29AFE60", VA = "0x1829B1860")]
+			[Address(RVA = "0x635C180", Offset = "0x635B180", VA = "0x635C180")]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60000BB")]
-			[Address(RVA = "0x29B1890", Offset = "0x29AFE90", VA = "0x1829B1890")]
+			[Address(RVA = "0x635C190", Offset = "0x635B190", VA = "0x635C190")]
 			set
 			{
 			}
@@ -746,7 +746,7 @@ public static class AllocatorManager
 		internal int Slabs
 		{
 			[Token(Token = "0x60000BC")]
-			[Address(RVA = "0x29B1870", Offset = "0x29AFE70", VA = "0x1829B1870")]
+			[Address(RVA = "0x635C1E0", Offset = "0x635B1E0", VA = "0x635C1E0")]
 			get
 			{
 				return default(int);
@@ -757,7 +757,7 @@ public static class AllocatorManager
 		public TryFunction Function
 		{
 			[Token(Token = "0x60000C0")]
-			[Address(RVA = "0x29B1780", Offset = "0x29AFD80", VA = "0x1829B1780", Slot = "4")]
+			[Address(RVA = "0x635CC60", Offset = "0x635BC60", VA = "0x635CC60", Slot = "4")]
 			get
 			{
 				return null;
@@ -765,20 +765,20 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x29B1220", Offset = "0x29AF820", VA = "0x1829B1220")]
+		[Address(RVA = "0x635C200", Offset = "0x635B200", VA = "0x635C200")]
 		internal void Initialize(Block storage, int slabSizeInBytes, long budget)
 		{
 		}
 
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x29B1530", Offset = "0x29AFB30", VA = "0x1829B1530", Slot = "5")]
+		[Address(RVA = "0x635C2F0", Offset = "0x635B2F0", VA = "0x635C2F0", Slot = "5")]
 		public int Try(ref Block block)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x29B1340", Offset = "0x29AF940", VA = "0x1829B1340")]
+		[Address(RVA = "0x635C110", Offset = "0x635B110", VA = "0x635C110")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(TryFunction))]
 		public static int Try(IntPtr allocatorState, ref Block block)
@@ -787,14 +787,14 @@ public static class AllocatorManager
 		}
 
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
+		[Address(RVA = "0x635CD30", Offset = "0x635BD30", VA = "0x635CD30", Slot = "11")]
 		public void Dispose()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x29B1310", Offset = "0x29AF910", VA = "0x1829B1310")]
+		[Address(RVA = "0x635CD40", Offset = "0x635BD40", VA = "0x635CD40")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(TryFunction))]
 		internal static int Try_0024BurstManaged(IntPtr allocatorState, ref Block block)
@@ -1086,7 +1086,7 @@ public static class AllocatorManager
 			internal static readonly SharedStatic<Long1024> Ref;
 
 			[Token(Token = "0x60000CE")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x635D080", Offset = "0x635C080", VA = "0x635D080")]
 			public IsInstalled()
 			{
 			}
@@ -1100,7 +1100,7 @@ public static class AllocatorManager
 			internal static readonly SharedStatic<Array32768<AllocatorManager.TableEntry>> Ref;
 
 			[Token(Token = "0x60000D0")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x635D0F0", Offset = "0x635C0F0", VA = "0x635D0F0")]
 			public TableEntry()
 			{
 			}
@@ -1114,14 +1114,14 @@ public static class AllocatorManager
 			internal static readonly SharedStatic<Long1024> Ref;
 
 			[Token(Token = "0x60000D2")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x635D160", Offset = "0x635C160", VA = "0x635D160")]
 			public IsAutoDispose()
 			{
 			}
 		}
 
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x635D070", Offset = "0x635C070", VA = "0x635D070")]
 		public SharedStatics()
 		{
 		}
@@ -1135,14 +1135,14 @@ public static class AllocatorManager
 		internal static TryFunction[] TryFunctionDelegates;
 
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x29B0F70", Offset = "0x29AF570", VA = "0x1829B0F70")]
+		[Address(RVA = "0x635AA50", Offset = "0x6359A50", VA = "0x635AA50")]
 		[ExcludeFromBurstCompatTesting("Uses managed delegate")]
 		public static void RegisterDelegate(int index, TryFunction function)
 		{
 		}
 
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x29B1050", Offset = "0x29AF650", VA = "0x1829B1050")]
+		[Address(RVA = "0x635D1D0", Offset = "0x635C1D0", VA = "0x635D1D0")]
 		[ExcludeFromBurstCompatTesting("Uses managed delegate")]
 		public static void UnregisterDelegate(int index)
 		{
@@ -1262,7 +1262,7 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2994170", Offset = "0x2992770", VA = "0x182994170")]
+	[Address(RVA = "0x6359F10", Offset = "0x6358F10", VA = "0x6359F10")]
 	public unsafe static void* Allocate(AllocatorHandle handle, int itemSizeInBytes, int alignmentInBytes, int items = 1)
 	{
 		//IL_0002: Expected I, but got O
@@ -1277,13 +1277,13 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x29942F0", Offset = "0x29928F0", VA = "0x1829942F0")]
+	[Address(RVA = "0x6359F90", Offset = "0x6358F90", VA = "0x6359F90")]
 	public unsafe static void Free(AllocatorHandle handle, void* pointer, int itemSizeInBytes, int alignmentInBytes, int items = 1)
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x2994380", Offset = "0x2992980", VA = "0x182994380")]
+	[Address(RVA = "0x635A010", Offset = "0x6359010", VA = "0x635A010")]
 	public unsafe static void Free(AllocatorHandle handle, void* pointer)
 	{
 	}
@@ -1294,81 +1294,81 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x29942D0", Offset = "0x29928D0", VA = "0x1829942D0")]
+	[Address(RVA = "0x635A080", Offset = "0x6359080", VA = "0x635A080")]
 	public static AllocatorHandle ConvertToAllocatorHandle(Allocator a)
 	{
 		return default(AllocatorHandle);
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x2994200", Offset = "0x2992800", VA = "0x182994200")]
+	[Address(RVA = "0x635A090", Offset = "0x6359090", VA = "0x635A090")]
 	[BurstDiscard]
 	private static void CheckDelegate(ref bool useDelegate)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2994F50", Offset = "0x2993550", VA = "0x182994F50")]
+	[Address(RVA = "0x635A0A0", Offset = "0x63590A0", VA = "0x635A0A0")]
 	private static bool UseDelegate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x29950E0", Offset = "0x29936E0", VA = "0x1829950E0")]
+	[Address(RVA = "0x635A0F0", Offset = "0x63590F0", VA = "0x635A0F0")]
 	private static int allocate_block(ref Block block)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2995170", Offset = "0x2993770", VA = "0x182995170")]
+	[Address(RVA = "0x635A2B0", Offset = "0x63592B0", VA = "0x635A2B0")]
 	[BurstDiscard]
 	private static void forward_mono_allocate_block(ref Block block, ref int error)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x29947A0", Offset = "0x2992DA0", VA = "0x1829947A0")]
+	[Address(RVA = "0x635A470", Offset = "0x6359470", VA = "0x635A470")]
 	internal static Allocator LegacyOf(AllocatorHandle handle)
 	{
 		return default(Allocator);
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2994AD0", Offset = "0x29930D0", VA = "0x182994AD0")]
+	[Address(RVA = "0x635A480", Offset = "0x6359480", VA = "0x635A480")]
 	private static int TryLegacy(ref Block block)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2994C30", Offset = "0x2993230", VA = "0x182994C30")]
+	[Address(RVA = "0x635A5E0", Offset = "0x63595E0", VA = "0x635A5E0")]
 	public static int Try(ref Block block)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x635A760", Offset = "0x6359760", VA = "0x635A760")]
 	public static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x29943F0", Offset = "0x29929F0", VA = "0x1829943F0")]
+	[Address(RVA = "0x635A770", Offset = "0x6359770", VA = "0x635A770")]
 	internal static void Install(AllocatorHandle handle, IntPtr allocatorState, FunctionPointer<TryFunction> functionPointer, TryFunction function, bool IsAutoDispose = false)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x29946D0", Offset = "0x2992CD0", VA = "0x1829946D0")]
+	[Address(RVA = "0x635AB20", Offset = "0x6359B20", VA = "0x635AB20")]
 	internal static void Install(AllocatorHandle handle, IntPtr allocatorState, TryFunction function)
 	{
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x29947B0", Offset = "0x2992DB0", VA = "0x1829947B0")]
+	[Address(RVA = "0x635ABF0", Offset = "0x6359BF0", VA = "0x635ABF0")]
 	internal static AllocatorHandle Register(IntPtr allocatorState, FunctionPointer<TryFunction> functionPointer, bool IsAutoDispose = false, bool isGlobal = false, int globalIndex = 0)
 	{
 		return default(AllocatorHandle);
@@ -1405,20 +1405,20 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x635AF00", Offset = "0x6359F00", VA = "0x635AF00")]
 	public static void Shutdown()
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x2994790", Offset = "0x2992D90", VA = "0x182994790")]
+	[Address(RVA = "0x635AF10", Offset = "0x6359F10", VA = "0x635AF10")]
 	internal static bool IsCustomAllocator(AllocatorHandle allocator)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x2994210", Offset = "0x2992810", VA = "0x182994210")]
+	[Address(RVA = "0x635AF20", Offset = "0x6359F20", VA = "0x635AF20")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckFailedToAllocate(int error)
@@ -1426,7 +1426,7 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x2994270", Offset = "0x2992870", VA = "0x182994270")]
+	[Address(RVA = "0x635AF70", Offset = "0x6359F70", VA = "0x635AF70")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckFailedToFree(int error)
@@ -1434,7 +1434,7 @@ public static class AllocatorManager
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x635AFC0", Offset = "0x6359FC0", VA = "0x635AFC0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckValid(AllocatorHandle handle)

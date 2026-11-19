@@ -21,13 +21,13 @@ public class Physics2DRaycaster : PhysicsRaycaster
 	private RaycastHit2D[] m_Hits;
 
 	[Token(Token = "0x6000793")]
-	[Address(RVA = "0x32FA490", Offset = "0x32F8A90", VA = "0x1832FA490")]
+	[Address(RVA = "0x6D156B0", Offset = "0x6D146B0", VA = "0x6D156B0")]
 	protected Physics2DRaycaster()
 	{
 	}
 
 	[Token(Token = "0x6000794")]
-	[Address(RVA = "0x32F9C50", Offset = "0x32F8250", VA = "0x1832F9C50", Slot = "17")]
+	[Address(RVA = "0x6D156F0", Offset = "0x6D146F0", VA = "0x6D156F0", Slot = "17")]
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
 	{
 	}

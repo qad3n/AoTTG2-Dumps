@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public class AndHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x2DC5CA0", Offset = "0x2DC42A0", VA = "0x182DC5CA0")]
+	[Address(RVA = "0x67C7700", Offset = "0x67C6700", VA = "0x67C7700")]
 	public AndHandler()
 	{
 	}

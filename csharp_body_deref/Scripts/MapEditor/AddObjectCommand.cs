@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: MapEditor.AddObjectCommand
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/MapEditor/AddObjectCommand.c
 // Prior real C# source (older reference): Assets/Scripts/MapEditor/Commands/AddObjectCommand.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,31 +11,31 @@ using Map;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000133")]
+[Token(Token = "0x200013B")]
 internal class AddObjectCommand : BaseCommand
 {
-	[Token(Token = "0x4000704")]
+	[Token(Token = "0x4000750")]
 	[FieldOffset(Offset = "0x10")]
 	private string _script;
 
-	[Token(Token = "0x4000705")]
+	[Token(Token = "0x4000751")]
 	[FieldOffset(Offset = "0x18")]
 	private int _insertAfterId;
 
-	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x21E9970", Offset = "0x21E7F70", VA = "0x1821E9970")]
+	[Token(Token = "0x6000672")]
+	[Address(RVA = "0x5B8AC50", Offset = "0x5B89C50", VA = "0x5B8AC50")]
 	public AddObjectCommand(List<MapScriptBaseObject> objs, int insertAfterId = -1)
 	{
 	}
 
-	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x21E91A0", Offset = "0x21E77A0", VA = "0x1821E91A0", Slot = "4")]
+	[Token(Token = "0x6000673")]
+	[Address(RVA = "0x5B8B2C0", Offset = "0x5B8A2C0", VA = "0x5B8B2C0", Slot = "4")]
 	public override void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000608")]
-	[Address(RVA = "0x21E97E0", Offset = "0x21E7DE0", VA = "0x1821E97E0", Slot = "5")]
+	[Token(Token = "0x6000674")]
+	[Address(RVA = "0x5B8B950", Offset = "0x5B8A950", VA = "0x5B8B950", Slot = "5")]
 	public override void Unexecute()
 	{
 	}

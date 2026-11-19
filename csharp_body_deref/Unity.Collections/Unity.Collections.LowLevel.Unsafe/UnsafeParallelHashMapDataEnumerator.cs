@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,21 +32,21 @@ internal struct UnsafeParallelHashMapDataEnumerator
 	internal int m_NextIndex;
 
 	[Token(Token = "0x6000C63")]
-	[Address(RVA = "0x15366A0", Offset = "0x1534CA0", VA = "0x1815366A0")]
+	[Address(RVA = "0x638D960", Offset = "0x638C960", VA = "0x638D960")]
 	internal unsafe UnsafeParallelHashMapDataEnumerator(UnsafeParallelHashMapData* data)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000C64")]
-	[Address(RVA = "0x29BF5D0", Offset = "0x29BDBD0", VA = "0x1829BF5D0")]
+	[Address(RVA = "0x638D980", Offset = "0x638C980", VA = "0x638D980")]
 	internal bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C65")]
-	[Address(RVA = "0x15325B0", Offset = "0x1530BB0", VA = "0x1815325B0")]
+	[Address(RVA = "0x638DA10", Offset = "0x638CA10", VA = "0x638DA10")]
 	internal void Reset()
 	{
 	}

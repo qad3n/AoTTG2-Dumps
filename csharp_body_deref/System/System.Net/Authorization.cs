@@ -9,51 +9,51 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002BF")]
+[Token(Token = "0x2000280")]
 public class Authorization
 {
-	[Token(Token = "0x4000A49")]
+	[Token(Token = "0x400097A")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_Message;
 
-	[Token(Token = "0x4000A4A")]
+	[Token(Token = "0x400097B")]
 	[FieldOffset(Offset = "0x18")]
 	private bool m_Complete;
 
-	[Token(Token = "0x4000A4B")]
+	[Token(Token = "0x400097C")]
 	[FieldOffset(Offset = "0x20")]
 	internal string ModuleAuthenticationType;
 
-	[Token(Token = "0x170003FF")]
+	[Token(Token = "0x170003D0")]
 	public string Message
 	{
-		[Token(Token = "0x6001377")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60011B9")]
+		[Address(RVA = "0x62A58C0", Offset = "0x62A48C0", VA = "0x62A58C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000400")]
+	[Token(Token = "0x170003D1")]
 	public bool Complete
 	{
-		[Token(Token = "0x6001378")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Token(Token = "0x60011BA")]
+		[Address(RVA = "0x62A58D0", Offset = "0x62A48D0", VA = "0x62A58D0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001375")]
-	[Address(RVA = "0x27BFFE0", Offset = "0x27BE5E0", VA = "0x1827BFFE0")]
+	[Token(Token = "0x60011B7")]
+	[Address(RVA = "0x62A57B0", Offset = "0x62A47B0", VA = "0x62A57B0")]
 	public Authorization(string token)
 	{
 	}
 
-	[Token(Token = "0x6001376")]
-	[Address(RVA = "0x27C0060", Offset = "0x27BE660", VA = "0x1827C0060")]
+	[Token(Token = "0x60011B8")]
+	[Address(RVA = "0x62A5840", Offset = "0x62A4840", VA = "0x62A5840")]
 	public Authorization(string token, bool finished)
 	{
 	}

@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D5")]
+[Token(Token = "0x2000096")]
 internal static class IOSelector
 {
 	[MethodImpl(MethodImplOptions.InternalCall)]
-	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x284C5E0", Offset = "0x284ABE0", VA = "0x18284C5E0")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x61DC810", Offset = "0x61DB810", VA = "0x61DC810")]
 	public static extern void Add(IntPtr handle, IOSelectorJob job);
 }

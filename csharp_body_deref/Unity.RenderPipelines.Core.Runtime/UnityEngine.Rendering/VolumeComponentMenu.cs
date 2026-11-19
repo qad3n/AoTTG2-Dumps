@@ -19,7 +19,7 @@ public class VolumeComponentMenu : Attribute
 	public readonly string menu;
 
 	[Token(Token = "0x6000EE2")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x6553ED0", Offset = "0x6552ED0", VA = "0x6553ED0")]
 	public VolumeComponentMenu(string menu)
 	{
 	}

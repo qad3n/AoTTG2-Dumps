@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000258")]
+[Token(Token = "0x2000259")]
 public interface IStrongBox
 {
-	[Token(Token = "0x1700025D")]
+	[Token(Token = "0x1700025F")]
 	object Value
 	{
-		[Token(Token = "0x6000BA3")]
+		[Token(Token = "0x6000BAE")]
 		get;
-		[Token(Token = "0x6000BA4")]
+		[Token(Token = "0x6000BAF")]
 		set;
 	}
 }

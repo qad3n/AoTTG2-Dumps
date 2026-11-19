@@ -26,7 +26,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override string Name
 			{
 				[Token(Token = "0x600251C")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B479D0", Offset = "0x6B469D0", VA = "0x6B479D0", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -38,7 +38,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x600251D")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B479E0", Offset = "0x6B469E0", VA = "0x6B479E0", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -47,20 +47,20 @@ public struct TextShadow : IEquatable<TextShadow>
 			}
 
 			[Token(Token = "0x600251E")]
-			[Address(RVA = "0x8EBC10", Offset = "0x8EA210", VA = "0x1808EBC10", Slot = "14")]
+			[Address(RVA = "0x6B479F0", Offset = "0x6B469F0", VA = "0x6B479F0", Slot = "14")]
 			public override Vector2 GetValue(ref TextShadow container)
 			{
 				return default(Vector2);
 			}
 
 			[Token(Token = "0x600251F")]
-			[Address(RVA = "0x310DC70", Offset = "0x310C270", VA = "0x18310DC70", Slot = "15")]
+			[Address(RVA = "0x6B47A00", Offset = "0x6B46A00", VA = "0x6B47A00", Slot = "15")]
 			public override void SetValue(ref TextShadow container, Vector2 value)
 			{
 			}
 
 			[Token(Token = "0x6002520")]
-			[Address(RVA = "0x313D330", Offset = "0x313B930", VA = "0x18313D330")]
+			[Address(RVA = "0x6B478B0", Offset = "0x6B468B0", VA = "0x6B478B0")]
 			public OffsetProperty()
 			{
 			}
@@ -73,7 +73,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override string Name
 			{
 				[Token(Token = "0x6002521")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B47A10", Offset = "0x6B46A10", VA = "0x6B47A10", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -85,7 +85,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002522")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B47A20", Offset = "0x6B46A20", VA = "0x6B47A20", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -94,20 +94,20 @@ public struct TextShadow : IEquatable<TextShadow>
 			}
 
 			[Token(Token = "0x6002523")]
-			[Address(RVA = "0x2FE96D0", Offset = "0x2FE7CD0", VA = "0x182FE96D0", Slot = "14")]
+			[Address(RVA = "0x6B47A30", Offset = "0x6B46A30", VA = "0x6B47A30", Slot = "14")]
 			public override float GetValue(ref TextShadow container)
 			{
 				return default(float);
 			}
 
 			[Token(Token = "0x6002524")]
-			[Address(RVA = "0x2FE96E0", Offset = "0x2FE7CE0", VA = "0x182FE96E0", Slot = "15")]
+			[Address(RVA = "0x6B47A40", Offset = "0x6B46A40", VA = "0x6B47A40", Slot = "15")]
 			public override void SetValue(ref TextShadow container, float value)
 			{
 			}
 
 			[Token(Token = "0x6002525")]
-			[Address(RVA = "0x313C5E0", Offset = "0x313ABE0", VA = "0x18313C5E0")]
+			[Address(RVA = "0x6B47910", Offset = "0x6B46910", VA = "0x6B47910")]
 			public BlurRadiusProperty()
 			{
 			}
@@ -120,7 +120,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override string Name
 			{
 				[Token(Token = "0x6002526")]
-				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+				[Address(RVA = "0x6B47A50", Offset = "0x6B46A50", VA = "0x6B47A50", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -132,7 +132,7 @@ public struct TextShadow : IEquatable<TextShadow>
 			public override bool IsReadOnly
 			{
 				[Token(Token = "0x6002527")]
-				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[Address(RVA = "0x6B47A60", Offset = "0x6B46A60", VA = "0x6B47A60", Slot = "13")]
 				[CompilerGenerated]
 				get
 				{
@@ -141,27 +141,27 @@ public struct TextShadow : IEquatable<TextShadow>
 			}
 
 			[Token(Token = "0x6002528")]
-			[Address(RVA = "0x313C650", Offset = "0x313AC50", VA = "0x18313C650", Slot = "14")]
+			[Address(RVA = "0x6B47A70", Offset = "0x6B46A70", VA = "0x6B47A70", Slot = "14")]
 			public override Color GetValue(ref TextShadow container)
 			{
 				return default(Color);
 			}
 
 			[Token(Token = "0x6002529")]
-			[Address(RVA = "0x313C660", Offset = "0x313AC60", VA = "0x18313C660", Slot = "15")]
+			[Address(RVA = "0x6B47A80", Offset = "0x6B46A80", VA = "0x6B47A80", Slot = "15")]
 			public override void SetValue(ref TextShadow container, Color value)
 			{
 			}
 
 			[Token(Token = "0x600252A")]
-			[Address(RVA = "0x313C670", Offset = "0x313AC70", VA = "0x18313C670")]
+			[Address(RVA = "0x6B47970", Offset = "0x6B46970", VA = "0x6B47970")]
 			public ColorProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600251B")]
-		[Address(RVA = "0x313D6B0", Offset = "0x313BCB0", VA = "0x18313D6B0")]
+		[Address(RVA = "0x6B47680", Offset = "0x6B46680", VA = "0x6B47680")]
 		public PropertyBag()
 		{
 		}
@@ -180,49 +180,49 @@ public struct TextShadow : IEquatable<TextShadow>
 	public Color color;
 
 	[Token(Token = "0x6002514")]
-	[Address(RVA = "0x3141940", Offset = "0x313FF40", VA = "0x183141940", Slot = "0")]
+	[Address(RVA = "0x6B47230", Offset = "0x6B46230", VA = "0x6B47230", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002515")]
-	[Address(RVA = "0x3141A50", Offset = "0x3140050", VA = "0x183141A50", Slot = "4")]
+	[Address(RVA = "0x6B47300", Offset = "0x6B46300", VA = "0x6B47300", Slot = "4")]
 	public bool Equals(TextShadow other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002516")]
-	[Address(RVA = "0x3141AE0", Offset = "0x31400E0", VA = "0x183141AE0", Slot = "2")]
+	[Address(RVA = "0x6B47380", Offset = "0x6B46380", VA = "0x6B47380", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002517")]
-	[Address(RVA = "0x3141DA0", Offset = "0x31403A0", VA = "0x183141DA0")]
+	[Address(RVA = "0x6B47420", Offset = "0x6B46420", VA = "0x6B47420")]
 	public static bool operator ==(TextShadow style1, TextShadow style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002518")]
-	[Address(RVA = "0x3141E30", Offset = "0x3140430", VA = "0x183141E30")]
+	[Address(RVA = "0x6B474B0", Offset = "0x6B464B0", VA = "0x6B474B0")]
 	public static bool operator !=(TextShadow style1, TextShadow style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002519")]
-	[Address(RVA = "0x3141CD0", Offset = "0x31402D0", VA = "0x183141CD0", Slot = "3")]
+	[Address(RVA = "0x6B47540", Offset = "0x6B46540", VA = "0x6B47540", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600251A")]
-	[Address(RVA = "0x3141B80", Offset = "0x3140180", VA = "0x183141B80")]
+	[Address(RVA = "0x6B47610", Offset = "0x6B46610", VA = "0x6B47610")]
 	internal static TextShadow LerpUnclamped(TextShadow a, TextShadow b, float t)
 	{
 		return default(TextShadow);

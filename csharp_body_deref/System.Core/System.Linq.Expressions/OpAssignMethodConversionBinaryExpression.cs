@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000048")]
+[Token(Token = "0x2000049")]
 internal sealed class OpAssignMethodConversionBinaryExpression : MethodBinaryExpression
 {
-	[Token(Token = "0x40000EC")]
+	[Token(Token = "0x40000F5")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly LambdaExpression _conversion;
 
-	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x2424830", Offset = "0x2422E30", VA = "0x182424830")]
+	[Token(Token = "0x60001DE")]
+	[Address(RVA = "0x5DAD220", Offset = "0x5DAC220", VA = "0x5DAD220")]
 	internal OpAssignMethodConversionBinaryExpression(ExpressionType nodeType, Expression left, Expression right, Type type, MethodInfo method, LambdaExpression conversion)
 	{
 	}
 
-	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "11")]
+	[Token(Token = "0x60001DF")]
+	[Address(RVA = "0x5DAD300", Offset = "0x5DAC300", VA = "0x5DAD300", Slot = "11")]
 	internal override LambdaExpression GetConversion()
 	{
 		return null;

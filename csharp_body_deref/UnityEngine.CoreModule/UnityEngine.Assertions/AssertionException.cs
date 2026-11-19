@@ -13,23 +13,23 @@ namespace UnityEngine.Assertions;
 [Token(Token = "0x200030E")]
 public class AssertionException : Exception
 {
-	[Token(Token = "0x40007BA")]
+	[Token(Token = "0x40007B8")]
 	[FieldOffset(Offset = "0x90")]
 	private string m_UserMessage;
 
-	[Token(Token = "0x170002E8")]
+	[Token(Token = "0x170002ED")]
 	public override string Message
 	{
-		[Token(Token = "0x6001266")]
-		[Address(RVA = "0x2F2E820", Offset = "0x2F2CE20", VA = "0x182F2E820", Slot = "5")]
+		[Token(Token = "0x600127A")]
+		[Address(RVA = "0x693C160", Offset = "0x693B160", VA = "0x693C160", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001265")]
-	[Address(RVA = "0x2F2E7A0", Offset = "0x2F2CDA0", VA = "0x182F2E7A0")]
+	[Token(Token = "0x6001279")]
+	[Address(RVA = "0x693B8E0", Offset = "0x693A8E0", VA = "0x693B8E0")]
 	public AssertionException(string message, string userMessage)
 	{
 	}

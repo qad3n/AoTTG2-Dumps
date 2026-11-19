@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000688")]
+[Token(Token = "0x20006E7")]
 internal class SupplySpecial : BaseEmoteSpecial
 {
-	[Token(Token = "0x17000B30")]
+	[Token(Token = "0x17000B7A")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6004051")]
-		[Address(RVA = "0x21779B0", Offset = "0x2175FB0", VA = "0x1821779B0", Slot = "14")]
+		[Token(Token = "0x60042E9")]
+		[Address(RVA = "0x5B0F6A0", Offset = "0x5B0E6A0", VA = "0x5B0F6A0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B31")]
+	[Token(Token = "0x17000B7B")]
 	protected override bool GroundedOnly
 	{
-		[Token(Token = "0x6004052")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "17")]
+		[Token(Token = "0x60042EA")]
+		[Address(RVA = "0x5B0F6B0", Offset = "0x5B0E6B0", VA = "0x5B0F6B0", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004053")]
-	[Address(RVA = "0x2177970", Offset = "0x2175F70", VA = "0x182177970")]
+	[Token(Token = "0x60042EB")]
+	[Address(RVA = "0x5B0F6C0", Offset = "0x5B0E6C0", VA = "0x5B0F6C0")]
 	public SupplySpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6004054")]
-	[Address(RVA = "0x2177580", Offset = "0x2175B80", VA = "0x182177580", Slot = "9")]
+	[Token(Token = "0x60042EC")]
+	[Address(RVA = "0x5B0F700", Offset = "0x5B0E700", VA = "0x5B0F700", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004055")]
-	[Address(RVA = "0x2177600", Offset = "0x2175C00", VA = "0x182177600", Slot = "6")]
+	[Token(Token = "0x60042ED")]
+	[Address(RVA = "0x5B0F770", Offset = "0x5B0E770", VA = "0x5B0F770", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004056")]
-	[Address(RVA = "0x2177690", Offset = "0x2175C90", VA = "0x182177690", Slot = "10")]
+	[Token(Token = "0x60042EE")]
+	[Address(RVA = "0x5B0F800", Offset = "0x5B0E800", VA = "0x5B0F800", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6004057")]
-	[Address(RVA = "0x2177940", Offset = "0x2175F40", VA = "0x182177940", Slot = "5")]
+	[Token(Token = "0x60042EF")]
+	[Address(RVA = "0x5B0FA30", Offset = "0x5B0EA30", VA = "0x5B0FA30", Slot = "5")]
 	public override void Reset()
 	{
 	}

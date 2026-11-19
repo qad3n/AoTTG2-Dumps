@@ -16,379 +16,379 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Overlays;
 
-[Token(Token = "0x200004C")]
+[Token(Token = "0x2000053")]
 public sealed class GisketchToastManager
 {
-	[Token(Token = "0x200004D")]
+	[Token(Token = "0x2000054")]
 	private sealed class ToastItem
 	{
-		[Token(Token = "0x4000185")]
+		[Token(Token = "0x40001AA")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly string Key;
 
-		[Token(Token = "0x4000186")]
+		[Token(Token = "0x40001AB")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly GisketchView View;
 
-		[Token(Token = "0x4000187")]
+		[Token(Token = "0x40001AC")]
 		[FieldOffset(Offset = "0x20")]
 		public readonly RectTransform Slot;
 
-		[Token(Token = "0x4000188")]
+		[Token(Token = "0x40001AD")]
 		[FieldOffset(Offset = "0x28")]
 		public float Height;
 
-		[Token(Token = "0x4000189")]
+		[Token(Token = "0x40001AE")]
 		[FieldOffset(Offset = "0x2C")]
 		public bool LayoutDirty;
 
-		[Token(Token = "0x60002D6")]
-		[Address(RVA = "0x18D9050", Offset = "0x18D7650", VA = "0x1818D9050")]
+		[Token(Token = "0x6000322")]
+		[Address(RVA = "0x525C880", Offset = "0x525B880", VA = "0x525C880")]
 		public ToastItem(string key, GisketchView view, RectTransform slot, float height)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000174")]
+	[Token(Token = "0x4000199")]
 	private const int MaxToasts = 3;
 
-	[Token(Token = "0x4000175")]
+	[Token(Token = "0x400019A")]
 	private const float ToastWidth = 560f;
 
-	[Token(Token = "0x4000176")]
+	[Token(Token = "0x400019B")]
 	private const float ToastBodyWidth = 520f;
 
-	[Token(Token = "0x4000177")]
+	[Token(Token = "0x400019C")]
 	private const float ToastMinHeight = 96f;
 
-	[Token(Token = "0x4000178")]
+	[Token(Token = "0x400019D")]
 	private const float ToastDismissAllHeight = 168f;
 
-	[Token(Token = "0x4000179")]
+	[Token(Token = "0x400019E")]
 	private const float ToastMaxHeight = 180f;
 
-	[Token(Token = "0x400017A")]
+	[Token(Token = "0x400019F")]
 	private const float ToastExpandedGap = 8f;
 
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x40001A0")]
 	private const float ToastCollapsedStep = 14f;
 
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x40001A1")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Transform _layer;
 
-	[Token(Token = "0x400017D")]
+	[Token(Token = "0x40001A2")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly GisketchBuildContext _context;
 
-	[Token(Token = "0x400017E")]
+	[Token(Token = "0x40001A3")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<ToastItem> _items;
 
-	[Token(Token = "0x400017F")]
+	[Token(Token = "0x40001A4")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly List<AottgToastDefinition> _pending;
 
-	[Token(Token = "0x4000180")]
+	[Token(Token = "0x40001A5")]
 	[FieldOffset(Offset = "0x30")]
 	private GameObject _host;
 
-	[Token(Token = "0x4000181")]
+	[Token(Token = "0x40001A6")]
 	[FieldOffset(Offset = "0x38")]
 	private RectTransform _stack;
 
-	[Token(Token = "0x4000182")]
+	[Token(Token = "0x40001A7")]
 	[FieldOffset(Offset = "0x40")]
 	private Tween _stackTween;
 
-	[Token(Token = "0x4000183")]
+	[Token(Token = "0x40001A8")]
 	[FieldOffset(Offset = "0x48")]
 	private bool _expanded;
 
-	[Token(Token = "0x4000184")]
+	[Token(Token = "0x40001A9")]
 	[FieldOffset(Offset = "0x4C")]
 	private float _expandedStackHeight;
 
-	[Token(Token = "0x60002AA")]
-	[Address(RVA = "0x18B8B80", Offset = "0x18B7180", VA = "0x1818B8B80")]
+	[Token(Token = "0x60002F6")]
+	[Address(RVA = "0x5259210", Offset = "0x5258210", VA = "0x5259210")]
 	private static GisketchNodeDefinition ToastNode(AottgToastDefinition toast)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x18B93B0", Offset = "0x18B79B0", VA = "0x1818B93B0")]
+	[Token(Token = "0x60002F7")]
+	[Address(RVA = "0x52598D0", Offset = "0x52588D0", VA = "0x52598D0")]
 	private static GisketchNodeDefinition ToastTitle(AottgToastDefinition toast, string variant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x18B6230", Offset = "0x18B4830", VA = "0x1818B6230")]
+	[Token(Token = "0x60002F8")]
+	[Address(RVA = "0x5259F60", Offset = "0x5258F60", VA = "0x5259F60")]
 	private static Button Button(GameObject root, string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x18B6CD0", Offset = "0x18B52D0", VA = "0x1818B6CD0")]
+	[Token(Token = "0x60002F9")]
+	[Address(RVA = "0x525A040", Offset = "0x5259040", VA = "0x525A040")]
 	private static Transform FindDeep(Transform root, string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x18B76A0", Offset = "0x18B5CA0", VA = "0x1818B76A0")]
+	[Token(Token = "0x60002FA")]
+	[Address(RVA = "0x525A3B0", Offset = "0x52593B0", VA = "0x525A3B0")]
 	private static string Key(AottgToastDefinition toast)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002AF")]
-	[Address(RVA = "0x18B7D50", Offset = "0x18B6350", VA = "0x1818B7D50")]
+	[Token(Token = "0x60002FB")]
+	[Address(RVA = "0x5259E00", Offset = "0x5258E00", VA = "0x5259E00")]
 	private static GisketchLayoutDefinition Row(float gap)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002B0")]
-	[Address(RVA = "0x18B6720", Offset = "0x18B4D20", VA = "0x1818B6720")]
+	[Token(Token = "0x60002FC")]
+	[Address(RVA = "0x5259EB0", Offset = "0x5258EB0", VA = "0x5259EB0")]
 	private static GisketchLayoutDefinition Column(float gap)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002B1")]
-	[Address(RVA = "0x18B5A20", Offset = "0x18B4020", VA = "0x1818B5A20")]
+	[Token(Token = "0x60002FD")]
+	[Address(RVA = "0x525A570", Offset = "0x5259570", VA = "0x525A570")]
 	private void ApplyStack(bool animate)
 	{
 	}
 
-	[Token(Token = "0x60002B2")]
-	[Address(RVA = "0x18B5970", Offset = "0x18B3F70", VA = "0x1818B5970")]
+	[Token(Token = "0x60002FE")]
+	[Address(RVA = "0x525AAD0", Offset = "0x5259AD0", VA = "0x525AAD0")]
 	private float AppliedStackHeight()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60002B3")]
-	[Address(RVA = "0x18B8110", Offset = "0x18B6710", VA = "0x1818B8110")]
+	[Token(Token = "0x60002FF")]
+	[Address(RVA = "0x525ADA0", Offset = "0x5259DA0", VA = "0x525ADA0")]
 	private static void SetSlot(RectTransform rect, Vector2 position, Vector3 scale)
 	{
 	}
 
-	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x18B57C0", Offset = "0x18B3DC0", VA = "0x1818B57C0")]
+	[Token(Token = "0x6000300")]
+	[Address(RVA = "0x525AC20", Offset = "0x5259C20", VA = "0x525AC20")]
 	private static void AnimateSlot(Sequence sequence, RectTransform rect, Vector2 position, Vector3 scale)
 	{
 	}
 
-	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x18B8960", Offset = "0x18B6F60", VA = "0x1818B8960")]
+	[Token(Token = "0x6000301")]
+	[Address(RVA = "0x525ADE0", Offset = "0x5259DE0", VA = "0x525ADE0")]
 	private float StackHeight()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x18B6FA0", Offset = "0x18B55A0", VA = "0x1818B6FA0")]
+	[Token(Token = "0x6000302")]
+	[Address(RVA = "0x525ABA0", Offset = "0x5259BA0", VA = "0x525ABA0")]
 	private float HeightAt(int index)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x18B8B40", Offset = "0x18B7140", VA = "0x1818B8B40")]
+	[Token(Token = "0x6000303")]
+	[Address(RVA = "0x525B050", Offset = "0x525A050", VA = "0x525B050")]
 	private static float ToastHeight(bool showDismissAll)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60002B8")]
-	[Address(RVA = "0x18B7900", Offset = "0x18B5F00", VA = "0x1818B7900")]
+	[Token(Token = "0x6000304")]
+	[Address(RVA = "0x525B070", Offset = "0x525A070", VA = "0x525B070")]
 	private void RefreshDismissAllButtons()
 	{
 	}
 
-	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x18B6670", Offset = "0x18B4C70", VA = "0x1818B6670")]
+	[Token(Token = "0x6000305")]
+	[Address(RVA = "0x525AB00", Offset = "0x5259B00", VA = "0x525AB00")]
 	private float CollapsedY(int index)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x18B7FC0", Offset = "0x18B65C0", VA = "0x1818B7FC0")]
+	[Token(Token = "0x6000306")]
+	[Address(RVA = "0x525B320", Offset = "0x525A320", VA = "0x525B320")]
 	private static void SetSlotHeight(ToastItem item, float height)
 	{
 	}
 
-	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x18B6B60", Offset = "0x18B5160", VA = "0x1818B6B60")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x525B470", Offset = "0x525A470", VA = "0x525B470")]
 	private static void DestroySlot(RectTransform slot)
 	{
 	}
 
-	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x18B6F10", Offset = "0x18B5510", VA = "0x1818B6F10")]
+	[Token(Token = "0x6000308")]
+	[Address(RVA = "0x525B570", Offset = "0x525A570", VA = "0x525B570")]
 	private void FinishClose(RectTransform slot)
 	{
 	}
 
-	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x18B98B0", Offset = "0x18B7EB0", VA = "0x1818B98B0")]
+	[Token(Token = "0x6000309")]
+	[Address(RVA = "0x525B730", Offset = "0x525A730", VA = "0x525B730")]
 	private bool UpdateVisible(AottgToastDefinition toast, string key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x18B97D0", Offset = "0x18B7DD0", VA = "0x1818B97D0")]
+	[Token(Token = "0x600030A")]
+	[Address(RVA = "0x525BBB0", Offset = "0x525ABB0", VA = "0x525BBB0")]
 	private bool UpdatePending(AottgToastDefinition toast, string key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x18B6F70", Offset = "0x18B5570", VA = "0x1818B6F70")]
+	[Token(Token = "0x600030B")]
+	[Address(RVA = "0x525A550", Offset = "0x5259550", VA = "0x525A550")]
 	private static bool HasUpdateKey(AottgToastDefinition toast)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x18B75F0", Offset = "0x18B5BF0", VA = "0x1818B75F0")]
+	[Token(Token = "0x600030C")]
+	[Address(RVA = "0x525BC20", Offset = "0x525AC20", VA = "0x525BC20")]
 	private static int IndexOf(List<AottgToastDefinition> list, string key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x18B9BA0", Offset = "0x18B81A0", VA = "0x1818B9BA0")]
+	[Token(Token = "0x600030D")]
+	[Address(RVA = "0x525BCC0", Offset = "0x525ACC0", VA = "0x525BCC0")]
 	public GisketchToastManager(Transform layer, GisketchBuildContext context)
 	{
 	}
 
-	[Token(Token = "0x60002C2")]
-	[Address(RVA = "0x18B8320", Offset = "0x18B6920", VA = "0x1818B8320")]
+	[Token(Token = "0x600030E")]
+	[Address(RVA = "0x525BDC0", Offset = "0x525ADC0", VA = "0x525BDC0")]
 	public void Show(AottgToastDefinition toast)
 	{
 	}
 
-	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x18B6390", Offset = "0x18B4990", VA = "0x1818B6390")]
+	[Token(Token = "0x600030F")]
+	[Address(RVA = "0x525C230", Offset = "0x525B230", VA = "0x525C230")]
 	public void Close(bool animate)
 	{
 	}
 
-	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x18B56F0", Offset = "0x18B3CF0", VA = "0x1818B56F0")]
+	[Token(Token = "0x6000310")]
+	[Address(RVA = "0x525C160", Offset = "0x525B160", VA = "0x525C160")]
 	private void AddVisible(AottgToastDefinition toast, int index)
 	{
 	}
 
-	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x18B5F50", Offset = "0x18B4550", VA = "0x1818B5F50")]
+	[Token(Token = "0x6000311")]
+	[Address(RVA = "0x525B8B0", Offset = "0x525A8B0", VA = "0x525B8B0")]
 	private ToastItem BuildToast(AottgToastDefinition toast)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x18B99C0", Offset = "0x18B7FC0", VA = "0x1818B99C0")]
+	[Token(Token = "0x6000312")]
+	[Address(RVA = "0x525C690", Offset = "0x525B690", VA = "0x525C690")]
 	private void Wire(GameObject root, AottgToastDefinition toast)
 	{
 	}
 
-	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x18B6400", Offset = "0x18B4A00", VA = "0x1818B6400")]
+	[Token(Token = "0x6000313")]
+	[Address(RVA = "0x525C900", Offset = "0x525B900", VA = "0x525C900")]
 	private void Close(AottgToastDefinition toast)
 	{
 	}
 
-	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x18B6310", Offset = "0x18B4910", VA = "0x1818B6310")]
+	[Token(Token = "0x6000314")]
+	[Address(RVA = "0x525CC60", Offset = "0x525BC60", VA = "0x525CC60")]
 	private void CloseAll()
 	{
 	}
 
-	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x18B7E00", Offset = "0x18B6400", VA = "0x1818B7E00")]
+	[Token(Token = "0x6000315")]
+	[Address(RVA = "0x525CCC0", Offset = "0x525BCC0", VA = "0x525CCC0")]
 	private void SetExpanded(bool expanded)
 	{
 	}
 
-	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x18B7830", Offset = "0x18B5E30", VA = "0x1818B7830")]
+	[Token(Token = "0x6000316")]
+	[Address(RVA = "0x525CB90", Offset = "0x525BB90", VA = "0x525CB90")]
 	private void PromotePending()
 	{
 	}
 
-	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x18B59B0", Offset = "0x18B3FB0", VA = "0x1818B59B0")]
+	[Token(Token = "0x6000317")]
+	[Address(RVA = "0x525BFA0", Offset = "0x525AFA0", VA = "0x525BFA0")]
 	private void ApplyCurrentLayout(bool animate)
 	{
 	}
 
-	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x18B8160", Offset = "0x18B6760", VA = "0x1818B8160")]
+	[Token(Token = "0x6000318")]
+	[Address(RVA = "0x525CEC0", Offset = "0x525BEC0", VA = "0x525CEC0")]
 	private void SettleVisibleLayouts()
 	{
 	}
 
-	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x18B6C50", Offset = "0x18B5250", VA = "0x1818B6C50")]
+	[Token(Token = "0x6000319")]
+	[Address(RVA = "0x525C290", Offset = "0x525B290", VA = "0x525C290")]
 	private void EnsureHost()
 	{
 	}
 
-	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x18B7BE0", Offset = "0x18B61E0", VA = "0x1818B7BE0")]
+	[Token(Token = "0x600031A")]
+	[Address(RVA = "0x525C010", Offset = "0x525B010", VA = "0x525C010")]
 	private void RemoveVisible(string key)
 	{
 	}
 
-	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x18B7C90", Offset = "0x18B6290", VA = "0x1818B7C90")]
+	[Token(Token = "0x600031B")]
+	[Address(RVA = "0x525C0B0", Offset = "0x525B0B0", VA = "0x525C0B0")]
 	private static void Remove(List<AottgToastDefinition> list, string key)
 	{
 	}
 
-	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x18B7540", Offset = "0x18B5B40", VA = "0x1818B7540")]
+	[Token(Token = "0x600031C")]
+	[Address(RVA = "0x525B810", Offset = "0x525A810", VA = "0x525B810")]
 	private static int IndexOf(List<ToastItem> list, string key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x18B6A00", Offset = "0x18B5000", VA = "0x1818B6A00")]
+	[Token(Token = "0x600031D")]
+	[Address(RVA = "0x525B5D0", Offset = "0x525A5D0", VA = "0x525B5D0")]
 	private void DestroyHost()
 	{
 	}
 
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x18B7030", Offset = "0x18B5630", VA = "0x1818B7030")]
+	[Token(Token = "0x600031E")]
+	[Address(RVA = "0x525D0C0", Offset = "0x525C0C0", VA = "0x525D0C0")]
 	private GameObject Host()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x18B8730", Offset = "0x18B6D30", VA = "0x1818B8730")]
+	[Token(Token = "0x600031F")]
+	[Address(RVA = "0x525C320", Offset = "0x525B320", VA = "0x525C320")]
 	private static GameObject Slot(RectTransform parent, float height)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x18B67E0", Offset = "0x18B4DE0", VA = "0x1818B67E0")]
+	[Token(Token = "0x6000320")]
+	[Address(RVA = "0x525C530", Offset = "0x525B530", VA = "0x525C530")]
 	private void ConfigureToastRoot(GameObject root, float height)
 	{
 	}
 
-	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x18B9300", Offset = "0x18B7900", VA = "0x1818B9300")]
+	[Token(Token = "0x6000321")]
+	[Address(RVA = "0x525D580", Offset = "0x525C580", VA = "0x525D580")]
 	private float ToastRootWidth()
 	{
 		return default(float);

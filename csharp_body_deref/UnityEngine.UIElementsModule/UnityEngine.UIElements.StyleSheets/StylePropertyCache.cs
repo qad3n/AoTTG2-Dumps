@@ -24,14 +24,14 @@ internal static class StylePropertyCache
 	internal static readonly Dictionary<string, string> s_NonTerminalValues;
 
 	[Token(Token = "0x6002D31")]
-	[Address(RVA = "0x31C63D0", Offset = "0x31C49D0", VA = "0x1831C63D0")]
+	[Address(RVA = "0x6BCCCC0", Offset = "0x6BCBCC0", VA = "0x6BCCCC0")]
 	public static bool TryGetSyntax(string name, out string syntax)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D32")]
-	[Address(RVA = "0x31C6340", Offset = "0x31C4940", VA = "0x1831C6340")]
+	[Address(RVA = "0x6BCCD60", Offset = "0x6BCBD60", VA = "0x6BCCD60")]
 	public static bool TryGetNonTerminalValue(string name, out string syntax)
 	{
 		return default(bool);

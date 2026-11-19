@@ -25,7 +25,7 @@ public class AnalyticsIdentifier
 	public int Hashcode;
 
 	[Token(Token = "0x600103A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x684A860", Offset = "0x6849860", VA = "0x684A860")]
 	public AnalyticsIdentifier()
 	{
 	}

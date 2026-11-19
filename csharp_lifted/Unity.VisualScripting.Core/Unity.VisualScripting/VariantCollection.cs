@@ -1,0 +1,172 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.VariantCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x200002A")]
+public class VariantCollection<TBase, TImplementation> : ICollection<TBase>, IEnumerable<TBase>, IEnumerable where TImplementation : TBase
+{
+	[Token(Token = "0x200002B")]
+	[CompilerGenerated]
+	private sealed class _003CGetEnumerator_003Ed__10 : IEnumerator<TBase>, IEnumerator, IDisposable
+	{
+		[Token(Token = "0x4000036")]
+		[FieldOffset(Offset = "0x0")]
+		private int _003C_003E1__state;
+
+		[Token(Token = "0x4000037")]
+		[FieldOffset(Offset = "0x0")]
+		private TBase _003C_003E2__current;
+
+		[Token(Token = "0x4000038")]
+		[FieldOffset(Offset = "0x0")]
+		public VariantCollection<TBase, TImplementation> _003C_003E4__this;
+
+		[Token(Token = "0x4000039")]
+		[FieldOffset(Offset = "0x0")]
+		private IEnumerator<TImplementation> _003C_003E7__wrap1;
+
+		[Token(Token = "0x17000047")]
+		private TBase System_002ECollections_002EGeneric_002EIEnumerator_003CTBase_003E_002ECurrent
+		{
+			[Token(Token = "0x6000175")]
+			[DebuggerHidden]
+			get
+			{
+				return (TBase)null;
+			}
+		}
+
+		[Token(Token = "0x17000048")]
+		private object System_002ECollections_002EIEnumerator_002ECurrent
+		{
+			[Token(Token = "0x6000177")]
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x6000171")]
+		[DebuggerHidden]
+		public _003CGetEnumerator_003Ed__10(int _003C_003E1__state)
+		{
+		}
+
+		[Token(Token = "0x6000172")]
+		[DebuggerHidden]
+		private void System_002EIDisposable_002EDispose()
+		{
+		}
+
+		[Token(Token = "0x6000173")]
+		private bool MoveNext()
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6000174")]
+		private void _003C_003Em__Finally1()
+		{
+		}
+
+		[Token(Token = "0x6000176")]
+		[DebuggerHidden]
+		private void System_002ECollections_002EIEnumerator_002EReset()
+		{
+		}
+	}
+
+	[Token(Token = "0x17000044")]
+	public ICollection<TImplementation> implementation
+	{
+		[Token(Token = "0x6000166")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000167")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000045")]
+	public int Count
+	{
+		[Token(Token = "0x6000168")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000046")]
+	public bool IsReadOnly
+	{
+		[Token(Token = "0x6000169")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6000165")]
+	public VariantCollection(ICollection<TImplementation> implementation)
+	{
+	}
+
+	[Token(Token = "0x600016A")]
+	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600016B")]
+	[IteratorStateMachine(typeof(VariantCollection<, >._003CGetEnumerator_003Ed__10))]
+	public IEnumerator<TBase> GetEnumerator()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600016C")]
+	public void Add(TBase item)
+	{
+	}
+
+	[Token(Token = "0x600016D")]
+	public void Clear()
+	{
+	}
+
+	[Token(Token = "0x600016E")]
+	public bool Contains(TBase item)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600016F")]
+	public bool Remove(TBase item)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000170")]
+	public void CopyTo(TBase[] array, int arrayIndex)
+	{
+	}
+}

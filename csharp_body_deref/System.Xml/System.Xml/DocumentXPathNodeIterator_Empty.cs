@@ -21,7 +21,7 @@ internal sealed class DocumentXPathNodeIterator_Empty : XPathNodeIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
+		[Address(RVA = "0x60CA1B0", Offset = "0x60C91B0", VA = "0x60CA1B0", Slot = "8")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ internal sealed class DocumentXPathNodeIterator_Empty : XPathNodeIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x600078D")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
+		[Address(RVA = "0x60CA1C0", Offset = "0x60C91C0", VA = "0x60CA1C0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -43,7 +43,7 @@ internal sealed class DocumentXPathNodeIterator_Empty : XPathNodeIterator
 	public override int Count
 	{
 		[Token(Token = "0x600078E")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+		[Address(RVA = "0x60CA1D0", Offset = "0x60C91D0", VA = "0x60CA1D0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -51,26 +51,26 @@ internal sealed class DocumentXPathNodeIterator_Empty : XPathNodeIterator
 	}
 
 	[Token(Token = "0x6000788")]
-	[Address(RVA = "0x270B260", Offset = "0x2709860", VA = "0x18270B260")]
+	[Address(RVA = "0x60C9B90", Offset = "0x60C8B90", VA = "0x60C9B90")]
 	internal DocumentXPathNodeIterator_Empty(DocumentXPathNavigator nav)
 	{
 	}
 
 	[Token(Token = "0x6000789")]
-	[Address(RVA = "0x270B2B0", Offset = "0x27098B0", VA = "0x18270B2B0")]
+	[Address(RVA = "0x60CA0D0", Offset = "0x60C90D0", VA = "0x60CA0D0")]
 	internal DocumentXPathNodeIterator_Empty(DocumentXPathNodeIterator_Empty other)
 	{
 	}
 
 	[Token(Token = "0x600078A")]
-	[Address(RVA = "0x270B1D0", Offset = "0x27097D0", VA = "0x18270B1D0", Slot = "6")]
+	[Address(RVA = "0x60CA120", Offset = "0x60C9120", VA = "0x60CA120", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600078B")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+	[Address(RVA = "0x60CA1A0", Offset = "0x60C91A0", VA = "0x60CA1A0", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

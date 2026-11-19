@@ -10,43 +10,43 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200030F")]
+[Token(Token = "0x20002D0")]
 public class AuthenticationManager
 {
-	[Token(Token = "0x4000BBF")]
+	[Token(Token = "0x4000AF0")]
 	[FieldOffset(Offset = "0x0")]
 	private static ArrayList modules;
 
-	[Token(Token = "0x4000BC0")]
+	[Token(Token = "0x4000AF1")]
 	[FieldOffset(Offset = "0x8")]
 	private static object locker;
 
-	[Token(Token = "0x4000BC1")]
+	[Token(Token = "0x4000AF2")]
 	[FieldOffset(Offset = "0x10")]
 	private static ICredentialPolicy credential_policy;
 
-	[Token(Token = "0x6001534")]
-	[Address(RVA = "0x27DB9D0", Offset = "0x27D9FD0", VA = "0x1827DB9D0")]
+	[Token(Token = "0x6001376")]
+	[Address(RVA = "0x617EC20", Offset = "0x617DC20", VA = "0x617EC20")]
 	private static void EnsureModules()
 	{
 	}
 
-	[Token(Token = "0x6001535")]
-	[Address(RVA = "0x27DB590", Offset = "0x27D9B90", VA = "0x1827DB590")]
+	[Token(Token = "0x6001377")]
+	[Address(RVA = "0x617EF90", Offset = "0x617DF90", VA = "0x617EF90")]
 	public static Authorization Authenticate(string challenge, WebRequest request, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001536")]
-	[Address(RVA = "0x27DB6F0", Offset = "0x27D9CF0", VA = "0x1827DB6F0")]
+	[Token(Token = "0x6001378")]
+	[Address(RVA = "0x617F080", Offset = "0x617E080", VA = "0x617F080")]
 	private static Authorization DoAuthenticate(string challenge, WebRequest request, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001537")]
-	[Address(RVA = "0x27DBCB0", Offset = "0x27DA2B0", VA = "0x1827DBCB0")]
+	[Token(Token = "0x6001379")]
+	[Address(RVA = "0x617F5A0", Offset = "0x617E5A0", VA = "0x617F5A0")]
 	public static Authorization PreAuthenticate(WebRequest request, ICredentials credentials)
 	{
 		return null;

@@ -15,109 +15,109 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200034A")]
+[Token(Token = "0x200030B")]
 internal class WebOperation
 {
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x200034B")]
+	[Token(Token = "0x200030C")]
 	[CompilerGenerated]
 	private struct _003CRun_003Ed__58 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000D4A")]
+		[Token(Token = "0x4000C7B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000D4B")]
+		[Token(Token = "0x4000C7C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncVoidMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4000D4C")]
+		[Token(Token = "0x4000C7D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public WebOperation _003C_003E4__this;
 
-		[Token(Token = "0x4000D4D")]
+		[Token(Token = "0x4000C7E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private WebRequestStream _003CrequestStream_003E5__2;
 
-		[Token(Token = "0x4000D4E")]
+		[Token(Token = "0x4000C7F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private WebResponseStream _003Cstream_003E5__3;
 
-		[Token(Token = "0x4000D4F")]
+		[Token(Token = "0x4000C80")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private ConfiguredTaskAwaitable<WebRequestStream>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x4000D50")]
+		[Token(Token = "0x4000C81")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x60016ED")]
-		[Address(RVA = "0x28073A0", Offset = "0x28059A0", VA = "0x1828073A0", Slot = "4")]
+		[Token(Token = "0x600152F")]
+		[Address(RVA = "0x619A600", Offset = "0x6199600", VA = "0x619A600", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60016EE")]
-		[Address(RVA = "0x187DE20", Offset = "0x187C420", VA = "0x18187DE20", Slot = "5")]
+		[Token(Token = "0x6001530")]
+		[Address(RVA = "0x619AF70", Offset = "0x6199F70", VA = "0x619AF70", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000D3E")]
+	[Token(Token = "0x4000C6F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private CancellationTokenSource cts;
 
-	[Token(Token = "0x4000D3F")]
+	[Token(Token = "0x4000C70")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private WebCompletionSource<WebRequestStream> requestTask;
 
-	[Token(Token = "0x4000D40")]
+	[Token(Token = "0x4000C71")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private WebCompletionSource<WebRequestStream> requestWrittenTask;
 
-	[Token(Token = "0x4000D41")]
+	[Token(Token = "0x4000C72")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private WebCompletionSource<WebResponseStream> responseTask;
 
-	[Token(Token = "0x4000D42")]
+	[Token(Token = "0x4000C73")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private WebCompletionSource<(bool, WebOperation)> finishedTask;
 
-	[Token(Token = "0x4000D43")]
+	[Token(Token = "0x4000C74")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private WebRequestStream writeStream;
 
-	[Token(Token = "0x4000D44")]
+	[Token(Token = "0x4000C75")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private WebResponseStream responseStream;
 
-	[Token(Token = "0x4000D45")]
+	[Token(Token = "0x4000C76")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private ExceptionDispatchInfo disposedInfo;
 
-	[Token(Token = "0x4000D46")]
+	[Token(Token = "0x4000C77")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private ExceptionDispatchInfo closedInfo;
 
-	[Token(Token = "0x4000D47")]
+	[Token(Token = "0x4000C78")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private WebOperation priorityRequest;
 
-	[Token(Token = "0x4000D48")]
+	[Token(Token = "0x4000C79")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private int requestSent;
 
-	[Token(Token = "0x4000D49")]
+	[Token(Token = "0x4000C7A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private int finished;
 
-	[Token(Token = "0x170004EC")]
+	[Token(Token = "0x170004BD")]
 	public HttpWebRequest Request
 	{
-		[Token(Token = "0x60016CE")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001510")]
+		[Address(RVA = "0x6199340", Offset = "0x6198340", VA = "0x6199340")]
 		[CompilerGenerated]
 		get
 		{
@@ -125,47 +125,47 @@ internal class WebOperation
 		}
 	}
 
-	[Token(Token = "0x170004ED")]
+	[Token(Token = "0x170004BE")]
 	public WebConnection Connection
 	{
-		[Token(Token = "0x60016CF")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001511")]
+		[Address(RVA = "0x6199350", Offset = "0x6198350", VA = "0x6199350")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016D0")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001512")]
+		[Address(RVA = "0x6199360", Offset = "0x6198360", VA = "0x6199360")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004EE")]
+	[Token(Token = "0x170004BF")]
 	public ServicePoint ServicePoint
 	{
-		[Token(Token = "0x60016D1")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001513")]
+		[Address(RVA = "0x6199370", Offset = "0x6198370", VA = "0x6199370")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60016D2")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6001514")]
+		[Address(RVA = "0x6199380", Offset = "0x6198380", VA = "0x6199380")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170004EF")]
+	[Token(Token = "0x170004C0")]
 	public BufferOffsetSize WriteBuffer
 	{
-		[Token(Token = "0x60016D3")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001515")]
+		[Address(RVA = "0x6199390", Offset = "0x6198390", VA = "0x6199390")]
 		[CompilerGenerated]
 		get
 		{
@@ -173,11 +173,11 @@ internal class WebOperation
 		}
 	}
 
-	[Token(Token = "0x170004F0")]
+	[Token(Token = "0x170004C1")]
 	public bool IsNtlmChallenge
 	{
-		[Token(Token = "0x60016D4")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Token(Token = "0x6001516")]
+		[Address(RVA = "0x61993A0", Offset = "0x61983A0", VA = "0x61993A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -185,166 +185,166 @@ internal class WebOperation
 		}
 	}
 
-	[Token(Token = "0x170004F1")]
+	[Token(Token = "0x170004C2")]
 	public bool Aborted
 	{
-		[Token(Token = "0x60016D6")]
-		[Address(RVA = "0x280AFC0", Offset = "0x28095C0", VA = "0x18280AFC0")]
+		[Token(Token = "0x6001518")]
+		[Address(RVA = "0x6199570", Offset = "0x6198570", VA = "0x6199570")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004F2")]
+	[Token(Token = "0x170004C3")]
 	public bool Closed
 	{
-		[Token(Token = "0x60016D7")]
-		[Address(RVA = "0x280B010", Offset = "0x2809610", VA = "0x18280B010")]
+		[Token(Token = "0x6001519")]
+		[Address(RVA = "0x61995C0", Offset = "0x61985C0", VA = "0x61995C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004F3")]
+	[Token(Token = "0x170004C4")]
 	public WebRequestStream WriteStream
 	{
-		[Token(Token = "0x60016E6")]
-		[Address(RVA = "0x280B070", Offset = "0x2809670", VA = "0x18280B070")]
+		[Token(Token = "0x6001528")]
+		[Address(RVA = "0x619A410", Offset = "0x6199410", VA = "0x619A410")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004F4")]
+	[Token(Token = "0x170004C5")]
 	internal WebCompletionSource<(bool, WebOperation)> Finished
 	{
-		[Token(Token = "0x60016E8")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Token(Token = "0x600152A")]
+		[Address(RVA = "0x619A4A0", Offset = "0x61994A0", VA = "0x619A4A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60016D5")]
-	[Address(RVA = "0x280AE10", Offset = "0x2809410", VA = "0x18280AE10")]
+	[Token(Token = "0x6001517")]
+	[Address(RVA = "0x61993B0", Offset = "0x61983B0", VA = "0x61993B0")]
 	public WebOperation(HttpWebRequest request, BufferOffsetSize writeBuffer, bool isNtlmChallenge, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x60016D8")]
-	[Address(RVA = "0x2809EB0", Offset = "0x28084B0", VA = "0x182809EB0")]
+	[Token(Token = "0x600151A")]
+	[Address(RVA = "0x6199610", Offset = "0x6198610", VA = "0x6199610")]
 	public void Abort()
 	{
 	}
 
-	[Token(Token = "0x60016D9")]
-	[Address(RVA = "0x280A060", Offset = "0x2808660", VA = "0x18280A060")]
+	[Token(Token = "0x600151B")]
+	[Address(RVA = "0x61997E0", Offset = "0x61987E0", VA = "0x61997E0")]
 	public void Close()
 	{
 	}
 
-	[Token(Token = "0x60016DA")]
-	[Address(RVA = "0x280A7B0", Offset = "0x2808DB0", VA = "0x18280A7B0")]
+	[Token(Token = "0x600151C")]
+	[Address(RVA = "0x6199720", Offset = "0x6198720", VA = "0x6199720")]
 	private void SetCanceled()
 	{
 	}
 
-	[Token(Token = "0x60016DB")]
-	[Address(RVA = "0x280A950", Offset = "0x2808F50", VA = "0x18280A950")]
+	[Token(Token = "0x600151D")]
+	[Address(RVA = "0x6199C10", Offset = "0x6198C10", VA = "0x6199C10")]
 	private void SetError(Exception error)
 	{
 	}
 
-	[Token(Token = "0x60016DC")]
-	[Address(RVA = "0x280A880", Offset = "0x2808E80", VA = "0x18280A880")]
+	[Token(Token = "0x600151E")]
+	[Address(RVA = "0x6199650", Offset = "0x6198650", VA = "0x6199650")]
 	private (ExceptionDispatchInfo, bool) SetDisposed(ref ExceptionDispatchInfo field)
 	{
 		return default((ExceptionDispatchInfo, bool));
 	}
 
-	[Token(Token = "0x60016DD")]
-	[Address(RVA = "0x2809F10", Offset = "0x2808510", VA = "0x182809F10")]
+	[Token(Token = "0x600151F")]
+	[Address(RVA = "0x6199CB0", Offset = "0x6198CB0", VA = "0x6199CB0")]
 	internal ExceptionDispatchInfo CheckDisposed(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016DE")]
-	[Address(RVA = "0x280AD70", Offset = "0x2809370", VA = "0x18280AD70")]
+	[Token(Token = "0x6001520")]
+	[Address(RVA = "0x6199DB0", Offset = "0x6198DB0", VA = "0x6199DB0")]
 	internal void ThrowIfDisposed()
 	{
 	}
 
-	[Token(Token = "0x60016DF")]
-	[Address(RVA = "0x280AC90", Offset = "0x2809290", VA = "0x18280AC90")]
+	[Token(Token = "0x6001521")]
+	[Address(RVA = "0x6199E00", Offset = "0x6198E00", VA = "0x6199E00")]
 	internal void ThrowIfDisposed(CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x60016E0")]
-	[Address(RVA = "0x280AB50", Offset = "0x2809150", VA = "0x18280AB50")]
+	[Token(Token = "0x6001522")]
+	[Address(RVA = "0x6199EC0", Offset = "0x6198EC0", VA = "0x6199EC0")]
 	internal void ThrowIfClosedOrDisposed()
 	{
 	}
 
-	[Token(Token = "0x60016E1")]
-	[Address(RVA = "0x280ABB0", Offset = "0x28091B0", VA = "0x18280ABB0")]
+	[Token(Token = "0x6001523")]
+	[Address(RVA = "0x6199F10", Offset = "0x6198F10", VA = "0x6199F10")]
 	internal void ThrowIfClosedOrDisposed(CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x60016E2")]
-	[Address(RVA = "0x2809FF0", Offset = "0x28085F0", VA = "0x182809FF0")]
+	[Token(Token = "0x6001524")]
+	[Address(RVA = "0x6199D60", Offset = "0x6198D60", VA = "0x6199D60")]
 	private ExceptionDispatchInfo CheckThrowDisposed(bool throwIt, ref ExceptionDispatchInfo field)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016E3")]
-	[Address(RVA = "0x280A470", Offset = "0x2808A70", VA = "0x18280A470")]
+	[Token(Token = "0x6001525")]
+	[Address(RVA = "0x6199FE0", Offset = "0x6198FE0", VA = "0x6199FE0")]
 	internal void RegisterRequest(ServicePoint servicePoint, WebConnection connection)
 	{
 	}
 
-	[Token(Token = "0x60016E4")]
-	[Address(RVA = "0x280A9F0", Offset = "0x2808FF0", VA = "0x18280A9F0")]
+	[Token(Token = "0x6001526")]
+	[Address(RVA = "0x619A260", Offset = "0x6199260", VA = "0x619A260")]
 	public void SetPriorityRequest(WebOperation operation)
 	{
 	}
 
-	[Token(Token = "0x60016E5")]
-	[Address(RVA = "0x280A3D0", Offset = "0x28089D0", VA = "0x18280A3D0")]
+	[Token(Token = "0x6001527")]
+	[Address(RVA = "0x619A3D0", Offset = "0x61993D0", VA = "0x619A3D0")]
 	internal Task<WebRequestStream> GetRequestStreamInternal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016E7")]
-	[Address(RVA = "0x280A420", Offset = "0x2808A20", VA = "0x18280A420")]
+	[Token(Token = "0x6001529")]
+	[Address(RVA = "0x619A460", Offset = "0x6199460", VA = "0x619A460")]
 	public Task<WebResponseStream> GetResponseStream()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016E9")]
-	[Address(RVA = "0x280A6F0", Offset = "0x2808CF0", VA = "0x18280A6F0")]
+	[Token(Token = "0x600152B")]
+	[Address(RVA = "0x619A4B0", Offset = "0x61994B0", VA = "0x619A4B0")]
 	[AsyncStateMachine(typeof(_003CRun_003Ed__58))]
 	internal void Run()
 	{
 	}
 
-	[Token(Token = "0x60016EA")]
-	[Address(RVA = "0x280A0B0", Offset = "0x28086B0", VA = "0x18280A0B0")]
+	[Token(Token = "0x600152C")]
+	[Address(RVA = "0x619A560", Offset = "0x6199560", VA = "0x619A560")]
 	internal void CompleteRequestWritten(WebRequestStream stream, [Optional] Exception error)
 	{
 	}
 
-	[Token(Token = "0x60016EB")]
-	[Address(RVA = "0x280A140", Offset = "0x2808740", VA = "0x18280A140")]
+	[Token(Token = "0x600152D")]
+	[Address(RVA = "0x6199950", Offset = "0x6198950", VA = "0x6199950")]
 	internal void Finish(bool ok, [Optional] Exception error)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.WorldSpaceInput
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -51,49 +51,49 @@ internal static class WorldSpaceInput
 		public Vector3 localPoint;
 
 		[Token(Token = "0x6001154")]
-		[Address(RVA = "0x3283E50", Offset = "0x3282450", VA = "0x183283E50")]
+		[Address(RVA = "0x6C8FBD0", Offset = "0x6C8EBD0", VA = "0x6C8FBD0")]
 		internal void ComputeCollisionData(Ray ray)
 		{
 		}
 	}
 
 	[Token(Token = "0x6001149")]
-	[Address(RVA = "0x328BA90", Offset = "0x328A090", VA = "0x18328BA90")]
+	[Address(RVA = "0x6C83180", Offset = "0x6C82180", VA = "0x6C83180")]
 	public static VisualElement Pick3D(UIDocument document, Ray worldRay, out float distance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600114A")]
-	[Address(RVA = "0x328BDB0", Offset = "0x328A3B0", VA = "0x18328BDB0")]
+	[Address(RVA = "0x6C8F830", Offset = "0x6C8E830", VA = "0x6C8F830")]
 	public static VisualElement Pick3D(IPanel panel, Ray panelRay, [Optional] List<VisualElement> outResults)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600114B")]
-	[Address(RVA = "0x328BF20", Offset = "0x328A520", VA = "0x18328BF20")]
+	[Address(RVA = "0x6C8F990", Offset = "0x6C8E990", VA = "0x6C8F990")]
 	public static VisualElement Pick3D(VisualElement rootVisualElement, Ray localRay, [Optional] List<VisualElement> outResults)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600114C")]
-	[Address(RVA = "0x328C000", Offset = "0x328A600", VA = "0x18328C000")]
+	[Address(RVA = "0x6C820B0", Offset = "0x6C810B0", VA = "0x6C820B0")]
 	public static PickResult PickDocument3D(Ray worldRay, float maxDistance = 1f / 0f, int layerMask = -5)
 	{
 		return default(PickResult);
 	}
 
 	[Token(Token = "0x600114D")]
-	[Address(RVA = "0x328C950", Offset = "0x328AF50", VA = "0x18328C950")]
+	[Address(RVA = "0x6C8F6C0", Offset = "0x6C8E6C0", VA = "0x6C8F6C0")]
 	internal static VisualElement Pick_Internal(UIDocument document, Ray documentRay, [Optional] List<VisualElement> outResults)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600114E")]
-	[Address(RVA = "0x328B9D0", Offset = "0x3289FD0", VA = "0x18328B9D0")]
+	[Address(RVA = "0x6C8FA70", Offset = "0x6C8EA70", VA = "0x6C8FA70")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "Assembly-CSharp-testable" })]
 	internal static VisualElement PerformPick(VisualElement root, Ray ray, List<VisualElement> outResults)
 	{
@@ -101,35 +101,35 @@ internal static class WorldSpaceInput
 	}
 
 	[Token(Token = "0x600114F")]
-	[Address(RVA = "0x328B670", Offset = "0x3289C70", VA = "0x18328B670")]
+	[Address(RVA = "0x6C8FE10", Offset = "0x6C8EE10", VA = "0x6C8FE10")]
 	private static VisualElement PerformPick2D(VisualElement root, Ray ray, List<VisualElement> outResults)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001150")]
-	[Address(RVA = "0x328B6F0", Offset = "0x3289CF0", VA = "0x18328B6F0")]
+	[Address(RVA = "0x6C8FE70", Offset = "0x6C8EE70", VA = "0x6C8FE70")]
 	private static VisualElement PerformPick3D(VisualElement root, Ray ray, List<VisualElement> outResults)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001151")]
-	[Address(RVA = "0x328B340", Offset = "0x3289940", VA = "0x18328B340")]
+	[Address(RVA = "0x6C90260", Offset = "0x6C8F260", VA = "0x6C90260")]
 	private static VisualElement PerformPick2D_LocalPoint(VisualElement root, Vector3 localPoint, [Optional] List<VisualElement> picked)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001152")]
-	[Address(RVA = "0x328B230", Offset = "0x3289830", VA = "0x18328B230")]
+	[Address(RVA = "0x6C8DBE0", Offset = "0x6C8CBE0", VA = "0x6C8DBE0")]
 	internal static Bounds GetPicking3DWorldBounds(VisualElement ve)
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x6001153")]
-	[Address(RVA = "0x328B0F0", Offset = "0x32896F0", VA = "0x18328B0F0")]
+	[Address(RVA = "0x6C8FB00", Offset = "0x6C8EB00", VA = "0x6C8FB00")]
 	internal static Bounds GetPicking3DLocalBounds(VisualElement ve)
 	{
 		return default(Bounds);

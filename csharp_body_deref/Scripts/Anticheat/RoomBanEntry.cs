@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x200097A")]
+[Token(Token = "0x20009E0")]
 internal class RoomBanEntry
 {
-	[Token(Token = "0x4002EBC")]
+	[Token(Token = "0x400316C")]
 	[FieldOffset(Offset = "0x10")]
 	public string SessionId;
 
-	[Token(Token = "0x4002EBD")]
+	[Token(Token = "0x400316D")]
 	[FieldOffset(Offset = "0x18")]
 	public string IPAddress;
 
-	[Token(Token = "0x4002EBE")]
+	[Token(Token = "0x400316E")]
 	[FieldOffset(Offset = "0x20")]
 	public string Username;
 
-	[Token(Token = "0x4002EBF")]
+	[Token(Token = "0x400316F")]
 	[FieldOffset(Offset = "0x28")]
 	public int ActorNumber;
 
-	[Token(Token = "0x4002EC0")]
+	[Token(Token = "0x4003170")]
 	[FieldOffset(Offset = "0x2C")]
 	public bool IsIPBan;
 
-	[Token(Token = "0x4002EC1")]
+	[Token(Token = "0x4003171")]
 	[FieldOffset(Offset = "0x30")]
 	public string Reason;
 
-	[Token(Token = "0x4002EC2")]
+	[Token(Token = "0x4003172")]
 	[FieldOffset(Offset = "0x38")]
 	public bool CanUnban;
 
-	[Token(Token = "0x60057DF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005B36")]
+	[Address(RVA = "0x5D34340", Offset = "0x5D33340", VA = "0x5D34340")]
 	public RoomBanEntry()
 	{
 	}

@@ -10,62 +10,62 @@ using Settings;
 
 namespace GameProgress;
 
-[Token(Token = "0x2000306")]
+[Token(Token = "0x2000367")]
 internal class GameProgressContainer : SaveableSettingsContainer
 {
-	[Token(Token = "0x4000F59")]
+	[Token(Token = "0x40010F8")]
 	[FieldOffset(Offset = "0x38")]
 	public AchievementContainer Achievement;
 
-	[Token(Token = "0x4000F5A")]
+	[Token(Token = "0x40010F9")]
 	[FieldOffset(Offset = "0x40")]
 	public QuestContainer Quest;
 
-	[Token(Token = "0x4000F5B")]
+	[Token(Token = "0x40010FA")]
 	[FieldOffset(Offset = "0x48")]
 	public GameStatContainer GameStat;
 
-	[Token(Token = "0x17000209")]
+	[Token(Token = "0x17000250")]
 	protected override string FolderPath
 	{
-		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0x1E34890", Offset = "0x1E32E90", VA = "0x181E34890", Slot = "14")]
+		[Token(Token = "0x6001528")]
+		[Address(RVA = "0x581F1D0", Offset = "0x581E1D0", VA = "0x581F1D0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020A")]
+	[Token(Token = "0x17000251")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60012B7")]
-		[Address(RVA = "0x1E34860", Offset = "0x1E32E60", VA = "0x181E34860", Slot = "15")]
+		[Token(Token = "0x6001529")]
+		[Address(RVA = "0x581F240", Offset = "0x581E240", VA = "0x581F240", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020B")]
+	[Token(Token = "0x17000252")]
 	protected override bool Encrypted
 	{
-		[Token(Token = "0x60012B8")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x600152A")]
+		[Address(RVA = "0x581F270", Offset = "0x581E270", VA = "0x581F270", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60012B9")]
-	[Address(RVA = "0x1E34760", Offset = "0x1E32D60", VA = "0x181E34760", Slot = "18")]
+	[Token(Token = "0x600152B")]
+	[Address(RVA = "0x581F280", Offset = "0x581E280", VA = "0x581F280", Slot = "18")]
 	public override void Save()
 	{
 	}
 
-	[Token(Token = "0x60012BA")]
-	[Address(RVA = "0x1E34790", Offset = "0x1E32D90", VA = "0x181E34790")]
+	[Token(Token = "0x600152C")]
+	[Address(RVA = "0x581F520", Offset = "0x581E520", VA = "0x581F520")]
 	public GameProgressContainer()
 	{
 	}

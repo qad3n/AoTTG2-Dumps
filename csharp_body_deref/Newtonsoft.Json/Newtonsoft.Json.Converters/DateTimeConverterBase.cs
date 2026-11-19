@@ -14,14 +14,14 @@ namespace Newtonsoft.Json.Converters;
 public abstract class DateTimeConverterBase : JsonConverter
 {
 	[Token(Token = "0x6000EB0")]
-	[Address(RVA = "0x1C91C80", Offset = "0x1C90280", VA = "0x181C91C80", Slot = "6")]
+	[Address(RVA = "0x5632FD0", Offset = "0x5631FD0", VA = "0x5632FD0", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EB1")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5633110", Offset = "0x5632110", VA = "0x5633110")]
 	protected DateTimeConverterBase()
 	{
 	}

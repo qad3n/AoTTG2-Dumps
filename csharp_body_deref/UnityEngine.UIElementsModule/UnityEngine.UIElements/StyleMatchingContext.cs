@@ -41,7 +41,7 @@ internal class StyleMatchingContext
 	public int styleSheetCount
 	{
 		[Token(Token = "0x6002868")]
-		[Address(RVA = "0x315E490", Offset = "0x315CA90", VA = "0x18315E490")]
+		[Address(RVA = "0x6B73E10", Offset = "0x6B72E10", VA = "0x6B73E10")]
 		get
 		{
 			return default(int);
@@ -49,25 +49,25 @@ internal class StyleMatchingContext
 	}
 
 	[Token(Token = "0x6002869")]
-	[Address(RVA = "0x315E370", Offset = "0x315C970", VA = "0x18315E370")]
+	[Address(RVA = "0x6B73E50", Offset = "0x6B72E50", VA = "0x6B73E50")]
 	public StyleMatchingContext(Action<VisualElement, MatchResultInfo> processResult)
 	{
 	}
 
 	[Token(Token = "0x600286A")]
-	[Address(RVA = "0x315E1C0", Offset = "0x315C7C0", VA = "0x18315E1C0")]
+	[Address(RVA = "0x6B73F70", Offset = "0x6B72F70", VA = "0x6B73F70")]
 	public void AddStyleSheet(StyleSheet sheet)
 	{
 	}
 
 	[Token(Token = "0x600286B")]
-	[Address(RVA = "0x315E300", Offset = "0x315C900", VA = "0x18315E300")]
+	[Address(RVA = "0x6B74040", Offset = "0x6B73040", VA = "0x6B74040")]
 	public void RemoveStyleSheetRange(int index, int count)
 	{
 	}
 
 	[Token(Token = "0x600286C")]
-	[Address(RVA = "0x315E2A0", Offset = "0x315C8A0", VA = "0x18315E2A0")]
+	[Address(RVA = "0x6B74090", Offset = "0x6B73090", VA = "0x6B74090")]
 	public StyleSheet GetStyleSheetAt(int index)
 	{
 		return null;

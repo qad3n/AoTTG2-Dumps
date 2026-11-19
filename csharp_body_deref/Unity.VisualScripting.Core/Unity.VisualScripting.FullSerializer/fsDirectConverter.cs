@@ -22,7 +22,7 @@ public abstract class fsDirectConverter : fsBaseConverter
 	}
 
 	[Token(Token = "0x600126C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6864F00", Offset = "0x6863F00", VA = "0x6864F00")]
 	protected fsDirectConverter()
 	{
 	}

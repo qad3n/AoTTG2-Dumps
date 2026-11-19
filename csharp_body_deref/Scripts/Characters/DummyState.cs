@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000646")]
+[Token(Token = "0x20006A5")]
 internal enum DummyState
 {
-	[Token(Token = "0x4001C4E")]
+	[Token(Token = "0x4001DFA")]
 	Idle,
-	[Token(Token = "0x4001C4F")]
+	[Token(Token = "0x4001DFB")]
 	Emote
 }

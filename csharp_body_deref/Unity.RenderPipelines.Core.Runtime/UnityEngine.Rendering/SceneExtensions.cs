@@ -19,7 +19,7 @@ internal static class SceneExtensions
 	private static PropertyInfo s_SceneGUID;
 
 	[Token(Token = "0x6000A4A")]
-	[Address(RVA = "0x2B192C0", Offset = "0x2B178C0", VA = "0x182B192C0")]
+	[Address(RVA = "0x6507C60", Offset = "0x6506C60", VA = "0x6507C60")]
 	public static string GetGUID(this Scene scene)
 	{
 		return null;

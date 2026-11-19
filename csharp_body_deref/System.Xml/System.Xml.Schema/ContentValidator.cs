@@ -45,7 +45,7 @@ internal class ContentValidator
 	public XmlSchemaContentType ContentType
 	{
 		[Token(Token = "0x6001009")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6147980", Offset = "0x6146980", VA = "0x6147980")]
 		get
 		{
 			return default(XmlSchemaContentType);
@@ -56,7 +56,7 @@ internal class ContentValidator
 	public bool PreserveWhitespace
 	{
 		[Token(Token = "0x600100A")]
-		[Address(RVA = "0x277D250", Offset = "0x277B850", VA = "0x18277D250")]
+		[Address(RVA = "0x6147990", Offset = "0x6146990", VA = "0x6147990")]
 		get
 		{
 			return default(bool);
@@ -67,7 +67,7 @@ internal class ContentValidator
 	public virtual bool IsEmptiable
 	{
 		[Token(Token = "0x600100B")]
-		[Address(RVA = "0x1A78700", Offset = "0x1A76D00", VA = "0x181A78700", Slot = "4")]
+		[Address(RVA = "0x61479B0", Offset = "0x61469B0", VA = "0x61479B0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -78,72 +78,72 @@ internal class ContentValidator
 	public bool IsOpen
 	{
 		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x277D230", Offset = "0x277B830", VA = "0x18277D230")]
+		[Address(RVA = "0x61479C0", Offset = "0x61469C0", VA = "0x61479C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600100D")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x61479E0", Offset = "0x61469E0", VA = "0x61479E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x277D1C0", Offset = "0x277B7C0", VA = "0x18277D1C0")]
+	[Address(RVA = "0x6147930", Offset = "0x6146930", VA = "0x6147930")]
 	public ContentValidator(XmlSchemaContentType contentType)
 	{
 	}
 
 	[Token(Token = "0x6001008")]
-	[Address(RVA = "0x277D1F0", Offset = "0x277B7F0", VA = "0x18277D1F0")]
+	[Address(RVA = "0x6147950", Offset = "0x6146950", VA = "0x6147950")]
 	protected ContentValidator(XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x600100E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x61479F0", Offset = "0x61469F0", VA = "0x61479F0", Slot = "5")]
 	public virtual void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x277D020", Offset = "0x277B620", VA = "0x18277D020", Slot = "6")]
+	[Address(RVA = "0x6147A00", Offset = "0x6146A00", VA = "0x6147A00", Slot = "6")]
 	public virtual object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
+	[Address(RVA = "0x6147A20", Offset = "0x6146A20", VA = "0x6147A20", Slot = "7")]
 	public virtual bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+	[Address(RVA = "0x6147A30", Offset = "0x6146A30", VA = "0x6147A30", Slot = "8")]
 	public virtual ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001012")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
+	[Address(RVA = "0x6147A40", Offset = "0x6146A40", VA = "0x6147A40", Slot = "9")]
 	public virtual ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001013")]
-	[Address(RVA = "0x277CFA0", Offset = "0x277B5A0", VA = "0x18277CFA0")]
+	[Address(RVA = "0x6147A50", Offset = "0x6146A50", VA = "0x6147A50")]
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles)
 	{
 	}
 
 	[Token(Token = "0x6001014")]
-	[Address(RVA = "0x277CD20", Offset = "0x277B320", VA = "0x18277CD20")]
+	[Address(RVA = "0x6147AB0", Offset = "0x6146AB0", VA = "0x6147AB0")]
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles, bool global)
 	{
 	}

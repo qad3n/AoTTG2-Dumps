@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001C3")]
+[Token(Token = "0x2000184")]
 public class ListSortDescription
 {
-	[Token(Token = "0x1700023E")]
+	[Token(Token = "0x1700020F")]
 	public PropertyDescriptor PropertyDescriptor
 	{
-		[Token(Token = "0x6000B57")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000997")]
+		[Address(RVA = "0x6237800", Offset = "0x6236800", VA = "0x6237800")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000B58")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6000998")]
+		[Address(RVA = "0x6237810", Offset = "0x6236810", VA = "0x6237810")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700023F")]
+	[Token(Token = "0x17000210")]
 	public ListSortDirection SortDirection
 	{
-		[Token(Token = "0x6000B59")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6000999")]
+		[Address(RVA = "0x6237820", Offset = "0x6236820", VA = "0x6237820")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ListSortDirection);
 		}
-		[Token(Token = "0x6000B5A")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x600099A")]
+		[Address(RVA = "0x6237830", Offset = "0x6236830", VA = "0x6237830")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
+	[Token(Token = "0x6000996")]
+	[Address(RVA = "0x62377D0", Offset = "0x62367D0", VA = "0x62377D0")]
 	public ListSortDescription(PropertyDescriptor property, ListSortDirection direction)
 	{
 	}

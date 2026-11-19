@@ -9,112 +9,112 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000318")]
+[Token(Token = "0x20002D9")]
 internal class DigestHeaderParser
 {
-	[Token(Token = "0x4000BD3")]
+	[Token(Token = "0x4000B04")]
 	[FieldOffset(Offset = "0x10")]
 	private string header;
 
-	[Token(Token = "0x4000BD4")]
+	[Token(Token = "0x4000B05")]
 	[FieldOffset(Offset = "0x18")]
 	private int length;
 
-	[Token(Token = "0x4000BD5")]
+	[Token(Token = "0x4000B06")]
 	[FieldOffset(Offset = "0x1C")]
 	private int pos;
 
-	[Token(Token = "0x4000BD6")]
+	[Token(Token = "0x4000B07")]
 	[FieldOffset(Offset = "0x0")]
 	private static string[] keywords;
 
-	[Token(Token = "0x4000BD7")]
+	[Token(Token = "0x4000B08")]
 	[FieldOffset(Offset = "0x20")]
 	private string[] values;
 
-	[Token(Token = "0x17000479")]
+	[Token(Token = "0x1700044A")]
 	public string Realm
 	{
-		[Token(Token = "0x600154C")]
-		[Address(RVA = "0x1AA40B0", Offset = "0x1AA26B0", VA = "0x181AA40B0")]
+		[Token(Token = "0x600138E")]
+		[Address(RVA = "0x61809D0", Offset = "0x617F9D0", VA = "0x61809D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700047A")]
+	[Token(Token = "0x1700044B")]
 	public string Opaque
 	{
-		[Token(Token = "0x600154D")]
-		[Address(RVA = "0x1AA3FC0", Offset = "0x1AA25C0", VA = "0x181AA3FC0")]
+		[Token(Token = "0x600138F")]
+		[Address(RVA = "0x61809F0", Offset = "0x617F9F0", VA = "0x61809F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700047B")]
+	[Token(Token = "0x1700044C")]
 	public string Nonce
 	{
-		[Token(Token = "0x600154E")]
-		[Address(RVA = "0x1AA4020", Offset = "0x1AA2620", VA = "0x181AA4020")]
+		[Token(Token = "0x6001390")]
+		[Address(RVA = "0x6180A20", Offset = "0x617FA20", VA = "0x6180A20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700047C")]
+	[Token(Token = "0x1700044D")]
 	public string Algorithm
 	{
-		[Token(Token = "0x600154F")]
-		[Address(RVA = "0x1AA4050", Offset = "0x1AA2650", VA = "0x181AA4050")]
+		[Token(Token = "0x6001391")]
+		[Address(RVA = "0x6180A40", Offset = "0x617FA40", VA = "0x6180A40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700047D")]
+	[Token(Token = "0x1700044E")]
 	public string QOP
 	{
-		[Token(Token = "0x6001550")]
-		[Address(RVA = "0x1AA4080", Offset = "0x1AA2680", VA = "0x181AA4080")]
+		[Token(Token = "0x6001392")]
+		[Address(RVA = "0x6180A70", Offset = "0x617FA70", VA = "0x6180A70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600154B")]
-	[Address(RVA = "0x27DEEB0", Offset = "0x27DD4B0", VA = "0x1827DEEB0")]
+	[Token(Token = "0x600138D")]
+	[Address(RVA = "0x61808F0", Offset = "0x617F8F0", VA = "0x61808F0")]
 	public DigestHeaderParser(string header)
 	{
 	}
 
-	[Token(Token = "0x6001551")]
-	[Address(RVA = "0x27DEB30", Offset = "0x27DD130", VA = "0x1827DEB30")]
+	[Token(Token = "0x6001393")]
+	[Address(RVA = "0x6180A90", Offset = "0x617FA90", VA = "0x6180A90")]
 	public bool Parse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001552")]
-	[Address(RVA = "0x27DECF0", Offset = "0x27DD2F0", VA = "0x1827DECF0")]
+	[Token(Token = "0x6001394")]
+	[Address(RVA = "0x6180EE0", Offset = "0x617FEE0", VA = "0x6180EE0")]
 	private void SkipWhitespace()
 	{
 	}
 
-	[Token(Token = "0x6001553")]
-	[Address(RVA = "0x27DE7E0", Offset = "0x27DCDE0", VA = "0x1827DE7E0")]
+	[Token(Token = "0x6001395")]
+	[Address(RVA = "0x6180F40", Offset = "0x617FF40", VA = "0x6180F40")]
 	private string GetKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001554")]
-	[Address(RVA = "0x27DE8C0", Offset = "0x27DCEC0", VA = "0x1827DE8C0")]
+	[Token(Token = "0x6001396")]
+	[Address(RVA = "0x6180CB0", Offset = "0x617FCB0", VA = "0x6180CB0")]
 	private bool GetKeywordAndValue(out string key, out string value)
 	{
 		return default(bool);

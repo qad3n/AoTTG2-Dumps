@@ -13,21 +13,21 @@ namespace Newtonsoft.Json.Utilities;
 internal static class StringReferenceExtensions
 {
 	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x1C52360", Offset = "0x1C50960", VA = "0x181C52360")]
+	[Address(RVA = "0x55BF760", Offset = "0x55BE760", VA = "0x55BF760")]
 	public static int IndexOf(this StringReference s, char c, int startIndex, int length)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x1C523E0", Offset = "0x1C509E0", VA = "0x181C523E0")]
+	[Address(RVA = "0x55BF7D0", Offset = "0x55BE7D0", VA = "0x55BF7D0")]
 	public static bool StartsWith(this StringReference s, string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x1C522E0", Offset = "0x1C508E0", VA = "0x181C522E0")]
+	[Address(RVA = "0x55BF890", Offset = "0x55BE890", VA = "0x55BF890")]
 	public static bool EndsWith(this StringReference s, string text)
 	{
 		return default(bool);

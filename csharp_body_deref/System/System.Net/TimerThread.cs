@@ -12,366 +12,366 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E9")]
+[Token(Token = "0x20002AA")]
 internal static class TimerThread
 {
-	[Token(Token = "0x20002EA")]
+	[Token(Token = "0x20002AB")]
 	internal abstract class Queue
 	{
-		[Token(Token = "0x4000B24")]
+		[Token(Token = "0x4000A55")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly int m_DurationMilliseconds;
 
-		[Token(Token = "0x17000436")]
+		[Token(Token = "0x17000407")]
 		internal int Duration
 		{
-			[Token(Token = "0x6001451")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Token(Token = "0x6001293")]
+			[Address(RVA = "0x62B1D30", Offset = "0x62B0D30", VA = "0x62B1D30")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x6001450")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6001292")]
+		[Address(RVA = "0x62B1D10", Offset = "0x62B0D10", VA = "0x62B1D10")]
 		internal Queue(int durationMilliseconds)
 		{
 		}
 
-		[Token(Token = "0x6001452")]
+		[Token(Token = "0x6001294")]
 		internal abstract Timer CreateTimer(Callback callback, object context);
 	}
 
-	[Token(Token = "0x20002EB")]
+	[Token(Token = "0x20002AC")]
 	internal abstract class Timer : IDisposable
 	{
-		[Token(Token = "0x4000B25")]
+		[Token(Token = "0x4000A56")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly int m_StartTimeMilliseconds;
 
-		[Token(Token = "0x4000B26")]
+		[Token(Token = "0x4000A57")]
 		[FieldOffset(Offset = "0x14")]
 		private readonly int m_DurationMilliseconds;
 
-		[Token(Token = "0x17000437")]
+		[Token(Token = "0x17000408")]
 		internal int StartTime
 		{
-			[Token(Token = "0x6001454")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Token(Token = "0x6001296")]
+			[Address(RVA = "0x62B1D70", Offset = "0x62B0D70", VA = "0x62B1D70")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x17000438")]
+		[Token(Token = "0x17000409")]
 		internal int Expiration
 		{
-			[Token(Token = "0x6001455")]
-			[Address(RVA = "0x27D4760", Offset = "0x27D2D60", VA = "0x1827D4760")]
+			[Token(Token = "0x6001297")]
+			[Address(RVA = "0x62B1D80", Offset = "0x62B0D80", VA = "0x62B1D80")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x17000439")]
+		[Token(Token = "0x1700040A")]
 		internal abstract bool HasExpired
 		{
-			[Token(Token = "0x6001457")]
+			[Token(Token = "0x6001299")]
 			get;
 		}
 
-		[Token(Token = "0x6001453")]
-		[Address(RVA = "0x27D4730", Offset = "0x27D2D30", VA = "0x1827D4730")]
+		[Token(Token = "0x6001295")]
+		[Address(RVA = "0x62B1D40", Offset = "0x62B0D40", VA = "0x62B1D40")]
 		internal Timer(int durationMilliseconds)
 		{
 		}
 
-		[Token(Token = "0x6001456")]
+		[Token(Token = "0x6001298")]
 		internal abstract bool Cancel();
 
-		[Token(Token = "0x6001458")]
-		[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0", Slot = "4")]
+		[Token(Token = "0x600129A")]
+		[Address(RVA = "0x62B1D90", Offset = "0x62B0D90", VA = "0x62B1D90", Slot = "4")]
 		public void Dispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x20002EC")]
+	[Token(Token = "0x20002AD")]
 	internal delegate void Callback(Timer timer, int timeNoticed, object context);
 
-	[Token(Token = "0x20002ED")]
+	[Token(Token = "0x20002AE")]
 	private class TimerQueue : Queue
 	{
-		[Token(Token = "0x4000B27")]
+		[Token(Token = "0x4000A58")]
 		[FieldOffset(Offset = "0x18")]
 		private IntPtr m_ThisHandle;
 
-		[Token(Token = "0x4000B28")]
+		[Token(Token = "0x4000A59")]
 		[FieldOffset(Offset = "0x20")]
 		private readonly TimerNode m_Timers;
 
-		[Token(Token = "0x600145B")]
-		[Address(RVA = "0x27D2E70", Offset = "0x27D1470", VA = "0x1827D2E70")]
+		[Token(Token = "0x600129D")]
+		[Address(RVA = "0x62B05E0", Offset = "0x62AF5E0", VA = "0x62B05E0")]
 		internal TimerQueue(int durationMilliseconds)
 		{
 		}
 
-		[Token(Token = "0x600145C")]
-		[Address(RVA = "0x27D2970", Offset = "0x27D0F70", VA = "0x1827D2970", Slot = "4")]
+		[Token(Token = "0x600129E")]
+		[Address(RVA = "0x62B1F00", Offset = "0x62B0F00", VA = "0x62B1F00", Slot = "4")]
 		internal override Timer CreateTimer(Callback callback, object context)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600145D")]
-		[Address(RVA = "0x27D2CD0", Offset = "0x27D12D0", VA = "0x1827D2CD0")]
+		[Token(Token = "0x600129F")]
+		[Address(RVA = "0x62B19C0", Offset = "0x62B09C0", VA = "0x62B19C0")]
 		internal bool Fire(out int nextExpiration)
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x20002EE")]
+	[Token(Token = "0x20002AF")]
 	private class InfiniteTimerQueue : Queue
 	{
-		[Token(Token = "0x600145E")]
-		[Address(RVA = "0x27CF2F0", Offset = "0x27CD8F0", VA = "0x1827CF2F0")]
+		[Token(Token = "0x60012A0")]
+		[Address(RVA = "0x62B05C0", Offset = "0x62AF5C0", VA = "0x62B05C0")]
 		internal InfiniteTimerQueue()
 		{
 		}
 
-		[Token(Token = "0x600145F")]
-		[Address(RVA = "0x27CF290", Offset = "0x27CD890", VA = "0x1827CF290", Slot = "4")]
+		[Token(Token = "0x60012A1")]
+		[Address(RVA = "0x62B24A0", Offset = "0x62B14A0", VA = "0x62B24A0", Slot = "4")]
 		internal override Timer CreateTimer(Callback callback, object context)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20002EF")]
+	[Token(Token = "0x20002B0")]
 	private class TimerNode : Timer
 	{
-		[Token(Token = "0x20002F0")]
+		[Token(Token = "0x20002B1")]
 		private enum TimerState
 		{
-			[Token(Token = "0x4000B30")]
+			[Token(Token = "0x4000A61")]
 			Ready,
-			[Token(Token = "0x4000B31")]
+			[Token(Token = "0x4000A62")]
 			Fired,
-			[Token(Token = "0x4000B32")]
+			[Token(Token = "0x4000A63")]
 			Cancelled,
-			[Token(Token = "0x4000B33")]
+			[Token(Token = "0x4000A64")]
 			Sentinel
 		}
 
-		[Token(Token = "0x4000B29")]
+		[Token(Token = "0x4000A5A")]
 		[FieldOffset(Offset = "0x18")]
 		private TimerState m_TimerState;
 
-		[Token(Token = "0x4000B2A")]
+		[Token(Token = "0x4000A5B")]
 		[FieldOffset(Offset = "0x20")]
 		private Callback m_Callback;
 
-		[Token(Token = "0x4000B2B")]
+		[Token(Token = "0x4000A5C")]
 		[FieldOffset(Offset = "0x28")]
 		private object m_Context;
 
-		[Token(Token = "0x4000B2C")]
+		[Token(Token = "0x4000A5D")]
 		[FieldOffset(Offset = "0x30")]
 		private object m_QueueLock;
 
-		[Token(Token = "0x4000B2D")]
+		[Token(Token = "0x4000A5E")]
 		[FieldOffset(Offset = "0x38")]
 		private TimerNode next;
 
-		[Token(Token = "0x4000B2E")]
+		[Token(Token = "0x4000A5F")]
 		[FieldOffset(Offset = "0x40")]
 		private TimerNode prev;
 
-		[Token(Token = "0x1700043A")]
+		[Token(Token = "0x1700040B")]
 		internal override bool HasExpired
 		{
-			[Token(Token = "0x6001462")]
-			[Address(RVA = "0x27D2960", Offset = "0x27D0F60", VA = "0x1827D2960", Slot = "6")]
+			[Token(Token = "0x60012A4")]
+			[Address(RVA = "0x62B2510", Offset = "0x62B1510", VA = "0x62B2510", Slot = "6")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x1700043B")]
+		[Token(Token = "0x1700040C")]
 		internal TimerNode Next
 		{
-			[Token(Token = "0x6001463")]
-			[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+			[Token(Token = "0x60012A5")]
+			[Address(RVA = "0x62B2520", Offset = "0x62B1520", VA = "0x62B2520")]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x6001464")]
-			[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+			[Token(Token = "0x60012A6")]
+			[Address(RVA = "0x62B2530", Offset = "0x62B1530", VA = "0x62B2530")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x1700043C")]
+		[Token(Token = "0x1700040D")]
 		internal TimerNode Prev
 		{
-			[Token(Token = "0x6001465")]
-			[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+			[Token(Token = "0x60012A7")]
+			[Address(RVA = "0x62B2540", Offset = "0x62B1540", VA = "0x62B2540")]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x6001466")]
-			[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+			[Token(Token = "0x60012A8")]
+			[Address(RVA = "0x62B2550", Offset = "0x62B1550", VA = "0x62B2550")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x6001460")]
-		[Address(RVA = "0x27D28F0", Offset = "0x27D0EF0", VA = "0x1827D28F0")]
+		[Token(Token = "0x60012A2")]
+		[Address(RVA = "0x62B2150", Offset = "0x62B1150", VA = "0x62B2150")]
 		internal TimerNode(Callback callback, object context, int durationMilliseconds, object queueLock)
 		{
 		}
 
-		[Token(Token = "0x6001461")]
-		[Address(RVA = "0x27D28C0", Offset = "0x27D0EC0", VA = "0x1827D28C0")]
+		[Token(Token = "0x60012A3")]
+		[Address(RVA = "0x62B1ED0", Offset = "0x62B0ED0", VA = "0x62B1ED0")]
 		internal TimerNode()
 		{
 		}
 
-		[Token(Token = "0x6001467")]
-		[Address(RVA = "0x27D2500", Offset = "0x27D0B00", VA = "0x1827D2500", Slot = "5")]
+		[Token(Token = "0x60012A9")]
+		[Address(RVA = "0x62B2560", Offset = "0x62B1560", VA = "0x62B2560", Slot = "5")]
 		internal override bool Cancel()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001468")]
-		[Address(RVA = "0x27D2650", Offset = "0x27D0C50", VA = "0x1827D2650")]
+		[Token(Token = "0x60012AA")]
+		[Address(RVA = "0x62B21D0", Offset = "0x62B11D0", VA = "0x62B21D0")]
 		internal bool Fire()
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x20002F1")]
+	[Token(Token = "0x20002B2")]
 	private class InfiniteTimer : Timer
 	{
-		[Token(Token = "0x4000B34")]
+		[Token(Token = "0x4000A65")]
 		[FieldOffset(Offset = "0x18")]
 		private int cancelled;
 
-		[Token(Token = "0x1700043D")]
+		[Token(Token = "0x1700040E")]
 		internal override bool HasExpired
 		{
-			[Token(Token = "0x600146A")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+			[Token(Token = "0x60012AC")]
+			[Address(RVA = "0x62B26E0", Offset = "0x62B16E0", VA = "0x62B26E0", Slot = "6")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x6001469")]
-		[Address(RVA = "0x27CF330", Offset = "0x27CD930", VA = "0x1827CF330")]
+		[Token(Token = "0x60012AB")]
+		[Address(RVA = "0x62B24F0", Offset = "0x62B14F0", VA = "0x62B24F0")]
 		internal InfiniteTimer()
 		{
 		}
 
-		[Token(Token = "0x600146B")]
-		[Address(RVA = "0x27CF310", Offset = "0x27CD910", VA = "0x1827CF310", Slot = "5")]
+		[Token(Token = "0x60012AD")]
+		[Address(RVA = "0x62B26F0", Offset = "0x62B16F0", VA = "0x62B26F0", Slot = "5")]
 		internal override bool Cancel()
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x4000B1C")]
+	[Token(Token = "0x4000A4D")]
 	[FieldOffset(Offset = "0x0")]
 	private static LinkedList<WeakReference> s_Queues;
 
-	[Token(Token = "0x4000B1D")]
+	[Token(Token = "0x4000A4E")]
 	[FieldOffset(Offset = "0x8")]
 	private static LinkedList<WeakReference> s_NewQueues;
 
-	[Token(Token = "0x4000B1E")]
+	[Token(Token = "0x4000A4F")]
 	[FieldOffset(Offset = "0x10")]
 	private static int s_ThreadState;
 
-	[Token(Token = "0x4000B1F")]
+	[Token(Token = "0x4000A50")]
 	[FieldOffset(Offset = "0x18")]
 	private static AutoResetEvent s_ThreadReadyEvent;
 
-	[Token(Token = "0x4000B20")]
+	[Token(Token = "0x4000A51")]
 	[FieldOffset(Offset = "0x20")]
 	private static ManualResetEvent s_ThreadShutdownEvent;
 
-	[Token(Token = "0x4000B21")]
+	[Token(Token = "0x4000A52")]
 	[FieldOffset(Offset = "0x28")]
 	private static WaitHandle[] s_ThreadEvents;
 
-	[Token(Token = "0x4000B22")]
+	[Token(Token = "0x4000A53")]
 	[FieldOffset(Offset = "0x30")]
 	private static int s_CacheScanIteration;
 
-	[Token(Token = "0x4000B23")]
+	[Token(Token = "0x4000A54")]
 	[FieldOffset(Offset = "0x38")]
 	private static Hashtable s_QueuesCache;
 
-	[Token(Token = "0x6001448")]
-	[Address(RVA = "0x27D43D0", Offset = "0x27D29D0", VA = "0x1827D43D0")]
+	[Token(Token = "0x600128A")]
+	[Address(RVA = "0x62B02D0", Offset = "0x62AF2D0", VA = "0x62B02D0")]
 	static TimerThread()
 	{
 	}
 
-	[Token(Token = "0x6001449")]
-	[Address(RVA = "0x27D2F30", Offset = "0x27D1530", VA = "0x1827D2F30")]
+	[Token(Token = "0x600128B")]
+	[Address(RVA = "0x62AC270", Offset = "0x62AB270", VA = "0x62AC270")]
 	internal static Queue CreateQueue(int durationMilliseconds)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600144A")]
-	[Address(RVA = "0x27D3150", Offset = "0x27D1750", VA = "0x1827D3150")]
+	[Token(Token = "0x600128C")]
+	[Address(RVA = "0x62B0690", Offset = "0x62AF690", VA = "0x62B0690")]
 	internal static Queue GetOrCreateQueue(int durationMilliseconds)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600144B")]
-	[Address(RVA = "0x27D3A90", Offset = "0x27D2090", VA = "0x1827D3A90")]
+	[Token(Token = "0x600128D")]
+	[Address(RVA = "0x62B1070", Offset = "0x62B0070", VA = "0x62B1070")]
 	private static void Prod()
 	{
 	}
 
-	[Token(Token = "0x600144C")]
-	[Address(RVA = "0x27D3C30", Offset = "0x27D2230", VA = "0x1827D3C30")]
+	[Token(Token = "0x600128E")]
+	[Address(RVA = "0x62B11A0", Offset = "0x62B01A0", VA = "0x62B11A0")]
 	private static void ThreadProc()
 	{
 	}
 
-	[Token(Token = "0x600144D")]
-	[Address(RVA = "0x27D3BB0", Offset = "0x27D21B0", VA = "0x1827D3BB0")]
+	[Token(Token = "0x600128F")]
+	[Address(RVA = "0x62B1B90", Offset = "0x62B0B90", VA = "0x62B1B90")]
 	private static void StopTimerThread()
 	{
 	}
 
-	[Token(Token = "0x600144E")]
-	[Address(RVA = "0x27D39B0", Offset = "0x27D1FB0", VA = "0x1827D39B0")]
+	[Token(Token = "0x6001290")]
+	[Address(RVA = "0x62B1B70", Offset = "0x62B0B70", VA = "0x62B1B70")]
 	private static bool IsTickBetween(int start, int end, int comparand)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600144F")]
-	[Address(RVA = "0x27D39D0", Offset = "0x27D1FD0", VA = "0x1827D39D0")]
+	[Token(Token = "0x6001291")]
+	[Address(RVA = "0x62B1C00", Offset = "0x62B0C00", VA = "0x62B1C00")]
 	private static void OnDomainUnload(object sender, EventArgs e)
 	{
 	}

@@ -17,31 +17,31 @@ public class DebugUIHandlerObjectList : DebugUIHandlerField<DebugUI.ObjectListFi
 	private int m_Index;
 
 	[Token(Token = "0x6001474")]
-	[Address(RVA = "0x2BAE4A0", Offset = "0x2BACAA0", VA = "0x182BAE4A0", Slot = "5")]
+	[Address(RVA = "0x65A9E90", Offset = "0x65A8E90", VA = "0x65A9E90", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6001475")]
-	[Address(RVA = "0x2BAE480", Offset = "0x2BACA80", VA = "0x182BAE480", Slot = "9")]
+	[Address(RVA = "0x65A9EE0", Offset = "0x65A8EE0", VA = "0x65A9EE0", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001476")]
-	[Address(RVA = "0x2BAE460", Offset = "0x2BACA60", VA = "0x182BAE460", Slot = "10")]
+	[Address(RVA = "0x65A9F00", Offset = "0x65A8F00", VA = "0x65A9F00", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6001477")]
-	[Address(RVA = "0x2BAE500", Offset = "0x2BACB00", VA = "0x182BAE500", Slot = "13")]
+	[Address(RVA = "0x65A9F20", Offset = "0x65A8F20", VA = "0x65A9F20", Slot = "13")]
 	public override void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x6001478")]
-	[Address(RVA = "0x2BAE660", Offset = "0x2BACC60", VA = "0x182BAE660")]
+	[Address(RVA = "0x65AA090", Offset = "0x65A9090", VA = "0x65AA090")]
 	public DebugUIHandlerObjectList()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.OcclusionCullingCommon
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -60,7 +60,7 @@ internal class OcclusionCullingCommon : IDisposable
 		public OcclusionCullingDebugShaderVariables cb;
 
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65EF200", Offset = "0x65EE200", VA = "0x65EF200")]
 		public OcclusionTestOverlaySetupPassData()
 		{
 		}
@@ -74,7 +74,7 @@ internal class OcclusionCullingCommon : IDisposable
 		public BufferHandle debugPyramid;
 
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65EF210", Offset = "0x65EE210", VA = "0x65EF210")]
 		public OcclusionTestOverlayPassData()
 		{
 		}
@@ -120,7 +120,7 @@ internal class OcclusionCullingCommon : IDisposable
 		public Vector2 validRange;
 
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65EF220", Offset = "0x65EE220", VA = "0x65EF220")]
 		public OccluderOverlayPassData()
 		{
 		}
@@ -142,7 +142,7 @@ internal class OcclusionCullingCommon : IDisposable
 		public OccluderHandles occluderHandles;
 
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65EF230", Offset = "0x65EE230", VA = "0x65EF230")]
 		public UpdateOccludersPassData()
 		{
 		}
@@ -229,134 +229,134 @@ internal class OcclusionCullingCommon : IDisposable
 	private ProfilingSampler m_ProfilingSamplerOccluderOverlay;
 
 	[Token(Token = "0x600035A")]
-	[Address(RVA = "0x2BF56F0", Offset = "0x2BF3CF0", VA = "0x182BF56F0")]
+	[Address(RVA = "0x65EB0A0", Offset = "0x65EA0A0", VA = "0x65EB0A0")]
 	internal void Init(GPUResidentDrawerResources resources)
 	{
 	}
 
 	[Token(Token = "0x600035B")]
-	[Address(RVA = "0x2BF8100", Offset = "0x2BF6700", VA = "0x182BF8100")]
+	[Address(RVA = "0x65EB500", Offset = "0x65EA500", VA = "0x65EB500")]
 	internal static bool UseOcclusionDebug(in OccluderContext occluderCtx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x2BF5E70", Offset = "0x2BF4470", VA = "0x182BF5E70")]
+	[Address(RVA = "0x65EB510", Offset = "0x65EA510", VA = "0x65EB510")]
 	internal void PrepareCulling(ComputeCommandBuffer cmd, in OccluderContext occluderCtx, in OcclusionCullingSettings settings, in InstanceOcclusionTestSubviewSettings subviewSettings, in OcclusionTestComputeShader shader, bool useOcclusionDebug)
 	{
 	}
 
 	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x2BF70F0", Offset = "0x2BF56F0", VA = "0x182BF70F0")]
+	[Address(RVA = "0x65EBE20", Offset = "0x65EAE20", VA = "0x65EBE20")]
 	internal static void SetDepthPyramid(ComputeCommandBuffer cmd, in OcclusionTestComputeShader shader, int kernel, in OccluderHandles occluderHandles)
 	{
 	}
 
 	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x2BF7010", Offset = "0x2BF5610", VA = "0x182BF7010")]
+	[Address(RVA = "0x65EBEC0", Offset = "0x65EAEC0", VA = "0x65EBEC0")]
 	internal static void SetDebugPyramid(ComputeCommandBuffer cmd, in OcclusionTestComputeShader shader, int kernel, in OccluderHandles occluderHandles)
 	{
 	}
 
 	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x2BF68E0", Offset = "0x2BF4EE0", VA = "0x182BF68E0")]
+	[Address(RVA = "0x65EBF90", Offset = "0x65EAF90", VA = "0x65EBF90")]
 	public void RenderDebugOcclusionTestOverlay(RenderGraph renderGraph, DebugDisplayGPUResidentDrawer debugSettings, int viewInstanceID, in TextureHandle colorBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x2BF6400", Offset = "0x2BF4A00", VA = "0x182BF6400")]
+	[Address(RVA = "0x65EC960", Offset = "0x65EB960", VA = "0x65EC960")]
 	public void RenderDebugOccluderOverlay(RenderGraph renderGraph, DebugDisplayGPUResidentDrawer debugSettings, Vector2 screenPos, float maxHeight, in TextureHandle colorBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x2BF4C50", Offset = "0x2BF3250", VA = "0x182BF4C50")]
+	[Address(RVA = "0x65EB9F0", Offset = "0x65EA9F0", VA = "0x65EB9F0")]
 	private void DispatchDebugClear(ComputeCommandBuffer cmd, int viewInstanceID)
 	{
 	}
 
 	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x2BF60D0", Offset = "0x2BF46D0", VA = "0x182BF60D0")]
+	[Address(RVA = "0x65ECEE0", Offset = "0x65EBEE0", VA = "0x65ECEE0")]
 	private OccluderHandles PrepareOccluders(RenderGraph renderGraph, in OccluderParameters occluderParams)
 	{
 		return default(OccluderHandles);
 	}
 
 	[Token(Token = "0x6000363")]
-	[Address(RVA = "0x2BF4790", Offset = "0x2BF2D90", VA = "0x182BF4790")]
+	[Address(RVA = "0x65ED970", Offset = "0x65EC970", VA = "0x65ED970")]
 	private void CreateFarDepthPyramid(ComputeCommandBuffer cmd, in OccluderParameters occluderParams, ReadOnlySpan<OccluderSubviewUpdate> occluderSubviewUpdates, in OccluderHandles occluderHandles)
 	{
 	}
 
 	[Token(Token = "0x6000364")]
-	[Address(RVA = "0x2BF75B0", Offset = "0x2BF5BB0", VA = "0x182BF75B0")]
+	[Address(RVA = "0x65EDC60", Offset = "0x65ECC60", VA = "0x65EDC60")]
 	public bool UpdateInstanceOccluders(RenderGraph renderGraph, in OccluderParameters occluderParams, ReadOnlySpan<OccluderSubviewUpdate> occluderSubviewUpdates)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x2BF80D0", Offset = "0x2BF66D0", VA = "0x182BF80D0")]
+	[Address(RVA = "0x65EE430", Offset = "0x65ED430", VA = "0x65EE430")]
 	internal void UpdateSilhouettePlanes(int viewInstanceID, NativeArray<Plane> planes)
 	{
 	}
 
 	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x2BF5460", Offset = "0x2BF3A60", VA = "0x182BF5460")]
+	[Address(RVA = "0x65EC7B0", Offset = "0x65EB7B0", VA = "0x65EC7B0")]
 	internal OcclusionCullingDebugOutput GetOcclusionTestDebugOutput(int viewInstanceID)
 	{
 		return default(OcclusionCullingDebugOutput);
 	}
 
 	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x2BF7D70", Offset = "0x2BF6370", VA = "0x182BF7D70")]
+	[Address(RVA = "0x65EE440", Offset = "0x65ED440", VA = "0x65EE440")]
 	public void UpdateOccluderStats(DebugRendererBatcherStats debugStats)
 	{
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x2BF56A0", Offset = "0x2BF3CA0", VA = "0x182BF56A0")]
+	[Address(RVA = "0x65EE7D0", Offset = "0x65ED7D0", VA = "0x65EE7D0")]
 	internal bool HasOccluderContext(int viewInstanceID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x2BF52D0", Offset = "0x2BF38D0", VA = "0x182BF52D0")]
+	[Address(RVA = "0x65EE820", Offset = "0x65ED820", VA = "0x65EE820")]
 	internal bool GetOccluderContext(int viewInstanceID, out OccluderContext occluderContext)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x2BF72C0", Offset = "0x2BF58C0", VA = "0x182BF72C0")]
+	[Address(RVA = "0x65EE980", Offset = "0x65ED980", VA = "0x65EE980")]
 	internal void UpdateFrame()
 	{
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x2BF5B40", Offset = "0x2BF4140", VA = "0x182BF5B40")]
+	[Address(RVA = "0x65ED300", Offset = "0x65EC300", VA = "0x65ED300")]
 	private int NewContext(int viewInstanceID)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x2BF4A30", Offset = "0x2BF3030", VA = "0x182BF4A30")]
+	[Address(RVA = "0x65ED760", Offset = "0x65EC760", VA = "0x65ED760")]
 	private void DeleteContext(int viewInstanceID)
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x2BF4FA0", Offset = "0x2BF35A0", VA = "0x182BF4FA0", Slot = "4")]
+	[Address(RVA = "0x65EECF0", Offset = "0x65EDCF0", VA = "0x65EECF0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600036E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65EEFD0", Offset = "0x65EDFD0", VA = "0x65EEFD0")]
 	public OcclusionCullingCommon()
 	{
 	}

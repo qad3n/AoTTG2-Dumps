@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicLanguageEnum
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicLanguageEnum.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,424 +11,532 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004E3")]
+[Token(Token = "0x2000542")]
 [CompilerGenerated]
 internal class CustomLogicLanguageEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20004E4")]
+	[Token(Token = "0x2000543")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002AD5")]
-		[Address(RVA = "0x1FF04E0", Offset = "0x1FEEAE0", VA = "0x181FF04E0")]
+		[Token(Token = "0x6002D55")]
+		[Address(RVA = "0x5992260", Offset = "0x5991260", VA = "0x5992260")]
 		public static CustomLogicLanguageEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20004E5")]
+	[Token(Token = "0x2000544")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40016C9")]
+		[Token(Token = "0x4001869")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002AD6")]
-		[Address(RVA = "0x1FCEE40", Offset = "0x1FCD440", VA = "0x181FCEE40")]
+		[Token(Token = "0x6002D56")]
+		[Address(RVA = "0x5992380", Offset = "0x5991380", VA = "0x5992380")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AD7")]
-		[Address(RVA = "0x1FDF380", Offset = "0x1FDD980", VA = "0x181FDF380")]
+		[Token(Token = "0x6002D57")]
+		[Address(RVA = "0x5992CF0", Offset = "0x5991CF0", VA = "0x5992CF0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Arabic()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AD8")]
-		[Address(RVA = "0x1FE0820", Offset = "0x1FDEE20", VA = "0x181FE0820")]
+		[Token(Token = "0x6002D58")]
+		[Address(RVA = "0x5992D90", Offset = "0x5991D90", VA = "0x5992D90")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__BrazilianPortuguese()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AD9")]
-		[Address(RVA = "0x1FE0B40", Offset = "0x1FDF140", VA = "0x181FE0B40")]
+		[Token(Token = "0x6002D59")]
+		[Address(RVA = "0x5992E30", Offset = "0x5991E30", VA = "0x5992E30")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Catalan()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6002D5A")]
+		[Address(RVA = "0x5992ED0", Offset = "0x5991ED0", VA = "0x5992ED0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Chinese()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADA")]
-		[Address(RVA = "0x1FE1040", Offset = "0x1FDF640", VA = "0x181FE1040")]
+		[Token(Token = "0x6002D5B")]
+		[Address(RVA = "0x5992F70", Offset = "0x5991F70", VA = "0x5992F70")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Czech()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADB")]
-		[Address(RVA = "0x1FE1540", Offset = "0x1FDFB40", VA = "0x181FE1540")]
+		[Token(Token = "0x6002D5C")]
+		[Address(RVA = "0x5993010", Offset = "0x5992010", VA = "0x5993010")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Dutch()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADC")]
-		[Address(RVA = "0x1FE1B80", Offset = "0x1FE0180", VA = "0x181FE1B80")]
+		[Token(Token = "0x6002D5D")]
+		[Address(RVA = "0x59930B0", Offset = "0x59920B0", VA = "0x59930B0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__English()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADD")]
-		[Address(RVA = "0x1FE2F80", Offset = "0x1FE1580", VA = "0x181FE2F80")]
+		[Token(Token = "0x6002D5E")]
+		[Address(RVA = "0x5993150", Offset = "0x5992150", VA = "0x5993150")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Finnish()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6002D5F")]
+		[Address(RVA = "0x59931F0", Offset = "0x59921F0", VA = "0x59931F0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__French()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADE")]
-		[Address(RVA = "0x1FE3200", Offset = "0x1FE1800", VA = "0x181FE3200")]
+		[Token(Token = "0x6002D60")]
+		[Address(RVA = "0x5993290", Offset = "0x5992290", VA = "0x5993290")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__German()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002ADF")]
-		[Address(RVA = "0x1FE3340", Offset = "0x1FE1940", VA = "0x181FE3340")]
+		[Token(Token = "0x6002D61")]
+		[Address(RVA = "0x5993330", Offset = "0x5992330", VA = "0x5993330")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Greek()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE0")]
-		[Address(RVA = "0x1FE4240", Offset = "0x1FE2840", VA = "0x181FE4240")]
+		[Token(Token = "0x6002D62")]
+		[Address(RVA = "0x59933D0", Offset = "0x59923D0", VA = "0x59933D0")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Hungarian()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6002D63")]
+		[Address(RVA = "0x5993470", Offset = "0x5992470", VA = "0x5993470")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Indonesian()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE1")]
-		[Address(RVA = "0x1FE4380", Offset = "0x1FE2980", VA = "0x181FE4380")]
+		[Token(Token = "0x6002D64")]
+		[Address(RVA = "0x5993510", Offset = "0x5992510", VA = "0x5993510")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Italian()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE2")]
-		[Address(RVA = "0x1FE4420", Offset = "0x1FE2A20", VA = "0x181FE4420")]
+		[Token(Token = "0x6002D65")]
+		[Address(RVA = "0x59935B0", Offset = "0x59925B0", VA = "0x59935B0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Japanese()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE3")]
-		[Address(RVA = "0x1FE49C0", Offset = "0x1FE2FC0", VA = "0x181FE49C0")]
+		[Token(Token = "0x6002D66")]
+		[Address(RVA = "0x5993650", Offset = "0x5992650", VA = "0x5993650")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Korean()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE4")]
-		[Address(RVA = "0x1FE6680", Offset = "0x1FE4C80", VA = "0x181FE6680")]
+		[Token(Token = "0x6002D67")]
+		[Address(RVA = "0x59936F0", Offset = "0x59926F0", VA = "0x59936F0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Polish()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE5")]
-		[Address(RVA = "0x1FE6CC0", Offset = "0x1FE52C0", VA = "0x181FE6CC0")]
+		[Token(Token = "0x6002D68")]
+		[Address(RVA = "0x5993790", Offset = "0x5992790", VA = "0x5993790")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Romanian()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6002D69")]
+		[Address(RVA = "0x5993830", Offset = "0x5992830", VA = "0x5993830")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Russian()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE6")]
-		[Address(RVA = "0x1FE76C0", Offset = "0x1FE5CC0", VA = "0x181FE76C0")]
+		[Token(Token = "0x6002D6A")]
+		[Address(RVA = "0x59938D0", Offset = "0x59928D0", VA = "0x59938D0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Spanish()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE7")]
-		[Address(RVA = "0x1FE8C00", Offset = "0x1FE7200", VA = "0x181FE8C00")]
+		[Token(Token = "0x6002D6B")]
+		[Address(RVA = "0x5993970", Offset = "0x5992970", VA = "0x5993970")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Thai()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6002D6C")]
+		[Address(RVA = "0x5993A10", Offset = "0x5992A10", VA = "0x5993A10")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__TraditionalChinese()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE8")]
-		[Address(RVA = "0x1FE8D40", Offset = "0x1FE7340", VA = "0x181FE8D40")]
+		[Token(Token = "0x6002D6D")]
+		[Address(RVA = "0x5993AB0", Offset = "0x5992AB0", VA = "0x5993AB0")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Turkish()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AE9")]
-		[Address(RVA = "0x1FE8E80", Offset = "0x1FE7480", VA = "0x181FE8E80")]
+		[Token(Token = "0x6002D6E")]
+		[Address(RVA = "0x5993B50", Offset = "0x5992B50", VA = "0x5993B50")]
 		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Ukrainian()
 		{
 			return null;
 		}
+
+		[Token(Token = "0x6002D6F")]
+		[Address(RVA = "0x5993BF0", Offset = "0x5992BF0", VA = "0x5993BF0")]
+		public static CLPropertyBinding<CustomLogicLanguageEnum> __CreatePropertyBinding__Vietnamese()
+		{
+			return null;
+		}
 	}
 
-	[Token(Token = "0x170006E6")]
+	[Token(Token = "0x17000728")]
 	public static string Arabic
 	{
-		[Token(Token = "0x6002ABE")]
-		[Address(RVA = "0x1FDAEC0", Offset = "0x1FD94C0", VA = "0x181FDAEC0")]
+		[Token(Token = "0x6002D38")]
+		[Address(RVA = "0x5991D50", Offset = "0x5990D50", VA = "0x5991D50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006E7")]
+	[Token(Token = "0x17000729")]
 	public static string BrazilianPortuguese
 	{
-		[Token(Token = "0x6002ABF")]
-		[Address(RVA = "0x1FDBE40", Offset = "0x1FDA440", VA = "0x181FDBE40")]
+		[Token(Token = "0x6002D39")]
+		[Address(RVA = "0x5991D80", Offset = "0x5990D80", VA = "0x5991D80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006E8")]
+	[Token(Token = "0x1700072A")]
+	public static string Catalan
+	{
+		[Token(Token = "0x6002D3A")]
+		[Address(RVA = "0x5991DB0", Offset = "0x5990DB0", VA = "0x5991DB0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700072B")]
 	public static string Chinese
 	{
-		[Token(Token = "0x6002AC0")]
-		[Address(RVA = "0x1FDBF20", Offset = "0x1FDA520", VA = "0x181FDBF20")]
+		[Token(Token = "0x6002D3B")]
+		[Address(RVA = "0x5991DE0", Offset = "0x5990DE0", VA = "0x5991DE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006E9")]
+	[Token(Token = "0x1700072C")]
 	public static string Czech
 	{
-		[Token(Token = "0x6002AC1")]
-		[Address(RVA = "0x1FDC110", Offset = "0x1FDA710", VA = "0x181FDC110")]
+		[Token(Token = "0x6002D3C")]
+		[Address(RVA = "0x5991E10", Offset = "0x5990E10", VA = "0x5991E10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EA")]
+	[Token(Token = "0x1700072D")]
 	public static string Dutch
 	{
-		[Token(Token = "0x6002AC2")]
-		[Address(RVA = "0x1FDC250", Offset = "0x1FDA850", VA = "0x181FDC250")]
+		[Token(Token = "0x6002D3D")]
+		[Address(RVA = "0x5991E40", Offset = "0x5990E40", VA = "0x5991E40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EB")]
+	[Token(Token = "0x1700072E")]
 	public static string English
 	{
-		[Token(Token = "0x6002AC3")]
-		[Address(RVA = "0x1FDC400", Offset = "0x1FDAA00", VA = "0x181FDC400")]
+		[Token(Token = "0x6002D3E")]
+		[Address(RVA = "0x5991E70", Offset = "0x5990E70", VA = "0x5991E70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EC")]
+	[Token(Token = "0x1700072F")]
+	public static string Finnish
+	{
+		[Token(Token = "0x6002D3F")]
+		[Address(RVA = "0x5991EA0", Offset = "0x5990EA0", VA = "0x5991EA0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000730")]
 	public static string French
 	{
-		[Token(Token = "0x6002AC4")]
-		[Address(RVA = "0x1FDC9E0", Offset = "0x1FDAFE0", VA = "0x181FDC9E0")]
+		[Token(Token = "0x6002D40")]
+		[Address(RVA = "0x5991ED0", Offset = "0x5990ED0", VA = "0x5991ED0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006ED")]
+	[Token(Token = "0x17000731")]
 	public static string German
 	{
-		[Token(Token = "0x6002AC5")]
-		[Address(RVA = "0x1FDCAA0", Offset = "0x1FDB0A0", VA = "0x181FDCAA0")]
+		[Token(Token = "0x6002D41")]
+		[Address(RVA = "0x5991F00", Offset = "0x5990F00", VA = "0x5991F00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EE")]
+	[Token(Token = "0x17000732")]
 	public static string Greek
 	{
-		[Token(Token = "0x6002AC6")]
-		[Address(RVA = "0x1FDCB00", Offset = "0x1FDB100", VA = "0x181FDCB00")]
+		[Token(Token = "0x6002D42")]
+		[Address(RVA = "0x5991F30", Offset = "0x5990F30", VA = "0x5991F30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EF")]
+	[Token(Token = "0x17000733")]
+	public static string Hungarian
+	{
+		[Token(Token = "0x6002D43")]
+		[Address(RVA = "0x5991F60", Offset = "0x5990F60", VA = "0x5991F60")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000734")]
 	public static string Indonesian
 	{
-		[Token(Token = "0x6002AC7")]
-		[Address(RVA = "0x1FDD100", Offset = "0x1FDB700", VA = "0x181FDD100")]
+		[Token(Token = "0x6002D44")]
+		[Address(RVA = "0x5991F90", Offset = "0x5990F90", VA = "0x5991F90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F0")]
+	[Token(Token = "0x17000735")]
 	public static string Italian
 	{
-		[Token(Token = "0x6002AC8")]
-		[Address(RVA = "0x1FDD160", Offset = "0x1FDB760", VA = "0x181FDD160")]
+		[Token(Token = "0x6002D45")]
+		[Address(RVA = "0x5991FC0", Offset = "0x5990FC0", VA = "0x5991FC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F1")]
+	[Token(Token = "0x17000736")]
 	public static string Japanese
 	{
-		[Token(Token = "0x6002AC9")]
-		[Address(RVA = "0x1FDD190", Offset = "0x1FDB790", VA = "0x181FDD190")]
+		[Token(Token = "0x6002D46")]
+		[Address(RVA = "0x5991FF0", Offset = "0x5990FF0", VA = "0x5991FF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F2")]
+	[Token(Token = "0x17000737")]
 	public static string Korean
 	{
-		[Token(Token = "0x6002ACA")]
-		[Address(RVA = "0x1FDD400", Offset = "0x1FDBA00", VA = "0x181FDD400")]
+		[Token(Token = "0x6002D47")]
+		[Address(RVA = "0x5992020", Offset = "0x5991020", VA = "0x5992020")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F3")]
+	[Token(Token = "0x17000738")]
 	public static string Polish
 	{
-		[Token(Token = "0x6002ACB")]
-		[Address(RVA = "0x1FDDD30", Offset = "0x1FDC330", VA = "0x181FDDD30")]
+		[Token(Token = "0x6002D48")]
+		[Address(RVA = "0x5992050", Offset = "0x5991050", VA = "0x5992050")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F4")]
+	[Token(Token = "0x17000739")]
+	public static string Romanian
+	{
+		[Token(Token = "0x6002D49")]
+		[Address(RVA = "0x5992080", Offset = "0x5991080", VA = "0x5992080")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700073A")]
 	public static string Russian
 	{
-		[Token(Token = "0x6002ACC")]
-		[Address(RVA = "0x1FDDF20", Offset = "0x1FDC520", VA = "0x181FDDF20")]
+		[Token(Token = "0x6002D4A")]
+		[Address(RVA = "0x59920B0", Offset = "0x59910B0", VA = "0x59920B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F5")]
+	[Token(Token = "0x1700073B")]
 	public static string Spanish
 	{
-		[Token(Token = "0x6002ACD")]
-		[Address(RVA = "0x1FDE1E0", Offset = "0x1FDC7E0", VA = "0x181FDE1E0")]
+		[Token(Token = "0x6002D4B")]
+		[Address(RVA = "0x59920E0", Offset = "0x59910E0", VA = "0x59920E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F6")]
+	[Token(Token = "0x1700073C")]
+	public static string Thai
+	{
+		[Token(Token = "0x6002D4C")]
+		[Address(RVA = "0x5992110", Offset = "0x5991110", VA = "0x5992110")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700073D")]
 	public static string TraditionalChinese
 	{
-		[Token(Token = "0x6002ACE")]
-		[Address(RVA = "0x1FDE900", Offset = "0x1FDCF00", VA = "0x181FDE900")]
+		[Token(Token = "0x6002D4D")]
+		[Address(RVA = "0x5992140", Offset = "0x5991140", VA = "0x5992140")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F7")]
+	[Token(Token = "0x1700073E")]
 	public static string Turkish
 	{
-		[Token(Token = "0x6002ACF")]
-		[Address(RVA = "0x1FDE930", Offset = "0x1FDCF30", VA = "0x181FDE930")]
+		[Token(Token = "0x6002D4E")]
+		[Address(RVA = "0x5992170", Offset = "0x5991170", VA = "0x5992170")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F8")]
+	[Token(Token = "0x1700073F")]
 	public static string Ukrainian
 	{
-		[Token(Token = "0x6002AD0")]
-		[Address(RVA = "0x1FDE960", Offset = "0x1FDCF60", VA = "0x181FDE960")]
+		[Token(Token = "0x6002D4F")]
+		[Address(RVA = "0x59921A0", Offset = "0x59911A0", VA = "0x59921A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006F9")]
+	[Token(Token = "0x17000740")]
+	public static string Vietnamese
+	{
+		[Token(Token = "0x6002D50")]
+		[Address(RVA = "0x59921D0", Offset = "0x59911D0", VA = "0x59921D0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000741")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002AD1")]
-		[Address(RVA = "0x1FEE020", Offset = "0x1FEC620", VA = "0x181FEE020", Slot = "6")]
+		[Token(Token = "0x6002D51")]
+		[Address(RVA = "0x5992200", Offset = "0x5991200", VA = "0x5992200", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006FA")]
+	[Token(Token = "0x17000742")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002AD2")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002D52")]
+		[Address(RVA = "0x5992230", Offset = "0x5991230", VA = "0x5992230", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170006FB")]
+	[Token(Token = "0x17000743")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002AD3")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6002D53")]
+		[Address(RVA = "0x5992240", Offset = "0x5991240", VA = "0x5992240", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170006FC")]
+	[Token(Token = "0x17000744")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002AD4")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002D54")]
+		[Address(RVA = "0x5992250", Offset = "0x5991250", VA = "0x5992250", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002ABD")]
-	[Address(RVA = "0x1FEDFD0", Offset = "0x1FEC5D0", VA = "0x181FEDFD0")]
+	[Token(Token = "0x6002D37")]
+	[Address(RVA = "0x5991CE0", Offset = "0x5990CE0", VA = "0x5991CE0")]
 	public CustomLogicLanguageEnum()
 	{
 	}

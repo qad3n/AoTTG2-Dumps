@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeShaders
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -77,7 +77,7 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public int version
 	{
 		[Token(Token = "0x6000806")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667B1A0", Offset = "0x667A1A0", VA = "0x667B1A0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -88,7 +88,7 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000807")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667B1B0", Offset = "0x667A1B0", VA = "0x667B1B0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -99,13 +99,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader fallbackErrorShader
 	{
 		[Token(Token = "0x6000808")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667B1C0", Offset = "0x667A1C0", VA = "0x667B1C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000809")]
-		[Address(RVA = "0x2C8E080", Offset = "0x2C8C680", VA = "0x182C8E080")]
+		[Address(RVA = "0x667B1D0", Offset = "0x667A1D0", VA = "0x667B1D0")]
 		set
 		{
 		}
@@ -115,13 +115,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader blitHDROverlay
 	{
 		[Token(Token = "0x600080A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667B230", Offset = "0x667A230", VA = "0x667B230")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080B")]
-		[Address(RVA = "0x2C8DF30", Offset = "0x2C8C530", VA = "0x182C8DF30")]
+		[Address(RVA = "0x667B240", Offset = "0x667A240", VA = "0x667B240")]
 		set
 		{
 		}
@@ -131,13 +131,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader coreBlitPS
 	{
 		[Token(Token = "0x600080C")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x667B2A0", Offset = "0x667A2A0", VA = "0x667B2A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x2C8E010", Offset = "0x2C8C610", VA = "0x182C8E010")]
+		[Address(RVA = "0x667B2B0", Offset = "0x667A2B0", VA = "0x667B2B0")]
 		set
 		{
 		}
@@ -147,13 +147,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader coreBlitColorAndDepthPS
 	{
 		[Token(Token = "0x600080E")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x667B310", Offset = "0x667A310", VA = "0x667B310")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080F")]
-		[Address(RVA = "0x2C8DFA0", Offset = "0x2C8C5A0", VA = "0x182C8DFA0")]
+		[Address(RVA = "0x667B320", Offset = "0x667A320", VA = "0x667B320")]
 		set
 		{
 		}
@@ -163,13 +163,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader samplingPS
 	{
 		[Token(Token = "0x6000810")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x667B380", Offset = "0x667A380", VA = "0x667B380")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000811")]
-		[Address(RVA = "0x2C8E0F0", Offset = "0x2C8C6F0", VA = "0x182C8E0F0")]
+		[Address(RVA = "0x667B390", Offset = "0x667A390", VA = "0x667B390")]
 		set
 		{
 		}
@@ -180,13 +180,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader terrainDetailLitShader
 	{
 		[Token(Token = "0x6000816")]
-		[Address(RVA = "0x2C8DEB0", Offset = "0x2C8C4B0", VA = "0x182C8DEB0")]
+		[Address(RVA = "0x667B470", Offset = "0x667A470", VA = "0x667B470")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000817")]
-		[Address(RVA = "0x2C8E300", Offset = "0x2C8C900", VA = "0x182C8E300")]
+		[Address(RVA = "0x667B4F0", Offset = "0x667A4F0", VA = "0x667B4F0")]
 		set
 		{
 		}
@@ -197,13 +197,13 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader terrainDetailGrassBillboardShader
 	{
 		[Token(Token = "0x6000818")]
-		[Address(RVA = "0x2C8DDB0", Offset = "0x2C8C3B0", VA = "0x182C8DDB0")]
+		[Address(RVA = "0x667B620", Offset = "0x667A620", VA = "0x667B620")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000819")]
-		[Address(RVA = "0x2C8E160", Offset = "0x2C8C760", VA = "0x182C8E160")]
+		[Address(RVA = "0x667B6A0", Offset = "0x667A6A0", VA = "0x667B6A0")]
 		set
 		{
 		}
@@ -214,47 +214,47 @@ public class UniversalRenderPipelineRuntimeShaders : IRenderPipelineResources, I
 	public Shader terrainDetailGrassShader
 	{
 		[Token(Token = "0x600081A")]
-		[Address(RVA = "0x2C8DE30", Offset = "0x2C8C430", VA = "0x182C8DE30")]
+		[Address(RVA = "0x667B7D0", Offset = "0x667A7D0", VA = "0x667B7D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081B")]
-		[Address(RVA = "0x2C8E230", Offset = "0x2C8C830", VA = "0x182C8E230")]
+		[Address(RVA = "0x667B850", Offset = "0x667A850", VA = "0x667B850")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+	[Address(RVA = "0x667B3F0", Offset = "0x667A3F0", VA = "0x667B3F0")]
 	internal Shader GetOriginalTerrainDetailLitShader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+	[Address(RVA = "0x667B400", Offset = "0x667A400", VA = "0x667B400")]
 	internal Shader GetOriginalTerrainDetailGrassBillboardShader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+	[Address(RVA = "0x667B410", Offset = "0x667A410", VA = "0x667B410")]
 	internal Shader GetOriginalTerrainDetailGrassShader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x2C8DD60", Offset = "0x2C8C360", VA = "0x182C8DD60")]
+	[Address(RVA = "0x667B420", Offset = "0x667A420", VA = "0x667B420")]
 	internal void ClearOriginalTerrainDetailShaders()
 	{
 	}
 
 	[Token(Token = "0x600081C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667B980", Offset = "0x667A980", VA = "0x667B980")]
 	public UniversalRenderPipelineRuntimeShaders()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.StallMarkerAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,13 +34,13 @@ internal class StallMarkerAnalytic : AnalyticsEventBase
 	public double Duration;
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x3307FF0", Offset = "0x33065F0", VA = "0x183307FF0")]
+	[Address(RVA = "0x6D18B60", Offset = "0x6D17B60", VA = "0x6D18B60")]
 	public StallMarkerAnalytic()
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x3307F60", Offset = "0x3306560", VA = "0x183307F60")]
+	[Address(RVA = "0x6D18BC0", Offset = "0x6D17BC0", VA = "0x6D18BC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static StallMarkerAnalytic CreateStallMarkerAnalytic()
 	{

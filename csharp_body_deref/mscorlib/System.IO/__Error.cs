@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000698")]
+[Token(Token = "0x2000672")]
 internal static class __Error
 {
-	[Token(Token = "0x60032CA")]
-	[Address(RVA = "0x1B02970", Offset = "0x1B00F70", VA = "0x181B02970")]
+	[Token(Token = "0x6003297")]
+	[Address(RVA = "0x5480DA0", Offset = "0x547FDA0", VA = "0x5480DA0")]
 	internal static void EndOfFile()
 	{
 	}
 
-	[Token(Token = "0x60032CB")]
-	[Address(RVA = "0x1B029D0", Offset = "0x1B00FD0", VA = "0x181B029D0")]
+	[Token(Token = "0x6003298")]
+	[Address(RVA = "0x5480E00", Offset = "0x547FE00", VA = "0x5480E00")]
 	internal static void FileNotOpen()
 	{
 	}
 
-	[Token(Token = "0x60032CC")]
-	[Address(RVA = "0x1B02B90", Offset = "0x1B01190", VA = "0x181B02B90")]
+	[Token(Token = "0x6003299")]
+	[Address(RVA = "0x5480E60", Offset = "0x547FE60", VA = "0x5480E60")]
 	internal static void ReaderClosed()
 	{
 	}
 
-	[Token(Token = "0x60032CD")]
-	[Address(RVA = "0x1B02A40", Offset = "0x1B01040", VA = "0x181B02A40")]
+	[Token(Token = "0x600329A")]
+	[Address(RVA = "0x5480EC0", Offset = "0x547FEC0", VA = "0x5480EC0")]
 	internal static string GetDisplayablePath(string path, bool isInvalidPath)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60032CE")]
-	[Address(RVA = "0x1B02C00", Offset = "0x1B01200", VA = "0x181B02C00")]
+	[Token(Token = "0x600329B")]
+	[Address(RVA = "0x54810E0", Offset = "0x54800E0", VA = "0x54810E0")]
 	internal static void WinIOError(int errorCode, string maybeFullPath)
 	{
 	}
 
-	[Token(Token = "0x60032CF")]
-	[Address(RVA = "0x1B03430", Offset = "0x1B01A30", VA = "0x181B03430")]
+	[Token(Token = "0x600329C")]
+	[Address(RVA = "0x54816D0", Offset = "0x54806D0", VA = "0x54816D0")]
 	internal static void WriterClosed()
 	{
 	}

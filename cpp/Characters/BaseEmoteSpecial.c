@@ -1,5 +1,5 @@
 // Type: Characters.BaseEmoteSpecial
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseEmoteSpecial.cs
@@ -8,10 +8,9 @@
 
 // Characters.BaseEmoteSpecial$$get_GroundedOnly
 // il2cpp: bool Characters_BaseEmoteSpecial__get_GroundedOnly (Characters_BaseEmoteSpecial_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5c08d80
 
-bool
-Characters_BaseEmoteSpecial__get_GroundedOnly(Characters_BaseEmoteSpecial_o* __this, MethodInfo* method)
+bool Characters_BaseEmoteSpecial__get_GroundedOnly(Characters_BaseEmoteSpecial_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -20,76 +19,73 @@ Characters_BaseEmoteSpecial__get_GroundedOnly(Characters_BaseEmoteSpecial_o* __t
 
 // Characters.BaseEmoteSpecial$$.ctor
 // il2cpp: void Characters_BaseEmoteSpecial___ctor (Characters_BaseEmoteSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x182166fc0
+// 0x5c08d90
 
 void Characters_BaseEmoteSpecial___ctor
                (Characters_BaseEmoteSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
   byte bVar1;
+  Characters_Human_c *pCVar2;
   
-  if (Il2CppMethodInitialized_184346cdd == '\0') {
+  if (Il2CppMethodInitialized_075476ad == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
-    Il2CppMethodInitialized_184346cdd = '\x01';
+    Il2CppMethodInitialized_075476ad = '\x01';
   }
-  Characters_ExtendedUseable___ctor((Characters_SimpleUseable_o *)__this,owner,(MethodInfo *)0x0);
+  Characters_ExtendedUseable___ctor((Characters_ExtendedUseable_o *)__this,owner,(MethodInfo *)0x0);
+  pCVar2 = TypeInfo_Characters_Human;
   if (owner == (Characters_BaseCharacter_o *)0x0) {
     (__this->fields)._human = (Characters_Human_o *)0x0;
+label_05c08e1f:
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._human);
+    return;
   }
-  else {
-    bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
-    if (((owner->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((owner->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_Human)) {
-      il2cpp_codegen_raise_invalid_cast_exception(owner);
-    }
+  bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
+  if ((bVar1 <= (owner->klass->_2).typeHierarchyDepth) &&
+     ((owner->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human)) {
     (__this->fields)._human = (Characters_Human_o *)owner;
-    bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
-    if (((owner->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((owner->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_Human)) {
-      il2cpp_codegen_raise_invalid_cast_exception(owner);
-    }
+    if ((bVar1 <= (owner->klass->_2).typeHierarchyDepth) &&
+       ((owner->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)pCVar2)) goto label_05c08e1f;
   }
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._human,owner);
-  return;
+  il2cpp_codegen_raise_invalid_cast_exception(owner);
 }
 
 
 // Characters.BaseEmoteSpecial$$CanUse
 // il2cpp: bool Characters_BaseEmoteSpecial__CanUse (Characters_BaseEmoteSpecial_o* __this, const MethodInfo* method);
-// 0x182166f30
+// 0x5c08e40
 
 bool Characters_BaseEmoteSpecial__CanUse(Characters_BaseEmoteSpecial_o *__this,MethodInfo *method)
 
 {
-  Characters_Human_o *pCVar1;
-  bool bVar2;
+  Characters_Human_o *__this_00;
+  bool bVar1;
   
-  bVar2 = Characters_BaseUseable__CanUse((Characters_BaseUseable_o *)__this,(MethodInfo *)0x0);
-  if (!bVar2) {
+  bVar1 = Characters_BaseUseable__CanUse((Characters_BaseUseable_o *)__this,(MethodInfo *)0x0);
+  if (!bVar1) {
     return false;
   }
-  bVar2 = (*(__this->klass->vtable)._17_get_GroundedOnly.methodPtr)
+  bVar1 = (*(__this->klass->vtable)._17_get_GroundedOnly.methodPtr)
                     (__this,(__this->klass->vtable)._17_get_GroundedOnly.method);
-  if (bVar2) {
-    pCVar1 = (__this->fields)._human;
-    if (pCVar1 == (Characters_Human_o *)0x0) goto label_182166f8a;
-    if ((pCVar1->fields).Grounded == false) {
-      return false;
+  __this_00 = (__this->fields)._human;
+  if (bVar1) {
+    if (__this_00 != (Characters_Human_o *)0x0) {
+      if ((__this_00->fields).Grounded == false) {
+        return false;
+      }
+label_05c08e81:
+      bVar1 = Characters_Human__CanEmote(__this_00,(MethodInfo *)0x0);
+      return bVar1;
     }
   }
-  pCVar1 = (__this->fields)._human;
-  if (pCVar1 != (Characters_Human_o *)0x0) {
-    bVar2 = Characters_Human__CanEmote(pCVar1,(MethodInfo *)0x0);
-    return bVar2;
-  }
-label_182166f8a:
+  else if (__this_00 != (Characters_Human_o *)0x0) goto label_05c08e81;
   ThrowNullReferenceException();
 }
 
 
 // Characters.BaseEmoteSpecial$$InSpecial
 // il2cpp: bool Characters_BaseEmoteSpecial__InSpecial (Characters_BaseEmoteSpecial_o* __this, const MethodInfo* method);
-// 0x182166f90
+// 0x5c08e90
 
 bool Characters_BaseEmoteSpecial__InSpecial(Characters_BaseEmoteSpecial_o *__this,MethodInfo *method)
 
@@ -97,10 +93,10 @@ bool Characters_BaseEmoteSpecial__InSpecial(Characters_BaseEmoteSpecial_o *__thi
   Characters_Human_o *pCVar1;
   
   pCVar1 = (__this->fields)._human;
-  if (pCVar1 != (Characters_Human_o *)0x0) {
-    return (pCVar1->fields)._state == 8;
+  if (pCVar1 == (Characters_Human_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pCVar1->fields)._state == 8;
 }
 
 

@@ -1,5 +1,5 @@
 // Type: Characters.BaseTitanComponentCache
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseTitanComponentCache.cs
@@ -8,9 +8,15 @@
 
 // Characters.BaseTitanComponentCache$$.ctor
 // il2cpp: void Characters_BaseTitanComponentCache___ctor (Characters_BaseTitanComponentCache_o* __this, UnityEngine_GameObject_o* owner, const MethodInfo* method);
-// 0x182179ec0
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18217a14e: nop 
+// 0x5c2d7e0
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5c2db3d: nop dword ptr [rax]
+// asm:   0x5c2dbb0: jmp 0x5c2dc20
+// asm:   0x5c2dbff: jmp 0x5c2dcb0
+// asm:   0x5c2dc1c: nop dword ptr [rax]
+// asm:   0x5c2dd78: jmp 0x5c2ddc8
+// asm:   0x5c2de9d: nop dword ptr [rax]
+// asm:   0x5c2dec8: jmp 0x5c2e0a1
 
 void Characters_BaseTitanComponentCache___ctor
                (Characters_BaseTitanComponentCache_o *__this,UnityEngine_GameObject_o *owner,
@@ -18,24 +24,31 @@ void Characters_BaseTitanComponentCache___ctor
 
 {
   int32_t *piVar1;
-  uint uVar2;
-  UnityEngine_Component_o *__this_00;
-  Characters_BaseHitbox_array *pCVar3;
-  MethodInfo *pMVar4;
-  bool bVar5;
-  int32_t iVar6;
-  System_Collections_Generic_List_Collider__o *pSVar7;
-  System_Collections_Generic_List_BaseHitbox__o *pSVar8;
+  System_Collections_Generic_List_Collider__o **targetAddress;
+  System_Collections_Generic_List_BaseHitbox__o **targetAddress_00;
+  System_Collections_Generic_List_Collider__o **targetAddress_01;
+  int iVar2;
+  Characters_BaseHitbox_o *pCVar3;
+  UnityEngine_Collider_array *pUVar4;
+  Characters_BaseHitbox_array *pCVar5;
+  MethodInfo *pMVar6;
+  bool bVar7;
+  int32_t iVar8;
+  System_Collections_Generic_List_Collider__o *pSVar9;
+  System_Collections_Generic_List_BaseHitbox__o *pSVar10;
   Characters_BaseCharacter_o *owner_00;
-  UnityEngine_CapsuleCollider_o *value;
-  System_Object_array *pSVar9;
-  UnityEngine_Object_o *__this_01;
+  UnityEngine_CapsuleCollider_o *pUVar11;
+  System_Object_array *pSVar12;
+  UnityEngine_Object_o *__this_00;
   System_String_o *a;
-  Characters_ContinuousDamageHitbox_o *value_00;
-  Characters_BaseHitbox_o *pCVar10;
-  uint uVar11;
+  Characters_ContinuousDamageHitbox_o *pCVar13;
+  ulong uVar14;
+  uint uVar15;
+  uint uVar16;
+  ulong uVar17;
+  Characters_BaseHitbox_o **targetAddress_02;
   
-  if (Il2CppMethodInitialized_184346ddd == '\0') {
+  if (Il2CppMethodInitialized_075477ae == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponent_CapsuleCollider);
@@ -65,275 +78,296 @@ void Characters_BaseTitanComponentCache___ctor
     il2cpp_codegen_initialize_runtime_metadata(&"NapeHurtbox");
     il2cpp_codegen_initialize_runtime_metadata(&"HandLHurtbox");
     il2cpp_codegen_initialize_runtime_metadata(&"SteamHitbox");
-    Il2CppMethodInitialized_184346ddd = '\x01';
+    Il2CppMethodInitialized_075477ae = '\x01';
   }
-  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Collider);
+  pSVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Collider);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)pSVar7,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Collider_ctor);
-  (__this->fields).ToggleColliders = pSVar7;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).ToggleColliders,pSVar7);
-  pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BaseHitbox);
+            ((System_Collections_Generic_List_object__o *)pSVar9,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Collider_ctor);
+  targetAddress = &(__this->fields).ToggleColliders;
+  (__this->fields).ToggleColliders = pSVar9;
+  Il2CppCodeGenWriteBarrier(targetAddress);
+  pSVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BaseHitbox);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)pSVar8,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_BaseHitbox_ctor);
-  (__this->fields).Hitboxes = pSVar8;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Hitboxes,pSVar8);
-  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Collider);
+            ((System_Collections_Generic_List_object__o *)pSVar10,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_BaseHitbox_ctor);
+  targetAddress_00 = &(__this->fields).Hitboxes;
+  (__this->fields).Hitboxes = pSVar10;
+  Il2CppCodeGenWriteBarrier(targetAddress_00);
+  pSVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Collider);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)pSVar7,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Collider_ctor);
-  (__this->fields).Hurtboxes = pSVar7;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Hurtboxes,pSVar7);
+            ((System_Collections_Generic_List_object__o *)pSVar9,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Collider_ctor);
+  targetAddress_01 = &(__this->fields).Hurtboxes;
+  (__this->fields).Hurtboxes = pSVar9;
+  Il2CppCodeGenWriteBarrier(targetAddress_01);
   Utility_BaseComponentCache___ctor((Utility_BaseComponentCache_o *)__this,owner,(MethodInfo *)0x0);
   if (owner != (UnityEngine_GameObject_o *)0x0) {
     owner_00 = UnityEngine_GameObject__GetComponent_object_
-                         (owner,(MethodInfo_6F5650 *)
+                         (owner,(MethodInfo_353B730 *)
                                 MethodInfo_UnityEngine_GameObject_GetComponent_BaseCharacter);
-    value = UnityEngine_GameObject__GetComponent_object_
-                      (owner,(MethodInfo_6F5650 *)
-                             MethodInfo_UnityEngine_GameObject_GetComponent_CapsuleCollider);
-    (__this->fields).Movebox = (UnityEngine_Collider_o *)value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).Movebox,value);
-    pSVar9 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                       (owner,(MethodInfo_6F5810 *)
-                              MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Collider);
-    if (pSVar9 != (System_Object_array *)0x0) {
-      uVar11 = 0;
-      while ((int)uVar11 < (int)pSVar9->max_length) {
-        if ((uint)pSVar9->max_length <= uVar11) goto label_18217a7ba;
-        __this_00 = (UnityEngine_Component_o *)pSVar9->m_Items[(int)uVar11];
-        if (__this_00 == (UnityEngine_Component_o *)0x0) goto label_18217a7c0;
-        __this_01 = (UnityEngine_Object_o *)UnityEngine_Component__get_gameObject(__this_00,(MethodInfo *)0x0)
-        ;
-        if (__this_01 == (UnityEngine_Object_o *)0x0) goto label_18217a7c0;
-        a = UnityEngine_Object__get_name(__this_01,(MethodInfo *)0x0);
-        iVar6 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-        if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
-        }
-        if (iVar6 == TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox) {
-label_18217a200:
-          bVar5 = System_String__op_Inequality(a,"SitPushbox",(MethodInfo *)0x0);
-          if (bVar5) {
-            if ((__this->fields).ToggleColliders == (System_Collections_Generic_List_Collider__o *)0x0)
-            goto label_18217a7c0;
-            il2cpp_runtime_helper_180012890();
-          }
-        }
-        else {
-          iVar6 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
+    pUVar11 = UnityEngine_GameObject__GetComponent_object_
+                        (owner,(MethodInfo_353B730 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_CapsuleCollider);
+    (__this->fields).Movebox = (UnityEngine_Collider_o *)pUVar11;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).Movebox);
+    pSVar12 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                        (owner,(MethodInfo_353C030 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Collider);
+    if (pSVar12 != (System_Object_array *)0x0) {
+      uVar15 = (uint)pSVar12->max_length;
+      if (0 < (int)uVar15) {
+        uVar16 = 0;
+        do {
+          if (uVar15 <= uVar16) goto label_05c2e15f;
+          pCVar3 = (Characters_BaseHitbox_o *)pSVar12->m_Items[(int)uVar16];
+          if ((pCVar3 == (Characters_BaseHitbox_o *)0x0) ||
+             (__this_00 = (UnityEngine_Object_o *)
+                          UnityEngine_Component__get_gameObject
+                                    ((UnityEngine_Component_o *)pCVar3,(MethodInfo *)0x0),
+             __this_00 == (UnityEngine_Object_o *)0x0)) goto label_05c2e15a;
+          a = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+          iVar8 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0);
           if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
-          }
-          if (iVar6 == TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox) goto label_18217a200;
-        }
-        iVar6 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-        if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
-        }
-        if (iVar6 == TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox) {
-          UnityEngine_Collider__set_isTrigger((UnityEngine_Collider_o *)__this_00,true,(MethodInfo *)0x0);
-          pSVar7 = (__this->fields).Hurtboxes;
-          if (pSVar7 == (System_Collections_Generic_List_Collider__o *)0x0) goto label_18217a7c0;
-          il2cpp_runtime_helper_180012890(pSVar7,__this_00);
-        }
-        else {
-          iVar6 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-          if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
-          }
-          if (iVar6 == TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox) {
-            UnityEngine_Collider__set_enabled((UnityEngine_Collider_o *)__this_00,false,(MethodInfo *)0x0);
-            UnityEngine_Collider__set_isTrigger((UnityEngine_Collider_o *)__this_00,true,(MethodInfo *)0x0);
-          }
-        }
-        bVar5 = System_String__op_Equality(a,"NapeHurtbox",(MethodInfo *)0x0);
-        if (bVar5) {
-          (__this->fields).NapeHurtbox = (UnityEngine_Collider_o *)__this_00;
-          Il2CppCodeGenWriteBarrier(&(__this->fields).NapeHurtbox,__this_00);
-label_18217a6d9:
-          uVar11 = uVar11 + 1;
-        }
-        else {
-          bVar5 = System_String__op_Equality(a,"EyesHurtbox",(MethodInfo *)0x0);
-          if (bVar5) {
-            (__this->fields).EyesHurtbox = (UnityEngine_Collider_o *)__this_00;
-            Il2CppCodeGenWriteBarrier(&(__this->fields).EyesHurtbox,__this_00);
-            uVar11 = uVar11 + 1;
-          }
-          else {
-            bVar5 = System_String__op_Equality(a,"LegLHurtbox",(MethodInfo *)0x0);
-            if (bVar5) {
-              (__this->fields).LegLHurtbox = (UnityEngine_Collider_o *)__this_00;
-              Il2CppCodeGenWriteBarrier(&(__this->fields).LegLHurtbox,__this_00);
-              uVar11 = uVar11 + 1;
-            }
-            else {
-              bVar5 = System_String__op_Equality(a,"LegRHurtbox",(MethodInfo *)0x0);
-              if (bVar5) {
-                (__this->fields).LegRHurtbox = (UnityEngine_Collider_o *)__this_00;
-                Il2CppCodeGenWriteBarrier(&(__this->fields).LegRHurtbox,__this_00);
-                uVar11 = uVar11 + 1;
+            if (iVar8 != TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox) goto label_05c2dbdb;
+label_05c2dc20:
+            bVar7 = System_String__op_Inequality(a,"SitPushbox",(MethodInfo *)0x0);
+            pMVar6 = MethodInfo_System_Collections_Generic_List_Collider_Add;
+            if (bVar7) {
+              pSVar9 = *targetAddress;
+              if (pSVar9 == (System_Collections_Generic_List_Collider__o *)0x0) goto label_05c2e15a;
+              piVar1 = &(pSVar9->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar4 = (pSVar9->fields)._items;
+              if (pUVar4 == (UnityEngine_Collider_array *)0x0) goto label_05c2e15a;
+              uVar15 = (pSVar9->fields)._size;
+              if (uVar15 < (uint)pUVar4->max_length) {
+                (pSVar9->fields)._size = uVar15 + 1;
+                pUVar4->m_Items[(int)uVar15] = (UnityEngine_Collider_o *)pCVar3;
+                Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar15);
               }
               else {
-                bVar5 = System_String__op_Equality(a,"HandLHurtbox",(MethodInfo *)0x0);
-                if (bVar5) {
-                  (__this->fields).HandLHurtbox = (UnityEngine_Collider_o *)__this_00;
-                  Il2CppCodeGenWriteBarrier(&(__this->fields).HandLHurtbox,__this_00);
-                  uVar11 = uVar11 + 1;
-                }
-                else {
-                  bVar5 = System_String__op_Equality(a,"HandRHurtbox",(MethodInfo *)0x0);
-                  if (bVar5) {
-                    (__this->fields).HandRHurtbox = (UnityEngine_Collider_o *)__this_00;
-                    Il2CppCodeGenWriteBarrier(&(__this->fields).HandRHurtbox,__this_00);
-                    uVar11 = uVar11 + 1;
-                  }
-                  else {
-                    bVar5 = System_String__op_Equality(a,"MouthHitbox",(MethodInfo *)0x0);
-                    if (bVar5) {
-                      pCVar10 = Characters_BaseHitbox__Create
-                                          (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                           (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                      (__this->fields).MouthHitbox = pCVar10;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields).MouthHitbox,pCVar10);
-                      uVar11 = uVar11 + 1;
-                    }
-                    else {
-                      bVar5 = System_String__op_Equality(a,"HandLHitbox",(MethodInfo *)0x0);
-                      if (bVar5) {
-                        pCVar10 = Characters_BaseHitbox__Create
-                                            (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                             (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                        (__this->fields).HandLHitbox = pCVar10;
-                        Il2CppCodeGenWriteBarrier(&(__this->fields).HandLHitbox,pCVar10);
-                        uVar11 = uVar11 + 1;
-                      }
-                      else {
-                        bVar5 = System_String__op_Equality(a,"HandRHitbox",(MethodInfo *)0x0);
-                        if (bVar5) {
-                          pCVar10 = Characters_BaseHitbox__Create
-                                              (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                               (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                          (__this->fields).HandRHitbox = pCVar10;
-                          Il2CppCodeGenWriteBarrier(&(__this->fields).HandRHitbox,pCVar10);
-                          uVar11 = uVar11 + 1;
-                        }
-                        else {
-                          bVar5 = System_String__op_Equality(a,"ForearmLHitbox",(MethodInfo *)0x0);
-                          if (bVar5) {
-                            pCVar10 = Characters_BaseHitbox__Create
-                                                (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                                 (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                            (__this->fields).ForearmLHitbox = pCVar10;
-                            Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmLHitbox,pCVar10);
-                            uVar11 = uVar11 + 1;
-                          }
-                          else {
-                            bVar5 = System_String__op_Equality(a,"ForearmRHitbox",(MethodInfo *)0x0);
-                            if (bVar5) {
-                              pCVar10 = Characters_BaseHitbox__Create
-                                                  (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                                   (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                              (__this->fields).ForearmRHitbox = pCVar10;
-                              Il2CppCodeGenWriteBarrier(&(__this->fields).ForearmRHitbox,pCVar10);
-                              uVar11 = uVar11 + 1;
-                            }
-                            else {
-                              bVar5 = System_String__op_Equality(a,"FootLHitbox",(MethodInfo *)0x0);
-                              if (bVar5) {
-                                pCVar10 = Characters_BaseHitbox__Create
-                                                    (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                                     (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                                (__this->fields).FootLHitbox = pCVar10;
-                                Il2CppCodeGenWriteBarrier(&(__this->fields).FootLHitbox,pCVar10);
-                                uVar11 = uVar11 + 1;
-                              }
-                              else {
-                                bVar5 = System_String__op_Equality(a,"FootRHitbox",(MethodInfo *)0x0);
-                                if (bVar5) {
-                                  pCVar10 = Characters_BaseHitbox__Create
-                                                      (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                                       (UnityEngine_Collider_o *)__this_00,(MethodInfo *)0x0);
-                                  (__this->fields).FootRHitbox = pCVar10;
-                                  Il2CppCodeGenWriteBarrier(&(__this->fields).FootRHitbox,pCVar10);
-                                  uVar11 = uVar11 + 1;
-                                }
-                                else {
-                                  bVar5 = System_String__op_Equality
-                                                    (a,"SteamHitbox",(MethodInfo *)0x0);
-                                  if (bVar5) {
-                                    value_00 = Characters_ContinuousDamageHitbox__CreateContinuous
-                                                         (owner_00,(UnityEngine_GameObject_o *)__this_01,
-                                                          (UnityEngine_Collider_o *)__this_00,2000,0.1,
-                                                          (MethodInfo *)0x0);
-                                    (__this->fields).SteamHitbox = (Characters_BaseHitbox_o *)value_00;
-                                    Il2CppCodeGenWriteBarrier(&(__this->fields).SteamHitbox,value_00);
-                                    uVar11 = uVar11 + 1;
-                                  }
-                                  else {
-                                    bVar5 = System_String__op_Equality
-                                                      (a,"SitPushbox",(MethodInfo *)0x0);
-                                    if (!bVar5) goto label_18217a6d9;
-                                    (__this->fields).SitPushbox = (UnityEngine_Collider_o *)__this_00;
-                                    Il2CppCodeGenWriteBarrier(&(__this->fields).SitPushbox,__this_00);
-                                    uVar11 = uVar11 + 1;
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)pSVar9,(Il2CppObject *)pCVar3,
+                           (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
               }
             }
           }
-        }
-      }
-      pSVar9 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
-                         (owner,(MethodInfo_6F5810 *)
-                                MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_BaseHitbox);
-      if (pSVar9 != (System_Object_array *)0x0) {
-        uVar11 = 0;
-        do {
-          pMVar4 = MethodInfo_System_Collections_Generic_List_BaseHitbox_Add;
-          if ((int)pSVar9->max_length <= (int)uVar11) {
-            return;
+          else {
+            if (iVar8 == TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox) goto label_05c2dc20;
+label_05c2dbdb:
+            iVar8 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0)
+            ;
+            if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+              iVar2 = TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox;
+            }
+            else {
+              iVar2 = TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox;
+            }
+            if (iVar8 == iVar2) goto label_05c2dc20;
           }
-          if ((uint)pSVar9->max_length <= uVar11) {
-label_18217a7ba:
-            ThrowIndexOutOfRangeException();
-          }
-          pSVar8 = (__this->fields).Hitboxes;
-          if (pSVar8 == (System_Collections_Generic_List_BaseHitbox__o *)0x0) break;
-          pCVar3 = (pSVar8->fields)._items;
-          pCVar10 = (Characters_BaseHitbox_o *)pSVar9->m_Items[(int)uVar11];
-          piVar1 = &(pSVar8->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          if (pCVar3 == (Characters_BaseHitbox_array *)0x0) break;
-          uVar2 = (pSVar8->fields)._size;
-          if (uVar2 < (uint)pCVar3->max_length) {
-            (pSVar8->fields)._size = uVar2 + 1;
-            if ((uint)pCVar3->max_length <= uVar2) goto label_18217a7ba;
-            pCVar3->m_Items[(int)uVar2] = pCVar10;
-            Il2CppCodeGenWriteBarrier(pCVar3->m_Items + (int)uVar2,pCVar10);
-            uVar11 = uVar11 + 1;
+          iVar8 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0);
+          if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+            if (iVar8 != TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox) goto label_05c2dd54;
+label_05c2dcd8:
+            UnityEngine_Collider__set_isTrigger((UnityEngine_Collider_o *)pCVar3,true,(MethodInfo *)0x0);
+            pMVar6 = MethodInfo_System_Collections_Generic_List_Collider_Add;
+            pSVar9 = *targetAddress_01;
+            if (pSVar9 == (System_Collections_Generic_List_Collider__o *)0x0) goto label_05c2e15a;
+            piVar1 = &(pSVar9->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar4 = (pSVar9->fields)._items;
+            if (pUVar4 == (UnityEngine_Collider_array *)0x0) goto label_05c2e15a;
+            uVar15 = (pSVar9->fields)._size;
+            if (uVar15 < (uint)pUVar4->max_length) {
+              (pSVar9->fields)._size = uVar15 + 1;
+              pUVar4->m_Items[(int)uVar15] = (UnityEngine_Collider_o *)pCVar3;
+              Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar15);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)pSVar9,(Il2CppObject *)pCVar3,
+                         (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+            }
           }
           else {
-            System_Collections_Generic_List_object___AddWithResize
-                      ((System_Collections_Generic_List_object__o *)pSVar8,(Il2CppObject *)pCVar10,
-                       (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-            uVar11 = uVar11 + 1;
+            if (iVar8 == TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox) goto label_05c2dcd8;
+label_05c2dd54:
+            iVar8 = UnityEngine_GameObject__get_layer((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0)
+            ;
+            if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+              iVar2 = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox;
+            }
+            else {
+              iVar2 = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox;
+            }
+            if (iVar8 == iVar2) {
+              UnityEngine_Collider__set_enabled((UnityEngine_Collider_o *)pCVar3,false,(MethodInfo *)0x0);
+              UnityEngine_Collider__set_isTrigger((UnityEngine_Collider_o *)pCVar3,true,(MethodInfo *)0x0);
+            }
           }
-        } while( true );
+          bVar7 = System_String__op_Equality(a,"NapeHurtbox",(MethodInfo *)0x0);
+          if (bVar7) {
+            targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).NapeHurtbox;
+label_05c2dea0:
+            *targetAddress_02 = pCVar3;
+label_05c2dea6:
+            Il2CppCodeGenWriteBarrier(targetAddress_02);
+          }
+          else {
+            bVar7 = System_String__op_Equality(a,"EyesHurtbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).EyesHurtbox;
+              goto label_05c2dea0;
+            }
+            bVar7 = System_String__op_Equality(a,"LegLHurtbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).LegLHurtbox;
+              goto label_05c2dea0;
+            }
+            bVar7 = System_String__op_Equality(a,"LegRHurtbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).LegRHurtbox;
+              goto label_05c2dea0;
+            }
+            bVar7 = System_String__op_Equality(a,"HandLHurtbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).HandLHurtbox;
+              goto label_05c2dea0;
+            }
+            bVar7 = System_String__op_Equality(a,"HandRHurtbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).HandRHurtbox;
+              goto label_05c2dea0;
+            }
+            bVar7 = System_String__op_Equality(a,"MouthHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).MouthHitbox;
+label_05c2e070:
+              *targetAddress_02 = (Characters_BaseHitbox_o *)pCVar13;
+              goto label_05c2dea6;
+            }
+            bVar7 = System_String__op_Equality(a,"HandLHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).HandLHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"HandRHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).HandRHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"ForearmLHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).ForearmLHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"ForearmRHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).ForearmRHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"FootLHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).FootLHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"FootRHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = (Characters_ContinuousDamageHitbox_o *)
+                        Characters_BaseHitbox__Create
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).FootRHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"SteamHitbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              pCVar13 = Characters_ContinuousDamageHitbox__CreateContinuous
+                                  (owner_00,(UnityEngine_GameObject_o *)__this_00,
+                                   (UnityEngine_Collider_o *)pCVar3,2000,0.1,(MethodInfo *)0x0);
+              targetAddress_02 = &(__this->fields).SteamHitbox;
+              goto label_05c2e070;
+            }
+            bVar7 = System_String__op_Equality(a,"SitPushbox",(MethodInfo *)0x0);
+            if (bVar7) {
+              targetAddress_02 = (Characters_BaseHitbox_o **)&(__this->fields).SitPushbox;
+              goto label_05c2dea0;
+            }
+          }
+          uVar16 = uVar16 + 1;
+          uVar15 = (uint)pSVar12->max_length;
+        } while ((int)uVar16 < (int)uVar15);
+      }
+      pSVar12 = UnityEngine_GameObject__GetComponentsInChildren_object__353c030
+                          (owner,(MethodInfo_353C030 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_BaseHitbox);
+      if (pSVar12 != (System_Object_array *)0x0) {
+        if (0 < (int)pSVar12->max_length) {
+          uVar14 = pSVar12->max_length & 0xffffffff;
+          uVar17 = 0;
+          do {
+            pMVar6 = MethodInfo_System_Collections_Generic_List_BaseHitbox_Add;
+            if (uVar14 <= uVar17) {
+label_05c2e15f:
+              ThrowIndexOutOfRangeException();
+            }
+            pSVar10 = *targetAddress_00;
+            if (pSVar10 == (System_Collections_Generic_List_BaseHitbox__o *)0x0) goto label_05c2e15a;
+            pCVar3 = (Characters_BaseHitbox_o *)pSVar12->m_Items[uVar17];
+            piVar1 = &(pSVar10->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pCVar5 = (pSVar10->fields)._items;
+            if (pCVar5 == (Characters_BaseHitbox_array *)0x0) goto label_05c2e15a;
+            uVar15 = (pSVar10->fields)._size;
+            if (uVar15 < (uint)pCVar5->max_length) {
+              (pSVar10->fields)._size = uVar15 + 1;
+              pCVar5->m_Items[(int)uVar15] = pCVar3;
+              Il2CppCodeGenWriteBarrier(pCVar5->m_Items + (int)uVar15);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)pSVar10,(Il2CppObject *)pCVar3,
+                         (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+            }
+            uVar17 = uVar17 + 1;
+            uVar15 = (uint)pSVar12->max_length;
+            uVar14 = (ulong)uVar15;
+          } while ((long)uVar17 < (long)(int)uVar15);
+        }
+        return;
       }
     }
   }
-label_18217a7c0:
+label_05c2e15a:
   ThrowNullReferenceException();
 }
 

@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000198")]
+[Token(Token = "0x2000199")]
 internal sealed class ParameterByRefUpdater : ByRefUpdater
 {
-	[Token(Token = "0x4000373")]
+	[Token(Token = "0x400037C")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly LocalVariable _parameter;
 
-	[Token(Token = "0x60008E2")]
-	[Address(RVA = "0x247C550", Offset = "0x247AB50", VA = "0x18247C550")]
+	[Token(Token = "0x60008ED")]
+	[Address(RVA = "0x5E06CF0", Offset = "0x5E05CF0", VA = "0x5E06CF0")]
 	public ParameterByRefUpdater(LocalVariable parameter, int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x247C3B0", Offset = "0x247A9B0", VA = "0x18247C3B0", Slot = "4")]
+	[Token(Token = "0x60008EE")]
+	[Address(RVA = "0x5E06D20", Offset = "0x5E05D20", VA = "0x5E06D20", Slot = "4")]
 	public override void Update(InterpretedFrame frame, object value)
 	{
 	}

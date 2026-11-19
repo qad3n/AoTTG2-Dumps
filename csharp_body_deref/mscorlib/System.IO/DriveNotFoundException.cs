@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000683")]
+[Token(Token = "0x200065C")]
 public class DriveNotFoundException : IOException
 {
-	[Token(Token = "0x60031F9")]
-	[Address(RVA = "0x1AE7CC0", Offset = "0x1AE62C0", VA = "0x181AE7CC0")]
+	[Token(Token = "0x60031B3")]
+	[Address(RVA = "0x54769E0", Offset = "0x54759E0", VA = "0x54769E0")]
 	public DriveNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x60031FA")]
-	[Address(RVA = "0x1AE7CA0", Offset = "0x1AE62A0", VA = "0x181AE7CA0")]
+	[Token(Token = "0x60031B4")]
+	[Address(RVA = "0x5476A20", Offset = "0x5475A20", VA = "0x5476A20")]
 	public DriveNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x60031FB")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x60031B5")]
+	[Address(RVA = "0x5476A40", Offset = "0x5475A40", VA = "0x5476A40")]
 	protected DriveNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}

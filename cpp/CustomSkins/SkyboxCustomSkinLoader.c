@@ -1,21 +1,21 @@
 // Type: CustomSkins.SkyboxCustomSkinLoader
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomSkins/SkyboxCustomSkinLoader.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomSkins/CustomSkinLoaders/SkyboxCustomSkinLoader.cs
 // --------------------------------
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$.ctor
 // il2cpp: void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4___ctor (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5961e90
 
-void
-CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4___ctor(CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, int32_t __1__state, MethodInfo* method)
+void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4___ctor
+               (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,14 +23,7 @@ CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4___ctor(CustomSkins_Sky
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$System.IDisposable.Dispose
 // il2cpp: void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_IDisposable_Dispose (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x181e99a80
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e99ae4: lea rcx, [rsp + 0x30]
-// asm:   0x181e99ae9: call 0x181e7c130  ; il2cpp_runtime_helper_181e7c130()
-// asm:   0x181e99aee: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181e99af3: test rcx, rcx
-// asm:   0x181e99af6: jne 0x181e99afe
-// asm:   0x181e99afe: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// 0x5962180
 
 void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_IDisposable_Dispose
                (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
@@ -39,45 +32,67 @@ void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_IDisposab
   int iVar1;
   
   iVar1 = (__this->fields).__1__state;
-  if ((iVar1 == -3) || (iVar1 == 1)) {
-    if (Il2CppMethodInitialized_184344f9a == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-      Il2CppMethodInitialized_184344f9a = '\x01';
-    }
-    (__this->fields).__1__state = -1;
-    System_Collections_Generic_List_Enumerator_int___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&(__this->fields).__7__wrap1,
-               MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+  if ((iVar1 != 1) && (iVar1 != -3)) {
+    return;
   }
+  if (Il2CppMethodInitialized_07545928 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+    Il2CppMethodInitialized_07545928 = '\x01';
+  }
+  (__this->fields).__1__state = -1;
+  System_Collections_Generic_List_Enumerator_int___Dispose
+            (&(__this->fields).__7__wrap1,
+             (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
   return;
 }
 
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$MoveNext
 // il2cpp: bool CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__MoveNext (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x181e99740
-// eh: try 0x181e997b8..0x181e99a2c -> pad 0x183315930 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e999e8: mov rbx, qword ptr [rsp + 0x28]
-// asm:   0x181e999ed: test rbx, rbx
-// asm:   0x181e999f0: jne 0x181e99a2c
-// asm:   0x181e999f2: movzx eax, byte ptr [rsp + 0x70]
-// asm:   0x181e99a2c: lea rcx, [rsp + 0x30]
-// asm:   0x181e99a31: call 0x181e7c190  ; il2cpp_runtime_helper_181e7c190()
-// asm:   0x181e99a36: mov rcx, rbx
-// asm:   0x181e99a39: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x59621d0
+// eh: try 0x596225f..0x5962572 -> pad 0x5962582 (+19 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59625aa..0x59625af -> pad 0x59625c5 cleanup
+// eh: try 0x59625c8..0x59625d2 -> pad 0x59625da catch (...) [compiler noexcept guard]
+// asm: 38 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5962399: nop dword ptr [rax]
+// asm:   0x5962572: jmp 0x5962592
+// asm:   0x5962574: jmp 0x5962592
+// asm:   0x5962576: jmp 0x5962592
+// asm:   0x5962578: jmp 0x5962592
+// asm:   0x596257a: jmp 0x5962592
+// asm:   0x596257c: jmp 0x5962592
+// asm:   0x596257e: jmp 0x5962592
+// asm:   0x5962580: jmp 0x5962592
+// asm:   0x5962582: jmp 0x5962592
+// asm:   0x5962584: jmp 0x5962592
+// asm:   0x5962586: jmp 0x5962592
+// asm:   0x5962588: jmp 0x5962592
+// asm:   0x596258a: jmp 0x5962592
+// asm:   0x596258c: jmp 0x5962592
+// asm:   0x596258e: jmp 0x5962592
+// asm:   0x5962590: jmp 0x5962592
+// asm:   0x5962592: mov rbx, rax
+// asm:   0x5962595: cmp edx, 1
+// asm:   0x5962598: jne 0x59625c8
+// asm:   0x596259a: mov rdi, rbx
+// asm:   0x596259d: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59625a2: mov rbx, qword ptr [rax]
+// asm:   0x59625a5: mov qword ptr [rsp + 8], rbx
+// asm:   0x59625aa: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59625af: test rbx, rbx
+// asm:   0x59625b2: je 0x596253d
+// asm:   0x59625b4: mov rdi, qword ptr [rsp]
+// asm:   0x59625b8: call 0x2fd3d90  ; il2cpp_runtime_helper_02fd3d90()
+// asm:   0x59625bd: mov rdi, rbx
+// asm:   0x59625c0: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59625c5: mov rbx, rax
+// asm:   0x59625c8: lea rdi, [rsp + 8]
+// asm:   0x59625cd: call 0x2fd3a50  ; il2cpp_runtime_helper_02fd3a50()
+// asm:   0x59625d2: mov rdi, rbx
+// asm:   0x59625d5: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59625da: mov rdi, rax
+// asm:   0x59625dd: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__MoveNext
                (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
@@ -87,150 +102,205 @@ bool CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__MoveNext
   uint uVar2;
   CustomSkins_SkyboxCustomSkinLoader_o *__this_00;
   System_Object_array *pSVar3;
-  System_String_o *pSVar4;
-  Il2CppType *handle;
-  bool bVar5;
-  UnityEngine_Material_o *value;
-  System_Type_o *t;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_01;
-  CustomSkins_BaseCustomSkinPart_o *__this_02;
-  System_Collections_IEnumerator_o *routine;
-  UnityEngine_Coroutine_o *value_00;
   System_String_o *url;
-  System_Collections_Generic_List_Enumerator_T__o local_20;
+  Il2CppType *handle;
+  CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *pCVar4;
+  CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o **ppCVar5;
+  bool bVar6;
+  UnityEngine_Material_o *pUVar7;
+  System_Type_o *enumType;
+  System_Collections_IEnumerable_o *source;
+  System_Collections_Generic_IEnumerable_TResult__o *source_00;
+  System_Collections_Generic_List_TSource__o *__this_01;
+  CustomSkins_BaseCustomSkinPart_o *__this_02;
+  CustomSkins_BaseCustomSkinPart__LoadSkin_d__11_o *__this_03;
+  UnityEngine_Coroutine_o *pUVar8;
+  Il2CppType **method_00;
+  undefined1 auVar9 [16];
+  CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *pCStack_78;
+  undefined8 uStack_70;
+  undefined1 *puStack_68;
+  System_Collections_Generic_List_Enumerator_T__o SStack_60;
+  System_Collections_Generic_List_T__o *pSStack_48;
+  int32_t iStack_40;
+  int32_t iStack_3c;
+  Il2CppObject *pIStack_38;
   
-  if (Il2CppMethodInitialized_184344f99 == '\0') {
+  method_00 = (Il2CppType **)__this;
+  pCStack_78 = __this;
+  if (Il2CppMethodInitialized_07545927 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_get_Current);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinLoader);
+    method_00 = &TypeRef_CustomSkins_SkyboxCustomSkinPartId;
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_CustomSkins_SkyboxCustomSkinPartId);
-    Il2CppMethodInitialized_184344f99 = '\x01';
+    Il2CppMethodInitialized_07545927 = '\x01';
   }
+  puStack_68 = (undefined1 *)&pCStack_78;
+  uStack_70 = 0;
   iVar1 = (__this->fields).__1__state;
   __this_00 = (__this->fields).__4__this;
-  if (iVar1 == 0) {
-    (__this->fields).__1__state = -1;
-    value = CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMaterial((MethodInfo *)0x0);
-    TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial = value;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial,value);
-    handle = TypeRef_CustomSkins_SkyboxCustomSkinPartId;
-    if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354ea0);
-    }
-    t = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (iVar1 == 1) {
+    (__this->fields).__1__state = -3;
+    ppCVar5 = &pCStack_78;
     if (__this_00 == (CustomSkins_SkyboxCustomSkinLoader_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    __this_01 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                CustomSkins_BaseCustomSkinLoader__GetCustomSkinPartIds
-                          ((CustomSkins_BaseCustomSkinLoader_o *)__this_00,t,(MethodInfo *)0x0);
-    if (__this_01 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              (&local_20,__this_01,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    (__this->fields).__7__wrap1.fields._list = local_20.fields._list;
-    (__this->fields).__7__wrap1.fields._index = local_20.fields._index;
-    (__this->fields).__7__wrap1.fields._version = local_20.fields._version;
-    *(Il2CppObject **)&(__this->fields).__7__wrap1.fields._current = local_20.fields._current;
-    Il2CppCodeGenWriteBarrier((void **)&(__this->fields).__7__wrap1,(void *)0x0);
-  }
-  else if (iVar1 != 1) {
-    return false;
-  }
-  (__this->fields).__1__state = -3;
-  while( true ) {
-    bVar5 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                      ((System_Collections_Generic_List_Enumerator_T__o *)&(__this->fields).__7__wrap1,
-                       (MethodInfo_1530180 *)
-                       MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-    if (!bVar5) {
-      if (Il2CppMethodInitialized_184344f9a == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-        Il2CppMethodInitialized_184344f9a = '\x01';
+      bVar6 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                        (&(__this->fields).__7__wrap1,
+                         (MethodInfo_4C3B4A0 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+      if (bVar6) {
+        ThrowNullReferenceException();
       }
-      (__this->fields).__1__state = -1;
-      System_Collections_Generic_List_Enumerator_int___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&(__this->fields).__7__wrap1,
-                 MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-      (__this->fields).__7__wrap1.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-      (__this->fields).__7__wrap1.fields._index = 0;
-      (__this->fields).__7__wrap1.fields._version = 0;
-      *(undefined8 *)&(__this->fields).__7__wrap1.fields._current = 0;
+      goto label_059624ed;
+    }
+  }
+  else {
+    if (iVar1 != 0) {
       return false;
     }
+    (__this->fields).__1__state = -1;
+    puStack_68 = (undefined1 *)&pCStack_78;
+    pUVar7 = CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMaterial((MethodInfo *)method_00);
+    TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial = pUVar7;
+    Il2CppCodeGenWriteBarrier(&TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial);
+    handle = TypeRef_CustomSkins_SkyboxCustomSkinPartId;
+    if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(g_data_075567a8);
+    }
+    enumType = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
     if (__this_00 == (CustomSkins_SkyboxCustomSkinLoader_o *)0x0) {
       ThrowNullReferenceException();
     }
-    uVar2 = (__this->fields).__7__wrap1.fields._current;
-    __this_02 = (*(__this_00->klass->vtable)._6_GetCustomSkinPart.methodPtr)
-                          (__this_00,uVar2,(__this_00->klass->vtable)._6_GetCustomSkinPart.method);
-    pSVar3 = (__this->fields).data;
+    if (Il2CppMethodInitialized_07545910 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Cast_int);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToList_int);
+      Il2CppMethodInitialized_07545910 = '\x01';
+    }
+    if ((g_data_07556760->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(g_data_07556760);
+    }
+    source = (System_Collections_IEnumerable_o *)System_Enum__GetValues(enumType,(MethodInfo *)0x0);
+    source_00 = System_Linq_Enumerable__Cast_int_
+                          (source,(MethodInfo_34E07A0 *)MethodInfo_System_Linq_Enumerable_Cast_int);
+    __this_01 = System_Linq_Enumerable__ToList_int_
+                          ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
+                           (MethodInfo_3500DB0 *)MethodInfo_System_Linq_Enumerable_ToList_int);
+    if (__this_01 == (System_Collections_Generic_List_TSource__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    System_Collections_Generic_List_int___GetEnumerator
+              (&SStack_60,(System_Collections_Generic_List_int__o *)__this_01,
+               (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+    pIStack_38 = SStack_60.fields._current;
+    pSStack_48 = SStack_60.fields._list;
+    iStack_40 = SStack_60.fields._index;
+    iStack_3c = SStack_60.fields._version;
+    *(Il2CppObject **)&(pCStack_78->fields).__7__wrap1.fields._current = SStack_60.fields._current;
+    (pCStack_78->fields).__7__wrap1.fields._list = SStack_60.fields._list;
+    (pCStack_78->fields).__7__wrap1.fields._index = SStack_60.fields._index;
+    (pCStack_78->fields).__7__wrap1.fields._version = SStack_60.fields._version;
+    Il2CppCodeGenWriteBarrier((void **)&(pCStack_78->fields).__7__wrap1);
+    (pCStack_78->fields).__1__state = -3;
+    ppCVar5 = (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o **)puStack_68;
+  }
+  while (puStack_68 = (undefined1 *)ppCVar5,
+        bVar6 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                          (&(pCStack_78->fields).__7__wrap1,
+                           (MethodInfo_4C3B4A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext), bVar6) {
+    uVar2 = (pCStack_78->fields).__7__wrap1.fields._current;
+    auVar9 = (undefined1  [16])
+             (*(__this_00->klass->vtable)._6_GetCustomSkinPart.methodPtr)
+                       (__this_00,uVar2,(__this_00->klass->vtable)._6_GetCustomSkinPart.method);
+    __this_02 = auVar9._0_8_;
+    pSVar3 = (pCStack_78->fields).data;
     if (pSVar3 == (System_Object_array *)0x0) {
       ThrowNullReferenceException();
     }
-    if ((uint)pSVar3->max_length <= uVar2) break;
-    pSVar4 = (System_String_o *)pSVar3->m_Items[(int)uVar2];
-    url = (System_String_o *)0x0;
-    if (pSVar4 != (System_String_o *)0x0) {
-      if ((Il2CppClass *)pSVar4->klass == g_data_184354e50) {
-        url = pSVar4;
-      }
-      if (url == (System_String_o *)0x0) {
-        il2cpp_codegen_raise_invalid_cast_exception();
-      }
+    if ((uint)pSVar3->max_length <= uVar2) {
+      ThrowIndexOutOfRangeException();
+    }
+    url = (System_String_o *)pSVar3->m_Items[(int)uVar2];
+    if ((url != (System_String_o *)0x0) && (url->klass != g_data_07556758)) {
+      il2cpp_codegen_raise_invalid_cast_exception(url);
     }
     if (__this_02 == (CustomSkins_BaseCustomSkinPart_o *)0x0) {
       ThrowNullReferenceException();
     }
-    bVar5 = CustomSkins_BaseCustomSkinPart__LoadCache(__this_02,url,(MethodInfo *)0x0);
-    if (!bVar5) {
-      routine = CustomSkins_BaseCustomSkinPart__LoadSkin(__this_02,url,(MethodInfo *)0x0);
-      value_00 = UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                           ((UnityEngine_MonoBehaviour_o *)__this_00,routine,(MethodInfo *)0x0);
-      (__this->fields).__2__current = (Il2CppObject *)value_00;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,value_00);
-      (__this->fields).__1__state = 1;
+    bVar6 = CustomSkins_BaseCustomSkinPart__LoadCache(__this_02,url,auVar9._8_8_);
+    ppCVar5 = (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o **)puStack_68;
+    if (!bVar6) {
+      if (Il2CppMethodInitialized_07545932 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_BaseCustomSkinPart_LoadSkin_d__11);
+        Il2CppMethodInitialized_07545932 = '\x01';
+      }
+      __this_03 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_CustomSkins_BaseCustomSkinPart_LoadSkin_d__11);
+      System_Object___ctor((Il2CppObject *)__this_03,(MethodInfo *)0x0);
+      (__this_03->fields).__1__state = 0;
+      (__this_03->fields).__4__this = __this_02;
+      Il2CppCodeGenWriteBarrier(&(__this_03->fields).__4__this);
+      (__this_03->fields).url = url;
+      Il2CppCodeGenWriteBarrier(&(__this_03->fields).url);
+      pUVar8 = UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                         ((UnityEngine_MonoBehaviour_o *)__this_00,
+                          (System_Collections_IEnumerator_o *)__this_03,(MethodInfo *)0x0);
+      (pCStack_78->fields).__2__current = (Il2CppObject *)pUVar8;
+      Il2CppCodeGenWriteBarrier(&(pCStack_78->fields).__2__current);
+      (pCStack_78->fields).__1__state = 1;
       return true;
     }
   }
-  ThrowIndexOutOfRangeException();
+label_059624ed:
+  pCVar4 = pCStack_78;
+  if (Il2CppMethodInitialized_07545928 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+    Il2CppMethodInitialized_07545928 = '\x01';
+  }
+  (pCVar4->fields).__1__state = -1;
+  System_Collections_Generic_List_Enumerator_int___Dispose
+            (&(pCVar4->fields).__7__wrap1,
+             (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+  (pCStack_78->fields).__7__wrap1.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  (pCStack_78->fields).__7__wrap1.fields._index = 0;
+  (pCStack_78->fields).__7__wrap1.fields._version = 0;
+  *(undefined8 *)&(pCStack_78->fields).__7__wrap1.fields._current = 0;
+  return false;
 }
 
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$<>m__Finally1
 // il2cpp: void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4____m__Finally1 (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x181e99b10
+// 0x59625f0
 
 void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4____m__Finally1
                (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f9a == '\0') {
+  if (Il2CppMethodInitialized_07545928 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-    Il2CppMethodInitialized_184344f9a = '\x01';
+    Il2CppMethodInitialized_07545928 = '\x01';
   }
   (__this->fields).__1__state = -1;
   System_Collections_Generic_List_Enumerator_int___Dispose
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&(__this->fields).__7__wrap1,
-             MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+            (&(__this->fields).__7__wrap1,
+             (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
   return;
 }
 
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5962630
 
-Il2CppObject*
-CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current(CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -239,7 +309,7 @@ CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_Ge
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$System.Collections.IEnumerator.Reset
 // il2cpp: void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IEnumerator_Reset (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x181e99a40
+// 0x5962640
 
 void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IEnumerator_Reset
                (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
@@ -263,10 +333,11 @@ void CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collectio
 
 // CustomSkins.SkyboxCustomSkinLoader.<LoadSkinsFromRPC>d__4$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IEnumerator_get_Current (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5962680
 
-Il2CppObject*
-CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IEnumerator_get_Current(CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o* __this, MethodInfo* method)
+Il2CppObject *
+CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IEnumerator_get_Current
+          (CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -275,16 +346,16 @@ CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4__System_Collections_IE
 
 // CustomSkins.SkyboxCustomSkinLoader$$get_RendererIdPrefix
 // il2cpp: System_String_o* CustomSkins_SkyboxCustomSkinLoader__get_RendererIdPrefix (CustomSkins_SkyboxCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e943d0
+// 0x5961d30
 
 System_String_o *
 CustomSkins_SkyboxCustomSkinLoader__get_RendererIdPrefix
           (CustomSkins_SkyboxCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f93 == '\0') {
+  if (Il2CppMethodInitialized_07545921 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"skybox");
-    Il2CppMethodInitialized_184344f93 = '\x01';
+    Il2CppMethodInitialized_07545921 = '\x01';
   }
   return "skybox";
 }
@@ -292,7 +363,7 @@ CustomSkins_SkyboxCustomSkinLoader__get_RendererIdPrefix
 
 // CustomSkins.SkyboxCustomSkinLoader$$CreateSkyboxMaterial
 // il2cpp: UnityEngine_Material_o* CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMaterial (const MethodInfo* method);
-// 0x181e93fe0
+// 0x5961d60
 
 UnityEngine_Material_o * CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMaterial(MethodInfo *method)
 
@@ -300,13 +371,13 @@ UnityEngine_Material_o * CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMateria
   System_String_o *path;
   UnityEngine_Material_o *pUVar1;
   
-  if (Il2CppMethodInitialized_184344f94 == '\0') {
+  if (Il2CppMethodInitialized_07545922 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
     il2cpp_codegen_initialize_runtime_metadata(&"Skyboxes/EmptySkybox");
-    Il2CppMethodInitialized_184344f94 = '\x01';
+    Il2CppMethodInitialized_07545922 = '\x01';
   }
   if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
@@ -316,8 +387,8 @@ UnityEngine_Material_o * CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMateria
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
   pUVar1 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                     (path,"Skyboxes/EmptySkybox",true,
-                      (MethodInfo_795F00 *)
+                     (path,"Skyboxes/EmptySkybox",true,false,
+                      (MethodInfo_3665790 *)
                       MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
   return pUVar1;
 }
@@ -325,7 +396,7 @@ UnityEngine_Material_o * CustomSkins_SkyboxCustomSkinLoader__CreateSkyboxMateria
 
 // CustomSkins.SkyboxCustomSkinLoader$$LoadSkinsFromRPC
 // il2cpp: System_Collections_IEnumerator_o* CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC (CustomSkins_SkyboxCustomSkinLoader_o* __this, System_Object_array* data, const MethodInfo* method);
-// 0x181e94270
+// 0x5961e10
 
 System_Collections_IEnumerator_o *
 CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC
@@ -334,110 +405,80 @@ CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC
 {
   CustomSkins_SkyboxCustomSkinLoader__LoadSkinsFromRPC_d__4_o *__this_00;
   
-  if (Il2CppMethodInitialized_184344f95 == '\0') {
+  if (Il2CppMethodInitialized_07545923 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomSkins_SkyboxCustomSkinLoader_LoadSkinsFromRPC_d__4);
-    Il2CppMethodInitialized_184344f95 = '\x01';
+    Il2CppMethodInitialized_07545923 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomSkins_SkyboxCustomSkinLoader_LoadSkinsFromRPC_d__4);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   (__this_00->fields).data = data;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).data,data);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).data);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // CustomSkins.SkyboxCustomSkinLoader$$GetCustomSkinPart
 // il2cpp: CustomSkins_BaseCustomSkinPart_o* CustomSkins_SkyboxCustomSkinLoader__GetCustomSkinPart (CustomSkins_SkyboxCustomSkinLoader_o* __this, int32_t partId, const MethodInfo* method);
-// 0x181e94090
+// 0x5961eb0
 
 CustomSkins_BaseCustomSkinPart_o *
 CustomSkins_SkyboxCustomSkinLoader__GetCustomSkinPart
           (CustomSkins_SkyboxCustomSkinLoader_o *__this,int32_t partId,MethodInfo *method)
 
 {
-  UnityEngine_Material_o *value;
-  System_String_o *pSVar1;
-  System_String_o *value_00;
+  UnityEngine_Material_o *pUVar1;
+  System_String_o *pSVar2;
+  System_String_o *pSVar3;
+  System_String_o *str1;
   CustomSkins_SkyboxCustomSkinPart_o *__this_00;
-  UnityEngine_Vector2_o UVar2;
-  float fVar3;
-  float fStackX_c;
-  System_Nullable_Vector2__Fields local_68;
-  System_Enum_o local_58;
-  int32_t local_48;
+  MethodInfo *in_stack_ffffffffffffffb0;
+  System_Enum_o SStack_40;
+  int32_t iStack_30;
   
-  if (Il2CppMethodInitialized_184344f96 == '\0') {
+  if (Il2CppMethodInitialized_07545924 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinPart);
-    Il2CppMethodInitialized_184344f96 = '\x01';
+    Il2CppMethodInitialized_07545924 = '\x01';
   }
-  value = TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial;
-  if (Il2CppMethodInitialized_184344f97 == '\0') {
+  pUVar1 = TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial;
+  if (Il2CppMethodInitialized_07545925 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinPartId);
     il2cpp_codegen_initialize_runtime_metadata(&"_");
     il2cpp_codegen_initialize_runtime_metadata(&"Tex");
-    Il2CppMethodInitialized_184344f97 = '\x01';
+    Il2CppMethodInitialized_07545925 = '\x01';
   }
-  local_58.klass = (System_Enum_c *)TypeInfo_CustomSkins_SkyboxCustomSkinPartId;
-  local_58.monitor = &g_data_ffffffffffffffff;
-  local_48 = partId;
-  pSVar1 = System_Enum__ToString(&local_58,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969b70("_",pSVar1,"Tex",(MethodInfo *)0x0)
+  SStack_40.klass = (System_Enum_c *)TypeInfo_CustomSkins_SkyboxCustomSkinPartId;
+  SStack_40.monitor = (void *)0xffffffffffffffff;
+  iStack_30 = partId;
+  pSVar2 = System_Enum__ToString(&SStack_40,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_5301f10("_",pSVar2,"Tex",(MethodInfo *)0x0)
   ;
-  value_00 = CustomSkins_BaseCustomSkinLoader__GetRendererId
-                       ((CustomSkins_BaseCustomSkinLoader_o *)__this,partId,(MethodInfo *)0x0);
+  SStack_40.klass = (System_Enum_c *)CONCAT44(SStack_40.klass._4_4_,partId);
+  pSVar3 = (*(__this->klass->vtable)._4_get_RendererIdPrefix.methodPtr)
+                     (__this,(__this->klass->vtable)._4_get_RendererIdPrefix.method);
+  str1 = System_Int32__ToString((int32_t *)&SStack_40,(MethodInfo *)0x0);
+  pSVar3 = System_String__Concat_52f0320(pSVar3,str1,(MethodInfo *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomSkins_SkyboxCustomSkinPart);
-  local_68.hasValue = false;
-  local_68._1_3_ = 0;
-  local_68.value.fields.x = 0.0;
-  local_68.value.fields.y = 0.0;
-  if (Il2CppMethodInitialized_184344fa1 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_HasValue);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Vector2_get_Value);
-    Il2CppMethodInitialized_184344fa1 = '\x01';
-  }
-  (__this_00->fields)._defaultTextureScale.fields.x = 1.0;
-  (__this_00->fields)._defaultTextureScale.fields.y = 1.0;
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields)._loader = (CustomSkins_BaseCustomSkinLoader_o *)__this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._loader,__this);
-  (__this_00->fields)._renderers = (System_Collections_Generic_List_Renderer__o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._renderers,(void *)0x0);
-  (__this_00->fields)._rendererId = value_00;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._rendererId,value_00);
-  (__this_00->fields)._maxSize = 2000000;
-  if (local_68.hasValue == false) {
-    fVar3 = (__this_00->fields)._defaultTextureScale.fields.x;
-    fStackX_c = (__this_00->fields)._defaultTextureScale.fields.y;
-  }
-  else {
-    UVar2 = System_Nullable_Vector2___get_Value
-                      ((System_Nullable_Vector2__o *)&local_68,
-                       (MethodInfo_AE2BD0 *)MethodInfo_System_Nullable_Vector2_get_Value);
-    fVar3 = UVar2.fields.x;
-    fStackX_c = UVar2.fields.y;
-  }
-  (__this_00->fields)._textureScale.fields.x = fVar3;
-  (__this_00->fields)._textureScale.fields.y = fStackX_c;
-  (__this_00->fields)._useTransparentMaterial = false;
-  (__this_00->fields)._skyboxMaterial = value;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._skyboxMaterial,value);
-  (__this_00->fields)._textureName = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._textureName,pSVar1);
+  CustomSkins_BaseCustomSkinPart___ctor
+            ((CustomSkins_BaseCustomSkinPart_o *)__this_00,(CustomSkins_BaseCustomSkinLoader_o *)__this,
+             (System_Collections_Generic_List_Renderer__o *)0x0,pSVar3,2000000,
+             (System_Nullable_Vector2__o)ZEXT812(0),false,in_stack_ffffffffffffffb0);
+  (__this_00->fields)._skyboxMaterial = pUVar1;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._skyboxMaterial);
+  (__this_00->fields)._textureName = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields)._textureName);
   return (CustomSkins_BaseCustomSkinPart_o *)__this_00;
 }
 
 
 // CustomSkins.SkyboxCustomSkinLoader$$PartIdToTextureName
 // il2cpp: System_String_o* CustomSkins_SkyboxCustomSkinLoader__PartIdToTextureName (CustomSkins_SkyboxCustomSkinLoader_o* __this, int32_t partId, const MethodInfo* method);
-// 0x181e94300
+// 0x5962020
 
 System_String_o *
 CustomSkins_SkyboxCustomSkinLoader__PartIdToTextureName
@@ -445,20 +486,20 @@ CustomSkins_SkyboxCustomSkinLoader__PartIdToTextureName
 
 {
   System_String_o *pSVar1;
-  System_Enum_o local_28;
-  int32_t local_18;
+  System_Enum_o local_20;
+  int32_t local_10;
   
-  if (Il2CppMethodInitialized_184344f97 == '\0') {
+  if (Il2CppMethodInitialized_07545925 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinPartId);
     il2cpp_codegen_initialize_runtime_metadata(&"_");
     il2cpp_codegen_initialize_runtime_metadata(&"Tex");
-    Il2CppMethodInitialized_184344f97 = '\x01';
+    Il2CppMethodInitialized_07545925 = '\x01';
   }
-  local_28.klass = (System_Enum_c *)TypeInfo_CustomSkins_SkyboxCustomSkinPartId;
-  local_28.monitor = &g_data_ffffffffffffffff;
-  local_18 = partId;
-  pSVar1 = System_Enum__ToString(&local_28,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969b70("_",pSVar1,"Tex",(MethodInfo *)0x0)
+  local_20.klass = (System_Enum_c *)TypeInfo_CustomSkins_SkyboxCustomSkinPartId;
+  local_20.monitor = (void *)0xffffffffffffffff;
+  local_10 = partId;
+  pSVar1 = System_Enum__ToString(&local_20,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_5301f10("_",pSVar1,"Tex",(MethodInfo *)0x0)
   ;
   return pSVar1;
 }
@@ -466,20 +507,28 @@ CustomSkins_SkyboxCustomSkinLoader__PartIdToTextureName
 
 // CustomSkins.SkyboxCustomSkinLoader$$.ctor
 // il2cpp: void CustomSkins_SkyboxCustomSkinLoader___ctor (CustomSkins_SkyboxCustomSkinLoader_o* __this, const MethodInfo* method);
-// 0x181e94380
+// 0x5962110
 
 void CustomSkins_SkyboxCustomSkinLoader___ctor
                (CustomSkins_SkyboxCustomSkinLoader_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184344f98 == '\0') {
+  uint32_t uVar1;
+  
+  if (Il2CppMethodInitialized_07545926 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_BaseCustomSkinLoader);
-    Il2CppMethodInitialized_184344f98 = '\x01';
+    Il2CppMethodInitialized_07545926 = '\x01';
+    uVar1 = (TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomSkins_BaseCustomSkinLoader->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_BaseCustomSkinLoader);
+    UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+    return;
   }
-  CustomSkins_BaseCustomSkinLoader___ctor((GetParentPosition_o *)__this,(MethodInfo *)0x0);
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

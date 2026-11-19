@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200031F")]
 public enum RenderBufferLoadAction
 {
-	[Token(Token = "0x4000810")]
+	[Token(Token = "0x400080E")]
 	Load,
-	[Token(Token = "0x4000811")]
+	[Token(Token = "0x400080F")]
 	Clear,
-	[Token(Token = "0x4000812")]
+	[Token(Token = "0x4000810")]
 	DontCare
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleValueHandle
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,21 +23,21 @@ internal struct StyleValueHandle : IEquatable<StyleValueHandle>
 
 	[Token(Token = "0x4000F10")]
 	[FieldOffset(Offset = "0x4")]
-	[SerializeField]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+	[SerializeField]
 	internal int valueIndex;
 
 	[Token(Token = "0x17000935")]
 	public StyleValueType valueType
 	{
 		[Token(Token = "0x600230F")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
+		[Address(RVA = "0x6B26530", Offset = "0x6B25530", VA = "0x6B26530")]
 		get
 		{
 			return default(StyleValueType);
 		}
 		[Token(Token = "0x6002310")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x6B26F00", Offset = "0x6B25F00", VA = "0x6B26F00")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -45,35 +45,35 @@ internal struct StyleValueHandle : IEquatable<StyleValueHandle>
 	}
 
 	[Token(Token = "0x6002311")]
-	[Address(RVA = "0x312D060", Offset = "0x312B660", VA = "0x18312D060")]
+	[Address(RVA = "0x6B26540", Offset = "0x6B25540", VA = "0x6B26540")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal StyleValueHandle(int valueIndex, StyleValueType valueType)
 	{
 	}
 
 	[Token(Token = "0x6002312")]
-	[Address(RVA = "0x312D040", Offset = "0x312B640", VA = "0x18312D040")]
+	[Address(RVA = "0x6B26F10", Offset = "0x6B25F10", VA = "0x6B26F10")]
 	public bool IsVarFunction()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002313")]
-	[Address(RVA = "0x2ED5CB0", Offset = "0x2ED42B0", VA = "0x182ED5CB0", Slot = "4")]
+	[Address(RVA = "0x6B26F20", Offset = "0x6B25F20", VA = "0x6B26F20", Slot = "4")]
 	public bool Equals(StyleValueHandle other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002314")]
-	[Address(RVA = "0x312CF40", Offset = "0x312B540", VA = "0x18312CF40", Slot = "0")]
+	[Address(RVA = "0x6B26F40", Offset = "0x6B25F40", VA = "0x6B26F40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002315")]
-	[Address(RVA = "0x312CFD0", Offset = "0x312B5D0", VA = "0x18312CFD0", Slot = "2")]
+	[Address(RVA = "0x6B26FB0", Offset = "0x6B25FB0", VA = "0x6B26FB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

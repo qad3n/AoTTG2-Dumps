@@ -10,135 +10,135 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Changelog;
 
-[Token(Token = "0x2000941")]
+[Token(Token = "0x20009A8")]
 public sealed class AottgChangelogResult<TValue>
 {
-	[Token(Token = "0x17000FAC")]
+	[Token(Token = "0x17000F8B")]
 	public AottgChangelogResultState State
 	{
-		[Token(Token = "0x60056A5")]
+		[Token(Token = "0x60059FE")]
 		[CompilerGenerated]
 		get
 		{
 			return default(AottgChangelogResultState);
 		}
-		[Token(Token = "0x60056A6")]
+		[Token(Token = "0x60059FF")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FAD")]
+	[Token(Token = "0x17000F8C")]
 	public TValue Value
 	{
-		[Token(Token = "0x60056A7")]
+		[Token(Token = "0x6005A00")]
 		[CompilerGenerated]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x60056A8")]
+		[Token(Token = "0x6005A01")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FAE")]
+	[Token(Token = "0x17000F8D")]
 	public string Error
 	{
-		[Token(Token = "0x60056A9")]
+		[Token(Token = "0x6005A02")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60056AA")]
+		[Token(Token = "0x6005A03")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FAF")]
+	[Token(Token = "0x17000F8E")]
 	public bool IsFromCache
 	{
-		[Token(Token = "0x60056AB")]
+		[Token(Token = "0x6005A04")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60056AC")]
+		[Token(Token = "0x6005A05")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FB0")]
+	[Token(Token = "0x17000F8F")]
 	public bool IsStale
 	{
-		[Token(Token = "0x60056AD")]
+		[Token(Token = "0x6005A06")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60056AE")]
+		[Token(Token = "0x6005A07")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000FB1")]
+	[Token(Token = "0x17000F90")]
 	public bool IsRefreshing
 	{
-		[Token(Token = "0x60056AF")]
+		[Token(Token = "0x6005A08")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60056B0")]
+		[Token(Token = "0x6005A09")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60056A4")]
+	[Token(Token = "0x60059FD")]
 	private AottgChangelogResult(AottgChangelogResultState state, TValue value, string error, bool isFromCache, bool isStale, bool isRefreshing)
 	{
 	}
 
-	[Token(Token = "0x60056B1")]
+	[Token(Token = "0x6005A0A")]
 	public static AottgChangelogResult<TValue> LoadingNoCache()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056B2")]
+	[Token(Token = "0x6005A0B")]
 	public static AottgChangelogResult<TValue> ReadyFresh(TValue value, bool isFromCache)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056B3")]
+	[Token(Token = "0x6005A0C")]
 	public static AottgChangelogResult<TValue> ReadyStaleRefreshing(TValue value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056B4")]
+	[Token(Token = "0x6005A0D")]
 	public static AottgChangelogResult<TValue> FailedNoCache(string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056B5")]
+	[Token(Token = "0x6005A0E")]
 	public static AottgChangelogResult<TValue> FailedRefreshStale(TValue value, string error)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Analytics.VRDeviceActiveControllersAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public class VRDeviceActiveControllersAnalytic : VRDeviceAnalyticBase
 	public string[] vr_active_controllers;
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x3308750", Offset = "0x3306D50", VA = "0x183308750")]
+	[Address(RVA = "0x6D17570", Offset = "0x6D16570", VA = "0x6D17570")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VRDeviceActiveControllersAnalytic CreateVRDeviceActiveControllersAnalytic()
 	{
@@ -33,7 +33,7 @@ public class VRDeviceActiveControllersAnalytic : VRDeviceAnalyticBase
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x33087E0", Offset = "0x3306DE0", VA = "0x1833087E0")]
+	[Address(RVA = "0x6D17600", Offset = "0x6D16600", VA = "0x6D17600")]
 	public VRDeviceActiveControllersAnalytic()
 	{
 	}

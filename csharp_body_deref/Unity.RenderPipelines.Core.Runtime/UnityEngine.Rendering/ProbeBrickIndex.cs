@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeBrickIndex
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,20 +32,20 @@ internal class ProbeBrickIndex
 		public int subdivisionLevel;
 
 		[Token(Token = "0x6000884")]
-		[Address(RVA = "0x180F450", Offset = "0x180DA50", VA = "0x18180F450")]
+		[Address(RVA = "0x64FD320", Offset = "0x64FC320", VA = "0x64FD320")]
 		internal Brick(Vector3Int position, int subdivisionLevel)
 		{
 		}
 
 		[Token(Token = "0x6000885")]
-		[Address(RVA = "0x1B27550", Offset = "0x1B25B50", VA = "0x181B27550", Slot = "4")]
+		[Address(RVA = "0x64FD330", Offset = "0x64FC330", VA = "0x64FD330", Slot = "4")]
 		public bool Equals(Brick other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000886")]
-		[Address(RVA = "0x2B08AA0", Offset = "0x2B070A0", VA = "0x182B08AA0")]
+		[Address(RVA = "0x64FD360", Offset = "0x64FC360", VA = "0x64FD360")]
 		public bool IntersectArea(Bounds boundInBricksToCheck)
 		{
 			return default(bool);
@@ -92,7 +92,7 @@ internal class ProbeBrickIndex
 		public IndirectionEntryUpdateInfo[] entriesInfo;
 
 		[Token(Token = "0x6000887")]
-		[Address(RVA = "0x2B09850", Offset = "0x2B07E50", VA = "0x182B09850")]
+		[Address(RVA = "0x64FD510", Offset = "0x64FC510", VA = "0x64FD510")]
 		public int GetNumberOfChunks()
 		{
 			return default(int);
@@ -163,14 +163,14 @@ internal class ProbeBrickIndex
 	internal int estimatedVMemCost
 	{
 		[Token(Token = "0x600086D")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x64FB850", Offset = "0x64FA850", VA = "0x64FB850")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600086E")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x64FB860", Offset = "0x64FA860", VA = "0x64FB860")]
 		[CompilerGenerated]
 		private set
 		{
@@ -181,14 +181,14 @@ internal class ProbeBrickIndex
 	internal float fragmentationRate
 	{
 		[Token(Token = "0x6000870")]
-		[Address(RVA = "0x58A700", Offset = "0x588D00", VA = "0x18058A700")]
+		[Address(RVA = "0x64FB880", Offset = "0x64FA880", VA = "0x64FB880")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000871")]
-		[Address(RVA = "0x58A9F0", Offset = "0x588FF0", VA = "0x18058A9F0")]
+		[Address(RVA = "0x64FB890", Offset = "0x64FA890", VA = "0x64FB890")]
 		[CompilerGenerated]
 		private set
 		{
@@ -196,124 +196,124 @@ internal class ProbeBrickIndex
 	}
 
 	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+	[Address(RVA = "0x64FB870", Offset = "0x64FA870", VA = "0x64FB870")]
 	internal ComputeBuffer GetDebugFragmentationBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000872")]
-	[Address(RVA = "0x2B0F410", Offset = "0x2B0DA10", VA = "0x182B0F410")]
+	[Address(RVA = "0x64FB8A0", Offset = "0x64FA8A0", VA = "0x64FB8A0")]
 	private int SizeOfPhysicalIndexFromBudget(ProbeVolumeTextureMemoryBudget memoryBudget)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000873")]
-	[Address(RVA = "0x2B0F650", Offset = "0x2B0DC50", VA = "0x182B0F650")]
+	[Address(RVA = "0x64FB8D0", Offset = "0x64FA8D0", VA = "0x64FB8D0")]
 	internal ProbeBrickIndex(ProbeVolumeTextureMemoryBudget memoryBudget)
 	{
 	}
 
 	[Token(Token = "0x6000874")]
-	[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+	[Address(RVA = "0x64FBB90", Offset = "0x64FAB90", VA = "0x64FBB90")]
 	public int GetRemainingChunkCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000875")]
-	[Address(RVA = "0x2B0F5D0", Offset = "0x2B0DBD0", VA = "0x182B0F5D0")]
+	[Address(RVA = "0x64FBBA0", Offset = "0x64FABA0", VA = "0x64FBBA0")]
 	internal void UploadIndexData()
 	{
 	}
 
 	[Token(Token = "0x6000876")]
-	[Address(RVA = "0x2B0F440", Offset = "0x2B0DA40", VA = "0x182B0F440")]
+	[Address(RVA = "0x64FBC20", Offset = "0x64FAC20", VA = "0x64FBC20")]
 	private void UpdateDebugData()
 	{
 	}
 
 	[Token(Token = "0x6000877")]
-	[Address(RVA = "0x2B0E7F0", Offset = "0x2B0CDF0", VA = "0x182B0E7F0")]
+	[Address(RVA = "0x64FBB00", Offset = "0x64FAB00", VA = "0x64FBB00")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000878")]
-	[Address(RVA = "0x2B0ED10", Offset = "0x2B0D310", VA = "0x182B0ED10")]
+	[Address(RVA = "0x64FBDA0", Offset = "0x64FADA0", VA = "0x64FBDA0")]
 	internal void GetRuntimeResources(ref ProbeReferenceVolume.RuntimeResources rr)
 	{
 	}
 
 	[Token(Token = "0x6000879")]
-	[Address(RVA = "0x2B0E750", Offset = "0x2B0CD50", VA = "0x182B0E750")]
+	[Address(RVA = "0x64FBF20", Offset = "0x64FAF20", VA = "0x64FBF20")]
 	internal void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x600087A")]
-	[Address(RVA = "0x2B0E880", Offset = "0x2B0CE80", VA = "0x182B0E880")]
+	[Address(RVA = "0x64FBFD0", Offset = "0x64FAFD0", VA = "0x64FBFD0")]
 	internal void ComputeFragmentationRate()
 	{
 	}
 
 	[Token(Token = "0x600087B")]
-	[Address(RVA = "0x2B0F200", Offset = "0x2B0D800", VA = "0x182B0F200")]
+	[Address(RVA = "0x64FC030", Offset = "0x64FB030", VA = "0x64FC030")]
 	private int MergeIndex(int index, int size)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600087C")]
-	[Address(RVA = "0x2B0ECB0", Offset = "0x2B0D2B0", VA = "0x182B0ECB0")]
+	[Address(RVA = "0x64FC040", Offset = "0x64FB040", VA = "0x64FC040")]
 	internal int GetNumberOfChunks(int brickCount)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600087D")]
-	[Address(RVA = "0x2B0E900", Offset = "0x2B0CF00", VA = "0x182B0E900")]
+	[Address(RVA = "0x64FC0B0", Offset = "0x64FB0B0", VA = "0x64FC0B0")]
 	internal bool FindSlotsForEntries(ref IndirectionEntryUpdateInfo[] entriesInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600087E")]
-	[Address(RVA = "0x2B0F2E0", Offset = "0x2B0D8E0", VA = "0x182B0F2E0")]
+	[Address(RVA = "0x64FC440", Offset = "0x64FB440", VA = "0x64FC440")]
 	internal bool ReserveChunks(IndirectionEntryUpdateInfo[] entriesInfo, bool ignoreErrorLog)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600087F")]
-	[Address(RVA = "0x2B0E710", Offset = "0x2B0CD10", VA = "0x182B0E710")]
+	[Address(RVA = "0x64FC5A0", Offset = "0x64FB5A0", VA = "0x64FC5A0")]
 	internal static bool BrickOverlapEntry(Vector3Int brickMin, Vector3Int brickMax, Vector3Int entryMin, Vector3Int entryMax)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000880")]
-	[Address(RVA = "0x2B0EE80", Offset = "0x2B0D480", VA = "0x182B0EE80")]
+	[Address(RVA = "0x64FC5E0", Offset = "0x64FB5E0", VA = "0x64FC5E0")]
 	private static int LocationToIndex(int x, int y, int z, Vector3Int sizeOfValid)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000881")]
-	[Address(RVA = "0x2B0EE90", Offset = "0x2B0D490", VA = "0x182B0EE90")]
+	[Address(RVA = "0x64FC5F0", Offset = "0x64FB5F0", VA = "0x64FC5F0")]
 	private void MarkBrickInPhysicalBuffer(in IndirectionEntryUpdateInfo entry, Vector3Int brickMin, Vector3Int brickMax, int brickSubdivLevel, int entrySubdivLevel, int idx)
 	{
 	}
 
 	[Token(Token = "0x6000882")]
-	[Address(RVA = "0x2B0E260", Offset = "0x2B0C860", VA = "0x182B0E260")]
+	[Address(RVA = "0x64FCD00", Offset = "0x64FBD00", VA = "0x64FCD00")]
 	public void AddBricks(ProbeReferenceVolume.CellIndexInfo cellInfo, NativeArray<Brick> bricks, List<ProbeBrickPool.BrickChunkAlloc> allocations, int allocationSize, int poolWidth, int poolHeight)
 	{
 	}
 
 	[Token(Token = "0x6000883")]
-	[Address(RVA = "0x2B0F220", Offset = "0x2B0D820", VA = "0x182B0F220")]
+	[Address(RVA = "0x64FD250", Offset = "0x64FC250", VA = "0x64FD250")]
 	public void RemoveBricks(ProbeReferenceVolume.CellIndexInfo cellInfo)
 	{
 	}

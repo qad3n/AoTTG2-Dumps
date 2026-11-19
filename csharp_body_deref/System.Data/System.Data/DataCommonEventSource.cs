@@ -23,7 +23,7 @@ internal class DataCommonEventSource : EventSource
 	private static long s_nextScopeId;
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x24EDDE0", Offset = "0x24EC3E0", VA = "0x1824EDDE0")]
+	[Address(RVA = "0x5E8BDA0", Offset = "0x5E8ADA0", VA = "0x5E8BDA0")]
 	[Event(1, Level = EventLevel.Informational)]
 	internal void Trace(string message)
 	{
@@ -66,7 +66,7 @@ internal class DataCommonEventSource : EventSource
 	}
 
 	[Token(Token = "0x6000348")]
-	[Address(RVA = "0x24EDCF0", Offset = "0x24EC2F0", VA = "0x1824EDCF0")]
+	[Address(RVA = "0x5E8BDB0", Offset = "0x5E8ADB0", VA = "0x5E8BDB0")]
 	[Event(2, Level = EventLevel.Verbose)]
 	internal long EnterScope(string message)
 	{
@@ -102,14 +102,14 @@ internal class DataCommonEventSource : EventSource
 	}
 
 	[Token(Token = "0x600034D")]
-	[Address(RVA = "0x24EDDD0", Offset = "0x24EC3D0", VA = "0x1824EDDD0")]
+	[Address(RVA = "0x5E8BEA0", Offset = "0x5E8AEA0", VA = "0x5E8BEA0")]
 	[Event(3, Level = EventLevel.Verbose)]
 	internal void ExitScope(long scopeId)
 	{
 	}
 
 	[Token(Token = "0x600034E")]
-	[Address(RVA = "0x1ACD670", Offset = "0x1ACBC70", VA = "0x181ACD670")]
+	[Address(RVA = "0x5E8BEB0", Offset = "0x5E8AEB0", VA = "0x5E8BEB0")]
 	public DataCommonEventSource()
 	{
 	}

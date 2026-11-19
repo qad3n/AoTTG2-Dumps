@@ -1,14 +1,139 @@
 // Type: UI.CharacterHumanPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/CharacterHumanPanel.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/CharacterHumanPanel.cs
 // --------------------------------
 
+// UI.CharacterHumanPanel.<>c$$.cctor
+// il2cpp: void UI_CharacterHumanPanel___c___cctor (const MethodInfo* method);
+// 0x5d000d0
+
+void UI_CharacterHumanPanel___c___cctor(MethodInfo *method)
+
+{
+  Il2CppObject *__this;
+  
+  if (Il2CppMethodInitialized_07547cff == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterHumanPanel_c);
+    Il2CppMethodInitialized_07547cff = '\x01';
+  }
+  __this = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_UI_CharacterHumanPanel_c->static_fields->__9 = (UI_CharacterHumanPanel___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_UI_CharacterHumanPanel_c->static_fields->__9);
+  return;
+}
+
+
+// UI.CharacterHumanPanel.<>c$$.ctor
+// il2cpp: void UI_CharacterHumanPanel___c___ctor (UI_CharacterHumanPanel___c_o* __this, const MethodInfo* method);
+// 0x5d00140
+
+void UI_CharacterHumanPanel___c___ctor(UI_CharacterHumanPanel___c_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.CharacterHumanPanel.<>c$$<GetSpecialTooltips>b__8_0
+// il2cpp: System_String_o* UI_CharacterHumanPanel___c___GetSpecialTooltips_b__8_0 (UI_CharacterHumanPanel___c_o* __this, System_String_o* option, const MethodInfo* method);
+// 0x5d00150
+
+System_String_o *
+UI_CharacterHumanPanel___c___GetSpecialTooltips_b__8_0
+          (UI_CharacterHumanPanel___c_o *__this,System_String_o *option,MethodInfo *method)
+
+{
+  System_String_o *pSVar1;
+  
+  if (Il2CppMethodInitialized_07547d00 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"SpecialTooltip");
+    il2cpp_codegen_initialize_runtime_metadata(&"CharacterPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_07547d00 = '\x01';
+  }
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  pSVar1 = UI_UIManager__GetLocale
+                     ("CharacterPopup","SpecialTooltip",option,"",
+                      "",(MethodInfo *)0x0);
+  return pSVar1;
+}
+
+
+// UI.CharacterHumanPanel.<>c__DisplayClass1_0$$.ctor
+// il2cpp: void UI_CharacterHumanPanel___c__DisplayClass1_0___ctor (UI_CharacterHumanPanel___c__DisplayClass1_0_o* __this, const MethodInfo* method);
+// 0x5cfebe0
+
+void UI_CharacterHumanPanel___c__DisplayClass1_0___ctor
+               (UI_CharacterHumanPanel___c__DisplayClass1_0_o *__this,MethodInfo *method)
+
+{
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// UI.CharacterHumanPanel.<>c__DisplayClass1_0$$<Setup>b__0
+// il2cpp: System_String_o* UI_CharacterHumanPanel___c__DisplayClass1_0___Setup_b__0 (UI_CharacterHumanPanel___c__DisplayClass1_0_o* __this, System_String_o* costume, int32_t index, const MethodInfo* method);
+// 0x5d001e0
+
+System_String_o *
+UI_CharacterHumanPanel___c__DisplayClass1_0___Setup_b__0
+          (UI_CharacterHumanPanel___c__DisplayClass1_0_o *__this,System_String_o *costume,int32_t index,
+          MethodInfo *method)
+
+{
+  System_Object_array *args;
+  Il2CppObject *pIVar1;
+  Il2CppObject *pIVar2;
+  System_String_o *pSVar3;
+  int iStack_1c;
+  
+  if (Il2CppMethodInitialized_07547d01 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"CostumeOption");
+    il2cpp_codegen_initialize_runtime_metadata(&"CharacterPopup");
+    Il2CppMethodInitialized_07547d01 = '\x01';
+  }
+  pSVar3 = (__this->fields).sub;
+  args = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
+  iStack_1c = index + 1;
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_1c);
+  if (args == (System_Object_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (pIVar1 != (Il2CppObject *)0x0) {
+    pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((args->obj).klass)->_1).element_class);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      pIVar1 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar1,(MethodInfo *)0x0);
+    }
+  }
+  if ((int)args->max_length == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  args->m_Items[0] = pIVar1;
+  Il2CppCodeGenWriteBarrier(args->m_Items);
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  pSVar3 = UI_UIManager__GetLocaleFormatted
+                     ("CharacterPopup",pSVar3,"CostumeOption",args,(MethodInfo *)0x0);
+  return pSVar3;
+}
+
+
 // UI.CharacterHumanPanel$$Setup
 // il2cpp: void UI_CharacterHumanPanel__Setup (UI_CharacterHumanPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x18221f710
+// 0x5cfe2f0
 
 void UI_CharacterHumanPanel__Setup(UI_CharacterHumanPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -21,29 +146,39 @@ void UI_CharacterHumanPanel__Setup(UI_CharacterHumanPanel_o *__this,UI_BasePanel
   Settings_StringSetting_o *pSVar4;
   UI_CharacterPopup_o *__this_01;
   Settings_BoolSetting_o *pSVar5;
-  Settings_HumanCustomSettings_o *pSVar6;
-  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar7;
-  Settings_IntSetting_o *pSVar8;
-  UnityEngine_Transform_o *pUVar9;
-  bool bVar10;
-  System_Collections_Generic_List_string__o *__this_02;
-  System_String_o *pSVar11;
+  UnityEngine_Transform_o *pUVar6;
+  bool bVar7;
+  UI_CharacterHumanPanel___c__DisplayClass1_0_o *__this_02;
   System_Collections_Generic_List_string__o *__this_03;
-  System_String_array *pSVar12;
-  System_Collections_Generic_List_string__o *__this_04;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar13;
-  System_Action_o *pSVar14;
-  System_String_o *title;
-  System_String_o *pSVar15;
-  System_Func_string__string__o *__this_05;
+  System_String_o *pSVar8;
+  UI_CharacterHumanPanel_o *pUVar9;
+  System_String_array *pSVar10;
+  System_String_array *pSVar11;
+  System_Action_o *pSVar12;
+  System_Func_T1__T2__TResult__o *__this_04;
   System_Collections_Generic_IEnumerable_TResult__o *source_00;
+  MethodInfo *method_00;
   System_String_array *tooltips;
+  System_String_array *labels;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
+  MethodInfo *method_04;
+  MethodInfo *method_05;
+  MethodInfo *method_06;
+  MethodInfo *pMVar13;
+  UI_CharacterHumanPanel_o *pUVar14;
+  Settings_IntSetting_o *pSVar15;
+  MethodInfo *in_stack_ffffffffffffff80;
   
-  if (Il2CppMethodInitialized_18434718a == '\0') {
+  if (Il2CppMethodInitialized_07547cf7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_CharacterHumanPanel_OnLoadoutClick);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_CharacterHumanPanel_SyncStatBars);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Linq_Enumerable_Select_string_string_71a8948);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToArray_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string_int_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_HumanLoadout);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSpecials);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Contains);
@@ -52,15 +187,16 @@ void UI_CharacterHumanPanel__Setup(UI_CharacterHumanPanel_o *__this,UI_BasePanel
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerCharacter);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterHumanPanel_c__DisplayClass1_0_Setup_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterHumanPanel_c__DisplayClass1_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&"General");
-    il2cpp_codegen_initialize_runtime_metadata(&"Team");
     il2cpp_codegen_initialize_runtime_metadata(&"Costume");
     il2cpp_codegen_initialize_runtime_metadata(&"Character");
     il2cpp_codegen_initialize_runtime_metadata(&"Loadout");
@@ -68,322 +204,259 @@ void UI_CharacterHumanPanel__Setup(UI_CharacterHumanPanel_o *__this,UI_BasePanel
     il2cpp_codegen_initialize_runtime_metadata(&"Costume2");
     il2cpp_codegen_initialize_runtime_metadata(&"Costume1");
     il2cpp_codegen_initialize_runtime_metadata(&"Special");
+    il2cpp_codegen_initialize_runtime_metadata(&"CharacterPopup");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_18434718a = '\x01';
+    Il2CppMethodInitialized_07547cf7 = '\x01';
   }
-  UI_CharacterCategoryPanel__Setup((UI_CharacterCategoryPanel_o *)__this,parent,(MethodInfo *)0x0);
-  pSVar15 = "General";
-  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields;
-  if (((pSVar2->InGameCurrent != (Settings_InGameSet_o *)0x0) &&
-      (pSVar2->InGameSettings != (Settings_InGameSettings_o *)0x0)) &&
-     (__this_00 = pSVar2->InGameCharacterSettings, __this_00 != (Settings_InGameCharacterSettings_o *)0x0)) {
-    pSVar3 = (pSVar2->InGameCurrent->fields).Misc;
-    source = (pSVar2->InGameSettings->fields).LastCharacter;
-    pSVar4 = (__this_00->fields).CharacterType;
-    if ((TypeInfo_GameManagers_PlayerCharacter->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerCharacter);
-    }
-    if (pSVar4 != (Settings_StringSetting_o *)0x0) {
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)pSVar4,
-                 (Il2CppObject *)TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
-                 (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
-      if ((TypeInfo_GameManagers_HumanLoadout->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_HumanLoadout);
-      }
-      __this_02 = GameManagers_HumanLoadout__GetAllowed((MethodInfo *)0x0);
-      if (Il2CppMethodInitialized_18434717c == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterPopup);
-        Il2CppMethodInitialized_18434717c = '\x01';
-      }
-      __this_01 = (UI_CharacterPopup_o *)(__this->fields).Parent;
-      if (__this_01 != (UI_CharacterPopup_o *)0x0) {
-        bVar1 = (TypeInfo_UI_CharacterPopup->_2).typeHierarchyDepth;
-        if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
-           ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-            (Il2CppClass *)TypeInfo_UI_CharacterPopup)) {
-          il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_UI_CharacterPopup);
+  __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c__DisplayClass1_0);
+  System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
+  UI_CharacterCategoryPanel__Setup((UI_CharacterCategoryPanel_o *)__this,parent,method_01);
+  if (__this_02 != (UI_CharacterHumanPanel___c__DisplayClass1_0_o *)0x0) {
+    (__this_02->fields).sub = "General";
+    Il2CppCodeGenWriteBarrier(&(__this_02->fields).sub);
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields;
+    if ((pSVar2->InGameCurrent != (Settings_InGameSet_o *)0x0) &&
+       (pSVar2->InGameSettings != (Settings_InGameSettings_o *)0x0)) {
+      __this_00 = pSVar2->InGameCharacterSettings;
+      if (__this_00 != (Settings_InGameCharacterSettings_o *)0x0) {
+        pSVar3 = (pSVar2->InGameCurrent->fields).Misc;
+        source = (pSVar2->InGameSettings->fields).LastCharacter;
+        pSVar4 = (__this_00->fields).CharacterType;
+        if ((TypeInfo_GameManagers_PlayerCharacter->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerCharacter);
         }
-        bVar10 = UI_CharacterPopup__RestoreChoices
-                           (__this_01,TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
-                            (MethodInfo *)0x0);
-        if (!bVar10) {
-          if ((source == (Settings_InGameCharacterSettings_o *)0x0) ||
-             (pSVar4 = (source->fields).CharacterType, pSVar4 == (Settings_StringSetting_o *)0x0))
-          goto label_182220153;
-          pSVar11 = (pSVar4->fields)._value;
-          if ((TypeInfo_GameManagers_PlayerCharacter->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerCharacter);
+        if (pSVar4 != (Settings_StringSetting_o *)0x0) {
+          Settings_TypedSetting_object___set_Value
+                    ((Settings_TypedSetting_T__o *)pSVar4,
+                     (Il2CppObject *)TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
+                     (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+          if ((TypeInfo_GameManagers_HumanLoadout->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_HumanLoadout);
           }
-          bVar10 = System_String__op_Equality
-                             (pSVar11,TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
-                              (MethodInfo *)0x0);
-          if (bVar10) {
-            Settings_InGameCharacterSettings__CopyHumanChoices(__this_00,source,(MethodInfo *)0x0);
+          __this_03 = GameManagers_HumanLoadout__GetAllowed((MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_07547ce5 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterPopup);
+            Il2CppMethodInitialized_07547ce5 = '\x01';
           }
-        }
-        pSVar4 = (__this_00->fields).Loadout;
-        if ((pSVar4 != (Settings_StringSetting_o *)0x0) &&
-           (__this_02 != (System_Collections_Generic_List_string__o *)0x0)) {
-          bVar10 = System_Collections_Generic_List_object___Contains
-                             ((System_Collections_Generic_List_object__o *)__this_02,
-                              (Il2CppObject *)(pSVar4->fields)._value,
-                              (MethodInfo_93FC70 *)MethodInfo_System_Collections_Generic_List_string_Contains)
-          ;
-          if (!bVar10) {
-            pSVar4 = (__this_00->fields).Loadout;
-            pSVar11 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                ((System_Collections_Generic_List_object__o *)__this_02,0,
-                                 (MethodInfo_92B830 *)
-                                 MethodInfo_System_Collections_Generic_List_string_get_Item);
-            if (pSVar4 == (Settings_StringSetting_o *)0x0) goto label_182220153;
-            Settings_TypedSetting_object___set_Value
-                      ((Settings_TypedSetting_T__o *)pSVar4,(Il2CppObject *)pSVar11,
-                       (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
-          }
-          pSVar4 = (__this_00->fields).Loadout;
-          if (((pSVar4 != (Settings_StringSetting_o *)0x0) && (pSVar3 != (Settings_InGameMiscSettings_o *)0x0)
-              ) && (pSVar5 = (pSVar3->fields).AllowShifterSpecials, pSVar5 != (Settings_BoolSetting_o *)0x0))
-          {
-            pSVar11 = (pSVar4->fields)._value;
-            bVar10 = (pSVar5->fields)._value;
-            if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
+          __this_01 = (UI_CharacterPopup_o *)(__this->fields).Parent;
+          if (__this_01 != (UI_CharacterPopup_o *)0x0) {
+            bVar1 = (TypeInfo_UI_CharacterPopup->_2).typeHierarchyDepth;
+            if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
+               ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+                (Il2CppClass *)TypeInfo_UI_CharacterPopup)) {
+              il2cpp_codegen_raise_invalid_cast_exception();
             }
-            __this_03 = Characters_HumanSpecials__GetSpecialNames(pSVar11,bVar10,(MethodInfo *)0x0);
-            pSVar4 = (__this_00->fields).Special;
+            bVar7 = UI_CharacterPopup__RestoreChoices
+                              (__this_01,TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
+                               (MethodInfo *)0x0);
+            if (!bVar7) {
+              if ((source == (Settings_InGameCharacterSettings_o *)0x0) ||
+                 (pSVar4 = (source->fields).CharacterType, pSVar4 == (Settings_StringSetting_o *)0x0))
+              goto label_05cfebc6;
+              pSVar8 = (pSVar4->fields)._value;
+              if ((TypeInfo_GameManagers_PlayerCharacter->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerCharacter);
+              }
+              bVar7 = System_String__op_Equality
+                                (pSVar8,TypeInfo_GameManagers_PlayerCharacter->static_fields->Human,
+                                 (MethodInfo *)0x0);
+              if (bVar7) {
+                Settings_InGameCharacterSettings__CopyHumanChoices(__this_00,source,(MethodInfo *)0x0);
+              }
+            }
+            pSVar4 = (__this_00->fields).Loadout;
             if ((pSVar4 != (Settings_StringSetting_o *)0x0) &&
                (__this_03 != (System_Collections_Generic_List_string__o *)0x0)) {
-              bVar10 = System_Collections_Generic_List_object___Contains
-                                 ((System_Collections_Generic_List_object__o *)__this_03,
-                                  (Il2CppObject *)(pSVar4->fields)._value,
-                                  (MethodInfo_93FC70 *)
-                                  MethodInfo_System_Collections_Generic_List_string_Contains);
-              if (!bVar10) {
-                pSVar4 = (__this_00->fields).Special;
-                if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
-                }
-                if (pSVar4 == (Settings_StringSetting_o *)0x0) goto label_182220153;
+              bVar7 = System_Collections_Generic_List_object___Contains
+                                ((System_Collections_Generic_List_object__o *)__this_03,
+                                 (Il2CppObject *)(pSVar4->fields)._value,
+                                 (MethodInfo_395D6D0 *)
+                                 MethodInfo_System_Collections_Generic_List_string_Contains);
+              if (!bVar7) {
+                pSVar4 = (__this_00->fields).Loadout;
+                pSVar8 = System_Collections_Generic_List_object___get_Item
+                                   ((System_Collections_Generic_List_object__o *)__this_03,0,
+                                    (MethodInfo_395CF20 *)
+                                    MethodInfo_System_Collections_Generic_List_string_get_Item);
+                if (pSVar4 == (Settings_StringSetting_o *)0x0) goto label_05cfebc6;
                 Settings_TypedSetting_object___set_Value
-                          ((Settings_TypedSetting_T__o *)pSVar4,
-                           (Il2CppObject *)TypeInfo_Characters_HumanSpecials->static_fields->DefaultSpecial,
-                           (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+                          ((Settings_TypedSetting_T__o *)pSVar4,(Il2CppObject *)pSVar8,
+                           (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
               }
-              if (Il2CppMethodInitialized_18434718d == '\0') {
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_List_string_AddRange);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_List_string_ToArray);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
-                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
-                il2cpp_codegen_initialize_runtime_metadata
-                          (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
-                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
-                Il2CppMethodInitialized_18434718d = '\x01';
-              }
-              pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-              if ((pSVar6 != (Settings_HumanCustomSettings_o *)0x0) &&
-                 (pSVar7 = (pSVar6->fields).Costume1Sets,
-                 pSVar7 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) {
-                pSVar12 = Settings_SetSettingsContainer_object___GetSetNames
-                                    ((Settings_SetSettingsContainer_T__o *)pSVar7,
-                                     (MethodInfo_C8EC20 *)
-                                     MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
-                __this_04 = il2cpp_codegen_object_new
-                                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-                System_Collections_Generic_List_object____ctor_94fb10
-                          ((System_Collections_Generic_List_object__o *)__this_04,
-                           (System_Collections_Generic_IEnumerable_T__o *)pSVar12,
-                           (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80
-                          );
-                pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-                if ((pSVar6 != (Settings_HumanCustomSettings_o *)0x0) &&
-                   (pSVar7 = (pSVar6->fields).CustomSets,
-                   pSVar7 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) {
-                  pSVar12 = Settings_SetSettingsContainer_object___GetSetNames
-                                      ((Settings_SetSettingsContainer_T__o *)pSVar7,
-                                       (MethodInfo_C8EC20 *)
-                                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
-                  if (__this_04 != (System_Collections_Generic_List_string__o *)0x0) {
-                    System_Collections_Generic_List_object___AddRange
-                              ((System_Collections_Generic_List_object__o *)__this_04,
-                               (System_Collections_Generic_IEnumerable_T__o *)pSVar12,
-                               (MethodInfo_93DA30 *)MethodInfo_System_Collections_Generic_List_string_AddRange
-                              );
-                    pUVar13 = System_Collections_Generic_List_object___ToArray
-                                        ((System_Collections_Generic_List_T__o *)__this_04,
-                                         (MethodInfo_929FE0 *)
-                                         MethodInfo_System_Collections_Generic_List_string_ToArray);
-                    pSVar8 = (__this_00->fields).CustomSet;
-                    if ((pSVar8 != (Settings_IntSetting_o *)0x0) &&
-                       (pUVar13 !=
-                        (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-                         *)0x0)) {
-                      if ((int)pUVar13->max_length <= (pSVar8->fields)._value) {
-                        Settings_TypedSetting_int___set_Value
-                                  ((Settings_TypedSetting_int__o *)pSVar8,0,
-                                   (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+              pSVar4 = (__this_00->fields).Loadout;
+              if ((pSVar4 != (Settings_StringSetting_o *)0x0) &&
+                 (pSVar3 != (Settings_InGameMiscSettings_o *)0x0)) {
+                pSVar5 = (pSVar3->fields).AllowShifterSpecials;
+                if (pSVar5 != (Settings_BoolSetting_o *)0x0) {
+                  pSVar8 = (pSVar4->fields)._value;
+                  bVar7 = (pSVar5->fields)._value;
+                  if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
+                  }
+                  pUVar9 = (UI_CharacterHumanPanel_o *)
+                           Characters_HumanSpecials__GetSpecialNames(pSVar8,bVar7,(MethodInfo *)0x0);
+                  pSVar4 = (__this_00->fields).Special;
+                  if ((pSVar4 != (Settings_StringSetting_o *)0x0) &&
+                     (pUVar9 != (UI_CharacterHumanPanel_o *)0x0)) {
+                    pMVar13 = (MethodInfo *)(pSVar4->fields)._value;
+                    pUVar14 = pUVar9;
+                    bVar7 = System_Collections_Generic_List_object___Contains
+                                      ((System_Collections_Generic_List_object__o *)pUVar9,
+                                       (Il2CppObject *)pMVar13,
+                                       (MethodInfo_395D6D0 *)
+                                       MethodInfo_System_Collections_Generic_List_string_Contains);
+                    if (!bVar7) {
+                      pUVar14 = (UI_CharacterHumanPanel_o *)(__this_00->fields).Special;
+                      if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
+                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
                       }
-                      pSVar8 = (__this_00->fields).CustomSet;
-                      pUVar9 = (__this->fields).DoublePanelLeft;
-                      pSVar11 = (__this->fields).LocaleCategory;
+                      if (pUVar14 == (UI_CharacterHumanPanel_o *)0x0) goto label_05cfebc6;
+                      pMVar13 = (MethodInfo *)TypeInfo_Characters_HumanSpecials->static_fields->DefaultSpecial
+                      ;
+                      Settings_TypedSetting_object___set_Value
+                                ((Settings_TypedSetting_T__o *)pUVar14,(Il2CppObject *)pMVar13,
+                                 (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+                    }
+                    pSVar10 = UI_CharacterHumanPanel__GetCharOptions(pUVar14,pMVar13);
+                    pSVar15 = (__this_00->fields).CustomSet;
+                    if ((pSVar15 != (Settings_IntSetting_o *)0x0) && (pSVar10 != (System_String_array *)0x0))
+                    {
+                      if ((int)pSVar10->max_length <= (pSVar15->fields)._value) {
+                        Settings_TypedSetting_int___set_Value
+                                  ((Settings_TypedSetting_int__o *)pSVar15,0,
+                                   (MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+                        pSVar15 = (__this_00->fields).CustomSet;
+                      }
+                      pUVar6 = (__this->fields).DoublePanelLeft;
+                      pSVar8 = (__this_02->fields).sub;
                       if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
                         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
                       }
-                      pSVar11 = UI_UIManager__GetLocale
-                                          (pSVar11,pSVar15,"Character","",
-                                           "",(MethodInfo *)0x0);
-                      pSVar12 = UI_CharacterHumanPanel__GetCharIcons
-                                          (__this,(System_String_array *)pUVar13,(MethodInfo *)0x0);
-                      pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                      pUVar14 = (UI_CharacterHumanPanel_o *)"CharacterPopup";
+                      pSVar8 = UI_UIManager__GetLocale
+                                         ("CharacterPopup",pSVar8,"Character",
+                                          "","",(MethodInfo *)0x0);
+                      pSVar11 = UI_CharacterHumanPanel__GetCharIcons(pUVar14,pSVar10,method_02);
+                      pSVar12 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
                       System_Action___ctor
-                                ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar14,
-                                 (Il2CppObject *)__this,
+                                (pSVar12,(Il2CppObject *)__this,
                                  (intptr_t)MethodInfo_UI_CharacterHumanPanel_SyncStatBars,(MethodInfo *)0x0);
+                      pMVar13 = (MethodInfo *)0x0;
                       UI_CharacterCategoryPanel__IconPicker
-                                ((UI_CharacterCategoryPanel_o *)__this,pUVar9,(Settings_BaseSetting_o *)pSVar8
-                                 ,pSVar11,(System_String_array *)pUVar13,pSVar12,pSVar14,
-                                 (System_String_array *)0x0,144.0,(MethodInfo *)0x0);
-                      pUVar9 = (__this->fields).DoublePanelLeft;
-                      pSVar8 = (__this_00->fields).Costume;
-                      title = UI_UIManager__GetLocale
-                                        ((__this->fields).LocaleCategory,pSVar15,"Costume",
-                                         "","",(MethodInfo *)0x0);
-                      pSVar12 = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
-                      pSVar11 = "Costume1";
-                      if (pSVar12 != (System_String_array *)0x0) {
-                        if ((int)pSVar12->max_length != 0) {
-                          pSVar12->m_Items[0] = "Costume1";
-                          Il2CppCodeGenWriteBarrier(pSVar12->m_Items,pSVar11);
-                          pSVar11 = "Costume2";
-                          if (1 < (uint)pSVar12->max_length) {
-                            pSVar12->m_Items[1] = "Costume2";
-                            Il2CppCodeGenWriteBarrier(pSVar12->m_Items + 1,pSVar11);
-                            pSVar11 = "Costume3";
-                            if (2 < (uint)pSVar12->max_length) {
-                              pSVar12->m_Items[2] = "Costume3";
-                              Il2CppCodeGenWriteBarrier(pSVar12->m_Items + 2,pSVar11);
-                              pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                                ((UI_CharacterCategoryPanel_o *)__this,pUVar6,
+                                 (Settings_BaseSetting_o *)pSVar15,pSVar8,pSVar10,pSVar11,pSVar12,
+                                 (System_String_array *)0x0,144.0,(System_String_array *)0x0,
+                                 in_stack_ffffffffffffff80);
+                      pSVar10 = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
+                      if (pSVar10 != (System_String_array *)0x0) {
+                        if ((int)pSVar10->max_length != 0) {
+                          pSVar10->m_Items[0] = "Costume1";
+                          Il2CppCodeGenWriteBarrier(pSVar10->m_Items);
+                          if ((pSVar10->max_length & 0xfffffffe) != 0) {
+                            pSVar10->m_Items[1] = "Costume2";
+                            Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 1);
+                            if (2 < (uint)pSVar10->max_length) {
+                              pSVar10->m_Items[2] = "Costume3";
+                              Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 2);
+                              pUVar6 = (__this->fields).DoublePanelLeft;
+                              pSVar15 = (__this_00->fields).Costume;
+                              pSVar8 = UI_UIManager__GetLocale
+                                                 ("CharacterPopup",(__this_02->fields).sub,
+                                                  "Costume","",
+                                                  "",(MethodInfo *)0x0);
+                              pSVar12 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
                               System_Action___ctor
-                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar14,
-                                         (Il2CppObject *)__this,
+                                        (pSVar12,(Il2CppObject *)__this,
                                          (intptr_t)MethodInfo_UI_CharacterHumanPanel_SyncStatBars,
                                          (MethodInfo *)0x0);
+                              __this_04 = (System_Func_T1__T2__TResult__o *)
+                                          il2cpp_codegen_object_new
+                                                    ((Il2CppClass *)TypeInfo_System_Func_string_int_string);
+                              System_Func_object__int__object____ctor
+                                        (__this_04,(Il2CppObject *)__this_02,
+                                         (intptr_t)
+                                         MethodInfo_UI_CharacterHumanPanel_c__DisplayClass1_0_Setup_b__0,
+                                         (MethodInfo_4F20870 *)0x0);
+                              source_00 = System_Linq_Enumerable__Select_object__object__34f63f0
+                                                    ((System_Collections_Generic_IEnumerable_TSource__o *)
+                                                     pSVar10,(System_Func_TSource__int__TResult__o *)__this_04
+                                                     ,(MethodInfo_34F63F0 *)
+                                                      MethodInfo_System_Linq_Enumerable_Select_string_string_71a8948
+                                                    );
+                              pSVar11 = (System_String_array *)
+                                        System_Linq_Enumerable__ToArray_object_
+                                                  ((System_Collections_Generic_IEnumerable_TSource__o *)
+                                                   source_00,
+                                                   (MethodInfo_34FEA80 *)
+                                                   MethodInfo_System_Linq_Enumerable_ToArray_string);
                               UI_CharacterCategoryPanel__Choice
-                                        ((UI_CharacterCategoryPanel_o *)__this,pUVar9,
-                                         (Settings_BaseSetting_o *)pSVar8,title,pSVar12,pSVar14,
-                                         (MethodInfo *)0x0);
-                              pUVar9 = (__this->fields).DoublePanelLeft;
+                                        ((UI_CharacterCategoryPanel_o *)__this,pUVar6,
+                                         (Settings_BaseSetting_o *)pSVar15,pSVar8,pSVar10,pSVar12,pSVar11,
+                                         pMVar13);
+                              pUVar6 = (__this->fields).DoublePanelLeft;
                               pSVar4 = (__this_00->fields).Loadout;
-                              pSVar11 = UI_UIManager__GetLocale
-                                                  ((__this->fields).LocaleCategory,pSVar15,
-                                                   "Loadout","",
-                                                   "",(MethodInfo *)0x0);
-                              pUVar13 = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
-                                                  ((System_Collections_Generic_List_T__o *)__this_02,
-                                                   (MethodInfo_929FE0 *)
+                              pSVar8 = UI_UIManager__GetLocale
+                                                 ("CharacterPopup",(__this_02->fields).sub,
+                                                  "Loadout","",
+                                                  "",(MethodInfo *)0x0);
+                              pSVar10 = (System_String_array *)
+                                        System_Collections_Generic_List_object___ToArray
+                                                  ((System_Collections_Generic_List_object__o *)__this_03,
+                                                   (MethodInfo_395F5A0 *)
                                                    MethodInfo_System_Collections_Generic_List_string_ToArray);
-                              pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+                              pSVar12 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
                               System_Action___ctor
-                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pSVar14,
-                                         (Il2CppObject *)__this,
+                                        (pSVar12,(Il2CppObject *)__this,
                                          (intptr_t)MethodInfo_UI_CharacterHumanPanel_OnLoadoutClick,
                                          (MethodInfo *)0x0);
+                              pSVar11 = UI_CharacterCategoryPanel__Labels
+                                                  ("Loadout",
+                                                   (System_Collections_Generic_IEnumerable_string__o *)
+                                                   __this_03,method_03);
                               UI_CharacterCategoryPanel__Choice
-                                        ((UI_CharacterCategoryPanel_o *)__this,pUVar9,
-                                         (Settings_BaseSetting_o *)pSVar4,pSVar11,
-                                         (System_String_array *)pUVar13,pSVar14,(MethodInfo *)0x0);
-                              pUVar13 = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
-                                                  ((System_Collections_Generic_List_T__o *)__this_03,
-                                                   (MethodInfo_929FE0 *)
+                                        ((UI_CharacterCategoryPanel_o *)__this,pUVar6,
+                                         (Settings_BaseSetting_o *)pSVar4,pSVar8,pSVar10,pSVar12,pSVar11,
+                                         pMVar13);
+                              pSVar10 = (System_String_array *)
+                                        System_Collections_Generic_List_object___ToArray
+                                                  ((System_Collections_Generic_List_object__o *)pUVar9,
+                                                   (MethodInfo_395F5A0 *)
                                                    MethodInfo_System_Collections_Generic_List_string_ToArray);
-                              pUVar9 = (__this->fields).DoublePanelLeft;
+                              pMVar13 = (MethodInfo *)(__this->fields).DoublePanelLeft;
                               pSVar4 = (__this_00->fields).Special;
-                              pSVar15 = UI_UIManager__GetLocale
-                                                  ((__this->fields).LocaleCategory,pSVar15,
-                                                   "Special","",
-                                                   "",(MethodInfo *)0x0);
-                              pSVar12 = UI_CharacterHumanPanel__GetSpecialIcons
-                                                  (__this,(System_String_array *)pUVar13,(MethodInfo *)0x0);
-                              if (Il2CppMethodInitialized_184347190 == '\0') {
-                                il2cpp_codegen_initialize_runtime_metadata
-                                          (&MethodInfo_UI_CharacterHumanPanel_GetSpecialTooltips_b__9_0);
-                                il2cpp_codegen_initialize_runtime_metadata
-                                          (&MethodInfo_System_Linq_Enumerable_Select_string_string);
-                                il2cpp_codegen_initialize_runtime_metadata
-                                          (&MethodInfo_System_Linq_Enumerable_ToArray_string);
-                                il2cpp_codegen_initialize_runtime_metadata
-                                          (&TypeInfo_System_Func_string_string);
-                                Il2CppMethodInitialized_184347190 = '\x01';
-                              }
-                              __this_05 = il2cpp_codegen_object_new
-                                                    ((Il2CppClass *)TypeInfo_System_Func_string_string);
-                              System_Func_object__object____ctor
-                                        ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_05,
-                                         (Il2CppObject *)__this,
-                                         (intptr_t)MethodInfo_UI_CharacterHumanPanel_GetSpecialTooltips_b__9_0
-                                         ,(MethodInfo_16E67D0 *)0x0);
-                              source_00 = System_Linq_Enumerable__Select_Vector3__object_
-                                                    ((System_Collections_Generic_IEnumerable_TSource__o *)
-                                                     pUVar13,(System_Func_TSource__TResult__o *)__this_05,
-                                                     (MethodInfo_6C2170 *)
-                                                     MethodInfo_System_Linq_Enumerable_Select_string_string);
-                              tooltips = (System_String_array *)
-                                         System_Linq_Enumerable__ToArray_object_
-                                                   ((System_Collections_Generic_IEnumerable_TSource__o *)
-                                                    source_00,
-                                                    (MethodInfo_6C7D90 *)
-                                                    MethodInfo_System_Linq_Enumerable_ToArray_string);
+                              pUVar9 = (UI_CharacterHumanPanel_o *)"CharacterPopup";
+                              method_00 = (MethodInfo *)
+                                          UI_UIManager__GetLocale
+                                                    ("CharacterPopup",(__this_02->fields).sub,
+                                                     "Special","",
+                                                     "",(MethodInfo *)0x0);
+                              pSVar11 = UI_CharacterHumanPanel__GetSpecialIcons(pUVar9,pSVar10,method_04);
+                              tooltips = UI_CharacterHumanPanel__GetSpecialTooltips(pUVar9,pSVar10,method_05);
+                              labels = UI_CharacterCategoryPanel__Labels
+                                                 ("Special",
+                                                  (System_Collections_Generic_IEnumerable_string__o *)pSVar10,
+                                                  method_06);
                               UI_CharacterCategoryPanel__IconPicker
-                                        ((UI_CharacterCategoryPanel_o *)__this,pUVar9,
-                                         (Settings_BaseSetting_o *)pSVar4,pSVar15,
-                                         (System_String_array *)pUVar13,pSVar12,(System_Action_o *)0x0,
-                                         tooltips,96.0,(MethodInfo *)0x0);
-                              pSVar8 = (pSVar3->fields).PVP;
-                              if (pSVar8 != (Settings_IntSetting_o *)0x0) {
-                                if ((pSVar8->fields)._value != 2) {
-label_18222011b:
-                                  UI_CharacterHumanPanel__SyncStatBars(__this,(MethodInfo *)0x0);
-                                  return;
+                                        ((UI_CharacterCategoryPanel_o *)__this,
+                                         (UnityEngine_Transform_o *)pMVar13,(Settings_BaseSetting_o *)pSVar4,
+                                         (System_String_o *)method_00,pSVar10,pSVar11,(System_Action_o *)0x0,
+                                         tooltips,96.0,labels,in_stack_ffffffffffffff80);
+                              pSVar15 = (pSVar3->fields).PVP;
+                              if (pSVar15 != (Settings_IntSetting_o *)0x0) {
+                                if ((pSVar15->fields)._value == 2) {
+                                  pMVar13 = (MethodInfo *)(__this->fields).DoublePanelRight;
+                                  UI_CharacterCategoryPanel__TeamChoice
+                                            ((UI_CharacterCategoryPanel_o *)__this,
+                                             (UnityEngine_Transform_o *)pMVar13,
+                                             (Settings_BaseSetting_o *)(__this_00->fields).Team,method_00);
                                 }
-                                pUVar9 = (__this->fields).DoublePanelRight;
-                                pSVar4 = (__this_00->fields).Team;
-                                if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-                                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-                                }
-                                pSVar15 = UI_UIManager__GetLocaleCommon
-                                                    ("Team",(MethodInfo *)0x0);
-                                pSVar12 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
-                                if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
-                                  il2cpp_codegen_runtime_class_init
-                                            ((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
-                                }
-                                if (pSVar12 != (System_String_array *)0x0) {
-                                  if ((int)pSVar12->max_length != 0) {
-                                    pSVar11 = TypeInfo_GameManagers_TeamInfo->static_fields->Blue;
-                                    pSVar12->m_Items[0] = pSVar11;
-                                    Il2CppCodeGenWriteBarrier(pSVar12->m_Items,pSVar11);
-                                    if (1 < (uint)pSVar12->max_length) {
-                                      pSVar11 = TypeInfo_GameManagers_TeamInfo->static_fields->Red;
-                                      pSVar12->m_Items[1] = pSVar11;
-                                      Il2CppCodeGenWriteBarrier(pSVar12->m_Items + 1,pSVar11);
-                                      UI_CharacterCategoryPanel__Choice
-                                                ((UI_CharacterCategoryPanel_o *)__this,pUVar9,
-                                                 (Settings_BaseSetting_o *)pSVar4,pSVar15,pSVar12,
-                                                 (System_Action_o *)0x0,(MethodInfo *)0x0);
-                                      goto label_18222011b;
-                                    }
-                                  }
-                                  goto label_182220159;
-                                }
+                                UI_CharacterHumanPanel__SyncStatBars(__this,pMVar13);
+                                return;
                               }
-                              goto label_182220153;
+                              goto label_05cfebc6;
                             }
                           }
                         }
-label_182220159:
                         ThrowIndexOutOfRangeException();
                       }
                     }
@@ -396,14 +469,14 @@ label_182220159:
       }
     }
   }
-label_182220153:
+label_05cfebc6:
   ThrowNullReferenceException();
 }
 
 
 // UI.CharacterHumanPanel$$OnLoadoutClick
 // il2cpp: void UI_CharacterHumanPanel__OnLoadoutClick (UI_CharacterHumanPanel_o* __this, const MethodInfo* method);
-// 0x18221f6f0
+// 0x5cffdb0
 
 void UI_CharacterHumanPanel__OnLoadoutClick(UI_CharacterHumanPanel_o *__this,MethodInfo *method)
 
@@ -411,46 +484,46 @@ void UI_CharacterHumanPanel__OnLoadoutClick(UI_CharacterHumanPanel_o *__this,Met
   UI_BasePanel_o *__this_00;
   
   __this_00 = (__this->fields).Parent;
-  if (__this_00 != (UI_BasePanel_o *)0x0) {
-    UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (UI_BasePanel_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UI.CharacterHumanPanel$$SyncStatBars
 // il2cpp: void UI_CharacterHumanPanel__SyncStatBars (UI_CharacterHumanPanel_o* __this, const MethodInfo* method);
-// 0x182220170
-// eh: try 0x1822202f2..0x182220343 -> pad 0x183315a20 catch Il2CppExceptionWrapper
-// eh: try 0x182220489..0x1822205c9 -> pad 0x1802302b0 (+1 call sites) cleanup
-// eh: try 0x182220789..0x18222078f -> pad 0x183315a20 catch Il2CppExceptionWrapper
+// 0x5cff840
+// eh: try 0x5cff9d0..0x5cffd3b -> pad 0x5cffd44 (+3 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5cffd5c..0x5cffd61 -> pad 0x5cffd84 cleanup
+// eh: try 0x5cffd87..0x5cffd91 -> pad 0x5cffd99 catch (...) [compiler noexcept guard]
 // asm: 25 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182220354: mov rdx, qword ptr [rip + 0x1e6018d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x18222035b: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x182220360: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x182220365: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x18222036a: test rcx, rcx
-// asm:   0x18222036d: jne 0x18222078f
-// asm:   0x182220373: xor esi, esi
-// asm:   0x182220375: mov r14, qword ptr [rsp + 0x90]
-// asm:   0x18222044e: mov rbx, rsi
-// asm:   0x182220451: jmp 0x18222060e
-// asm:   0x182220489: jmp 0x18222060e
-// asm:   0x182220522: jmp 0x18222060e
-// asm:   0x18222059b: jmp 0x18222060e
-// asm:   0x18222078f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315a25: push rbp
-// asm:   0x183315a26: sub rsp, 0x30
-// asm:   0x183315a2a: mov rbp, rdx
-// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315a31: mov rcx, qword ptr [rax]
-// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
-// asm:   0x183315a38: movabs rax, 0
-// asm:   0x183315a42: add rsp, 0x30
-// asm:   0x183315a46: pop rbp
-// asm:   0x183315a47: ret 
+// asm:   0x5cffd40: jmp 0x5cffd44
+// asm:   0x5cffd42: jmp 0x5cffd44
+// asm:   0x5cffd44: mov rbx, rax
+// asm:   0x5cffd47: cmp edx, 1
+// asm:   0x5cffd4a: jne 0x5cffd87
+// asm:   0x5cffd4c: mov rdi, rbx
+// asm:   0x5cffd4f: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5cffd54: mov rbx, qword ptr [rax]
+// asm:   0x5cffd57: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5cffd5c: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5cffd61: lea rax, [rip + 0x158e010]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x5cffd68: mov rsi, qword ptr [rax]
+// asm:   0x5cffd6b: mov rdi, rsp
+// asm:   0x5cffd6e: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5cffd73: test rbx, rbx
+// asm:   0x5cffd76: je 0x5cffa2a
+// asm:   0x5cffd7c: mov rdi, rbx
+// asm:   0x5cffd7f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5cffd84: mov rbx, rax
+// asm:   0x5cffd87: lea rdi, [rsp + 0x20]
+// asm:   0x5cffd8c: call 0x2fdba20  ; il2cpp_runtime_helper_02fdba20()
+// asm:   0x5cffd91: mov rdi, rbx
+// asm:   0x5cffd94: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5cffd99: mov rdi, rax
+// asm:   0x5cffd9c: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_CharacterHumanPanel__SyncStatBars(UI_CharacterHumanPanel_o *__this,MethodInfo *method)
 
@@ -464,24 +537,24 @@ void UI_CharacterHumanPanel__SyncStatBars(UI_CharacterHumanPanel_o *__this,Metho
   Settings_InGameCharacterSettings_o *pSVar6;
   Settings_IntSetting_o *pSVar7;
   Settings_IntSetting_o *pSVar8;
-  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar9;
-  Settings_ListSetting_T__o *pSVar10;
-  System_String_o *category;
+  Settings_ListSetting_T__o *pSVar9;
+  System_String_o *subCategory;
   UnityEngine_Object_o *obj;
-  bool bVar11;
-  int32_t iVar12;
+  bool bVar10;
+  int32_t iVar11;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar12;
   Settings_BaseSetting_o *pSVar13;
-  Settings_BaseSetting_o *pSVar14;
-  Characters_HumanStats_o *pCVar15;
+  Characters_HumanStats_o *pCVar14;
+  System_String_o *pSVar15;
   System_String_o *pSVar16;
-  System_String_o *pSVar17;
-  undefined1 local_50 [16];
-  UnityEngine_Object_o *local_40;
-  undefined1 local_38 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_30;
-  UnityEngine_Object_o *local_28;
+  MethodInfo *pMVar17;
+  undefined1 local_68 [8];
+  undefined1 *puStack_60;
+  UnityEngine_Object_o *local_58;
+  undefined1 local_48 [16];
+  UnityEngine_Object_o *local_38;
   
-  if (Il2CppMethodInitialized_18434718b == '\0') {
+  if (Il2CppMethodInitialized_07547cf8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -507,198 +580,149 @@ void UI_CharacterHumanPanel__SyncStatBars(UI_CharacterHumanPanel_o *__this,Metho
     il2cpp_codegen_initialize_runtime_metadata(&"Ammunition");
     il2cpp_codegen_initialize_runtime_metadata(&"Gas");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_18434718b = '\x01';
+    Il2CppMethodInitialized_07547cf8 = '\x01';
   }
-  local_38 = (undefined1  [8])0x0;
-  pUStack_30 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_28 = (UnityEngine_Object_o *)0x0;
+  local_68 = (undefined1  [8])0x0;
+  puStack_60 = (undefined1 *)0x0;
+  local_58 = (UnityEngine_Object_o *)0x0;
   pSVar4 = (__this->fields)._statBars;
-  if (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_50,
-               (System_Collections_Generic_List_T__o *)pSVar4,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-    local_38 = (undefined1  [8])local_50._0_8_;
-    pUStack_30 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_50._8_8_;
-    local_28 = local_40;
-    pSVar14 = (Settings_BaseSetting_o *)0x0;
-    local_50._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_50._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38;
-    while (bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              ((System_Collections_Generic_List_Enumerator_object__o *)local_38,
-                               (MethodInfo_153A2A0 *)
-                               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext),
-          obj = local_28, bVar11) {
-      if (local_28 == (UnityEngine_Object_o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)local_28,false,(MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      UnityEngine_Object__Destroy_2f1ff70(obj,(MethodInfo *)0x0);
+  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05cffd3b;
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
+             (System_Collections_Generic_List_object__o *)pSVar4,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+  local_58 = local_38;
+  local_68 = (undefined1  [8])local_48._0_8_;
+  puStack_60 = (undefined1 *)local_48._8_8_;
+  local_48._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  local_48._8_8_ = local_68;
+  while( true ) {
+    bVar10 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                       ((System_Collections_Generic_List_Enumerator_object__o *)local_68,
+                        (MethodInfo_4C45C50 *)
+                        MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+    obj = local_58;
+    if (!bVar10) break;
+    if (local_58 == (UnityEngine_Object_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38,
-               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
-    pSVar4 = (__this->fields)._statBars;
-    if (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-      piVar1 = &(pSVar4->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      iVar12 = (pSVar4->fields)._size;
-      (pSVar4->fields)._size = 0;
-      if (0 < iVar12) {
-        System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar12,(MethodInfo *)0x0);
-      }
+    UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)local_58,false,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    UnityEngine_Object__Destroy_69214e0(obj,(MethodInfo *)0x0);
+  }
+  System_Collections_Generic_List_Enumerator_object___Dispose
+            ((System_Collections_Generic_List_Enumerator_object__o *)local_68,
+             (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+  pSVar4 = (__this->fields)._statBars;
+  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05cffd3b;
+  piVar1 = &(pSVar4->fields)._version;
+  *piVar1 = *piVar1 + 1;
+  iVar11 = (pSVar4->fields)._size;
+  (pSVar4->fields)._size = 0;
+  if (0 < iVar11) {
+    System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar11,(MethodInfo *)0x0);
+  }
+  pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if (((((pSVar5 == (Settings_HumanCustomSettings_o *)0x0) ||
+        (pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->InGameCharacterSettings,
+        pSVar6 == (Settings_InGameCharacterSettings_o *)0x0)) ||
+       (pSVar7 = (pSVar6->fields).CustomSet, pSVar7 == (Settings_IntSetting_o *)0x0)) ||
+      ((pSVar8 = (pSVar6->fields).Costume, pSVar8 == (Settings_IntSetting_o *)0x0 ||
+       (pSVar12 = (pSVar5->fields).Costume1Sets,
+       pSVar12 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)))) ||
+     (pSVar9 = (pSVar12->fields).Sets, pSVar9 == (Settings_ListSetting_T__o *)0x0)) goto label_05cffd3b;
+  pSVar12 = (pSVar5->fields).CustomSets;
+  index = (pSVar7->fields)._value;
+  iVar3 = (pSVar8->fields)._value;
+  iVar11 = Settings_ListSetting_object___GetCount
+                     (pSVar9,(MethodInfo_515DE80 *)MethodInfo_Settings_ListSetting_HumanCustomSet_GetCount);
+  if (index < iVar11) {
+    if (iVar3 == 2) {
       pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-      if (((((pSVar5 != (Settings_HumanCustomSettings_o *)0x0) &&
-            (pSVar6 = TypeInfo_Settings_SettingsManager->static_fields->InGameCharacterSettings,
-            pSVar6 != (Settings_InGameCharacterSettings_o *)0x0)) &&
-           (pSVar7 = (pSVar6->fields).CustomSet, pSVar7 != (Settings_IntSetting_o *)0x0)) &&
-          ((pSVar8 = (pSVar6->fields).Costume, pSVar8 != (Settings_IntSetting_o *)0x0 &&
-           (pSVar9 = (pSVar5->fields).Costume1Sets,
-           pSVar9 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)))) &&
-         (pSVar10 = (pSVar9->fields).Sets, pSVar10 != (Settings_ListSetting_T__o *)0x0)) {
-        pSVar9 = (pSVar5->fields).CustomSets;
-        index = (pSVar7->fields)._value;
-        iVar3 = (pSVar8->fields)._value;
-        iVar12 = Settings_ListSetting_object___GetCount
-                           (pSVar10,(MethodInfo_182B100 *)
-                                    MethodInfo_Settings_ListSetting_HumanCustomSet_GetCount);
-        if (index < iVar12) {
-          pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-          if (iVar3 == 1) {
-            if (((pSVar5 == (Settings_HumanCustomSettings_o *)0x0) ||
-                (pSVar9 = (pSVar5->fields).Costume2Sets,
-                pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-               (pSVar10 = (pSVar9->fields).Sets, pSVar10 == (Settings_ListSetting_T__o *)0x0))
-            goto label_182220783;
-            pSVar14 = Settings_ListSetting_object___GetItemAt
-                                (pSVar10,index,
-                                 (MethodInfo_182B120 *)
-                                 MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt);
-            if (pSVar14 == (Settings_BaseSetting_o *)0x0) {
-              pSVar14 = (Settings_BaseSetting_o *)0x0;
-            }
-            else {
-              bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
-              if (((pSVar14->klass->_2).typeHierarchyDepth < bVar2) ||
-                 ((pSVar14->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                  (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pSVar14);
-              }
-            }
-          }
-          else if (iVar3 == 2) {
-            if (((pSVar5 == (Settings_HumanCustomSettings_o *)0x0) ||
-                (pSVar9 = (pSVar5->fields).Costume3Sets,
-                pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-               (pSVar10 = (pSVar9->fields).Sets, pSVar10 == (Settings_ListSetting_T__o *)0x0))
-            goto label_182220783;
-            pSVar14 = Settings_ListSetting_object___GetItemAt
-                                (pSVar10,index,
-                                 (MethodInfo_182B120 *)
-                                 MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt);
-            if (pSVar14 == (Settings_BaseSetting_o *)0x0) {
-              pSVar14 = (Settings_BaseSetting_o *)0x0;
-            }
-            else {
-              bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
-              if (((pSVar14->klass->_2).typeHierarchyDepth < bVar2) ||
-                 ((pSVar14->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                  (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pSVar14);
-              }
-            }
-          }
-          else {
-            if (((pSVar5 == (Settings_HumanCustomSettings_o *)0x0) ||
-                (pSVar9 = (pSVar5->fields).Costume1Sets,
-                pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-               (pSVar10 = (pSVar9->fields).Sets, pSVar10 == (Settings_ListSetting_T__o *)0x0))
-            goto label_182220783;
-            pSVar14 = Settings_ListSetting_object___GetItemAt
-                                (pSVar10,index,
-                                 (MethodInfo_182B120 *)
-                                 MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt);
-            if (pSVar14 == (Settings_BaseSetting_o *)0x0) {
-              pSVar14 = (Settings_BaseSetting_o *)0x0;
-            }
-            else {
-              bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
-              if (((pSVar14->klass->_2).typeHierarchyDepth < bVar2) ||
-                 ((pSVar14->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                  (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pSVar14);
-              }
-            }
-          }
-        }
-        else {
-          if ((pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) ||
-             (pSVar10 = (pSVar9->fields).Sets, pSVar10 == (Settings_ListSetting_T__o *)0x0))
-          goto label_182220783;
-          pSVar13 = Settings_ListSetting_object___GetItemAt
-                              (pSVar10,index - iVar12,
-                               (MethodInfo_182B120 *)MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt)
-          ;
-          if (pSVar13 != (Settings_BaseSetting_o *)0x0) {
-            bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
-            if (((pSVar13->klass->_2).typeHierarchyDepth < bVar2) ||
-               (pSVar14 = pSVar13,
-               (pSVar13->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-               (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
-              il2cpp_codegen_raise_invalid_cast_exception(pSVar13);
-            }
-          }
-        }
-        pCVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Characters_HumanStats);
-        Characters_HumanStats___ctor(pCVar15,(Characters_Human_o *)0x0,(MethodInfo *)0x0);
-        if ((pSVar14 != (Settings_BaseSetting_o *)0x0) &&
-           (pSVar14[0xb].klass != (Settings_BaseSetting_c *)0x0)) {
-          pSVar17 = ((pSVar14[0xb].klass)->_1).byval_arg.data;
-          if ((TypeInfo_Characters_HumanStats->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanStats);
-          }
-          pCVar15 = Characters_HumanStats__Deserialize(pCVar15,pSVar17,(MethodInfo *)0x0);
-          category = "CharacterEditor";
-          pSVar17 = "Stats";
-          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-          }
-          pSVar16 = UI_UIManager__GetLocale
-                              (category,pSVar17,"Acceleration","",
-                               "",(MethodInfo *)0x0);
-          if (pCVar15 != (Characters_HumanStats_o *)0x0) {
-            UI_CharacterHumanPanel__CreateStatBar
-                      (__this,pSVar16,(pCVar15->fields).Acceleration,(MethodInfo *)0x0);
-            pSVar16 = UI_UIManager__GetLocale
-                                (category,pSVar17,"Speed","",
-                                 "",(MethodInfo *)0x0);
-            UI_CharacterHumanPanel__CreateStatBar(__this,pSVar16,(pCVar15->fields).Speed,(MethodInfo *)0x0);
-            pSVar16 = UI_UIManager__GetLocale
-                                (category,pSVar17,"Gas","",
-                                 "",(MethodInfo *)0x0);
-            UI_CharacterHumanPanel__CreateStatBar(__this,pSVar16,(pCVar15->fields).Gas,(MethodInfo *)0x0);
-            pSVar17 = UI_UIManager__GetLocale
-                                (category,pSVar17,"Ammunition","",
-                                 "",(MethodInfo *)0x0);
-            UI_CharacterHumanPanel__CreateStatBar
-                      (__this,pSVar17,(pCVar15->fields).Ammunition,(MethodInfo *)0x0);
-            return;
-          }
-        }
-      }
+      if (pSVar5 == (Settings_HumanCustomSettings_o *)0x0) goto label_05cffd3b;
+      pSVar12 = (pSVar5->fields).Costume3Sets;
+    }
+    else if (iVar3 == 1) {
+      pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+      if (pSVar5 == (Settings_HumanCustomSettings_o *)0x0) goto label_05cffd3b;
+      pSVar12 = (pSVar5->fields).Costume2Sets;
+    }
+    else {
+      pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+      if (pSVar5 == (Settings_HumanCustomSettings_o *)0x0) goto label_05cffd3b;
+      pSVar12 = (pSVar5->fields).Costume1Sets;
+    }
+    if ((pSVar12 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) ||
+       (pSVar9 = (pSVar12->fields).Sets, pSVar9 == (Settings_ListSetting_T__o *)0x0)) goto label_05cffd3b;
+    pSVar13 = Settings_ListSetting_object___GetItemAt
+                        (pSVar9,index,
+                         (MethodInfo_515DEA0 *)MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt);
+    if (pSVar13 == (Settings_BaseSetting_o *)0x0) goto label_05cffbd6;
+label_05cffb38:
+    bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+    if (((pSVar13->klass->_2).typeHierarchyDepth < bVar2) ||
+       ((pSVar13->klass->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar13);
     }
   }
-label_182220783:
+  else {
+    if ((pSVar12 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) ||
+       (pSVar9 = (pSVar12->fields).Sets, pSVar9 == (Settings_ListSetting_T__o *)0x0)) goto label_05cffd3b;
+    pSVar13 = Settings_ListSetting_object___GetItemAt
+                        (pSVar9,index - iVar11,
+                         (MethodInfo_515DEA0 *)MethodInfo_Settings_ListSetting_HumanCustomSet_GetItemAt);
+    if (pSVar13 != (Settings_BaseSetting_o *)0x0) goto label_05cffb38;
+label_05cffbd6:
+    pSVar13 = (Settings_BaseSetting_o *)0x0;
+  }
+  pCVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Characters_HumanStats);
+  Characters_HumanStats___ctor(pCVar14,(Characters_Human_o *)0x0,(MethodInfo *)0x0);
+  if ((pSVar13 != (Settings_BaseSetting_o *)0x0) && (pSVar13[0xb].klass != (Settings_BaseSetting_c *)0x0)) {
+    pSVar16 = ((pSVar13[0xb].klass)->_1).byval_arg.data;
+    if ((TypeInfo_Characters_HumanStats->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanStats);
+    }
+    pCVar14 = Characters_HumanStats__Deserialize(pCVar14,pSVar16,(MethodInfo *)0x0);
+    subCategory = "Stats";
+    pSVar16 = "CharacterEditor";
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pMVar17 = (MethodInfo *)"";
+    pSVar15 = UI_UIManager__GetLocale
+                        (pSVar16,subCategory,"Acceleration","",""
+                         ,(MethodInfo *)0x0);
+    if (pCVar14 != (Characters_HumanStats_o *)0x0) {
+      UI_CharacterHumanPanel__CreateStatBar(__this,pSVar15,(pCVar14->fields).Acceleration,pMVar17);
+      pMVar17 = (MethodInfo *)"";
+      pSVar15 = UI_UIManager__GetLocale
+                          (pSVar16,subCategory,"Speed","",
+                           "",(MethodInfo *)0x0);
+      UI_CharacterHumanPanel__CreateStatBar(__this,pSVar15,(pCVar14->fields).Speed,pMVar17);
+      pMVar17 = (MethodInfo *)"";
+      pSVar15 = UI_UIManager__GetLocale
+                          (pSVar16,subCategory,"Gas","",
+                           "",(MethodInfo *)0x0);
+      UI_CharacterHumanPanel__CreateStatBar(__this,pSVar15,(pCVar14->fields).Gas,pMVar17);
+      pMVar17 = (MethodInfo *)"";
+      pSVar16 = UI_UIManager__GetLocale
+                          (pSVar16,subCategory,"Ammunition","",
+                           "",(MethodInfo *)0x0);
+      UI_CharacterHumanPanel__CreateStatBar(__this,pSVar16,(pCVar14->fields).Ammunition,pMVar17);
+      return;
+    }
+  }
+label_05cffd3b:
   ThrowNullReferenceException();
 }
 
 
 // UI.CharacterHumanPanel$$CreateStatBar
 // il2cpp: void UI_CharacterHumanPanel__CreateStatBar (UI_CharacterHumanPanel_o* __this, System_String_o* title, int32_t value, const MethodInfo* method);
-// 0x18221e9f0
+// 0x5cffdd0
 
 void UI_CharacterHumanPanel__CreateStatBar
                (UI_CharacterHumanPanel_o *__this,System_String_o *title,int32_t value,MethodInfo *method)
@@ -716,31 +740,31 @@ void UI_CharacterHumanPanel__CreateStatBar
   System_String_o *text;
   UnityEngine_RectTransform_o *fill;
   UnityEngine_GameObject_o *item;
-  System_Nullable_float__Fields local_res8;
-  int32_t local_res18 [2];
+  int32_t local_3c;
+  System_Nullable_float__Fields local_38;
   
-  local_res18[0] = value;
-  if (Il2CppMethodInitialized_18434718c == '\0') {
+  local_3c = value;
+  if (Il2CppMethodInitialized_07547cf9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_float_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&"clear");
     il2cpp_codegen_initialize_runtime_metadata(&"inGameText");
     il2cpp_codegen_initialize_runtime_metadata(&"inGameInfo");
-    Il2CppMethodInitialized_18434718c = '\x01';
+    Il2CppMethodInitialized_07547cf9 = '\x01';
   }
-  pGVar3 = (__this->fields).View;
   pUVar7 = (__this->fields).DoublePanelRight;
-  local_res8.hasValue = false;
-  local_res8._1_3_ = 0;
-  local_res8.value = 0.0;
+  pGVar3 = (__this->fields).View;
+  local_38.hasValue = false;
+  local_38._1_3_ = 0;
+  local_38.value = 0.0;
   System_Nullable_float____ctor
-            ((System_Nullable_float__o *)&local_res8,4.0,
-             (MethodInfo_AE2920 *)MethodInfo_System_Nullable_float_ctor);
+            ((System_Nullable_float__o *)&local_38,4.0,
+             (MethodInfo_3CDA2B0 *)MethodInfo_System_Nullable_float_ctor);
   if (pGVar3 != (Gisketch_Aottg2UI_Game_AottgInGameView_o *)0x0) {
     pUVar7 = Gisketch_Aottg2UI_Game_AottgInGameView__Panel
                        (pGVar3,pUVar7,"clear",440.0,48.0,false,
-                        (System_Nullable_float__o)local_res8,(MethodInfo *)0x0);
+                        (System_Nullable_float__o)local_38,(MethodInfo *)0x0);
     pGVar3 = (__this->fields).View;
     if (pGVar3 != (Gisketch_Aottg2UI_Game_AottgInGameView_o *)0x0) {
       parent = Gisketch_Aottg2UI_Game_AottgInGameView__Panel
@@ -751,7 +775,7 @@ void UI_CharacterHumanPanel__CreateStatBar
         Gisketch_Aottg2UI_Game_AottgInGameView__Text
                   (pGVar3,parent,title,370.0,30.0,"inGameInfo",(MethodInfo *)0x0);
         pGVar3 = (__this->fields).View;
-        text = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+        text = System_Int32__ToString(&local_3c,(MethodInfo *)0x0);
         if (pGVar3 != (Gisketch_Aottg2UI_Game_AottgInGameView_o *)0x0) {
           Gisketch_Aottg2UI_Game_AottgInGameView__Text
                     (pGVar3,parent,text,70.0,30.0,"inGameText",(MethodInfo *)0x0);
@@ -759,13 +783,13 @@ void UI_CharacterHumanPanel__CreateStatBar
           if (pGVar3 != (Gisketch_Aottg2UI_Game_AottgInGameView_o *)0x0) {
             fill = Gisketch_Aottg2UI_Game_AottgInGameView__ProgressBar
                              (pGVar3,pUVar7,440.0,10.0,(MethodInfo *)0x0);
-            iVar6 = local_res18[0];
+            iVar6 = local_3c;
             if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init
                         ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
             }
             Gisketch_Aottg2UI_Game_AottgInGameView__SetProgress
-                      (fill,((float)iVar6 - 50.0) / 50.0,(MethodInfo *)0x0);
+                      (fill,((float)iVar6 + -50.0) / 50.0,(MethodInfo *)0x0);
             if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
               __this_00 = (__this->fields)._statBars;
               item = UnityEngine_Component__get_gameObject
@@ -779,16 +803,13 @@ void UI_CharacterHumanPanel__CreateStatBar
                   uVar2 = (__this_00->fields)._size;
                   if (uVar2 < (uint)pUVar4->max_length) {
                     (__this_00->fields)._size = uVar2 + 1;
-                    if ((uint)pUVar4->max_length <= uVar2) {
-                      ThrowIndexOutOfRangeException();
-                    }
                     pUVar4->m_Items[(int)uVar2] = item;
-                    Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,item);
+                    Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2);
                   }
                   else {
                     System_Collections_Generic_List_object___AddWithResize
                               ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
-                               (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+                               (MethodInfo_395D230 *)pMVar5->klass->rgctx_data[0xe].method);
                   }
                   return;
                 }
@@ -805,7 +826,7 @@ void UI_CharacterHumanPanel__CreateStatBar
 
 // UI.CharacterHumanPanel$$GetCharOptions
 // il2cpp: System_String_array* UI_CharacterHumanPanel__GetCharOptions (UI_CharacterHumanPanel_o* __this, const MethodInfo* method);
-// 0x18221f330
+// 0x5cfebf0
 
 System_String_array *
 UI_CharacterHumanPanel__GetCharOptions(UI_CharacterHumanPanel_o *__this,MethodInfo *method)
@@ -815,19 +836,17 @@ UI_CharacterHumanPanel__GetCharOptions(UI_CharacterHumanPanel_o *__this,MethodIn
   Settings_SetSettingsContainer_HumanCustomSet__o *pSVar2;
   System_String_array *pSVar3;
   System_Collections_Generic_List_string__o *__this_00;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar4;
   
-  if (Il2CppMethodInitialized_18434718d == '\0') {
+  if (Il2CppMethodInitialized_07547cfa == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_AddRange);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
-    Il2CppMethodInitialized_18434718d = '\x01';
+    Il2CppMethodInitialized_07547cfa = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
   if ((pSVar1 != (Settings_HumanCustomSettings_o *)0x0) &&
@@ -835,30 +854,31 @@ UI_CharacterHumanPanel__GetCharOptions(UI_CharacterHumanPanel_o *__this,MethodIn
      )) {
     pSVar3 = Settings_SetSettingsContainer_object___GetSetNames
                        ((Settings_SetSettingsContainer_T__o *)pSVar2,
-                        (MethodInfo_C8EC20 *)
+                        (MethodInfo_40482D0 *)
                         MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
     __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-    System_Collections_Generic_List_object____ctor_94fb10
+    System_Collections_Generic_List_object____ctor_395ca70
               ((System_Collections_Generic_List_object__o *)__this_00,
                (System_Collections_Generic_IEnumerable_T__o *)pSVar3,
-               (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+               (MethodInfo_395CA70 *)MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
     if ((pSVar1 != (Settings_HumanCustomSettings_o *)0x0) &&
        (pSVar2 = (pSVar1->fields).CustomSets, pSVar2 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0
        )) {
       pSVar3 = Settings_SetSettingsContainer_object___GetSetNames
                          ((Settings_SetSettingsContainer_T__o *)pSVar2,
-                          (MethodInfo_C8EC20 *)
+                          (MethodInfo_40482D0 *)
                           MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
       if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
         System_Collections_Generic_List_object___AddRange
                   ((System_Collections_Generic_List_object__o *)__this_00,
                    (System_Collections_Generic_IEnumerable_T__o *)pSVar3,
-                   (MethodInfo_93DA30 *)MethodInfo_System_Collections_Generic_List_string_AddRange);
-        pUVar4 = System_Collections_Generic_List_object___ToArray
-                           ((System_Collections_Generic_List_T__o *)__this_00,
-                            (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
-        return (System_String_array *)pUVar4;
+                   (MethodInfo_395D490 *)MethodInfo_System_Collections_Generic_List_string_AddRange);
+        pSVar3 = (System_String_array *)
+                 System_Collections_Generic_List_object___ToArray
+                           ((System_Collections_Generic_List_object__o *)__this_00,
+                            (MethodInfo_395F5A0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+        return pSVar3;
       }
     }
   }
@@ -868,65 +888,79 @@ UI_CharacterHumanPanel__GetCharOptions(UI_CharacterHumanPanel_o *__this,MethodIn
 
 // UI.CharacterHumanPanel$$GetCharIcons
 // il2cpp: System_String_array* UI_CharacterHumanPanel__GetCharIcons (UI_CharacterHumanPanel_o* __this, System_String_array* options, const MethodInfo* method);
-// 0x18221ecb0
-// eh: try 0x18221efb2..0x18221f31d -> pad 0x183326990 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 25 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18221f067: mov rdx, qword ptr [rip + 0x1e5746a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose
-// asm:   0x18221f06e: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x18221f073: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x18221f078: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x18221f07d: test rcx, rcx
-// asm:   0x18221f080: jne 0x18221f31d
-// asm:   0x18221f086: mov rsi, qword ptr [rsp + 0x58]
-// asm:   0x18221f08b: mov r13, qword ptr [rsp + 0x60]
-// asm:   0x18221f090: mov r12, qword ptr [rsp + 0x68]
-// asm:   0x18221f095: mov r14d, dword ptr [rsp + 0xd8]
-// asm:   0x18221f09d: mov rdi, qword ptr [rsp + 0x28]
-// asm:   0x18221f0a2: test rdi, rdi
-// asm:   0x18221f0a5: je 0x18221f1d1
-// asm:   0x18221f31d: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183326990: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183326995: push rbp
-// asm:   0x183326996: sub rsp, 0x20
-// asm:   0x18332699a: mov rbp, rdx
-// asm:   0x18332699d: mov rax, qword ptr [rbp + 0x70]
-// asm:   0x1833269a1: mov rcx, qword ptr [rax]
-// asm:   0x1833269a4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x1833269a8: movabs rax, 0
-// asm:   0x1833269b2: add rsp, 0x20
-// asm:   0x1833269b6: pop rbp
-// asm:   0x1833269b7: ret 
+// 0x5cfed20
+// eh: try 0x5cff104..0x5cff41f -> pad 0x5cff429 (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5cff443..0x5cff448 -> pad 0x5cff49f cleanup
+// eh: try 0x5cff4a2..0x5cff4ac -> pad 0x5cff4b4 catch (...) [compiler noexcept guard]
+// asm: 29 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5cff0a3: jmp 0x5cff495
+// asm:   0x5cff421: jmp 0x5cff42b
+// asm:   0x5cff423: jmp 0x5cff42b
+// asm:   0x5cff425: jmp 0x5cff42b
+// asm:   0x5cff427: jmp 0x5cff42b
+// asm:   0x5cff429: jmp 0x5cff42b
+// asm:   0x5cff42b: mov rbx, rax
+// asm:   0x5cff42e: cmp edx, 1
+// asm:   0x5cff431: jne 0x5cff4a2
+// asm:   0x5cff433: mov rdi, rbx
+// asm:   0x5cff436: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5cff43b: mov rbx, qword ptr [rax]
+// asm:   0x5cff43e: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5cff443: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5cff448: lea rax, [rip + 0x158e359]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose
+// asm:   0x5cff44f: mov rsi, qword ptr [rax]
+// asm:   0x5cff452: mov rdi, r15
+// asm:   0x5cff455: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5cff45a: test rbx, rbx
+// asm:   0x5cff45d: je 0x5cff352
+// asm:   0x5cff463: mov rdi, rbx
+// asm:   0x5cff466: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5cff49f: mov rbx, rax
+// asm:   0x5cff4a2: lea rdi, [rsp + 0x18]
+// asm:   0x5cff4a7: call 0x2fdba50  ; il2cpp_runtime_helper_02fdba50()
+// asm:   0x5cff4ac: mov rdi, rbx
+// asm:   0x5cff4af: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5cff4b4: mov rdi, rax
+// asm:   0x5cff4b7: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_String_array *
 UI_CharacterHumanPanel__GetCharIcons
           (UI_CharacterHumanPanel_o *__this,System_String_array *options,MethodInfo *method)
 
 {
-  uint uVar1;
-  byte bVar2;
-  Settings_HumanCustomSettings_o *pSVar3;
-  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar4;
+  System_String_o **ppSVar1;
+  int32_t *piVar2;
+  byte bVar3;
+  uint uVar4;
+  Settings_HumanCustomSettings_o *pSVar5;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar6;
   Settings_ListSetting_T__o *obj;
+  Il2CppClass *pIVar7;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar8;
   System_String_o *path1;
-  Il2CppObject *pIVar5;
-  bool bVar6;
+  Il2CppObject *pIVar9;
+  bool bVar10;
   System_Collections_Generic_List_string__o *__this_00;
-  System_String_array *collection;
+  System_String_array *pSVar11;
   System_Collections_Generic_List_string__o *__this_01;
-  System_Collections_Generic_List_T__o *__this_02;
+  VirtualInvokeData *pVVar12;
+  System_Collections_Generic_List_object__o *pSVar13;
+  ulong uVar14;
   System_String_o *key;
   UnityEngine_Texture2D_o *x;
-  System_String_o *pSVar7;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar8;
-  uint uVar9;
-  System_Collections_Generic_List_Enumerator_object__o local_78;
-  System_Collections_Generic_List_string__o *local_60;
-  System_Collections_Generic_List_string__o *local_58;
-  System_String_array *local_50;
-  System_Collections_Generic_List_Enumerator_T__o local_40;
+  System_String_o *pSVar15;
+  int iVar16;
+  MethodInfo *pMVar17;
+  long lVar18;
+  ulong uVar19;
+  undefined1 local_70 [16];
+  Il2CppObject *local_60;
+  undefined1 local_58 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_50;
+  Il2CppObject *local_48;
+  System_Collections_Generic_List_object__o *local_38;
   
-  if (Il2CppMethodInitialized_18434718e == '\0') {
+  if (Il2CppMethodInitialized_07547cfb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -942,7 +976,7 @@ UI_CharacterHumanPanel__GetCharIcons
               (&MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
@@ -961,182 +995,236 @@ UI_CharacterHumanPanel__GetCharIcons
     il2cpp_codegen_initialize_runtime_metadata(&"/Human/Previews/Preset");
     il2cpp_codegen_initialize_runtime_metadata(&".png");
     il2cpp_codegen_initialize_runtime_metadata(&"Preset");
-    Il2CppMethodInitialized_18434718e = '\x01';
+    Il2CppMethodInitialized_07547cfb = '\x01';
   }
-  local_78.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_78.fields._index = 0;
-  local_78.fields._version = 0;
-  local_78.fields._current = (Il2CppObject *)0x0;
+  local_58 = (undefined1  [8])0x0;
+  pSStack_50 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  local_48 = (Il2CppObject *)0x0;
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
-  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-  if ((pSVar3 != (Settings_HumanCustomSettings_o *)0x0) &&
-     (pSVar4 = (pSVar3->fields).Costume1Sets, pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if ((pSVar5 != (Settings_HumanCustomSettings_o *)0x0) &&
+     (pSVar6 = (pSVar5->fields).Costume1Sets, pSVar6 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0
      )) {
-    collection = Settings_SetSettingsContainer_object___GetSetNames
-                           ((Settings_SetSettingsContainer_T__o *)pSVar4,
-                            (MethodInfo_C8EC20 *)
-                            MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
+    pSVar11 = Settings_SetSettingsContainer_object___GetSetNames
+                        ((Settings_SetSettingsContainer_T__o *)pSVar6,
+                         (MethodInfo_40482D0 *)
+                         MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
     __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-    System_Collections_Generic_List_object____ctor_94fb10
+    System_Collections_Generic_List_object____ctor_395ca70
               ((System_Collections_Generic_List_object__o *)__this_01,
-               (System_Collections_Generic_IEnumerable_T__o *)collection,
-               (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
-    pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
-    if ((pSVar3 != (Settings_HumanCustomSettings_o *)0x0) &&
-       ((pSVar4 = (pSVar3->fields).CustomSets,
-        pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0 &&
-        (obj = (pSVar4->fields).Sets, obj != (Settings_ListSetting_T__o *)0x0)))) {
-      local_60 = __this_00;
-      local_58 = __this_01;
-      __this_02 = InterfaceInvoker0_Invoke
-                            (2,(Il2CppClass *)TypeInfo_Settings_IListSetting,(Il2CppObject *)obj);
-      uVar9 = 0;
-      local_50 = options;
-      if (options != (System_String_array *)0x0) {
-label_18221ef24:
+               (System_Collections_Generic_IEnumerable_T__o *)pSVar11,
+               (MethodInfo_395CA70 *)MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
+    pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+    if ((pSVar5 != (Settings_HumanCustomSettings_o *)0x0) &&
+       ((pSVar6 = (pSVar5->fields).CustomSets,
+        pSVar6 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0 &&
+        (obj = (pSVar6->fields).Sets, obj != (Settings_ListSetting_T__o *)0x0)))) {
+      pIVar7 = (Il2CppClass *)obj->klass;
+      uVar14 = (ulong)(pIVar7->_2).interface_offsets_count;
+      if (uVar14 != 0) {
+        pIVar8 = (pIVar7->_1).interfaceOffsets;
+        lVar18 = 0;
         do {
-          uVar1 = (uint)options->max_length;
-          if ((int)uVar1 <= (int)uVar9) goto label_18221f2c7;
-          if (uVar1 <= uVar9) {
-            ThrowIndexOutOfRangeException();
+          if (*(Settings_IListSetting_c **)((long)&pIVar8->interfaceType + lVar18) ==
+              TypeInfo_Settings_IListSetting) {
+            pVVar12 = pIVar7->vtable + (*(int *)((long)&pIVar8->offset + lVar18) + 2);
+            goto label_05cfefb9;
           }
-          if (__this_01 == (System_Collections_Generic_List_string__o *)0x0) break;
-          pSVar7 = options->m_Items[(int)uVar9];
-          bVar6 = System_Collections_Generic_List_object___Contains
-                            ((System_Collections_Generic_List_object__o *)__this_01,(Il2CppObject *)pSVar7,
-                             (MethodInfo_93FC70 *)MethodInfo_System_Collections_Generic_List_string_Contains);
-          if (!bVar6) {
-            if (__this_02 == (System_Collections_Generic_List_T__o *)0x0) break;
-            System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                      (&local_40,__this_02,
-                       (MethodInfo_91F180 *)
-                       MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
-            local_78.fields._list = local_40.fields._list;
-            local_78.fields._index = local_40.fields._index;
-            local_78.fields._version = local_40.fields._version;
-            local_78.fields._current = local_40.fields._current;
+          lVar18 = lVar18 + 0x10;
+        } while (uVar14 * 0x10 != lVar18);
+      }
+      pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                          ((Il2CppObject *)obj,(Il2CppClass *)TypeInfo_Settings_IListSetting,2);
+label_05cfefb9:
+      pSVar13 = (System_Collections_Generic_List_object__o *)
+                (*pVVar12->methodPtr)((Il2CppObject *)obj,pVVar12->method);
+      if (options != (System_String_array *)0x0) {
+        iVar16 = (int)options->max_length;
+        if (__this_01 == (System_Collections_Generic_List_string__o *)0x0) {
+          if (0 < iVar16) goto label_05cff495;
+        }
+        else {
+          local_38 = pSVar13;
+          if (0 < iVar16) {
+            uVar14 = options->max_length & 0xffffffff;
+            uVar19 = 0;
             do {
-              bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (&local_78,
-                                 (MethodInfo_153A2A0 *)
-                                 MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext);
-              pIVar5 = local_78.fields._current;
-              if (!bVar6) {
+              if (uVar14 <= uVar19) {
+                ThrowIndexOutOfRangeException();
+              }
+              pSVar15 = options->m_Items[uVar19];
+              bVar10 = System_Collections_Generic_List_object___Contains
+                                 ((System_Collections_Generic_List_object__o *)__this_01,
+                                  (Il2CppObject *)pSVar15,
+                                  (MethodInfo_395D6D0 *)
+                                  MethodInfo_System_Collections_Generic_List_string_Contains);
+              if (bVar10) {
+                if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+                }
+                key = System_String__Concat_5301f10
+                                (TypeInfo_Utility_ResourcePaths->static_fields->Characters,
+                                 "/Human/Previews/Preset",pSVar15,(MethodInfo *)0x0);
+                if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_05cff495;
+label_05cff395:
+                pMVar17 = MethodInfo_System_Collections_Generic_List_string_Add;
+                piVar2 = &(__this_00->fields)._version;
+                *piVar2 = *piVar2 + 1;
+                pSVar11 = (__this_00->fields)._items;
+                if (pSVar11 == (System_String_array *)0x0) goto label_05cff495;
+                uVar4 = (__this_00->fields)._size;
+                if ((uint)pSVar11->max_length <= uVar4) {
+                  pMVar17 = pMVar17->klass->rgctx_data[0xe].method;
+                  goto label_05cff015;
+                }
+                (__this_00->fields)._size = uVar4 + 1;
+                ppSVar1 = pSVar11->m_Items + (long)(int)uVar4 + -4;
+                pSVar11->m_Items[(int)uVar4] = key;
+label_05cff3d8:
+                Il2CppCodeGenWriteBarrier(ppSVar1 + 4);
+              }
+              else {
+                if (local_38 == (System_Collections_Generic_List_object__o *)0x0) goto label_05cff495;
+                System_Collections_Generic_List_object___GetEnumerator
+                          ((System_Collections_Generic_List_Enumerator_T__o *)local_70,local_38,
+                           (MethodInfo_395E050 *)
+                           MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
+                local_48 = local_60;
+                local_58 = (undefined1  [8])local_70._0_8_;
+                pSStack_50 = (System_Collections_Generic_List_Enumerator_object__o *)local_70._8_8_;
+                local_70._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+                local_70._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)local_58;
+                do {
+                  bVar10 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                     ((System_Collections_Generic_List_Enumerator_object__o *)local_58,
+                                      (MethodInfo_4C45C50 *)
+                                      MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext
+                                     );
+                  pIVar9 = local_48;
+                  if (!bVar10) {
+                    System_Collections_Generic_List_Enumerator_object___Dispose
+                              ((System_Collections_Generic_List_Enumerator_object__o *)local_58,
+                               (MethodInfo_4C45C40 *)
+                               MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
+                    goto label_05cff352;
+                  }
+                  if (local_48 == (Il2CppObject *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  bVar3 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+                  if (((local_48->klass->_2).typeHierarchyDepth < bVar3) ||
+                     ((local_48->klass->_2).typeHierarchy[(ulong)bVar3 - 1] !=
+                      (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+                    il2cpp_codegen_raise_invalid_cast_exception(local_48);
+                  }
+                  if (local_48[3].klass == (Il2CppClass *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  bVar10 = System_String__op_Equality
+                                     (((local_48[3].klass)->_1).byval_arg.data,pSVar15,(MethodInfo *)0x0);
+                } while (!bVar10);
+                if (pIVar9[4].klass == (Il2CppClass *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                pSVar15 = ((pIVar9[4].klass)->_1).byval_arg.data;
                 System_Collections_Generic_List_Enumerator_object___Dispose
-                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_78,
+                          ((System_Collections_Generic_List_Enumerator_object__o *)local_58,
+                           (MethodInfo_4C45C40 *)
                            MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
-                goto label_18221f1d1;
-              }
-              if (local_78.fields._current == (Il2CppObject *)0x0) {
-                ThrowNullReferenceException();
-              }
-              bVar2 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
-              if ((((local_78.fields._current)->klass->_2).typeHierarchyDepth < bVar2) ||
-                 (((local_78.fields._current)->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-                  (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
-                il2cpp_codegen_raise_invalid_cast_exception(local_78.fields._current);
-              }
-              if (local_78.fields._current[3].klass == (Il2CppClass *)0x0) {
-                ThrowNullReferenceException();
-              }
-              bVar6 = System_String__op_Equality
-                                (((local_78.fields._current[3].klass)->_1).byval_arg.data,pSVar7,
-                                 (MethodInfo *)0x0);
-            } while (!bVar6);
-            if (pIVar5[4].klass == (Il2CppClass *)0x0) {
-              ThrowNullReferenceException();
-            }
-            pSVar7 = ((pIVar5[4].klass)->_1).byval_arg.data;
-            System_Collections_Generic_List_Enumerator_object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_78,
-                       MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
-            if (pSVar7 != (System_String_o *)0x0) {
-              key = System_String__Concat_1969e50("CharacterPreview_Human_",pSVar7,(MethodInfo *)0x0);
-              if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager)
-                ;
-              }
-              x = ApplicationManagers_ResourceManager__GetExternalTexture(key,(MethodInfo *)0x0);
-              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-              }
-              bVar6 = UnityEngine_Object__op_Equality
-                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                if ((TypeInfo_Utility_FolderPaths->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_FolderPaths);
+                if (pSVar15 == (System_String_o *)0x0) {
+label_05cff352:
+                  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+                  }
+                  key = System_String__Concat_52f0320
+                                  (TypeInfo_Utility_ResourcePaths->static_fields->Characters,
+                                   "/Human/Previews/PresetNone",(MethodInfo *)0x0);
+                  if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) goto label_05cff395;
+                  goto label_05cff495;
                 }
-                path1 = TypeInfo_Utility_FolderPaths->static_fields->CharacterPreviews;
-                pSVar7 = System_String__Concat_1969b70
-                                   ("Preset",pSVar7,".png",(MethodInfo *)0x0);
-                if ((TypeInfo_System_IO_Path->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_IO_Path);
-                }
-                pSVar7 = System_IO_Path__Combine_1af2760(path1,"Human",pSVar7,(MethodInfo *)0x0)
-                ;
+                key = System_String__Concat_52f0320("CharacterPreview_Human_",pSVar15,(MethodInfo *)0x0);
                 if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
                   il2cpp_codegen_runtime_class_init
                             ((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
                 }
-                x = ApplicationManagers_ResourceManager__LoadExternalTexture
-                              (pSVar7,key,true,(MethodInfo *)0x0);
+                x = ApplicationManagers_ResourceManager__GetExternalTexture(key,(MethodInfo *)0x0);
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                bVar10 = UnityEngine_Object__op_Equality
+                                   ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+                if (bVar10) {
+                  if ((TypeInfo_Utility_FolderPaths->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_FolderPaths);
+                  }
+                  path1 = TypeInfo_Utility_FolderPaths->static_fields->CharacterPreviews;
+                  pSVar15 = System_String__Concat_5301f10
+                                      ("Preset",pSVar15,".png",(MethodInfo *)0x0);
+                  if ((TypeInfo_System_IO_Path->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_IO_Path);
+                  }
+                  pSVar15 = System_IO_Path__Combine_548d180
+                                      (path1,"Human",pSVar15,(MethodInfo *)0x0);
+                  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init
+                              ((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+                  }
+                  x = ApplicationManagers_ResourceManager__LoadExternalTexture
+                                (pSVar15,key,true,(MethodInfo *)0x0);
+                }
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                bVar10 = UnityEngine_Object__op_Inequality
+                                   ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+                pMVar17 = MethodInfo_System_Collections_Generic_List_string_Add;
+                if (!bVar10) goto label_05cff352;
+                if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_05cff495;
+                piVar2 = &(__this_00->fields)._version;
+                *piVar2 = *piVar2 + 1;
+                pSVar11 = (__this_00->fields)._items;
+                if (pSVar11 == (System_String_array *)0x0) goto label_05cff495;
+                uVar4 = (__this_00->fields)._size;
+                if (uVar4 < (uint)pSVar11->max_length) {
+                  (__this_00->fields)._size = uVar4 + 1;
+                  ppSVar1 = pSVar11->m_Items + (long)(int)uVar4 + -4;
+                  pSVar11->m_Items[(int)uVar4] = key;
+                  goto label_05cff3d8;
+                }
+                pMVar17 = pMVar17->klass->rgctx_data[0xe].method;
+label_05cff015:
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)key,
+                           (MethodInfo_395D230 *)pMVar17);
               }
-              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-              }
-              bVar6 = UnityEngine_Object__op_Inequality
-                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              if (bVar6) {
-                if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) break;
-                il2cpp_runtime_helper_180012890(__this_00,key,MethodInfo_System_Collections_Generic_List_string_Add);
-                uVar9 = uVar9 + 1;
-                goto label_18221ef24;
-              }
-            }
-label_18221f1d1:
-            if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
-            }
-            pSVar7 = System_String__Concat_1969e50
-                               (TypeInfo_Utility_ResourcePaths->static_fields->Characters,
-                                "/Human/Previews/PresetNone",(MethodInfo *)0x0);
-            if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) break;
-            il2cpp_runtime_helper_180012890(__this_00,pSVar7,MethodInfo_System_Collections_Generic_List_string_Add);
-            uVar9 = uVar9 + 1;
-            goto label_18221ef24;
+              uVar19 = uVar19 + 1;
+              uVar4 = (uint)options->max_length;
+              uVar14 = (ulong)uVar4;
+            } while ((long)uVar19 < (long)(int)uVar4);
           }
-          if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
-          }
-          pSVar7 = System_String__Concat_1969b70
-                             (TypeInfo_Utility_ResourcePaths->static_fields->Characters,"/Human/Previews/Preset",
-                              pSVar7,(MethodInfo *)0x0);
-          if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) break;
-          il2cpp_runtime_helper_180012890(__this_00,pSVar7,MethodInfo_System_Collections_Generic_List_string_Add);
-          uVar9 = uVar9 + 1;
-        } while( true );
+        }
+        if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+          pSVar11 = (System_String_array *)
+                    System_Collections_Generic_List_object___ToArray
+                              ((System_Collections_Generic_List_object__o *)__this_00,
+                               (MethodInfo_395F5A0 *)MethodInfo_System_Collections_Generic_List_string_ToArray
+                              );
+          return pSVar11;
+        }
       }
     }
   }
-label_18221f2f8:
+label_05cff495:
   ThrowNullReferenceException();
-label_18221f2c7:
-  if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
-    pUVar8 = System_Collections_Generic_List_object___ToArray
-                       ((System_Collections_Generic_List_T__o *)__this_00,
-                        (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
-    return (System_String_array *)pUVar8;
-  }
-  goto label_18221f2f8;
 }
 
 
 // UI.CharacterHumanPanel$$GetSpecialIcons
 // il2cpp: System_String_array* UI_CharacterHumanPanel__GetSpecialIcons (UI_CharacterHumanPanel_o* __this, System_String_array* options, const MethodInfo* method);
-// 0x18221f460
+// 0x5cff4c0
 
 System_String_array *
 UI_CharacterHumanPanel__GetSpecialIcons
@@ -1145,16 +1233,16 @@ UI_CharacterHumanPanel__GetSpecialIcons
 {
   int32_t *piVar1;
   uint uVar2;
-  System_String_o *str0;
-  System_String_array *pSVar3;
+  System_String_o *pSVar3;
   MethodInfo *pMVar4;
+  int iVar5;
   System_Collections_Generic_List_string__o *__this_00;
-  System_String_o *pSVar5;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar6;
-  uint uVar7;
+  ulong uVar6;
+  System_String_o *pSVar7;
+  System_String_array *pSVar8;
+  ulong uVar9;
   
-  if (Il2CppMethodInitialized_18434718f == '\0') {
+  if (Il2CppMethodInitialized_07547cfc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSpecials);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
@@ -1162,151 +1250,167 @@ UI_CharacterHumanPanel__GetSpecialIcons
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
     il2cpp_codegen_initialize_runtime_metadata(&"/Icons/Specials/");
-    Il2CppMethodInitialized_18434718f = '\x01';
+    Il2CppMethodInitialized_07547cfc = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_string_ctor);
   if (options != (System_String_array *)0x0) {
-    uVar7 = 0;
-    while ((int)uVar7 < (int)options->max_length) {
-      if ((uint)options->max_length <= uVar7) {
-label_18221f632:
-        ThrowIndexOutOfRangeException();
+    iVar5 = (int)options->max_length;
+    if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+      if (0 < iVar5) {
+        uVar6 = options->max_length & 0xffffffff;
+        uVar9 = 0;
+        do {
+          if (uVar6 <= uVar9) {
+            ThrowIndexOutOfRangeException();
+          }
+          pSVar7 = options->m_Items[uVar9];
+          if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+          }
+          pSVar3 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
+          if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
+          }
+          pSVar7 = Characters_HumanSpecials__GetSpecialIcon(pSVar7,(MethodInfo *)0x0);
+          pSVar7 = System_String__Concat_5301f10(pSVar3,"/Icons/Specials/",pSVar7,(MethodInfo *)0x0);
+          pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
+          piVar1 = &(__this_00->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar8 = (__this_00->fields)._items;
+          if (pSVar8 == (System_String_array *)0x0) goto label_05cff6fa;
+          uVar2 = (__this_00->fields)._size;
+          if (uVar2 < (uint)pSVar8->max_length) {
+            (__this_00->fields)._size = uVar2 + 1;
+            pSVar8->m_Items[(int)uVar2] = pSVar7;
+            Il2CppCodeGenWriteBarrier(pSVar8->m_Items + (int)uVar2);
+          }
+          else {
+            System_Collections_Generic_List_object___AddWithResize
+                      ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar7,
+                       (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+          }
+          uVar9 = uVar9 + 1;
+          uVar2 = (uint)options->max_length;
+          uVar6 = (ulong)uVar2;
+        } while ((long)uVar9 < (long)(int)uVar2);
       }
-      pSVar5 = options->m_Items[(int)uVar7];
+      pSVar8 = (System_String_array *)
+               System_Collections_Generic_List_object___ToArray
+                         ((System_Collections_Generic_List_object__o *)__this_00,
+                          (MethodInfo_395F5A0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+      return pSVar8;
+    }
+    if (0 < iVar5) {
+      pSVar7 = options->m_Items[0];
       if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
       }
-      str0 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
+      pSVar3 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
       if ((TypeInfo_Characters_HumanSpecials->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSpecials);
       }
-      pSVar5 = Characters_HumanSpecials__GetSpecialIcon(pSVar5,(MethodInfo *)0x0);
-      pSVar5 = System_String__Concat_1969b70(str0,"/Icons/Specials/",pSVar5,(MethodInfo *)0x0);
-      pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
-      if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_18221f62c;
-      piVar1 = &(__this_00->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar3 = (__this_00->fields)._items;
-      if (pSVar3 == (System_String_array *)0x0) goto label_18221f62c;
-      uVar2 = (__this_00->fields)._size;
-      if (uVar2 < (uint)pSVar3->max_length) {
-        (__this_00->fields)._size = uVar2 + 1;
-        if ((uint)pSVar3->max_length <= uVar2) goto label_18221f632;
-        pSVar3->m_Items[(int)uVar2] = pSVar5;
-        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar5);
-        uVar7 = uVar7 + 1;
-      }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar5,
-                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-        uVar7 = uVar7 + 1;
-      }
-    }
-    if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
-      pUVar6 = System_Collections_Generic_List_object___ToArray
-                         ((System_Collections_Generic_List_T__o *)__this_00,
-                          (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
-      return (System_String_array *)pUVar6;
+      pSVar7 = Characters_HumanSpecials__GetSpecialIcon(pSVar7,(MethodInfo *)0x0);
+      System_String__Concat_5301f10(pSVar3,"/Icons/Specials/",pSVar7,(MethodInfo *)0x0);
     }
   }
-label_18221f62c:
+label_05cff6fa:
   ThrowNullReferenceException();
 }
 
 
 // UI.CharacterHumanPanel$$GetSpecialTooltips
 // il2cpp: System_String_array* UI_CharacterHumanPanel__GetSpecialTooltips (UI_CharacterHumanPanel_o* __this, System_String_array* options, const MethodInfo* method);
-// 0x18221f640
+// 0x5cff700
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5cff73c: jmp 0x5cff7ae
 
 System_String_array *
 UI_CharacterHumanPanel__GetSpecialTooltips
           (UI_CharacterHumanPanel_o *__this,System_String_array *options,MethodInfo *method)
 
 {
+  uint32_t uVar1;
+  Il2CppObject *object;
+  UI_CharacterHumanPanel___c_StaticFields *pUVar2;
   System_Func_string__string__o *__this_00;
   System_Collections_Generic_IEnumerable_TResult__o *source;
-  System_String_array *pSVar1;
+  System_String_array *pSVar3;
   
-  if (Il2CppMethodInitialized_184347190 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_CharacterHumanPanel_GetSpecialTooltips_b__9_0);
+  if (Il2CppMethodInitialized_07547cfd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Select_string_string);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToArray_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string_string);
-    Il2CppMethodInitialized_184347190 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_CharacterHumanPanel_c_GetSpecialTooltips_b__8_0)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterHumanPanel_c);
+    Il2CppMethodInitialized_07547cfd = '\x01';
+    uVar1 = (TypeInfo_UI_CharacterHumanPanel_c->_2).cctor_finished_or_no_cctor;
   }
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string_string);
-  System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_UI_CharacterHumanPanel_GetSpecialTooltips_b__9_0,(MethodInfo_16E67D0 *)0x0);
-  source = System_Linq_Enumerable__Select_Vector3__object_
+  else {
+    uVar1 = (TypeInfo_UI_CharacterHumanPanel_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c);
+    pUVar2 = TypeInfo_UI_CharacterHumanPanel_c->static_fields;
+    __this_00 = pUVar2->__9__8_0;
+  }
+  else {
+    pUVar2 = ((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c)->static_fields;
+    __this_00 = pUVar2->__9__8_0;
+  }
+  if (__this_00 == (System_Func_string__string__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c)->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_CharacterHumanPanel_c);
+      pUVar2 = TypeInfo_UI_CharacterHumanPanel_c->static_fields;
+    }
+    object = (Il2CppObject *)pUVar2->__9;
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string_string);
+    System_Func_object__object____ctor
+              ((System_Func_object__object__o *)__this_00,object,
+               (intptr_t)MethodInfo_UI_CharacterHumanPanel_c_GetSpecialTooltips_b__8_0,
+               (MethodInfo_4F19B50 *)0x0);
+    pUVar2 = TypeInfo_UI_CharacterHumanPanel_c->static_fields;
+    pUVar2->__9__8_0 = __this_00;
+    Il2CppCodeGenWriteBarrier(&pUVar2->__9__8_0);
+  }
+  source = System_Linq_Enumerable__Select_object__object_
                      ((System_Collections_Generic_IEnumerable_TSource__o *)options,
                       (System_Func_TSource__TResult__o *)__this_00,
-                      (MethodInfo_6C2170 *)MethodInfo_System_Linq_Enumerable_Select_string_string);
-  pSVar1 = (System_String_array *)
+                      (MethodInfo_34F60F0 *)MethodInfo_System_Linq_Enumerable_Select_string_string);
+  pSVar3 = (System_String_array *)
            System_Linq_Enumerable__ToArray_object_
                      ((System_Collections_Generic_IEnumerable_TSource__o *)source,
-                      (MethodInfo_6C7D90 *)MethodInfo_System_Linq_Enumerable_ToArray_string);
-  return pSVar1;
+                      (MethodInfo_34FEA80 *)MethodInfo_System_Linq_Enumerable_ToArray_string);
+  return pSVar3;
 }
 
 
 // UI.CharacterHumanPanel$$.ctor
 // il2cpp: void UI_CharacterHumanPanel___ctor (UI_CharacterHumanPanel_o* __this, const MethodInfo* method);
-// 0x182220860
+// 0x5d00050
 
 void UI_CharacterHumanPanel___ctor(UI_CharacterHumanPanel_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_GameObject__o *__this_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347191 == '\0') {
+  if (Il2CppMethodInitialized_07547cfe == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
-    il2cpp_codegen_initialize_runtime_metadata(&"CharacterPopup");
-    Il2CppMethodInitialized_184347191 = '\x01';
+    Il2CppMethodInitialized_07547cfe = '\x01';
   }
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
+  method_00 = (MethodInfo *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
-  (__this->fields)._statBars = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._statBars,__this_00);
-  (__this->fields).LocaleCategory = "CharacterPopup";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).LocaleCategory,"CharacterPopup");
-  UI_CharacterCategoryPanel___ctor((UI_CharacterCategoryPanel_o *)__this,(MethodInfo *)0x0);
+            ((System_Collections_Generic_List_object__o *)method_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+  (__this->fields)._statBars = (System_Collections_Generic_List_GameObject__o *)method_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._statBars);
+  UI_CharacterCategoryPanel___ctor((UI_CharacterCategoryPanel_o *)__this,method_00);
   return;
-}
-
-
-// UI.CharacterHumanPanel$$<GetSpecialTooltips>b__9_0
-// il2cpp: System_String_o* UI_CharacterHumanPanel___GetSpecialTooltips_b__9_0 (UI_CharacterHumanPanel_o* __this, System_String_o* option, const MethodInfo* method);
-// 0x1822207c0
-
-System_String_o *
-UI_CharacterHumanPanel___GetSpecialTooltips_b__9_0
-          (UI_CharacterHumanPanel_o *__this,System_String_o *option,MethodInfo *method)
-
-{
-  System_String_o *pSVar1;
-  
-  if (Il2CppMethodInitialized_184347192 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
-    il2cpp_codegen_initialize_runtime_metadata(&"SpecialTooltip");
-    il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184347192 = '\x01';
-  }
-  pSVar1 = (__this->fields).LocaleCategory;
-  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-  }
-  pSVar1 = UI_UIManager__GetLocale
-                     (pSVar1,"SpecialTooltip",option,"","",
-                      (MethodInfo *)0x0);
-  return pSVar1;
 }
 
 

@@ -18,19 +18,19 @@ public class ImageBufferNativeAlloc : ImageBufferNative, IDisposable
 	private ImageBufferNativePool<ImageBufferNativeAlloc> pool;
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x1D6A800", Offset = "0x1D68E00", VA = "0x181D6A800")]
+	[Address(RVA = "0x5719F30", Offset = "0x5718F30", VA = "0x5719F30")]
 	public ImageBufferNativeAlloc(ImageBufferNativePool<ImageBufferNativeAlloc> pool, ImageBufferInfo info)
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x1D6A7E0", Offset = "0x1D68DE0", VA = "0x181D6A7E0", Slot = "4")]
+	[Address(RVA = "0x571A120", Offset = "0x5719120", VA = "0x571A120", Slot = "4")]
 	public override void Release()
 	{
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x1D6A740", Offset = "0x1D68D40", VA = "0x181D6A740", Slot = "5")]
+	[Address(RVA = "0x571A140", Offset = "0x5719140", VA = "0x571A140", Slot = "5")]
 	public override void Dispose()
 	{
 	}

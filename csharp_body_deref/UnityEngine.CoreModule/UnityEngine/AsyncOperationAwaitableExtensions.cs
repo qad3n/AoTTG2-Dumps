@@ -11,12 +11,12 @@ using UnityEngine.Internal;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200018A")]
+[Token(Token = "0x200018B")]
 public static class AsyncOperationAwaitableExtensions
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x2F0ED80", Offset = "0x2F0D380", VA = "0x182F0ED80")]
+	[Token(Token = "0x6000D18")]
+	[Address(RVA = "0x69147E0", Offset = "0x69137E0", VA = "0x69147E0")]
 	[ExcludeFromDocs]
 	public static Awaitable.Awaiter GetAwaiter(this AsyncOperation op)
 	{

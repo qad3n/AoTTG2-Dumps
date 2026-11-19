@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ShaderPropertyType
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,16 +12,16 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x20003DC")]
 public enum ShaderPropertyType
 {
-	[Token(Token = "0x4000CA1")]
+	[Token(Token = "0x4000C9F")]
 	Color,
-	[Token(Token = "0x4000CA2")]
+	[Token(Token = "0x4000CA0")]
 	Vector,
-	[Token(Token = "0x4000CA3")]
+	[Token(Token = "0x4000CA1")]
 	Float,
-	[Token(Token = "0x4000CA4")]
+	[Token(Token = "0x4000CA2")]
 	Range,
-	[Token(Token = "0x4000CA5")]
+	[Token(Token = "0x4000CA3")]
 	Texture,
-	[Token(Token = "0x4000CA6")]
+	[Token(Token = "0x4000CA4")]
 	Int
 }

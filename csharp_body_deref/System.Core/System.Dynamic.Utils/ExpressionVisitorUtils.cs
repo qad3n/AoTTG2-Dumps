@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic.Utils;
 
-[Token(Token = "0x2000283")]
+[Token(Token = "0x2000284")]
 internal static class ExpressionVisitorUtils
 {
-	[Token(Token = "0x6000CA3")]
-	[Address(RVA = "0x2484A90", Offset = "0x2483090", VA = "0x182484A90")]
+	[Token(Token = "0x6000CAE")]
+	[Address(RVA = "0x5E26F10", Offset = "0x5E25F10", VA = "0x5E26F10")]
 	public static Expression[] VisitBlockExpressions(ExpressionVisitor visitor, BlockExpression block)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA4")]
-	[Address(RVA = "0x2484CC0", Offset = "0x24832C0", VA = "0x182484CC0")]
+	[Token(Token = "0x6000CAF")]
+	[Address(RVA = "0x5E27150", Offset = "0x5E26150", VA = "0x5E27150")]
 	public static ParameterExpression[] VisitParameters(ExpressionVisitor visitor, IParameterProvider nodes, string callerName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA5")]
-	[Address(RVA = "0x2484860", Offset = "0x2482E60", VA = "0x182484860")]
+	[Token(Token = "0x6000CB0")]
+	[Address(RVA = "0x5E27550", Offset = "0x5E26550", VA = "0x5E27550")]
 	public static Expression[] VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
 	{
 		return null;

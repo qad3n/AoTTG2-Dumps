@@ -16,569 +16,569 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002B6")]
+[Token(Token = "0x2000277")]
 public sealed class FtpWebRequest : WebRequest
 {
-	[Token(Token = "0x20002B7")]
+	[Token(Token = "0x2000278")]
 	private enum RequestStage
 	{
-		[Token(Token = "0x4000A2A")]
+		[Token(Token = "0x400095B")]
 		CheckForError,
-		[Token(Token = "0x4000A2B")]
+		[Token(Token = "0x400095C")]
 		RequestStarted,
-		[Token(Token = "0x4000A2C")]
+		[Token(Token = "0x400095D")]
 		WriteReady,
-		[Token(Token = "0x4000A2D")]
+		[Token(Token = "0x400095E")]
 		ReadReady,
-		[Token(Token = "0x4000A2E")]
+		[Token(Token = "0x400095F")]
 		ReleaseConnection
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20002B8")]
+	[Token(Token = "0x2000279")]
 	[CompilerGenerated]
 	private struct _003CCreateConnectionAsync_003Ed__86 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000A2F")]
+		[Token(Token = "0x4000960")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000A30")]
+		[Token(Token = "0x4000961")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncVoidMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4000A31")]
+		[Token(Token = "0x4000962")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public FtpWebRequest _003C_003E4__this;
 
-		[Token(Token = "0x4000A32")]
+		[Token(Token = "0x4000963")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private TcpClient _003Cclient_003E5__2;
 
-		[Token(Token = "0x4000A33")]
+		[Token(Token = "0x4000964")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001344")]
-		[Address(RVA = "0x27D4770", Offset = "0x27D2D70", VA = "0x1827D4770", Slot = "4")]
+		[Token(Token = "0x6001186")]
+		[Address(RVA = "0x62A44F0", Offset = "0x62A34F0", VA = "0x62A44F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001345")]
-		[Address(RVA = "0x187DE20", Offset = "0x187C420", VA = "0x18187DE20", Slot = "5")]
+		[Token(Token = "0x6001187")]
+		[Address(RVA = "0x62A4850", Offset = "0x62A3850", VA = "0x62A4850", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000A07")]
+	[Token(Token = "0x4000938")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private object _syncObject;
 
-	[Token(Token = "0x4000A08")]
+	[Token(Token = "0x4000939")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private ICredentials _authInfo;
 
-	[Token(Token = "0x4000A09")]
+	[Token(Token = "0x400093A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private readonly Uri _uri;
 
-	[Token(Token = "0x4000A0A")]
+	[Token(Token = "0x400093B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private FtpMethodInfo _methodInfo;
 
-	[Token(Token = "0x4000A0B")]
+	[Token(Token = "0x400093C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private string _renameTo;
 
-	[Token(Token = "0x4000A0C")]
+	[Token(Token = "0x400093D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private bool _getRequestStreamStarted;
 
-	[Token(Token = "0x4000A0D")]
+	[Token(Token = "0x400093E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x61")]
 	private bool _getResponseStarted;
 
-	[Token(Token = "0x4000A0E")]
+	[Token(Token = "0x400093F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private DateTime _startTime;
 
-	[Token(Token = "0x4000A0F")]
+	[Token(Token = "0x4000940")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private int _timeout;
 
-	[Token(Token = "0x4000A10")]
+	[Token(Token = "0x4000941")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x74")]
 	private int _remainingTimeout;
 
-	[Token(Token = "0x4000A11")]
+	[Token(Token = "0x4000942")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private long _contentLength;
 
-	[Token(Token = "0x4000A12")]
+	[Token(Token = "0x4000943")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private long _contentOffset;
 
-	[Token(Token = "0x4000A13")]
+	[Token(Token = "0x4000944")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private X509CertificateCollection _clientCertificates;
 
-	[Token(Token = "0x4000A14")]
+	[Token(Token = "0x4000945")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private bool _passive;
 
-	[Token(Token = "0x4000A15")]
+	[Token(Token = "0x4000946")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x91")]
 	private bool _binary;
 
-	[Token(Token = "0x4000A16")]
+	[Token(Token = "0x4000947")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x92")]
 	private bool _async;
 
-	[Token(Token = "0x4000A17")]
+	[Token(Token = "0x4000948")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x93")]
 	private bool _aborted;
 
-	[Token(Token = "0x4000A18")]
+	[Token(Token = "0x4000949")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x94")]
 	private bool _timedOut;
 
-	[Token(Token = "0x4000A19")]
+	[Token(Token = "0x400094A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private Exception _exception;
 
-	[Token(Token = "0x4000A1A")]
+	[Token(Token = "0x400094B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private TimerThread.Queue _timerQueue;
 
-	[Token(Token = "0x4000A1B")]
+	[Token(Token = "0x400094C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private TimerThread.Callback _timerCallback;
 
-	[Token(Token = "0x4000A1C")]
+	[Token(Token = "0x400094D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private bool _enableSsl;
 
-	[Token(Token = "0x4000A1D")]
+	[Token(Token = "0x400094E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private FtpControlStream _connection;
 
-	[Token(Token = "0x4000A1E")]
+	[Token(Token = "0x400094F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private Stream _stream;
 
-	[Token(Token = "0x4000A1F")]
+	[Token(Token = "0x4000950")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private RequestStage _requestStage;
 
-	[Token(Token = "0x4000A20")]
+	[Token(Token = "0x4000951")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xCC")]
 	private bool _onceFailed;
 
-	[Token(Token = "0x4000A21")]
+	[Token(Token = "0x4000952")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private WebHeaderCollection _ftpRequestHeaders;
 
-	[Token(Token = "0x4000A22")]
+	[Token(Token = "0x4000953")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	private FtpWebResponse _ftpWebResponse;
 
-	[Token(Token = "0x4000A23")]
+	[Token(Token = "0x4000954")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	private int _readWriteTimeout;
 
-	[Token(Token = "0x4000A24")]
+	[Token(Token = "0x4000955")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
 	private ContextAwareResult _writeAsyncResult;
 
-	[Token(Token = "0x4000A25")]
+	[Token(Token = "0x4000956")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF0")]
 	private LazyAsyncResult _readAsyncResult;
 
-	[Token(Token = "0x4000A26")]
+	[Token(Token = "0x4000957")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF8")]
 	private LazyAsyncResult _requestCompleteAsyncResult;
 
-	[Token(Token = "0x4000A27")]
+	[Token(Token = "0x4000958")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly NetworkCredential s_defaultFtpNetworkCredential;
 
-	[Token(Token = "0x4000A28")]
+	[Token(Token = "0x4000959")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static readonly TimerThread.Queue s_DefaultTimerQueue;
 
-	[Token(Token = "0x170003DB")]
+	[Token(Token = "0x170003AC")]
 	internal FtpMethodInfo MethodInfo
 	{
-		[Token(Token = "0x6001317")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Token(Token = "0x6001159")]
+		[Address(RVA = "0x629E900", Offset = "0x629D900", VA = "0x629E900")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003DC")]
+	[Token(Token = "0x170003AD")]
 	public override string Method
 	{
-		[Token(Token = "0x6001318")]
-		[Address(RVA = "0x28FDE00", Offset = "0x28FC400", VA = "0x1828FDE00", Slot = "9")]
+		[Token(Token = "0x600115A")]
+		[Address(RVA = "0x629E910", Offset = "0x629D910", VA = "0x629E910", Slot = "9")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001319")]
-		[Address(RVA = "0x28FE0C0", Offset = "0x28FC6C0", VA = "0x1828FE0C0", Slot = "10")]
+		[Token(Token = "0x600115B")]
+		[Address(RVA = "0x629E930", Offset = "0x629D930", VA = "0x629E930", Slot = "10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003DD")]
+	[Token(Token = "0x170003AE")]
 	public string RenameTo
 	{
-		[Token(Token = "0x600131A")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Token(Token = "0x600115C")]
+		[Address(RVA = "0x629EAF0", Offset = "0x629DAF0", VA = "0x629EAF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003DE")]
+	[Token(Token = "0x170003AF")]
 	public override ICredentials Credentials
 	{
-		[Token(Token = "0x600131B")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "14")]
+		[Token(Token = "0x600115D")]
+		[Address(RVA = "0x629EB00", Offset = "0x629DB00", VA = "0x629EB00", Slot = "14")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600131C")]
-		[Address(RVA = "0x28FDF40", Offset = "0x28FC540", VA = "0x1828FDF40", Slot = "15")]
+		[Token(Token = "0x600115E")]
+		[Address(RVA = "0x629EB10", Offset = "0x629DB10", VA = "0x629EB10", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003DF")]
+	[Token(Token = "0x170003B0")]
 	public override Uri RequestUri
 	{
-		[Token(Token = "0x600131D")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50", Slot = "11")]
+		[Token(Token = "0x600115F")]
+		[Address(RVA = "0x629EC70", Offset = "0x629DC70", VA = "0x629EC70", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003E0")]
+	[Token(Token = "0x170003B1")]
 	public override int Timeout
 	{
-		[Token(Token = "0x600131E")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560", Slot = "19")]
+		[Token(Token = "0x6001160")]
+		[Address(RVA = "0x629EC80", Offset = "0x629DC80", VA = "0x629EC80", Slot = "19")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003E1")]
+	[Token(Token = "0x170003B2")]
 	internal int RemainingTimeout
 	{
-		[Token(Token = "0x600131F")]
-		[Address(RVA = "0x187BA40", Offset = "0x187A040", VA = "0x18187BA40")]
+		[Token(Token = "0x6001161")]
+		[Address(RVA = "0x629EC90", Offset = "0x629DC90", VA = "0x629EC90")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003E2")]
+	[Token(Token = "0x170003B3")]
 	public int ReadWriteTimeout
 	{
-		[Token(Token = "0x6001320")]
-		[Address(RVA = "0x1D1FA80", Offset = "0x1D1E080", VA = "0x181D1FA80")]
+		[Token(Token = "0x6001162")]
+		[Address(RVA = "0x629ECA0", Offset = "0x629DCA0", VA = "0x629ECA0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003E3")]
+	[Token(Token = "0x170003B4")]
 	public long ContentOffset
 	{
-		[Token(Token = "0x6001321")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Token(Token = "0x6001163")]
+		[Address(RVA = "0x629ECB0", Offset = "0x629DCB0", VA = "0x629ECB0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170003E4")]
+	[Token(Token = "0x170003B5")]
 	public override long ContentLength
 	{
-		[Token(Token = "0x6001322")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0", Slot = "13")]
+		[Token(Token = "0x6001164")]
+		[Address(RVA = "0x629ECC0", Offset = "0x629DCC0", VA = "0x629ECC0", Slot = "13")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170003E5")]
+	[Token(Token = "0x170003B6")]
 	public override IWebProxy Proxy
 	{
-		[Token(Token = "0x6001323")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "17")]
+		[Token(Token = "0x6001165")]
+		[Address(RVA = "0x629ECD0", Offset = "0x629DCD0", VA = "0x629ECD0", Slot = "17")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001324")]
-		[Address(RVA = "0x28FE260", Offset = "0x28FC860", VA = "0x1828FE260", Slot = "18")]
+		[Token(Token = "0x6001166")]
+		[Address(RVA = "0x629ECE0", Offset = "0x629DCE0", VA = "0x629ECE0", Slot = "18")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003E6")]
+	[Token(Token = "0x170003B7")]
 	internal bool Aborted
 	{
-		[Token(Token = "0x6001325")]
-		[Address(RVA = "0x24C5400", Offset = "0x24C3A00", VA = "0x1824C5400")]
+		[Token(Token = "0x6001167")]
+		[Address(RVA = "0x629ED40", Offset = "0x629DD40", VA = "0x629ED40")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003E7")]
+	[Token(Token = "0x170003B8")]
 	private TimerThread.Queue TimerQueue
 	{
-		[Token(Token = "0x6001330")]
-		[Address(RVA = "0x28FDE20", Offset = "0x28FC420", VA = "0x1828FDE20")]
+		[Token(Token = "0x6001172")]
+		[Address(RVA = "0x62A25F0", Offset = "0x62A15F0", VA = "0x62A25F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003E8")]
+	[Token(Token = "0x170003B9")]
 	public override RequestCachePolicy CachePolicy
 	{
-		[Token(Token = "0x6001339")]
-		[Address(RVA = "0x28FDED0", Offset = "0x28FC4D0", VA = "0x1828FDED0", Slot = "8")]
+		[Token(Token = "0x600117B")]
+		[Address(RVA = "0x62A3FA0", Offset = "0x62A2FA0", VA = "0x62A3FA0", Slot = "8")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003E9")]
+	[Token(Token = "0x170003BA")]
 	public bool UseBinary
 	{
-		[Token(Token = "0x600133A")]
-		[Address(RVA = "0x24C53F0", Offset = "0x24C39F0", VA = "0x1824C53F0")]
+		[Token(Token = "0x600117C")]
+		[Address(RVA = "0x62A4000", Offset = "0x62A3000", VA = "0x62A4000")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003EA")]
+	[Token(Token = "0x170003BB")]
 	public bool UsePassive
 	{
-		[Token(Token = "0x600133B")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Token(Token = "0x600117D")]
+		[Address(RVA = "0x62A4010", Offset = "0x62A3010", VA = "0x62A4010")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003EB")]
+	[Token(Token = "0x170003BC")]
 	public X509CertificateCollection ClientCertificates
 	{
-		[Token(Token = "0x600133C")]
-		[Address(RVA = "0x28FDC50", Offset = "0x28FC250", VA = "0x1828FDC50")]
+		[Token(Token = "0x600117E")]
+		[Address(RVA = "0x6298560", Offset = "0x6297560", VA = "0x6298560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003EC")]
+	[Token(Token = "0x170003BD")]
 	public bool EnableSsl
 	{
-		[Token(Token = "0x600133D")]
-		[Address(RVA = "0x560590", Offset = "0x55EB90", VA = "0x180560590")]
+		[Token(Token = "0x600117F")]
+		[Address(RVA = "0x62A4020", Offset = "0x62A3020", VA = "0x62A4020")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003ED")]
+	[Token(Token = "0x170003BE")]
 	public override WebHeaderCollection Headers
 	{
-		[Token(Token = "0x600133E")]
-		[Address(RVA = "0x28FDD60", Offset = "0x28FC360", VA = "0x1828FDD60", Slot = "12")]
+		[Token(Token = "0x6001180")]
+		[Address(RVA = "0x62A4030", Offset = "0x62A3030", VA = "0x62A4030", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003EE")]
+	[Token(Token = "0x170003BF")]
 	public override bool UseDefaultCredentials
 	{
-		[Token(Token = "0x600133F")]
-		[Address(RVA = "0x28FDEA0", Offset = "0x28FC4A0", VA = "0x1828FDEA0", Slot = "16")]
+		[Token(Token = "0x6001181")]
+		[Address(RVA = "0x62A40B0", Offset = "0x62A30B0", VA = "0x62A40B0", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003EF")]
+	[Token(Token = "0x170003C0")]
 	private bool InUse
 	{
-		[Token(Token = "0x6001340")]
-		[Address(RVA = "0x28FDDE0", Offset = "0x28FC3E0", VA = "0x1828FDDE0")]
+		[Token(Token = "0x6001182")]
+		[Address(RVA = "0x629EAD0", Offset = "0x629DAD0", VA = "0x629EAD0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001326")]
-	[Address(RVA = "0x28FD7F0", Offset = "0x28FBDF0", VA = "0x1828FD7F0")]
+	[Token(Token = "0x6001168")]
+	[Address(RVA = "0x629ED50", Offset = "0x629DD50", VA = "0x629ED50")]
 	internal FtpWebRequest(Uri uri)
 	{
 	}
 
-	[Token(Token = "0x6001327")]
-	[Address(RVA = "0x28FB990", Offset = "0x28F9F90", VA = "0x1828FB990", Slot = "20")]
+	[Token(Token = "0x6001169")]
+	[Address(RVA = "0x629F1C0", Offset = "0x629E1C0", VA = "0x629F1C0", Slot = "20")]
 	public override WebResponse GetResponse()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001328")]
-	[Address(RVA = "0x28FA130", Offset = "0x28F8730", VA = "0x1828FA130", Slot = "21")]
+	[Token(Token = "0x600116A")]
+	[Address(RVA = "0x62A0F90", Offset = "0x629FF90", VA = "0x62A0F90", Slot = "21")]
 	public override IAsyncResult BeginGetResponse(AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001329")]
-	[Address(RVA = "0x28FAAF0", Offset = "0x28F90F0", VA = "0x1828FAAF0", Slot = "22")]
+	[Token(Token = "0x600116B")]
+	[Address(RVA = "0x62A16A0", Offset = "0x62A06A0", VA = "0x62A16A0", Slot = "22")]
 	public override WebResponse EndGetResponse(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600132A")]
-	[Address(RVA = "0x28FC5B0", Offset = "0x28FABB0", VA = "0x1828FC5B0")]
+	[Token(Token = "0x600116C")]
+	[Address(RVA = "0x629FF60", Offset = "0x629EF60", VA = "0x629FF60")]
 	private void SubmitRequest(bool isAsync)
 	{
 	}
 
-	[Token(Token = "0x600132B")]
-	[Address(RVA = "0x28FD600", Offset = "0x28FBC00", VA = "0x1828FD600")]
+	[Token(Token = "0x600116D")]
+	[Address(RVA = "0x62A2510", Offset = "0x62A1510", VA = "0x62A2510")]
 	private Exception TranslateConnectException(Exception e)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600132C")]
-	[Address(RVA = "0x28FA7B0", Offset = "0x28F8DB0", VA = "0x1828FA7B0")]
+	[Token(Token = "0x600116E")]
+	[Address(RVA = "0x62A1AB0", Offset = "0x62A0AB0", VA = "0x62A1AB0")]
 	[AsyncStateMachine(typeof(_003CCreateConnectionAsync_003Ed__86))]
 	private void CreateConnectionAsync()
 	{
 	}
 
-	[Token(Token = "0x600132D")]
-	[Address(RVA = "0x28FA870", Offset = "0x28F8E70", VA = "0x1828FA870")]
+	[Token(Token = "0x600116F")]
+	[Address(RVA = "0x62A1B60", Offset = "0x62A0B60", VA = "0x62A1B60")]
 	private FtpControlStream CreateConnection()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600132E")]
-	[Address(RVA = "0x28FCF90", Offset = "0x28FB590", VA = "0x1828FCF90")]
+	[Token(Token = "0x6001170")]
+	[Address(RVA = "0x62A1D30", Offset = "0x62A0D30", VA = "0x62A1D30")]
 	private Stream TimedSubmitRequestHelper(bool isAsync)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600132F")]
-	[Address(RVA = "0x28FD460", Offset = "0x28FBA60", VA = "0x1828FD460")]
+	[Token(Token = "0x6001171")]
+	[Address(RVA = "0x62A2680", Offset = "0x62A1680", VA = "0x62A2680")]
 	private void TimerCallback(TimerThread.Timer timer, int timeNoticed, object context)
 	{
 	}
 
-	[Token(Token = "0x6001331")]
-	[Address(RVA = "0x28F9E70", Offset = "0x28F8470", VA = "0x1828F9E70")]
+	[Token(Token = "0x6001173")]
+	[Address(RVA = "0x62A22C0", Offset = "0x62A12C0", VA = "0x62A22C0")]
 	private bool AttemptedRecovery(Exception e)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001332")]
-	[Address(RVA = "0x28FC180", Offset = "0x28FA780", VA = "0x1828FC180")]
+	[Token(Token = "0x6001174")]
+	[Address(RVA = "0x62A0B10", Offset = "0x629FB10", VA = "0x62A0B10")]
 	private void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x6001333")]
-	[Address(RVA = "0x28FA790", Offset = "0x28F8D90", VA = "0x1828FA790")]
+	[Token(Token = "0x6001175")]
+	[Address(RVA = "0x629FA40", Offset = "0x629EA40", VA = "0x629FA40")]
 	private void CheckError()
 	{
 	}
 
-	[Token(Token = "0x6001334")]
-	[Address(RVA = "0x28FC160", Offset = "0x28FA760", VA = "0x1828FC160")]
+	[Token(Token = "0x6001176")]
+	[Address(RVA = "0x6295630", Offset = "0x6294630", VA = "0x6295630")]
 	internal void RequestCallback(object obj)
 	{
 	}
 
-	[Token(Token = "0x6001335")]
-	[Address(RVA = "0x28FCB20", Offset = "0x28FB120", VA = "0x1828FCB20")]
+	[Token(Token = "0x6001177")]
+	[Address(RVA = "0x62A35D0", Offset = "0x62A25D0", VA = "0x62A35D0")]
 	private void SyncRequestCallback(object obj)
 	{
 	}
 
-	[Token(Token = "0x6001336")]
-	[Address(RVA = "0x28F9290", Offset = "0x28F7890", VA = "0x1828F9290")]
+	[Token(Token = "0x6001178")]
+	[Address(RVA = "0x62A2870", Offset = "0x62A1870", VA = "0x62A2870")]
 	private void AsyncRequestCallback(object obj)
 	{
 	}
 
-	[Token(Token = "0x6001337")]
-	[Address(RVA = "0x28FB480", Offset = "0x28F9A80", VA = "0x1828FB480")]
+	[Token(Token = "0x6001179")]
+	[Address(RVA = "0x629FA60", Offset = "0x629EA60", VA = "0x629FA60")]
 	private RequestStage FinishRequestStage(RequestStage stage)
 	{
 		return default(RequestStage);
 	}
 
-	[Token(Token = "0x6001338")]
-	[Address(RVA = "0x28F8EA0", Offset = "0x28F74A0", VA = "0x1828F8EA0", Slot = "24")]
+	[Token(Token = "0x600117A")]
+	[Address(RVA = "0x62A3AE0", Offset = "0x62A2AE0", VA = "0x62A3AE0", Slot = "24")]
 	public override void Abort()
 	{
 	}
 
-	[Token(Token = "0x6001341")]
-	[Address(RVA = "0x28FAE10", Offset = "0x28F9410", VA = "0x1828FAE10")]
+	[Token(Token = "0x6001183")]
+	[Address(RVA = "0x62A04C0", Offset = "0x629F4C0", VA = "0x62A04C0")]
 	private void EnsureFtpWebResponse(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x6001342")]
-	[Address(RVA = "0x28FAA50", Offset = "0x28F9050", VA = "0x1828FAA50")]
+	[Token(Token = "0x6001184")]
+	[Address(RVA = "0x62A40E0", Offset = "0x62A30E0", VA = "0x62A40E0")]
 	internal void DataStreamClosed(CloseExState closeState)
 	{
 	}

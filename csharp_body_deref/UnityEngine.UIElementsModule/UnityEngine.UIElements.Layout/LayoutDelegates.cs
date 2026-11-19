@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutDelegates
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,14 +40,14 @@ internal static class LayoutDelegates
 	internal static readonly IntPtr s_InvokeBaselineFunction;
 
 	[Token(Token = "0x6002C64")]
-	[Address(RVA = "0x31BE460", Offset = "0x31BCA60", VA = "0x1831BE460")]
+	[Address(RVA = "0x6BC2EB0", Offset = "0x6BC1EB0", VA = "0x6BC2EB0")]
 	[MonoPInvokeCallback(typeof(InvokeMeasureFunctionDelegate))]
 	private static void InvokeMeasureFunction(ref LayoutNode node, float width, LayoutMeasureMode widthMode, float height, LayoutMeasureMode heightMode, ref IntPtr exception, out LayoutSize result)
 	{
 	}
 
 	[Token(Token = "0x6002C65")]
-	[Address(RVA = "0x31BE280", Offset = "0x31BC880", VA = "0x1831BE280")]
+	[Address(RVA = "0x6BC32B0", Offset = "0x6BC22B0", VA = "0x6BC32B0")]
 	[MonoPInvokeCallback(typeof(InvokeBaselineFunctionDelegate))]
 	private static float InvokeBaselineFunction(ref LayoutNode node, float width, float height)
 	{

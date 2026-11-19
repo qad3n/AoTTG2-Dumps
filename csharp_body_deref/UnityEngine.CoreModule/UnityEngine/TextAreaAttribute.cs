@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015F")]
+[Token(Token = "0x2000160")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 public sealed class TextAreaAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005AA")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x40005AF")]
+	[FieldOffset(Offset = "0x14")]
 	public readonly int minLines;
 
-	[Token(Token = "0x40005AB")]
-	[FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x40005B0")]
+	[FieldOffset(Offset = "0x18")]
 	public readonly int maxLines;
 
-	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x2F28D60", Offset = "0x2F27360", VA = "0x182F28D60")]
+	[Token(Token = "0x6000C51")]
+	[Address(RVA = "0x690DE10", Offset = "0x690CE10", VA = "0x690DE10")]
 	public TextAreaAttribute(int minLines, int maxLines)
 	{
 	}

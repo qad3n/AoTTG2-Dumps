@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200035C")]
+[Token(Token = "0x20003BB")]
 public enum ColossalCustomSkinPartId
 {
-	[Token(Token = "0x4001189")]
+	[Token(Token = "0x4001327")]
 	Body
 }

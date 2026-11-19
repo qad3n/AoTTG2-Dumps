@@ -20,7 +20,7 @@ public class Vector2IntField : BaseCompositeField<Vector2Int, IntegerField, int>
 	public new class UxmlFactory : UxmlFactory<Vector2IntField, UxmlTraits>
 	{
 		[Token(Token = "0x6000572")]
-		[Address(RVA = "0x31E3C00", Offset = "0x31E2200", VA = "0x1831E3C00")]
+		[Address(RVA = "0x6BDAAE0", Offset = "0x6BD9AE0", VA = "0x6BDAAE0")]
 		public UxmlFactory()
 		{
 		}
@@ -39,13 +39,13 @@ public class Vector2IntField : BaseCompositeField<Vector2Int, IntegerField, int>
 		private UxmlIntAttributeDescription m_YValue;
 
 		[Token(Token = "0x6000573")]
-		[Address(RVA = "0x31E5570", Offset = "0x31E3B70", VA = "0x1831E5570", Slot = "4")]
+		[Address(RVA = "0x6BDAB20", Offset = "0x6BD9B20", VA = "0x6BDAB20", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000574")]
-		[Address(RVA = "0x31E6770", Offset = "0x31E4D70", VA = "0x1831E6770")]
+		[Address(RVA = "0x6BDACA0", Offset = "0x6BD9CA0", VA = "0x6BDACA0")]
 		public UxmlTraits()
 		{
 		}
@@ -64,20 +64,20 @@ public class Vector2IntField : BaseCompositeField<Vector2Int, IntegerField, int>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x31E8100", Offset = "0x31E6700", VA = "0x1831E8100", Slot = "161")]
+	[Address(RVA = "0x6BDA460", Offset = "0x6BD9460", VA = "0x6BDA460", Slot = "161")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x31E87B0", Offset = "0x31E6DB0", VA = "0x1831E87B0")]
+	[Address(RVA = "0x6BDA8C0", Offset = "0x6BD98C0", VA = "0x6BDA8C0")]
 	public Vector2IntField()
 	{
 	}
 
 	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x31E8680", Offset = "0x31E6C80", VA = "0x1831E8680")]
+	[Address(RVA = "0x6BDA8D0", Offset = "0x6BD98D0", VA = "0x6BDA8D0")]
 	public Vector2IntField(string label)
 	{
 	}

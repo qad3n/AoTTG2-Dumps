@@ -28,13 +28,13 @@ public class XDeclaration
 	public string Encoding
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5FA37C0", Offset = "0x5FA27C0", VA = "0x5FA37C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x5FA37D0", Offset = "0x5FA27D0", VA = "0x5FA37D0")]
 		set
 		{
 		}
@@ -44,13 +44,13 @@ public class XDeclaration
 	public string Standalone
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5FA37E0", Offset = "0x5FA27E0", VA = "0x5FA37E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x5FA37F0", Offset = "0x5FA27F0", VA = "0x5FA37F0")]
 		set
 		{
 		}
@@ -60,7 +60,7 @@ public class XDeclaration
 	public string Version
 	{
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5FA3800", Offset = "0x5FA2800", VA = "0x5FA3800")]
 		get
 		{
 			return null;
@@ -68,19 +68,19 @@ public class XDeclaration
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+	[Address(RVA = "0x5FA36C0", Offset = "0x5FA26C0", VA = "0x5FA36C0")]
 	public XDeclaration(string version, string encoding, string standalone)
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x25E89B0", Offset = "0x25E6FB0", VA = "0x1825E89B0")]
+	[Address(RVA = "0x5FA3720", Offset = "0x5FA2720", VA = "0x5FA3720")]
 	public XDeclaration(XDeclaration other)
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x25E87F0", Offset = "0x25E6DF0", VA = "0x1825E87F0", Slot = "3")]
+	[Address(RVA = "0x5FA3810", Offset = "0x5FA2810", VA = "0x5FA3810", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

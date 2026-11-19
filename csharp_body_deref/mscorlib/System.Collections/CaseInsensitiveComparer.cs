@@ -11,38 +11,27 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005DC")]
+[Token(Token = "0x20005B7")]
 public class CaseInsensitiveComparer : IComparer
 {
-	[Token(Token = "0x400187E")]
+	[Token(Token = "0x40017E5")]
 	[FieldOffset(Offset = "0x10")]
 	private CompareInfo _compareInfo;
 
-	[Token(Token = "0x170006CD")]
-	public static CaseInsensitiveComparer Default
-	{
-		[Token(Token = "0x6002C13")]
-		[Address(RVA = "0x1AB7EC0", Offset = "0x1AB64C0", VA = "0x181AB7EC0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x6002C11")]
-	[Address(RVA = "0x1AB7D90", Offset = "0x1AB6390", VA = "0x181AB7D90")]
+	[Token(Token = "0x6002BF0")]
+	[Address(RVA = "0x5452060", Offset = "0x5451060", VA = "0x5452060")]
 	public CaseInsensitiveComparer()
 	{
 	}
 
-	[Token(Token = "0x6002C12")]
-	[Address(RVA = "0x1AB7E20", Offset = "0x1AB6420", VA = "0x181AB7E20")]
+	[Token(Token = "0x6002BF1")]
+	[Address(RVA = "0x54520F0", Offset = "0x54510F0", VA = "0x54520F0")]
 	public CaseInsensitiveComparer(CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6002C14")]
-	[Address(RVA = "0x1AB7B60", Offset = "0x1AB6160", VA = "0x181AB7B60", Slot = "4")]
+	[Token(Token = "0x6002BF2")]
+	[Address(RVA = "0x5452180", Offset = "0x5451180", VA = "0x5452180", Slot = "4")]
 	public int Compare(object a, object b)
 	{
 		return default(int);

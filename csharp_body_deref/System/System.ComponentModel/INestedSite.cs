@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001AC")]
+[Token(Token = "0x200016D")]
 public interface INestedSite : ISite, IServiceProvider
 {
-	[Token(Token = "0x17000227")]
+	[Token(Token = "0x170001F8")]
 	string FullName
 	{
-		[Token(Token = "0x6000AEF")]
+		[Token(Token = "0x600092F")]
 		get;
 	}
 }

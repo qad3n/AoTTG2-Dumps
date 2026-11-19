@@ -11,54 +11,54 @@ using Utility;
 
 namespace Anticheat;
 
-[Token(Token = "0x200097E")]
+[Token(Token = "0x20009E4")]
 internal class BaseEventFilter
 {
-	[Token(Token = "0x4002ECE")]
+	[Token(Token = "0x400317E")]
 	[FieldOffset(Offset = "0x10")]
 	protected Player _player;
 
-	[Token(Token = "0x4002ECF")]
+	[Token(Token = "0x400317F")]
 	[FieldOffset(Offset = "0x18")]
 	protected PhotonEventType _eventType;
 
-	[Token(Token = "0x17000FCC")]
+	[Token(Token = "0x17000FAB")]
 	protected virtual RateLimit TotalRateLimit
 	{
-		[Token(Token = "0x60057E3")]
-		[Address(RVA = "0x236A2F0", Offset = "0x23688F0", VA = "0x18236A2F0", Slot = "4")]
+		[Token(Token = "0x6005B3A")]
+		[Address(RVA = "0x5D38670", Offset = "0x5D37670", VA = "0x5D38670", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000FCD")]
+	[Token(Token = "0x17000FAC")]
 	protected virtual bool AlwaysAllowMaster
 	{
-		[Token(Token = "0x60057E4")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Token(Token = "0x6005B3B")]
+		[Address(RVA = "0x5D386C0", Offset = "0x5D376C0", VA = "0x5D386C0", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60057E5")]
-	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
+	[Token(Token = "0x6005B3C")]
+	[Address(RVA = "0x5D386D0", Offset = "0x5D376D0", VA = "0x5D386D0")]
 	public BaseEventFilter(Player player, PhotonEventType eventType)
 	{
 	}
 
-	[Token(Token = "0x60057E6")]
-	[Address(RVA = "0x236A290", Offset = "0x2368890", VA = "0x18236A290")]
+	[Token(Token = "0x6005B3D")]
+	[Address(RVA = "0x5D38700", Offset = "0x5D37700", VA = "0x5D38700")]
 	public bool IsMasterOrLocal()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60057E7")]
-	[Address(RVA = "0x236A180", Offset = "0x2368780", VA = "0x18236A180", Slot = "6")]
+	[Token(Token = "0x6005B3E")]
+	[Address(RVA = "0x5D38750", Offset = "0x5D37750", VA = "0x5D38750", Slot = "6")]
 	public virtual bool CheckEvent(object[] data)
 	{
 		return default(bool);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -111,7 +111,7 @@ public class AdditionalLightsShadowCasterPass : ScriptableRenderPass
 		internal readonly RendererListHandle[] shadowRendererListsHdl;
 
 		[Token(Token = "0x6000B62")]
-		[Address(RVA = "0x2CC49A0", Offset = "0x2CC2FA0", VA = "0x182CC49A0")]
+		[Address(RVA = "0x66C2130", Offset = "0x66C1130", VA = "0x66C2130")]
 		public PassData()
 		{
 		}
@@ -256,152 +256,152 @@ public class AdditionalLightsShadowCasterPass : ScriptableRenderPass
 	private static bool isAdditionalShadowParamsDirty;
 
 	[Token(Token = "0x6000B49")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x66BC7C0", Offset = "0x66BB7C0", VA = "0x66BC7C0", Slot = "7")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Configure(CommandBuffer cmd, RenderTextureDescriptor cameraTextureDescriptor)
 	{
 	}
 
 	[Token(Token = "0x6000B4A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66BC7D0", Offset = "0x66BB7D0", VA = "0x66BC7D0", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x2CB6A80", Offset = "0x2CB5080", VA = "0x182CB6A80")]
+	[Address(RVA = "0x66BC7E0", Offset = "0x66BB7E0", VA = "0x66BC7E0")]
 	public AdditionalLightsShadowCasterPass(RenderPassEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x2C582D0", Offset = "0x2C568D0", VA = "0x182C582D0")]
+	[Address(RVA = "0x66BCC30", Offset = "0x66BBC30", VA = "0x66BCC30")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x2CB1980", Offset = "0x2CAFF80", VA = "0x182CB1980")]
+	[Address(RVA = "0x66BCC50", Offset = "0x66BBC50", VA = "0x66BCC50")]
 	internal static float CalcGuardAngle(float frustumAngleInDegrees, float guardBandSizeInTexels, float sliceResolutionInTexels)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x2CB1E40", Offset = "0x2CB0440", VA = "0x182CB1E40")]
+	[Address(RVA = "0x66BCCD0", Offset = "0x66BBCD0", VA = "0x66BCCD0")]
 	internal static float GetPointLightShadowFrustumFovBiasInDegrees(int shadowSliceResolution, bool shadowFiltering)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x2CB3BB0", Offset = "0x2CB21B0", VA = "0x182CB3BB0")]
+	[Address(RVA = "0x66BD020", Offset = "0x66BC020", VA = "0x66BD020")]
 	private ulong ResolutionLog2ForHash(int resolution)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x2CB1A80", Offset = "0x2CB0080", VA = "0x182CB1A80")]
+	[Address(RVA = "0x66BD070", Offset = "0x66BC070", VA = "0x66BD070")]
 	private ulong ComputeShadowRequestHash(UniversalLightData lightData, UniversalShadowData shadowData)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x2CB1E20", Offset = "0x2CB0420", VA = "0x182CB1E20")]
+	[Address(RVA = "0x66BD460", Offset = "0x66BC460", VA = "0x66BD460")]
 	private float GetLightTypeIdentifierForShadowParams(LightType lightType)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x2CB6A00", Offset = "0x2CB5000", VA = "0x182CB6A00")]
+	[Address(RVA = "0x66BD480", Offset = "0x66BC480", VA = "0x66BD480")]
 	private bool UsesBakedShadows(Light light)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x2CB6840", Offset = "0x2CB4E40", VA = "0x182CB6840")]
+	[Address(RVA = "0x66BD4B0", Offset = "0x66BC4B0", VA = "0x66BD4B0")]
 	public bool Setup(ref RenderingData renderingData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x2CB4890", Offset = "0x2CB2E90", VA = "0x182CB4890")]
+	[Address(RVA = "0x66BD580", Offset = "0x66BC580", VA = "0x66BD580")]
 	public bool Setup(UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData, UniversalShadowData shadowData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x2CB6940", Offset = "0x2CB4F40", VA = "0x182CB6940")]
+	[Address(RVA = "0x66BFE40", Offset = "0x66BEE40", VA = "0x66BFE40")]
 	private void UpdateTextureDescriptorIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x2CB1830", Offset = "0x2CAFE30", VA = "0x182CB1830")]
+	[Address(RVA = "0x66BF640", Offset = "0x66BE640", VA = "0x66BF640")]
 	private bool AnyAdditionalLightHasMixedShadows(UniversalLightData lightData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x2CB4280", Offset = "0x2CB2880", VA = "0x182CB4280")]
+	[Address(RVA = "0x66BF7C0", Offset = "0x66BE7C0", VA = "0x66BF7C0")]
 	private bool SetupForEmptyRendering(bool stripShadowsOffVariants, bool shadowsEnabled, UniversalLightData lightData, UniversalShadowData shadowData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x2CB2160", Offset = "0x2CB0760", VA = "0x182CB2160")]
+	[Address(RVA = "0x66BA890", Offset = "0x66B9890", VA = "0x66BA890")]
 	public int GetShadowLightIndexFromLightIndex(int visibleLightIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x2CB1A10", Offset = "0x2CB0010", VA = "0x182CB1A10")]
+	[Address(RVA = "0x66BFDE0", Offset = "0x66BEDE0", VA = "0x66BFDE0")]
 	private void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x2CB3C00", Offset = "0x2CB2200", VA = "0x182CB3C00")]
+	[Address(RVA = "0x66BFEF0", Offset = "0x66BEEF0", VA = "0x66BFEF0")]
 	internal static void SetShadowParamsForEmptyShadowmap(RasterCommandBuffer rasterCommandBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x2CB2600", Offset = "0x2CB0C00", VA = "0x182CB2600")]
+	[Address(RVA = "0x66C0150", Offset = "0x66BF150", VA = "0x66C0150")]
 	private void RenderAdditionalShadowmapAtlas(RasterCommandBuffer cmd, ref PassData data, bool useRenderGraph)
 	{
 	}
 
 	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x2CB3E60", Offset = "0x2CB2460", VA = "0x182CB3E60")]
+	[Address(RVA = "0x66C0D90", Offset = "0x66BFD90", VA = "0x66C0D90")]
 	private void SetupAdditionalLightsShadowReceiverConstants(RasterCommandBuffer cmd, Vector2Int allocatedShadowAtlasSize, bool useStructuredBuffer, bool softShadows)
 	{
 	}
 
 	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x2CB21D0", Offset = "0x2CB07D0", VA = "0x182CB21D0")]
+	[Address(RVA = "0x66C1100", Offset = "0x66C0100", VA = "0x66C1100")]
 	private void InitPassData(ref PassData passData, UniversalCameraData cameraData, UniversalLightData lightData, UniversalShadowData shadowData)
 	{
 	}
 
 	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x2CB22E0", Offset = "0x2CB08E0", VA = "0x182CB22E0")]
+	[Address(RVA = "0x66C1210", Offset = "0x66C0210", VA = "0x66C1210")]
 	private void InitRendererLists(ref CullingResults cullResults, ref PassData passData, ScriptableRenderContext context, RenderGraph renderGraph, bool useRenderGraph)
 	{
 	}
 
 	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x2CB3250", Offset = "0x2CB1850", VA = "0x182CB3250")]
+	[Address(RVA = "0x66C1480", Offset = "0x66C0480", VA = "0x66C1480")]
 	internal TextureHandle Render(RenderGraph graph, ContextContainer frameData)
 	{
 		return default(TextureHandle);

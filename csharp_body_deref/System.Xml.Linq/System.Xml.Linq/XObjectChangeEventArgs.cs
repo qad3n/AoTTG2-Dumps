@@ -33,7 +33,7 @@ public class XObjectChangeEventArgs : EventArgs
 	public static readonly XObjectChangeEventArgs Value;
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x25EC800", Offset = "0x25EAE00", VA = "0x1825EC800")]
+	[Address(RVA = "0x5FA7F80", Offset = "0x5FA6F80", VA = "0x5FA7F80")]
 	public XObjectChangeEventArgs(XObjectChange objectChange)
 	{
 	}

@@ -12,472 +12,472 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000214")]
+[Token(Token = "0x20001D5")]
 [ComVisible(true)]
 public class TypeConverter
 {
-	[Token(Token = "0x2000215")]
+	[Token(Token = "0x20001D6")]
 	protected abstract class SimplePropertyDescriptor : PropertyDescriptor
 	{
-		[Token(Token = "0x40007D2")]
+		[Token(Token = "0x4000703")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 		private Type componentType;
 
-		[Token(Token = "0x40007D3")]
+		[Token(Token = "0x4000704")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 		private Type propertyType;
 
-		[Token(Token = "0x170002F0")]
+		[Token(Token = "0x170002C1")]
 		public override Type ComponentType
 		{
-			[Token(Token = "0x6000E5D")]
-			[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "17")]
+			[Token(Token = "0x6000C9D")]
+			[Address(RVA = "0x6265CE0", Offset = "0x6264CE0", VA = "0x6265CE0", Slot = "17")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170002F1")]
+		[Token(Token = "0x170002C2")]
 		public override bool IsReadOnly
 		{
-			[Token(Token = "0x6000E5E")]
-			[Address(RVA = "0x28DBE60", Offset = "0x28DA460", VA = "0x1828DBE60", Slot = "20")]
+			[Token(Token = "0x6000C9E")]
+			[Address(RVA = "0x6265CF0", Offset = "0x6264CF0", VA = "0x6265CF0", Slot = "20")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x170002F2")]
+		[Token(Token = "0x170002C3")]
 		public override Type PropertyType
 		{
-			[Token(Token = "0x6000E5F")]
-			[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0", Slot = "21")]
+			[Token(Token = "0x6000C9F")]
+			[Address(RVA = "0x6265D70", Offset = "0x6264D70", VA = "0x6265D70", Slot = "21")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000E5B")]
-		[Address(RVA = "0x28DBDD0", Offset = "0x28DA3D0", VA = "0x1828DBDD0")]
+		[Token(Token = "0x6000C9B")]
+		[Address(RVA = "0x6265C00", Offset = "0x6264C00", VA = "0x6265C00")]
 		protected SimplePropertyDescriptor(Type componentType, string name, Type propertyType)
 		{
 		}
 
-		[Token(Token = "0x6000E5C")]
-		[Address(RVA = "0x28DBD60", Offset = "0x28DA360", VA = "0x1828DBD60")]
+		[Token(Token = "0x6000C9C")]
+		[Address(RVA = "0x6265C90", Offset = "0x6264C90", VA = "0x6265C90")]
 		protected SimplePropertyDescriptor(Type componentType, string name, Type propertyType, Attribute[] attributes)
 		{
 		}
 
-		[Token(Token = "0x6000E60")]
-		[Address(RVA = "0x28DBB20", Offset = "0x28DA120", VA = "0x1828DBB20", Slot = "23")]
+		[Token(Token = "0x6000CA0")]
+		[Address(RVA = "0x6265D80", Offset = "0x6264D80", VA = "0x6265D80", Slot = "23")]
 		public override bool CanResetValue(object component)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000E61")]
-		[Address(RVA = "0x28DBC50", Offset = "0x28DA250", VA = "0x1828DBC50", Slot = "29")]
+		[Token(Token = "0x6000CA1")]
+		[Address(RVA = "0x6265EC0", Offset = "0x6264EC0", VA = "0x6265EC0", Slot = "29")]
 		public override void ResetValue(object component)
 		{
 		}
 
-		[Token(Token = "0x6000E62")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "31")]
+		[Token(Token = "0x6000CA2")]
+		[Address(RVA = "0x6265FE0", Offset = "0x6264FE0", VA = "0x6265FE0", Slot = "31")]
 		public override bool ShouldSerializeValue(object component)
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x2000216")]
+	[Token(Token = "0x20001D7")]
 	public class StandardValuesCollection : ICollection, IEnumerable
 	{
-		[Token(Token = "0x40007D4")]
+		[Token(Token = "0x4000705")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private ICollection values;
 
-		[Token(Token = "0x40007D5")]
+		[Token(Token = "0x4000706")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private Array valueArray;
 
-		[Token(Token = "0x170002F3")]
+		[Token(Token = "0x170002C4")]
 		public int Count
 		{
-			[Token(Token = "0x6000E64")]
-			[Address(RVA = "0x28DBFA0", Offset = "0x28DA5A0", VA = "0x1828DBFA0")]
+			[Token(Token = "0x6000CA4")]
+			[Address(RVA = "0x62660A0", Offset = "0x62650A0", VA = "0x62660A0")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x170002F4")]
+		[Token(Token = "0x170002C5")]
 		public object this[int index]
 		{
-			[Token(Token = "0x6000E65")]
-			[Address(RVA = "0x28DC0C0", Offset = "0x28DA6C0", VA = "0x1828DC0C0")]
+			[Token(Token = "0x6000CA5")]
+			[Address(RVA = "0x6266150", Offset = "0x6265150", VA = "0x6266150")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170002F5")]
+		[Token(Token = "0x170002C6")]
 		private int System_002ECollections_002EICollection_002ECount
 		{
-			[Token(Token = "0x6000E68")]
-			[Address(RVA = "0x28DBFA0", Offset = "0x28DA5A0", VA = "0x1828DBFA0", Slot = "5")]
+			[Token(Token = "0x6000CA8")]
+			[Address(RVA = "0x62664A0", Offset = "0x62654A0", VA = "0x62664A0", Slot = "5")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x170002F6")]
+		[Token(Token = "0x170002C7")]
 		private bool System_002ECollections_002EICollection_002EIsSynchronized
 		{
-			[Token(Token = "0x6000E69")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+			[Token(Token = "0x6000CA9")]
+			[Address(RVA = "0x62664B0", Offset = "0x62654B0", VA = "0x62664B0", Slot = "7")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x170002F7")]
+		[Token(Token = "0x170002C8")]
 		private object System_002ECollections_002EICollection_002ESyncRoot
 		{
-			[Token(Token = "0x6000E6A")]
-			[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+			[Token(Token = "0x6000CAA")]
+			[Address(RVA = "0x62664C0", Offset = "0x62654C0", VA = "0x62664C0", Slot = "6")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000E63")]
-		[Address(RVA = "0x28DC010", Offset = "0x28DA610", VA = "0x1828DC010")]
+		[Token(Token = "0x6000CA3")]
+		[Address(RVA = "0x6265FF0", Offset = "0x6264FF0", VA = "0x6265FF0")]
 		public StandardValuesCollection(ICollection values)
 		{
 		}
 
-		[Token(Token = "0x6000E66")]
-		[Address(RVA = "0x28DBEE0", Offset = "0x28DA4E0", VA = "0x1828DBEE0")]
+		[Token(Token = "0x6000CA6")]
+		[Address(RVA = "0x6266360", Offset = "0x6265360", VA = "0x6266360")]
 		public void CopyTo(Array array, int index)
 		{
 		}
 
-		[Token(Token = "0x6000E67")]
-		[Address(RVA = "0x28DBF50", Offset = "0x28DA550", VA = "0x1828DBF50")]
+		[Token(Token = "0x6000CA7")]
+		[Address(RVA = "0x6266410", Offset = "0x6265410", VA = "0x6266410")]
 		public IEnumerator GetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E6B")]
-		[Address(RVA = "0x28DBEE0", Offset = "0x28DA4E0", VA = "0x1828DBEE0", Slot = "4")]
+		[Token(Token = "0x6000CAB")]
+		[Address(RVA = "0x62664D0", Offset = "0x62654D0", VA = "0x62664D0", Slot = "4")]
 		private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 		{
 		}
 
-		[Token(Token = "0x6000E6C")]
-		[Address(RVA = "0x28DBF50", Offset = "0x28DA550", VA = "0x1828DBF50", Slot = "8")]
+		[Token(Token = "0x6000CAC")]
+		[Address(RVA = "0x6266580", Offset = "0x6265580", VA = "0x6266580", Slot = "8")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40007D0")]
+	[Token(Token = "0x4000701")]
 	private const string s_UseCompatibleTypeConverterBehavior = "UseCompatibleTypeConverterBehavior";
 
-	[Token(Token = "0x40007D1")]
+	[Token(Token = "0x4000702")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static bool useCompatibleTypeConversion;
 
-	[Token(Token = "0x170002EF")]
+	[Token(Token = "0x170002C0")]
 	private static bool UseCompatibleTypeConversion
 	{
-		[Token(Token = "0x6000E33")]
-		[Address(RVA = "0x28DD610", Offset = "0x28DBC10", VA = "0x1828DD610")]
+		[Token(Token = "0x6000C73")]
+		[Address(RVA = "0x6264860", Offset = "0x6263860", VA = "0x6264860")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000E34")]
-	[Address(RVA = "0x2893C60", Offset = "0x2892260", VA = "0x182893C60")]
+	[Token(Token = "0x6000C74")]
+	[Address(RVA = "0x62648A0", Offset = "0x62638A0", VA = "0x62648A0")]
 	public bool CanConvertFrom(Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E35")]
-	[Address(RVA = "0x28DC620", Offset = "0x28DAC20", VA = "0x1828DC620", Slot = "4")]
+	[Token(Token = "0x6000C75")]
+	[Address(RVA = "0x62648C0", Offset = "0x62638C0", VA = "0x62648C0", Slot = "4")]
 	public virtual bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E36")]
-	[Address(RVA = "0x28DC690", Offset = "0x28DAC90", VA = "0x1828DC690")]
+	[Token(Token = "0x6000C76")]
+	[Address(RVA = "0x6264930", Offset = "0x6263930", VA = "0x6264930")]
 	public bool CanConvertTo(Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x28DC6B0", Offset = "0x28DACB0", VA = "0x1828DC6B0", Slot = "5")]
+	[Token(Token = "0x6000C77")]
+	[Address(RVA = "0x6264950", Offset = "0x6263950", VA = "0x6264950", Slot = "5")]
 	public virtual bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x28DC8D0", Offset = "0x28DAED0", VA = "0x1828DC8D0")]
+	[Token(Token = "0x6000C78")]
+	[Address(RVA = "0x62649A0", Offset = "0x62639A0", VA = "0x62649A0")]
 	public object ConvertFrom(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E39")]
-	[Address(RVA = "0x28DC950", Offset = "0x28DAF50", VA = "0x1828DC950", Slot = "6")]
+	[Token(Token = "0x6000C79")]
+	[Address(RVA = "0x6264A10", Offset = "0x6263A10", VA = "0x6264A10", Slot = "6")]
 	public virtual object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3A")]
-	[Address(RVA = "0x28DC700", Offset = "0x28DAD00", VA = "0x1828DC700")]
+	[Token(Token = "0x6000C7A")]
+	[Address(RVA = "0x6264F10", Offset = "0x6263F10", VA = "0x6264F10")]
 	public object ConvertFromInvariantString(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3B")]
-	[Address(RVA = "0x28DC780", Offset = "0x28DAD80", VA = "0x1828DC780")]
+	[Token(Token = "0x6000C7B")]
+	[Address(RVA = "0x6264FA0", Offset = "0x6263FA0", VA = "0x6264FA0")]
 	public object ConvertFromInvariantString(ITypeDescriptorContext context, string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3C")]
-	[Address(RVA = "0x28DC8A0", Offset = "0x28DAEA0", VA = "0x1828DC8A0")]
+	[Token(Token = "0x6000C7C")]
+	[Address(RVA = "0x6265010", Offset = "0x6264010", VA = "0x6265010")]
 	public object ConvertFromString(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3D")]
-	[Address(RVA = "0x28DC810", Offset = "0x28DAE10", VA = "0x1828DC810")]
+	[Token(Token = "0x6000C7D")]
+	[Address(RVA = "0x6265030", Offset = "0x6264030", VA = "0x6265030")]
 	public object ConvertFromString(ITypeDescriptorContext context, string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3E")]
-	[Address(RVA = "0x28453A0", Offset = "0x28439A0", VA = "0x1828453A0")]
+	[Token(Token = "0x6000C7E")]
+	[Address(RVA = "0x6264F80", Offset = "0x6263F80", VA = "0x6264F80")]
 	public object ConvertFromString(ITypeDescriptorContext context, CultureInfo culture, string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E3F")]
-	[Address(RVA = "0x28DCCF0", Offset = "0x28DB2F0", VA = "0x1828DCCF0")]
+	[Token(Token = "0x6000C7F")]
+	[Address(RVA = "0x62650A0", Offset = "0x62640A0", VA = "0x62650A0")]
 	public object ConvertTo(object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E40")]
-	[Address(RVA = "0x28DCD20", Offset = "0x28DB320", VA = "0x1828DCD20", Slot = "7")]
+	[Token(Token = "0x6000C80")]
+	[Address(RVA = "0x62650C0", Offset = "0x62640C0", VA = "0x62650C0", Slot = "7")]
 	public virtual object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E41")]
-	[Address(RVA = "0x28DC9C0", Offset = "0x28DAFC0", VA = "0x1828DC9C0")]
+	[Token(Token = "0x6000C81")]
+	[Address(RVA = "0x6265450", Offset = "0x6264450", VA = "0x6265450")]
 	public string ConvertToInvariantString(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E42")]
-	[Address(RVA = "0x28DCA30", Offset = "0x28DB030", VA = "0x1828DCA30")]
+	[Token(Token = "0x6000C82")]
+	[Address(RVA = "0x62655A0", Offset = "0x62645A0", VA = "0x62655A0")]
 	public string ConvertToInvariantString(ITypeDescriptorContext context, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E43")]
-	[Address(RVA = "0x28DCAB0", Offset = "0x28DB0B0", VA = "0x1828DCAB0")]
+	[Token(Token = "0x6000C83")]
+	[Address(RVA = "0x6265670", Offset = "0x6264670", VA = "0x6265670")]
 	public string ConvertToString(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E44")]
-	[Address(RVA = "0x28DCC20", Offset = "0x28DB220", VA = "0x1828DCC20")]
+	[Token(Token = "0x6000C84")]
+	[Address(RVA = "0x6265730", Offset = "0x6264730", VA = "0x6265730")]
 	public string ConvertToString(ITypeDescriptorContext context, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E45")]
-	[Address(RVA = "0x28DCB80", Offset = "0x28DB180", VA = "0x1828DCB80")]
+	[Token(Token = "0x6000C85")]
+	[Address(RVA = "0x6265510", Offset = "0x6264510", VA = "0x6265510")]
 	public string ConvertToString(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E46")]
-	[Address(RVA = "0x28DCF40", Offset = "0x28DB540", VA = "0x1828DCF40")]
+	[Token(Token = "0x6000C86")]
+	[Address(RVA = "0x6265800", Offset = "0x6264800", VA = "0x6265800")]
 	public object CreateInstance(IDictionary propertyValues)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E47")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+	[Token(Token = "0x6000C87")]
+	[Address(RVA = "0x6265820", Offset = "0x6264820", VA = "0x6265820", Slot = "8")]
 	public virtual object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E48")]
-	[Address(RVA = "0x28DCF60", Offset = "0x28DB560", VA = "0x1828DCF60")]
+	[Token(Token = "0x6000C88")]
+	[Address(RVA = "0x6264DE0", Offset = "0x6263DE0", VA = "0x6264DE0")]
 	protected Exception GetConvertFromException(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E49")]
-	[Address(RVA = "0x28DD0A0", Offset = "0x28DB6A0", VA = "0x1828DD0A0")]
+	[Token(Token = "0x6000C89")]
+	[Address(RVA = "0x62652E0", Offset = "0x62642E0", VA = "0x62652E0")]
 	protected Exception GetConvertToException(object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4A")]
-	[Address(RVA = "0x28DD220", Offset = "0x28DB820", VA = "0x1828DD220")]
+	[Token(Token = "0x6000C8A")]
+	[Address(RVA = "0x6265830", Offset = "0x6264830", VA = "0x6265830")]
 	public bool GetCreateInstanceSupported()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E4B")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Token(Token = "0x6000C8B")]
+	[Address(RVA = "0x6265850", Offset = "0x6264850", VA = "0x6265850", Slot = "9")]
 	public virtual bool GetCreateInstanceSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E4C")]
-	[Address(RVA = "0x28DD260", Offset = "0x28DB860", VA = "0x1828DD260")]
+	[Token(Token = "0x6000C8C")]
+	[Address(RVA = "0x6265860", Offset = "0x6264860", VA = "0x6265860")]
 	public PropertyDescriptorCollection GetProperties(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4D")]
-	[Address(RVA = "0x28DD370", Offset = "0x28DB970", VA = "0x1828DD370")]
+	[Token(Token = "0x6000C8D")]
+	[Address(RVA = "0x6265870", Offset = "0x6264870", VA = "0x6265870")]
 	public PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4E")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+	[Token(Token = "0x6000C8E")]
+	[Address(RVA = "0x6265970", Offset = "0x6264970", VA = "0x6265970", Slot = "10")]
 	public virtual PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4F")]
-	[Address(RVA = "0x28DD240", Offset = "0x28DB840", VA = "0x1828DD240")]
+	[Token(Token = "0x6000C8F")]
+	[Address(RVA = "0x6265980", Offset = "0x6264980", VA = "0x6265980")]
 	public bool GetPropertiesSupported()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E50")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
+	[Token(Token = "0x6000C90")]
+	[Address(RVA = "0x62659A0", Offset = "0x62649A0", VA = "0x62659A0", Slot = "11")]
 	public virtual bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E51")]
-	[Address(RVA = "0x28DD490", Offset = "0x28DBA90", VA = "0x1828DD490")]
+	[Token(Token = "0x6000C91")]
+	[Address(RVA = "0x62659B0", Offset = "0x62649B0", VA = "0x62659B0")]
 	public ICollection GetStandardValues()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E52")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
+	[Token(Token = "0x6000C92")]
+	[Address(RVA = "0x62659D0", Offset = "0x62649D0", VA = "0x62659D0", Slot = "12")]
 	public virtual StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E53")]
-	[Address(RVA = "0x1C7CEB0", Offset = "0x1C7B4B0", VA = "0x181C7CEB0")]
+	[Token(Token = "0x6000C93")]
+	[Address(RVA = "0x62659E0", Offset = "0x62649E0", VA = "0x62659E0")]
 	public bool GetStandardValuesExclusive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E54")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+	[Token(Token = "0x6000C94")]
+	[Address(RVA = "0x6265A00", Offset = "0x6264A00", VA = "0x6265A00", Slot = "13")]
 	public virtual bool GetStandardValuesExclusive(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E55")]
-	[Address(RVA = "0x28DD470", Offset = "0x28DBA70", VA = "0x1828DD470")]
+	[Token(Token = "0x6000C95")]
+	[Address(RVA = "0x6265A10", Offset = "0x6264A10", VA = "0x6265A10")]
 	public bool GetStandardValuesSupported()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E56")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "14")]
+	[Token(Token = "0x6000C96")]
+	[Address(RVA = "0x6265A30", Offset = "0x6264A30", VA = "0x6265A30", Slot = "14")]
 	public virtual bool GetStandardValuesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E57")]
-	[Address(RVA = "0x28DD4B0", Offset = "0x28DBAB0", VA = "0x1828DD4B0")]
+	[Token(Token = "0x6000C97")]
+	[Address(RVA = "0x6265A40", Offset = "0x6264A40", VA = "0x6265A40")]
 	public bool IsValid(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E58")]
-	[Address(RVA = "0x28DD4D0", Offset = "0x28DBAD0", VA = "0x1828DD4D0", Slot = "15")]
+	[Token(Token = "0x6000C98")]
+	[Address(RVA = "0x6265A60", Offset = "0x6264A60", VA = "0x6265A60", Slot = "15")]
 	public virtual bool IsValid(ITypeDescriptorContext context, object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E59")]
-	[Address(RVA = "0x28DD5D0", Offset = "0x28DBBD0", VA = "0x1828DD5D0")]
+	[Token(Token = "0x6000C99")]
+	[Address(RVA = "0x6265BC0", Offset = "0x6264BC0", VA = "0x6265BC0")]
 	protected PropertyDescriptorCollection SortProperties(PropertyDescriptorCollection props, string[] names)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E5A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000C9A")]
+	[Address(RVA = "0x6265BF0", Offset = "0x6264BF0", VA = "0x6265BF0")]
 	public TypeConverter()
 	{
 	}

@@ -21,51 +21,51 @@ internal static class UIEventRegistration
 	private static List<IUIElementsUtility> s_Utilities;
 
 	[Token(Token = "0x60025B3")]
-	[Address(RVA = "0x3150BC0", Offset = "0x314F1C0", VA = "0x183150BC0")]
+	[Address(RVA = "0x6B527B0", Offset = "0x6B517B0", VA = "0x6B527B0")]
 	static UIEventRegistration()
 	{
 	}
 
 	[Token(Token = "0x60025B4")]
-	[Address(RVA = "0x3150860", Offset = "0x314EE60", VA = "0x183150860")]
+	[Address(RVA = "0x6B52D60", Offset = "0x6B51D60", VA = "0x6B52D60")]
 	internal static void RegisterUIElementSystem(IUIElementsUtility utility)
 	{
 	}
 
 	[Token(Token = "0x60025B5")]
-	[Address(RVA = "0x3150A50", Offset = "0x314F050", VA = "0x183150A50")]
+	[Address(RVA = "0x6B52E00", Offset = "0x6B51E00", VA = "0x6B52E00")]
 	private static void TakeCapture()
 	{
 	}
 
 	[Token(Token = "0x60025B6")]
-	[Address(RVA = "0x31508E0", Offset = "0x314EEE0", VA = "0x1831508E0")]
+	[Address(RVA = "0x6B52FF0", Offset = "0x6B51FF0", VA = "0x6B52FF0")]
 	private static void ReleaseCapture()
 	{
 	}
 
 	[Token(Token = "0x60025B7")]
-	[Address(RVA = "0x31502A0", Offset = "0x314E8A0", VA = "0x1831502A0")]
+	[Address(RVA = "0x6B53200", Offset = "0x6B52200", VA = "0x6B53200")]
 	private static bool EndContainerGUIFromException(Exception exception)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025B8")]
-	[Address(RVA = "0x3150650", Offset = "0x314EC50", VA = "0x183150650")]
+	[Address(RVA = "0x6B53460", Offset = "0x6B52460", VA = "0x6B53460")]
 	private static bool ProcessEvent(int instanceID, IntPtr nativeEventPtr)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60025B9")]
-	[Address(RVA = "0x3150130", Offset = "0x314E730", VA = "0x183150130")]
+	[Address(RVA = "0x6B536B0", Offset = "0x6B526B0", VA = "0x6B536B0")]
 	private static void CleanupRoots()
 	{
 	}
 
 	[Token(Token = "0x60025BA")]
-	[Address(RVA = "0x31504E0", Offset = "0x314EAE0", VA = "0x1831504E0")]
+	[Address(RVA = "0x6B538C0", Offset = "0x6B528C0", VA = "0x6B538C0")]
 	internal static void MakeCurrentIMGUIContainerDirty()
 	{
 	}

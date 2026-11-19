@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.IndirectBufferContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,13 +45,13 @@ internal struct IndirectBufferContext
 	public int subviewMask;
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0xF3DFA0", Offset = "0xF3C5A0", VA = "0x180F3DFA0")]
+	[Address(RVA = "0x65E5520", Offset = "0x65E4520", VA = "0x65E5520")]
 	public IndirectBufferContext(JobHandle cullingJobHandle)
 	{
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x2BEFA30", Offset = "0x2BEE030", VA = "0x182BEFA30")]
+	[Address(RVA = "0x65E5540", Offset = "0x65E4540", VA = "0x65E5540")]
 	public bool Matches(BufferState bufferState, int occluderVersion, int subviewMask)
 	{
 		return default(bool);

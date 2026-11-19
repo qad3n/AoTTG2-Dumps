@@ -23,13 +23,13 @@ public static class ReferenceCollector
 	public static event Action onSceneUnloaded
 	{
 		[Token(Token = "0x60010A1")]
-		[Address(RVA = "0x2E55460", Offset = "0x2E53A60", VA = "0x182E55460")]
+		[Address(RVA = "0x684B520", Offset = "0x684A520", VA = "0x684B520")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60010A2")]
-		[Address(RVA = "0x2E55520", Offset = "0x2E53B20", VA = "0x182E55520")]
+		[Address(RVA = "0x684B5C0", Offset = "0x684A5C0", VA = "0x684B5C0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -37,7 +37,7 @@ public static class ReferenceCollector
 	}
 
 	[Token(Token = "0x60010A3")]
-	[Address(RVA = "0x2E55350", Offset = "0x2E53950", VA = "0x182E55350")]
+	[Address(RVA = "0x684B660", Offset = "0x684A660", VA = "0x684B660")]
 	internal static void Initialize()
 	{
 	}

@@ -18,32 +18,32 @@ public class NoInterpFloatRangeParameter : VolumeParameter<Vector2>
 {
 	[NonSerialized]
 	[Token(Token = "0x40009A3")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x1C")]
 	public float min;
 
 	[NonSerialized]
 	[Token(Token = "0x40009A4")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x20")]
 	public float max;
 
 	[Token(Token = "0x170001F9")]
 	public override Vector2 value
 	{
 		[Token(Token = "0x6000F48")]
-		[Address(RVA = "0x111AD40", Offset = "0x1119340", VA = "0x18111AD40", Slot = "14")]
+		[Address(RVA = "0x6555D90", Offset = "0x6554D90", VA = "0x6555D90", Slot = "14")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000F49")]
-		[Address(RVA = "0x2B588D0", Offset = "0x2B56ED0", VA = "0x182B588D0", Slot = "15")]
+		[Address(RVA = "0x6555DA0", Offset = "0x6554DA0", VA = "0x6555DA0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F4A")]
-	[Address(RVA = "0x2B5F770", Offset = "0x2B5DD70", VA = "0x182B5F770")]
+	[Address(RVA = "0x6555DD0", Offset = "0x6554DD0", VA = "0x6555DD0")]
 	public NoInterpFloatRangeParameter(Vector2 value, float min, float max, bool overrideState = false)
 	{
 	}

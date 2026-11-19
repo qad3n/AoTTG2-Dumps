@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnMouseEnterMessageListener : MessageListener
 {
 	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x2DBE490", Offset = "0x2DBCA90", VA = "0x182DBE490")]
+	[Address(RVA = "0x67A4C70", Offset = "0x67A3C70", VA = "0x67A4C70")]
 	private void OnMouseEnter()
 	{
 	}
 
 	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4CE0", Offset = "0x67A3CE0", VA = "0x67A4CE0")]
 	public UnityOnMouseEnterMessageListener()
 	{
 	}

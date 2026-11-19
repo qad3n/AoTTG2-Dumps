@@ -12,12 +12,12 @@ using UnityEngine.Scripting;
 namespace Unity.Collections.LowLevel.Unsafe;
 
 [Token(Token = "0x200006D")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Struct)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeContainerSupportsMinMaxWriteRestrictionAttribute : Attribute
 {
-	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x68B7CE0", Offset = "0x68B6CE0", VA = "0x68B7CE0")]
 	public NativeContainerSupportsMinMaxWriteRestrictionAttribute()
 	{
 	}

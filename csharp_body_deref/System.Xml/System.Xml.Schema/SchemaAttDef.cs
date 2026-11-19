@@ -63,7 +63,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private string System_002EXml_002EIDtdAttributeInfo_002EPrefix
 	{
 		[Token(Token = "0x60012D3")]
-		[Address(RVA = "0x261C930", Offset = "0x261AF30", VA = "0x18261C930", Slot = "8")]
+		[Address(RVA = "0x5FD8800", Offset = "0x5FD7800", VA = "0x5FD8800", Slot = "8")]
 		get
 		{
 			return null;
@@ -74,7 +74,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private string System_002EXml_002EIDtdAttributeInfo_002ELocalName
 	{
 		[Token(Token = "0x60012D4")]
-		[Address(RVA = "0x11282C0", Offset = "0x11268C0", VA = "0x1811282C0", Slot = "9")]
+		[Address(RVA = "0x5FD8810", Offset = "0x5FD7810", VA = "0x5FD8810", Slot = "9")]
 		get
 		{
 			return null;
@@ -85,7 +85,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private int System_002EXml_002EIDtdAttributeInfo_002ELineNumber
 	{
 		[Token(Token = "0x60012D5")]
-		[Address(RVA = "0xA4D530", Offset = "0xA4BB30", VA = "0x180A4D530", Slot = "10")]
+		[Address(RVA = "0x5FD8830", Offset = "0x5FD7830", VA = "0x5FD8830", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -96,7 +96,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private int System_002EXml_002EIDtdAttributeInfo_002ELinePosition
 	{
 		[Token(Token = "0x60012D6")]
-		[Address(RVA = "0xACB500", Offset = "0xAC9B00", VA = "0x180ACB500", Slot = "11")]
+		[Address(RVA = "0x5FD8840", Offset = "0x5FD7840", VA = "0x5FD8840", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -107,7 +107,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private bool System_002EXml_002EIDtdAttributeInfo_002EIsNonCDataType
 	{
 		[Token(Token = "0x60012D7")]
-		[Address(RVA = "0x261C8F0", Offset = "0x261AEF0", VA = "0x18261C8F0", Slot = "12")]
+		[Address(RVA = "0x5FD8850", Offset = "0x5FD7850", VA = "0x5FD8850", Slot = "12")]
 		get
 		{
 			return default(bool);
@@ -118,7 +118,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private bool System_002EXml_002EIDtdAttributeInfo_002EIsDeclaredInExternal
 	{
 		[Token(Token = "0x60012D8")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+		[Address(RVA = "0x5FD88B0", Offset = "0x5FD78B0", VA = "0x5FD88B0", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -129,7 +129,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private bool System_002EXml_002EIDtdAttributeInfo_002EIsXmlAttribute
 	{
 		[Token(Token = "0x60012D9")]
-		[Address(RVA = "0x261C920", Offset = "0x261AF20", VA = "0x18261C920", Slot = "14")]
+		[Address(RVA = "0x5FD88C0", Offset = "0x5FD78C0", VA = "0x5FD88C0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -140,7 +140,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private string System_002EXml_002EIDtdDefaultAttributeInfo_002EDefaultValueExpanded
 	{
 		[Token(Token = "0x60012DA")]
-		[Address(RVA = "0x261C940", Offset = "0x261AF40", VA = "0x18261C940", Slot = "4")]
+		[Address(RVA = "0x5FD88D0", Offset = "0x5FD78D0", VA = "0x5FD88D0", Slot = "4")]
 		get
 		{
 			return null;
@@ -151,7 +151,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private object System_002EXml_002EIDtdDefaultAttributeInfo_002EDefaultValueTyped
 	{
 		[Token(Token = "0x60012DB")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "5")]
+		[Address(RVA = "0x5FD8930", Offset = "0x5FD7930", VA = "0x5FD8930", Slot = "5")]
 		get
 		{
 			return null;
@@ -162,7 +162,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private int System_002EXml_002EIDtdDefaultAttributeInfo_002EValueLineNumber
 	{
 		[Token(Token = "0x60012DC")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560", Slot = "6")]
+		[Address(RVA = "0x5FD8940", Offset = "0x5FD7940", VA = "0x5FD8940", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -173,7 +173,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	private int System_002EXml_002EIDtdDefaultAttributeInfo_002EValueLinePosition
 	{
 		[Token(Token = "0x60012DD")]
-		[Address(RVA = "0x187BA40", Offset = "0x187A040", VA = "0x18187BA40", Slot = "7")]
+		[Address(RVA = "0x5FD8950", Offset = "0x5FD7950", VA = "0x5FD8950", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -184,13 +184,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal int LinePosition
 	{
 		[Token(Token = "0x60012DE")]
-		[Address(RVA = "0xACB500", Offset = "0xAC9B00", VA = "0x180ACB500")]
+		[Address(RVA = "0x5FD8960", Offset = "0x5FD7960", VA = "0x5FD8960")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60012DF")]
-		[Address(RVA = "0xACB520", Offset = "0xAC9B20", VA = "0x180ACB520")]
+		[Address(RVA = "0x5FD8970", Offset = "0x5FD7970", VA = "0x5FD8970")]
 		set
 		{
 		}
@@ -200,13 +200,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal int LineNumber
 	{
 		[Token(Token = "0x60012E0")]
-		[Address(RVA = "0xA4D530", Offset = "0xA4BB30", VA = "0x180A4D530")]
+		[Address(RVA = "0x5FD8980", Offset = "0x5FD7980", VA = "0x5FD8980")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60012E1")]
-		[Address(RVA = "0xA4D6E0", Offset = "0xA4BCE0", VA = "0x180A4D6E0")]
+		[Address(RVA = "0x5FD8990", Offset = "0x5FD7990", VA = "0x5FD8990")]
 		set
 		{
 		}
@@ -216,13 +216,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal int ValueLinePosition
 	{
 		[Token(Token = "0x60012E2")]
-		[Address(RVA = "0x187BA40", Offset = "0x187A040", VA = "0x18187BA40")]
+		[Address(RVA = "0x5FD89A0", Offset = "0x5FD79A0", VA = "0x5FD89A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60012E3")]
-		[Address(RVA = "0x261CA60", Offset = "0x261B060", VA = "0x18261CA60")]
+		[Address(RVA = "0x5FD89B0", Offset = "0x5FD79B0", VA = "0x5FD89B0")]
 		set
 		{
 		}
@@ -232,13 +232,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal int ValueLineNumber
 	{
 		[Token(Token = "0x60012E4")]
-		[Address(RVA = "0x58A560", Offset = "0x588B60", VA = "0x18058A560")]
+		[Address(RVA = "0x5FD89C0", Offset = "0x5FD79C0", VA = "0x5FD89C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60012E5")]
-		[Address(RVA = "0x58A8F0", Offset = "0x588EF0", VA = "0x18058A8F0")]
+		[Address(RVA = "0x5FD89D0", Offset = "0x5FD79D0", VA = "0x5FD89D0")]
 		set
 		{
 		}
@@ -248,13 +248,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal string DefaultValueExpanded
 	{
 		[Token(Token = "0x60012E6")]
-		[Address(RVA = "0x261C940", Offset = "0x261AF40", VA = "0x18261C940")]
+		[Address(RVA = "0x5FD8900", Offset = "0x5FD7900", VA = "0x5FD8900")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x5FD89E0", Offset = "0x5FD79E0", VA = "0x5FD89E0")]
 		set
 		{
 		}
@@ -264,13 +264,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x60012E8")]
-		[Address(RVA = "0x261CA00", Offset = "0x261B000", VA = "0x18261CA00")]
+		[Address(RVA = "0x5FD8880", Offset = "0x5FD7880", VA = "0x5FD8880")]
 		get
 		{
 			return default(XmlTokenizedType);
 		}
 		[Token(Token = "0x60012E9")]
-		[Address(RVA = "0x261CA30", Offset = "0x261B030", VA = "0x18261CA30")]
+		[Address(RVA = "0x5FD89F0", Offset = "0x5FD79F0", VA = "0x5FD89F0")]
 		set
 		{
 		}
@@ -280,13 +280,13 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal Reserve Reserved
 	{
 		[Token(Token = "0x60012EA")]
-		[Address(RVA = "0x58A600", Offset = "0x588C00", VA = "0x18058A600")]
+		[Address(RVA = "0x5FD8A20", Offset = "0x5FD7A20", VA = "0x5FD8A20")]
 		get
 		{
 			return default(Reserve);
 		}
 		[Token(Token = "0x60012EB")]
-		[Address(RVA = "0x58A990", Offset = "0x588F90", VA = "0x18058A990")]
+		[Address(RVA = "0x5FD8A30", Offset = "0x5FD7A30", VA = "0x5FD8A30")]
 		set
 		{
 		}
@@ -296,7 +296,7 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal bool DefaultValueChecked
 	{
 		[Token(Token = "0x60012EC")]
-		[Address(RVA = "0x1D2B370", Offset = "0x1D29970", VA = "0x181D2B370")]
+		[Address(RVA = "0x5FD8A40", Offset = "0x5FD7A40", VA = "0x5FD8A40")]
 		get
 		{
 			return default(bool);
@@ -307,44 +307,44 @@ internal sealed class SchemaAttDef : SchemaDeclBase, IDtdDefaultAttributeInfo, I
 	internal XmlSchemaAttribute SchemaAttribute
 	{
 		[Token(Token = "0x60012ED")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x5FD8A50", Offset = "0x5FD7A50", VA = "0x5FD8A50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60012EE")]
-		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
+		[Address(RVA = "0x5FD8A60", Offset = "0x5FD7A60", VA = "0x5FD8A60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60012D0")]
-	[Address(RVA = "0x261C9E0", Offset = "0x261AFE0", VA = "0x18261C9E0")]
+	[Address(RVA = "0x5FD87D0", Offset = "0x5FD77D0", VA = "0x5FD87D0")]
 	public SchemaAttDef(XmlQualifiedName name, string prefix)
 	{
 	}
 
 	[Token(Token = "0x60012D1")]
-	[Address(RVA = "0x261C9D0", Offset = "0x261AFD0", VA = "0x18261C9D0")]
+	[Address(RVA = "0x5FD87E0", Offset = "0x5FD77E0", VA = "0x5FD87E0")]
 	public SchemaAttDef(XmlQualifiedName name)
 	{
 	}
 
 	[Token(Token = "0x60012D2")]
-	[Address(RVA = "0x261C9F0", Offset = "0x261AFF0", VA = "0x18261C9F0")]
+	[Address(RVA = "0x5FD87F0", Offset = "0x5FD77F0", VA = "0x5FD87F0")]
 	private SchemaAttDef()
 	{
 	}
 
 	[Token(Token = "0x60012EF")]
-	[Address(RVA = "0x261C5E0", Offset = "0x261ABE0", VA = "0x18261C5E0")]
+	[Address(RVA = "0x5FD8A70", Offset = "0x5FD7A70", VA = "0x5FD8A70")]
 	internal void CheckXmlSpace(IValidationEventHandling validationEventHandling)
 	{
 	}
 
 	[Token(Token = "0x60012F0")]
-	[Address(RVA = "0x261C890", Offset = "0x261AE90", VA = "0x18261C890")]
+	[Address(RVA = "0x5FD8CF0", Offset = "0x5FD7CF0", VA = "0x5FD8CF0")]
 	internal SchemaAttDef Clone()
 	{
 		return null;

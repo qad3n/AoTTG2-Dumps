@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.LowLevel.FontFaceHandle
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,22 +29,22 @@ internal struct FontFaceHandle : IEquatable<FontFaceHandle>
 	[FieldOffset(Offset = "0xC")]
 	internal int pointSize;
 
-	[Token(Token = "0x600008D")]
-	[Address(RVA = "0xAC7B40", Offset = "0xAC6140", VA = "0x180AC7B40", Slot = "4")]
+	[Token(Token = "0x6000091")]
+	[Address(RVA = "0x69FCE50", Offset = "0x69FBE50", VA = "0x69FCE50", Slot = "4")]
 	public bool Equals(FontFaceHandle other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x3002490", Offset = "0x3000A90", VA = "0x183002490", Slot = "0")]
+	[Token(Token = "0x6000092")]
+	[Address(RVA = "0x69FCE70", Offset = "0x69FBE70", VA = "0x69FCE70", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x3002530", Offset = "0x3000B30", VA = "0x183002530", Slot = "2")]
+	[Token(Token = "0x6000093")]
+	[Address(RVA = "0x69FCEF0", Offset = "0x69FBEF0", VA = "0x69FCEF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

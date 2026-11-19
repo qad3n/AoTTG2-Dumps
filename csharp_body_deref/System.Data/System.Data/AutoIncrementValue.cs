@@ -17,14 +17,14 @@ internal abstract class AutoIncrementValue
 	internal bool Auto
 	{
 		[Token(Token = "0x600007E")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x5E6AEE0", Offset = "0x5E69EE0", VA = "0x5E6AEE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x5E6AEF0", Offset = "0x5E69EF0", VA = "0x5E6AEF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -75,14 +75,14 @@ internal abstract class AutoIncrementValue
 	internal abstract void MoveAfter();
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x24C1C20", Offset = "0x24C0220", VA = "0x1824C1C20")]
+	[Address(RVA = "0x5E69A10", Offset = "0x5E68A10", VA = "0x5E69A10")]
 	internal AutoIncrementValue Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5E6AF00", Offset = "0x5E69F00", VA = "0x5E6AF00")]
 	protected AutoIncrementValue()
 	{
 	}

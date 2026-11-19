@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeConstantRuntimeResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,32 +34,32 @@ internal static class ProbeVolumeConstantRuntimeResources
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000A9A")]
-	[Address(RVA = "0x2B18AC0", Offset = "0x2B170C0", VA = "0x182B18AC0")]
+	[Address(RVA = "0x650D3A0", Offset = "0x650C3A0", VA = "0x650D3A0")]
 	internal static void GetRuntimeResources(ref ProbeReferenceVolume.RuntimeResources rr)
 	{
 	}
 
 	[Token(Token = "0x6000A9B")]
-	[Address(RVA = "0x2B18B90", Offset = "0x2B17190", VA = "0x182B18B90")]
+	[Address(RVA = "0x650D420", Offset = "0x650C420", VA = "0x650D420")]
 	internal static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000A9C")]
-	[Address(RVA = "0x2B18B40", Offset = "0x2B17140", VA = "0x182B18B40")]
+	[Address(RVA = "0x650D880", Offset = "0x650C880", VA = "0x650D880")]
 	public static Vector3[] GetSkySamplingDirections()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A9D")]
-	[Address(RVA = "0x2B18780", Offset = "0x2B16D80", VA = "0x182B18780")]
+	[Address(RVA = "0x650D8F0", Offset = "0x650C8F0", VA = "0x650D8F0")]
 	internal static void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x2B18870", Offset = "0x2B16E70", VA = "0x182B18870")]
+	[Address(RVA = "0x650D620", Offset = "0x650C620", VA = "0x650D620")]
 	private static Vector3[] GenerateSkyDirections()
 	{
 		return null;

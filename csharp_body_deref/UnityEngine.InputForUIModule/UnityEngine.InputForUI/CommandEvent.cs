@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.CommandEvent
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -90,7 +90,7 @@ internal struct CommandEvent : IEventProperties
 	public DiscreteTime timestamp
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
+		[Address(RVA = "0x69B3720", Offset = "0x69B2720", VA = "0x69B3720")]
 		[CompilerGenerated]
 		set
 		{
@@ -101,14 +101,14 @@ internal struct CommandEvent : IEventProperties
 	public EventSource eventSource
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x69B3730", Offset = "0x69B2730", VA = "0x69B3730", Slot = "4")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventSource);
 		}
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x69B3740", Offset = "0x69B2740", VA = "0x69B3740")]
 		[CompilerGenerated]
 		set
 		{
@@ -119,7 +119,7 @@ internal struct CommandEvent : IEventProperties
 	public uint playerId
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x69B3750", Offset = "0x69B2750", VA = "0x69B3750")]
 		[CompilerGenerated]
 		set
 		{
@@ -130,14 +130,14 @@ internal struct CommandEvent : IEventProperties
 	public EventModifiers eventModifiers
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "5")]
+		[Address(RVA = "0x69B3760", Offset = "0x69B2760", VA = "0x69B3760", Slot = "5")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(EventModifiers);
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x69B3770", Offset = "0x69B2770", VA = "0x69B3770")]
 		[CompilerGenerated]
 		set
 		{
@@ -145,7 +145,7 @@ internal struct CommandEvent : IEventProperties
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2FB9EA0", Offset = "0x2FB84A0", VA = "0x182FB9EA0", Slot = "3")]
+	[Address(RVA = "0x69B3780", Offset = "0x69B2780", VA = "0x69B3780", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

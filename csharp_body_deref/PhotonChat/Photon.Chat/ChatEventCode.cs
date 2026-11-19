@@ -46,7 +46,7 @@ public class ChatEventCode
 	public const byte ErrorInfo = 10;
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56A56F0", Offset = "0x56A46F0", VA = "0x56A56F0")]
 	public ChatEventCode()
 	{
 	}

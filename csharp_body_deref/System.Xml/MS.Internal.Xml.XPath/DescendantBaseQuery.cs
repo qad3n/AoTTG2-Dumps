@@ -14,21 +14,21 @@ namespace MS.Internal.Xml.XPath;
 internal abstract class DescendantBaseQuery : BaseAxisQuery
 {
 	[Token(Token = "0x4000E1D")]
-	[FieldOffset(Offset = "0x58")]
+	[FieldOffset(Offset = "0x54")]
 	protected bool matchSelf;
 
 	[Token(Token = "0x4000E1E")]
-	[FieldOffset(Offset = "0x59")]
+	[FieldOffset(Offset = "0x55")]
 	protected bool abbrAxis;
 
 	[Token(Token = "0x6001AC0")]
-	[Address(RVA = "0x26B6FF0", Offset = "0x26B55F0", VA = "0x1826B6FF0")]
+	[Address(RVA = "0x607F760", Offset = "0x607E760", VA = "0x607F760")]
 	public DescendantBaseQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis)
 	{
 	}
 
 	[Token(Token = "0x6001AC1")]
-	[Address(RVA = "0x26B70B0", Offset = "0x26B56B0", VA = "0x1826B70B0")]
+	[Address(RVA = "0x607F790", Offset = "0x607E790", VA = "0x607F790")]
 	public DescendantBaseQuery(DescendantBaseQuery other)
 	{
 	}

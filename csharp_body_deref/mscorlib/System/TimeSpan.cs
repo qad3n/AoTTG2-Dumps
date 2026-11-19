@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200013F")]
+[Token(Token = "0x2000117")]
 public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan>, IFormattable, System.ISpanFormattable
 {
-	[Token(Token = "0x4000453")]
+	[Token(Token = "0x40003AE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly TimeSpan Zero;
 
-	[Token(Token = "0x4000454")]
+	[Token(Token = "0x40003AF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public static readonly TimeSpan MaxValue;
 
-	[Token(Token = "0x4000455")]
+	[Token(Token = "0x40003B0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public static readonly TimeSpan MinValue;
 
-	[Token(Token = "0x4000456")]
+	[Token(Token = "0x40003B1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal readonly long _ticks;
 
 	[Token(Token = "0x170000AF")]
 	public long Ticks
 	{
-		[Token(Token = "0x6000A76")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6000A52")]
+		[Address(RVA = "0x54D6170", Offset = "0x54D5170", VA = "0x54D6170")]
 		get
 		{
 			return default(long);
@@ -44,8 +44,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B0")]
 	public int Days
 	{
-		[Token(Token = "0x6000A77")]
-		[Address(RVA = "0x1B4FA90", Offset = "0x1B4E090", VA = "0x181B4FA90")]
+		[Token(Token = "0x6000A53")]
+		[Address(RVA = "0x54D6180", Offset = "0x54D5180", VA = "0x54D6180")]
 		get
 		{
 			return default(int);
@@ -55,8 +55,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B1")]
 	public int Hours
 	{
-		[Token(Token = "0x6000A78")]
-		[Address(RVA = "0x1B4FAB0", Offset = "0x1B4E0B0", VA = "0x181B4FAB0")]
+		[Token(Token = "0x6000A54")]
+		[Address(RVA = "0x54D61B0", Offset = "0x54D51B0", VA = "0x54D61B0")]
 		get
 		{
 			return default(int);
@@ -66,8 +66,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B2")]
 	public int Milliseconds
 	{
-		[Token(Token = "0x6000A79")]
-		[Address(RVA = "0x1B4FAF0", Offset = "0x1B4E0F0", VA = "0x181B4FAF0")]
+		[Token(Token = "0x6000A55")]
+		[Address(RVA = "0x54D61F0", Offset = "0x54D51F0", VA = "0x54D61F0")]
 		get
 		{
 			return default(int);
@@ -77,8 +77,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B3")]
 	public int Minutes
 	{
-		[Token(Token = "0x6000A7A")]
-		[Address(RVA = "0x1B4FB40", Offset = "0x1B4E140", VA = "0x181B4FB40")]
+		[Token(Token = "0x6000A56")]
+		[Address(RVA = "0x54D6240", Offset = "0x54D5240", VA = "0x54D6240")]
 		get
 		{
 			return default(int);
@@ -88,8 +88,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B4")]
 	public int Seconds
 	{
-		[Token(Token = "0x6000A7B")]
-		[Address(RVA = "0x1B4FB90", Offset = "0x1B4E190", VA = "0x181B4FB90")]
+		[Token(Token = "0x6000A57")]
+		[Address(RVA = "0x54D6290", Offset = "0x54D5290", VA = "0x54D6290")]
 		get
 		{
 			return default(int);
@@ -99,8 +99,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B5")]
 	public double TotalDays
 	{
-		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x1B4FBE0", Offset = "0x1B4E1E0", VA = "0x181B4FBE0")]
+		[Token(Token = "0x6000A58")]
+		[Address(RVA = "0x54D62E0", Offset = "0x54D52E0", VA = "0x54D62E0")]
 		get
 		{
 			return default(double);
@@ -110,8 +110,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B6")]
 	public double TotalHours
 	{
-		[Token(Token = "0x6000A7D")]
-		[Address(RVA = "0x1B4FC00", Offset = "0x1B4E200", VA = "0x181B4FC00")]
+		[Token(Token = "0x6000A59")]
+		[Address(RVA = "0x54D62F0", Offset = "0x54D52F0", VA = "0x54D62F0")]
 		get
 		{
 			return default(double);
@@ -121,8 +121,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B7")]
 	public double TotalMilliseconds
 	{
-		[Token(Token = "0x6000A7E")]
-		[Address(RVA = "0x1B4FC20", Offset = "0x1B4E220", VA = "0x181B4FC20")]
+		[Token(Token = "0x6000A5A")]
+		[Address(RVA = "0x54D6300", Offset = "0x54D5300", VA = "0x54D6300")]
 		get
 		{
 			return default(double);
@@ -132,8 +132,8 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B8")]
 	public double TotalMinutes
 	{
-		[Token(Token = "0x6000A7F")]
-		[Address(RVA = "0x1B4FC50", Offset = "0x1B4E250", VA = "0x181B4FC50")]
+		[Token(Token = "0x6000A5B")]
+		[Address(RVA = "0x54D6340", Offset = "0x54D5340", VA = "0x54D6340")]
 		get
 		{
 			return default(double);
@@ -143,251 +143,265 @@ public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable
 	[Token(Token = "0x170000B9")]
 	public double TotalSeconds
 	{
-		[Token(Token = "0x6000A80")]
-		[Address(RVA = "0x1B4FC70", Offset = "0x1B4E270", VA = "0x181B4FC70")]
+		[Token(Token = "0x6000A5C")]
+		[Address(RVA = "0x54D6350", Offset = "0x54D5350", VA = "0x54D6350")]
 		get
 		{
 			return default(double);
 		}
 	}
 
-	[Token(Token = "0x6000A73")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x6000A4F")]
+	[Address(RVA = "0x54D5F40", Offset = "0x54D4F40", VA = "0x54D5F40")]
 	public TimeSpan(long ticks)
 	{
 	}
 
-	[Token(Token = "0x6000A74")]
-	[Address(RVA = "0x1B4F9C0", Offset = "0x1B4DFC0", VA = "0x181B4F9C0")]
+	[Token(Token = "0x6000A50")]
+	[Address(RVA = "0x54D5F50", Offset = "0x54D4F50", VA = "0x54D5F50")]
 	public TimeSpan(int hours, int minutes, int seconds)
 	{
 	}
 
-	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x1B4F900", Offset = "0x1B4DF00", VA = "0x181B4F900")]
+	[Token(Token = "0x6000A51")]
+	[Address(RVA = "0x54D60C0", Offset = "0x54D50C0", VA = "0x54D60C0")]
 	public TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds)
 	{
 	}
 
-	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x1B4EE70", Offset = "0x1B4D470", VA = "0x181B4EE70")]
+	[Token(Token = "0x6000A5D")]
+	[Address(RVA = "0x54D6360", Offset = "0x54D5360", VA = "0x54D6360")]
 	public TimeSpan Add(TimeSpan ts)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x1B4F000", Offset = "0x1B4D600", VA = "0x181B4F000")]
+	[Token(Token = "0x6000A5E")]
+	[Address(RVA = "0x54D63C0", Offset = "0x54D53C0", VA = "0x54D63C0")]
 	public static int Compare(TimeSpan t1, TimeSpan t2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x1B4EF20", Offset = "0x1B4D520", VA = "0x181B4EF20", Slot = "4")]
+	[Token(Token = "0x6000A5F")]
+	[Address(RVA = "0x54D63E0", Offset = "0x54D53E0", VA = "0x54D63E0", Slot = "4")]
 	public int CompareTo(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A84")]
-	[Address(RVA = "0x1B4EF00", Offset = "0x1B4D500", VA = "0x181B4EF00", Slot = "5")]
+	[Token(Token = "0x6000A60")]
+	[Address(RVA = "0x54D6490", Offset = "0x54D5490", VA = "0x54D6490", Slot = "5")]
 	public int CompareTo(TimeSpan value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A85")]
-	[Address(RVA = "0x1B4F0B0", Offset = "0x1B4D6B0", VA = "0x181B4F0B0")]
+	[Token(Token = "0x6000A61")]
+	[Address(RVA = "0x54D64B0", Offset = "0x54D54B0", VA = "0x54D64B0")]
 	public static TimeSpan FromDays(double value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0x1B4F020", Offset = "0x1B4D620", VA = "0x181B4F020", Slot = "0")]
+	[Token(Token = "0x6000A62")]
+	[Address(RVA = "0x54D6620", Offset = "0x54D5620", VA = "0x54D6620", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0x187DED0", Offset = "0x187C4D0", VA = "0x18187DED0", Slot = "6")]
+	[Token(Token = "0x6000A63")]
+	[Address(RVA = "0x54D6680", Offset = "0x54D5680", VA = "0x54D6680", Slot = "6")]
 	public bool Equals(TimeSpan obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x1B2A110", Offset = "0x1B28710", VA = "0x181B2A110", Slot = "2")]
+	[Token(Token = "0x6000A64")]
+	[Address(RVA = "0x54D6690", Offset = "0x54D5690", VA = "0x54D6690", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x1B4F110", Offset = "0x1B4D710", VA = "0x181B4F110")]
+	[Token(Token = "0x6000A65")]
+	[Address(RVA = "0x54D66A0", Offset = "0x54D56A0", VA = "0x54D66A0")]
 	public static TimeSpan FromHours(double value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x1B4F290", Offset = "0x1B4D890", VA = "0x181B4F290")]
+	[Token(Token = "0x6000A66")]
+	[Address(RVA = "0x54D6530", Offset = "0x54D5530", VA = "0x54D6530")]
 	private static TimeSpan Interval(double value, int scale)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x1B4F170", Offset = "0x1B4D770", VA = "0x181B4F170")]
+	[Token(Token = "0x6000A67")]
+	[Address(RVA = "0x54D6720", Offset = "0x54D5720", VA = "0x54D6720")]
 	public static TimeSpan FromMilliseconds(double value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x1B4F1D0", Offset = "0x1B4D7D0", VA = "0x181B4F1D0")]
+	[Token(Token = "0x6000A68")]
+	[Address(RVA = "0x54D67A0", Offset = "0x54D57A0", VA = "0x54D67A0")]
 	public static TimeSpan FromMinutes(double value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x1B4F3A0", Offset = "0x1B4D9A0", VA = "0x181B4F3A0")]
+	[Token(Token = "0x6000A69")]
+	[Address(RVA = "0x54D6820", Offset = "0x54D5820", VA = "0x54D6820")]
 	public TimeSpan Negate()
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8E")]
-	[Address(RVA = "0x1B4F230", Offset = "0x1B4D830", VA = "0x181B4F230")]
+	[Token(Token = "0x6000A6A")]
+	[Address(RVA = "0x54D68F0", Offset = "0x54D58F0", VA = "0x54D68F0")]
 	public static TimeSpan FromSeconds(double value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A8F")]
-	[Address(RVA = "0x1B4F560", Offset = "0x1B4DB60", VA = "0x181B4F560")]
+	[Token(Token = "0x6000A6B")]
+	[Address(RVA = "0x54D6970", Offset = "0x54D5970", VA = "0x54D6970")]
 	public TimeSpan Subtract(TimeSpan ts)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A90")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Token(Token = "0x6000A6C")]
+	[Address(RVA = "0x54D69D0", Offset = "0x54D59D0", VA = "0x54D69D0")]
 	public static TimeSpan FromTicks(long value)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A91")]
-	[Address(RVA = "0x1B4F5F0", Offset = "0x1B4DBF0", VA = "0x181B4F5F0")]
+	[Token(Token = "0x6000A6D")]
+	[Address(RVA = "0x54D6030", Offset = "0x54D5030", VA = "0x54D6030")]
 	internal static long TimeToTicks(int hour, int minute, int second)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000A92")]
-	[Address(RVA = "0x1B4F4E0", Offset = "0x1B4DAE0", VA = "0x181B4F4E0")]
+	[Token(Token = "0x6000A6E")]
+	[Address(RVA = "0x54D69E0", Offset = "0x54D59E0", VA = "0x54D69E0")]
 	public static TimeSpan Parse(string s)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A93")]
-	[Address(RVA = "0x1B4F450", Offset = "0x1B4DA50", VA = "0x181B4F450")]
+	[Token(Token = "0x6000A6F")]
+	[Address(RVA = "0x54D6A50", Offset = "0x54D5A50", VA = "0x54D6A50")]
 	public static TimeSpan Parse(string input, IFormatProvider formatProvider)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A94")]
-	[Address(RVA = "0x1B4F7F0", Offset = "0x1B4DDF0", VA = "0x181B4F7F0")]
+	[Token(Token = "0x6000A70")]
+	[Address(RVA = "0x54D6AC0", Offset = "0x54D5AC0", VA = "0x54D6AC0")]
 	public static bool TryParse(string s, out TimeSpan result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A95")]
-	[Address(RVA = "0x1B4F690", Offset = "0x1B4DC90", VA = "0x181B4F690", Slot = "3")]
+	[Token(Token = "0x6000A71")]
+	[Address(RVA = "0x54D6B20", Offset = "0x54D5B20", VA = "0x54D6B20")]
+	public static bool TryParseExact(string input, string format, IFormatProvider formatProvider, out TimeSpan result)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000A72")]
+	[Address(RVA = "0x54D6BD0", Offset = "0x54D5BD0", VA = "0x54D6BD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0x1B4F6F0", Offset = "0x1B4DCF0", VA = "0x181B4F6F0", Slot = "7")]
+	[Token(Token = "0x6000A73")]
+	[Address(RVA = "0x54D6C20", Offset = "0x54D5C20", VA = "0x54D6C20")]
+	public string ToString(string format)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000A74")]
+	[Address(RVA = "0x54D6C80", Offset = "0x54D5C80", VA = "0x54D6C80", Slot = "7")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A97")]
-	[Address(RVA = "0x1B4F760", Offset = "0x1B4DD60", VA = "0x181B4F760", Slot = "8")]
+	[Token(Token = "0x6000A75")]
+	[Address(RVA = "0x54D6CE0", Offset = "0x54D5CE0", VA = "0x54D6CE0", Slot = "8")]
 	public bool TryFormat(Span<char> destination, out int charsWritten, [Optional] ReadOnlySpan<char> format, [Optional] IFormatProvider formatProvider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A98")]
-	[Address(RVA = "0x1B4FE50", Offset = "0x1B4E450", VA = "0x181B4FE50")]
+	[Token(Token = "0x6000A76")]
+	[Address(RVA = "0x54D6D70", Offset = "0x54D5D70", VA = "0x54D6D70")]
 	public static TimeSpan operator -(TimeSpan t)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A99")]
-	[Address(RVA = "0x1B4FD90", Offset = "0x1B4E390", VA = "0x181B4FD90")]
+	[Token(Token = "0x6000A77")]
+	[Address(RVA = "0x54D6E30", Offset = "0x54D5E30", VA = "0x54D6E30")]
 	public static TimeSpan operator -(TimeSpan t1, TimeSpan t2)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A9A")]
-	[Address(RVA = "0x1B4FC90", Offset = "0x1B4E290", VA = "0x181B4FC90")]
+	[Token(Token = "0x6000A78")]
+	[Address(RVA = "0x54D6EF0", Offset = "0x54D5EF0", VA = "0x54D6EF0")]
 	public static TimeSpan operator +(TimeSpan t1, TimeSpan t2)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6000A9B")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20")]
+	[Token(Token = "0x6000A79")]
+	[Address(RVA = "0x54D6FB0", Offset = "0x54D5FB0", VA = "0x54D6FB0")]
 	public static bool operator ==(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A9C")]
-	[Address(RVA = "0x5286D0", Offset = "0x526CD0", VA = "0x1805286D0")]
+	[Token(Token = "0x6000A7A")]
+	[Address(RVA = "0x54D6FC0", Offset = "0x54D5FC0", VA = "0x54D6FC0")]
 	public static bool operator !=(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A9D")]
-	[Address(RVA = "0x1B4FD80", Offset = "0x1B4E380", VA = "0x181B4FD80")]
+	[Token(Token = "0x6000A7B")]
+	[Address(RVA = "0x54D6FD0", Offset = "0x54D5FD0", VA = "0x54D6FD0")]
 	public static bool operator <(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x1B4FD70", Offset = "0x1B4E370", VA = "0x181B4FD70")]
+	[Token(Token = "0x6000A7C")]
+	[Address(RVA = "0x54D6FE0", Offset = "0x54D5FE0", VA = "0x54D6FE0")]
 	public static bool operator <=(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A9F")]
-	[Address(RVA = "0x1B4FD60", Offset = "0x1B4E360", VA = "0x181B4FD60")]
+	[Token(Token = "0x6000A7D")]
+	[Address(RVA = "0x54D6FF0", Offset = "0x54D5FF0", VA = "0x54D6FF0")]
 	public static bool operator >(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AA0")]
-	[Address(RVA = "0x1B4FD50", Offset = "0x1B4E350", VA = "0x181B4FD50")]
+	[Token(Token = "0x6000A7E")]
+	[Address(RVA = "0x54D7000", Offset = "0x54D6000", VA = "0x54D7000")]
 	public static bool operator >=(TimeSpan t1, TimeSpan t2)
 	{
 		return default(bool);

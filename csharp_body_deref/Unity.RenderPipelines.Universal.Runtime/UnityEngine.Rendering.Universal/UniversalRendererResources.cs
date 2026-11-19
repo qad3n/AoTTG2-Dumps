@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRendererResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -65,7 +65,7 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public int version
 	{
 		[Token(Token = "0x600083A")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667BF90", Offset = "0x667AF90", VA = "0x667BF90", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -76,7 +76,7 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x600083B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667BFA0", Offset = "0x667AFA0", VA = "0x667BFA0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -87,13 +87,13 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader copyDepthPS
 	{
 		[Token(Token = "0x600083C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667BFB0", Offset = "0x667AFB0", VA = "0x667BFB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600083D")]
-		[Address(RVA = "0x2C8EB80", Offset = "0x2C8D180", VA = "0x182C8EB80")]
+		[Address(RVA = "0x667BFC0", Offset = "0x667AFC0", VA = "0x667BFC0")]
 		set
 		{
 		}
@@ -103,13 +103,13 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader cameraMotionVector
 	{
 		[Token(Token = "0x600083E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667C020", Offset = "0x667B020", VA = "0x667C020")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600083F")]
-		[Address(RVA = "0x2C8EAA0", Offset = "0x2C8D0A0", VA = "0x182C8EAA0")]
+		[Address(RVA = "0x667C030", Offset = "0x667B030", VA = "0x667C030")]
 		set
 		{
 		}
@@ -119,13 +119,13 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader stencilDeferredPS
 	{
 		[Token(Token = "0x6000840")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x667C090", Offset = "0x667B090", VA = "0x667C090")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000841")]
-		[Address(RVA = "0x2C8EC60", Offset = "0x2C8D260", VA = "0x182C8EC60")]
+		[Address(RVA = "0x667C0A0", Offset = "0x667B0A0", VA = "0x667C0A0")]
 		set
 		{
 		}
@@ -135,13 +135,13 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader clusterDeferred
 	{
 		[Token(Token = "0x6000842")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x667C100", Offset = "0x667B100", VA = "0x667C100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000843")]
-		[Address(RVA = "0x2C8EB10", Offset = "0x2C8D110", VA = "0x182C8EB10")]
+		[Address(RVA = "0x667C110", Offset = "0x667B110", VA = "0x667C110")]
 		set
 		{
 		}
@@ -151,13 +151,13 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader stencilDitherMaskSeedPS
 	{
 		[Token(Token = "0x6000844")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x667C170", Offset = "0x667B170", VA = "0x667C170")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000845")]
-		[Address(RVA = "0x2C8ECD0", Offset = "0x2C8D2D0", VA = "0x182C8ECD0")]
+		[Address(RVA = "0x667C180", Offset = "0x667B180", VA = "0x667C180")]
 		set
 		{
 		}
@@ -167,20 +167,20 @@ public class UniversalRendererResources : IRenderPipelineResources, IRenderPipel
 	public Shader decalDBufferClear
 	{
 		[Token(Token = "0x6000846")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x667C1E0", Offset = "0x667B1E0", VA = "0x667C1E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000847")]
-		[Address(RVA = "0x2C8EBF0", Offset = "0x2C8D1F0", VA = "0x182C8EBF0")]
+		[Address(RVA = "0x667C1F0", Offset = "0x667B1F0", VA = "0x667C1F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000848")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667C250", Offset = "0x667B250", VA = "0x667C250")]
 	public UniversalRendererResources()
 	{
 	}

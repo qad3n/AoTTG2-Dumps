@@ -1,0 +1,166 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Button
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+using UnityEngine.EventSystems;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+
+namespace UnityEngine.UI;
+
+[Token(Token = "0x2000003")]
+[AddComponentMenu("UI (Canvas)/Button", 30)]
+[UnityEngine.UGUIHelpURL("Button")]
+public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISubmitHandler
+{
+	[Serializable]
+	[Token(Token = "0x2000004")]
+	public class ButtonClickedEvent : UnityEvent
+	{
+		[Token(Token = "0x6000013")]
+		[Address(RVA = "0x6A5D610", Offset = "0x6A5C610", VA = "0x6A5D610")]
+		public ButtonClickedEvent()
+		{
+		}
+	}
+
+	[Token(Token = "0x2000005")]
+	[CompilerGenerated]
+	private sealed class _003COnFinishSubmit_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		[Token(Token = "0x400000C")]
+		[FieldOffset(Offset = "0x10")]
+		private int _003C_003E1__state;
+
+		[Token(Token = "0x400000D")]
+		[FieldOffset(Offset = "0x18")]
+		private object _003C_003E2__current;
+
+		[Token(Token = "0x400000E")]
+		[FieldOffset(Offset = "0x20")]
+		public Button _003C_003E4__this;
+
+		[Token(Token = "0x400000F")]
+		[FieldOffset(Offset = "0x28")]
+		private float _003CfadeTime_003E5__2;
+
+		[Token(Token = "0x4000010")]
+		[FieldOffset(Offset = "0x2C")]
+		private float _003CelapsedTime_003E5__3;
+
+		[Token(Token = "0x17000007")]
+		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
+		{
+			[Token(Token = "0x6000017")]
+			[Address(RVA = "0x6A5DA60", Offset = "0x6A5CA60", VA = "0x6A5DA60", Slot = "4")]
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x17000008")]
+		private object System_002ECollections_002EIEnumerator_002ECurrent
+		{
+			[Token(Token = "0x6000019")]
+			[Address(RVA = "0x6A5DAB0", Offset = "0x6A5CAB0", VA = "0x6A5DAB0", Slot = "7")]
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x6000014")]
+		[Address(RVA = "0x6A5D910", Offset = "0x6A5C910", VA = "0x6A5D910")]
+		[DebuggerHidden]
+		public _003COnFinishSubmit_003Ed__9(int _003C_003E1__state)
+		{
+		}
+
+		[Token(Token = "0x6000015")]
+		[Address(RVA = "0x6A5D930", Offset = "0x6A5C930", VA = "0x6A5D930", Slot = "5")]
+		[DebuggerHidden]
+		private void System_002EIDisposable_002EDispose()
+		{
+		}
+
+		[Token(Token = "0x6000016")]
+		[Address(RVA = "0x6A5D940", Offset = "0x6A5C940", VA = "0x6A5D940", Slot = "6")]
+		private bool MoveNext()
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6000018")]
+		[Address(RVA = "0x6A5DA70", Offset = "0x6A5CA70", VA = "0x6A5DA70", Slot = "8")]
+		[DebuggerHidden]
+		private void System_002ECollections_002EIEnumerator_002EReset()
+		{
+		}
+	}
+
+	[Token(Token = "0x400000B")]
+	[FieldOffset(Offset = "0x100")]
+	[FormerlySerializedAs("onClick")]
+	[SerializeField]
+	private ButtonClickedEvent m_OnClick;
+
+	[Token(Token = "0x17000006")]
+	public ButtonClickedEvent onClick
+	{
+		[Token(Token = "0x600000D")]
+		[Address(RVA = "0x6A5D620", Offset = "0x6A5C620", VA = "0x6A5D620")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600000E")]
+		[Address(RVA = "0x6A5D630", Offset = "0x6A5C630", VA = "0x6A5D630")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x600000C")]
+	[Address(RVA = "0x6A5D580", Offset = "0x6A5C580", VA = "0x6A5D580")]
+	protected Button()
+	{
+	}
+
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x6A5D650", Offset = "0x6A5C650", VA = "0x6A5D650")]
+	private void Press()
+	{
+	}
+
+	[Token(Token = "0x6000010")]
+	[Address(RVA = "0x6A5D6D0", Offset = "0x6A5C6D0", VA = "0x6A5D6D0", Slot = "41")]
+	public virtual void OnPointerClick(PointerEventData eventData)
+	{
+	}
+
+	[Token(Token = "0x6000011")]
+	[Address(RVA = "0x6A5D760", Offset = "0x6A5C760", VA = "0x6A5D760", Slot = "42")]
+	public virtual void OnSubmit(BaseEventData eventData)
+	{
+	}
+
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x6A5D8A0", Offset = "0x6A5C8A0", VA = "0x6A5D8A0")]
+	[IteratorStateMachine(typeof(_003COnFinishSubmit_003Ed__9))]
+	private IEnumerator OnFinishSubmit()
+	{
+		return null;
+	}
+}

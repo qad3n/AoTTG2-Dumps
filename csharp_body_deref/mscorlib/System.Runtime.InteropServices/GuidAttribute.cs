@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000473")]
-[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
+[Token(Token = "0x200044C")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
 public sealed class GuidAttribute : Attribute
 {
-	[Token(Token = "0x40012B0")]
+	[Token(Token = "0x4001210")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal string _val;
 
-	[Token(Token = "0x6002241")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002217")]
+	[Address(RVA = "0x53C4B80", Offset = "0x53C3B80", VA = "0x53C4B80")]
 	public GuidAttribute(string guid)
 	{
 	}

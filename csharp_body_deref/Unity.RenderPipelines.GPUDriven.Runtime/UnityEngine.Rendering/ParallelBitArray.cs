@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ParallelBitArray
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ internal struct ParallelBitArray
 	public int Length
 	{
 		[Token(Token = "0x60003BD")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x65F18C0", Offset = "0x65F08C0", VA = "0x65F18C0")]
 		get
 		{
 			return default(int);
@@ -41,7 +41,7 @@ internal struct ParallelBitArray
 	public bool IsCreated
 	{
 		[Token(Token = "0x60003BE")]
-		[Address(RVA = "0x2BF8870", Offset = "0x2BF6E70", VA = "0x182BF8870")]
+		[Address(RVA = "0x65F18D0", Offset = "0x65F08D0", VA = "0x65F18D0")]
 		get
 		{
 			return default(bool);
@@ -49,91 +49,91 @@ internal struct ParallelBitArray
 	}
 
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x2BF87F0", Offset = "0x2BF6DF0", VA = "0x182BF87F0")]
+	[Address(RVA = "0x65F1900", Offset = "0x65F0900", VA = "0x65F1900")]
 	public ParallelBitArray(int length, Allocator allocator, NativeArrayOptions options = NativeArrayOptions.ClearMemory)
 	{
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x2BF81E0", Offset = "0x2BF67E0", VA = "0x182BF81E0")]
+	[Address(RVA = "0x65F1980", Offset = "0x65F0980", VA = "0x65F1980")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x2BF8230", Offset = "0x2BF6830", VA = "0x182BF8230")]
+	[Address(RVA = "0x65F19C0", Offset = "0x65F09C0", VA = "0x65F19C0")]
 	public void Dispose(JobHandle inputDeps)
 	{
 	}
 
 	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x2BF8560", Offset = "0x2BF6B60", VA = "0x182BF8560")]
+	[Address(RVA = "0x65F1A10", Offset = "0x65F0A10", VA = "0x65F1A10")]
 	public void Resize(int newLength)
 	{
 	}
 
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x2BF8730", Offset = "0x2BF6D30", VA = "0x182BF8730")]
+	[Address(RVA = "0x65E0B10", Offset = "0x65DFB10", VA = "0x65E0B10")]
 	public void Set(int index, bool value)
 	{
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x2BF8410", Offset = "0x2BF6A10", VA = "0x182BF8410")]
+	[Address(RVA = "0x65E0AB0", Offset = "0x65DFAB0", VA = "0x65E0AB0")]
 	public bool Get(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x2BF8370", Offset = "0x2BF6970", VA = "0x182BF8370")]
+	[Address(RVA = "0x65E10C0", Offset = "0x65E00C0", VA = "0x65E10C0")]
 	public ulong GetChunk(int chunk_index)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x2BF8720", Offset = "0x2BF6D20", VA = "0x182BF8720")]
+	[Address(RVA = "0x65E10D0", Offset = "0x65E00D0", VA = "0x65E10D0")]
 	public void SetChunk(int chunk_index, ulong chunk_bits)
 	{
 	}
 
 	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x2BF8500", Offset = "0x2BF6B00", VA = "0x182BF8500")]
+	[Address(RVA = "0x65F1BB0", Offset = "0x65F0BB0", VA = "0x65F1BB0")]
 	public ulong InterlockedReadChunk(int chunk_index)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x2BF8480", Offset = "0x2BF6A80", VA = "0x182BF8480")]
+	[Address(RVA = "0x65F1C00", Offset = "0x65F0C00", VA = "0x65F1C00")]
 	public void InterlockedOrChunk(int chunk_index, ulong chunk_bits)
 	{
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+	[Address(RVA = "0x65F1C80", Offset = "0x65F0C80", VA = "0x65F1C80")]
 	public int ChunkCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x2BF8380", Offset = "0x2BF6980", VA = "0x182BF8380")]
+	[Address(RVA = "0x65F1C90", Offset = "0x65F0C90", VA = "0x65F1C90")]
 	public ParallelBitArray GetSubArray(int length)
 	{
 		return default(ParallelBitArray);
 	}
 
 	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0xADC2D0", Offset = "0xADA8D0", VA = "0x180ADC2D0")]
+	[Address(RVA = "0x65F1D10", Offset = "0x65F0D10", VA = "0x65F1D10")]
 	public NativeArray<long> GetBitsArray()
 	{
 		return default(NativeArray<long>);
 	}
 
 	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x2BF8290", Offset = "0x2BF6890", VA = "0x182BF8290")]
+	[Address(RVA = "0x65F1D20", Offset = "0x65F0D20", VA = "0x65F1D20")]
 	public void FillZeroes(int length)
 	{
 	}

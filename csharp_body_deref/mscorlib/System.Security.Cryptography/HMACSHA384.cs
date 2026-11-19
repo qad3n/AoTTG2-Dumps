@@ -10,49 +10,49 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000313")]
+[Token(Token = "0x20002EC")]
 [ComVisible(true)]
 public class HMACSHA384 : HMAC
 {
-	[Token(Token = "0x4000D1E")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x4000C7E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x61")]
 	private bool m_useLegacyBlockSize;
 
-	[Token(Token = "0x170002A9")]
+	[Token(Token = "0x170002A8")]
 	private int BlockSize
 	{
-		[Token(Token = "0x6001998")]
-		[Address(RVA = "0x19A9030", Offset = "0x19A7630", VA = "0x1819A9030")]
+		[Token(Token = "0x6001975")]
+		[Address(RVA = "0x533CE90", Offset = "0x533BE90", VA = "0x533CE90")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002AA")]
+	[Token(Token = "0x170002A9")]
 	public bool ProduceLegacyHmacValues
 	{
-		[Token(Token = "0x6001999")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Token(Token = "0x6001976")]
+		[Address(RVA = "0x533CEA0", Offset = "0x533BEA0", VA = "0x533CEA0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600199A")]
-		[Address(RVA = "0x19A9050", Offset = "0x19A7650", VA = "0x1819A9050")]
+		[Token(Token = "0x6001977")]
+		[Address(RVA = "0x533CEB0", Offset = "0x533BEB0", VA = "0x533CEB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001996")]
-	[Address(RVA = "0x19A8DD0", Offset = "0x19A73D0", VA = "0x1819A8DD0")]
+	[Token(Token = "0x6001973")]
+	[Address(RVA = "0x533CD20", Offset = "0x533BD20", VA = "0x533CD20")]
 	public HMACSHA384()
 	{
 	}
 
-	[Token(Token = "0x6001997")]
-	[Address(RVA = "0x19A8F20", Offset = "0x19A7520", VA = "0x1819A8F20")]
+	[Token(Token = "0x6001974")]
+	[Address(RVA = "0x533CD70", Offset = "0x533BD70", VA = "0x533CD70")]
 	public HMACSHA384(byte[] key)
 	{
 	}

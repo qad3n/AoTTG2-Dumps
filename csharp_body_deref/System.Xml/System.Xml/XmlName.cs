@@ -45,7 +45,7 @@ internal class XmlName : IXmlSchemaInfo
 	public string LocalName
 	{
 		[Token(Token = "0x6000936")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x60DD760", Offset = "0x60DC760", VA = "0x60DD760")]
 		get
 		{
 			return null;
@@ -56,7 +56,7 @@ internal class XmlName : IXmlSchemaInfo
 	public string NamespaceURI
 	{
 		[Token(Token = "0x6000937")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x60DD770", Offset = "0x60DC770", VA = "0x60DD770")]
 		get
 		{
 			return null;
@@ -67,7 +67,7 @@ internal class XmlName : IXmlSchemaInfo
 	public string Prefix
 	{
 		[Token(Token = "0x6000938")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x60DD780", Offset = "0x60DC780", VA = "0x60DD780")]
 		get
 		{
 			return null;
@@ -78,7 +78,7 @@ internal class XmlName : IXmlSchemaInfo
 	public int HashCode
 	{
 		[Token(Token = "0x6000939")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x60DD790", Offset = "0x60DC790", VA = "0x60DD790")]
 		get
 		{
 			return default(int);
@@ -89,7 +89,7 @@ internal class XmlName : IXmlSchemaInfo
 	public XmlDocument OwnerDocument
 	{
 		[Token(Token = "0x600093A")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x60DD7A0", Offset = "0x60DC7A0", VA = "0x60DD7A0")]
 		get
 		{
 			return null;
@@ -100,7 +100,7 @@ internal class XmlName : IXmlSchemaInfo
 	public string Name
 	{
 		[Token(Token = "0x600093B")]
-		[Address(RVA = "0x2732400", Offset = "0x2730A00", VA = "0x182732400")]
+		[Address(RVA = "0x60D5920", Offset = "0x60D4920", VA = "0x60D5920")]
 		get
 		{
 			return null;
@@ -111,7 +111,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual XmlSchemaValidity Validity
 	{
 		[Token(Token = "0x600093C")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
+		[Address(RVA = "0x60DD7B0", Offset = "0x60DC7B0", VA = "0x60DD7B0", Slot = "11")]
 		get
 		{
 			return default(XmlSchemaValidity);
@@ -122,7 +122,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual bool IsDefault
 	{
 		[Token(Token = "0x600093D")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "12")]
+		[Address(RVA = "0x60DD7C0", Offset = "0x60DC7C0", VA = "0x60DD7C0", Slot = "12")]
 		get
 		{
 			return default(bool);
@@ -133,7 +133,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual bool IsNil
 	{
 		[Token(Token = "0x600093E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Address(RVA = "0x60DD7D0", Offset = "0x60DC7D0", VA = "0x60DD7D0", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -144,7 +144,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual XmlSchemaSimpleType MemberType
 	{
 		[Token(Token = "0x600093F")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
+		[Address(RVA = "0x60DD7E0", Offset = "0x60DC7E0", VA = "0x60DD7E0", Slot = "14")]
 		get
 		{
 			return null;
@@ -155,7 +155,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual XmlSchemaType SchemaType
 	{
 		[Token(Token = "0x6000940")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "15")]
+		[Address(RVA = "0x60DD7F0", Offset = "0x60DC7F0", VA = "0x60DD7F0", Slot = "15")]
 		get
 		{
 			return null;
@@ -166,7 +166,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual XmlSchemaElement SchemaElement
 	{
 		[Token(Token = "0x6000941")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "16")]
+		[Address(RVA = "0x60DD800", Offset = "0x60DC800", VA = "0x60DD800", Slot = "16")]
 		get
 		{
 			return null;
@@ -177,7 +177,7 @@ internal class XmlName : IXmlSchemaInfo
 	public virtual XmlSchemaAttribute SchemaAttribute
 	{
 		[Token(Token = "0x6000942")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "17")]
+		[Address(RVA = "0x60DD810", Offset = "0x60DC810", VA = "0x60DD810", Slot = "17")]
 		get
 		{
 			return null;
@@ -185,27 +185,27 @@ internal class XmlName : IXmlSchemaInfo
 	}
 
 	[Token(Token = "0x6000934")]
-	[Address(RVA = "0x27321E0", Offset = "0x27307E0", VA = "0x1827321E0")]
+	[Address(RVA = "0x60DD0C0", Offset = "0x60DC0C0", VA = "0x60DD0C0")]
 	public static XmlName Create(string prefix, string localName, string ns, int hashCode, XmlDocument ownerDoc, XmlName next, IXmlSchemaInfo schemaInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000935")]
-	[Address(RVA = "0x2732360", Offset = "0x2730960", VA = "0x182732360")]
+	[Address(RVA = "0x60DD1F0", Offset = "0x60DC1F0", VA = "0x60DD1F0")]
 	internal XmlName(string prefix, string localName, string ns, int hashCode, XmlDocument ownerDoc, XmlName next)
 	{
 	}
 
 	[Token(Token = "0x6000943")]
-	[Address(RVA = "0x8ED100", Offset = "0x8EB700", VA = "0x1808ED100", Slot = "18")]
+	[Address(RVA = "0x60DD820", Offset = "0x60DC820", VA = "0x60DD820", Slot = "18")]
 	public virtual bool Equals(IXmlSchemaInfo schemaInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000944")]
-	[Address(RVA = "0x27322F0", Offset = "0x27308F0", VA = "0x1827322F0")]
+	[Address(RVA = "0x60DD830", Offset = "0x60DC830", VA = "0x60DD830")]
 	public static int GetHashCode(string name)
 	{
 		return default(int);

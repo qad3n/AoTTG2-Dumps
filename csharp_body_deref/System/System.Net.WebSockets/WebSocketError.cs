@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003C3")]
+[Token(Token = "0x200037F")]
 public enum WebSocketError
 {
-	[Token(Token = "0x40010AC")]
+	[Token(Token = "0x4000FC4")]
 	Success,
-	[Token(Token = "0x40010AD")]
+	[Token(Token = "0x4000FC5")]
 	InvalidMessageType,
-	[Token(Token = "0x40010AE")]
+	[Token(Token = "0x4000FC6")]
 	Faulted,
-	[Token(Token = "0x40010AF")]
+	[Token(Token = "0x4000FC7")]
 	NativeError,
-	[Token(Token = "0x40010B0")]
+	[Token(Token = "0x4000FC8")]
 	NotAWebSocket,
-	[Token(Token = "0x40010B1")]
+	[Token(Token = "0x4000FC9")]
 	UnsupportedVersion,
-	[Token(Token = "0x40010B2")]
+	[Token(Token = "0x4000FCA")]
 	UnsupportedProtocol,
-	[Token(Token = "0x40010B3")]
+	[Token(Token = "0x4000FCB")]
 	HeaderError,
-	[Token(Token = "0x40010B4")]
+	[Token(Token = "0x4000FCC")]
 	ConnectionClosedPrematurely,
-	[Token(Token = "0x40010B5")]
+	[Token(Token = "0x4000FCD")]
 	InvalidState
 }

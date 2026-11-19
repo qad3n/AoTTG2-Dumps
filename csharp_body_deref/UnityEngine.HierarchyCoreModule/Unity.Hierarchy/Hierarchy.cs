@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.Hierarchy
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,7 +27,7 @@ public sealed class Hierarchy : IDisposable
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x6973050", Offset = "0x6972050", VA = "0x6973050")]
 		public static IntPtr ConvertToUnmanaged(Hierarchy hierarchy)
 		{
 			return default(IntPtr);
@@ -64,7 +64,7 @@ public sealed class Hierarchy : IDisposable
 	public bool IsCreated
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x2F7D790", Offset = "0x2F7BD90", VA = "0x182F7D790")]
+		[Address(RVA = "0x6971DF0", Offset = "0x6970DF0", VA = "0x6971DF0")]
 		get
 		{
 			return default(bool);
@@ -76,7 +76,7 @@ public sealed class Hierarchy : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x2F82C30", Offset = "0x2F81230", VA = "0x182F82C30")]
+		[Address(RVA = "0x6971E00", Offset = "0x6970E00", VA = "0x6971E00")]
 		get
 		{
 			return ref *(HierarchyNode*)null;
@@ -87,7 +87,7 @@ public sealed class Hierarchy : IDisposable
 	public bool UpdateNeeded
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2F82C80", Offset = "0x2F81280", VA = "0x182F82C80")]
+		[Address(RVA = "0x6971E10", Offset = "0x6970E10", VA = "0x6971E10")]
 		[UnityEngine.Bindings.NativeMethod("UpdateNeeded", IsThreadSafe = true)]
 		get
 		{
@@ -100,7 +100,7 @@ public sealed class Hierarchy : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x2F82CE0", Offset = "0x2F812E0", VA = "0x182F82CE0")]
+		[Address(RVA = "0x6971EA0", Offset = "0x6970EA0", VA = "0x6971EA0")]
 		get
 		{
 			return default(int);
@@ -108,44 +108,44 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x2F82B60", Offset = "0x2F81160", VA = "0x182F82B60")]
+	[Address(RVA = "0x6971EB0", Offset = "0x6970EB0", VA = "0x6971EB0")]
 	public Hierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x2F82BF0", Offset = "0x2F811F0", VA = "0x182F82BF0")]
+	[Address(RVA = "0x6971F80", Offset = "0x6970F80", VA = "0x6971F80")]
 	private Hierarchy(IntPtr nativePtr, IntPtr rootPtr, IntPtr versionPtr)
 	{
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2F81DD0", Offset = "0x2F803D0", VA = "0x182F81DD0", Slot = "1")]
+	[Address(RVA = "0x6971FC0", Offset = "0x6970FC0", VA = "0x6971FC0", Slot = "1")]
 	~Hierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x2F81B40", Offset = "0x2F80140", VA = "0x182F81B40", Slot = "4")]
+	[Address(RVA = "0x69720D0", Offset = "0x69710D0", VA = "0x69720D0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2F81AE0", Offset = "0x2F800E0", VA = "0x182F81AE0")]
+	[Address(RVA = "0x6972080", Offset = "0x6971080", VA = "0x6972080")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x1BB49C0", Offset = "0x1BB2FC0", VA = "0x181BB49C0")]
+	[Address(RVA = "0x6972190", Offset = "0x6971190", VA = "0x6972190")]
 	public HierarchyNodeTypeHandlerBaseEnumerable EnumerateNodeTypeHandlersBase()
 	{
 		return default(HierarchyNodeTypeHandlerBaseEnumerable);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2F81D70", Offset = "0x2F80370", VA = "0x182F81D70")]
+	[Address(RVA = "0x69721B0", Offset = "0x69711B0", VA = "0x69721B0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public bool Exists(in HierarchyNode node)
 	{
@@ -153,20 +153,20 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2F81950", Offset = "0x2F7FF50", VA = "0x182F81950")]
+	[Address(RVA = "0x6972250", Offset = "0x6971250", VA = "0x6972250")]
 	public HierarchyNode Add(in HierarchyNode parent)
 	{
 		return default(HierarchyNode);
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2F82800", Offset = "0x2F80E00", VA = "0x182F82800")]
+	[Address(RVA = "0x6972330", Offset = "0x6971330", VA = "0x6972330")]
 	public void SetParent(in HierarchyNode node, in HierarchyNode parent)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2F825D0", Offset = "0x2F80BD0", VA = "0x182F825D0")]
+	[Address(RVA = "0x6972410", Offset = "0x6971410", VA = "0x6972410")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public HierarchyNode GetParent(in HierarchyNode node)
 	{
@@ -174,7 +174,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2F82050", Offset = "0x2F80650", VA = "0x182F82050")]
+	[Address(RVA = "0x69724C0", Offset = "0x69714C0", VA = "0x69724C0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public HierarchyNode[] GetChildren(in HierarchyNode node)
 	{
@@ -182,14 +182,14 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2F81C80", Offset = "0x2F80280", VA = "0x182F81C80")]
+	[Address(RVA = "0x6972630", Offset = "0x6971630", VA = "0x6972630")]
 	public HierarchyNodeChildren EnumerateChildren(in HierarchyNode node)
 	{
 		return default(HierarchyNodeChildren);
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2F81F90", Offset = "0x2F80590", VA = "0x182F81F90")]
+	[Address(RVA = "0x6972730", Offset = "0x6971730", VA = "0x6972730")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public int GetChildrenCount(in HierarchyNode node)
 	{
@@ -197,14 +197,14 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x2F829A0", Offset = "0x2F80FA0", VA = "0x182F829A0")]
+	[Address(RVA = "0x69727D0", Offset = "0x69717D0", VA = "0x69727D0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public void SetSortIndex(in HierarchyNode node, int sortIndex)
 	{
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x2F82A60", Offset = "0x2F81060", VA = "0x182F82A60")]
+	[Address(RVA = "0x6972870", Offset = "0x6971870", VA = "0x6972870")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public void SortChildren(in HierarchyNode node)
 	{
@@ -217,7 +217,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x2F82B00", Offset = "0x2F81100", VA = "0x182F82B00")]
+	[Address(RVA = "0x6972910", Offset = "0x6971910", VA = "0x6972910")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	public void Update()
 	{
@@ -225,7 +225,7 @@ public sealed class Hierarchy : IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x2F81E70", Offset = "0x2F80470", VA = "0x182F81E70")]
+	[Address(RVA = "0x69729A0", Offset = "0x69719A0", VA = "0x69729A0")]
 	internal static Hierarchy FromIntPtr(IntPtr handlePtr)
 	{
 		return null;
@@ -233,18 +233,18 @@ public sealed class Hierarchy : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x2F81A40", Offset = "0x2F80040", VA = "0x182F81A40")]
+	[Address(RVA = "0x6971F40", Offset = "0x6970F40", VA = "0x6971F40")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::Create", IsThreadSafe = true)]
 	private static extern IntPtr Create(IntPtr handlePtr, out IntPtr rootPtr, out IntPtr versionPtr);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x2F81AA0", Offset = "0x2F800A0", VA = "0x182F81AA0")]
+	[Address(RVA = "0x6972160", Offset = "0x6971160", VA = "0x6972160")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::Destroy", IsThreadSafe = true)]
 	private static extern void Destroy(IntPtr nativePtr);
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x2F82190", Offset = "0x2F80790", VA = "0x182F82190")]
+	[Address(RVA = "0x6971550", Offset = "0x6970550", VA = "0x6971550")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.HierarchyModule" })]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::GetNodeTypeHandlersBaseCount", HasExplicitThis = true, IsThreadSafe = true)]
 	internal int GetNodeTypeHandlersBaseCount()
@@ -253,7 +253,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x2F82240", Offset = "0x2F80840", VA = "0x182F82240")]
+	[Address(RVA = "0x69715B0", Offset = "0x69705B0", VA = "0x69715B0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::GetNodeTypeHandlersBaseSpan", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.HierarchyModule" })]
 	internal int GetNodeTypeHandlersBaseSpan(Span<IntPtr> outHandlers)
@@ -262,7 +262,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x2F81950", Offset = "0x2F7FF50", VA = "0x182F81950")]
+	[Address(RVA = "0x69722C0", Offset = "0x69712C0", VA = "0x69722C0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::AddNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private HierarchyNode AddNode(in HierarchyNode parent)
 	{
@@ -270,14 +270,14 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x2F82800", Offset = "0x2F80E00", VA = "0x182F82800")]
+	[Address(RVA = "0x69723A0", Offset = "0x69713A0", VA = "0x69723A0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::SetNodeParent", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void SetNodeParent(in HierarchyNode node, in HierarchyNode parent)
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x2F81C20", Offset = "0x2F80220", VA = "0x182F81C20")]
+	[Address(RVA = "0x69726D0", Offset = "0x69716D0", VA = "0x69726D0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::EnumerateChildrenPtr", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private IntPtr EnumerateChildrenPtr(in HierarchyNode node)
 	{
@@ -285,7 +285,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x2F82370", Offset = "0x2F80970", VA = "0x182F82370")]
+	[Address(RVA = "0x6972B90", Offset = "0x6971B90", VA = "0x6972B90")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::GetOrCreateProperty", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private HierarchyPropertyId GetOrCreateProperty(string name, in HierarchyPropertyDescriptor descriptor)
 	{
@@ -293,14 +293,14 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x2F828C0", Offset = "0x2F80EC0", VA = "0x182F828C0")]
+	[Address(RVA = "0x6972DA0", Offset = "0x6971DA0", VA = "0x6972DA0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::SetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	internal unsafe void SetPropertyRaw(in HierarchyPropertyId property, in HierarchyNode node, void* ptr, int size)
 	{
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x2F82690", Offset = "0x2F80C90", VA = "0x182F82690")]
+	[Address(RVA = "0x6972E70", Offset = "0x6971E70", VA = "0x6972E70")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyBindings::GetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	internal unsafe void* GetPropertyRaw(in HierarchyPropertyId property, in HierarchyNode node, out int size)
 	{
@@ -309,7 +309,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x2F819C0", Offset = "0x2F7FFC0", VA = "0x182F819C0")]
+	[Address(RVA = "0x6972F40", Offset = "0x6971F40", VA = "0x6972F40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static IntPtr CreateHierarchy(IntPtr nativePtr, IntPtr rootPtr, IntPtr versionPtr)
 	{
@@ -317,7 +317,7 @@ public sealed class Hierarchy : IDisposable
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x2F82710", Offset = "0x2F80D10", VA = "0x182F82710")]
+	[Address(RVA = "0x6972FC0", Offset = "0x6971FC0", VA = "0x6972FC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeHandlerCreated(IntPtr hierarchyPtr, IntPtr handlerPtr)
 	{
@@ -325,81 +325,81 @@ public sealed class Hierarchy : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x2F82C40", Offset = "0x2F81240", VA = "0x182F82C40")]
+	[Address(RVA = "0x6971E70", Offset = "0x6970E70", VA = "0x6971E70")]
 	private static extern bool get_UpdateNeeded_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2F81D20", Offset = "0x2F80320", VA = "0x182F81D20")]
+	[Address(RVA = "0x6972210", Offset = "0x6971210", VA = "0x6972210")]
 	private static extern bool Exists_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x2F82570", Offset = "0x2F80B70", VA = "0x182F82570")]
+	[Address(RVA = "0x6972480", Offset = "0x6971480", VA = "0x6972480")]
 	private static extern void GetParent_Injected(IntPtr _unity_self, in HierarchyNode node, out HierarchyNode ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x2F81FF0", Offset = "0x2F805F0", VA = "0x182F81FF0")]
+	[Address(RVA = "0x69725F0", Offset = "0x69715F0", VA = "0x69725F0")]
 	private static extern void GetChildren_Injected(IntPtr _unity_self, in HierarchyNode node, out UnityEngine.Bindings.BlittableArrayWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x2F81F40", Offset = "0x2F80540", VA = "0x182F81F40")]
+	[Address(RVA = "0x6972790", Offset = "0x6971790", VA = "0x6972790")]
 	private static extern int GetChildrenCount_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x2F82940", Offset = "0x2F80F40", VA = "0x182F82940")]
+	[Address(RVA = "0x6972830", Offset = "0x6971830", VA = "0x6972830")]
 	private static extern void SetSortIndex_Injected(IntPtr _unity_self, in HierarchyNode node, int sortIndex);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2F82A10", Offset = "0x2F81010", VA = "0x182F82A10")]
+	[Address(RVA = "0x69728D0", Offset = "0x69718D0", VA = "0x69728D0")]
 	private static extern void SortChildren_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x2F82AC0", Offset = "0x2F810C0", VA = "0x182F82AC0")]
+	[Address(RVA = "0x6972970", Offset = "0x6971970", VA = "0x6972970")]
 	private static extern void Update_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2F82150", Offset = "0x2F80750", VA = "0x182F82150")]
+	[Address(RVA = "0x6972A60", Offset = "0x6971A60", VA = "0x6972A60")]
 	private static extern int GetNodeTypeHandlersBaseCount_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2F821F0", Offset = "0x2F807F0", VA = "0x182F821F0")]
+	[Address(RVA = "0x6972A90", Offset = "0x6971A90", VA = "0x6972A90")]
 	private static extern int GetNodeTypeHandlersBaseSpan_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper outHandlers);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2F818F0", Offset = "0x2F7FEF0", VA = "0x182F818F0")]
+	[Address(RVA = "0x6972AD0", Offset = "0x6971AD0", VA = "0x6972AD0")]
 	private static extern void AddNode_Injected(IntPtr _unity_self, in HierarchyNode parent, out HierarchyNode ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2F827A0", Offset = "0x2F80DA0", VA = "0x182F827A0")]
+	[Address(RVA = "0x6972B10", Offset = "0x6971B10", VA = "0x6972B10")]
 	private static extern void SetNodeParent_Injected(IntPtr _unity_self, in HierarchyNode node, in HierarchyNode parent);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x2F81BD0", Offset = "0x2F801D0", VA = "0x182F81BD0")]
+	[Address(RVA = "0x6972B50", Offset = "0x6971B50", VA = "0x6972B50")]
 	private static extern IntPtr EnumerateChildrenPtr_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2F82320", Offset = "0x2F80920", VA = "0x182F82320")]
+	[Address(RVA = "0x6972D50", Offset = "0x6971D50", VA = "0x6972D50")]
 	private static extern void GetOrCreateProperty_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, in HierarchyPropertyDescriptor descriptor, out HierarchyPropertyId ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x2F82870", Offset = "0x2F80E70", VA = "0x182F82870")]
+	[Address(RVA = "0x6972E20", Offset = "0x6971E20", VA = "0x6972E20")]
 	private unsafe static extern void SetPropertyRaw_Injected(IntPtr _unity_self, in HierarchyPropertyId property, in HierarchyNode node, void* ptr, int size);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2F82640", Offset = "0x2F80C40", VA = "0x182F82640")]
+	[Address(RVA = "0x6972EF0", Offset = "0x6971EF0", VA = "0x6972EF0")]
 	private unsafe static extern void* GetPropertyRaw_Injected(IntPtr _unity_self, in HierarchyPropertyId property, in HierarchyNode node, out int size);
 }

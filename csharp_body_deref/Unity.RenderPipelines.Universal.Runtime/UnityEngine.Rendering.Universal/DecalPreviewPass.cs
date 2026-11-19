@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalPreviewPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,14 +22,14 @@ internal class DecalPreviewPass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x60002C8")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66117D0", Offset = "0x66107D0", VA = "0x66117D0")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x400022D")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	private FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x400022E")]
@@ -41,19 +41,19 @@ internal class DecalPreviewPass : ScriptableRenderPass
 	private ProfilingSampler m_ProfilingSampler;
 
 	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x2C24B70", Offset = "0x2C23170", VA = "0x182C24B70")]
+	[Address(RVA = "0x6610DC0", Offset = "0x660FDC0", VA = "0x6610DC0")]
 	public DecalPreviewPass()
 	{
 	}
 
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x2C24360", Offset = "0x2C22960", VA = "0x182C24360")]
+	[Address(RVA = "0x6610FE0", Offset = "0x660FFE0", VA = "0x6610FE0")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x2C243A0", Offset = "0x2C229A0", VA = "0x182C243A0", Slot = "11")]
+	[Address(RVA = "0x6611000", Offset = "0x6610000", VA = "0x6611000", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}

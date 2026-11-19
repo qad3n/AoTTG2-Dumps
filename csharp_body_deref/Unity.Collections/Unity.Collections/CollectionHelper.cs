@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.CollectionHelper
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public static class CollectionHelper
 	public struct DummyJob : IJob
 	{
 		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+		[Address(RVA = "0x635FFA0", Offset = "0x635EFA0", VA = "0x635FFA0", Slot = "4")]
 		public void Execute()
 		{
 		}
@@ -47,7 +47,7 @@ public static class CollectionHelper
 	public const int CacheLineSize = 64;
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x2997B10", Offset = "0x2996110", VA = "0x182997B10")]
+	[Address(RVA = "0x635F780", Offset = "0x635E780", VA = "0x635F780")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckAllocator(AllocatorManager.AllocatorHandle allocator)
@@ -55,42 +55,42 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x2998020", Offset = "0x2996620", VA = "0x182998020")]
+	[Address(RVA = "0x635F810", Offset = "0x635E810", VA = "0x635F810")]
 	public static int Log2Floor(int value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x2997FD0", Offset = "0x29965D0", VA = "0x182997FD0")]
+	[Address(RVA = "0x635F850", Offset = "0x635E850", VA = "0x635F850")]
 	public static int Log2Ceil(int value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x2997AB0", Offset = "0x29960B0", VA = "0x182997AB0")]
+	[Address(RVA = "0x635F890", Offset = "0x635E890", VA = "0x635F890")]
 	public static int Align(int size, int alignmentPowerOfTwo)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x2997AF0", Offset = "0x29960F0", VA = "0x182997AF0")]
+	[Address(RVA = "0x635F8B0", Offset = "0x635E8B0", VA = "0x635F8B0")]
 	public static long Align(long size, int alignmentPowerOfTwo)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x2997AD0", Offset = "0x29960D0", VA = "0x182997AD0")]
+	[Address(RVA = "0x635F8D0", Offset = "0x635E8D0", VA = "0x635F8D0")]
 	public static ulong Align(ulong size, ulong alignmentPowerOfTwo)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x2997A90", Offset = "0x2996090", VA = "0x182997A90")]
+	[Address(RVA = "0x635F8F0", Offset = "0x635E8F0", VA = "0x635F8F0")]
 	internal unsafe static void* AlignPointer(void* ptr, int alignmentPowerOfTwo)
 	{
 		//IL_0002: Expected I, but got O
@@ -98,42 +98,42 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x2997FB0", Offset = "0x29965B0", VA = "0x182997FB0")]
+	[Address(RVA = "0x635F910", Offset = "0x635E910", VA = "0x635F910")]
 	public unsafe static bool IsAligned(void* p, int alignmentPowerOfTwo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x2997FB0", Offset = "0x29965B0", VA = "0x182997FB0")]
+	[Address(RVA = "0x635F920", Offset = "0x635E920", VA = "0x635F920")]
 	public static bool IsAligned(ulong offset, int alignmentPowerOfTwo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x2997FC0", Offset = "0x29965C0", VA = "0x182997FC0")]
+	[Address(RVA = "0x635F930", Offset = "0x635E930", VA = "0x635F930")]
 	public static bool IsPowerOfTwo(int value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x2997F80", Offset = "0x2996580", VA = "0x182997F80")]
+	[Address(RVA = "0x635F940", Offset = "0x635E940", VA = "0x635F940")]
 	public unsafe static uint Hash(void* ptr, int bytes)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x29980A0", Offset = "0x29966A0", VA = "0x1829980A0")]
+	[Address(RVA = "0x635FA00", Offset = "0x635EA00", VA = "0x635FA00")]
 	[ExcludeFromBurstCompatTesting("Used only for debugging, and uses managed strings")]
 	internal static void WriteLayout(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x2998080", Offset = "0x2996680", VA = "0x182998080")]
+	[Address(RVA = "0x635F800", Offset = "0x635E800", VA = "0x635F800")]
 	internal static bool ShouldDeallocate(AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(bool);
@@ -141,7 +141,7 @@ public static class CollectionHelper
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x611500", Offset = "0x60FB00", VA = "0x180611500")]
+	[Address(RVA = "0x635FC30", Offset = "0x635EC30", VA = "0x635FC30")]
 	internal static int AssumePositive(int value)
 	{
 		return default(int);
@@ -156,7 +156,7 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x2997E40", Offset = "0x2996440", VA = "0x182997E40")]
+	[Address(RVA = "0x635FC40", Offset = "0x635EC40", VA = "0x635FC40")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckIntPositivePowerOfTwo(int value)
@@ -164,7 +164,7 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x2997EE0", Offset = "0x29964E0", VA = "0x182997EE0")]
+	[Address(RVA = "0x635FD00", Offset = "0x635ED00", VA = "0x635FD00")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckUlongPositivePowerOfTwo(ulong value)
@@ -173,7 +173,7 @@ public static class CollectionHelper
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x2997D90", Offset = "0x2996390", VA = "0x182997D90")]
+	[Address(RVA = "0x635FD90", Offset = "0x635ED90", VA = "0x635FD90")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckIndexInRange(int index, int length)
@@ -181,7 +181,7 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x2997BC0", Offset = "0x29961C0", VA = "0x182997BC0")]
+	[Address(RVA = "0x635FE30", Offset = "0x635EE30", VA = "0x635FE30")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckCapacityInRange(int capacity, int maxCapacity, int length)
@@ -189,7 +189,7 @@ public static class CollectionHelper
 	}
 
 	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x635FF90", Offset = "0x635EF90", VA = "0x635FF90")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckCapacityInRange(int capacity, int length)

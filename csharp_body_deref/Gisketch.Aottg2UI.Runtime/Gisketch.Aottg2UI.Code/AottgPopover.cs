@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200007E")]
+[Token(Token = "0x2000084")]
 public abstract class AottgPopover
 {
 	[Token(Token = "0x1700007D")]
 	protected virtual string RootStyle
 	{
-		[Token(Token = "0x60003BB")]
-		[Address(RVA = "0x18C6320", Offset = "0x18C4920", VA = "0x1818C6320", Slot = "4")]
+		[Token(Token = "0x6000407")]
+		[Address(RVA = "0x5266DB0", Offset = "0x5265DB0", VA = "0x5266DB0", Slot = "4")]
 		get
 		{
 			return null;
@@ -27,26 +27,26 @@ public abstract class AottgPopover
 	[Token(Token = "0x1700007E")]
 	protected virtual GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60003BC")]
-		[Address(RVA = "0x18C6220", Offset = "0x18C4820", VA = "0x1818C6220", Slot = "5")]
+		[Token(Token = "0x6000408")]
+		[Address(RVA = "0x5266DE0", Offset = "0x5265DE0", VA = "0x5266DE0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60003BD")]
+	[Token(Token = "0x6000409")]
 	protected abstract void Build(AottgUi ui);
 
-	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x18C6030", Offset = "0x18C4630", VA = "0x1818C6030")]
+	[Token(Token = "0x600040A")]
+	[Address(RVA = "0x5266F90", Offset = "0x5265F90", VA = "0x5266F90")]
 	internal GisketchOverlayDefinition BuildDefinition(string id, AottgPopoverAttribute attribute, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600040B")]
+	[Address(RVA = "0x5267280", Offset = "0x5266280", VA = "0x5267280")]
 	protected AottgPopover()
 	{
 	}

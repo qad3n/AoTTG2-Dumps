@@ -16,37 +16,48 @@ namespace System.Reflection;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000547")]
+[Token(Token = "0x2000520")]
 internal class RuntimeMethodInfo : MethodInfo, ISerializable
 {
-	[Token(Token = "0x400153E")]
+	[Token(Token = "0x400149E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal IntPtr mhandle;
 
-	[Token(Token = "0x400153F")]
+	[Token(Token = "0x400149F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string name;
 
-	[Token(Token = "0x4001540")]
+	[Token(Token = "0x40014A0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Type reftype;
 
-	[Token(Token = "0x17000567")]
+	[Token(Token = "0x17000566")]
 	internal BindingFlags BindingFlags
 	{
-		[Token(Token = "0x6002708")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Token(Token = "0x60026D6")]
+		[Address(RVA = "0x53E88C0", Offset = "0x53E78C0", VA = "0x53E88C0")]
 		get
 		{
 			return default(BindingFlags);
 		}
 	}
 
-	[Token(Token = "0x17000568")]
+	[Token(Token = "0x17000567")]
 	public override Module Module
 	{
-		[Token(Token = "0x6002709")]
-		[Address(RVA = "0x1A6F8C0", Offset = "0x1A6DEC0", VA = "0x181A6F8C0", Slot = "11")]
+		[Token(Token = "0x60026D7")]
+		[Address(RVA = "0x53E88D0", Offset = "0x53E78D0", VA = "0x53E88D0", Slot = "11")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000568")]
+	private System.RuntimeType ReflectedTypeInternal
+	{
+		[Token(Token = "0x60026D8")]
+		[Address(RVA = "0x53E89D0", Offset = "0x53E79D0", VA = "0x53E89D0")]
 		get
 		{
 			return null;
@@ -54,10 +65,10 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 	}
 
 	[Token(Token = "0x17000569")]
-	private System.RuntimeType ReflectedTypeInternal
+	public override ParameterInfo ReturnParameter
 	{
-		[Token(Token = "0x600270A")]
-		[Address(RVA = "0x1A70220", Offset = "0x1A6E820", VA = "0x181A70220")]
+		[Token(Token = "0x60026EA")]
+		[Address(RVA = "0x53E9340", Offset = "0x53E8340", VA = "0x53E9340", Slot = "40")]
 		get
 		{
 			return null;
@@ -65,10 +76,10 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 	}
 
 	[Token(Token = "0x1700056A")]
-	public override ParameterInfo ReturnParameter
+	public override Type ReturnType
 	{
-		[Token(Token = "0x600271C")]
-		[Address(RVA = "0x1A6ACE0", Offset = "0x1A692E0", VA = "0x181A6ACE0", Slot = "40")]
+		[Token(Token = "0x60026EB")]
+		[Address(RVA = "0x53E9390", Offset = "0x53E8390", VA = "0x53E9390", Slot = "41")]
 		get
 		{
 			return null;
@@ -76,65 +87,65 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 	}
 
 	[Token(Token = "0x1700056B")]
-	public override Type ReturnType
-	{
-		[Token(Token = "0x600271D")]
-		[Address(RVA = "0x1A702A0", Offset = "0x1A6E8A0", VA = "0x181A702A0", Slot = "41")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700056C")]
 	public override int MetadataToken
 	{
-		[Token(Token = "0x600271E")]
-		[Address(RVA = "0x1A6CAE0", Offset = "0x1A6B0E0", VA = "0x181A6CAE0", Slot = "15")]
+		[Token(Token = "0x60026EC")]
+		[Address(RVA = "0x53E93C0", Offset = "0x53E83C0", VA = "0x53E93C0", Slot = "15")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700056D")]
+	[Token(Token = "0x1700056C")]
 	public override RuntimeMethodHandle MethodHandle
 	{
-		[Token(Token = "0x6002726")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "33")]
+		[Token(Token = "0x60026F4")]
+		[Address(RVA = "0x53E9AA0", Offset = "0x53E8AA0", VA = "0x53E9AA0", Slot = "33")]
 		get
 		{
 			return default(RuntimeMethodHandle);
 		}
 	}
 
-	[Token(Token = "0x1700056E")]
+	[Token(Token = "0x1700056D")]
 	public override MethodAttributes Attributes
 	{
-		[Token(Token = "0x6002727")]
-		[Address(RVA = "0x1A6CA30", Offset = "0x1A6B030", VA = "0x181A6CA30", Slot = "17")]
+		[Token(Token = "0x60026F5")]
+		[Address(RVA = "0x53E9AB0", Offset = "0x53E8AB0", VA = "0x53E9AB0", Slot = "17")]
 		get
 		{
 			return default(MethodAttributes);
 		}
 	}
 
-	[Token(Token = "0x1700056F")]
+	[Token(Token = "0x1700056E")]
 	public override CallingConventions CallingConvention
 	{
-		[Token(Token = "0x6002728")]
-		[Address(RVA = "0x1A6CA40", Offset = "0x1A6B040", VA = "0x181A6CA40", Slot = "19")]
+		[Token(Token = "0x60026F6")]
+		[Address(RVA = "0x53E9AC0", Offset = "0x53E8AC0", VA = "0x53E9AC0", Slot = "19")]
 		get
 		{
 			return default(CallingConventions);
 		}
 	}
 
-	[Token(Token = "0x17000570")]
+	[Token(Token = "0x1700056F")]
 	public override Type ReflectedType
 	{
-		[Token(Token = "0x6002729")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "10")]
+		[Token(Token = "0x60026F7")]
+		[Address(RVA = "0x53E9AF0", Offset = "0x53E8AF0", VA = "0x53E9AF0", Slot = "10")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000570")]
+	public override Type DeclaringType
+	{
+		[Token(Token = "0x60026F8")]
+		[Address(RVA = "0x53E9B00", Offset = "0x53E8B00", VA = "0x53E9B00", Slot = "9")]
 		get
 		{
 			return null;
@@ -142,10 +153,10 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 	}
 
 	[Token(Token = "0x17000571")]
-	public override Type DeclaringType
+	public override string Name
 	{
-		[Token(Token = "0x600272A")]
-		[Address(RVA = "0x1A6CAB0", Offset = "0x1A6B0B0", VA = "0x181A6CAB0", Slot = "9")]
+		[Token(Token = "0x60026F9")]
+		[Address(RVA = "0x53E9B30", Offset = "0x53E8B30", VA = "0x53E9B30", Slot = "8")]
 		get
 		{
 			return null;
@@ -153,200 +164,189 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 	}
 
 	[Token(Token = "0x17000572")]
-	public override string Name
-	{
-		[Token(Token = "0x600272B")]
-		[Address(RVA = "0x1A6CAF0", Offset = "0x1A6B0F0", VA = "0x181A6CAF0", Slot = "8")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000573")]
 	public override extern bool IsGenericMethodDefinition
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6002738")]
-		[Address(RVA = "0x1A70200", Offset = "0x1A6E800", VA = "0x181A70200", Slot = "28")]
+		[Token(Token = "0x6002706")]
+		[Address(RVA = "0x53EAC60", Offset = "0x53E9C60", VA = "0x53EAC60", Slot = "28")]
+		get;
+	}
+
+	[Token(Token = "0x17000573")]
+	public override extern bool IsGenericMethod
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6002707")]
+		[Address(RVA = "0x53EAC70", Offset = "0x53E9C70", VA = "0x53EAC70", Slot = "27")]
 		get;
 	}
 
 	[Token(Token = "0x17000574")]
-	public override extern bool IsGenericMethod
+	public override bool ContainsGenericParameters
 	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6002739")]
-		[Address(RVA = "0x1A70210", Offset = "0x1A6E810", VA = "0x181A70210", Slot = "27")]
-		get;
+		[Token(Token = "0x6002708")]
+		[Address(RVA = "0x53EAC80", Offset = "0x53E9C80", VA = "0x53EAC80", Slot = "30")]
+		get
+		{
+			return default(bool);
+		}
 	}
 
 	[Token(Token = "0x17000575")]
-	public override bool ContainsGenericParameters
-	{
-		[Token(Token = "0x600273A")]
-		[Address(RVA = "0x1A70120", Offset = "0x1A6E720", VA = "0x181A70120", Slot = "30")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000576")]
 	public override bool IsSecurityCritical
 	{
-		[Token(Token = "0x600273C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "34")]
+		[Token(Token = "0x600270A")]
+		[Address(RVA = "0x53EAD50", Offset = "0x53E9D50", VA = "0x53EAD50", Slot = "34")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600270B")]
-	[Address(RVA = "0x1A6E500", Offset = "0x1A6CB00", VA = "0x181A6E500", Slot = "37")]
+	[Token(Token = "0x60026D9")]
+	[Address(RVA = "0x53E8A40", Offset = "0x53E7A40", VA = "0x53E8A40", Slot = "37")]
 	internal override string FormatNameAndSig(bool serialization)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600270C")]
-	[Address(RVA = "0x1A6E4C0", Offset = "0x1A6CAC0", VA = "0x181A6E4C0", Slot = "45")]
+	[Token(Token = "0x60026DA")]
+	[Address(RVA = "0x53E8FD0", Offset = "0x53E7FD0", VA = "0x53E8FD0", Slot = "45")]
 	public override Delegate CreateDelegate(Type delegateType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600270D")]
-	[Address(RVA = "0x1A6E4E0", Offset = "0x1A6CAE0", VA = "0x181A6E4E0", Slot = "46")]
+	[Token(Token = "0x60026DB")]
+	[Address(RVA = "0x53E8FE0", Offset = "0x53E7FE0", VA = "0x53E8FE0", Slot = "46")]
 	public override Delegate CreateDelegate(Type delegateType, object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600270E")]
-	[Address(RVA = "0x1A70090", Offset = "0x1A6E690", VA = "0x181A70090", Slot = "3")]
+	[Token(Token = "0x60026DC")]
+	[Address(RVA = "0x53E9000", Offset = "0x53E8000", VA = "0x53E9000", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600270F")]
-	[Address(RVA = "0x1A6F8C0", Offset = "0x1A6DEC0", VA = "0x181A6F8C0")]
+	[Token(Token = "0x60026DD")]
+	[Address(RVA = "0x53E8950", Offset = "0x53E7950", VA = "0x53E8950")]
 	internal System.Reflection.RuntimeModule GetRuntimeModule()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002710")]
-	[Address(RVA = "0x1A6F200", Offset = "0x1A6D800", VA = "0x181A6F200", Slot = "48")]
+	[Token(Token = "0x60026DE")]
+	[Address(RVA = "0x53E9080", Offset = "0x53E8080", VA = "0x53E9080", Slot = "48")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002711")]
-	[Address(RVA = "0x1A6FFF0", Offset = "0x1A6E5F0", VA = "0x181A6FFF0")]
+	[Token(Token = "0x60026DF")]
+	[Address(RVA = "0x53E1D30", Offset = "0x53E0D30", VA = "0x53E1D30")]
 	internal string SerializationToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002712")]
-	[Address(RVA = "0x1A6F1E0", Offset = "0x1A6D7E0", VA = "0x181A6F1E0")]
+	[Token(Token = "0x60026E0")]
+	[Address(RVA = "0x53E92B0", Offset = "0x53E82B0", VA = "0x53E92B0")]
 	internal static MethodBase GetMethodFromHandleNoGenericCheck(RuntimeMethodHandle handle)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002713")]
-	[Address(RVA = "0x1A6F1F0", Offset = "0x1A6D7F0", VA = "0x181A6F1F0")]
+	[Token(Token = "0x60026E1")]
+	[Address(RVA = "0x53E92D0", Offset = "0x53E82D0", VA = "0x53E92D0")]
 	internal static MethodBase GetMethodFromHandleNoGenericCheck(RuntimeMethodHandle handle, RuntimeTypeHandle reflectedType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002714")]
-	[Address(RVA = "0x1A6F1C0", Offset = "0x1A6D7C0", VA = "0x181A6F1C0")]
+	[Token(Token = "0x60026E2")]
+	[Address(RVA = "0x53DA610", Offset = "0x53D9610", VA = "0x53DA610")]
 	internal static MethodBase GetMethodFromHandleInternalType(IntPtr method_handle, IntPtr type_handle)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002715")]
-	[Address(RVA = "0x1A6F1D0", Offset = "0x1A6D7D0", VA = "0x181A6F1D0")]
+	[Token(Token = "0x60026E3")]
+	[Address(RVA = "0x53E92C0", Offset = "0x53E82C0", VA = "0x53E92C0")]
 	private static extern MethodBase GetMethodFromHandleInternalType_native(IntPtr method_handle, IntPtr type_handle, bool genericCheck);
 
-	[Token(Token = "0x6002716")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60026E4")]
+	[Address(RVA = "0x53E92E0", Offset = "0x53E82E0", VA = "0x53E92E0")]
 	internal RuntimeMethodInfo()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002717")]
-	[Address(RVA = "0x1A702E0", Offset = "0x1A6E8E0", VA = "0x181A702E0")]
+	[Token(Token = "0x60026E5")]
+	[Address(RVA = "0x53E92F0", Offset = "0x53E82F0", VA = "0x53E92F0")]
 	internal static extern string get_name(MethodBase method);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002718")]
-	[Address(RVA = "0x1A702D0", Offset = "0x1A6E8D0", VA = "0x181A702D0")]
+	[Token(Token = "0x60026E6")]
+	[Address(RVA = "0x53E9300", Offset = "0x53E8300", VA = "0x53E9300")]
 	internal static extern System.Reflection.RuntimeMethodInfo get_base_method(System.Reflection.RuntimeMethodInfo method, bool definition);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002719")]
-	[Address(RVA = "0x1A6CAE0", Offset = "0x1A6B0E0", VA = "0x181A6CAE0")]
+	[Token(Token = "0x60026E7")]
+	[Address(RVA = "0x53E9310", Offset = "0x53E8310", VA = "0x53E9310")]
 	internal static extern int get_metadata_token(System.Reflection.RuntimeMethodInfo method);
 
-	[Token(Token = "0x600271A")]
-	[Address(RVA = "0x1A6E800", Offset = "0x1A6CE00", VA = "0x181A6E800", Slot = "44")]
+	[Token(Token = "0x60026E8")]
+	[Address(RVA = "0x53E9320", Offset = "0x53E8320", VA = "0x53E9320", Slot = "44")]
 	public override MethodInfo GetBaseDefinition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600271B")]
-	[Address(RVA = "0x1A6E810", Offset = "0x1A6CE10", VA = "0x181A6E810")]
+	[Token(Token = "0x60026E9")]
+	[Address(RVA = "0x53E9330", Offset = "0x53E8330", VA = "0x53E9330")]
 	internal MethodInfo GetBaseMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600271F")]
-	[Address(RVA = "0x1A6C300", Offset = "0x1A6A900", VA = "0x181A6C300", Slot = "18")]
+	[Token(Token = "0x60026ED")]
+	[Address(RVA = "0x53E93D0", Offset = "0x53E83D0", VA = "0x53E93D0", Slot = "18")]
 	public override MethodImplAttributes GetMethodImplementationFlags()
 	{
 		return default(MethodImplAttributes);
 	}
 
-	[Token(Token = "0x6002720")]
-	[Address(RVA = "0x1A6F470", Offset = "0x1A6DA70", VA = "0x181A6F470", Slot = "16")]
+	[Token(Token = "0x60026EE")]
+	[Address(RVA = "0x53E9400", Offset = "0x53E8400", VA = "0x53E9400", Slot = "16")]
 	public override ParameterInfo[] GetParameters()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002721")]
-	[Address(RVA = "0x1A6C4D0", Offset = "0x1A6AAD0", VA = "0x181A6C4D0", Slot = "35")]
+	[Token(Token = "0x60026EF")]
+	[Address(RVA = "0x53E9480", Offset = "0x53E8480", VA = "0x53E9480", Slot = "35")]
 	internal override ParameterInfo[] GetParametersInternal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002722")]
-	[Address(RVA = "0x1A6F440", Offset = "0x1A6DA40", VA = "0x181A6F440", Slot = "36")]
+	[Token(Token = "0x60026F0")]
+	[Address(RVA = "0x53E9490", Offset = "0x53E8490", VA = "0x53E9490", Slot = "36")]
 	internal override int GetParametersCount()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002723")]
-	[Address(RVA = "0x1A6F950", Offset = "0x1A6DF50", VA = "0x181A6F950")]
+	[Token(Token = "0x60026F1")]
+	[Address(RVA = "0x53E94B0", Offset = "0x53E84B0", VA = "0x53E94B0")]
 	internal extern object InternalInvoke(object obj, object[] parameters, out Exception exc);
 
-	[Token(Token = "0x6002724")]
-	[Address(RVA = "0x1A6F960", Offset = "0x1A6DF60", VA = "0x181A6F960", Slot = "32")]
+	[Token(Token = "0x60026F2")]
+	[Address(RVA = "0x53E94C0", Offset = "0x53E84C0", VA = "0x53E94C0", Slot = "32")]
 	[DebuggerHidden]
 	[DebuggerStepThrough]
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
@@ -354,90 +354,90 @@ internal class RuntimeMethodInfo : MethodInfo, ISerializable
 		return null;
 	}
 
-	[Token(Token = "0x6002725")]
-	[Address(RVA = "0x1A6E170", Offset = "0x1A6C770", VA = "0x181A6E170")]
+	[Token(Token = "0x60026F3")]
+	[Address(RVA = "0x53E9790", Offset = "0x53E8790", VA = "0x53E9790")]
 	internal static void ConvertValues(Binder binder, object[] args, ParameterInfo[] pinfo, CultureInfo culture, BindingFlags invokeAttr)
 	{
 	}
 
-	[Token(Token = "0x600272C")]
-	[Address(RVA = "0x1A6FC00", Offset = "0x1A6E200", VA = "0x181A6FC00", Slot = "12")]
+	[Token(Token = "0x60026FA")]
+	[Address(RVA = "0x53E9B40", Offset = "0x53E8B40", VA = "0x53E9B40", Slot = "12")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600272D")]
-	[Address(RVA = "0x1A6E890", Offset = "0x1A6CE90", VA = "0x181A6E890", Slot = "13")]
+	[Token(Token = "0x60026FB")]
+	[Address(RVA = "0x53E9BA0", Offset = "0x53E8BA0", VA = "0x53E9BA0", Slot = "13")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600272E")]
-	[Address(RVA = "0x1A6E820", Offset = "0x1A6CE20", VA = "0x181A6E820", Slot = "14")]
+	[Token(Token = "0x60026FC")]
+	[Address(RVA = "0x53E9BF0", Offset = "0x53E8BF0", VA = "0x53E9BF0", Slot = "14")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600272F")]
-	[Address(RVA = "0x1A6F430", Offset = "0x1A6DA30", VA = "0x181A6F430")]
+	[Token(Token = "0x60026FD")]
+	[Address(RVA = "0x53E9C50", Offset = "0x53E8C50", VA = "0x53E9C50")]
 	internal extern void GetPInvoke(out System.Reflection.PInvokeAttributes flags, out string entryPoint, out string dllName);
 
-	[Token(Token = "0x6002730")]
-	[Address(RVA = "0x1A6F710", Offset = "0x1A6DD10", VA = "0x181A6F710")]
+	[Token(Token = "0x60026FE")]
+	[Address(RVA = "0x53E9C60", Offset = "0x53E8C60", VA = "0x53E9C60")]
 	internal object[] GetPseudoCustomAttributes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002731")]
-	[Address(RVA = "0x1A6F500", Offset = "0x1A6DB00", VA = "0x181A6F500")]
+	[Token(Token = "0x60026FF")]
+	[Address(RVA = "0x53E9E00", Offset = "0x53E8E00", VA = "0x53E9E00")]
 	internal CustomAttributeData[] GetPseudoCustomAttributesData()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002732")]
-	[Address(RVA = "0x1A6E8F0", Offset = "0x1A6CEF0", VA = "0x181A6E8F0")]
+	[Token(Token = "0x6002700")]
+	[Address(RVA = "0x53EA010", Offset = "0x53E9010", VA = "0x53EA010")]
 	private CustomAttributeData GetDllImportAttributeData()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002733")]
-	[Address(RVA = "0x1A6FC80", Offset = "0x1A6E280", VA = "0x181A6FC80", Slot = "43")]
+	[Token(Token = "0x6002701")]
+	[Address(RVA = "0x53EA8B0", Offset = "0x53E98B0", VA = "0x53EA8B0", Slot = "43")]
 	public override MethodInfo MakeGenericMethod(params Type[] methodInstantiation)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002734")]
-	[Address(RVA = "0x1A6FC70", Offset = "0x1A6E270", VA = "0x181A6FC70")]
+	[Token(Token = "0x6002702")]
+	[Address(RVA = "0x53EABE0", Offset = "0x53E9BE0", VA = "0x53EABE0")]
 	private extern MethodInfo MakeGenericMethod_impl(Type[] types);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002735")]
-	[Address(RVA = "0x1A6F130", Offset = "0x1A6D730", VA = "0x181A6F130", Slot = "29")]
+	[Token(Token = "0x6002703")]
+	[Address(RVA = "0x53EABF0", Offset = "0x53E9BF0", VA = "0x53EABF0", Slot = "29")]
 	public override extern Type[] GetGenericArguments();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002736")]
-	[Address(RVA = "0x1A6F140", Offset = "0x1A6D740", VA = "0x181A6F140")]
+	[Token(Token = "0x6002704")]
+	[Address(RVA = "0x53EAC00", Offset = "0x53E9C00", VA = "0x53EAC00")]
 	private extern MethodInfo GetGenericMethodDefinition_impl();
 
-	[Token(Token = "0x6002737")]
-	[Address(RVA = "0x1A6F150", Offset = "0x1A6D750", VA = "0x181A6F150", Slot = "42")]
+	[Token(Token = "0x6002705")]
+	[Address(RVA = "0x53EAC10", Offset = "0x53E9C10", VA = "0x53EAC10", Slot = "42")]
 	public override MethodInfo GetGenericMethodDefinition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600273B")]
-	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+	[Token(Token = "0x6002709")]
+	[Address(RVA = "0x53EAD40", Offset = "0x53E9D40", VA = "0x53EAD40")]
 	private static int get_core_clr_security_level()
 	{
 		return default(int);

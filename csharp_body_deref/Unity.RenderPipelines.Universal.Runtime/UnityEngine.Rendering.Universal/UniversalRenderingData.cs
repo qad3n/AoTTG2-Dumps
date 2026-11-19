@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderingData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,14 +29,14 @@ public class UniversalRenderingData : ContextItem
 	public RenderingMode renderingMode
 	{
 		[Token(Token = "0x60005B2")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6641BB0", Offset = "0x6640BB0", VA = "0x6641BB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(RenderingMode);
 		}
 		[Token(Token = "0x60005B3")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6641BC0", Offset = "0x6640BC0", VA = "0x6641BC0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -47,14 +47,14 @@ public class UniversalRenderingData : ContextItem
 	public LayerMask prepassLayerMask
 	{
 		[Token(Token = "0x60005B4")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x6641BD0", Offset = "0x6640BD0", VA = "0x6641BD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x60005B5")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x6641BE0", Offset = "0x6640BE0", VA = "0x6641BE0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -65,14 +65,14 @@ public class UniversalRenderingData : ContextItem
 	public LayerMask opaqueLayerMask
 	{
 		[Token(Token = "0x60005B6")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x6641BF0", Offset = "0x6640BF0", VA = "0x6641BF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x60005B7")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x6641C00", Offset = "0x6640C00", VA = "0x6641C00")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -83,14 +83,14 @@ public class UniversalRenderingData : ContextItem
 	public LayerMask transparentLayerMask
 	{
 		[Token(Token = "0x60005B8")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x6641C10", Offset = "0x6640C10", VA = "0x6641C10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x60005B9")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x6641C20", Offset = "0x6640C20", VA = "0x6641C20")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -101,14 +101,14 @@ public class UniversalRenderingData : ContextItem
 	public bool stencilLodCrossFadeEnabled
 	{
 		[Token(Token = "0x60005BA")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x6641C30", Offset = "0x6640C30", VA = "0x6641C30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60005BB")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x6641C40", Offset = "0x6640C40", VA = "0x6641C40")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -116,13 +116,13 @@ public class UniversalRenderingData : ContextItem
 	}
 
 	[Token(Token = "0x60005BC")]
-	[Address(RVA = "0x2C4FDE0", Offset = "0x2C4E3E0", VA = "0x182C4FDE0", Slot = "4")]
+	[Address(RVA = "0x6641C50", Offset = "0x6640C50", VA = "0x6641C50", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60005BD")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6641CA0", Offset = "0x6640CA0", VA = "0x6641CA0")]
 	public UniversalRenderingData()
 	{
 	}

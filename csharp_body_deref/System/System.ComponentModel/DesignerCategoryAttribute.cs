@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200015B")]
+[Token(Token = "0x200011C")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
 public sealed class DesignerCategoryAttribute : Attribute
 {
-	[Token(Token = "0x400060B")]
+	[Token(Token = "0x400053C")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly DesignerCategoryAttribute Component;
 
-	[Token(Token = "0x400060C")]
+	[Token(Token = "0x400053D")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly DesignerCategoryAttribute Default;
 
-	[Token(Token = "0x400060D")]
+	[Token(Token = "0x400053E")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly DesignerCategoryAttribute Form;
 
-	[Token(Token = "0x400060E")]
+	[Token(Token = "0x400053F")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly DesignerCategoryAttribute Generic;
 
-	[Token(Token = "0x170001AA")]
+	[Token(Token = "0x1700017B")]
 	public string Category
 	{
-		[Token(Token = "0x60008C9")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000709")]
+		[Address(RVA = "0x6222800", Offset = "0x6221800", VA = "0x6222800")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,45 +42,45 @@ public sealed class DesignerCategoryAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x1700017C")]
 	public override object TypeId
 	{
-		[Token(Token = "0x60008CD")]
-		[Address(RVA = "0x287D510", Offset = "0x287BB10", VA = "0x18287D510", Slot = "4")]
+		[Token(Token = "0x600070D")]
+		[Address(RVA = "0x6222930", Offset = "0x6221930", VA = "0x6222930", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60008C7")]
-	[Address(RVA = "0x287D4D0", Offset = "0x287BAD0", VA = "0x18287D4D0")]
+	[Token(Token = "0x6000707")]
+	[Address(RVA = "0x6222790", Offset = "0x6221790", VA = "0x6222790")]
 	public DesignerCategoryAttribute()
 	{
 	}
 
-	[Token(Token = "0x60008C8")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6000708")]
+	[Address(RVA = "0x62227D0", Offset = "0x62217D0", VA = "0x62227D0")]
 	public DesignerCategoryAttribute(string category)
 	{
 	}
 
-	[Token(Token = "0x60008CA")]
-	[Address(RVA = "0x287D200", Offset = "0x287B800", VA = "0x18287D200", Slot = "0")]
+	[Token(Token = "0x600070A")]
+	[Address(RVA = "0x6222810", Offset = "0x6221810", VA = "0x6222810", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60008CB")]
-	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
+	[Token(Token = "0x600070B")]
+	[Address(RVA = "0x6222880", Offset = "0x6221880", VA = "0x6222880", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008CC")]
-	[Address(RVA = "0x287D280", Offset = "0x287B880", VA = "0x18287D280", Slot = "6")]
+	[Token(Token = "0x600070C")]
+	[Address(RVA = "0x62228B0", Offset = "0x62218B0", VA = "0x62228B0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

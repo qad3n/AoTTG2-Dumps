@@ -7,18 +7,18 @@
 // ===============================================================
 using Il2CppDummyDll;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x200000C")]
 internal sealed class Locale
 {
-	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
+	[Token(Token = "0x600002D")]
+	[Address(RVA = "0x52D8740", Offset = "0x52D7740", VA = "0x52D8740")]
 	public static string GetText(string msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x1917780", Offset = "0x1915D80", VA = "0x181917780")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x52D8750", Offset = "0x52D7750", VA = "0x52D8750")]
 	public static string GetText(string fmt, params object[] args)
 	{
 		return null;

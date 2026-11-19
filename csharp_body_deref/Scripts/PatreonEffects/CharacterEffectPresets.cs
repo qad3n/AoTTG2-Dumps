@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x200010C")]
+[Token(Token = "0x2000080")]
 public static class CharacterEffectPresets
 {
-	[Token(Token = "0x4000618")]
+	[Token(Token = "0x400027D")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly string[] Options;
 
-	[Token(Token = "0x6000510")]
-	[Address(RVA = "0x20B67E0", Offset = "0x20B4DE0", VA = "0x1820B67E0")]
+	[Token(Token = "0x6000379")]
+	[Address(RVA = "0x57776A0", Offset = "0x57766A0", VA = "0x57776A0")]
 	public static CharacterEffectType ParseOrDefault(string raw)
 	{
 		return default(CharacterEffectType);
 	}
 
-	[Token(Token = "0x6000511")]
-	[Address(RVA = "0x20B6320", Offset = "0x20B4920", VA = "0x1820B6320")]
+	[Token(Token = "0x600037A")]
+	[Address(RVA = "0x5777880", Offset = "0x5776880", VA = "0x5777880")]
 	public static CharacterEffectPreset GetPreset(CharacterEffectType type)
 	{
 		return default(CharacterEffectPreset);

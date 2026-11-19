@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000487")]
-[ComVisible(true)]
-[CLSCompliant(false)]
-[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[Token(Token = "0x2000460")]
 [Guid("B42B6AAC-317E-34D5-9FA9-093BB4160C50")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[CLSCompliant(false)]
+[ComVisible(true)]
 public interface _AssemblyName
 {
 }

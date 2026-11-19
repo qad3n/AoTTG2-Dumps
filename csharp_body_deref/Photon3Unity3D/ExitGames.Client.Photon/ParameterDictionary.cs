@@ -27,13 +27,13 @@ public class ParameterDictionary : IEnumerable<KeyValuePair<byte, object>>, IEnu
 	public object this[byte key]
 	{
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x1CC8DE0", Offset = "0x1CC73E0", VA = "0x181CC8DE0")]
+		[Address(RVA = "0x565DD00", Offset = "0x565CD00", VA = "0x565DD00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x1CC8E80", Offset = "0x1CC7480", VA = "0x181CC8E80")]
+		[Address(RVA = "0x565DDA0", Offset = "0x565CDA0", VA = "0x565DDA0")]
 		set
 		{
 		}
@@ -43,7 +43,7 @@ public class ParameterDictionary : IEnumerable<KeyValuePair<byte, object>>, IEnu
 	public int Count
 	{
 		[Token(Token = "0x6000100")]
-		[Address(RVA = "0x1CC8D90", Offset = "0x1CC7390", VA = "0x181CC8D90")]
+		[Address(RVA = "0x565DDF0", Offset = "0x565CDF0", VA = "0x565DDF0")]
 		get
 		{
 			return default(int);
@@ -51,95 +51,95 @@ public class ParameterDictionary : IEnumerable<KeyValuePair<byte, object>>, IEnu
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x1CC8CD0", Offset = "0x1CC72D0", VA = "0x181CC8CD0")]
+	[Address(RVA = "0x565DA00", Offset = "0x565CA00", VA = "0x565DA00")]
 	public ParameterDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x1CC8C10", Offset = "0x1CC7210", VA = "0x181CC8C10")]
+	[Address(RVA = "0x565DAC0", Offset = "0x565CAC0", VA = "0x565DAC0")]
 	public ParameterDictionary(int capacity)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+	[Address(RVA = "0x565DB80", Offset = "0x565CB80", VA = "0x565DB80")]
 	public static implicit operator NonAllocDictionary<byte, object>(ParameterDictionary value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x1CC89D0", Offset = "0x1CC6FD0", VA = "0x181CC89D0", Slot = "4")]
+	[Address(RVA = "0x565DBA0", Offset = "0x565CBA0", VA = "0x565DBA0", Slot = "4")]
 	private IEnumerator<KeyValuePair<byte, object>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EByte_002CSystem_002EObject_003E_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x1CC8A20", Offset = "0x1CC7020", VA = "0x181CC8A20", Slot = "5")]
+	[Address(RVA = "0x565DC30", Offset = "0x565CC30", VA = "0x565DC30", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x1CC8960", Offset = "0x1CC6F60", VA = "0x181CC8960")]
+	[Address(RVA = "0x565DCC0", Offset = "0x565CCC0", VA = "0x565DCC0")]
 	public NonAllocDictionary<byte, object>.PairIterator GetEnumerator()
 	{
 		return default(NonAllocDictionary<byte, object>.PairIterator);
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x1CC88A0", Offset = "0x1CC6EA0", VA = "0x181CC88A0")]
+	[Address(RVA = "0x565DE30", Offset = "0x565CE30", VA = "0x565DE30")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x1CC8230", Offset = "0x1CC6830", VA = "0x181CC8230")]
+	[Address(RVA = "0x565DE80", Offset = "0x565CE80", VA = "0x565DE80")]
 	public void Add(byte code, string value)
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x1CC87B0", Offset = "0x1CC6DB0", VA = "0x181CC87B0")]
+	[Address(RVA = "0x565DF70", Offset = "0x565CF70", VA = "0x565DF70")]
 	public void Add(byte code, Hashtable value)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x1CC8320", Offset = "0x1CC6920", VA = "0x181CC8320")]
+	[Address(RVA = "0x565E060", Offset = "0x565D060", VA = "0x565E060")]
 	public void Add(byte code, byte value)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x1CC8460", Offset = "0x1CC6A60", VA = "0x181CC8460")]
+	[Address(RVA = "0x565E1C0", Offset = "0x565D1C0", VA = "0x565E1C0")]
 	public void Add(byte code, bool value)
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x1CC8110", Offset = "0x1CC6710", VA = "0x181CC8110")]
+	[Address(RVA = "0x565E320", Offset = "0x565D320", VA = "0x565E320")]
 	public void Add(byte code, short value)
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x1CC8000", Offset = "0x1CC6600", VA = "0x181CC8000")]
+	[Address(RVA = "0x565E430", Offset = "0x565D430", VA = "0x565E430")]
 	public void Add(byte code, int value)
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x1CC8690", Offset = "0x1CC6C90", VA = "0x181CC8690")]
+	[Address(RVA = "0x565E540", Offset = "0x565D540", VA = "0x565E540")]
 	public void Add(byte code, long value)
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x1CC85A0", Offset = "0x1CC6BA0", VA = "0x181CC85A0")]
+	[Address(RVA = "0x565E650", Offset = "0x565D650", VA = "0x565E650")]
 	public void Add(byte code, object value)
 	{
 	}
@@ -157,21 +157,21 @@ public class ParameterDictionary : IEnumerable<KeyValuePair<byte, object>>, IEnu
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x1CC8900", Offset = "0x1CC6F00", VA = "0x181CC8900")]
+	[Address(RVA = "0x565E740", Offset = "0x565D740", VA = "0x565E740")]
 	public bool ContainsKey(byte key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x1CC8B20", Offset = "0x1CC7120", VA = "0x181CC8B20")]
+	[Address(RVA = "0x565E790", Offset = "0x565D790", VA = "0x565E790")]
 	public object TryGetObject(byte key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x1CC8BA0", Offset = "0x1CC71A0", VA = "0x181CC8BA0")]
+	[Address(RVA = "0x565E800", Offset = "0x565D800", VA = "0x565E800")]
 	public bool TryGetValue(byte key, out object value)
 	{
 		return default(bool);
@@ -184,7 +184,7 @@ public class ParameterDictionary : IEnumerable<KeyValuePair<byte, object>>, IEnu
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x1CC8A70", Offset = "0x1CC7070", VA = "0x181CC8A70")]
+	[Address(RVA = "0x565E850", Offset = "0x565D850", VA = "0x565E850")]
 	public string ToStringFull(bool includeTypes = true)
 	{
 		return null;

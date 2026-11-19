@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DelegateHashCodeUtils
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,21 +21,21 @@ internal static class DelegateHashCodeUtils
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E64")]
-	[Address(RVA = "0x2B57A90", Offset = "0x2B56090", VA = "0x182B57A90")]
+	[Address(RVA = "0x654CE30", Offset = "0x654BE30", VA = "0x654CE30")]
 	public static int GetFuncHashCode(Delegate del)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E65")]
-	[Address(RVA = "0x2B57CD0", Offset = "0x2B562D0", VA = "0x182B57CD0")]
+	[Address(RVA = "0x654D070", Offset = "0x654C070", VA = "0x654D070")]
 	internal static int GetTotalCacheCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E66")]
-	[Address(RVA = "0x2B57A00", Offset = "0x2B56000", VA = "0x182B57A00")]
+	[Address(RVA = "0x654D120", Offset = "0x654C120", VA = "0x654D120")]
 	internal static void ClearCache()
 	{
 	}

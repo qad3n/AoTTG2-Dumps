@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000321")]
+[Token(Token = "0x20002FA")]
 [ComVisible(true)]
 public sealed class RijndaelManaged : Rijndael
 {
-	[Token(Token = "0x6001A06")]
-	[Address(RVA = "0x19B5EE0", Offset = "0x19B44E0", VA = "0x1819B5EE0")]
+	[Token(Token = "0x60019E3")]
+	[Address(RVA = "0x5341180", Offset = "0x5340180", VA = "0x5341180")]
 	public RijndaelManaged()
 	{
 	}
 
-	[Token(Token = "0x6001A07")]
-	[Address(RVA = "0x19B5BF0", Offset = "0x19B41F0", VA = "0x1819B5BF0", Slot = "23")]
+	[Token(Token = "0x60019E4")]
+	[Address(RVA = "0x53414F0", Offset = "0x53404F0", VA = "0x53414F0", Slot = "23")]
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A08")]
-	[Address(RVA = "0x19B5AE0", Offset = "0x19B40E0", VA = "0x1819B5AE0", Slot = "25")]
+	[Token(Token = "0x60019E5")]
+	[Address(RVA = "0x5341630", Offset = "0x5340630", VA = "0x5341630", Slot = "25")]
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A09")]
-	[Address(RVA = "0x19B5D60", Offset = "0x19B4360", VA = "0x1819B5D60", Slot = "26")]
+	[Token(Token = "0x60019E6")]
+	[Address(RVA = "0x5341650", Offset = "0x5340650", VA = "0x5341650", Slot = "26")]
 	public override void GenerateKey()
 	{
 	}
 
-	[Token(Token = "0x6001A0A")]
-	[Address(RVA = "0x19B5CF0", Offset = "0x19B42F0", VA = "0x1819B5CF0", Slot = "27")]
+	[Token(Token = "0x60019E7")]
+	[Address(RVA = "0x53416C0", Offset = "0x53406C0", VA = "0x53416C0", Slot = "27")]
 	public override void GenerateIV()
 	{
 	}
 
-	[Token(Token = "0x6001A0B")]
-	[Address(RVA = "0x19B5DD0", Offset = "0x19B43D0", VA = "0x1819B5DD0")]
+	[Token(Token = "0x60019E8")]
+	[Address(RVA = "0x5341510", Offset = "0x5340510", VA = "0x5341510")]
 	private ICryptoTransform NewEncryptor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int feedbackSize, System.Security.Cryptography.RijndaelManagedTransformMode encryptMode)
 	{
 		return null;

@@ -10,17 +10,17 @@ using Photon.Realtime;
 
 namespace Effects;
 
-[Token(Token = "0x200034E")]
+[Token(Token = "0x20003B0")]
 internal class GasBurstEffect : BaseEffect
 {
-	[Token(Token = "0x6001521")]
-	[Address(RVA = "0x1E668A0", Offset = "0x1E64EA0", VA = "0x181E668A0", Slot = "4")]
+	[Token(Token = "0x60017A1")]
+	[Address(RVA = "0x585C300", Offset = "0x585B300", VA = "0x585C300", Slot = "4")]
 	public override void Setup(Player owner, float liveTime, object[] settings)
 	{
 	}
 
-	[Token(Token = "0x6001522")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60017A2")]
+	[Address(RVA = "0x585C4C0", Offset = "0x585B4C0", VA = "0x585C4C0")]
 	public GasBurstEffect()
 	{
 	}

@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000C3")]
+[Token(Token = "0x2000084")]
 [Flags]
 public enum UriComponents
 {
-	[Token(Token = "0x40002B0")]
+	[Token(Token = "0x40001E1")]
 	Scheme = 1,
-	[Token(Token = "0x40002B1")]
+	[Token(Token = "0x40001E2")]
 	UserInfo = 2,
-	[Token(Token = "0x40002B2")]
+	[Token(Token = "0x40001E3")]
 	Host = 4,
-	[Token(Token = "0x40002B3")]
+	[Token(Token = "0x40001E4")]
 	Port = 8,
-	[Token(Token = "0x40002B4")]
+	[Token(Token = "0x40001E5")]
 	Path = 0x10,
-	[Token(Token = "0x40002B5")]
+	[Token(Token = "0x40001E6")]
 	Query = 0x20,
-	[Token(Token = "0x40002B6")]
+	[Token(Token = "0x40001E7")]
 	Fragment = 0x40,
-	[Token(Token = "0x40002B7")]
+	[Token(Token = "0x40001E8")]
 	StrongPort = 0x80,
-	[Token(Token = "0x40002B8")]
+	[Token(Token = "0x40001E9")]
 	NormalizedHost = 0x100,
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x40001EA")]
 	KeepDelimiter = 0x40000000,
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x40001EB")]
 	SerializationInfoString = -2147483648,
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x40001EC")]
 	AbsoluteUri = Scheme | UserInfo | Host | Port | Path | Query | Fragment,
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x40001ED")]
 	HostAndPort = Host | StrongPort,
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x40001EE")]
 	StrongAuthority = HostAndPort | UserInfo,
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x40001EF")]
 	SchemeAndServer = 0xD,
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x40001F0")]
 	HttpRequestUrl = 0x3D,
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x40001F1")]
 	PathAndQuery = 0x30
 }

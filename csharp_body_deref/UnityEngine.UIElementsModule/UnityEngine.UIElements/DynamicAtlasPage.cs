@@ -56,14 +56,14 @@ internal class DynamicAtlasPage : IDisposable
 	public TextureId textureId
 	{
 		[Token(Token = "0x6001301")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6CBC9F0", Offset = "0x6CBB9F0", VA = "0x6CBC9F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureId);
 		}
 		[Token(Token = "0x6001302")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6CBCA00", Offset = "0x6CBBA00", VA = "0x6CBCA00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -74,14 +74,14 @@ internal class DynamicAtlasPage : IDisposable
 	public RenderTexture atlas
 	{
 		[Token(Token = "0x6001303")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6CBCA10", Offset = "0x6CBBA10", VA = "0x6CBCA10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001304")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6CBCA20", Offset = "0x6CBBA20", VA = "0x6CBCA20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -92,7 +92,7 @@ internal class DynamicAtlasPage : IDisposable
 	public RenderTextureFormat format
 	{
 		[Token(Token = "0x6001305")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6CBCA30", Offset = "0x6CBBA30", VA = "0x6CBCA30")]
 		[CompilerGenerated]
 		get
 		{
@@ -104,7 +104,7 @@ internal class DynamicAtlasPage : IDisposable
 	public FilterMode filterMode
 	{
 		[Token(Token = "0x6001306")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6CBCA40", Offset = "0x6CBBA40", VA = "0x6CBCA40")]
 		[CompilerGenerated]
 		get
 		{
@@ -116,14 +116,14 @@ internal class DynamicAtlasPage : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001308")]
-		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
+		[Address(RVA = "0x6CBCC10", Offset = "0x6CBBC10", VA = "0x6CBCC10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001309")]
-		[Address(RVA = "0x19377D0", Offset = "0x1935DD0", VA = "0x1819377D0")]
+		[Address(RVA = "0x6CBCC20", Offset = "0x6CBBC20", VA = "0x6CBCC20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -131,56 +131,56 @@ internal class DynamicAtlasPage : IDisposable
 	}
 
 	[Token(Token = "0x6001307")]
-	[Address(RVA = "0x32ADA00", Offset = "0x32AC000", VA = "0x1832ADA00")]
+	[Address(RVA = "0x6CBCA50", Offset = "0x6CBBA50", VA = "0x6CBCA50")]
 	public DynamicAtlasPage(RenderTextureFormat format, FilterMode filterMode, Vector2Int minSize, Vector2Int maxSize)
 	{
 	}
 
 	[Token(Token = "0x600130A")]
-	[Address(RVA = "0x32ACEC0", Offset = "0x32AB4C0", VA = "0x1832ACEC0", Slot = "4")]
+	[Address(RVA = "0x6CBCC30", Offset = "0x6CBBC30", VA = "0x6CBCC30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600130B")]
-	[Address(RVA = "0x32ACCF0", Offset = "0x32AB2F0", VA = "0x1832ACCF0", Slot = "5")]
+	[Address(RVA = "0x6CBCCA0", Offset = "0x6CBBCA0", VA = "0x6CBCCA0", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600130C")]
-	[Address(RVA = "0x32AD020", Offset = "0x32AB620", VA = "0x1832AD020")]
+	[Address(RVA = "0x6CBD260", Offset = "0x6CBC260", VA = "0x6CBD260")]
 	public bool TryAdd(Texture2D image, out Allocator2D.Alloc2D alloc, out RectInt rect)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600130D")]
-	[Address(RVA = "0x32AD830", Offset = "0x32ABE30", VA = "0x1832AD830")]
+	[Address(RVA = "0x6CBD480", Offset = "0x6CBC480", VA = "0x6CBD480")]
 	public void Update(Texture2D image, RectInt rect)
 	{
 	}
 
 	[Token(Token = "0x600130E")]
-	[Address(RVA = "0x32ACF20", Offset = "0x32AB520", VA = "0x1832ACF20")]
+	[Address(RVA = "0x6CBD640", Offset = "0x6CBC640", VA = "0x6CBD640")]
 	public void Remove(Allocator2D.Alloc2D alloc)
 	{
 	}
 
 	[Token(Token = "0x600130F")]
-	[Address(RVA = "0x32ACB50", Offset = "0x32AB150", VA = "0x1832ACB50")]
+	[Address(RVA = "0x6CBD720", Offset = "0x6CBC720", VA = "0x6CBD720")]
 	public void Commit()
 	{
 	}
 
 	[Token(Token = "0x6001310")]
-	[Address(RVA = "0x32AD3D0", Offset = "0x32AB9D0", VA = "0x1832AD3D0")]
+	[Address(RVA = "0x6CBD760", Offset = "0x6CBC760", VA = "0x6CBD760")]
 	private void UpdateAtlasTexture()
 	{
 	}
 
 	[Token(Token = "0x6001311")]
-	[Address(RVA = "0x32ACB90", Offset = "0x32AB190", VA = "0x1832ACB90")]
+	[Address(RVA = "0x6CBDB40", Offset = "0x6CBCB40", VA = "0x6CBDB40")]
 	private RenderTexture CreateAtlasTexture()
 	{
 		return null;

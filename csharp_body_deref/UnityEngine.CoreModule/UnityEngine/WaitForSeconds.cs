@@ -12,16 +12,16 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20001C8")]
+[Token(Token = "0x20001C9")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class WaitForSeconds : YieldInstruction
 {
-	[Token(Token = "0x400065D")]
+	[Token(Token = "0x4000662")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal float m_Seconds;
 
-	[Token(Token = "0x6000EE6")]
-	[Address(RVA = "0x1D89AE0", Offset = "0x1D880E0", VA = "0x181D89AE0")]
+	[Token(Token = "0x6000EF8")]
+	[Address(RVA = "0x6923F60", Offset = "0x6922F60", VA = "0x6923F60")]
 	public WaitForSeconds(float seconds)
 	{
 	}

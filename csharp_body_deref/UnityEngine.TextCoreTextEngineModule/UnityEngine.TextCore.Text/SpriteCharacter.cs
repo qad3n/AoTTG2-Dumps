@@ -23,7 +23,7 @@ public class SpriteCharacter : TextElement
 	public string name
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Address(RVA = "0x6A40030", Offset = "0x6A3F030", VA = "0x6A40030")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ public class SpriteCharacter : TextElement
 	}
 
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x2D42860", Offset = "0x2D40E60", VA = "0x182D42860")]
+	[Address(RVA = "0x6A41200", Offset = "0x6A40200", VA = "0x6A41200")]
 	public SpriteCharacter()
 	{
 	}

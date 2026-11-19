@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.OnTilePostProcessResource
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ internal class OnTilePostProcessResource : IRenderPipelineResources, IRenderPipe
 	public int version
 	{
 		[Token(Token = "0x600087F")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667F250", Offset = "0x667E250", VA = "0x667F250", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -45,7 +45,7 @@ internal class OnTilePostProcessResource : IRenderPipelineResources, IRenderPipe
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000880")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667F260", Offset = "0x667E260", VA = "0x667F260", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -56,20 +56,20 @@ internal class OnTilePostProcessResource : IRenderPipelineResources, IRenderPipe
 	public Shader uberPostShader
 	{
 		[Token(Token = "0x6000881")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667F270", Offset = "0x667E270", VA = "0x667F270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000882")]
-		[Address(RVA = "0x2C71F80", Offset = "0x2C70580", VA = "0x182C71F80")]
+		[Address(RVA = "0x667F280", Offset = "0x667E280", VA = "0x667F280")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000883")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667F2E0", Offset = "0x667E2E0", VA = "0x667F2E0")]
 	public OnTilePostProcessResource()
 	{
 	}

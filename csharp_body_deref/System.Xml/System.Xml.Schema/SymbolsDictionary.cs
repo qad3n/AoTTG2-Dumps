@@ -41,7 +41,7 @@ internal class SymbolsDictionary
 	public int Count
 	{
 		[Token(Token = "0x6000FC5")]
-		[Address(RVA = "0x2785F80", Offset = "0x2784580", VA = "0x182785F80")]
+		[Address(RVA = "0x61443C0", Offset = "0x61433C0", VA = "0x61443C0")]
 		get
 		{
 			return default(int);
@@ -52,13 +52,13 @@ internal class SymbolsDictionary
 	public bool IsUpaEnforced
 	{
 		[Token(Token = "0x6000FC6")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x61443D0", Offset = "0x61433D0", VA = "0x61443D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FC7")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x61443E0", Offset = "0x61433E0", VA = "0x61443E0")]
 		set
 		{
 		}
@@ -68,7 +68,7 @@ internal class SymbolsDictionary
 	public int this[XmlQualifiedName name]
 	{
 		[Token(Token = "0x6000FCC")]
-		[Address(RVA = "0x2785F90", Offset = "0x2784590", VA = "0x182785F90")]
+		[Address(RVA = "0x6145230", Offset = "0x6144230", VA = "0x6145230")]
 		get
 		{
 			return default(int);
@@ -76,53 +76,53 @@ internal class SymbolsDictionary
 	}
 
 	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x2785EE0", Offset = "0x27844E0", VA = "0x182785EE0")]
+	[Address(RVA = "0x6144320", Offset = "0x6143320", VA = "0x6144320")]
 	public SymbolsDictionary()
 	{
 	}
 
 	[Token(Token = "0x6000FC8")]
-	[Address(RVA = "0x2784F20", Offset = "0x2783520", VA = "0x182784F20")]
+	[Address(RVA = "0x61443F0", Offset = "0x61433F0", VA = "0x61443F0")]
 	public int AddName(XmlQualifiedName name, object particle)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FC9")]
-	[Address(RVA = "0x2785030", Offset = "0x2783630", VA = "0x182785030")]
+	[Address(RVA = "0x6144510", Offset = "0x6143510", VA = "0x6144510")]
 	public void AddNamespaceList(NamespaceList list, object particle, bool allowLocal)
 	{
 	}
 
 	[Token(Token = "0x6000FCA")]
-	[Address(RVA = "0x27852A0", Offset = "0x27838A0", VA = "0x1827852A0")]
+	[Address(RVA = "0x61448C0", Offset = "0x61438C0", VA = "0x61448C0")]
 	private void AddWildcard(string wildcard, object particle)
 	{
 	}
 
 	[Token(Token = "0x6000FCB")]
-	[Address(RVA = "0x2785440", Offset = "0x2783A40", VA = "0x182785440")]
+	[Address(RVA = "0x6144A40", Offset = "0x6143A40", VA = "0x6144A40")]
 	public ICollection GetNamespaceListSymbols(NamespaceList list)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FCD")]
-	[Address(RVA = "0x2785410", Offset = "0x2783A10", VA = "0x182785410")]
+	[Address(RVA = "0x61452C0", Offset = "0x61442C0", VA = "0x61452C0")]
 	public bool Exists(XmlQualifiedName name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FCE")]
-	[Address(RVA = "0x2785A70", Offset = "0x2784070", VA = "0x182785A70")]
+	[Address(RVA = "0x61452F0", Offset = "0x61442F0", VA = "0x61452F0")]
 	public object GetParticle(int symbol)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FCF")]
-	[Address(RVA = "0x2785AB0", Offset = "0x27840B0", VA = "0x182785AB0")]
+	[Address(RVA = "0x6145320", Offset = "0x6144320", VA = "0x6145320")]
 	public string NameOf(int symbol)
 	{
 		return null;

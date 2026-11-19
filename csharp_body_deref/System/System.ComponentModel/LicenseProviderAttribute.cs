@@ -9,71 +9,71 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001BD")]
+[Token(Token = "0x200017E")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
 public sealed class LicenseProviderAttribute : Attribute
 {
-	[Token(Token = "0x40006B6")]
+	[Token(Token = "0x40005E7")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly LicenseProviderAttribute Default;
 
-	[Token(Token = "0x40006B7")]
+	[Token(Token = "0x40005E8")]
 	[FieldOffset(Offset = "0x10")]
 	private Type _licenseProviderType;
 
-	[Token(Token = "0x40006B8")]
+	[Token(Token = "0x40005E9")]
 	[FieldOffset(Offset = "0x18")]
 	private string _licenseProviderName;
 
-	[Token(Token = "0x17000237")]
+	[Token(Token = "0x17000208")]
 	public Type LicenseProvider
 	{
-		[Token(Token = "0x6000B3E")]
-		[Address(RVA = "0x28A14B0", Offset = "0x289FAB0", VA = "0x1828A14B0")]
+		[Token(Token = "0x600097E")]
+		[Address(RVA = "0x6236BE0", Offset = "0x6235BE0", VA = "0x6236BE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000238")]
+	[Token(Token = "0x17000209")]
 	public override object TypeId
 	{
-		[Token(Token = "0x6000B3F")]
-		[Address(RVA = "0x28A1570", Offset = "0x289FB70", VA = "0x1828A1570", Slot = "4")]
+		[Token(Token = "0x600097F")]
+		[Address(RVA = "0x6237030", Offset = "0x6236030", VA = "0x6237030", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B3B")]
-	[Address(RVA = "0x28A1480", Offset = "0x289FA80", VA = "0x1828A1480")]
+	[Token(Token = "0x600097B")]
+	[Address(RVA = "0x6236FA0", Offset = "0x6235FA0", VA = "0x6236FA0")]
 	public LicenseProviderAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000B3C")]
-	[Address(RVA = "0x2547AB0", Offset = "0x25460B0", VA = "0x182547AB0")]
+	[Token(Token = "0x600097C")]
+	[Address(RVA = "0x6236FD0", Offset = "0x6235FD0", VA = "0x6236FD0")]
 	public LicenseProviderAttribute(string typeName)
 	{
 	}
 
-	[Token(Token = "0x6000B3D")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x600097D")]
+	[Address(RVA = "0x6237000", Offset = "0x6236000", VA = "0x6237000")]
 	public LicenseProviderAttribute(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000B40")]
-	[Address(RVA = "0x28A12D0", Offset = "0x289F8D0", VA = "0x1828A12D0", Slot = "0")]
+	[Token(Token = "0x6000980")]
+	[Address(RVA = "0x62370D0", Offset = "0x62360D0", VA = "0x62370D0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x6000981")]
+	[Address(RVA = "0x62371C0", Offset = "0x62361C0", VA = "0x62371C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

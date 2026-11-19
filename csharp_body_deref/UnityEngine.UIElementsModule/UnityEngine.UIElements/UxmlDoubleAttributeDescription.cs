@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlDoubleAttributeDescription : TypedUxmlAttributeDescription<double>
 {
 	[Token(Token = "0x600266A")]
-	[Address(RVA = "0x3156600", Offset = "0x3154C00", VA = "0x183156600")]
+	[Address(RVA = "0x6B58F70", Offset = "0x6B57F70", VA = "0x6B58F70")]
 	public UxmlDoubleAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x600266B")]
-	[Address(RVA = "0x3156490", Offset = "0x3154A90", VA = "0x183156490", Slot = "4")]
+	[Address(RVA = "0x6B59000", Offset = "0x6B58000", VA = "0x6B59000", Slot = "4")]
 	public override double GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600266C")]
-	[Address(RVA = "0x31563F0", Offset = "0x31549F0", VA = "0x1831563F0")]
+	[Address(RVA = "0x6B59180", Offset = "0x6B58180", VA = "0x6B59180")]
 	private static double ConvertValueToDouble(string v, double defaultValue)
 	{
 		return default(double);

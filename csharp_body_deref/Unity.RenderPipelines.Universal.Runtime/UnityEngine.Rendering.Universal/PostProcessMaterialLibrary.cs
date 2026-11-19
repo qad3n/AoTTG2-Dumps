@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.PostProcessMaterialLibrary
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -88,7 +88,7 @@ internal class PostProcessMaterialLibrary
 	public PostProcessData resources
 	{
 		[Token(Token = "0x600079C")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x666D9A0", Offset = "0x666C9A0", VA = "0x666D9A0")]
 		get
 		{
 			return null;
@@ -96,20 +96,20 @@ internal class PostProcessMaterialLibrary
 	}
 
 	[Token(Token = "0x600079D")]
-	[Address(RVA = "0x2C722D0", Offset = "0x2C708D0", VA = "0x182C722D0")]
+	[Address(RVA = "0x666D9B0", Offset = "0x666C9B0", VA = "0x666D9B0")]
 	public PostProcessMaterialLibrary(PostProcessData data)
 	{
 	}
 
 	[Token(Token = "0x600079E")]
-	[Address(RVA = "0x2C721D0", Offset = "0x2C707D0", VA = "0x182C721D0")]
+	[Address(RVA = "0x666DD40", Offset = "0x666CD40", VA = "0x666DD40")]
 	private Material Load(Shader shader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600079F")]
-	[Address(RVA = "0x2C72070", Offset = "0x2C70670", VA = "0x182C72070")]
+	[Address(RVA = "0x666DEF0", Offset = "0x666CEF0", VA = "0x666DEF0")]
 	internal void Cleanup()
 	{
 	}

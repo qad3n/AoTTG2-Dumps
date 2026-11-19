@@ -10,300 +10,300 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic.Utils;
 
-[Token(Token = "0x2000285")]
+[Token(Token = "0x2000286")]
 internal static class TypeUtils
 {
-	[Token(Token = "0x40004A0")]
+	[Token(Token = "0x40004A9")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Type[] s_arrayAssignableInterfaces;
 
-	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x248A370", Offset = "0x2488970", VA = "0x18248A370")]
+	[Token(Token = "0x6000CB7")]
+	[Address(RVA = "0x5E27C80", Offset = "0x5E26C80", VA = "0x5E27C80")]
 	public static Type GetNonNullableType(this Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x248A4E0", Offset = "0x2488AE0", VA = "0x18248A4E0")]
+	[Token(Token = "0x6000CB8")]
+	[Address(RVA = "0x5E27DD0", Offset = "0x5E26DD0", VA = "0x5E27DD0")]
 	public static Type GetNullableType(this Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x248C760", Offset = "0x248AD60", VA = "0x18248C760")]
+	[Token(Token = "0x6000CB9")]
+	[Address(RVA = "0x5E27D20", Offset = "0x5E26D20", VA = "0x5E27D20")]
 	public static bool IsNullableType(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x248C6F0", Offset = "0x248ACF0", VA = "0x18248C6F0")]
+	[Token(Token = "0x6000CBA")]
+	[Address(RVA = "0x5E27F20", Offset = "0x5E26F20", VA = "0x5E27F20")]
 	public static bool IsNullableOrReferenceType(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x248B5F0", Offset = "0x2489BF0", VA = "0x18248B5F0")]
+	[Token(Token = "0x6000CBB")]
+	[Address(RVA = "0x5E27F90", Offset = "0x5E26F90", VA = "0x5E27F90")]
 	public static bool IsBool(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x248C900", Offset = "0x248AF00", VA = "0x18248C900")]
+	[Token(Token = "0x6000CBC")]
+	[Address(RVA = "0x5E28020", Offset = "0x5E27020", VA = "0x5E28020")]
 	public static bool IsNumeric(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB2")]
-	[Address(RVA = "0x248C200", Offset = "0x248A800", VA = "0x18248C200")]
+	[Token(Token = "0x6000CBD")]
+	[Address(RVA = "0x5E28140", Offset = "0x5E27140", VA = "0x5E28140")]
 	public static bool IsInteger(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x248B520", Offset = "0x2489B20", VA = "0x18248B520")]
+	[Token(Token = "0x6000CBE")]
+	[Address(RVA = "0x5E28260", Offset = "0x5E27260", VA = "0x5E28260")]
 	public static bool IsArithmetic(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB4")]
-	[Address(RVA = "0x248CA90", Offset = "0x248B090", VA = "0x18248CA90")]
+	[Token(Token = "0x6000CBF")]
+	[Address(RVA = "0x5E28380", Offset = "0x5E27380", VA = "0x5E28380")]
 	public static bool IsUnsignedInt(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x248C130", Offset = "0x248A730", VA = "0x18248C130")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x5E284A0", Offset = "0x5E274A0", VA = "0x5E284A0")]
 	public static bool IsIntegerOrBool(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB6")]
-	[Address(RVA = "0x248C810", Offset = "0x248AE10", VA = "0x18248C810")]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x5E285C0", Offset = "0x5E275C0", VA = "0x5E285C0")]
 	public static bool IsNumericOrBool(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x248CB70", Offset = "0x248B170", VA = "0x18248CB70")]
+	[Token(Token = "0x6000CC2")]
+	[Address(RVA = "0x5E28650", Offset = "0x5E27650", VA = "0x5E28650")]
 	public static bool IsValidInstanceType(MemberInfo member, Type instanceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x248AD10", Offset = "0x2489310", VA = "0x18248AD10")]
+	[Token(Token = "0x6000CC3")]
+	[Address(RVA = "0x5E28A80", Offset = "0x5E27A80", VA = "0x5E28A80")]
 	public static bool HasIdentityPrimitiveOrNullableConversionTo(this Type source, Type dest)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CB9")]
-	[Address(RVA = "0x248B230", Offset = "0x2489830", VA = "0x18248B230")]
+	[Token(Token = "0x6000CC4")]
+	[Address(RVA = "0x5E28F00", Offset = "0x5E27F00", VA = "0x5E28F00")]
 	public static bool HasReferenceConversionTo(this Type source, Type dest)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBA")]
-	[Address(RVA = "0x248D050", Offset = "0x248B650", VA = "0x18248D050")]
+	[Token(Token = "0x6000CC5")]
+	[Address(RVA = "0x5E295E0", Offset = "0x5E285E0", VA = "0x5E295E0")]
 	private static bool StrictHasReferenceConversionTo(this Type source, Type dest, bool skipNonArray)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBB")]
-	[Address(RVA = "0x248A8E0", Offset = "0x2488EE0", VA = "0x18248A8E0")]
+	[Token(Token = "0x6000CC6")]
+	[Address(RVA = "0x5E298E0", Offset = "0x5E288E0", VA = "0x5E298E0")]
 	private static bool HasArrayToInterfaceConversion(Type source, Type dest)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBC")]
-	[Address(RVA = "0x248B020", Offset = "0x2489620", VA = "0x18248B020")]
+	[Token(Token = "0x6000CC7")]
+	[Address(RVA = "0x5E29B80", Offset = "0x5E28B80", VA = "0x5E29B80")]
 	private static bool HasInterfaceToArrayConversion(Type source, Type dest)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBD")]
-	[Address(RVA = "0x248B780", Offset = "0x2489D80", VA = "0x18248B780")]
+	[Token(Token = "0x6000CC8")]
+	[Address(RVA = "0x5E29E50", Offset = "0x5E28E50", VA = "0x5E29E50")]
 	private static bool IsCovariant(Type t)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x248B680", Offset = "0x2489C80", VA = "0x18248B680")]
+	[Token(Token = "0x6000CC9")]
+	[Address(RVA = "0x5E29E70", Offset = "0x5E28E70", VA = "0x5E29E70")]
 	private static bool IsContravariant(Type t)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x248C2D0", Offset = "0x248A8D0", VA = "0x18248C2D0")]
+	[Token(Token = "0x6000CCA")]
+	[Address(RVA = "0x5E29EA0", Offset = "0x5E28EA0", VA = "0x5E29EA0")]
 	private static bool IsInvariant(Type t)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC0")]
-	[Address(RVA = "0x248B7B0", Offset = "0x2489DB0", VA = "0x18248B7B0")]
+	[Token(Token = "0x6000CCB")]
+	[Address(RVA = "0x5E29ED0", Offset = "0x5E28ED0", VA = "0x5E29ED0")]
 	private static bool IsDelegate(Type t)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC1")]
-	[Address(RVA = "0x248C300", Offset = "0x248A900", VA = "0x18248C300")]
+	[Token(Token = "0x6000CCC")]
+	[Address(RVA = "0x5E290F0", Offset = "0x5E280F0", VA = "0x5E290F0")]
 	public static bool IsLegalExplicitVariantDelegateConversion(Type source, Type dest)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC2")]
-	[Address(RVA = "0x248B6B0", Offset = "0x2489CB0", VA = "0x18248B6B0")]
+	[Token(Token = "0x6000CCD")]
+	[Address(RVA = "0x5E28DE0", Offset = "0x5E27DE0", VA = "0x5E28DE0")]
 	public static bool IsConvertible(this Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC3")]
-	[Address(RVA = "0x248B430", Offset = "0x2489A30", VA = "0x18248B430")]
+	[Token(Token = "0x6000CCE")]
+	[Address(RVA = "0x5E29F50", Offset = "0x5E28F50", VA = "0x5E29F50")]
 	public static bool HasReferenceEquality(Type left, Type right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC4")]
-	[Address(RVA = "0x248AAF0", Offset = "0x24890F0", VA = "0x18248AAF0")]
+	[Token(Token = "0x6000CCF")]
+	[Address(RVA = "0x5E2A030", Offset = "0x5E29030", VA = "0x5E2A030")]
 	public static bool HasBuiltInEqualityOperator(Type left, Type right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC5")]
-	[Address(RVA = "0x248BC90", Offset = "0x248A290", VA = "0x18248BC90")]
+	[Token(Token = "0x6000CD0")]
+	[Address(RVA = "0x5E2A270", Offset = "0x5E29270", VA = "0x5E2A270")]
 	public static bool IsImplicitlyConvertibleTo(this Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC6")]
-	[Address(RVA = "0x248A630", Offset = "0x2488C30", VA = "0x18248A630")]
+	[Token(Token = "0x6000CD1")]
+	[Address(RVA = "0x5E2A770", Offset = "0x5E29770", VA = "0x5E2A770")]
 	public static MethodInfo GetUserDefinedCoercionMethod(Type convertFrom, Type convertToType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CC7")]
-	[Address(RVA = "0x2489BC0", Offset = "0x24881C0", VA = "0x182489BC0")]
+	[Token(Token = "0x6000CD2")]
+	[Address(RVA = "0x5E2AA50", Offset = "0x5E29A50", VA = "0x5E2AA50")]
 	private static MethodInfo FindConversionOperator(MethodInfo[] methods, Type typeFrom, Type typeTo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CC8")]
-	[Address(RVA = "0x248BAA0", Offset = "0x248A0A0", VA = "0x18248BAA0")]
+	[Token(Token = "0x6000CD3")]
+	[Address(RVA = "0x5E2A3F0", Offset = "0x5E293F0", VA = "0x5E2A3F0")]
 	private static bool IsImplicitNumericConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x248BC60", Offset = "0x248A260", VA = "0x18248BC60")]
+	[Token(Token = "0x6000CD4")]
+	[Address(RVA = "0x5E29E20", Offset = "0x5E28E20", VA = "0x5E29E20")]
 	private static bool IsImplicitReferenceConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x248B830", Offset = "0x2489E30", VA = "0x18248B830")]
+	[Token(Token = "0x6000CD5")]
+	[Address(RVA = "0x5E2A5A0", Offset = "0x5E295A0", VA = "0x5E2A5A0")]
 	private static bool IsImplicitBoxingConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CCB")]
-	[Address(RVA = "0x248B960", Offset = "0x2489F60", VA = "0x18248B960")]
+	[Token(Token = "0x6000CD6")]
+	[Address(RVA = "0x5E2A6C0", Offset = "0x5E296C0", VA = "0x5E2A6C0")]
 	private static bool IsImplicitNullableConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CCC")]
-	[Address(RVA = "0x2489E10", Offset = "0x2488410", VA = "0x182489E10")]
+	[Token(Token = "0x6000CD7")]
+	[Address(RVA = "0x5E2ACF0", Offset = "0x5E29CF0", VA = "0x5E2ACF0")]
 	public static Type FindGenericType(Type definition, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x248A140", Offset = "0x2488740", VA = "0x18248A140")]
+	[Token(Token = "0x6000CD8")]
+	[Address(RVA = "0x5E2B200", Offset = "0x5E2A200", VA = "0x5E2B200")]
 	public static MethodInfo GetBooleanOperator(Type type, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x248A490", Offset = "0x2488A90", VA = "0x18248A490")]
+	[Token(Token = "0x6000CD9")]
+	[Address(RVA = "0x5E2B410", Offset = "0x5E2A410", VA = "0x5E2B410")]
 	public static Type GetNonRefType(this Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x2489A60", Offset = "0x2488060", VA = "0x182489A60")]
+	[Token(Token = "0x6000CDA")]
+	[Address(RVA = "0x5E24A30", Offset = "0x5E23A30", VA = "0x5E24A30")]
 	public static bool AreEquivalent(Type t1, Type t2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x2489AD0", Offset = "0x24880D0", VA = "0x182489AD0")]
+	[Token(Token = "0x6000CDB")]
+	[Address(RVA = "0x5E26A00", Offset = "0x5E25A00", VA = "0x5E26A00")]
 	public static bool AreReferenceAssignable(Type dest, Type src)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x248C9D0", Offset = "0x248AFD0", VA = "0x18248C9D0")]
+	[Token(Token = "0x6000CDC")]
+	[Address(RVA = "0x5E26C30", Offset = "0x5E25C30", VA = "0x5E26C30")]
 	public static bool IsSameOrSubclass(Type type, Type subType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x248D4E0", Offset = "0x248BAE0", VA = "0x18248D4E0")]
+	[Token(Token = "0x6000CDD")]
+	[Address(RVA = "0x5E2B450", Offset = "0x5E2A450", VA = "0x5E2B450")]
 	public static void ValidateType(Type type, string paramName)
 	{
 	}
 
-	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x248D360", Offset = "0x248B960", VA = "0x18248D360")]
+	[Token(Token = "0x6000CDE")]
+	[Address(RVA = "0x5E26930", Offset = "0x5E25930", VA = "0x5E26930")]
 	public static void ValidateType(Type type, string paramName, bool allowByRef, bool allowPointer)
 	{
 	}
 
-	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x248D550", Offset = "0x248BB50", VA = "0x18248D550")]
+	[Token(Token = "0x6000CDF")]
+	[Address(RVA = "0x5E2B4B0", Offset = "0x5E2A4B0", VA = "0x5E2B4B0")]
 	public static bool ValidateType(Type type, string paramName, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x248A320", Offset = "0x2488920", VA = "0x18248A320")]
+	[Token(Token = "0x6000CE0")]
+	[Address(RVA = "0x5E2B580", Offset = "0x5E2A580", VA = "0x5E2B580")]
 	public static MethodInfo GetInvokeMethod(this Type delegateType)
 	{
 		return null;

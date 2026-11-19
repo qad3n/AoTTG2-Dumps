@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000166")]
+[Token(Token = "0x200013E")]
 public enum ConsoleSpecialKey
 {
-	[Token(Token = "0x4000555")]
+	[Token(Token = "0x40004B3")]
 	ControlC,
-	[Token(Token = "0x4000556")]
+	[Token(Token = "0x40004B4")]
 	ControlBreak
 }

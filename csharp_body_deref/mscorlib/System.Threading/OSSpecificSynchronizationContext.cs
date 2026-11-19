@@ -11,90 +11,90 @@ using Mono.Interop;
 
 namespace System.Threading;
 
-[Token(Token = "0x200022F")]
+[Token(Token = "0x2000207")]
 internal class OSSpecificSynchronizationContext : SynchronizationContext
 {
-	[Token(Token = "0x2000230")]
+	[Token(Token = "0x2000208")]
 	private delegate void InvocationEntryDelegate(IntPtr arg);
 
-	[Token(Token = "0x2000231")]
+	[Token(Token = "0x2000209")]
 	private class InvocationContext
 	{
-		[Token(Token = "0x4000A21")]
+		[Token(Token = "0x400097F")]
 		[FieldOffset(Offset = "0x10")]
 		private SendOrPostCallback m_Delegate;
 
-		[Token(Token = "0x4000A22")]
+		[Token(Token = "0x4000980")]
 		[FieldOffset(Offset = "0x18")]
 		private object m_State;
 
-		[Token(Token = "0x60012F1")]
-		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+		[Token(Token = "0x60012C8")]
+		[Address(RVA = "0x55382F0", Offset = "0x55372F0", VA = "0x55382F0")]
 		public InvocationContext(SendOrPostCallback d, object state)
 		{
 		}
 
-		[Token(Token = "0x60012F2")]
-		[Address(RVA = "0x1BAFF20", Offset = "0x1BAE520", VA = "0x181BAFF20")]
+		[Token(Token = "0x60012C9")]
+		[Address(RVA = "0x5538340", Offset = "0x5537340", VA = "0x5538340")]
 		public void Invoke()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000A1F")]
+	[Token(Token = "0x400097D")]
 	[FieldOffset(Offset = "0x18")]
 	private object m_OSSynchronizationContext;
 
-	[Token(Token = "0x4000A20")]
+	[Token(Token = "0x400097E")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ConditionalWeakTable<object, System.Threading.OSSpecificSynchronizationContext> s_ContextCache;
 
-	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x19FFAE0", Offset = "0x19FE0E0", VA = "0x1819FFAE0")]
+	[Token(Token = "0x60012BD")]
+	[Address(RVA = "0x5537FB0", Offset = "0x5536FB0", VA = "0x5537FB0")]
 	private OSSpecificSynchronizationContext(object osContext)
 	{
 	}
 
-	[Token(Token = "0x60012E7")]
-	[Address(RVA = "0x1BB0E80", Offset = "0x1BAF480", VA = "0x181BB0E80")]
+	[Token(Token = "0x60012BE")]
+	[Address(RVA = "0x5537BE0", Offset = "0x5536BE0", VA = "0x5537BE0")]
 	public static System.Threading.OSSpecificSynchronizationContext Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012E8")]
-	[Address(RVA = "0x1BB0E00", Offset = "0x1BAF400", VA = "0x181BB0E00", Slot = "9")]
+	[Token(Token = "0x60012BF")]
+	[Address(RVA = "0x5537FF0", Offset = "0x5536FF0", VA = "0x5537FF0", Slot = "9")]
 	public override SynchronizationContext CreateCopy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012E9")]
-	[Address(RVA = "0x1BB1320", Offset = "0x1BAF920", VA = "0x181BB1320", Slot = "4")]
+	[Token(Token = "0x60012C0")]
+	[Address(RVA = "0x5538050", Offset = "0x5537050", VA = "0x5538050", Slot = "4")]
 	public override void Send(SendOrPostCallback d, object state)
 	{
 	}
 
-	[Token(Token = "0x60012EA")]
-	[Address(RVA = "0x1BB1170", Offset = "0x1BAF770", VA = "0x181BB1170", Slot = "5")]
+	[Token(Token = "0x60012C1")]
+	[Address(RVA = "0x5538090", Offset = "0x5537090", VA = "0x5538090", Slot = "5")]
 	public override void Post(SendOrPostCallback d, object state)
 	{
 	}
 
-	[Token(Token = "0x60012EB")]
-	[Address(RVA = "0x1BB1010", Offset = "0x1BAF610", VA = "0x181BB1010")]
+	[Token(Token = "0x60012C2")]
+	[Address(RVA = "0x5537DF0", Offset = "0x5536DF0", VA = "0x5537DF0")]
 	[Mono.Interop.MonoPInvokeCallback(typeof(InvocationEntryDelegate))]
 	private static void InvocationEntry(IntPtr arg)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012EC")]
-	[Address(RVA = "0x1BB0E70", Offset = "0x1BAF470", VA = "0x181BB0E70")]
+	[Token(Token = "0x60012C3")]
+	[Address(RVA = "0x5537FE0", Offset = "0x5536FE0", VA = "0x5537FE0")]
 	private static extern object GetOSContext();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60012ED")]
-	[Address(RVA = "0x1BB1160", Offset = "0x1BAF760", VA = "0x181BB1160")]
+	[Token(Token = "0x60012C4")]
+	[Address(RVA = "0x5538330", Offset = "0x5537330", VA = "0x5538330")]
 	private static extern void PostInternal(object osSynchronizationContext, IntPtr callback, IntPtr arg);
 }

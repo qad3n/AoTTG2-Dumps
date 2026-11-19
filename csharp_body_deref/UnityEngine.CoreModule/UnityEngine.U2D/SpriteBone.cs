@@ -16,49 +16,49 @@ namespace UnityEngine.U2D;
 [Serializable]
 [Token(Token = "0x2000401")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataMarshalling.h")]
-[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "ScriptingSpriteBone")]
 [MovedFrom("UnityEngine.Experimental.U2D")]
-[UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
+[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "ScriptingSpriteBone")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
 public struct SpriteBone
 {
-	[Token(Token = "0x4000E08")]
+	[Token(Token = "0x4000E06")]
 	[FieldOffset(Offset = "0x0")]
-	[UnityEngine.Bindings.NativeName("name")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("name")]
 	private string m_Name;
 
-	[Token(Token = "0x4000E09")]
+	[Token(Token = "0x4000E07")]
 	[FieldOffset(Offset = "0x8")]
-	[UnityEngine.Bindings.NativeName("guid")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("guid")]
 	private string m_Guid;
 
-	[Token(Token = "0x4000E0A")]
+	[Token(Token = "0x4000E08")]
 	[FieldOffset(Offset = "0x10")]
-	[UnityEngine.Bindings.NativeName("position")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("position")]
 	private Vector3 m_Position;
 
-	[Token(Token = "0x4000E0B")]
+	[Token(Token = "0x4000E09")]
 	[FieldOffset(Offset = "0x1C")]
 	[UnityEngine.Bindings.NativeName("rotation")]
 	[SerializeField]
 	private Quaternion m_Rotation;
 
-	[Token(Token = "0x4000E0C")]
+	[Token(Token = "0x4000E0A")]
 	[FieldOffset(Offset = "0x2C")]
-	[UnityEngine.Bindings.NativeName("length")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("length")]
 	private float m_Length;
 
-	[Token(Token = "0x4000E0D")]
+	[Token(Token = "0x4000E0B")]
 	[FieldOffset(Offset = "0x30")]
-	[UnityEngine.Bindings.NativeName("parentId")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("parentId")]
 	private int m_ParentId;
 
-	[Token(Token = "0x4000E0E")]
+	[Token(Token = "0x4000E0C")]
 	[FieldOffset(Offset = "0x34")]
 	[UnityEngine.Bindings.NativeName("color")]
 	[SerializeField]

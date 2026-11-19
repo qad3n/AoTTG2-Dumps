@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000100")]
+[Token(Token = "0x20000C1")]
 [SwitchLevel(typeof(bool))]
 public class BooleanSwitch : Switch
 {
-	[Token(Token = "0x6000640")]
-	[Address(RVA = "0x2861630", Offset = "0x285FC30", VA = "0x182861630")]
+	[Token(Token = "0x600048A")]
+	[Address(RVA = "0x61FF6E0", Offset = "0x61FE6E0", VA = "0x61FF6E0")]
 	public BooleanSwitch(string displayName, string description)
 	{
 	}

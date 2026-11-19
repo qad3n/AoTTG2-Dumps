@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.RichTextTagParser
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -165,7 +165,7 @@ internal static class RichTextTagParser
 		protected virtual Type EqualityContract
 		{
 			[Token(Token = "0x600002C")]
-			[Address(RVA = "0x3021420", Offset = "0x301FA20", VA = "0x183021420", Slot = "5")]
+			[Address(RVA = "0x6A0AB20", Offset = "0x6A09B20", VA = "0x6A0AB20", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
@@ -174,13 +174,13 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x30213D0", Offset = "0x301F9D0", VA = "0x1830213D0")]
+		[Address(RVA = "0x6A0AAD0", Offset = "0x6A09AD0", VA = "0x6A0AAD0")]
 		internal TagTypeInfo(TagType tagType, string name, TagValueType valueType = TagValueType.None, TagUnitType unitType = TagUnitType.Unknown)
 		{
 		}
 
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x30212E0", Offset = "0x301F8E0", VA = "0x1830212E0", Slot = "3")]
+		[Address(RVA = "0x6A0AB80", Offset = "0x6A09B80", VA = "0x6A0AB80", Slot = "3")]
 		[CompilerGenerated]
 		public override string ToString()
 		{
@@ -188,7 +188,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x3021140", Offset = "0x301F740", VA = "0x183021140", Slot = "6")]
+		[Address(RVA = "0x6A0AC60", Offset = "0x6A09C60", VA = "0x6A0AC60", Slot = "6")]
 		[CompilerGenerated]
 		protected virtual bool PrintMembers(StringBuilder builder)
 		{
@@ -196,7 +196,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x3020FA0", Offset = "0x301F5A0", VA = "0x183020FA0", Slot = "2")]
+		[Address(RVA = "0x6A0AE00", Offset = "0x6A09E00", VA = "0x6A0AE00", Slot = "2")]
 		[CompilerGenerated]
 		public override int GetHashCode()
 		{
@@ -204,7 +204,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x3020D30", Offset = "0x301F330", VA = "0x183020D30", Slot = "0")]
+		[Address(RVA = "0x6A0AF90", Offset = "0x6A09F90", VA = "0x6A0AF90", Slot = "0")]
 		[CompilerGenerated]
 		public override bool Equals(object? obj)
 		{
@@ -212,7 +212,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x3020DC0", Offset = "0x301F3C0", VA = "0x183020DC0", Slot = "7")]
+		[Address(RVA = "0x6A0B010", Offset = "0x6A0A010", VA = "0x6A0B010", Slot = "7")]
 		[CompilerGenerated]
 		public virtual bool Equals(TagTypeInfo? other)
 		{
@@ -296,7 +296,7 @@ internal static class RichTextTagParser
 		protected virtual Type EqualityContract
 		{
 			[Token(Token = "0x6000033")]
-			[Address(RVA = "0x3021FA0", Offset = "0x30205A0", VA = "0x183021FA0", Slot = "5")]
+			[Address(RVA = "0x6A0B1D0", Offset = "0x6A0A1D0", VA = "0x6A0B1D0", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
@@ -308,7 +308,7 @@ internal static class RichTextTagParser
 		internal string? StringValue
 		{
 			[Token(Token = "0x600003A")]
-			[Address(RVA = "0x30220F0", Offset = "0x30206F0", VA = "0x1830220F0")]
+			[Address(RVA = "0x6A085E0", Offset = "0x6A075E0", VA = "0x6A085E0")]
 			get
 			{
 				return null;
@@ -319,7 +319,7 @@ internal static class RichTextTagParser
 		internal float NumericalValue
 		{
 			[Token(Token = "0x600003B")]
-			[Address(RVA = "0x3022080", Offset = "0x3020680", VA = "0x183022080")]
+			[Address(RVA = "0x6A08510", Offset = "0x6A07510", VA = "0x6A08510")]
 			get
 			{
 				return default(float);
@@ -330,7 +330,7 @@ internal static class RichTextTagParser
 		internal Color ColorValue
 		{
 			[Token(Token = "0x600003C")]
-			[Address(RVA = "0x3021F20", Offset = "0x3020520", VA = "0x183021F20")]
+			[Address(RVA = "0x6A084B0", Offset = "0x6A074B0", VA = "0x6A084B0")]
 			get
 			{
 				return default(Color);
@@ -341,7 +341,7 @@ internal static class RichTextTagParser
 		internal Vector4 Vector4Value
 		{
 			[Token(Token = "0x600003D")]
-			[Address(RVA = "0x3022160", Offset = "0x3020760", VA = "0x183022160")]
+			[Address(RVA = "0x6A08580", Offset = "0x6A07580", VA = "0x6A08580")]
 			get
 			{
 				return default(Vector4);
@@ -352,7 +352,7 @@ internal static class RichTextTagParser
 		internal GlyphMetrics GlyphMetricsValue
 		{
 			[Token(Token = "0x600003E")]
-			[Address(RVA = "0x3021FF0", Offset = "0x30205F0", VA = "0x183021FF0")]
+			[Address(RVA = "0x6A08640", Offset = "0x6A07640", VA = "0x6A08640")]
 			get
 			{
 				return default(GlyphMetrics);
@@ -363,7 +363,7 @@ internal static class RichTextTagParser
 		internal bool BoolValue
 		{
 			[Token(Token = "0x600003F")]
-			[Address(RVA = "0x3021EB0", Offset = "0x30204B0", VA = "0x183021EB0")]
+			[Address(RVA = "0x6A086A0", Offset = "0x6A076A0", VA = "0x6A086A0")]
 			get
 			{
 				return default(bool);
@@ -374,7 +374,7 @@ internal static class RichTextTagParser
 		internal ValueID? ID
 		{
 			[Token(Token = "0x6000040")]
-			[Address(RVA = "0x3022070", Offset = "0x3020670", VA = "0x183022070")]
+			[Address(RVA = "0x6A08570", Offset = "0x6A07570", VA = "0x6A08570")]
 			get
 			{
 				return null;
@@ -382,43 +382,43 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x3021CE0", Offset = "0x30202E0", VA = "0x183021CE0")]
+		[Address(RVA = "0x69FFA80", Offset = "0x69FEA80", VA = "0x69FFA80")]
 		internal TagValue(float value, [Optional][DefaultParameterValue(0)] TagUnitType tagUnitType, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x3021D30", Offset = "0x3020330", VA = "0x183021D30")]
+		[Address(RVA = "0x69FF880", Offset = "0x69FE880", VA = "0x69FF880")]
 		internal TagValue(Color value, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x3021E60", Offset = "0x3020460", VA = "0x183021E60")]
+		[Address(RVA = "0x6A001A0", Offset = "0x69FF1A0", VA = "0x6A001A0")]
 		internal TagValue(string value, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3021E10", Offset = "0x3020410", VA = "0x183021E10")]
+		[Address(RVA = "0x69FFD70", Offset = "0x69FED70", VA = "0x69FFD70")]
 		internal TagValue(Vector4 value, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x3021D80", Offset = "0x3020380", VA = "0x183021D80")]
+		[Address(RVA = "0x6A00FB0", Offset = "0x69FFFB0", VA = "0x6A00FB0")]
 		internal TagValue(GlyphMetrics value, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x3021DD0", Offset = "0x30203D0", VA = "0x183021DD0")]
+		[Address(RVA = "0x6A00F80", Offset = "0x69FFF80", VA = "0x6A00F80")]
 		internal TagValue(bool value, [Optional] ValueID? id)
 		{
 		}
 
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x3021BF0", Offset = "0x30201F0", VA = "0x183021BF0", Slot = "3")]
+		[Address(RVA = "0x6A0B230", Offset = "0x6A0A230", VA = "0x6A0B230", Slot = "3")]
 		[CompilerGenerated]
 		public override string ToString()
 		{
@@ -426,7 +426,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+		[Address(RVA = "0x6A0B310", Offset = "0x6A0A310", VA = "0x6A0B310", Slot = "6")]
 		[CompilerGenerated]
 		protected virtual bool PrintMembers(StringBuilder builder)
 		{
@@ -434,7 +434,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x30221E0", Offset = "0x30207E0", VA = "0x1830221E0")]
+		[Address(RVA = "0x6A05660", Offset = "0x6A04660", VA = "0x6A05660")]
 		[CompilerGenerated]
 		public static bool operator ==(TagValue? left, TagValue? right)
 		{
@@ -442,7 +442,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x3021890", Offset = "0x301FE90", VA = "0x183021890", Slot = "2")]
+		[Address(RVA = "0x6A0B320", Offset = "0x6A0A320", VA = "0x6A0B320", Slot = "2")]
 		[CompilerGenerated]
 		public override int GetHashCode()
 		{
@@ -450,7 +450,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x3021800", Offset = "0x301FE00", VA = "0x183021800", Slot = "0")]
+		[Address(RVA = "0x6A0B670", Offset = "0x6A0A670", VA = "0x6A0B670", Slot = "0")]
 		[CompilerGenerated]
 		public override bool Equals(object? obj)
 		{
@@ -458,7 +458,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x3021470", Offset = "0x301FA70", VA = "0x183021470", Slot = "7")]
+		[Address(RVA = "0x6A0B6F0", Offset = "0x6A0A6F0", VA = "0x6A0B6F0", Slot = "7")]
 		[CompilerGenerated]
 		public virtual bool Equals(TagValue? other)
 		{
@@ -542,7 +542,7 @@ internal static class RichTextTagParser
 		protected virtual Type EqualityContract
 		{
 			[Token(Token = "0x6000047")]
-			[Address(RVA = "0x30169D0", Offset = "0x3014FD0", VA = "0x1830169D0", Slot = "5")]
+			[Address(RVA = "0x6A0BA80", Offset = "0x6A0AA80", VA = "0x6A0BA80", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
@@ -551,13 +551,13 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x1CF8770", Offset = "0x1CF6D70", VA = "0x181CF8770")]
+		[Address(RVA = "0x6A05630", Offset = "0x6A04630", VA = "0x6A05630")]
 		internal ParseError(string message, int position)
 		{
 		}
 
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x30168E0", Offset = "0x3014EE0", VA = "0x1830168E0", Slot = "3")]
+		[Address(RVA = "0x6A0BAE0", Offset = "0x6A0AAE0", VA = "0x6A0BAE0", Slot = "3")]
 		[CompilerGenerated]
 		public override string ToString()
 		{
@@ -565,7 +565,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x3016830", Offset = "0x3014E30", VA = "0x183016830", Slot = "6")]
+		[Address(RVA = "0x6A0BBC0", Offset = "0x6A0ABC0", VA = "0x6A0BBC0", Slot = "6")]
 		[CompilerGenerated]
 		protected virtual bool PrintMembers(StringBuilder builder)
 		{
@@ -573,7 +573,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x3016720", Offset = "0x3014D20", VA = "0x183016720", Slot = "2")]
+		[Address(RVA = "0x6A0BC60", Offset = "0x6A0AC60", VA = "0x6A0BC60", Slot = "2")]
 		[CompilerGenerated]
 		public override int GetHashCode()
 		{
@@ -581,7 +581,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x3016540", Offset = "0x3014B40", VA = "0x183016540", Slot = "0")]
+		[Address(RVA = "0x6A0BD60", Offset = "0x6A0AD60", VA = "0x6A0BD60", Slot = "0")]
 		[CompilerGenerated]
 		public override bool Equals(object? obj)
 		{
@@ -589,7 +589,7 @@ internal static class RichTextTagParser
 		}
 
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x30165D0", Offset = "0x3014BD0", VA = "0x1830165D0", Slot = "7")]
+		[Address(RVA = "0x6A0BDE0", Offset = "0x6A0ADE0", VA = "0x6A0BDE0", Slot = "7")]
 		[CompilerGenerated]
 		public virtual bool Equals(ParseError? other)
 		{
@@ -636,153 +636,153 @@ internal static class RichTextTagParser
 	private static readonly List<string> s_EmptyTagNameList;
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x3020C10", Offset = "0x301F210", VA = "0x183020C10")]
+	[Address(RVA = "0x69FF300", Offset = "0x69FE300", VA = "0x69FF300")]
 	private static bool tagMatch(ReadOnlySpan<char> tagCandidate, string tagName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x301E880", Offset = "0x301CE80", VA = "0x18301E880")]
+	[Address(RVA = "0x69FF410", Offset = "0x69FE410", VA = "0x69FF410")]
 	private static bool SpanToEnum(ReadOnlySpan<char> tagCandidate, out TagType tagType, out string? error, out ReadOnlySpan<char> attribute)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x301C110", Offset = "0x301A710", VA = "0x18301C110")]
+	[Address(RVA = "0x69FF6B0", Offset = "0x69FE6B0", VA = "0x69FF6B0")]
 	private static TagValue ParseColorAttribute(ReadOnlySpan<char> attributeSection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x301BF60", Offset = "0x301A560", VA = "0x18301BF60")]
+	[Address(RVA = "0x69FF8C0", Offset = "0x69FE8C0", VA = "0x69FF8C0")]
 	private static TagValue ParseAlphaAttribute(ReadOnlySpan<char> attributeSection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x301BDA0", Offset = "0x301A3A0", VA = "0x18301BDA0")]
+	[Address(RVA = "0x69FFA40", Offset = "0x69FEA40", VA = "0x69FFA40")]
 	private static int HexCharToInt(char hex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x301C330", Offset = "0x301A930", VA = "0x18301C330")]
+	[Address(RVA = "0x69FFAC0", Offset = "0x69FEAC0", VA = "0x69FFAC0")]
 	private static TagValue ParsePaddingAttribute(ReadOnlySpan<char> value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x301C220", Offset = "0x301A820", VA = "0x18301C220")]
+	[Address(RVA = "0x69FFDB0", Offset = "0x69FEDB0", VA = "0x69FFDB0")]
 	private static TagValue ParseHref(ReadOnlySpan<char> attributeSection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x301EC10", Offset = "0x301D210", VA = "0x18301EC10")]
+	[Address(RVA = "0x69FFEB0", Offset = "0x69FEEB0", VA = "0x69FFEB0")]
 	private static bool TryGetSimpleHref(ReadOnlySpan<char> attributeSection, out string hrefValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x301C610", Offset = "0x301AC10", VA = "0x18301C610")]
+	[Address(RVA = "0x6A001E0", Offset = "0x69FF1E0", VA = "0x6A001E0")]
 	private static bool ParseSpriteAttributes(ReadOnlySpan<char> attributeSection, TextSettings textSettings, out char unicode, out TagValue? spriteAssetValue, out TagValue? glyphMetricsValue, out TagValue? tintValue, out TagValue? scaleValue, out TagValue? colorValue, out string? spriteAssetNameOut)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x301E060", Offset = "0x301C660", VA = "0x18301E060")]
+	[Address(RVA = "0x6A00FF0", Offset = "0x69FFFF0", VA = "0x6A00FF0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void PreloadFontAssetsFromTags(string text, TextSettings textSettings)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x301E5E0", Offset = "0x301CBE0", VA = "0x18301E5E0")]
+	[Address(RVA = "0x6A01AF0", Offset = "0x6A00AF0", VA = "0x6A01AF0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void PreloadSpriteAssetsFromTags(string text, TextSettings textSettings)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x301E320", Offset = "0x301C920", VA = "0x18301E320")]
+	[Address(RVA = "0x6A02250", Offset = "0x6A01250", VA = "0x6A02250")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void PreloadGradientAssetsFromTags(string text, TextSettings textSettings)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x3018EF0", Offset = "0x30174F0", VA = "0x183018EF0")]
+	[Address(RVA = "0x6A029A0", Offset = "0x6A019A0", VA = "0x6A029A0")]
 	internal static List<Tag> FindTags(ref string inputStr, TextSettings textSettings, [Optional][DefaultParameterValue(false)] bool preprocessingOnly, [Optional] List<ParseError>? errors)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x301B250", Offset = "0x3019850", VA = "0x18301B250")]
+	[Address(RVA = "0x69FF7A0", Offset = "0x69FE7A0", VA = "0x69FF7A0")]
 	private static ReadOnlySpan<char> GetAttributeSpan(ReadOnlySpan<char> attributeSection)
 	{
 		return default(ReadOnlySpan<char>);
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x301D360", Offset = "0x301B960", VA = "0x18301D360")]
+	[Address(RVA = "0x6A05690", Offset = "0x6A04690", VA = "0x6A05690")]
 	private static TagUnitType ParseTagUnitType(ref ReadOnlySpan<char> attributeSection)
 	{
 		return default(TagUnitType);
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x301D610", Offset = "0x301BC10", VA = "0x18301D610")]
+	[Address(RVA = "0x6A058F0", Offset = "0x6A048F0", VA = "0x6A058F0")]
 	internal static List<Tag> PickResultingTags(List<Tag> allTags, string input, int atPosition, [Optional] List<Tag>? applicableTags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x301AFE0", Offset = "0x30195E0", VA = "0x18301AFE0")]
+	[Address(RVA = "0x6A06520", Offset = "0x6A05520", VA = "0x6A06520")]
 	internal static Segment[] GenerateSegments(string input, List<Tag> tags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x3016C70", Offset = "0x3015270", VA = "0x183016C70")]
+	[Address(RVA = "0x6A067C0", Offset = "0x6A057C0", VA = "0x6A067C0")]
 	internal static void ApplyStateToSegment(string input, List<Tag> tags, Segment[] segments)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3016A20", Offset = "0x3015020", VA = "0x183016A20")]
+	[Address(RVA = "0x6A06890", Offset = "0x6A05890", VA = "0x6A06890")]
 	private static int AddLink(TagType type, string value, List<(int, TagType, string)> links)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3017920", Offset = "0x3015F20", VA = "0x183017920")]
+	[Address(RVA = "0x6A06AD0", Offset = "0x6A05AD0", VA = "0x6A06AD0")]
 	private static TextSpan CreateTextSpan(Segment segment, ref NativeTextGenerationSettings tgs, List<(int, TagType, string)> links, Color hyperlinkColor, float pixelsPerPoint)
 	{
 		return default(TextSpan);
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x30174C0", Offset = "0x3015AC0", VA = "0x1830174C0")]
+	[Address(RVA = "0x6A08700", Offset = "0x6A07700", VA = "0x6A08700")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static void CreateTextGenerationSettingsArray(ref NativeTextGenerationSettings tgs, List<(int, TagType, string)> links, Color hyperlinkColor, float pixelsPerPoint, TextSettings textSettings)
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x301BDE0", Offset = "0x301A3E0", VA = "0x18301BDE0")]
+	[Address(RVA = "0x6A08A30", Offset = "0x6A07A30", VA = "0x6A08A30")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static bool MayNeedParsing(string text)
 	{
@@ -790,14 +790,14 @@ internal static class RichTextTagParser
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x3016D60", Offset = "0x3015360", VA = "0x183016D60")]
+	[Address(RVA = "0x6A08B50", Offset = "0x6A07B50", VA = "0x6A08B50")]
 	private static bool ContainsFontTag(string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x30171A0", Offset = "0x30157A0", VA = "0x1830171A0")]
+	[Address(RVA = "0x6A08C80", Offset = "0x6A07C80", VA = "0x6A08C80")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static bool ContainsSpriteTag(string text)
 	{
@@ -805,21 +805,21 @@ internal static class RichTextTagParser
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x3017330", Offset = "0x3015930", VA = "0x183017330")]
+	[Address(RVA = "0x6A08DB0", Offset = "0x6A07DB0", VA = "0x6A08DB0")]
 	internal static bool ContainsStyleTags(string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x3016EF0", Offset = "0x30154F0", VA = "0x183016EF0")]
+	[Address(RVA = "0x6A08EE0", Offset = "0x6A07EE0", VA = "0x6A08EE0")]
 	internal static bool ContainsGradientTag(string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x3017080", Offset = "0x3015680", VA = "0x183017080")]
+	[Address(RVA = "0x6A09010", Offset = "0x6A08010", VA = "0x6A09010")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static bool ContainsNobrTags(string text)
 	{
@@ -827,14 +827,14 @@ internal static class RichTextTagParser
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x301B3F0", Offset = "0x30199F0", VA = "0x18301B3F0")]
+	[Address(RVA = "0x6A01360", Offset = "0x6A00360", VA = "0x6A01360")]
 	internal static bool HasFontTags(string text, TextSettings textSettings, out List<string> fontAssetNames)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x301BA60", Offset = "0x301A060", VA = "0x18301BA60")]
+	[Address(RVA = "0x6A01E70", Offset = "0x6A00E70", VA = "0x6A01E70")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule", "UnityEngine.IMGUIModule" })]
 	internal static bool HasSpriteTags(string text, TextSettings textSettings, out List<string> spriteAssetNames)
 	{
@@ -842,7 +842,7 @@ internal static class RichTextTagParser
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x301B730", Offset = "0x3019D30", VA = "0x18301B730")]
+	[Address(RVA = "0x6A025C0", Offset = "0x6A015C0", VA = "0x6A025C0")]
 	internal static bool HasGradientTags(string text, TextSettings textSettings, out List<string> gradientAssetNames)
 	{
 		return default(bool);

@@ -26,7 +26,7 @@ internal static class EnumFieldHelpers
 	internal static readonly UxmlBoolAttributeDescription includeObsoleteValues;
 
 	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x31D0500", Offset = "0x31CEB00", VA = "0x1831D0500")]
+	[Address(RVA = "0x6BDC9B0", Offset = "0x6BDB9B0", VA = "0x6BDC9B0")]
 	internal static bool ExtractValue(IUxmlAttributes bag, CreationContext cc, out Type resEnumType, out Enum resEnumValue, out bool resIncludeObsoleteValues)
 	{
 		return default(bool);

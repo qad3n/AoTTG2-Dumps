@@ -21,7 +21,7 @@ public sealed class DataRowBuilder
 	internal int _record;
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
+	[Address(RVA = "0x5EA0130", Offset = "0x5E9F130", VA = "0x5EA0130")]
 	internal DataRowBuilder(DataTable table, int record)
 	{
 	}

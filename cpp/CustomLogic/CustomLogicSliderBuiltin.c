@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicSliderBuiltin
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicSliderBuiltin.cs
@@ -8,30 +8,28 @@
 
 // CustomLogic.CustomLogicSliderBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicSliderBuiltin_o* CustomLogic_CustomLogicSliderBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x1820748a0
+// 0x5b053e0
 
 CustomLogic_CustomLogicSliderBuiltin_o *
 CustomLogic_CustomLogicSliderBuiltin_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
-  System_String_o *str2;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
   System_ArgumentException_o *__this;
   MethodInfo *lastManagedFrame;
-  int32_t local_res8 [2];
+  int32_t local_14;
   
-  local_res8[0] = 0;
   NullCheck(args);
-  local_res8[0] = (int32_t)args->max_length;
-  pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-  str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+  pSVar1 = System_Int32__ToString(&local_14,(MethodInfo *)0x0);
   str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicSliderBuiltin constructor found that takes ");
-  pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+  str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+  pSVar1 = System_String__Concat_5301f10(str0,pSVar1,str2,(MethodInfo *)0x0);
   klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
   __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-  System_ArgumentException___ctor_1a77cc0(__this,pSVar1,(MethodInfo *)0x0);
+  System_ArgumentException___ctor_54186d0(__this,pSVar1,(MethodInfo *)0x0);
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Factory_CreateInstance);
@@ -41,44 +39,43 @@ CustomLogic_CustomLogicSliderBuiltin_Factory__CreateInstance(System_Object_array
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings.<>c$$.cctor
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings___c___cctor (const MethodInfo* method);
-// 0x18207b5f0
+// 0x5b06b10
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings___c___cctor(MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_184346608 == '\0') {
+  if (Il2CppMethodInitialized_07546fcd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-    Il2CppMethodInitialized_184346608 = '\x01';
+    Il2CppMethodInitialized_07546fcd = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9,__this);
+  __this = (Il2CppObject *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9 =
+       (CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9);
   return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings.<>c$$.ctor
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings___c___ctor (CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5b06b80
 
-void
-CustomLogic_CustomLogicSliderBuiltin_Bindings___c___ctor(CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicSliderBuiltin_Bindings___c___ctor
+               (CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings.<>c$$<__CreateMethodBinding__OnValueChanged>b__10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__OnValueChanged_b__10_0 (CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicSliderBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x182077e50
+// 0x5b06b90
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__OnValueChanged_b__10_0
@@ -87,13 +84,13 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__OnVal
 
 {
   Il2CppObject *obj;
-  CustomLogic_UserMethod_o *value;
+  CustomLogic_UserMethod_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346609 == '\0') {
+  if (Il2CppMethodInitialized_07546fce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_UserMethod);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346609 = '\x01';
+    Il2CppMethodInitialized_07546fce = '\x01';
   }
   if (__a != (System_Object_array *)0x0) {
     if ((int)__a->max_length == 0) {
@@ -103,12 +100,12 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__OnVal
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                      (obj,(MethodInfo_66EB70 *)
-                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_UserMethod);
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
+                            MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_UserMethod);
     if (__c != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-      (__c->fields)._valueChangedEvent = value;
-      Il2CppCodeGenWriteBarrier(&(__c->fields)._valueChangedEvent,value);
+      (__c->fields)._valueChangedEvent = pCVar1;
+      Il2CppCodeGenWriteBarrier(&(__c->fields)._valueChangedEvent);
       return (Il2CppObject *)__c;
     }
   }
@@ -118,7 +115,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__OnVal
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings.<>c$$<__CreateMethodBinding__SetValueWithoutNotify>b__11_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__SetValueWithoutNotify_b__11_0 (CustomLogic_CustomLogicSliderBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicSliderBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x182079f40
+// 0x5b06c30
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__SetValueWithoutNotify_b__11_0
@@ -131,7 +128,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__SetVa
       ThrowIndexOutOfRangeException();
     }
     if (__c != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-      CustomLogic_CustomLogicSliderBuiltin__SetValueWithoutNotify(__c,__a->m_Items[0],(MethodInfo *)0x0);
+      CustomLogic_CustomLogicSliderBuiltin__SetValueWithoutNotify(__c,__a->m_Items[0],(MethodInfo *)__a);
       return (Il2CppObject *)0x0;
     }
   }
@@ -141,27 +138,24 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings___c_____CreateMethodBinding__SetVa
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicSliderBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x182049b20
+// 0x5b05470
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  bool bVar2;
-  uint32_t uVar3;
-  System_Func_CustomLogicSliderBuiltin__object__o *__this;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *__this_00;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *pEVar4;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *pSVar5;
-  CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
-  System_String_o *pSVar6;
-  System_String_o *str0;
+  bool bVar1;
+  uint32_t uVar2;
+  CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *pCVar3;
+  CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *pCVar4;
+  System_String_o *pSVar5;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_Exception_o *__this_02;
-  MethodInfo *pMVar7;
+  System_Exception_o *__this;
+  MethodInfo *lastManagedFrame;
+  CustomLogic_CustomLogicSliderBuiltin_Bindings_c *pCVar6;
   
-  if (Il2CppMethodInitialized_1843465f5 == '\0') {
+  if (Il2CppMethodInitialized_07546fba == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&"OnValueChanged");
     il2cpp_codegen_initialize_runtime_metadata(&"Label");
@@ -173,459 +167,191 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings__CreateMemberBinding(System_String
     il2cpp_codegen_initialize_runtime_metadata(&"ShowInputField");
     il2cpp_codegen_initialize_runtime_metadata(&"LowValue");
     il2cpp_codegen_initialize_runtime_metadata(&"Direction");
-    Il2CppMethodInitialized_1843465f5 = '\x01';
+    Il2CppMethodInitialized_07546fba = '\x01';
   }
-  uVar3 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar3 < 0x86253654) {
-    if (uVar3 < 0x3a2089b8) {
-      if (uVar3 == 0xf54ee6e) {
-        bVar2 = System_String__op_Equality(name,"LowValue",(MethodInfo *)0x0);
-        if (!bVar2) goto label_18204a52f;
-        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843465f8 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____getter_4_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____setter_4_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-          Il2CppMethodInitialized_1843465f8 = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____getter_4_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        pMVar7 = 
-        MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____setter_4_1
-        ;
-      }
-      else {
-        if (uVar3 != 0x3a2089b7) goto label_18204a52f;
-        bVar2 = System_String__op_Equality(name,"PageSize",(MethodInfo *)0x0);
-        if (!bVar2) goto label_18204a52f;
-        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843465fa == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____getter_6_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____setter_6_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-          Il2CppMethodInitialized_1843465fa = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____getter_6_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        pMVar7 = 
-        MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____setter_6_1
-        ;
-      }
-    }
-    else if (uVar3 == 0x4c979c42) {
-      bVar2 = System_String__op_Equality(name,"HighValue",(MethodInfo *)0x0);
-      if (!bVar2) goto label_18204a52f;
-      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843465f9 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____getter_5_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____setter_5_1
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        Il2CppMethodInitialized_1843465f9 = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____getter_5_0
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-      pMVar7 = 
-      MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____setter_5_1
-      ;
-    }
-    else {
-      if (uVar3 != 0x61fefc0a) {
-        if (uVar3 != 0x86253653) goto label_18204a52f;
-        bVar2 = System_String__op_Equality(name,"IsIntSlider",(MethodInfo *)0x0);
-        if (!bVar2) goto label_18204a52f;
-        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843465fd == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__IsIntSlider_g____getter_9
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-          Il2CppMethodInitialized_1843465fd = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__IsIntSlider_g____getter_9
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_01 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin)
-        ;
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)0x0;
-        goto label_18204a50a;
-      }
-      bVar2 = System_String__op_Equality(name,"Direction",(MethodInfo *)0x0);
-      if (!bVar2) goto label_18204a52f;
-      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843465fb == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____getter_7_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____setter_7_1
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        Il2CppMethodInitialized_1843465fb = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____getter_7_0
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-      pMVar7 = 
-      MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____setter_7_1
-      ;
-    }
-  }
-  else if (uVar3 < 0xacc881fd) {
-    if (uVar3 == 0x9eccf29d) {
-      bVar2 = System_String__op_Equality(name,"Label",(MethodInfo *)0x0);
-      if (!bVar2) goto label_18204a52f;
-      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843465f6 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____getter_2_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____setter_2_1
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        Il2CppMethodInitialized_1843465f6 = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____getter_2_0
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-      pMVar7 = 
-      MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____setter_2_1;
-    }
-    else {
-      if (uVar3 != 0xacc881fc) goto label_18204a52f;
-      bVar2 = System_String__op_Equality(name,"ShowInputField",(MethodInfo *)0x0);
-      if (!bVar2) goto label_18204a52f;
-      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843465fc == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____gette
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____sette
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-        Il2CppMethodInitialized_1843465fc = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____gette
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-      pMVar7 = 
-      MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____sette
-      ;
-    }
-  }
-  else {
-    if (uVar3 != 0xd147f96a) {
-      if (uVar3 == 0xd1dd43b5) {
-        bVar2 = System_String__op_Equality(name,"SetValueWithoutNotify",(MethodInfo *)0x0);
-        if (bVar2) {
+  uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
+  if (uVar2 < 0x86253654) {
+    if (uVar2 < 0x3a2089b8) {
+      if (uVar2 == 0xf54ee6e) {
+        bVar1 = System_String__op_Equality(name,"LowValue",(MethodInfo *)0x0);
+        if (bVar1) {
           if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+            pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
-          if (Il2CppMethodInitialized_1843465ff == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__SetValueWithoutNotify_b
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-            Il2CppMethodInitialized_1843465ff = '\x01';
-          }
-          if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-          {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-          }
-          pEVar4 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                   TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0;
-          if (pEVar4 == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-            if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-               ) {
-              il2cpp_codegen_runtime_class_init
-                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-            }
-            pIVar1 = (Il2CppObject *)
-                     TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9;
-            pEVar4 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                     il2cpp_codegen_object_new
-                               ((Il2CppClass *)
-                                TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
-            System_Func_object__object__object____ctor
-                      (pEVar4,pIVar1,
-                       (intptr_t)
-                       MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__SetValueWithoutNotify_b
-                       ,(MethodInfo *)0x0);
-            TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0 =
-                 (System_Func_CustomLogicSliderBuiltin__object____object__o *)pEVar4;
-            Il2CppCodeGenWriteBarrier
-                      (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0,
-                       pEVar4);
-          }
-          pSVar5 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
-          CustomLogic_CLMethodBinding_object____ctor
-                    (pSVar5,(System_String_o *)pEVar4,
-                     MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-          return (CustomLogic_ICLMemberBinding_o *)pSVar5;
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue
+                             ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
-      else if (uVar3 == 0xf722a79f) {
-        bVar2 = System_String__op_Equality(name,"OnValueChanged",(MethodInfo *)0x0);
-        if (bVar2) {
+      else if (uVar2 == 0x3a2089b7) {
+        bVar1 = System_String__op_Equality(name,"PageSize",(MethodInfo *)0x0);
+        if (bVar1) {
           if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+            pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
-          if (Il2CppMethodInitialized_1843465fe == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__OnValueChanged_b__10_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-            Il2CppMethodInitialized_1843465fe = '\x01';
-          }
-          if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-          {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-          }
-          pEVar4 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                   TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0;
-          if (pEVar4 == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-            if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-               ) {
-              il2cpp_codegen_runtime_class_init
-                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-            }
-            pIVar1 = (Il2CppObject *)
-                     TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9;
-            pEVar4 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                     il2cpp_codegen_object_new
-                               ((Il2CppClass *)
-                                TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
-            System_Func_object__object__object____ctor
-                      (pEVar4,pIVar1,
-                       (intptr_t)
-                       MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__OnValueChanged_b__10_0
-                       ,(MethodInfo *)0x0);
-            TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0 =
-                 (System_Func_CustomLogicSliderBuiltin__object____object__o *)pEVar4;
-            Il2CppCodeGenWriteBarrier
-                      (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0,
-                       pEVar4);
-          }
-          pSVar5 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-                   il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
-          CustomLogic_CLMethodBinding_object____ctor
-                    (pSVar5,(System_String_o *)pEVar4,
-                     MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-          return (CustomLogic_ICLMemberBinding_o *)pSVar5;
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize
+                             ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
-label_18204a52f:
-      pSVar6 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicSliderBuiltin not found");
-      str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
-      pSVar6 = System_String__Concat_1969b70(str0,name,pSVar6,(MethodInfo *)0x0);
-      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-      __this_02 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-      System_Exception___ctor_1b6abf0(__this_02,pSVar6,(MethodInfo *)0x0);
-      pMVar7 = il2cpp_codegen_get_runtime_metadata
-                         (&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_CreateMemberBinding);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this_02,pMVar7);
     }
-    bVar2 = System_String__op_Equality(name,"Value",(MethodInfo *)0x0);
-    if (!bVar2) goto label_18204a52f;
-    if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings)
-      ;
+    else if (uVar2 == 0x86253653) {
+      bVar1 = System_String__op_Equality(name,"IsIntSlider",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSlider
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSlider
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
     }
-    if (Il2CppMethodInitialized_1843465f7 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-      il2cpp_codegen_initialize_runtime_metadata
-                (&
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____getter_3_0
-                );
-      il2cpp_codegen_initialize_runtime_metadata
-                (&
-                 MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____setter_3_1
-                );
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-      il2cpp_codegen_initialize_runtime_metadata
-                (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-      Il2CppMethodInitialized_1843465f7 = '\x01';
+    else if (uVar2 == 0x4c979c42) {
+      bVar1 = System_String__op_Equality(name,"HighValue",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValue
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValue
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
     }
-    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    System_Func_object__object____ctor
-              ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-               (intptr_t)
-               MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____getter_3_0
-               ,(MethodInfo_16E67D0 *)0x0);
-    __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
-    pMVar7 = 
-    MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____setter_3_1;
+    else if (uVar2 == 0x61fefc0a) {
+      bVar1 = System_String__op_Equality(name,"Direction",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Direction
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Direction
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
   }
-  System_Action_object__object____ctor
-            (__this_00,(Il2CppObject *)0x0,(intptr_t)pMVar7,(MethodInfo *)0x0);
-  __this_01 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
-label_18204a50a:
-  CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
-             (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
-  return (CustomLogic_ICLMemberBinding_o *)__this_01;
+  else if (uVar2 < 0xacc881fd) {
+    if (uVar2 == 0x9eccf29d) {
+      bVar1 = System_String__op_Equality(name,"Label",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+    else if (uVar2 == 0xacc881fc) {
+      bVar1 = System_String__op_Equality(name,"ShowInputField",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInputField
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInputField
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+  }
+  else if (uVar2 == 0xd147f96a) {
+    bVar1 = System_String__op_Equality(name,"Value",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+      pCVar3 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value
+                         ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+    }
+  }
+  else if (uVar2 == 0xd1dd43b5) {
+    bVar1 = System_String__op_Equality(name,"SetValueWithoutNotify",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        pCVar4 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__SetValueWithoutNotify
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+      }
+      pCVar4 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__SetValueWithoutNotify
+                         ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+    }
+  }
+  else if (uVar2 == 0xf722a79f) {
+    bVar1 = System_String__op_Equality(name,"OnValueChanged",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings;
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+        pCVar4 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__OnValueChanged
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+      }
+      pCVar4 = CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__OnValueChanged
+                         ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+    }
+  }
+  pSVar5 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  str2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicSliderBuiltin not found");
+  pSVar5 = System_String__Concat_5301f10(pSVar5,name,str2,(MethodInfo *)0x0);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+  __this = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_54fa440(__this,pSVar5,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__Label
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label (const MethodInfo* method);
-// 0x182062780
+// 0x5b05930
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label(MethodInfo *method)
@@ -635,7 +361,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label(Me
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465f6 == '\0') {
+  if (Il2CppMethodInitialized_07546fbb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -650,35 +376,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Label(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465f6 = '\x01';
+    Il2CppMethodInitialized_07546fbb = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____getter_2_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Label_g____setter_2_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__Value
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value (const MethodInfo* method);
-// 0x182063b80
+// 0x5b05a10
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value(MethodInfo *method)
@@ -688,7 +413,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value(Me
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465f7 == '\0') {
+  if (Il2CppMethodInitialized_07546fbc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -703,35 +428,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Value(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465f7 = '\x01';
+    Il2CppMethodInitialized_07546fbc = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____getter_3_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Value_g____setter_3_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__LowValue
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue (const MethodInfo* method);
-// 0x182062c30
+// 0x5b05af0
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue(MethodInfo *method)
@@ -741,7 +465,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465f8 == '\0') {
+  if (Il2CppMethodInitialized_07546fbd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -756,35 +480,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__LowValue
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465f8 = '\x01';
+    Il2CppMethodInitialized_07546fbd = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____getter_4_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__LowValue_g____setter_4_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__HighValue
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValue (const MethodInfo* method);
-// 0x182062140
+// 0x5b05bd0
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValue(MethodInfo *method)
@@ -794,7 +517,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValu
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465f9 == '\0') {
+  if (Il2CppMethodInitialized_07546fbe == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -809,35 +532,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__HighValu
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465f9 = '\x01';
+    Il2CppMethodInitialized_07546fbe = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____getter_5_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__HighValue_g____setter_5_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__PageSize
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize (const MethodInfo* method);
-// 0x182062ff0
+// 0x5b05cb0
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize(MethodInfo *method)
@@ -847,7 +569,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465fa == '\0') {
+  if (Il2CppMethodInitialized_07546fbf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -862,35 +584,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__PageSize
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465fa = '\x01';
+    Il2CppMethodInitialized_07546fbf = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____getter_6_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__PageSize_g____setter_6_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__Direction
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Direction (const MethodInfo* method);
-// 0x182061a10
+// 0x5b05d90
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Direction(MethodInfo *method)
@@ -900,7 +621,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Directio
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465fb == '\0') {
+  if (Il2CppMethodInitialized_07546fc0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -915,35 +636,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__Directio
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465fb = '\x01';
+    Il2CppMethodInitialized_07546fc0 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____getter_7_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__Direction_g____setter_7_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__ShowInputField
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInputField (const MethodInfo* method);
-// 0x1820634a0
+// 0x5b05e70
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInputField(MethodInfo *method)
@@ -953,7 +673,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInpu
   System_Action_CustomLogicSliderBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465fc == '\0') {
+  if (Il2CppMethodInitialized_07546fc1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicSliderBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -968,35 +688,34 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__ShowInpu
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465fc = '\x01';
+    Il2CppMethodInitialized_07546fc1 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____gette
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicSliderBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__ShowInputField_g____sette
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreatePropertyBinding__IsIntSlider
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSlider (const MethodInfo* method);
-// 0x1820626e0
+// 0x5b05f50
 
 CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSlider(MethodInfo *method)
@@ -1005,7 +724,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSli
   System_Func_CustomLogicSliderBuiltin__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843465fd == '\0') {
+  if (Il2CppMethodInitialized_07546fc2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__IsIntSlider_g____getter_9
@@ -1015,37 +734,41 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreatePropertyBinding__IsIntSli
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
-    Il2CppMethodInitialized_1843465fd = '\x01';
+    Il2CppMethodInitialized_07546fc2 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings___CreatePropertyBinding__IsIntSlider_g____getter_9
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicSliderBuiltin_ctor);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreateMethodBinding__OnValueChanged
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__OnValueChanged (const MethodInfo* method);
-// 0x18205b760
+// 0x5b05ff0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b06025: jmp 0x5b06095
 
 CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__OnValueChanged(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicSliderBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicSliderBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843465fe == '\0') {
+  if (Il2CppMethodInitialized_07546fc3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin)
@@ -1057,57 +780,68 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__OnValueCha
                MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__OnValueChanged_b__10_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843465fe = '\x01';
+    Il2CppMethodInitialized_07546fc3 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)
     ;
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__10_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__10_0;
+  }
+  if (__this == (System_Func_CustomLogicSliderBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__OnValueChanged_b__10_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0 =
-         (System_Func_CustomLogicSliderBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__10_0,__this);
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__10_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__10_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$__CreateMethodBinding__SetValueWithoutNotify
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o* CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__SetValueWithoutNotify (const MethodInfo* method);
-// 0x18205f570
+// 0x5b06130
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b06165: jmp 0x5b061d5
 
 CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *
 CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__SetValueWithoutNotify
           (MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicSliderBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicSliderBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843465ff == '\0') {
+  if (Il2CppMethodInitialized_07546fc4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin)
@@ -1119,53 +853,60 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings____CreateMethodBinding__SetValueWi
                MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__SetValueWithoutNotify_b
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843465ff = '\x01';
+    Il2CppMethodInitialized_07546fc4 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)
     ;
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__11_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__11_0;
+  }
+  if (__this == (System_Func_CustomLogicSliderBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicSliderBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c___CreateMethodBinding__SetValueWithoutNotify_b
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0 =
-         (System_Func_CustomLogicSliderBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields->__9__11_0,__this);
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__11_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__11_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicSliderBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x182065940
+// 0x5b06270
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_184346600 == '\0') {
+  if (Il2CppMethodInitialized_07546fc5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
@@ -1180,55 +921,55 @@ void CustomLogic_CustomLogicSliderBuiltin_Bindings___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"ShowInputField");
     il2cpp_codegen_initialize_runtime_metadata(&"LowValue");
     il2cpp_codegen_initialize_runtime_metadata(&"Direction");
-    Il2CppMethodInitialized_184346600 = '\x01';
+    Il2CppMethodInitialized_07546fc5 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Label",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Value",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LowValue",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"HighValue",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PageSize",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Direction",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"ShowInputField",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"IsIntSlider",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"OnValueChanged",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SetValueWithoutNotify",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->static_fields->MemberNames = __this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->static_fields->MemberNames,__this);
-    return;
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Label",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Value",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LowValue",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"HighValue",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PageSize",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Direction",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"ShowInputField",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"IsIntSlider",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"OnValueChanged",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SetValueWithoutNotify",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->static_fields->MemberNames = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicSliderBuiltin_Bindings->static_fields->MemberNames);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Label>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g____getter_2_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x1820550c0
+// 0x5b06470
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g____getter_2_0
@@ -1240,18 +981,18 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g
   System_String_o *pSVar1;
   
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843465ea == '\0') {
+    if (Il2CppMethodInitialized_07546faf == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_float_get_label)
       ;
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
-      Il2CppMethodInitialized_1843465ea = '\x01';
+      Il2CppMethodInitialized_07546faf = '\x01';
     }
     if ((__i->fields)._isIntSlider == false) {
       __this_00 = (__i->fields)._floatSlider;
       if (__this_00 != (UnityEngine_UIElements_Slider_o *)0x0) {
-        pSVar1 = UnityEngine_UIElements_BaseField_Vector2Int___get_label
+        pSVar1 = UnityEngine_UIElements_BaseField_float___get_label
                            ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_00,
-                            (MethodInfo_100AEC0 *)MethodInfo_UnityEngine_UIElements_BaseField_float_get_label)
+                            (MethodInfo_4672610 *)MethodInfo_UnityEngine_UIElements_BaseField_float_get_label)
         ;
         return (Il2CppObject *)pSVar1;
       }
@@ -1259,9 +1000,9 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g
     else {
       __this = (__i->fields)._intSlider;
       if (__this != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        pSVar1 = UnityEngine_UIElements_BaseField_Vector2Int___get_label
-                           ((UnityEngine_UIElements_BaseField_TValueType__o *)__this,
-                            (MethodInfo_100AEC0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
+        pSVar1 = UnityEngine_UIElements_BaseField_int___get_label
+                           ((UnityEngine_UIElements_BaseField_int__o *)__this,
+                            (MethodInfo_46629C0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
         return (Il2CppObject *)pSVar1;
       }
     }
@@ -1272,48 +1013,48 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Label>g____setter|2_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g____setter_2_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x182055390
+// 0x5b064e0
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Label_g____setter_2_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *__this;
-  UnityEngine_UIElements_SliderInt_o *__this_00;
+  UnityEngine_UIElements_SliderInt_o *__this;
+  UnityEngine_UIElements_Slider_o *__this_00;
   System_String_o *value;
   
-  if (Il2CppMethodInitialized_184346601 == '\0') {
+  if (Il2CppMethodInitialized_07546fc6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346601 = '\x01';
+    Il2CppMethodInitialized_07546fc6 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                    (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                    (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843465eb == '\0') {
+    if (Il2CppMethodInitialized_07546fb0 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_float_set_label)
       ;
       il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
-      Il2CppMethodInitialized_1843465eb = '\x01';
+      Il2CppMethodInitialized_07546fb0 = '\x01';
     }
     if ((__i->fields)._isIntSlider == false) {
-      __this = (__i->fields)._floatSlider;
-      if (__this != (UnityEngine_UIElements_Slider_o *)0x0) {
-        UnityEngine_UIElements_BaseField_Vector2Int___set_label
-                  ((UnityEngine_UIElements_BaseField_TValueType__o *)__this,value,
-                   (MethodInfo_100C7D0 *)MethodInfo_UnityEngine_UIElements_BaseField_float_set_label);
+      __this_00 = (__i->fields)._floatSlider;
+      if (__this_00 != (UnityEngine_UIElements_Slider_o *)0x0) {
+        UnityEngine_UIElements_BaseField_float___set_label
+                  ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_00,value,
+                   (MethodInfo_4672640 *)MethodInfo_UnityEngine_UIElements_BaseField_float_set_label);
         return;
       }
     }
     else {
-      __this_00 = (__i->fields)._intSlider;
-      if (__this_00 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        UnityEngine_UIElements_BaseField_Vector2Int___set_label
-                  ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_00,value,
-                   (MethodInfo_100C7D0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
+      __this = (__i->fields)._intSlider;
+      if (__this != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+        UnityEngine_UIElements_BaseField_int___set_label
+                  ((UnityEngine_UIElements_BaseField_int__o *)__this,value,
+                   (MethodInfo_46629F0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
         return;
       }
     }
@@ -1324,39 +1065,42 @@ void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__La
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Value>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Value_g____getter_3_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182056630
+// 0x5b065c0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Value_g____getter_3_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *pUVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
-  Il2CppObject *pIVar3;
-  undefined4 local_res8 [8];
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  UnityEngine_UIElements_Slider_o *pUVar2;
+  undefined4 uVar3;
+  undefined8 in_RAX;
+  Il2CppObject *pIVar4;
+  undefined8 uStack_8;
   
-  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    ThrowNullReferenceException();
-  }
-  if ((__i->fields)._isIntSlider == false) {
-    pUVar1 = (__i->fields)._floatSlider;
-    if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-      local_res8[0] =
-           (*(pUVar1->klass->vtable)._148_get_value.methodPtr)
-                     (pUVar1,(pUVar1->klass->vtable)._148_get_value.method);
-      pIVar3 = il2cpp_value_box(g_data_184354e38,local_res8);
-      return pIVar3;
+  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    uStack_8 = in_RAX;
+    if ((__i->fields)._isIntSlider == false) {
+      pUVar2 = (__i->fields)._floatSlider;
+      if (pUVar2 != (UnityEngine_UIElements_Slider_o *)0x0) {
+        uVar3 = (*(pUVar2->klass->vtable)._148_get_value.methodPtr)
+                          (pUVar2,(pUVar2->klass->vtable)._148_get_value.method);
+        uStack_8 = CONCAT44(uStack_8._4_4_,uVar3);
+        pIVar4 = il2cpp_vm_Object_Box(g_data_07556740,&uStack_8);
+        return pIVar4;
+      }
     }
-    ThrowNullReferenceException();
-  }
-  pUVar2 = (__i->fields)._intSlider;
-  if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-    local_res8[0] =
-         (*(pUVar2->klass->vtable)._148_get_value.methodPtr)
-                   (pUVar2,(pUVar2->klass->vtable)._148_get_value.method);
-    pIVar3 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar3;
+    else {
+      pUVar1 = (__i->fields)._intSlider;
+      if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+        uVar3 = (*(pUVar1->klass->vtable)._148_get_value.methodPtr)
+                          (pUVar1,(pUVar1->klass->vtable)._148_get_value.method);
+        uStack_8 = CONCAT44(uVar3,(undefined4)uStack_8);
+        pIVar4 = il2cpp_vm_Object_Box(g_data_07556710,(void *)((long)&uStack_8 + 4));
+        return pIVar4;
+      }
+    }
   }
   ThrowNullReferenceException();
 }
@@ -1364,214 +1108,154 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Value_g
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Value>g____setter|3_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Value_g____setter_3_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x1820567a0
+// 0x5b06640
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Value_g____setter_3_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   Il2CppObject *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184346602 == '\0') {
+  if (Il2CppMethodInitialized_07546fc7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346602 = '\x01';
+    Il2CppMethodInitialized_07546fc7 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                    (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicSliderBuiltin__set_Value(__i,value,(MethodInfo *)0x0);
-    return;
+                    (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicSliderBuiltin__set_Value(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__LowValue>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__LowValue_g____getter_4_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182055650
+// 0x5b066c0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__LowValue_g____getter_4_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *__this;
-  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
   Il2CppObject *pIVar1;
-  float local_res8 [8];
   
   if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     ThrowNullReferenceException();
   }
-  if (Il2CppMethodInitialized_1843465ec == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_lowValue)
-    ;
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_lowValue);
-    Il2CppMethodInitialized_1843465ec = '\x01';
-  }
-  if ((__i->fields)._isIntSlider == false) {
-    __this = (__i->fields)._floatSlider;
-    if (__this != (UnityEngine_UIElements_Slider_o *)0x0) {
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_lowValue
-                     ((UnityEngine_UIElements_MinMaxSlider_o *)__this,
-                      MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_lowValue);
-      pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-      return pIVar1;
-    }
-    ThrowNullReferenceException();
-  }
-  __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__i->fields)._intSlider;
-  if (__this_00 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-    local_res8[0] =
-         (float)UnityEngine_UIElements_BaseSlider_int___get_lowValue
-                          (__this_00,
-                           (MethodInfo_12ADD00 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_lowValue
-                          );
-    pIVar1 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar1;
-  }
-  ThrowNullReferenceException();
+  pIVar1 = CustomLogic_CustomLogicSliderBuiltin__get_LowValue(__i,method);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__LowValue>g____setter|4_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__LowValue_g____setter_4_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x1820557e0
+// 0x5b066d0
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__LowValue_g____setter_4_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   Il2CppObject *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184346603 == '\0') {
+  if (Il2CppMethodInitialized_07546fc8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346603 = '\x01';
+    Il2CppMethodInitialized_07546fc8 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                    (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicSliderBuiltin__set_LowValue(__i,value,(MethodInfo *)0x0);
-    return;
+                    (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicSliderBuiltin__set_LowValue(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__HighValue>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__HighValue_g____getter_5_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182054a30
+// 0x5b06750
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__HighValue_g____getter_5_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *__this;
-  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
   Il2CppObject *pIVar1;
-  float local_res8 [8];
   
   if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     ThrowNullReferenceException();
   }
-  if (Il2CppMethodInitialized_1843465ee == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_highValue);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_highValue);
-    Il2CppMethodInitialized_1843465ee = '\x01';
-  }
-  if ((__i->fields)._isIntSlider == false) {
-    __this = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._floatSlider;
-    if (__this != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_highValue
-                     (__this,(MethodInfo_12ADBB0 *)
-                             MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_highValue);
-      pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-      return pIVar1;
-    }
-    ThrowNullReferenceException();
-  }
-  __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__i->fields)._intSlider;
-  if (__this_00 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-    local_res8[0] =
-         (float)UnityEngine_UIElements_BaseSlider_int___get_highValue
-                          (__this_00,
-                           (MethodInfo_12ADBA0 *)
-                           MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_highValue);
-    pIVar1 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar1;
-  }
-  ThrowNullReferenceException();
+  pIVar1 = CustomLogic_CustomLogicSliderBuiltin__get_HighValue(__i,method);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__HighValue>g____setter|5_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__HighValue_g____setter_5_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x182054af0
+// 0x5b06760
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__HighValue_g____setter_5_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   Il2CppObject *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184346604 == '\0') {
+  if (Il2CppMethodInitialized_07546fc9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346604 = '\x01';
+    Il2CppMethodInitialized_07546fc9 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                    (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicSliderBuiltin__set_HighValue(__i,value,(MethodInfo *)0x0);
-    return;
+                    (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_object);
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicSliderBuiltin__set_HighValue(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__PageSize>g____getter|6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__PageSize_g____getter_6_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182055a00
+// 0x5b067e0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__PageSize_g____getter_6_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
-  float local_res8 [8];
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  Il2CppObject *pIVar2;
+  undefined1 auStack_4 [4];
   
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     if ((__i->fields)._isIntSlider == false) {
-      pUVar2 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
+      pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
     }
     else {
-      pUVar2 = (__i->fields)._intSlider;
+      pUVar1 = (__i->fields)._intSlider;
     }
-    if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-      local_res8[0] =
-           (*(pUVar2->klass->vtable)._165_get_pageSize.methodPtr)
-                     (pUVar2,(pUVar2->klass->vtable)._165_get_pageSize.method);
-      pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-      return pIVar1;
+    if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+      (*(pUVar1->klass->vtable)._165_get_pageSize.methodPtr)
+                (pUVar1,(pUVar1->klass->vtable)._165_get_pageSize.method);
+      pIVar2 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
+      return pIVar2;
     }
   }
   ThrowNullReferenceException();
@@ -1580,7 +1264,7 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__PageSiz
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__PageSize>g____setter|6_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__PageSize_g____setter_6_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x182055a50
+// 0x5b06830
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__PageSize_g____setter_6_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1589,16 +1273,16 @@ void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Pa
   UnityEngine_UIElements_SliderInt_o *pUVar1;
   float fVar2;
   
-  if (Il2CppMethodInitialized_184346605 == '\0') {
+  if (Il2CppMethodInitialized_07546fca == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346605 = '\x01';
+    Il2CppMethodInitialized_07546fca = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   fVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+                    (__v,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     if ((__i->fields)._isIntSlider == false) {
       pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
@@ -1618,161 +1302,107 @@ void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Pa
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Direction>g____getter|7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Direction_g____getter_7_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182054380
+// 0x5b068d0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Direction_g____getter_7_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
-  Il2CppObject *pIVar2;
-  int32_t local_res8 [8];
+  UnityEngine_UIElements_BaseSlider_int__o *__this;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_00;
+  Il2CppObject *pIVar1;
+  int32_t local_c;
   
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843465f0 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
-      Il2CppMethodInitialized_1843465f0 = '\x01';
-    }
-    if ((__i->fields)._isIntSlider == false) {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._floatSlider;
-      if (pUVar1 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_182054403;
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_direction
-                     (pUVar1,(MethodInfo_12ADB00 *)
-                             MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
-    }
-    else {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._intSlider;
-      if (pUVar1 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_182054403;
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_direction
-                     (pUVar1,(MethodInfo_12ADB00 *)
-                             MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
-    }
-    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar2;
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+label_05b06960:
+    ThrowNullReferenceException();
   }
-label_182054403:
-  ThrowNullReferenceException();
+  if (Il2CppMethodInitialized_07546fb5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
+    Il2CppMethodInitialized_07546fb5 = '\x01';
+  }
+  if ((__i->fields)._isIntSlider == false) {
+    __this_00 = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._floatSlider;
+    if (__this_00 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_05b06960;
+    local_c = UnityEngine_UIElements_BaseSlider_float___get_direction
+                        (__this_00,
+                         (MethodInfo_48164E0 *)
+                         MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
+  }
+  else {
+    __this = (UnityEngine_UIElements_BaseSlider_int__o *)(__i->fields)._intSlider;
+    if (__this == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) goto label_05b06960;
+    local_c = UnityEngine_UIElements_BaseSlider_int___get_direction
+                        (__this,(MethodInfo_480F750 *)
+                                MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
+  }
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,&local_c);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__Direction>g____setter|7_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Direction_g____setter_7_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x182054410
+// 0x5b06970
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Direction_g____setter_7_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
-  Il2CppType *handle;
-  bool bVar2;
   int32_t value;
-  System_Type_o *enumType;
-  Il2CppObject *pIVar3;
-  System_String_o *pSVar4;
-  Il2CppClass *klass;
-  System_ArgumentException_o *__this;
-  MethodInfo *lastManagedFrame;
-  int32_t local_res8 [2];
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184346606 == '\0') {
+  if (Il2CppMethodInitialized_07546fcb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346606 = '\x01';
+    Il2CppMethodInitialized_07546fcb = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   value = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                    (__v,(MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843465f1 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_direction);
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_direction);
-      il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UIElements_SliderDirection);
-      Il2CppMethodInitialized_1843465f1 = '\x01';
-    }
-    handle = TypeRef_UnityEngine_UIElements_SliderDirection;
-    if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354ea0);
-    }
-    enumType = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-    local_res8[0] = value;
-    pIVar3 = il2cpp_value_box(g_data_184354e08,local_res8);
-    if ((g_data_184354e58->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e58);
-    }
-    bVar2 = System_Enum__IsDefined(enumType,pIVar3,(MethodInfo *)0x0);
-    if (!bVar2) {
-      local_res8[0] = value;
-      pIVar3 = il2cpp_value_box(g_data_184354e08,local_res8);
-      pSVar4 = il2cpp_codegen_get_runtime_metadata(&"Invalid slider direction: {0}");
-      pSVar4 = System_String__Format(pSVar4,pIVar3,(MethodInfo *)0x0);
-      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
-      __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-      System_ArgumentException___ctor_1a77cc0(__this,pSVar4,(MethodInfo *)0x0);
-      lastManagedFrame =
-           il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_set_Direction)
-      ;
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
-    }
-    if ((__i->fields)._isIntSlider == false) {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._floatSlider;
-      if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_float___set_direction
-                  (pUVar1,value,
-                   (MethodInfo_12AE660 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_direction);
-        return;
-      }
-    }
-    else {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__i->fields)._intSlider;
-      if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_float___set_direction
-                  (pUVar1,value,
-                   (MethodInfo_12AE660 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_direction);
-        return;
-      }
-    }
+                    (__v,(MethodInfo_34BDC20 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicSliderBuiltin__set_Direction(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__ShowInputField>g____getter|8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__ShowInputField_g____getter_8_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x1820560d0
+// 0x5b069f0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__ShowInputField_g____getter_8_0
           (CustomLogic_CustomLogicSliderBuiltin_o *__i,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
-  undefined1 local_res8 [32];
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  undefined1 uVar2;
+  undefined8 in_RAX;
+  Il2CppObject *pIVar3;
+  undefined8 uStack_8;
   
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     if ((__i->fields)._isIntSlider == false) {
-      pUVar2 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
+      pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
     }
     else {
-      pUVar2 = (__i->fields)._intSlider;
+      pUVar1 = (__i->fields)._intSlider;
     }
-    if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-      local_res8[0] =
-           (*(pUVar2->klass->vtable)._167_get_showInputField.methodPtr)
-                     (pUVar2,(pUVar2->klass->vtable)._167_get_showInputField.method);
-      pIVar1 = il2cpp_value_box(g_data_184354de8,local_res8);
-      return pIVar1;
+    if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+      uStack_8 = in_RAX;
+      uVar2 = (*(pUVar1->klass->vtable)._167_get_showInputField.methodPtr)
+                        (pUVar1,(pUVar1->klass->vtable)._167_get_showInputField.method);
+      uStack_8 = CONCAT17(uVar2,(undefined7)uStack_8);
+      pIVar3 = il2cpp_vm_Object_Box(g_data_075566f0,(void *)((long)&uStack_8 + 7));
+      return pIVar3;
     }
   }
   ThrowNullReferenceException();
@@ -1781,42 +1411,41 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__ShowInp
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__ShowInputField>g____setter|8_1
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__ShowInputField_g____setter_8_1 (CustomLogic_CustomLogicSliderBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x182056120
+// 0x5b06a40
 
 void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__ShowInputField_g____setter_8_1
                (CustomLogic_CustomLogicSliderBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *pUVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  UnityEngine_UIElements_SliderInt_c *pUVar2;
+  Il2CppMethodPointer vtableDispatch;
   bool bVar3;
   
-  if (Il2CppMethodInitialized_184346607 == '\0') {
+  if (Il2CppMethodInitialized_07546fcc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184346607 = '\x01';
+    Il2CppMethodInitialized_07546fcc = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   bVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                    (__v,(MethodInfo_66E400 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+                    (__v,(MethodInfo_34BD860 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
   if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
     if ((__i->fields)._isIntSlider == false) {
-      pUVar1 = (__i->fields)._floatSlider;
-      if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-        (*(pUVar1->klass->vtable)._168_set_showInputField.methodPtr)
-                  (pUVar1,(ulonglong)bVar3,(pUVar1->klass->vtable)._168_set_showInputField.method);
-        return;
-      }
+      pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__i->fields)._floatSlider;
     }
     else {
-      pUVar2 = (__i->fields)._intSlider;
-      if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        (*(pUVar2->klass->vtable)._168_set_showInputField.methodPtr)
-                  (pUVar2,(ulonglong)bVar3,(pUVar2->klass->vtable)._168_set_showInputField.method);
-        return;
-      }
+      pUVar1 = (__i->fields)._intSlider;
+    }
+    if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+      pUVar2 = pUVar1->klass;
+      vtableDispatch = (pUVar2->vtable)._168_set_showInputField.methodPtr;
+      (*vtableDispatch)
+                (pUVar1,(ulong)bVar3,(pUVar2->vtable)._168_set_showInputField.method,pUVar2,
+                 vtableDispatch);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -1825,7 +1454,7 @@ void CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__Sh
 
 // CustomLogic.CustomLogicSliderBuiltin.Bindings$$<__CreatePropertyBinding__IsIntSlider>g____getter|9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__IsIntSlider_g____getter_9_0 (CustomLogic_CustomLogicSliderBuiltin_o* __i, const MethodInfo* method);
-// 0x182055090
+// 0x5b06ae0
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__IsIntSlider_g____getter_9_0
@@ -1833,20 +1462,19 @@ CustomLogic_CustomLogicSliderBuiltin_Bindings_____CreatePropertyBinding__IsIntSl
 
 {
   Il2CppObject *pIVar1;
-  undefined1 local_res8 [32];
+  undefined1 uStack_1;
   
-  if (__i != (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
-    local_res8[0] = (__i->fields)._isIntSlider;
-    pIVar1 = il2cpp_value_box(g_data_184354de8,local_res8);
-    return pIVar1;
+  if (__i == (CustomLogic_CustomLogicSliderBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_1);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin___ctor (CustomLogic_CustomLogicSliderBuiltin_o* __this, UnityEngine_UIElements_Slider_o* slider, const MethodInfo* method);
-// 0x182068cf0
+// 0x5b04580
 
 void CustomLogic_CustomLogicSliderBuiltin___ctor
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,UnityEngine_UIElements_Slider_o *slider,
@@ -1854,9 +1482,9 @@ void CustomLogic_CustomLogicSliderBuiltin___ctor
 
 {
   UnityEngine_UIElements_Slider_o *control;
-  DG_Tweening_Core_DOSetter_T__o *__this_00;
+  UnityEngine_UIElements_EventCallback_TEventType__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843465e6 == '\0') {
+  if (Il2CppMethodInitialized_07546fab == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__4_0);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_UnityEngine_UIElements_EventCallback_ChangeEvent_float);
@@ -1864,25 +1492,25 @@ void CustomLogic_CustomLogicSliderBuiltin___ctor
               (&
                MethodInfo_UnityEngine_UIElements_INotifyValueChangedExtensions_RegisterValueChangedCallback_float
               );
-    Il2CppMethodInitialized_1843465e6 = '\x01';
+    Il2CppMethodInitialized_07546fab = '\x01';
   }
   CustomLogic_CustomLogicVisualElementBuiltin___ctor
             ((CustomLogic_CustomLogicVisualElementBuiltin_o *)__this,
              (UnityEngine_UIElements_VisualElement_o *)slider,(MethodInfo *)0x0);
   (__this->fields)._floatSlider = slider;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._floatSlider,slider);
-  control = (__this->fields)._floatSlider;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._floatSlider);
   (__this->fields)._isIntSlider = false;
-  __this_00 = (DG_Tweening_Core_DOSetter_T__o *)
+  control = (__this->fields)._floatSlider;
+  __this_00 = (UnityEngine_UIElements_EventCallback_TEventType__o *)
               il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_UnityEngine_UIElements_EventCallback_ChangeEvent_float);
   UnityEngine_UIElements_EventCallback_object____ctor
             (__this_00,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__4_0,(MethodInfo_EB6EC0 *)0x0);
-  UnityEngine_UIElements_INotifyValueChangedExtensions__RegisterValueChangedCallback_Vector3Int_
+             (intptr_t)MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__4_0,(MethodInfo_4E7A6A0 *)0x0);
+  UnityEngine_UIElements_INotifyValueChangedExtensions__RegisterValueChangedCallback_float_
             ((UnityEngine_UIElements_INotifyValueChanged_T__o *)control,
              (UnityEngine_UIElements_EventCallback_ChangeEvent_T___o *)__this_00,
-             (MethodInfo_7118E0 *)
+             (MethodInfo_35688E0 *)
              MethodInfo_UnityEngine_UIElements_INotifyValueChangedExtensions_RegisterValueChangedCallback_float
             );
   return;
@@ -1891,17 +1519,17 @@ void CustomLogic_CustomLogicSliderBuiltin___ctor
 
 // CustomLogic.CustomLogicSliderBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin___ctor (CustomLogic_CustomLogicSliderBuiltin_o* __this, UnityEngine_UIElements_SliderInt_o* sliderInt, const MethodInfo* method);
-// 0x182068c30
+// 0x5b04630
 
-void CustomLogic_CustomLogicSliderBuiltin___ctor_2068c30
+void CustomLogic_CustomLogicSliderBuiltin___ctor_5a04630
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,UnityEngine_UIElements_SliderInt_o *sliderInt,
                MethodInfo *method)
 
 {
   UnityEngine_UIElements_SliderInt_o *control;
-  DG_Tweening_Core_DOSetter_T__o *__this_00;
+  UnityEngine_UIElements_EventCallback_TEventType__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843465e7 == '\0') {
+  if (Il2CppMethodInitialized_07546fac == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__5_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_UIElements_EventCallback_ChangeEvent_int)
     ;
@@ -1909,25 +1537,25 @@ void CustomLogic_CustomLogicSliderBuiltin___ctor_2068c30
               (&
                MethodInfo_UnityEngine_UIElements_INotifyValueChangedExtensions_RegisterValueChangedCallback_int
               );
-    Il2CppMethodInitialized_1843465e7 = '\x01';
+    Il2CppMethodInitialized_07546fac = '\x01';
   }
   CustomLogic_CustomLogicVisualElementBuiltin___ctor
             ((CustomLogic_CustomLogicVisualElementBuiltin_o *)__this,
              (UnityEngine_UIElements_VisualElement_o *)sliderInt,(MethodInfo *)0x0);
   (__this->fields)._intSlider = sliderInt;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._intSlider,sliderInt);
-  control = (__this->fields)._intSlider;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._intSlider);
   (__this->fields)._isIntSlider = true;
-  __this_00 = (DG_Tweening_Core_DOSetter_T__o *)
+  control = (__this->fields)._intSlider;
+  __this_00 = (UnityEngine_UIElements_EventCallback_TEventType__o *)
               il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_UnityEngine_UIElements_EventCallback_ChangeEvent_int);
   UnityEngine_UIElements_EventCallback_object____ctor
             (__this_00,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__5_0,(MethodInfo_EB6EC0 *)0x0);
-  UnityEngine_UIElements_INotifyValueChangedExtensions__RegisterValueChangedCallback_Vector3Int_
+             (intptr_t)MethodInfo_CustomLogic_CustomLogicSliderBuiltin_ctor_b__5_0,(MethodInfo_4E7A6A0 *)0x0);
+  UnityEngine_UIElements_INotifyValueChangedExtensions__RegisterValueChangedCallback_int_
             ((UnityEngine_UIElements_INotifyValueChanged_T__o *)control,
              (UnityEngine_UIElements_EventCallback_ChangeEvent_T___o *)__this_00,
-             (MethodInfo_7118E0 *)
+             (MethodInfo_35687C0 *)
              MethodInfo_UnityEngine_UIElements_INotifyValueChangedExtensions_RegisterValueChangedCallback_int)
   ;
   return;
@@ -1936,35 +1564,35 @@ void CustomLogic_CustomLogicSliderBuiltin___ctor_2068c30
 
 // CustomLogic.CustomLogicSliderBuiltin$$OnValueChanged
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged (CustomLogic_CustomLogicSliderBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x182068570
+// 0x5b046e0
 
 void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  CustomLogic_UserMethod_o *userMethod;
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   System_Object_array *parameterValues;
   Il2CppObject *pIVar1;
   Il2CppObject *pIVar2;
-  float local_res8 [2];
+  CustomLogic_UserMethod_o *userMethod;
+  undefined1 local_24 [4];
   
-  if (Il2CppMethodInitialized_1843465e8 == '\0') {
+  if (Il2CppMethodInitialized_07546fad == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843465e8 = '\x01';
+    Il2CppMethodInitialized_07546fad = '\x01';
   }
-  if ((__this->fields)._valueChangedEvent == (CustomLogic_UserMethod_o *)0x0) {
+  userMethod = (__this->fields)._valueChangedEvent;
+  if (userMethod == (CustomLogic_UserMethod_o *)0x0) {
     return;
   }
   if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    userMethod = (__this->fields)._valueChangedEvent;
   }
-  userMethod = (__this->fields)._valueChangedEvent;
   __this_00 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
   parameterValues = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
-  local_res8[0] = value;
-  pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,local_24);
   if (parameterValues != (System_Object_array *)0x0) {
     if ((pIVar1 != (Il2CppObject *)0x0) &&
        (pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameterValues->obj).klass)->_1).element_class),
@@ -1976,9 +1604,9 @@ void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged
       ThrowIndexOutOfRangeException();
     }
     parameterValues->m_Items[0] = pIVar1;
-    Il2CppCodeGenWriteBarrier(parameterValues->m_Items,pIVar1);
+    Il2CppCodeGenWriteBarrier(parameterValues->m_Items);
     if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-      CustomLogic_CustomLogicEvaluator__EvaluateMethod_20dcd90
+      CustomLogic_CustomLogicEvaluator__EvaluateMethod_5a8b7e0
                 (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
       return;
     }
@@ -1989,35 +1617,36 @@ void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged
 
 // CustomLogic.CustomLogicSliderBuiltin$$OnValueChanged
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged (CustomLogic_CustomLogicSliderBuiltin_o* __this, int32_t value, const MethodInfo* method);
-// 0x1820686a0
+// 0x5b04800
 
-void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_20686a0
+void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_5a04800
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,int32_t value,MethodInfo *method)
 
 {
-  CustomLogic_UserMethod_o *userMethod;
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   System_Object_array *parameterValues;
   Il2CppObject *pIVar1;
   Il2CppObject *pIVar2;
-  int32_t local_res8 [2];
+  CustomLogic_UserMethod_o *userMethod;
+  int32_t iStack_2c;
   
-  if (Il2CppMethodInitialized_1843465e9 == '\0') {
+  if (Il2CppMethodInitialized_07546fae == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843465e9 = '\x01';
+    Il2CppMethodInitialized_07546fae = '\x01';
   }
-  if ((__this->fields)._valueChangedEvent == (CustomLogic_UserMethod_o *)0x0) {
+  userMethod = (__this->fields)._valueChangedEvent;
+  if (userMethod == (CustomLogic_UserMethod_o *)0x0) {
     return;
   }
   if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
+    userMethod = (__this->fields)._valueChangedEvent;
   }
-  userMethod = (__this->fields)._valueChangedEvent;
   __this_00 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
   parameterValues = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
-  local_res8[0] = value;
-  pIVar1 = il2cpp_value_box(g_data_184354e08,local_res8);
+  iStack_2c = value;
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_2c);
   if (parameterValues != (System_Object_array *)0x0) {
     if ((pIVar1 != (Il2CppObject *)0x0) &&
        (pIVar2 = il2cpp_vm_Object_IsInst(pIVar1,(((parameterValues->obj).klass)->_1).element_class),
@@ -2029,9 +1658,9 @@ void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_20686a0
       ThrowIndexOutOfRangeException();
     }
     parameterValues->m_Items[0] = pIVar1;
-    Il2CppCodeGenWriteBarrier(parameterValues->m_Items,pIVar1);
+    Il2CppCodeGenWriteBarrier(parameterValues->m_Items);
     if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-      CustomLogic_CustomLogicEvaluator__EvaluateMethod_20dcd90
+      CustomLogic_CustomLogicEvaluator__EvaluateMethod_5a8b7e0
                 (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
       return;
     }
@@ -2042,7 +1671,7 @@ void CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_20686a0
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_Label
 // il2cpp: System_String_o* CustomLogic_CustomLogicSliderBuiltin__get_Label (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182068f10
+// 0x5b04920
 
 System_String_o *
 CustomLogic_CustomLogicSliderBuiltin__get_Label
@@ -2053,26 +1682,26 @@ CustomLogic_CustomLogicSliderBuiltin__get_Label
   UnityEngine_UIElements_Slider_o *__this_01;
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_1843465ea == '\0') {
+  if (Il2CppMethodInitialized_07546faf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_float_get_label);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
-    Il2CppMethodInitialized_1843465ea = '\x01';
+    Il2CppMethodInitialized_07546faf = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
     __this_01 = (__this->fields)._floatSlider;
     if (__this_01 != (UnityEngine_UIElements_Slider_o *)0x0) {
-      pSVar1 = UnityEngine_UIElements_BaseField_Vector2Int___get_label
+      pSVar1 = UnityEngine_UIElements_BaseField_float___get_label
                          ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_01,
-                          (MethodInfo_100AEC0 *)MethodInfo_UnityEngine_UIElements_BaseField_float_get_label);
+                          (MethodInfo_4672610 *)MethodInfo_UnityEngine_UIElements_BaseField_float_get_label);
       return pSVar1;
     }
   }
   else {
     __this_00 = (__this->fields)._intSlider;
     if (__this_00 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-      pSVar1 = UnityEngine_UIElements_BaseField_Vector2Int___get_label
-                         ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_00,
-                          (MethodInfo_100AEC0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
+      pSVar1 = UnityEngine_UIElements_BaseField_int___get_label
+                         ((UnityEngine_UIElements_BaseField_int__o *)__this_00,
+                          (MethodInfo_46629C0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_get_label);
       return pSVar1;
     }
   }
@@ -2082,35 +1711,35 @@ CustomLogic_CustomLogicSliderBuiltin__get_Label
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_Label
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_Label (CustomLogic_CustomLogicSliderBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x182069460
+// 0x5b04990
 
 void CustomLogic_CustomLogicSliderBuiltin__set_Label
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,System_String_o *value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *__this_00;
-  UnityEngine_UIElements_SliderInt_o *__this_01;
+  UnityEngine_UIElements_SliderInt_o *__this_00;
+  UnityEngine_UIElements_Slider_o *__this_01;
   
-  if (Il2CppMethodInitialized_1843465eb == '\0') {
+  if (Il2CppMethodInitialized_07546fb0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_float_set_label);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
-    Il2CppMethodInitialized_1843465eb = '\x01';
+    Il2CppMethodInitialized_07546fb0 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
-    __this_00 = (__this->fields)._floatSlider;
-    if (__this_00 != (UnityEngine_UIElements_Slider_o *)0x0) {
-      UnityEngine_UIElements_BaseField_Vector2Int___set_label
-                ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_00,value,
-                 (MethodInfo_100C7D0 *)MethodInfo_UnityEngine_UIElements_BaseField_float_set_label);
+    __this_01 = (__this->fields)._floatSlider;
+    if (__this_01 != (UnityEngine_UIElements_Slider_o *)0x0) {
+      UnityEngine_UIElements_BaseField_float___set_label
+                ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_01,value,
+                 (MethodInfo_4672640 *)MethodInfo_UnityEngine_UIElements_BaseField_float_set_label);
       return;
     }
   }
   else {
-    __this_01 = (__this->fields)._intSlider;
-    if (__this_01 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-      UnityEngine_UIElements_BaseField_Vector2Int___set_label
-                ((UnityEngine_UIElements_BaseField_TValueType__o *)__this_01,value,
-                 (MethodInfo_100C7D0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
+    __this_00 = (__this->fields)._intSlider;
+    if (__this_00 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+      UnityEngine_UIElements_BaseField_int___set_label
+                ((UnityEngine_UIElements_BaseField_int__o *)__this_00,value,
+                 (MethodInfo_46629F0 *)MethodInfo_UnityEngine_UIElements_BaseField_int_set_label);
       return;
     }
   }
@@ -2120,36 +1749,40 @@ void CustomLogic_CustomLogicSliderBuiltin__set_Label
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_Value
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin__get_Value (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x1820690c0
+// 0x5b04a20
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin__get_Value
           (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *pUVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
-  Il2CppObject *pIVar3;
-  undefined4 local_res8 [8];
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  UnityEngine_UIElements_Slider_o *pUVar2;
+  undefined4 uVar3;
+  undefined8 in_RAX;
+  Il2CppObject *pIVar4;
+  undefined8 uStack_8;
   
-  if ((__this->fields)._isIntSlider != false) {
-    pUVar2 = (__this->fields)._intSlider;
-    if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-      local_res8[0] =
-           (*(pUVar2->klass->vtable)._148_get_value.methodPtr)
-                     (pUVar2,(pUVar2->klass->vtable)._148_get_value.method);
-      pIVar3 = il2cpp_value_box(g_data_184354e08,local_res8);
-      return pIVar3;
+  uStack_8 = in_RAX;
+  if ((__this->fields)._isIntSlider == false) {
+    pUVar2 = (__this->fields)._floatSlider;
+    if (pUVar2 != (UnityEngine_UIElements_Slider_o *)0x0) {
+      uVar3 = (*(pUVar2->klass->vtable)._148_get_value.methodPtr)
+                        (pUVar2,(pUVar2->klass->vtable)._148_get_value.method);
+      uStack_8 = CONCAT44(uStack_8._4_4_,uVar3);
+      pIVar4 = il2cpp_vm_Object_Box(g_data_07556740,&uStack_8);
+      return pIVar4;
     }
-    ThrowNullReferenceException();
   }
-  pUVar1 = (__this->fields)._floatSlider;
-  if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-    local_res8[0] =
-         (*(pUVar1->klass->vtable)._148_get_value.methodPtr)
-                   (pUVar1,(pUVar1->klass->vtable)._148_get_value.method);
-    pIVar3 = il2cpp_value_box(g_data_184354e38,local_res8);
-    return pIVar3;
+  else {
+    pUVar1 = (__this->fields)._intSlider;
+    if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
+      uVar3 = (*(pUVar1->klass->vtable)._148_get_value.methodPtr)
+                        (pUVar1,(pUVar1->klass->vtable)._148_get_value.method);
+      uStack_8 = CONCAT44(uVar3,(undefined4)uStack_8);
+      pIVar4 = il2cpp_vm_Object_Box(g_data_07556710,(void *)((long)&uStack_8 + 4));
+      return pIVar4;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -2157,97 +1790,71 @@ CustomLogic_CustomLogicSliderBuiltin__get_Value
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_Value
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_Value (CustomLogic_CustomLogicSliderBuiltin_o* __this, Il2CppObject* value, const MethodInfo* method);
-// 0x182069720
+// 0x5b04aa0
 
 void CustomLogic_CustomLogicSliderBuiltin__set_Value
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,Il2CppObject *value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *pUVar1;
-  UnityEngine_UIElements_Slider_c *pUVar2;
-  UnityEngine_UIElements_SliderInt_o *pUVar3;
-  Il2CppObject *pIVar4;
-  float *pfVar5;
-  uint *puVar6;
+  Il2CppMethodPointer vtableDispatch;
+  float *pfVar1;
+  uint *puVar2;
+  int *piVar3;
+  uint uVar4;
+  UnityEngine_UIElements_SliderInt_o *pUVar5;
+  UnityEngine_UIElements_Slider_o *pUVar6;
+  float fVar7;
   
   if ((__this->fields)._isIntSlider == false) {
     if (value != (Il2CppObject *)0x0) {
-      pIVar4 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar4 = value;
-      }
-      if (pIVar4 == (Il2CppObject *)0x0) {
-        pIVar4 = (Il2CppObject *)0x0;
-        if (value->klass == g_data_184354e08) {
-          pIVar4 = value;
-        }
-        if (pIVar4 == (Il2CppObject *)0x0) {
-          return;
-        }
-        if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e08);
-        }
-        il2cpp_object_unbox(value);
-        pUVar1 = (__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-          pUVar2 = pUVar1->klass;
-          (*(pUVar2->vtable)._149_set_value.methodPtr)(pUVar1,pUVar2,(pUVar2->vtable)._149_set_value.method);
-          return;
+      if (value->klass == g_data_07556740) {
+        pfVar1 = il2cpp_vm_Object_Unbox(value);
+        pUVar6 = (__this->fields)._floatSlider;
+        if (pUVar6 != (UnityEngine_UIElements_Slider_o *)0x0) {
+          fVar7 = *pfVar1;
+          goto label_05b04b50;
         }
       }
       else {
-        if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e38);
+        if (value->klass != g_data_07556710) {
+          return;
         }
-        il2cpp_object_unbox(value);
-        pUVar1 = (__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-          pUVar2 = pUVar1->klass;
-          (*(pUVar2->vtable)._149_set_value.methodPtr)(pUVar1,pUVar2,(pUVar2->vtable)._149_set_value.method);
+        piVar3 = il2cpp_vm_Object_Unbox(value);
+        pUVar6 = (__this->fields)._floatSlider;
+        if (pUVar6 != (UnityEngine_UIElements_Slider_o *)0x0) {
+          fVar7 = (float)*piVar3;
+label_05b04b50:
+          (*(pUVar6->klass->vtable)._149_set_value.methodPtr)
+                    (fVar7,pUVar6,(pUVar6->klass->vtable)._149_set_value.method);
           return;
         }
       }
-label_1820698af:
-      ThrowNullReferenceException();
+      goto label_05b04b64;
     }
   }
   else if (value != (Il2CppObject *)0x0) {
-    pIVar4 = (Il2CppObject *)0x0;
-    if (value->klass == g_data_184354e08) {
-      pIVar4 = value;
-    }
-    if (pIVar4 == (Il2CppObject *)0x0) {
-      pIVar4 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar4 = value;
-      }
-      if (pIVar4 == (Il2CppObject *)0x0) {
-        return;
-      }
-      if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e38);
-      }
-      pfVar5 = il2cpp_object_unbox(value);
-      pUVar3 = (__this->fields)._intSlider;
-      if (pUVar3 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        (*(pUVar3->klass->vtable)._149_set_value.methodPtr)
-                  (pUVar3,(ulonglong)(uint)(int)*pfVar5,(pUVar3->klass->vtable)._149_set_value.method);
-        return;
-      }
+    if (value->klass == g_data_07556710) {
+      puVar2 = il2cpp_vm_Object_Unbox(value);
+      pUVar5 = (__this->fields)._intSlider;
+      if (pUVar5 == (UnityEngine_UIElements_SliderInt_o *)0x0) goto label_05b04b64;
+      uVar4 = *puVar2;
     }
     else {
-      if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e08);
-      }
-      puVar6 = il2cpp_object_unbox(value);
-      pUVar3 = (__this->fields)._intSlider;
-      if (pUVar3 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        (*(pUVar3->klass->vtable)._149_set_value.methodPtr)
-                  (pUVar3,(ulonglong)*puVar6,(pUVar3->klass->vtable)._149_set_value.method);
+      if (value->klass != g_data_07556740) {
         return;
       }
+      pfVar1 = il2cpp_vm_Object_Unbox(value);
+      pUVar5 = (__this->fields)._intSlider;
+      if (pUVar5 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+label_05b04b64:
+        ThrowNullReferenceException();
+      }
+      uVar4 = (uint)*pfVar1;
     }
-    goto label_1820698af;
+    vtableDispatch = (pUVar5->klass->vtable)._149_set_value.methodPtr;
+    (*vtableDispatch)
+              (pUVar5,(ulong)uVar4,(pUVar5->klass->vtable)._149_set_value.method,vtableDispatch);
+    return;
   }
   return;
 }
@@ -2255,46 +1862,47 @@ label_1820698af:
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_LowValue
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin__get_LowValue (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182068f90
+// 0x5b04b70
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin__get_LowValue
           (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *__this_00;
-  UnityEngine_UIElements_BaseSlider_int__o *__this_01;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  float local_10;
+  int32_t local_c;
   
-  if (Il2CppMethodInitialized_1843465ec == '\0') {
+  if (Il2CppMethodInitialized_07546fb1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_lowValue)
     ;
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_lowValue);
-    Il2CppMethodInitialized_1843465ec = '\x01';
+    Il2CppMethodInitialized_07546fb1 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
-    __this_00 = (__this->fields)._floatSlider;
-    if (__this_00 != (UnityEngine_UIElements_Slider_o *)0x0) {
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_lowValue
-                     ((UnityEngine_UIElements_MinMaxSlider_o *)__this_00,
-                      MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_lowValue);
-      pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+    __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+    if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+      local_10 = UnityEngine_UIElements_BaseSlider_float___get_lowValue
+                           (__this_01,
+                            (MethodInfo_4815820 *)
+                            MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_lowValue);
+      pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,&local_10);
       return pIVar1;
     }
-    ThrowNullReferenceException();
   }
-  __this_01 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-  if (__this_01 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-    local_res8[0] =
-         (float)UnityEngine_UIElements_BaseSlider_int___get_lowValue
-                          (__this_01,
-                           (MethodInfo_12ADD00 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_lowValue
+  else {
+    __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+    if (__this_00 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+      local_c = UnityEngine_UIElements_BaseSlider_int___get_lowValue
+                          (__this_00,
+                           (MethodInfo_480EB60 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_lowValue
                           );
-    pIVar1 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar1;
+      pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,&local_c);
+      return pIVar1;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -2302,103 +1910,78 @@ CustomLogic_CustomLogicSliderBuiltin__get_LowValue
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_LowValue
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_LowValue (CustomLogic_CustomLogicSliderBuiltin_o* __this, Il2CppObject* value, const MethodInfo* method);
-// 0x1820694f0
+// 0x5b04c20
 
 void CustomLogic_CustomLogicSliderBuiltin__set_LowValue
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,Il2CppObject *value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
-  UnityEngine_UIElements_BaseSlider_int__o *pUVar2;
+  float *pfVar1;
+  int32_t *piVar2;
   int *piVar3;
-  float *pfVar4;
-  Il2CppObject *pIVar5;
-  int32_t *piVar6;
+  int32_t value_00;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
+  float value_01;
   
-  if (Il2CppMethodInitialized_1843465ed == '\0') {
+  if (Il2CppMethodInitialized_07546fb2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_lowValue)
     ;
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_lowValue);
-    Il2CppMethodInitialized_1843465ed = '\x01';
+    Il2CppMethodInitialized_07546fb2 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
     if (value != (Il2CppObject *)0x0) {
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar5 = value;
-      }
-      if (pIVar5 != (Il2CppObject *)0x0) {
-        if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception();
+      if (value->klass == g_data_07556740) {
+        pfVar1 = il2cpp_vm_Object_Unbox(value);
+        __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+        if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+          value_01 = *pfVar1;
+          goto label_05b04d07;
         }
-        pfVar4 = il2cpp_object_unbox(value);
-        pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-          UnityEngine_UIElements_BaseSlider_float___set_lowValue
-                    (pUVar1,*pfVar4,
-                     (MethodInfo_12AF880 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_lowValue);
+      }
+      else {
+        if (value->klass != g_data_07556710) {
           return;
         }
-label_18206969a:
-        ThrowNullReferenceException();
-      }
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e08) {
-        pIVar5 = value;
-      }
-      if (pIVar5 != (Il2CppObject *)0x0) {
-        if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception();
+        piVar3 = il2cpp_vm_Object_Unbox(value);
+        __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+        if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+          value_01 = (float)*piVar3;
+label_05b04d07:
+          UnityEngine_UIElements_BaseSlider_float___set_lowValue
+                    (__this_01,value_01,
+                     (MethodInfo_4815830 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_lowValue);
+          return;
         }
-        piVar3 = il2cpp_object_unbox(value);
-        pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-        if (pUVar1 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_18206969a;
-        UnityEngine_UIElements_BaseSlider_float___set_lowValue
-                  (pUVar1,(float)*piVar3,
-                   (MethodInfo_12AF880 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_lowValue);
       }
+      goto label_05b04d1d;
     }
   }
   else if (value != (Il2CppObject *)0x0) {
-    pIVar5 = (Il2CppObject *)0x0;
-    if (value->klass == g_data_184354e08) {
-      pIVar5 = value;
-    }
-    if (pIVar5 == (Il2CppObject *)0x0) {
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar5 = value;
-      }
-      if (pIVar5 == (Il2CppObject *)0x0) {
-        return;
-      }
-      if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception();
-      }
-      pfVar4 = il2cpp_object_unbox(value);
-      pUVar2 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-      if (pUVar2 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_int___set_lowValue
-                  (pUVar2,(int)*pfVar4,
-                   (MethodInfo_12AF740 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_lowValue);
-        return;
-      }
+    if (value->klass == g_data_07556710) {
+      piVar2 = il2cpp_vm_Object_Unbox(value);
+      __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+      if (__this_00 == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) goto label_05b04d1d;
+      value_00 = *piVar2;
     }
     else {
-      if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception();
-      }
-      piVar6 = il2cpp_object_unbox(value);
-      pUVar2 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-      if (pUVar2 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_int___set_lowValue
-                  (pUVar2,*piVar6,
-                   (MethodInfo_12AF740 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_lowValue);
+      if (value->klass != g_data_07556740) {
         return;
       }
+      pfVar1 = il2cpp_vm_Object_Unbox(value);
+      __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+      if (__this_00 == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+label_05b04d1d:
+        ThrowNullReferenceException();
+      }
+      value_00 = (int32_t)*pfVar1;
     }
-    goto label_18206969a;
+    UnityEngine_UIElements_BaseSlider_int___set_lowValue
+              (__this_00,value_00,
+               (MethodInfo_480EB70 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_lowValue);
+    return;
   }
   return;
 }
@@ -2406,46 +1989,47 @@ label_18206969a:
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_HighValue
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicSliderBuiltin__get_HighValue (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182068e60
+// 0x5b04d30
 
 Il2CppObject *
 CustomLogic_CustomLogicSliderBuiltin__get_HighValue
           (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *__this_00;
-  UnityEngine_UIElements_BaseSlider_int__o *__this_01;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  float local_10;
+  int32_t local_c;
   
-  if (Il2CppMethodInitialized_1843465ee == '\0') {
+  if (Il2CppMethodInitialized_07546fb3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_highValue);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_highValue);
-    Il2CppMethodInitialized_1843465ee = '\x01';
+    Il2CppMethodInitialized_07546fb3 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
-    __this_00 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-    if (__this_00 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-      local_res8[0] =
-           UnityEngine_UIElements_BaseSlider_float___get_highValue
-                     (__this_00,
-                      (MethodInfo_12ADBB0 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_highValue);
-      pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+    __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+    if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+      local_10 = UnityEngine_UIElements_BaseSlider_float___get_highValue
+                           (__this_01,
+                            (MethodInfo_4815960 *)
+                            MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_highValue);
+      pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,&local_10);
       return pIVar1;
     }
-    ThrowNullReferenceException();
   }
-  __this_01 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-  if (__this_01 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-    local_res8[0] =
-         (float)UnityEngine_UIElements_BaseSlider_int___get_highValue
-                          (__this_01,
-                           (MethodInfo_12ADBA0 *)
+  else {
+    __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+    if (__this_00 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+      local_c = UnityEngine_UIElements_BaseSlider_int___get_highValue
+                          (__this_00,
+                           (MethodInfo_480ECA0 *)
                            MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_highValue);
-    pIVar1 = il2cpp_value_box(g_data_184354e08,local_res8);
-    return pIVar1;
+      pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,&local_c);
+      return pIVar1;
+    }
   }
   ThrowNullReferenceException();
 }
@@ -2453,103 +2037,78 @@ CustomLogic_CustomLogicSliderBuiltin__get_HighValue
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_HighValue
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_HighValue (CustomLogic_CustomLogicSliderBuiltin_o* __this, Il2CppObject* value, const MethodInfo* method);
-// 0x1820692b0
+// 0x5b04de0
 
 void CustomLogic_CustomLogicSliderBuiltin__set_HighValue
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,Il2CppObject *value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
-  UnityEngine_UIElements_BaseSlider_int__o *pUVar2;
+  float *pfVar1;
+  int32_t *piVar2;
   int *piVar3;
-  float *pfVar4;
-  Il2CppObject *pIVar5;
-  int32_t *piVar6;
+  int32_t value_00;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
+  float value_01;
   
-  if (Il2CppMethodInitialized_1843465ef == '\0') {
+  if (Il2CppMethodInitialized_07546fb4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_highValue);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_highValue);
-    Il2CppMethodInitialized_1843465ef = '\x01';
+    Il2CppMethodInitialized_07546fb4 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
     if (value != (Il2CppObject *)0x0) {
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar5 = value;
-      }
-      if (pIVar5 != (Il2CppObject *)0x0) {
-        if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception();
+      if (value->klass == g_data_07556740) {
+        pfVar1 = il2cpp_vm_Object_Unbox(value);
+        __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+        if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+          value_01 = *pfVar1;
+          goto label_05b04ec7;
         }
-        pfVar4 = il2cpp_object_unbox(value);
-        pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-          UnityEngine_UIElements_BaseSlider_float___set_highValue
-                    (pUVar1,*pfVar4,
-                     (MethodInfo_12AEF10 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_highValue);
+      }
+      else {
+        if (value->klass != g_data_07556710) {
           return;
         }
-label_18206945a:
-        ThrowNullReferenceException();
-      }
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e08) {
-        pIVar5 = value;
-      }
-      if (pIVar5 != (Il2CppObject *)0x0) {
-        if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception();
+        piVar3 = il2cpp_vm_Object_Unbox(value);
+        __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+        if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+          value_01 = (float)*piVar3;
+label_05b04ec7:
+          UnityEngine_UIElements_BaseSlider_float___set_highValue
+                    (__this_01,value_01,
+                     (MethodInfo_4815970 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_highValue);
+          return;
         }
-        piVar3 = il2cpp_object_unbox(value);
-        pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-        if (pUVar1 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_18206945a;
-        UnityEngine_UIElements_BaseSlider_float___set_highValue
-                  (pUVar1,(float)*piVar3,
-                   (MethodInfo_12AEF10 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_highValue);
       }
+      goto label_05b04edd;
     }
   }
   else if (value != (Il2CppObject *)0x0) {
-    pIVar5 = (Il2CppObject *)0x0;
-    if (value->klass == g_data_184354e08) {
-      pIVar5 = value;
-    }
-    if (pIVar5 == (Il2CppObject *)0x0) {
-      pIVar5 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar5 = value;
-      }
-      if (pIVar5 == (Il2CppObject *)0x0) {
-        return;
-      }
-      if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception();
-      }
-      pfVar4 = il2cpp_object_unbox(value);
-      pUVar2 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-      if (pUVar2 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_int___set_highValue
-                  (pUVar2,(int)*pfVar4,
-                   (MethodInfo_12AF060 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_highValue);
-        return;
-      }
+    if (value->klass == g_data_07556710) {
+      piVar2 = il2cpp_vm_Object_Unbox(value);
+      __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+      if (__this_00 == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) goto label_05b04edd;
+      value_00 = *piVar2;
     }
     else {
-      if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception();
-      }
-      piVar6 = il2cpp_object_unbox(value);
-      pUVar2 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
-      if (pUVar2 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_int___set_highValue
-                  (pUVar2,*piVar6,
-                   (MethodInfo_12AF060 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_highValue);
+      if (value->klass != g_data_07556740) {
         return;
       }
+      pfVar1 = il2cpp_vm_Object_Unbox(value);
+      __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+      if (__this_00 == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+label_05b04edd:
+        ThrowNullReferenceException();
+      }
+      value_00 = (int32_t)*pfVar1;
     }
-    goto label_18206945a;
+    UnityEngine_UIElements_BaseSlider_int___set_highValue
+              (__this_00,value_00,
+               (MethodInfo_480ECB0 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_highValue);
+    return;
   }
   return;
 }
@@ -2557,7 +2116,7 @@ label_18206945a:
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_PageSize
 // il2cpp: float CustomLogic_CustomLogicSliderBuiltin__get_PageSize (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182069040
+// 0x5b04ef0
 
 float CustomLogic_CustomLogicSliderBuiltin__get_PageSize
                 (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
@@ -2572,18 +2131,18 @@ float CustomLogic_CustomLogicSliderBuiltin__get_PageSize
   else {
     pUVar1 = (__this->fields)._intSlider;
   }
-  if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-    fVar2 = (*(pUVar1->klass->vtable)._165_get_pageSize.methodPtr)
-                      (pUVar1,(pUVar1->klass->vtable)._165_get_pageSize.method);
-    return fVar2;
+  if (pUVar1 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  fVar2 = (*(pUVar1->klass->vtable)._165_get_pageSize.methodPtr)
+                    (pUVar1,(pUVar1->klass->vtable)._165_get_pageSize.method);
+  return fVar2;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_PageSize
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_PageSize (CustomLogic_CustomLogicSliderBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x1820696a0
+// 0x5b04f30
 
 void CustomLogic_CustomLogicSliderBuiltin__set_PageSize
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,float value,MethodInfo *method)
@@ -2597,49 +2156,52 @@ void CustomLogic_CustomLogicSliderBuiltin__set_PageSize
   else {
     pUVar1 = (__this->fields)._intSlider;
   }
-  if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-    (*(pUVar1->klass->vtable)._166_set_pageSize.methodPtr)
-              (pUVar1,value,(pUVar1->klass->vtable)._166_set_pageSize.method);
-    return;
+  if (pUVar1 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (*(pUVar1->klass->vtable)._166_set_pageSize.methodPtr)
+            (pUVar1,value,(pUVar1->klass->vtable)._166_set_pageSize.method);
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_Direction
 // il2cpp: int32_t CustomLogic_CustomLogicSliderBuiltin__get_Direction (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182068de0
+// 0x5b04f70
 
 int32_t CustomLogic_CustomLogicSliderBuiltin__get_Direction
                   (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
-  int32_t iVar2;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
+  int32_t iVar1;
   
-  if (Il2CppMethodInitialized_1843465f0 == '\0') {
+  if (Il2CppMethodInitialized_07546fb5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
-    Il2CppMethodInitialized_1843465f0 = '\x01';
+    Il2CppMethodInitialized_07546fb5 = '\x01';
   }
   if ((__this->fields)._isIntSlider == false) {
-    pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-    if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-      iVar2 = UnityEngine_UIElements_BaseSlider_float___get_direction
-                        (pUVar1,(MethodInfo_12ADB00 *)
-                                MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
-      return iVar2;
+    __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+    if (__this_01 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
+      iVar1 = UnityEngine_UIElements_BaseSlider_float___get_direction
+                        (__this_01,
+                         (MethodInfo_48164E0 *)
+                         MethodInfo_UnityEngine_UIElements_BaseSlider_float_get_direction);
+      return iVar1;
     }
   }
   else {
-    pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._intSlider;
-    if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-      iVar2 = UnityEngine_UIElements_BaseSlider_float___get_direction
-                        (pUVar1,(MethodInfo_12ADB00 *)
-                                MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction);
-      return iVar2;
+    __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+    if (__this_00 != (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+      iVar1 = UnityEngine_UIElements_BaseSlider_int___get_direction
+                        (__this_00,
+                         (MethodInfo_480F750 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_get_direction)
+      ;
+      return iVar1;
     }
   }
   ThrowNullReferenceException();
@@ -2648,111 +2210,89 @@ int32_t CustomLogic_CustomLogicSliderBuiltin__get_Direction
 
 // CustomLogic.CustomLogicSliderBuiltin$$set_Direction
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_Direction (CustomLogic_CustomLogicSliderBuiltin_o* __this, int32_t value, const MethodInfo* method);
-// 0x182069140
+// 0x5b04fe0
 
 void CustomLogic_CustomLogicSliderBuiltin__set_Direction
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,int32_t value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_BaseSlider_float__o *pUVar1;
+  UnityEngine_UIElements_BaseSlider_int__o *__this_00;
+  UnityEngine_UIElements_BaseSlider_float__o *__this_01;
   Il2CppType *handle;
-  bool bVar2;
+  bool bVar1;
   System_Type_o *enumType;
-  Il2CppObject *pIVar3;
-  System_String_o *pSVar4;
+  Il2CppObject *pIVar2;
+  System_String_o *pSVar3;
   Il2CppClass *klass;
-  System_ArgumentException_o *__this_00;
+  System_ArgumentException_o *__this_02;
   MethodInfo *lastManagedFrame;
-  int32_t local_res10 [6];
+  int32_t iStack_30;
+  int32_t iStack_2c;
   
-  if (Il2CppMethodInitialized_1843465f1 == '\0') {
+  if (Il2CppMethodInitialized_07546fb6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_direction);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_direction);
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UIElements_SliderDirection);
-    Il2CppMethodInitialized_1843465f1 = '\x01';
+    Il2CppMethodInitialized_07546fb6 = '\x01';
   }
   handle = TypeRef_UnityEngine_UIElements_SliderDirection;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
   enumType = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
-  local_res10[0] = value;
-  pIVar3 = il2cpp_value_box(g_data_184354e08,local_res10);
-  if ((g_data_184354e58->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354e58);
+  iStack_2c = value;
+  pIVar2 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_2c);
+  if ((g_data_07556760->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_07556760);
   }
-  bVar2 = System_Enum__IsDefined(enumType,pIVar3,(MethodInfo *)0x0);
-  if (bVar2) {
-    if ((__this->fields)._isIntSlider == false) {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
-      if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_float___set_direction
-                  (pUVar1,value,
-                   (MethodInfo_12AE660 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_direction);
-        return;
-      }
-    }
-    else {
-      pUVar1 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._intSlider;
-      if (pUVar1 != (UnityEngine_UIElements_BaseSlider_float__o *)0x0) {
-        UnityEngine_UIElements_BaseSlider_float___set_direction
-                  (pUVar1,value,
-                   (MethodInfo_12AE660 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_direction);
-        return;
-      }
-    }
-    ThrowNullReferenceException();
+  bVar1 = System_Enum__IsDefined(enumType,pIVar2,(MethodInfo *)0x0);
+  if (!bVar1) {
+    iStack_30 = value;
+    pIVar2 = il2cpp_vm_Object_Box(g_data_07556710,&iStack_30);
+    pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Invalid slider direction: {0}");
+    pSVar3 = System_String__Format(pSVar3,pIVar2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_02 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_54186d0(__this_02,pSVar3,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_set_Direction);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_02,lastManagedFrame);
   }
-  local_res10[0] = value;
-  pIVar3 = il2cpp_value_box(g_data_184354e08,local_res10);
-  pSVar4 = il2cpp_codegen_get_runtime_metadata(&"Invalid slider direction: {0}");
-  pSVar4 = System_String__Format(pSVar4,pIVar3,(MethodInfo *)0x0);
-  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
-  __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-  System_ArgumentException___ctor_1a77cc0(__this_00,pSVar4,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicSliderBuiltin_set_Direction);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+  if ((__this->fields)._isIntSlider == false) {
+    __this_01 = (UnityEngine_UIElements_BaseSlider_float__o *)(__this->fields)._floatSlider;
+    if (__this_01 == (UnityEngine_UIElements_BaseSlider_float__o *)0x0) goto label_05b0515a;
+    UnityEngine_UIElements_BaseSlider_float___set_direction
+              (__this_01,value,
+               (MethodInfo_48164F0 *)MethodInfo_UnityEngine_UIElements_BaseSlider_float_set_direction);
+  }
+  else {
+    __this_00 = (UnityEngine_UIElements_BaseSlider_int__o *)(__this->fields)._intSlider;
+    if (__this_00 == (UnityEngine_UIElements_BaseSlider_int__o *)0x0) {
+label_05b0515a:
+      ThrowNullReferenceException();
+    }
+    UnityEngine_UIElements_BaseSlider_int___set_direction
+              (__this_00,value,
+               (MethodInfo_480F760 *)MethodInfo_UnityEngine_UIElements_BaseSlider_int_set_direction);
+  }
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_ShowInputField
 // il2cpp: bool CustomLogic_CustomLogicSliderBuiltin__get_ShowInputField (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182069080
+// 0x5b05160
 
 bool CustomLogic_CustomLogicSliderBuiltin__get_ShowInputField
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  undefined1 uVar1;
-  UnityEngine_UIElements_SliderInt_o *pUVar2;
-  
-  if ((__this->fields)._isIntSlider == false) {
-    pUVar2 = (UnityEngine_UIElements_SliderInt_o *)(__this->fields)._floatSlider;
-  }
-  else {
-    pUVar2 = (__this->fields)._intSlider;
-  }
-  if (pUVar2 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-    uVar1 = (*(pUVar2->klass->vtable)._167_get_showInputField.methodPtr)
-                      (pUVar2,(pUVar2->klass->vtable)._167_get_showInputField.method);
-    return (bool)uVar1;
-  }
-  ThrowNullReferenceException();
-}
-
-
-// CustomLogic.CustomLogicSliderBuiltin$$set_ShowInputField
-// il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_ShowInputField (CustomLogic_CustomLogicSliderBuiltin_o* __this, bool value, const MethodInfo* method);
-// 0x1820696e0
-
-void CustomLogic_CustomLogicSliderBuiltin__set_ShowInputField
-               (CustomLogic_CustomLogicSliderBuiltin_o *__this,bool value,MethodInfo *method)
-
-{
   UnityEngine_UIElements_SliderInt_o *pUVar1;
+  Il2CppMethodPointer vtableDispatch;
+  undefined1 uVar2;
+  undefined8 in_RDX;
   
   if ((__this->fields)._isIntSlider == false) {
     pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__this->fields)._floatSlider;
@@ -2760,21 +2300,51 @@ void CustomLogic_CustomLogicSliderBuiltin__set_ShowInputField
   else {
     pUVar1 = (__this->fields)._intSlider;
   }
-  if (pUVar1 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-    (*(pUVar1->klass->vtable)._168_set_showInputField.methodPtr)
-              (pUVar1,value,(pUVar1->klass->vtable)._168_set_showInputField.method);
-    return;
+  if (pUVar1 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  vtableDispatch = (pUVar1->klass->vtable)._167_get_showInputField.methodPtr;
+  uVar2 = (*vtableDispatch)
+                    (pUVar1,(pUVar1->klass->vtable)._167_get_showInputField.method,in_RDX,
+                     vtableDispatch);
+  return (bool)uVar2;
+}
+
+
+// CustomLogic.CustomLogicSliderBuiltin$$set_ShowInputField
+// il2cpp: void CustomLogic_CustomLogicSliderBuiltin__set_ShowInputField (CustomLogic_CustomLogicSliderBuiltin_o* __this, bool value, const MethodInfo* method);
+// 0x5b051a0
+
+void CustomLogic_CustomLogicSliderBuiltin__set_ShowInputField
+               (CustomLogic_CustomLogicSliderBuiltin_o *__this,bool value,MethodInfo *method)
+
+{
+  UnityEngine_UIElements_SliderInt_o *pUVar1;
+  Il2CppMethodPointer vtableDispatch;
+  
+  if ((__this->fields)._isIntSlider == false) {
+    pUVar1 = (UnityEngine_UIElements_SliderInt_o *)(__this->fields)._floatSlider;
+  }
+  else {
+    pUVar1 = (__this->fields)._intSlider;
+  }
+  if (pUVar1 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  vtableDispatch = (pUVar1->klass->vtable)._168_set_showInputField.methodPtr;
+  (*vtableDispatch)
+            (pUVar1,(ulong)value,(pUVar1->klass->vtable)._168_set_showInputField.method,vtableDispatch)
+  ;
+  return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_IsIntSlider
 // il2cpp: bool CustomLogic_CustomLogicSliderBuiltin__get_IsIntSlider (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x180abd390
+// 0x5b051e0
 
-bool
-CustomLogic_CustomLogicSliderBuiltin__get_IsIntSlider(CustomLogic_CustomLogicSliderBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicSliderBuiltin__get_IsIntSlider
+               (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._isIntSlider;
@@ -2783,116 +2353,88 @@ CustomLogic_CustomLogicSliderBuiltin__get_IsIntSlider(CustomLogic_CustomLogicSli
 
 // CustomLogic.CustomLogicSliderBuiltin$$OnValueChanged
 // il2cpp: CustomLogic_CustomLogicSliderBuiltin_o* CustomLogic_CustomLogicSliderBuiltin__OnValueChanged (CustomLogic_CustomLogicSliderBuiltin_o* __this, CustomLogic_UserMethod_o* valueChangedEvent, const MethodInfo* method);
-// 0x182068550
+// 0x5b051f0
 
 CustomLogic_CustomLogicSliderBuiltin_o *
-CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_2068550
+CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_5a051f0
           (CustomLogic_CustomLogicSliderBuiltin_o *__this,CustomLogic_UserMethod_o *valueChangedEvent,
           MethodInfo *method)
 
 {
   (__this->fields)._valueChangedEvent = valueChangedEvent;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._valueChangedEvent,valueChangedEvent);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._valueChangedEvent);
   return __this;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$SetValueWithoutNotify
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin__SetValueWithoutNotify (CustomLogic_CustomLogicSliderBuiltin_o* __this, Il2CppObject* value, const MethodInfo* method);
-// 0x1820687d0
+// 0x5b05210
 
 void CustomLogic_CustomLogicSliderBuiltin__SetValueWithoutNotify
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,Il2CppObject *value,MethodInfo *method)
 
 {
-  UnityEngine_UIElements_Slider_o *pUVar1;
-  UnityEngine_UIElements_Slider_c *pUVar2;
-  UnityEngine_UIElements_SliderInt_o *pUVar3;
-  Il2CppObject *pIVar4;
-  float *pfVar5;
-  uint *puVar6;
+  Il2CppMethodPointer vtableDispatch;
+  float *pfVar1;
+  uint *puVar2;
+  int *piVar3;
+  uint uVar4;
+  UnityEngine_UIElements_SliderInt_o *pUVar5;
+  UnityEngine_UIElements_Slider_o *pUVar6;
+  float fVar7;
   
   if ((__this->fields)._isIntSlider == false) {
     if (value != (Il2CppObject *)0x0) {
-      pIVar4 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar4 = value;
-      }
-      if (pIVar4 == (Il2CppObject *)0x0) {
-        pIVar4 = (Il2CppObject *)0x0;
-        if (value->klass == g_data_184354e08) {
-          pIVar4 = value;
-        }
-        if (pIVar4 == (Il2CppObject *)0x0) {
-          return;
-        }
-        if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e08);
-        }
-        il2cpp_object_unbox(value);
-        pUVar1 = (__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-          pUVar2 = pUVar1->klass;
-          (*(pUVar2->vtable)._159_SetValueWithoutNotify.methodPtr)
-                    (pUVar1,pUVar2,(pUVar2->vtable)._159_SetValueWithoutNotify.method);
-          return;
+      if (value->klass == g_data_07556740) {
+        pfVar1 = il2cpp_vm_Object_Unbox(value);
+        pUVar6 = (__this->fields)._floatSlider;
+        if (pUVar6 != (UnityEngine_UIElements_Slider_o *)0x0) {
+          fVar7 = *pfVar1;
+          goto label_05b052c0;
         }
       }
       else {
-        if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-          il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e38);
+        if (value->klass != g_data_07556710) {
+          return;
         }
-        il2cpp_object_unbox(value);
-        pUVar1 = (__this->fields)._floatSlider;
-        if (pUVar1 != (UnityEngine_UIElements_Slider_o *)0x0) {
-          pUVar2 = pUVar1->klass;
-          (*(pUVar2->vtable)._159_SetValueWithoutNotify.methodPtr)
-                    (pUVar1,pUVar2,(pUVar2->vtable)._159_SetValueWithoutNotify.method);
+        piVar3 = il2cpp_vm_Object_Unbox(value);
+        pUVar6 = (__this->fields)._floatSlider;
+        if (pUVar6 != (UnityEngine_UIElements_Slider_o *)0x0) {
+          fVar7 = (float)*piVar3;
+label_05b052c0:
+          (*(pUVar6->klass->vtable)._159_SetValueWithoutNotify.methodPtr)
+                    (fVar7,pUVar6,(pUVar6->klass->vtable)._159_SetValueWithoutNotify.method);
           return;
         }
       }
-label_18206895f:
-      ThrowNullReferenceException();
+      goto label_05b052d4;
     }
   }
   else if (value != (Il2CppObject *)0x0) {
-    pIVar4 = (Il2CppObject *)0x0;
-    if (value->klass == g_data_184354e08) {
-      pIVar4 = value;
-    }
-    if (pIVar4 == (Il2CppObject *)0x0) {
-      pIVar4 = (Il2CppObject *)0x0;
-      if (value->klass == g_data_184354e38) {
-        pIVar4 = value;
-      }
-      if (pIVar4 == (Il2CppObject *)0x0) {
-        return;
-      }
-      if ((value->klass->_1).element_class != (g_data_184354e38->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e38);
-      }
-      pfVar5 = il2cpp_object_unbox(value);
-      pUVar3 = (__this->fields)._intSlider;
-      if (pUVar3 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        (*(pUVar3->klass->vtable)._159_SetValueWithoutNotify.methodPtr)
-                  (pUVar3,(ulonglong)(uint)(int)*pfVar5,
-                   (pUVar3->klass->vtable)._159_SetValueWithoutNotify.method);
-        return;
-      }
+    if (value->klass == g_data_07556710) {
+      puVar2 = il2cpp_vm_Object_Unbox(value);
+      pUVar5 = (__this->fields)._intSlider;
+      if (pUVar5 == (UnityEngine_UIElements_SliderInt_o *)0x0) goto label_05b052d4;
+      uVar4 = *puVar2;
     }
     else {
-      if ((value->klass->_1).element_class != (g_data_184354e08->_1).element_class) {
-        il2cpp_codegen_raise_invalid_cast_exception(value,g_data_184354e08);
-      }
-      puVar6 = il2cpp_object_unbox(value);
-      pUVar3 = (__this->fields)._intSlider;
-      if (pUVar3 != (UnityEngine_UIElements_SliderInt_o *)0x0) {
-        (*(pUVar3->klass->vtable)._159_SetValueWithoutNotify.methodPtr)
-                  (pUVar3,(ulonglong)*puVar6,(pUVar3->klass->vtable)._159_SetValueWithoutNotify.method);
+      if (value->klass != g_data_07556740) {
         return;
       }
+      pfVar1 = il2cpp_vm_Object_Unbox(value);
+      pUVar5 = (__this->fields)._intSlider;
+      if (pUVar5 == (UnityEngine_UIElements_SliderInt_o *)0x0) {
+label_05b052d4:
+        ThrowNullReferenceException();
+      }
+      uVar4 = (uint)*pfVar1;
     }
-    goto label_18206895f;
+    vtableDispatch = (pUVar5->klass->vtable)._159_SetValueWithoutNotify.methodPtr;
+    (*vtableDispatch)
+              (pUVar5,(ulong)uVar4,(pUVar5->klass->vtable)._159_SetValueWithoutNotify.method,
+               vtableDispatch);
+    return;
   }
   return;
 }
@@ -2900,16 +2442,16 @@ label_18206895f:
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicSliderBuiltin__get_ClassName (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x182068db0
+// 0x5b052e0
 
 System_String_o *
 CustomLogic_CustomLogicSliderBuiltin__get_ClassName
           (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843465f2 == '\0') {
+  if (Il2CppMethodInitialized_07546fb7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Slider");
-    Il2CppMethodInitialized_1843465f2 = '\x01';
+    Il2CppMethodInitialized_07546fb7 = '\x01';
   }
   return "Slider";
 }
@@ -2917,10 +2459,10 @@ CustomLogic_CustomLogicSliderBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicSliderBuiltin__get_IsAbstract (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5b05310
 
-bool
-CustomLogic_CustomLogicSliderBuiltin__get_IsAbstract(CustomLogic_CustomLogicSliderBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicSliderBuiltin__get_IsAbstract
+               (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -2929,10 +2471,10 @@ CustomLogic_CustomLogicSliderBuiltin__get_IsAbstract(CustomLogic_CustomLogicSlid
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicSliderBuiltin__get_IsStatic (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5b05320
 
-bool
-CustomLogic_CustomLogicSliderBuiltin__get_IsStatic(CustomLogic_CustomLogicSliderBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicSliderBuiltin__get_IsStatic
+               (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -2941,10 +2483,10 @@ CustomLogic_CustomLogicSliderBuiltin__get_IsStatic(CustomLogic_CustomLogicSlider
 
 // CustomLogic.CustomLogicSliderBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicSliderBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicSliderBuiltin_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5b05330
 
-bool
-CustomLogic_CustomLogicSliderBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicSliderBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicSliderBuiltin__get_InheritBaseMembers
+               (CustomLogic_CustomLogicSliderBuiltin_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -2953,128 +2495,52 @@ CustomLogic_CustomLogicSliderBuiltin__get_InheritBaseMembers(CustomLogic_CustomL
 
 // CustomLogic.CustomLogicSliderBuiltin$$<.ctor>b__4_0
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin____ctor_b__4_0 (CustomLogic_CustomLogicSliderBuiltin_o* __this, UnityEngine_UIElements_ChangeEvent_float__o* evt, const MethodInfo* method);
-// 0x182068970
+// 0x5b05340
 
 void CustomLogic_CustomLogicSliderBuiltin____ctor_b__4_0
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,
                UnityEngine_UIElements_ChangeEvent_float__o *evt,MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  CustomLogic_UserMethod_o *userMethod;
-  CustomLogic_CustomLogicEvaluator_o *__this_00;
-  System_Object_array *parameterValues;
-  Il2CppObject *pIVar2;
-  Il2CppObject *pIVar3;
-  undefined4 local_res10 [2];
+  UnityEngine_UIElements_ChangeEvent_float__o *method_00;
   
-  if (Il2CppMethodInitialized_1843465f3 == '\0') {
+  method_00 = evt;
+  if (Il2CppMethodInitialized_07546fb8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_ChangeEvent_float_get_newValue);
-    Il2CppMethodInitialized_1843465f3 = '\x01';
+    Il2CppMethodInitialized_07546fb8 = '\x01';
   }
   if (evt == (UnityEngine_UIElements_ChangeEvent_float__o *)0x0) {
     ThrowNullReferenceException();
   }
-  uVar1 = *(undefined4 *)&(evt->fields).field_0x5c;
-  if (Il2CppMethodInitialized_1843465e8 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843465e8 = '\x01';
-  }
-  if ((__this->fields)._valueChangedEvent != (CustomLogic_UserMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-    }
-    userMethod = (__this->fields)._valueChangedEvent;
-    __this_00 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-    parameterValues = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
-    local_res10[0] = uVar1;
-    pIVar2 = il2cpp_value_box(g_data_184354e38,local_res10);
-    if (parameterValues != (System_Object_array *)0x0) {
-      if ((pIVar2 != (Il2CppObject *)0x0) &&
-         (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameterValues->obj).klass)->_1).element_class),
-         pIVar3 == (Il2CppObject *)0x0)) {
-        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
-      }
-      if ((int)parameterValues->max_length == 0) {
-        ThrowIndexOutOfRangeException();
-      }
-      parameterValues->m_Items[0] = pIVar2;
-      Il2CppCodeGenWriteBarrier(parameterValues->m_Items,pIVar2);
-      if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-        CustomLogic_CustomLogicEvaluator__EvaluateMethod_20dcd90
-                  (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
-        return;
-      }
-    }
-    ThrowNullReferenceException();
-  }
+  CustomLogic_CustomLogicSliderBuiltin__OnValueChanged
+            (__this,(evt->fields)._newValue_k__BackingField,(MethodInfo *)method_00);
   return;
 }
 
 
 // CustomLogic.CustomLogicSliderBuiltin$$<.ctor>b__5_0
 // il2cpp: void CustomLogic_CustomLogicSliderBuiltin____ctor_b__5_0 (CustomLogic_CustomLogicSliderBuiltin_o* __this, UnityEngine_UIElements_ChangeEvent_int__o* evt, const MethodInfo* method);
-// 0x182068ad0
+// 0x5b05390
 
 void CustomLogic_CustomLogicSliderBuiltin____ctor_b__5_0
                (CustomLogic_CustomLogicSliderBuiltin_o *__this,UnityEngine_UIElements_ChangeEvent_int__o *evt,
                MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  CustomLogic_UserMethod_o *userMethod;
-  CustomLogic_CustomLogicEvaluator_o *__this_00;
-  System_Object_array *parameterValues;
-  Il2CppObject *pIVar2;
-  Il2CppObject *pIVar3;
-  undefined4 local_res10 [2];
+  MethodInfo *extraout_RDX;
   
-  if (Il2CppMethodInitialized_1843465f4 == '\0') {
+  if (Il2CppMethodInitialized_07546fb9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_UIElements_ChangeEvent_int_get_newValue);
-    Il2CppMethodInitialized_1843465f4 = '\x01';
+    Il2CppMethodInitialized_07546fb9 = '\x01';
+    method = extraout_RDX;
   }
   if (evt == (UnityEngine_UIElements_ChangeEvent_int__o *)0x0) {
     ThrowNullReferenceException();
   }
-  uVar1 = *(undefined4 *)&(evt->fields).field_0x5c;
-  if (Il2CppMethodInitialized_1843465e9 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
-    Il2CppMethodInitialized_1843465e9 = '\x01';
-  }
-  if ((__this->fields)._valueChangedEvent != (CustomLogic_UserMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
-    }
-    userMethod = (__this->fields)._valueChangedEvent;
-    __this_00 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->Evaluator;
-    parameterValues = (System_Object_array *)SZArrayNew(TypeInfo_object_array,1);
-    local_res10[0] = uVar1;
-    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res10);
-    if (parameterValues != (System_Object_array *)0x0) {
-      if ((pIVar2 != (Il2CppObject *)0x0) &&
-         (pIVar3 = il2cpp_vm_Object_IsInst(pIVar2,(((parameterValues->obj).klass)->_1).element_class),
-         pIVar3 == (Il2CppObject *)0x0)) {
-        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
-        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
-      }
-      if ((int)parameterValues->max_length == 0) {
-        ThrowIndexOutOfRangeException();
-      }
-      parameterValues->m_Items[0] = pIVar2;
-      Il2CppCodeGenWriteBarrier(parameterValues->m_Items,pIVar2);
-      if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-        CustomLogic_CustomLogicEvaluator__EvaluateMethod_20dcd90
-                  (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
-        return;
-      }
-    }
-    ThrowNullReferenceException();
-  }
+  CustomLogic_CustomLogicSliderBuiltin__OnValueChanged_5a04800
+            (__this,(evt->fields)._newValue_k__BackingField,method);
   return;
 }
 

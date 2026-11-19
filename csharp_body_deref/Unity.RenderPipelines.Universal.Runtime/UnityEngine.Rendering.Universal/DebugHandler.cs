@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugHandler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -63,7 +63,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 		public DebugDisplaySettingsRendering renderingSettings;
 
 		[Token(Token = "0x600026C")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66073D0", Offset = "0x66063D0", VA = "0x66073D0")]
 		public DebugFinalValidationPassData()
 		{
 		}
@@ -89,7 +89,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 		public DebugDisplaySettingsLighting lightingSettings;
 
 		[Token(Token = "0x600026D")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66073C0", Offset = "0x66063C0", VA = "0x66073C0")]
 		public DebugSetupPassData()
 		{
 		}
@@ -315,7 +315,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	private DebugDisplaySettingsLighting LightingSettings
 	{
 		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x2C03B30", Offset = "0x2C02130", VA = "0x182C03B30")]
+		[Address(RVA = "0x6606CC0", Offset = "0x6605CC0", VA = "0x6606CC0")]
 		get
 		{
 			return null;
@@ -326,7 +326,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	private DebugDisplaySettingsMaterial MaterialSettings
 	{
 		[Token(Token = "0x6000244")]
-		[Address(RVA = "0x2C03B50", Offset = "0x2C02150", VA = "0x182C03B50")]
+		[Address(RVA = "0x6606CE0", Offset = "0x6605CE0", VA = "0x6606CE0")]
 		get
 		{
 			return null;
@@ -337,7 +337,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	private DebugDisplaySettingsRendering RenderingSettings
 	{
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x2C03B70", Offset = "0x2C02170", VA = "0x182C03B70")]
+		[Address(RVA = "0x6606D00", Offset = "0x6605D00", VA = "0x6606D00")]
 		get
 		{
 			return null;
@@ -348,7 +348,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x2C03960", Offset = "0x2C01F60", VA = "0x182C03960", Slot = "4")]
+		[Address(RVA = "0x6606D20", Offset = "0x6605D20", VA = "0x6606D20", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -359,7 +359,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	public bool IsPostProcessingAllowed
 	{
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x2C03A70", Offset = "0x2C02070", VA = "0x182C03A70", Slot = "5")]
+		[Address(RVA = "0x6606D50", Offset = "0x6605D50", VA = "0x6606D50", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -370,7 +370,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	public bool IsLightingActive
 	{
 		[Token(Token = "0x6000248")]
-		[Address(RVA = "0x2C03A40", Offset = "0x2C02040", VA = "0x182C03A40", Slot = "6")]
+		[Address(RVA = "0x6606D80", Offset = "0x6605D80", VA = "0x6606D80", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -381,7 +381,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal bool IsActiveModeUnsupportedForDeferred
 	{
 		[Token(Token = "0x6000249")]
-		[Address(RVA = "0x2C03990", Offset = "0x2C01F90", VA = "0x182C03990")]
+		[Address(RVA = "0x6606DB0", Offset = "0x6605DB0", VA = "0x6606DB0")]
 		get
 		{
 			return default(bool);
@@ -392,7 +392,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal Material ReplacementMaterial
 	{
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6606E40", Offset = "0x6605E40", VA = "0x6606E40")]
 		get
 		{
 			return null;
@@ -403,7 +403,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal UniversalRenderPipelineDebugDisplaySettings DebugDisplaySettings
 	{
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x6606E50", Offset = "0x6605E50", VA = "0x6606E50")]
 		get
 		{
 			return null;
@@ -414,7 +414,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal unsafe ref RTHandle DebugScreenColorHandle
 	{
 		[Token(Token = "0x600024D")]
-		[Address(RVA = "0x2BE1B30", Offset = "0x2BE0130", VA = "0x182BE1B30")]
+		[Address(RVA = "0x6606E60", Offset = "0x6605E60", VA = "0x6606E60")]
 		get
 		{
 			return ref *(RTHandle*)null;
@@ -425,7 +425,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal unsafe ref RTHandle DebugScreenDepthHandle
 	{
 		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x29BC050", Offset = "0x29BA650", VA = "0x1829BC050")]
+		[Address(RVA = "0x6606E70", Offset = "0x6605E70", VA = "0x6606E70")]
 		get
 		{
 			return ref *(RTHandle*)null;
@@ -436,7 +436,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal HDRDebugViewPass hdrDebugViewPass
 	{
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6606E80", Offset = "0x6605E80", VA = "0x6606E80")]
 		get
 		{
 			return null;
@@ -447,7 +447,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal bool IsScreenClearNeeded
 	{
 		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x2C03AF0", Offset = "0x2C020F0", VA = "0x182C03AF0")]
+		[Address(RVA = "0x6606EF0", Offset = "0x6605EF0", VA = "0x6606EF0")]
 		get
 		{
 			return default(bool);
@@ -458,7 +458,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal bool IsRenderPassSupported
 	{
 		[Token(Token = "0x6000253")]
-		[Address(RVA = "0x2C03AA0", Offset = "0x2C020A0", VA = "0x182C03AA0")]
+		[Address(RVA = "0x6606F40", Offset = "0x6605F40", VA = "0x6606F40")]
 		get
 		{
 			return default(bool);
@@ -469,7 +469,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal bool IsDepthPrimingCompatible
 	{
 		[Token(Token = "0x6000254")]
-		[Address(RVA = "0x2C03A10", Offset = "0x2C02010", VA = "0x182C03A10")]
+		[Address(RVA = "0x6606F70", Offset = "0x6605F70", VA = "0x6606F70")]
 		get
 		{
 			return default(bool);
@@ -480,7 +480,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	internal int stpDebugViewIndex
 	{
 		[Token(Token = "0x6000255")]
-		[Address(RVA = "0x2C03B90", Offset = "0x2C02190", VA = "0x182C03B90")]
+		[Address(RVA = "0x6606FA0", Offset = "0x6605FA0", VA = "0x6606FA0")]
 		get
 		{
 			return default(int);
@@ -488,73 +488,73 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x2C02220", Offset = "0x2C00820", VA = "0x182C02220", Slot = "7")]
+	[Address(RVA = "0x6606E10", Offset = "0x6605E10", VA = "0x6606E10", Slot = "7")]
 	public bool TryGetScreenClearColor(ref Color color)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x2C00E70", Offset = "0x2BFF470", VA = "0x182C00E70")]
+	[Address(RVA = "0x6606E90", Offset = "0x6605E90", VA = "0x6606E90")]
 	internal bool HDRDebugViewIsActive(bool resolveFinalTarget)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x2C00E70", Offset = "0x2BFF470", VA = "0x182C00E70")]
+	[Address(RVA = "0x6606EC0", Offset = "0x6605EC0", VA = "0x6606EC0")]
 	internal bool WriteToDebugScreenTexture(bool resolveFinalTarget)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x2C03580", Offset = "0x2C01B80", VA = "0x182C03580")]
+	[Address(RVA = "0x6606FC0", Offset = "0x6605FC0", VA = "0x6606FC0")]
 	internal DebugHandler()
 	{
 	}
 
 	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x2C00DA0", Offset = "0x2BFF3A0", VA = "0x182C00DA0")]
+	[Address(RVA = "0x66073E0", Offset = "0x66063E0", VA = "0x66073E0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x2C01140", Offset = "0x2BFF740", VA = "0x182C01140")]
+	[Address(RVA = "0x66074A0", Offset = "0x66064A0", VA = "0x66074A0")]
 	internal bool IsActiveForCamera(bool isPreviewCamera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x2C02180", Offset = "0x2C00780", VA = "0x182C02180")]
+	[Address(RVA = "0x66074D0", Offset = "0x66064D0", VA = "0x66074D0")]
 	internal bool TryGetFullscreenDebugMode(out DebugFullScreenMode debugFullScreenMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x2C021D0", Offset = "0x2C007D0", VA = "0x182C021D0")]
+	[Address(RVA = "0x6607500", Offset = "0x6606500", VA = "0x6607500")]
 	internal bool TryGetFullscreenDebugMode(out DebugFullScreenMode debugFullScreenMode, out int textureHeightPercent)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x2C00B40", Offset = "0x2BFF140", VA = "0x182C00B40")]
+	[Address(RVA = "0x6607530", Offset = "0x6606530", VA = "0x6607530")]
 	internal static void ConfigureColorDescriptorForDebugScreen(ref RenderTextureDescriptor descriptor, int cameraWidth, int cameraHeight)
 	{
 	}
 
 	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x2C00B80", Offset = "0x2BFF180", VA = "0x182C00B80")]
+	[Address(RVA = "0x6607570", Offset = "0x6606570", VA = "0x6607570")]
 	internal static void ConfigureDepthDescriptorForDebugScreen(ref RenderTextureDescriptor descriptor, GraphicsFormat depthStencilFormat, int cameraWidth, int cameraHeight)
 	{
 	}
 
 	[Token(Token = "0x600025D")]
-	[Address(RVA = "0x2C01330", Offset = "0x2BFF930", VA = "0x182C01330")]
+	[Address(RVA = "0x66075C0", Offset = "0x66065C0", VA = "0x66075C0")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void SetupShaderProperties(RasterCommandBuffer cmd, int passIndex = 0)
@@ -562,32 +562,32 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x600025E")]
-	[Address(RVA = "0x2C012A0", Offset = "0x2BFF8A0", VA = "0x182C012A0")]
+	[Address(RVA = "0x6607BA0", Offset = "0x6606BA0", VA = "0x6607BA0")]
 	internal void SetDebugRenderTarget(RTHandle renderTarget, Rect displayRect, bool supportsStereo, Vector4 dataRangeRemap)
 	{
 	}
 
 	[Token(Token = "0x600025F")]
-	[Address(RVA = "0x2C01290", Offset = "0x2BFF890", VA = "0x182C01290")]
+	[Address(RVA = "0x6607C40", Offset = "0x6606C40", VA = "0x6607C40")]
 	internal void ResetDebugRenderTarget()
 	{
 	}
 
 	[Token(Token = "0x6000260")]
-	[Address(RVA = "0x2C00EA0", Offset = "0x2BFF4A0", VA = "0x182C00EA0")]
+	[Address(RVA = "0x6607C50", Offset = "0x6606C50", VA = "0x6607C50")]
 	private DebugFinalValidationPassData InitDebugFinalValidationPassData(DebugFinalValidationPassData passData, UniversalCameraData cameraData, bool isFinalPass)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000261")]
-	[Address(RVA = "0x2C02980", Offset = "0x2C00F80", VA = "0x182C02980")]
+	[Address(RVA = "0x6607E60", Offset = "0x6606E60", VA = "0x6607E60")]
 	private static void UpdateShaderGlobalPropertiesForFinalValidationPass(RasterCommandBuffer cmd, DebugFinalValidationPassData data)
 	{
 	}
 
 	[Token(Token = "0x6000262")]
-	[Address(RVA = "0x2C02C30", Offset = "0x2C01230", VA = "0x182C02C30")]
+	[Address(RVA = "0x66081B0", Offset = "0x66071B0", VA = "0x66081B0")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void UpdateShaderGlobalPropertiesForFinalValidationPass(CommandBuffer cmd, UniversalCameraData cameraData, bool isFinalPass)
@@ -595,7 +595,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000263")]
-	[Address(RVA = "0x2C02250", Offset = "0x2C00850", VA = "0x182C02250")]
+	[Address(RVA = "0x6608400", Offset = "0x6607400", VA = "0x6608400")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void UpdateShaderGlobalPropertiesForFinalValidationPass(RenderGraph renderGraph, UniversalCameraData cameraData, bool isFinalPass)
@@ -603,14 +603,14 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000264")]
-	[Address(RVA = "0x2C01090", Offset = "0x2BFF690", VA = "0x182C01090")]
+	[Address(RVA = "0x6608CE0", Offset = "0x6607CE0", VA = "0x6608CE0")]
 	private DebugSetupPassData InitDebugSetupPassData(DebugSetupPassData passData, bool isPreviewCamera)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000265")]
-	[Address(RVA = "0x2C01D50", Offset = "0x2C00350", VA = "0x182C01D50")]
+	[Address(RVA = "0x6608D80", Offset = "0x6607D80", VA = "0x6608D80")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	private static void Setup(RasterCommandBuffer cmd, DebugSetupPassData passData)
@@ -618,7 +618,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000266")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6609160", Offset = "0x6608160", VA = "0x6609160")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void Setup(CommandBuffer cmd, bool isPreviewCamera)
@@ -626,7 +626,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x2C019A0", Offset = "0x2BFFFA0", VA = "0x182C019A0")]
+	[Address(RVA = "0x6609170", Offset = "0x6608170", VA = "0x6609170")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void Setup(RenderGraph renderGraph, bool isPreviewCamera)
@@ -634,7 +634,7 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000268")]
-	[Address(RVA = "0x2C01180", Offset = "0x2BFF780", VA = "0x182C01180")]
+	[Address(RVA = "0x6609530", Offset = "0x6608530", VA = "0x6609530")]
 	[Conditional("DEVELOPMENT_BUILD")]
 	[Conditional("UNITY_EDITOR")]
 	internal void Render(RenderGraph renderGraph, UniversalCameraData cameraData, TextureHandle srcColor, TextureHandle overlayTexture, TextureHandle dstColor)
@@ -642,14 +642,14 @@ internal class DebugHandler : IDebugDisplaySettingsQuery
 	}
 
 	[Token(Token = "0x6000269")]
-	[Address(RVA = "0x2C00CC0", Offset = "0x2BFF2C0", VA = "0x182C00CC0")]
+	[Address(RVA = "0x6609610", Offset = "0x6608610", VA = "0x6609610")]
 	internal DebugRendererLists CreateRendererListsWithDebugRenderState(ScriptableRenderContext context, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600026A")]
-	[Address(RVA = "0x2C00BE0", Offset = "0x2BFF1E0", VA = "0x182C00BE0")]
+	[Address(RVA = "0x6609EF0", Offset = "0x6608EF0", VA = "0x6609EF0")]
 	internal DebugRendererLists CreateRendererListsWithDebugRenderState(RenderGraph renderGraph, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock)
 	{
 		return null;

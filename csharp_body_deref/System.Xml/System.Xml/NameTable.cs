@@ -28,7 +28,7 @@ public class NameTable : XmlNameTable
 		internal Entry next;
 
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x1BC8210", Offset = "0x1BC6810", VA = "0x181BC8210")]
+		[Address(RVA = "0x60E8BB0", Offset = "0x60E7BB0", VA = "0x60E8BB0")]
 		internal Entry(string str, int hashCode, Entry next)
 		{
 		}
@@ -51,47 +51,47 @@ public class NameTable : XmlNameTable
 	private int hashCodeRandomizer;
 
 	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x27291C0", Offset = "0x27277C0", VA = "0x1827291C0")]
+	[Address(RVA = "0x60D83A0", Offset = "0x60D73A0", VA = "0x60D83A0")]
 	public NameTable()
 	{
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x2728BD0", Offset = "0x27271D0", VA = "0x182728BD0", Slot = "6")]
+	[Address(RVA = "0x60E8510", Offset = "0x60E7510", VA = "0x60E8510", Slot = "6")]
 	public override string Add(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x2728D40", Offset = "0x2727340", VA = "0x182728D40", Slot = "5")]
+	[Address(RVA = "0x60E8790", Offset = "0x60E7790", VA = "0x60E8790", Slot = "5")]
 	public override string Add(char[] key, int start, int len)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x2728F00", Offset = "0x2727500", VA = "0x182728F00", Slot = "4")]
+	[Address(RVA = "0x60E8A70", Offset = "0x60E7A70", VA = "0x60E8A70", Slot = "4")]
 	public override string Get(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x2728970", Offset = "0x2726F70", VA = "0x182728970")]
+	[Address(RVA = "0x60E8660", Offset = "0x60E7660", VA = "0x60E8660")]
 	private string AddEntry(string str, int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x2729060", Offset = "0x2727660", VA = "0x182729060")]
+	[Address(RVA = "0x60E8C00", Offset = "0x60E7C00", VA = "0x60E8C00")]
 	private void Grow()
 	{
 	}
 
 	[Token(Token = "0x6000A8E")]
-	[Address(RVA = "0x1BC80F0", Offset = "0x1BC66F0", VA = "0x181BC80F0")]
+	[Address(RVA = "0x60E89C0", Offset = "0x60E79C0", VA = "0x60E89C0")]
 	private static bool TextEquals(string str1, char[] str2, int str2Start, int str2Length)
 	{
 		return default(bool);

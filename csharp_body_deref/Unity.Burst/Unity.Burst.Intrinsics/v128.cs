@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.Intrinsics.v128
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -289,127 +289,127 @@ public struct v128
 	public v64 Hi64;
 
 	[Token(Token = "0x6000A7D")]
-	[Address(RVA = "0x298BB10", Offset = "0x298A110", VA = "0x18298BB10")]
+	[Address(RVA = "0x633EC70", Offset = "0x633DC70", VA = "0x633EC70")]
 	public v128(byte b)
 	{
 	}
 
 	[Token(Token = "0x6000A7E")]
-	[Address(RVA = "0x298BA50", Offset = "0x298A050", VA = "0x18298BA50")]
+	[Address(RVA = "0x633EC90", Offset = "0x633DC90", VA = "0x633EC90")]
 	public v128(byte a, byte b, byte c, byte d, byte e, byte f, byte g, byte h, byte i, byte j, byte k, byte l, byte m, byte n, byte o, byte p)
 	{
 	}
 
 	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x298BB10", Offset = "0x298A110", VA = "0x18298BB10")]
+	[Address(RVA = "0x633ED30", Offset = "0x633DD30", VA = "0x633ED30")]
 	public v128(sbyte b)
 	{
 	}
 
 	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x298BA50", Offset = "0x298A050", VA = "0x18298BA50")]
+	[Address(RVA = "0x633ED50", Offset = "0x633DD50", VA = "0x633ED50")]
 	public v128(sbyte a, sbyte b, sbyte c, sbyte d, sbyte e, sbyte f, sbyte g, sbyte h, sbyte i, sbyte j, sbyte k, sbyte l, sbyte m, sbyte n, sbyte o, sbyte p)
 	{
 	}
 
 	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x298BB50", Offset = "0x298A150", VA = "0x18298BB50")]
+	[Address(RVA = "0x633EDF0", Offset = "0x633DDF0", VA = "0x633EDF0")]
 	public v128(short v)
 	{
 	}
 
 	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x298BB80", Offset = "0x298A180", VA = "0x18298BB80")]
+	[Address(RVA = "0x633EE10", Offset = "0x633DE10", VA = "0x633EE10")]
 	public v128(short a, short b, short c, short d, short e, short f, short g, short h)
 	{
 	}
 
 	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x298BB50", Offset = "0x298A150", VA = "0x18298BB50")]
+	[Address(RVA = "0x633EE50", Offset = "0x633DE50", VA = "0x633EE50")]
 	public v128(ushort v)
 	{
 	}
 
 	[Token(Token = "0x6000A84")]
-	[Address(RVA = "0x298BB80", Offset = "0x298A180", VA = "0x18298BB80")]
+	[Address(RVA = "0x633EE70", Offset = "0x633DE70", VA = "0x633EE70")]
 	public v128(ushort a, ushort b, ushort c, ushort d, ushort e, ushort f, ushort g, ushort h)
 	{
 	}
 
 	[Token(Token = "0x6000A85")]
-	[Address(RVA = "0x298BBC0", Offset = "0x298A1C0", VA = "0x18298BBC0")]
+	[Address(RVA = "0x633EEB0", Offset = "0x633DEB0", VA = "0x633EEB0")]
 	public v128(int v)
 	{
 	}
 
 	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
+	[Address(RVA = "0x633EEC0", Offset = "0x633DEC0", VA = "0x633EEC0")]
 	public v128(int a, int b, int c, int d)
 	{
 	}
 
 	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0x298BBC0", Offset = "0x298A1C0", VA = "0x18298BBC0")]
+	[Address(RVA = "0x633EED0", Offset = "0x633DED0", VA = "0x633EED0")]
 	public v128(uint v)
 	{
 	}
 
 	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
+	[Address(RVA = "0x633EEE0", Offset = "0x633DEE0", VA = "0x633EEE0")]
 	public v128(uint a, uint b, uint c, uint d)
 	{
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x298BB40", Offset = "0x298A140", VA = "0x18298BB40")]
+	[Address(RVA = "0x633EEF0", Offset = "0x633DEF0", VA = "0x633EEF0")]
 	public v128(float f)
 	{
 	}
 
 	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x633EF00", Offset = "0x633DF00", VA = "0x633EF00")]
 	public v128(float a, float b, float c, float d)
 	{
 	}
 
 	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x298BAF0", Offset = "0x298A0F0", VA = "0x18298BAF0")]
+	[Address(RVA = "0x633EF20", Offset = "0x633DF20", VA = "0x633EF20")]
 	public v128(double f)
 	{
 	}
 
 	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x298BB00", Offset = "0x298A100", VA = "0x18298BB00")]
+	[Address(RVA = "0x633EF30", Offset = "0x633DF30", VA = "0x633EF30")]
 	public v128(double a, double b)
 	{
 	}
 
 	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x298BB70", Offset = "0x298A170", VA = "0x18298BB70")]
+	[Address(RVA = "0x633EF40", Offset = "0x633DF40", VA = "0x633EF40")]
 	public v128(long f)
 	{
 	}
 
 	[Token(Token = "0x6000A8E")]
-	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
+	[Address(RVA = "0x633EF50", Offset = "0x633DF50", VA = "0x633EF50")]
 	public v128(long a, long b)
 	{
 	}
 
 	[Token(Token = "0x6000A8F")]
-	[Address(RVA = "0x298BB70", Offset = "0x298A170", VA = "0x18298BB70")]
+	[Address(RVA = "0x633EF60", Offset = "0x633DF60", VA = "0x633EF60")]
 	public v128(ulong f)
 	{
 	}
 
 	[Token(Token = "0x6000A90")]
-	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
+	[Address(RVA = "0x633EF70", Offset = "0x633DF70", VA = "0x633EF70")]
 	public v128(ulong a, ulong b)
 	{
 	}
 
 	[Token(Token = "0x6000A91")]
-	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
+	[Address(RVA = "0x633EF80", Offset = "0x633DF80", VA = "0x633EF80")]
 	public v128(v64 lo, v64 hi)
 	{
 	}

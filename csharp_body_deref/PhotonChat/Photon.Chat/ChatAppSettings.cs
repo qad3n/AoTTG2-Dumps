@@ -55,7 +55,7 @@ public class ChatAppSettings
 	public bool IsDefaultNameServer
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x1D0AD90", Offset = "0x1D09390", VA = "0x181D0AD90")]
+		[Address(RVA = "0x569E880", Offset = "0x569D880", VA = "0x569E880")]
 		get
 		{
 			return default(bool);
@@ -63,7 +63,7 @@ public class ChatAppSettings
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x1D0AD80", Offset = "0x1D09380", VA = "0x181D0AD80")]
+	[Address(RVA = "0x569E890", Offset = "0x569D890", VA = "0x569E890")]
 	public ChatAppSettings()
 	{
 	}

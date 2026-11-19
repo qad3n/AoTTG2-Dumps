@@ -11,146 +11,146 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000370")]
+[Token(Token = "0x2000349")]
 internal abstract class Identity
 {
-	[Token(Token = "0x4000E7E")]
+	[Token(Token = "0x4000DDE")]
 	[FieldOffset(Offset = "0x10")]
 	protected string _objectUri;
 
-	[Token(Token = "0x4000E7F")]
+	[Token(Token = "0x4000DDF")]
 	[FieldOffset(Offset = "0x18")]
 	protected IMessageSink _channelSink;
 
-	[Token(Token = "0x4000E80")]
+	[Token(Token = "0x4000DE0")]
 	[FieldOffset(Offset = "0x20")]
 	protected IMessageSink _envoySink;
 
-	[Token(Token = "0x4000E81")]
+	[Token(Token = "0x4000DE1")]
 	[FieldOffset(Offset = "0x28")]
 	private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _clientDynamicProperties;
 
-	[Token(Token = "0x4000E82")]
+	[Token(Token = "0x4000DE2")]
 	[FieldOffset(Offset = "0x30")]
 	private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _serverDynamicProperties;
 
-	[Token(Token = "0x4000E83")]
+	[Token(Token = "0x4000DE3")]
 	[FieldOffset(Offset = "0x38")]
 	protected ObjRef _objRef;
 
-	[Token(Token = "0x4000E84")]
+	[Token(Token = "0x4000DE4")]
 	[FieldOffset(Offset = "0x40")]
 	private bool _disposed;
 
-	[Token(Token = "0x17000333")]
+	[Token(Token = "0x17000332")]
 	public IMessageSink ChannelSink
 	{
-		[Token(Token = "0x6001C8F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001C65")]
+		[Address(RVA = "0x5369080", Offset = "0x5368080", VA = "0x5369080")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C90")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001C66")]
+		[Address(RVA = "0x5369090", Offset = "0x5368090", VA = "0x5369090")]
 		set
 		{
+		}
+	}
+
+	[Token(Token = "0x17000333")]
+	public IMessageSink EnvoySink
+	{
+		[Token(Token = "0x6001C67")]
+		[Address(RVA = "0x53690A0", Offset = "0x53680A0", VA = "0x53690A0")]
+		get
+		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000334")]
-	public IMessageSink EnvoySink
+	public string ObjectUri
 	{
-		[Token(Token = "0x6001C91")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001C68")]
+		[Address(RVA = "0x53690B0", Offset = "0x53680B0", VA = "0x53690B0")]
 		get
 		{
 			return null;
+		}
+		[Token(Token = "0x6001C69")]
+		[Address(RVA = "0x53690C0", Offset = "0x53680C0", VA = "0x53690C0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000335")]
-	public string ObjectUri
+	public bool IsConnected
 	{
-		[Token(Token = "0x6001C92")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001C6A")]
+		[Address(RVA = "0x53690D0", Offset = "0x53680D0", VA = "0x53690D0")]
 		get
 		{
-			return null;
-		}
-		[Token(Token = "0x6001C93")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
-		set
-		{
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000336")]
-	public bool IsConnected
-	{
-		[Token(Token = "0x6001C94")]
-		[Address(RVA = "0x19DA120", Offset = "0x19D8720", VA = "0x1819DA120")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000337")]
 	public bool Disposed
 	{
-		[Token(Token = "0x6001C95")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Token(Token = "0x6001C6B")]
+		[Address(RVA = "0x53690E0", Offset = "0x53680E0", VA = "0x53690E0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001C96")]
-		[Address(RVA = "0xA374F0", Offset = "0xA35AF0", VA = "0x180A374F0")]
+		[Token(Token = "0x6001C6C")]
+		[Address(RVA = "0x53690F0", Offset = "0x53680F0", VA = "0x53690F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000338")]
+	[Token(Token = "0x17000337")]
 	public System.Runtime.Remoting.Contexts.DynamicPropertyCollection ClientDynamicProperties
 	{
-		[Token(Token = "0x6001C97")]
-		[Address(RVA = "0x19DA090", Offset = "0x19D8690", VA = "0x1819DA090")]
+		[Token(Token = "0x6001C6D")]
+		[Address(RVA = "0x5369100", Offset = "0x5368100", VA = "0x5369100")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000339")]
+	[Token(Token = "0x17000338")]
 	public bool HasServerDynamicSinks
 	{
-		[Token(Token = "0x6001C98")]
-		[Address(RVA = "0x19DA100", Offset = "0x19D8700", VA = "0x1819DA100")]
+		[Token(Token = "0x6001C6E")]
+		[Address(RVA = "0x5369180", Offset = "0x5368180", VA = "0x5369180")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001C8D")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6001C63")]
+	[Address(RVA = "0x5369050", Offset = "0x5368050", VA = "0x5369050")]
 	public Identity(string objectUri)
 	{
 	}
 
-	[Token(Token = "0x6001C8E")]
+	[Token(Token = "0x6001C64")]
 	public abstract ObjRef CreateObjRef(Type requestedType);
 
-	[Token(Token = "0x6001C99")]
-	[Address(RVA = "0x19D9FB0", Offset = "0x19D85B0", VA = "0x1819D9FB0")]
+	[Token(Token = "0x6001C6F")]
+	[Address(RVA = "0x53691A0", Offset = "0x53681A0", VA = "0x53691A0")]
 	public void NotifyClientDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}
 
-	[Token(Token = "0x6001C9A")]
-	[Address(RVA = "0x19DA020", Offset = "0x19D8620", VA = "0x1819DA020")]
+	[Token(Token = "0x6001C70")]
+	[Address(RVA = "0x5369200", Offset = "0x5368200", VA = "0x5369200")]
 	public void NotifyServerDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}

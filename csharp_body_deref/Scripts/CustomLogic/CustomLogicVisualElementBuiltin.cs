@@ -12,1291 +12,1291 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005AF")]
+[Token(Token = "0x200060E")]
 [CompilerGenerated]
 internal class CustomLogicVisualElementBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x20005B0")]
+	[Token(Token = "0x200060F")]
 	public static class Factory
 	{
-		[Token(Token = "0x600367A")]
-		[Address(RVA = "0x2074800", Offset = "0x2072E00", VA = "0x182074800")]
+		[Token(Token = "0x6003906")]
+		[Address(RVA = "0x5A1AB80", Offset = "0x5A19B80", VA = "0x5A1AB80")]
 		public static CustomLogicVisualElementBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20005B1")]
+	[Token(Token = "0x2000610")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400183E")]
+		[Token(Token = "0x40019DE")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600367B")]
-		[Address(RVA = "0x204B950", Offset = "0x2049F50", VA = "0x18204B950")]
+		[Token(Token = "0x6003907")]
+		[Address(RVA = "0x5A1AC10", Offset = "0x5A19C10", VA = "0x5A1AC10")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600367C")]
-		[Address(RVA = "0x2061790", Offset = "0x205FD90", VA = "0x182061790")]
+		[Token(Token = "0x6003908")]
+		[Address(RVA = "0x5A1CAE0", Offset = "0x5A1BAE0", VA = "0x5A1CAE0")]
 		public static CLPropertyBinding<CustomLogicVisualElementBuiltin> __CreatePropertyBinding__ChildCount()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600367D")]
-		[Address(RVA = "0x2057330", Offset = "0x2055930", VA = "0x182057330")]
+		[Token(Token = "0x6003909")]
+		[Address(RVA = "0x5A1CB80", Offset = "0x5A1BB80", VA = "0x5A1CB80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Add()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600367E")]
-		[Address(RVA = "0x205D0A0", Offset = "0x205B6A0", VA = "0x18205D0A0")]
+		[Token(Token = "0x600390A")]
+		[Address(RVA = "0x5A1CCC0", Offset = "0x5A1BCC0", VA = "0x5A1CCC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Remove()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600367F")]
-		[Address(RVA = "0x205CF80", Offset = "0x205B580", VA = "0x18205CF80")]
+		[Token(Token = "0x600390B")]
+		[Address(RVA = "0x5A1CE00", Offset = "0x5A1BE00", VA = "0x5A1CE00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RemoveFromHierarchy()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003680")]
-		[Address(RVA = "0x2058F80", Offset = "0x2057580", VA = "0x182058F80")]
+		[Token(Token = "0x600390C")]
+		[Address(RVA = "0x5A1CF40", Offset = "0x5A1BF40", VA = "0x5A1CF40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Clear()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003681")]
-		[Address(RVA = "0x2059C60", Offset = "0x2058260", VA = "0x182059C60")]
+		[Token(Token = "0x600390D")]
+		[Address(RVA = "0x5A1D080", Offset = "0x5A1C080", VA = "0x5A1D080")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__GetElementAt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003682")]
-		[Address(RVA = "0x205C680", Offset = "0x205AC80", VA = "0x18205C680")]
+		[Token(Token = "0x600390E")]
+		[Address(RVA = "0x5A1D1C0", Offset = "0x5A1C1C0", VA = "0x5A1D1C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__QueryByName()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003683")]
-		[Address(RVA = "0x205C560", Offset = "0x205AB60", VA = "0x18205C560")]
+		[Token(Token = "0x600390F")]
+		[Address(RVA = "0x5A1D300", Offset = "0x5A1C300", VA = "0x5A1D300")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__QueryByClassName()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003684")]
-		[Address(RVA = "0x205CB00", Offset = "0x205B100", VA = "0x18205CB00")]
+		[Token(Token = "0x6003910")]
+		[Address(RVA = "0x5A1D440", Offset = "0x5A1C440", VA = "0x5A1D440")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RegisterMouseEnterEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003685")]
-		[Address(RVA = "0x205CC20", Offset = "0x205B220", VA = "0x18205CC20")]
+		[Token(Token = "0x6003911")]
+		[Address(RVA = "0x5A1D580", Offset = "0x5A1C580", VA = "0x5A1D580")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RegisterMouseLeaveEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003686")]
-		[Address(RVA = "0x205C7A0", Offset = "0x205ADA0", VA = "0x18205C7A0")]
+		[Token(Token = "0x6003912")]
+		[Address(RVA = "0x5A1D6C0", Offset = "0x5A1C6C0", VA = "0x5A1D6C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RegisterClickEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003687")]
-		[Address(RVA = "0x205C8C0", Offset = "0x205AEC0", VA = "0x18205C8C0")]
+		[Token(Token = "0x6003913")]
+		[Address(RVA = "0x5A1D800", Offset = "0x5A1C800", VA = "0x5A1D800")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RegisterFocusInEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003688")]
-		[Address(RVA = "0x205C9E0", Offset = "0x205AFE0", VA = "0x18205C9E0")]
+		[Token(Token = "0x6003914")]
+		[Address(RVA = "0x5A1D940", Offset = "0x5A1C940", VA = "0x5A1D940")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__RegisterFocusOutEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003689")]
-		[Address(RVA = "0x205BAC0", Offset = "0x205A0C0", VA = "0x18205BAC0")]
+		[Token(Token = "0x6003915")]
+		[Address(RVA = "0x5A1DA80", Offset = "0x5A1CA80", VA = "0x5A1DA80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Opacity()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368A")]
-		[Address(RVA = "0x2056C70", Offset = "0x2055270", VA = "0x182056C70")]
+		[Token(Token = "0x6003916")]
+		[Address(RVA = "0x5A1DBC0", Offset = "0x5A1CBC0", VA = "0x5A1DBC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Active()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368B")]
-		[Address(RVA = "0x20612F0", Offset = "0x205F8F0", VA = "0x1820612F0")]
+		[Token(Token = "0x6003917")]
+		[Address(RVA = "0x5A1DD00", Offset = "0x5A1CD00", VA = "0x5A1DD00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Visible()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368C")]
-		[Address(RVA = "0x20611C0", Offset = "0x205F7C0", VA = "0x1820611C0")]
+		[Token(Token = "0x6003918")]
+		[Address(RVA = "0x5A1DE40", Offset = "0x5A1CE40", VA = "0x5A1DE40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TransitionDuration()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368D")]
-		[Address(RVA = "0x2056B40", Offset = "0x2055140", VA = "0x182056B40")]
+		[Token(Token = "0x6003919")]
+		[Address(RVA = "0x5A1DF80", Offset = "0x5A1CF80", VA = "0x5A1DF80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Absolute()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368E")]
-		[Address(RVA = "0x205A940", Offset = "0x2058F40", VA = "0x18205A940")]
+		[Token(Token = "0x600391A")]
+		[Address(RVA = "0x5A1E0C0", Offset = "0x5A1D0C0", VA = "0x5A1E0C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Left()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600368F")]
-		[Address(RVA = "0x2060D00", Offset = "0x205F300", VA = "0x182060D00")]
+		[Token(Token = "0x600391B")]
+		[Address(RVA = "0x5A1E200", Offset = "0x5A1D200", VA = "0x5A1E200")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Top()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003690")]
-		[Address(RVA = "0x205D1C0", Offset = "0x205B7C0", VA = "0x18205D1C0")]
+		[Token(Token = "0x600391C")]
+		[Address(RVA = "0x5A1E340", Offset = "0x5A1D340", VA = "0x5A1E340")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Right()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003691")]
-		[Address(RVA = "0x2058AE0", Offset = "0x20570E0", VA = "0x182058AE0")]
+		[Token(Token = "0x600391D")]
+		[Address(RVA = "0x5A1E480", Offset = "0x5A1D480", VA = "0x5A1E480")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Bottom()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003692")]
-		[Address(RVA = "0x20597A0", Offset = "0x2057DA0", VA = "0x1820597A0")]
+		[Token(Token = "0x600391E")]
+		[Address(RVA = "0x5A1E5C0", Offset = "0x5A1D5C0", VA = "0x5A1E5C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FlexShrink()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003693")]
-		[Address(RVA = "0x2059670", Offset = "0x2057C70", VA = "0x182059670")]
+		[Token(Token = "0x600391F")]
+		[Address(RVA = "0x5A1E700", Offset = "0x5A1D700", VA = "0x5A1E700")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FlexGrow()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003694")]
-		[Address(RVA = "0x2059540", Offset = "0x2057B40", VA = "0x182059540")]
+		[Token(Token = "0x6003920")]
+		[Address(RVA = "0x5A1E840", Offset = "0x5A1D840", VA = "0x5A1E840")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FlexDirection()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003695")]
-		[Address(RVA = "0x20598D0", Offset = "0x2057ED0", VA = "0x1820598D0")]
+		[Token(Token = "0x6003921")]
+		[Address(RVA = "0x5A1E980", Offset = "0x5A1D980", VA = "0x5A1E980")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FlexWrap()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003696")]
-		[Address(RVA = "0x2057450", Offset = "0x2055A50", VA = "0x182057450")]
+		[Token(Token = "0x6003922")]
+		[Address(RVA = "0x5A1EAC0", Offset = "0x5A1DAC0", VA = "0x5A1EAC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__AlignItems()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003697")]
-		[Address(RVA = "0x205A6E0", Offset = "0x2058CE0", VA = "0x18205A6E0")]
+		[Token(Token = "0x6003923")]
+		[Address(RVA = "0x5A1EC00", Offset = "0x5A1DC00", VA = "0x5A1EC00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__JustifyContent()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003698")]
-		[Address(RVA = "0x2057580", Offset = "0x2055B80", VA = "0x182057580")]
+		[Token(Token = "0x6003924")]
+		[Address(RVA = "0x5A1ED40", Offset = "0x5A1DD40", VA = "0x5A1ED40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__AlignSelf()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003699")]
-		[Address(RVA = "0x2061540", Offset = "0x205FB40", VA = "0x182061540")]
+		[Token(Token = "0x6003925")]
+		[Address(RVA = "0x5A1EE80", Offset = "0x5A1DE80", VA = "0x5A1EE80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Width()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369A")]
-		[Address(RVA = "0x205A100", Offset = "0x2058700", VA = "0x18205A100")]
+		[Token(Token = "0x6003926")]
+		[Address(RVA = "0x5A1EFC0", Offset = "0x5A1DFC0", VA = "0x5A1EFC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Height()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369B")]
-		[Address(RVA = "0x205B3F0", Offset = "0x20599F0", VA = "0x18205B3F0")]
+		[Token(Token = "0x6003927")]
+		[Address(RVA = "0x5A1F100", Offset = "0x5A1E100", VA = "0x5A1F100")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MinWidth()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369C")]
-		[Address(RVA = "0x205B2C0", Offset = "0x20598C0", VA = "0x18205B2C0")]
+		[Token(Token = "0x6003928")]
+		[Address(RVA = "0x5A1F240", Offset = "0x5A1E240", VA = "0x5A1F240")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MinHeight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369D")]
-		[Address(RVA = "0x205B190", Offset = "0x2059790", VA = "0x18205B190")]
+		[Token(Token = "0x6003929")]
+		[Address(RVA = "0x5A1F380", Offset = "0x5A1E380", VA = "0x5A1F380")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MaxWidth()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369E")]
-		[Address(RVA = "0x205B060", Offset = "0x2059660", VA = "0x18205B060")]
+		[Token(Token = "0x600392A")]
+		[Address(RVA = "0x5A1F4C0", Offset = "0x5A1E4C0", VA = "0x5A1F4C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MaxHeight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600369F")]
-		[Address(RVA = "0x20576B0", Offset = "0x2055CB0", VA = "0x1820576B0")]
+		[Token(Token = "0x600392B")]
+		[Address(RVA = "0x5A1F600", Offset = "0x5A1E600", VA = "0x5A1F600")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__AspectRatio()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A0")]
-		[Address(RVA = "0x205AF30", Offset = "0x2059530", VA = "0x18205AF30")]
+		[Token(Token = "0x600392C")]
+		[Address(RVA = "0x5A1F740", Offset = "0x5A1E740", VA = "0x5A1F740")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Margin()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A1")]
-		[Address(RVA = "0x205ABA0", Offset = "0x20591A0", VA = "0x18205ABA0")]
+		[Token(Token = "0x600392D")]
+		[Address(RVA = "0x5A1F880", Offset = "0x5A1E880", VA = "0x5A1F880")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MarginLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A2")]
-		[Address(RVA = "0x205AE00", Offset = "0x2059400", VA = "0x18205AE00")]
+		[Token(Token = "0x600392E")]
+		[Address(RVA = "0x5A1F9C0", Offset = "0x5A1E9C0", VA = "0x5A1F9C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MarginTop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A3")]
-		[Address(RVA = "0x205ACD0", Offset = "0x20592D0", VA = "0x18205ACD0")]
+		[Token(Token = "0x600392F")]
+		[Address(RVA = "0x5A1FB00", Offset = "0x5A1EB00", VA = "0x5A1FB00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MarginRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A4")]
-		[Address(RVA = "0x205AA70", Offset = "0x2059070", VA = "0x18205AA70")]
+		[Token(Token = "0x6003930")]
+		[Address(RVA = "0x5A1FC40", Offset = "0x5A1EC40", VA = "0x5A1FC40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__MarginBottom()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A5")]
-		[Address(RVA = "0x205C300", Offset = "0x205A900", VA = "0x18205C300")]
+		[Token(Token = "0x6003931")]
+		[Address(RVA = "0x5A1FD80", Offset = "0x5A1ED80", VA = "0x5A1FD80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Padding()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A6")]
-		[Address(RVA = "0x205BF70", Offset = "0x205A570", VA = "0x18205BF70")]
+		[Token(Token = "0x6003932")]
+		[Address(RVA = "0x5A1FEC0", Offset = "0x5A1EEC0", VA = "0x5A1FEC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__PaddingLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A7")]
-		[Address(RVA = "0x205C1D0", Offset = "0x205A7D0", VA = "0x18205C1D0")]
+		[Token(Token = "0x6003933")]
+		[Address(RVA = "0x5A20000", Offset = "0x5A1F000", VA = "0x5A20000")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__PaddingTop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A8")]
-		[Address(RVA = "0x205C0A0", Offset = "0x205A6A0", VA = "0x18205C0A0")]
+		[Token(Token = "0x6003934")]
+		[Address(RVA = "0x5A20140", Offset = "0x5A1F140", VA = "0x5A20140")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__PaddingRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036A9")]
-		[Address(RVA = "0x205BE40", Offset = "0x205A440", VA = "0x18205BE40")]
+		[Token(Token = "0x6003935")]
+		[Address(RVA = "0x5A20280", Offset = "0x5A1F280", VA = "0x5A20280")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__PaddingBottom()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AA")]
-		[Address(RVA = "0x2059B30", Offset = "0x2058130", VA = "0x182059B30")]
+		[Token(Token = "0x6003936")]
+		[Address(RVA = "0x5A203C0", Offset = "0x5A1F3C0", VA = "0x5A203C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FontStyle()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AB")]
-		[Address(RVA = "0x2059A00", Offset = "0x2058000", VA = "0x182059A00")]
+		[Token(Token = "0x6003937")]
+		[Address(RVA = "0x5A20500", Offset = "0x5A1F500", VA = "0x5A20500")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__FontSize()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AC")]
-		[Address(RVA = "0x20590A0", Offset = "0x20576A0", VA = "0x1820590A0")]
+		[Token(Token = "0x6003938")]
+		[Address(RVA = "0x5A20640", Offset = "0x5A1F640", VA = "0x5A20640")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__Color()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AD")]
-		[Address(RVA = "0x205FB30", Offset = "0x205E130", VA = "0x18205FB30")]
+		[Token(Token = "0x6003939")]
+		[Address(RVA = "0x5A20780", Offset = "0x5A1F780", VA = "0x5A20780")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextAlign()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AE")]
-		[Address(RVA = "0x2060AA0", Offset = "0x205F0A0", VA = "0x182060AA0")]
+		[Token(Token = "0x600393A")]
+		[Address(RVA = "0x5A208C0", Offset = "0x5A1F8C0", VA = "0x5A208C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextWrap()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036AF")]
-		[Address(RVA = "0x2060120", Offset = "0x205E720", VA = "0x182060120")]
+		[Token(Token = "0x600393B")]
+		[Address(RVA = "0x5A20A00", Offset = "0x5A1FA00", VA = "0x5A20A00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextOverflow()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B0")]
-		[Address(RVA = "0x205FFF0", Offset = "0x205E5F0", VA = "0x18205FFF0")]
+		[Token(Token = "0x600393C")]
+		[Address(RVA = "0x5A20B40", Offset = "0x5A1FB40", VA = "0x5A20B40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextOutlineWidth()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B1")]
-		[Address(RVA = "0x205FEC0", Offset = "0x205E4C0", VA = "0x18205FEC0")]
+		[Token(Token = "0x600393D")]
+		[Address(RVA = "0x5A20C80", Offset = "0x5A1FC80", VA = "0x5A20C80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextOutlineColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B2")]
-		[Address(RVA = "0x20604B0", Offset = "0x205EAB0", VA = "0x1820604B0")]
+		[Token(Token = "0x600393E")]
+		[Address(RVA = "0x5A20DC0", Offset = "0x5A1FDC0", VA = "0x5A20DC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextShadowColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B3")]
-		[Address(RVA = "0x2060710", Offset = "0x205ED10", VA = "0x182060710")]
+		[Token(Token = "0x600393F")]
+		[Address(RVA = "0x5A20F00", Offset = "0x5A1FF00", VA = "0x5A20F00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextShadowOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B4")]
-		[Address(RVA = "0x20605E0", Offset = "0x205EBE0", VA = "0x1820605E0")]
+		[Token(Token = "0x6003940")]
+		[Address(RVA = "0x5A21040", Offset = "0x5A20040", VA = "0x5A21040")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextShadowHorizontalOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B5")]
-		[Address(RVA = "0x2060840", Offset = "0x205EE40", VA = "0x182060840")]
+		[Token(Token = "0x6003941")]
+		[Address(RVA = "0x5A21180", Offset = "0x5A20180", VA = "0x5A21180")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextShadowVerticalOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B6")]
-		[Address(RVA = "0x2060380", Offset = "0x205E980", VA = "0x182060380")]
+		[Token(Token = "0x6003942")]
+		[Address(RVA = "0x5A212C0", Offset = "0x5A202C0", VA = "0x5A212C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextShadowBlurRadius()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B7")]
-		[Address(RVA = "0x205FD90", Offset = "0x205E390", VA = "0x18205FD90")]
+		[Token(Token = "0x6003943")]
+		[Address(RVA = "0x5A21400", Offset = "0x5A20400", VA = "0x5A21400")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextLetterSpacing()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B8")]
-		[Address(RVA = "0x2060970", Offset = "0x205EF70", VA = "0x182060970")]
+		[Token(Token = "0x6003944")]
+		[Address(RVA = "0x5A21540", Offset = "0x5A20540", VA = "0x5A21540")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextWordSpacing()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036B9")]
-		[Address(RVA = "0x2060250", Offset = "0x205E850", VA = "0x182060250")]
+		[Token(Token = "0x6003945")]
+		[Address(RVA = "0x5A21680", Offset = "0x5A20680", VA = "0x5A21680")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TextParagraphSpacing()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BA")]
-		[Address(RVA = "0x20577E0", Offset = "0x2055DE0", VA = "0x1820577E0")]
+		[Token(Token = "0x6003946")]
+		[Address(RVA = "0x5A217C0", Offset = "0x5A207C0", VA = "0x5A217C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BackgroundColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BB")]
-		[Address(RVA = "0x205D660", Offset = "0x205BC60", VA = "0x18205D660")]
+		[Token(Token = "0x6003947")]
+		[Address(RVA = "0x5A21900", Offset = "0x5A20900", VA = "0x5A21900")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__SetBackgroundImage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BC")]
-		[Address(RVA = "0x2057DD0", Offset = "0x20563D0", VA = "0x182057DD0")]
+		[Token(Token = "0x6003948")]
+		[Address(RVA = "0x5A21A40", Offset = "0x5A20A40", VA = "0x5A21A40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BD")]
-		[Address(RVA = "0x2057A40", Offset = "0x2056040", VA = "0x182057A40")]
+		[Token(Token = "0x6003949")]
+		[Address(RVA = "0x5A21B80", Offset = "0x5A20B80", VA = "0x5A21B80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderColorLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BE")]
-		[Address(RVA = "0x2057CA0", Offset = "0x20562A0", VA = "0x182057CA0")]
+		[Token(Token = "0x600394A")]
+		[Address(RVA = "0x5A21CC0", Offset = "0x5A20CC0", VA = "0x5A21CC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderColorTop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036BF")]
-		[Address(RVA = "0x2057B70", Offset = "0x2056170", VA = "0x182057B70")]
+		[Token(Token = "0x600394B")]
+		[Address(RVA = "0x5A21E00", Offset = "0x5A20E00", VA = "0x5A21E00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderColorRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C0")]
-		[Address(RVA = "0x2057910", Offset = "0x2055F10", VA = "0x182057910")]
+		[Token(Token = "0x600394C")]
+		[Address(RVA = "0x5A21F40", Offset = "0x5A20F40", VA = "0x5A21F40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderColorBottom()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C1")]
-		[Address(RVA = "0x20589B0", Offset = "0x2056FB0", VA = "0x1820589B0")]
+		[Token(Token = "0x600394D")]
+		[Address(RVA = "0x5A22080", Offset = "0x5A21080", VA = "0x5A22080")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderWidth()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C2")]
-		[Address(RVA = "0x2058620", Offset = "0x2056C20", VA = "0x182058620")]
+		[Token(Token = "0x600394E")]
+		[Address(RVA = "0x5A221C0", Offset = "0x5A211C0", VA = "0x5A221C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderWidthLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C3")]
-		[Address(RVA = "0x2058880", Offset = "0x2056E80", VA = "0x182058880")]
+		[Token(Token = "0x600394F")]
+		[Address(RVA = "0x5A22300", Offset = "0x5A21300", VA = "0x5A22300")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderWidthTop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C4")]
-		[Address(RVA = "0x2058750", Offset = "0x2056D50", VA = "0x182058750")]
+		[Token(Token = "0x6003950")]
+		[Address(RVA = "0x5A22440", Offset = "0x5A21440", VA = "0x5A22440")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderWidthRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C5")]
-		[Address(RVA = "0x20584F0", Offset = "0x2056AF0", VA = "0x1820584F0")]
+		[Token(Token = "0x6003951")]
+		[Address(RVA = "0x5A22580", Offset = "0x5A21580", VA = "0x5A22580")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderWidthBottom()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C6")]
-		[Address(RVA = "0x20583C0", Offset = "0x20569C0", VA = "0x1820583C0")]
+		[Token(Token = "0x6003952")]
+		[Address(RVA = "0x5A226C0", Offset = "0x5A216C0", VA = "0x5A226C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderRadius()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C7")]
-		[Address(RVA = "0x2058160", Offset = "0x2056760", VA = "0x182058160")]
+		[Token(Token = "0x6003953")]
+		[Address(RVA = "0x5A22800", Offset = "0x5A21800", VA = "0x5A22800")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderRadiusTopLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C8")]
-		[Address(RVA = "0x2058290", Offset = "0x2056890", VA = "0x182058290")]
+		[Token(Token = "0x6003954")]
+		[Address(RVA = "0x5A22940", Offset = "0x5A21940", VA = "0x5A22940")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderRadiusTopRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036C9")]
-		[Address(RVA = "0x2057F00", Offset = "0x2056500", VA = "0x182057F00")]
+		[Token(Token = "0x6003955")]
+		[Address(RVA = "0x5A22A80", Offset = "0x5A21A80", VA = "0x5A22A80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderRadiusBottomLeft()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CA")]
-		[Address(RVA = "0x2058030", Offset = "0x2056630", VA = "0x182058030")]
+		[Token(Token = "0x6003956")]
+		[Address(RVA = "0x5A22BC0", Offset = "0x5A21BC0", VA = "0x5A22BC0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__BorderRadiusBottomRight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CB")]
-		[Address(RVA = "0x205BBE0", Offset = "0x205A1E0", VA = "0x18205BBE0")]
+		[Token(Token = "0x6003957")]
+		[Address(RVA = "0x5A22D00", Offset = "0x5A21D00", VA = "0x5A22D00")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__OverflowX()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CC")]
-		[Address(RVA = "0x205BD10", Offset = "0x205A310", VA = "0x18205BD10")]
+		[Token(Token = "0x6003958")]
+		[Address(RVA = "0x5A22E40", Offset = "0x5A21E40", VA = "0x5A22E40")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__OverflowY()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CD")]
-		[Address(RVA = "0x205EFC0", Offset = "0x205D5C0", VA = "0x18205EFC0")]
+		[Token(Token = "0x6003959")]
+		[Address(RVA = "0x5A22F80", Offset = "0x5A21F80", VA = "0x5A22F80")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__SetTransformOrigin()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CE")]
-		[Address(RVA = "0x2061090", Offset = "0x205F690", VA = "0x182061090")]
+		[Token(Token = "0x600395A")]
+		[Address(RVA = "0x5A230C0", Offset = "0x5A220C0", VA = "0x5A230C0")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TransformTranslate()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036CF")]
-		[Address(RVA = "0x2060F60", Offset = "0x205F560", VA = "0x182060F60")]
+		[Token(Token = "0x600395B")]
+		[Address(RVA = "0x5A23200", Offset = "0x5A22200", VA = "0x5A23200")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TransformScale()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60036D0")]
-		[Address(RVA = "0x2060E30", Offset = "0x205F430", VA = "0x182060E30")]
+		[Token(Token = "0x600395C")]
+		[Address(RVA = "0x5A23340", Offset = "0x5A22340", VA = "0x5A23340")]
 		public static CLMethodBinding<CustomLogicVisualElementBuiltin> __CreateMethodBinding__TransformRotate()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x400183B")]
+	[Token(Token = "0x40019DB")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly VisualElement _visualElement;
 
-	[Token(Token = "0x400183C")]
+	[Token(Token = "0x40019DC")]
 	[FieldOffset(Offset = "0x38")]
 	private TextShadow _textShadow;
 
-	[Token(Token = "0x400183D")]
+	[Token(Token = "0x40019DD")]
 	[FieldOffset(Offset = "0x58")]
 	private readonly Dictionary<string, EventCallback<GeometryChangedEvent>> _onResize;
 
-	[Token(Token = "0x170009F0")]
+	[Token(Token = "0x17000A38")]
 	public int ChildCount
 	{
-		[Token(Token = "0x6003620")]
-		[Address(RVA = "0x2074430", Offset = "0x2072A30", VA = "0x182074430")]
+		[Token(Token = "0x60038AC")]
+		[Address(RVA = "0x5A14BA0", Offset = "0x5A13BA0", VA = "0x5A14BA0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170009F1")]
+	[Token(Token = "0x17000A39")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003676")]
-		[Address(RVA = "0x2074450", Offset = "0x2072A50", VA = "0x182074450", Slot = "6")]
+		[Token(Token = "0x6003902")]
+		[Address(RVA = "0x5A1AB20", Offset = "0x5A19B20", VA = "0x5A1AB20", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009F2")]
+	[Token(Token = "0x17000A3A")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003677")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003903")]
+		[Address(RVA = "0x5A1AB50", Offset = "0x5A19B50", VA = "0x5A1AB50", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009F3")]
+	[Token(Token = "0x17000A3B")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003678")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003904")]
+		[Address(RVA = "0x5A1AB60", Offset = "0x5A19B60", VA = "0x5A1AB60", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009F4")]
+	[Token(Token = "0x17000A3C")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6003679")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003905")]
+		[Address(RVA = "0x5A1AB70", Offset = "0x5A19B70", VA = "0x5A1AB70", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600361F")]
-	[Address(RVA = "0x2074370", Offset = "0x2072970", VA = "0x182074370")]
+	[Token(Token = "0x60038AB")]
+	[Address(RVA = "0x5A14AF0", Offset = "0x5A13AF0", VA = "0x5A14AF0")]
 	public CustomLogicVisualElementBuiltin(VisualElement visualElement)
 	{
 	}
 
-	[Token(Token = "0x6003621")]
-	[Address(RVA = "0x206D4A0", Offset = "0x206BAA0", VA = "0x18206D4A0")]
+	[Token(Token = "0x60038AD")]
+	[Address(RVA = "0x5A14BC0", Offset = "0x5A13BC0", VA = "0x5A14BC0")]
 	public CustomLogicVisualElementBuiltin Add(CustomLogicVisualElementBuiltin visualElement)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003622")]
-	[Address(RVA = "0x20723F0", Offset = "0x20709F0", VA = "0x1820723F0")]
+	[Token(Token = "0x60038AE")]
+	[Address(RVA = "0x5A14BF0", Offset = "0x5A13BF0", VA = "0x5A14BF0")]
 	public void Remove(CustomLogicVisualElementBuiltin visualElement)
 	{
 	}
 
-	[Token(Token = "0x6003623")]
-	[Address(RVA = "0x20723D0", Offset = "0x20709D0", VA = "0x1820723D0")]
+	[Token(Token = "0x60038AF")]
+	[Address(RVA = "0x5A14C10", Offset = "0x5A13C10", VA = "0x5A14C10")]
 	public void RemoveFromHierarchy()
 	{
 	}
 
-	[Token(Token = "0x6003624")]
-	[Address(RVA = "0x206F320", Offset = "0x206D920", VA = "0x18206F320")]
+	[Token(Token = "0x60038B0")]
+	[Address(RVA = "0x5A14C30", Offset = "0x5A13C30", VA = "0x5A14C30")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6003625")]
-	[Address(RVA = "0x206FEA0", Offset = "0x206E4A0", VA = "0x18206FEA0")]
+	[Token(Token = "0x60038B1")]
+	[Address(RVA = "0x5A14C50", Offset = "0x5A13C50", VA = "0x5A14C50")]
 	public CustomLogicVisualElementBuiltin GetElementAt(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003626")]
-	[Address(RVA = "0x2071E90", Offset = "0x2070490", VA = "0x182071E90")]
+	[Token(Token = "0x60038B2")]
+	[Address(RVA = "0x5A14CC0", Offset = "0x5A13CC0", VA = "0x5A14CC0")]
 	public CustomLogicVisualElementBuiltin QueryByName(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003627")]
-	[Address(RVA = "0x2071E00", Offset = "0x2070400", VA = "0x182071E00")]
+	[Token(Token = "0x60038B3")]
+	[Address(RVA = "0x5A14D50", Offset = "0x5A13D50", VA = "0x5A14D50")]
 	public CustomLogicVisualElementBuiltin QueryByClassName(string className)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003628")]
-	[Address(RVA = "0x20721F0", Offset = "0x20707F0", VA = "0x1820721F0")]
+	[Token(Token = "0x60038B4")]
+	[Address(RVA = "0x5A14DE0", Offset = "0x5A13DE0", VA = "0x5A14DE0")]
 	public CustomLogicVisualElementBuiltin RegisterMouseEnterEventCallback(UserMethod method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003629")]
-	[Address(RVA = "0x20722E0", Offset = "0x20708E0", VA = "0x1820722E0")]
+	[Token(Token = "0x60038B5")]
+	[Address(RVA = "0x5A14ED0", Offset = "0x5A13ED0", VA = "0x5A14ED0")]
 	public CustomLogicVisualElementBuiltin RegisterMouseLeaveEventCallback(UserMethod method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362A")]
-	[Address(RVA = "0x2071F20", Offset = "0x2070520", VA = "0x182071F20")]
+	[Token(Token = "0x60038B6")]
+	[Address(RVA = "0x5A14FC0", Offset = "0x5A13FC0", VA = "0x5A14FC0")]
 	public CustomLogicVisualElementBuiltin RegisterClickEventCallback(UserMethod method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362B")]
-	[Address(RVA = "0x2072010", Offset = "0x2070610", VA = "0x182072010")]
+	[Token(Token = "0x60038B7")]
+	[Address(RVA = "0x5A150B0", Offset = "0x5A140B0", VA = "0x5A150B0")]
 	public CustomLogicVisualElementBuiltin RegisterFocusInEventCallback(UserMethod method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362C")]
-	[Address(RVA = "0x2072100", Offset = "0x2070700", VA = "0x182072100")]
+	[Token(Token = "0x60038B8")]
+	[Address(RVA = "0x5A151A0", Offset = "0x5A141A0", VA = "0x5A151A0")]
 	public CustomLogicVisualElementBuiltin RegisterFocusOutEventCallback(UserMethod method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362D")]
-	[Address(RVA = "0x2071150", Offset = "0x206F750", VA = "0x182071150")]
+	[Token(Token = "0x60038B9")]
+	[Address(RVA = "0x5A15290", Offset = "0x5A14290", VA = "0x5A15290")]
 	public CustomLogicVisualElementBuiltin Opacity(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362E")]
-	[Address(RVA = "0x206D3A0", Offset = "0x206B9A0", VA = "0x18206D3A0")]
+	[Token(Token = "0x60038BA")]
+	[Address(RVA = "0x5A15390", Offset = "0x5A14390", VA = "0x5A15390")]
 	public CustomLogicVisualElementBuiltin Active(bool value = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600362F")]
-	[Address(RVA = "0x2074140", Offset = "0x2072740", VA = "0x182074140")]
+	[Token(Token = "0x60038BB")]
+	[Address(RVA = "0x5A15480", Offset = "0x5A14480", VA = "0x5A15480")]
 	public CustomLogicVisualElementBuiltin Visible(bool value = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003630")]
-	[Address(RVA = "0x2073F60", Offset = "0x2072560", VA = "0x182073F60")]
+	[Token(Token = "0x60038BC")]
+	[Address(RVA = "0x5A15570", Offset = "0x5A14570", VA = "0x5A15570")]
 	public CustomLogicVisualElementBuiltin TransitionDuration(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003631")]
-	[Address(RVA = "0x206D2A0", Offset = "0x206B8A0", VA = "0x18206D2A0")]
+	[Token(Token = "0x60038BD")]
+	[Address(RVA = "0x5A15730", Offset = "0x5A14730", VA = "0x5A15730")]
 	public CustomLogicVisualElementBuiltin Absolute(bool value = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003632")]
-	[Address(RVA = "0x2070260", Offset = "0x206E860", VA = "0x182070260")]
+	[Token(Token = "0x60038BE")]
+	[Address(RVA = "0x5A15820", Offset = "0x5A14820", VA = "0x5A15820")]
 	public CustomLogicVisualElementBuiltin Left(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003633")]
-	[Address(RVA = "0x20738A0", Offset = "0x2071EA0", VA = "0x1820738A0")]
+	[Token(Token = "0x60038BF")]
+	[Address(RVA = "0x5A15950", Offset = "0x5A14950", VA = "0x5A15950")]
 	public CustomLogicVisualElementBuiltin Top(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003634")]
-	[Address(RVA = "0x2072420", Offset = "0x2070A20", VA = "0x182072420")]
+	[Token(Token = "0x60038C0")]
+	[Address(RVA = "0x5A15A60", Offset = "0x5A14A60", VA = "0x5A15A60")]
 	public CustomLogicVisualElementBuiltin Right(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003635")]
-	[Address(RVA = "0x206F1F0", Offset = "0x206D7F0", VA = "0x18206F1F0")]
+	[Token(Token = "0x60038C1")]
+	[Address(RVA = "0x5A15B70", Offset = "0x5A14B70", VA = "0x5A15B70")]
 	public CustomLogicVisualElementBuiltin Bottom(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003636")]
-	[Address(RVA = "0x206F6F0", Offset = "0x206DCF0", VA = "0x18206F6F0")]
+	[Token(Token = "0x60038C2")]
+	[Address(RVA = "0x5A15C80", Offset = "0x5A14C80", VA = "0x5A15C80")]
 	public CustomLogicVisualElementBuiltin FlexShrink(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003637")]
-	[Address(RVA = "0x206F660", Offset = "0x206DC60", VA = "0x18206F660")]
+	[Token(Token = "0x60038C3")]
+	[Address(RVA = "0x5A15D60", Offset = "0x5A14D60", VA = "0x5A15D60")]
 	public CustomLogicVisualElementBuiltin FlexGrow(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003638")]
-	[Address(RVA = "0x206F480", Offset = "0x206DA80", VA = "0x18206F480")]
+	[Token(Token = "0x60038C4")]
+	[Address(RVA = "0x5A15E40", Offset = "0x5A14E40", VA = "0x5A15E40")]
 	public CustomLogicVisualElementBuiltin FlexDirection(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003639")]
-	[Address(RVA = "0x206F780", Offset = "0x206DD80", VA = "0x18206F780")]
+	[Token(Token = "0x60038C5")]
+	[Address(RVA = "0x5A16030", Offset = "0x5A15030", VA = "0x5A16030")]
 	public CustomLogicVisualElementBuiltin FlexWrap(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363A")]
-	[Address(RVA = "0x206D4E0", Offset = "0x206BAE0", VA = "0x18206D4E0")]
+	[Token(Token = "0x60038C6")]
+	[Address(RVA = "0x5A16220", Offset = "0x5A15220", VA = "0x5A16220")]
 	public CustomLogicVisualElementBuiltin AlignItems(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363B")]
-	[Address(RVA = "0x2070080", Offset = "0x206E680", VA = "0x182070080")]
+	[Token(Token = "0x60038C7")]
+	[Address(RVA = "0x5A16410", Offset = "0x5A15410", VA = "0x5A16410")]
 	public CustomLogicVisualElementBuiltin JustifyContent(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363C")]
-	[Address(RVA = "0x206D660", Offset = "0x206BC60", VA = "0x18206D660")]
+	[Token(Token = "0x60038C8")]
+	[Address(RVA = "0x5A16600", Offset = "0x5A15600", VA = "0x5A16600")]
 	public CustomLogicVisualElementBuiltin AlignSelf(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363D")]
-	[Address(RVA = "0x2074240", Offset = "0x2072840", VA = "0x182074240")]
+	[Token(Token = "0x60038C9")]
+	[Address(RVA = "0x5A167F0", Offset = "0x5A157F0", VA = "0x5A167F0")]
 	public CustomLogicVisualElementBuiltin Width(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363E")]
-	[Address(RVA = "0x206FF50", Offset = "0x206E550", VA = "0x18206FF50")]
+	[Token(Token = "0x60038CA")]
+	[Address(RVA = "0x5A16900", Offset = "0x5A15900", VA = "0x5A16900")]
 	public CustomLogicVisualElementBuiltin Height(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600363F")]
-	[Address(RVA = "0x2071020", Offset = "0x206F620", VA = "0x182071020")]
+	[Token(Token = "0x60038CB")]
+	[Address(RVA = "0x5A16A10", Offset = "0x5A15A10", VA = "0x5A16A10")]
 	public CustomLogicVisualElementBuiltin MinWidth(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003640")]
-	[Address(RVA = "0x2070EF0", Offset = "0x206F4F0", VA = "0x182070EF0")]
+	[Token(Token = "0x60038CC")]
+	[Address(RVA = "0x5A16B20", Offset = "0x5A15B20", VA = "0x5A16B20")]
 	public CustomLogicVisualElementBuiltin MinHeight(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003641")]
-	[Address(RVA = "0x2070DC0", Offset = "0x206F3C0", VA = "0x182070DC0")]
+	[Token(Token = "0x60038CD")]
+	[Address(RVA = "0x5A16C30", Offset = "0x5A15C30", VA = "0x5A16C30")]
 	public CustomLogicVisualElementBuiltin MaxWidth(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003642")]
-	[Address(RVA = "0x2070C90", Offset = "0x206F290", VA = "0x182070C90")]
+	[Token(Token = "0x60038CE")]
+	[Address(RVA = "0x5A16D40", Offset = "0x5A15D40", VA = "0x5A16D40")]
 	public CustomLogicVisualElementBuiltin MaxHeight(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003643")]
-	[Address(RVA = "0x206D7E0", Offset = "0x206BDE0", VA = "0x18206D7E0")]
+	[Token(Token = "0x60038CF")]
+	[Address(RVA = "0x5A16E50", Offset = "0x5A15E50", VA = "0x5A16E50")]
 	public CustomLogicVisualElementBuiltin AspectRatio(float value, int mode = 0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003644")]
-	[Address(RVA = "0x2070850", Offset = "0x206EE50", VA = "0x182070850")]
+	[Token(Token = "0x60038D0")]
+	[Address(RVA = "0x5A171F0", Offset = "0x5A161F0", VA = "0x5A171F0")]
 	public CustomLogicVisualElementBuiltin Margin(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003645")]
-	[Address(RVA = "0x20704C0", Offset = "0x206EAC0", VA = "0x1820704C0")]
+	[Token(Token = "0x60038D1")]
+	[Address(RVA = "0x5A17250", Offset = "0x5A16250", VA = "0x5A17250")]
 	public CustomLogicVisualElementBuiltin MarginLeft(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003646")]
-	[Address(RVA = "0x2070720", Offset = "0x206ED20", VA = "0x182070720")]
+	[Token(Token = "0x60038D2")]
+	[Address(RVA = "0x5A17360", Offset = "0x5A16360", VA = "0x5A17360")]
 	public CustomLogicVisualElementBuiltin MarginTop(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003647")]
-	[Address(RVA = "0x20705F0", Offset = "0x206EBF0", VA = "0x1820705F0")]
+	[Token(Token = "0x60038D3")]
+	[Address(RVA = "0x5A17470", Offset = "0x5A16470", VA = "0x5A17470")]
 	public CustomLogicVisualElementBuiltin MarginRight(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003648")]
-	[Address(RVA = "0x2070390", Offset = "0x206E990", VA = "0x182070390")]
+	[Token(Token = "0x60038D4")]
+	[Address(RVA = "0x5A17580", Offset = "0x5A16580", VA = "0x5A17580")]
 	public CustomLogicVisualElementBuiltin MarginBottom(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003649")]
-	[Address(RVA = "0x20719C0", Offset = "0x206FFC0", VA = "0x1820719C0")]
+	[Token(Token = "0x60038D5")]
+	[Address(RVA = "0x5A17690", Offset = "0x5A16690", VA = "0x5A17690")]
 	public CustomLogicVisualElementBuiltin Padding(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364A")]
-	[Address(RVA = "0x2071630", Offset = "0x206FC30", VA = "0x182071630")]
+	[Token(Token = "0x60038D6")]
+	[Address(RVA = "0x5A176F0", Offset = "0x5A166F0", VA = "0x5A176F0")]
 	public CustomLogicVisualElementBuiltin PaddingLeft(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364B")]
-	[Address(RVA = "0x2071890", Offset = "0x206FE90", VA = "0x182071890")]
+	[Token(Token = "0x60038D7")]
+	[Address(RVA = "0x5A17800", Offset = "0x5A16800", VA = "0x5A17800")]
 	public CustomLogicVisualElementBuiltin PaddingTop(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364C")]
-	[Address(RVA = "0x2071760", Offset = "0x206FD60", VA = "0x182071760")]
+	[Token(Token = "0x60038D8")]
+	[Address(RVA = "0x5A17910", Offset = "0x5A16910", VA = "0x5A17910")]
 	public CustomLogicVisualElementBuiltin PaddingRight(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364D")]
-	[Address(RVA = "0x2071500", Offset = "0x206FB00", VA = "0x182071500")]
+	[Token(Token = "0x60038D9")]
+	[Address(RVA = "0x5A17A20", Offset = "0x5A16A20", VA = "0x5A17A20")]
 	public CustomLogicVisualElementBuiltin PaddingBottom(float value, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364E")]
-	[Address(RVA = "0x206FCC0", Offset = "0x206E2C0", VA = "0x18206FCC0")]
+	[Token(Token = "0x60038DA")]
+	[Address(RVA = "0x5A17B30", Offset = "0x5A16B30", VA = "0x5A17B30")]
 	public CustomLogicVisualElementBuiltin FontStyle(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600364F")]
-	[Address(RVA = "0x206F960", Offset = "0x206DF60", VA = "0x18206F960")]
+	[Token(Token = "0x60038DB")]
+	[Address(RVA = "0x5A17D20", Offset = "0x5A16D20", VA = "0x5A17D20")]
 	public CustomLogicVisualElementBuiltin FontSize(float value, bool percentage = false, int scaleMode = 0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003650")]
-	[Address(RVA = "0x206F340", Offset = "0x206D940", VA = "0x18206F340")]
+	[Token(Token = "0x60038DC")]
+	[Address(RVA = "0x5A18090", Offset = "0x5A17090", VA = "0x5A18090")]
 	public CustomLogicVisualElementBuiltin Color(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003651")]
-	[Address(RVA = "0x20728B0", Offset = "0x2070EB0", VA = "0x1820728B0")]
+	[Token(Token = "0x60038DD")]
+	[Address(RVA = "0x5A181B0", Offset = "0x5A171B0", VA = "0x5A181B0")]
 	public CustomLogicVisualElementBuiltin TextAlign(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003652")]
-	[Address(RVA = "0x20737A0", Offset = "0x2071DA0", VA = "0x1820737A0")]
+	[Token(Token = "0x60038DE")]
+	[Address(RVA = "0x5A183A0", Offset = "0x5A173A0", VA = "0x5A183A0")]
 	public CustomLogicVisualElementBuiltin TextWrap(bool value = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003653")]
-	[Address(RVA = "0x2072D80", Offset = "0x2071380", VA = "0x182072D80")]
+	[Token(Token = "0x60038DF")]
+	[Address(RVA = "0x5A18490", Offset = "0x5A17490", VA = "0x5A18490")]
 	public CustomLogicVisualElementBuiltin TextOverflow(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003654")]
-	[Address(RVA = "0x2072CF0", Offset = "0x20712F0", VA = "0x182072CF0")]
+	[Token(Token = "0x60038E0")]
+	[Address(RVA = "0x5A18680", Offset = "0x5A17680", VA = "0x5A18680")]
 	public CustomLogicVisualElementBuiltin TextOutlineWidth(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003655")]
-	[Address(RVA = "0x2072BA0", Offset = "0x20711A0", VA = "0x182072BA0")]
+	[Token(Token = "0x60038E1")]
+	[Address(RVA = "0x5A18760", Offset = "0x5A17760", VA = "0x5A18760")]
 	public CustomLogicVisualElementBuiltin TextOutlineColor(CustomLogicColorBuiltin value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003656")]
-	[Address(RVA = "0x20731A0", Offset = "0x20717A0", VA = "0x1820731A0")]
+	[Token(Token = "0x60038E2")]
+	[Address(RVA = "0x5A18880", Offset = "0x5A17880", VA = "0x5A18880")]
 	public CustomLogicVisualElementBuiltin TextShadowColor(CustomLogicColorBuiltin value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003657")]
-	[Address(RVA = "0x2073420", Offset = "0x2071A20", VA = "0x182073420")]
+	[Token(Token = "0x60038E3")]
+	[Address(RVA = "0x5A189C0", Offset = "0x5A179C0", VA = "0x5A189C0")]
 	public CustomLogicVisualElementBuiltin TextShadowOffset(float horizontal, float vertical)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003658")]
-	[Address(RVA = "0x20732F0", Offset = "0x20718F0", VA = "0x1820732F0")]
+	[Token(Token = "0x60038E4")]
+	[Address(RVA = "0x5A18B00", Offset = "0x5A17B00", VA = "0x5A18B00")]
 	public CustomLogicVisualElementBuiltin TextShadowHorizontalOffset(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003659")]
-	[Address(RVA = "0x2073560", Offset = "0x2071B60", VA = "0x182073560")]
+	[Token(Token = "0x60038E5")]
+	[Address(RVA = "0x5A18C30", Offset = "0x5A17C30", VA = "0x5A18C30")]
 	public CustomLogicVisualElementBuiltin TextShadowVerticalOffset(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365A")]
-	[Address(RVA = "0x2073070", Offset = "0x2071670", VA = "0x182073070")]
+	[Token(Token = "0x60038E6")]
+	[Address(RVA = "0x5A18D50", Offset = "0x5A17D50", VA = "0x5A18D50")]
 	public CustomLogicVisualElementBuiltin TextShadowBlurRadius(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365B")]
-	[Address(RVA = "0x2072A90", Offset = "0x2071090", VA = "0x182072A90")]
+	[Token(Token = "0x60038E7")]
+	[Address(RVA = "0x5A18E70", Offset = "0x5A17E70", VA = "0x5A18E70")]
 	public CustomLogicVisualElementBuiltin TextLetterSpacing(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365C")]
-	[Address(RVA = "0x2073690", Offset = "0x2071C90", VA = "0x182073690")]
+	[Token(Token = "0x60038E8")]
+	[Address(RVA = "0x5A18F60", Offset = "0x5A17F60", VA = "0x5A18F60")]
 	public CustomLogicVisualElementBuiltin TextWordSpacing(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365D")]
-	[Address(RVA = "0x2072F60", Offset = "0x2071560", VA = "0x182072F60")]
+	[Token(Token = "0x60038E9")]
+	[Address(RVA = "0x5A19050", Offset = "0x5A18050", VA = "0x5A19050")]
 	public CustomLogicVisualElementBuiltin TextParagraphSpacing(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365E")]
-	[Address(RVA = "0x206DB50", Offset = "0x206C150", VA = "0x18206DB50")]
+	[Token(Token = "0x60038EA")]
+	[Address(RVA = "0x5A19140", Offset = "0x5A18140", VA = "0x5A19140")]
 	public CustomLogicVisualElementBuiltin BackgroundColor(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600365F")]
-	[Address(RVA = "0x2072550", Offset = "0x2070B50", VA = "0x182072550")]
+	[Token(Token = "0x60038EB")]
+	[Address(RVA = "0x5A19260", Offset = "0x5A18260", VA = "0x5A19260")]
 	public CustomLogicVisualElementBuiltin SetBackgroundImage(CustomLogicImageBuiltin image)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003660")]
-	[Address(RVA = "0x206E190", Offset = "0x206C790", VA = "0x18206E190")]
+	[Token(Token = "0x60038EC")]
+	[Address(RVA = "0x5A193E0", Offset = "0x5A183E0", VA = "0x5A193E0")]
 	public CustomLogicVisualElementBuiltin BorderColor(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003661")]
-	[Address(RVA = "0x206DDD0", Offset = "0x206C3D0", VA = "0x18206DDD0")]
+	[Token(Token = "0x60038ED")]
+	[Address(RVA = "0x5A19430", Offset = "0x5A18430", VA = "0x5A19430")]
 	public CustomLogicVisualElementBuiltin BorderColorLeft(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003662")]
-	[Address(RVA = "0x206E050", Offset = "0x206C650", VA = "0x18206E050")]
+	[Token(Token = "0x60038EE")]
+	[Address(RVA = "0x5A19550", Offset = "0x5A18550", VA = "0x5A19550")]
 	public CustomLogicVisualElementBuiltin BorderColorTop(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003663")]
-	[Address(RVA = "0x206DF10", Offset = "0x206C510", VA = "0x18206DF10")]
+	[Token(Token = "0x60038EF")]
+	[Address(RVA = "0x5A19670", Offset = "0x5A18670", VA = "0x5A19670")]
 	public CustomLogicVisualElementBuiltin BorderColorRight(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003664")]
-	[Address(RVA = "0x206DC90", Offset = "0x206C290", VA = "0x18206DC90")]
+	[Token(Token = "0x60038F0")]
+	[Address(RVA = "0x5A19790", Offset = "0x5A18790", VA = "0x5A19790")]
 	public CustomLogicVisualElementBuiltin BorderColorBottom(CustomLogicColorBuiltin color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003665")]
-	[Address(RVA = "0x206F050", Offset = "0x206D650", VA = "0x18206F050")]
+	[Token(Token = "0x60038F1")]
+	[Address(RVA = "0x5A198B0", Offset = "0x5A188B0", VA = "0x5A198B0")]
 	public CustomLogicVisualElementBuiltin BorderWidth(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003666")]
-	[Address(RVA = "0x206EEA0", Offset = "0x206D4A0", VA = "0x18206EEA0")]
+	[Token(Token = "0x60038F2")]
+	[Address(RVA = "0x5A19900", Offset = "0x5A18900", VA = "0x5A19900")]
 	public CustomLogicVisualElementBuiltin BorderWidthLeft(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003667")]
-	[Address(RVA = "0x206EFC0", Offset = "0x206D5C0", VA = "0x18206EFC0")]
+	[Token(Token = "0x60038F3")]
+	[Address(RVA = "0x5A199E0", Offset = "0x5A189E0", VA = "0x5A199E0")]
 	public CustomLogicVisualElementBuiltin BorderWidthTop(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003668")]
-	[Address(RVA = "0x206EF30", Offset = "0x206D530", VA = "0x18206EF30")]
+	[Token(Token = "0x60038F4")]
+	[Address(RVA = "0x5A19AC0", Offset = "0x5A18AC0", VA = "0x5A19AC0")]
 	public CustomLogicVisualElementBuiltin BorderWidthRight(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003669")]
-	[Address(RVA = "0x206EE10", Offset = "0x206D410", VA = "0x18206EE10")]
+	[Token(Token = "0x60038F5")]
+	[Address(RVA = "0x5A19BA0", Offset = "0x5A18BA0", VA = "0x5A19BA0")]
 	public CustomLogicVisualElementBuiltin BorderWidthBottom(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366A")]
-	[Address(RVA = "0x206EA40", Offset = "0x206D040", VA = "0x18206EA40")]
+	[Token(Token = "0x60038F6")]
+	[Address(RVA = "0x5A19C80", Offset = "0x5A18C80", VA = "0x5A19C80")]
 	public CustomLogicVisualElementBuiltin BorderRadius(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366B")]
-	[Address(RVA = "0x206E820", Offset = "0x206CE20", VA = "0x18206E820")]
+	[Token(Token = "0x60038F7")]
+	[Address(RVA = "0x5A19CD0", Offset = "0x5A18CD0", VA = "0x5A19CD0")]
 	public CustomLogicVisualElementBuiltin BorderRadiusTopLeft(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366C")]
-	[Address(RVA = "0x206E930", Offset = "0x206CF30", VA = "0x18206E930")]
+	[Token(Token = "0x60038F8")]
+	[Address(RVA = "0x5A19DC0", Offset = "0x5A18DC0", VA = "0x5A19DC0")]
 	public CustomLogicVisualElementBuiltin BorderRadiusTopRight(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366D")]
-	[Address(RVA = "0x206E600", Offset = "0x206CC00", VA = "0x18206E600")]
+	[Token(Token = "0x60038F9")]
+	[Address(RVA = "0x5A19EB0", Offset = "0x5A18EB0", VA = "0x5A19EB0")]
 	public CustomLogicVisualElementBuiltin BorderRadiusBottomLeft(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366E")]
-	[Address(RVA = "0x206E710", Offset = "0x206CD10", VA = "0x18206E710")]
+	[Token(Token = "0x60038FA")]
+	[Address(RVA = "0x5A19FA0", Offset = "0x5A18FA0", VA = "0x5A19FA0")]
 	public CustomLogicVisualElementBuiltin BorderRadiusBottomRight(float value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600366F")]
-	[Address(RVA = "0x2071200", Offset = "0x206F800", VA = "0x182071200")]
+	[Token(Token = "0x60038FB")]
+	[Address(RVA = "0x5A1A090", Offset = "0x5A19090", VA = "0x5A1A090")]
 	public CustomLogicVisualElementBuiltin OverflowX(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003670")]
-	[Address(RVA = "0x2071380", Offset = "0x206F980", VA = "0x182071380")]
+	[Token(Token = "0x60038FC")]
+	[Address(RVA = "0x5A1A280", Offset = "0x5A19280", VA = "0x5A1A280")]
 	public CustomLogicVisualElementBuiltin OverflowY(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003671")]
-	[Address(RVA = "0x2072700", Offset = "0x2070D00", VA = "0x182072700")]
+	[Token(Token = "0x60038FD")]
+	[Address(RVA = "0x5A1A470", Offset = "0x5A19470", VA = "0x5A1A470")]
 	public CustomLogicVisualElementBuiltin SetTransformOrigin(float x, float y, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003672")]
-	[Address(RVA = "0x2073DA0", Offset = "0x20723A0", VA = "0x182073DA0")]
+	[Token(Token = "0x60038FE")]
+	[Address(RVA = "0x5A1A600", Offset = "0x5A19600", VA = "0x5A1A600")]
 	public CustomLogicVisualElementBuiltin TransformTranslate(float x, float y, bool percentage = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003673")]
-	[Address(RVA = "0x2073C40", Offset = "0x2072240", VA = "0x182073C40")]
+	[Token(Token = "0x60038FF")]
+	[Address(RVA = "0x5A1A790", Offset = "0x5A19790", VA = "0x5A1A790")]
 	public CustomLogicVisualElementBuiltin TransformScale(float x, float y)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003674")]
-	[Address(RVA = "0x20739D0", Offset = "0x2071FD0", VA = "0x1820739D0")]
+	[Token(Token = "0x6003900")]
+	[Address(RVA = "0x5A1A8C0", Offset = "0x5A198C0", VA = "0x5A1A8C0")]
 	public CustomLogicVisualElementBuiltin TransformRotate(float angle, int angleUnit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003675")]
-	[Address(RVA = "0x206FF20", Offset = "0x206E520", VA = "0x18206FF20")]
+	[Token(Token = "0x6003901")]
+	[Address(RVA = "0x5A15930", Offset = "0x5A14930", VA = "0x5A15930")]
 	private static Length GetLength(float value, bool percentage)
 	{
 		return default(Length);

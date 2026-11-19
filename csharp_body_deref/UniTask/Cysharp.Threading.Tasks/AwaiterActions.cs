@@ -21,7 +21,7 @@ internal static class AwaiterActions
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60006AD")]
-	[Address(RVA = "0x2908270", Offset = "0x2906870", VA = "0x182908270")]
+	[Address(RVA = "0x62D9CE0", Offset = "0x62D8CE0", VA = "0x62D9CE0")]
 	[DebuggerHidden]
 	private static void Continuation(object state)
 	{

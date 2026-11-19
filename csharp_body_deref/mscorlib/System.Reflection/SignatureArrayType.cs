@@ -9,22 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000524")]
+[Token(Token = "0x20004FD")]
 internal sealed class SignatureArrayType : System.Reflection.SignatureHasElementType
 {
-	[Token(Token = "0x400146A")]
+	[Token(Token = "0x40013CA")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly int _rank;
 
-	[Token(Token = "0x400146B")]
+	[Token(Token = "0x40013CB")]
 	[FieldOffset(Offset = "0x24")]
 	private readonly bool _isMultiDim;
 
-	[Token(Token = "0x170004E5")]
+	[Token(Token = "0x170004E4")]
 	public sealed override bool IsSZArray
 	{
-		[Token(Token = "0x6002537")]
-		[Address(RVA = "0x1A55940", Offset = "0x1A53F40", VA = "0x181A55940", Slot = "42")]
+		[Token(Token = "0x6002505")]
+		[Address(RVA = "0x53DBF60", Offset = "0x53DAF60", VA = "0x53DBF60", Slot = "42")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170004E5")]
+	public sealed override bool IsVariableBoundArray
+	{
+		[Token(Token = "0x6002506")]
+		[Address(RVA = "0x53DBF70", Offset = "0x53DAF70", VA = "0x53DBF70", Slot = "43")]
 		get
 		{
 			return default(bool);
@@ -32,56 +43,45 @@ internal sealed class SignatureArrayType : System.Reflection.SignatureHasElement
 	}
 
 	[Token(Token = "0x170004E6")]
-	public sealed override bool IsVariableBoundArray
-	{
-		[Token(Token = "0x6002538")]
-		[Address(RVA = "0x584270", Offset = "0x582870", VA = "0x180584270", Slot = "43")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170004E7")]
 	protected sealed override string Suffix
 	{
-		[Token(Token = "0x600253A")]
-		[Address(RVA = "0x1A55950", Offset = "0x1A53F50", VA = "0x181A55950", Slot = "136")]
+		[Token(Token = "0x6002508")]
+		[Address(RVA = "0x53DBF90", Offset = "0x53DAF90", VA = "0x53DBF90", Slot = "136")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002533")]
-	[Address(RVA = "0x1A558E0", Offset = "0x1A53EE0", VA = "0x181A558E0")]
+	[Token(Token = "0x6002501")]
+	[Address(RVA = "0x53DBE80", Offset = "0x53DAE80", VA = "0x53DBE80")]
 	internal SignatureArrayType(System.Reflection.SignatureType elementType, int rank, bool isMultiDim)
 	{
 	}
 
-	[Token(Token = "0x6002534")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "32")]
+	[Token(Token = "0x6002502")]
+	[Address(RVA = "0x53DBF30", Offset = "0x53DAF30", VA = "0x53DBF30", Slot = "32")]
 	protected sealed override bool IsArrayImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002535")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "34")]
+	[Token(Token = "0x6002503")]
+	[Address(RVA = "0x53DBF40", Offset = "0x53DAF40", VA = "0x53DBF40", Slot = "34")]
 	protected sealed override bool IsByRefImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002536")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "36")]
+	[Token(Token = "0x6002504")]
+	[Address(RVA = "0x53DBF50", Offset = "0x53DAF50", VA = "0x53DBF50", Slot = "36")]
 	protected sealed override bool IsPointerImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002539")]
-	[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "48")]
+	[Token(Token = "0x6002507")]
+	[Address(RVA = "0x53DBF80", Offset = "0x53DAF80", VA = "0x53DBF80", Slot = "48")]
 	public sealed override int GetArrayRank()
 	{
 		return default(int);

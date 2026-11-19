@@ -18,13 +18,13 @@ public class EaseCurve
 	private readonly AnimationCurve _animCurve;
 
 	[Token(Token = "0x60004A5")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x31A2350", Offset = "0x31A1350", VA = "0x31A2350")]
 	public EaseCurve(AnimationCurve animCurve)
 	{
 	}
 
 	[Token(Token = "0x60004A6")]
-	[Address(RVA = "0x577F00", Offset = "0x576500", VA = "0x180577F00")]
+	[Address(RVA = "0x31A2380", Offset = "0x31A1380", VA = "0x31A2380")]
 	public float Evaluate(float time, float duration, float unusedOvershoot, float unusedPeriod)
 	{
 		return default(float);

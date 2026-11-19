@@ -53,39 +53,39 @@ public class CameraSwitcher : MonoBehaviour
 	private int m_DebugEntryEnumIndex;
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x2ABA8F0", Offset = "0x2AB8EF0", VA = "0x182ABA8F0")]
+	[Address(RVA = "0x64B2D30", Offset = "0x64B1D30", VA = "0x64B2D30")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x2ABA860", Offset = "0x2AB8E60", VA = "0x182ABA860")]
+	[Address(RVA = "0x64B33A0", Offset = "0x64B23A0", VA = "0x64B33A0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x2ABA7F0", Offset = "0x2AB8DF0", VA = "0x182ABA7F0")]
+	[Address(RVA = "0x64B3380", Offset = "0x64B2380", VA = "0x64B3380")]
 	private int GetCameraCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2ABA810", Offset = "0x2AB8E10", VA = "0x182ABA810")]
+	[Address(RVA = "0x64B3420", Offset = "0x64B2420", VA = "0x64B3420")]
 	private Camera GetNextCamera()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2ABAF40", Offset = "0x2AB9540", VA = "0x182ABAF40")]
+	[Address(RVA = "0x64B3460", Offset = "0x64B2460", VA = "0x64B3460")]
 	private void SetCameraIndex(int index)
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x229AFD0", Offset = "0x22995D0", VA = "0x18229AFD0")]
+	[Address(RVA = "0x64B36B0", Offset = "0x64B26B0", VA = "0x64B36B0")]
 	public CameraSwitcher()
 	{
 	}

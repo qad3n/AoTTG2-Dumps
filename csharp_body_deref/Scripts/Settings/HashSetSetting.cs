@@ -11,57 +11,57 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000D0")]
+[Token(Token = "0x200010B")]
 internal class HashSetSetting<T> : TypedSetting<HashSet<T>>
 {
-	[Token(Token = "0x600040C")]
+	[Token(Token = "0x600058A")]
 	public HashSetSetting(HashSet<T> defaultValue)
 	{
 	}
 
-	[Token(Token = "0x600040D")]
+	[Token(Token = "0x600058B")]
 	public HashSetSetting()
 	{
 	}
 
-	[Token(Token = "0x600040E")]
+	[Token(Token = "0x600058C")]
 	public override void SetDefault()
 	{
 	}
 
-	[Token(Token = "0x600040F")]
+	[Token(Token = "0x600058D")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x6000410")]
+	[Token(Token = "0x600058E")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000411")]
+	[Token(Token = "0x600058F")]
 	public bool Contains(T item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000412")]
+	[Token(Token = "0x6000590")]
 	public void Add(T item)
 	{
 	}
 
-	[Token(Token = "0x6000413")]
+	[Token(Token = "0x6000591")]
 	public void Remove(T item)
 	{
 	}
 
-	[Token(Token = "0x6000414")]
+	[Token(Token = "0x6000592")]
 	public void Toggle(T item)
 	{
 	}
 
-	[Token(Token = "0x6000415")]
+	[Token(Token = "0x6000593")]
 	public void Clear()
 	{
 	}

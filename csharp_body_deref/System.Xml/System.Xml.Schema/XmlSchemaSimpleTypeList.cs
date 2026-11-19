@@ -30,13 +30,13 @@ public class XmlSchemaSimpleTypeList : XmlSchemaSimpleTypeContent
 	public XmlQualifiedName ItemTypeName
 	{
 		[Token(Token = "0x600176B")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6039B90", Offset = "0x6038B90", VA = "0x6039B90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600176C")]
-		[Address(RVA = "0x267EF20", Offset = "0x267D520", VA = "0x18267EF20")]
+		[Address(RVA = "0x6039BA0", Offset = "0x6038BA0", VA = "0x6039BA0")]
 		set
 		{
 		}
@@ -47,13 +47,13 @@ public class XmlSchemaSimpleTypeList : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType ItemType
 	{
 		[Token(Token = "0x600176D")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6039C30", Offset = "0x6038C30", VA = "0x6039C30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600176E")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6039C40", Offset = "0x6038C40", VA = "0x6039C40")]
 		set
 		{
 		}
@@ -64,27 +64,27 @@ public class XmlSchemaSimpleTypeList : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType BaseItemType
 	{
 		[Token(Token = "0x600176F")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6039C50", Offset = "0x6038C50", VA = "0x6039C50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001770")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x6039C60", Offset = "0x6038C60", VA = "0x6039C60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001771")]
-	[Address(RVA = "0x267ED80", Offset = "0x267D380", VA = "0x18267ED80", Slot = "13")]
+	[Address(RVA = "0x6039C70", Offset = "0x6038C70", VA = "0x6039C70", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001772")]
-	[Address(RVA = "0x267EEB0", Offset = "0x267D4B0", VA = "0x18267EEB0")]
+	[Address(RVA = "0x6039D20", Offset = "0x6038D20", VA = "0x6039D20")]
 	public XmlSchemaSimpleTypeList()
 	{
 	}

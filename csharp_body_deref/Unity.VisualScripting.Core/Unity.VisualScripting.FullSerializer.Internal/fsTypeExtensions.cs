@@ -14,21 +14,21 @@ namespace Unity.VisualScripting.FullSerializer.Internal;
 public static class fsTypeExtensions
 {
 	[Token(Token = "0x6001320")]
-	[Address(RVA = "0x2E7A850", Offset = "0x2E78E50", VA = "0x182E7A850")]
+	[Address(RVA = "0x68737C0", Offset = "0x68727C0", VA = "0x68737C0")]
 	public static string CSharpName(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001321")]
-	[Address(RVA = "0x2E7A240", Offset = "0x2E78840", VA = "0x182E7A240")]
+	[Address(RVA = "0x6873D70", Offset = "0x6872D70", VA = "0x6873D70")]
 	public static string CSharpName(this Type type, bool includeNamespace, bool ensureSafeDeclarationName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001322")]
-	[Address(RVA = "0x2E7A2C0", Offset = "0x2E788C0", VA = "0x182E7A2C0")]
+	[Address(RVA = "0x68737D0", Offset = "0x68727D0", VA = "0x68737D0")]
 	public static string CSharpName(this Type type, bool includeNamespace)
 	{
 		return null;

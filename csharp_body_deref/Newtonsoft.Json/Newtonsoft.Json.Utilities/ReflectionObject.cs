@@ -21,7 +21,7 @@ internal class ReflectionObject
 	public ObjectConstructor<object>? Creator
 	{
 		[Token(Token = "0x60006A1")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x55B9A90", Offset = "0x55B8A90", VA = "0x55B9A90")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,7 +33,7 @@ internal class ReflectionObject
 	public IDictionary<string, ReflectionMember> Members
 	{
 		[Token(Token = "0x60006A2")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x55B9AA0", Offset = "0x55B8AA0", VA = "0x55B9AA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,40 +42,40 @@ internal class ReflectionObject
 	}
 
 	[Token(Token = "0x60006A3")]
-	[Address(RVA = "0x1C2C220", Offset = "0x1C2A820", VA = "0x181C2C220")]
+	[Address(RVA = "0x55B9AB0", Offset = "0x55B8AB0", VA = "0x55B9AB0")]
 	private ReflectionObject(ObjectConstructor<object>? creator)
 	{
 	}
 
 	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x1C2C120", Offset = "0x1C2A720", VA = "0x181C2C120")]
+	[Address(RVA = "0x55B9B40", Offset = "0x55B8B40", VA = "0x55B9B40")]
 	public object GetValue(object target, string member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x1C2C1A0", Offset = "0x1C2A7A0", VA = "0x181C2C1A0")]
+	[Address(RVA = "0x55B9C10", Offset = "0x55B8C10", VA = "0x55B9C10")]
 	public void SetValue(object target, string member, object? value)
 	{
 	}
 
 	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x1C2C0C0", Offset = "0x1C2A6C0", VA = "0x181C2C0C0")]
+	[Address(RVA = "0x55B9CF0", Offset = "0x55B8CF0", VA = "0x55B9CF0")]
 	public Type GetType(string member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006A7")]
-	[Address(RVA = "0x1C2B7B0", Offset = "0x1C29DB0", VA = "0x181C2B7B0")]
+	[Address(RVA = "0x55B9DB0", Offset = "0x55B8DB0", VA = "0x55B9DB0")]
 	public static ReflectionObject Create(Type t, params string[] memberNames)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006A8")]
-	[Address(RVA = "0x1C2B7C0", Offset = "0x1C29DC0", VA = "0x181C2B7C0")]
+	[Address(RVA = "0x55B9DC0", Offset = "0x55B8DC0", VA = "0x55B9DC0")]
 	public static ReflectionObject Create(Type t, MethodBase? creator, params string[] memberNames)
 	{
 		return null;

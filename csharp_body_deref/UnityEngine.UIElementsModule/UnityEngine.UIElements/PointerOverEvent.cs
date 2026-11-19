@@ -14,19 +14,19 @@ namespace UnityEngine.UIElements;
 public sealed class PointerOverEvent : PointerEventBase<PointerOverEvent>
 {
 	[Token(Token = "0x6000EE3")]
-	[Address(RVA = "0x326D220", Offset = "0x326B820", VA = "0x18326D220")]
+	[Address(RVA = "0x6C70EC0", Offset = "0x6C6FEC0", VA = "0x6C70EC0")]
 	static PointerOverEvent()
 	{
 	}
 
 	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x31ED1B0", Offset = "0x31EB7B0", VA = "0x1831ED1B0", Slot = "10")]
+	[Address(RVA = "0x6C70F90", Offset = "0x6C6FF90", VA = "0x6C70F90", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x326D300", Offset = "0x326B900", VA = "0x18326D300")]
+	[Address(RVA = "0x6C70FA0", Offset = "0x6C6FFA0", VA = "0x6C70FA0")]
 	public PointerOverEvent()
 	{
 	}

@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005BD")]
+[Token(Token = "0x2000598")]
 [Flags]
 public enum EventKeywords : long
 {
-	[Token(Token = "0x4001842")]
+	[Token(Token = "0x40017A9")]
 	None = 0L,
-	[Token(Token = "0x4001843")]
+	[Token(Token = "0x40017AA")]
 	All = -1L,
-	[Token(Token = "0x4001844")]
+	[Token(Token = "0x40017AB")]
 	MicrosoftTelemetry = 0x2000000000000L,
-	[Token(Token = "0x4001845")]
+	[Token(Token = "0x40017AC")]
 	WdiContext = MicrosoftTelemetry,
-	[Token(Token = "0x4001846")]
+	[Token(Token = "0x40017AD")]
 	WdiDiagnostic = 0x4000000000000L,
-	[Token(Token = "0x4001847")]
+	[Token(Token = "0x40017AE")]
 	Sqm = 0x8000000000000L,
-	[Token(Token = "0x4001848")]
+	[Token(Token = "0x40017AF")]
 	AuditFailure = 0x10000000000000L,
-	[Token(Token = "0x4001849")]
+	[Token(Token = "0x40017B0")]
 	AuditSuccess = 0x20000000000000L,
-	[Token(Token = "0x400184A")]
+	[Token(Token = "0x40017B1")]
 	CorrelationHint = AuditFailure,
-	[Token(Token = "0x400184B")]
+	[Token(Token = "0x40017B2")]
 	EventLogClassic = 0x80000000000000L
 }

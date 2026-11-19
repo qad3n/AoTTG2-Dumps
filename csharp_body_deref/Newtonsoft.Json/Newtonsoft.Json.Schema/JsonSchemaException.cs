@@ -21,7 +21,7 @@ public class JsonSchemaException : JsonException
 	public int LineNumber
 	{
 		[Token(Token = "0x6000A58")]
-		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
+		[Address(RVA = "0x55F5C90", Offset = "0x55F4C90", VA = "0x55F5C90")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,7 +33,7 @@ public class JsonSchemaException : JsonException
 	public int LinePosition
 	{
 		[Token(Token = "0x6000A59")]
-		[Address(RVA = "0xB5B910", Offset = "0xB59F10", VA = "0x180B5B910")]
+		[Address(RVA = "0x55F5CA0", Offset = "0x55F4CA0", VA = "0x55F5CA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,7 +45,7 @@ public class JsonSchemaException : JsonException
 	public string Path
 	{
 		[Token(Token = "0x6000A5A")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x55F5CB0", Offset = "0x55F4CB0", VA = "0x55F5CB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,31 +54,31 @@ public class JsonSchemaException : JsonException
 	}
 
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x1C2A390", Offset = "0x1C28990", VA = "0x181C2A390")]
+	[Address(RVA = "0x55F5CC0", Offset = "0x55F4CC0", VA = "0x55F5CC0")]
 	public JsonSchemaException()
 	{
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x1C2A3A0", Offset = "0x1C289A0", VA = "0x181C2A3A0")]
+	[Address(RVA = "0x55F5CD0", Offset = "0x55F4CD0", VA = "0x55F5CD0")]
 	public JsonSchemaException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x1C2A340", Offset = "0x1C28940", VA = "0x181C2A340")]
+	[Address(RVA = "0x55F5CE0", Offset = "0x55F4CE0", VA = "0x55F5CE0")]
 	public JsonSchemaException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6000A5E")]
-	[Address(RVA = "0x1C2A320", Offset = "0x1C28920", VA = "0x181C2A320")]
+	[Address(RVA = "0x55F5CF0", Offset = "0x55F4CF0", VA = "0x55F5CF0")]
 	public JsonSchemaException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000A5F")]
-	[Address(RVA = "0x1C5A650", Offset = "0x1C58C50", VA = "0x181C5A650")]
+	[Address(RVA = "0x55F5D00", Offset = "0x55F4D00", VA = "0x55F5D00")]
 	internal JsonSchemaException(string message, Exception innerException, string path, int lineNumber, int linePosition)
 	{
 	}

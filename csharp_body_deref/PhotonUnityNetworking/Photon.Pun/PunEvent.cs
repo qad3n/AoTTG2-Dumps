@@ -49,7 +49,7 @@ internal class PunEvent
 	public const byte OwnershipUpdate = 212;
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56E6510", Offset = "0x56E5510", VA = "0x56E6510")]
 	public PunEvent()
 	{
 	}

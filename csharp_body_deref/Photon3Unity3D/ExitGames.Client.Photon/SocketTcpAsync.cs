@@ -46,7 +46,7 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		public bool ReadingHeader
 		{
 			[Token(Token = "0x60002C0")]
-			[Address(RVA = "0x1CE8150", Offset = "0x1CE6750", VA = "0x181CE8150")]
+			[Address(RVA = "0x567DFC0", Offset = "0x567CFC0", VA = "0x567DFC0")]
 			get
 			{
 				return default(bool);
@@ -57,7 +57,7 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		public bool ReadingMessage
 		{
 			[Token(Token = "0x60002C1")]
-			[Address(RVA = "0x1CE8160", Offset = "0x1CE6760", VA = "0x181CE8160")]
+			[Address(RVA = "0x567DFE0", Offset = "0x567CFE0", VA = "0x567DFE0")]
 			get
 			{
 				return default(bool);
@@ -68,7 +68,7 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		public byte[] CurrentBuffer
 		{
 			[Token(Token = "0x60002C2")]
-			[Address(RVA = "0x1CE80F0", Offset = "0x1CE66F0", VA = "0x181CE80F0")]
+			[Address(RVA = "0x567D850", Offset = "0x567C850", VA = "0x567D850")]
 			get
 			{
 				return null;
@@ -79,7 +79,7 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		public int CurrentOffset
 		{
 			[Token(Token = "0x60002C3")]
-			[Address(RVA = "0x1CE8130", Offset = "0x1CE6730", VA = "0x181CE8130")]
+			[Address(RVA = "0x567D870", Offset = "0x567C870", VA = "0x567D870")]
 			get
 			{
 				return default(int);
@@ -90,7 +90,7 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		public int CurrentExpected
 		{
 			[Token(Token = "0x60002C4")]
-			[Address(RVA = "0x1CE8110", Offset = "0x1CE6710", VA = "0x181CE8110")]
+			[Address(RVA = "0x567D890", Offset = "0x567C890", VA = "0x567D890")]
 			get
 			{
 				return default(int);
@@ -98,13 +98,13 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 		}
 
 		[Token(Token = "0x60002BF")]
-		[Address(RVA = "0x1CE8090", Offset = "0x1CE6690", VA = "0x181CE8090")]
+		[Address(RVA = "0x567D7F0", Offset = "0x567C7F0", VA = "0x567D7F0")]
 		public ReceiveContext(Socket socket, byte[] headerBuffer, byte[] messageBuffer)
 		{
 		}
 
 		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x1CE8080", Offset = "0x1CE6680", VA = "0x181CE8080")]
+		[Address(RVA = "0x567DFD0", Offset = "0x567CFD0", VA = "0x567DFD0")]
 		public void Reset()
 		{
 		}
@@ -119,66 +119,66 @@ public class SocketTcpAsync : IPhotonSocket, IDisposable
 	private readonly object syncer;
 
 	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x1CE9D20", Offset = "0x1CE8320", VA = "0x181CE9D20")]
+	[Address(RVA = "0x567C320", Offset = "0x567B320", VA = "0x567C320")]
 	[Preserve]
 	public SocketTcpAsync(PeerBase npeer)
 	{
 	}
 
 	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x1CE8CF0", Offset = "0x1CE72F0", VA = "0x181CE8CF0", Slot = "1")]
+	[Address(RVA = "0x567C460", Offset = "0x567B460", VA = "0x567C460", Slot = "1")]
 	~SocketTcpAsync()
 	{
 	}
 
 	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x1CE8500", Offset = "0x1CE6B00", VA = "0x181CE8500", Slot = "8")]
+	[Address(RVA = "0x567C4F0", Offset = "0x567B4F0", VA = "0x567C4F0", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60002B8")]
-	[Address(RVA = "0x1CE81F0", Offset = "0x1CE67F0", VA = "0x181CE81F0", Slot = "4")]
+	[Address(RVA = "0x567C600", Offset = "0x567B600", VA = "0x567C600", Slot = "4")]
 	public override bool Connect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x1CE8350", Offset = "0x1CE6950", VA = "0x181CE8350", Slot = "5")]
+	[Address(RVA = "0x567C780", Offset = "0x567B780", VA = "0x567C780", Slot = "5")]
 	public override bool Disconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x1CE9820", Offset = "0x1CE7E20", VA = "0x181CE9820", Slot = "6")]
+	[Address(RVA = "0x567C9A0", Offset = "0x567B9A0", VA = "0x567C9A0", Slot = "6")]
 	public override PhotonSocketError Send(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x1CE9800", Offset = "0x1CE7E00", VA = "0x181CE9800", Slot = "7")]
+	[Address(RVA = "0x567CD40", Offset = "0x567BD40", VA = "0x567CD40", Slot = "7")]
 	public override PhotonSocketError Receive(out byte[] data)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x1CE85D0", Offset = "0x1CE6BD0", VA = "0x181CE85D0")]
+	[Address(RVA = "0x567CD60", Offset = "0x567BD60", VA = "0x567CD60")]
 	internal void DnsAndConnect()
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x1CE94A0", Offset = "0x1CE7AA0", VA = "0x181CE94A0")]
+	[Address(RVA = "0x567D490", Offset = "0x567C490", VA = "0x567D490")]
 	private void ReceiveAsync([Optional] ReceiveContext context)
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x1CE8D50", Offset = "0x1CE7350", VA = "0x181CE8D50")]
+	[Address(RVA = "0x567D8A0", Offset = "0x567C8A0", VA = "0x567D8A0")]
 	private void ReceiveAsync(IAsyncResult ar)
 	{
 	}

@@ -17,14 +17,14 @@ public class AxisEventData : BaseEventData
 	public Vector2 moveVector
 	{
 		[Token(Token = "0x600062E")]
-		[Address(RVA = "0x32F0910", Offset = "0x32EEF10", VA = "0x1832F0910")]
+		[Address(RVA = "0x6D07920", Offset = "0x6D06920", VA = "0x6D07920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600062F")]
-		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
+		[Address(RVA = "0x6D07930", Offset = "0x6D06930", VA = "0x6D07930")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ public class AxisEventData : BaseEventData
 	public MoveDirection moveDir
 	{
 		[Token(Token = "0x6000630")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6D07940", Offset = "0x6D06940", VA = "0x6D07940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(MoveDirection);
 		}
 		[Token(Token = "0x6000631")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6D07950", Offset = "0x6D06950", VA = "0x6D07950")]
 		[CompilerGenerated]
 		set
 		{
@@ -50,7 +50,7 @@ public class AxisEventData : BaseEventData
 	}
 
 	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x32F0890", Offset = "0x32EEE90", VA = "0x1832F0890")]
+	[Address(RVA = "0x6D07960", Offset = "0x6D06960", VA = "0x6D07960")]
 	public AxisEventData(EventSystem eventSystem)
 	{
 	}

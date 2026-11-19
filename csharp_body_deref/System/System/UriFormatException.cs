@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000C1")]
+[Token(Token = "0x2000082")]
 public class UriFormatException : FormatException, ISerializable
 {
-	[Token(Token = "0x6000400")]
-	[Address(RVA = "0x27C50C0", Offset = "0x27C36C0", VA = "0x1827C50C0")]
+	[Token(Token = "0x600024C")]
+	[Address(RVA = "0x61D72D0", Offset = "0x61D62D0", VA = "0x61D72D0")]
 	public UriFormatException()
 	{
 	}
 
-	[Token(Token = "0x6000401")]
-	[Address(RVA = "0x27C50A0", Offset = "0x27C36A0", VA = "0x1827C50A0")]
+	[Token(Token = "0x600024D")]
+	[Address(RVA = "0x61D4DB0", Offset = "0x61D3DB0", VA = "0x61D4DB0")]
 	public UriFormatException(string textString)
 	{
 	}
 
-	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x600024E")]
+	[Address(RVA = "0x61D72E0", Offset = "0x61D62E0", VA = "0x61D72E0")]
 	protected UriFormatException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x27C5080", Offset = "0x27C3680", VA = "0x1827C5080", Slot = "4")]
+	[Token(Token = "0x600024F")]
+	[Address(RVA = "0x61D72F0", Offset = "0x61D62F0", VA = "0x61D72F0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

@@ -13,37 +13,37 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200019A")]
-[System.Runtime.Versioning.NonVersionable]
+[Token(Token = "0x2000172")]
 [CLSCompliant(false)]
 [ComVisible(true)]
+[System.Runtime.Versioning.NonVersionable]
 public ref struct TypedReference
 {
-	[Token(Token = "0x400065F")]
+	[Token(Token = "0x40005BD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private RuntimeTypeHandle type;
 
-	[Token(Token = "0x4000660")]
+	[Token(Token = "0x40005BE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private IntPtr Value;
 
-	[Token(Token = "0x4000661")]
+	[Token(Token = "0x40005BF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IntPtr Type;
 
 	[Token(Token = "0x17000151")]
 	internal bool IsNull
 	{
-		[Token(Token = "0x6000F2A")]
-		[Address(RVA = "0x1B91E20", Offset = "0x1B90420", VA = "0x181B91E20")]
+		[Token(Token = "0x6000F04")]
+		[Address(RVA = "0x55069B0", Offset = "0x55059B0", VA = "0x55069B0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000F26")]
-	[Address(RVA = "0x1B91830", Offset = "0x1B8FE30", VA = "0x181B91830")]
+	[Token(Token = "0x6000F00")]
+	[Address(RVA = "0x55064C0", Offset = "0x55054C0", VA = "0x55064C0")]
 	[CLSCompliant(false)]
 	public static TypedReference MakeTypedReference(object target, FieldInfo[] flds)
 	{
@@ -51,26 +51,26 @@ public ref struct TypedReference
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x1B91820", Offset = "0x1B8FE20", VA = "0x181B91820")]
+	[Token(Token = "0x6000F01")]
+	[Address(RVA = "0x55068F0", Offset = "0x55058F0", VA = "0x55068F0")]
 	private unsafe static extern void InternalMakeTypedReference(void* result, object target, IntPtr[] flds, System.RuntimeType lastFieldType);
 
-	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x1B917C0", Offset = "0x1B8FDC0", VA = "0x181B917C0", Slot = "2")]
+	[Token(Token = "0x6000F02")]
+	[Address(RVA = "0x5506900", Offset = "0x5505900", VA = "0x5506900", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x1B91760", Offset = "0x1B8FD60", VA = "0x181B91760", Slot = "0")]
+	[Token(Token = "0x6000F03")]
+	[Address(RVA = "0x5506960", Offset = "0x5505960", VA = "0x5506960", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x1B91DD0", Offset = "0x1B903D0", VA = "0x181B91DD0")]
+	[Token(Token = "0x6000F05")]
+	[Address(RVA = "0x55069D0", Offset = "0x55059D0", VA = "0x55069D0")]
 	[CLSCompliant(false)]
 	public static void SetTypedReference(TypedReference target, object value)
 	{

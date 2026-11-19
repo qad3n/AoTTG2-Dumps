@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.ColorGradingLutPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,7 +43,7 @@ public class ColorGradingLutPass : ScriptableRenderPass
 		internal TextureHandle internalLut;
 
 		[Token(Token = "0x6000B70")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66C4430", Offset = "0x66C3430", VA = "0x66C4430")]
 		public PassData()
 		{
 		}
@@ -170,56 +170,56 @@ public class ColorGradingLutPass : ScriptableRenderPass
 	private bool m_AllowColorGradingACESHDR;
 
 	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66C2300", Offset = "0x66C1300", VA = "0x66C2300", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x2CB9A00", Offset = "0x2CB8000", VA = "0x182CB9A00")]
+	[Address(RVA = "0x66C2310", Offset = "0x66C1310", VA = "0x66C2310")]
 	public ColorGradingLutPass(RenderPassEvent evt, PostProcessData data)
 	{
 	}
 
 	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66C2590", Offset = "0x66C1590", VA = "0x66C2590")]
 	public void Setup(in RTHandle internalLut)
 	{
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x2CB7D80", Offset = "0x2CB6380", VA = "0x182CB7D80")]
+	[Address(RVA = "0x66C25A0", Offset = "0x66C15A0", VA = "0x66C25A0")]
 	public void ConfigureDescriptor(in PostProcessingData postProcessingData, out RenderTextureDescriptor descriptor, out FilterMode filterMode)
 	{
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x2CB7CD0", Offset = "0x2CB62D0", VA = "0x182CB7CD0")]
+	[Address(RVA = "0x66C2680", Offset = "0x66C1680", VA = "0x66C2680")]
 	public void ConfigureDescriptor(in UniversalPostProcessingData postProcessingData, out RenderTextureDescriptor descriptor, out FilterMode filterMode)
 	{
 	}
 
 	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x2CB7E60", Offset = "0x2CB6460", VA = "0x182CB7E60")]
+	[Address(RVA = "0x66C2710", Offset = "0x66C1710", VA = "0x66C2710")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RTHandle internalLutTarget)
 	{
 	}
 
 	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x2CB9380", Offset = "0x2CB7980", VA = "0x182CB9380")]
+	[Address(RVA = "0x66C3CB0", Offset = "0x66C2CB0", VA = "0x66C3CB0")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, out TextureHandle internalColorLut)
 	{
 	}
 
 	[Token(Token = "0x6000B6D")]
-	[Address(RVA = "0x2CB92D0", Offset = "0x2CB78D0", VA = "0x182CB92D0", Slot = "11")]
+	[Address(RVA = "0x66C4340", Offset = "0x66C3340", VA = "0x66C4340", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x2CB7C60", Offset = "0x2CB6260", VA = "0x182CB7C60")]
+	[Address(RVA = "0x66C43D0", Offset = "0x66C33D0", VA = "0x66C43D0")]
 	public void Cleanup()
 	{
 	}

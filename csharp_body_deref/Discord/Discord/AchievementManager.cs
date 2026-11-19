@@ -105,7 +105,7 @@ public class AchievementManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000522")]
-		[Address(RVA = "0x53D800", Offset = "0x53BE00", VA = "0x18053D800")]
+		[Address(RVA = "0x31630B0", Offset = "0x31620B0", VA = "0x31630B0")]
 		get
 		{
 			return default(FFIMethods);
@@ -116,13 +116,13 @@ public class AchievementManager
 	public event UserAchievementUpdateHandler OnUserAchievementUpdate
 	{
 		[Token(Token = "0x6000523")]
-		[Address(RVA = "0x53D760", Offset = "0x53BD60", VA = "0x18053D760")]
+		[Address(RVA = "0x31631C0", Offset = "0x31621C0", VA = "0x31631C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000524")]
-		[Address(RVA = "0x53D920", Offset = "0x53BF20", VA = "0x18053D920")]
+		[Address(RVA = "0x3163250", Offset = "0x3162250", VA = "0x3163250")]
 		[CompilerGenerated]
 		remove
 		{
@@ -130,66 +130,66 @@ public class AchievementManager
 	}
 
 	[Token(Token = "0x6000525")]
-	[Address(RVA = "0x53D570", Offset = "0x53BB70", VA = "0x18053D570")]
+	[Address(RVA = "0x31632E0", Offset = "0x31622E0", VA = "0x31632E0")]
 	internal AchievementManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000526")]
-	[Address(RVA = "0x53D0C0", Offset = "0x53B6C0", VA = "0x18053D0C0")]
+	[Address(RVA = "0x3163360", Offset = "0x3162360", VA = "0x3163360")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x53D310", Offset = "0x53B910", VA = "0x18053D310")]
+	[Address(RVA = "0x3162DE0", Offset = "0x3161DE0", VA = "0x3162DE0")]
 	[MonoPInvokeCallback]
 	private static void SetUserAchievementCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x53D420", Offset = "0x53BA20", VA = "0x18053D420")]
+	[Address(RVA = "0x3163530", Offset = "0x3162530", VA = "0x3163530")]
 	public void SetUserAchievement(long achievementId, byte percentComplete, SetUserAchievementHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x53CD20", Offset = "0x53B320", VA = "0x18053CD20")]
+	[Address(RVA = "0x3162EC0", Offset = "0x3161EC0", VA = "0x3162EC0")]
 	[MonoPInvokeCallback]
 	private static void FetchUserAchievementsCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x53CE30", Offset = "0x53B430", VA = "0x18053CE30")]
+	[Address(RVA = "0x3163720", Offset = "0x3162720", VA = "0x3163720")]
 	public void FetchUserAchievements(FetchUserAchievementsHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x53CCD0", Offset = "0x53B2D0", VA = "0x18053CCD0")]
+	[Address(RVA = "0x31638F0", Offset = "0x31628F0", VA = "0x31638F0")]
 	public int CountUserAchievements()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600052C")]
-	[Address(RVA = "0x53D010", Offset = "0x53B610", VA = "0x18053D010")]
+	[Address(RVA = "0x3163940", Offset = "0x3162940", VA = "0x3163940")]
 	public UserAchievement GetUserAchievement(long userAchievementId)
 	{
 		return default(UserAchievement);
 	}
 
 	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x53CF60", Offset = "0x53B560", VA = "0x18053CF60")]
+	[Address(RVA = "0x31639F0", Offset = "0x31629F0", VA = "0x31639F0")]
 	public UserAchievement GetUserAchievementAt(int index)
 	{
 		return default(UserAchievement);
 	}
 
 	[Token(Token = "0x600052E")]
-	[Address(RVA = "0x53D1F0", Offset = "0x53B7F0", VA = "0x18053D1F0")]
+	[Address(RVA = "0x3162FA0", Offset = "0x3161FA0", VA = "0x3162FA0")]
 	[MonoPInvokeCallback]
 	private static void OnUserAchievementUpdateImpl(IntPtr ptr, ref UserAchievement userAchievement)
 	{

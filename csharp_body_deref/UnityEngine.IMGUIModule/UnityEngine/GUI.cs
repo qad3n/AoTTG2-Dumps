@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.GUI
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -75,13 +75,13 @@ public class GUI
 	public static Color color
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x2FA40B0", Offset = "0x2FA26B0", VA = "0x182FA40B0")]
+		[Address(RVA = "0x697B100", Offset = "0x697A100", VA = "0x697B100")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x2FA46C0", Offset = "0x2FA2CC0", VA = "0x182FA46C0")]
+		[Address(RVA = "0x697B1C0", Offset = "0x697A1C0", VA = "0x697B1C0")]
 		set
 		{
 		}
@@ -91,13 +91,13 @@ public class GUI
 	public static Color backgroundColor
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x2FA3E70", Offset = "0x2FA2470", VA = "0x182FA3E70")]
+		[Address(RVA = "0x697B290", Offset = "0x697A290", VA = "0x697B290")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x2FA45D0", Offset = "0x2FA2BD0", VA = "0x182FA45D0")]
+		[Address(RVA = "0x697B350", Offset = "0x697A350", VA = "0x697B350")]
 		set
 		{
 		}
@@ -107,13 +107,13 @@ public class GUI
 	public static Color contentColor
 	{
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x2FA4160", Offset = "0x2FA2760", VA = "0x182FA4160")]
+		[Address(RVA = "0x697B420", Offset = "0x697A420", VA = "0x697B420")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x2FA4770", Offset = "0x2FA2D70", VA = "0x182FA4770")]
+		[Address(RVA = "0x697B4E0", Offset = "0x697A4E0", VA = "0x697B4E0")]
 		set
 		{
 		}
@@ -124,11 +124,11 @@ public class GUI
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x2FA4040", Offset = "0x2FA2640", VA = "0x182FA4040")]
+		[Address(RVA = "0x697B5B0", Offset = "0x697A5B0", VA = "0x697B5B0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x2FA4640", Offset = "0x2FA2C40", VA = "0x182FA4640")]
+		[Address(RVA = "0x697B5E0", Offset = "0x697A5E0", VA = "0x697B5E0")]
 		set;
 	}
 
@@ -137,11 +137,11 @@ public class GUI
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x2FA41D0", Offset = "0x2FA27D0", VA = "0x182FA41D0")]
+		[Address(RVA = "0x697B610", Offset = "0x697A610", VA = "0x697B610")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x2FA4820", Offset = "0x2FA2E20", VA = "0x182FA4820")]
+		[Address(RVA = "0x697B640", Offset = "0x697A640", VA = "0x697B640")]
 		set;
 	}
 
@@ -150,7 +150,7 @@ public class GUI
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x2FA47E0", Offset = "0x2FA2DE0", VA = "0x182FA47E0")]
+		[Address(RVA = "0x697B670", Offset = "0x697A670", VA = "0x697B670")]
 		set;
 	}
 
@@ -159,7 +159,7 @@ public class GUI
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x2FA4560", Offset = "0x2FA2B60", VA = "0x182FA4560")]
+		[Address(RVA = "0x697B6A0", Offset = "0x697A6A0", VA = "0x697B6A0")]
 		get;
 	}
 
@@ -167,7 +167,7 @@ public class GUI
 	internal static Material blendMaterial
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x2FA3F10", Offset = "0x2FA2510", VA = "0x182FA3F10")]
+		[Address(RVA = "0x697B6D0", Offset = "0x697A6D0", VA = "0x697B6D0")]
 		[UnityEngine.Bindings.FreeFunction("GetGUIBlendMaterial")]
 		get
 		{
@@ -179,7 +179,7 @@ public class GUI
 	internal static Material blitMaterial
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2FA3FC0", Offset = "0x2FA25C0", VA = "0x182FA3FC0")]
+		[Address(RVA = "0x697B7A0", Offset = "0x697A7A0", VA = "0x697B7A0")]
 		[UnityEngine.Bindings.FreeFunction("GetGUIBlitMaterial")]
 		get
 		{
@@ -191,7 +191,7 @@ public class GUI
 	internal static Material roundedRectMaterial
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x2FA4310", Offset = "0x2FA2910", VA = "0x182FA4310")]
+		[Address(RVA = "0x697B870", Offset = "0x697A870", VA = "0x697B870")]
 		[UnityEngine.Bindings.FreeFunction("GetGUIRoundedRectMaterial")]
 		get
 		{
@@ -203,7 +203,7 @@ public class GUI
 	internal static Material roundedRectWithColorPerBorderMaterial
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x2FA43C0", Offset = "0x2FA29C0", VA = "0x182FA43C0")]
+		[Address(RVA = "0x697B940", Offset = "0x697A940", VA = "0x697B940")]
 		[UnityEngine.Bindings.FreeFunction("GetGUIRoundedRectWithColorPerBorderMaterial")]
 		get
 		{
@@ -215,14 +215,14 @@ public class GUI
 	internal static int scrollTroughSide
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x2FA4440", Offset = "0x2FA2A40", VA = "0x182FA4440")]
+		[Address(RVA = "0x697C490", Offset = "0x697B490", VA = "0x697C490")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x2FA4920", Offset = "0x2FA2F20", VA = "0x182FA4920")]
+		[Address(RVA = "0x697C500", Offset = "0x697B500", VA = "0x697C500")]
 		[CompilerGenerated]
 		set
 		{
@@ -233,14 +233,14 @@ public class GUI
 	internal static DateTime nextScrollStepTime
 	{
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x2FA4290", Offset = "0x2FA2890", VA = "0x182FA4290")]
+		[Address(RVA = "0x697C550", Offset = "0x697B550", VA = "0x697C550")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DateTime);
 		}
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x2FA48C0", Offset = "0x2FA2EC0", VA = "0x182FA48C0")]
+		[Address(RVA = "0x697C5C0", Offset = "0x697B5C0", VA = "0x697C5C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -251,13 +251,13 @@ public class GUI
 	public static GUISkin skin
 	{
 		[Token(Token = "0x6000078")]
-		[Address(RVA = "0x2FA44E0", Offset = "0x2FA2AE0", VA = "0x182FA44E0")]
+		[Address(RVA = "0x697C920", Offset = "0x697B920", VA = "0x697C920")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x2FA4980", Offset = "0x2FA2F80", VA = "0x182FA4980")]
+		[Address(RVA = "0x697C620", Offset = "0x697B620", VA = "0x697C620")]
 		set
 		{
 		}
@@ -267,13 +267,13 @@ public class GUI
 	public static Matrix4x4 matrix
 	{
 		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x2FA4200", Offset = "0x2FA2800", VA = "0x182FA4200")]
+		[Address(RVA = "0x697CBC0", Offset = "0x697BBC0", VA = "0x697CBC0")]
 		get
 		{
 			return default(Matrix4x4);
 		}
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x2FA4860", Offset = "0x2FA2E60", VA = "0x182FA4860")]
+		[Address(RVA = "0x697CCC0", Offset = "0x697BCC0", VA = "0x697CCC0")]
 		set
 		{
 		}
@@ -283,7 +283,7 @@ public class GUI
 	internal static GenericStack scrollViewStates
 	{
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x2FA4490", Offset = "0x2FA2A90", VA = "0x182FA4490")]
+		[Address(RVA = "0x6986310", Offset = "0x6985310", VA = "0x6986310")]
 		[CompilerGenerated]
 		get
 		{
@@ -293,28 +293,28 @@ public class GUI
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x2FA02F0", Offset = "0x2F9E8F0", VA = "0x182FA02F0")]
+	[Address(RVA = "0x697BA10", Offset = "0x697AA10", VA = "0x697BA10")]
 	internal static extern void GrabMouseControl(int id);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x2FA1550", Offset = "0x2F9FB50", VA = "0x182FA1550")]
+	[Address(RVA = "0x697BA40", Offset = "0x697AA40", VA = "0x697BA40")]
 	internal static extern bool HasMouseControl(int id);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x2FA1E10", Offset = "0x2FA0410", VA = "0x182FA1E10")]
+	[Address(RVA = "0x697BA70", Offset = "0x697AA70", VA = "0x697BA70")]
 	internal static extern void ReleaseMouseControl();
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x2FA2CF0", Offset = "0x2FA12F0", VA = "0x182FA2CF0")]
+	[Address(RVA = "0x697BAA0", Offset = "0x697AAA0", VA = "0x697BAA0")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().SetNameOfNextControl")]
 	public static void SetNextControlName(string name)
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x2FA0210", Offset = "0x2F9E810", VA = "0x182FA0210")]
+	[Address(RVA = "0x697BC60", Offset = "0x697AC60", VA = "0x697BC60")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().GetNameOfFocusedControl")]
 	public static string GetNameOfFocusedControl()
 	{
@@ -322,7 +322,7 @@ public class GUI
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x2FA0030", Offset = "0x2F9E630", VA = "0x182FA0030")]
+	[Address(RVA = "0x697BD90", Offset = "0x697AD90", VA = "0x697BD90")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().FocusKeyboardControl")]
 	public static void FocusControl(string name)
 	{
@@ -330,423 +330,423 @@ public class GUI
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x2FA18B0", Offset = "0x2F9FEB0", VA = "0x182FA18B0")]
+	[Address(RVA = "0x697BF50", Offset = "0x697AF50", VA = "0x697BF50")]
 	internal static extern void InternalRepaintEditorWindow();
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x2FA1940", Offset = "0x2F9FF40", VA = "0x182FA1940")]
+	[Address(RVA = "0x697BF80", Offset = "0x697AF80", VA = "0x697BF80")]
 	private static Rect Internal_DoWindow(int id, int instanceID, Rect clientRect, WindowFunction func, GUIContent title, [UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] GUIStyle style, object skin, bool forceRectOnLayout)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x2F9D960", Offset = "0x2F9BF60", VA = "0x182F9D960")]
+	[Address(RVA = "0x697C0D0", Offset = "0x697B0D0", VA = "0x697C0D0")]
 	public static void DragWindow(Rect position)
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x2FA3B30", Offset = "0x2FA2130", VA = "0x182FA3B30")]
+	[Address(RVA = "0x697C1A0", Offset = "0x697B1A0", VA = "0x697C1A0")]
 	static GUI()
 	{
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x2F9CEB0", Offset = "0x2F9B4B0", VA = "0x182F9CEB0")]
+	[Address(RVA = "0x697C770", Offset = "0x697B770", VA = "0x697C770")]
 	internal static void DoSetSkin(GUISkin newSkin)
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2FA1B00", Offset = "0x2FA0100", VA = "0x182FA1B00")]
+	[Address(RVA = "0x697CD70", Offset = "0x697BD70", VA = "0x697CD70")]
 	public static void Label(Rect position, string text)
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2FA1A00", Offset = "0x2FA0000", VA = "0x182FA1A00")]
+	[Address(RVA = "0x697D0A0", Offset = "0x697C0A0", VA = "0x697D0A0")]
 	public static void Label(Rect position, string text, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2FA1C20", Offset = "0x2FA0220", VA = "0x182FA1C20")]
+	[Address(RVA = "0x697D010", Offset = "0x697C010", VA = "0x697D010")]
 	public static void Label(Rect position, GUIContent content, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2F9EC50", Offset = "0x2F9D250", VA = "0x182F9EC50")]
+	[Address(RVA = "0x697D810", Offset = "0x697C810", VA = "0x697D810")]
 	public static void DrawTexture(Rect position, Texture image)
 	{
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x2F9EB90", Offset = "0x2F9D190", VA = "0x182F9EB90")]
+	[Address(RVA = "0x697D940", Offset = "0x697C940", VA = "0x697D940")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode)
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2F9D9D0", Offset = "0x2F9BFD0", VA = "0x182F9D9D0")]
+	[Address(RVA = "0x697DA10", Offset = "0x697CA10", VA = "0x697DA10")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend)
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x2F9E660", Offset = "0x2F9CC60", VA = "0x182F9E660")]
+	[Address(RVA = "0x697DAA0", Offset = "0x697CAA0", VA = "0x697DAA0")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect)
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2F9E940", Offset = "0x2F9CF40", VA = "0x182F9E940")]
+	[Address(RVA = "0x697DBE0", Offset = "0x697CBE0", VA = "0x697DBE0")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect, Color color, float borderWidth, float borderRadius)
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x2F9DA50", Offset = "0x2F9C050", VA = "0x182F9DA50")]
+	[Address(RVA = "0x697DDC0", Offset = "0x697CDC0", VA = "0x697DDC0")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect, Color color, Vector4 borderWidths, float borderRadius)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x2F9E500", Offset = "0x2F9CB00", VA = "0x182F9E500")]
+	[Address(RVA = "0x697DF00", Offset = "0x697CF00", VA = "0x697DF00")]
 	public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect, Color color, Vector4 borderWidths, Vector4 borderRadiuses)
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x2F9E3C0", Offset = "0x2F9C9C0", VA = "0x182F9E3C0")]
+	[Address(RVA = "0x697E0B0", Offset = "0x697D0B0", VA = "0x697E0B0")]
 	internal static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect, Color color, Vector4 borderWidths, Vector4 borderRadiuses, bool drawSmoothCorners)
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x2F9DC30", Offset = "0x2F9C230", VA = "0x182F9DC30")]
+	[Address(RVA = "0x697E240", Offset = "0x697D240", VA = "0x697E240")]
 	internal static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect, Color leftColor, Color topColor, Color rightColor, Color bottomColor, Vector4 borderWidths, Vector4 borderRadiuses, bool drawSmoothCorners)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x2F9B940", Offset = "0x2F99F40", VA = "0x182F9B940")]
+	[Address(RVA = "0x697EB60", Offset = "0x697DB60", VA = "0x697EB60")]
 	internal static bool CalculateScaledTextureRects(Rect position, ScaleMode scaleMode, float imageAspect, ref Rect outScreenRect, ref Rect outSourceRect)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x2F9B490", Offset = "0x2F99A90", VA = "0x182F9B490")]
+	[Address(RVA = "0x697EDA0", Offset = "0x697DDA0", VA = "0x697EDA0")]
 	public static void Box(Rect position, string text)
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x2F9B280", Offset = "0x2F99880", VA = "0x182F9B280")]
+	[Address(RVA = "0x697EE60", Offset = "0x697DE60", VA = "0x697EE60")]
 	public static void Box(Rect position, GUIContent content, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x2F9B550", Offset = "0x2F99B50", VA = "0x182F9B550")]
+	[Address(RVA = "0x697F3A0", Offset = "0x697E3A0", VA = "0x697F3A0")]
 	public static bool Button(Rect position, string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2F9B610", Offset = "0x2F99C10", VA = "0x182F9B610")]
+	[Address(RVA = "0x697F460", Offset = "0x697E460", VA = "0x697F460")]
 	public static bool Button(Rect position, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2F9B6D0", Offset = "0x2F99CD0", VA = "0x182F9B6D0")]
+	[Address(RVA = "0x697F680", Offset = "0x697E680", VA = "0x697F680")]
 	internal static bool Button(Rect position, int id, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x2F9C950", Offset = "0x2F9AF50", VA = "0x182F9C950")]
+	[Address(RVA = "0x697F930", Offset = "0x697E930", VA = "0x697F930")]
 	private static bool DoRepeatButton(Rect position, GUIContent content, GUIStyle style, FocusType focusType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2FA3230", Offset = "0x2FA1830", VA = "0x182FA3230")]
+	[Address(RVA = "0x6980410", Offset = "0x697F410", VA = "0x6980410")]
 	public static string TextField(Rect position, string text)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2FA1CC0", Offset = "0x2FA02C0", VA = "0x182FA1CC0")]
+	[Address(RVA = "0x6980850", Offset = "0x697F850", VA = "0x6980850")]
 	internal static string PasswordFieldGetStrToShow(string password, char maskChar)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2FA3090", Offset = "0x2FA1690", VA = "0x182FA3090")]
+	[Address(RVA = "0x69809D0", Offset = "0x697F9D0", VA = "0x69809D0")]
 	public static string TextArea(Rect position, string text, GUIStyle style)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2F9D120", Offset = "0x2F9B720", VA = "0x182F9D120")]
+	[Address(RVA = "0x6980740", Offset = "0x697F740", VA = "0x6980740")]
 	internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2F9D520", Offset = "0x2F9BB20", VA = "0x182F9D520")]
+	[Address(RVA = "0x6980BF0", Offset = "0x697FBF0", VA = "0x6980BF0")]
 	internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText)
 	{
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x2F9D1F0", Offset = "0x2F9B7F0", VA = "0x182F9D1F0")]
+	[Address(RVA = "0x6980CA0", Offset = "0x697FCA0", VA = "0x6980CA0")]
 	internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText, char maskChar)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2FA0E10", Offset = "0x2F9F410", VA = "0x182FA0E10")]
+	[Address(RVA = "0x6981100", Offset = "0x6980100", VA = "0x6981100")]
 	private static void HandleTextFieldEventForTouchscreen(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText, char maskChar, TextEditor editor)
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x2FA0330", Offset = "0x2F9E930", VA = "0x182FA0330")]
+	[Address(RVA = "0x6981930", Offset = "0x6980930", VA = "0x6981930")]
 	private static void HandleTextFieldEventForDesktop(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, TextEditor editor)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2FA33F0", Offset = "0x2FA19F0", VA = "0x182FA33F0")]
+	[Address(RVA = "0x6982E10", Offset = "0x6981E10", VA = "0x6982E10")]
 	public static bool Toggle(Rect position, bool value, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2F9C060", Offset = "0x2F9A660", VA = "0x182F9C060")]
+	[Address(RVA = "0x69830F0", Offset = "0x69820F0", VA = "0x69830F0")]
 	internal static bool DoControl(Rect position, int id, bool on, bool hover, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x2F9C4F0", Offset = "0x2F9AAF0", VA = "0x182F9C4F0")]
+	[Address(RVA = "0x697D1C0", Offset = "0x697C1C0", VA = "0x697D1C0")]
 	private static void DoLabel(Rect position, GUIContent content, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2F9D5C0", Offset = "0x2F9BBC0", VA = "0x182F9D5C0")]
+	[Address(RVA = "0x6982ED0", Offset = "0x6981ED0", VA = "0x6982ED0")]
 	internal static bool DoToggle(Rect position, int id, bool value, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x2F9BEF0", Offset = "0x2F9A4F0", VA = "0x182F9BEF0")]
+	[Address(RVA = "0x697F720", Offset = "0x697E720", VA = "0x697F720")]
 	internal static bool DoButton(Rect position, int id, GUIContent content, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2FA17E0", Offset = "0x2F9FDE0", VA = "0x182FA17E0")]
+	[Address(RVA = "0x6983C00", Offset = "0x6982C00", VA = "0x6983C00")]
 	public static float HorizontalSlider(Rect position, float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2FA2E90", Offset = "0x2FA1490", VA = "0x182FA2E90")]
+	[Address(RVA = "0x6983CE0", Offset = "0x6982CE0", VA = "0x6983CE0")]
 	public static float Slider(Rect position, float value, float size, float start, float end, GUIStyle slider, GUIStyle thumb, bool horiz, int id, [Optional] GUIStyle thumbExtent)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2FA1590", Offset = "0x2F9FB90", VA = "0x182FA1590")]
+	[Address(RVA = "0x6983E90", Offset = "0x6982E90", VA = "0x6983E90")]
 	public static float HorizontalScrollbar(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle style)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2FA1E40", Offset = "0x2FA0440", VA = "0x182FA1E40")]
+	[Address(RVA = "0x6985350", Offset = "0x6984350", VA = "0x6985350")]
 	internal static bool ScrollerRepeatButton(int scrollerID, Rect rect, GUIStyle style)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2FA3740", Offset = "0x2FA1D40", VA = "0x182FA3740")]
+	[Address(RVA = "0x69856B0", Offset = "0x69846B0", VA = "0x69856B0")]
 	public static float VerticalScrollbar(Rect position, float value, float size, float topValue, float bottomValue, GUIStyle style)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2FA2180", Offset = "0x2FA0780", VA = "0x182FA2180")]
+	[Address(RVA = "0x69845B0", Offset = "0x69835B0", VA = "0x69845B0")]
 	internal static float Scroller(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUIStyle leftButton, GUIStyle rightButton, bool horiz)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2F9A280", Offset = "0x2F98880", VA = "0x182F9A280")]
+	[Address(RVA = "0x6985BD0", Offset = "0x6984BD0", VA = "0x6985BD0")]
 	public static void BeginGroup(Rect position, GUIContent content, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2F99E30", Offset = "0x2F98430", VA = "0x182F99E30")]
+	[Address(RVA = "0x6985C70", Offset = "0x6984C70", VA = "0x6985C70")]
 	internal static void BeginGroup(Rect position, GUIContent content, GUIStyle style, Vector2 scrollOffset)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2F9ED30", Offset = "0x2F9D330", VA = "0x182F9ED30")]
+	[Address(RVA = "0x6986250", Offset = "0x6985250", VA = "0x6986250")]
 	public static void EndGroup()
 	{
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x2F9B170", Offset = "0x2F99770", VA = "0x182F9B170")]
+	[Address(RVA = "0x6986380", Offset = "0x6985380", VA = "0x6986380")]
 	public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x2F9A340", Offset = "0x2F98940", VA = "0x182F9A340")]
+	[Address(RVA = "0x6986670", Offset = "0x6985670", VA = "0x6986670")]
 	internal static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x2F9EDA0", Offset = "0x2F9D3A0", VA = "0x182F9EDA0")]
+	[Address(RVA = "0x69880C0", Offset = "0x69870C0", VA = "0x69880C0")]
 	public static void EndScrollView()
 	{
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x2F9EDF0", Offset = "0x2F9D3F0", VA = "0x182F9EDF0")]
+	[Address(RVA = "0x6988120", Offset = "0x6987120", VA = "0x6988120")]
 	public static void EndScrollView(bool handleScrollWheel)
 	{
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x2FA3990", Offset = "0x2FA1F90", VA = "0x182FA3990")]
+	[Address(RVA = "0x69894E0", Offset = "0x69884E0", VA = "0x69894E0")]
 	public static Rect Window(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x2F9D730", Offset = "0x2F9BD30", VA = "0x182F9D730")]
+	[Address(RVA = "0x6989630", Offset = "0x6988630", VA = "0x6989630")]
 	private static Rect DoWindow(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, GUISkin skin, bool forceRectOnLayout)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x2F9BB10", Offset = "0x2F9A110", VA = "0x182F9BB10")]
+	[Address(RVA = "0x6989790", Offset = "0x6988790", VA = "0x6989790")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CallWindowDelegate(WindowFunction func, int id, int instanceID, GUISkin _skin, int forceRect, float width, float height, GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x2F9D8C0", Offset = "0x2F9BEC0", VA = "0x182F9D8C0")]
+	[Address(RVA = "0x698A720", Offset = "0x6989720", VA = "0x698A720")]
 	public static void DragWindow()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x2FA4070", Offset = "0x2FA2670", VA = "0x182FA4070")]
+	[Address(RVA = "0x697B190", Offset = "0x697A190", VA = "0x697B190")]
 	private static extern void get_color_Injected(out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x2FA4680", Offset = "0x2FA2C80", VA = "0x182FA4680")]
+	[Address(RVA = "0x697B260", Offset = "0x697A260", VA = "0x697B260")]
 	private static extern void set_color_Injected([In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x2FA3E30", Offset = "0x2FA2430", VA = "0x182FA3E30")]
+	[Address(RVA = "0x697B320", Offset = "0x697A320", VA = "0x697B320")]
 	private static extern void get_backgroundColor_Injected(out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2FA4590", Offset = "0x2FA2B90", VA = "0x182FA4590")]
+	[Address(RVA = "0x697B3F0", Offset = "0x697A3F0", VA = "0x697B3F0")]
 	private static extern void set_backgroundColor_Injected([In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x2FA4120", Offset = "0x2FA2720", VA = "0x182FA4120")]
+	[Address(RVA = "0x697B4B0", Offset = "0x697A4B0", VA = "0x697B4B0")]
 	private static extern void get_contentColor_Injected(out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x2FA4730", Offset = "0x2FA2D30", VA = "0x182FA4730")]
+	[Address(RVA = "0x697B580", Offset = "0x697A580", VA = "0x697B580")]
 	private static extern void set_contentColor_Injected([In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x2FA3EE0", Offset = "0x2FA24E0", VA = "0x182FA3EE0")]
+	[Address(RVA = "0x697B770", Offset = "0x697A770", VA = "0x697B770")]
 	private static extern IntPtr get_blendMaterial_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x2FA3F90", Offset = "0x2FA2590", VA = "0x182FA3F90")]
+	[Address(RVA = "0x697B840", Offset = "0x697A840", VA = "0x697B840")]
 	private static extern IntPtr get_blitMaterial_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x2FA42E0", Offset = "0x2FA28E0", VA = "0x182FA42E0")]
+	[Address(RVA = "0x697B910", Offset = "0x697A910", VA = "0x697B910")]
 	private static extern IntPtr get_roundedRectMaterial_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x2FA4390", Offset = "0x2FA2990", VA = "0x182FA4390")]
+	[Address(RVA = "0x697B9E0", Offset = "0x697A9E0", VA = "0x697B9E0")]
 	private static extern IntPtr get_roundedRectWithColorPerBorderMaterial_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x2FA2CB0", Offset = "0x2FA12B0", VA = "0x182FA2CB0")]
+	[Address(RVA = "0x697BC30", Offset = "0x697AC30", VA = "0x697BC30")]
 	private static extern void SetNextControlName_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x2FA01D0", Offset = "0x2F9E7D0", VA = "0x182FA01D0")]
+	[Address(RVA = "0x697BD60", Offset = "0x697AD60", VA = "0x697BD60")]
 	private static extern void GetNameOfFocusedControl_Injected(out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x2F9FFF0", Offset = "0x2F9E5F0", VA = "0x182F9FFF0")]
+	[Address(RVA = "0x697BF20", Offset = "0x697AF20", VA = "0x697BF20")]
 	private static extern void FocusControl_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x2FA18E0", Offset = "0x2F9FEE0", VA = "0x182FA18E0")]
+	[Address(RVA = "0x697C070", Offset = "0x697B070", VA = "0x697C070")]
 	private static extern void Internal_DoWindow_Injected(int id, int instanceID, [In] ref Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, object skin, bool forceRectOnLayout, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x2F9D880", Offset = "0x2F9BE80", VA = "0x182F9D880")]
+	[Address(RVA = "0x697C170", Offset = "0x697B170", VA = "0x697C170")]
 	private static extern void DragWindow_Injected([In] ref Rect position);
 }

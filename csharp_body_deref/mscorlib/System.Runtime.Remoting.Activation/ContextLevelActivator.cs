@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Activation;
 
 [Serializable]
-[Token(Token = "0x20003B8")]
+[Token(Token = "0x2000391")]
 internal class ContextLevelActivator : IActivator
 {
-	[Token(Token = "0x4000F29")]
+	[Token(Token = "0x4000E89")]
 	[FieldOffset(Offset = "0x10")]
 	private IActivator m_NextActivator;
 
-	[Token(Token = "0x17000382")]
+	[Token(Token = "0x17000381")]
 	public IActivator NextActivator
 	{
-		[Token(Token = "0x6001E2C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Token(Token = "0x6001E02")]
+		[Address(RVA = "0x538B3D0", Offset = "0x538A3D0", VA = "0x538B3D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001E2B")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6001E01")]
+	[Address(RVA = "0x538A7D0", Offset = "0x53897D0", VA = "0x538A7D0")]
 	public ContextLevelActivator(IActivator next)
 	{
 	}
 
-	[Token(Token = "0x6001E2D")]
-	[Address(RVA = "0x19F5B60", Offset = "0x19F4160", VA = "0x1819F5B60", Slot = "5")]
+	[Token(Token = "0x6001E03")]
+	[Address(RVA = "0x538B3E0", Offset = "0x538A3E0", VA = "0x538B3E0", Slot = "5")]
 	public IConstructionReturnMessage Activate(IConstructionCallMessage ctorCall)
 	{
 		return null;

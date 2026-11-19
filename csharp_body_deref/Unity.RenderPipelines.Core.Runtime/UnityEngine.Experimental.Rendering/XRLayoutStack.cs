@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Experimental.Rendering.XRLayoutStack
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ internal class XRLayoutStack : IDisposable
 	public XRLayout top
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x2AC8BB0", Offset = "0x2AC71B0", VA = "0x182AC8BB0")]
+		[Address(RVA = "0x64AA8B0", Offset = "0x64A98B0", VA = "0x64AA8B0")]
 		get
 		{
 			return null;
@@ -30,26 +30,26 @@ internal class XRLayoutStack : IDisposable
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x2AC8860", Offset = "0x2AC6E60", VA = "0x182AC8860")]
+	[Address(RVA = "0x64AA810", Offset = "0x64A9810", VA = "0x64AA810")]
 	public XRLayout New()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x2AC8900", Offset = "0x2AC6F00", VA = "0x182AC8900")]
+	[Address(RVA = "0x64AA8F0", Offset = "0x64A98F0", VA = "0x64AA8F0")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x2AC87D0", Offset = "0x2AC6DD0", VA = "0x182AC87D0", Slot = "4")]
+	[Address(RVA = "0x64AA9F0", Offset = "0x64A99F0", VA = "0x64AA9F0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x2AC8B30", Offset = "0x2AC7130", VA = "0x182AC8B30")]
+	[Address(RVA = "0x64AAA70", Offset = "0x64A9A70", VA = "0x64AAA70")]
 	public XRLayoutStack()
 	{
 	}

@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnMouseUpAsButtonMessageListener : MessageListener
 {
 	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x2DBE5E0", Offset = "0x2DBCBE0", VA = "0x182DBE5E0")]
+	[Address(RVA = "0x67A4DF0", Offset = "0x67A3DF0", VA = "0x67A4DF0")]
 	private void OnMouseUpAsButton()
 	{
 	}
 
 	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4E60", Offset = "0x67A3E60", VA = "0x67A4E60")]
 	public UnityOnMouseUpAsButtonMessageListener()
 	{
 	}

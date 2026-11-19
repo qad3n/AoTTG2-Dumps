@@ -21,48 +21,48 @@ public struct SerializableType : IEquatable<SerializableType>, IComparable<Seria
 	public string Identification;
 
 	[Token(Token = "0x6000F7A")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x6843000", Offset = "0x6842000", VA = "0x6843000")]
 	public SerializableType(string identification)
 	{
 	}
 
 	[Token(Token = "0x6000F7B")]
-	[Address(RVA = "0x19A9FB0", Offset = "0x19A85B0", VA = "0x1819A9FB0", Slot = "4")]
+	[Address(RVA = "0x6843010", Offset = "0x6842010", VA = "0x6843010", Slot = "4")]
 	public bool Equals(SerializableType other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x2E39D40", Offset = "0x2E38340", VA = "0x182E39D40", Slot = "0")]
+	[Address(RVA = "0x6843020", Offset = "0x6842020", VA = "0x6843020", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x1BC4E00", Offset = "0x1BC3400", VA = "0x181BC4E00", Slot = "2")]
+	[Address(RVA = "0x6843080", Offset = "0x6842080", VA = "0x6843080", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x19AA140", Offset = "0x19A8740", VA = "0x1819AA140")]
+	[Address(RVA = "0x68430A0", Offset = "0x68420A0", VA = "0x68430A0")]
 	public static bool operator ==(SerializableType left, SerializableType right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x19AA150", Offset = "0x19A8750", VA = "0x1819AA150")]
+	[Address(RVA = "0x68430B0", Offset = "0x68420B0", VA = "0x68430B0")]
 	public static bool operator !=(SerializableType left, SerializableType right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x2E39D20", Offset = "0x2E38320", VA = "0x182E39D20", Slot = "5")]
+	[Address(RVA = "0x68430C0", Offset = "0x68420C0", VA = "0x68430C0", Slot = "5")]
 	public int CompareTo(SerializableType other)
 	{
 		return default(int);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CameraCaptureBridge
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ public static class CameraCaptureBridge
 		internal IEnumerator<Action<RenderTargetIdentifier, CommandBuffer>> cachedEnumerator;
 
 		[Token(Token = "0x6000D8D")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x653F120", Offset = "0x653E120", VA = "0x653F120")]
 		public CameraEntry()
 		{
 		}
@@ -44,40 +44,40 @@ public static class CameraCaptureBridge
 	public static bool enabled
 	{
 		[Token(Token = "0x6000D86")]
-		[Address(RVA = "0x2B3F9D0", Offset = "0x2B3DFD0", VA = "0x182B3F9D0")]
+		[Address(RVA = "0x653EBB0", Offset = "0x653DBB0", VA = "0x653EBB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D87")]
-		[Address(RVA = "0x2B3FA20", Offset = "0x2B3E020", VA = "0x182B3FA20")]
+		[Address(RVA = "0x653EC20", Offset = "0x653DC20", VA = "0x653EC20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D88")]
-	[Address(RVA = "0x2B3F690", Offset = "0x2B3DC90", VA = "0x182B3F690")]
+	[Address(RVA = "0x653EC70", Offset = "0x653DC70", VA = "0x653EC70")]
 	public static IEnumerator<Action<RenderTargetIdentifier, CommandBuffer>> GetCaptureActions(Camera camera)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D89")]
-	[Address(RVA = "0x2B3F520", Offset = "0x2B3DB20", VA = "0x182B3F520")]
+	[Address(RVA = "0x653ED90", Offset = "0x653DD90", VA = "0x653ED90")]
 	internal static IEnumerator<Action<RenderTargetIdentifier, CommandBuffer>> GetCachedCaptureActionsEnumerator(Camera camera)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D8A")]
-	[Address(RVA = "0x2B3F2E0", Offset = "0x2B3D8E0", VA = "0x182B3F2E0")]
+	[Address(RVA = "0x653EEF0", Offset = "0x653DEF0", VA = "0x653EEF0")]
 	public static void AddCaptureAction(Camera camera, Action<RenderTargetIdentifier, CommandBuffer> action)
 	{
 	}
 
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x2B3F7B0", Offset = "0x2B3DDB0", VA = "0x182B3F7B0")]
+	[Address(RVA = "0x653F130", Offset = "0x653E130", VA = "0x653F130")]
 	public static void RemoveCaptureAction(Camera camera, Action<RenderTargetIdentifier, CommandBuffer> action)
 	{
 	}

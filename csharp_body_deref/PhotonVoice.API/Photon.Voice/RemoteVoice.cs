@@ -27,14 +27,14 @@ internal class RemoteVoice : IDisposable
 		public bool IsFree
 		{
 			[Token(Token = "0x6000222")]
-			[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+			[Address(RVA = "0x57112C0", Offset = "0x57102C0", VA = "0x57112C0")]
 			[CompilerGenerated]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x6000223")]
-			[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+			[Address(RVA = "0x57112D0", Offset = "0x57102D0", VA = "0x57112D0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -45,26 +45,26 @@ internal class RemoteVoice : IDisposable
 		public byte[] Buf
 		{
 			[Token(Token = "0x6000224")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x57112E0", Offset = "0x57102E0", VA = "0x57112E0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000225")]
-			[Address(RVA = "0x1D69F30", Offset = "0x1D68530", VA = "0x181D69F30")]
+			[Address(RVA = "0x5710C80", Offset = "0x570FC80", VA = "0x5710C80")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0xB3C020", Offset = "0xB3A620", VA = "0x180B3C020", Slot = "4")]
+		[Address(RVA = "0x57112F0", Offset = "0x57102F0", VA = "0x57112F0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x5710C70", Offset = "0x570FC70", VA = "0x5710C70")]
 		public FragmentedPoolSlot()
 		{
 		}
@@ -188,14 +188,14 @@ internal class RemoteVoice : IDisposable
 	internal VoiceInfo Info
 	{
 		[Token(Token = "0x600020E")]
-		[Address(RVA = "0x155C6F0", Offset = "0x155ACF0", VA = "0x18155C6F0")]
+		[Address(RVA = "0x570AD40", Offset = "0x5709D40", VA = "0x570AD40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(VoiceInfo);
 		}
 		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x1D70980", Offset = "0x1D6EF80", VA = "0x181D70980")]
+		[Address(RVA = "0x570AD60", Offset = "0x5709D60", VA = "0x570AD60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -206,14 +206,14 @@ internal class RemoteVoice : IDisposable
 	internal int DelayFrames
 	{
 		[Token(Token = "0x6000210")]
-		[Address(RVA = "0xB5B910", Offset = "0xB59F10", VA = "0x180B5B910")]
+		[Address(RVA = "0x570AD90", Offset = "0x5709D90", VA = "0x570AD90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000211")]
-		[Address(RVA = "0xB5BC30", Offset = "0xB5A230", VA = "0x180B5BC30")]
+		[Address(RVA = "0x570ADA0", Offset = "0x5709DA0", VA = "0x570ADA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -224,7 +224,7 @@ internal class RemoteVoice : IDisposable
 	private string shortName
 	{
 		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x1D72050", Offset = "0x1D70650", VA = "0x181D72050")]
+		[Address(RVA = "0x570B580", Offset = "0x570A580", VA = "0x570B580")]
 		get
 		{
 			return null;
@@ -235,14 +235,14 @@ internal class RemoteVoice : IDisposable
 	public string LogPrefix
 	{
 		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[Address(RVA = "0x570B6F0", Offset = "0x570A6F0", VA = "0x570B6F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000215")]
-		[Address(RVA = "0x1537500", Offset = "0x1535B00", VA = "0x181537500")]
+		[Address(RVA = "0x570B700", Offset = "0x570A700", VA = "0x570B700")]
 		[CompilerGenerated]
 		private set
 		{
@@ -253,7 +253,7 @@ internal class RemoteVoice : IDisposable
 	public string ReceiveSpacingProfileDump
 	{
 		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x1D71FF0", Offset = "0x1D705F0", VA = "0x181D71FF0")]
+		[Address(RVA = "0x570B740", Offset = "0x570A740", VA = "0x570B740")]
 		get
 		{
 			return null;
@@ -264,7 +264,7 @@ internal class RemoteVoice : IDisposable
 	public int ReceiveSpacingProfileMax
 	{
 		[Token(Token = "0x6000218")]
-		[Address(RVA = "0x1D72020", Offset = "0x1D70620", VA = "0x181D72020")]
+		[Address(RVA = "0x570B760", Offset = "0x570A760", VA = "0x570B760")]
 		get
 		{
 			return default(int);
@@ -272,63 +272,63 @@ internal class RemoteVoice : IDisposable
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x1D71030", Offset = "0x1D6F630", VA = "0x181D71030")]
+	[Address(RVA = "0x570ADB0", Offset = "0x5709DB0", VA = "0x570ADB0")]
 	internal RemoteVoice(VoiceClient client, RemoteVoiceOptions options, int channelId, int playerId, byte voiceId, VoiceInfo info, byte lastEventNumber)
 	{
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x1D71000", Offset = "0x1D6F600", VA = "0x181D71000")]
+	[Address(RVA = "0x570B720", Offset = "0x570A720", VA = "0x570B720")]
 	public void ReceiveSpacingProfileStart()
 	{
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x1D73D50", Offset = "0x1D72350", VA = "0x181D73D50")]
+	[Address(RVA = "0x570B780", Offset = "0x570A780", VA = "0x570B780")]
 	internal void receiveBytes(ref FrameBuffer receivedBytes, byte evNumber)
 	{
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x1D716B0", Offset = "0x1D6FCB0", VA = "0x181D716B0")]
+	[Address(RVA = "0x570CBE0", Offset = "0x570BBE0", VA = "0x570CBE0")]
 	private void decodeQueue()
 	{
 	}
 
 	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x1D73910", Offset = "0x1D71F10", VA = "0x181D73910")]
+	[Address(RVA = "0x570F800", Offset = "0x570E800", VA = "0x570F800")]
 	private void processLostEvent(byte lostEvNum, ref FrameBuffer lostEv)
 	{
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x1D74CD0", Offset = "0x1D732D0", VA = "0x181D74CD0")]
+	[Address(RVA = "0x570FD80", Offset = "0x570ED80", VA = "0x570FD80")]
 	private bool recoverLostEvent(byte lostEvNum, ref FrameBuffer lostEv, byte fecEvNum, ref FrameBuffer fecEv)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x1D721B0", Offset = "0x1D707B0", VA = "0x181D721B0")]
+	[Address(RVA = "0x570D950", Offset = "0x570C950", VA = "0x570D950")]
 	private byte processFrame(byte begEvNum)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x1D71B50", Offset = "0x1D70150", VA = "0x181D71B50")]
+	[Address(RVA = "0x5710CA0", Offset = "0x570FCA0", VA = "0x5710CA0")]
 	private void decodeThread()
 	{
 	}
 
 	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x1D75750", Offset = "0x1D73D50", VA = "0x181D75750")]
+	[Address(RVA = "0x5711280", Offset = "0x5710280", VA = "0x5711280")]
 	internal void removeAndDispose()
 	{
 	}
 
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x1D70C50", Offset = "0x1D6F250", VA = "0x181D70C50", Slot = "4")]
+	[Address(RVA = "0x570D4C0", Offset = "0x570C4C0", VA = "0x570D4C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

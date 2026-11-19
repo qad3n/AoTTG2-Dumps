@@ -12,466 +12,466 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000424")]
+[Token(Token = "0x2000483")]
 [CompilerGenerated]
 internal class CustomLogicAnimatorBuiltin : BuiltinComponentInstance
 {
-	[Token(Token = "0x2000425")]
+	[Token(Token = "0x2000484")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001B3F")]
-		[Address(RVA = "0x1F08120", Offset = "0x1F06720", VA = "0x181F08120")]
+		[Token(Token = "0x6001DB6")]
+		[Address(RVA = "0x58ECCB0", Offset = "0x58EBCB0", VA = "0x58ECCB0")]
 		public static CustomLogicAnimatorBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000426")]
+	[Token(Token = "0x2000485")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40014CC")]
+		[Token(Token = "0x400166C")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001B40")]
-		[Address(RVA = "0x1EEC8C0", Offset = "0x1EEAEC0", VA = "0x181EEC8C0")]
+		[Token(Token = "0x6001DB7")]
+		[Address(RVA = "0x58ECDA0", Offset = "0x58EBDA0", VA = "0x58ECDA0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B41")]
-		[Address(RVA = "0x1EFB520", Offset = "0x1EF9B20", VA = "0x181EFB520")]
+		[Token(Token = "0x6001DB8")]
+		[Address(RVA = "0x58ED710", Offset = "0x58EC710", VA = "0x58ED710")]
 		public static CLPropertyBinding<CustomLogicAnimatorBuiltin> __CreatePropertyBinding__DeltaPosition()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B42")]
-		[Address(RVA = "0x1EFB5C0", Offset = "0x1EF9BC0", VA = "0x181EFB5C0")]
+		[Token(Token = "0x6001DB9")]
+		[Address(RVA = "0x58ED7B0", Offset = "0x58EC7B0", VA = "0x58ED7B0")]
 		public static CLPropertyBinding<CustomLogicAnimatorBuiltin> __CreatePropertyBinding__DeltaRotation()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B43")]
-		[Address(RVA = "0x1EFC0B0", Offset = "0x1EFA6B0", VA = "0x181EFC0B0")]
+		[Token(Token = "0x6001DBA")]
+		[Address(RVA = "0x58ED850", Offset = "0x58EC850", VA = "0x58ED850")]
 		public static CLPropertyBinding<CustomLogicAnimatorBuiltin> __CreatePropertyBinding__HasRootMotion()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B44")]
-		[Address(RVA = "0x1EFA7B0", Offset = "0x1EF8DB0", VA = "0x181EFA7B0")]
+		[Token(Token = "0x6001DBB")]
+		[Address(RVA = "0x58ED8F0", Offset = "0x58EC8F0", VA = "0x58ED8F0")]
 		public static CLPropertyBinding<CustomLogicAnimatorBuiltin> __CreatePropertyBinding__ApplyRootMotion()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B45")]
-		[Address(RVA = "0x1EF43A0", Offset = "0x1EF29A0", VA = "0x181EF43A0")]
+		[Token(Token = "0x6001DBC")]
+		[Address(RVA = "0x58ED9D0", Offset = "0x58EC9D0", VA = "0x58ED9D0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__ApplyBuiltinRootMotion()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B46")]
-		[Address(RVA = "0x1EF9900", Offset = "0x1EF7F00", VA = "0x181EF9900")]
+		[Token(Token = "0x6001DBD")]
+		[Address(RVA = "0x58EDB10", Offset = "0x58ECB10", VA = "0x58EDB10")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__Update()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B47")]
-		[Address(RVA = "0x1EF66C0", Offset = "0x1EF4CC0", VA = "0x181EF66C0")]
+		[Token(Token = "0x6001DBE")]
+		[Address(RVA = "0x58EDC50", Offset = "0x58ECC50", VA = "0x58EDC50")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__IsPlaying()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B48")]
-		[Address(RVA = "0x1EF67E0", Offset = "0x1EF4DE0", VA = "0x181EF67E0")]
+		[Token(Token = "0x6001DBF")]
+		[Address(RVA = "0x58EDD90", Offset = "0x58ECD90", VA = "0x58EDD90")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__IsTag()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B49")]
-		[Address(RVA = "0x1EF6240", Offset = "0x1EF4840", VA = "0x181EF6240")]
+		[Token(Token = "0x6001DC0")]
+		[Address(RVA = "0x58EDED0", Offset = "0x58ECED0", VA = "0x58EDED0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetTransitionDuration()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4A")]
-		[Address(RVA = "0x1EF6360", Offset = "0x1EF4960", VA = "0x181EF6360")]
+		[Token(Token = "0x6001DC1")]
+		[Address(RVA = "0x58EE010", Offset = "0x58ED010", VA = "0x58EE010")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetTransitionNormalizedTime()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4B")]
-		[Address(RVA = "0x1EF77B0", Offset = "0x1EF5DB0", VA = "0x181EF77B0")]
+		[Token(Token = "0x6001DC2")]
+		[Address(RVA = "0x58EE150", Offset = "0x58ED150", VA = "0x58EE150")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__PlayAnimation()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4C")]
-		[Address(RVA = "0x1EF7330", Offset = "0x1EF5930", VA = "0x181EF7330")]
+		[Token(Token = "0x6001DC3")]
+		[Address(RVA = "0x58EE290", Offset = "0x58ED290", VA = "0x58EE290")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__PlayAnimationAt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4D")]
-		[Address(RVA = "0x1EF8B20", Offset = "0x1EF7120", VA = "0x181EF8B20")]
+		[Token(Token = "0x6001DC4")]
+		[Address(RVA = "0x58EE3D0", Offset = "0x58ED3D0", VA = "0x58EE3D0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetSpeed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4E")]
-		[Address(RVA = "0x1EF5250", Offset = "0x1EF3850", VA = "0x181EF5250")]
+		[Token(Token = "0x6001DC5")]
+		[Address(RVA = "0x58EE510", Offset = "0x58ED510", VA = "0x58EE510")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetAnimationLength()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B4F")]
-		[Address(RVA = "0x1EF5C80", Offset = "0x1EF4280", VA = "0x181EF5C80")]
+		[Token(Token = "0x6001DC6")]
+		[Address(RVA = "0x58EE650", Offset = "0x58ED650", VA = "0x58EE650")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B50")]
-		[Address(RVA = "0x1EF5DA0", Offset = "0x1EF43A0", VA = "0x181EF5DA0")]
+		[Token(Token = "0x6001DC7")]
+		[Address(RVA = "0x58EE790", Offset = "0x58ED790", VA = "0x58EE790")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetInteger()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B51")]
-		[Address(RVA = "0x1EF56E0", Offset = "0x1EF3CE0", VA = "0x181EF56E0")]
+		[Token(Token = "0x6001DC8")]
+		[Address(RVA = "0x58EE8D0", Offset = "0x58ED8D0", VA = "0x58EE8D0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetBool()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B52")]
-		[Address(RVA = "0x1EF8690", Offset = "0x1EF6C90", VA = "0x181EF8690")]
+		[Token(Token = "0x6001DC9")]
+		[Address(RVA = "0x58EEA10", Offset = "0x58EDA10", VA = "0x58EEA10")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B53")]
-		[Address(RVA = "0x1EF87B0", Offset = "0x1EF6DB0", VA = "0x181EF87B0")]
+		[Token(Token = "0x6001DCA")]
+		[Address(RVA = "0x58EEB50", Offset = "0x58EDB50", VA = "0x58EEB50")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetInteger()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B54")]
-		[Address(RVA = "0x1EF8560", Offset = "0x1EF6B60", VA = "0x181EF8560")]
+		[Token(Token = "0x6001DCB")]
+		[Address(RVA = "0x58EEC90", Offset = "0x58EDC90", VA = "0x58EEC90")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetBool()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B55")]
-		[Address(RVA = "0x1EF8C40", Offset = "0x1EF7240", VA = "0x181EF8C40")]
+		[Token(Token = "0x6001DCC")]
+		[Address(RVA = "0x58EEDD0", Offset = "0x58EDDD0", VA = "0x58EEDD0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetTrigger()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B56")]
-		[Address(RVA = "0x1EF7F90", Offset = "0x1EF6590", VA = "0x181EF7F90")]
+		[Token(Token = "0x6001DCD")]
+		[Address(RVA = "0x58EEF10", Offset = "0x58EDF10", VA = "0x58EEF10")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__ResetTrigger()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B57")]
-		[Address(RVA = "0x1EF88D0", Offset = "0x1EF6ED0", VA = "0x181EF88D0")]
+		[Token(Token = "0x6001DCE")]
+		[Address(RVA = "0x58EF050", Offset = "0x58EE050", VA = "0x58EF050")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__SetLayerWeight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B58")]
-		[Address(RVA = "0x1EF5EC0", Offset = "0x1EF44C0", VA = "0x181EF5EC0")]
+		[Token(Token = "0x6001DCF")]
+		[Address(RVA = "0x58EF190", Offset = "0x58EE190", VA = "0x58EF190")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetLayerWeight()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001B59")]
-		[Address(RVA = "0x1EF5490", Offset = "0x1EF3A90", VA = "0x181EF5490")]
+		[Token(Token = "0x6001DD0")]
+		[Address(RVA = "0x58EF2D0", Offset = "0x58EE2D0", VA = "0x58EF2D0")]
 		public static CLMethodBinding<CustomLogicAnimatorBuiltin> __CreateMethodBinding__GetAnimationNormalizedTime()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40014C9")]
+	[Token(Token = "0x4001669")]
 	[FieldOffset(Offset = "0x38")]
 	public Animator Value;
 
-	[Token(Token = "0x40014CA")]
+	[Token(Token = "0x400166A")]
 	[FieldOffset(Offset = "0x40")]
 	public BuiltinClassInstance OwnerBuiltin;
 
-	[Token(Token = "0x40014CB")]
+	[Token(Token = "0x400166B")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly Dictionary<string, AnimationClip> _animatorClips;
 
-	[Token(Token = "0x170002F8")]
+	[Token(Token = "0x17000339")]
 	public CustomLogicVector3Builtin DeltaPosition
 	{
-		[Token(Token = "0x6001B20")]
-		[Address(RVA = "0x1F01D30", Offset = "0x1F00330", VA = "0x181F01D30")]
+		[Token(Token = "0x6001D97")]
+		[Address(RVA = "0x58EC610", Offset = "0x58EB610", VA = "0x58EC610")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002F9")]
+	[Token(Token = "0x1700033A")]
 	public CustomLogicQuaternionBuiltin DeltaRotation
 	{
-		[Token(Token = "0x6001B21")]
-		[Address(RVA = "0x1F01D80", Offset = "0x1F00380", VA = "0x181F01D80")]
+		[Token(Token = "0x6001D98")]
+		[Address(RVA = "0x58EC6D0", Offset = "0x58EB6D0", VA = "0x58EC6D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FA")]
+	[Token(Token = "0x1700033B")]
 	public bool HasRootMotion
 	{
-		[Token(Token = "0x6001B22")]
-		[Address(RVA = "0x1F01DC0", Offset = "0x1F003C0", VA = "0x181F01DC0")]
+		[Token(Token = "0x6001D99")]
+		[Address(RVA = "0x58EC6F0", Offset = "0x58EB6F0", VA = "0x58EC6F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002FB")]
+	[Token(Token = "0x1700033C")]
 	public bool ApplyRootMotion
 	{
-		[Token(Token = "0x6001B23")]
-		[Address(RVA = "0x1F01CE0", Offset = "0x1F002E0", VA = "0x181F01CE0")]
+		[Token(Token = "0x6001D9A")]
+		[Address(RVA = "0x58EC710", Offset = "0x58EB710", VA = "0x58EC710")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001B24")]
-		[Address(RVA = "0x1F01DE0", Offset = "0x1F003E0", VA = "0x181F01DE0")]
+		[Token(Token = "0x6001D9B")]
+		[Address(RVA = "0x58EC730", Offset = "0x58EB730", VA = "0x58EC730")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002FC")]
+	[Token(Token = "0x1700033D")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001B3B")]
-		[Address(RVA = "0x1F01D00", Offset = "0x1F00300", VA = "0x181F01D00", Slot = "6")]
+		[Token(Token = "0x6001DB2")]
+		[Address(RVA = "0x58ECC50", Offset = "0x58EBC50", VA = "0x58ECC50", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FD")]
+	[Token(Token = "0x1700033E")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001B3C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6001DB3")]
+		[Address(RVA = "0x58ECC80", Offset = "0x58EBC80", VA = "0x58ECC80", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002FE")]
+	[Token(Token = "0x1700033F")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001B3D")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6001DB4")]
+		[Address(RVA = "0x58ECC90", Offset = "0x58EBC90", VA = "0x58ECC90", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002FF")]
+	[Token(Token = "0x17000340")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001B3E")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6001DB5")]
+		[Address(RVA = "0x58ECCA0", Offset = "0x58EBCA0", VA = "0x58ECCA0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001B1E")]
-	[Address(RVA = "0x1F01510", Offset = "0x1EFFB10", VA = "0x181F01510")]
+	[Token(Token = "0x6001D95")]
+	[Address(RVA = "0x58EC430", Offset = "0x58EB430", VA = "0x58EC430")]
 	public CustomLogicAnimatorBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6001B1F")]
-	[Address(RVA = "0x1F01B00", Offset = "0x1F00100", VA = "0x181F01B00")]
+	[Token(Token = "0x6001D96")]
+	[Address(RVA = "0x58EC440", Offset = "0x58EB440", VA = "0x58EC440")]
 	public CustomLogicAnimatorBuiltin(BuiltinClassInstance owner, Animator animator)
 	{
 	}
 
-	[Token(Token = "0x6001B25")]
-	[Address(RVA = "0x1F01550", Offset = "0x1EFFB50", VA = "0x181F01550")]
+	[Token(Token = "0x6001D9C")]
+	[Address(RVA = "0x58EC750", Offset = "0x58EB750", VA = "0x58EC750")]
 	public void ApplyBuiltinRootMotion()
 	{
 	}
 
-	[Token(Token = "0x6001B26")]
-	[Address(RVA = "0x1F01AE0", Offset = "0x1F000E0", VA = "0x181F01AE0")]
+	[Token(Token = "0x6001D9D")]
+	[Address(RVA = "0x58EC770", Offset = "0x58EB770", VA = "0x58EC770")]
 	public void Update(float deltaTime)
 	{
 	}
 
-	[Token(Token = "0x6001B27")]
-	[Address(RVA = "0x1F01830", Offset = "0x1EFFE30", VA = "0x181F01830")]
+	[Token(Token = "0x6001D9E")]
+	[Address(RVA = "0x58EC790", Offset = "0x58EB790", VA = "0x58EC790")]
 	public bool IsPlaying(string anim, int layer = 0)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B28")]
-	[Address(RVA = "0x1F018E0", Offset = "0x1EFFEE0", VA = "0x181F018E0")]
+	[Token(Token = "0x6001D9F")]
+	[Address(RVA = "0x58EC8A0", Offset = "0x58EB8A0", VA = "0x58EC8A0")]
 	public bool IsTag(string tag, int layer = 0)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B29")]
-	[Address(RVA = "0x1F01770", Offset = "0x1EFFD70", VA = "0x181F01770")]
+	[Token(Token = "0x6001DA0")]
+	[Address(RVA = "0x58EC930", Offset = "0x58EB930", VA = "0x58EC930")]
 	public float GetTransitionDuration(int layer = 0)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B2A")]
-	[Address(RVA = "0x1F017D0", Offset = "0x1EFFDD0", VA = "0x181F017D0")]
+	[Token(Token = "0x6001DA1")]
+	[Address(RVA = "0x58EC980", Offset = "0x58EB980", VA = "0x58EC980")]
 	public float GetTransitionNormalizedTime(int layer = 0)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B2B")]
-	[Address(RVA = "0x1F019D0", Offset = "0x1EFFFD0", VA = "0x181F019D0")]
+	[Token(Token = "0x6001DA2")]
+	[Address(RVA = "0x58EC9D0", Offset = "0x58EB9D0", VA = "0x58EC9D0")]
 	public void PlayAnimation(string anim, float fade = 0.1f, int layer = 0)
 	{
 	}
 
-	[Token(Token = "0x6001B2C")]
-	[Address(RVA = "0x1F01990", Offset = "0x1EFFF90", VA = "0x181F01990")]
+	[Token(Token = "0x6001DA3")]
+	[Address(RVA = "0x58EC9F0", Offset = "0x58EB9F0", VA = "0x58EC9F0")]
 	public void PlayAnimationAt(string anim, float normalizedTime, float fade = 0.1f, int layer = 0)
 	{
 	}
 
-	[Token(Token = "0x6001B2D")]
-	[Address(RVA = "0x1F01AA0", Offset = "0x1F000A0", VA = "0x181F01AA0")]
+	[Token(Token = "0x6001DA4")]
+	[Address(RVA = "0x58ECA10", Offset = "0x58EBA10", VA = "0x58ECA10")]
 	public void SetSpeed(float speed)
 	{
 	}
 
-	[Token(Token = "0x6001B2E")]
-	[Address(RVA = "0x1F01570", Offset = "0x1EFFB70", VA = "0x181F01570")]
+	[Token(Token = "0x6001DA5")]
+	[Address(RVA = "0x58ECA30", Offset = "0x58EBA30", VA = "0x58ECA30")]
 	public float GetAnimationLength(string anim)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B2F")]
-	[Address(RVA = "0x1F01710", Offset = "0x1EFFD10", VA = "0x181F01710")]
+	[Token(Token = "0x6001DA6")]
+	[Address(RVA = "0x58ECA90", Offset = "0x58EBA90", VA = "0x58ECA90")]
 	public float GetFloat(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B30")]
-	[Address(RVA = "0x1F01730", Offset = "0x1EFFD30", VA = "0x181F01730")]
+	[Token(Token = "0x6001DA7")]
+	[Address(RVA = "0x58ECAB0", Offset = "0x58EBAB0", VA = "0x58ECAB0")]
 	public int GetInteger(string name)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001B31")]
-	[Address(RVA = "0x1F01670", Offset = "0x1EFFC70", VA = "0x181F01670")]
+	[Token(Token = "0x6001DA8")]
+	[Address(RVA = "0x58ECAD0", Offset = "0x58EBAD0", VA = "0x58ECAD0")]
 	public bool GetBool(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B32")]
-	[Address(RVA = "0x1F01A40", Offset = "0x1F00040", VA = "0x181F01A40")]
+	[Token(Token = "0x6001DA9")]
+	[Address(RVA = "0x58ECAF0", Offset = "0x58EBAF0", VA = "0x58ECAF0")]
 	public void SetFloat(string name, float value)
 	{
 	}
 
-	[Token(Token = "0x6001B33")]
-	[Address(RVA = "0x1F01A60", Offset = "0x1F00060", VA = "0x181F01A60")]
+	[Token(Token = "0x6001DAA")]
+	[Address(RVA = "0x58ECB10", Offset = "0x58EBB10", VA = "0x58ECB10")]
 	public void SetInteger(string name, int value)
 	{
 	}
 
-	[Token(Token = "0x6001B34")]
-	[Address(RVA = "0x1F01A20", Offset = "0x1F00020", VA = "0x181F01A20")]
+	[Token(Token = "0x6001DAB")]
+	[Address(RVA = "0x58ECB30", Offset = "0x58EBB30", VA = "0x58ECB30")]
 	public void SetBool(string name, bool value)
 	{
 	}
 
-	[Token(Token = "0x6001B35")]
-	[Address(RVA = "0x1F01AC0", Offset = "0x1F000C0", VA = "0x181F01AC0")]
+	[Token(Token = "0x6001DAC")]
+	[Address(RVA = "0x58ECB50", Offset = "0x58EBB50", VA = "0x58ECB50")]
 	public void SetTrigger(string name)
 	{
 	}
 
-	[Token(Token = "0x6001B36")]
-	[Address(RVA = "0x1F01A00", Offset = "0x1F00000", VA = "0x181F01A00")]
+	[Token(Token = "0x6001DAD")]
+	[Address(RVA = "0x58ECB70", Offset = "0x58EBB70", VA = "0x58ECB70")]
 	public void ResetTrigger(string name)
 	{
 	}
 
-	[Token(Token = "0x6001B37")]
-	[Address(RVA = "0x1F01A80", Offset = "0x1F00080", VA = "0x181F01A80")]
+	[Token(Token = "0x6001DAE")]
+	[Address(RVA = "0x58ECB90", Offset = "0x58EBB90", VA = "0x58ECB90")]
 	public void SetLayerWeight(int layer, float weight)
 	{
 	}
 
-	[Token(Token = "0x6001B38")]
-	[Address(RVA = "0x1F01750", Offset = "0x1EFFD50", VA = "0x181F01750")]
+	[Token(Token = "0x6001DAF")]
+	[Address(RVA = "0x58ECBB0", Offset = "0x58EBBB0", VA = "0x58ECBB0")]
 	public float GetLayerWeight(int layer)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B39")]
-	[Address(RVA = "0x1F015E0", Offset = "0x1EFFBE0", VA = "0x181F015E0")]
+	[Token(Token = "0x6001DB0")]
+	[Address(RVA = "0x58ECBD0", Offset = "0x58EBBD0", VA = "0x58ECBD0")]
 	public float GetAnimationNormalizedTime(int layer = 0)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001B3A")]
-	[Address(RVA = "0x1F01690", Offset = "0x1EFFC90", VA = "0x181F01690")]
+	[Token(Token = "0x6001DB1")]
+	[Address(RVA = "0x58EC820", Offset = "0x58EB820", VA = "0x58EC820")]
 	private AnimatorStateInfo GetCurrentStateInfo(int layer = 0)
 	{
 		return default(AnimatorStateInfo);

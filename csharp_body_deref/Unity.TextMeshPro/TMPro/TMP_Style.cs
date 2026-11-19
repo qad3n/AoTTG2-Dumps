@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_Style
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,7 +53,7 @@ public class TMP_Style
 	public static TMP_Style NormalStyle
 	{
 		[Token(Token = "0x60003DB")]
-		[Address(RVA = "0x2D431B0", Offset = "0x2D417B0", VA = "0x182D431B0")]
+		[Address(RVA = "0x673CF10", Offset = "0x673BF10", VA = "0x673CF10")]
 		get
 		{
 			return null;
@@ -64,13 +64,13 @@ public class TMP_Style
 	public string name
 	{
 		[Token(Token = "0x60003DC")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x673D070", Offset = "0x673C070", VA = "0x673D070")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003DD")]
-		[Address(RVA = "0x2D432A0", Offset = "0x2D418A0", VA = "0x182D432A0")]
+		[Address(RVA = "0x673D080", Offset = "0x673C080", VA = "0x673D080")]
 		set
 		{
 		}
@@ -80,13 +80,13 @@ public class TMP_Style
 	public int hashCode
 	{
 		[Token(Token = "0x60003DE")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x673D0C0", Offset = "0x673C0C0", VA = "0x673D0C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60003DF")]
-		[Address(RVA = "0x2D43290", Offset = "0x2D41890", VA = "0x182D43290")]
+		[Address(RVA = "0x673D0D0", Offset = "0x673C0D0", VA = "0x673D0D0")]
 		set
 		{
 		}
@@ -96,7 +96,7 @@ public class TMP_Style
 	public string styleOpeningDefinition
 	{
 		[Token(Token = "0x60003E0")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x673D0E0", Offset = "0x673C0E0", VA = "0x673D0E0")]
 		get
 		{
 			return null;
@@ -107,7 +107,7 @@ public class TMP_Style
 	public string styleClosingDefinition
 	{
 		[Token(Token = "0x60003E1")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x673D0F0", Offset = "0x673C0F0", VA = "0x673D0F0")]
 		get
 		{
 			return null;
@@ -118,7 +118,7 @@ public class TMP_Style
 	public uint[] styleOpeningTagArray
 	{
 		[Token(Token = "0x60003E2")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x673D100", Offset = "0x673C100", VA = "0x673D100")]
 		get
 		{
 			return null;
@@ -129,7 +129,7 @@ public class TMP_Style
 	public uint[] styleClosingTagArray
 	{
 		[Token(Token = "0x60003E3")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x673D110", Offset = "0x673C110", VA = "0x673D110")]
 		get
 		{
 			return null;
@@ -137,13 +137,13 @@ public class TMP_Style
 	}
 
 	[Token(Token = "0x60003E4")]
-	[Address(RVA = "0x2D43110", Offset = "0x2D41710", VA = "0x182D43110")]
+	[Address(RVA = "0x673CFD0", Offset = "0x673BFD0", VA = "0x673CFD0")]
 	internal TMP_Style(string styleName, string styleOpeningDefinition, string styleClosingDefinition)
 	{
 	}
 
 	[Token(Token = "0x60003E5")]
-	[Address(RVA = "0x2D42FB0", Offset = "0x2D415B0", VA = "0x182D42FB0")]
+	[Address(RVA = "0x673D230", Offset = "0x673C230", VA = "0x673D230")]
 	public void RefreshStyle()
 	{
 	}

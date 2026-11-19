@@ -1,5 +1,5 @@
 // Type: Controllers.HumanAIStates.MoveTo
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Controllers.HumanAIStates/MoveTo.cs
@@ -8,15 +8,15 @@
 
 // Controllers.HumanAIStates.MoveTo$$get_Name
 // il2cpp: System_String_o* Controllers_HumanAIStates_MoveTo__get_Name (Controllers_HumanAIStates_MoveTo_o* __this, const MethodInfo* method);
-// 0x18211cf40
+// 0x5bb0090
 
 System_String_o *
 Controllers_HumanAIStates_MoveTo__get_Name(Controllers_HumanAIStates_MoveTo_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346af0 == '\0') {
+  if (Il2CppMethodInitialized_075474bd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"MoveTo");
-    Il2CppMethodInitialized_184346af0 = '\x01';
+    Il2CppMethodInitialized_075474bd = '\x01';
   }
   return "MoveTo";
 }
@@ -24,73 +24,86 @@ Controllers_HumanAIStates_MoveTo__get_Name(Controllers_HumanAIStates_MoveTo_o *_
 
 // Controllers.HumanAIStates.MoveTo$$Action
 // il2cpp: void Controllers_HumanAIStates_MoveTo__Action (Controllers_HumanAIStates_MoveTo_o* __this, const MethodInfo* method);
-// 0x18211cd80
+// 0x5bb00c0
 
 void Controllers_HumanAIStates_MoveTo__Action(Controllers_HumanAIStates_MoveTo_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  uint32_t uVar3;
   Characters_Human_o *pCVar4;
   Utility_BaseComponentCache_o *pUVar5;
   UnityEngine_Transform_o *__this_00;
-  Controllers_HumanAIController_o *pCVar6;
-  UnityEngine_Vector3_o *pUVar7;
-  double dVar8;
+  Controllers_HumanAICallback_o *pCVar6;
+  System_Action_o *pSVar7;
+  Controllers_HumanAIController_o *pCVar8;
+  MethodInfo *method_00;
   float fVar9;
   float fVar10;
   float fVar11;
-  UnityEngine_Vector3_o local_78 [9];
+  UnityEngine_Vector3_o UVar12;
   
   pCVar4 = (__this->fields).Human;
-  if (((pCVar4 != (Characters_Human_o *)0x0) &&
-      (pUVar5 = (pCVar4->fields).Cache, pUVar5 != (Utility_BaseComponentCache_o *)0x0)) &&
-     (__this_00 = (pUVar5->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar7 = UnityEngine_Transform__get_position(local_78,__this_00,(MethodInfo *)0x0);
-    pCVar6 = (__this->fields).Controller;
-    if (pCVar6 != (Controllers_HumanAIController_o *)0x0) {
-      fVar9 = (pUVar7->fields).y;
-      fVar10 = (pUVar7->fields).x;
-      fVar11 = (pUVar7->fields).z;
-      fVar1 = (pCVar6->fields)._targetPosition.fields.x;
-      fVar2 = (pCVar6->fields)._targetPosition.fields.y;
-      fVar3 = (pCVar6->fields)._targetPosition.fields.z;
-      if (Il2CppMethodInitialized_18433dee7 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-        Il2CppMethodInitialized_18433dee7 = '\x01';
-      }
-      fVar10 = fVar10 - fVar1;
-      fVar9 = fVar9 - fVar2;
-      fVar11 = fVar11 - fVar3;
-      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-      }
-      dVar8 = (double)(fVar9 * fVar9 + fVar10 * fVar10 + fVar11 * fVar11);
-      if (dVar8 < 0.0) {
-        dVar8 = sqrt(dVar8);
-      }
-      else {
-        dVar8 = SQRT(dVar8);
-      }
-      if ((__this->fields).Controller != (Controllers_HumanAIController_o *)0x0) {
-        pCVar6 = (__this->fields).Controller;
-        if ((__this->fields).MoveToRange < (float)dVar8) {
-          Controllers_HumanAIController__MoveToPosition(pCVar6,(MethodInfo *)0x0);
-          return;
-        }
-        Controllers_HumanAIController__CompleteMove(pCVar6,(MethodInfo *)0x0);
+  if (((pCVar4 == (Characters_Human_o *)0x0) ||
+      (pUVar5 = (pCVar4->fields).Cache, pUVar5 == (Utility_BaseComponentCache_o *)0x0)) ||
+     (__this_00 = (pUVar5->fields).Transform, __this_00 == (UnityEngine_Transform_o *)0x0)) goto label_05bb0254;
+  method_00 = (MethodInfo *)0x0;
+  UVar12 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+  pCVar8 = (__this->fields).Controller;
+  if (pCVar8 == (Controllers_HumanAIController_o *)0x0) goto label_05bb0254;
+  uVar1 = (pCVar8->fields)._targetPosition.fields.x;
+  uVar2 = (pCVar8->fields)._targetPosition.fields.y;
+  fVar10 = (pCVar8->fields)._targetPosition.fields.z;
+  if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e7b7 = '\x01';
+    uVar3 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    uVar3 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar3 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar9 = UVar12.fields.y - (float)uVar2;
+  fVar10 = UVar12.fields.z - fVar10;
+  fVar11 = UVar12.fields.x - (float)uVar1;
+  fVar10 = fVar9 * fVar9 + fVar11 * fVar11 + fVar10 * fVar10;
+  if (fVar10 < 0.0) {
+    fVar10 = sqrtf(fVar10);
+    pCVar8 = (__this->fields).Controller;
+    if ((__this->fields).MoveToRange < fVar10) goto label_05bb01be;
+  }
+  else {
+    pCVar8 = (__this->fields).Controller;
+    if ((__this->fields).MoveToRange < SQRT(fVar10)) {
+label_05bb01be:
+      if (pCVar8 != (Controllers_HumanAIController_o *)0x0) {
+        Controllers_HumanAIController__MoveToPosition(pCVar8,method_00);
         return;
       }
+      goto label_05bb0254;
     }
   }
+  if ((pCVar8 != (Controllers_HumanAIController_o *)0x0) &&
+     (pCVar6 = (pCVar8->fields).Callbacks, pCVar6 != (Controllers_HumanAICallback_o *)0x0)) {
+    pSVar7 = (pCVar6->fields).MoveToCallback;
+    if (pSVar7 != (System_Action_o *)0x0) {
+      method_00 = (MethodInfo *)(pSVar7->fields).method;
+      (*(code *)(pSVar7->fields).invoke_impl)((pSVar7->fields).method_code);
+    }
+    Controllers_HumanAIController__Idle(pCVar8,method_00);
+    return;
+  }
+label_05bb0254:
   ThrowNullReferenceException();
 }
 
 
 // Controllers.HumanAIStates.MoveTo$$OnStateExit
 // il2cpp: void Controllers_HumanAIStates_MoveTo__OnStateExit (Controllers_HumanAIStates_MoveTo_o* __this, const MethodInfo* method);
-// 0x18211cf00
+// 0x5bb0260
 
 void Controllers_HumanAIStates_MoveTo__OnStateExit
                (Controllers_HumanAIStates_MoveTo_o *__this,MethodInfo *method)
@@ -100,26 +113,24 @@ void Controllers_HumanAIStates_MoveTo__OnStateExit
   Controllers_HumanAICallback_o *pCVar2;
   
   pCVar1 = (__this->fields).Controller;
-  if ((pCVar1 != (Controllers_HumanAIController_o *)0x0) &&
-     (pCVar2 = (pCVar1->fields).Callbacks, pCVar2 != (Controllers_HumanAICallback_o *)0x0)) {
-    (pCVar2->fields).MoveToCallback = (System_Action_o *)0x0;
-    Il2CppCodeGenWriteBarrier(&(pCVar2->fields).MoveToCallback,(void *)0x0);
-    return;
+  if ((pCVar1 == (Controllers_HumanAIController_o *)0x0) ||
+     (pCVar2 = (pCVar1->fields).Callbacks, pCVar2 == (Controllers_HumanAICallback_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (pCVar2->fields).MoveToCallback = (System_Action_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pCVar2->fields).MoveToCallback);
+  return;
 }
 
 
 // Controllers.HumanAIStates.MoveTo$$.ctor
 // il2cpp: void Controllers_HumanAIStates_MoveTo___ctor (Controllers_HumanAIStates_MoveTo_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5ba7720
 
-void
-Controllers_HumanAIStates_MoveTo___ctor(Controllers_HumanAIStates_MoveTo_o* __this, MethodInfo* method)
+void Controllers_HumanAIStates_MoveTo___ctor(Controllers_HumanAIStates_MoveTo_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 

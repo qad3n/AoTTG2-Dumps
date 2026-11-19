@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.BuddyAllocation
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ internal struct BuddyAllocation
 	public uint2 index2D
 	{
 		[Token(Token = "0x600066C")]
-		[Address(RVA = "0x2C541F0", Offset = "0x2C527F0", VA = "0x182C541F0")]
+		[Address(RVA = "0x6647F00", Offset = "0x6646F00", VA = "0x6647F00")]
 		get
 		{
 			return default(uint2);
@@ -33,7 +33,7 @@ internal struct BuddyAllocation
 	}
 
 	[Token(Token = "0x600066B")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x6647EF0", Offset = "0x6646EF0", VA = "0x6647EF0")]
 	public BuddyAllocation(int level, int index)
 	{
 	}

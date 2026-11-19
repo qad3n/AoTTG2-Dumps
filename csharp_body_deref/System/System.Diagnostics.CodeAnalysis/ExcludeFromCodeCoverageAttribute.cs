@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.CodeAnalysis;
 
-[Token(Token = "0x200011D")]
+[Token(Token = "0x20000DE")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Event, Inherited = false, AllowMultiple = false)]
 public sealed class ExcludeFromCodeCoverageAttribute : Attribute
 {
-	[Token(Token = "0x60006E2")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600052C")]
+	[Address(RVA = "0x6208590", Offset = "0x6207590", VA = "0x6208590")]
 	public ExcludeFromCodeCoverageAttribute()
 	{
 	}

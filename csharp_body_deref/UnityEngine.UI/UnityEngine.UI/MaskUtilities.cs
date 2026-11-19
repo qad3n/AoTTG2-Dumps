@@ -14,53 +14,53 @@ namespace UnityEngine.UI;
 public class MaskUtilities
 {
 	[Token(Token = "0x600034B")]
-	[Address(RVA = "0x32D6C00", Offset = "0x32D5200", VA = "0x1832D6C00")]
+	[Address(RVA = "0x6CE6960", Offset = "0x6CE5960", VA = "0x6CE6960")]
 	public static void Notify2DMaskStateChanged(Component mask)
 	{
 	}
 
 	[Token(Token = "0x600034C")]
-	[Address(RVA = "0x32D6E10", Offset = "0x32D5410", VA = "0x1832D6E10")]
+	[Address(RVA = "0x6CE5840", Offset = "0x6CE4840", VA = "0x6CE5840")]
 	public static void NotifyStencilStateChanged(Component mask)
 	{
 	}
 
 	[Token(Token = "0x600034D")]
-	[Address(RVA = "0x32D6000", Offset = "0x32D4600", VA = "0x1832D6000")]
+	[Address(RVA = "0x6CE6450", Offset = "0x6CE5450", VA = "0x6CE6450")]
 	public static Transform FindRootSortOverrideCanvas(Transform start)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600034E")]
-	[Address(RVA = "0x32D6800", Offset = "0x32D4E00", VA = "0x1832D6800")]
+	[Address(RVA = "0x6CE65F0", Offset = "0x6CE55F0", VA = "0x6CE65F0")]
 	public static int GetStencilDepth(Transform transform, Transform stopAfter)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x32D6A90", Offset = "0x32D5090", VA = "0x1832D6A90")]
+	[Address(RVA = "0x6CE6BD0", Offset = "0x6CE5BD0", VA = "0x6CE6BD0")]
 	public static bool IsDescendantOrSelf(Transform father, Transform child)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x32D6180", Offset = "0x32D4780", VA = "0x1832D6180")]
+	[Address(RVA = "0x6CE6D00", Offset = "0x6CE5D00", VA = "0x6CE6D00")]
 	public static RectMask2D GetRectMaskForClippable(IClippable clippable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x32D64B0", Offset = "0x32D4AB0", VA = "0x1832D64B0")]
+	[Address(RVA = "0x6CE7140", Offset = "0x6CE6140", VA = "0x6CE7140")]
 	public static void GetRectMasksForClip(RectMask2D clipper, List<RectMask2D> masks)
 	{
 	}
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6CE7530", Offset = "0x6CE6530", VA = "0x6CE7530")]
 	public MaskUtilities()
 	{
 	}

@@ -38,7 +38,7 @@ public struct NavMeshHit
 	public Vector3 position
 	{
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x180F7A0", Offset = "0x180DDA0", VA = "0x18180F7A0")]
+		[Address(RVA = "0x6895740", Offset = "0x6894740", VA = "0x6895740")]
 		get
 		{
 			return default(Vector3);

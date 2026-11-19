@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutConfigData
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ internal struct LayoutConfigData
 	public static LayoutConfigData Default
 	{
 		[Token(Token = "0x6002C73")]
-		[Address(RVA = "0x31BCFA0", Offset = "0x31BB5A0", VA = "0x1831BCFA0")]
+		[Address(RVA = "0x6BC4030", Offset = "0x6BC3030", VA = "0x6BC4030")]
 		get
 		{
 			return default(LayoutConfigData);

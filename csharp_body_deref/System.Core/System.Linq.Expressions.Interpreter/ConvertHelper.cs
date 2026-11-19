@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E7")]
+[Token(Token = "0x20000E8")]
 internal static class ConvertHelper
 {
-	[Token(Token = "0x60005E1")]
-	[Address(RVA = "0x242BA20", Offset = "0x242A020", VA = "0x18242BA20")]
+	[Token(Token = "0x60005EC")]
+	[Address(RVA = "0x5DDB0E0", Offset = "0x5DDA0E0", VA = "0x5DDB0E0")]
 	public static int ToInt32NoNull(object val)
 	{
 		return default(int);

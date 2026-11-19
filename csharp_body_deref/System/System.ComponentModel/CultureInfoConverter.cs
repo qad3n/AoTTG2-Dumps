@@ -12,128 +12,128 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000183")]
+[Token(Token = "0x2000144")]
 public class CultureInfoConverter : TypeConverter
 {
-	[Token(Token = "0x2000184")]
+	[Token(Token = "0x2000145")]
 	private class CultureComparer : IComparer
 	{
-		[Token(Token = "0x4000666")]
+		[Token(Token = "0x4000597")]
 		[FieldOffset(Offset = "0x10")]
 		private CultureInfoConverter _converter;
 
-		[Token(Token = "0x60009D1")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Token(Token = "0x6000811")]
+		[Address(RVA = "0x6229F50", Offset = "0x6228F50", VA = "0x6229F50")]
 		public CultureComparer(CultureInfoConverter cultureConverter)
 		{
 		}
 
-		[Token(Token = "0x60009D2")]
-		[Address(RVA = "0x2894B60", Offset = "0x2893160", VA = "0x182894B60", Slot = "4")]
+		[Token(Token = "0x6000812")]
+		[Address(RVA = "0x6229FB0", Offset = "0x6228FB0", VA = "0x6229FB0", Slot = "4")]
 		public int Compare(object item1, object item2)
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x2000185")]
+	[Token(Token = "0x2000146")]
 	private static class CultureInfoMapper
 	{
-		[Token(Token = "0x4000667")]
+		[Token(Token = "0x4000598")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly Dictionary<string, string> s_cultureInfoNameMap;
 
-		[Token(Token = "0x60009D3")]
-		[Address(RVA = "0x2895C40", Offset = "0x2894240", VA = "0x182895C40")]
+		[Token(Token = "0x6000813")]
+		[Address(RVA = "0x622A130", Offset = "0x6229130", VA = "0x622A130")]
 		private static Dictionary<string, string> CreateMap()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60009D4")]
-		[Address(RVA = "0x2899580", Offset = "0x2897B80", VA = "0x182899580")]
+		[Token(Token = "0x6000814")]
+		[Address(RVA = "0x6229810", Offset = "0x6228810", VA = "0x6229810")]
 		public static string GetCultureInfoName(string cultureInfoDisplayName)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000664")]
+	[Token(Token = "0x4000595")]
 	[FieldOffset(Offset = "0x10")]
 	private StandardValuesCollection _values;
 
-	[Token(Token = "0x4000665")]
+	[Token(Token = "0x4000596")]
 	private const string DefaultInvariantCultureString = "(Default)";
 
-	[Token(Token = "0x170001E6")]
+	[Token(Token = "0x170001B7")]
 	private string DefaultCultureString
 	{
-		[Token(Token = "0x60009C7")]
-		[Address(RVA = "0x2895C10", Offset = "0x2894210", VA = "0x182895C10")]
+		[Token(Token = "0x6000807")]
+		[Address(RVA = "0x6228C90", Offset = "0x6227C90", VA = "0x6228C90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009C8")]
-	[Address(RVA = "0x8DE960", Offset = "0x8DCF60", VA = "0x1808DE960", Slot = "16")]
+	[Token(Token = "0x6000808")]
+	[Address(RVA = "0x6228CC0", Offset = "0x6227CC0", VA = "0x6228CC0", Slot = "16")]
 	protected virtual string GetCultureName(CultureInfo culture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009C9")]
-	[Address(RVA = "0x2894D10", Offset = "0x2893310", VA = "0x182894D10", Slot = "4")]
+	[Token(Token = "0x6000809")]
+	[Address(RVA = "0x6228CF0", Offset = "0x6227CF0", VA = "0x6228CF0", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009CA")]
-	[Address(RVA = "0x2894D80", Offset = "0x2893380", VA = "0x182894D80", Slot = "5")]
+	[Token(Token = "0x600080A")]
+	[Address(RVA = "0x6228D70", Offset = "0x6227D70", VA = "0x6228D70", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009CB")]
-	[Address(RVA = "0x2894E10", Offset = "0x2893410", VA = "0x182894E10", Slot = "6")]
+	[Token(Token = "0x600080B")]
+	[Address(RVA = "0x6228E10", Offset = "0x6227E10", VA = "0x6228E10", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009CC")]
-	[Address(RVA = "0x2895550", Offset = "0x2893B50", VA = "0x182895550", Slot = "7")]
+	[Token(Token = "0x600080C")]
+	[Address(RVA = "0x62298A0", Offset = "0x62288A0", VA = "0x62298A0", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009CD")]
-	[Address(RVA = "0x2895A10", Offset = "0x2894010", VA = "0x182895A10", Slot = "12")]
+	[Token(Token = "0x600080D")]
+	[Address(RVA = "0x6229D40", Offset = "0x6228D40", VA = "0x6229D40", Slot = "12")]
 	public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009CE")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+	[Token(Token = "0x600080E")]
+	[Address(RVA = "0x6229F80", Offset = "0x6228F80", VA = "0x6229F80", Slot = "13")]
 	public override bool GetStandardValuesExclusive(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009CF")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
+	[Token(Token = "0x600080F")]
+	[Address(RVA = "0x6229F90", Offset = "0x6228F90", VA = "0x6229F90", Slot = "14")]
 	public override bool GetStandardValuesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009D0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000810")]
+	[Address(RVA = "0x6229FA0", Offset = "0x6228FA0", VA = "0x6229FA0")]
 	public CultureInfoConverter()
 	{
 	}

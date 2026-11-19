@@ -10,15 +10,15 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001CF")]
+[Token(Token = "0x20001D0")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public interface ISerializationCallbackReceiver
 {
-	[Token(Token = "0x6000EF1")]
+	[Token(Token = "0x6000F03")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnBeforeSerialize();
 
-	[Token(Token = "0x6000EF2")]
+	[Token(Token = "0x6000F04")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnAfterDeserialize();
 }

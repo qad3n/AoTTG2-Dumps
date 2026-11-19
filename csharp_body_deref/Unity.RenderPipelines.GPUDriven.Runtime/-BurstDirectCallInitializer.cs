@@ -12,7 +12,7 @@ using UnityEngine;
 internal static class _0024BurstDirectCallInitializer
 {
 	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x2BFDE80", Offset = "0x2BFC480", VA = "0x182BFDE80")]
+	[Address(RVA = "0x65F2DD0", Offset = "0x65F1DD0", VA = "0x65F2DD0")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
 	private static void Initialize()
 	{

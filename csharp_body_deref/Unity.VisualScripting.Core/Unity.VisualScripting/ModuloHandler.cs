@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class ModuloHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x2E0E440", Offset = "0x2E0CA40", VA = "0x182E0E440")]
+	[Address(RVA = "0x680A350", Offset = "0x6809350", VA = "0x680A350")]
 	public ModuloHandler()
 	{
 	}

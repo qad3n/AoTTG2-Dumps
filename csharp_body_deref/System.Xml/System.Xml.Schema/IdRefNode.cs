@@ -29,7 +29,7 @@ internal class IdRefNode
 	internal IdRefNode Next;
 
 	[Token(Token = "0x60017AF")]
-	[Address(RVA = "0x266E890", Offset = "0x266CE90", VA = "0x18266E890")]
+	[Address(RVA = "0x603AFB0", Offset = "0x6039FB0", VA = "0x603AFB0")]
 	internal IdRefNode(IdRefNode next, string id, int lineNo, int linePos)
 	{
 	}

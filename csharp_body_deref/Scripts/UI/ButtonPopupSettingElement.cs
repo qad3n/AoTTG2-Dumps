@@ -12,48 +12,48 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000742")]
+[Token(Token = "0x20007EA")]
 internal class ButtonPopupSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x400240D")]
+	[Token(Token = "0x400277D")]
 	[FieldOffset(Offset = "0x38")]
 	private Text _label;
 
-	[Token(Token = "0x400240E")]
+	[Token(Token = "0x400277E")]
 	[FieldOffset(Offset = "0x40")]
 	protected BasePopup _popup;
 
-	[Token(Token = "0x17000CC1")]
+	[Token(Token = "0x17000D44")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x60046F9")]
-		[Address(RVA = "0x2202560", Offset = "0x2200B60", VA = "0x182202560", Slot = "4")]
+		[Token(Token = "0x6004C19")]
+		[Address(RVA = "0x5BED750", Offset = "0x5BEC750", VA = "0x5BED750", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60046FA")]
-	[Address(RVA = "0x2201FD0", Offset = "0x22005D0", VA = "0x182201FD0")]
+	[Token(Token = "0x6004C1A")]
+	[Address(RVA = "0x5BED7D0", Offset = "0x5BEC7D0", VA = "0x5BED7D0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, BasePopup popup, string tooltip, float elementWidth, float elementHeight)
 	{
 	}
 
-	[Token(Token = "0x60046FB")]
-	[Address(RVA = "0x2201FA0", Offset = "0x22005A0", VA = "0x182201FA0")]
+	[Token(Token = "0x6004C1B")]
+	[Address(RVA = "0x5BEDC80", Offset = "0x5BECC80", VA = "0x5BEDC80")]
 	private void OnClick()
 	{
 	}
 
-	[Token(Token = "0x60046FC")]
-	[Address(RVA = "0x22024C0", Offset = "0x2200AC0", VA = "0x1822024C0", Slot = "6")]
+	[Token(Token = "0x6004C1C")]
+	[Address(RVA = "0x5BEDCB0", Offset = "0x5BECCB0", VA = "0x5BEDCB0", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x60046FD")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6004C1D")]
+	[Address(RVA = "0x5BEDD40", Offset = "0x5BECD40", VA = "0x5BEDD40")]
 	public ButtonPopupSettingElement()
 	{
 	}

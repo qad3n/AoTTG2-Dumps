@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DropdownMenu
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,7 +28,7 @@ public class DropdownMenu
 	internal int Count
 	{
 		[Token(Token = "0x6000BAD")]
-		[Address(RVA = "0x32421F0", Offset = "0x32407F0", VA = "0x1832421F0")]
+		[Address(RVA = "0x6C5C720", Offset = "0x6C5B720", VA = "0x6C5C720")]
 		get
 		{
 			return default(int);
@@ -39,7 +39,7 @@ public class DropdownMenu
 	internal bool repaintPanelBeforeDisplay
 	{
 		[Token(Token = "0x6000BAE")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x6C5C760", Offset = "0x6C5B760", VA = "0x6C5C760")]
 		[CompilerGenerated]
 		set
 		{
@@ -47,44 +47,44 @@ public class DropdownMenu
 	}
 
 	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+	[Address(RVA = "0x6C5C770", Offset = "0x6C5B770", VA = "0x6C5C770")]
 	public List<DropdownMenuItem> MenuItems()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x3241A30", Offset = "0x3240030", VA = "0x183241A30")]
+	[Address(RVA = "0x6C5C780", Offset = "0x6C5B780", VA = "0x6C5C780")]
 	public void AppendAction(string actionName, Action<DropdownMenuAction> action, Func<DropdownMenuAction, DropdownMenuAction.Status> actionStatusCallback, [Optional] object userData)
 	{
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x3241930", Offset = "0x323FF30", VA = "0x183241930")]
+	[Address(RVA = "0x6C5C8A0", Offset = "0x6C5B8A0", VA = "0x6C5C8A0")]
 	public void AppendAction(string actionName, Action<DropdownMenuAction> action, DropdownMenuAction.Status status = DropdownMenuAction.Status.Normal)
 	{
 	}
 
 	[Token(Token = "0x6000BB2")]
-	[Address(RVA = "0x3241B50", Offset = "0x3240150", VA = "0x183241B50")]
+	[Address(RVA = "0x6C5C9B0", Offset = "0x6C5B9B0", VA = "0x6C5C9B0")]
 	public void AppendSeparator([Optional] string subMenuPath)
 	{
 	}
 
 	[Token(Token = "0x6000BB3")]
-	[Address(RVA = "0x3241DC0", Offset = "0x32403C0", VA = "0x183241DC0")]
+	[Address(RVA = "0x6C5CC60", Offset = "0x6C5BC60", VA = "0x6C5CC60")]
 	public void InsertSeparator(string subMenuPath, int atIndex)
 	{
 	}
 
 	[Token(Token = "0x6000BB4")]
-	[Address(RVA = "0x3241F10", Offset = "0x3240510", VA = "0x183241F10")]
+	[Address(RVA = "0x6C5CD90", Offset = "0x6C5BD90", VA = "0x6C5CD90")]
 	public void PrepareForDisplay(EventBase e)
 	{
 	}
 
 	[Token(Token = "0x6000BB5")]
-	[Address(RVA = "0x3242170", Offset = "0x3240770", VA = "0x183242170")]
+	[Address(RVA = "0x6C5D040", Offset = "0x6C5C040", VA = "0x6C5D040")]
 	public DropdownMenu()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyNodeType
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -28,7 +28,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	public unsafe static ref readonly HierarchyNodeType Null
 	{
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x2F7EBD0", Offset = "0x2F7D1D0", VA = "0x182F7EBD0")]
+		[Address(RVA = "0x69740A0", Offset = "0x69730A0", VA = "0x69740A0")]
 		get
 		{
 			return ref *(HierarchyNodeType*)null;
@@ -39,7 +39,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	public int Id
 	{
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6974510", Offset = "0x6973510", VA = "0x6974510")]
 		get
 		{
 			return default(int);
@@ -47,7 +47,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x2F001A0", Offset = "0x2EFE7A0", VA = "0x182F001A0")]
+	[Address(RVA = "0x6974520", Offset = "0x6973520", VA = "0x6974520")]
 	[ExcludeFromDocs]
 	public static bool operator ==(in HierarchyNodeType lhs, in HierarchyNodeType rhs)
 	{
@@ -55,7 +55,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x2F7EA40", Offset = "0x2F7D040", VA = "0x182F7EA40", Slot = "4")]
+	[Address(RVA = "0x6974530", Offset = "0x6973530", VA = "0x6974530", Slot = "4")]
 	[ExcludeFromDocs]
 	public bool Equals(HierarchyNodeType other)
 	{
@@ -63,7 +63,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x2F7EB00", Offset = "0x2F7D100", VA = "0x182F7EB00", Slot = "3")]
+	[Address(RVA = "0x6974540", Offset = "0x6973540", VA = "0x6974540", Slot = "3")]
 	[ExcludeFromDocs]
 	public override string ToString()
 	{
@@ -71,7 +71,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2F7EA50", Offset = "0x2F7D050", VA = "0x182F7EA50", Slot = "0")]
+	[Address(RVA = "0x6974600", Offset = "0x6973600", VA = "0x6974600", Slot = "0")]
 	[ExcludeFromDocs]
 	public override bool Equals(object obj)
 	{
@@ -79,7 +79,7 @@ public readonly struct HierarchyNodeType : IEquatable<HierarchyNodeType>
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2F7EAE0", Offset = "0x2F7D0E0", VA = "0x182F7EAE0", Slot = "2")]
+	[Address(RVA = "0x6974660", Offset = "0x6973660", VA = "0x6974660", Slot = "2")]
 	[ExcludeFromDocs]
 	public override int GetHashCode()
 	{

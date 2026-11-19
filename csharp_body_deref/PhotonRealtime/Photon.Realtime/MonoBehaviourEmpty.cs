@@ -25,38 +25,38 @@ internal class MonoBehaviourEmpty : MonoBehaviour
 	private RegionHandler obj;
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x1D271B0", Offset = "0x1D257B0", VA = "0x181D271B0")]
+	[Address(RVA = "0x56BE4A0", Offset = "0x56BD4A0", VA = "0x56BE4A0")]
 	public static MonoBehaviourEmpty BuildInstance([Optional] string id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x1D27270", Offset = "0x1D25870", VA = "0x181D27270")]
+	[Address(RVA = "0x56BE440", Offset = "0x56BD440", VA = "0x56BE440")]
 	public void SelfDestroy()
 	{
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x1D273C0", Offset = "0x1D259C0", VA = "0x181D273C0")]
+	[Address(RVA = "0x56C03D0", Offset = "0x56BF3D0", VA = "0x56C03D0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+	[Address(RVA = "0x56C0490", Offset = "0x56BF490", VA = "0x56C0490")]
 	public void CompleteOnMainThread(RegionHandler obj)
 	{
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x1D272D0", Offset = "0x1D258D0", VA = "0x181D272D0")]
+	[Address(RVA = "0x56C04A0", Offset = "0x56BF4A0", VA = "0x56C04A0")]
 	public void StartCoroutineAndDestroy(IEnumerator coroutine)
 	{
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56C0610", Offset = "0x56BF610", VA = "0x56C0610")]
 	public MonoBehaviourEmpty()
 	{
 	}

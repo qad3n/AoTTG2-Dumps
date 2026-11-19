@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -45,7 +45,7 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000194")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x688BEC0", Offset = "0x688AEC0", VA = "0x688BEC0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -57,7 +57,7 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000196")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x688BF10", Offset = "0x688AF10", VA = "0x688BF10", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,34 +66,34 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 		}
 
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x688B900", Offset = "0x688A900", VA = "0x688B900")]
 		[DebuggerHidden]
 		public _003CInitializeLoader_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0x2E93BA0", Offset = "0x2E921A0", VA = "0x182E93BA0", Slot = "5")]
+		[Address(RVA = "0x688B9D0", Offset = "0x688A9D0", VA = "0x688B9D0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000192")]
-		[Address(RVA = "0x2E93790", Offset = "0x2E91D90", VA = "0x182E93790", Slot = "6")]
+		[Address(RVA = "0x688BA20", Offset = "0x688AA20", VA = "0x688BA20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x2E93C30", Offset = "0x2E92230", VA = "0x182E93C30")]
+		[Address(RVA = "0x688BE80", Offset = "0x688AE80", VA = "0x688BE80")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x2E93B60", Offset = "0x2E92160", VA = "0x182E93B60", Slot = "8")]
+		[Address(RVA = "0x688BED0", Offset = "0x688AED0", VA = "0x688BED0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -113,14 +113,14 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 
 	[Token(Token = "0x40000CF")]
 	[FieldOffset(Offset = "0x1A")]
-	[Tooltip("Determines if the Adaptive Performance Manager instance is responsible for starting and stopping subsystems for the active loader instance.")]
 	[SerializeField]
+	[Tooltip("Determines if the Adaptive Performance Manager instance is responsible for starting and stopping subsystems for the active loader instance.")]
 	private bool m_AutomaticRunning;
 
 	[Token(Token = "0x40000D0")]
 	[FieldOffset(Offset = "0x20")]
-	[Tooltip("List of Adaptive Performance Loader instances arranged in desired load order.")]
 	[SerializeField]
+	[Tooltip("List of Adaptive Performance Loader instances arranged in desired load order.")]
 	private List<AdaptivePerformanceLoader> m_Loaders;
 
 	[Token(Token = "0x40000D1")]
@@ -132,13 +132,13 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	public bool automaticLoading
 	{
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x2E85210", Offset = "0x2E83810", VA = "0x182E85210")]
+		[Address(RVA = "0x688B7F0", Offset = "0x688A7F0", VA = "0x688B7F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
+		[Address(RVA = "0x688AFA0", Offset = "0x6889FA0", VA = "0x688AFA0")]
 		set
 		{
 		}
@@ -148,13 +148,13 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	public bool automaticRunning
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x2E85220", Offset = "0x2E83820", VA = "0x182E85220")]
+		[Address(RVA = "0x688B800", Offset = "0x688A800", VA = "0x688B800")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x1CB9D80", Offset = "0x1CB8380", VA = "0x181CB9D80")]
+		[Address(RVA = "0x688AFB0", Offset = "0x6889FB0", VA = "0x688AFB0")]
 		set
 		{
 		}
@@ -164,13 +164,13 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	public List<AdaptivePerformanceLoader> loaders
 	{
 		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x688B810", Offset = "0x688A810", VA = "0x688B810")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x688B820", Offset = "0x688A820", VA = "0x688B820")]
 		set
 		{
 		}
@@ -180,7 +180,7 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	public bool isInitializationComplete
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x2E85230", Offset = "0x2E83830", VA = "0x182E85230")]
+		[Address(RVA = "0x688B830", Offset = "0x688A830", VA = "0x688B830")]
 		get
 		{
 			return default(bool);
@@ -192,13 +192,13 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	public AdaptivePerformanceLoader activeLoader
 	{
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x2E851D0", Offset = "0x2E837D0", VA = "0x182E851D0")]
+		[Address(RVA = "0x688B2B0", Offset = "0x688A2B0", VA = "0x688B2B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x2E85250", Offset = "0x2E83850", VA = "0x182E85250")]
+		[Address(RVA = "0x688B840", Offset = "0x688A840", VA = "0x688B840")]
 		private set
 		{
 		}
@@ -211,13 +211,13 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2E84BE0", Offset = "0x2E831E0", VA = "0x182E84BE0")]
+	[Address(RVA = "0x688AFC0", Offset = "0x6889FC0", VA = "0x688AFC0")]
 	internal void InitializeLoaderSync()
 	{
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x2E84E60", Offset = "0x2E83460", VA = "0x182E84E60")]
+	[Address(RVA = "0x688B890", Offset = "0x688A890", VA = "0x688B890")]
 	[IteratorStateMachine(typeof(_003CInitializeLoader_003Ed__21))]
 	internal IEnumerator InitializeLoader()
 	{
@@ -225,37 +225,37 @@ public sealed class AdaptivePerformanceManagerSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x2E84F00", Offset = "0x2E83500", VA = "0x182E84F00")]
+	[Address(RVA = "0x688B2F0", Offset = "0x688A2F0", VA = "0x688B2F0")]
 	internal void StartSubsystems()
 	{
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x2E85020", Offset = "0x2E83620", VA = "0x182E85020")]
+	[Address(RVA = "0x688B410", Offset = "0x688A410", VA = "0x688B410")]
 	internal void StopSubsystems()
 	{
 	}
 
 	[Token(Token = "0x600018C")]
-	[Address(RVA = "0x2E84A60", Offset = "0x2E83060", VA = "0x182E84A60")]
+	[Address(RVA = "0x688B530", Offset = "0x688A530", VA = "0x688B530")]
 	internal void DeinitializeLoader()
 	{
 	}
 
 	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x2E84EE0", Offset = "0x2E834E0", VA = "0x182E84EE0")]
+	[Address(RVA = "0x688B920", Offset = "0x688A920", VA = "0x688B920")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x2E84ED0", Offset = "0x2E834D0", VA = "0x182E84ED0")]
+	[Address(RVA = "0x688B940", Offset = "0x688A940", VA = "0x688B940")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x2E85140", Offset = "0x2E83740", VA = "0x182E85140")]
+	[Address(RVA = "0x688B950", Offset = "0x688A950", VA = "0x688B950")]
 	public AdaptivePerformanceManagerSettings()
 	{
 	}

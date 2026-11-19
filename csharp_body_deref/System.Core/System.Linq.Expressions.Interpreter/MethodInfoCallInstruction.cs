@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000EB")]
+[Token(Token = "0x20000EC")]
 internal class MethodInfoCallInstruction : CallInstruction
 {
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x400023B")]
 	[FieldOffset(Offset = "0x10")]
 	protected readonly MethodInfo _target;
 
-	[Token(Token = "0x4000233")]
+	[Token(Token = "0x400023C")]
 	[FieldOffset(Offset = "0x18")]
 	protected readonly int _argumentCount;
 
-	[Token(Token = "0x1700015A")]
+	[Token(Token = "0x1700015C")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x60005F9")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "11")]
+		[Token(Token = "0x6000604")]
+		[Address(RVA = "0x5DDC500", Offset = "0x5DDB500", VA = "0x5DDC500", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700015B")]
+	[Token(Token = "0x1700015D")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005FB")]
-		[Address(RVA = "0x242A4B0", Offset = "0x2428AB0", VA = "0x18242A4B0", Slot = "5")]
+		[Token(Token = "0x6000606")]
+		[Address(RVA = "0x5DDC510", Offset = "0x5DDB510", VA = "0x5DDC510", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
+	[Token(Token = "0x6000605")]
+	[Address(RVA = "0x5DDC2B0", Offset = "0x5DDB2B0", VA = "0x5DDC2B0")]
 	internal MethodInfoCallInstruction(MethodInfo target, int argumentCount)
 	{
 	}
 
-	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x243D5E0", Offset = "0x243BBE0", VA = "0x18243D5E0", Slot = "8")]
+	[Token(Token = "0x6000607")]
+	[Address(RVA = "0x5DDC580", Offset = "0x5DDB580", VA = "0x5DDC580", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x243D450", Offset = "0x243BA50", VA = "0x18243D450")]
+	[Token(Token = "0x6000608")]
+	[Address(RVA = "0x5DDC8B0", Offset = "0x5DDB8B0", VA = "0x5DDC8B0")]
 	protected object[] GetArgs(InterpretedFrame frame, int first, int skip)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x243D880", Offset = "0x243BE80", VA = "0x18243D880", Slot = "3")]
+	[Token(Token = "0x6000609")]
+	[Address(RVA = "0x5DDCAB0", Offset = "0x5DDBAB0", VA = "0x5DDCAB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

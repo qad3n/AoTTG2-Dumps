@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000209")]
+[Token(Token = "0x20001CA")]
 [ComVisible(true)]
 [TypeConverter(typeof(ComponentConverter))]
 [RootDesignerSerializer("System.ComponentModel.Design.Serialization.RootCodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", true)]
 public interface IComponent : IDisposable
 {
-	[Token(Token = "0x170002D0")]
+	[Token(Token = "0x170002A1")]
 	ISite Site
 	{
-		[Token(Token = "0x6000DA0")]
+		[Token(Token = "0x6000BE0")]
 		get;
-		[Token(Token = "0x6000DA1")]
+		[Token(Token = "0x6000BE1")]
 		set;
 	}
 

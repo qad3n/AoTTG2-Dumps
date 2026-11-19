@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20002FB")]
+[Token(Token = "0x20002FE")]
 public enum EasingMode
 {
-	[Token(Token = "0x4000B9B")]
-	Ease,
-	[Token(Token = "0x4000B9C")]
-	EaseIn,
-	[Token(Token = "0x4000B9D")]
-	EaseOut,
 	[Token(Token = "0x4000B9E")]
-	EaseInOut,
+	Ease,
 	[Token(Token = "0x4000B9F")]
-	Linear,
+	EaseIn,
 	[Token(Token = "0x4000BA0")]
-	EaseInSine,
+	EaseOut,
 	[Token(Token = "0x4000BA1")]
-	EaseOutSine,
+	EaseInOut,
 	[Token(Token = "0x4000BA2")]
-	EaseInOutSine,
+	Linear,
 	[Token(Token = "0x4000BA3")]
-	EaseInCubic,
+	EaseInSine,
 	[Token(Token = "0x4000BA4")]
-	EaseOutCubic,
+	EaseOutSine,
 	[Token(Token = "0x4000BA5")]
-	EaseInOutCubic,
+	EaseInOutSine,
 	[Token(Token = "0x4000BA6")]
-	EaseInCirc,
+	EaseInCubic,
 	[Token(Token = "0x4000BA7")]
-	EaseOutCirc,
+	EaseOutCubic,
 	[Token(Token = "0x4000BA8")]
-	EaseInOutCirc,
+	EaseInOutCubic,
 	[Token(Token = "0x4000BA9")]
-	EaseInElastic,
+	EaseInCirc,
 	[Token(Token = "0x4000BAA")]
-	EaseOutElastic,
+	EaseOutCirc,
 	[Token(Token = "0x4000BAB")]
-	EaseInOutElastic,
+	EaseInOutCirc,
 	[Token(Token = "0x4000BAC")]
-	EaseInBack,
+	EaseInElastic,
 	[Token(Token = "0x4000BAD")]
-	EaseOutBack,
+	EaseOutElastic,
 	[Token(Token = "0x4000BAE")]
-	EaseInOutBack,
+	EaseInOutElastic,
 	[Token(Token = "0x4000BAF")]
-	EaseInBounce,
+	EaseInBack,
 	[Token(Token = "0x4000BB0")]
-	EaseOutBounce,
+	EaseOutBack,
 	[Token(Token = "0x4000BB1")]
+	EaseInOutBack,
+	[Token(Token = "0x4000BB2")]
+	EaseInBounce,
+	[Token(Token = "0x4000BB3")]
+	EaseOutBounce,
+	[Token(Token = "0x4000BB4")]
 	EaseInOutBounce
 }

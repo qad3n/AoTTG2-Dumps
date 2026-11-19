@@ -15,19 +15,19 @@ namespace System.Data;
 public class InvalidConstraintException : DataException
 {
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BCD0", Offset = "0x5E6ACD0", VA = "0x5E6BCD0")]
 	protected InvalidConstraintException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x24E40B0", Offset = "0x24E26B0", VA = "0x1824E40B0")]
+	[Address(RVA = "0x5E6BCE0", Offset = "0x5E6ACE0", VA = "0x5E6BCE0")]
 	public InvalidConstraintException()
 	{
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x24E4090", Offset = "0x24E2690", VA = "0x1824E4090")]
+	[Address(RVA = "0x5E6BD20", Offset = "0x5E6AD20", VA = "0x5E6BD20")]
 	public InvalidConstraintException(string s)
 	{
 	}

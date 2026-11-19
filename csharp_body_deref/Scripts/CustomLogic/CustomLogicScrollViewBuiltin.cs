@@ -12,269 +12,269 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200059A")]
+[Token(Token = "0x20005F9")]
 [CompilerGenerated]
 internal class CustomLogicScrollViewBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x200059B")]
+	[Token(Token = "0x20005FA")]
 	public new static class Factory
 	{
-		[Token(Token = "0x60034E4")]
-		[Address(RVA = "0x2074C50", Offset = "0x2073250", VA = "0x182074C50")]
+		[Token(Token = "0x6003770")]
+		[Address(RVA = "0x5A02CB0", Offset = "0x5A01CB0", VA = "0x5A02CB0")]
 		public static CustomLogicScrollViewBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200059C")]
+	[Token(Token = "0x20005FB")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x40017F2")]
+		[Token(Token = "0x4001992")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60034E5")]
-		[Address(RVA = "0x2053460", Offset = "0x2051A60", VA = "0x182053460")]
+		[Token(Token = "0x6003771")]
+		[Address(RVA = "0x5A02D40", Offset = "0x5A01D40", VA = "0x5A02D40")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034E6")]
-		[Address(RVA = "0x20632C0", Offset = "0x20618C0", VA = "0x1820632C0")]
+		[Token(Token = "0x6003772")]
+		[Address(RVA = "0x5A03200", Offset = "0x5A02200", VA = "0x5A03200")]
 		public static CLPropertyBinding<CustomLogicScrollViewBuiltin> __CreatePropertyBinding__ScrollOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034E7")]
-		[Address(RVA = "0x20631D0", Offset = "0x20617D0", VA = "0x1820631D0")]
+		[Token(Token = "0x6003773")]
+		[Address(RVA = "0x5A032E0", Offset = "0x5A022E0", VA = "0x5A032E0")]
 		public static CLPropertyBinding<CustomLogicScrollViewBuiltin> __CreatePropertyBinding__ScrollDecelerationRate()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034E8")]
-		[Address(RVA = "0x2062E10", Offset = "0x2061410", VA = "0x182062E10")]
+		[Token(Token = "0x6003774")]
+		[Address(RVA = "0x5A033C0", Offset = "0x5A023C0", VA = "0x5A033C0")]
 		public static CLPropertyBinding<CustomLogicScrollViewBuiltin> __CreatePropertyBinding__MouseWheelScrollSize()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034E9")]
-		[Address(RVA = "0x2062230", Offset = "0x2060830", VA = "0x182062230")]
+		[Token(Token = "0x6003775")]
+		[Address(RVA = "0x5A034A0", Offset = "0x5A024A0", VA = "0x5A034A0")]
 		public static CLPropertyBinding<CustomLogicScrollViewBuiltin> __CreatePropertyBinding__HorizontalScrollEnabled()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034EA")]
-		[Address(RVA = "0x2064030", Offset = "0x2062630", VA = "0x182064030")]
+		[Token(Token = "0x6003776")]
+		[Address(RVA = "0x5A03580", Offset = "0x5A02580", VA = "0x5A03580")]
 		public static CLPropertyBinding<CustomLogicScrollViewBuiltin> __CreatePropertyBinding__VerticalScrollEnabled()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034EB")]
-		[Address(RVA = "0x2059420", Offset = "0x2057A20", VA = "0x182059420")]
+		[Token(Token = "0x6003777")]
+		[Address(RVA = "0x5A03660", Offset = "0x5A02660", VA = "0x5A03660")]
 		public static CLMethodBinding<CustomLogicScrollViewBuiltin> __CreateMethodBinding__Elasticity()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034EC")]
-		[Address(RVA = "0x205EC60", Offset = "0x205D260", VA = "0x18205EC60")]
+		[Token(Token = "0x6003778")]
+		[Address(RVA = "0x5A037A0", Offset = "0x5A027A0", VA = "0x5A037A0")]
 		public static CLMethodBinding<CustomLogicScrollViewBuiltin> __CreateMethodBinding__SetScrollDecelerationRate()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034ED")]
-		[Address(RVA = "0x205ED80", Offset = "0x205D380", VA = "0x18205ED80")]
+		[Token(Token = "0x6003779")]
+		[Address(RVA = "0x5A038E0", Offset = "0x5A028E0", VA = "0x5A038E0")]
 		public static CLMethodBinding<CustomLogicScrollViewBuiltin> __CreateMethodBinding__SetScrollOffset()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034EE")]
-		[Address(RVA = "0x205D410", Offset = "0x205BA10", VA = "0x18205D410")]
+		[Token(Token = "0x600377A")]
+		[Address(RVA = "0x5A03A20", Offset = "0x5A02A20", VA = "0x5A03A20")]
 		public static CLMethodBinding<CustomLogicScrollViewBuiltin> __CreateMethodBinding__ScrollToTop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60034EF")]
-		[Address(RVA = "0x205D2F0", Offset = "0x205B8F0", VA = "0x18205D2F0")]
+		[Token(Token = "0x600377B")]
+		[Address(RVA = "0x5A03B60", Offset = "0x5A02B60", VA = "0x5A03B60")]
 		public static CLMethodBinding<CustomLogicScrollViewBuiltin> __CreateMethodBinding__ScrollToBottom()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40017F1")]
+	[Token(Token = "0x4001991")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly ScrollView _scrollView;
 
-	[Token(Token = "0x170009C2")]
+	[Token(Token = "0x17000A0A")]
 	public CustomLogicVector2Builtin ScrollOffset
 	{
-		[Token(Token = "0x60034D1")]
-		[Address(RVA = "0x2068290", Offset = "0x2066890", VA = "0x182068290")]
+		[Token(Token = "0x600375D")]
+		[Address(RVA = "0x5A027C0", Offset = "0x5A017C0", VA = "0x5A027C0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60034D2")]
-		[Address(RVA = "0x2068450", Offset = "0x2066A50", VA = "0x182068450")]
+		[Token(Token = "0x600375E")]
+		[Address(RVA = "0x5A02830", Offset = "0x5A01830", VA = "0x5A02830")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009C3")]
+	[Token(Token = "0x17000A0B")]
 	public float ScrollDecelerationRate
 	{
-		[Token(Token = "0x60034D3")]
-		[Address(RVA = "0x2068270", Offset = "0x2066870", VA = "0x182068270")]
+		[Token(Token = "0x600375F")]
+		[Address(RVA = "0x5A02860", Offset = "0x5A01860", VA = "0x5A02860")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60034D4")]
-		[Address(RVA = "0x2068430", Offset = "0x2066A30", VA = "0x182068430")]
+		[Token(Token = "0x6003760")]
+		[Address(RVA = "0x5A02880", Offset = "0x5A01880", VA = "0x5A02880")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009C4")]
+	[Token(Token = "0x17000A0C")]
 	public float MouseWheelScrollSize
 	{
-		[Token(Token = "0x60034D5")]
-		[Address(RVA = "0x2068250", Offset = "0x2066850", VA = "0x182068250")]
+		[Token(Token = "0x6003761")]
+		[Address(RVA = "0x5A028A0", Offset = "0x5A018A0", VA = "0x5A028A0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60034D6")]
-		[Address(RVA = "0x2068410", Offset = "0x2066A10", VA = "0x182068410")]
+		[Token(Token = "0x6003762")]
+		[Address(RVA = "0x5A028C0", Offset = "0x5A018C0", VA = "0x5A028C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009C5")]
+	[Token(Token = "0x17000A0D")]
 	public bool HorizontalScrollEnabled
 	{
-		[Token(Token = "0x60034D7")]
-		[Address(RVA = "0x2068210", Offset = "0x2066810", VA = "0x182068210")]
+		[Token(Token = "0x6003763")]
+		[Address(RVA = "0x5A028E0", Offset = "0x5A018E0", VA = "0x5A028E0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60034D8")]
-		[Address(RVA = "0x2068350", Offset = "0x2066950", VA = "0x182068350")]
+		[Token(Token = "0x6003764")]
+		[Address(RVA = "0x5A02900", Offset = "0x5A01900", VA = "0x5A02900")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009C6")]
+	[Token(Token = "0x17000A0E")]
 	public bool VerticalScrollEnabled
 	{
-		[Token(Token = "0x60034D9")]
-		[Address(RVA = "0x2068310", Offset = "0x2066910", VA = "0x182068310")]
+		[Token(Token = "0x6003765")]
+		[Address(RVA = "0x5A02990", Offset = "0x5A01990", VA = "0x5A02990")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60034DA")]
-		[Address(RVA = "0x2068490", Offset = "0x2066A90", VA = "0x182068490")]
+		[Token(Token = "0x6003766")]
+		[Address(RVA = "0x5A029B0", Offset = "0x5A019B0", VA = "0x5A029B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009C7")]
+	[Token(Token = "0x17000A0F")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60034E0")]
-		[Address(RVA = "0x20681E0", Offset = "0x20667E0", VA = "0x1820681E0", Slot = "6")]
+		[Token(Token = "0x600376C")]
+		[Address(RVA = "0x5A02C50", Offset = "0x5A01C50", VA = "0x5A02C50", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009C8")]
+	[Token(Token = "0x17000A10")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60034E1")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x600376D")]
+		[Address(RVA = "0x5A02C80", Offset = "0x5A01C80", VA = "0x5A02C80", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009C9")]
+	[Token(Token = "0x17000A11")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60034E2")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x600376E")]
+		[Address(RVA = "0x5A02C90", Offset = "0x5A01C90", VA = "0x5A02C90", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009CA")]
+	[Token(Token = "0x17000A12")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60034E3")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x600376F")]
+		[Address(RVA = "0x5A02CA0", Offset = "0x5A01CA0", VA = "0x5A02CA0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60034D0")]
-	[Address(RVA = "0x2067970", Offset = "0x2065F70", VA = "0x182067970")]
+	[Token(Token = "0x600375C")]
+	[Address(RVA = "0x5A02790", Offset = "0x5A01790", VA = "0x5A02790")]
 	public CustomLogicScrollViewBuiltin(ScrollView scrollView)
 	{
 	}
 
-	[Token(Token = "0x60034DB")]
-	[Address(RVA = "0x2067F90", Offset = "0x2066590", VA = "0x182067F90")]
+	[Token(Token = "0x6003767")]
+	[Address(RVA = "0x5A02A40", Offset = "0x5A01A40", VA = "0x5A02A40")]
 	public CustomLogicScrollViewBuiltin Elasticity(int value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034DC")]
-	[Address(RVA = "0x2068150", Offset = "0x2066750", VA = "0x182068150")]
+	[Token(Token = "0x6003768")]
+	[Address(RVA = "0x5A02B80", Offset = "0x5A01B80", VA = "0x5A02B80")]
 	public CustomLogicScrollViewBuiltin SetScrollDecelerationRate(float rate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034DD")]
-	[Address(RVA = "0x20681A0", Offset = "0x20667A0", VA = "0x1820681A0")]
+	[Token(Token = "0x6003769")]
+	[Address(RVA = "0x5A02BC0", Offset = "0x5A01BC0", VA = "0x5A02BC0")]
 	public CustomLogicScrollViewBuiltin SetScrollOffset(CustomLogicVector2Builtin offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034DE")]
-	[Address(RVA = "0x2068100", Offset = "0x2066700", VA = "0x182068100")]
+	[Token(Token = "0x600376A")]
+	[Address(RVA = "0x5A02BF0", Offset = "0x5A01BF0", VA = "0x5A02BF0")]
 	public void ScrollToTop()
 	{
 	}
 
-	[Token(Token = "0x60034DF")]
-	[Address(RVA = "0x20680C0", Offset = "0x20666C0", VA = "0x1820680C0")]
+	[Token(Token = "0x600376B")]
+	[Address(RVA = "0x5A02C20", Offset = "0x5A01C20", VA = "0x5A02C20")]
 	public void ScrollToBottom()
 	{
 	}

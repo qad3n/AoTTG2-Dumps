@@ -10,164 +10,164 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x2000935")]
+[Token(Token = "0x200099C")]
 public sealed class AottgCreditsResult
 {
-	[Token(Token = "0x17000F8B")]
+	[Token(Token = "0x17000F6A")]
 	public AottgCreditsResultState State
 	{
-		[Token(Token = "0x6005640")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6005999")]
+		[Address(RVA = "0x5D228E0", Offset = "0x5D218E0", VA = "0x5D228E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(AottgCreditsResultState);
 		}
-		[Token(Token = "0x6005641")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x600599A")]
+		[Address(RVA = "0x5D228F0", Offset = "0x5D218F0", VA = "0x5D228F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F8C")]
+	[Token(Token = "0x17000F6B")]
 	public AottgCreditsResponse Credits
 	{
-		[Token(Token = "0x6005642")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600599B")]
+		[Address(RVA = "0x5D22900", Offset = "0x5D21900", VA = "0x5D22900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005643")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x600599C")]
+		[Address(RVA = "0x5D22910", Offset = "0x5D21910", VA = "0x5D22910")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F8D")]
+	[Token(Token = "0x17000F6C")]
 	public string Error
 	{
-		[Token(Token = "0x6005644")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600599D")]
+		[Address(RVA = "0x5D22920", Offset = "0x5D21920", VA = "0x5D22920")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6005645")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x600599E")]
+		[Address(RVA = "0x5D22930", Offset = "0x5D21930", VA = "0x5D22930")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F8E")]
+	[Token(Token = "0x17000F6D")]
 	public bool IsFromCache
 	{
-		[Token(Token = "0x6005646")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Token(Token = "0x600599F")]
+		[Address(RVA = "0x5D22940", Offset = "0x5D21940", VA = "0x5D22940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6005647")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Token(Token = "0x60059A0")]
+		[Address(RVA = "0x5D22950", Offset = "0x5D21950", VA = "0x5D22950")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F8F")]
+	[Token(Token = "0x17000F6E")]
 	public bool IsStale
 	{
-		[Token(Token = "0x6005648")]
-		[Address(RVA = "0x1573470", Offset = "0x1571A70", VA = "0x181573470")]
+		[Token(Token = "0x60059A1")]
+		[Address(RVA = "0x5D22960", Offset = "0x5D21960", VA = "0x5D22960")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6005649")]
-		[Address(RVA = "0x15736C0", Offset = "0x1571CC0", VA = "0x1815736C0")]
+		[Token(Token = "0x60059A2")]
+		[Address(RVA = "0x5D22970", Offset = "0x5D21970", VA = "0x5D22970")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F90")]
+	[Token(Token = "0x17000F6F")]
 	public bool IsRefreshing
 	{
-		[Token(Token = "0x600564A")]
-		[Address(RVA = "0x1573430", Offset = "0x1571A30", VA = "0x181573430")]
+		[Token(Token = "0x60059A3")]
+		[Address(RVA = "0x5D22980", Offset = "0x5D21980", VA = "0x5D22980")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600564B")]
-		[Address(RVA = "0x15736B0", Offset = "0x1571CB0", VA = "0x1815736B0")]
+		[Token(Token = "0x60059A4")]
+		[Address(RVA = "0x5D22990", Offset = "0x5D21990", VA = "0x5D22990")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000F91")]
+	[Token(Token = "0x17000F70")]
 	public bool HasCredits
 	{
-		[Token(Token = "0x600564C")]
-		[Address(RVA = "0x1979E60", Offset = "0x1978460", VA = "0x181979E60")]
+		[Token(Token = "0x60059A5")]
+		[Address(RVA = "0x5D229A0", Offset = "0x5D219A0", VA = "0x5D229A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600563F")]
-	[Address(RVA = "0x1573360", Offset = "0x1571960", VA = "0x181573360")]
+	[Token(Token = "0x6005998")]
+	[Address(RVA = "0x5D22870", Offset = "0x5D21870", VA = "0x5D22870")]
 	private AottgCreditsResult(AottgCreditsResultState state, AottgCreditsResponse credits, string error, bool isFromCache, bool isStale, bool isRefreshing)
 	{
 	}
 
-	[Token(Token = "0x600564D")]
-	[Address(RVA = "0x2365920", Offset = "0x2363F20", VA = "0x182365920")]
+	[Token(Token = "0x60059A6")]
+	[Address(RVA = "0x5D21F10", Offset = "0x5D20F10", VA = "0x5D21F10")]
 	public static AottgCreditsResult LoadingNoCache()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600564E")]
-	[Address(RVA = "0x23659A0", Offset = "0x2363FA0", VA = "0x1823659A0")]
+	[Token(Token = "0x60059A7")]
+	[Address(RVA = "0x5D21E10", Offset = "0x5D20E10", VA = "0x5D21E10")]
 	public static AottgCreditsResult ReadyFresh(AottgCreditsResponse credits, bool isFromCache)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600564F")]
-	[Address(RVA = "0x2365A40", Offset = "0x2364040", VA = "0x182365A40")]
+	[Token(Token = "0x60059A8")]
+	[Address(RVA = "0x5D21E90", Offset = "0x5D20E90", VA = "0x5D21E90")]
 	public static AottgCreditsResult ReadyStaleRefreshing(AottgCreditsResponse credits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005650")]
-	[Address(RVA = "0x2365800", Offset = "0x2363E00", VA = "0x182365800")]
+	[Token(Token = "0x60059A9")]
+	[Address(RVA = "0x5D222C0", Offset = "0x5D212C0", VA = "0x5D222C0")]
 	public static AottgCreditsResult FailedNoCache(string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005651")]
-	[Address(RVA = "0x2365890", Offset = "0x2363E90", VA = "0x182365890")]
+	[Token(Token = "0x60059AA")]
+	[Address(RVA = "0x5D22240", Offset = "0x5D21240", VA = "0x5D22240")]
 	public static AottgCreditsResult FailedRefreshStale(AottgCreditsResponse credits, string error)
 	{
 		return null;

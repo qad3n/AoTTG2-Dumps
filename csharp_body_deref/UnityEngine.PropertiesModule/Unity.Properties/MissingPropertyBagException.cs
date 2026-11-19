@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.MissingPropertyBagException
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,13 +23,13 @@ public class MissingPropertyBagException : Exception
 	private readonly Type _003CType_003Ek__BackingField;
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2FEB500", Offset = "0x2FE9B00", VA = "0x182FEB500")]
+	[Address(RVA = "0x69E4900", Offset = "0x69E3900", VA = "0x69E4900")]
 	public MissingPropertyBagException(Type type)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x2FEB490", Offset = "0x2FE9A90", VA = "0x182FEB490")]
+	[Address(RVA = "0x69E4A00", Offset = "0x69E3A00", VA = "0x69E4A00")]
 	private static string GetMessageForType(Type type)
 	{
 		return null;

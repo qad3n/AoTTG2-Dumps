@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000320")]
+[Token(Token = "0x20002F9")]
 [ComVisible(true)]
 public abstract class Rijndael : SymmetricAlgorithm
 {
-	[Token(Token = "0x4000D3A")]
+	[Token(Token = "0x4000C9A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalBlockSizes;
 
-	[Token(Token = "0x4000D3B")]
+	[Token(Token = "0x4000C9B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x6001A02")]
-	[Address(RVA = "0x19B63E0", Offset = "0x19B49E0", VA = "0x1819B63E0")]
+	[Token(Token = "0x60019DF")]
+	[Address(RVA = "0x53410A0", Offset = "0x53400A0", VA = "0x53410A0")]
 	protected Rijndael()
 	{
 	}
 
-	[Token(Token = "0x6001A03")]
-	[Address(RVA = "0x19B6040", Offset = "0x19B4640", VA = "0x1819B6040")]
+	[Token(Token = "0x60019E0")]
+	[Address(RVA = "0x5341140", Offset = "0x5340140", VA = "0x5341140")]
 	public new static Rijndael Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A04")]
-	[Address(RVA = "0x19B61D0", Offset = "0x19B47D0", VA = "0x1819B61D0")]
+	[Token(Token = "0x60019E1")]
+	[Address(RVA = "0x5341300", Offset = "0x5340300", VA = "0x5341300")]
 	public new static Rijndael Create(string algName)
 	{
 		return null;

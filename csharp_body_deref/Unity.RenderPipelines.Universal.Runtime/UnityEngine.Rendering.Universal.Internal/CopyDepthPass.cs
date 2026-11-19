@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.CopyDepthPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -68,7 +68,7 @@ public class CopyDepthPass : ScriptableRenderPass
 		internal bool isDstBackbuffer;
 
 		[Token(Token = "0x6000B97")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66C7430", Offset = "0x66C6430", VA = "0x66C7430")]
 		public PassData()
 		{
 		}
@@ -86,14 +86,14 @@ public class CopyDepthPass : ScriptableRenderPass
 	internal int MsaaSamples
 	{
 		[Token(Token = "0x6000B87")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x66C5CD0", Offset = "0x66C4CD0", VA = "0x66C5CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000B88")]
-		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
+		[Address(RVA = "0x66C5CE0", Offset = "0x66C4CE0", VA = "0x66C5CE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -104,14 +104,14 @@ public class CopyDepthPass : ScriptableRenderPass
 	internal bool CopyToDepth
 	{
 		[Token(Token = "0x6000B89")]
-		[Address(RVA = "0x2CBC320", Offset = "0x2CBA920", VA = "0x182CBC320")]
+		[Address(RVA = "0x66C5CF0", Offset = "0x66C4CF0", VA = "0x66C5CF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B8A")]
-		[Address(RVA = "0x2CBC350", Offset = "0x2CBA950", VA = "0x182CBC350")]
+		[Address(RVA = "0x66C5D00", Offset = "0x66C4D00", VA = "0x66C5D00")]
 		[CompilerGenerated]
 		set
 		{
@@ -122,14 +122,14 @@ public class CopyDepthPass : ScriptableRenderPass
 	internal bool CopyToDepthXR
 	{
 		[Token(Token = "0x6000B8B")]
-		[Address(RVA = "0x2511000", Offset = "0x250F600", VA = "0x182511000")]
+		[Address(RVA = "0x66C5D10", Offset = "0x66C4D10", VA = "0x66C5D10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B8C")]
-		[Address(RVA = "0x2CBC340", Offset = "0x2CBA940", VA = "0x182CBC340")]
+		[Address(RVA = "0x66C5D20", Offset = "0x66C4D20", VA = "0x66C5D20")]
 		[CompilerGenerated]
 		set
 		{
@@ -140,14 +140,14 @@ public class CopyDepthPass : ScriptableRenderPass
 	internal bool CopyToBackbuffer
 	{
 		[Token(Token = "0x6000B8D")]
-		[Address(RVA = "0x2510380", Offset = "0x250E980", VA = "0x182510380")]
+		[Address(RVA = "0x66C5D30", Offset = "0x66C4D30", VA = "0x66C5D30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B8E")]
-		[Address(RVA = "0x2CBC330", Offset = "0x2CBA930", VA = "0x182CBC330")]
+		[Address(RVA = "0x66C5D40", Offset = "0x66C4D40", VA = "0x66C5D40")]
 		[CompilerGenerated]
 		set
 		{
@@ -155,57 +155,57 @@ public class CopyDepthPass : ScriptableRenderPass
 	}
 
 	[Token(Token = "0x6000B85")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x66C5CB0", Offset = "0x66C4CB0", VA = "0x66C5CB0", Slot = "6")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B86")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66C5CC0", Offset = "0x66C4CC0", VA = "0x66C5CC0", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000B8F")]
-	[Address(RVA = "0x2CBC1D0", Offset = "0x2CBA7D0", VA = "0x182CBC1D0")]
+	[Address(RVA = "0x66C5D50", Offset = "0x66C4D50", VA = "0x66C5D50")]
 	public CopyDepthPass(RenderPassEvent evt, Shader copyDepthShader, [Optional][DefaultParameterValue(false)] bool shouldClear, [Optional][DefaultParameterValue(false)] bool copyToDepth, [Optional][DefaultParameterValue(false)] bool copyResolvedDepth, [Optional] string customPassName)
 	{
 	}
 
 	[Token(Token = "0x6000B90")]
-	[Address(RVA = "0x2CBC1C0", Offset = "0x2CBA7C0", VA = "0x182CBC1C0")]
+	[Address(RVA = "0x66C5EB0", Offset = "0x66C4EB0", VA = "0x66C5EB0")]
 	public void Setup(RTHandle source, RTHandle destination)
 	{
 	}
 
 	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x2CBB020", Offset = "0x2CB9620", VA = "0x182CBB020")]
+	[Address(RVA = "0x66C5EC0", Offset = "0x66C4EC0", VA = "0x66C5EC0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x2CBB070", Offset = "0x2CB9670", VA = "0x182CBB070")]
+	[Address(RVA = "0x66C5F20", Offset = "0x66C4F20", VA = "0x66C5F20")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RTHandle source, bool yflip)
 	{
 	}
 
 	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Address(RVA = "0x66C65E0", Offset = "0x66C55E0", VA = "0x66C65E0", Slot = "10")]
 	public override void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x2CBB650", Offset = "0x2CB9C50", VA = "0x182CBB650")]
+	[Address(RVA = "0x66C65F0", Offset = "0x66C55F0", VA = "0x66C65F0")]
 	public void Render(RenderGraph renderGraph, ContextContainer frameData, TextureHandle destination, TextureHandle source, bool bindAsCameraDepth = false, string passName = "Copy Depth")
 	{
 	}
 
 	[Token(Token = "0x6000B95")]
-	[Address(RVA = "0x2CBB740", Offset = "0x2CB9D40", VA = "0x182CBB740")]
+	[Address(RVA = "0x66C66B0", Offset = "0x66C56B0", VA = "0x66C66B0")]
 	public void Render(RenderGraph renderGraph, TextureHandle destination, TextureHandle source, UniversalResourceData resourceData, UniversalCameraData cameraData, bool bindAsCameraDepth = false, string passName = "Copy Depth")
 	{
 	}

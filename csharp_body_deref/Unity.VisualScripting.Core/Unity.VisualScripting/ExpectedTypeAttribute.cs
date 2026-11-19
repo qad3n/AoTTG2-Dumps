@@ -19,7 +19,7 @@ public sealed class ExpectedTypeAttribute : Attribute
 	public Type type
 	{
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6792DB0", Offset = "0x6791DB0", VA = "0x6792DB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public sealed class ExpectedTypeAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x2DA7830", Offset = "0x2DA5E30", VA = "0x182DA7830")]
+	[Address(RVA = "0x6792C70", Offset = "0x6791C70", VA = "0x6792C70")]
 	public ExpectedTypeAttribute(Type type)
 	{
 	}

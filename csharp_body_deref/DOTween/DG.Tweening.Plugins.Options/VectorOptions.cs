@@ -21,7 +21,7 @@ public struct VectorOptions : IPlugOptions
 	public bool snapping;
 
 	[Token(Token = "0x600037A")]
-	[Address(RVA = "0x577030", Offset = "0x575630", VA = "0x180577030", Slot = "4")]
+	[Address(RVA = "0x318FF10", Offset = "0x318EF10", VA = "0x318FF10", Slot = "4")]
 	public void Reset()
 	{
 	}

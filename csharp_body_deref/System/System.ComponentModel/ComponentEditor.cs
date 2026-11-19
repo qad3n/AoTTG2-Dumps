@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000173")]
+[Token(Token = "0x2000134")]
 public abstract class ComponentEditor
 {
-	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x2893C60", Offset = "0x2892260", VA = "0x182893C60")]
+	[Token(Token = "0x600078B")]
+	[Address(RVA = "0x6226300", Offset = "0x6225300", VA = "0x6226300")]
 	public bool EditComponent(object component)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600094C")]
+	[Token(Token = "0x600078C")]
 	public abstract bool EditComponent(ITypeDescriptorContext context, object component);
 
-	[Token(Token = "0x600094D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600078D")]
+	[Address(RVA = "0x6226320", Offset = "0x6225320", VA = "0x6226320")]
 	protected ComponentEditor()
 	{
 	}

@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200010D")]
+[Token(Token = "0x200010E")]
 public enum CubemapFace
 {
-	[Token(Token = "0x4000332")]
-	Unknown = -1,
-	[Token(Token = "0x4000333")]
-	PositiveX,
-	[Token(Token = "0x4000334")]
-	NegativeX,
-	[Token(Token = "0x4000335")]
-	PositiveY,
-	[Token(Token = "0x4000336")]
-	NegativeY,
 	[Token(Token = "0x4000337")]
-	PositiveZ,
+	Unknown = -1,
 	[Token(Token = "0x4000338")]
+	PositiveX,
+	[Token(Token = "0x4000339")]
+	NegativeX,
+	[Token(Token = "0x400033A")]
+	PositiveY,
+	[Token(Token = "0x400033B")]
+	NegativeY,
+	[Token(Token = "0x400033C")]
+	PositiveZ,
+	[Token(Token = "0x400033D")]
 	NegativeZ
 }

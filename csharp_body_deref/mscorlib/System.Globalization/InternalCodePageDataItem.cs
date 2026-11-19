@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005A2")]
+[Token(Token = "0x200057D")]
 internal struct InternalCodePageDataItem
 {
-	[Token(Token = "0x40017BC")]
+	[Token(Token = "0x4001723")]
 	[FieldOffset(Offset = "0x0")]
 	internal ushort codePage;
 
-	[Token(Token = "0x40017BD")]
+	[Token(Token = "0x4001724")]
 	[FieldOffset(Offset = "0x2")]
 	internal ushort uiFamilyCodePage;
 
-	[Token(Token = "0x40017BE")]
+	[Token(Token = "0x4001725")]
 	[FieldOffset(Offset = "0x4")]
 	internal uint flags;
 
-	[Token(Token = "0x40017BF")]
+	[Token(Token = "0x4001726")]
 	[FieldOffset(Offset = "0x8")]
 	internal string Names;
 }

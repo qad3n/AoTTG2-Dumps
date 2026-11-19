@@ -10,29 +10,29 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000EF")]
+[Token(Token = "0x20000F0")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/SharedLightData.h")]
 public struct LightBakingOutput
 {
-	[Token(Token = "0x4000267")]
+	[Token(Token = "0x400026C")]
 	[FieldOffset(Offset = "0x0")]
 	public int probeOcclusionLightIndex;
 
-	[Token(Token = "0x4000268")]
+	[Token(Token = "0x400026D")]
 	[FieldOffset(Offset = "0x4")]
 	public int occlusionMaskChannel;
 
-	[Token(Token = "0x4000269")]
+	[Token(Token = "0x400026E")]
 	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Bindings.NativeName("lightmapBakeMode.lightmapBakeType")]
 	public LightmapBakeType lightmapBakeType;
 
-	[Token(Token = "0x400026A")]
+	[Token(Token = "0x400026F")]
 	[FieldOffset(Offset = "0xC")]
 	[UnityEngine.Bindings.NativeName("lightmapBakeMode.mixedLightingMode")]
 	public MixedLightingMode mixedLightingMode;
 
-	[Token(Token = "0x400026B")]
+	[Token(Token = "0x4000270")]
 	[FieldOffset(Offset = "0x10")]
 	public bool isBaked;
 }

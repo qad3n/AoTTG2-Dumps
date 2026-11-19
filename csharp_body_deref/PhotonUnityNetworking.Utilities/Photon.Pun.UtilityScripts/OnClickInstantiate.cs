@@ -41,13 +41,13 @@ public class OnClickInstantiate : MonoBehaviour, IPointerClickHandler, IEventSys
 	private InstantiateOption InstantiateType;
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x1D53B00", Offset = "0x1D52100", VA = "0x181D53B00", Slot = "4")]
+	[Address(RVA = "0x56F4580", Offset = "0x56F3580", VA = "0x56F4580", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x56F47F0", Offset = "0x56F37F0", VA = "0x56F47F0")]
 	public OnClickInstantiate()
 	{
 	}

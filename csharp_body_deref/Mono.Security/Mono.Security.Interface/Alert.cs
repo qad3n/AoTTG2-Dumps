@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000028")]
 public class Alert
 {
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40000C9")]
 	[FieldOffset(Offset = "0x10")]
 	private AlertLevel level;
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000CA")]
 	[FieldOffset(Offset = "0x11")]
 	private AlertDescription description;
 
-	[Token(Token = "0x1700005E")]
+	[Token(Token = "0x1700005B")]
 	public AlertLevel Level
 	{
-		[Token(Token = "0x600013F")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x600011B")]
+		[Address(RVA = "0x52C7B60", Offset = "0x52C6B60", VA = "0x52C7B60")]
 		get
 		{
 			return default(AlertLevel);
 		}
 	}
 
-	[Token(Token = "0x1700005F")]
+	[Token(Token = "0x1700005C")]
 	public AlertDescription Description
 	{
-		[Token(Token = "0x6000140")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Token(Token = "0x600011C")]
+		[Address(RVA = "0x52C7B70", Offset = "0x52C6B70", VA = "0x52C7B70")]
 		get
 		{
 			return default(AlertDescription);
 		}
 	}
 
-	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x192B230", Offset = "0x1929830", VA = "0x18192B230")]
+	[Token(Token = "0x600011D")]
+	[Address(RVA = "0x52C7B80", Offset = "0x52C6B80", VA = "0x52C7B80")]
 	public Alert(AlertDescription description)
 	{
 	}
 
-	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x192B2D0", Offset = "0x19298D0", VA = "0x18192B2D0")]
+	[Token(Token = "0x600011E")]
+	[Address(RVA = "0x52C7BD0", Offset = "0x52C6BD0", VA = "0x52C7BD0")]
 	private void inferAlertLevel()
 	{
 	}
 
-	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x192B190", Offset = "0x1929790", VA = "0x18192B190", Slot = "3")]
+	[Token(Token = "0x600011F")]
+	[Address(RVA = "0x52C7C00", Offset = "0x52C6C00", VA = "0x52C7C00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

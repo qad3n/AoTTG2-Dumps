@@ -20,14 +20,14 @@ public class SerializationOperation
 	public fsSerializer serializer
 	{
 		[Token(Token = "0x6000FA3")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6846930", Offset = "0x6845930", VA = "0x6846930")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FA4")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6846940", Offset = "0x6845940", VA = "0x6846940")]
 		[CompilerGenerated]
 		private set
 		{
@@ -38,14 +38,14 @@ public class SerializationOperation
 	public List<Object> objectReferences
 	{
 		[Token(Token = "0x6000FA5")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6846950", Offset = "0x6845950", VA = "0x6846950")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FA6")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6846960", Offset = "0x6845960", VA = "0x6846960")]
 		[CompilerGenerated]
 		private set
 		{
@@ -53,13 +53,13 @@ public class SerializationOperation
 	}
 
 	[Token(Token = "0x6000FA2")]
-	[Address(RVA = "0x2E3A6E0", Offset = "0x2E38CE0", VA = "0x182E3A6E0")]
+	[Address(RVA = "0x6843730", Offset = "0x6842730", VA = "0x6843730")]
 	public SerializationOperation()
 	{
 	}
 
 	[Token(Token = "0x6000FA7")]
-	[Address(RVA = "0x2E3A680", Offset = "0x2E38C80", VA = "0x182E3A680")]
+	[Address(RVA = "0x6843C20", Offset = "0x6842C20", VA = "0x6843C20")]
 	public void Reset()
 	{
 	}

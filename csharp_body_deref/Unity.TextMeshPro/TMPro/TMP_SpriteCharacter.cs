@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_SpriteCharacter
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,38 +24,38 @@ public class TMP_SpriteCharacter : TMP_TextElement
 	public string name
 	{
 		[Token(Token = "0x60003D2")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x673CC90", Offset = "0x673BC90", VA = "0x673CC90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003D3")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x673CCA0", Offset = "0x673BCA0", VA = "0x673CCA0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60003D4")]
-	[Address(RVA = "0x2D42860", Offset = "0x2D40E60", VA = "0x182D42860")]
+	[Address(RVA = "0x673CAF0", Offset = "0x673BAF0", VA = "0x673CAF0")]
 	public TMP_SpriteCharacter()
 	{
 	}
 
 	[Token(Token = "0x60003D5")]
-	[Address(RVA = "0x2D427F0", Offset = "0x2D40DF0", VA = "0x182D427F0")]
+	[Address(RVA = "0x673CCC0", Offset = "0x673BCC0", VA = "0x673CCC0")]
 	public TMP_SpriteCharacter(uint unicode, TMP_SpriteGlyph glyph)
 	{
 	}
 
 	[Token(Token = "0x60003D6")]
-	[Address(RVA = "0x2D42880", Offset = "0x2D40E80", VA = "0x182D42880")]
+	[Address(RVA = "0x673CD10", Offset = "0x673BD10", VA = "0x673CD10")]
 	public TMP_SpriteCharacter(uint unicode, TMP_SpriteAsset spriteAsset, TMP_SpriteGlyph glyph)
 	{
 	}
 
 	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x2D42790", Offset = "0x2D40D90", VA = "0x182D42790")]
+	[Address(RVA = "0x673CD80", Offset = "0x673BD80", VA = "0x673CD80")]
 	internal TMP_SpriteCharacter(uint unicode, uint glyphIndex)
 	{
 	}

@@ -1,116 +1,501 @@
 // Type: Map.MapDestructionDebris
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapDestructionDebris.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Map.MapDestructionDebris.Piece$$.ctor
 // il2cpp: void Map_MapDestructionDebris_Piece___ctor (Map_MapDestructionDebris_Piece_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5987600
 
-void
-Map_MapDestructionDebris_Piece___ctor(Map_MapDestructionDebris_Piece_o* __this, MethodInfo* method)
+void Map_MapDestructionDebris_Piece___ctor(Map_MapDestructionDebris_Piece_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapDestructionDebris.<>c__DisplayClass37_0$$.ctor
 // il2cpp: void Map_MapDestructionDebris___c__DisplayClass37_0___ctor (Map_MapDestructionDebris___c__DisplayClass37_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5983700
 
-void
-Map_MapDestructionDebris___c__DisplayClass37_0___ctor(Map_MapDestructionDebris___c__DisplayClass37_0_o* __this, MethodInfo* method)
+void Map_MapDestructionDebris___c__DisplayClass37_0___ctor
+               (Map_MapDestructionDebris___c__DisplayClass37_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapDestructionDebris.<>c__DisplayClass37_0$$<Shatter>b__0
 // il2cpp: System_Collections_Generic_List_List_MapFracture_Triangle___o* Map_MapDestructionDebris___c__DisplayClass37_0___Shatter_b__0 (Map_MapDestructionDebris___c__DisplayClass37_0_o* __this, const MethodInfo* method);
-// 0x181eb9f90
+// 0x5987e80
 
 System_Collections_Generic_List_List_MapFracture_Triangle___o *
 Map_MapDestructionDebris___c__DisplayClass37_0___Shatter_b__0
           (Map_MapDestructionDebris___c__DisplayClass37_0_o *__this,MethodInfo *method)
 
 {
-  Map_MapDestructionDebris_o *pMVar1;
+  int32_t *piVar1;
+  float fVar2;
+  float fVar3;
+  int32_t Seed;
+  int32_t capacity;
+  uint32_t uVar4;
   Map_MapFracture_o *__this_00;
-  System_Collections_Generic_List_List_MapFracture_Triangle___o *pSVar2;
+  System_Int32_array *pSVar5;
+  UnityEngine_Vector3_StaticFields *pUVar6;
+  System_Collections_Generic_List_MapFracture_Triangle__array *pSVar7;
+  undefined1 auVar8 [16];
+  UnityEngine_Bounds_o bounds;
+  bool bVar9;
+  int32_t iVar10;
+  Il2CppClass *__this_01;
+  System_Collections_Generic_List_List_MapFracture_Triangle___o *__this_02;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_03;
+  System_Random_o *__this_04;
+  System_Collections_Generic_List_Vector3__o *pSVar11;
+  System_Collections_Generic_List_int__o *__this_05;
+  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar12;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_06;
+  char *pcVar13;
+  Il2CppObject *pIVar14;
+  Il2CppClass *pIVar15;
+  System_Comparison_T__o *comparison;
+  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar16;
+  Map_MapDestructionDebris_o *method_00;
+  MethodInfo **method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
+  int item;
+  int index;
+  char **targetAddress;
+  MethodInfo *pMVar17;
+  Il2CppObject *targetAddress_00;
+  uint uVar18;
+  System_Collections_Generic_List_MapFracture_Triangle__o *source;
+  undefined4 extraout_XMM0_Db;
+  undefined4 uVar19;
+  float extraout_XMM0_Dc;
+  float extraout_XMM0_Dd;
+  float fVar20;
+  undefined1 auVar21 [16];
+  UnityEngine_Vector3_o UVar22;
+  UnityEngine_Vector3_o normal;
+  float fStack_c8;
+  float fStack_c4;
+  float fStack_68;
+  float fStack_64;
+  UnityEngine_Bounds_o UStack_48;
   
-  pMVar1 = (__this->fields).__4__this;
-  if ((pMVar1 != (Map_MapDestructionDebris_o *)0x0) &&
-     (__this_00 = (__this->fields).fracture, __this_00 != (Map_MapFracture_o *)0x0)) {
-    pSVar2 = Map_MapFracture__Shatter
-                       (__this_00,(__this->fields).pieces,(__this->fields).ground,(pMVar1->fields)._seed,
-                        (MethodInfo *)0x0);
-    return pSVar2;
+  method_00 = (__this->fields).__4__this;
+  if ((method_00 == (Map_MapDestructionDebris_o *)0x0) ||
+     (__this_00 = (__this->fields).fracture, __this_00 == (Map_MapFracture_o *)0x0)) {
+    ThrowNullReferenceException();
   }
+  iVar10 = (__this->fields).pieces;
+  fVar20 = (__this->fields).ground;
+  Seed = (method_00->fields)._seed;
+  if (Il2CppMethodInitialized_07545a16 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Comparison_int);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Sort_7195140);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198620);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapFracture_Triangle)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_List_MapFracture_Triangle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Random);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_c__DisplayClass16_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Map_MapFracture_c__DisplayClass16_1_Shatter_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_c__DisplayClass16_1);
+    Il2CppMethodInitialized_07545a16 = '\x01';
+  }
+  __this_01 = (Il2CppClass *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_0);
+  pMVar17 = (MethodInfo *)0x0;
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  Map_MapFracture__CloseOpenings(__this_00,pMVar17);
+  __this_02 = (System_Collections_Generic_List_List_MapFracture_Triangle___o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_List_MapFracture_Triangle);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)__this_02,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_ctor);
+  pSVar12 = (__this_00->fields)._triangles;
+  if (pSVar12 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    capacity = (pSVar12->fields)._size;
+    __this_03 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+    System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+              (__this_03,capacity,
+               (MethodInfo_3AB1540 *)
+               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+    pSVar12 = (__this_00->fields)._triangles;
+    if (Il2CppMethodInitialized_0753e72c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72c = '\x01';
+    }
+    bVar9 = Map_MapFracture__Clip
+                      (__this_00,pSVar12,__this_03,
+                       (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->upVector).fields,
+                       fVar20,(MethodInfo *)method_00);
+    if (!bVar9) {
+      __this_03 = (__this_00->fields)._triangles;
+    }
+    if (__this_03 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+      if ((__this_03->fields)._size == 0) {
+        return __this_02;
+      }
+      Map_MapFracture__GetBounds(&UStack_48,__this_03,method_02);
+      __this_04 = (System_Random_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Random);
+      System_Random___ctor_54cebf0(__this_04,Seed,(MethodInfo *)0x0);
+      bounds.fields.m_Center.fields.z = UStack_48.fields.m_Center.fields.z;
+      bounds.fields.m_Extents.fields.x = UStack_48.fields.m_Extents.fields.x;
+      bounds.fields.m_Center.fields.x = UStack_48.fields.m_Center.fields.x;
+      bounds.fields.m_Center.fields.y = UStack_48.fields.m_Center.fields.y;
+      bounds.fields.m_Extents.fields.y = UStack_48.fields.m_Extents.fields.y;
+      bounds.fields.m_Extents.fields.z = UStack_48.fields.m_Extents.fields.z;
+      pSVar11 = Map_MapFracture__CreateSeeds(bounds,iVar10,__this_04,method_03);
+      if (__this_01 != (Il2CppClass *)0x0) {
+        targetAddress = &(__this_01->_1).name;
+        (__this_01->_1).name = (char *)pSVar11;
+        Il2CppCodeGenWriteBarrier(targetAddress);
+        pcVar13 = (__this_01->_1).name;
+        if (pcVar13 != (char *)0x0) {
+          iVar10 = *(int32_t *)(pcVar13 + 0x18);
+          __this_05 = (System_Collections_Generic_List_int__o *)
+                      il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+          System_Collections_Generic_List_int____ctor_3916240
+                    (__this_05,iVar10,
+                     (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+          iVar10 = (__this_03->fields)._size;
+          pSVar12 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+          System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+                    (pSVar12,iVar10,
+                     (MethodInfo_3AB1540 *)
+                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+          iVar10 = (__this_03->fields)._size;
+          __this_06 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                      il2cpp_codegen_object_new
+                                ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle)
+          ;
+          System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+                    (__this_06,iVar10,
+                     (MethodInfo_3AB1540 *)
+                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+          pcVar13 = *targetAddress;
+          if (pcVar13 != (char *)0x0) {
+            if (__this_05 == (System_Collections_Generic_List_int__o *)0x0) {
+              if (*(int *)(pcVar13 + 0x18) < 1) {
+                return __this_02;
+              }
+              pIVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_1)
+              ;
+              System_Object___ctor(pIVar14,(MethodInfo *)0x0);
+              if (pIVar14 != (Il2CppObject *)0x0) {
+                pIVar14[2].klass = __this_01;
+                Il2CppCodeGenWriteBarrier(&pIVar14[2].klass);
+                if ((pIVar14[2].klass != (Il2CppClass *)0x0) &&
+                   (pSVar11 = (System_Collections_Generic_List_Vector3__o *)((pIVar14[2].klass)->_1).name,
+                   pSVar11 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
+                  UVar22 = System_Collections_Generic_List_Vector3___get_Item
+                                     (pSVar11,0,
+                                      (MethodInfo_39FF5D0 *)
+                                      MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                  pIVar14[1].klass = UVar22.fields._0_8_;
+                  *(float *)&pIVar14[1].monitor = UVar22.fields.z;
+                  ThrowNullReferenceException();
+                }
+              }
+            }
+            else {
+              index = 0;
+              while( true ) {
+                if (*(int *)(pcVar13 + 0x18) <= index) {
+                  return __this_02;
+                }
+                pIVar14 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_1);
+                System_Object___ctor(pIVar14,(MethodInfo *)0x0);
+                if (pIVar14 == (Il2CppObject *)0x0) break;
+                targetAddress_00 = pIVar14 + 2;
+                pIVar14[2].klass = __this_01;
+                Il2CppCodeGenWriteBarrier(&targetAddress_00->klass);
+                if ((pIVar14[2].klass == (Il2CppClass *)0x0) ||
+                   (pSVar11 = (System_Collections_Generic_List_Vector3__o *)((pIVar14[2].klass)->_1).name,
+                   pSVar11 == (System_Collections_Generic_List_Vector3__o *)0x0)) break;
+                UVar22 = System_Collections_Generic_List_Vector3___get_Item
+                                   (pSVar11,index,
+                                    (MethodInfo_39FF5D0 *)
+                                    MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                pIVar14[1].klass = UVar22.fields._0_8_;
+                *(float *)&pIVar14[1].monitor = UVar22.fields.z;
+                piVar1 = &(__this_05->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                (__this_05->fields)._size = 0;
+                pIVar15 = pIVar14[2].klass;
+                if (pIVar15 == (Il2CppClass *)0x0) break;
+                item = 0;
+                while( true ) {
+                  pMVar17 = MethodInfo_System_Collections_Generic_List_int_Add;
+                  pcVar13 = (pIVar15->_1).name;
+                  if (pcVar13 == (char *)0x0) goto label_05988743;
+                  if (*(int *)(pcVar13 + 0x18) <= item) break;
+                  if (index != item) {
+                    piVar1 = &(__this_05->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pSVar5 = (__this_05->fields)._items;
+                    if (pSVar5 == (System_Int32_array *)0x0) goto label_05988743;
+                    uVar18 = (__this_05->fields)._size;
+                    if (uVar18 < (uint)pSVar5->max_length) {
+                      (__this_05->fields)._size = uVar18 + 1;
+                      pSVar5->m_Items[(int)uVar18] = item;
+                    }
+                    else {
+                      System_Collections_Generic_List_int___AddWithResize
+                                (__this_05,item,(MethodInfo_3916AC0 *)pMVar17->klass->rgctx_data[0xe].method);
+                      pIVar15 = targetAddress_00->klass;
+                    }
+                  }
+                  item = item + 1;
+                  if (pIVar15 == (Il2CppClass *)0x0) goto label_05988743;
+                }
+                comparison = (System_Comparison_T__o *)
+                             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Comparison_int);
+                System_Comparison_int____ctor
+                          ((System_Comparison_int__o *)comparison,pIVar14,
+                           (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass16_1_Shatter_b__0,
+                           (MethodInfo_48E1930 *)0x0);
+                System_Collections_Generic_List_int___Sort_3918cc0
+                          (__this_05,comparison,
+                           (MethodInfo_3918CC0 *)MethodInfo_System_Collections_Generic_List_int_Sort_7195140);
+                source = __this_03;
+                if (0 < (__this_05->fields)._size) {
+                  uVar18 = 0;
+                  do {
+                    if (source == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0)
+                    goto label_05988743;
+                    if ((source->fields)._size < 1) goto label_05988227;
+                    if (targetAddress_00->klass == (Il2CppClass *)0x0) goto label_05988743;
+                    pSVar11 = (System_Collections_Generic_List_Vector3__o *)(targetAddress_00->klass->_1).name
+                    ;
+                    iVar10 = System_Collections_Generic_List_int___get_Item
+                                       (__this_05,uVar18,
+                                        (MethodInfo_39167D0 *)
+                                        MethodInfo_System_Collections_Generic_List_int_get_Item);
+                    if (pSVar11 == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_05988743;
+                    method_01 = &MethodInfo_System_Collections_Generic_List_Vector3_get_Item;
+                    UVar22 = System_Collections_Generic_List_Vector3___get_Item
+                                       (pSVar11,iVar10,
+                                        (MethodInfo_39FF5D0 *)
+                                        MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                    pIVar15 = pIVar14[1].klass;
+                    fVar20 = *(float *)&pIVar14[1].monitor;
+                    fStack_c8 = SUB84(pIVar15,0);
+                    fStack_c4 = (float)((ulong)pIVar15 >> 0x20);
+                    if (Il2CppMethodInitialized_0753e72d == '\0') {
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                      Il2CppMethodInitialized_0753e72d = '\x01';
+                      fVar2 = fStack_c8;
+                      fVar3 = fStack_c4;
+                      if (g_data_0753e729 == '\0') goto label_05988603;
+label_05988467:
+                      uVar4 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                    }
+                    else {
+                      fVar2 = *(float *)&pIVar14[1].klass;
+                      fVar3 = *(float *)((long)&pIVar14[1].klass + 4);
+                      if (g_data_0753e729 != '\0') goto label_05988467;
+label_05988603:
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+                      g_data_0753e729 = '\x01';
+                      uVar4 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                      fVar2 = fStack_c8;
+                      fVar3 = fStack_c4;
+                    }
+                    if (uVar4 == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+                      fVar2 = fStack_c8;
+                      fVar3 = fStack_c4;
+                    }
+                    uVar19 = 0;
+                    fStack_68 = UVar22.fields.x;
+                    fStack_64 = UVar22.fields.y;
+                    auVar21._0_4_ = fVar2 - fStack_68;
+                    auVar21._4_4_ = fVar3 - fStack_64;
+                    auVar21._8_4_ = 0.0 - extraout_XMM0_Dc;
+                    auVar21._12_4_ = 0.0 - extraout_XMM0_Dd;
+                    fVar20 = fVar20 - UVar22.fields.z;
+                    fVar2 = fVar20 * fVar20 + auVar21._4_4_ * auVar21._4_4_ + auVar21._0_4_ * auVar21._0_4_;
+                    if (fVar2 < 0.0) {
+                      fVar2 = sqrtf(fVar2);
+                      uVar19 = extraout_XMM0_Db;
+                      if (1e-05 < fVar2) goto label_05988512;
+label_059884c1:
+                      pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
+                      fVar20 = (pUVar6->zeroVector).fields.z;
+                      fVar2 = (pUVar6->zeroVector).fields.x;
+                      fVar3 = (pUVar6->zeroVector).fields.y;
+                    }
+                    else {
+                      fVar2 = SQRT(fVar2);
+                      if (fVar2 <= 1e-05) goto label_059884c1;
+label_05988512:
+                      fVar20 = fVar20 / fVar2;
+                      auVar8._4_4_ = fVar2;
+                      auVar8._0_4_ = fVar2;
+                      auVar8._8_4_ = uVar19;
+                      auVar8._12_4_ = uVar19;
+                      auVar21 = divps(auVar21,auVar8);
+                      fVar2 = auVar21._0_4_;
+                      fVar3 = auVar21._4_4_;
+                    }
+                    pSVar16 = __this_06;
+                    if (source != pSVar12) {
+                      pSVar16 = pSVar12;
+                    }
+                    normal.fields.y = fVar3;
+                    normal.fields.x = fVar2;
+                    normal.fields.z = fVar20;
+                    bVar9 = Map_MapFracture__Clip
+                                      (__this_00,source,pSVar16,normal,
+                                       fVar2 * (SUB84(pIVar14[1].klass,0) + fStack_68) * 0.5 +
+                                       fVar3 * (fStack_64 + (float)((ulong)pIVar14[1].klass >> 0x20)) * 0.5 +
+                                       fVar20 * (*(float *)&pIVar14[1].monitor + UVar22.fields.z) * 0.5,
+                                       (MethodInfo *)method_01);
+                    if (!bVar9) {
+                      pSVar16 = source;
+                    }
+                    source = pSVar16;
+                  } while ((uVar18 < 0x13) && (uVar18 = uVar18 + 1, (int)uVar18 < (__this_05->fields)._size));
+                }
+                if (source == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) break;
+                if (0 < (source->fields)._size) {
+                  pSVar16 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                            il2cpp_codegen_object_new
+                                      ((Il2CppClass *)
+                                       TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+                  System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1620
+                            (pSVar16,(System_Collections_Generic_IEnumerable_T__o *)source,
+                             (MethodInfo_3AB1620 *)
+                             MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198620);
+                  pMVar17 = MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_Add;
+                  if (__this_02 == (System_Collections_Generic_List_List_MapFracture_Triangle___o *)0x0)
+                  break;
+                  piVar1 = &(__this_02->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pSVar7 = (__this_02->fields)._items;
+                  if (pSVar7 == (System_Collections_Generic_List_MapFracture_Triangle__array *)0x0) break;
+                  uVar18 = (__this_02->fields)._size;
+                  if (uVar18 < (uint)pSVar7->max_length) {
+                    (__this_02->fields)._size = uVar18 + 1;
+                    pSVar7->m_Items[(int)uVar18] = pSVar16;
+                    Il2CppCodeGenWriteBarrier(pSVar7->m_Items + (int)uVar18);
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              ((System_Collections_Generic_List_object__o *)__this_02,(Il2CppObject *)pSVar16,
+                               (MethodInfo_395D230 *)pMVar17->klass->rgctx_data[0xe].method);
+                  }
+                }
+label_05988227:
+                index = index + 1;
+                pcVar13 = *targetAddress;
+                if (pcVar13 == (char *)0x0) break;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+label_05988743:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris.<>c__DisplayClass45_0$$.ctor
 // il2cpp: void Map_MapDestructionDebris___c__DisplayClass45_0___ctor (Map_MapDestructionDebris___c__DisplayClass45_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x59862b0
 
-void
-Map_MapDestructionDebris___c__DisplayClass45_0___ctor(Map_MapDestructionDebris___c__DisplayClass45_0_o* __this, MethodInfo* method)
+void Map_MapDestructionDebris___c__DisplayClass45_0___ctor
+               (Map_MapDestructionDebris___c__DisplayClass45_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapDestructionDebris.<>c__DisplayClass45_0$$<CreateFragments>b__0
 // il2cpp: void Map_MapDestructionDebris___c__DisplayClass45_0___CreateFragments_b__0 (Map_MapDestructionDebris___c__DisplayClass45_0_o* __this, const MethodInfo* method);
-// 0x181eb9fd0
-// eh: try 0x181eba080..0x181eba0bc -> pad 0x183315930 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181eba07f: nop 
-// asm:   0x181eba0cd: mov rdx, qword ptr [rip + 0x21c41f4]  ; MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_Dispose
-// asm:   0x181eba0d4: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181eba0d9: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181eba0de: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181eba0e3: test rcx, rcx
-// asm:   0x181eba0e6: jne 0x181eba0f3
-// asm:   0x181eba0f3: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5988770
+// eh: try 0x5988820..0x5988852 -> pad 0x5988878 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5988890..0x5988895 -> pad 0x59888b4 cleanup
+// eh: try 0x59888b7..0x59888c1 -> pad 0x59888c9 catch (...) [compiler noexcept guard]
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5988876: jmp 0x5988878
+// asm:   0x5988878: mov rbx, rax
+// asm:   0x598887b: cmp edx, 1
+// asm:   0x598887e: jne 0x59888b7
+// asm:   0x5988880: mov rdi, rbx
+// asm:   0x5988883: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5988888: mov rbx, qword ptr [rax]
+// asm:   0x598888b: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x5988890: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5988895: lea rax, [rip + 0x19053a4]  ; MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_Dispose
+// asm:   0x598889c: mov rsi, qword ptr [rax]
+// asm:   0x598889f: mov rdi, rsp
+// asm:   0x59888a2: call 0x4d33570  ; System_Collections_Generic_List_Enumerator_EntityId___Dispose()
+// asm:   0x59888a7: test rbx, rbx
+// asm:   0x59888aa: je 0x5988866
+// asm:   0x59888ac: mov rdi, rbx
+// asm:   0x59888af: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59888b4: mov rbx, rax
+// asm:   0x59888b7: lea rdi, [rsp + 0x18]
+// asm:   0x59888bc: call 0x2fd4380  ; il2cpp_runtime_helper_02fd4380()
+// asm:   0x59888c1: mov rdi, rbx
+// asm:   0x59888c4: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59888c9: mov rdi, rax
+// asm:   0x59888cc: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapDestructionDebris___c__DisplayClass45_0___CreateFragments_b__0
                (Map_MapDestructionDebris___c__DisplayClass45_0_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this_00;
+  System_Collections_Generic_List_EntityId__o *__this_00;
   UnityEngine_EntityId_o meshEntityId;
   bool bVar1;
-  undefined1 local_40 [16];
-  Il2CppObject *local_30;
-  undefined1 local_28 [16];
-  Il2CppObject *local_18;
+  undefined1 auStack_48 [16];
+  Il2CppObject *pIStack_38;
+  undefined8 uStack_30;
+  undefined1 *puStack_28;
   
-  if (Il2CppMethodInitialized_184345080 == '\0') {
+  if (Il2CppMethodInitialized_07545a11 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -120,65 +505,63 @@ void Map_MapDestructionDebris___c__DisplayClass45_0___CreateFragments_b__0
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_EntityId_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
-    Il2CppMethodInitialized_184345080 = '\x01';
+    Il2CppMethodInitialized_07545a11 = '\x01';
   }
-  local_28._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_28._8_8_ = 0;
-  local_18 = (Il2CppObject *)0x0;
-  __this_00 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)(__this->fields).convex;
-  if (__this_00 != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,__this_00,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_EntityId_GetEnumerator);
-    local_28._0_8_ = local_40._0_8_;
-    local_28._8_8_ = local_40._8_8_;
-    local_18 = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
-    while( true ) {
-      bVar1 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_28,
-                         (MethodInfo_1530180 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_MoveNext);
-      if (!bVar1) break;
-      meshEntityId.fields.m_Data = local_18._0_4_;
-      if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
-      }
-      UnityEngine_Physics__BakeMesh_2fe1320(meshEntityId,true,(MethodInfo *)0x0);
+  auStack_48._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  auStack_48._8_4_ = 0;
+  auStack_48._12_4_ = 0;
+  pIStack_38 = (Il2CppObject *)0x0;
+  __this_00 = (__this->fields).convex;
+  if (__this_00 == (System_Collections_Generic_List_EntityId__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_EntityId___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)auStack_48,__this_00,
+             (MethodInfo_520CFB0 *)MethodInfo_System_Collections_Generic_List_EntityId_GetEnumerator);
+  uStack_30 = 0;
+  puStack_28 = auStack_48;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_EntityId___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_T__o *)auStack_48,
+                       (MethodInfo_4C33580 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_MoveNext);
+    if (!bVar1) break;
+    meshEntityId.fields.m_Data = pIStack_38._0_4_;
+    if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
     }
-    System_Collections_Generic_List_Enumerator_EntityId___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
-               MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_Dispose);
-    return;
+    UnityEngine_Physics__BakeMesh_69de2d0(meshEntityId,true,(MethodInfo *)0x0);
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_List_Enumerator_EntityId___Dispose
+            ((System_Collections_Generic_List_Enumerator_T__o *)auStack_48,
+             (MethodInfo_4C33570 *)MethodInfo_System_Collections_Generic_List_Enumerator_EntityId_Dispose);
+  return;
 }
 
 
 // Map.MapDestructionDebris$$Spawn
 // il2cpp: void Map_MapDestructionDebris__Spawn (Map_DestructibleMapObject_o* target, const MethodInfo* method);
-// 0x181e9f160
+// 0x5981de0
 
 void Map_MapDestructionDebris__Spawn(Map_DestructibleMapObject_o *target,MethodInfo *method)
 
 {
-  UnityEngine_Bounds_o *pUVar1;
-  int32_t *piVar2;
-  uint uVar3;
-  UnityEngine_MeshFilter_array *pUVar4;
-  System_Collections_Generic_List_MapDestructionDebris__o *pSVar5;
-  Map_MapDestructionDebris_array *pMVar6;
-  MethodInfo *pMVar7;
-  int32_t iVar8;
-  Map_MapDestructionDebris_o *pMVar9;
+  int32_t *piVar1;
+  uint uVar2;
+  UnityEngine_MeshFilter_array *pUVar3;
+  Map_MapDestructionDebris_array *pMVar4;
+  MethodInfo *pMVar5;
+  int32_t iVar6;
+  System_Collections_Generic_List_MapDestructionDebris__o *pSVar7;
+  Map_MapDestructionDebris_o *pMVar8;
   UnityEngine_Object_o *obj;
   UnityEngine_GameObject_o *__this;
   UnityEngine_Transform_o *__this_00;
   UnityEngine_MeshRenderer_o *__this_01;
-  UnityEngine_Vector3_Fields local_18;
+  MethodInfo *method_00;
+  Map_MapDestructionDebris_c *method_01;
   
-  if (Il2CppMethodInitialized_18434506f == '\0') {
+  if (Il2CppMethodInitialized_07545a00 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_MapDestructionDebris);
@@ -195,46 +578,47 @@ void Map_MapDestructionDebris__Spawn(Map_DestructibleMapObject_o *target,MethodI
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
     il2cpp_codegen_initialize_runtime_metadata(&"Map destruction debris");
-    Il2CppMethodInitialized_18434506f = '\x01';
+    Il2CppMethodInitialized_07545a00 = '\x01';
   }
   if ((target != (Map_DestructibleMapObject_o *)0x0) &&
-     (pUVar4 = (target->fields).Filters, pUVar4 != (UnityEngine_MeshFilter_array *)0x0)) {
-    if (pUVar4->max_length == 0) {
+     (pUVar3 = (target->fields).Filters, pUVar3 != (UnityEngine_MeshFilter_array *)0x0)) {
+    if (pUVar3->max_length == 0) {
       return;
     }
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    pSVar5 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
-    if (pSVar5 != (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) {
-      if (7 < (pSVar5->fields)._size) {
+    pSVar7 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
+    if (pSVar7 != (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) {
+      if (7 < (pSVar7->fields)._size) {
         if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+          pSVar7 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
+          if (pSVar7 == (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) goto label_05982114;
         }
-        pSVar5 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
-        if ((pSVar5 == (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) ||
-           (pMVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)pSVar5,0,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_MapDestructionDebris_get_Item),
-           pMVar9 == (Map_MapDestructionDebris_o *)0x0)) goto label_181e9f49e;
+        pMVar8 = System_Collections_Generic_List_object___get_Item
+                           ((System_Collections_Generic_List_object__o *)pSVar7,0,
+                            (MethodInfo_395CF20 *)
+                            MethodInfo_System_Collections_Generic_List_MapDestructionDebris_get_Item);
+        if (pMVar8 == (Map_MapDestructionDebris_o *)0x0) goto label_05982114;
         obj = (UnityEngine_Object_o *)
-              UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pMVar9,(MethodInfo *)0x0);
+              UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pMVar8,(MethodInfo *)0x0);
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        UnityEngine_Object__Destroy_2f1ff70(obj,(MethodInfo *)0x0);
-        pSVar5 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
-        if (pSVar5 == (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) goto label_181e9f49e;
+        UnityEngine_Object__Destroy_69214e0(obj,(MethodInfo *)0x0);
+        pSVar7 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
+        if (pSVar7 == (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) goto label_05982114;
         System_Collections_Generic_List_object___RemoveAt
-                  ((System_Collections_Generic_List_object__o *)pSVar5,0,
-                   (MethodInfo_947010 *)
+                  ((System_Collections_Generic_List_object__o *)pSVar7,0,
+                   (MethodInfo_395F100 *)
                    MethodInfo_System_Collections_Generic_List_MapDestructionDebris_RemoveAt);
       }
+      method_01 = TypeInfo_Map_MapDestructionDebris;
       if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
       }
-      Map_MapDestructionDebris__LoadAssets((MethodInfo *)0x0);
+      Map_MapDestructionDebris__LoadAssets((MethodInfo *)method_01);
       __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
       UnityEngine_GameObject___ctor(__this,"Map destruction debris",(MethodInfo *)0x0);
       if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
@@ -246,53 +630,48 @@ void Map_MapDestructionDebris__Spawn(Map_DestructibleMapObject_o *target,MethodI
         ;
         __this_00 = UnityEngine_GameObject__get_transform(__this,(MethodInfo *)0x0);
         if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-          local_18.z = (target->fields).Bounds.fields.m_Center.fields.z;
-          pUVar1 = &(target->fields).Bounds;
-          local_18.x = (pUVar1->fields).m_Center.fields.x;
-          local_18.y = (pUVar1->fields).m_Center.fields.y;
-          UnityEngine_Transform__set_position(__this_00,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-          pMVar9 = UnityEngine_GameObject__AddComponent_object_
-                             (__this,(MethodInfo_6F4D60 *)
+          UnityEngine_Transform__set_position
+                    (__this_00,(UnityEngine_Vector3_o)(target->fields).Bounds.fields.m_Center.fields,
+                     (MethodInfo *)0x0);
+          pMVar8 = UnityEngine_GameObject__AddComponent_object_
+                             (__this,(MethodInfo_353B6A0 *)
                                      MethodInfo_UnityEngine_GameObject_AddComponent_MapDestructionDebris);
-          if (pMVar9 != (Map_MapDestructionDebris_o *)0x0) {
-            (pMVar9->fields)._seed = (target->fields).Id;
-            pUVar4 = (target->fields).Filters;
-            if (pUVar4 != (UnityEngine_MeshFilter_array *)0x0) {
-              if ((int)pUVar4->max_length == 0) {
-label_181e9f4a4:
+          if (pMVar8 != (Map_MapDestructionDebris_o *)0x0) {
+            (pMVar8->fields)._seed = (target->fields).Id;
+            pUVar3 = (target->fields).Filters;
+            if (pUVar3 != (UnityEngine_MeshFilter_array *)0x0) {
+              if ((int)pUVar3->max_length == 0) {
                 ThrowIndexOutOfRangeException();
               }
-              if (((UnityEngine_Component_o *)pUVar4->m_Items[0] != (UnityEngine_Component_o *)0x0) &&
-                 (__this_01 = UnityEngine_Component__GetComponent_object_
-                                        ((UnityEngine_Component_o *)pUVar4->m_Items[0],
-                                         (MethodInfo_6651A0 *)
-                                         MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer),
-                 __this_01 != (UnityEngine_MeshRenderer_o *)0x0)) {
-                iVar8 = UnityEngine_Renderer__get_shadowCastingMode
-                                  ((UnityEngine_Renderer_o *)__this_01,(MethodInfo *)0x0);
-                (pMVar9->fields)._shadows = iVar8;
-                Map_MapDestructionDebris__Shatter(pMVar9,target,(MethodInfo *)0x0);
-                pMVar7 = MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Add;
-                pSVar5 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
-                if (pSVar5 != (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) {
-                  piVar2 = &(pSVar5->fields)._version;
-                  *piVar2 = *piVar2 + 1;
-                  pMVar6 = (pSVar5->fields)._items;
-                  if (pMVar6 != (Map_MapDestructionDebris_array *)0x0) {
-                    uVar3 = (pSVar5->fields)._size;
-                    if ((uint)pMVar6->max_length <= uVar3) {
+              if ((UnityEngine_Component_o *)pUVar3->m_Items[0] != (UnityEngine_Component_o *)0x0) {
+                __this_01 = UnityEngine_Component__GetComponent_object_
+                                      ((UnityEngine_Component_o *)pUVar3->m_Items[0],
+                                       (MethodInfo_34B0830 *)
+                                       MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
+                if (__this_01 != (UnityEngine_MeshRenderer_o *)0x0) {
+                  iVar6 = UnityEngine_Renderer__get_shadowCastingMode
+                                    ((UnityEngine_Renderer_o *)__this_01,(MethodInfo *)0x0);
+                  (pMVar8->fields)._shadows = iVar6;
+                  Map_MapDestructionDebris__Shatter(pMVar8,target,method_00);
+                  pMVar5 = MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Add;
+                  pSVar7 = TypeInfo_Map_MapDestructionDebris->static_fields->Active;
+                  if (pSVar7 != (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) {
+                    piVar1 = &(pSVar7->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pMVar4 = (pSVar7->fields)._items;
+                    if (pMVar4 != (Map_MapDestructionDebris_array *)0x0) {
+                      uVar2 = (pSVar7->fields)._size;
+                      if (uVar2 < (uint)pMVar4->max_length) {
+                        (pSVar7->fields)._size = uVar2 + 1;
+                        pMVar4->m_Items[(int)uVar2] = pMVar8;
+                        Il2CppCodeGenWriteBarrier(pMVar4->m_Items + (int)uVar2);
+                        return;
+                      }
                       System_Collections_Generic_List_object___AddWithResize
-                                ((System_Collections_Generic_List_object__o *)pSVar5,(Il2CppObject *)pMVar9,
-                                 (MethodInfo_93DD50 *)pMVar7->klass->rgctx_data[0xe].method);
+                                ((System_Collections_Generic_List_object__o *)pSVar7,(Il2CppObject *)pMVar8,
+                                 (MethodInfo_395D230 *)pMVar5->klass->rgctx_data[0xe].method);
                       return;
                     }
-                    (pSVar5->fields)._size = uVar3 + 1;
-                    if (uVar3 < (uint)pMVar6->max_length) {
-                      pMVar6->m_Items[(int)uVar3] = pMVar9;
-                      Il2CppCodeGenWriteBarrier(pMVar6->m_Items + (int)uVar3,pMVar9);
-                      return;
-                    }
-                    goto label_181e9f4a4;
                   }
                 }
               }
@@ -302,31 +681,32 @@ label_181e9f4a4:
       }
     }
   }
-label_181e9f49e:
+label_05982114:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$LoadAssets
 // il2cpp: void Map_MapDestructionDebris__LoadAssets (const MethodInfo* method);
-// 0x181e9e7b0
+// 0x5982d70
 
 void Map_MapDestructionDebris__LoadAssets(MethodInfo *method)
 
 {
   UnityEngine_Object_o *pUVar1;
-  bool bVar2;
-  UnityEngine_Shader_o *value;
+  Map_MapDestructionDebris_StaticFields *pMVar2;
+  bool bVar3;
+  UnityEngine_Shader_o *pUVar4;
   UnityEngine_PhysicsMaterial_o *__this;
   
-  if (Il2CppMethodInitialized_184345070 == '\0') {
+  if (Il2CppMethodInitialized_07545a01 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_PhysicsMaterial);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Resources_Load_Shader);
     il2cpp_codegen_initialize_runtime_metadata(&"Shaders/MapDebris");
     il2cpp_codegen_initialize_runtime_metadata(&"Rubble");
-    Il2CppMethodInitialized_184345070 = '\x01';
+    Il2CppMethodInitialized_07545a01 = '\x01';
   }
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
@@ -335,16 +715,17 @@ void Map_MapDestructionDebris__LoadAssets(MethodInfo *method)
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    value = UnityEngine_Resources__Load_object_
-                      ("Shaders/MapDebris",(MethodInfo_7965D0 *)MethodInfo_UnityEngine_Resources_Load_Shader
-                      );
+  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pUVar4 = UnityEngine_Resources__Load_object_
+                       ("Shaders/MapDebris",
+                        (MethodInfo_3665C30 *)MethodInfo_UnityEngine_Resources_Load_Shader);
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    TypeInfo_Map_MapDestructionDebris->static_fields->_shader = value;
-    Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapDestructionDebris->static_fields->_shader,value);
+    pMVar2 = TypeInfo_Map_MapDestructionDebris->static_fields;
+    pMVar2->_shader = pUVar4;
+    Il2CppCodeGenWriteBarrier(&pMVar2->_shader);
   }
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
@@ -353,23 +734,24 @@ void Map_MapDestructionDebris__LoadAssets(MethodInfo *method)
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
+  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
     __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_PhysicsMaterial);
-    UnityEngine_PhysicsMaterial___ctor_2fdf180(__this,"Rubble",(MethodInfo *)0x0);
-    if (__this != (UnityEngine_PhysicsMaterial_o *)0x0) {
-      UnityEngine_PhysicsMaterial__set_staticFriction(__this,0.1,(MethodInfo *)0x0);
-      UnityEngine_PhysicsMaterial__set_dynamicFriction(__this,0.1,(MethodInfo *)0x0);
-      UnityEngine_PhysicsMaterial__set_frictionCombine(__this,2,(MethodInfo *)0x0);
-      UnityEngine_PhysicsMaterial__set_bounceCombine(__this,2,(MethodInfo *)0x0);
-      if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
-      }
-      TypeInfo_Map_MapDestructionDebris->static_fields->_rubble = __this;
-      Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapDestructionDebris->static_fields->_rubble,__this);
-      return;
+    UnityEngine_PhysicsMaterial___ctor_69e0540(__this,"Rubble",(MethodInfo *)0x0);
+    if (__this == (UnityEngine_PhysicsMaterial_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    ThrowNullReferenceException();
+    UnityEngine_PhysicsMaterial__set_staticFriction(__this,0.1,(MethodInfo *)0x0);
+    UnityEngine_PhysicsMaterial__set_dynamicFriction(__this,0.1,(MethodInfo *)0x0);
+    UnityEngine_PhysicsMaterial__set_frictionCombine(__this,2,(MethodInfo *)0x0);
+    UnityEngine_PhysicsMaterial__set_bounceCombine(__this,2,(MethodInfo *)0x0);
+    if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+    }
+    pMVar2 = TypeInfo_Map_MapDestructionDebris->static_fields;
+    pMVar2->_rubble = __this;
+    Il2CppCodeGenWriteBarrier(&pMVar2->_rubble);
+    return;
   }
   return;
 }
@@ -377,148 +759,147 @@ void Map_MapDestructionDebris__LoadAssets(MethodInfo *method)
 
 // Map.MapDestructionDebris$$FindGround
 // il2cpp: float Map_MapDestructionDebris__FindGround (UnityEngine_Bounds_o bounds, const MethodInfo* method);
-// 0x181e9e170
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9e2f6: nop word ptr [rax + rax]
-// asm:   0x181e9e3d7: movaps xmm0, xmm7
-// asm:   0x181e9e3da: jmp 0x181e9e3e6
+// 0x5983440
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5983636: movaps xmmword ptr [rsp], xmm1
 
-float Map_MapDestructionDebris__FindGround(UnityEngine_Bounds_o *bounds,MethodInfo *method)
+float Map_MapDestructionDebris__FindGround(UnityEngine_Bounds_o bounds,MethodInfo *method)
 
 {
-  float fVar1;
+  int32_t layerMask;
+  UnityEngine_RaycastHit_array *pUVar1;
+  UnityEngine_Vector3_Fields direction;
   float fVar2;
-  float fVar3;
-  float fVar4;
-  undefined8 uVar5;
+  uint uVar3;
+  long lVar4;
+  ulong uVar5;
   float fVar6;
-  UnityEngine_Vector3_StaticFields *pUVar7;
-  UnityEngine_RaycastHit_array *pUVar8;
-  int32_t iVar9;
-  UnityEngine_Vector3_o *pUVar10;
-  uint uVar11;
-  float fVar12;
-  UnityEngine_Vector3_o local_98;
-  UnityEngine_Vector3_Fields local_88 [8];
+  UnityEngine_Vector3_o UVar7;
   
-  if (Il2CppMethodInitialized_184345071 == '\0') {
+  if (Il2CppMethodInitialized_07545a02 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestruction);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
-    Il2CppMethodInitialized_184345071 = '\x01';
+    Il2CppMethodInitialized_07545a02 = '\x01';
   }
-  fVar12 = (bounds->fields).m_Extents.fields.y;
-  fVar1 = (bounds->fields).m_Center.fields.y;
-  fVar2 = (bounds->fields).m_Center.fields.x;
-  fVar3 = (bounds->fields).m_Center.fields.z;
-  if (Il2CppMethodInitialized_18434494b == '\0') {
+  if (Il2CppMethodInitialized_075450a5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18434494b = '\x01';
+    Il2CppMethodInitialized_075450a5 = '\x01';
   }
-  pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
-  uVar5._0_4_ = (pUVar7->downVector).fields.x;
-  uVar5._4_4_ = (pUVar7->downVector).fields.y;
-  fVar6 = (pUVar7->downVector).fields.z;
+  direction = (TypeInfo_UnityEngine_Vector3->static_fields->downVector).fields;
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
   }
-  fVar4 = (bounds->fields).m_Extents.fields.y;
-  pUVar8 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
+  pUVar1 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
   if ((TypeInfo_Map_MapDestruction->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestruction);
   }
-  iVar9 = TypeInfo_Map_MapDestruction->static_fields->MapMask;
+  UVar7.fields.y = bounds.fields.m_Center.fields.y + bounds.fields.m_Extents.fields.y + 1.0;
+  UVar7.fields.x = bounds.fields.m_Center.fields.x;
+  layerMask = TypeInfo_Map_MapDestruction->static_fields->MapMask;
   if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
   }
-  local_98.fields.x = fVar2;
-  local_98.fields.y = fVar12 + fVar1 + 1.0;
-  local_98.fields.z = fVar3;
-  local_88[0]._0_8_ = uVar5;
-  local_88[0].z = fVar6;
-  iVar9 = UnityEngine_Physics__RaycastNonAlloc_2fe4c30
-                    (&local_98,(UnityEngine_Vector3_o *)local_88,pUVar8,fVar4 + fVar4 + 2.0,iVar9,1,
+  UVar7.fields.z = bounds.fields.m_Center.fields.z;
+  uVar3 = UnityEngine_Physics__RaycastNonAlloc_69dc1f0
+                    (UVar7,(UnityEngine_Vector3_o)direction,pUVar1,
+                     bounds.fields.m_Extents.fields.y + bounds.fields.m_Extents.fields.y + 2.0,layerMask,1,
                      (MethodInfo *)0x0);
-  uVar11 = 0;
-  fVar12 = 3.4028235e+38;
-  if (0 < iVar9) {
+  fVar6 = bounds.fields.m_Center.fields.y - bounds.fields.m_Extents.fields.y;
+  if ((int)uVar3 < 1) {
+    fVar2 = 3.4028235e+38;
+  }
+  else {
+    fVar2 = 3.4028235e+38;
+    lVar4 = 0x20;
+    uVar5 = 0;
     do {
       if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
       }
-      pUVar8 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
-      if (pUVar8 == (UnityEngine_RaycastHit_array *)0x0) {
-label_181e9e40f:
+      pUVar1 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
+      if (pUVar1 == (UnityEngine_RaycastHit_array *)0x0) {
+label_059836fa:
         ThrowNullReferenceException();
       }
-      if ((uint)pUVar8->max_length <= uVar11) {
+      if ((uint)pUVar1->max_length <= uVar5) {
+label_059836bf:
         ThrowIndexOutOfRangeException();
       }
-      fVar1 = (bounds->fields).m_Center.fields.y;
-      fVar2 = (bounds->fields).m_Extents.fields.y;
-      pUVar10 = UnityEngine_RaycastHit__get_point
-                          ((UnityEngine_Vector3_o *)local_88,pUVar8->m_Items + uVar11,(MethodInfo *)0x0);
-      if (fVar1 - fVar2 <= (pUVar10->fields).y) {
+      UVar7 = UnityEngine_RaycastHit__get_point
+                        ((UnityEngine_RaycastHit_o *)((long)pUVar1->m_Items + lVar4 + -0x20),(MethodInfo *)0x0
+                        );
+      if (fVar6 <= UVar7.fields.y) {
         if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
         }
-        pUVar8 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
-        if (pUVar8 == (UnityEngine_RaycastHit_array *)0x0) goto label_181e9e40f;
-        if ((uint)pUVar8->max_length <= uVar11) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar10 = UnityEngine_RaycastHit__get_point(&local_98,pUVar8->m_Items + uVar11,(MethodInfo *)0x0);
-        fVar1 = (pUVar10->fields).y;
-        if (fVar1 <= fVar12) {
-          fVar12 = fVar1;
+        pUVar1 = TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits;
+        if (pUVar1 == (UnityEngine_RaycastHit_array *)0x0) goto label_059836fa;
+        if ((uint)pUVar1->max_length <= uVar5) goto label_059836bf;
+        UVar7 = UnityEngine_RaycastHit__get_point
+                          ((UnityEngine_RaycastHit_o *)((long)pUVar1->m_Items + lVar4 + -0x20),
+                           (MethodInfo *)0x0);
+        if (UVar7.fields.y <= fVar2) {
+          fVar2 = UVar7.fields.y;
         }
       }
-      uVar11 = uVar11 + 1;
-    } while ((int)uVar11 < iVar9);
-    if (fVar12 != 3.4028235e+38) {
-      return fVar12;
-    }
+      uVar5 = uVar5 + 1;
+      lVar4 = lVar4 + 0x2c;
+    } while (uVar3 != uVar5);
   }
-  return (bounds->fields).m_Center.fields.y - (bounds->fields).m_Extents.fields.y;
+  return (float)(~-(uint)(fVar2 == 3.4028235e+38) & (uint)fVar2 |
+                (uint)fVar6 & -(uint)(fVar2 == 3.4028235e+38));
 }
 
 
 // Map.MapDestructionDebris$$Shatter
 // il2cpp: void Map_MapDestructionDebris__Shatter (Map_MapDestructionDebris_o* __this, Map_DestructibleMapObject_o* target, const MethodInfo* method);
-// 0x181e9ed50
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9eec9: nop dword ptr [rax]
+// 0x5982f50
 
 void Map_MapDestructionDebris__Shatter
                (Map_MapDestructionDebris_o *__this,Map_DestructibleMapObject_o *target,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  UnityEngine_Bounds_o *pUVar2;
-  undefined8 uVar3;
-  uint uVar4;
-  UnityEngine_MeshFilter_array *pUVar5;
+  uint uVar2;
+  UnityEngine_MeshFilter_array *pUVar3;
   System_Collections_Generic_List_GameObject__o *__this_00;
-  UnityEngine_GameObject_array *pUVar6;
-  undefined8 uVar7;
-  undefined8 uVar8;
-  MethodInfo *pMVar9;
-  int iVar10;
-  Map_MapDestructionDebris___c__DisplayClass37_0_o *object;
+  UnityEngine_GameObject_array *pUVar4;
+  UnityEngine_Material_array *pUVar5;
+  double x;
+  double dVar6;
+  UnityEngine_Bounds_o bounds;
+  Il2CppClass *pIVar7;
+  int32_t iVar8;
+  Map_MapDestructionDebris___c__DisplayClass37_0_o *pMVar9;
   System_Collections_Generic_List_Material__o *materials;
   UnityEngine_Transform_o *root;
-  Map_MapFracture_o *value;
+  Map_MapFracture_o *pMVar10;
   UnityEngine_GameObject_o *item;
-  UnityEngine_Material_array *pUVar11;
-  UnityEngine_Material_o *pUVar12;
-  Il2CppObject *pIVar13;
-  DG_Tweening_Core_DOGetter_Vector2__o *__this_01;
-  System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *value_00;
-  uint uVar14;
-  float fVar15;
-  UnityEngine_Bounds_o local_58 [2];
+  UnityEngine_Material_array *method_00;
+  UnityEngine_Material_o *source;
+  Il2CppObject *pIVar11;
+  System_Func_TResult__o *function;
+  System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *pSVar12;
+  int iVar13;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *pMVar14;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *method_01;
+  Map_MapDestructionDebris_c *method_02;
+  MethodInfo *in_R8;
+  ulong uVar15;
+  ulong uVar16;
+  long lVar17;
+  float fVar18;
+  Il2CppMethodPointer local_58;
+  Il2CppMethodPointer pIStack_50;
+  InvokerMethod local_48;
+  Map_MapDestructionDebris___c__DisplayClass37_0_o *local_40;
+  Il2CppClass *local_38;
   
-  if (Il2CppMethodInitialized_184345072 == '\0') {
+  if (Il2CppMethodInitialized_07545a03 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_List_List_MapFracture_Triangle);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Material_ctor);
@@ -534,170 +915,215 @@ void Map_MapDestructionDebris__Shatter
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Map_MapDestructionDebris_c__DisplayClass37_0_Shatter_b__0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris_c__DisplayClass37_0);
-    Il2CppMethodInitialized_184345072 = '\x01';
+    Il2CppMethodInitialized_07545a03 = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_c__DisplayClass37_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (object != (Map_MapDestructionDebris___c__DisplayClass37_0_o *)0x0) {
-    (object->fields).__4__this = __this;
-    Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+  pMVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_c__DisplayClass37_0);
+  System_Object___ctor((Il2CppObject *)pMVar9,(MethodInfo *)0x0);
+  if (pMVar9 != (Map_MapDestructionDebris___c__DisplayClass37_0_o *)0x0) {
+    (pMVar9->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(pMVar9->fields).__4__this);
     materials = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Material);
     System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)materials,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Material_ctor);
+              ((System_Collections_Generic_List_object__o *)materials,
+               (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Material_ctor);
     if (target != (Map_DestructibleMapObject_o *)0x0) {
-      pUVar5 = (target->fields).Filters;
+      pUVar3 = (target->fields).Filters;
       root = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      value = Map_MapFracture__Read(pUVar5,root,materials,20000,(MethodInfo *)0x0);
-      (object->fields).fracture = value;
-      Il2CppCodeGenWriteBarrier(&(object->fields).fracture,value);
-      pUVar5 = (target->fields).Filters;
-      if (pUVar5 != (UnityEngine_MeshFilter_array *)0x0) {
-        uVar14 = 0;
-        while ((int)uVar14 < (int)pUVar5->max_length) {
-          if ((uint)pUVar5->max_length <= uVar14) goto label_181e9f152;
-          __this_00 = (__this->fields)._sectionVisuals;
-          item = Map_MapDestructionDebris__CreateVisual(__this,pUVar5->m_Items[(int)uVar14],(MethodInfo *)0x0)
-          ;
-          pMVar9 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
-          if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_181e9f13c;
-          piVar1 = &(__this_00->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pUVar6 = (__this_00->fields)._items;
-          if (pUVar6 == (UnityEngine_GameObject_array *)0x0) goto label_181e9f13c;
-          uVar4 = (__this_00->fields)._size;
-          if (uVar4 < (uint)pUVar6->max_length) {
-            (__this_00->fields)._size = uVar4 + 1;
-            if ((uint)pUVar6->max_length <= uVar4) goto label_181e9f152;
-            pUVar6->m_Items[(int)uVar4] = item;
-            Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)uVar4,item);
-            uVar14 = uVar14 + 1;
-          }
-          else {
-            System_Collections_Generic_List_object___AddWithResize
-                      ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
-                       (MethodInfo_93DD50 *)pMVar9->klass->rgctx_data[0xe].method);
-            uVar14 = uVar14 + 1;
-          }
+      pMVar10 = Map_MapFracture__Read(pUVar3,root,materials,20000,in_R8);
+      (pMVar9->fields).fracture = pMVar10;
+      local_40 = pMVar9;
+      Il2CppCodeGenWriteBarrier(&(pMVar9->fields).fracture);
+      pUVar3 = (target->fields).Filters;
+      local_38 = (Il2CppClass *)target;
+      if (pUVar3 != (UnityEngine_MeshFilter_array *)0x0) {
+        if (0 < (int)pUVar3->max_length) {
+          uVar15 = pUVar3->max_length & 0xffffffff;
+          uVar16 = 0;
+          pMVar14 = extraout_RDX;
+          do {
+            if (uVar15 <= uVar16) goto label_05983420;
+            __this_00 = (__this->fields)._sectionVisuals;
+            item = Map_MapDestructionDebris__CreateVisual(__this,pUVar3->m_Items[uVar16],pMVar14);
+            pMVar14 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
+            if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_0598341b;
+            piVar1 = &(__this_00->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar4 = (__this_00->fields)._items;
+            if (pUVar4 == (UnityEngine_GameObject_array *)0x0) goto label_0598341b;
+            uVar2 = (__this_00->fields)._size;
+            if (uVar2 < (uint)pUVar4->max_length) {
+              (__this_00->fields)._size = uVar2 + 1;
+              pUVar4->m_Items[(int)uVar2] = item;
+              Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2);
+              pMVar14 = extraout_RDX_01;
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
+                         (MethodInfo_395D230 *)pMVar14->klass->rgctx_data[0xe].method);
+              pMVar14 = extraout_RDX_00;
+            }
+            uVar16 = uVar16 + 1;
+            uVar2 = (uint)pUVar3->max_length;
+            uVar15 = (ulong)uVar2;
+          } while ((long)uVar16 < (long)(int)uVar2);
         }
-        if ((object->fields).fracture != (Map_MapFracture_o *)0x0) {
-          if (materials == (System_Collections_Generic_List_Material__o *)0x0) goto label_181e9f13c;
-          pUVar11 = (UnityEngine_Material_array *)
-                    SZArrayNew(TypeInfo_UnityEngine_Material_array,(materials->fields)._size);
-          (__this->fields)._fragmentMaterials = pUVar11;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._fragmentMaterials,pUVar11);
-          for (uVar14 = 0; (int)uVar14 < (materials->fields)._size; uVar14 = uVar14 + 1) {
-            pUVar11 = (__this->fields)._fragmentMaterials;
-            pUVar12 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                ((System_Collections_Generic_List_object__o *)materials,uVar14,
-                                 (MethodInfo_92B830 *)
-                                 MethodInfo_System_Collections_Generic_List_Material_get_Item);
-            pUVar12 = Map_MapDestructionDebris__GetMaterial(__this,pUVar12,(MethodInfo *)0x0);
-            if (pUVar11 == (UnityEngine_Material_array *)0x0) goto label_181e9f13c;
-            if (pUVar12 != (UnityEngine_Material_o *)0x0) {
-              pIVar13 = il2cpp_vm_Object_IsInst
-                                  ((Il2CppObject *)pUVar12,(((pUVar11->obj).klass)->_1).element_class);
-              if (pIVar13 == (Il2CppObject *)0x0) {
-                pIVar13 = il2cpp_codegen_get_array_type_mismatch_exception();
-                il2cpp_codegen_raise_exception(pIVar13,(MethodInfo *)0x0);
+        if ((pMVar9->fields).fracture != (Map_MapFracture_o *)0x0) {
+          if (materials == (System_Collections_Generic_List_Material__o *)0x0) goto label_0598341b;
+          method_00 = (UnityEngine_Material_array *)
+                      SZArrayNew(TypeInfo_UnityEngine_Material_array,(materials->fields)._size);
+          (__this->fields)._fragmentMaterials = method_00;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._fragmentMaterials);
+          if (0 < (materials->fields)._size) {
+            lVar17 = 0x20;
+            uVar15 = 0;
+            do {
+              pUVar5 = (__this->fields)._fragmentMaterials;
+              source = System_Collections_Generic_List_object___get_Item
+                                 ((System_Collections_Generic_List_object__o *)materials,(int32_t)uVar15,
+                                  (MethodInfo_395CF20 *)
+                                  MethodInfo_System_Collections_Generic_List_Material_get_Item);
+              method_00 = (UnityEngine_Material_array *)
+                          Map_MapDestructionDebris__GetMaterial(__this,source,method_01);
+              if (pUVar5 == (UnityEngine_Material_array *)0x0) goto label_0598341b;
+              if (method_00 != (UnityEngine_Material_array *)0x0) {
+                pIVar11 = il2cpp_vm_Object_IsInst
+                                    ((Il2CppObject *)method_00,(((pUVar5->obj).klass)->_1).element_class);
+                if (pIVar11 == (Il2CppObject *)0x0) {
+                  pIVar11 = il2cpp_codegen_get_array_type_mismatch_exception();
+                  il2cpp_codegen_raise_exception(pIVar11,(MethodInfo *)0x0);
+                }
               }
+              if ((uint)pUVar5->max_length <= uVar15) {
+label_05983420:
+                ThrowIndexOutOfRangeException();
+              }
+              *(UnityEngine_Material_array **)((long)pUVar5->m_Items + lVar17 + -0x20) = method_00;
+              Il2CppCodeGenWriteBarrier((void **)((long)pUVar5->m_Items + lVar17 + -0x20));
+              uVar15 = uVar15 + 1;
+              lVar17 = lVar17 + 8;
+            } while ((long)uVar15 < (long)(materials->fields)._size);
+          }
+          pIVar7 = local_38;
+          fVar18 = (float)(local_38->_1).this_arg.bits;
+          if (Il2CppMethodInitialized_07541320 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+            Il2CppMethodInitialized_07541320 = '\x01';
+          }
+          pMVar9 = local_40;
+          fVar18 = fVar18 / 3.0;
+          if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+          }
+          x = (double)fVar18;
+          pMVar14 = (MethodInfo *)&local_58;
+          dVar6 = modf(x,(double *)pMVar14,(MethodInfo *)method_00);
+          if (0.0 <= fVar18) {
+            if ((dVar6 != 0.5) || (NAN(dVar6))) {
+              local_58 = (Il2CppMethodPointer)floor(x + 0.5,pMVar14);
             }
-            if ((uint)pUVar11->max_length <= uVar14) {
-label_181e9f152:
-              ThrowIndexOutOfRangeException();
+            else if (((long)(double)local_58 & 1U) != 0) {
+              local_58 = (Il2CppMethodPointer)((double)local_58 + 1.0);
             }
-            pUVar11->m_Items[(int)uVar14] = pUVar12;
-            Il2CppCodeGenWriteBarrier(pUVar11->m_Items + (int)uVar14,pUVar12);
           }
-          iVar10 = il2cpp_runtime_helper_181290af0((target->fields).Size / 3.0);
-          if (iVar10 < 6) {
-            iVar10 = 6;
+          else if ((dVar6 != -0.5) || (NAN(dVar6))) {
+            local_58 = (Il2CppMethodPointer)ceil(x + -0.5,pMVar14);
           }
-          else if (0x28 < iVar10) {
-            iVar10 = 0x28;
+          else if (((long)(double)local_58 & 1U) != 0) {
+            local_58 = (Il2CppMethodPointer)((double)local_58 + -1.0);
           }
-          (object->fields).pieces = iVar10;
-          pUVar2 = &(target->fields).Bounds;
-          uVar7._0_4_ = (pUVar2->fields).m_Center.fields.x;
-          uVar7._4_4_ = (pUVar2->fields).m_Center.fields.y;
-          uVar8 = *(undefined8 *)&(target->fields).Bounds.fields.m_Center.fields.z;
-          pUVar2 = &(target->fields).Bounds;
-          uVar3._0_4_ = (pUVar2->fields).m_Extents.fields.y;
-          uVar3._4_4_ = (pUVar2->fields).m_Extents.fields.z;
+          iVar13 = 0x28;
+          if ((int)(double)local_58 < 0x28) {
+            iVar13 = (int)(double)local_58;
+          }
+          iVar8 = 6;
+          if (6 < iVar13) {
+            iVar8 = iVar13;
+          }
+          (pMVar9->fields).pieces = iVar8;
+          local_48 = (pIVar7->_1).this_arg.data;
+          local_58 = *(Il2CppMethodPointer *)
+                      &(((UnityEngine_Bounds_o *)&(pIVar7->_1).byval_arg)->fields).m_Center.fields;
+          pIStack_50 = *(Il2CppMethodPointer *)
+                        &(((UnityEngine_Bounds_o *)&(pIVar7->_1).byval_arg)->fields).m_Center.fields.z;
+          method_02 = TypeInfo_Map_MapDestructionDebris;
           if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
           }
-          local_58[0].fields.m_Center.fields._0_8_ = uVar7;
-          local_58[0].fields._8_8_ = uVar8;
-          local_58[0].fields.m_Extents.fields._4_8_ = uVar3;
-          fVar15 = Map_MapDestructionDebris__FindGround(local_58,(MethodInfo *)0x0);
-          (object->fields).ground = (fVar15 + 0.05) - (target->fields).Bounds.fields.m_Center.fields.y;
-          __this_01 = (DG_Tweening_Core_DOGetter_Vector2__o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Func_List_List_MapFracture_Triangle);
+          bounds.fields._8_8_ = pIStack_50;
+          bounds.fields.m_Center.fields._0_8_ = local_58;
+          bounds.fields.m_Extents.fields._4_8_ = local_48;
+          fVar18 = Map_MapDestructionDebris__FindGround(bounds,(MethodInfo *)method_02);
+          (pMVar9->fields).ground =
+               (fVar18 + 0.05) - (((UnityEngine_Bounds_o *)&(pIVar7->_1).byval_arg)->fields).m_Center.fields.y
+          ;
+          function = (System_Func_TResult__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_List_List_MapFracture_Triangle);
           System_Func_object____ctor
-                    (__this_01,(Il2CppObject *)object,
+                    ((System_Func_object__o *)function,(Il2CppObject *)pMVar9,
                      (intptr_t)MethodInfo_Map_MapDestructionDebris_c__DisplayClass37_0_Shatter_b__0,
-                     (MethodInfo_1387740 *)0x0);
+                     (MethodInfo_4F0C6A0 *)0x0);
           if ((TypeInfo_System_Threading_Tasks_Task->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Threading_Tasks_Task);
           }
-          value_00 = (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)
-                     System_Threading_Tasks_Task__Run_object_
-                               ((System_Func_TResult__o *)__this_01,
-                                (MethodInfo_7BE1B0 *)
-                                MethodInfo_System_Threading_Tasks_Task_Run_List_List_MapFracture_Triangle);
-          (__this->fields)._fracture = value_00;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._fracture,value_00);
+          pSVar12 = (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)
+                    System_Threading_Tasks_Task__Run_object_
+                              (function,(MethodInfo_36A18D0 *)
+                                        MethodInfo_System_Threading_Tasks_Task_Run_List_List_MapFracture_Triangle
+                              );
+          (__this->fields)._fracture = pSVar12;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._fracture);
         }
         return;
       }
     }
   }
-label_181e9f13c:
+label_0598341b:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$CreateVisual
 // il2cpp: UnityEngine_GameObject_o* Map_MapDestructionDebris__CreateVisual (Map_MapDestructionDebris_o* __this, UnityEngine_MeshFilter_o* source, const MethodInfo* method);
-// 0x181e9de00
+// 0x5984480
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9e05c: nop dword ptr [rax]
+// asm:   0x59846bd: nop dword ptr [rax]
 
 UnityEngine_GameObject_o *
 Map_MapDestructionDebris__CreateVisual
           (Map_MapDestructionDebris_o *__this,UnityEngine_MeshFilter_o *source,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
+  uint uVar1;
   int32_t value;
   System_String_o *name;
   UnityEngine_GameObject_o *__this_00;
   UnityEngine_GameObject_o *__this_01;
+  UnityEngine_Transform_o *pUVar2;
   UnityEngine_Transform_o *pUVar3;
-  UnityEngine_Transform_o *pUVar4;
-  UnityEngine_Vector3_o *pUVar5;
-  UnityEngine_Quaternion_o *pUVar6;
   UnityEngine_MeshFilter_o *__this_02;
   UnityEngine_Mesh_o *value_00;
-  UnityEngine_MeshRenderer_o *pUVar7;
-  UnityEngine_Material_array *pUVar8;
+  UnityEngine_MeshRenderer_o *pUVar4;
+  UnityEngine_Material_array *pUVar5;
   UnityEngine_Material_array *value_01;
+  ulong uVar6;
   UnityEngine_Material_o *obj;
-  Il2CppObject *pIVar9;
-  uint uVar10;
-  UnityEngine_Vector3_Fields local_48;
-  UnityEngine_Quaternion_Fields local_38 [2];
+  Il2CppObject *pIVar7;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *extraout_RDX;
+  long lVar8;
+  ulong uVar9;
+  UnityEngine_Quaternion_o rotation;
+  UnityEngine_Vector3_o UVar10;
   
-  if (Il2CppMethodInitialized_184345073 == '\0') {
+  if (Il2CppMethodInitialized_07545a04 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_MeshFilter);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material_array);
-    Il2CppMethodInitialized_184345073 = '\x01';
+    Il2CppMethodInitialized_07545a04 = '\x01';
   }
   if (source != (UnityEngine_MeshFilter_o *)0x0) {
     name = UnityEngine_Object__get_name((UnityEngine_Object_o *)source,(MethodInfo *)0x0);
@@ -708,98 +1134,95 @@ Map_MapDestructionDebris__CreateVisual
       value = UnityEngine_GameObject__get_layer(__this_01,(MethodInfo *)0x0);
       if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
         UnityEngine_GameObject__set_layer(__this_00,value,(MethodInfo *)0x0);
-        pUVar3 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-        pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__SetParent_2f5a7e0(pUVar3,pUVar4,false,(MethodInfo *)0x0);
-          pUVar3 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-          pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)source,(MethodInfo *)0x0);
-          if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-            pUVar5 = UnityEngine_Transform__get_position
-                               ((UnityEngine_Vector3_o *)&local_48,pUVar4,(MethodInfo *)0x0);
-            uVar1._0_4_ = (pUVar5->fields).x;
-            uVar1._4_4_ = (pUVar5->fields).y;
-            fVar2 = (pUVar5->fields).z;
-            pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)source,(MethodInfo *)0x0)
+        pUVar2 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+        pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_692d510(pUVar2,pUVar3,false,(MethodInfo *)0x0);
+          pUVar2 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+          pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)source,(MethodInfo *)0x0);
+          if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+            UVar10 = UnityEngine_Transform__get_position(pUVar3,(MethodInfo *)0x0);
+            pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)source,(MethodInfo *)0x0)
             ;
-            if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-              pUVar6 = UnityEngine_Transform__get_rotation
-                                 ((UnityEngine_Quaternion_o *)local_38,pUVar4,(MethodInfo *)0x0);
-              if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
-                local_38[0].x = (pUVar6->fields).x;
-                local_38[0].y = (pUVar6->fields).y;
-                local_38[0].z = (pUVar6->fields).z;
-                local_38[0].w = (pUVar6->fields).w;
-                local_48._0_8_ = uVar1;
-                local_48.z = fVar2;
-                UnityEngine_Transform__SetPositionAndRotation
-                          (pUVar3,(UnityEngine_Vector3_o *)&local_48,(UnityEngine_Quaternion_o *)local_38,
-                           (MethodInfo *)0x0);
-                pUVar3 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-                pUVar4 = UnityEngine_Component__get_transform
+            if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+              rotation = UnityEngine_Transform__get_rotation(pUVar3,(MethodInfo *)0x0);
+              if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                UnityEngine_Transform__SetPositionAndRotation(pUVar2,UVar10,rotation,(MethodInfo *)0x0);
+                pUVar2 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+                pUVar3 = UnityEngine_Component__get_transform
                                    ((UnityEngine_Component_o *)source,(MethodInfo *)0x0);
-                if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                  pUVar5 = UnityEngine_Transform__get_lossyScale
-                                     ((UnityEngine_Vector3_o *)local_38,pUVar4,(MethodInfo *)0x0);
-                  if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
-                    local_48.x = (pUVar5->fields).x;
-                    local_48.y = (pUVar5->fields).y;
-                    local_48.z = (pUVar5->fields).z;
-                    UnityEngine_Transform__set_localScale
-                              (pUVar3,(UnityEngine_Vector3_o *)&local_48,(MethodInfo *)0x0);
+                if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+                  UVar10 = UnityEngine_Transform__get_lossyScale(pUVar3,(MethodInfo *)0x0);
+                  if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                    UnityEngine_Transform__set_localScale(pUVar2,UVar10,(MethodInfo *)0x0);
                     __this_02 = UnityEngine_GameObject__AddComponent_object_
                                           (__this_00,
-                                           (MethodInfo_6F4D60 *)
+                                           (MethodInfo_353B6A0 *)
                                            MethodInfo_UnityEngine_GameObject_AddComponent_MeshFilter);
                     value_00 = UnityEngine_MeshFilter__get_sharedMesh(source,(MethodInfo *)0x0);
                     if (__this_02 != (UnityEngine_MeshFilter_o *)0x0) {
                       UnityEngine_MeshFilter__set_sharedMesh(__this_02,value_00,(MethodInfo *)0x0);
-                      pUVar7 = UnityEngine_Component__GetComponent_object_
+                      pUVar4 = UnityEngine_Component__GetComponent_object_
                                          ((UnityEngine_Component_o *)source,
-                                          (MethodInfo_6651A0 *)
+                                          (MethodInfo_34B0830 *)
                                           MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
-                      if (pUVar7 != (UnityEngine_MeshRenderer_o *)0x0) {
-                        pUVar8 = UnityEngine_Renderer__get_sharedMaterials
-                                           ((UnityEngine_Renderer_o *)pUVar7,(MethodInfo *)0x0);
-                        if (pUVar8 != (UnityEngine_Material_array *)0x0) {
+                      if (pUVar4 != (UnityEngine_MeshRenderer_o *)0x0) {
+                        pUVar5 = UnityEngine_Renderer__get_sharedMaterials
+                                           ((UnityEngine_Renderer_o *)pUVar4,(MethodInfo *)0x0);
+                        if (pUVar5 != (UnityEngine_Material_array *)0x0) {
                           value_01 = (UnityEngine_Material_array *)
                                      SZArrayNew(TypeInfo_UnityEngine_Material_array,
-                                                (uint32_t)pUVar8->max_length);
-                          for (uVar10 = 0; (int)uVar10 < (int)pUVar8->max_length; uVar10 = uVar10 + 1) {
-                            if ((uint)pUVar8->max_length <= uVar10) {
-label_181e9e161:
-                              ThrowIndexOutOfRangeException();
+                                                (uint32_t)pUVar5->max_length);
+                          if (0 < (int)pUVar5->max_length) {
+                            if (value_01 == (UnityEngine_Material_array *)0x0) {
+                              Map_MapDestructionDebris__GetMaterial(__this,pUVar5->m_Items[0],method_00);
+                              ThrowNullReferenceException();
                             }
-                            obj = Map_MapDestructionDebris__GetMaterial
-                                            (__this,pUVar8->m_Items[(int)uVar10],(MethodInfo *)0x0);
-                            if (value_01 == (UnityEngine_Material_array *)0x0) goto label_181e9e14b;
-                            if (obj != (UnityEngine_Material_o *)0x0) {
-                              pIVar9 = il2cpp_vm_Object_IsInst
-                                                 ((Il2CppObject *)obj,
-                                                  (((value_01->obj).klass)->_1).element_class);
-                              if (pIVar9 == (Il2CppObject *)0x0) {
-                                pIVar9 = il2cpp_codegen_get_array_type_mismatch_exception();
-                                il2cpp_codegen_raise_exception(pIVar9,(MethodInfo *)0x0);
+                            uVar6 = pUVar5->max_length & 0xffffffff;
+                            lVar8 = 0x20;
+                            uVar9 = 0;
+                            method_01 = method_00;
+                            do {
+                              if (uVar6 <= uVar9) {
+label_05984794:
+                                ThrowIndexOutOfRangeException();
                               }
-                            }
-                            if ((uint)value_01->max_length <= uVar10) goto label_181e9e161;
-                            value_01->m_Items[(int)uVar10] = obj;
-                            Il2CppCodeGenWriteBarrier(value_01->m_Items + (int)uVar10,obj);
+                              obj = Map_MapDestructionDebris__GetMaterial
+                                              (__this,*(UnityEngine_Material_o **)
+                                                       ((long)pUVar5->m_Items + lVar8 + -0x20),method_01);
+                              if (obj != (UnityEngine_Material_o *)0x0) {
+                                pIVar7 = il2cpp_vm_Object_IsInst
+                                                   ((Il2CppObject *)obj,
+                                                    (((value_01->obj).klass)->_1).element_class);
+                                if (pIVar7 == (Il2CppObject *)0x0) {
+                                  pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
+                                  il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
+                                }
+                              }
+                              if ((uint)value_01->max_length <= uVar9) goto label_05984794;
+                              *(UnityEngine_Material_o **)((long)value_01->m_Items + lVar8 + -0x20) = obj;
+                              Il2CppCodeGenWriteBarrier((void **)((long)value_01->m_Items + lVar8 + -0x20));
+                              uVar9 = uVar9 + 1;
+                              uVar1 = (uint)pUVar5->max_length;
+                              uVar6 = (ulong)uVar1;
+                              lVar8 = lVar8 + 8;
+                              method_01 = extraout_RDX;
+                            } while ((long)uVar9 < (long)(int)uVar1);
                           }
-                          if (Il2CppMethodInitialized_184345074 == '\0') {
+                          if (Il2CppMethodInitialized_07545a05 == '\0') {
                             il2cpp_codegen_initialize_runtime_metadata
                                       (&MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
-                            Il2CppMethodInitialized_184345074 = '\x01';
+                            Il2CppMethodInitialized_07545a05 = '\x01';
                           }
-                          pUVar7 = UnityEngine_GameObject__AddComponent_object_
+                          pUVar4 = UnityEngine_GameObject__AddComponent_object_
                                              (__this_00,
-                                              (MethodInfo_6F4D60 *)
+                                              (MethodInfo_353B6A0 *)
                                               MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
-                          if (pUVar7 != (UnityEngine_MeshRenderer_o *)0x0) {
+                          if (pUVar4 != (UnityEngine_MeshRenderer_o *)0x0) {
                             UnityEngine_Renderer__set_sharedMaterials
-                                      ((UnityEngine_Renderer_o *)pUVar7,value_01,(MethodInfo *)0x0);
+                                      ((UnityEngine_Renderer_o *)pUVar4,value_01,(MethodInfo *)0x0);
                             UnityEngine_Renderer__set_shadowCastingMode
-                                      ((UnityEngine_Renderer_o *)pUVar7,(__this->fields)._shadows,
+                                      ((UnityEngine_Renderer_o *)pUVar4,(__this->fields)._shadows,
                                        (MethodInfo *)0x0);
                             return __this_00;
                           }
@@ -815,14 +1238,13 @@ label_181e9e161:
       }
     }
   }
-label_181e9e14b:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$AddRenderer
 // il2cpp: void Map_MapDestructionDebris__AddRenderer (Map_MapDestructionDebris_o* __this, UnityEngine_GameObject_o* visual, UnityEngine_Material_array* materials, const MethodInfo* method);
-// 0x181e9d340
+// 0x59848c0
 
 void Map_MapDestructionDebris__AddRenderer
                (Map_MapDestructionDebris_o *__this,UnityEngine_GameObject_o *visual,
@@ -831,13 +1253,13 @@ void Map_MapDestructionDebris__AddRenderer
 {
   UnityEngine_MeshRenderer_o *__this_00;
   
-  if (Il2CppMethodInitialized_184345074 == '\0') {
+  if (Il2CppMethodInitialized_07545a05 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
-    Il2CppMethodInitialized_184345074 = '\x01';
+    Il2CppMethodInitialized_07545a05 = '\x01';
   }
   if (visual != (UnityEngine_GameObject_o *)0x0) {
     __this_00 = UnityEngine_GameObject__AddComponent_object_
-                          (visual,(MethodInfo_6F4D60 *)
+                          (visual,(MethodInfo_353B6A0 *)
                                   MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
     if (__this_00 != (UnityEngine_MeshRenderer_o *)0x0) {
       UnityEngine_Renderer__set_sharedMaterials
@@ -853,7 +1275,7 @@ void Map_MapDestructionDebris__AddRenderer
 
 // Map.MapDestructionDebris$$GetMaterial
 // il2cpp: UnityEngine_Material_o* Map_MapDestructionDebris__GetMaterial (Map_MapDestructionDebris_o* __this, UnityEngine_Material_o* source, const MethodInfo* method);
-// 0x181e9e5f0
+// 0x59847c0
 
 UnityEngine_Material_o *
 Map_MapDestructionDebris__GetMaterial
@@ -862,80 +1284,79 @@ Map_MapDestructionDebris__GetMaterial
 {
   System_Collections_Generic_Dictionary_object__object__o *pSVar1;
   bool bVar2;
-  UnityEngine_Material_o *local_res10 [3];
+  UnityEngine_Material_o *pUVar3;
+  MethodInfo *method_00;
+  UnityEngine_Material_o *local_20;
   
-  if (Il2CppMethodInitialized_184345075 == '\0') {
+  if (Il2CppMethodInitialized_07545a06 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Add);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_TryGetValue);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184345075 = '\x01';
+    Il2CppMethodInitialized_07545a06 = '\x01';
   }
-  local_res10[0] = (UnityEngine_Material_o *)0x0;
+  local_20 = (UnityEngine_Material_o *)0x0;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar2 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)source,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    return (UnityEngine_Material_o *)0x0;
-  }
-  pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._rubbleMaterials;
-  if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+  pUVar3 = (UnityEngine_Material_o *)0x0;
+  if (!bVar2) {
+    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._rubbleMaterials;
+    if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+label_059848bb:
+      ThrowNullReferenceException();
+    }
+    method_00 = (MethodInfo *)source;
     bVar2 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      (pSVar1,(Il2CppObject *)source,(Il2CppObject **)local_res10,
-                       (MethodInfo_14769C0 *)
+                      (pSVar1,(Il2CppObject *)source,(Il2CppObject **)&local_20,
+                       (MethodInfo_4AAF440 *)
                        MethodInfo_System_Collections_Generic_Dictionary_Material_Material_TryGetValue);
     if (!bVar2) {
       if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
       }
-      local_res10[0] = Map_MapDestructionDebris__CreateMaterial(source,(MethodInfo *)0x0);
+      local_20 = Map_MapDestructionDebris__CreateMaterial(source,method_00);
       pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._rubbleMaterials;
-      if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181e9e6ec;
+      if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_059848bb;
       System_Collections_Generic_Dictionary_object__object___Add
-                (pSVar1,(Il2CppObject *)source,(Il2CppObject *)local_res10[0],
-                 (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Add)
+                (pSVar1,(Il2CppObject *)source,(Il2CppObject *)local_20,
+                 (MethodInfo_4AAD4E0 *)MethodInfo_System_Collections_Generic_Dictionary_Material_Material_Add)
       ;
     }
-    return local_res10[0];
+    pUVar3 = local_20;
   }
-label_181e9e6ec:
-  ThrowNullReferenceException();
+  return pUVar3;
 }
 
 
 // Map.MapDestructionDebris$$CreateMaterial
 // il2cpp: UnityEngine_Material_o* Map_MapDestructionDebris__CreateMaterial (UnityEngine_Material_o* source, const MethodInfo* method);
-// 0x181e9da70
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9dcc4: nop dword ptr [rax]
-// asm:   0x181e9dcc8: nop dword ptr [rax + rax]
-// asm:   0x181e9dce7: jmp 0x181e9dd30
-// asm:   0x181e9dd30: mov rsi, qword ptr [rsp + 0x60]
+// 0x5984930
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5984bf6: jmp 0x5984b5d
 
 UnityEngine_Material_o *
 Map_MapDestructionDebris__CreateMaterial(UnityEngine_Material_o *source,MethodInfo *method)
 
 {
-  MethodInfo *pMVar1;
-  bool bVar2;
-  int32_t iVar3;
-  uint uVar4;
-  int32_t iVar5;
+  byte bVar1;
+  uint32_t uVar2;
+  UnityEngine_Shader_o *shader;
+  MethodInfo *pMVar3;
+  bool bVar4;
   UnityEngine_Material_o *__this;
-  System_String_o *pSVar6;
+  System_String_o *pSVar5;
   UnityEngine_Texture_o *value;
+  Il2CppClass *pIVar6;
+  MethodInfo *in_R8;
   UnityEngine_Vector2_o UVar7;
-  UnityEngine_Shader_o *pUVar8;
-  UnityEngine_Color_o *pUVar9;
-  Il2CppClass *pIVar10;
-  int32_t propertyIndex;
-  UnityEngine_Color_Fields local_28;
+  UnityEngine_Color_o value_00;
   
-  if (Il2CppMethodInitialized_184345076 == '\0') {
+  if (Il2CppMethodInitialized_07545a07 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Empty_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material);
@@ -943,116 +1364,94 @@ Map_MapDestructionDebris__CreateMaterial(UnityEngine_Material_o *source,MethodIn
     il2cpp_codegen_initialize_runtime_metadata(&"_MainTex");
     il2cpp_codegen_initialize_runtime_metadata(&"_BaseColor");
     il2cpp_codegen_initialize_runtime_metadata(&"_BaseMap");
-    Il2CppMethodInitialized_184345076 = '\x01';
+    Il2CppMethodInitialized_07545a07 = '\x01';
   }
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
   }
-  pUVar8 = TypeInfo_Map_MapDestructionDebris->static_fields->_shader;
+  shader = TypeInfo_Map_MapDestructionDebris->static_fields->_shader;
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Material);
-  UnityEngine_Material___ctor(__this,pUVar8,(MethodInfo *)0x0);
+  UnityEngine_Material___ctor(__this,shader,(MethodInfo *)0x0);
   if ((__this == (UnityEngine_Material_o *)0x0) ||
      (UnityEngine_Material__CopyPropertiesFromMaterial(__this,source,(MethodInfo *)0x0),
      source == (UnityEngine_Material_o *)0x0)) {
-label_181e9ddef:
     ThrowNullReferenceException();
   }
-  bVar2 = UnityEngine_Material__HasProperty_2ee2c00(source,"_BaseMap",(MethodInfo *)0x0);
-  if (!bVar2) {
+  bVar4 = UnityEngine_Material__HasProperty_68dd940(source,"_BaseMap",(MethodInfo *)0x0);
+  if (!bVar4) {
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    pSVar6 = Map_MapDestructionDebris__FindProperty(source,0x80,4,"_MainTex",(MethodInfo *)0x0);
-    if (pSVar6 != (System_String_o *)0x0) {
-      value = UnityEngine_Material__GetTexture(source,pSVar6,(MethodInfo *)0x0);
+    pSVar5 = Map_MapDestructionDebris__FindProperty(source,0x80,4,"_MainTex",in_R8);
+    if (pSVar5 != (System_String_o *)0x0) {
+      value = UnityEngine_Material__GetTexture(source,pSVar5,(MethodInfo *)0x0);
       UnityEngine_Material__SetTexture(__this,"_BaseMap",value,(MethodInfo *)0x0);
-      UVar7 = UnityEngine_Material__GetTextureScale(source,pSVar6,(MethodInfo *)0x0);
+      UVar7 = UnityEngine_Material__GetTextureScale(source,pSVar5,(MethodInfo *)0x0);
       UnityEngine_Material__SetTextureScale(__this,"_BaseMap",UVar7,(MethodInfo *)0x0);
-      UVar7 = UnityEngine_Material__GetTextureOffset(source,pSVar6,(MethodInfo *)0x0);
+      UVar7 = UnityEngine_Material__GetTextureOffset(source,pSVar5,(MethodInfo *)0x0);
       UnityEngine_Material__SetTextureOffset(__this,"_BaseMap",UVar7,(MethodInfo *)0x0);
     }
   }
-  bVar2 = UnityEngine_Material__HasProperty_2ee2c00(source,"_BaseColor",(MethodInfo *)0x0);
-  if (bVar2) goto label_181e9dd35;
-  if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
-  }
-  pSVar6 = "_Color";
-  if (Il2CppMethodInitialized_184345077 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184345077 = '\x01';
-  }
-  pUVar8 = UnityEngine_Material__get_shader(source,(MethodInfo *)0x0);
-  if (pUVar8 == (UnityEngine_Shader_o *)0x0) goto label_181e9ddef;
-  iVar3 = UnityEngine_Shader__GetPropertyCount(pUVar8,(MethodInfo *)0x0);
-  propertyIndex = 0;
-  if (0 < iVar3) {
-    do {
-      uVar4 = UnityEngine_Shader__GetPropertyFlags_2ef6db0(pUVar8,propertyIndex,(MethodInfo *)0x0);
-      if ((uVar4 >> 8 & 1) != 0) goto label_181e9dce9;
-      propertyIndex = propertyIndex + 1;
-    } while (propertyIndex < iVar3);
-  }
-  bVar2 = UnityEngine_Material__HasProperty_2ee2c00(source,pSVar6,(MethodInfo *)0x0);
-  if (!bVar2) {
-    propertyIndex = 0;
-    if (0 < iVar3) {
-      do {
-        iVar5 = UnityEngine_Shader__GetPropertyType_2ef71d0(pUVar8,propertyIndex,(MethodInfo *)0x0);
-        if (iVar5 == 0) goto label_181e9dce9;
-        propertyIndex = propertyIndex + 1;
-      } while (propertyIndex < iVar3);
+  bVar4 = UnityEngine_Material__HasProperty_68dd940(source,"_BaseColor",(MethodInfo *)0x0);
+  if (!bVar4) {
+    if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    goto label_181e9dd35;
+    pSVar5 = Map_MapDestructionDebris__FindProperty(source,0x100,0,"_Color",in_R8);
+    if (pSVar5 != (System_String_o *)0x0) {
+      value_00 = UnityEngine_Material__GetColor(source,pSVar5,(MethodInfo *)0x0);
+      UnityEngine_Material__SetColor(__this,"_BaseColor",value_00,(MethodInfo *)0x0);
+    }
   }
-label_181e9dcf9:
-  if (pSVar6 != (System_String_o *)0x0) {
-    pUVar9 = UnityEngine_Material__GetColor((UnityEngine_Color_o *)&local_28,source,pSVar6,(MethodInfo *)0x0);
-    local_28.r = (pUVar9->fields).r;
-    local_28.g = (pUVar9->fields).g;
-    local_28.b = (pUVar9->fields).b;
-    local_28.a = (pUVar9->fields).a;
-    UnityEngine_Material__SetVector
-              (__this,"_BaseColor",(UnityEngine_Vector4_o *)&local_28,(MethodInfo *)0x0);
-  }
-label_181e9dd35:
-  pMVar1 = MethodInfo_System_Array_Empty_string;
-  if ((MethodInfo_System_Array_Empty_string->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+  pMVar3 = MethodInfo_System_Array_Empty_string;
+  if ((MethodInfo_System_Array_Empty_string->field7_0x38).methodMetadataHandle == (void *)0x0) {
     il2cpp_codegen_rgctx_method_init(MethodInfo_System_Array_Empty_string);
+    pIVar6 = *(Il2CppClass **)((long)(pMVar3->field7_0x38).methodMetadataHandle + 0x10);
+    bVar1 = (pIVar6->_2).bitflags1;
   }
-  pIVar10 = (pMVar1->field7_0x38).rgctx_data[2].klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  else {
+    pIVar6 = *(Il2CppClass **)
+              ((long)(MethodInfo_System_Array_Empty_string->field7_0x38).methodMetadataHandle + 0x10);
+    bVar1 = (pIVar6->_2).bitflags1;
   }
-  if ((pIVar10->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(pIVar10);
+  if ((bVar1 & 1) == 0) {
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
+    uVar2 = (pIVar6->_2).cctor_finished_or_no_cctor;
   }
-  pIVar10 = (pMVar1->field7_0x38).rgctx_data[2].klass;
-  if (((pIVar10->_2).bitflags1 & 1) == 0) {
-    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  else {
+    uVar2 = (pIVar6->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
+    il2cpp_codegen_runtime_class_init(pIVar6);
+    pIVar6 = (pMVar3->field7_0x38).rgctx_data[2].klass;
+    bVar1 = (pIVar6->_2).bitflags1;
+  }
+  else {
+    pIVar6 = (pMVar3->field7_0x38).rgctx_data[2].klass;
+    bVar1 = (pIVar6->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
+    pIVar6 = il2cpp_codegen_class_init_checked(pIVar6);
   }
   UnityEngine_Material__set_shaderKeywords
-            (__this,*(System_String_array **)pIVar10->static_fields,(MethodInfo *)0x0);
+            (__this,*(System_String_array **)pIVar6->static_fields,(MethodInfo *)0x0);
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
   }
-  UnityEngine_Material__SetFloat_2ee3980
+  UnityEngine_Material__SetFloat_68e0ad0
             (__this,TypeInfo_Map_MapDestructionDebris->static_fields->FadeId,0.0,(MethodInfo *)0x0);
   return __this;
-label_181e9dce9:
-  pSVar6 = UnityEngine_Shader__GetPropertyName_2ef70b0(pUVar8,propertyIndex,(MethodInfo *)0x0);
-  goto label_181e9dcf9;
 }
 
 
 // Map.MapDestructionDebris$$FindProperty
 // il2cpp: System_String_o* Map_MapDestructionDebris__FindProperty (UnityEngine_Material_o* source, int32_t flag, int32_t type, System_String_o* fallback, const MethodInfo* method);
-// 0x181e9e430
+// 0x5984c00
 // asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9e4a7: nop word ptr [rax + rax]
-// asm:   0x181e9e4e8: nop dword ptr [rax + rax]
-// asm:   0x181e9e580: mov rax, r12
-// asm:   0x181e9e583: jmp 0x181e9e552
+// asm:   0x5984c66: mov r15d, eax
+// asm:   0x5984c69: nop dword ptr [rax]
+// asm:   0x5984ca0: jne 0x5984d45
+// asm:   0x5984d59: nop dword ptr [rax]
 
 System_String_o *
 Map_MapDestructionDebris__FindProperty
@@ -1069,130 +1468,171 @@ Map_MapDestructionDebris__FindProperty
   UnityEngine_Texture_o *x;
   int32_t propertyIndex;
   
-  if (Il2CppMethodInitialized_184345077 == '\0') {
+  if (Il2CppMethodInitialized_07545a08 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184345077 = '\x01';
+    Il2CppMethodInitialized_07545a08 = '\x01';
   }
   if ((source == (UnityEngine_Material_o *)0x0) ||
      (__this = UnityEngine_Material__get_shader(source,(MethodInfo *)0x0),
      __this == (UnityEngine_Shader_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  iVar2 = UnityEngine_Shader__GetPropertyCount(__this,(MethodInfo *)0x0);
   propertyIndex = 0;
-  if (0 < iVar2) {
-    do {
-      uVar3 = UnityEngine_Shader__GetPropertyFlags_2ef6db0(__this,propertyIndex,(MethodInfo *)0x0);
-      if ((flag & uVar3) != 0) goto label_181e9e571;
-      propertyIndex = propertyIndex + 1;
-    } while (propertyIndex < iVar2);
-  }
-  bVar1 = UnityEngine_Material__HasProperty_2ee2c00(source,fallback,(MethodInfo *)0x0);
-  if (!bVar1) {
-    propertyIndex = 0;
-    if (0 < iVar2) {
-      do {
-        iVar4 = UnityEngine_Shader__GetPropertyType_2ef71d0(__this,propertyIndex,(MethodInfo *)0x0);
-        if (iVar4 == type) {
-          if (type != 4) {
-label_181e9e571:
-            pSVar5 = UnityEngine_Shader__GetPropertyName_2ef70b0(__this,propertyIndex,(MethodInfo *)0x0);
-            return pSVar5;
-          }
-          pSVar5 = UnityEngine_Shader__GetPropertyName_2ef70b0(__this,propertyIndex,(MethodInfo *)0x0);
-          x = UnityEngine_Material__GetTexture(source,pSVar5,(MethodInfo *)0x0);
-          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-          }
-          bVar1 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if (bVar1) goto label_181e9e571;
-        }
-        propertyIndex = propertyIndex + 1;
-      } while (propertyIndex < iVar2);
+  iVar2 = UnityEngine_Shader__GetPropertyCount(__this,(MethodInfo *)0x0);
+  if (iVar2 < 1) {
+    bVar1 = UnityEngine_Material__HasProperty_68dd940(source,fallback,(MethodInfo *)0x0);
+    pSVar5 = (System_String_o *)0x0;
+    if (bVar1) {
+      pSVar5 = fallback;
     }
-    fallback = (System_String_o *)0x0;
   }
-  return fallback;
+  else {
+    do {
+      uVar3 = UnityEngine_Shader__GetPropertyFlags_68dccd0(__this,propertyIndex,(MethodInfo *)0x0);
+      if ((uVar3 & flag) != 0) goto label_05984d7b;
+      propertyIndex = propertyIndex + 1;
+    } while (iVar2 != propertyIndex);
+    bVar1 = UnityEngine_Material__HasProperty_68dd940(source,fallback,(MethodInfo *)0x0);
+    if (bVar1) {
+      pSVar5 = fallback;
+    }
+    else {
+      pSVar5 = (System_String_o *)0x0;
+      if (0 < iVar2) {
+        if (type == 4) {
+          propertyIndex = 0;
+          do {
+            iVar4 = UnityEngine_Shader__GetPropertyType_68dccb0(__this,propertyIndex,(MethodInfo *)0x0);
+            if (iVar4 == 4) {
+              pSVar5 = UnityEngine_Shader__GetPropertyName_68dcc90(__this,propertyIndex,(MethodInfo *)0x0);
+              x = UnityEngine_Material__GetTexture(source,pSVar5,(MethodInfo *)0x0);
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+              }
+              bVar1 = UnityEngine_Object__op_Inequality
+                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+              if (bVar1) {
+label_05984d7b:
+                pSVar5 = UnityEngine_Shader__GetPropertyName_68dcc90(__this,propertyIndex,(MethodInfo *)0x0);
+                return pSVar5;
+              }
+            }
+            propertyIndex = propertyIndex + 1;
+          } while (iVar2 != propertyIndex);
+        }
+        else {
+          propertyIndex = 0;
+          do {
+            iVar4 = UnityEngine_Shader__GetPropertyType_68dccb0(__this,propertyIndex,(MethodInfo *)0x0);
+            if (iVar4 == type) goto label_05984d7b;
+            propertyIndex = propertyIndex + 1;
+          } while (iVar2 != propertyIndex);
+        }
+        pSVar5 = (System_String_o *)0x0;
+      }
+    }
+  }
+  return pSVar5;
 }
 
 
 // Map.MapDestructionDebris$$Update
 // il2cpp: void Map_MapDestructionDebris__Update (Map_MapDestructionDebris_o* __this, const MethodInfo* method);
-// 0x181e9f550
-// eh: try 0x181e9f840..0x181e9fb30 -> pad 0x183317f30 (+3 call sites) catch Il2CppExceptionWrapper
-// asm: 41 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9f83e: nop 
-// asm:   0x181e9f944: mov rdx, qword ptr [rip + 0x2204f15]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose
-// asm:   0x181e9f94b: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181e9f950: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9f955: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e9f95a: test rcx, rcx
-// asm:   0x181e9f95d: jne 0x181e9fb24
-// asm:   0x181e9f963: mov rsi, qword ptr [rsp + 0xc0]
-// asm:   0x181e9fa7c: mov rdx, qword ptr [rip + 0x2214c5d]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
-// asm:   0x181e9fa83: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181e9fa88: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9fa8d: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e9fa92: test rcx, rcx
-// asm:   0x181e9fa95: jne 0x181e9fb30
-// asm:   0x181e9fa9b: mov rsi, qword ptr [rsp + 0xc0]
-// asm:   0x181e9faa3: movss xmm6, dword ptr [rsp + 0xd0]
-// asm:   0x181e9faac: movss xmm7, dword ptr [rip + 0x14b9154]
-// asm:   0x181e9fb24: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181e9fb30: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317f35: push rbp
-// asm:   0x183317f36: sub rsp, 0x20
-// asm:   0x183317f3a: mov rbp, rdx
-// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183317f41: mov rcx, qword ptr [rax]
-// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317f48: movabs rax, 0
-// asm:   0x183317f52: add rsp, 0x20
-// asm:   0x183317f56: pop rbp
-// asm:   0x183317f57: ret 
-// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317fd5: push rbp
-// asm:   0x183317fd6: sub rsp, 0x20
-// asm:   0x183317fda: mov rbp, rdx
-// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
-// asm:   0x183317fe1: mov rcx, qword ptr [rax]
-// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317fe8: movabs rax, 0
-// asm:   0x183317ff2: add rsp, 0x20
-// asm:   0x183317ff6: pop rbp
-// asm:   0x183317ff7: ret 
+// 0x5984da0
+// eh: try 0x59851c9..0x598544b -> pad 0x5985450 (+14 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598547c..0x5985481 -> pad 0x59854a0 cleanup
+// eh: try 0x59854a3..0x59854ad -> pad 0x598550a catch (...) [compiler noexcept guard]
+// eh: try 0x59854cb..0x59854d0 -> pad 0x59854f5 cleanup
+// eh: try 0x59854f8..0x5985502 -> pad 0x598550a catch (...) [compiler noexcept guard]
+// asm: 55 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59852c6: jmp 0x59851b2
+// asm:   0x5985450: jmp 0x5985464
+// asm:   0x5985452: jmp 0x5985464
+// asm:   0x5985454: jmp 0x5985464
+// asm:   0x5985456: jmp 0x5985464
+// asm:   0x5985458: jmp 0x5985464
+// asm:   0x598545a: jmp 0x5985464
+// asm:   0x598545c: jmp 0x5985464
+// asm:   0x598545e: jmp 0x59854b3
+// asm:   0x5985460: jmp 0x5985464
+// asm:   0x5985462: jmp 0x5985464
+// asm:   0x5985464: mov rbx, rax
+// asm:   0x5985467: cmp edx, 1
+// asm:   0x598546a: jne 0x59854a3
+// asm:   0x598546c: mov rdi, rbx
+// asm:   0x598546f: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5985474: mov rbx, qword ptr [rax]
+// asm:   0x5985477: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x598547c: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5985481: lea rax, [rip + 0x1909e20]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose
+// asm:   0x5985488: mov rsi, qword ptr [rax]
+// asm:   0x598548b: lea rdi, [rsp + 0x30]
+// asm:   0x5985490: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5985495: test rbx, rbx
+// asm:   0x5985498: je 0x59852e9
+// asm:   0x598549e: jmp 0x59854ed
+// asm:   0x59854a0: mov rbx, rax
+// asm:   0x59854a3: lea rdi, [rsp + 0x18]
+// asm:   0x59854a8: call 0x2fd4260  ; il2cpp_runtime_helper_02fd4260()
+// asm:   0x59854ad: jmp 0x5985502
+// asm:   0x59854af: jmp 0x59854b3
+// asm:   0x59854b1: jmp 0x59854b3
+// asm:   0x59854b3: mov rbx, rax
+// asm:   0x59854b6: cmp edx, 1
+// asm:   0x59854b9: jne 0x59854f8
+// asm:   0x59854bb: mov rdi, rbx
+// asm:   0x59854be: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x59854c3: mov rbx, qword ptr [rax]
+// asm:   0x59854c6: mov qword ptr [rsp + 0x18], rbx
+// asm:   0x59854cb: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59854d0: lea rax, [rip + 0x190a6e1]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
+// asm:   0x59854d7: mov rsi, qword ptr [rax]
+// asm:   0x59854da: lea rdi, [rsp + 0x50]
+// asm:   0x59854df: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x59854e4: test rbx, rbx
+// asm:   0x59854e7: je 0x59853ec
+// asm:   0x59854ed: mov rdi, rbx
+// asm:   0x59854f0: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59854f5: mov rbx, rax
+// asm:   0x59854f8: lea rdi, [rsp + 0x18]
+// asm:   0x59854fd: call 0x2fd4290  ; il2cpp_runtime_helper_02fd4290()
+// asm:   0x5985502: mov rdi, rbx
+// asm:   0x5985505: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598550a: mov rdi, rax
+// asm:   0x598550d: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapDestructionDebris__Update(Map_MapDestructionDebris_o *__this,MethodInfo *method)
 
 {
-  System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *pSVar1;
-  System_Threading_Tasks_Task_o *pSVar2;
-  System_Collections_Generic_List_MapDestructionDebris_Piece__o *__this_00;
-  UnityEngine_Rigidbody_o *body;
-  UnityEngine_Behaviour_o *__this_01;
-  System_Collections_Generic_Dictionary_Material__Material__o *__this_02;
-  UnityEngine_Material_o *pUVar3;
-  bool bVar4;
-  int32_t iVar5;
-  System_AggregateException_o *pSVar6;
+  uint32_t uVar1;
+  int iVar2;
+  System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *pSVar3;
+  System_Threading_Tasks_Task_o *__this_00;
+  System_Collections_Generic_List_MapDestructionDebris_Piece__o *__this_01;
+  UnityEngine_Rigidbody_o *pUVar4;
+  System_Collections_Generic_Dictionary_object__object__o *__this_02;
+  Map_MapDestructionDebris_Piece_o *piece;
+  Il2CppObject *__this_03;
+  bool bVar5;
+  int32_t iVar6;
+  System_AggregateException_o *pSVar7;
   System_Collections_Generic_List_List_MapFracture_Triangle___o *cells;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_03;
-  UnityEngine_Object_o *pUVar7;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_04;
+  UnityEngine_Object_o *pUVar8;
+  MethodInfo *method_00;
+  MethodInfo *pMVar9;
   System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o **targetAddress;
-  float fVar8;
-  float fVar9;
-  undefined1 local_88 [16];
-  UnityEngine_Material_o *local_78;
-  undefined1 local_70 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_68;
-  UnityEngine_Material_o *local_60;
-  undefined1 local_58 [8];
-  uint64_t uStack_50;
-  UnityEngine_Material_o *local_48;
+  float fVar10;
+  float fVar11;
+  UnityEngine_Vector3_o UVar12;
+  undefined1 auStack_80 [16];
+  Map_MapDestructionDebris_Piece_o *pMStack_70;
+  undefined1 auStack_68 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_60;
+  Map_MapDestructionDebris_Piece_o *pMStack_58;
+  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o SStack_48;
   
-  if (Il2CppMethodInitialized_184345078 == '\0') {
+  if (Il2CppMethodInitialized_07545a09 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values);
@@ -1224,236 +1664,268 @@ void Map_MapDestructionDebris__Update(Map_MapDestructionDebris_o *__this,MethodI
               (&
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
               );
-    Il2CppMethodInitialized_184345078 = '\x01';
+    Il2CppMethodInitialized_07545a09 = '\x01';
   }
-  local_70 = (undefined1  [8])0x0;
-  pUStack_68 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_60 = (UnityEngine_Material_o *)0x0;
-  local_58 = (undefined1  [8])0x0;
-  uStack_50 = 0;
-  local_48 = (UnityEngine_Material_o *)0x0;
-  fVar9 = (__this->fields)._age;
-  fVar8 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._age = fVar8 + fVar9;
-  if ((__this->fields)._fracture == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) {
-label_181e9f737:
-    if ((__this->fields)._baking != (System_Threading_Tasks_Task_o *)0x0) {
-      bVar4 = System_Threading_Tasks_Task__get_IsCompleted((__this->fields)._baking,(MethodInfo *)0x0);
-      if (bVar4) {
+  auStack_68 = (undefined1  [8])0x0;
+  pSStack_60 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  pMStack_58 = (Map_MapDestructionDebris_Piece_o *)0x0;
+  SStack_48.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  SStack_48.fields._index = 0;
+  SStack_48.fields._version = 0;
+  SStack_48.fields._currentValue = (Il2CppObject *)0x0;
+  fVar11 = (__this->fields)._age;
+  fVar10 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  (__this->fields)._age = fVar10 + fVar11;
+  pSVar3 = (__this->fields)._fracture;
+  if ((pSVar3 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) ||
+     (bVar5 = System_Threading_Tasks_Task__get_IsCompleted
+                        ((System_Threading_Tasks_Task_o *)pSVar3,(MethodInfo *)0x0), !bVar5)) {
+label_05984efc:
+    __this_00 = (__this->fields)._baking;
+    if ((__this_00 != (System_Threading_Tasks_Task_o *)0x0) &&
+       (bVar5 = System_Threading_Tasks_Task__get_IsCompleted(__this_00,(MethodInfo *)0x0), bVar5)) {
+      if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+        if (Il2CppMethodInitialized_07545a0a != '\0') goto label_05984f3c;
+label_059850b2:
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
+        Il2CppMethodInitialized_07545a0a = '\x01';
+        uVar1 = (TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor;
+      }
+      else {
+        if (Il2CppMethodInitialized_07545a0a == '\0') goto label_059850b2;
+label_05984f3c:
+        uVar1 = (TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor;
+      }
+      if (uVar1 == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+      }
+      iVar2 = TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame;
+      iVar6 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
+      if (iVar2 != iVar6) {
+        targetAddress =
+             (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o **)&(__this->fields)._baking;
+        iVar6 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
         if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
         }
-        bVar4 = Map_MapDestructionDebris__TryClaimFrame((MethodInfo *)0x0);
-        if (bVar4) {
-          pSVar2 = (__this->fields)._baking;
-          if (pSVar2 == (System_Threading_Tasks_Task_o *)0x0) goto label_181e9fb03;
-          bVar4 = System_Threading_Tasks_Task__get_IsFaulted(pSVar2,(MethodInfo *)0x0);
-          if (bVar4) {
-            pSVar2 = (__this->fields)._baking;
-            if (pSVar2 == (System_Threading_Tasks_Task_o *)0x0) goto label_181e9fb03;
-            pSVar6 = System_Threading_Tasks_Task__get_Exception(pSVar2,(MethodInfo *)0x0);
-            if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
-            }
-            UnityEngine_Debug__LogException((System_Exception_o *)pSVar6,(MethodInfo *)0x0);
+        TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame = iVar6;
+        if ((System_Threading_Tasks_Task_o *)*targetAddress == (System_Threading_Tasks_Task_o *)0x0)
+        goto label_0598544b;
+        pMVar9 = (MethodInfo *)0x0;
+        bVar5 = System_Threading_Tasks_Task__get_IsFaulted
+                          ((System_Threading_Tasks_Task_o *)*targetAddress,(MethodInfo *)0x0);
+        if (bVar5) {
+          if ((System_Threading_Tasks_Task_o *)*targetAddress == (System_Threading_Tasks_Task_o *)0x0)
+          goto label_0598544b;
+          pSVar7 = System_Threading_Tasks_Task__get_Exception
+                             ((System_Threading_Tasks_Task_o *)*targetAddress,(MethodInfo *)0x0);
+          if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
           }
-          Map_MapDestructionDebris__ActivateFragments(__this,(MethodInfo *)0x0);
-          (__this->fields)._baking = (System_Threading_Tasks_Task_o *)0x0;
-          targetAddress =
-               (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o **)&(__this->fields)._baking;
-          goto label_181e9f7d9;
+          pMVar9 = (MethodInfo *)0x0;
+          UnityEngine_Debug__LogException((System_Exception_o *)pSVar7,(MethodInfo *)0x0);
         }
+        Map_MapDestructionDebris__ActivateFragments(__this,pMVar9);
+        goto label_0598512e;
       }
     }
   }
   else {
-    bVar4 = System_Threading_Tasks_Task__get_IsCompleted
-                      ((System_Threading_Tasks_Task_o *)(__this->fields)._fracture,(MethodInfo *)0x0);
-    if (!bVar4) goto label_181e9f737;
+    if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+      if (Il2CppMethodInitialized_07545a0a != '\0') goto label_05984ed3;
+label_05985070:
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
+      Il2CppMethodInitialized_07545a0a = '\x01';
+      uVar1 = (TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor;
+    }
+    else {
+      if (Il2CppMethodInitialized_07545a0a == '\0') goto label_05985070;
+label_05984ed3:
+      uVar1 = (TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor;
+    }
+    if (uVar1 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+    }
+    iVar2 = TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame;
+    iVar6 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
+    if (iVar2 == iVar6) goto label_05984efc;
+    targetAddress = &(__this->fields)._fracture;
+    iVar6 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    bVar4 = Map_MapDestructionDebris__TryClaimFrame((MethodInfo *)0x0);
-    if (!bVar4) goto label_181e9f737;
-    pSVar1 = (__this->fields)._fracture;
-    if (pSVar1 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) goto label_181e9fb03;
-    iVar5 = System_Threading_Tasks_Task__get_Status((System_Threading_Tasks_Task_o *)pSVar1,(MethodInfo *)0x0)
-    ;
-    pSVar1 = (__this->fields)._fracture;
-    if (pSVar1 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) goto label_181e9fb03;
-    if (iVar5 == 5) {
+    TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame = iVar6;
+    if (*targetAddress == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0)
+    goto label_0598544b;
+    iVar6 = System_Threading_Tasks_Task__get_Status
+                      ((System_Threading_Tasks_Task_o *)*targetAddress,(MethodInfo *)0x0);
+    pSVar3 = *targetAddress;
+    if (iVar6 == 5) {
+      if (pSVar3 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) goto label_0598544b;
       cells = (System_Collections_Generic_List_List_MapFracture_Triangle___o *)
               System_Threading_Tasks_Task_object___get_Result
-                        ((System_Threading_Tasks_Task_object__o *)pSVar1,
-                         (MethodInfo_D73CE0 *)
+                        ((System_Threading_Tasks_Task_object__o *)pSVar3,
+                         (MethodInfo_41B4760 *)
                          MethodInfo_System_Threading_Tasks_Task_List_List_MapFracture_Triangle_get_Result);
-      Map_MapDestructionDebris__CreateFragments(__this,cells,(MethodInfo *)0x0);
-label_181e9f726:
-      (__this->fields)._fracture = (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0;
-      targetAddress = &(__this->fields)._fracture;
+      Map_MapDestructionDebris__CreateFragments(__this,cells,method_00);
     }
     else {
-      bVar4 = System_Threading_Tasks_Task__get_IsFaulted
-                        ((System_Threading_Tasks_Task_o *)pSVar1,(MethodInfo *)0x0);
-      if (!bVar4) goto label_181e9f726;
-      pSVar1 = (__this->fields)._fracture;
-      if (pSVar1 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0)
-      goto label_181e9fb03;
-      pSVar6 = System_Threading_Tasks_Task__get_Exception
-                         ((System_Threading_Tasks_Task_o *)pSVar1,(MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+      if (pSVar3 == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0) goto label_0598544b;
+      bVar5 = System_Threading_Tasks_Task__get_IsFaulted
+                        ((System_Threading_Tasks_Task_o *)pSVar3,(MethodInfo *)0x0);
+      if (bVar5) {
+        if (*targetAddress == (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0)
+        goto label_0598544b;
+        pSVar7 = System_Threading_Tasks_Task__get_Exception
+                           ((System_Threading_Tasks_Task_o *)*targetAddress,(MethodInfo *)0x0);
+        if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+        }
+        UnityEngine_Debug__LogException((System_Exception_o *)pSVar7,(MethodInfo *)0x0);
       }
-      UnityEngine_Debug__LogException((System_Exception_o *)pSVar6,(MethodInfo *)0x0);
-      (__this->fields)._fracture = (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0;
-      targetAddress = &(__this->fields)._fracture;
     }
-label_181e9f7d9:
-    Il2CppCodeGenWriteBarrier(targetAddress,(void *)0x0);
+label_0598512e:
+    *targetAddress = (System_Threading_Tasks_Task_List_List_MapFracture_Triangle____o *)0x0;
+    Il2CppCodeGenWriteBarrier(targetAddress);
   }
   if (0.5 <= (__this->fields)._age - (__this->fields)._activeAge) {
-    __this_00 = (__this->fields)._pieces;
-    if (__this_00 == (System_Collections_Generic_List_MapDestructionDebris_Piece__o *)0x0) goto label_181e9fb03;
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_88,
-               (System_Collections_Generic_List_T__o *)__this_00,
-               (MethodInfo_91F180 *)
+    __this_01 = (__this->fields)._pieces;
+    if (__this_01 == (System_Collections_Generic_List_MapDestructionDebris_Piece__o *)0x0) goto label_0598544b;
+    System_Collections_Generic_List_object___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)auStack_80,
+               (System_Collections_Generic_List_object__o *)__this_01,
+               (MethodInfo_395E050 *)
                MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_GetEnumerator);
-    local_70 = (undefined1  [8])local_88._0_8_;
-    pUStack_68 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_88._8_8_;
-    local_60 = local_78;
-    local_88._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-    local_88._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_70;
-    while( true ) {
-      bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_70,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_MoveNext
-                        );
-      pUVar3 = local_60;
-      if (!bVar4) break;
-      if (local_60 == (UnityEngine_Material_o *)0x0) {
+    pMStack_58 = pMStack_70;
+    auStack_68 = (undefined1  [8])auStack_80._0_8_;
+    pSStack_60 = (System_Collections_Generic_List_Enumerator_object__o *)auStack_80._8_8_;
+    auStack_80._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    auStack_80._8_8_ = (System_Collections_Generic_List_Enumerator_object__o *)auStack_68;
+    while (bVar5 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                             ((System_Collections_Generic_List_Enumerator_object__o *)auStack_68,
+                              (MethodInfo_4C45C50 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_MoveNext
+                             ), piece = pMStack_58, bVar5) {
+      if (pMStack_58 == (Map_MapDestructionDebris_Piece_o *)0x0) {
         ThrowNullReferenceException();
       }
-      pUVar7 = (*(uint64_t *)((char *)local_60 + 0x20));
+      pUVar8 = (UnityEngine_Object_o *)(pMStack_58->fields).Body;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar4 = UnityEngine_Object__op_Inequality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar4) {
-        if ((*(uint64_t *)((char *)pUVar3 + 0x20)) == (UnityEngine_Rigidbody_o *)0x0) {
+      bVar5 = UnityEngine_Object__op_Inequality(pUVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar5) {
+        pUVar4 = (piece->fields).Body;
+        if (pUVar4 == (UnityEngine_Rigidbody_o *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar4 = UnityEngine_Rigidbody__get_isKinematic((*(uint64_t *)((char *)pUVar3 + 0x20)),(MethodInfo *)0x0);
-        if (!bVar4) {
-          body = (*(uint64_t *)((char *)pUVar3 + 0x20));
+        bVar5 = UnityEngine_Rigidbody__get_isKinematic(pUVar4,(MethodInfo *)0x0);
+        if (!bVar5) {
+          pUVar4 = (piece->fields).Body;
           if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
           }
-          bVar4 = Map_MapDestructionDebris__IsSettled(body,(MethodInfo *)0x0);
-          if (bVar4) {
-            if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+          if (pUVar4 == (UnityEngine_Rigidbody_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          UVar12 = UnityEngine_Rigidbody__get_linearVelocity(pUVar4,(MethodInfo *)0x0);
+          if (UVar12.fields.z * UVar12.fields.z +
+              UVar12.fields.y * UVar12.fields.y + UVar12.fields.x * UVar12.fields.x < 1.0) {
+            pMVar9 = (MethodInfo *)0x0;
+            UVar12 = UnityEngine_Rigidbody__get_angularVelocity(pUVar4,(MethodInfo *)0x0);
+            if (UVar12.fields.z * UVar12.fields.z +
+                UVar12.fields.y * UVar12.fields.y + UVar12.fields.x * UVar12.fields.x < 1.0) {
+              if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
+              }
+              Map_MapDestructionDebris__Freeze(piece,pMVar9);
             }
-            __this_01 = (UnityEngine_Behaviour_o *)(*(uint64_t *)((char *)pUVar3 + 0x28));
-            if (__this_01 == (UnityEngine_Behaviour_o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            UnityEngine_Behaviour__set_enabled(__this_01,false,(MethodInfo *)0x0);
-            if ((*(uint64_t *)((char *)pUVar3 + 0x20)) == (UnityEngine_Rigidbody_o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            UnityEngine_Rigidbody__set_isKinematic((*(uint64_t *)((char *)pUVar3 + 0x20)),true,(MethodInfo *)0x0);
-            if ((*(uint64_t *)((char *)pUVar3 + 0x20)) == (UnityEngine_Rigidbody_o *)0x0) {
-              ThrowNullReferenceException();
-            }
-            UnityEngine_Rigidbody__set_interpolation((*(uint64_t *)((char *)pUVar3 + 0x20)),0,(MethodInfo *)0x0);
           }
         }
       }
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_70,
+              ((System_Collections_Generic_List_Enumerator_object__o *)auStack_68,
+               (MethodInfo_4C45C40 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose);
   }
-  fVar9 = ((__this->fields)._age - 3.0) / 1.5;
-  if (fVar9 < 0.0) {
-    fVar9 = 0.0;
-  }
-  else if (1.0 < fVar9) {
-    fVar9 = 1.0;
-  }
-  __this_02 = (__this->fields)._rubbleMaterials;
-  if (__this_02 != (System_Collections_Generic_Dictionary_Material__Material__o *)0x0) {
-    __this_03 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                           (MethodInfo_13C65A0 *)
+  __this_02 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._rubbleMaterials;
+  if (__this_02 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    fVar11 = (__this->fields)._age;
+    __this_04 = System_Collections_Generic_Dictionary_object__object___get_Values
+                          (__this_02,
+                           (MethodInfo_4AAD2A0 *)
                            MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values);
-    if (__this_03 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_88,
-                 __this_03,
-                 (MethodInfo_F1E4D0 *)
+    if (__this_04 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+      fVar10 = (fVar11 + -3.0) / 1.5;
+      fVar11 = 1.0;
+      if (fVar10 <= 1.0) {
+        fVar11 = fVar10;
+      }
+      fVar11 = (float)(-(uint)(0.0 <= fVar10) & (uint)fVar11);
+      System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
+                (&SStack_48,__this_04,
+                 (MethodInfo_43F93D0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
                 );
-      local_58 = (undefined1  [8])local_88._0_8_;
-      uStack_50 = local_88._8_8_;
-      local_48 = local_78;
-      local_88._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-      local_88._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_58;
+      auStack_80._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+      auStack_80._8_8_ = &SStack_48;
       while( true ) {
-        bVar4 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
-                          ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *
-                           )local_58,
-                           (MethodInfo_155CFB0 *)
+        bVar5 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
+                          (&SStack_48,
+                           (MethodInfo_4CE7200 *)
                            MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_MoveNext
                           );
-        pUVar3 = local_48;
-        if (!bVar4) {
+        __this_03 = SStack_48.fields._currentValue;
+        if (!bVar5) {
           System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_58,
+                    (&SStack_48,
+                     (MethodInfo_4CE71F0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
                     );
-          if (1.0 <= fVar9) {
-            pUVar7 = (UnityEngine_Object_o *)
+          if (1.0 <= fVar11) {
+            pUVar8 = (UnityEngine_Object_o *)
                      UnityEngine_Component__get_gameObject
                                ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
             if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
             }
-            UnityEngine_Object__Destroy_2f1ff70(pUVar7,(MethodInfo *)0x0);
+            UnityEngine_Object__Destroy_69214e0(pUVar8,(MethodInfo *)0x0);
           }
           return;
         }
         if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
         }
-        if (pUVar3 == (UnityEngine_Material_o *)0x0) break;
-        UnityEngine_Material__SetFloat_2ee3980
-                  (pUVar3,TypeInfo_Map_MapDestructionDebris->static_fields->FadeId,fVar9,(MethodInfo *)0x0);
+        if ((UnityEngine_Material_o *)__this_03 == (UnityEngine_Material_o *)0x0) break;
+        UnityEngine_Material__SetFloat_68e0ad0
+                  ((UnityEngine_Material_o *)__this_03,
+                   TypeInfo_Map_MapDestructionDebris->static_fields->FadeId,fVar11,(MethodInfo *)0x0);
       }
       ThrowNullReferenceException();
     }
   }
-label_181e9fb03:
+label_0598544b:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$TryClaimFrame
 // il2cpp: bool Map_MapDestructionDebris__TryClaimFrame (const MethodInfo* method);
-// 0x181e9f4b0
+// 0x5985520
 
 bool Map_MapDestructionDebris__TryClaimFrame(MethodInfo *method)
 
 {
   int iVar1;
   int32_t iVar2;
+  int32_t iVar3;
   
-  if (Il2CppMethodInitialized_184345079 == '\0') {
+  if (Il2CppMethodInitialized_07545a0a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
-    Il2CppMethodInitialized_184345079 = '\x01';
+    Il2CppMethodInitialized_07545a0a = '\x01';
   }
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
@@ -1461,41 +1933,47 @@ bool Map_MapDestructionDebris__TryClaimFrame(MethodInfo *method)
   iVar1 = TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame;
   iVar2 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
   if (iVar1 != iVar2) {
-    iVar2 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
+    iVar3 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
-    TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame = iVar2;
-    return true;
+    TypeInfo_Map_MapDestructionDebris->static_fields->_workFrame = iVar3;
   }
-  return false;
+  return iVar1 != iVar2;
 }
 
 
 // Map.MapDestructionDebris$$CreateFragments
 // il2cpp: void Map_MapDestructionDebris__CreateFragments (Map_MapDestructionDebris_o* __this, System_Collections_Generic_List_List_MapFracture_Triangle___o* cells, const MethodInfo* method);
-// 0x181e9d3d0
-// eh: try 0x181e9d930..0x181e9d96e -> pad 0x183315ba0 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9d97f: mov rdx, qword ptr [rip + 0x21e2b62]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x181e9d986: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x181e9d98b: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9d990: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181e9d995: test rcx, rcx
-// asm:   0x181e9d998: jne 0x181e9da64
-// asm:   0x181e9d99e: mov rsi, qword ptr [rsp + 0xf0]
-// asm:   0x181e9da64: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315ba0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315ba5: push rbp
-// asm:   0x183315ba6: sub rsp, 0x20
-// asm:   0x183315baa: mov rbp, rdx
-// asm:   0x183315bad: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315bb1: mov rcx, qword ptr [rax]
-// asm:   0x183315bb4: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x183315bb8: movabs rax, 0
-// asm:   0x183315bc2: add rsp, 0x20
-// asm:   0x183315bc6: pop rbp
-// asm:   0x183315bc7: ret 
+// 0x59855b0
+// eh: try 0x5985c00..0x5985c2f -> pad 0x5985ce9 (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5985d01..0x5985d06 -> pad 0x5985d2b cleanup
+// eh: try 0x5985d2e..0x5985d38 -> pad 0x5985d40 catch (...) [compiler noexcept guard]
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5985ce7: jmp 0x5985ce9
+// asm:   0x5985ce9: mov rbx, rax
+// asm:   0x5985cec: cmp edx, 1
+// asm:   0x5985cef: jne 0x5985d2e
+// asm:   0x5985cf1: mov rdi, rbx
+// asm:   0x5985cf4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5985cf9: mov rbx, qword ptr [rax]
+// asm:   0x5985cfc: mov qword ptr [rsp + 0x50], rbx
+// asm:   0x5985d01: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5985d06: lea rax, [rip + 0x190806b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x5985d0d: mov rsi, qword ptr [rax]
+// asm:   0x5985d10: lea rdi, [rsp + 0x20]
+// asm:   0x5985d15: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5985d1a: test rbx, rbx
+// asm:   0x5985d1d: je 0x5985c45
+// asm:   0x5985d23: mov rdi, rbx
+// asm:   0x5985d26: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5985d2b: mov rbx, rax
+// asm:   0x5985d2e: lea rdi, [rsp + 0x50]
+// asm:   0x5985d33: call 0x2fd42c0  ; il2cpp_runtime_helper_02fd42c0()
+// asm:   0x5985d38: mov rdi, rbx
+// asm:   0x5985d3b: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5985d40: mov rdi, rax
+// asm:   0x5985d43: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapDestructionDebris__CreateFragments
                (Map_MapDestructionDebris_o *__this,
@@ -1507,40 +1985,42 @@ void Map_MapDestructionDebris__CreateFragments
   UnityEngine_Material_array *pUVar3;
   System_Collections_Generic_List_Mesh__o *pSVar4;
   UnityEngine_Mesh_array *pUVar5;
-  System_Collections_Generic_List_EntityId__o *pSVar6;
-  System_Collections_Generic_List_MapDestructionDebris_Piece__o *pSVar7;
+  UnityEngine_EntityId_array *pUVar6;
+  System_Collections_Generic_List_MapDestructionDebris_Piece__o *__this_00;
+  Map_MapDestructionDebris_Piece_array *pMVar7;
   System_Collections_Generic_List_GameObject__o *pSVar8;
-  MethodInfo *pMVar9;
-  float fVar10;
-  bool bVar11;
-  int32_t iVar12;
-  UnityEngine_EntityId_o UVar13;
-  Map_MapDestructionDebris___c__DisplayClass45_0_o *object;
-  System_Collections_Generic_List_T__o *pSVar14;
-  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar15;
-  UnityEngine_Mesh_o *value;
-  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Vector3_o value;
+  float fVar9;
+  Il2CppObject *obj;
+  bool bVar10;
+  int32_t iVar11;
+  UnityEngine_EntityId_o item;
+  Map_MapDestructionDebris___c__DisplayClass45_0_o *pMVar12;
+  System_Collections_Generic_List_EntityId__o *pSVar13;
+  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar14;
+  UnityEngine_Mesh_o *value_00;
   UnityEngine_GameObject_o *__this_01;
-  UnityEngine_Transform_o *pUVar16;
+  UnityEngine_GameObject_o *__this_02;
+  UnityEngine_Transform_o *pUVar15;
   UnityEngine_Transform_o *parent;
-  UnityEngine_MeshFilter_o *__this_02;
-  UnityEngine_MeshRenderer_o *__this_03;
-  UnityEngine_Object_o *pUVar17;
-  Map_MapDestructionDebris_Piece_o *__this_04;
-  System_Action_o *__this_05;
-  System_Threading_Tasks_Task_o *value_00;
-  int index;
-  System_Collections_Generic_List_T__o *local_c0;
-  float local_b8;
-  System_Collections_Generic_List_T__o *local_a8;
-  float local_a0;
-  undefined1 local_98 [16];
-  UnityEngine_Object_o *local_88;
-  undefined1 local_78 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_70;
-  UnityEngine_Object_o *local_68;
+  UnityEngine_MeshFilter_o *__this_03;
+  UnityEngine_MeshRenderer_o *__this_04;
+  Map_MapDestructionDebris_Piece_o *__this_05;
+  System_Action_o *__this_06;
+  System_Threading_Tasks_Task_o *pSVar16;
+  MethodInfo *pMVar17;
+  UnityEngine_Object_o *x;
+  uint index;
+  UnityEngine_Vector3_o center;
+  UnityEngine_Vector3_Fields local_98;
+  System_Collections_Generic_List_Enumerator_T__o local_88;
+  Map_MapDestructionDebris___c__DisplayClass45_0_o *local_68;
+  Map_MapDestructionDebris___c__DisplayClass45_0_Fields *local_60;
+  undefined8 local_58;
+  System_Collections_Generic_List_Enumerator_T__o *local_50;
+  undefined1 local_48 [24];
   
-  if (Il2CppMethodInitialized_18434507a == '\0') {
+  if (Il2CppMethodInitialized_07545a0b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
@@ -1570,260 +2050,346 @@ void Map_MapDestructionDebris__CreateFragments
               (&MethodInfo_Map_MapDestructionDebris_c__DisplayClass45_0_CreateFragments_b__0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris_c__DisplayClass45_0);
     il2cpp_codegen_initialize_runtime_metadata(&"Map debris fragment");
-    Il2CppMethodInitialized_18434507a = '\x01';
+    Il2CppMethodInitialized_07545a0b = '\x01';
   }
-  local_c0 = (System_Collections_Generic_List_T__o *)0x0;
-  local_b8 = 0.0;
-  local_78 = (undefined1  [8])0x0;
-  pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_68 = (UnityEngine_Object_o *)0x0;
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_c__DisplayClass45_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  local_98.z = 0.0;
+  local_98.x = 0.0;
+  local_98.y = 0.0;
+  local_88.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_88.fields._index = 0;
+  local_88.fields._version = 0;
+  local_88.fields._current = (Il2CppObject *)0x0;
+  pMVar12 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_c__DisplayClass45_0);
+  System_Object___ctor((Il2CppObject *)pMVar12,(MethodInfo *)0x0);
   if (cells != (System_Collections_Generic_List_List_MapFracture_Triangle___o *)0x0) {
-    if ((cells->fields)._size == 0) {
+    iVar11 = (cells->fields)._size;
+    if (iVar11 == 0) {
       return;
     }
-    iVar12 = (cells->fields)._size;
-    pSVar14 = (System_Collections_Generic_List_T__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_EntityId);
-    System_Collections_Generic_List_EntityId____ctor
-              (pSVar14,iVar12,(MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_EntityId_ctor);
-    if (object != (Map_MapDestructionDebris___c__DisplayClass45_0_o *)0x0) {
-      (object->fields).convex = (System_Collections_Generic_List_EntityId__o *)pSVar14;
-      Il2CppCodeGenWriteBarrier(&(object->fields).convex,pSVar14);
-      for (index = 0; index < (cells->fields)._size; index = index + 1) {
-        pSVar15 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
-                  System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                            ((System_Collections_Generic_List_object__o *)cells,index,
-                             (MethodInfo_92B830 *)
-                             MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item);
-        pUVar3 = (__this->fields)._fragmentMaterials;
-        if (pUVar3 == (UnityEngine_Material_array *)0x0) goto label_181e9da58;
-        value = Map_MapFracture__CreateMesh
-                          (pSVar15,(int32_t)pUVar3->max_length,(UnityEngine_Vector3_o *)&local_c0,
-                           (MethodInfo *)0x0);
-        pMVar9 = MethodInfo_System_Collections_Generic_List_Mesh_Add;
-        pSVar4 = (__this->fields)._meshes;
-        if (pSVar4 == (System_Collections_Generic_List_Mesh__o *)0x0) goto label_181e9da58;
-        piVar1 = &(pSVar4->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pUVar5 = (pSVar4->fields)._items;
-        if (pUVar5 == (UnityEngine_Mesh_array *)0x0) goto label_181e9da58;
-        uVar2 = (pSVar4->fields)._size;
-        if (uVar2 < (uint)pUVar5->max_length) {
-          (pSVar4->fields)._size = uVar2 + 1;
-          if ((uint)pUVar5->max_length <= uVar2) {
-            ThrowIndexOutOfRangeException();
+    pSVar13 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_EntityId);
+    System_Collections_Generic_List_EntityId____ctor_520b970
+              (pSVar13,iVar11,(MethodInfo_520B970 *)MethodInfo_System_Collections_Generic_List_EntityId_ctor);
+    if (pMVar12 != (Map_MapDestructionDebris___c__DisplayClass45_0_o *)0x0) {
+      local_60 = &pMVar12->fields;
+      (pMVar12->fields).convex = pSVar13;
+      local_68 = pMVar12;
+      Il2CppCodeGenWriteBarrier(&local_60->convex);
+      if (0 < (cells->fields)._size) {
+        index = 0;
+        do {
+          while( true ) {
+            pSVar14 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                      System_Collections_Generic_List_object___get_Item
+                                ((System_Collections_Generic_List_object__o *)cells,index,
+                                 (MethodInfo_395CF20 *)
+                                 MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item
+                                );
+            pUVar3 = (__this->fields)._fragmentMaterials;
+            if (pUVar3 == (UnityEngine_Material_array *)0x0) goto label_05985ce2;
+            value_00 = Map_MapFracture__CreateMesh
+                                 (pSVar14,*(int32_t *)&pUVar3->max_length,(UnityEngine_Vector3_o *)&local_98,
+                                  (MethodInfo *)pUVar3);
+            pMVar17 = MethodInfo_System_Collections_Generic_List_Mesh_Add;
+            pSVar4 = (__this->fields)._meshes;
+            if (pSVar4 == (System_Collections_Generic_List_Mesh__o *)0x0) goto label_05985ce2;
+            piVar1 = &(pSVar4->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pUVar5 = (pSVar4->fields)._items;
+            if (pUVar5 == (UnityEngine_Mesh_array *)0x0) goto label_05985ce2;
+            uVar2 = (pSVar4->fields)._size;
+            if (uVar2 < (uint)pUVar5->max_length) {
+              (pSVar4->fields)._size = uVar2 + 1;
+              pUVar5->m_Items[(int)uVar2] = value_00;
+              Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)value_00,
+                         (MethodInfo_395D230 *)pMVar17->klass->rgctx_data[0xe].method);
+            }
+            __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+            UnityEngine_GameObject___ctor(__this_01,"Map debris fragment",(MethodInfo *)0x0);
+            __this_02 = UnityEngine_Component__get_gameObject
+                                  ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+            if ((__this_02 == (UnityEngine_GameObject_o *)0x0) ||
+               (iVar11 = UnityEngine_GameObject__get_layer(__this_02,(MethodInfo *)0x0),
+               __this_01 == (UnityEngine_GameObject_o *)0x0)) goto label_05985ce2;
+            UnityEngine_GameObject__set_layer(__this_01,iVar11,(MethodInfo *)0x0);
+            pUVar15 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+            parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
+            ;
+            if (pUVar15 == (UnityEngine_Transform_o *)0x0) goto label_05985ce2;
+            UnityEngine_Transform__SetParent_692d510(pUVar15,parent,false,(MethodInfo *)0x0);
+            pUVar15 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+            fVar9 = local_98.z;
+            if (pUVar15 == (UnityEngine_Transform_o *)0x0) goto label_05985ce2;
+            value.fields.z = local_98.z;
+            value.fields.x = local_98.x;
+            value.fields.y = local_98.y;
+            local_48._0_4_ = local_98.x;
+            local_48._4_4_ = local_98.y;
+            local_48._8_8_ = 0;
+            UnityEngine_Transform__set_localPosition(pUVar15,value,(MethodInfo *)0x0);
+            __this_03 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_01,
+                                   (MethodInfo_353B6A0 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_MeshFilter);
+            if (__this_03 == (UnityEngine_MeshFilter_o *)0x0) goto label_05985ce2;
+            UnityEngine_MeshFilter__set_sharedMesh(__this_03,value_00,(MethodInfo *)0x0);
+            pUVar3 = (__this->fields)._fragmentMaterials;
+            if (Il2CppMethodInitialized_07545a05 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
+              Il2CppMethodInitialized_07545a05 = '\x01';
+            }
+            __this_04 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_01,
+                                   (MethodInfo_353B6A0 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
+            if (__this_04 == (UnityEngine_MeshRenderer_o *)0x0) goto label_05985ce2;
+            UnityEngine_Renderer__set_sharedMaterials
+                      ((UnityEngine_Renderer_o *)__this_04,pUVar3,(MethodInfo *)0x0);
+            UnityEngine_Renderer__set_shadowCastingMode
+                      ((UnityEngine_Renderer_o *)__this_04,(__this->fields)._shadows,(MethodInfo *)0x0);
+            pMVar17 = (MethodInfo *)(ulong)index;
+            pSVar14 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                      System_Collections_Generic_List_object___get_Item
+                                ((System_Collections_Generic_List_object__o *)cells,index,
+                                 (MethodInfo_395CF20 *)
+                                 MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item
+                                );
+            bVar10 = Map_MapFracture__HasVolume(pSVar14,0.1,pMVar17);
+            x = (UnityEngine_Object_o *)0x0;
+            if (bVar10) {
+              pMVar17 = (MethodInfo *)(ulong)index;
+              pSVar14 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                        System_Collections_Generic_List_object___get_Item
+                                  ((System_Collections_Generic_List_object__o *)cells,index,
+                                   (MethodInfo_395CF20 *)
+                                   MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item
+                                  );
+              center.fields.z = fVar9;
+              center.fields.x = (float)local_48._0_4_;
+              center.fields.y = (float)local_48._4_4_;
+              x = (UnityEngine_Object_o *)Map_MapFracture__CreateCollisionMesh(pSVar14,center,0.75,pMVar17);
+            }
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+            }
+            bVar10 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            pMVar17 = MethodInfo_System_Collections_Generic_List_Mesh_Add;
+            if (bVar10) {
+              pSVar4 = (__this->fields)._meshes;
+              if (pSVar4 == (System_Collections_Generic_List_Mesh__o *)0x0) goto label_05985ce2;
+              piVar1 = &(pSVar4->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar5 = (pSVar4->fields)._items;
+              if (pUVar5 == (UnityEngine_Mesh_array *)0x0) goto label_05985ce2;
+              uVar2 = (pSVar4->fields)._size;
+              if (uVar2 < (uint)pUVar5->max_length) {
+                (pSVar4->fields)._size = uVar2 + 1;
+                pUVar5->m_Items[(int)uVar2] = (UnityEngine_Mesh_o *)x;
+                Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)x,
+                           (MethodInfo_395D230 *)pMVar17->klass->rgctx_data[0xe].method);
+              }
+              if (x == (UnityEngine_Object_o *)0x0) goto label_05985ce2;
+              pSVar13 = local_60->convex;
+              item = UnityEngine_Object__GetEntityId(x,(MethodInfo *)0x0);
+              pMVar17 = MethodInfo_System_Collections_Generic_List_EntityId_Add;
+              if (pSVar13 == (System_Collections_Generic_List_EntityId__o *)0x0) goto label_05985ce2;
+              piVar1 = &(pSVar13->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar6 = (pSVar13->fields)._items;
+              if (pUVar6 == (UnityEngine_EntityId_array *)0x0) goto label_05985ce2;
+              uVar2 = (pSVar13->fields)._size;
+              if (uVar2 < (uint)pUVar6->max_length) {
+                (pSVar13->fields)._size = uVar2 + 1;
+                pUVar6->m_Items[(int)uVar2].fields.m_Data = (int32_t)item.fields.m_Data;
+              }
+              else {
+                System_Collections_Generic_List_EntityId___AddWithResize
+                          (pSVar13,item,(MethodInfo_520C1F0 *)pMVar17->klass->rgctx_data[0xe].method);
+              }
+            }
+            __this_00 = (__this->fields)._pieces;
+            __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_Piece);
+            System_Object___ctor((Il2CppObject *)__this_05,(MethodInfo *)0x0);
+            if (__this_05 == (Map_MapDestructionDebris_Piece_o *)0x0) goto label_05985ce2;
+            (__this_05->fields).Fragment = __this_01;
+            Il2CppCodeGenWriteBarrier(&(__this_05->fields).Fragment);
+            (__this_05->fields).Collision = (UnityEngine_Mesh_o *)x;
+            Il2CppCodeGenWriteBarrier(&(__this_05->fields).Collision);
+            pMVar17 = MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_Add;
+            if (__this_00 == (System_Collections_Generic_List_MapDestructionDebris_Piece__o *)0x0)
+            goto label_05985ce2;
+            piVar1 = &(__this_00->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pMVar7 = (__this_00->fields)._items;
+            if (pMVar7 == (Map_MapDestructionDebris_Piece_array *)0x0) goto label_05985ce2;
+            uVar2 = (__this_00->fields)._size;
+            if ((uint)pMVar7->max_length <= uVar2) break;
+            (__this_00->fields)._size = uVar2 + 1;
+            pMVar7->m_Items[(int)uVar2] = __this_05;
+            Il2CppCodeGenWriteBarrier(pMVar7->m_Items + (int)uVar2);
+            index = index + 1;
+            if ((cells->fields)._size <= (int)index) goto label_05985bb1;
           }
-          pUVar5->m_Items[(int)uVar2] = value;
-          Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar2,value);
-        }
-        else {
           System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)value,
-                     (MethodInfo_93DD50 *)pMVar9->klass->rgctx_data[0xe].method);
-        }
-        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-        UnityEngine_GameObject___ctor(__this_00,"Map debris fragment",(MethodInfo *)0x0);
-        __this_01 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-        ;
-        if ((__this_01 == (UnityEngine_GameObject_o *)0x0) ||
-           (iVar12 = UnityEngine_GameObject__get_layer(__this_01,(MethodInfo *)0x0),
-           __this_00 == (UnityEngine_GameObject_o *)0x0)) goto label_181e9da58;
-        UnityEngine_GameObject__set_layer(__this_00,iVar12,(MethodInfo *)0x0);
-        pUVar16 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-        parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        if (pUVar16 == (UnityEngine_Transform_o *)0x0) goto label_181e9da58;
-        UnityEngine_Transform__SetParent_2f5a7e0(pUVar16,parent,false,(MethodInfo *)0x0);
-        pUVar16 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-        fVar10 = local_b8;
-        pSVar14 = local_c0;
-        if (pUVar16 == (UnityEngine_Transform_o *)0x0) goto label_181e9da58;
-        local_a8 = local_c0;
-        local_a0 = local_b8;
-        UnityEngine_Transform__set_localPosition(pUVar16,(UnityEngine_Vector3_o *)&local_a8,(MethodInfo *)0x0)
-        ;
-        __this_02 = UnityEngine_GameObject__AddComponent_object_
-                              (__this_00,
-                               (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_MeshFilter)
-        ;
-        if (__this_02 == (UnityEngine_MeshFilter_o *)0x0) goto label_181e9da58;
-        UnityEngine_MeshFilter__set_sharedMesh(__this_02,value,(MethodInfo *)0x0);
-        pUVar3 = (__this->fields)._fragmentMaterials;
-        if (Il2CppMethodInitialized_184345074 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
-          Il2CppMethodInitialized_184345074 = '\x01';
-        }
-        __this_03 = UnityEngine_GameObject__AddComponent_object_
-                              (__this_00,
-                               (MethodInfo_6F4D60 *)
-                               MethodInfo_UnityEngine_GameObject_AddComponent_MeshRenderer);
-        if (__this_03 == (UnityEngine_MeshRenderer_o *)0x0) goto label_181e9da58;
-        UnityEngine_Renderer__set_sharedMaterials
-                  ((UnityEngine_Renderer_o *)__this_03,pUVar3,(MethodInfo *)0x0);
-        UnityEngine_Renderer__set_shadowCastingMode
-                  ((UnityEngine_Renderer_o *)__this_03,(__this->fields)._shadows,(MethodInfo *)0x0);
-        pSVar15 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
-                  System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                            ((System_Collections_Generic_List_object__o *)cells,index,
-                             (MethodInfo_92B830 *)
-                             MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item);
-        bVar11 = Map_MapFracture__HasVolume(pSVar15,0.1,(MethodInfo *)0x0);
-        if (bVar11) {
-          local_98._0_8_ = pSVar14;
-          local_98._8_4_ = fVar10;
-          pSVar15 = (System_Collections_Generic_List_MapFracture_Triangle__o *)
-                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)cells,index,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_get_Item);
-          pUVar17 = (UnityEngine_Object_o *)
-                    Map_MapFracture__CreateCollisionMesh
-                              (pSVar15,(UnityEngine_Vector3_o *)local_98,0.75,(MethodInfo *)0x0);
-        }
-        else {
-          pUVar17 = (UnityEngine_Object_o *)0x0;
-        }
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar11 = UnityEngine_Object__op_Inequality(pUVar17,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar11) {
-          pSVar4 = (__this->fields)._meshes;
-          if ((pSVar4 == (System_Collections_Generic_List_Mesh__o *)0x0) ||
-             (il2cpp_runtime_helper_180012890(pSVar4,pUVar17,MethodInfo_System_Collections_Generic_List_Mesh_Add),
-             pUVar17 == (UnityEngine_Object_o *)0x0)) goto label_181e9da58;
-          pSVar6 = (object->fields).convex;
-          UVar13 = UnityEngine_Object__GetEntityId(pUVar17,(MethodInfo *)0x0);
-          if (pSVar6 == (System_Collections_Generic_List_EntityId__o *)0x0) goto label_181e9da58;
-          il2cpp_runtime_helper_18003d480(pSVar6,UVar13.fields.m_Data,MethodInfo_System_Collections_Generic_List_EntityId_Add);
-        }
-        pSVar7 = (__this->fields)._pieces;
-        __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapDestructionDebris_Piece);
-        System_Object___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_04,(MethodInfo *)0x0);
-        if (__this_04 == (Map_MapDestructionDebris_Piece_o *)0x0) goto label_181e9da58;
-        (__this_04->fields).Fragment = __this_00;
-        Il2CppCodeGenWriteBarrier(&(__this_04->fields).Fragment,__this_00);
-        (__this_04->fields).Collision = (UnityEngine_Mesh_o *)pUVar17;
-        Il2CppCodeGenWriteBarrier(&(__this_04->fields).Collision,pUVar17);
-        if (pSVar7 == (System_Collections_Generic_List_MapDestructionDebris_Piece__o *)0x0)
-        goto label_181e9da58;
-        il2cpp_runtime_helper_180012890(pSVar7,__this_04,
-                      MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_Add);
+                    ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)__this_05,
+                     (MethodInfo_395D230 *)pMVar17->klass->rgctx_data[0xe].method);
+          index = index + 1;
+        } while ((int)index < (cells->fields)._size);
       }
+label_05985bb1:
       pSVar8 = (__this->fields)._sectionVisuals;
       if (pSVar8 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)local_98,
-                   (System_Collections_Generic_List_T__o *)pSVar8,
-                   (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-        local_78 = (undefined1  [8])local_98._0_8_;
-        pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_98._8_8_;
-        local_68 = local_88;
-        local_98._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-        local_98._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78;
-        while (bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                  ((System_Collections_Generic_List_Enumerator_object__o *)local_78,
-                                   (MethodInfo_153A2A0 *)
+        System_Collections_Generic_List_object___GetEnumerator
+                  (&local_88,(System_Collections_Generic_List_object__o *)pSVar8,
+                   (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+        local_58 = 0;
+        local_50 = &local_88;
+        while (bVar10 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                  ((System_Collections_Generic_List_Enumerator_object__o *)&local_88,
+                                   (MethodInfo_4C45C50 *)
                                    MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext),
-              pUVar17 = local_68, bVar11) {
+              obj = local_88.fields._current, bVar10) {
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          UnityEngine_Object__Destroy_2f1ff70(pUVar17,(MethodInfo *)0x0);
+          UnityEngine_Object__Destroy_69214e0((UnityEngine_Object_o *)obj,(MethodInfo *)0x0);
         }
         System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78,
+                  ((System_Collections_Generic_List_Enumerator_object__o *)&local_88,
+                   (MethodInfo_4C45C40 *)
                    MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+        pMVar12 = local_68;
         pSVar8 = (__this->fields)._sectionVisuals;
         if (pSVar8 != (System_Collections_Generic_List_GameObject__o *)0x0) {
           piVar1 = &(pSVar8->fields)._version;
           *piVar1 = *piVar1 + 1;
-          iVar12 = (pSVar8->fields)._size;
+          iVar11 = (pSVar8->fields)._size;
           (pSVar8->fields)._size = 0;
-          if (0 < iVar12) {
-            System_Array__Clear((System_Array_o *)(pSVar8->fields)._items,0,iVar12,(MethodInfo *)0x0);
+          if (0 < iVar11) {
+            System_Array__Clear((System_Array_o *)(pSVar8->fields)._items,0,iVar11,(MethodInfo *)0x0);
           }
-          __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
+          __this_06 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action);
           System_Action___ctor
-                    ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_05,(Il2CppObject *)object,
+                    (__this_06,(Il2CppObject *)pMVar12,
                      (intptr_t)MethodInfo_Map_MapDestructionDebris_c__DisplayClass45_0_CreateFragments_b__0,
                      (MethodInfo *)0x0);
           if ((TypeInfo_System_Threading_Tasks_Task->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Threading_Tasks_Task);
           }
-          value_00 = System_Threading_Tasks_Task__Run(__this_05,(MethodInfo *)0x0);
-          (__this->fields)._baking = value_00;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._baking,value_00);
+          pSVar16 = System_Threading_Tasks_Task__Run(__this_06,(MethodInfo *)0x0);
+          (__this->fields)._baking = pSVar16;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._baking);
           return;
         }
       }
     }
   }
-label_181e9da58:
+label_05985ce2:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$ActivateFragments
 // il2cpp: void Map_MapDestructionDebris__ActivateFragments (Map_MapDestructionDebris_o* __this, const MethodInfo* method);
-// 0x181e9cc10
-// eh: try 0x181e9cd43..0x181e9d091 -> pad 0x18332a810 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9d014: mov rdx, qword ptr [rip + 0x2207845]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose
-// asm:   0x181e9d01b: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x181e9d020: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9d025: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181e9d02a: test rcx, rcx
-// asm:   0x181e9d02d: jne 0x181e9d091
-// asm:   0x181e9d091: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18332a810: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18332a815: push rbp
-// asm:   0x18332a816: sub rsp, 0x20
-// asm:   0x18332a81a: mov rbp, rdx
-// asm:   0x18332a81d: mov rax, qword ptr [rbp + 0x80]
-// asm:   0x18332a824: mov rcx, qword ptr [rax]
-// asm:   0x18332a827: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x18332a82b: movabs rax, 0
-// asm:   0x18332a835: add rsp, 0x20
-// asm:   0x18332a839: pop rbp
-// asm:   0x18332a83a: ret 
+// 0x5985d50
+// eh: try 0x5985e8a..0x598613c -> pad 0x5986177 (+29 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5986193..0x5986198 -> pad 0x59861bd cleanup
+// eh: try 0x59861c0..0x59861ca -> pad 0x59861d2 catch (...) [compiler noexcept guard]
+// asm: 52 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5986141: jmp 0x598617b
+// asm:   0x5986143: jmp 0x598617b
+// asm:   0x5986145: jmp 0x598617b
+// asm:   0x5986147: jmp 0x598617b
+// asm:   0x5986149: jmp 0x598617b
+// asm:   0x598614b: jmp 0x598617b
+// asm:   0x598614d: jmp 0x598617b
+// asm:   0x598614f: jmp 0x598617b
+// asm:   0x5986151: jmp 0x598617b
+// asm:   0x5986153: jmp 0x598617b
+// asm:   0x5986155: jmp 0x598617b
+// asm:   0x5986157: jmp 0x598617b
+// asm:   0x5986159: jmp 0x598617b
+// asm:   0x598615b: jmp 0x598617b
+// asm:   0x598615d: jmp 0x598617b
+// asm:   0x598615f: jmp 0x598617b
+// asm:   0x5986161: jmp 0x598617b
+// asm:   0x5986163: jmp 0x598617b
+// asm:   0x5986165: jmp 0x598617b
+// asm:   0x5986167: jmp 0x598617b
+// asm:   0x5986169: jmp 0x598617b
+// asm:   0x598616b: jmp 0x598617b
+// asm:   0x598616d: jmp 0x598617b
+// asm:   0x598616f: jmp 0x598617b
+// asm:   0x5986171: jmp 0x598617b
+// asm:   0x5986173: jmp 0x598617b
+// asm:   0x5986175: jmp 0x598617b
+// asm:   0x5986177: jmp 0x598617b
+// asm:   0x5986179: jmp 0x598617b
+// asm:   0x598617b: mov rbx, rax
+// asm:   0x598617e: cmp edx, 1
+// asm:   0x5986181: jne 0x59861c0
+// asm:   0x5986183: mov rdi, rbx
+// asm:   0x5986186: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598618b: mov rbx, qword ptr [rax]
+// asm:   0x598618e: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x5986193: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5986198: lea rax, [rip + 0x1909109]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose
+// asm:   0x598619f: mov rsi, qword ptr [rax]
+// asm:   0x59861a2: lea rdi, [rsp + 0x10]
+// asm:   0x59861a7: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x59861ac: test rbx, rbx
+// asm:   0x59861af: je 0x59860fb
+// asm:   0x59861b5: mov rdi, rbx
+// asm:   0x59861b8: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59861bd: mov rbx, rax
+// asm:   0x59861c0: lea rdi, [rsp + 0x28]
+// asm:   0x59861c5: call 0x2fd42f0  ; il2cpp_runtime_helper_02fd42f0()
+// asm:   0x59861ca: mov rdi, rbx
+// asm:   0x59861cd: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59861d2: mov rdi, rax
+// asm:   0x59861d5: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapDestructionDebris__ActivateFragments(Map_MapDestructionDebris_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
+  Il2CppObject *targetAddress;
   int32_t Seed;
   System_Collections_Generic_List_MapDestructionDebris_Piece__o *__this_00;
   Il2CppClass *__this_01;
   UnityEngine_Mesh_o *collision;
-  UnityEngine_Object_o *pUVar4;
-  UnityEngine_Object_o *pUVar5;
-  UnityEngine_Object_o *pUVar6;
-  Il2CppObject *pIVar7;
-  bool bVar8;
+  double dVar1;
+  double dVar2;
+  Il2CppObject *pIVar3;
+  bool bVar4;
   System_Random_o *__this_02;
   UnityEngine_MeshFilter_o *__this_03;
   UnityEngine_Mesh_o *mesh;
   UnityEngine_Collider_o *__this_04;
-  Il2CppClass *pIVar9;
-  UnityEngine_ConstantForce_o *pUVar10;
-  UnityEngine_Vector3_o *pUVar11;
-  float fVar12;
-  UnityEngine_Vector3_o local_108;
-  UnityEngine_Vector3_o local_f8;
-  UnityEngine_Vector3_o local_e8;
-  undefined1 local_d8 [16];
-  Il2CppObject *local_c8;
-  System_Collections_Generic_List_Enumerator_object__o local_c0;
-  UnityEngine_Vector3_o local_a0 [9];
+  Il2CppClass *pIVar5;
+  UnityEngine_ConstantForce_o *pUVar6;
+  MethodInfo *in_RCX;
+  float fVar7;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dc_00;
+  undefined4 extraout_XMM0_Dd;
+  undefined4 extraout_XMM0_Dd_00;
+  UnityEngine_Vector3_o value;
+  UnityEngine_Vector3_o UVar8;
+  UnityEngine_Vector3_o value_00;
+  System_Collections_Generic_List_Enumerator_object__o local_78;
+  undefined1 local_60 [16];
+  Il2CppObject *local_50;
+  undefined1 local_48 [24];
   
-  if (Il2CppMethodInitialized_18434507b == '\0') {
+  if (Il2CppMethodInitialized_07545a0c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1838,130 +2404,138 @@ void Map_MapDestructionDebris__ActivateFragments(Map_MapDestructionDebris_o *__t
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Random);
-    Il2CppMethodInitialized_18434507b = '\x01';
+    Il2CppMethodInitialized_07545a0c = '\x01';
   }
-  local_c0.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_c0.fields._index = 0;
-  local_c0.fields._version = 0;
-  local_c0.fields._current = (Il2CppObject *)0x0;
+  local_78.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_78.fields._index = 0;
+  local_78.fields._version = 0;
+  local_78.fields._current = (Il2CppObject *)0x0;
   (__this->fields)._activeAge = (__this->fields)._age;
   Seed = (__this->fields)._seed;
   __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Random);
-  System_Random___ctor_1b47f40(__this_02,Seed,(MethodInfo *)0x0);
+  System_Random___ctor_54cebf0(__this_02,Seed,(MethodInfo *)0x0);
   __this_00 = (__this->fields)._pieces;
   if (__this_00 == (System_Collections_Generic_List_MapDestructionDebris_Piece__o *)0x0) {
     ThrowNullReferenceException();
   }
-  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-            ((System_Collections_Generic_List_Enumerator_T__o *)local_d8,
-             (System_Collections_Generic_List_T__o *)__this_00,
-             (MethodInfo_91F180 *)
+  System_Collections_Generic_List_object___GetEnumerator
+            ((System_Collections_Generic_List_Enumerator_T__o *)local_60,
+             (System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395E050 *)
              MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_GetEnumerator);
-  local_c0.fields._list = (System_Collections_Generic_List_T__o *)local_d8._0_8_;
-  local_c0.fields._index = local_d8._8_4_;
-  local_c0.fields._version = local_d8._12_4_;
-  local_c0.fields._current = local_c8;
-  local_d8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_d8._8_8_ = &local_c0;
+  local_78.fields._current = local_50;
+  local_78.fields._list = (System_Collections_Generic_List_T__o *)local_60._0_8_;
+  local_78.fields._index = local_60._8_4_;
+  local_78.fields._version = local_60._12_4_;
+  local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+  local_60._8_8_ = &local_78;
   while( true ) {
-    bVar8 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                      (&local_c0,
-                       (MethodInfo_153A2A0 *)
+    bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      (&local_78,
+                       (MethodInfo_4C45C50 *)
                        MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_MoveNext
                       );
-    pIVar7 = local_c0.fields._current;
-    if (!bVar8) {
+    pIVar3 = local_78.fields._current;
+    if (!bVar4) {
       System_Collections_Generic_List_Enumerator_object___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_c0,
+                (&local_78,
+                 (MethodInfo_4C45C40 *)
                  MethodInfo_System_Collections_Generic_List_Enumerator_MapDestructionDebris_Piece_Dispose);
       return;
     }
-    if (local_c0.fields._current == (Il2CppObject *)0x0) {
+    if (local_78.fields._current == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    __this_01 = local_c0.fields._current[1].klass;
+    __this_01 = local_78.fields._current[1].klass;
     if (__this_01 == (Il2CppClass *)0x0) {
       ThrowNullReferenceException();
     }
     __this_03 = UnityEngine_GameObject__GetComponent_object_
                           ((UnityEngine_GameObject_o *)__this_01,
-                           (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_MeshFilter);
+                           (MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_MeshFilter);
     if (__this_03 == (UnityEngine_MeshFilter_o *)0x0) break;
     mesh = UnityEngine_MeshFilter__get_sharedMesh(__this_03,(MethodInfo *)0x0);
-    collision = pIVar7[1].monitor;
+    collision = pIVar3[1].monitor;
     if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
     }
     __this_04 = Map_MapDestructionDebris__AddCollider
-                          ((UnityEngine_GameObject_o *)__this_01,mesh,collision,(MethodInfo *)0x0);
+                          ((UnityEngine_GameObject_o *)__this_01,mesh,collision,in_RCX);
     if (__this_04 == (UnityEngine_Collider_o *)0x0) {
       ThrowNullReferenceException();
     }
+    in_RCX = (MethodInfo *)TypeInfo_Map_MapDestructionDebris->static_fields;
     UnityEngine_Collider__set_sharedMaterial
-              (__this_04,TypeInfo_Map_MapDestructionDebris->static_fields->_rubble,(MethodInfo *)0x0);
-    pIVar9 = (Il2CppClass *)
+              (__this_04,(UnityEngine_PhysicsMaterial_o *)in_RCX->klass,(MethodInfo *)0x0);
+    pIVar5 = (Il2CppClass *)
              UnityEngine_GameObject__AddComponent_object_
                        ((UnityEngine_GameObject_o *)__this_01,
-                        (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
-    pIVar7[2].klass = pIVar9;
-    Il2CppCodeGenWriteBarrier(&pIVar7[2].klass,pIVar9);
-    if (pIVar7[2].klass == (Il2CppClass *)0x0) {
+                        (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_Rigidbody);
+    targetAddress = pIVar3 + 2;
+    pIVar3[2].klass = pIVar5;
+    Il2CppCodeGenWriteBarrier(&targetAddress->klass);
+    if (targetAddress->klass == (Il2CppClass *)0x0) {
       ThrowNullReferenceException();
     }
-    UnityEngine_Rigidbody__set_interpolation((UnityEngine_Rigidbody_o *)pIVar7[2].klass,1,(MethodInfo *)0x0);
+    UnityEngine_Rigidbody__set_interpolation
+              ((UnityEngine_Rigidbody_o *)targetAddress->klass,1,(MethodInfo *)0x0);
     if (__this_02 == (System_Random_o *)0x0) {
       ThrowNullReferenceException();
     }
-    pIVar9 = pIVar7[2].klass;
-    pUVar5 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
-                       (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
-    pUVar4 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
-                       (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
-    if (pIVar9 == (Il2CppClass *)0x0) {
+    pIVar5 = targetAddress->klass;
+    dVar1 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
+                      (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
+    dVar2 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
+                      (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
+    if (pIVar5 == (Il2CppClass *)0x0) {
       ThrowNullReferenceException();
     }
-    local_108.fields.y = 0.0;
-    local_108.fields.x = (float)(double)pUVar5 - 0.5;
-    local_108.fields.z = (float)(double)pUVar4 - 0.5;
-    UnityEngine_Rigidbody__set_linearVelocity((UnityEngine_Rigidbody_o *)pIVar9,&local_108,(MethodInfo *)0x0);
-    pIVar9 = pIVar7[2].klass;
-    pUVar6 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
-                       (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
-    pUVar5 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
-                       (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
-    pUVar4 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
-                       (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
-    if (pIVar9 == (Il2CppClass *)0x0) {
+    UVar8.fields.z = (float)dVar2 + -0.5;
+    UVar8.fields.y = 0.0;
+    UVar8.fields.x = (float)dVar1 + -0.5;
+    UnityEngine_Rigidbody__set_linearVelocity((UnityEngine_Rigidbody_o *)pIVar5,UVar8,(MethodInfo *)0x0);
+    pIVar5 = targetAddress->klass;
+    dVar1 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
+                      (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
+    dVar2 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
+                      (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
+    local_48._8_4_ = extraout_XMM0_Dc;
+    local_48._0_8_ = dVar2;
+    local_48._12_4_ = extraout_XMM0_Dd;
+    dVar2 = (*(__this_02->klass->vtable)._8_NextDouble.methodPtr)
+                      (__this_02,(__this_02->klass->vtable)._8_NextDouble.method);
+    if (pIVar5 == (Il2CppClass *)0x0) {
       ThrowNullReferenceException();
     }
-    local_f8.fields.x = ((float)(double)pUVar6 - 0.5) * 1.2;
-    local_f8.fields.y = ((float)(double)pUVar5 - 0.5) * 1.2;
-    local_f8.fields.z = ((float)(double)pUVar4 - 0.5) * 1.2;
-    UnityEngine_Rigidbody__set_angularVelocity((UnityEngine_Rigidbody_o *)pIVar9,&local_f8,(MethodInfo *)0x0);
-    pUVar10 = UnityEngine_GameObject__AddComponent_object_
-                        ((UnityEngine_GameObject_o *)__this_01,
-                         (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_ConstantForce);
-    pIVar7[2].monitor = pUVar10;
-    Il2CppCodeGenWriteBarrier(&pIVar7[2].monitor,pUVar10);
-    pUVar10 = pIVar7[2].monitor;
+    value.fields.z = ((float)dVar2 + -0.5) * 1.2;
+    value.fields.x = ((float)dVar1 + -0.5) * 1.2;
+    value.fields.y = ((float)(double)local_48._0_8_ + -0.5) * 1.2;
+    UnityEngine_Rigidbody__set_angularVelocity((UnityEngine_Rigidbody_o *)pIVar5,value,(MethodInfo *)0x0);
+    pUVar6 = UnityEngine_GameObject__AddComponent_object_
+                       ((UnityEngine_GameObject_o *)__this_01,
+                        (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_ConstantForce);
+    pIVar3[2].monitor = pUVar6;
+    Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor);
+    pUVar6 = pIVar3[2].monitor;
     if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
     }
-    pUVar11 = UnityEngine_Physics__get_gravity(local_a0,(MethodInfo *)0x0);
-    if (pIVar7[2].klass == (Il2CppClass *)0x0) {
+    UVar8 = UnityEngine_Physics__get_gravity((MethodInfo *)0x0);
+    local_48._8_4_ = extraout_XMM0_Dc_00;
+    local_48._0_8_ = UVar8.fields._0_8_;
+    local_48._12_4_ = extraout_XMM0_Dd_00;
+    if (targetAddress->klass == (Il2CppClass *)0x0) {
       ThrowNullReferenceException();
     }
-    fVar1 = (pUVar11->fields).x;
-    fVar2 = (pUVar11->fields).y;
-    fVar3 = (pUVar11->fields).z;
-    fVar12 = UnityEngine_Rigidbody__get_mass((UnityEngine_Rigidbody_o *)pIVar7[2].klass,(MethodInfo *)0x0);
-    if (pUVar10 == (UnityEngine_ConstantForce_o *)0x0) {
+    fVar7 = UnityEngine_Rigidbody__get_mass((UnityEngine_Rigidbody_o *)targetAddress->klass,(MethodInfo *)0x0)
+    ;
+    if (pUVar6 == (UnityEngine_ConstantForce_o *)0x0) {
       ThrowNullReferenceException();
     }
-    local_e8.fields.x = fVar1 * fVar12;
-    local_e8.fields.y = fVar2 * fVar12;
-    local_e8.fields.z = fVar3 * fVar12;
-    UnityEngine_ConstantForce__set_force(pUVar10,&local_e8,(MethodInfo *)0x0);
+    value_00.fields.z = UVar8.fields.z * fVar7;
+    value_00.fields.x = fVar7 * (float)local_48._0_4_;
+    value_00.fields.y = fVar7 * (float)local_48._4_4_;
+    UnityEngine_ConstantForce__set_force(pUVar6,value_00,(MethodInfo *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -1969,18 +2543,7 @@ void Map_MapDestructionDebris__ActivateFragments(Map_MapDestructionDebris_o *__t
 
 // Map.MapDestructionDebris$$AddCollider
 // il2cpp: UnityEngine_Collider_o* Map_MapDestructionDebris__AddCollider (UnityEngine_GameObject_o* fragment, UnityEngine_Mesh_o* mesh, UnityEngine_Mesh_o* collision, const MethodInfo* method);
-// 0x181e9d0a0
-// asm: 10 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9d30d: xor r8d, r8d
-// asm:   0x181e9d310: mov rdx, rbp
-// asm:   0x181e9d313: mov rcx, rax
-// asm:   0x181e9d316: call 0x182fdee70  ; UnityEngine_MeshCollider__set_sharedMesh()
-// asm:   0x181e9d31b: xor r8d, r8d
-// asm:   0x181e9d31e: mov dl, 1
-// asm:   0x181e9d320: mov rcx, rbx
-// asm:   0x181e9d323: call 0x182fded90  ; UnityEngine_MeshCollider__set_convex()
-// asm:   0x181e9d328: mov rax, rbx
-// asm:   0x181e9d32b: jmp 0x181e9d2e5
+// 0x5987610
 
 UnityEngine_Collider_o *
 Map_MapDestructionDebris__AddCollider
@@ -1988,30 +2551,31 @@ Map_MapDestructionDebris__AddCollider
           MethodInfo *method)
 
 {
-  UnityEngine_Vector3_StaticFields *pUVar1;
-  bool bVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector3_StaticFields *pUVar3;
+  undefined1 auVar4 [16];
+  bool bVar5;
   int32_t value;
   UnityEngine_GameObject_o *__this;
   UnityEngine_Transform_o *__this_00;
   UnityEngine_Transform_o *parent;
-  UnityEngine_BoxCollider_o *__this_01;
-  UnityEngine_Bounds_o *pUVar3;
-  UnityEngine_MeshCollider_o *__this_02;
-  float fVar4;
-  float fVar5;
-  float fVar6;
+  UnityEngine_MeshCollider_o *__this_01;
+  UnityEngine_BoxCollider_o *__this_02;
+  undefined1 auVar6 [16];
   float fVar7;
   float fVar8;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Bounds_o local_78 [3];
+  UnityEngine_Vector3_o value_00;
+  UnityEngine_Bounds_o local_50;
+  undefined1 local_38 [16];
   
-  if (Il2CppMethodInitialized_18434507c == '\0') {
+  if (Il2CppMethodInitialized_07545a0d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_BoxCollider);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_MeshCollider);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&"Collider");
-    Il2CppMethodInitialized_18434507c = '\x01';
+    Il2CppMethodInitialized_07545a0d = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
   UnityEngine_GameObject___ctor(__this,"Collider",(MethodInfo *)0x0);
@@ -2022,62 +2586,56 @@ Map_MapDestructionDebris__AddCollider
     __this_00 = UnityEngine_GameObject__get_transform(__this,(MethodInfo *)0x0);
     parent = UnityEngine_GameObject__get_transform(fragment,(MethodInfo *)0x0);
     if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__SetParent_2f5a7e0(__this_00,parent,false,(MethodInfo *)0x0);
+      UnityEngine_Transform__SetParent_692d510(__this_00,parent,false,(MethodInfo *)0x0);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar2 = UnityEngine_Object__op_Inequality
+      bVar5 = UnityEngine_Object__op_Inequality
                         ((UnityEngine_Object_o *)collision,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (bVar2) {
-        __this_02 = UnityEngine_GameObject__AddComponent_object_
-                              (__this,(MethodInfo_6F4D60 *)
+      if (bVar5) {
+        __this_01 = UnityEngine_GameObject__AddComponent_object_
+                              (__this,(MethodInfo_353B6A0 *)
                                       MethodInfo_UnityEngine_GameObject_AddComponent_MeshCollider);
-        if (__this_02 != (UnityEngine_MeshCollider_o *)0x0) {
-          UnityEngine_MeshCollider__set_sharedMesh(__this_02,collision,(MethodInfo *)0x0);
-          UnityEngine_MeshCollider__set_convex(__this_02,true,(MethodInfo *)0x0);
-          return (UnityEngine_Collider_o *)__this_02;
+        if (__this_01 != (UnityEngine_MeshCollider_o *)0x0) {
+          UnityEngine_MeshCollider__set_sharedMesh(__this_01,collision,(MethodInfo *)0x0);
+          UnityEngine_MeshCollider__set_convex(__this_01,true,(MethodInfo *)0x0);
+          return (UnityEngine_Collider_o *)__this_01;
         }
       }
       else {
-        __this_01 = UnityEngine_GameObject__AddComponent_object_
-                              (__this,(MethodInfo_6F4D60 *)
+        __this_02 = UnityEngine_GameObject__AddComponent_object_
+                              (__this,(MethodInfo_353B6A0 *)
                                       MethodInfo_UnityEngine_GameObject_AddComponent_BoxCollider);
         if ((mesh != (UnityEngine_Mesh_o *)0x0) &&
-           (pUVar3 = UnityEngine_Mesh__get_bounds(local_78,mesh,(MethodInfo *)0x0),
-           __this_01 != (UnityEngine_BoxCollider_o *)0x0)) {
-          local_88.x = (pUVar3->fields).m_Center.fields.x;
-          local_88.y = (pUVar3->fields).m_Center.fields.y;
-          local_88.z = (pUVar3->fields).m_Center.fields.z;
-          UnityEngine_BoxCollider__set_center(__this_01,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
-          pUVar3 = UnityEngine_Mesh__get_bounds(local_78,mesh,(MethodInfo *)0x0);
-          fVar6 = (pUVar3->fields).m_Extents.fields.x;
-          fVar7 = (pUVar3->fields).m_Extents.fields.y;
-          fVar8 = (pUVar3->fields).m_Extents.fields.z;
-          fVar6 = (fVar6 + fVar6) * 0.75;
-          fVar7 = (fVar7 + fVar7) * 0.75;
-          fVar8 = (fVar8 + fVar8) * 0.75;
-          if (Il2CppMethodInitialized_18433dbeb == '\0') {
+           (UnityEngine_Mesh__get_bounds(&local_50,mesh,(MethodInfo *)0x0),
+           __this_02 != (UnityEngine_BoxCollider_o *)0x0)) {
+          UnityEngine_BoxCollider__set_center(__this_02,local_50.fields.m_Center,(MethodInfo *)0x0);
+          UnityEngine_Mesh__get_bounds(&local_50,mesh,(MethodInfo *)0x0);
+          auVar6._0_4_ = (local_50.fields.m_Extents.fields.x + local_50.fields.m_Extents.fields.x) * 0.75;
+          auVar6._4_4_ = (local_50.fields.m_Extents.fields.y + local_50.fields.m_Extents.fields.y) * 0.75;
+          auVar6._8_8_ = 0;
+          fVar7 = (local_50.fields.m_Extents.fields.z + local_50.fields.m_Extents.fields.z) * 0.75;
+          if (g_data_0753e4b7 == '\0') {
+            local_38 = auVar6;
             il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-            Il2CppMethodInitialized_18433dbeb = '\x01';
+            g_data_0753e4b7 = '\x01';
+            auVar6 = local_38;
           }
-          pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-          fVar4 = (pUVar1->oneVector).fields.x * 0.1;
-          if (fVar6 <= fVar4) {
-            fVar6 = fVar4;
+          pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+          uVar1 = (pUVar3->oneVector).fields.x;
+          uVar2 = (pUVar3->oneVector).fields.y;
+          fVar8 = (pUVar3->oneVector).fields.z * 0.1;
+          if (fVar7 <= fVar8) {
+            fVar7 = fVar8;
           }
-          fVar4 = (pUVar1->oneVector).fields.y * 0.1;
-          fVar5 = (pUVar1->oneVector).fields.z * 0.1;
-          if (fVar7 <= fVar4) {
-            fVar7 = fVar4;
-          }
-          local_88.z = fVar8;
-          if (fVar8 <= fVar5) {
-            local_88.z = fVar5;
-          }
-          local_88.y = fVar7;
-          local_88.x = fVar6;
-          UnityEngine_BoxCollider__set_size(__this_01,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
-          return (UnityEngine_Collider_o *)__this_01;
+          auVar4._4_4_ = (float)uVar2 * 0.1;
+          auVar4._0_4_ = (float)uVar1 * 0.1;
+          auVar4._8_8_ = 0;
+          auVar6 = maxps(auVar6,auVar4);
+          value_00.fields._0_8_ = auVar6._0_8_;
+          value_00.fields.z = fVar7;
+          UnityEngine_BoxCollider__set_size(__this_02,value_00,(MethodInfo *)0x0);
+          return (UnityEngine_Collider_o *)__this_02;
         }
       }
     }
@@ -2088,38 +2646,32 @@ Map_MapDestructionDebris__AddCollider
 
 // Map.MapDestructionDebris$$IsSettled
 // il2cpp: bool Map_MapDestructionDebris__IsSettled (UnityEngine_Rigidbody_o* body, const MethodInfo* method);
-// 0x181e9e700
+// 0x59861e0
 
 bool Map_MapDestructionDebris__IsSettled(UnityEngine_Rigidbody_o *body,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  UnityEngine_Vector3_o *pUVar4;
-  UnityEngine_Vector3_o local_28 [2];
+  bool bVar1;
+  UnityEngine_Vector3_o UVar2;
   
   if (body == (UnityEngine_Rigidbody_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pUVar4 = UnityEngine_Rigidbody__get_linearVelocity(local_28,body,(MethodInfo *)0x0);
-  fVar1 = (pUVar4->fields).x;
-  fVar2 = (pUVar4->fields).y;
-  fVar3 = (pUVar4->fields).z;
-  if (1.0 <= fVar2 * fVar2 + fVar1 * fVar1 + fVar3 * fVar3) {
-    return false;
+  bVar1 = false;
+  UVar2 = UnityEngine_Rigidbody__get_linearVelocity(body,(MethodInfo *)0x0);
+  if (UVar2.fields.z * UVar2.fields.z + UVar2.fields.y * UVar2.fields.y + UVar2.fields.x * UVar2.fields.x <
+      1.0) {
+    UVar2 = UnityEngine_Rigidbody__get_angularVelocity(body,(MethodInfo *)0x0);
+    bVar1 = UVar2.fields.z * UVar2.fields.z +
+            UVar2.fields.y * UVar2.fields.y + UVar2.fields.x * UVar2.fields.x < 1.0;
   }
-  pUVar4 = UnityEngine_Rigidbody__get_angularVelocity(local_28,body,(MethodInfo *)0x0);
-  fVar1 = (pUVar4->fields).x;
-  fVar2 = (pUVar4->fields).y;
-  fVar3 = (pUVar4->fields).z;
-  return fVar2 * fVar2 + fVar1 * fVar1 + fVar3 * fVar3 < 1.0;
+  return bVar1;
 }
 
 
 // Map.MapDestructionDebris$$Freeze
 // il2cpp: void Map_MapDestructionDebris__Freeze (Map_MapDestructionDebris_Piece_o* piece, const MethodInfo* method);
-// 0x181e9e590
+// 0x5986260
 
 void Map_MapDestructionDebris__Freeze(Map_MapDestructionDebris_Piece_o *piece,MethodInfo *method)
 
@@ -2146,69 +2698,77 @@ void Map_MapDestructionDebris__Freeze(Map_MapDestructionDebris_Piece_o *piece,Me
 
 // Map.MapDestructionDebris$$OnDestroy
 // il2cpp: void Map_MapDestructionDebris__OnDestroy (Map_MapDestructionDebris_o* __this, const MethodInfo* method);
-// 0x181e9e9d0
-// eh: try 0x181e9ebe1..0x181e9ecdb -> pad 0x183317f30 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 37 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e9ec2d: mov rdx, qword ptr [rip + 0x2215aac]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
-// asm:   0x181e9ec34: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181e9ec39: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9ec3e: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e9ec43: test rcx, rcx
-// asm:   0x181e9ec46: jne 0x181e9ed32
-// asm:   0x181e9ec4c: mov rsi, qword ptr [rsp + 0x90]
-// asm:   0x181e9ecec: mov rdx, qword ptr [rip + 0x21ee9f5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Mesh_Dispose
-// asm:   0x181e9ecf3: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181e9ecf8: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181e9ecfd: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e9ed02: test rcx, rcx
-// asm:   0x181e9ed05: jne 0x181e9ed38
-// asm:   0x181e9ed32: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181e9ed38: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317f35: push rbp
-// asm:   0x183317f36: sub rsp, 0x20
-// asm:   0x183317f3a: mov rbp, rdx
-// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183317f41: mov rcx, qword ptr [rax]
-// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317f48: movabs rax, 0
-// asm:   0x183317f52: add rsp, 0x20
-// asm:   0x183317f56: pop rbp
-// asm:   0x183317f57: ret 
-// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317fd5: push rbp
-// asm:   0x183317fd6: sub rsp, 0x20
-// asm:   0x183317fda: mov rbp, rdx
-// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
-// asm:   0x183317fe1: mov rcx, qword ptr [rax]
-// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317fe8: movabs rax, 0
-// asm:   0x183317ff2: add rsp, 0x20
-// asm:   0x183317ff6: pop rbp
-// asm:   0x183317ff7: ret 
+// 0x5987860
+// eh: try 0x5987a80..0x5987b40 -> pad 0x5987bc8 (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5987b99..0x5987b9e -> pad 0x5987bb9 cleanup
+// eh: try 0x5987bbc..0x5987bc6 -> pad 0x5987c1f catch (...) [compiler noexcept guard]
+// eh: try 0x5987be0..0x5987be5 -> pad 0x5987c0a cleanup
+// eh: try 0x5987c0d..0x5987c17 -> pad 0x5987c1f catch (...) [compiler noexcept guard]
+// asm: 44 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5987b7d: jmp 0x5987b81
+// asm:   0x5987b7f: jmp 0x5987bc8
+// asm:   0x5987b81: mov r14, rax
+// asm:   0x5987b84: cmp edx, 1
+// asm:   0x5987b87: jne 0x5987bbc
+// asm:   0x5987b89: mov rdi, r14
+// asm:   0x5987b8c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5987b91: mov rbx, qword ptr [rax]
+// asm:   0x5987b94: mov qword ptr [rsp + 8], rbx
+// asm:   0x5987b99: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5987b9e: lea rax, [rip + 0x1906953]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Mesh_Dispose
+// asm:   0x5987ba5: mov rsi, qword ptr [rax]
+// asm:   0x5987ba8: lea rdi, [rsp + 0x20]
+// asm:   0x5987bad: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5987bb2: test rbx, rbx
+// asm:   0x5987bb5: je 0x5987b56
+// asm:   0x5987bb7: jmp 0x5987c02
+// asm:   0x5987bb9: mov r14, rax
+// asm:   0x5987bbc: lea rdi, [rsp + 8]
+// asm:   0x5987bc1: call 0x2fd4350  ; il2cpp_runtime_helper_02fd4350()
+// asm:   0x5987bc6: jmp 0x5987c17
+// asm:   0x5987bc8: mov r14, rax
+// asm:   0x5987bcb: cmp edx, 1
+// asm:   0x5987bce: jne 0x5987c0d
+// asm:   0x5987bd0: mov rdi, r14
+// asm:   0x5987bd3: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5987bd8: mov rbx, qword ptr [rax]
+// asm:   0x5987bdb: mov qword ptr [rsp + 8], rbx
+// asm:   0x5987be0: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5987be5: lea rax, [rip + 0x1907fcc]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
+// asm:   0x5987bec: mov rsi, qword ptr [rax]
+// asm:   0x5987bef: lea rdi, [rsp + 0x40]
+// asm:   0x5987bf4: call 0x4de71f0  ; System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose()
+// asm:   0x5987bf9: test rbx, rbx
+// asm:   0x5987bfc: je 0x5987ac7
+// asm:   0x5987c02: mov rdi, rbx
+// asm:   0x5987c05: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5987c0a: mov r14, rax
+// asm:   0x5987c0d: lea rdi, [rsp + 8]
+// asm:   0x5987c12: call 0x2fd4320  ; il2cpp_runtime_helper_02fd4320()
+// asm:   0x5987c17: mov rdi, r14
+// asm:   0x5987c1a: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5987c1f: mov rdi, rax
+// asm:   0x5987c22: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapDestructionDebris__OnDestroy(Map_MapDestructionDebris_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_MapDestructionDebris__o *__this_00;
   System_Threading_Tasks_Task_o *obj;
-  System_Collections_Generic_Dictionary_Material__Material__o *__this_01;
+  System_Collections_Generic_Dictionary_object__object__o *__this_01;
   System_Collections_Generic_List_Mesh__o *__this_02;
-  UnityEngine_Object_o *pUVar1;
-  bool bVar2;
+  UnityEngine_Object_o *obj_00;
+  bool bVar1;
   System_Threading_Tasks_Task_array *tasks;
-  Il2CppObject *pIVar3;
+  Il2CppObject *pIVar2;
   System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_03;
-  undefined1 local_58 [16];
-  UnityEngine_Object_o *local_48;
-  undefined1 local_40 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_38;
-  UnityEngine_Object_o *local_30;
-  undefined1 local_28 [8];
-  uint64_t uStack_20;
-  UnityEngine_Object_o *local_18;
+  undefined1 local_80 [16];
+  UnityEngine_Object_o *local_70;
+  System_Collections_Generic_List_Enumerator_T__o local_68;
+  undefined1 local_48 [16];
+  UnityEngine_Object_o *local_38;
   
-  if (Il2CppMethodInitialized_18434507d == '\0') {
+  if (Il2CppMethodInitialized_07545a0e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2241,14 +2801,12 @@ void Map_MapDestructionDebris__OnDestroy(Map_MapDestructionDebris_o *__this,Meth
               (&
                MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
               );
-    Il2CppMethodInitialized_18434507d = '\x01';
+    Il2CppMethodInitialized_07545a0e = '\x01';
   }
-  local_40 = (undefined1  [8])0x0;
-  pUStack_38 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_30 = (UnityEngine_Object_o *)0x0;
-  local_28 = (undefined1  [8])0x0;
-  uStack_20 = 0;
-  local_18 = (UnityEngine_Object_o *)0x0;
+  local_68.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_68.fields._index = 0;
+  local_68.fields._version = 0;
+  local_68.fields._current = (Il2CppObject *)0x0;
   if ((TypeInfo_Map_MapDestructionDebris->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapDestructionDebris);
   }
@@ -2256,104 +2814,102 @@ void Map_MapDestructionDebris__OnDestroy(Map_MapDestructionDebris_o *__this,Meth
   if (__this_00 != (System_Collections_Generic_List_MapDestructionDebris__o *)0x0) {
     System_Collections_Generic_List_object___Remove
               ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)__this,
-               (MethodInfo_947340 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Remove);
+               (MethodInfo_395ED70 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Remove);
     if ((__this->fields)._baking != (System_Threading_Tasks_Task_o *)0x0) {
       tasks = (System_Threading_Tasks_Task_array *)SZArrayNew(TypeInfo_System_Threading_Tasks_Task_array,1);
-      if (tasks == (System_Threading_Tasks_Task_array *)0x0) goto label_181e9ed3e;
+      if (tasks == (System_Threading_Tasks_Task_array *)0x0) goto label_05987b64;
       obj = (__this->fields)._baking;
       if (obj != (System_Threading_Tasks_Task_o *)0x0) {
-        pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)obj,(((tasks->obj).klass)->_1).element_class);
-        if (pIVar3 == (Il2CppObject *)0x0) {
-          pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
-          il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
+        pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)obj,(((tasks->obj).klass)->_1).element_class);
+        if (pIVar2 == (Il2CppObject *)0x0) {
+          pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
         }
       }
       if ((int)tasks->max_length == 0) {
         ThrowIndexOutOfRangeException();
       }
       tasks->m_Items[0] = obj;
-      Il2CppCodeGenWriteBarrier(tasks->m_Items,obj);
+      Il2CppCodeGenWriteBarrier(tasks->m_Items);
       if ((TypeInfo_System_Threading_Tasks_Task->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Threading_Tasks_Task);
       }
       System_Threading_Tasks_Task__WaitAny(tasks,(MethodInfo *)0x0);
     }
-    __this_01 = (__this->fields)._rubbleMaterials;
-    if (__this_01 != (System_Collections_Generic_Dictionary_Material__Material__o *)0x0) {
-      __this_03 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                  System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
-                             (MethodInfo_13C65A0 *)
+    __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._rubbleMaterials;
+    if (__this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      __this_03 = System_Collections_Generic_Dictionary_object__object___get_Values
+                            (__this_01,
+                             (MethodInfo_4AAD2A0 *)
                              MethodInfo_System_Collections_Generic_Dictionary_Material_Material_get_Values);
       if (__this_03 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
-        System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+        System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
                   ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                   local_58,__this_03,
-                   (MethodInfo_F1E4D0 *)
+                   local_80,__this_03,
+                   (MethodInfo_43F93D0 *)
                    MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Material_Material_GetEnumerator
                   );
-        local_40 = (undefined1  [8])local_58._0_8_;
-        pUStack_38 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_58._8_8_;
-        local_30 = local_48;
-        local_58._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-        local_58._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40;
+        local_38 = local_70;
+        local_48._0_8_ = local_80._0_8_;
+        local_48._8_8_ = local_80._8_8_;
+        local_80._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+        local_80._8_8_ =
+             (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_48;
         while( true ) {
-          bVar2 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
+          bVar1 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
                             ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                              *)local_40,
-                             (MethodInfo_155CFB0 *)
+                              *)local_48,
+                             (MethodInfo_4CE7200 *)
                              MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_MoveNext
                             );
-          pUVar1 = local_30;
-          if (!bVar2) break;
+          obj_00 = local_38;
+          if (!bVar1) break;
           if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          UnityEngine_Object__Destroy_2f1ff70(pUVar1,(MethodInfo *)0x0);
+          UnityEngine_Object__Destroy_69214e0(obj_00,(MethodInfo *)0x0);
         }
         System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40,
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
+                  ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                   local_48,(MethodInfo_4CE71F0 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_Material_Material_Dispose
                   );
         __this_02 = (__this->fields)._meshes;
         if (__this_02 != (System_Collections_Generic_List_Mesh__o *)0x0) {
-          System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                    ((System_Collections_Generic_List_Enumerator_T__o *)local_58,
-                     (System_Collections_Generic_List_T__o *)__this_02,
-                     (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Mesh_GetEnumerator);
-          local_28 = (undefined1  [8])local_58._0_8_;
-          uStack_20 = local_58._8_8_;
-          local_18 = local_48;
-          local_58._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-          local_58._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+          System_Collections_Generic_List_object___GetEnumerator
+                    (&local_68,(System_Collections_Generic_List_object__o *)__this_02,
+                     (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_Mesh_GetEnumerator);
+          local_80._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+          local_80._8_8_ = &local_68;
           while( true ) {
-            bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              ((System_Collections_Generic_List_Enumerator_object__o *)local_28,
-                               (MethodInfo_153A2A0 *)
+            bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                              ((System_Collections_Generic_List_Enumerator_object__o *)&local_68,
+                               (MethodInfo_4C45C50 *)
                                MethodInfo_System_Collections_Generic_List_Enumerator_Mesh_MoveNext);
-            pUVar1 = local_18;
-            if (!bVar2) break;
+            pIVar2 = local_68.fields._current;
+            if (!bVar1) break;
             if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
             }
-            UnityEngine_Object__Destroy_2f1ff70(pUVar1,(MethodInfo *)0x0);
+            UnityEngine_Object__Destroy_69214e0((UnityEngine_Object_o *)pIVar2,(MethodInfo *)0x0);
           }
           System_Collections_Generic_List_Enumerator_object___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_Mesh_Dispose);
+                    ((System_Collections_Generic_List_Enumerator_object__o *)&local_68,
+                     (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_Mesh_Dispose)
+          ;
           return;
         }
       }
     }
   }
-label_181e9ed3e:
+label_05987b64:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapDestructionDebris$$.ctor
 // il2cpp: void Map_MapDestructionDebris___ctor (Map_MapDestructionDebris_o* __this, const MethodInfo* method);
-// 0x181e9fc40
+// 0x5987c30
 
 void Map_MapDestructionDebris___ctor(Map_MapDestructionDebris_o *__this,MethodInfo *method)
 
@@ -2363,7 +2919,7 @@ void Map_MapDestructionDebris___ctor(Map_MapDestructionDebris_o *__this,MethodIn
   System_Collections_Generic_List_MapDestructionDebris_Piece__o *__this_02;
   System_Collections_Generic_List_GameObject__o *__this_03;
   
-  if (Il2CppMethodInitialized_18434507e == '\0') {
+  if (Il2CppMethodInitialized_07545a0f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_Material_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2376,34 +2932,35 @@ void Map_MapDestructionDebris___ctor(Map_MapDestructionDebris_o *__this,MethodIn
               (&TypeInfo_System_Collections_Generic_List_MapDestructionDebris_Piece);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Mesh);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
-    Il2CppMethodInitialized_18434507e = '\x01';
+    Il2CppMethodInitialized_07545a0f = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Material_Material);
   System_Collections_Generic_Dictionary_object__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_Material_Material_ctor);
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
+             (MethodInfo_4AAC8D0 *)MethodInfo_System_Collections_Generic_Dictionary_Material_Material_ctor);
   (__this->fields)._rubbleMaterials = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._rubbleMaterials,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._rubbleMaterials);
   __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Mesh);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Mesh_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_01,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_Mesh_ctor);
   (__this->fields)._meshes = __this_01;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._meshes,__this_01);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._meshes);
   __this_02 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapDestructionDebris_Piece);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_02,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_Piece_ctor)
+  ;
   (__this->fields)._pieces = __this_02;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._pieces,__this_02);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._pieces);
   __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_03,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_03,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._sectionVisuals = __this_03;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._sectionVisuals,__this_03);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._sectionVisuals);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -2411,16 +2968,17 @@ void Map_MapDestructionDebris___ctor(Map_MapDestructionDebris_o *__this,MethodIn
 
 // Map.MapDestructionDebris$$.cctor
 // il2cpp: void Map_MapDestructionDebris___cctor (const MethodInfo* method);
-// 0x181e9fb40
+// 0x5987d90
 
 void Map_MapDestructionDebris___cctor(MethodInfo *method)
 
 {
-  int32_t iVar1;
+  Map_MapDestructionDebris_StaticFields *pMVar1;
+  int32_t iVar2;
   System_Collections_Generic_List_MapDestructionDebris__o *__this;
-  UnityEngine_RaycastHit_array *value;
+  UnityEngine_RaycastHit_array *pUVar3;
   
-  if (Il2CppMethodInitialized_18434507f == '\0') {
+  if (Il2CppMethodInitialized_07545a10 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapDestructionDebris_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapDestructionDebris)
@@ -2428,20 +2986,22 @@ void Map_MapDestructionDebris___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapDestructionDebris);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RaycastHit_array);
     il2cpp_codegen_initialize_runtime_metadata(&"_Fade");
-    Il2CppMethodInitialized_18434507f = '\x01';
+    Il2CppMethodInitialized_07545a10 = '\x01';
   }
-  iVar1 = UnityEngine_Shader__PropertyToID("_Fade",(MethodInfo *)0x0);
-  TypeInfo_Map_MapDestructionDebris->static_fields->FadeId = iVar1;
+  iVar2 = UnityEngine_Shader__PropertyToID("_Fade",(MethodInfo *)0x0);
+  TypeInfo_Map_MapDestructionDebris->static_fields->FadeId = iVar2;
   __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapDestructionDebris);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_ctor);
-  TypeInfo_Map_MapDestructionDebris->static_fields->Active = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapDestructionDebris->static_fields->Active,__this);
-  value = (UnityEngine_RaycastHit_array *)SZArrayNew(TypeInfo_UnityEngine_RaycastHit_array,0x10);
-  TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits = value;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapDestructionDebris->static_fields->GroundHits,value);
+            ((System_Collections_Generic_List_object__o *)__this,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_MapDestructionDebris_ctor);
+  pMVar1 = TypeInfo_Map_MapDestructionDebris->static_fields;
+  pMVar1->Active = __this;
+  Il2CppCodeGenWriteBarrier(&pMVar1->Active);
+  pUVar3 = (UnityEngine_RaycastHit_array *)SZArrayNew(TypeInfo_UnityEngine_RaycastHit_array,0x10);
+  pMVar1 = TypeInfo_Map_MapDestructionDebris->static_fields;
+  pMVar1->GroundHits = pUVar3;
+  Il2CppCodeGenWriteBarrier(&pMVar1->GroundHits);
   return;
 }
 

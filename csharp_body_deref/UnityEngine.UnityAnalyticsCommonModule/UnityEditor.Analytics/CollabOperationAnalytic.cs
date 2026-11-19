@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.CollabOperationAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,13 +42,13 @@ public class CollabOperationAnalytic : AnalyticsEventBase
 	public long duration;
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x3306F10", Offset = "0x3305510", VA = "0x183306F10")]
+	[Address(RVA = "0x6D17840", Offset = "0x6D16840", VA = "0x6D17840")]
 	public CollabOperationAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x3306E80", Offset = "0x3305480", VA = "0x183306E80")]
+	[Address(RVA = "0x6D178A0", Offset = "0x6D168A0", VA = "0x6D178A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static CollabOperationAnalytic CreateCollabOperationAnalytic()
 	{

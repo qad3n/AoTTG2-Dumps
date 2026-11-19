@@ -60,7 +60,7 @@ public class UnityEventHandlerAsyncEnumerable : IUniTaskAsyncEnumerable<AsyncUni
 		public AsyncUnit Current
 		{
 			[Token(Token = "0x600092A")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "23")]
+			[Address(RVA = "0x62F0D80", Offset = "0x62EFD80", VA = "0x62F0D80", Slot = "23")]
 			get
 			{
 				return default(AsyncUnit);
@@ -68,38 +68,38 @@ public class UnityEventHandlerAsyncEnumerable : IUniTaskAsyncEnumerable<AsyncUni
 		}
 
 		[Token(Token = "0x6000929")]
-		[Address(RVA = "0xEBB810", Offset = "0xEB9E10", VA = "0x180EBB810")]
+		[Address(RVA = "0x62F0D20", Offset = "0x62EFD20", VA = "0x62F0D20")]
 		public UnityEventHandlerAsyncEnumerator(UnityEvent unityEvent, CancellationToken cancellationToken1, CancellationToken cancellationToken2)
 		{
 		}
 
 		[Token(Token = "0x600092B")]
-		[Address(RVA = "0x294EAC0", Offset = "0x294D0C0", VA = "0x18294EAC0", Slot = "24")]
+		[Address(RVA = "0x62F0D90", Offset = "0x62EFD90", VA = "0x62F0D90", Slot = "24")]
 		public UniTask<bool> MoveNextAsync()
 		{
 			return default(UniTask<bool>);
 		}
 
 		[Token(Token = "0x600092C")]
-		[Address(RVA = "0x294EA80", Offset = "0x294D080", VA = "0x18294EA80")]
+		[Address(RVA = "0x62F1030", Offset = "0x62F0030", VA = "0x62F1030")]
 		private void Invoke()
 		{
 		}
 
 		[Token(Token = "0x600092D")]
-		[Address(RVA = "0x294ED60", Offset = "0x294D360", VA = "0x18294ED60")]
+		[Address(RVA = "0x62F1070", Offset = "0x62F0070", VA = "0x62F1070")]
 		private static void OnCanceled1(object state)
 		{
 		}
 
 		[Token(Token = "0x600092E")]
-		[Address(RVA = "0x294EE40", Offset = "0x294D440", VA = "0x18294EE40")]
+		[Address(RVA = "0x62F11B0", Offset = "0x62F01B0", VA = "0x62F11B0")]
 		private static void OnCanceled2(object state)
 		{
 		}
 
 		[Token(Token = "0x600092F")]
-		[Address(RVA = "0x294E9E0", Offset = "0x294CFE0", VA = "0x18294E9E0", Slot = "25")]
+		[Address(RVA = "0x62F12F0", Offset = "0x62F02F0", VA = "0x62F12F0", Slot = "25")]
 		public UniTask DisposeAsync()
 		{
 			return default(UniTask);
@@ -115,13 +115,13 @@ public class UnityEventHandlerAsyncEnumerable : IUniTaskAsyncEnumerable<AsyncUni
 	private readonly CancellationToken cancellationToken1;
 
 	[Token(Token = "0x6000927")]
-	[Address(RVA = "0xEB7CA0", Offset = "0xEB62A0", VA = "0x180EB7CA0")]
+	[Address(RVA = "0x62E8ED0", Offset = "0x62E7ED0", VA = "0x62E8ED0")]
 	public UnityEventHandlerAsyncEnumerable(UnityEvent unityEvent, CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x6000928")]
-	[Address(RVA = "0x294E900", Offset = "0x294CF00", VA = "0x18294E900", Slot = "4")]
+	[Address(RVA = "0x62F0C30", Offset = "0x62EFC30", VA = "0x62F0C30", Slot = "4")]
 	public IUniTaskAsyncEnumerator<AsyncUnit> GetAsyncEnumerator([Optional] CancellationToken cancellationToken)
 	{
 		return null;

@@ -10,16 +10,16 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x20003C9")]
+[Token(Token = "0x2000428")]
 public class MapScriptReflectiveMaterial : MapScriptBasicMaterial
 {
-	[Token(Token = "0x40013A9")]
+	[Token(Token = "0x4001549")]
 	[FieldOffset(Offset = "0x38")]
 	[Order(6)]
 	public Color255 ReflectColor;
 
-	[Token(Token = "0x60017CB")]
-	[Address(RVA = "0x1EDA2F0", Offset = "0x1ED88F0", VA = "0x181EDA2F0")]
+	[Token(Token = "0x6001A42")]
+	[Address(RVA = "0x58A4CF0", Offset = "0x58A3CF0", VA = "0x58A4CF0")]
 	public MapScriptReflectiveMaterial()
 	{
 	}

@@ -27,14 +27,14 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 	public static readonly quaternion identity;
 
 	[Token(Token = "0x6001E61")]
-	[Address(RVA = "0x29E19B0", Offset = "0x29DFFB0", VA = "0x1829E19B0")]
+	[Address(RVA = "0x6491FD0", Offset = "0x6490FD0", VA = "0x6491FD0")]
 	public static implicit operator Quaternion(quaternion q)
 	{
 		return default(Quaternion);
 	}
 
 	[Token(Token = "0x6001E62")]
-	[Address(RVA = "0x29E19B0", Offset = "0x29DFFB0", VA = "0x1829E19B0")]
+	[Address(RVA = "0x6491FE0", Offset = "0x6490FE0", VA = "0x6491FE0")]
 	public static implicit operator quaternion(Quaternion q)
 	{
 		return default(quaternion);
@@ -42,41 +42,41 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E63")]
-	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
+	[Address(RVA = "0x6491FF0", Offset = "0x6490FF0", VA = "0x6491FF0")]
 	public quaternion(float x, float y, float z, float w)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E64")]
-	[Address(RVA = "0xBDB210", Offset = "0xBD9810", VA = "0x180BDB210")]
+	[Address(RVA = "0x6492010", Offset = "0x6491010", VA = "0x6492010")]
 	public quaternion(float4 value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E65")]
-	[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
+	[Address(RVA = "0x6492020", Offset = "0x6491020", VA = "0x6492020")]
 	public static implicit operator quaternion(float4 v)
 	{
 		return default(quaternion);
 	}
 
 	[Token(Token = "0x6001E66")]
-	[Address(RVA = "0x2AB4600", Offset = "0x2AB2C00", VA = "0x182AB4600")]
+	[Address(RVA = "0x6492030", Offset = "0x6491030", VA = "0x6492030")]
 	public quaternion(float3x3 m)
 	{
 	}
 
 	[Token(Token = "0x6001E67")]
-	[Address(RVA = "0x2AB4880", Offset = "0x2AB2E80", VA = "0x182AB4880")]
+	[Address(RVA = "0x6492250", Offset = "0x6491250", VA = "0x6492250")]
 	public quaternion(float4x4 m)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E68")]
-	[Address(RVA = "0x2AB3380", Offset = "0x2AB1980", VA = "0x182AB3380")]
+	[Address(RVA = "0x6492470", Offset = "0x6491470", VA = "0x6492470")]
 	public static quaternion AxisAngle(float3 axis, float angle)
 	{
 		return default(quaternion);
@@ -84,7 +84,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E69")]
-	[Address(RVA = "0x2AA9830", Offset = "0x2AA7E30", VA = "0x182AA9830")]
+	[Address(RVA = "0x6492580", Offset = "0x6491580", VA = "0x6492580")]
 	public static quaternion EulerXYZ(float3 xyz)
 	{
 		return default(quaternion);
@@ -92,7 +92,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6A")]
-	[Address(RVA = "0x2AA99A0", Offset = "0x2AA7FA0", VA = "0x182AA99A0")]
+	[Address(RVA = "0x6492650", Offset = "0x6491650", VA = "0x6492650")]
 	public static quaternion EulerXZY(float3 xyz)
 	{
 		return default(quaternion);
@@ -100,7 +100,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6B")]
-	[Address(RVA = "0x2AA9B10", Offset = "0x2AA8110", VA = "0x182AA9B10")]
+	[Address(RVA = "0x6492720", Offset = "0x6491720", VA = "0x6492720")]
 	public static quaternion EulerYXZ(float3 xyz)
 	{
 		return default(quaternion);
@@ -108,7 +108,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6C")]
-	[Address(RVA = "0x2AA9C80", Offset = "0x2AA8280", VA = "0x182AA9C80")]
+	[Address(RVA = "0x64927F0", Offset = "0x64917F0", VA = "0x64927F0")]
 	public static quaternion EulerYZX(float3 xyz)
 	{
 		return default(quaternion);
@@ -116,7 +116,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6D")]
-	[Address(RVA = "0x2AA9DF0", Offset = "0x2AA83F0", VA = "0x182AA9DF0")]
+	[Address(RVA = "0x64928C0", Offset = "0x64918C0", VA = "0x64928C0")]
 	public static quaternion EulerZXY(float3 xyz)
 	{
 		return default(quaternion);
@@ -124,7 +124,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6E")]
-	[Address(RVA = "0x2AA9F60", Offset = "0x2AA8560", VA = "0x182AA9F60")]
+	[Address(RVA = "0x6492980", Offset = "0x6491980", VA = "0x6492980")]
 	public static quaternion EulerZYX(float3 xyz)
 	{
 		return default(quaternion);
@@ -132,7 +132,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E6F")]
-	[Address(RVA = "0x2AB3520", Offset = "0x2AB1B20", VA = "0x182AB3520")]
+	[Address(RVA = "0x6492A50", Offset = "0x6491A50", VA = "0x6492A50")]
 	public static quaternion EulerXYZ(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -140,7 +140,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E70")]
-	[Address(RVA = "0x2AB3560", Offset = "0x2AB1B60", VA = "0x182AB3560")]
+	[Address(RVA = "0x6492B30", Offset = "0x6491B30", VA = "0x6492B30")]
 	public static quaternion EulerXZY(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -148,7 +148,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E71")]
-	[Address(RVA = "0x2AB35A0", Offset = "0x2AB1BA0", VA = "0x182AB35A0")]
+	[Address(RVA = "0x6492C00", Offset = "0x6491C00", VA = "0x6492C00")]
 	public static quaternion EulerYXZ(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -156,7 +156,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E72")]
-	[Address(RVA = "0x2AB35E0", Offset = "0x2AB1BE0", VA = "0x182AB35E0")]
+	[Address(RVA = "0x6492CD0", Offset = "0x6491CD0", VA = "0x6492CD0")]
 	public static quaternion EulerYZX(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -164,7 +164,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E73")]
-	[Address(RVA = "0x2AB3620", Offset = "0x2AB1C20", VA = "0x182AB3620")]
+	[Address(RVA = "0x6492DA0", Offset = "0x6491DA0", VA = "0x6492DA0")]
 	public static quaternion EulerZXY(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -172,7 +172,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E74")]
-	[Address(RVA = "0x2AB3660", Offset = "0x2AB1C60", VA = "0x182AB3660")]
+	[Address(RVA = "0x6492E60", Offset = "0x6491E60", VA = "0x6492E60")]
 	public static quaternion EulerZYX(float x, float y, float z)
 	{
 		return default(quaternion);
@@ -180,7 +180,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E75")]
-	[Address(RVA = "0x2AB3840", Offset = "0x2AB1E40", VA = "0x182AB3840")]
+	[Address(RVA = "0x6492F30", Offset = "0x6491F30", VA = "0x6492F30")]
 	public static quaternion Euler(float3 xyz, math.RotationOrder order = math.RotationOrder.ZXY)
 	{
 		return default(quaternion);
@@ -188,7 +188,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E76")]
-	[Address(RVA = "0x2AB36A0", Offset = "0x2AB1CA0", VA = "0x182AB36A0")]
+	[Address(RVA = "0x64934C0", Offset = "0x64924C0", VA = "0x64934C0")]
 	public static quaternion Euler(float x, float y, float z, math.RotationOrder order = math.RotationOrder.ZXY)
 	{
 		return default(quaternion);
@@ -196,7 +196,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E77")]
-	[Address(RVA = "0x2AB3F40", Offset = "0x2AB2540", VA = "0x182AB3F40")]
+	[Address(RVA = "0x64934D0", Offset = "0x64924D0", VA = "0x64934D0")]
 	public static quaternion RotateX(float angle)
 	{
 		return default(quaternion);
@@ -204,7 +204,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E78")]
-	[Address(RVA = "0x2AB4010", Offset = "0x2AB2610", VA = "0x182AB4010")]
+	[Address(RVA = "0x64935C0", Offset = "0x64925C0", VA = "0x64935C0")]
 	public static quaternion RotateY(float angle)
 	{
 		return default(quaternion);
@@ -212,7 +212,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E79")]
-	[Address(RVA = "0x2AB40E0", Offset = "0x2AB26E0", VA = "0x182AB40E0")]
+	[Address(RVA = "0x64936B0", Offset = "0x64926B0", VA = "0x64936B0")]
 	public static quaternion RotateZ(float angle)
 	{
 		return default(quaternion);
@@ -220,14 +220,14 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E7A")]
-	[Address(RVA = "0x2AB3D90", Offset = "0x2AB2390", VA = "0x182AB3D90")]
+	[Address(RVA = "0x6493780", Offset = "0x6492780", VA = "0x6493780")]
 	public static quaternion LookRotation(float3 forward, float3 up)
 	{
 		return default(quaternion);
 	}
 
 	[Token(Token = "0x6001E7B")]
-	[Address(RVA = "0x2AB39F0", Offset = "0x2AB1FF0", VA = "0x182AB39F0")]
+	[Address(RVA = "0x6493AC0", Offset = "0x6492AC0", VA = "0x6493AC0")]
 	public static quaternion LookRotationSafe(float3 forward, float3 up)
 	{
 		return default(quaternion);
@@ -235,7 +235,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E7C")]
-	[Address(RVA = "0x25B49C0", Offset = "0x25B2FC0", VA = "0x1825B49C0", Slot = "4")]
+	[Address(RVA = "0x6494130", Offset = "0x6493130", VA = "0x6494130", Slot = "4")]
 	public bool Equals(quaternion x)
 	{
 		return default(bool);
@@ -243,7 +243,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E7D")]
-	[Address(RVA = "0x2AB3470", Offset = "0x2AB1A70", VA = "0x182AB3470", Slot = "0")]
+	[Address(RVA = "0x6494170", Offset = "0x6493170", VA = "0x6494170", Slot = "0")]
 	public override bool Equals(object x)
 	{
 		return default(bool);
@@ -251,7 +251,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E7E")]
-	[Address(RVA = "0x29E5680", Offset = "0x29E3C80", VA = "0x1829E5680", Slot = "2")]
+	[Address(RVA = "0x6494210", Offset = "0x6493210", VA = "0x6494210", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -259,7 +259,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E7F")]
-	[Address(RVA = "0x2AB41B0", Offset = "0x2AB27B0", VA = "0x182AB41B0", Slot = "3")]
+	[Address(RVA = "0x6494260", Offset = "0x6493260", VA = "0x6494260", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -267,7 +267,7 @@ public struct quaternion : IEquatable<quaternion>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E80")]
-	[Address(RVA = "0x2AB43C0", Offset = "0x2AB29C0", VA = "0x182AB43C0", Slot = "5")]
+	[Address(RVA = "0x6494450", Offset = "0x6493450", VA = "0x6494450", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

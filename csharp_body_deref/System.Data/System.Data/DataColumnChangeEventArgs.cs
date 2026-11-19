@@ -26,14 +26,14 @@ public class DataColumnChangeEventArgs : EventArgs
 	public object ProposedValue
 	{
 		[Token(Token = "0x6000398")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5E90590", Offset = "0x5E8F590", VA = "0x5E90590")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000399")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x5E905A0", Offset = "0x5E8F5A0", VA = "0x5E905A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -41,19 +41,19 @@ public class DataColumnChangeEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x24EA460", Offset = "0x24E8A60", VA = "0x1824EA460")]
+	[Address(RVA = "0x5E90490", Offset = "0x5E8F490", VA = "0x5E90490")]
 	internal DataColumnChangeEventArgs(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x24EA4D0", Offset = "0x24E8AD0", VA = "0x1824EA4D0")]
+	[Address(RVA = "0x5E90500", Offset = "0x5E8F500", VA = "0x5E90500")]
 	public DataColumnChangeEventArgs(DataRow row, DataColumn column, object value)
 	{
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x24EA420", Offset = "0x24E8A20", VA = "0x1824EA420")]
+	[Address(RVA = "0x5E905B0", Offset = "0x5E8F5B0", VA = "0x5E905B0")]
 	internal void InitializeColumnChangeEvent(DataColumn column, object value)
 	{
 	}

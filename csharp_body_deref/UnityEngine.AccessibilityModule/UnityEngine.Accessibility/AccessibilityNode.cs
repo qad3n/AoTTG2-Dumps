@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Accessibility.AccessibilityNode
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -100,7 +100,7 @@ public class AccessibilityNode
 	public IReadOnlyList<AccessibilityNode> children
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x687B320", Offset = "0x687A320", VA = "0x687B320")]
 		get
 		{
 			return null;
@@ -111,7 +111,7 @@ public class AccessibilityNode
 	public AccessibilityNode parent
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x687B330", Offset = "0x687A330", VA = "0x687B330")]
 		[CompilerGenerated]
 		get
 		{
@@ -123,7 +123,7 @@ public class AccessibilityNode
 	public string label
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x687B340", Offset = "0x687A340", VA = "0x687B340")]
 		get
 		{
 			return null;
@@ -134,7 +134,7 @@ public class AccessibilityNode
 	public string value
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x687B350", Offset = "0x687A350", VA = "0x687B350")]
 		get
 		{
 			return null;
@@ -145,7 +145,7 @@ public class AccessibilityNode
 	public string hint
 	{
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x687B360", Offset = "0x687A360", VA = "0x687B360")]
 		get
 		{
 			return null;
@@ -156,13 +156,13 @@ public class AccessibilityNode
 	public Rect frame
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x2E7F860", Offset = "0x2E7DE60", VA = "0x182E7F860")]
+		[Address(RVA = "0x687A460", Offset = "0x6879460", VA = "0x687A460")]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x2E7FA10", Offset = "0x2E7E010", VA = "0x182E7FA10")]
+		[Address(RVA = "0x687A5A0", Offset = "0x68795A0", VA = "0x687A5A0")]
 		set
 		{
 		}
@@ -172,7 +172,7 @@ public class AccessibilityNode
 	public Func<Rect> frameGetter
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x687B400", Offset = "0x687A400", VA = "0x687B400")]
 		get
 		{
 			return null;
@@ -183,7 +183,7 @@ public class AccessibilityNode
 	public int id
 	{
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0")]
+		[Address(RVA = "0x687B410", Offset = "0x687A410", VA = "0x687B410")]
 		[CompilerGenerated]
 		get
 		{
@@ -195,7 +195,7 @@ public class AccessibilityNode
 	public AccessibilityRole role
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x1CD39F0", Offset = "0x1CD1FF0", VA = "0x181CD39F0")]
+		[Address(RVA = "0x687B420", Offset = "0x687A420", VA = "0x687B420")]
 		get
 		{
 			return default(AccessibilityRole);
@@ -206,7 +206,7 @@ public class AccessibilityNode
 	public AccessibilityState state
 	{
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x2E7FA00", Offset = "0x2E7E000", VA = "0x182E7FA00")]
+		[Address(RVA = "0x687B430", Offset = "0x687A430", VA = "0x687B430")]
 		get
 		{
 			return default(AccessibilityState);
@@ -217,7 +217,7 @@ public class AccessibilityNode
 	public bool isActive
 	{
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x2E7F9F0", Offset = "0x2E7DFF0", VA = "0x182E7F9F0")]
+		[Address(RVA = "0x687B440", Offset = "0x687A440", VA = "0x687B440")]
 		get
 		{
 			return default(bool);
@@ -228,7 +228,7 @@ public class AccessibilityNode
 	public bool allowsDirectInteraction
 	{
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x2E7F850", Offset = "0x2E7DE50", VA = "0x182E7F850")]
+		[Address(RVA = "0x687B450", Offset = "0x687A450", VA = "0x687B450")]
 		get
 		{
 			return default(bool);
@@ -236,78 +236,78 @@ public class AccessibilityNode
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x2E7EEF0", Offset = "0x2E7D4F0", VA = "0x182E7EEF0")]
+	[Address(RVA = "0x687B460", Offset = "0x687A460", VA = "0x687B460")]
 	private void CreateNativeNodeWithData(ref AccessibilityNodeData nodeData)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x2E7F2D0", Offset = "0x2E7D8D0", VA = "0x182E7F2D0")]
+	[Address(RVA = "0x68775E0", Offset = "0x68765E0", VA = "0x68775E0")]
 	internal void GetNodeData(ref AccessibilityNodeData nodeData)
 	{
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x2E7E9D0", Offset = "0x2E7CFD0", VA = "0x182E7E9D0")]
+	[Address(RVA = "0x687A7C0", Offset = "0x68797C0", VA = "0x687A7C0")]
 	internal void AllocateNative()
 	{
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2E7F070", Offset = "0x2E7D670", VA = "0x182E7F070")]
+	[Address(RVA = "0x687AEB0", Offset = "0x6879EB0", VA = "0x687AEB0")]
 	internal void FreeNative(bool freeChildren)
 	{
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x2E7F6A0", Offset = "0x2E7DCA0", VA = "0x182E7F6A0")]
+	[Address(RVA = "0x687B370", Offset = "0x687A370", VA = "0x687B370")]
 	private bool IsInActiveHierarchy()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2E7F730", Offset = "0x2E7DD30", VA = "0x182E7F730")]
+	[Address(RVA = "0x6879240", Offset = "0x6878240", VA = "0x6879240")]
 	internal void NotifyFocusChanged(bool isNodeFocused)
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2E7F5F0", Offset = "0x2E7DBF0", VA = "0x182E7F5F0")]
+	[Address(RVA = "0x68765F0", Offset = "0x68755F0", VA = "0x68765F0")]
 	internal void InvokeFocusChanged(bool isNodeFocused)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2E7F640", Offset = "0x2E7DC40", VA = "0x182E7F640")]
+	[Address(RVA = "0x6879390", Offset = "0x6878390", VA = "0x6879390")]
 	internal bool InvokeNodeInvoked()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2E7F610", Offset = "0x2E7DC10", VA = "0x182E7F610")]
+	[Address(RVA = "0x6879480", Offset = "0x6878480", VA = "0x6879480")]
 	internal bool InvokeIncremented()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x2E7F590", Offset = "0x2E7DB90", VA = "0x182E7F590")]
+	[Address(RVA = "0x6879570", Offset = "0x6878570", VA = "0x6879570")]
 	internal bool InvokeDecremented()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2E7F670", Offset = "0x2E7DC70", VA = "0x182E7F670")]
+	[Address(RVA = "0x6879660", Offset = "0x6878660", VA = "0x6879660")]
 	internal bool InvokeScrolled(AccessibilityScrollDirection direction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x2E7F5C0", Offset = "0x2E7DBC0", VA = "0x182E7F5C0")]
+	[Address(RVA = "0x6879750", Offset = "0x6878750", VA = "0x6879750")]
 	internal bool InvokeDismissed()
 	{
 		return default(bool);

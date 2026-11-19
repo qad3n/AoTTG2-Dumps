@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgChangelogOutdatedDialog
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgChangelogOutdatedDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,93 +11,93 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x20001EC")]
 [AottgDialog("changelog-outdated")]
 public sealed class AottgChangelogOutdatedDialog : AottgDialog
 {
-	[Token(Token = "0x40009E5")]
+	[Token(Token = "0x4000A59")]
 	public const string Id = "changelog-outdated";
 
-	[Token(Token = "0x1700013B")]
+	[Token(Token = "0x17000140")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000AB1")]
-		[Address(RVA = "0x23A7370", Offset = "0x23A5970", VA = "0x1823A7370", Slot = "4")]
+		[Token(Token = "0x6000B6A")]
+		[Address(RVA = "0x5D78C70", Offset = "0x5D77C70", VA = "0x5D78C70", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700013C")]
+	[Token(Token = "0x17000141")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000AB2")]
-		[Address(RVA = "0x23A7340", Offset = "0x23A5940", VA = "0x1823A7340", Slot = "5")]
+		[Token(Token = "0x6000B6B")]
+		[Address(RVA = "0x5D78CD0", Offset = "0x5D77CD0", VA = "0x5D78CD0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700013D")]
+	[Token(Token = "0x17000142")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000AB3")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
+		[Token(Token = "0x6000B6C")]
+		[Address(RVA = "0x5D78D00", Offset = "0x5D77D00", VA = "0x5D78D00", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x1700013E")]
+	[Token(Token = "0x17000143")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000AB4")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Token(Token = "0x6000B6D")]
+		[Address(RVA = "0x5D78D10", Offset = "0x5D77D10", VA = "0x5D78D10", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700013F")]
+	[Token(Token = "0x17000144")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x23A7230", Offset = "0x23A5830", VA = "0x1823A7230", Slot = "15")]
+		[Token(Token = "0x6000B6E")]
+		[Address(RVA = "0x5D78D20", Offset = "0x5D77D20", VA = "0x5D78D20", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000140")]
+	[Token(Token = "0x17000145")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x6000AB6")]
-		[Address(RVA = "0x23A7140", Offset = "0x23A5740", VA = "0x1823A7140", Slot = "17")]
+		[Token(Token = "0x6000B6F")]
+		[Address(RVA = "0x5D78E00", Offset = "0x5D77E00", VA = "0x5D78E00", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x23A6D00", Offset = "0x23A5300", VA = "0x1823A6D00", Slot = "20")]
+	[Token(Token = "0x6000B70")]
+	[Address(RVA = "0x5D78EB0", Offset = "0x5D77EB0", VA = "0x5D78EB0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x23A7030", Offset = "0x23A5630", VA = "0x1823A7030", Slot = "21")]
+	[Token(Token = "0x6000B71")]
+	[Address(RVA = "0x5D79150", Offset = "0x5D78150", VA = "0x5D79150", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000B72")]
+	[Address(RVA = "0x5D79220", Offset = "0x5D78220", VA = "0x5D79220")]
 	public AottgChangelogOutdatedDialog()
 	{
 	}

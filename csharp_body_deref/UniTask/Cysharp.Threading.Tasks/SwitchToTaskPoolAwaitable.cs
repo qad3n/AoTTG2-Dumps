@@ -25,7 +25,7 @@ public struct SwitchToTaskPoolAwaitable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x600067F")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+			[Address(RVA = "0x62D9230", Offset = "0x62D8230", VA = "0x62D9230")]
 			get
 			{
 				return default(bool);
@@ -33,32 +33,32 @@ public struct SwitchToTaskPoolAwaitable
 		}
 
 		[Token(Token = "0x6000680")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x62D9240", Offset = "0x62D8240", VA = "0x62D9240")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x6000681")]
-		[Address(RVA = "0x29088D0", Offset = "0x2906ED0", VA = "0x1829088D0", Slot = "5")]
+		[Address(RVA = "0x62D9250", Offset = "0x62D8250", VA = "0x62D9250", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000682")]
-		[Address(RVA = "0x2908D80", Offset = "0x2907380", VA = "0x182908D80", Slot = "4")]
+		[Address(RVA = "0x62D9450", Offset = "0x62D8450", VA = "0x62D9450", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000683")]
-		[Address(RVA = "0x2908370", Offset = "0x2906970", VA = "0x182908370")]
+		[Address(RVA = "0x62D9650", Offset = "0x62D8650", VA = "0x62D9650")]
 		private static void Callback(object state)
 		{
 		}
 	}
 
 	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x62D9220", Offset = "0x62D8220", VA = "0x62D9220")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

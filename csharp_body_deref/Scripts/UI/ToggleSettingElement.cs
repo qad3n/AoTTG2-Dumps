@@ -13,52 +13,52 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000759")]
+[Token(Token = "0x2000801")]
 internal class ToggleSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4002471")]
+	[Token(Token = "0x40027E2")]
 	[FieldOffset(Offset = "0x38")]
 	protected Toggle _toggle;
 
-	[Token(Token = "0x4002472")]
+	[Token(Token = "0x40027E3")]
 	[FieldOffset(Offset = "0x40")]
 	private float _checkMarkSizeMultiplier;
 
-	[Token(Token = "0x4002473")]
+	[Token(Token = "0x40027E4")]
 	[FieldOffset(Offset = "0x48")]
 	private UnityAction _onValueChanged;
 
-	[Token(Token = "0x17000CD4")]
+	[Token(Token = "0x17000D57")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6004793")]
-		[Address(RVA = "0x2239640", Offset = "0x2237C40", VA = "0x182239640", Slot = "4")]
+		[Token(Token = "0x6004CB5")]
+		[Address(RVA = "0x5BF8F00", Offset = "0x5BF7F00", VA = "0x5BF8F00", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004794")]
-	[Address(RVA = "0x2239170", Offset = "0x2237770", VA = "0x182239170")]
+	[Token(Token = "0x6004CB6")]
+	[Address(RVA = "0x5BF8F80", Offset = "0x5BF7F80", VA = "0x5BF8F80")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip, float elementWidth, float elementHeight, UnityAction onValueChanged)
 	{
 	}
 
-	[Token(Token = "0x6004795")]
-	[Address(RVA = "0x22390C0", Offset = "0x22376C0", VA = "0x1822390C0")]
+	[Token(Token = "0x6004CB7")]
+	[Address(RVA = "0x5BF9370", Offset = "0x5BF8370", VA = "0x5BF9370")]
 	protected void OnValueChanged(bool value)
 	{
 	}
 
-	[Token(Token = "0x6004796")]
-	[Address(RVA = "0x22395A0", Offset = "0x2237BA0", VA = "0x1822395A0", Slot = "6")]
+	[Token(Token = "0x6004CB8")]
+	[Address(RVA = "0x5BF9420", Offset = "0x5BF8420", VA = "0x5BF9420", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6004797")]
-	[Address(RVA = "0x2239630", Offset = "0x2237C30", VA = "0x182239630")]
+	[Token(Token = "0x6004CB9")]
+	[Address(RVA = "0x5BF94B0", Offset = "0x5BF84B0", VA = "0x5BF94B0")]
 	public ToggleSettingElement()
 	{
 	}

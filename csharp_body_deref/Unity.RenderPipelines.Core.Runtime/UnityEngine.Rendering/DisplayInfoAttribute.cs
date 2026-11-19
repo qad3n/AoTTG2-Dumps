@@ -23,7 +23,7 @@ public class DisplayInfoAttribute : Attribute
 	public int order;
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x64BB4E0", Offset = "0x64BA4E0", VA = "0x64BB4E0")]
 	public DisplayInfoAttribute()
 	{
 	}

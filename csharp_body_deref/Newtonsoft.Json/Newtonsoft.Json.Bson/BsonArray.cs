@@ -22,7 +22,7 @@ internal class BsonArray : BsonToken, IEnumerable<BsonToken>, IEnumerable
 	public override BsonType Type
 	{
 		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x1CA8260", Offset = "0x1CA6860", VA = "0x181CA8260", Slot = "4")]
+		[Address(RVA = "0x564B900", Offset = "0x564A900", VA = "0x564B900", Slot = "4")]
 		get
 		{
 			return default(BsonType);
@@ -30,27 +30,27 @@ internal class BsonArray : BsonToken, IEnumerable<BsonToken>, IEnumerable
 	}
 
 	[Token(Token = "0x600100B")]
-	[Address(RVA = "0x1CA8090", Offset = "0x1CA6690", VA = "0x181CA8090")]
+	[Address(RVA = "0x564B850", Offset = "0x564A850", VA = "0x564B850")]
 	public void Add(BsonToken token)
 	{
 	}
 
 	[Token(Token = "0x600100D")]
-	[Address(RVA = "0x1CA8150", Offset = "0x1CA6750", VA = "0x181CA8150", Slot = "5")]
+	[Address(RVA = "0x5649100", Offset = "0x5648100", VA = "0x5649100", Slot = "5")]
 	public IEnumerator<BsonToken> GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600100E")]
-	[Address(RVA = "0x1CA81D0", Offset = "0x1CA67D0", VA = "0x181CA81D0", Slot = "6")]
+	[Address(RVA = "0x564B910", Offset = "0x564A910", VA = "0x564B910", Slot = "6")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x1CA81E0", Offset = "0x1CA67E0", VA = "0x181CA81E0")]
+	[Address(RVA = "0x564B990", Offset = "0x564A990", VA = "0x564B990")]
 	public BsonArray()
 	{
 	}

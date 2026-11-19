@@ -25,7 +25,7 @@ internal sealed class PrecedingQuery : BaseAxisQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001B9B")]
-		[Address(RVA = "0x26C40E0", Offset = "0x26C26E0", VA = "0x1826C40E0", Slot = "17")]
+		[Address(RVA = "0x6089DD0", Offset = "0x6088DD0", VA = "0x6089DD0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -33,32 +33,32 @@ internal sealed class PrecedingQuery : BaseAxisQuery
 	}
 
 	[Token(Token = "0x6001B96")]
-	[Address(RVA = "0x26C3ED0", Offset = "0x26C24D0", VA = "0x1826C3ED0")]
+	[Address(RVA = "0x60898D0", Offset = "0x60888D0", VA = "0x60898D0")]
 	public PrecedingQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001B97")]
-	[Address(RVA = "0x26C3FD0", Offset = "0x26C25D0", VA = "0x1826C3FD0")]
+	[Address(RVA = "0x6089970", Offset = "0x6088970", VA = "0x6089970")]
 	private PrecedingQuery(PrecedingQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B98")]
-	[Address(RVA = "0x26C3E30", Offset = "0x26C2430", VA = "0x1826C3E30", Slot = "12")]
+	[Address(RVA = "0x6089A00", Offset = "0x6088A00", VA = "0x6089A00", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001B99")]
-	[Address(RVA = "0x26C3A00", Offset = "0x26C2000", VA = "0x1826C3A00", Slot = "15")]
+	[Address(RVA = "0x6089AA0", Offset = "0x6088AA0", VA = "0x6089AA0", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B9A")]
-	[Address(RVA = "0x26C3CF0", Offset = "0x26C22F0", VA = "0x1826C3CF0", Slot = "6")]
+	[Address(RVA = "0x6089D80", Offset = "0x6088D80", VA = "0x6089D80", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

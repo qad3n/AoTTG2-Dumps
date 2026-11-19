@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x20001C0")]
 internal class __ComObject
 {
-	[Token(Token = "0x600110F")]
-	[Address(RVA = "0x1BA9CB0", Offset = "0x1BA82B0", VA = "0x181BA9CB0")]
+	[Token(Token = "0x60010E6")]
+	[Address(RVA = "0x5521630", Offset = "0x5520630", VA = "0x5521630")]
 	private __ComObject()
 	{
 	}

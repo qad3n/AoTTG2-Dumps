@@ -18,32 +18,32 @@ internal class ChildrenQuery : BaseAxisQuery
 	private XPathNodeIterator _iterator;
 
 	[Token(Token = "0x6001AA0")]
-	[Address(RVA = "0x26B6C40", Offset = "0x26B5240", VA = "0x1826B6C40")]
+	[Address(RVA = "0x607E5C0", Offset = "0x607D5C0", VA = "0x607E5C0")]
 	public ChildrenQuery(Query qyInput, string name, string prefix, XPathNodeType type)
 	{
 	}
 
 	[Token(Token = "0x6001AA1")]
-	[Address(RVA = "0x26B6B20", Offset = "0x26B5120", VA = "0x1826B6B20")]
+	[Address(RVA = "0x607E720", Offset = "0x607D720", VA = "0x607E720")]
 	protected ChildrenQuery(ChildrenQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AA2")]
-	[Address(RVA = "0x26B6A80", Offset = "0x26B5080", VA = "0x1826B6A80", Slot = "12")]
+	[Address(RVA = "0x607E840", Offset = "0x607D840", VA = "0x607E840", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AA3")]
-	[Address(RVA = "0x26B6890", Offset = "0x26B4E90", VA = "0x1826B6890", Slot = "15")]
+	[Address(RVA = "0x607F020", Offset = "0x607E020", VA = "0x607F020", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AA4")]
-	[Address(RVA = "0x26B6A20", Offset = "0x26B5020", VA = "0x1826B6A20", Slot = "6")]
+	[Address(RVA = "0x607F210", Offset = "0x607E210", VA = "0x607F210", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

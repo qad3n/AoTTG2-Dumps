@@ -12,28 +12,28 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200031C")]
 public enum VertexAttributeFormat
 {
-	[Token(Token = "0x40007F0")]
+	[Token(Token = "0x40007EE")]
 	Float32,
-	[Token(Token = "0x40007F1")]
+	[Token(Token = "0x40007EF")]
 	Float16,
-	[Token(Token = "0x40007F2")]
+	[Token(Token = "0x40007F0")]
 	UNorm8,
-	[Token(Token = "0x40007F3")]
+	[Token(Token = "0x40007F1")]
 	SNorm8,
-	[Token(Token = "0x40007F4")]
+	[Token(Token = "0x40007F2")]
 	UNorm16,
-	[Token(Token = "0x40007F5")]
+	[Token(Token = "0x40007F3")]
 	SNorm16,
-	[Token(Token = "0x40007F6")]
+	[Token(Token = "0x40007F4")]
 	UInt8,
-	[Token(Token = "0x40007F7")]
+	[Token(Token = "0x40007F5")]
 	SInt8,
-	[Token(Token = "0x40007F8")]
+	[Token(Token = "0x40007F6")]
 	UInt16,
-	[Token(Token = "0x40007F9")]
+	[Token(Token = "0x40007F7")]
 	SInt16,
-	[Token(Token = "0x40007FA")]
+	[Token(Token = "0x40007F8")]
 	UInt32,
-	[Token(Token = "0x40007FB")]
+	[Token(Token = "0x40007F9")]
 	SInt32
 }

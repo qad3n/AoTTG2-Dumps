@@ -11,31 +11,31 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200037E")]
+[Token(Token = "0x2000357")]
 internal class SingletonIdentity : System.Runtime.Remoting.ServerIdentity
 {
-	[Token(Token = "0x6001D29")]
-	[Address(RVA = "0x19E67A0", Offset = "0x19E4DA0", VA = "0x1819E67A0")]
+	[Token(Token = "0x6001CFF")]
+	[Address(RVA = "0x5376E70", Offset = "0x5375E70", VA = "0x5376E70")]
 	public SingletonIdentity(string objectUri, Context context, Type objectType)
 	{
 	}
 
-	[Token(Token = "0x6001D2A")]
-	[Address(RVA = "0x19E6BD0", Offset = "0x19E51D0", VA = "0x1819E6BD0")]
+	[Token(Token = "0x6001D00")]
+	[Address(RVA = "0x5378030", Offset = "0x5377030", VA = "0x5378030")]
 	public MarshalByRefObject GetServerObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D2B")]
-	[Address(RVA = "0x19E6CF0", Offset = "0x19E52F0", VA = "0x1819E6CF0", Slot = "6")]
+	[Token(Token = "0x6001D01")]
+	[Address(RVA = "0x5378210", Offset = "0x5377210", VA = "0x5378210", Slot = "6")]
 	public override IMessage SyncObjectProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D2C")]
-	[Address(RVA = "0x19E6B20", Offset = "0x19E5120", VA = "0x1819E6B20", Slot = "7")]
+	[Token(Token = "0x6001D02")]
+	[Address(RVA = "0x5378300", Offset = "0x5377300", VA = "0x5378300", Slot = "7")]
 	public override IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

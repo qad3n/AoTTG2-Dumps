@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005F5")]
+[Token(Token = "0x2000654")]
 internal interface ICustomLogicEquals
 {
-	[Token(Token = "0x6003A64")]
+	[Token(Token = "0x6003CF2")]
 	bool __Eq__(object self, object other);
 
-	[Token(Token = "0x6003A65")]
+	[Token(Token = "0x6003CF3")]
 	int __Hash__();
 }

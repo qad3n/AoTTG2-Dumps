@@ -18,7 +18,7 @@ public class GraphDebugData : IGraphDebugData
 	protected Dictionary<IGraphElementWithDebugData, IGraphElementDebugData> elementsData
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6799330", Offset = "0x6798330", VA = "0x6799330")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,7 +30,7 @@ public class GraphDebugData : IGraphDebugData
 	protected Dictionary<IGraphParentElement, IGraphDebugData> childrenGraphsData
 	{
 		[Token(Token = "0x60002F0")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6799340", Offset = "0x6798340", VA = "0x6799340")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,7 +42,7 @@ public class GraphDebugData : IGraphDebugData
 	private IEnumerable<IGraphElementDebugData> Unity_002EVisualScripting_002EIGraphDebugData_002EelementsData
 	{
 		[Token(Token = "0x60002F1")]
-		[Address(RVA = "0x2DA8410", Offset = "0x2DA6A10", VA = "0x182DA8410", Slot = "6")]
+		[Address(RVA = "0x6799350", Offset = "0x6798350", VA = "0x6799350", Slot = "6")]
 		get
 		{
 			return null;
@@ -50,20 +50,20 @@ public class GraphDebugData : IGraphDebugData
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x2DA8460", Offset = "0x2DA6A60", VA = "0x182DA8460")]
+	[Address(RVA = "0x6797C00", Offset = "0x6796C00", VA = "0x6797C00")]
 	public GraphDebugData(IGraph definition)
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x2DA8350", Offset = "0x2DA6950", VA = "0x182DA8350", Slot = "4")]
+	[Address(RVA = "0x6799390", Offset = "0x6798390", VA = "0x6799390", Slot = "4")]
 	public IGraphElementDebugData GetOrCreateElementData(IGraphElementWithDebugData element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x2DA8250", Offset = "0x2DA6850", VA = "0x182DA8250", Slot = "5")]
+	[Address(RVA = "0x67994A0", Offset = "0x67984A0", VA = "0x67994A0", Slot = "5")]
 	public IGraphDebugData GetOrCreateChildGraphData(IGraphParentElement element)
 	{
 		return null;

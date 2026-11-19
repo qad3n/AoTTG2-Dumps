@@ -12,10 +12,10 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000339")]
 public enum ShadowSamplingMode
 {
-	[Token(Token = "0x40008EE")]
+	[Token(Token = "0x40008EC")]
 	CompareDepths,
-	[Token(Token = "0x40008EF")]
+	[Token(Token = "0x40008ED")]
 	RawDepth,
-	[Token(Token = "0x40008F0")]
+	[Token(Token = "0x40008EE")]
 	None
 }

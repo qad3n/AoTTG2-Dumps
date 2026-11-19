@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicSymbols
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicSymbols.cs
@@ -8,98 +8,64 @@
 
 // CustomLogic.CustomLogicSymbols$$Init
 // il2cpp: void CustomLogic_CustomLogicSymbols__Init (const MethodInfo* method);
-// 0x1820e9dc0
+// 0x5b74620
 
 void CustomLogic_CustomLogicSymbols__Init(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__int__o *__this;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar1;
-  System_Collections_Generic_Dictionary_int__int__o *__this_00;
+  char cVar1;
+  uint32_t uVar2;
+  Il2CppClass *klass;
   
-  if (Il2CppMethodInitialized_1843469d2 == '\0') {
+  if (Il2CppMethodInitialized_0754739d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
-    Il2CppMethodInitialized_1843469d2 = '\x01';
+    Il2CppMethodInitialized_0754739d = '\x01';
+    uVar2 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar2 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar2 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+    cVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded;
+    klass = (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols;
   }
-  if (TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded != false) {
+  else {
+    cVar1 = *(char *)((long)((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols)->static_fields + 0x30);
+    klass = (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols;
+  }
+  if (cVar1 != '\0') {
+    TypeInfo_CustomLogic_CustomLogicSymbols = (CustomLogic_CustomLogicSymbols_c *)klass;
     return;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+  TypeInfo_CustomLogic_CustomLogicSymbols = (CustomLogic_CustomLogicSymbols_c *)klass;
+  if ((klass->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(klass);
   }
-  if (Il2CppMethodInitialized_1843469d3 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-    Il2CppMethodInitialized_1843469d3 = '\x01';
-  }
-  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-  }
-  __this = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-  if (__this != (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
-    pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-             TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
-    if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-      pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-               TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames;
-      if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-        System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                  (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-        __this_00 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities;
-        if (__this_00 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                     (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-          pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                   TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols;
-          if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-            System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                      (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-            pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                     TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols;
-            if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-              System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                        (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear)
-              ;
-              CustomLogic_CustomLogicSymbols__AddSymbols((MethodInfo *)0x0);
-              CustomLogic_CustomLogicSymbols__CategorizeSymbols((MethodInfo *)0x0);
-              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded = true;
-              return;
-            }
-          }
-        }
-      }
-    }
-  }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicSymbols__ClearSymbols((MethodInfo *)klass);
+  CustomLogic_CustomLogicSymbols__AddSymbols((MethodInfo *)klass);
+  CustomLogic_CustomLogicSymbols__CategorizeSymbols((MethodInfo *)klass);
+  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded = true;
+  return;
 }
 
 
 // CustomLogic.CustomLogicSymbols$$ClearSymbols
 // il2cpp: void CustomLogic_CustomLogicSymbols__ClearSymbols (const MethodInfo* method);
-// 0x1820e9c70
+// 0x5b7f430
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7f45f: jmp 0x5b7f58b
 
 void CustomLogic_CustomLogicSymbols__ClearSymbols(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__int__o *__this;
-  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar1;
+  uint32_t uVar1;
+  System_Collections_Generic_Dictionary_object__int__o *__this;
+  System_Collections_Generic_HashSet_object__o *pSVar2;
   System_Collections_Generic_Dictionary_int__int__o *__this_00;
+  System_Collections_Generic_HashSet_int__o *pSVar3;
   
-  if (Il2CppMethodInitialized_1843469d3 == '\0') {
+  if (Il2CppMethodInitialized_0754739e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
@@ -107,41 +73,48 @@ void CustomLogic_CustomLogicSymbols__ClearSymbols(MethodInfo *method)
               (&MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Clear);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-    Il2CppMethodInitialized_1843469d3 = '\x01';
+    Il2CppMethodInitialized_0754739e = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+    __this = (System_Collections_Generic_Dictionary_object__int__o *)
+             TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
   }
-  __this = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-  if (__this != (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear);
-    pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+  else {
+    __this = *(System_Collections_Generic_Dictionary_object__int__o **)
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols)->static_fields;
+  }
+  if (__this != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__int___Clear
+              (__this,(MethodInfo_4A9D930 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Clear)
+    ;
+    pSVar2 = (System_Collections_Generic_HashSet_object__o *)
              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
-    if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
-      pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+    if (pSVar2 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      System_Collections_Generic_HashSet_object___Clear
+                (pSVar2,(MethodInfo_4FB36D0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
+      pSVar2 = (System_Collections_Generic_HashSet_object__o *)
                TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames;
-      if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-        System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                  (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
+      if (pSVar2 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Clear
+                  (pSVar2,(MethodInfo_4FB36D0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
         __this_00 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities;
         if (__this_00 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-          System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                     (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
-          pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                   TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols;
-          if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-            System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                      (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear);
-            pSVar1 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
-                     TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols;
-            if (pSVar1 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
-              System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
-                        (pSVar1,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear)
+          System_Collections_Generic_Dictionary_int__int___Clear
+                    (__this_00,
+                     (MethodInfo_4A040E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Clear);
+          pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols;
+          if (pSVar3 != (System_Collections_Generic_HashSet_int__o *)0x0) {
+            System_Collections_Generic_HashSet_int___Clear
+                      (pSVar3,(MethodInfo_4FA7DB0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear);
+            pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols;
+            if (pSVar3 != (System_Collections_Generic_HashSet_int__o *)0x0) {
+              System_Collections_Generic_HashSet_int___Clear
+                        (pSVar3,(MethodInfo_4FA7DB0 *)MethodInfo_System_Collections_Generic_HashSet_int_Clear)
               ;
               return;
             }
@@ -156,14 +129,17 @@ void CustomLogic_CustomLogicSymbols__ClearSymbols(MethodInfo *method)
 
 // CustomLogic.CustomLogicSymbols$$AddSymbols
 // il2cpp: void CustomLogic_CustomLogicSymbols__AddSymbols (const MethodInfo* method);
-// 0x1820e85c0
+// 0x5b7f590
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7f5c7: jmp 0x5b800b6
 
 void CustomLogic_CustomLogicSymbols__AddSymbols(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__int__o *pSVar1;
+  uint32_t uVar1;
+  System_Collections_Generic_Dictionary_object__int__o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843469d4 == '\0') {
+  if (Il2CppMethodInitialized_0754739f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
@@ -215,532 +191,540 @@ void CustomLogic_CustomLogicSymbols__AddSymbols(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&".");
     il2cpp_codegen_initialize_runtime_metadata(&"coroutine");
     il2cpp_codegen_initialize_runtime_metadata(&"!=");
-    Il2CppMethodInitialized_1843469d4 = '\x01';
+    Il2CppMethodInitialized_0754739f = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-  }
-  pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
-           TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-  if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__int___Add
-              (pSVar1,(Il2CppObject *)"class",1,
-               (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-    pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+    pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+  }
+  else {
+    pSVar2 = *(System_Collections_Generic_Dictionary_object__int__o **)
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols)->static_fields;
+  }
+  if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__int___Add
+              (pSVar2,(Il2CppObject *)"class",1,
+               (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
+    pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
+             TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
+    if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
       System_Collections_Generic_Dictionary_object__int___Add
-                (pSVar1,(Il2CppObject *)"extension",2,
-                 (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-      pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                (pSVar2,(Il2CppObject *)"extension",2,
+                 (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
+      pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-      if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+      if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
         System_Collections_Generic_Dictionary_object__int___Add
-                  (pSVar1,(Il2CppObject *)"addon",3,
-                   (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-        pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                  (pSVar2,(Il2CppObject *)"addon",3,
+                   (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
+        pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-        if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+        if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
           System_Collections_Generic_Dictionary_object__int___Add
-                    (pSVar1,(Il2CppObject *)"component",0,
-                     (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-          pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                    (pSVar2,(Il2CppObject *)"component",0,
+                     (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
+          pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                    TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-          if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+          if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
             System_Collections_Generic_Dictionary_object__int___Add
-                      (pSVar1,(Il2CppObject *)"cutscene",4,
-                       (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-            pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                      (pSVar2,(Il2CppObject *)"cutscene",4,
+                       (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
+            pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                      TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-            if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+            if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
               System_Collections_Generic_Dictionary_object__int___Add
-                        (pSVar1,(Il2CppObject *)"function",5,
-                         (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
+                        (pSVar2,(Il2CppObject *)"function",5,
+                         (MethodInfo_4A9D780 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                         );
-              pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+              pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-              if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+              if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                 System_Collections_Generic_Dictionary_object__int___Add
-                          (pSVar1,(Il2CppObject *)"coroutine",6,
-                           (MethodInfo_146B480 *)
+                          (pSVar2,(Il2CppObject *)"coroutine",6,
+                           (MethodInfo_4A9D780 *)
                            MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                          TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                   System_Collections_Generic_Dictionary_object__int___Add
-                            (pSVar1,(Il2CppObject *)"wait",7,
-                             (MethodInfo_146B480 *)
+                            (pSVar2,(Il2CppObject *)"wait",7,
+                             (MethodInfo_4A9D780 *)
                              MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                  pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                  pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                            TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                  if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                  if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                     System_Collections_Generic_Dictionary_object__int___Add
-                              (pSVar1,(Il2CppObject *)"null",8,
-                               (MethodInfo_146B480 *)
+                              (pSVar2,(Il2CppObject *)"null",8,
+                               (MethodInfo_4A9D780 *)
                                MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                    pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                    pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                    if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                    if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                       System_Collections_Generic_Dictionary_object__int___Add
-                                (pSVar1,(Il2CppObject *)"return",0x10,
-                                 (MethodInfo_146B480 *)
+                                (pSVar2,(Il2CppObject *)"return",0x10,
+                                 (MethodInfo_4A9D780 *)
                                  MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                      pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                      pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                      if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                      if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                         System_Collections_Generic_Dictionary_object__int___Add
-                                  (pSVar1,(Il2CppObject *)"break",0x12,
-                                   (MethodInfo_146B480 *)
+                                  (pSVar2,(Il2CppObject *)"break",0x12,
+                                   (MethodInfo_4A9D780 *)
                                    MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                        pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                        pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                        if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                        if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                           System_Collections_Generic_Dictionary_object__int___Add
-                                    (pSVar1,(Il2CppObject *)"continue",0x11,
-                                     (MethodInfo_146B480 *)
+                                    (pSVar2,(Il2CppObject *)"continue",0x11,
+                                     (MethodInfo_4A9D780 *)
                                      MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                          pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                          pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                    TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                          if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                          if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                             System_Collections_Generic_Dictionary_object__int___Add
-                                      (pSVar1,(Il2CppObject *)"if",0x2a,
-                                       (MethodInfo_146B480 *)
+                                      (pSVar2,(Il2CppObject *)"if",0x2a,
+                                       (MethodInfo_4A9D780 *)
                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                            pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                            pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                      TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                            if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                            if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                               System_Collections_Generic_Dictionary_object__int___Add
-                                        (pSVar1,(Il2CppObject *)"else",0x2b,
-                                         (MethodInfo_146B480 *)
+                                        (pSVar2,(Il2CppObject *)"else",0x2b,
+                                         (MethodInfo_4A9D780 *)
                                          MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                              pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                              pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                              if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                              if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                                 System_Collections_Generic_Dictionary_object__int___Add
-                                          (pSVar1,(Il2CppObject *)"elif",0x2c,
-                                           (MethodInfo_146B480 *)
+                                          (pSVar2,(Il2CppObject *)"elif",0x2c,
+                                           (MethodInfo_4A9D780 *)
                                            MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                                pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                          TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                                if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                                if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                                   System_Collections_Generic_Dictionary_object__int___Add
-                                            (pSVar1,(Il2CppObject *)"for",0x2e,
-                                             (MethodInfo_146B480 *)
+                                            (pSVar2,(Il2CppObject *)"for",0x2e,
+                                             (MethodInfo_4A9D780 *)
                                              MethodInfo_System_Collections_Generic_Dictionary_string_int_Add);
-                                  pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                  pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                            TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                                  if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                                  if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
                                     System_Collections_Generic_Dictionary_object__int___Add
-                                              (pSVar1,(Il2CppObject *)"while",0x2d,
-                                               (MethodInfo_146B480 *)
+                                              (pSVar2,(Il2CppObject *)"while",0x2d,
+                                               (MethodInfo_4A9D780 *)
                                                MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                               );
-                                    pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                    pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                              TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                                    if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)0x0)
+                                    if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)0x0)
                                     {
                                       System_Collections_Generic_Dictionary_object__int___Add
-                                                (pSVar1,(Il2CppObject *)"in",0x2f,
-                                                 (MethodInfo_146B480 *)
+                                                (pSVar2,(Il2CppObject *)"in",0x2f,
+                                                 (MethodInfo_4A9D780 *)
                                                  MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                 );
-                                      pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                      pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                                TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols
                                       ;
-                                      if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)
+                                      if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)
                                                     0x0) {
                                         System_Collections_Generic_Dictionary_object__int___Add
-                                                  (pSVar1,(Il2CppObject *)"{",9,
-                                                   (MethodInfo_146B480 *)
+                                                  (pSVar2,(Il2CppObject *)"{",9,
+                                                   (MethodInfo_4A9D780 *)
                                                    MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                   );
-                                        pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                        pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                                  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
                                                  Symbols;
-                                        if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o *)
+                                        if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o *)
                                                       0x0) {
                                           System_Collections_Generic_Dictionary_object__int___Add
-                                                    (pSVar1,(Il2CppObject *)"}",10,
-                                                     (MethodInfo_146B480 *)
+                                                    (pSVar2,(Il2CppObject *)"}",10,
+                                                     (MethodInfo_4A9D780 *)
                                                      MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                     );
-                                          pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                          pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                                    TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
                                                    Symbols;
-                                          if (pSVar1 != (System_Collections_Generic_Dictionary_object__int__o
+                                          if (pSVar2 != (System_Collections_Generic_Dictionary_object__int__o
                                                          *)0x0) {
                                             System_Collections_Generic_Dictionary_object__int___Add
-                                                      (pSVar1,(Il2CppObject *)"(",0xb,
-                                                       (MethodInfo_146B480 *)
+                                                      (pSVar2,(Il2CppObject *)"(",0xb,
+                                                       (MethodInfo_4A9D780 *)
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                       );
-                                            pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *)
+                                            pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *)
                                                      TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
                                                      Symbols;
-                                            if (pSVar1 != (
+                                            if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                               System_Collections_Generic_Dictionary_object__int___Add
-                                                        (pSVar1,(Il2CppObject *)")",0xc,
-                                                         (MethodInfo_146B480 *)
+                                                        (pSVar2,(Il2CppObject *)")",0xc,
+                                                         (MethodInfo_4A9D780 *)
                                                                                                                   
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                              pSVar1 = (System_Collections_Generic_Dictionary_object__int__o *
+                                              pSVar2 = (System_Collections_Generic_Dictionary_object__int__o *
                                                        )TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                         ->Symbols;
-                                              if (pSVar1 != (
+                                              if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                 System_Collections_Generic_Dictionary_object__int___Add
-                                                          (pSVar1,(Il2CppObject *)"[",0xd,
-                                                           (MethodInfo_146B480 *)
+                                                          (pSVar2,(Il2CppObject *)"[",0xd,
+                                                           (MethodInfo_4A9D780 *)
                                                                                                                       
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                pSVar1 = (System_Collections_Generic_Dictionary_object__int__o
+                                                pSVar2 = (System_Collections_Generic_Dictionary_object__int__o
                                                           *)TypeInfo_CustomLogic_CustomLogicSymbols->
                                                             static_fields->Symbols;
-                                                if (pSVar1 != (
+                                                if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                   System_Collections_Generic_Dictionary_object__int___Add
-                                                            (pSVar1,(Il2CppObject *)"]",0xe,
-                                                             (MethodInfo_146B480 *)
+                                                            (pSVar2,(Il2CppObject *)"]",0xe,
+                                                             (MethodInfo_4A9D780 *)
                                                                                                                           
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                  pSVar1 = (
+                                                  pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                  if (pSVar1 != (
+                                                  if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                     System_Collections_Generic_Dictionary_object__int___Add
-                                                              (pSVar1,(Il2CppObject *)"@",
-                                                               0xf,(MethodInfo_146B480 *)
+                                                              (pSVar2,(Il2CppObject *)"@",
+                                                               0xf,(MethodInfo_4A9D780 *)
                                                                                                                                       
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                    pSVar1 = (
+                                                    pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                    if (pSVar1 != (
+                                                    if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                       System_Collections_Generic_Dictionary_object__int___Add
-                                                                (pSVar1,(Il2CppObject *)";",
-                                                                 0x26,(MethodInfo_146B480 *)
+                                                                (pSVar2,(Il2CppObject *)";",
+                                                                 0x26,(MethodInfo_4A9D780 *)
                                                                                                                                             
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                      pSVar1 = (
+                                                      pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                      if (pSVar1 != (
+                                                      if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                 
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"\""
-                                                                  ,0x27,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"\""
+                                                                  ,0x27,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"="
-                                                                  ,0x14,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"="
+                                                                  ,0x14,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"+="
-                                                                  ,0x15,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"+="
+                                                                  ,0x15,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"-="
-                                                                  ,0x16,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"-="
+                                                                  ,0x16,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"*="
-                                                                  ,0x17,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"*="
+                                                                  ,0x17,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"/="
-                                                                  ,0x18,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"/="
+                                                                  ,0x18,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)","
-                                                                  ,0x28,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)","
+                                                                  ,0x28,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"."
-                                                                  ,0x29,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"."
+                                                                  ,0x29,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"||"
-                                                                  ,0x1a,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"||"
+                                                                  ,0x1a,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"&&"
-                                                                  ,0x19,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"&&"
+                                                                  ,0x19,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"+"
-                                                                  ,0x21,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"+"
+                                                                  ,0x21,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"-"
-                                                                  ,0x22,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"-"
+                                                                  ,0x22,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"*"
-                                                                  ,0x23,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"*"
+                                                                  ,0x23,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"/"
-                                                                  ,0x24,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"/"
+                                                                  ,0x24,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"%"
-                                                                  ,0x25,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"%"
+                                                                  ,0x25,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"=="
-                                                                  ,0x1f,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"=="
+                                                                  ,0x1f,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"!="
-                                                                  ,0x20,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"!="
+                                                                  ,0x20,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"<"
-                                                                  ,0x1b,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"<"
+                                                                  ,0x1b,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)">"
-                                                                  ,0x1c,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)">"
+                                                                  ,0x1c,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"<="
-                                                                  ,0x1d,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"<="
+                                                                  ,0x1d,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)">="
-                                                                  ,0x1e,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)">="
+                                                                  ,0x1e,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
-                                                       pSVar1 = (
+                                                       pSVar2 = (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
                                                        ->Symbols;
-                                                       if (pSVar1 != (
+                                                       if (pSVar2 != (
                                                        System_Collections_Generic_Dictionary_object__int__o *)
                                                        0x0) {
                                                                                                                   
                                                        System_Collections_Generic_Dictionary_object__int___Add
-                                                                 (pSVar1,(Il2CppObject *)"!"
-                                                                  ,0x13,(MethodInfo_146B480 *)
+                                                                 (pSVar2,(Il2CppObject *)"!"
+                                                                  ,0x13,(MethodInfo_4A9D780 *)
                                                                                                                                                 
                                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_Add
                                                        );
@@ -799,38 +783,42 @@ void CustomLogic_CustomLogicSymbols__AddSymbols(MethodInfo *method)
 
 // CustomLogic.CustomLogicSymbols$$CategorizeSymbols
 // il2cpp: void CustomLogic_CustomLogicSymbols__CategorizeSymbols (const MethodInfo* method);
-// 0x1820e91e0
-// eh: try 0x1820e96f0..0x1820e9c58 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 29 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820e97ac: mov rdx, qword ptr [rip + 0x1fd262d]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_Dispose
-// asm:   0x1820e97b3: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820e97b8: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820e97bd: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1820e97c2: test rcx, rcx
-// asm:   0x1820e97c5: jne 0x1820e9c58
-// asm:   0x1820e97cb: xor edi, edi
-// asm:   0x1820e9843: mov ebx, edi
-// asm:   0x1820e9845: mov eax, edi
-// asm:   0x1820e9983: mov ebx, edi
-// asm:   0x1820e9985: mov eax, edi
-// asm:   0x1820e9a2e: nop 
-// asm:   0x1820e9ac3: mov ebx, edi
-// asm:   0x1820e9ac5: mov eax, edi
-// asm:   0x1820e9b5a: mov ebx, edi
-// asm:   0x1820e9b5c: mov eax, edi
-// asm:   0x1820e9b5e: nop 
-// asm:   0x1820e9c58: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5b800c0
+// eh: try 0x5b80664..0x5b80b7d -> pad 0x5b80b89 (+6 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5b80ba1..0x5b80ba6 -> pad 0x5b80bc9 cleanup
+// eh: try 0x5b80bcc..0x5b80bd6 -> pad 0x5b80bde catch (...) [compiler noexcept guard]
+// asm: 31 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b80659: nop dword ptr [rax]
+// asm:   0x5b80b0f: nop 
+// asm:   0x5b80b7d: jmp 0x5b80b89
+// asm:   0x5b80b7f: jmp 0x5b80b89
+// asm:   0x5b80b81: jmp 0x5b80b89
+// asm:   0x5b80b83: jmp 0x5b80b89
+// asm:   0x5b80b85: jmp 0x5b80b89
+// asm:   0x5b80b87: jmp 0x5b80b89
+// asm:   0x5b80b89: mov rbx, rax
+// asm:   0x5b80b8c: cmp edx, 1
+// asm:   0x5b80b8f: jne 0x5b80bcc
+// asm:   0x5b80b91: mov rdi, rbx
+// asm:   0x5b80b94: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b80b99: mov rbx, qword ptr [rax]
+// asm:   0x5b80b9c: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5b80ba1: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b80ba6: lea rax, [rip + 0x170f44b]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_Dispose
+// asm:   0x5b80bad: mov rsi, qword ptr [rax]
+// asm:   0x5b80bb0: mov rdi, rsp
+// asm:   0x5b80bb3: call 0x4de4600  ; System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__int___Dispose()
+// asm:   0x5b80bb8: test rbx, rbx
+// asm:   0x5b80bbb: je 0x5b806f8
+// asm:   0x5b80bc1: mov rdi, rbx
+// asm:   0x5b80bc4: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5b80bc9: mov rbx, rax
+// asm:   0x5b80bcc: lea rdi, [rsp + 0x20]
+// asm:   0x5b80bd1: call 0x2fd7710  ; il2cpp_runtime_helper_02fd7710()
+// asm:   0x5b80bd6: mov rdi, rbx
+// asm:   0x5b80bd9: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b80bde: mov rdi, rax
+// asm:   0x5b80be1: call 0x2ab61e0  ; __clang_call_terminate()
 
 void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
 
@@ -838,22 +826,23 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
   int32_t iVar1;
   Il2CppClass *item;
   System_Collections_Generic_HashSet_object__o *pSVar2;
-  System_Collections_Generic_Dictionary_string__int__o *__this;
+  System_Collections_Generic_Dictionary_object__int__o *__this;
   System_Collections_Generic_Dictionary_int__int__o *pSVar3;
-  System_Collections_Generic_HashSet_int__o *pSVar4;
-  System_String_o *pSVar5;
+  void *pvVar4;
+  System_Collections_Generic_HashSet_int__o *pSVar5;
   bool bVar6;
-  Il2CppObject *pIVar7;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
-  uint uVar8;
-  uint uVar9;
-  undefined1 local_60 [16];
-  Il2CppObject *local_50;
-  undefined1 local_48 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_40;
+  int iVar7;
+  Il2CppObject *pIVar8;
+  ulong uVar9;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_00;
+  ulong uVar10;
+  undefined1 local_68 [8];
+  undefined1 *puStack_60;
+  Il2CppObject *local_58;
+  undefined1 local_48 [16];
   Il2CppObject *local_38;
   
-  if (Il2CppMethodInitialized_1843469d5 == '\0') {
+  if (Il2CppMethodInitialized_075473a0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbol_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_Dictionary_int_int_Add);
@@ -913,148 +902,73 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"break");
     il2cpp_codegen_initialize_runtime_metadata(&"for");
     il2cpp_codegen_initialize_runtime_metadata(&"coroutine");
-    Il2CppMethodInitialized_1843469d5 = '\x01';
+    Il2CppMethodInitialized_075473a0 = '\x01';
   }
-  local_48 = (undefined1  [8])0x0;
-  pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_38 = (Il2CppObject *)0x0;
-  pIVar7 = SZArrayNew(TypeInfo_string_array,0x12);
-  pSVar5 = "class";
-  if (pIVar7 == (Il2CppObject *)0x0) goto label_1820e9c64;
-  if (*(int *)&pIVar7[1].monitor != 0) {
-    pIVar7[2].klass = (Il2CppClass *)"class";
-    Il2CppCodeGenWriteBarrier(&pIVar7[2].klass,pSVar5);
-    pSVar5 = "component";
-    if (1 < *(uint *)&pIVar7[1].monitor) {
-      pIVar7[2].monitor = "component";
-      Il2CppCodeGenWriteBarrier(&pIVar7[2].monitor,pSVar5);
-      pSVar5 = "extension";
-      if (2 < *(uint *)&pIVar7[1].monitor) {
-        pIVar7[3].klass = (Il2CppClass *)"extension";
-        Il2CppCodeGenWriteBarrier(&pIVar7[3].klass,pSVar5);
-        pSVar5 = "addon";
-        if (3 < *(uint *)&pIVar7[1].monitor) {
-          pIVar7[3].monitor = "addon";
-          Il2CppCodeGenWriteBarrier(&pIVar7[3].monitor,pSVar5);
-          pSVar5 = "cutscene";
-          if (4 < *(uint *)&pIVar7[1].monitor) {
-            pIVar7[4].klass = (Il2CppClass *)"cutscene";
-            Il2CppCodeGenWriteBarrier(&pIVar7[4].klass,pSVar5);
-            pSVar5 = "function";
-            if (5 < *(uint *)&pIVar7[1].monitor) {
-              pIVar7[4].monitor = "function";
-              Il2CppCodeGenWriteBarrier(&pIVar7[4].monitor,pSVar5);
-              pSVar5 = "coroutine";
-              if (6 < *(uint *)&pIVar7[1].monitor) {
-                pIVar7[5].klass = (Il2CppClass *)"coroutine";
-                Il2CppCodeGenWriteBarrier(&pIVar7[5].klass,pSVar5);
-                pSVar5 = "wait";
-                if (7 < *(uint *)&pIVar7[1].monitor) {
-                  pIVar7[5].monitor = "wait";
-                  Il2CppCodeGenWriteBarrier(&pIVar7[5].monitor,pSVar5);
-                  pSVar5 = "null";
-                  if (8 < *(uint *)&pIVar7[1].monitor) {
-                    pIVar7[6].klass = (Il2CppClass *)"null";
-                    Il2CppCodeGenWriteBarrier(&pIVar7[6].klass,pSVar5);
-                    pSVar5 = "return";
-                    if (9 < *(uint *)&pIVar7[1].monitor) {
-                      pIVar7[6].monitor = "return";
-                      Il2CppCodeGenWriteBarrier(&pIVar7[6].monitor,pSVar5);
-                      pSVar5 = "break";
-                      if (10 < *(uint *)&pIVar7[1].monitor) {
-                        pIVar7[7].klass = (Il2CppClass *)"break";
-                        Il2CppCodeGenWriteBarrier(&pIVar7[7].klass,pSVar5);
-                        pSVar5 = "continue";
-                        if (0xb < *(uint *)&pIVar7[1].monitor) {
-                          pIVar7[7].monitor = "continue";
-                          Il2CppCodeGenWriteBarrier(&pIVar7[7].monitor,pSVar5);
-                          pSVar5 = "if";
-                          if (0xc < *(uint *)&pIVar7[1].monitor) {
-                            pIVar7[8].klass = (Il2CppClass *)"if";
-                            Il2CppCodeGenWriteBarrier(&pIVar7[8].klass,pSVar5);
-                            pSVar5 = "else";
-                            if (0xd < *(uint *)&pIVar7[1].monitor) {
-                              pIVar7[8].monitor = "else";
-                              Il2CppCodeGenWriteBarrier(&pIVar7[8].monitor,pSVar5);
-                              pSVar5 = "for";
-                              if (0xe < *(uint *)&pIVar7[1].monitor) {
-                                pIVar7[9].klass = (Il2CppClass *)"for";
-                                Il2CppCodeGenWriteBarrier(&pIVar7[9].klass,pSVar5);
-                                pSVar5 = "while";
-                                if (0xf < *(uint *)&pIVar7[1].monitor) {
-                                  pIVar7[9].monitor = "while";
-                                  Il2CppCodeGenWriteBarrier(&pIVar7[9].monitor,pSVar5);
-                                  pSVar5 = "elif";
-                                  if (0x10 < *(uint *)&pIVar7[1].monitor) {
-                                    pIVar7[10].klass = (Il2CppClass *)"elif";
-                                    Il2CppCodeGenWriteBarrier(&pIVar7[10].klass,pSVar5);
-                                    pSVar5 = "in";
-                                    if (0x11 < *(uint *)&pIVar7[1].monitor) {
-                                      pIVar7[10].monitor = "in";
-                                      Il2CppCodeGenWriteBarrier(&pIVar7[10].monitor,pSVar5);
-                                      uVar9 = 0;
-                                      for (uVar8 = uVar9; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                          uVar8 = uVar8 + 1) {
-                                        if (*(uint *)&pIVar7[1].monitor <= uVar8) goto label_1820e9c5e;
-                                        item = (&pIVar7[2].klass)[(int)uVar8];
-                                        if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
-                                            cctor_finished_or_no_cctor == 0) {
-                                          il2cpp_codegen_runtime_class_init
-                                                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                                        }
-                                        pSVar2 = (System_Collections_Generic_HashSet_object__o *)
-                                                 TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
-                                                 AlphaSymbolNames;
-                                        if (pSVar2 == (System_Collections_Generic_HashSet_object__o *)0x0)
-                                        goto label_1820e9c64;
-                                        System_Collections_Generic_HashSet_object___Add
-                                                  (pSVar2,(Il2CppObject *)item,
-                                                   (MethodInfo_1757CE0 *)
-                                                   MethodInfo_System_Collections_Generic_HashSet_string_Add);
-                                      }
-                                      if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
-                                          cctor_finished_or_no_cctor == 0) {
-                                        il2cpp_codegen_runtime_class_init
-                                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                                      }
-                                      __this = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols
-                                      ;
-                                      if ((__this != (System_Collections_Generic_Dictionary_string__int__o *)
-                                                     0x0) &&
-                                         (__this_00 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o
-                                                       *)
-                                                       System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                                                                 ((
-                                                       System_Collections_Generic_Dictionary_TKey__TValue__o *
-                                                       )__this,(MethodInfo_13C6500 *)
-                                                                                                                              
-                                                       MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Keys
-                                                       ),
-                                         __this_00 !=
-                                         (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o
-                                          *)0x0)) {
-                                        System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                                                  ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o
-                                                    *)local_60,__this_00,
-                                                   (MethodInfo_F1E4D0 *)
-                                                   MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_int_GetEnumerator
-                                                  );
-                                        local_48 = (undefined1  [8])local_60._0_8_;
-                                        pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o
-                                                      *)local_60._8_8_;
-                                        local_38 = local_50;
-                                        local_60._0_8_ =
-                                             (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-                                        local_60._8_8_ =
-                                             (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)
-                                             local_48;
-                                        while (bVar6 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
-                                                                 ((
-                                                       System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
-                                                       *)local_48,
-                                                       (MethodInfo_156BDD0 *)
-                                                       MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_MoveNext
-                                                       ), pIVar7 = local_38, bVar6) {
+  local_68 = (undefined1  [8])0x0;
+  puStack_60 = (undefined1 *)0x0;
+  local_58 = (Il2CppObject *)0x0;
+  pIVar8 = SZArrayNew(TypeInfo_string_array,0x12);
+  if (pIVar8 == (Il2CppObject *)0x0) goto label_05b80b6e;
+  if (*(int *)&pIVar8[1].monitor != 0) {
+    pIVar8[2].klass = (Il2CppClass *)"class";
+    Il2CppCodeGenWriteBarrier(&pIVar8[2].klass);
+    if (((ulong)pIVar8[1].monitor & 0xfffffffe) != 0) {
+      pIVar8[2].monitor = "component";
+      Il2CppCodeGenWriteBarrier(&pIVar8[2].monitor);
+      if (2 < *(uint *)&pIVar8[1].monitor) {
+        pIVar8[3].klass = (Il2CppClass *)"extension";
+        Il2CppCodeGenWriteBarrier(&pIVar8[3].klass);
+        if (((ulong)pIVar8[1].monitor & 0xfffffffc) != 0) {
+          pIVar8[3].monitor = "addon";
+          Il2CppCodeGenWriteBarrier(&pIVar8[3].monitor);
+          if (4 < *(uint *)&pIVar8[1].monitor) {
+            pIVar8[4].klass = (Il2CppClass *)"cutscene";
+            Il2CppCodeGenWriteBarrier(&pIVar8[4].klass);
+            if (5 < *(uint *)&pIVar8[1].monitor) {
+              pIVar8[4].monitor = "function";
+              Il2CppCodeGenWriteBarrier(&pIVar8[4].monitor);
+              if (6 < *(uint *)&pIVar8[1].monitor) {
+                pIVar8[5].klass = (Il2CppClass *)"coroutine";
+                Il2CppCodeGenWriteBarrier(&pIVar8[5].klass);
+                if (((ulong)pIVar8[1].monitor & 0xfffffff8) != 0) {
+                  pIVar8[5].monitor = "wait";
+                  Il2CppCodeGenWriteBarrier(&pIVar8[5].monitor);
+                  if (8 < *(uint *)&pIVar8[1].monitor) {
+                    pIVar8[6].klass = (Il2CppClass *)"null";
+                    Il2CppCodeGenWriteBarrier(&pIVar8[6].klass);
+                    if (9 < *(uint *)&pIVar8[1].monitor) {
+                      pIVar8[6].monitor = "return";
+                      Il2CppCodeGenWriteBarrier(&pIVar8[6].monitor);
+                      if (10 < *(uint *)&pIVar8[1].monitor) {
+                        pIVar8[7].klass = (Il2CppClass *)"break";
+                        Il2CppCodeGenWriteBarrier(&pIVar8[7].klass);
+                        if (0xb < *(uint *)&pIVar8[1].monitor) {
+                          pIVar8[7].monitor = "continue";
+                          Il2CppCodeGenWriteBarrier(&pIVar8[7].monitor);
+                          if (0xc < *(uint *)&pIVar8[1].monitor) {
+                            pIVar8[8].klass = (Il2CppClass *)"if";
+                            Il2CppCodeGenWriteBarrier(&pIVar8[8].klass);
+                            if (0xd < *(uint *)&pIVar8[1].monitor) {
+                              pIVar8[8].monitor = "else";
+                              Il2CppCodeGenWriteBarrier(&pIVar8[8].monitor);
+                              if (0xe < *(uint *)&pIVar8[1].monitor) {
+                                pIVar8[9].klass = (Il2CppClass *)"for";
+                                Il2CppCodeGenWriteBarrier(&pIVar8[9].klass);
+                                if (((ulong)pIVar8[1].monitor & 0xfffffff0) != 0) {
+                                  pIVar8[9].monitor = "while";
+                                  Il2CppCodeGenWriteBarrier(&pIVar8[9].monitor);
+                                  if (0x10 < *(uint *)&pIVar8[1].monitor) {
+                                    pIVar8[10].klass = (Il2CppClass *)"elif";
+                                    Il2CppCodeGenWriteBarrier(&pIVar8[10].klass);
+                                    if (0x11 < *(uint *)&pIVar8[1].monitor) {
+                                      pIVar8[10].monitor = "in";
+                                      Il2CppCodeGenWriteBarrier(&pIVar8[10].monitor);
+                                      if (0 < (int)pIVar8[1].monitor) {
+                                        uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                        uVar10 = 0;
+                                        do {
+                                          if (uVar9 <= uVar10) goto label_05b80b69;
+                                          item = (&pIVar8[2].klass)[uVar10];
                                           if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                               cctor_finished_or_no_cctor == 0) {
                                             il2cpp_codegen_runtime_class_init
@@ -1064,16 +978,57 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                           pSVar2 = (System_Collections_Generic_HashSet_object__o *)
                                                    TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
                                                    AlphaSymbolNames;
-                                          if (pSVar2 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-                                            ThrowNullReferenceException();
-                                          }
-                                          bVar6 = System_Collections_Generic_HashSet_object___Contains
-                                                            (pSVar2,pIVar7,
-                                                             (MethodInfo_1759E40 *)
-                                                                                                                          
-                                                       MethodInfo_System_Collections_Generic_HashSet_string_Contains
+                                          if (pSVar2 == (System_Collections_Generic_HashSet_object__o *)0x0)
+                                          goto label_05b80b6e;
+                                          System_Collections_Generic_HashSet_object___Add
+                                                    (pSVar2,(Il2CppObject *)item,
+                                                     (MethodInfo_4FB4450 *)
+                                                     MethodInfo_System_Collections_Generic_HashSet_string_Add)
+                                          ;
+                                          uVar10 = uVar10 + 1;
+                                          uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                        } while ((long)uVar10 < (long)(int)*(uint *)&pIVar8[1].monitor);
+                                      }
+                                      if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
+                                          cctor_finished_or_no_cctor == 0) {
+                                        il2cpp_codegen_runtime_class_init
+                                                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+                                      }
+                                      __this = (System_Collections_Generic_Dictionary_object__int__o *)
+                                               TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols
+                                      ;
+                                      if (__this != (System_Collections_Generic_Dictionary_object__int__o *)
+                                                    0x0) {
+                                        __this_00 = System_Collections_Generic_Dictionary_object__int___get_Keys
+                                                              (__this,(MethodInfo_4A9D3A0 *)
+                                                                                                                                            
+                                                       MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Keys
                                                        );
-                                          if (!bVar6) {
+                                        if (__this_00 !=
+                                            (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o
+                                             *)0x0) {
+                                          System_Collections_Generic_Dictionary_KeyCollection_object__int___GetEnumerator
+                                                    ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                                                      *)local_48,__this_00,
+                                                     (MethodInfo_5118A60 *)
+                                                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_int_GetEnumerator
+                                                    );
+                                          local_58 = local_38;
+                                          local_68 = (undefined1  [8])local_48._0_8_;
+                                          puStack_60 = (undefined1 *)local_48._8_8_;
+                                          local_48._0_8_ =
+                                               (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+                                          local_48._8_8_ = local_68;
+                                          while( true ) {
+                                            bVar6 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__int___MoveNext
+                                                              ((
+                                                       System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                                                       *)local_68,
+                                                       (MethodInfo_4CE4610 *)
+                                                       MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_MoveNext
+                                                       );
+                                            pIVar8 = local_58;
+                                            if (!bVar6) break;
                                             if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                 cctor_finished_or_no_cctor == 0) {
                                               il2cpp_codegen_runtime_class_init
@@ -1082,114 +1037,73 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                             }
                                             pSVar2 = (System_Collections_Generic_HashSet_object__o *)
                                                      TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
-                                                     SpecialSymbolNames;
+                                                     AlphaSymbolNames;
                                             if (pSVar2 == (System_Collections_Generic_HashSet_object__o *)0x0)
                                             {
                                               ThrowNullReferenceException();
                                             }
-                                            System_Collections_Generic_HashSet_object___Add
-                                                      (pSVar2,pIVar7,
-                                                       (MethodInfo_1757CE0 *)
-                                                       MethodInfo_System_Collections_Generic_HashSet_string_Add
-                                                      );
-                                          }
-                                        }
-                                        System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__int___Dispose
-                                                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o
-                                                    *)local_48,
-                                                   MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_Dispose
-                                                  );
-                                        if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
-                                            cctor_finished_or_no_cctor == 0) {
-                                          il2cpp_codegen_runtime_class_init
-                                                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                                        }
-                                        pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
-                                                 BinopSymbolPriorities;
-                                        if (pSVar3 != (System_Collections_Generic_Dictionary_int__int__o *)0x0
-                                           ) {
-                                          System_Collections_Generic_Dictionary_int__int___Add
-                                                    (pSVar3,0x14,0,
-                                                     (MethodInfo_1407050 *)
-                                                     MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
-                                                    );
-                                          pIVar7 = SZArrayNew(TypeInfo_CustomLogic_CustomLogicSymbol_array,4);
-                                          System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-                                                    ((System_Array_o *)pIVar7,
-                                                     FieldRva_PrivateImplementationDetails_9D8E086A55799BAA9861B56B4512C9434A47E3C37C0CC4624235075AEEEA35EC
-                                                     ,(MethodInfo *)0x0);
-                                          uVar8 = uVar9;
-                                          if (pIVar7 != (Il2CppObject *)0x0) {
-                                            for (; (int)uVar8 < *(int *)&pIVar7[1].monitor; uVar8 = uVar8 + 1)
-                                            {
-                                              if (*(uint *)&pIVar7[1].monitor <= uVar8) goto label_1820e9c5e;
-                                              iVar1 = *(int32_t *)
-                                                       ((longlong)&pIVar7[2].klass + (longlong)(int)uVar8 * 4)
-                                              ;
+                                            bVar6 = System_Collections_Generic_HashSet_object___Contains
+                                                              (pSVar2,pIVar8,
+                                                               (MethodInfo_4FB3720 *)
+                                                                                                                              
+                                                       MethodInfo_System_Collections_Generic_HashSet_string_Contains
+                                                       );
+                                            if (!bVar6) {
                                               if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                   cctor_finished_or_no_cctor == 0) {
                                                 il2cpp_codegen_runtime_class_init
                                                           ((Il2CppClass *)
                                                            TypeInfo_CustomLogic_CustomLogicSymbols);
                                               }
-                                              pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
-                                                       ->BinopSymbolPriorities;
-                                              if (pSVar3 == (System_Collections_Generic_Dictionary_int__int__o
-                                                             *)0x0) goto label_1820e9c64;
-                                              System_Collections_Generic_Dictionary_int__int___Add
-                                                        (pSVar3,iVar1,0,
-                                                         (MethodInfo_1407050 *)
+                                              pSVar2 = (System_Collections_Generic_HashSet_object__o *)
+                                                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields
+                                                       ->SpecialSymbolNames;
+                                              if (pSVar2 == (System_Collections_Generic_HashSet_object__o *)
+                                                            0x0) {
+                                                ThrowNullReferenceException();
+                                              }
+                                              System_Collections_Generic_HashSet_object___Add
+                                                        (pSVar2,pIVar8,
+                                                         (MethodInfo_4FB4450 *)
                                                                                                                   
-                                                       MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
+                                                       MethodInfo_System_Collections_Generic_HashSet_string_Add
                                                        );
                                             }
-                                            pIVar7 = SZArrayNew(TypeInfo_CustomLogic_CustomLogicSymbol_array,2
-                                                               );
-                                            if (pIVar7 != (Il2CppObject *)0x0) {
-                                              if ((*(int *)&pIVar7[1].monitor == 0) ||
-                                                 (*(undefined4 *)&pIVar7[2].klass = 0x1a,
-                                                 *(uint *)&pIVar7[1].monitor < 2)) goto label_1820e9c5e;
-                                              *(undefined4 *)((longlong)&pIVar7[2].klass + 4) = 0x19;
-                                              for (uVar8 = uVar9; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                                  uVar8 = uVar8 + 1) {
-                                                if (*(uint *)&pIVar7[1].monitor <= uVar8) goto label_1820e9c5e;
-                                                iVar1 = *(int32_t *)
-                                                         ((longlong)&pIVar7[2].klass +
-                                                         (longlong)(int)uVar8 * 4);
-                                                if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
-                                                    cctor_finished_or_no_cctor == 0) {
-                                                  il2cpp_codegen_runtime_class_init
-                                                            ((Il2CppClass *)
-                                                             TypeInfo_CustomLogic_CustomLogicSymbols);
-                                                }
-                                                pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->
-                                                         static_fields->BinopSymbolPriorities;
-                                                if (pSVar3 == (
-                                                       System_Collections_Generic_Dictionary_int__int__o *)0x0
-                                                   ) goto label_1820e9c64;
-                                                System_Collections_Generic_Dictionary_int__int___Add
-                                                          (pSVar3,iVar1,1,
-                                                           (MethodInfo_1407050 *)
-                                                                                                                      
+                                          }
+                                          System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__int___Dispose
+                                                    ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                                                      *)local_68,
+                                                     (MethodInfo_4CE4600 *)
+                                                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_int_Dispose
+                                                    );
+                                          if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
+                                              cctor_finished_or_no_cctor == 0) {
+                                            il2cpp_codegen_runtime_class_init
+                                                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols)
+                                            ;
+                                          }
+                                          pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->
+                                                   BinopSymbolPriorities;
+                                          if (pSVar3 != (System_Collections_Generic_Dictionary_int__int__o *)
+                                                        0x0) {
+                                            System_Collections_Generic_Dictionary_int__int___Add
+                                                      (pSVar3,0x14,0,
+                                                       (MethodInfo_4A03F20 *)
                                                        MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
-                                                       );
-                                              }
-                                              pIVar7 = SZArrayNew(TypeInfo_CustomLogic_CustomLogicSymbol_array
-                                                                  ,6);
-                                              System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-                                                        ((System_Array_o *)pIVar7,
-                                                                                                                  
-                                                       FieldRva_PrivateImplementationDetails_341C48B8D763F5BBDF402ED0A0B00F95DB0A677600E86CE8938E7748EB505AFD
+                                                      );
+                                            pIVar8 = SZArrayNew(TypeInfo_CustomLogic_CustomLogicSymbol_array,4
+                                                               );
+                                            System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+                                                      ((System_Array_o *)pIVar8,
+                                                       FieldRva_PrivateImplementationDetails_9D8E086A55799BAA9861B56B4512C9434A47E3C37C0CC4624235075AEEEA35EC
                                                        ,(MethodInfo *)0x0);
-                                              uVar8 = uVar9;
-                                              if (pIVar7 != (Il2CppObject *)0x0) {
-                                                for (; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                                    uVar8 = uVar8 + 1) {
-                                                  if (*(uint *)&pIVar7[1].monitor <= uVar8)
-                                                  goto label_1820e9c5e;
-                                                  iVar1 = *(int32_t *)
-                                                           ((longlong)&pIVar7[2].klass +
-                                                           (longlong)(int)uVar8 * 4);
+                                            if (pIVar8 != (Il2CppObject *)0x0) {
+                                              if (0 < (int)pIVar8[1].monitor) {
+                                                uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                                uVar10 = 0;
+                                                do {
+                                                  if (uVar9 <= uVar10) goto label_05b80b69;
+                                                  iVar1 = *(int32_t *)((long)&pIVar8[2].klass + uVar10 * 4);
                                                   if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                       cctor_finished_or_no_cctor == 0) {
                                                     il2cpp_codegen_runtime_class_init
@@ -1200,28 +1114,33 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                                            static_fields->BinopSymbolPriorities;
                                                   if (pSVar3 == (
                                                        System_Collections_Generic_Dictionary_int__int__o *)0x0
-                                                     ) goto label_1820e9c64;
+                                                     ) goto label_05b80b6e;
                                                   System_Collections_Generic_Dictionary_int__int___Add
-                                                            (pSVar3,iVar1,2,
-                                                             (MethodInfo_1407050 *)
+                                                            (pSVar3,iVar1,0,
+                                                             (MethodInfo_4A03F20 *)
                                                                                                                           
                                                        MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
                                                        );
-                                                }
-                                                pIVar7 = SZArrayNew(
-                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,2);
-                                                if (pIVar7 != (Il2CppObject *)0x0) {
-                                                  if ((*(int *)&pIVar7[1].monitor == 0) ||
-                                                     (*(undefined4 *)&pIVar7[2].klass = 0x21,
-                                                     *(uint *)&pIVar7[1].monitor < 2)) goto label_1820e9c5e;
-                                                  *(undefined4 *)((longlong)&pIVar7[2].klass + 4) = 0x22;
-                                                  for (uVar8 = uVar9; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                                      uVar8 = uVar8 + 1) {
-                                                    if (*(uint *)&pIVar7[1].monitor <= uVar8)
-                                                    goto label_1820e9c5e;
-                                                    iVar1 = *(int32_t *)
-                                                             ((longlong)&pIVar7[2].klass +
-                                                             (longlong)(int)uVar8 * 4);
+                                                  uVar10 = uVar10 + 1;
+                                                  uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                } while ((long)uVar10 < (long)(int)*(uint *)&pIVar8[1].monitor
+                                                        );
+                                              }
+                                              pIVar8 = SZArrayNew(TypeInfo_CustomLogic_CustomLogicSymbol_array
+                                                                  ,2);
+                                              if (pIVar8 != (Il2CppObject *)0x0) {
+                                                pvVar4 = pIVar8[1].monitor;
+                                                iVar7 = (int)pvVar4;
+                                                if ((iVar7 == 0) ||
+                                                   (*(undefined4 *)&pIVar8[2].klass = 0x1a, iVar7 == 1))
+                                                goto label_05b80b69;
+                                                *(undefined4 *)((long)&pIVar8[2].klass + 4) = 0x19;
+                                                if (0 < iVar7) {
+                                                  uVar9 = (ulong)pvVar4 & 0xffffffff;
+                                                  uVar10 = 0;
+                                                  do {
+                                                    if (uVar9 <= uVar10) goto label_05b80b69;
+                                                    iVar1 = *(int32_t *)((long)&pIVar8[2].klass + uVar10 * 4);
                                                     if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                         cctor_finished_or_no_cctor == 0) {
                                                       il2cpp_codegen_runtime_class_init
@@ -1232,30 +1151,33 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                                              static_fields->BinopSymbolPriorities;
                                                     if (pSVar3 == (
                                                        System_Collections_Generic_Dictionary_int__int__o *)0x0
-                                                       ) goto label_1820e9c64;
+                                                       ) goto label_05b80b6e;
                                                     System_Collections_Generic_Dictionary_int__int___Add
-                                                              (pSVar3,iVar1,3,
-                                                               (MethodInfo_1407050 *)
+                                                              (pSVar3,iVar1,1,
+                                                               (MethodInfo_4A03F20 *)
                                                                                                                               
                                                        MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
                                                        );
-                                                  }
-                                                  pIVar7 = SZArrayNew(
-                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,3);
-                                                  System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-                                                            ((System_Array_o *)pIVar7,
-                                                                                                                          
-                                                       FieldRva_PrivateImplementationDetails_22616551FC537E058E1A89FBDE586BDE75467E11C6B1CB1963B5F892FB2B5894
+                                                    uVar10 = uVar10 + 1;
+                                                    uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                  } while ((long)uVar10 <
+                                                           (long)(int)*(uint *)&pIVar8[1].monitor);
+                                                }
+                                                pIVar8 = SZArrayNew(
+                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,6);
+                                                System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+                                                          ((System_Array_o *)pIVar8,
+                                                                                                                      
+                                                       FieldRva_PrivateImplementationDetails_341C48B8D763F5BBDF402ED0A0B00F95DB0A677600E86CE8938E7748EB505AFD
                                                        ,(MethodInfo *)0x0);
-                                                  uVar8 = uVar9;
-                                                  if (pIVar7 != (Il2CppObject *)0x0) {
-                                                    for (; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                                        uVar8 = uVar8 + 1) {
-                                                      if (*(uint *)&pIVar7[1].monitor <= uVar8)
-                                                      goto label_1820e9c5e;
+                                                if (pIVar8 != (Il2CppObject *)0x0) {
+                                                  if (0 < (int)pIVar8[1].monitor) {
+                                                    uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                                    uVar10 = 0;
+                                                    do {
+                                                      if (uVar9 <= uVar10) goto label_05b80b69;
                                                       iVar1 = *(int32_t *)
-                                                               ((longlong)&pIVar7[2].klass +
-                                                               (longlong)(int)uVar8 * 4);
+                                                               ((long)&pIVar8[2].klass + uVar10 * 4);
                                                       if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                           cctor_finished_or_no_cctor == 0) {
                                                         il2cpp_codegen_runtime_class_init
@@ -1266,63 +1188,71 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                                                static_fields->BinopSymbolPriorities;
                                                       if (pSVar3 == (
                                                        System_Collections_Generic_Dictionary_int__int__o *)0x0
-                                                       ) goto label_1820e9c64;
+                                                       ) goto label_05b80b6e;
                                                       System_Collections_Generic_Dictionary_int__int___Add
-                                                                (pSVar3,iVar1,4,
-                                                                 (MethodInfo_1407050 *)
+                                                                (pSVar3,iVar1,2,
+                                                                 (MethodInfo_4A03F20 *)
                                                                                                                                   
                                                        MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
                                                        );
-                                                    }
-                                                    pIVar7 = SZArrayNew(
-                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,5);
-                                                    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-                                                              ((System_Array_o *)pIVar7,
-                                                                                                                              
-                                                       FieldRva_PrivateImplementationDetails_AAA9A0887F1FFCCD7D9FAFD6C581C10DD56E042994AF9075C209B87C175E5590
-                                                       ,(MethodInfo *)0x0);
-                                                    uVar8 = uVar9;
-                                                    if (pIVar7 != (Il2CppObject *)0x0) {
-                                                      for (; (int)uVar8 < *(int *)&pIVar7[1].monitor;
-                                                          uVar8 = uVar8 + 1) {
-                                                        if (*(uint *)&pIVar7[1].monitor <= uVar8)
-                                                        goto label_1820e9c5e;
+                                                      uVar10 = uVar10 + 1;
+                                                      uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                    } while ((long)uVar10 <
+                                                             (long)(int)*(uint *)&pIVar8[1].monitor);
+                                                  }
+                                                  pIVar8 = SZArrayNew(
+                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,2);
+                                                  if (pIVar8 != (Il2CppObject *)0x0) {
+                                                    pvVar4 = pIVar8[1].monitor;
+                                                    iVar7 = (int)pvVar4;
+                                                    if ((iVar7 == 0) ||
+                                                       (*(undefined4 *)&pIVar8[2].klass = 0x21, iVar7 == 1))
+                                                    goto label_05b80b69;
+                                                    *(undefined4 *)((long)&pIVar8[2].klass + 4) = 0x22;
+                                                    if (0 < iVar7) {
+                                                      uVar9 = (ulong)pvVar4 & 0xffffffff;
+                                                      uVar10 = 0;
+                                                      do {
+                                                        if (uVar9 <= uVar10) goto label_05b80b69;
                                                         iVar1 = *(int32_t *)
-                                                                 ((longlong)&pIVar7[2].klass +
-                                                                 (longlong)(int)uVar8 * 4);
+                                                                 ((long)&pIVar8[2].klass + uVar10 * 4);
                                                         if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                             cctor_finished_or_no_cctor == 0) {
                                                           il2cpp_codegen_runtime_class_init
                                                                     ((Il2CppClass *)
                                                                      TypeInfo_CustomLogic_CustomLogicSymbols);
                                                         }
-                                                        pSVar4 = TypeInfo_CustomLogic_CustomLogicSymbols->
-                                                                 static_fields->ClassSymbols;
-                                                        if (pSVar4 == (
-                                                       System_Collections_Generic_HashSet_int__o *)0x0)
-                                                       goto label_1820e9c64;
-                                                       System_Collections_Generic_HashSet_int___Add
-                                                                 (pSVar4,iVar1,
-                                                                  (MethodInfo_1757D20 *)
+                                                        pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->
+                                                                 static_fields->BinopSymbolPriorities;
+                                                        if (pSVar3 == (
+                                                       System_Collections_Generic_Dictionary_int__int__o *)0x0
+                                                       ) goto label_05b80b6e;
+                                                       System_Collections_Generic_Dictionary_int__int___Add
+                                                                 (pSVar3,iVar1,3,
+                                                                  (MethodInfo_4A03F20 *)
                                                                                                                                     
-                                                       MethodInfo_System_Collections_Generic_HashSet_int_Add);
-                                                      }
-                                                      pIVar7 = SZArrayNew(
-                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,4);
-                                                      System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
-                                                                ((System_Array_o *)pIVar7,
-                                                                                                                                  
-                                                       FieldRva_PrivateImplementationDetails_23971E4980DDAEE2D4BD5DC364AF0446A660BE4E95EAC134739B20FABD26981F
+                                                       MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
+                                                       );
+                                                       uVar10 = uVar10 + 1;
+                                                       uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                      } while ((long)uVar10 <
+                                                               (long)(int)*(uint *)&pIVar8[1].monitor);
+                                                    }
+                                                    pIVar8 = SZArrayNew(
+                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,3);
+                                                    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+                                                              ((System_Array_o *)pIVar8,
+                                                                                                                              
+                                                       FieldRva_PrivateImplementationDetails_22616551FC537E058E1A89FBDE586BDE75467E11C6B1CB1963B5F892FB2B5894
                                                        ,(MethodInfo *)0x0);
-                                                      if (pIVar7 != (Il2CppObject *)0x0) {
-                                                        while( true ) {
-                                                          if (*(int *)&pIVar7[1].monitor <= (int)uVar9) {
-                                                            return;
-                                                          }
-                                                          if (*(uint *)&pIVar7[1].monitor <= uVar9) break;
+                                                    if (pIVar8 != (Il2CppObject *)0x0) {
+                                                      if (0 < (int)pIVar8[1].monitor) {
+                                                        uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                                        uVar10 = 0;
+                                                        do {
+                                                          if (uVar9 <= uVar10) goto label_05b80b69;
                                                           iVar1 = *(int32_t *)
-                                                                   ((longlong)&pIVar7[2].klass +
-                                                                   (longlong)(int)uVar9 * 4);
+                                                                   ((long)&pIVar8[2].klass + uVar10 * 4);
                                                           if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
                                                               cctor_finished_or_no_cctor == 0) {
                                                             il2cpp_codegen_runtime_class_init
@@ -1330,19 +1260,98 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                                                        TypeInfo_CustomLogic_CustomLogicSymbols
                                                                       );
                                                           }
-                                                          pSVar4 = TypeInfo_CustomLogic_CustomLogicSymbols->
-                                                                   static_fields->ConditionalSymbols;
-                                                          if (pSVar4 == (
+                                                          pSVar3 = TypeInfo_CustomLogic_CustomLogicSymbols->
+                                                                   static_fields->BinopSymbolPriorities;
+                                                          if (pSVar3 == (
+                                                       System_Collections_Generic_Dictionary_int__int__o *)0x0
+                                                       ) goto label_05b80b6e;
+                                                       System_Collections_Generic_Dictionary_int__int___Add
+                                                                 (pSVar3,iVar1,4,
+                                                                  (MethodInfo_4A03F20 *)
+                                                                                                                                    
+                                                       MethodInfo_System_Collections_Generic_Dictionary_int_int_Add
+                                                       );
+                                                       uVar10 = uVar10 + 1;
+                                                       uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                       } while ((long)uVar10 <
+                                                                (long)(int)*(uint *)&pIVar8[1].monitor);
+                                                      }
+                                                      pIVar8 = SZArrayNew(
+                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,5);
+                                                      System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+                                                                ((System_Array_o *)pIVar8,
+                                                                                                                                  
+                                                       FieldRva_PrivateImplementationDetails_AAA9A0887F1FFCCD7D9FAFD6C581C10DD56E042994AF9075C209B87C175E5590
+                                                       ,(MethodInfo *)0x0);
+                                                      if (pIVar8 != (Il2CppObject *)0x0) {
+                                                        if (0 < (int)pIVar8[1].monitor) {
+                                                          uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                                          uVar10 = 0;
+                                                          do {
+                                                            if (uVar9 <= uVar10) goto label_05b80b69;
+                                                            iVar1 = *(int32_t *)
+                                                                     ((long)&pIVar8[2].klass + uVar10 * 4);
+                                                            if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).
+                                                                cctor_finished_or_no_cctor == 0) {
+                                                              il2cpp_codegen_runtime_class_init
+                                                                        ((Il2CppClass *)
+                                                                                                                                                  
+                                                       TypeInfo_CustomLogic_CustomLogicSymbols);
+                                                       }
+                                                       pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->
+                                                                static_fields->ClassSymbols;
+                                                       if (pSVar5 == (
                                                        System_Collections_Generic_HashSet_int__o *)0x0)
-                                                       goto label_1820e9c64;
+                                                       goto label_05b80b6e;
                                                        System_Collections_Generic_HashSet_int___Add
-                                                                 (pSVar4,iVar1,
-                                                                  (MethodInfo_1757D20 *)
+                                                                 (pSVar5,iVar1,
+                                                                  (MethodInfo_4FA8AF0 *)
                                                                                                                                     
                                                        MethodInfo_System_Collections_Generic_HashSet_int_Add);
-                                                       uVar9 = uVar9 + 1;
+                                                       uVar10 = uVar10 + 1;
+                                                       uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                       } while ((long)uVar10 <
+                                                                (long)(int)*(uint *)&pIVar8[1].monitor);
                                                        }
-                                                       goto label_1820e9c5e;
+                                                       pIVar8 = SZArrayNew(
+                                                       TypeInfo_CustomLogic_CustomLogicSymbol_array,4);
+                                                       System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_53cbb40
+                                                                 ((System_Array_o *)pIVar8,
+                                                                                                                                    
+                                                       FieldRva_PrivateImplementationDetails_23971E4980DDAEE2D4BD5DC364AF0446A660BE4E95EAC134739B20FABD26981F
+                                                       ,(MethodInfo *)0x0);
+                                                       if (pIVar8 != (Il2CppObject *)0x0) {
+                                                         if (0 < (int)pIVar8[1].monitor) {
+                                                           uVar9 = (ulong)pIVar8[1].monitor & 0xffffffff;
+                                                           uVar10 = 0;
+                                                           do {
+                                                             if (uVar9 <= uVar10) goto label_05b80b69;
+                                                             iVar1 = *(int32_t *)
+                                                                      ((long)&pIVar8[2].klass + uVar10 * 4);
+                                                             if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2)
+                                                                 .cctor_finished_or_no_cctor == 0) {
+                                                               il2cpp_codegen_runtime_class_init
+                                                                         ((Il2CppClass *)
+                                                                                                                                                    
+                                                       TypeInfo_CustomLogic_CustomLogicSymbols);
+                                                       }
+                                                       pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->
+                                                                static_fields->ConditionalSymbols;
+                                                       if (pSVar5 == (
+                                                       System_Collections_Generic_HashSet_int__o *)0x0)
+                                                       goto label_05b80b6e;
+                                                       System_Collections_Generic_HashSet_int___Add
+                                                                 (pSVar5,iVar1,
+                                                                  (MethodInfo_4FA8AF0 *)
+                                                                                                                                    
+                                                       MethodInfo_System_Collections_Generic_HashSet_int_Add);
+                                                       uVar10 = uVar10 + 1;
+                                                       uVar9 = (ulong)*(uint *)&pIVar8[1].monitor;
+                                                       } while ((long)uVar10 <
+                                                                (long)(int)*(uint *)&pIVar8[1].monitor);
+                                                       }
+                                                       return;
+                                                       }
                                                       }
                                                     }
                                                   }
@@ -1352,7 +1361,7 @@ void CustomLogic_CustomLogicSymbols__CategorizeSymbols(MethodInfo *method)
                                           }
                                         }
                                       }
-label_1820e9c64:
+label_05b80b6e:
                                       ThrowNullReferenceException();
                                     }
                                   }
@@ -1372,38 +1381,37 @@ label_1820e9c64:
       }
     }
   }
-label_1820e9c5e:
+label_05b80b69:
   ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicSymbols$$.ctor
 // il2cpp: void CustomLogic_CustomLogicSymbols___ctor (CustomLogic_CustomLogicSymbols_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5b80bf0
 
-void
-CustomLogic_CustomLogicSymbols___ctor(CustomLogic_CustomLogicSymbols_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicSymbols___ctor(CustomLogic_CustomLogicSymbols_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicSymbols$$.cctor
 // il2cpp: void CustomLogic_CustomLogicSymbols___cctor (const MethodInfo* method);
-// 0x1820e9f90
+// 0x5b80c00
 
 void CustomLogic_CustomLogicSymbols___cctor(MethodInfo *method)
 
 {
+  CustomLogic_CustomLogicSymbols_StaticFields *pCVar1;
   System_Collections_Generic_Dictionary_string__int__o *__this;
-  System_Collections_Generic_HashSet_string__o *pSVar1;
+  System_Collections_Generic_HashSet_string__o *pSVar2;
   System_Collections_Generic_Dictionary_int__int__o *__this_00;
-  System_Collections_Generic_HashSet_int__o *pSVar2;
+  System_Collections_Generic_HashSet_int__o *pSVar3;
   
-  if (Il2CppMethodInitialized_1843469d6 == '\0') {
+  if (Il2CppMethodInitialized_075473a1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor)
     ;
@@ -1415,47 +1423,48 @@ void CustomLogic_CustomLogicSymbols___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
-    Il2CppMethodInitialized_1843469d6 = '\x01';
+    Il2CppMethodInitialized_075473a1 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_int)
   ;
-  System_Collections_Generic_Dictionary_object__ProbeReferenceVolume_CellData_PerScenarioData____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_ctor);
+  System_Collections_Generic_Dictionary_object__int____ctor
+            ((System_Collections_Generic_Dictionary_object__int__o *)__this,
+             (MethodInfo_4A9CB80 *)MethodInfo_System_Collections_Generic_Dictionary_string_int_ctor);
   TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols,__this);
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar1,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames = pSVar1;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames,pSVar1);
-  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+            ((System_Collections_Generic_HashSet_object__o *)pSVar2,
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  pCVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields;
+  pCVar1->SpecialSymbolNames = pSVar2;
+  Il2CppCodeGenWriteBarrier(&pCVar1->SpecialSymbolNames);
+  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
-            ((System_Collections_Generic_HashSet_object__o *)pSVar1,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames = pSVar1;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames,pSVar1);
+            ((System_Collections_Generic_HashSet_object__o *)pSVar2,
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  pCVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields;
+  pCVar1->AlphaSymbolNames = pSVar2;
+  Il2CppCodeGenWriteBarrier(&pCVar1->AlphaSymbolNames);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_int)
   ;
-  System_Collections_Generic_Dictionary_int__RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
-  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities = __this_00;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->BinopSymbolPriorities,__this_00);
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+  System_Collections_Generic_Dictionary_int__int____ctor
+            (__this_00,(MethodInfo_4A032E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
+  pCVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields;
+  pCVar1->BinopSymbolPriorities = __this_00;
+  Il2CppCodeGenWriteBarrier(&pCVar1->BinopSymbolPriorities);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (pSVar2,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols = pSVar2;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ClassSymbols,pSVar2);
-  pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+            (pSVar3,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+  pCVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields;
+  pCVar1->ClassSymbols = pSVar3;
+  Il2CppCodeGenWriteBarrier(&pCVar1->ClassSymbols);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
   System_Collections_Generic_HashSet_int____ctor
-            (pSVar2,(MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
-  TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols = pSVar2;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->ConditionalSymbols,pSVar2);
+            (pSVar3,(MethodInfo_4FA7520 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+  pCVar1 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields;
+  pCVar1->ConditionalSymbols = pSVar3;
+  Il2CppCodeGenWriteBarrier(&pCVar1->ConditionalSymbols);
   TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->_loaded = false;
   return;
 }

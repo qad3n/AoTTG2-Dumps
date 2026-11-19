@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_Settings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ public class TMP_Settings : ScriptableObject
 		public HashSet<uint> followingCharacters;
 
 		[Token(Token = "0x600039E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6737610", Offset = "0x6736610", VA = "0x6737610")]
 		public LineBreakingTable()
 		{
 		}
@@ -231,7 +231,7 @@ public class TMP_Settings : ScriptableObject
 	public static string version
 	{
 		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x2D3FF00", Offset = "0x2D3E500", VA = "0x182D3FF00")]
+		[Address(RVA = "0x6735720", Offset = "0x6734720", VA = "0x6735720")]
 		get
 		{
 			return null;
@@ -242,7 +242,7 @@ public class TMP_Settings : ScriptableObject
 	public static TextWrappingModes textWrappingMode
 	{
 		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x2D3FE50", Offset = "0x2D3E450", VA = "0x182D3FE50")]
+		[Address(RVA = "0x67357B0", Offset = "0x67347B0", VA = "0x67357B0")]
 		get
 		{
 			return default(TextWrappingModes);
@@ -254,7 +254,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableKerning
 	{
 		[Token(Token = "0x6000367")]
-		[Address(RVA = "0x2D3F340", Offset = "0x2D3D940", VA = "0x182D3F340")]
+		[Address(RVA = "0x6735B90", Offset = "0x6734B90", VA = "0x6735B90")]
 		get
 		{
 			return default(bool);
@@ -265,7 +265,7 @@ public class TMP_Settings : ScriptableObject
 	public static List<OTL_FeatureTag> fontFeatures
 	{
 		[Token(Token = "0x6000368")]
-		[Address(RVA = "0x2D3F5A0", Offset = "0x2D3DBA0", VA = "0x182D3F5A0")]
+		[Address(RVA = "0x6735C60", Offset = "0x6734C60", VA = "0x6735C60")]
 		get
 		{
 			return null;
@@ -276,7 +276,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableExtraPadding
 	{
 		[Token(Token = "0x6000369")]
-		[Address(RVA = "0x2D3F2F0", Offset = "0x2D3D8F0", VA = "0x182D3F2F0")]
+		[Address(RVA = "0x6735CD0", Offset = "0x6734CD0", VA = "0x6735CD0")]
 		get
 		{
 			return default(bool);
@@ -287,7 +287,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableTintAllSprites
 	{
 		[Token(Token = "0x600036A")]
-		[Address(RVA = "0x2D3F4A0", Offset = "0x2D3DAA0", VA = "0x182D3F4A0")]
+		[Address(RVA = "0x6735D40", Offset = "0x6734D40", VA = "0x6735D40")]
 		get
 		{
 			return default(bool);
@@ -298,7 +298,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableParseEscapeCharacters
 	{
 		[Token(Token = "0x600036B")]
-		[Address(RVA = "0x2D3F400", Offset = "0x2D3DA00", VA = "0x182D3F400")]
+		[Address(RVA = "0x6735DB0", Offset = "0x6734DB0", VA = "0x6735DB0")]
 		get
 		{
 			return default(bool);
@@ -309,7 +309,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableRaycastTarget
 	{
 		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x2D3F450", Offset = "0x2D3DA50", VA = "0x182D3F450")]
+		[Address(RVA = "0x6735E20", Offset = "0x6734E20", VA = "0x6735E20")]
 		get
 		{
 			return default(bool);
@@ -320,7 +320,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool getFontFeaturesAtRuntime
 	{
 		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x2D3F5F0", Offset = "0x2D3DBF0", VA = "0x182D3F5F0")]
+		[Address(RVA = "0x6735E90", Offset = "0x6734E90", VA = "0x6735E90")]
 		get
 		{
 			return default(bool);
@@ -331,13 +331,13 @@ public class TMP_Settings : ScriptableObject
 	public static int missingGlyphCharacter
 	{
 		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x2D3FDA0", Offset = "0x2D3E3A0", VA = "0x182D3FDA0")]
+		[Address(RVA = "0x6735F00", Offset = "0x6734F00", VA = "0x6735F00")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x2D402D0", Offset = "0x2D3E8D0", VA = "0x182D402D0")]
+		[Address(RVA = "0x6735F70", Offset = "0x6734F70", VA = "0x6735F70")]
 		set
 		{
 		}
@@ -347,7 +347,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool clearDynamicDataOnBuild
 	{
 		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x2D3EDE0", Offset = "0x2D3D3E0", VA = "0x182D3EDE0")]
+		[Address(RVA = "0x6735FE0", Offset = "0x6734FE0", VA = "0x6735FE0")]
 		get
 		{
 			return default(bool);
@@ -358,7 +358,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool warningsDisabled
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x2D3FF30", Offset = "0x2D3E530", VA = "0x182D3FF30")]
+		[Address(RVA = "0x6736050", Offset = "0x6735050", VA = "0x6736050")]
 		get
 		{
 			return default(bool);
@@ -369,13 +369,13 @@ public class TMP_Settings : ScriptableObject
 	public static TMP_FontAsset defaultFontAsset
 	{
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x2D3EEE0", Offset = "0x2D3D4E0", VA = "0x182D3EEE0")]
+		[Address(RVA = "0x67360C0", Offset = "0x67350C0", VA = "0x67360C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x2D3FF80", Offset = "0x2D3E580", VA = "0x182D3FF80")]
+		[Address(RVA = "0x6736130", Offset = "0x6735130", VA = "0x6736130")]
 		set
 		{
 		}
@@ -385,7 +385,7 @@ public class TMP_Settings : ScriptableObject
 	public static string defaultFontAssetPath
 	{
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x2D3EE90", Offset = "0x2D3D490", VA = "0x182D3EE90")]
+		[Address(RVA = "0x67361B0", Offset = "0x67351B0", VA = "0x67361B0")]
 		get
 		{
 			return null;
@@ -396,7 +396,7 @@ public class TMP_Settings : ScriptableObject
 	public static float defaultFontSize
 	{
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x2D3EF30", Offset = "0x2D3D530", VA = "0x182D3EF30")]
+		[Address(RVA = "0x6736220", Offset = "0x6735220", VA = "0x6736220")]
 		get
 		{
 			return default(float);
@@ -407,7 +407,7 @@ public class TMP_Settings : ScriptableObject
 	public static float defaultTextAutoSizingMinRatio
 	{
 		[Token(Token = "0x6000376")]
-		[Address(RVA = "0x2D3F110", Offset = "0x2D3D710", VA = "0x182D3F110")]
+		[Address(RVA = "0x6736290", Offset = "0x6735290", VA = "0x6736290")]
 		get
 		{
 			return default(float);
@@ -418,7 +418,7 @@ public class TMP_Settings : ScriptableObject
 	public static float defaultTextAutoSizingMaxRatio
 	{
 		[Token(Token = "0x6000377")]
-		[Address(RVA = "0x2D3F0B0", Offset = "0x2D3D6B0", VA = "0x182D3F0B0")]
+		[Address(RVA = "0x6736300", Offset = "0x6735300", VA = "0x6736300")]
 		get
 		{
 			return default(float);
@@ -429,7 +429,7 @@ public class TMP_Settings : ScriptableObject
 	public static Vector2 defaultTextMeshProTextContainerSize
 	{
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x2D3F170", Offset = "0x2D3D770", VA = "0x182D3F170")]
+		[Address(RVA = "0x6736370", Offset = "0x6735370", VA = "0x6736370")]
 		get
 		{
 			return default(Vector2);
@@ -440,7 +440,7 @@ public class TMP_Settings : ScriptableObject
 	public static Vector2 defaultTextMeshProUITextContainerSize
 	{
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x2D3F1D0", Offset = "0x2D3D7D0", VA = "0x182D3F1D0")]
+		[Address(RVA = "0x67363E0", Offset = "0x67353E0", VA = "0x67363E0")]
 		get
 		{
 			return default(Vector2);
@@ -451,7 +451,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool autoSizeTextContainer
 	{
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x2D3ED90", Offset = "0x2D3D390", VA = "0x182D3ED90")]
+		[Address(RVA = "0x6736450", Offset = "0x6735450", VA = "0x6736450")]
 		get
 		{
 			return default(bool);
@@ -462,13 +462,13 @@ public class TMP_Settings : ScriptableObject
 	public static bool isTextObjectScaleStatic
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x2D3F9E0", Offset = "0x2D3DFE0", VA = "0x182D3F9E0")]
+		[Address(RVA = "0x67364C0", Offset = "0x67354C0", VA = "0x67364C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x2D40210", Offset = "0x2D3E810", VA = "0x182D40210")]
+		[Address(RVA = "0x6736530", Offset = "0x6735530", VA = "0x6736530")]
 		set
 		{
 		}
@@ -478,13 +478,13 @@ public class TMP_Settings : ScriptableObject
 	public static List<TMP_FontAsset> fallbackFontAssets
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x2D3F4F0", Offset = "0x2D3DAF0", VA = "0x182D3F4F0")]
+		[Address(RVA = "0x67365A0", Offset = "0x67355A0", VA = "0x67365A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x2D401A0", Offset = "0x2D3E7A0", VA = "0x182D401A0")]
+		[Address(RVA = "0x6736610", Offset = "0x6735610", VA = "0x6736610")]
 		set
 		{
 		}
@@ -494,7 +494,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool matchMaterialPreset
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x2D3FCF0", Offset = "0x2D3E2F0", VA = "0x182D3FCF0")]
+		[Address(RVA = "0x6736690", Offset = "0x6735690", VA = "0x6736690")]
 		get
 		{
 			return default(bool);
@@ -505,7 +505,7 @@ public class TMP_Settings : ScriptableObject
 	public static bool hideSubTextObjects
 	{
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x2D3F640", Offset = "0x2D3DC40", VA = "0x182D3F640")]
+		[Address(RVA = "0x6736700", Offset = "0x6735700", VA = "0x6736700")]
 		get
 		{
 			return default(bool);
@@ -516,13 +516,13 @@ public class TMP_Settings : ScriptableObject
 	public static TMP_SpriteAsset defaultSpriteAsset
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x2D3EFF0", Offset = "0x2D3D5F0", VA = "0x182D3EFF0")]
+		[Address(RVA = "0x6736770", Offset = "0x6735770", VA = "0x6736770")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x2D3FFF0", Offset = "0x2D3E5F0", VA = "0x182D3FFF0")]
+		[Address(RVA = "0x67367E0", Offset = "0x67357E0", VA = "0x67367E0")]
 		set
 		{
 		}
@@ -532,7 +532,7 @@ public class TMP_Settings : ScriptableObject
 	public static string defaultSpriteAssetPath
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x2D3EF90", Offset = "0x2D3D590", VA = "0x182D3EF90")]
+		[Address(RVA = "0x6736860", Offset = "0x6735860", VA = "0x6736860")]
 		get
 		{
 			return null;
@@ -543,13 +543,13 @@ public class TMP_Settings : ScriptableObject
 	public static bool enableEmojiSupport
 	{
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x2D3F290", Offset = "0x2D3D890", VA = "0x182D3F290")]
+		[Address(RVA = "0x67368D0", Offset = "0x67358D0", VA = "0x67368D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000385")]
-		[Address(RVA = "0x2D40140", Offset = "0x2D3E740", VA = "0x182D40140")]
+		[Address(RVA = "0x6736940", Offset = "0x6735940", VA = "0x6736940")]
 		set
 		{
 		}
@@ -559,13 +559,13 @@ public class TMP_Settings : ScriptableObject
 	public static uint missingCharacterSpriteUnicode
 	{
 		[Token(Token = "0x6000386")]
-		[Address(RVA = "0x2D3FD40", Offset = "0x2D3E340", VA = "0x182D3FD40")]
+		[Address(RVA = "0x67369B0", Offset = "0x67359B0", VA = "0x67369B0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x2D40270", Offset = "0x2D3E870", VA = "0x182D40270")]
+		[Address(RVA = "0x6736A20", Offset = "0x6735A20", VA = "0x6736A20")]
 		set
 		{
 		}
@@ -575,13 +575,13 @@ public class TMP_Settings : ScriptableObject
 	public static List<TMP_Asset> emojiFallbackTextAssets
 	{
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x2D3F230", Offset = "0x2D3D830", VA = "0x182D3F230")]
+		[Address(RVA = "0x6736A90", Offset = "0x6735A90", VA = "0x6736A90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000389")]
-		[Address(RVA = "0x2D400D0", Offset = "0x2D3E6D0", VA = "0x182D400D0")]
+		[Address(RVA = "0x6736B00", Offset = "0x6735B00", VA = "0x6736B00")]
 		set
 		{
 		}
@@ -591,7 +591,7 @@ public class TMP_Settings : ScriptableObject
 	public static string defaultColorGradientPresetsPath
 	{
 		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x2D3EE30", Offset = "0x2D3D430", VA = "0x182D3EE30")]
+		[Address(RVA = "0x6736B80", Offset = "0x6735B80", VA = "0x6736B80")]
 		get
 		{
 			return null;
@@ -602,13 +602,13 @@ public class TMP_Settings : ScriptableObject
 	public static TMP_StyleSheet defaultStyleSheet
 	{
 		[Token(Token = "0x600038B")]
-		[Address(RVA = "0x2D3F050", Offset = "0x2D3D650", VA = "0x182D3F050")]
+		[Address(RVA = "0x6736BF0", Offset = "0x6735BF0", VA = "0x6736BF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600038C")]
-		[Address(RVA = "0x2D40060", Offset = "0x2D3E660", VA = "0x182D40060")]
+		[Address(RVA = "0x6736C60", Offset = "0x6735C60", VA = "0x6736C60")]
 		set
 		{
 		}
@@ -618,7 +618,7 @@ public class TMP_Settings : ScriptableObject
 	public static string styleSheetsResourcePath
 	{
 		[Token(Token = "0x600038D")]
-		[Address(RVA = "0x2D3FDF0", Offset = "0x2D3E3F0", VA = "0x182D3FDF0")]
+		[Address(RVA = "0x6736CE0", Offset = "0x6735CE0", VA = "0x6736CE0")]
 		get
 		{
 			return null;
@@ -629,7 +629,7 @@ public class TMP_Settings : ScriptableObject
 	public static TextAsset leadingCharacters
 	{
 		[Token(Token = "0x600038E")]
-		[Address(RVA = "0x2D3FA30", Offset = "0x2D3E030", VA = "0x182D3FA30")]
+		[Address(RVA = "0x6736D50", Offset = "0x6735D50", VA = "0x6736D50")]
 		get
 		{
 			return null;
@@ -640,7 +640,7 @@ public class TMP_Settings : ScriptableObject
 	public static TextAsset followingCharacters
 	{
 		[Token(Token = "0x600038F")]
-		[Address(RVA = "0x2D3F540", Offset = "0x2D3DB40", VA = "0x182D3F540")]
+		[Address(RVA = "0x6736DC0", Offset = "0x6735DC0", VA = "0x6736DC0")]
 		get
 		{
 			return null;
@@ -651,7 +651,7 @@ public class TMP_Settings : ScriptableObject
 	public static LineBreakingTable linebreakingRules
 	{
 		[Token(Token = "0x6000390")]
-		[Address(RVA = "0x2D3FA90", Offset = "0x2D3E090", VA = "0x182D3FA90")]
+		[Address(RVA = "0x6736E30", Offset = "0x6735E30", VA = "0x6736E30")]
 		get
 		{
 			return null;
@@ -662,13 +662,13 @@ public class TMP_Settings : ScriptableObject
 	public static bool useModernHangulLineBreakingRules
 	{
 		[Token(Token = "0x6000391")]
-		[Address(RVA = "0x2D3FEA0", Offset = "0x2D3E4A0", VA = "0x182D3FEA0")]
+		[Address(RVA = "0x67370C0", Offset = "0x67360C0", VA = "0x67370C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000392")]
-		[Address(RVA = "0x2D40330", Offset = "0x2D3E930", VA = "0x182D40330")]
+		[Address(RVA = "0x6737130", Offset = "0x6736130", VA = "0x6737130")]
 		set
 		{
 		}
@@ -678,7 +678,7 @@ public class TMP_Settings : ScriptableObject
 	public static TMP_Settings instance
 	{
 		[Token(Token = "0x6000393")]
-		[Address(RVA = "0x2D3F690", Offset = "0x2D3DC90", VA = "0x182D3F690")]
+		[Address(RVA = "0x6735820", Offset = "0x6734820", VA = "0x6735820")]
 		get
 		{
 			return null;
@@ -689,7 +689,7 @@ public class TMP_Settings : ScriptableObject
 	internal static bool isTMPSettingsNull
 	{
 		[Token(Token = "0x6000394")]
-		[Address(RVA = "0x2D3F960", Offset = "0x2D3DF60", VA = "0x182D3F960")]
+		[Address(RVA = "0x67371A0", Offset = "0x67361A0", VA = "0x67371A0")]
 		get
 		{
 			return default(bool);
@@ -697,61 +697,61 @@ public class TMP_Settings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x2D3EBC0", Offset = "0x2D3D1C0", VA = "0x182D3EBC0")]
+	[Address(RVA = "0x6735750", Offset = "0x6734750", VA = "0x6735750")]
 	internal void SetAssetVersion()
 	{
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x2D3E8B0", Offset = "0x2D3CEB0", VA = "0x182D3E8B0")]
+	[Address(RVA = "0x6737220", Offset = "0x6736220", VA = "0x6737220")]
 	public static TMP_Settings LoadDefaultSettings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x2D3E6B0", Offset = "0x2D3CCB0", VA = "0x182D3E6B0")]
+	[Address(RVA = "0x6737350", Offset = "0x6736350", VA = "0x6737350")]
 	public static TMP_Settings GetSettings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x2D3E600", Offset = "0x2D3CC00", VA = "0x182D3E600")]
+	[Address(RVA = "0x6737400", Offset = "0x6736400", VA = "0x6737400")]
 	public static TMP_FontAsset GetFontAsset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x2D3E750", Offset = "0x2D3CD50", VA = "0x182D3E750")]
+	[Address(RVA = "0x67374B0", Offset = "0x67364B0", VA = "0x67374B0")]
 	public static TMP_SpriteAsset GetSpriteAsset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000399")]
-	[Address(RVA = "0x2D3E800", Offset = "0x2D3CE00", VA = "0x182D3E800")]
+	[Address(RVA = "0x6737560", Offset = "0x6736560", VA = "0x6737560")]
 	public static TMP_StyleSheet GetStyleSheet()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x2D3E9F0", Offset = "0x2D3CFF0", VA = "0x182D3E9F0")]
+	[Address(RVA = "0x6736EF0", Offset = "0x6735EF0", VA = "0x6736EF0")]
 	public static void LoadLinebreakingRules()
 	{
 	}
 
 	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x2D3E530", Offset = "0x2D3CB30", VA = "0x182D3E530")]
+	[Address(RVA = "0x6737620", Offset = "0x6736620", VA = "0x6737620")]
 	private static HashSet<uint> GetCharacters(TextAsset file)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x2D3ECA0", Offset = "0x2D3D2A0", VA = "0x182D3ECA0")]
+	[Address(RVA = "0x6737700", Offset = "0x6736700", VA = "0x6737700")]
 	public TMP_Settings()
 	{
 	}

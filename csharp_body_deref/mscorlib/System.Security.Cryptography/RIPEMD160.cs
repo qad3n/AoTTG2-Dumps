@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000324")]
+[Token(Token = "0x20002FD")]
 [ComVisible(true)]
 public abstract class RIPEMD160 : HashAlgorithm
 {
-	[Token(Token = "0x6001A24")]
-	[Address(RVA = "0x19B0CB0", Offset = "0x19AF2B0", VA = "0x1819B0CB0")]
+	[Token(Token = "0x6001A01")]
+	[Address(RVA = "0x5344D50", Offset = "0x5343D50", VA = "0x5344D50")]
 	protected RIPEMD160()
 	{
 	}
 
-	[Token(Token = "0x6001A25")]
-	[Address(RVA = "0x19B0BC0", Offset = "0x19AF1C0", VA = "0x1819B0BC0")]
+	[Token(Token = "0x6001A02")]
+	[Address(RVA = "0x5344D70", Offset = "0x5343D70", VA = "0x5344D70")]
 	public new static RIPEMD160 Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A26")]
-	[Address(RVA = "0x19B0C10", Offset = "0x19AF210", VA = "0x1819B0C10")]
+	[Token(Token = "0x6001A03")]
+	[Address(RVA = "0x5344DB0", Offset = "0x5343DB0", VA = "0x5344DB0")]
 	public new static RIPEMD160 Create(string hashName)
 	{
 		return null;

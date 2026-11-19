@@ -21,7 +21,7 @@ internal class RedefineEntry
 	internal XmlSchema schemaToUpdate;
 
 	[Token(Token = "0x600129F")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x5FCDB50", Offset = "0x5FCCB50", VA = "0x5FCDB50")]
 	public RedefineEntry(XmlSchemaRedefine external, XmlSchema schema)
 	{
 	}

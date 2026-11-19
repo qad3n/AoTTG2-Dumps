@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015B")]
+[Token(Token = "0x200015C")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = true)]
 public class HeaderAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005A5")]
+	[Token(Token = "0x40005AA")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly string header;
 
-	[Token(Token = "0x6000C3B")]
-	[Address(RVA = "0x2F1B750", Offset = "0x2F19D50", VA = "0x182F1B750")]
+	[Token(Token = "0x6000C4D")]
+	[Address(RVA = "0x690DD50", Offset = "0x690CD50", VA = "0x690DD50")]
 	public HeaderAttribute(string header)
 	{
 	}

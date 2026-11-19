@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000209")]
+[Token(Token = "0x20001E1")]
 internal static class PlatformHelper
 {
-	[Token(Token = "0x40009B0")]
+	[Token(Token = "0x400090E")]
 	[FieldOffset(Offset = "0x0")]
 	private static int s_processorCount;
 
-	[Token(Token = "0x40009B1")]
+	[Token(Token = "0x400090F")]
 	[FieldOffset(Offset = "0x4")]
 	private static int s_lastProcessorCountRefreshTicks;
 
-	[Token(Token = "0x40009B2")]
+	[Token(Token = "0x4000910")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly bool IsSingleProcessor;
 
-	[Token(Token = "0x170001A4")]
+	[Token(Token = "0x170001A3")]
 	internal static int ProcessorCount
 	{
-		[Token(Token = "0x600120A")]
-		[Address(RVA = "0x1BA2F50", Offset = "0x1BA1550", VA = "0x181BA2F50")]
+		[Token(Token = "0x60011E1")]
+		[Address(RVA = "0x552EB20", Offset = "0x552DB20", VA = "0x552EB20")]
 		get
 		{
 			return default(int);

@@ -28,13 +28,13 @@ internal sealed class GUIClip
 		private bool m_Disposed;
 
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x2FA6580", Offset = "0x2FA4B80", VA = "0x182FA6580")]
+		[Address(RVA = "0x698AC30", Offset = "0x6989C30", VA = "0x698AC30")]
 		public ParentClipScope(Matrix4x4 objectTransform, Rect clipRect)
 		{
 		}
 
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x2FA6540", Offset = "0x2FA4B40", VA = "0x182FA6540", Slot = "4")]
+		[Address(RVA = "0x698ACD0", Offset = "0x6989CD0", VA = "0x698ACD0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -44,7 +44,7 @@ internal sealed class GUIClip
 	internal static Rect visibleRect
 	{
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x2F86930", Offset = "0x2F84F30", VA = "0x182F86930")]
+		[Address(RVA = "0x69838A0", Offset = "0x69828A0", VA = "0x69838A0")]
 		[UnityEngine.Bindings.FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetVisibleRect")]
 		get
 		{
@@ -53,26 +53,26 @@ internal sealed class GUIClip
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x2F866C0", Offset = "0x2F84CC0", VA = "0x182F866C0")]
+	[Address(RVA = "0x698A8D0", Offset = "0x69898D0", VA = "0x698A8D0")]
 	internal static void Internal_Push(Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x2F864F0", Offset = "0x2F84AF0", VA = "0x182F864F0")]
+	[Address(RVA = "0x69862E0", Offset = "0x69852E0", VA = "0x69862E0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static extern void Internal_Pop();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x2F86490", Offset = "0x2F84A90", VA = "0x182F86490")]
-	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
+	[Address(RVA = "0x698A970", Offset = "0x6989970", VA = "0x698A970")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetCount")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal static extern int Internal_GetCount();
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x2F86850", Offset = "0x2F84E50", VA = "0x182F86850")]
+	[Address(RVA = "0x698A9A0", Offset = "0x69899A0", VA = "0x698A9A0")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.UnclipToWindow")]
 	private static Vector2 UnclipToWindow_Vector2(Vector2 pos)
 	{
@@ -80,7 +80,7 @@ internal sealed class GUIClip
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x2F86440", Offset = "0x2F84A40", VA = "0x182F86440")]
+	[Address(RVA = "0x697CC50", Offset = "0x697BC50", VA = "0x697CC50")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetUserMatrix")]
 	internal static Matrix4x4 GetMatrix()
 	{
@@ -88,42 +88,42 @@ internal sealed class GUIClip
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2F867C0", Offset = "0x2F84DC0", VA = "0x182F867C0")]
+	[Address(RVA = "0x697CD30", Offset = "0x697BD30", VA = "0x697CD30")]
 	internal static void SetMatrix(Matrix4x4 m)
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2F86580", Offset = "0x2F84B80", VA = "0x182F86580")]
+	[Address(RVA = "0x698AA90", Offset = "0x6989A90", VA = "0x698AA90")]
 	internal static void Internal_PushParentClip(Matrix4x4 objectTransform, Rect clipRect)
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x2F86610", Offset = "0x2F84C10", VA = "0x182F86610")]
+	[Address(RVA = "0x698AB20", Offset = "0x6989B20", VA = "0x698AB20")]
 	internal static void Internal_PushParentClip(Matrix4x4 renderTransform, Matrix4x4 inputTransform, Rect clipRect)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2F864C0", Offset = "0x2F84AC0", VA = "0x182F864C0")]
+	[Address(RVA = "0x698ABB0", Offset = "0x6989BB0", VA = "0x698ABB0")]
 	internal static extern void Internal_PopParentClip();
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x2F86720", Offset = "0x2F84D20", VA = "0x182F86720")]
+	[Address(RVA = "0x6986200", Offset = "0x6985200", VA = "0x6986200")]
 	internal static void Push(Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x2F864F0", Offset = "0x2F84AF0", VA = "0x182F864F0")]
+	[Address(RVA = "0x69894B0", Offset = "0x69884B0", VA = "0x69894B0")]
 	internal static void Pop()
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x2F868A0", Offset = "0x2F84EA0", VA = "0x182F868A0")]
+	[Address(RVA = "0x698ABE0", Offset = "0x6989BE0", VA = "0x698ABE0")]
 	public static Vector2 UnclipToWindow(Vector2 pos)
 	{
 		return default(Vector2);
@@ -131,31 +131,31 @@ internal sealed class GUIClip
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2F868F0", Offset = "0x2F84EF0", VA = "0x182F868F0")]
+	[Address(RVA = "0x698A8A0", Offset = "0x69898A0", VA = "0x698A8A0")]
 	private static extern void get_visibleRect_Injected(out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2F86670", Offset = "0x2F84C70", VA = "0x182F86670")]
+	[Address(RVA = "0x698A920", Offset = "0x6989920", VA = "0x698A920")]
 	private static extern void Internal_Push_Injected([In] ref Rect screenRect, [In] ref Vector2 scrollOffset, [In] ref Vector2 renderOffset, bool resetOffset);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x2F86800", Offset = "0x2F84E00", VA = "0x182F86800")]
+	[Address(RVA = "0x698A9F0", Offset = "0x69899F0", VA = "0x698A9F0")]
 	private static extern void UnclipToWindow_Vector2_Injected([In] ref Vector2 pos, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x2F86400", Offset = "0x2F84A00", VA = "0x182F86400")]
+	[Address(RVA = "0x698AA30", Offset = "0x6989A30", VA = "0x698AA30")]
 	private static extern void GetMatrix_Injected(out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x2F86780", Offset = "0x2F84D80", VA = "0x182F86780")]
+	[Address(RVA = "0x698AA60", Offset = "0x6989A60", VA = "0x698AA60")]
 	private static extern void SetMatrix_Injected([In] ref Matrix4x4 m);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x2F86520", Offset = "0x2F84B20", VA = "0x182F86520")]
+	[Address(RVA = "0x698AB70", Offset = "0x6989B70", VA = "0x698AB70")]
 	private static extern void Internal_PushParentClip_Injected([In] ref Matrix4x4 renderTransform, [In] ref Matrix4x4 inputTransform, [In] ref Rect clipRect);
 }

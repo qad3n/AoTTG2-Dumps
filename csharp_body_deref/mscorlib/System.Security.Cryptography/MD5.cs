@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200031A")]
+[Token(Token = "0x20002F3")]
 [ComVisible(true)]
 public abstract class MD5 : HashAlgorithm
 {
-	[Token(Token = "0x60019C6")]
-	[Address(RVA = "0x19ABED0", Offset = "0x19AA4D0", VA = "0x1819ABED0")]
+	[Token(Token = "0x60019A3")]
+	[Address(RVA = "0x533E320", Offset = "0x533D320", VA = "0x533E320")]
 	protected MD5()
 	{
 	}
 
-	[Token(Token = "0x60019C7")]
-	[Address(RVA = "0x19ABE80", Offset = "0x19AA480", VA = "0x1819ABE80")]
+	[Token(Token = "0x60019A4")]
+	[Address(RVA = "0x533E340", Offset = "0x533D340", VA = "0x533E340")]
 	public new static MD5 Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019C8")]
-	[Address(RVA = "0x19ABDE0", Offset = "0x19AA3E0", VA = "0x1819ABDE0")]
+	[Token(Token = "0x60019A5")]
+	[Address(RVA = "0x533E380", Offset = "0x533D380", VA = "0x533E380")]
 	public new static MD5 Create(string algName)
 	{
 		return null;

@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x200038A")]
+[Token(Token = "0x2000346")]
 public enum SocketAsyncOperation
 {
-	[Token(Token = "0x4000EEA")]
+	[Token(Token = "0x4000E02")]
 	None,
-	[Token(Token = "0x4000EEB")]
+	[Token(Token = "0x4000E03")]
 	Accept,
-	[Token(Token = "0x4000EEC")]
+	[Token(Token = "0x4000E04")]
 	Connect,
-	[Token(Token = "0x4000EED")]
+	[Token(Token = "0x4000E05")]
 	Disconnect,
-	[Token(Token = "0x4000EEE")]
+	[Token(Token = "0x4000E06")]
 	Receive,
-	[Token(Token = "0x4000EEF")]
+	[Token(Token = "0x4000E07")]
 	ReceiveFrom,
-	[Token(Token = "0x4000EF0")]
+	[Token(Token = "0x4000E08")]
 	ReceiveMessageFrom,
-	[Token(Token = "0x4000EF1")]
+	[Token(Token = "0x4000E09")]
 	Send,
-	[Token(Token = "0x4000EF2")]
+	[Token(Token = "0x4000E0A")]
 	SendPackets,
-	[Token(Token = "0x4000EF3")]
+	[Token(Token = "0x4000E0B")]
 	SendTo
 }

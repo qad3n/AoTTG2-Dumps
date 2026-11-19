@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Vrs
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -57,7 +57,7 @@ public static class Vrs
 		public bool yFlip;
 
 		[Token(Token = "0x6000FA7")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x655A8C0", Offset = "0x65598C0", VA = "0x655A8C0")]
 		public ConversionPassData()
 		{
 		}
@@ -87,7 +87,7 @@ public static class Vrs
 		public Vector4 visualizationParams;
 
 		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x655A8D0", Offset = "0x65598D0", VA = "0x655A8D0")]
 		public VisualizationPassData()
 		{
 		}
@@ -102,65 +102,65 @@ public static class Vrs
 	private static VrsResources s_VrsResources;
 
 	[Token(Token = "0x6000F9C")]
-	[Address(RVA = "0x2B84AF0", Offset = "0x2B830F0", VA = "0x182B84AF0")]
+	[Address(RVA = "0x6558150", Offset = "0x6557150", VA = "0x6558150")]
 	public static bool IsColorMaskTextureConversionSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F9D")]
-	[Address(RVA = "0x2B84B50", Offset = "0x2B83150", VA = "0x182B84B50")]
+	[Address(RVA = "0x65581B0", Offset = "0x65571B0", VA = "0x65581B0")]
 	public static bool IsInitialized()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F9E")]
-	[Address(RVA = "0x2B84930", Offset = "0x2B82F30", VA = "0x182B84930")]
+	[Address(RVA = "0x65582F0", Offset = "0x65572F0", VA = "0x65582F0")]
 	public static void InitializeResources()
 	{
 	}
 
 	[Token(Token = "0x6000F9F")]
-	[Address(RVA = "0x2B84890", Offset = "0x2B82E90", VA = "0x182B84890")]
+	[Address(RVA = "0x65584D0", Offset = "0x65574D0", VA = "0x65584D0")]
 	public static void DisposeResources()
 	{
 	}
 
 	[Token(Token = "0x6000FA0")]
-	[Address(RVA = "0x2B842D0", Offset = "0x2B828D0", VA = "0x182B842D0")]
+	[Address(RVA = "0x6558590", Offset = "0x6557590", VA = "0x6558590")]
 	public static TextureHandle ColorMaskTextureToShadingRateImage(RenderGraph renderGraph, RTHandle sriRtHandle, RTHandle colorMaskRtHandle, bool yFlip)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000FA1")]
-	[Address(RVA = "0x2B83A40", Offset = "0x2B82040", VA = "0x182B83A40")]
+	[Address(RVA = "0x6558850", Offset = "0x6557850", VA = "0x6558850")]
 	public static TextureHandle ColorMaskTextureToShadingRateImage(RenderGraph renderGraph, TextureHandle sriTextureHandle, TextureHandle colorMaskHandle, TextureDimension colorMaskDimension, bool yFlip)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000FA2")]
-	[Address(RVA = "0x2B84FA0", Offset = "0x2B835A0", VA = "0x182B84FA0")]
+	[Address(RVA = "0x6559250", Offset = "0x6558250", VA = "0x6559250")]
 	public static void ShadingRateImageToColorMaskTexture(RenderGraph renderGraph, in TextureHandle sriTextureHandle, in TextureHandle colorMaskHandle)
 	{
 	}
 
 	[Token(Token = "0x6000FA3")]
-	[Address(RVA = "0x2B84580", Offset = "0x2B82B80", VA = "0x182B84580")]
+	[Address(RVA = "0x6559D80", Offset = "0x6558D80", VA = "0x6559D80")]
 	private static void ConversionDispatch(ComputeCommandBuffer cmd, ConversionPassData conversionPassData)
 	{
 	}
 
 	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x2B834A0", Offset = "0x2B81AA0", VA = "0x182B834A0")]
+	[Address(RVA = "0x655A010", Offset = "0x6559010", VA = "0x655A010")]
 	public static void ColorMaskTextureToShadingRateImageDispatch(CommandBuffer cmd, RTHandle sriDestination, Texture colorMaskSource, bool yFlip = true)
 	{
 	}
 
 	[Token(Token = "0x6000FA5")]
-	[Address(RVA = "0x2B84C80", Offset = "0x2B83280", VA = "0x182B84C80")]
+	[Address(RVA = "0x655A540", Offset = "0x6559540", VA = "0x655A540")]
 	public static void ShadingRateImageToColorMaskTextureBlit(CommandBuffer cmd, RTHandle sriSource, RTHandle colorMaskDestination)
 	{
 	}

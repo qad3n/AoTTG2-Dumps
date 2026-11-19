@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 internal class RuntimeUIElementsBridge : UIElementsBridge
 {
 	[Token(Token = "0x600252D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x6B47AA0", Offset = "0x6B46AA0", VA = "0x6B47AA0", Slot = "4")]
 	public override void SetWantsMouseJumping(int value)
 	{
 	}
 
 	[Token(Token = "0x600252E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6B47AB0", Offset = "0x6B46AB0", VA = "0x6B47AB0")]
 	public RuntimeUIElementsBridge()
 	{
 	}

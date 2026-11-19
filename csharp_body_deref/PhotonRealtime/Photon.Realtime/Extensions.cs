@@ -20,19 +20,19 @@ public static class Extensions
 	private static readonly List<object> keysWithNullValue;
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x1D14970", Offset = "0x1D12F70", VA = "0x181D14970")]
+	[Address(RVA = "0x56A8DF0", Offset = "0x56A7DF0", VA = "0x56A8DF0")]
 	public static void Merge(this IDictionary target, IDictionary addHash)
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x1D14700", Offset = "0x1D12D00", VA = "0x181D14700")]
+	[Address(RVA = "0x56A9280", Offset = "0x56A8280", VA = "0x56A9280")]
 	public static void MergeStringKeys(this IDictionary target, IDictionary addHash)
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x1D15850", Offset = "0x1D13E50", VA = "0x181D15850")]
+	[Address(RVA = "0x56A9750", Offset = "0x56A8750", VA = "0x56A9750")]
 	public static string ToStringFull(this IDictionary origin)
 	{
 		return null;
@@ -45,40 +45,40 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x1D158A0", Offset = "0x1D13EA0", VA = "0x181D158A0")]
+	[Address(RVA = "0x56A97A0", Offset = "0x56A87A0", VA = "0x56A97A0")]
 	public static string ToStringFull(this object[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x1D155F0", Offset = "0x1D13BF0", VA = "0x181D155F0")]
+	[Address(RVA = "0x56A9900", Offset = "0x56A8900", VA = "0x56A9900")]
 	public static ExitGames.Client.Photon.Hashtable StripToStringKeys(this IDictionary original)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x1D15490", Offset = "0x1D13A90", VA = "0x181D15490")]
+	[Address(RVA = "0x56A9D60", Offset = "0x56A8D60", VA = "0x56A9D60")]
 	public static ExitGames.Client.Photon.Hashtable StripToStringKeys(this ExitGames.Client.Photon.Hashtable original)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x1D14FC0", Offset = "0x1D135C0", VA = "0x181D14FC0")]
+	[Address(RVA = "0x56A9F20", Offset = "0x56A8F20", VA = "0x56A9F20")]
 	public static void StripKeysWithNullValues(this IDictionary original)
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x1D14C80", Offset = "0x1D13280", VA = "0x181D14C80")]
+	[Address(RVA = "0x56AA580", Offset = "0x56A9580", VA = "0x56AA580")]
 	public static void StripKeysWithNullValues(this ExitGames.Client.Photon.Hashtable original)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x1D146B0", Offset = "0x1D12CB0", VA = "0x181D146B0")]
+	[Address(RVA = "0x56AA940", Offset = "0x56A9940", VA = "0x56AA940")]
 	public static bool Contains(this int[] target, int nr)
 	{
 		return default(bool);

@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000271")]
+[Token(Token = "0x2000249")]
 internal sealed class CompletionActionInvoker : System.Threading.IThreadPoolWorkItem
 {
-	[Token(Token = "0x4000B06")]
+	[Token(Token = "0x4000A64")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly System.Threading.Tasks.ITaskCompletionAction m_action;
 
-	[Token(Token = "0x4000B07")]
+	[Token(Token = "0x4000A65")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Task m_completingTask;
 
-	[Token(Token = "0x60014F8")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x60014CF")]
+	[Address(RVA = "0x5548C60", Offset = "0x5547C60", VA = "0x5548C60")]
 	internal CompletionActionInvoker(System.Threading.Tasks.ITaskCompletionAction action, Task completingTask)
 	{
 	}
 
-	[Token(Token = "0x60014F9")]
-	[Address(RVA = "0x1BAD310", Offset = "0x1BAB910", VA = "0x181BAD310", Slot = "4")]
+	[Token(Token = "0x60014D0")]
+	[Address(RVA = "0x554BC00", Offset = "0x554AC00", VA = "0x554BC00", Slot = "4")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
-	[Token(Token = "0x60014FA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x60014D1")]
+	[Address(RVA = "0x554BCB0", Offset = "0x554ACB0", VA = "0x554BCB0", Slot = "5")]
 	public void MarkAborted(ThreadAbortException e)
 	{
 	}

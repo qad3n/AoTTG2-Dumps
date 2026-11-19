@@ -28,13 +28,13 @@ public struct StyleTextShadow : IStyleValue<TextShadow>, IEquatable<StyleTextSha
 	public TextShadow value
 	{
 		[Token(Token = "0x60020A9")]
-		[Address(RVA = "0x311BE60", Offset = "0x311A460", VA = "0x18311BE60", Slot = "4")]
+		[Address(RVA = "0x6B14650", Offset = "0x6B13650", VA = "0x6B14650", Slot = "4")]
 		get
 		{
 			return default(TextShadow);
 		}
 		[Token(Token = "0x60020AA")]
-		[Address(RVA = "0x311BE20", Offset = "0x311A420", VA = "0x18311BE20", Slot = "5")]
+		[Address(RVA = "0x6B14690", Offset = "0x6B13690", VA = "0x6B14690", Slot = "5")]
 		set
 		{
 		}
@@ -44,80 +44,80 @@ public struct StyleTextShadow : IStyleValue<TextShadow>, IEquatable<StyleTextSha
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x60020AB")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930", Slot = "6")]
+		[Address(RVA = "0x6B146B0", Offset = "0x6B136B0", VA = "0x6B146B0", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x60020AC")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+		[Address(RVA = "0x6B146C0", Offset = "0x6B136C0", VA = "0x6B146C0", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60020AD")]
-	[Address(RVA = "0x311BE20", Offset = "0x311A420", VA = "0x18311BE20")]
+	[Address(RVA = "0x6B146D0", Offset = "0x6B136D0", VA = "0x6B146D0")]
 	public StyleTextShadow(TextShadow v)
 	{
 	}
 
 	[Token(Token = "0x60020AE")]
-	[Address(RVA = "0x311BDF0", Offset = "0x311A3F0", VA = "0x18311BDF0")]
+	[Address(RVA = "0x6B14710", Offset = "0x6B13710", VA = "0x6B14710")]
 	public StyleTextShadow(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020AF")]
-	[Address(RVA = "0x311BE40", Offset = "0x311A440", VA = "0x18311BE40")]
+	[Address(RVA = "0x6B146F0", Offset = "0x6B136F0", VA = "0x6B146F0")]
 	internal StyleTextShadow(TextShadow v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60020B0")]
-	[Address(RVA = "0x311BEA0", Offset = "0x311A4A0", VA = "0x18311BEA0")]
+	[Address(RVA = "0x6B14720", Offset = "0x6B13720", VA = "0x6B14720")]
 	public static bool operator ==(StyleTextShadow lhs, StyleTextShadow rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020B1")]
-	[Address(RVA = "0x311BF20", Offset = "0x311A520", VA = "0x18311BF20")]
+	[Address(RVA = "0x6B147E0", Offset = "0x6B137E0", VA = "0x6B147E0")]
 	public static implicit operator StyleTextShadow(StyleKeyword keyword)
 	{
 		return default(StyleTextShadow);
 	}
 
 	[Token(Token = "0x60020B2")]
-	[Address(RVA = "0x311BF60", Offset = "0x311A560", VA = "0x18311BF60")]
+	[Address(RVA = "0x6B14800", Offset = "0x6B13800", VA = "0x6B14800")]
 	public static implicit operator StyleTextShadow(TextShadow v)
 	{
 		return default(StyleTextShadow);
 	}
 
 	[Token(Token = "0x60020B3")]
-	[Address(RVA = "0x311BCE0", Offset = "0x311A2E0", VA = "0x18311BCE0", Slot = "8")]
+	[Address(RVA = "0x6B14820", Offset = "0x6B13820", VA = "0x6B14820", Slot = "8")]
 	public bool Equals(StyleTextShadow other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020B4")]
-	[Address(RVA = "0x311BC10", Offset = "0x311A210", VA = "0x18311BC10", Slot = "0")]
+	[Address(RVA = "0x6B148A0", Offset = "0x6B138A0", VA = "0x6B148A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60020B5")]
-	[Address(RVA = "0x311BD40", Offset = "0x311A340", VA = "0x18311BD40", Slot = "2")]
+	[Address(RVA = "0x6B14960", Offset = "0x6B13960", VA = "0x6B14960", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60020B6")]
-	[Address(RVA = "0x311BD80", Offset = "0x311A380", VA = "0x18311BD80", Slot = "3")]
+	[Address(RVA = "0x6B149A0", Offset = "0x6B139A0", VA = "0x6B149A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

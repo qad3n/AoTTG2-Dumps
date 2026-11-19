@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class CubemapParameter : VolumeParameter<Texture>
 {
 	[Token(Token = "0x6000F66")]
-	[Address(RVA = "0x2B579A0", Offset = "0x2B55FA0", VA = "0x182B579A0")]
+	[Address(RVA = "0x6556A70", Offset = "0x6555A70", VA = "0x6556A70")]
 	public CubemapParameter(Texture value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F67")]
-	[Address(RVA = "0x2B578B0", Offset = "0x2B55EB0", VA = "0x182B578B0", Slot = "2")]
+	[Address(RVA = "0x6556AC0", Offset = "0x6555AC0", VA = "0x6556AC0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

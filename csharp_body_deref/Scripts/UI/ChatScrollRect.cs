@@ -11,94 +11,94 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000784")]
+[Token(Token = "0x200082F")]
 public class ChatScrollRect : ScrollRect
 {
-	[Token(Token = "0x400255E")]
+	[Token(Token = "0x40028CF")]
 	[FieldOffset(Offset = "0x130")]
 	private bool isMouseOver;
 
-	[Token(Token = "0x400255F")]
+	[Token(Token = "0x40028D0")]
 	[FieldOffset(Offset = "0x131")]
 	private bool isDragging;
 
-	[Token(Token = "0x4002560")]
+	[Token(Token = "0x40028D1")]
 	[FieldOffset(Offset = "0x138")]
 	private Image handleImage;
 
-	[Token(Token = "0x4002561")]
+	[Token(Token = "0x40028D2")]
 	[FieldOffset(Offset = "0x140")]
 	private ChatPanel _chatPanel;
 
-	[Token(Token = "0x4002562")]
+	[Token(Token = "0x40028D3")]
 	[FieldOffset(Offset = "0x148")]
 	private float lastScrollTime;
 
-	[Token(Token = "0x4002563")]
+	[Token(Token = "0x40028D4")]
 	private const float SCROLL_INTERACTION_TIMEOUT = 1f;
 
-	[Token(Token = "0x60048EC")]
-	[Address(RVA = "0x223EFE0", Offset = "0x223D5E0", VA = "0x18223EFE0", Slot = "6")]
+	[Token(Token = "0x6004E12")]
+	[Address(RVA = "0x5C1AB90", Offset = "0x5C19B90", VA = "0x5C1AB90", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
-	[Token(Token = "0x60048ED")]
-	[Address(RVA = "0x223EF80", Offset = "0x223D580", VA = "0x18223EF80")]
+	[Token(Token = "0x6004E13")]
+	[Address(RVA = "0x5C1AD80", Offset = "0x5C19D80", VA = "0x5C1AD80")]
 	private void OnScrollbarValueChanged(float value)
 	{
 	}
 
-	[Token(Token = "0x60048EE")]
-	[Address(RVA = "0x223EAC0", Offset = "0x223D0C0", VA = "0x18223EAC0", Slot = "48")]
+	[Token(Token = "0x6004E14")]
+	[Address(RVA = "0x5C1ADE0", Offset = "0x5C19DE0", VA = "0x5C1ADE0", Slot = "48")]
 	protected override void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60048EF")]
-	[Address(RVA = "0x223ED40", Offset = "0x223D340", VA = "0x18223ED40")]
+	[Token(Token = "0x6004E15")]
+	[Address(RVA = "0x5C199E0", Offset = "0x5C189E0", VA = "0x5C199E0")]
 	public void OnMouseEnter()
 	{
 	}
 
-	[Token(Token = "0x60048F0")]
-	[Address(RVA = "0x223EDE0", Offset = "0x223D3E0", VA = "0x18223EDE0")]
+	[Token(Token = "0x6004E16")]
+	[Address(RVA = "0x5C19B20", Offset = "0x5C18B20", VA = "0x5C19B20")]
 	public void OnMouseExit()
 	{
 	}
 
-	[Token(Token = "0x60048F1")]
-	[Address(RVA = "0x223F1D0", Offset = "0x223D7D0", VA = "0x18223F1D0")]
+	[Token(Token = "0x6004E17")]
+	[Address(RVA = "0x5C1AF70", Offset = "0x5C19F70", VA = "0x5C1AF70")]
 	private void UpdateHandleVisibility()
 	{
 	}
 
-	[Token(Token = "0x60048F2")]
-	[Address(RVA = "0x223EBE0", Offset = "0x223D1E0", VA = "0x18223EBE0", Slot = "44")]
+	[Token(Token = "0x6004E18")]
+	[Address(RVA = "0x5C1B010", Offset = "0x5C1A010", VA = "0x5C1B010", Slot = "44")]
 	public override void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60048F3")]
-	[Address(RVA = "0x223ECA0", Offset = "0x223D2A0", VA = "0x18223ECA0", Slot = "45")]
+	[Token(Token = "0x6004E19")]
+	[Address(RVA = "0x5C1B020", Offset = "0x5C1A020", VA = "0x5C1B020", Slot = "45")]
 	public override void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60048F4")]
-	[Address(RVA = "0x223EBF0", Offset = "0x223D1F0", VA = "0x18223EBF0", Slot = "46")]
+	[Token(Token = "0x6004E1A")]
+	[Address(RVA = "0x5C1B0C0", Offset = "0x5C1A0C0", VA = "0x5C1B0C0", Slot = "46")]
 	public override void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60048F5")]
-	[Address(RVA = "0x223EE70", Offset = "0x223D470", VA = "0x18223EE70", Slot = "42")]
+	[Token(Token = "0x6004E1B")]
+	[Address(RVA = "0x5C1B160", Offset = "0x5C1A160", VA = "0x5C1B160", Slot = "42")]
 	public override void OnScroll(PointerEventData data)
 	{
 	}
 
-	[Token(Token = "0x60048F6")]
-	[Address(RVA = "0x19050C0", Offset = "0x19036C0", VA = "0x1819050C0")]
+	[Token(Token = "0x6004E1C")]
+	[Address(RVA = "0x5C1B270", Offset = "0x5C1A270", VA = "0x5C1B270")]
 	public ChatScrollRect()
 	{
 	}

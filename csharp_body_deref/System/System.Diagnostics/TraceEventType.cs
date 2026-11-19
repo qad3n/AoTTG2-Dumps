@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000107")]
+[Token(Token = "0x20000C8")]
 public enum TraceEventType
 {
-	[Token(Token = "0x4000459")]
+	[Token(Token = "0x400038A")]
 	Critical = 1,
-	[Token(Token = "0x400045A")]
+	[Token(Token = "0x400038B")]
 	Error = 2,
-	[Token(Token = "0x400045B")]
+	[Token(Token = "0x400038C")]
 	Warning = 4,
-	[Token(Token = "0x400045C")]
+	[Token(Token = "0x400038D")]
 	Information = 8,
-	[Token(Token = "0x400045D")]
+	[Token(Token = "0x400038E")]
 	Verbose = 0x10,
-	[Token(Token = "0x400045E")]
+	[Token(Token = "0x400038F")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	Start = 0x100,
-	[Token(Token = "0x400045F")]
+	[Token(Token = "0x4000390")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	Stop = 0x200,
-	[Token(Token = "0x4000460")]
+	[Token(Token = "0x4000391")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	Suspend = 0x400,
-	[Token(Token = "0x4000461")]
+	[Token(Token = "0x4000392")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	Resume = 0x800,
-	[Token(Token = "0x4000462")]
+	[Token(Token = "0x4000393")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	Transfer = 0x1000
 }

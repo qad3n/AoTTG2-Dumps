@@ -9,81 +9,81 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x20000FF")]
 internal sealed class ThrowInstruction : Instruction
 {
-	[Token(Token = "0x400024F")]
+	[Token(Token = "0x4000258")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly ThrowInstruction Throw;
 
-	[Token(Token = "0x4000250")]
+	[Token(Token = "0x4000259")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly ThrowInstruction VoidThrow;
 
-	[Token(Token = "0x4000251")]
+	[Token(Token = "0x400025A")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly ThrowInstruction Rethrow;
 
-	[Token(Token = "0x4000252")]
+	[Token(Token = "0x400025B")]
 	[FieldOffset(Offset = "0x18")]
 	internal static readonly ThrowInstruction VoidRethrow;
 
-	[Token(Token = "0x4000253")]
+	[Token(Token = "0x400025C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly bool _hasResult;
 
-	[Token(Token = "0x4000254")]
+	[Token(Token = "0x400025D")]
 	[FieldOffset(Offset = "0x11")]
 	private readonly bool _rethrow;
 
-	[Token(Token = "0x17000189")]
+	[Token(Token = "0x1700018B")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000668")]
-		[Address(RVA = "0x2441660", Offset = "0x243FC60", VA = "0x182441660", Slot = "9")]
+		[Token(Token = "0x6000673")]
+		[Address(RVA = "0x5DDF440", Offset = "0x5DDE440", VA = "0x5DDF440", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700018A")]
+	[Token(Token = "0x1700018C")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000669")]
-		[Address(RVA = "0x242D820", Offset = "0x242BE20", VA = "0x18242D820", Slot = "5")]
+		[Token(Token = "0x6000674")]
+		[Address(RVA = "0x5DDF470", Offset = "0x5DDE470", VA = "0x5DDF470", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700018B")]
+	[Token(Token = "0x1700018D")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000675")]
+		[Address(RVA = "0x5DDF480", Offset = "0x5DDE480", VA = "0x5DDF480", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x2441620", Offset = "0x243FC20", VA = "0x182441620")]
+	[Token(Token = "0x6000672")]
+	[Address(RVA = "0x5DDF420", Offset = "0x5DDE420", VA = "0x5DDF420")]
 	private ThrowInstruction(bool hasResult, bool isRethrow)
 	{
 	}
 
-	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x2441300", Offset = "0x243F900", VA = "0x182441300", Slot = "8")]
+	[Token(Token = "0x6000676")]
+	[Address(RVA = "0x5DDF490", Offset = "0x5DDE490", VA = "0x5DDF490", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x2441420", Offset = "0x243FA20", VA = "0x182441420")]
+	[Token(Token = "0x6000677")]
+	[Address(RVA = "0x5DDF5A0", Offset = "0x5DDE5A0", VA = "0x5DDF5A0")]
 	private static Exception WrapThrownObject(object thrown)
 	{
 		return null;

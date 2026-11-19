@@ -10,21 +10,21 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x20003C5")]
+[Token(Token = "0x2000424")]
 public class MapScriptBaseMaterial : BaseCSVRowItem
 {
-	[Token(Token = "0x40013A2")]
+	[Token(Token = "0x4001542")]
 	[FieldOffset(Offset = "0x10")]
 	[Order(1)]
 	public string Shader;
 
-	[Token(Token = "0x40013A3")]
+	[Token(Token = "0x4001543")]
 	[FieldOffset(Offset = "0x18")]
 	[Order(2)]
 	public Color255 Color;
 
-	[Token(Token = "0x60017C7")]
-	[Address(RVA = "0x1ED9DB0", Offset = "0x1ED83B0", VA = "0x181ED9DB0")]
+	[Token(Token = "0x6001A3E")]
+	[Address(RVA = "0x58A4890", Offset = "0x58A3890", VA = "0x58A4890")]
 	public MapScriptBaseMaterial()
 	{
 	}

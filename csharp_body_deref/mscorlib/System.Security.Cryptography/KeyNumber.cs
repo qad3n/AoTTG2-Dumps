@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002E8")]
+[Token(Token = "0x20002C1")]
 public enum KeyNumber
 {
-	[Token(Token = "0x4000C81")]
+	[Token(Token = "0x4000BE1")]
 	Exchange = 1,
-	[Token(Token = "0x4000C82")]
+	[Token(Token = "0x4000BE2")]
 	Signature
 }

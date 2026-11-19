@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class NoInterpVector3Parameter : VolumeParameter<Vector3>
 {
 	[Token(Token = "0x6000F55")]
-	[Address(RVA = "0x2B5FCF0", Offset = "0x2B5E2F0", VA = "0x182B5FCF0")]
+	[Address(RVA = "0x65561B0", Offset = "0x65551B0", VA = "0x65561B0")]
 	public NoInterpVector3Parameter(Vector3 value, bool overrideState = false)
 	{
 	}

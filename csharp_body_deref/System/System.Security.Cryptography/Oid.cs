@@ -9,81 +9,81 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000123")]
+[Token(Token = "0x20000E4")]
 public sealed class Oid
 {
-	[Token(Token = "0x4000508")]
+	[Token(Token = "0x4000439")]
 	[FieldOffset(Offset = "0x10")]
 	private string _value;
 
-	[Token(Token = "0x4000509")]
+	[Token(Token = "0x400043A")]
 	[FieldOffset(Offset = "0x18")]
 	private string _friendlyName;
 
-	[Token(Token = "0x400050A")]
+	[Token(Token = "0x400043B")]
 	[FieldOffset(Offset = "0x20")]
 	private OidGroup _group;
 
-	[Token(Token = "0x1700012B")]
+	[Token(Token = "0x170000FC")]
 	public string Value
 	{
-		[Token(Token = "0x6000711")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600055A")]
+		[Address(RVA = "0x620A290", Offset = "0x6209290", VA = "0x620A290")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000712")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x600055B")]
+		[Address(RVA = "0x620A2A0", Offset = "0x62092A0", VA = "0x620A2A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700012C")]
+	[Token(Token = "0x170000FD")]
 	public string FriendlyName
 	{
-		[Token(Token = "0x6000713")]
-		[Address(RVA = "0x287EE80", Offset = "0x287D480", VA = "0x18287EE80")]
+		[Token(Token = "0x600055C")]
+		[Address(RVA = "0x620A2B0", Offset = "0x62092B0", VA = "0x620A2B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600070C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000555")]
+	[Address(RVA = "0x6209FA0", Offset = "0x6208FA0", VA = "0x6209FA0")]
 	public Oid()
 	{
 	}
 
-	[Token(Token = "0x600070D")]
-	[Address(RVA = "0x287EDF0", Offset = "0x287D3F0", VA = "0x18287EDF0")]
+	[Token(Token = "0x6000556")]
+	[Address(RVA = "0x6209FB0", Offset = "0x6208FB0", VA = "0x6209FB0")]
 	public Oid(string oid)
 	{
 	}
 
-	[Token(Token = "0x600070E")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x6000557")]
+	[Address(RVA = "0x620A030", Offset = "0x6209030", VA = "0x620A030")]
 	public Oid(string value, string friendlyName)
 	{
 	}
 
-	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x287ED50", Offset = "0x287D350", VA = "0x18287ED50")]
+	[Token(Token = "0x6000558")]
+	[Address(RVA = "0x620A070", Offset = "0x6209070", VA = "0x620A070")]
 	public Oid(Oid oid)
 	{
 	}
 
-	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x287EBE0", Offset = "0x287D1E0", VA = "0x18287EBE0")]
+	[Token(Token = "0x6000559")]
+	[Address(RVA = "0x620A100", Offset = "0x6209100", VA = "0x620A100")]
 	public static Oid FromOidValue(string oidValue, OidGroup group)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x1A48980", Offset = "0x1A46F80", VA = "0x181A48980")]
+	[Token(Token = "0x600055D")]
+	[Address(RVA = "0x620A240", Offset = "0x6209240", VA = "0x620A240")]
 	private Oid(string value, string friendlyName, OidGroup group)
 	{
 	}

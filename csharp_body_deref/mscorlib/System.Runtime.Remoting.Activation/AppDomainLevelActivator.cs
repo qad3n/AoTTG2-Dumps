@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x20003B6")]
+[Token(Token = "0x200038F")]
 internal class AppDomainLevelActivator : IActivator
 {
-	[Token(Token = "0x4000F27")]
+	[Token(Token = "0x4000E87")]
 	[FieldOffset(Offset = "0x10")]
 	private string _activationUrl;
 
-	[Token(Token = "0x4000F28")]
+	[Token(Token = "0x4000E88")]
 	[FieldOffset(Offset = "0x18")]
 	private IActivator _next;
 
-	[Token(Token = "0x17000380")]
+	[Token(Token = "0x1700037F")]
 	public IActivator NextActivator
 	{
-		[Token(Token = "0x6001E26")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+		[Token(Token = "0x6001DFC")]
+		[Address(RVA = "0x538AD90", Offset = "0x5389D90", VA = "0x538AD90", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001E25")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x6001DFB")]
+	[Address(RVA = "0x538A790", Offset = "0x5389790", VA = "0x538A790")]
 	public AppDomainLevelActivator(string activationUrl, IActivator next)
 	{
 	}
 
-	[Token(Token = "0x6001E27")]
-	[Address(RVA = "0x19ED280", Offset = "0x19EB880", VA = "0x1819ED280", Slot = "5")]
+	[Token(Token = "0x6001DFD")]
+	[Address(RVA = "0x538ADA0", Offset = "0x5389DA0", VA = "0x538ADA0", Slot = "5")]
 	public IConstructionReturnMessage Activate(IConstructionCallMessage ctorCall)
 	{
 		return null;

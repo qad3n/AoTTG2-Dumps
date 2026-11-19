@@ -23,20 +23,20 @@ public class SpeakerAudioFilterRead : Speaker
 	private int outputSampleRate;
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x1D93100", Offset = "0x1D91700", VA = "0x181D93100", Slot = "5")]
+	[Address(RVA = "0x57335E0", Offset = "0x57325E0", VA = "0x57335E0", Slot = "5")]
 	protected override IAudioOut<float> CreateAudioOut()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x1D931F0", Offset = "0x1D917F0", VA = "0x181D931F0")]
+	[Address(RVA = "0x57336C0", Offset = "0x57326C0", VA = "0x57336C0")]
 	private void OnAudioFilterRead(float[] data, int channels)
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x1D93260", Offset = "0x1D91860", VA = "0x181D93260")]
+	[Address(RVA = "0x5733720", Offset = "0x5732720", VA = "0x5733720")]
 	public SpeakerAudioFilterRead()
 	{
 	}

@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x20002FD")]
+[Token(Token = "0x20002D6")]
 [ComVisible(true)]
 public enum FromBase64TransformMode
 {
-	[Token(Token = "0x4000CE0")]
+	[Token(Token = "0x4000C40")]
 	IgnoreWhiteSpaces,
-	[Token(Token = "0x4000CE1")]
+	[Token(Token = "0x4000C41")]
 	DoNotIgnoreWhiteSpaces
 }

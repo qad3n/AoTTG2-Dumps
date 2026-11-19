@@ -15,21 +15,21 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x200001C")]
-[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 {
 	[Token(Token = "0x400007A")]
 	[FieldOffset(Offset = "0x28")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly ulong _003CTimestamp_003Ek__BackingField;
 
 	[Token(Token = "0x17000016")]
 	public readonly MeshId MeshId
 	{
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
+		[Address(RVA = "0x6D24C40", Offset = "0x6D23C40", VA = "0x6D24C40")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +41,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly Mesh Mesh
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6D24C50", Offset = "0x6D23C50", VA = "0x6D24C50")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +53,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly MeshCollider MeshCollider
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6D24C60", Offset = "0x6D23C60", VA = "0x6D24C60")]
 		[CompilerGenerated]
 		get
 		{
@@ -65,7 +65,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly MeshGenerationStatus Status
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6D24C70", Offset = "0x6D23C70", VA = "0x6D24C70")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,7 +77,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly MeshVertexAttributes Attributes
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6D24C80", Offset = "0x6D23C80", VA = "0x6D24C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -89,7 +89,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly Vector3 Position
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x2AC3A10", Offset = "0x2AC2010", VA = "0x182AC3A10")]
+		[Address(RVA = "0x6D24C90", Offset = "0x6D23C90", VA = "0x6D24C90")]
 		[CompilerGenerated]
 		get
 		{
@@ -101,7 +101,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly Quaternion Rotation
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x20CA6D0", Offset = "0x20C8CD0", VA = "0x1820CA6D0")]
+		[Address(RVA = "0x6D24CA0", Offset = "0x6D23CA0", VA = "0x6D24CA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -113,7 +113,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	public readonly Vector3 Scale
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x3313BD0", Offset = "0x33121D0", VA = "0x183313BD0")]
+		[Address(RVA = "0x6D24CB0", Offset = "0x6D23CB0", VA = "0x6D24CB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -122,21 +122,21 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x33136A0", Offset = "0x3311CA0", VA = "0x1833136A0", Slot = "0")]
+	[Address(RVA = "0x6D24CC0", Offset = "0x6D23CC0", VA = "0x6D24CC0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3313780", Offset = "0x3311D80", VA = "0x183313780", Slot = "4")]
+	[Address(RVA = "0x6D24F50", Offset = "0x6D23F50", VA = "0x6D24F50", Slot = "4")]
 	public bool Equals(MeshGenerationResult other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3313960", Offset = "0x3311F60", VA = "0x183313960", Slot = "2")]
+	[Address(RVA = "0x6D25110", Offset = "0x6D24110", VA = "0x6D25110", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

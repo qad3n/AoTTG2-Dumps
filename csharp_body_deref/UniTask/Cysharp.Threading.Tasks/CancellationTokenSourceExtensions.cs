@@ -20,33 +20,33 @@ public static class CancellationTokenSourceExtensions
 	private static readonly Action<object> CancelCancellationTokenSourceStateDelegate;
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x290A6A0", Offset = "0x2908CA0", VA = "0x18290A6A0")]
+	[Address(RVA = "0x62C3190", Offset = "0x62C2190", VA = "0x62C3190")]
 	private static void CancelCancellationTokenSourceState(object state)
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x290A590", Offset = "0x2908B90", VA = "0x18290A590")]
+	[Address(RVA = "0x62C3200", Offset = "0x62C2200", VA = "0x62C3200")]
 	public static IDisposable CancelAfterSlim(this CancellationTokenSource cts, int millisecondsDelay, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x290A4E0", Offset = "0x2908AE0", VA = "0x18290A4E0")]
+	[Address(RVA = "0x62C32A0", Offset = "0x62C22A0", VA = "0x62C32A0")]
 	public static IDisposable CancelAfterSlim(this CancellationTokenSource cts, TimeSpan delayTimeSpan, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x290A7F0", Offset = "0x2908DF0", VA = "0x18290A7F0")]
+	[Address(RVA = "0x62C3390", Offset = "0x62C2390", VA = "0x62C3390")]
 	public static void RegisterRaiseCancelOnDestroy(this CancellationTokenSource cts, Component component)
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x290A720", Offset = "0x2908D20", VA = "0x18290A720")]
+	[Address(RVA = "0x62C3400", Offset = "0x62C2400", VA = "0x62C3400")]
 	public static void RegisterRaiseCancelOnDestroy(this CancellationTokenSource cts, GameObject gameObject)
 	{
 	}

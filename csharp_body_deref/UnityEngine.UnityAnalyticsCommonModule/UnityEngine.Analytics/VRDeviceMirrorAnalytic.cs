@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Analytics.VRDeviceMirrorAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,11 +21,11 @@ namespace UnityEngine.Analytics;
 public class VRDeviceMirrorAnalytic : VRDeviceAnalyticBase
 {
 	[Token(Token = "0x4000007")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	public bool vr_device_mirror_mode;
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x33088E0", Offset = "0x3306EE0", VA = "0x1833088E0")]
+	[Address(RVA = "0x6D17390", Offset = "0x6D16390", VA = "0x6D17390")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VRDeviceMirrorAnalytic CreateVRDeviceMirrorAnalytic()
 	{
@@ -33,7 +33,7 @@ public class VRDeviceMirrorAnalytic : VRDeviceAnalyticBase
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x33087E0", Offset = "0x3306DE0", VA = "0x1833087E0")]
+	[Address(RVA = "0x6D17420", Offset = "0x6D16420", VA = "0x6D17420")]
 	public VRDeviceMirrorAnalytic()
 	{
 	}

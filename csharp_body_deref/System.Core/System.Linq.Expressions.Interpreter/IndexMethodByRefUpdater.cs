@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200019C")]
+[Token(Token = "0x200019D")]
 internal sealed class IndexMethodByRefUpdater : ByRefUpdater
 {
-	[Token(Token = "0x400037A")]
+	[Token(Token = "0x4000383")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly MethodInfo _indexer;
 
-	[Token(Token = "0x400037B")]
+	[Token(Token = "0x4000384")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly LocalDefinition? _obj;
 
-	[Token(Token = "0x400037C")]
+	[Token(Token = "0x4000385")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly LocalDefinition[] _args;
 
-	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x246FCE0", Offset = "0x246E2E0", VA = "0x18246FCE0")]
+	[Token(Token = "0x60008F8")]
+	[Address(RVA = "0x5E07570", Offset = "0x5E06570", VA = "0x5E07570")]
 	public IndexMethodByRefUpdater(LocalDefinition? obj, LocalDefinition[] args, MethodInfo indexer, int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x246FAC0", Offset = "0x246E0C0", VA = "0x18246FAC0", Slot = "4")]
+	[Token(Token = "0x60008F9")]
+	[Address(RVA = "0x5E075E0", Offset = "0x5E065E0", VA = "0x5E075E0", Slot = "4")]
 	public override void Update(InterpretedFrame frame, object value)
 	{
 	}
 
-	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x246F910", Offset = "0x246DF10", VA = "0x18246F910", Slot = "5")]
+	[Token(Token = "0x60008FA")]
+	[Address(RVA = "0x5E078B0", Offset = "0x5E068B0", VA = "0x5E078B0", Slot = "5")]
 	public override void UndefineTemps(InstructionList instructions, LocalVariables locals)
 	{
 	}

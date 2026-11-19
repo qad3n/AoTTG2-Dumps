@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicQuaternionBuiltin
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicQuaternionBuiltin.cs
@@ -8,7 +8,7 @@
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x181ed9ad0
+// 0x59b5c80
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
@@ -21,8 +21,8 @@ CustomLogic_CustomLogicQuaternionBuiltin_Factory__CreateInstance(System_Object_a
   float fVar4;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar5;
   System_String_o *pSVar6;
-  System_String_o *str2;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
   System_ArgumentException_o *__this;
   MethodInfo *lastManagedFrame;
@@ -30,27 +30,26 @@ CustomLogic_CustomLogicQuaternionBuiltin_Factory__CreateInstance(System_Object_a
   float fVar8;
   float fVar9;
   float fVar10;
-  int32_t local_res8 [2];
+  int32_t local_1c;
   
-  if (Il2CppMethodInitialized_1843451d9 == '\0') {
+  if (Il2CppMethodInitialized_07545b72 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d9 = '\x01';
+    Il2CppMethodInitialized_07545b72 = '\x01';
   }
-  local_res8[0] = 0;
   if (args == (System_Object_array *)0x0) {
     ThrowNullReferenceException();
   }
   if (args->max_length == 0) {
     pCVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    if (Il2CppMethodInitialized_1843451d0 == '\0') {
+    if (Il2CppMethodInitialized_07545b69 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-      Il2CppMethodInitialized_1843451d0 = '\x01';
+      Il2CppMethodInitialized_07545b69 = '\x01';
     }
-    if (Il2CppMethodInitialized_18433de5b == '\0') {
+    if (Il2CppMethodInitialized_0753e72b == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-      Il2CppMethodInitialized_18433de5b = '\x01';
+      Il2CppMethodInitialized_0753e72b = '\x01';
     }
     pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
     fVar7 = (pUVar1->identityQuaternion).fields.y;
@@ -66,120 +65,111 @@ CustomLogic_CustomLogicQuaternionBuiltin_Factory__CreateInstance(System_Object_a
     CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar5,(MethodInfo *)0x0);
     return pCVar5;
   }
-  if ((int)args->max_length == 4) {
-    if ((int)args->max_length != 0) {
-      obj = args->m_Items[0];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        (obj,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float)
-      ;
-      if (1 < (uint)args->max_length) {
-        fVar8 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                          (args->m_Items[1],
-                           (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-        if (2 < (uint)args->max_length) {
-          fVar9 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                            (args->m_Items[2],
-                             (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float)
-          ;
-          if (3 < (uint)args->max_length) {
-            fVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                               (args->m_Items[3],
-                                (MethodInfo_66ED40 *)
-                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-            pCVar5 = il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-            if (Il2CppMethodInitialized_1843451d1 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-              Il2CppMethodInitialized_1843451d1 = '\x01';
-            }
-            if (Il2CppMethodInitialized_18433de5b == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-              Il2CppMethodInitialized_18433de5b = '\x01';
-            }
-            pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
-            fVar2 = (pUVar1->identityQuaternion).fields.y;
-            fVar3 = (pUVar1->identityQuaternion).fields.z;
-            fVar4 = (pUVar1->identityQuaternion).fields.w;
-            (pCVar5->fields).Value.fields.x = (pUVar1->identityQuaternion).fields.x;
-            (pCVar5->fields).Value.fields.y = fVar2;
-            (pCVar5->fields).Value.fields.z = fVar3;
-            (pCVar5->fields).Value.fields.w = fVar4;
-            if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-            }
-            CustomLogic_BuiltinClassInstance___ctor
-                      ((CustomLogic_BuiltinClassInstance_o *)pCVar5,(MethodInfo *)0x0);
-            (pCVar5->fields).Value.fields.x = fVar7;
-            (pCVar5->fields).Value.fields.y = fVar8;
-            (pCVar5->fields).Value.fields.z = fVar9;
-            (pCVar5->fields).Value.fields.w = fVar10;
-            return pCVar5;
-          }
-        }
-      }
-    }
+  if ((int)args->max_length != 4) {
+    NullCheck(args);
+    local_1c = (int32_t)args->max_length;
+    pSVar6 = System_Int32__ToString(&local_1c,(MethodInfo *)0x0);
+    str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicQuaternionBuiltin constructor found that takes ");
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    pSVar6 = System_String__Concat_5301f10(str0,pSVar6,str2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_54186d0(__this,pSVar6,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Factory_CreateInstance);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
+  }
+  obj = args->m_Items[0];
+  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+  }
+  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                    (obj,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  if ((((args->max_length & 0xfffffffe) == 0) ||
+      (fVar8 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                         (args->m_Items[1],
+                          (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float),
+      (uint)args->max_length < 3)) ||
+     (fVar9 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                        (args->m_Items[2],
+                         (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float),
+     (args->max_length & 0xfffffffc) == 0)) {
     ThrowIndexOutOfRangeException();
   }
-  NullCheck(args);
-  local_res8[0] = (int32_t)args->max_length;
-  pSVar6 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-  str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
-  str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicQuaternionBuiltin constructor found that takes ");
-  pSVar6 = System_String__Concat_1969b70(str0,pSVar6,str2,(MethodInfo *)0x0);
-  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
-  __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-  System_ArgumentException___ctor_1a77cc0(__this,pSVar6,(MethodInfo *)0x0);
-  lastManagedFrame =
-       il2cpp_codegen_get_runtime_metadata
-                 (&MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Factory_CreateInstance);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
+  fVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                     (args->m_Items[3],
+                      (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  pCVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
+  if (Il2CppMethodInitialized_07545b6a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_07545b6a = '\x01';
+  }
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+    Il2CppMethodInitialized_0753e72b = '\x01';
+  }
+  pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
+  fVar2 = (pUVar1->identityQuaternion).fields.y;
+  fVar3 = (pUVar1->identityQuaternion).fields.z;
+  fVar4 = (pUVar1->identityQuaternion).fields.w;
+  (pCVar5->fields).Value.fields.x = (pUVar1->identityQuaternion).fields.x;
+  (pCVar5->fields).Value.fields.y = fVar2;
+  (pCVar5->fields).Value.fields.z = fVar3;
+  (pCVar5->fields).Value.fields.w = fVar4;
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+  }
+  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar5,(MethodInfo *)0x0);
+  (pCVar5->fields).Value.fields.x = fVar7;
+  (pCVar5->fields).Value.fields.y = fVar8;
+  (pCVar5->fields).Value.fields.z = fVar9;
+  (pCVar5->fields).Value.fields.w = fVar10;
+  return pCVar5;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$.cctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c___cctor (const MethodInfo* method);
-// 0x181ee3da0
+// 0x59b8670
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c___cctor(MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_1843451f6 == '\0') {
+  if (Il2CppMethodInitialized_07545b8f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451f6 = '\x01';
+    Il2CppMethodInitialized_07545b8f = '\x01';
   }
-  __this = il2cpp_codegen_object_new
+  __this = (Il2CppObject *)
+           il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9,__this);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9 =
+       (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9)
+  ;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$.ctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c___ctor (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x59b86e0
 
-void
-CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c___ctor(CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c___ctor
+               (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__Lerp>b__8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Lerp_b__8_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee03a0
+// 0x59b86f0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Lerp_b__8_0
@@ -190,74 +180,68 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__L
   Il2CppObject *obj;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
+  MethodInfo *method_00;
   float t;
+  UnityEngine_Quaternion_o q;
   UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  Il2CppMethodPointer local_28;
+  Il2CppMethodPointer pIStack_20;
   
-  if (Il2CppMethodInitialized_1843451f7 == '\0') {
+  if (Il2CppMethodInitialized_07545b90 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f7 = '\x01';
+    Il2CppMethodInitialized_07545b90 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      obj = __a->m_Items[0];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (obj,(MethodInfo_66EB70 *)
-                              MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                         );
-      if (1 < (uint)__a->max_length) {
-        pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           (__a->m_Items[1],
-                            (MethodInfo_66EB70 *)
+  if (__a == (System_Object_array *)0x0) {
+label_059b87e5:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                           );
-        if (2 < (uint)__a->max_length) {
-          t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        (__a->m_Items[2],
-                         (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-          if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-             (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-            local_38.x = (pCVar2->fields).Value.fields.x;
-            local_38.y = (pCVar2->fields).Value.fields.y;
-            local_38.z = (pCVar2->fields).Value.fields.z;
-            local_38.w = (pCVar2->fields).Value.fields.w;
-            local_28.x = (pCVar1->fields).Value.fields.x;
-            local_28.y = (pCVar1->fields).Value.fields.y;
-            local_28.z = (pCVar1->fields).Value.fields.z;
-            local_28.w = (pCVar1->fields).Value.fields.w;
-            pUVar3 = UnityEngine_Quaternion__Internal_Lerp
-                               (&local_18,(UnityEngine_Quaternion_o *)&local_28,
-                                (UnityEngine_Quaternion_o *)&local_38,t,(MethodInfo *)0x0);
-            local_28.x = (pUVar3->fields).x;
-            local_28.y = (pUVar3->fields).y;
-            local_28.z = (pUVar3->fields).z;
-            local_28.w = (pUVar3->fields).w;
-            pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                               ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-            return (Il2CppObject *)pCVar1;
-          }
-          goto label_181ee04b8;
+                       );
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                         (__a->m_Items[1],
+                          (MethodInfo_34BDE00 *)
+                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
+      if (2 < (uint)__a->max_length) {
+        t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                      (__a->m_Items[2],
+                       (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+        if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+           (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+          local_28 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+          pIStack_20 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields.z;
+          local_38.x = (pCVar2->fields).Value.fields.x;
+          local_38.y = (pCVar2->fields).Value.fields.y;
+          local_38.z = (pCVar2->fields).Value.fields.z;
+          local_38.w = (pCVar2->fields).Value.fields.w;
+          method_00 = (MethodInfo *)&local_28;
+          q = UnityEngine_Quaternion__Internal_Lerp
+                        ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&local_38,t,
+                         (MethodInfo *)0x0);
+          pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+          return (Il2CppObject *)pCVar1;
         }
+        goto label_059b87e5;
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-label_181ee04b8:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__LerpUnclamped>b__9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__LerpUnclamped_b__9_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee05f0
+// 0x59b87f0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__LerpUnclamped_b__9_0
@@ -268,74 +252,68 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__L
   Il2CppObject *obj;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
+  MethodInfo *method_00;
   float t;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_38;
+  Il2CppMethodPointer pIStack_28;
+  Il2CppMethodPointer pIStack_20;
   
-  if (Il2CppMethodInitialized_1843451f8 == '\0') {
+  if (Il2CppMethodInitialized_07545b91 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f8 = '\x01';
+    Il2CppMethodInitialized_07545b91 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      obj = __a->m_Items[0];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (obj,(MethodInfo_66EB70 *)
-                              MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                         );
-      if (1 < (uint)__a->max_length) {
-        pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           (__a->m_Items[1],
-                            (MethodInfo_66EB70 *)
+  if (__a == (System_Object_array *)0x0) {
+label_059b88e5:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                           );
-        if (2 < (uint)__a->max_length) {
-          t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        (__a->m_Items[2],
-                         (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-          if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-             (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-            local_38.x = (pCVar2->fields).Value.fields.x;
-            local_38.y = (pCVar2->fields).Value.fields.y;
-            local_38.z = (pCVar2->fields).Value.fields.z;
-            local_38.w = (pCVar2->fields).Value.fields.w;
-            local_28.x = (pCVar1->fields).Value.fields.x;
-            local_28.y = (pCVar1->fields).Value.fields.y;
-            local_28.z = (pCVar1->fields).Value.fields.z;
-            local_28.w = (pCVar1->fields).Value.fields.w;
-            pUVar3 = UnityEngine_Quaternion__Internal_LerpUnclamped
-                               (&local_18,(UnityEngine_Quaternion_o *)&local_28,
-                                (UnityEngine_Quaternion_o *)&local_38,t,(MethodInfo *)0x0);
-            local_28.x = (pUVar3->fields).x;
-            local_28.y = (pUVar3->fields).y;
-            local_28.z = (pUVar3->fields).z;
-            local_28.w = (pUVar3->fields).w;
-            pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                               ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-            return (Il2CppObject *)pCVar1;
-          }
-          goto label_181ee0708;
+                       );
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                         (__a->m_Items[1],
+                          (MethodInfo_34BDE00 *)
+                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
+      if (2 < (uint)__a->max_length) {
+        t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                      (__a->m_Items[2],
+                       (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+        if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+           (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+          pIStack_28 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+          pIStack_20 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields.z;
+          UStack_38.x = (pCVar2->fields).Value.fields.x;
+          UStack_38.y = (pCVar2->fields).Value.fields.y;
+          UStack_38.z = (pCVar2->fields).Value.fields.z;
+          UStack_38.w = (pCVar2->fields).Value.fields.w;
+          method_00 = (MethodInfo *)&pIStack_28;
+          q = UnityEngine_Quaternion__Internal_LerpUnclamped
+                        ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_38,t,
+                         (MethodInfo *)0x0);
+          pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+          return (Il2CppObject *)pCVar1;
         }
+        goto label_059b88e5;
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-label_181ee0708:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__Slerp>b__10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Slerp_b__10_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee1d60
+// 0x59b88f0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Slerp_b__10_0
@@ -346,74 +324,68 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__S
   Il2CppObject *obj;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
+  MethodInfo *method_00;
   float t;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_38;
+  Il2CppMethodPointer pIStack_28;
+  Il2CppMethodPointer pIStack_20;
   
-  if (Il2CppMethodInitialized_1843451f9 == '\0') {
+  if (Il2CppMethodInitialized_07545b92 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f9 = '\x01';
+    Il2CppMethodInitialized_07545b92 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      obj = __a->m_Items[0];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (obj,(MethodInfo_66EB70 *)
-                              MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                         );
-      if (1 < (uint)__a->max_length) {
-        pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           (__a->m_Items[1],
-                            (MethodInfo_66EB70 *)
+  if (__a == (System_Object_array *)0x0) {
+label_059b89e5:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                           );
-        if (2 < (uint)__a->max_length) {
-          t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        (__a->m_Items[2],
-                         (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-          if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-             (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-            local_38.x = (pCVar2->fields).Value.fields.x;
-            local_38.y = (pCVar2->fields).Value.fields.y;
-            local_38.z = (pCVar2->fields).Value.fields.z;
-            local_38.w = (pCVar2->fields).Value.fields.w;
-            local_28.x = (pCVar1->fields).Value.fields.x;
-            local_28.y = (pCVar1->fields).Value.fields.y;
-            local_28.z = (pCVar1->fields).Value.fields.z;
-            local_28.w = (pCVar1->fields).Value.fields.w;
-            pUVar3 = UnityEngine_Quaternion__Internal_Slerp
-                               (&local_18,(UnityEngine_Quaternion_o *)&local_28,
-                                (UnityEngine_Quaternion_o *)&local_38,t,(MethodInfo *)0x0);
-            local_28.x = (pUVar3->fields).x;
-            local_28.y = (pUVar3->fields).y;
-            local_28.z = (pUVar3->fields).z;
-            local_28.w = (pUVar3->fields).w;
-            pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                               ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-            return (Il2CppObject *)pCVar1;
-          }
-          goto label_181ee1e78;
+                       );
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                         (__a->m_Items[1],
+                          (MethodInfo_34BDE00 *)
+                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
+      if (2 < (uint)__a->max_length) {
+        t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                      (__a->m_Items[2],
+                       (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+        if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+           (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+          pIStack_28 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+          pIStack_20 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields.z;
+          UStack_38.x = (pCVar2->fields).Value.fields.x;
+          UStack_38.y = (pCVar2->fields).Value.fields.y;
+          UStack_38.z = (pCVar2->fields).Value.fields.z;
+          UStack_38.w = (pCVar2->fields).Value.fields.w;
+          method_00 = (MethodInfo *)&pIStack_28;
+          q = UnityEngine_Quaternion__Internal_Slerp
+                        ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_38,t,
+                         (MethodInfo *)0x0);
+          pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+          return (Il2CppObject *)pCVar1;
         }
+        goto label_059b89e5;
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-label_181ee1e78:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__SlerpUnclamped>b__11_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__SlerpUnclamped_b__11_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee1e90
+// 0x59b89f0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__SlerpUnclamped_b__11_0
@@ -424,74 +396,68 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__S
   Il2CppObject *obj;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
+  MethodInfo *method_00;
   float t;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_38;
+  Il2CppMethodPointer pIStack_28;
+  Il2CppMethodPointer pIStack_20;
   
-  if (Il2CppMethodInitialized_1843451fa == '\0') {
+  if (Il2CppMethodInitialized_07545b93 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451fa = '\x01';
+    Il2CppMethodInitialized_07545b93 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      obj = __a->m_Items[0];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (obj,(MethodInfo_66EB70 *)
-                              MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                         );
-      if (1 < (uint)__a->max_length) {
-        pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           (__a->m_Items[1],
-                            (MethodInfo_66EB70 *)
+  if (__a == (System_Object_array *)0x0) {
+label_059b8ae5:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
-                           );
-        if (2 < (uint)__a->max_length) {
-          t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        (__a->m_Items[2],
-                         (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-          if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-             (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-            local_38.x = (pCVar2->fields).Value.fields.x;
-            local_38.y = (pCVar2->fields).Value.fields.y;
-            local_38.z = (pCVar2->fields).Value.fields.z;
-            local_38.w = (pCVar2->fields).Value.fields.w;
-            local_28.x = (pCVar1->fields).Value.fields.x;
-            local_28.y = (pCVar1->fields).Value.fields.y;
-            local_28.z = (pCVar1->fields).Value.fields.z;
-            local_28.w = (pCVar1->fields).Value.fields.w;
-            pUVar3 = UnityEngine_Quaternion__Internal_SlerpUnclamped
-                               (&local_18,(UnityEngine_Quaternion_o *)&local_28,
-                                (UnityEngine_Quaternion_o *)&local_38,t,(MethodInfo *)0x0);
-            local_28.x = (pUVar3->fields).x;
-            local_28.y = (pUVar3->fields).y;
-            local_28.z = (pUVar3->fields).z;
-            local_28.w = (pUVar3->fields).w;
-            pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                               ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-            return (Il2CppObject *)pCVar1;
-          }
-          goto label_181ee1fa8;
+                       );
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                         (__a->m_Items[1],
+                          (MethodInfo_34BDE00 *)
+                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
+      if (2 < (uint)__a->max_length) {
+        t = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                      (__a->m_Items[2],
+                       (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+        if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+           (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+          pIStack_28 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+          pIStack_20 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields.z;
+          UStack_38.x = (pCVar2->fields).Value.fields.x;
+          UStack_38.y = (pCVar2->fields).Value.fields.y;
+          UStack_38.z = (pCVar2->fields).Value.fields.z;
+          UStack_38.w = (pCVar2->fields).Value.fields.w;
+          method_00 = (MethodInfo *)&pIStack_28;
+          q = UnityEngine_Quaternion__Internal_SlerpUnclamped
+                        ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_38,t,
+                         (MethodInfo *)0x0);
+          pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+          return (Il2CppObject *)pCVar1;
         }
+        goto label_059b8ae5;
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-label_181ee1fa8:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__FromEuler>b__12_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__FromEuler_b__12_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181edf640
+// 0x59b8af0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__FromEuler_b__12_0
@@ -503,16 +469,16 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__F
   undefined4 uVar2;
   Il2CppObject *obj;
   CustomLogic_CustomLogicVector3Builtin_o *pCVar3;
-  UnityEngine_Quaternion_o *pUVar4;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar5;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar4;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Vector3_o local_18;
   
-  if (Il2CppMethodInitialized_1843451fb == '\0') {
+  if (Il2CppMethodInitialized_07545b94 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451fb = '\x01';
+    Il2CppMethodInitialized_07545b94 = '\x01';
   }
   if (__a != (System_Object_array *)0x0) {
     if ((int)__a->max_length == 0) {
@@ -523,23 +489,17 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__F
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
     pCVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                       (obj,(MethodInfo_66EB70 *)
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+    method_00 = (MethodInfo *)&local_18;
     if (pCVar3 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
       uVar1 = (pCVar3->fields).Value.fields.x;
       uVar2 = (pCVar3->fields).Value.fields.y;
-      local_28.y = (float)uVar2 * 0.017453292;
-      local_28.x = (float)uVar1 * 0.017453292;
-      local_28.z = (pCVar3->fields).Value.fields.z * 0.017453292;
-      pUVar4 = UnityEngine_Quaternion__Internal_FromEulerRad
-                         (&local_18,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
-      local_28.x = (pUVar4->fields).x;
-      local_28.y = (pUVar4->fields).y;
-      local_28.z = (pUVar4->fields).z;
-      local_28.w = (pUVar4->fields).w;
-      pCVar5 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                         ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-      return (Il2CppObject *)pCVar5;
+      local_18.fields._0_8_ = CONCAT44((float)uVar2 * 0.017453292,(float)uVar1 * 0.017453292);
+      local_18.fields.z = (pCVar3->fields).Value.fields.z * 0.017453292;
+      q = UnityEngine_Quaternion__Internal_FromEulerRad(&local_18,(MethodInfo *)0x0);
+      pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+      return (Il2CppObject *)pCVar4;
     }
   }
   ThrowNullReferenceException();
@@ -548,7 +508,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__F
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__LookRotation>b__13_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__LookRotation_b__13_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee0720
+// 0x59b8ba0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__LookRotation_b__13_0
@@ -556,129 +516,57 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__L
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  uint uVar1;
-  Il2CppObject *pIVar2;
-  UnityEngine_Vector3_StaticFields *pUVar3;
-  UnityEngine_Quaternion_StaticFields *pUVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  float fVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar12;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar13;
-  UnityEngine_Quaternion_o *pUVar14;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *__this_00;
-  UnityEngine_Vector3_Fields local_48;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Quaternion_o local_28 [2];
+  Il2CppObject *pIVar1;
+  CustomLogic_CustomLogicVector3Builtin_o *forward;
+  CustomLogic_CustomLogicVector3Builtin_o *upwards;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843451fc == '\0') {
+  if (Il2CppMethodInitialized_07545b95 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451fc = '\x01';
+    Il2CppMethodInitialized_07545b95 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length == 0) {
-label_181ee0935:
-      ThrowIndexOutOfRangeException();
-    }
-    pIVar2 = __a->m_Items[0];
+  if (__a == (System_Object_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  pIVar1 = __a->m_Items[0];
+  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+  }
+  forward = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                      (pIVar1,(MethodInfo_34BDE00 *)
+                              MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin)
+  ;
+  if ((int)__a->max_length < 2) {
+    upwards = (CustomLogic_CustomLogicVector3Builtin_o *)0x0;
+    method_00 = extraout_RDX;
+  }
+  else {
+    pIVar1 = __a->m_Items[1];
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    pCVar12 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                        (pIVar2,(MethodInfo_66EB70 *)
+    upwards = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                        (pIVar1,(MethodInfo_34BDE00 *)
                                 MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin
                         );
-    pCVar13 = (CustomLogic_CustomLogicVector3Builtin_o *)0x0;
-    uVar1 = (uint)__a->max_length;
-    if (1 < (int)uVar1) {
-      if (uVar1 < 2) goto label_181ee0935;
-      pIVar2 = __a->m_Items[1];
-      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-      }
-      pCVar13 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                          (pIVar2,(MethodInfo_66EB70 *)
-                                  MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin
-                          );
-    }
-    if (Il2CppMethodInitialized_1843451d3 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-      Il2CppMethodInitialized_1843451d3 = '\x01';
-    }
-    if (pCVar12 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-      if (pCVar13 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-        local_38.z = (pCVar12->fields).Value.fields.z;
-        local_38.x = (pCVar12->fields).Value.fields.x;
-        local_38.y = (pCVar12->fields).Value.fields.y;
-        local_48.x = 0.0;
-        local_48.y = 0.0;
-        local_48.z = 0.0;
-        if (Il2CppMethodInitialized_18433de5c == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433de5c = '\x01';
-        }
-        pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
-        local_48.x = (pUVar3->upVector).fields.x;
-        local_48.y = (pUVar3->upVector).fields.y;
-        local_48.z = (pUVar3->upVector).fields.z;
-      }
-      else {
-        local_48.x = (pCVar13->fields).Value.fields.x;
-        local_48.y = (pCVar13->fields).Value.fields.y;
-        local_48.z = (pCVar13->fields).Value.fields.z;
-        local_38.x = (pCVar12->fields).Value.fields.x;
-        local_38.y = (pCVar12->fields).Value.fields.y;
-        local_38.z = (pCVar12->fields).Value.fields.z;
-      }
-      pUVar14 = UnityEngine_Quaternion__Internal_LookRotation
-                          (local_28,(UnityEngine_Vector3_o *)&local_38,(UnityEngine_Vector3_o *)&local_48,
-                           (MethodInfo *)0x0);
-      fVar8 = (pUVar14->fields).x;
-      fVar9 = (pUVar14->fields).y;
-      fVar10 = (pUVar14->fields).z;
-      fVar11 = (pUVar14->fields).w;
-      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-      if (Il2CppMethodInitialized_1843451d2 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-        Il2CppMethodInitialized_1843451d2 = '\x01';
-      }
-      if (Il2CppMethodInitialized_18433de5b == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-        Il2CppMethodInitialized_18433de5b = '\x01';
-      }
-      pUVar4 = TypeInfo_UnityEngine_Quaternion->static_fields;
-      fVar5 = (pUVar4->identityQuaternion).fields.y;
-      fVar6 = (pUVar4->identityQuaternion).fields.z;
-      fVar7 = (pUVar4->identityQuaternion).fields.w;
-      (__this_00->fields).Value.fields.x = (pUVar4->identityQuaternion).fields.x;
-      (__this_00->fields).Value.fields.y = fVar5;
-      (__this_00->fields).Value.fields.z = fVar6;
-      (__this_00->fields).Value.fields.w = fVar7;
-      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-      }
-      CustomLogic_BuiltinClassInstance___ctor
-                ((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
-      (__this_00->fields).Value.fields.x = fVar8;
-      (__this_00->fields).Value.fields.y = fVar9;
-      (__this_00->fields).Value.fields.z = fVar10;
-      (__this_00->fields).Value.fields.w = fVar11;
-      return (Il2CppObject *)__this_00;
-    }
+    method_00 = extraout_RDX_00;
   }
-  ThrowNullReferenceException();
+  pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__LookRotation(forward,upwards,method_00);
+  return (Il2CppObject *)pCVar2;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__FromToRotation>b__14_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__FromToRotation_b__14_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181edf710
+// 0x59b8c60
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__FromToRotation_b__14_0
@@ -689,20 +577,21 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__F
   Il2CppObject *obj;
   CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
   CustomLogic_CustomLogicVector3Builtin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar4;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar3;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Vector3_Fields UStack_38;
+  Il2CppMethodPointer pIStack_28;
+  float fStack_20;
   
-  if (Il2CppMethodInitialized_1843451fd == '\0') {
+  if (Il2CppMethodInitialized_07545b96 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451fd = '\x01';
+    Il2CppMethodInitialized_07545b96 = '\x01';
   }
   if (__a == (System_Object_array *)0x0) {
-label_181edf7fe:
+label_059b8d42:
     ThrowNullReferenceException();
   }
   if ((int)__a->max_length != 0) {
@@ -711,33 +600,28 @@ label_181edf7fe:
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
     pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                       (obj,(MethodInfo_66EB70 *)
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
-    if (1 < (uint)__a->max_length) {
+    if ((__a->max_length & 0xfffffffe) != 0) {
       pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
                          (__a->m_Items[1],
-                          (MethodInfo_66EB70 *)
+                          (MethodInfo_34BDE00 *)
                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
       if ((pCVar1 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
          (pCVar2 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
-        local_38.x = (pCVar2->fields).Value.fields.x;
-        local_38.y = (pCVar2->fields).Value.fields.y;
-        local_38.z = (pCVar2->fields).Value.fields.z;
-        local_28.x = (pCVar1->fields).Value.fields.x;
-        local_28.y = (pCVar1->fields).Value.fields.y;
-        local_28.z = (pCVar1->fields).Value.fields.z;
-        pUVar3 = UnityEngine_Quaternion__Internal_FromToRotation
-                           (&local_18,(UnityEngine_Vector3_o *)&local_28,(UnityEngine_Vector3_o *)&local_38,
-                            (MethodInfo *)0x0);
-        local_28.x = (pUVar3->fields).x;
-        local_28.y = (pUVar3->fields).y;
-        local_28.z = (pUVar3->fields).z;
-        local_28.w = (pUVar3->fields).w;
-        pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                           ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-        return (Il2CppObject *)pCVar4;
+        fStack_20 = (pCVar1->fields).Value.fields.z;
+        pIStack_28 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+        UStack_38.x = (pCVar2->fields).Value.fields.x;
+        UStack_38.y = (pCVar2->fields).Value.fields.y;
+        UStack_38.z = (pCVar2->fields).Value.fields.z;
+        method_00 = (MethodInfo *)&pIStack_28;
+        q = UnityEngine_Quaternion__Internal_FromToRotation
+                      ((UnityEngine_Vector3_o *)method_00,(UnityEngine_Vector3_o *)&UStack_38,
+                       (MethodInfo *)0x0);
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+        return (Il2CppObject *)pCVar3;
       }
-      goto label_181edf7fe;
+      goto label_059b8d42;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -746,7 +630,7 @@ label_181edf7fe:
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__Inverse>b__15_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Inverse_b__15_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181edfca0
+// 0x59b8d50
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Inverse_b__15_0
@@ -756,15 +640,15 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__I
 {
   Il2CppObject *obj;
   CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
-  UnityEngine_Quaternion_o *pUVar2;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  undefined1 local_18 [16];
   
-  if (Il2CppMethodInitialized_1843451fe == '\0') {
+  if (Il2CppMethodInitialized_07545b97 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451fe = '\x01';
+    Il2CppMethodInitialized_07545b97 = '\x01';
   }
   if (__a != (System_Object_array *)0x0) {
     if ((int)__a->max_length == 0) {
@@ -775,22 +659,15 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__I
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
     pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                       (obj,(MethodInfo_66EB70 *)
+                       (obj,(MethodInfo_34BDE00 *)
                             MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
                        );
+    method_00 = (MethodInfo *)local_18;
     if (pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-      local_28.x = (pCVar1->fields).Value.fields.x;
-      local_28.y = (pCVar1->fields).Value.fields.y;
-      local_28.z = (pCVar1->fields).Value.fields.z;
-      local_28.w = (pCVar1->fields).Value.fields.w;
-      pUVar2 = UnityEngine_Quaternion__Internal_Inverse
-                         (&local_18,(UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-      local_28.x = (pUVar2->fields).x;
-      local_28.y = (pUVar2->fields).y;
-      local_28.z = (pUVar2->fields).z;
-      local_28.w = (pUVar2->fields).w;
-      pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                         ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
+      local_18._0_8_ = *(undefined8 *)&(pCVar1->fields).Value.fields;
+      local_18._8_8_ = *(undefined8 *)&(pCVar1->fields).Value.fields.z;
+      q = UnityEngine_Quaternion__Internal_Inverse((UnityEngine_Quaternion_o *)local_18,(MethodInfo *)0x0);
+      pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
       return (Il2CppObject *)pCVar1;
     }
   }
@@ -800,7 +677,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__I
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__RotateTowards>b__16_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__RotateTowards_b__16_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee16f0
+// 0x59b8df0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__RotateTowards_b__16_0
@@ -808,93 +685,114 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__R
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  Il2CppObject *obj;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_o *pUVar3;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  float fVar3;
   float fVar4;
-  float fVar5;
-  UnityEngine_Quaternion_o local_58;
-  UnityEngine_Quaternion_o local_48;
-  UnityEngine_Quaternion_o local_38 [3];
+  undefined4 uVar5;
+  undefined4 uVar6;
+  float fVar7;
+  float fVar8;
+  Il2CppObject *obj;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar9;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar10;
+  MethodInfo *method_00;
+  float fVar11;
+  float fVar12;
+  UnityEngine_Quaternion_o UVar13;
+  UnityEngine_Quaternion_Fields UStack_40;
+  Il2CppMethodPointer pIStack_30;
+  Il2CppMethodPointer pIStack_28;
   
-  if (Il2CppMethodInitialized_1843451ff == '\0') {
+  if (Il2CppMethodInitialized_07545b98 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451ff = '\x01';
+    Il2CppMethodInitialized_07545b98 = '\x01';
   }
   if (__a == (System_Object_array *)0x0) {
-label_181ee18c9:
+label_059b8f9f:
     ThrowNullReferenceException();
   }
-  if ((int)__a->max_length == 0) {
-label_181ee18cf:
-    ThrowIndexOutOfRangeException();
-  }
-  obj = __a->m_Items[0];
-  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
-  }
-  pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (obj,(MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
-  if (((uint)__a->max_length < 2) ||
-     (pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (__a->m_Items[1],
-                          (MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin),
-     (uint)__a->max_length < 3)) goto label_181ee18cf;
-  fVar4 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__a->m_Items[2],
-                     (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-  if ((pCVar1 == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
-     (pCVar2 == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) goto label_181ee18c9;
-  local_58.fields.x = (pCVar2->fields).Value.fields.x;
-  local_58.fields.y = (pCVar2->fields).Value.fields.y;
-  local_58.fields.z = (pCVar2->fields).Value.fields.z;
-  local_58.fields.w = (pCVar2->fields).Value.fields.w;
-  local_48.fields.x = (pCVar1->fields).Value.fields.x;
-  local_48.fields.y = (pCVar1->fields).Value.fields.y;
-  local_48.fields.z = (pCVar1->fields).Value.fields.z;
-  local_48.fields.w = (pCVar1->fields).Value.fields.w;
-  fVar5 = ABS(local_58.fields.y * local_48.fields.y + local_58.fields.x * local_48.fields.x +
-              local_58.fields.z * local_48.fields.z + local_58.fields.w * local_48.fields.w);
-  if (1.0 <= fVar5) {
-    fVar5 = 1.0;
-  }
-  if (fVar5 <= 0.999999) {
-    fVar5 = (float)il2cpp_runtime_helper_1804f6310(fVar5);
-    fVar5 = (fVar5 + fVar5) * 57.29578;
-    if (fVar5 != 0.0) {
-      fVar4 = fVar4 / fVar5;
-      fVar5 = 1.0;
-      if (fVar4 <= 1.0) {
-        fVar5 = fVar4;
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    pCVar9 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_34BDE00 *)
+                            MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
+                       );
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                          (__a->m_Items[1],
+                           (MethodInfo_34BDE00 *)
+                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin)
+      ;
+      if (2 < (uint)__a->max_length) {
+        method_00 = (MethodInfo *)__a->m_Items[2];
+        fVar11 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                           ((Il2CppObject *)method_00,
+                            (MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float)
+        ;
+        if ((pCVar9 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+           (pCVar10 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+          uVar1 = (pCVar9->fields).Value.fields.x;
+          uVar5 = (pCVar9->fields).Value.fields.y;
+          uVar2 = (pCVar9->fields).Value.fields.z;
+          uVar6 = (pCVar9->fields).Value.fields.w;
+          fVar3 = (pCVar10->fields).Value.fields.x;
+          fVar7 = (pCVar10->fields).Value.fields.y;
+          fVar4 = (pCVar10->fields).Value.fields.z;
+          fVar8 = (pCVar10->fields).Value.fields.w;
+          pIStack_30 = *(Il2CppMethodPointer *)&(pCVar9->fields).Value.fields;
+          pIStack_28 = *(Il2CppMethodPointer *)&(pCVar9->fields).Value.fields.z;
+          UStack_40.x = (pCVar10->fields).Value.fields.x;
+          UStack_40.y = (pCVar10->fields).Value.fields.y;
+          UStack_40.z = (pCVar10->fields).Value.fields.z;
+          UStack_40.w = (pCVar10->fields).Value.fields.w;
+          fVar12 = ABS((float)uVar6 * fVar8 +
+                       (float)uVar5 * fVar7 + (float)uVar1 * fVar3 + (float)uVar2 * fVar4);
+          if (1.0 <= fVar12) {
+            fVar12 = 1.0;
+          }
+          if (fVar12 <= 0.999999) {
+            fVar12 = acosf(fVar12);
+            fVar12 = (fVar12 + fVar12) * 57.29578;
+            if ((fVar12 != 0.0) || (NAN(fVar12))) {
+              fVar3 = 1.0;
+              if (fVar11 / fVar12 <= 1.0) {
+                fVar3 = fVar11 / fVar12;
+              }
+              method_00 = (MethodInfo *)&pIStack_30;
+              UVar13 = UnityEngine_Quaternion__Internal_SlerpUnclamped
+                                 ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_40
+                                  ,fVar3,(MethodInfo *)0x0);
+              fVar4 = UVar13.fields.z;
+              fVar8 = UVar13.fields.w;
+              fVar3 = UVar13.fields.x;
+              fVar7 = UVar13.fields.y;
+            }
+          }
+          UVar13.fields.y = fVar7;
+          UVar13.fields.x = fVar3;
+          UVar13.fields.w = fVar8;
+          UVar13.fields.z = fVar4;
+          pCVar9 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(UVar13,method_00);
+          return (Il2CppObject *)pCVar9;
+        }
+        goto label_059b8f9f;
       }
-      pUVar3 = UnityEngine_Quaternion__Internal_SlerpUnclamped
-                         (local_38,&local_48,&local_58,fVar5,(MethodInfo *)0x0);
-      local_48.fields.x = (pUVar3->fields).x;
-      local_48.fields.y = (pUVar3->fields).y;
-      local_48.fields.z = (pUVar3->fields).z;
-      local_48.fields.w = (pUVar3->fields).w;
-      goto label_181ee1894;
     }
   }
-  local_48.fields.x = (pCVar2->fields).Value.fields.x;
-  local_48.fields.y = (pCVar2->fields).Value.fields.y;
-  local_48.fields.z = (pCVar2->fields).Value.fields.z;
-  local_48.fields.w = (pCVar2->fields).Value.fields.w;
-label_181ee1894:
-  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00(&local_48,(MethodInfo *)0x0);
-  return (Il2CppObject *)pCVar1;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__AngleAxis>b__17_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__AngleAxis_b__17_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ede730
+// 0x59b8fb0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__AngleAxis_b__17_0
@@ -904,21 +802,22 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__A
 {
   Il2CppObject *obj;
   CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
-  UnityEngine_Quaternion_o *pUVar2;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar3;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
+  MethodInfo *method_00;
   float angle;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_o local_28 [2];
+  UnityEngine_Quaternion_o q;
+  Il2CppMethodPointer pIStack_20;
+  float fStack_18;
   
-  if (Il2CppMethodInitialized_184345200 == '\0') {
+  if (Il2CppMethodInitialized_07545b99 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184345200 = '\x01';
+    Il2CppMethodInitialized_07545b99 = '\x01';
   }
   if (__a == (System_Object_array *)0x0) {
-label_181ede81b:
+label_059b908b:
     ThrowNullReferenceException();
   }
   if ((int)__a->max_length != 0) {
@@ -927,27 +826,22 @@ label_181ede81b:
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
     angle = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                      (obj,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-    if (1 < (uint)__a->max_length) {
+                      (obj,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    if ((__a->max_length & 0xfffffffe) != 0) {
       pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
                          (__a->m_Items[1],
-                          (MethodInfo_66EB70 *)
+                          (MethodInfo_34BDE00 *)
                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
       if (pCVar1 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-        local_38.x = (pCVar1->fields).Value.fields.x;
-        local_38.y = (pCVar1->fields).Value.fields.y;
-        local_38.z = (pCVar1->fields).Value.fields.z;
-        pUVar2 = UnityEngine_Quaternion__Internal_AngleAxis
-                           (local_28,angle,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
-        local_38.x = (pUVar2->fields).x;
-        local_38.y = (pUVar2->fields).y;
-        local_38.z = (pUVar2->fields).z;
-        local_38.w = (pUVar2->fields).w;
-        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                           ((UnityEngine_Quaternion_o *)&local_38,(MethodInfo *)0x0);
-        return (Il2CppObject *)pCVar3;
+        pIStack_20 = *(Il2CppMethodPointer *)&(pCVar1->fields).Value.fields;
+        fStack_18 = (pCVar1->fields).Value.fields.z;
+        method_00 = (MethodInfo *)&pIStack_20;
+        q = UnityEngine_Quaternion__Internal_AngleAxis
+                      (angle,(UnityEngine_Vector3_o *)method_00,(MethodInfo *)0x0);
+        pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+        return (Il2CppObject *)pCVar2;
       }
-      goto label_181ede81b;
+      goto label_059b908b;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -956,7 +850,7 @@ label_181ede81b:
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding__Angle>b__18_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Angle_b__18_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181edea40
+// 0x59b90a0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__Angle_b__18_0
@@ -964,56 +858,69 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding__A
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  Il2CppObject *pIVar3;
-  float fVar4;
-  float local_res18 [4];
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar9;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar10;
+  Il2CppObject *pIVar11;
+  float fVar12;
+  float fStack_1c;
   
-  if (Il2CppMethodInitialized_184345201 == '\0') {
+  if (Il2CppMethodInitialized_07545b9a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_184345201 = '\x01';
+    Il2CppMethodInitialized_07545b9a = '\x01';
   }
   if (__a == (System_Object_array *)0x0) {
-label_181edeb67:
+label_059b91ca:
     ThrowNullReferenceException();
   }
   if ((int)__a->max_length != 0) {
-    pIVar3 = __a->m_Items[0];
+    pIVar11 = __a->m_Items[0];
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                       (pIVar3,(MethodInfo_66EB70 *)
-                               MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
+    pCVar9 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (pIVar11,(MethodInfo_34BDE00 *)
+                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin
                        );
-    if (1 < (uint)__a->max_length) {
-      pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                         (__a->m_Items[1],
-                          (MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin);
-      if ((pCVar1 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-         (pCVar2 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-        fVar4 = ABS((pCVar2->fields).Value.fields.y * (pCVar1->fields).Value.fields.y +
-                    (pCVar1->fields).Value.fields.x * (pCVar2->fields).Value.fields.x +
-                    (pCVar2->fields).Value.fields.z * (pCVar1->fields).Value.fields.z +
-                    (pCVar2->fields).Value.fields.w * (pCVar1->fields).Value.fields.w);
-        if (1.0 <= fVar4) {
-          fVar4 = 1.0;
+    if ((__a->max_length & 0xfffffffe) != 0) {
+      pCVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                          (__a->m_Items[1],
+                           (MethodInfo_34BDE00 *)
+                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicQuaternionBuiltin)
+      ;
+      if ((pCVar9 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
+         (pCVar10 != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+        uVar1 = (pCVar9->fields).Value.fields.x;
+        uVar5 = (pCVar9->fields).Value.fields.y;
+        uVar2 = (pCVar9->fields).Value.fields.z;
+        uVar6 = (pCVar9->fields).Value.fields.w;
+        uVar3 = (pCVar10->fields).Value.fields.x;
+        uVar7 = (pCVar10->fields).Value.fields.y;
+        uVar4 = (pCVar10->fields).Value.fields.z;
+        uVar8 = (pCVar10->fields).Value.fields.w;
+        fVar12 = ABS((float)uVar8 * (float)uVar6 +
+                     (float)uVar7 * (float)uVar5 + (float)uVar3 * (float)uVar1 + (float)uVar4 * (float)uVar2);
+        if (1.0 <= fVar12) {
+          fVar12 = 1.0;
         }
-        if (fVar4 <= 0.999999) {
-          fVar4 = (float)il2cpp_runtime_helper_1804f6310(fVar4);
-          local_res18[0] = (fVar4 + fVar4) * 57.29578;
+        fStack_1c = 0.0;
+        if (fVar12 <= 0.999999) {
+          fVar12 = acosf(fVar12);
+          fStack_1c = (fVar12 + fVar12) * 57.29578;
         }
-        else {
-          local_res18[0] = 0.0;
-        }
-        pIVar3 = il2cpp_value_box(g_data_184354e38,local_res18);
-        return pIVar3;
+        pIVar11 = il2cpp_vm_Object_Box(g_data_07556740,&fStack_1c);
+        return pIVar11;
       }
-      goto label_181edeb67;
+      goto label_059b91ca;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -1022,7 +929,7 @@ label_181edeb67:
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding____Copy__>b__19_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Copy___b__19_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee27a0
+// 0x59b91e0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Copy___b__19_0
@@ -1030,60 +937,61 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding___
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
   UnityEngine_Quaternion_StaticFields *pUVar5;
   float fVar6;
   float fVar7;
   float fVar8;
   CustomLogic_CustomLogicQuaternionBuiltin_o *__this_00;
+  float local_18;
+  float fStack_14;
   
-  if (__c != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843451d4 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-      Il2CppMethodInitialized_1843451d4 = '\x01';
-    }
-    fVar1 = (__c->fields).Value.fields.x;
-    fVar2 = (__c->fields).Value.fields.y;
-    fVar3 = (__c->fields).Value.fields.z;
-    fVar4 = (__c->fields).Value.fields.w;
-    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    if (Il2CppMethodInitialized_1843451d2 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-      Il2CppMethodInitialized_1843451d2 = '\x01';
-    }
-    if (Il2CppMethodInitialized_18433de5b == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-      Il2CppMethodInitialized_18433de5b = '\x01';
-    }
-    pUVar5 = TypeInfo_UnityEngine_Quaternion->static_fields;
-    fVar6 = (pUVar5->identityQuaternion).fields.y;
-    fVar7 = (pUVar5->identityQuaternion).fields.z;
-    fVar8 = (pUVar5->identityQuaternion).fields.w;
-    (__this_00->fields).Value.fields.x = (pUVar5->identityQuaternion).fields.x;
-    (__this_00->fields).Value.fields.y = fVar6;
-    (__this_00->fields).Value.fields.z = fVar7;
-    (__this_00->fields).Value.fields.w = fVar8;
-    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-    }
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0)
-    ;
-    (__this_00->fields).Value.fields.x = fVar1;
-    (__this_00->fields).Value.fields.y = fVar2;
-    (__this_00->fields).Value.fields.z = fVar3;
-    (__this_00->fields).Value.fields.w = fVar4;
-    return (Il2CppObject *)__this_00;
+  if (__c == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if (Il2CppMethodInitialized_07545b6d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
+    Il2CppMethodInitialized_07545b6d = '\x01';
+  }
+  uVar1 = (__c->fields).Value.fields.x;
+  uVar3 = (__c->fields).Value.fields.y;
+  uVar2 = (__c->fields).Value.fields.z;
+  uVar4 = (__c->fields).Value.fields.w;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
+  if (Il2CppMethodInitialized_07545b6b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_07545b6b = '\x01';
+  }
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+    Il2CppMethodInitialized_0753e72b = '\x01';
+  }
+  pUVar5 = TypeInfo_UnityEngine_Quaternion->static_fields;
+  fVar6 = (pUVar5->identityQuaternion).fields.y;
+  fVar7 = (pUVar5->identityQuaternion).fields.z;
+  fVar8 = (pUVar5->identityQuaternion).fields.w;
+  (__this_00->fields).Value.fields.x = (pUVar5->identityQuaternion).fields.x;
+  (__this_00->fields).Value.fields.y = fVar6;
+  (__this_00->fields).Value.fields.z = fVar7;
+  (__this_00->fields).Value.fields.w = fVar8;
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+  }
+  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).Value.fields.x = (float)uVar1;
+  (__this_00->fields).Value.fields.y = (float)uVar3;
+  (__this_00->fields).Value.fields.z = (float)uVar2;
+  (__this_00->fields).Value.fields.w = (float)uVar4;
+  return (Il2CppObject *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding____Mul__>b__20_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Mul___b__20_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee31e0
+// 0x59b92c0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Mul___b__20_0
@@ -1091,16 +999,19 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding___
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
+  int iVar1;
+  Il2CppObject *pIVar2;
   
   if (__a != (System_Object_array *)0x0) {
-    if (((int)__a->max_length == 0) || ((uint)__a->max_length < 2)) {
+    iVar1 = (int)__a->max_length;
+    if ((iVar1 == 0) || (iVar1 == 1)) {
       ThrowIndexOutOfRangeException();
     }
     if (__c != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-      pIVar1 = CustomLogic_CustomLogicQuaternionBuiltin____Mul__
-                         (__c,__a->m_Items[0],__a->m_Items[1],(MethodInfo *)0x0);
-      return pIVar1;
+      pIVar2 = CustomLogic_CustomLogicQuaternionBuiltin____Mul__
+                         ((CustomLogic_CustomLogicQuaternionBuiltin_o *)__this,__a->m_Items[0],__a->m_Items[1]
+                          ,method);
+      return pIVar2;
     }
   }
   ThrowNullReferenceException();
@@ -1109,7 +1020,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding___
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding____Eq__>b__21_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Eq___b__21_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee2c30
+// 0x59b92f0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Eq___b__21_0
@@ -1118,54 +1029,61 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding___
 
 {
   byte bVar1;
-  Il2CppObject *pIVar2;
-  Il2CppObject *pIVar3;
-  undefined1 local_res18 [16];
+  int iVar2;
+  bool bVar3;
+  undefined8 in_RAX;
+  Il2CppObject *pIVar4;
+  Il2CppObject *pIVar5;
+  undefined8 uStack_18;
   
   if (__a == (System_Object_array *)0x0) {
-label_181ee2d4d:
+label_059b93f6:
     ThrowNullReferenceException();
   }
-  if (((int)__a->max_length == 0) || ((uint)__a->max_length < 2)) {
+  iVar2 = (int)__a->max_length;
+  if ((iVar2 == 0) || (iVar2 == 1)) {
     ThrowIndexOutOfRangeException();
   }
-  if (__c == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) goto label_181ee2d4d;
-  pIVar3 = __a->m_Items[1];
-  pIVar2 = __a->m_Items[0];
-  if (Il2CppMethodInitialized_1843451d6 == '\0') {
+  if (__c == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) goto label_059b93f6;
+  pIVar4 = __a->m_Items[0];
+  pIVar5 = __a->m_Items[1];
+  uStack_18 = in_RAX;
+  if (Il2CppMethodInitialized_07545b6f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d6 = '\x01';
+    Il2CppMethodInitialized_07545b6f = '\x01';
   }
-  if (pIVar3 != (Il2CppObject *)0x0) {
+  if (pIVar5 != (Il2CppObject *)0x0) {
     bVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-    if (((bVar1 <= (pIVar3->klass->_2).typeHierarchyDepth) &&
-        ((pIVar3->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-         (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) && (pIVar2 != (Il2CppObject *)0x0)
-       ) {
-      bVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-      if ((bVar1 <= (pIVar2->klass->_2).typeHierarchyDepth) &&
-         ((pIVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+    if (bVar1 <= (pIVar5->klass->_2).typeHierarchyDepth) {
+      bVar3 = false;
+      if ((pIVar5->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin) {
+        pIVar5 = (Il2CppObject *)0x0;
+      }
+      if ((pIVar4 == (Il2CppObject *)0x0) || (pIVar5 == (Il2CppObject *)0x0)) goto label_059b9396;
+      if ((bVar1 <= (pIVar4->klass->_2).typeHierarchyDepth) &&
+         ((pIVar4->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
           (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) {
-        local_res18[0] =
-             0.999999 <
-             *(float *)((longlong)&pIVar3[3].klass + 4) * *(float *)((longlong)&pIVar2[3].klass + 4) +
-             *(float *)&pIVar2[3].klass * *(float *)&pIVar3[3].klass +
-             *(float *)&pIVar3[3].monitor * *(float *)&pIVar2[3].monitor +
-             *(float *)((longlong)&pIVar3[3].monitor + 4) * *(float *)((longlong)&pIVar2[3].monitor + 4);
-        goto label_181ee2d29;
+        bVar3 = 0.999999 <
+                (float)((ulong)pIVar5[3].monitor >> 0x20) * (float)((ulong)pIVar4[3].monitor >> 0x20) +
+                (float)((ulong)pIVar5[3].klass >> 0x20) * (float)((ulong)pIVar4[3].klass >> 0x20) +
+                SUB84(pIVar5[3].klass,0) * SUB84(pIVar4[3].klass,0) +
+                SUB84(pIVar5[3].monitor,0) * SUB84(pIVar4[3].monitor,0);
+        goto label_059b9396;
       }
     }
   }
-  local_res18[0] = false;
-label_181ee2d29:
-  pIVar3 = il2cpp_value_box(g_data_184354de8,local_res18);
-  return pIVar3;
+  bVar3 = false;
+label_059b9396:
+  uStack_18 = CONCAT17(bVar3,(undefined7)uStack_18);
+  pIVar4 = il2cpp_vm_Object_Box(g_data_075566f0,(void *)((long)&uStack_18 + 7));
+  return pIVar4;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings.<>c$$<__CreateMethodBinding____Hash__>b__22_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Hash___b__22_0 (CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicQuaternionBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181ee30a0
+// 0x59b9400
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding____Hash___b__22_0
@@ -1173,51 +1091,42 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_____CreateMethodBinding___
           CustomLogic_CustomLogicQuaternionBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  uint uVar1;
-  int32_t iVar2;
-  int32_t iVar3;
-  uint uVar4;
-  Il2CppObject *pIVar5;
-  uint local_res10 [2];
+  Il2CppObject *pIVar1;
+  undefined1 auStack_24 [4];
   
-  if (__c != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    uVar1 = System_Single__GetHashCode((float *)&(__c->fields).Value,(MethodInfo *)0x0);
-    iVar2 = System_Single__GetHashCode(&(__c->fields).Value.fields.y,(MethodInfo *)0x0);
-    iVar3 = System_Single__GetHashCode(&(__c->fields).Value.fields.z,(MethodInfo *)0x0);
-    uVar4 = System_Single__GetHashCode(&(__c->fields).Value.fields.w,(MethodInfo *)0x0);
-    local_res10[0] = (int)(uVar4 ^ iVar3 >> 1) >> 1 ^ iVar2 * 4 ^ uVar1;
-    pIVar5 = il2cpp_value_box(g_data_184354e08,local_res10);
-    return pIVar5;
+  if (__c == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Single__GetHashCode((float *)&(__c->fields).Value,(MethodInfo *)0x0);
+  System_Single__GetHashCode(&(__c->fields).Value.fields.y,(MethodInfo *)0x0);
+  System_Single__GetHashCode(&(__c->fields).Value.fields.z,(MethodInfo *)0x0);
+  System_Single__GetHashCode(&(__c->fields).Value.fields.w,(MethodInfo *)0x0);
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556710,auStack_24);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x181ebd770
+// 0x59b5f50
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings__CreateMemberBinding
           (System_String_o *name,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  bool bVar2;
-  uint32_t uVar3;
-  System_Func_CustomLogicQuaternionBuiltin__object__o *__this;
-  CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_00;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this_01;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *__this_02;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_03;
-  System_String_o *pSVar4;
-  System_String_o *str0;
+  bool bVar1;
+  uint32_t uVar2;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *pCVar3;
+  CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *pCVar4;
+  System_String_o *pSVar5;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_Exception_o *__this_04;
-  MethodInfo *pMVar5;
-  System_Func_CustomLogicQuaternionBuiltin__object____object__o **targetAddress;
+  System_Exception_o *__this;
+  MethodInfo *lastManagedFrame;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c *pCVar6;
   
-  if (Il2CppMethodInitialized_1843451da == '\0') {
+  if (Il2CppMethodInitialized_07545b73 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&"FromToRotation");
     il2cpp_codegen_initialize_runtime_metadata(&"__Copy__");
@@ -1240,1077 +1149,330 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings__CreateMemberBinding
     il2cpp_codegen_initialize_runtime_metadata(&"AngleAxis");
     il2cpp_codegen_initialize_runtime_metadata(&"RotateTowards");
     il2cpp_codegen_initialize_runtime_metadata(&"Angle");
-    Il2CppMethodInitialized_1843451da = '\x01';
+    Il2CppMethodInitialized_07545b73 = '\x01';
   }
-  uVar3 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar3 < 0x91ba4e13) {
-    if (uVar3 < 0x39c493b9) {
-      if (uVar3 < 0x18c37b42) {
-        if (uVar3 == 0x18535612) {
-          bVar2 = System_String__op_Equality(name,"Euler",(MethodInfo *)0x0);
-          if (!bVar2) goto label_181ebef0f;
+  uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
+  if (uVar2 < 0x91ba4e13) {
+    if (uVar2 < 0x39c493b9) {
+      if (uVar2 < 0x18c37b42) {
+        if (uVar2 == 0x18535612) {
+          bVar1 = System_String__op_Equality(name,"Euler",(MethodInfo *)0x0);
+          if (bVar1) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+            if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor ==
+                0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+            }
+            pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Euler
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+          }
+        }
+        else if (uVar2 == 0x18c37b41) {
+          bVar1 = System_String__op_Equality(name,"__Mul__",(MethodInfo *)0x0);
+          if (bVar1) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+            if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor ==
+                0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+            }
+            pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Mul__
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+          }
+        }
+      }
+      else if (uVar2 == 0x27b48c82) {
+        bVar1 = System_String__op_Equality(name,"FromEuler",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
           if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
              ) {
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
           }
-          if (Il2CppMethodInitialized_1843451df == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____getter_6_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____setter_6_1
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-            Il2CppMethodInitialized_1843451df = '\x01';
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromEuler
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+      else if (uVar2 == 0x39907617) {
+        bVar1 = System_String__op_Equality(name,"Slerp",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
           }
-          __this = il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-          System_Func_object__object____ctor
-                    ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                     (intptr_t)
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____getter_6_0
-                     ,(MethodInfo_16E67D0 *)0x0);
-          __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-          pMVar5 = 
-          MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____setter_6_1
-          ;
-          goto label_181ebdd55;
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Slerp
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (uVar3 != 0x18c37b41) goto label_181ebef0f;
-        bVar2 = System_String__op_Equality(name,"__Mul__",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843451ed == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Mul___b__20_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451ed = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Mul___b__20_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0;
       }
-      else if (uVar3 == 0x27b48c82) {
-        bVar2 = System_String__op_Equality(name,"FromEuler",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+      else if (uVar2 == 0x39c493b8) {
+        bVar1 = System_String__op_Equality(name,"Angle",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Angle
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843451e5 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromEuler_b__12_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451e5 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromEuler_b__12_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0;
-      }
-      else if (uVar3 == 0x39907617) {
-        bVar2 = System_String__op_Equality(name,"Slerp",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843451e3 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Slerp_b__10_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451e3 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Slerp_b__10_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0;
-      }
-      else {
-        if (uVar3 != 0x39c493b8) goto label_181ebef0f;
-        bVar2 = System_String__op_Equality(name,"Angle",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843451eb == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Angle_b__18_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451eb = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Angle_b__18_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0;
       }
     }
-    else if (uVar3 < 0x549f4d11) {
-      if (uVar3 == 0x3c0ea91a) {
-        bVar2 = System_String__op_Equality(name,"RotateTowards",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+    else if (uVar2 < 0x549f4d11) {
+      if (uVar2 == 0x3c0ea91a) {
+        bVar1 = System_String__op_Equality(name,"RotateTowards",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__RotateTowards
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+      else if (uVar2 == 0x549f4d10) {
+        bVar1 = System_String__op_Equality(name,"__Copy__",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Copy__
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+        }
+      }
+    }
+    else if (uVar2 == 0x91ba4e12) {
+      bVar1 = System_String__op_Equality(name,"FromToRotation",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451e9 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__RotateTowards_b__16_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451e9 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__RotateTowards_b__16_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0;
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromToRotation
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
-      else {
-        if (uVar3 != 0x549f4d10) goto label_181ebef0f;
-        bVar2 = System_String__op_Equality(name,"__Copy__",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+    }
+    else if (uVar2 == 0x6a4c91d6) {
+      bVar1 = System_String__op_Equality(name,"SlerpUnclamped",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451ec == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Copy___b__19_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451ec = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__SlerpUnclamped
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+    else if (uVar2 == 0x792a6491) {
+      bVar1 = System_String__op_Equality(name,"__Hash__",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
           il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Copy___b__19_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0;
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Hash__
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
-    }
-    else if (uVar3 == 0x6a4c91d6) {
-      bVar2 = System_String__op_Equality(name,"SlerpUnclamped",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451e4 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__SlerpUnclamped_b__11
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451e4 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__SlerpUnclamped_b__11
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0;
-    }
-    else if (uVar3 == 0x792a6491) {
-      bVar2 = System_String__op_Equality(name,"__Hash__",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451ef == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Hash___b__22_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451ef = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Hash___b__22_0
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0;
-    }
-    else {
-      if (uVar3 != 0x91ba4e12) goto label_181ebef0f;
-      bVar2 = System_String__op_Equality(name,"FromToRotation",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451e7 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromToRotation_b__14
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451e7 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromToRotation_b__14
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0;
     }
   }
-  else if (uVar3 < 0xd20c0cd7) {
-    if (uVar3 < 0x9e956089) {
-      if (uVar3 == 0x91efe6d7) {
-        bVar2 = System_String__op_Equality(name,"__Eq__",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+  else if (uVar2 < 0xd20c0cd7) {
+    if (uVar2 < 0x9e956089) {
+      if (uVar2 == 0x91efe6d7) {
+        bVar1 = System_String__op_Equality(name,"__Eq__",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Eq__
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843451ee == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Eq___b__21_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451ee = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Eq___b__21_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress =
-             &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0;
       }
-      else {
-        if (uVar3 != 0x9e956088) {
-label_181ebef0f:
-          pSVar4 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicQuaternionBuiltin not found");
-          str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
-          pSVar4 = System_String__Concat_1969b70(str0,name,pSVar4,(MethodInfo *)0x0);
-          klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-          __this_04 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-          System_Exception___ctor_1b6abf0(__this_04,pSVar4,(MethodInfo *)0x0);
-          pMVar5 = il2cpp_codegen_get_runtime_metadata
-                             (&
-                              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_CreateMemberBinding
-                             );
-          il2cpp_codegen_raise_exception((Il2CppObject *)__this_04,pMVar5);
+      else if (uVar2 == 0x9e956088) {
+        bVar1 = System_String__op_Equality(name,"Lerp",(MethodInfo *)0x0);
+        if (bVar1) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+          if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0
+             ) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+          }
+          pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Lerp
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        bVar2 = System_String__op_Equality(name,"Lerp",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
-        {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-        }
-        if (Il2CppMethodInitialized_1843451e1 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Lerp_b__8_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843451e1 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0;
-        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0
-           ) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        }
-        pIVar1 = (Il2CppObject *)
-                 TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)
-                               TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        System_Func_object__object__object____ctor
-                  (__this_01,pIVar1,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Lerp_b__8_0
-                   ,(MethodInfo *)0x0);
-        TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0 =
-             (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-        targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0
-        ;
       }
     }
-    else if (uVar3 == 0xbcf8f25c) {
-      bVar2 = System_String__op_Equality(name,"LookRotation",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451e6 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LookRotation_b__13_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451e6 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LookRotation_b__13_0
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0;
-    }
-    else {
-      if (uVar3 != 0xc95e1923) {
-        if (uVar3 != 0xd20c0cd6) goto label_181ebef0f;
-        bVar2 = System_String__op_Equality(name,"W",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+    else if (uVar2 == 0xbcf8f25c) {
+      bVar1 = System_String__op_Equality(name,"LookRotation",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451de == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____getter_5_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____setter_5_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-          Il2CppMethodInitialized_1843451de = '\x01';
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LookRotation
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+      }
+    }
+    else if (uVar2 == 0xc95e1923) {
+      bVar1 = System_String__op_Equality(name,"Inverse",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____getter_5_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-        pMVar5 = 
-        MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____setter_5_1
-        ;
-        goto label_181ebdd55;
+        pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Inverse
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
-      bVar2 = System_String__op_Equality(name,"Inverse",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+    }
+    else if (uVar2 == 0xd20c0cd6) {
+      bVar1 = System_String__op_Equality(name,"W",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+        if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+        }
+        pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
       }
-      if (Il2CppMethodInitialized_1843451e8 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Inverse_b__15_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451e8 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Inverse_b__15_0
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0;
     }
   }
-  else {
-    if (uVar3 < 0xdf0c214e) {
-      if (uVar3 == 0xdc0c1c94) {
-        bVar2 = System_String__op_Equality(name,"Y",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+  else if (uVar2 < 0xdf0c214e) {
+    if (uVar2 == 0xdc0c1c94) {
+      bVar1 = System_String__op_Equality(name,"Y",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451dc == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____getter_3_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____setter_3_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-          Il2CppMethodInitialized_1843451dc = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____getter_3_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-        pMVar5 = 
-        MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____setter_3_1
-        ;
+        pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
       }
-      else if (uVar3 == 0xdd0c1e27) {
-        bVar2 = System_String__op_Equality(name,"X",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+    }
+    else if (uVar2 == 0xdd0c1e27) {
+      bVar1 = System_String__op_Equality(name,"X",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451db == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____getter_2_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____setter_2_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-          Il2CppMethodInitialized_1843451db = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____getter_2_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-        pMVar5 = 
-        MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____setter_2_1
-        ;
+        pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
       }
-      else {
-        if (uVar3 != 0xdf0c214d) goto label_181ebef0f;
-        bVar2 = System_String__op_Equality(name,"Z",(MethodInfo *)0x0);
-        if (!bVar2) goto label_181ebef0f;
+    }
+    else if (uVar2 == 0xdf0c214d) {
+      bVar1 = System_String__op_Equality(name,"Z",(MethodInfo *)0x0);
+      if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
         {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843451dd == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____getter_4_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____setter_4_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-          Il2CppMethodInitialized_1843451dd = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____getter_4_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
-        pMVar5 = 
-        MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____setter_4_1
-        ;
+        pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
       }
-label_181ebdd55:
-      System_Action_object__object____ctor
-                (__this_02,(Il2CppObject *)0x0,(intptr_t)pMVar5,(MethodInfo *)0x0);
-      __this_00 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-label_181ebdd77:
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
-                 (System_Action_T__object__o *)__this_02,
-                 (MethodInfo_12B8EE0 *)
-                 MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-      return (CustomLogic_ICLMemberBinding_o *)__this_00;
-    }
-    if (uVar3 == 0xdfc1d0bb) {
-      bVar2 = System_String__op_Equality(name,"Identity",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451e0 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Identity_g____getter
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-        Il2CppMethodInitialized_1843451e0 = '\x01';
-      }
-      __this = il2cpp_codegen_object_new
-                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Identity_g____getter
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
-      __this_02 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)0x0;
-      goto label_181ebdd77;
-    }
-    if (uVar3 == 0xf4248f7b) {
-      bVar2 = System_String__op_Equality(name,"LerpUnclamped",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451e2 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LerpUnclamped_b__9_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451e2 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LerpUnclamped_b__9_0
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0;
-    }
-    else {
-      if (uVar3 != 0xf6586339) goto label_181ebef0f;
-      bVar2 = System_String__op_Equality(name,"AngleAxis",(MethodInfo *)0x0);
-      if (!bVar2) goto label_181ebef0f;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
-      }
-      if (Il2CppMethodInitialized_1843451ea == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__AngleAxis_b__17_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-        Il2CppMethodInitialized_1843451ea = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0;
-      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181ebeedb;
-      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-      {
-        il2cpp_codegen_runtime_class_init
-                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-      }
-      pIVar1 = (Il2CppObject *)
-               TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)
-                             TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
-      System_Func_object__object__object____ctor
-                (__this_01,pIVar1,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__AngleAxis_b__17_0
-                 ,(MethodInfo *)0x0);
-      TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0 =
-           (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this_01;
-      targetAddress = &TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0;
     }
   }
-  Il2CppCodeGenWriteBarrier(targetAddress,__this_01);
-label_181ebeedb:
-  __this_03 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor
-            (__this_03,(System_String_o *)__this_01,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_ICLMemberBinding_o *)__this_03;
+  else if (uVar2 == 0xdfc1d0bb) {
+    bVar1 = System_String__op_Equality(name,"Identity",(MethodInfo *)0x0);
+    if (bVar1) {
+      pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+      }
+      pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Identity
+                         ((MethodInfo *)pCVar6);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar4;
+    }
+  }
+  else if (uVar2 == 0xf4248f7b) {
+    bVar1 = System_String__op_Equality(name,"LerpUnclamped",(MethodInfo *)0x0);
+    if (bVar1) {
+      pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+      }
+      pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LerpUnclamped
+                         ((MethodInfo *)pCVar6);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+    }
+  }
+  else if (uVar2 == 0xf6586339) {
+    bVar1 = System_String__op_Equality(name,"AngleAxis",(MethodInfo *)0x0);
+    if (bVar1) {
+      pCVar6 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings;
+      if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
+      }
+      pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__AngleAxis
+                         ((MethodInfo *)pCVar6);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
+    }
+  }
+  pSVar5 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  str2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicQuaternionBuiltin not found");
+  pSVar5 = System_String__Concat_5301f10(pSVar5,name,str2,(MethodInfo *)0x0);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+  __this = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_54fa440(__this,pSVar5,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__X
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X (const MethodInfo* method);
-// 0x181ecba00
+// 0x59b6750
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X(MethodInfo *method)
@@ -2320,7 +1482,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X(Me
   System_Action_CustomLogicQuaternionBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843451db == '\0') {
+  if (Il2CppMethodInitialized_07545b74 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2335,28 +1497,27 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451db = '\x01';
+    Il2CppMethodInitialized_07545b74 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____getter_2_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
   System_Action_object__object____ctor
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__X_g____setter_2_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_01;
 }
@@ -2364,7 +1525,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__X(Me
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__Y
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y (const MethodInfo* method);
-// 0x181ecbcd0
+// 0x59b6830
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y(MethodInfo *method)
@@ -2374,7 +1535,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y(Me
   System_Action_CustomLogicQuaternionBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843451dc == '\0') {
+  if (Il2CppMethodInitialized_07545b75 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2389,28 +1550,27 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451dc = '\x01';
+    Il2CppMethodInitialized_07545b75 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____getter_3_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
   System_Action_object__object____ctor
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Y_g____setter_3_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_01;
 }
@@ -2418,7 +1578,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Y(Me
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__Z
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z (const MethodInfo* method);
-// 0x181ecbdc0
+// 0x59b6910
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z(MethodInfo *method)
@@ -2428,7 +1588,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z(Me
   System_Action_CustomLogicQuaternionBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843451dd == '\0') {
+  if (Il2CppMethodInitialized_07545b76 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2443,28 +1603,27 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451dd = '\x01';
+    Il2CppMethodInitialized_07545b76 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____getter_4_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
   System_Action_object__object____ctor
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Z_g____setter_4_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_01;
 }
@@ -2472,7 +1631,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Z(Me
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__W
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W (const MethodInfo* method);
-// 0x181ecb910
+// 0x59b69f0
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W(MethodInfo *method)
@@ -2482,7 +1641,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W(Me
   System_Action_CustomLogicQuaternionBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843451de == '\0') {
+  if (Il2CppMethodInitialized_07545b77 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2497,28 +1656,27 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451de = '\x01';
+    Il2CppMethodInitialized_07545b77 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____getter_5_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
   System_Action_object__object____ctor
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__W_g____setter_5_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_01;
 }
@@ -2526,7 +1684,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__W(Me
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__Euler
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Euler (const MethodInfo* method);
-// 0x181ecac40
+// 0x59b6ad0
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Euler(MethodInfo *method)
@@ -2536,7 +1694,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Eule
   System_Action_CustomLogicQuaternionBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843451df == '\0') {
+  if (Il2CppMethodInitialized_07545b78 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -2551,28 +1709,27 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Eule
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451df = '\x01';
+    Il2CppMethodInitialized_07545b78 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____getter_6_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Action_CustomLogicQuaternionBuiltin_object);
   System_Action_object__object____ctor
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Euler_g____setter_6_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_01;
 }
@@ -2580,7 +1737,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Eule
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreatePropertyBinding__Identity
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Identity (const MethodInfo* method);
-// 0x181ecae20
+// 0x59b6bb0
 
 CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Identity(MethodInfo *method)
@@ -2589,7 +1746,7 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Iden
   System_Func_CustomLogicQuaternionBuiltin__object__o *__this;
   CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e0 == '\0') {
+  if (Il2CppMethodInitialized_07545b79 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Identity_g____getter
@@ -2599,20 +1756,20 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Iden
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
-    Il2CppMethodInitialized_1843451e0 = '\x01';
+    Il2CppMethodInitialized_07545b79 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings___CreatePropertyBinding__Identity_g____getter
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)0x0,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicQuaternionBuiltin_ctor)
   ;
   return __this_00;
 }
@@ -2620,17 +1777,21 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreatePropertyBinding__Iden
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__Lerp
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Lerp (const MethodInfo* method);
-// 0x181ec6b20
+// 0x59b6c50
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b6c85: jmp 0x59b6cf5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Lerp(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e1 == '\0') {
+  if (Il2CppMethodInitialized_07545b7a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2642,56 +1803,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Lerp(M
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Lerp_b__8_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e1 = '\x01';
+    Il2CppMethodInitialized_07545b7a = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__8_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__8_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Lerp_b__8_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__8_0,__this);
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__8_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__8_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__LerpUnclamped
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LerpUnclamped (const MethodInfo* method);
-// 0x181ec66a0
+// 0x59b6d90
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b6dc5: jmp 0x59b6e35
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LerpUnclamped(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e2 == '\0') {
+  if (Il2CppMethodInitialized_07545b7b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2703,56 +1875,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LerpUn
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LerpUnclamped_b__9_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e2 = '\x01';
+    Il2CppMethodInitialized_07545b7b = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__9_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__9_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LerpUnclamped_b__9_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__9_0,__this);
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__9_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__9_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__Slerp
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Slerp (const MethodInfo* method);
-// 0x181ec83e0
+// 0x59b6ed0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b6f05: jmp 0x59b6f75
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Slerp(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e3 == '\0') {
+  if (Il2CppMethodInitialized_07545b7c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2764,57 +1947,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Slerp(
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Slerp_b__10_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e3 = '\x01';
+    Il2CppMethodInitialized_07545b7c = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__10_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__10_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Slerp_b__10_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__10_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__10_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__10_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__SlerpUnclamped
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__SlerpUnclamped (const MethodInfo* method);
-// 0x181ec82c0
+// 0x59b7010
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7045: jmp 0x59b70b5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__SlerpUnclamped(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e4 == '\0') {
+  if (Il2CppMethodInitialized_07545b7d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2826,57 +2019,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__SlerpU
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__SlerpUnclamped_b__11
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e4 = '\x01';
+    Il2CppMethodInitialized_07545b7d = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__11_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__11_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__SlerpUnclamped_b__11
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__11_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__11_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__11_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__FromEuler
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromEuler (const MethodInfo* method);
-// 0x181ec5920
+// 0x59b7150
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7185: jmp 0x59b71f5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromEuler(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e5 == '\0') {
+  if (Il2CppMethodInitialized_07545b7e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2888,57 +2091,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromEu
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromEuler_b__12_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e5 = '\x01';
+    Il2CppMethodInitialized_07545b7e = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__12_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__12_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromEuler_b__12_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__12_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__12_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__12_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__LookRotation
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LookRotation (const MethodInfo* method);
-// 0x181ec6c40
+// 0x59b7290
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b72c5: jmp 0x59b7335
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LookRotation(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e6 == '\0') {
+  if (Il2CppMethodInitialized_07545b7f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -2950,57 +2163,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__LookRo
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LookRotation_b__13_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e6 = '\x01';
+    Il2CppMethodInitialized_07545b7f = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__13_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__13_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__LookRotation_b__13_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__13_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__13_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__13_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__FromToRotation
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromToRotation (const MethodInfo* method);
-// 0x181ec5a40
+// 0x59b73d0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7405: jmp 0x59b7475
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromToRotation(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e7 == '\0') {
+  if (Il2CppMethodInitialized_07545b80 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3012,57 +2235,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__FromTo
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromToRotation_b__14
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e7 = '\x01';
+    Il2CppMethodInitialized_07545b80 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__14_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__14_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__FromToRotation_b__14
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__14_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__14_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__14_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__Inverse
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Inverse (const MethodInfo* method);
-// 0x181ec6100
+// 0x59b7510
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7545: jmp 0x59b75b5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Inverse(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e8 == '\0') {
+  if (Il2CppMethodInitialized_07545b81 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3074,57 +2307,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Invers
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Inverse_b__15_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e8 = '\x01';
+    Il2CppMethodInitialized_07545b81 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__15_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__15_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Inverse_b__15_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__15_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__15_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__15_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__RotateTowards
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__RotateTowards (const MethodInfo* method);
-// 0x181ec7c00
+// 0x59b7650
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7685: jmp 0x59b76f5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__RotateTowards(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451e9 == '\0') {
+  if (Il2CppMethodInitialized_07545b82 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3136,57 +2379,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Rotate
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__RotateTowards_b__16_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451e9 = '\x01';
+    Il2CppMethodInitialized_07545b82 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__16_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__16_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__RotateTowards_b__16_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__16_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__16_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__16_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__AngleAxis
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__AngleAxis (const MethodInfo* method);
-// 0x181ec4830
+// 0x59b7790
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b77c5: jmp 0x59b7835
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__AngleAxis(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451ea == '\0') {
+  if (Il2CppMethodInitialized_07545b83 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3198,57 +2451,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__AngleA
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__AngleAxis_b__17_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451ea = '\x01';
+    Il2CppMethodInitialized_07545b83 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__17_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__17_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__AngleAxis_b__17_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__17_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__17_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__17_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding__Angle
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Angle (const MethodInfo* method);
-// 0x181ec4a70
+// 0x59b78d0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7905: jmp 0x59b7975
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Angle(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451eb == '\0') {
+  if (Il2CppMethodInitialized_07545b84 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3260,57 +2523,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding__Angle(
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Angle_b__18_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451eb = '\x01';
+    Il2CppMethodInitialized_07545b84 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__18_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__18_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding__Angle_b__18_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__18_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__18_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__18_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding____Copy__
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Copy__ (const MethodInfo* method);
-// 0x181ec9170
+// 0x59b7a10
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7a45: jmp 0x59b7ab5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Copy__(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451ec == '\0') {
+  if (Il2CppMethodInitialized_07545b85 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3322,57 +2595,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Copy
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Copy___b__19_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451ec = '\x01';
+    Il2CppMethodInitialized_07545b85 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__19_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__19_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Copy___b__19_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__19_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__19_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__19_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding____Mul__
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Mul__ (const MethodInfo* method);
-// 0x181eca170
+// 0x59b7b50
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7b85: jmp 0x59b7bf5
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Mul__(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451ed == '\0') {
+  if (Il2CppMethodInitialized_07545b86 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3384,57 +2667,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Mul_
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Mul___b__20_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451ed = '\x01';
+    Il2CppMethodInitialized_07545b86 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__20_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__20_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Mul___b__20_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__20_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__20_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__20_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding____Eq__
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Eq__ (const MethodInfo* method);
-// 0x181ec9720
+// 0x59b7c90
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7cc5: jmp 0x59b7d35
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Eq__(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451ee == '\0') {
+  if (Il2CppMethodInitialized_07545b87 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3446,57 +2739,67 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Eq__
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Eq___b__21_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451ee = '\x01';
+    Il2CppMethodInitialized_07545b87 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__21_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__21_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Eq___b__21_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__21_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__21_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__21_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$__CreateMethodBinding____Hash__
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o* CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Hash__ (const MethodInfo* method);
-// 0x181ec9e00
+// 0x59b7dd0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b7e05: jmp 0x59b7e75
 
 CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Hash__(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicQuaternionBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicQuaternionBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843451ef == '\0') {
+  if (Il2CppMethodInitialized_07545b88 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3508,54 +2811,60 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings____CreateMethodBinding____Hash
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Hash___b__22_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843451ef = '\x01';
+    Il2CppMethodInitialized_07545b88 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init
               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__22_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__22_0;
+  }
+  if (__this == (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicQuaternionBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c___CreateMethodBinding____Hash___b__22_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0 =
-         (System_Func_CustomLogicQuaternionBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields->__9__22_0,__this)
-    ;
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__22_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__22_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicQuaternionBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x181ecc400
+// 0x59b7f10
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_1843451f0 == '\0') {
+  if (Il2CppMethodInitialized_07545b89 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
@@ -3581,109 +2890,108 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings___cctor(MethodInfo *metho
     il2cpp_codegen_initialize_runtime_metadata(&"AngleAxis");
     il2cpp_codegen_initialize_runtime_metadata(&"RotateTowards");
     il2cpp_codegen_initialize_runtime_metadata(&"Angle");
-    Il2CppMethodInitialized_1843451f0 = '\x01';
+    Il2CppMethodInitialized_07545b89 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"X",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Y",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Z",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"W",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Euler",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Identity",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Lerp",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LerpUnclamped",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Slerp",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SlerpUnclamped",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"FromEuler",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LookRotation",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"FromToRotation",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Inverse",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RotateTowards",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AngleAxis",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Angle",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Copy__",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Mul__",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Eq__",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Hash__",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->static_fields->MemberNames = __this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->static_fields->MemberNames,__this)
-    ;
-    return;
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"X",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Y",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Z",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"W",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Euler",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Identity",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Lerp",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LerpUnclamped",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Slerp",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SlerpUnclamped",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"FromEuler",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"LookRotation",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"FromToRotation",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Inverse",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RotateTowards",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AngleAxis",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Angle",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Copy__",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Mul__",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Eq__",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"__Hash__",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->static_fields->MemberNames = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin_Bindings->static_fields->MemberNames);
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__X>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__X_g____getter_2_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec42d0
+// 0x59b8280
 
-Il2CppObject*
-CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__X_g____getter_2_0(CustomLogic_CustomLogicQuaternionBuiltin_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__X_g____getter_2_0
+          (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,MethodInfo *method)
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  if (__i != (CustomLogic_CustomLogicVector2Builtin_o *)0x0) {
-    local_res8[0] = (__i->fields)._value.fields.x;
-    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-    return pIVar1;
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__X>g____setter|2_1
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__X_g____setter_2_1 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181ec4300
+// 0x59b82b0
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__X_g____setter_2_1
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -3691,47 +2999,47 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding
 {
   float fVar1;
   
-  if (Il2CppMethodInitialized_1843451f1 == '\0') {
+  if (Il2CppMethodInitialized_07545b8a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f1 = '\x01';
+    Il2CppMethodInitialized_07545b8a = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   fVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    (__i->fields).Value.fields.x = fVar1;
-    return;
+                    (__v,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__i->fields).Value.fields.x = fVar1;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Y>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Y_g____getter_3_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec3a70
+// 0x59b8330
 
-Il2CppObject*
-CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Y_g____getter_3_0(CustomLogic_CustomLogicQuaternionBuiltin_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Y_g____getter_3_0
+          (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,MethodInfo *method)
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  if (__i != (CustomLogic_CustomLogicVector2Builtin_o *)0x0) {
-    local_res8[0] = (__i->fields)._value.fields.y;
-    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-    return pIVar1;
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Y>g____setter|3_1
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Y_g____setter_3_1 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181ec4480
+// 0x59b8360
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Y_g____setter_3_1
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -3739,27 +3047,27 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding
 {
   float fVar1;
   
-  if (Il2CppMethodInitialized_1843451f2 == '\0') {
+  if (Il2CppMethodInitialized_07545b8b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f2 = '\x01';
+    Il2CppMethodInitialized_07545b8b = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   fVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    (__i->fields).Value.fields.y = fVar1;
-    return;
+                    (__v,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__i->fields).Value.fields.y = fVar1;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Z>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Z_g____getter_4_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec4500
+// 0x59b83e0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Z_g____getter_4_0
@@ -3767,20 +3075,19 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Z_g
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    local_res8[0] = (__i->fields).Value.fields.z;
-    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-    return pIVar1;
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Z>g____setter|4_1
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Z_g____setter_4_1 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181ec4530
+// 0x59b8410
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Z_g____setter_4_1
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -3788,27 +3095,27 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding
 {
   float fVar1;
   
-  if (Il2CppMethodInitialized_1843451f3 == '\0') {
+  if (Il2CppMethodInitialized_07545b8c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f3 = '\x01';
+    Il2CppMethodInitialized_07545b8c = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   fVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    (__i->fields).Value.fields.z = fVar1;
-    return;
+                    (__v,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__i->fields).Value.fields.z = fVar1;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__W>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__W_g____getter_5_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec4220
+// 0x59b8490
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__W_g____getter_5_0
@@ -3816,20 +3123,19 @@ CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__W_g
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    local_res8[0] = (__i->fields).Value.fields.w;
-    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
-    return pIVar1;
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__W>g____setter|5_1
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__W_g____setter_5_1 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181ec4250
+// 0x59b84c0
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__W_g____setter_5_1
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -3837,80 +3143,53 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding
 {
   float fVar1;
   
-  if (Il2CppMethodInitialized_1843451f4 == '\0') {
+  if (Il2CppMethodInitialized_07545b8d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f4 = '\x01';
+    Il2CppMethodInitialized_07545b8d = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   fVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    (__i->fields).Value.fields.w = fVar1;
-    return;
+                    (__v,(MethodInfo_34BDFE0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__i->fields).Value.fields.w = fVar1;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Euler>g____getter|6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Euler_g____getter_6_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec3af0
+// 0x59b8540
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Euler_g____getter_6_0
           (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  undefined4 uVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  UnityEngine_Vector3_o *pUVar6;
-  CustomLogic_CustomLogicVector3Builtin_o *__this;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Vector3_o local_28 [2];
+  CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
+  UnityEngine_Vector3_o UVar2;
+  UnityEngine_Vector3_o euler;
   
-  if (__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    pUVar6 = UnityEngine_Quaternion__Internal_ToEulerRad(local_28,&(__i->fields).Value,(MethodInfo *)0x0);
-    uVar1 = (pUVar6->fields).x;
-    uVar2 = (pUVar6->fields).y;
-    local_38.x = (float)uVar1 * 57.29578;
-    local_38.y = (float)uVar2 * 57.29578;
-    local_38.z = (pUVar6->fields).z * 57.29578;
-    pUVar6 = UnityEngine_Quaternion__Internal_MakePositive
-                       (local_28,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
-    fVar4 = (pUVar6->fields).x;
-    fVar5 = (pUVar6->fields).y;
-    fVar3 = (pUVar6->fields).z;
-    if (Il2CppMethodInitialized_184345284 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      Il2CppMethodInitialized_184345284 = '\x01';
-    }
-    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    if (Il2CppMethodInitialized_184345279 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-      Il2CppMethodInitialized_184345279 = '\x01';
-    }
-    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-    }
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    (__this->fields).Value.fields.x = fVar4;
-    (__this->fields).Value.fields.y = fVar5;
-    (__this->fields).Value.fields.z = fVar3;
-    return (Il2CppObject *)__this;
+  if (__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UVar2 = UnityEngine_Quaternion__Internal_ToEulerRad(&(__i->fields).Value,(MethodInfo *)0x0);
+  euler.fields.x = UVar2.fields.x * 57.29578;
+  euler.fields.y = UVar2.fields.y * 57.29578;
+  euler.fields.z = UVar2.fields.z * 57.29578;
+  UVar2 = UnityEngine_Quaternion__Internal_MakePositive(euler,(MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicVector3Builtin__op_Implicit_58dfaf0(UVar2,(MethodInfo *)0x0);
+  return (Il2CppObject *)pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Euler>g____setter|6_1
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Euler_g____setter_6_1 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181ec3bf0
+// 0x59b8580
 
 void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Euler_g____setter_6_1
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -3918,78 +3197,68 @@ void CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding
 {
   undefined4 uVar1;
   undefined4 uVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar6;
-  UnityEngine_Quaternion_o *pUVar7;
-  UnityEngine_Vector3_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicVector3Builtin_o *pCVar3;
+  UnityEngine_Quaternion_Fields UVar4;
+  UnityEngine_Vector3_Fields UStack_20;
   
-  if (Il2CppMethodInitialized_1843451f5 == '\0') {
+  if (Il2CppMethodInitialized_07545b8e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843451f5 = '\x01';
+    Il2CppMethodInitialized_07545b8e = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  pCVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)
+  pCVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                     (__v,(MethodInfo_34BDE00 *)
                           MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
-  if ((__i != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-     (pCVar6 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
-    uVar1 = (pCVar6->fields).Value.fields.x;
-    uVar2 = (pCVar6->fields).Value.fields.y;
-    local_28.y = (float)uVar2 * 0.017453292;
-    local_28.x = (float)uVar1 * 0.017453292;
-    local_28.z = (pCVar6->fields).Value.fields.z * 0.017453292;
-    pUVar7 = UnityEngine_Quaternion__Internal_FromEulerRad
-                       (&local_18,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
-    fVar3 = (pUVar7->fields).y;
-    fVar4 = (pUVar7->fields).z;
-    fVar5 = (pUVar7->fields).w;
-    (__i->fields).Value.fields.x = (pUVar7->fields).x;
-    (__i->fields).Value.fields.y = fVar3;
-    (__i->fields).Value.fields.z = fVar4;
-    (__i->fields).Value.fields.w = fVar5;
-    return;
+  if ((__i == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
+     (pCVar3 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  uVar1 = (pCVar3->fields).Value.fields.x;
+  uVar2 = (pCVar3->fields).Value.fields.y;
+  UStack_20.z = (pCVar3->fields).Value.fields.z * 0.017453292;
+  UStack_20.y = (float)uVar2 * 0.017453292;
+  UStack_20.x = (float)uVar1 * 0.017453292;
+  UVar4 = (UnityEngine_Quaternion_Fields)
+          UnityEngine_Quaternion__Internal_FromEulerRad((UnityEngine_Vector3_o *)&UStack_20,(MethodInfo *)0x0)
+  ;
+  (__i->fields).Value.fields = UVar4;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin.Bindings$$<__CreatePropertyBinding__Identity>g____getter|7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Identity_g____getter_7_0 (CustomLogic_CustomLogicQuaternionBuiltin_o* __i, const MethodInfo* method);
-// 0x181ec3d70
+// 0x59b8630
 
-Il2CppObject*
-CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Identity_g____getter_7_0(CustomLogic_CustomLogicQuaternionBuiltin_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicQuaternionBuiltin_Bindings_____CreatePropertyBinding__Identity_g____getter_7_0
+          (CustomLogic_CustomLogicQuaternionBuiltin_o *__i,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_StaticFields *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  UnityEngine_Quaternion_c **ppUVar2;
   
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
+    ppUVar2 = &TypeInfo_UnityEngine_Quaternion;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
+    __i = (CustomLogic_CustomLogicQuaternionBuiltin_o *)ppUVar2;
   }
-  pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
-  local_18.x = (pUVar1->identityQuaternion).fields.x;
-  local_18.y = (pUVar1->identityQuaternion).fields.y;
-  local_18.z = (pUVar1->identityQuaternion).fields.z;
-  local_18.w = (pUVar1->identityQuaternion).fields.w;
-  pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                     ((UnityEngine_Quaternion_o *)&local_18,(MethodInfo *)0x0);
-  return pCVar2;
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0
+                     ((UnityEngine_Quaternion_o)
+                      *(UnityEngine_Quaternion_Fields *)TypeInfo_UnityEngine_Quaternion->static_fields,
+                      (MethodInfo *)__i);
+  return (Il2CppObject *)pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin___ctor (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2ae0
+// 0x59b4c90
 
 void CustomLogic_CustomLogicQuaternionBuiltin___ctor
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
@@ -4000,13 +3269,13 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor
   float fVar3;
   float fVar4;
   
-  if (Il2CppMethodInitialized_1843451d0 == '\0') {
+  if (Il2CppMethodInitialized_07545b69 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_1843451d0 = '\x01';
+    Il2CppMethodInitialized_07545b69 = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar2 = (pUVar1->identityQuaternion).fields.y;
@@ -4018,6 +3287,8 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor
   (__this->fields).Value.fields.w = fVar4;
   if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
+    return;
   }
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
@@ -4026,9 +3297,9 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin___ctor (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float x, float y, float z, float w, const MethodInfo* method);
-// 0x181ed2bf0
+// 0x59b4d20
 
-void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2bf0
+void CustomLogic_CustomLogicQuaternionBuiltin___ctor_58b4d20
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,float x,float y,float z,float w,
                MethodInfo *method)
 
@@ -4038,13 +3309,13 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2bf0
   float fVar3;
   float fVar4;
   
-  if (Il2CppMethodInitialized_1843451d1 == '\0') {
+  if (Il2CppMethodInitialized_07545b6a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_1843451d1 = '\x01';
+    Il2CppMethodInitialized_07545b6a = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar2 = (pUVar1->identityQuaternion).fields.y;
@@ -4068,10 +3339,10 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2bf0
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin___ctor (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, UnityEngine_Quaternion_o value, const MethodInfo* method);
-// 0x181ed2b60
+// 0x59b4df0
 
-void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2b60
-               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,UnityEngine_Quaternion_o *value,
+void CustomLogic_CustomLogicQuaternionBuiltin___ctor_58b4df0
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,UnityEngine_Quaternion_o value,
                MethodInfo *method)
 
 {
@@ -4079,14 +3350,16 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2b60
   float fVar2;
   float fVar3;
   float fVar4;
+  float local_28;
+  float fStack_24;
   
-  if (Il2CppMethodInitialized_1843451d2 == '\0') {
+  if (Il2CppMethodInitialized_07545b6b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_1843451d2 = '\x01';
+    Il2CppMethodInitialized_07545b6b = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar2 = (pUVar1->identityQuaternion).fields.y;
@@ -4100,170 +3373,142 @@ void CustomLogic_CustomLogicQuaternionBuiltin___ctor_1ed2b60
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  fVar2 = (value->fields).y;
-  fVar3 = (value->fields).z;
-  fVar4 = (value->fields).w;
-  (__this->fields).Value.fields.x = (value->fields).x;
-  (__this->fields).Value.fields.y = fVar2;
-  (__this->fields).Value.fields.z = fVar3;
-  (__this->fields).Value.fields.w = fVar4;
+  local_28 = value.fields.x;
+  fStack_24 = value.fields.y;
+  (__this->fields).Value.fields.x = local_28;
+  (__this->fields).Value.fields.y = fStack_24;
+  (__this->fields).Value.fields.z = value.fields.z;
+  (__this->fields).Value.fields.w = value.fields.w;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_X
 // il2cpp: float CustomLogic_CustomLogicQuaternionBuiltin__get_X (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x180584c90
+// 0x59b4e90
 
-float
-CustomLogic_CustomLogicQuaternionBuiltin__get_X(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+float CustomLogic_CustomLogicQuaternionBuiltin__get_X
+                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields)._time_k__BackingField;
+  return (__this->fields).Value.fields.x;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$set_X
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin__set_X (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x180584cb0
+// 0x59b4ea0
 
-void
-CustomLogic_CustomLogicQuaternionBuiltin__set_X(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, MethodInfo* method)
+void CustomLogic_CustomLogicQuaternionBuiltin__set_X
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  (__this->fields).m_MeanLine = value;
+  (__this->fields).Value.fields.x = value;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_Y
 // il2cpp: float CustomLogic_CustomLogicQuaternionBuiltin__get_Y (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x1816ef890
+// 0x59b4eb0
 
-float
-CustomLogic_CustomLogicQuaternionBuiltin__get_Y(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+float CustomLogic_CustomLogicQuaternionBuiltin__get_Y
+                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields).m_FlexibleWidth;
+  return (__this->fields).Value.fields.y;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$set_Y
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin__set_Y (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x1816ef940
+// 0x59b4ec0
 
-void
-CustomLogic_CustomLogicQuaternionBuiltin__set_Y(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, MethodInfo* method)
+void CustomLogic_CustomLogicQuaternionBuiltin__set_Y
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  *(float *)&(__this->fields).field_0x24 = value;
+  (__this->fields).Value.fields.y = value;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_Z
 // il2cpp: float CustomLogic_CustomLogicQuaternionBuiltin__get_Z (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x180585020
+// 0x59b4ed0
 
-float
-CustomLogic_CustomLogicQuaternionBuiltin__get_Z(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+float CustomLogic_CustomLogicQuaternionBuiltin__get_Z
+                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields).m_Resistance;
+  return (__this->fields).Value.fields.z;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$set_Z
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin__set_Z (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x181ed2f30
+// 0x59b4ee0
 
-void
-CustomLogic_CustomLogicQuaternionBuiltin__set_Z(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, MethodInfo* method)
+void CustomLogic_CustomLogicQuaternionBuiltin__set_Z
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  (__this->fields).m_Scale = value;
+  (__this->fields).Value.fields.z = value;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_W
 // il2cpp: float CustomLogic_CustomLogicQuaternionBuiltin__get_W (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2dd0
+// 0x59b4ef0
 
-float
-CustomLogic_CustomLogicQuaternionBuiltin__get_W(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+float CustomLogic_CustomLogicQuaternionBuiltin__get_W
+                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields).m_ScrollSensitivity;
+  return (__this->fields).Value.fields.w;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$set_W
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin__set_W (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x181ed2f20
+// 0x59b4f00
 
-void
-CustomLogic_CustomLogicQuaternionBuiltin__set_W(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, float value, MethodInfo* method)
+void CustomLogic_CustomLogicQuaternionBuiltin__set_W
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  (__this->fields).m_ScrollSensitivity = value;
+  (__this->fields).Value.fields.w = value;
   return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_Euler
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicQuaternionBuiltin__get_Euler (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2cf0
+// 0x59b4f10
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__get_Euler
           (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  undefined4 uVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  UnityEngine_Vector3_o *pUVar6;
-  CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Vector3_o local_28 [2];
+  CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
+  UnityEngine_Vector3_o UVar2;
+  UnityEngine_Vector3_o euler;
   
-  pUVar6 = UnityEngine_Quaternion__Internal_ToEulerRad(local_28,&(__this->fields).Value,(MethodInfo *)0x0);
-  uVar1 = (pUVar6->fields).x;
-  uVar2 = (pUVar6->fields).y;
-  local_38.x = (float)uVar1 * 57.29578;
-  local_38.y = (float)uVar2 * 57.29578;
-  local_38.z = (pUVar6->fields).z * 57.29578;
-  pUVar6 = UnityEngine_Quaternion__Internal_MakePositive
-                     (local_28,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
-  fVar4 = (pUVar6->fields).x;
-  fVar5 = (pUVar6->fields).y;
-  fVar3 = (pUVar6->fields).z;
-  if (Il2CppMethodInitialized_184345284 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    Il2CppMethodInitialized_184345284 = '\x01';
-  }
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-  if (Il2CppMethodInitialized_184345279 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_184345279 = '\x01';
-  }
-  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-  }
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).Value.fields.x = fVar4;
-  (__this_00->fields).Value.fields.y = fVar5;
-  (__this_00->fields).Value.fields.z = fVar3;
-  return __this_00;
+  UVar2 = UnityEngine_Quaternion__Internal_ToEulerRad(&(__this->fields).Value,(MethodInfo *)0x0);
+  euler.fields.x = UVar2.fields.x * 57.29578;
+  euler.fields.y = UVar2.fields.y * 57.29578;
+  euler.fields.z = UVar2.fields.z * 57.29578;
+  UVar2 = UnityEngine_Quaternion__Internal_MakePositive(euler,(MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicVector3Builtin__op_Implicit_58dfaf0(UVar2,(MethodInfo *)0x0);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$set_Euler
 // il2cpp: void CustomLogic_CustomLogicQuaternionBuiltin__set_Euler (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, CustomLogic_CustomLogicVector3Builtin_o* value, const MethodInfo* method);
-// 0x181ed2ec0
+// 0x59b4f40
 
 void CustomLogic_CustomLogicQuaternionBuiltin__set_Euler
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,
@@ -4272,64 +3517,52 @@ void CustomLogic_CustomLogicQuaternionBuiltin__set_Euler
 {
   undefined4 uVar1;
   undefined4 uVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  UnityEngine_Quaternion_o *pUVar6;
-  UnityEngine_Vector3_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_Fields UVar3;
+  UnityEngine_Vector3_Fields local_18;
   
-  if (value != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-    uVar1 = (value->fields).Value.fields.x;
-    uVar2 = (value->fields).Value.fields.y;
-    local_28.y = (float)uVar2 * 0.017453292;
-    local_28.x = (float)uVar1 * 0.017453292;
-    local_28.z = (value->fields).Value.fields.z * 0.017453292;
-    pUVar6 = UnityEngine_Quaternion__Internal_FromEulerRad
-                       (&local_18,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
-    fVar3 = (pUVar6->fields).y;
-    fVar4 = (pUVar6->fields).z;
-    fVar5 = (pUVar6->fields).w;
-    (__this->fields).Value.fields.x = (pUVar6->fields).x;
-    (__this->fields).Value.fields.y = fVar3;
-    (__this->fields).Value.fields.z = fVar4;
-    (__this->fields).Value.fields.w = fVar5;
-    return;
+  if (value == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  uVar1 = (value->fields).Value.fields.x;
+  uVar2 = (value->fields).Value.fields.y;
+  local_18.z = (value->fields).Value.fields.z * 0.017453292;
+  local_18.y = (float)uVar2 * 0.017453292;
+  local_18.x = (float)uVar1 * 0.017453292;
+  UVar3 = (UnityEngine_Quaternion_Fields)
+          UnityEngine_Quaternion__Internal_FromEulerRad((UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+  (__this->fields).Value.fields = UVar3;
+  return;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_Identity
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__get_Identity (const MethodInfo* method);
-// 0x181ec3d70
+// 0x59b4f90
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__get_Identity(MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_StaticFields *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  UnityEngine_Quaternion_c **ppUVar2;
   
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
+    ppUVar2 = &TypeInfo_UnityEngine_Quaternion;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
+    method = (MethodInfo *)ppUVar2;
   }
-  pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
-  local_18.x = (pUVar1->identityQuaternion).fields.x;
-  local_18.y = (pUVar1->identityQuaternion).fields.y;
-  local_18.z = (pUVar1->identityQuaternion).fields.z;
-  local_18.w = (pUVar1->identityQuaternion).fields.w;
-  pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                     ((UnityEngine_Quaternion_o *)&local_18,(MethodInfo *)0x0);
-  return pCVar2;
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0
+                     ((UnityEngine_Quaternion_o)
+                      *(UnityEngine_Quaternion_Fields *)TypeInfo_UnityEngine_Quaternion->static_fields,method)
+  ;
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$Lerp
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__Lerp (CustomLogic_CustomLogicQuaternionBuiltin_o* a, CustomLogic_CustomLogicQuaternionBuiltin_o* b, float t, const MethodInfo* method);
-// 0x181ed1fe0
+// 0x59b50a0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__Lerp
@@ -4337,40 +3570,35 @@ CustomLogic_CustomLogicQuaternionBuiltin__Lerp
           ,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields local_20;
+  Il2CppMethodPointer local_10;
+  Il2CppMethodPointer pIStack_8;
   
-  if ((a != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-     (b != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-    local_38.x = (b->fields).Value.fields.x;
-    local_38.y = (b->fields).Value.fields.y;
-    local_38.z = (b->fields).Value.fields.z;
-    local_38.w = (b->fields).Value.fields.w;
-    local_28.x = (a->fields).Value.fields.x;
-    local_28.y = (a->fields).Value.fields.y;
-    local_28.z = (a->fields).Value.fields.z;
-    local_28.w = (a->fields).Value.fields.w;
-    pUVar1 = UnityEngine_Quaternion__Internal_Lerp
-                       (&local_18,(UnityEngine_Quaternion_o *)&local_28,(UnityEngine_Quaternion_o *)&local_38,
-                        t,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if ((a == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
+     (b == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  local_10 = *(Il2CppMethodPointer *)&(a->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(a->fields).Value.fields.z;
+  local_20.x = (b->fields).Value.fields.x;
+  local_20.y = (b->fields).Value.fields.y;
+  local_20.z = (b->fields).Value.fields.z;
+  local_20.w = (b->fields).Value.fields.w;
+  method_00 = (MethodInfo *)&local_10;
+  q = UnityEngine_Quaternion__Internal_Lerp
+                ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&local_20,t,
+                 (MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$LerpUnclamped
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__LerpUnclamped (CustomLogic_CustomLogicQuaternionBuiltin_o* a, CustomLogic_CustomLogicQuaternionBuiltin_o* b, float t, const MethodInfo* method);
-// 0x181ed1f80
+// 0x59b50e0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__LerpUnclamped
@@ -4378,40 +3606,35 @@ CustomLogic_CustomLogicQuaternionBuiltin__LerpUnclamped
           ,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_20;
+  Il2CppMethodPointer pIStack_10;
+  Il2CppMethodPointer pIStack_8;
   
-  if ((a != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-     (b != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-    local_38.x = (b->fields).Value.fields.x;
-    local_38.y = (b->fields).Value.fields.y;
-    local_38.z = (b->fields).Value.fields.z;
-    local_38.w = (b->fields).Value.fields.w;
-    local_28.x = (a->fields).Value.fields.x;
-    local_28.y = (a->fields).Value.fields.y;
-    local_28.z = (a->fields).Value.fields.z;
-    local_28.w = (a->fields).Value.fields.w;
-    pUVar1 = UnityEngine_Quaternion__Internal_LerpUnclamped
-                       (&local_18,(UnityEngine_Quaternion_o *)&local_28,(UnityEngine_Quaternion_o *)&local_38,
-                        t,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if ((a == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
+     (b == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIStack_10 = *(Il2CppMethodPointer *)&(a->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(a->fields).Value.fields.z;
+  UStack_20.x = (b->fields).Value.fields.x;
+  UStack_20.y = (b->fields).Value.fields.y;
+  UStack_20.z = (b->fields).Value.fields.z;
+  UStack_20.w = (b->fields).Value.fields.w;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_LerpUnclamped
+                ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_20,t,
+                 (MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$Slerp
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__Slerp (CustomLogic_CustomLogicQuaternionBuiltin_o* a, CustomLogic_CustomLogicQuaternionBuiltin_o* b, float t, const MethodInfo* method);
-// 0x181ed2330
+// 0x59b5120
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__Slerp
@@ -4419,40 +3642,35 @@ CustomLogic_CustomLogicQuaternionBuiltin__Slerp
           ,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_20;
+  Il2CppMethodPointer pIStack_10;
+  Il2CppMethodPointer pIStack_8;
   
-  if ((a != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-     (b != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-    local_38.x = (b->fields).Value.fields.x;
-    local_38.y = (b->fields).Value.fields.y;
-    local_38.z = (b->fields).Value.fields.z;
-    local_38.w = (b->fields).Value.fields.w;
-    local_28.x = (a->fields).Value.fields.x;
-    local_28.y = (a->fields).Value.fields.y;
-    local_28.z = (a->fields).Value.fields.z;
-    local_28.w = (a->fields).Value.fields.w;
-    pUVar1 = UnityEngine_Quaternion__Internal_Slerp
-                       (&local_18,(UnityEngine_Quaternion_o *)&local_28,(UnityEngine_Quaternion_o *)&local_38,
-                        t,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if ((a == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
+     (b == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIStack_10 = *(Il2CppMethodPointer *)&(a->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(a->fields).Value.fields.z;
+  UStack_20.x = (b->fields).Value.fields.x;
+  UStack_20.y = (b->fields).Value.fields.y;
+  UStack_20.z = (b->fields).Value.fields.z;
+  UStack_20.w = (b->fields).Value.fields.w;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_Slerp
+                ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_20,t,
+                 (MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$SlerpUnclamped
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__SlerpUnclamped (CustomLogic_CustomLogicQuaternionBuiltin_o* a, CustomLogic_CustomLogicQuaternionBuiltin_o* b, float t, const MethodInfo* method);
-// 0x181ed22d0
+// 0x59b5160
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__SlerpUnclamped
@@ -4460,40 +3678,35 @@ CustomLogic_CustomLogicQuaternionBuiltin__SlerpUnclamped
           ,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Quaternion_Fields UStack_20;
+  Il2CppMethodPointer pIStack_10;
+  Il2CppMethodPointer pIStack_8;
   
-  if ((a != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) &&
-     (b != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
-    local_38.x = (b->fields).Value.fields.x;
-    local_38.y = (b->fields).Value.fields.y;
-    local_38.z = (b->fields).Value.fields.z;
-    local_38.w = (b->fields).Value.fields.w;
-    local_28.x = (a->fields).Value.fields.x;
-    local_28.y = (a->fields).Value.fields.y;
-    local_28.z = (a->fields).Value.fields.z;
-    local_28.w = (a->fields).Value.fields.w;
-    pUVar1 = UnityEngine_Quaternion__Internal_SlerpUnclamped
-                       (&local_18,(UnityEngine_Quaternion_o *)&local_28,(UnityEngine_Quaternion_o *)&local_38,
-                        t,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if ((a == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
+     (b == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIStack_10 = *(Il2CppMethodPointer *)&(a->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(a->fields).Value.fields.z;
+  UStack_20.x = (b->fields).Value.fields.x;
+  UStack_20.y = (b->fields).Value.fields.y;
+  UStack_20.z = (b->fields).Value.fields.z;
+  UStack_20.w = (b->fields).Value.fields.w;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_SlerpUnclamped
+                ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_20,t,
+                 (MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$FromEuler
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__FromEuler (CustomLogic_CustomLogicVector3Builtin_o* euler, const MethodInfo* method);
-// 0x181ed1e60
+// 0x59b51a0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__FromEuler
@@ -4502,34 +3715,29 @@ CustomLogic_CustomLogicQuaternionBuiltin__FromEuler
 {
   undefined4 uVar1;
   undefined4 uVar2;
-  UnityEngine_Quaternion_o *pUVar3;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar4;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar3;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  Il2CppMethodPointer pIStack_10;
+  float fStack_8;
   
-  if (euler != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-    uVar1 = (euler->fields).Value.fields.x;
-    uVar2 = (euler->fields).Value.fields.y;
-    local_28.y = (float)uVar2 * 0.017453292;
-    local_28.x = (float)uVar1 * 0.017453292;
-    local_28.z = (euler->fields).Value.fields.z * 0.017453292;
-    pUVar3 = UnityEngine_Quaternion__Internal_FromEulerRad
-                       (&local_18,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
-    local_28.x = (pUVar3->fields).x;
-    local_28.y = (pUVar3->fields).y;
-    local_28.z = (pUVar3->fields).z;
-    local_28.w = (pUVar3->fields).w;
-    pCVar4 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar4;
+  if (euler == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  uVar1 = (euler->fields).Value.fields.x;
+  uVar2 = (euler->fields).Value.fields.y;
+  pIStack_10 = (Il2CppMethodPointer)CONCAT44((float)uVar2 * 0.017453292,(float)uVar1 * 0.017453292);
+  fStack_8 = (euler->fields).Value.fields.z * 0.017453292;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_FromEulerRad((UnityEngine_Vector3_o *)method_00,(MethodInfo *)0x0);
+  pCVar3 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar3;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$LookRotation
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__LookRotation (CustomLogic_CustomLogicVector3Builtin_o* forward, CustomLogic_CustomLogicVector3Builtin_o* upwards, const MethodInfo* method);
-// 0x181ed2040
+// 0x59b51f0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__LookRotation
@@ -4542,86 +3750,89 @@ CustomLogic_CustomLogicQuaternionBuiltin__LookRotation
   float fVar3;
   float fVar4;
   float fVar5;
-  float fVar6;
-  float fVar7;
-  float fVar8;
-  float fVar9;
-  UnityEngine_Quaternion_o *pUVar10;
   CustomLogic_CustomLogicQuaternionBuiltin_o *__this;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dd;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  UnityEngine_Quaternion_o UVar8;
+  UnityEngine_Vector3_Fields local_58;
   UnityEngine_Vector3_Fields local_48;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Quaternion_o local_28 [2];
+  undefined1 local_38 [16];
+  undefined1 local_28 [24];
   
-  if (Il2CppMethodInitialized_1843451d3 == '\0') {
+  if (Il2CppMethodInitialized_07545b6c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d3 = '\x01';
+    Il2CppMethodInitialized_07545b6c = '\x01';
   }
-  if (forward != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-    if (upwards == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-      local_38.z = (forward->fields).Value.fields.z;
-      local_38.x = (forward->fields).Value.fields.x;
-      local_38.y = (forward->fields).Value.fields.y;
-      local_48.x = 0.0;
-      local_48.y = 0.0;
-      local_48.z = 0.0;
-      if (Il2CppMethodInitialized_18433de5c == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433de5c = '\x01';
-      }
-      pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-      local_48.x = (pUVar1->upVector).fields.x;
-      local_48.y = (pUVar1->upVector).fields.y;
-      local_48.z = (pUVar1->upVector).fields.z;
+  if (upwards == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
+    if (forward == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) goto label_059b536e;
+    local_48.x = (forward->fields).Value.fields.x;
+    local_48.y = (forward->fields).Value.fields.y;
+    local_48.z = (forward->fields).Value.fields.z;
+    if (Il2CppMethodInitialized_0753e72c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72c = '\x01';
     }
-    else {
-      local_48.x = (upwards->fields).Value.fields.x;
-      local_48.y = (upwards->fields).Value.fields.y;
-      local_48.z = (upwards->fields).Value.fields.z;
-      local_38.x = (forward->fields).Value.fields.x;
-      local_38.y = (forward->fields).Value.fields.y;
-      local_38.z = (forward->fields).Value.fields.z;
-    }
-    pUVar10 = UnityEngine_Quaternion__Internal_LookRotation
-                        (local_28,(UnityEngine_Vector3_o *)&local_38,(UnityEngine_Vector3_o *)&local_48,
-                         (MethodInfo *)0x0);
-    fVar6 = (pUVar10->fields).x;
-    fVar7 = (pUVar10->fields).y;
-    fVar8 = (pUVar10->fields).z;
-    fVar9 = (pUVar10->fields).w;
-    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    if (Il2CppMethodInitialized_1843451d2 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-      Il2CppMethodInitialized_1843451d2 = '\x01';
-    }
-    if (Il2CppMethodInitialized_18433de5b == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-      Il2CppMethodInitialized_18433de5b = '\x01';
-    }
-    pUVar2 = TypeInfo_UnityEngine_Quaternion->static_fields;
-    fVar3 = (pUVar2->identityQuaternion).fields.y;
-    fVar4 = (pUVar2->identityQuaternion).fields.z;
-    fVar5 = (pUVar2->identityQuaternion).fields.w;
-    (__this->fields).Value.fields.x = (pUVar2->identityQuaternion).fields.x;
-    (__this->fields).Value.fields.y = fVar3;
-    (__this->fields).Value.fields.z = fVar4;
-    (__this->fields).Value.fields.w = fVar5;
-    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-    }
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    (__this->fields).Value.fields.x = fVar6;
-    (__this->fields).Value.fields.y = fVar7;
-    (__this->fields).Value.fields.z = fVar8;
-    (__this->fields).Value.fields.w = fVar9;
-    return __this;
+    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
+    local_58.x = (pUVar1->upVector).fields.x;
+    local_58.y = (pUVar1->upVector).fields.y;
+    local_58.z = (pUVar1->upVector).fields.z;
   }
-  ThrowNullReferenceException();
+  else {
+    if (forward == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
+label_059b536e:
+      ThrowNullReferenceException();
+    }
+    local_48.x = (forward->fields).Value.fields.x;
+    local_48.y = (forward->fields).Value.fields.y;
+    local_48.z = (forward->fields).Value.fields.z;
+    local_58.x = (upwards->fields).Value.fields.x;
+    local_58.y = (upwards->fields).Value.fields.y;
+    local_58.z = (upwards->fields).Value.fields.z;
+  }
+  uVar7 = 0;
+  uVar6 = 0;
+  UVar8 = UnityEngine_Quaternion__Internal_LookRotation
+                    ((UnityEngine_Vector3_o *)&local_48,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
+  local_28._8_4_ = extraout_XMM0_Dc;
+  local_28._0_8_ = UVar8.fields._0_8_;
+  local_28._12_4_ = extraout_XMM0_Dd;
+  local_38._8_4_ = uVar6;
+  local_38._0_8_ = UVar8.fields._8_8_;
+  local_38._12_4_ = uVar7;
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
+  if (Il2CppMethodInitialized_07545b6b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_07545b6b = '\x01';
+  }
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+    Il2CppMethodInitialized_0753e72b = '\x01';
+  }
+  pUVar2 = TypeInfo_UnityEngine_Quaternion->static_fields;
+  fVar3 = (pUVar2->identityQuaternion).fields.y;
+  fVar4 = (pUVar2->identityQuaternion).fields.z;
+  fVar5 = (pUVar2->identityQuaternion).fields.w;
+  (__this->fields).Value.fields.x = (pUVar2->identityQuaternion).fields.x;
+  (__this->fields).Value.fields.y = fVar3;
+  (__this->fields).Value.fields.z = fVar4;
+  (__this->fields).Value.fields.w = fVar5;
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+  }
+  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).Value.fields.x = (float)local_28._0_4_;
+  (__this->fields).Value.fields.y = (float)local_28._4_4_;
+  (__this->fields).Value.fields.z = local_38._0_4_;
+  (__this->fields).Value.fields.w = local_38._4_4_;
+  return __this;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$FromToRotation
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__FromToRotation (CustomLogic_CustomLogicVector3Builtin_o* a, CustomLogic_CustomLogicVector3Builtin_o* b, const MethodInfo* method);
-// 0x181ed1ec0
+// 0x59b5380
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__FromToRotation
@@ -4629,71 +3840,60 @@ CustomLogic_CustomLogicQuaternionBuiltin__FromToRotation
           MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  UnityEngine_Vector3_Fields UStack_20;
+  Il2CppMethodPointer pIStack_10;
+  float fStack_8;
   
-  if ((a != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
-     (b != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
-    local_38.x = (b->fields).Value.fields.x;
-    local_38.y = (b->fields).Value.fields.y;
-    local_38.z = (b->fields).Value.fields.z;
-    local_28.x = (a->fields).Value.fields.x;
-    local_28.y = (a->fields).Value.fields.y;
-    local_28.z = (a->fields).Value.fields.z;
-    pUVar1 = UnityEngine_Quaternion__Internal_FromToRotation
-                       (&local_18,(UnityEngine_Vector3_o *)&local_28,(UnityEngine_Vector3_o *)&local_38,
-                        (MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if ((a == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) ||
+     (b == (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  fStack_8 = (a->fields).Value.fields.z;
+  pIStack_10 = *(Il2CppMethodPointer *)&(a->fields).Value.fields;
+  UStack_20.x = (b->fields).Value.fields.x;
+  UStack_20.y = (b->fields).Value.fields.y;
+  UStack_20.z = (b->fields).Value.fields.z;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_FromToRotation
+                ((UnityEngine_Vector3_o *)method_00,(UnityEngine_Vector3_o *)&UStack_20,(MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$Inverse
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__Inverse (CustomLogic_CustomLogicQuaternionBuiltin_o* q, const MethodInfo* method);
-// 0x181ed1f30
+// 0x59b53e0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__Inverse
           (CustomLogic_CustomLogicQuaternionBuiltin_o *q,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q_00;
+  Il2CppMethodPointer pIStack_10;
+  Il2CppMethodPointer pIStack_8;
   
-  if (q != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    local_28.x = (q->fields).Value.fields.x;
-    local_28.y = (q->fields).Value.fields.y;
-    local_28.z = (q->fields).Value.fields.z;
-    local_28.w = (q->fields).Value.fields.w;
-    pUVar1 = UnityEngine_Quaternion__Internal_Inverse
-                       (&local_18,(UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if (q == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIStack_10 = *(Il2CppMethodPointer *)&(q->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(q->fields).Value.fields.z;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q_00 = UnityEngine_Quaternion__Internal_Inverse((UnityEngine_Quaternion_o *)method_00,(MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q_00,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$RotateTowards
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__RotateTowards (CustomLogic_CustomLogicQuaternionBuiltin_o* from, CustomLogic_CustomLogicQuaternionBuiltin_o* to, float maxDegreesDelta, const MethodInfo* method);
-// 0x181ed21b0
+// 0x59b5410
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__RotateTowards
@@ -4702,123 +3902,147 @@ CustomLogic_CustomLogicQuaternionBuiltin__RotateTowards
 
 {
   UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  float fVar3;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  UnityEngine_Quaternion_Fields q;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar10;
+  MethodInfo *method_00;
+  float fVar11;
   float t;
-  UnityEngine_Quaternion_o local_58;
-  UnityEngine_Quaternion_o local_48;
-  UnityEngine_Quaternion_o local_38 [3];
+  UnityEngine_Quaternion_o q_00;
+  UnityEngine_Quaternion_Fields UStack_20;
+  Il2CppMethodPointer pIStack_10;
+  Il2CppMethodPointer pIStack_8;
   
   if ((from == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
      (to == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  local_58.fields.x = (to->fields).Value.fields.x;
-  local_58.fields.y = (to->fields).Value.fields.y;
-  local_58.fields.z = (to->fields).Value.fields.z;
-  local_58.fields.w = (to->fields).Value.fields.w;
-  local_48.fields.x = (from->fields).Value.fields.x;
-  local_48.fields.y = (from->fields).Value.fields.y;
-  local_48.fields.z = (from->fields).Value.fields.z;
-  local_48.fields.w = (from->fields).Value.fields.w;
-  fVar3 = ABS(local_58.fields.y * local_48.fields.y + local_58.fields.x * local_48.fields.x +
-              local_58.fields.z * local_48.fields.z + local_58.fields.w * local_48.fields.w);
-  if (1.0 <= fVar3) {
-    fVar3 = 1.0;
+  uVar2 = (from->fields).Value.fields.x;
+  uVar6 = (from->fields).Value.fields.y;
+  uVar3 = (from->fields).Value.fields.z;
+  uVar7 = (from->fields).Value.fields.w;
+  pUVar1 = &(to->fields).Value;
+  uVar4 = (pUVar1->fields).x;
+  uVar8 = (pUVar1->fields).y;
+  uVar5 = (to->fields).Value.fields.z;
+  uVar9 = (to->fields).Value.fields.w;
+  q = pUVar1->fields;
+  pIStack_10 = *(Il2CppMethodPointer *)&(from->fields).Value.fields;
+  pIStack_8 = *(Il2CppMethodPointer *)&(from->fields).Value.fields.z;
+  UStack_20.x = (to->fields).Value.fields.x;
+  UStack_20.y = (to->fields).Value.fields.y;
+  UStack_20.z = (to->fields).Value.fields.z;
+  UStack_20.w = (to->fields).Value.fields.w;
+  fVar11 = ABS((float)uVar7 * (float)uVar9 +
+               (float)uVar6 * (float)uVar8 + (float)uVar2 * (float)uVar4 + (float)uVar3 * (float)uVar5);
+  if (1.0 <= fVar11) {
+    fVar11 = 1.0;
   }
-  if (fVar3 <= 0.999999) {
-    fVar3 = (float)il2cpp_runtime_helper_1804f6310(fVar3);
-    fVar3 = (fVar3 + fVar3) * 57.29578;
-    if (fVar3 != 0.0) {
-      fVar3 = maxDegreesDelta / fVar3;
+  if (fVar11 <= 0.999999) {
+    fVar11 = acosf(fVar11);
+    fVar11 = (fVar11 + fVar11) * 57.29578;
+    if ((fVar11 != 0.0) || (NAN(fVar11))) {
       t = 1.0;
-      if (fVar3 <= 1.0) {
-        t = fVar3;
+      if (maxDegreesDelta / fVar11 <= 1.0) {
+        t = maxDegreesDelta / fVar11;
       }
-      pUVar1 = UnityEngine_Quaternion__Internal_SlerpUnclamped
-                         (local_38,&local_48,&local_58,t,(MethodInfo *)0x0);
-      local_48.fields.x = (pUVar1->fields).x;
-      local_48.fields.y = (pUVar1->fields).y;
-      local_48.fields.z = (pUVar1->fields).z;
-      local_48.fields.w = (pUVar1->fields).w;
-      goto label_181ed229b;
+      method_00 = (MethodInfo *)&pIStack_10;
+      q_00 = UnityEngine_Quaternion__Internal_SlerpUnclamped
+                       ((UnityEngine_Quaternion_o *)method_00,(UnityEngine_Quaternion_o *)&UStack_20,t,
+                        (MethodInfo *)0x0);
+      pCVar10 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q_00,method_00);
+      return pCVar10;
     }
   }
-  local_48.fields.x = (to->fields).Value.fields.x;
-  local_48.fields.y = (to->fields).Value.fields.y;
-  local_48.fields.z = (to->fields).Value.fields.z;
-  local_48.fields.w = (to->fields).Value.fields.w;
-label_181ed229b:
-  pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00(&local_48,(MethodInfo *)0x0);
-  return pCVar2;
+  pCVar10 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0
+                      ((UnityEngine_Quaternion_o)q,(MethodInfo *)from);
+  return pCVar10;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$AngleAxis
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__AngleAxis (float angle, CustomLogic_CustomLogicVector3Builtin_o* axis, const MethodInfo* method);
-// 0x181ed1d80
+// 0x59b5510
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
 CustomLogic_CustomLogicQuaternionBuiltin__AngleAxis
           (float angle,CustomLogic_CustomLogicVector3Builtin_o *axis,MethodInfo *method)
 
 {
-  UnityEngine_Quaternion_o *pUVar1;
-  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar2;
-  UnityEngine_Quaternion_Fields local_28;
-  UnityEngine_Quaternion_o local_18;
+  CustomLogic_CustomLogicQuaternionBuiltin_o *pCVar1;
+  MethodInfo *method_00;
+  UnityEngine_Quaternion_o q;
+  Il2CppMethodPointer pIStack_10;
+  float fStack_8;
   
-  if (axis != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-    local_28.x = (axis->fields).Value.fields.x;
-    local_28.y = (axis->fields).Value.fields.y;
-    local_28.z = (axis->fields).Value.fields.z;
-    pUVar1 = UnityEngine_Quaternion__Internal_AngleAxis
-                       (&local_18,angle,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
-    local_28.x = (pUVar1->fields).x;
-    local_28.y = (pUVar1->fields).y;
-    local_28.z = (pUVar1->fields).z;
-    local_28.w = (pUVar1->fields).w;
-    pCVar2 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00
-                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
-    return pCVar2;
+  if (axis == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIStack_10 = *(Il2CppMethodPointer *)&(axis->fields).Value.fields;
+  fStack_8 = (axis->fields).Value.fields.z;
+  method_00 = (MethodInfo *)&pIStack_10;
+  q = UnityEngine_Quaternion__Internal_AngleAxis(angle,(UnityEngine_Vector3_o *)method_00,(MethodInfo *)0x0);
+  pCVar1 = CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(q,method_00);
+  return pCVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$Angle
 // il2cpp: float CustomLogic_CustomLogicQuaternionBuiltin__Angle (CustomLogic_CustomLogicQuaternionBuiltin_o* a, CustomLogic_CustomLogicQuaternionBuiltin_o* b, const MethodInfo* method);
-// 0x181ed1dd0
+// 0x59b5550
 
 float CustomLogic_CustomLogicQuaternionBuiltin__Angle
                 (CustomLogic_CustomLogicQuaternionBuiltin_o *a,CustomLogic_CustomLogicQuaternionBuiltin_o *b,
                 MethodInfo *method)
 
 {
-  float fVar1;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  float fVar9;
+  float fVar10;
   
   if ((a == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) ||
      (b == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0)) {
     ThrowNullReferenceException();
   }
-  fVar1 = ABS((b->fields).Value.fields.y * (a->fields).Value.fields.y +
-              (b->fields).Value.fields.x * (a->fields).Value.fields.x +
-              (b->fields).Value.fields.z * (a->fields).Value.fields.z +
-              (b->fields).Value.fields.w * (a->fields).Value.fields.w);
-  if (1.0 <= fVar1) {
-    fVar1 = 1.0;
+  uVar1 = (a->fields).Value.fields.x;
+  uVar5 = (a->fields).Value.fields.y;
+  uVar2 = (a->fields).Value.fields.z;
+  uVar6 = (a->fields).Value.fields.w;
+  uVar3 = (b->fields).Value.fields.x;
+  uVar7 = (b->fields).Value.fields.y;
+  uVar4 = (b->fields).Value.fields.z;
+  uVar8 = (b->fields).Value.fields.w;
+  fVar9 = ABS((float)uVar8 * (float)uVar6 +
+              (float)uVar7 * (float)uVar5 + (float)uVar3 * (float)uVar1 + (float)uVar4 * (float)uVar2);
+  if (1.0 <= fVar9) {
+    fVar9 = 1.0;
   }
-  if (0.999999 < fVar1) {
-    return 0.0;
+  fVar10 = 0.0;
+  if (fVar9 <= 0.999999) {
+    fVar9 = acosf(fVar9);
+    fVar10 = (fVar9 + fVar9) * 57.29578;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f6310(fVar1);
-  return (fVar1 + fVar1) * 57.29578;
+  return fVar10;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$ToString
 // il2cpp: System_String_o* CustomLogic_CustomLogicQuaternionBuiltin__ToString (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2390
+// 0x59b55d0
 
 System_String_o *
 CustomLogic_CustomLogicQuaternionBuiltin__ToString
@@ -4827,46 +4051,48 @@ CustomLogic_CustomLogicQuaternionBuiltin__ToString
 {
   System_String_o *pSVar1;
   
-  pSVar1 = (System_String_o *)il2cpp_runtime_helper_180ac9ee0(&(__this->fields).Value,0,0,0);
+  pSVar1 = (System_String_o *)il2cpp_runtime_helper_03deb510(&(__this->fields).Value,0,0,0);
   return pSVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Copy__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Copy__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2400
+// 0x59b55e0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Copy__
           (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
   UnityEngine_Quaternion_StaticFields *pUVar5;
   float fVar6;
   float fVar7;
   float fVar8;
   CustomLogic_CustomLogicQuaternionBuiltin_o *__this_00;
+  float local_18;
+  float fStack_14;
   
-  if (Il2CppMethodInitialized_1843451d4 == '\0') {
+  if (Il2CppMethodInitialized_07545b6d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d4 = '\x01';
+    Il2CppMethodInitialized_07545b6d = '\x01';
   }
-  fVar1 = (__this->fields).Value.fields.x;
-  fVar2 = (__this->fields).Value.fields.y;
-  fVar3 = (__this->fields).Value.fields.z;
-  fVar4 = (__this->fields).Value.fields.w;
+  uVar1 = (__this->fields).Value.fields.x;
+  uVar3 = (__this->fields).Value.fields.y;
+  uVar2 = (__this->fields).Value.fields.z;
+  uVar4 = (__this->fields).Value.fields.w;
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-  if (Il2CppMethodInitialized_1843451d2 == '\0') {
+  if (Il2CppMethodInitialized_07545b6b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_1843451d2 = '\x01';
+    Il2CppMethodInitialized_07545b6b = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar5 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar6 = (pUVar5->identityQuaternion).fields.y;
@@ -4880,17 +4106,17 @@ CustomLogic_CustomLogicQuaternionBuiltin____Copy__
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).Value.fields.x = fVar1;
-  (__this_00->fields).Value.fields.y = fVar2;
-  (__this_00->fields).Value.fields.z = fVar3;
-  (__this_00->fields).Value.fields.w = fVar4;
+  (__this_00->fields).Value.fields.x = (float)uVar1;
+  (__this_00->fields).Value.fields.y = (float)uVar3;
+  (__this_00->fields).Value.fields.z = (float)uVar2;
+  (__this_00->fields).Value.fields.w = (float)uVar4;
   return (Il2CppObject *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Add__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Add__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed23b0
+// 0x59b56c0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Add__
@@ -4912,7 +4138,7 @@ CustomLogic_CustomLogicQuaternionBuiltin____Add__
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Sub__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Sub__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed2a90
+// 0x59b5700
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Sub__
@@ -4934,7 +4160,7 @@ CustomLogic_CustomLogicQuaternionBuiltin____Sub__
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Mul__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Mul__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed26f0
+// 0x59b5740
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Mul__
@@ -4942,118 +4168,100 @@ CustomLogic_CustomLogicQuaternionBuiltin____Mul__
           MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
+  byte bVar1;
+  byte bVar2;
+  Il2CppClass *pIVar3;
+  UnityEngine_Quaternion_StaticFields *pUVar4;
   float fVar5;
   float fVar6;
   float fVar7;
-  float fVar8;
-  byte bVar9;
-  Il2CppClass *pIVar10;
-  UnityEngine_Quaternion_StaticFields *pUVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
   CustomLogic_CustomLogicQuaternionBuiltin_o *__this_00;
-  UnityEngine_Vector3_o *pUVar15;
   System_String_o *operatorName;
   System_Exception_o *ex;
   MethodInfo *lastManagedFrame;
-  Il2CppClass *local_a8;
-  float local_a0;
-  UnityEngine_Vector3_o local_98;
-  Il2CppClass *local_88;
-  void *pvStack_80;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  float fVar13;
+  float fVar14;
+  float fVar15;
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843451d5 == '\0') {
+  if (Il2CppMethodInitialized_07545b6e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    Il2CppMethodInitialized_1843451d5 = '\x01';
+    Il2CppMethodInitialized_07545b6e = '\x01';
   }
   if (self != (Il2CppObject *)0x0) {
-    bVar9 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-    if (((bVar9 <= (self->klass->_2).typeHierarchyDepth) &&
-        ((self->klass->_2).typeHierarchy[(ulonglong)bVar9 - 1] ==
-         (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) && (other != (Il2CppObject *)0x0))
-    {
-      pIVar10 = other->klass;
-      bVar9 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-      if (((pIVar10->_2).typeHierarchyDepth < bVar9) ||
-         ((pIVar10->_2).typeHierarchy[(ulonglong)bVar9 - 1] !=
+    bVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
+    if (((bVar1 <= (self->klass->_2).typeHierarchyDepth) && (other != (Il2CppObject *)0x0)) &&
+       ((self->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+        (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) {
+      pIVar3 = other->klass;
+      bVar2 = (pIVar3->_2).typeHierarchyDepth;
+      if ((bVar2 < bVar1) ||
+         ((pIVar3->_2).typeHierarchy[(ulong)bVar1 - 1] !=
           (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) {
-        bVar9 = (TypeInfo_CustomLogic_CustomLogicVector3Builtin->_2).typeHierarchyDepth;
-        if (((pIVar10->_2).typeHierarchyDepth < bVar9) ||
-           ((pIVar10->_2).typeHierarchy[(ulonglong)bVar9 - 1] !=
-            (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin)) goto label_181ed2a4c;
-        local_a8 = other[3].klass;
-        local_a0 = *(float *)&other[3].monitor;
-        local_88 = self[3].klass;
-        pvStack_80 = self[3].monitor;
-        pUVar15 = UnityEngine_Quaternion__op_Multiply_2f08cb0
-                            (&local_98,(UnityEngine_Quaternion_o *)&local_88,
-                             (UnityEngine_Vector3_o *)&local_a8,(MethodInfo *)0x0);
-        fVar2 = (pUVar15->fields).x;
-        fVar3 = (pUVar15->fields).y;
-        fVar1 = (pUVar15->fields).z;
+        bVar1 = (TypeInfo_CustomLogic_CustomLogicVector3Builtin->_2).typeHierarchyDepth;
+        if ((bVar2 < bVar1) ||
+           ((pIVar3->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+            (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin)) goto label_059b5a0f;
+        value = UnityEngine_Quaternion__op_Multiply_6905700
+                          ((UnityEngine_Quaternion_o)*(UnityEngine_Quaternion_Fields *)(self + 3),
+                           (UnityEngine_Vector3_o)*(UnityEngine_Vector3_Fields *)(other + 3),(MethodInfo *)0x0
+                          );
         __this_00 = (CustomLogic_CustomLogicQuaternionBuiltin_o *)
                     il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-        if (Il2CppMethodInitialized_184345279 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-          Il2CppMethodInitialized_184345279 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-        }
-        CustomLogic_BuiltinClassInstance___ctor
-                  ((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
-        (__this_00->fields).Value.fields.x = fVar2;
-        (__this_00->fields).Value.fields.y = fVar3;
-        (__this_00->fields).Value.fields.z = fVar1;
+        CustomLogic_CustomLogicVector3Builtin___ctor_58df850
+                  ((CustomLogic_CustomLogicVector3Builtin_o *)__this_00,value,(MethodInfo *)0x0);
       }
       else {
-        fVar1 = *(float *)&other[3].klass;
-        fVar2 = *(float *)((longlong)&other[3].monitor + 4);
-        fVar3 = *(float *)&self[3].klass;
-        fVar4 = *(float *)((longlong)&self[3].monitor + 4);
-        fVar5 = *(float *)&other[3].monitor;
-        fVar6 = *(float *)((longlong)&self[3].klass + 4);
-        fVar7 = *(float *)((longlong)&other[3].klass + 4);
-        fVar8 = *(float *)&self[3].monitor;
+        fVar8 = SUB84(self[3].klass,0);
+        fVar9 = (float)((ulong)self[3].klass >> 0x20);
+        fVar12 = SUB84(self[3].monitor,0);
+        fVar13 = (float)((ulong)self[3].monitor >> 0x20);
+        fVar10 = SUB84(other[3].klass,0);
+        fVar11 = (float)((ulong)other[3].klass >> 0x20);
+        fVar14 = SUB84(other[3].monitor,0);
+        fVar15 = (float)((ulong)other[3].monitor >> 0x20);
         __this_00 = il2cpp_codegen_object_new
                               ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-        if (Il2CppMethodInitialized_1843451d2 == '\0') {
+        if (Il2CppMethodInitialized_07545b6b == '\0') {
           il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-          Il2CppMethodInitialized_1843451d2 = '\x01';
+          Il2CppMethodInitialized_07545b6b = '\x01';
         }
-        if (Il2CppMethodInitialized_18433de5b == '\0') {
+        if (Il2CppMethodInitialized_0753e72b == '\0') {
           il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-          Il2CppMethodInitialized_18433de5b = '\x01';
+          Il2CppMethodInitialized_0753e72b = '\x01';
         }
-        pUVar11 = TypeInfo_UnityEngine_Quaternion->static_fields;
-        fVar12 = (pUVar11->identityQuaternion).fields.y;
-        fVar13 = (pUVar11->identityQuaternion).fields.z;
-        fVar14 = (pUVar11->identityQuaternion).fields.w;
-        (__this_00->fields).Value.fields.x = (pUVar11->identityQuaternion).fields.x;
-        (__this_00->fields).Value.fields.y = fVar12;
-        (__this_00->fields).Value.fields.z = fVar13;
-        (__this_00->fields).Value.fields.w = fVar14;
+        pUVar4 = TypeInfo_UnityEngine_Quaternion->static_fields;
+        fVar5 = (pUVar4->identityQuaternion).fields.y;
+        fVar6 = (pUVar4->identityQuaternion).fields.z;
+        fVar7 = (pUVar4->identityQuaternion).fields.w;
+        (__this_00->fields).Value.fields.x = (pUVar4->identityQuaternion).fields.x;
+        (__this_00->fields).Value.fields.y = fVar5;
+        (__this_00->fields).Value.fields.z = fVar6;
+        (__this_00->fields).Value.fields.w = fVar7;
         if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
         }
         CustomLogic_BuiltinClassInstance___ctor
                   ((CustomLogic_BuiltinClassInstance_o *)__this_00,(MethodInfo *)0x0);
-        (__this_00->fields).Value.fields.x = (fVar1 * fVar4 + fVar2 * fVar3 + fVar5 * fVar6) - fVar7 * fVar8;
-        (__this_00->fields).Value.fields.y = (fVar2 * fVar6 + fVar7 * fVar4 + fVar1 * fVar8) - fVar5 * fVar3;
-        (__this_00->fields).Value.fields.z = (fVar2 * fVar8 + fVar5 * fVar4 + fVar7 * fVar3) - fVar1 * fVar6;
-        (__this_00->fields).Value.fields.w = ((fVar2 * fVar4 - fVar1 * fVar3) - fVar7 * fVar6) - fVar5 * fVar8
-        ;
+        (__this_00->fields).Value.fields.x =
+             (fVar14 * fVar9 + fVar8 * fVar15 + fVar13 * fVar10) - fVar12 * fVar11;
+        (__this_00->fields).Value.fields.y =
+             (fVar10 * fVar12 + fVar9 * fVar15 + fVar13 * fVar11) - fVar8 * fVar14;
+        (__this_00->fields).Value.fields.z =
+             (fVar12 * fVar15 + fVar13 * fVar14 + fVar11 * fVar8) - fVar10 * fVar9;
+        (__this_00->fields).Value.fields.w =
+             ((fVar15 * fVar13 - fVar8 * fVar10) - fVar9 * fVar11) - fVar12 * fVar14;
       }
       return (Il2CppObject *)__this_00;
     }
   }
-label_181ed2a4c:
+label_059b5a0f:
   operatorName = il2cpp_codegen_get_runtime_metadata(&"__Mul__");
   ex = CustomLogic_CustomLogicUtils__OperatorException(operatorName,self,other,(MethodInfo *)0x0);
   lastManagedFrame =
@@ -5064,7 +4272,7 @@ label_181ed2a4c:
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Div__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Div__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed2510
+// 0x59b5a50
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Div__
@@ -5086,7 +4294,9 @@ CustomLogic_CustomLogicQuaternionBuiltin____Div__
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Eq__
 // il2cpp: bool CustomLogic_CustomLogicQuaternionBuiltin____Eq__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed2560
+// 0x59b5a90
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59b5ad7: xor eax, eax
 
 bool CustomLogic_CustomLogicQuaternionBuiltin____Eq__
                (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,Il2CppObject *self,Il2CppObject *other,
@@ -5095,25 +4305,26 @@ bool CustomLogic_CustomLogicQuaternionBuiltin____Eq__
 {
   byte bVar1;
   
-  if (Il2CppMethodInitialized_1843451d6 == '\0') {
+  if (Il2CppMethodInitialized_07545b6f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d6 = '\x01';
+    Il2CppMethodInitialized_07545b6f = '\x01';
   }
   if (other != (Il2CppObject *)0x0) {
     bVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-    if (((bVar1 <= (other->klass->_2).typeHierarchyDepth) &&
-        ((other->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-         (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) && (self != (Il2CppObject *)0x0))
-    {
-      bVar1 = (TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin->_2).typeHierarchyDepth;
-      if ((bVar1 <= (self->klass->_2).typeHierarchyDepth) &&
-         ((self->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+    if (bVar1 <= (other->klass->_2).typeHierarchyDepth) {
+      if ((other->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+          (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin) {
+        other = (Il2CppObject *)0x0;
+      }
+      if ((((self != (Il2CppObject *)0x0) && (other != (Il2CppObject *)0x0)) &&
+          (bVar1 <= (self->klass->_2).typeHierarchyDepth)) &&
+         ((self->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
           (Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin)) {
         return 0.999999 <
-               *(float *)((longlong)&other[3].klass + 4) * *(float *)((longlong)&self[3].klass + 4) +
-               *(float *)&other[3].klass * *(float *)&self[3].klass +
-               *(float *)&other[3].monitor * *(float *)&self[3].monitor +
-               *(float *)((longlong)&other[3].monitor + 4) * *(float *)((longlong)&self[3].monitor + 4);
+               (float)((ulong)other[3].monitor >> 0x20) * (float)((ulong)self[3].monitor >> 0x20) +
+               (float)((ulong)other[3].klass >> 0x20) * (float)((ulong)self[3].klass >> 0x20) +
+               SUB84(other[3].klass,0) * SUB84(self[3].klass,0) +
+               SUB84(other[3].monitor,0) * SUB84(self[3].monitor,0);
       }
     }
   }
@@ -5123,7 +4334,7 @@ bool CustomLogic_CustomLogicQuaternionBuiltin____Eq__
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Hash__
 // il2cpp: int32_t CustomLogic_CustomLogicQuaternionBuiltin____Hash__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2650
+// 0x59b5b60
 
 int32_t CustomLogic_CustomLogicQuaternionBuiltin____Hash__
                   (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
@@ -5132,19 +4343,19 @@ int32_t CustomLogic_CustomLogicQuaternionBuiltin____Hash__
   uint uVar1;
   int32_t iVar2;
   int32_t iVar3;
-  uint uVar4;
+  int32_t iVar4;
   
   uVar1 = System_Single__GetHashCode((float *)&(__this->fields).Value,(MethodInfo *)0x0);
   iVar2 = System_Single__GetHashCode(&(__this->fields).Value.fields.y,(MethodInfo *)0x0);
   iVar3 = System_Single__GetHashCode(&(__this->fields).Value.fields.z,(MethodInfo *)0x0);
-  uVar4 = System_Single__GetHashCode(&(__this->fields).Value.fields.w,(MethodInfo *)0x0);
-  return (int)(uVar4 ^ iVar3 >> 1) >> 1 ^ iVar2 * 4 ^ uVar1;
+  iVar4 = System_Single__GetHashCode(&(__this->fields).Value.fields.w,(MethodInfo *)0x0);
+  return iVar4 >> 1 ^ iVar3 >> 2 ^ iVar2 << 2 ^ uVar1;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$__Mod__
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicQuaternionBuiltin____Mod__ (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, Il2CppObject* self, Il2CppObject* other, const MethodInfo* method);
-// 0x181ed26b0
+// 0x59b5bc0
 
 Il2CppObject *
 CustomLogic_CustomLogicQuaternionBuiltin____Mod__
@@ -5167,38 +4378,26 @@ CustomLogic_CustomLogicQuaternionBuiltin____Mod__
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$op_Implicit
 // il2cpp: UnityEngine_Quaternion_o CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit (CustomLogic_CustomLogicQuaternionBuiltin_o* q, const MethodInfo* method);
-// 0x181ed2de0
+// 0x59b5c00
 
-UnityEngine_Quaternion_o *
+UnityEngine_Quaternion_o
 CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit
-          (UnityEngine_Quaternion_o *__return_storage_ptr__,CustomLogic_CustomLogicQuaternionBuiltin_o *q,
-          MethodInfo *method)
+          (CustomLogic_CustomLogicQuaternionBuiltin_o *q,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  
-  if (q != (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
-    fVar1 = (q->fields).Value.fields.y;
-    fVar2 = (q->fields).Value.fields.z;
-    fVar3 = (q->fields).Value.fields.w;
-    (__return_storage_ptr__->fields).x = (q->fields).Value.fields.x;
-    (__return_storage_ptr__->fields).y = fVar1;
-    (__return_storage_ptr__->fields).z = fVar2;
-    (__return_storage_ptr__->fields).w = fVar3;
-    return __return_storage_ptr__;
+  if (q == (CustomLogic_CustomLogicQuaternionBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (UnityEngine_Quaternion_o)(q->fields).Value.fields;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$op_Implicit
 // il2cpp: CustomLogic_CustomLogicQuaternionBuiltin_o* CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit (UnityEngine_Quaternion_o q, const MethodInfo* method);
-// 0x181ed2e00
+// 0x59b4fd0
 
 CustomLogic_CustomLogicQuaternionBuiltin_o *
-CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00(UnityEngine_Quaternion_o *q,MethodInfo *method)
+CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_58b4fd0(UnityEngine_Quaternion_o q,MethodInfo *method)
 
 {
   UnityEngine_Quaternion_StaticFields *pUVar1;
@@ -5206,19 +4405,21 @@ CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00(UnityEngine_Quater
   float fVar3;
   float fVar4;
   CustomLogic_CustomLogicQuaternionBuiltin_o *__this;
+  float local_28;
+  float fStack_24;
   
-  if (Il2CppMethodInitialized_1843451d7 == '\0') {
+  if (Il2CppMethodInitialized_07545b70 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-    Il2CppMethodInitialized_1843451d7 = '\x01';
+    Il2CppMethodInitialized_07545b70 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicQuaternionBuiltin);
-  if (Il2CppMethodInitialized_1843451d2 == '\0') {
+  if (Il2CppMethodInitialized_07545b6b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-    Il2CppMethodInitialized_1843451d2 = '\x01';
+    Il2CppMethodInitialized_07545b6b = '\x01';
   }
-  if (Il2CppMethodInitialized_18433de5b == '\0') {
+  if (Il2CppMethodInitialized_0753e72b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
-    Il2CppMethodInitialized_18433de5b = '\x01';
+    Il2CppMethodInitialized_0753e72b = '\x01';
   }
   pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
   fVar2 = (pUVar1->identityQuaternion).fields.y;
@@ -5232,29 +4433,28 @@ CustomLogic_CustomLogicQuaternionBuiltin__op_Implicit_1ed2e00(UnityEngine_Quater
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  fVar2 = (q->fields).y;
-  fVar3 = (q->fields).z;
-  fVar4 = (q->fields).w;
-  (__this->fields).Value.fields.x = (q->fields).x;
-  (__this->fields).Value.fields.y = fVar2;
-  (__this->fields).Value.fields.z = fVar3;
-  (__this->fields).Value.fields.w = fVar4;
+  local_28 = q.fields.x;
+  fStack_24 = q.fields.y;
+  (__this->fields).Value.fields.x = local_28;
+  (__this->fields).Value.fields.y = fStack_24;
+  (__this->fields).Value.fields.z = q.fields.z;
+  (__this->fields).Value.fields.w = q.fields.w;
   return __this;
 }
 
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicQuaternionBuiltin__get_ClassName (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x181ed2cc0
+// 0x59b5c20
 
 System_String_o *
 CustomLogic_CustomLogicQuaternionBuiltin__get_ClassName
           (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843451d8 == '\0') {
+  if (Il2CppMethodInitialized_07545b71 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Quaternion");
-    Il2CppMethodInitialized_1843451d8 = '\x01';
+    Il2CppMethodInitialized_07545b71 = '\x01';
   }
   return "Quaternion";
 }
@@ -5262,10 +4462,10 @@ CustomLogic_CustomLogicQuaternionBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicQuaternionBuiltin__get_IsAbstract (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x59b5c50
 
-bool
-CustomLogic_CustomLogicQuaternionBuiltin__get_IsAbstract(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicQuaternionBuiltin__get_IsAbstract
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -5274,10 +4474,10 @@ CustomLogic_CustomLogicQuaternionBuiltin__get_IsAbstract(CustomLogic_CustomLogic
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicQuaternionBuiltin__get_IsStatic (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x59b5c60
 
-bool
-CustomLogic_CustomLogicQuaternionBuiltin__get_IsStatic(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicQuaternionBuiltin__get_IsStatic
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -5286,10 +4486,10 @@ CustomLogic_CustomLogicQuaternionBuiltin__get_IsStatic(CustomLogic_CustomLogicQu
 
 // CustomLogic.CustomLogicQuaternionBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicQuaternionBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicQuaternionBuiltin_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x59b5c70
 
-bool
-CustomLogic_CustomLogicQuaternionBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicQuaternionBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicQuaternionBuiltin__get_InheritBaseMembers
+               (CustomLogic_CustomLogicQuaternionBuiltin_o *__this,MethodInfo *method)
 
 {
   return true;

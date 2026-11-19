@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceAllocator
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,13 +33,13 @@ internal struct InstanceAllocator
 	public int length
 	{
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x2BD6E40", Offset = "0x2BD5440", VA = "0x182BD6E40")]
+		[Address(RVA = "0x65D3960", Offset = "0x65D2960", VA = "0x65D3960")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000202")]
-		[Address(RVA = "0x29BDFA0", Offset = "0x29BC5A0", VA = "0x1829BDFA0")]
+		[Address(RVA = "0x65D3970", Offset = "0x65D2970", VA = "0x65D3970")]
 		set
 		{
 		}
@@ -49,7 +49,7 @@ internal struct InstanceAllocator
 	public bool valid
 	{
 		[Token(Token = "0x6000203")]
-		[Address(RVA = "0x2BDD5E0", Offset = "0x2BDBBE0", VA = "0x182BDD5E0")]
+		[Address(RVA = "0x65D3980", Offset = "0x65D2980", VA = "0x65D3980")]
 		get
 		{
 			return default(bool);
@@ -57,32 +57,32 @@ internal struct InstanceAllocator
 	}
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x2BDD520", Offset = "0x2BDBB20", VA = "0x182BDD520")]
+	[Address(RVA = "0x65D39B0", Offset = "0x65D29B0", VA = "0x65D39B0")]
 	public void Initialize(int baseInstanceOffset = 0, int instanceStride = 1)
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x2BDD410", Offset = "0x2BDBA10", VA = "0x182BDD410")]
+	[Address(RVA = "0x65D3A60", Offset = "0x65D2A60", VA = "0x65D3A60")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x2BDD300", Offset = "0x2BDB900", VA = "0x182BDD300")]
+	[Address(RVA = "0x65D3AC0", Offset = "0x65D2AC0", VA = "0x65D3AC0")]
 	public int AllocateInstance()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x2BDD470", Offset = "0x2BDBA70", VA = "0x182BDD470")]
+	[Address(RVA = "0x65D3BD0", Offset = "0x65D2BD0", VA = "0x65D3BD0")]
 	public void FreeInstance(int instance)
 	{
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x2BDD4C0", Offset = "0x2BDBAC0", VA = "0x182BDD4C0")]
+	[Address(RVA = "0x65D3C20", Offset = "0x65D2C20", VA = "0x65D3C20")]
 	public int GetNumAllocated()
 	{
 		return default(int);

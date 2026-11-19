@@ -11,49 +11,49 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x2000392")]
+[Token(Token = "0x200036B")]
 internal class LeaseManager
 {
-	[Token(Token = "0x4000EF0")]
+	[Token(Token = "0x4000E50")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList _objects;
 
-	[Token(Token = "0x4000EF1")]
+	[Token(Token = "0x4000E51")]
 	[FieldOffset(Offset = "0x18")]
 	private Timer _timer;
 
-	[Token(Token = "0x6001D95")]
-	[Address(RVA = "0x19FB7B0", Offset = "0x19F9DB0", VA = "0x1819FB7B0")]
+	[Token(Token = "0x6001D6B")]
+	[Address(RVA = "0x5380630", Offset = "0x537F630", VA = "0x5380630")]
 	public void SetPollTime(TimeSpan timeSpan)
 	{
 	}
 
-	[Token(Token = "0x6001D96")]
-	[Address(RVA = "0x19FBA30", Offset = "0x19FA030", VA = "0x1819FBA30")]
+	[Token(Token = "0x6001D6C")]
+	[Address(RVA = "0x5380710", Offset = "0x537F710", VA = "0x5380710")]
 	public void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
 	{
 	}
 
-	[Token(Token = "0x6001D97")]
-	[Address(RVA = "0x19FB890", Offset = "0x19F9E90", VA = "0x1819FB890")]
+	[Token(Token = "0x6001D6D")]
+	[Address(RVA = "0x5380830", Offset = "0x537F830", VA = "0x5380830")]
 	public void StartManager()
 	{
 	}
 
-	[Token(Token = "0x6001D98")]
-	[Address(RVA = "0x19FB9F0", Offset = "0x19F9FF0", VA = "0x1819FB9F0")]
+	[Token(Token = "0x6001D6E")]
+	[Address(RVA = "0x53809B0", Offset = "0x537F9B0", VA = "0x53809B0")]
 	public void StopManager()
 	{
 	}
 
-	[Token(Token = "0x6001D99")]
-	[Address(RVA = "0x19FB560", Offset = "0x19F9B60", VA = "0x1819FB560")]
+	[Token(Token = "0x6001D6F")]
+	[Address(RVA = "0x53809E0", Offset = "0x537F9E0", VA = "0x53809E0")]
 	public void ManageLeases(object state)
 	{
 	}
 
-	[Token(Token = "0x6001D9A")]
-	[Address(RVA = "0x19FBCB0", Offset = "0x19FA2B0", VA = "0x1819FBCB0")]
+	[Token(Token = "0x6001D70")]
+	[Address(RVA = "0x5380C60", Offset = "0x537FC60", VA = "0x5380C60")]
 	public LeaseManager()
 	{
 	}

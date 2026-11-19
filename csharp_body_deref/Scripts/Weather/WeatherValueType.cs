@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Weather;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000039")]
 public enum WeatherValueType
 {
-	[Token(Token = "0x4000140")]
+	[Token(Token = "0x4000147")]
 	None,
-	[Token(Token = "0x4000141")]
+	[Token(Token = "0x4000148")]
 	Float,
-	[Token(Token = "0x4000142")]
+	[Token(Token = "0x4000149")]
 	Int,
-	[Token(Token = "0x4000143")]
+	[Token(Token = "0x400014A")]
 	String,
-	[Token(Token = "0x4000144")]
+	[Token(Token = "0x400014B")]
 	Color,
-	[Token(Token = "0x4000145")]
+	[Token(Token = "0x400014C")]
 	Bool,
-	[Token(Token = "0x4000146")]
+	[Token(Token = "0x400014D")]
 	Vector3
 }

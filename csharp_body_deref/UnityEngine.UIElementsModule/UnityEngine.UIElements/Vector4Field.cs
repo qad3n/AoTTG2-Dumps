@@ -20,7 +20,7 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 	public new class UxmlFactory : UxmlFactory<Vector4Field, UxmlTraits>
 	{
 		[Token(Token = "0x6000561")]
-		[Address(RVA = "0x31E3880", Offset = "0x31E1E80", VA = "0x1831E3880")]
+		[Address(RVA = "0x6BD9F40", Offset = "0x6BD8F40", VA = "0x6BD9F40")]
 		public UxmlFactory()
 		{
 		}
@@ -47,13 +47,13 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 		private UxmlFloatAttributeDescription m_WValue;
 
 		[Token(Token = "0x6000562")]
-		[Address(RVA = "0x31E3DC0", Offset = "0x31E23C0", VA = "0x1831E3DC0", Slot = "4")]
+		[Address(RVA = "0x6BD9F80", Offset = "0x6BD8F80", VA = "0x6BD9F80", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000563")]
-		[Address(RVA = "0x31E6370", Offset = "0x31E4970", VA = "0x1831E6370")]
+		[Address(RVA = "0x6BDA1A0", Offset = "0x6BD91A0", VA = "0x6BDA1A0")]
 		public UxmlTraits()
 		{
 		}
@@ -72,20 +72,20 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x600055D")]
-	[Address(RVA = "0x31E99F0", Offset = "0x31E7FF0", VA = "0x1831E99F0", Slot = "161")]
+	[Address(RVA = "0x6BD94F0", Offset = "0x6BD84F0", VA = "0x6BD94F0", Slot = "161")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600055E")]
-	[Address(RVA = "0x31EA310", Offset = "0x31E8910", VA = "0x1831EA310")]
+	[Address(RVA = "0x6BD9D20", Offset = "0x6BD8D20", VA = "0x6BD9D20")]
 	public Vector4Field()
 	{
 	}
 
 	[Token(Token = "0x600055F")]
-	[Address(RVA = "0x31EA430", Offset = "0x31E8A30", VA = "0x1831EA430")]
+	[Address(RVA = "0x6BD9D30", Offset = "0x6BD8D30", VA = "0x6BD9D30")]
 	public Vector4Field(string label)
 	{
 	}

@@ -16,41 +16,41 @@ namespace UnityEngine.Playables;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct Playable : IEquatable<Playable>
 {
-	[Token(Token = "0x40007A1")]
+	[Token(Token = "0x400079F")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x40007A2")]
+	[Token(Token = "0x40007A0")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Playable m_NullPlayable;
 
-	[Token(Token = "0x170002E3")]
+	[Token(Token = "0x170002E8")]
 	public static Playable Null
 	{
-		[Token(Token = "0x6001222")]
-		[Address(RVA = "0x2F4E3F0", Offset = "0x2F4C9F0", VA = "0x182F4E3F0")]
+		[Token(Token = "0x6001236")]
+		[Address(RVA = "0x693A9A0", Offset = "0x69399A0", VA = "0x693A9A0")]
 		get
 		{
 			return default(Playable);
 		}
 	}
 
-	[Token(Token = "0x6001223")]
-	[Address(RVA = "0xBDB210", Offset = "0xBD9810", VA = "0x180BDB210")]
+	[Token(Token = "0x6001237")]
+	[Address(RVA = "0x693A9F0", Offset = "0x69399F0", VA = "0x693A9F0")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal Playable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x6001224")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Token(Token = "0x6001238")]
+	[Address(RVA = "0x693AA00", Offset = "0x6939A00", VA = "0x693AA00", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x6001225")]
-	[Address(RVA = "0x2F4E260", Offset = "0x2F4C860", VA = "0x182F4E260", Slot = "4")]
+	[Token(Token = "0x6001239")]
+	[Address(RVA = "0x693AA10", Offset = "0x6939A10", VA = "0x693AA10", Slot = "4")]
 	public bool Equals(Playable other)
 	{
 		return default(bool);

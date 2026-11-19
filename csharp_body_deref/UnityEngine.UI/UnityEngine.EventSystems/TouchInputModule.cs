@@ -40,13 +40,13 @@ public class TouchInputModule : PointerInputModule
 	public bool allowActivationOnStandalone
 	{
 		[Token(Token = "0x6000770")]
-		[Address(RVA = "0x1720FF0", Offset = "0x171F5F0", VA = "0x181720FF0")]
+		[Address(RVA = "0x6D13AB0", Offset = "0x6D12AB0", VA = "0x6D13AB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000771")]
-		[Address(RVA = "0x1721000", Offset = "0x171F600", VA = "0x181721000")]
+		[Address(RVA = "0x6D13AC0", Offset = "0x6D12AC0", VA = "0x6D13AC0")]
 		set
 		{
 		}
@@ -56,83 +56,83 @@ public class TouchInputModule : PointerInputModule
 	public bool forceModuleActive
 	{
 		[Token(Token = "0x6000772")]
-		[Address(RVA = "0x1720FF0", Offset = "0x171F5F0", VA = "0x181720FF0")]
+		[Address(RVA = "0x6D13AD0", Offset = "0x6D12AD0", VA = "0x6D13AD0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000773")]
-		[Address(RVA = "0x1721000", Offset = "0x171F600", VA = "0x181721000")]
+		[Address(RVA = "0x6D13AE0", Offset = "0x6D12AE0", VA = "0x6D13AE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600076F")]
-	[Address(RVA = "0x33044C0", Offset = "0x3302AC0", VA = "0x1833044C0")]
+	[Address(RVA = "0x6D13AA0", Offset = "0x6D12AA0", VA = "0x6D13AA0")]
 	protected TouchInputModule()
 	{
 	}
 
 	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x3304320", Offset = "0x3302920", VA = "0x183304320", Slot = "24")]
+	[Address(RVA = "0x6D13AF0", Offset = "0x6D12AF0", VA = "0x6D13AF0", Slot = "24")]
 	public override void UpdateModule()
 	{
 	}
 
 	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x3302EC0", Offset = "0x33014C0", VA = "0x183302EC0", Slot = "25")]
+	[Address(RVA = "0x6D13C90", Offset = "0x6D12C90", VA = "0x6D13C90", Slot = "25")]
 	public override bool IsModuleSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x3303F50", Offset = "0x3302550", VA = "0x183303F50", Slot = "21")]
+	[Address(RVA = "0x6D13CD0", Offset = "0x6D12CD0", VA = "0x6D13CD0", Slot = "21")]
 	public override bool ShouldActivateModule()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x3304480", Offset = "0x3302A80", VA = "0x183304480")]
+	[Address(RVA = "0x6D13DD0", Offset = "0x6D12DD0", VA = "0x6D13DD0")]
 	private bool UseFakeInput()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x3303DA0", Offset = "0x33023A0", VA = "0x183303DA0", Slot = "17")]
+	[Address(RVA = "0x6D13E00", Offset = "0x6D12E00", VA = "0x6D13E00", Slot = "17")]
 	public override void Process()
 	{
 	}
 
 	[Token(Token = "0x6000779")]
-	[Address(RVA = "0x3302D60", Offset = "0x3301360", VA = "0x183302D60")]
+	[Address(RVA = "0x6D13E40", Offset = "0x6D12E40", VA = "0x6D13E40")]
 	private void FakeTouches()
 	{
 	}
 
 	[Token(Token = "0x600077A")]
-	[Address(RVA = "0x3302F00", Offset = "0x3301500", VA = "0x183302F00")]
+	[Address(RVA = "0x6D13F60", Offset = "0x6D12F60", VA = "0x6D13F60")]
 	private void ProcessTouchEvents()
 	{
 	}
 
 	[Token(Token = "0x600077B")]
-	[Address(RVA = "0x33036A0", Offset = "0x3301CA0", VA = "0x1833036A0")]
+	[Address(RVA = "0x6D14170", Offset = "0x6D13170", VA = "0x6D14170")]
 	protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released)
 	{
 	}
 
 	[Token(Token = "0x600077C")]
-	[Address(RVA = "0x32FFDB0", Offset = "0x32FE3B0", VA = "0x1832FFDB0", Slot = "22")]
+	[Address(RVA = "0x6D14B20", Offset = "0x6D13B20", VA = "0x6D14B20", Slot = "22")]
 	public override void DeactivateModule()
 	{
 	}
 
 	[Token(Token = "0x600077D")]
-	[Address(RVA = "0x3304070", Offset = "0x3302670", VA = "0x183304070", Slot = "3")]
+	[Address(RVA = "0x6D14B30", Offset = "0x6D13B30", VA = "0x6D14B30", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

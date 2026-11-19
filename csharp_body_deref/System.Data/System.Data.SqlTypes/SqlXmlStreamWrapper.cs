@@ -29,7 +29,7 @@ internal sealed class SqlXmlStreamWrapper : Stream
 	public override bool CanRead
 	{
 		[Token(Token = "0x6000B07")]
-		[Address(RVA = "0x257DA10", Offset = "0x257C010", VA = "0x18257DA10", Slot = "7")]
+		[Address(RVA = "0x5F21780", Offset = "0x5F20780", VA = "0x5F21780", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -40,7 +40,7 @@ internal sealed class SqlXmlStreamWrapper : Stream
 	public override bool CanSeek
 	{
 		[Token(Token = "0x6000B08")]
-		[Address(RVA = "0x257DA60", Offset = "0x257C060", VA = "0x18257DA60", Slot = "8")]
+		[Address(RVA = "0x5F21890", Offset = "0x5F20890", VA = "0x5F21890", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -51,7 +51,7 @@ internal sealed class SqlXmlStreamWrapper : Stream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6000B09")]
-		[Address(RVA = "0x257DAB0", Offset = "0x257C0B0", VA = "0x18257DAB0", Slot = "10")]
+		[Address(RVA = "0x5F21920", Offset = "0x5F20920", VA = "0x5F21920", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -62,7 +62,7 @@ internal sealed class SqlXmlStreamWrapper : Stream
 	public override long Length
 	{
 		[Token(Token = "0x6000B0A")]
-		[Address(RVA = "0x257DB00", Offset = "0x257C100", VA = "0x18257DB00", Slot = "11")]
+		[Address(RVA = "0x5F219B0", Offset = "0x5F209B0", VA = "0x5F219B0", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -73,101 +73,101 @@ internal sealed class SqlXmlStreamWrapper : Stream
 	public override long Position
 	{
 		[Token(Token = "0x6000B0B")]
-		[Address(RVA = "0x257DBD0", Offset = "0x257C1D0", VA = "0x18257DBD0", Slot = "12")]
+		[Address(RVA = "0x5F21B60", Offset = "0x5F20B60", VA = "0x5F21B60", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000B0C")]
-		[Address(RVA = "0x257DC80", Offset = "0x257C280", VA = "0x18257DC80", Slot = "13")]
+		[Address(RVA = "0x5F21BB0", Offset = "0x5F20BB0", VA = "0x5F21BB0", Slot = "13")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B06")]
-	[Address(RVA = "0x257D990", Offset = "0x257BF90", VA = "0x18257D990")]
+	[Address(RVA = "0x5F20E60", Offset = "0x5F1FE60", VA = "0x5F20E60")]
 	internal SqlXmlStreamWrapper(Stream stream)
 	{
 	}
 
 	[Token(Token = "0x6000B0D")]
-	[Address(RVA = "0x257D040", Offset = "0x257B640", VA = "0x18257D040", Slot = "30")]
+	[Address(RVA = "0x5F21C70", Offset = "0x5F20C70", VA = "0x5F21C70", Slot = "31")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000B0E")]
-	[Address(RVA = "0x257CDF0", Offset = "0x257B3F0", VA = "0x18257CDF0", Slot = "32")]
+	[Address(RVA = "0x5F21DD0", Offset = "0x5F20DD0", VA = "0x5F21DD0", Slot = "33")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B0F")]
-	[Address(RVA = "0x257D730", Offset = "0x257BD30", VA = "0x18257D730", Slot = "35")]
+	[Address(RVA = "0x5F22000", Offset = "0x5F21000", VA = "0x5F22000", Slot = "36")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6000B10")]
-	[Address(RVA = "0x257CC60", Offset = "0x257B260", VA = "0x18257CC60", Slot = "34")]
+	[Address(RVA = "0x5F22230", Offset = "0x5F21230", VA = "0x5F22230", Slot = "35")]
 	public override int ReadByte()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B11")]
-	[Address(RVA = "0x257D5E0", Offset = "0x257BBE0", VA = "0x18257D5E0", Slot = "37")]
+	[Address(RVA = "0x5F22350", Offset = "0x5F21350", VA = "0x5F22350", Slot = "38")]
 	public override void WriteByte(byte value)
 	{
 	}
 
 	[Token(Token = "0x6000B12")]
-	[Address(RVA = "0x257D2E0", Offset = "0x257B8E0", VA = "0x18257D2E0", Slot = "31")]
+	[Address(RVA = "0x5F22420", Offset = "0x5F21420", VA = "0x5F22420", Slot = "32")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x6000B13")]
-	[Address(RVA = "0x257CBB0", Offset = "0x257B1B0", VA = "0x18257CBB0", Slot = "20")]
+	[Address(RVA = "0x5F224A0", Offset = "0x5F214A0", VA = "0x5F224A0", Slot = "21")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x257CB60", Offset = "0x257B160", VA = "0x18257CB60", Slot = "19")]
+	[Address(RVA = "0x5F224C0", Offset = "0x5F214C0", VA = "0x5F224C0", Slot = "20")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000B15")]
-	[Address(RVA = "0x257D450", Offset = "0x257BA50", VA = "0x18257D450")]
+	[Address(RVA = "0x5F21AE0", Offset = "0x5F20AE0", VA = "0x5F21AE0")]
 	private void ThrowIfStreamCannotSeek(string method)
 	{
 	}
 
 	[Token(Token = "0x6000B16")]
-	[Address(RVA = "0x257D3C0", Offset = "0x257B9C0", VA = "0x18257D3C0")]
+	[Address(RVA = "0x5F21F80", Offset = "0x5F20F80", VA = "0x5F21F80")]
 	private void ThrowIfStreamCannotRead(string method)
 	{
 	}
 
 	[Token(Token = "0x6000B17")]
-	[Address(RVA = "0x257D4E0", Offset = "0x257BAE0", VA = "0x18257D4E0")]
+	[Address(RVA = "0x5F221B0", Offset = "0x5F211B0", VA = "0x5F221B0")]
 	private void ThrowIfStreamCannotWrite(string method)
 	{
 	}
 
 	[Token(Token = "0x6000B18")]
-	[Address(RVA = "0x257D570", Offset = "0x257BB70", VA = "0x18257D570")]
+	[Address(RVA = "0x5F21A20", Offset = "0x5F20A20", VA = "0x5F21A20")]
 	private void ThrowIfStreamClosed(string method)
 	{
 	}
 
 	[Token(Token = "0x6000B19")]
-	[Address(RVA = "0x257CBD0", Offset = "0x257B1D0", VA = "0x18257CBD0")]
+	[Address(RVA = "0x5F21810", Offset = "0x5F20810", VA = "0x5F21810")]
 	private bool IsStreamClosed()
 	{
 		return default(bool);

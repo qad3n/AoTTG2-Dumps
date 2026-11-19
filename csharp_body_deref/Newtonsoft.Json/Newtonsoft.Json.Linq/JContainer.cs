@@ -67,7 +67,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		private JToken System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000BC7")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x5606C70", Offset = "0x5605C70", VA = "0x5606C70", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -79,7 +79,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000BC9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x5606CC0", Offset = "0x5605CC0", VA = "0x5606CC0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -88,47 +88,47 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		}
 
 		[Token(Token = "0x6000BC2")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x56028A0", Offset = "0x56018A0", VA = "0x56028A0")]
 		[DebuggerHidden]
 		public _003CGetDescendants_003Ed__36(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000BC3")]
-		[Address(RVA = "0x1C898E0", Offset = "0x1C87EE0", VA = "0x181C898E0", Slot = "7")]
+		[Address(RVA = "0x5606270", Offset = "0x5605270", VA = "0x5606270", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000BC4")]
-		[Address(RVA = "0x1C893E0", Offset = "0x1C879E0", VA = "0x181C893E0", Slot = "8")]
+		[Address(RVA = "0x5606430", Offset = "0x5605430", VA = "0x5606430", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000BC5")]
-		[Address(RVA = "0x1C89A30", Offset = "0x1C88030", VA = "0x181C89A30")]
+		[Address(RVA = "0x5606BD0", Offset = "0x5605BD0", VA = "0x5606BD0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000BC6")]
-		[Address(RVA = "0x1C89A80", Offset = "0x1C88080", VA = "0x181C89A80")]
+		[Address(RVA = "0x5606B30", Offset = "0x5605B30", VA = "0x5606B30")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
 		[Token(Token = "0x6000BC8")]
-		[Address(RVA = "0x1C898A0", Offset = "0x1C87EA0", VA = "0x181C898A0", Slot = "10")]
+		[Address(RVA = "0x5606C80", Offset = "0x5605C80", VA = "0x5606C80", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000BCA")]
-		[Address(RVA = "0x1C897F0", Offset = "0x1C87DF0", VA = "0x181C897F0", Slot = "4")]
+		[Address(RVA = "0x5606CD0", Offset = "0x5605CD0", VA = "0x5606CD0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -136,7 +136,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		}
 
 		[Token(Token = "0x6000BCB")]
-		[Address(RVA = "0x1C897F0", Offset = "0x1C87DF0", VA = "0x181C897F0", Slot = "5")]
+		[Address(RVA = "0x5606D70", Offset = "0x5605D70", VA = "0x5606D70", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -190,13 +190,13 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000BCC")]
-		[Address(RVA = "0x1C8B2C0", Offset = "0x1C898C0", VA = "0x181C8B2C0", Slot = "4")]
+		[Address(RVA = "0x5606D80", Offset = "0x5605D80", VA = "0x5606D80", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000BCD")]
-		[Address(RVA = "0x1C8BBF0", Offset = "0x1C8A1F0", VA = "0x181C8BBF0", Slot = "5")]
+		[Address(RVA = "0x56077C0", Offset = "0x56067C0", VA = "0x56077C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -245,13 +245,13 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000BCE")]
-		[Address(RVA = "0x1C8C6B0", Offset = "0x1C8ACB0", VA = "0x181C8C6B0", Slot = "4")]
+		[Address(RVA = "0x5607820", Offset = "0x5606820", VA = "0x5607820", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000BCF")]
-		[Address(RVA = "0x1C8CC40", Offset = "0x1C8B240", VA = "0x181C8CC40", Slot = "5")]
+		[Address(RVA = "0x5607D40", Offset = "0x5606D40", VA = "0x5607D40", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -289,7 +289,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public override bool HasValues
 	{
 		[Token(Token = "0x6000B6D")]
-		[Address(RVA = "0x1C75910", Offset = "0x1C73F10", VA = "0x181C75910", Slot = "16")]
+		[Address(RVA = "0x56023A0", Offset = "0x56013A0", VA = "0x56023A0", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -300,7 +300,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public override JToken? First
 	{
 		[Token(Token = "0x6000B6F")]
-		[Address(RVA = "0x1C75880", Offset = "0x1C73E80", VA = "0x181C75880", Slot = "20")]
+		[Address(RVA = "0x5602460", Offset = "0x5601460", VA = "0x5602460", Slot = "20")]
 		get
 		{
 			return null;
@@ -311,7 +311,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public override JToken? Last
 	{
 		[Token(Token = "0x6000B70")]
-		[Address(RVA = "0x1C75970", Offset = "0x1C73F70", VA = "0x181C75970", Slot = "21")]
+		[Address(RVA = "0x56025A0", Offset = "0x56015A0", VA = "0x56025A0", Slot = "21")]
 		get
 		{
 			return null;
@@ -322,14 +322,14 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
 	[property: Token(Token = "0x170001DD")]
 	[Token(Token = "0x6000B9A")]
-	[Address(RVA = "0x1C568A0", Offset = "0x1C54EA0", VA = "0x181C568A0", Slot = "27")]
+	[Address(RVA = "0x56059B0", Offset = "0x56049B0", VA = "0x56059B0", Slot = "27")]
 	private JToken System_002ECollections_002EGeneric_002EIList_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002Eget_Item(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B9B")]
-	[Address(RVA = "0x1C568C0", Offset = "0x1C54EC0", VA = "0x181C568C0", Slot = "28")]
+	[Address(RVA = "0x56059D0", Offset = "0x56049D0", VA = "0x56059D0", Slot = "28")]
 	private void System_002ECollections_002EGeneric_002EIList_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002Eset_Item(int index, JToken value)
 	{
 	}
@@ -338,7 +338,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EIsReadOnly
 	{
 		[Token(Token = "0x6000BA0")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "33")]
+		[Address(RVA = "0x5605A70", Offset = "0x5604A70", VA = "0x5605A70", Slot = "33")]
 		get
 		{
 			return default(bool);
@@ -349,7 +349,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
 		[Token(Token = "0x6000BA8")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "64")]
+		[Address(RVA = "0x5605CD0", Offset = "0x5604CD0", VA = "0x5605CD0", Slot = "64")]
 		get
 		{
 			return default(bool);
@@ -360,7 +360,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002ECollections_002EIList_002EIsReadOnly
 	{
 		[Token(Token = "0x6000BA9")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "63")]
+		[Address(RVA = "0x5605CE0", Offset = "0x5604CE0", VA = "0x5605CE0", Slot = "63")]
 		get
 		{
 			return default(bool);
@@ -371,14 +371,14 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
 	[property: Token(Token = "0x170001E1")]
 	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x1C568A0", Offset = "0x1C54EA0", VA = "0x181C568A0", Slot = "58")]
+	[Address(RVA = "0x5605D40", Offset = "0x5604D40", VA = "0x5605D40", Slot = "58")]
 	private object? System_002ECollections_002EIList_002Eget_Item(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x1C74840", Offset = "0x1C72E40", VA = "0x181C74840", Slot = "59")]
+	[Address(RVA = "0x5605D60", Offset = "0x5604D60", VA = "0x5605D60", Slot = "59")]
 	private void System_002ECollections_002EIList_002Eset_Item(int index, object? value)
 	{
 	}
@@ -387,7 +387,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public int Count
 	{
 		[Token(Token = "0x6000BAF")]
-		[Address(RVA = "0x1C75820", Offset = "0x1C73E20", VA = "0x181C75820", Slot = "70")]
+		[Address(RVA = "0x5604540", Offset = "0x5603540", VA = "0x5604540", Slot = "70")]
 		get
 		{
 			return default(int);
@@ -398,7 +398,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
 		[Token(Token = "0x6000BB0")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "72")]
+		[Address(RVA = "0x5605DC0", Offset = "0x5604DC0", VA = "0x5605DC0", Slot = "72")]
 		get
 		{
 			return default(bool);
@@ -409,7 +409,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
 		[Token(Token = "0x6000BB1")]
-		[Address(RVA = "0x1C74670", Offset = "0x1C72C70", VA = "0x181C74670", Slot = "71")]
+		[Address(RVA = "0x5605DD0", Offset = "0x5604DD0", VA = "0x5605DD0", Slot = "71")]
 		get
 		{
 			return null;
@@ -420,7 +420,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002EAllowEdit
 	{
 		[Token(Token = "0x6000BB4")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "43")]
+		[Address(RVA = "0x5606010", Offset = "0x5605010", VA = "0x5606010", Slot = "43")]
 		get
 		{
 			return default(bool);
@@ -431,7 +431,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002EAllowNew
 	{
 		[Token(Token = "0x6000BB5")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "41")]
+		[Address(RVA = "0x5606020", Offset = "0x5605020", VA = "0x5606020", Slot = "41")]
 		get
 		{
 			return default(bool);
@@ -442,7 +442,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002EAllowRemove
 	{
 		[Token(Token = "0x6000BB6")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "44")]
+		[Address(RVA = "0x5606030", Offset = "0x5605030", VA = "0x5606030", Slot = "44")]
 		get
 		{
 			return default(bool);
@@ -453,7 +453,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002EIsSorted
 	{
 		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "48")]
+		[Address(RVA = "0x56060C0", Offset = "0x56050C0", VA = "0x56060C0", Slot = "48")]
 		get
 		{
 			return default(bool);
@@ -464,7 +464,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private ListSortDirection System_002EComponentModel_002EIBindingList_002ESortDirection
 	{
 		[Token(Token = "0x6000BBC")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "50")]
+		[Address(RVA = "0x5606120", Offset = "0x5605120", VA = "0x5606120", Slot = "50")]
 		get
 		{
 			return default(ListSortDirection);
@@ -475,7 +475,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private PropertyDescriptor? System_002EComponentModel_002EIBindingList_002ESortProperty
 	{
 		[Token(Token = "0x6000BBD")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "49")]
+		[Address(RVA = "0x5606130", Offset = "0x5605130", VA = "0x5606130", Slot = "49")]
 		get
 		{
 			return null;
@@ -486,7 +486,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsChangeNotification
 	{
 		[Token(Token = "0x6000BBE")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "45")]
+		[Address(RVA = "0x5606140", Offset = "0x5605140", VA = "0x5606140", Slot = "45")]
 		get
 		{
 			return default(bool);
@@ -497,7 +497,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsSearching
 	{
 		[Token(Token = "0x6000BBF")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "46")]
+		[Address(RVA = "0x5606150", Offset = "0x5605150", VA = "0x5606150", Slot = "46")]
 		get
 		{
 			return default(bool);
@@ -508,7 +508,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsSorting
 	{
 		[Token(Token = "0x6000BC0")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "47")]
+		[Address(RVA = "0x5606160", Offset = "0x5605160", VA = "0x5606160", Slot = "47")]
 		get
 		{
 			return default(bool);
@@ -519,12 +519,12 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public event ListChangedEventHandler ListChanged
 	{
 		[Token(Token = "0x6000B5F")]
-		[Address(RVA = "0x1C75780", Offset = "0x1C73D80", VA = "0x181C75780", Slot = "51")]
+		[Address(RVA = "0x56019A0", Offset = "0x56009A0", VA = "0x56019A0", Slot = "51")]
 		add
 		{
 		}
 		[Token(Token = "0x6000B60")]
-		[Address(RVA = "0x1C75B40", Offset = "0x1C74140", VA = "0x181C75B40", Slot = "52")]
+		[Address(RVA = "0x5601A20", Offset = "0x5600A20", VA = "0x5601A20", Slot = "52")]
 		remove
 		{
 		}
@@ -534,12 +534,12 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public event AddingNewEventHandler AddingNew
 	{
 		[Token(Token = "0x6000B61")]
-		[Address(RVA = "0x1C75640", Offset = "0x1C73C40", VA = "0x181C75640")]
+		[Address(RVA = "0x5601AA0", Offset = "0x5600AA0", VA = "0x5601AA0")]
 		add
 		{
 		}
 		[Token(Token = "0x6000B62")]
-		[Address(RVA = "0x1C75A00", Offset = "0x1C74000", VA = "0x181C75A00")]
+		[Address(RVA = "0x5601B20", Offset = "0x5600B20", VA = "0x5601B20")]
 		remove
 		{
 		}
@@ -549,19 +549,19 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public event NotifyCollectionChangedEventHandler? CollectionChanged
 	{
 		[Token(Token = "0x6000B63")]
-		[Address(RVA = "0x1C756E0", Offset = "0x1C73CE0", VA = "0x181C756E0", Slot = "73")]
+		[Address(RVA = "0x5601BA0", Offset = "0x5600BA0", VA = "0x5601BA0", Slot = "73")]
 		add
 		{
 		}
 		[Token(Token = "0x6000B64")]
-		[Address(RVA = "0x1C75AA0", Offset = "0x1C740A0", VA = "0x181C75AA0", Slot = "74")]
+		[Address(RVA = "0x5601C20", Offset = "0x5600C20", VA = "0x5601C20", Slot = "74")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x1C73AE0", Offset = "0x1C720E0", VA = "0x181C73AE0")]
+	[Address(RVA = "0x56011B0", Offset = "0x56001B0", VA = "0x56011B0")]
 	[AsyncStateMachine(typeof(_003CReadTokenFromAsync_003Ed__0))]
 	internal Task ReadTokenFromAsync(JsonReader reader, JsonLoadSettings? options, [Optional] CancellationToken cancellationToken)
 	{
@@ -569,7 +569,7 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	}
 
 	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x1C731B0", Offset = "0x1C717B0", VA = "0x181C731B0")]
+	[Address(RVA = "0x5601860", Offset = "0x5600860", VA = "0x5601860")]
 	[AsyncStateMachine(typeof(_003CReadContentFromAsync_003Ed__1))]
 	private Task ReadContentFromAsync(JsonReader reader, JsonLoadSettings? settings, [Optional] CancellationToken cancellationToken)
 	{
@@ -577,57 +577,57 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	}
 
 	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x1C75310", Offset = "0x1C73910", VA = "0x181C75310")]
+	[Address(RVA = "0x55FF420", Offset = "0x55FE420", VA = "0x55FF420")]
 	internal JContainer()
 	{
 	}
 
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x1C75360", Offset = "0x1C73960", VA = "0x181C75360")]
+	[Address(RVA = "0x55FF530", Offset = "0x55FE530", VA = "0x55FF530")]
 	internal JContainer(JContainer other, JsonCloneSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x1C71420", Offset = "0x1C6FA20", VA = "0x181C71420")]
+	[Address(RVA = "0x5602180", Offset = "0x5601180", VA = "0x5602180")]
 	internal void CheckReentrancy()
 	{
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x1C71E30", Offset = "0x1C70430", VA = "0x181C71E30", Slot = "76")]
+	[Address(RVA = "0x5602220", Offset = "0x5601220", VA = "0x5602220", Slot = "76")]
 	internal virtual IList<JToken> CreateChildrenCollection()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x12B3020", Offset = "0x12B1620", VA = "0x1812B3020", Slot = "77")]
+	[Address(RVA = "0x5602280", Offset = "0x5601280", VA = "0x5602280", Slot = "77")]
 	protected virtual void OnAddingNew(AddingNewEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x1C73140", Offset = "0x1C71740", VA = "0x181C73140", Slot = "78")]
+	[Address(RVA = "0x56022A0", Offset = "0x56012A0", VA = "0x56022A0", Slot = "78")]
 	protected virtual void OnListChanged(ListChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x1C730D0", Offset = "0x1C716D0", VA = "0x181C730D0", Slot = "79")]
+	[Address(RVA = "0x5602320", Offset = "0x5601320", VA = "0x5602320", Slot = "79")]
 	protected virtual void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x1C71820", Offset = "0x1C6FE20", VA = "0x181C71820")]
+	[Address(RVA = "0x55FFBF0", Offset = "0x55FEBF0", VA = "0x55FFBF0")]
 	internal bool ContentsEqual(JContainer container)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B71")]
-	[Address(RVA = "0x1C714D0", Offset = "0x1C6FAD0", VA = "0x181C714D0", Slot = "22")]
+	[Address(RVA = "0x56026E0", Offset = "0x56016E0", VA = "0x56026E0", Slot = "22")]
 	public override JEnumerable<JToken> Children()
 	{
 		return default(JEnumerable<JToken>);
@@ -640,21 +640,21 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	}
 
 	[Token(Token = "0x6000B73")]
-	[Address(RVA = "0x1C71FA0", Offset = "0x1C705A0", VA = "0x181C71FA0")]
+	[Address(RVA = "0x5602750", Offset = "0x5601750", VA = "0x5602750")]
 	public IEnumerable<JToken> Descendants()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B74")]
-	[Address(RVA = "0x1C71F90", Offset = "0x1C70590", VA = "0x181C71F90")]
+	[Address(RVA = "0x5602830", Offset = "0x5601830", VA = "0x5602830")]
 	public IEnumerable<JToken> DescendantsAndSelf()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B75")]
-	[Address(RVA = "0x1C72150", Offset = "0x1C70750", VA = "0x181C72150")]
+	[Address(RVA = "0x56027C0", Offset = "0x56017C0", VA = "0x56027C0")]
 	[IteratorStateMachine(typeof(_003CGetDescendants_003Ed__36))]
 	internal IEnumerable<JToken> GetDescendants(bool self)
 	{
@@ -662,14 +662,14 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	}
 
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x1C72510", Offset = "0x1C70B10", VA = "0x181C72510")]
+	[Address(RVA = "0x56028D0", Offset = "0x56018D0", VA = "0x56028D0")]
 	internal bool IsMultiContent([NotNullWhen(true)] object? content)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B77")]
-	[Address(RVA = "0x1C71FB0", Offset = "0x1C705B0", VA = "0x181C71FB0")]
+	[Address(RVA = "0x5602980", Offset = "0x5601980", VA = "0x5602980")]
 	internal JToken EnsureParentToken(JToken? item, bool skipParentCheck, bool copyAnnotations)
 	{
 		return null;
@@ -679,130 +679,130 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	internal abstract int IndexOfItem(JToken? item);
 
 	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x1C72250", Offset = "0x1C70850", VA = "0x181C72250", Slot = "81")]
+	[Address(RVA = "0x5602A90", Offset = "0x5601A90", VA = "0x5602A90", Slot = "81")]
 	internal virtual bool InsertItem(int index, JToken? item, bool skipParentCheck, bool copyAnnotations)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B7A")]
-	[Address(RVA = "0x1C73DC0", Offset = "0x1C723C0", VA = "0x181C73DC0", Slot = "82")]
+	[Address(RVA = "0x5602ED0", Offset = "0x5601ED0", VA = "0x5602ED0", Slot = "82")]
 	internal virtual void RemoveItemAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000B7B")]
-	[Address(RVA = "0x1C74120", Offset = "0x1C72720", VA = "0x181C74120", Slot = "83")]
+	[Address(RVA = "0x56033C0", Offset = "0x56023C0", VA = "0x56033C0", Slot = "83")]
 	internal virtual bool RemoveItem(JToken? item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B7C")]
-	[Address(RVA = "0x1C721E0", Offset = "0x1C707E0", VA = "0x181C721E0", Slot = "84")]
+	[Address(RVA = "0x5603400", Offset = "0x5602400", VA = "0x5603400", Slot = "84")]
 	internal virtual JToken GetItem(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B7D")]
-	[Address(RVA = "0x1C74210", Offset = "0x1C72810", VA = "0x181C74210", Slot = "85")]
+	[Address(RVA = "0x56034C0", Offset = "0x56024C0", VA = "0x56034C0", Slot = "85")]
 	internal virtual void SetItem(int index, JToken? item)
 	{
 	}
 
 	[Token(Token = "0x6000B7E")]
-	[Address(RVA = "0x1C71530", Offset = "0x1C6FB30", VA = "0x181C71530", Slot = "86")]
+	[Address(RVA = "0x5603BB0", Offset = "0x5602BB0", VA = "0x5603BB0", Slot = "86")]
 	internal virtual void ClearItems()
 	{
 	}
 
 	[Token(Token = "0x6000B7F")]
-	[Address(RVA = "0x1C741C0", Offset = "0x1C727C0", VA = "0x181C741C0", Slot = "87")]
+	[Address(RVA = "0x5603FF0", Offset = "0x5602FF0", VA = "0x5603FF0", Slot = "87")]
 	internal virtual void ReplaceItem(JToken existing, JToken replacement)
 	{
 	}
 
 	[Token(Token = "0x6000B80")]
-	[Address(RVA = "0x1C71800", Offset = "0x1C6FE00", VA = "0x181C71800", Slot = "88")]
+	[Address(RVA = "0x5604050", Offset = "0x5603050", VA = "0x5604050", Slot = "88")]
 	internal virtual bool ContainsItem(JToken? item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B81")]
-	[Address(RVA = "0x1C71B50", Offset = "0x1C70150", VA = "0x181C71B50", Slot = "89")]
+	[Address(RVA = "0x5604070", Offset = "0x5603070", VA = "0x5604070", Slot = "89")]
 	internal virtual void CopyItemsTo(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000B82")]
-	[Address(RVA = "0x1C725D0", Offset = "0x1C70BD0", VA = "0x181C725D0")]
+	[Address(RVA = "0x5603B10", Offset = "0x5602B10", VA = "0x5603B10")]
 	internal static bool IsTokenUnchanged(JToken currentValue, JToken? newValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B83")]
-	[Address(RVA = "0x1C751E0", Offset = "0x1C737E0", VA = "0x181C751E0", Slot = "90")]
+	[Address(RVA = "0x56045F0", Offset = "0x56035F0", VA = "0x56045F0", Slot = "90")]
 	internal virtual void ValidateToken(JToken o, JToken? existing)
 	{
 	}
 
 	[Token(Token = "0x6000B84")]
-	[Address(RVA = "0x1C71390", Offset = "0x1C6F990", VA = "0x181C71390", Slot = "91")]
+	[Address(RVA = "0x5604700", Offset = "0x5603700", VA = "0x5604700", Slot = "91")]
 	public virtual void Add(object? content)
 	{
 	}
 
 	[Token(Token = "0x6000B85")]
-	[Address(RVA = "0x1C74FE0", Offset = "0x1C735E0", VA = "0x181C74FE0")]
+	[Address(RVA = "0x56047D0", Offset = "0x56037D0", VA = "0x56047D0")]
 	internal bool TryAdd(object? content)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B86")]
-	[Address(RVA = "0x1C712D0", Offset = "0x1C6F8D0", VA = "0x181C712D0")]
+	[Address(RVA = "0x56048A0", Offset = "0x56038A0", VA = "0x56048A0")]
 	internal void AddAndSkipParentCheck(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000B87")]
-	[Address(RVA = "0x1C71360", Offset = "0x1C6F960", VA = "0x181C71360")]
+	[Address(RVA = "0x5604970", Offset = "0x5603970", VA = "0x5604970")]
 	public void AddFirst(object? content)
 	{
 	}
 
 	[Token(Token = "0x6000B88")]
-	[Address(RVA = "0x1C74CD0", Offset = "0x1C732D0", VA = "0x181C74CD0")]
+	[Address(RVA = "0x5601D60", Offset = "0x5600D60", VA = "0x5601D60")]
 	internal bool TryAddInternal(int index, object? content, bool skipParentCheck, bool copyAnnotations)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B89")]
-	[Address(RVA = "0x1C71E90", Offset = "0x1C70490", VA = "0x181C71E90")]
+	[Address(RVA = "0x5604990", Offset = "0x5603990", VA = "0x5604990")]
 	internal static JToken CreateFromContent(object? content)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8A")]
-	[Address(RVA = "0x1C71F30", Offset = "0x1C70530", VA = "0x181C71F30")]
+	[Address(RVA = "0x5604A20", Offset = "0x5603A20", VA = "0x5604A20")]
 	public JsonWriter CreateWriter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8B")]
-	[Address(RVA = "0x1C74170", Offset = "0x1C72770", VA = "0x181C74170")]
+	[Address(RVA = "0x5604A70", Offset = "0x5603A70", VA = "0x5604A70")]
 	public void ReplaceAll(object content)
 	{
 	}
 
 	[Token(Token = "0x6000B8C")]
-	[Address(RVA = "0x1C55640", Offset = "0x1C53C40", VA = "0x181C55640")]
+	[Address(RVA = "0x5604AB0", Offset = "0x5603AB0", VA = "0x5604AB0")]
 	public void RemoveAll()
 	{
 	}
@@ -811,212 +811,212 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	internal abstract void MergeItem(object content, JsonMergeSettings? settings);
 
 	[Token(Token = "0x6000B8E")]
-	[Address(RVA = "0x1C73080", Offset = "0x1C71680", VA = "0x181C73080")]
+	[Address(RVA = "0x5604AD0", Offset = "0x5603AD0", VA = "0x5604AD0")]
 	public void Merge(object? content)
 	{
 	}
 
 	[Token(Token = "0x6000B8F")]
-	[Address(RVA = "0x1C73030", Offset = "0x1C71630", VA = "0x181C73030")]
+	[Address(RVA = "0x5604C50", Offset = "0x5603C50", VA = "0x5604C50")]
 	public void Merge(object? content, JsonMergeSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B90")]
-	[Address(RVA = "0x1C75070", Offset = "0x1C73670", VA = "0x181C75070")]
+	[Address(RVA = "0x5604B10", Offset = "0x5603B10", VA = "0x5604B10")]
 	private void ValidateContent(object content)
 	{
 	}
 
 	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x1C73C10", Offset = "0x1C72210", VA = "0x181C73C10")]
+	[Address(RVA = "0x56009A0", Offset = "0x55FF9A0", VA = "0x56009A0")]
 	internal void ReadTokenFrom(JsonReader reader, JsonLoadSettings? options)
 	{
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x1C732E0", Offset = "0x1C718E0", VA = "0x181C732E0")]
+	[Address(RVA = "0x5604C90", Offset = "0x5603C90", VA = "0x5604C90")]
 	internal void ReadContentFrom(JsonReader r, JsonLoadSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x1C73870", Offset = "0x1C71E70", VA = "0x181C73870")]
+	[Address(RVA = "0x5605250", Offset = "0x5604250", VA = "0x5605250")]
 	private static JProperty? ReadProperty(JsonReader r, JsonLoadSettings? settings, IJsonLineInfo? lineInfo, JContainer parent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x1C71970", Offset = "0x1C6FF70", VA = "0x181C71970")]
+	[Address(RVA = "0x56002A0", Offset = "0x55FF2A0", VA = "0x56002A0")]
 	internal int ContentsHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B95")]
-	[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "39")]
+	[Address(RVA = "0x5605790", Offset = "0x5604790", VA = "0x5605790", Slot = "39")]
 	private string System_002EComponentModel_002EITypedList_002EGetListName(PropertyDescriptor[] listAccessors)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B96")]
-	[Address(RVA = "0x1C74B50", Offset = "0x1C73150", VA = "0x181C74B50", Slot = "40")]
+	[Address(RVA = "0x56057B0", Offset = "0x56047B0", VA = "0x56057B0", Slot = "40")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EITypedList_002EGetItemProperties(PropertyDescriptor[] listAccessors)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B97")]
-	[Address(RVA = "0x1C55BD0", Offset = "0x1C541D0", VA = "0x181C55BD0", Slot = "29")]
+	[Address(RVA = "0x5605950", Offset = "0x5604950", VA = "0x5605950", Slot = "29")]
 	private int System_002ECollections_002EGeneric_002EIList_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EIndexOf(JToken item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B98")]
-	[Address(RVA = "0x1C55BF0", Offset = "0x1C541F0", VA = "0x181C55BF0", Slot = "30")]
+	[Address(RVA = "0x5605970", Offset = "0x5604970", VA = "0x5605970", Slot = "30")]
 	private void System_002ECollections_002EGeneric_002EIList_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EInsert(int index, JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000B99")]
-	[Address(RVA = "0x1C562E0", Offset = "0x1C548E0", VA = "0x181C562E0", Slot = "31")]
+	[Address(RVA = "0x5605990", Offset = "0x5604990", VA = "0x5605990", Slot = "31")]
 	private void System_002ECollections_002EGeneric_002EIList_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000B9C")]
-	[Address(RVA = "0x1C55620", Offset = "0x1C53C20", VA = "0x181C55620", Slot = "34")]
+	[Address(RVA = "0x56059F0", Offset = "0x56049F0", VA = "0x56059F0", Slot = "34")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EAdd(JToken item)
 	{
 	}
 
 	[Token(Token = "0x6000B9D")]
-	[Address(RVA = "0x1C55640", Offset = "0x1C53C40", VA = "0x181C55640", Slot = "35")]
+	[Address(RVA = "0x5605A10", Offset = "0x5604A10", VA = "0x5605A10", Slot = "35")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EClear()
 	{
 	}
 
 	[Token(Token = "0x6000B9E")]
-	[Address(RVA = "0x1C55710", Offset = "0x1C53D10", VA = "0x181C55710", Slot = "36")]
+	[Address(RVA = "0x5605A30", Offset = "0x5604A30", VA = "0x5605A30", Slot = "36")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EContains(JToken item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B9F")]
-	[Address(RVA = "0x1C55730", Offset = "0x1C53D30", VA = "0x181C55730", Slot = "37")]
+	[Address(RVA = "0x5605A50", Offset = "0x5604A50", VA = "0x5605A50", Slot = "37")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECopyTo(JToken[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000BA1")]
-	[Address(RVA = "0x1C56300", Offset = "0x1C54900", VA = "0x181C56300", Slot = "38")]
+	[Address(RVA = "0x5605A80", Offset = "0x5604A80", VA = "0x5605A80", Slot = "38")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ERemove(JToken item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BA2")]
-	[Address(RVA = "0x1C720A0", Offset = "0x1C706A0", VA = "0x181C720A0")]
+	[Address(RVA = "0x5605AA0", Offset = "0x5604AA0", VA = "0x5605AA0")]
 	private JToken? EnsureValue(object? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BA3")]
-	[Address(RVA = "0x1C746E0", Offset = "0x1C72CE0", VA = "0x181C746E0", Slot = "60")]
+	[Address(RVA = "0x5605B40", Offset = "0x5604B40", VA = "0x5605B40", Slot = "60")]
 	private int System_002ECollections_002EIList_002EAdd(object? value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA4")]
-	[Address(RVA = "0x1C55640", Offset = "0x1C53C40", VA = "0x181C55640", Slot = "62")]
+	[Address(RVA = "0x5605C10", Offset = "0x5604C10", VA = "0x5605C10", Slot = "62")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
 	[Token(Token = "0x6000BA5")]
-	[Address(RVA = "0x1C74760", Offset = "0x1C72D60", VA = "0x181C74760", Slot = "61")]
+	[Address(RVA = "0x5605C30", Offset = "0x5604C30", VA = "0x5605C30", Slot = "61")]
 	private bool System_002ECollections_002EIList_002EContains(object? value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BA6")]
-	[Address(RVA = "0x1C74790", Offset = "0x1C72D90", VA = "0x181C74790", Slot = "65")]
+	[Address(RVA = "0x5605C60", Offset = "0x5604C60", VA = "0x5605C60", Slot = "65")]
 	private int System_002ECollections_002EIList_002EIndexOf(object? value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x1C747C0", Offset = "0x1C72DC0", VA = "0x181C747C0", Slot = "66")]
+	[Address(RVA = "0x5605C90", Offset = "0x5604C90", VA = "0x5605C90", Slot = "66")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000BAA")]
-	[Address(RVA = "0x1C74810", Offset = "0x1C72E10", VA = "0x181C74810", Slot = "67")]
+	[Address(RVA = "0x5605CF0", Offset = "0x5604CF0", VA = "0x5605CF0", Slot = "67")]
 	private void System_002ECollections_002EIList_002ERemove(object? value)
 	{
 	}
 
 	[Token(Token = "0x6000BAB")]
-	[Address(RVA = "0x1C562E0", Offset = "0x1C548E0", VA = "0x181C562E0", Slot = "68")]
+	[Address(RVA = "0x5605D20", Offset = "0x5604D20", VA = "0x5605D20", Slot = "68")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x1C55730", Offset = "0x1C53D30", VA = "0x181C55730", Slot = "69")]
+	[Address(RVA = "0x5605DA0", Offset = "0x5604DA0", VA = "0x5605DA0", Slot = "69")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x6000BB2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "53")]
+	[Address(RVA = "0x5605E50", Offset = "0x5604E50", VA = "0x5605E50", Slot = "53")]
 	private void System_002EComponentModel_002EIBindingList_002EAddIndex(PropertyDescriptor property)
 	{
 	}
 
 	[Token(Token = "0x6000BB3")]
-	[Address(RVA = "0x1C74880", Offset = "0x1C72E80", VA = "0x181C74880", Slot = "42")]
+	[Address(RVA = "0x5605E60", Offset = "0x5604E60", VA = "0x5605E60", Slot = "42")]
 	private object System_002EComponentModel_002EIBindingList_002EAddNew()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BB7")]
-	[Address(RVA = "0x1C74A90", Offset = "0x1C73090", VA = "0x181C74A90", Slot = "54")]
+	[Address(RVA = "0x5606040", Offset = "0x5605040", VA = "0x5606040", Slot = "54")]
 	private void System_002EComponentModel_002EIBindingList_002EApplySort(PropertyDescriptor property, ListSortDirection direction)
 	{
 	}
 
 	[Token(Token = "0x6000BB8")]
-	[Address(RVA = "0x1C74AD0", Offset = "0x1C730D0", VA = "0x181C74AD0", Slot = "55")]
+	[Address(RVA = "0x5606080", Offset = "0x5605080", VA = "0x5606080", Slot = "55")]
 	private int System_002EComponentModel_002EIBindingList_002EFind(PropertyDescriptor property, object key)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BBA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "56")]
+	[Address(RVA = "0x56060D0", Offset = "0x56050D0", VA = "0x56060D0", Slot = "56")]
 	private void System_002EComponentModel_002EIBindingList_002ERemoveIndex(PropertyDescriptor property)
 	{
 	}
 
 	[Token(Token = "0x6000BBB")]
-	[Address(RVA = "0x1C74B10", Offset = "0x1C73110", VA = "0x181C74B10", Slot = "57")]
+	[Address(RVA = "0x56060E0", Offset = "0x56050E0", VA = "0x56060E0", Slot = "57")]
 	private void System_002EComponentModel_002EIBindingList_002ERemoveSort()
 	{
 	}
 
 	[Token(Token = "0x6000BC1")]
-	[Address(RVA = "0x1C72680", Offset = "0x1C70C80", VA = "0x181C72680")]
+	[Address(RVA = "0x55FE220", Offset = "0x55FD220", VA = "0x55FE220")]
 	internal static void MergeEnumerableContent(JContainer target, IEnumerable content, JsonMergeSettings? settings)
 	{
 	}

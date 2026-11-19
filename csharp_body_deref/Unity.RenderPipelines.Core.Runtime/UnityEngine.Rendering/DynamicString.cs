@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DynamicString
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,37 +15,37 @@ namespace UnityEngine.Rendering;
 public class DynamicString : DynamicArray<char>
 {
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x2AC10B0", Offset = "0x2ABF6B0", VA = "0x182AC10B0")]
+	[Address(RVA = "0x64BE420", Offset = "0x64BD420", VA = "0x64BE420")]
 	public DynamicString()
 	{
 	}
 
 	[Token(Token = "0x6000509")]
-	[Address(RVA = "0x2AC1000", Offset = "0x2ABF600", VA = "0x182AC1000")]
+	[Address(RVA = "0x64BE460", Offset = "0x64BD460", VA = "0x64BE460")]
 	public DynamicString(string s)
 	{
 	}
 
 	[Token(Token = "0x600050A")]
-	[Address(RVA = "0x2AC10F0", Offset = "0x2ABF6F0", VA = "0x182AC10F0")]
+	[Address(RVA = "0x64BE510", Offset = "0x64BD510", VA = "0x64BE510")]
 	public DynamicString(int capacity)
 	{
 	}
 
 	[Token(Token = "0x600050B")]
-	[Address(RVA = "0x2AC0EB0", Offset = "0x2ABF4B0", VA = "0x182AC0EB0")]
+	[Address(RVA = "0x64BE550", Offset = "0x64BD550", VA = "0x64BE550")]
 	public void Append(string s)
 	{
 	}
 
 	[Token(Token = "0x600050C")]
-	[Address(RVA = "0x2AC0E60", Offset = "0x2ABF460", VA = "0x182AC0E60")]
+	[Address(RVA = "0x64BE660", Offset = "0x64BD660", VA = "0x64BE660")]
 	public void Append(DynamicString s)
 	{
 	}
 
 	[Token(Token = "0x600050D")]
-	[Address(RVA = "0x2AC0FB0", Offset = "0x2ABF5B0", VA = "0x182AC0FB0", Slot = "3")]
+	[Address(RVA = "0x64BE6B0", Offset = "0x64BD6B0", VA = "0x64BE6B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

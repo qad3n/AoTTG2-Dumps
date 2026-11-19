@@ -21,19 +21,19 @@ internal abstract class ResetableIterator : XPathNodeIterator
 	}
 
 	[Token(Token = "0x6001BB9")]
-	[Address(RVA = "0x26D1150", Offset = "0x26CF750", VA = "0x1826D1150")]
+	[Address(RVA = "0x6089E00", Offset = "0x6088E00", VA = "0x6089E00")]
 	public ResetableIterator()
 	{
 	}
 
 	[Token(Token = "0x6001BBA")]
-	[Address(RVA = "0x26D1170", Offset = "0x26CF770", VA = "0x1826D1170")]
+	[Address(RVA = "0x6089E50", Offset = "0x6088E50", VA = "0x6089E50")]
 	protected ResetableIterator(ResetableIterator other)
 	{
 	}
 
 	[Token(Token = "0x6001BBB")]
-	[Address(RVA = "0x152BF30", Offset = "0x152A530", VA = "0x18152BF30")]
+	[Address(RVA = "0x608C080", Offset = "0x608B080", VA = "0x608C080")]
 	protected void ResetCount()
 	{
 	}

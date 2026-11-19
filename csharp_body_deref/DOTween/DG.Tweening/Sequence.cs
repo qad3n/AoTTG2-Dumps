@@ -28,115 +28,115 @@ public sealed class Sequence : Tween
 	internal float lastTweenInsertTime;
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x5502C0", Offset = "0x54E8C0", VA = "0x1805502C0")]
+	[Address(RVA = "0x316E750", Offset = "0x316D750", VA = "0x316E750")]
 	internal Sequence()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x54F7D0", Offset = "0x54DDD0", VA = "0x18054F7D0")]
+	[Address(RVA = "0x316E890", Offset = "0x316D890", VA = "0x316E890")]
 	internal static Sequence DoPrepend(Sequence inSequence, Tween t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x54F470", Offset = "0x54DA70", VA = "0x18054F470")]
+	[Address(RVA = "0x316E9D0", Offset = "0x316D9D0", VA = "0x316E9D0")]
 	internal static Sequence DoInsert(Sequence inSequence, Tween t, float atPosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x54EEB0", Offset = "0x54D4B0", VA = "0x18054EEB0")]
+	[Address(RVA = "0x316EC30", Offset = "0x316DC30", VA = "0x316EC30")]
 	internal static Sequence DoAppendInterval(Sequence inSequence, float interval)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x54F6F0", Offset = "0x54DCF0", VA = "0x18054F6F0")]
+	[Address(RVA = "0x316EC60", Offset = "0x316DC60", VA = "0x316EC60")]
 	internal static Sequence DoPrependInterval(Sequence inSequence, float interval)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x54F340", Offset = "0x54D940", VA = "0x18054F340")]
+	[Address(RVA = "0x316ED40", Offset = "0x316DD40", VA = "0x316ED40")]
 	internal static Sequence DoInsertCallback(Sequence inSequence, TweenCallback callback, float atPosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x5501D0", Offset = "0x54E7D0", VA = "0x1805501D0", Slot = "6")]
+	[Address(RVA = "0x316EE80", Offset = "0x316DE80", VA = "0x316EE80", Slot = "6")]
 	internal override float UpdateDelay(float elapsed)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x54FD40", Offset = "0x54E340", VA = "0x18054FD40", Slot = "4")]
+	[Address(RVA = "0x316EEC0", Offset = "0x316DEC0", VA = "0x316EEC0", Slot = "4")]
 	internal override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x550200", Offset = "0x54E800", VA = "0x180550200", Slot = "5")]
+	[Address(RVA = "0x316F130", Offset = "0x316E130", VA = "0x316F130", Slot = "5")]
 	internal override bool Validate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x5501C0", Offset = "0x54E7C0", VA = "0x1805501C0", Slot = "7")]
+	[Address(RVA = "0x316F1F0", Offset = "0x316E1F0", VA = "0x316F1F0", Slot = "7")]
 	internal override bool Startup()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x54EE90", Offset = "0x54D490", VA = "0x18054EE90", Slot = "8")]
+	[Address(RVA = "0x316F4B0", Offset = "0x316E4B0", VA = "0x316F4B0", Slot = "8")]
 	internal override bool ApplyTween(float prevPosition, int prevCompletedLoops, int newCompletedSteps, bool useInversePosition, UpdateMode updateMode, UpdateNotice updateNotice)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x54FF60", Offset = "0x54E560", VA = "0x18054FF60")]
+	[Address(RVA = "0x3168A70", Offset = "0x3167A70", VA = "0x3168A70")]
 	internal static void Setup(Sequence s)
 	{
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x54F910", Offset = "0x54DF10", VA = "0x18054F910")]
+	[Address(RVA = "0x316F200", Offset = "0x316E200", VA = "0x316F200")]
 	internal static bool DoStartup(Sequence s)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x54EEF0", Offset = "0x54D4F0", VA = "0x18054EEF0")]
+	[Address(RVA = "0x316F4C0", Offset = "0x316E4C0", VA = "0x316F4C0")]
 	internal static bool DoApplyTween(Sequence s, float prevPosition, int prevCompletedLoops, int newCompletedSteps, bool useInversePosition, UpdateMode updateMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x54E5F0", Offset = "0x54CBF0", VA = "0x18054E5F0")]
+	[Address(RVA = "0x316FA80", Offset = "0x316EA80", VA = "0x316FA80")]
 	private static bool ApplyInternalCycle(Sequence s, float fromPos, float toPos, UpdateMode updateMode, bool useInverse, bool prevPosIsInverse, bool multiCycleStep = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x550090", Offset = "0x54E690", VA = "0x180550090")]
+	[Address(RVA = "0x316F940", Offset = "0x316E940", VA = "0x316F940")]
 	private static void StableSortSequencedObjs(List<ABSSequentiable> list)
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x54FCE0", Offset = "0x54E2E0", VA = "0x18054FCE0")]
+	[Address(RVA = "0x316F8F0", Offset = "0x316E8F0", VA = "0x316F8F0")]
 	private static bool IsAnyCallbackSet(Sequence s)
 	{
 		return default(bool);

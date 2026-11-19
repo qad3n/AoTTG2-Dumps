@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200050E")]
+[Token(Token = "0x20004E7")]
 public interface IReflectableType
 {
-	[Token(Token = "0x60024A4")]
+	[Token(Token = "0x6002472")]
 	TypeInfo GetTypeInfo();
 }

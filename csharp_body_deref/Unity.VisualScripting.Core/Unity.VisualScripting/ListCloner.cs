@@ -15,20 +15,20 @@ namespace Unity.VisualScripting;
 public sealed class ListCloner : Cloner<IList>
 {
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2DB2120", Offset = "0x2DB0720", VA = "0x182DB2120", Slot = "9")]
+	[Address(RVA = "0x678EFC0", Offset = "0x678DFC0", VA = "0x678EFC0", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x2DB1BF0", Offset = "0x2DB01F0", VA = "0x182DB1BF0", Slot = "12")]
+	[Address(RVA = "0x678F040", Offset = "0x678E040", VA = "0x678F040", Slot = "12")]
 	public override void FillClone(Type type, ref IList clone, IList original, CloningContext context)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x2DB21A0", Offset = "0x2DB07A0", VA = "0x182DB21A0")]
+	[Address(RVA = "0x678FAA0", Offset = "0x678EAA0", VA = "0x678FAA0")]
 	public ListCloner()
 	{
 	}

@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.CodeAnalysis;
 
-[Token(Token = "0x20005C5")]
+[Token(Token = "0x20005A0")]
 [AttributeUsage(AttributeTargets.Parameter, Inherited = false)]
 public sealed class NotNullWhenAttribute : Attribute
 {
-	[Token(Token = "0x4001857")]
+	[Token(Token = "0x40017BE")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly bool _003CReturnValue_003Ek__BackingField;
 
-	[Token(Token = "0x6002BB2")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6002B91")]
+	[Address(RVA = "0x544FEC0", Offset = "0x544EEC0", VA = "0x544FEC0")]
 	public NotNullWhenAttribute(bool returnValue)
 	{
 	}

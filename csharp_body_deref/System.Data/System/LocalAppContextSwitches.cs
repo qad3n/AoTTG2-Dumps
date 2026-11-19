@@ -15,7 +15,7 @@ internal static class LocalAppContextSwitches
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x24E4100", Offset = "0x24E2700", VA = "0x1824E4100")]
+		[Address(RVA = "0x5E615B0", Offset = "0x5E605B0", VA = "0x5E615B0")]
 		get
 		{
 			return default(bool);

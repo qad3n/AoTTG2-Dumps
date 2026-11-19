@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -59,7 +59,7 @@ internal struct UnsafeParallelHashMapData
 	internal unsafe int* firstFreeTLS
 	{
 		[Token(Token = "0x6000C3C")]
-		[Address(RVA = "0x29BC050", Offset = "0x29BA650", VA = "0x1829BC050")]
+		[Address(RVA = "0x638D500", Offset = "0x638C500", VA = "0x638D500")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -68,14 +68,14 @@ internal struct UnsafeParallelHashMapData
 	}
 
 	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x29BF850", Offset = "0x29BDE50", VA = "0x1829BF850")]
+	[Address(RVA = "0x638D510", Offset = "0x638C510", VA = "0x638D510")]
 	internal static long GetBucketSize(int capacity)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000C3E")]
-	[Address(RVA = "0x29BF8F0", Offset = "0x29BDEF0", VA = "0x1829BF8F0")]
+	[Address(RVA = "0x638D520", Offset = "0x638C520", VA = "0x638D520")]
 	internal static int GrowCapacity(int capacity)
 	{
 		return default(int);
@@ -102,7 +102,7 @@ internal struct UnsafeParallelHashMapData
 	}
 
 	[Token(Token = "0x6000C41")]
-	[Address(RVA = "0x29BF7B0", Offset = "0x29BDDB0", VA = "0x1829BF7B0")]
+	[Address(RVA = "0x638D530", Offset = "0x638C530", VA = "0x638D530")]
 	internal unsafe static void DeallocateHashMap(UnsafeParallelHashMapData* data, AllocatorManager.AllocatorHandle allocator)
 	{
 	}
@@ -119,21 +119,21 @@ internal struct UnsafeParallelHashMapData
 	}
 
 	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x29BF900", Offset = "0x29BDF00", VA = "0x1829BF900")]
+	[Address(RVA = "0x638D5A0", Offset = "0x638C5A0", VA = "0x638D5A0")]
 	internal unsafe static bool IsEmpty(UnsafeParallelHashMapData* data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x29BF860", Offset = "0x29BDE60", VA = "0x1829BF860")]
+	[Address(RVA = "0x638D5E0", Offset = "0x638C5E0", VA = "0x638D5E0")]
 	internal unsafe static int GetCount(UnsafeParallelHashMapData* data)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x29BF950", Offset = "0x29BDF50", VA = "0x1829BF950")]
+	[Address(RVA = "0x638D660", Offset = "0x638C660", VA = "0x638D660")]
 	internal unsafe static bool MoveNextSearch(UnsafeParallelHashMapData* data, ref int bucketIndex, ref int nextIndex, out int index)
 	{
 		return default(bool);
@@ -141,7 +141,7 @@ internal struct UnsafeParallelHashMapData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x29BF9E0", Offset = "0x29BDFE0", VA = "0x1829BF9E0")]
+	[Address(RVA = "0x638D6D0", Offset = "0x638C6D0", VA = "0x638D6D0")]
 	internal unsafe static bool MoveNext(UnsafeParallelHashMapData* data, ref int bucketIndex, ref int nextIndex, out int index)
 	{
 		return default(bool);
@@ -170,14 +170,14 @@ internal struct UnsafeParallelHashMapData
 	}
 
 	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x29BF820", Offset = "0x29BDE20", VA = "0x1829BF820")]
+	[Address(RVA = "0x638D760", Offset = "0x638C760", VA = "0x638D760")]
 	internal UnsafeParallelHashMapBucketData GetBucketData()
 	{
 		return default(UnsafeParallelHashMapBucketData);
 	}
 
 	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x29BF740", Offset = "0x29BDD40", VA = "0x1829BF740")]
+	[Address(RVA = "0x638D780", Offset = "0x638C780", VA = "0x638D780")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private unsafe static void CheckHashMapReallocateDoesNotShrink(UnsafeParallelHashMapData* data, int newCapacity)
@@ -186,7 +186,7 @@ internal struct UnsafeParallelHashMapData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x29BF680", Offset = "0x29BDC80", VA = "0x1829BF680")]
+	[Address(RVA = "0x638D7E0", Offset = "0x638C7E0", VA = "0x638D7E0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckCapacity(int capacity)

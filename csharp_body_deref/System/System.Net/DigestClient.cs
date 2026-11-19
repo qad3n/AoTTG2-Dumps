@@ -10,57 +10,57 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200031A")]
+[Token(Token = "0x20002DB")]
 internal class DigestClient : IAuthenticationModule
 {
-	[Token(Token = "0x4000BDE")]
+	[Token(Token = "0x4000B0F")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Hashtable cache;
 
-	[Token(Token = "0x17000485")]
+	[Token(Token = "0x17000456")]
 	private static Hashtable Cache
 	{
-		[Token(Token = "0x6001565")]
-		[Address(RVA = "0x27DE670", Offset = "0x27DCC70", VA = "0x1827DE670")]
+		[Token(Token = "0x60013A7")]
+		[Address(RVA = "0x6182070", Offset = "0x6181070", VA = "0x6182070")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000486")]
+	[Token(Token = "0x17000457")]
 	public string AuthenticationType
 	{
-		[Token(Token = "0x6001569")]
-		[Address(RVA = "0x27DE640", Offset = "0x27DCC40", VA = "0x1827DE640", Slot = "6")]
+		[Token(Token = "0x60013AB")]
+		[Address(RVA = "0x6182F70", Offset = "0x6181F70", VA = "0x6182F70", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001566")]
-	[Address(RVA = "0x27DDD50", Offset = "0x27DC350", VA = "0x1827DDD50")]
+	[Token(Token = "0x60013A8")]
+	[Address(RVA = "0x6182210", Offset = "0x6181210", VA = "0x6182210")]
 	private static void CheckExpired(int count)
 	{
 	}
 
-	[Token(Token = "0x6001567")]
-	[Address(RVA = "0x27DDA10", Offset = "0x27DC010", VA = "0x1827DDA10", Slot = "4")]
+	[Token(Token = "0x60013A9")]
+	[Address(RVA = "0x6182AF0", Offset = "0x6181AF0", VA = "0x6182AF0", Slot = "4")]
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001568")]
-	[Address(RVA = "0x27DE420", Offset = "0x27DCA20", VA = "0x1827DE420", Slot = "5")]
+	[Token(Token = "0x60013AA")]
+	[Address(RVA = "0x6182E00", Offset = "0x6181E00", VA = "0x6182E00", Slot = "5")]
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600156A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60013AC")]
+	[Address(RVA = "0x617EF70", Offset = "0x617DF70", VA = "0x617EF70")]
 	public DigestClient()
 	{
 	}

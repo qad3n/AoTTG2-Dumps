@@ -10,6 +10,6 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000225")]
+[Token(Token = "0x20001FD")]
 [ComVisible(true)]
 public delegate void ContextCallback(object state);

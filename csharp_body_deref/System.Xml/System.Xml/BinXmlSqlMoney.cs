@@ -17,26 +17,26 @@ internal struct BinXmlSqlMoney
 	private long data;
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x1B82780", Offset = "0x1B80D80", VA = "0x181B82780")]
+	[Address(RVA = "0x5F8C860", Offset = "0x5F8B860", VA = "0x5F8C860")]
 	public BinXmlSqlMoney(int v)
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Address(RVA = "0x5F8C870", Offset = "0x5F8B870", VA = "0x5F8C870")]
 	public BinXmlSqlMoney(long v)
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x25D0E00", Offset = "0x25CF400", VA = "0x1825D0E00")]
+	[Address(RVA = "0x5F8C880", Offset = "0x5F8B880", VA = "0x5F8C880")]
 	public decimal ToDecimal()
 	{
 		return 0m;
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x25D0E50", Offset = "0x25CF450", VA = "0x1825D0E50", Slot = "3")]
+	[Address(RVA = "0x5F8C8D0", Offset = "0x5F8B8D0", VA = "0x5F8C8D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000085")]
+[Token(Token = "0x2000086")]
 public interface IArgumentProvider
 {
-	[Token(Token = "0x1700008A")]
+	[Token(Token = "0x1700008C")]
 	int ArgumentCount
 	{
-		[Token(Token = "0x60003FA")]
+		[Token(Token = "0x6000405")]
 		get;
 	}
 
-	[Token(Token = "0x60003F9")]
+	[Token(Token = "0x6000404")]
 	Expression GetArgument(int index);
 }

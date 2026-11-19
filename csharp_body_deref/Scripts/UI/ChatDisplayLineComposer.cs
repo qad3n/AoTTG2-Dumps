@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000770")]
+[Token(Token = "0x200081B")]
 internal static class ChatDisplayLineComposer
 {
-	[Token(Token = "0x6004847")]
-	[Address(RVA = "0x2228980", Offset = "0x2226F80", VA = "0x182228980")]
+	[Token(Token = "0x6004D69")]
+	[Address(RVA = "0x5C08650", Offset = "0x5C07650", VA = "0x5C08650")]
 	public static string ComposePlayerLine(ChatManager.ChatDisplayLine line, out ChatDisplayNameRange nameRange, float extraNameReservePixels = 0f)
 	{
 		return null;

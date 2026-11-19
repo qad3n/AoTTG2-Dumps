@@ -17,7 +17,7 @@ public class InputEvent : EventBase<InputEvent>
 	protected string previousData
 	{
 		[Token(Token = "0x6000CF6")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x6C66990", Offset = "0x6C65990", VA = "0x6C66990")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ public class InputEvent : EventBase<InputEvent>
 	protected string newData
 	{
 		[Token(Token = "0x6000CF7")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x6C669A0", Offset = "0x6C659A0", VA = "0x6C669A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,32 +36,32 @@ public class InputEvent : EventBase<InputEvent>
 	}
 
 	[Token(Token = "0x6000CF5")]
-	[Address(RVA = "0x3266730", Offset = "0x3264D30", VA = "0x183266730")]
+	[Address(RVA = "0x6C668C0", Offset = "0x6C658C0", VA = "0x6C668C0")]
 	static InputEvent()
 	{
 	}
 
 	[Token(Token = "0x6000CF8")]
-	[Address(RVA = "0x3266680", Offset = "0x3264C80", VA = "0x183266680", Slot = "13")]
+	[Address(RVA = "0x6C669B0", Offset = "0x6C659B0", VA = "0x6C669B0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000CF9")]
-	[Address(RVA = "0x32666F0", Offset = "0x3264CF0", VA = "0x1832666F0")]
+	[Address(RVA = "0x6C66A20", Offset = "0x6C65A20", VA = "0x6C66A20")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000CFA")]
-	[Address(RVA = "0x32665E0", Offset = "0x3264BE0", VA = "0x1832665E0")]
+	[Address(RVA = "0x6C66A60", Offset = "0x6C65A60", VA = "0x6C66A60")]
 	public static InputEvent GetPooled(string previousData, string newData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFB")]
-	[Address(RVA = "0x3266810", Offset = "0x3264E10", VA = "0x183266810")]
+	[Address(RVA = "0x6C66B00", Offset = "0x6C65B00", VA = "0x6C66B00")]
 	public InputEvent()
 	{
 	}

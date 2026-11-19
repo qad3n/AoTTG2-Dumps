@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class AttachToPanelEvent : PanelChangedEventBase<AttachToPanelEvent>
 {
 	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x32565A0", Offset = "0x3254BA0", VA = "0x1832565A0")]
+	[Address(RVA = "0x6C6C1D0", Offset = "0x6C6B1D0", VA = "0x6C6C1D0")]
 	static AttachToPanelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x3256680", Offset = "0x3254C80", VA = "0x183256680")]
+	[Address(RVA = "0x6C6C2A0", Offset = "0x6C6B2A0", VA = "0x6C6C2A0")]
 	public AttachToPanelEvent()
 	{
 	}

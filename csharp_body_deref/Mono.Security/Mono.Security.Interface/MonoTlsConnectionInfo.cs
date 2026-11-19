@@ -11,66 +11,66 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x200003E")]
+[Token(Token = "0x200002C")]
 public class MonoTlsConnectionInfo
 {
-	[Token(Token = "0x17000062")]
+	[Token(Token = "0x1700005F")]
 	[CLSCompliant(false)]
 	public CipherSuiteCode CipherSuiteCode
 	{
-		[Token(Token = "0x6000147")]
-		[Address(RVA = "0xE998C0", Offset = "0xE97EC0", VA = "0x180E998C0")]
+		[Token(Token = "0x6000123")]
+		[Address(RVA = "0x52C7D00", Offset = "0x52C6D00", VA = "0x52C7D00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(CipherSuiteCode);
 		}
-		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x19372F0", Offset = "0x19358F0", VA = "0x1819372F0")]
+		[Token(Token = "0x6000124")]
+		[Address(RVA = "0x52C7D10", Offset = "0x52C6D10", VA = "0x52C7D10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000063")]
+	[Token(Token = "0x17000060")]
 	public TlsProtocols ProtocolVersion
 	{
-		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Token(Token = "0x6000125")]
+		[Address(RVA = "0x52C7D20", Offset = "0x52C6D20", VA = "0x52C7D20")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TlsProtocols);
 		}
-		[Token(Token = "0x600014A")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Token(Token = "0x6000126")]
+		[Address(RVA = "0x52C7D30", Offset = "0x52C6D30", VA = "0x52C7D30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000064")]
+	[Token(Token = "0x17000061")]
 	public string PeerDomainName
 	{
-		[Token(Token = "0x600014B")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6000127")]
+		[Address(RVA = "0x52C7D40", Offset = "0x52C6D40", VA = "0x52C7D40")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x1937250", Offset = "0x1935850", VA = "0x181937250", Slot = "3")]
+	[Token(Token = "0x6000128")]
+	[Address(RVA = "0x52C7D50", Offset = "0x52C6D50", VA = "0x52C7D50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000129")]
+	[Address(RVA = "0x52C7DF0", Offset = "0x52C6DF0", VA = "0x52C7DF0")]
 	public MonoTlsConnectionInfo()
 	{
 	}

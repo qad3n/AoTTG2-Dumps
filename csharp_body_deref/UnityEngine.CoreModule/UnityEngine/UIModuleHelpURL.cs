@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIModuleHelpURL
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,30 +10,30 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001E2")]
+[Token(Token = "0x20001E3")]
 [UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIModule" })]
 internal class UIModuleHelpURL : HelpURLAttribute
 {
-	[Token(Token = "0x17000295")]
+	[Token(Token = "0x1700029C")]
 	private static string version
 	{
-		[Token(Token = "0x6000FCA")]
-		[Address(RVA = "0x2F5CA10", Offset = "0x2F5B010", VA = "0x182F5CA10")]
+		[Token(Token = "0x6000FE0")]
+		[Address(RVA = "0x6929A20", Offset = "0x6928A20", VA = "0x6929A20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000FCB")]
-	[Address(RVA = "0x2F5C740", Offset = "0x2F5AD40", VA = "0x182F5C740")]
+	[Token(Token = "0x6000FE1")]
+	[Address(RVA = "0x6929A50", Offset = "0x6928A50", VA = "0x6929A50")]
 	private static string GetScriptURL(string urlBody)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x2F5C8A0", Offset = "0x2F5AEA0", VA = "0x182F5C8A0")]
+	[Token(Token = "0x6000FE2")]
+	[Address(RVA = "0x6929BC0", Offset = "0x6928BC0", VA = "0x6929BC0")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIModule" })]
 	internal UIModuleHelpURL(string urlBody)
 	{

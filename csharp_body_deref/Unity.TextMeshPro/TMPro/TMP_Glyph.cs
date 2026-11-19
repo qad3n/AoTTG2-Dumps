@@ -15,14 +15,14 @@ namespace TMPro;
 public class TMP_Glyph : TMP_TextElement_Legacy
 {
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x2CF76D0", Offset = "0x2CF5CD0", VA = "0x182CF76D0")]
+	[Address(RVA = "0x66F3290", Offset = "0x66F2290", VA = "0x66F3290")]
 	public static TMP_Glyph Clone(TMP_Glyph source)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x66F3310", Offset = "0x66F2310", VA = "0x66F3310")]
 	public TMP_Glyph()
 	{
 	}

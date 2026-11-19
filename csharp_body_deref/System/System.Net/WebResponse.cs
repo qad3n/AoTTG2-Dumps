@@ -12,90 +12,90 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002DF")]
+[Token(Token = "0x20002A0")]
 public abstract class WebResponse : MarshalByRefObject, ISerializable, IDisposable
 {
-	[Token(Token = "0x4000B01")]
+	[Token(Token = "0x4000A32")]
 	[FieldOffset(Offset = "0x18")]
 	private bool m_IsFromCache;
 
-	[Token(Token = "0x17000429")]
+	[Token(Token = "0x170003FA")]
 	public virtual bool IsFromCache
 	{
-		[Token(Token = "0x6001421")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30", Slot = "11")]
+		[Token(Token = "0x6001263")]
+		[Address(RVA = "0x62ACA60", Offset = "0x62ABA60", VA = "0x62ACA60", Slot = "11")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700042A")]
+	[Token(Token = "0x170003FB")]
 	public virtual Uri ResponseUri
 	{
-		[Token(Token = "0x6001423")]
-		[Address(RVA = "0x27DAFB0", Offset = "0x27D95B0", VA = "0x1827DAFB0", Slot = "13")]
+		[Token(Token = "0x6001265")]
+		[Address(RVA = "0x62ACA90", Offset = "0x62ABA90", VA = "0x62ACA90", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700042B")]
+	[Token(Token = "0x170003FC")]
 	public virtual WebHeaderCollection Headers
 	{
-		[Token(Token = "0x6001424")]
-		[Address(RVA = "0x27DAF80", Offset = "0x27D9580", VA = "0x1827DAF80", Slot = "14")]
+		[Token(Token = "0x6001266")]
+		[Address(RVA = "0x62ACAB0", Offset = "0x62ABAB0", VA = "0x62ACAB0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600141A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600125C")]
+	[Address(RVA = "0x62A4AE0", Offset = "0x62A3AE0", VA = "0x62A4AE0")]
 	protected WebResponse()
 	{
 	}
 
-	[Token(Token = "0x600141B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600125D")]
+	[Address(RVA = "0x62AC910", Offset = "0x62AB910", VA = "0x62AC910")]
 	protected WebResponse(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600141C")]
-	[Address(RVA = "0x27CB5E0", Offset = "0x27C9BE0", VA = "0x1827CB5E0", Slot = "6")]
+	[Token(Token = "0x600125E")]
+	[Address(RVA = "0x62AC920", Offset = "0x62AB920", VA = "0x62AC920", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600141D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x600125F")]
+	[Address(RVA = "0x62AC940", Offset = "0x62AB940", VA = "0x62AC940", Slot = "8")]
 	protected virtual void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600141E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x6001260")]
+	[Address(RVA = "0x62AC950", Offset = "0x62AB950", VA = "0x62AC950", Slot = "9")]
 	public virtual void Close()
 	{
 	}
 
-	[Token(Token = "0x600141F")]
-	[Address(RVA = "0x27DAEF0", Offset = "0x27D94F0", VA = "0x1827DAEF0", Slot = "7")]
+	[Token(Token = "0x6001261")]
+	[Address(RVA = "0x62AC960", Offset = "0x62AB960", VA = "0x62AC960", Slot = "7")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001420")]
-	[Address(RVA = "0x27DAED0", Offset = "0x27D94D0", VA = "0x1827DAED0", Slot = "10")]
+	[Token(Token = "0x6001262")]
+	[Address(RVA = "0x62AC9D0", Offset = "0x62AB9D0", VA = "0x62AC9D0", Slot = "10")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001422")]
-	[Address(RVA = "0x27DAF50", Offset = "0x27D9550", VA = "0x1827DAF50", Slot = "12")]
+	[Token(Token = "0x6001264")]
+	[Address(RVA = "0x62ACA70", Offset = "0x62ABA70", VA = "0x62ACA70", Slot = "12")]
 	public virtual Stream GetResponseStream()
 	{
 		return null;

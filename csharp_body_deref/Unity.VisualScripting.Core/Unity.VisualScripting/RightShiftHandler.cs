@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public class RightShiftHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000CA0")]
-	[Address(RVA = "0x2E20F90", Offset = "0x2E1F590", VA = "0x182E20F90")]
+	[Address(RVA = "0x681F8E0", Offset = "0x681E8E0", VA = "0x681F8E0")]
 	public RightShiftHandler()
 	{
 	}

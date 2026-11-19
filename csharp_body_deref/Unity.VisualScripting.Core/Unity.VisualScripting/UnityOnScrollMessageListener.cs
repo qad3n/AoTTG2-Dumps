@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnScrollMessageListener : MessageListener, IScrollHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x2DBEAB0", Offset = "0x2DBD0B0", VA = "0x182DBEAB0", Slot = "4")]
+	[Address(RVA = "0x67A6690", Offset = "0x67A5690", VA = "0x67A6690", Slot = "4")]
 	public void OnScroll(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A6720", Offset = "0x67A5720", VA = "0x67A6720")]
 	public UnityOnScrollMessageListener()
 	{
 	}

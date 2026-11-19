@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.LowLevel.Unsafe.UnsafeBitArrayDebugView
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ internal sealed class UnsafeBitArrayDebugView
 	public bool[] Bits
 	{
 		[Token(Token = "0x6000B40")]
-		[Address(RVA = "0x29BE230", Offset = "0x29BC830", VA = "0x1829BE230")]
+		[Address(RVA = "0x638D3E0", Offset = "0x638C3E0", VA = "0x638D3E0")]
 		get
 		{
 			return null;
@@ -28,7 +28,7 @@ internal sealed class UnsafeBitArrayDebugView
 	}
 
 	[Token(Token = "0x6000B3F")]
-	[Address(RVA = "0xEC1E50", Offset = "0xEC0450", VA = "0x180EC1E50")]
+	[Address(RVA = "0x638D3C0", Offset = "0x638C3C0", VA = "0x638D3C0")]
 	public UnsafeBitArrayDebugView(UnsafeBitArray data)
 	{
 	}

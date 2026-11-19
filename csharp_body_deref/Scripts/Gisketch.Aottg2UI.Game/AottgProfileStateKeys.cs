@@ -9,99 +9,99 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002CD")]
+[Token(Token = "0x200032A")]
 internal static class AottgProfileStateKeys
 {
-	[Token(Token = "0x4000E46")]
+	[Token(Token = "0x4000FD5")]
 	public const string SaveOperation = "profile.save";
 
-	[Token(Token = "0x4000E47")]
+	[Token(Token = "0x4000FD6")]
 	public const string SaveIdle = "profile.save.idle";
 
-	[Token(Token = "0x4000E48")]
+	[Token(Token = "0x4000FD7")]
 	public const string CharacterName = "profile.characterName";
 
-	[Token(Token = "0x4000E49")]
+	[Token(Token = "0x4000FD8")]
 	public const string CharacterGuild = "profile.characterGuild";
 
-	[Token(Token = "0x4000E4A")]
+	[Token(Token = "0x4000FD9")]
 	public const string CharacterPresetGuild = "profile.characterPresetGuild";
 
-	[Token(Token = "0x4000E4B")]
+	[Token(Token = "0x4000FDA")]
 	public const string CharacterBadges = "profile.characterBadges";
 
-	[Token(Token = "0x4000E4C")]
+	[Token(Token = "0x4000FDB")]
 	public const string CharacterInfoJson = "profile.characterInfoJson";
 
-	[Token(Token = "0x4000E4D")]
+	[Token(Token = "0x4000FDC")]
 	public const string AccountName = "profile.accountName";
 
-	[Token(Token = "0x4000E4E")]
+	[Token(Token = "0x4000FDD")]
 	public const string Bio = "profile.bio";
 
-	[Token(Token = "0x4000E4F")]
+	[Token(Token = "0x4000FDE")]
 	public const string AvatarSprite = "profile.avatarSprite";
 
-	[Token(Token = "0x4000E50")]
+	[Token(Token = "0x4000FDF")]
 	public const string BannerSprite = "profile.bannerSprite";
 
-	[Token(Token = "0x4000E51")]
+	[Token(Token = "0x4000FE0")]
 	public const string IdentityLoading = "profile.identity.loading";
 
-	[Token(Token = "0x4000E52")]
+	[Token(Token = "0x4000FE1")]
 	public const string IdentityReady = "profile.identity.ready";
 
-	[Token(Token = "0x4000E53")]
+	[Token(Token = "0x4000FE2")]
 	public const string PatreonStatus = "profile.patreon.status";
 
-	[Token(Token = "0x4000E54")]
+	[Token(Token = "0x4000FE3")]
 	public const string PatreonCtaVisible = "profile.patreon.cta.visible";
 
-	[Token(Token = "0x4000E55")]
+	[Token(Token = "0x4000FE4")]
 	public const string DiscordStatus = "profile.discord.status";
 
-	[Token(Token = "0x4000E56")]
+	[Token(Token = "0x4000FE5")]
 	public const string DiscordLinkVisible = "profile.discord.link.visible";
 
-	[Token(Token = "0x4000E57")]
+	[Token(Token = "0x4000FE6")]
 	public const string GoogleStatus = "profile.google.status";
 
-	[Token(Token = "0x4000E58")]
+	[Token(Token = "0x4000FE7")]
 	public const string GoogleLinkVisible = "profile.google.link.visible";
 
-	[Token(Token = "0x4000E59")]
+	[Token(Token = "0x4000FE8")]
 	public const string NoSocials = "profile.socials.empty";
 
-	[Token(Token = "0x600118A")]
-	[Address(RVA = "0x1E1EDF0", Offset = "0x1E1D3F0", VA = "0x181E1EDF0")]
+	[Token(Token = "0x60013DB")]
+	[Address(RVA = "0x57FB1A0", Offset = "0x57FA1A0", VA = "0x57FB1A0")]
 	public static string Social(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600118B")]
-	[Address(RVA = "0x1E1ED90", Offset = "0x1E1D390", VA = "0x181E1ED90")]
+	[Token(Token = "0x60013DC")]
+	[Address(RVA = "0x58097A0", Offset = "0x58087A0", VA = "0x58097A0")]
 	public static string SocialVisible(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600118C")]
-	[Address(RVA = "0x1E1ED40", Offset = "0x1E1D340", VA = "0x181E1ED40")]
+	[Token(Token = "0x60013DD")]
+	[Address(RVA = "0x5809800", Offset = "0x5808800", VA = "0x5809800")]
 	public static string EmoteText(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600118D")]
-	[Address(RVA = "0x1E1EC80", Offset = "0x1E1D280", VA = "0x181E1EC80")]
+	[Token(Token = "0x60013DE")]
+	[Address(RVA = "0x5809850", Offset = "0x5808850", VA = "0x5809850")]
 	public static string EmoteStickerLabel(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600118E")]
-	[Address(RVA = "0x1E1ECE0", Offset = "0x1E1D2E0", VA = "0x181E1ECE0")]
+	[Token(Token = "0x60013DF")]
+	[Address(RVA = "0x58098B0", Offset = "0x58088B0", VA = "0x58098B0")]
 	public static string EmoteStickerSprite(int index)
 	{
 		return null;

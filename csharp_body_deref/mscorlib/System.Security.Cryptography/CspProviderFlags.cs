@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000305")]
-[Flags]
+[Token(Token = "0x20002DE")]
 [ComVisible(true)]
+[Flags]
 public enum CspProviderFlags
 {
-	[Token(Token = "0x4000CF8")]
+	[Token(Token = "0x4000C58")]
 	NoFlags = 0,
-	[Token(Token = "0x4000CF9")]
+	[Token(Token = "0x4000C59")]
 	UseMachineKeyStore = 1,
-	[Token(Token = "0x4000CFA")]
+	[Token(Token = "0x4000C5A")]
 	UseDefaultKeyContainer = 2,
-	[Token(Token = "0x4000CFB")]
+	[Token(Token = "0x4000C5B")]
 	UseNonExportableKey = 4,
-	[Token(Token = "0x4000CFC")]
+	[Token(Token = "0x4000C5C")]
 	UseExistingKey = 8,
-	[Token(Token = "0x4000CFD")]
+	[Token(Token = "0x4000C5D")]
 	UseArchivableKey = 0x10,
-	[Token(Token = "0x4000CFE")]
+	[Token(Token = "0x4000C5E")]
 	UseUserProtectedKey = 0x20,
-	[Token(Token = "0x4000CFF")]
+	[Token(Token = "0x4000C5F")]
 	NoPrompt = 0x40,
-	[Token(Token = "0x4000D00")]
+	[Token(Token = "0x4000C60")]
 	CreateEphemeralKey = 0x80
 }

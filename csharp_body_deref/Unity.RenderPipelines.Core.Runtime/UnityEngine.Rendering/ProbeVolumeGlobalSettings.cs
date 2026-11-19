@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeGlobalSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ internal class ProbeVolumeGlobalSettings : IRenderPipelineGraphicsSettings
 	public int version
 	{
 		[Token(Token = "0x6000AA6")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x650DB30", Offset = "0x650CB30", VA = "0x650DB30", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -44,20 +44,20 @@ internal class ProbeVolumeGlobalSettings : IRenderPipelineGraphicsSettings
 	public bool probeVolumeDisableStreamingAssets
 	{
 		[Token(Token = "0x6000AA7")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x650DB40", Offset = "0x650CB40", VA = "0x650DB40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AA8")]
-		[Address(RVA = "0x2B2ABE0", Offset = "0x2B291E0", VA = "0x182B2ABE0")]
+		[Address(RVA = "0x650DB50", Offset = "0x650CB50", VA = "0x650DB50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x18D09C0", Offset = "0x18CEFC0", VA = "0x1818D09C0")]
+	[Address(RVA = "0x650DBB0", Offset = "0x650CBB0", VA = "0x650DBB0")]
 	public ProbeVolumeGlobalSettings()
 	{
 	}

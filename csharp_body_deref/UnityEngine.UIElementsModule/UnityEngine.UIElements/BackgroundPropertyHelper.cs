@@ -13,28 +13,28 @@ namespace UnityEngine.UIElements;
 public static class BackgroundPropertyHelper
 {
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x307DB10", Offset = "0x307C110", VA = "0x18307DB10")]
+	[Address(RVA = "0x6A7C290", Offset = "0x6A7B290", VA = "0x6A7C290")]
 	public static BackgroundPosition ConvertScaleModeToBackgroundPosition(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x307DCA0", Offset = "0x307C2A0", VA = "0x18307DCA0")]
+	[Address(RVA = "0x6A7C7F0", Offset = "0x6A7B7F0", VA = "0x6A7C7F0")]
 	public static BackgroundRepeat ConvertScaleModeToBackgroundRepeat(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundRepeat);
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x307DCB0", Offset = "0x307C2B0", VA = "0x18307DCB0")]
+	[Address(RVA = "0x6A7C810", Offset = "0x6A7B810", VA = "0x6A7C810")]
 	public static BackgroundSize ConvertScaleModeToBackgroundSize(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundSize);
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x307DD70", Offset = "0x307C370", VA = "0x18307DD70")]
+	[Address(RVA = "0x6A7C940", Offset = "0x6A7B940", VA = "0x6A7C940")]
 	public static ScaleMode ResolveUnityBackgroundScaleMode(BackgroundPosition backgroundPositionX, BackgroundPosition backgroundPositionY, BackgroundRepeat backgroundRepeat, BackgroundSize backgroundSize, out bool valid)
 	{
 		return default(ScaleMode);

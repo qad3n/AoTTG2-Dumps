@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ScheduledItem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,14 +30,14 @@ internal abstract class ScheduledItem
 	public long startMs
 	{
 		[Token(Token = "0x60013A7")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6CC33C0", Offset = "0x6CC23C0", VA = "0x6CC33C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013A8")]
-		[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
+		[Address(RVA = "0x6CC33D0", Offset = "0x6CC23D0", VA = "0x6CC33D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -48,14 +48,14 @@ internal abstract class ScheduledItem
 	public long delayMs
 	{
 		[Token(Token = "0x60013A9")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6CC33E0", Offset = "0x6CC23E0", VA = "0x6CC33E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013AA")]
-		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
+		[Address(RVA = "0x6CC33F0", Offset = "0x6CC23F0", VA = "0x6CC33F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -66,14 +66,14 @@ internal abstract class ScheduledItem
 	public long intervalMs
 	{
 		[Token(Token = "0x60013AB")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6CC3400", Offset = "0x6CC2400", VA = "0x6CC3400")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013AC")]
-		[Address(RVA = "0x325B9B0", Offset = "0x3259FB0", VA = "0x18325B9B0")]
+		[Address(RVA = "0x6CC3410", Offset = "0x6CC2410", VA = "0x6CC3410")]
 		[CompilerGenerated]
 		set
 		{
@@ -84,7 +84,7 @@ internal abstract class ScheduledItem
 	public long endTimeMs
 	{
 		[Token(Token = "0x60013AD")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6CC3420", Offset = "0x6CC2420", VA = "0x6CC3420")]
 		[CompilerGenerated]
 		get
 		{
@@ -93,13 +93,13 @@ internal abstract class ScheduledItem
 	}
 
 	[Token(Token = "0x60013AE")]
-	[Address(RVA = "0x32B6490", Offset = "0x32B4A90", VA = "0x1832B6490")]
+	[Address(RVA = "0x6CC3430", Offset = "0x6CC2430", VA = "0x6CC3430")]
 	public ScheduledItem(long startMs)
 	{
 	}
 
 	[Token(Token = "0x60013AF")]
-	[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
+	[Address(RVA = "0x6CC34A0", Offset = "0x6CC24A0", VA = "0x6CC34A0")]
 	protected void ResetStartTime(long startMs)
 	{
 	}
@@ -108,13 +108,13 @@ internal abstract class ScheduledItem
 	public abstract void PerformTimerUpdate(TimerState state);
 
 	[Token(Token = "0x60013B1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6CC34B0", Offset = "0x6CC24B0", VA = "0x6CC34B0", Slot = "5")]
 	internal virtual void OnItemUnscheduled()
 	{
 	}
 
 	[Token(Token = "0x60013B2")]
-	[Address(RVA = "0x32B6320", Offset = "0x32B4920", VA = "0x1832B6320", Slot = "6")]
+	[Address(RVA = "0x6CC34C0", Offset = "0x6CC24C0", VA = "0x6CC34C0", Slot = "6")]
 	public virtual bool ShouldUnschedule()
 	{
 		return default(bool);

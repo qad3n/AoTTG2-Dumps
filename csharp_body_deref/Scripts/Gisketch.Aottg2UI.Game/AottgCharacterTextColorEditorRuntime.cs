@@ -16,345 +16,345 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200029C")]
+[Token(Token = "0x20002F8")]
 internal sealed class AottgCharacterTextColorEditorRuntime : MonoBehaviour
 {
-	[Token(Token = "0x4000D75")]
+	[Token(Token = "0x4000F0C")]
 	private const int MaxVisibleLength = 31;
 
-	[Token(Token = "0x4000D76")]
+	[Token(Token = "0x4000F0D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly List<string> _colors;
 
-	[Token(Token = "0x4000D77")]
+	[Token(Token = "0x4000F0E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly List<string> _previewColors;
 
-	[Token(Token = "0x4000D78")]
+	[Token(Token = "0x4000F0F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string _inputId;
 
-	[Token(Token = "0x4000D79")]
+	[Token(Token = "0x4000F10")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private string _pickerId;
 
-	[Token(Token = "0x4000D7A")]
+	[Token(Token = "0x4000F11")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private string _colorsEnabledKey;
 
-	[Token(Token = "0x4000D7B")]
+	[Token(Token = "0x4000F12")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private string _initialValue;
 
-	[Token(Token = "0x4000D7C")]
+	[Token(Token = "0x4000F13")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private string _lastText;
 
-	[Token(Token = "0x4000D7D")]
+	[Token(Token = "0x4000F14")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private GisketchUIState _state;
 
-	[Token(Token = "0x4000D7E")]
+	[Token(Token = "0x4000F15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private TMP_InputField _input;
 
-	[Token(Token = "0x4000D7F")]
+	[Token(Token = "0x4000F16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private TMP_Text _text;
 
-	[Token(Token = "0x4000D80")]
+	[Token(Token = "0x4000F17")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private NameEffectController _effectPreview;
 
-	[Token(Token = "0x4000D81")]
+	[Token(Token = "0x4000F18")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private Action<GameObject> _imported;
 
-	[Token(Token = "0x4000D82")]
+	[Token(Token = "0x4000F19")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private int _selectionStart;
 
-	[Token(Token = "0x4000D83")]
+	[Token(Token = "0x4000F1A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x84")]
 	private int _selectionEnd;
 
-	[Token(Token = "0x4000D84")]
+	[Token(Token = "0x4000F1B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private int _openedStart;
 
-	[Token(Token = "0x4000D85")]
+	[Token(Token = "0x4000F1C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private int _openedEnd;
 
-	[Token(Token = "0x4000D86")]
+	[Token(Token = "0x4000F1D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private bool _attached;
 
-	[Token(Token = "0x4000D87")]
+	[Token(Token = "0x4000F1E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x91")]
 	private bool _hasPreview;
 
-	[Token(Token = "0x4000D88")]
+	[Token(Token = "0x4000F1F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x92")]
 	private bool _colorsEnabled;
 
-	[Token(Token = "0x4000D89")]
+	[Token(Token = "0x4000F20")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private string _pendingImportColor;
 
-	[Token(Token = "0x4000D8A")]
+	[Token(Token = "0x4000F21")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private string[] _gradientStops;
 
-	[Token(Token = "0x4000D8B")]
+	[Token(Token = "0x4000F22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private string _previewEffectType;
 
-	[Token(Token = "0x4000D8C")]
+	[Token(Token = "0x4000F23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private string[] _previewEffectColors;
 
-	[Token(Token = "0x4000D8D")]
+	[Token(Token = "0x4000F24")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private string _previewFont;
 
-	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x1E03030", Offset = "0x1E01630", VA = "0x181E03030")]
+	[Token(Token = "0x6001260")]
+	[Address(RVA = "0x57EBA30", Offset = "0x57EAA30", VA = "0x57EBA30")]
 	public void Setup(string inputId, string value, string pickerId, GisketchUIState state, string colorsEnabledKey, bool colorsEnabled, Action<GameObject> imported, [Optional] string previewEffectType, [Optional] IList<string> previewEffectColors, [Optional] string previewFont)
 	{
 	}
 
-	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x1E02FC0", Offset = "0x1E015C0", VA = "0x181E02FC0")]
+	[Token(Token = "0x6001261")]
+	[Address(RVA = "0x57EBE60", Offset = "0x57EAE60", VA = "0x57EBE60")]
 	public void SetSerializedValue(string value)
 	{
 	}
 
-	[Token(Token = "0x6001012")]
-	[Address(RVA = "0x1E031D0", Offset = "0x1E017D0", VA = "0x181E031D0")]
+	[Token(Token = "0x6001262")]
+	[Address(RVA = "0x57EC030", Offset = "0x57EB030", VA = "0x57EC030")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6001013")]
-	[Address(RVA = "0x1E00B60", Offset = "0x1DFF160", VA = "0x181E00B60")]
+	[Token(Token = "0x6001263")]
+	[Address(RVA = "0x57EC040", Offset = "0x57EB040", VA = "0x57EC040")]
 	private void Attach()
 	{
 	}
 
-	[Token(Token = "0x6001014")]
-	[Address(RVA = "0x1E02A20", Offset = "0x1E01020", VA = "0x181E02A20")]
+	[Token(Token = "0x6001264")]
+	[Address(RVA = "0x57E5EC0", Offset = "0x57E4EC0", VA = "0x57E5EC0")]
 	public void SetFont(string font)
 	{
 	}
 
-	[Token(Token = "0x6001015")]
-	[Address(RVA = "0x1DFFFB0", Offset = "0x1DFE5B0", VA = "0x181DFFFB0")]
+	[Token(Token = "0x6001265")]
+	[Address(RVA = "0x57E48B0", Offset = "0x57E38B0", VA = "0x57E48B0")]
 	public void ApplyColor(string hex, bool clearSelection)
 	{
 	}
 
-	[Token(Token = "0x6001016")]
-	[Address(RVA = "0x1E00E60", Offset = "0x1DFF460", VA = "0x181E00E60")]
+	[Token(Token = "0x6001266")]
+	[Address(RVA = "0x57E4890", Offset = "0x57E3890", VA = "0x57E4890")]
 	public void CancelPreview()
 	{
 	}
 
-	[Token(Token = "0x6001017")]
-	[Address(RVA = "0x1E02990", Offset = "0x1E00F90", VA = "0x181E02990")]
+	[Token(Token = "0x6001267")]
+	[Address(RVA = "0x57E53B0", Offset = "0x57E43B0", VA = "0x57E53B0")]
 	public string Serialized()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001018")]
-	[Address(RVA = "0x1E00300", Offset = "0x1DFE900", VA = "0x181E00300")]
+	[Token(Token = "0x6001268")]
+	[Address(RVA = "0x57E5530", Offset = "0x57E4530", VA = "0x57E5530")]
 	public string ApplyGradient(IList<string> stops)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001019")]
-	[Address(RVA = "0x1E02B70", Offset = "0x1E01170", VA = "0x181E02B70")]
+	[Token(Token = "0x6001269")]
+	[Address(RVA = "0x57E5BC0", Offset = "0x57E4BC0", VA = "0x57E5BC0")]
 	public void SetGradient(IList<string> stops)
 	{
 	}
 
-	[Token(Token = "0x600101A")]
-	[Address(RVA = "0x1E01130", Offset = "0x1DFF730", VA = "0x181E01130")]
+	[Token(Token = "0x600126A")]
+	[Address(RVA = "0x57E5BA0", Offset = "0x57E4BA0", VA = "0x57E5BA0")]
 	public void ClearGradient()
 	{
 	}
 
-	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x1E02E60", Offset = "0x1E01460", VA = "0x181E02E60")]
+	[Token(Token = "0x600126B")]
+	[Address(RVA = "0x57E5E70", Offset = "0x57E4E70", VA = "0x57E5E70")]
 	public void SetNameEffectPreview(string type, IList<string> colors)
 	{
 	}
 
-	[Token(Token = "0x600101C")]
-	[Address(RVA = "0x1E01150", Offset = "0x1DFF750", VA = "0x181E01150")]
+	[Token(Token = "0x600126C")]
+	[Address(RVA = "0x57E5AB0", Offset = "0x57E4AB0", VA = "0x57E5AB0")]
 	public void ClearNameEffectPreview()
 	{
 	}
 
-	[Token(Token = "0x600101D")]
-	[Address(RVA = "0x1E015B0", Offset = "0x1DFFBB0", VA = "0x181E015B0")]
+	[Token(Token = "0x600126D")]
+	[Address(RVA = "0x57EC510", Offset = "0x57EB510", VA = "0x57EC510")]
 	private void DestroyEffectPreview()
 	{
 	}
 
-	[Token(Token = "0x600101E")]
-	[Address(RVA = "0x1E01660", Offset = "0x1DFFC60", VA = "0x181E01660")]
+	[Token(Token = "0x600126E")]
+	[Address(RVA = "0x57ECB30", Offset = "0x57EBB30", VA = "0x57ECB30")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600101F")]
-	[Address(RVA = "0x1E035C0", Offset = "0x1E01BC0", VA = "0x181E035C0")]
+	[Token(Token = "0x600126F")]
+	[Address(RVA = "0x57ECDF0", Offset = "0x57EBDF0", VA = "0x57ECDF0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6001020")]
-	[Address(RVA = "0x1E014A0", Offset = "0x1DFFAA0", VA = "0x181E014A0")]
+	[Token(Token = "0x6001270")]
+	[Address(RVA = "0x57EC650", Offset = "0x57EB650", VA = "0x57EC650")]
 	private bool ColorsEnabled()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001021")]
-	[Address(RVA = "0x1E01900", Offset = "0x1DFFF00", VA = "0x181E01900")]
+	[Token(Token = "0x6001271")]
+	[Address(RVA = "0x57ED0F0", Offset = "0x57EC0F0", VA = "0x57ED0F0")]
 	private void OnStateChanged(string key)
 	{
 	}
 
-	[Token(Token = "0x6001022")]
-	[Address(RVA = "0x1E01970", Offset = "0x1DFFF70", VA = "0x181E01970")]
+	[Token(Token = "0x6001272")]
+	[Address(RVA = "0x57ED150", Offset = "0x57EC150", VA = "0x57ED150")]
 	private void OnTextChanged(string value)
 	{
 	}
 
-	[Token(Token = "0x6001023")]
-	[Address(RVA = "0x1E02700", Offset = "0x1E00D00", VA = "0x181E02700")]
+	[Token(Token = "0x6001273")]
+	[Address(RVA = "0x57EC5C0", Offset = "0x57EB5C0", VA = "0x57EC5C0")]
 	private void RefreshTextColors()
 	{
 	}
 
-	[Token(Token = "0x6001024")]
-	[Address(RVA = "0x1E001E0", Offset = "0x1DFE7E0", VA = "0x181E001E0")]
+	[Token(Token = "0x6001274")]
+	[Address(RVA = "0x57EBEC0", Offset = "0x57EAEC0", VA = "0x57EBEC0")]
 	private void ApplyDocument(AottgCharacterTextColorCodec.Document document, bool updateInput = true)
 	{
 	}
 
-	[Token(Token = "0x6001025")]
-	[Address(RVA = "0x1E01500", Offset = "0x1DFFB00", VA = "0x181E01500")]
+	[Token(Token = "0x6001275")]
+	[Address(RVA = "0x57ED4E0", Offset = "0x57EC4E0", VA = "0x57ED4E0")]
 	private AottgCharacterTextColorCodec.Document CurrentDocument()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001026")]
-	[Address(RVA = "0x1E00450", Offset = "0x1DFEA50", VA = "0x181E00450")]
+	[Token(Token = "0x6001276")]
+	[Address(RVA = "0x57ED6F0", Offset = "0x57EC6F0", VA = "0x57ED6F0")]
 	private bool ApplyPendingImportColor(AottgCharacterTextColorCodec.Document document)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001027")]
-	[Address(RVA = "0x1E02DB0", Offset = "0x1E013B0", VA = "0x181E02DB0")]
+	[Token(Token = "0x6001277")]
+	[Address(RVA = "0x57ED640", Offset = "0x57EC640", VA = "0x57ED640")]
 	private void SetInputText(string value)
 	{
 	}
 
-	[Token(Token = "0x6001028")]
-	[Address(RVA = "0x1E03570", Offset = "0x1E01B70", VA = "0x181E03570")]
+	[Token(Token = "0x6001278")]
+	[Address(RVA = "0x57ED5F0", Offset = "0x57EC5F0", VA = "0x57ED5F0")]
 	private static string Trim(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001029")]
-	[Address(RVA = "0x1E03400", Offset = "0x1E01A00", VA = "0x181E03400")]
+	[Token(Token = "0x6001279")]
+	[Address(RVA = "0x57ED910", Offset = "0x57EC910", VA = "0x57ED910")]
 	private static void Trim(AottgCharacterTextColorCodec.Document document)
 	{
 	}
 
-	[Token(Token = "0x600102A")]
-	[Address(RVA = "0x1E026E0", Offset = "0x1E00CE0", VA = "0x181E026E0")]
+	[Token(Token = "0x600127A")]
+	[Address(RVA = "0x57EDA90", Offset = "0x57ECA90", VA = "0x57EDA90")]
 	private void OnTextSelection(string _, int start, int end)
 	{
 	}
 
-	[Token(Token = "0x600102B")]
-	[Address(RVA = "0x1E02EC0", Offset = "0x1E014C0", VA = "0x181E02EC0")]
+	[Token(Token = "0x600127B")]
+	[Address(RVA = "0x57ED020", Offset = "0x57EC020", VA = "0x57ED020")]
 	private void SetSelection(int start, int end)
 	{
 	}
 
-	[Token(Token = "0x600102C")]
-	[Address(RVA = "0x1E00FC0", Offset = "0x1DFF5C0", VA = "0x181E00FC0")]
+	[Token(Token = "0x600127C")]
+	[Address(RVA = "0x57EC690", Offset = "0x57EB690", VA = "0x57EC690")]
 	private void CapturePreviewColors()
 	{
 	}
 
-	[Token(Token = "0x600102D")]
-	[Address(RVA = "0x1E02790", Offset = "0x1E00D90", VA = "0x181E02790")]
+	[Token(Token = "0x600127D")]
+	[Address(RVA = "0x57EC9C0", Offset = "0x57EB9C0", VA = "0x57EC9C0")]
 	private void RestorePreviewColors()
 	{
 	}
 
-	[Token(Token = "0x600102E")]
-	[Address(RVA = "0x1E008A0", Offset = "0x1DFEEA0", VA = "0x181E008A0")]
+	[Token(Token = "0x600127E")]
+	[Address(RVA = "0x57EDAA0", Offset = "0x57ECAA0", VA = "0x57EDAA0")]
 	private void ApplyTextColors(TMP_TextInfo textInfo)
 	{
 	}
 
-	[Token(Token = "0x600102F")]
-	[Address(RVA = "0x1E01390", Offset = "0x1DFF990", VA = "0x181E01390")]
+	[Token(Token = "0x600127F")]
+	[Address(RVA = "0x57EDC10", Offset = "0x57ECC10", VA = "0x57EDC10")]
 	private Color32 ColorFor(int index)
 	{
 		return default(Color32);
 	}
 
-	[Token(Token = "0x6001030")]
-	[Address(RVA = "0x1E031E0", Offset = "0x1E017E0", VA = "0x181E031E0")]
+	[Token(Token = "0x6001280")]
+	[Address(RVA = "0x57EBC10", Offset = "0x57EAC10", VA = "0x57EBC10")]
 	private void StoreEffectPreview(string type, IList<string> colors)
 	{
 	}
 
-	[Token(Token = "0x6001031")]
-	[Address(RVA = "0x1E006C0", Offset = "0x1DFECC0", VA = "0x181E006C0")]
+	[Token(Token = "0x6001281")]
+	[Address(RVA = "0x57EC340", Offset = "0x57EB340", VA = "0x57EC340")]
 	private void ApplyStoredEffectPreview()
 	{
 	}
 
-	[Token(Token = "0x6001032")]
-	[Address(RVA = "0x1E00610", Offset = "0x1DFEC10", VA = "0x181E00610")]
+	[Token(Token = "0x6001282")]
+	[Address(RVA = "0x57EDCF0", Offset = "0x57ECCF0", VA = "0x57EDCF0")]
 	private static void ApplyPreviewColor(IList<string> colors, int index, ref Color target)
 	{
 	}
 
-	[Token(Token = "0x6001033")]
-	[Address(RVA = "0x1E028F0", Offset = "0x1E00EF0", VA = "0x181E028F0")]
+	[Token(Token = "0x6001283")]
+	[Address(RVA = "0x57EC920", Offset = "0x57EB920", VA = "0x57EC920")]
 	private void RestoreSelection()
 	{
 	}
 
-	[Token(Token = "0x6001034")]
-	[Address(RVA = "0x1E01240", Offset = "0x1DFF840", VA = "0x181E01240")]
+	[Token(Token = "0x6001284")]
+	[Address(RVA = "0x57EC7F0", Offset = "0x57EB7F0", VA = "0x57EC7F0")]
 	public void ClearSelection()
 	{
 	}
 
-	[Token(Token = "0x6001035")]
+	[Token(Token = "0x6001285")]
 	private static T Find<T>(Transform root, string id) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001036")]
-	[Address(RVA = "0x1E03830", Offset = "0x1E01E30", VA = "0x181E03830")]
+	[Token(Token = "0x6001286")]
+	[Address(RVA = "0x57EDE30", Offset = "0x57ECE30", VA = "0x57EDE30")]
 	public AottgCharacterTextColorEditorRuntime()
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200012A")]
+[Token(Token = "0x20000EB")]
 public enum StoreLocation
 {
-	[Token(Token = "0x400052A")]
+	[Token(Token = "0x400045B")]
 	CurrentUser = 1,
-	[Token(Token = "0x400052B")]
+	[Token(Token = "0x400045C")]
 	LocalMachine
 }

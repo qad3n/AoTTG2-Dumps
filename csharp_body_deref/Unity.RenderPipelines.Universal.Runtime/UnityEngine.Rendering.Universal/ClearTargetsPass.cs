@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ClearTargetsPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ internal class ClearTargetsPass
 		internal Color clearColor;
 
 		[Token(Token = "0x6000ACF")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66B25F0", Offset = "0x66B15F0", VA = "0x66B25F0")]
 		public PassData()
 		{
 		}
@@ -44,19 +44,19 @@ internal class ClearTargetsPass
 	private static ProfilingSampler s_ClearProfilingSampler;
 
 	[Token(Token = "0x6000ACB")]
-	[Address(RVA = "0x2CB7AF0", Offset = "0x2CB60F0", VA = "0x182CB7AF0")]
+	[Address(RVA = "0x66B1D20", Offset = "0x66B0D20", VA = "0x66B1D20")]
 	internal static void Render(RenderGraph graph, TextureHandle colorHandle, TextureHandle depthHandle, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000ACC")]
-	[Address(RVA = "0x2CB75C0", Offset = "0x2CB5BC0", VA = "0x182CB75C0")]
+	[Address(RVA = "0x66B1E00", Offset = "0x66B0E00", VA = "0x66B1E00")]
 	internal static void Render(RenderGraph graph, TextureHandle colorHandle, TextureHandle depthHandle, RTClearFlags clearFlags, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000ACD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x66B2550", Offset = "0x66B1550", VA = "0x66B2550")]
 	public ClearTargetsPass()
 	{
 	}

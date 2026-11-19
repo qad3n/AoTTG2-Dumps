@@ -53,20 +53,20 @@ internal struct FontStyleStack
 	public byte smallcaps;
 
 	[Token(Token = "0x600033A")]
-	[Address(RVA = "0x2D61710", Offset = "0x2D5FD10", VA = "0x182D61710")]
+	[Address(RVA = "0x6A565D0", Offset = "0x6A555D0", VA = "0x6A565D0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600033B")]
-	[Address(RVA = "0x2D61660", Offset = "0x2D5FC60", VA = "0x182D61660")]
+	[Address(RVA = "0x6A565E0", Offset = "0x6A555E0", VA = "0x6A565E0")]
 	public byte Add(FontStyles style)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x2D61720", Offset = "0x2D5FD20", VA = "0x182D61720")]
+	[Address(RVA = "0x6A56680", Offset = "0x6A55680", VA = "0x6A56680")]
 	public byte Remove(FontStyles style)
 	{
 		return default(byte);

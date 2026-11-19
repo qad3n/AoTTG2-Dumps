@@ -19,14 +19,14 @@ public sealed class SerializedPropertyProviderAttribute : Attribute, IDecoratorA
 	public Type type
 	{
 		[Token(Token = "0x6000FB1")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "7")]
+		[Address(RVA = "0x68469D0", Offset = "0x68459D0", VA = "0x68469D0", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FB2")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x68469E0", Offset = "0x68459E0", VA = "0x68469E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -34,7 +34,7 @@ public sealed class SerializedPropertyProviderAttribute : Attribute, IDecoratorA
 	}
 
 	[Token(Token = "0x6000FB0")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x68469A0", Offset = "0x68459A0", VA = "0x68469A0")]
 	public SerializedPropertyProviderAttribute(Type type)
 	{
 	}

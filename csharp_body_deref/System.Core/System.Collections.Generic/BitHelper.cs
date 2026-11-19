@@ -9,52 +9,52 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000288")]
+[Token(Token = "0x2000289")]
 internal sealed class BitHelper
 {
-	[Token(Token = "0x40004A4")]
+	[Token(Token = "0x40004AD")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly int _length;
 
-	[Token(Token = "0x40004A5")]
+	[Token(Token = "0x40004AE")]
 	[FieldOffset(Offset = "0x18")]
 	private unsafe readonly int* _arrayPtr;
 
-	[Token(Token = "0x40004A6")]
+	[Token(Token = "0x40004AF")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly int[] _array;
 
-	[Token(Token = "0x40004A7")]
+	[Token(Token = "0x40004B0")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly bool _useStackAlloc;
 
-	[Token(Token = "0x6000CDE")]
-	[Address(RVA = "0x2483120", Offset = "0x2481720", VA = "0x182483120")]
+	[Token(Token = "0x6000CE9")]
+	[Address(RVA = "0x5E2B890", Offset = "0x5E2A890", VA = "0x5E2B890")]
 	internal unsafe BitHelper(int* bitArrayPtr, int length)
 	{
 	}
 
-	[Token(Token = "0x6000CDF")]
-	[Address(RVA = "0x2483160", Offset = "0x2481760", VA = "0x182483160")]
+	[Token(Token = "0x6000CEA")]
+	[Address(RVA = "0x5E2B8C0", Offset = "0x5E2A8C0", VA = "0x5E2B8C0")]
 	internal BitHelper(int[] bitArray, int length)
 	{
 	}
 
-	[Token(Token = "0x6000CE0")]
-	[Address(RVA = "0x2483090", Offset = "0x2481690", VA = "0x182483090")]
+	[Token(Token = "0x6000CEB")]
+	[Address(RVA = "0x5E2B8F0", Offset = "0x5E2A8F0", VA = "0x5E2B8F0")]
 	internal void MarkBit(int bitPosition)
 	{
 	}
 
-	[Token(Token = "0x6000CE1")]
-	[Address(RVA = "0x2483010", Offset = "0x2481610", VA = "0x182483010")]
+	[Token(Token = "0x6000CEC")]
+	[Address(RVA = "0x5E2B950", Offset = "0x5E2A950", VA = "0x5E2B950")]
 	internal bool IsMarked(int bitPosition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CE2")]
-	[Address(RVA = "0x2483100", Offset = "0x2481700", VA = "0x182483100")]
+	[Token(Token = "0x6000CED")]
+	[Address(RVA = "0x5E2B9B0", Offset = "0x5E2A9B0", VA = "0x5E2B9B0")]
 	internal static int ToIntArrayLength(int n)
 	{
 		return default(int);

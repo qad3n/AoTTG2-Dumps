@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Permissions;
 
-[Token(Token = "0x20002E4")]
+[Token(Token = "0x20002BD")]
 public enum PermissionState
 {
-	[Token(Token = "0x4000C69")]
+	[Token(Token = "0x4000BC9")]
 	None,
-	[Token(Token = "0x4000C6A")]
+	[Token(Token = "0x4000BCA")]
 	Unrestricted
 }

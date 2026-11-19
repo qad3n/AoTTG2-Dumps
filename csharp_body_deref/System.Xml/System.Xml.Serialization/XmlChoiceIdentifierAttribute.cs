@@ -22,7 +22,7 @@ public class XmlChoiceIdentifierAttribute : Attribute
 	public string MemberName
 	{
 		[Token(Token = "0x6000D3B")]
-		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
+		[Address(RVA = "0x61161A0", Offset = "0x61151A0", VA = "0x61161A0")]
 		get
 		{
 			return null;
@@ -30,7 +30,7 @@ public class XmlChoiceIdentifierAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D3C")]
-	[Address(RVA = "0x275C5C0", Offset = "0x275ABC0", VA = "0x18275C5C0")]
+	[Address(RVA = "0x6115D30", Offset = "0x6114D30", VA = "0x6115D30")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

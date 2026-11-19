@@ -11,77 +11,55 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000092")]
+[Token(Token = "0x2000093")]
 [DebuggerTypeProxy(typeof(LambdaExpressionProxy))]
 public abstract class LambdaExpression : Expression, IParameterProvider
 {
-	[Token(Token = "0x400019B")]
+	[Token(Token = "0x40001A4")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Expression _body;
 
-	[Token(Token = "0x170000A2")]
+	[Token(Token = "0x170000A4")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000436")]
-		[Address(RVA = "0x24293C0", Offset = "0x24279C0", VA = "0x1824293C0", Slot = "5")]
+		[Token(Token = "0x6000441")]
+		[Address(RVA = "0x5DD2820", Offset = "0x5DD1820", VA = "0x5DD2820", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000A3")]
+	[Token(Token = "0x170000A5")]
 	internal abstract Type TypeCore
 	{
-		[Token(Token = "0x6000437")]
+		[Token(Token = "0x6000442")]
 		get;
 	}
 
-	[Token(Token = "0x170000A4")]
+	[Token(Token = "0x170000A6")]
 	internal abstract Type PublicType
 	{
-		[Token(Token = "0x6000438")]
+		[Token(Token = "0x6000443")]
 		get;
 	}
 
-	[Token(Token = "0x170000A5")]
+	[Token(Token = "0x170000A7")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000439")]
-		[Address(RVA = "0x196D5E0", Offset = "0x196BBE0", VA = "0x18196D5E0", Slot = "4")]
+		[Token(Token = "0x6000444")]
+		[Address(RVA = "0x5DD2840", Offset = "0x5DD1840", VA = "0x5DD2840", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x170000A6")]
+	[Token(Token = "0x170000A8")]
 	public string Name
 	{
-		[Token(Token = "0x600043A")]
-		[Address(RVA = "0xB62CF0", Offset = "0xB612F0", VA = "0x180B62CF0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000A7")]
-	internal virtual string NameCore
-	{
-		[Token(Token = "0x600043B")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000A8")]
-	public Expression Body
-	{
-		[Token(Token = "0x600043C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000445")]
+		[Address(RVA = "0x5DD2850", Offset = "0x5DD1850", VA = "0x5DD2850")]
 		get
 		{
 			return null;
@@ -89,10 +67,10 @@ public abstract class LambdaExpression : Expression, IParameterProvider
 	}
 
 	[Token(Token = "0x170000A9")]
-	public Type ReturnType
+	internal virtual string NameCore
 	{
-		[Token(Token = "0x600043D")]
-		[Address(RVA = "0x243BB90", Offset = "0x243A190", VA = "0x18243BB90")]
+		[Token(Token = "0x6000446")]
+		[Address(RVA = "0x5DD2870", Offset = "0x5DD1870", VA = "0x5DD2870", Slot = "14")]
 		get
 		{
 			return null;
@@ -100,67 +78,89 @@ public abstract class LambdaExpression : Expression, IParameterProvider
 	}
 
 	[Token(Token = "0x170000AA")]
-	public bool TailCall
+	public Expression Body
 	{
-		[Token(Token = "0x600043E")]
-		[Address(RVA = "0xB62B80", Offset = "0xB61180", VA = "0x180B62B80")]
+		[Token(Token = "0x6000447")]
+		[Address(RVA = "0x5DD2880", Offset = "0x5DD1880", VA = "0x5DD2880")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x170000AB")]
-	internal virtual bool TailCallCore
+	public Type ReturnType
 	{
-		[Token(Token = "0x600043F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "15")]
+		[Token(Token = "0x6000448")]
+		[Address(RVA = "0x5DD2890", Offset = "0x5DD1890", VA = "0x5DD2890")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000AC")]
+	public bool TailCall
+	{
+		[Token(Token = "0x6000449")]
+		[Address(RVA = "0x5DD2910", Offset = "0x5DD1910", VA = "0x5DD2910")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000AC")]
+	[Token(Token = "0x170000AD")]
+	internal virtual bool TailCallCore
+	{
+		[Token(Token = "0x600044A")]
+		[Address(RVA = "0x5DD2930", Offset = "0x5DD1930", VA = "0x5DD2930", Slot = "15")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170000AE")]
 	[ExcludeFromCodeCoverage]
 	private int System_002ELinq_002EExpressions_002EIParameterProvider_002EParameterCount
 	{
-		[Token(Token = "0x6000442")]
-		[Address(RVA = "0x1F0DB10", Offset = "0x1F0C110", VA = "0x181F0DB10", Slot = "11")]
+		[Token(Token = "0x600044D")]
+		[Address(RVA = "0x5DD2990", Offset = "0x5DD1990", VA = "0x5DD2990", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000AD")]
+	[Token(Token = "0x170000AF")]
 	[ExcludeFromCodeCoverage]
 	internal virtual int ParameterCount
 	{
-		[Token(Token = "0x6000443")]
-		[Address(RVA = "0x243BB60", Offset = "0x243A160", VA = "0x18243BB60", Slot = "17")]
+		[Token(Token = "0x600044E")]
+		[Address(RVA = "0x5DD29B0", Offset = "0x5DD19B0", VA = "0x5DD29B0", Slot = "17")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x243BAF0", Offset = "0x243A0F0", VA = "0x18243BAF0")]
+	[Token(Token = "0x6000440")]
+	[Address(RVA = "0x5DD27B0", Offset = "0x5DD17B0", VA = "0x5DD27B0")]
 	internal LambdaExpression(Expression body)
 	{
 	}
 
-	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x243BAD0", Offset = "0x243A0D0", VA = "0x18243BAD0", Slot = "10")]
+	[Token(Token = "0x600044B")]
+	[Address(RVA = "0x5DD2940", Offset = "0x5DD1940", VA = "0x5DD2940", Slot = "10")]
 	[ExcludeFromCodeCoverage]
 	private ParameterExpression System_002ELinq_002EExpressions_002EIParameterProvider_002EGetParameter(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x243BAA0", Offset = "0x243A0A0", VA = "0x18243BAA0", Slot = "16")]
+	[Token(Token = "0x600044C")]
+	[Address(RVA = "0x5DD2960", Offset = "0x5DD1960", VA = "0x5DD2960", Slot = "16")]
 	[ExcludeFromCodeCoverage]
 	internal virtual ParameterExpression GetParameter(int index)
 	{

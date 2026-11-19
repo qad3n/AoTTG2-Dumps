@@ -131,7 +131,7 @@ public class NetworkManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000337")]
-		[Address(RVA = "0x5392C0", Offset = "0x5378C0", VA = "0x1805392C0")]
+		[Address(RVA = "0x31552B0", Offset = "0x31542B0", VA = "0x31552B0")]
 		get
 		{
 			return default(FFIMethods);
@@ -142,13 +142,13 @@ public class NetworkManager
 	public event MessageHandler OnMessage
 	{
 		[Token(Token = "0x6000338")]
-		[Address(RVA = "0x539180", Offset = "0x537780", VA = "0x180539180")]
+		[Address(RVA = "0x31553D0", Offset = "0x31543D0", VA = "0x31553D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000339")]
-		[Address(RVA = "0x5393E0", Offset = "0x5379E0", VA = "0x1805393E0")]
+		[Address(RVA = "0x3155460", Offset = "0x3154460", VA = "0x3155460")]
 		[CompilerGenerated]
 		remove
 		{
@@ -159,13 +159,13 @@ public class NetworkManager
 	public event RouteUpdateHandler OnRouteUpdate
 	{
 		[Token(Token = "0x600033A")]
-		[Address(RVA = "0x539220", Offset = "0x537820", VA = "0x180539220")]
+		[Address(RVA = "0x31554F0", Offset = "0x31544F0", VA = "0x31554F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600033B")]
-		[Address(RVA = "0x539480", Offset = "0x537A80", VA = "0x180539480")]
+		[Address(RVA = "0x3155580", Offset = "0x3154580", VA = "0x3155580")]
 		[CompilerGenerated]
 		remove
 		{
@@ -173,75 +173,75 @@ public class NetworkManager
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x5390B0", Offset = "0x5376B0", VA = "0x1805390B0")]
+	[Address(RVA = "0x3143600", Offset = "0x3142600", VA = "0x3143600")]
 	internal NetworkManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x538900", Offset = "0x536F00", VA = "0x180538900")]
+	[Address(RVA = "0x3155610", Offset = "0x3154610", VA = "0x3155610")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x5388B0", Offset = "0x536EB0", VA = "0x1805388B0")]
+	[Address(RVA = "0x3155930", Offset = "0x3154930", VA = "0x3155930")]
 	public ulong GetPeerId()
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x538820", Offset = "0x536E20", VA = "0x180538820")]
+	[Address(RVA = "0x3155980", Offset = "0x3154980", VA = "0x3155980")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x538E90", Offset = "0x537490", VA = "0x180538E90")]
+	[Address(RVA = "0x3155A00", Offset = "0x3154A00", VA = "0x3155A00")]
 	public void OpenPeer(ulong peerId, string routeData)
 	{
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x539000", Offset = "0x537600", VA = "0x180539000")]
+	[Address(RVA = "0x3155A90", Offset = "0x3154A90", VA = "0x3155A90")]
 	public void UpdatePeer(ulong peerId, string routeData)
 	{
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x538790", Offset = "0x536D90", VA = "0x180538790")]
+	[Address(RVA = "0x3155B20", Offset = "0x3154B20", VA = "0x3155B20")]
 	public void ClosePeer(ulong peerId)
 	{
 	}
 
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x538DE0", Offset = "0x5373E0", VA = "0x180538DE0")]
+	[Address(RVA = "0x3155BB0", Offset = "0x3154BB0", VA = "0x3155BB0")]
 	public void OpenChannel(ulong peerId, byte channelId, bool reliable)
 	{
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x5386E0", Offset = "0x536CE0", VA = "0x1805386E0")]
+	[Address(RVA = "0x3155C50", Offset = "0x3154C50", VA = "0x3155C50")]
 	public void CloseChannel(ulong peerId, byte channelId)
 	{
 	}
 
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x538F40", Offset = "0x537540", VA = "0x180538F40")]
+	[Address(RVA = "0x3155CE0", Offset = "0x3154CE0", VA = "0x3155CE0")]
 	public void SendMessage(ulong peerId, byte channelId, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x538B00", Offset = "0x537100", VA = "0x180538B00")]
+	[Address(RVA = "0x3154FF0", Offset = "0x3153FF0", VA = "0x3154FF0")]
 	[MonoPInvokeCallback]
 	private static void OnMessageImpl(IntPtr ptr, ulong peerId, byte channelId, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000347")]
-	[Address(RVA = "0x538CC0", Offset = "0x5372C0", VA = "0x180538CC0")]
+	[Address(RVA = "0x31551A0", Offset = "0x31541A0", VA = "0x31551A0")]
 	[MonoPInvokeCallback]
 	private static void OnRouteUpdateImpl(IntPtr ptr, string routeData)
 	{

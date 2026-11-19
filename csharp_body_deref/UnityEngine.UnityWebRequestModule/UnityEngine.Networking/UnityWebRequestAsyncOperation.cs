@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Networking.UnityWebRequestAsyncOperation
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,34 +24,34 @@ public class UnityWebRequestAsyncOperation : AsyncOperation
 	[Token(Token = "0x200000D")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x3308FE0", Offset = "0x33075E0", VA = "0x183308FE0")]
+		[Token(Token = "0x600003F")]
+		[Address(RVA = "0x6D1BF80", Offset = "0x6D1AF80", VA = "0x6D1BF80")]
 		public static UnityWebRequestAsyncOperation ConvertToManaged(IntPtr ptr)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000005")]
+	[Token(Token = "0x17000004")]
 	public UnityWebRequest webRequest
 	{
-		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600003D")]
+		[Address(RVA = "0x6D1BF60", Offset = "0x6D1AF60", VA = "0x6D1BF60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000042")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x600003E")]
+		[Address(RVA = "0x6D1BF70", Offset = "0x6D1AF70", VA = "0x6D1BF70")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x330A110", Offset = "0x3308710", VA = "0x18330A110")]
+	[Token(Token = "0x600003C")]
+	[Address(RVA = "0x6D1BF50", Offset = "0x6D1AF50", VA = "0x6D1BF50")]
 	private UnityWebRequestAsyncOperation(IntPtr ptr)
 	{
 	}

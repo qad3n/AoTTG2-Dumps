@@ -43,7 +43,7 @@ public static class HashUtility
 	}
 
 	[Token(Token = "0x6001038")]
-	[Address(RVA = "0x2E53300", Offset = "0x2E51900", VA = "0x182E53300")]
+	[Address(RVA = "0x684A7D0", Offset = "0x68497D0", VA = "0x684A7D0")]
 	public static int GetHashCodeAlloc(params object[] values)
 	{
 		return default(int);

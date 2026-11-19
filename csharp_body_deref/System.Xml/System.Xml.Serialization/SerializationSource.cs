@@ -25,13 +25,13 @@ internal abstract class SerializationSource
 	private bool canBeGenerated;
 
 	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x273DED0", Offset = "0x273C4D0", VA = "0x18273DED0")]
+	[Address(RVA = "0x610C940", Offset = "0x610B940", VA = "0x610C940")]
 	public SerializationSource(string namspace, Type[] includedTypes)
 	{
 	}
 
 	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x273DDB0", Offset = "0x273C3B0", VA = "0x18273DDB0")]
+	[Address(RVA = "0x610C990", Offset = "0x610B990", VA = "0x610C990")]
 	protected bool BaseEquals(SerializationSource other)
 	{
 		return default(bool);

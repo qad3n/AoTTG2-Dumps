@@ -15,7 +15,7 @@ public static class UniTaskStatusExtensions
 {
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x1A814C0", Offset = "0x1A7FAC0", VA = "0x181A814C0")]
+	[Address(RVA = "0x62C58C0", Offset = "0x62C48C0", VA = "0x62C58C0")]
 	public static bool IsCompleted(this UniTaskStatus status)
 	{
 		return default(bool);
@@ -23,7 +23,7 @@ public static class UniTaskStatusExtensions
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x291E9B0", Offset = "0x291CFB0", VA = "0x18291E9B0")]
+	[Address(RVA = "0x62C58D0", Offset = "0x62C48D0", VA = "0x62C58D0")]
 	public static bool IsCompletedSuccessfully(this UniTaskStatus status)
 	{
 		return default(bool);
@@ -31,7 +31,7 @@ public static class UniTaskStatusExtensions
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x291E9A0", Offset = "0x291CFA0", VA = "0x18291E9A0")]
+	[Address(RVA = "0x62C58E0", Offset = "0x62C48E0", VA = "0x62C58E0")]
 	public static bool IsCanceled(this UniTaskStatus status)
 	{
 		return default(bool);
@@ -39,7 +39,7 @@ public static class UniTaskStatusExtensions
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x291E9C0", Offset = "0x291CFC0", VA = "0x18291E9C0")]
+	[Address(RVA = "0x62C58F0", Offset = "0x62C48F0", VA = "0x62C58F0")]
 	public static bool IsFaulted(this UniTaskStatus status)
 	{
 		return default(bool);

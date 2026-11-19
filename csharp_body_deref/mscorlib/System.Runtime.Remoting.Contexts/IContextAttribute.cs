@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x200039D")]
+[Token(Token = "0x2000376")]
 [ComVisible(true)]
 public interface IContextAttribute
 {
-	[Token(Token = "0x6001DDE")]
+	[Token(Token = "0x6001DB4")]
 	void GetPropertiesForNewContext(IConstructionCallMessage msg);
 
-	[Token(Token = "0x6001DDF")]
+	[Token(Token = "0x6001DB5")]
 	bool IsContextOK(Context ctx, IConstructionCallMessage msg);
 }

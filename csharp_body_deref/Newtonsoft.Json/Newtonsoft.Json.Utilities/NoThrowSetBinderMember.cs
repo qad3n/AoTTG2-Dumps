@@ -18,13 +18,13 @@ internal class NoThrowSetBinderMember : SetMemberBinder
 	private readonly SetMemberBinder _innerBinder;
 
 	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x1C2B760", Offset = "0x1C29D60", VA = "0x181C2B760")]
+	[Address(RVA = "0x55B0970", Offset = "0x55AF970", VA = "0x55B0970")]
 	public NoThrowSetBinderMember(SetMemberBinder innerBinder)
 	{
 	}
 
 	[Token(Token = "0x60005F6")]
-	[Address(RVA = "0x1C2B610", Offset = "0x1C29C10", VA = "0x181C2B610", Slot = "9")]
+	[Address(RVA = "0x55B09B0", Offset = "0x55AF9B0", VA = "0x55B09B0", Slot = "9")]
 	public override DynamicMetaObject FallbackSetMember(DynamicMetaObject target, DynamicMetaObject value, DynamicMetaObject? errorSuggestion)
 	{
 		return null;

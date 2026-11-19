@@ -11,45 +11,45 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x200084E")]
+[Token(Token = "0x20008CC")]
 internal class MapEditorSettingsKeybindsPanel : CategoryPanel
 {
-	[Token(Token = "0x17000EAC")]
+	[Token(Token = "0x17000EAD")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x6005044")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+		[Token(Token = "0x60053E4")]
+		[Address(RVA = "0x5C9ADF0", Offset = "0x5C99DF0", VA = "0x5C9ADF0", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000EAD")]
+	[Token(Token = "0x17000EAE")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6005045")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x60053E5")]
+		[Address(RVA = "0x5C9AE00", Offset = "0x5C99E00", VA = "0x5C9AE00", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6005046")]
-	[Address(RVA = "0x22D2890", Offset = "0x22D0E90", VA = "0x1822D2890", Slot = "20")]
+	[Token(Token = "0x60053E6")]
+	[Address(RVA = "0x5C9AE10", Offset = "0x5C99E10", VA = "0x5C9AE10", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6005047")]
-	[Address(RVA = "0x22D2490", Offset = "0x22D0A90", VA = "0x1822D2490")]
+	[Token(Token = "0x60053E7")]
+	[Address(RVA = "0x5C9AFA0", Offset = "0x5C99FA0", VA = "0x5C9AFA0")]
 	private void CreateKeybindSettings(BaseSettingsContainer container, KeybindPopup popup, string cat, string sub, ElementStyle style)
 	{
 	}
 
-	[Token(Token = "0x6005048")]
-	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
+	[Token(Token = "0x60053E8")]
+	[Address(RVA = "0x5C9B470", Offset = "0x5C9A470", VA = "0x5C9B470")]
 	public MapEditorSettingsKeybindsPanel()
 	{
 	}

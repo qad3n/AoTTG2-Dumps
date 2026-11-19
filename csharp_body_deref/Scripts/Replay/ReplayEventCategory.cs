@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000EF")]
+[Token(Token = "0x2000063")]
 public enum ReplayEventCategory
 {
-	[Token(Token = "0x40005A9")]
+	[Token(Token = "0x400020E")]
 	Map,
-	[Token(Token = "0x40005AA")]
+	[Token(Token = "0x400020F")]
 	Human,
-	[Token(Token = "0x40005AB")]
+	[Token(Token = "0x4000210")]
 	Titan,
-	[Token(Token = "0x40005AC")]
+	[Token(Token = "0x4000211")]
 	Camera,
-	[Token(Token = "0x40005AD")]
+	[Token(Token = "0x4000212")]
 	Chat
 }

@@ -28,7 +28,7 @@ public class XmlNotation : XmlNode
 	public override string Name
 	{
 		[Token(Token = "0x6000A1E")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "8")]
+		[Address(RVA = "0x60E6D90", Offset = "0x60E5D90", VA = "0x60E6D90", Slot = "8")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ public class XmlNotation : XmlNode
 	public override string LocalName
 	{
 		[Token(Token = "0x6000A1F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "39")]
+		[Address(RVA = "0x60E6DA0", Offset = "0x60E5DA0", VA = "0x60E6DA0", Slot = "39")]
 		get
 		{
 			return null;
@@ -50,7 +50,7 @@ public class XmlNotation : XmlNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000A20")]
-		[Address(RVA = "0x847030", Offset = "0x845630", VA = "0x180847030", Slot = "11")]
+		[Address(RVA = "0x60E6DB0", Offset = "0x60E5DB0", VA = "0x60E6DB0", Slot = "11")]
 		get
 		{
 			return default(XmlNodeType);
@@ -61,7 +61,7 @@ public class XmlNotation : XmlNode
 	public override bool IsReadOnly
 	{
 		[Token(Token = "0x6000A22")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "40")]
+		[Address(RVA = "0x60E6E20", Offset = "0x60E5E20", VA = "0x60E6E20", Slot = "40")]
 		get
 		{
 			return default(bool);
@@ -72,33 +72,33 @@ public class XmlNotation : XmlNode
 	public override string InnerXml
 	{
 		[Token(Token = "0x6000A23")]
-		[Address(RVA = "0x273BBA0", Offset = "0x273A1A0", VA = "0x18273BBA0", Slot = "43")]
+		[Address(RVA = "0x60E6E30", Offset = "0x60E5E30", VA = "0x60E6E30", Slot = "43")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000A1D")]
-	[Address(RVA = "0x273BAA0", Offset = "0x273A0A0", VA = "0x18273BAA0")]
+	[Address(RVA = "0x60DC000", Offset = "0x60DB000", VA = "0x60DC000")]
 	internal XmlNotation(string name, string publicId, string systemId, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x273BA40", Offset = "0x273A040", VA = "0x18273BA40", Slot = "34")]
+	[Address(RVA = "0x60E6DC0", Offset = "0x60E5DC0", VA = "0x60E6DC0", Slot = "34")]
 	public override XmlNode CloneNode(bool deep)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "46")]
+	[Address(RVA = "0x60E6E90", Offset = "0x60E5E90", VA = "0x60E6E90", Slot = "46")]
 	public override void WriteTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x6000A25")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "47")]
+	[Address(RVA = "0x60E6EA0", Offset = "0x60E5EA0", VA = "0x60E6EA0", Slot = "47")]
 	public override void WriteContentTo(XmlWriter w)
 	{
 	}

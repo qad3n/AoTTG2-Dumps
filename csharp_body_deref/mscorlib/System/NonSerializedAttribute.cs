@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000117")]
+[Token(Token = "0x20000EF")]
 [AttributeUsage(AttributeTargets.Field, Inherited = false)]
 public sealed class NonSerializedAttribute : Attribute
 {
-	[Token(Token = "0x60008F3")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60008CE")]
+	[Address(RVA = "0x54BCAA0", Offset = "0x54BBAA0", VA = "0x54BCAA0")]
 	public NonSerializedAttribute()
 	{
 	}

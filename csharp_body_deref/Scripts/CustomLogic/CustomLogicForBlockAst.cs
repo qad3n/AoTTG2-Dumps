@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003DC")]
+[Token(Token = "0x200043B")]
 internal class CustomLogicForBlockAst : CustomLogicBlockAst
 {
-	[Token(Token = "0x40013F2")]
+	[Token(Token = "0x4001592")]
 	[FieldOffset(Offset = "0x20")]
 	public CustomLogicVariableExpressionAst Variable;
 
-	[Token(Token = "0x40013F3")]
+	[Token(Token = "0x4001593")]
 	[FieldOffset(Offset = "0x28")]
 	public CustomLogicBaseExpressionAst Iterable;
 
-	[Token(Token = "0x60017FC")]
-	[Address(RVA = "0x1ED01B0", Offset = "0x1ECE7B0", VA = "0x181ED01B0")]
+	[Token(Token = "0x6001A73")]
+	[Address(RVA = "0x58A8FA0", Offset = "0x58A7FA0", VA = "0x58A8FA0")]
 	public CustomLogicForBlockAst(int line)
 	{
 	}

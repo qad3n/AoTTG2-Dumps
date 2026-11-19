@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.LocalAppContext
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,7 +29,7 @@ internal class LocalAppContext
 	private static bool DisableCaching
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x24E4340", Offset = "0x24E2940", VA = "0x1824E4340")]
+		[Address(RVA = "0x5E617A0", Offset = "0x5E607A0", VA = "0x5E617A0")]
 		get
 		{
 			return default(bool);
@@ -38,14 +38,14 @@ internal class LocalAppContext
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x24E4320", Offset = "0x24E2920", VA = "0x1824E4320")]
+	[Address(RVA = "0x5E61680", Offset = "0x5E60680", VA = "0x5E61680")]
 	internal static bool GetCachedSwitchValue(string switchName, ref int switchValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x24E4170", Offset = "0x24E2770", VA = "0x1824E4170")]
+	[Address(RVA = "0x5E61720", Offset = "0x5E60720", VA = "0x5E61720")]
 	private static bool GetCachedSwitchValueInternal(string switchName, ref int switchValue)
 	{
 		return default(bool);

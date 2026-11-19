@@ -19,7 +19,7 @@ internal class EventCategoryAttribute : Attribute
 	internal EventCategory category;
 
 	[Token(Token = "0x60027F2")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x6B6C680", Offset = "0x6B6B680", VA = "0x6B6C680")]
 	public EventCategoryAttribute(EventCategory category)
 	{
 	}

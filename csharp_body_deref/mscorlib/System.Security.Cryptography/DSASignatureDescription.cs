@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200033B")]
+[Token(Token = "0x2000314")]
 internal class DSASignatureDescription : SignatureDescription
 {
-	[Token(Token = "0x6001B0A")]
-	[Address(RVA = "0x19BF690", Offset = "0x19BDC90", VA = "0x1819BF690")]
+	[Token(Token = "0x6001AE7")]
+	[Address(RVA = "0x5353990", Offset = "0x5352990", VA = "0x5353990")]
 	public DSASignatureDescription()
 	{
 	}

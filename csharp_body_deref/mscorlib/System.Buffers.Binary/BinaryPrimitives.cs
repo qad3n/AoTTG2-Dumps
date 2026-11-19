@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace System.Buffers.Binary;
 
-[Token(Token = "0x200065C")]
+[Token(Token = "0x2000637")]
 public static class BinaryPrimitives
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003084")]
-	[Address(RVA = "0x1ACCF20", Offset = "0x1ACB520", VA = "0x181ACCF20")]
+	[Token(Token = "0x6003063")]
+	[Address(RVA = "0x54623C0", Offset = "0x54613C0", VA = "0x54623C0")]
 	public static int ReverseEndianness(int value)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003085")]
-	[Address(RVA = "0x1ACCF30", Offset = "0x1ACB530", VA = "0x181ACCF30")]
+	[Token(Token = "0x6003064")]
+	[Address(RVA = "0x54623D0", Offset = "0x54613D0", VA = "0x54623D0")]
 	[CLSCompliant(false)]
 	public static ushort ReverseEndianness(ushort value)
 	{
@@ -31,8 +31,8 @@ public static class BinaryPrimitives
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003086")]
-	[Address(RVA = "0x1ACCF20", Offset = "0x1ACB520", VA = "0x181ACCF20")]
+	[Token(Token = "0x6003065")]
+	[Address(RVA = "0x54623E0", Offset = "0x54613E0", VA = "0x54623E0")]
 	[CLSCompliant(false)]
 	public static uint ReverseEndianness(uint value)
 	{

@@ -1,5 +1,5 @@
 // Type: EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/EZhex1991.EZSoftBone/EZhex1991.EZSoftBone/EZSoftBoneColliderCylinder.cs
@@ -8,10 +8,10 @@
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$get_margin
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_margin (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, const MethodInfo* method);
-// 0x180584280
+// 0x32a8000
 
-float
-EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_margin(EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, MethodInfo* method)
+float EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_margin
+                (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).m_Margin;
@@ -20,10 +20,10 @@ EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_margin(EZhex1991_EZSoftBone
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$set_margin
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_margin (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, float value, const MethodInfo* method);
-// 0x1805842a0
+// 0x32a8010
 
-void
-EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_margin(EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, float value, MethodInfo* method)
+void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_margin
+               (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,float value,MethodInfo *method)
 
 {
   (__this->fields).m_Margin = value;
@@ -33,7 +33,7 @@ EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_margin(EZhex1991_EZSoftBone
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$get_insideMode
 // il2cpp: bool EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_insideMode (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, const MethodInfo* method);
-// 0x180584270
+// 0x32a8020
 
 bool EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_insideMode
                (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,MethodInfo *method)
@@ -45,7 +45,7 @@ bool EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__get_insideMode
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$set_insideMode
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_insideMode (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, bool value, const MethodInfo* method);
-// 0x180584290
+// 0x32a8030
 
 void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_insideMode
                (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,bool value,MethodInfo *method)
@@ -58,98 +58,80 @@ void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__set_insideMode
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$Collide
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__Collide (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, UnityEngine_Vector3_o* position, float spacing, const MethodInfo* method);
-// 0x180584010
+// 0x32a8040
 
 void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder__Collide
                (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,UnityEngine_Vector3_o *position,
                float spacing,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined8 uVar2;
-  undefined8 uVar3;
+  bool bVar1;
+  UnityEngine_Transform_o *__this_00;
+  MethodInfo *pMVar2;
+  float fVar3;
   float fVar4;
-  UnityEngine_Transform_o *pUVar5;
-  UnityEngine_Vector3_o *pUVar6;
-  float fVar7;
-  float fVar8;
-  float fVar9;
-  UnityEngine_Vector3_Fields local_78;
-  UnityEngine_Vector3_Fields local_68 [8];
+  UnityEngine_Vector3_o UVar5;
+  UnityEngine_Vector3_o UVar6;
+  UnityEngine_Vector3_o UVar7;
   
-  if ((__this->fields).m_InsideMode == false) {
-    pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    fVar9 = spacing + (__this->fields).m_Margin;
-    if (pUVar5 == (UnityEngine_Transform_o *)0x0) {
-label_180584216:
-      ThrowNullReferenceException();
+  bVar1 = (__this->fields).m_InsideMode;
+  __this_00 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (bVar1 == false) {
+    if (__this_00 != (UnityEngine_Transform_o *)0x0) {
+      fVar3 = spacing + (__this->fields).m_Margin;
+      UVar5 = UnityEngine_Transform__get_lossyScale(__this_00,(MethodInfo *)0x0);
+      UVar6 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+      pMVar2 = (MethodInfo *)0x0;
+      UVar7 = UnityEngine_Transform__get_up(__this_00,(MethodInfo *)0x0);
+      fVar4 = ABS(UVar5.fields.x);
+      if (ABS(UVar5.fields.x) <= ABS(UVar5.fields.z)) {
+        fVar4 = ABS(UVar5.fields.z);
+      }
+      EZhex1991_EZSoftBone_EZSoftBoneUtility__PointOutsideCylinder_31aa110
+                (position,UVar6,UVar7,fVar4 * 0.5 + fVar3,ABS(UVar5.fields.y) + fVar3,pMVar2);
+      return;
     }
-    pUVar6 = UnityEngine_Transform__get_lossyScale((UnityEngine_Vector3_o *)local_68,pUVar5,(MethodInfo *)0x0)
-    ;
-    fVar1 = (pUVar6->fields).y;
-    fVar8 = ABS((pUVar6->fields).x);
-    fVar7 = ABS((pUVar6->fields).z);
-    pUVar6 = UnityEngine_Transform__get_position((UnityEngine_Vector3_o *)local_68,pUVar5,(MethodInfo *)0x0);
-    uVar2._0_4_ = (pUVar6->fields).x;
-    uVar2._4_4_ = (pUVar6->fields).y;
-    fVar4 = (pUVar6->fields).z;
-    pUVar6 = UnityEngine_Transform__get_up((UnityEngine_Vector3_o *)local_68,pUVar5,(MethodInfo *)0x0);
-    local_78.x = (pUVar6->fields).x;
-    local_78.y = (pUVar6->fields).y;
-    if (fVar8 <= fVar7) {
-      fVar8 = fVar7;
-    }
-    local_78.z = (pUVar6->fields).z;
-    local_68[0]._0_8_ = uVar2;
-    local_68[0].z = fVar4;
-    EZhex1991_EZSoftBone_EZSoftBoneUtility__PointOutsideCylinder_5875c0
-              (position,(UnityEngine_Vector3_o *)local_68,(UnityEngine_Vector3_o *)&local_78,
-               fVar8 * 0.5 + fVar9,ABS(fVar1) + fVar9,(MethodInfo *)0x0);
   }
-  else {
-    pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    fVar9 = spacing + (__this->fields).m_Margin;
-    if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_180584216;
-    pUVar6 = UnityEngine_Transform__get_lossyScale((UnityEngine_Vector3_o *)local_68,pUVar5,(MethodInfo *)0x0)
-    ;
-    fVar1 = (pUVar6->fields).y;
-    fVar8 = ABS((pUVar6->fields).x);
-    fVar7 = ABS((pUVar6->fields).z);
-    pUVar6 = UnityEngine_Transform__get_position((UnityEngine_Vector3_o *)local_68,pUVar5,(MethodInfo *)0x0);
-    uVar3._0_4_ = (pUVar6->fields).x;
-    uVar3._4_4_ = (pUVar6->fields).y;
-    fVar4 = (pUVar6->fields).z;
-    pUVar6 = UnityEngine_Transform__get_up((UnityEngine_Vector3_o *)&local_78,pUVar5,(MethodInfo *)0x0);
-    local_68[0].x = (pUVar6->fields).x;
-    local_68[0].y = (pUVar6->fields).y;
-    if (fVar8 <= fVar7) {
-      fVar8 = fVar7;
+  else if (__this_00 != (UnityEngine_Transform_o *)0x0) {
+    fVar3 = spacing + (__this->fields).m_Margin;
+    UVar5 = UnityEngine_Transform__get_lossyScale(__this_00,(MethodInfo *)0x0);
+    UVar6 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+    pMVar2 = (MethodInfo *)0x0;
+    UVar7 = UnityEngine_Transform__get_up(__this_00,(MethodInfo *)0x0);
+    fVar4 = ABS(UVar5.fields.x);
+    if (ABS(UVar5.fields.x) <= ABS(UVar5.fields.z)) {
+      fVar4 = ABS(UVar5.fields.z);
     }
-    local_68[0].z = (pUVar6->fields).z;
-    local_78._0_8_ = uVar3;
-    local_78.z = fVar4;
-    EZhex1991_EZSoftBone_EZSoftBoneUtility__PointInsideCylinder_586400
-              (position,(UnityEngine_Vector3_o *)&local_78,(UnityEngine_Vector3_o *)local_68,
-               fVar8 * 0.5 - fVar9,ABS(fVar1) - fVar9,(MethodInfo *)0x0);
+    EZhex1991_EZSoftBone_EZSoftBoneUtility__PointInsideCylinder_31aa630
+              (position,UVar6,UVar7,fVar4 * 0.5 - fVar3,ABS(UVar5.fields.y) - fVar3,pMVar2);
+    return;
   }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder___ctor (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o* __this, const MethodInfo* method);
-// 0x180584220
+// 0x32a8360
 
 void EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder___ctor
                (EZhex1991_EZSoftBone_EZSoftBoneColliderCylinder_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18433df48 == '\0') {
+  uint32_t uVar1;
+  
+  if (Il2CppMethodInitialized_0753e818 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneColliderBase);
-    Il2CppMethodInitialized_18433df48 = '\x01';
+    Il2CppMethodInitialized_0753e818 = '\x01';
+    uVar1 = (TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneColliderBase->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneColliderBase->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneColliderBase->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneColliderBase);
+    UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+    return;
   }
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;

@@ -97,7 +97,7 @@ public class DataRelation
 	public virtual DataColumn[] ChildColumns
 	{
 		[Token(Token = "0x60003F5")]
-		[Address(RVA = "0x24F3300", Offset = "0x24F1900", VA = "0x1824F3300", Slot = "4")]
+		[Address(RVA = "0x5E95550", Offset = "0x5E94550", VA = "0x5E95550", Slot = "4")]
 		get
 		{
 			return null;
@@ -108,7 +108,7 @@ public class DataRelation
 	internal DataColumn[] ChildColumnsReference
 	{
 		[Token(Token = "0x60003F6")]
-		[Address(RVA = "0x24F32E0", Offset = "0x24F18E0", VA = "0x1824F32E0")]
+		[Address(RVA = "0x5E956B0", Offset = "0x5E946B0", VA = "0x5E956B0")]
 		get
 		{
 			return null;
@@ -119,7 +119,7 @@ public class DataRelation
 	internal DataKey ChildKey
 	{
 		[Token(Token = "0x60003F7")]
-		[Address(RVA = "0x24F32E0", Offset = "0x24F18E0", VA = "0x1824F32E0")]
+		[Address(RVA = "0x5E92B00", Offset = "0x5E91B00", VA = "0x5E92B00")]
 		get
 		{
 			return default(DataKey);
@@ -130,7 +130,7 @@ public class DataRelation
 	public virtual DataTable ChildTable
 	{
 		[Token(Token = "0x60003F8")]
-		[Address(RVA = "0x24F3340", Offset = "0x24F1940", VA = "0x1824F3340", Slot = "5")]
+		[Address(RVA = "0x5E956C0", Offset = "0x5E946C0", VA = "0x5E956C0", Slot = "5")]
 		get
 		{
 			return null;
@@ -143,7 +143,7 @@ public class DataRelation
 	public virtual DataSet DataSet
 	{
 		[Token(Token = "0x60003F9")]
-		[Address(RVA = "0x24F3380", Offset = "0x24F1980", VA = "0x1824F3380", Slot = "6")]
+		[Address(RVA = "0x5E95700", Offset = "0x5E94700", VA = "0x5E95700", Slot = "6")]
 		get
 		{
 			return null;
@@ -154,7 +154,7 @@ public class DataRelation
 	internal string[] ParentColumnNames
 	{
 		[Token(Token = "0x60003FA")]
-		[Address(RVA = "0x24F3430", Offset = "0x24F1A30", VA = "0x1824F3430")]
+		[Address(RVA = "0x5E95710", Offset = "0x5E94710", VA = "0x5E95710")]
 		get
 		{
 			return null;
@@ -165,7 +165,7 @@ public class DataRelation
 	internal string[] ChildColumnNames
 	{
 		[Token(Token = "0x60003FB")]
-		[Address(RVA = "0x24F32D0", Offset = "0x24F18D0", VA = "0x1824F32D0")]
+		[Address(RVA = "0x5E95720", Offset = "0x5E94720", VA = "0x5E95720")]
 		get
 		{
 			return null;
@@ -176,7 +176,7 @@ public class DataRelation
 	public virtual DataColumn[] ParentColumns
 	{
 		[Token(Token = "0x6000401")]
-		[Address(RVA = "0x24F3440", Offset = "0x24F1A40", VA = "0x1824F3440", Slot = "7")]
+		[Address(RVA = "0x5E95E30", Offset = "0x5E94E30", VA = "0x5E95E30", Slot = "7")]
 		get
 		{
 			return null;
@@ -187,7 +187,7 @@ public class DataRelation
 	internal DataColumn[] ParentColumnsReference
 	{
 		[Token(Token = "0x6000402")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x5E95E50", Offset = "0x5E94E50", VA = "0x5E95E50")]
 		get
 		{
 			return null;
@@ -198,7 +198,7 @@ public class DataRelation
 	internal DataKey ParentKey
 	{
 		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x24F3480", Offset = "0x24F1A80", VA = "0x1824F3480")]
+		[Address(RVA = "0x5E92B10", Offset = "0x5E91B10", VA = "0x5E92B10")]
 		get
 		{
 			return default(DataKey);
@@ -209,7 +209,7 @@ public class DataRelation
 	public virtual DataTable ParentTable
 	{
 		[Token(Token = "0x6000404")]
-		[Address(RVA = "0x24F34A0", Offset = "0x24F1AA0", VA = "0x1824F34A0", Slot = "8")]
+		[Address(RVA = "0x5E95E60", Offset = "0x5E94E60", VA = "0x5E95E60", Slot = "8")]
 		get
 		{
 			return null;
@@ -221,7 +221,7 @@ public class DataRelation
 	public virtual string RelationName
 	{
 		[Token(Token = "0x6000405")]
-		[Address(RVA = "0x24F34E0", Offset = "0x24F1AE0", VA = "0x1824F34E0", Slot = "9")]
+		[Address(RVA = "0x5E95EA0", Offset = "0x5E94EA0", VA = "0x5E95EA0", Slot = "9")]
 		get
 		{
 			return null;
@@ -233,13 +233,13 @@ public class DataRelation
 	public virtual bool Nested
 	{
 		[Token(Token = "0x6000408")]
-		[Address(RVA = "0x24F3410", Offset = "0x24F1A10", VA = "0x1824F3410", Slot = "10")]
+		[Address(RVA = "0x5E96730", Offset = "0x5E95730", VA = "0x5E96730", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000409")]
-		[Address(RVA = "0x24F3500", Offset = "0x24F1B00", VA = "0x1824F3500", Slot = "11")]
+		[Address(RVA = "0x5E96740", Offset = "0x5E95740", VA = "0x5E96740", Slot = "11")]
 		set
 		{
 		}
@@ -249,7 +249,7 @@ public class DataRelation
 	public virtual UniqueConstraint ParentKeyConstraint
 	{
 		[Token(Token = "0x600040A")]
-		[Address(RVA = "0x24F3460", Offset = "0x24F1A60", VA = "0x1824F3460", Slot = "12")]
+		[Address(RVA = "0x5E98190", Offset = "0x5E97190", VA = "0x5E98190", Slot = "12")]
 		get
 		{
 			return null;
@@ -260,7 +260,7 @@ public class DataRelation
 	public virtual ForeignKeyConstraint ChildKeyConstraint
 	{
 		[Token(Token = "0x600040C")]
-		[Address(RVA = "0x24F3320", Offset = "0x24F1920", VA = "0x1824F3320", Slot = "13")]
+		[Address(RVA = "0x5E981B0", Offset = "0x5E971B0", VA = "0x5E981B0", Slot = "13")]
 		get
 		{
 			return null;
@@ -272,7 +272,7 @@ public class DataRelation
 	public PropertyCollection ExtendedProperties
 	{
 		[Token(Token = "0x600040D")]
-		[Address(RVA = "0x24F33A0", Offset = "0x24F19A0", VA = "0x1824F33A0")]
+		[Address(RVA = "0x5E981C0", Offset = "0x5E971C0", VA = "0x5E981C0")]
 		get
 		{
 			return null;
@@ -283,13 +283,13 @@ public class DataRelation
 	internal bool CheckMultipleNested
 	{
 		[Token(Token = "0x600040E")]
-		[Address(RVA = "0x1D2B3E0", Offset = "0x1D299E0", VA = "0x181D2B3E0")]
+		[Address(RVA = "0x5E98230", Offset = "0x5E97230", VA = "0x5E98230")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600040F")]
-		[Address(RVA = "0x1D2B780", Offset = "0x1D29D80", VA = "0x181D2B780")]
+		[Address(RVA = "0x5E98240", Offset = "0x5E97240", VA = "0x5E98240")]
 		set
 		{
 		}
@@ -299,7 +299,7 @@ public class DataRelation
 	internal int ObjectID
 	{
 		[Token(Token = "0x600041A")]
-		[Address(RVA = "0x1BF1B70", Offset = "0x1BF0170", VA = "0x181BF1B70")]
+		[Address(RVA = "0x5E99020", Offset = "0x5E98020", VA = "0x5E99020")]
 		get
 		{
 			return default(int);
@@ -307,147 +307,147 @@ public class DataRelation
 	}
 
 	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x24F2DC0", Offset = "0x24F13C0", VA = "0x1824F2DC0")]
+	[Address(RVA = "0x5E94CA0", Offset = "0x5E93CA0", VA = "0x5E94CA0")]
 	public DataRelation(string relationName, DataColumn parentColumn, DataColumn childColumn, bool createConstraints)
 	{
 	}
 
 	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x24F30C0", Offset = "0x24F16C0", VA = "0x1824F30C0")]
+	[Address(RVA = "0x5E951F0", Offset = "0x5E941F0", VA = "0x5E951F0")]
 	public DataRelation(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns)
 	{
 	}
 
 	[Token(Token = "0x60003F2")]
-	[Address(RVA = "0x24F3010", Offset = "0x24F1610", VA = "0x1824F3010")]
+	[Address(RVA = "0x5E95290", Offset = "0x5E94290", VA = "0x5E95290")]
 	public DataRelation(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns, bool createConstraints)
 	{
 	}
 
 	[Token(Token = "0x60003F3")]
-	[Address(RVA = "0x24F31F0", Offset = "0x24F17F0", VA = "0x1824F31F0")]
+	[Address(RVA = "0x5E95330", Offset = "0x5E94330", VA = "0x5E95330")]
 	[Browsable(false)]
 	public DataRelation(string relationName, string parentTableName, string childTableName, string[] parentColumnNames, string[] childColumnNames, bool nested)
 	{
 	}
 
 	[Token(Token = "0x60003F4")]
-	[Address(RVA = "0x24F30E0", Offset = "0x24F16E0", VA = "0x1824F30E0")]
+	[Address(RVA = "0x5E95430", Offset = "0x5E94430", VA = "0x5E95430")]
 	[Browsable(false)]
 	public DataRelation(string relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[] parentColumnNames, string[] childColumnNames, bool nested)
 	{
 	}
 
 	[Token(Token = "0x60003FC")]
-	[Address(RVA = "0x24F2550", Offset = "0x24F0B50", VA = "0x1824F2550")]
+	[Address(RVA = "0x5E95730", Offset = "0x5E94730", VA = "0x5E95730")]
 	private static bool IsKeyNull(object[] values)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003FD")]
-	[Address(RVA = "0x24F1F10", Offset = "0x24F0510", VA = "0x1824F1F10")]
+	[Address(RVA = "0x5E957D0", Offset = "0x5E947D0", VA = "0x5E957D0")]
 	internal static DataRow[] GetChildRows(DataKey parentKey, DataKey childKey, DataRow parentRow, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FE")]
-	[Address(RVA = "0x24F2220", Offset = "0x24F0820", VA = "0x1824F2220")]
+	[Address(RVA = "0x5E95990", Offset = "0x5E94990", VA = "0x5E95990")]
 	internal static DataRow[] GetParentRows(DataKey parentKey, DataKey childKey, DataRow childRow, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003FF")]
-	[Address(RVA = "0x24F2080", Offset = "0x24F0680", VA = "0x1824F2080")]
+	[Address(RVA = "0x5E95B30", Offset = "0x5E94B30", VA = "0x5E95B30")]
 	internal static DataRow GetParentRow(DataKey parentKey, DataKey childKey, DataRow childRow, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000400")]
-	[Address(RVA = "0x24F27E0", Offset = "0x24F0DE0", VA = "0x1824F27E0")]
+	[Address(RVA = "0x5E95E10", Offset = "0x5E94E10", VA = "0x5E95E10")]
 	internal void SetDataSet(DataSet dataSet)
 	{
 	}
 
 	[Token(Token = "0x6000406")]
-	[Address(RVA = "0x24F0AE0", Offset = "0x24EF0E0", VA = "0x1824F0AE0")]
+	[Address(RVA = "0x5E95EB0", Offset = "0x5E94EB0", VA = "0x5E95EB0")]
 	internal void CheckNamespaceValidityForNestedRelations(string ns)
 	{
 	}
 
 	[Token(Token = "0x6000407")]
-	[Address(RVA = "0x24F0D70", Offset = "0x24EF370", VA = "0x1824F0D70")]
+	[Address(RVA = "0x5E96270", Offset = "0x5E95270", VA = "0x5E96270")]
 	internal void CheckNestedRelations()
 	{
 	}
 
 	[Token(Token = "0x600040B")]
-	[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+	[Address(RVA = "0x5E981A0", Offset = "0x5E971A0", VA = "0x5E981A0")]
 	internal void SetParentKeyConstraint(UniqueConstraint value)
 	{
 	}
 
 	[Token(Token = "0x6000410")]
-	[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+	[Address(RVA = "0x5E98250", Offset = "0x5E97250", VA = "0x5E98250")]
 	internal void SetChildKeyConstraint(ForeignKeyConstraint value)
 	{
 	}
 
 	[Token(Token = "0x6000411")]
-	[Address(RVA = "0x24F11D0", Offset = "0x24EF7D0", VA = "0x1824F11D0")]
+	[Address(RVA = "0x5E98260", Offset = "0x5E97260", VA = "0x5E98260")]
 	internal void CheckState()
 	{
 	}
 
 	[Token(Token = "0x6000412")]
-	[Address(RVA = "0x24F1170", Offset = "0x24EF770", VA = "0x1824F1170")]
+	[Address(RVA = "0x5E95570", Offset = "0x5E94570", VA = "0x5E95570")]
 	protected void CheckStateForProperty()
 	{
 	}
 
 	[Token(Token = "0x6000413")]
-	[Address(RVA = "0x24F1C00", Offset = "0x24F0200", VA = "0x1824F1C00")]
+	[Address(RVA = "0x5E94EC0", Offset = "0x5E93EC0", VA = "0x5E94EC0")]
 	private void Create(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns, bool createConstraints)
 	{
 	}
 
 	[Token(Token = "0x6000414")]
-	[Address(RVA = "0x24F14C0", Offset = "0x24EFAC0", VA = "0x1824F14C0")]
+	[Address(RVA = "0x5E984C0", Offset = "0x5E974C0", VA = "0x5E984C0")]
 	internal DataRelation Clone(DataSet destination)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000415")]
-	[Address(RVA = "0x24F2600", Offset = "0x24F0C00", VA = "0x1824F2600")]
+	[Address(RVA = "0x5E98D80", Offset = "0x5E97D80", VA = "0x5E98D80")]
 	protected internal void OnPropertyChanging(PropertyChangedEventArgs pcevent)
 	{
 	}
 
 	[Token(Token = "0x6000416")]
-	[Address(RVA = "0x24F26D0", Offset = "0x24F0CD0", VA = "0x1824F26D0")]
+	[Address(RVA = "0x5E98040", Offset = "0x5E97040", VA = "0x5E98040")]
 	protected internal void RaisePropertyChanging(string name)
 	{
 	}
 
 	[Token(Token = "0x6000417")]
-	[Address(RVA = "0x1B78A70", Offset = "0x1B77070", VA = "0x181B78A70", Slot = "3")]
+	[Address(RVA = "0x5E98E40", Offset = "0x5E97E40", VA = "0x5E98E40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000418")]
-	[Address(RVA = "0x24F2800", Offset = "0x24F0E00", VA = "0x1824F2800")]
+	[Address(RVA = "0x5E97B20", Offset = "0x5E96B20", VA = "0x5E97B20")]
 	internal void ValidateMultipleNestedRelations()
 	{
 	}
 
 	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x24F2390", Offset = "0x24F0990", VA = "0x1824F2390")]
+	[Address(RVA = "0x5E98E60", Offset = "0x5E97E60", VA = "0x5E98E60")]
 	private bool IsAutoGenerated(DataColumn col)
 	{
 		return default(bool);

@@ -48,110 +48,110 @@ public class DebugUIHandlerCanvas : MonoBehaviour
 	private string m_CurrentQueryPath;
 
 	[Token(Token = "0x60013F1")]
-	[Address(RVA = "0x2BA97B0", Offset = "0x2BA7DB0", VA = "0x182BA97B0")]
+	[Address(RVA = "0x65A3DF0", Offset = "0x65A2DF0", VA = "0x65A3DF0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60013F2")]
-	[Address(RVA = "0x2BAACA0", Offset = "0x2BA92A0", VA = "0x182BAACA0")]
+	[Address(RVA = "0x65A3FB0", Offset = "0x65A2FB0", VA = "0x65A3FB0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60013F3")]
-	[Address(RVA = "0x1532BE0", Offset = "0x15311E0", VA = "0x181532BE0")]
+	[Address(RVA = "0x65A4980", Offset = "0x65A3980", VA = "0x65A4980")]
 	internal void RequestHierarchyReset()
 	{
 	}
 
 	[Token(Token = "0x60013F4")]
-	[Address(RVA = "0x2BAA0F0", Offset = "0x2BA86F0", VA = "0x182BAA0F0")]
+	[Address(RVA = "0x65A40E0", Offset = "0x65A30E0", VA = "0x65A40E0")]
 	private void ResetAllHierarchy()
 	{
 	}
 
 	[Token(Token = "0x60013F5")]
-	[Address(RVA = "0x2BA9900", Offset = "0x2BA7F00", VA = "0x182BA9900")]
+	[Address(RVA = "0x65A4990", Offset = "0x65A3990", VA = "0x65A4990")]
 	private void Rebuild()
 	{
 	}
 
 	[Token(Token = "0x60013F6")]
-	[Address(RVA = "0x2BAA690", Offset = "0x2BA8C90", VA = "0x182BAA690")]
+	[Address(RVA = "0x65A5310", Offset = "0x65A4310", VA = "0x65A5310")]
 	private void Traverse(DebugUI.IContainer container, Transform parentTransform, DebugUIHandlerWidget parentUIHandler, ref DebugUIHandlerWidget selectedHandler)
 	{
 	}
 
 	[Token(Token = "0x60013F7")]
-	[Address(RVA = "0x2BA92E0", Offset = "0x2BA78E0", VA = "0x182BA92E0")]
+	[Address(RVA = "0x65A5C80", Offset = "0x65A4C80", VA = "0x65A5C80")]
 	private DebugUIHandlerWidget GetWidgetFromPath(string queryPath)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013F8")]
-	[Address(RVA = "0x2BA8CD0", Offset = "0x2BA72D0", VA = "0x182BA8CD0")]
+	[Address(RVA = "0x65A5A20", Offset = "0x65A4A20", VA = "0x65A5A20")]
 	private void ActivatePanel(int index, [Optional] DebugUIHandlerWidget selectedWidget)
 	{
 	}
 
 	[Token(Token = "0x60013F9")]
-	[Address(RVA = "0x2BA90A0", Offset = "0x2BA76A0", VA = "0x182BA90A0")]
+	[Address(RVA = "0x65A5E10", Offset = "0x65A4E10", VA = "0x65A5E10")]
 	internal void ChangeSelection(DebugUIHandlerWidget widget, bool fromNext)
 	{
 	}
 
 	[Token(Token = "0x60013FA")]
-	[Address(RVA = "0x2BAA470", Offset = "0x2BA8A70", VA = "0x182BAA470")]
+	[Address(RVA = "0x65A6150", Offset = "0x65A5150", VA = "0x65A6150")]
 	internal void SelectPreviousItem()
 	{
 	}
 
 	[Token(Token = "0x60013FB")]
-	[Address(RVA = "0x2BAA400", Offset = "0x2BA8A00", VA = "0x182BAA400")]
+	[Address(RVA = "0x65A6210", Offset = "0x65A5210", VA = "0x65A6210")]
 	internal void SelectNextPanel()
 	{
 	}
 
 	[Token(Token = "0x60013FC")]
-	[Address(RVA = "0x2BAA530", Offset = "0x2BA8B30", VA = "0x182BAA530")]
+	[Address(RVA = "0x65A6270", Offset = "0x65A5270", VA = "0x65A6270")]
 	internal void SelectPreviousPanel()
 	{
 	}
 
 	[Token(Token = "0x60013FD")]
-	[Address(RVA = "0x2BAA340", Offset = "0x2BA8940", VA = "0x182BAA340")]
+	[Address(RVA = "0x65A6090", Offset = "0x65A5090", VA = "0x65A6090")]
 	internal void SelectNextItem()
 	{
 	}
 
 	[Token(Token = "0x60013FE")]
-	[Address(RVA = "0x2BA8FA0", Offset = "0x2BA75A0", VA = "0x182BA8FA0")]
+	[Address(RVA = "0x65A62D0", Offset = "0x65A52D0", VA = "0x65A62D0")]
 	private void ChangeSelectionValue(float multiplier)
 	{
 	}
 
 	[Token(Token = "0x60013FF")]
-	[Address(RVA = "0x2BA8F20", Offset = "0x2BA7520", VA = "0x182BA8F20")]
+	[Address(RVA = "0x65A63D0", Offset = "0x65A53D0", VA = "0x65A63D0")]
 	private void ActivateSelection()
 	{
 	}
 
 	[Token(Token = "0x6001400")]
-	[Address(RVA = "0x2BA9420", Offset = "0x2BA7A20", VA = "0x182BA9420")]
+	[Address(RVA = "0x65A4400", Offset = "0x65A3400", VA = "0x65A4400")]
 	private void HandleInput()
 	{
 	}
 
 	[Token(Token = "0x6001401")]
-	[Address(RVA = "0x2BAA5B0", Offset = "0x2BA8BB0", VA = "0x182BAA5B0")]
+	[Address(RVA = "0x65A5FB0", Offset = "0x65A4FB0", VA = "0x65A5FB0")]
 	internal void SetScrollTarget(DebugUIHandlerWidget widget)
 	{
 	}
 
 	[Token(Token = "0x6001402")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x65A6450", Offset = "0x65A5450", VA = "0x65A6450")]
 	public DebugUIHandlerCanvas()
 	{
 	}

@@ -11,524 +11,524 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000210")]
+[Token(Token = "0x20001D1")]
 internal sealed class ReflectTypeDescriptionProvider : TypeDescriptionProvider
 {
-	[Token(Token = "0x2000211")]
+	[Token(Token = "0x20001D2")]
 	private class ReflectedTypeData
 	{
-		[Token(Token = "0x40007C7")]
+		[Token(Token = "0x40006F8")]
 		[FieldOffset(Offset = "0x10")]
 		private Type _type;
 
-		[Token(Token = "0x40007C8")]
+		[Token(Token = "0x40006F9")]
 		[FieldOffset(Offset = "0x18")]
 		private AttributeCollection _attributes;
 
-		[Token(Token = "0x40007C9")]
+		[Token(Token = "0x40006FA")]
 		[FieldOffset(Offset = "0x20")]
 		private EventDescriptorCollection _events;
 
-		[Token(Token = "0x40007CA")]
+		[Token(Token = "0x40006FB")]
 		[FieldOffset(Offset = "0x28")]
 		private PropertyDescriptorCollection _properties;
 
-		[Token(Token = "0x40007CB")]
+		[Token(Token = "0x40006FC")]
 		[FieldOffset(Offset = "0x30")]
 		private TypeConverter _converter;
 
-		[Token(Token = "0x40007CC")]
+		[Token(Token = "0x40006FD")]
 		[FieldOffset(Offset = "0x38")]
 		private object[] _editors;
 
-		[Token(Token = "0x40007CD")]
+		[Token(Token = "0x40006FE")]
 		[FieldOffset(Offset = "0x40")]
 		private Type[] _editorTypes;
 
-		[Token(Token = "0x40007CE")]
+		[Token(Token = "0x40006FF")]
 		[FieldOffset(Offset = "0x48")]
 		private int _editorCount;
 
-		[Token(Token = "0x170002EC")]
+		[Token(Token = "0x170002BD")]
 		internal bool IsPopulated
 		{
-			[Token(Token = "0x6000E1F")]
-			[Address(RVA = "0x28C8C90", Offset = "0x28C7290", VA = "0x1828C8C90")]
+			[Token(Token = "0x6000C5F")]
+			[Address(RVA = "0x62614A0", Offset = "0x62604A0", VA = "0x62614A0")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x6000E1E")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Token(Token = "0x6000C5E")]
+		[Address(RVA = "0x6261470", Offset = "0x6260470", VA = "0x6261470")]
 		internal ReflectedTypeData(Type type)
 		{
 		}
 
-		[Token(Token = "0x6000E20")]
-		[Address(RVA = "0x28C6D20", Offset = "0x28C5320", VA = "0x1828C6D20")]
+		[Token(Token = "0x6000C60")]
+		[Address(RVA = "0x62614B0", Offset = "0x62604B0", VA = "0x62614B0")]
 		internal AttributeCollection GetAttributes()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E21")]
-		[Address(RVA = "0x1AB84F0", Offset = "0x1AB6AF0", VA = "0x181AB84F0")]
+		[Token(Token = "0x6000C61")]
+		[Address(RVA = "0x6262180", Offset = "0x6261180", VA = "0x6262180")]
 		internal string GetClassName(object instance)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E22")]
-		[Address(RVA = "0x28C7270", Offset = "0x28C5870", VA = "0x1828C7270")]
+		[Token(Token = "0x6000C62")]
+		[Address(RVA = "0x62621B0", Offset = "0x62611B0", VA = "0x62621B0")]
 		internal string GetComponentName(object instance)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E23")]
-		[Address(RVA = "0x28C7330", Offset = "0x28C5930", VA = "0x1828C7330")]
+		[Token(Token = "0x6000C63")]
+		[Address(RVA = "0x6262360", Offset = "0x6261360", VA = "0x6262360")]
 		internal TypeConverter GetConverter(object instance)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E24")]
-		[Address(RVA = "0x28C7890", Offset = "0x28C5E90", VA = "0x1828C7890")]
+		[Token(Token = "0x6000C64")]
+		[Address(RVA = "0x6262AD0", Offset = "0x6261AD0", VA = "0x6262AD0")]
 		internal EventDescriptor GetDefaultEvent(object instance)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E25")]
-		[Address(RVA = "0x28C7A10", Offset = "0x28C6010", VA = "0x1828C7A10")]
+		[Token(Token = "0x6000C65")]
+		[Address(RVA = "0x6262EE0", Offset = "0x6261EE0", VA = "0x6262EE0")]
 		internal PropertyDescriptor GetDefaultProperty(object instance)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E26")]
-		[Address(RVA = "0x28C7DE0", Offset = "0x28C63E0", VA = "0x1828C7DE0")]
+		[Token(Token = "0x6000C66")]
+		[Address(RVA = "0x62633B0", Offset = "0x62623B0", VA = "0x62633B0")]
 		internal object GetEditor(object instance, Type editorBaseType)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E27")]
-		[Address(RVA = "0x28C7B90", Offset = "0x28C6190", VA = "0x1828C7B90")]
+		[Token(Token = "0x6000C67")]
+		[Address(RVA = "0x6263A40", Offset = "0x6262A40", VA = "0x6263A40")]
 		private static EditorAttribute GetEditorAttribute(AttributeCollection attributes, Type editorBaseType)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E28")]
-		[Address(RVA = "0x28C8400", Offset = "0x28C6A00", VA = "0x1828C8400")]
+		[Token(Token = "0x6000C68")]
+		[Address(RVA = "0x6263DF0", Offset = "0x6262DF0", VA = "0x6263DF0")]
 		internal EventDescriptorCollection GetEvents()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E29")]
-		[Address(RVA = "0x28C86F0", Offset = "0x28C6CF0", VA = "0x1828C86F0")]
+		[Token(Token = "0x6000C69")]
+		[Address(RVA = "0x6264200", Offset = "0x6263200", VA = "0x6264200")]
 		internal PropertyDescriptorCollection GetProperties()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E2A")]
-		[Address(RVA = "0x28C8A70", Offset = "0x28C7070", VA = "0x1828C8A70")]
+		[Token(Token = "0x6000C6A")]
+		[Address(RVA = "0x6262920", Offset = "0x6261920", VA = "0x6262920")]
 		private Type GetTypeFromName(string typeName)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E2B")]
-		[Address(RVA = "0x28C8C10", Offset = "0x28C7210", VA = "0x1828C8C10")]
+		[Token(Token = "0x6000C6B")]
+		[Address(RVA = "0x6264610", Offset = "0x6263610", VA = "0x6264610")]
 		internal void Refresh()
 		{
 		}
 	}
 
-	[Token(Token = "0x40007B7")]
+	[Token(Token = "0x40006E8")]
 	[FieldOffset(Offset = "0x20")]
 	private Hashtable _typeData;
 
-	[Token(Token = "0x40007B8")]
+	[Token(Token = "0x40006E9")]
 	[FieldOffset(Offset = "0x0")]
 	private static Type[] _typeConstructor;
 
-	[Token(Token = "0x40007B9")]
+	[Token(Token = "0x40006EA")]
 	[FieldOffset(Offset = "0x8")]
 	private static Hashtable _editorTables;
 
-	[Token(Token = "0x40007BA")]
+	[Token(Token = "0x40006EB")]
 	[FieldOffset(Offset = "0x10")]
 	private static Hashtable _intrinsicTypeConverters;
 
-	[Token(Token = "0x40007BB")]
+	[Token(Token = "0x40006EC")]
 	[FieldOffset(Offset = "0x18")]
 	private static object _intrinsicReferenceKey;
 
-	[Token(Token = "0x40007BC")]
+	[Token(Token = "0x40006ED")]
 	[FieldOffset(Offset = "0x20")]
 	private static object _intrinsicNullableKey;
 
-	[Token(Token = "0x40007BD")]
+	[Token(Token = "0x40006EE")]
 	[FieldOffset(Offset = "0x28")]
 	private static object _dictionaryKey;
 
-	[Token(Token = "0x40007BE")]
+	[Token(Token = "0x40006EF")]
 	[FieldOffset(Offset = "0x30")]
 	private static Hashtable _propertyCache;
 
-	[Token(Token = "0x40007BF")]
+	[Token(Token = "0x40006F0")]
 	[FieldOffset(Offset = "0x38")]
 	private static Hashtable _eventCache;
 
-	[Token(Token = "0x40007C0")]
+	[Token(Token = "0x40006F1")]
 	[FieldOffset(Offset = "0x40")]
 	private static Hashtable _attributeCache;
 
-	[Token(Token = "0x40007C1")]
+	[Token(Token = "0x40006F2")]
 	[FieldOffset(Offset = "0x48")]
 	private static Hashtable _extendedPropertyCache;
 
-	[Token(Token = "0x40007C2")]
+	[Token(Token = "0x40006F3")]
 	[FieldOffset(Offset = "0x50")]
 	private static readonly Guid _extenderProviderKey;
 
-	[Token(Token = "0x40007C3")]
+	[Token(Token = "0x40006F4")]
 	[FieldOffset(Offset = "0x60")]
 	private static readonly Guid _extenderPropertiesKey;
 
-	[Token(Token = "0x40007C4")]
+	[Token(Token = "0x40006F5")]
 	[FieldOffset(Offset = "0x70")]
 	private static readonly Guid _extenderProviderPropertiesKey;
 
-	[Token(Token = "0x40007C5")]
+	[Token(Token = "0x40006F6")]
 	[FieldOffset(Offset = "0x80")]
 	private static readonly Type[] _skipInterfaceAttributeList;
 
-	[Token(Token = "0x40007C6")]
+	[Token(Token = "0x40006F7")]
 	[FieldOffset(Offset = "0x88")]
 	private static object _internalSyncObject;
 
-	[Token(Token = "0x170002EA")]
+	[Token(Token = "0x170002BB")]
 	internal static Guid ExtenderProviderKey
 	{
-		[Token(Token = "0x6000DF0")]
-		[Address(RVA = "0x28C63F0", Offset = "0x28C49F0", VA = "0x1828C63F0")]
+		[Token(Token = "0x6000C30")]
+		[Address(RVA = "0x625A6D0", Offset = "0x62596D0", VA = "0x625A6D0")]
 		get
 		{
 			return default(Guid);
 		}
 	}
 
-	[Token(Token = "0x170002EB")]
+	[Token(Token = "0x170002BC")]
 	private static Hashtable IntrinsicTypeConverters
 	{
-		[Token(Token = "0x6000DF2")]
-		[Address(RVA = "0x28C6450", Offset = "0x28C4A50", VA = "0x1828C6450")]
+		[Token(Token = "0x6000C32")]
+		[Address(RVA = "0x625A730", Offset = "0x6259730", VA = "0x625A730")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000C31")]
+	[Address(RVA = "0x625A720", Offset = "0x6259720", VA = "0x625A720")]
 	internal ReflectTypeDescriptionProvider()
 	{
 	}
 
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x28C0550", Offset = "0x28BEB50", VA = "0x1828C0550")]
+	[Token(Token = "0x6000C33")]
+	[Address(RVA = "0x625B010", Offset = "0x625A010", VA = "0x625B010")]
 	internal static void AddEditorTable(Type editorBaseType, Hashtable table)
 	{
 	}
 
-	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x28C0900", Offset = "0x28BEF00", VA = "0x1828C0900", Slot = "4")]
+	[Token(Token = "0x6000C34")]
+	[Address(RVA = "0x625B2B0", Offset = "0x625A2B0", VA = "0x625B2B0", Slot = "4")]
 	public override object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x28C0800", Offset = "0x28BEE00", VA = "0x1828C0800")]
+	[Token(Token = "0x6000C35")]
+	[Address(RVA = "0x625B4C0", Offset = "0x625A4C0", VA = "0x625B4C0")]
 	private static object CreateInstance(Type objectType, Type callingType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x28C0B00", Offset = "0x28BF100", VA = "0x1828C0B00")]
+	[Token(Token = "0x6000C36")]
+	[Address(RVA = "0x625B5C0", Offset = "0x625A5C0", VA = "0x625B5C0")]
 	internal AttributeCollection GetAttributes(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x28C0B30", Offset = "0x28BF130", VA = "0x1828C0B30", Slot = "5")]
+	[Token(Token = "0x6000C37")]
+	[Address(RVA = "0x625B840", Offset = "0x625A840", VA = "0x625B840", Slot = "5")]
 	public override IDictionary GetCache(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x28C0D20", Offset = "0x28BF320", VA = "0x1828C0D20")]
+	[Token(Token = "0x6000C38")]
+	[Address(RVA = "0x625BBC0", Offset = "0x625ABC0", VA = "0x625BBC0")]
 	internal string GetClassName(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x28C0D60", Offset = "0x28BF360", VA = "0x1828C0D60")]
+	[Token(Token = "0x6000C39")]
+	[Address(RVA = "0x625BBF0", Offset = "0x625ABF0", VA = "0x625BBF0")]
 	internal string GetComponentName(Type type, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x28C0E30", Offset = "0x28BF430", VA = "0x1828C0E30")]
+	[Token(Token = "0x6000C3A")]
+	[Address(RVA = "0x625BC20", Offset = "0x625AC20", VA = "0x625BC20")]
 	internal TypeConverter GetConverter(Type type, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x28C0E70", Offset = "0x28BF470", VA = "0x1828C0E70")]
+	[Token(Token = "0x6000C3B")]
+	[Address(RVA = "0x625BC50", Offset = "0x625AC50", VA = "0x625BC50")]
 	internal EventDescriptor GetDefaultEvent(Type type, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x28C1000", Offset = "0x28BF600", VA = "0x1828C1000")]
+	[Token(Token = "0x6000C3C")]
+	[Address(RVA = "0x625BC80", Offset = "0x625AC80", VA = "0x625BC80")]
 	internal PropertyDescriptor GetDefaultProperty(Type type, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFD")]
-	[Address(RVA = "0x28C1670", Offset = "0x28BFC70", VA = "0x1828C1670")]
+	[Token(Token = "0x6000C3D")]
+	[Address(RVA = "0x625BCB0", Offset = "0x625ACB0", VA = "0x625BCB0")]
 	internal object GetEditor(Type type, object instance, Type editorBaseType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x28C1190", Offset = "0x28BF790", VA = "0x1828C1190")]
+	[Token(Token = "0x6000C3E")]
+	[Address(RVA = "0x625BCF0", Offset = "0x625ACF0", VA = "0x625BCF0")]
 	private static Hashtable GetEditorTable(Type editorBaseType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x28C16C0", Offset = "0x28BFCC0", VA = "0x1828C16C0")]
+	[Token(Token = "0x6000C3F")]
+	[Address(RVA = "0x625C170", Offset = "0x625B170", VA = "0x625C170")]
 	internal EventDescriptorCollection GetEvents(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x28C16F0", Offset = "0x28BFCF0", VA = "0x1828C16F0")]
+	[Token(Token = "0x6000C40")]
+	[Address(RVA = "0x625C190", Offset = "0x625B190", VA = "0x625C190")]
 	internal AttributeCollection GetExtendedAttributes(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E01")]
-	[Address(RVA = "0x28C1740", Offset = "0x28BFD40", VA = "0x1828C1740")]
+	[Token(Token = "0x6000C41")]
+	[Address(RVA = "0x625C200", Offset = "0x625B200", VA = "0x625C200")]
 	internal string GetExtendedClassName(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x28C17A0", Offset = "0x28BFDA0", VA = "0x1828C17A0")]
+	[Token(Token = "0x6000C42")]
+	[Address(RVA = "0x625C240", Offset = "0x625B240", VA = "0x625C240")]
 	internal string GetExtendedComponentName(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x28C18A0", Offset = "0x28BFEA0", VA = "0x1828C18A0")]
+	[Token(Token = "0x6000C43")]
+	[Address(RVA = "0x625C290", Offset = "0x625B290", VA = "0x625C290")]
 	internal TypeConverter GetExtendedConverter(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Token(Token = "0x6000C44")]
+	[Address(RVA = "0x625C2E0", Offset = "0x625B2E0", VA = "0x625C2E0")]
 	internal EventDescriptor GetExtendedDefaultEvent(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+	[Token(Token = "0x6000C45")]
+	[Address(RVA = "0x625C2F0", Offset = "0x625B2F0", VA = "0x625C2F0")]
 	internal PropertyDescriptor GetExtendedDefaultProperty(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x28C1900", Offset = "0x28BFF00", VA = "0x1828C1900")]
+	[Token(Token = "0x6000C46")]
+	[Address(RVA = "0x625C300", Offset = "0x625B300", VA = "0x625C300")]
 	internal object GetExtendedEditor(object instance, Type editorBaseType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x28C1970", Offset = "0x28BFF70", VA = "0x1828C1970")]
+	[Token(Token = "0x6000C47")]
+	[Address(RVA = "0x625C350", Offset = "0x625B350", VA = "0x625C350")]
 	internal EventDescriptorCollection GetExtendedEvents(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x28C19C0", Offset = "0x28BFFC0", VA = "0x1828C19C0")]
+	[Token(Token = "0x6000C48")]
+	[Address(RVA = "0x625C3C0", Offset = "0x625B3C0", VA = "0x625C3C0")]
 	internal PropertyDescriptorCollection GetExtendedProperties(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x28C1F00", Offset = "0x28C0500", VA = "0x1828C1F00", Slot = "7")]
+	[Token(Token = "0x6000C49")]
+	[Address(RVA = "0x625DA50", Offset = "0x625CA50", VA = "0x625DA50", Slot = "7")]
 	protected internal override IExtenderProvider[] GetExtenderProviders(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x28C21C0", Offset = "0x28C07C0", VA = "0x1828C21C0")]
+	[Token(Token = "0x6000C4A")]
+	[Address(RVA = "0x625DF00", Offset = "0x625CF00", VA = "0x625DF00")]
 	private static IExtenderProvider[] GetExtenders(ICollection components, object instance, IDictionary cache)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x28C1E90", Offset = "0x28C0490", VA = "0x1828C1E90")]
+	[Token(Token = "0x6000C4B")]
+	[Address(RVA = "0x625EC00", Offset = "0x625DC00", VA = "0x625EC00")]
 	internal object GetExtendedPropertyOwner(object instance, PropertyDescriptor pd)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0C")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Token(Token = "0x6000C4C")]
+	[Address(RVA = "0x625ECD0", Offset = "0x625DCD0", VA = "0x625ECD0", Slot = "6")]
 	public override ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x28C2A40", Offset = "0x28C1040", VA = "0x1828C2A40", Slot = "8")]
+	[Token(Token = "0x6000C4D")]
+	[Address(RVA = "0x625ECE0", Offset = "0x625DCE0", VA = "0x625ECE0", Slot = "8")]
 	public override string GetFullComponentName(object component)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x28C2AF0", Offset = "0x28C10F0", VA = "0x1828C2AF0")]
+	[Token(Token = "0x6000C4E")]
+	[Address(RVA = "0x625EE50", Offset = "0x625DE50", VA = "0x625EE50")]
 	internal Type[] GetPopulatedTypes(Module module)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0F")]
-	[Address(RVA = "0x28C2F20", Offset = "0x28C1520", VA = "0x1828C2F20")]
+	[Token(Token = "0x6000C4F")]
+	[Address(RVA = "0x625F350", Offset = "0x625E350", VA = "0x625F350")]
 	internal PropertyDescriptorCollection GetProperties(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E10")]
-	[Address(RVA = "0x28C2F50", Offset = "0x28C1550", VA = "0x1828C2F50")]
+	[Token(Token = "0x6000C50")]
+	[Address(RVA = "0x625EC70", Offset = "0x625DC70", VA = "0x625EC70")]
 	internal object GetPropertyOwner(Type type, object instance, PropertyDescriptor pd)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E11")]
-	[Address(RVA = "0x8E13A0", Offset = "0x8DF9A0", VA = "0x1808E13A0", Slot = "9")]
+	[Token(Token = "0x6000C51")]
+	[Address(RVA = "0x625F370", Offset = "0x625E370", VA = "0x625F370", Slot = "9")]
 	public override Type GetReflectionType(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0x28C2FB0", Offset = "0x28C15B0", VA = "0x1828C2FB0")]
+	[Token(Token = "0x6000C52")]
+	[Address(RVA = "0x625B5E0", Offset = "0x625A5E0", VA = "0x625B5E0")]
 	private ReflectedTypeData GetTypeData(Type type, bool createIfNeeded)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
+	[Token(Token = "0x6000C53")]
+	[Address(RVA = "0x625F380", Offset = "0x625E380", VA = "0x625F380", Slot = "11")]
 	public override ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x28C3230", Offset = "0x28C1830", VA = "0x1828C3230")]
+	[Token(Token = "0x6000C54")]
+	[Address(RVA = "0x625F390", Offset = "0x625E390", VA = "0x625F390")]
 	private static Type GetTypeFromName(string typeName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x28C3320", Offset = "0x28C1920", VA = "0x1828C3320")]
+	[Token(Token = "0x6000C55")]
+	[Address(RVA = "0x625F480", Offset = "0x625E480", VA = "0x625F480")]
 	internal bool IsPopulated(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x28C3370", Offset = "0x28C1970", VA = "0x1828C3370")]
+	[Token(Token = "0x6000C56")]
+	[Address(RVA = "0x625F4A0", Offset = "0x625E4A0", VA = "0x625F4A0")]
 	private static Attribute[] ReflectGetAttributes(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x28C3830", Offset = "0x28C1E30", VA = "0x1828C3830")]
+	[Token(Token = "0x6000C57")]
+	[Address(RVA = "0x62484D0", Offset = "0x62474D0", VA = "0x62484D0")]
 	internal static Attribute[] ReflectGetAttributes(MemberInfo member)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x28C3CF0", Offset = "0x28C22F0", VA = "0x1828C3CF0")]
+	[Token(Token = "0x6000C58")]
+	[Address(RVA = "0x625F910", Offset = "0x625E910", VA = "0x625F910")]
 	private static EventDescriptor[] ReflectGetEvents(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E19")]
-	[Address(RVA = "0x28C43F0", Offset = "0x28C29F0", VA = "0x1828C43F0")]
+	[Token(Token = "0x6000C59")]
+	[Address(RVA = "0x625C980", Offset = "0x625B980", VA = "0x625C980")]
 	private static PropertyDescriptor[] ReflectGetExtendedProperties(IExtenderProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E1A")]
-	[Address(RVA = "0x28C5130", Offset = "0x28C3730", VA = "0x1828C5130")]
+	[Token(Token = "0x6000C5A")]
+	[Address(RVA = "0x6260030", Offset = "0x625F030", VA = "0x6260030")]
 	private static PropertyDescriptor[] ReflectGetProperties(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x28C57B0", Offset = "0x28C3DB0", VA = "0x1828C57B0")]
+	[Token(Token = "0x6000C5B")]
+	[Address(RVA = "0x62606B0", Offset = "0x625F6B0", VA = "0x62606B0")]
 	internal void Refresh(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000E1C")]
-	[Address(RVA = "0x28C5840", Offset = "0x28C3E40", VA = "0x1828C5840")]
+	[Token(Token = "0x6000C5C")]
+	[Address(RVA = "0x62606D0", Offset = "0x625F6D0", VA = "0x62606D0")]
 	private static object SearchIntrinsicTable(Hashtable table, Type callingType)
 	{
 		return null;

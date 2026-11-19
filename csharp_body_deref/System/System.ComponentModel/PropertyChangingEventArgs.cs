@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001F8")]
+[Token(Token = "0x20001B9")]
 public class PropertyChangingEventArgs : EventArgs
 {
-	[Token(Token = "0x4000760")]
+	[Token(Token = "0x4000691")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _propertyName;
 
-	[Token(Token = "0x170002A7")]
+	[Token(Token = "0x17000278")]
 	public virtual string PropertyName
 	{
-		[Token(Token = "0x6000D27")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Token(Token = "0x6000B67")]
+		[Address(RVA = "0x624C130", Offset = "0x624B130", VA = "0x624C130", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000D26")]
-	[Address(RVA = "0x28B61C0", Offset = "0x28B47C0", VA = "0x1828B61C0")]
+	[Token(Token = "0x6000B66")]
+	[Address(RVA = "0x624C0C0", Offset = "0x624B0C0", VA = "0x624C0C0")]
 	public PropertyChangingEventArgs(string propertyName)
 	{
 	}

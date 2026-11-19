@@ -35,13 +35,13 @@ internal struct ProbeDilationSettings
 	public bool squaredDistWeighting;
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x2B12D20", Offset = "0x2B11320", VA = "0x182B12D20")]
+	[Address(RVA = "0x6507E40", Offset = "0x6506E40", VA = "0x6507E40")]
 	internal void SetDefaults()
 	{
 	}
 
 	[Token(Token = "0x6000A50")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6507E60", Offset = "0x6506E60", VA = "0x6507E60")]
 	internal void UpgradeFromTo(ProbeVolumeBakingProcessSettings.SettingsVersion from, ProbeVolumeBakingProcessSettings.SettingsVersion to)
 	{
 	}

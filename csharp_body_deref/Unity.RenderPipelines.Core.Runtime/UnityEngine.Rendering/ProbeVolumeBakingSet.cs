@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeBakingSet
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,34 +55,34 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 		private bool m_HasValidData;
 
 		[Token(Token = "0x6000A8E")]
-		[Address(RVA = "0x2B0C230", Offset = "0x2B0A830", VA = "0x182B0C230")]
+		[Address(RVA = "0x65094F0", Offset = "0x65084F0", VA = "0x65094F0")]
 		public void Initialize(ProbeVolumeSHBands shBands)
 		{
 		}
 
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x2B0C2A0", Offset = "0x2B0A8A0", VA = "0x182B0C2A0")]
+		[Address(RVA = "0x6509CE0", Offset = "0x6508CE0", VA = "0x6509CE0")]
 		public bool IsValid()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000A90")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Address(RVA = "0x650D150", Offset = "0x650C150", VA = "0x650D150")]
 		public bool HasValidData(ProbeVolumeSHBands shBands)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000A91")]
-		[Address(RVA = "0x2B0C1C0", Offset = "0x2B0A7C0", VA = "0x182B0C1C0")]
+		[Address(RVA = "0x650D100", Offset = "0x650C100", VA = "0x650D100")]
 		public bool ComputeHasValidData(ProbeVolumeSHBands shBands)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000A92")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x650D160", Offset = "0x650C160", VA = "0x650D160")]
 		public PerScenarioDataInfo()
 		{
 		}
@@ -101,7 +101,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 		public int chunksCount;
 
 		[Token(Token = "0x6000A93")]
-		[Address(RVA = "0x2B08DF0", Offset = "0x2B073F0", VA = "0x182B08DF0")]
+		[Address(RVA = "0x650D170", Offset = "0x650C170", VA = "0x650D170")]
 		public void Add(CellCounts o)
 		{
 		}
@@ -466,7 +466,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	internal bool hasDilation
 	{
 		[Token(Token = "0x6000A58")]
-		[Address(RVA = "0x2B186E0", Offset = "0x2B16CE0", VA = "0x182B186E0")]
+		[Address(RVA = "0x6507FF0", Offset = "0x6506FF0", VA = "0x6507FF0")]
 		get
 		{
 			return default(bool);
@@ -477,7 +477,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public IReadOnlyList<string> sceneGUIDs
 	{
 		[Token(Token = "0x6000A59")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6508010", Offset = "0x6507010", VA = "0x6508010")]
 		get
 		{
 			return null;
@@ -488,7 +488,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public IReadOnlyList<string> lightingScenarios
 	{
 		[Token(Token = "0x6000A5A")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6508020", Offset = "0x6507020", VA = "0x6508020")]
 		get
 		{
 			return null;
@@ -499,13 +499,13 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	internal bool bakedSkyOcclusion
 	{
 		[Token(Token = "0x6000A5B")]
-		[Address(RVA = "0x2B18630", Offset = "0x2B16C30", VA = "0x182B18630")]
+		[Address(RVA = "0x6508030", Offset = "0x6507030", VA = "0x6508030")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A5C")]
-		[Address(RVA = "0x2B18740", Offset = "0x2B16D40", VA = "0x182B18740")]
+		[Address(RVA = "0x6508040", Offset = "0x6507040", VA = "0x6508040")]
 		set
 		{
 		}
@@ -515,13 +515,13 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	internal bool bakedSkyShadingDirection
 	{
 		[Token(Token = "0x6000A5D")]
-		[Address(RVA = "0x2B18640", Offset = "0x2B16C40", VA = "0x182B18640")]
+		[Address(RVA = "0x6508060", Offset = "0x6507060", VA = "0x6508060")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A5E")]
-		[Address(RVA = "0x2B18760", Offset = "0x2B16D60", VA = "0x182B18760")]
+		[Address(RVA = "0x6508070", Offset = "0x6507070", VA = "0x6508070")]
 		set
 		{
 		}
@@ -531,7 +531,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	internal string otherScenario
 	{
 		[Token(Token = "0x6000A5F")]
-		[Address(RVA = "0x2602AD0", Offset = "0x26010D0", VA = "0x182602AD0")]
+		[Address(RVA = "0x6508090", Offset = "0x6507090", VA = "0x6508090")]
 		get
 		{
 			return null;
@@ -542,7 +542,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	internal float scenarioBlendingFactor
 	{
 		[Token(Token = "0x6000A60")]
-		[Address(RVA = "0x2B18730", Offset = "0x2B16D30", VA = "0x182B18730")]
+		[Address(RVA = "0x65080A0", Offset = "0x65070A0", VA = "0x65080A0")]
 		get
 		{
 			return default(float);
@@ -553,7 +553,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public int cellSizeInBricks
 	{
 		[Token(Token = "0x6000A61")]
-		[Address(RVA = "0x2B18650", Offset = "0x2B16C50", VA = "0x182B18650")]
+		[Address(RVA = "0x65080B0", Offset = "0x65070B0", VA = "0x65080B0")]
 		get
 		{
 			return default(int);
@@ -564,7 +564,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public int maxSubdivision
 	{
 		[Token(Token = "0x6000A62")]
-		[Address(RVA = "0x2B18700", Offset = "0x2B16D00", VA = "0x182B18700")]
+		[Address(RVA = "0x65080F0", Offset = "0x65070F0", VA = "0x65080F0")]
 		get
 		{
 			return default(int);
@@ -575,7 +575,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public float minBrickSize
 	{
 		[Token(Token = "0x6000A63")]
-		[Address(RVA = "0x2B18710", Offset = "0x2B16D10", VA = "0x182B18710")]
+		[Address(RVA = "0x6508110", Offset = "0x6507110", VA = "0x6508110")]
 		get
 		{
 			return default(float);
@@ -586,7 +586,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	public float cellSizeInMeters
 	{
 		[Token(Token = "0x6000A64")]
-		[Address(RVA = "0x2B18680", Offset = "0x2B16C80", VA = "0x182B18680")]
+		[Address(RVA = "0x6508150", Offset = "0x6507150", VA = "0x6508150")]
 		get
 		{
 			return default(float);
@@ -594,138 +594,138 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	}
 
 	[Token(Token = "0x6000A65")]
-	[Address(RVA = "0x2B14520", Offset = "0x2B12B20", VA = "0x182B14520")]
+	[Address(RVA = "0x65081A0", Offset = "0x65071A0", VA = "0x65081A0")]
 	internal uint4 ComputeRegionMasks()
 	{
 		return default(uint4);
 	}
 
 	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x2B14940", Offset = "0x2B12F40", VA = "0x182B14940")]
+	[Address(RVA = "0x65080D0", Offset = "0x65070D0", VA = "0x65080D0")]
 	internal static int GetCellSizeInBricks(int simplificationLevels)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x2B149B0", Offset = "0x2B12FB0", VA = "0x182B149B0")]
+	[Address(RVA = "0x6508100", Offset = "0x6507100", VA = "0x6508100")]
 	internal static int GetMaxSubdivision(int simplificationLevels)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A68")]
-	[Address(RVA = "0x2B149C0", Offset = "0x2B12FC0", VA = "0x182B149C0")]
+	[Address(RVA = "0x6508130", Offset = "0x6507130", VA = "0x6508130")]
 	internal static float GetMinBrickSize(float minDistanceBetweenProbes)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000A69")]
-	[Address(RVA = "0x2B15560", Offset = "0x2B13B60", VA = "0x182B15560")]
+	[Address(RVA = "0x6508280", Offset = "0x6507280", VA = "0x6508280")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000A6A")]
-	[Address(RVA = "0x2B153B0", Offset = "0x2B139B0", VA = "0x182B153B0")]
+	[Address(RVA = "0x6508400", Offset = "0x6507400", VA = "0x6508400")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000A6B")]
-	[Address(RVA = "0x2B15280", Offset = "0x2B13880", VA = "0x182B15280")]
+	[Address(RVA = "0x6508490", Offset = "0x6507490", VA = "0x6508490")]
 	internal void Migrate()
 	{
 	}
 
 	[Token(Token = "0x6000A6C")]
-	[Address(RVA = "0x2B144D0", Offset = "0x2B12AD0", VA = "0x182B144D0")]
+	[Address(RVA = "0x6508630", Offset = "0x6507630", VA = "0x6508630")]
 	private bool ComputeHasValidSharedData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x2B14DE0", Offset = "0x2B133E0", VA = "0x182B14DE0")]
+	[Address(RVA = "0x6508670", Offset = "0x6507670", VA = "0x6508670")]
 	internal bool HasValidSharedData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x2B14090", Offset = "0x2B12690", VA = "0x182B14090")]
+	[Address(RVA = "0x6508680", Offset = "0x6507680", VA = "0x6508680")]
 	internal bool CheckCompatibleCellLayout()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A6F")]
-	[Address(RVA = "0x2B14480", Offset = "0x2B12A80", VA = "0x182B14480")]
+	[Address(RVA = "0x65085F0", Offset = "0x65075F0", VA = "0x65085F0")]
 	private bool ComputeHasSupportData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A70")]
-	[Address(RVA = "0x2B14DD0", Offset = "0x2B133D0", VA = "0x182B14DD0")]
+	[Address(RVA = "0x65086F0", Offset = "0x65076F0", VA = "0x65086F0")]
 	internal bool HasSupportData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A71")]
-	[Address(RVA = "0x2B14A60", Offset = "0x2B13060", VA = "0x182B14A60")]
+	[Address(RVA = "0x6508700", Offset = "0x6507700", VA = "0x6508700")]
 	public bool HasBakedData([Optional] string scenario)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x2B17AA0", Offset = "0x2B160A0", VA = "0x182B17AA0", Slot = "5")]
+	[Address(RVA = "0x6508890", Offset = "0x6507890", VA = "0x6508890", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6000A73")]
-	[Address(RVA = "0x2B17F30", Offset = "0x2B16530", VA = "0x182B17F30", Slot = "4")]
+	[Address(RVA = "0x6508D80", Offset = "0x6507D80", VA = "0x6508D80", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6000A74")]
-	[Address(RVA = "0x2B14DF0", Offset = "0x2B133F0", VA = "0x182B14DF0")]
+	[Address(RVA = "0x6509000", Offset = "0x6508000", VA = "0x6509000")]
 	internal void Initialize(bool useStreamingAsset)
 	{
 	}
 
 	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x2B14110", Offset = "0x2B12710", VA = "0x182B14110")]
+	[Address(RVA = "0x6509930", Offset = "0x6508930", VA = "0x6509930")]
 	internal void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000A76")]
-	[Address(RVA = "0x2B17820", Offset = "0x2B15E20", VA = "0x182B17820")]
+	[Address(RVA = "0x6509D00", Offset = "0x6508D00", VA = "0x6509D00")]
 	internal void SetActiveScenario(string scenario, bool verbose = true)
 	{
 	}
 
 	[Token(Token = "0x6000A77")]
-	[Address(RVA = "0x2B13D60", Offset = "0x2B12360", VA = "0x182B13D60")]
+	[Address(RVA = "0x6509570", Offset = "0x6508570", VA = "0x6509570")]
 	internal void BlendLightingScenario(string otherScenario, float blendingFactor)
 	{
 	}
 
 	[Token(Token = "0x6000A78")]
-	[Address(RVA = "0x2B14680", Offset = "0x2B12C80", VA = "0x182B14680")]
+	[Address(RVA = "0x650A090", Offset = "0x6509090", VA = "0x650A090")]
 	internal int GetBakingHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A79")]
-	[Address(RVA = "0x2B13D30", Offset = "0x2B12330", VA = "0x182B13D30")]
+	[Address(RVA = "0x650A270", Offset = "0x6509270", VA = "0x650A270")]
 	private static int AlignUp16(int count)
 	{
 		return default(int);
@@ -738,14 +738,14 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	}
 
 	[Token(Token = "0x6000A7B")]
-	[Address(RVA = "0x2B15AB0", Offset = "0x2B140B0", VA = "0x182B15AB0")]
+	[Address(RVA = "0x650A290", Offset = "0x6509290", VA = "0x650A290")]
 	private NativeArray<byte> RequestScratchBuffer(int size)
 	{
 		return default(NativeArray<byte>);
 	}
 
 	[Token(Token = "0x6000A7C")]
-	[Address(RVA = "0x2B14610", Offset = "0x2B12C10", VA = "0x182B14610")]
+	[Address(RVA = "0x650A380", Offset = "0x6509380", VA = "0x650A380")]
 	private bool FileExists(string path)
 	{
 		return default(bool);
@@ -763,101 +763,101 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject, ISerializationCallb
 	}
 
 	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x2B15870", Offset = "0x2B13E70", VA = "0x182B15870")]
+	[Address(RVA = "0x650A3F0", Offset = "0x65093F0", VA = "0x650A3F0")]
 	internal void PruneCellIndexList(List<int> cellIndices, List<int> prunedIndexList)
 	{
 	}
 
 	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x2B156E0", Offset = "0x2B13CE0", VA = "0x182B156E0")]
+	[Address(RVA = "0x650A620", Offset = "0x6509620", VA = "0x650A620")]
 	private void PruneCellIndexListForScenario(List<int> cellIndices, PerScenarioDataInfo scenarioData, List<int> prunedIndexList)
 	{
 	}
 
 	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x2B149E0", Offset = "0x2B12FE0", VA = "0x182B149E0")]
+	[Address(RVA = "0x650A850", Offset = "0x6509850", VA = "0x650A850")]
 	internal List<int> GetSceneCellIndexList(string sceneGUID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x2B15BF0", Offset = "0x2B141F0", VA = "0x182B15BF0")]
+	[Address(RVA = "0x6509540", Offset = "0x6508540", VA = "0x6509540")]
 	private bool ResolveAllCellData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x2B15C30", Offset = "0x2B14230", VA = "0x182B15C30")]
+	[Address(RVA = "0x650B110", Offset = "0x650A110", VA = "0x650B110")]
 	internal bool ResolveCellData(List<int> cellIndices)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A84")]
-	[Address(RVA = "0x2B16F80", Offset = "0x2B15580", VA = "0x182B16F80")]
+	[Address(RVA = "0x650B6E0", Offset = "0x650A6E0", VA = "0x650B6E0")]
 	private void ResolveSharedCellData(List<int> cellIndices, NativeArray<ProbeBrickIndex.Brick> bricksData, NativeArray<byte> cellSharedData, NativeArray<byte> cellSupportData)
 	{
 	}
 
 	[Token(Token = "0x6000A85")]
-	[Address(RVA = "0x2B16D10", Offset = "0x2B15310", VA = "0x182B16D10")]
+	[Address(RVA = "0x650A8C0", Offset = "0x65098C0", VA = "0x650A8C0")]
 	internal bool ResolveSharedCellData(List<int> cellIndices)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0x2B16080", Offset = "0x2B14680", VA = "0x182B16080")]
+	[Address(RVA = "0x650AAD0", Offset = "0x6509AD0", VA = "0x650AAD0")]
 	internal bool ResolvePerScenarioCellData(List<int> cellIndices)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0x2B16640", Offset = "0x2B14C40", VA = "0x182B16640")]
+	[Address(RVA = "0x650BFE0", Offset = "0x650AFE0", VA = "0x650BFE0")]
 	internal bool ResolvePerScenarioCellData(NativeArray<byte> cellData, NativeArray<byte> cellOptionalData, NativeArray<byte> cellProbeOcclusionData, string scenario, List<int> cellIndices)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x2B15A20", Offset = "0x2B14020", VA = "0x182B15A20")]
+	[Address(RVA = "0x650C8D0", Offset = "0x650B8D0", VA = "0x650C8D0")]
 	internal void ReleaseCell(int cellIndex)
 	{
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x2B148C0", Offset = "0x2B12EC0", VA = "0x182B148C0")]
+	[Address(RVA = "0x650C960", Offset = "0x650B960", VA = "0x650C960")]
 	internal ProbeReferenceVolume.CellDesc GetCellDesc(int cellIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x2B14840", Offset = "0x2B12E40", VA = "0x182B14840")]
+	[Address(RVA = "0x650C9D0", Offset = "0x650B9D0", VA = "0x650C9D0")]
 	internal ProbeReferenceVolume.CellData GetCellData(int cellIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x2B14970", Offset = "0x2B12F70", VA = "0x182B14970")]
+	[Address(RVA = "0x650CA40", Offset = "0x650BA40", VA = "0x650CA40")]
 	internal int GetChunkGPUMemory(ProbeVolumeSHBands shBands)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x2B14BD0", Offset = "0x2B131D0", VA = "0x182B14BD0")]
+	[Address(RVA = "0x650CA80", Offset = "0x650BA80", VA = "0x650CA80")]
 	internal bool HasSameSceneGUIDs(ProbeVolumeBakingSet other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x2B181A0", Offset = "0x2B167A0", VA = "0x182B181A0")]
+	[Address(RVA = "0x650CC50", Offset = "0x650BC50", VA = "0x650CC50")]
 	public ProbeVolumeBakingSet()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Columns
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,7 +43,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal class UxmlObjectFactory : UxmlObjectFactory<Columns>
 	{
 		[Token(Token = "0x6000829")]
-		[Address(RVA = "0x3224F60", Offset = "0x3223560", VA = "0x183224F60")]
+		[Address(RVA = "0x6C1DC10", Offset = "0x6C1CC10", VA = "0x6C1DC10")]
 		public UxmlObjectFactory()
 		{
 		}
@@ -170,14 +170,14 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 
 	[Token(Token = "0x40004EB")]
 	[FieldOffset(Offset = "0x60")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<Column, ColumnDataType> m_columnChanged;
 
 	[Token(Token = "0x40004EC")]
 	[FieldOffset(Offset = "0x68")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<Column> m_columnResized;
 
 	[Token(Token = "0x40004ED")]
@@ -191,13 +191,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public string primaryColumnName
 	{
 		[Token(Token = "0x60007F6")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6C1AF60", Offset = "0x6C19F60", VA = "0x6C1AF60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F7")]
-		[Address(RVA = "0x3215C40", Offset = "0x3214240", VA = "0x183215C40")]
+		[Address(RVA = "0x6C1AF70", Offset = "0x6C19F70", VA = "0x6C1AF70")]
 		set
 		{
 		}
@@ -208,13 +208,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public bool reorderable
 	{
 		[Token(Token = "0x60007F8")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Address(RVA = "0x6C1B1A0", Offset = "0x6C1A1A0", VA = "0x6C1B1A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007F9")]
-		[Address(RVA = "0x3215CF0", Offset = "0x32142F0", VA = "0x183215CF0")]
+		[Address(RVA = "0x6C1B1B0", Offset = "0x6C1A1B0", VA = "0x6C1B1B0")]
 		set
 		{
 		}
@@ -225,13 +225,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public bool resizable
 	{
 		[Token(Token = "0x60007FA")]
-		[Address(RVA = "0x1D6A540", Offset = "0x1D68B40", VA = "0x181D6A540")]
+		[Address(RVA = "0x6C1B2E0", Offset = "0x6C1A2E0", VA = "0x6C1B2E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x3215D90", Offset = "0x3214390", VA = "0x183215D90")]
+		[Address(RVA = "0x6C1B2F0", Offset = "0x6C1A2F0", VA = "0x6C1B2F0")]
 		set
 		{
 		}
@@ -242,13 +242,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public bool resizePreview
 	{
 		[Token(Token = "0x60007FC")]
-		[Address(RVA = "0x1D6A550", Offset = "0x1D68B50", VA = "0x181D6A550")]
+		[Address(RVA = "0x6C1B420", Offset = "0x6C1A420", VA = "0x6C1B420")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007FD")]
-		[Address(RVA = "0x3215E30", Offset = "0x3214430", VA = "0x183215E30")]
+		[Address(RVA = "0x6C1B430", Offset = "0x6C1A430", VA = "0x6C1B430")]
 		set
 		{
 		}
@@ -258,7 +258,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal IEnumerable<Column> displayList
 	{
 		[Token(Token = "0x60007FE")]
-		[Address(RVA = "0x3215560", Offset = "0x3213B60", VA = "0x183215560")]
+		[Address(RVA = "0x6C13A60", Offset = "0x6C12A60", VA = "0x6C13A60")]
 		get
 		{
 			return null;
@@ -269,7 +269,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal IEnumerable<Column> visibleList
 	{
 		[Token(Token = "0x60007FF")]
-		[Address(RVA = "0x3215580", Offset = "0x3213B80", VA = "0x183215580")]
+		[Address(RVA = "0x6C13B90", Offset = "0x6C12B90", VA = "0x6C13B90")]
 		get
 		{
 			return null;
@@ -281,13 +281,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public StretchMode stretchMode
 	{
 		[Token(Token = "0x6000802")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x6C1B9E0", Offset = "0x6C1A9E0", VA = "0x6C1B9E0")]
 		get
 		{
 			return default(StretchMode);
 		}
 		[Token(Token = "0x6000803")]
-		[Address(RVA = "0x3215ED0", Offset = "0x32144D0", VA = "0x183215ED0")]
+		[Address(RVA = "0x6C1B9F0", Offset = "0x6C1A9F0", VA = "0x6C1B9F0")]
 		set
 		{
 		}
@@ -297,7 +297,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public int Count
 	{
 		[Token(Token = "0x600081A")]
-		[Address(RVA = "0x32152E0", Offset = "0x32138E0", VA = "0x1832152E0", Slot = "4")]
+		[Address(RVA = "0x6C161B0", Offset = "0x6C151B0", VA = "0x6C161B0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -308,7 +308,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x600081B")]
-		[Address(RVA = "0x3215330", Offset = "0x3213930", VA = "0x183215330", Slot = "5")]
+		[Address(RVA = "0x6C1D3E0", Offset = "0x6C1C3E0", VA = "0x6C1D3E0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -319,7 +319,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public Column this[int index]
 	{
 		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x3215380", Offset = "0x3213980", VA = "0x183215380")]
+		[Address(RVA = "0x6C15EE0", Offset = "0x6C14EE0", VA = "0x6C15EE0")]
 		get
 		{
 			return null;
@@ -330,7 +330,7 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public Column this[string name]
 	{
 		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x32153E0", Offset = "0x32139E0", VA = "0x1832153E0")]
+		[Address(RVA = "0x6C1D480", Offset = "0x6C1C480", VA = "0x6C1D480")]
 		get
 		{
 			return null;
@@ -341,13 +341,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	public event EventHandler<BindablePropertyChangedEventArgs> propertyChanged
 	{
 		[Token(Token = "0x60007F4")]
-		[Address(RVA = "0x3215230", Offset = "0x3213830", VA = "0x183215230", Slot = "13")]
+		[Address(RVA = "0x6C1AE20", Offset = "0x6C19E20", VA = "0x6C1AE20", Slot = "13")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60007F5")]
-		[Address(RVA = "0x3215B90", Offset = "0x3214190", VA = "0x183215B90", Slot = "14")]
+		[Address(RVA = "0x6C1AEC0", Offset = "0x6C19EC0", VA = "0x6C1AEC0", Slot = "14")]
 		[CompilerGenerated]
 		remove
 		{
@@ -358,13 +358,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<ColumnsDataType> changed
 	{
 		[Token(Token = "0x6000800")]
-		[Address(RVA = "0x3214E10", Offset = "0x3213410", VA = "0x183214E10")]
+		[Address(RVA = "0x6C1B8A0", Offset = "0x6C1A8A0", VA = "0x6C1B8A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000801")]
-		[Address(RVA = "0x3215770", Offset = "0x3213D70", VA = "0x183215770")]
+		[Address(RVA = "0x6C1B940", Offset = "0x6C1A940", VA = "0x6C1B940")]
 		[CompilerGenerated]
 		remove
 		{
@@ -375,13 +375,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<Column, int> columnAdded
 	{
 		[Token(Token = "0x6000804")]
-		[Address(RVA = "0x3214EC0", Offset = "0x32134C0", VA = "0x183214EC0")]
+		[Address(RVA = "0x6C16240", Offset = "0x6C15240", VA = "0x6C16240")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000805")]
-		[Address(RVA = "0x3215820", Offset = "0x3213E20", VA = "0x183215820")]
+		[Address(RVA = "0x6C1BB20", Offset = "0x6C1AB20", VA = "0x6C1BB20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -392,13 +392,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<Column> columnRemoved
 	{
 		[Token(Token = "0x6000806")]
-		[Address(RVA = "0x3215020", Offset = "0x3213620", VA = "0x183215020")]
+		[Address(RVA = "0x6C162E0", Offset = "0x6C152E0", VA = "0x6C162E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000807")]
-		[Address(RVA = "0x3215980", Offset = "0x3213F80", VA = "0x183215980")]
+		[Address(RVA = "0x6C1BBC0", Offset = "0x6C1ABC0", VA = "0x6C1BBC0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -409,13 +409,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<Column, ColumnDataType> columnChanged
 	{
 		[Token(Token = "0x6000808")]
-		[Address(RVA = "0x3214F70", Offset = "0x3213570", VA = "0x183214F70")]
+		[Address(RVA = "0x6C1BC60", Offset = "0x6C1AC60", VA = "0x6C1BC60")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000809")]
-		[Address(RVA = "0x32158D0", Offset = "0x3213ED0", VA = "0x1832158D0")]
+		[Address(RVA = "0x6C1BD00", Offset = "0x6C1AD00", VA = "0x6C1BD00")]
 		[CompilerGenerated]
 		remove
 		{
@@ -426,13 +426,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<Column> columnResized
 	{
 		[Token(Token = "0x600080A")]
-		[Address(RVA = "0x3215180", Offset = "0x3213780", VA = "0x183215180")]
+		[Address(RVA = "0x6C1BDA0", Offset = "0x6C1ADA0", VA = "0x6C1BDA0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600080B")]
-		[Address(RVA = "0x3215AE0", Offset = "0x32140E0", VA = "0x183215AE0")]
+		[Address(RVA = "0x6C1BE40", Offset = "0x6C1AE40", VA = "0x6C1BE40")]
 		[CompilerGenerated]
 		remove
 		{
@@ -443,13 +443,13 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	internal event Action<Column, int, int> columnReordered
 	{
 		[Token(Token = "0x600080C")]
-		[Address(RVA = "0x32150D0", Offset = "0x32136D0", VA = "0x1832150D0")]
+		[Address(RVA = "0x6C16380", Offset = "0x6C15380", VA = "0x6C16380")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x3215A30", Offset = "0x3214030", VA = "0x183215A30")]
+		[Address(RVA = "0x6C1BEE0", Offset = "0x6C1AEE0", VA = "0x6C1BEE0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -457,134 +457,134 @@ public class Columns : ICollection<Column>, IEnumerable<Column>, IEnumerable, IN
 	}
 
 	[Token(Token = "0x600080E")]
-	[Address(RVA = "0x3213EA0", Offset = "0x32124A0", VA = "0x183213EA0")]
+	[Address(RVA = "0x6C1BF80", Offset = "0x6C1AF80", VA = "0x6C1BF80")]
 	public bool IsPrimary(Column column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600080F")]
-	[Address(RVA = "0x32139F0", Offset = "0x3211FF0", VA = "0x1832139F0", Slot = "11")]
+	[Address(RVA = "0x6C18970", Offset = "0x6C17970", VA = "0x6C18970", Slot = "11")]
 	public IEnumerator<Column> GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000810")]
-	[Address(RVA = "0x32139F0", Offset = "0x3211FF0", VA = "0x1832139F0", Slot = "12")]
+	[Address(RVA = "0x6C1C060", Offset = "0x6C1B060", VA = "0x6C1C060", Slot = "12")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x3213480", Offset = "0x3211A80", VA = "0x183213480", Slot = "6")]
+	[Address(RVA = "0x6C1C0F0", Offset = "0x6C1B0F0", VA = "0x6C1C0F0", Slot = "6")]
 	public void Add(Column item)
 	{
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x32134F0", Offset = "0x3211AF0", VA = "0x1832134F0", Slot = "7")]
+	[Address(RVA = "0x6C1C620", Offset = "0x6C1B620", VA = "0x6C1C620", Slot = "7")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x3213860", Offset = "0x3211E60", VA = "0x183213860", Slot = "8")]
+	[Address(RVA = "0x6C1CC00", Offset = "0x6C1BC00", VA = "0x6C1CC00", Slot = "8")]
 	public bool Contains(Column item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x32136F0", Offset = "0x3211CF0", VA = "0x1832136F0")]
+	[Address(RVA = "0x6C1CCB0", Offset = "0x6C1BCB0", VA = "0x6C1CCB0")]
 	public bool Contains(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x32138C0", Offset = "0x3211EC0", VA = "0x1832138C0", Slot = "9")]
+	[Address(RVA = "0x6C1CFC0", Offset = "0x6C1BFC0", VA = "0x6C1CFC0", Slot = "9")]
 	public void CopyTo(Column[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000816")]
-	[Address(RVA = "0x3214370", Offset = "0x3212970", VA = "0x183214370", Slot = "10")]
+	[Address(RVA = "0x6C1C7F0", Offset = "0x6C1B7F0", VA = "0x6C1C7F0", Slot = "10")]
 	public bool Remove(Column column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x3214130", Offset = "0x3212730", VA = "0x183214130")]
+	[Address(RVA = "0x6C1D080", Offset = "0x6C1C080", VA = "0x6C1D080")]
 	private void OnColumnsPropertyChanged(object sender, BindablePropertyChangedEventArgs args)
 	{
 	}
 
 	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x3214070", Offset = "0x3212670", VA = "0x183214070")]
+	[Address(RVA = "0x6C1D2F0", Offset = "0x6C1C2F0", VA = "0x6C1D2F0")]
 	private void OnColumnChanged(Column column, ColumnDataType type)
 	{
 	}
 
 	[Token(Token = "0x6000819")]
-	[Address(RVA = "0x3214110", Offset = "0x3212710", VA = "0x183214110")]
+	[Address(RVA = "0x6C1D3C0", Offset = "0x6C1C3C0", VA = "0x6C1D3C0")]
 	private void OnColumnResized(Column column)
 	{
 	}
 
 	[Token(Token = "0x600081C")]
-	[Address(RVA = "0x3213A40", Offset = "0x3212040", VA = "0x183213A40")]
+	[Address(RVA = "0x6C138A0", Offset = "0x6C128A0", VA = "0x6C138A0")]
 	public int IndexOf(Column column)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600081D")]
-	[Address(RVA = "0x3213B20", Offset = "0x3212120", VA = "0x183213B20")]
+	[Address(RVA = "0x6C1C1B0", Offset = "0x6C1B1B0", VA = "0x6C1C1B0")]
 	public void Insert(int index, Column column)
 	{
 	}
 
 	[Token(Token = "0x6000820")]
-	[Address(RVA = "0x3214620", Offset = "0x3212C20", VA = "0x183214620")]
+	[Address(RVA = "0x6C1D7B0", Offset = "0x6C1C7B0", VA = "0x6C1D7B0")]
 	public void ReorderDisplay(int from, int to)
 	{
 	}
 
 	[Token(Token = "0x6000821")]
-	[Address(RVA = "0x3213AA0", Offset = "0x32120A0", VA = "0x183213AA0")]
+	[Address(RVA = "0x6C1B560", Offset = "0x6C1A560", VA = "0x6C1B560")]
 	private void InitOrderColumns()
 	{
 	}
 
 	[Token(Token = "0x6000822")]
-	[Address(RVA = "0x3213990", Offset = "0x3211F90", VA = "0x183213990")]
+	[Address(RVA = "0x6C1D370", Offset = "0x6C1C370", VA = "0x6C1D370")]
 	private void DirtyVisibleColumns()
 	{
 	}
 
 	[Token(Token = "0x6000823")]
-	[Address(RVA = "0x3214760", Offset = "0x3212D60", VA = "0x183214760")]
+	[Address(RVA = "0x6C1B5E0", Offset = "0x6C1A5E0", VA = "0x6C1B5E0")]
 	private void UpdateVisibleColumns()
 	{
 	}
 
 	[Token(Token = "0x6000824")]
-	[Address(RVA = "0x3213F20", Offset = "0x3212520", VA = "0x183213F20")]
+	[Address(RVA = "0x6C1B0C0", Offset = "0x6C1A0C0", VA = "0x6C1B0C0")]
 	private void NotifyChange(ColumnsDataType type)
 	{
 	}
 
 	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x3213F40", Offset = "0x3212540", VA = "0x183213F40")]
+	[Address(RVA = "0x6C1B0E0", Offset = "0x6C1A0E0", VA = "0x6C1B0E0")]
 	private void NotifyPropertyChanged(in BindingId property)
 	{
 	}
 
 	[Token(Token = "0x6000826")]
-	[Address(RVA = "0x3214D80", Offset = "0x3213380", VA = "0x183214D80")]
+	[Address(RVA = "0x6C1D960", Offset = "0x6C1C960", VA = "0x6C1D960")]
 	public Columns()
 	{
 	}

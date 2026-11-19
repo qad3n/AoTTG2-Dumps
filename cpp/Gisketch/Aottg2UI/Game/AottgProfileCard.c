@@ -1,50 +1,50 @@
 // Type: Gisketch.Aottg2UI.Game.AottgProfileCard
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgProfileCard.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___cctor (const MethodInfo* method);
-// 0x181e27880
+// 0x58f9360
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___cctor(MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_184344c79 == '\0') {
+  if (Il2CppMethodInitialized_075455ed == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-    Il2CppMethodInitialized_184344c79 = '\x01';
+    Il2CppMethodInitialized_075455ed = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9,__this);
+  __this = (Il2CppObject *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9 =
+       (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___ctor (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x58f93d0
 
-void
-Gisketch_Aottg2UI_Game_AottgProfileCard___c___ctor(Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfileCard___c___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildIdentity>b__4_2
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* names, const MethodInfo* method);
-// 0x181e23840
+// 0x58f93e0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *names,
@@ -56,9 +56,10 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar3;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar4;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c_StaticFields *pGVar5;
+  System_Action_AottgUi__o *__this_00;
   
-  if (Il2CppMethodInitialized_184344c7a == '\0') {
+  if (Il2CppMethodInitialized_075455ee == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildIdentity_b__4_4);
@@ -72,7 +73,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-player-name-skeleton");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-player-name");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardName");
-    Il2CppMethodInitialized_184344c7a = '\x01';
+    Il2CppMethodInitialized_075455ee = '\x01';
   }
   pSVar1 = Gisketch_Aottg2UI_Game_AottgActiveProfile__CharacterName((MethodInfo *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
@@ -92,23 +93,22 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
   }
   pSVar1 = "default";
-  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-              TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_4;
-  if (__this_00 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
+  pGVar5 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  __this_00 = pGVar5->__9__4_4;
+  if (__this_00 == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar5 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-    __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    object = (Il2CppObject *)pGVar5->__9;
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (__this_00,object,
+              ((System_Action_object__o *)__this_00,object,
                (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildIdentity_b__4_4,
-               (MethodInfo *)0x0);
-    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_4 =
-         (System_Action_AottgUi__o *)__this_00;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_4,__this_00);
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar5 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar5->__9__4_4 = __this_00;
+    Il2CppCodeGenWriteBarrier(&pGVar5->__9__4_4);
   }
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Points(26.0,(MethodInfo *)0x0);
@@ -120,19 +120,19 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_2
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (names != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (names,pSVar1,(System_Action_AottgUi__o *)__this_00,"profile-card-handle-row",pGVar4,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (names == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (names,pSVar1,__this_00,"profile-card-handle-row",pGVar4,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildIdentity>b__4_4
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_4 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* handle, const MethodInfo* method);
-// 0x181e23be0
+// 0x58f96f0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_4
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *handle
@@ -140,12 +140,12 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_4
 
 {
   Gisketch_Aottg2UI_Game_AottgBadgeIconRow_o *__this_00;
-  System_String_o *fallback;
+  System_String_o *value;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *skeletonLayout;
   
-  if (Il2CppMethodInitialized_184344c7b == '\0') {
+  if (Il2CppMethodInitialized_075455ef == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgBadgeIconRow);
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.ready");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.accountName");
@@ -155,38 +155,38 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildIdentity_b__4_4
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-auth-handle");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.characterInfoJson");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-badges");
-    Il2CppMethodInitialized_184344c7b = '\x01';
+    Il2CppMethodInitialized_075455ef = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgBadgeIconRow);
   Gisketch_Aottg2UI_Game_AottgBadgeIconRow___ctor
             (__this_00,"profile-card-badges",20.0,4.0,"profile.characterInfoJson","profile.identity.ready",
              (MethodInfo *)0x0);
-  if (handle != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Component
-              (handle,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_00,(MethodInfo *)0x0);
-    fallback = Gisketch_Aottg2UI_Game_AottgActiveProfile__AccountName((MethodInfo *)0x0);
-    width = Gisketch_Aottg2UI_Code_AottgUi__Points(180.0,(MethodInfo *)0x0);
-    height = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
-    skeletonLayout =
-         Gisketch_Aottg2UI_Code_AottgUi__Layout
-                   ("Column",(System_String_o *)0x0,(System_String_o *)0x0,(System_String_o *)0x0
-                    ,(System_String_o *)0x0,0.0,width,height,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                    (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                    ,(MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText
-              (handle,fallback,"profileCardHandle","profile-card-auth-handle","profile.accountName",
-               "profile-card-auth-handle-skeleton",skeletonLayout,(MethodInfo *)0x0);
-    return;
+  if (handle == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Component
+            (handle,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_00,(MethodInfo *)0x0);
+  value = Gisketch_Aottg2UI_Game_AottgActiveProfile__AccountName((MethodInfo *)0x0);
+  width = Gisketch_Aottg2UI_Code_AottgUi__Points(180.0,(MethodInfo *)0x0);
+  height = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
+  skeletonLayout =
+       Gisketch_Aottg2UI_Code_AottgUi__Layout
+                 ("Column",(System_String_o *)0x0,(System_String_o *)0x0,(System_String_o *)0x0,
+                  (System_String_o *)0x0,0.0,width,height,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                  (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                  (MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText
+            (handle,value,"profileCardHandle","profile-card-auth-handle","profile.accountName",
+             "profile-card-auth-handle-skeleton",skeletonLayout,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildDetails>b__5_0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_0 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* columns, const MethodInfo* method);
-// 0x181e228c0
+// 0x58f98d0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_0
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,
@@ -195,12 +195,13 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_0
 {
   Il2CppObject *pIVar1;
   System_String_o *pSVar2;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar3;
+  System_Action_AottgUi__o *pSVar3;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar4;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar5;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar6;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c_StaticFields *pGVar7;
   
-  if (Il2CppMethodInitialized_184344c7c == '\0') {
+  if (Il2CppMethodInitialized_075455f0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_1);
@@ -211,29 +212,28 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_0
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-socials");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-about");
-    Il2CppMethodInitialized_184344c7c = '\x01';
+    Il2CppMethodInitialized_075455f0 = '\x01';
   }
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
   }
   pSVar2 = "default";
-  pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-           TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_1;
-  if (pUVar3 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
+  pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  pSVar3 = pGVar7->__9__5_1;
+  if (pSVar3 == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    pIVar1 = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-    pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    pIVar1 = (Il2CppObject *)pGVar7->__9;
+    pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (pUVar3,pIVar1,
+              ((System_Action_object__o *)pSVar3,pIVar1,
                (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_1,
-               (MethodInfo *)0x0);
-    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_1 =
-         (System_Action_AottgUi__o *)pUVar3;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_1,pUVar3);
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar7->__9__5_1 = pSVar3;
+    Il2CppCodeGenWriteBarrier(&pGVar7->__9__5_1);
   }
   pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
   pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Points(520.0,(MethodInfo *)0x0);
@@ -245,74 +245,73 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_0
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,pGVar5,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,
                       1.0,(MethodInfo *)0x0);
-  if (columns != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (columns,pSVar2,(System_Action_AottgUi__o *)pUVar3,"profile-card-about",pGVar6,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  if (columns == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (columns,pSVar2,pSVar3,"profile-card-about",pGVar6,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+  }
+  pSVar2 = "default";
+  pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  pSVar3 = pGVar7->__9__5_2;
+  if (pSVar3 == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    pSVar2 = "default";
-    pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_2;
-    if (pUVar3 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-      }
-      pIVar1 = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-      pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-      System_Action_object____ctor
-                (pUVar3,pIVar1,
-                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_2,
-                 (MethodInfo *)0x0);
-      TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_2 =
-           (System_Action_AottgUi__o *)pUVar3;
-      Il2CppCodeGenWriteBarrier
-                (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_2,pUVar3);
-    }
-    pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
-    pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
-    pGVar6 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                        (System_String_o *)0x0,(System_String_o *)0x0,10.0,pGVar4,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,pGVar5,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (columns,pSVar2,(System_Action_AottgUi__o *)pUVar3,"profile-card-socials",pGVar6,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+    pIVar1 = (Il2CppObject *)pGVar7->__9;
+    pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              ((System_Action_object__o *)pSVar3,pIVar1,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_2,
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar7 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar7->__9__5_2 = pSVar3;
+    Il2CppCodeGenWriteBarrier(&pGVar7->__9__5_2);
   }
-  ThrowNullReferenceException();
+  pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
+  pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
+  pGVar6 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      (System_String_o *)0x0,(System_String_o *)0x0,10.0,pGVar4,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,pGVar5,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                      0.0,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (columns,pSVar2,pSVar3,"profile-card-socials",pGVar6,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildDetails>b__5_1
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_1 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* about, const MethodInfo* method);
-// 0x181e22ca0
+// 0x58f9c00
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_1
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *about,
                MethodInfo *method)
 
 {
-  System_String_o *fallback;
+  System_String_o *value;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *skeletonLayout;
   
-  if (Il2CppMethodInitialized_184344c7d == '\0') {
+  if (Il2CppMethodInitialized_075455f1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardBodyText");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.bio");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-bio");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-bio-skeleton");
-    Il2CppMethodInitialized_184344c7d = '\x01';
+    Il2CppMethodInitialized_075455f1 = '\x01';
   }
-  fallback = Gisketch_Aottg2UI_Game_AottgActiveProfile__Bio((MethodInfo *)0x0);
+  value = Gisketch_Aottg2UI_Game_AottgActiveProfile__Bio((MethodInfo *)0x0);
   width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   height = Gisketch_Aottg2UI_Code_AottgUi__Points(86.0,(MethodInfo *)0x0);
   skeletonLayout =
@@ -324,7 +323,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_1
                   (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                   (MethodInfo *)0x0);
   Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText
-            (about,fallback,"profileCardBodyText","profile-card-bio","profile.bio",
+            (about,value,"profileCardBodyText","profile-card-bio","profile.bio",
              "profile-card-bio-skeleton",skeletonLayout,(MethodInfo *)0x0);
   return;
 }
@@ -332,7 +331,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_1
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildDetails>b__5_2
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* socials, const MethodInfo* method);
-// 0x181e22e10
+// 0x58f9d50
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,
@@ -341,15 +340,15 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2
 {
   Il2CppObject *pIVar1;
   System_String_o *pSVar2;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar3;
+  System_Action_AottgUi__o *pSVar3;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar4;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar5;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar6;
   Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar7;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *pGVar8;
-  bool bVar9;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c_StaticFields *pGVar9;
   
-  if (Il2CppMethodInitialized_184344c7e == '\0') {
+  if (Il2CppMethodInitialized_075455f2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_3);
@@ -362,29 +361,28 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.loading");
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-socials-ready");
-    Il2CppMethodInitialized_184344c7e = '\x01';
+    Il2CppMethodInitialized_075455f2 = '\x01';
   }
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
   }
   pSVar2 = "default";
-  pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-           TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_3;
-  if (pUVar3 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
+  pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  pSVar3 = pGVar9->__9__5_3;
+  if (pSVar3 == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    pIVar1 = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-    pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    pIVar1 = (Il2CppObject *)pGVar9->__9;
+    pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (pUVar3,pIVar1,
+              ((System_Action_object__o *)pSVar3,pIVar1,
                (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_3,
-               (MethodInfo *)0x0);
-    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_3 =
-         (System_Action_AottgUi__o *)pUVar3;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_3,pUVar3);
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar9->__9__5_3 = pSVar3;
+    Il2CppCodeGenWriteBarrier(&pGVar9->__9__5_3);
   }
   pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Layout
@@ -398,100 +396,60 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2
                       1.0,(MethodInfo *)0x0);
   if (socials != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     pGVar6 = Gisketch_Aottg2UI_Code_AottgUi__Panel
-                       (socials,pSVar2,(System_Action_AottgUi__o *)pUVar3,"profile-card-socials-ready",pGVar5,
+                       (socials,pSVar2,pSVar3,"profile-card-socials-ready",pGVar5,
                         (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
     if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      bVar9 = Il2CppMethodInitialized_184344c75 == '\0';
       (pGVar6->fields).active = false;
-      if (bVar9) {
-        il2cpp_codegen_initialize_runtime_metadata(&"fade");
-        Il2CppMethodInitialized_184344c75 = '\x01';
-      }
-      pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Motion
-                         ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
+      pGVar7 = Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion((MethodInfo *)0x0);
       (pGVar6->fields).enter = pGVar7;
-      Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enter,pGVar7);
-      pSVar2 = "profile.identity.ready";
-      if (Il2CppMethodInitialized_184344c73 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-        Il2CppMethodInitialized_184344c73 = '\x01';
+      Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enter);
+      pGVar8 = Gisketch_Aottg2UI_Game_AottgProfileCard__Visible("profile.identity.ready",(MethodInfo *)0x0);
+      (pGVar6->fields).bind = pGVar8;
+      Il2CppCodeGenWriteBarrier(&(pGVar6->fields).bind);
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
       }
-      pGVar8 = il2cpp_codegen_object_new
-                         ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pGVar8,(MethodInfo *)0x0);
-      if (pGVar8 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-        (pGVar8->fields).visible = pSVar2;
-        Il2CppCodeGenWriteBarrier(&(pGVar8->fields).visible,pSVar2);
-        (pGVar6->fields).bind = pGVar8;
-        Il2CppCodeGenWriteBarrier(&(pGVar6->fields).bind,pGVar8);
+      pSVar2 = "default";
+      pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+      pSVar3 = pGVar9->__9__5_4;
+      if (pSVar3 == (System_Action_AottgUi__o *)0x0) {
         if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c)
           ;
+          pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
         }
-        pSVar2 = "default";
-        pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                 TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_4;
-        if (pUVar3 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-          }
-          pIVar1 = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-          pUVar3 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                   il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-          System_Action_object____ctor
-                    (pUVar3,pIVar1,
-                     (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_4,
-                     (MethodInfo *)0x0);
-          TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_4 =
-               (System_Action_AottgUi__o *)pUVar3;
-          Il2CppCodeGenWriteBarrier
-                    (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_4,pUVar3);
-        }
-        pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
-        pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                           ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                            (System_String_o *)0x0,(System_String_o *)0x0,10.0,pGVar4,
-                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                            (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                            ,0.0,1.0,(MethodInfo *)0x0);
-        pGVar6 = Gisketch_Aottg2UI_Code_AottgUi__Panel
-                           (socials,pSVar2,(System_Action_AottgUi__o *)pUVar3,"profile-card-socials-skeletons",pGVar5,
-                            (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-        if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-          bVar9 = Il2CppMethodInitialized_184344c75 == '\0';
-          (pGVar6->fields).active = false;
-          if (bVar9) {
-            il2cpp_codegen_initialize_runtime_metadata(&"fade");
-            Il2CppMethodInitialized_184344c75 = '\x01';
-          }
-          pGVar7 = Gisketch_Aottg2UI_Code_AottgUi__Motion
-                             ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
-          (pGVar6->fields).enter = pGVar7;
-          Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enter,pGVar7);
-          pSVar2 = "profile.identity.loading";
-          if (Il2CppMethodInitialized_184344c73 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-            Il2CppMethodInitialized_184344c73 = '\x01';
-          }
-          pGVar8 = il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-          Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                    ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pGVar8,(MethodInfo *)0x0);
-          if (pGVar8 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-            (pGVar8->fields).visible = pSVar2;
-            Il2CppCodeGenWriteBarrier(&(pGVar8->fields).visible,pSVar2);
-            (pGVar6->fields).bind = pGVar8;
-            Il2CppCodeGenWriteBarrier(&(pGVar6->fields).bind,pGVar8);
-            return;
-          }
-        }
+        pIVar1 = (Il2CppObject *)pGVar9->__9;
+        pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+        System_Action_object____ctor
+                  ((System_Action_object__o *)pSVar3,pIVar1,
+                   (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_4,
+                   (MethodInfo_4A81BE0 *)0x0);
+        pGVar9 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+        pGVar9->__9__5_4 = pSVar3;
+        Il2CppCodeGenWriteBarrier(&pGVar9->__9__5_4);
+      }
+      pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
+      pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                         ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                          (System_String_o *)0x0,(System_String_o *)0x0,10.0,pGVar4,
+                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                          0.0,1.0,(MethodInfo *)0x0);
+      pGVar6 = Gisketch_Aottg2UI_Code_AottgUi__Panel
+                         (socials,pSVar2,pSVar3,"profile-card-socials-skeletons",pGVar5,
+                          (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+      if (pGVar6 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
+        (pGVar6->fields).active = false;
+        pGVar7 = Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion((MethodInfo *)0x0);
+        (pGVar6->fields).enter = pGVar7;
+        Il2CppCodeGenWriteBarrier(&(pGVar6->fields).enter);
+        pGVar8 = Gisketch_Aottg2UI_Game_AottgProfileCard__Visible("profile.identity.loading",(MethodInfo *)0x0);
+        (pGVar6->fields).bind = pGVar8;
+        Il2CppCodeGenWriteBarrier(&(pGVar6->fields).bind);
+        return;
       }
     }
   }
@@ -501,7 +459,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_2
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildDetails>b__5_3
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_3 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* readySocials, const MethodInfo* method);
-// 0x181e233c0
+// 0x58fa140
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_3
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,
@@ -512,61 +470,112 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_3
   System_String_array *pSVar2;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar3;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_00;
-  uint index;
   System_String_o **ppSVar4;
   
-  if (Il2CppMethodInitialized_184344c7f == '\0') {
+  if (Il2CppMethodInitialized_075455f3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-    il2cpp_codegen_initialize_runtime_metadata(&"No social links yet.");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardBodyText");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.socials.empty");
     il2cpp_codegen_initialize_runtime_metadata(&"MainMenu.Profile.NoSocialLinks");
-    Il2CppMethodInitialized_184344c7f = '\x01';
+    Il2CppMethodInitialized_075455f3 = '\x01';
   }
   pSVar2 = Gisketch_Aottg2UI_Game_AottgActiveProfile__SocialLinks((MethodInfo *)0x0);
-  if (readySocials != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    index = 0;
-    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__TextKey
-                       (readySocials,"MainMenu.Profile.NoSocialLinks","No social links yet.","profileCardBodyText",
-                        (System_String_o *)0x0,(System_String_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    __this_00 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-    Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_00,(MethodInfo *)0x0);
-    if (__this_00 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-      (__this_00->fields).visible = "profile.socials.empty";
-      Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible,"profile.socials.empty");
-      if (pGVar3 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-        (pGVar3->fields).bind = __this_00;
-        Il2CppCodeGenWriteBarrier(&(pGVar3->fields).bind,__this_00);
-        if (pSVar2 != (System_String_array *)0x0) {
-          do {
-            uVar1 = (uint)pSVar2->max_length;
-            if ((int)index < (int)uVar1) {
-              if (uVar1 <= index) {
-                ThrowIndexOutOfRangeException();
-              }
-              ppSVar4 = pSVar2->m_Items + (int)index;
-            }
-            else {
-              ppSVar4 = *(System_String_o ***)(g_data_184354e50 + 0xb8);
-            }
-            Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,index,*ppSVar4,(MethodInfo *)0x0);
-            index = index + 1;
-          } while ((int)index < 8);
-          return;
-        }
-      }
-    }
+  if (readySocials == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+label_058fa440:
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__TextKey
+                     (readySocials,"MainMenu.Profile.NoSocialLinks","profileCardBodyText",(System_String_o *)0x0,
+                      (System_String_o *)0x0,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+                      (MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
+  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this_00,(MethodInfo *)0x0);
+  if (__this_00 == (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) goto label_058fa440;
+  (__this_00->fields).visible = "profile.socials.empty";
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible);
+  if (pGVar3 == (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) goto label_058fa440;
+  (pGVar3->fields).bind = __this_00;
+  Il2CppCodeGenWriteBarrier(&(pGVar3->fields).bind);
+  if (pSVar2 == (System_String_array *)0x0) goto label_058fa440;
+  if ((int)pSVar2->max_length < 1) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if ((pSVar2->max_length & 0xffffffff) == 0) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,0,*ppSVar4,(MethodInfo *)0x0);
+  if ((int)pSVar2->max_length < 2) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if ((pSVar2->max_length & 0xfffffffe) == 0) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 1;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,1,*ppSVar4,(MethodInfo *)0x0);
+  uVar1 = (uint)pSVar2->max_length;
+  if ((int)uVar1 < 3) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if (uVar1 < 3) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 2;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,2,*ppSVar4,(MethodInfo *)0x0);
+  if ((int)pSVar2->max_length < 4) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if ((pSVar2->max_length & 0xfffffffc) == 0) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 3;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,3,*ppSVar4,(MethodInfo *)0x0);
+  uVar1 = (uint)pSVar2->max_length;
+  if ((int)uVar1 < 5) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if (uVar1 < 5) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 4;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,4,*ppSVar4,(MethodInfo *)0x0);
+  uVar1 = (uint)pSVar2->max_length;
+  if ((int)uVar1 < 6) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if ((uVar1 & 0xfffffffe) < 6) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 5;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,5,*ppSVar4,(MethodInfo *)0x0);
+  uVar1 = (uint)pSVar2->max_length;
+  if ((int)uVar1 < 7) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if (uVar1 < 7) goto label_058fa445;
+    ppSVar4 = pSVar2->m_Items + 6;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,6,*ppSVar4,(MethodInfo *)0x0);
+  if ((int)pSVar2->max_length < 8) {
+    ppSVar4 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+  }
+  else {
+    if ((pSVar2->max_length & 0xfffffff8) == 0) {
+label_058fa445:
+      ThrowIndexOutOfRangeException();
+    }
+    ppSVar4 = pSVar2->m_Items + 7;
+  }
+  Gisketch_Aottg2UI_Game_AottgProfileCard__Social(readySocials,7,*ppSVar4,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c$$<BuildDetails>b__5_4
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_4 (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* loadingSocials, const MethodInfo* method);
-// 0x181e23540
+// 0x58fa450
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_4
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c_o *__this,
@@ -577,12 +586,12 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_4
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
   
-  if (Il2CppMethodInitialized_184344c80 == '\0') {
+  if (Il2CppMethodInitialized_075455f4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-socials-skeleton-1");
     il2cpp_codegen_initialize_runtime_metadata(&"skeleton");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-socials-skeleton-0");
-    Il2CppMethodInitialized_184344c80 = '\x01';
+    Il2CppMethodInitialized_075455f4 = '\x01';
   }
   pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Points(300.0,(MethodInfo *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
@@ -594,48 +603,47 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c___BuildDetails_b__5_4
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (loadingSocials != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Skeleton
-              (loadingSocials,"profile-card-socials-skeleton-0",pGVar3,"skeleton",(System_String_o *)0x0,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Points(240.0,(MethodInfo *)0x0);
-    pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
-    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                        (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar1,pGVar2,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Code_AottgUi__Skeleton
-              (loadingSocials,"profile-card-socials-skeleton-1",pGVar3,"skeleton",(System_String_o *)0x0,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (loadingSocials == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Skeleton
+            (loadingSocials,"profile-card-socials-skeleton-0",pGVar3,"skeleton",(System_String_o *)0x0,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Points(240.0,(MethodInfo *)0x0);
+  pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
+  pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar1,pGVar2,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                      0.0,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_AottgUi__Skeleton
+            (loadingSocials,"profile-card-socials-skeleton-1",pGVar3,"skeleton",(System_String_o *)0x0,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass4_0$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___ctor (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x58fa640
 
-void
-Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___ctor(Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass4_0$$<BuildIdentity>b__0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__0 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* row, const MethodInfo* method);
-// 0x181e256d0
+// 0x58fa650
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__0
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *__this,
@@ -644,12 +652,13 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
 {
   Il2CppObject *object;
   System_String_o *pSVar1;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar2;
+  System_Action_AottgUi__o *pSVar2;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c_StaticFields *pGVar4;
   
-  if (Il2CppMethodInitialized_184344c81 == '\0') {
+  if (Il2CppMethodInitialized_075455f5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildIdentity_b__4_2);
@@ -661,20 +670,19 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardAvatarFrame");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-name-stack");
-    Il2CppMethodInitialized_184344c81 = '\x01';
+    Il2CppMethodInitialized_075455f5 = '\x01';
   }
   pSVar1 = "profileCardAvatarFrame";
-  pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)(__this->fields).__9__1;
-  if (pUVar2 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-    pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  pSVar2 = (__this->fields).__9__1;
+  if (pSVar2 == (System_Action_AottgUi__o *)0x0) {
+    pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (pUVar2,(Il2CppObject *)__this,
+              ((System_Action_object__o *)pSVar2,(Il2CppObject *)__this,
                (intptr_t)
                MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__1,
-               (MethodInfo *)0x0);
-    (__this->fields).__9__1 = (System_Action_AottgUi__o *)pUVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__1,pUVar2);
+               (MethodInfo_4A81BE0 *)0x0);
+    (__this->fields).__9__1 = pSVar2;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__1);
   }
   width = Gisketch_Aottg2UI_Code_AottgUi__Points(172.0,(MethodInfo *)0x0);
   height = Gisketch_Aottg2UI_Code_AottgUi__Points(172.0,(MethodInfo *)0x0);
@@ -686,54 +694,53 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (row != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (row,pSVar1,(System_Action_AottgUi__o *)pUVar2,"profile-card-avatar-frame",pGVar3,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  if (row == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (row,pSVar1,pSVar2,"profile-card-avatar-frame",pGVar3,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+  }
+  pSVar1 = "default";
+  pGVar4 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  pSVar2 = pGVar4->__9__4_2;
+  if (pSVar2 == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar4 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    pSVar1 = "default";
-    pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_2;
-    if (pUVar2 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-      }
-      object = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-      pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-      System_Action_object____ctor
-                (pUVar2,object,
-                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildIdentity_b__4_2,
-                 (MethodInfo *)0x0);
-      TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_2 =
-           (System_Action_AottgUi__o *)pUVar2;
-      Il2CppCodeGenWriteBarrier
-                (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__4_2,pUVar2);
-    }
-    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                        (System_String_o *)0x0,(System_String_o *)0x0,2.0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,22.0,0.0,0.0,0.0,
-                        1.0,1.0,(MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (row,pSVar1,(System_Action_AottgUi__o *)pUVar2,"profile-card-name-stack",pGVar3,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+    object = (Il2CppObject *)pGVar4->__9;
+    pSVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              ((System_Action_object__o *)pSVar2,object,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildIdentity_b__4_2,
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar4 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar4->__9__4_2 = pSVar2;
+    Il2CppCodeGenWriteBarrier(&pGVar4->__9__4_2);
   }
-  ThrowNullReferenceException();
+  pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      (System_String_o *)0x0,(System_String_o *)0x0,2.0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,22.0,0.0,0.0,0.0,1.0,
+                      1.0,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (row,pSVar1,pSVar2,"profile-card-name-stack",pGVar3,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass4_0$$<BuildIdentity>b__1
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__1 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* frame, const MethodInfo* method);
-// 0x181e25a50
+// 0x58fa940
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__1
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *__this,
@@ -741,32 +748,31 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
 
 {
   System_String_o *style;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  System_Action_AottgUi__o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184344c82 == '\0') {
+  if (Il2CppMethodInitialized_075455f6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__3);
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardAvatarBg");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-avatar-bg");
-    Il2CppMethodInitialized_184344c82 = '\x01';
+    Il2CppMethodInitialized_075455f6 = '\x01';
   }
   style = "profileCardAvatarBg";
-  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)(__this->fields).__9__3;
-  if (__this_00 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-    __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  __this_00 = (__this->fields).__9__3;
+  if (__this_00 == (System_Action_AottgUi__o *)0x0) {
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (__this_00,(Il2CppObject *)__this,
+              ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
                (intptr_t)
                MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__3,
-               (MethodInfo *)0x0);
-    (__this->fields).__9__3 = (System_Action_AottgUi__o *)__this_00;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__3,__this_00);
+               (MethodInfo_4A81BE0 *)0x0);
+    (__this->fields).__9__3 = __this_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__3);
   }
   width = Gisketch_Aottg2UI_Code_AottgUi__Points(156.0,(MethodInfo *)0x0);
   height = Gisketch_Aottg2UI_Code_AottgUi__Points(156.0,(MethodInfo *)0x0);
@@ -778,19 +784,19 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       1.0,(MethodInfo *)0x0);
-  if (frame != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (frame,style,(System_Action_AottgUi__o *)__this_00,"profile-card-avatar-bg",layout,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (frame == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (frame,style,__this_00,"profile-card-avatar-bg",layout,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass4_0$$<BuildIdentity>b__3
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__3 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* bg, const MethodInfo* method);
-// 0x181e25c30
+// 0x58faad0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentity_b__3
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *__this,
@@ -802,26 +808,23 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
   System_String_o *sprite;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar4;
-  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *value;
+  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar5;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_00;
-  bool bVar5;
   
-  if (Il2CppMethodInitialized_184344c83 == '\0') {
+  if (Il2CppMethodInitialized_075455f7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.ready");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.avatarSprite");
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
-    il2cpp_codegen_initialize_runtime_metadata(&"Change Avatar");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-avatar-edit");
-    il2cpp_codegen_initialize_runtime_metadata(&"Account");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.loading");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-avatar-skeleton");
     il2cpp_codegen_initialize_runtime_metadata(&"skeleton");
+    il2cpp_codegen_initialize_runtime_metadata(&"ChangeAvatar");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-avatar");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-change-avatar");
-    il2cpp_codegen_initialize_runtime_metadata(&"Change avatar");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardAvatarImage");
-    Il2CppMethodInitialized_184344c83 = '\x01';
+    Il2CppMethodInitialized_075455f7 = '\x01';
   }
   pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Points(156.0,(MethodInfo *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(156.0,(MethodInfo *)0x0);
@@ -853,30 +856,23 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
                        (bg,sprite,"profileCardAvatarImage","profile-card-avatar",pGVar3,
                         (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
     if (pGVar4 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      bVar5 = Il2CppMethodInitialized_184344c75 == '\0';
       (pGVar4->fields).active = false;
-      if (bVar5) {
-        il2cpp_codegen_initialize_runtime_metadata(&"fade");
-        Il2CppMethodInitialized_184344c75 = '\x01';
-      }
-      value = Gisketch_Aottg2UI_Code_AottgUi__Motion
-                        ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
-      (pGVar4->fields).enter = value;
-      Il2CppCodeGenWriteBarrier(&(pGVar4->fields).enter,value);
+      pGVar5 = Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion((MethodInfo *)0x0);
+      (pGVar4->fields).enter = pGVar5;
+      Il2CppCodeGenWriteBarrier(&(pGVar4->fields).enter);
       __this_00 = il2cpp_codegen_object_new
                             ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_00,(MethodInfo *)0x0);
+      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this_00,(MethodInfo *)0x0);
       if (__this_00 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
         (__this_00->fields).sprite = "profile.avatarSprite";
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).sprite,"profile.avatarSprite");
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields).sprite);
         (__this_00->fields).visible = "profile.identity.ready";
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible,"profile.identity.ready");
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible);
         (pGVar4->fields).bind = __this_00;
-        Il2CppCodeGenWriteBarrier(&(pGVar4->fields).bind,__this_00);
+        Il2CppCodeGenWriteBarrier(&(pGVar4->fields).bind);
         Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay
-                  (bg,"profile-card-avatar-edit","Change avatar","Change Avatar","profile-change-avatar",
-                   (__this->fields).isMine,"Account",0.0,(MethodInfo *)0x0);
+                  (bg,"profile-card-avatar-edit","ChangeAvatar","profile-change-avatar",
+                   (__this->fields).isMine,0.0,(MethodInfo *)0x0);
         return;
       }
     }
@@ -887,21 +883,20 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___BuildIdentit
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass6_0$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___ctor (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x58fae10
 
-void
-Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___ctor(Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass6_0$$<Social>b__0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__0 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* row, const MethodInfo* method);
-// 0x181e270e0
+// 0x58fae20
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__0
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *__this,
@@ -912,11 +907,11 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__0
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar3;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar4;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  System_Action_AottgUi__o *__this_00;
   System_String_o *pSVar5;
   Gisketch_Aottg2UI_Data_GisketchLength_o *minWidth;
   
-  if (Il2CppMethodInitialized_184344c84 == '\0') {
+  if (Il2CppMethodInitialized_075455f8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass6_0_Social_b__1);
@@ -926,10 +921,10 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__0
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardSocialIcon");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-social-icon-");
-    Il2CppMethodInitialized_184344c84 = '\x01';
+    Il2CppMethodInitialized_075455f8 = '\x01';
   }
   pSVar1 = System_Int32__ToString(&(__this->fields).index,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969e50("profile-card-social-icon-",pSVar1,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320("profile-card-social-icon-",pSVar1,(MethodInfo *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
   pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Points(24.0,(MethodInfo *)0x0);
   pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Layout
@@ -940,46 +935,45 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__0
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (row != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Image
-              (row,"Icons/kenney-icons/share2","profileCardSocialIcon",pSVar1,pGVar4,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    pSVar1 = "default";
-    __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)(__this->fields).__9__1;
-    if (__this_00 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-      __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-      System_Action_object____ctor
-                (__this_00,(Il2CppObject *)__this,
-                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass6_0_Social_b__1,
-                 (MethodInfo *)0x0);
-      (__this->fields).__9__1 = (System_Action_AottgUi__o *)__this_00;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).__9__1,__this_00);
-    }
-    pSVar5 = System_Int32__ToString(&(__this->fields).index,(MethodInfo *)0x0);
-    pSVar5 = System_String__Concat_1969e50("profile-card-social-label-",pSVar5,(MethodInfo *)0x0);
-    pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(264.0,(MethodInfo *)0x0);
-    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Points(264.0,(MethodInfo *)0x0);
-    minWidth = Gisketch_Aottg2UI_Code_AottgUi__Points(0.0,(MethodInfo *)0x0);
-    pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                        (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar2,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,minWidth,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,pGVar3,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,1.0,(MethodInfo *)0x0);
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (row,pSVar1,(System_Action_AottgUi__o *)__this_00,pSVar5,pGVar4,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (row == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Image
+            (row,"Icons/kenney-icons/share2","profileCardSocialIcon",pSVar1,pGVar4,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  pSVar1 = "default";
+  __this_00 = (__this->fields).__9__1;
+  if (__this_00 == (System_Action_AottgUi__o *)0x0) {
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass6_0_Social_b__1,
+               (MethodInfo_4A81BE0 *)0x0);
+    (__this->fields).__9__1 = __this_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__1);
+  }
+  pSVar5 = System_Int32__ToString(&(__this->fields).index,(MethodInfo *)0x0);
+  pSVar5 = System_String__Concat_52f0320("profile-card-social-label-",pSVar5,(MethodInfo *)0x0);
+  pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(264.0,(MethodInfo *)0x0);
+  pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Points(264.0,(MethodInfo *)0x0);
+  minWidth = Gisketch_Aottg2UI_Code_AottgUi__Points(0.0,(MethodInfo *)0x0);
+  pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      (System_String_o *)0x0,(System_String_o *)0x0,0.0,pGVar2,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,minWidth,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,pGVar3,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                      1.0,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (row,pSVar1,__this_00,pSVar5,pGVar4,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+             (MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass6_0$$<Social>b__1
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__1 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* label, const MethodInfo* method);
-// 0x181e27430
+// 0x58fb0c0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__1
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *__this,
@@ -989,97 +983,111 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___Social_b__1
   System_String_o *text;
   System_String_o *pSVar1;
   System_String_o *pSVar2;
-  int32_t local_res8 [8];
+  int32_t iStack_24;
   
-  if (Il2CppMethodInitialized_184344c85 == '\0') {
+  if (Il2CppMethodInitialized_075455f9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardSocialText");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-social-text-");
-    Il2CppMethodInitialized_184344c85 = '\x01';
+    Il2CppMethodInitialized_075455f9 = '\x01';
   }
   text = (__this->fields).value;
   pSVar1 = System_Int32__ToString(&(__this->fields).index,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969e50("profile-card-social-text-",pSVar1,(MethodInfo *)0x0);
-  local_res8[0] = (__this->fields).index;
-  if (Il2CppMethodInitialized_184344d05 == '\0') {
+  pSVar1 = System_String__Concat_52f0320("profile-card-social-text-",pSVar1,(MethodInfo *)0x0);
+  iStack_24 = (__this->fields).index;
+  if (Il2CppMethodInitialized_07545679 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"profile.social.");
-    Il2CppMethodInitialized_184344d05 = '\x01';
+    Il2CppMethodInitialized_07545679 = '\x01';
   }
-  pSVar2 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-  pSVar2 = System_String__Concat_1969e50("profile.social.",pSVar2,(MethodInfo *)0x0);
-  if (label != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Text
-              (label,text,"profileCardSocialText",pSVar1,pSVar2,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  pSVar2 = System_Int32__ToString(&iStack_24,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_52f0320("profile.social.",pSVar2,(MethodInfo *)0x0);
+  if (label == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Text
+            (label,text,"profileCardSocialText",pSVar1,pSVar2,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass9_0$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___ctor (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x58fb1f0
 
-void
-Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___ctor(Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard.<>c__DisplayClass9_0$$<AddEditOverlay>b__0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___AddEditOverlay_b__0 (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* overlay, const MethodInfo* method);
-// 0x181e27510
+// 0x58fb200
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___AddEditOverlay_b__0
                (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *overlay,MethodInfo *method)
 
 {
-  System_String_o *text;
-  System_String_o *actionId;
+  System_String_o *pSVar1;
   System_String_o *id;
+  System_String_o *pSVar2;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *node;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
-  Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *value;
+  Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
+  System_String_o *pSVar4;
   
-  if (Il2CppMethodInitialized_184344c86 == '\0') {
+  if (Il2CppMethodInitialized_075455fa == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
     il2cpp_codegen_initialize_runtime_metadata(&"dialog.");
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
+    il2cpp_codegen_initialize_runtime_metadata(&"MainMenu.Profile.Account");
+    il2cpp_codegen_initialize_runtime_metadata(&"MainMenu.Profile.");
     il2cpp_codegen_initialize_runtime_metadata(&"material-icons/edit");
+    il2cpp_codegen_initialize_runtime_metadata(&"Tooltip");
     il2cpp_codegen_initialize_runtime_metadata(&"-button");
     il2cpp_codegen_initialize_runtime_metadata(&"account");
-    Il2CppMethodInitialized_184344c86 = '\x01';
+    Il2CppMethodInitialized_075455fa = '\x01';
   }
-  text = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  actionId = System_String__Concat_1969e50("dialog.",(__this->fields).dialogId,(MethodInfo *)0x0);
-  id = System_String__Concat_1969e50((__this->fields).id,"-button",(MethodInfo *)0x0);
+  pSVar4 = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  pSVar1 = System_String__Concat_52f0320("dialog.",(__this->fields).dialogId,(MethodInfo *)0x0);
+  id = System_String__Concat_52f0320((__this->fields).id,"-button",(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_5301f10
+                     ("MainMenu.Profile.",(__this->fields).item,"Tooltip",(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+  }
+  pSVar2 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text(pSVar2,(MethodInfo *)0x0);
   if (overlay != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     node = Gisketch_Aottg2UI_Code_AottgUi__Button
-                     (overlay,5,text,actionId,id,(__this->fields).tooltip,
+                     (overlay,5,pSVar4,pSVar1,id,pSVar2,
                       (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,"material-icons/edit",
                       (MethodInfo *)0x0);
     width = Gisketch_Aottg2UI_Code_AottgUi__Points(36.0,(MethodInfo *)0x0);
     height = Gisketch_Aottg2UI_Code_AottgUi__Points(36.0,(MethodInfo *)0x0);
-    value = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                      ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
-                       (System_String_o *)0x0,(System_String_o *)0x0,0.0,width,height,
-                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
-                       0.0,(MethodInfo *)0x0);
+    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                       ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                        (System_String_o *)0x0,(System_String_o *)0x0,0.0,width,height,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+                        ,0.0,(MethodInfo *)0x0);
     if (node != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      (node->fields).layout = value;
-      Il2CppCodeGenWriteBarrier(&(node->fields).layout,value);
+      (node->fields).layout = pGVar3;
+      Il2CppCodeGenWriteBarrier(&(node->fields).layout);
+      pSVar4 = System_String__Concat_52f0320("MainMenu.Profile.",(__this->fields).item,(MethodInfo *)0x0);
+      pSVar4 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text(pSVar4,(MethodInfo *)0x0);
+      pSVar1 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text
+                         ("MainMenu.Profile.Account",(MethodInfo *)0x0);
       Gisketch_Aottg2UI_Code_AottgSearchableExtensions__Searchable
-                (node,(__this->fields).searchTitle,(System_String_o *)0x0,"material-icons/edit",
-                 (System_String_o *)0x0,"account",(__this->fields).sectionTitle,false,
-                 (MethodInfo *)0x0);
+                (node,pSVar4,(System_String_o *)0x0,"material-icons/edit",(System_String_o *)0x0,
+                 "account",pSVar1,false,(MethodInfo *)0x0);
       return;
     }
   }
@@ -1089,46 +1097,46 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___AddEditOverl
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___ctor (Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, bool isMine, const MethodInfo* method);
-// 0x181a291a0
+// 0x58f8120
 
-void
-Gisketch_Aottg2UI_Game_AottgProfileCard___ctor(Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, bool isMine, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgProfileCard___ctor
+               (Gisketch_Aottg2UI_Game_AottgProfileCard_o *__this,bool isMine,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_Code_AottgComponent___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._isMine = param_2;
+            ((Gisketch_Aottg2UI_Code_AottgComponent_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._isMine = isMine;
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$Build
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__Build (Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* ui, const MethodInfo* method);
-// 0x181e14ac0
+// 0x58f8140
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__Build
                (Gisketch_Aottg2UI_Game_AottgProfileCard_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *ui,
                MethodInfo *method)
 
 {
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  System_Action_AottgUi__o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184344c6e == '\0') {
+  if (Il2CppMethodInitialized_075455e1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_0);
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCard");
-    Il2CppMethodInitialized_184344c6e = '\x01';
+    Il2CppMethodInitialized_075455e1 = '\x01';
   }
-  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
   System_Action_object____ctor
-            (__this_00,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_0,(MethodInfo *)0x0);
+            ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_0,
+             (MethodInfo_4A81BE0 *)0x0);
   width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
                      ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
@@ -1139,30 +1147,30 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__Build
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (ui,"profileCard",(System_Action_AottgUi__o *)__this_00,"profile-card",layout,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (ui == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (ui,"profileCard",__this_00,"profile-card",layout,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$BuildIdentity
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity (Gisketch_Aottg2UI_Code_AottgUi_o* body, bool isMine, const MethodInfo* method);
-// 0x181e148f0
+// 0x58f8290
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity
                (Gisketch_Aottg2UI_Code_AottgUi_o *body,bool isMine,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *object;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *__this;
+  System_Action_AottgUi__o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184344c6f == '\0') {
+  if (Il2CppMethodInitialized_075455e2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__0);
@@ -1172,21 +1180,19 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity
     il2cpp_codegen_initialize_runtime_metadata(&"Row");
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"FlexStart");
-    Il2CppMethodInitialized_184344c6f = '\x01';
+    Il2CppMethodInitialized_075455e2 = '\x01';
   }
-  object = il2cpp_codegen_object_new
+  __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (object != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *)0x0) {
-    (object->fields).isMine = isMine;
-    __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0___ctor(__this,(MethodInfo *)0x0);
+  if (__this != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *)0x0) {
+    (__this->fields).isMine = isMine;
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (__this,(Il2CppObject *)object,
+              ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
                (intptr_t)
                MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__0,
-               (MethodInfo *)0x0);
+               (MethodInfo_4A81BE0 *)0x0);
     width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
     layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
                        ("Row",(System_String_o *)0x0,"FlexStart",
@@ -1199,7 +1205,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity
                         ,0.0,(MethodInfo *)0x0);
     if (body != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
       Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (body,"default",(System_Action_AottgUi__o *)__this,"profile-card-identity",layout,
+                (body,"default",__this_00,"profile-card-identity",layout,
                  (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
       return;
     }
@@ -1210,7 +1216,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$BuildDetails
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails (Gisketch_Aottg2UI_Code_AottgUi_o* body, const MethodInfo* method);
-// 0x181e146a0
+// 0x58f8430
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails
                (Gisketch_Aottg2UI_Code_AottgUi_o *body,MethodInfo *method)
@@ -1218,11 +1224,12 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails
 {
   Il2CppObject *object;
   System_String_o *style;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c_StaticFields *pGVar1;
+  System_Action_AottgUi__o *__this;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184344c70 == '\0') {
+  if (Il2CppMethodInitialized_075455e3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_0);
@@ -1232,29 +1239,28 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails
     il2cpp_codegen_initialize_runtime_metadata(&"Row");
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"FlexStart");
-    Il2CppMethodInitialized_184344c70 = '\x01';
+    Il2CppMethodInitialized_075455e3 = '\x01';
   }
   if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
   }
   style = "default";
-  __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-           TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0;
-  if (__this == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
+  pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+  __this = pGVar1->__9__5_0;
+  if (__this == (System_Action_AottgUi__o *)0x0) {
     if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
+      pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-    __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    object = (Il2CppObject *)pGVar1->__9;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (__this,object,
+              ((System_Action_object__o *)__this,object,
                (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_0,
-               (MethodInfo *)0x0);
-    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0 =
-         (System_Action_AottgUi__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0,__this);
+               (MethodInfo_4A81BE0 *)0x0);
+    pGVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields;
+    pGVar1->__9__5_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pGVar1->__9__5_0);
   }
   width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
@@ -1265,34 +1271,33 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,0.0,
                       1.0,(MethodInfo *)0x0);
-  if (body != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (body,style,(System_Action_AottgUi__o *)__this,"profile-card-columns",layout,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    return;
+  if (body == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Gisketch_Aottg2UI_Code_AottgUi__Panel
+            (body,style,__this,"profile-card-columns",layout,
+             (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$Social
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__Social (Gisketch_Aottg2UI_Code_AottgUi_o* ui, int32_t index, System_String_o* value, const MethodInfo* method);
-// 0x181e14c90
+// 0x58f8620
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__Social
                (Gisketch_Aottg2UI_Code_AottgUi_o *ui,int32_t index,System_String_o *value,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *object;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *__this;
+  System_Action_AottgUi__o *__this_00;
   System_String_o *pSVar1;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar2;
-  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_00;
-  int32_t local_res10 [2];
+  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_01;
   
-  if (Il2CppMethodInitialized_184344c71 == '\0') {
+  if (Il2CppMethodInitialized_075455e4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1303,24 +1308,22 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__Social
     il2cpp_codegen_initialize_runtime_metadata(&"Row");
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-social-");
-    Il2CppMethodInitialized_184344c71 = '\x01';
+    Il2CppMethodInitialized_075455e4 = '\x01';
   }
-  object = il2cpp_codegen_object_new
+  __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass6_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (object != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *)0x0) {
-    (object->fields).index = index;
-    (object->fields).value = value;
-    Il2CppCodeGenWriteBarrier(&(object->fields).value,value);
-    __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0___ctor(__this,(MethodInfo *)0x0);
+  if (__this != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass6_0_o *)0x0) {
+    (__this->fields).index = index;
+    (__this->fields).value = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).value);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
     System_Action_object____ctor
-              (__this,(Il2CppObject *)object,
+              ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
                (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass6_0_Social_b__0,
-               (MethodInfo *)0x0);
-    pSVar1 = System_Int32__ToString(&(object->fields).index,(MethodInfo *)0x0);
-    pSVar1 = System_String__Concat_1969e50("profile-card-social-",pSVar1,(MethodInfo *)0x0);
+               (MethodInfo_4A81BE0 *)0x0);
+    pSVar1 = System_Int32__ToString(&(__this->fields).index,(MethodInfo *)0x0);
+    pSVar1 = System_String__Concat_52f0320("profile-card-social-",pSVar1,(MethodInfo *)0x0);
     width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
     layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
                        ("Row",(System_String_o *)0x0,"Center",
@@ -1333,27 +1336,19 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__Social
                         ,1.0,(MethodInfo *)0x0);
     if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
       pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Panel
-                         (ui,"default",(System_Action_AottgUi__o *)__this,pSVar1,layout,
+                         (ui,"default",__this_00,pSVar1,layout,
                           (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-      __this_00 = il2cpp_codegen_object_new
+      __this_01 = il2cpp_codegen_object_new
                             ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_00,(MethodInfo *)0x0);
-      local_res10[0] = (object->fields).index;
-      if (Il2CppMethodInitialized_184344d06 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&"profile.social.");
-        il2cpp_codegen_initialize_runtime_metadata(&".visible");
-        Il2CppMethodInitialized_184344d06 = '\x01';
-      }
-      pSVar1 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-      pSVar1 = System_String__Concat_1969b70
-                         ("profile.social.",pSVar1,".visible",(MethodInfo *)0x0);
-      if (__this_00 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-        (__this_00->fields).visible = pSVar1;
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible,pSVar1);
+      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this_01,(MethodInfo *)0x0);
+      pSVar1 = Gisketch_Aottg2UI_Game_AottgProfileStateKeys__SocialVisible
+                         ((__this->fields).index,(MethodInfo *)0x0);
+      if (__this_01 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
+        (__this_01->fields).visible = pSVar1;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields).visible);
         if (pGVar2 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-          (pGVar2->fields).bind = __this_00;
-          Il2CppCodeGenWriteBarrier(&(pGVar2->fields).bind,__this_00);
+          (pGVar2->fields).bind = __this_01;
+          Il2CppCodeGenWriteBarrier(&(pGVar2->fields).bind);
           return;
         }
       }
@@ -1364,53 +1359,50 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__Social
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$BoundProfileText
-// il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText (Gisketch_Aottg2UI_Code_AottgUi_o* ui, System_String_o* fallback, System_String_o* style, System_String_o* id, System_String_o* textKey, System_String_o* skeletonId, Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o* skeletonLayout, const MethodInfo* method);
-// 0x181e144e0
+// il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText (Gisketch_Aottg2UI_Code_AottgUi_o* ui, System_String_o* value, System_String_o* style, System_String_o* id, System_String_o* textKey, System_String_o* skeletonId, Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o* skeletonLayout, const MethodInfo* method);
+// 0x58f8870
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText
-               (Gisketch_Aottg2UI_Code_AottgUi_o *ui,System_String_o *fallback,System_String_o *style,
+               (Gisketch_Aottg2UI_Code_AottgUi_o *ui,System_String_o *value,System_String_o *style,
                System_String_o *id,System_String_o *textKey,System_String_o *skeletonId,
                Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *skeletonLayout,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar1;
-  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *value;
+  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this;
-  bool bVar2;
   
-  if (Il2CppMethodInitialized_184344c72 == '\0') {
+  if (Il2CppMethodInitialized_075455e5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.ready");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.loading");
     il2cpp_codegen_initialize_runtime_metadata(&"skeleton");
-    Il2CppMethodInitialized_184344c72 = '\x01';
+    Il2CppMethodInitialized_075455e5 = '\x01';
   }
   if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Text
-                       (ui,fallback,style,id,(System_String_o *)0x0,
+                       (ui,value,style,id,(System_String_o *)0x0,
                         (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
     if (pGVar1 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      bVar2 = Il2CppMethodInitialized_184344c75 == '\0';
       (pGVar1->fields).active = false;
-      if (bVar2) {
+      if (Il2CppMethodInitialized_075455e8 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&"fade");
-        Il2CppMethodInitialized_184344c75 = '\x01';
+        Il2CppMethodInitialized_075455e8 = '\x01';
       }
-      value = Gisketch_Aottg2UI_Code_AottgUi__Motion
-                        ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
-      (pGVar1->fields).enter = value;
-      Il2CppCodeGenWriteBarrier(&(pGVar1->fields).enter,value);
+      pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Motion
+                         ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
+      (pGVar1->fields).enter = pGVar2;
+      Il2CppCodeGenWriteBarrier(&(pGVar1->fields).enter);
       __this = il2cpp_codegen_object_new
                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
+      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this,(MethodInfo *)0x0);
       if (__this != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
         (__this->fields).text = textKey;
-        Il2CppCodeGenWriteBarrier(&(__this->fields).text,textKey);
+        Il2CppCodeGenWriteBarrier(&(__this->fields).text);
         (__this->fields).visible = "profile.identity.ready";
-        Il2CppCodeGenWriteBarrier(&(__this->fields).visible,"profile.identity.ready");
+        Il2CppCodeGenWriteBarrier(&(__this->fields).visible);
         (pGVar1->fields).bind = __this;
-        Il2CppCodeGenWriteBarrier(&(pGVar1->fields).bind,__this);
+        Il2CppCodeGenWriteBarrier(&(pGVar1->fields).bind);
         Gisketch_Aottg2UI_Code_AottgUi__Skeleton
                   (ui,skeletonId,skeletonLayout,"skeleton","profile.identity.loading",
                    (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
@@ -1425,7 +1417,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__BoundProfileText
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$Visible
 // il2cpp: Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o* Gisketch_Aottg2UI_Game_AottgProfileCard__Visible (System_String_o* key, const MethodInfo* method);
-// 0x181e15b00
+// 0x58f8a60
 
 Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *
 Gisketch_Aottg2UI_Game_AottgProfileCard__Visible(System_String_o *key,MethodInfo *method)
@@ -1433,41 +1425,39 @@ Gisketch_Aottg2UI_Game_AottgProfileCard__Visible(System_String_o *key,MethodInfo
 {
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this;
   
-  if (Il2CppMethodInitialized_184344c73 == '\0') {
+  if (Il2CppMethodInitialized_075455e6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-    Il2CppMethodInitialized_184344c73 = '\x01';
+    Il2CppMethodInitialized_075455e6 = '\x01';
   }
   __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
-  if (__this != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
-    (__this->fields).visible = key;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).visible,key);
-    return __this;
+  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this,(MethodInfo *)0x0);
+  if (__this == (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields).visible = key;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).visible);
+  return __this;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$AddEditOverlay
-// il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay (Gisketch_Aottg2UI_Code_AottgUi_o* ui, System_String_o* id, System_String_o* tooltip, System_String_o* searchTitle, System_String_o* dialogId, bool isMine, System_String_o* sectionTitle, float offsetX, const MethodInfo* method);
-// 0x181e14290
+// il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay (Gisketch_Aottg2UI_Code_AottgUi_o* ui, System_String_o* id, System_String_o* item, System_String_o* dialogId, bool isMine, float offsetX, const MethodInfo* method);
+// 0x58f8ad0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay
-               (Gisketch_Aottg2UI_Code_AottgUi_o *ui,System_String_o *id,System_String_o *tooltip,
-               System_String_o *searchTitle,System_String_o *dialogId,bool isMine,
-               System_String_o *sectionTitle,float offsetX,MethodInfo *method)
+               (Gisketch_Aottg2UI_Code_AottgUi_o *ui,System_String_o *id,System_String_o *item,
+               System_String_o *dialogId,bool isMine,float offsetX,MethodInfo *method)
 
 {
   System_String_o *id_00;
-  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *object;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *__this;
+  System_Action_AottgUi__o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   
-  if (Il2CppMethodInitialized_184344c74 == '\0') {
+  if (Il2CppMethodInitialized_075455e7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass9_0_AddEditOverlay_b__0);
@@ -1477,57 +1467,51 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"default");
     il2cpp_codegen_initialize_runtime_metadata(&"Absolute");
-    Il2CppMethodInitialized_184344c74 = '\x01';
+    Il2CppMethodInitialized_075455e7 = '\x01';
   }
-  object = il2cpp_codegen_object_new
+  __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass9_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (object != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *)0x0) {
-    (object->fields).dialogId = dialogId;
-    Il2CppCodeGenWriteBarrier(&(object->fields).dialogId,dialogId);
-    (object->fields).id = id;
-    Il2CppCodeGenWriteBarrier(&(object->fields).id,id);
-    (object->fields).tooltip = tooltip;
-    Il2CppCodeGenWriteBarrier(&(object->fields).tooltip,tooltip);
-    (object->fields).searchTitle = searchTitle;
-    Il2CppCodeGenWriteBarrier(&(object->fields).searchTitle,searchTitle);
-    (object->fields).sectionTitle = sectionTitle;
-    Il2CppCodeGenWriteBarrier(&(object->fields).sectionTitle,sectionTitle);
-    if (isMine) {
-      __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-      System_Action_object____ctor
-                (__this,(Il2CppObject *)object,
-                 (intptr_t)
-                 MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass9_0_AddEditOverlay_b__0,
-                 (MethodInfo *)0x0);
-      id_00 = (object->fields).id;
-      width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
-      height = Gisketch_Aottg2UI_Code_AottgUi__Points(44.0,(MethodInfo *)0x0);
-      layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                         ("Column",(System_String_o *)0x0,"FlexEnd",
-                          "Absolute",(System_String_o *)0x0,0.0,width,height,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,8.0,8.0,0.0,offsetX,
-                          0.0,0.0,1.0,(MethodInfo *)0x0);
-      if (ui == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) goto label_181e144da;
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (ui,"default",(System_Action_AottgUi__o *)__this,id_00,layout,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    }
-    return;
+  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0___ctor(__this,(MethodInfo *)0x0);
+  if (__this == (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass9_0_o *)0x0) {
+label_058f8cc9:
+    ThrowNullReferenceException();
   }
-label_181e144da:
-  ThrowNullReferenceException();
+  (__this->fields).dialogId = dialogId;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).dialogId);
+  (__this->fields).id = id;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).id);
+  (__this->fields).item = item;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).item);
+  if (isMine) {
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              ((System_Action_object__o *)__this_00,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass9_0_AddEditOverlay_b__0,
+               (MethodInfo_4A81BE0 *)0x0);
+    id_00 = (__this->fields).id;
+    width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
+    height = Gisketch_Aottg2UI_Code_AottgUi__Points(44.0,(MethodInfo *)0x0);
+    layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                       ("Column",(System_String_o *)0x0,"FlexEnd",
+                        "Absolute",(System_String_o *)0x0,0.0,width,height,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,8.0,8.0,0.0,offsetX,0.0
+                        ,0.0,1.0,(MethodInfo *)0x0);
+    if (ui == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) goto label_058f8cc9;
+    Gisketch_Aottg2UI_Code_AottgUi__Panel
+              (ui,"default",__this_00,id_00,layout,
+               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  }
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$RevealMotion
 // il2cpp: Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o* Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion (const MethodInfo* method);
-// 0x181e14c40
+// 0x58f8a10
 
 Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *
 Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion(MethodInfo *method)
@@ -1535,9 +1519,9 @@ Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion(MethodInfo *method)
 {
   Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar1;
   
-  if (Il2CppMethodInitialized_184344c75 == '\0') {
+  if (Il2CppMethodInitialized_075455e8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"fade");
-    Il2CppMethodInitialized_184344c75 = '\x01';
+    Il2CppMethodInitialized_075455e8 = '\x01';
   }
   pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Motion
                      ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
@@ -1547,20 +1531,20 @@ Gisketch_Aottg2UI_Game_AottgProfileCard__RevealMotion(MethodInfo *method)
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$<Build>b__3_0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0 (Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* card, const MethodInfo* method);
-// 0x181e14f50
+// 0x58f8cd0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0
                (Gisketch_Aottg2UI_Game_AottgProfileCard_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *card,
                MethodInfo *method)
 
 {
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar1;
+  System_Action_AottgUi__o *pSVar1;
   Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchLength_o *height;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar4;
   
-  if (Il2CppMethodInitialized_184344c76 == '\0') {
+  if (Il2CppMethodInitialized_075455e9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_1);
@@ -1572,13 +1556,13 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardBody");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-banner");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardBanner");
-    Il2CppMethodInitialized_184344c76 = '\x01';
+    Il2CppMethodInitialized_075455e9 = '\x01';
   }
-  pUVar1 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
   System_Action_object____ctor
-            (pUVar1,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_1,(MethodInfo *)0x0);
+            ((System_Action_object__o *)pSVar1,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_1,
+             (MethodInfo_4A81BE0 *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   height = Gisketch_Aottg2UI_Code_AottgUi__Points(250.0,(MethodInfo *)0x0);
   pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
@@ -1590,15 +1574,15 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0
                       0.0,(MethodInfo *)0x0);
   if (card != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Panel
-                       (card,"profileCardBanner",(System_Action_AottgUi__o *)pUVar1,"profile-card-banner",
-                        pGVar3,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+                       (card,"profileCardBanner",pSVar1,"profile-card-banner",pGVar3,
+                        (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
     if (pGVar4 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
       (pGVar4->fields).clip = true;
-      pUVar1 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+      pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
       System_Action_object____ctor
-                (pUVar1,(Il2CppObject *)__this,
-                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_2,(MethodInfo *)0x0);
+                ((System_Action_object__o *)pSVar1,(Il2CppObject *)__this,
+                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_Build_b__3_2,
+                 (MethodInfo_4A81BE0 *)0x0);
       pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
       pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Layout
                          ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
@@ -1610,7 +1594,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0
                           (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,36.0,0.0,0.0,0.0,0.0,32.0,0.0,0.0
                           ,0.0,1.0,(MethodInfo *)0x0);
       Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (card,"profileCardBody",(System_Action_AottgUi__o *)pUVar1,"profile-card-body",pGVar3,
+                (card,"profileCardBody",pSVar1,"profile-card-body",pGVar3,
                  (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
       return;
     }
@@ -1621,7 +1605,7 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_0
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$<Build>b__3_1
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_1 (Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* banner, const MethodInfo* method);
-// 0x181e15250
+// 0x58f8f60
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_1
                (Gisketch_Aottg2UI_Game_AottgProfileCard_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *banner,
@@ -1633,26 +1617,24 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_1
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar3;
   System_String_o *sprite;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar4;
-  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *value;
+  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar5;
   Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_00;
-  bool bVar5;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184344c77 == '\0') {
+  if (Il2CppMethodInitialized_075455ea == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.ready");
     il2cpp_codegen_initialize_runtime_metadata(&"Column");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-banner-image");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-banner-skeleton");
-    il2cpp_codegen_initialize_runtime_metadata(&"Change banner");
     il2cpp_codegen_initialize_runtime_metadata(&"profileCardBannerImage");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-change-banner");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-banner-edit");
-    il2cpp_codegen_initialize_runtime_metadata(&"Account");
-    il2cpp_codegen_initialize_runtime_metadata(&"Change Banner");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.identity.loading");
     il2cpp_codegen_initialize_runtime_metadata(&"skeleton");
     il2cpp_codegen_initialize_runtime_metadata(&"profile.bannerSprite");
-    Il2CppMethodInitialized_184344c77 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&"ChangeBanner");
+    Il2CppMethodInitialized_075455ea = '\x01';
   }
   pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Points(250.0,(MethodInfo *)0x0);
@@ -1680,35 +1662,33 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_1
                         (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                         (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
                         ,0.0,(MethodInfo *)0x0);
+    method_00 = (MethodInfo *)0x0;
     pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Image
                        (banner,sprite,"profileCardBannerImage","profile-card-banner-image",pGVar3,
                         (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
     if (pGVar4 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      bVar5 = Il2CppMethodInitialized_184344c75 == '\0';
       (pGVar4->fields).active = false;
-      if (bVar5) {
+      if (Il2CppMethodInitialized_075455e8 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&"fade");
-        Il2CppMethodInitialized_184344c75 = '\x01';
+        Il2CppMethodInitialized_075455e8 = '\x01';
       }
-      value = Gisketch_Aottg2UI_Code_AottgUi__Motion
-                        ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
-      (pGVar4->fields).enter = value;
-      Il2CppCodeGenWriteBarrier(&(pGVar4->fields).enter,value);
+      pGVar5 = Gisketch_Aottg2UI_Code_AottgUi__Motion
+                         ("fade",(System_String_o *)0x0,0.14,0.0,0.0,0,(MethodInfo *)0x0);
+      (pGVar4->fields).enter = pGVar5;
+      Il2CppCodeGenWriteBarrier(&(pGVar4->fields).enter);
       __this_00 = il2cpp_codegen_object_new
                             ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
-      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
-                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_00,(MethodInfo *)0x0);
+      Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor(__this_00,(MethodInfo *)0x0);
       if (__this_00 != (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) {
         (__this_00->fields).sprite = "profile.bannerSprite";
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).sprite,"profile.bannerSprite");
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields).sprite);
         (__this_00->fields).visible = "profile.identity.ready";
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible,"profile.identity.ready");
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields).visible);
         (pGVar4->fields).bind = __this_00;
-        Il2CppCodeGenWriteBarrier(&(pGVar4->fields).bind,__this_00);
+        Il2CppCodeGenWriteBarrier(&(pGVar4->fields).bind);
         Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay
-                  (banner,"profile-card-banner-edit","Change banner","Change Banner",
-                   "profile-change-banner",(__this->fields)._isMine,"Account",0.0,(MethodInfo *)0x0)
-        ;
+                  (banner,"profile-card-banner-edit","ChangeBanner","profile-change-banner",
+                   (__this->fields)._isMine,0.0,method_00);
         return;
       }
     }
@@ -1719,124 +1699,32 @@ void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_1
 
 // Gisketch.Aottg2UI.Game.AottgProfileCard$$<Build>b__3_2
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_2 (Gisketch_Aottg2UI_Game_AottgProfileCard_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* body, const MethodInfo* method);
-// 0x181e15670
+// 0x58f92d0
 
 void Gisketch_Aottg2UI_Game_AottgProfileCard___Build_b__3_2
                (Gisketch_Aottg2UI_Game_AottgProfileCard_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *body,
                MethodInfo *method)
 
 {
-  bool bVar1;
-  Il2CppObject *object;
-  System_String_o *style;
-  Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *object_00;
-  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *pUVar2;
-  Gisketch_Aottg2UI_Data_GisketchLength_o *pGVar3;
-  Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar4;
+  bool isMine;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *in_R9;
   
-  if (Il2CppMethodInitialized_184344c78 == '\0') {
+  if (Il2CppMethodInitialized_075455eb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"profile-edit-details");
-    il2cpp_codegen_initialize_runtime_metadata(&"Account");
-    il2cpp_codegen_initialize_runtime_metadata(&"Edit profile details");
     il2cpp_codegen_initialize_runtime_metadata(&"profile-card-details-edit");
-    il2cpp_codegen_initialize_runtime_metadata(&"Edit Details");
-    Il2CppMethodInitialized_184344c78 = '\x01';
+    il2cpp_codegen_initialize_runtime_metadata(&"EditDetails");
+    Il2CppMethodInitialized_075455eb = '\x01';
   }
   Gisketch_Aottg2UI_Game_AottgProfileCard__AddEditOverlay
-            (body,"profile-card-details-edit","Edit profile details","Edit Details","profile-edit-details",
-             (__this->fields)._isMine,"Account",72.0,(MethodInfo *)0x0);
-  bVar1 = (__this->fields)._isMine;
-  if (Il2CppMethodInitialized_184344c6f == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__0);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0);
-    il2cpp_codegen_initialize_runtime_metadata(&"profile-card-identity");
-    il2cpp_codegen_initialize_runtime_metadata(&"Row");
-    il2cpp_codegen_initialize_runtime_metadata(&"default");
-    il2cpp_codegen_initialize_runtime_metadata(&"FlexStart");
-    Il2CppMethodInitialized_184344c6f = '\x01';
-  }
-  object_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object_00,(MethodInfo *)0x0);
-  if (object_00 != (Gisketch_Aottg2UI_Game_AottgProfileCard___c__DisplayClass4_0_o *)0x0) {
-    (object_00->fields).isMine = bVar1;
-    pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-    System_Action_object____ctor
-              (pUVar2,(Il2CppObject *)object_00,
-               (intptr_t)
-               MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c__DisplayClass4_0_BuildIdentity_b__0,
-               (MethodInfo *)0x0);
-    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
-    pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Row",(System_String_o *)0x0,"FlexStart",
-                        (System_String_o *)0x0,(System_String_o *)0x0,24.0,pGVar3,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    if (body != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (body,"default",(System_Action_AottgUi__o *)pUVar2,"profile-card-identity",pGVar4,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-      if (Il2CppMethodInitialized_184344c70 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_0);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-        il2cpp_codegen_initialize_runtime_metadata(&"SpaceBetween");
-        il2cpp_codegen_initialize_runtime_metadata(&"profile-card-columns");
-        il2cpp_codegen_initialize_runtime_metadata(&"Row");
-        il2cpp_codegen_initialize_runtime_metadata(&"default");
-        il2cpp_codegen_initialize_runtime_metadata(&"FlexStart");
-        Il2CppMethodInitialized_184344c70 = '\x01';
-      }
-      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c);
-      }
-      style = "default";
-      pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-               TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0;
-      if (pUVar2 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
-        if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c)
-          ;
-        }
-        object = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9;
-        pUVar2 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
-        System_Action_object____ctor
-                  (pUVar2,object,
-                   (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c_BuildDetails_b__5_0,
-                   (MethodInfo *)0x0);
-        TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0 =
-             (System_Action_AottgUi__o *)pUVar2;
-        Il2CppCodeGenWriteBarrier
-                  (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileCard_c->static_fields->__9__5_0,pUVar2);
-      }
-      pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
-      pGVar4 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                         ("Row","SpaceBetween","FlexStart",
-                          (System_String_o *)0x0,(System_String_o *)0x0,48.0,pGVar3,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                          (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,
-                          0.0,1.0,(MethodInfo *)0x0);
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (body,style,(System_Action_AottgUi__o *)pUVar2,"profile-card-columns",pGVar4,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  ThrowNullReferenceException();
+            (body,"profile-card-details-edit","EditDetails","profile-edit-details",(__this->fields)._isMine,
+             72.0,in_R9);
+  isMine = (__this->fields)._isMine;
+  method_01 = (MethodInfo *)(ulong)isMine;
+  Gisketch_Aottg2UI_Game_AottgProfileCard__BuildIdentity(body,isMine,method_00);
+  Gisketch_Aottg2UI_Game_AottgProfileCard__BuildDetails(body,method_01);
+  return;
 }
 
 

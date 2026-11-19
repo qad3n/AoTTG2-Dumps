@@ -13,21 +13,21 @@ namespace Newtonsoft.Json.Utilities;
 internal static class JsonTokenUtils
 {
 	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x1C2A150", Offset = "0x1C28750", VA = "0x181C2A150")]
+	[Address(RVA = "0x55A27A0", Offset = "0x55A17A0", VA = "0x55A27A0")]
 	internal static bool IsEndToken(JsonToken token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600065C")]
-	[Address(RVA = "0x1C2A180", Offset = "0x1C28780", VA = "0x181C2A180")]
+	[Address(RVA = "0x55B8C80", Offset = "0x55B7C80", VA = "0x55B8C80")]
 	internal static bool IsStartToken(JsonToken token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x1C2A160", Offset = "0x1C28760", VA = "0x181C2A160")]
+	[Address(RVA = "0x55B8C90", Offset = "0x55B7C90", VA = "0x55B8C90")]
 	internal static bool IsPrimitiveToken(JsonToken token)
 	{
 		return default(bool);

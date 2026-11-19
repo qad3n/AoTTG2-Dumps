@@ -18,7 +18,7 @@ public class Label : TextElement
 	public new class UxmlFactory : UxmlFactory<Label, UxmlTraits>
 	{
 		[Token(Token = "0x600072F")]
-		[Address(RVA = "0x3224E60", Offset = "0x3223460", VA = "0x183224E60")]
+		[Address(RVA = "0x6C0DA20", Offset = "0x6C0CA20", VA = "0x6C0DA20")]
 		public UxmlFactory()
 		{
 		}
@@ -29,7 +29,7 @@ public class Label : TextElement
 	public new class UxmlTraits : TextElement.UxmlTraits
 	{
 		[Token(Token = "0x6000730")]
-		[Address(RVA = "0x32261C0", Offset = "0x32247C0", VA = "0x1832261C0")]
+		[Address(RVA = "0x6C0DA60", Offset = "0x6C0CA60", VA = "0x6C0DA60")]
 		public UxmlTraits()
 		{
 		}
@@ -40,13 +40,13 @@ public class Label : TextElement
 	public new static readonly string ussClassName;
 
 	[Token(Token = "0x600072C")]
-	[Address(RVA = "0x3216480", Offset = "0x3214A80", VA = "0x183216480")]
+	[Address(RVA = "0x6C0D8F0", Offset = "0x6C0C8F0", VA = "0x6C0D8F0")]
 	public Label()
 	{
 	}
 
 	[Token(Token = "0x600072D")]
-	[Address(RVA = "0x32163D0", Offset = "0x32149D0", VA = "0x1832163D0")]
+	[Address(RVA = "0x6C0D910", Offset = "0x6C0C910", VA = "0x6C0D910")]
 	public Label(string text)
 	{
 	}

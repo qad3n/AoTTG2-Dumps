@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MinMaxSlider
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ public class MinMaxSlider : BaseField<Vector2>
 	public new class UxmlFactory : UxmlFactory<MinMaxSlider, UxmlTraits>
 	{
 		[Token(Token = "0x600077F")]
-		[Address(RVA = "0x3224CE0", Offset = "0x32232E0", VA = "0x183224CE0")]
+		[Address(RVA = "0x6C12C90", Offset = "0x6C11C90", VA = "0x6C12C90")]
 		public UxmlFactory()
 		{
 		}
@@ -47,13 +47,13 @@ public class MinMaxSlider : BaseField<Vector2>
 		private UxmlFloatAttributeDescription m_HighLimit;
 
 		[Token(Token = "0x6000780")]
-		[Address(RVA = "0x3226600", Offset = "0x3224C00", VA = "0x183226600")]
+		[Address(RVA = "0x6C12CD0", Offset = "0x6C11CD0", VA = "0x6C12CD0")]
 		public UxmlTraits()
 		{
 		}
 
 		[Token(Token = "0x6000781")]
-		[Address(RVA = "0x32252D0", Offset = "0x32238D0", VA = "0x1832252D0", Slot = "4")]
+		[Address(RVA = "0x6C12ED0", Offset = "0x6C11ED0", VA = "0x6C12ED0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
@@ -148,14 +148,14 @@ public class MinMaxSlider : BaseField<Vector2>
 	internal VisualElement dragElement
 	{
 		[Token(Token = "0x6000754")]
-		[Address(RVA = "0xDC2AF0", Offset = "0xDC10F0", VA = "0x180DC2AF0")]
+		[Address(RVA = "0x6C0F1F0", Offset = "0x6C0E1F0", VA = "0x6C0F1F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000755")]
-		[Address(RVA = "0x12AE860", Offset = "0x12ACE60", VA = "0x1812AE860")]
+		[Address(RVA = "0x6C0F200", Offset = "0x6C0E200", VA = "0x6C0F200")]
 		[CompilerGenerated]
 		private set
 		{
@@ -166,14 +166,14 @@ public class MinMaxSlider : BaseField<Vector2>
 	internal VisualElement dragMinThumb
 	{
 		[Token(Token = "0x6000756")]
-		[Address(RVA = "0xDC2B00", Offset = "0xDC1100", VA = "0x180DC2B00")]
+		[Address(RVA = "0x6C0F220", Offset = "0x6C0E220", VA = "0x6C0F220")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000757")]
-		[Address(RVA = "0x12AE880", Offset = "0x12ACE80", VA = "0x1812AE880")]
+		[Address(RVA = "0x6C0F230", Offset = "0x6C0E230", VA = "0x6C0F230")]
 		[CompilerGenerated]
 		private set
 		{
@@ -184,14 +184,14 @@ public class MinMaxSlider : BaseField<Vector2>
 	internal VisualElement dragMaxThumb
 	{
 		[Token(Token = "0x6000758")]
-		[Address(RVA = "0x12ADF90", Offset = "0x12AC590", VA = "0x1812ADF90")]
+		[Address(RVA = "0x6C0F250", Offset = "0x6C0E250", VA = "0x6C0F250")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000759")]
-		[Address(RVA = "0x12AFE40", Offset = "0x12AE440", VA = "0x1812AFE40")]
+		[Address(RVA = "0x6C0F260", Offset = "0x6C0E260", VA = "0x6C0F260")]
 		[CompilerGenerated]
 		private set
 		{
@@ -202,14 +202,14 @@ public class MinMaxSlider : BaseField<Vector2>
 	internal ClampedDragger<float> clampedDragger
 	{
 		[Token(Token = "0x600075A")]
-		[Address(RVA = "0x12ADB10", Offset = "0x12AC110", VA = "0x1812ADB10")]
+		[Address(RVA = "0x6C0F280", Offset = "0x6C0E280", VA = "0x6C0F280")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600075B")]
-		[Address(RVA = "0x12AE840", Offset = "0x12ACE40", VA = "0x1812AE840")]
+		[Address(RVA = "0x6C0F290", Offset = "0x6C0E290", VA = "0x6C0F290")]
 		[CompilerGenerated]
 		private set
 		{
@@ -221,13 +221,13 @@ public class MinMaxSlider : BaseField<Vector2>
 	public float minValue
 	{
 		[Token(Token = "0x600075C")]
-		[Address(RVA = "0x321AF30", Offset = "0x3219530", VA = "0x18321AF30")]
+		[Address(RVA = "0x6C0F2B0", Offset = "0x6C0E2B0", VA = "0x6C0F2B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600075D")]
-		[Address(RVA = "0x321B3C0", Offset = "0x32199C0", VA = "0x18321B3C0")]
+		[Address(RVA = "0x6C0F2D0", Offset = "0x6C0E2D0", VA = "0x6C0F2D0")]
 		set
 		{
 		}
@@ -238,13 +238,13 @@ public class MinMaxSlider : BaseField<Vector2>
 	public float maxValue
 	{
 		[Token(Token = "0x600075E")]
-		[Address(RVA = "0x321AF00", Offset = "0x3219500", VA = "0x18321AF00")]
+		[Address(RVA = "0x6C0F4F0", Offset = "0x6C0E4F0", VA = "0x6C0F4F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600075F")]
-		[Address(RVA = "0x321B2B0", Offset = "0x32198B0", VA = "0x18321B2B0")]
+		[Address(RVA = "0x6C0F510", Offset = "0x6C0E510", VA = "0x6C0F510")]
 		set
 		{
 		}
@@ -254,13 +254,13 @@ public class MinMaxSlider : BaseField<Vector2>
 	public override Vector2 value
 	{
 		[Token(Token = "0x6000760")]
-		[Address(RVA = "0x321AFD0", Offset = "0x32195D0", VA = "0x18321AFD0", Slot = "148")]
+		[Address(RVA = "0x6C0F6D0", Offset = "0x6C0E6D0", VA = "0x6C0F6D0", Slot = "148")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000761")]
-		[Address(RVA = "0x321B4D0", Offset = "0x3219AD0", VA = "0x18321B4D0", Slot = "149")]
+		[Address(RVA = "0x6C0F710", Offset = "0x6C0E710", VA = "0x6C0F710", Slot = "149")]
 		set
 		{
 		}
@@ -271,7 +271,7 @@ public class MinMaxSlider : BaseField<Vector2>
 	public float range
 	{
 		[Token(Token = "0x6000763")]
-		[Address(RVA = "0x321AF50", Offset = "0x3219550", VA = "0x18321AF50")]
+		[Address(RVA = "0x6C103F0", Offset = "0x6C0F3F0", VA = "0x6C103F0")]
 		get
 		{
 			return default(float);
@@ -283,13 +283,13 @@ public class MinMaxSlider : BaseField<Vector2>
 	public float lowLimit
 	{
 		[Token(Token = "0x6000764")]
-		[Address(RVA = "0x321AEF0", Offset = "0x32194F0", VA = "0x18321AEF0")]
+		[Address(RVA = "0x6C10480", Offset = "0x6C0F480", VA = "0x6C10480")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000765")]
-		[Address(RVA = "0x321B160", Offset = "0x3219760", VA = "0x18321B160")]
+		[Address(RVA = "0x6C10490", Offset = "0x6C0F490", VA = "0x6C10490")]
 		set
 		{
 		}
@@ -300,158 +300,158 @@ public class MinMaxSlider : BaseField<Vector2>
 	public float highLimit
 	{
 		[Token(Token = "0x6000766")]
-		[Address(RVA = "0x12ADE00", Offset = "0x12AC400", VA = "0x1812ADE00")]
+		[Address(RVA = "0x6C10470", Offset = "0x6C0F470", VA = "0x6C10470")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000767")]
-		[Address(RVA = "0x321B010", Offset = "0x3219610", VA = "0x18321B010")]
+		[Address(RVA = "0x6C10640", Offset = "0x6C0F640", VA = "0x6C10640")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000762")]
-	[Address(RVA = "0x3219320", Offset = "0x3217920", VA = "0x183219320", Slot = "159")]
+	[Address(RVA = "0x6C0F7E0", Offset = "0x6C0E7E0", VA = "0x6C0F7E0", Slot = "159")]
 	public override void SetValueWithoutNotify(Vector2 newValue)
 	{
 	}
 
 	[Token(Token = "0x6000768")]
-	[Address(RVA = "0x321A4C0", Offset = "0x3218AC0", VA = "0x18321A4C0")]
+	[Address(RVA = "0x6C107F0", Offset = "0x6C0F7F0", VA = "0x6C107F0")]
 	public MinMaxSlider()
 	{
 	}
 
 	[Token(Token = "0x6000769")]
-	[Address(RVA = "0x321A500", Offset = "0x3218B00", VA = "0x18321A500")]
+	[Address(RVA = "0x6C10820", Offset = "0x6C0F820", VA = "0x6C10820")]
 	public MinMaxSlider(string label, float minValue = 0f, float maxValue = 10f, float minLimit = -3.4028235E+38f, float maxLimit = 3.4028235E+38f)
 	{
 	}
 
 	[Token(Token = "0x600076A")]
-	[Address(RVA = "0x3217CE0", Offset = "0x32162E0", VA = "0x183217CE0")]
+	[Address(RVA = "0x6C0F480", Offset = "0x6C0E480", VA = "0x6C0F480")]
 	private Vector2 ClampValues(Vector2 valueToClamp)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600076B")]
-	[Address(RVA = "0x3219CE0", Offset = "0x32182E0", VA = "0x183219CE0")]
+	[Address(RVA = "0x6C11060", Offset = "0x6C10060", VA = "0x6C11060")]
 	private void UpdateDragElementPosition(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600076C")]
-	[Address(RVA = "0x32194E0", Offset = "0x3217AE0", VA = "0x1832194E0")]
+	[Address(RVA = "0x6C0F8B0", Offset = "0x6C0E8B0", VA = "0x6C0F8B0")]
 	private void UpdateDragElementPosition()
 	{
 	}
 
 	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x20A6DB0", Offset = "0x20A53B0", VA = "0x1820A6DB0")]
+	[Address(RVA = "0x6C11110", Offset = "0x6C10110", VA = "0x6C11110")]
 	internal float SliderLerpUnclamped(float a, float b, float interpolant)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x3219390", Offset = "0x3217990", VA = "0x183219390")]
+	[Address(RVA = "0x6C11100", Offset = "0x6C10100", VA = "0x6C11100")]
 	internal float SliderNormalizeValue(float currentValue, float lowerValue, float higherValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600076F")]
-	[Address(RVA = "0x3218400", Offset = "0x3216A00", VA = "0x183218400")]
+	[Address(RVA = "0x6C11120", Offset = "0x6C10120", VA = "0x6C11120")]
 	private float ComputeValueFromPosition(float positionToConvert)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000770")]
-	[Address(RVA = "0x3218590", Offset = "0x3216B90", VA = "0x183218590", Slot = "8")]
+	[Address(RVA = "0x6C111D0", Offset = "0x6C101D0", VA = "0x6C111D0", Slot = "8")]
 	[EventInterest(new Type[] { typeof(GeometryChangedEvent) })]
 	protected override void HandleEventBubbleUp(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000771")]
-	[Address(RVA = "0x32184C0", Offset = "0x3216AC0", VA = "0x1832184C0")]
+	[Address(RVA = "0x6C11340", Offset = "0x6C10340", VA = "0x6C11340")]
 	private DragState GetNavigationState()
 	{
 		return default(DragState);
 	}
 
 	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x3218BA0", Offset = "0x32171A0", VA = "0x183218BA0")]
+	[Address(RVA = "0x6C113F0", Offset = "0x6C103F0", VA = "0x6C113F0")]
 	private void SetNavigationState(DragState newState)
 	{
 	}
 
 	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x3218830", Offset = "0x3216E30", VA = "0x183218830")]
+	[Address(RVA = "0x6C11510", Offset = "0x6C10510", VA = "0x6C11510")]
 	private void OnFocusIn(FocusInEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x3218710", Offset = "0x3216D10", VA = "0x183218710")]
+	[Address(RVA = "0x6C11530", Offset = "0x6C10530", VA = "0x6C11530")]
 	private void OnBlur(BlurEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x3218A40", Offset = "0x3217040", VA = "0x183218A40")]
+	[Address(RVA = "0x6C11540", Offset = "0x6C10540", VA = "0x6C11540")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x3218960", Offset = "0x3216F60", VA = "0x183218960")]
+	[Address(RVA = "0x6C11560", Offset = "0x6C10560", VA = "0x6C11560")]
 	private void OnNavigationMove(NavigationMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x3217F60", Offset = "0x3216560", VA = "0x183217F60")]
+	[Address(RVA = "0x6C11630", Offset = "0x6C10630", VA = "0x6C11630")]
 	private void ComputeValueFromKey(bool leftDirection, bool isShift, DragState moveState)
 	{
 	}
 
 	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x3219290", Offset = "0x3217890", VA = "0x183219290")]
+	[Address(RVA = "0x6C11E00", Offset = "0x6C10E00", VA = "0x6C11E00")]
 	private void SetSliderValueFromDrag()
 	{
 	}
 
 	[Token(Token = "0x6000779")]
-	[Address(RVA = "0x3218CE0", Offset = "0x32172E0", VA = "0x183218CE0")]
+	[Address(RVA = "0x6C12080", Offset = "0x6C11080", VA = "0x6C12080")]
 	private void SetSliderValueFromClick()
 	{
 	}
 
 	[Token(Token = "0x600077A")]
-	[Address(RVA = "0x3217D60", Offset = "0x3216360", VA = "0x183217D60")]
+	[Address(RVA = "0x6C11E90", Offset = "0x6C10E90", VA = "0x6C11E90")]
 	private void ComputeValueFromDraggingThumb(float dragElementStartPos, float dragElementEndPos)
 	{
 	}
 
 	[Token(Token = "0x600077B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "158")]
+	[Address(RVA = "0x6C12590", Offset = "0x6C11590", VA = "0x6C12590", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}
 
 	[Token(Token = "0x600077C")]
-	[Address(RVA = "0x3218A70", Offset = "0x3217070", VA = "0x183218A70", Slot = "156")]
+	[Address(RVA = "0x6C125A0", Offset = "0x6C115A0", VA = "0x6C125A0", Slot = "156")]
 	internal override void RegisterEditingCallbacks()
 	{
 	}
 
 	[Token(Token = "0x600077D")]
-	[Address(RVA = "0x32193B0", Offset = "0x32179B0", VA = "0x1832193B0", Slot = "157")]
+	[Address(RVA = "0x6C126E0", Offset = "0x6C116E0", VA = "0x6C126E0", Slot = "157")]
 	internal override void UnregisterEditingCallbacks()
 	{
 	}

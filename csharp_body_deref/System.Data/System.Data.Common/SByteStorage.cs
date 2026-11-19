@@ -18,93 +18,93 @@ internal sealed class SByteStorage : DataStorage
 	private sbyte[] _values;
 
 	[Token(Token = "0x6000C14")]
-	[Address(RVA = "0x258FEB0", Offset = "0x258E4B0", VA = "0x18258FEB0")]
+	[Address(RVA = "0x5F2C1D0", Offset = "0x5F2B1D0", VA = "0x5F2C1D0")]
 	public SByteStorage(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000C15")]
-	[Address(RVA = "0x258EF70", Offset = "0x258D570", VA = "0x18258EF70", Slot = "4")]
+	[Address(RVA = "0x5F372A0", Offset = "0x5F362A0", VA = "0x5F372A0", Slot = "4")]
 	public override object Aggregate(int[] records, AggregateType kind)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C16")]
-	[Address(RVA = "0x258F760", Offset = "0x258DD60", VA = "0x18258F760", Slot = "5")]
+	[Address(RVA = "0x5F37B50", Offset = "0x5F36B50", VA = "0x5F37B50", Slot = "5")]
 	public override int Compare(int recordNo1, int recordNo2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C17")]
-	[Address(RVA = "0x258F690", Offset = "0x258DC90", VA = "0x18258F690", Slot = "6")]
+	[Address(RVA = "0x5F37C20", Offset = "0x5F36C20", VA = "0x5F37C20", Slot = "6")]
 	public override int CompareValueTo(int recordNo, object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C18")]
-	[Address(RVA = "0x258F8A0", Offset = "0x258DEA0", VA = "0x18258F8A0", Slot = "7")]
+	[Address(RVA = "0x5F37CE0", Offset = "0x5F36CE0", VA = "0x5F37CE0", Slot = "7")]
 	public override object ConvertValue(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C19")]
-	[Address(RVA = "0x2582B80", Offset = "0x2581180", VA = "0x182582B80", Slot = "8")]
+	[Address(RVA = "0x5F37E20", Offset = "0x5F36E20", VA = "0x5F37E20", Slot = "8")]
 	public override void Copy(int recordNo1, int recordNo2)
 	{
 	}
 
 	[Token(Token = "0x6000C1A")]
-	[Address(RVA = "0x258FB40", Offset = "0x258E140", VA = "0x18258FB40", Slot = "9")]
+	[Address(RVA = "0x5F37E90", Offset = "0x5F36E90", VA = "0x5F37E90", Slot = "9")]
 	public override object Get(int record)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C1B")]
-	[Address(RVA = "0x258FD80", Offset = "0x258E380", VA = "0x18258FD80", Slot = "12")]
+	[Address(RVA = "0x5F37F20", Offset = "0x5F36F20", VA = "0x5F37F20", Slot = "12")]
 	public override void Set(int record, object value)
 	{
 	}
 
 	[Token(Token = "0x6000C1C")]
-	[Address(RVA = "0x258FBE0", Offset = "0x258E1E0", VA = "0x18258FBE0", Slot = "13")]
+	[Address(RVA = "0x5F380B0", Offset = "0x5F370B0", VA = "0x5F380B0", Slot = "13")]
 	public override void SetCapacity(int capacity)
 	{
 	}
 
 	[Token(Token = "0x6000C1D")]
-	[Address(RVA = "0x258F990", Offset = "0x258DF90", VA = "0x18258F990", Slot = "14")]
+	[Address(RVA = "0x5F381D0", Offset = "0x5F371D0", VA = "0x5F381D0", Slot = "14")]
 	public override object ConvertXmlToObject(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C1E")]
-	[Address(RVA = "0x258F820", Offset = "0x258DE20", VA = "0x18258F820", Slot = "16")]
+	[Address(RVA = "0x5F38240", Offset = "0x5F37240", VA = "0x5F38240", Slot = "16")]
 	public override string ConvertObjectToXml(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C1F")]
-	[Address(RVA = "0x258FB00", Offset = "0x258E100", VA = "0x18258FB00", Slot = "18")]
+	[Address(RVA = "0x5F382D0", Offset = "0x5F372D0", VA = "0x5F382D0", Slot = "18")]
 	protected override object GetEmptyStorage(int recordCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C20")]
-	[Address(RVA = "0x258F9F0", Offset = "0x258DFF0", VA = "0x18258F9F0", Slot = "19")]
+	[Address(RVA = "0x5F38310", Offset = "0x5F37310", VA = "0x5F38310", Slot = "19")]
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
 	[Token(Token = "0x6000C21")]
-	[Address(RVA = "0x258FCC0", Offset = "0x258E2C0", VA = "0x18258FCC0", Slot = "20")]
+	[Address(RVA = "0x5F38410", Offset = "0x5F37410", VA = "0x5F38410", Slot = "20")]
 	protected override void SetStorage(object store, BitArray nullbits)
 	{
 	}

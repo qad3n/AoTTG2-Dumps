@@ -45,7 +45,7 @@ internal class FSharpUtils
 	public static FSharpUtils Instance
 	{
 		[Token(Token = "0x600060F")]
-		[Address(RVA = "0x1C26130", Offset = "0x1C24730", VA = "0x181C26130")]
+		[Address(RVA = "0x55B2E40", Offset = "0x55B1E40", VA = "0x55B2E40")]
 		get
 		{
 			return null;
@@ -56,14 +56,14 @@ internal class FSharpUtils
 	public Assembly FSharpCoreAssembly
 	{
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x55B2EB0", Offset = "0x55B1EB0", VA = "0x55B2EB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000611")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x55B2EC0", Offset = "0x55B1EC0", VA = "0x55B2EC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -74,14 +74,14 @@ internal class FSharpUtils
 	public MethodCall<object?, object> IsUnion
 	{
 		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x55B2ED0", Offset = "0x55B1ED0", VA = "0x55B2ED0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x55B2EE0", Offset = "0x55B1EE0", VA = "0x55B2EE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -92,14 +92,14 @@ internal class FSharpUtils
 	public MethodCall<object?, object> GetUnionCases
 	{
 		[Token(Token = "0x6000614")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x55B2EF0", Offset = "0x55B1EF0", VA = "0x55B2EF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000615")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x55B2F00", Offset = "0x55B1F00", VA = "0x55B2F00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -110,14 +110,14 @@ internal class FSharpUtils
 	public MethodCall<object?, object> PreComputeUnionTagReader
 	{
 		[Token(Token = "0x6000616")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x55B2F10", Offset = "0x55B1F10", VA = "0x55B2F10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000617")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x55B2F20", Offset = "0x55B1F20", VA = "0x55B2F20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -128,14 +128,14 @@ internal class FSharpUtils
 	public MethodCall<object?, object> PreComputeUnionReader
 	{
 		[Token(Token = "0x6000618")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x55B2F30", Offset = "0x55B1F30", VA = "0x55B2F30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000619")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x55B2F40", Offset = "0x55B1F40", VA = "0x55B2F40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -146,14 +146,14 @@ internal class FSharpUtils
 	public MethodCall<object?, object> PreComputeUnionConstructor
 	{
 		[Token(Token = "0x600061A")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x55B2F50", Offset = "0x55B1F50", VA = "0x55B2F50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600061B")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x55B2F60", Offset = "0x55B1F60", VA = "0x55B2F60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -164,14 +164,14 @@ internal class FSharpUtils
 	public Func<object, object> GetUnionCaseInfoDeclaringType
 	{
 		[Token(Token = "0x600061C")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x55B2F70", Offset = "0x55B1F70", VA = "0x55B2F70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600061D")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x55B2F80", Offset = "0x55B1F80", VA = "0x55B2F80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -182,14 +182,14 @@ internal class FSharpUtils
 	public Func<object, object> GetUnionCaseInfoName
 	{
 		[Token(Token = "0x600061E")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x55B2F90", Offset = "0x55B1F90", VA = "0x55B2F90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600061F")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x55B2FA0", Offset = "0x55B1FA0", VA = "0x55B2FA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -200,14 +200,14 @@ internal class FSharpUtils
 	public Func<object, object> GetUnionCaseInfoTag
 	{
 		[Token(Token = "0x6000620")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x55B2FB0", Offset = "0x55B1FB0", VA = "0x55B2FB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000621")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x55B2FC0", Offset = "0x55B1FC0", VA = "0x55B2FC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -218,14 +218,14 @@ internal class FSharpUtils
 	public MethodCall<object, object?> GetUnionCaseInfoFields
 	{
 		[Token(Token = "0x6000622")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x55B2FD0", Offset = "0x55B1FD0", VA = "0x55B2FD0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000623")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x55B2FE0", Offset = "0x55B1FE0", VA = "0x55B2FE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -233,40 +233,40 @@ internal class FSharpUtils
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x1C25BB0", Offset = "0x1C241B0", VA = "0x181C25BB0")]
+	[Address(RVA = "0x55B25E0", Offset = "0x55B15E0", VA = "0x55B25E0")]
 	private FSharpUtils(Assembly fsharpCoreAssembly)
 	{
 	}
 
 	[Token(Token = "0x6000624")]
-	[Address(RVA = "0x1C25930", Offset = "0x1C23F30", VA = "0x181C25930")]
+	[Address(RVA = "0x55B2FF0", Offset = "0x55B1FF0", VA = "0x55B2FF0")]
 	public static void EnsureInitialized(Assembly fsharpCoreAssembly)
 	{
 	}
 
 	[Token(Token = "0x6000625")]
-	[Address(RVA = "0x1C25AB0", Offset = "0x1C240B0", VA = "0x181C25AB0")]
+	[Address(RVA = "0x55B2BA0", Offset = "0x55B1BA0", VA = "0x55B2BA0")]
 	private static MethodInfo GetMethodWithNonPublicFallback(Type type, string methodName, BindingFlags bindingFlags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000626")]
-	[Address(RVA = "0x1C25420", Offset = "0x1C23A20", VA = "0x181C25420")]
+	[Address(RVA = "0x55B2C10", Offset = "0x55B1C10", VA = "0x55B2C10")]
 	private static MethodCall<object, object> CreateFSharpFuncCall(Type type, string methodName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000627")]
-	[Address(RVA = "0x1C25810", Offset = "0x1C23E10", VA = "0x181C25810")]
+	[Address(RVA = "0x55B31A0", Offset = "0x55B21A0", VA = "0x55B31A0")]
 	public ObjectConstructor<object> CreateSeq(Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000628")]
-	[Address(RVA = "0x1C25650", Offset = "0x1C23C50", VA = "0x181C25650")]
+	[Address(RVA = "0x55B32B0", Offset = "0x55B22B0", VA = "0x55B32B0")]
 	public ObjectConstructor<object> CreateMap(Type keyType, Type valueType)
 	{
 		return null;

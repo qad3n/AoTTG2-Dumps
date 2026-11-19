@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsShape
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,8 +35,8 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 
 		[Token(Token = "0x40001C7")]
 		[FieldOffset(Offset = "0x0")]
-		[Min(0f)]
 		[SerializeField]
+		[Min(0f)]
 		private float m_Friction;
 
 		[Token(Token = "0x40001C8")]
@@ -47,26 +47,26 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 
 		[Token(Token = "0x40001C9")]
 		[FieldOffset(Offset = "0x8")]
-		[SerializeField]
 		[FormerlySerializedAs("m_FrictionCombine")]
+		[SerializeField]
 		private MixingMode m_FrictionMixing;
 
 		[Token(Token = "0x40001CA")]
 		[FieldOffset(Offset = "0xC")]
-		[SerializeField]
 		[FormerlySerializedAs("m_BouncinessCombine")]
+		[SerializeField]
 		private MixingMode m_BouncinessMixing;
 
 		[Token(Token = "0x40001CB")]
 		[FieldOffset(Offset = "0x10")]
-		[Range(0f, 65535f)]
 		[SerializeField]
+		[Range(0f, 65535f)]
 		private ushort m_FrictionPriority;
 
 		[Token(Token = "0x40001CC")]
 		[FieldOffset(Offset = "0x12")]
-		[SerializeField]
 		[Range(0f, 65535f)]
+		[SerializeField]
 		private ushort m_BouncinessPriority;
 
 		[Token(Token = "0x40001CD")]
@@ -89,7 +89,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		public static SurfaceMaterial Default
 		{
 			[Token(Token = "0x6000179")]
-			[Address(RVA = "0x2FDB150", Offset = "0x2FD9750", VA = "0x182FDB150")]
+			[Address(RVA = "0x69D1230", Offset = "0x69D0230", VA = "0x69D1230")]
 			get
 			{
 				return default(SurfaceMaterial);
@@ -97,7 +97,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		}
 
 		[Token(Token = "0x6000178")]
-		[Address(RVA = "0x2FDB0F0", Offset = "0x2FD96F0", VA = "0x182FDB0F0")]
+		[Address(RVA = "0x69D11D0", Offset = "0x69D01D0", VA = "0x69D11D0")]
 		public SurfaceMaterial()
 		{
 		}
@@ -141,7 +141,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		public bool isValid
 		{
 			[Token(Token = "0x600017B")]
-			[Address(RVA = "0x2FCE170", Offset = "0x2FCC770", VA = "0x182FCE170")]
+			[Address(RVA = "0x69D13A0", Offset = "0x69D03A0", VA = "0x69D13A0")]
 			get
 			{
 				return default(bool);
@@ -149,7 +149,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		}
 
 		[Token(Token = "0x600017A")]
-		[Address(RVA = "0x2FCE060", Offset = "0x2FCC660", VA = "0x182FCE060", Slot = "3")]
+		[Address(RVA = "0x69D1290", Offset = "0x69D0290", VA = "0x69D1290", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -192,7 +192,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		internal int m_GroupIndex;
 
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x2FCE050", Offset = "0x2FCC650", VA = "0x182FCE050")]
+		[Address(RVA = "0x69D13F0", Offset = "0x69D03F0", VA = "0x69D13F0")]
 		public ContactFilter(PhysicsMask categories, PhysicsMask contacts, int groupIndex = 0)
 		{
 		}
@@ -204,8 +204,8 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 	{
 		[Token(Token = "0x40001E7")]
 		[FieldOffset(Offset = "0x0")]
-		[SerializeField]
 		[Min(0f)]
+		[SerializeField]
 		private float m_PushLimit;
 
 		[Token(Token = "0x40001E8")]
@@ -214,7 +214,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 		private bool m_ClipVelocity;
 
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x2FCF8B0", Offset = "0x2FCDEB0", VA = "0x182FCF8B0")]
+		[Address(RVA = "0x69D14C0", Offset = "0x69D04C0", VA = "0x69D14C0")]
 		public MoverData()
 		{
 		}
@@ -236,7 +236,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 	public bool isValid
 	{
 		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x2FD7700", Offset = "0x2FD5D00", VA = "0x182FD7700")]
+		[Address(RVA = "0x69CDA70", Offset = "0x69CCA70", VA = "0x69CDA70")]
 		get
 		{
 			return default(bool);
@@ -247,7 +247,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 	public ShapeType shapeType
 	{
 		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x2FD7740", Offset = "0x2FD5D40", VA = "0x182FD7740")]
+		[Address(RVA = "0x69D1090", Offset = "0x69D0090", VA = "0x69D1090")]
 		get
 		{
 			return default(ShapeType);
@@ -258,7 +258,7 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 	public object callbackTarget
 	{
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x2FD76C0", Offset = "0x2FD5CC0", VA = "0x182FD76C0")]
+		[Address(RVA = "0x69CDAB0", Offset = "0x69CCAB0", VA = "0x69CDAB0")]
 		get
 		{
 			return null;
@@ -266,28 +266,28 @@ public readonly struct PhysicsShape : IEquatable<PhysicsShape>
 	}
 
 	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x2FD7410", Offset = "0x2FD5A10", VA = "0x182FD7410", Slot = "3")]
+	[Address(RVA = "0x69D0E00", Offset = "0x69CFE00", VA = "0x69D0E00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x2FD7330", Offset = "0x2FD5930", VA = "0x182FD7330", Slot = "0")]
+	[Address(RVA = "0x69D10D0", Offset = "0x69D00D0", VA = "0x69D10D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x2FD0FA0", Offset = "0x2FCF5A0", VA = "0x182FD0FA0", Slot = "4")]
+	[Address(RVA = "0x69D1130", Offset = "0x69D0130", VA = "0x69D1130", Slot = "4")]
 	public bool Equals(PhysicsShape other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x2FD7390", Offset = "0x2FD5990", VA = "0x182FD7390", Slot = "2")]
+	[Address(RVA = "0x69D1160", Offset = "0x69D0160", VA = "0x69D1160", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

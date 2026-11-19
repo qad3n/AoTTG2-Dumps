@@ -17,13 +17,13 @@ public class BufferReaderPushAdapterAsyncPoolFloatToShort : BufferReaderPushAdap
 	private float[] buffer;
 
 	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x1D685D0", Offset = "0x1D66BD0", VA = "0x181D685D0")]
+	[Address(RVA = "0x5714E10", Offset = "0x5713E10", VA = "0x5714E10")]
 	public BufferReaderPushAdapterAsyncPoolFloatToShort(IDataReader<float> reader)
 	{
 	}
 
 	[Token(Token = "0x600032A")]
-	[Address(RVA = "0x1D68310", Offset = "0x1D66910", VA = "0x181D68310", Slot = "5")]
+	[Address(RVA = "0x571AA00", Offset = "0x5719A00", VA = "0x571AA00", Slot = "5")]
 	public override void Service(LocalVoice localVoice)
 	{
 	}

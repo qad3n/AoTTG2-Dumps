@@ -27,12 +27,12 @@ internal sealed class AssetFileNameExtensionAttribute : Attribute
 
 	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x18")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly IEnumerable<string> _003CotherExtensions_003Ek__BackingField;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Address(RVA = "0x69F10F0", Offset = "0x69F00F0", VA = "0x69F10F0")]
 	public AssetFileNameExtensionAttribute(string preferredExtension, params string[] otherExtensions)
 	{
 	}

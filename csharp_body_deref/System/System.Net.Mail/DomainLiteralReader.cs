@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x2000399")]
+[Token(Token = "0x2000355")]
 internal static class DomainLiteralReader
 {
-	[Token(Token = "0x60018D0")]
-	[Address(RVA = "0x28120D0", Offset = "0x28106D0", VA = "0x1828120D0")]
+	[Token(Token = "0x6001717")]
+	[Address(RVA = "0x61BBCF0", Offset = "0x61BACF0", VA = "0x61BBCF0")]
 	internal static int ReadReverse(string data, int index)
 	{
 		return default(int);

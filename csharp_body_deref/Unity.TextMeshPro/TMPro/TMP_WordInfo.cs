@@ -29,7 +29,7 @@ public struct TMP_WordInfo
 	public int characterCount;
 
 	[Token(Token = "0x6000658")]
-	[Address(RVA = "0x2D69130", Offset = "0x2D67730", VA = "0x182D69130")]
+	[Address(RVA = "0x6760B70", Offset = "0x675FB70", VA = "0x6760B70")]
 	public string GetWord()
 	{
 		return null;

@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 namespace UnityEngine.Scripting;
 
 [Token(Token = "0x2000246")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public class PreserveAttribute : Attribute
 {
-	[Token(Token = "0x6001184")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001198")]
+	[Address(RVA = "0x6935B80", Offset = "0x6934B80", VA = "0x6935B80")]
 	public PreserveAttribute()
 	{
 	}

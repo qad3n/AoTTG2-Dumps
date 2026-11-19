@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.BitmapAllocator32
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,103 +10,103 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005E6")]
+[Token(Token = "0x20005CA")]
 internal struct BitmapAllocator32
 {
-	[Token(Token = "0x20005E7")]
+	[Token(Token = "0x20005CB")]
 	private struct Page
 	{
-		[Token(Token = "0x40015F9")]
+		[Token(Token = "0x4001522")]
 		[FieldOffset(Offset = "0x0")]
 		public ushort x;
 
-		[Token(Token = "0x40015FA")]
+		[Token(Token = "0x4001523")]
 		[FieldOffset(Offset = "0x2")]
 		public ushort y;
 
-		[Token(Token = "0x40015FB")]
+		[Token(Token = "0x4001524")]
 		[FieldOffset(Offset = "0x4")]
 		public int freeSlots;
 	}
 
-	[Token(Token = "0x40015F3")]
+	[Token(Token = "0x400151C")]
 	public const int kPageWidth = 32;
 
-	[Token(Token = "0x40015F4")]
+	[Token(Token = "0x400151D")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_PageHeight;
 
-	[Token(Token = "0x40015F5")]
+	[Token(Token = "0x400151E")]
 	[FieldOffset(Offset = "0x8")]
 	private List<Page> m_Pages;
 
-	[Token(Token = "0x40015F6")]
+	[Token(Token = "0x400151F")]
 	[FieldOffset(Offset = "0x10")]
 	private List<uint> m_AllocMap;
 
-	[Token(Token = "0x40015F7")]
+	[Token(Token = "0x4001520")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_EntryWidth;
 
-	[Token(Token = "0x40015F8")]
+	[Token(Token = "0x4001521")]
 	[FieldOffset(Offset = "0x1C")]
 	private int m_EntryHeight;
 
-	[Token(Token = "0x17000AAB")]
+	[Token(Token = "0x17000A9D")]
 	public int entryWidth
 	{
-		[Token(Token = "0x6002BA1")]
-		[Address(RVA = "0xB3E0C0", Offset = "0xB3C6C0", VA = "0x180B3E0C0")]
+		[Token(Token = "0x6002B26")]
+		[Address(RVA = "0x6BAD5C0", Offset = "0x6BAC5C0", VA = "0x6BAD5C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000AAC")]
+	[Token(Token = "0x17000A9E")]
 	public int entryHeight
 	{
-		[Token(Token = "0x6002BA2")]
-		[Address(RVA = "0xAD35F0", Offset = "0xAD1BF0", VA = "0x180AD35F0")]
+		[Token(Token = "0x6002B27")]
+		[Address(RVA = "0x6BAD5D0", Offset = "0x6BAC5D0", VA = "0x6BAD5D0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002B9D")]
-	[Address(RVA = "0x31A28E0", Offset = "0x31A0EE0", VA = "0x1831A28E0")]
+	[Token(Token = "0x6002B22")]
+	[Address(RVA = "0x6BACCE0", Offset = "0x6BABCE0", VA = "0x6BACCE0")]
 	public void Construct(int pageHeight, int entryWidth = 1, int entryHeight = 1)
 	{
 	}
 
-	[Token(Token = "0x6002B9E")]
-	[Address(RVA = "0x31A2A90", Offset = "0x31A1090", VA = "0x1831A2A90")]
+	[Token(Token = "0x6002B23")]
+	[Address(RVA = "0x6BACE00", Offset = "0x6BABE00", VA = "0x6BACE00")]
 	public void ForceFirstAlloc(ushort firstPageX, ushort firstPageY)
 	{
 	}
 
-	[Token(Token = "0x6002B9F")]
-	[Address(RVA = "0x31A2490", Offset = "0x31A0A90", VA = "0x1831A2490")]
+	[Token(Token = "0x6002B24")]
+	[Address(RVA = "0x6BACF90", Offset = "0x6BABF90", VA = "0x6BACF90")]
 	public BMPAlloc Allocate(BaseShaderInfoStorage storage)
 	{
 		return default(BMPAlloc);
 	}
 
-	[Token(Token = "0x6002BA0")]
-	[Address(RVA = "0x31A2C40", Offset = "0x31A1240", VA = "0x1831A2C40")]
+	[Token(Token = "0x6002B25")]
+	[Address(RVA = "0x6BAD490", Offset = "0x6BAC490", VA = "0x6BAD490")]
 	public void Free(BMPAlloc alloc)
 	{
 	}
 
-	[Token(Token = "0x6002BA3")]
-	[Address(RVA = "0x31A2D80", Offset = "0x31A1380", VA = "0x1831A2D80")]
+	[Token(Token = "0x6002B28")]
+	[Address(RVA = "0x6BAD5E0", Offset = "0x6BAC5E0", VA = "0x6BAD5E0")]
 	internal void GetAllocPageAtlasLocation(int page, out ushort x, out ushort y)
 	{
 	}
 
-	[Token(Token = "0x6002BA4")]
-	[Address(RVA = "0x31A2A00", Offset = "0x31A1000", VA = "0x1831A2A00")]
+	[Token(Token = "0x6002B29")]
+	[Address(RVA = "0x6BAD430", Offset = "0x6BAC430", VA = "0x6BAD430")]
 	private static byte CountTrailingZeroes(uint val)
 	{
 		return default(byte);

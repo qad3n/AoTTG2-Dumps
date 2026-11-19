@@ -58,13 +58,13 @@ public class NetworkSimulationSet
 	protected internal bool IsSimulationEnabled
 	{
 		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x1CC78D0", Offset = "0x1CC5ED0", VA = "0x181CC78D0")]
+		[Address(RVA = "0x5651E30", Offset = "0x5650E30", VA = "0x5651E30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x1CC78E0", Offset = "0x1CC5EE0", VA = "0x181CC78E0")]
+		[Address(RVA = "0x5651E40", Offset = "0x5650E40", VA = "0x5651E40")]
 		set
 		{
 		}
@@ -74,13 +74,13 @@ public class NetworkSimulationSet
 	public int OutgoingLag
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0")]
+		[Address(RVA = "0x565D5B0", Offset = "0x565C5B0", VA = "0x565D5B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x565D5C0", Offset = "0x565C5C0", VA = "0x565D5C0")]
 		set
 		{
 		}
@@ -90,13 +90,13 @@ public class NetworkSimulationSet
 	public int OutgoingJitter
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0xB3E0C0", Offset = "0xB3C6C0", VA = "0x180B3E0C0")]
+		[Address(RVA = "0x565D5D0", Offset = "0x565C5D0", VA = "0x565D5D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x565D5E0", Offset = "0x565C5E0", VA = "0x565D5E0")]
 		set
 		{
 		}
@@ -106,13 +106,13 @@ public class NetworkSimulationSet
 	public int OutgoingLossPercentage
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0xAD35F0", Offset = "0xAD1BF0", VA = "0x180AD35F0")]
+		[Address(RVA = "0x565D5F0", Offset = "0x565C5F0", VA = "0x565D5F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x565D600", Offset = "0x565C600", VA = "0x565D600")]
 		set
 		{
 		}
@@ -122,13 +122,13 @@ public class NetworkSimulationSet
 	public int IncomingLag
 	{
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
+		[Address(RVA = "0x565D610", Offset = "0x565C610", VA = "0x565D610")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x565D620", Offset = "0x565C620", VA = "0x565D620")]
 		set
 		{
 		}
@@ -138,13 +138,13 @@ public class NetworkSimulationSet
 	public int IncomingJitter
 	{
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x1CC78C0", Offset = "0x1CC5EC0", VA = "0x181CC78C0")]
+		[Address(RVA = "0x565D630", Offset = "0x565C630", VA = "0x565D630")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x565D640", Offset = "0x565C640", VA = "0x565D640")]
 		set
 		{
 		}
@@ -154,13 +154,13 @@ public class NetworkSimulationSet
 	public int IncomingLossPercentage
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
+		[Address(RVA = "0x565D650", Offset = "0x565C650", VA = "0x565D650")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x565D660", Offset = "0x565C660", VA = "0x565D660")]
 		set
 		{
 		}
@@ -170,14 +170,14 @@ public class NetworkSimulationSet
 	public int LostPackagesOut
 	{
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x565D670", Offset = "0x565C670", VA = "0x565D670")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x565D680", Offset = "0x565C680", VA = "0x565D680")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -188,14 +188,14 @@ public class NetworkSimulationSet
 	public int LostPackagesIn
 	{
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
+		[Address(RVA = "0x565D690", Offset = "0x565C690", VA = "0x565D690")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x58A9A0", Offset = "0x588FA0", VA = "0x18058A9A0")]
+		[Address(RVA = "0x565D6A0", Offset = "0x565C6A0", VA = "0x565D6A0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -203,14 +203,14 @@ public class NetworkSimulationSet
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x1CC7500", Offset = "0x1CC5B00", VA = "0x181CC7500", Slot = "3")]
+	[Address(RVA = "0x565D6B0", Offset = "0x565C6B0", VA = "0x565D6B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x1CC7830", Offset = "0x1CC5E30", VA = "0x181CC7830")]
+	[Address(RVA = "0x565D980", Offset = "0x565C980", VA = "0x565D980")]
 	public NetworkSimulationSet()
 	{
 	}

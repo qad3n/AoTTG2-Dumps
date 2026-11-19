@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x200040C")]
+[Token(Token = "0x20003E5")]
 [ComVisible(true)]
 public interface IFormatter
 {
-	[Token(Token = "0x6001FEC")]
+	[Token(Token = "0x6001FC2")]
 	object Deserialize(Stream serializationStream);
 }

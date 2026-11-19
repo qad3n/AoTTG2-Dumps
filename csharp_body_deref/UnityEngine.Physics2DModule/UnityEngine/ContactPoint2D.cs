@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.ContactPoint2D
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,9 +12,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000007")]
+[UnityEngine.Scripting.RequiredByNativeCode(Optional = false, GenerateProxy = false)]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics2D/Public/PhysicsScripting2D.h")]
 [UnityEngine.NativeClass("ScriptingContactPoint2D", "struct ScriptingContactPoint2D;")]
-[UnityEngine.Scripting.RequiredByNativeCode(Optional = false, GenerateProxy = false)]
 public struct ContactPoint2D
 {
 	[Token(Token = "0x400001B")]

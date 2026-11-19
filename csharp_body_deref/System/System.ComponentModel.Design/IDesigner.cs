@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000233")]
+[Token(Token = "0x20001F4")]
 public interface IDesigner : IDisposable
 {
 }

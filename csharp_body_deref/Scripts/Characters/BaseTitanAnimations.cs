@@ -9,209 +9,209 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20006B1")]
+[Token(Token = "0x200070F")]
 internal class BaseTitanAnimations
 {
-	[Token(Token = "0x17000B8F")]
+	[Token(Token = "0x17000BD7")]
 	public virtual string Idle
 	{
-		[Token(Token = "0x60041F0")]
-		[Address(RVA = "0x2179C20", Offset = "0x2178220", VA = "0x182179C20", Slot = "4")]
+		[Token(Token = "0x6004488")]
+		[Address(RVA = "0x5B2D480", Offset = "0x5B2C480", VA = "0x5B2D480", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B90")]
+	[Token(Token = "0x17000BD8")]
 	public virtual string Run
 	{
-		[Token(Token = "0x60041F1")]
-		[Address(RVA = "0x2179CB0", Offset = "0x21782B0", VA = "0x182179CB0", Slot = "5")]
+		[Token(Token = "0x6004489")]
+		[Address(RVA = "0x5B2D4B0", Offset = "0x5B2C4B0", VA = "0x5B2D4B0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B91")]
+	[Token(Token = "0x17000BD9")]
 	public virtual string Sprint
 	{
-		[Token(Token = "0x60041F2")]
-		[Address(RVA = "0x2179DD0", Offset = "0x21783D0", VA = "0x182179DD0", Slot = "6")]
+		[Token(Token = "0x600448A")]
+		[Address(RVA = "0x5B2D4E0", Offset = "0x5B2C4E0", VA = "0x5B2D4E0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B92")]
+	[Token(Token = "0x17000BDA")]
 	public virtual string Walk
 	{
-		[Token(Token = "0x60041F3")]
-		[Address(RVA = "0x2179E90", Offset = "0x2178490", VA = "0x182179E90", Slot = "7")]
+		[Token(Token = "0x600448B")]
+		[Address(RVA = "0x5B2D510", Offset = "0x5B2C510", VA = "0x5B2D510", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B93")]
+	[Token(Token = "0x17000BDB")]
 	public virtual string Jump
 	{
-		[Token(Token = "0x60041F4")]
-		[Address(RVA = "0x2179C50", Offset = "0x2178250", VA = "0x182179C50", Slot = "8")]
+		[Token(Token = "0x600448C")]
+		[Address(RVA = "0x5B2D540", Offset = "0x5B2C540", VA = "0x5B2D540", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B94")]
+	[Token(Token = "0x17000BDC")]
 	public virtual string Fall
 	{
-		[Token(Token = "0x60041F5")]
-		[Address(RVA = "0x2179BF0", Offset = "0x21781F0", VA = "0x182179BF0", Slot = "9")]
+		[Token(Token = "0x600448D")]
+		[Address(RVA = "0x5B2D570", Offset = "0x5B2C570", VA = "0x5B2D570", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B95")]
+	[Token(Token = "0x17000BDD")]
 	public virtual string Land
 	{
-		[Token(Token = "0x60041F6")]
-		[Address(RVA = "0x2179C80", Offset = "0x2178280", VA = "0x182179C80", Slot = "10")]
+		[Token(Token = "0x600448E")]
+		[Address(RVA = "0x5B2D5A0", Offset = "0x5B2C5A0", VA = "0x5B2D5A0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B96")]
+	[Token(Token = "0x17000BDE")]
 	public virtual string Stun
 	{
-		[Token(Token = "0x60041F7")]
-		[Address(RVA = "0x2179E00", Offset = "0x2178400", VA = "0x182179E00", Slot = "11")]
+		[Token(Token = "0x600448F")]
+		[Address(RVA = "0x5B2D5D0", Offset = "0x5B2C5D0", VA = "0x5B2D5D0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B97")]
+	[Token(Token = "0x17000BDF")]
 	public virtual string Die
 	{
-		[Token(Token = "0x60041F8")]
-		[Address(RVA = "0x2179BC0", Offset = "0x21781C0", VA = "0x182179BC0", Slot = "12")]
+		[Token(Token = "0x6004490")]
+		[Address(RVA = "0x5B2D600", Offset = "0x5B2C600", VA = "0x5B2D600", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B98")]
+	[Token(Token = "0x17000BE0")]
 	public virtual string DieSit
 	{
-		[Token(Token = "0x60041F9")]
-		[Address(RVA = "0x2179B90", Offset = "0x2178190", VA = "0x182179B90", Slot = "13")]
+		[Token(Token = "0x6004491")]
+		[Address(RVA = "0x5B2D630", Offset = "0x5B2C630", VA = "0x5B2D630", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B99")]
+	[Token(Token = "0x17000BE1")]
 	public virtual string SitIdle
 	{
-		[Token(Token = "0x60041FA")]
-		[Address(RVA = "0x2179D70", Offset = "0x2178370", VA = "0x182179D70", Slot = "14")]
+		[Token(Token = "0x6004492")]
+		[Address(RVA = "0x5B2D660", Offset = "0x5B2C660", VA = "0x5B2D660", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9A")]
+	[Token(Token = "0x17000BE2")]
 	public virtual string SitDown
 	{
-		[Token(Token = "0x60041FB")]
-		[Address(RVA = "0x2179D10", Offset = "0x2178310", VA = "0x182179D10", Slot = "15")]
+		[Token(Token = "0x6004493")]
+		[Address(RVA = "0x5B2D690", Offset = "0x5B2C690", VA = "0x5B2D690", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9B")]
+	[Token(Token = "0x17000BE3")]
 	public virtual string SitUp
 	{
-		[Token(Token = "0x60041FC")]
-		[Address(RVA = "0x2179DA0", Offset = "0x21783A0", VA = "0x182179DA0", Slot = "16")]
+		[Token(Token = "0x6004494")]
+		[Address(RVA = "0x5B2D6C0", Offset = "0x5B2C6C0", VA = "0x5B2D6C0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9C")]
+	[Token(Token = "0x17000BE4")]
 	public virtual string SitFall
 	{
-		[Token(Token = "0x60041FD")]
-		[Address(RVA = "0x2179D40", Offset = "0x2178340", VA = "0x182179D40", Slot = "17")]
+		[Token(Token = "0x6004495")]
+		[Address(RVA = "0x5B2D6F0", Offset = "0x5B2C6F0", VA = "0x5B2D6F0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9D")]
+	[Token(Token = "0x17000BE5")]
 	public virtual string SitBlind
 	{
-		[Token(Token = "0x60041FE")]
-		[Address(RVA = "0x2179CE0", Offset = "0x21782E0", VA = "0x182179CE0", Slot = "18")]
+		[Token(Token = "0x6004496")]
+		[Address(RVA = "0x5B2D720", Offset = "0x5B2C720", VA = "0x5B2D720", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9E")]
+	[Token(Token = "0x17000BE6")]
 	public virtual string Turn90L
 	{
-		[Token(Token = "0x60041FF")]
-		[Address(RVA = "0x2179E30", Offset = "0x2178430", VA = "0x182179E30", Slot = "19")]
+		[Token(Token = "0x6004497")]
+		[Address(RVA = "0x5B2D750", Offset = "0x5B2C750", VA = "0x5B2D750", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B9F")]
+	[Token(Token = "0x17000BE7")]
 	public virtual string Turn90R
 	{
-		[Token(Token = "0x6004200")]
-		[Address(RVA = "0x2179E60", Offset = "0x2178460", VA = "0x182179E60", Slot = "20")]
+		[Token(Token = "0x6004498")]
+		[Address(RVA = "0x5B2D780", Offset = "0x5B2C780", VA = "0x5B2D780", Slot = "20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000BA0")]
+	[Token(Token = "0x17000BE8")]
 	public virtual string Blind
 	{
-		[Token(Token = "0x6004201")]
-		[Address(RVA = "0x2179B60", Offset = "0x2178160", VA = "0x182179B60", Slot = "21")]
+		[Token(Token = "0x6004499")]
+		[Address(RVA = "0x5B2D7B0", Offset = "0x5B2C7B0", VA = "0x5B2D7B0", Slot = "21")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004202")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600449A")]
+	[Address(RVA = "0x5B1DD90", Offset = "0x5B1CD90", VA = "0x5B1DD90")]
 	public BaseTitanAnimations()
 	{
 	}

@@ -11,61 +11,61 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x2000420")]
+[Token(Token = "0x20003F9")]
 [ComVisible(true)]
 public readonly struct StreamingContext
 {
-	[Token(Token = "0x400102E")]
+	[Token(Token = "0x4000F8E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal readonly object m_additionalContext;
 
-	[Token(Token = "0x400102F")]
+	[Token(Token = "0x4000F8F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal readonly StreamingContextStates m_state;
 
-	[Token(Token = "0x1700044D")]
+	[Token(Token = "0x1700044C")]
 	public object Context
 	{
-		[Token(Token = "0x600209B")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x6002071")]
+		[Address(RVA = "0x53A7FE0", Offset = "0x53A6FE0", VA = "0x53A7FE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700044E")]
+	[Token(Token = "0x1700044D")]
 	public StreamingContextStates State
 	{
-		[Token(Token = "0x600209E")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Token(Token = "0x6002074")]
+		[Address(RVA = "0x53A8080", Offset = "0x53A7080", VA = "0x53A8080")]
 		get
 		{
 			return default(StreamingContextStates);
 		}
 	}
 
-	[Token(Token = "0x6002099")]
-	[Address(RVA = "0x1A221F0", Offset = "0x1A207F0", VA = "0x181A221F0")]
+	[Token(Token = "0x600206F")]
+	[Address(RVA = "0x53A7FB0", Offset = "0x53A6FB0", VA = "0x53A7FB0")]
 	public StreamingContext(StreamingContextStates state)
 	{
 	}
 
-	[Token(Token = "0x600209A")]
-	[Address(RVA = "0x1A22210", Offset = "0x1A20810", VA = "0x181A22210")]
+	[Token(Token = "0x6002070")]
+	[Address(RVA = "0x53A7FD0", Offset = "0x53A6FD0", VA = "0x53A7FD0")]
 	public StreamingContext(StreamingContextStates state, object additional)
 	{
 	}
 
-	[Token(Token = "0x600209C")]
-	[Address(RVA = "0x1A22140", Offset = "0x1A20740", VA = "0x181A22140", Slot = "0")]
+	[Token(Token = "0x6002072")]
+	[Address(RVA = "0x53A7FF0", Offset = "0x53A6FF0", VA = "0x53A7FF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600209D")]
-	[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0", Slot = "2")]
+	[Token(Token = "0x6002073")]
+	[Address(RVA = "0x53A8070", Offset = "0x53A7070", VA = "0x53A8070", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

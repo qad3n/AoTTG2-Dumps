@@ -14,8 +14,8 @@ namespace JetBrains.Annotations;
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class MustUseReturnValueAttribute : Attribute
 {
-	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60001A5")]
+	[Address(RVA = "0x68B8C30", Offset = "0x68B7C30", VA = "0x68B8C30")]
 	public MustUseReturnValueAttribute()
 	{
 	}

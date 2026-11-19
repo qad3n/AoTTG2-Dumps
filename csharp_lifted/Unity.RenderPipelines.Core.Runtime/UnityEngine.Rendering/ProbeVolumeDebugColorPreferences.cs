@@ -1,0 +1,75 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeVolumeDebugColorPreferences
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace UnityEngine.Rendering;
+
+[Token(Token = "0x200011C")]
+internal class ProbeVolumeDebugColorPreferences
+{
+	[Token(Token = "0x400051D")]
+	[FieldOffset(Offset = "0x0")]
+	internal static Func<Color> GetDetailSubdivisionColor;
+
+	[Token(Token = "0x400051E")]
+	[FieldOffset(Offset = "0x8")]
+	internal static Func<Color> GetMediumSubdivisionColor;
+
+	[Token(Token = "0x400051F")]
+	[FieldOffset(Offset = "0x10")]
+	internal static Func<Color> GetLowSubdivisionColor;
+
+	[Token(Token = "0x4000520")]
+	[FieldOffset(Offset = "0x18")]
+	internal static Func<Color> GetVeryLowSubdivisionColor;
+
+	[Token(Token = "0x4000521")]
+	[FieldOffset(Offset = "0x20")]
+	internal static Func<Color> GetSparseSubdivisionColor;
+
+	[Token(Token = "0x4000522")]
+	[FieldOffset(Offset = "0x28")]
+	internal static Func<Color> GetSparsestSubdivisionColor;
+
+	[Token(Token = "0x4000523")]
+	[FieldOffset(Offset = "0x30")]
+	internal static Color s_DetailSubdivision;
+
+	[Token(Token = "0x4000524")]
+	[FieldOffset(Offset = "0x40")]
+	internal static Color s_MediumSubdivision;
+
+	[Token(Token = "0x4000525")]
+	[FieldOffset(Offset = "0x50")]
+	internal static Color s_LowSubdivision;
+
+	[Token(Token = "0x4000526")]
+	[FieldOffset(Offset = "0x60")]
+	internal static Color s_VeryLowSubdivision;
+
+	[Token(Token = "0x4000527")]
+	[FieldOffset(Offset = "0x70")]
+	internal static Color s_SparseSubdivision;
+
+	[Token(Token = "0x4000528")]
+	[FieldOffset(Offset = "0x80")]
+	internal static Color s_SparsestSubdivision;
+
+	[Token(Token = "0x6000A48")]
+	[Address(RVA = "0x6507BB0", Offset = "0x6506BB0", VA = "0x6507BB0")]
+	static ProbeVolumeDebugColorPreferences()
+	{
+	}
+
+	[Token(Token = "0x6000A49")]
+	[Address(RVA = "0x6507C50", Offset = "0x6506C50", VA = "0x6507C50")]
+	public ProbeVolumeDebugColorPreferences()
+	{
+	}
+}

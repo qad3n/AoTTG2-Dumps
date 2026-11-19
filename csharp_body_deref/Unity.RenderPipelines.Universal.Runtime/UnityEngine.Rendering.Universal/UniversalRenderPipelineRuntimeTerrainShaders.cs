@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTerrainShaders
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,7 +46,7 @@ public class UniversalRenderPipelineRuntimeTerrainShaders : IRenderPipelineResou
 	public int version
 	{
 		[Token(Token = "0x600081D")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667B990", Offset = "0x667A990", VA = "0x667B990", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -57,7 +57,7 @@ public class UniversalRenderPipelineRuntimeTerrainShaders : IRenderPipelineResou
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x2C8E3D0", Offset = "0x2C8C9D0", VA = "0x182C8E3D0", Slot = "5")]
+		[Address(RVA = "0x667B9A0", Offset = "0x667A9A0", VA = "0x667B9A0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -68,13 +68,13 @@ public class UniversalRenderPipelineRuntimeTerrainShaders : IRenderPipelineResou
 	public Shader terrainDetailLitShader
 	{
 		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667BA20", Offset = "0x667AA20", VA = "0x667BA20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000820")]
-		[Address(RVA = "0x2C8E530", Offset = "0x2C8CB30", VA = "0x182C8E530")]
+		[Address(RVA = "0x667B5C0", Offset = "0x667A5C0", VA = "0x667B5C0")]
 		set
 		{
 		}
@@ -84,13 +84,13 @@ public class UniversalRenderPipelineRuntimeTerrainShaders : IRenderPipelineResou
 	public Shader terrainDetailGrassBillboardShader
 	{
 		[Token(Token = "0x6000821")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667BA30", Offset = "0x667AA30", VA = "0x667BA30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000822")]
-		[Address(RVA = "0x2C8E450", Offset = "0x2C8CA50", VA = "0x182C8E450")]
+		[Address(RVA = "0x667B770", Offset = "0x667A770", VA = "0x667B770")]
 		set
 		{
 		}
@@ -100,20 +100,20 @@ public class UniversalRenderPipelineRuntimeTerrainShaders : IRenderPipelineResou
 	public Shader terrainDetailGrassShader
 	{
 		[Token(Token = "0x6000823")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x667BA40", Offset = "0x667AA40", VA = "0x667BA40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000824")]
-		[Address(RVA = "0x2C8E4C0", Offset = "0x2C8CAC0", VA = "0x182C8E4C0")]
+		[Address(RVA = "0x667B920", Offset = "0x667A920", VA = "0x667B920")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667BA50", Offset = "0x667AA50", VA = "0x667BA50")]
 	public UniversalRenderPipelineRuntimeTerrainShaders()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.FixedStringMethods
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -352,7 +352,7 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x600053C")]
-	[Address(RVA = "0x29A4E60", Offset = "0x29A3460", VA = "0x1829A4E60")]
+	[Address(RVA = "0x636F970", Offset = "0x636E970", VA = "0x636F970")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	internal static void CheckSubstringInRange(int strLength, int startIndex, int length)
@@ -374,28 +374,28 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x600053F")]
-	[Address(RVA = "0x29A5080", Offset = "0x29A3680", VA = "0x1829A5080")]
+	[Address(RVA = "0x636FA80", Offset = "0x636EA80", VA = "0x636FA80")]
 	public static NativeText Substring(this ref NativeText str, int startIndex, int length, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
 	}
 
 	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x29A5000", Offset = "0x29A3600", VA = "0x1829A5000")]
+	[Address(RVA = "0x636FB90", Offset = "0x636EB90", VA = "0x636FB90")]
 	public static NativeText Substring(this ref NativeText str, int startIndex, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
 	}
 
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x29A5160", Offset = "0x29A3760", VA = "0x1829A5160")]
+	[Address(RVA = "0x636FC20", Offset = "0x636EC20", VA = "0x636FC20")]
 	public static NativeText Substring(this ref NativeText str, int startIndex, int length)
 	{
 		return default(NativeText);
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x29A5000", Offset = "0x29A3600", VA = "0x1829A5000")]
+	[Address(RVA = "0x636FC40", Offset = "0x636EC40", VA = "0x636FC40")]
 	public static NativeText Substring(this ref NativeText str, int startIndex)
 	{
 		return default(NativeText);
@@ -648,14 +648,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000561")]
-	[Address(RVA = "0x29A5AF0", Offset = "0x29A40F0", VA = "0x1829A5AF0")]
+	[Address(RVA = "0x636FCD0", Offset = "0x636ECD0", VA = "0x636FCD0")]
 	public static UnsafeText TrimStart(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000562")]
-	[Address(RVA = "0x29A5BD0", Offset = "0x29A41D0", VA = "0x1829A5BD0")]
+	[Address(RVA = "0x636FDE0", Offset = "0x636EDE0", VA = "0x636FDE0")]
 	public static NativeText TrimStart(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
@@ -669,14 +669,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000564")]
-	[Address(RVA = "0x29A5910", Offset = "0x29A3F10", VA = "0x1829A5910")]
+	[Address(RVA = "0x636FEE0", Offset = "0x636EEE0", VA = "0x636FEE0")]
 	public static UnsafeText TrimStart(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x29A5A00", Offset = "0x29A4000", VA = "0x1829A5A00")]
+	[Address(RVA = "0x6370010", Offset = "0x636F010", VA = "0x6370010")]
 	public static NativeText TrimStart(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(NativeText);
@@ -690,14 +690,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x29A57C0", Offset = "0x29A3DC0", VA = "0x1829A57C0")]
+	[Address(RVA = "0x6370120", Offset = "0x636F120", VA = "0x6370120")]
 	public static UnsafeText TrimEnd(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x29A5720", Offset = "0x29A3D20", VA = "0x1829A5720")]
+	[Address(RVA = "0x63701E0", Offset = "0x636F1E0", VA = "0x63701E0")]
 	public static NativeText TrimEnd(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
@@ -711,14 +711,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x29A5860", Offset = "0x29A3E60", VA = "0x1829A5860")]
+	[Address(RVA = "0x6370280", Offset = "0x636F280", VA = "0x6370280")]
 	public static UnsafeText TrimEnd(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x29A5670", Offset = "0x29A3C70", VA = "0x1829A5670")]
+	[Address(RVA = "0x6370340", Offset = "0x636F340", VA = "0x6370340")]
 	public static NativeText TrimEnd(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(NativeText);
@@ -732,14 +732,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x29A5F20", Offset = "0x29A4520", VA = "0x1829A5F20")]
+	[Address(RVA = "0x63703E0", Offset = "0x636F3E0", VA = "0x63703E0")]
 	public static UnsafeText Trim(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x29A5CB0", Offset = "0x29A42B0", VA = "0x1829A5CB0")]
+	[Address(RVA = "0x6370540", Offset = "0x636F540", VA = "0x6370540")]
 	public static NativeText Trim(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
@@ -753,14 +753,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x29A6070", Offset = "0x29A4670", VA = "0x1829A6070")]
+	[Address(RVA = "0x6370690", Offset = "0x636F690", VA = "0x6370690")]
 	public static UnsafeText Trim(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x29A5DE0", Offset = "0x29A43E0", VA = "0x1829A5DE0")]
+	[Address(RVA = "0x6370800", Offset = "0x636F800", VA = "0x6370800")]
 	public static NativeText Trim(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator, ReadOnlySpan<Unicode.Rune> trimRunes)
 	{
 		return default(NativeText);
@@ -774,14 +774,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000573")]
-	[Address(RVA = "0x29A5250", Offset = "0x29A3850", VA = "0x1829A5250")]
+	[Address(RVA = "0x6370950", Offset = "0x636F950", VA = "0x6370950")]
 	public static UnsafeText ToLowerAscii(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000574")]
-	[Address(RVA = "0x29A5360", Offset = "0x29A3960", VA = "0x1829A5360")]
+	[Address(RVA = "0x6370AA0", Offset = "0x636FAA0", VA = "0x6370AA0")]
 	public static NativeText ToLowerAscii(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);
@@ -795,14 +795,14 @@ public static class FixedStringMethods
 	}
 
 	[Token(Token = "0x6000576")]
-	[Address(RVA = "0x29A5460", Offset = "0x29A3A60", VA = "0x1829A5460")]
+	[Address(RVA = "0x6370BD0", Offset = "0x636FBD0", VA = "0x6370BD0")]
 	public static UnsafeText ToUpperAscii(this ref UnsafeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(UnsafeText);
 	}
 
 	[Token(Token = "0x6000577")]
-	[Address(RVA = "0x29A5570", Offset = "0x29A3B70", VA = "0x1829A5570")]
+	[Address(RVA = "0x6370D20", Offset = "0x636FD20", VA = "0x6370D20")]
 	public static NativeText ToUpperAscii(this ref NativeText fs, AllocatorManager.AllocatorHandle allocator)
 	{
 		return default(NativeText);

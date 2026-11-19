@@ -28,13 +28,13 @@ internal sealed class XSDSchema : XMLSchema
 		public readonly Type type;
 
 		[Token(Token = "0x600084C")]
-		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+		[Address(RVA = "0x5EE7100", Offset = "0x5EE6100", VA = "0x5EE7100")]
 		public NameType(string n, Type t)
 		{
 		}
 
 		[Token(Token = "0x600084D")]
-		[Address(RVA = "0x25227A0", Offset = "0x2520DA0", VA = "0x1825227A0", Slot = "4")]
+		[Address(RVA = "0x5EE7140", Offset = "0x5EE6140", VA = "0x5EE7140", Slot = "4")]
 		public int CompareTo(object obj)
 		{
 			return default(int);
@@ -125,354 +125,354 @@ internal sealed class XSDSchema : XMLSchema
 	internal bool FromInference
 	{
 		[Token(Token = "0x6000815")]
-		[Address(RVA = "0x1B90350", Offset = "0x1B8E950", VA = "0x181B90350")]
+		[Address(RVA = "0x5ED5930", Offset = "0x5ED4930", VA = "0x5ED5930")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000816")]
-		[Address(RVA = "0x1C5E4B0", Offset = "0x1C5CAB0", VA = "0x181C5E4B0")]
+		[Address(RVA = "0x5ED5940", Offset = "0x5ED4940", VA = "0x5ED5940")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x2530680", Offset = "0x252EC80", VA = "0x182530680")]
+	[Address(RVA = "0x5ED5950", Offset = "0x5ED4950", VA = "0x5ED5950")]
 	private void CollectElementsAnnotations(XmlSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x252FD70", Offset = "0x252E370", VA = "0x18252FD70")]
+	[Address(RVA = "0x5ED59D0", Offset = "0x5ED49D0", VA = "0x5ED59D0")]
 	private void CollectElementsAnnotations(XmlSchema schema, ArrayList schemaList)
 	{
 	}
 
 	[Token(Token = "0x6000819")]
-	[Address(RVA = "0x253D5F0", Offset = "0x253BBF0", VA = "0x18253D5F0")]
+	[Address(RVA = "0x5ED6470", Offset = "0x5ED5470", VA = "0x5ED6470")]
 	internal static string QualifiedName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600081A")]
-	[Address(RVA = "0x253DC30", Offset = "0x253C230", VA = "0x18253DC30")]
+	[Address(RVA = "0x5ED64D0", Offset = "0x5ED54D0", VA = "0x5ED64D0")]
 	internal static void SetProperties(object instance, XmlAttribute[] attrs)
 	{
 	}
 
 	[Token(Token = "0x600081B")]
-	[Address(RVA = "0x253D890", Offset = "0x253BE90", VA = "0x18253D890")]
+	[Address(RVA = "0x5ED6A30", Offset = "0x5ED5A30", VA = "0x5ED6A30")]
 	private static void SetExtProperties(object instance, XmlAttribute[] attrs)
 	{
 	}
 
 	[Token(Token = "0x600081C")]
-	[Address(RVA = "0x2533580", Offset = "0x2531B80", VA = "0x182533580")]
+	[Address(RVA = "0x5ED6E20", Offset = "0x5ED5E20", VA = "0x5ED6E20")]
 	private void HandleColumnExpression(object instance, XmlAttribute[] attrs)
 	{
 	}
 
 	[Token(Token = "0x600081D")]
-	[Address(RVA = "0x2531710", Offset = "0x252FD10", VA = "0x182531710")]
+	[Address(RVA = "0x5ED6350", Offset = "0x5ED5350", VA = "0x5ED6350")]
 	internal static string GetMsdataAttribute(XmlSchemaAnnotated node, string ln)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600081E")]
-	[Address(RVA = "0x253D660", Offset = "0x253BC60", VA = "0x18253D660")]
+	[Address(RVA = "0x5ED7030", Offset = "0x5ED6030", VA = "0x5ED7030")]
 	private static void SetExtProperties(object instance, XmlAttributeCollection attrs)
 	{
 	}
 
 	[Token(Token = "0x600081F")]
-	[Address(RVA = "0x25377C0", Offset = "0x2535DC0", VA = "0x1825377C0")]
+	[Address(RVA = "0x5ED7290", Offset = "0x5ED6290", VA = "0x5ED7290")]
 	internal void HandleRefTableProperties(ArrayList RefTables, XmlSchemaElement element)
 	{
 	}
 
 	[Token(Token = "0x6000820")]
-	[Address(RVA = "0x25378C0", Offset = "0x2535EC0", VA = "0x1825378C0")]
+	[Address(RVA = "0x5ED7440", Offset = "0x5ED6440", VA = "0x5ED7440")]
 	internal void HandleRelation(XmlElement node, bool fNested)
 	{
 	}
 
 	[Token(Token = "0x6000821")]
-	[Address(RVA = "0x2539760", Offset = "0x2537D60", VA = "0x182539760")]
+	[Address(RVA = "0x5ED7D80", Offset = "0x5ED6D80", VA = "0x5ED7D80")]
 	private bool HasAttributes(XmlSchemaObjectCollection attributes)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000822")]
-	[Address(RVA = "0x253B220", Offset = "0x2539820", VA = "0x18253B220")]
+	[Address(RVA = "0x5ED7FE0", Offset = "0x5ED6FE0", VA = "0x5ED7FE0")]
 	private bool IsDatasetParticle(XmlSchemaParticle pt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000823")]
-	[Address(RVA = "0x2530710", Offset = "0x252ED10", VA = "0x182530710")]
+	[Address(RVA = "0x5ED8A00", Offset = "0x5ED7A00", VA = "0x5ED8A00")]
 	private int DatasetElementCount(XmlSchemaObjectCollection elements)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000824")]
-	[Address(RVA = "0x25308E0", Offset = "0x252EEE0", VA = "0x1825308E0")]
+	[Address(RVA = "0x5ED8D30", Offset = "0x5ED7D30", VA = "0x5ED8D30")]
 	private XmlSchemaElement FindDatasetElement(XmlSchemaObjectCollection elements)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x253D310", Offset = "0x253B910", VA = "0x18253D310")]
+	[Address(RVA = "0x5ED9310", Offset = "0x5ED8310", VA = "0x5ED9310")]
 	public void LoadSchema(XmlSchemaSet schemaSet, DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x6000826")]
-	[Address(RVA = "0x253BB80", Offset = "0x253A180", VA = "0x18253BB80")]
+	[Address(RVA = "0x5ED9330", Offset = "0x5ED8330", VA = "0x5ED9330")]
 	public void LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
 	{
 	}
 
 	[Token(Token = "0x6000827")]
-	[Address(RVA = "0x2538220", Offset = "0x2536820", VA = "0x182538220")]
+	[Address(RVA = "0x5EDCFB0", Offset = "0x5EDBFB0", VA = "0x5EDCFB0")]
 	private void HandleRelations(XmlSchemaAnnotation ann, bool fNested)
 	{
 	}
 
 	[Token(Token = "0x6000828")]
-	[Address(RVA = "0x2531AC0", Offset = "0x25300C0", VA = "0x182531AC0")]
+	[Address(RVA = "0x5ED8580", Offset = "0x5ED7580", VA = "0x5ED8580")]
 	internal XmlSchemaObjectCollection GetParticleItems(XmlSchemaParticle pt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x2536F70", Offset = "0x2535570", VA = "0x182536F70")]
+	[Address(RVA = "0x5EDD2F0", Offset = "0x5EDC2F0", VA = "0x5EDD2F0")]
 	internal void HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, bool isBase)
 	{
 	}
 
 	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x2533300", Offset = "0x2531900", VA = "0x182533300")]
+	[Address(RVA = "0x5EDEB90", Offset = "0x5EDDB90", VA = "0x5EDEB90")]
 	internal void HandleAttributes(XmlSchemaObjectCollection attributes, DataTable table, bool isBase)
 	{
 	}
 
 	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x2532F90", Offset = "0x2531590", VA = "0x182532F90")]
+	[Address(RVA = "0x5EDF900", Offset = "0x5EDE900", VA = "0x5EDF900")]
 	private void HandleAttributeGroup(XmlSchemaAttributeGroup attributeGroup, DataTable table, bool isBase)
 	{
 	}
 
 	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x2533790", Offset = "0x2531D90", VA = "0x182533790")]
+	[Address(RVA = "0x5EDFCC0", Offset = "0x5EDECC0", VA = "0x5EDFCC0")]
 	internal void HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, bool isNillable)
 	{
 	}
 
 	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x2531D90", Offset = "0x2530390", VA = "0x182531D90")]
+	[Address(RVA = "0x5ED9200", Offset = "0x5ED8200", VA = "0x5ED9200")]
 	internal XmlSchemaParticle GetParticle(XmlSchemaComplexType ct)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082E")]
-	[Address(RVA = "0x2530E00", Offset = "0x252F400", VA = "0x182530E00")]
+	[Address(RVA = "0x5EE1570", Offset = "0x5EE0570", VA = "0x5EE1570")]
 	internal DataColumn FindField(DataTable table, string field)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x252FB20", Offset = "0x252E120", VA = "0x18252FB20")]
+	[Address(RVA = "0x5EE16F0", Offset = "0x5EE06F0", VA = "0x5EE16F0")]
 	internal DataColumn[] BuildKey(XmlSchemaIdentityConstraint keyNode, DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x2531460", Offset = "0x252FA60", VA = "0x182531460")]
+	[Address(RVA = "0x5ED8C00", Offset = "0x5ED7C00", VA = "0x5ED8C00")]
 	internal bool GetBooleanAttribute(XmlSchemaAnnotated element, string attrName, bool defVal)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x25321B0", Offset = "0x25307B0", VA = "0x1825321B0")]
+	[Address(RVA = "0x5EDB670", Offset = "0x5EDA670", VA = "0x5EDB670")]
 	internal string GetStringAttribute(XmlSchemaAnnotated element, string attrName, string defVal)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x253E110", Offset = "0x253C710", VA = "0x18253E110")]
+	[Address(RVA = "0x5EE1A10", Offset = "0x5EE0A10", VA = "0x5EE1A10")]
 	internal static AcceptRejectRule TranslateAcceptRejectRule(string strRule)
 	{
 		return default(AcceptRejectRule);
 	}
 
 	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x253E180", Offset = "0x253C780", VA = "0x18253E180")]
+	[Address(RVA = "0x5EE1A80", Offset = "0x5EE0A80", VA = "0x5EE1A80")]
 	internal static Rule TranslateRule(string strRule)
 	{
 		return default(Rule);
 	}
 
 	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x2536610", Offset = "0x2534C10", VA = "0x182536610")]
+	[Address(RVA = "0x5EE1B40", Offset = "0x5EE0B40", VA = "0x5EE1B40")]
 	internal void HandleKeyref(XmlSchemaKeyref keyref)
 	{
 	}
 
 	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x2534000", Offset = "0x2532600", VA = "0x182534000")]
+	[Address(RVA = "0x5EE25C0", Offset = "0x5EE15C0", VA = "0x5EE25C0")]
 	internal void HandleConstraint(XmlSchemaIdentityConstraint keyNode)
 	{
 	}
 
 	[Token(Token = "0x6000836")]
-	[Address(RVA = "0x2539940", Offset = "0x2537F40", VA = "0x182539940")]
+	[Address(RVA = "0x5EE2A80", Offset = "0x5EE1A80", VA = "0x5EE2A80")]
 	internal DataTable InstantiateSimpleTable(XmlSchemaElement node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x25315C0", Offset = "0x252FBC0", VA = "0x1825315C0")]
+	[Address(RVA = "0x5ED7380", Offset = "0x5ED6380", VA = "0x5ED7380")]
 	internal string GetInstanceName(XmlSchemaAnnotated node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000838")]
-	[Address(RVA = "0x253A080", Offset = "0x2538680", VA = "0x18253A080")]
+	[Address(RVA = "0x5EE3780", Offset = "0x5EE2780", VA = "0x5EE3780")]
 	internal DataTable InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, bool isRef)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x253E250", Offset = "0x253C850", VA = "0x18253E250")]
+	[Address(RVA = "0x5EE4FC0", Offset = "0x5EE3FC0", VA = "0x5EE4FC0")]
 	public static Type XsdtoClr(string xsdTypeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x2530FC0", Offset = "0x252F5C0", VA = "0x182530FC0")]
+	[Address(RVA = "0x5EE5090", Offset = "0x5EE4090", VA = "0x5EE5090")]
 	private static NameType FindNameType(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x253D340", Offset = "0x253B940", VA = "0x18253D340")]
+	[Address(RVA = "0x5EE5150", Offset = "0x5EE4150", VA = "0x5EE5150")]
 	private Type ParseDataType(string dt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x253BB10", Offset = "0x253A110", VA = "0x18253BB10")]
+	[Address(RVA = "0x5EE5350", Offset = "0x5EE4350", VA = "0x5EE5350")]
 	internal static bool IsXsdType(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x25310A0", Offset = "0x252F6A0", VA = "0x1825310A0")]
+	[Address(RVA = "0x5EDB6E0", Offset = "0x5EDA6E0", VA = "0x5EDB6E0")]
 	internal XmlSchemaAnnotated FindTypeNode(XmlSchemaAnnotated node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x2538C00", Offset = "0x2537200", VA = "0x182538C00")]
+	[Address(RVA = "0x5EE0B10", Offset = "0x5EDFB10", VA = "0x5EE0B10")]
 	internal void HandleSimpleTypeSimpleContentColumn(XmlSchemaSimpleType typeNode, string strType, DataTable table, bool isBase, XmlAttribute[] attrs, bool isNillable)
 	{
 	}
 
 	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x25384B0", Offset = "0x2536AB0", VA = "0x1825384B0")]
+	[Address(RVA = "0x5EE0310", Offset = "0x5EDF310", VA = "0x5EE0310")]
 	internal void HandleSimpleContentColumn(string strType, DataTable table, bool isBase, XmlAttribute[] attrs, bool isNillable)
 	{
 	}
 
 	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x25324E0", Offset = "0x2530AE0", VA = "0x1825324E0")]
+	[Address(RVA = "0x5EDEE60", Offset = "0x5EDDE60", VA = "0x5EDEE60")]
 	internal void HandleAttributeColumn(XmlSchemaAttribute attrib, DataTable table, bool isBase)
 	{
 	}
 
 	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x25356C0", Offset = "0x2533CC0", VA = "0x1825356C0")]
+	[Address(RVA = "0x5EDDCC0", Offset = "0x5EDCCC0", VA = "0x5EDDCC0")]
 	internal void HandleElementColumn(XmlSchemaElement elem, DataTable table, bool isBase)
 	{
 	}
 
 	[Token(Token = "0x6000842")]
-	[Address(RVA = "0x25344F0", Offset = "0x2532AF0", VA = "0x1825344F0")]
+	[Address(RVA = "0x5EDBBD0", Offset = "0x5EDABD0", VA = "0x5EDBBD0")]
 	internal void HandleDataSet(XmlSchemaElement node, bool isNewDataSet)
 	{
 	}
 
 	[Token(Token = "0x6000843")]
-	[Address(RVA = "0x252F970", Offset = "0x252DF70", VA = "0x18252F970")]
+	[Address(RVA = "0x5EE53B0", Offset = "0x5EE43B0", VA = "0x5EE53B0")]
 	private void AddTablesToList(List<DataTable> tableList, DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x2531F30", Offset = "0x2530530", VA = "0x182531F30")]
+	[Address(RVA = "0x5EE3340", Offset = "0x5EE2340", VA = "0x5EE3340")]
 	private string GetPrefix(string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000845")]
-	[Address(RVA = "0x2531840", Offset = "0x252FE40", VA = "0x182531840")]
+	[Address(RVA = "0x5EE55C0", Offset = "0x5EE45C0", VA = "0x5EE55C0")]
 	private string GetNamespaceFromPrefix(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000846")]
-	[Address(RVA = "0x2532350", Offset = "0x2530950", VA = "0x182532350")]
+	[Address(RVA = "0x5EE4E30", Offset = "0x5EE3E30", VA = "0x5EE4E30")]
 	private string GetTableNamespace(XmlSchemaIdentityConstraint key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000847")]
-	[Address(RVA = "0x2532230", Offset = "0x2530830", VA = "0x182532230")]
+	[Address(RVA = "0x5EE24A0", Offset = "0x5EE14A0", VA = "0x5EE24A0")]
 	private string GetTableName(XmlSchemaIdentityConstraint key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000848")]
-	[Address(RVA = "0x253B840", Offset = "0x2539E40", VA = "0x18253B840")]
+	[Address(RVA = "0x5ED8780", Offset = "0x5ED7780", VA = "0x5ED8780")]
 	internal bool IsTable(XmlSchemaElement node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000849")]
-	[Address(RVA = "0x25395A0", Offset = "0x2537BA0", VA = "0x1825395A0")]
+	[Address(RVA = "0x5EDBA60", Offset = "0x5EDAA60", VA = "0x5EDBA60")]
 	internal DataTable HandleTable(XmlSchemaElement node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600084A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5EE5A10", Offset = "0x5EE4A10", VA = "0x5EE5A10")]
 	public XSDSchema()
 	{
 	}

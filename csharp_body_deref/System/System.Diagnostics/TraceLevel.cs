@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x200010A")]
+[Token(Token = "0x20000CB")]
 public enum TraceLevel
 {
-	[Token(Token = "0x400046B")]
+	[Token(Token = "0x400039C")]
 	Off,
-	[Token(Token = "0x400046C")]
+	[Token(Token = "0x400039D")]
 	Error,
-	[Token(Token = "0x400046D")]
+	[Token(Token = "0x400039E")]
 	Warning,
-	[Token(Token = "0x400046E")]
+	[Token(Token = "0x400039F")]
 	Info,
-	[Token(Token = "0x400046F")]
+	[Token(Token = "0x40003A0")]
 	Verbose
 }

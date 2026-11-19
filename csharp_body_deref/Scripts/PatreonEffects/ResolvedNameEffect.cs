@@ -10,30 +10,30 @@ using UnityEngine;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x2000115")]
+[Token(Token = "0x2000089")]
 public struct ResolvedNameEffect
 {
-	[Token(Token = "0x400066F")]
+	[Token(Token = "0x40002D5")]
 	[FieldOffset(Offset = "0x0")]
 	public bool Enabled;
 
-	[Token(Token = "0x4000670")]
+	[Token(Token = "0x40002D6")]
 	[FieldOffset(Offset = "0x4")]
 	public NameEffectType Type;
 
-	[Token(Token = "0x4000671")]
+	[Token(Token = "0x40002D7")]
 	[FieldOffset(Offset = "0x8")]
 	public Color ColorA;
 
-	[Token(Token = "0x4000672")]
+	[Token(Token = "0x40002D8")]
 	[FieldOffset(Offset = "0x18")]
 	public Color ColorB;
 
-	[Token(Token = "0x4000673")]
+	[Token(Token = "0x40002D9")]
 	[FieldOffset(Offset = "0x28")]
 	public Color ColorC;
 
-	[Token(Token = "0x4000674")]
+	[Token(Token = "0x40002DA")]
 	[FieldOffset(Offset = "0x38")]
 	public Color ColorD;
 }

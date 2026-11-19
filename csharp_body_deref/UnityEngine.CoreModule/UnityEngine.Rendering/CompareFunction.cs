@@ -14,22 +14,22 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 public enum CompareFunction
 {
-	[Token(Token = "0x400084E")]
+	[Token(Token = "0x400084C")]
 	Disabled,
-	[Token(Token = "0x400084F")]
+	[Token(Token = "0x400084D")]
 	Never,
-	[Token(Token = "0x4000850")]
+	[Token(Token = "0x400084E")]
 	Less,
-	[Token(Token = "0x4000851")]
+	[Token(Token = "0x400084F")]
 	Equal,
-	[Token(Token = "0x4000852")]
+	[Token(Token = "0x4000850")]
 	LessEqual,
-	[Token(Token = "0x4000853")]
+	[Token(Token = "0x4000851")]
 	Greater,
-	[Token(Token = "0x4000854")]
+	[Token(Token = "0x4000852")]
 	NotEqual,
-	[Token(Token = "0x4000855")]
+	[Token(Token = "0x4000853")]
 	GreaterEqual,
-	[Token(Token = "0x4000856")]
+	[Token(Token = "0x4000854")]
 	Always
 }

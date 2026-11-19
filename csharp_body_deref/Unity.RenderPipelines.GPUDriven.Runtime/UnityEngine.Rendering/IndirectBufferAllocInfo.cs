@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.IndirectBufferAllocInfo
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,21 +29,21 @@ internal struct IndirectBufferAllocInfo
 	public int instanceCount;
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x2BEE6F0", Offset = "0x2BECCF0", VA = "0x182BEE6F0")]
+	[Address(RVA = "0x65E54E0", Offset = "0x65E44E0", VA = "0x65E54E0")]
 	public bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x2BEE700", Offset = "0x2BECD00", VA = "0x182BEE700")]
+	[Address(RVA = "0x65E54F0", Offset = "0x65E44F0", VA = "0x65E54F0")]
 	public bool IsWithinLimits(in IndirectBufferLimits limits)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x2BEE6E0", Offset = "0x2BECCE0", VA = "0x182BEE6E0")]
+	[Address(RVA = "0x65E5510", Offset = "0x65E4510", VA = "0x65E5510")]
 	public int GetExtraDrawInfoSlotIndex()
 	{
 		return default(int);

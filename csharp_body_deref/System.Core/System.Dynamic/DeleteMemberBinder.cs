@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000265")]
+[Token(Token = "0x2000266")]
 public abstract class DeleteMemberBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x17000260")]
+	[Token(Token = "0x17000262")]
 	public string Name
 	{
-		[Token(Token = "0x6000BCD")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6000BD8")]
+		[Address(RVA = "0x5E1EA70", Offset = "0x5E1DA70", VA = "0x5E1EA70")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public abstract class DeleteMemberBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x17000261")]
+	[Token(Token = "0x17000263")]
 	public bool IgnoreCase
 	{
-		[Token(Token = "0x6000BCE")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6000BD9")]
+		[Address(RVA = "0x5E1EA80", Offset = "0x5E1DA80", VA = "0x5E1EA80")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,18 +37,18 @@ public abstract class DeleteMemberBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x6000BCF")]
-	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700")]
+	[Token(Token = "0x6000BDA")]
+	[Address(RVA = "0x5E1EA90", Offset = "0x5E1DA90", VA = "0x5E1EA90")]
 	public DynamicMetaObject FallbackDeleteMember(DynamicMetaObject target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BD0")]
+	[Token(Token = "0x6000BDB")]
 	public abstract DynamicMetaObject FallbackDeleteMember(DynamicMetaObject target, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000BD1")]
-	[Address(RVA = "0x246ABF0", Offset = "0x24691F0", VA = "0x18246ABF0", Slot = "7")]
+	[Token(Token = "0x6000BDC")]
+	[Address(RVA = "0x5E1EAB0", Offset = "0x5E1DAB0", VA = "0x5E1EAB0", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

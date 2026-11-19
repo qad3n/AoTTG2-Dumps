@@ -21,7 +21,7 @@ internal struct LayoutSize
 	public float height;
 
 	[Token(Token = "0x6002CAB")]
-	[Address(RVA = "0x1028C00", Offset = "0x1027200", VA = "0x181028C00")]
+	[Address(RVA = "0x6BC5350", Offset = "0x6BC4350", VA = "0x6BC5350")]
 	public LayoutSize(float width, float height)
 	{
 	}

@@ -20,122 +20,122 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x2000091")]
 public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualContentSource
 {
-	[Token(Token = "0x200008C")]
+	[Token(Token = "0x2000092")]
 	private sealed class CardSlot
 	{
-		[Token(Token = "0x40002F2")]
+		[Token(Token = "0x4000319")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly GameObject Root;
 
-		[Token(Token = "0x40002F3")]
+		[Token(Token = "0x400031A")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly RectTransform Rect;
 
-		[Token(Token = "0x40002F4")]
+		[Token(Token = "0x400031B")]
 		[FieldOffset(Offset = "0x20")]
 		public readonly Button Button;
 
-		[Token(Token = "0x40002F5")]
+		[Token(Token = "0x400031C")]
 		[FieldOffset(Offset = "0x28")]
 		public readonly Image Thumbnail;
 
-		[Token(Token = "0x40002F6")]
+		[Token(Token = "0x400031D")]
 		[FieldOffset(Offset = "0x30")]
 		public readonly TextMeshProUGUI Label;
 
-		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x18CB310", Offset = "0x18C9910", VA = "0x1818CB310")]
+		[Token(Token = "0x6000496")]
+		[Address(RVA = "0x526F470", Offset = "0x526E470", VA = "0x526F470")]
 		public CardSlot(GameObject root, RectTransform rect, Button button, Image thumbnail, TextMeshProUGUI label)
 		{
 		}
 	}
 
-	[Token(Token = "0x200008D")]
+	[Token(Token = "0x2000093")]
 	private sealed class ThumbnailTarget : MonoBehaviour
 	{
-		[Token(Token = "0x40002F7")]
+		[Token(Token = "0x400031E")]
 		[FieldOffset(Offset = "0x20")]
 		public string ResourcePath;
 
-		[Token(Token = "0x40002F8")]
+		[Token(Token = "0x400031F")]
 		[FieldOffset(Offset = "0x28")]
 		public int Generation;
 
-		[Token(Token = "0x600044A")]
-		[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+		[Token(Token = "0x6000497")]
+		[Address(RVA = "0x5270130", Offset = "0x526F130", VA = "0x5270130")]
 		public ThumbnailTarget()
 		{
 		}
 	}
 
-	[Token(Token = "0x200008E")]
+	[Token(Token = "0x2000094")]
 	private sealed class CardSlotHost : MonoBehaviour
 	{
-		[Token(Token = "0x40002F9")]
+		[Token(Token = "0x4000320")]
 		[FieldOffset(Offset = "0x20")]
 		public CardSlot Slot;
 
-		[Token(Token = "0x600044B")]
-		[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+		[Token(Token = "0x6000498")]
+		[Address(RVA = "0x5270140", Offset = "0x526F140", VA = "0x5270140")]
 		public CardSlotHost()
 		{
 		}
 	}
 
-	[Token(Token = "0x200008F")]
+	[Token(Token = "0x2000095")]
 	private readonly struct ThumbnailLoad
 	{
-		[Token(Token = "0x40002FA")]
+		[Token(Token = "0x4000321")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly Image Image;
 
-		[Token(Token = "0x40002FB")]
+		[Token(Token = "0x4000322")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly string ResourcePath;
 
-		[Token(Token = "0x40002FC")]
+		[Token(Token = "0x4000323")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly int Generation;
 
-		[Token(Token = "0x600044C")]
-		[Address(RVA = "0x1046380", Offset = "0x1044980", VA = "0x181046380")]
+		[Token(Token = "0x6000499")]
+		[Address(RVA = "0x526FBB0", Offset = "0x526EBB0", VA = "0x526FBB0")]
 		public ThumbnailLoad(Image image, string resourcePath, int generation)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000093")]
+	[Token(Token = "0x2000099")]
 	[CompilerGenerated]
-	private sealed class _003CBuildCards_003Ed__31 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CBuildCards_003Ed__33 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000306")]
+		[Token(Token = "0x400032D")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000307")]
+		[Token(Token = "0x400032E")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000308")]
+		[Token(Token = "0x400032F")]
 		[FieldOffset(Offset = "0x20")]
 		public GisketchGridPickerRuntime _003C_003E4__this;
 
-		[Token(Token = "0x4000309")]
+		[Token(Token = "0x4000330")]
 		[FieldOffset(Offset = "0x28")]
 		private GisketchUiPerfLog.Scope _003C_003E7__wrap1;
 
-		[Token(Token = "0x400030A")]
+		[Token(Token = "0x4000331")]
 		[FieldOffset(Offset = "0x48")]
 		private int _003Ci_003E5__3;
 
 		[Token(Token = "0x1700008F")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000457")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60004A4")]
+			[Address(RVA = "0x52709F0", Offset = "0x526F9F0", VA = "0x52709F0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -146,8 +146,8 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 		[Token(Token = "0x17000090")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000459")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60004A6")]
+			[Address(RVA = "0x5270A40", Offset = "0x526FA40", VA = "0x5270A40", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -155,78 +155,78 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 			}
 		}
 
-		[Token(Token = "0x6000453")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60004A0")]
+		[Address(RVA = "0x526DB90", Offset = "0x526CB90", VA = "0x526DB90")]
 		[DebuggerHidden]
-		public _003CBuildCards_003Ed__31(int _003C_003E1__state)
+		public _003CBuildCards_003Ed__33(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000454")]
-		[Address(RVA = "0x18D96C0", Offset = "0x18D7CC0", VA = "0x1818D96C0", Slot = "5")]
+		[Token(Token = "0x60004A1")]
+		[Address(RVA = "0x5270380", Offset = "0x526F380", VA = "0x5270380", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000455")]
-		[Address(RVA = "0x18D90B0", Offset = "0x18D76B0", VA = "0x1818D90B0", Slot = "6")]
+		[Token(Token = "0x60004A2")]
+		[Address(RVA = "0x52703A0", Offset = "0x526F3A0", VA = "0x52703A0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000456")]
-		[Address(RVA = "0x18D9720", Offset = "0x18D7D20", VA = "0x1818D9720")]
+		[Token(Token = "0x60004A3")]
+		[Address(RVA = "0x52709D0", Offset = "0x526F9D0", VA = "0x52709D0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000458")]
-		[Address(RVA = "0x18D9680", Offset = "0x18D7C80", VA = "0x1818D9680", Slot = "8")]
+		[Token(Token = "0x60004A5")]
+		[Address(RVA = "0x5270A00", Offset = "0x526FA00", VA = "0x5270A00", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000094")]
+	[Token(Token = "0x200009A")]
 	[CompilerGenerated]
-	private sealed class _003CLoadThumbnails_003Ed__54 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CLoadThumbnails_003Ed__56 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400030B")]
+		[Token(Token = "0x4000332")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400030C")]
+		[Token(Token = "0x4000333")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400030D")]
+		[Token(Token = "0x4000334")]
 		[FieldOffset(Offset = "0x20")]
 		public GisketchGridPickerRuntime _003C_003E4__this;
 
-		[Token(Token = "0x400030E")]
+		[Token(Token = "0x4000335")]
 		[FieldOffset(Offset = "0x28")]
 		public int generation;
 
-		[Token(Token = "0x400030F")]
+		[Token(Token = "0x4000336")]
 		[FieldOffset(Offset = "0x2C")]
 		private int _003Cindex_003E5__2;
 
-		[Token(Token = "0x4000310")]
+		[Token(Token = "0x4000337")]
 		[FieldOffset(Offset = "0x30")]
 		private ThumbnailLoad _003Cload_003E5__3;
 
-		[Token(Token = "0x4000311")]
+		[Token(Token = "0x4000338")]
 		[FieldOffset(Offset = "0x48")]
 		private ResourceRequest _003Crequest_003E5__4;
 
 		[Token(Token = "0x17000091")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600045D")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60004AA")]
+			[Address(RVA = "0x5270E90", Offset = "0x526FE90", VA = "0x5270E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -237,8 +237,8 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 		[Token(Token = "0x17000092")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600045F")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60004AC")]
+			[Address(RVA = "0x5270EE0", Offset = "0x526FEE0", VA = "0x5270EE0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -246,102 +246,106 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 			}
 		}
 
-		[Token(Token = "0x600045A")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60004A7")]
+		[Address(RVA = "0x526FBE0", Offset = "0x526EBE0", VA = "0x526FBE0")]
 		[DebuggerHidden]
-		public _003CLoadThumbnails_003Ed__54(int _003C_003E1__state)
+		public _003CLoadThumbnails_003Ed__56(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600045B")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60004A8")]
+		[Address(RVA = "0x5270A50", Offset = "0x526FA50", VA = "0x5270A50", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600045C")]
-		[Address(RVA = "0x18D9740", Offset = "0x18D7D40", VA = "0x1818D9740", Slot = "6")]
+		[Token(Token = "0x60004A9")]
+		[Address(RVA = "0x5270A60", Offset = "0x526FA60", VA = "0x5270A60", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600045E")]
-		[Address(RVA = "0x18D9C90", Offset = "0x18D8290", VA = "0x1818D9C90", Slot = "8")]
+		[Token(Token = "0x60004AB")]
+		[Address(RVA = "0x5270EA0", Offset = "0x526FEA0", VA = "0x5270EA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40002E1")]
+	[Token(Token = "0x4000307")]
 	private const int ImmediateItems = 24;
 
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x4000308")]
 	private const int BatchSize = 12;
 
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x4000309")]
 	private const int VirtualizationThreshold = 80;
 
-	[Token(Token = "0x40002E4")]
+	[Token(Token = "0x400030A")]
 	private const int OverscanRows = 2;
 
-	[Token(Token = "0x40002E5")]
+	[Token(Token = "0x400030B")]
 	private const float Gap = 10f;
 
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x400030C")]
 	private const float ThumbnailFadeSeconds = 0.12f;
 
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x400030D")]
 	[FieldOffset(Offset = "0x20")]
 	private GisketchGridPicker.RuntimeDefinition _definition;
 
-	[Token(Token = "0x40002E8")]
+	[Token(Token = "0x400030E")]
 	[FieldOffset(Offset = "0x28")]
 	private GisketchTheme _theme;
 
-	[Token(Token = "0x40002E9")]
+	[Token(Token = "0x400030F")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly List<GameObject> _cards;
 
-	[Token(Token = "0x40002EA")]
+	[Token(Token = "0x4000310")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly List<ThumbnailLoad> _thumbnailLoads;
 
-	[Token(Token = "0x40002EB")]
+	[Token(Token = "0x4000311")]
 	[FieldOffset(Offset = "0x40")]
+	private readonly List<string> _loadedThumbnails;
+
+	[Token(Token = "0x4000312")]
+	[FieldOffset(Offset = "0x48")]
 	private readonly List<GisketchGridPickerItem> _filtered;
 
-	[Token(Token = "0x40002EC")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000313")]
+	[FieldOffset(Offset = "0x50")]
 	private string _query;
 
-	[Token(Token = "0x40002ED")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000314")]
+	[FieldOffset(Offset = "0x58")]
 	private Coroutine _build;
 
-	[Token(Token = "0x40002EE")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x4000315")]
+	[FieldOffset(Offset = "0x60")]
 	private Coroutine _thumbnailLoader;
 
-	[Token(Token = "0x40002EF")]
-	[FieldOffset(Offset = "0x60")]
+	[Token(Token = "0x4000316")]
+	[FieldOffset(Offset = "0x68")]
 	private GisketchVirtualContentRuntime _virtualContent;
 
-	[Token(Token = "0x40002F0")]
-	[FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x4000317")]
+	[FieldOffset(Offset = "0x70")]
 	private int _thumbnailGeneration;
 
-	[Token(Token = "0x40002F1")]
-	[FieldOffset(Offset = "0x6C")]
+	[Token(Token = "0x4000318")]
+	[FieldOffset(Offset = "0x74")]
 	private bool _virtualized;
 
 	[Token(Token = "0x1700008A")]
 	public string Id
 	{
-		[Token(Token = "0x600041F")]
-		[Address(RVA = "0x18CF2E0", Offset = "0x18CD8E0", VA = "0x1818CF2E0")]
+		[Token(Token = "0x600046B")]
+		[Address(RVA = "0x526C4B0", Offset = "0x526B4B0", VA = "0x526C4B0")]
 		get
 		{
 			return null;
@@ -351,8 +355,8 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 	[Token(Token = "0x1700008B")]
 	internal bool IsVirtualized
 	{
-		[Token(Token = "0x6000420")]
-		[Address(RVA = "0x18CF310", Offset = "0x18CD910", VA = "0x1818CF310")]
+		[Token(Token = "0x600046C")]
+		[Address(RVA = "0x526CB80", Offset = "0x526BB80", VA = "0x526CB80")]
 		get
 		{
 			return default(bool);
@@ -362,8 +366,8 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 	[Token(Token = "0x1700008C")]
 	internal int LiveCardCount
 	{
-		[Token(Token = "0x6000421")]
-		[Address(RVA = "0x18CF320", Offset = "0x18CD920", VA = "0x1818CF320")]
+		[Token(Token = "0x600046D")]
+		[Address(RVA = "0x526CB90", Offset = "0x526BB90", VA = "0x526CB90")]
 		get
 		{
 			return default(int);
@@ -373,8 +377,8 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 	[Token(Token = "0x1700008D")]
 	private int Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002EItemCount
 	{
-		[Token(Token = "0x6000422")]
-		[Address(RVA = "0x18CD610", Offset = "0x18CBC10", VA = "0x1818CD610", Slot = "4")]
+		[Token(Token = "0x600046E")]
+		[Address(RVA = "0x526CC30", Offset = "0x526BC30", VA = "0x526CC30", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -384,253 +388,259 @@ public sealed class GisketchGridPickerRuntime : MonoBehaviour, IGisketchVirtualC
 	[Token(Token = "0x1700008E")]
 	private GisketchVirtualContentMetrics Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002EMetrics
 	{
-		[Token(Token = "0x6000423")]
-		[Address(RVA = "0x18CD650", Offset = "0x18CBC50", VA = "0x1818CD650", Slot = "5")]
+		[Token(Token = "0x600046F")]
+		[Address(RVA = "0x526CC70", Offset = "0x526BC70", VA = "0x526CC70", Slot = "5")]
 		get
 		{
 			return default(GisketchVirtualContentMetrics);
 		}
 	}
 
-	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x18CE850", Offset = "0x18CCE50", VA = "0x1818CE850")]
+	[Token(Token = "0x6000470")]
+	[Address(RVA = "0x526BD50", Offset = "0x526AD50", VA = "0x526BD50")]
 	internal void Setup(GisketchGridPicker.RuntimeDefinition definition, GisketchTheme theme)
 	{
 	}
 
-	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x18CE370", Offset = "0x18CC970", VA = "0x1818CE370")]
+	[Token(Token = "0x6000471")]
+	[Address(RVA = "0x526C4E0", Offset = "0x526B4E0", VA = "0x526C4E0")]
 	public void SetQuery(string query)
 	{
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x18CDBB0", Offset = "0x18CC1B0", VA = "0x1818CDBB0")]
+	[Token(Token = "0x6000472")]
+	[Address(RVA = "0x526CDB0", Offset = "0x526BDB0", VA = "0x526CDB0")]
 	private void Rebuild()
 	{
 	}
 
-	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x18CEF50", Offset = "0x18CD550", VA = "0x1818CEF50")]
+	[Token(Token = "0x6000473")]
+	[Address(RVA = "0x526DB20", Offset = "0x526CB20", VA = "0x526DB20")]
+	private void OnDestroy()
+	{
+	}
+
+	[Token(Token = "0x6000474")]
+	[Address(RVA = "0x526D4C0", Offset = "0x526C4C0", VA = "0x526D4C0")]
 	private void StopBuilds()
 	{
 	}
 
-	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x18CB900", Offset = "0x18C9F00", VA = "0x1818CB900")]
-	[IteratorStateMachine(typeof(_003CBuildCards_003Ed__31))]
+	[Token(Token = "0x6000475")]
+	[Address(RVA = "0x526DAB0", Offset = "0x526CAB0", VA = "0x526DAB0")]
+	[IteratorStateMachine(typeof(_003CBuildCards_003Ed__33))]
 	private IEnumerator BuildCards()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x18CCEA0", Offset = "0x18CB4A0", VA = "0x1818CCEA0")]
+	[Token(Token = "0x6000476")]
+	[Address(RVA = "0x526D520", Offset = "0x526C520", VA = "0x526D520")]
 	private void FilterItems()
 	{
 	}
 
-	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x18CB480", Offset = "0x18C9A80", VA = "0x1818CB480")]
+	[Token(Token = "0x6000477")]
+	[Address(RVA = "0x526DBB0", Offset = "0x526CBB0", VA = "0x526DBB0")]
 	private void BindCardSlot(CardSlot slot, GisketchGridPickerItem item, int index)
 	{
 	}
 
-	[Token(Token = "0x600042B")]
-	[Address(RVA = "0x18CB3A0", Offset = "0x18C99A0", VA = "0x1818CB3A0")]
+	[Token(Token = "0x6000478")]
+	[Address(RVA = "0x526CCF0", Offset = "0x526BCF0", VA = "0x526CCF0")]
 	private void AddGridLayout(GisketchGridPicker.RuntimeDefinition definition)
 	{
 	}
 
-	[Token(Token = "0x600042C")]
-	[Address(RVA = "0x18CEFB0", Offset = "0x18CD5B0", VA = "0x1818CEFB0")]
+	[Token(Token = "0x6000479")]
+	[Address(RVA = "0x526D810", Offset = "0x526C810", VA = "0x526D810")]
 	private void UpdateHeight(int count)
 	{
 	}
 
-	[Token(Token = "0x600042D")]
-	[Address(RVA = "0x18CD6D0", Offset = "0x18CBCD0", VA = "0x1818CD6D0")]
+	[Token(Token = "0x600047A")]
+	[Address(RVA = "0x526E210", Offset = "0x526D210", VA = "0x526E210")]
 	private float HeightFor(int count)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x18CE260", Offset = "0x18CC860", VA = "0x1818CE260")]
+	[Token(Token = "0x600047B")]
+	[Address(RVA = "0x526E2D0", Offset = "0x526D2D0", VA = "0x526E2D0")]
 	private int RowCount(int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600042F")]
-	[Address(RVA = "0x18CC860", Offset = "0x18CAE60", VA = "0x1818CC860")]
+	[Token(Token = "0x600047C")]
+	[Address(RVA = "0x526E350", Offset = "0x526D350", VA = "0x526E350")]
 	private GameObject CreateCard(GisketchGridPickerItem item, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000430")]
-	[Address(RVA = "0x18CCB60", Offset = "0x18CB160", VA = "0x1818CCB60")]
+	[Token(Token = "0x600047D")]
+	[Address(RVA = "0x526EC60", Offset = "0x526DC60", VA = "0x526EC60")]
 	private CardSlot CreateSlot(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000431")]
-	[Address(RVA = "0x18CC030", Offset = "0x18CA630", VA = "0x1818CC030")]
+	[Token(Token = "0x600047E")]
+	[Address(RVA = "0x526E460", Offset = "0x526D460", VA = "0x526E460")]
 	private CardSlot CreateCardObject(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000432")]
-	[Address(RVA = "0x18CB790", Offset = "0x18C9D90", VA = "0x1818CB790")]
+	[Token(Token = "0x600047F")]
+	[Address(RVA = "0x526EAE0", Offset = "0x526DAE0", VA = "0x526EAE0")]
 	private void BindStaticCard(CardSlot slot, GisketchGridPickerItem item)
 	{
 	}
 
-	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x18CD200", Offset = "0x18CB800", VA = "0x1818CD200", Slot = "7")]
+	[Token(Token = "0x6000480")]
+	[Address(RVA = "0x526F510", Offset = "0x526E510", VA = "0x526F510", Slot = "7")]
 	private GameObject Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002ECreateSlot(Transform parent, int slotIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x18CD300", Offset = "0x18CB900", VA = "0x1818CD300", Slot = "6")]
+	[Token(Token = "0x6000481")]
+	[Address(RVA = "0x526F530", Offset = "0x526E530", VA = "0x526F530", Slot = "6")]
 	private string Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002EItemId(int itemIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x18CD130", Offset = "0x18CB730", VA = "0x1818CD130", Slot = "8")]
+	[Token(Token = "0x6000482")]
+	[Address(RVA = "0x526F600", Offset = "0x526E600", VA = "0x526F600", Slot = "8")]
 	private void Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002EBindSlot(GameObject slotRoot, int itemIndex)
 	{
 	}
 
-	[Token(Token = "0x6000436")]
-	[Address(RVA = "0x18CD5D0", Offset = "0x18CBBD0", VA = "0x1818CD5D0", Slot = "9")]
+	[Token(Token = "0x6000483")]
+	[Address(RVA = "0x526F750", Offset = "0x526E750", VA = "0x526F750", Slot = "9")]
 	private void Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002EUnbindSlot(GameObject slotRoot)
 	{
 	}
 
-	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+	[Token(Token = "0x6000484")]
+	[Address(RVA = "0x526F790", Offset = "0x526E790", VA = "0x526F790", Slot = "10")]
 	private bool Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002ECanRecycleSlot(GameObject slot)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x18CD3E0", Offset = "0x18CB9E0", VA = "0x1818CD3E0", Slot = "11")]
+	[Token(Token = "0x6000485")]
+	[Address(RVA = "0x526F7A0", Offset = "0x526E7A0", VA = "0x526F7A0", Slot = "11")]
 	private bool Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002ETryGetSearchTargetItemIndex(string targetId, out int itemIndex)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x18CD500", Offset = "0x18CBB00", VA = "0x1818CD500", Slot = "12")]
+	[Token(Token = "0x6000486")]
+	[Address(RVA = "0x526F8D0", Offset = "0x526E8D0", VA = "0x526F8D0", Slot = "12")]
 	private bool Gisketch_002EAottg2UI_002EVirtualization_002EIGisketchVirtualContentSource_002ETryResolveSearchTarget(string targetId, int itemIndex, GameObject slotRoot, out GameObject target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x18CCC60", Offset = "0x18CB260", VA = "0x1818CCC60")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x526E150", Offset = "0x526D150", VA = "0x526E150")]
 	private void EnsureThumbnailLoader()
 	{
 	}
 
-	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x18CEE90", Offset = "0x18CD490", VA = "0x1818CEE90")]
+	[Token(Token = "0x6000488")]
+	[Address(RVA = "0x526F6A0", Offset = "0x526E6A0", VA = "0x526F6A0")]
 	private static CardSlot Slot(GameObject root)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600043C")]
-	[Address(RVA = "0x18CBDB0", Offset = "0x18CA3B0", VA = "0x1818CBDB0")]
+	[Token(Token = "0x6000489")]
+	[Address(RVA = "0x526EE60", Offset = "0x526DE60", VA = "0x526EE60")]
 	private Image BuildThumbnail(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x18CE470", Offset = "0x18CCA70", VA = "0x1818CE470")]
+	[Token(Token = "0x600048A")]
+	[Address(RVA = "0x526DEA0", Offset = "0x526CEA0", VA = "0x526DEA0")]
 	private void SetThumbnail(Image image, GisketchGridPickerItem item, int generation)
 	{
 	}
 
-	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x18CDA50", Offset = "0x18CC050", VA = "0x1818CDA50")]
+	[Token(Token = "0x600048B")]
+	[Address(RVA = "0x526FA60", Offset = "0x526EA60", VA = "0x526FA60")]
 	private void QueueThumbnail(Image image, string resourcePath, int generation)
 	{
 	}
 
-	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x18CD9D0", Offset = "0x18CBFD0", VA = "0x1818CD9D0")]
-	[IteratorStateMachine(typeof(_003CLoadThumbnails_003Ed__54))]
+	[Token(Token = "0x600048C")]
+	[Address(RVA = "0x526DA40", Offset = "0x526CA40", VA = "0x526DA40")]
+	[IteratorStateMachine(typeof(_003CLoadThumbnails_003Ed__56))]
 	private IEnumerator LoadThumbnails(int generation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x18CD780", Offset = "0x18CBD80", VA = "0x1818CD780")]
+	[Token(Token = "0x600048D")]
+	[Address(RVA = "0x526FC00", Offset = "0x526EC00", VA = "0x526FC00")]
 	private static bool IsCurrent(ThumbnailLoad load, int generation)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x18CEDC0", Offset = "0x18CD3C0", VA = "0x1818CEDC0")]
+	[Token(Token = "0x600048E")]
+	[Address(RVA = "0x526F9A0", Offset = "0x526E9A0", VA = "0x526F9A0")]
 	private static void ShowLoaded(Image image, Sprite sprite)
 	{
 	}
 
-	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x18CCCC0", Offset = "0x18CB2C0", VA = "0x1818CCCC0")]
+	[Token(Token = "0x600048F")]
+	[Address(RVA = "0x526FCF0", Offset = "0x526ECF0", VA = "0x526FCF0")]
 	private static void FadeIn(Image image, string resourcePath, int generation)
 	{
 	}
 
-	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x18CD8A0", Offset = "0x18CBEA0", VA = "0x1818CD8A0")]
+	[Token(Token = "0x6000490")]
+	[Address(RVA = "0x526FED0", Offset = "0x526EED0", VA = "0x526FED0")]
 	private static bool IsCurrent(Image image, string resourcePath, int generation)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x18CB970", Offset = "0x18C9F70", VA = "0x1818CB970")]
+	[Token(Token = "0x6000491")]
+	[Address(RVA = "0x526F0B0", Offset = "0x526E0B0", VA = "0x526F0B0")]
 	private TextMeshProUGUI BuildLabel(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x189B1D0", Offset = "0x18997D0", VA = "0x18189B1D0")]
+	[Token(Token = "0x6000492")]
+	[Address(RVA = "0x526ED60", Offset = "0x526DD60", VA = "0x526ED60")]
 	private static void Stretch(RectTransform rect)
 	{
 	}
 
-	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x18CE2E0", Offset = "0x18CC8E0", VA = "0x1818CE2E0")]
+	[Token(Token = "0x6000493")]
+	[Address(RVA = "0x526DE10", Offset = "0x526CE10", VA = "0x526DE10")]
 	private static string SafeId(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x18CD9B0", Offset = "0x18CBFB0", VA = "0x1818CD9B0")]
+	[Token(Token = "0x6000494")]
+	[Address(RVA = "0x526CCD0", Offset = "0x526BCD0", VA = "0x526CCD0")]
 	private int ItemCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x18CF1B0", Offset = "0x18CD7B0", VA = "0x1818CF1B0")]
+	[Token(Token = "0x6000495")]
+	[Address(RVA = "0x526FFB0", Offset = "0x526EFB0", VA = "0x526FFB0")]
 	public GisketchGridPickerRuntime()
 	{
 	}

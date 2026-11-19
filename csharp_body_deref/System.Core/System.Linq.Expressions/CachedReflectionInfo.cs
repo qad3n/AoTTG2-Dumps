@@ -10,88 +10,66 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000044")]
 internal static class CachedReflectionInfo
 {
-	[Token(Token = "0x40000DB")]
+	[Token(Token = "0x40000E4")]
 	[FieldOffset(Offset = "0x0")]
 	private static MethodInfo s_CallSiteOps_SetNotMatched;
 
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40000E5")]
 	[FieldOffset(Offset = "0x8")]
 	private static MethodInfo s_CallSiteOps_CreateMatchmaker;
 
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x40000E6")]
 	[FieldOffset(Offset = "0x10")]
 	private static MethodInfo s_CallSiteOps_GetMatch;
 
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40000E7")]
 	[FieldOffset(Offset = "0x18")]
 	private static MethodInfo s_CallSiteOps_ClearMatch;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40000E8")]
 	[FieldOffset(Offset = "0x20")]
 	private static MethodInfo s_CallSiteOps_UpdateRules;
 
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x40000E9")]
 	[FieldOffset(Offset = "0x28")]
 	private static MethodInfo s_CallSiteOps_GetRules;
 
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x40000EA")]
 	[FieldOffset(Offset = "0x30")]
 	private static MethodInfo s_CallSiteOps_GetRuleCache;
 
-	[Token(Token = "0x40000E2")]
+	[Token(Token = "0x40000EB")]
 	[FieldOffset(Offset = "0x38")]
 	private static MethodInfo s_CallSiteOps_GetCachedRules;
 
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x40000EC")]
 	[FieldOffset(Offset = "0x40")]
 	private static MethodInfo s_CallSiteOps_AddRule;
 
-	[Token(Token = "0x40000E4")]
+	[Token(Token = "0x40000ED")]
 	[FieldOffset(Offset = "0x48")]
 	private static MethodInfo s_CallSiteOps_MoveRule;
 
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x40000EE")]
 	[FieldOffset(Offset = "0x50")]
 	private static MethodInfo s_CallSiteOps_Bind;
 
-	[Token(Token = "0x40000E6")]
+	[Token(Token = "0x40000EF")]
 	[FieldOffset(Offset = "0x58")]
 	private static MethodInfo s_String_op_Equality_String_String;
 
-	[Token(Token = "0x40000E7")]
+	[Token(Token = "0x40000F0")]
 	[FieldOffset(Offset = "0x60")]
 	private static MethodInfo s_Math_Pow_Double_Double;
 
-	[Token(Token = "0x17000039")]
+	[Token(Token = "0x1700003B")]
 	public static MethodInfo CallSiteOps_SetNotMatched
 	{
-		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x2409520", Offset = "0x2407B20", VA = "0x182409520")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700003A")]
-	public static MethodInfo CallSiteOps_CreateMatchmaker
-	{
-		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x2409040", Offset = "0x2407640", VA = "0x182409040")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700003B")]
-	public static MethodInfo CallSiteOps_GetMatch
-	{
-		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x24091E0", Offset = "0x24077E0", VA = "0x1824091E0")]
+		[Token(Token = "0x60001B2")]
+		[Address(RVA = "0x5DA8510", Offset = "0x5DA7510", VA = "0x5DA8510")]
 		get
 		{
 			return null;
@@ -99,10 +77,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x1700003C")]
-	public static MethodInfo CallSiteOps_ClearMatch
+	public static MethodInfo CallSiteOps_CreateMatchmaker
 	{
-		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x2408F70", Offset = "0x2407570", VA = "0x182408F70")]
+		[Token(Token = "0x60001B3")]
+		[Address(RVA = "0x5DA85E0", Offset = "0x5DA75E0", VA = "0x5DA85E0")]
 		get
 		{
 			return null;
@@ -110,10 +88,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x1700003D")]
-	public static MethodInfo CallSiteOps_UpdateRules
+	public static MethodInfo CallSiteOps_GetMatch
 	{
-		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x24095F0", Offset = "0x2407BF0", VA = "0x1824095F0")]
+		[Token(Token = "0x60001B4")]
+		[Address(RVA = "0x5DA86B0", Offset = "0x5DA76B0", VA = "0x5DA86B0")]
 		get
 		{
 			return null;
@@ -121,10 +99,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x1700003E")]
-	public static MethodInfo CallSiteOps_GetRules
+	public static MethodInfo CallSiteOps_ClearMatch
 	{
-		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x2409380", Offset = "0x2407980", VA = "0x182409380")]
+		[Token(Token = "0x60001B5")]
+		[Address(RVA = "0x5DA8780", Offset = "0x5DA7780", VA = "0x5DA8780")]
 		get
 		{
 			return null;
@@ -132,10 +110,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x1700003F")]
-	public static MethodInfo CallSiteOps_GetRuleCache
+	public static MethodInfo CallSiteOps_UpdateRules
 	{
-		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x24092B0", Offset = "0x24078B0", VA = "0x1824092B0")]
+		[Token(Token = "0x60001B6")]
+		[Address(RVA = "0x5DA8850", Offset = "0x5DA7850", VA = "0x5DA8850")]
 		get
 		{
 			return null;
@@ -143,10 +121,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000040")]
-	public static MethodInfo CallSiteOps_GetCachedRules
+	public static MethodInfo CallSiteOps_GetRules
 	{
-		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x2409110", Offset = "0x2407710", VA = "0x182409110")]
+		[Token(Token = "0x60001B7")]
+		[Address(RVA = "0x5DA8920", Offset = "0x5DA7920", VA = "0x5DA8920")]
 		get
 		{
 			return null;
@@ -154,10 +132,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000041")]
-	public static MethodInfo CallSiteOps_AddRule
+	public static MethodInfo CallSiteOps_GetRuleCache
 	{
-		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x2408DD0", Offset = "0x24073D0", VA = "0x182408DD0")]
+		[Token(Token = "0x60001B8")]
+		[Address(RVA = "0x5DA89F0", Offset = "0x5DA79F0", VA = "0x5DA89F0")]
 		get
 		{
 			return null;
@@ -165,10 +143,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000042")]
-	public static MethodInfo CallSiteOps_MoveRule
+	public static MethodInfo CallSiteOps_GetCachedRules
 	{
-		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x2409450", Offset = "0x2407A50", VA = "0x182409450")]
+		[Token(Token = "0x60001B9")]
+		[Address(RVA = "0x5DA8AC0", Offset = "0x5DA7AC0", VA = "0x5DA8AC0")]
 		get
 		{
 			return null;
@@ -176,10 +154,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000043")]
-	public static MethodInfo CallSiteOps_Bind
+	public static MethodInfo CallSiteOps_AddRule
 	{
-		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x2408EA0", Offset = "0x24074A0", VA = "0x182408EA0")]
+		[Token(Token = "0x60001BA")]
+		[Address(RVA = "0x5DA8B90", Offset = "0x5DA7B90", VA = "0x5DA8B90")]
 		get
 		{
 			return null;
@@ -187,10 +165,10 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000044")]
-	public static MethodInfo String_op_Equality_String_String
+	public static MethodInfo CallSiteOps_MoveRule
 	{
-		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x24098A0", Offset = "0x2407EA0", VA = "0x1824098A0")]
+		[Token(Token = "0x60001BB")]
+		[Address(RVA = "0x5DA8C60", Offset = "0x5DA7C60", VA = "0x5DA8C60")]
 		get
 		{
 			return null;
@@ -198,10 +176,32 @@ internal static class CachedReflectionInfo
 	}
 
 	[Token(Token = "0x17000045")]
+	public static MethodInfo CallSiteOps_Bind
+	{
+		[Token(Token = "0x60001BC")]
+		[Address(RVA = "0x5DA8D30", Offset = "0x5DA7D30", VA = "0x5DA8D30")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000046")]
+	public static MethodInfo String_op_Equality_String_String
+	{
+		[Token(Token = "0x60001BD")]
+		[Address(RVA = "0x5DA8E00", Offset = "0x5DA7E00", VA = "0x5DA8E00")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000047")]
 	public static MethodInfo Math_Pow_Double_Double
 	{
-		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x24096C0", Offset = "0x2407CC0", VA = "0x1824096C0")]
+		[Token(Token = "0x60001BE")]
+		[Address(RVA = "0x5DA8FC0", Offset = "0x5DA7FC0", VA = "0x5DA8FC0")]
 		get
 		{
 			return null;

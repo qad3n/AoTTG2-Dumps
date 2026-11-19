@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PostProcessingPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,8 +35,8 @@ public struct PostProcessingPass
 
 	[Token(Token = "0x4000872")]
 	[FieldOffset(Offset = "0x8")]
-	[DontCreateProperty]
 	[SerializeField]
+	[DontCreateProperty]
 	private int m_PassIndex;
 
 	[Token(Token = "0x4000873")]
@@ -52,14 +52,14 @@ public struct PostProcessingPass
 
 	[Token(Token = "0x4000875")]
 	[FieldOffset(Offset = "0x28")]
-	[DontCreateProperty]
 	[SerializeField]
+	[DontCreateProperty]
 	private PostProcessingMargins m_WriteMargins;
 
 	[Token(Token = "0x4000876")]
 	[FieldOffset(Offset = "0x38")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private PrepareMaterialPropertyBlockDelegate _003CprepareMaterialPropertyBlockCallback_003Ek__BackingField;
 
 	[Token(Token = "0x170002F4")]
@@ -67,13 +67,13 @@ public struct PostProcessingPass
 	public Material material
 	{
 		[Token(Token = "0x6000F53")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6C72C90", Offset = "0x6C71C90", VA = "0x6C72C90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F54")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Address(RVA = "0x6C72CA0", Offset = "0x6C71CA0", VA = "0x6C72CA0")]
 		set
 		{
 		}
@@ -84,13 +84,13 @@ public struct PostProcessingPass
 	public int passIndex
 	{
 		[Token(Token = "0x6000F55")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x6C72CB0", Offset = "0x6C71CB0", VA = "0x6C72CB0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F56")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x6C72CC0", Offset = "0x6C71CC0", VA = "0x6C72CC0")]
 		set
 		{
 		}
@@ -101,13 +101,13 @@ public struct PostProcessingPass
 	public ParameterBinding[] parameterBindings
 	{
 		[Token(Token = "0x6000F57")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6C72CD0", Offset = "0x6C71CD0", VA = "0x6C72CD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F58")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x6C72CE0", Offset = "0x6C71CE0", VA = "0x6C72CE0")]
 		set
 		{
 		}
@@ -117,13 +117,13 @@ public struct PostProcessingPass
 	internal PostProcessingMargins readMargins
 	{
 		[Token(Token = "0x6000F59")]
-		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
+		[Address(RVA = "0x6C72CF0", Offset = "0x6C71CF0", VA = "0x6C72CF0")]
 		get
 		{
 			return default(PostProcessingMargins);
 		}
 		[Token(Token = "0x6000F5A")]
-		[Address(RVA = "0x111C9E0", Offset = "0x111AFE0", VA = "0x18111C9E0")]
+		[Address(RVA = "0x6C72D00", Offset = "0x6C71D00", VA = "0x6C72D00")]
 		set
 		{
 		}
@@ -134,13 +134,13 @@ public struct PostProcessingPass
 	public PostProcessingMargins writeMargins
 	{
 		[Token(Token = "0x6000F5B")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x6C72D10", Offset = "0x6C71D10", VA = "0x6C72D10")]
 		get
 		{
 			return default(PostProcessingMargins);
 		}
 		[Token(Token = "0x6000F5C")]
-		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
+		[Address(RVA = "0x6C72D20", Offset = "0x6C71D20", VA = "0x6C72D20")]
 		set
 		{
 		}
@@ -150,14 +150,14 @@ public struct PostProcessingPass
 	public ApplyFilterPassSettingsDelegate applySettingsCallback
 	{
 		[Token(Token = "0x6000F5D")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x6C72D30", Offset = "0x6C71D30", VA = "0x6C72D30")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F5E")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x6C72D40", Offset = "0x6C71D40", VA = "0x6C72D40")]
 		[CompilerGenerated]
 		set
 		{
@@ -168,14 +168,14 @@ public struct PostProcessingPass
 	public ComputeRequiredMarginsDelegate computeRequiredReadMarginsCallback
 	{
 		[Token(Token = "0x6000F5F")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x6C72D50", Offset = "0x6C71D50", VA = "0x6C72D50")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F60")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x6C72D60", Offset = "0x6C71D60", VA = "0x6C72D60")]
 		[CompilerGenerated]
 		set
 		{
@@ -186,14 +186,14 @@ public struct PostProcessingPass
 	public ComputeRequiredMarginsDelegate computeRequiredWriteMarginsCallback
 	{
 		[Token(Token = "0x6000F61")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x6C72D70", Offset = "0x6C71D70", VA = "0x6C72D70")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F62")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x6C72D80", Offset = "0x6C71D80", VA = "0x6C72D80")]
 		[CompilerGenerated]
 		set
 		{

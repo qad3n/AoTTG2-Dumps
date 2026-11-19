@@ -14,7 +14,7 @@ namespace Photon.Pun;
 public class PunRPC : Attribute
 {
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x56E6130", Offset = "0x56E5130", VA = "0x56E6130")]
 	public PunRPC()
 	{
 	}

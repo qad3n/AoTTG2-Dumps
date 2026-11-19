@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20002A8")]
+[Token(Token = "0x2000305")]
 internal enum AottgGuildPresetKind
 {
-	[Token(Token = "0x4000DCD")]
+	[Token(Token = "0x4000F62")]
 	Text,
-	[Token(Token = "0x4000DCE")]
+	[Token(Token = "0x4000F63")]
 	Image
 }

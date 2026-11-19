@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200009B")]
+[Token(Token = "0x2000072")]
 public class AccessViolationException : SystemException
 {
-	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x1A74EC0", Offset = "0x1A734C0", VA = "0x181A74EC0")]
+	[Token(Token = "0x60003A1")]
+	[Address(RVA = "0x5417D50", Offset = "0x5416D50", VA = "0x5417D50")]
 	public AccessViolationException()
 	{
 	}
 
-	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60003A2")]
+	[Address(RVA = "0x5417D90", Offset = "0x5416D90", VA = "0x5417D90")]
 	protected AccessViolationException(SerializationInfo info, StreamingContext context)
 	{
 	}

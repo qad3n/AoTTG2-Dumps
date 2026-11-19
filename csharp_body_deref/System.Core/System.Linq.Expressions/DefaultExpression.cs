@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200007D")]
+[Token(Token = "0x200007E")]
 [DebuggerTypeProxy(typeof(DefaultExpressionProxy))]
 public sealed class DefaultExpression : Expression
 {
-	[Token(Token = "0x17000080")]
+	[Token(Token = "0x17000082")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000322")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
+		[Token(Token = "0x600032D")]
+		[Address(RVA = "0x5DC6DC0", Offset = "0x5DC5DC0", VA = "0x5DC6DC0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,25 +27,25 @@ public sealed class DefaultExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x17000081")]
+	[Token(Token = "0x17000083")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000323")]
-		[Address(RVA = "0x242C510", Offset = "0x242AB10", VA = "0x18242C510", Slot = "4")]
+		[Token(Token = "0x600032E")]
+		[Address(RVA = "0x5DC6DD0", Offset = "0x5DC5DD0", VA = "0x5DC6DD0", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x242C4A0", Offset = "0x242AAA0", VA = "0x18242C4A0")]
+	[Token(Token = "0x600032C")]
+	[Address(RVA = "0x5DC6D50", Offset = "0x5DC5D50", VA = "0x5DC6D50")]
 	internal DefaultExpression(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x242C470", Offset = "0x242AA70", VA = "0x18242C470", Slot = "9")]
+	[Token(Token = "0x600032F")]
+	[Address(RVA = "0x5DC6DE0", Offset = "0x5DC5DE0", VA = "0x5DC6DE0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;

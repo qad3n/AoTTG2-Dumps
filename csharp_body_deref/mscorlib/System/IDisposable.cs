@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000F8")]
+[Token(Token = "0x20000D0")]
 public interface IDisposable
 {
-	[Token(Token = "0x60007DC")]
+	[Token(Token = "0x60007B7")]
 	void Dispose();
 }

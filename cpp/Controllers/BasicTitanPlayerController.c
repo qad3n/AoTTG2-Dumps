@@ -1,5 +1,5 @@
 // Type: Controllers.BasicTitanPlayerController
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Controllers/BasicTitanPlayerController.cs
@@ -8,128 +8,84 @@
 
 // Controllers.BasicTitanPlayerController$$Awake
 // il2cpp: void Controllers_BasicTitanPlayerController__Awake (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820fa070
+// 0x5ba4d40
 
 void Controllers_BasicTitanPlayerController__Awake
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
 
 {
+  Characters_BasicTitan_o **targetAddress;
   Settings_InputSettings_o *pSVar1;
-  Settings_TitanInputSettings_o *value;
   Characters_BasicTitanComponentCache_o *pCVar2;
   Characters_BaseHitbox_o *pCVar3;
   System_Collections_Generic_Dictionary_string__float__o *__this_00;
   Characters_BasicTitan_o *pCVar4;
   
-  if (Il2CppMethodInitialized_184346aad == '\0') {
+  if (Il2CppMethodInitialized_07547479 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BasicTitan);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_float_set_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirL");
-    Il2CppMethodInitialized_184346aad = '\x01';
+    Il2CppMethodInitialized_07547479 = '\x01';
   }
-  Controllers_BasePlayerController__Awake((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  Controllers_BasePlayerController__Awake((Controllers_BasePlayerController_o *)__this,method);
   pCVar4 = UnityEngine_Component__GetComponent_object_
                      ((UnityEngine_Component_o *)__this,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BasicTitan);
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_BasicTitan);
+  targetAddress = &(__this->fields)._titan;
   (__this->fields)._titan = pCVar4;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._titan,pCVar4);
+  Il2CppCodeGenWriteBarrier(targetAddress);
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->InputSettings;
   if (pSVar1 != (Settings_InputSettings_o *)0x0) {
-    value = (pSVar1->fields).Titan;
-    (__this->fields)._titanInput = value;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._titanInput,value);
+    (__this->fields)._titanInput = (pSVar1->fields).Titan;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._titanInput);
     pCVar4 = (__this->fields)._titan;
     if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
+      (pCVar4->fields).RunSpeedBase = 12.0;
+      (pCVar4->fields).WalkSpeedBase = 5.0;
+      (pCVar4->fields).RunSpeedPerLevel = 18.0;
+      (pCVar4->fields).WalkSpeedPerLevel = 1.0;
+      (pCVar4->fields).BellyFlopTime = 2.6;
+      (pCVar4->fields).AttackSpeedMultiplier = 1.2;
+      (pCVar4->fields).JumpForce = 200.0;
       (pCVar4->fields).RotateSpeed = 8.0;
-      pCVar4 = (__this->fields)._titan;
-      if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-        (pCVar4->fields).RunSpeedBase = 12.0;
-        pCVar4 = (__this->fields)._titan;
-        if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-          (pCVar4->fields).RunSpeedPerLevel = 18.0;
-          pCVar4 = (__this->fields)._titan;
-          if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-            (pCVar4->fields).WalkSpeedBase = 5.0;
-            pCVar4 = (__this->fields)._titan;
-            if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-              (pCVar4->fields).WalkSpeedPerLevel = 1.0;
-              pCVar4 = (__this->fields)._titan;
-              if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                (pCVar4->fields).BellyFlopTime = 2.6;
-                pCVar4 = (__this->fields)._titan;
-                if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                  (pCVar4->fields).AttackSpeedMultiplier = 1.2;
-                  pCVar4 = (__this->fields)._titan;
-                  if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                    (pCVar4->fields).JumpForce = 200.0;
-                    pCVar4 = (__this->fields)._titan;
-                    if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                      (pCVar4->fields).AttackPause = 0.1;
-                      pCVar4 = (__this->fields)._titan;
-                      if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                        (pCVar4->fields).ActionPause = 0.1;
-                        pCVar4 = (__this->fields)._titan;
-                        if (pCVar4 != (Characters_BasicTitan_o *)0x0) {
-                          (pCVar4->fields).RockThrow1Speed = 450.0;
-                          pCVar4 = (__this->fields)._titan;
-                          if (((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                              (pCVar2 = (pCVar4->fields).BasicCache,
-                              pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0)) &&
-                             (pCVar3 = (pCVar2->fields).HandLHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)
-                             ) {
-                            Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
-                            pCVar4 = (__this->fields)._titan;
-                            if (((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                                (pCVar2 = (pCVar4->fields).BasicCache,
-                                pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0)) &&
-                               (pCVar3 = (pCVar2->fields).HandRHitbox,
-                               pCVar3 != (Characters_BaseHitbox_o *)0x0)) {
-                              Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
-                              pCVar4 = (__this->fields)._titan;
-                              if (((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                                  (pCVar2 = (pCVar4->fields).BasicCache,
-                                  pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0)) &&
-                                 (pCVar3 = (pCVar2->fields).FootLHitbox,
-                                 pCVar3 != (Characters_BaseHitbox_o *)0x0)) {
-                                Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
-                                pCVar4 = (__this->fields)._titan;
-                                if (((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                                    (pCVar2 = (pCVar4->fields).BasicCache,
-                                    pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0)) &&
-                                   (pCVar3 = (pCVar2->fields).FootRHitbox,
-                                   pCVar3 != (Characters_BaseHitbox_o *)0x0)) {
-                                  Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
-                                  pCVar4 = (__this->fields)._titan;
-                                  if (((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                                      (pCVar2 = (pCVar4->fields).BasicCache,
-                                      pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0)) &&
-                                     (pCVar3 = (pCVar2->fields).MouthHitbox,
-                                     pCVar3 != (Characters_BaseHitbox_o *)0x0)) {
-                                    Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.2,(MethodInfo *)0x0);
-                                    pCVar4 = (__this->fields)._titan;
-                                    if ((pCVar4 != (Characters_BasicTitan_o *)0x0) &&
-                                       (__this_00 = (pCVar4->fields).AttackSpeeds,
-                                       __this_00 !=
-                                       (System_Collections_Generic_Dictionary_string__float__o *)0x0)) {
-                                      System_Collections_Generic_Dictionary_object__float___set_Item
-                                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)
-                                                 __this_00,(Il2CppObject *)"AttackGrabAirL",0.7,
-                                                 (MethodInfo_1488DA0 *)
-                                                 MethodInfo_System_Collections_Generic_Dictionary_string_float_set_Item
-                                                );
-                                      return;
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
+      (pCVar4->fields).ActionPause = 0.1;
+      (pCVar4->fields).AttackPause = 0.1;
+      (pCVar4->fields).RockThrow1Speed = 450.0;
+      pCVar2 = (pCVar4->fields).BasicCache;
+      if ((pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0) &&
+         (pCVar3 = (pCVar2->fields).HandLHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)) {
+        Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
+        if ((*targetAddress != (Characters_BasicTitan_o *)0x0) &&
+           ((pCVar2 = ((*targetAddress)->fields).BasicCache,
+            pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0 &&
+            (pCVar3 = (pCVar2->fields).HandRHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)))) {
+          Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
+          if ((*targetAddress != (Characters_BasicTitan_o *)0x0) &&
+             ((pCVar2 = ((*targetAddress)->fields).BasicCache,
+              pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0 &&
+              (pCVar3 = (pCVar2->fields).FootLHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)))) {
+            Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
+            if ((*targetAddress != (Characters_BasicTitan_o *)0x0) &&
+               ((pCVar2 = ((*targetAddress)->fields).BasicCache,
+                pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0 &&
+                (pCVar3 = (pCVar2->fields).FootRHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)))) {
+              Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.3,(MethodInfo *)0x0);
+              if ((*targetAddress != (Characters_BasicTitan_o *)0x0) &&
+                 ((pCVar2 = ((*targetAddress)->fields).BasicCache,
+                  pCVar2 != (Characters_BasicTitanComponentCache_o *)0x0 &&
+                  (pCVar3 = (pCVar2->fields).MouthHitbox, pCVar3 != (Characters_BaseHitbox_o *)0x0)))) {
+                Characters_BaseHitbox__ScaleSphereCollider(pCVar3,1.2,(MethodInfo *)0x0);
+                if ((*targetAddress != (Characters_BasicTitan_o *)0x0) &&
+                   (__this_00 = ((*targetAddress)->fields).AttackSpeeds,
+                   __this_00 != (System_Collections_Generic_Dictionary_string__float__o *)0x0)) {
+                  System_Collections_Generic_Dictionary_object__float___set_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                             (Il2CppObject *)"AttackGrabAirL",0.7,
+                             (MethodInfo_4AB5450 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_float_set_Item);
+                  return;
                 }
               }
             }
@@ -144,7 +100,7 @@ void Controllers_BasicTitanPlayerController__Awake
 
 // Controllers.BasicTitanPlayerController$$UpdateUI
 // il2cpp: void Controllers_BasicTitanPlayerController__UpdateUI (Controllers_BasicTitanPlayerController_o* __this, bool inMenu, const MethodInfo* method);
-// 0x1820fb100
+// 0x5ba4f90
 
 void Controllers_BasicTitanPlayerController__UpdateUI
                (Controllers_BasicTitanPlayerController_o *__this,bool inMenu,MethodInfo *method)
@@ -152,11 +108,11 @@ void Controllers_BasicTitanPlayerController__UpdateUI
 {
   System_String_o *text;
   
-  if (Il2CppMethodInitialized_184346aae == '\0') {
+  if (Il2CppMethodInitialized_0754747a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CursorManager);
-    Il2CppMethodInitialized_184346aae = '\x01';
+    Il2CppMethodInitialized_0754747a = '\x01';
   }
-  text = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  text = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   if ((TypeInfo_UI_CursorManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_CursorManager);
   }
@@ -168,91 +124,101 @@ void Controllers_BasicTitanPlayerController__UpdateUI
 
 // Controllers.BasicTitanPlayerController$$UpdateActionInput
 // il2cpp: void Controllers_BasicTitanPlayerController__UpdateActionInput (Controllers_BasicTitanPlayerController_o* __this, bool inMenu, const MethodInfo* method);
-// 0x1820fa370
-// eh: try 0x1820fa820..0x1820fb0e9 -> pad 0x183317fd0 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 47 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820fa971: lea rcx, [rsp + 0x38]
-// asm:   0x1820fa976: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
-// asm:   0x1820fa97b: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1820fa980: test rcx, rcx
-// asm:   0x1820fa983: jne 0x1820fb0e9
-// asm:   0x1820fa989: mov rdi, qword ptr [rsp + 0x90]
-// asm:   0x1820faba1: jmp 0x1820fafb8
-// asm:   0x1820fac04: jmp 0x1820fafb8
-// asm:   0x1820fac7f: mov rdx, qword ptr [rip + 0x1fbcbc2]  ; "AttackGrabHeadFrontR"
-// asm:   0x1820fac86: jmp 0x1820fafb8
-// asm:   0x1820facaa: mov rdx, qword ptr [rip + 0x1fbc8f7]  ; "AttackGrabHeadBackL"
-// asm:   0x1820facb1: jmp 0x1820fafb8
-// asm:   0x1820facb6: mov rdx, qword ptr [rip + 0x1fbc9cb]  ; "AttackGrabHeadBackR"
-// asm:   0x1820facbd: jmp 0x1820fafb8
-// asm:   0x1820fad38: mov rdx, qword ptr [rip + 0x1fbc6a9]  ; "AttackGrabGroundFrontR"
-// asm:   0x1820fad3f: jmp 0x1820fafb8
-// asm:   0x1820fad63: mov rdx, qword ptr [rip + 0x1fbc3de]  ; "AttackGrabGroundBackL"
-// asm:   0x1820fad6a: jmp 0x1820fafb8
-// asm:   0x1820fad6f: mov rdx, qword ptr [rip + 0x1fbc4b2]  ; "AttackGrabGroundBackR"
-// asm:   0x1820fad76: jmp 0x1820fafb8
-// asm:   0x1820fadd9: jmp 0x1820fafb8
-// asm:   0x1820fae54: mov rdx, qword ptr [rip + 0x1fbd0ed]  ; "AttackGrabStomachR"
-// asm:   0x1820fae5b: jmp 0x1820fafb8
-// asm:   0x1820fae7f: mov rdx, qword ptr [rip + 0x1fbba02]  ; "AttackGrabBackL"
-// asm:   0x1820fae86: jmp 0x1820fafb8
-// asm:   0x1820fae8b: mov rdx, qword ptr [rip + 0x1fbbad6]  ; "AttackGrabBackR"
-// asm:   0x1820fae92: jmp 0x1820fafb8
-// asm:   0x1820faef5: jmp 0x1820fafb8
-// asm:   0x1820faf58: jmp 0x1820fafb8
-// asm:   0x1820fb022: xor edx, edx
-// asm:   0x1820fb024: call 0x182185030  ; Characters_BasicTitan__CoverNape()
-// asm:   0x1820fb029: jmp 0x1820fafd5
-// asm:   0x1820fb0a2: xor edx, edx
-// asm:   0x1820fb0a4: call 0x182187fb0  ; Characters_BasicTitan__JumpImmediate()
-// asm:   0x1820fb0a9: jmp 0x1820fafd5
-// asm:   0x1820fb0e9: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317fd5: push rbp
-// asm:   0x183317fd6: sub rsp, 0x20
-// asm:   0x183317fda: mov rbp, rdx
-// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
-// asm:   0x183317fe1: mov rcx, qword ptr [rax]
-// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317fe8: movabs rax, 0
-// asm:   0x183317ff2: add rsp, 0x20
-// asm:   0x183317ff6: pop rbp
-// asm:   0x183317ff7: ret 
+// 0x5ba5000
+// eh: try 0x5ba563b..0x5ba574d -> pad 0x5ba5765 (+13 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x5ba5783..0x5ba5788 -> pad 0x5ba59a5 cleanup
+// eh: try 0x5ba59a8..0x5ba59b2 -> pad 0x5ba59ba catch (...) [compiler noexcept guard]
+// asm: 52 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5ba557e: lea rax, [rip + 0x172f9d3]  ; "AttackRockThrow"
+// asm:   0x5ba5585: mov rsi, qword ptr [rax]
+// asm:   0x5ba5588: mov rax, qword ptr [rdi]
+// asm:   0x5ba558b: mov rdx, qword ptr [rax + 0xaa0]
+// asm:   0x5ba5592: call qword ptr [rax + 0xa98]  ; vtable slot 150
+// asm:   0x5ba5598: movss xmm0, dword ptr [rbx + 0x6c]
+// asm:   0x5ba559d: movss dword ptr [rbx + 0x70], xmm0
+// asm:   0x5ba55a2: jmp 0x5ba50c9
+// asm:   0x5ba5613: lea r15, [rip + 0x16d3dde]  ; TypeInfo_System_Collections_IEnumerator
+// asm:   0x5ba561a: lea r13, [rip + 0x172f6cf]  ; "Attack"
+// asm:   0x5ba5621: lea r12, [rip + 0x16d4ce0]  ; TypeInfo_Settings_KeybindSetting
+// asm:   0x5ba5628: jmp 0x5ba5638
+// asm:   0x5ba562a: mov rdx, qword ptr [rsp + 8]
+// asm:   0x5ba562f: test rdx, rdx
+// asm:   0x5ba5632: je 0x5ba5722
+// asm:   0x5ba5713: lea rdi, [rsp + 0x28]
+// asm:   0x5ba5718: call 0x2fd8580  ; il2cpp_runtime_helper_02fd8580()
+// asm:   0x5ba571d: jmp 0x5ba50c9
+// asm:   0x5ba574d: jmp 0x5ba5767
+// asm:   0x5ba574f: jmp 0x5ba5767
+// asm:   0x5ba5751: jmp 0x5ba5767
+// asm:   0x5ba5753: jmp 0x5ba5767
+// asm:   0x5ba5755: jmp 0x5ba5767
+// asm:   0x5ba5757: jmp 0x5ba5767
+// asm:   0x5ba5759: jmp 0x5ba5767
+// asm:   0x5ba575b: jmp 0x5ba5767
+// asm:   0x5ba575d: jmp 0x5ba5767
+// asm:   0x5ba575f: jmp 0x5ba5767
+// asm:   0x5ba5761: jmp 0x5ba5767
+// asm:   0x5ba5763: jmp 0x5ba5767
+// asm:   0x5ba5765: jmp 0x5ba5767
+// asm:   0x5ba5767: mov r14, rax
+// asm:   0x5ba576a: cmp edx, 1
+// asm:   0x5ba576d: jne 0x5ba59a8
+// asm:   0x5ba5773: mov rdi, r14
+// asm:   0x5ba5776: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5ba577b: mov rax, qword ptr [rax]
+// asm:   0x5ba577e: mov qword ptr [rsp + 0x28], rax
+// asm:   0x5ba5783: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5ba5788: lea rdi, [rsp + 0x28]
+// asm:   0x5ba578d: call 0x2fd8580  ; il2cpp_runtime_helper_02fd8580()
+// asm:   0x5ba5991: mov rdi, rbp
+// asm:   0x5ba5994: xor esi, esi
+// asm:   0x5ba5996: call 0x5c32ff0  ; Characters_BasicTitan__JumpImmediate()
+// asm:   0x5ba599b: jmp 0x5ba50c9
+// asm:   0x5ba59a5: mov r14, rax
+// asm:   0x5ba59a8: lea rdi, [rsp + 0x28]
+// asm:   0x5ba59ad: call 0x2fd8580  ; il2cpp_runtime_helper_02fd8580()
+// asm:   0x5ba59b2: mov rdi, r14
+// asm:   0x5ba59b5: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5ba59ba: mov rdi, rax
+// asm:   0x5ba59bd: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Controllers_BasicTitanPlayerController__UpdateActionInput
                (Controllers_BasicTitanPlayerController_o *__this,bool inMenu,MethodInfo *method)
 
 {
   undefined4 uVar1;
-  undefined4 uVar2;
+  undefined8 uVar2;
   undefined4 uVar3;
-  undefined4 uVar4;
-  byte bVar5;
-  Settings_TitanInputSettings_o *pSVar6;
-  System_Collections_Specialized_OrderedDictionary_o *pSVar7;
-  UnityEngine_Vector3_StaticFields *pUVar8;
-  Utility_BaseComponentCache_o *pUVar9;
+  Settings_TitanInputSettings_o *pSVar4;
+  System_Collections_Specialized_OrderedDictionary_o *pSVar5;
+  UnityEngine_Vector3_StaticFields *pUVar6;
+  Utility_BaseComponentCache_o *pUVar7;
   UnityEngine_Transform_o *__this_00;
-  bool bVar10;
-  Il2CppObject *obj;
-  void *pvVar11;
-  System_String_o *pSVar12;
-  Settings_KeybindSetting_o *pSVar13;
-  UnityEngine_Vector3_o *pUVar14;
-  System_Single_array *pSVar15;
-  Characters_BasicTitan_c *pCVar16;
-  Characters_BasicTitan_o *pCVar17;
+  bool bVar8;
+  char cVar9;
+  System_String_o **ppSVar10;
+  System_Collections_ICollection_o *pSVar11;
   System_String_o *__this_01;
-  MethodInfo *pMVar18;
-  float fVar19;
-  float fVar20;
-  float fVar21;
-  Il2CppObject *local_res20;
-  Il2CppObject *local_68 [2];
-  undefined1 local_58 [16];
-  Il2CppObject **local_48;
+  Il2CppObject *obj;
+  Il2CppObject *pIVar12;
+  Settings_KeybindSetting_o *pSVar13;
+  MethodInfo *method_00;
+  Characters_BasicTitan_o *pCVar14;
+  MethodInfo *pMVar15;
+  float fVar16;
+  float extraout_XMM0_Db;
+  undefined1 auVar17 [16];
+  undefined1 auVar18 [16];
+  UnityEngine_Vector3_o UVar19;
+  long lStack_70;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_50;
+  long *plStack_48;
+  undefined8 *puStack_40;
+  undefined8 uStack_38;
   
-  if (Il2CppMethodInitialized_184346aaf == '\0') {
+  if (Il2CppMethodInitialized_0754747b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
@@ -261,443 +227,316 @@ void Controllers_BasicTitanPlayerController__UpdateActionInput
     il2cpp_codegen_initialize_runtime_metadata(&"Attack");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackRockThrow");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackKick");
-    Il2CppMethodInitialized_184346aaf = '\x01';
+    Il2CppMethodInitialized_0754747b = '\x01';
   }
-  local_res20 = (Il2CppObject *)0x0;
-  local_68[0] = (Il2CppObject *)0x0;
-  fVar20 = (__this->fields)._rockCooldownLeft;
-  fVar19 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._rockCooldownLeft = fVar20 - fVar19;
+  lStack_70 = 0;
+  uStack_38 = 0;
+  uStack_68 = CONCAT44(uStack_68._4_4_,(__this->fields)._rockCooldownLeft);
+  fVar16 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  (__this->fields)._rockCooldownLeft = (float)uStack_68 - fVar16;
   Controllers_BasePlayerController__UpdateActionInput
-            ((Controllers_BasePlayerController_o *)__this,inMenu,(MethodInfo *)0x0);
+            ((Controllers_BasePlayerController_o *)__this,inMenu,method_00);
   if (inMenu) {
     return;
   }
-  pSVar6 = (__this->fields)._titanInput;
-  if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-     (pSVar13 = (pSVar6->fields).Walk, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-    pCVar17 = (__this->fields)._titan;
-    bVar10 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
-    if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-      (pCVar17->fields).IsWalk = bVar10;
-      pSVar6 = (__this->fields)._titanInput;
-      if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-         (pSVar13 = (pSVar6->fields).Sit, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-        pCVar17 = (__this->fields)._titan;
-        bVar10 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
-        if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-          (pCVar17->fields).IsSit = bVar10;
-          pSVar6 = (__this->fields)._titanInput;
-          if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-             (pSVar13 = (pSVar6->fields).Sprint, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-            pCVar17 = (__this->fields)._titan;
-            bVar10 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
-            if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-              (pCVar17->fields).IsSprint = bVar10;
-              fVar20 = (__this->fields)._enemyTimeLeft;
-              fVar19 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-              (__this->fields)._enemyTimeLeft = fVar20 - fVar19;
-              pSVar6 = (__this->fields)._titanInput;
-              if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-                 (pSVar13 = (pSVar6->fields).CoverNape1, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-                bVar10 = Settings_KeybindSetting__GetKeyUp(pSVar13,false,(MethodInfo *)0x0);
-                if (bVar10) {
-                  pCVar17 = (__this->fields)._titan;
-                  if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                  Characters_BasicTitan__UncoverNape(pCVar17,(MethodInfo *)0x0);
+  pSVar4 = (__this->fields)._titanInput;
+  if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+     (pSVar13 = (pSVar4->fields).Walk, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+    pCVar14 = (__this->fields)._titan;
+    bVar8 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
+    if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+      (pCVar14->fields).IsWalk = bVar8;
+      pSVar4 = (__this->fields)._titanInput;
+      if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+         (pSVar13 = (pSVar4->fields).Sit, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+        pCVar14 = (__this->fields)._titan;
+        bVar8 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
+        if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+          (pCVar14->fields).IsSit = bVar8;
+          pSVar4 = (__this->fields)._titanInput;
+          if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+             (pSVar13 = (pSVar4->fields).Sprint, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+            pCVar14 = (__this->fields)._titan;
+            bVar8 = Settings_KeybindSetting__GetKey(pSVar13,false,(MethodInfo *)0x0);
+            if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+              (pCVar14->fields).IsSprint = bVar8;
+              uStack_68 = CONCAT44(uStack_68._4_4_,(__this->fields)._enemyTimeLeft);
+              fVar16 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+              (__this->fields)._enemyTimeLeft = (float)uStack_68 - fVar16;
+              pSVar4 = (__this->fields)._titanInput;
+              if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                 (pSVar13 = (pSVar4->fields).CoverNape1, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                bVar8 = Settings_KeybindSetting__GetKeyUp(pSVar13,false,(MethodInfo *)0x0);
+                if (bVar8) {
+                  pCVar14 = (__this->fields)._titan;
+                  if (pCVar14 == (Characters_BasicTitan_o *)0x0) goto label_05ba59a0;
+                  Characters_BasicTitan__UncoverNape(pCVar14,(MethodInfo *)0x0);
                 }
-                pCVar17 = (__this->fields)._titan;
-                if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                  bVar10 = (*(pCVar17->klass->vtable)._145_CanAction.methodPtr)
-                                     (pCVar17,(pCVar17->klass->vtable)._145_CanAction.method);
-                  if (bVar10) {
-                    pSVar6 = (__this->fields)._titanInput;
-                    if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                       (pSVar13 = (pSVar6->fields).Jump, pSVar13 == (Settings_KeybindSetting_o *)0x0))
-                    goto label_1820fb0ae;
-                    bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                    if (bVar10) {
-                      pCVar17 = (__this->fields)._titan;
-                      if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                      (pCVar17->fields).JumpForce = 200.0;
-                      pCVar17 = (__this->fields)._titan;
-                      if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                      pCVar16 = pCVar17->klass;
-                      pMVar18 = (pCVar16->vtable)._150_Attack.method;
-                      pSVar12 = "AttackJump";
-                    }
-                    else {
-                      pSVar6 = (__this->fields)._titanInput;
-                      if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                         (pSVar13 = (pSVar6->fields).CoverNape1, pSVar13 == (Settings_KeybindSetting_o *)0x0))
-                      goto label_1820fb0ae;
-                      bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                      if (bVar10) {
-                        pCVar17 = (__this->fields)._titan;
-                        if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                          Characters_BasicTitan__CoverNape(pCVar17,(MethodInfo *)0x0);
+                pCVar14 = (__this->fields)._titan;
+                if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                  bVar8 = (*(pCVar14->klass->vtable)._145_CanAction.methodPtr)
+                                    (pCVar14,(pCVar14->klass->vtable)._145_CanAction.method);
+                  if (bVar8) {
+                    pSVar4 = (__this->fields)._titanInput;
+                    if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                       (pSVar13 = (pSVar4->fields).Jump, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                      bVar8 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
+                      if (bVar8) {
+                        pCVar14 = (__this->fields)._titan;
+                        if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                          (pCVar14->fields).JumpForce = 200.0;
+                          ppSVar10 = &"AttackJump";
+label_05ba5240:
+                          (*(pCVar14->klass->vtable)._150_Attack.methodPtr)
+                                    (pCVar14,*ppSVar10,(pCVar14->klass->vtable)._150_Attack.method);
                           return;
                         }
-                        goto label_1820fb0ae;
-                      }
-                      pSVar6 = (__this->fields)._titanInput;
-                      if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                         (pSVar13 = (pSVar6->fields).Kick, pSVar13 == (Settings_KeybindSetting_o *)0x0))
-                      goto label_1820fb0ae;
-                      bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                      if (bVar10) {
-                        pCVar17 = (__this->fields)._titan;
-                        if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                        pCVar16 = pCVar17->klass;
-                        pMVar18 = (pCVar16->vtable)._150_Attack.method;
-                        pSVar12 = "AttackKick";
                       }
                       else {
-                        pSVar6 = (__this->fields)._titanInput;
-                        if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                           (pSVar13 = (pSVar6->fields).AttackSwing,
-                           pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                        bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                        if (bVar10) {
-                          if (Il2CppMethodInitialized_184346ab0 == '\0') {
-                            il2cpp_codegen_initialize_runtime_metadata(&"AttackSwingL");
-                            il2cpp_codegen_initialize_runtime_metadata(&"AttackSwingR");
-                            Il2CppMethodInitialized_184346ab0 = '\x01';
-                          }
-                          pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                              ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0)
-                          ;
-                          if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                          if ((int)pSVar15->max_length == 0) {
-label_1820fb0ef:
-                            ThrowIndexOutOfRangeException();
-                          }
-                          pSVar12 = "AttackSwingL";
-                          if (pSVar15->m_Items[0] <= 0.0) {
-                            pSVar12 = "AttackSwingR";
-                          }
-                        }
-                        else {
-                          pSVar6 = (__this->fields)._titanInput;
-                          if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                             (pSVar13 = (pSVar6->fields).AttackGrabAirFar,
-                             pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                          bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                          if (bVar10) {
-                            if (Il2CppMethodInitialized_184346ab1 == '\0') {
-                              il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirFarL");
-                              il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirFarR");
-                              Il2CppMethodInitialized_184346ab1 = '\x01';
-                            }
-                            pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                ((Controllers_BasePlayerController_o *)__this,
-                                                 (MethodInfo *)0x0);
-                            if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                            if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                            pSVar12 = "AttackGrabAirFarR";
-                            if (pSVar15->m_Items[0] <= 0.0) {
-                              pSVar12 = "AttackGrabAirFarL";
+                        pSVar4 = (__this->fields)._titanInput;
+                        if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                           (pSVar13 = (pSVar4->fields).CoverNape1, pSVar13 != (Settings_KeybindSetting_o *)0x0
+                           )) {
+                          bVar8 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
+                          if (bVar8) {
+                            pCVar14 = (__this->fields)._titan;
+                            if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                              Characters_BasicTitan__CoverNape(pCVar14,(MethodInfo *)0x0);
+                              return;
                             }
                           }
                           else {
-                            pSVar6 = (__this->fields)._titanInput;
-                            if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                               (pSVar13 = (pSVar6->fields).AttackGrabAir,
-                               pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                            bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                            if (bVar10) {
-                              if (Il2CppMethodInitialized_184346ab2 == '\0') {
-                                il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirL");
-                                il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirR");
-                                Il2CppMethodInitialized_184346ab2 = '\x01';
-                              }
-                              pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                  ((Controllers_BasePlayerController_o *)__this,
-                                                   (MethodInfo *)0x0);
-                              if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                              if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                              pSVar12 = "AttackGrabAirR";
-                              if (pSVar15->m_Items[0] <= 0.0) {
-                                pSVar12 = "AttackGrabAirL";
-                              }
-                            }
-                            else {
-                              pSVar6 = (__this->fields)._titanInput;
-                              if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                 (pSVar13 = (pSVar6->fields).AttackGrabBody,
-                                 pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                              bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                              if (bVar10) {
-                                if (Il2CppMethodInitialized_184346ab3 == '\0') {
-                                  il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabStomachL");
-                                  il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabStomachR");
-                                  il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBackR");
-                                  il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBackL");
-                                  Il2CppMethodInitialized_184346ab3 = '\x01';
-                                }
-                                pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                    ((Controllers_BasePlayerController_o *)__this,
-                                                     (MethodInfo *)0x0);
-                                if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                fVar20 = pSVar15->m_Items[0];
-                                if ((((fVar20 <= 0.0) || (pSVar12 = "AttackGrabStomachR", 90.0 < fVar20)) &&
-                                    (pSVar12 = "AttackGrabBackR", fVar20 <= 90.0)) &&
-                                   ((pSVar12 = "AttackGrabBackL", fVar20 < 0.0 && (-90.0 <= fVar20)))) {
-                                  pSVar12 = "AttackGrabStomachL";
+                            pSVar4 = (__this->fields)._titanInput;
+                            if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                               (pSVar13 = (pSVar4->fields).Kick, pSVar13 != (Settings_KeybindSetting_o *)0x0))
+                            {
+                              bVar8 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
+                              if (bVar8) {
+                                pCVar14 = (__this->fields)._titan;
+                                if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                                  ppSVar10 = &"AttackKick";
+                                  goto label_05ba5240;
                                 }
                               }
                               else {
-                                pSVar6 = (__this->fields)._titanInput;
-                                if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                   (pSVar13 = (pSVar6->fields).AttackGrabCore,
-                                   pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                                bVar10 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0);
-                                if (bVar10) {
-                                  if (Il2CppMethodInitialized_184346ab4 == '\0') {
-                                    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabCoreR");
-                                    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabCoreL");
-                                    Il2CppMethodInitialized_184346ab4 = '\x01';
+                                pSVar4 = (__this->fields)._titanInput;
+                                if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                   (pSVar13 = (pSVar4->fields).AttackSwing,
+                                   pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                  pMVar15 = (MethodInfo *)0x0;
+                                  bVar8 = Settings_KeybindSetting__GetKeyDown(pSVar13,false,(MethodInfo *)0x0)
+                                  ;
+                                  if (bVar8) {
+                                    Controllers_BasicTitanPlayerController__AttackSwing(__this,pMVar15);
+                                    return;
                                   }
-                                  pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                      ((Controllers_BasePlayerController_o *)__this,
-                                                       (MethodInfo *)0x0);
-                                  if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                  if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                  pSVar12 = "AttackGrabCoreR";
-                                  if (pSVar15->m_Items[0] <= 0.0) {
-                                    pSVar12 = "AttackGrabCoreL";
-                                  }
-                                }
-                                else {
-                                  pSVar6 = (__this->fields)._titanInput;
-                                  if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                     (pSVar13 = (pSVar6->fields).AttackGrabGround,
-                                     pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                                  bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                     (pSVar13,false,(MethodInfo *)0x0);
-                                  if (bVar10) {
-                                    if (Il2CppMethodInitialized_184346ab5 == '\0') {
-                                      il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundBackL");
-                                      il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundFrontL");
-                                      il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundFrontR");
-                                      il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundBackR");
-                                      Il2CppMethodInitialized_184346ab5 = '\x01';
+                                  pSVar4 = (__this->fields)._titanInput;
+                                  if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                     (pSVar13 = (pSVar4->fields).AttackGrabAirFar,
+                                     pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                    pMVar15 = (MethodInfo *)0x0;
+                                    bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                      (pSVar13,false,(MethodInfo *)0x0);
+                                    if (bVar8) {
+                                      Controllers_BasicTitanPlayerController__AttackGrabAirFar(__this,pMVar15)
+                                      ;
+                                      return;
                                     }
-                                    pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                        ((Controllers_BasePlayerController_o *)__this,
-                                                         (MethodInfo *)0x0);
-                                    if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                    if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                    fVar20 = pSVar15->m_Items[0];
-                                    if ((((fVar20 <= 0.0) || (pSVar12 = "AttackGrabGroundFrontR", 90.0 < fVar20))
-                                        && (pSVar12 = "AttackGrabGroundBackR", fVar20 <= 90.0)) &&
-                                       ((pSVar12 = "AttackGrabGroundBackL", fVar20 < 0.0 && (-90.0 <= fVar20))))
-                                    {
-                                      pSVar12 = "AttackGrabGroundFrontL";
-                                    }
-                                  }
-                                  else {
-                                    pSVar6 = (__this->fields)._titanInput;
-                                    if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                       (pSVar13 = (pSVar6->fields).AttackGrabHead,
-                                       pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                                    bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                       (pSVar13,false,(MethodInfo *)0x0);
-                                    if (bVar10) {
-                                      if (Il2CppMethodInitialized_184346ab6 == '\0') {
-                                        il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadBackL");
-                                        il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadBackR");
-                                        il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadFrontL");
-                                        il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadFrontR");
-                                        Il2CppMethodInitialized_184346ab6 = '\x01';
+                                    pSVar4 = (__this->fields)._titanInput;
+                                    if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                       (pSVar13 = (pSVar4->fields).AttackGrabAir,
+                                       pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                      pMVar15 = (MethodInfo *)0x0;
+                                      bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                        (pSVar13,false,(MethodInfo *)0x0);
+                                      if (bVar8) {
+                                        Controllers_BasicTitanPlayerController__AttackGrabAir(__this,pMVar15);
+                                        return;
                                       }
-                                      pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                          ((Controllers_BasePlayerController_o *)__this,
-                                                           (MethodInfo *)0x0);
-                                      if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                      if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                      fVar20 = pSVar15->m_Items[0];
-                                      if ((((fVar20 <= 0.0) ||
-                                           (pSVar12 = "AttackGrabHeadFrontR", 90.0 < fVar20)) &&
-                                          (pSVar12 = "AttackGrabHeadBackR", fVar20 <= 90.0)) &&
-                                         ((pSVar12 = "AttackGrabHeadBackL", fVar20 < 0.0 && (-90.0 <= fVar20))
-                                         )) {
-                                        pSVar12 = "AttackGrabHeadFrontL";
-                                      }
-                                    }
-                                    else {
-                                      pSVar6 = (__this->fields)._titanInput;
-                                      if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                         (pSVar13 = (pSVar6->fields).AttackGrabHigh,
-                                         pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                                      bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                         (pSVar13,false,(MethodInfo *)0x0);
-                                      if (bVar10) {
-                                        if (Il2CppMethodInitialized_184346ab7 == '\0') {
-                                          il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHighR");
-                                          il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHighL");
-                                          Il2CppMethodInitialized_184346ab7 = '\x01';
+                                      pSVar4 = (__this->fields)._titanInput;
+                                      if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                         (pSVar13 = (pSVar4->fields).AttackGrabBody,
+                                         pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                        pMVar15 = (MethodInfo *)0x0;
+                                        bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                          (pSVar13,false,(MethodInfo *)0x0);
+                                        if (bVar8) {
+                                          Controllers_BasicTitanPlayerController__AttackGrabBody
+                                                    (__this,pMVar15);
+                                          return;
                                         }
-                                        pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                            ((Controllers_BasePlayerController_o *)__this,
-                                                             (MethodInfo *)0x0);
-                                        if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                        if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                        pSVar12 = "AttackGrabHighR";
-                                        if (pSVar15->m_Items[0] <= 0.0) {
-                                          pSVar12 = "AttackGrabHighL";
-                                        }
-                                      }
-                                      else {
-                                        pSVar6 = (__this->fields)._titanInput;
-                                        if ((pSVar6 == (Settings_TitanInputSettings_o *)0x0) ||
-                                           (pSVar13 = (pSVar6->fields).AttackBrushChest,
-                                           pSVar13 == (Settings_KeybindSetting_o *)0x0)) goto label_1820fb0ae;
-                                        bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                           (pSVar13,false,(MethodInfo *)0x0);
-                                        if (!bVar10) {
-                                          pSVar6 = (__this->fields)._titanInput;
-                                          if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-                                             (pSVar13 = (pSVar6->fields).AttackRockThrow,
+                                        pSVar4 = (__this->fields)._titanInput;
+                                        if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                           (pSVar13 = (pSVar4->fields).AttackGrabCore,
+                                           pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                          pMVar15 = (MethodInfo *)0x0;
+                                          bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                            (pSVar13,false,(MethodInfo *)0x0);
+                                          if (bVar8) {
+                                            Controllers_BasicTitanPlayerController__AttackGrabCore
+                                                      (__this,pMVar15);
+                                            return;
+                                          }
+                                          pSVar4 = (__this->fields)._titanInput;
+                                          if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                             (pSVar13 = (pSVar4->fields).AttackGrabGround,
                                              pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-                                            bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                               (pSVar13,false,(MethodInfo *)0x0);
-                                            if (bVar10) {
-                                              if (0.0 < (__this->fields)._rockCooldownLeft) {
+                                            pMVar15 = (MethodInfo *)0x0;
+                                            bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                              (pSVar13,false,(MethodInfo *)0x0);
+                                            if (bVar8) {
+                                              Controllers_BasicTitanPlayerController__AttackGrabGround
+                                                        (__this,pMVar15);
+                                              return;
+                                            }
+                                            pSVar4 = (__this->fields)._titanInput;
+                                            if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                               (pSVar13 = (pSVar4->fields).AttackGrabHead,
+                                               pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                              pMVar15 = (MethodInfo *)0x0;
+                                              bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                                (pSVar13,false,(MethodInfo *)0x0);
+                                              if (bVar8) {
+                                                Controllers_BasicTitanPlayerController__AttackGrabHead
+                                                          (__this,pMVar15);
                                                 return;
                                               }
-                                              pCVar17 = (__this->fields)._titan;
-                                              if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                                                if ((pCVar17->fields).Grounded == false) {
+                                              pSVar4 = (__this->fields)._titanInput;
+                                              if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                                 (pSVar13 = (pSVar4->fields).AttackGrabHigh,
+                                                 pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                                pMVar15 = (MethodInfo *)0x0;
+                                                bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                                  (pSVar13,false,(MethodInfo *)0x0);
+                                                if (bVar8) {
+                                                  Controllers_BasicTitanPlayerController__AttackGrabHigh
+                                                            (__this,pMVar15);
                                                   return;
                                                 }
-                                                (*(pCVar17->klass->vtable)._150_Attack.methodPtr)
-                                                          (pCVar17,"AttackRockThrow",
-                                                           (pCVar17->klass->vtable)._150_Attack.method);
-                                                (__this->fields)._rockCooldownLeft =
-                                                     (__this->fields).RockCooldown;
-                                                return;
-                                              }
-                                            }
-                                            else {
-                                              pSVar6 = (__this->fields)._titanInput;
-                                              if (((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-                                                  (pSVar7 = (pSVar6->fields).Settings,
-                                                  pSVar7 != (
-                                                       System_Collections_Specialized_OrderedDictionary_o *)
-                                                       0x0)) &&
-                                                 (obj = (Il2CppObject *)
-                                                                                                                
-                                                       System_Collections_Specialized_OrderedDictionary__get_Keys
-                                                                 (pSVar7,(MethodInfo *)0x0),
-                                                 obj != (Il2CppObject *)0x0)) {
-                                                local_res20 = InterfaceInvoker0_Invoke
-                                                                        (0,(Il2CppClass *)
-                                                                                                                                                      
-                                                       TypeInfo_System_Collections_IEnumerable,obj);
-                                                local_58._0_4_ = 0.0;
-                                                local_58._4_4_ = 0.0;
-                                                local_58._8_8_ = &local_res20;
-                                                local_48 = local_68;
-                                                while( true ) {
-                                                  do {
-                                                    if (local_res20 == (Il2CppObject *)0x0) {
-                                                      ThrowNullReferenceException();
-                                                    }
-                                                    pvVar11 = InterfaceInvoker0_Invoke
-                                                                        (0,(Il2CppClass *)
-                                                                                                                                                      
-                                                       TypeInfo_System_Collections_IEnumerator,local_res20);
-                                                    if ((char)pvVar11 == '\0') {
-                                                      local_68[0] = il2cpp_vm_Object_IsInst
-                                                                              (local_res20,
-                                                                               (Il2CppClass *)
-                                                                               TypeInfo_System_IDisposable);
-                                                      if (local_68[0] == (Il2CppObject *)0x0) {
+                                                pSVar4 = (__this->fields)._titanInput;
+                                                if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                                   (pSVar13 = (pSVar4->fields).AttackBrushChest,
+                                                   pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                                  pMVar15 = (MethodInfo *)0x0;
+                                                  bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                                    (pSVar13,false,(MethodInfo *)0x0);
+                                                  if (bVar8) {
+                                                    Controllers_BasicTitanPlayerController__AttackBrushChest
+                                                              (__this,pMVar15);
+                                                    return;
+                                                  }
+                                                  pSVar4 = (__this->fields)._titanInput;
+                                                  if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                                     (pSVar13 = (pSVar4->fields).AttackRockThrow,
+                                                     pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                                                    bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                                      (pSVar13,false,(MethodInfo *)0x0);
+                                                    if (bVar8) {
+                                                      if (0.0 < (__this->fields)._rockCooldownLeft) {
                                                         return;
                                                       }
-                                                      InterfaceInvoker0_Invoke
-                                                                (0,(Il2CppClass *)TypeInfo_System_IDisposable,
-                                                                 local_68[0]);
-                                                      return;
+                                                      pCVar14 = (__this->fields)._titan;
+                                                      if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                                                        if ((pCVar14->fields).Grounded == false) {
+                                                          return;
+                                                        }
+                                                        (*(pCVar14->klass->vtable)._150_Attack.methodPtr)
+                                                                  (pCVar14,"AttackRockThrow",
+                                                                   (pCVar14->klass->vtable)._150_Attack.method
+                                                                  );
+                                                        (__this->fields)._rockCooldownLeft =
+                                                             (__this->fields).RockCooldown;
+                                                        return;
+                                                      }
                                                     }
-                                                    if (local_res20 == (Il2CppObject *)0x0) {
-                                                      ThrowNullReferenceException();
-                                                    }
-                                                    pSVar12 = InterfaceInvoker0_Invoke
-                                                                        (1,(Il2CppClass *)
-                                                                                                                                                      
-                                                       TypeInfo_System_Collections_IEnumerator,local_res20);
-                                                    if (pSVar12 == (System_String_o *)0x0) {
-                                                      ThrowNullReferenceException();
-                                                    }
-                                                    __this_01 = (System_String_o *)0x0;
-                                                    if (pSVar12->klass == g_data_184354e50) {
-                                                      __this_01 = pSVar12;
-                                                    }
-                                                    if (__this_01 == (System_String_o *)0x0) {
-                                                      il2cpp_codegen_raise_invalid_cast_exception(pSVar12);
-                                                    }
-                                                    bVar10 = System_String__StartsWith
-                                                                       (__this_01,"Attack",
-                                                                        (MethodInfo *)0x0);
-                                                  } while (!bVar10);
-                                                  pSVar6 = (__this->fields)._titanInput;
-                                                  if (pSVar6 == (Settings_TitanInputSettings_o *)0x0) {
-                                                    ThrowNullReferenceException();
-                                                  }
-                                                  pSVar7 = (pSVar6->fields).Settings;
-                                                  if (pSVar7 == (
+                                                    else {
+                                                      pSVar4 = (__this->fields)._titanInput;
+                                                      if (((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                                                          (pSVar5 = (pSVar4->fields).Settings,
+                                                          pSVar5 != (
+                                                       System_Collections_Specialized_OrderedDictionary_o *)
+                                                       0x0)) && (pSVar11 = 
+                                                       System_Collections_Specialized_OrderedDictionary__get_Keys
+                                                                 (pSVar5,(MethodInfo *)0x0),
+                                                       pSVar11 != (System_Collections_ICollection_o *)0x0)) {
+                                                        lStack_70 = il2cpp_runtime_helper_02ad5a70(0,
+                                                       TypeInfo_System_Collections_IEnumerable,pSVar11);
+                                                       uStack_50 = 0;
+                                                       plStack_48 = &lStack_70;
+                                                       puStack_40 = &uStack_38;
+                                                       while( true ) {
+                                                         if (lStack_70 == 0) {
+                                                           ThrowNullReferenceException();
+                                                         }
+                                                         cVar9 = il2cpp_runtime_helper_02ad5af0(0,
+                                                       TypeInfo_System_Collections_IEnumerator);
+                                                       if (cVar9 == '\0') {
+                                                         il2cpp_runtime_helper_02fd8580(&uStack_50);
+                                                         return;
+                                                       }
+                                                       if (lStack_70 == 0) {
+                                                         ThrowNullReferenceException();
+                                                       }
+                                                       __this_01 = (System_String_o *)
+                                                                   il2cpp_runtime_helper_02ad5a70(1,
+                                                       TypeInfo_System_Collections_IEnumerator);
+                                                       if (__this_01 == (System_String_o *)0x0) break;
+                                                       if (__this_01->klass != g_data_07556758) {
+                                                         il2cpp_codegen_raise_invalid_cast_exception
+                                                                   (__this_01);
+                                                       }
+                                                       bVar8 = System_String__StartsWith
+                                                                         (__this_01,"Attack",
+                                                                          (MethodInfo *)0x0);
+                                                       if (bVar8) {
+                                                         pSVar4 = (__this->fields)._titanInput;
+                                                         if (pSVar4 == (Settings_TitanInputSettings_o *)0x0) {
+                                                           ThrowNullReferenceException();
+                                                         }
+                                                         pSVar5 = (pSVar4->fields).Settings;
+                                                         if (pSVar5 == (
                                                        System_Collections_Specialized_OrderedDictionary_o *)
                                                        0x0) {
-                                                    ThrowNullReferenceException();
-                                                  }
-                                                  pSVar13 = (Settings_KeybindSetting_o *)
-                                                                                                                        
+                                                         ThrowNullReferenceException();
+                                                       }
+                                                       obj = 
                                                        System_Collections_Specialized_OrderedDictionary__get_Item
-                                                                 (pSVar7,(Il2CppObject *)__this_01,
+                                                                 (pSVar5,(Il2CppObject *)__this_01,
                                                                   (MethodInfo *)0x0);
-                                                  if (pSVar13 == (Settings_KeybindSetting_o *)0x0) {
-                                                    ThrowNullReferenceException();
-                                                  }
-                                                  bVar5 = (TypeInfo_Settings_KeybindSetting->_2).
-                                                          typeHierarchyDepth;
-                                                  if (((pSVar13->klass->_2).typeHierarchyDepth < bVar5) ||
-                                                     ((pSVar13->klass->_2).typeHierarchy[(ulonglong)bVar5 - 1]
-                                                      != (Il2CppClass *)TypeInfo_Settings_KeybindSetting))
-                                                  break;
-                                                  bVar10 = Settings_KeybindSetting__GetKeyDown
-                                                                     (pSVar13,false,(MethodInfo *)0x0);
-                                                  if (bVar10) {
-                                                    pCVar17 = (__this->fields)._titan;
-                                                    if (pCVar17 == (Characters_BasicTitan_o *)0x0) {
-                                                      ThrowNullReferenceException();
+                                                       pIVar12 = il2cpp_codegen_is_inst_class
+                                                                           (obj,(Il2CppClass *)
+                                                                                                                                                                
+                                                       TypeInfo_Settings_KeybindSetting);
+                                                       if (pIVar12 == (Il2CppObject *)0x0) {
+                                                         ThrowNullReferenceException();
+                                                       }
+                                                       pSVar13 = (Settings_KeybindSetting_o *)
+                                                                 il2cpp_codegen_is_inst_class
+                                                                           (obj,(Il2CppClass *)
+                                                                                                                                                                
+                                                       TypeInfo_Settings_KeybindSetting);
+                                                       bVar8 = Settings_KeybindSetting__GetKeyDown
+                                                                         (pSVar13,false,(MethodInfo *)0x0);
+                                                       if (bVar8) {
+                                                         pCVar14 = (__this->fields)._titan;
+                                                         if (pCVar14 == (Characters_BasicTitan_o *)0x0) {
+                                                           ThrowNullReferenceException();
+                                                         }
+                                                         (*(pCVar14->klass->vtable)._150_Attack.methodPtr)
+                                                                   (pCVar14,__this_01,
+                                                                    (pCVar14->klass->vtable)._150_Attack.
+                                                                    method);
+                                                       }
+                                                       }
+                                                       }
+                                                       ThrowNullReferenceException();
+                                                      }
                                                     }
-                                                    (*(pCVar17->klass->vtable)._150_Attack.methodPtr)
-                                                              (pCVar17,__this_01,
-                                                               (pCVar17->klass->vtable)._150_Attack.method);
                                                   }
                                                 }
-                                                il2cpp_codegen_raise_invalid_cast_exception(pSVar13);
                                               }
                                             }
                                           }
-                                          goto label_1820fb0ae;
-                                        }
-                                        if (Il2CppMethodInitialized_184346ab8 == '\0') {
-                                          il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushChestL");
-                                          il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushChestR");
-                                          Il2CppMethodInitialized_184346ab8 = '\x01';
-                                        }
-                                        pSVar15 = Controllers_BasePlayerController__GetAimAngles
-                                                            ((Controllers_BasePlayerController_o *)__this,
-                                                             (MethodInfo *)0x0);
-                                        if (pSVar15 == (System_Single_array *)0x0) goto label_1820fb0ae;
-                                        if ((int)pSVar15->max_length == 0) goto label_1820fb0ef;
-                                        pSVar12 = "AttackBrushChestL";
-                                        if (pSVar15->m_Items[0] <= 0.0) {
-                                          pSVar12 = "AttackBrushChestR";
                                         }
                                       }
                                     }
@@ -707,89 +546,111 @@ label_1820fb0ef:
                             }
                           }
                         }
-                        pCVar17 = (__this->fields)._titan;
-                        if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                        pCVar16 = pCVar17->klass;
-                        pMVar18 = (pCVar16->vtable)._150_Attack.method;
                       }
                     }
-                    (*(pCVar16->vtable)._150_Attack.methodPtr)(pCVar17,pSVar12,pMVar18);
                   }
                   else {
-                    pCVar17 = (__this->fields)._titan;
-                    if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                    if ((pCVar17->fields).State == 4) {
-                      pSVar6 = (__this->fields)._titanInput;
-                      if ((pSVar6 != (Settings_TitanInputSettings_o *)0x0) &&
-                         (pSVar13 = (pSVar6->fields).Jump, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
-                        bVar10 = Settings_KeybindSetting__GetKeyUp(pSVar13,false,(MethodInfo *)0x0);
-                        if (!bVar10) {
+                    pCVar14 = (__this->fields)._titan;
+                    if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                      if ((pCVar14->fields).State != 4) {
+                        return;
+                      }
+                      pSVar4 = (__this->fields)._titanInput;
+                      if ((pSVar4 != (Settings_TitanInputSettings_o *)0x0) &&
+                         (pSVar13 = (pSVar4->fields).Jump, pSVar13 != (Settings_KeybindSetting_o *)0x0)) {
+                        bVar8 = Settings_KeybindSetting__GetKeyUp(pSVar13,false,(MethodInfo *)0x0);
+                        if (!bVar8) {
                           return;
                         }
-                        pCVar17 = (__this->fields)._titan;
-                        if (Il2CppMethodInitialized_18433de5c == '\0') {
+                        pCVar14 = (__this->fields)._titan;
+                        if (Il2CppMethodInitialized_0753e72c == '\0') {
                           il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-                          Il2CppMethodInitialized_18433de5c = '\x01';
+                          Il2CppMethodInitialized_0753e72c = '\x01';
                         }
-                        if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                          pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
-                          fVar20 = (pUVar8->upVector).fields.z;
-                          fVar19 = (pUVar8->upVector).fields.y;
-                          (pCVar17->fields)._jumpDirection.fields.x = (pUVar8->upVector).fields.x;
-                          (pCVar17->fields)._jumpDirection.fields.y = fVar19;
-                          (pCVar17->fields)._jumpDirection.fields.z = fVar20;
-                          pCVar17 = (__this->fields)._titan;
-                          if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                            (pCVar17->fields).JumpForce = 120.0;
-                            pCVar17 = (__this->fields)._titan;
-                            if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                              if ((pCVar17->fields).HasDirection != false) {
-                                pUVar9 = (pCVar17->fields).Cache;
-                                if ((pUVar9 == (Utility_BaseComponentCache_o *)0x0) ||
-                                   (__this_00 = (pUVar9->fields).Transform,
-                                   __this_00 == (UnityEngine_Transform_o *)0x0)) goto label_1820fb0ae;
-                                uVar1 = (pCVar17->fields)._jumpDirection.fields.x;
-                                uVar3 = (pCVar17->fields)._jumpDirection.fields.y;
-                                fVar20 = (pCVar17->fields)._jumpDirection.fields.z;
-                                pUVar14 = UnityEngine_Transform__get_forward
-                                                    ((UnityEngine_Vector3_o *)local_58,__this_00,
-                                                     (MethodInfo *)0x0);
-                                fVar19 = (pUVar14->fields).z;
-                                uVar2 = (pUVar14->fields).x;
-                                uVar4 = (pUVar14->fields).y;
-                                (pCVar17->fields)._jumpDirection.fields.x = (float)uVar2 * 0.5 + (float)uVar1;
-                                (pCVar17->fields)._jumpDirection.fields.y = (float)uVar4 * 0.5 + (float)uVar3;
-                                (pCVar17->fields)._jumpDirection.fields.z = fVar19 * 0.5 + fVar20;
-                                pCVar17 = (__this->fields)._titan;
-                                if (pCVar17 == (Characters_BasicTitan_o *)0x0) goto label_1820fb0ae;
-                                fVar20 = (float)il2cpp_runtime_helper_180546a40(&(pCVar17->fields)._jumpDirection);
-                                if (1e-05 < fVar20) {
-                                  fVar19 = (pCVar17->fields)._jumpDirection.fields.z / fVar20;
-                                  fVar21 = (pCVar17->fields)._jumpDirection.fields.y / fVar20;
-                                  fVar20 = (pCVar17->fields)._jumpDirection.fields.x / fVar20;
+                        if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                          pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
+                          fVar16 = (pUVar6->upVector).fields.z;
+                          uVar2._0_4_ = (pUVar6->upVector).fields.y;
+                          (pCVar14->fields)._jumpDirection.fields.x = (pUVar6->upVector).fields.x;
+                          (pCVar14->fields)._jumpDirection.fields.y = (float)uVar2;
+                          (pCVar14->fields)._jumpDirection.fields.z = fVar16;
+                          pCVar14 = (__this->fields)._titan;
+                          if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                            (pCVar14->fields).JumpForce = 120.0;
+                            if ((pCVar14->fields).HasDirection == false) {
+label_05ba5991:
+                              Characters_BasicTitan__JumpImmediate(pCVar14,(MethodInfo *)0x0);
+                              return;
+                            }
+                            pUVar7 = (pCVar14->fields).Cache;
+                            if ((pUVar7 != (Utility_BaseComponentCache_o *)0x0) &&
+                               (__this_00 = (pUVar7->fields).Transform,
+                               __this_00 != (UnityEngine_Transform_o *)0x0)) {
+                              uStack_68._0_4_ = (pCVar14->fields)._jumpDirection.fields.x;
+                              uStack_68._4_4_ = (pCVar14->fields)._jumpDirection.fields.y;
+                              uStack_60 = 0;
+                              fVar16 = (pCVar14->fields)._jumpDirection.fields.z;
+                              UVar19 = UnityEngine_Transform__get_forward(__this_00,(MethodInfo *)0x0);
+                              (pCVar14->fields)._jumpDirection.fields.x =
+                                   UVar19.fields.x * 0.5 + (float)uStack_68;
+                              (pCVar14->fields)._jumpDirection.fields.y =
+                                   UVar19.fields.y * 0.5 + uStack_68._4_4_;
+                              (pCVar14->fields)._jumpDirection.fields.z = UVar19.fields.z * 0.5 + fVar16;
+                              pCVar14 = (__this->fields)._titan;
+                              if (pCVar14 != (Characters_BasicTitan_o *)0x0) {
+                                if (Il2CppMethodInitialized_0753e729 == '\0') {
+                                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+                                  Il2CppMethodInitialized_0753e729 = '\x01';
+                                }
+                                fVar16 = (pCVar14->fields)._jumpDirection.fields.x;
+                                uVar2._0_4_ = (pCVar14->fields)._jumpDirection.fields.y;
+                                uVar2._4_4_ = (pCVar14->fields)._jumpDirection.fields.z;
+                                if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+                                  uStack_60 = 0;
+                                  uStack_68 = uVar2;
+                                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+                                  uVar2._0_4_ = (float)uStack_68;
+                                  uVar2._4_4_ = uStack_68._4_4_;
+                                }
+                                uVar2._4_4_ = uVar2._4_4_ * uVar2._4_4_;
+                                fVar16 = uVar2._4_4_ + fVar16 * fVar16 + (float)uVar2 * (float)uVar2;
+                                if (fVar16 < 0.0) {
+                                  fVar16 = sqrtf(fVar16);
+                                  uVar2._4_4_ = extraout_XMM0_Db;
                                 }
                                 else {
-                                  fVar19 = 0.0;
-                                  fVar21 = 0.0;
-                                  fVar20 = 0.0;
+                                  fVar16 = SQRT(fVar16);
                                 }
-                                (pCVar17->fields)._jumpDirection.fields.x = fVar20;
-                                (pCVar17->fields)._jumpDirection.fields.y = fVar21;
-                                (pCVar17->fields)._jumpDirection.fields.z = fVar19;
-                              }
-                              pCVar17 = (__this->fields)._titan;
-                              if (pCVar17 != (Characters_BasicTitan_o *)0x0) {
-                                Characters_BasicTitan__JumpImmediate(pCVar17,(MethodInfo *)0x0);
-                                return;
+                                if (fVar16 <= 1e-05) {
+                                  (pCVar14->fields)._jumpDirection.fields.x = 0.0;
+                                  (pCVar14->fields)._jumpDirection.fields.y = 0.0;
+                                  fVar16 = 0.0;
+                                }
+                                else {
+                                  uVar1 = (pCVar14->fields)._jumpDirection.fields.x;
+                                  uVar3 = (pCVar14->fields)._jumpDirection.fields.y;
+                                  auVar17._4_4_ = uVar3;
+                                  auVar17._0_4_ = uVar1;
+                                  auVar17._8_8_ = 0;
+                                  auVar18._4_4_ = fVar16;
+                                  auVar18._0_4_ = fVar16;
+                                  auVar18._8_4_ = uVar2._4_4_;
+                                  auVar18._12_4_ = uVar2._4_4_;
+                                  auVar18 = divps(auVar17,auVar18);
+                                  (pCVar14->fields)._jumpDirection.fields.x = (float)auVar18._0_4_;
+                                  (pCVar14->fields)._jumpDirection.fields.y = (float)auVar18._4_4_;
+                                  fVar16 = (pCVar14->fields)._jumpDirection.fields.z / fVar16;
+                                }
+                                (pCVar14->fields)._jumpDirection.fields.z = fVar16;
+                                pCVar14 = (__this->fields)._titan;
+                                if (pCVar14 != (Characters_BasicTitan_o *)0x0) goto label_05ba5991;
                               }
                             }
                           }
                         }
                       }
-                      goto label_1820fb0ae;
                     }
                   }
-                  return;
                 }
               }
             }
@@ -798,14 +659,14 @@ label_1820fb0ef:
       }
     }
   }
-label_1820fb0ae:
+label_05ba59a0:
   ThrowNullReferenceException();
 }
 
 
 // Controllers.BasicTitanPlayerController$$AttackSwing
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackSwing (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9fe0
+// 0x5ba59d0
 
 void Controllers_BasicTitanPlayerController__AttackSwing
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -813,27 +674,29 @@ void Controllers_BasicTitanPlayerController__AttackSwing
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab0 == '\0') {
+  if (Il2CppMethodInitialized_0754747c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackSwingL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackSwingR");
-    Il2CppMethodInitialized_184346ab0 = '\x01';
+    Il2CppMethodInitialized_0754747c = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackSwingL";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackSwingR";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackSwingR";
+      }
+      else {
+        ppSVar3 = &"AttackSwingL";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -843,7 +706,7 @@ void Controllers_BasicTitanPlayerController__AttackSwing
 
 // Controllers.BasicTitanPlayerController$$AttackGrabAirFar
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabAirFar (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9b00
+// 0x5ba5a60
 
 void Controllers_BasicTitanPlayerController__AttackGrabAirFar
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -851,27 +714,29 @@ void Controllers_BasicTitanPlayerController__AttackGrabAirFar
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab1 == '\0') {
+  if (Il2CppMethodInitialized_0754747d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirFarL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirFarR");
-    Il2CppMethodInitialized_184346ab1 = '\x01';
+    Il2CppMethodInitialized_0754747d = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackGrabAirFarR";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackGrabAirFarL";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackGrabAirFarL";
+      }
+      else {
+        ppSVar3 = &"AttackGrabAirFarR";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -881,7 +746,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabAirFar
 
 // Controllers.BasicTitanPlayerController$$AttackGrabAir
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabAir (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9b90
+// 0x5ba5af0
 
 void Controllers_BasicTitanPlayerController__AttackGrabAir
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -889,27 +754,29 @@ void Controllers_BasicTitanPlayerController__AttackGrabAir
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab2 == '\0') {
+  if (Il2CppMethodInitialized_0754747e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabAirR");
-    Il2CppMethodInitialized_184346ab2 = '\x01';
+    Il2CppMethodInitialized_0754747e = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackGrabAirR";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackGrabAirL";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackGrabAirL";
+      }
+      else {
+        ppSVar3 = &"AttackGrabAirR";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -919,13 +786,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabAir
 
 // Controllers.BasicTitanPlayerController$$AttackGrabBody
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabBody (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9c20
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f9c98: mov rdx, qword ptr [rip + 0x1fbe2a9]  ; "AttackGrabStomachR"
-// asm:   0x1820f9c9f: jmp 0x1820f9ccd
-// asm:   0x1820f9cbd: mov rdx, qword ptr [rip + 0x1fbcbc4]  ; "AttackGrabBackL"
-// asm:   0x1820f9cc4: jmp 0x1820f9ccd
-// asm:   0x1820f9cc6: mov rdx, qword ptr [rip + 0x1fbcc9b]  ; "AttackGrabBackR"
+// 0x5ba5b80
 
 void Controllers_BasicTitanPlayerController__AttackGrabBody
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -934,31 +795,43 @@ void Controllers_BasicTitanPlayerController__AttackGrabBody
   float fVar1;
   Characters_BasicTitan_o *pCVar2;
   System_Single_array *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o **ppSVar4;
   
-  if (Il2CppMethodInitialized_184346ab3 == '\0') {
+  if (Il2CppMethodInitialized_0754747f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabStomachL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabStomachR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBackR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBackL");
-    Il2CppMethodInitialized_184346ab3 = '\x01';
+    Il2CppMethodInitialized_0754747f = '\x01';
   }
-  pSVar3 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar3 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar3 != (System_Single_array *)0x0) {
     if ((int)pSVar3->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
     fVar1 = pSVar3->m_Items[0];
-    if ((((fVar1 <= 0.0) || (pSVar4 = "AttackGrabStomachR", 90.0 < fVar1)) &&
-        (pSVar4 = "AttackGrabBackR", fVar1 <= 90.0)) &&
-       ((pSVar4 = "AttackGrabBackL", fVar1 < 0.0 && (-90.0 <= fVar1)))) {
-      pSVar4 = "AttackGrabStomachL";
+    if ((fVar1 <= 0.0) || (90.0 < fVar1)) {
+      if (fVar1 <= 90.0) {
+        ppSVar4 = &"AttackGrabBackL";
+        if (-90.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabStomachL";
+        }
+        if (0.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabBackL";
+        }
+      }
+      else {
+        ppSVar4 = &"AttackGrabBackR";
+      }
+    }
+    else {
+      ppSVar4 = &"AttackGrabStomachR";
     }
     pCVar2 = (__this->fields)._titan;
     if (pCVar2 != (Characters_BasicTitan_o *)0x0) {
       (*(pCVar2->klass->vtable)._150_Attack.methodPtr)
-                (pCVar2,pSVar4,(pCVar2->klass->vtable)._150_Attack.method);
+                (pCVar2,*ppSVar4,(pCVar2->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -968,7 +841,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabBody
 
 // Controllers.BasicTitanPlayerController$$AttackGrabCore
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabCore (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9d00
+// 0x5ba5c60
 
 void Controllers_BasicTitanPlayerController__AttackGrabCore
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -976,27 +849,29 @@ void Controllers_BasicTitanPlayerController__AttackGrabCore
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab4 == '\0') {
+  if (Il2CppMethodInitialized_07547480 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabCoreR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabCoreL");
-    Il2CppMethodInitialized_184346ab4 = '\x01';
+    Il2CppMethodInitialized_07547480 = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackGrabCoreR";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackGrabCoreL";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackGrabCoreL";
+      }
+      else {
+        ppSVar3 = &"AttackGrabCoreR";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -1006,13 +881,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabCore
 
 // Controllers.BasicTitanPlayerController$$AttackGrabGround
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabGround (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9d90
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f9e08: mov rdx, qword ptr [rip + 0x1fbd5d9]  ; "AttackGrabGroundFrontR"
-// asm:   0x1820f9e0f: jmp 0x1820f9e3d
-// asm:   0x1820f9e2d: mov rdx, qword ptr [rip + 0x1fbd314]  ; "AttackGrabGroundBackL"
-// asm:   0x1820f9e34: jmp 0x1820f9e3d
-// asm:   0x1820f9e36: mov rdx, qword ptr [rip + 0x1fbd3eb]  ; "AttackGrabGroundBackR"
+// 0x5ba5cf0
 
 void Controllers_BasicTitanPlayerController__AttackGrabGround
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -1021,31 +890,43 @@ void Controllers_BasicTitanPlayerController__AttackGrabGround
   float fVar1;
   Characters_BasicTitan_o *pCVar2;
   System_Single_array *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o **ppSVar4;
   
-  if (Il2CppMethodInitialized_184346ab5 == '\0') {
+  if (Il2CppMethodInitialized_07547481 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundBackL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundFrontL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundFrontR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabGroundBackR");
-    Il2CppMethodInitialized_184346ab5 = '\x01';
+    Il2CppMethodInitialized_07547481 = '\x01';
   }
-  pSVar3 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar3 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar3 != (System_Single_array *)0x0) {
     if ((int)pSVar3->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
     fVar1 = pSVar3->m_Items[0];
-    if ((((fVar1 <= 0.0) || (pSVar4 = "AttackGrabGroundFrontR", 90.0 < fVar1)) &&
-        (pSVar4 = "AttackGrabGroundBackR", fVar1 <= 90.0)) &&
-       ((pSVar4 = "AttackGrabGroundBackL", fVar1 < 0.0 && (-90.0 <= fVar1)))) {
-      pSVar4 = "AttackGrabGroundFrontL";
+    if ((fVar1 <= 0.0) || (90.0 < fVar1)) {
+      if (fVar1 <= 90.0) {
+        ppSVar4 = &"AttackGrabGroundBackL";
+        if (-90.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabGroundFrontL";
+        }
+        if (0.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabGroundBackL";
+        }
+      }
+      else {
+        ppSVar4 = &"AttackGrabGroundBackR";
+      }
+    }
+    else {
+      ppSVar4 = &"AttackGrabGroundFrontR";
     }
     pCVar2 = (__this->fields)._titan;
     if (pCVar2 != (Characters_BasicTitan_o *)0x0) {
       (*(pCVar2->klass->vtable)._150_Attack.methodPtr)
-                (pCVar2,pSVar4,(pCVar2->klass->vtable)._150_Attack.method);
+                (pCVar2,*ppSVar4,(pCVar2->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -1055,13 +936,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabGround
 
 // Controllers.BasicTitanPlayerController$$AttackGrabHead
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabHead (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9e70
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f9ee8: mov rdx, qword ptr [rip + 0x1fbd959]  ; "AttackGrabHeadFrontR"
-// asm:   0x1820f9eef: jmp 0x1820f9f1d
-// asm:   0x1820f9f0d: mov rdx, qword ptr [rip + 0x1fbd694]  ; "AttackGrabHeadBackL"
-// asm:   0x1820f9f14: jmp 0x1820f9f1d
-// asm:   0x1820f9f16: mov rdx, qword ptr [rip + 0x1fbd76b]  ; "AttackGrabHeadBackR"
+// 0x5ba5dd0
 
 void Controllers_BasicTitanPlayerController__AttackGrabHead
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -1070,31 +945,43 @@ void Controllers_BasicTitanPlayerController__AttackGrabHead
   float fVar1;
   Characters_BasicTitan_o *pCVar2;
   System_Single_array *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o **ppSVar4;
   
-  if (Il2CppMethodInitialized_184346ab6 == '\0') {
+  if (Il2CppMethodInitialized_07547482 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadBackL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadBackR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadFrontL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHeadFrontR");
-    Il2CppMethodInitialized_184346ab6 = '\x01';
+    Il2CppMethodInitialized_07547482 = '\x01';
   }
-  pSVar3 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar3 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar3 != (System_Single_array *)0x0) {
     if ((int)pSVar3->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
     fVar1 = pSVar3->m_Items[0];
-    if ((((fVar1 <= 0.0) || (pSVar4 = "AttackGrabHeadFrontR", 90.0 < fVar1)) &&
-        (pSVar4 = "AttackGrabHeadBackR", fVar1 <= 90.0)) &&
-       ((pSVar4 = "AttackGrabHeadBackL", fVar1 < 0.0 && (-90.0 <= fVar1)))) {
-      pSVar4 = "AttackGrabHeadFrontL";
+    if ((fVar1 <= 0.0) || (90.0 < fVar1)) {
+      if (fVar1 <= 90.0) {
+        ppSVar4 = &"AttackGrabHeadBackL";
+        if (-90.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabHeadFrontL";
+        }
+        if (0.0 <= fVar1) {
+          ppSVar4 = &"AttackGrabHeadBackL";
+        }
+      }
+      else {
+        ppSVar4 = &"AttackGrabHeadBackR";
+      }
+    }
+    else {
+      ppSVar4 = &"AttackGrabHeadFrontR";
     }
     pCVar2 = (__this->fields)._titan;
     if (pCVar2 != (Characters_BasicTitan_o *)0x0) {
       (*(pCVar2->klass->vtable)._150_Attack.methodPtr)
-                (pCVar2,pSVar4,(pCVar2->klass->vtable)._150_Attack.method);
+                (pCVar2,*ppSVar4,(pCVar2->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -1104,7 +991,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabHead
 
 // Controllers.BasicTitanPlayerController$$AttackGrabHigh
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackGrabHigh (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9f50
+// 0x5ba5eb0
 
 void Controllers_BasicTitanPlayerController__AttackGrabHigh
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -1112,27 +999,29 @@ void Controllers_BasicTitanPlayerController__AttackGrabHigh
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab7 == '\0') {
+  if (Il2CppMethodInitialized_07547483 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHighR");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabHighL");
-    Il2CppMethodInitialized_184346ab7 = '\x01';
+    Il2CppMethodInitialized_07547483 = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackGrabHighR";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackGrabHighL";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackGrabHighL";
+      }
+      else {
+        ppSVar3 = &"AttackGrabHighR";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -1142,7 +1031,7 @@ void Controllers_BasicTitanPlayerController__AttackGrabHigh
 
 // Controllers.BasicTitanPlayerController$$AttackBrushChest
 // il2cpp: void Controllers_BasicTitanPlayerController__AttackBrushChest (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820f9a70
+// 0x5ba5f40
 
 void Controllers_BasicTitanPlayerController__AttackBrushChest
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
@@ -1150,27 +1039,29 @@ void Controllers_BasicTitanPlayerController__AttackBrushChest
 {
   Characters_BasicTitan_o *pCVar1;
   System_Single_array *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184346ab8 == '\0') {
+  if (Il2CppMethodInitialized_07547484 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushChestL");
     il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushChestR");
-    Il2CppMethodInitialized_184346ab8 = '\x01';
+    Il2CppMethodInitialized_07547484 = '\x01';
   }
-  pSVar2 = Controllers_BasePlayerController__GetAimAngles
-                     ((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  pSVar2 = Controllers_BasePlayerController__GetAimAngles((Controllers_BasePlayerController_o *)__this,method)
+  ;
   if (pSVar2 != (System_Single_array *)0x0) {
     if ((int)pSVar2->max_length == 0) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar3 = "AttackBrushChestL";
-    if (pSVar2->m_Items[0] <= 0.0) {
-      pSVar3 = "AttackBrushChestR";
-    }
     pCVar1 = (__this->fields)._titan;
     if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
+      if (pSVar2->m_Items[0] <= 0.0) {
+        ppSVar3 = &"AttackBrushChestR";
+      }
+      else {
+        ppSVar3 = &"AttackBrushChestL";
+      }
       (*(pCVar1->klass->vtable)._150_Attack.methodPtr)
-                (pCVar1,pSVar3,(pCVar1->klass->vtable)._150_Attack.method);
+                (pCVar1,*ppSVar3,(pCVar1->klass->vtable)._150_Attack.method);
       return;
     }
   }
@@ -1180,14 +1071,14 @@ void Controllers_BasicTitanPlayerController__AttackBrushChest
 
 // Controllers.BasicTitanPlayerController$$.ctor
 // il2cpp: void Controllers_BasicTitanPlayerController___ctor (Controllers_BasicTitanPlayerController_o* __this, const MethodInfo* method);
-// 0x1820fb160
+// 0x5ba5fd0
 
 void Controllers_BasicTitanPlayerController___ctor
                (Controllers_BasicTitanPlayerController_o *__this,MethodInfo *method)
 
 {
   (__this->fields).RockCooldown = 5.0;
-  Controllers_BasePlayerController___ctor((Controllers_BasePlayerController_o *)__this,(MethodInfo *)0x0);
+  Controllers_BasePlayerController___ctor((Controllers_BasePlayerController_o *)__this,method);
   return;
 }
 

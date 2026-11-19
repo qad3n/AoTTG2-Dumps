@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugDisplaySettingsCommon
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ internal class DebugDisplaySettingsCommon : IDebugDisplaySettingsData, IDebugDis
 		public override DebugUI.Flags Flags
 		{
 			[Token(Token = "0x60000F1")]
-			[Address(RVA = "0x846EF0", Offset = "0x8454F0", VA = "0x180846EF0", Slot = "10")]
+			[Address(RVA = "0x65FA2C0", Offset = "0x65F92C0", VA = "0x65FA2C0", Slot = "10")]
 			get
 			{
 				return default(DebugUI.Flags);
@@ -31,7 +31,7 @@ internal class DebugDisplaySettingsCommon : IDebugDisplaySettingsData, IDebugDis
 		}
 
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x2C08CB0", Offset = "0x2C072B0", VA = "0x182C08CB0")]
+		[Address(RVA = "0x65F9F40", Offset = "0x65F8F40", VA = "0x65F9F40")]
 		public SettingsPanel()
 		{
 		}
@@ -41,7 +41,7 @@ internal class DebugDisplaySettingsCommon : IDebugDisplaySettingsData, IDebugDis
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
+		[Address(RVA = "0x65F9EF0", Offset = "0x65F8EF0", VA = "0x65F9EF0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -49,14 +49,14 @@ internal class DebugDisplaySettingsCommon : IDebugDisplaySettingsData, IDebugDis
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x2BFF920", Offset = "0x2BFDF20", VA = "0x182BFF920", Slot = "4")]
+	[Address(RVA = "0x65F9F00", Offset = "0x65F8F00", VA = "0x65F9F00", Slot = "4")]
 	public IDebugDisplaySettingsPanelDisposable CreatePanel()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65FA2B0", Offset = "0x65F92B0", VA = "0x65FA2B0")]
 	public DebugDisplaySettingsCommon()
 	{
 	}

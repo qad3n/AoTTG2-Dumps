@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x200008D")]
 public class ArithmeticException : SystemException
 {
-	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x1A78500", Offset = "0x1A76B00", VA = "0x181A78500")]
+	[Token(Token = "0x60003F4")]
+	[Address(RVA = "0x5419FB0", Offset = "0x5418FB0", VA = "0x5419FB0")]
 	public ArithmeticException()
 	{
 	}
 
-	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x1A78550", Offset = "0x1A76B50", VA = "0x181A78550")]
+	[Token(Token = "0x60003F5")]
+	[Address(RVA = "0x5419FF0", Offset = "0x5418FF0", VA = "0x5419FF0")]
 	public ArithmeticException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x1A78570", Offset = "0x1A76B70", VA = "0x181A78570")]
+	[Token(Token = "0x60003F6")]
+	[Address(RVA = "0x541A010", Offset = "0x5419010", VA = "0x541A010")]
 	public ArithmeticException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60003F7")]
+	[Address(RVA = "0x541A030", Offset = "0x5419030", VA = "0x541A030")]
 	protected ArithmeticException(SerializationInfo info, StreamingContext context)
 	{
 	}

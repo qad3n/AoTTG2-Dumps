@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeTouchupVolume
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,7 +15,7 @@ namespace UnityEngine.Rendering;
 public class ProbeTouchupVolume : ProbeAdjustmentVolume
 {
 	[Token(Token = "0x6000810")]
-	[Address(RVA = "0x2B0C390", Offset = "0x2B0A990", VA = "0x182B0C390")]
+	[Address(RVA = "0x64F65B0", Offset = "0x64F55B0", VA = "0x64F65B0")]
 	public ProbeTouchupVolume()
 	{
 	}

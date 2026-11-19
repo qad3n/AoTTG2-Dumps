@@ -1,0 +1,21 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeMapElementInfoList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections;
+using Il2CppDummyDll;
+
+namespace System.Xml.Serialization;
+
+[Token(Token = "0x2000148")]
+internal class XmlTypeMapElementInfoList : ArrayList
+{
+	[Token(Token = "0x6000E9C")]
+	[Address(RVA = "0x6137700", Offset = "0x6136700", VA = "0x6137700")]
+	public XmlTypeMapElementInfoList()
+	{
+	}
+}

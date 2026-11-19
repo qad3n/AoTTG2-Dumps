@@ -9,54 +9,54 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000E6")]
+[Token(Token = "0x20000E7")]
 internal sealed class ArrayLengthInstruction : Instruction
 {
-	[Token(Token = "0x4000229")]
+	[Token(Token = "0x4000232")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ArrayLengthInstruction Instance;
 
-	[Token(Token = "0x17000151")]
+	[Token(Token = "0x17000153")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005DB")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x60005E6")]
+		[Address(RVA = "0x5DDB5E0", Offset = "0x5DDA5E0", VA = "0x5DDB5E0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000152")]
+	[Token(Token = "0x17000154")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005DC")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x60005E7")]
+		[Address(RVA = "0x5DDB5F0", Offset = "0x5DDA5F0", VA = "0x5DDB5F0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000153")]
+	[Token(Token = "0x17000155")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005DD")]
-		[Address(RVA = "0x2428180", Offset = "0x2426780", VA = "0x182428180", Slot = "9")]
+		[Token(Token = "0x60005E8")]
+		[Address(RVA = "0x5DDB600", Offset = "0x5DDA600", VA = "0x5DDB600", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005DE")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60005E9")]
+	[Address(RVA = "0x5DDB630", Offset = "0x5DDA630", VA = "0x5DDB630")]
 	private ArrayLengthInstruction()
 	{
 	}
 
-	[Token(Token = "0x60005DF")]
-	[Address(RVA = "0x2428090", Offset = "0x2426690", VA = "0x182428090", Slot = "8")]
+	[Token(Token = "0x60005EA")]
+	[Address(RVA = "0x5DDB640", Offset = "0x5DDA640", VA = "0x5DDB640", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

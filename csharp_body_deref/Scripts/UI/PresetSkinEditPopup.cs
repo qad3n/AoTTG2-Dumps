@@ -17,38 +17,38 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000729")]
+[Token(Token = "0x20007D1")]
 internal class PresetSkinEditPopup : BasePopup
 {
-	[Token(Token = "0x200072A")]
+	[Token(Token = "0x20007D2")]
 	[CompilerGenerated]
 	private sealed class _003CLoadSkinAndRestoreSettingsCoroutine_003Ed__28 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40023C2")]
+		[Token(Token = "0x400273E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40023C3")]
+		[Token(Token = "0x400273F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40023C4")]
+		[Token(Token = "0x4002740")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public DummyHuman character;
 
-		[Token(Token = "0x40023C5")]
+		[Token(Token = "0x4002741")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public bool originalGlobal;
 
-		[Token(Token = "0x40023C6")]
+		[Token(Token = "0x4002742")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x29")]
 		public bool originalCustom;
 
-		[Token(Token = "0x17000CB7")]
+		[Token(Token = "0x17000D3C")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600465C")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6004B85")]
+			[Address(RVA = "0x5BE4AF0", Offset = "0x5BE3AF0", VA = "0x5BE4AF0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -56,11 +56,11 @@ internal class PresetSkinEditPopup : BasePopup
 			}
 		}
 
-		[Token(Token = "0x17000CB8")]
+		[Token(Token = "0x17000D3D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600465E")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6004B87")]
+			[Address(RVA = "0x5BE4B40", Offset = "0x5BE3B40", VA = "0x5BE4B40", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,215 +68,215 @@ internal class PresetSkinEditPopup : BasePopup
 			}
 		}
 
-		[Token(Token = "0x6004659")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6004B82")]
+		[Address(RVA = "0x5BE4640", Offset = "0x5BE3640", VA = "0x5BE4640")]
 		[DebuggerHidden]
 		public _003CLoadSkinAndRestoreSettingsCoroutine_003Ed__28(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600465A")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x6004B83")]
+		[Address(RVA = "0x5BE4950", Offset = "0x5BE3950", VA = "0x5BE4950", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600465B")]
-		[Address(RVA = "0x221AC10", Offset = "0x2219210", VA = "0x18221AC10", Slot = "6")]
+		[Token(Token = "0x6004B84")]
+		[Address(RVA = "0x5BE4960", Offset = "0x5BE3960", VA = "0x5BE4960", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600465D")]
-		[Address(RVA = "0x221ADD0", Offset = "0x22193D0", VA = "0x18221ADD0", Slot = "8")]
+		[Token(Token = "0x6004B86")]
+		[Address(RVA = "0x5BE4B00", Offset = "0x5BE3B00", VA = "0x5BE4B00", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40023BE")]
+	[Token(Token = "0x400273A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private HumanCustomSet _currentPreset;
 
-	[Token(Token = "0x40023BF")]
+	[Token(Token = "0x400273B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private Dictionary<string, string> _backupValues;
 
-	[Token(Token = "0x40023C0")]
+	[Token(Token = "0x400273C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private Dictionary<string, float> _backupFloatValues;
 
-	[Token(Token = "0x40023C1")]
+	[Token(Token = "0x400273D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private bool _hasBackup;
 
-	[Token(Token = "0x17000CAF")]
+	[Token(Token = "0x17000D34")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004641")]
-		[Address(RVA = "0x22193B0", Offset = "0x22179B0", VA = "0x1822193B0", Slot = "35")]
+		[Token(Token = "0x6004B6A")]
+		[Address(RVA = "0x5BE25F0", Offset = "0x5BE15F0", VA = "0x5BE25F0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CB0")]
+	[Token(Token = "0x17000D35")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004642")]
-		[Address(RVA = "0x21E47C0", Offset = "0x21E2DC0", VA = "0x1821E47C0", Slot = "5")]
+		[Token(Token = "0x6004B6B")]
+		[Address(RVA = "0x5BE2720", Offset = "0x5BE1720", VA = "0x5BE2720", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CB1")]
+	[Token(Token = "0x17000D36")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004643")]
-		[Address(RVA = "0x21E4680", Offset = "0x21E2C80", VA = "0x1821E4680", Slot = "6")]
+		[Token(Token = "0x6004B6C")]
+		[Address(RVA = "0x5BE2730", Offset = "0x5BE1730", VA = "0x5BE2730", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CB2")]
+	[Token(Token = "0x17000D37")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004644")]
-		[Address(RVA = "0x2182AB0", Offset = "0x21810B0", VA = "0x182182AB0", Slot = "11")]
+		[Token(Token = "0x6004B6D")]
+		[Address(RVA = "0x5BE2740", Offset = "0x5BE1740", VA = "0x5BE2740", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CB3")]
+	[Token(Token = "0x17000D38")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004645")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "10")]
+		[Token(Token = "0x6004B6E")]
+		[Address(RVA = "0x5BE2750", Offset = "0x5BE1750", VA = "0x5BE2750", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000CB4")]
+	[Token(Token = "0x17000D39")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004646")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
+		[Token(Token = "0x6004B6F")]
+		[Address(RVA = "0x5BE2760", Offset = "0x5BE1760", VA = "0x5BE2760", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000CB5")]
+	[Token(Token = "0x17000D3A")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x6004647")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+		[Token(Token = "0x6004B70")]
+		[Address(RVA = "0x5BE2770", Offset = "0x5BE1770", VA = "0x5BE2770", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CB6")]
+	[Token(Token = "0x17000D3B")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004648")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x6004B71")]
+		[Address(RVA = "0x5BE2780", Offset = "0x5BE1780", VA = "0x5BE2780", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004649")]
-	[Address(RVA = "0x2217F40", Offset = "0x2216540", VA = "0x182217F40", Slot = "20")]
+	[Token(Token = "0x6004B72")]
+	[Address(RVA = "0x5BE2790", Offset = "0x5BE1790", VA = "0x5BE2790", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600464A")]
-	[Address(RVA = "0x2217440", Offset = "0x2215A40", VA = "0x182217440")]
+	[Token(Token = "0x6004B73")]
+	[Address(RVA = "0x5BE36A0", Offset = "0x5BE26A0", VA = "0x5BE36A0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x600464B")]
-	[Address(RVA = "0x2217560", Offset = "0x2215B60", VA = "0x182217560")]
+	[Token(Token = "0x6004B74")]
+	[Address(RVA = "0x5BE37B0", Offset = "0x5BE27B0", VA = "0x5BE37B0")]
 	private void OnClearClick()
 	{
 	}
 
-	[Token(Token = "0x600464C")]
-	[Address(RVA = "0x2217000", Offset = "0x2215600", VA = "0x182217000")]
+	[Token(Token = "0x6004B75")]
+	[Address(RVA = "0x5BE3DE0", Offset = "0x5BE2DE0", VA = "0x5BE3DE0")]
 	private void CreateBackup()
 	{
 	}
 
-	[Token(Token = "0x600464D")]
-	[Address(RVA = "0x2217B70", Offset = "0x2216170", VA = "0x182217B70")]
+	[Token(Token = "0x6004B76")]
+	[Address(RVA = "0x5BE4130", Offset = "0x5BE3130", VA = "0x5BE4130")]
 	private void RestoreBackup()
 	{
 	}
 
-	[Token(Token = "0x600464E")]
-	[Address(RVA = "0x2217520", Offset = "0x2215B20", VA = "0x182217520")]
+	[Token(Token = "0x6004B77")]
+	[Address(RVA = "0x5BE3780", Offset = "0x5BE2780", VA = "0x5BE3780")]
 	public void OnCancelClick()
 	{
 	}
 
-	[Token(Token = "0x600464F")]
-	[Address(RVA = "0x2217770", Offset = "0x2215D70", VA = "0x182217770")]
+	[Token(Token = "0x6004B78")]
+	[Address(RVA = "0x5BE39B0", Offset = "0x5BE29B0", VA = "0x5BE39B0")]
 	private void OnSaveClick()
 	{
 	}
 
-	[Token(Token = "0x6004650")]
-	[Address(RVA = "0x22173B0", Offset = "0x22159B0", VA = "0x1822173B0")]
+	[Token(Token = "0x6004B79")]
+	[Address(RVA = "0x5BE45C0", Offset = "0x5BE35C0", VA = "0x5BE45C0")]
 	private void LoadSkinAndRestoreSettings(DummyHuman character, bool originalGlobal, bool originalCustom)
 	{
 	}
 
-	[Token(Token = "0x6004651")]
-	[Address(RVA = "0x2217330", Offset = "0x2215930", VA = "0x182217330")]
+	[Token(Token = "0x6004B7A")]
+	[Address(RVA = "0x5BE4540", Offset = "0x5BE3540", VA = "0x5BE4540")]
 	[IteratorStateMachine(typeof(_003CLoadSkinAndRestoreSettingsCoroutine_003Ed__28))]
 	private IEnumerator LoadSkinAndRestoreSettingsCoroutine(DummyHuman character, bool originalGlobal, bool originalCustom)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004652")]
-	[Address(RVA = "0x22190F0", Offset = "0x22176F0", VA = "0x1822190F0", Slot = "21")]
+	[Token(Token = "0x6004B7B")]
+	[Address(RVA = "0x5BE4660", Offset = "0x5BE3660", VA = "0x5BE4660", Slot = "21")]
 	public override void Show()
 	{
 	}
 
-	[Token(Token = "0x6004653")]
-	[Address(RVA = "0x2217740", Offset = "0x2215D40", VA = "0x182217740", Slot = "59")]
+	[Token(Token = "0x6004B7C")]
+	[Address(RVA = "0x5BE4780", Offset = "0x5BE3780", VA = "0x5BE4780", Slot = "59")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6004654")]
-	[Address(RVA = "0x2217300", Offset = "0x2215900", VA = "0x182217300", Slot = "58")]
+	[Token(Token = "0x6004B7D")]
+	[Address(RVA = "0x5BE47A0", Offset = "0x5BE37A0", VA = "0x5BE47A0", Slot = "58")]
 	public override void HideImmediate()
 	{
 	}
 
-	[Token(Token = "0x6004655")]
-	[Address(RVA = "0x22192E0", Offset = "0x22178E0", VA = "0x1822192E0")]
+	[Token(Token = "0x6004B7E")]
+	[Address(RVA = "0x5BE47C0", Offset = "0x5BE37C0", VA = "0x5BE47C0")]
 	public PresetSkinEditPopup()
 	{
 	}

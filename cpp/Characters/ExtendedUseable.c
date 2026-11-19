@@ -1,5 +1,5 @@
 // Type: Characters.ExtendedUseable
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/ExtendedUseable.cs
@@ -8,10 +8,9 @@
 
 // Characters.ExtendedUseable$$get_ActiveTime
 // il2cpp: float Characters_ExtendedUseable__get_ActiveTime (Characters_ExtendedUseable_o* __this, const MethodInfo* method);
-// 0x180560480
+// 0x5bbcc30
 
-float
-Characters_ExtendedUseable__get_ActiveTime(Characters_ExtendedUseable_o* __this, MethodInfo* method)
+float Characters_ExtendedUseable__get_ActiveTime(Characters_ExtendedUseable_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -20,17 +19,16 @@ Characters_ExtendedUseable__get_ActiveTime(Characters_ExtendedUseable_o* __this,
 
 // Characters.ExtendedUseable$$.ctor
 // il2cpp: void Characters_ExtendedUseable___ctor (Characters_ExtendedUseable_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x1821177e0
+// 0x5bbcc40
 
-void
-Characters_ExtendedUseable___ctor(Characters_ExtendedUseable_o* __this, Characters_BaseCharacter_o* owner, MethodInfo* method)
+void Characters_ExtendedUseable___ctor
+               (Characters_ExtendedUseable_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
   (__this->fields)._lastUseTime = -1000.0;
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._owner = owner;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,owner);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner);
   (__this->fields).Cooldown = 0.0;
   (__this->fields).UsesLeft = -1;
   (__this->fields).MaxUses = -1;
@@ -40,65 +38,60 @@ Characters_ExtendedUseable___ctor(Characters_ExtendedUseable_o* __this, Characte
 
 // Characters.ExtendedUseable$$GetActiveTime
 // il2cpp: float Characters_ExtendedUseable__GetActiveTime (Characters_ExtendedUseable_o* __this, const MethodInfo* method);
-// 0x180b62cf0
+// 0x5bbcc80
 
-float
-Characters_ExtendedUseable__GetActiveTime(Characters_ExtendedUseable_o* __this, MethodInfo* method)
+float Characters_ExtendedUseable__GetActiveTime(Characters_ExtendedUseable_o *__this,MethodInfo *method)
 
 {
-  int32_t iVar1;
+  float fVar1;
   
-  iVar1 = (*(__this->klass->vtable)._14_get_InstantiationKind.methodPtr)
-                    (__this,(__this->klass->vtable)._14_get_InstantiationKind.method);
-  return iVar1;
+  fVar1 = (*(__this->klass->vtable)._14_get_ActiveTime.methodPtr)
+                    (__this,(__this->klass->vtable)._14_get_ActiveTime.method);
+  return fVar1;
 }
 
 
 // Characters.ExtendedUseable$$ReadInput
 // il2cpp: void Characters_ExtendedUseable__ReadInput (Characters_ExtendedUseable_o* __this, Settings_KeybindSetting_o* keybind, const MethodInfo* method);
-// 0x182117730
+// 0x5bbcca0
 
-void
-Characters_ExtendedUseable__ReadInput(Characters_ExtendedUseable_o* __this, Settings_KeybindSetting_o* keybind, MethodInfo* method)
+void Characters_ExtendedUseable__ReadInput
+               (Characters_ExtendedUseable_o *__this,Settings_KeybindSetting_o *keybind,MethodInfo *method)
 
 {
   bool bVar1;
   
-  if (keybind != (Settings_KeybindSetting_o *)0x0) {
-    bVar1 = Settings_KeybindSetting__GetKeyDown(keybind,false,(MethodInfo *)0x0);
-    (*(__this->klass->vtable)._12_SetInput.methodPtr)
-              (__this,bVar1,(__this->klass->vtable)._12_SetInput.method);
-    return;
+  if (keybind == (Settings_KeybindSetting_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  bVar1 = Settings_KeybindSetting__GetKeyDown(keybind,false,(MethodInfo *)0x0);
+  (*(__this->klass->vtable)._12_SetInput.methodPtr)(__this,bVar1,(__this->klass->vtable)._12_SetInput.method);
+  return;
 }
 
 
 // Characters.ExtendedUseable$$SetInput
 // il2cpp: void Characters_ExtendedUseable__SetInput (Characters_ExtendedUseable_o* __this, bool key, const MethodInfo* method);
-// 0x182117770
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821177d8: add rsp, 0x20
-// asm:   0x1821177dc: pop rbx
+// 0x5bbcce0
 
 void Characters_ExtendedUseable__SetInput(Characters_ExtendedUseable_o *__this,bool key,MethodInfo *method)
 
 {
-  Characters_ExtendedUseable_c *pCVar1;
-  bool bVar2;
-  float extraout_XMM0_Da;
+  bool bVar1;
+  undefined7 in_register_00000031;
+  float fVar2;
   
-  if (((key) && (bVar2 = (*(__this->klass->vtable)._6_CanUse.methodPtr)
-                                   (__this,(__this->klass->vtable)._6_CanUse.method), bVar2)) &&
-     ((__this->fields).IsActive == false)) {
-    pCVar1 = __this->klass;
-    (__this->fields).IsActive = true;
-    (*(pCVar1->vtable)._15_GetActiveTime.methodPtr)(__this,(pCVar1->vtable)._15_GetActiveTime.method);
-    pCVar1 = __this->klass;
-    (__this->fields)._activeTimeLeft = extraout_XMM0_Da;
-    (*(pCVar1->vtable)._9_Activate.methodPtr)
-              (__this,(System_Type_o *)(pCVar1->vtable)._9_Activate.method,method);
-    (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
+  if ((int)CONCAT71(in_register_00000031,key) != 0) {
+    bVar1 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
+    if ((bVar1) && ((__this->fields).IsActive == false)) {
+      (__this->fields).IsActive = true;
+      fVar2 = (*(__this->klass->vtable)._15_GetActiveTime.methodPtr)
+                        (__this,(__this->klass->vtable)._15_GetActiveTime.method);
+      (__this->fields)._activeTimeLeft = fVar2;
+      (*(__this->klass->vtable)._9_Activate.methodPtr)(__this,(__this->klass->vtable)._9_Activate.method);
+      (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
+      return;
+    }
   }
   return;
 }
@@ -106,42 +99,42 @@ void Characters_ExtendedUseable__SetInput(Characters_ExtendedUseable_o *__this,b
 
 // Characters.ExtendedUseable$$OnFixedUpdate
 // il2cpp: void Characters_ExtendedUseable__OnFixedUpdate (Characters_ExtendedUseable_o* __this, const MethodInfo* method);
-// 0x1821176c0
+// 0x5bbcd50
 
 void Characters_ExtendedUseable__OnFixedUpdate(Characters_ExtendedUseable_o *__this,MethodInfo *method)
 
 {
-  Characters_ExtendedUseable_c *pCVar1;
-  MethodInfo *in_R8;
-  float fVar2;
+  VirtualInvokeData_6411beea80bb *pVVar1;
+  VirtualInvokeData_6411beea80bb *pVVar2;
   float fVar3;
+  float fVar4;
   
   if ((__this->fields).IsActive == false) {
     return;
   }
-  fVar3 = (__this->fields)._activeTimeLeft;
-  fVar2 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-  pCVar1 = __this->klass;
-  fVar3 = fVar3 - fVar2;
-  (__this->fields)._activeTimeLeft = fVar3;
-  if (0.0 < fVar3) {
-    (*(pCVar1->vtable)._16_ActiveFixedUpdate.methodPtr)
-              (__this,(System_Type_o *)(pCVar1->vtable)._16_ActiveFixedUpdate.method,in_R8);
-    return;
+  fVar4 = (__this->fields)._activeTimeLeft;
+  fVar3 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+  fVar4 = fVar4 - fVar3;
+  (__this->fields)._activeTimeLeft = fVar4;
+  if (fVar4 <= 0.0) {
+    (__this->fields).IsActive = false;
+    pVVar2 = &(__this->klass->vtable)._10_Deactivate;
+    pVVar1 = &(__this->klass->vtable)._10_Deactivate;
   }
-  (__this->fields).IsActive = false;
-  (*(pCVar1->vtable)._10_Deactivate.methodPtr)
-            (__this,(System_Type_o *)(pCVar1->vtable)._10_Deactivate.method,in_R8);
+  else {
+    pVVar2 = &(__this->klass->vtable)._16_ActiveFixedUpdate;
+    pVVar1 = &(__this->klass->vtable)._16_ActiveFixedUpdate;
+  }
+  (*pVVar2->methodPtr)(__this,pVVar1->method);
   return;
 }
 
 
 // Characters.ExtendedUseable$$ActiveFixedUpdate
 // il2cpp: void Characters_ExtendedUseable__ActiveFixedUpdate (Characters_ExtendedUseable_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5bbcdd0
 
-void
-Characters_ExtendedUseable__ActiveFixedUpdate(Characters_ExtendedUseable_o* __this, MethodInfo* method)
+void Characters_ExtendedUseable__ActiveFixedUpdate(Characters_ExtendedUseable_o *__this,MethodInfo *method)
 
 {
   return;

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Security;
 
-[Token(Token = "0x20002CC")]
+[Token(Token = "0x20002A5")]
 public interface IPermission : ISecurityEncodable
 {
-	[Token(Token = "0x60017C7")]
+	[Token(Token = "0x60017A4")]
 	void Demand();
 
-	[Token(Token = "0x60017C8")]
+	[Token(Token = "0x60017A5")]
 	bool IsSubsetOf(IPermission target);
 }

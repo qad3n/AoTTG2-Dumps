@@ -10,196 +10,196 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x200000C")]
 public class AndroidJavaObject : IDisposable
 {
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000016")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool enableDebugPrints;
 
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x4000017")]
 	[FieldOffset(Offset = "0x10")]
 	internal GlobalJavaObjectRef m_jobject;
 
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x4000018")]
 	[FieldOffset(Offset = "0x18")]
 	internal GlobalJavaObjectRef m_jclass;
 
-	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x2EA3140", Offset = "0x2EA1740", VA = "0x182EA3140")]
+	[Token(Token = "0x60000F4")]
+	[Address(RVA = "0x68A1B20", Offset = "0x68A0B20", VA = "0x68A1B20")]
 	public AndroidJavaObject(string className, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2EA2FA0", Offset = "0x2EA15A0", VA = "0x182EA2FA0")]
+	[Token(Token = "0x60000F5")]
+	[Address(RVA = "0x68A0680", Offset = "0x689F680", VA = "0x68A0680")]
 	public AndroidJavaObject(IntPtr jobject)
 	{
 	}
 
-	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x2EA2830", Offset = "0x2EA0E30", VA = "0x182EA2830", Slot = "4")]
+	[Token(Token = "0x60000F6")]
+	[Address(RVA = "0x68A1490", Offset = "0x68A0490", VA = "0x68A1490", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x2EA26A0", Offset = "0x2EA0CA0", VA = "0x182EA26A0")]
+	[Token(Token = "0x60000F7")]
+	[Address(RVA = "0x68A1D50", Offset = "0x68A0D50", VA = "0x68A1D50")]
 	public void Call(string methodName, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x600001C")]
+	[Token(Token = "0x60000F8")]
 	public FieldType GetStatic<FieldType>(string fieldName)
 	{
 		return (FieldType)null;
 	}
 
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2EA2960", Offset = "0x2EA0F60", VA = "0x182EA2960")]
+	[Token(Token = "0x60000F9")]
+	[Address(RVA = "0x68A1600", Offset = "0x68A0600", VA = "0x68A1600")]
 	public IntPtr GetRawObject()
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x1CB0BD0", Offset = "0x1CAF1D0", VA = "0x181CB0BD0")]
+	[Token(Token = "0x60000FA")]
+	[Address(RVA = "0x68A1E70", Offset = "0x68A0E70", VA = "0x68A1E70")]
 	public IntPtr GetRawClass()
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600001F")]
+	[Token(Token = "0x60000FB")]
 	public ReturnType Call<ReturnType>(string methodName, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x6000020")]
+	[Token(Token = "0x60000FC")]
 	public ReturnType CallStatic<ReturnType>(string methodName, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2EA27C0", Offset = "0x2EA0DC0", VA = "0x182EA27C0")]
+	[Token(Token = "0x60000FD")]
+	[Address(RVA = "0x68A1EB0", Offset = "0x68A0EB0", VA = "0x68A1EB0")]
 	protected void DebugPrint(string msg)
 	{
 	}
 
-	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x2EA2980", Offset = "0x2EA0F80", VA = "0x182EA2980")]
+	[Token(Token = "0x60000FE")]
+	[Address(RVA = "0x68A1B60", Offset = "0x68A0B60", VA = "0x68A1B60")]
 	private void _AndroidJavaObject(string className, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x2EA2BD0", Offset = "0x2EA11D0", VA = "0x182EA2BD0")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x68A1F30", Offset = "0x68A0F30", VA = "0x68A1F30")]
 	private void _AndroidJavaObject(IntPtr constructorID, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x68A1B50", Offset = "0x68A0B50", VA = "0x68A1B50")]
 	internal AndroidJavaObject()
 	{
 	}
 
-	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x193BBF0", Offset = "0x193A1F0", VA = "0x18193BBF0", Slot = "1")]
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x68A2180", Offset = "0x68A1180", VA = "0x68A2180", Slot = "1")]
 	~AndroidJavaObject()
 	{
 	}
 
-	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2EA2890", Offset = "0x2EA0E90", VA = "0x182EA2890", Slot = "5")]
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x68A2220", Offset = "0x68A1220", VA = "0x68A2220", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x2EA26A0", Offset = "0x2EA0CA0", VA = "0x182EA26A0")]
+	[Token(Token = "0x6000103")]
+	[Address(RVA = "0x68A1DD0", Offset = "0x68A0DD0", VA = "0x68A1DD0")]
 	protected void _Call(string methodName, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2EA2DD0", Offset = "0x2EA13D0", VA = "0x182EA2DD0")]
+	[Token(Token = "0x6000104")]
+	[Address(RVA = "0x68A22E0", Offset = "0x68A12E0", VA = "0x68A22E0")]
 	protected void _Call(IntPtr methodID, params object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000029")]
+	[Token(Token = "0x6000105")]
 	protected ReturnType _Call<ReturnType>(string methodName, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x600002A")]
+	[Token(Token = "0x6000106")]
 	protected ReturnType _Call<ReturnType>(IntPtr methodID, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x600002B")]
+	[Token(Token = "0x6000107")]
 	protected ReturnType _CallStatic<ReturnType>(string methodName, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x600002C")]
+	[Token(Token = "0x6000108")]
 	protected ReturnType _CallStatic<ReturnType>(IntPtr methodID, params object[] args)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x600002D")]
+	[Token(Token = "0x6000109")]
 	protected FieldType _GetStatic<FieldType>(string fieldName)
 	{
 		return (FieldType)null;
 	}
 
-	[Token(Token = "0x600002E")]
+	[Token(Token = "0x600010A")]
 	protected FieldType _GetStatic<FieldType>(IntPtr fieldID)
 	{
 		return (FieldType)null;
 	}
 
-	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x2EA25D0", Offset = "0x2EA0BD0", VA = "0x182EA25D0")]
+	[Token(Token = "0x600010B")]
+	[Address(RVA = "0x68A1500", Offset = "0x68A0500", VA = "0x68A1500")]
 	internal static AndroidJavaObject AndroidJavaObjectDeleteLocalRef(IntPtr jobject)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x2EA2500", Offset = "0x2EA0B00", VA = "0x182EA2500")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x68A24D0", Offset = "0x68A14D0", VA = "0x68A24D0")]
 	internal static AndroidJavaClass AndroidJavaClassDeleteLocalRef(IntPtr jclass)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000031")]
+	[Token(Token = "0x600010D")]
 	internal static ReturnType FromJavaArrayDeleteLocalRef<ReturnType>(IntPtr jobject)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x6000032")]
+	[Token(Token = "0x600010E")]
 	internal static ReturnType FromJavaArray<ReturnType>(IntPtr jobject)
 	{
 		return (ReturnType)null;
 	}
 
-	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x2EA2960", Offset = "0x2EA0F60", VA = "0x182EA2960")]
+	[Token(Token = "0x600010F")]
+	[Address(RVA = "0x68A1E50", Offset = "0x68A0E50", VA = "0x68A1E50")]
 	protected IntPtr _GetRawObject()
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x1CB0BD0", Offset = "0x1CAF1D0", VA = "0x181CB0BD0")]
+	[Token(Token = "0x6000110")]
+	[Address(RVA = "0x68A1E90", Offset = "0x68A0E90", VA = "0x68A1E90")]
 	protected IntPtr _GetRawClass()
 	{
 		return default(IntPtr);

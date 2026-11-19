@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.Spinner
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,14 +20,14 @@ internal struct Spinner
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x29B1900", Offset = "0x29AFF00", VA = "0x1829B1900")]
+	[Address(RVA = "0x6359DE0", Offset = "0x6358DE0", VA = "0x6359DE0")]
 	internal void Acquire()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x29B1970", Offset = "0x29AFF70", VA = "0x1829B1970")]
+	[Address(RVA = "0x6359E20", Offset = "0x6358E20", VA = "0x6359E20")]
 	internal bool TryAcquire()
 	{
 		return default(bool);
@@ -35,7 +35,7 @@ internal struct Spinner
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x29B19C0", Offset = "0x29AFFC0", VA = "0x1829B19C0")]
+	[Address(RVA = "0x6359E60", Offset = "0x6358E60", VA = "0x6359E60")]
 	internal bool TryAcquire(bool spin)
 	{
 		return default(bool);
@@ -43,7 +43,7 @@ internal struct Spinner
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x29B1950", Offset = "0x29AFF50", VA = "0x1829B1950")]
+	[Address(RVA = "0x6359EF0", Offset = "0x6358EF0", VA = "0x6359EF0")]
 	internal void Release()
 	{
 	}

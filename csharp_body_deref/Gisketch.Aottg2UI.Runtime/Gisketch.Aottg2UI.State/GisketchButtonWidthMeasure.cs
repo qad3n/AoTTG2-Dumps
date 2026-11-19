@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.State.GisketchButtonWidthMeasure
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/State/GisketchButtonWidthMeasure.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,21 +11,21 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.State;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x2000033")]
 internal sealed class GisketchButtonWidthMeasure : MonoBehaviour
 {
 	[Token(Token = "0x17000021")]
 	public float MinWidthFloor
 	{
-		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x584280", Offset = "0x582880", VA = "0x180584280")]
+		[Token(Token = "0x60001BF")]
+		[Address(RVA = "0x5243C30", Offset = "0x5242C30", VA = "0x5243C30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x5842A0", Offset = "0x5828A0", VA = "0x1805842A0")]
+		[Token(Token = "0x60001C0")]
+		[Address(RVA = "0x5243C40", Offset = "0x5242C40", VA = "0x5243C40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -35,29 +35,29 @@ internal sealed class GisketchButtonWidthMeasure : MonoBehaviour
 	[Token(Token = "0x17000022")]
 	public float HorizontalPadding
 	{
-		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x18A4260", Offset = "0x18A2860", VA = "0x1818A4260")]
+		[Token(Token = "0x60001C1")]
+		[Address(RVA = "0x5243C50", Offset = "0x5242C50", VA = "0x5243C50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000178")]
-		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
+		[Token(Token = "0x60001C2")]
+		[Address(RVA = "0x5243C60", Offset = "0x5242C60", VA = "0x5243C60")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x18A4240", Offset = "0x18A2840", VA = "0x1818A4240")]
+	[Token(Token = "0x60001C3")]
+	[Address(RVA = "0x5243C70", Offset = "0x5242C70", VA = "0x5243C70")]
 	public void Setup(float minWidthFloor, float horizontalPadding = 0f)
 	{
 	}
 
-	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60001C4")]
+	[Address(RVA = "0x5243C80", Offset = "0x5242C80", VA = "0x5243C80")]
 	public GisketchButtonWidthMeasure()
 	{
 	}

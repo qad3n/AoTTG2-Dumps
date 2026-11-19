@@ -21,14 +21,14 @@ internal class RectangularVertexClipper
 	private readonly Vector3[] m_CanvasCorners;
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x307C770", Offset = "0x307AD70", VA = "0x18307C770")]
+	[Address(RVA = "0x6A60790", Offset = "0x6A5F790", VA = "0x6A60790")]
 	public Rect GetCanvasRect(RectTransform t, Canvas c)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x307C920", Offset = "0x307AF20", VA = "0x18307C920")]
+	[Address(RVA = "0x6A609A0", Offset = "0x6A5F9A0", VA = "0x6A609A0")]
 	public RectangularVertexClipper()
 	{
 	}

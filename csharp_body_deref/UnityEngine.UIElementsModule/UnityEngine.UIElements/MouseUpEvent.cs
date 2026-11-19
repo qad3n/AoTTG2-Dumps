@@ -13,52 +13,52 @@ namespace UnityEngine.UIElements;
 public class MouseUpEvent : MouseEventBase<MouseUpEvent>
 {
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x3269080", Offset = "0x3267680", VA = "0x183269080")]
+	[Address(RVA = "0x6C685E0", Offset = "0x6C675E0", VA = "0x6C685E0")]
 	static MouseUpEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D69")]
-	[Address(RVA = "0x3268F80", Offset = "0x3267580", VA = "0x183268F80", Slot = "13")]
+	[Address(RVA = "0x6C686B0", Offset = "0x6C676B0", VA = "0x6C686B0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D6A")]
-	[Address(RVA = "0x3268FF0", Offset = "0x32675F0", VA = "0x183268FF0")]
+	[Address(RVA = "0x6C68710", Offset = "0x6C67710", VA = "0x6C68710")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D6B")]
-	[Address(RVA = "0x3269160", Offset = "0x3267760", VA = "0x183269160")]
+	[Address(RVA = "0x6C68740", Offset = "0x6C67740", VA = "0x6C68740")]
 	public MouseUpEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x3269040", Offset = "0x3267640", VA = "0x183269040")]
+	[Address(RVA = "0x6C687A0", Offset = "0x6C677A0", VA = "0x6C687A0")]
 	private static MouseUpEvent MakeFromPointerEvent(IPointerEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x3268F10", Offset = "0x3267510", VA = "0x183268F10")]
+	[Address(RVA = "0x6C687E0", Offset = "0x6C677E0", VA = "0x6C687E0")]
 	internal static MouseUpEvent GetPooled(PointerUpEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6E")]
-	[Address(RVA = "0x3268E30", Offset = "0x3267430", VA = "0x183268E30")]
+	[Address(RVA = "0x6C68870", Offset = "0x6C67870", VA = "0x6C68870")]
 	internal static MouseUpEvent GetPooled(PointerMoveEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6F")]
-	[Address(RVA = "0x3268EA0", Offset = "0x32674A0", VA = "0x183268EA0")]
+	[Address(RVA = "0x6C68900", Offset = "0x6C67900", VA = "0x6C68900")]
 	internal static MouseUpEvent GetPooled(PointerCancelEvent pointerEvent)
 	{
 		return null;

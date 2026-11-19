@@ -10,27 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000385")]
+[Token(Token = "0x200035E")]
 [ComVisible(true)]
 public class WellKnownClientTypeEntry : TypeEntry
 {
-	[Token(Token = "0x4000ECE")]
+	[Token(Token = "0x4000E2E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Type obj_type;
 
-	[Token(Token = "0x4000ECF")]
+	[Token(Token = "0x4000E2F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private string obj_url;
 
-	[Token(Token = "0x4000ED0")]
+	[Token(Token = "0x4000E30")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private string app_url;
 
-	[Token(Token = "0x17000350")]
+	[Token(Token = "0x1700034F")]
 	public string ApplicationUrl
 	{
-		[Token(Token = "0x6001D4D")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001D23")]
+		[Address(RVA = "0x5379670", Offset = "0x5378670", VA = "0x5379670")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000350")]
+	public Type ObjectType
+	{
+		[Token(Token = "0x6001D24")]
+		[Address(RVA = "0x5379680", Offset = "0x5378680", VA = "0x5379680")]
 		get
 		{
 			return null;
@@ -38,35 +49,24 @@ public class WellKnownClientTypeEntry : TypeEntry
 	}
 
 	[Token(Token = "0x17000351")]
-	public Type ObjectType
-	{
-		[Token(Token = "0x6001D4E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000352")]
 	public string ObjectUrl
 	{
-		[Token(Token = "0x6001D4F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001D25")]
+		[Address(RVA = "0x5379690", Offset = "0x5378690", VA = "0x5379690")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D4C")]
-	[Address(RVA = "0x1A0B290", Offset = "0x1A09890", VA = "0x181A0B290")]
+	[Token(Token = "0x6001D22")]
+	[Address(RVA = "0x5379540", Offset = "0x5378540", VA = "0x5379540")]
 	public WellKnownClientTypeEntry(string typeName, string assemblyName, string objectUrl)
 	{
 	}
 
-	[Token(Token = "0x6001D50")]
-	[Address(RVA = "0x1A0B250", Offset = "0x1A09850", VA = "0x181A0B250", Slot = "3")]
+	[Token(Token = "0x6001D26")]
+	[Address(RVA = "0x53796A0", Offset = "0x53786A0", VA = "0x53796A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

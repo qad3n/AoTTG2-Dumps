@@ -20,14 +20,14 @@ internal static class StyleSheetColor
 	private static Dictionary<string, Color32> s_NameToColor;
 
 	[Token(Token = "0x6002D9A")]
-	[Address(RVA = "0x31F5C30", Offset = "0x31F4230", VA = "0x1831F5C30")]
+	[Address(RVA = "0x6BF6900", Offset = "0x6BF5900", VA = "0x6BF6900")]
 	public static bool TryGetColor(string name, out Color color)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D9B")]
-	[Address(RVA = "0x31F5C10", Offset = "0x31F4210", VA = "0x1831F5C10")]
+	[Address(RVA = "0x6BF69F0", Offset = "0x6BF59F0", VA = "0x6BF69F0")]
 	private static Color32 HexToColor32(uint color)
 	{
 		return default(Color32);

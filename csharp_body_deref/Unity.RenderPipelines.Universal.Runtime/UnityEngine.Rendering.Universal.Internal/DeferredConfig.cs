@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.DeferredConfig
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,14 +17,14 @@ internal static class DeferredConfig
 	internal static bool IsOpenGL
 	{
 		[Token(Token = "0x6000AE5")]
-		[Address(RVA = "0x2CBC3A0", Offset = "0x2CBA9A0", VA = "0x182CBC3A0")]
+		[Address(RVA = "0x66B3040", Offset = "0x66B2040", VA = "0x66B3040")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AE6")]
-		[Address(RVA = "0x2CBC420", Offset = "0x2CBAA20", VA = "0x182CBC420")]
+		[Address(RVA = "0x66B3080", Offset = "0x66B2080", VA = "0x66B3080")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ internal static class DeferredConfig
 	internal static bool IsDX10
 	{
 		[Token(Token = "0x6000AE7")]
-		[Address(RVA = "0x2CBC360", Offset = "0x2CBA960", VA = "0x182CBC360")]
+		[Address(RVA = "0x66B30C0", Offset = "0x66B20C0", VA = "0x66B30C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AE8")]
-		[Address(RVA = "0x2CBC3E0", Offset = "0x2CBA9E0", VA = "0x182CBC3E0")]
+		[Address(RVA = "0x66B3100", Offset = "0x66B2100", VA = "0x66B3100")]
 		[CompilerGenerated]
 		set
 		{

@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200014A")]
+[Token(Token = "0x200010B")]
 public class X509Extension : AsnEncodedData
 {
-	[Token(Token = "0x40005DA")]
+	[Token(Token = "0x400050B")]
 	[FieldOffset(Offset = "0x20")]
 	private bool _critical;
 
-	[Token(Token = "0x1700018F")]
+	[Token(Token = "0x17000160")]
 	public bool Critical
 	{
-		[Token(Token = "0x6000835")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Token(Token = "0x6000675")]
+		[Address(RVA = "0x621C940", Offset = "0x621B940", VA = "0x621C940")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000836")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Token(Token = "0x6000676")]
+		[Address(RVA = "0x621C950", Offset = "0x621B950", VA = "0x621C950")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000673")]
+	[Address(RVA = "0x621C910", Offset = "0x621B910", VA = "0x621C910")]
 	protected X509Extension()
 	{
 	}
 
-	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x288FB20", Offset = "0x288E120", VA = "0x18288FB20")]
+	[Token(Token = "0x6000674")]
+	[Address(RVA = "0x621C920", Offset = "0x621B920", VA = "0x621C920")]
 	public X509Extension(string oid, byte[] rawData, bool critical)
 	{
 	}
 
-	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x288F830", Offset = "0x288DE30", VA = "0x18288F830", Slot = "4")]
+	[Token(Token = "0x6000677")]
+	[Address(RVA = "0x621C960", Offset = "0x621B960", VA = "0x621C960", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
-	[Token(Token = "0x6000838")]
-	[Address(RVA = "0x288FA20", Offset = "0x288E020", VA = "0x18288FA20")]
+	[Token(Token = "0x6000678")]
+	[Address(RVA = "0x621CA60", Offset = "0x621BA60", VA = "0x621CA60")]
 	internal string FormatUnkownData(byte[] data)
 	{
 		return null;

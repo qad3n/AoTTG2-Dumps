@@ -14,8 +14,8 @@ namespace Unity.IO.LowLevel.Unsafe;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000048")]
-[UnityEngine.Bindings.NativeConditional("ENABLE_PROFILER")]
 [UnityEngine.Bindings.NativeAsStruct]
+[UnityEngine.Bindings.NativeConditional("ENABLE_PROFILER")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class AsyncReadManagerMetricsFilters
 {

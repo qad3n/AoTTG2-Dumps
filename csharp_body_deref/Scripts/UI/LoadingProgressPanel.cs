@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.LoadingProgressPanel
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/LoadingProgressPanel.c
 // Prior real C# source (older reference): Assets/Scripts/UI/LoadingMenu/LoadingProgressPanel.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,120 +12,120 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20007CF")]
+[Token(Token = "0x200087D")]
 internal class LoadingProgressPanel : BasePopup
 {
-	[Token(Token = "0x400277C")]
+	[Token(Token = "0x4002B05")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private TMP_Text _label;
 
-	[Token(Token = "0x400277D")]
+	[Token(Token = "0x4002B06")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private RectTransform _fill;
 
-	[Token(Token = "0x17000DAA")]
+	[Token(Token = "0x17000E1C")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004BBB")]
-		[Address(RVA = "0x227B3F0", Offset = "0x22799F0", VA = "0x18227B3F0", Slot = "35")]
+		[Token(Token = "0x60050E8")]
+		[Address(RVA = "0x5C56570", Offset = "0x5C55570", VA = "0x5C56570", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000DAB")]
+	[Token(Token = "0x17000E1D")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004BBC")]
-		[Address(RVA = "0x21D9B60", Offset = "0x21D8160", VA = "0x1821D9B60", Slot = "5")]
+		[Token(Token = "0x60050E9")]
+		[Address(RVA = "0x5C565D0", Offset = "0x5C555D0", VA = "0x5C565D0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DAC")]
+	[Token(Token = "0x17000E1E")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004BBD")]
-		[Address(RVA = "0x227B3E0", Offset = "0x22799E0", VA = "0x18227B3E0", Slot = "6")]
+		[Token(Token = "0x60050EA")]
+		[Address(RVA = "0x5C565E0", Offset = "0x5C555E0", VA = "0x5C565E0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DAD")]
+	[Token(Token = "0x17000E1F")]
 	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6004BBE")]
-		[Address(RVA = "0x20CF520", Offset = "0x20CDB20", VA = "0x1820CF520", Slot = "36")]
+		[Token(Token = "0x60050EB")]
+		[Address(RVA = "0x5C565F0", Offset = "0x5C555F0", VA = "0x5C565F0", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DAE")]
+	[Token(Token = "0x17000E20")]
 	protected override float BottomBarHeight
 	{
-		[Token(Token = "0x6004BBF")]
-		[Address(RVA = "0x20CF520", Offset = "0x20CDB20", VA = "0x1820CF520", Slot = "37")]
+		[Token(Token = "0x60050EC")]
+		[Address(RVA = "0x5C56600", Offset = "0x5C55600", VA = "0x5C56600", Slot = "37")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DAF")]
+	[Token(Token = "0x17000E21")]
 	protected override PopupAnimation PopupAnimationType
 	{
-		[Token(Token = "0x6004BC0")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "54")]
+		[Token(Token = "0x60050ED")]
+		[Address(RVA = "0x5C56610", Offset = "0x5C55610", VA = "0x5C56610", Slot = "54")]
 		get
 		{
 			return default(PopupAnimation);
 		}
 	}
 
-	[Token(Token = "0x17000DB0")]
+	[Token(Token = "0x17000E22")]
 	protected override float AnimationTime
 	{
-		[Token(Token = "0x6004BC1")]
-		[Address(RVA = "0x2245D40", Offset = "0x2244340", VA = "0x182245D40", Slot = "51")]
+		[Token(Token = "0x60050EE")]
+		[Address(RVA = "0x5C56620", Offset = "0x5C55620", VA = "0x5C56620", Slot = "51")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6004BC2")]
-	[Address(RVA = "0x227AF80", Offset = "0x2279580", VA = "0x18227AF80", Slot = "20")]
+	[Token(Token = "0x60050EF")]
+	[Address(RVA = "0x5C56630", Offset = "0x5C55630", VA = "0x5C56630", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004BC3")]
-	[Address(RVA = "0x227B3A0", Offset = "0x22799A0", VA = "0x18227B3A0")]
+	[Token(Token = "0x60050F0")]
+	[Address(RVA = "0x5C56300", Offset = "0x5C55300", VA = "0x5C56300")]
 	public void ShowImmediate(float progress)
 	{
 	}
 
-	[Token(Token = "0x6004BC4")]
-	[Address(RVA = "0x227B3C0", Offset = "0x22799C0", VA = "0x18227B3C0")]
+	[Token(Token = "0x60050F1")]
+	[Address(RVA = "0x5C56320", Offset = "0x5C55320", VA = "0x5C56320")]
 	public void Show(float progress)
 	{
 	}
 
-	[Token(Token = "0x6004BC5")]
-	[Address(RVA = "0x227ADC0", Offset = "0x22793C0", VA = "0x18227ADC0")]
+	[Token(Token = "0x60050F2")]
+	[Address(RVA = "0x5C56A00", Offset = "0x5C55A00", VA = "0x5C56A00")]
 	private void SetProgress(float progress)
 	{
 	}
 
-	[Token(Token = "0x6004BC6")]
-	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
+	[Token(Token = "0x60050F3")]
+	[Address(RVA = "0x5C56BD0", Offset = "0x5C55BD0", VA = "0x5C56BD0")]
 	public LoadingProgressPanel()
 	{
 	}

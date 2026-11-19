@@ -13,14 +13,14 @@ namespace UnityEngine.UIElements;
 internal static class KeyboardEventExtensions
 {
 	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x32673C0", Offset = "0x32659C0", VA = "0x1832673C0")]
+	[Address(RVA = "0x6C67770", Offset = "0x6C66770", VA = "0x6C67770")]
 	internal static bool ShouldSendNavigationMoveEvent(this KeyDownEvent e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x3267370", Offset = "0x3265970", VA = "0x183267370")]
+	[Address(RVA = "0x6C67AD0", Offset = "0x6C66AD0", VA = "0x6C67AD0")]
 	internal static bool ShouldSendNavigationMoveEventRuntime(this Event e)
 	{
 		return default(bool);

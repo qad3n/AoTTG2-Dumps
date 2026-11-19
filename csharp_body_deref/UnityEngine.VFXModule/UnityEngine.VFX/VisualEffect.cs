@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.VFX.VisualEffect
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ public class VisualEffect : Behaviour
 	public VisualEffectAsset visualEffectAsset
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3311400", Offset = "0x330FA00", VA = "0x183311400")]
+		[Address(RVA = "0x6D20C70", Offset = "0x6D1FC70", VA = "0x6D20C70")]
 		get
 		{
 			return null;
@@ -39,14 +39,14 @@ public class VisualEffect : Behaviour
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x3311000", Offset = "0x330F600", VA = "0x183311000")]
+	[Address(RVA = "0x6D20D40", Offset = "0x6D1FD40", VA = "0x6D20D40")]
 	public VFXEventAttribute CreateVFXEventAttribute()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x3311190", Offset = "0x330F790", VA = "0x183311190")]
+	[Address(RVA = "0x6D20DC0", Offset = "0x6D1FDC0", VA = "0x6D20DC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static VFXEventAttribute InvokeGetCachedEventAttributeForOutputEvent_Internal(VisualEffect source)
 	{
@@ -54,7 +54,7 @@ public class VisualEffect : Behaviour
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x3311360", Offset = "0x330F960", VA = "0x183311360")]
+	[Address(RVA = "0x6D20E80", Offset = "0x6D1FE80", VA = "0x6D20E80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOutputEventReceived_Internal(VisualEffect source, int eventNameId)
 	{
@@ -62,6 +62,6 @@ public class VisualEffect : Behaviour
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x33113C0", Offset = "0x330F9C0", VA = "0x1833113C0")]
+	[Address(RVA = "0x6D20D10", Offset = "0x6D1FD10", VA = "0x6D20D10")]
 	private static extern IntPtr get_visualEffectAsset_Injected(IntPtr _unity_self);
 }

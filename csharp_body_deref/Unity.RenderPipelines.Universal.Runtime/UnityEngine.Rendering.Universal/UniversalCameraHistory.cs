@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalCameraHistory
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,7 +38,7 @@ public class UniversalCameraHistory : ICameraHistoryReadAccess, ICameraHistoryWr
 		public int writeVersion;
 
 		[Token(Token = "0x6000A19")]
-		[Address(RVA = "0x2C91A40", Offset = "0x2C90040", VA = "0x182C91A40")]
+		[Address(RVA = "0x66A0010", Offset = "0x669F010", VA = "0x66A0010")]
 		public void Reset()
 		{
 		}
@@ -72,13 +72,13 @@ public class UniversalCameraHistory : ICameraHistoryReadAccess, ICameraHistoryWr
 	public event ICameraHistoryReadAccess.HistoryRequestDelegate OnGatherHistoryRequests
 	{
 		[Token(Token = "0x6000A0F")]
-		[Address(RVA = "0x2CA4F00", Offset = "0x2CA3500", VA = "0x182CA4F00", Slot = "5")]
+		[Address(RVA = "0x669FEF0", Offset = "0x669EEF0", VA = "0x669FEF0", Slot = "5")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000A10")]
-		[Address(RVA = "0x2CA4FA0", Offset = "0x2CA35A0", VA = "0x182CA4FA0", Slot = "6")]
+		[Address(RVA = "0x669FF80", Offset = "0x669EF80", VA = "0x669FF80", Slot = "6")]
 		[CompilerGenerated]
 		remove
 		{
@@ -115,45 +115,45 @@ public class UniversalCameraHistory : ICameraHistoryReadAccess, ICameraHistoryWr
 	}
 
 	[Token(Token = "0x6000A11")]
-	[Address(RVA = "0x2CA4DE0", Offset = "0x2CA33E0", VA = "0x182CA4DE0")]
+	[Address(RVA = "0x669F540", Offset = "0x669E540", VA = "0x669F540")]
 	internal UniversalCameraHistory()
 	{
 	}
 
 	[Token(Token = "0x6000A12")]
-	[Address(RVA = "0x2CA4BC0", Offset = "0x2CA31C0", VA = "0x182CA4BC0", Slot = "11")]
+	[Address(RVA = "0x669F440", Offset = "0x669E440", VA = "0x669F440", Slot = "11")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000A13")]
-	[Address(RVA = "0x2CA4C60", Offset = "0x2CA3260", VA = "0x182CA4C60")]
+	[Address(RVA = "0x66A0040", Offset = "0x669F040", VA = "0x66A0040")]
 	internal void GatherHistoryRequests()
 	{
 	}
 
 	[Token(Token = "0x6000A14")]
-	[Address(RVA = "0x2CA4C80", Offset = "0x2CA3280", VA = "0x182CA4C80")]
+	[Address(RVA = "0x66A0060", Offset = "0x669F060", VA = "0x66A0060")]
 	private bool IsValidRequest(int i)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A15")]
-	[Address(RVA = "0x2CA4CC0", Offset = "0x2CA32C0", VA = "0x182CA4CC0")]
+	[Address(RVA = "0x66A0090", Offset = "0x669F090", VA = "0x66A0090")]
 	private bool IsValid(int i)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A16")]
-	[Address(RVA = "0x2CA4D00", Offset = "0x2CA3300", VA = "0x182CA4D00")]
+	[Address(RVA = "0x66A00C0", Offset = "0x669F0C0", VA = "0x66A00C0")]
 	internal void ReleaseUnusedHistory()
 	{
 	}
 
 	[Token(Token = "0x6000A17")]
-	[Address(RVA = "0x2CA4DC0", Offset = "0x2CA33C0", VA = "0x182CA4DC0")]
+	[Address(RVA = "0x66A0170", Offset = "0x669F170", VA = "0x66A0170")]
 	internal void SwapAndSetReferenceSize(int cameraWidth, int cameraHeight)
 	{
 	}

@@ -1,0 +1,54 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerButton
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+using UnityEngine.UI;
+
+namespace UnityEngine.Rendering.UI;
+
+[Token(Token = "0x20002D1")]
+public class DebugUIHandlerButton : DebugUIHandlerWidget
+{
+	[Token(Token = "0x4000D26")]
+	[FieldOffset(Offset = "0x60")]
+	public Text nameLabel;
+
+	[Token(Token = "0x4000D27")]
+	[FieldOffset(Offset = "0x68")]
+	private DebugUI.Button m_Field;
+
+	[Token(Token = "0x60013EB")]
+	[Address(RVA = "0x65A3CA0", Offset = "0x65A2CA0", VA = "0x65A3CA0", Slot = "5")]
+	internal override void SetWidget(DebugUI.Widget widget)
+	{
+	}
+
+	[Token(Token = "0x60013EC")]
+	[Address(RVA = "0x65A3D30", Offset = "0x65A2D30", VA = "0x65A3D30", Slot = "6")]
+	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60013ED")]
+	[Address(RVA = "0x65A3D60", Offset = "0x65A2D60", VA = "0x65A3D60", Slot = "7")]
+	public override void OnDeselection()
+	{
+	}
+
+	[Token(Token = "0x60013EE")]
+	[Address(RVA = "0x65A3D90", Offset = "0x65A2D90", VA = "0x65A3D90", Slot = "8")]
+	public override void OnAction()
+	{
+	}
+
+	[Token(Token = "0x60013EF")]
+	[Address(RVA = "0x65A3DC0", Offset = "0x65A2DC0", VA = "0x65A3DC0")]
+	public DebugUIHandlerButton()
+	{
+	}
+}

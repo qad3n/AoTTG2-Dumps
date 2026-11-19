@@ -11,48 +11,48 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x20008B5")]
+[Token(Token = "0x2000920")]
 public static class QuaternionCompression
 {
-	[Token(Token = "0x4002B43")]
+	[Token(Token = "0x4002DFA")]
 	private const ushort k_PrecisionMask = 511;
 
-	[Token(Token = "0x4002B44")]
+	[Token(Token = "0x4002DFB")]
 	private const float k_SqrtTwoOverTwoEncoding = 0.70710677f;
 
-	[Token(Token = "0x4002B45")]
+	[Token(Token = "0x4002DFC")]
 	private const float k_CompressionEcodingMask = 722.66315f;
 
-	[Token(Token = "0x4002B46")]
+	[Token(Token = "0x4002DFD")]
 	private const ushort k_ShiftNegativeBit = 9;
 
-	[Token(Token = "0x4002B47")]
+	[Token(Token = "0x4002DFE")]
 	private const float k_DcompressionDecodingMask = 0.0013837706f;
 
-	[Token(Token = "0x4002B48")]
+	[Token(Token = "0x4002DFF")]
 	private const ushort k_NegShortBit = 512;
 
-	[Token(Token = "0x4002B49")]
+	[Token(Token = "0x4002E00")]
 	private const ushort k_True = 1;
 
-	[Token(Token = "0x4002B4A")]
+	[Token(Token = "0x4002E01")]
 	private const ushort k_False = 0;
 
-	[Token(Token = "0x4002B4B")]
+	[Token(Token = "0x4002E02")]
 	[FieldOffset(Offset = "0x0")]
 	private static Quaternion s_QuatAbsValues;
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6005304")]
-	[Address(RVA = "0x233E1E0", Offset = "0x233C7E0", VA = "0x18233E1E0")]
+	[Token(Token = "0x600565B")]
+	[Address(RVA = "0x5CEA980", Offset = "0x5CE9980", VA = "0x5CEA980")]
 	public static int CompressQuaternion(ref Quaternion quaternion)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6005305")]
-	[Address(RVA = "0x208D520", Offset = "0x208BB20", VA = "0x18208D520")]
+	[Token(Token = "0x600565C")]
+	[Address(RVA = "0x5CEB010", Offset = "0x5CEA010", VA = "0x5CEB010")]
 	public static void DecompressQuaternion(ref Quaternion quaternion, int rawCompressed)
 	{
 	}

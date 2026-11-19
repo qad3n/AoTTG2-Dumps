@@ -35,13 +35,13 @@ public class fsObjectAttribute : Attribute
 	public Type Processor;
 
 	[Token(Token = "0x60012A5")]
-	[Address(RVA = "0x2E71070", Offset = "0x2E6F670", VA = "0x182E71070")]
+	[Address(RVA = "0x6869740", Offset = "0x6868740", VA = "0x6869740")]
 	public fsObjectAttribute()
 	{
 	}
 
 	[Token(Token = "0x60012A6")]
-	[Address(RVA = "0x2E71010", Offset = "0x2E6F610", VA = "0x182E71010")]
+	[Address(RVA = "0x6869750", Offset = "0x6868750", VA = "0x6869750")]
 	public fsObjectAttribute(string versionString, params Type[] previousModels)
 	{
 	}

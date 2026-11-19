@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009B")]
+[Token(Token = "0x200009C")]
 [DebuggerTypeProxy(typeof(ListInitExpressionProxy))]
 public sealed class ListInitExpression : Expression
 {
-	[Token(Token = "0x170000B7")]
+	[Token(Token = "0x170000B9")]
 	public NewExpression NewExpression
 	{
-		[Token(Token = "0x6000463")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600046E")]
+		[Address(RVA = "0x5DD29E0", Offset = "0x5DD19E0", VA = "0x5DD29E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,11 +28,11 @@ public sealed class ListInitExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x170000B8")]
+	[Token(Token = "0x170000BA")]
 	public ReadOnlyCollection<ElementInit> Initializers
 	{
-		[Token(Token = "0x6000464")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600046F")]
+		[Address(RVA = "0x5DD29F0", Offset = "0x5DD19F0", VA = "0x5DD29F0")]
 		[CompilerGenerated]
 		get
 		{

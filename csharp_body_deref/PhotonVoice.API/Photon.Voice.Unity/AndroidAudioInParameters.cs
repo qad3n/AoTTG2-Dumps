@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 namespace Photon.Voice.Unity;
 
 [Serializable]
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x200009E")]
 public struct AndroidAudioInParameters
 {
-	[Token(Token = "0x40002AB")]
+	[Token(Token = "0x400029D")]
 	[FieldOffset(Offset = "0x0")]
 	public bool EnableAEC;
 
-	[Token(Token = "0x40002AC")]
+	[Token(Token = "0x400029E")]
 	[FieldOffset(Offset = "0x1")]
 	public bool EnableAGC;
 
-	[Token(Token = "0x40002AD")]
+	[Token(Token = "0x400029F")]
 	[FieldOffset(Offset = "0x2")]
 	public bool EnableNS;
 
-	[Token(Token = "0x40002AE")]
+	[Token(Token = "0x40002A0")]
 	[FieldOffset(Offset = "0x0")]
 	public static AndroidAudioInParameters Default;
 }

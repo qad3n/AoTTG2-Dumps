@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsRelativeJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -52,8 +52,8 @@ public struct PhysicsRelativeJointDefinition
 
 	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0x40")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_MaxTorque;
 
 	[Token(Token = "0x400008D")]
@@ -70,8 +70,8 @@ public struct PhysicsRelativeJointDefinition
 
 	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x4C")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_SpringLinearDamping;
 
 	[Token(Token = "0x4000090")]
@@ -82,14 +82,14 @@ public struct PhysicsRelativeJointDefinition
 
 	[Token(Token = "0x4000091")]
 	[FieldOffset(Offset = "0x54")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_SpringMaxForce;
 
 	[Token(Token = "0x4000092")]
 	[FieldOffset(Offset = "0x58")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_SpringMaxTorque;
 
 	[Token(Token = "0x4000093")]
@@ -100,8 +100,8 @@ public struct PhysicsRelativeJointDefinition
 
 	[Token(Token = "0x4000094")]
 	[FieldOffset(Offset = "0x60")]
-	[SerializeField]
 	[Min(0f)]
+	[SerializeField]
 	private float m_TorqueThreshold;
 
 	[Token(Token = "0x4000095")]
@@ -118,8 +118,8 @@ public struct PhysicsRelativeJointDefinition
 
 	[Token(Token = "0x4000097")]
 	[FieldOffset(Offset = "0x6C")]
-	[Range(0.001f, 10f)]
 	[SerializeField]
+	[Range(0.001f, 10f)]
 	private float m_DrawScale;
 
 	[Token(Token = "0x4000098")]
@@ -131,7 +131,7 @@ public struct PhysicsRelativeJointDefinition
 	public static PhysicsRelativeJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x2FD5DE0", Offset = "0x2FD43E0", VA = "0x182FD5DE0")]
+		[Address(RVA = "0x69CBE60", Offset = "0x69CAE60", VA = "0x69CBE60")]
 		get
 		{
 			return default(PhysicsRelativeJointDefinition);
@@ -139,13 +139,13 @@ public struct PhysicsRelativeJointDefinition
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2FD5C50", Offset = "0x2FD4250", VA = "0x182FD5C50")]
+	[Address(RVA = "0x69CBD70", Offset = "0x69CAD70", VA = "0x69CBD70")]
 	public PhysicsRelativeJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2FD5D10", Offset = "0x2FD4310", VA = "0x182FD5D10")]
+	[Address(RVA = "0x69C9090", Offset = "0x69C8090", VA = "0x69C9090")]
 	public PhysicsRelativeJointDefinition(bool useSettings)
 	{
 	}

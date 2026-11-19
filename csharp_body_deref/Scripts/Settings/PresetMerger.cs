@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.PresetMerger
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Settings/PresetMerger.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200007F")]
+[Token(Token = "0x20000B6")]
 public static class PresetMerger
 {
-	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x1DC9250", Offset = "0x1DC7850", VA = "0x181DC9250")]
+	[Token(Token = "0x60004C2")]
+	[Address(RVA = "0x5A3BD80", Offset = "0x5A3AD80", VA = "0x5A3BD80")]
 	public static PresetDefinition Merge(PresetDefinition basePreset, PresetDefinition child)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x1DC8E70", Offset = "0x1DC7470", VA = "0x181DC8E70")]
+	[Token(Token = "0x60004C3")]
+	[Address(RVA = "0x5A3BF40", Offset = "0x5A3AF40", VA = "0x5A3BF40")]
 	private static List<UIRule> MergeUIRuleLists(List<UIRule> baseRules, List<UIRule> childRules)
 	{
 		return null;

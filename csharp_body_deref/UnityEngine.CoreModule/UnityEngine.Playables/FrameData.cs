@@ -17,53 +17,53 @@ public struct FrameData
 	[Flags]
 	internal enum Flags
 	{
-		[Token(Token = "0x400079B")]
+		[Token(Token = "0x4000799")]
 		Evaluate = 1,
-		[Token(Token = "0x400079C")]
+		[Token(Token = "0x400079A")]
 		SeekOccured = 2,
-		[Token(Token = "0x400079D")]
+		[Token(Token = "0x400079B")]
 		Loop = 4,
-		[Token(Token = "0x400079E")]
+		[Token(Token = "0x400079C")]
 		Hold = 8,
-		[Token(Token = "0x400079F")]
+		[Token(Token = "0x400079D")]
 		EffectivePlayStateDelayed = 0x10,
-		[Token(Token = "0x40007A0")]
+		[Token(Token = "0x400079E")]
 		EffectivePlayStatePlaying = 0x20
 	}
 
-	[Token(Token = "0x4000791")]
+	[Token(Token = "0x400078F")]
 	[FieldOffset(Offset = "0x0")]
 	internal ulong m_FrameID;
 
-	[Token(Token = "0x4000792")]
+	[Token(Token = "0x4000790")]
 	[FieldOffset(Offset = "0x8")]
 	internal double m_DeltaTime;
 
-	[Token(Token = "0x4000793")]
+	[Token(Token = "0x4000791")]
 	[FieldOffset(Offset = "0x10")]
 	internal float m_Weight;
 
-	[Token(Token = "0x4000794")]
+	[Token(Token = "0x4000792")]
 	[FieldOffset(Offset = "0x14")]
 	internal float m_EffectiveWeight;
 
-	[Token(Token = "0x4000795")]
+	[Token(Token = "0x4000793")]
 	[FieldOffset(Offset = "0x18")]
 	internal double m_EffectiveParentDelay;
 
-	[Token(Token = "0x4000796")]
+	[Token(Token = "0x4000794")]
 	[FieldOffset(Offset = "0x20")]
 	internal float m_EffectiveParentSpeed;
 
-	[Token(Token = "0x4000797")]
+	[Token(Token = "0x4000795")]
 	[FieldOffset(Offset = "0x24")]
 	internal float m_EffectiveSpeed;
 
-	[Token(Token = "0x4000798")]
+	[Token(Token = "0x4000796")]
 	[FieldOffset(Offset = "0x28")]
 	internal Flags m_Flags;
 
-	[Token(Token = "0x4000799")]
+	[Token(Token = "0x4000797")]
 	[FieldOffset(Offset = "0x30")]
 	internal PlayableOutput m_Output;
 }

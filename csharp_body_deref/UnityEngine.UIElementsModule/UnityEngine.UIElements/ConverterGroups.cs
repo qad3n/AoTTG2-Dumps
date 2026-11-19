@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ConverterGroups
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,7 +18,7 @@ public static class ConverterGroups
 	internal struct Unsafe
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x3097400", Offset = "0x3095A00", VA = "0x183097400")]
+		[Address(RVA = "0x6A80460", Offset = "0x6A7F460", VA = "0x6A80460")]
 		public static void LazyRegisterGlobal(Type source, Type destination, Func<Delegate> converterDelegate)
 		{
 		}

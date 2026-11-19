@@ -27,7 +27,7 @@ public class UxmlTemplateTraits : UxmlTraits
 	private UxmlStringAttributeDescription m_Src;
 
 	[Token(Token = "0x600263C")]
-	[Address(RVA = "0x3158D40", Offset = "0x3157340", VA = "0x183158D40")]
+	[Address(RVA = "0x6B573A0", Offset = "0x6B563A0", VA = "0x6B573A0")]
 	public UxmlTemplateTraits()
 	{
 	}

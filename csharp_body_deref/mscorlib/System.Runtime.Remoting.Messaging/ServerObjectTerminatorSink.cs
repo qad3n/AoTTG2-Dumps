@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003F0")]
+[Token(Token = "0x20003C9")]
 internal class ServerObjectTerminatorSink : IMessageSink
 {
-	[Token(Token = "0x4000FC4")]
+	[Token(Token = "0x4000F24")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink _nextSink;
 
-	[Token(Token = "0x6001F7D")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6001F53")]
+	[Address(RVA = "0x5383630", Offset = "0x5382630", VA = "0x5383630")]
 	public ServerObjectTerminatorSink(IMessageSink nextSink)
 	{
 	}
 
-	[Token(Token = "0x6001F7E")]
-	[Address(RVA = "0x1A08900", Offset = "0x1A06F00", VA = "0x181A08900", Slot = "4")]
+	[Token(Token = "0x6001F54")]
+	[Address(RVA = "0x539A630", Offset = "0x5399630", VA = "0x539A630", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F7F")]
-	[Address(RVA = "0x1A08770", Offset = "0x1A06D70", VA = "0x181A08770", Slot = "5")]
+	[Token(Token = "0x6001F55")]
+	[Address(RVA = "0x539A7A0", Offset = "0x53997A0", VA = "0x539A7A0", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

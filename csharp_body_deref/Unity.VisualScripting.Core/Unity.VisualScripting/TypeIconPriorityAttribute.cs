@@ -19,7 +19,7 @@ public sealed class TypeIconPriorityAttribute : Attribute
 	public int priority
 	{
 		[Token(Token = "0x6000211")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6793440", Offset = "0x6792440", VA = "0x6793440")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,13 +28,13 @@ public sealed class TypeIconPriorityAttribute : Attribute
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x6793400", Offset = "0x6792400", VA = "0x6793400")]
 	public TypeIconPriorityAttribute(int priority)
 	{
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x287DA40", Offset = "0x287C040", VA = "0x18287DA40")]
+	[Address(RVA = "0x6793420", Offset = "0x6792420", VA = "0x6793420")]
 	public TypeIconPriorityAttribute()
 	{
 	}

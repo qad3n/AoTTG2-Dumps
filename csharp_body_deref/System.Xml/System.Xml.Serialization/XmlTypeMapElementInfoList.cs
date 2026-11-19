@@ -14,7 +14,7 @@ namespace System.Xml.Serialization;
 internal class XmlTypeMapElementInfoList : ArrayList
 {
 	[Token(Token = "0x6000E9C")]
-	[Address(RVA = "0x278CD10", Offset = "0x278B310", VA = "0x18278CD10")]
+	[Address(RVA = "0x6137700", Offset = "0x6136700", VA = "0x6137700")]
 	public XmlTypeMapElementInfoList()
 	{
 	}

@@ -29,7 +29,7 @@ internal class AxisStack
 	internal ForwardAxis Subtree
 	{
 		[Token(Token = "0x6000F28")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x613CE20", Offset = "0x613BE20", VA = "0x613CE20")]
 		get
 		{
 			return null;
@@ -40,7 +40,7 @@ internal class AxisStack
 	internal int Length
 	{
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x1AB8C80", Offset = "0x1AB7280", VA = "0x181AB8C80")]
+		[Address(RVA = "0x613CE30", Offset = "0x613BE30", VA = "0x613CE30")]
 		get
 		{
 			return default(int);
@@ -48,45 +48,45 @@ internal class AxisStack
 	}
 
 	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x2776EF0", Offset = "0x27754F0", VA = "0x182776EF0")]
+	[Address(RVA = "0x613CE60", Offset = "0x613BE60", VA = "0x613CE60")]
 	public AxisStack(ForwardAxis faxis, ActiveAxis parent)
 	{
 	}
 
 	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x2776E40", Offset = "0x2775440", VA = "0x182776E40")]
+	[Address(RVA = "0x613CF20", Offset = "0x613BF20", VA = "0x613CF20")]
 	internal void Push(int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x2776DF0", Offset = "0x27753F0", VA = "0x182776DF0")]
+	[Address(RVA = "0x613CFC0", Offset = "0x613BFC0", VA = "0x613CFC0")]
 	internal void Pop()
 	{
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x2776560", Offset = "0x2774B60", VA = "0x182776560")]
+	[Address(RVA = "0x613CDB0", Offset = "0x613BDB0", VA = "0x613CDB0")]
 	internal static bool Equal(string thisname, string thisURN, string name, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x2776AF0", Offset = "0x27750F0", VA = "0x182776AF0")]
+	[Address(RVA = "0x613D000", Offset = "0x613C000", VA = "0x613D000")]
 	internal void MoveToParent(string name, string URN, int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x27767F0", Offset = "0x2774DF0", VA = "0x1827767F0")]
+	[Address(RVA = "0x613D1D0", Offset = "0x613C1D0", VA = "0x613D1D0")]
 	internal bool MoveToChild(string name, string URN, int depth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x27765E0", Offset = "0x2774BE0", VA = "0x1827765E0")]
+	[Address(RVA = "0x613D360", Offset = "0x613C360", VA = "0x613D360")]
 	internal bool MoveToAttribute(string name, string URN, int depth)
 	{
 		return default(bool);

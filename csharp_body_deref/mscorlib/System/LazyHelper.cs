@@ -12,38 +12,38 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200010A")]
+[Token(Token = "0x20000E2")]
 internal class LazyHelper
 {
-	[Token(Token = "0x4000403")]
+	[Token(Token = "0x400035E")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly System.LazyHelper NoneViaConstructor;
 
-	[Token(Token = "0x4000404")]
+	[Token(Token = "0x400035F")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly System.LazyHelper NoneViaFactory;
 
-	[Token(Token = "0x4000405")]
+	[Token(Token = "0x4000360")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly System.LazyHelper PublicationOnlyViaConstructor;
 
-	[Token(Token = "0x4000406")]
+	[Token(Token = "0x4000361")]
 	[FieldOffset(Offset = "0x18")]
 	internal static readonly System.LazyHelper PublicationOnlyViaFactory;
 
-	[Token(Token = "0x4000407")]
+	[Token(Token = "0x4000362")]
 	[FieldOffset(Offset = "0x20")]
 	internal static readonly System.LazyHelper PublicationOnlyWaitForOtherThreadToPublish;
 
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x4000364")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly ExceptionDispatchInfo _exceptionDispatch;
 
 	[Token(Token = "0x17000091")]
 	internal System.LazyState State
 	{
-		[Token(Token = "0x6000859")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6000834")]
+		[Address(RVA = "0x54B9C80", Offset = "0x54B8C80", VA = "0x54B9C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -51,40 +51,40 @@ internal class LazyHelper
 		}
 	}
 
-	[Token(Token = "0x600085A")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Token(Token = "0x6000835")]
+	[Address(RVA = "0x54B9C90", Offset = "0x54B8C90", VA = "0x54B9C90")]
 	internal LazyHelper(System.LazyState state)
 	{
 	}
 
-	[Token(Token = "0x600085B")]
-	[Address(RVA = "0x1B2B460", Offset = "0x1B29A60", VA = "0x181B2B460")]
+	[Token(Token = "0x6000836")]
+	[Address(RVA = "0x54B9CB0", Offset = "0x54B8CB0", VA = "0x54B9CB0")]
 	internal LazyHelper(LazyThreadSafetyMode mode, Exception exception)
 	{
 	}
 
-	[Token(Token = "0x600085C")]
-	[Address(RVA = "0x1B2B2A0", Offset = "0x1B298A0", VA = "0x181B2B2A0")]
+	[Token(Token = "0x6000837")]
+	[Address(RVA = "0x54B9D00", Offset = "0x54B8D00", VA = "0x54B9D00")]
 	internal void ThrowException()
 	{
 	}
 
-	[Token(Token = "0x600085D")]
-	[Address(RVA = "0x1B2B0F0", Offset = "0x1B296F0", VA = "0x181B2B0F0")]
+	[Token(Token = "0x6000838")]
+	[Address(RVA = "0x54B9D20", Offset = "0x54B8D20", VA = "0x54B9D20")]
 	internal static System.LazyHelper Create(LazyThreadSafetyMode mode, bool useDefaultConstructor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600085E")]
-	[Address(RVA = "0x1B2B080", Offset = "0x1B29680", VA = "0x181B2B080")]
+	[Token(Token = "0x6000839")]
+	[Address(RVA = "0x54B9E80", Offset = "0x54B8E80", VA = "0x54B9E80")]
 	internal static object CreateViaDefaultConstructor(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600085F")]
-	[Address(RVA = "0x1B2B290", Offset = "0x1B29890", VA = "0x181B2B290")]
+	[Token(Token = "0x600083A")]
+	[Address(RVA = "0x54B9F50", Offset = "0x54B8F50", VA = "0x54B9F50")]
 	internal static LazyThreadSafetyMode GetModeFromIsThreadSafe(bool isThreadSafe)
 	{
 		return default(LazyThreadSafetyMode);

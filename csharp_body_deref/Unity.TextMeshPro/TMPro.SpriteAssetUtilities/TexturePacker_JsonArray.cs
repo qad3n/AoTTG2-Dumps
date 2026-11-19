@@ -36,7 +36,7 @@ public class TexturePacker_JsonArray
 		public float h;
 
 		[Token(Token = "0x6000727")]
-		[Address(RVA = "0x2D7E700", Offset = "0x2D7CD00", VA = "0x182D7E700", Slot = "3")]
+		[Address(RVA = "0x6774F00", Offset = "0x6773F00", VA = "0x6774F00", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -56,7 +56,7 @@ public class TexturePacker_JsonArray
 		public float h;
 
 		[Token(Token = "0x6000728")]
-		[Address(RVA = "0x2D7E8D0", Offset = "0x2D7CED0", VA = "0x182D7E8D0", Slot = "3")]
+		[Address(RVA = "0x67750D0", Offset = "0x67740D0", VA = "0x67750D0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -142,14 +142,14 @@ public class TexturePacker_JsonArray
 		public Meta meta;
 
 		[Token(Token = "0x6000729")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6775160", Offset = "0x6774160", VA = "0x6775160")]
 		public SpriteDataObject()
 		{
 		}
 	}
 
 	[Token(Token = "0x6000726")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6774EF0", Offset = "0x6773EF0", VA = "0x6774EF0")]
 	public TexturePacker_JsonArray()
 	{
 	}

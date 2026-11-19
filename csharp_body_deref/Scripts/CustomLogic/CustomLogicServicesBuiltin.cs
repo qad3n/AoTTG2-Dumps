@@ -16,107 +16,107 @@ using UnityEngine.Networking;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000578")]
+[Token(Token = "0x20005D7")]
 [CompilerGenerated]
 internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000579")]
+	[Token(Token = "0x20005D8")]
 	public static class Factory
 	{
-		[Token(Token = "0x60033D2")]
-		[Address(RVA = "0x203CE80", Offset = "0x203B480", VA = "0x18203CE80")]
+		[Token(Token = "0x600365E")]
+		[Address(RVA = "0x59F84F0", Offset = "0x59F74F0", VA = "0x59F84F0")]
 		public static CustomLogicServicesBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200057A")]
+	[Token(Token = "0x20005D9")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40017AD")]
+		[Token(Token = "0x400194D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60033D3")]
-		[Address(RVA = "0x2019700", Offset = "0x2017D00", VA = "0x182019700")]
+		[Token(Token = "0x600365F")]
+		[Address(RVA = "0x59F8610", Offset = "0x59F7610", VA = "0x59F8610")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D4")]
-		[Address(RVA = "0x20257F0", Offset = "0x2023DF0", VA = "0x1820257F0")]
+		[Token(Token = "0x6003660")]
+		[Address(RVA = "0x59F8880", Offset = "0x59F7880", VA = "0x59F8880")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__CheckPermissions()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D5")]
-		[Address(RVA = "0x2028770", Offset = "0x2026D70", VA = "0x182028770")]
+		[Token(Token = "0x6003661")]
+		[Address(RVA = "0x59F89C0", Offset = "0x59F79C0", VA = "0x59F89C0")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__GetSecret()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D6")]
-		[Address(RVA = "0x2028BF0", Offset = "0x20271F0", VA = "0x182028BF0")]
+		[Token(Token = "0x6003662")]
+		[Address(RVA = "0x59F8B00", Offset = "0x59F7B00", VA = "0x59F8B00")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__Get()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D7")]
-		[Address(RVA = "0x2029500", Offset = "0x2027B00", VA = "0x182029500")]
+		[Token(Token = "0x6003663")]
+		[Address(RVA = "0x59F8C40", Offset = "0x59F7C40", VA = "0x59F8C40")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__Post()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D8")]
-		[Address(RVA = "0x2029980", Offset = "0x2027F80", VA = "0x182029980")]
+		[Token(Token = "0x6003664")]
+		[Address(RVA = "0x59F8D80", Offset = "0x59F7D80", VA = "0x59F8D80")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__Put()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60033D9")]
-		[Address(RVA = "0x2026210", Offset = "0x2024810", VA = "0x182026210")]
+		[Token(Token = "0x6003665")]
+		[Address(RVA = "0x59F8EC0", Offset = "0x59F7EC0", VA = "0x59F8EC0")]
 		public static CLMethodBinding<CustomLogicServicesBuiltin> __CreateMethodBinding__Delete()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200057C")]
+	[Token(Token = "0x20005DB")]
 	[CompilerGenerated]
 	private sealed class _003CDeleteRequest_003Ed__16 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40017B5")]
+		[Token(Token = "0x4001955")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40017B6")]
+		[Token(Token = "0x4001956")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40017B7")]
+		[Token(Token = "0x4001957")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string uri;
 
-		[Token(Token = "0x40017B8")]
+		[Token(Token = "0x4001958")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public UserMethod callback;
 
-		[Token(Token = "0x40017B9")]
+		[Token(Token = "0x4001959")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private UnityWebRequest _003Cwww_003E5__2;
 
-		[Token(Token = "0x17000989")]
+		[Token(Token = "0x170009D1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60033E7")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6003673")]
+			[Address(RVA = "0x59F9D10", Offset = "0x59F8D10", VA = "0x59F9D10", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -124,11 +124,11 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x1700098A")]
+		[Token(Token = "0x170009D2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60033E9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6003675")]
+			[Address(RVA = "0x59F9D60", Offset = "0x59F8D60", VA = "0x59F9D60", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -136,70 +136,70 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x60033E3")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x600366F")]
+		[Address(RVA = "0x59F82E0", Offset = "0x59F72E0", VA = "0x59F82E0")]
 		[DebuggerHidden]
 		public _003CDeleteRequest_003Ed__16(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60033E4")]
-		[Address(RVA = "0x20751F0", Offset = "0x20737F0", VA = "0x1820751F0", Slot = "5")]
+		[Token(Token = "0x6003670")]
+		[Address(RVA = "0x59F97D0", Offset = "0x59F87D0", VA = "0x59F97D0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60033E5")]
-		[Address(RVA = "0x2074E20", Offset = "0x2073420", VA = "0x182074E20", Slot = "6")]
+		[Token(Token = "0x6003671")]
+		[Address(RVA = "0x59F9880", Offset = "0x59F8880", VA = "0x59F9880", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60033E6")]
-		[Address(RVA = "0x2075280", Offset = "0x2073880", VA = "0x182075280")]
+		[Token(Token = "0x6003672")]
+		[Address(RVA = "0x59F9C70", Offset = "0x59F8C70", VA = "0x59F9C70")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60033E8")]
-		[Address(RVA = "0x20751B0", Offset = "0x20737B0", VA = "0x1820751B0", Slot = "8")]
+		[Token(Token = "0x6003674")]
+		[Address(RVA = "0x59F9D20", Offset = "0x59F8D20", VA = "0x59F9D20", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200057D")]
+	[Token(Token = "0x20005DC")]
 	[CompilerGenerated]
 	private sealed class _003CGetRequest_003Ed__13 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40017BA")]
+		[Token(Token = "0x400195A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40017BB")]
+		[Token(Token = "0x400195B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40017BC")]
+		[Token(Token = "0x400195C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string uri;
 
-		[Token(Token = "0x40017BD")]
+		[Token(Token = "0x400195D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public UserMethod callback;
 
-		[Token(Token = "0x40017BE")]
+		[Token(Token = "0x400195E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private UnityWebRequest _003CwebRequest_003E5__2;
 
-		[Token(Token = "0x1700098B")]
+		[Token(Token = "0x170009D3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60033EE")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x600367A")]
+			[Address(RVA = "0x59FA2D0", Offset = "0x59F92D0", VA = "0x59FA2D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -207,11 +207,11 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x1700098C")]
+		[Token(Token = "0x170009D4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60033F0")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x600367C")]
+			[Address(RVA = "0x59FA320", Offset = "0x59F9320", VA = "0x59FA320", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -219,78 +219,78 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x60033EA")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6003676")]
+		[Address(RVA = "0x59F8280", Offset = "0x59F7280", VA = "0x59F8280")]
 		[DebuggerHidden]
 		public _003CGetRequest_003Ed__13(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60033EB")]
-		[Address(RVA = "0x20756C0", Offset = "0x2073CC0", VA = "0x1820756C0", Slot = "5")]
+		[Token(Token = "0x6003677")]
+		[Address(RVA = "0x59F9D70", Offset = "0x59F8D70", VA = "0x59F9D70", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60033EC")]
-		[Address(RVA = "0x20752D0", Offset = "0x20738D0", VA = "0x1820752D0", Slot = "6")]
+		[Token(Token = "0x6003678")]
+		[Address(RVA = "0x59F9E20", Offset = "0x59F8E20", VA = "0x59F9E20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60033ED")]
-		[Address(RVA = "0x2075750", Offset = "0x2073D50", VA = "0x182075750")]
+		[Token(Token = "0x6003679")]
+		[Address(RVA = "0x59FA230", Offset = "0x59F9230", VA = "0x59FA230")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60033EF")]
-		[Address(RVA = "0x2075680", Offset = "0x2073C80", VA = "0x182075680", Slot = "8")]
+		[Token(Token = "0x600367B")]
+		[Address(RVA = "0x59FA2E0", Offset = "0x59F92E0", VA = "0x59FA2E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200057E")]
+	[Token(Token = "0x20005DD")]
 	[CompilerGenerated]
 	private sealed class _003CPostRequest_003Ed__14 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40017BF")]
+		[Token(Token = "0x400195F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40017C0")]
+		[Token(Token = "0x4001960")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40017C1")]
+		[Token(Token = "0x4001961")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string uri;
 
-		[Token(Token = "0x40017C2")]
+		[Token(Token = "0x4001962")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string data;
 
-		[Token(Token = "0x40017C3")]
+		[Token(Token = "0x4001963")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string format;
 
-		[Token(Token = "0x40017C4")]
+		[Token(Token = "0x4001964")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public UserMethod callback;
 
-		[Token(Token = "0x40017C5")]
+		[Token(Token = "0x4001965")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private UnityWebRequest _003Cwww_003E5__2;
 
-		[Token(Token = "0x1700098D")]
+		[Token(Token = "0x170009D5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60033F5")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6003681")]
+			[Address(RVA = "0x59FA890", Offset = "0x59F9890", VA = "0x59FA890", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -298,11 +298,11 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x1700098E")]
+		[Token(Token = "0x170009D6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60033F7")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x6003683")]
+			[Address(RVA = "0x59FA8E0", Offset = "0x59F98E0", VA = "0x59FA8E0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -310,74 +310,74 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x60033F1")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x600367D")]
+		[Address(RVA = "0x59F82A0", Offset = "0x59F72A0", VA = "0x59F82A0")]
 		[DebuggerHidden]
 		public _003CPostRequest_003Ed__14(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60033F2")]
-		[Address(RVA = "0x2075BA0", Offset = "0x20741A0", VA = "0x182075BA0", Slot = "5")]
+		[Token(Token = "0x600367E")]
+		[Address(RVA = "0x59FA330", Offset = "0x59F9330", VA = "0x59FA330", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60033F3")]
-		[Address(RVA = "0x20757A0", Offset = "0x2073DA0", VA = "0x1820757A0", Slot = "6")]
+		[Token(Token = "0x600367F")]
+		[Address(RVA = "0x59FA3E0", Offset = "0x59F93E0", VA = "0x59FA3E0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60033F4")]
-		[Address(RVA = "0x2075C30", Offset = "0x2074230", VA = "0x182075C30")]
+		[Token(Token = "0x6003680")]
+		[Address(RVA = "0x59FA7F0", Offset = "0x59F97F0", VA = "0x59FA7F0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60033F6")]
-		[Address(RVA = "0x2075B60", Offset = "0x2074160", VA = "0x182075B60", Slot = "8")]
+		[Token(Token = "0x6003682")]
+		[Address(RVA = "0x59FA8A0", Offset = "0x59F98A0", VA = "0x59FA8A0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200057F")]
+	[Token(Token = "0x20005DE")]
 	[CompilerGenerated]
 	private sealed class _003CPutRequest_003Ed__15 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40017C6")]
+		[Token(Token = "0x4001966")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40017C7")]
+		[Token(Token = "0x4001967")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40017C8")]
+		[Token(Token = "0x4001968")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string uri;
 
-		[Token(Token = "0x40017C9")]
+		[Token(Token = "0x4001969")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string data;
 
-		[Token(Token = "0x40017CA")]
+		[Token(Token = "0x400196A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public UserMethod callback;
 
-		[Token(Token = "0x40017CB")]
+		[Token(Token = "0x400196B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private UnityWebRequest _003Cwww_003E5__2;
 
-		[Token(Token = "0x1700098F")]
+		[Token(Token = "0x170009D7")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60033FC")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x6003688")]
+			[Address(RVA = "0x59FAE50", Offset = "0x59F9E50", VA = "0x59FAE50", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -385,11 +385,11 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x17000990")]
+		[Token(Token = "0x170009D8")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60033FE")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x600368A")]
+			[Address(RVA = "0x59FAEA0", Offset = "0x59F9EA0", VA = "0x59FAEA0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -397,201 +397,201 @@ internal class CustomLogicServicesBuiltin : BuiltinClassInstance
 			}
 		}
 
-		[Token(Token = "0x60033F8")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x6003684")]
+		[Address(RVA = "0x59F82C0", Offset = "0x59F72C0", VA = "0x59F82C0")]
 		[DebuggerHidden]
 		public _003CPutRequest_003Ed__15(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60033F9")]
-		[Address(RVA = "0x2076080", Offset = "0x2074680", VA = "0x182076080", Slot = "5")]
+		[Token(Token = "0x6003685")]
+		[Address(RVA = "0x59FA8F0", Offset = "0x59F98F0", VA = "0x59FA8F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60033FA")]
-		[Address(RVA = "0x2075C80", Offset = "0x2074280", VA = "0x182075C80", Slot = "6")]
+		[Token(Token = "0x6003686")]
+		[Address(RVA = "0x59FA9A0", Offset = "0x59F99A0", VA = "0x59FA9A0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60033FB")]
-		[Address(RVA = "0x2076110", Offset = "0x2074710", VA = "0x182076110")]
+		[Token(Token = "0x6003687")]
+		[Address(RVA = "0x59FADB0", Offset = "0x59F9DB0", VA = "0x59FADB0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60033FD")]
-		[Address(RVA = "0x2076040", Offset = "0x2074640", VA = "0x182076040", Slot = "8")]
+		[Token(Token = "0x6003689")]
+		[Address(RVA = "0x59FAE60", Offset = "0x59F9E60", VA = "0x59FAE60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40017AC")]
+	[Token(Token = "0x400194C")]
 	private const int RequestTimeoutSeconds = 15;
 
-	[Token(Token = "0x17000985")]
+	[Token(Token = "0x170009CD")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60033CE")]
-		[Address(RVA = "0x203C230", Offset = "0x203A830", VA = "0x18203C230", Slot = "6")]
+		[Token(Token = "0x600365A")]
+		[Address(RVA = "0x59F8490", Offset = "0x59F7490", VA = "0x59F8490", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000986")]
+	[Token(Token = "0x170009CE")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60033CF")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x600365B")]
+		[Address(RVA = "0x59F84C0", Offset = "0x59F74C0", VA = "0x59F84C0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000987")]
+	[Token(Token = "0x170009CF")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60033D0")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x600365C")]
+		[Address(RVA = "0x59F84D0", Offset = "0x59F74D0", VA = "0x59F84D0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000988")]
+	[Token(Token = "0x170009D0")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60033D1")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x600365D")]
+		[Address(RVA = "0x59F84E0", Offset = "0x59F74E0", VA = "0x59F84E0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60033BD")]
-	[Address(RVA = "0x203C1E0", Offset = "0x203A7E0", VA = "0x18203C1E0")]
+	[Token(Token = "0x6003649")]
+	[Address(RVA = "0x59F7370", Offset = "0x59F6370", VA = "0x59F7370")]
 	public CustomLogicServicesBuiltin()
 	{
 	}
 
-	[Token(Token = "0x60033BE")]
-	[Address(RVA = "0x203BC20", Offset = "0x203A220", VA = "0x18203BC20")]
+	[Token(Token = "0x600364A")]
+	[Address(RVA = "0x59F73E0", Offset = "0x59F63E0", VA = "0x59F73E0")]
 	private static bool IsAllowedToRunBase()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033BF")]
-	[Address(RVA = "0x203BCF0", Offset = "0x203A2F0", VA = "0x18203BCF0")]
+	[Token(Token = "0x600364B")]
+	[Address(RVA = "0x59F74C0", Offset = "0x59F64C0", VA = "0x59F74C0")]
 	private static bool IsAllowedToRun(string service, out string baseUrl)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033C0")]
-	[Address(RVA = "0x203AFC0", Offset = "0x20395C0", VA = "0x18203AFC0")]
+	[Token(Token = "0x600364C")]
+	[Address(RVA = "0x59F7540", Offset = "0x59F6540", VA = "0x59F7540")]
 	private static string CheckMe(string service)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C1")]
-	[Address(RVA = "0x203B210", Offset = "0x2039810", VA = "0x18203B210")]
+	[Token(Token = "0x600364D")]
+	[Address(RVA = "0x59F7750", Offset = "0x59F6750", VA = "0x59F7750")]
 	public static bool CheckPermissions(string service)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033C2")]
-	[Address(RVA = "0x203B860", Offset = "0x2039E60", VA = "0x18203B860")]
+	[Token(Token = "0x600364E")]
+	[Address(RVA = "0x59F77D0", Offset = "0x59F67D0", VA = "0x59F77D0")]
 	public static string GetSecret(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C3")]
-	[Address(RVA = "0x203B520", Offset = "0x2039B20", VA = "0x18203B520")]
+	[Token(Token = "0x600364F")]
+	[Address(RVA = "0x59F78E0", Offset = "0x59F68E0", VA = "0x59F78E0")]
 	private static string GetEndpoint(string baseUrl, string route)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C4")]
-	[Address(RVA = "0x203BB30", Offset = "0x203A130", VA = "0x18203BB30")]
+	[Token(Token = "0x6003650")]
+	[Address(RVA = "0x59F7B50", Offset = "0x59F6B50", VA = "0x59F7B50")]
 	public static void Get(string service, string route, UserMethod callback)
 	{
 	}
 
-	[Token(Token = "0x60033C5")]
-	[Address(RVA = "0x203BE30", Offset = "0x203A430", VA = "0x18203BE30")]
+	[Token(Token = "0x6003651")]
+	[Address(RVA = "0x59F7CE0", Offset = "0x59F6CE0", VA = "0x59F7CE0")]
 	public static void Post(string service, string route, string data, [Optional] UserMethod callback, string format = "application/json")
 	{
 	}
 
-	[Token(Token = "0x60033C6")]
-	[Address(RVA = "0x203B420", Offset = "0x2039A20", VA = "0x18203B420")]
+	[Token(Token = "0x6003652")]
+	[Address(RVA = "0x59F7D90", Offset = "0x59F6D90", VA = "0x59F7D90")]
 	private static string GetContentType(string format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C7")]
-	[Address(RVA = "0x203C0D0", Offset = "0x203A6D0", VA = "0x18203C0D0")]
+	[Token(Token = "0x6003653")]
+	[Address(RVA = "0x59F7F40", Offset = "0x59F6F40", VA = "0x59F7F40")]
 	public static void Put(string service, string route, string data, [Optional] UserMethod callback)
 	{
 	}
 
-	[Token(Token = "0x60033C8")]
-	[Address(RVA = "0x203B330", Offset = "0x2039930", VA = "0x18203B330")]
+	[Token(Token = "0x6003654")]
+	[Address(RVA = "0x59F80F0", Offset = "0x59F70F0", VA = "0x59F80F0")]
 	public static void Delete(string service, string route, [Optional] UserMethod callback)
 	{
 	}
 
-	[Token(Token = "0x60033C9")]
-	[Address(RVA = "0x203B7D0", Offset = "0x2039DD0", VA = "0x18203B7D0")]
+	[Token(Token = "0x6003655")]
+	[Address(RVA = "0x59F7C60", Offset = "0x59F6C60", VA = "0x59F7C60")]
 	[IteratorStateMachine(typeof(_003CGetRequest_003Ed__13))]
 	private static IEnumerator GetRequest(string uri, UserMethod callback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033CA")]
-	[Address(RVA = "0x203BD80", Offset = "0x203A380", VA = "0x18203BD80")]
+	[Token(Token = "0x6003656")]
+	[Address(RVA = "0x59F7E90", Offset = "0x59F6E90", VA = "0x59F7E90")]
 	[IteratorStateMachine(typeof(_003CPostRequest_003Ed__14))]
 	private static IEnumerator PostRequest(string uri, string data, UserMethod callback, string format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033CB")]
-	[Address(RVA = "0x203C030", Offset = "0x203A630", VA = "0x18203C030")]
+	[Token(Token = "0x6003657")]
+	[Address(RVA = "0x59F8060", Offset = "0x59F7060", VA = "0x59F8060")]
 	[IteratorStateMachine(typeof(_003CPutRequest_003Ed__15))]
 	private static IEnumerator PutRequest(string uri, string data, UserMethod callback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033CC")]
-	[Address(RVA = "0x203B2A0", Offset = "0x20398A0", VA = "0x18203B2A0")]
+	[Token(Token = "0x6003658")]
+	[Address(RVA = "0x59F8200", Offset = "0x59F7200", VA = "0x59F8200")]
 	[IteratorStateMachine(typeof(_003CDeleteRequest_003Ed__16))]
 	private static IEnumerator DeleteRequest(string uri, UserMethod callback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033CD")]
-	[Address(RVA = "0x203B9A0", Offset = "0x2039FA0", VA = "0x18203B9A0")]
+	[Token(Token = "0x6003659")]
+	[Address(RVA = "0x59F8300", Offset = "0x59F7300", VA = "0x59F8300")]
 	private static string GetWebRequestFailureJSON(UnityWebRequest webRequest)
 	{
 		return null;

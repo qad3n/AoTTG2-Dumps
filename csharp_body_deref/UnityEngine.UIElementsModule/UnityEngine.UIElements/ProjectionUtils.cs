@@ -13,7 +13,7 @@ namespace UnityEngine.UIElements;
 internal static class ProjectionUtils
 {
 	[Token(Token = "0x60012D1")]
-	[Address(RVA = "0x32B58B0", Offset = "0x32B3EB0", VA = "0x1832B58B0")]
+	[Address(RVA = "0x6CBB0C0", Offset = "0x6CBA0C0", VA = "0x6CBB0C0")]
 	public static Matrix4x4 Ortho(float left, float right, float bottom, float top, float near, float far)
 	{
 		return default(Matrix4x4);

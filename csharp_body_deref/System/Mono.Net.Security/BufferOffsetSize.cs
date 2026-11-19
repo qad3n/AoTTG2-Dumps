@@ -12,31 +12,31 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000046")]
 internal class BufferOffsetSize
 {
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x4000098")]
 	[FieldOffset(Offset = "0x10")]
 	public byte[] Buffer;
 
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x4000099")]
 	[FieldOffset(Offset = "0x18")]
 	public int Offset;
 
-	[Token(Token = "0x400009B")]
+	[Token(Token = "0x400009A")]
 	[FieldOffset(Offset = "0x1C")]
 	public int Size;
 
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x400009B")]
 	[FieldOffset(Offset = "0x20")]
 	public int TotalBytes;
 
-	[Token(Token = "0x400009D")]
+	[Token(Token = "0x400009C")]
 	[FieldOffset(Offset = "0x24")]
 	public bool Complete;
 
 	[Token(Token = "0x17000018")]
 	public int EndOffset
 	{
-		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x248FF80", Offset = "0x248E580", VA = "0x18248FF80")]
+		[Token(Token = "0x60000AA")]
+		[Address(RVA = "0x5E35F70", Offset = "0x5E34F70", VA = "0x5E35F70")]
 		get
 		{
 			return default(int);
@@ -46,22 +46,22 @@ internal class BufferOffsetSize
 	[Token(Token = "0x17000019")]
 	public int Remaining
 	{
-		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x248FF90", Offset = "0x248E590", VA = "0x18248FF90")]
+		[Token(Token = "0x60000AB")]
+		[Address(RVA = "0x5E35F80", Offset = "0x5E34F80", VA = "0x5E35F80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x248FE40", Offset = "0x248E440", VA = "0x18248FE40")]
+	[Token(Token = "0x60000AC")]
+	[Address(RVA = "0x5E35FA0", Offset = "0x5E34FA0", VA = "0x5E35FA0")]
 	public BufferOffsetSize(byte[] buffer, int offset, int size)
 	{
 	}
 
-	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x248FDC0", Offset = "0x248E3C0", VA = "0x18248FDC0", Slot = "3")]
+	[Token(Token = "0x60000AD")]
+	[Address(RVA = "0x5E360A0", Offset = "0x5E350A0", VA = "0x5E360A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

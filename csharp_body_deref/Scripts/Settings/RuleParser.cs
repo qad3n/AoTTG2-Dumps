@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.RuleParser
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Settings/RuleParser.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,11 +12,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x20000BB")]
 public static class RuleParser
 {
-	[Token(Token = "0x6000363")]
-	[Address(RVA = "0x1DC9670", Offset = "0x1DC7C70", VA = "0x181DC9670")]
+	[Token(Token = "0x60004CE")]
+	[Address(RVA = "0x5A3A5E0", Offset = "0x5A395E0", VA = "0x5A3A5E0")]
 	public static List<UIRule> Parse(IEnumerable<string> rawRules, [Optional] Func<string, UIRuleValueType> typeResolver)
 	{
 		return null;

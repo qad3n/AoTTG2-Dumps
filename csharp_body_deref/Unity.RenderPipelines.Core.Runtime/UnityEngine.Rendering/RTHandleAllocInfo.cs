@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RTHandleAllocInfo
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,14 +18,14 @@ public struct RTHandleAllocInfo
 	public int slices
 	{
 		[Token(Token = "0x6000C01")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x652BF20", Offset = "0x652AF20", VA = "0x652BF20")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000C02")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x652BF30", Offset = "0x652AF30", VA = "0x652BF30")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ public struct RTHandleAllocInfo
 	public GraphicsFormat format
 	{
 		[Token(Token = "0x6000C03")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x652BF40", Offset = "0x652AF40", VA = "0x652BF40")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(GraphicsFormat);
 		}
 		[Token(Token = "0x6000C04")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x652BF50", Offset = "0x652AF50", VA = "0x652BF50")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,14 +54,14 @@ public struct RTHandleAllocInfo
 	public FilterMode filterMode
 	{
 		[Token(Token = "0x6000C05")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x652BF60", Offset = "0x652AF60", VA = "0x652BF60")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(FilterMode);
 		}
 		[Token(Token = "0x6000C06")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x652BF70", Offset = "0x652AF70", VA = "0x652BF70")]
 		[CompilerGenerated]
 		set
 		{
@@ -72,14 +72,14 @@ public struct RTHandleAllocInfo
 	public TextureWrapMode wrapModeU
 	{
 		[Token(Token = "0x6000C07")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x652BF80", Offset = "0x652AF80", VA = "0x652BF80")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(TextureWrapMode);
 		}
 		[Token(Token = "0x6000C08")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
+		[Address(RVA = "0x652BF90", Offset = "0x652AF90", VA = "0x652BF90")]
 		[CompilerGenerated]
 		set
 		{
@@ -90,14 +90,14 @@ public struct RTHandleAllocInfo
 	public TextureWrapMode wrapModeV
 	{
 		[Token(Token = "0x6000C09")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x652BFA0", Offset = "0x652AFA0", VA = "0x652BFA0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(TextureWrapMode);
 		}
 		[Token(Token = "0x6000C0A")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x652BFB0", Offset = "0x652AFB0", VA = "0x652BFB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -108,14 +108,14 @@ public struct RTHandleAllocInfo
 	public TextureWrapMode wrapModeW
 	{
 		[Token(Token = "0x6000C0B")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x652BFC0", Offset = "0x652AFC0", VA = "0x652BFC0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(TextureWrapMode);
 		}
 		[Token(Token = "0x6000C0C")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x652BFD0", Offset = "0x652AFD0", VA = "0x652BFD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -126,14 +126,14 @@ public struct RTHandleAllocInfo
 	public TextureDimension dimension
 	{
 		[Token(Token = "0x6000C0D")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x652BFE0", Offset = "0x652AFE0", VA = "0x652BFE0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(TextureDimension);
 		}
 		[Token(Token = "0x6000C0E")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x652BFF0", Offset = "0x652AFF0", VA = "0x652BFF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -144,14 +144,14 @@ public struct RTHandleAllocInfo
 	public bool enableRandomWrite
 	{
 		[Token(Token = "0x6000C0F")]
-		[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
+		[Address(RVA = "0x652C000", Offset = "0x652B000", VA = "0x652C000")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C10")]
-		[Address(RVA = "0x12B3EA0", Offset = "0x12B24A0", VA = "0x1812B3EA0")]
+		[Address(RVA = "0x652C010", Offset = "0x652B010", VA = "0x652C010")]
 		[CompilerGenerated]
 		set
 		{
@@ -162,14 +162,14 @@ public struct RTHandleAllocInfo
 	public bool useMipMap
 	{
 		[Token(Token = "0x6000C11")]
-		[Address(RVA = "0x12B36C0", Offset = "0x12B1CC0", VA = "0x1812B36C0")]
+		[Address(RVA = "0x652C020", Offset = "0x652B020", VA = "0x652C020")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C12")]
-		[Address(RVA = "0x1D25E10", Offset = "0x1D24410", VA = "0x181D25E10")]
+		[Address(RVA = "0x652C030", Offset = "0x652B030", VA = "0x652C030")]
 		[CompilerGenerated]
 		set
 		{
@@ -180,14 +180,14 @@ public struct RTHandleAllocInfo
 	public bool autoGenerateMips
 	{
 		[Token(Token = "0x6000C13")]
-		[Address(RVA = "0x2B431A0", Offset = "0x2B417A0", VA = "0x182B431A0")]
+		[Address(RVA = "0x652C040", Offset = "0x652B040", VA = "0x652C040")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C14")]
-		[Address(RVA = "0x2B431D0", Offset = "0x2B417D0", VA = "0x182B431D0")]
+		[Address(RVA = "0x652C050", Offset = "0x652B050", VA = "0x652C050")]
 		[CompilerGenerated]
 		set
 		{
@@ -198,14 +198,14 @@ public struct RTHandleAllocInfo
 	public bool isShadowMap
 	{
 		[Token(Token = "0x6000C15")]
-		[Address(RVA = "0x2B431B0", Offset = "0x2B417B0", VA = "0x182B431B0")]
+		[Address(RVA = "0x652C060", Offset = "0x652B060", VA = "0x652C060")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C16")]
-		[Address(RVA = "0x2B431E0", Offset = "0x2B417E0", VA = "0x182B431E0")]
+		[Address(RVA = "0x652C070", Offset = "0x652B070", VA = "0x652C070")]
 		[CompilerGenerated]
 		set
 		{
@@ -216,14 +216,14 @@ public struct RTHandleAllocInfo
 	public int anisoLevel
 	{
 		[Token(Token = "0x6000C17")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x652C080", Offset = "0x652B080", VA = "0x652C080")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000C18")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x652C090", Offset = "0x652B090", VA = "0x652C090")]
 		[CompilerGenerated]
 		set
 		{
@@ -234,14 +234,14 @@ public struct RTHandleAllocInfo
 	public float mipMapBias
 	{
 		[Token(Token = "0x6000C19")]
-		[Address(RVA = "0x18A4260", Offset = "0x18A2860", VA = "0x1818A4260")]
+		[Address(RVA = "0x652C0A0", Offset = "0x652B0A0", VA = "0x652C0A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000C1A")]
-		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
+		[Address(RVA = "0x652C0B0", Offset = "0x652B0B0", VA = "0x652C0B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -252,14 +252,14 @@ public struct RTHandleAllocInfo
 	public MSAASamples msaaSamples
 	{
 		[Token(Token = "0x6000C1B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x652C0C0", Offset = "0x652B0C0", VA = "0x652C0C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(MSAASamples);
 		}
 		[Token(Token = "0x6000C1C")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x652C0D0", Offset = "0x652B0D0", VA = "0x652C0D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -270,14 +270,14 @@ public struct RTHandleAllocInfo
 	public bool bindTextureMS
 	{
 		[Token(Token = "0x6000C1D")]
-		[Address(RVA = "0x584AB0", Offset = "0x5830B0", VA = "0x180584AB0")]
+		[Address(RVA = "0x652C0E0", Offset = "0x652B0E0", VA = "0x652C0E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C1E")]
-		[Address(RVA = "0x584B60", Offset = "0x583160", VA = "0x180584B60")]
+		[Address(RVA = "0x652C0F0", Offset = "0x652B0F0", VA = "0x652C0F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -288,14 +288,14 @@ public struct RTHandleAllocInfo
 	public bool useDynamicScale
 	{
 		[Token(Token = "0x6000C1F")]
-		[Address(RVA = "0x2809E90", Offset = "0x2808490", VA = "0x182809E90")]
+		[Address(RVA = "0x652C100", Offset = "0x652B100", VA = "0x652C100")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C20")]
-		[Address(RVA = "0x2809EA0", Offset = "0x28084A0", VA = "0x182809EA0")]
+		[Address(RVA = "0x652C110", Offset = "0x652B110", VA = "0x652C110")]
 		[CompilerGenerated]
 		set
 		{
@@ -306,14 +306,14 @@ public struct RTHandleAllocInfo
 	public bool useDynamicScaleExplicit
 	{
 		[Token(Token = "0x6000C21")]
-		[Address(RVA = "0x2B431C0", Offset = "0x2B417C0", VA = "0x182B431C0")]
+		[Address(RVA = "0x652C120", Offset = "0x652B120", VA = "0x652C120")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C22")]
-		[Address(RVA = "0x2B431F0", Offset = "0x2B417F0", VA = "0x182B431F0")]
+		[Address(RVA = "0x652C130", Offset = "0x652B130", VA = "0x652C130")]
 		[CompilerGenerated]
 		set
 		{
@@ -324,14 +324,14 @@ public struct RTHandleAllocInfo
 	public RenderTextureMemoryless memoryless
 	{
 		[Token(Token = "0x6000C23")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x652C140", Offset = "0x652B140", VA = "0x652C140")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(RenderTextureMemoryless);
 		}
 		[Token(Token = "0x6000C24")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x652C150", Offset = "0x652B150", VA = "0x652C150")]
 		[CompilerGenerated]
 		set
 		{
@@ -342,14 +342,14 @@ public struct RTHandleAllocInfo
 	public VRTextureUsage vrUsage
 	{
 		[Token(Token = "0x6000C25")]
-		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
+		[Address(RVA = "0x652C160", Offset = "0x652B160", VA = "0x652C160")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(VRTextureUsage);
 		}
 		[Token(Token = "0x6000C26")]
-		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
+		[Address(RVA = "0x652C170", Offset = "0x652B170", VA = "0x652C170")]
 		[CompilerGenerated]
 		set
 		{
@@ -360,14 +360,14 @@ public struct RTHandleAllocInfo
 	public bool enableShadingRate
 	{
 		[Token(Token = "0x6000C27")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Address(RVA = "0x652C180", Offset = "0x652B180", VA = "0x652C180")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C28")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Address(RVA = "0x652C190", Offset = "0x652B190", VA = "0x652C190")]
 		[CompilerGenerated]
 		set
 		{
@@ -378,14 +378,14 @@ public struct RTHandleAllocInfo
 	public string name
 	{
 		[Token(Token = "0x6000C29")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x652C1A0", Offset = "0x652B1A0", VA = "0x652C1A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000C2A")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x652C1B0", Offset = "0x652B1B0", VA = "0x652C1B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -393,7 +393,7 @@ public struct RTHandleAllocInfo
 	}
 
 	[Token(Token = "0x6000C2B")]
-	[Address(RVA = "0x2B43150", Offset = "0x2B41750", VA = "0x182B43150")]
+	[Address(RVA = "0x652C1C0", Offset = "0x652B1C0", VA = "0x652C1C0")]
 	public RTHandleAllocInfo(string name = "")
 	{
 	}

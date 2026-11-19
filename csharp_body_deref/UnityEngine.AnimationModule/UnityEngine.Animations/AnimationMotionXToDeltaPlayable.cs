@@ -28,20 +28,20 @@ internal struct AnimationMotionXToDeltaPlayable : IEquatable<AnimationMotionXToD
 	private static readonly AnimationMotionXToDeltaPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x2EABC00", Offset = "0x2EAA200", VA = "0x182EABC00")]
+	[Address(RVA = "0x68AC830", Offset = "0x68AB830", VA = "0x68AC830")]
 	private AnimationMotionXToDeltaPlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68AC920", Offset = "0x68AB920", VA = "0x68AC920", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x2EABA20", Offset = "0x2EAA020", VA = "0x182EABA20", Slot = "4")]
+	[Address(RVA = "0x68AC930", Offset = "0x68AB930", VA = "0x68AC930", Slot = "4")]
 	public bool Equals(AnimationMotionXToDeltaPlayable other)
 	{
 		return default(bool);

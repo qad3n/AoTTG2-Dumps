@@ -20,47 +20,47 @@ public sealed class StaticActionInvoker : StaticActionInvokerBase
 	private Action invoke;
 
 	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x2E3CD30", Offset = "0x2E3B330", VA = "0x182E3CD30")]
+	[Address(RVA = "0x6832DF0", Offset = "0x6831DF0", VA = "0x6832DF0")]
 	public StaticActionInvoker(MethodInfo methodInfo)
 	{
 	}
 
 	[Token(Token = "0x6000E0F")]
-	[Address(RVA = "0x2E3CEA0", Offset = "0x2E3B4A0", VA = "0x182E3CEA0", Slot = "13")]
+	[Address(RVA = "0x6832E00", Offset = "0x6831E00", VA = "0x6832E00", Slot = "13")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E10")]
-	[Address(RVA = "0x2E3CF10", Offset = "0x2E3B510", VA = "0x182E3CF10", Slot = "14")]
+	[Address(RVA = "0x6832E60", Offset = "0x6831E60", VA = "0x6832E60", Slot = "14")]
 	public override object Invoke(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E11")]
-	[Address(RVA = "0x2E3CE70", Offset = "0x2E3B470", VA = "0x182E3CE70")]
+	[Address(RVA = "0x6833070", Offset = "0x6832070", VA = "0x6833070")]
 	private object InvokeUnsafe(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0xD07320", Offset = "0xD05920", VA = "0x180D07320", Slot = "12")]
+	[Address(RVA = "0x6833090", Offset = "0x6832090", VA = "0x6833090", Slot = "12")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x2E3CD40", Offset = "0x2E3B340", VA = "0x182E3CD40", Slot = "23")]
+	[Address(RVA = "0x68330D0", Offset = "0x68320D0", VA = "0x68330D0", Slot = "23")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
 	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x2E3CDF0", Offset = "0x2E3B3F0", VA = "0x182E3CDF0", Slot = "21")]
+	[Address(RVA = "0x6833180", Offset = "0x6832180", VA = "0x6833180", Slot = "21")]
 	protected override void CreateDelegate()
 	{
 	}

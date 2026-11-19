@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000BD")]
+[Token(Token = "0x20000BE")]
 internal sealed class StackGuard
 {
-	[Token(Token = "0x40001D8")]
+	[Token(Token = "0x40001E1")]
 	[FieldOffset(Offset = "0x10")]
 	private int _executionStackCount;
 
-	[Token(Token = "0x60004DA")]
-	[Address(RVA = "0x243F220", Offset = "0x243D820", VA = "0x18243F220")]
+	[Token(Token = "0x60004E5")]
+	[Address(RVA = "0x5DD5F20", Offset = "0x5DD4F20", VA = "0x5DD5F20")]
 	public bool TryEnterOnCurrentStack()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004DB")]
+	[Token(Token = "0x60004E6")]
 	public void RunOnEmptyStack<T1, T2>(Action<T1, T2> action, T1 arg1, T2 arg2)
 	{
 	}
 
-	[Token(Token = "0x60004DC")]
+	[Token(Token = "0x60004E7")]
 	private R RunOnEmptyStackCore<R>(Func<object, R> action, object state)
 	{
 		return (R)null;
 	}
 
-	[Token(Token = "0x60004DD")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60004E8")]
+	[Address(RVA = "0x5DD5F80", Offset = "0x5DD4F80", VA = "0x5DD5F80")]
 	public StackGuard()
 	{
 	}

@@ -1,82 +1,86 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchFormState
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchFormState.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$CaptureBaseline
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState__CaptureBaseline (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, const MethodInfo* method);
-// 0x181901310
+// 0x53a3880
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x53a391d: nop dword ptr [rax]
 
 void Gisketch_Aottg2UI_Actions_GisketchFormState__CaptureBaseline
                (Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__string__o *__this_00;
-  Gisketch_Aottg2UI_Actions_GisketchFormField_o *__this_01;
-  System_Collections_Generic_Dictionary_object__object__o *__this_02;
-  System_String_o *key;
-  System_Object_array *pSVar1;
-  System_String_o *value;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  Gisketch_Aottg2UI_Actions_GisketchFormField_o *__this_00;
   uint uVar2;
+  System_Object_array *pSVar3;
+  System_String_o *value;
+  uint uVar4;
+  MethodInfo *method_00;
+  MethodInfo *key;
   
-  if (Il2CppMethodInitialized_184342240 == '\0') {
+  if (Il2CppMethodInitialized_07542bbf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_string_Clear);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
-    Il2CppMethodInitialized_184342240 = '\x01';
+    Il2CppMethodInitialized_07542bbf = '\x01';
   }
-  __this_00 = (__this->fields)._baseline;
-  if (__this_00 != (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
-    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_Clear);
-    if (Il2CppMethodInitialized_184342247 == '\0') {
+  pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._baseline;
+  if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__object___Clear
+              (pSVar1,(MethodInfo_4AAD690 *)
+                      MethodInfo_System_Collections_Generic_Dictionary_string_string_Clear);
+    if (Il2CppMethodInitialized_07542bc6 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata
                 (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-      Il2CppMethodInitialized_184342247 = '\x01';
+      Il2CppMethodInitialized_07542bc6 = '\x01';
     }
-    pSVar1 = UnityEngine_Component__GetComponentsInChildren_object_
+    method_00 = (MethodInfo *)0x1;
+    pSVar3 = UnityEngine_Component__GetComponentsInChildren_object_
                        ((UnityEngine_Component_o *)__this,true,
-                        (MethodInfo_665440 *)
+                        (MethodInfo_34B1260 *)
                         MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    if (pSVar1 != (System_Object_array *)0x0) {
-      uVar2 = 0;
-      while( true ) {
-        if ((int)pSVar1->max_length <= (int)uVar2) {
-          return;
-        }
-        if ((uint)pSVar1->max_length <= uVar2) {
-          ThrowIndexOutOfRangeException();
-        }
-        __this_01 = (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)pSVar1->m_Items[(int)uVar2];
-        if (__this_01 == (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)0x0) break;
-        __this_02 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._baseline;
-        key = (__this_01->fields)._Key_k__BackingField;
-        value = Gisketch_Aottg2UI_Actions_GisketchFormField__CurrentValue(__this_01,(MethodInfo *)0x0);
-        if (__this_02 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  (__this_02,(Il2CppObject *)key,(Il2CppObject *)value,
-                   (MethodInfo_147A7F0 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
-        uVar2 = uVar2 + 1;
+    if (pSVar3 != (System_Object_array *)0x0) {
+      uVar2 = (uint)pSVar3->max_length;
+      if (0 < (int)uVar2) {
+        uVar4 = 0;
+        do {
+          if (uVar2 <= uVar4) {
+            ThrowIndexOutOfRangeException();
+          }
+          __this_00 = (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)pSVar3->m_Items[(int)uVar4];
+          if (__this_00 == (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)0x0) goto label_053a396e;
+          pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._baseline;
+          key = (MethodInfo *)(__this_00->fields)._Key_k__BackingField;
+          value = Gisketch_Aottg2UI_Actions_GisketchFormField__CurrentValue(__this_00,method_00);
+          if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_053a396e;
+          System_Collections_Generic_Dictionary_object__object___set_Item
+                    (pSVar1,(Il2CppObject *)key,(Il2CppObject *)value,
+                     (MethodInfo_4AAD4C0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+          uVar4 = uVar4 + 1;
+          uVar2 = (uint)pSVar3->max_length;
+          method_00 = key;
+        } while ((int)uVar4 < (int)uVar2);
       }
+      return;
     }
   }
+label_053a396e:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$ResetToBaseline
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState__ResetToBaseline (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, const MethodInfo* method);
-// 0x1819018d0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181901949: nop dword ptr [rax]
-// asm:   0x181901990: mov rdx, qword ptr [rsp + 0x40]
-// asm:   0x181901995: jmp 0x1819019a1
+// 0x53a39c0
 
 void Gisketch_Aottg2UI_Actions_GisketchFormState__ResetToBaseline
                (Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this,MethodInfo *method)
@@ -85,66 +89,71 @@ void Gisketch_Aottg2UI_Actions_GisketchFormState__ResetToBaseline
   Il2CppObject *pIVar1;
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
   bool bVar2;
-  System_Object_array *pSVar3;
-  Il2CppObject *value;
-  uint uVar4;
-  Il2CppObject *local_res18;
+  uint uVar3;
+  System_Object_array *pSVar4;
+  Il2CppObject **ppIVar5;
+  uint uVar6;
+  void *pvVar7;
+  Il2CppObject *local_38;
   
-  if (Il2CppMethodInitialized_184342241 == '\0') {
+  if (Il2CppMethodInitialized_07542bc0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-    Il2CppMethodInitialized_184342241 = '\x01';
+    Il2CppMethodInitialized_07542bc0 = '\x01';
   }
-  local_res18 = (Il2CppObject *)0x0;
-  if (Il2CppMethodInitialized_184342247 == '\0') {
+  local_38 = (Il2CppObject *)0x0;
+  if (Il2CppMethodInitialized_07542bc6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    Il2CppMethodInitialized_184342247 = '\x01';
+    Il2CppMethodInitialized_07542bc6 = '\x01';
   }
-  pSVar3 = UnityEngine_Component__GetComponentsInChildren_object_
+  pSVar4 = UnityEngine_Component__GetComponentsInChildren_object_
                      ((UnityEngine_Component_o *)__this,true,
-                      (MethodInfo_665440 *)
+                      (MethodInfo_34B1260 *)
                       MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-  if (pSVar3 != (System_Object_array *)0x0) {
-    uVar4 = 0;
-    while( true ) {
-      if ((int)pSVar3->max_length <= (int)uVar4) {
-        return;
-      }
-      if ((uint)pSVar3->max_length <= uVar4) {
+  if (pSVar4 == (System_Object_array *)0x0) {
+label_053a3aec:
+    ThrowNullReferenceException();
+  }
+  uVar3 = (uint)pSVar4->max_length;
+  if (0 < (int)uVar3) {
+    uVar6 = 0;
+    do {
+      if (uVar3 <= uVar6) {
         ThrowIndexOutOfRangeException();
       }
-      pIVar1 = pSVar3->m_Items[(int)uVar4];
+      pIVar1 = pSVar4->m_Items[(int)uVar6];
       if ((pIVar1 == (Il2CppObject *)0x0) ||
          (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._baseline,
-         __this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
+         __this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto label_053a3aec;
       bVar2 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        (__this_00,(Il2CppObject *)pIVar1[3].klass,&local_res18,
-                         (MethodInfo_14769C0 *)
+                        (__this_00,(Il2CppObject *)pIVar1[3].klass,&local_38,
+                         (MethodInfo_4AAF440 *)
                          MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-      value = local_res18;
+      ppIVar5 = &local_38;
       if (!bVar2) {
-        value = (Il2CppObject *)**(longlong **)(g_data_184354e50 + 0xb8);
+        ppIVar5 = *(Il2CppObject ***)(g_data_07556758 + 0xb8);
       }
-      if (value == (Il2CppObject *)0x0) {
-        value = (Il2CppObject *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+      pvVar7 = *ppIVar5;
+      if (pvVar7 == (void *)0x0) {
+        pvVar7 = (void *)**(long **)(g_data_07556758 + 0xb8);
       }
-      pIVar1[2].monitor = value;
-      Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor,value);
-      uVar4 = uVar4 + 1;
-    }
+      pIVar1[2].monitor = pvVar7;
+      Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor);
+      uVar6 = uVar6 + 1;
+      uVar3 = (uint)pSVar4->max_length;
+    } while ((int)uVar6 < (int)uVar3);
   }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$HasDirty
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFormState__HasDirty (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, const MethodInfo* method);
-// 0x1819015a0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18190161c: nop dword ptr [rax]
-// asm:   0x181901665: mov rbp, qword ptr [rsp + 0x50]
-// asm:   0x18190166a: jmp 0x18190167d
+// 0x53a3b00
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x53a3b7e: mov r15, rsp
+// asm:   0x53a3b81: nop word ptr cs:[rax + rax]
 
 bool Gisketch_Aottg2UI_Actions_GisketchFormState__HasDirty
                (Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this,MethodInfo *method)
@@ -152,65 +161,76 @@ bool Gisketch_Aottg2UI_Actions_GisketchFormState__HasDirty
 {
   Gisketch_Aottg2UI_Actions_GisketchFormField_o *__this_00;
   System_Collections_Generic_Dictionary_object__object__o *__this_01;
+  System_String_o *b;
   bool bVar1;
   System_Object_array *pSVar2;
   System_String_o *a;
   uint uVar3;
-  System_String_o *b;
-  System_String_o *local_res18 [2];
+  Il2CppObject **ppIVar4;
+  uint uVar5;
+  MethodInfo *method_00;
+  Il2CppObject *pIStack_38;
   
-  if (Il2CppMethodInitialized_184342242 == '\0') {
+  if (Il2CppMethodInitialized_07542bc1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-    Il2CppMethodInitialized_184342242 = '\x01';
+    Il2CppMethodInitialized_07542bc1 = '\x01';
   }
-  local_res18[0] = (System_String_o *)0x0;
-  if (Il2CppMethodInitialized_184342247 == '\0') {
+  pIStack_38 = (Il2CppObject *)0x0;
+  if (Il2CppMethodInitialized_07542bc6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    Il2CppMethodInitialized_184342247 = '\x01';
+    Il2CppMethodInitialized_07542bc6 = '\x01';
   }
   pSVar2 = UnityEngine_Component__GetComponentsInChildren_object_
                      ((UnityEngine_Component_o *)__this,true,
-                      (MethodInfo_665440 *)
+                      (MethodInfo_34B1260 *)
                       MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-  if (pSVar2 != (System_Object_array *)0x0) {
-    uVar3 = 0;
-    while( true ) {
-      if ((int)pSVar2->max_length <= (int)uVar3) {
-        return false;
-      }
-      if ((uint)pSVar2->max_length <= uVar3) {
+  if (pSVar2 == (System_Object_array *)0x0) {
+label_053a3c21:
+    ThrowNullReferenceException();
+  }
+  uVar3 = (uint)pSVar2->max_length;
+  uVar5 = 0;
+  if ((int)uVar3 < 1) {
+    bVar1 = false;
+  }
+  else {
+    do {
+      if (uVar3 <= uVar5) {
         ThrowIndexOutOfRangeException();
       }
-      __this_00 = (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)pSVar2->m_Items[(int)uVar3];
+      __this_00 = (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)pSVar2->m_Items[(int)uVar5];
       if ((__this_00 == (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)0x0) ||
          (__this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._baseline,
-         __this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
+         __this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto label_053a3c21;
+      method_00 = (MethodInfo *)(__this_00->fields)._Key_k__BackingField;
       bVar1 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        (__this_01,(Il2CppObject *)(__this_00->fields)._Key_k__BackingField,
-                         (Il2CppObject **)local_res18,
-                         (MethodInfo_14769C0 *)
+                        (__this_01,(Il2CppObject *)method_00,&pIStack_38,
+                         (MethodInfo_4AAF440 *)
                          MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-      b = local_res18[0];
+      ppIVar4 = &pIStack_38;
       if (!bVar1) {
-        b = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+        ppIVar4 = *(Il2CppObject ***)(g_data_07556758 + 0xb8);
       }
-      a = Gisketch_Aottg2UI_Actions_GisketchFormField__CurrentValue(__this_00,(MethodInfo *)0x0);
-      bVar1 = System_String__Equals_196c550(a,b,4,(MethodInfo *)0x0);
-      if (!bVar1) {
-        return true;
-      }
-      uVar3 = uVar3 + 1;
-    }
+      b = (System_String_o *)*ppIVar4;
+      a = Gisketch_Aottg2UI_Actions_GisketchFormField__CurrentValue(__this_00,method_00);
+      bVar1 = System_String__Equals_52ffe30(a,b,4,(MethodInfo *)0x0);
+      if (!bVar1) break;
+      uVar5 = uVar5 + 1;
+      uVar3 = (uint)pSVar2->max_length;
+    } while ((int)uVar5 < (int)uVar3);
+    bVar1 = !bVar1;
   }
-  ThrowNullReferenceException();
+  return bVar1;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$SetDraft
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, System_String_o* key, System_String_o* value, const MethodInfo* method);
-// 0x181901bb0
+// 0x53a3c30
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x53a3c9c: nop dword ptr [rax]
 
 void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft
                (Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this,System_String_o *key,
@@ -219,39 +239,46 @@ void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft
 {
   Il2CppObject *pIVar1;
   bool bVar2;
-  System_Object_array *pSVar3;
-  uint uVar4;
+  uint uVar3;
+  System_Object_array *pSVar4;
+  uint uVar5;
   
   bVar2 = System_String__IsNullOrEmpty(key,(MethodInfo *)0x0);
   if (!bVar2) {
-    if (Il2CppMethodInitialized_184342247 == '\0') {
+    if (Il2CppMethodInitialized_07542bc6 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata
                 (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-      Il2CppMethodInitialized_184342247 = '\x01';
+      Il2CppMethodInitialized_07542bc6 = '\x01';
     }
-    pSVar3 = UnityEngine_Component__GetComponentsInChildren_object_
+    pSVar4 = UnityEngine_Component__GetComponentsInChildren_object_
                        ((UnityEngine_Component_o *)__this,true,
-                        (MethodInfo_665440 *)
+                        (MethodInfo_34B1260 *)
                         MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    if (pSVar3 == (System_Object_array *)0x0) {
-label_181901c98:
+    if (pSVar4 == (System_Object_array *)0x0) {
+label_053a3d1b:
       ThrowNullReferenceException();
     }
-    for (uVar4 = 0; (int)uVar4 < (int)pSVar3->max_length; uVar4 = uVar4 + 1) {
-      if ((uint)pSVar3->max_length <= uVar4) {
-        ThrowIndexOutOfRangeException();
-      }
-      pIVar1 = pSVar3->m_Items[(int)uVar4];
-      if (pIVar1 == (Il2CppObject *)0x0) goto label_181901c98;
-      bVar2 = System_String__Equals_196c550((System_String_o *)pIVar1[3].klass,key,5,(MethodInfo *)0x0);
-      if (bVar2) {
-        if (value == (System_String_o *)0x0) {
-          value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    uVar3 = (uint)pSVar4->max_length;
+    if (0 < (int)uVar3) {
+      uVar5 = 0;
+      do {
+        if (uVar3 <= uVar5) {
+          ThrowIndexOutOfRangeException();
         }
-        pIVar1[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor,value);
-        return;
-      }
+        pIVar1 = pSVar4->m_Items[(int)uVar5];
+        if (pIVar1 == (Il2CppObject *)0x0) goto label_053a3d1b;
+        bVar2 = System_String__Equals_52ffe30((System_String_o *)pIVar1[3].klass,key,5,(MethodInfo *)0x0);
+        if (bVar2) {
+          if (value == (System_String_o *)0x0) {
+            value = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+          }
+          pIVar1[2].monitor = value;
+          Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor);
+          return;
+        }
+        uVar5 = uVar5 + 1;
+        uVar3 = (uint)pSVar4->max_length;
+      } while ((int)uVar5 < (int)uVar3);
     }
   }
   return;
@@ -260,108 +287,34 @@ label_181901c98:
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$SetDraft
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft (UnityEngine_GameObject_o* source, System_String_o* key, System_String_o* value, const MethodInfo* method);
-// 0x181901cb0
+// 0x53a3d20
 
-void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft_1901cb0
+void Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft_52a3d20
                (UnityEngine_GameObject_o *source,System_String_o *key,System_String_o *value,
                MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  bool bVar2;
-  Gisketch_Aottg2UI_Actions_GisketchFormState_o *x;
-  UnityEngine_Transform_o *pUVar3;
-  System_Object_array *pSVar4;
-  uint uVar5;
+  bool bVar1;
+  Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184342243 == '\0') {
+  method_00 = (MethodInfo *)key;
+  if (Il2CppMethodInitialized_07542bc2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184342243 = '\x01';
+    Il2CppMethodInitialized_07542bc2 = '\x01';
   }
-  if (Il2CppMethodInitialized_184342246 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_Component_GetComponentInChildren_GisketchFormState);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchFormState);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184342246 = '\x01';
-  }
+  __this = Gisketch_Aottg2UI_Actions_GisketchFormState__Find(source,method_00);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)source,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-label_181901df5:
-    x = (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
-  }
-  else {
-    if (source == (UnityEngine_GameObject_o *)0x0) goto label_181901eeb;
-    x = UnityEngine_GameObject__GetComponentInParent_object__6f5300
-                  (source,true,
-                   (MethodInfo_6F5300 *)
-                   MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchFormState);
-    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-    }
-    bVar2 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar2) {
-      pUVar3 = UnityEngine_GameObject__get_transform(source,(MethodInfo *)0x0);
-      if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_181901eeb;
-      pUVar3 = UnityEngine_Transform__GetRoot(pUVar3,(MethodInfo *)0x0);
-      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-      }
-      bVar2 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if (!bVar2) goto label_181901df5;
-      if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto label_181901eeb;
-      x = UnityEngine_Component__GetComponentInChildren_object_
-                    ((UnityEngine_Component_o *)pUVar3,true,
-                     (MethodInfo_664AA0 *)
-                     MethodInfo_UnityEngine_Component_GetComponentInChildren_GisketchFormState);
-    }
-  }
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    if (x == (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
-label_181901eeb:
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (__this == (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
       ThrowNullReferenceException();
     }
-    bVar2 = System_String__IsNullOrEmpty(key,(MethodInfo *)0x0);
-    if (!bVar2) {
-      if (Il2CppMethodInitialized_184342247 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-        Il2CppMethodInitialized_184342247 = '\x01';
-      }
-      pSVar4 = UnityEngine_Component__GetComponentsInChildren_object_
-                         ((UnityEngine_Component_o *)x,true,
-                          (MethodInfo_665440 *)
-                          MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-      if (pSVar4 == (System_Object_array *)0x0) goto label_181901eeb;
-      for (uVar5 = 0; (int)uVar5 < (int)pSVar4->max_length; uVar5 = uVar5 + 1) {
-        if ((uint)pSVar4->max_length <= uVar5) {
-          ThrowIndexOutOfRangeException();
-        }
-        pIVar1 = pSVar4->m_Items[(int)uVar5];
-        if (pIVar1 == (Il2CppObject *)0x0) goto label_181901eeb;
-        bVar2 = System_String__Equals_196c550((System_String_o *)pIVar1[3].klass,key,5,(MethodInfo *)0x0);
-        if (bVar2) {
-          if (value == (System_String_o *)0x0) {
-            value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-          }
-          pIVar1[2].monitor = value;
-          Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor,value);
-          return;
-        }
-      }
-    }
+    Gisketch_Aottg2UI_Actions_GisketchFormState__SetDraft(__this,key,value,method);
+    return;
   }
   return;
 }
@@ -369,205 +322,101 @@ label_181901eeb:
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$IsDirty
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFormState__IsDirty (UnityEngine_GameObject_o* root, const MethodInfo* method);
-// 0x1819016e0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181901850: mov rbp, qword ptr [rsp + 0x40]
-// asm:   0x181901855: jmp 0x181901868
+// 0x53a3ec0
 
 bool Gisketch_Aottg2UI_Actions_GisketchFormState__IsDirty(UnityEngine_GameObject_o *root,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Actions_GisketchFormField_o *__this;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
   bool bVar1;
-  Gisketch_Aottg2UI_Actions_GisketchFormState_o *x;
-  System_Object_array *pSVar2;
-  System_String_o *a;
-  uint uVar3;
-  System_String_o *b;
-  System_String_o *local_res8;
+  Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184342244 == '\0') {
+  if (Il2CppMethodInitialized_07542bc3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184342244 = '\x01';
+    Il2CppMethodInitialized_07542bc3 = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  __this = (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
   bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
-    if (root == (UnityEngine_GameObject_o *)0x0) goto label_1819018b3;
-    x = UnityEngine_GameObject__GetComponent_object_
-                  (root,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState)
-    ;
-  }
-  else {
-    x = (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
+    if (root == (UnityEngine_GameObject_o *)0x0) goto label_053a3f6f;
+    __this = UnityEngine_GameObject__GetComponent_object_
+                       (root,(MethodInfo_353B730 *)
+                             MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState);
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  method_00 = (MethodInfo *)0x0;
   bVar1 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+                    ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (!bVar1) {
     return false;
   }
-  if (x != (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
-    if (Il2CppMethodInitialized_184342242 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-      Il2CppMethodInitialized_184342242 = '\x01';
-    }
-    local_res8 = (System_String_o *)0x0;
-    if (Il2CppMethodInitialized_184342247 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-      Il2CppMethodInitialized_184342247 = '\x01';
-    }
-    pSVar2 = UnityEngine_Component__GetComponentsInChildren_object_
-                       ((UnityEngine_Component_o *)x,true,
-                        (MethodInfo_665440 *)
-                        MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    if (pSVar2 != (System_Object_array *)0x0) {
-      uVar3 = 0;
-      while( true ) {
-        if ((int)pSVar2->max_length <= (int)uVar3) {
-          return false;
-        }
-        if ((uint)pSVar2->max_length <= uVar3) {
-          ThrowIndexOutOfRangeException();
-        }
-        __this = (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)pSVar2->m_Items[(int)uVar3];
-        if ((__this == (Gisketch_Aottg2UI_Actions_GisketchFormField_o *)0x0) ||
-           (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(x->fields)._baseline,
-           __this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
-        bVar1 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                          (__this_00,(Il2CppObject *)(__this->fields)._Key_k__BackingField,
-                           (Il2CppObject **)&local_res8,
-                           (MethodInfo_14769C0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-        b = local_res8;
-        if (!bVar1) {
-          b = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-        }
-        a = Gisketch_Aottg2UI_Actions_GisketchFormField__CurrentValue(__this,(MethodInfo *)0x0);
-        bVar1 = System_String__Equals_196c550(a,b,4,(MethodInfo *)0x0);
-        if (!bVar1) {
-          return true;
-        }
-        uVar3 = uVar3 + 1;
-      }
-    }
-    ThrowNullReferenceException();
+  if (__this != (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
+    bVar1 = Gisketch_Aottg2UI_Actions_GisketchFormState__HasDirty(__this,method_00);
+    return bVar1;
   }
-label_1819018b3:
+label_053a3f6f:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$Reset
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState__Reset (UnityEngine_GameObject_o* root, const MethodInfo* method);
-// 0x1819019f0
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181901b50: mov rdx, qword ptr [rsp + 0x30]
-// asm:   0x181901b55: jmp 0x181901b61
-// asm:   0x181901b83: mov rdi, qword ptr [rsp + 0x48]
-// asm:   0x181901b88: mov rsi, qword ptr [rsp + 0x40]
+// 0x53a3f80
 
 void Gisketch_Aottg2UI_Actions_GisketchFormState__Reset(UnityEngine_GameObject_o *root,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  bool bVar2;
-  Gisketch_Aottg2UI_Actions_GisketchFormState_o *x;
-  System_Object_array *pSVar3;
-  Il2CppObject *value;
-  uint uVar4;
-  Il2CppObject *local_res8;
+  bool bVar1;
+  Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184342245 == '\0') {
+  if (Il2CppMethodInitialized_07542bc4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184342245 = '\x01';
+    Il2CppMethodInitialized_07542bc4 = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Inequality
+  __this = (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
+  bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    if (root == (UnityEngine_GameObject_o *)0x0) goto label_181901ba4;
-    x = UnityEngine_GameObject__GetComponent_object_
-                  (root,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState)
-    ;
-  }
-  else {
-    x = (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
+  if (bVar1) {
+    if (root == (UnityEngine_GameObject_o *)0x0) goto label_053a402d;
+    __this = UnityEngine_GameObject__GetComponent_object_
+                       (root,(MethodInfo_353B730 *)
+                             MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFormState);
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar2) {
-    if (x == (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
-label_181901ba4:
-      ThrowNullReferenceException();
-    }
-    if (Il2CppMethodInitialized_184342241 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-      Il2CppMethodInitialized_184342241 = '\x01';
-    }
-    local_res8 = (Il2CppObject *)0x0;
-    if (Il2CppMethodInitialized_184342247 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata
-                (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-      Il2CppMethodInitialized_184342247 = '\x01';
-    }
-    pSVar3 = UnityEngine_Component__GetComponentsInChildren_object_
-                       ((UnityEngine_Component_o *)x,true,
-                        (MethodInfo_665440 *)
-                        MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    if (pSVar3 == (System_Object_array *)0x0) {
-label_181901b9e:
-      ThrowNullReferenceException();
-    }
-    for (uVar4 = 0; (int)uVar4 < (int)pSVar3->max_length; uVar4 = uVar4 + 1) {
-      if ((uint)pSVar3->max_length <= uVar4) {
-        ThrowIndexOutOfRangeException();
-      }
-      pIVar1 = pSVar3->m_Items[(int)uVar4];
-      if ((pIVar1 == (Il2CppObject *)0x0) ||
-         (__this = (System_Collections_Generic_Dictionary_object__object__o *)(x->fields)._baseline,
-         __this == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto label_181901b9e;
-      bVar2 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        (__this,(Il2CppObject *)pIVar1[3].klass,&local_res8,
-                         (MethodInfo_14769C0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_string_string_TryGetValue);
-      value = local_res8;
-      if (!bVar2) {
-        value = (Il2CppObject *)**(longlong **)(g_data_184354e50 + 0xb8);
-      }
-      if (value == (Il2CppObject *)0x0) {
-        value = (Il2CppObject *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-      }
-      pIVar1[2].monitor = value;
-      Il2CppCodeGenWriteBarrier(&pIVar1[2].monitor,value);
-    }
+  method_00 = (MethodInfo *)0x0;
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar1) {
+    return;
   }
-  return;
+  if (__this != (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0) {
+    Gisketch_Aottg2UI_Actions_GisketchFormState__ResetToBaseline(__this,method_00);
+    return;
+  }
+label_053a402d:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$Find
 // il2cpp: Gisketch_Aottg2UI_Actions_GisketchFormState_o* Gisketch_Aottg2UI_Actions_GisketchFormState__Find (UnityEngine_GameObject_o* source, const MethodInfo* method);
-// 0x181901460
+// 0x53a3da0
 
 Gisketch_Aottg2UI_Actions_GisketchFormState_o *
 Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *source,MethodInfo *method)
@@ -577,13 +426,13 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *sour
   Gisketch_Aottg2UI_Actions_GisketchFormState_o *pGVar2;
   UnityEngine_Transform_o *pUVar3;
   
-  if (Il2CppMethodInitialized_184342246 == '\0') {
+  if (Il2CppMethodInitialized_07542bc5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentInChildren_GisketchFormState);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchFormState);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184342246 = '\x01';
+    Il2CppMethodInitialized_07542bc5 = '\x01';
   }
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -594,9 +443,9 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *sour
     return (Gisketch_Aottg2UI_Actions_GisketchFormState_o *)0x0;
   }
   if (source != (UnityEngine_GameObject_o *)0x0) {
-    pGVar2 = UnityEngine_GameObject__GetComponentInParent_object__6f5300
+    pGVar2 = UnityEngine_GameObject__GetComponentInParent_object__353bc10
                        (source,true,
-                        (MethodInfo_6F5300 *)
+                        (MethodInfo_353BC10 *)
                         MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchFormState);
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
@@ -608,7 +457,7 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *sour
     }
     pUVar3 = UnityEngine_GameObject__get_transform(source,(MethodInfo *)0x0);
     if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
-      pUVar3 = UnityEngine_Transform__GetRoot(pUVar3,(MethodInfo *)0x0);
+      pUVar3 = UnityEngine_Transform__get_root(pUVar3,(MethodInfo *)0x0);
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
@@ -620,7 +469,7 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *sour
       if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
         pGVar2 = UnityEngine_Component__GetComponentInChildren_object_
                            ((UnityEngine_Component_o *)pUVar3,true,
-                            (MethodInfo_664AA0 *)
+                            (MethodInfo_34B0B60 *)
                             MethodInfo_UnityEngine_Component_GetComponentInChildren_GisketchFormState);
         return pGVar2;
       }
@@ -632,7 +481,7 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Find(UnityEngine_GameObject_o *sour
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$Fields
 // il2cpp: Gisketch_Aottg2UI_Actions_GisketchFormField_array* Gisketch_Aottg2UI_Actions_GisketchFormState__Fields (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, const MethodInfo* method);
-// 0x181901420
+// 0x53a3980
 
 Gisketch_Aottg2UI_Actions_GisketchFormField_array *
 Gisketch_Aottg2UI_Actions_GisketchFormState__Fields
@@ -641,15 +490,15 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Fields
 {
   Gisketch_Aottg2UI_Actions_GisketchFormField_array *pGVar1;
   
-  if (Il2CppMethodInitialized_184342247 == '\0') {
+  if (Il2CppMethodInitialized_07542bc6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
-    Il2CppMethodInitialized_184342247 = '\x01';
+    Il2CppMethodInitialized_07542bc6 = '\x01';
   }
   pGVar1 = (Gisketch_Aottg2UI_Actions_GisketchFormField_array *)
            UnityEngine_Component__GetComponentsInChildren_object_
                      ((UnityEngine_Component_o *)__this,true,
-                      (MethodInfo_665440 *)
+                      (MethodInfo_34B1260 *)
                       MethodInfo_UnityEngine_Component_GetComponentsInChildren_GisketchFormField);
   return pGVar1;
 }
@@ -657,42 +506,53 @@ Gisketch_Aottg2UI_Actions_GisketchFormState__Fields
 
 // Gisketch.Aottg2UI.Actions.GisketchFormState$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFormState___ctor (Gisketch_Aottg2UI_Actions_GisketchFormState_o* __this, const MethodInfo* method);
-// 0x181901f00
+// 0x53a4040
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x53a406c: cmp byte ptr [rip + 0x219e813], 0
 
 void Gisketch_Aottg2UI_Actions_GisketchFormState___ctor
                (Gisketch_Aottg2UI_Actions_GisketchFormState_o *__this,MethodInfo *method)
 
 {
+  uint32_t uVar1;
   System_OrdinalIgnoreCaseComparer_o *comparer;
   System_Collections_Generic_Dictionary_string__string__o *__this_00;
   
-  if (Il2CppMethodInitialized_184342248 == '\0') {
+  if (Il2CppMethodInitialized_07542bc7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor_40dd6f8);
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor_718bd38);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_StringComparer);
-    Il2CppMethodInitialized_184342248 = '\x01';
+    Il2CppMethodInitialized_07542bc7 = '\x01';
+    uVar1 = (TypeInfo_System_StringComparer->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_System_StringComparer->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_System_StringComparer->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_StringComparer);
   }
-  if (Il2CppMethodInitialized_184341f37 == '\0') {
+  if (Il2CppMethodInitialized_07542886 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_StringComparer);
-    Il2CppMethodInitialized_184341f37 = '\x01';
+    Il2CppMethodInitialized_07542886 = '\x01';
+    uVar1 = (TypeInfo_System_StringComparer->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_System_StringComparer->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (((Il2CppClass *)TypeInfo_System_StringComparer)->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_StringComparer);
   }
   comparer = TypeInfo_System_StringComparer->static_fields->s_ordinalIgnoreCase;
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
-  System_Collections_Generic_Dictionary_object__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+  System_Collections_Generic_Dictionary_object__object____ctor_4aac9c0
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
              (System_Collections_Generic_IEqualityComparer_TKey__o *)comparer,
-             (MethodInfo_1453150 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor_40dd6f8
+             (MethodInfo_4AAC9C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor_718bd38
             );
   (__this->fields)._baseline = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._baseline,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._baseline);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FE")]
+[Token(Token = "0x20003BA")]
 public sealed class WindowsAuthenticationElement : ConfigurationElement
 {
-	[Token(Token = "0x170005F4")]
+	[Token(Token = "0x170005C6")]
 	public int DefaultCredentialsHandleCacheSize
 	{
-		[Token(Token = "0x6001ADB")]
-		[Address(RVA = "0x282D0F0", Offset = "0x282B6F0", VA = "0x18282D0F0")]
+		[Token(Token = "0x6001921")]
+		[Address(RVA = "0x61D1FA0", Offset = "0x61D0FA0", VA = "0x61D1FA0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001ADC")]
-		[Address(RVA = "0x282D150", Offset = "0x282B750", VA = "0x18282D150")]
+		[Token(Token = "0x6001922")]
+		[Address(RVA = "0x61D1FD0", Offset = "0x61D0FD0", VA = "0x61D1FD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005F5")]
+	[Token(Token = "0x170005C7")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001ADD")]
-		[Address(RVA = "0x282D120", Offset = "0x282B720", VA = "0x18282D120", Slot = "4")]
+		[Token(Token = "0x6001923")]
+		[Address(RVA = "0x61D2000", Offset = "0x61D1000", VA = "0x61D2000", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001ADA")]
-	[Address(RVA = "0x282D0C0", Offset = "0x282B6C0", VA = "0x18282D0C0")]
+	[Token(Token = "0x6001920")]
+	[Address(RVA = "0x61D1F70", Offset = "0x61D0F70", VA = "0x61D1F70")]
 	public WindowsAuthenticationElement()
 	{
 	}

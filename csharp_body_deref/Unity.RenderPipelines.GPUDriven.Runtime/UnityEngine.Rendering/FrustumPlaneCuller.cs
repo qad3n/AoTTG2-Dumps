@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.FrustumPlaneCuller
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -47,7 +47,7 @@ internal struct FrustumPlaneCuller
 		public float4 nzAbs;
 
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x2BCEB20", Offset = "0x2BCD120", VA = "0x182BCEB20")]
+		[Address(RVA = "0x65B9460", Offset = "0x65B8460", VA = "0x65B9460")]
 		public PlanePacket4(NativeArray<Plane> planes, int offset, int limit)
 		{
 		}
@@ -70,21 +70,21 @@ internal struct FrustumPlaneCuller
 	public NativeList<SplitInfo> splitInfos;
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x2BC3150", Offset = "0x2BC1750", VA = "0x182BC3150")]
+	[Address(RVA = "0x65B8BC0", Offset = "0x65B7BC0", VA = "0x65B8BC0")]
 	internal JobHandle Dispose(JobHandle job)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2BC2BD0", Offset = "0x2BC11D0", VA = "0x182BC2BD0")]
+	[Address(RVA = "0x65B8C50", Offset = "0x65B7C50", VA = "0x65B8C50")]
 	internal static FrustumPlaneCuller Create(in BatchCullingContext cc, NativeArray<Plane> receiverPlanes, in ReceiverSphereCuller receiverSphereCuller, Allocator allocator)
 	{
 		return default(FrustumPlaneCuller);
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2BC26F0", Offset = "0x2BC0CF0", VA = "0x182BC26F0")]
+	[Address(RVA = "0x65B95C0", Offset = "0x65B85C0", VA = "0x65B95C0")]
 	internal static uint ComputeSplitVisibilityMask(NativeArray<PlanePacket4> planePackets, NativeArray<SplitInfo> splitInfos, in AABB bounds)
 	{
 		return default(uint);

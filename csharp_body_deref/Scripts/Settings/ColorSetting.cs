@@ -11,41 +11,41 @@ using Utility;
 
 namespace Settings;
 
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x2000109")]
 internal class ColorSetting : TypedSetting<Color255>
 {
-	[Token(Token = "0x4000507")]
+	[Token(Token = "0x4000645")]
 	[FieldOffset(Offset = "0x28")]
 	public int MinAlpha;
 
-	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x1F12100", Offset = "0x1F10700", VA = "0x181F12100")]
+	[Token(Token = "0x6000580")]
+	[Address(RVA = "0x5A55460", Offset = "0x5A54460", VA = "0x5A55460")]
 	public ColorSetting()
 	{
 	}
 
-	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x1F12060", Offset = "0x1F10660", VA = "0x181F12060")]
+	[Token(Token = "0x6000581")]
+	[Address(RVA = "0x5A451C0", Offset = "0x5A441C0", VA = "0x5A451C0")]
 	public ColorSetting(Color255 defaultValue, int minAlpha = 0)
 	{
 	}
 
-	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x1F11E20", Offset = "0x1F10420", VA = "0x181F11E20", Slot = "11")]
+	[Token(Token = "0x6000582")]
+	[Address(RVA = "0x5A554E0", Offset = "0x5A544E0", VA = "0x5A554E0", Slot = "11")]
 	protected override Color255 SanitizeValue(Color255 value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000405")]
-	[Address(RVA = "0x1F11EB0", Offset = "0x1F104B0", VA = "0x181F11EB0", Slot = "5")]
+	[Token(Token = "0x6000583")]
+	[Address(RVA = "0x5A55560", Offset = "0x5A54560", VA = "0x5A55560", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000406")]
-	[Address(RVA = "0x1F11C70", Offset = "0x1F10270", VA = "0x181F11C70", Slot = "6")]
+	[Token(Token = "0x6000584")]
+	[Address(RVA = "0x5A55710", Offset = "0x5A54710", VA = "0x5A55710", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}

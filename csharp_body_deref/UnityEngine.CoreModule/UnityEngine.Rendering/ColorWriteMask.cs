@@ -14,14 +14,14 @@ namespace UnityEngine.Rendering;
 [Flags]
 public enum ColorWriteMask
 {
-	[Token(Token = "0x400085C")]
+	[Token(Token = "0x400085A")]
 	Alpha = 1,
-	[Token(Token = "0x400085D")]
+	[Token(Token = "0x400085B")]
 	Blue = 2,
-	[Token(Token = "0x400085E")]
+	[Token(Token = "0x400085C")]
 	Green = 4,
-	[Token(Token = "0x400085F")]
+	[Token(Token = "0x400085D")]
 	Red = 8,
-	[Token(Token = "0x4000860")]
+	[Token(Token = "0x400085E")]
 	All = Alpha | Blue | Green | Red
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Characters.TitanColliderToggler
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Characters/TitanColliderToggler.c
 // Prior real C# source (older reference): Assets/Scripts/Characters/Titan/TitanColliderToggler.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,73 +11,73 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20006BF")]
+[Token(Token = "0x200071E")]
 internal class TitanColliderToggler : MonoBehaviour
 {
-	[Token(Token = "0x400217F")]
+	[Token(Token = "0x400234C")]
 	[FieldOffset(Offset = "0x20")]
 	public BaseTitan Owner;
 
-	[Token(Token = "0x4002180")]
+	[Token(Token = "0x400234D")]
 	[FieldOffset(Offset = "0x28")]
 	public HashSet<BaseCharacter> NearbyCharacters;
 
-	[Token(Token = "0x4002181")]
+	[Token(Token = "0x400234E")]
 	[FieldOffset(Offset = "0x30")]
 	public TitanProjectileDetection _projectile;
 
-	[Token(Token = "0x4002182")]
+	[Token(Token = "0x400234F")]
 	[FieldOffset(Offset = "0x38")]
 	protected bool _look;
 
-	[Token(Token = "0x4002183")]
+	[Token(Token = "0x4002350")]
 	[FieldOffset(Offset = "0x39")]
 	protected bool _enabled;
 
-	[Token(Token = "0x17000BBB")]
+	[Token(Token = "0x17000C04")]
 	public bool CollidersEnabled
 	{
-		[Token(Token = "0x60042AD")]
-		[Address(RVA = "0xF1D4C0", Offset = "0xF1BAC0", VA = "0x180F1D4C0")]
+		[Token(Token = "0x600455E")]
+		[Address(RVA = "0x5B47CE0", Offset = "0x5B46CE0", VA = "0x5B47CE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60042AE")]
-	[Address(RVA = "0x21AC640", Offset = "0x21AAC40", VA = "0x1821AC640")]
+	[Token(Token = "0x600455F")]
+	[Address(RVA = "0x5B47CF0", Offset = "0x5B46CF0", VA = "0x5B47CF0")]
 	public static TitanColliderToggler Create(BaseTitan owner)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60042AF")]
-	[Address(RVA = "0xCD9BE0", Offset = "0xCD81E0", VA = "0x180CD9BE0")]
+	[Token(Token = "0x6004560")]
+	[Address(RVA = "0x5B48030", Offset = "0x5B47030", VA = "0x5B48030")]
 	public void RegisterLook()
 	{
 	}
 
-	[Token(Token = "0x60042B0")]
-	[Address(RVA = "0x21ACA00", Offset = "0x21AB000", VA = "0x1821ACA00")]
+	[Token(Token = "0x6004561")]
+	[Address(RVA = "0x5B48040", Offset = "0x5B47040", VA = "0x5B48040")]
 	public void SetNearby(BaseCharacter character, bool nearby)
 	{
 	}
 
-	[Token(Token = "0x60042B1")]
-	[Address(RVA = "0x21AC740", Offset = "0x21AAD40", VA = "0x1821AC740")]
+	[Token(Token = "0x6004562")]
+	[Address(RVA = "0x5B480F0", Offset = "0x5B470F0", VA = "0x5B480F0")]
 	protected void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x60042B2")]
-	[Address(RVA = "0x21AC830", Offset = "0x21AAE30", VA = "0x1821AC830")]
+	[Token(Token = "0x6004563")]
+	[Address(RVA = "0x5B47DE0", Offset = "0x5B46DE0", VA = "0x5B47DE0")]
 	protected void SetColliders(bool enable)
 	{
 	}
 
-	[Token(Token = "0x60042B3")]
-	[Address(RVA = "0x21ACAC0", Offset = "0x21AB0C0", VA = "0x1821ACAC0")]
+	[Token(Token = "0x6004564")]
+	[Address(RVA = "0x5B481E0", Offset = "0x5B471E0", VA = "0x5B481E0")]
 	public TitanColliderToggler()
 	{
 	}

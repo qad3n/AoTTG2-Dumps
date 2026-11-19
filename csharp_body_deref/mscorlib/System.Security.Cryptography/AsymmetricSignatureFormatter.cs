@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002FC")]
+[Token(Token = "0x20002D5")]
 [ComVisible(true)]
 public abstract class AsymmetricSignatureFormatter
 {
-	[Token(Token = "0x6001905")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60018E2")]
+	[Address(RVA = "0x5336830", Offset = "0x5335830", VA = "0x5336830")]
 	protected AsymmetricSignatureFormatter()
 	{
 	}
 
-	[Token(Token = "0x6001906")]
+	[Token(Token = "0x60018E3")]
 	public abstract void SetKey(AsymmetricAlgorithm key);
 
-	[Token(Token = "0x6001907")]
+	[Token(Token = "0x60018E4")]
 	public abstract void SetHashAlgorithm(string strName);
 
-	[Token(Token = "0x6001908")]
-	[Address(RVA = "0x19A3100", Offset = "0x19A1700", VA = "0x1819A3100", Slot = "6")]
+	[Token(Token = "0x60018E5")]
+	[Address(RVA = "0x5336840", Offset = "0x5335840", VA = "0x5336840", Slot = "6")]
 	public virtual byte[] CreateSignature(HashAlgorithm hash)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001909")]
+	[Token(Token = "0x60018E6")]
 	public abstract byte[] CreateSignature(byte[] rgbHash);
 }

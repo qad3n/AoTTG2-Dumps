@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Code.AottgScreenEntry
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Code/AottgScreenEntry.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000075")]
+[Token(Token = "0x200007B")]
 public sealed class AottgScreenEntry
 {
 	[Token(Token = "0x1700005E")]
 	public string Id
 	{
-		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60003B7")]
+		[Address(RVA = "0x5263730", Offset = "0x5262730", VA = "0x5263730")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,8 +30,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x1700005F")]
 	public string Title
 	{
-		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60003B8")]
+		[Address(RVA = "0x5263740", Offset = "0x5262740", VA = "0x5263740")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,8 +42,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000060")]
 	public string TitleKey
 	{
-		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60003B9")]
+		[Address(RVA = "0x5263750", Offset = "0x5262750", VA = "0x5263750")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,8 +54,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000061")]
 	public string SearchTitle
 	{
-		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x60003BA")]
+		[Address(RVA = "0x5263760", Offset = "0x5262760", VA = "0x5263760")]
 		[CompilerGenerated]
 		get
 		{
@@ -66,8 +66,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000062")]
 	public string SearchTitleKey
 	{
-		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x60003BB")]
+		[Address(RVA = "0x5263770", Offset = "0x5262770", VA = "0x5263770")]
 		[CompilerGenerated]
 		get
 		{
@@ -78,8 +78,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000063")]
 	public string SearchGroup
 	{
-		[Token(Token = "0x6000371")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x60003BC")]
+		[Address(RVA = "0x5263780", Offset = "0x5262780", VA = "0x5263780")]
 		[CompilerGenerated]
 		get
 		{
@@ -90,8 +90,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000064")]
 	public string BackScreenId
 	{
-		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x60003BD")]
+		[Address(RVA = "0x5263790", Offset = "0x5262790", VA = "0x5263790")]
 		[CompilerGenerated]
 		get
 		{
@@ -102,8 +102,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000065")]
 	public string BackActionId
 	{
-		[Token(Token = "0x6000373")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x60003BE")]
+		[Address(RVA = "0x52637A0", Offset = "0x52627A0", VA = "0x52637A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -114,8 +114,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000066")]
 	public GisketchScreenLifecycle Lifecycle
 	{
-		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Token(Token = "0x60003BF")]
+		[Address(RVA = "0x52637B0", Offset = "0x52627B0", VA = "0x52637B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -126,8 +126,8 @@ public sealed class AottgScreenEntry
 	[Token(Token = "0x17000067")]
 	public Type Type
 	{
-		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Token(Token = "0x60003C0")]
+		[Address(RVA = "0x52637C0", Offset = "0x52627C0", VA = "0x52637C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -135,8 +135,8 @@ public sealed class AottgScreenEntry
 		}
 	}
 
-	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x18C6350", Offset = "0x18C4950", VA = "0x1818C6350")]
+	[Token(Token = "0x60003B6")]
+	[Address(RVA = "0x5263480", Offset = "0x5262480", VA = "0x5263480")]
 	internal AottgScreenEntry(string id, string title, string titleKey, string searchTitle, string searchTitleKey, string searchGroup, string backScreenId, string backActionId, GisketchScreenLifecycle lifecycle, Type type)
 	{
 	}

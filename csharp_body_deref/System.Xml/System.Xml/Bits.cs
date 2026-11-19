@@ -33,14 +33,14 @@ internal static class Bits
 	private static readonly uint MASK_1111111111111111;
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x25D11F0", Offset = "0x25CF7F0", VA = "0x1825D11F0")]
+	[Address(RVA = "0x5F99BB0", Offset = "0x5F98BB0", VA = "0x5F99BB0")]
 	public static int Count(uint num)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x25D12A0", Offset = "0x25CF8A0", VA = "0x1825D12A0")]
+	[Address(RVA = "0x5F99C40", Offset = "0x5F98C40", VA = "0x5F99C40")]
 	public static int LeastPosition(uint num)
 	{
 		return default(int);

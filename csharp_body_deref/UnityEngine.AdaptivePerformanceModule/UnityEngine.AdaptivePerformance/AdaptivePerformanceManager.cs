@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,26 +23,26 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 
 	[Token(Token = "0x4000003")]
 	[FieldOffset(Offset = "0x28")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private PerformanceBottleneckChangeHandler m_PerformanceBottleneckChangeEvent;
 
 	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x30")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private PerformanceLevelChangeHandler m_PerformanceLevelChangeEvent;
 
 	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x38")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private PerformanceBoostChangeHandler m_PerformanceBoostChangeEvent;
 
 	[Token(Token = "0x4000006")]
 	[FieldOffset(Offset = "0x40")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private PerformanceModeEventHandler m_PerformanceModeEvent;
 
 	[Token(Token = "0x4000007")]
@@ -169,7 +169,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public ThermalMetrics ThermalMetrics
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x2E8A950", Offset = "0x2E88F50", VA = "0x182E8A950", Slot = "9")]
+		[Address(RVA = "0x687C1D0", Offset = "0x687B1D0", VA = "0x687C1D0", Slot = "9")]
 		get
 		{
 			return default(ThermalMetrics);
@@ -180,7 +180,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public PerformanceMetrics PerformanceMetrics
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x2E8A900", Offset = "0x2E88F00", VA = "0x182E8A900", Slot = "10")]
+		[Address(RVA = "0x687C1E0", Offset = "0x687B1E0", VA = "0x687C1E0", Slot = "10")]
 		get
 		{
 			return default(PerformanceMetrics);
@@ -191,7 +191,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public FrameTiming FrameTiming
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x2E8A640", Offset = "0x2E88C40", VA = "0x182E8A640", Slot = "11")]
+		[Address(RVA = "0x687C200", Offset = "0x687B200", VA = "0x687C200", Slot = "11")]
 		get
 		{
 			return default(FrameTiming);
@@ -202,7 +202,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public PerformanceMode PerformanceMode
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x2E8A920", Offset = "0x2E88F20", VA = "0x182E8A920", Slot = "28")]
+		[Address(RVA = "0x687C220", Offset = "0x687B220", VA = "0x687C220", Slot = "28")]
 		get
 		{
 			return default(PerformanceMode);
@@ -213,13 +213,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool Logging
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x2E8A790", Offset = "0x2E88D90", VA = "0x182E8A790", Slot = "29")]
+		[Address(RVA = "0x687C230", Offset = "0x687B230", VA = "0x687C230", Slot = "29")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x2E8ACE0", Offset = "0x2E892E0", VA = "0x182E8ACE0", Slot = "30")]
+		[Address(RVA = "0x687C2A0", Offset = "0x687B2A0", VA = "0x687C2A0", Slot = "30")]
 		set
 		{
 		}
@@ -229,14 +229,14 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public int LoggingFrequencyInFrames
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x25EDB20", Offset = "0x25EC120", VA = "0x1825EDB20", Slot = "31")]
+		[Address(RVA = "0x687C2F0", Offset = "0x687B2F0", VA = "0x687C2F0", Slot = "31")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x2B0A850", Offset = "0x2B08E50", VA = "0x182B0A850", Slot = "32")]
+		[Address(RVA = "0x687C300", Offset = "0x687B300", VA = "0x687C300", Slot = "32")]
 		[CompilerGenerated]
 		set
 		{
@@ -247,7 +247,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool Initialized
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x2E8A670", Offset = "0x2E88C70", VA = "0x182E8A670", Slot = "33")]
+		[Address(RVA = "0x687C310", Offset = "0x687B310", VA = "0x687C310", Slot = "33")]
 		get
 		{
 			return default(bool);
@@ -258,7 +258,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool Active
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x2E8A4D0", Offset = "0x2E88AD0", VA = "0x182E8A4D0", Slot = "34")]
+		[Address(RVA = "0x687C540", Offset = "0x687B540", VA = "0x687C540", Slot = "34")]
 		get
 		{
 			return default(bool);
@@ -269,7 +269,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public int MaxCpuPerformanceLevel
 	{
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x2E8A7E0", Offset = "0x2E88DE0", VA = "0x182E8A7E0", Slot = "14")]
+		[Address(RVA = "0x687C770", Offset = "0x687B770", VA = "0x687C770", Slot = "14")]
 		get
 		{
 			return default(int);
@@ -280,7 +280,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public int MaxGpuPerformanceLevel
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x2E8A860", Offset = "0x2E88E60", VA = "0x182E8A860", Slot = "15")]
+		[Address(RVA = "0x687C8C0", Offset = "0x687B8C0", VA = "0x687C8C0", Slot = "15")]
 		get
 		{
 			return default(int);
@@ -291,13 +291,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool AutomaticPerformanceControl
 	{
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x2E8A610", Offset = "0x2E88C10", VA = "0x182E8A610", Slot = "35")]
+		[Address(RVA = "0x687CA10", Offset = "0x687BA10", VA = "0x687CA10", Slot = "35")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x2E8AC90", Offset = "0x2E89290", VA = "0x182E8AC90", Slot = "36")]
+		[Address(RVA = "0x687CA20", Offset = "0x687BA20", VA = "0x687CA20", Slot = "36")]
 		set
 		{
 		}
@@ -307,7 +307,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public PerformanceControlMode PerformanceControlMode
 	{
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x2E8A8E0", Offset = "0x2E88EE0", VA = "0x182E8A8E0", Slot = "37")]
+		[Address(RVA = "0x687CA30", Offset = "0x687BA30", VA = "0x687CA30", Slot = "37")]
 		get
 		{
 			return default(PerformanceControlMode);
@@ -318,13 +318,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public int CpuLevel
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x2E8A620", Offset = "0x2E88C20", VA = "0x182E8A620", Slot = "16")]
+		[Address(RVA = "0x687CA50", Offset = "0x687BA50", VA = "0x687CA50", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x2E8ACA0", Offset = "0x2E892A0", VA = "0x182E8ACA0", Slot = "17")]
+		[Address(RVA = "0x687CA60", Offset = "0x687BA60", VA = "0x687CA60", Slot = "17")]
 		set
 		{
 		}
@@ -334,13 +334,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public int GpuLevel
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0xE282D0", Offset = "0xE268D0", VA = "0x180E282D0", Slot = "18")]
+		[Address(RVA = "0x687CA70", Offset = "0x687BA70", VA = "0x687CA70", Slot = "18")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x2E8ACC0", Offset = "0x2E892C0", VA = "0x182E8ACC0", Slot = "19")]
+		[Address(RVA = "0x687CA80", Offset = "0x687BA80", VA = "0x687CA80", Slot = "19")]
 		set
 		{
 		}
@@ -350,13 +350,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool CpuPerformanceBoost
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x2E8A630", Offset = "0x2E88C30", VA = "0x182E8A630", Slot = "38")]
+		[Address(RVA = "0x687CA90", Offset = "0x687BA90", VA = "0x687CA90", Slot = "38")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x2E8ACB0", Offset = "0x2E892B0", VA = "0x182E8ACB0", Slot = "39")]
+		[Address(RVA = "0x687CAA0", Offset = "0x687BAA0", VA = "0x687CAA0", Slot = "39")]
 		set
 		{
 		}
@@ -366,13 +366,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public bool GpuPerformanceBoost
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x2E8A660", Offset = "0x2E88C60", VA = "0x182E8A660", Slot = "40")]
+		[Address(RVA = "0x687CAB0", Offset = "0x687BAB0", VA = "0x687CAB0", Slot = "40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x2E8ACD0", Offset = "0x2E892D0", VA = "0x182E8ACD0", Slot = "41")]
+		[Address(RVA = "0x687CAC0", Offset = "0x687BAC0", VA = "0x687CAC0", Slot = "41")]
 		set
 		{
 		}
@@ -382,7 +382,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IDevelopmentSettings DevelopmentSettings
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x1B827F0", Offset = "0x1B80DF0", VA = "0x181B827F0", Slot = "42")]
+		[Address(RVA = "0x687CAD0", Offset = "0x687BAD0", VA = "0x687CAD0", Slot = "42")]
 		get
 		{
 			return null;
@@ -393,7 +393,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IThermalStatus ThermalStatus
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x1B827F0", Offset = "0x1B80DF0", VA = "0x181B827F0", Slot = "4")]
+		[Address(RVA = "0x687CAE0", Offset = "0x687BAE0", VA = "0x687CAE0", Slot = "4")]
 		get
 		{
 			return null;
@@ -404,7 +404,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IPerformanceStatus PerformanceStatus
 	{
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x1B827F0", Offset = "0x1B80DF0", VA = "0x181B827F0", Slot = "5")]
+		[Address(RVA = "0x687CAF0", Offset = "0x687BAF0", VA = "0x687CAF0", Slot = "5")]
 		get
 		{
 			return null;
@@ -415,7 +415,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IDevicePerformanceControl DevicePerformanceControl
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x1B827F0", Offset = "0x1B80DF0", VA = "0x181B827F0", Slot = "43")]
+		[Address(RVA = "0x687CB00", Offset = "0x687BB00", VA = "0x687CB00", Slot = "43")]
 		get
 		{
 			return null;
@@ -426,7 +426,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IPerformanceModeStatus PerformanceModeStatus
 	{
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x1B827F0", Offset = "0x1B80DF0", VA = "0x181B827F0", Slot = "44")]
+		[Address(RVA = "0x687CB10", Offset = "0x687BB10", VA = "0x687CB10", Slot = "44")]
 		get
 		{
 			return null;
@@ -437,14 +437,14 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public AdaptivePerformanceIndexer Indexer
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890", Slot = "6")]
+		[Address(RVA = "0x687CB20", Offset = "0x687BB20", VA = "0x687CB20", Slot = "6")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
+		[Address(RVA = "0x687CB30", Offset = "0x687BB30", VA = "0x687CB30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -455,13 +455,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public IAdaptivePerformanceSettings Settings
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x2E8A930", Offset = "0x2E88F30", VA = "0x182E8A930", Slot = "7")]
+		[Address(RVA = "0x687CB50", Offset = "0x687BB50", VA = "0x687CB50", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x1537500", Offset = "0x1535B00", VA = "0x181537500")]
+		[Address(RVA = "0x687CB60", Offset = "0x687BB60", VA = "0x687CB60")]
 		private set
 		{
 		}
@@ -471,7 +471,7 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public AdaptivePerformanceSubsystem Subsystem
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2E8A940", Offset = "0x2E88F40", VA = "0x182E8A940", Slot = "45")]
+		[Address(RVA = "0x687CB80", Offset = "0x687BB80", VA = "0x687CB80", Slot = "45")]
 		get
 		{
 			return null;
@@ -482,13 +482,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public event ThermalEventHandler ThermalEvent
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x2E8A430", Offset = "0x2E88A30", VA = "0x182E8A430", Slot = "22")]
+		[Address(RVA = "0x687BC30", Offset = "0x687AC30", VA = "0x687BC30", Slot = "22")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x2E8ABF0", Offset = "0x2E891F0", VA = "0x182E8ABF0", Slot = "23")]
+		[Address(RVA = "0x687BCC0", Offset = "0x687ACC0", VA = "0x687BCC0", Slot = "23")]
 		[CompilerGenerated]
 		remove
 		{
@@ -499,13 +499,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public event PerformanceBottleneckChangeHandler PerformanceBottleneckChangeEvent
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x2E8A250", Offset = "0x2E88850", VA = "0x182E8A250", Slot = "12")]
+		[Address(RVA = "0x687BD50", Offset = "0x687AD50", VA = "0x687BD50", Slot = "12")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x2E8AA10", Offset = "0x2E89010", VA = "0x182E8AA10", Slot = "13")]
+		[Address(RVA = "0x687BDE0", Offset = "0x687ADE0", VA = "0x687BDE0", Slot = "13")]
 		[CompilerGenerated]
 		remove
 		{
@@ -516,13 +516,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public event PerformanceLevelChangeHandler PerformanceLevelChangeEvent
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x2E8A2F0", Offset = "0x2E888F0", VA = "0x182E8A2F0", Slot = "24")]
+		[Address(RVA = "0x687BE70", Offset = "0x687AE70", VA = "0x687BE70", Slot = "24")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x2E8AAB0", Offset = "0x2E890B0", VA = "0x182E8AAB0", Slot = "25")]
+		[Address(RVA = "0x687BF00", Offset = "0x687AF00", VA = "0x687BF00", Slot = "25")]
 		[CompilerGenerated]
 		remove
 		{
@@ -533,13 +533,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public event PerformanceBoostChangeHandler PerformanceBoostChangeEvent
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x2E8A1B0", Offset = "0x2E887B0", VA = "0x182E8A1B0", Slot = "26")]
+		[Address(RVA = "0x687BF90", Offset = "0x687AF90", VA = "0x687BF90", Slot = "26")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x2E8A970", Offset = "0x2E88F70", VA = "0x182E8A970", Slot = "27")]
+		[Address(RVA = "0x687C020", Offset = "0x687B020", VA = "0x687C020", Slot = "27")]
 		[CompilerGenerated]
 		remove
 		{
@@ -550,13 +550,13 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	public event PerformanceModeEventHandler PerformanceModeEvent
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x2E8A390", Offset = "0x2E88990", VA = "0x182E8A390", Slot = "20")]
+		[Address(RVA = "0x687C0B0", Offset = "0x687B0B0", VA = "0x687C0B0", Slot = "20")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x2E8AB50", Offset = "0x2E89150", VA = "0x182E8AB50", Slot = "21")]
+		[Address(RVA = "0x687C140", Offset = "0x687B140", VA = "0x687C140", Slot = "21")]
 		[CompilerGenerated]
 		remove
 		{
@@ -564,162 +564,162 @@ internal class AdaptivePerformanceManager : MonoBehaviour, IAdaptivePerformance,
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x2E867E0", Offset = "0x2E84DE0", VA = "0x182E867E0")]
+	[Address(RVA = "0x687CB90", Offset = "0x687BB90", VA = "0x687CB90")]
 	private static bool HasFeature(Feature flags, Feature feature)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x2E89070", Offset = "0x2E87670", VA = "0x182E89070", Slot = "8")]
+	[Address(RVA = "0x687CBA0", Offset = "0x687BBA0", VA = "0x687CBA0", Slot = "8")]
 	public bool SupportedFeature(Feature feature)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x2E85BC0", Offset = "0x2E841C0", VA = "0x182E85BC0")]
+	[Address(RVA = "0x687CBD0", Offset = "0x687BBD0", VA = "0x687CBD0")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x2E88BD0", Offset = "0x2E871D0", VA = "0x182E88BD0")]
+	[Address(RVA = "0x687DDA0", Offset = "0x687CDA0", VA = "0x687DDA0")]
 	private void LogThermalEvent(ThermalMetrics ev)
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2E88600", Offset = "0x2E86C00", VA = "0x182E88600")]
+	[Address(RVA = "0x687DF80", Offset = "0x687CF80", VA = "0x687DF80")]
 	private void LogBottleneckEvent(PerformanceBottleneckChangeEventArgs ev)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x2E884A0", Offset = "0x2E86AA0", VA = "0x182E884A0")]
+	[Address(RVA = "0x687E080", Offset = "0x687D080", VA = "0x687E080")]
 	private void LogBoostEvent(PerformanceBoostChangeEventArgs ev)
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x2E88A40", Offset = "0x2E87040", VA = "0x182E88A40")]
+	[Address(RVA = "0x687E1E0", Offset = "0x687D1E0", VA = "0x687E1E0")]
 	private void LogPerformanceModeEvent(PerformanceMode performanceMode)
 	{
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x2E87A20", Offset = "0x2E86020", VA = "0x182E87A20")]
+	[Address(RVA = "0x687E360", Offset = "0x687D360", VA = "0x687E360")]
 	private void LogAdaptivePerformanceStatus()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x2E890B0", Offset = "0x2E876B0", VA = "0x182E890B0")]
+	[Address(RVA = "0x687F0F0", Offset = "0x687E0F0", VA = "0x687F0F0")]
 	private static string ToStringWithSign(int x)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2E88700", Offset = "0x2E86D00", VA = "0x182E88700")]
+	[Address(RVA = "0x687F130", Offset = "0x687E130", VA = "0x687F130")]
 	private void LogPerformanceLevelEvent(PerformanceLevelChangeEventArgs ev)
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x2E85940", Offset = "0x2E83F40", VA = "0x182E85940")]
+	[Address(RVA = "0x687F430", Offset = "0x687E430", VA = "0x687F430")]
 	private void AddNonNegativeValue(RunningAverage runningAverage, float value)
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x2E87980", Offset = "0x2E85F80", VA = "0x182E87980")]
+	[Address(RVA = "0x687F520", Offset = "0x687E520", VA = "0x687F520")]
 	public void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2E89EE0", Offset = "0x2E884E0", VA = "0x182E89EE0")]
+	[Address(RVA = "0x687F650", Offset = "0x687E650", VA = "0x687F650")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2E85D80", Offset = "0x2E84380", VA = "0x182E85D80")]
+	[Address(RVA = "0x6880770", Offset = "0x687F770", VA = "0x6880770")]
 	private void CollectProfilerStats()
 	{
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2E85A00", Offset = "0x2E84000", VA = "0x182E85A00")]
+	[Address(RVA = "0x687EE80", Offset = "0x687DE80", VA = "0x687EE80")]
 	private void AppendFrameTiming(string label, float averageSeconds, float currentSeconds)
 	{
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x2E85910", Offset = "0x2E83F10", VA = "0x182E85910")]
+	[Address(RVA = "0x6880A30", Offset = "0x687FA30", VA = "0x6880A30")]
 	private void AccumulateTimingValue(ref float accu, float newValue)
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2E890F0", Offset = "0x2E876F0", VA = "0x182E890F0")]
+	[Address(RVA = "0x687F7B0", Offset = "0x687E7B0", VA = "0x687F7B0")]
 	private void UpdateSubsystem()
 	{
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2E89F90", Offset = "0x2E88590", VA = "0x182E89F90")]
+	[Address(RVA = "0x687F5D0", Offset = "0x687E5D0", VA = "0x687F5D0")]
 	private static bool WillCurrentFrameRender()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2E86790", Offset = "0x2E84D90", VA = "0x182E86790")]
+	[Address(RVA = "0x6880E30", Offset = "0x687FE30", VA = "0x6880E30")]
 	public static float EffectiveTargetFrameRate()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2E88F00", Offset = "0x2E87500", VA = "0x182E88F00")]
+	[Address(RVA = "0x6881510", Offset = "0x6880510", VA = "0x6881510")]
 	public void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2E867F0", Offset = "0x2E84DF0", VA = "0x182E867F0", Slot = "46")]
+	[Address(RVA = "0x687D000", Offset = "0x687C000", VA = "0x687D000", Slot = "46")]
 	public void InitializeAdaptivePerformance()
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2E88F10", Offset = "0x2E87510", VA = "0x182E88F10", Slot = "47")]
+	[Address(RVA = "0x68833D0", Offset = "0x68823D0", VA = "0x68833D0", Slot = "47")]
 	public void StartAdaptivePerformance()
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2E88FC0", Offset = "0x2E875C0", VA = "0x182E88FC0", Slot = "48")]
+	[Address(RVA = "0x6883570", Offset = "0x6882570", VA = "0x6883570", Slot = "48")]
 	public void StopAdaptivePerformance()
 	{
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2E85FF0", Offset = "0x2E845F0", VA = "0x182E85FF0", Slot = "49")]
+	[Address(RVA = "0x6881520", Offset = "0x6880520", VA = "0x6881520", Slot = "49")]
 	public void DeinitializeAdaptivePerformance()
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2E88DB0", Offset = "0x2E873B0", VA = "0x182E88DB0")]
+	[Address(RVA = "0x6883850", Offset = "0x6882850", VA = "0x6883850")]
 	public void OnApplicationPause(bool pause)
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2E89FD0", Offset = "0x2E885D0", VA = "0x182E89FD0")]
+	[Address(RVA = "0x6883A70", Offset = "0x6882A70", VA = "0x6883A70")]
 	public AdaptivePerformanceManager()
 	{
 	}

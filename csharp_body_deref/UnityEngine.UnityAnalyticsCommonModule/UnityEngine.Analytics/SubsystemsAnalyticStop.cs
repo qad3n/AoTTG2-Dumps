@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Analytics.SubsystemsAnalyticStop
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,13 +21,13 @@ namespace UnityEngine.Analytics;
 public class SubsystemsAnalyticStop : SubsystemsAnalyticBase
 {
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x33084D0", Offset = "0x3306AD0", VA = "0x1833084D0")]
+	[Address(RVA = "0x6D17020", Offset = "0x6D16020", VA = "0x6D17020")]
 	public SubsystemsAnalyticStop()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x3308420", Offset = "0x3306A20", VA = "0x183308420")]
+	[Address(RVA = "0x6D17090", Offset = "0x6D16090", VA = "0x6D17090")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static SubsystemsAnalyticStop CreateSubsystemsAnalyticStop()
 	{

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000031")]
 public static class MonoTlsProviderFactory
 {
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x1937300", Offset = "0x1935900", VA = "0x181937300")]
+	[Token(Token = "0x6000136")]
+	[Address(RVA = "0x52C7FB0", Offset = "0x52C6FB0", VA = "0x52C7FB0")]
 	public static MonoTlsProvider GetProvider()
 	{
 		return null;

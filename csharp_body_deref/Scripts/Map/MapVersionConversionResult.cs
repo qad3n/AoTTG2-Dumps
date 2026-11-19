@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Map.MapVersionConversionResult
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Map/MapVersionConversionResult.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,87 +11,87 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x20003BE")]
+[Token(Token = "0x200041D")]
 public sealed class MapVersionConversionResult
 {
-	[Token(Token = "0x1700027B")]
+	[Token(Token = "0x170002BC")]
 	public string OriginalVersion
 	{
-		[Token(Token = "0x60017A8")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001A1F")]
+		[Address(RVA = "0x58A4DA0", Offset = "0x58A3DA0", VA = "0x58A4DA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017A9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6001A20")]
+		[Address(RVA = "0x58A4DB0", Offset = "0x58A3DB0", VA = "0x58A4DB0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700027C")]
+	[Token(Token = "0x170002BD")]
 	public string FinalVersion
 	{
-		[Token(Token = "0x60017AA")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001A21")]
+		[Address(RVA = "0x58A4DC0", Offset = "0x58A3DC0", VA = "0x58A4DC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017AB")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001A22")]
+		[Address(RVA = "0x58A4DD0", Offset = "0x58A3DD0", VA = "0x58A4DD0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700027D")]
+	[Token(Token = "0x170002BE")]
 	public IReadOnlyList<IMapVersionConverter> Converters
 	{
-		[Token(Token = "0x60017AC")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001A23")]
+		[Address(RVA = "0x58A4DE0", Offset = "0x58A3DE0", VA = "0x58A4DE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017AD")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6001A24")]
+		[Address(RVA = "0x58A4DF0", Offset = "0x58A3DF0", VA = "0x58A4DF0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700027E")]
+	[Token(Token = "0x170002BF")]
 	public int VersionCount
 	{
-		[Token(Token = "0x60017AE")]
-		[Address(RVA = "0x1EDD0B0", Offset = "0x1EDB6B0", VA = "0x181EDD0B0")]
+		[Token(Token = "0x6001A25")]
+		[Address(RVA = "0x58A4E00", Offset = "0x58A3E00", VA = "0x58A4E00")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700027F")]
+	[Token(Token = "0x170002C0")]
 	public bool IsReversible
 	{
-		[Token(Token = "0x60017AF")]
-		[Address(RVA = "0x1EDCF90", Offset = "0x1EDB590", VA = "0x181EDCF90")]
+		[Token(Token = "0x6001A26")]
+		[Address(RVA = "0x58A4E90", Offset = "0x58A3E90", VA = "0x58A4E90")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60017B0")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001A27")]
+	[Address(RVA = "0x58A4FA0", Offset = "0x58A3FA0", VA = "0x58A4FA0")]
 	public MapVersionConversionResult()
 	{
 	}

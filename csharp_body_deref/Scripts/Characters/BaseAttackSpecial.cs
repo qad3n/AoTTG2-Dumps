@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000674")]
+[Token(Token = "0x20006D3")]
 internal class BaseAttackSpecial : ExtendedUseable
 {
-	[Token(Token = "0x4001EA6")]
+	[Token(Token = "0x4002054")]
 	[FieldOffset(Offset = "0x40")]
 	protected Human _human;
 
-	[Token(Token = "0x6003FF0")]
-	[Address(RVA = "0x2166E60", Offset = "0x2165460", VA = "0x182166E60")]
+	[Token(Token = "0x6004288")]
+	[Address(RVA = "0x5B08C40", Offset = "0x5B07C40", VA = "0x5B08C40")]
 	public BaseAttackSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003FF1")]
-	[Address(RVA = "0x2166DD0", Offset = "0x21653D0", VA = "0x182166DD0", Slot = "6")]
+	[Token(Token = "0x6004289")]
+	[Address(RVA = "0x5B08CF0", Offset = "0x5B07CF0", VA = "0x5B08CF0", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003FF2")]
-	[Address(RVA = "0x2166E30", Offset = "0x2165430", VA = "0x182166E30")]
+	[Token(Token = "0x600428A")]
+	[Address(RVA = "0x5B08D20", Offset = "0x5B07D20", VA = "0x5B08D20")]
 	protected bool InSpecial()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003FF3")]
-	[Address(RVA = "0x2166E10", Offset = "0x2165410", VA = "0x182166E10", Slot = "10")]
+	[Token(Token = "0x600428B")]
+	[Address(RVA = "0x5B08D40", Offset = "0x5B07D40", VA = "0x5B08D40", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6003FF4")]
-	[Address(RVA = "0x2166DA0", Offset = "0x21653A0", VA = "0x182166DA0", Slot = "16")]
+	[Token(Token = "0x600428C")]
+	[Address(RVA = "0x5B08D60", Offset = "0x5B07D60", VA = "0x5B08D60", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}

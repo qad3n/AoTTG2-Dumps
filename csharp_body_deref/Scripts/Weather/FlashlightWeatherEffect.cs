@@ -10,50 +10,50 @@ using UnityEngine;
 
 namespace Weather;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200002E")]
 internal class FlashlightWeatherEffect : BaseWeatherEffect
 {
-	[Token(Token = "0x40000F5")]
+	[Token(Token = "0x40000FC")]
 	[FieldOffset(Offset = "0x70")]
 	private Light _light;
 
-	[Token(Token = "0x1700001F")]
+	[Token(Token = "0x17000018")]
 	protected override Vector3 _positionOffset
 	{
-		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x1DA1240", Offset = "0x1D9F840", VA = "0x181DA1240", Slot = "4")]
+		[Token(Token = "0x6000149")]
+		[Address(RVA = "0x5753E60", Offset = "0x5752E60", VA = "0x5753E60", Slot = "4")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x600014A")]
+	[Address(RVA = "0x5753EB0", Offset = "0x5752EB0", VA = "0x5753EB0", Slot = "8")]
 	public override void Randomize()
 	{
 	}
 
-	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x1DA1150", Offset = "0x1D9F750", VA = "0x181DA1150", Slot = "11")]
+	[Token(Token = "0x600014B")]
+	[Address(RVA = "0x5753EC0", Offset = "0x5752EC0", VA = "0x5753EC0", Slot = "11")]
 	public override void Setup(Transform parent)
 	{
 	}
 
-	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x1DA1120", Offset = "0x1D9F720", VA = "0x181DA1120", Slot = "22")]
+	[Token(Token = "0x600014C")]
+	[Address(RVA = "0x5753F90", Offset = "0x5752F90", VA = "0x5753F90", Slot = "22")]
 	public virtual void SetColor(Color color)
 	{
 	}
 
-	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x1DA0F40", Offset = "0x1D9F540", VA = "0x181DA0F40", Slot = "19")]
+	[Token(Token = "0x600014D")]
+	[Address(RVA = "0x5753FB0", Offset = "0x5752FB0", VA = "0x5753FB0", Slot = "19")]
 	protected override void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x1DA1230", Offset = "0x1D9F830", VA = "0x181DA1230")]
+	[Token(Token = "0x600014E")]
+	[Address(RVA = "0x5754160", Offset = "0x5753160", VA = "0x5754160")]
 	public FlashlightWeatherEffect()
 	{
 	}

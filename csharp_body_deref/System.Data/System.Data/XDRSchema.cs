@@ -26,13 +26,13 @@ internal sealed class XDRSchema : XMLSchema
 		public Type type;
 
 		[Token(Token = "0x6000801")]
-		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+		[Address(RVA = "0x5ED2640", Offset = "0x5ED1640", VA = "0x5ED2640")]
 		public NameType(string n, Type t)
 		{
 		}
 
 		[Token(Token = "0x6000802")]
-		[Address(RVA = "0x25227A0", Offset = "0x2520DA0", VA = "0x1825227A0", Slot = "4")]
+		[Address(RVA = "0x5ED2680", Offset = "0x5ED1680", VA = "0x5ED2680", Slot = "4")]
 		public int CompareTo(object obj)
 		{
 			return default(int);
@@ -68,99 +68,99 @@ internal sealed class XDRSchema : XMLSchema
 	private static NameType s_enumerationNameType;
 
 	[Token(Token = "0x60007F1")]
-	[Address(RVA = "0x252CA50", Offset = "0x252B050", VA = "0x18252CA50")]
+	[Address(RVA = "0x5ECEBF0", Offset = "0x5ECDBF0", VA = "0x5ECEBF0")]
 	internal XDRSchema(DataSet ds, bool fInline)
 	{
 	}
 
 	[Token(Token = "0x60007F2")]
-	[Address(RVA = "0x252B350", Offset = "0x2529950", VA = "0x18252B350")]
+	[Address(RVA = "0x5ECEC70", Offset = "0x5ECDC70", VA = "0x5ECEC70")]
 	internal void LoadSchema(XmlElement schemaRoot, DataSet ds)
 	{
 	}
 
 	[Token(Token = "0x60007F3")]
-	[Address(RVA = "0x2529090", Offset = "0x2527690", VA = "0x182529090")]
+	[Address(RVA = "0x5ECF060", Offset = "0x5ECE060", VA = "0x5ECF060")]
 	internal XmlElement FindTypeNode(XmlElement node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007F4")]
-	[Address(RVA = "0x252AEA0", Offset = "0x25294A0", VA = "0x18252AEA0")]
+	[Address(RVA = "0x5ECF3C0", Offset = "0x5ECE3C0", VA = "0x5ECF3C0")]
 	internal bool IsTextOnlyContent(XmlElement node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007F5")]
-	[Address(RVA = "0x252B060", Offset = "0x2529660", VA = "0x18252B060")]
+	[Address(RVA = "0x5ECF580", Offset = "0x5ECE580", VA = "0x5ECF580")]
 	internal bool IsXDRField(XmlElement node, XmlElement typeNode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007F6")]
-	[Address(RVA = "0x252A300", Offset = "0x2528900", VA = "0x18252A300")]
+	[Address(RVA = "0x5ECEEC0", Offset = "0x5ECDEC0", VA = "0x5ECEEC0")]
 	internal DataTable HandleTable(XmlElement node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007F7")]
-	[Address(RVA = "0x2528FB0", Offset = "0x25275B0", VA = "0x182528FB0")]
+	[Address(RVA = "0x5ED0030", Offset = "0x5ECF030", VA = "0x5ED0030")]
 	private static NameType FindNameType(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007F8")]
-	[Address(RVA = "0x252B5B0", Offset = "0x2529BB0", VA = "0x18252B5B0")]
+	[Address(RVA = "0x5ED00F0", Offset = "0x5ECF0F0", VA = "0x5ED00F0")]
 	private Type ParseDataType(string dt, string dtValues)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007F9")]
-	[Address(RVA = "0x2529420", Offset = "0x2527A20", VA = "0x182529420")]
+	[Address(RVA = "0x5ED0240", Offset = "0x5ECF240", VA = "0x5ED0240")]
 	internal string GetInstanceName(XmlElement node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007FA")]
-	[Address(RVA = "0x2529840", Offset = "0x2527E40", VA = "0x182529840")]
+	[Address(RVA = "0x5ED03A0", Offset = "0x5ECF3A0", VA = "0x5ED03A0")]
 	internal void HandleColumn(XmlElement node, DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60007FB")]
-	[Address(RVA = "0x2529810", Offset = "0x2527E10", VA = "0x182529810")]
+	[Address(RVA = "0x5ECF6E0", Offset = "0x5ECE6E0", VA = "0x5ECF6E0")]
 	internal void GetMinMax(XmlElement elNode, ref int minOccurs, ref int maxOccurs)
 	{
 	}
 
 	[Token(Token = "0x60007FC")]
-	[Address(RVA = "0x25295B0", Offset = "0x2527BB0", VA = "0x1825295B0")]
+	[Address(RVA = "0x5ED0D70", Offset = "0x5ECFD70", VA = "0x5ED0D70")]
 	internal void GetMinMax(XmlElement elNode, bool isAttribute, ref int minOccurs, ref int maxOccurs)
 	{
 	}
 
 	[Token(Token = "0x60007FD")]
-	[Address(RVA = "0x252A4B0", Offset = "0x2528AB0", VA = "0x18252A4B0")]
+	[Address(RVA = "0x5ED1100", Offset = "0x5ED0100", VA = "0x5ED1100")]
 	internal void HandleTypeNode(XmlElement typeNode, DataTable table, ArrayList tableChildren)
 	{
 	}
 
 	[Token(Token = "0x60007FE")]
-	[Address(RVA = "0x252A900", Offset = "0x2528F00", VA = "0x18252A900")]
+	[Address(RVA = "0x5ECF920", Offset = "0x5ECE920", VA = "0x5ECF920")]
 	internal DataTable InstantiateTable(DataSet dataSet, XmlElement node, XmlElement typeNode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007FF")]
-	[Address(RVA = "0x252A6A0", Offset = "0x2528CA0", VA = "0x18252A6A0")]
+	[Address(RVA = "0x5ECF6F0", Offset = "0x5ECE6F0", VA = "0x5ECF6F0")]
 	internal DataTable InstantiateSimpleTable(DataSet dataSet, XmlElement node)
 	{
 		return null;

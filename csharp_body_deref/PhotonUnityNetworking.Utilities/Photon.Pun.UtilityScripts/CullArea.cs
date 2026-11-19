@@ -69,14 +69,14 @@ public class CullArea : MonoBehaviour
 	public int CellCount
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x56E72F0", Offset = "0x56E62F0", VA = "0x56E72F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x56E7300", Offset = "0x56E6300", VA = "0x56E7300")]
 		[CompilerGenerated]
 		private set
 		{
@@ -87,14 +87,14 @@ public class CullArea : MonoBehaviour
 	public CellTree CellTree
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x56E7310", Offset = "0x56E6310", VA = "0x56E7310")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x56E7320", Offset = "0x56E6320", VA = "0x56E7320")]
 		[CompilerGenerated]
 		private set
 		{
@@ -105,14 +105,14 @@ public class CullArea : MonoBehaviour
 	public Dictionary<int, GameObject> Map
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x56E7330", Offset = "0x56E6330", VA = "0x56E7330")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x56E7340", Offset = "0x56E6340", VA = "0x56E7340")]
 		[CompilerGenerated]
 		private set
 		{
@@ -120,51 +120,51 @@ public class CullArea : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x1D513E0", Offset = "0x1D4F9E0", VA = "0x181D513E0")]
+	[Address(RVA = "0x56E7350", Offset = "0x56E6350", VA = "0x56E7350")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x1D51EB0", Offset = "0x1D504B0", VA = "0x181D51EB0")]
+	[Address(RVA = "0x56E7920", Offset = "0x56E6920", VA = "0x56E7920")]
 	public void OnDrawGizmos()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x1D513F0", Offset = "0x1D4F9F0", VA = "0x181D513F0")]
+	[Address(RVA = "0x56E7360", Offset = "0x56E6360", VA = "0x56E7360")]
 	private void CreateCellHierarchy()
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x1D51950", Offset = "0x1D4FF50", VA = "0x181D51950")]
+	[Address(RVA = "0x56E7A90", Offset = "0x56E6A90", VA = "0x56E7A90")]
 	private void CreateChildCells(CellTreeNode parent, int cellLevelInHierarchy)
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x1D51CB0", Offset = "0x1D502B0", VA = "0x181D51CB0")]
+	[Address(RVA = "0x56E7960", Offset = "0x56E6960", VA = "0x56E7960")]
 	private void DrawCells()
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x1D51E30", Offset = "0x1D50430", VA = "0x181D51E30")]
+	[Address(RVA = "0x56E7980", Offset = "0x56E6980", VA = "0x56E7980")]
 	private bool IsCellCountAllowed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x1D51CF0", Offset = "0x1D502F0", VA = "0x181D51CF0")]
+	[Address(RVA = "0x56E7FE0", Offset = "0x56E6FE0", VA = "0x56E7FE0")]
 	public List<byte> GetActiveCells(Vector3 position)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x1D51F00", Offset = "0x1D50500", VA = "0x181D51F00")]
+	[Address(RVA = "0x56E8450", Offset = "0x56E7450", VA = "0x56E8450")]
 	public CullArea()
 	{
 	}

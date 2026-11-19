@@ -15,276 +15,283 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000849")]
+[Token(Token = "0x20008C7")]
 internal class MapEditorMenu : BaseMenu
 {
-	[Token(Token = "0x40029A3")]
+	[Token(Token = "0x4002C5C")]
 	[FieldOffset(Offset = "0x98")]
 	public MapEditorInspectPanel InspectPanel;
 
-	[Token(Token = "0x40029A4")]
+	[Token(Token = "0x4002C5D")]
 	[FieldOffset(Offset = "0xA0")]
 	public MapEditorBrushPanel BrushPanel;
 
-	[Token(Token = "0x40029A5")]
+	[Token(Token = "0x4002C5E")]
 	[FieldOffset(Offset = "0xA8")]
 	public MapEditorRulerPanel RulerPanel;
 
-	[Token(Token = "0x40029A6")]
+	[Token(Token = "0x4002C5F")]
 	[FieldOffset(Offset = "0xB0")]
 	public MapEditorHierarchyPanel HierarchyPanel;
 
-	[Token(Token = "0x40029A7")]
+	[Token(Token = "0x4002C60")]
 	[FieldOffset(Offset = "0xB8")]
 	public MapEditorTopPanel _topPanel;
 
-	[Token(Token = "0x40029A8")]
+	[Token(Token = "0x4002C61")]
 	[FieldOffset(Offset = "0xC0")]
 	public MapEditorAddObjectPopup AddObjectPopup;
 
-	[Token(Token = "0x40029A9")]
+	[Token(Token = "0x4002C62")]
 	[FieldOffset(Offset = "0xC8")]
 	public MapEditorAddVariantPopup AddVariantPopup;
 
-	[Token(Token = "0x40029AA")]
+	[Token(Token = "0x4002C63")]
 	[FieldOffset(Offset = "0xD0")]
 	public MapEditorTexturePopup TexturePopup;
 
-	[Token(Token = "0x40029AB")]
+	[Token(Token = "0x4002C64")]
 	[FieldOffset(Offset = "0xD8")]
 	public MapEditorCameraPopup CameraPopup;
 
-	[Token(Token = "0x40029AC")]
+	[Token(Token = "0x4002C65")]
 	[FieldOffset(Offset = "0xE0")]
 	public MapEditorInfoPopup InfoPopup;
 
-	[Token(Token = "0x40029AD")]
+	[Token(Token = "0x4002C66")]
 	[FieldOffset(Offset = "0xE8")]
 	public MapEditorSettingsPopup SettingsPopup;
 
-	[Token(Token = "0x40029AE")]
+	[Token(Token = "0x4002C67")]
 	[FieldOffset(Offset = "0xF0")]
 	public MapEditorCustomLogicPopup CustomLogicPopup;
 
-	[Token(Token = "0x40029AF")]
+	[Token(Token = "0x4002C68")]
 	[FieldOffset(Offset = "0xF8")]
 	public MapEditorAddComponentPopup AddComponentPopup;
 
-	[Token(Token = "0x40029B0")]
+	[Token(Token = "0x4002C69")]
 	[FieldOffset(Offset = "0x100")]
 	public MapEditorMapObjectPickerPopup MapObjectPickerPopup;
 
-	[Token(Token = "0x40029B1")]
+	[Token(Token = "0x4002C6A")]
 	[FieldOffset(Offset = "0x108")]
 	public MapEditorErrorPopup ErrorPopup;
 
-	[Token(Token = "0x40029B2")]
+	[Token(Token = "0x4002C6B")]
 	[FieldOffset(Offset = "0x110")]
 	public MapEditorCustomAssetPopup CustomAssetsPopup;
 
-	[Token(Token = "0x40029B3")]
+	[Token(Token = "0x4002C6C")]
 	[FieldOffset(Offset = "0x118")]
 	public MapEditorWeatherPopup WeatherPopup;
 
-	[Token(Token = "0x40029B4")]
+	[Token(Token = "0x4002C6D")]
 	[FieldOffset(Offset = "0x120")]
 	public MapEditorVersionConversionPopup VersionConversionPopup;
 
-	[Token(Token = "0x40029B5")]
+	[Token(Token = "0x4002C6E")]
 	[FieldOffset(Offset = "0x128")]
 	public SceneGizmoRenderer OrientationGizmo;
 
-	[Token(Token = "0x40029B6")]
+	[Token(Token = "0x4002C6F")]
 	[FieldOffset(Offset = "0x130")]
 	public Image DragImage;
 
-	[Token(Token = "0x40029B7")]
+	[Token(Token = "0x4002C70")]
 	[FieldOffset(Offset = "0x138")]
 	public bool IsMouseUI;
 
-	[Token(Token = "0x40029B8")]
+	[Token(Token = "0x4002C71")]
 	[FieldOffset(Offset = "0x139")]
 	public bool IsInputFocused;
 
-	[Token(Token = "0x40029B9")]
+	[Token(Token = "0x4002C72")]
 	[FieldOffset(Offset = "0x140")]
 	public Action<string> TexturePopupTarget;
 
-	[Token(Token = "0x6005000")]
-	[Address(RVA = "0x22CD040", Offset = "0x22CB640", VA = "0x1822CD040", Slot = "4")]
+	[Token(Token = "0x600539F")]
+	[Address(RVA = "0x5C958E0", Offset = "0x5C948E0", VA = "0x5C958E0", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x6005001")]
-	[Address(RVA = "0x22CC6B0", Offset = "0x22CACB0", VA = "0x1822CC6B0", Slot = "5")]
+	[Token(Token = "0x60053A0")]
+	[Address(RVA = "0x5C95AC0", Offset = "0x5C94AC0", VA = "0x5C95AC0", Slot = "5")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x6005002")]
-	[Address(RVA = "0x22CC470", Offset = "0x22CAA70", VA = "0x1822CC470")]
+	[Token(Token = "0x60053A1")]
+	[Address(RVA = "0x5C96370", Offset = "0x5C95370", VA = "0x5C96370")]
 	public void SetDrag(bool active, Vector2 start, Vector2 end)
 	{
 	}
 
-	[Token(Token = "0x6005003")]
-	[Address(RVA = "0x22CD4A0", Offset = "0x22CBAA0", VA = "0x1822CD4A0")]
+	[Token(Token = "0x60053A2")]
+	[Address(RVA = "0x5C96550", Offset = "0x5C95550", VA = "0x5C96550")]
 	public void ShowInspector(MapObject obj)
 	{
 	}
 
-	[Token(Token = "0x6005004")]
-	[Address(RVA = "0x22CD590", Offset = "0x22CBB90", VA = "0x1822CD590")]
+	[Token(Token = "0x60053A3")]
+	[Address(RVA = "0x5C96630", Offset = "0x5C95630", VA = "0x5C96630")]
 	public void ShowInspector(List<MapObject> objs)
 	{
 	}
 
-	[Token(Token = "0x6005005")]
-	[Address(RVA = "0x22CC250", Offset = "0x22CA850", VA = "0x1822CC250")]
+	[Token(Token = "0x60053A4")]
+	[Address(RVA = "0x5C96940", Offset = "0x5C95940", VA = "0x5C96940")]
 	public void RebuildInspectorPreservingScroll(List<MapObject> objs)
 	{
 	}
 
-	[Token(Token = "0x6005006")]
-	[Address(RVA = "0x22CBFB0", Offset = "0x22CA5B0", VA = "0x1822CBFB0")]
+	[Token(Token = "0x60053A5")]
+	[Address(RVA = "0x5C96710", Offset = "0x5C95710", VA = "0x5C96710")]
 	public void HideInspector()
 	{
 	}
 
-	[Token(Token = "0x6005007")]
-	[Address(RVA = "0x22CD200", Offset = "0x22CB800", VA = "0x1822CD200")]
+	[Token(Token = "0x60053A6")]
+	[Address(RVA = "0x5C96A30", Offset = "0x5C95A30", VA = "0x5C96A30")]
 	public void ShowBrushPanel()
 	{
 	}
 
-	[Token(Token = "0x6005008")]
-	[Address(RVA = "0x22CBEF0", Offset = "0x22CA4F0", VA = "0x1822CBEF0")]
+	[Token(Token = "0x60053A7")]
+	[Address(RVA = "0x5C96B20", Offset = "0x5C95B20", VA = "0x5C96B20")]
 	public void HideBrushPanel()
 	{
 	}
 
-	[Token(Token = "0x6005009")]
-	[Address(RVA = "0x22CD670", Offset = "0x22CBC70", VA = "0x1822CD670")]
+	[Token(Token = "0x60053A8")]
+	[Address(RVA = "0x5C96BD0", Offset = "0x5C95BD0", VA = "0x5C96BD0")]
 	public void ShowRulerPanel()
 	{
 	}
 
-	[Token(Token = "0x600500A")]
-	[Address(RVA = "0x22CC050", Offset = "0x22CA650", VA = "0x1822CC050")]
+	[Token(Token = "0x60053A9")]
+	[Address(RVA = "0x5C96CE0", Offset = "0x5C95CE0", VA = "0x5C96CE0")]
 	public void HideRulerPanel()
 	{
 	}
 
-	[Token(Token = "0x600500B")]
-	[Address(RVA = "0x22CD960", Offset = "0x22CBF60", VA = "0x1822CD960")]
+	[Token(Token = "0x60053AA")]
+	[Address(RVA = "0x5C96D90", Offset = "0x5C95D90", VA = "0x5C96D90")]
 	public void SyncRulerPanel()
 	{
 	}
 
-	[Token(Token = "0x600500C")]
-	[Address(RVA = "0x22CD820", Offset = "0x22CBE20", VA = "0x1822CD820")]
+	[Token(Token = "0x60053AB")]
+	[Address(RVA = "0x5C98340", Offset = "0x5C97340", VA = "0x5C98340")]
 	public void SyncBrushPanel()
 	{
 	}
 
-	[Token(Token = "0x600500D")]
-	[Address(RVA = "0x22CD7A0", Offset = "0x22CBDA0", VA = "0x1822CD7A0")]
+	[Token(Token = "0x60053AC")]
+	[Address(RVA = "0x5C983C0", Offset = "0x5C973C0", VA = "0x5C983C0")]
 	public void SyncBrushPanelValues()
 	{
 	}
 
-	[Token(Token = "0x600500E")]
-	[Address(RVA = "0x22CD8D0", Offset = "0x22CBED0", VA = "0x1822CD8D0")]
+	[Token(Token = "0x60053AD")]
+	[Address(RVA = "0x5C98440", Offset = "0x5C97440", VA = "0x5C98440")]
 	public void SyncInspector()
 	{
 	}
 
-	[Token(Token = "0x600500F")]
-	[Address(RVA = "0x22CD320", Offset = "0x22CB920", VA = "0x1822CD320")]
+	[Token(Token = "0x60053AE")]
+	[Address(RVA = "0x5C984D0", Offset = "0x5C974D0", VA = "0x5C984D0")]
 	public void ShowHierarchyPanel()
 	{
 	}
 
-	[Token(Token = "0x6005010")]
-	[Address(RVA = "0x22CB9C0", Offset = "0x22C9FC0", VA = "0x1822CB9C0")]
+	[Token(Token = "0x60053AF")]
+	[Address(RVA = "0x5C967B0", Offset = "0x5C957B0", VA = "0x5C967B0")]
 	private void ApplyStretchAnchor(RectTransform rt, bool isLeft)
 	{
 	}
 
-	[Token(Token = "0x6005011")]
-	[Address(RVA = "0x22CD8A0", Offset = "0x22CBEA0", VA = "0x1822CD8A0")]
+	[Token(Token = "0x60053B0")]
+	[Address(RVA = "0x5C98770", Offset = "0x5C97770", VA = "0x5C98770")]
 	public void SyncHierarchyPanel()
 	{
 	}
 
-	[Token(Token = "0x6005012")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60053B1")]
+	[Address(RVA = "0x5C95AB0", Offset = "0x5C94AB0", VA = "0x5C95AB0")]
 	public void RebuildPanels()
 	{
 	}
 
-	[Token(Token = "0x6005013")]
-	[Address(RVA = "0x22CB830", Offset = "0x22C9E30", VA = "0x1822CB830")]
+	[Token(Token = "0x60053B2")]
+	[Address(RVA = "0x5C98790", Offset = "0x5C97790", VA = "0x5C98790")]
 	public void ApplyHUDScale()
 	{
 	}
 
-	[Token(Token = "0x6005014")]
-	[Address(RVA = "0x22CBE60", Offset = "0x22CA460", VA = "0x1822CBE60")]
+	[Token(Token = "0x60053B3")]
+	[Address(RVA = "0x5C98900", Offset = "0x5C97900", VA = "0x5C98900")]
 	public float GetMinMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005015")]
-	[Address(RVA = "0x22CBBE0", Offset = "0x22CA1E0", VA = "0x1822CBBE0")]
+	[Token(Token = "0x60053B4")]
+	[Address(RVA = "0x5C98980", Offset = "0x5C97980", VA = "0x5C98980")]
 	public float GetMaxMouseX()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005016")]
-	[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480")]
+	[Token(Token = "0x60053B5")]
+	[Address(RVA = "0x5C98B60", Offset = "0x5C97B60", VA = "0x5C98B60")]
 	public float GetMinMouseY()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005017")]
-	[Address(RVA = "0x22CBDB0", Offset = "0x22CA3B0", VA = "0x1822CBDB0")]
+	[Token(Token = "0x60053B6")]
+	[Address(RVA = "0x5C98B70", Offset = "0x5C97B70", VA = "0x5C98B70")]
 	public float GetMaxMouseY()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005018")]
-	[Address(RVA = "0x22CDC70", Offset = "0x22CC270", VA = "0x1822CDC70")]
+	[Token(Token = "0x60053B7")]
+	[Address(RVA = "0x5C98C10", Offset = "0x5C97C10", VA = "0x5C98C10")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6005019")]
-	[Address(RVA = "0x22CD9E0", Offset = "0x22CBFE0", VA = "0x1822CD9E0")]
+	[Token(Token = "0x60053B8")]
+	[Address(RVA = "0x5C98F10", Offset = "0x5C97F10", VA = "0x5C98F10")]
 	public void ToggleAddObjectPopup()
 	{
 	}
 
-	[Token(Token = "0x600501A")]
-	[Address(RVA = "0x22CC110", Offset = "0x22CA710", VA = "0x1822CC110")]
+	[Token(Token = "0x60053B9")]
+	[Address(RVA = "0x5C98FB0", Offset = "0x5C97FB0", VA = "0x5C98FB0")]
 	public bool IsPopupActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600501B")]
-	[Address(RVA = "0x22CDA90", Offset = "0x22CC090", VA = "0x1822CDA90")]
+	[Token(Token = "0x60053BA")]
+	[Address(RVA = "0x5C98DB0", Offset = "0x5C97DB0", VA = "0x5C98DB0")]
 	private void UpdateMouseUI()
 	{
 	}
 
-	[Token(Token = "0x600501C")]
-	[Address(RVA = "0x21DA7E0", Offset = "0x21D8DE0", VA = "0x1821DA7E0")]
+	[Token(Token = "0x60053BB")]
+	[Address(RVA = "0x5C99410", Offset = "0x5C98410", VA = "0x5C99410")]
+	public bool IsTouchUI(Vector3 position)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60053BC")]
+	[Address(RVA = "0x5C99500", Offset = "0x5C98500", VA = "0x5C99500")]
 	public MapEditorMenu()
 	{
 	}

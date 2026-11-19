@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: MapEditor.MapEditorRuler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/MapEditor/MapEditorRuler.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,259 +14,259 @@ using Utility;
 
 namespace MapEditor;
 
-[Token(Token = "0x200014D")]
+[Token(Token = "0x2000155")]
 public class MapEditorRuler
 {
-	[Token(Token = "0x400077E")]
+	[Token(Token = "0x40007CB")]
 	private const float HandleScreenRadius = 18f;
 
-	[Token(Token = "0x400077F")]
+	[Token(Token = "0x40007CC")]
 	private const float CloseShapeScreenRadius = 22f;
 
-	[Token(Token = "0x4000780")]
+	[Token(Token = "0x40007CD")]
 	private const float VertexSnapScreenRadius = 30f;
 
-	[Token(Token = "0x4000781")]
+	[Token(Token = "0x40007CE")]
 	private const float VertexSnapDepthTiebreakPixels = 6f;
 
-	[Token(Token = "0x4000782")]
+	[Token(Token = "0x40007CF")]
 	private const float MinLabelScale = 0.15f;
 
-	[Token(Token = "0x4000783")]
+	[Token(Token = "0x40007D0")]
 	private const float MaxLabelScale = 25f;
 
-	[Token(Token = "0x4000784")]
+	[Token(Token = "0x40007D1")]
 	private const float CardinalAngleStep = 45f;
 
-	[Token(Token = "0x4000785")]
+	[Token(Token = "0x40007D2")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<RulerMeasurement> _measurements;
 
-	[Token(Token = "0x4000786")]
+	[Token(Token = "0x40007D3")]
 	[FieldOffset(Offset = "0x18")]
 	private GameObject _root;
 
-	[Token(Token = "0x4000787")]
+	[Token(Token = "0x40007D4")]
 	[FieldOffset(Offset = "0x20")]
 	private MapEditorMenu _menu;
 
-	[Token(Token = "0x4000788")]
+	[Token(Token = "0x40007D5")]
 	[FieldOffset(Offset = "0x28")]
 	private RulerMeasurement _pending;
 
-	[Token(Token = "0x4000789")]
+	[Token(Token = "0x40007D6")]
 	[FieldOffset(Offset = "0x30")]
 	private RulerMeasurement _dragging;
 
-	[Token(Token = "0x400078A")]
+	[Token(Token = "0x40007D7")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _dragOrigin;
 
-	[Token(Token = "0x400078B")]
+	[Token(Token = "0x40007D8")]
 	[FieldOffset(Offset = "0x3C")]
 	private Vector3? _chainRoot;
 
-	[Token(Token = "0x400078C")]
+	[Token(Token = "0x40007D9")]
 	[FieldOffset(Offset = "0x4C")]
 	private bool _awaitingFirstPoint;
 
-	[Token(Token = "0x400078D")]
+	[Token(Token = "0x40007DA")]
 	[FieldOffset(Offset = "0x4D")]
 	private bool _creatingMeasurement;
 
-	[Token(Token = "0x400078E")]
+	[Token(Token = "0x40007DB")]
 	[FieldOffset(Offset = "0x0")]
 	private static Shader _visualShader;
 
-	[Token(Token = "0x170000D4")]
+	[Token(Token = "0x170000D6")]
 	public IReadOnlyList<RulerMeasurement> Measurements
 	{
-		[Token(Token = "0x6000685")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60006F6")]
+		[Address(RVA = "0x5CB6B70", Offset = "0x5CB5B70", VA = "0x5CB6B70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000D5")]
+	[Token(Token = "0x170000D7")]
 	public bool Active
 	{
-		[Token(Token = "0x6000686")]
-		[Address(RVA = "0x21F2DD0", Offset = "0x21F13D0", VA = "0x1821F2DD0")]
+		[Token(Token = "0x60006F7")]
+		[Address(RVA = "0x5CB6B80", Offset = "0x5CB5B80", VA = "0x5CB6B80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000687")]
-		[Address(RVA = "0x21F2DF0", Offset = "0x21F13F0", VA = "0x1821F2DF0")]
+		[Token(Token = "0x60006F8")]
+		[Address(RVA = "0x5CB6B90", Offset = "0x5CB5B90", VA = "0x5CB6B90")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000D6")]
+	[Token(Token = "0x170000D8")]
 	public bool IsCreatingMeasurement
 	{
-		[Token(Token = "0x6000688")]
-		[Address(RVA = "0x21F2DE0", Offset = "0x21F13E0", VA = "0x1821F2DE0")]
+		[Token(Token = "0x60006F9")]
+		[Address(RVA = "0x5CB6BA0", Offset = "0x5CB5BA0", VA = "0x5CB6BA0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x21F0FD0", Offset = "0x21EF5D0", VA = "0x1821F0FD0")]
+	[Token(Token = "0x60006FA")]
+	[Address(RVA = "0x5CB6BB0", Offset = "0x5CB5BB0", VA = "0x5CB6BB0")]
 	internal void SetActive(bool active, MapEditorMenu menu)
 	{
 	}
 
-	[Token(Token = "0x600068A")]
-	[Address(RVA = "0x21F0380", Offset = "0x21EE980", VA = "0x1821F0380")]
+	[Token(Token = "0x60006FB")]
+	[Address(RVA = "0x5CB6EF0", Offset = "0x5CB5EF0", VA = "0x5CB6EF0")]
 	public void CreateNewMeasurement()
 	{
 	}
 
-	[Token(Token = "0x600068B")]
-	[Address(RVA = "0x21F00E0", Offset = "0x21EE6E0", VA = "0x1821F00E0")]
+	[Token(Token = "0x60006FC")]
+	[Address(RVA = "0x5CB6F30", Offset = "0x5CB5F30", VA = "0x5CB6F30")]
 	public void ChainFrom(int index)
 	{
 	}
 
-	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x21F0730", Offset = "0x21EED30", VA = "0x1821F0730")]
+	[Token(Token = "0x60006FD")]
+	[Address(RVA = "0x5CB74E0", Offset = "0x5CB64E0", VA = "0x5CB74E0")]
 	public void Delete(int index)
 	{
 	}
 
-	[Token(Token = "0x600068D")]
-	[Address(RVA = "0x21F13E0", Offset = "0x21EF9E0", VA = "0x1821F13E0")]
+	[Token(Token = "0x60006FE")]
+	[Address(RVA = "0x5CB75F0", Offset = "0x5CB65F0", VA = "0x5CB75F0")]
 	public void SetOrigin(int index, Vector3 origin)
 	{
 	}
 
-	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x21F1180", Offset = "0x21EF780", VA = "0x1821F1180")]
+	[Token(Token = "0x60006FF")]
+	[Address(RVA = "0x5CB7A90", Offset = "0x5CB6A90", VA = "0x5CB7A90")]
 	public void SetLength(int index, float length)
 	{
 	}
 
-	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x21F1040", Offset = "0x21EF640", VA = "0x1821F1040")]
+	[Token(Token = "0x6000700")]
+	[Address(RVA = "0x5CB7D30", Offset = "0x5CB6D30", VA = "0x5CB7D30")]
 	public void SetColor(int index, Color255 color)
 	{
 	}
 
-	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x21F27E0", Offset = "0x21F0DE0", VA = "0x1821F27E0")]
+	[Token(Token = "0x6000701")]
+	[Address(RVA = "0x5CB7E50", Offset = "0x5CB6E50", VA = "0x5CB7E50")]
 	public void Update()
 	{
 	}
 
-	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x21EFAC0", Offset = "0x21EE0C0", VA = "0x1821EFAC0")]
+	[Token(Token = "0x6000702")]
+	[Address(RVA = "0x5CB72F0", Offset = "0x5CB62F0", VA = "0x5CB72F0")]
 	private RulerMeasurement AddMeasurement(Vector3 origin, Vector3 end, Color255 color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x21F03C0", Offset = "0x21EE9C0", VA = "0x1821F03C0")]
+	[Token(Token = "0x6000703")]
+	[Address(RVA = "0x5CB9340", Offset = "0x5CB8340", VA = "0x5CB9340")]
 	private void CreateVisual(RulerMeasurement measurement)
 	{
 	}
 
-	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x21F0220", Offset = "0x21EE820", VA = "0x1821F0220")]
+	[Token(Token = "0x6000704")]
+	[Address(RVA = "0x5CB9760", Offset = "0x5CB8760", VA = "0x5CB9760")]
 	private static Transform CreateHandle(Transform parent, string name, PrimitiveType primitiveType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x21F0B90", Offset = "0x21EF190", VA = "0x1821F0B90")]
+	[Token(Token = "0x6000705")]
+	[Address(RVA = "0x5CB9690", Offset = "0x5CB8690", VA = "0x5CB9690")]
 	private static Shader GetVisualShader()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x21F0C60", Offset = "0x21EF260", VA = "0x1821F0C60")]
+	[Token(Token = "0x6000706")]
+	[Address(RVA = "0x5CB76A0", Offset = "0x5CB66A0", VA = "0x5CB76A0")]
 	private void RefreshVisual(RulerMeasurement measurement)
 	{
 	}
 
-	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x21F2240", Offset = "0x21F0840", VA = "0x1821F2240")]
+	[Token(Token = "0x6000707")]
+	[Address(RVA = "0x5CB82A0", Offset = "0x5CB72A0", VA = "0x5CB82A0")]
 	private void UpdateVisualScale()
 	{
 	}
 
-	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x21EFCB0", Offset = "0x21EE2B0", VA = "0x1821EFCB0")]
+	[Token(Token = "0x6000708")]
+	[Address(RVA = "0x5CB8890", Offset = "0x5CB7890", VA = "0x5CB8890")]
 	private static Vector3 ApplyPlacementConstraints(Vector3 origin, Vector3 point)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000698")]
-	[Address(RVA = "0x21F15D0", Offset = "0x21EFBD0", VA = "0x1821F15D0")]
+	[Token(Token = "0x6000709")]
+	[Address(RVA = "0x5CB8F60", Offset = "0x5CB7F60", VA = "0x5CB8F60")]
 	private void TryBeginHandleDrag(Camera camera)
 	{
 	}
 
-	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x21F14A0", Offset = "0x21EFAA0", VA = "0x1821F14A0")]
+	[Token(Token = "0x600070A")]
+	[Address(RVA = "0x5CB8E00", Offset = "0x5CB7E00", VA = "0x5CB8E00")]
 	private Vector3 SnapToChainRoot(Camera camera, Vector3 point)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x600069A")]
-	[Address(RVA = "0x21F0900", Offset = "0x21EEF00", VA = "0x1821F0900")]
+	[Token(Token = "0x600070B")]
+	[Address(RVA = "0x5CB7020", Offset = "0x5CB6020", VA = "0x5CB7020")]
 	private Vector3 FindChainRoot(RulerMeasurement source)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x600069B")]
-	[Address(RVA = "0x21F1FC0", Offset = "0x21F05C0", VA = "0x1821F1FC0")]
+	[Token(Token = "0x600070C")]
+	[Address(RVA = "0x5CB87F0", Offset = "0x5CB77F0", VA = "0x5CB87F0")]
 	private static bool TryGetPlacementPoint(Camera camera, out Vector3 point)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x21F1AD0", Offset = "0x21F00D0", VA = "0x1821F1AD0")]
+	[Token(Token = "0x600070D")]
+	[Address(RVA = "0x5CB98C0", Offset = "0x5CB88C0", VA = "0x5CB98C0")]
 	private static bool TryGetNearestVertex(Camera camera, out Vector3 point)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x21F18E0", Offset = "0x21EFEE0", VA = "0x1821F18E0")]
+	[Token(Token = "0x600070E")]
+	[Address(RVA = "0x5CB9DF0", Offset = "0x5CB8DF0", VA = "0x5CB9DF0")]
 	private static bool TryGetMapPoint(Camera camera, out Vector3 point)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x21EFFC0", Offset = "0x21EE5C0", VA = "0x1821EFFC0")]
+	[Token(Token = "0x600070F")]
+	[Address(RVA = "0x5CB6CC0", Offset = "0x5CB5CC0", VA = "0x5CB6CC0")]
 	private void CancelInteraction()
 	{
 	}
 
-	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x21F0850", Offset = "0x21EEE50", VA = "0x1821F0850")]
+	[Token(Token = "0x6000710")]
+	[Address(RVA = "0x5CB6C10", Offset = "0x5CB5C10", VA = "0x5CB6C10")]
 	private void EnsureRoot()
 	{
 	}
 
-	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x21F2D50", Offset = "0x21F1350", VA = "0x1821F2D50")]
+	[Token(Token = "0x6000711")]
+	[Address(RVA = "0x5CB9F80", Offset = "0x5CB8F80", VA = "0x5CB9F80")]
 	public MapEditorRuler()
 	{
 	}

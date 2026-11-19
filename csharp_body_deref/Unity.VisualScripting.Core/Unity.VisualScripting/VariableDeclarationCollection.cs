@@ -18,47 +18,47 @@ namespace Unity.VisualScripting;
 public sealed class VariableDeclarationCollection : KeyedCollection<string, VariableDeclaration>, IKeyedCollection<string, VariableDeclaration>, ICollection<VariableDeclaration>, IEnumerable<VariableDeclaration>, IEnumerable
 {
 	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x18D9D00", Offset = "0x18D8300", VA = "0x1818D9D00", Slot = "39")]
+	[Address(RVA = "0x68508E0", Offset = "0x684F8E0", VA = "0x68508E0", Slot = "39")]
 	protected override string GetKeyForItem(VariableDeclaration item)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600112F")]
-	[Address(RVA = "0x2E5A910", Offset = "0x2E58F10", VA = "0x182E5A910")]
+	[Address(RVA = "0x6850900", Offset = "0x684F900", VA = "0x6850900")]
 	public void EditorRename(VariableDeclaration item, string newName)
 	{
 	}
 
 	[Token(Token = "0x6001130")]
-	[Address(RVA = "0x2E5A970", Offset = "0x2E58F70", VA = "0x182E5A970", Slot = "42")]
+	[Address(RVA = "0x6850950", Offset = "0x684F950", VA = "0x6850950", Slot = "42")]
 	public new bool TryGetValue(string key, out VariableDeclaration value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x2E5AB60", Offset = "0x2E59160", VA = "0x182E5AB60")]
+	[Address(RVA = "0x6850A30", Offset = "0x684FA30", VA = "0x6850A30")]
 	public VariableDeclarationCollection()
 	{
 	}
 
 	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x2E5AB10", Offset = "0x2E59110", VA = "0x182E5AB10", Slot = "40")]
+	[Address(RVA = "0x6850A70", Offset = "0x684FA70", VA = "0x6850A70", Slot = "40")]
 	private VariableDeclaration Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002EVariableDeclaration_003E_002Eget_Item(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001133")]
-	[Address(RVA = "0x2E5AA70", Offset = "0x2E59070", VA = "0x182E5AA70", Slot = "43")]
+	[Address(RVA = "0x6850AC0", Offset = "0x684FAC0", VA = "0x6850AC0", Slot = "43")]
 	private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002EVariableDeclaration_003E_002EContains(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001134")]
-	[Address(RVA = "0x2E5AAC0", Offset = "0x2E590C0", VA = "0x182E5AAC0", Slot = "44")]
+	[Address(RVA = "0x6850B10", Offset = "0x684FB10", VA = "0x6850B10", Slot = "44")]
 	private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002EVariableDeclaration_003E_002ERemove(string key)
 	{
 		return default(bool);

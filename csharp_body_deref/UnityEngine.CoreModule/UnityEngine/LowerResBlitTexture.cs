@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001D3")]
+[Token(Token = "0x20001D4")]
 internal class LowerResBlitTexture : Object
 {
-	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x6000F3B")]
+	[Address(RVA = "0x6925D20", Offset = "0x6924D20", VA = "0x6925D20")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void LowerResBlitTextureDontStripMe()
 	{

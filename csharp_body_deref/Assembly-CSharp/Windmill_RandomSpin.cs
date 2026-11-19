@@ -17,19 +17,19 @@ public class Windmill_RandomSpin : MonoBehaviour
 	private Animator _animator;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x5285F0", Offset = "0x526BF0", VA = "0x1805285F0")]
+	[Address(RVA = "0x313C240", Offset = "0x313B240", VA = "0x313C240")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x5285A0", Offset = "0x526BA0", VA = "0x1805285A0")]
+	[Address(RVA = "0x313C290", Offset = "0x313B290", VA = "0x313C290")]
 	private void RandomSpin()
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x313C2D0", Offset = "0x313B2D0", VA = "0x313C2D0")]
 	public Windmill_RandomSpin()
 	{
 	}

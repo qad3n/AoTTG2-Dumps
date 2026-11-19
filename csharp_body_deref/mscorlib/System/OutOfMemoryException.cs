@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200016D")]
+[Token(Token = "0x2000145")]
 public class OutOfMemoryException : SystemException
 {
-	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x1B45B00", Offset = "0x1B44100", VA = "0x181B45B00")]
+	[Token(Token = "0x6000CB3")]
+	[Address(RVA = "0x54E2460", Offset = "0x54E1460", VA = "0x54E2460")]
 	public OutOfMemoryException()
 	{
 	}
 
-	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x1B45B90", Offset = "0x1B44190", VA = "0x181B45B90")]
+	[Token(Token = "0x6000CB4")]
+	[Address(RVA = "0x54E2510", Offset = "0x54E1510", VA = "0x54E2510")]
 	public OutOfMemoryException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
+	[Token(Token = "0x6000CB5")]
+	[Address(RVA = "0x54E2570", Offset = "0x54E1570", VA = "0x54E2570")]
 	protected OutOfMemoryException(SerializationInfo info, StreamingContext context)
 	{
 	}

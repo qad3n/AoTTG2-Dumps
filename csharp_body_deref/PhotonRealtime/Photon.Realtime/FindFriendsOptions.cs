@@ -25,14 +25,14 @@ public class FindFriendsOptions
 	public bool Open;
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x1D15A30", Offset = "0x1D14030", VA = "0x181D15A30")]
+	[Address(RVA = "0x56BA2C0", Offset = "0x56B92C0", VA = "0x56BA2C0")]
 	internal int ToIntFlags()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB4D0", Offset = "0x56BA4D0", VA = "0x56BB4D0")]
 	public FindFriendsOptions()
 	{
 	}

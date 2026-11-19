@@ -37,13 +37,13 @@ public class Shadow : BaseMeshEffect
 	public Color effectColor
 	{
 		[Token(Token = "0x6000546")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x6CFFF60", Offset = "0x6CFEF60", VA = "0x6CFFF60")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000547")]
-		[Address(RVA = "0x32FFA20", Offset = "0x32FE020", VA = "0x1832FFA20")]
+		[Address(RVA = "0x6CFFF70", Offset = "0x6CFEF70", VA = "0x6CFFF70")]
 		set
 		{
 		}
@@ -53,13 +53,13 @@ public class Shadow : BaseMeshEffect
 	public Vector2 effectDistance
 	{
 		[Token(Token = "0x6000548")]
-		[Address(RVA = "0x2CA4A10", Offset = "0x2CA3010", VA = "0x182CA4A10")]
+		[Address(RVA = "0x6D00020", Offset = "0x6CFF020", VA = "0x6D00020")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000549")]
-		[Address(RVA = "0x32FFAC0", Offset = "0x32FE0C0", VA = "0x1832FFAC0")]
+		[Address(RVA = "0x6D00030", Offset = "0x6CFF030", VA = "0x6D00030")]
 		set
 		{
 		}
@@ -69,38 +69,38 @@ public class Shadow : BaseMeshEffect
 	public bool useGraphicAlpha
 	{
 		[Token(Token = "0x600054A")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Address(RVA = "0x6D001A0", Offset = "0x6CFF1A0", VA = "0x6D001A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600054B")]
-		[Address(RVA = "0x32FFBC0", Offset = "0x32FE1C0", VA = "0x1832FFBC0")]
+		[Address(RVA = "0x6D001B0", Offset = "0x6CFF1B0", VA = "0x6D001B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x32FF9F0", Offset = "0x32FDFF0", VA = "0x1832FF9F0")]
+	[Address(RVA = "0x6CFFF30", Offset = "0x6CFEF30", VA = "0x6CFFF30")]
 	protected Shadow()
 	{
 	}
 
 	[Token(Token = "0x600054C")]
-	[Address(RVA = "0x32FF520", Offset = "0x32FDB20", VA = "0x1832FF520")]
+	[Address(RVA = "0x6D00250", Offset = "0x6CFF250", VA = "0x6D00250")]
 	protected void ApplyShadowZeroAlloc(List<UIVertex> verts, Color32 color, int start, int end, float x, float y)
 	{
 	}
 
 	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x32FF8A0", Offset = "0x32FDEA0", VA = "0x1832FF8A0")]
+	[Address(RVA = "0x6D006C0", Offset = "0x6CFF6C0", VA = "0x6D006C0")]
 	protected void ApplyShadow(List<UIVertex> verts, Color32 color, int start, int end, float x, float y)
 	{
 	}
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x32FF8B0", Offset = "0x32FDEB0", VA = "0x1832FF8B0", Slot = "20")]
+	[Address(RVA = "0x6D006D0", Offset = "0x6CFF6D0", VA = "0x6D006D0", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

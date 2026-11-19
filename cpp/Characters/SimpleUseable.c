@@ -1,5 +1,5 @@
 // Type: Characters.SimpleUseable
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/SimpleUseable.cs
@@ -8,27 +8,20 @@
 
 // Characters.SimpleUseable$$.ctor
 // il2cpp: void Characters_SimpleUseable___ctor (Characters_SimpleUseable_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x1821177e0
+// 0x5be19c0
 
 void Characters_SimpleUseable___ctor
                (Characters_SimpleUseable_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
-  (__this->fields)._lastUseTime = -1000.0;
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._owner = owner;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,owner);
-  (__this->fields).Cooldown = 0.0;
-  (__this->fields).UsesLeft = -1;
-  (__this->fields).MaxUses = -1;
+  Characters_BaseUseable___ctor((Characters_BaseUseable_o *)__this,owner,0.0,-1,(MethodInfo *)0x0);
   return;
 }
 
 
 // Characters.SimpleUseable$$ReadInput
 // il2cpp: void Characters_SimpleUseable__ReadInput (Characters_SimpleUseable_o* __this, Settings_KeybindSetting_o* keybind, const MethodInfo* method);
-// 0x182117730
+// 0x5be19d0
 
 void Characters_SimpleUseable__ReadInput
                (Characters_SimpleUseable_o *__this,Settings_KeybindSetting_o *keybind,MethodInfo *method)
@@ -36,33 +29,32 @@ void Characters_SimpleUseable__ReadInput
 {
   bool bVar1;
   
-  if (keybind != (Settings_KeybindSetting_o *)0x0) {
-    bVar1 = Settings_KeybindSetting__GetKeyDown(keybind,false,(MethodInfo *)0x0);
-    (*(__this->klass->vtable)._12_SetInput.methodPtr)
-              (__this,bVar1,(__this->klass->vtable)._12_SetInput.method);
-    return;
+  if (keybind == (Settings_KeybindSetting_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  bVar1 = Settings_KeybindSetting__GetKeyDown(keybind,false,(MethodInfo *)0x0);
+  (*(__this->klass->vtable)._12_SetInput.methodPtr)(__this,bVar1,(__this->klass->vtable)._12_SetInput.method);
+  return;
 }
 
 
 // Characters.SimpleUseable$$SetInput
 // il2cpp: void Characters_SimpleUseable__SetInput (Characters_SimpleUseable_o* __this, bool key, const MethodInfo* method);
-// 0x18211cfe0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18211d026: add rsp, 0x20
-// asm:   0x18211d02a: pop rbx
+// 0x5be1a10
 
 void Characters_SimpleUseable__SetInput(Characters_SimpleUseable_o *__this,bool key,MethodInfo *method)
 
 {
   bool bVar1;
+  undefined7 in_register_00000031;
   
-  if ((key) && (bVar1 = (*(__this->klass->vtable)._6_CanUse.methodPtr)
-                                  (__this,(__this->klass->vtable)._6_CanUse.method), bVar1)) {
-    (*(__this->klass->vtable)._9_Activate.methodPtr)
-              (__this,(System_Type_o *)(__this->klass->vtable)._9_Activate.method,method);
-    (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
+  if ((int)CONCAT71(in_register_00000031,key) != 0) {
+    bVar1 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
+    if (bVar1) {
+      (*(__this->klass->vtable)._9_Activate.methodPtr)(__this,(__this->klass->vtable)._9_Activate.method);
+      (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
+      return;
+    }
   }
   return;
 }

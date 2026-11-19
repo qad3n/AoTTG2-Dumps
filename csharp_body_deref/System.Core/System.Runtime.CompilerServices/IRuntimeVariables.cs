@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000252")]
+[Token(Token = "0x2000253")]
 [DefaultMember("Item")]
 public interface IRuntimeVariables
 {

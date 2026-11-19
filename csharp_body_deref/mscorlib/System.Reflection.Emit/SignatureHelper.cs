@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection.Emit;
 
-[Token(Token = "0x200055F")]
+[Token(Token = "0x2000538")]
 public class SignatureHelper
 {
 }

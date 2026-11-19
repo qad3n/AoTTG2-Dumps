@@ -18,20 +18,20 @@ internal class EventCallbackListPool
 	private readonly Stack<EventCallbackList> m_Stack;
 
 	[Token(Token = "0x6000C7A")]
-	[Address(RVA = "0x325BF70", Offset = "0x325A570", VA = "0x18325BF70")]
+	[Address(RVA = "0x6C61190", Offset = "0x6C60190", VA = "0x6C61190")]
 	public EventCallbackList Get(EventCallbackList initializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C7B")]
-	[Address(RVA = "0x325C140", Offset = "0x325A740", VA = "0x18325C140")]
+	[Address(RVA = "0x6C61440", Offset = "0x6C60440", VA = "0x6C61440")]
 	public void Release(EventCallbackList element)
 	{
 	}
 
 	[Token(Token = "0x6000C7C")]
-	[Address(RVA = "0x325C1C0", Offset = "0x325A7C0", VA = "0x18325C1C0")]
+	[Address(RVA = "0x6C614D0", Offset = "0x6C604D0", VA = "0x6C614D0")]
 	public EventCallbackListPool()
 	{
 	}

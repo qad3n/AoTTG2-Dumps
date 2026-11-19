@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncParticleUpdateJobScheduledTrigger : AsyncTriggerBase<ParticleSystemJobData>
 {
 	[Token(Token = "0x6000B83")]
-	[Address(RVA = "0x2934C20", Offset = "0x2933220", VA = "0x182934C20")]
+	[Address(RVA = "0x62FE3A0", Offset = "0x62FD3A0", VA = "0x62FE3A0")]
 	private void OnParticleUpdateJobScheduled(ParticleSystemJobData particles)
 	{
 	}
 
 	[Token(Token = "0x6000B84")]
-	[Address(RVA = "0x2934900", Offset = "0x2932F00", VA = "0x182934900")]
+	[Address(RVA = "0x62FE3E0", Offset = "0x62FD3E0", VA = "0x62FE3E0")]
 	public IAsyncOnParticleUpdateJobScheduledHandler GetOnParticleUpdateJobScheduledAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B85")]
-	[Address(RVA = "0x2934970", Offset = "0x2932F70", VA = "0x182934970")]
+	[Address(RVA = "0x62FE450", Offset = "0x62FD450", VA = "0x62FE450")]
 	public IAsyncOnParticleUpdateJobScheduledHandler GetOnParticleUpdateJobScheduledAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B86")]
-	[Address(RVA = "0x2934B00", Offset = "0x2933100", VA = "0x182934B00")]
+	[Address(RVA = "0x62FE4C0", Offset = "0x62FD4C0", VA = "0x62FE4C0")]
 	public UniTask<ParticleSystemJobData> OnParticleUpdateJobScheduledAsync()
 	{
 		return default(UniTask<ParticleSystemJobData>);
 	}
 
 	[Token(Token = "0x6000B87")]
-	[Address(RVA = "0x29349F0", Offset = "0x2932FF0", VA = "0x1829349F0")]
+	[Address(RVA = "0x62FE5E0", Offset = "0x62FD5E0", VA = "0x62FE5E0")]
 	public UniTask<ParticleSystemJobData> OnParticleUpdateJobScheduledAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<ParticleSystemJobData>);
 	}
 
 	[Token(Token = "0x6000B88")]
-	[Address(RVA = "0x2934D20", Offset = "0x2933320", VA = "0x182934D20")]
+	[Address(RVA = "0x62FE700", Offset = "0x62FD700", VA = "0x62FE700")]
 	public AsyncParticleUpdateJobScheduledTrigger()
 	{
 	}

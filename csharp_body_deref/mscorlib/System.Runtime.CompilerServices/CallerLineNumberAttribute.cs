@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000497")]
+[Token(Token = "0x2000470")]
 [AttributeUsage(AttributeTargets.Parameter, Inherited = false)]
 public sealed class CallerLineNumberAttribute : Attribute
 {
-	[Token(Token = "0x60022D8")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x60022A5")]
+	[Address(RVA = "0x53C8040", Offset = "0x53C7040", VA = "0x53C8040")]
 	public CallerLineNumberAttribute()
 	{
 	}

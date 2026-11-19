@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.AABB
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,38 +22,38 @@ internal class AABB
 	public float3 Max;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2D7EE40", Offset = "0x2D7D440", VA = "0x182D7EE40")]
+	[Address(RVA = "0x6775170", Offset = "0x6774170", VA = "0x6775170")]
 	public AABB()
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2D7EE80", Offset = "0x2D7D480", VA = "0x182D7EE80")]
+	[Address(RVA = "0x67751A0", Offset = "0x67741A0", VA = "0x67751A0")]
 	public AABB(float3 min, float3 max)
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2D7EC20", Offset = "0x2D7D220", VA = "0x182D7EC20")]
+	[Address(RVA = "0x6775200", Offset = "0x6774200", VA = "0x6775200")]
 	public void Encapsulate(AABB aabb)
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2D7ED20", Offset = "0x2D7D320", VA = "0x182D7ED20")]
+	[Address(RVA = "0x6775300", Offset = "0x6774300", VA = "0x6775300")]
 	public void Encapsulate(float3 point)
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x2D7EBC0", Offset = "0x2D7D1C0", VA = "0x182D7EBC0")]
+	[Address(RVA = "0x6775390", Offset = "0x6774390", VA = "0x6775390")]
 	public bool Contains(AABB rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x2D7EE10", Offset = "0x2D7D410", VA = "0x182D7EE10")]
+	[Address(RVA = "0x6775400", Offset = "0x6774400", VA = "0x6775400")]
 	public bool IsValid()
 	{
 		return default(bool);

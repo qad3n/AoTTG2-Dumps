@@ -20,139 +20,168 @@ using UnityEngine.AI;
 
 namespace Map;
 
-[Token(Token = "0x20003A5")]
+[Token(Token = "0x2000400")]
 internal class MapLoader : MonoBehaviour
 {
-	[Token(Token = "0x20003A6")]
+	[Token(Token = "0x2000401")]
 	private readonly struct NavMeshBuild
 	{
-		[Token(Token = "0x400131A")]
+		[Token(Token = "0x40014AC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public readonly NavMeshData Data;
 
-		[Token(Token = "0x400131B")]
+		[Token(Token = "0x40014AD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public readonly NavMeshBuildSettings Settings;
 
-		[Token(Token = "0x400131C")]
+		[Token(Token = "0x40014AE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public readonly Bounds Bounds;
 
-		[Token(Token = "0x600174A")]
-		[Address(RVA = "0x1EB6A70", Offset = "0x1EB5070", VA = "0x181EB6A70")]
+		[Token(Token = "0x60019B3")]
+		[Address(RVA = "0x589AEF0", Offset = "0x5899EF0", VA = "0x589AEF0")]
 		public NavMeshBuild(NavMeshData data, NavMeshBuildSettings settings, Bounds bounds)
 		{
 		}
 	}
 
-	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20003AA")]
+	[Token(Token = "0x2000403")]
 	[CompilerGenerated]
-	private struct _003CGenerateNavMesh_003Ed__60 : IAsyncStateMachine
+	private sealed class _003C_003Ec__DisplayClass50_0
 	{
-		[Token(Token = "0x4001320")]
+		[Token(Token = "0x40014B1")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public MapLoader _003C_003E4__this;
+
+		[Token(Token = "0x40014B2")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+		public List<AsyncOperation> operations;
+
+		[Token(Token = "0x60019B7")]
+		[Address(RVA = "0x589B160", Offset = "0x589A160", VA = "0x589B160")]
+		public _003C_003Ec__DisplayClass50_0()
+		{
+		}
+
+		[Token(Token = "0x60019B8")]
+		[Address(RVA = "0x589B170", Offset = "0x589A170", VA = "0x589B170")]
+		internal void _003CLoadObjectsCoroutine_003Eb__1()
+		{
+		}
+	}
+
+	[StructLayout((LayoutKind)3)]
+	[Token(Token = "0x2000407")]
+	[CompilerGenerated]
+	private struct _003CGenerateNavMesh_003Ed__63 : IAsyncStateMachine
+	{
+		[Token(Token = "0x40014B6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001321")]
+		[Token(Token = "0x40014B7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001322")]
+		[Token(Token = "0x40014B8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public MapLoader _003C_003E4__this;
 
-		[Token(Token = "0x4001323")]
+		[Token(Token = "0x40014B9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private List<AsyncOperation>.Enumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x4001324")]
+		[Token(Token = "0x40014BA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private Awaitable.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001751")]
-		[Address(RVA = "0x1EB6B60", Offset = "0x1EB5160", VA = "0x181EB6B60", Slot = "4")]
+		[Token(Token = "0x60019BF")]
+		[Address(RVA = "0x589B6C0", Offset = "0x589A6C0", VA = "0x589B6C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001752")]
-		[Address(RVA = "0x1EB7360", Offset = "0x1EB5960", VA = "0x181EB7360", Slot = "5")]
+		[Token(Token = "0x60019C0")]
+		[Address(RVA = "0x589BFC0", Offset = "0x589AFC0", VA = "0x589BFC0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x20003AB")]
+	[Token(Token = "0x2000408")]
 	[CompilerGenerated]
-	private sealed class _003CLoadObjectsCoroutine_003Ed__47 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CLoadObjectsCoroutine_003Ed__50 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001325")]
+		[Token(Token = "0x40014BB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001326")]
+		[Token(Token = "0x40014BC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001327")]
+		[Token(Token = "0x40014BD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
-		public List<string> customAssets;
-
-		[Token(Token = "0x4001328")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
-		public bool editor;
-
-		[Token(Token = "0x4001329")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
-		public List<MapScriptBaseObject> objects;
-
-		[Token(Token = "0x400132A")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public MapLoader _003C_003E4__this;
 
-		[Token(Token = "0x400132B")]
+		[Token(Token = "0x40014BE")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
+		public List<string> customAssets;
+
+		[Token(Token = "0x40014BF")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+		public bool editor;
+
+		[Token(Token = "0x40014C0")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+		public List<MapScriptBaseObject> objects;
+
+		[Token(Token = "0x40014C1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+		private _003C_003Ec__DisplayClass50_0 _003C_003E8__1;
+
+		[Token(Token = "0x40014C2")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private bool _003CgamemodeNeedsNav_003E5__2;
 
-		[Token(Token = "0x400132C")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x41")]
+		[Token(Token = "0x40014C3")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x49")]
 		private bool _003CrebuildNavMesh_003E5__3;
 
-		[Token(Token = "0x400132D")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x44")]
+		[Token(Token = "0x40014C4")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 		private int _003Ccount_003E5__4;
 
-		[Token(Token = "0x400132E")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+		[Token(Token = "0x40014C5")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private float _003Cmultiplier_003E5__5;
 
-		[Token(Token = "0x400132F")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+		[Token(Token = "0x40014C6")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private List<string>.Enumerator _003C_003E7__wrap5;
 
-		[Token(Token = "0x4001330")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+		[Token(Token = "0x40014C7")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 		private string _003CcustomAsset_003E5__7;
 
-		[Token(Token = "0x4001331")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
+		[Token(Token = "0x40014C8")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 		private string _003Cbundle_003E5__8;
 
-		[Token(Token = "0x4001332")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
+		[Token(Token = "0x40014C9")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 		private List<MapScriptBaseObject>.Enumerator _003C_003E7__wrap8;
 
-		[Token(Token = "0x4001333")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
-		private List<AsyncOperation> _003Coperations_003E5__10;
+		[Token(Token = "0x40014CA")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
+		private bool _003CnavMeshStarted_003E5__10;
 
-		[Token(Token = "0x1700026E")]
+		[Token(Token = "0x170002AF")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6001758")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60019C6")]
+			[Address(RVA = "0x589DA50", Offset = "0x589CA50", VA = "0x589DA50", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -160,11 +189,11 @@ internal class MapLoader : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x1700026F")]
+		[Token(Token = "0x170002B0")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600175A")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60019C8")]
+			[Address(RVA = "0x589DAA0", Offset = "0x589CAA0", VA = "0x589DAA0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -172,76 +201,76 @@ internal class MapLoader : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6001753")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60019C1")]
+		[Address(RVA = "0x589C020", Offset = "0x589B020", VA = "0x589C020")]
 		[DebuggerHidden]
-		public _003CLoadObjectsCoroutine_003Ed__47(int _003C_003E1__state)
+		public _003CLoadObjectsCoroutine_003Ed__50(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6001754")]
-		[Address(RVA = "0x1EB8D80", Offset = "0x1EB7380", VA = "0x181EB8D80", Slot = "5")]
+		[Token(Token = "0x60019C2")]
+		[Address(RVA = "0x589C040", Offset = "0x589B040", VA = "0x589C040", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6001755")]
-		[Address(RVA = "0x1EB73C0", Offset = "0x1EB59C0", VA = "0x181EB73C0", Slot = "6")]
+		[Token(Token = "0x60019C3")]
+		[Address(RVA = "0x589C0E0", Offset = "0x589B0E0", VA = "0x589C0E0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001756")]
-		[Address(RVA = "0x1EB8EB0", Offset = "0x1EB74B0", VA = "0x181EB8EB0")]
+		[Token(Token = "0x60019C4")]
+		[Address(RVA = "0x589D9D0", Offset = "0x589C9D0", VA = "0x589D9D0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6001757")]
-		[Address(RVA = "0x1EB8F00", Offset = "0x1EB7500", VA = "0x181EB8F00")]
+		[Token(Token = "0x60019C5")]
+		[Address(RVA = "0x589DA10", Offset = "0x589CA10", VA = "0x589DA10")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
-		[Token(Token = "0x6001759")]
-		[Address(RVA = "0x1EB8D40", Offset = "0x1EB7340", VA = "0x181EB8D40", Slot = "8")]
+		[Token(Token = "0x60019C7")]
+		[Address(RVA = "0x589DA60", Offset = "0x589CA60", VA = "0x589DA60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20003AC")]
+	[Token(Token = "0x2000409")]
 	[CompilerGenerated]
-	private sealed class _003CRefreshNavMesh_003Ed__55 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CRefreshNavMesh_003Ed__58 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001334")]
+		[Token(Token = "0x40014CB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001335")]
+		[Token(Token = "0x40014CC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001336")]
+		[Token(Token = "0x40014CD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private WaitForSecondsRealtime _003Cdelay_003E5__2;
 
-		[Token(Token = "0x4001337")]
+		[Token(Token = "0x40014CE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private List<AsyncOperation> _003Coperations_003E5__3;
 
-		[Token(Token = "0x4001338")]
+		[Token(Token = "0x40014CF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private List<AsyncOperation>.Enumerator _003C_003E7__wrap3;
 
-		[Token(Token = "0x17000270")]
+		[Token(Token = "0x170002B1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600175F")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60019CD")]
+			[Address(RVA = "0x589E360", Offset = "0x589D360", VA = "0x589E360", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -249,11 +278,11 @@ internal class MapLoader : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000271")]
+		[Token(Token = "0x170002B2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6001761")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60019CF")]
+			[Address(RVA = "0x589E3B0", Offset = "0x589D3B0", VA = "0x589E3B0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -261,35 +290,35 @@ internal class MapLoader : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x600175B")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60019C9")]
+		[Address(RVA = "0x589DAB0", Offset = "0x589CAB0", VA = "0x589DAB0")]
 		[DebuggerHidden]
-		public _003CRefreshNavMesh_003Ed__55(int _003C_003E1__state)
+		public _003CRefreshNavMesh_003Ed__58(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600175C")]
-		[Address(RVA = "0x1EB9690", Offset = "0x1EB7C90", VA = "0x181EB9690", Slot = "5")]
+		[Token(Token = "0x60019CA")]
+		[Address(RVA = "0x589DAD0", Offset = "0x589CAD0", VA = "0x589DAD0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600175D")]
-		[Address(RVA = "0x1EB8F50", Offset = "0x1EB7550", VA = "0x181EB8F50", Slot = "6")]
+		[Token(Token = "0x60019CB")]
+		[Address(RVA = "0x589DB20", Offset = "0x589CB20", VA = "0x589DB20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600175E")]
-		[Address(RVA = "0x1EB9720", Offset = "0x1EB7D20", VA = "0x181EB9720")]
+		[Token(Token = "0x60019CC")]
+		[Address(RVA = "0x589E320", Offset = "0x589D320", VA = "0x589E320")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6001760")]
-		[Address(RVA = "0x1EB9650", Offset = "0x1EB7C50", VA = "0x181EB9650", Slot = "8")]
+		[Token(Token = "0x60019CE")]
+		[Address(RVA = "0x589E370", Offset = "0x589D370", VA = "0x589E370", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -297,34 +326,34 @@ internal class MapLoader : MonoBehaviour
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20003AD")]
+	[Token(Token = "0x200040A")]
 	[CompilerGenerated]
-	private struct _003CUpdateAllNavMeshes_003Ed__59 : IAsyncStateMachine
+	private struct _003CUpdateAllNavMeshes_003Ed__62 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001339")]
+		[Token(Token = "0x40014D0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400133A")]
+		[Token(Token = "0x40014D1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400133B")]
+		[Token(Token = "0x40014D2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public MapLoader _003C_003E4__this;
 
-		[Token(Token = "0x400133C")]
+		[Token(Token = "0x40014D3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private TaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001762")]
-		[Address(RVA = "0x1EBA3A0", Offset = "0x1EB89A0", VA = "0x181EBA3A0", Slot = "4")]
+		[Token(Token = "0x60019D0")]
+		[Address(RVA = "0x589E3C0", Offset = "0x589D3C0", VA = "0x589E3C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001763")]
-		[Address(RVA = "0x1EBA6A0", Offset = "0x1EB8CA0", VA = "0x181EBA6A0", Slot = "5")]
+		[Token(Token = "0x60019D1")]
+		[Address(RVA = "0x589E660", Offset = "0x589D660", VA = "0x589E660", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -332,503 +361,529 @@ internal class MapLoader : MonoBehaviour
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20003AE")]
+	[Token(Token = "0x200040B")]
 	[CompilerGenerated]
-	private struct _003CUpdateNavMesh_003Ed__58 : IAsyncStateMachine
+	private struct _003CUpdateNavMesh_003Ed__61 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400133D")]
+		[Token(Token = "0x40014D4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400133E")]
+		[Token(Token = "0x40014D5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400133F")]
+		[Token(Token = "0x40014D6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private TaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001764")]
-		[Address(RVA = "0x1EBA700", Offset = "0x1EB8D00", VA = "0x181EBA700", Slot = "4")]
+		[Token(Token = "0x60019D2")]
+		[Address(RVA = "0x589E6C0", Offset = "0x589D6C0", VA = "0x589E6C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001765")]
-		[Address(RVA = "0x1EBA980", Offset = "0x1EB8F80", VA = "0x181EBA980", Slot = "5")]
+		[Token(Token = "0x60019D3")]
+		[Address(RVA = "0x589E8E0", Offset = "0x589D8E0", VA = "0x589E8E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x40012FC")]
+	[Token(Token = "0x400148E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static Dictionary<int, MapObject> IdToMapObject;
 
-	[Token(Token = "0x40012FD")]
+	[Token(Token = "0x400148F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public static Dictionary<int, HashSet<int>> IdToChildren;
 
-	[Token(Token = "0x40012FE")]
+	[Token(Token = "0x4001490")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public static List<int> ObjectOrder;
 
-	[Token(Token = "0x40012FF")]
+	[Token(Token = "0x4001491")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public static Dictionary<GameObject, MapObject> GoToMapObject;
 
-	[Token(Token = "0x4001300")]
+	[Token(Token = "0x4001492")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public static Dictionary<string, List<MapObject>> Tags;
 
-	[Token(Token = "0x4001301")]
+	[Token(Token = "0x4001493")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public static Dictionary<MapObject, HashSet<string>> MapObjectToTags;
 
-	[Token(Token = "0x4001302")]
+	[Token(Token = "0x4001494")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public static List<Light> Daylight;
 
-	[Token(Token = "0x4001303")]
+	[Token(Token = "0x4001495")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public static List<MapLight> MapLights;
 
-	[Token(Token = "0x4001304")]
+	[Token(Token = "0x4001496")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	public static List<MapTargetable> MapTargetables;
 
-	[Token(Token = "0x4001305")]
+	[Token(Token = "0x4001497")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private static Dictionary<string, UnityEngine.Object> _assetCache;
 
-	[Token(Token = "0x4001306")]
+	[Token(Token = "0x4001498")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private static Dictionary<string, List<Material>> _assetMaterialCache;
 
-	[Token(Token = "0x4001307")]
+	[Token(Token = "0x4001499")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private static Dictionary<string, List<Material>> _defaultMaterialCache;
 
-	[Token(Token = "0x4001308")]
+	[Token(Token = "0x400149A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private static Dictionary<string, Material> _customMaterialCache;
 
-	[Token(Token = "0x4001309")]
+	[Token(Token = "0x400149B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private static MapLoader _instance;
 
-	[Token(Token = "0x400130A")]
+	[Token(Token = "0x400149C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	public static int HighestObjectId;
 
-	[Token(Token = "0x400130B")]
+	[Token(Token = "0x400149D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private static MapScriptBasicMaterial _invisibleMaterial;
 
-	[Token(Token = "0x400130C")]
+	[Token(Token = "0x400149E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	public static List<string> Errors;
 
-	[Token(Token = "0x400130D")]
+	[Token(Token = "0x400149F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	public static bool HasWeather;
 
-	[Token(Token = "0x400130E")]
+	[Token(Token = "0x40014A0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	public static WeatherSet Weather;
 
-	[Token(Token = "0x400130F")]
+	[Token(Token = "0x40014A1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private static GameObject _background;
 
-	[Token(Token = "0x4001310")]
+	[Token(Token = "0x40014A2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private static bool _hasNavMeshData;
 
-	[Token(Token = "0x4001311")]
+	[Token(Token = "0x40014A3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private static List<NavMeshBuildSource> _navMeshSources;
 
-	[Token(Token = "0x4001312")]
+	[Token(Token = "0x40014A4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private static List<Bounds> _navMeshBounds;
 
-	[Token(Token = "0x4001313")]
+	[Token(Token = "0x40014A5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private static List<NavMeshBuild> _navMeshBuilds;
 
-	[Token(Token = "0x4001314")]
+	[Token(Token = "0x40014A6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private static bool _navMeshModified;
 
-	[Token(Token = "0x4001315")]
+	[Token(Token = "0x40014A7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC1")]
 	private static bool _navMeshRefreshPending;
 
-	[Token(Token = "0x4001316")]
+	[Token(Token = "0x40014A8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private static Coroutine _navMeshRefresh;
 
-	[Token(Token = "0x4001317")]
+	[Token(Token = "0x40014A9")]
 	private const float NavMeshRefreshDelay = 1f;
 
-	[Token(Token = "0x4001318")]
+	[Token(Token = "0x40014AA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	public static int ROOT_OBJECT_ID;
 
-	[Token(Token = "0x4001319")]
+	[Token(Token = "0x40014AB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD4")]
 	public static int NETWORK_OFFSET;
 
-	[Token(Token = "0x1700026D")]
+	[Token(Token = "0x170002AE")]
 	public static bool HasNavMesh
 	{
-		[Token(Token = "0x6001715")]
-		[Address(RVA = "0x1EB28B0", Offset = "0x1EB0EB0", VA = "0x181EB28B0")]
+		[Token(Token = "0x600197A")]
+		[Address(RVA = "0x588F960", Offset = "0x588E960", VA = "0x588F960")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001716")]
-	[Address(RVA = "0x1EABEE0", Offset = "0x1EAA4E0", VA = "0x181EABEE0")]
+	[Token(Token = "0x600197B")]
+	[Address(RVA = "0x588FA10", Offset = "0x588EA10", VA = "0x588FA10")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6001717")]
-	[Address(RVA = "0x1EAD670", Offset = "0x1EABC70", VA = "0x181EAD670")]
+	[Token(Token = "0x600197C")]
+	[Address(RVA = "0x588FBA0", Offset = "0x588EBA0", VA = "0x588FBA0")]
 	private static void OnPreLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6001718")]
-	[Address(RVA = "0x1EABD60", Offset = "0x1EAA360", VA = "0x181EABD60")]
+	[Token(Token = "0x600197D")]
+	[Address(RVA = "0x588FC80", Offset = "0x588EC80", VA = "0x588FC80")]
 	public static int GetNextObjectId()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001719")]
-	[Address(RVA = "0x1EB0B80", Offset = "0x1EAF180", VA = "0x181EB0B80")]
-	public static void StartLoadObjects(List<string> customAssets, List<MapScriptBaseObject> objects, MapScriptOptions options, WeatherSet weather, bool editor = false)
+	[Token(Token = "0x600197E")]
+	[Address(RVA = "0x588FCD0", Offset = "0x588ECD0", VA = "0x588FCD0")]
+	public static void ReportError(string message)
 	{
 	}
 
-	[Token(Token = "0x600171A")]
-	[Address(RVA = "0x1EAD7C0", Offset = "0x1EABDC0", VA = "0x181EAD7C0")]
+	[Token(Token = "0x600197F")]
+	[Address(RVA = "0x588FDD0", Offset = "0x588EDD0", VA = "0x588FDD0")]
+	private static bool RunLoadStep(string step, Action action)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6001980")]
+	[Address(RVA = "0x588FF00", Offset = "0x588EF00", VA = "0x588FF00")]
+	public static void StartLoadObjects(List<string> customAssets, List<MapScriptBaseObject> objects, MapScriptOptions options, WeatherSet weather, [Optional][DefaultParameterValue(false)] bool editor, [Optional] List<string> parseErrors)
+	{
+	}
+
+	[Token(Token = "0x6001981")]
+	[Address(RVA = "0x5890640", Offset = "0x588F640", VA = "0x5890640")]
 	public static MapLight RegisterMapLight(Light light, bool isDaylight)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600171B")]
-	[Address(RVA = "0x1EAADC0", Offset = "0x1EA93C0", VA = "0x181EAADC0")]
+	[Token(Token = "0x6001982")]
+	[Address(RVA = "0x587E9B0", Offset = "0x587D9B0", VA = "0x587E9B0")]
 	public static MapObject FindObjectFromCollider(Collider collider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600171C")]
-	[Address(RVA = "0x1EAAF60", Offset = "0x1EA9560", VA = "0x181EAAF60")]
+	[Token(Token = "0x6001983")]
+	[Address(RVA = "0x5878DA0", Offset = "0x5877DA0", VA = "0x5878DA0")]
 	public static MapObject FindObjectFromTransform(Transform current)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600171D")]
-	[Address(RVA = "0x1EAC4E0", Offset = "0x1EAAAE0", VA = "0x181EAC4E0")]
+	[Token(Token = "0x6001984")]
+	[Address(RVA = "0x5890770", Offset = "0x588F770", VA = "0x5890770")]
 	public static MapObject LoadObject(MapScriptBaseObject scriptObject, bool editor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600171E")]
-	[Address(RVA = "0x1EAD510", Offset = "0x1EABB10", VA = "0x181EAD510")]
+	[Token(Token = "0x6001985")]
+	[Address(RVA = "0x5891190", Offset = "0x5890190", VA = "0x5891190")]
+	public static void UnregisterObject(MapObject mapObject)
+	{
+	}
+
+	[Token(Token = "0x6001986")]
+	[Address(RVA = "0x5891360", Offset = "0x5890360", VA = "0x5891360")]
 	public static void MoveInOrder(int id, int anchorId, bool insertAfter)
 	{
 	}
 
-	[Token(Token = "0x600171F")]
-	[Address(RVA = "0x1EB03A0", Offset = "0x1EAE9A0", VA = "0x181EB03A0")]
+	[Token(Token = "0x6001987")]
+	[Address(RVA = "0x58914E0", Offset = "0x58904E0", VA = "0x58914E0")]
 	public static void SetParent(MapObject obj, MapObject parent)
 	{
 	}
 
-	[Token(Token = "0x6001720")]
-	[Address(RVA = "0x1EAFE60", Offset = "0x1EAE460", VA = "0x181EAFE60")]
+	[Token(Token = "0x6001988")]
+	[Address(RVA = "0x5891AA0", Offset = "0x5890AA0", VA = "0x5891AA0")]
 	public static void SetParentLogical(MapObject obj, MapObject parent)
 	{
 	}
 
-	[Token(Token = "0x6001721")]
-	[Address(RVA = "0x1EAB960", Offset = "0x1EA9F60", VA = "0x181EAB960")]
+	[Token(Token = "0x6001989")]
+	[Address(RVA = "0x5891E00", Offset = "0x5890E00", VA = "0x5891E00")]
 	public static int GetLogicalParentId(MapObject obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001722")]
-	[Address(RVA = "0x1EB1FD0", Offset = "0x1EB05D0", VA = "0x181EB1FD0")]
+	[Token(Token = "0x600198A")]
+	[Address(RVA = "0x58918A0", Offset = "0x58908A0", VA = "0x58918A0")]
 	private static bool WouldCreateParentCycle(MapObject obj, MapObject parent)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001723")]
-	[Address(RVA = "0x1EAACD0", Offset = "0x1EA92D0", VA = "0x181EAACD0")]
+	[Token(Token = "0x600198B")]
+	[Address(RVA = "0x5891E60", Offset = "0x5890E60", VA = "0x5891E60")]
 	public static void DeleteObject(MapObject obj)
 	{
 	}
 
-	[Token(Token = "0x6001724")]
-	[Address(RVA = "0x1EAA8D0", Offset = "0x1EA8ED0", VA = "0x181EAA8D0")]
+	[Token(Token = "0x600198C")]
+	[Address(RVA = "0x5891F70", Offset = "0x5890F70", VA = "0x5891F70")]
 	public static void DeleteObject(int id)
 	{
 	}
 
-	[Token(Token = "0x6001725")]
-	[Address(RVA = "0x1EACCF0", Offset = "0x1EAB2F0", VA = "0x181EACCF0")]
-	[IteratorStateMachine(typeof(_003CLoadObjectsCoroutine_003Ed__47))]
+	[Token(Token = "0x600198D")]
+	[Address(RVA = "0x58905A0", Offset = "0x588F5A0", VA = "0x58905A0")]
+	[IteratorStateMachine(typeof(_003CLoadObjectsCoroutine_003Ed__50))]
 	private IEnumerator LoadObjectsCoroutine(List<string> customAssets, List<MapScriptBaseObject> objects, bool editor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001726")]
-	[Address(RVA = "0x1EABBD0", Offset = "0x1EAA1D0", VA = "0x181EABBD0")]
+	[Token(Token = "0x600198E")]
+	[Address(RVA = "0x5892390", Offset = "0x5891390", VA = "0x5892390")]
 	private Matrix4x4 GetNavMeshWorldToLocal()
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x6001727")]
-	[Address(RVA = "0x1EAE000", Offset = "0x1EAC600", VA = "0x181EAE000")]
+	[Token(Token = "0x600198F")]
+	[Address(RVA = "0x5892510", Offset = "0x5891510", VA = "0x5892510")]
 	private void ResetSources()
 	{
 	}
 
-	[Token(Token = "0x6001728")]
-	[Address(RVA = "0x1EAC290", Offset = "0x1EAA890", VA = "0x181EAC290")]
+	[Token(Token = "0x6001990")]
+	[Address(RVA = "0x5892910", Offset = "0x5891910", VA = "0x5892910")]
 	private static bool IsNavMeshRegion(MapObject mapObject)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001729")]
-	[Address(RVA = "0x1EA9930", Offset = "0x1EA7F30", VA = "0x181EA9930")]
+	[Token(Token = "0x6001991")]
+	[Address(RVA = "0x5892F80", Offset = "0x5891F80", VA = "0x5892F80")]
 	private static void CollectNavMeshSources()
 	{
 	}
 
-	[Token(Token = "0x600172A")]
-	[Address(RVA = "0x1EB1B50", Offset = "0x1EB0150", VA = "0x181EB1B50")]
+	[Token(Token = "0x6001992")]
+	[Address(RVA = "0x58929D0", Offset = "0x58919D0", VA = "0x58929D0")]
 	private static bool TryGetRenderBounds(GameObject go, Matrix4x4 worldToLocal, out Bounds bounds)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600172B")]
-	[Address(RVA = "0x1EAA590", Offset = "0x1EA8B90", VA = "0x181EAA590")]
+	[Token(Token = "0x6001993")]
+	[Address(RVA = "0x5893560", Offset = "0x5892560", VA = "0x5893560")]
 	private static AsyncOperation CreateNavMeshSurface(int agentID, Bounds bounds, uint maxJobWorkers)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600172C")]
-	[Address(RVA = "0x1EADC50", Offset = "0x1EAC250", VA = "0x181EADC50")]
+	[Token(Token = "0x6001994")]
+	[Address(RVA = "0x58808F0", Offset = "0x587F8F0", VA = "0x58808F0")]
 	public static void RemoveNavMeshSources(HashSet<Component> components)
 	{
 	}
 
-	[Token(Token = "0x600172D")]
-	[Address(RVA = "0x1EAD770", Offset = "0x1EABD70", VA = "0x181EAD770")]
-	[IteratorStateMachine(typeof(_003CRefreshNavMesh_003Ed__55))]
+	[Token(Token = "0x6001995")]
+	[Address(RVA = "0x5893910", Offset = "0x5892910", VA = "0x5893910")]
+	[IteratorStateMachine(typeof(_003CRefreshNavMesh_003Ed__58))]
 	private static IEnumerator RefreshNavMesh()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600172E")]
-	[Address(RVA = "0x1EB1170", Offset = "0x1EAF770", VA = "0x181EB1170")]
+	[Token(Token = "0x6001996")]
+	[Address(RVA = "0x58904A0", Offset = "0x588F4A0", VA = "0x58904A0")]
 	private static void StopNavMeshRefresh()
 	{
 	}
 
-	[Token(Token = "0x600172F")]
-	[Address(RVA = "0x1EB1F20", Offset = "0x1EB0520", VA = "0x181EB1F20")]
-	[AsyncStateMachine(typeof(_003CUpdateNavMesh_003Ed__58))]
+	[Token(Token = "0x6001997")]
+	[Address(RVA = "0x5893950", Offset = "0x5892950", VA = "0x5893950")]
+	[AsyncStateMachine(typeof(_003CUpdateNavMesh_003Ed__61))]
 	public static Task UpdateNavMesh()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001730")]
-	[Address(RVA = "0x1EB1E50", Offset = "0x1EB0450", VA = "0x181EB1E50")]
-	[AsyncStateMachine(typeof(_003CUpdateAllNavMeshes_003Ed__59))]
+	[Token(Token = "0x6001998")]
+	[Address(RVA = "0x5893A10", Offset = "0x5892A10", VA = "0x5893A10")]
+	[AsyncStateMachine(typeof(_003CUpdateAllNavMeshes_003Ed__62))]
 	public Task UpdateAllNavMeshes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001731")]
-	[Address(RVA = "0x1EAB0C0", Offset = "0x1EA96C0", VA = "0x181EAB0C0")]
-	[AsyncStateMachine(typeof(_003CGenerateNavMesh_003Ed__60))]
+	[Token(Token = "0x6001999")]
+	[Address(RVA = "0x5893AE0", Offset = "0x5892AE0", VA = "0x5893AE0")]
+	[AsyncStateMachine(typeof(_003CGenerateNavMesh_003Ed__63))]
 	private Task GenerateNavMesh()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001732")]
-	[Address(RVA = "0x1EA8570", Offset = "0x1EA6B70", VA = "0x181EA8570")]
+	[Token(Token = "0x600199A")]
+	[Address(RVA = "0x5893BC0", Offset = "0x5892BC0", VA = "0x5893BC0")]
 	private void Batch()
 	{
 	}
 
-	[Token(Token = "0x6001733")]
-	[Address(RVA = "0x1EA9F00", Offset = "0x1EA8500", VA = "0x181EA9F00")]
+	[Token(Token = "0x600199B")]
+	[Address(RVA = "0x58954C0", Offset = "0x58944C0", VA = "0x58954C0")]
 	private bool CombineMeshes(GameObject obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001734")]
-	[Address(RVA = "0x1EAD920", Offset = "0x1EABF20", VA = "0x181EAD920")]
+	[Token(Token = "0x600199C")]
+	[Address(RVA = "0x5895CE0", Offset = "0x5894CE0", VA = "0x5895CE0")]
 	public static void RegisterTag(string tag, MapObject obj)
 	{
 	}
 
-	[Token(Token = "0x6001735")]
-	[Address(RVA = "0x1EABDD0", Offset = "0x1EAA3D0", VA = "0x181EABDD0")]
+	[Token(Token = "0x600199D")]
+	[Address(RVA = "0x5896010", Offset = "0x5895010", VA = "0x5896010")]
 	public static bool HasTag(MapObject obj, string tag)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001736")]
-	[Address(RVA = "0x1EAB9D0", Offset = "0x1EA9FD0", VA = "0x181EAB9D0")]
+	[Token(Token = "0x600199E")]
+	[Address(RVA = "0x5896130", Offset = "0x5895130", VA = "0x5896130")]
 	public static MapObject GetMapObject(GameObject obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001737")]
-	[Address(RVA = "0x1EAD2A0", Offset = "0x1EAB8A0", VA = "0x181EAD2A0")]
+	[Token(Token = "0x600199F")]
+	[Address(RVA = "0x5890D90", Offset = "0x588FD90", VA = "0x5890D90")]
 	private static GameObject LoadSceneObject(MapScriptSceneObject obj, bool editor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001738")]
-	[Address(RVA = "0x1EB1260", Offset = "0x1EAF860", VA = "0x181EB1260")]
+	[Token(Token = "0x60019A0")]
+	[Address(RVA = "0x5896B50", Offset = "0x5895B50", VA = "0x5896B50")]
 	private static bool TryAddEditorCollider(GameObject go)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001739")]
-	[Address(RVA = "0x1EAC0A0", Offset = "0x1EAA6A0", VA = "0x181EAC0A0")]
+	[Token(Token = "0x60019A1")]
+	[Address(RVA = "0x5899500", Offset = "0x5898500", VA = "0x5899500")]
 	private static bool IsFiniteBounds(Bounds bounds)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600173A")]
-	[Address(RVA = "0x1EAC1A0", Offset = "0x1EAA7A0", VA = "0x181EAC1A0")]
+	[Token(Token = "0x60019A2")]
+	[Address(RVA = "0x5899740", Offset = "0x5898740", VA = "0x5899740")]
 	private static bool IsFiniteVector3(Vector3 v)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600173B")]
-	[Address(RVA = "0x1EAC170", Offset = "0x1EAA770", VA = "0x181EAC170")]
+	[Token(Token = "0x60019A3")]
+	[Address(RVA = "0x5899820", Offset = "0x5898820", VA = "0x5899820")]
 	private static bool IsFiniteFloat(float value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600173C")]
-	[Address(RVA = "0x1EB0A20", Offset = "0x1EAF020", VA = "0x181EB0A20")]
+	[Token(Token = "0x60019A4")]
+	[Address(RVA = "0x5891080", Offset = "0x5890080", VA = "0x5891080")]
 	private static void SetTransform(MapObject mapObject)
 	{
 	}
 
-	[Token(Token = "0x600173D")]
-	[Address(RVA = "0x1EA8450", Offset = "0x1EA6A50", VA = "0x181EA8450")]
+	[Token(Token = "0x60019A5")]
+	[Address(RVA = "0x5899830", Offset = "0x5898830", VA = "0x5899830")]
 	public static void ApplyLocalTransform(MapObject mapObject)
 	{
 	}
 
-	[Token(Token = "0x600173E")]
-	[Address(RVA = "0x1EB01F0", Offset = "0x1EAE7F0", VA = "0x181EB01F0")]
+	[Token(Token = "0x60019A6")]
+	[Address(RVA = "0x58998F0", Offset = "0x58988F0", VA = "0x58998F0")]
 	public static void SetParent(MapObject mapObject)
 	{
 	}
 
-	[Token(Token = "0x600173F")]
-	[Address(RVA = "0x1EAE660", Offset = "0x1EACC60", VA = "0x181EAE660")]
+	[Token(Token = "0x60019A7")]
+	[Address(RVA = "0x5899AA0", Offset = "0x5898AA0", VA = "0x5899AA0")]
+	private static bool IsParticleMaterial(Material mat)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60019A8")]
+	[Address(RVA = "0x5899B30", Offset = "0x5898B30", VA = "0x5899B30")]
 	public static void SetDefaultTiling(string asset, Material mat, Vector2 tiling)
 	{
 	}
 
-	[Token(Token = "0x6001740")]
-	[Address(RVA = "0x1EADE90", Offset = "0x1EAC490", VA = "0x181EADE90")]
+	[Token(Token = "0x60019A9")]
+	[Address(RVA = "0x5899C60", Offset = "0x5898C60", VA = "0x5899C60")]
 	private static bool RendererBelongsToMapObject(Renderer renderer, GameObject ownerGo)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001741")]
-	[Address(RVA = "0x1EAE820", Offset = "0x1EACE20", VA = "0x181EAE820")]
+	[Token(Token = "0x60019AA")]
+	[Address(RVA = "0x5897B80", Offset = "0x5896B80", VA = "0x5897B80")]
 	public static void SetMaterial(GameObject go, string asset, MapScriptBaseMaterial material, bool visible, bool editor)
 	{
 	}
 
-	[Token(Token = "0x6001742")]
-	[Address(RVA = "0x1EB07A0", Offset = "0x1EAEDA0", VA = "0x181EB07A0")]
+	[Token(Token = "0x60019AB")]
+	[Address(RVA = "0x58968B0", Offset = "0x58958B0", VA = "0x58968B0")]
 	private static int SetPhysics(GameObject go, string collideMode, string collideWith, string physicsMaterial)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001743")]
-	[Address(RVA = "0x1EAE550", Offset = "0x1EACB50", VA = "0x181EAE550")]
+	[Token(Token = "0x60019AC")]
+	[Address(RVA = "0x589A2B0", Offset = "0x58992B0", VA = "0x589A2B0")]
 	public static void SetCollider(Collider c, string collideMode, string collideWith)
 	{
 	}
 
-	[Token(Token = "0x6001744")]
-	[Address(RVA = "0x1EAB1A0", Offset = "0x1EA97A0", VA = "0x181EAB1A0")]
+	[Token(Token = "0x60019AD")]
+	[Address(RVA = "0x589A3B0", Offset = "0x58993B0", VA = "0x589A3B0")]
 	public static string GetColliderCollideWith(Collider c)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001745")]
-	[Address(RVA = "0x1EAB520", Offset = "0x1EA9B20", VA = "0x181EAB520")]
+	[Token(Token = "0x60019AE")]
+	[Address(RVA = "0x5899F60", Offset = "0x5898F60", VA = "0x5899F60")]
 	public static int GetColliderLayer(string collideWith)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001746")]
-	[Address(RVA = "0x1EAC350", Offset = "0x1EAA950", VA = "0x181EAC350")]
+	[Token(Token = "0x60019AF")]
+	[Address(RVA = "0x5899DE0", Offset = "0x5898DE0", VA = "0x5899DE0")]
 	private static UnityEngine.Object LoadAssetCached(string path, string asset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001747")]
-	[Address(RVA = "0x1EACD90", Offset = "0x1EAB390", VA = "0x181EACD90")]
+	[Token(Token = "0x60019B0")]
+	[Address(RVA = "0x5896320", Offset = "0x5895320", VA = "0x5896320")]
 	private static GameObject LoadPrefabCached(string asset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001748")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x60019B1")]
+	[Address(RVA = "0x589A6D0", Offset = "0x58996D0", VA = "0x589A6D0")]
 	public MapLoader()
 	{
 	}

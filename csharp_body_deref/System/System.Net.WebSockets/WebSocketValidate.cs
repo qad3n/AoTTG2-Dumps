@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003BB")]
+[Token(Token = "0x2000377")]
 internal static class WebSocketValidate
 {
-	[Token(Token = "0x600195B")]
-	[Address(RVA = "0x2828A00", Offset = "0x2827000", VA = "0x182828A00")]
+	[Token(Token = "0x60017A2")]
+	[Address(RVA = "0x61BEE30", Offset = "0x61BDE30", VA = "0x61BEE30")]
 	internal static void ThrowIfInvalidState(WebSocketState currentState, bool isDisposed, WebSocketState[] validStates)
 	{
 	}
 
-	[Token(Token = "0x600195C")]
-	[Address(RVA = "0x2828FD0", Offset = "0x28275D0", VA = "0x182828FD0")]
+	[Token(Token = "0x60017A3")]
+	[Address(RVA = "0x61CBA30", Offset = "0x61CAA30", VA = "0x61CBA30")]
 	internal static void ValidateSubprotocol(string subProtocol)
 	{
 	}
 
-	[Token(Token = "0x600195D")]
-	[Address(RVA = "0x2828D90", Offset = "0x2827390", VA = "0x182828D90")]
+	[Token(Token = "0x60017A4")]
+	[Address(RVA = "0x61BF5B0", Offset = "0x61BE5B0", VA = "0x61BF5B0")]
 	internal static void ValidateCloseStatus(WebSocketCloseStatus closeStatus, string statusDescription)
 	{
 	}
 
-	[Token(Token = "0x600195E")]
-	[Address(RVA = "0x2828B70", Offset = "0x2827170", VA = "0x182828B70")]
+	[Token(Token = "0x60017A5")]
+	[Address(RVA = "0x61BE940", Offset = "0x61BD940", VA = "0x61BE940")]
 	internal static void ValidateArraySegment(ArraySegment<byte> arraySegment, string parameterName)
 	{
 	}

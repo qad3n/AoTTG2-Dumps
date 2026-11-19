@@ -13,27 +13,27 @@ namespace Unity.VisualScripting;
 public class EqualityHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x2DD0460", Offset = "0x2DCEA60", VA = "0x182DD0460")]
+	[Address(RVA = "0x67D46B0", Offset = "0x67D36B0", VA = "0x67D46B0")]
 	public EqualityHandler()
 	{
 	}
 
 	[Token(Token = "0x6000819")]
-	[Address(RVA = "0x2DD03F0", Offset = "0x2DCE9F0", VA = "0x182DD03F0", Slot = "6")]
+	[Address(RVA = "0x67DA730", Offset = "0x67D9730", VA = "0x67DA730", Slot = "6")]
 	protected override object BothNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600081A")]
-	[Address(RVA = "0x2DD0440", Offset = "0x2DCEA40", VA = "0x182DD0440", Slot = "7")]
+	[Address(RVA = "0x67DA750", Offset = "0x67D9750", VA = "0x67DA750", Slot = "7")]
 	protected override object SingleNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600081B")]
-	[Address(RVA = "0x2DD0410", Offset = "0x2DCEA10", VA = "0x182DD0410", Slot = "5")]
+	[Address(RVA = "0x67DA770", Offset = "0x67D9770", VA = "0x67DA770", Slot = "5")]
 	protected override object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;

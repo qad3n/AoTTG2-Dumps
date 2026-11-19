@@ -15,61 +15,72 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x20003D4")]
+[Token(Token = "0x20003AD")]
 [CLSCompliant(false)]
 [ComVisible(true)]
 public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, IMethodCallMessage, IMethodMessage
 {
-	[Token(Token = "0x4000F73")]
+	[Token(Token = "0x4000ED3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private IActivator _activator;
 
-	[Token(Token = "0x4000F74")]
+	[Token(Token = "0x4000ED4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private object[] _activationAttributes;
 
-	[Token(Token = "0x4000F75")]
+	[Token(Token = "0x4000ED5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private IList _contextProperties;
 
-	[Token(Token = "0x4000F76")]
+	[Token(Token = "0x4000ED6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private Type _activationType;
 
-	[Token(Token = "0x4000F77")]
+	[Token(Token = "0x4000ED7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private string _activationTypeName;
 
-	[Token(Token = "0x4000F78")]
+	[Token(Token = "0x4000ED8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private bool _isContextOk;
 
 	[NonSerialized]
-	[Token(Token = "0x4000F79")]
+	[Token(Token = "0x4000ED9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy;
 
-	[Token(Token = "0x170003AC")]
+	[Token(Token = "0x170003AB")]
 	internal bool IsContextOk
 	{
-		[Token(Token = "0x6001EB2")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
+		[Token(Token = "0x6001E88")]
+		[Address(RVA = "0x5392780", Offset = "0x5391780", VA = "0x5392780")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001EB3")]
-		[Address(RVA = "0xB5BDB0", Offset = "0xB5A3B0", VA = "0x180B5BDB0")]
+		[Token(Token = "0x6001E89")]
+		[Address(RVA = "0x5392790", Offset = "0x5391790", VA = "0x5392790")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003AD")]
+	[Token(Token = "0x170003AC")]
 	public Type ActivationType
 	{
-		[Token(Token = "0x6001EB4")]
-		[Address(RVA = "0x19F5730", Offset = "0x19F3D30", VA = "0x1819F5730", Slot = "24")]
+		[Token(Token = "0x6001E8A")]
+		[Address(RVA = "0x53927A0", Offset = "0x53917A0", VA = "0x53927A0", Slot = "24")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170003AD")]
+	public string ActivationTypeName
+	{
+		[Token(Token = "0x6001E8B")]
+		[Address(RVA = "0x5392870", Offset = "0x5391870", VA = "0x5392870", Slot = "25")]
 		get
 		{
 			return null;
@@ -77,37 +88,37 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	}
 
 	[Token(Token = "0x170003AE")]
-	public string ActivationTypeName
-	{
-		[Token(Token = "0x6001EB5")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0", Slot = "25")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170003AF")]
 	public IActivator Activator
 	{
-		[Token(Token = "0x6001EB6")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0", Slot = "26")]
+		[Token(Token = "0x6001E8C")]
+		[Address(RVA = "0x5392880", Offset = "0x5391880", VA = "0x5392880", Slot = "26")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001EB7")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790", Slot = "27")]
+		[Token(Token = "0x6001E8D")]
+		[Address(RVA = "0x5392890", Offset = "0x5391890", VA = "0x5392890", Slot = "27")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003B0")]
+	[Token(Token = "0x170003AF")]
 	public object[] CallSiteActivationAttributes
 	{
-		[Token(Token = "0x6001EB8")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770", Slot = "28")]
+		[Token(Token = "0x6001E8E")]
+		[Address(RVA = "0x53928A0", Offset = "0x53918A0", VA = "0x53928A0", Slot = "28")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170003B0")]
+	public IList ContextProperties
+	{
+		[Token(Token = "0x6001E90")]
+		[Address(RVA = "0x53928C0", Offset = "0x53918C0", VA = "0x53928C0", Slot = "29")]
 		get
 		{
 			return null;
@@ -115,10 +126,10 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	}
 
 	[Token(Token = "0x170003B1")]
-	public IList ContextProperties
+	public override IDictionary Properties
 	{
-		[Token(Token = "0x6001EBA")]
-		[Address(RVA = "0x19F57F0", Offset = "0x19F3DF0", VA = "0x1819F57F0", Slot = "29")]
+		[Token(Token = "0x6001E93")]
+		[Address(RVA = "0x5393720", Offset = "0x5392720", VA = "0x5393720", Slot = "21")]
 		get
 		{
 			return null;
@@ -126,64 +137,53 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	}
 
 	[Token(Token = "0x170003B2")]
-	public override IDictionary Properties
-	{
-		[Token(Token = "0x6001EBD")]
-		[Address(RVA = "0x19F5860", Offset = "0x19F3E60", VA = "0x1819F5860", Slot = "21")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170003B3")]
 	internal System.Runtime.Remoting.Proxies.RemotingProxy SourceProxy
 	{
-		[Token(Token = "0x6001EBE")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Token(Token = "0x6001E94")]
+		[Address(RVA = "0x5393780", Offset = "0x5392780", VA = "0x5393780")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001EBF")]
-		[Address(RVA = "0x58A900", Offset = "0x588F00", VA = "0x18058A900")]
+		[Token(Token = "0x6001E95")]
+		[Address(RVA = "0x5393790", Offset = "0x5392790", VA = "0x5393790")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001EAF")]
-	[Address(RVA = "0x19F56B0", Offset = "0x19F3CB0", VA = "0x1819F56B0")]
+	[Token(Token = "0x6001E85")]
+	[Address(RVA = "0x537BFB0", Offset = "0x537AFB0", VA = "0x537BFB0")]
 	internal ConstructionCall(Type type)
 	{
 	}
 
-	[Token(Token = "0x6001EB0")]
-	[Address(RVA = "0x19F5610", Offset = "0x19F3C10", VA = "0x1819F5610")]
+	[Token(Token = "0x6001E86")]
+	[Address(RVA = "0x5392500", Offset = "0x5391500", VA = "0x5392500")]
 	internal ConstructionCall(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001EB1")]
-	[Address(RVA = "0x19F50D0", Offset = "0x19F36D0", VA = "0x1819F50D0", Slot = "22")]
+	[Token(Token = "0x6001E87")]
+	[Address(RVA = "0x53925B0", Offset = "0x53915B0", VA = "0x53925B0", Slot = "22")]
 	internal override void InitDictionary()
 	{
 	}
 
-	[Token(Token = "0x6001EB9")]
-	[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+	[Token(Token = "0x6001E8F")]
+	[Address(RVA = "0x53928B0", Offset = "0x53918B0", VA = "0x53928B0")]
 	internal void SetActivationAttributes(object[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6001EBB")]
-	[Address(RVA = "0x19F51E0", Offset = "0x19F37E0", VA = "0x1819F51E0", Slot = "19")]
+	[Token(Token = "0x6001E91")]
+	[Address(RVA = "0x5392940", Offset = "0x5391940", VA = "0x5392940", Slot = "19")]
 	internal override void InitMethodProperty(string key, object value)
 	{
 	}
 
-	[Token(Token = "0x6001EBC")]
-	[Address(RVA = "0x19F4FA0", Offset = "0x19F35A0", VA = "0x1819F4FA0", Slot = "20")]
+	[Token(Token = "0x6001E92")]
+	[Address(RVA = "0x5393110", Offset = "0x5392110", VA = "0x5393110", Slot = "20")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

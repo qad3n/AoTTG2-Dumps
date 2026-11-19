@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 namespace UnityEngine;
 
 [Serializable]
-[Token(Token = "0x2000143")]
+[Token(Token = "0x2000144")]
 public struct FrustumPlanes
 {
-	[Token(Token = "0x400052C")]
+	[Token(Token = "0x4000531")]
 	[FieldOffset(Offset = "0x0")]
 	public float left;
 
-	[Token(Token = "0x400052D")]
+	[Token(Token = "0x4000532")]
 	[FieldOffset(Offset = "0x4")]
 	public float right;
 
-	[Token(Token = "0x400052E")]
+	[Token(Token = "0x4000533")]
 	[FieldOffset(Offset = "0x8")]
 	public float bottom;
 
-	[Token(Token = "0x400052F")]
+	[Token(Token = "0x4000534")]
 	[FieldOffset(Offset = "0xC")]
 	public float top;
 
-	[Token(Token = "0x4000530")]
+	[Token(Token = "0x4000535")]
 	[FieldOffset(Offset = "0x10")]
 	public float zNear;
 
-	[Token(Token = "0x4000531")]
+	[Token(Token = "0x4000536")]
 	[FieldOffset(Offset = "0x14")]
 	public float zFar;
 }

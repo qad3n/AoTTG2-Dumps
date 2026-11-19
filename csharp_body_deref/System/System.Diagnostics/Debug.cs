@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000102")]
+[Token(Token = "0x20000C3")]
 public static class Debug
 {
-	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x2861780", Offset = "0x285FD80", VA = "0x182861780")]
+	[Token(Token = "0x600048E")]
+	[Address(RVA = "0x61FF890", Offset = "0x61FE890", VA = "0x61FF890")]
 	[Conditional("DEBUG")]
 	public static void WriteLine(string message)
 	{

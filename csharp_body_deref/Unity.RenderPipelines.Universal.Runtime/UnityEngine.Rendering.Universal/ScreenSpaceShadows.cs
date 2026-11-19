@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ScreenSpaceShadows
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ internal class ScreenSpaceShadows : ScriptableRendererFeature
 			internal Material material;
 
 			[Token(Token = "0x60008A6")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x6681290", Offset = "0x6680290", VA = "0x6681290")]
 			public PassData()
 			{
 			}
@@ -50,32 +50,32 @@ internal class ScreenSpaceShadows : ScriptableRendererFeature
 		private int m_ScreenSpaceShadowmapTextureID;
 
 		[Token(Token = "0x60008A1")]
-		[Address(RVA = "0x2C84650", Offset = "0x2C82C50", VA = "0x182C84650")]
+		[Address(RVA = "0x66801B0", Offset = "0x667F1B0", VA = "0x66801B0")]
 		internal ScreenSpaceShadowsPass()
 		{
 		}
 
 		[Token(Token = "0x60008A2")]
-		[Address(RVA = "0x2C845C0", Offset = "0x2C82BC0", VA = "0x182C845C0")]
+		[Address(RVA = "0x6680750", Offset = "0x667F750", VA = "0x6680750")]
 		internal bool Setup(ScreenSpaceShadowsSettings featureSettings, Material material)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60008A3")]
-		[Address(RVA = "0x2C83E60", Offset = "0x2C82460", VA = "0x182C83E60")]
+		[Address(RVA = "0x66808A0", Offset = "0x667F8A0", VA = "0x66808A0")]
 		private void InitPassData(ref PassData passData)
 		{
 		}
 
 		[Token(Token = "0x60008A4")]
-		[Address(RVA = "0x2C83E90", Offset = "0x2C82490", VA = "0x182C83E90", Slot = "11")]
+		[Address(RVA = "0x66808D0", Offset = "0x667F8D0", VA = "0x66808D0", Slot = "11")]
 		public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 		{
 		}
 
 		[Token(Token = "0x60008A5")]
-		[Address(RVA = "0x2C83D00", Offset = "0x2C82300", VA = "0x182C83D00")]
+		[Address(RVA = "0x6681160", Offset = "0x6680160", VA = "0x6681160")]
 		private static void ExecutePass(UnsafeCommandBuffer cmd, PassData data, RTHandle target)
 		{
 		}
@@ -92,26 +92,26 @@ internal class ScreenSpaceShadows : ScriptableRendererFeature
 			internal UniversalShadowData shadowData;
 
 			[Token(Token = "0x60008AD")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x6681930", Offset = "0x6680930", VA = "0x6681930")]
 			public PassData()
 			{
 			}
 		}
 
 		[Token(Token = "0x60008AA")]
-		[Address(RVA = "0x2C84C10", Offset = "0x2C83210", VA = "0x182C84C10")]
+		[Address(RVA = "0x6680280", Offset = "0x667F280", VA = "0x6680280")]
 		internal ScreenSpaceShadowsPostPass()
 		{
 		}
 
 		[Token(Token = "0x60008AB")]
-		[Address(RVA = "0x2C84720", Offset = "0x2C82D20", VA = "0x182C84720")]
+		[Address(RVA = "0x66813B0", Offset = "0x66803B0", VA = "0x66813B0")]
 		private static void ExecutePass(RasterCommandBuffer cmd, UniversalShadowData shadowData)
 		{
 		}
 
 		[Token(Token = "0x60008AC")]
-		[Address(RVA = "0x2C847F0", Offset = "0x2C82DF0", VA = "0x182C847F0", Slot = "11")]
+		[Address(RVA = "0x6681470", Offset = "0x6680470", VA = "0x6681470", Slot = "11")]
 		public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 		{
 		}
@@ -144,32 +144,32 @@ internal class ScreenSpaceShadows : ScriptableRendererFeature
 	private const string k_ShaderName = "Hidden/Universal Render Pipeline/ScreenSpaceShadows";
 
 	[Token(Token = "0x600089C")]
-	[Address(RVA = "0x2C84F80", Offset = "0x2C83580", VA = "0x182C84F80", Slot = "7")]
+	[Address(RVA = "0x6680060", Offset = "0x667F060", VA = "0x6680060", Slot = "7")]
 	public override void Create()
 	{
 	}
 
 	[Token(Token = "0x600089D")]
-	[Address(RVA = "0x2C84C90", Offset = "0x2C83290", VA = "0x182C84C90", Slot = "9")]
+	[Address(RVA = "0x6680450", Offset = "0x667F450", VA = "0x6680450", Slot = "9")]
 	public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x600089E")]
-	[Address(RVA = "0x2C85170", Offset = "0x2C83770", VA = "0x182C85170", Slot = "11")]
+	[Address(RVA = "0x66807D0", Offset = "0x667F7D0", VA = "0x66807D0", Slot = "11")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600089F")]
-	[Address(RVA = "0x2C851D0", Offset = "0x2C837D0", VA = "0x182C851D0")]
+	[Address(RVA = "0x6680300", Offset = "0x667F300", VA = "0x6680300")]
 	private bool LoadMaterial()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008A0")]
-	[Address(RVA = "0x2C85330", Offset = "0x2C83930", VA = "0x182C85330")]
+	[Address(RVA = "0x6680840", Offset = "0x667F840", VA = "0x6680840")]
 	public ScreenSpaceShadows()
 	{
 	}

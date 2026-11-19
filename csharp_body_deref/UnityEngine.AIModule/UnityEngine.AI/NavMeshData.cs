@@ -16,14 +16,14 @@ namespace UnityEngine.AI;
 public sealed class NavMeshData : Object
 {
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2E981F0", Offset = "0x2E967F0", VA = "0x182E981F0")]
+	[Address(RVA = "0x6895750", Offset = "0x6894750", VA = "0x6895750")]
 	public NavMeshData()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2E981B0", Offset = "0x2E967B0", VA = "0x182E981B0")]
+	[Address(RVA = "0x68957D0", Offset = "0x68947D0", VA = "0x68957D0")]
 	[UnityEngine.Bindings.StaticAccessor("NavMeshDataBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static extern void Internal_Create([UnityEngine.Writable] NavMeshData mono, int agentTypeID);
 }

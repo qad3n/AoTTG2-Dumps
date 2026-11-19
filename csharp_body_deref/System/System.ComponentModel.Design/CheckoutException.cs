@@ -12,27 +12,27 @@ using Il2CppDummyDll;
 namespace System.ComponentModel.Design;
 
 [Serializable]
-[Token(Token = "0x200022F")]
+[Token(Token = "0x20001F0")]
 public class CheckoutException : ExternalException
 {
-	[Token(Token = "0x400080C")]
+	[Token(Token = "0x400073D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly CheckoutException Canceled;
 
-	[Token(Token = "0x6000F50")]
-	[Address(RVA = "0x28CBEF0", Offset = "0x28CA4F0", VA = "0x1828CBEF0")]
+	[Token(Token = "0x6000D90")]
+	[Address(RVA = "0x627C8B0", Offset = "0x627B8B0", VA = "0x627C8B0")]
 	public CheckoutException()
 	{
 	}
 
-	[Token(Token = "0x6000F51")]
-	[Address(RVA = "0x28CBF00", Offset = "0x28CA500", VA = "0x1828CBF00")]
+	[Token(Token = "0x6000D91")]
+	[Address(RVA = "0x627C8C0", Offset = "0x627B8C0", VA = "0x627C8C0")]
 	public CheckoutException(string message, int errorCode)
 	{
 	}
 
-	[Token(Token = "0x6000F52")]
-	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
+	[Token(Token = "0x6000D92")]
+	[Address(RVA = "0x627C8D0", Offset = "0x627B8D0", VA = "0x627C8D0")]
 	protected CheckoutException(SerializationInfo info, StreamingContext context)
 	{
 	}

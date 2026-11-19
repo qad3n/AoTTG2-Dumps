@@ -42,7 +42,7 @@ public class fsAotCompilationManager
 	public static Dictionary<Type, string> AvailableAotCompilations
 	{
 		[Token(Token = "0x6001227")]
-		[Address(RVA = "0x2E5D620", Offset = "0x2E5BC20", VA = "0x182E5D620")]
+		[Address(RVA = "0x6862710", Offset = "0x6861710", VA = "0x6862710")]
 		get
 		{
 			return null;
@@ -50,34 +50,34 @@ public class fsAotCompilationManager
 	}
 
 	[Token(Token = "0x6001228")]
-	[Address(RVA = "0x2E5D2A0", Offset = "0x2E5B8A0", VA = "0x182E5D2A0")]
+	[Address(RVA = "0x68633F0", Offset = "0x68623F0", VA = "0x68633F0")]
 	public static bool TryToPerformAotCompilation(fsConfig config, Type type, out string aotCompiledClassInCSharp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001229")]
-	[Address(RVA = "0x2E5C500", Offset = "0x2E5AB00", VA = "0x182E5C500")]
+	[Address(RVA = "0x6861BC0", Offset = "0x6860BC0", VA = "0x6861BC0")]
 	public static void AddAotCompilation(Type type, fsMetaProperty[] members, bool isConstructorPublic)
 	{
 	}
 
 	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x2E5D1E0", Offset = "0x2E5B7E0", VA = "0x182E5D1E0")]
+	[Address(RVA = "0x68634C0", Offset = "0x68624C0", VA = "0x68634C0")]
 	private static string GetConverterString(fsMetaProperty member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x2E5C650", Offset = "0x2E5AC50", VA = "0x182E5C650")]
+	[Address(RVA = "0x68628B0", Offset = "0x68618B0", VA = "0x68628B0")]
 	private static string GenerateDirectConverterForTypeInCSharp(Type type, fsMetaProperty[] members, bool isConstructorPublic)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600122C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6863580", Offset = "0x6862580", VA = "0x6863580")]
 	public fsAotCompilationManager()
 	{
 	}

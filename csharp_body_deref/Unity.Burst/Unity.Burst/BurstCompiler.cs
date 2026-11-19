@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.BurstCompiler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,41 +32,41 @@ public static class BurstCompiler
 		private bool _hasArgs;
 
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x295ABB0", Offset = "0x29591B0", VA = "0x18295ABB0")]
+		[Address(RVA = "0x630DC60", Offset = "0x630CC60", VA = "0x630DC60")]
 		public CommandBuilder()
 		{
 		}
 
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x295A9E0", Offset = "0x2958FE0", VA = "0x18295A9E0")]
+		[Address(RVA = "0x630DCD0", Offset = "0x630CCD0", VA = "0x630DCD0")]
 		public CommandBuilder Begin(string cmd)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x295AB50", Offset = "0x2959150", VA = "0x18295AB50")]
+		[Address(RVA = "0x630F3B0", Offset = "0x630E3B0", VA = "0x630F3B0")]
 		public CommandBuilder With(string arg)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x295AAA0", Offset = "0x29590A0", VA = "0x18295AAA0")]
+		[Address(RVA = "0x630F600", Offset = "0x630E600", VA = "0x630F600")]
 		public CommandBuilder With(IntPtr arg)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x295A9B0", Offset = "0x2958FB0", VA = "0x18295A9B0")]
+		[Address(RVA = "0x630F6A0", Offset = "0x630E6A0", VA = "0x630F6A0")]
 		public CommandBuilder And(char sep = '|')
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x295AA30", Offset = "0x2959030", VA = "0x18295AA30")]
+		[Address(RVA = "0x630F400", Offset = "0x630E400", VA = "0x630F400")]
 		public string SendToCompiler()
 		{
 			return null;
@@ -82,7 +82,7 @@ public static class BurstCompiler
 		public readonly Type reinitType;
 
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+		[Address(RVA = "0x630F6D0", Offset = "0x630E6D0", VA = "0x630F6D0")]
 		public StaticTypeReinitAttribute(Type toReinit)
 		{
 		}
@@ -108,21 +108,21 @@ public static class BurstCompiler
 			private static IntPtr Pointer;
 
 			[Token(Token = "0x6000051")]
-			[Address(RVA = "0x295AFF0", Offset = "0x29595F0", VA = "0x18295AFF0")]
+			[Address(RVA = "0x630FCB0", Offset = "0x630ECB0", VA = "0x630FCB0")]
 			[BurstDiscard]
 			private static void GetFunctionPointerDiscard(ref IntPtr P_0)
 			{
 			}
 
 			[Token(Token = "0x6000052")]
-			[Address(RVA = "0x295B170", Offset = "0x2959770", VA = "0x18295B170")]
+			[Address(RVA = "0x630FE10", Offset = "0x630EE10", VA = "0x630FE10")]
 			private static IntPtr GetFunctionPointer()
 			{
 				return default(IntPtr);
 			}
 
 			[Token(Token = "0x6000053")]
-			[Address(RVA = "0x295B2E0", Offset = "0x29598E0", VA = "0x18295B2E0")]
+			[Address(RVA = "0x630F710", Offset = "0x630E710", VA = "0x630F710")]
 			public static bool Invoke()
 			{
 				return default(bool);
@@ -138,7 +138,7 @@ public static class BurstCompiler
 		public static readonly bool IsBurstGenerated;
 
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x2950870", Offset = "0x294EE70", VA = "0x182950870")]
+		[Address(RVA = "0x630F700", Offset = "0x630E700", VA = "0x630F700")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(IsBurstEnabledDelegate))]
 		private static bool IsBurstEnabled()
@@ -147,14 +147,14 @@ public static class BurstCompiler
 		}
 
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x564910", Offset = "0x562F10", VA = "0x180564910")]
+		[Address(RVA = "0x630F8B0", Offset = "0x630E8B0", VA = "0x630F8B0")]
 		[BurstDiscard]
 		private static void DiscardedMethod(ref bool value)
 		{
 		}
 
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x2950880", Offset = "0x294EE80", VA = "0x182950880")]
+		[Address(RVA = "0x630F8C0", Offset = "0x630E8C0", VA = "0x630F8C0")]
 		private static bool IsCompiledByBurst(Delegate del)
 		{
 			return default(bool);
@@ -162,7 +162,7 @@ public static class BurstCompiler
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x2950830", Offset = "0x294EE30", VA = "0x182950830")]
+		[Address(RVA = "0x630FAE0", Offset = "0x630EAE0", VA = "0x630FAE0")]
 		[BurstCompile]
 		[MonoPInvokeCallback(typeof(IsBurstEnabledDelegate))]
 		internal static bool IsBurstEnabled_0024BurstManaged()
@@ -179,7 +179,7 @@ public static class BurstCompiler
 		public MethodInfo Method
 		{
 			[Token(Token = "0x6000055")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x630FE30", Offset = "0x630EE30", VA = "0x630FE30")]
 			[CompilerGenerated]
 			get
 			{
@@ -188,7 +188,7 @@ public static class BurstCompiler
 		}
 
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x630DF90", Offset = "0x630CF90", VA = "0x630DF90")]
 		public FakeDelegate(MethodInfo method)
 		{
 		}
@@ -218,7 +218,7 @@ public static class BurstCompiler
 	public static bool IsEnabled
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x29551B0", Offset = "0x29537B0", VA = "0x1829551B0")]
+		[Address(RVA = "0x630DD20", Offset = "0x630CD20", VA = "0x630DD20")]
 		get
 		{
 			return default(bool);
@@ -226,27 +226,27 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x2954550", Offset = "0x2952B50", VA = "0x182954550")]
+	[Address(RVA = "0x630D920", Offset = "0x630C920", VA = "0x630D920")]
 	public static bool IsLoadAdditionalLibrarySupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x2953570", Offset = "0x2951B70", VA = "0x182953570")]
+	[Address(RVA = "0x630DAB0", Offset = "0x630CAB0", VA = "0x630DAB0")]
 	private static CommandBuilder BeginCompilerCommand(string cmd)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x2954A50", Offset = "0x2953050", VA = "0x182954A50")]
+	[Address(RVA = "0x630DDC0", Offset = "0x630CDC0", VA = "0x630DDC0")]
 	public static void SetExecutionMode(BurstExecutionEnvironment mode)
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x2954270", Offset = "0x2952870", VA = "0x182954270")]
+	[Address(RVA = "0x630DDD0", Offset = "0x630CDD0", VA = "0x630DDD0")]
 	public static BurstExecutionEnvironment GetExecutionMode()
 	{
 		return default(BurstExecutionEnvironment);
@@ -271,7 +271,7 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2953870", Offset = "0x2951E70", VA = "0x182953870")]
+	[Address(RVA = "0x630DDE0", Offset = "0x630CDE0", VA = "0x630DDE0")]
 	[Obsolete("This method will be removed in a future version of Burst")]
 	public static IntPtr CompileILPPMethod(RuntimeMethodHandle burstMethodHandle, RuntimeMethodHandle managedMethodHandle, RuntimeTypeHandle delegateTypeHandle)
 	{
@@ -279,14 +279,14 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x29536E0", Offset = "0x2951CE0", VA = "0x1829536E0")]
+	[Address(RVA = "0x630DE20", Offset = "0x630CE20", VA = "0x630DE20")]
 	public static IntPtr CompileILPPMethod2(RuntimeMethodHandle burstMethodHandle)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x2954490", Offset = "0x2952A90", VA = "0x182954490")]
+	[Address(RVA = "0x630E580", Offset = "0x630D580", VA = "0x630E580")]
 	[Obsolete("This method will be removed in a future version of Burst")]
 	public unsafe static void* GetILPPMethodFunctionPointer(IntPtr ilppMethod)
 	{
@@ -295,7 +295,7 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2954280", Offset = "0x2952880", VA = "0x182954280")]
+	[Address(RVA = "0x630E5C0", Offset = "0x630D5C0", VA = "0x630E5C0")]
 	public unsafe static void* GetILPPMethodFunctionPointer2(IntPtr ilppMethod, RuntimeMethodHandle managedMethodHandle, RuntimeTypeHandle delegateTypeHandle)
 	{
 		//IL_0002: Expected I, but got O
@@ -303,7 +303,7 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x29538B0", Offset = "0x2951EB0", VA = "0x1829538B0")]
+	[Address(RVA = "0x630E7D0", Offset = "0x630D7D0", VA = "0x630E7D0")]
 	[Obsolete("This method will be removed in a future version of Burst")]
 	public unsafe static void* CompileUnsafeStaticMethod(RuntimeMethodHandle handle)
 	{
@@ -318,7 +318,7 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x2954100", Offset = "0x2952700", VA = "0x182954100")]
+	[Address(RVA = "0x630E810", Offset = "0x630D810", VA = "0x630E810")]
 	private unsafe static void* Compile(object delegateObj, bool isFunctionPointer, bool deterministicCompilation = false)
 	{
 		//IL_0002: Expected I, but got O
@@ -326,7 +326,7 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x29538F0", Offset = "0x2951EF0", VA = "0x1829538F0")]
+	[Address(RVA = "0x630DFC0", Offset = "0x630CFC0", VA = "0x630DFC0")]
 	private unsafe static void* Compile(object delegateObj, MethodInfo methodInfo, bool isFunctionPointer, bool isILPostProcessing, bool deterministicCompilation = false)
 	{
 		//IL_0002: Expected I, but got O
@@ -334,134 +334,134 @@ public static class BurstCompiler
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630E9C0", Offset = "0x630D9C0", VA = "0x630E9C0")]
 	internal static void Shutdown()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630E9D0", Offset = "0x630D9D0", VA = "0x630E9D0")]
 	internal static void Cancel()
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x630E9E0", Offset = "0x630D9E0", VA = "0x630E9E0")]
 	internal static bool IsCurrentCompilationDone()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630E9F0", Offset = "0x630D9F0", VA = "0x630E9F0")]
 	internal static void Enable()
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630EA00", Offset = "0x630DA00", VA = "0x630EA00")]
 	internal static void Disable()
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x630EA10", Offset = "0x630DA10", VA = "0x630EA10")]
 	internal static bool IsHostEditorArm()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x2954A60", Offset = "0x2953060", VA = "0x182954A60")]
+	[Address(RVA = "0x630EA20", Offset = "0x630DA20", VA = "0x630EA20")]
 	internal static void TriggerUnsafeStaticMethodRecompilation()
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630EF70", Offset = "0x630DF70", VA = "0x630EF70")]
 	internal static void TriggerRecompilation()
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x2954ED0", Offset = "0x29534D0", VA = "0x182954ED0")]
+	[Address(RVA = "0x630EF80", Offset = "0x630DF80", VA = "0x630EF80")]
 	internal static void UnloadAdditionalLibraries()
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x29544D0", Offset = "0x2952AD0", VA = "0x1829544D0")]
+	[Address(RVA = "0x630DA30", Offset = "0x630CA30", VA = "0x630DA30")]
 	internal static bool IsApiAvailable(string apiName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x29545B0", Offset = "0x2952BB0", VA = "0x1829545B0")]
+	[Address(RVA = "0x630F120", Offset = "0x630E120", VA = "0x630F120")]
 	internal static int RequestSetProtocolVersion(int version)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F270", Offset = "0x630E270", VA = "0x630F270")]
 	internal static void Initialize(string[] assemblyFolders, string[] ignoreAssemblies)
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F280", Offset = "0x630E280", VA = "0x630F280")]
 	internal static void NotifyCompilationStarted(string[] assemblyFolders, string[] ignoreAssemblies)
 	{
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F290", Offset = "0x630E290", VA = "0x630F290")]
 	internal static void NotifyAssemblyCompilationNotRequired(string assemblyName)
 	{
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F2A0", Offset = "0x630E2A0", VA = "0x630F2A0")]
 	internal static void NotifyAssemblyCompilationFinished(string assemblyName, string[] defines)
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F2B0", Offset = "0x630E2B0", VA = "0x630F2B0")]
 	internal static void NotifyCompilationFinished()
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2953540", Offset = "0x2951B40", VA = "0x182953540")]
+	[Address(RVA = "0x630F2C0", Offset = "0x630E2C0", VA = "0x630F2C0")]
 	internal static string AotCompilation(string[] assemblyFolders, string[] assemblyRoots, string options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F2F0", Offset = "0x630E2F0", VA = "0x630F2F0")]
 	internal static void SetProfilerCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x29549A0", Offset = "0x2952FA0", VA = "0x1829549A0")]
+	[Address(RVA = "0x630F300", Offset = "0x630E300", VA = "0x630F300")]
 	private static string SendRawCommandToCompiler(string command)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x29546E0", Offset = "0x2952CE0", VA = "0x1829546E0")]
+	[Address(RVA = "0x630EFE0", Offset = "0x630DFE0", VA = "0x630EFE0")]
 	private static string SendCommandToCompiler(string commandName, [Optional] string commandArgs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x630F470", Offset = "0x630E470", VA = "0x630F470")]
 	private static void DummyMethod()
 	{
 	}

@@ -23,7 +23,7 @@ public class UxmlRootElementTraits : UxmlTraits
 	private UxmlStringAttributeDescription m_Class;
 
 	[Token(Token = "0x6002632")]
-	[Address(RVA = "0x3158580", Offset = "0x3156B80", VA = "0x183158580")]
+	[Address(RVA = "0x6B56EC0", Offset = "0x6B55EC0", VA = "0x6B56EC0")]
 	public UxmlRootElementTraits()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Characters.Wagon
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/Wagon.cs
@@ -8,34 +8,34 @@
 
 // Characters.Wagon$$Start
 // il2cpp: void Characters_Wagon__Start (Characters_Wagon_o* __this, const MethodInfo* method);
-// 0x182161760
+// 0x5bf34a0
 
 void Characters_Wagon__Start(Characters_Wagon_o *__this,MethodInfo *method)
 
 {
   UnityEngine_GameObject_o *pUVar1;
-  UnityEngine_Rigidbody_o *value;
-  UnityEngine_Transform_o *pUVar2;
+  UnityEngine_Rigidbody_o *pUVar2;
+  UnityEngine_Transform_o *pUVar3;
   
-  if (Il2CppMethodInitialized_184346c56 == '\0') {
+  if (Il2CppMethodInitialized_07547626 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
-    Il2CppMethodInitialized_184346c56 = '\x01';
+    Il2CppMethodInitialized_07547626 = '\x01';
   }
-  value = UnityEngine_Component__GetComponent_object_
-                    ((UnityEngine_Component_o *)__this,
-                     (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
-  (__this->fields).rigidbody = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).rigidbody,value);
+  pUVar2 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
+  (__this->fields).rigidbody = pUVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).rigidbody);
   pUVar1 = (__this->fields).leftWheel;
   if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar2 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
-    (__this->fields).leftWheelTransform = pUVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).leftWheelTransform,pUVar2);
+    pUVar3 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
+    (__this->fields).leftWheelTransform = pUVar3;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).leftWheelTransform);
     pUVar1 = (__this->fields).rightWheel;
     if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar2 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
-      (__this->fields).rightWheelTransform = pUVar2;
-      Il2CppCodeGenWriteBarrier(&(__this->fields).rightWheelTransform,pUVar2);
+      pUVar3 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
+      (__this->fields).rightWheelTransform = pUVar3;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).rightWheelTransform);
       return;
     }
   }
@@ -45,10 +45,9 @@ void Characters_Wagon__Start(Characters_Wagon_o *__this,MethodInfo *method)
 
 // Characters.Wagon$$CheckGround
 // il2cpp: void Characters_Wagon__CheckGround (Characters_Wagon_o* __this, const MethodInfo* method);
-// 0x182161420
+// 0x5bf3530
 
-void
-Characters_Wagon__CheckGround(Characters_Wagon_o* __this, MethodInfo* method)
+void Characters_Wagon__CheckGround(Characters_Wagon_o *__this,MethodInfo *method)
 
 {
   (__this->fields).grounded = true;
@@ -58,103 +57,99 @@ Characters_Wagon__CheckGround(Characters_Wagon_o* __this, MethodInfo* method)
 
 // Characters.Wagon$$FixedUpdate
 // il2cpp: void Characters_Wagon__FixedUpdate (Characters_Wagon_o* __this, const MethodInfo* method);
-// 0x182161430
+// 0x5bf3540
 
 void Characters_Wagon__FixedUpdate(Characters_Wagon_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
+  UnityEngine_Rigidbody_o **targetAddress;
   UnityEngine_Object_o *x;
-  bool bVar2;
-  UnityEngine_Vector3_o *pUVar3;
-  UnityEngine_Transform_o *pUVar4;
-  UnityEngine_Rigidbody_o *pUVar5;
+  bool bVar1;
+  UnityEngine_Rigidbody_o *pUVar2;
+  UnityEngine_Transform_o *pUVar3;
+  float fVar4;
+  float fVar5;
   float fVar6;
-  float fVar7;
-  double dVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_o local_78 [9];
+  UnityEngine_Vector3_o UVar7;
+  UnityEngine_Vector3_o UVar8;
+  UnityEngine_Vector3_o UVar9;
+  float local_38;
+  float fStack_34;
+  float fStack_24;
   
-  if (Il2CppMethodInitialized_184346c57 == '\0') {
+  if (Il2CppMethodInitialized_07547627 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346c57 = '\x01';
+    Il2CppMethodInitialized_07547627 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields).rigidbody;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar2) {
-    pUVar4 = (__this->fields).leftWheelTransform;
-    (__this->fields).grounded = true;
-    if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-      pUVar3 = UnityEngine_Transform__get_position
-                         ((UnityEngine_Vector3_o *)&local_88,pUVar4,(MethodInfo *)0x0);
-      pUVar4 = (__this->fields).rightWheelTransform;
-      if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-        fVar10 = (pUVar3->fields).x;
-        fVar9 = (pUVar3->fields).y;
-        fVar11 = (pUVar3->fields).z;
-        pUVar3 = UnityEngine_Transform__get_position
-                           ((UnityEngine_Vector3_o *)&local_88,pUVar4,(MethodInfo *)0x0);
-        fVar6 = (pUVar3->fields).x;
-        fVar7 = (pUVar3->fields).y;
-        fVar1 = (pUVar3->fields).z;
-        if (Il2CppMethodInitialized_18433dee7 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-          Il2CppMethodInitialized_18433dee7 = '\x01';
-        }
-        fVar10 = fVar10 - fVar6;
-        fVar9 = fVar9 - fVar7;
-        fVar11 = fVar11 - fVar1;
-        if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-        }
-        dVar8 = (double)(fVar9 * fVar9 + fVar10 * fVar10 + fVar11 * fVar11);
-        if (dVar8 < 0.0) {
-          dVar8 = sqrt(dVar8);
-        }
-        else {
-          dVar8 = SQRT(dVar8);
-        }
-        pUVar4 = (__this->fields).leftWheelTransform;
-        if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-          pUVar3 = UnityEngine_Transform__get_localScale
-                             ((UnityEngine_Vector3_o *)&local_88,pUVar4,(MethodInfo *)0x0);
-          fVar10 = (pUVar3->fields).y * 0.5;
-          pUVar4 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-          pUVar5 = (__this->fields).rigidbody;
-          if (pUVar5 != (UnityEngine_Rigidbody_o *)0x0) {
-            pUVar3 = UnityEngine_Rigidbody__get_linearVelocity(local_78,pUVar5,(MethodInfo *)0x0);
-            if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-              local_88.x = (pUVar3->fields).x;
-              local_88.y = (pUVar3->fields).y;
-              local_88.z = (pUVar3->fields).z;
-              pUVar3 = UnityEngine_Transform__InverseTransformDirection
-                                 (local_78,pUVar4,(UnityEngine_Vector3_o *)&local_88,(MethodInfo *)0x0);
-              pUVar5 = (__this->fields).rigidbody;
-              if (pUVar5 != (UnityEngine_Rigidbody_o *)0x0) {
-                fVar9 = (pUVar3->fields).z;
-                pUVar3 = UnityEngine_Rigidbody__get_angularVelocity(local_78,pUVar5,(MethodInfo *)0x0);
-                fVar11 = (pUVar3->fields).y;
-                fVar6 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-                fVar7 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-                pUVar4 = (__this->fields).leftWheelTransform;
-                if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                  UnityEngine_Transform__Rotate_2f59e60
-                            (pUVar4,fVar6 * ((fVar9 - (float)dVar8 * 0.5 * fVar11) / fVar10) * 57.29578,0.0,
+  targetAddress = &(__this->fields).rigidbody;
+  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    pUVar2 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)__this,
+                        (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
+    (__this->fields).rigidbody = pUVar2;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    return;
+  }
+  (__this->fields).grounded = true;
+  pUVar3 = (__this->fields).leftWheelTransform;
+  if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+    UVar7 = UnityEngine_Transform__get_position(pUVar3,(MethodInfo *)0x0);
+    pUVar3 = (__this->fields).rightWheelTransform;
+    if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+      UVar8 = UnityEngine_Transform__get_position(pUVar3,(MethodInfo *)0x0);
+      if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+        Il2CppMethodInitialized_0753e7b7 = '\x01';
+      }
+      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+      }
+      fVar4 = UVar7.fields.z - UVar8.fields.z;
+      local_38 = UVar7.fields.x;
+      fStack_34 = UVar7.fields.y;
+      local_38 = local_38 - UVar8.fields.x;
+      fStack_34 = fStack_34 - UVar8.fields.y;
+      fVar4 = fVar4 * fVar4 + fStack_34 * fStack_34 + local_38 * local_38;
+      if (fVar4 < 0.0) {
+        fVar4 = sqrtf(fVar4);
+      }
+      else {
+        fVar4 = SQRT(fVar4);
+      }
+      pUVar3 = (__this->fields).leftWheelTransform;
+      if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+        UVar7 = UnityEngine_Transform__get_localScale(pUVar3,(MethodInfo *)0x0);
+        pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        pUVar2 = (__this->fields).rigidbody;
+        if (pUVar2 != (UnityEngine_Rigidbody_o *)0x0) {
+          UVar8 = UnityEngine_Rigidbody__get_linearVelocity(pUVar2,(MethodInfo *)0x0);
+          if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+            UVar8 = UnityEngine_Transform__InverseTransformDirection(pUVar3,UVar8,(MethodInfo *)0x0);
+            pUVar2 = *targetAddress;
+            if (pUVar2 != (UnityEngine_Rigidbody_o *)0x0) {
+              UVar9 = UnityEngine_Rigidbody__get_angularVelocity(pUVar2,(MethodInfo *)0x0);
+              fVar5 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+              fVar6 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+              pUVar3 = (__this->fields).leftWheelTransform;
+              if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+                fStack_34 = UVar7.fields.y;
+                fStack_24 = UVar9.fields.y;
+                fStack_24 = fVar4 * 0.5 * fStack_24;
+                UnityEngine_Transform__Rotate_692dd90
+                          (pUVar3,fVar5 * ((UVar8.fields.z - fStack_24) / (fStack_34 * 0.5)) * 57.29578,0.0,
+                           0.0,(MethodInfo *)0x0);
+                pUVar3 = (__this->fields).rightWheelTransform;
+                if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+                  UnityEngine_Transform__Rotate_692dd90
+                            (pUVar3,fVar6 * ((UVar8.fields.z + fStack_24) / (fStack_34 * 0.5)) * 57.29578,0.0,
                              0.0,(MethodInfo *)0x0);
-                  pUVar4 = (__this->fields).rightWheelTransform;
-                  if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-                    UnityEngine_Transform__Rotate_2f59e60
-                              (pUVar4,fVar7 * (((float)dVar8 * 0.5 * fVar11 + fVar9) / fVar10) * 57.29578,0.0,
-                               0.0,(MethodInfo *)0x0);
-                    return;
-                  }
+                  return;
                 }
               }
             }
@@ -162,34 +157,23 @@ void Characters_Wagon__FixedUpdate(Characters_Wagon_o *__this,MethodInfo *method
         }
       }
     }
-    ThrowNullReferenceException();
   }
-  pUVar5 = UnityEngine_Component__GetComponent_object_
-                     ((UnityEngine_Component_o *)__this,
-                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
-  (__this->fields).rigidbody = pUVar5;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).rigidbody,pUVar5);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Characters.Wagon$$.ctor
 // il2cpp: void Characters_Wagon___ctor (Characters_Wagon_o* __this, const MethodInfo* method);
-// 0x1821617f0
+// 0x5bf37f0
 
 void Characters_Wagon___ctor(Characters_Wagon_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  
-  if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+  if (Il2CppMethodInitialized_0753ecc8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-    Il2CppMethodInitialized_18433e3c9 = '\x01';
+    Il2CppMethodInitialized_0753ecc8 = '\x01';
   }
-  fVar1 = (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.y;
-  (__this->fields).targetVelocity.fields.x =
-       (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.x;
-  (__this->fields).targetVelocity.fields.y = fVar1;
+  (__this->fields).targetVelocity.fields = (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields;
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

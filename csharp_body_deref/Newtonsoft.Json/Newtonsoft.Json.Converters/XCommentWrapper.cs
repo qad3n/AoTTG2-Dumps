@@ -17,7 +17,7 @@ internal class XCommentWrapper : XObjectWrapper
 	private XComment Text
 	{
 		[Token(Token = "0x6000F77")]
-		[Address(RVA = "0x1CB0140", Offset = "0x1CAE740", VA = "0x181CB0140")]
+		[Address(RVA = "0x563CF00", Offset = "0x563BF00", VA = "0x563CF00")]
 		get
 		{
 			return null;
@@ -28,13 +28,13 @@ internal class XCommentWrapper : XObjectWrapper
 	public override string? Value
 	{
 		[Token(Token = "0x6000F79")]
-		[Address(RVA = "0x1CB01B0", Offset = "0x1CAE7B0", VA = "0x181CB01B0", Slot = "19")]
+		[Address(RVA = "0x563CF90", Offset = "0x563BF90", VA = "0x563CF90", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F7A")]
-		[Address(RVA = "0x1CB0230", Offset = "0x1CAE830", VA = "0x181CB0230", Slot = "20")]
+		[Address(RVA = "0x563D000", Offset = "0x563C000", VA = "0x563D000", Slot = "20")]
 		set
 		{
 		}
@@ -44,7 +44,7 @@ internal class XCommentWrapper : XObjectWrapper
 	public override IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F7B")]
-		[Address(RVA = "0x1CB0090", Offset = "0x1CAE690", VA = "0x181CB0090", Slot = "18")]
+		[Address(RVA = "0x563D0A0", Offset = "0x563C0A0", VA = "0x563D0A0", Slot = "18")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ internal class XCommentWrapper : XObjectWrapper
 	}
 
 	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x563CF60", Offset = "0x563BF60", VA = "0x563CF60")]
 	public XCommentWrapper(XComment text)
 	{
 	}

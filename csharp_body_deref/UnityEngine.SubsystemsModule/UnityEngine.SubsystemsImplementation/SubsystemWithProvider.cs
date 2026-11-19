@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.SubsystemsImplementation.SubsystemWithProvider
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,14 +18,14 @@ public abstract class SubsystemWithProvider : ISubsystem
 	public bool running
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "8")]
+		[Address(RVA = "0x69F3170", Offset = "0x69F2170", VA = "0x69F3170", Slot = "8")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x69F3180", Offset = "0x69F2180", VA = "0x69F3180")]
 		[CompilerGenerated]
 		private set
 		{
@@ -36,7 +36,7 @@ public abstract class SubsystemWithProvider : ISubsystem
 	internal SubsystemProvider providerBase
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x69F3190", Offset = "0x69F2190", VA = "0x69F3190")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,7 +45,7 @@ public abstract class SubsystemWithProvider : ISubsystem
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x2FF8860", Offset = "0x2FF6E60", VA = "0x182FF8860", Slot = "4")]
+	[Address(RVA = "0x69F3000", Offset = "0x69F2000", VA = "0x69F3000", Slot = "4")]
 	public void Stop()
 	{
 	}
@@ -54,7 +54,7 @@ public abstract class SubsystemWithProvider : ISubsystem
 	protected abstract void OnStop();
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x2FF8760", Offset = "0x2FF6D60", VA = "0x182FF8760", Slot = "6")]
+	[Address(RVA = "0x69F3040", Offset = "0x69F2040", VA = "0x69F3040", Slot = "6")]
 	public void Destroy()
 	{
 	}
@@ -63,7 +63,7 @@ public abstract class SubsystemWithProvider : ISubsystem
 	protected abstract void OnDestroy();
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69F31A0", Offset = "0x69F21A0", VA = "0x69F31A0")]
 	protected SubsystemWithProvider()
 	{
 	}
@@ -73,8 +73,8 @@ public abstract class SubsystemWithProvider<TSubsystem, TSubsystemDescriptor, TP
 {
 	[Token(Token = "0x4000015")]
 	[FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private TSubsystemDescriptor _003CsubsystemDescriptor_003Ek__BackingField;
 
 	[Token(Token = "0x1700000B")]

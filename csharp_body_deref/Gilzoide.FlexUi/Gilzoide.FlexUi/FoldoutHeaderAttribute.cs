@@ -21,7 +21,7 @@ public class FoldoutHeaderAttribute : Attribute
 	public string Title
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5216930", Offset = "0x5215930", VA = "0x5216930")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,7 +30,7 @@ public class FoldoutHeaderAttribute : Attribute
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x5216940", Offset = "0x5215940", VA = "0x5216940")]
 	public FoldoutHeaderAttribute(string title)
 	{
 	}

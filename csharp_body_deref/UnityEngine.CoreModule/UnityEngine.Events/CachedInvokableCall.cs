@@ -13,21 +13,21 @@ namespace UnityEngine.Events;
 [Token(Token = "0x2000227")]
 internal class CachedInvokableCall<T> : InvokableCall<T>
 {
-	[Token(Token = "0x400071F")]
+	[Token(Token = "0x400071D")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T m_Arg1;
 
-	[Token(Token = "0x6001123")]
+	[Token(Token = "0x6001137")]
 	public CachedInvokableCall(Object target, MethodInfo theFunction, T argument)
 	{
 	}
 
-	[Token(Token = "0x6001124")]
+	[Token(Token = "0x6001138")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6001125")]
+	[Token(Token = "0x6001139")]
 	public override void Invoke(T arg0)
 	{
 	}

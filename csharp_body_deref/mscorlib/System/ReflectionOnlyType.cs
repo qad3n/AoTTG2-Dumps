@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000196")]
+[Token(Token = "0x200016E")]
 internal class ReflectionOnlyType : System.RuntimeType
 {
 	[Token(Token = "0x17000150")]
 	public override RuntimeTypeHandle TypeHandle
 	{
-		[Token(Token = "0x6000F21")]
-		[Address(RVA = "0x1B88BC0", Offset = "0x1B871C0", VA = "0x181B88BC0", Slot = "116")]
+		[Token(Token = "0x6000EFB")]
+		[Address(RVA = "0x55060F0", Offset = "0x55050F0", VA = "0x55060F0", Slot = "116")]
 		get
 		{
 			return default(RuntimeTypeHandle);
 		}
 	}
 
-	[Token(Token = "0x6000F20")]
-	[Address(RVA = "0x1B88B70", Offset = "0x1B87170", VA = "0x181B88B70")]
+	[Token(Token = "0x6000EFA")]
+	[Address(RVA = "0x5506080", Offset = "0x5505080", VA = "0x5506080")]
 	private ReflectionOnlyType()
 	{
 	}

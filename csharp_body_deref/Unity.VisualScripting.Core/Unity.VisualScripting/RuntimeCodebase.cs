@@ -62,7 +62,7 @@ public static class RuntimeCodebase
 		private Attribute System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EAttribute_003E_002ECurrent
 		{
 			[Token(Token = "0x6000EAA")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x6838740", Offset = "0x6837740", VA = "0x6838740", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,7 +74,7 @@ public static class RuntimeCodebase
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000EAC")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x6838790", Offset = "0x6837790", VA = "0x6838790", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -83,47 +83,47 @@ public static class RuntimeCodebase
 		}
 
 		[Token(Token = "0x6000EA5")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x6834050", Offset = "0x6833050", VA = "0x6834050")]
 		[DebuggerHidden]
 		public _003CGetAssemblyAttributes_003Ed__15(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000EA6")]
-		[Address(RVA = "0x2E4AD50", Offset = "0x2E49350", VA = "0x182E4AD50", Slot = "7")]
+		[Address(RVA = "0x6837CD0", Offset = "0x6836CD0", VA = "0x6837CD0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000EA7")]
-		[Address(RVA = "0x2E4A7F0", Offset = "0x2E48DF0", VA = "0x182E4A7F0", Slot = "8")]
+		[Address(RVA = "0x6837ED0", Offset = "0x6836ED0", VA = "0x6837ED0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000EA8")]
-		[Address(RVA = "0x2E4AEA0", Offset = "0x2E494A0", VA = "0x182E4AEA0")]
+		[Address(RVA = "0x68386A0", Offset = "0x68376A0", VA = "0x68386A0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x2E4AEF0", Offset = "0x2E494F0", VA = "0x182E4AEF0")]
+		[Address(RVA = "0x6838600", Offset = "0x6837600", VA = "0x6838600")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x2E4AD10", Offset = "0x2E49310", VA = "0x182E4AD10", Slot = "10")]
+		[Address(RVA = "0x6838750", Offset = "0x6837750", VA = "0x6838750", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x2E4AC60", Offset = "0x2E49260", VA = "0x182E4AC60", Slot = "4")]
+		[Address(RVA = "0x68387A0", Offset = "0x68377A0", VA = "0x68387A0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<Attribute> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EAttribute_003E_002EGetEnumerator()
 		{
@@ -131,7 +131,7 @@ public static class RuntimeCodebase
 		}
 
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x2E4AC60", Offset = "0x2E49260", VA = "0x182E4AC60", Slot = "5")]
+		[Address(RVA = "0x6838840", Offset = "0x6837840", VA = "0x6838840", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -179,7 +179,7 @@ public static class RuntimeCodebase
 	public static IEnumerable<Type> types
 	{
 		[Token(Token = "0x6000E8B")]
-		[Address(RVA = "0x2E39CD0", Offset = "0x2E382D0", VA = "0x182E39CD0")]
+		[Address(RVA = "0x68334E0", Offset = "0x68324E0", VA = "0x68334E0")]
 		get
 		{
 			return null;
@@ -190,7 +190,7 @@ public static class RuntimeCodebase
 	public static IEnumerable<Assembly> assemblies
 	{
 		[Token(Token = "0x6000E8C")]
-		[Address(RVA = "0x2E39A10", Offset = "0x2E38010", VA = "0x182E39A10")]
+		[Address(RVA = "0x6833550", Offset = "0x6832550", VA = "0x6833550")]
 		get
 		{
 			return null;
@@ -201,7 +201,7 @@ public static class RuntimeCodebase
 	public static Dictionary<string, string> renamedNamespaces
 	{
 		[Token(Token = "0x6000E9B")]
-		[Address(RVA = "0x2E39B30", Offset = "0x2E38130", VA = "0x182E39B30")]
+		[Address(RVA = "0x6835910", Offset = "0x6834910", VA = "0x6835910")]
 		get
 		{
 			return null;
@@ -212,7 +212,7 @@ public static class RuntimeCodebase
 	public static Dictionary<string, string> renamedAssemblies
 	{
 		[Token(Token = "0x6000E9C")]
-		[Address(RVA = "0x2E39A60", Offset = "0x2E38060", VA = "0x182E39A60")]
+		[Address(RVA = "0x6835C60", Offset = "0x6834C60", VA = "0x6835C60")]
 		get
 		{
 			return null;
@@ -223,7 +223,7 @@ public static class RuntimeCodebase
 	public static Dictionary<string, Type> renamedTypes
 	{
 		[Token(Token = "0x6000E9D")]
-		[Address(RVA = "0x2E39C00", Offset = "0x2E38200", VA = "0x182E39C00")]
+		[Address(RVA = "0x6835740", Offset = "0x6834740", VA = "0x6835740")]
 		get
 		{
 			return null;
@@ -231,20 +231,20 @@ public static class RuntimeCodebase
 	}
 
 	[Token(Token = "0x6000E8D")]
-	[Address(RVA = "0x2E393E0", Offset = "0x2E379E0", VA = "0x182E393E0")]
+	[Address(RVA = "0x68335C0", Offset = "0x68325C0", VA = "0x68335C0")]
 	static RuntimeCodebase()
 	{
 	}
 
 	[Token(Token = "0x6000E8E")]
-	[Address(RVA = "0x2E37DE0", Offset = "0x2E363E0", VA = "0x182E37DE0")]
+	[Address(RVA = "0x6833E80", Offset = "0x6832E80", VA = "0x6833E80")]
 	public static IEnumerable<Attribute> GetAssemblyAttributes(Type attributeType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E8F")]
-	[Address(RVA = "0x2E37D50", Offset = "0x2E36350", VA = "0x182E37D50")]
+	[Address(RVA = "0x6833FD0", Offset = "0x6832FD0", VA = "0x6833FD0")]
 	[IteratorStateMachine(typeof(_003CGetAssemblyAttributes_003Ed__15))]
 	public static IEnumerable<Attribute> GetAssemblyAttributes(Type attributeType, IEnumerable<Assembly> assemblies)
 	{
@@ -264,96 +264,96 @@ public static class RuntimeCodebase
 	}
 
 	[Token(Token = "0x6000E92")]
-	[Address(RVA = "0x2E37EE0", Offset = "0x2E364E0", VA = "0x182E37EE0")]
+	[Address(RVA = "0x6834080", Offset = "0x6833080", VA = "0x6834080")]
 	public static void PrewarmTypeDeserialization(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000E93")]
-	[Address(RVA = "0x2E381A0", Offset = "0x2E367A0", VA = "0x182E381A0")]
+	[Address(RVA = "0x68341C0", Offset = "0x68331C0", VA = "0x68341C0")]
 	public static string SerializeType(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E94")]
-	[Address(RVA = "0x2E382E0", Offset = "0x2E368E0", VA = "0x182E382E0")]
+	[Address(RVA = "0x6834260", Offset = "0x6833260", VA = "0x6834260")]
 	public static bool TryDeserializeType(string typeName, out Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E95")]
-	[Address(RVA = "0x2E36AC0", Offset = "0x2E350C0", VA = "0x182E36AC0")]
+	[Address(RVA = "0x6835010", Offset = "0x6834010", VA = "0x6835010")]
 	public static Type DeserializeType(string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E96")]
-	[Address(RVA = "0x2E36A40", Offset = "0x2E35040", VA = "0x182E36A40")]
+	[Address(RVA = "0x68350F0", Offset = "0x68340F0", VA = "0x68350F0")]
 	public static void ClearCachedTypes()
 	{
 	}
 
 	[Token(Token = "0x6000E97")]
-	[Address(RVA = "0x2E38250", Offset = "0x2E36850", VA = "0x182E38250")]
+	[Address(RVA = "0x68344B0", Offset = "0x68334B0", VA = "0x68344B0")]
 	private static bool TryCachedTypeLookup(string typeName, out Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E98")]
-	[Address(RVA = "0x2E38C20", Offset = "0x2E37220", VA = "0x182E38C20")]
+	[Address(RVA = "0x6834550", Offset = "0x6833550", VA = "0x6834550")]
 	private static bool TrySystemTypeLookup(string typeName, out Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E99")]
-	[Address(RVA = "0x2E39000", Offset = "0x2E37600", VA = "0x182E39000")]
+	[Address(RVA = "0x6835180", Offset = "0x6834180", VA = "0x6835180")]
 	private static bool TrySystemTypeLookup(TypeName typeName, out Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E9A")]
-	[Address(RVA = "0x2E38560", Offset = "0x2E36B60", VA = "0x182E38560")]
+	[Address(RVA = "0x68349F0", Offset = "0x68339F0", VA = "0x68349F0")]
 	private static bool TryRenamedTypeLookup(string previousTypeName, out Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E9E")]
-	[Address(RVA = "0x2E380B0", Offset = "0x2E366B0", VA = "0x182E380B0")]
+	[Address(RVA = "0x6837520", Offset = "0x6836520", VA = "0x6837520")]
 	public static Dictionary<string, string> RenamedMembers(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E9F")]
-	[Address(RVA = "0x2E36F70", Offset = "0x2E35570", VA = "0x182E36F70")]
+	[Address(RVA = "0x6837600", Offset = "0x6836600", VA = "0x6837600")]
 	private static Dictionary<string, string> FetchRenamedMembers(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA0")]
-	[Address(RVA = "0x2E373B0", Offset = "0x2E359B0", VA = "0x182E373B0")]
+	[Address(RVA = "0x6835F00", Offset = "0x6834F00", VA = "0x6835F00")]
 	private static Dictionary<string, string> FetchRenamedNamespaces()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA1")]
-	[Address(RVA = "0x2E36BB0", Offset = "0x2E351B0", VA = "0x182E36BB0")]
+	[Address(RVA = "0x6836440", Offset = "0x6835440", VA = "0x6836440")]
 	private static Dictionary<string, string> FetchRenamedAssemblies()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA2")]
-	[Address(RVA = "0x2E37770", Offset = "0x2E35D70", VA = "0x182E37770")]
+	[Address(RVA = "0x6836980", Offset = "0x6835980", VA = "0x6836980")]
 	private static Dictionary<string, Type> FetchRenamedTypes()
 	{
 		return null;

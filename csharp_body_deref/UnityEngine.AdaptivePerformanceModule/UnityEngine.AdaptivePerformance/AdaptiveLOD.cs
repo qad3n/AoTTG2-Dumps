@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptiveLOD
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x2000044")]
+[Token(Token = "0x2000043")]
 public class AdaptiveLOD : AdaptivePerformanceScaler
 {
-	[Token(Token = "0x400012A")]
+	[Token(Token = "0x4000126")]
 	[FieldOffset(Offset = "0x40")]
 	private float m_DefaultLodBias;
 
-	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x2E81760", Offset = "0x2E7FD60", VA = "0x182E81760", Slot = "20")]
+	[Token(Token = "0x600020D")]
+	[Address(RVA = "0x6890190", Offset = "0x688F190", VA = "0x6890190", Slot = "20")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x2E81800", Offset = "0x2E7FE00", VA = "0x182E81800", Slot = "25")]
+	[Token(Token = "0x600020E")]
+	[Address(RVA = "0x6890230", Offset = "0x688F230", VA = "0x6890230", Slot = "25")]
 	protected override void OnDisabled()
 	{
 	}
 
-	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x2E81810", Offset = "0x2E7FE10", VA = "0x182E81810", Slot = "24")]
+	[Token(Token = "0x600020F")]
+	[Address(RVA = "0x6890240", Offset = "0x688F240", VA = "0x6890240", Slot = "24")]
 	protected override void OnEnabled()
 	{
 	}
 
-	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x2E81830", Offset = "0x2E7FE30", VA = "0x182E81830", Slot = "23")]
+	[Token(Token = "0x6000210")]
+	[Address(RVA = "0x6890260", Offset = "0x688F260", VA = "0x6890260", Slot = "23")]
 	protected override void OnLevel()
 	{
 	}
 
-	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x2E81040", Offset = "0x2E7F640", VA = "0x182E81040")]
+	[Token(Token = "0x6000211")]
+	[Address(RVA = "0x6890390", Offset = "0x688F390", VA = "0x6890390")]
 	public AdaptiveLOD()
 	{
 	}

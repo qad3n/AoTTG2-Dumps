@@ -76,13 +76,13 @@ internal abstract class SchemaDeclBase
 	internal XmlQualifiedName Name
 	{
 		[Token(Token = "0x600135F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5FF5270", Offset = "0x5FF4270", VA = "0x5FF5270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001360")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x5FF5280", Offset = "0x5FF4280", VA = "0x5FF5280")]
 		set
 		{
 		}
@@ -92,13 +92,13 @@ internal abstract class SchemaDeclBase
 	internal string Prefix
 	{
 		[Token(Token = "0x6001361")]
-		[Address(RVA = "0x264C990", Offset = "0x264AF90", VA = "0x18264C990")]
+		[Address(RVA = "0x5FF5290", Offset = "0x5FF4290", VA = "0x5FF5290")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001362")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x5FF52C0", Offset = "0x5FF42C0", VA = "0x5FF52C0")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ internal abstract class SchemaDeclBase
 	internal bool IsDeclaredInExternal
 	{
 		[Token(Token = "0x6001363")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x5FF52D0", Offset = "0x5FF42D0", VA = "0x5FF52D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001364")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x5FF52E0", Offset = "0x5FF42E0", VA = "0x5FF52E0")]
 		set
 		{
 		}
@@ -124,13 +124,13 @@ internal abstract class SchemaDeclBase
 	internal Use Presence
 	{
 		[Token(Token = "0x6001365")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x5FF52F0", Offset = "0x5FF42F0", VA = "0x5FF52F0")]
 		get
 		{
 			return default(Use);
 		}
 		[Token(Token = "0x6001366")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x5FF5300", Offset = "0x5FF4300", VA = "0x5FF5300")]
 		set
 		{
 		}
@@ -140,13 +140,13 @@ internal abstract class SchemaDeclBase
 	internal long MaxLength
 	{
 		[Token(Token = "0x6001367")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x5FF5310", Offset = "0x5FF4310", VA = "0x5FF5310")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6001368")]
-		[Address(RVA = "0x1C613B0", Offset = "0x1C5F9B0", VA = "0x181C613B0")]
+		[Address(RVA = "0x5FF5320", Offset = "0x5FF4320", VA = "0x5FF5320")]
 		set
 		{
 		}
@@ -156,13 +156,13 @@ internal abstract class SchemaDeclBase
 	internal long MinLength
 	{
 		[Token(Token = "0x6001369")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x5FF5330", Offset = "0x5FF4330", VA = "0x5FF5330")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600136A")]
-		[Address(RVA = "0x264C9B0", Offset = "0x264AFB0", VA = "0x18264C9B0")]
+		[Address(RVA = "0x5FF5340", Offset = "0x5FF4340", VA = "0x5FF5340")]
 		set
 		{
 		}
@@ -172,13 +172,13 @@ internal abstract class SchemaDeclBase
 	internal XmlSchemaType SchemaType
 	{
 		[Token(Token = "0x600136B")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x5FF5350", Offset = "0x5FF4350", VA = "0x5FF5350")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600136C")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x5FF5360", Offset = "0x5FF4360", VA = "0x5FF5360")]
 		set
 		{
 		}
@@ -188,13 +188,13 @@ internal abstract class SchemaDeclBase
 	internal XmlSchemaDatatype Datatype
 	{
 		[Token(Token = "0x600136D")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x5FF5370", Offset = "0x5FF4370", VA = "0x5FF5370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600136E")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x5FF5380", Offset = "0x5FF4380", VA = "0x5FF5380")]
 		set
 		{
 		}
@@ -204,13 +204,13 @@ internal abstract class SchemaDeclBase
 	internal List<string> Values
 	{
 		[Token(Token = "0x6001370")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x5FF5480", Offset = "0x5FF4480", VA = "0x5FF5480")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001371")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x5FF5490", Offset = "0x5FF4490", VA = "0x5FF5490")]
 		set
 		{
 		}
@@ -220,13 +220,13 @@ internal abstract class SchemaDeclBase
 	internal string DefaultValueRaw
 	{
 		[Token(Token = "0x6001372")]
-		[Address(RVA = "0x264C970", Offset = "0x264AF70", VA = "0x18264C970")]
+		[Address(RVA = "0x5FF54A0", Offset = "0x5FF44A0", VA = "0x5FF54A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001373")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x5FF54D0", Offset = "0x5FF44D0", VA = "0x5FF54D0")]
 		set
 		{
 		}
@@ -236,45 +236,45 @@ internal abstract class SchemaDeclBase
 	internal object DefaultValueTyped
 	{
 		[Token(Token = "0x6001374")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x5FF54E0", Offset = "0x5FF44E0", VA = "0x5FF54E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001375")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x5FF54F0", Offset = "0x5FF44F0", VA = "0x5FF54F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600135D")]
-	[Address(RVA = "0x264C840", Offset = "0x264AE40", VA = "0x18264C840")]
+	[Address(RVA = "0x5FF5150", Offset = "0x5FF4150", VA = "0x5FF5150")]
 	protected SchemaDeclBase(XmlQualifiedName name, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600135E")]
-	[Address(RVA = "0x264C900", Offset = "0x264AF00", VA = "0x18264C900")]
+	[Address(RVA = "0x5FF5200", Offset = "0x5FF4200", VA = "0x5FF5200")]
 	protected SchemaDeclBase()
 	{
 	}
 
 	[Token(Token = "0x600136F")]
-	[Address(RVA = "0x264C630", Offset = "0x264AC30", VA = "0x18264C630")]
+	[Address(RVA = "0x5FF5390", Offset = "0x5FF4390", VA = "0x5FF5390")]
 	internal void AddValue(string value)
 	{
 	}
 
 	[Token(Token = "0x6001376")]
-	[Address(RVA = "0x264C730", Offset = "0x264AD30", VA = "0x18264C730")]
+	[Address(RVA = "0x5FF5500", Offset = "0x5FF4500", VA = "0x5FF5500")]
 	internal bool CheckEnumeration(object pVal)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001377")]
-	[Address(RVA = "0x264C7F0", Offset = "0x264ADF0", VA = "0x18264C7F0")]
+	[Address(RVA = "0x5FF55B0", Offset = "0x5FF45B0", VA = "0x5FF55B0")]
 	internal bool CheckValue(object pVal)
 	{
 		return default(bool);

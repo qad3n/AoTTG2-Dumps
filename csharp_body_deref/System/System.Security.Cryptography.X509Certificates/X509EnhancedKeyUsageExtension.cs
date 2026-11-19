@@ -9,57 +9,57 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000149")]
+[Token(Token = "0x200010A")]
 public sealed class X509EnhancedKeyUsageExtension : X509Extension
 {
-	[Token(Token = "0x40005D8")]
+	[Token(Token = "0x4000509")]
 	[FieldOffset(Offset = "0x28")]
 	private OidCollection _enhKeyUsage;
 
-	[Token(Token = "0x40005D9")]
+	[Token(Token = "0x400050A")]
 	[FieldOffset(Offset = "0x30")]
 	private AsnDecodeStatus _status;
 
-	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x288E9B0", Offset = "0x288CFB0", VA = "0x18288E9B0")]
+	[Token(Token = "0x600066C")]
+	[Address(RVA = "0x6210B20", Offset = "0x620FB20", VA = "0x6210B20")]
 	public X509EnhancedKeyUsageExtension()
 	{
 	}
 
-	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x288EA60", Offset = "0x288D060", VA = "0x18288EA60")]
+	[Token(Token = "0x600066D")]
+	[Address(RVA = "0x620BE30", Offset = "0x620AE30", VA = "0x620BE30")]
 	public X509EnhancedKeyUsageExtension(AsnEncodedData encodedEnhancedKeyUsages, bool critical)
 	{
 	}
 
-	[Token(Token = "0x600082E")]
-	[Address(RVA = "0x288EB50", Offset = "0x288D150", VA = "0x18288EB50")]
+	[Token(Token = "0x600066E")]
+	[Address(RVA = "0x621BEE0", Offset = "0x621AEE0", VA = "0x621BEE0")]
 	public X509EnhancedKeyUsageExtension(OidCollection enhancedKeyUsages, bool critical)
 	{
 	}
 
-	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x288E0D0", Offset = "0x288C6D0", VA = "0x18288E0D0", Slot = "4")]
+	[Token(Token = "0x600066F")]
+	[Address(RVA = "0x621C3F0", Offset = "0x621B3F0", VA = "0x621C3F0", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
-	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x288E300", Offset = "0x288C900", VA = "0x18288E300")]
+	[Token(Token = "0x6000670")]
+	[Address(RVA = "0x621BB40", Offset = "0x621AB40", VA = "0x621BB40")]
 	internal AsnDecodeStatus Decode(byte[] extension)
 	{
 		return default(AsnDecodeStatus);
 	}
 
-	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x288E4E0", Offset = "0x288CAE0", VA = "0x18288E4E0")]
+	[Token(Token = "0x6000671")]
+	[Address(RVA = "0x621C1B0", Offset = "0x621B1B0", VA = "0x621C1B0")]
 	internal byte[] Encode()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x288E680", Offset = "0x288CC80", VA = "0x18288E680", Slot = "6")]
+	[Token(Token = "0x6000672")]
+	[Address(RVA = "0x621C5C0", Offset = "0x621B5C0", VA = "0x621C5C0", Slot = "6")]
 	internal override string ToString(bool multiLine)
 	{
 		return null;

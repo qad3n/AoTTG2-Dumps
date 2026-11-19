@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class IncrementHandler : UnaryOperatorHandler
 {
 	[Token(Token = "0x60009A7")]
-	[Address(RVA = "0x2DF1160", Offset = "0x2DEF760", VA = "0x182DF1160")]
+	[Address(RVA = "0x67EF120", Offset = "0x67EE120", VA = "0x67EF120")]
 	public IncrementHandler()
 	{
 	}

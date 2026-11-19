@@ -13,14 +13,14 @@ namespace UnityEngine.UIElements;
 public static class MouseCaptureController
 {
 	[Token(Token = "0x60011B9")]
-	[Address(RVA = "0x32B0C90", Offset = "0x32AF290", VA = "0x1832B0C90")]
+	[Address(RVA = "0x6CB2320", Offset = "0x6CB1320", VA = "0x6CB2320")]
 	public static bool HasMouseCapture(this IEventHandler handler)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011BA")]
-	[Address(RVA = "0x32B0B60", Offset = "0x32AF160", VA = "0x1832B0B60")]
+	[Address(RVA = "0x6CB2450", Offset = "0x6CB1450", VA = "0x6CB2450")]
 	public static void CaptureMouse(this IEventHandler handler)
 	{
 	}

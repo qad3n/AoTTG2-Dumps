@@ -13,19 +13,19 @@ using UnityEngine.Bindings;
 namespace UnityEngine.U2D;
 
 [Token(Token = "0x2000403")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/SpriteFrame.h")]
 [UnityEngine.Bindings.NativeType(Header = "Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/SpriteFrame.h")]
 public class SpriteAtlas : Object
 {
-	[Token(Token = "0x6001818")]
-	[Address(RVA = "0x2F79F60", Offset = "0x2F78560", VA = "0x182F79F60")]
+	[Token(Token = "0x600182C")]
+	[Address(RVA = "0x696E9F0", Offset = "0x696D9F0", VA = "0x696E9F0")]
 	public bool CanBindTo([UnityEngine.Bindings.NotNull] Sprite sprite)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001819")]
-	[Address(RVA = "0x2F79F10", Offset = "0x2F78510", VA = "0x182F79F10")]
+	[Token(Token = "0x600182D")]
+	[Address(RVA = "0x696EAE0", Offset = "0x696DAE0", VA = "0x696EAE0")]
 	private static extern bool CanBindTo_Injected(IntPtr _unity_self, IntPtr sprite);
 }

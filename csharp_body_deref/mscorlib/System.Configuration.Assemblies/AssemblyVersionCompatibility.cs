@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Configuration.Assemblies;
 
-[Token(Token = "0x20005C8")]
+[Token(Token = "0x20005A3")]
 public enum AssemblyVersionCompatibility
 {
-	[Token(Token = "0x4001860")]
+	[Token(Token = "0x40017C7")]
 	SameMachine = 1,
-	[Token(Token = "0x4001861")]
+	[Token(Token = "0x40017C8")]
 	SameProcess,
-	[Token(Token = "0x4001862")]
+	[Token(Token = "0x40017C9")]
 	SameDomain
 }

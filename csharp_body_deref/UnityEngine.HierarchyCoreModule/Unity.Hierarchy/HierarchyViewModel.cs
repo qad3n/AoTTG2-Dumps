@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyViewModel
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,7 +26,7 @@ public sealed class HierarchyViewModel : IDisposable
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x6976FD0", Offset = "0x6975FD0", VA = "0x6976FD0")]
 		public static IntPtr ConvertToUnmanaged(HierarchyViewModel viewModel)
 		{
 			return default(IntPtr);
@@ -60,7 +60,7 @@ public sealed class HierarchyViewModel : IDisposable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000125")]
-			[Address(RVA = "0x2F7C4B0", Offset = "0x2F7AAB0", VA = "0x182F7C4B0")]
+			[Address(RVA = "0x69770B0", Offset = "0x69760B0", VA = "0x69770B0")]
 			get
 			{
 				return ref *(HierarchyNode*)null;
@@ -68,14 +68,14 @@ public sealed class HierarchyViewModel : IDisposable
 		}
 
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x2F7C1C0", Offset = "0x2F7A7C0", VA = "0x182F7C1C0")]
+		[Address(RVA = "0x6976950", Offset = "0x6975950", VA = "0x6976950")]
 		internal Enumerator(HierarchyViewModel hierarchyViewModel)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x2F7BDF0", Offset = "0x2F7A3F0", VA = "0x182F7BDF0")]
+		[Address(RVA = "0x69771A0", Offset = "0x69761A0", VA = "0x69771A0")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -120,7 +120,7 @@ public sealed class HierarchyViewModel : IDisposable
 	public bool IsCreated
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x2F7D790", Offset = "0x2F7BD90", VA = "0x182F7D790")]
+		[Address(RVA = "0x69759A0", Offset = "0x69749A0", VA = "0x69759A0")]
 		get
 		{
 			return default(bool);
@@ -131,7 +131,7 @@ public sealed class HierarchyViewModel : IDisposable
 	public int Count
 	{
 		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x2F81720", Offset = "0x2F7FD20", VA = "0x182F81720")]
+		[Address(RVA = "0x69759B0", Offset = "0x69749B0", VA = "0x69759B0")]
 		get
 		{
 			return default(int);
@@ -142,7 +142,7 @@ public sealed class HierarchyViewModel : IDisposable
 	public bool UpdateNeeded
 	{
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x2F81890", Offset = "0x2F7FE90", VA = "0x182F81890")]
+		[Address(RVA = "0x69759E0", Offset = "0x69749E0", VA = "0x69759E0")]
 		[UnityEngine.Bindings.NativeMethod("UpdateNeeded", IsThreadSafe = true)]
 		get
 		{
@@ -155,7 +155,7 @@ public sealed class HierarchyViewModel : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x6975A70", Offset = "0x6974A70", VA = "0x6975A70")]
 		get
 		{
 			return default(ReadOnlyNativeVector<HierarchyFlattenedNode>);
@@ -167,7 +167,7 @@ public sealed class HierarchyViewModel : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x6975A80", Offset = "0x6974A80", VA = "0x6975A80")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.HierarchyModule" })]
 		get
 		{
@@ -179,7 +179,7 @@ public sealed class HierarchyViewModel : IDisposable
 	internal IHierarchySearchQueryParser QueryParser
 	{
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x6975A90", Offset = "0x6974A90", VA = "0x6975A90")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.HierarchyModule" })]
 		[CompilerGenerated]
 		set
@@ -191,7 +191,7 @@ public sealed class HierarchyViewModel : IDisposable
 	internal HierarchySearchQueryDescriptor Query
 	{
 		[Token(Token = "0x60000F6")]
-		[Address(RVA = "0x2F817F0", Offset = "0x2F7FDF0", VA = "0x182F817F0")]
+		[Address(RVA = "0x6975AA0", Offset = "0x6974AA0", VA = "0x6975AA0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.HierarchyModule" })]
 		[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 		get
@@ -205,7 +205,7 @@ public sealed class HierarchyViewModel : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x2F81760", Offset = "0x2F7FD60", VA = "0x182F81760")]
+		[Address(RVA = "0x69760C0", Offset = "0x69750C0", VA = "0x69760C0")]
 		get
 		{
 			return ref *(HierarchyNode*)null;
@@ -213,37 +213,37 @@ public sealed class HierarchyViewModel : IDisposable
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x2F81540", Offset = "0x2F7FB40", VA = "0x182F81540")]
+	[Address(RVA = "0x6975B30", Offset = "0x6974B30", VA = "0x6975B30")]
 	public HierarchyViewModel(HierarchyFlattened hierarchyFlattened, HierarchyNodeFlags defaultFlags = HierarchyNodeFlags.None)
 	{
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x2F81410", Offset = "0x2F7FA10", VA = "0x182F81410")]
+	[Address(RVA = "0x6975D80", Offset = "0x6974D80", VA = "0x6975D80")]
 	private HierarchyViewModel(IntPtr nativePtr, HierarchyFlattened hierarchyFlattened, IntPtr flattenedNodesPtr, int flattenedNodesCount, IntPtr nodesPtr, int nodesCount, int version)
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x2F80B30", Offset = "0x2F7F130", VA = "0x182F80B30", Slot = "1")]
+	[Address(RVA = "0x6975EC0", Offset = "0x6974EC0", VA = "0x6975EC0", Slot = "1")]
 	~HierarchyViewModel()
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x2F80860", Offset = "0x2F7EE60", VA = "0x182F80860", Slot = "4")]
+	[Address(RVA = "0x6975FF0", Offset = "0x6974FF0", VA = "0x6975FF0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x2F80900", Offset = "0x2F7EF00", VA = "0x182F80900")]
+	[Address(RVA = "0x6975F90", Offset = "0x6974F90", VA = "0x6975F90")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x2F80E30", Offset = "0x2F7F430", VA = "0x182F80E30")]
+	[Address(RVA = "0x6976150", Offset = "0x6975150", VA = "0x6976150")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public int IndexOf(in HierarchyNode node)
 	{
@@ -251,7 +251,7 @@ public sealed class HierarchyViewModel : IDisposable
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x2F805A0", Offset = "0x2F7EBA0", VA = "0x182F805A0")]
+	[Address(RVA = "0x69761F0", Offset = "0x69751F0", VA = "0x69761F0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	public bool Contains(in HierarchyNode node)
 	{
@@ -259,58 +259,58 @@ public sealed class HierarchyViewModel : IDisposable
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x2F810B0", Offset = "0x2F7F6B0", VA = "0x182F810B0")]
+	[Address(RVA = "0x6976290", Offset = "0x6975290", VA = "0x6976290")]
 	public void SetFlags(HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x2F81170", Offset = "0x2F7F770", VA = "0x182F81170")]
+	[Address(RVA = "0x6976350", Offset = "0x6975350", VA = "0x6976350")]
 	public void SetFlags(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x2F81230", Offset = "0x2F7F830", VA = "0x182F81230")]
+	[Address(RVA = "0x6976410", Offset = "0x6975410", VA = "0x6976410")]
 	public void SetFlagsRecursive(in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x2F80D70", Offset = "0x2F7F370", VA = "0x182F80D70")]
+	[Address(RVA = "0x69764F0", Offset = "0x69754F0", VA = "0x69764F0")]
 	public bool HasAllFlags(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x2F80410", Offset = "0x2F7EA10", VA = "0x182F80410")]
+	[Address(RVA = "0x69765B0", Offset = "0x69755B0", VA = "0x69765B0")]
 	public void ClearFlags(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x2F804D0", Offset = "0x2F7EAD0", VA = "0x182F804D0")]
+	[Address(RVA = "0x6976670", Offset = "0x6975670", VA = "0x6976670")]
 	public void ClearFlagsRecursive(in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x2F80970", Offset = "0x2F7EF70", VA = "0x182F80970")]
+	[Address(RVA = "0x6976750", Offset = "0x6975750", VA = "0x6976750")]
 	public HierarchyViewModelNodesEnumerable EnumerateNodesWithAllFlags(HierarchyNodeFlags flags)
 	{
 		return default(HierarchyViewModelNodesEnumerable);
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x2F813B0", Offset = "0x2F7F9B0", VA = "0x182F813B0")]
+	[Address(RVA = "0x6976870", Offset = "0x6975870", VA = "0x6976870")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x2F80CB0", Offset = "0x2F7F2B0", VA = "0x182F80CB0")]
+	[Address(RVA = "0x6976900", Offset = "0x6975900", VA = "0x6976900")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
@@ -318,14 +318,14 @@ public sealed class HierarchyViewModel : IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x2F80BE0", Offset = "0x2F7F1E0", VA = "0x182F80BE0")]
+	[Address(RVA = "0x6976990", Offset = "0x6975990", VA = "0x6976990")]
 	internal static HierarchyViewModel FromIntPtr(IntPtr handlePtr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x2F807C0", Offset = "0x2F7EDC0", VA = "0x182F807C0")]
+	[Address(RVA = "0x6975D00", Offset = "0x6974D00", VA = "0x6975D00")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::Create", IsThreadSafe = true)]
 	private static IntPtr Create(IntPtr handlePtr, HierarchyFlattened hierarchyFlattened, HierarchyNodeFlags defaultFlags, out IntPtr nodesPtr, out int nodesCount, out IntPtr indicesPtr, out int indicesCount, out int version)
 	{
@@ -334,33 +334,33 @@ public sealed class HierarchyViewModel : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x2F80820", Offset = "0x2F7EE20", VA = "0x182F80820")]
+	[Address(RVA = "0x6976090", Offset = "0x6975090", VA = "0x6976090")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::Destroy", IsThreadSafe = true)]
 	private static extern void Destroy(IntPtr nativePtr);
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x2F810B0", Offset = "0x2F7F6B0", VA = "0x182F810B0")]
+	[Address(RVA = "0x69762F0", Offset = "0x69752F0", VA = "0x69762F0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::SetFlagsAll", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void SetFlagsAll(HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x2F81170", Offset = "0x2F7F770", VA = "0x182F81170")]
+	[Address(RVA = "0x69763B0", Offset = "0x69753B0", VA = "0x69763B0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::SetFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void SetFlagsNode(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x2F81230", Offset = "0x2F7F830", VA = "0x182F81230")]
+	[Address(RVA = "0x6976480", Offset = "0x6975480", VA = "0x6976480")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::SetFlagsRecursiveNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void SetFlagsRecursiveNode(in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction)
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x2F80D70", Offset = "0x2F7F370", VA = "0x182F80D70")]
+	[Address(RVA = "0x6976550", Offset = "0x6975550", VA = "0x6976550")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::HasAllFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private bool HasAllFlagsNode(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
@@ -368,21 +368,21 @@ public sealed class HierarchyViewModel : IDisposable
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x2F80410", Offset = "0x2F7EA10", VA = "0x182F80410")]
+	[Address(RVA = "0x6976610", Offset = "0x6975610", VA = "0x6976610")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::ClearFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void ClearFlagsNode(in HierarchyNode node, HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x2F804D0", Offset = "0x2F7EAD0", VA = "0x182F804D0")]
+	[Address(RVA = "0x69766E0", Offset = "0x69756E0", VA = "0x69766E0")]
 	[UnityEngine.Bindings.FreeFunction("HierarchyViewModelBindings::ClearFlagsRecursiveNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
 	private void ClearFlagsRecursiveNode(in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction)
 	{
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x2F80600", Offset = "0x2F7EC00", VA = "0x182F80600")]
+	[Address(RVA = "0x6976C50", Offset = "0x6975C50", VA = "0x6976C50")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static IntPtr CreateHierarchyViewModel(IntPtr nativePtr, IntPtr flattenedPtr, IntPtr flattenedNodesPtr, int flattenedNodesCount, IntPtr nodesPtr, int nodesCount, int version)
 	{
@@ -390,21 +390,21 @@ public sealed class HierarchyViewModel : IDisposable
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x2F812B0", Offset = "0x2F7F8B0", VA = "0x182F812B0")]
+	[Address(RVA = "0x6976D00", Offset = "0x6975D00", VA = "0x6976D00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void UpdateHierarchyViewModel(IntPtr handlePtr, IntPtr flattenedNodesPtr, int flattenedNodesCount, IntPtr nodesPtr, int nodesCount, int version)
 	{
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x2F80E90", Offset = "0x2F7F490", VA = "0x182F80E90")]
+	[Address(RVA = "0x6976DD0", Offset = "0x6975DD0", VA = "0x6976DD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeFlagsChanged(IntPtr handlePtr, HierarchyNodeFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x2F80ED0", Offset = "0x2F7F4D0", VA = "0x182F80ED0")]
+	[Address(RVA = "0x6976E00", Offset = "0x6975E00", VA = "0x6976E00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SearchBegin(IntPtr handlePtr)
 	{
@@ -412,61 +412,61 @@ public sealed class HierarchyViewModel : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x2F81850", Offset = "0x2F7FE50", VA = "0x182F81850")]
+	[Address(RVA = "0x6975A40", Offset = "0x6974A40", VA = "0x6975A40")]
 	private static extern bool get_UpdateNeeded_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x2F817B0", Offset = "0x2F7FDB0", VA = "0x182F817B0")]
+	[Address(RVA = "0x6975B00", Offset = "0x6974B00", VA = "0x6975B00")]
 	private static extern HierarchySearchQueryDescriptor get_Query_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x2F80DE0", Offset = "0x2F7F3E0", VA = "0x182F80DE0")]
+	[Address(RVA = "0x69761B0", Offset = "0x69751B0", VA = "0x69761B0")]
 	private static extern int IndexOf_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x2F80550", Offset = "0x2F7EB50", VA = "0x182F80550")]
+	[Address(RVA = "0x6976250", Offset = "0x6975250", VA = "0x6976250")]
 	private static extern bool Contains_Injected(IntPtr _unity_self, in HierarchyNode node);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x2F81370", Offset = "0x2F7F970", VA = "0x182F81370")]
+	[Address(RVA = "0x69768D0", Offset = "0x69758D0", VA = "0x69768D0")]
 	private static extern void Update_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x2F80770", Offset = "0x2F7ED70", VA = "0x182F80770")]
+	[Address(RVA = "0x6976A50", Offset = "0x6975A50", VA = "0x6976A50")]
 	private static extern IntPtr Create_Injected(IntPtr handlePtr, IntPtr hierarchyFlattened, HierarchyNodeFlags defaultFlags, out IntPtr nodesPtr, out int nodesCount, out IntPtr indicesPtr, out int indicesCount, out int version);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x2F81070", Offset = "0x2F7F670", VA = "0x182F81070")]
+	[Address(RVA = "0x6976AB0", Offset = "0x6975AB0", VA = "0x6976AB0")]
 	private static extern void SetFlagsAll_Injected(IntPtr _unity_self, HierarchyNodeFlags flags);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x2F81110", Offset = "0x2F7F710", VA = "0x182F81110")]
+	[Address(RVA = "0x6976AF0", Offset = "0x6975AF0", VA = "0x6976AF0")]
 	private static extern void SetFlagsNode_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags flags);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x2F811E0", Offset = "0x2F7F7E0", VA = "0x182F811E0")]
+	[Address(RVA = "0x6976B30", Offset = "0x6975B30", VA = "0x6976B30")]
 	private static extern void SetFlagsRecursiveNode_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x2F80D10", Offset = "0x2F7F310", VA = "0x182F80D10")]
+	[Address(RVA = "0x6976B80", Offset = "0x6975B80", VA = "0x6976B80")]
 	private static extern bool HasAllFlagsNode_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags flags);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x2F803B0", Offset = "0x2F7E9B0", VA = "0x182F803B0")]
+	[Address(RVA = "0x6976BC0", Offset = "0x6975BC0", VA = "0x6976BC0")]
 	private static extern void ClearFlagsNode_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags flags);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x2F80480", Offset = "0x2F7EA80", VA = "0x182F80480")]
+	[Address(RVA = "0x6976C00", Offset = "0x6975C00", VA = "0x6976C00")]
 	private static extern void ClearFlagsRecursiveNode_Injected(IntPtr _unity_self, in HierarchyNode node, HierarchyNodeFlags flags, HierarchyTraversalDirection direction);
 }

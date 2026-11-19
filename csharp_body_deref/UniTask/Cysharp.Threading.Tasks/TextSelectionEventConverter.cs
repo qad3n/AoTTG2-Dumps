@@ -23,19 +23,19 @@ internal class TextSelectionEventConverter : UnityEvent<(string, int, int)>, IDi
 	private readonly UnityAction<string, int, int> invokeDelegate;
 
 	[Token(Token = "0x6000907")]
-	[Address(RVA = "0x2945020", Offset = "0x2943620", VA = "0x182945020")]
+	[Address(RVA = "0x62F05A0", Offset = "0x62EF5A0", VA = "0x62F05A0")]
 	public TextSelectionEventConverter(UnityEvent<string, int, int> unityEvent)
 	{
 	}
 
 	[Token(Token = "0x6000908")]
-	[Address(RVA = "0x2944F90", Offset = "0x2943590", VA = "0x182944F90")]
+	[Address(RVA = "0x62F0670", Offset = "0x62EF670", VA = "0x62F0670")]
 	private void InvokeCore(string item1, int item2, int item3)
 	{
 	}
 
 	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x2944F40", Offset = "0x2943540", VA = "0x182944F40", Slot = "8")]
+	[Address(RVA = "0x62F0700", Offset = "0x62EF700", VA = "0x62F0700", Slot = "8")]
 	public void Dispose()
 	{
 	}

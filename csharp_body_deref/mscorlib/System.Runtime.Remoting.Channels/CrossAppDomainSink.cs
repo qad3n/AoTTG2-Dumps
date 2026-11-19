@@ -12,81 +12,81 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003A9")]
+[Token(Token = "0x2000382")]
 [System.MonoTODO("Handle domain unloading?")]
 internal class CrossAppDomainSink : IMessageSink
 {
-	[Token(Token = "0x20003AA")]
+	[Token(Token = "0x2000383")]
 	private struct ProcessMessageRes
 	{
-		[Token(Token = "0x4000F1F")]
+		[Token(Token = "0x4000E7F")]
 		[FieldOffset(Offset = "0x0")]
 		public byte[] arrResponse;
 
-		[Token(Token = "0x4000F20")]
+		[Token(Token = "0x4000E80")]
 		[FieldOffset(Offset = "0x8")]
 		public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm;
 	}
 
-	[Token(Token = "0x4000F1C")]
+	[Token(Token = "0x4000E7C")]
 	[FieldOffset(Offset = "0x0")]
 	private static Hashtable s_sinks;
 
-	[Token(Token = "0x4000F1D")]
+	[Token(Token = "0x4000E7D")]
 	[FieldOffset(Offset = "0x8")]
 	private static MethodInfo processMessageMethod;
 
-	[Token(Token = "0x4000F1E")]
+	[Token(Token = "0x4000E7E")]
 	[FieldOffset(Offset = "0x10")]
 	private int _domainID;
 
-	[Token(Token = "0x17000376")]
+	[Token(Token = "0x17000375")]
 	internal int TargetDomainId
 	{
-		[Token(Token = "0x6001E05")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6001DDB")]
+		[Address(RVA = "0x5389180", Offset = "0x5388180", VA = "0x5389180")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001E03")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Token(Token = "0x6001DD9")]
+	[Address(RVA = "0x5389160", Offset = "0x5388160", VA = "0x5389160")]
 	internal CrossAppDomainSink(int domainID)
 	{
 	}
 
-	[Token(Token = "0x6001E04")]
-	[Address(RVA = "0x19F8AE0", Offset = "0x19F70E0", VA = "0x1819F8AE0")]
+	[Token(Token = "0x6001DDA")]
+	[Address(RVA = "0x5388E50", Offset = "0x5387E50", VA = "0x5388E50")]
 	internal static System.Runtime.Remoting.Channels.CrossAppDomainSink GetSink(int domainID)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E06")]
-	[Address(RVA = "0x19F8DA0", Offset = "0x19F73A0", VA = "0x1819F8DA0")]
+	[Token(Token = "0x6001DDC")]
+	[Address(RVA = "0x5389190", Offset = "0x5388190", VA = "0x5389190")]
 	private static ProcessMessageRes ProcessMessageInDomain(byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg)
 	{
 		return default(ProcessMessageRes);
 	}
 
-	[Token(Token = "0x6001E07")]
-	[Address(RVA = "0x19F8F60", Offset = "0x19F7560", VA = "0x1819F8F60", Slot = "6")]
+	[Token(Token = "0x6001DDD")]
+	[Address(RVA = "0x5389420", Offset = "0x5388420", VA = "0x5389420", Slot = "6")]
 	public virtual IMessage SyncProcessMessage(IMessage msgRequest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E08")]
-	[Address(RVA = "0x19F8A20", Offset = "0x19F7020", VA = "0x1819F8A20", Slot = "7")]
+	[Token(Token = "0x6001DDE")]
+	[Address(RVA = "0x5389D70", Offset = "0x5388D70", VA = "0x5389D70", Slot = "7")]
 	public virtual IMessageCtrl AsyncProcessMessage(IMessage reqMsg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E09")]
-	[Address(RVA = "0x19F8EA0", Offset = "0x19F74A0", VA = "0x1819F8EA0")]
+	[Token(Token = "0x6001DDF")]
+	[Address(RVA = "0x5389E80", Offset = "0x5388E80", VA = "0x5389E80")]
 	public void SendAsyncMessage(object data)
 	{
 	}

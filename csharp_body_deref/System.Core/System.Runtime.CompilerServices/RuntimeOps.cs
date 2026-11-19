@@ -12,31 +12,31 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x200024B")]
-[EditorBrowsable(EditorBrowsableState.Never)]
+[Token(Token = "0x200024C")]
 [DebuggerStepThrough]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public static class RuntimeOps
 {
-	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x247DFB0", Offset = "0x247C5B0", VA = "0x18247DFB0")]
-	[Obsolete("do not use this method", true)]
+	[Token(Token = "0x6000B4D")]
+	[Address(RVA = "0x5E1C3F0", Offset = "0x5E1B3F0", VA = "0x5E1C3F0")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("do not use this method", true)]
 	public static bool ExpandoTryGetValue(ExpandoObject expando, object indexClass, int index, string name, bool ignoreCase, out object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B43")]
-	[Address(RVA = "0x247DFE0", Offset = "0x247C5E0", VA = "0x18247DFE0")]
-	[Obsolete("do not use this method", true)]
+	[Token(Token = "0x6000B4E")]
+	[Address(RVA = "0x5E1C580", Offset = "0x5E1B580", VA = "0x5E1C580")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("do not use this method", true)]
 	public static object ExpandoTrySetValue(ExpandoObject expando, object indexClass, int index, object value, string name, bool ignoreCase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B44")]
-	[Address(RVA = "0x247DF10", Offset = "0x247C510", VA = "0x18247DF10")]
+	[Token(Token = "0x6000B4F")]
+	[Address(RVA = "0x5E1CA90", Offset = "0x5E1BA90", VA = "0x5E1CA90")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("do not use this method", true)]
 	public static bool ExpandoTryDeleteValue(ExpandoObject expando, object indexClass, int index, string name, bool ignoreCase)
@@ -44,8 +44,8 @@ public static class RuntimeOps
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B45")]
-	[Address(RVA = "0x247DEC0", Offset = "0x247C4C0", VA = "0x18247DEC0")]
+	[Token(Token = "0x6000B50")]
+	[Address(RVA = "0x5E1CEE0", Offset = "0x5E1BEE0", VA = "0x5E1CEE0")]
 	[Obsolete("do not use this method", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static bool ExpandoCheckVersion(ExpandoObject expando, object version)
@@ -53,8 +53,8 @@ public static class RuntimeOps
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B46")]
-	[Address(RVA = "0x247DEF0", Offset = "0x247C4F0", VA = "0x18247DEF0")]
+	[Token(Token = "0x6000B51")]
+	[Address(RVA = "0x5E1CF20", Offset = "0x5E1BF20", VA = "0x5E1CF20")]
 	[Obsolete("do not use this method", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static void ExpandoPromoteClass(ExpandoObject expando, object oldClass, object newClass)

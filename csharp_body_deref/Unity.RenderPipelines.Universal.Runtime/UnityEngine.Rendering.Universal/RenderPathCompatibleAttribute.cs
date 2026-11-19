@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderPathCompatibleAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,7 +19,7 @@ internal sealed class RenderPathCompatibleAttribute : Attribute
 	public RenderPathCompatibility renderPath;
 
 	[Token(Token = "0x6000AC3")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x66B1240", Offset = "0x66B0240", VA = "0x66B1240")]
 	public RenderPathCompatibleAttribute(RenderPathCompatibility renderPath)
 	{
 	}

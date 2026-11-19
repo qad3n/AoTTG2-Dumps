@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x2000466")]
+[Token(Token = "0x200043F")]
 public class COMException : ExternalException
 {
-	[Token(Token = "0x6002232")]
-	[Address(RVA = "0x1A290E0", Offset = "0x1A276E0", VA = "0x181A290E0")]
+	[Token(Token = "0x6002208")]
+	[Address(RVA = "0x53C48A0", Offset = "0x53C38A0", VA = "0x53C48A0")]
 	public COMException()
 	{
 	}
 
-	[Token(Token = "0x6002233")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x6002209")]
+	[Address(RVA = "0x53C48E0", Offset = "0x53C38E0", VA = "0x53C48E0")]
 	protected COMException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002234")]
-	[Address(RVA = "0x1A28F10", Offset = "0x1A27510", VA = "0x181A28F10", Slot = "3")]
+	[Token(Token = "0x600220A")]
+	[Address(RVA = "0x53C48F0", Offset = "0x53C38F0", VA = "0x53C48F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

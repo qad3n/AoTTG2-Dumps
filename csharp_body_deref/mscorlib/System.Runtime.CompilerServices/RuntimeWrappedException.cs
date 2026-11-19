@@ -11,44 +11,44 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004B0")]
+[Token(Token = "0x2000489")]
 public sealed class RuntimeWrappedException : Exception
 {
-	[Token(Token = "0x4001305")]
+	[Token(Token = "0x4001265")]
 	[FieldOffset(Offset = "0x90")]
 	private object _wrappedException;
 
-	[Token(Token = "0x17000477")]
+	[Token(Token = "0x17000476")]
 	public object WrappedException
 	{
-		[Token(Token = "0x6002308")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Token(Token = "0x60022D5")]
+		[Address(RVA = "0x53C8BE0", Offset = "0x53C7BE0", VA = "0x53C8BE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002305")]
-	[Address(RVA = "0x1A36DA0", Offset = "0x1A353A0", VA = "0x181A36DA0")]
+	[Token(Token = "0x60022D2")]
+	[Address(RVA = "0x53C89C0", Offset = "0x53C79C0", VA = "0x53C89C0")]
 	public RuntimeWrappedException(object thrownObject)
 	{
 	}
 
-	[Token(Token = "0x6002306")]
-	[Address(RVA = "0x1A36CC0", Offset = "0x1A352C0", VA = "0x181A36CC0")]
+	[Token(Token = "0x60022D3")]
+	[Address(RVA = "0x53C8A50", Offset = "0x53C7A50", VA = "0x53C8A50")]
 	private RuntimeWrappedException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002307")]
-	[Address(RVA = "0x1A36BD0", Offset = "0x1A351D0", VA = "0x181A36BD0", Slot = "11")]
+	[Token(Token = "0x60022D4")]
+	[Address(RVA = "0x53C8B30", Offset = "0x53C7B30", VA = "0x53C8B30", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002309")]
-	[Address(RVA = "0x1A36C90", Offset = "0x1A35290", VA = "0x181A36C90")]
+	[Token(Token = "0x60022D6")]
+	[Address(RVA = "0x53C8BF0", Offset = "0x53C7BF0", VA = "0x53C8BF0")]
 	internal RuntimeWrappedException()
 	{
 	}

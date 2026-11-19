@@ -12,35 +12,35 @@ using UnityEngine;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000141")]
+[Token(Token = "0x2000149")]
 internal class TransformRotationCommand : BaseCommand
 {
-	[Token(Token = "0x4000730")]
+	[Token(Token = "0x400077C")]
 	[FieldOffset(Offset = "0x10")]
 	private List<Vector3> _oldRotations;
 
-	[Token(Token = "0x4000731")]
+	[Token(Token = "0x400077D")]
 	[FieldOffset(Offset = "0x18")]
 	private List<Vector3> _newRotations;
 
-	[Token(Token = "0x4000732")]
+	[Token(Token = "0x400077E")]
 	[FieldOffset(Offset = "0x20")]
 	private List<int> _ids;
 
-	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x21FFE10", Offset = "0x21FE410", VA = "0x1821FFE10")]
+	[Token(Token = "0x600069E")]
+	[Address(RVA = "0x5B911A0", Offset = "0x5B901A0", VA = "0x5B911A0")]
 	public TransformRotationCommand(List<MapObject> mapObjects)
 	{
 	}
 
-	[Token(Token = "0x6000633")]
-	[Address(RVA = "0x21FF950", Offset = "0x21FDF50", VA = "0x1821FF950", Slot = "4")]
+	[Token(Token = "0x600069F")]
+	[Address(RVA = "0x5B915E0", Offset = "0x5B905E0", VA = "0x5B915E0", Slot = "4")]
 	public override void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x21FFBB0", Offset = "0x21FE1B0", VA = "0x1821FFBB0", Slot = "5")]
+	[Token(Token = "0x60006A0")]
+	[Address(RVA = "0x5B917D0", Offset = "0x5B907D0", VA = "0x5B917D0", Slot = "5")]
 	public override void Unexecute()
 	{
 	}

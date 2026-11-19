@@ -15,8 +15,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000002")]
-[UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
 [UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
 public static class RemoteSettings
 {
 	[Token(Token = "0x2000003")]
@@ -30,8 +30,8 @@ public static class RemoteSettings
 
 	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action BeforeFetchFromServer;
 
 	[Token(Token = "0x4000003")]
@@ -41,21 +41,21 @@ public static class RemoteSettings
 	private static Action<bool, bool, int> Completed;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x3308BD0", Offset = "0x33071D0", VA = "0x183308BD0")]
+	[Address(RVA = "0x6D18E30", Offset = "0x6D17E30", VA = "0x6D18E30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsUpdated(bool wasLastUpdatedFromServer)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x3308B00", Offset = "0x3307100", VA = "0x183308B00")]
+	[Address(RVA = "0x6D18E80", Offset = "0x6D17E80", VA = "0x6D18E80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsBeforeFetchFromServer()
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3308B50", Offset = "0x3307150", VA = "0x183308B50")]
+	[Address(RVA = "0x6D18ED0", Offset = "0x6D17ED0", VA = "0x6D18ED0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsUpdateCompleted(bool wasLastUpdatedFromServer, bool settingsChanged, int response)
 	{

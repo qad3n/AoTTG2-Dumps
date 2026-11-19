@@ -34,27 +34,27 @@ internal class DomNameTable
 	private XmlNameTable nameTable;
 
 	[Token(Token = "0x60007AE")]
-	[Address(RVA = "0x270B960", Offset = "0x2709F60", VA = "0x18270B960")]
+	[Address(RVA = "0x60CAD10", Offset = "0x60C9D10", VA = "0x60CAD10")]
 	public DomNameTable(XmlDocument document)
 	{
 	}
 
 	[Token(Token = "0x60007AF")]
-	[Address(RVA = "0x270B6C0", Offset = "0x2709CC0", VA = "0x18270B6C0")]
+	[Address(RVA = "0x60CADB0", Offset = "0x60C9DB0", VA = "0x60CADB0")]
 	public XmlName GetName(string prefix, string localName, string ns, IXmlSchemaInfo schemaInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x270B310", Offset = "0x2709910", VA = "0x18270B310")]
+	[Address(RVA = "0x60CAF00", Offset = "0x60C9F00", VA = "0x60CAF00")]
 	public XmlName AddName(string prefix, string localName, string ns, IXmlSchemaInfo schemaInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B1")]
-	[Address(RVA = "0x270B800", Offset = "0x2709E00", VA = "0x18270B800")]
+	[Address(RVA = "0x60CB170", Offset = "0x60CA170", VA = "0x60CB170")]
 	private void Grow()
 	{
 	}

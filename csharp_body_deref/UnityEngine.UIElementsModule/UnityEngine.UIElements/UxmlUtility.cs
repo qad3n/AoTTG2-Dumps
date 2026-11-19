@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UxmlUtility
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,7 +16,7 @@ namespace UnityEngine.UIElements;
 internal static class UxmlUtility
 {
 	[Token(Token = "0x60026FE")]
-	[Address(RVA = "0x3162090", Offset = "0x3160690", VA = "0x183162090")]
+	[Address(RVA = "0x6B5D040", Offset = "0x6B5C040", VA = "0x6B5D040")]
 	public static List<string> ParseStringListAttribute(string itemList)
 	{
 		return null;

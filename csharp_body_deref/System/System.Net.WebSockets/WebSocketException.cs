@@ -12,99 +12,99 @@ using Il2CppDummyDll;
 namespace System.Net.WebSockets;
 
 [Serializable]
-[Token(Token = "0x20003C4")]
+[Token(Token = "0x2000380")]
 public sealed class WebSocketException : Win32Exception
 {
-	[Token(Token = "0x40010B6")]
-	[FieldOffset(Offset = "0x98")]
+	[Token(Token = "0x4000FCE")]
+	[FieldOffset(Offset = "0x90")]
 	private readonly WebSocketError _webSocketErrorCode;
 
-	[Token(Token = "0x17000569")]
+	[Token(Token = "0x1700053C")]
 	public override int ErrorCode
 	{
-		[Token(Token = "0x6001996")]
-		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0", Slot = "13")]
+		[Token(Token = "0x60017DD")]
+		[Address(RVA = "0x61CD5C0", Offset = "0x61CC5C0", VA = "0x61CD5C0", Slot = "13")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600198C")]
-	[Address(RVA = "0x2827440", Offset = "0x2825A40", VA = "0x182827440")]
+	[Token(Token = "0x60017D3")]
+	[Address(RVA = "0x61CD2C0", Offset = "0x61CC2C0", VA = "0x61CD2C0")]
 	public WebSocketException()
 	{
 	}
 
-	[Token(Token = "0x600198D")]
-	[Address(RVA = "0x28273C0", Offset = "0x28259C0", VA = "0x1828273C0")]
+	[Token(Token = "0x60017D4")]
+	[Address(RVA = "0x61C1A10", Offset = "0x61C0A10", VA = "0x61C1A10")]
 	public WebSocketException(WebSocketError error)
 	{
 	}
 
-	[Token(Token = "0x600198E")]
-	[Address(RVA = "0x2827410", Offset = "0x2825A10", VA = "0x182827410")]
+	[Token(Token = "0x60017D5")]
+	[Address(RVA = "0x61CB2B0", Offset = "0x61CA2B0", VA = "0x61CB2B0")]
 	public WebSocketException(WebSocketError error, string message)
 	{
 	}
 
-	[Token(Token = "0x600198F")]
-	[Address(RVA = "0x2827520", Offset = "0x2825B20", VA = "0x182827520")]
+	[Token(Token = "0x60017D6")]
+	[Address(RVA = "0x61C04B0", Offset = "0x61BF4B0", VA = "0x61C04B0")]
 	public WebSocketException(WebSocketError error, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6001990")]
-	[Address(RVA = "0x2827380", Offset = "0x2825980", VA = "0x182827380")]
+	[Token(Token = "0x60017D7")]
+	[Address(RVA = "0x61CD4C0", Offset = "0x61CC4C0", VA = "0x61CD4C0")]
 	public WebSocketException(WebSocketError error, string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6001991")]
-	[Address(RVA = "0x28274C0", Offset = "0x2825AC0", VA = "0x1828274C0")]
+	[Token(Token = "0x60017D8")]
+	[Address(RVA = "0x61CD340", Offset = "0x61CC340", VA = "0x61CD340")]
 	public WebSocketException(int nativeError)
 	{
 	}
 
-	[Token(Token = "0x6001992")]
-	[Address(RVA = "0x2827510", Offset = "0x2825B10", VA = "0x182827510")]
+	[Token(Token = "0x60017D9")]
+	[Address(RVA = "0x61C8590", Offset = "0x61C7590", VA = "0x61C8590")]
 	public WebSocketException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001993")]
-	[Address(RVA = "0x2827400", Offset = "0x2825A00", VA = "0x182827400")]
+	[Token(Token = "0x60017DA")]
+	[Address(RVA = "0x61C9A40", Offset = "0x61C8A40", VA = "0x61C9A40")]
 	public WebSocketException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6001994")]
-	[Address(RVA = "0x281A580", Offset = "0x2818B80", VA = "0x18281A580")]
+	[Token(Token = "0x60017DB")]
+	[Address(RVA = "0x61CD510", Offset = "0x61CC510", VA = "0x61CD510")]
 	private WebSocketException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x6001995")]
-	[Address(RVA = "0x28272B0", Offset = "0x28258B0", VA = "0x1828272B0", Slot = "11")]
+	[Token(Token = "0x60017DC")]
+	[Address(RVA = "0x61CD520", Offset = "0x61CC520", VA = "0x61CD520", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001997")]
-	[Address(RVA = "0x2827130", Offset = "0x2825730", VA = "0x182827130")]
+	[Token(Token = "0x60017DE")]
+	[Address(RVA = "0x61CD380", Offset = "0x61CC380", VA = "0x61CD380")]
 	private static string GetErrorMessage(WebSocketError error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001998")]
-	[Address(RVA = "0x2827360", Offset = "0x2825960", VA = "0x182827360")]
+	[Token(Token = "0x60017DF")]
+	[Address(RVA = "0x61CD500", Offset = "0x61CC500", VA = "0x61CD500")]
 	private void SetErrorCodeOnError(int nativeError)
 	{
 	}
 
-	[Token(Token = "0x6001999")]
-	[Address(RVA = "0x2827370", Offset = "0x2825970", VA = "0x182827370")]
+	[Token(Token = "0x60017E0")]
+	[Address(RVA = "0x61CD4F0", Offset = "0x61CC4F0", VA = "0x61CD4F0")]
 	private static bool Succeeded(int hr)
 	{
 		return default(bool);

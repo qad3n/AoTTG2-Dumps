@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnPointerUpMessageListener : MessageListener, IPointerUpHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x2DBEA20", Offset = "0x2DBD020", VA = "0x182DBEA20", Slot = "4")]
+	[Address(RVA = "0x67A65F0", Offset = "0x67A55F0", VA = "0x67A65F0", Slot = "4")]
 	public void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A6680", Offset = "0x67A5680", VA = "0x67A6680")]
 	public UnityOnPointerUpMessageListener()
 	{
 	}

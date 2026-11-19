@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000196")]
+[Token(Token = "0x2000157")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
 public sealed class DesignTimeVisibleAttribute : Attribute
 {
-	[Token(Token = "0x4000696")]
+	[Token(Token = "0x40005C7")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly DesignTimeVisibleAttribute Yes;
 
-	[Token(Token = "0x4000697")]
+	[Token(Token = "0x40005C8")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly DesignTimeVisibleAttribute No;
 
-	[Token(Token = "0x4000698")]
+	[Token(Token = "0x40005C9")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly DesignTimeVisibleAttribute Default;
 
-	[Token(Token = "0x170001FA")]
+	[Token(Token = "0x170001CB")]
 	public bool Visible
 	{
-		[Token(Token = "0x6000A46")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x6000886")]
+		[Address(RVA = "0x62319F0", Offset = "0x62309F0", VA = "0x62319F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,34 +38,34 @@ public sealed class DesignTimeVisibleAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Token(Token = "0x6000884")]
+	[Address(RVA = "0x62319C0", Offset = "0x62309C0", VA = "0x62319C0")]
 	public DesignTimeVisibleAttribute(bool visible)
 	{
 	}
 
-	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000885")]
+	[Address(RVA = "0x62319E0", Offset = "0x62309E0", VA = "0x62319E0")]
 	public DesignTimeVisibleAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x289BA90", Offset = "0x289A090", VA = "0x18289BA90", Slot = "0")]
+	[Token(Token = "0x6000887")]
+	[Address(RVA = "0x6231A00", Offset = "0x6230A00", VA = "0x6231A00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x289BB10", Offset = "0x289A110", VA = "0x18289BB10", Slot = "2")]
+	[Token(Token = "0x6000888")]
+	[Address(RVA = "0x6231A70", Offset = "0x6230A70", VA = "0x6231A70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x289BBA0", Offset = "0x289A1A0", VA = "0x18289BBA0", Slot = "6")]
+	[Token(Token = "0x6000889")]
+	[Address(RVA = "0x6231B00", Offset = "0x6230B00", VA = "0x6231B00", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

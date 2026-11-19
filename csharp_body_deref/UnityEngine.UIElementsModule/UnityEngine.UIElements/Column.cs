@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Column
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ public class Column : INotifyBindablePropertyChanged
 	internal class UxmlObjectFactory : UxmlObjectFactory<Column>
 	{
 		[Token(Token = "0x60007BD")]
-		[Address(RVA = "0x3224FA0", Offset = "0x32235A0", VA = "0x183224FA0")]
+		[Address(RVA = "0x6C153C0", Offset = "0x6C143C0", VA = "0x6C153C0")]
 		public UxmlObjectFactory()
 		{
 		}
@@ -249,20 +249,20 @@ public class Column : INotifyBindablePropertyChanged
 
 	[Token(Token = "0x40004A3")]
 	[FieldOffset(Offset = "0xB0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private EventHandler<BindablePropertyChangedEventArgs> m_propertyChanged;
 
 	[Token(Token = "0x40004A8")]
 	[FieldOffset(Offset = "0xD8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<Column, ColumnDataType> m_changed;
 
 	[Token(Token = "0x40004A9")]
 	[FieldOffset(Offset = "0xE0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private Action<Column> m_resized;
 
 	[Token(Token = "0x17000159")]
@@ -270,13 +270,13 @@ public class Column : INotifyBindablePropertyChanged
 	public string name
 	{
 		[Token(Token = "0x6000784")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6C13250", Offset = "0x6C12250", VA = "0x6C13250")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000785")]
-		[Address(RVA = "0x3212F10", Offset = "0x3211510", VA = "0x183212F10")]
+		[Address(RVA = "0x6C13260", Offset = "0x6C12260", VA = "0x6C13260")]
 		set
 		{
 		}
@@ -287,13 +287,13 @@ public class Column : INotifyBindablePropertyChanged
 	public string title
 	{
 		[Token(Token = "0x6000786")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6C134A0", Offset = "0x6C124A0", VA = "0x6C134A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000787")]
-		[Address(RVA = "0x3213240", Offset = "0x3211840", VA = "0x183213240")]
+		[Address(RVA = "0x6C134B0", Offset = "0x6C124B0", VA = "0x6C134B0")]
 		set
 		{
 		}
@@ -304,13 +304,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Background icon
 	{
 		[Token(Token = "0x6000788")]
-		[Address(RVA = "0x3212690", Offset = "0x3210C90", VA = "0x183212690")]
+		[Address(RVA = "0x6C13610", Offset = "0x6C12610", VA = "0x6C13610")]
 		get
 		{
 			return default(Background);
 		}
 		[Token(Token = "0x6000789")]
-		[Address(RVA = "0x3212BF0", Offset = "0x32111F0", VA = "0x183212BF0")]
+		[Address(RVA = "0x6C13630", Offset = "0x6C12630", VA = "0x6C13630")]
 		set
 		{
 		}
@@ -320,7 +320,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Comparison<int> comparison
 	{
 		[Token(Token = "0x600078A")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Address(RVA = "0x6C137C0", Offset = "0x6C127C0", VA = "0x6C137C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -332,7 +332,7 @@ public class Column : INotifyBindablePropertyChanged
 	internal int index
 	{
 		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x32126B0", Offset = "0x3210CB0", VA = "0x1832126B0")]
+		[Address(RVA = "0x6C137D0", Offset = "0x6C127D0", VA = "0x6C137D0")]
 		get
 		{
 			return default(int);
@@ -343,7 +343,7 @@ public class Column : INotifyBindablePropertyChanged
 	internal int displayIndex
 	{
 		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x32125E0", Offset = "0x3210BE0", VA = "0x1832125E0")]
+		[Address(RVA = "0x6C13950", Offset = "0x6C12950", VA = "0x6C13950")]
 		get
 		{
 			return default(int);
@@ -354,7 +354,7 @@ public class Column : INotifyBindablePropertyChanged
 	internal int visibleIndex
 	{
 		[Token(Token = "0x600078D")]
-		[Address(RVA = "0x3212750", Offset = "0x3210D50", VA = "0x183212750")]
+		[Address(RVA = "0x6C13AF0", Offset = "0x6C12AF0", VA = "0x6C13AF0")]
 		get
 		{
 			return default(int);
@@ -366,13 +366,13 @@ public class Column : INotifyBindablePropertyChanged
 	public bool visible
 	{
 		[Token(Token = "0x600078E")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Address(RVA = "0x6C13BA0", Offset = "0x6C12BA0", VA = "0x6C13BA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600078F")]
-		[Address(RVA = "0x3213300", Offset = "0x3211900", VA = "0x183213300")]
+		[Address(RVA = "0x6C13BB0", Offset = "0x6C12BB0", VA = "0x6C13BB0")]
 		set
 		{
 		}
@@ -383,13 +383,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Length width
 	{
 		[Token(Token = "0x6000790")]
-		[Address(RVA = "0x187BC80", Offset = "0x187A280", VA = "0x18187BC80")]
+		[Address(RVA = "0x6C13CF0", Offset = "0x6C12CF0", VA = "0x6C13CF0")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6000791")]
-		[Address(RVA = "0x32133A0", Offset = "0x32119A0", VA = "0x1832133A0")]
+		[Address(RVA = "0x6C13D00", Offset = "0x6C12D00", VA = "0x6C13D00")]
 		set
 		{
 		}
@@ -400,13 +400,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Length minWidth
 	{
 		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x1BD3D30", Offset = "0x1BD2330", VA = "0x181BD3D30")]
+		[Address(RVA = "0x6C13EA0", Offset = "0x6C12EA0", VA = "0x6C13EA0")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6000793")]
-		[Address(RVA = "0x3212E60", Offset = "0x3211460", VA = "0x183212E60")]
+		[Address(RVA = "0x6C13EB0", Offset = "0x6C12EB0", VA = "0x6C13EB0")]
 		set
 		{
 		}
@@ -417,13 +417,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Length maxWidth
 	{
 		[Token(Token = "0x6000794")]
-		[Address(RVA = "0x3212730", Offset = "0x3210D30", VA = "0x183212730")]
+		[Address(RVA = "0x6C14000", Offset = "0x6C13000", VA = "0x6C14000")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6000795")]
-		[Address(RVA = "0x3212DB0", Offset = "0x32113B0", VA = "0x183212DB0")]
+		[Address(RVA = "0x6C14010", Offset = "0x6C13010", VA = "0x6C14010")]
 		set
 		{
 		}
@@ -433,13 +433,13 @@ public class Column : INotifyBindablePropertyChanged
 	internal float desiredWidth
 	{
 		[Token(Token = "0x6000796")]
-		[Address(RVA = "0x2E909A0", Offset = "0x2E8EFA0", VA = "0x182E909A0")]
+		[Address(RVA = "0x6C14160", Offset = "0x6C13160", VA = "0x6C14160")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000797")]
-		[Address(RVA = "0x3212AE0", Offset = "0x32110E0", VA = "0x183212AE0")]
+		[Address(RVA = "0x6C13E70", Offset = "0x6C12E70", VA = "0x6C13E70")]
 		set
 		{
 		}
@@ -450,13 +450,13 @@ public class Column : INotifyBindablePropertyChanged
 	public bool sortable
 	{
 		[Token(Token = "0x6000798")]
-		[Address(RVA = "0x198C750", Offset = "0x198AD50", VA = "0x18198C750")]
+		[Address(RVA = "0x6C14170", Offset = "0x6C13170", VA = "0x6C14170")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000799")]
-		[Address(RVA = "0x3213100", Offset = "0x3211700", VA = "0x183213100")]
+		[Address(RVA = "0x6C14180", Offset = "0x6C13180", VA = "0x6C14180")]
 		set
 		{
 		}
@@ -467,13 +467,13 @@ public class Column : INotifyBindablePropertyChanged
 	public bool stretchable
 	{
 		[Token(Token = "0x600079A")]
-		[Address(RVA = "0x198C740", Offset = "0x198AD40", VA = "0x18198C740")]
+		[Address(RVA = "0x6C142C0", Offset = "0x6C132C0", VA = "0x6C142C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600079B")]
-		[Address(RVA = "0x32131A0", Offset = "0x32117A0", VA = "0x1832131A0")]
+		[Address(RVA = "0x6C142D0", Offset = "0x6C132D0", VA = "0x6C142D0")]
 		set
 		{
 		}
@@ -484,13 +484,13 @@ public class Column : INotifyBindablePropertyChanged
 	public bool optional
 	{
 		[Token(Token = "0x600079C")]
-		[Address(RVA = "0xCDE7F0", Offset = "0xCDCDF0", VA = "0x180CDE7F0")]
+		[Address(RVA = "0x6C14410", Offset = "0x6C13410", VA = "0x6C14410")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600079D")]
-		[Address(RVA = "0x3212FC0", Offset = "0x32115C0", VA = "0x183212FC0")]
+		[Address(RVA = "0x6C14420", Offset = "0x6C13420", VA = "0x6C14420")]
 		set
 		{
 		}
@@ -501,13 +501,13 @@ public class Column : INotifyBindablePropertyChanged
 	public bool resizable
 	{
 		[Token(Token = "0x600079E")]
-		[Address(RVA = "0x3212740", Offset = "0x3210D40", VA = "0x183212740")]
+		[Address(RVA = "0x6C14560", Offset = "0x6C13560", VA = "0x6C14560")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600079F")]
-		[Address(RVA = "0x3213060", Offset = "0x3211660", VA = "0x183213060")]
+		[Address(RVA = "0x6C14570", Offset = "0x6C13570", VA = "0x6C14570")]
 		set
 		{
 		}
@@ -517,7 +517,7 @@ public class Column : INotifyBindablePropertyChanged
 	public string bindingPath
 	{
 		[Token(Token = "0x60007A0")]
-		[Address(RVA = "0xC8FFC0", Offset = "0xC8E5C0", VA = "0x180C8FFC0")]
+		[Address(RVA = "0x6C146B0", Offset = "0x6C136B0", VA = "0x6C146B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -529,13 +529,13 @@ public class Column : INotifyBindablePropertyChanged
 	public VisualTreeAsset headerTemplate
 	{
 		[Token(Token = "0x60007A1")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6C146D0", Offset = "0x6C136D0", VA = "0x6C146D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007A2")]
-		[Address(RVA = "0x3212B10", Offset = "0x3211110", VA = "0x183212B10")]
+		[Address(RVA = "0x6C146E0", Offset = "0x6C136E0", VA = "0x6C146E0")]
 		set
 		{
 		}
@@ -546,13 +546,13 @@ public class Column : INotifyBindablePropertyChanged
 	public VisualTreeAsset cellTemplate
 	{
 		[Token(Token = "0x60007A3")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x6C14860", Offset = "0x6C13860", VA = "0x6C14860")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007A4")]
-		[Address(RVA = "0x3212A00", Offset = "0x3211000", VA = "0x183212A00")]
+		[Address(RVA = "0x6C14870", Offset = "0x6C13870", VA = "0x6C14870")]
 		set
 		{
 		}
@@ -562,13 +562,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Func<VisualElement> makeHeader
 	{
 		[Token(Token = "0x60007A5")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Address(RVA = "0x6C149F0", Offset = "0x6C139F0", VA = "0x6C149F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007A6")]
-		[Address(RVA = "0x3212D50", Offset = "0x3211350", VA = "0x183212D50")]
+		[Address(RVA = "0x6C14A00", Offset = "0x6C13A00", VA = "0x6C14A00")]
 		set
 		{
 		}
@@ -578,7 +578,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement> bindHeader
 	{
 		[Token(Token = "0x60007A7")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Address(RVA = "0x6C14A60", Offset = "0x6C13A60", VA = "0x6C14A60")]
 		get
 		{
 			return null;
@@ -589,7 +589,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement> unbindHeader
 	{
 		[Token(Token = "0x60007A8")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x6C14A70", Offset = "0x6C13A70", VA = "0x6C14A70")]
 		get
 		{
 			return null;
@@ -600,7 +600,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement> destroyHeader
 	{
 		[Token(Token = "0x60007A9")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x6C14A80", Offset = "0x6C13A80", VA = "0x6C14A80")]
 		get
 		{
 			return null;
@@ -611,13 +611,13 @@ public class Column : INotifyBindablePropertyChanged
 	public Func<VisualElement> makeCell
 	{
 		[Token(Token = "0x60007AA")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x6C14A90", Offset = "0x6C13A90", VA = "0x6C14A90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007AB")]
-		[Address(RVA = "0x3212CE0", Offset = "0x32112E0", VA = "0x183212CE0")]
+		[Address(RVA = "0x6C14AA0", Offset = "0x6C13AA0", VA = "0x6C14AA0")]
 		set
 		{
 		}
@@ -627,7 +627,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement, int> bindCell
 	{
 		[Token(Token = "0x60007AC")]
-		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
+		[Address(RVA = "0x6C14B10", Offset = "0x6C13B10", VA = "0x6C14B10")]
 		get
 		{
 			return null;
@@ -638,7 +638,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement, int> unbindCell
 	{
 		[Token(Token = "0x60007AD")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Address(RVA = "0x6C14B20", Offset = "0x6C13B20", VA = "0x6C14B20")]
 		get
 		{
 			return null;
@@ -649,7 +649,7 @@ public class Column : INotifyBindablePropertyChanged
 	public Action<VisualElement> destroyCell
 	{
 		[Token(Token = "0x60007AE")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Address(RVA = "0x6C14B30", Offset = "0x6C13B30", VA = "0x6C14B30")]
 		[CompilerGenerated]
 		get
 		{
@@ -661,14 +661,14 @@ public class Column : INotifyBindablePropertyChanged
 	public Columns collection
 	{
 		[Token(Token = "0x60007AF")]
-		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
+		[Address(RVA = "0x6C14B40", Offset = "0x6C13B40", VA = "0x6C14B40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007B0")]
-		[Address(RVA = "0x1BE7800", Offset = "0x1BE5E00", VA = "0x181BE7800")]
+		[Address(RVA = "0x6C14B50", Offset = "0x6C13B50", VA = "0x6C14B50")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -679,13 +679,13 @@ public class Column : INotifyBindablePropertyChanged
 	public event EventHandler<BindablePropertyChangedEventArgs> propertyChanged
 	{
 		[Token(Token = "0x6000782")]
-		[Address(RVA = "0x3212480", Offset = "0x3210A80", VA = "0x183212480", Slot = "4")]
+		[Address(RVA = "0x6C130F0", Offset = "0x6C120F0", VA = "0x6C130F0", Slot = "4")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000783")]
-		[Address(RVA = "0x32128A0", Offset = "0x3210EA0", VA = "0x1832128A0", Slot = "5")]
+		[Address(RVA = "0x6C131A0", Offset = "0x6C121A0", VA = "0x6C131A0", Slot = "5")]
 		[CompilerGenerated]
 		remove
 		{
@@ -696,13 +696,13 @@ public class Column : INotifyBindablePropertyChanged
 	internal event Action<Column, ColumnDataType> changed
 	{
 		[Token(Token = "0x60007B1")]
-		[Address(RVA = "0x32123D0", Offset = "0x32109D0", VA = "0x1832123D0")]
+		[Address(RVA = "0x6C14B70", Offset = "0x6C13B70", VA = "0x6C14B70")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60007B2")]
-		[Address(RVA = "0x32127F0", Offset = "0x3210DF0", VA = "0x1832127F0")]
+		[Address(RVA = "0x6C14C20", Offset = "0x6C13C20", VA = "0x6C14C20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -713,13 +713,13 @@ public class Column : INotifyBindablePropertyChanged
 	internal event Action<Column> resized
 	{
 		[Token(Token = "0x60007B3")]
-		[Address(RVA = "0x3212530", Offset = "0x3210B30", VA = "0x183212530")]
+		[Address(RVA = "0x6C14CD0", Offset = "0x6C13CD0", VA = "0x6C14CD0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60007B4")]
-		[Address(RVA = "0x3212950", Offset = "0x3210F50", VA = "0x183212950")]
+		[Address(RVA = "0x6C14D80", Offset = "0x6C13D80", VA = "0x6C14D80")]
 		[CompilerGenerated]
 		remove
 		{
@@ -727,40 +727,40 @@ public class Column : INotifyBindablePropertyChanged
 	}
 
 	[Token(Token = "0x60007B5")]
-	[Address(RVA = "0x32117C0", Offset = "0x320FDC0", VA = "0x1832117C0")]
+	[Address(RVA = "0x6C133B0", Offset = "0x6C123B0", VA = "0x6C133B0")]
 	private void NotifyChange(ColumnDataType type)
 	{
 	}
 
 	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x32117E0", Offset = "0x320FDE0", VA = "0x1832117E0")]
+	[Address(RVA = "0x6C133E0", Offset = "0x6C123E0", VA = "0x6C133E0")]
 	private void NotifyPropertyChanged(in BindingId property)
 	{
 	}
 
 	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x3211790", Offset = "0x320FD90", VA = "0x183211790")]
+	[Address(RVA = "0x6C14E30", Offset = "0x6C13E30", VA = "0x6C14E30")]
 	internal float GetWidth(float layoutWidth)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007B8")]
-	[Address(RVA = "0x3211730", Offset = "0x320FD30", VA = "0x183211730")]
+	[Address(RVA = "0x6C14E50", Offset = "0x6C13E50", VA = "0x6C14E50")]
 	internal float GetMaxWidth(float layoutWidth)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007B9")]
-	[Address(RVA = "0x3211760", Offset = "0x320FD60", VA = "0x183211760")]
+	[Address(RVA = "0x6C14E70", Offset = "0x6C13E70", VA = "0x6C14E70")]
 	internal float GetMinWidth(float layoutWidth)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60007BA")]
-	[Address(RVA = "0x3212360", Offset = "0x3210960", VA = "0x183212360")]
+	[Address(RVA = "0x6C14E90", Offset = "0x6C13E90", VA = "0x6C14E90")]
 	public Column()
 	{
 	}

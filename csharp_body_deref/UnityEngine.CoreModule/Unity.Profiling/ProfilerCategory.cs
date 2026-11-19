@@ -24,7 +24,7 @@ public readonly struct ProfilerCategory
 	public string Name
 	{
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x2ECDE20", Offset = "0x2ECC420", VA = "0x182ECDE20")]
+		[Address(RVA = "0x68B4AE0", Offset = "0x68B3AE0", VA = "0x68B4AE0")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ public readonly struct ProfilerCategory
 	public static ProfilerCategory Scripts
 	{
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Address(RVA = "0x68B4CC0", Offset = "0x68B3CC0", VA = "0x68B4CC0")]
 		get
 		{
 			return default(ProfilerCategory);
@@ -43,20 +43,20 @@ public readonly struct ProfilerCategory
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x17073B0", Offset = "0x17059B0", VA = "0x1817073B0")]
+	[Address(RVA = "0x68B4AD0", Offset = "0x68B3AD0", VA = "0x68B4AD0")]
 	internal ProfilerCategory(ushort category)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x2ECDE10", Offset = "0x2ECC410", VA = "0x182ECDE10", Slot = "3")]
+	[Address(RVA = "0x68B4C60", Offset = "0x68B3C60", VA = "0x68B4C60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x2ECDF40", Offset = "0x2ECC540", VA = "0x182ECDF40")]
+	[Address(RVA = "0x68B4CD0", Offset = "0x68B3CD0", VA = "0x68B4CD0")]
 	public static implicit operator ushort(ProfilerCategory category)
 	{
 		return default(ushort);

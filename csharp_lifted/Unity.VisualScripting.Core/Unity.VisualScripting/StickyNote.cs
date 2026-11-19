@@ -1,0 +1,142 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.StickyNote
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+using UnityEngine;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x2000190")]
+public class StickyNote : GraphElement<IGraph>
+{
+	[Token(Token = "0x2000191")]
+	public enum ColorEnum
+	{
+		[Token(Token = "0x40008C4")]
+		Classic,
+		[Token(Token = "0x40008C5")]
+		Black,
+		[Token(Token = "0x40008C6")]
+		Dark,
+		[Token(Token = "0x40008C7")]
+		Orange,
+		[Token(Token = "0x40008C8")]
+		Green,
+		[Token(Token = "0x40008C9")]
+		Blue,
+		[Token(Token = "0x40008CA")]
+		Red,
+		[Token(Token = "0x40008CB")]
+		Purple,
+		[Token(Token = "0x40008CC")]
+		Teal
+	}
+
+	[Token(Token = "0x40008BE")]
+	[FieldOffset(Offset = "0x0")]
+	[DoNotSerialize]
+	public static readonly Color defaultColor;
+
+	[Token(Token = "0x170001BA")]
+	[Serialize]
+	public Rect position
+	{
+		[Token(Token = "0x6000FB4")]
+		[Address(RVA = "0x6846A50", Offset = "0x6845A50", VA = "0x6846A50")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Rect);
+		}
+		[Token(Token = "0x6000FB5")]
+		[Address(RVA = "0x6846A60", Offset = "0x6845A60", VA = "0x6846A60")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BB")]
+	[Serialize]
+	public string title
+	{
+		[Token(Token = "0x6000FB6")]
+		[Address(RVA = "0x6846A70", Offset = "0x6845A70", VA = "0x6846A70")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000FB7")]
+		[Address(RVA = "0x6846A80", Offset = "0x6845A80", VA = "0x6846A80")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BC")]
+	[Serialize]
+	[InspectorTextArea(minLines = 1f)]
+	public string body
+	{
+		[Token(Token = "0x6000FB8")]
+		[Address(RVA = "0x6846A90", Offset = "0x6845A90", VA = "0x6846A90")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000FB9")]
+		[Address(RVA = "0x6846AA0", Offset = "0x6845AA0", VA = "0x6846AA0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BD")]
+	[Serialize]
+	[Inspectable]
+	public ColorEnum colorTheme
+	{
+		[Token(Token = "0x6000FBA")]
+		[Address(RVA = "0x6846AB0", Offset = "0x6845AB0", VA = "0x6846AB0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(ColorEnum);
+		}
+		[Token(Token = "0x6000FBB")]
+		[Address(RVA = "0x6846AC0", Offset = "0x6845AC0", VA = "0x6846AC0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6000FB3")]
+	[Address(RVA = "0x68469F0", Offset = "0x68459F0", VA = "0x68469F0")]
+	public StickyNote()
+	{
+	}
+
+	[Token(Token = "0x6000FBC")]
+	[Address(RVA = "0x6846AD0", Offset = "0x6845AD0", VA = "0x6846AD0")]
+	public static Color GetStickyColor(ColorEnum enumValue)
+	{
+		return default(Color);
+	}
+
+	[Token(Token = "0x6000FBD")]
+	[Address(RVA = "0x6846B70", Offset = "0x6845B70", VA = "0x6846B70")]
+	public static Color GetFontColor(ColorEnum enumValue)
+	{
+		return default(Color);
+	}
+}

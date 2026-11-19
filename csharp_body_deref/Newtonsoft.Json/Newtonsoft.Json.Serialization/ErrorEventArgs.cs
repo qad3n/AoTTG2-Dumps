@@ -18,7 +18,7 @@ public class ErrorEventArgs : EventArgs
 	public object? CurrentObject
 	{
 		[Token(Token = "0x60007BC")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x55CF290", Offset = "0x55CE290", VA = "0x55CF290")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,7 +30,7 @@ public class ErrorEventArgs : EventArgs
 	public ErrorContext ErrorContext
 	{
 		[Token(Token = "0x60007BD")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x55CF2A0", Offset = "0x55CE2A0", VA = "0x55CF2A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,7 +39,7 @@ public class ErrorEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60007BE")]
-	[Address(RVA = "0x1C3DB30", Offset = "0x1C3C130", VA = "0x181C3DB30")]
+	[Address(RVA = "0x55CF2B0", Offset = "0x55CE2B0", VA = "0x55CF2B0")]
 	public ErrorEventArgs(object? currentObject, ErrorContext errorContext)
 	{
 	}

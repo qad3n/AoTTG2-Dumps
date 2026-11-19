@@ -18,7 +18,7 @@ public class Toggle : BaseBoolField
 	public new class UxmlFactory : UxmlFactory<Toggle, UxmlTraits>
 	{
 		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x3254C40", Offset = "0x3253240", VA = "0x183254C40")]
+		[Address(RVA = "0x6C41D60", Offset = "0x6C40D60", VA = "0x6C41D60")]
 		public UxmlFactory()
 		{
 		}
@@ -33,13 +33,13 @@ public class Toggle : BaseBoolField
 		private UxmlStringAttributeDescription m_Text;
 
 		[Token(Token = "0x6000A41")]
-		[Address(RVA = "0x3254D40", Offset = "0x3253340", VA = "0x183254D40", Slot = "4")]
+		[Address(RVA = "0x6C41DA0", Offset = "0x6C40DA0", VA = "0x6C41DA0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000A42")]
-		[Address(RVA = "0x3255800", Offset = "0x3253E00", VA = "0x183255800")]
+		[Address(RVA = "0x6C41EC0", Offset = "0x6C40EC0", VA = "0x6C41EC0")]
 		public UxmlTraits()
 		{
 		}
@@ -75,25 +75,25 @@ public class Toggle : BaseBoolField
 	public static readonly string mixedValuesUssClassName;
 
 	[Token(Token = "0x6000A3B")]
-	[Address(RVA = "0x324BAE0", Offset = "0x324A0E0", VA = "0x18324BAE0")]
+	[Address(RVA = "0x6C41850", Offset = "0x6C40850", VA = "0x6C41850")]
 	public Toggle()
 	{
 	}
 
 	[Token(Token = "0x6000A3C")]
-	[Address(RVA = "0x324B9A0", Offset = "0x3249FA0", VA = "0x18324B9A0")]
+	[Address(RVA = "0x6C41860", Offset = "0x6C40860", VA = "0x6C41860")]
 	public Toggle(string label)
 	{
 	}
 
 	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x324B520", Offset = "0x3249B20", VA = "0x18324B520", Slot = "160")]
+	[Address(RVA = "0x6C41980", Offset = "0x6C40980", VA = "0x6C41980", Slot = "160")]
 	protected override void InitLabel()
 	{
 	}
 
 	[Token(Token = "0x6000A3E")]
-	[Address(RVA = "0x324B5A0", Offset = "0x3249BA0", VA = "0x18324B5A0", Slot = "158")]
+	[Address(RVA = "0x6C41A00", Offset = "0x6C40A00", VA = "0x6C41A00", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

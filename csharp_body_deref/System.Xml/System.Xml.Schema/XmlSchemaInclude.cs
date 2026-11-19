@@ -17,13 +17,13 @@ public class XmlSchemaInclude : XmlSchemaExternal
 	private XmlSchemaAnnotation annotation;
 
 	[Token(Token = "0x600169F")]
-	[Address(RVA = "0x266C7B0", Offset = "0x266ADB0", VA = "0x18266C7B0")]
+	[Address(RVA = "0x602D430", Offset = "0x602C430", VA = "0x602D430")]
 	public XmlSchemaInclude()
 	{
 	}
 
 	[Token(Token = "0x60016A0")]
-	[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790", Slot = "10")]
+	[Address(RVA = "0x602D450", Offset = "0x602C450", VA = "0x602D450", Slot = "10")]
 	internal override void AddAnnotation(XmlSchemaAnnotation annotation)
 	{
 	}

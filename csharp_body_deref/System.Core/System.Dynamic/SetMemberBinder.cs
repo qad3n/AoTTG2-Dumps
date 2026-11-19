@@ -10,75 +10,75 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x200027B")]
+[Token(Token = "0x200027C")]
 public abstract class SetMemberBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x17000287")]
+	[Token(Token = "0x17000289")]
 	public sealed override Type ReturnType
 	{
-		[Token(Token = "0x6000C7A")]
-		[Address(RVA = "0x1C79630", Offset = "0x1C77C30", VA = "0x181C79630", Slot = "6")]
+		[Token(Token = "0x6000C85")]
+		[Address(RVA = "0x5E25C20", Offset = "0x5E24C20", VA = "0x5E25C20", Slot = "6")]
 		get
 		{
 			return null;
-		}
-	}
-
-	[Token(Token = "0x17000288")]
-	public string Name
-	{
-		[Token(Token = "0x6000C7B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000289")]
-	public bool IgnoreCase
-	{
-		[Token(Token = "0x6000C7C")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1700028A")]
-	internal sealed override bool IsStandardBinder
+	public string Name
 	{
-		[Token(Token = "0x6000C7E")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6000C86")]
+		[Address(RVA = "0x5E25C50", Offset = "0x5E24C50", VA = "0x5E25C50")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700028B")]
+	public bool IgnoreCase
+	{
+		[Token(Token = "0x6000C87")]
+		[Address(RVA = "0x5E25C60", Offset = "0x5E24C60", VA = "0x5E25C60")]
+		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000C79")]
-	[Address(RVA = "0x2489370", Offset = "0x2487970", VA = "0x182489370")]
+	[Token(Token = "0x1700028C")]
+	internal sealed override bool IsStandardBinder
+	{
+		[Token(Token = "0x6000C89")]
+		[Address(RVA = "0x5E25D50", Offset = "0x5E24D50", VA = "0x5E25D50", Slot = "8")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6000C84")]
+	[Address(RVA = "0x5E25B80", Offset = "0x5E24B80", VA = "0x5E25B80")]
 	protected SetMemberBinder(string name, bool ignoreCase)
 	{
 	}
 
-	[Token(Token = "0x6000C7D")]
-	[Address(RVA = "0x24891E0", Offset = "0x24877E0", VA = "0x1824891E0", Slot = "7")]
+	[Token(Token = "0x6000C88")]
+	[Address(RVA = "0x5E25C70", Offset = "0x5E24C70", VA = "0x5E25C70", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C7F")]
-	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
+	[Token(Token = "0x6000C8A")]
+	[Address(RVA = "0x5E25D60", Offset = "0x5E24D60", VA = "0x5E25D60")]
 	public DynamicMetaObject FallbackSetMember(DynamicMetaObject target, DynamicMetaObject value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C80")]
+	[Token(Token = "0x6000C8B")]
 	public abstract DynamicMetaObject FallbackSetMember(DynamicMetaObject target, DynamicMetaObject value, DynamicMetaObject errorSuggestion);
 }

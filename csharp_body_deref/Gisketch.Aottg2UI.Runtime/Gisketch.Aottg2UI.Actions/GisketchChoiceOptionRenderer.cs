@@ -11,21 +11,21 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D5")]
+[Token(Token = "0x20000DB")]
 public static class GisketchChoiceOptionRenderer
 {
-	[Token(Token = "0x4000455")]
+	[Token(Token = "0x400047C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, Action<GisketchChoiceOptionRenderContext>> Renderers;
 
-	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x18FCE90", Offset = "0x18FB490", VA = "0x1818FCE90")]
+	[Token(Token = "0x60006CD")]
+	[Address(RVA = "0x529ED70", Offset = "0x529DD70", VA = "0x529ED70")]
 	public static void Register(string key, Action<GisketchChoiceOptionRenderContext> renderer)
 	{
 	}
 
-	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x18FCF30", Offset = "0x18FB530", VA = "0x1818FCF30")]
+	[Token(Token = "0x60006CE")]
+	[Address(RVA = "0x5297DF0", Offset = "0x5296DF0", VA = "0x5297DF0")]
 	public static bool TryRender(string key, GisketchChoiceOptionRenderContext context)
 	{
 		return default(bool);

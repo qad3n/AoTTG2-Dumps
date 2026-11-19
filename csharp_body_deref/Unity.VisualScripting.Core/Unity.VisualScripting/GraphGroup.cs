@@ -26,14 +26,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public Rect position
 	{
 		[Token(Token = "0x600040D")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x67A3220", Offset = "0x67A2220", VA = "0x67A3220")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x600040E")]
-		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
+		[Address(RVA = "0x67A3230", Offset = "0x67A2230", VA = "0x67A3230")]
 		[CompilerGenerated]
 		set
 		{
@@ -45,14 +45,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public string label
 	{
 		[Token(Token = "0x600040F")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x67A3240", Offset = "0x67A2240", VA = "0x67A3240")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000410")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x67A3250", Offset = "0x67A2250", VA = "0x67A3250")]
 		[CompilerGenerated]
 		set
 		{
@@ -65,14 +65,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public string comment
 	{
 		[Token(Token = "0x6000411")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x67A3260", Offset = "0x67A2260", VA = "0x67A3260")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000412")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x67A3270", Offset = "0x67A2270", VA = "0x67A3270")]
 		[CompilerGenerated]
 		set
 		{
@@ -85,14 +85,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public Color color
 	{
 		[Token(Token = "0x6000413")]
-		[Address(RVA = "0x1C5E410", Offset = "0x1C5CA10", VA = "0x181C5E410")]
+		[Address(RVA = "0x67A3280", Offset = "0x67A2280", VA = "0x67A3280")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000414")]
-		[Address(RVA = "0x1C5E490", Offset = "0x1C5CA90", VA = "0x181C5E490")]
+		[Address(RVA = "0x67A3290", Offset = "0x67A2290", VA = "0x67A3290")]
 		[CompilerGenerated]
 		set
 		{
@@ -100,7 +100,7 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	}
 
 	[Token(Token = "0x600040C")]
-	[Address(RVA = "0x2DA8570", Offset = "0x2DA6B70", VA = "0x182DA8570")]
+	[Address(RVA = "0x67A3180", Offset = "0x67A2180", VA = "0x67A3180")]
 	public GraphGroup()
 	{
 	}

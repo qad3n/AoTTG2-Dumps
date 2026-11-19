@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.HashCode
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,164 +10,164 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000F1")]
+[Token(Token = "0x20000C9")]
 public struct HashCode
 {
-	[Token(Token = "0x40003EC")]
+	[Token(Token = "0x4000347")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly uint s_seed;
 
-	[Token(Token = "0x40003ED")]
+	[Token(Token = "0x4000348")]
 	[FieldOffset(Offset = "0x0")]
 	private uint _v1;
 
-	[Token(Token = "0x40003EE")]
+	[Token(Token = "0x4000349")]
 	[FieldOffset(Offset = "0x4")]
 	private uint _v2;
 
-	[Token(Token = "0x40003EF")]
+	[Token(Token = "0x400034A")]
 	[FieldOffset(Offset = "0x8")]
 	private uint _v3;
 
-	[Token(Token = "0x40003F0")]
+	[Token(Token = "0x400034B")]
 	[FieldOffset(Offset = "0xC")]
 	private uint _v4;
 
-	[Token(Token = "0x40003F1")]
+	[Token(Token = "0x400034C")]
 	[FieldOffset(Offset = "0x10")]
 	private uint _queue1;
 
-	[Token(Token = "0x40003F2")]
+	[Token(Token = "0x400034D")]
 	[FieldOffset(Offset = "0x14")]
 	private uint _queue2;
 
-	[Token(Token = "0x40003F3")]
+	[Token(Token = "0x400034E")]
 	[FieldOffset(Offset = "0x18")]
 	private uint _queue3;
 
-	[Token(Token = "0x40003F4")]
+	[Token(Token = "0x400034F")]
 	[FieldOffset(Offset = "0x1C")]
 	private uint _length;
 
-	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x1B27770", Offset = "0x1B25D70", VA = "0x181B27770")]
+	[Token(Token = "0x600078B")]
+	[Address(RVA = "0x54B4A30", Offset = "0x54B3A30", VA = "0x54B4A30")]
 	private static uint GenerateGlobalSeed()
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60007B1")]
+	[Token(Token = "0x600078C")]
 	public static int Combine<T1, T2>(T1 value1, T2 value2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007B2")]
+	[Token(Token = "0x600078D")]
 	public static int Combine<T1, T2, T3>(T1 value1, T2 value2, T3 value3)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007B3")]
+	[Token(Token = "0x600078E")]
 	public static int Combine<T1, T2, T3, T4>(T1 value1, T2 value2, T3 value3, T4 value4)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007B4")]
+	[Token(Token = "0x600078F")]
 	public static int Combine<T1, T2, T3, T4, T5, T6>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007B5")]
+	[Token(Token = "0x6000790")]
 	public static int Combine<T1, T2, T3, T4, T5, T6, T7, T8>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7, T8 value8)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x1B27A20", Offset = "0x1B26020", VA = "0x181B27A20")]
+	[Token(Token = "0x6000791")]
+	[Address(RVA = "0x54B4A50", Offset = "0x54B3A50", VA = "0x54B4A50")]
 	private static uint Rol(uint value, int count)
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x1B277F0", Offset = "0x1B25DF0", VA = "0x181B277F0")]
+	[Token(Token = "0x6000792")]
+	[Address(RVA = "0x54B4A60", Offset = "0x54B3A60", VA = "0x54B4A60")]
 	private static void Initialize(out uint v1, out uint v2, out uint v3, out uint v4)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007B8")]
-	[Address(RVA = "0x1B27A40", Offset = "0x1B26040", VA = "0x181B27A40")]
+	[Token(Token = "0x6000793")]
+	[Address(RVA = "0x54B4AF0", Offset = "0x54B3AF0", VA = "0x54B4AF0")]
 	private static uint Round(uint hash, uint input)
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007B9")]
-	[Address(RVA = "0x1B279B0", Offset = "0x1B25FB0", VA = "0x181B279B0")]
+	[Token(Token = "0x6000794")]
+	[Address(RVA = "0x54B4B50", Offset = "0x54B3B50", VA = "0x54B4B50")]
 	private static uint QueueRound(uint hash, uint queuedValue)
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007BA")]
-	[Address(RVA = "0x1B27930", Offset = "0x1B25F30", VA = "0x181B27930")]
+	[Token(Token = "0x6000795")]
+	[Address(RVA = "0x54B4BB0", Offset = "0x54B3BB0", VA = "0x54B4BB0")]
 	private static uint MixState(uint v1, uint v2, uint v3, uint v4)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60007BB")]
-	[Address(RVA = "0x1B278A0", Offset = "0x1B25EA0", VA = "0x181B278A0")]
+	[Token(Token = "0x6000796")]
+	[Address(RVA = "0x54B4C20", Offset = "0x54B3C20", VA = "0x54B4C20")]
 	private static uint MixEmptyState()
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007BC")]
-	[Address(RVA = "0x1B27900", Offset = "0x1B25F00", VA = "0x181B27900")]
+	[Token(Token = "0x6000797")]
+	[Address(RVA = "0x54B4C70", Offset = "0x54B3C70", VA = "0x54B4C70")]
 	private static uint MixFinal(uint hash)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60007BD")]
+	[Token(Token = "0x6000798")]
 	public void Add<T>(T value)
 	{
 	}
 
-	[Token(Token = "0x60007BE")]
-	[Address(RVA = "0x1B27580", Offset = "0x1B25B80", VA = "0x181B27580")]
+	[Token(Token = "0x6000799")]
+	[Address(RVA = "0x54B4CA0", Offset = "0x54B3CA0", VA = "0x54B4CA0")]
 	private void Add(int value)
 	{
 	}
 
-	[Token(Token = "0x60007BF")]
-	[Address(RVA = "0x1B27AB0", Offset = "0x1B260B0", VA = "0x181B27AB0")]
+	[Token(Token = "0x600079A")]
+	[Address(RVA = "0x54B4F30", Offset = "0x54B3F30", VA = "0x54B4F30")]
 	public int ToHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007C0")]
-	[Address(RVA = "0x1B277A0", Offset = "0x1B25DA0", VA = "0x181B277A0", Slot = "2")]
+	[Token(Token = "0x600079B")]
+	[Address(RVA = "0x54B52C0", Offset = "0x54B42C0", VA = "0x54B52C0", Slot = "2")]
 	[Obsolete("HashCode is a mutable struct and should not be compared with other HashCodes. Use ToHashCode to retrieve the computed hash code.", true)]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007C1")]
-	[Address(RVA = "0x1B27720", Offset = "0x1B25D20", VA = "0x181B27720", Slot = "0")]
+	[Token(Token = "0x600079C")]
+	[Address(RVA = "0x54B5330", Offset = "0x54B4330", VA = "0x54B5330", Slot = "0")]
 	[Obsolete("HashCode is a mutable struct and should not be compared with other HashCodes.", true)]
 	public override bool Equals(object obj)
 	{

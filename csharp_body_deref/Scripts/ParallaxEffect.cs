@@ -8,68 +8,68 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-[Token(Token = "0x2000024")]
+[Token(Token = "0x2000023")]
 public class ParallaxEffect : MonoBehaviour
 {
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x40000CE")]
 	[FieldOffset(Offset = "0x20")]
 	public float parallaxIntensity;
 
-	[Token(Token = "0x40000C8")]
+	[Token(Token = "0x40000CF")]
 	[FieldOffset(Offset = "0x24")]
 	public float smoothTime;
 
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000D0")]
 	[FieldOffset(Offset = "0x28")]
 	public float scale;
 
-	[Token(Token = "0x40000CA")]
+	[Token(Token = "0x40000D1")]
 	[FieldOffset(Offset = "0x2C")]
 	private Vector2 currentVelocity;
 
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000D2")]
 	[FieldOffset(Offset = "0x38")]
 	private RectTransform rectTransform;
 
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000D3")]
 	[FieldOffset(Offset = "0x40")]
 	private Vector2 lastValidMousePosition;
 
-	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x1DAB910", Offset = "0x1DA9F10", VA = "0x181DAB910")]
+	[Token(Token = "0x60000DE")]
+	[Address(RVA = "0x574DD80", Offset = "0x574CD80", VA = "0x574DD80")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x1DABC70", Offset = "0x1DAA270", VA = "0x181DABC70")]
+	[Token(Token = "0x60000DF")]
+	[Address(RVA = "0x574DE60", Offset = "0x574CE60", VA = "0x574DE60")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x1DABB00", Offset = "0x1DAA100", VA = "0x181DABB00")]
+	[Token(Token = "0x60000E0")]
+	[Address(RVA = "0x574E0B0", Offset = "0x574D0B0", VA = "0x574E0B0")]
 	private Vector2 GetConstrainedTargetPosition(Vector2 mousePosition)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x1DABA20", Offset = "0x1DAA020", VA = "0x181DABA20")]
+	[Token(Token = "0x60000E1")]
+	[Address(RVA = "0x574E160", Offset = "0x574D160", VA = "0x574E160")]
 	private Vector2 ClampPosition(Vector2 position)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x1DABC40", Offset = "0x1DAA240", VA = "0x181DABC40")]
+	[Token(Token = "0x60000E2")]
+	[Address(RVA = "0x574E1F0", Offset = "0x574D1F0", VA = "0x574E1F0")]
 	private float MapRange(float value, float fromSource, float toSource, float fromTarget, float toTarget)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x1DABF80", Offset = "0x1DAA580", VA = "0x181DABF80")]
+	[Token(Token = "0x60000E3")]
+	[Address(RVA = "0x574E210", Offset = "0x574D210", VA = "0x574E210")]
 	public ParallaxEffect()
 	{
 	}

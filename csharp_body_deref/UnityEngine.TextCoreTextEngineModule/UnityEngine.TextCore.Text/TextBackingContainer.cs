@@ -24,7 +24,7 @@ internal struct TextBackingContainer
 	public int Capacity
 	{
 		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x128C570", Offset = "0x128AB70", VA = "0x18128C570")]
+		[Address(RVA = "0x6A48680", Offset = "0x6A47680", VA = "0x6A48680")]
 		get
 		{
 			return default(int);
@@ -35,13 +35,13 @@ internal struct TextBackingContainer
 	public int Count
 	{
 		[Token(Token = "0x6000244")]
-		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
+		[Address(RVA = "0x6A486A0", Offset = "0x6A476A0", VA = "0x6A486A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x6A486B0", Offset = "0x6A476B0", VA = "0x6A486B0")]
 		set
 		{
 		}
@@ -51,26 +51,26 @@ internal struct TextBackingContainer
 	public uint this[int index]
 	{
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x2D47AD0", Offset = "0x2D460D0", VA = "0x182D47AD0")]
+		[Address(RVA = "0x6A486C0", Offset = "0x6A476C0", VA = "0x6A486C0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x3045810", Offset = "0x3043E10", VA = "0x183045810")]
+		[Address(RVA = "0x6A486F0", Offset = "0x6A476F0", VA = "0x6A486F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x30457B0", Offset = "0x3043DB0", VA = "0x1830457B0")]
+	[Address(RVA = "0x6A487E0", Offset = "0x6A477E0", VA = "0x6A487E0")]
 	public TextBackingContainer(int size)
 	{
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x3045740", Offset = "0x3043D40", VA = "0x183045740")]
+	[Address(RVA = "0x6A48780", Offset = "0x6A47780", VA = "0x6A48780")]
 	public void Resize(int size)
 	{
 	}

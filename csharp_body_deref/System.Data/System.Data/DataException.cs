@@ -15,25 +15,25 @@ namespace System.Data;
 public class DataException : SystemException
 {
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BA90", Offset = "0x5E6AA90", VA = "0x5E6BA90")]
 	protected DataException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x24C8870", Offset = "0x24C6E70", VA = "0x1824C8870")]
+	[Address(RVA = "0x5E6BAA0", Offset = "0x5E6AAA0", VA = "0x5E6BAA0")]
 	public DataException()
 	{
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x24C8850", Offset = "0x24C6E50", VA = "0x1824C8850")]
+	[Address(RVA = "0x5E6BAE0", Offset = "0x5E6AAE0", VA = "0x5E6BAE0")]
 	public DataException(string s)
 	{
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x19E0110", Offset = "0x19DE710", VA = "0x1819E0110")]
+	[Address(RVA = "0x5E6BB00", Offset = "0x5E6AB00", VA = "0x5E6BB00")]
 	public DataException(string s, Exception innerException)
 	{
 	}

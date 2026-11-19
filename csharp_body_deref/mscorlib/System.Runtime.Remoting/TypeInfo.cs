@@ -10,40 +10,40 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting;
 
 [Serializable]
-[Token(Token = "0x2000384")]
+[Token(Token = "0x200035D")]
 internal class TypeInfo : IRemotingTypeInfo
 {
-	[Token(Token = "0x4000ECB")]
+	[Token(Token = "0x4000E2B")]
 	[FieldOffset(Offset = "0x10")]
 	private string serverType;
 
-	[Token(Token = "0x4000ECC")]
+	[Token(Token = "0x4000E2C")]
 	[FieldOffset(Offset = "0x18")]
 	private string[] serverHierarchy;
 
-	[Token(Token = "0x4000ECD")]
+	[Token(Token = "0x4000E2D")]
 	[FieldOffset(Offset = "0x20")]
 	private string[] interfacesImplemented;
 
-	[Token(Token = "0x1700034F")]
+	[Token(Token = "0x1700034E")]
 	public string TypeName
 	{
-		[Token(Token = "0x6001D4A")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Token(Token = "0x6001D20")]
+		[Address(RVA = "0x53792E0", Offset = "0x53782E0", VA = "0x53792E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D49")]
-	[Address(RVA = "0x1A0AE30", Offset = "0x1A09430", VA = "0x181A0AE30")]
+	[Token(Token = "0x6001D1F")]
+	[Address(RVA = "0x5369E40", Offset = "0x5368E40", VA = "0x5369E40")]
 	public TypeInfo(Type type)
 	{
 	}
 
-	[Token(Token = "0x6001D4B")]
-	[Address(RVA = "0x1A0ABF0", Offset = "0x1A091F0", VA = "0x181A0ABF0", Slot = "5")]
+	[Token(Token = "0x6001D21")]
+	[Address(RVA = "0x53792F0", Offset = "0x53782F0", VA = "0x53792F0", Slot = "5")]
 	public bool CanCastTo(Type fromType, object o)
 	{
 		return default(bool);

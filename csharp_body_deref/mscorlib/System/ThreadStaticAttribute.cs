@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200013E")]
+[Token(Token = "0x2000116")]
 [AttributeUsage(AttributeTargets.Field, Inherited = false)]
 public class ThreadStaticAttribute : Attribute
 {
-	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000A4E")]
+	[Address(RVA = "0x54D5F30", Offset = "0x54D4F30", VA = "0x54D5F30")]
 	public ThreadStaticAttribute()
 	{
 	}

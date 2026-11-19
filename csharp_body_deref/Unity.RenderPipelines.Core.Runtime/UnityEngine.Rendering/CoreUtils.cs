@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CoreUtils
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -150,7 +150,7 @@ public static class CoreUtils
 	public static Cubemap blackCubeTexture
 	{
 		[Token(Token = "0x6000DA6")]
-		[Address(RVA = "0x2B56A60", Offset = "0x2B55060", VA = "0x182B56A60")]
+		[Address(RVA = "0x6540D90", Offset = "0x653FD90", VA = "0x6540D90")]
 		get
 		{
 			return null;
@@ -161,7 +161,7 @@ public static class CoreUtils
 	public static Cubemap magentaCubeTexture
 	{
 		[Token(Token = "0x6000DA7")]
-		[Address(RVA = "0x2B57310", Offset = "0x2B55910", VA = "0x182B57310")]
+		[Address(RVA = "0x6541050", Offset = "0x6540050", VA = "0x6541050")]
 		get
 		{
 			return null;
@@ -172,7 +172,7 @@ public static class CoreUtils
 	public static CubemapArray magentaCubeTextureArray
 	{
 		[Token(Token = "0x6000DA8")]
-		[Address(RVA = "0x2B570E0", Offset = "0x2B556E0", VA = "0x182B570E0")]
+		[Address(RVA = "0x6541330", Offset = "0x6540330", VA = "0x6541330")]
 		get
 		{
 			return null;
@@ -183,7 +183,7 @@ public static class CoreUtils
 	public static Cubemap whiteCubeTexture
 	{
 		[Token(Token = "0x6000DA9")]
-		[Address(RVA = "0x2B574F0", Offset = "0x2B55AF0", VA = "0x182B574F0")]
+		[Address(RVA = "0x6541700", Offset = "0x6540700", VA = "0x6541700")]
 		get
 		{
 			return null;
@@ -194,7 +194,7 @@ public static class CoreUtils
 	public static RenderTexture emptyUAV
 	{
 		[Token(Token = "0x6000DAA")]
-		[Address(RVA = "0x2B56F60", Offset = "0x2B55560", VA = "0x182B56F60")]
+		[Address(RVA = "0x65419C0", Offset = "0x65409C0", VA = "0x65419C0")]
 		get
 		{
 			return null;
@@ -205,7 +205,7 @@ public static class CoreUtils
 	public static GraphicsBuffer emptyBuffer
 	{
 		[Token(Token = "0x6000DAB")]
-		[Address(RVA = "0x2B56E20", Offset = "0x2B55420", VA = "0x182B56E20")]
+		[Address(RVA = "0x6541B10", Offset = "0x6540B10", VA = "0x6541B10")]
 		get
 		{
 			return null;
@@ -216,7 +216,7 @@ public static class CoreUtils
 	public static Texture3D blackVolumeTexture
 	{
 		[Token(Token = "0x6000DAC")]
-		[Address(RVA = "0x2B56C40", Offset = "0x2B55240", VA = "0x182B56C40")]
+		[Address(RVA = "0x6541C50", Offset = "0x6540C50", VA = "0x6541C50")]
 		get
 		{
 			return null;
@@ -227,7 +227,7 @@ public static class CoreUtils
 	internal static Texture3D whiteVolumeTexture
 	{
 		[Token(Token = "0x6000DAD")]
-		[Address(RVA = "0x2B576D0", Offset = "0x2B55CD0", VA = "0x182B576D0")]
+		[Address(RVA = "0x6541E00", Offset = "0x6540E00", VA = "0x6541E00")]
 		get
 		{
 			return null;
@@ -235,337 +235,337 @@ public static class CoreUtils
 	}
 
 	[Token(Token = "0x6000DAE")]
-	[Address(RVA = "0x2B51610", Offset = "0x2B4FC10", VA = "0x182B51610")]
+	[Address(RVA = "0x6541FB0", Offset = "0x6540FB0", VA = "0x6541FB0")]
 	public static void ClearRenderTarget(CommandBuffer cmd, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DAF")]
-	[Address(RVA = "0x2B52790", Offset = "0x2B50D90", VA = "0x182B52790")]
+	[Address(RVA = "0x6541FE0", Offset = "0x6540FE0", VA = "0x6541FE0")]
 	private static int FixupDepthSlice(int depthSlice, RTHandle buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000DB0")]
-	[Address(RVA = "0x2B52770", Offset = "0x2B50D70", VA = "0x182B52770")]
+	[Address(RVA = "0x6542020", Offset = "0x6541020", VA = "0x6542020")]
 	private static int FixupDepthSlice(int depthSlice, CubemapFace cubemapFace)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000DB1")]
-	[Address(RVA = "0x2B54930", Offset = "0x2B52F30", VA = "0x182B54930")]
+	[Address(RVA = "0x6542030", Offset = "0x6541030", VA = "0x6542030")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DB2")]
-	[Address(RVA = "0x2B54B80", Offset = "0x2B53180", VA = "0x182B54B80")]
+	[Address(RVA = "0x6542140", Offset = "0x6541140", VA = "0x6542140")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, ClearFlag clearFlag = ClearFlag.None, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DB3")]
-	[Address(RVA = "0x2B56410", Offset = "0x2B54A10", VA = "0x182B56410")]
+	[Address(RVA = "0x65422A0", Offset = "0x65412A0", VA = "0x65422A0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderTargetIdentifier depthBuffer, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DB4")]
-	[Address(RVA = "0x2B54A20", Offset = "0x2B53020", VA = "0x182B54A20")]
+	[Address(RVA = "0x65424D0", Offset = "0x65414D0", VA = "0x65424D0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderTargetIdentifier depthBuffer, ClearFlag clearFlag, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DB5")]
-	[Address(RVA = "0x2B559F0", Offset = "0x2B53FF0", VA = "0x182B559F0")]
+	[Address(RVA = "0x6542390", Offset = "0x6541390", VA = "0x6542390")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderTargetIdentifier depthBuffer, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DB6")]
-	[Address(RVA = "0x2B54850", Offset = "0x2B52E50", VA = "0x182B54850")]
+	[Address(RVA = "0x6542650", Offset = "0x6541650", VA = "0x6542650")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RenderTargetIdentifier depthBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000DB7")]
-	[Address(RVA = "0x2B54740", Offset = "0x2B52D40", VA = "0x182B54740")]
+	[Address(RVA = "0x6542830", Offset = "0x6541830", VA = "0x6542830")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RenderTargetIdentifier depthBuffer, ClearFlag clearFlag = ClearFlag.None)
 	{
 	}
 
 	[Token(Token = "0x6000DB8")]
-	[Address(RVA = "0x2B55B20", Offset = "0x2B54120", VA = "0x182B55B20")]
+	[Address(RVA = "0x6542750", Offset = "0x6541750", VA = "0x6542750")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RenderTargetIdentifier depthBuffer, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DB9")]
-	[Address(RVA = "0x2B56530", Offset = "0x2B54B30", VA = "0x182B56530")]
+	[Address(RVA = "0x6542970", Offset = "0x6541970", VA = "0x6542970")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DBA")]
-	[Address(RVA = "0x2B54D90", Offset = "0x2B53390", VA = "0x182B54D90")]
+	[Address(RVA = "0x6542A50", Offset = "0x6541A50", VA = "0x6542A50")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DBB")]
-	[Address(RVA = "0x2B54140", Offset = "0x2B52740", VA = "0x182B54140")]
+	[Address(RVA = "0x6542B80", Offset = "0x6541B80", VA = "0x6542B80")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DBC")]
-	[Address(RVA = "0x2B56050", Offset = "0x2B54650", VA = "0x182B56050")]
+	[Address(RVA = "0x6542D60", Offset = "0x6541D60", VA = "0x6542D60")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, ClearFlag clearFlag)
 	{
 	}
 
 	[Token(Token = "0x6000DBD")]
-	[Address(RVA = "0x2B562E0", Offset = "0x2B548E0", VA = "0x182B562E0")]
+	[Address(RVA = "0x6542EA0", Offset = "0x6541EA0", VA = "0x6542EA0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderTargetIdentifier depthBuffer, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DBE")]
-	[Address(RVA = "0x2B53F50", Offset = "0x2B52550", VA = "0x182B53F50")]
+	[Address(RVA = "0x6542FB0", Offset = "0x6541FB0", VA = "0x6542FB0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderTargetIdentifier depthBuffer, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DBF")]
-	[Address(RVA = "0x2B55C00", Offset = "0x2B54200", VA = "0x182B55C00")]
+	[Address(RVA = "0x6543160", Offset = "0x6542160", VA = "0x6543160")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderTargetIdentifier depthBuffer, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC0")]
-	[Address(RVA = "0x2B54CA0", Offset = "0x2B532A0", VA = "0x182B54CA0")]
+	[Address(RVA = "0x65433F0", Offset = "0x65423F0", VA = "0x65433F0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier buffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DC1")]
-	[Address(RVA = "0x2B55250", Offset = "0x2B53850", VA = "0x182B55250")]
+	[Address(RVA = "0x65434E0", Offset = "0x65424E0", VA = "0x65434E0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier colorBuffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderTargetIdentifier depthBuffer, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, ClearFlag clearFlag)
 	{
 	}
 
 	[Token(Token = "0x6000DC2")]
-	[Address(RVA = "0x2B566F0", Offset = "0x2B54CF0", VA = "0x182B566F0")]
+	[Address(RVA = "0x6543660", Offset = "0x6542660", VA = "0x6543660")]
 	private static void SetViewportAndClear(CommandBuffer cmd, RTHandle buffer, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DC3")]
-	[Address(RVA = "0x2B55E80", Offset = "0x2B54480", VA = "0x182B55E80")]
+	[Address(RVA = "0x65437D0", Offset = "0x65427D0", VA = "0x65437D0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle buffer, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC4")]
-	[Address(RVA = "0x2B55100", Offset = "0x2B53700", VA = "0x182B55100")]
+	[Address(RVA = "0x65438E0", Offset = "0x65428E0", VA = "0x65438E0")]
 	public static void SetRenderTarget(ComputeCommandBuffer cmd, RTHandle buffer, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC5")]
-	[Address(RVA = "0x2B56600", Offset = "0x2B54C00", VA = "0x182B56600")]
+	[Address(RVA = "0x6543990", Offset = "0x6542990", VA = "0x6543990")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle buffer, ClearFlag clearFlag = ClearFlag.None, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC6")]
-	[Address(RVA = "0x2B551B0", Offset = "0x2B537B0", VA = "0x182B551B0")]
+	[Address(RVA = "0x6543A10", Offset = "0x6542A10", VA = "0x6543A10")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle colorBuffer, RTHandle depthBuffer, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC7")]
-	[Address(RVA = "0x2B53EB0", Offset = "0x2B524B0", VA = "0x182B53EB0")]
+	[Address(RVA = "0x6543CD0", Offset = "0x6542CD0", VA = "0x6543CD0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle colorBuffer, RTHandle depthBuffer, ClearFlag clearFlag, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC8")]
-	[Address(RVA = "0x2B553A0", Offset = "0x2B539A0", VA = "0x182B553A0")]
+	[Address(RVA = "0x6543AA0", Offset = "0x6542AA0", VA = "0x6543AA0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle colorBuffer, RTHandle depthBuffer, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DC9")]
-	[Address(RVA = "0x2B544A0", Offset = "0x2B52AA0", VA = "0x182B544A0")]
+	[Address(RVA = "0x6543D60", Offset = "0x6542D60", VA = "0x6543D60")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle buffer, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DCA")]
-	[Address(RVA = "0x2B55650", Offset = "0x2B53C50", VA = "0x182B55650")]
+	[Address(RVA = "0x6543E80", Offset = "0x6542E80", VA = "0x6543E80")]
 	public static void SetRenderTarget(CommandBuffer cmd, RTHandle colorBuffer, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RTHandle depthBuffer, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction, ClearFlag clearFlag, Color clearColor, int miplevel = 0, CubemapFace cubemapFace = CubemapFace.Unknown, int depthSlice = -1)
 	{
 	}
 
 	[Token(Token = "0x6000DCB")]
-	[Address(RVA = "0x2B566B0", Offset = "0x2B54CB0", VA = "0x182B566B0")]
+	[Address(RVA = "0x6544070", Offset = "0x6543070", VA = "0x6544070")]
 	public static void SetShadingRateFragmentSize(CommandBuffer cmd, ShadingRateFragmentSize baseShadingRateFragmentSize)
 	{
 	}
 
 	[Token(Token = "0x6000DCC")]
-	[Address(RVA = "0x2B56690", Offset = "0x2B54C90", VA = "0x182B56690")]
+	[Address(RVA = "0x6544090", Offset = "0x6543090", VA = "0x6544090")]
 	public static void SetShadingRateCombiner(CommandBuffer cmd, ShadingRateCombinerStage stage, ShadingRateCombiner combiner)
 	{
 	}
 
 	[Token(Token = "0x6000DCD")]
-	[Address(RVA = "0x2B566D0", Offset = "0x2B54CD0", VA = "0x182B566D0")]
+	[Address(RVA = "0x65440B0", Offset = "0x65430B0", VA = "0x65440B0")]
 	public static void SetShadingRateImage(CommandBuffer cmd, in RenderTargetIdentifier shadingRateImage)
 	{
 	}
 
 	[Token(Token = "0x6000DCE")]
-	[Address(RVA = "0x2B54300", Offset = "0x2B52900", VA = "0x182B54300")]
+	[Address(RVA = "0x65440D0", Offset = "0x65430D0", VA = "0x65440D0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RTHandle depthBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000DCF")]
-	[Address(RVA = "0x2B54EE0", Offset = "0x2B534E0", VA = "0x182B54EE0")]
+	[Address(RVA = "0x6544230", Offset = "0x6543230", VA = "0x6544230")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RTHandle depthBuffer, ClearFlag clearFlag = ClearFlag.None)
 	{
 	}
 
 	[Token(Token = "0x6000DD0")]
-	[Address(RVA = "0x2B56150", Offset = "0x2B54750", VA = "0x182B56150")]
+	[Address(RVA = "0x65443B0", Offset = "0x65433B0", VA = "0x65443B0")]
 	public static void SetRenderTarget(CommandBuffer cmd, RenderTargetIdentifier[] colorBuffers, RTHandle depthBuffer, ClearFlag clearFlag, Color clearColor)
 	{
 	}
 
 	[Token(Token = "0x6000DD1")]
-	[Address(RVA = "0x2B56800", Offset = "0x2B54E00", VA = "0x182B56800")]
+	[Address(RVA = "0x6543760", Offset = "0x6542760", VA = "0x6543760")]
 	public static void SetViewport(CommandBuffer cmd, RTHandle target)
 	{
 	}
 
 	[Token(Token = "0x6000DD2")]
-	[Address(RVA = "0x2B52F90", Offset = "0x2B51590", VA = "0x182B52F90")]
+	[Address(RVA = "0x6544470", Offset = "0x6543470", VA = "0x6544470")]
 	public static string GetRenderTargetAutoName(int width, int height, int depth, RenderTextureFormat format, string name, bool mips = false, bool enableMSAA = false, MSAASamples msaaSamples = MSAASamples.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD3")]
-	[Address(RVA = "0x2B52EB0", Offset = "0x2B514B0", VA = "0x182B52EB0")]
+	[Address(RVA = "0x65447B0", Offset = "0x65437B0", VA = "0x65447B0")]
 	public static string GetRenderTargetAutoName(int width, int height, int depth, GraphicsFormat format, string name, bool mips = false, bool enableMSAA = false, MSAASamples msaaSamples = MSAASamples.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD4")]
-	[Address(RVA = "0x2B52DB0", Offset = "0x2B513B0", VA = "0x182B52DB0")]
+	[Address(RVA = "0x6544890", Offset = "0x6543890", VA = "0x6544890")]
 	public static string GetRenderTargetAutoName(int width, int height, int depth, GraphicsFormat format, TextureDimension dim, string name, bool mips = false, bool enableMSAA = false, MSAASamples msaaSamples = MSAASamples.None, bool dynamicRes = false, bool dynamicResExplicit = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD5")]
-	[Address(RVA = "0x2B52B60", Offset = "0x2B51160", VA = "0x182B52B60")]
+	[Address(RVA = "0x6544550", Offset = "0x6543550", VA = "0x6544550")]
 	private static string GetRenderTargetAutoName(int width, int height, int depth, string format, TextureDimension dim, string name, bool mips, bool enableMSAA, MSAASamples msaaSamples, bool dynamicRes, bool dynamicResExplicit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD6")]
-	[Address(RVA = "0x2B53130", Offset = "0x2B51730", VA = "0x182B53130")]
+	[Address(RVA = "0x6544980", Offset = "0x6543980", VA = "0x6544980")]
 	public static string GetTextureAutoName(int width, int height, TextureFormat format, TextureDimension dim = TextureDimension.None, string name = "", bool mips = false, int depth = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD7")]
-	[Address(RVA = "0x2B53070", Offset = "0x2B51670", VA = "0x182B53070")]
+	[Address(RVA = "0x6544EB0", Offset = "0x6543EB0", VA = "0x6544EB0")]
 	public static string GetTextureAutoName(int width, int height, GraphicsFormat format, TextureDimension dim = TextureDimension.None, string name = "", bool mips = false, int depth = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD8")]
-	[Address(RVA = "0x2B531F0", Offset = "0x2B517F0", VA = "0x182B531F0")]
+	[Address(RVA = "0x6544A40", Offset = "0x6543A40", VA = "0x6544A40")]
 	private static string GetTextureAutoName(int width, int height, string format, TextureDimension dim = TextureDimension.None, string name = "", bool mips = false, int depth = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DD9")]
-	[Address(RVA = "0x2B51390", Offset = "0x2B4F990", VA = "0x182B51390")]
+	[Address(RVA = "0x6544F70", Offset = "0x6543F70", VA = "0x6544F70")]
 	public static void ClearCubemap(CommandBuffer cmd, RenderTexture renderTexture, Color clearColor, bool clearMips = false)
 	{
 	}
 
 	[Token(Token = "0x6000DDA")]
-	[Address(RVA = "0x2B52300", Offset = "0x2B50900", VA = "0x182B52300")]
+	[Address(RVA = "0x6545780", Offset = "0x6544780", VA = "0x6545780")]
 	public static void DrawFullScreen(CommandBuffer commandBuffer, Material material, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DDB")]
-	[Address(RVA = "0x2B51F50", Offset = "0x2B50550", VA = "0x182B51F50")]
+	[Address(RVA = "0x6545860", Offset = "0x6544860", VA = "0x6545860")]
 	public static void DrawFullScreen(RasterCommandBuffer commandBuffer, Material material, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DDC")]
-	[Address(RVA = "0x2B523C0", Offset = "0x2B509C0", VA = "0x182B523C0")]
+	[Address(RVA = "0x65459A0", Offset = "0x65449A0", VA = "0x65459A0")]
 	public static void DrawFullScreen(CommandBuffer commandBuffer, Material material, RenderTargetIdentifier colorBuffer, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DDD")]
-	[Address(RVA = "0x2B524D0", Offset = "0x2B50AD0", VA = "0x182B524D0")]
+	[Address(RVA = "0x6545AC0", Offset = "0x6544AC0", VA = "0x6545AC0")]
 	public static void DrawFullScreen(CommandBuffer commandBuffer, Material material, RenderTargetIdentifier colorBuffer, RenderTargetIdentifier depthStencilBuffer, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DDE")]
-	[Address(RVA = "0x2B52050", Offset = "0x2B50650", VA = "0x182B52050")]
+	[Address(RVA = "0x6545C00", Offset = "0x6544C00", VA = "0x6545C00")]
 	public static void DrawFullScreen(CommandBuffer commandBuffer, Material material, RenderTargetIdentifier[] colorBuffers, RenderTargetIdentifier depthStencilBuffer, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DDF")]
-	[Address(RVA = "0x2B52170", Offset = "0x2B50770", VA = "0x182B52170")]
+	[Address(RVA = "0x6545D20", Offset = "0x6544D20", VA = "0x6545D20")]
 	public static void DrawFullScreen(CommandBuffer commandBuffer, Material material, RenderTargetIdentifier[] colorBuffers, [Optional] MaterialPropertyBlock properties, int shaderPassId = 0)
 	{
 	}
 
 	[Token(Token = "0x6000DE0")]
-	[Address(RVA = "0x2B516E0", Offset = "0x2B4FCE0", VA = "0x182B516E0")]
+	[Address(RVA = "0x6545EC0", Offset = "0x6544EC0", VA = "0x6545EC0")]
 	public static Color ConvertSRGBToActiveColorSpace(Color color)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000DE1")]
-	[Address(RVA = "0x2B51650", Offset = "0x2B4FC50", VA = "0x182B51650")]
+	[Address(RVA = "0x6545F40", Offset = "0x6544F40", VA = "0x6545F40")]
 	public static Color ConvertLinearToActiveColorSpace(Color color)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000DE2")]
-	[Address(RVA = "0x2B51BB0", Offset = "0x2B501B0", VA = "0x182B51BB0")]
+	[Address(RVA = "0x6545FC0", Offset = "0x6544FC0", VA = "0x6545FC0")]
 	public static Material CreateEngineMaterial(string shaderPath)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DE3")]
-	[Address(RVA = "0x2B51DE0", Offset = "0x2B503E0", VA = "0x182B51DE0")]
+	[Address(RVA = "0x6546120", Offset = "0x6545120", VA = "0x6546120")]
 	public static Material CreateEngineMaterial(Shader shader)
 	{
 		return null;
@@ -583,49 +583,49 @@ public static class CoreUtils
 	}
 
 	[Token(Token = "0x6000DE6")]
-	[Address(RVA = "0x2B53E80", Offset = "0x2B52480", VA = "0x182B53E80")]
+	[Address(RVA = "0x6546200", Offset = "0x6545200", VA = "0x6546200")]
 	public static void SetKeyword(CommandBuffer cmd, string keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DE7")]
-	[Address(RVA = "0x2B53D30", Offset = "0x2B52330", VA = "0x182B53D30")]
+	[Address(RVA = "0x6546230", Offset = "0x6545230", VA = "0x6546230")]
 	public static void SetKeyword(CommandBuffer cmd, ComputeShader cs, string keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DE8")]
-	[Address(RVA = "0x2B53E10", Offset = "0x2B52410", VA = "0x182B53E10")]
+	[Address(RVA = "0x65462A0", Offset = "0x65452A0", VA = "0x65462A0")]
 	public static void SetKeyword(BaseCommandBuffer cmd, string keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DE9")]
-	[Address(RVA = "0x2B53DE0", Offset = "0x2B523E0", VA = "0x182B53DE0")]
+	[Address(RVA = "0x65462E0", Offset = "0x65452E0", VA = "0x65462E0")]
 	public static void SetKeyword(Material material, string keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DEA")]
-	[Address(RVA = "0x2B53DB0", Offset = "0x2B523B0", VA = "0x182B53DB0")]
+	[Address(RVA = "0x6546310", Offset = "0x6545310", VA = "0x6546310")]
 	public static void SetKeyword(Material material, LocalKeyword keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DEB")]
-	[Address(RVA = "0x2B53E50", Offset = "0x2B52450", VA = "0x182B53E50")]
+	[Address(RVA = "0x6546340", Offset = "0x6545340", VA = "0x6546340")]
 	public static void SetKeyword(ComputeShader cs, string keyword, bool state)
 	{
 	}
 
 	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x2B51ED0", Offset = "0x2B504D0", VA = "0x182B51ED0")]
+	[Address(RVA = "0x6546370", Offset = "0x6545370", VA = "0x6546370")]
 	public static void Destroy(Object obj)
 	{
 	}
 
 	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x2B527E0", Offset = "0x2B50DE0", VA = "0x182B527E0")]
+	[Address(RVA = "0x65463F0", Offset = "0x65453F0", VA = "0x65463F0")]
 	public static IEnumerable<Type> GetAllAssemblyTypes()
 	{
 		return null;
@@ -638,122 +638,122 @@ public static class CoreUtils
 	}
 
 	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x2B53D20", Offset = "0x2B52320", VA = "0x182B53D20")]
+	[Address(RVA = "0x65466D0", Offset = "0x65456D0", VA = "0x65466D0")]
 	public static void SafeRelease(GraphicsBuffer buffer)
 	{
 	}
 
 	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x2B53D10", Offset = "0x2B52310", VA = "0x182B53D10")]
+	[Address(RVA = "0x65466E0", Offset = "0x65456E0", VA = "0x65466E0")]
 	public static void SafeRelease(ComputeBuffer buffer)
 	{
 	}
 
 	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x2B51770", Offset = "0x2B4FD70", VA = "0x182B51770")]
+	[Address(RVA = "0x65466F0", Offset = "0x65456F0", VA = "0x65466F0")]
 	public static Mesh CreateCubeMesh(Vector3 min, Vector3 max)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x6546AE0", Offset = "0x6545AE0", VA = "0x6546AE0")]
 	public static bool ArePostProcessesEnabled(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x6546AF0", Offset = "0x6545AF0", VA = "0x6546AF0")]
 	public static bool AreAnimatedMaterialsEnabled(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x6546B00", Offset = "0x6545B00", VA = "0x6546B00")]
 	public static bool IsSceneLightingDisabled(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x6546B10", Offset = "0x6545B10", VA = "0x6546B10")]
 	public static bool IsLightOverlapDebugEnabled(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+	[Address(RVA = "0x6546B20", Offset = "0x6545B20", VA = "0x6546B20")]
 	public static bool IsSceneViewFogEnabled(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x6546B30", Offset = "0x6545B30", VA = "0x6546B30")]
 	public static bool IsSceneFilteringEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x6546B40", Offset = "0x6545B40", VA = "0x6546B40")]
 	public static bool IsSceneViewPrefabStageContextHidden()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x2B52650", Offset = "0x2B50C50", VA = "0x182B52650")]
+	[Address(RVA = "0x6546B50", Offset = "0x6545B50", VA = "0x6546B50")]
 	[Obsolete("Use DrawRendererList(CommandBuffer cmd, UnityEngine.Rendering.RendererList rendererList) instead. #from(6000.3) (UnityUpgradable) -> !0")]
 	public static void DrawRendererList(ScriptableRenderContext renderContext, CommandBuffer cmd, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x2B52610", Offset = "0x2B50C10", VA = "0x182B52610")]
+	[Address(RVA = "0x6546B70", Offset = "0x6545B70", VA = "0x6546B70")]
 	public static void DrawRendererList(CommandBuffer cmd, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x2B52690", Offset = "0x2B50C90", VA = "0x182B52690")]
+	[Address(RVA = "0x6546B90", Offset = "0x6545B90", VA = "0x6546B90")]
 	public static void DrawRendererList(IRasterCommandBuffer cmd, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x2B536C0", Offset = "0x2B51CC0", VA = "0x182B536C0")]
+	[Address(RVA = "0x6546C30", Offset = "0x6545C30", VA = "0x6546C30")]
 	public static int GetTextureHash(Texture texture)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000DFD")]
-	[Address(RVA = "0x2B53CE0", Offset = "0x2B522E0", VA = "0x182B53CE0")]
+	[Address(RVA = "0x6546DF0", Offset = "0x6545DF0", VA = "0x6546DF0")]
 	public static int PreviousPowerOfTwo(int size)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x2B52A00", Offset = "0x2B51000", VA = "0x182B52A00")]
+	[Address(RVA = "0x6546E20", Offset = "0x6545E20", VA = "0x6546E20")]
 	public static int GetMipCount(int size)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x2B52AB0", Offset = "0x2B510B0", VA = "0x182B52AB0")]
+	[Address(RVA = "0x6546EF0", Offset = "0x6545EF0", VA = "0x6546EF0")]
 	public static int GetMipCount(float size)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x2B107A0", Offset = "0x2B0EDA0", VA = "0x182B107A0")]
+	[Address(RVA = "0x6546FE0", Offset = "0x6545FE0", VA = "0x6546FE0")]
 	public static int DivRoundUp(int value, int divisor)
 	{
 		return default(int);
@@ -766,14 +766,14 @@ public static class CoreUtils
 	}
 
 	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x2B529B0", Offset = "0x2B50FB0", VA = "0x182B529B0")]
+	[Address(RVA = "0x6546FF0", Offset = "0x6545FF0", VA = "0x6546FF0")]
 	internal static string GetCorePath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x2B50E50", Offset = "0x2B4F450", VA = "0x182B50E50")]
+	[Address(RVA = "0x6547020", Offset = "0x6546020", VA = "0x6547020")]
 	public static Vector3[] CalculateViewSpaceCorners(Matrix4x4 proj, float z)
 	{
 		return null;
@@ -781,7 +781,7 @@ public static class CoreUtils
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x2B529F0", Offset = "0x2B50FF0", VA = "0x182B529F0")]
+	[Address(RVA = "0x6547380", Offset = "0x6546380", VA = "0x6547380")]
 	public static GraphicsFormat GetDefaultDepthStencilFormat()
 	{
 		return default(GraphicsFormat);
@@ -789,7 +789,7 @@ public static class CoreUtils
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x2B529E0", Offset = "0x2B50FE0", VA = "0x182B529E0")]
+	[Address(RVA = "0x6547390", Offset = "0x6546390", VA = "0x6547390")]
 	public static GraphicsFormat GetDefaultDepthOnlyFormat()
 	{
 		return default(GraphicsFormat);
@@ -797,14 +797,14 @@ public static class CoreUtils
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x846F70", Offset = "0x845570", VA = "0x180846F70")]
+	[Address(RVA = "0x65473A0", Offset = "0x65463A0", VA = "0x65473A0")]
 	public static DepthBits GetDefaultDepthBufferBits()
 	{
 		return default(DepthBits);
 	}
 
 	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x2B53850", Offset = "0x2B51E50", VA = "0x182B53850")]
+	[Address(RVA = "0x65473B0", Offset = "0x65463B0", VA = "0x65473B0")]
 	public static bool IsScreenFullyCoveredByCameras(List<Camera> cameras)
 	{
 		return default(bool);

@@ -96,7 +96,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerMoveHandler> pointerMoveHandler
 	{
 		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x32F6280", Offset = "0x32F4880", VA = "0x1832F6280")]
+		[Address(RVA = "0x6D0C320", Offset = "0x6D0B320", VA = "0x6D0C320")]
 		get
 		{
 			return null;
@@ -107,7 +107,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerEnterHandler> pointerEnterHandler
 	{
 		[Token(Token = "0x60006E4")]
-		[Address(RVA = "0x32F61E0", Offset = "0x32F47E0", VA = "0x1832F61E0")]
+		[Address(RVA = "0x6D0C390", Offset = "0x6D0B390", VA = "0x6D0C390")]
 		get
 		{
 			return null;
@@ -118,7 +118,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerExitHandler> pointerExitHandler
 	{
 		[Token(Token = "0x60006E5")]
-		[Address(RVA = "0x32F6230", Offset = "0x32F4830", VA = "0x1832F6230")]
+		[Address(RVA = "0x6D0C400", Offset = "0x6D0B400", VA = "0x6D0C400")]
 		get
 		{
 			return null;
@@ -129,7 +129,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerDownHandler> pointerDownHandler
 	{
 		[Token(Token = "0x60006E6")]
-		[Address(RVA = "0x32F6190", Offset = "0x32F4790", VA = "0x1832F6190")]
+		[Address(RVA = "0x6D0C470", Offset = "0x6D0B470", VA = "0x6D0C470")]
 		get
 		{
 			return null;
@@ -140,7 +140,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerUpHandler> pointerUpHandler
 	{
 		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x32F62D0", Offset = "0x32F48D0", VA = "0x1832F62D0")]
+		[Address(RVA = "0x6D0C4E0", Offset = "0x6D0B4E0", VA = "0x6D0C4E0")]
 		get
 		{
 			return null;
@@ -151,7 +151,7 @@ public static class ExecuteEvents
 	public static EventFunction<IPointerClickHandler> pointerClickHandler
 	{
 		[Token(Token = "0x60006E8")]
-		[Address(RVA = "0x32F6140", Offset = "0x32F4740", VA = "0x1832F6140")]
+		[Address(RVA = "0x6D0C550", Offset = "0x6D0B550", VA = "0x6D0C550")]
 		get
 		{
 			return null;
@@ -162,7 +162,7 @@ public static class ExecuteEvents
 	public static EventFunction<IInitializePotentialDragHandler> initializePotentialDrag
 	{
 		[Token(Token = "0x60006E9")]
-		[Address(RVA = "0x32F60A0", Offset = "0x32F46A0", VA = "0x1832F60A0")]
+		[Address(RVA = "0x6D0C5C0", Offset = "0x6D0B5C0", VA = "0x6D0C5C0")]
 		get
 		{
 			return null;
@@ -173,7 +173,7 @@ public static class ExecuteEvents
 	public static EventFunction<IBeginDragHandler> beginDragHandler
 	{
 		[Token(Token = "0x60006EA")]
-		[Address(RVA = "0x32F5EB0", Offset = "0x32F44B0", VA = "0x1832F5EB0")]
+		[Address(RVA = "0x6D0C630", Offset = "0x6D0B630", VA = "0x6D0C630")]
 		get
 		{
 			return null;
@@ -184,7 +184,7 @@ public static class ExecuteEvents
 	public static EventFunction<IDragHandler> dragHandler
 	{
 		[Token(Token = "0x60006EB")]
-		[Address(RVA = "0x32F5FB0", Offset = "0x32F45B0", VA = "0x1832F5FB0")]
+		[Address(RVA = "0x6D0C6A0", Offset = "0x6D0B6A0", VA = "0x6D0C6A0")]
 		get
 		{
 			return null;
@@ -195,7 +195,7 @@ public static class ExecuteEvents
 	public static EventFunction<IEndDragHandler> endDragHandler
 	{
 		[Token(Token = "0x60006EC")]
-		[Address(RVA = "0x32F6050", Offset = "0x32F4650", VA = "0x1832F6050")]
+		[Address(RVA = "0x6D0C710", Offset = "0x6D0B710", VA = "0x6D0C710")]
 		get
 		{
 			return null;
@@ -206,7 +206,7 @@ public static class ExecuteEvents
 	public static EventFunction<IDropHandler> dropHandler
 	{
 		[Token(Token = "0x60006ED")]
-		[Address(RVA = "0x32F6000", Offset = "0x32F4600", VA = "0x1832F6000")]
+		[Address(RVA = "0x6D0C780", Offset = "0x6D0B780", VA = "0x6D0C780")]
 		get
 		{
 			return null;
@@ -217,7 +217,7 @@ public static class ExecuteEvents
 	public static EventFunction<IScrollHandler> scrollHandler
 	{
 		[Token(Token = "0x60006EE")]
-		[Address(RVA = "0x32F6320", Offset = "0x32F4920", VA = "0x1832F6320")]
+		[Address(RVA = "0x6D0C7F0", Offset = "0x6D0B7F0", VA = "0x6D0C7F0")]
 		get
 		{
 			return null;
@@ -228,7 +228,7 @@ public static class ExecuteEvents
 	public static EventFunction<IUpdateSelectedHandler> updateSelectedHandler
 	{
 		[Token(Token = "0x60006EF")]
-		[Address(RVA = "0x32F6420", Offset = "0x32F4A20", VA = "0x1832F6420")]
+		[Address(RVA = "0x6D0C860", Offset = "0x6D0B860", VA = "0x6D0C860")]
 		get
 		{
 			return null;
@@ -239,7 +239,7 @@ public static class ExecuteEvents
 	public static EventFunction<ISelectHandler> selectHandler
 	{
 		[Token(Token = "0x60006F0")]
-		[Address(RVA = "0x32F6370", Offset = "0x32F4970", VA = "0x1832F6370")]
+		[Address(RVA = "0x6D0C8D0", Offset = "0x6D0B8D0", VA = "0x6D0C8D0")]
 		get
 		{
 			return null;
@@ -250,7 +250,7 @@ public static class ExecuteEvents
 	public static EventFunction<IDeselectHandler> deselectHandler
 	{
 		[Token(Token = "0x60006F1")]
-		[Address(RVA = "0x32F5F60", Offset = "0x32F4560", VA = "0x1832F5F60")]
+		[Address(RVA = "0x6D0C940", Offset = "0x6D0B940", VA = "0x6D0C940")]
 		get
 		{
 			return null;
@@ -261,7 +261,7 @@ public static class ExecuteEvents
 	public static EventFunction<IMoveHandler> moveHandler
 	{
 		[Token(Token = "0x60006F2")]
-		[Address(RVA = "0x32F60F0", Offset = "0x32F46F0", VA = "0x1832F60F0")]
+		[Address(RVA = "0x6D0C9B0", Offset = "0x6D0B9B0", VA = "0x6D0C9B0")]
 		get
 		{
 			return null;
@@ -272,7 +272,7 @@ public static class ExecuteEvents
 	public static EventFunction<ISubmitHandler> submitHandler
 	{
 		[Token(Token = "0x60006F3")]
-		[Address(RVA = "0x32F63C0", Offset = "0x32F49C0", VA = "0x1832F63C0")]
+		[Address(RVA = "0x6D0CA20", Offset = "0x6D0BA20", VA = "0x6D0CA20")]
 		get
 		{
 			return null;
@@ -283,7 +283,7 @@ public static class ExecuteEvents
 	public static EventFunction<ICancelHandler> cancelHandler
 	{
 		[Token(Token = "0x60006F4")]
-		[Address(RVA = "0x32F5F00", Offset = "0x32F4500", VA = "0x1832F5F00")]
+		[Address(RVA = "0x6D0CA90", Offset = "0x6D0BA90", VA = "0x6D0CA90")]
 		get
 		{
 			return null;
@@ -297,115 +297,115 @@ public static class ExecuteEvents
 	}
 
 	[Token(Token = "0x60006D1")]
-	[Address(RVA = "0x32F4D10", Offset = "0x32F3310", VA = "0x1832F4D10")]
+	[Address(RVA = "0x6D0B380", Offset = "0x6D0A380", VA = "0x6D0B380")]
 	private static void Execute(IPointerMoveHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D2")]
-	[Address(RVA = "0x32F5030", Offset = "0x32F3630", VA = "0x1832F5030")]
+	[Address(RVA = "0x6D0B470", Offset = "0x6D0A470", VA = "0x6D0B470")]
 	private static void Execute(IPointerEnterHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D3")]
-	[Address(RVA = "0x32F4E50", Offset = "0x32F3450", VA = "0x1832F4E50")]
+	[Address(RVA = "0x6D0B560", Offset = "0x6D0A560", VA = "0x6D0B560")]
 	private static void Execute(IPointerExitHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D4")]
-	[Address(RVA = "0x32F4DB0", Offset = "0x32F33B0", VA = "0x1832F4DB0")]
+	[Address(RVA = "0x6D0B650", Offset = "0x6D0A650", VA = "0x6D0B650")]
 	private static void Execute(IPointerDownHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D5")]
-	[Address(RVA = "0x32F5460", Offset = "0x32F3A60", VA = "0x1832F5460")]
+	[Address(RVA = "0x6D0B740", Offset = "0x6D0A740", VA = "0x6D0B740")]
 	private static void Execute(IPointerUpHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D6")]
-	[Address(RVA = "0x32F4F90", Offset = "0x32F3590", VA = "0x1832F4F90")]
+	[Address(RVA = "0x6D0B830", Offset = "0x6D0A830", VA = "0x6D0B830")]
 	private static void Execute(IPointerClickHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D7")]
-	[Address(RVA = "0x32F53C0", Offset = "0x32F39C0", VA = "0x1832F53C0")]
+	[Address(RVA = "0x6D0B920", Offset = "0x6D0A920", VA = "0x6D0B920")]
 	private static void Execute(IInitializePotentialDragHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D8")]
-	[Address(RVA = "0x32F4EF0", Offset = "0x32F34F0", VA = "0x1832F4EF0")]
+	[Address(RVA = "0x6D0BA10", Offset = "0x6D0AA10", VA = "0x6D0BA10")]
 	private static void Execute(IBeginDragHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006D9")]
-	[Address(RVA = "0x32F5320", Offset = "0x32F3920", VA = "0x1832F5320")]
+	[Address(RVA = "0x6D0BB00", Offset = "0x6D0AB00", VA = "0x6D0BB00")]
 	private static void Execute(IDragHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DA")]
-	[Address(RVA = "0x32F4C10", Offset = "0x32F3210", VA = "0x1832F4C10")]
+	[Address(RVA = "0x6D0BBF0", Offset = "0x6D0ABF0", VA = "0x6D0BBF0")]
 	private static void Execute(IEndDragHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DB")]
-	[Address(RVA = "0x32F5130", Offset = "0x32F3730", VA = "0x1832F5130")]
+	[Address(RVA = "0x6D0BCE0", Offset = "0x6D0ACE0", VA = "0x6D0BCE0")]
 	private static void Execute(IDropHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DC")]
-	[Address(RVA = "0x32F4B70", Offset = "0x32F3170", VA = "0x1832F4B70")]
+	[Address(RVA = "0x6D0BDD0", Offset = "0x6D0ADD0", VA = "0x6D0BDD0")]
 	private static void Execute(IScrollHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DD")]
-	[Address(RVA = "0x32F5500", Offset = "0x32F3B00", VA = "0x1832F5500")]
+	[Address(RVA = "0x6D0BEC0", Offset = "0x6D0AEC0", VA = "0x6D0BEC0")]
 	private static void Execute(IUpdateSelectedHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DE")]
-	[Address(RVA = "0x32F52C0", Offset = "0x32F38C0", VA = "0x1832F52C0")]
+	[Address(RVA = "0x6D0BF70", Offset = "0x6D0AF70", VA = "0x6D0BF70")]
 	private static void Execute(ISelectHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006DF")]
-	[Address(RVA = "0x32F4B10", Offset = "0x32F3110", VA = "0x1832F4B10")]
+	[Address(RVA = "0x6D0C020", Offset = "0x6D0B020", VA = "0x6D0C020")]
 	private static void Execute(IDeselectHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006E0")]
-	[Address(RVA = "0x32F51D0", Offset = "0x32F37D0", VA = "0x1832F51D0")]
+	[Address(RVA = "0x6D0C0D0", Offset = "0x6D0B0D0", VA = "0x6D0C0D0")]
 	private static void Execute(IMoveHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006E1")]
-	[Address(RVA = "0x32F50D0", Offset = "0x32F36D0", VA = "0x1832F50D0")]
+	[Address(RVA = "0x6D0C1C0", Offset = "0x6D0B1C0", VA = "0x6D0C1C0")]
 	private static void Execute(ISubmitHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006E2")]
-	[Address(RVA = "0x32F4CB0", Offset = "0x32F32B0", VA = "0x1832F4CB0")]
+	[Address(RVA = "0x6D0C270", Offset = "0x6D0B270", VA = "0x6D0C270")]
 	private static void Execute(ICancelHandler handler, BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x32F5560", Offset = "0x32F3B60", VA = "0x1832F5560")]
+	[Address(RVA = "0x6D0CB00", Offset = "0x6D0BB00", VA = "0x6D0CB00")]
 	private static void GetEventChain(GameObject root, IList<Transform> eventChain)
 	{
 	}

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005EA")]
+[Token(Token = "0x2000649")]
 public class CustomLogicToken
 {
-	[Token(Token = "0x4001A35")]
+	[Token(Token = "0x4001BD6")]
 	[FieldOffset(Offset = "0x10")]
 	public CustomLogicTokenType Type;
 
-	[Token(Token = "0x4001A36")]
+	[Token(Token = "0x4001BD7")]
 	[FieldOffset(Offset = "0x18")]
 	public object Value;
 
-	[Token(Token = "0x4001A37")]
+	[Token(Token = "0x4001BD8")]
 	[FieldOffset(Offset = "0x20")]
 	public int Line;
 
-	[Token(Token = "0x60039FF")]
-	[Address(RVA = "0x20EA1F0", Offset = "0x20E87F0", VA = "0x1820EA1F0")]
+	[Token(Token = "0x6003C8D")]
+	[Address(RVA = "0x5A75B70", Offset = "0x5A74B70", VA = "0x5A75B70")]
 	public CustomLogicToken(CustomLogicTokenType type, object value, int line)
 	{
 	}

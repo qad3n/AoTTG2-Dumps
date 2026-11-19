@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ExceptionServices;
 
-[Token(Token = "0x200048C")]
+[Token(Token = "0x2000465")]
 public sealed class ExceptionDispatchInfo
 {
-	[Token(Token = "0x40012E5")]
+	[Token(Token = "0x4001245")]
 	[FieldOffset(Offset = "0x10")]
 	private Exception m_Exception;
 
-	[Token(Token = "0x40012E6")]
+	[Token(Token = "0x4001246")]
 	[FieldOffset(Offset = "0x18")]
 	private object m_stackTrace;
 
-	[Token(Token = "0x17000468")]
+	[Token(Token = "0x17000467")]
 	internal object BinaryStackTraceArray
 	{
-		[Token(Token = "0x60022C5")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6002292")]
+		[Address(RVA = "0x53C7EF0", Offset = "0x53C6EF0", VA = "0x53C7EF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000469")]
+	[Token(Token = "0x17000468")]
 	public Exception SourceException
 	{
-		[Token(Token = "0x60022C7")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6002294")]
+		[Address(RVA = "0x53C7F00", Offset = "0x53C6F00", VA = "0x53C7F00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60022C4")]
-	[Address(RVA = "0x1A2A180", Offset = "0x1A28780", VA = "0x181A2A180")]
+	[Token(Token = "0x6002291")]
+	[Address(RVA = "0x53C7DB0", Offset = "0x53C6DB0", VA = "0x53C7DB0")]
 	private ExceptionDispatchInfo(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x60022C6")]
-	[Address(RVA = "0x1A29EF0", Offset = "0x1A284F0", VA = "0x181A29EF0")]
+	[Token(Token = "0x6002293")]
+	[Address(RVA = "0x53C7990", Offset = "0x53C6990", VA = "0x53C7990")]
 	public static ExceptionDispatchInfo Capture(Exception source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60022C8")]
-	[Address(RVA = "0x1A2A100", Offset = "0x1A28700", VA = "0x181A2A100")]
+	[Token(Token = "0x6002295")]
+	[Address(RVA = "0x53C7A50", Offset = "0x53C6A50", VA = "0x53C7A50")]
 	[System.Diagnostics.StackTraceHidden]
 	public void Throw()
 	{
 	}
 
-	[Token(Token = "0x60022C9")]
-	[Address(RVA = "0x1A2A150", Offset = "0x1A28750", VA = "0x181A2A150")]
+	[Token(Token = "0x6002296")]
+	[Address(RVA = "0x53C7F10", Offset = "0x53C6F10", VA = "0x53C7F10")]
 	[System.Diagnostics.StackTraceHidden]
 	public static void Throw(Exception source)
 	{

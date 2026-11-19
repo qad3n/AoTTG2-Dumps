@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009A")]
+[Token(Token = "0x200009B")]
 internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 {
-	[Token(Token = "0x170000B5")]
+	[Token(Token = "0x170000B7")]
 	internal override string NameCore
 	{
-		[Token(Token = "0x6000461")]
+		[Token(Token = "0x600046C")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,10 +25,10 @@ internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 		}
 	}
 
-	[Token(Token = "0x170000B6")]
+	[Token(Token = "0x170000B8")]
 	internal override bool TailCallCore
 	{
-		[Token(Token = "0x6000462")]
+		[Token(Token = "0x600046D")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 		}
 	}
 
-	[Token(Token = "0x6000460")]
+	[Token(Token = "0x600046B")]
 	public FullExpression(Expression body, string name, bool tailCall, IReadOnlyList<ParameterExpression> parameters)
 	{
 	}

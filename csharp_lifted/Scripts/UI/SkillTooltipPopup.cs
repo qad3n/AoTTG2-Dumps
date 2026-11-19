@@ -1,0 +1,60 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.SkillTooltipPopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/SkillTooltipPopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/SkillTooltipPopup.cs
+// Bodies below are the native C lifted into C# syntax by tools/pipeline/lift_csharp.py.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace UI;
+
+[Token(Token = "0x20007AB")]
+internal class SkillTooltipPopup : TooltipPopup
+{
+	[Token(Token = "0x17000CD2")]
+	protected override string TextColor
+	{
+		[Token(Token = "0x60049F3")]
+		[Address(RVA = "0x5BC8160", Offset = "0x5BC7160", VA = "0x5BC8160", Slot = "62")]
+		get
+		{
+			// Lifted from source/cpp/UI/SkillTooltipPopup.c (UI.SkillTooltipPopup$$get_TextColor): clean
+			return "SkillTooltipTextColor";
+		}
+	}
+
+	[Token(Token = "0x17000CD3")]
+	protected override string BackgroundColor
+	{
+		[Token(Token = "0x60049F4")]
+		[Address(RVA = "0x5BC8190", Offset = "0x5BC7190", VA = "0x5BC8190", Slot = "63")]
+		get
+		{
+			// Lifted from source/cpp/UI/SkillTooltipPopup.c (UI.SkillTooltipPopup$$get_BackgroundColor): clean
+			return "SkillTooltipBackgroundColor";
+		}
+	}
+
+	[Token(Token = "0x60049F5")]
+	[Address(RVA = "0x5BC81C0", Offset = "0x5BC71C0", VA = "0x5BC81C0")]
+	public SkillTooltipPopup()
+	{
+		// Lifted from source/cpp/UI/SkillTooltipPopup.c (UI.SkillTooltipPopup$$.ctor): clean
+		uint uVar1;
+
+		if (Il2CppMethodInitialized_07547b59 == false) {
+			Il2CppMethodInitialized_07547b59 = true;
+			uVar1 = (typeof(TooltipPopup)._2).cctor_finished_or_no_cctor;
+		}
+		else {
+			uVar1 = (typeof(TooltipPopup)._2).cctor_finished_or_no_cctor;
+		}
+		if (uVar1 == 0) {
+			base();
+			return;
+		}
+		base();
+		return;
+	}
+}

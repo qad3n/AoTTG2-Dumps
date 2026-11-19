@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E8")]
+[Token(Token = "0x20000C0")]
 [Flags]
 internal enum ParseFlags
 {
-	[Token(Token = "0x4000373")]
+	[Token(Token = "0x40002CE")]
 	HaveYear = 1,
-	[Token(Token = "0x4000374")]
+	[Token(Token = "0x40002CF")]
 	HaveMonth = 2,
-	[Token(Token = "0x4000375")]
+	[Token(Token = "0x40002D0")]
 	HaveDay = 4,
-	[Token(Token = "0x4000376")]
+	[Token(Token = "0x40002D1")]
 	HaveHour = 8,
-	[Token(Token = "0x4000377")]
+	[Token(Token = "0x40002D2")]
 	HaveMinute = 0x10,
-	[Token(Token = "0x4000378")]
+	[Token(Token = "0x40002D3")]
 	HaveSecond = 0x20,
-	[Token(Token = "0x4000379")]
+	[Token(Token = "0x40002D4")]
 	HaveTime = 0x40,
-	[Token(Token = "0x400037A")]
+	[Token(Token = "0x40002D5")]
 	HaveDate = 0x80,
-	[Token(Token = "0x400037B")]
+	[Token(Token = "0x40002D6")]
 	TimeZoneUsed = 0x100,
-	[Token(Token = "0x400037C")]
+	[Token(Token = "0x40002D7")]
 	TimeZoneUtc = 0x200,
-	[Token(Token = "0x400037D")]
+	[Token(Token = "0x40002D8")]
 	ParsedMonthName = 0x400,
-	[Token(Token = "0x400037E")]
+	[Token(Token = "0x40002D9")]
 	CaptureOffset = 0x800,
-	[Token(Token = "0x400037F")]
+	[Token(Token = "0x40002DA")]
 	YearDefault = 0x1000,
-	[Token(Token = "0x4000380")]
+	[Token(Token = "0x40002DB")]
 	Rfc1123Pattern = 0x2000,
-	[Token(Token = "0x4000381")]
+	[Token(Token = "0x40002DC")]
 	UtcSortPattern = 0x4000
 }

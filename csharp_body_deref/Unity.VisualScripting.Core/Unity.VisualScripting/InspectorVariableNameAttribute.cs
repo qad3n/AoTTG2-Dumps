@@ -19,14 +19,14 @@ public sealed class InspectorVariableNameAttribute : Attribute
 	public ActionDirection direction
 	{
 		[Token(Token = "0x6001107")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x684E730", Offset = "0x684D730", VA = "0x684E730")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActionDirection);
 		}
 		[Token(Token = "0x6001108")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x684E740", Offset = "0x684D740", VA = "0x684E740")]
 		[CompilerGenerated]
 		private set
 		{
@@ -34,7 +34,7 @@ public sealed class InspectorVariableNameAttribute : Attribute
 	}
 
 	[Token(Token = "0x6001106")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x684E710", Offset = "0x684D710", VA = "0x684E710")]
 	public InspectorVariableNameAttribute(ActionDirection direction)
 	{
 	}

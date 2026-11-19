@@ -13,7 +13,7 @@ namespace System.Xml.Linq;
 internal class LineInfoEndElementAnnotation : LineInfoAnnotation
 {
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x1C88650", Offset = "0x1C86C50", VA = "0x181C88650")]
+	[Address(RVA = "0x5F9D780", Offset = "0x5F9C780", VA = "0x5F9D780")]
 	public LineInfoEndElementAnnotation(int lineNumber, int linePosition)
 	{
 	}

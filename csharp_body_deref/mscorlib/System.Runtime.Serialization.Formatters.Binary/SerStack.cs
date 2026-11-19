@@ -9,62 +9,62 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000456")]
+[Token(Token = "0x200042F")]
 internal sealed class SerStack
 {
-	[Token(Token = "0x4001201")]
+	[Token(Token = "0x4001161")]
 	[FieldOffset(Offset = "0x10")]
 	internal object[] objects;
 
-	[Token(Token = "0x4001202")]
+	[Token(Token = "0x4001162")]
 	[FieldOffset(Offset = "0x18")]
 	internal string stackId;
 
-	[Token(Token = "0x4001203")]
+	[Token(Token = "0x4001163")]
 	[FieldOffset(Offset = "0x20")]
 	internal int top;
 
-	[Token(Token = "0x60021F4")]
-	[Address(RVA = "0x1A37790", Offset = "0x1A35D90", VA = "0x181A37790")]
+	[Token(Token = "0x60021CA")]
+	[Address(RVA = "0x53B8B10", Offset = "0x53B7B10", VA = "0x53B8B10")]
 	internal SerStack(string stackId)
 	{
 	}
 
-	[Token(Token = "0x60021F5")]
-	[Address(RVA = "0x1A37680", Offset = "0x1A35C80", VA = "0x181A37680")]
+	[Token(Token = "0x60021CB")]
+	[Address(RVA = "0x53BC180", Offset = "0x53BB180", VA = "0x53BC180")]
 	internal void Push(object obj)
 	{
 	}
 
-	[Token(Token = "0x60021F6")]
-	[Address(RVA = "0x1A37600", Offset = "0x1A35C00", VA = "0x181A37600")]
+	[Token(Token = "0x60021CC")]
+	[Address(RVA = "0x53BC110", Offset = "0x53BB110", VA = "0x53BC110")]
 	internal object Pop()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60021F7")]
-	[Address(RVA = "0x1A374D0", Offset = "0x1A35AD0", VA = "0x181A374D0")]
+	[Token(Token = "0x60021CD")]
+	[Address(RVA = "0x53C2AA0", Offset = "0x53C1AA0", VA = "0x53C2AA0")]
 	internal void IncreaseCapacity()
 	{
 	}
 
-	[Token(Token = "0x60021F8")]
-	[Address(RVA = "0x1A375C0", Offset = "0x1A35BC0", VA = "0x181A375C0")]
+	[Token(Token = "0x60021CE")]
+	[Address(RVA = "0x53C0D90", Offset = "0x53BFD90", VA = "0x53C0D90")]
 	internal object Peek()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60021F9")]
-	[Address(RVA = "0x1A37580", Offset = "0x1A35B80", VA = "0x181A37580")]
+	[Token(Token = "0x60021CF")]
+	[Address(RVA = "0x53C1770", Offset = "0x53C0770", VA = "0x53C1770")]
 	internal object PeekPeek()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60021FA")]
-	[Address(RVA = "0x1A37570", Offset = "0x1A35B70", VA = "0x181A37570")]
+	[Token(Token = "0x60021D0")]
+	[Address(RVA = "0x53BC100", Offset = "0x53BB100", VA = "0x53BC100")]
 	internal bool IsEmpty()
 	{
 		return default(bool);

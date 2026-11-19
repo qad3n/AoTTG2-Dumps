@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000C8")]
+[Token(Token = "0x2000103")]
 internal abstract class BaseSetSetting : BaseSettingsContainer
 {
-	[Token(Token = "0x40004F2")]
+	[Token(Token = "0x4000630")]
 	[FieldOffset(Offset = "0x30")]
 	public StringSetting Name;
 
-	[Token(Token = "0x40004F3")]
+	[Token(Token = "0x4000631")]
 	[FieldOffset(Offset = "0x38")]
 	public BoolSetting Preset;
 
-	[Token(Token = "0x40004F4")]
+	[Token(Token = "0x4000632")]
 	[FieldOffset(Offset = "0x40")]
 	public StringSetting UniqueId;
 
-	[Token(Token = "0x60003E8")]
-	[Address(RVA = "0x1F0E9E0", Offset = "0x1F0CFE0", VA = "0x181F0E9E0")]
+	[Token(Token = "0x6000566")]
+	[Address(RVA = "0x5A45250", Offset = "0x5A44250", VA = "0x5A45250")]
 	protected BaseSetSetting()
 	{
 	}

@@ -10,88 +10,88 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000190")]
+[Token(Token = "0x2000151")]
 internal sealed class DelegatingTypeDescriptionProvider : TypeDescriptionProvider
 {
-	[Token(Token = "0x400067F")]
+	[Token(Token = "0x40005B0")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Type _type;
 
-	[Token(Token = "0x170001F3")]
+	[Token(Token = "0x170001C4")]
 	internal TypeDescriptionProvider Provider
 	{
-		[Token(Token = "0x6000A1A")]
-		[Address(RVA = "0x289BA40", Offset = "0x289A040", VA = "0x18289BA40")]
+		[Token(Token = "0x600085A")]
+		[Address(RVA = "0x622FDE0", Offset = "0x622EDE0", VA = "0x622FDE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A19")]
-	[Address(RVA = "0x289BA00", Offset = "0x289A000", VA = "0x18289BA00")]
+	[Token(Token = "0x6000859")]
+	[Address(RVA = "0x622FDB0", Offset = "0x622EDB0", VA = "0x622FDB0")]
 	internal DelegatingTypeDescriptionProvider(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000A1B")]
-	[Address(RVA = "0x289B550", Offset = "0x2899B50", VA = "0x18289B550", Slot = "4")]
+	[Token(Token = "0x600085B")]
+	[Address(RVA = "0x622FE40", Offset = "0x622EE40", VA = "0x622FE40", Slot = "4")]
 	public override object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A1C")]
-	[Address(RVA = "0x289B5E0", Offset = "0x2899BE0", VA = "0x18289B5E0", Slot = "5")]
+	[Token(Token = "0x600085C")]
+	[Address(RVA = "0x622FED0", Offset = "0x622EED0", VA = "0x622FED0", Slot = "5")]
 	public override IDictionary GetCache(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A1D")]
-	[Address(RVA = "0x289B760", Offset = "0x2899D60", VA = "0x18289B760", Slot = "8")]
+	[Token(Token = "0x600085D")]
+	[Address(RVA = "0x622FF50", Offset = "0x622EF50", VA = "0x622FF50", Slot = "8")]
 	public override string GetFullComponentName(object component)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A1E")]
-	[Address(RVA = "0x289B660", Offset = "0x2899C60", VA = "0x18289B660", Slot = "6")]
+	[Token(Token = "0x600085E")]
+	[Address(RVA = "0x622FFD0", Offset = "0x622EFD0", VA = "0x622FFD0", Slot = "6")]
 	public override ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A1F")]
-	[Address(RVA = "0x289B6E0", Offset = "0x2899CE0", VA = "0x18289B6E0", Slot = "7")]
+	[Token(Token = "0x600085F")]
+	[Address(RVA = "0x6230050", Offset = "0x622F050", VA = "0x6230050", Slot = "7")]
 	protected internal override IExtenderProvider[] GetExtenderProviders(object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A20")]
-	[Address(RVA = "0x289B7E0", Offset = "0x2899DE0", VA = "0x18289B7E0", Slot = "9")]
+	[Token(Token = "0x6000860")]
+	[Address(RVA = "0x62300D0", Offset = "0x622F0D0", VA = "0x62300D0", Slot = "9")]
 	public override Type GetReflectionType(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x289B870", Offset = "0x2899E70", VA = "0x18289B870", Slot = "10")]
+	[Token(Token = "0x6000861")]
+	[Address(RVA = "0x6230150", Offset = "0x622F150", VA = "0x6230150", Slot = "10")]
 	public override Type GetRuntimeType(Type objectType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x289B8F0", Offset = "0x2899EF0", VA = "0x18289B8F0", Slot = "11")]
+	[Token(Token = "0x6000862")]
+	[Address(RVA = "0x62301D0", Offset = "0x622F1D0", VA = "0x62301D0", Slot = "11")]
 	public override ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x289B980", Offset = "0x2899F80", VA = "0x18289B980", Slot = "12")]
+	[Token(Token = "0x6000863")]
+	[Address(RVA = "0x6230250", Offset = "0x622F250", VA = "0x6230250", Slot = "12")]
 	public override bool IsSupportedType(Type type)
 	{
 		return default(bool);

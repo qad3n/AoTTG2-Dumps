@@ -16,13 +16,13 @@ namespace UnityEngine.UIElements;
 public class ThemeStyleSheet : StyleSheet
 {
 	[Token(Token = "0x6002333")]
-	[Address(RVA = "0x3137950", Offset = "0x3135F50", VA = "0x183137950", Slot = "4")]
+	[Address(RVA = "0x6B28920", Offset = "0x6B27920", VA = "0x6B28920", Slot = "4")]
 	internal override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6002334")]
-	[Address(RVA = "0x3137980", Offset = "0x3135F80", VA = "0x183137980")]
+	[Address(RVA = "0x6B28940", Offset = "0x6B27940", VA = "0x6B28940")]
 	public ThemeStyleSheet()
 	{
 	}

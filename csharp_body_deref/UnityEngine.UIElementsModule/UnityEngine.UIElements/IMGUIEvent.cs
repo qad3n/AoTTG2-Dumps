@@ -14,38 +14,38 @@ namespace UnityEngine.UIElements;
 public class IMGUIEvent : EventBase<IMGUIEvent>
 {
 	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x3266490", Offset = "0x3264A90", VA = "0x183266490")]
+	[Address(RVA = "0x6C727E0", Offset = "0x6C717E0", VA = "0x6C727E0")]
 	static IMGUIEvent()
 	{
 	}
 
 	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x3266320", Offset = "0x3264920", VA = "0x183266320")]
+	[Address(RVA = "0x6C728B0", Offset = "0x6C718B0", VA = "0x6C728B0")]
 	public static IMGUIEvent GetPooled(Event systemEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x3266440", Offset = "0x3264A40", VA = "0x183266440", Slot = "13")]
+	[Address(RVA = "0x6C72930", Offset = "0x6C71930", VA = "0x6C72930", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x31ED2A0", Offset = "0x31EB8A0", VA = "0x1831ED2A0")]
+	[Address(RVA = "0x6C72970", Offset = "0x6C71970", VA = "0x6C72970")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x3266570", Offset = "0x3264B70", VA = "0x183266570")]
+	[Address(RVA = "0x6C72980", Offset = "0x6C71980", VA = "0x6C72980")]
 	public IMGUIEvent()
 	{
 	}
 
 	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x325D370", Offset = "0x325B970", VA = "0x18325D370", Slot = "10")]
+	[Address(RVA = "0x6C729E0", Offset = "0x6C719E0", VA = "0x6C729E0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

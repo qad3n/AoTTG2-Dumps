@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.ExperienceScoreRecord
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Settings/ExperienceScoreRecord.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace Settings;
 
 [Serializable]
-[Token(Token = "0x2000077")]
+[Token(Token = "0x20000AE")]
 internal sealed class ExperienceScoreRecord
 {
-	[Token(Token = "0x400025E")]
+	[Token(Token = "0x400038B")]
 	[FieldOffset(Offset = "0x10")]
 	public string ExperienceID;
 
-	[Token(Token = "0x400025F")]
+	[Token(Token = "0x400038C")]
 	[FieldOffset(Offset = "0x18")]
 	public float Score;
 
-	[Token(Token = "0x4000260")]
+	[Token(Token = "0x400038D")]
 	[FieldOffset(Offset = "0x20")]
 	public string Unit;
 
-	[Token(Token = "0x4000261")]
+	[Token(Token = "0x400038E")]
 	[FieldOffset(Offset = "0x28")]
 	public bool LowerIsBetter;
 
-	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60004A8")]
+	[Address(RVA = "0x58D6CB0", Offset = "0x58D5CB0", VA = "0x58D6CB0")]
 	public ExperienceScoreRecord()
 	{
 	}

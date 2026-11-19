@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UI.LayoutGroup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000306")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Address(RVA = "0x6CE2780", Offset = "0x6CE1780", VA = "0x6CE2780", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,7 +53,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000308")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Address(RVA = "0x6CE27D0", Offset = "0x6CE17D0", VA = "0x6CE27D0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -62,28 +62,28 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 		}
 
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Address(RVA = "0x6CE26C0", Offset = "0x6CE16C0", VA = "0x6CE26C0")]
 		[DebuggerHidden]
 		public _003CDelayedSetDirty_003Ed__57(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x6CE26E0", Offset = "0x6CE16E0", VA = "0x6CE26E0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x32D8C50", Offset = "0x32D7250", VA = "0x1832D8C50", Slot = "6")]
+		[Address(RVA = "0x6CE26F0", Offset = "0x6CE16F0", VA = "0x6CE26F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x32D8CE0", Offset = "0x32D72E0", VA = "0x1832D8CE0", Slot = "8")]
+		[Address(RVA = "0x6CE2790", Offset = "0x6CE1790", VA = "0x6CE2790", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -130,13 +130,13 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public RectOffset padding
 	{
 		[Token(Token = "0x60002DD")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6CE20D0", Offset = "0x6CE10D0", VA = "0x6CE20D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002DE")]
-		[Address(RVA = "0x32D34D0", Offset = "0x32D1AD0", VA = "0x1832D34D0")]
+		[Address(RVA = "0x6CE20E0", Offset = "0x6CE10E0", VA = "0x6CE20E0")]
 		set
 		{
 		}
@@ -146,13 +146,13 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public TextAnchor childAlignment
 	{
 		[Token(Token = "0x60002DF")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6CE2130", Offset = "0x6CE1130", VA = "0x6CE2130")]
 		get
 		{
 			return default(TextAnchor);
 		}
 		[Token(Token = "0x60002E0")]
-		[Address(RVA = "0x32D3480", Offset = "0x32D1A80", VA = "0x1832D3480")]
+		[Address(RVA = "0x6CE2140", Offset = "0x6CE1140", VA = "0x6CE2140")]
 		set
 		{
 		}
@@ -162,7 +162,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	protected RectTransform rectTransform
 	{
 		[Token(Token = "0x60002E1")]
-		[Address(RVA = "0x32D33F0", Offset = "0x32D19F0", VA = "0x1832D33F0")]
+		[Address(RVA = "0x6CDEE80", Offset = "0x6CDDE80", VA = "0x6CDEE80")]
 		get
 		{
 			return null;
@@ -173,7 +173,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	protected List<RectTransform> rectChildren
 	{
 		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x6CE2190", Offset = "0x6CE1190", VA = "0x6CE2190")]
 		get
 		{
 			return null;
@@ -184,7 +184,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float minWidth
 	{
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x2FC6590", Offset = "0x2FC4B90", VA = "0x182FC6590", Slot = "30")]
+		[Address(RVA = "0x6CE21A0", Offset = "0x6CE11A0", VA = "0x6CE21A0", Slot = "30")]
 		get
 		{
 			return default(float);
@@ -195,7 +195,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float preferredWidth
 	{
 		[Token(Token = "0x60002E6")]
-		[Address(RVA = "0x2FFD2C0", Offset = "0x2FFB8C0", VA = "0x182FFD2C0", Slot = "31")]
+		[Address(RVA = "0x6CE21B0", Offset = "0x6CE11B0", VA = "0x6CE21B0", Slot = "31")]
 		get
 		{
 			return default(float);
@@ -206,7 +206,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float flexibleWidth
 	{
 		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x2FFD2F0", Offset = "0x2FFB8F0", VA = "0x182FFD2F0", Slot = "32")]
+		[Address(RVA = "0x6CE21C0", Offset = "0x6CE11C0", VA = "0x6CE21C0", Slot = "32")]
 		get
 		{
 			return default(float);
@@ -217,7 +217,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float minHeight
 	{
 		[Token(Token = "0x60002E8")]
-		[Address(RVA = "0x2FC65A0", Offset = "0x2FC4BA0", VA = "0x182FC65A0", Slot = "33")]
+		[Address(RVA = "0x6CE21D0", Offset = "0x6CE11D0", VA = "0x6CE21D0", Slot = "33")]
 		get
 		{
 			return default(float);
@@ -228,7 +228,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float preferredHeight
 	{
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x2FFD2D0", Offset = "0x2FFB8D0", VA = "0x182FFD2D0", Slot = "34")]
+		[Address(RVA = "0x6CE21E0", Offset = "0x6CE11E0", VA = "0x6CE21E0", Slot = "34")]
 		get
 		{
 			return default(float);
@@ -239,7 +239,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual float flexibleHeight
 	{
 		[Token(Token = "0x60002EA")]
-		[Address(RVA = "0x2FFD300", Offset = "0x2FFB900", VA = "0x182FFD300", Slot = "35")]
+		[Address(RVA = "0x6CE21F0", Offset = "0x6CE11F0", VA = "0x6CE21F0", Slot = "35")]
 		get
 		{
 			return default(float);
@@ -250,7 +250,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public virtual int layoutPriority
 	{
 		[Token(Token = "0x60002EB")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "36")]
+		[Address(RVA = "0x6CE2200", Offset = "0x6CE1200", VA = "0x6CE2200", Slot = "36")]
 		get
 		{
 			return default(int);
@@ -261,7 +261,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	private bool isRootLayoutGroup
 	{
 		[Token(Token = "0x60002FC")]
-		[Address(RVA = "0x32D32D0", Offset = "0x32D18D0", VA = "0x1832D32D0")]
+		[Address(RVA = "0x6CE2490", Offset = "0x6CE1490", VA = "0x6CE2490")]
 		get
 		{
 			return default(bool);
@@ -269,7 +269,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x32D2080", Offset = "0x32D0680", VA = "0x1832D2080", Slot = "28")]
+	[Address(RVA = "0x6CDE6D0", Offset = "0x6CDD6D0", VA = "0x6CDE6D0", Slot = "28")]
 	public virtual void CalculateLayoutInputHorizontal()
 	{
 	}
@@ -284,108 +284,108 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	public abstract void SetLayoutVertical();
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x32D3130", Offset = "0x32D1730", VA = "0x1832D3130")]
+	[Address(RVA = "0x6CDE390", Offset = "0x6CDD390", VA = "0x6CDE390")]
 	protected LayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x32D27A0", Offset = "0x32D0DA0", VA = "0x1832D27A0", Slot = "5")]
+	[Address(RVA = "0x6CE2210", Offset = "0x6CE1210", VA = "0x6CE2210", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x32D2700", Offset = "0x32D0D00", VA = "0x1832D2700", Slot = "7")]
+	[Address(RVA = "0x6CE2360", Offset = "0x6CE1360", VA = "0x6CE2360", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x32D26F0", Offset = "0x32D0CF0", VA = "0x1832D26F0", Slot = "13")]
+	[Address(RVA = "0x6CE23F0", Offset = "0x6CE13F0", VA = "0x6CE23F0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x32D2670", Offset = "0x32D0C70", VA = "0x1832D2670")]
+	[Address(RVA = "0x6CE1430", Offset = "0x6CE0430", VA = "0x6CE1430")]
 	protected float GetTotalMinSize(int axis)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x32D2680", Offset = "0x32D0C80", VA = "0x1832D2680")]
+	[Address(RVA = "0x6CE1350", Offset = "0x6CE0350", VA = "0x6CE1350")]
 	protected float GetTotalPreferredSize(int axis)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x32D2660", Offset = "0x32D0C60", VA = "0x1832D2660")]
+	[Address(RVA = "0x6CE13C0", Offset = "0x6CE03C0", VA = "0x6CE13C0")]
 	protected float GetTotalFlexibleSize(int axis)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x32D2490", Offset = "0x32D0A90", VA = "0x1832D2490")]
+	[Address(RVA = "0x6CDF890", Offset = "0x6CDE890", VA = "0x6CDF890")]
 	protected float GetStartOffset(int axis, float requiredSpaceWithoutPadding)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x32D2440", Offset = "0x32D0A40", VA = "0x1832D2440")]
+	[Address(RVA = "0x6CE0EB0", Offset = "0x6CDFEB0", VA = "0x6CE0EB0")]
 	protected float GetAlignmentOnAxis(int axis)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x32D30A0", Offset = "0x32D16A0", VA = "0x1832D30A0")]
+	[Address(RVA = "0x6CDEB40", Offset = "0x6CDDB40", VA = "0x6CDEB40")]
 	protected void SetLayoutInputForAxis(float totalMin, float totalPreferred, float totalFlexible, int axis)
 	{
 	}
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x32D2E30", Offset = "0x32D1430", VA = "0x1832D2E30")]
+	[Address(RVA = "0x6CE2400", Offset = "0x6CE1400", VA = "0x6CE2400")]
 	protected void SetChildAlongAxis(RectTransform rect, int axis, float pos)
 	{
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x32D2BE0", Offset = "0x32D11E0", VA = "0x1832D2BE0")]
+	[Address(RVA = "0x6CE1140", Offset = "0x6CE0140", VA = "0x6CE1140")]
 	protected void SetChildAlongAxisWithScale(RectTransform rect, int axis, float pos, float scaleFactor)
 	{
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x32D2ED0", Offset = "0x32D14D0", VA = "0x1832D2ED0")]
+	[Address(RVA = "0x6CDFA40", Offset = "0x6CDEA40", VA = "0x6CDFA40")]
 	protected void SetChildAlongAxis(RectTransform rect, int axis, float pos, float size)
 	{
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x32D2920", Offset = "0x32D0F20", VA = "0x1832D2920")]
+	[Address(RVA = "0x6CE0F10", Offset = "0x6CDFF10", VA = "0x6CE0F10")]
 	protected void SetChildAlongAxisWithScale(RectTransform rect, int axis, float pos, float size, float scaleFactor)
 	{
 	}
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x32D27F0", Offset = "0x32D0DF0", VA = "0x1832D27F0", Slot = "10")]
+	[Address(RVA = "0x6CE25A0", Offset = "0x6CE15A0", VA = "0x6CE25A0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x32D26F0", Offset = "0x32D0CF0", VA = "0x1832D26F0", Slot = "39")]
+	[Address(RVA = "0x6CE25D0", Offset = "0x6CE15D0", VA = "0x6CE25D0", Slot = "39")]
 	protected virtual void OnTransformChildrenChanged()
 	{
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x32D2690", Offset = "0x32D0C90", VA = "0x1832D2690", Slot = "40")]
+	[Address(RVA = "0x6CE25E0", Offset = "0x6CE15E0", VA = "0x6CE25E0", Slot = "40")]
 	protected virtual void OnChildRectTransformDimensionsChange()
 	{
 	}
@@ -396,13 +396,13 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x32D2F80", Offset = "0x32D1580", VA = "0x1832D2F80")]
+	[Address(RVA = "0x6CE2250", Offset = "0x6CE1250", VA = "0x6CE2250")]
 	protected void SetDirty()
 	{
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x32D23D0", Offset = "0x32D09D0", VA = "0x1832D23D0")]
+	[Address(RVA = "0x6CE2650", Offset = "0x6CE1650", VA = "0x6CE2650")]
 	[IteratorStateMachine(typeof(_003CDelayedSetDirty_003Ed__57))]
 	private IEnumerator DelayedSetDirty(RectTransform rectTransform)
 	{

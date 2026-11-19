@@ -22,97 +22,97 @@ internal sealed class DataViewManagerListItemTypeDescriptor : ICustomTypeDescrip
 	private PropertyDescriptorCollection _propsCollection;
 
 	[Token(Token = "0x60005A9")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x5EAAC70", Offset = "0x5EA9C70", VA = "0x5EAAC70")]
 	internal DataViewManagerListItemTypeDescriptor(DataViewManager dataViewManager)
 	{
 	}
 
 	[Token(Token = "0x60005AA")]
-	[Address(RVA = "0x250A9B0", Offset = "0x2508FB0", VA = "0x18250A9B0")]
+	[Address(RVA = "0x5EA4370", Offset = "0x5EA3370", VA = "0x5EA4370")]
 	internal DataView GetDataView(DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AB")]
-	[Address(RVA = "0x250AA70", Offset = "0x2509070", VA = "0x18250AA70", Slot = "4")]
+	[Address(RVA = "0x5EABD00", Offset = "0x5EAAD00", VA = "0x5EABD00", Slot = "4")]
 	private AttributeCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetAttributes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Address(RVA = "0x5EABD40", Offset = "0x5EAAD40", VA = "0x5EABD40", Slot = "5")]
 	private string System_002EComponentModel_002EICustomTypeDescriptor_002EGetClassName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x5EABD50", Offset = "0x5EAAD50", VA = "0x5EABD50", Slot = "6")]
 	private string System_002EComponentModel_002EICustomTypeDescriptor_002EGetComponentName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
+	[Address(RVA = "0x5EABD60", Offset = "0x5EAAD60", VA = "0x5EABD60", Slot = "7")]
 	private TypeConverter System_002EComponentModel_002EICustomTypeDescriptor_002EGetConverter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+	[Address(RVA = "0x5EABD70", Offset = "0x5EAAD70", VA = "0x5EABD70", Slot = "8")]
 	private EventDescriptor System_002EComponentModel_002EICustomTypeDescriptor_002EGetDefaultEvent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B0")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
+	[Address(RVA = "0x5EABD80", Offset = "0x5EAAD80", VA = "0x5EABD80", Slot = "9")]
 	private PropertyDescriptor System_002EComponentModel_002EICustomTypeDescriptor_002EGetDefaultProperty()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B1")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+	[Address(RVA = "0x5EABD90", Offset = "0x5EAAD90", VA = "0x5EABD90", Slot = "10")]
 	private object System_002EComponentModel_002EICustomTypeDescriptor_002EGetEditor(Type editorBaseType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B2")]
-	[Address(RVA = "0x250AAC0", Offset = "0x25090C0", VA = "0x18250AAC0", Slot = "11")]
+	[Address(RVA = "0x5EABDA0", Offset = "0x5EAADA0", VA = "0x5EABDA0", Slot = "11")]
 	private EventDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetEvents()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B3")]
-	[Address(RVA = "0x250AB10", Offset = "0x2509110", VA = "0x18250AB10", Slot = "12")]
+	[Address(RVA = "0x5EABDE0", Offset = "0x5EAADE0", VA = "0x5EABDE0", Slot = "12")]
 	private EventDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetEvents(Attribute[] attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B4")]
-	[Address(RVA = "0x250AD40", Offset = "0x2509340", VA = "0x18250AD40", Slot = "13")]
+	[Address(RVA = "0x5EABE20", Offset = "0x5EAAE20", VA = "0x5EABE20", Slot = "13")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetProperties()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B5")]
-	[Address(RVA = "0x250AB60", Offset = "0x2509160", VA = "0x18250AB60", Slot = "14")]
+	[Address(RVA = "0x5EABEC0", Offset = "0x5EAAEC0", VA = "0x5EABEC0", Slot = "14")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetProperties(Attribute[] attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B6")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "15")]
+	[Address(RVA = "0x5EAC100", Offset = "0x5EAB100", VA = "0x5EAC100", Slot = "15")]
 	private object System_002EComponentModel_002EICustomTypeDescriptor_002EGetPropertyOwner(PropertyDescriptor pd)
 	{
 		return null;

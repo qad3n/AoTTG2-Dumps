@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class CoreRPHelpURLAttribute : HelpURLAttribute
 {
 	[Token(Token = "0x600084F")]
-	[Address(RVA = "0x2B0AFD0", Offset = "0x2B095D0", VA = "0x182B0AFD0")]
+	[Address(RVA = "0x64FAC60", Offset = "0x64F9C60", VA = "0x64FAC60")]
 	public CoreRPHelpURLAttribute(string pageName, string packageName = "com.unity.render-pipelines.core")
 	{
 	}
 
 	[Token(Token = "0x6000850")]
-	[Address(RVA = "0x2B0AFA0", Offset = "0x2B095A0", VA = "0x182B0AFA0")]
+	[Address(RVA = "0x64FAEA0", Offset = "0x64F9EA0", VA = "0x64FAEA0")]
 	public CoreRPHelpURLAttribute(string pageName, string pageHash, string packageName = "com.unity.render-pipelines.core")
 	{
 	}

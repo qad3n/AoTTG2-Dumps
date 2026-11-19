@@ -12,12 +12,12 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000320")]
 public enum RenderBufferStoreAction
 {
-	[Token(Token = "0x4000814")]
+	[Token(Token = "0x4000812")]
 	Store,
-	[Token(Token = "0x4000815")]
+	[Token(Token = "0x4000813")]
 	Resolve,
-	[Token(Token = "0x4000816")]
+	[Token(Token = "0x4000814")]
 	StoreAndResolve,
-	[Token(Token = "0x4000817")]
+	[Token(Token = "0x4000815")]
 	DontCare
 }

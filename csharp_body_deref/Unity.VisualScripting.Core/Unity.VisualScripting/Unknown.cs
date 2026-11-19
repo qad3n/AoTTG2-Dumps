@@ -16,7 +16,7 @@ public class Unknown
 	public const string Identification = "__UNKNOWN";
 
 	[Token(Token = "0x6000F81")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x68430D0", Offset = "0x68420D0", VA = "0x68430D0")]
 	private Unknown()
 	{
 	}

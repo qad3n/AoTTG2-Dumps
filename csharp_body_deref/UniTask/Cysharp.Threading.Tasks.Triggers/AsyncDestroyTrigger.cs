@@ -23,13 +23,13 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 		private readonly AsyncDestroyTrigger trigger;
 
 		[Token(Token = "0x6000A07")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x62F64D0", Offset = "0x62F54D0", VA = "0x62F64D0")]
 		public AwakeMonitor(AsyncDestroyTrigger trigger)
 		{
 		}
 
 		[Token(Token = "0x6000A08")]
-		[Address(RVA = "0x293F8E0", Offset = "0x293DEE0", VA = "0x18293F8E0", Slot = "4")]
+		[Address(RVA = "0x62F6550", Offset = "0x62F5550", VA = "0x62F6550", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -52,7 +52,7 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 	public CancellationToken CancellationToken
 	{
 		[Token(Token = "0x6000A02")]
-		[Address(RVA = "0x292C810", Offset = "0x292AE10", VA = "0x18292C810")]
+		[Address(RVA = "0x62F63D0", Offset = "0x62F53D0", VA = "0x62F63D0")]
 		get
 		{
 			return default(CancellationToken);
@@ -60,26 +60,26 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000A03")]
-	[Address(RVA = "0x24F4CE0", Offset = "0x24F32E0", VA = "0x1824F4CE0")]
+	[Address(RVA = "0x62F6500", Offset = "0x62F5500", VA = "0x62F6500")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000A04")]
-	[Address(RVA = "0x292C7D0", Offset = "0x292ADD0", VA = "0x18292C7D0")]
+	[Address(RVA = "0x62F6510", Offset = "0x62F5510", VA = "0x62F6510")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000A05")]
-	[Address(RVA = "0x292C520", Offset = "0x292AB20", VA = "0x18292C520")]
+	[Address(RVA = "0x62F33F0", Offset = "0x62F23F0", VA = "0x62F33F0")]
 	public UniTask OnDestroyAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x62F6540", Offset = "0x62F5540", VA = "0x62F6540")]
 	public AsyncDestroyTrigger()
 	{
 	}

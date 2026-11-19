@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIElementsInitialization
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,20 +19,20 @@ internal static class UIElementsInitialization
 	private static readonly ProfilerMarker s_InitializeUIElementsManagedMarker;
 
 	[Token(Token = "0x600252F")]
-	[Address(RVA = "0x3145AE0", Offset = "0x31440E0", VA = "0x183145AE0")]
+	[Address(RVA = "0x6B47AC0", Offset = "0x6B46AC0", VA = "0x6B47AC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode(true)]
 	public static void InitializeUIElementsManaged()
 	{
 	}
 
 	[Token(Token = "0x6002530")]
-	[Address(RVA = "0x3145B30", Offset = "0x3144130", VA = "0x183145B30")]
+	[Address(RVA = "0x6B47B30", Offset = "0x6B46B30", VA = "0x6B47B30")]
 	internal static void RegisterBuiltInPropertyBags()
 	{
 	}
 
 	[Token(Token = "0x6002531")]
-	[Address(RVA = "0x314A380", Offset = "0x3148980", VA = "0x18314A380")]
+	[Address(RVA = "0x6B4CA70", Offset = "0x6B4BA70", VA = "0x6B4CA70")]
 	private static void RegisterConverters()
 	{
 	}

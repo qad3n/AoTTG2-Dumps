@@ -36,7 +36,7 @@ public class XmlReflectionMember
 	public bool IsReturnValue
 	{
 		[Token(Token = "0x6000D84")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x611F630", Offset = "0x611E630", VA = "0x611F630")]
 		get
 		{
 			return default(bool);
@@ -47,7 +47,7 @@ public class XmlReflectionMember
 	public string MemberName
 	{
 		[Token(Token = "0x6000D85")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x611F640", Offset = "0x611E640", VA = "0x611F640")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ public class XmlReflectionMember
 	public Type MemberType
 	{
 		[Token(Token = "0x6000D86")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x611F650", Offset = "0x611E650", VA = "0x611F650")]
 		get
 		{
 			return null;
@@ -69,7 +69,7 @@ public class XmlReflectionMember
 	public XmlAttributes XmlAttributes
 	{
 		[Token(Token = "0x6000D87")]
-		[Address(RVA = "0x2766190", Offset = "0x2764790", VA = "0x182766190")]
+		[Address(RVA = "0x611C420", Offset = "0x611B420", VA = "0x611C420")]
 		get
 		{
 			return null;
@@ -80,20 +80,20 @@ public class XmlReflectionMember
 	internal Type DeclaringType
 	{
 		[Token(Token = "0x6000D88")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x611F660", Offset = "0x611E660", VA = "0x611F660")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D89")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x611F670", Offset = "0x611E670", VA = "0x611F670")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D83")]
-	[Address(RVA = "0x2766130", Offset = "0x2764730", VA = "0x182766130")]
+	[Address(RVA = "0x611D230", Offset = "0x611C230", VA = "0x611D230")]
 	internal XmlReflectionMember(string name, Type type, XmlAttributes attributes)
 	{
 	}

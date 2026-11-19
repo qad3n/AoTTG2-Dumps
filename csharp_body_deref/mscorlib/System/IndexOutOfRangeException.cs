@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000100")]
+[Token(Token = "0x20000D8")]
 public sealed class IndexOutOfRangeException : SystemException
 {
-	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x1B27D60", Offset = "0x1B26360", VA = "0x181B27D60")]
+	[Token(Token = "0x60007C1")]
+	[Address(RVA = "0x54B53D0", Offset = "0x54B43D0", VA = "0x54B53D0")]
 	public IndexOutOfRangeException()
 	{
 	}
 
-	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x1B27DB0", Offset = "0x1B263B0", VA = "0x181B27DB0")]
+	[Token(Token = "0x60007C2")]
+	[Address(RVA = "0x54B5410", Offset = "0x54B4410", VA = "0x54B5410")]
 	public IndexOutOfRangeException(string message)
 	{
 	}
 
-	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x60007C3")]
+	[Address(RVA = "0x54B5430", Offset = "0x54B4430", VA = "0x54B5430")]
 	internal IndexOutOfRangeException(SerializationInfo info, StreamingContext context)
 	{
 	}

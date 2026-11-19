@@ -18,12 +18,12 @@ public sealed class CollectionAccessAttribute : Attribute
 {
 	[Token(Token = "0x400011E")]
 	[FieldOffset(Offset = "0x10")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly CollectionAccessType _003CCollectionAccessType_003Ek__BackingField;
 
-	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x60001A6")]
+	[Address(RVA = "0x68B8C40", Offset = "0x68B7C40", VA = "0x68B8C40")]
 	public CollectionAccessAttribute(CollectionAccessType collectionAccessType)
 	{
 	}

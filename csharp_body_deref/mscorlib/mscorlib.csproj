@@ -75,6 +75,9 @@
     <Reference Include="UnityEngine.PropertiesModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.PropertiesModule.dll</HintPath>
     </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>../../dumps/il2cpp/DummyDll/System.IO.Compression.dll</HintPath>
+    </Reference>
     <Reference Include="PhotonUnityNetworking.Utilities">
       <HintPath>../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.Utilities.dll</HintPath>
     </Reference>
@@ -86,9 +89,6 @@
     </Reference>
     <Reference Include="Gilzoide.FlexUi">
       <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>../../dumps/il2cpp/DummyDll/System.IO.Compression.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

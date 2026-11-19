@@ -16,7 +16,7 @@ internal static class X509Pal
 	public static X509PalImpl Instance
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x24A7A90", Offset = "0x24A6090", VA = "0x1824A7A90")]
+		[Address(RVA = "0x5E2E680", Offset = "0x5E2D680", VA = "0x5E2E680")]
 		get
 		{
 			return null;

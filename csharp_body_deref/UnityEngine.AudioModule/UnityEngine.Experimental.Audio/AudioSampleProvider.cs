@@ -13,35 +13,35 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.Audio;
 
-[Token(Token = "0x2000015")]
-[UnityEngine.Bindings.NativeType(Header = "Modules/Audio/Public/ScriptBindings/AudioSampleProvider.bindings.h")]
+[Token(Token = "0x2000016")]
 [UnityEngine.Bindings.StaticAccessor("AudioSampleProviderBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeType(Header = "Modules/Audio/Public/ScriptBindings/AudioSampleProvider.bindings.h")]
 public class AudioSampleProvider
 {
-	[Token(Token = "0x2000016")]
+	[Token(Token = "0x2000017")]
 	public delegate void SampleFramesHandler(AudioSampleProvider provider, uint sampleFrameCount);
 
-	[Token(Token = "0x4000018")]
+	[Token(Token = "0x400001D")]
 	[FieldOffset(Offset = "0x10")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private SampleFramesHandler sampleFramesAvailable;
 
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x18")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private SampleFramesHandler sampleFramesOverflow;
 
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2EB3870", Offset = "0x2EB1E70", VA = "0x182EB3870")]
+	[Token(Token = "0x600007C")]
+	[Address(RVA = "0x68B1850", Offset = "0x68B0850", VA = "0x68B1850")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void InvokeSampleFramesAvailable(int sampleFrameCount)
 	{
 	}
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2EB3890", Offset = "0x2EB1E90", VA = "0x182EB3890")]
+	[Token(Token = "0x600007D")]
+	[Address(RVA = "0x68B1870", Offset = "0x68B0870", VA = "0x68B1870")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void InvokeSampleFramesOverflow(int droppedSampleFrameCount)
 	{

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.BasicNode
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005A3")]
+[Token(Token = "0x200058E")]
 internal class BasicNode<T> : LinkedPoolItem<BasicNode<T>>
 {
-	[Token(Token = "0x400141A")]
+	[Token(Token = "0x400135C")]
 	[FieldOffset(Offset = "0x0")]
 	public BasicNode<T> next;
 
-	[Token(Token = "0x400141B")]
+	[Token(Token = "0x400135D")]
 	[FieldOffset(Offset = "0x0")]
 	public T data;
 
-	[Token(Token = "0x60029FA")]
+	[Token(Token = "0x6002999")]
 	public void InsertFirst(ref BasicNode<T> first)
 	{
 	}
 
-	[Token(Token = "0x60029FB")]
+	[Token(Token = "0x600299A")]
 	public BasicNode()
 	{
 	}

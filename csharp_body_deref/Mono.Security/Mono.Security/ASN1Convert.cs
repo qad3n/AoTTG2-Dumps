@@ -14,42 +14,42 @@ namespace Mono.Security;
 public static class ASN1Convert
 {
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x19106C0", Offset = "0x190ECC0", VA = "0x1819106C0")]
+	[Address(RVA = "0x52ACB00", Offset = "0x52ABB00", VA = "0x52ACB00")]
 	public static ASN1 FromInt32(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x1910A00", Offset = "0x190F000", VA = "0x181910A00")]
+	[Address(RVA = "0x52ACC70", Offset = "0x52ABC70", VA = "0x52ACC70")]
 	public static ASN1 FromOid(string oid)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x1910AE0", Offset = "0x190F0E0", VA = "0x181910AE0")]
+	[Address(RVA = "0x52ACD40", Offset = "0x52ABD40", VA = "0x52ACD40")]
 	public static ASN1 FromUnsignedBigInteger(byte[] big)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x1911210", Offset = "0x190F810", VA = "0x181911210")]
+	[Address(RVA = "0x52ACE50", Offset = "0x52ABE50", VA = "0x52ACE50")]
 	public static int ToInt32(ASN1 asn1)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x19113C0", Offset = "0x190F9C0", VA = "0x1819113C0")]
+	[Address(RVA = "0x52AD030", Offset = "0x52AC030", VA = "0x52AD030")]
 	public static string ToOid(ASN1 asn1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x1910C00", Offset = "0x190F200", VA = "0x181910C00")]
+	[Address(RVA = "0x52AD330", Offset = "0x52AC330", VA = "0x52AD330")]
 	public static DateTime ToDateTime(ASN1 time)
 	{
 		return default(DateTime);

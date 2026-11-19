@@ -18,27 +18,27 @@ internal class XmlAsyncCheckReaderWithNS : XmlAsyncCheckReader, IXmlNamespaceRes
 	private readonly IXmlNamespaceResolver readerAsIXmlNamespaceResolver;
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x26E31F0", Offset = "0x26E17F0", VA = "0x1826E31F0")]
+	[Address(RVA = "0x609B5F0", Offset = "0x609A5F0", VA = "0x609B5F0")]
 	public XmlAsyncCheckReaderWithNS(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x26E30D0", Offset = "0x26E16D0", VA = "0x1826E30D0", Slot = "53")]
+	[Address(RVA = "0x609C310", Offset = "0x609B310", VA = "0x609C310", Slot = "53")]
 	private IDictionary<string, string> System_002EXml_002EIXmlNamespaceResolver_002EGetNamespacesInScope(XmlNamespaceScope scope)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x26E3130", Offset = "0x26E1730", VA = "0x1826E3130", Slot = "54")]
+	[Address(RVA = "0x609C3C0", Offset = "0x609B3C0", VA = "0x609C3C0", Slot = "54")]
 	private string System_002EXml_002EIXmlNamespaceResolver_002ELookupNamespace(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x26E3190", Offset = "0x26E1790", VA = "0x1826E3190", Slot = "55")]
+	[Address(RVA = "0x609C470", Offset = "0x609B470", VA = "0x609C470", Slot = "55")]
 	private string System_002EXml_002EIXmlNamespaceResolver_002ELookupPrefix(string namespaceName)
 	{
 		return null;

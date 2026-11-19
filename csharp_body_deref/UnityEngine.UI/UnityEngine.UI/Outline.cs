@@ -15,13 +15,13 @@ namespace UnityEngine.UI;
 public class Outline : Shadow
 {
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x32DAE50", Offset = "0x32D9450", VA = "0x1832DAE50")]
+	[Address(RVA = "0x6CFFB00", Offset = "0x6CFEB00", VA = "0x6CFFB00")]
 	protected Outline()
 	{
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x32DAAE0", Offset = "0x32D90E0", VA = "0x1832DAAE0", Slot = "20")]
+	[Address(RVA = "0x6CFFB10", Offset = "0x6CFEB10", VA = "0x6CFFB10", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

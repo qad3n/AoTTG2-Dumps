@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200010A")]
+[Token(Token = "0x200010B")]
 internal sealed class DefaultValueInstruction : Instruction
 {
-	[Token(Token = "0x4000260")]
+	[Token(Token = "0x4000269")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _type;
 
-	[Token(Token = "0x17000193")]
+	[Token(Token = "0x17000195")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600068C")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000697")]
+		[Address(RVA = "0x5DE0150", Offset = "0x5DDF150", VA = "0x5DE0150", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000194")]
+	[Token(Token = "0x17000196")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x242C5C0", Offset = "0x242ABC0", VA = "0x18242C5C0", Slot = "9")]
+		[Token(Token = "0x6000698")]
+		[Address(RVA = "0x5DE0160", Offset = "0x5DDF160", VA = "0x5DE0160", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600068B")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6000696")]
+	[Address(RVA = "0x5DE0120", Offset = "0x5DDF120", VA = "0x5DE0120")]
 	internal DefaultValueInstruction(Type type)
 	{
 	}
 
-	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x242C520", Offset = "0x242AB20", VA = "0x18242C520", Slot = "8")]
+	[Token(Token = "0x6000699")]
+	[Address(RVA = "0x5DE0190", Offset = "0x5DDF190", VA = "0x5DE0190", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x242C560", Offset = "0x242AB60", VA = "0x18242C560", Slot = "3")]
+	[Token(Token = "0x600069A")]
+	[Address(RVA = "0x5DE01C0", Offset = "0x5DDF1C0", VA = "0x5DE01C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

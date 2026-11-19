@@ -18,7 +18,7 @@ namespace UnityEngine.XR;
 public class XRMeshSubsystemDescriptor : IntegratedSubsystemDescriptor<XRMeshSubsystem>
 {
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3315530", Offset = "0x3313B30", VA = "0x183315530")]
+	[Address(RVA = "0x6D25410", Offset = "0x6D24410", VA = "0x6D25410")]
 	public XRMeshSubsystemDescriptor()
 	{
 	}

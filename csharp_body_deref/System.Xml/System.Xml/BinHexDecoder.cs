@@ -36,7 +36,7 @@ internal class BinHexDecoder : IncrementalReadDecoder
 	internal override bool IsFull
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x25CCC40", Offset = "0x25CB240", VA = "0x1825CCC40", Slot = "4")]
+		[Address(RVA = "0x5F8AE80", Offset = "0x5F89E80", VA = "0x5F8AE80", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -44,21 +44,21 @@ internal class BinHexDecoder : IncrementalReadDecoder
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x25CCA10", Offset = "0x25CB010", VA = "0x1825CCA10", Slot = "5")]
+	[Address(RVA = "0x5F8AE90", Offset = "0x5F89E90", VA = "0x5F8AE90", Slot = "5")]
 	internal override int Decode(char[] chars, int startPos, int len)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x25CC590", Offset = "0x25CAB90", VA = "0x1825CC590")]
+	[Address(RVA = "0x5F8B230", Offset = "0x5F8A230", VA = "0x5F8B230")]
 	public static byte[] Decode(char[] chars, bool allowOddChars)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x25CC8A0", Offset = "0x25CAEA0", VA = "0x1825CC8A0")]
+	[Address(RVA = "0x5F8B010", Offset = "0x5F8A010", VA = "0x5F8B010")]
 	private unsafe static void Decode(char* pChars, char* pCharsEndPos, byte* pBytes, byte* pBytesEndPos, ref bool hasHalfByteCached, ref byte cachedHalfByte, out int charsDecoded, out int bytesDecoded)
 	{
 	}

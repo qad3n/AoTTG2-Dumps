@@ -49,13 +49,13 @@ public class CountdownTimer : MonoBehaviourPunCallbacks
 	public static event CountdownTimerHasExpired OnCountdownTimerHasExpired
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x1D51260", Offset = "0x1D4F860", VA = "0x181D51260")]
+		[Address(RVA = "0x56F5A70", Offset = "0x56F4A70", VA = "0x56F5A70")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x1D51320", Offset = "0x1D4F920", VA = "0x181D51320")]
+		[Address(RVA = "0x56F5B10", Offset = "0x56F4B10", VA = "0x56F5B10")]
 		[CompilerGenerated]
 		remove
 		{
@@ -63,75 +63,75 @@ public class CountdownTimer : MonoBehaviourPunCallbacks
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x1D50F40", Offset = "0x1D4F540", VA = "0x181D50F40")]
+	[Address(RVA = "0x56F5BB0", Offset = "0x56F4BB0", VA = "0x56F5BB0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x1D50B60", Offset = "0x1D4F160", VA = "0x181D50B60", Slot = "28")]
+	[Address(RVA = "0x56F5C60", Offset = "0x56F4C60", VA = "0x56F5C60", Slot = "28")]
 	public override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x1D50AF0", Offset = "0x1D4F0F0", VA = "0x181D50AF0", Slot = "29")]
+	[Address(RVA = "0x56F5F90", Offset = "0x56F4F90", VA = "0x56F5F90", Slot = "29")]
 	public override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x1D51130", Offset = "0x1D4F730", VA = "0x181D51130")]
+	[Address(RVA = "0x56F5FF0", Offset = "0x56F4FF0", VA = "0x56F5FF0")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x1D50D60", Offset = "0x1D4F360", VA = "0x181D50D60")]
+	[Address(RVA = "0x56F6240", Offset = "0x56F5240", VA = "0x56F6240")]
 	private void OnTimerRuns()
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x1D50C80", Offset = "0x1D4F280", VA = "0x181D50C80")]
+	[Address(RVA = "0x56F6150", Offset = "0x56F5150", VA = "0x56F6150")]
 	private void OnTimerEnds()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x1D50BD0", Offset = "0x1D4F1D0", VA = "0x181D50BD0", Slot = "46")]
+	[Address(RVA = "0x56F6250", Offset = "0x56F5250", VA = "0x56F6250", Slot = "46")]
 	public override void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x1D50820", Offset = "0x1D4EE20", VA = "0x181D50820")]
+	[Address(RVA = "0x56F5CD0", Offset = "0x56F4CD0", VA = "0x56F5CD0")]
 	private void Initialize()
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x1D50FE0", Offset = "0x1D4F5E0", VA = "0x181D50FE0")]
+	[Address(RVA = "0x56F60F0", Offset = "0x56F50F0", VA = "0x56F60F0")]
 	private float TimeRemaining()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x1D51050", Offset = "0x1D4F650", VA = "0x181D51050")]
+	[Address(RVA = "0x56F6300", Offset = "0x56F5300", VA = "0x56F6300")]
 	public static bool TryGetStartTime(out int startTimestamp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x1D50D70", Offset = "0x1D4F370", VA = "0x181D50D70")]
+	[Address(RVA = "0x56F63E0", Offset = "0x56F53E0", VA = "0x56F63E0")]
 	public static void SetStartTime()
 	{
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x1D51250", Offset = "0x1D4F850", VA = "0x181D51250")]
+	[Address(RVA = "0x56F65B0", Offset = "0x56F55B0", VA = "0x56F65B0")]
 	public CountdownTimer()
 	{
 	}

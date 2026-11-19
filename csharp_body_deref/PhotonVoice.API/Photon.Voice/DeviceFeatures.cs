@@ -21,14 +21,14 @@ public class DeviceFeatures
 	public CameraFacing CameraFacing
 	{
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5703ED0", Offset = "0x5702ED0", VA = "0x5703ED0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(CameraFacing);
 		}
 		[Token(Token = "0x60000FD")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x5703EE0", Offset = "0x5702EE0", VA = "0x5703EE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -36,13 +36,13 @@ public class DeviceFeatures
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5703EA0", Offset = "0x5702EA0", VA = "0x5703EA0")]
 	public DeviceFeatures()
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Address(RVA = "0x5703EB0", Offset = "0x5702EB0", VA = "0x5703EB0")]
 	public DeviceFeatures(CameraFacing facing)
 	{
 	}

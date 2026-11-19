@@ -50,7 +50,7 @@ public static class TaskPool
 		private (Type, int) System_002ECollections_002EGeneric_002EIEnumerator_003C_0028System_002EType_002CSystem_002EInt32_0029_003E_002ECurrent
 		{
 			[Token(Token = "0x6000176")]
-			[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990", Slot = "6")]
+			[Address(RVA = "0x62C9AA0", Offset = "0x62C8AA0", VA = "0x62C9AA0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -62,7 +62,7 @@ public static class TaskPool
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000178")]
-			[Address(RVA = "0x2914C00", Offset = "0x2913200", VA = "0x182914C00", Slot = "9")]
+			[Address(RVA = "0x62C9AF0", Offset = "0x62C8AF0", VA = "0x62C9AF0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -71,47 +71,47 @@ public static class TaskPool
 		}
 
 		[Token(Token = "0x6000171")]
-		[Address(RVA = "0x8E81C0", Offset = "0x8E67C0", VA = "0x1808E81C0")]
+		[Address(RVA = "0x62C9610", Offset = "0x62C8610", VA = "0x62C9610")]
 		[DebuggerHidden]
 		public _003CGetCacheSizeInfo_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000172")]
-		[Address(RVA = "0x2914C50", Offset = "0x2913250", VA = "0x182914C50", Slot = "7")]
+		[Address(RVA = "0x62C9640", Offset = "0x62C8640", VA = "0x62C9640", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000173")]
-		[Address(RVA = "0x2914800", Offset = "0x2912E00", VA = "0x182914800", Slot = "8")]
+		[Address(RVA = "0x62C9740", Offset = "0x62C8740", VA = "0x62C9740", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000174")]
-		[Address(RVA = "0x2914D60", Offset = "0x2913360", VA = "0x182914D60")]
+		[Address(RVA = "0x62C9A80", Offset = "0x62C8A80", VA = "0x62C9A80")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x2914D80", Offset = "0x2913380", VA = "0x182914D80")]
+		[Address(RVA = "0x62C9A40", Offset = "0x62C8A40", VA = "0x62C9A40")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x2914BC0", Offset = "0x29131C0", VA = "0x182914BC0", Slot = "10")]
+		[Address(RVA = "0x62C9AB0", Offset = "0x62C8AB0", VA = "0x62C9AB0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000179")]
-		[Address(RVA = "0x2914B30", Offset = "0x2913130", VA = "0x182914B30", Slot = "4")]
+		[Address(RVA = "0x62C9B40", Offset = "0x62C8B40", VA = "0x62C9B40", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<(Type, int)> System_002ECollections_002EGeneric_002EIEnumerable_003C_0028System_002EType_002CSystem_002EInt32_0029_003E_002EGetEnumerator()
 		{
@@ -119,7 +119,7 @@ public static class TaskPool
 		}
 
 		[Token(Token = "0x600017A")]
-		[Address(RVA = "0x2914B30", Offset = "0x2913130", VA = "0x182914B30", Slot = "5")]
+		[Address(RVA = "0x62C9BC0", Offset = "0x62C8BC0", VA = "0x62C9BC0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -136,19 +136,19 @@ public static class TaskPool
 	private static Dictionary<Type, Func<int>> sizes;
 
 	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x2912010", Offset = "0x2910610", VA = "0x182912010")]
+	[Address(RVA = "0x62C9420", Offset = "0x62C8420", VA = "0x62C9420")]
 	static TaskPool()
 	{
 	}
 
 	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x2911FB0", Offset = "0x29105B0", VA = "0x182911FB0")]
+	[Address(RVA = "0x62C9570", Offset = "0x62C8570", VA = "0x62C9570")]
 	public static void SetMaxPoolSize(int maxPoolSize)
 	{
 	}
 
 	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x2911E10", Offset = "0x2910410", VA = "0x182911E10")]
+	[Address(RVA = "0x62C95C0", Offset = "0x62C85C0", VA = "0x62C95C0")]
 	[IteratorStateMachine(typeof(_003CGetCacheSizeInfo_003Ed__4))]
 	public static IEnumerable<(Type, int)> GetCacheSizeInfo()
 	{
@@ -156,7 +156,7 @@ public static class TaskPool
 	}
 
 	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x2911E70", Offset = "0x2910470", VA = "0x182911E70")]
+	[Address(RVA = "0x62C3EF0", Offset = "0x62C2EF0", VA = "0x62C3EF0")]
 	public static void RegisterSizeGetter(Type type, Func<int> getSize)
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x20000FF")]
 public enum CameraClearFlags
 {
-	[Token(Token = "0x40002A8")]
+	[Token(Token = "0x40002AD")]
 	Skybox = 1,
-	[Token(Token = "0x40002A9")]
+	[Token(Token = "0x40002AE")]
 	Color = 2,
-	[Token(Token = "0x40002AA")]
+	[Token(Token = "0x40002AF")]
 	SolidColor = Color,
-	[Token(Token = "0x40002AB")]
+	[Token(Token = "0x40002B0")]
 	Depth = 3,
-	[Token(Token = "0x40002AC")]
+	[Token(Token = "0x40002B1")]
 	Nothing = 4
 }

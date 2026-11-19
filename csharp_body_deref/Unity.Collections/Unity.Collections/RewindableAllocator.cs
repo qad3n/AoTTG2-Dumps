@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.RewindableAllocator
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -48,14 +48,14 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000A0F")]
-			[Address(RVA = "0x29BD7E0", Offset = "0x29BBDE0", VA = "0x1829BD7E0")]
+			[Address(RVA = "0x6384140", Offset = "0x6383140", VA = "0x6384140")]
 			get
 			{
 				return default(long);
 			}
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000A10")]
-			[Address(RVA = "0x29BD820", Offset = "0x29BBE20", VA = "0x1829BD820")]
+			[Address(RVA = "0x6384150", Offset = "0x6383150", VA = "0x6384150")]
 			set
 			{
 			}
@@ -66,14 +66,14 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000A11")]
-			[Address(RVA = "0x29BD7D0", Offset = "0x29BBDD0", VA = "0x1829BD7D0")]
+			[Address(RVA = "0x6384180", Offset = "0x6383180", VA = "0x6384180")]
 			get
 			{
 				return default(long);
 			}
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000A12")]
-			[Address(RVA = "0x29BD800", Offset = "0x29BBE00", VA = "0x1829BD800")]
+			[Address(RVA = "0x6384190", Offset = "0x6383190", VA = "0x6384190")]
 			set
 			{
 			}
@@ -100,25 +100,25 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 		public Union m_union;
 
 		[Token(Token = "0x6000A13")]
-		[Address(RVA = "0x29B4B70", Offset = "0x29B3170", VA = "0x1829B4B70")]
+		[Address(RVA = "0x6383650", Offset = "0x6382650", VA = "0x6383650")]
 		public MemoryBlock(long bytes)
 		{
 		}
 
 		[Token(Token = "0x6000A14")]
-		[Address(RVA = "0x29B4B60", Offset = "0x29B3160", VA = "0x1829B4B60")]
+		[Address(RVA = "0x6383950", Offset = "0x6382950", VA = "0x6383950")]
 		public void Rewind()
 		{
 		}
 
 		[Token(Token = "0x6000A15")]
-		[Address(RVA = "0x29B4AF0", Offset = "0x29B30F0", VA = "0x1829B4AF0", Slot = "4")]
+		[Address(RVA = "0x63838F0", Offset = "0x63828F0", VA = "0x63838F0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000A16")]
-		[Address(RVA = "0x29B4AA0", Offset = "0x29B30A0", VA = "0x1829B4AA0")]
+		[Address(RVA = "0x6383FE0", Offset = "0x6382FE0", VA = "0x6383FE0")]
 		public bool Contains(IntPtr ptr)
 		{
 			return default(bool);
@@ -137,21 +137,21 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 		private static IntPtr Pointer;
 
 		[Token(Token = "0x6000A1B")]
-		[Address(RVA = "0x29BC070", Offset = "0x29BA670", VA = "0x1829BC070")]
+		[Address(RVA = "0x6384340", Offset = "0x6383340", VA = "0x6384340")]
 		[BurstDiscard]
 		private static void GetFunctionPointerDiscard(ref IntPtr P_0)
 		{
 		}
 
 		[Token(Token = "0x6000A1C")]
-		[Address(RVA = "0x29BC1F0", Offset = "0x29BA7F0", VA = "0x1829BC1F0")]
+		[Address(RVA = "0x63844A0", Offset = "0x63834A0", VA = "0x63844A0")]
 		private static IntPtr GetFunctionPointer()
 		{
 			return default(IntPtr);
 		}
 
 		[Token(Token = "0x6000A1D")]
-		[Address(RVA = "0x29B99C0", Offset = "0x29B7FC0", VA = "0x1829B99C0")]
+		[Address(RVA = "0x6384020", Offset = "0x6383020", VA = "0x6384020")]
 		public static int Invoke(IntPtr state, ref AllocatorManager.Block block)
 		{
 			return default(int);
@@ -208,13 +208,13 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public bool EnableBlockFree
 	{
 		[Token(Token = "0x60009FB")]
-		[Address(RVA = "0x29B9C40", Offset = "0x29B8240", VA = "0x1829B9C40")]
+		[Address(RVA = "0x63836A0", Offset = "0x63826A0", VA = "0x63836A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009FC")]
-		[Address(RVA = "0x29B9D20", Offset = "0x29B8320", VA = "0x1829B9D20")]
+		[Address(RVA = "0x63836B0", Offset = "0x63826B0", VA = "0x63836B0")]
 		set
 		{
 		}
@@ -224,7 +224,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public int BlocksAllocated
 	{
 		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x29B9BB0", Offset = "0x29B81B0", VA = "0x1829B9BB0")]
+		[Address(RVA = "0x63836C0", Offset = "0x63826C0", VA = "0x63836C0")]
 		get
 		{
 			return default(int);
@@ -235,7 +235,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public int InitialSizeInBytes
 	{
 		[Token(Token = "0x60009FE")]
-		[Address(RVA = "0x29B9CB0", Offset = "0x29B82B0", VA = "0x1829B9CB0")]
+		[Address(RVA = "0x63836D0", Offset = "0x63826D0", VA = "0x63836D0")]
 		get
 		{
 			return default(int);
@@ -246,7 +246,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	internal long MaxMemoryBlockSize
 	{
 		[Token(Token = "0x60009FF")]
-		[Address(RVA = "0x29B9D00", Offset = "0x29B8300", VA = "0x1829B9D00")]
+		[Address(RVA = "0x6383700", Offset = "0x6382700", VA = "0x6383700")]
 		get
 		{
 			return default(long);
@@ -257,7 +257,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	internal long BytesAllocated
 	{
 		[Token(Token = "0x6000A00")]
-		[Address(RVA = "0x29B9BC0", Offset = "0x29B81C0", VA = "0x1829B9BC0")]
+		[Address(RVA = "0x6383710", Offset = "0x6382710", VA = "0x6383710")]
 		get
 		{
 			return default(long);
@@ -269,7 +269,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public AllocatorManager.TryFunction Function
 	{
 		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x29B9C50", Offset = "0x29B8250", VA = "0x1829B9C50", Slot = "4")]
+		[Address(RVA = "0x6383A80", Offset = "0x6382A80", VA = "0x6383A80", Slot = "4")]
 		get
 		{
 			return null;
@@ -280,13 +280,13 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public AllocatorManager.AllocatorHandle Handle
 	{
 		[Token(Token = "0x6000A07")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0", Slot = "6")]
+		[Address(RVA = "0x63840D0", Offset = "0x63830D0", VA = "0x63840D0", Slot = "6")]
 		get
 		{
 			return default(AllocatorManager.AllocatorHandle);
 		}
 		[Token(Token = "0x6000A08")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00", Slot = "7")]
+		[Address(RVA = "0x63840E0", Offset = "0x63830E0", VA = "0x63840E0", Slot = "7")]
 		set
 		{
 		}
@@ -296,7 +296,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public Allocator ToAllocator
 	{
 		[Token(Token = "0x6000A09")]
-		[Address(RVA = "0x29B9D10", Offset = "0x29B8310", VA = "0x1829B9D10", Slot = "8")]
+		[Address(RVA = "0x63840F0", Offset = "0x63830F0", VA = "0x63840F0", Slot = "8")]
 		get
 		{
 			return default(Allocator);
@@ -307,7 +307,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public bool IsCustomAllocator
 	{
 		[Token(Token = "0x6000A0A")]
-		[Address(RVA = "0x29B9CF0", Offset = "0x29B82F0", VA = "0x1829B9CF0", Slot = "9")]
+		[Address(RVA = "0x6384100", Offset = "0x6383100", VA = "0x6384100", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -318,7 +318,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	public bool IsAutoDispose
 	{
 		[Token(Token = "0x6000A0B")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Address(RVA = "0x6384110", Offset = "0x6383110", VA = "0x6384110", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -326,39 +326,39 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 	}
 
 	[Token(Token = "0x60009FA")]
-	[Address(RVA = "0x29B9150", Offset = "0x29B7750", VA = "0x1829B9150")]
+	[Address(RVA = "0x6383550", Offset = "0x6382550", VA = "0x6383550")]
 	public void Initialize(int initialSizeInBytes, bool enableBlockFree = false)
 	{
 	}
 
 	[Token(Token = "0x6000A01")]
-	[Address(RVA = "0x29B9240", Offset = "0x29B7840", VA = "0x1829B9240")]
+	[Address(RVA = "0x6383770", Offset = "0x6382770", VA = "0x6383770")]
 	public void Rewind()
 	{
 	}
 
 	[Token(Token = "0x6000A02")]
-	[Address(RVA = "0x29B9020", Offset = "0x29B7620", VA = "0x1829B9020", Slot = "11")]
+	[Address(RVA = "0x6383960", Offset = "0x6382960", VA = "0x6383960", Slot = "11")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000A04")]
-	[Address(RVA = "0x29B93D0", Offset = "0x29B79D0", VA = "0x1829B93D0")]
+	[Address(RVA = "0x6383AE0", Offset = "0x6382AE0", VA = "0x6383AE0")]
 	private int TryAllocate(ref AllocatorManager.Block block, int startIndex, int lastIndex, long alignedSize, long alignmentMask)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A05")]
-	[Address(RVA = "0x29B9630", Offset = "0x29B7C30", VA = "0x1829B9630", Slot = "5")]
+	[Address(RVA = "0x6383CD0", Offset = "0x6382CD0", VA = "0x6383CD0", Slot = "5")]
 	public int Try(ref AllocatorManager.Block block)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x29B99C0", Offset = "0x29B7FC0", VA = "0x1829B99C0")]
+	[Address(RVA = "0x6383540", Offset = "0x6382540", VA = "0x6383540")]
 	[BurstCompile]
 	[MonoPInvokeCallback(typeof(AllocatorManager.TryFunction))]
 	internal static int Try(IntPtr state, ref AllocatorManager.Block block)
@@ -382,7 +382,7 @@ public struct RewindableAllocator : AllocatorManager.IAllocator, IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000A0E")]
-	[Address(RVA = "0x29B9600", Offset = "0x29B7C00", VA = "0x1829B9600")]
+	[Address(RVA = "0x6384120", Offset = "0x6383120", VA = "0x6384120")]
 	[BurstCompile]
 	[MonoPInvokeCallback(typeof(AllocatorManager.TryFunction))]
 	internal static int Try_0024BurstManaged(IntPtr state, ref AllocatorManager.Block block)

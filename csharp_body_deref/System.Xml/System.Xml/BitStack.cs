@@ -25,39 +25,39 @@ internal class BitStack
 	private uint curr;
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x25D11D0", Offset = "0x25CF7D0", VA = "0x1825D11D0")]
+	[Address(RVA = "0x5F999F0", Offset = "0x5F989F0", VA = "0x5F999F0")]
 	public BitStack()
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x25D0FE0", Offset = "0x25CF5E0", VA = "0x1825D0FE0")]
+	[Address(RVA = "0x5F99A10", Offset = "0x5F98A10", VA = "0x5F99A10")]
 	public void PushBit(bool bit)
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x25D0F40", Offset = "0x25CF540", VA = "0x1825D0F40")]
+	[Address(RVA = "0x5F99B20", Offset = "0x5F98B20", VA = "0x5F99B20")]
 	public bool PopBit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x25D0F30", Offset = "0x25CF530", VA = "0x1825D0F30")]
+	[Address(RVA = "0x5F99BA0", Offset = "0x5F98BA0", VA = "0x5F99BA0")]
 	public bool PeekBit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x25D10F0", Offset = "0x25CF6F0", VA = "0x1825D10F0")]
+	[Address(RVA = "0x5F99A40", Offset = "0x5F98A40", VA = "0x5F99A40")]
 	private void PushCurr()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x25D0FA0", Offset = "0x25CF5A0", VA = "0x1825D0FA0")]
+	[Address(RVA = "0x5F99B70", Offset = "0x5F98B70", VA = "0x5F99B70")]
 	private void PopCurr()
 	{
 	}

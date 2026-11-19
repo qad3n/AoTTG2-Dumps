@@ -16,10 +16,10 @@ using UnityEngine.Internal;
 namespace Unity.Collections;
 
 [Token(Token = "0x2000062")]
-[DebuggerTypeProxy(typeof(NativeSliceDebugView<>))]
 [NativeContainer]
-[NativeContainerSupportsMinMaxWriteRestriction]
 [DebuggerDisplay("Length = {Length}")]
+[DebuggerTypeProxy(typeof(NativeSliceDebugView<>))]
+[NativeContainerSupportsMinMaxWriteRestriction]
 public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSlice<T>> where T : struct
 {
 	[Token(Token = "0x2000063")]
@@ -37,7 +37,7 @@ public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSli
 		[Token(Token = "0x17000028")]
 		public T Current
 		{
-			[Token(Token = "0x6000146")]
+			[Token(Token = "0x6000148")]
 			get
 			{
 				return (T)null;
@@ -47,30 +47,30 @@ public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSli
 		[Token(Token = "0x17000029")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000147")]
+			[Token(Token = "0x6000149")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000142")]
+		[Token(Token = "0x6000144")]
 		public Enumerator(ref NativeSlice<T> array)
 		{
 		}
 
-		[Token(Token = "0x6000143")]
+		[Token(Token = "0x6000145")]
 		public void Dispose()
 		{
 		}
 
-		[Token(Token = "0x6000144")]
+		[Token(Token = "0x6000146")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000145")]
+		[Token(Token = "0x6000147")]
 		public void Reset()
 		{
 		}
@@ -92,12 +92,12 @@ public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSli
 	[Token(Token = "0x17000025")]
 	public T this[int index]
 	{
-		[Token(Token = "0x6000137")]
+		[Token(Token = "0x6000139")]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x6000138")]
+		[Token(Token = "0x600013A")]
 		[WriteAccessRequired]
 		set
 		{
@@ -107,7 +107,7 @@ public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSli
 	[Token(Token = "0x17000026")]
 	public int Stride
 	{
-		[Token(Token = "0x600013A")]
+		[Token(Token = "0x600013C")]
 		get
 		{
 			return default(int);
@@ -117,71 +117,71 @@ public struct NativeSlice<T> : IEnumerable<T>, IEnumerable, IEquatable<NativeSli
 	[Token(Token = "0x17000027")]
 	public int Length
 	{
-		[Token(Token = "0x600013B")]
+		[Token(Token = "0x600013D")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000133")]
+	[Token(Token = "0x6000135")]
 	public NativeSlice(NativeSlice<T> slice, int start, int length)
 	{
 	}
 
-	[Token(Token = "0x6000134")]
+	[Token(Token = "0x6000136")]
 	public NativeSlice(NativeArray<T> array)
 	{
 	}
 
-	[Token(Token = "0x6000135")]
+	[Token(Token = "0x6000137")]
 	public static implicit operator NativeSlice<T>(NativeArray<T> array)
 	{
 		return default(NativeSlice<T>);
 	}
 
-	[Token(Token = "0x6000136")]
+	[Token(Token = "0x6000138")]
 	public NativeSlice(NativeArray<T> array, int start, int length)
 	{
 	}
 
-	[Token(Token = "0x6000139")]
+	[Token(Token = "0x600013B")]
 	[WriteAccessRequired]
 	public void CopyFrom(NativeSlice<T> slice)
 	{
 	}
 
-	[Token(Token = "0x600013C")]
+	[Token(Token = "0x600013E")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
-	[Token(Token = "0x600013D")]
+	[Token(Token = "0x600013F")]
 	private IEnumerator<T> System_002ECollections_002EGeneric_002EIEnumerable_003CT_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013E")]
+	[Token(Token = "0x6000140")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013F")]
+	[Token(Token = "0x6000141")]
 	public bool Equals(NativeSlice<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000140")]
+	[Token(Token = "0x6000142")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000141")]
+	[Token(Token = "0x6000143")]
 	public override int GetHashCode()
 	{
 		return default(int);

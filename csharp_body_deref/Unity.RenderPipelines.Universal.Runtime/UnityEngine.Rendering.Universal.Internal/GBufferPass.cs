@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.GBufferPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ internal class GBufferPass : ScriptableRenderPass
 		internal TextureHandle screenSpaceIrradianceHdl;
 
 		[Token(Token = "0x6000C23")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66D9DE0", Offset = "0x66D8DE0", VA = "0x66D9DE0")]
 		public PassData()
 		{
 		}
@@ -92,31 +92,31 @@ internal class GBufferPass : ScriptableRenderPass
 	private RenderStateBlock m_RenderStateBlock;
 
 	[Token(Token = "0x6000C1D")]
-	[Address(RVA = "0x2CD6C50", Offset = "0x2CD5250", VA = "0x182CD6C50")]
+	[Address(RVA = "0x66D8090", Offset = "0x66D7090", VA = "0x66D8090")]
 	public GBufferPass(RenderPassEvent evt, RenderQueueRange renderQueueRange, LayerMask layerMask, StencilState stencilState, int stencilReference, DeferredLights deferredLights)
 	{
 	}
 
 	[Token(Token = "0x6000C1E")]
-	[Address(RVA = "0x2CD5950", Offset = "0x2CD3F50", VA = "0x182CD5950")]
+	[Address(RVA = "0x66D8990", Offset = "0x66D7990", VA = "0x66D8990")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000C1F")]
-	[Address(RVA = "0x2CD5970", Offset = "0x2CD3F70", VA = "0x182CD5970")]
+	[Address(RVA = "0x66D89B0", Offset = "0x66D79B0", VA = "0x66D89B0")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData data, RendererList rendererList, RendererList errorRendererList)
 	{
 	}
 
 	[Token(Token = "0x6000C20")]
-	[Address(RVA = "0x2CD5B40", Offset = "0x2CD4140", VA = "0x182CD5B40")]
+	[Address(RVA = "0x66D8C90", Offset = "0x66D7C90", VA = "0x66D8C90")]
 	private void InitRendererLists(ref PassData passData, ScriptableRenderContext context, RenderGraph renderGraph, UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData, bool useRenderGraph, uint batchLayerMask = 4294967295u)
 	{
 	}
 
 	[Token(Token = "0x6000C21")]
-	[Address(RVA = "0x2CD60A0", Offset = "0x2CD46A0", VA = "0x182CD60A0")]
+	[Address(RVA = "0x66D9070", Offset = "0x66D8070", VA = "0x66D9070")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, TextureHandle cameraColor, TextureHandle cameraDepth, bool setGlobalTextures, uint batchLayerMask = 4294967295u)
 	{
 	}

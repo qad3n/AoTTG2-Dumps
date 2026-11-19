@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.PropertyMember
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ internal readonly struct PropertyMember : IMemberInfo
 	public string Name
 	{
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170", Slot = "4")]
+		[Address(RVA = "0x69E9740", Offset = "0x69E8740", VA = "0x69E9740", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ internal readonly struct PropertyMember : IMemberInfo
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6000078")]
-		[Address(RVA = "0x2FED6D0", Offset = "0x2FEBCD0", VA = "0x182FED6D0", Slot = "5")]
+		[Address(RVA = "0x69E9750", Offset = "0x69E8750", VA = "0x69E9750", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -47,7 +47,7 @@ internal readonly struct PropertyMember : IMemberInfo
 	public Type ValueType
 	{
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x2FED700", Offset = "0x2FEBD00", VA = "0x182FED700", Slot = "6")]
+		[Address(RVA = "0x69E9780", Offset = "0x69E8780", VA = "0x69E9780", Slot = "6")]
 		get
 		{
 			return null;
@@ -55,26 +55,26 @@ internal readonly struct PropertyMember : IMemberInfo
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2FEAC60", Offset = "0x2FE9260", VA = "0x182FEAC60")]
+	[Address(RVA = "0x69E97B0", Offset = "0x69E87B0", VA = "0x69E97B0")]
 	public PropertyMember(PropertyInfo propertyInfo)
 	{
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x2FED690", Offset = "0x2FEBC90", VA = "0x182FED690", Slot = "7")]
+	[Address(RVA = "0x69E97E0", Offset = "0x69E87E0", VA = "0x69E97E0", Slot = "7")]
 	public object GetValue(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2FED6B0", Offset = "0x2FEBCB0", VA = "0x182FED6B0", Slot = "8")]
+	[Address(RVA = "0x69E9800", Offset = "0x69E8800", VA = "0x69E9800", Slot = "8")]
 	public void SetValue(object obj, object value)
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2FEAC00", Offset = "0x2FE9200", VA = "0x182FEAC00", Slot = "9")]
+	[Address(RVA = "0x69E9820", Offset = "0x69E8820", VA = "0x69E9820", Slot = "9")]
 	public IEnumerable<Attribute> GetCustomAttributes()
 	{
 		return null;

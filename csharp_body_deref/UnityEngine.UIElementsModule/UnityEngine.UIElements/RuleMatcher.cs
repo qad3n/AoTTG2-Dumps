@@ -21,7 +21,7 @@ internal struct RuleMatcher
 	public StyleComplexSelector complexSelector;
 
 	[Token(Token = "0x60025DB")]
-	[Address(RVA = "0x313D8D0", Offset = "0x313BED0", VA = "0x18313D8D0", Slot = "3")]
+	[Address(RVA = "0x6B55AB0", Offset = "0x6B54AB0", VA = "0x6B55AB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

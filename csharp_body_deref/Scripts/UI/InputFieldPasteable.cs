@@ -10,58 +10,58 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200074E")]
+[Token(Token = "0x20007F6")]
 public class InputFieldPasteable : InputField
 {
-	[Token(Token = "0x6004745")]
-	[Address(RVA = "0x2212EB0", Offset = "0x22114B0", VA = "0x182212EB0")]
+	[Token(Token = "0x6004C67")]
+	[Address(RVA = "0x5BF2B00", Offset = "0x5BF1B00", VA = "0x5BF2B00")]
 	protected bool IsModifier()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004746")]
-	[Address(RVA = "0x2212E90", Offset = "0x2211490", VA = "0x182212E90")]
+	[Token(Token = "0x6004C68")]
+	[Address(RVA = "0x5BF2BA0", Offset = "0x5BF1BA0", VA = "0x5BF2BA0")]
 	protected bool IsCopy()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004747")]
-	[Address(RVA = "0x2212F40", Offset = "0x2211540", VA = "0x182212F40")]
+	[Token(Token = "0x6004C69")]
+	[Address(RVA = "0x5BF2BB0", Offset = "0x5BF1BB0", VA = "0x5BF2BB0")]
 	protected bool IsPaste()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004748")]
-	[Address(RVA = "0x2212EA0", Offset = "0x22114A0", VA = "0x182212EA0")]
+	[Token(Token = "0x6004C6A")]
+	[Address(RVA = "0x5BF2BC0", Offset = "0x5BF1BC0", VA = "0x5BF2BC0")]
 	protected bool IsCut()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004749")]
-	[Address(RVA = "0x2212DA0", Offset = "0x22113A0", VA = "0x182212DA0", Slot = "67")]
+	[Token(Token = "0x6004C6B")]
+	[Address(RVA = "0x5BF2BD0", Offset = "0x5BF1BD0", VA = "0x5BF2BD0", Slot = "67")]
 	protected override void Append(char input)
 	{
 	}
 
-	[Token(Token = "0x600474A")]
-	[Address(RVA = "0x2212B80", Offset = "0x2211180", VA = "0x182212B80", Slot = "66")]
+	[Token(Token = "0x6004C6C")]
+	[Address(RVA = "0x5BF2D10", Offset = "0x5BF1D10", VA = "0x5BF2D10", Slot = "66")]
 	protected override void Append(string input)
 	{
 	}
 
-	[Token(Token = "0x600474B")]
-	[Address(RVA = "0x2212E50", Offset = "0x2211450", VA = "0x182212E50")]
+	[Token(Token = "0x6004C6D")]
+	[Address(RVA = "0x5BF3110", Offset = "0x5BF2110", VA = "0x5BF3110")]
 	private string GetClipboard()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600474C")]
-	[Address(RVA = "0x2212F50", Offset = "0x2211550", VA = "0x182212F50")]
+	[Token(Token = "0x6004C6E")]
+	[Address(RVA = "0x5BF3170", Offset = "0x5BF2170", VA = "0x5BF3170")]
 	public InputFieldPasteable()
 	{
 	}

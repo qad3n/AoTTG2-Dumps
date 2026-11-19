@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000229")]
+[Token(Token = "0x20001EA")]
 public enum RefreshProperties
 {
-	[Token(Token = "0x4000801")]
+	[Token(Token = "0x4000732")]
 	None,
-	[Token(Token = "0x4000802")]
+	[Token(Token = "0x4000733")]
 	All,
-	[Token(Token = "0x4000803")]
+	[Token(Token = "0x4000734")]
 	Repaint
 }

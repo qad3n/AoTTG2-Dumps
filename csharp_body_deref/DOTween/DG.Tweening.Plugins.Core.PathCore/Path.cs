@@ -130,7 +130,7 @@ public class Path
 	internal int minInputWaypoints
 	{
 		[Token(Token = "0x60003AA")]
-		[Address(RVA = "0x56DD10", Offset = "0x56C310", VA = "0x18056DD10")]
+		[Address(RVA = "0x3184BC0", Offset = "0x3183BC0", VA = "0x3184BC0")]
 		get
 		{
 			return default(int);
@@ -138,96 +138,96 @@ public class Path
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x56D920", Offset = "0x56BF20", VA = "0x18056D920")]
+	[Address(RVA = "0x3192D00", Offset = "0x3191D00", VA = "0x3192D00")]
 	public Path(PathType type, Vector3[] waypoints, int subdivisionsXSegment, [Optional] Color? gizmoColor)
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x56DCD0", Offset = "0x56C2D0", VA = "0x18056DCD0")]
+	[Address(RVA = "0x3193170", Offset = "0x3192170", VA = "0x3193170")]
 	internal Path()
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x56D450", Offset = "0x56BA50", VA = "0x18056D450")]
+	[Address(RVA = "0x3184BF0", Offset = "0x3183BF0", VA = "0x3184BF0")]
 	internal void FinalizePath(bool isClosedPath, AxisConstraint lockPositionAxes, Vector3 currTargetVal)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x56D690", Offset = "0x56BC90", VA = "0x18056D690")]
+	[Address(RVA = "0x3185880", Offset = "0x3184880", VA = "0x3185880")]
 	internal Vector3 GetPoint(float perc, bool convertToConstantPerc = false)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x56C8A0", Offset = "0x56AEA0", VA = "0x18056C8A0")]
+	[Address(RVA = "0x3185740", Offset = "0x3184740", VA = "0x3185740")]
 	internal float ConvertToConstantPathPerc(float perc)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x56D720", Offset = "0x56BD20", VA = "0x18056D720")]
+	[Address(RVA = "0x3186550", Offset = "0x3185550", VA = "0x3186550")]
 	internal int GetWaypointIndexFromPerc(float perc, bool isMovingForward)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x56D570", Offset = "0x56BB70", VA = "0x18056D570")]
+	[Address(RVA = "0x3193190", Offset = "0x3192190", VA = "0x3193190")]
 	internal static Vector3[] GetDrawPoints(Path p, int drawSubdivisionsXSegment)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x56D7D0", Offset = "0x56BDD0", VA = "0x18056D7D0")]
+	[Address(RVA = "0x31932B0", Offset = "0x31922B0", VA = "0x31932B0")]
 	internal static void RefreshNonLinearDrawWps(Path p)
 	{
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x56CAD0", Offset = "0x56B0D0", VA = "0x18056CAD0")]
+	[Address(RVA = "0x3184320", Offset = "0x3183320", VA = "0x3184320")]
 	internal void Destroy()
 	{
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x56C150", Offset = "0x56A750", VA = "0x18056C150")]
+	[Address(RVA = "0x3185140", Offset = "0x3184140", VA = "0x3185140")]
 	internal Path CloneIncremental(int loopIncrement)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x56C070", Offset = "0x56A670", VA = "0x18056C070")]
+	[Address(RVA = "0x3192EE0", Offset = "0x3191EE0", VA = "0x3192EE0")]
 	internal void AssignWaypoints(Vector3[] newWps, bool cloneWps = false)
 	{
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x56BEC0", Offset = "0x56A4C0", VA = "0x18056BEC0")]
+	[Address(RVA = "0x3192FD0", Offset = "0x3191FD0", VA = "0x3192FD0")]
 	internal void AssignDecoder(PathType pathType)
 	{
 	}
 
 	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x56D440", Offset = "0x56BA40", VA = "0x18056D440")]
+	[Address(RVA = "0x31933E0", Offset = "0x31923E0", VA = "0x31933E0")]
 	internal void Draw()
 	{
 	}
 
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x56CC30", Offset = "0x56B230", VA = "0x18056CC30")]
+	[Address(RVA = "0x31933F0", Offset = "0x31923F0", VA = "0x31933F0")]
 	private static void Draw(Path p)
 	{
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x56C9F0", Offset = "0x56AFF0", VA = "0x18056C9F0")]
+	[Address(RVA = "0x3193A60", Offset = "0x3192A60", VA = "0x3193A60")]
 	private static Vector3 ConvertToDrawPoint(Vector3 wp, PathOptions plugOptions)
 	{
 		return default(Vector3);

@@ -14,7 +14,7 @@ namespace Unity.VisualScripting;
 public sealed class AmbiguousOperatorException : OperatorException
 {
 	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x2DC5AE0", Offset = "0x2DC40E0", VA = "0x182DC5AE0")]
+	[Address(RVA = "0x67C7510", Offset = "0x67C6510", VA = "0x67C7510")]
 	public AmbiguousOperatorException(string symbol, Type leftType, Type rightType)
 	{
 	}

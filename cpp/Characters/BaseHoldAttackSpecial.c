@@ -1,5 +1,5 @@
 // Type: Characters.BaseHoldAttackSpecial
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseHoldAttackSpecial.cs
@@ -8,10 +8,10 @@
 
 // Characters.BaseHoldAttackSpecial$$get_ActiveTime
 // il2cpp: float Characters_BaseHoldAttackSpecial__get_ActiveTime (Characters_BaseHoldAttackSpecial_o* __this, const MethodInfo* method);
-// 0x1820a7610
+// 0x5c08eb0
 
-float
-Characters_BaseHoldAttackSpecial__get_ActiveTime(Characters_BaseHoldAttackSpecial_o* __this, MethodInfo* method)
+float Characters_BaseHoldAttackSpecial__get_ActiveTime
+                (Characters_BaseHoldAttackSpecial_o *__this,MethodInfo *method)
 
 {
   return INFINITY;
@@ -20,78 +20,74 @@ Characters_BaseHoldAttackSpecial__get_ActiveTime(Characters_BaseHoldAttackSpecia
 
 // Characters.BaseHoldAttackSpecial$$.ctor
 // il2cpp: void Characters_BaseHoldAttackSpecial___ctor (Characters_BaseHoldAttackSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x182167160
+// 0x5c08ec0
 
 void Characters_BaseHoldAttackSpecial___ctor
-               (Characters_BaseHoldAttackSpecial_o *__this,Characters_BaseCharacter_o *owner,
-               MethodInfo *method)
+               (Characters_StockSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
   byte bVar1;
+  Characters_Human_c *pCVar2;
   
-  if (Il2CppMethodInitialized_184346cde == '\0') {
+  if (Il2CppMethodInitialized_075476ae == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
-    Il2CppMethodInitialized_184346cde = '\x01';
+    Il2CppMethodInitialized_075476ae = '\x01';
   }
   (__this->fields)._keyIsReset = true;
-  Characters_HoldUseable___ctor((Characters_SimpleUseable_o *)__this,owner,(MethodInfo *)0x0);
+  Characters_HoldUseable___ctor((Characters_HoldUseable_o *)__this,owner,(MethodInfo *)0x0);
+  pCVar2 = TypeInfo_Characters_Human;
   if (owner == (Characters_BaseCharacter_o *)0x0) {
     (__this->fields)._human = (Characters_Human_o *)0x0;
+label_05c08f53:
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._human);
+    return;
   }
-  else {
-    bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
-    if (((owner->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((owner->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_Human)) {
-      il2cpp_codegen_raise_invalid_cast_exception(owner);
-    }
+  bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
+  if ((bVar1 <= (owner->klass->_2).typeHierarchyDepth) &&
+     ((owner->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human)) {
     (__this->fields)._human = (Characters_Human_o *)owner;
-    bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
-    if (((owner->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((owner->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_Human)) {
-      il2cpp_codegen_raise_invalid_cast_exception(owner);
-    }
+    if ((bVar1 <= (owner->klass->_2).typeHierarchyDepth) &&
+       ((owner->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)pCVar2)) goto label_05c08f53;
   }
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._human,owner);
-  return;
+  il2cpp_codegen_raise_invalid_cast_exception(owner);
 }
 
 
 // Characters.BaseHoldAttackSpecial$$SetInput
 // il2cpp: void Characters_BaseHoldAttackSpecial__SetInput (Characters_BaseHoldAttackSpecial_o* __this, bool key, const MethodInfo* method);
-// 0x1821670a0
+// 0x5c08f70
 
 void Characters_BaseHoldAttackSpecial__SetInput
                (Characters_BaseHoldAttackSpecial_o *__this,bool key,MethodInfo *method)
 
 {
-  Characters_BaseHoldAttackSpecial_c *pCVar1;
+  VirtualInvokeData_6411beea80bb *pVVar1;
   bool bVar2;
-  float fVar3;
+  VirtualInvokeData_6411beea80bb *pVVar3;
+  undefined7 in_register_00000031;
+  float fVar4;
   
   bVar2 = (__this->fields).IsActive;
-  if (key) {
-    if (bVar2 == false) {
-      bVar2 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
-      if ((bVar2) && ((__this->fields)._keyIsReset != false)) {
-        pCVar1 = __this->klass;
-        (__this->fields).IsActive = true;
-        fVar3 = (*(pCVar1->vtable)._14_get_ActiveTime.methodPtr)
-                          (__this,(pCVar1->vtable)._14_get_ActiveTime.method);
-        pCVar1 = __this->klass;
-        (__this->fields)._activeTimeLeft = fVar3;
-        (*(pCVar1->vtable)._9_Activate.methodPtr)
-                  (__this,(System_Type_o *)(pCVar1->vtable)._9_Activate.method,method);
-        (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
-      }
-    }
-  }
-  else if (bVar2 != false) {
-    pCVar1 = __this->klass;
+  if ((int)CONCAT71(in_register_00000031,key) == 0) {
+    if (bVar2 == false) goto label_05c0900d;
     (__this->fields).IsActive = false;
-    (*(pCVar1->vtable)._10_Deactivate.methodPtr)(__this,(pCVar1->vtable)._10_Deactivate.method);
-    (__this->fields)._keyIsReset = true;
-    return;
+    pVVar3 = &(__this->klass->vtable)._10_Deactivate;
+    pVVar1 = &(__this->klass->vtable)._10_Deactivate;
   }
+  else {
+    if (bVar2 != false) goto label_05c0900d;
+    bVar2 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
+    if ((!bVar2) || ((__this->fields)._keyIsReset == false)) goto label_05c0900d;
+    (__this->fields).IsActive = true;
+    fVar4 = (*(__this->klass->vtable)._14_get_ActiveTime.methodPtr)
+                      (__this,(__this->klass->vtable)._14_get_ActiveTime.method);
+    (__this->fields)._activeTimeLeft = fVar4;
+    (*(__this->klass->vtable)._9_Activate.methodPtr)(__this,(__this->klass->vtable)._9_Activate.method);
+    pVVar3 = &(__this->klass->vtable)._8_OnUse;
+    pVVar1 = &(__this->klass->vtable)._8_OnUse;
+  }
+  (*pVVar3->methodPtr)(__this,pVVar1->method);
+label_05c0900d:
   (__this->fields)._keyIsReset = !key;
   return;
 }
@@ -99,7 +95,7 @@ void Characters_BaseHoldAttackSpecial__SetInput
 
 // Characters.BaseHoldAttackSpecial$$CanUse
 // il2cpp: bool Characters_BaseHoldAttackSpecial__CanUse (Characters_BaseHoldAttackSpecial_o* __this, const MethodInfo* method);
-// 0x182167090
+// 0x5c09020
 
 bool Characters_BaseHoldAttackSpecial__CanUse(Characters_BaseHoldAttackSpecial_o *__this,MethodInfo *method)
 
@@ -113,7 +109,7 @@ bool Characters_BaseHoldAttackSpecial__CanUse(Characters_BaseHoldAttackSpecial_o
 
 // Characters.BaseHoldAttackSpecial$$Deactivate
 // il2cpp: void Characters_BaseHoldAttackSpecial__Deactivate (Characters_BaseHoldAttackSpecial_o* __this, const MethodInfo* method);
-// 0x182166e10
+// 0x5c09030
 
 void Characters_BaseHoldAttackSpecial__Deactivate
                (Characters_BaseHoldAttackSpecial_o *__this,MethodInfo *method)
@@ -122,11 +118,11 @@ void Characters_BaseHoldAttackSpecial__Deactivate
   Characters_Human_o *__this_00;
   
   __this_00 = (__this->fields)._human;
-  if (__this_00 != (Characters_Human_o *)0x0) {
-    Characters_Human__Idle(__this_00,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (Characters_Human_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  Characters_Human__Idle(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 

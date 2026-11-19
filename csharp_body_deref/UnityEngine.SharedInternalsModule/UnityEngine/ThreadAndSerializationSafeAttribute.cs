@@ -12,12 +12,12 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000003")]
-[VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Method)]
+[VisibleToOtherModules]
 internal class ThreadAndSerializationSafeAttribute : Attribute
 {
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1130", Offset = "0x69F0130", VA = "0x69F1130")]
 	public ThreadAndSerializationSafeAttribute()
 	{
 	}

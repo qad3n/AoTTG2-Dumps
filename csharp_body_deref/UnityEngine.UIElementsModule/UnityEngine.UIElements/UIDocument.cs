@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIDocument
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,8 +14,8 @@ namespace UnityEngine.UIElements;
 [Token(Token = "0x2000285")]
 [ExecuteAlways]
 [DisallowMultipleComponent]
-[AddComponentMenu("UI Toolkit/UI Document")]
 [HelpURL("UIE-get-started-with-runtime-ui")]
+[AddComponentMenu("UI Toolkit/UI Document")]
 [DefaultExecutionOrder(-100)]
 public sealed class UIDocument : MonoBehaviour
 {
@@ -128,8 +128,8 @@ public sealed class UIDocument : MonoBehaviour
 
 	[Token(Token = "0x400098A")]
 	[FieldOffset(Offset = "0x90")]
-	[SerializeField]
 	[HideInInspector]
+	[SerializeField]
 	private BoxCollider m_WorldSpaceCollider;
 
 	[Token(Token = "0x400098B")]
@@ -140,13 +140,13 @@ public sealed class UIDocument : MonoBehaviour
 	public PanelSettings panelSettings
 	{
 		[Token(Token = "0x6001107")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x6C8A850", Offset = "0x6C89850", VA = "0x6C8A850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001108")]
-		[Address(RVA = "0x328AC50", Offset = "0x3289250", VA = "0x18328AC50")]
+		[Address(RVA = "0x6C8A860", Offset = "0x6C89860", VA = "0x6C8A860")]
 		set
 		{
 		}
@@ -156,13 +156,13 @@ public sealed class UIDocument : MonoBehaviour
 	public UIDocument parentUI
 	{
 		[Token(Token = "0x6001109")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6C8AB60", Offset = "0x6C89B60", VA = "0x6C8AB60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600110A")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x6C8AB70", Offset = "0x6C89B70", VA = "0x6C8AB70")]
 		private set
 		{
 		}
@@ -172,13 +172,13 @@ public sealed class UIDocument : MonoBehaviour
 	public VisualTreeAsset visualTreeAsset
 	{
 		[Token(Token = "0x600110B")]
-		[Address(RVA = "0x2E8E900", Offset = "0x2E8CF00", VA = "0x182E8E900")]
+		[Address(RVA = "0x6C8AB80", Offset = "0x6C89B80", VA = "0x6C8AB80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600110C")]
-		[Address(RVA = "0x328B070", Offset = "0x3289670", VA = "0x18328B070")]
+		[Address(RVA = "0x6C8AB90", Offset = "0x6C89B90", VA = "0x6C8AB90")]
 		set
 		{
 		}
@@ -188,13 +188,13 @@ public sealed class UIDocument : MonoBehaviour
 	public VisualElement rootVisualElement
 	{
 		[Token(Token = "0x600110D")]
-		[Address(RVA = "0x2E8E8F0", Offset = "0x2E8CEF0", VA = "0x182E8E8F0")]
+		[Address(RVA = "0x6C84190", Offset = "0x6C83190", VA = "0x6C84190")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600110E")]
-		[Address(RVA = "0x328AF30", Offset = "0x3289530", VA = "0x18328AF30")]
+		[Address(RVA = "0x6C8B410", Offset = "0x6C8A410", VA = "0x6C8B410")]
 		private set
 		{
 		}
@@ -204,14 +204,14 @@ public sealed class UIDocument : MonoBehaviour
 	internal VisualElementFocusRing focusRing
 	{
 		[Token(Token = "0x600110F")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6C8B500", Offset = "0x6C8A500", VA = "0x6C8B500")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001110")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x6C8B510", Offset = "0x6C8A510", VA = "0x6C8B510")]
 		[CompilerGenerated]
 		private set
 		{
@@ -222,7 +222,7 @@ public sealed class UIDocument : MonoBehaviour
 	internal int firstChildInserIndex
 	{
 		[Token(Token = "0x6001111")]
-		[Address(RVA = "0xACB500", Offset = "0xAC9B00", VA = "0x180ACB500")]
+		[Address(RVA = "0x6C8B520", Offset = "0x6C8A520", VA = "0x6C8B520")]
 		get
 		{
 			return default(int);
@@ -233,13 +233,13 @@ public sealed class UIDocument : MonoBehaviour
 	public Position position
 	{
 		[Token(Token = "0x6001112")]
-		[Address(RVA = "0x328AC10", Offset = "0x3289210", VA = "0x18328AC10")]
+		[Address(RVA = "0x6C8B530", Offset = "0x6C8A530", VA = "0x6C8B530")]
 		get
 		{
 			return default(Position);
 		}
 		[Token(Token = "0x6001113")]
-		[Address(RVA = "0x328AF20", Offset = "0x3289520", VA = "0x18328AF20")]
+		[Address(RVA = "0x6C8B540", Offset = "0x6C8A540", VA = "0x6C8B540")]
 		set
 		{
 		}
@@ -249,13 +249,13 @@ public sealed class UIDocument : MonoBehaviour
 	public WorldSpaceSizeMode worldSpaceSizeMode
 	{
 		[Token(Token = "0x6001114")]
-		[Address(RVA = "0x2F769C0", Offset = "0x2F74FC0", VA = "0x182F769C0")]
+		[Address(RVA = "0x6C8B720", Offset = "0x6C8A720", VA = "0x6C8B720")]
 		get
 		{
 			return default(WorldSpaceSizeMode);
 		}
 		[Token(Token = "0x6001115")]
-		[Address(RVA = "0x328B0A0", Offset = "0x32896A0", VA = "0x18328B0A0")]
+		[Address(RVA = "0x6C8B730", Offset = "0x6C8A730", VA = "0x6C8B730")]
 		set
 		{
 		}
@@ -265,13 +265,13 @@ public sealed class UIDocument : MonoBehaviour
 	public Vector2 worldSpaceSize
 	{
 		[Token(Token = "0x6001116")]
-		[Address(RVA = "0x328AC30", Offset = "0x3289230", VA = "0x18328AC30")]
+		[Address(RVA = "0x6C8BCA0", Offset = "0x6C8ACA0", VA = "0x6C8BCA0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6001117")]
-		[Address(RVA = "0x328B0B0", Offset = "0x32896B0", VA = "0x18328B0B0")]
+		[Address(RVA = "0x6C8BCB0", Offset = "0x6C8ACB0", VA = "0x6C8BCB0")]
 		set
 		{
 		}
@@ -281,7 +281,7 @@ public sealed class UIDocument : MonoBehaviour
 	private bool isWorldSpace
 	{
 		[Token(Token = "0x6001118")]
-		[Address(RVA = "0x328AB40", Offset = "0x3289140", VA = "0x18328AB40")]
+		[Address(RVA = "0x6C8BD00", Offset = "0x6C8AD00", VA = "0x6C8BD00")]
 		get
 		{
 			return default(bool);
@@ -292,7 +292,7 @@ public sealed class UIDocument : MonoBehaviour
 	internal bool isTransformControlledByGameObject
 	{
 		[Token(Token = "0x6001119")]
-		[Address(RVA = "0x328AAB0", Offset = "0x32890B0", VA = "0x18328AAB0")]
+		[Address(RVA = "0x6C8BD70", Offset = "0x6C8AD70", VA = "0x6C8BD70")]
 		get
 		{
 			return default(bool);
@@ -303,13 +303,13 @@ public sealed class UIDocument : MonoBehaviour
 	public PivotReferenceSize pivotReferenceSize
 	{
 		[Token(Token = "0x600111A")]
-		[Address(RVA = "0x328ABD0", Offset = "0x32891D0", VA = "0x18328ABD0")]
+		[Address(RVA = "0x6C8BE40", Offset = "0x6C8AE40", VA = "0x6C8BE40")]
 		get
 		{
 			return default(PivotReferenceSize);
 		}
 		[Token(Token = "0x600111B")]
-		[Address(RVA = "0xA4D5B0", Offset = "0xA4BBB0", VA = "0x180A4D5B0")]
+		[Address(RVA = "0x6C8BE50", Offset = "0x6C8AE50", VA = "0x6C8BE50")]
 		set
 		{
 		}
@@ -319,13 +319,13 @@ public sealed class UIDocument : MonoBehaviour
 	public Pivot pivot
 	{
 		[Token(Token = "0x600111C")]
-		[Address(RVA = "0x1CD34A0", Offset = "0x1CD1AA0", VA = "0x181CD34A0")]
+		[Address(RVA = "0x6C8BE60", Offset = "0x6C8AE60", VA = "0x6C8BE60")]
 		get
 		{
 			return default(Pivot);
 		}
 		[Token(Token = "0x600111D")]
-		[Address(RVA = "0xA4D5A0", Offset = "0xA4BBA0", VA = "0x180A4D5A0")]
+		[Address(RVA = "0x6C8BE70", Offset = "0x6C8AE70", VA = "0x6C8BE70")]
 		set
 		{
 		}
@@ -335,13 +335,13 @@ public sealed class UIDocument : MonoBehaviour
 	public float sortingOrder
 	{
 		[Token(Token = "0x600111E")]
-		[Address(RVA = "0x2C25B20", Offset = "0x2C24120", VA = "0x182C25B20")]
+		[Address(RVA = "0x6C8BE80", Offset = "0x6C8AE80", VA = "0x6C8BE80")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600111F")]
-		[Address(RVA = "0x328B050", Offset = "0x3289650", VA = "0x18328B050")]
+		[Address(RVA = "0x6C8BE90", Offset = "0x6C8AE90", VA = "0x6C8BE90")]
 		set
 		{
 		}
@@ -351,7 +351,7 @@ public sealed class UIDocument : MonoBehaviour
 	public IRuntimePanel runtimePanel
 	{
 		[Token(Token = "0x6001126")]
-		[Address(RVA = "0x328AC20", Offset = "0x3289220", VA = "0x18328AC20")]
+		[Address(RVA = "0x6C8C250", Offset = "0x6C8B250", VA = "0x6C8C250")]
 		get
 		{
 			return null;
@@ -362,7 +362,7 @@ public sealed class UIDocument : MonoBehaviour
 	internal RuntimePanel containerPanel
 	{
 		[Token(Token = "0x6001127")]
-		[Address(RVA = "0x328AA30", Offset = "0x3289030", VA = "0x18328AA30")]
+		[Address(RVA = "0x6C8C2C0", Offset = "0x6C8B2C0", VA = "0x6C8C2C0")]
 		get
 		{
 			return null;
@@ -373,7 +373,7 @@ public sealed class UIDocument : MonoBehaviour
 	private float pixelsPerUnit
 	{
 		[Token(Token = "0x6001133")]
-		[Address(RVA = "0x328ABE0", Offset = "0x32891E0", VA = "0x18328ABE0")]
+		[Address(RVA = "0x6C8D850", Offset = "0x6C8C850", VA = "0x6C8D850")]
 		get
 		{
 			return default(float);
@@ -381,238 +381,238 @@ public sealed class UIDocument : MonoBehaviour
 	}
 
 	[Token(Token = "0x6001120")]
-	[Address(RVA = "0x3286C90", Offset = "0x3285290", VA = "0x183286C90")]
+	[Address(RVA = "0x6C8BEB0", Offset = "0x6C8AEB0", VA = "0x6C8BEB0")]
 	internal void ApplySortingOrder()
 	{
 	}
 
 	[Token(Token = "0x6001121")]
-	[Address(RVA = "0x32876A0", Offset = "0x3285CA0", VA = "0x1832876A0")]
+	[Address(RVA = "0x6C834C0", Offset = "0x6C824C0", VA = "0x6C834C0")]
 	internal static UIDocument FindRootUIDocument(VisualElement element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001122")]
-	[Address(RVA = "0x328A970", Offset = "0x3288F70", VA = "0x18328A970")]
+	[Address(RVA = "0x6C8BF80", Offset = "0x6C8AF80", VA = "0x6C8BF80")]
 	private UIDocument()
 	{
 	}
 
 	[Token(Token = "0x6001123")]
-	[Address(RVA = "0x3286CA0", Offset = "0x32852A0", VA = "0x183286CA0")]
+	[Address(RVA = "0x6C8C030", Offset = "0x6C8B030", VA = "0x6C8C030")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6001124")]
-	[Address(RVA = "0x3287C70", Offset = "0x3286270", VA = "0x183287C70")]
+	[Address(RVA = "0x6C8C110", Offset = "0x6C8B110", VA = "0x6C8C110")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6001125")]
-	[Address(RVA = "0x328A870", Offset = "0x3288E70", VA = "0x18328A870")]
+	[Address(RVA = "0x6C8C150", Offset = "0x6C8B150", VA = "0x6C8C150")]
 	private void _Enable()
 	{
 	}
 
 	[Token(Token = "0x6001128")]
-	[Address(RVA = "0x3287950", Offset = "0x3285F50", VA = "0x183287950")]
+	[Address(RVA = "0x6C8C330", Offset = "0x6C8B330", VA = "0x6C8C330")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6001129")]
-	[Address(RVA = "0x3287450", Offset = "0x3285A50", VA = "0x183287450")]
+	[Address(RVA = "0x6C8C340", Offset = "0x6C8B340", VA = "0x6C8C340")]
 	internal void DoUpdate()
 	{
 	}
 
 	[Token(Token = "0x600112A")]
-	[Address(RVA = "0x328A0E0", Offset = "0x32886E0", VA = "0x18328A0E0")]
+	[Address(RVA = "0x6C8CF40", Offset = "0x6C8BF40", VA = "0x6C8CF40")]
 	private void UpdateRenderer()
 	{
 	}
 
 	[Token(Token = "0x600112B")]
-	[Address(RVA = "0x3288BC0", Offset = "0x32871C0", VA = "0x183288BC0")]
+	[Address(RVA = "0x6C8D8D0", Offset = "0x6C8C8D0", VA = "0x6C8D8D0")]
 	private Bounds SanitizeRendererBounds(Bounds b)
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x600112C")]
-	[Address(RVA = "0x3286AC0", Offset = "0x32850C0", VA = "0x183286AC0")]
+	[Address(RVA = "0x6C8C5F0", Offset = "0x6C8B5F0", VA = "0x6C8C5F0")]
 	private void AddOrRemoveRendererComponent()
 	{
 	}
 
 	[Token(Token = "0x600112D")]
-	[Address(RVA = "0x328A400", Offset = "0x3288A00", VA = "0x18328A400")]
+	[Address(RVA = "0x6C8D3E0", Offset = "0x6C8C3E0", VA = "0x6C8D3E0")]
 	internal void UpdateWorldSpaceCollider(ColliderUpdateMode mode)
 	{
 	}
 
 	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x3288A30", Offset = "0x3287030", VA = "0x183288A30")]
+	[Address(RVA = "0x6C8C580", Offset = "0x6C8B580", VA = "0x6C8C580")]
 	internal void RemoveWorldSpaceCollider()
 	{
 	}
 
 	[Token(Token = "0x600112F")]
-	[Address(RVA = "0x3287910", Offset = "0x3285F10", VA = "0x183287910")]
+	[Address(RVA = "0x6C8DCE0", Offset = "0x6C8CCE0", VA = "0x6C8DCE0")]
 	private static bool IsValidBounds(in Bounds b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001130")]
-	[Address(RVA = "0x3289FF0", Offset = "0x32885F0", VA = "0x183289FF0")]
+	[Address(RVA = "0x6C8D780", Offset = "0x6C8C780", VA = "0x6C8D780")]
 	private void UpdateIsWorldSpaceRootFlag()
 	{
 	}
 
 	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x3288FD0", Offset = "0x32875D0", VA = "0x183288FD0")]
+	[Address(RVA = "0x6C8C740", Offset = "0x6C8B740", VA = "0x6C8C740")]
 	private void SetTransform()
 	{
 	}
 
 	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x3286CB0", Offset = "0x32852B0", VA = "0x183286CB0")]
+	[Address(RVA = "0x6C8CBF0", Offset = "0x6C8BBF0", VA = "0x6C8CBF0")]
 	private void ClearTransform()
 	{
 	}
 
 	[Token(Token = "0x6001134")]
-	[Address(RVA = "0x3288D90", Offset = "0x3287390", VA = "0x183288D90")]
+	[Address(RVA = "0x6C8E500", Offset = "0x6C8D500", VA = "0x6C8E500")]
 	private Matrix4x4 ScaleAndFlipMatrix()
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6001135")]
-	[Address(RVA = "0x3287960", Offset = "0x3285F60", VA = "0x183287960")]
+	[Address(RVA = "0x6C8E7C0", Offset = "0x6C8D7C0", VA = "0x6C8E7C0")]
 	private Bounds LocalBoundsFromPivotSource()
 	{
 		return default(Bounds);
 	}
 
 	[Token(Token = "0x6001136")]
-	[Address(RVA = "0x3287FB0", Offset = "0x32865B0", VA = "0x183287FB0")]
+	[Address(RVA = "0x6C8E9D0", Offset = "0x6C8D9D0", VA = "0x6C8E9D0")]
 	private Vector2 PivotOffset()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6001137")]
-	[Address(RVA = "0x3289E40", Offset = "0x3288440", VA = "0x183289E40")]
+	[Address(RVA = "0x6C8DA10", Offset = "0x6C8CA10", VA = "0x6C8DA10")]
 	private Matrix4x4 TransformToGameObjectMatrix()
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6001138")]
-	[Address(RVA = "0x3287060", Offset = "0x3285660", VA = "0x183287060")]
+	[Address(RVA = "0x6C8DD20", Offset = "0x6C8CD20", VA = "0x6C8DD20")]
 	private void ComputeTransform(Transform transform, out Matrix4x4 matrix)
 	{
 	}
 
 	[Token(Token = "0x6001139")]
-	[Address(RVA = "0x3287810", Offset = "0x3285E10", VA = "0x183287810")]
+	[Address(RVA = "0x6C8EA80", Offset = "0x6C8DA80", VA = "0x6C8EA80")]
 	private static Vector2 GetPivotAsPercent(Pivot origin)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600113A")]
-	[Address(RVA = "0x3289520", Offset = "0x3287B20", VA = "0x183289520")]
+	[Address(RVA = "0x6C8C040", Offset = "0x6C8B040", VA = "0x6C8C040")]
 	private void SetupFromHierarchy()
 	{
 	}
 
 	[Token(Token = "0x600113B")]
-	[Address(RVA = "0x3287760", Offset = "0x3285D60", VA = "0x183287760")]
+	[Address(RVA = "0x6C8EB50", Offset = "0x6C8DB50", VA = "0x6C8EB50")]
 	private UIDocument FindUIDocumentParent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600113C")]
-	[Address(RVA = "0x3288AB0", Offset = "0x32870B0", VA = "0x183288AB0")]
+	[Address(RVA = "0x6C8EC10", Offset = "0x6C8DC10", VA = "0x6C8EC10")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x600113D")]
-	[Address(RVA = "0x32869C0", Offset = "0x3284FC0", VA = "0x1832869C0")]
+	[Address(RVA = "0x6C8ED10", Offset = "0x6C8DD10", VA = "0x6C8ED10")]
 	internal void AddChildAndInsertContentToVisualTree(UIDocument child)
 	{
 	}
 
 	[Token(Token = "0x600113E")]
-	[Address(RVA = "0x32888B0", Offset = "0x3286EB0", VA = "0x1832888B0")]
+	[Address(RVA = "0x6C8EAE0", Offset = "0x6C8DAE0", VA = "0x6C8EAE0")]
 	private void RemoveChild(UIDocument child)
 	{
 	}
 
 	[Token(Token = "0x600113F")]
-	[Address(RVA = "0x3288340", Offset = "0x3286940", VA = "0x183288340")]
+	[Address(RVA = "0x6C8ABB0", Offset = "0x6C89BB0", VA = "0x6C8ABB0")]
 	private void RecreateUI()
 	{
 	}
 
 	[Token(Token = "0x6001140")]
-	[Address(RVA = "0x3289690", Offset = "0x3287C90", VA = "0x183289690")]
+	[Address(RVA = "0x6C8B550", Offset = "0x6C8A550", VA = "0x6C8B550")]
 	internal void SetupPosition()
 	{
 	}
 
 	[Token(Token = "0x6001141")]
-	[Address(RVA = "0x3289790", Offset = "0x3287D90", VA = "0x183289790")]
+	[Address(RVA = "0x6C8EF70", Offset = "0x6C8DF70", VA = "0x6C8EF70")]
 	private void SetupRootClassList()
 	{
 	}
 
 	[Token(Token = "0x6001142")]
-	[Address(RVA = "0x3289A50", Offset = "0x3288050", VA = "0x183289A50")]
+	[Address(RVA = "0x6C8B740", Offset = "0x6C8A740", VA = "0x6C8B740")]
 	private void SetupWorldSpaceSize()
 	{
 	}
 
 	[Token(Token = "0x6001143")]
-	[Address(RVA = "0x3286BC0", Offset = "0x32851C0", VA = "0x183286BC0")]
+	[Address(RVA = "0x6C8BEC0", Offset = "0x6C8AEC0", VA = "0x6C8BEC0")]
 	private void AddRootVisualElementToTree()
 	{
 	}
 
 	[Token(Token = "0x6001144")]
-	[Address(RVA = "0x3288920", Offset = "0x3286F20", VA = "0x183288920")]
+	[Address(RVA = "0x6C8EE70", Offset = "0x6C8DE70", VA = "0x6C8EE70")]
 	private void RemoveFromHierarchy()
 	{
 	}
 
 	[Token(Token = "0x6001145")]
-	[Address(RVA = "0x3287B50", Offset = "0x3286150", VA = "0x183287B50")]
+	[Address(RVA = "0x6C8F280", Offset = "0x6C8E280", VA = "0x6C8F280")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6001146")]
-	[Address(RVA = "0x3287DB0", Offset = "0x32863B0", VA = "0x183287DB0")]
+	[Address(RVA = "0x6C8F400", Offset = "0x6C8E400", VA = "0x6C8F400")]
 	private void OnTransformChildrenChanged()
 	{
 	}
 
 	[Token(Token = "0x6001147")]
-	[Address(RVA = "0x3287FA0", Offset = "0x32865A0", VA = "0x183287FA0")]
+	[Address(RVA = "0x6C8F6B0", Offset = "0x6C8E6B0", VA = "0x6C8F6B0")]
 	private void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6001148")]
-	[Address(RVA = "0x3288290", Offset = "0x3286890", VA = "0x183288290")]
+	[Address(RVA = "0x6C8F610", Offset = "0x6C8E610", VA = "0x6C8F610")]
 	internal void ReactToHierarchyChanged()
 	{
 	}

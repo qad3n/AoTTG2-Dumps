@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200051F")]
+[Token(Token = "0x20004F8")]
 public enum ProcessorArchitecture
 {
-	[Token(Token = "0x4001455")]
+	[Token(Token = "0x40013B5")]
 	None,
-	[Token(Token = "0x4001456")]
+	[Token(Token = "0x40013B6")]
 	MSIL,
-	[Token(Token = "0x4001457")]
+	[Token(Token = "0x40013B7")]
 	X86,
-	[Token(Token = "0x4001458")]
+	[Token(Token = "0x40013B8")]
 	IA64,
-	[Token(Token = "0x4001459")]
+	[Token(Token = "0x40013B9")]
 	Amd64,
-	[Token(Token = "0x400145A")]
+	[Token(Token = "0x40013BA")]
 	Arm
 }

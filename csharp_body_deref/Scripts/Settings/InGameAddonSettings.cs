@@ -11,40 +11,40 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000DC")]
 internal class InGameAddonSettings : BaseSettingsContainer
 {
-	[Token(Token = "0x4000367")]
+	[Token(Token = "0x400049B")]
 	[FieldOffset(Offset = "0x30")]
 	public Dictionary<string, Dictionary<string, BaseSetting>> Current;
 
-	[Token(Token = "0x4000368")]
+	[Token(Token = "0x400049C")]
 	[FieldOffset(Offset = "0x38")]
 	public ListSetting<StringSetting> Names;
 
-	[Token(Token = "0x4000369")]
+	[Token(Token = "0x400049D")]
 	[FieldOffset(Offset = "0x40")]
 	public ListSetting<StringSetting> Values;
 
-	[Token(Token = "0x400036A")]
+	[Token(Token = "0x400049E")]
 	[FieldOffset(Offset = "0x48")]
 	public ListSetting<StringSetting> Types;
 
-	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x1F18F40", Offset = "0x1F17540", VA = "0x181F18F40", Slot = "5")]
+	[Token(Token = "0x6000518")]
+	[Address(RVA = "0x5A454E0", Offset = "0x5A444E0", VA = "0x5A454E0", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x1F18BE0", Offset = "0x1F171E0", VA = "0x181F18BE0", Slot = "6")]
+	[Token(Token = "0x6000519")]
+	[Address(RVA = "0x5A45ED0", Offset = "0x5A44ED0", VA = "0x5A45ED0", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x1F19460", Offset = "0x1F17A60", VA = "0x181F19460")]
+	[Token(Token = "0x600051A")]
+	[Address(RVA = "0x5A46870", Offset = "0x5A45870", VA = "0x5A46870")]
 	public InGameAddonSettings()
 	{
 	}

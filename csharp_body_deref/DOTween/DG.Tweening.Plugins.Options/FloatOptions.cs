@@ -17,7 +17,7 @@ public struct FloatOptions : IPlugOptions
 	public bool snapping;
 
 	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x564910", Offset = "0x562F10", VA = "0x180564910", Slot = "4")]
+	[Address(RVA = "0x318FEC0", Offset = "0x318EEC0", VA = "0x318FEC0", Slot = "4")]
 	public void Reset()
 	{
 	}

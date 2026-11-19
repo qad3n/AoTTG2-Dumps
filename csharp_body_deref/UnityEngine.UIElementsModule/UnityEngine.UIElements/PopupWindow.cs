@@ -18,7 +18,7 @@ public class PopupWindow : TextElement
 	public new class UxmlFactory : UxmlFactory<PopupWindow, UxmlTraits>
 	{
 		[Token(Token = "0x60008B7")]
-		[Address(RVA = "0x3224CA0", Offset = "0x32232A0", VA = "0x183224CA0")]
+		[Address(RVA = "0x6C267B0", Offset = "0x6C257B0", VA = "0x6C267B0")]
 		public UxmlFactory()
 		{
 		}
@@ -29,7 +29,7 @@ public class PopupWindow : TextElement
 	public new class UxmlTraits : TextElement.UxmlTraits
 	{
 		[Token(Token = "0x60008B8")]
-		[Address(RVA = "0x32261C0", Offset = "0x32247C0", VA = "0x1832261C0")]
+		[Address(RVA = "0x6C267F0", Offset = "0x6C257F0", VA = "0x6C267F0")]
 		public UxmlTraits()
 		{
 		}
@@ -51,7 +51,7 @@ public class PopupWindow : TextElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60008B5")]
-		[Address(RVA = "0x31CF190", Offset = "0x31CD790", VA = "0x1831CF190", Slot = "138")]
+		[Address(RVA = "0x6C26700", Offset = "0x6C25700", VA = "0x6C26700", Slot = "138")]
 		get
 		{
 			return null;
@@ -59,7 +59,7 @@ public class PopupWindow : TextElement
 	}
 
 	[Token(Token = "0x60008B4")]
-	[Address(RVA = "0x3220AD0", Offset = "0x321F0D0", VA = "0x183220AD0")]
+	[Address(RVA = "0x6C265C0", Offset = "0x6C255C0", VA = "0x6C265C0")]
 	public PopupWindow()
 	{
 	}

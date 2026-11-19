@@ -10,22 +10,33 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x20002AB")]
+[Token(Token = "0x2000283")]
 public abstract class EncoderFallback
 {
-	[Token(Token = "0x4000B95")]
+	[Token(Token = "0x4000AF3")]
 	[FieldOffset(Offset = "0x0")]
 	private static EncoderFallback s_replacementFallback;
 
-	[Token(Token = "0x4000B96")]
+	[Token(Token = "0x4000AF4")]
 	[FieldOffset(Offset = "0x8")]
 	private static EncoderFallback s_exceptionFallback;
 
-	[Token(Token = "0x1700022A")]
+	[Token(Token = "0x17000229")]
 	public static EncoderFallback ReplacementFallback
 	{
-		[Token(Token = "0x600160B")]
-		[Address(RVA = "0x1977B70", Offset = "0x1976170", VA = "0x181977B70")]
+		[Token(Token = "0x60015E2")]
+		[Address(RVA = "0x53099A0", Offset = "0x53089A0", VA = "0x53099A0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700022A")]
+	public static EncoderFallback ExceptionFallback
+	{
+		[Token(Token = "0x60015E3")]
+		[Address(RVA = "0x5309AA0", Offset = "0x5308AA0", VA = "0x5309AA0")]
 		get
 		{
 			return null;
@@ -33,28 +44,17 @@ public abstract class EncoderFallback
 	}
 
 	[Token(Token = "0x1700022B")]
-	public static EncoderFallback ExceptionFallback
-	{
-		[Token(Token = "0x600160C")]
-		[Address(RVA = "0x1977AD0", Offset = "0x19760D0", VA = "0x181977AD0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700022C")]
 	public abstract int MaxCharCount
 	{
-		[Token(Token = "0x600160E")]
+		[Token(Token = "0x60015E5")]
 		get;
 	}
 
-	[Token(Token = "0x600160D")]
+	[Token(Token = "0x60015E4")]
 	public abstract EncoderFallbackBuffer CreateFallbackBuffer();
 
-	[Token(Token = "0x600160F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60015E6")]
+	[Address(RVA = "0x53093B0", Offset = "0x53083B0", VA = "0x53093B0")]
 	protected EncoderFallback()
 	{
 	}

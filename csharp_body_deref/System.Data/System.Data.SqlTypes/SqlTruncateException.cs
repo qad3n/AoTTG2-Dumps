@@ -15,31 +15,31 @@ namespace System.Data.SqlTypes;
 public sealed class SqlTruncateException : SqlTypeException
 {
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x257C780", Offset = "0x257AD80", VA = "0x18257C780")]
+	[Address(RVA = "0x5F122C0", Offset = "0x5F112C0", VA = "0x5F122C0")]
 	public SqlTruncateException()
 	{
 	}
 
 	[Token(Token = "0x6000AF2")]
-	[Address(RVA = "0x257C8B0", Offset = "0x257AEB0", VA = "0x18257C8B0")]
+	[Address(RVA = "0x5F20B30", Offset = "0x5F1FB30", VA = "0x5F20B30")]
 	public SqlTruncateException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000AF3")]
-	[Address(RVA = "0x257C760", Offset = "0x257AD60", VA = "0x18257C760")]
+	[Address(RVA = "0x5F20B10", Offset = "0x5F1FB10", VA = "0x5F20B10")]
 	public SqlTruncateException(string message, Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000AF4")]
-	[Address(RVA = "0x257C7B0", Offset = "0x257ADB0", VA = "0x18257C7B0")]
+	[Address(RVA = "0x5F20B50", Offset = "0x5F1FB50", VA = "0x5F20B50")]
 	private SqlTruncateException(SerializationInfo si, StreamingContext sc)
 	{
 	}
 
 	[Token(Token = "0x6000AF5")]
-	[Address(RVA = "0x257C680", Offset = "0x257AC80", VA = "0x18257C680")]
+	[Address(RVA = "0x5F20BA0", Offset = "0x5F1FBA0", VA = "0x5F20BA0")]
 	private static SerializationInfo SqlTruncateExceptionSerialization(SerializationInfo si, StreamingContext sc)
 	{
 		return null;

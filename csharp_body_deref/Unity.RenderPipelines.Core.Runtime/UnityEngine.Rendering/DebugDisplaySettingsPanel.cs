@@ -26,7 +26,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual string PanelName
 	{
 		[Token(Token = "0x600059B")]
-		[Address(RVA = "0x2AD5370", Offset = "0x2AD3970", VA = "0x182AD5370", Slot = "8")]
+		[Address(RVA = "0x64C1260", Offset = "0x64C0260", VA = "0x64C1260", Slot = "8")]
 		get
 		{
 			return null;
@@ -37,7 +37,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual int Order
 	{
 		[Token(Token = "0x600059C")]
-		[Address(RVA = "0x2AD5360", Offset = "0x2AD3960", VA = "0x182AD5360", Slot = "9")]
+		[Address(RVA = "0x64C1290", Offset = "0x64C0290", VA = "0x64C1290", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -48,7 +48,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public DebugUI.Widget[] Widgets
 	{
 		[Token(Token = "0x600059D")]
-		[Address(RVA = "0x2AD53A0", Offset = "0x2AD39A0", VA = "0x182AD53A0", Slot = "5")]
+		[Address(RVA = "0x64C12A0", Offset = "0x64C02A0", VA = "0x64C12A0", Slot = "5")]
 		get
 		{
 			return null;
@@ -59,7 +59,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual DebugUI.Flags Flags
 	{
 		[Token(Token = "0x600059E")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+		[Address(RVA = "0x64C12E0", Offset = "0x64C02E0", VA = "0x64C12E0", Slot = "10")]
 		get
 		{
 			return default(DebugUI.Flags);
@@ -67,25 +67,25 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	}
 
 	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x2AD5130", Offset = "0x2AD3730", VA = "0x182AD5130")]
+	[Address(RVA = "0x64C12F0", Offset = "0x64C02F0", VA = "0x64C12F0")]
 	protected void AddWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x2AD51E0", Offset = "0x2AD37E0", VA = "0x182AD51E0")]
+	[Address(RVA = "0x64C13D0", Offset = "0x64C03D0", VA = "0x64C13D0")]
 	protected void Clear()
 	{
 	}
 
 	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x2AD51E0", Offset = "0x2AD37E0", VA = "0x182AD51E0", Slot = "11")]
+	[Address(RVA = "0x64C1420", Offset = "0x64C0420", VA = "0x64C1420", Slot = "11")]
 	public virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x2AD5240", Offset = "0x2AD3840", VA = "0x182AD5240")]
+	[Address(RVA = "0x64C1470", Offset = "0x64C0470", VA = "0x64C1470")]
 	protected DebugDisplaySettingsPanel()
 	{
 	}

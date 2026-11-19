@@ -34,7 +34,7 @@ public class GraphicRegistry
 	public static GraphicRegistry instance
 	{
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3070100", Offset = "0x306E700", VA = "0x183070100")]
+		[Address(RVA = "0x6A70630", Offset = "0x6A6F630", VA = "0x6A70630")]
 		get
 		{
 			return null;
@@ -42,56 +42,56 @@ public class GraphicRegistry
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x306FF70", Offset = "0x306E570", VA = "0x18306FF70")]
+	[Address(RVA = "0x6A70490", Offset = "0x6A6F490", VA = "0x6A70490")]
 	protected GraphicRegistry()
 	{
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x306F780", Offset = "0x306DD80", VA = "0x18306F780")]
+	[Address(RVA = "0x6A6B740", Offset = "0x6A6A740", VA = "0x6A6B740")]
 	public static void RegisterGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x306F980", Offset = "0x306DF80", VA = "0x18306F980")]
+	[Address(RVA = "0x6A6A8A0", Offset = "0x6A698A0", VA = "0x6A6A8A0")]
 	public static void RegisterRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x306FB90", Offset = "0x306E190", VA = "0x18306FB90")]
+	[Address(RVA = "0x6A6B310", Offset = "0x6A6A310", VA = "0x6A6B310")]
 	public static void UnregisterGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x306FD50", Offset = "0x306E350", VA = "0x18306FD50")]
+	[Address(RVA = "0x6A6A720", Offset = "0x6A69720", VA = "0x6A6A720")]
 	public static void UnregisterRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x306F170", Offset = "0x306D770", VA = "0x18306F170")]
+	[Address(RVA = "0x6A6C100", Offset = "0x6A6B100", VA = "0x6A6C100")]
 	public static void DisableGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x306F470", Offset = "0x306DA70", VA = "0x18306F470")]
+	[Address(RVA = "0x6A70710", Offset = "0x6A6F710", VA = "0x6A70710")]
 	public static void DisableRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x306F600", Offset = "0x306DC00", VA = "0x18306F600")]
+	[Address(RVA = "0x6A708A0", Offset = "0x6A6F8A0", VA = "0x6A708A0")]
 	public static IList<Graphic> GetGraphicsForCanvas(Canvas canvas)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x306F6C0", Offset = "0x306DCC0", VA = "0x18306F6C0")]
+	[Address(RVA = "0x6A6FAE0", Offset = "0x6A6EAE0", VA = "0x6A6FAE0")]
 	public static IList<Graphic> GetRaycastableGraphicsForCanvas(Canvas canvas)
 	{
 		return null;

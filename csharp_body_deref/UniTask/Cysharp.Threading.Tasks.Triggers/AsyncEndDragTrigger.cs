@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncEndDragTrigger : AsyncTriggerBase<PointerEventData>, IEndDragHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C39")]
-	[Address(RVA = "0x292E290", Offset = "0x292C890", VA = "0x18292E290", Slot = "5")]
+	[Address(RVA = "0x6303E30", Offset = "0x6302E30", VA = "0x6303E30", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIEndDragHandler_002EOnEndDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C3A")]
-	[Address(RVA = "0x292DFF0", Offset = "0x292C5F0", VA = "0x18292DFF0")]
+	[Address(RVA = "0x6303E80", Offset = "0x6302E80", VA = "0x6303E80")]
 	public IAsyncOnEndDragHandler GetOnEndDragAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3B")]
-	[Address(RVA = "0x292DF70", Offset = "0x292C570", VA = "0x18292DF70")]
+	[Address(RVA = "0x6303EF0", Offset = "0x6302EF0", VA = "0x6303EF0")]
 	public IAsyncOnEndDragHandler GetOnEndDragAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C3C")]
-	[Address(RVA = "0x292E170", Offset = "0x292C770", VA = "0x18292E170")]
+	[Address(RVA = "0x6303F60", Offset = "0x6302F60", VA = "0x6303F60")]
 	public UniTask<PointerEventData> OnEndDragAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x292E060", Offset = "0x292C660", VA = "0x18292E060")]
+	[Address(RVA = "0x6304060", Offset = "0x6303060", VA = "0x6304060")]
 	public UniTask<PointerEventData> OnEndDragAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C3E")]
-	[Address(RVA = "0x292E2E0", Offset = "0x292C8E0", VA = "0x18292E2E0")]
+	[Address(RVA = "0x6304170", Offset = "0x6303170", VA = "0x6304170")]
 	public AsyncEndDragTrigger()
 	{
 	}

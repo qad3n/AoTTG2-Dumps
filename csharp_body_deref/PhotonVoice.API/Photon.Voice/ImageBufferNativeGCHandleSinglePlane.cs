@@ -24,25 +24,25 @@ public class ImageBufferNativeGCHandleSinglePlane : ImageBufferNative, IDisposab
 	private GCHandle planeHandle;
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x1D6AD10", Offset = "0x1D69310", VA = "0x181D6AD10")]
+	[Address(RVA = "0x571A570", Offset = "0x5719570", VA = "0x571A570")]
 	public ImageBufferNativeGCHandleSinglePlane(ImageBufferNativePool<ImageBufferNativeGCHandleSinglePlane> pool, ImageBufferInfo info)
 	{
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x1D6AC90", Offset = "0x1D69290", VA = "0x181D6AC90")]
+	[Address(RVA = "0x571A660", Offset = "0x5719660", VA = "0x571A660")]
 	public void PinPlane(byte[] plane)
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x1D6ACD0", Offset = "0x1D692D0", VA = "0x181D6ACD0", Slot = "4")]
+	[Address(RVA = "0x571A690", Offset = "0x5719690", VA = "0x571A690", Slot = "4")]
 	public override void Release()
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x571A6D0", Offset = "0x57196D0", VA = "0x571A6D0", Slot = "5")]
 	public override void Dispose()
 	{
 	}

@@ -31,7 +31,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	public string Namespace
 	{
 		[Token(Token = "0x6001535")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x60269D0", Offset = "0x60259D0", VA = "0x60269D0")]
 		set
 		{
 		}
@@ -43,13 +43,13 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	public XmlSchemaContentProcessing ProcessContents
 	{
 		[Token(Token = "0x6001536")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x60269E0", Offset = "0x60259E0", VA = "0x60269E0")]
 		get
 		{
 			return default(XmlSchemaContentProcessing);
 		}
 		[Token(Token = "0x6001537")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x60269F0", Offset = "0x60259F0", VA = "0x60269F0")]
 		set
 		{
 		}
@@ -60,7 +60,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	internal NamespaceList NamespaceList
 	{
 		[Token(Token = "0x6001538")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x6026A00", Offset = "0x6025A00", VA = "0x6026A00")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	internal XmlSchemaContentProcessing ProcessContentsCorrect
 	{
 		[Token(Token = "0x6001539")]
-		[Address(RVA = "0x2665980", Offset = "0x2663F80", VA = "0x182665980")]
+		[Address(RVA = "0x6026A10", Offset = "0x6025A10", VA = "0x6026A10")]
 		get
 		{
 			return default(XmlSchemaContentProcessing);
@@ -80,47 +80,47 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	}
 
 	[Token(Token = "0x600153A")]
-	[Address(RVA = "0x26656F0", Offset = "0x2663CF0", VA = "0x1826656F0")]
+	[Address(RVA = "0x6026A20", Offset = "0x6025A20", VA = "0x6026A20")]
 	internal void BuildNamespaceList(string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x600153B")]
-	[Address(RVA = "0x2665640", Offset = "0x2663C40", VA = "0x182665640")]
+	[Address(RVA = "0x6026AA0", Offset = "0x6025AA0", VA = "0x6026AA0")]
 	internal void BuildNamespaceListV1Compat(string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x600153C")]
-	[Address(RVA = "0x2665600", Offset = "0x2663C00", VA = "0x182665600")]
+	[Address(RVA = "0x6026B50", Offset = "0x6025B50", VA = "0x6026B50")]
 	internal bool Allows(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600153D")]
-	[Address(RVA = "0x2665870", Offset = "0x2663E70", VA = "0x182665870")]
+	[Address(RVA = "0x6026B80", Offset = "0x6025B80", VA = "0x6026B80")]
 	internal static bool IsSubset(XmlSchemaAnyAttribute sub, XmlSchemaAnyAttribute super)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600153E")]
-	[Address(RVA = "0x2665790", Offset = "0x2663D90", VA = "0x182665790")]
+	[Address(RVA = "0x6026BA0", Offset = "0x6025BA0", VA = "0x6026BA0")]
 	internal static XmlSchemaAnyAttribute Intersection(XmlSchemaAnyAttribute o1, XmlSchemaAnyAttribute o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600153F")]
-	[Address(RVA = "0x26658A0", Offset = "0x2663EA0", VA = "0x1826658A0")]
+	[Address(RVA = "0x6026C70", Offset = "0x6025C70", VA = "0x6026C70")]
 	internal static XmlSchemaAnyAttribute Union(XmlSchemaAnyAttribute o1, XmlSchemaAnyAttribute o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001540")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6026C60", Offset = "0x6025C60", VA = "0x6026C60")]
 	public XmlSchemaAnyAttribute()
 	{
 	}

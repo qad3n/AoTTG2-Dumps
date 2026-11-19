@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DataBindingUtility
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ internal static class DataBindingUtility
 	private static readonly Regex s_ReplaceIndices;
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x308F250", Offset = "0x308D850", VA = "0x18308F250")]
+	[Address(RVA = "0x6A884F0", Offset = "0x6A874F0", VA = "0x6A884F0")]
 	public static bool TryGetBinding(VisualElement element, in BindingId bindingId, out BindingInfo bindingInfo)
 	{
 		return default(bool);

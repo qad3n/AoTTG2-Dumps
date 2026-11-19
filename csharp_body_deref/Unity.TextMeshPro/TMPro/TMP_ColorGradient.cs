@@ -45,19 +45,19 @@ public class TMP_ColorGradient : ScriptableObject
 	private static readonly Color k_DefaultColor;
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2CDFDC0", Offset = "0x2CDE3C0", VA = "0x182CDFDC0")]
+	[Address(RVA = "0x66DD200", Offset = "0x66DC200", VA = "0x66DD200")]
 	public TMP_ColorGradient()
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2CDFE70", Offset = "0x2CDE470", VA = "0x182CDFE70")]
+	[Address(RVA = "0x66DD2A0", Offset = "0x66DC2A0", VA = "0x66DD2A0")]
 	public TMP_ColorGradient(Color color)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2CDFEC0", Offset = "0x2CDE4C0", VA = "0x182CDFEC0")]
+	[Address(RVA = "0x66DD2F0", Offset = "0x66DC2F0", VA = "0x66DD2F0")]
 	public TMP_ColorGradient(Color color0, Color color1, Color color2, Color color3)
 	{
 	}

@@ -18,7 +18,7 @@ internal static class MouseEventsHelper
 	}
 
 	[Token(Token = "0x6000DCD")]
-	[Address(RVA = "0x3267F50", Offset = "0x3266550", VA = "0x183267F50")]
+	[Address(RVA = "0x6C60730", Offset = "0x6C5F730", VA = "0x6C60730")]
 	internal static void SendMouseOverMouseOut(VisualElement previousTopElementUnderMouse, VisualElement currentTopElementUnderMouse, IMouseEvent triggerEvent, Vector2 mousePosition)
 	{
 	}

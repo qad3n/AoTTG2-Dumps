@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.BvhCheck
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -49,7 +49,7 @@ internal class BvhCheck
 		public uint indexCount;
 
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x2D95B40", Offset = "0x2D94140", VA = "0x182D95B40")]
+		[Address(RVA = "0x67754D0", Offset = "0x67744D0", VA = "0x67754D0")]
 		public VertexBuffers()
 		{
 		}
@@ -71,7 +71,7 @@ internal class BvhCheck
 		public uint vertexStride;
 
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6776550", Offset = "0x6775550", VA = "0x6776550")]
 		public VertexBuffersCPU()
 		{
 		}
@@ -97,119 +97,119 @@ internal class BvhCheck
 	private const uint kInvalidID = 4294967295u;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2D85FF0", Offset = "0x2D845F0", VA = "0x182D85FF0")]
+	[Address(RVA = "0x6775430", Offset = "0x6774430", VA = "0x6775430")]
 	public static VertexBuffers Convert(MeshBuildInfo info)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2D869C0", Offset = "0x2D84FC0", VA = "0x182D869C0")]
+	[Address(RVA = "0x67754E0", Offset = "0x67744E0", VA = "0x67754E0")]
 	public static double SurfaceArea(AABB aabb)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x2D868C0", Offset = "0x2D84EC0", VA = "0x182D868C0")]
+	[Address(RVA = "0x6775530", Offset = "0x6774530", VA = "0x6775530")]
 	public static double NodeSahCost(uint nodeAddr, AABB nodeAabb, AABB parentAabb)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x2D85FC0", Offset = "0x2D845C0", VA = "0x182D85FC0")]
+	[Address(RVA = "0x6775610", Offset = "0x6774610", VA = "0x6775610")]
 	public static double CheckConsistency(VertexBuffers bvhVertexBuffers, BottomLevelLevelAccelStruct bvh, uint primitiveCount)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x2D85F90", Offset = "0x2D84590", VA = "0x182D85F90")]
+	[Address(RVA = "0x6775710", Offset = "0x6774710", VA = "0x6775710")]
 	public static double CheckConsistency(GraphicsBuffer bvhBuffer, uint bvhBufferOffset, uint primitiveCount)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x2D85E90", Offset = "0x2D84490", VA = "0x182D85E90")]
+	[Address(RVA = "0x6775630", Offset = "0x6774630", VA = "0x6775630")]
 	private static double CheckConsistency(VertexBuffers bvhVertexBuffers, GraphicsBuffer bvhBuffer, uint bvhBufferOffset, GraphicsBuffer bvhLeavesBuffer, uint bvhLeavesBufferOffset, uint primitiveCount)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x2D86260", Offset = "0x2D84860", VA = "0x182D86260")]
+	[Address(RVA = "0x6775BC0", Offset = "0x6774BC0", VA = "0x6775BC0")]
 	public static int ExtractBits(uint value, int startBit, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x2D868B0", Offset = "0x2D84EB0", VA = "0x182D868B0")]
+	[Address(RVA = "0x67755F0", Offset = "0x67745F0", VA = "0x67755F0")]
 	public static bool IsLeafNode(uint nodeAddr)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x2D86720", Offset = "0x2D84D20", VA = "0x182D86720")]
+	[Address(RVA = "0x6775BE0", Offset = "0x6774BE0", VA = "0x6775BE0")]
 	public static uint GetLeafNodeFirstPrim(uint nodeAddr)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x2D86730", Offset = "0x2D84D30", VA = "0x182D86730")]
+	[Address(RVA = "0x6775600", Offset = "0x6774600", VA = "0x6775600")]
 	public static uint GetLeafNodePrimCount(uint nodeAddr)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2D85A10", Offset = "0x2D84010", VA = "0x182D85A10")]
+	[Address(RVA = "0x6775730", Offset = "0x6774730", VA = "0x6775730")]
 	private static double CheckConsistency(VertexBuffers bvhVertexBuffers, GraphicsBuffer bvhBuffer, uint bvhBufferOffset, GraphicsBuffer bvhLeavesBuffer, uint bvhLeavesBufferOffset, BvhHeader header, uint primitiveCount)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x2D866B0", Offset = "0x2D84CB0", VA = "0x182D866B0")]
+	[Address(RVA = "0x6776390", Offset = "0x6775390", VA = "0x6776390")]
 	private static uint3 GetFaceIndices(uint[] indices, uint triangleIdx)
 	{
 		return default(uint3);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x2D86850", Offset = "0x2D84E50", VA = "0x182D86850")]
+	[Address(RVA = "0x67763E0", Offset = "0x67753E0", VA = "0x67763E0")]
 	private static float3 GetVertex(float[] vertices, uint stride, uint idx)
 	{
 		return default(float3);
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x2D86740", Offset = "0x2D84D40", VA = "0x182D86740")]
+	[Address(RVA = "0x6776430", Offset = "0x6775430", VA = "0x6776430")]
 	private static Triangle GetTriangle(float[] vertices, uint stride, uint3 idx)
 	{
 		return default(Triangle);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x2D86090", Offset = "0x2D84690", VA = "0x182D86090")]
+	[Address(RVA = "0x6775C00", Offset = "0x6774C00", VA = "0x6775C00")]
 	private static VertexBuffersCPU DownloadVertexData(VertexBuffers vertexBuffers)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x2D86290", Offset = "0x2D84890", VA = "0x182D86290")]
+	[Address(RVA = "0x6775DC0", Offset = "0x6774DC0", VA = "0x6775DC0")]
 	private static AABB GetAabb(VertexBuffersCPU bvhVertexBuffers, BvhNode[] bvhNodes, uint4[] bvhLeafNodes, uint nodeAddr, bool isTopLevel)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6776560", Offset = "0x6775560", VA = "0x6776560")]
 	public BvhCheck()
 	{
 	}

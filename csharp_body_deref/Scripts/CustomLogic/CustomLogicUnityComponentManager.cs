@@ -11,33 +11,33 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005F8")]
+[Token(Token = "0x2000657")]
 internal static class CustomLogicUnityComponentManager
 {
-	[Token(Token = "0x20005F9")]
+	[Token(Token = "0x2000658")]
 	private struct ComponentTypePair
 	{
-		[Token(Token = "0x4001A7C")]
+		[Token(Token = "0x4001C1D")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly Type UnityComponentType;
 
-		[Token(Token = "0x4001A7D")]
+		[Token(Token = "0x4001C1E")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly Type CLComponentType;
 
-		[Token(Token = "0x6003A6E")]
-		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+		[Token(Token = "0x6003CFC")]
+		[Address(RVA = "0x5A8FBA0", Offset = "0x5A8EBA0", VA = "0x5A8FBA0")]
 		public ComponentTypePair(Type unityComponentType, Type clComponentType)
 		{
 		}
 	}
 
-	[Token(Token = "0x4001A7B")]
+	[Token(Token = "0x4001C1C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, ComponentTypePair> _unityComponentTypes;
 
-	[Token(Token = "0x6003A6C")]
-	[Address(RVA = "0x20EA230", Offset = "0x20E8830", VA = "0x1820EA230")]
+	[Token(Token = "0x6003CFA")]
+	[Address(RVA = "0x5A8F7D0", Offset = "0x5A8E7D0", VA = "0x5A8F7D0")]
 	public static BuiltinComponentInstance GetUnityComponentByNameWithMapObjectOwner(CustomLogicMapObjectBuiltin owner, string name)
 	{
 		return null;

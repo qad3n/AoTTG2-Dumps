@@ -18,7 +18,7 @@ public class Box : VisualElement
 	public new class UxmlFactory : UxmlFactory<Box>
 	{
 		[Token(Token = "0x6000508")]
-		[Address(RVA = "0x31E3B80", Offset = "0x31E2180", VA = "0x1831E3B80")]
+		[Address(RVA = "0x6BD4390", Offset = "0x6BD3390", VA = "0x6BD4390")]
 		public UxmlFactory()
 		{
 		}
@@ -29,7 +29,7 @@ public class Box : VisualElement
 	public static readonly string ussClassName;
 
 	[Token(Token = "0x6000506")]
-	[Address(RVA = "0x31CDF40", Offset = "0x31CC540", VA = "0x1831CDF40")]
+	[Address(RVA = "0x6BD42A0", Offset = "0x6BD32A0", VA = "0x6BD42A0")]
 	public Box()
 	{
 	}

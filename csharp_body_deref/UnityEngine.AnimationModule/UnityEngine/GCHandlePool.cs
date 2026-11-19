@@ -24,13 +24,13 @@ internal class GCHandlePool
 	private int m_current;
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x2EB1290", Offset = "0x2EAF890", VA = "0x182EB1290")]
+	[Address(RVA = "0x68A8C70", Offset = "0x68A7C70", VA = "0x68A8C70")]
 	public GCHandlePool()
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x2EB1150", Offset = "0x2EAF750", VA = "0x182EB1150")]
+	[Address(RVA = "0x68A9810", Offset = "0x68A8810", VA = "0x68A9810")]
 	public GCHandle Alloc(object o)
 	{
 		return default(GCHandle);
@@ -38,14 +38,14 @@ internal class GCHandlePool
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x2EB1140", Offset = "0x2EAF740", VA = "0x182EB1140")]
+	[Address(RVA = "0x68A9860", Offset = "0x68A8860", VA = "0x68A9860")]
 	public IntPtr AllocHandleIfNotNull(object o)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x2EB11C0", Offset = "0x2EAF7C0", VA = "0x182EB11C0")]
+	[Address(RVA = "0x68A9250", Offset = "0x68A8250", VA = "0x68A9250")]
 	public void Free(GCHandle h)
 	{
 	}

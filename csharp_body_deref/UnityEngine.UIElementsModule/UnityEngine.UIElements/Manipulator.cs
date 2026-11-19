@@ -20,13 +20,13 @@ public abstract class Manipulator : IManipulator
 	public VisualElement target
 	{
 		[Token(Token = "0x60011B6")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0", Slot = "7")]
+		[Address(RVA = "0x6CB1960", Offset = "0x6CB0960", VA = "0x6CB1960", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60011B7")]
-		[Address(RVA = "0x32AEE40", Offset = "0x32AD440", VA = "0x1832AEE40", Slot = "4")]
+		[Address(RVA = "0x6CB22C0", Offset = "0x6CB12C0", VA = "0x6CB22C0", Slot = "4")]
 		set
 		{
 		}
@@ -39,7 +39,7 @@ public abstract class Manipulator : IManipulator
 	protected abstract void UnregisterCallbacksFromTarget();
 
 	[Token(Token = "0x60011B8")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6CB1760", Offset = "0x6CB0760", VA = "0x6CB1760")]
 	protected Manipulator()
 	{
 	}

@@ -14,35 +14,35 @@ namespace Unity.VisualScripting.FullSerializer;
 public class fsNullableConverter : fsConverter
 {
 	[Token(Token = "0x60011DA")]
-	[Address(RVA = "0x2E6C0E0", Offset = "0x2E6A6E0", VA = "0x182E6C0E0", Slot = "9")]
+	[Address(RVA = "0x685E4E0", Offset = "0x685D4E0", VA = "0x685E4E0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011DB")]
-	[Address(RVA = "0x2E6C230", Offset = "0x2E6A830", VA = "0x182E6C230", Slot = "7")]
+	[Address(RVA = "0x685E5C0", Offset = "0x685D5C0", VA = "0x685E5C0", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011DC")]
-	[Address(RVA = "0x2E6C1C0", Offset = "0x2E6A7C0", VA = "0x182E6C1C0", Slot = "8")]
+	[Address(RVA = "0x685E600", Offset = "0x685D600", VA = "0x685E600", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011DD")]
-	[Address(RVA = "0x546D10", Offset = "0x545310", VA = "0x180546D10", Slot = "4")]
+	[Address(RVA = "0x685E640", Offset = "0x685D640", VA = "0x685E640", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011DE")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x685E650", Offset = "0x685D650", VA = "0x685E650")]
 	public fsNullableConverter()
 	{
 	}

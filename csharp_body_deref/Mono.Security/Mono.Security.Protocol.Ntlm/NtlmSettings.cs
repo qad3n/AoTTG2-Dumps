@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000034")]
+[Token(Token = "0x2000022")]
 public static class NtlmSettings
 {
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x400009D")]
 	[FieldOffset(Offset = "0x0")]
 	private static NtlmAuthLevel defaultAuthLevel;
 
-	[Token(Token = "0x17000055")]
+	[Token(Token = "0x17000052")]
 	public static NtlmAuthLevel DefaultAuthLevel
 	{
-		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x1937840", Offset = "0x1935E40", VA = "0x181937840")]
+		[Token(Token = "0x6000104")]
+		[Address(RVA = "0x52C61F0", Offset = "0x52C51F0", VA = "0x52C61F0")]
 		get
 		{
 			return default(NtlmAuthLevel);

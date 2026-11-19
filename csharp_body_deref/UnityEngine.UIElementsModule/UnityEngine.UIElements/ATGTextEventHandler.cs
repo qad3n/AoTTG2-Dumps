@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.ATGTextEventHandler
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -76,124 +76,124 @@ internal class ATGTextEventHandler
 	internal int currentLinkIDHash;
 
 	[Token(Token = "0x6002352")]
-	[Address(RVA = "0x31274E0", Offset = "0x3125AE0", VA = "0x1831274E0")]
+	[Address(RVA = "0x6B29660", Offset = "0x6B28660", VA = "0x6B29660")]
 	public ATGTextEventHandler(TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x6002353")]
-	[Address(RVA = "0x3126CD0", Offset = "0x31252D0", VA = "0x183126CD0")]
+	[Address(RVA = "0x6B296F0", Offset = "0x6B286F0", VA = "0x6B296F0")]
 	public void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6002354")]
-	[Address(RVA = "0x3125890", Offset = "0x3123E90", VA = "0x183125890")]
+	[Address(RVA = "0x6B299A0", Offset = "0x6B289A0", VA = "0x6B299A0")]
 	private bool HasAllocatedLinkCallbacks()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002355")]
-	[Address(RVA = "0x31256A0", Offset = "0x3123CA0", VA = "0x1831256A0")]
+	[Address(RVA = "0x6B299B0", Offset = "0x6B289B0", VA = "0x6B299B0")]
 	private void AllocateLinkCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002356")]
-	[Address(RVA = "0x3125880", Offset = "0x3123E80", VA = "0x183125880")]
+	[Address(RVA = "0x6B29B30", Offset = "0x6B28B30", VA = "0x6B29B30")]
 	private bool HasAllocatedHyperlinkCallbacks()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002357")]
-	[Address(RVA = "0x3125530", Offset = "0x3123B30", VA = "0x183125530")]
+	[Address(RVA = "0x6B29B40", Offset = "0x6B28B40", VA = "0x6B29B40")]
 	private void AllocateHyperlinkCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002358")]
-	[Address(RVA = "0x3125810", Offset = "0x3123E10", VA = "0x183125810")]
+	[Address(RVA = "0x6B29CC0", Offset = "0x6B28CC0", VA = "0x6B29CC0")]
 	private void EnsureTextGenerationInfoIsValid()
 	{
 	}
 
 	[Token(Token = "0x6002359")]
-	[Address(RVA = "0x3125B80", Offset = "0x3124180", VA = "0x183125B80")]
+	[Address(RVA = "0x6B29D20", Offset = "0x6B28D20", VA = "0x6B29D20")]
 	private void HyperlinkOnPointerUp(PointerUpEvent pue)
 	{
 	}
 
 	[Token(Token = "0x600235A")]
-	[Address(RVA = "0x3125DE0", Offset = "0x31243E0", VA = "0x183125DE0")]
+	[Address(RVA = "0x6B2A0D0", Offset = "0x6B290D0", VA = "0x6B2A0D0")]
 	private static bool IsComplexHyperLink(string link, out Dictionary<string, string> hyperLinkData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600235B")]
-	[Address(RVA = "0x3125B70", Offset = "0x3124170", VA = "0x183125B70")]
+	[Address(RVA = "0x6B2A550", Offset = "0x6B29550", VA = "0x6B2A550")]
 	private void HyperlinkOnPointerOver(PointerOverEvent _)
 	{
 	}
 
 	[Token(Token = "0x600235C")]
-	[Address(RVA = "0x31258A0", Offset = "0x3123EA0", VA = "0x1831258A0")]
+	[Address(RVA = "0x6B2A560", Offset = "0x6B29560", VA = "0x6B2A560")]
 	private void HyperlinkOnPointerMove(PointerMoveEvent pme)
 	{
 	}
 
 	[Token(Token = "0x600235D")]
-	[Address(RVA = "0x3125B70", Offset = "0x3124170", VA = "0x183125B70")]
+	[Address(RVA = "0x6B2A8C0", Offset = "0x6B298C0", VA = "0x6B2A8C0")]
 	private void HyperlinkOnPointerOut(PointerOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600235E")]
-	[Address(RVA = "0x3126180", Offset = "0x3124780", VA = "0x183126180")]
+	[Address(RVA = "0x6B2A8D0", Offset = "0x6B298D0", VA = "0x6B2A8D0")]
 	private void LinkTagOnPointerDown(PointerDownEvent pde)
 	{
 	}
 
 	[Token(Token = "0x600235F")]
-	[Address(RVA = "0x3126A30", Offset = "0x3125030", VA = "0x183126A30")]
+	[Address(RVA = "0x6B2AB90", Offset = "0x6B29B90", VA = "0x6B2AB90")]
 	private void LinkTagOnPointerUp(PointerUpEvent pue)
 	{
 	}
 
 	[Token(Token = "0x6002360")]
-	[Address(RVA = "0x3126420", Offset = "0x3124A20", VA = "0x183126420")]
+	[Address(RVA = "0x6B2AE50", Offset = "0x6B29E50", VA = "0x6B2AE50")]
 	private void LinkTagOnPointerMove(PointerMoveEvent pme)
 	{
 	}
 
 	[Token(Token = "0x6002361")]
-	[Address(RVA = "0x31268E0", Offset = "0x3124EE0", VA = "0x1831268E0")]
+	[Address(RVA = "0x6B2B3C0", Offset = "0x6B2A3C0", VA = "0x6B2B3C0")]
 	private void LinkTagOnPointerOut(PointerOutEvent poe)
 	{
 	}
 
 	[Token(Token = "0x6002362")]
-	[Address(RVA = "0x3126F80", Offset = "0x3125580", VA = "0x183126F80")]
+	[Address(RVA = "0x6B2B580", Offset = "0x6B2A580", VA = "0x6B2B580")]
 	internal void RegisterLinkTagCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002363")]
-	[Address(RVA = "0x3127310", Offset = "0x3125910", VA = "0x183127310")]
+	[Address(RVA = "0x6B29710", Offset = "0x6B28710", VA = "0x6B29710")]
 	internal void UnRegisterLinkTagCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002364")]
-	[Address(RVA = "0x3126CF0", Offset = "0x31252F0", VA = "0x183126CF0")]
+	[Address(RVA = "0x6B2B680", Offset = "0x6B2A680", VA = "0x6B2B680")]
 	internal void RegisterHyperlinkCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6002365")]
-	[Address(RVA = "0x31271D0", Offset = "0x31257D0", VA = "0x1831271D0")]
+	[Address(RVA = "0x6B297F0", Offset = "0x6B287F0", VA = "0x6B297F0")]
 	internal void UnRegisterHyperlinkCallbacks()
 	{
 	}

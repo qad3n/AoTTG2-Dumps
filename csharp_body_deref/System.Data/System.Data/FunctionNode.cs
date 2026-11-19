@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Data.FunctionNode
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ internal sealed class FunctionNode : ExpressionNode
 	internal FunctionId Aggregate
 	{
 		[Token(Token = "0x6000315")]
-		[Address(RVA = "0x24E3D30", Offset = "0x24E2330", VA = "0x1824E3D30")]
+		[Address(RVA = "0x5E87710", Offset = "0x5E86710", VA = "0x5E87710")]
 		get
 		{
 			return default(FunctionId);
@@ -52,7 +52,7 @@ internal sealed class FunctionNode : ExpressionNode
 	internal bool IsAggregate
 	{
 		[Token(Token = "0x6000316")]
-		[Address(RVA = "0x24E3DD0", Offset = "0x24E23D0", VA = "0x1824E3DD0")]
+		[Address(RVA = "0x5E877A0", Offset = "0x5E867A0", VA = "0x5E877A0")]
 		get
 		{
 			return default(bool);
@@ -60,102 +60,102 @@ internal sealed class FunctionNode : ExpressionNode
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x24E3BD0", Offset = "0x24E21D0", VA = "0x1824E3BD0")]
+	[Address(RVA = "0x5E84720", Offset = "0x5E83720", VA = "0x5E84720")]
 	internal FunctionNode(DataTable table, string name)
 	{
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x24DF9E0", Offset = "0x24DDFE0", VA = "0x1824DF9E0")]
+	[Address(RVA = "0x5E84870", Offset = "0x5E83870", VA = "0x5E84870")]
 	internal void AddArgument(ExpressionNode argument)
 	{
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x24DFBD0", Offset = "0x24DE1D0", VA = "0x1824DFBD0", Slot = "5")]
+	[Address(RVA = "0x5E84A70", Offset = "0x5E83A70", VA = "0x5E84A70", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x24E2A50", Offset = "0x24E1050", VA = "0x1824E2A50", Slot = "6")]
+	[Address(RVA = "0x5E84F70", Offset = "0x5E83F70", VA = "0x5E84F70", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x24E1F40", Offset = "0x24E0540", VA = "0x1824E1F40", Slot = "7")]
+	[Address(RVA = "0x5E84F90", Offset = "0x5E83F90", VA = "0x5E84F90", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x24E2A10", Offset = "0x24E1010", VA = "0x1824E2A10", Slot = "8")]
+	[Address(RVA = "0x5E872B0", Offset = "0x5E862B0", VA = "0x5E872B0", Slot = "8")]
 	internal override object Eval(int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x24E2E10", Offset = "0x24E1410", VA = "0x1824E2E10", Slot = "9")]
+	[Address(RVA = "0x5E872F0", Offset = "0x5E862F0", VA = "0x5E872F0", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x24E2E80", Offset = "0x24E1480", VA = "0x1824E2E80", Slot = "10")]
+	[Address(RVA = "0x5E87380", Offset = "0x5E86380", VA = "0x5E87380", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x24E2D30", Offset = "0x24E1330", VA = "0x1824E2D30", Slot = "11")]
+	[Address(RVA = "0x5E873F0", Offset = "0x5E863F0", VA = "0x5E873F0", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x24E2DA0", Offset = "0x24E13A0", VA = "0x1824E2DA0", Slot = "12")]
+	[Address(RVA = "0x5E87460", Offset = "0x5E86460", VA = "0x5E87460", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x24E0140", Offset = "0x24DE740", VA = "0x1824E0140", Slot = "14")]
+	[Address(RVA = "0x5E874D0", Offset = "0x5E864D0", VA = "0x5E874D0", Slot = "14")]
 	internal override bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x24E2EF0", Offset = "0x24E14F0", VA = "0x1824E2EF0", Slot = "13")]
+	[Address(RVA = "0x5E87540", Offset = "0x5E86540", VA = "0x5E87540", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x24E2A70", Offset = "0x24E1070", VA = "0x1824E2A70")]
+	[Address(RVA = "0x5E859B0", Offset = "0x5E849B0", VA = "0x5E859B0")]
 	private Type GetDataType(ExpressionNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x24E01D0", Offset = "0x24DE7D0", VA = "0x1824E01D0")]
+	[Address(RVA = "0x5E85C20", Offset = "0x5E84C20", VA = "0x5E85C20")]
 	private object EvalFunction(FunctionId id, object[] argumentValues, DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x24DFEE0", Offset = "0x24DE4E0", VA = "0x1824DFEE0")]
+	[Address(RVA = "0x5E84D80", Offset = "0x5E83D80", VA = "0x5E84D80")]
 	internal void Check()
 	{
 	}

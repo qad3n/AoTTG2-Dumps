@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x200047D")]
+[Token(Token = "0x2000456")]
 [ComVisible(true)]
 public enum CallingConvention
 {
-	[Token(Token = "0x40012C9")]
+	[Token(Token = "0x4001229")]
 	Winapi = 1,
-	[Token(Token = "0x40012CA")]
+	[Token(Token = "0x400122A")]
 	Cdecl,
-	[Token(Token = "0x40012CB")]
+	[Token(Token = "0x400122B")]
 	StdCall,
-	[Token(Token = "0x40012CC")]
+	[Token(Token = "0x400122C")]
 	ThisCall,
-	[Token(Token = "0x40012CD")]
+	[Token(Token = "0x400122D")]
 	FastCall
 }

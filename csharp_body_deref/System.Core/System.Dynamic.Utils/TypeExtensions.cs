@@ -10,43 +10,43 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic.Utils;
 
-[Token(Token = "0x2000284")]
+[Token(Token = "0x2000285")]
 internal static class TypeExtensions
 {
-	[Token(Token = "0x400049F")]
+	[Token(Token = "0x40004A8")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly CacheDict<MethodBase, ParameterInfo[]> s_paramInfoCache;
 
-	[Token(Token = "0x6000CA6")]
-	[Address(RVA = "0x2489530", Offset = "0x2487B30", VA = "0x182489530")]
+	[Token(Token = "0x6000CB1")]
+	[Address(RVA = "0x5E27940", Offset = "0x5E26940", VA = "0x5E27940")]
 	public static MethodInfo GetAnyStaticMethodValidated(this Type type, string name, Type[] types)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA7")]
-	[Address(RVA = "0x24897E0", Offset = "0x2487DE0", VA = "0x1824897E0")]
+	[Token(Token = "0x6000CB2")]
+	[Address(RVA = "0x5E279E0", Offset = "0x5E269E0", VA = "0x5E279E0")]
 	private static bool MatchesArgumentTypes(this MethodInfo mi, Type[] argTypes)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CA8")]
-	[Address(RVA = "0x2489700", Offset = "0x2487D00", VA = "0x182489700")]
+	[Token(Token = "0x6000CB3")]
+	[Address(RVA = "0x5E27B10", Offset = "0x5E26B10", VA = "0x5E27B10")]
 	public static Type GetReturnType(this MethodBase mi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x24897B0", Offset = "0x2487DB0", VA = "0x1824897B0")]
+	[Token(Token = "0x6000CB4")]
+	[Address(RVA = "0x5E27BB0", Offset = "0x5E26BB0", VA = "0x5E27BB0")]
 	public static TypeCode GetTypeCode(this Type type)
 	{
 		return default(TypeCode);
 	}
 
-	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x24895E0", Offset = "0x2487BE0", VA = "0x1824895E0")]
+	[Token(Token = "0x6000CB5")]
+	[Address(RVA = "0x5E26D40", Offset = "0x5E25D40", VA = "0x5E26D40")]
 	internal static ParameterInfo[] GetParametersCached(this MethodBase method)
 	{
 		return null;

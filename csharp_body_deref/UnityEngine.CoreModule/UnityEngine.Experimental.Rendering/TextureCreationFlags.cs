@@ -15,18 +15,18 @@ namespace UnityEngine.Experimental.Rendering;
 [Flags]
 public enum TextureCreationFlags
 {
-	[Token(Token = "0x4000D31")]
+	[Token(Token = "0x4000D2F")]
 	None = 0,
-	[Token(Token = "0x4000D32")]
+	[Token(Token = "0x4000D30")]
 	MipChain = 1,
-	[Token(Token = "0x4000D33")]
+	[Token(Token = "0x4000D31")]
 	DontInitializePixels = 4,
-	[Token(Token = "0x4000D34")]
+	[Token(Token = "0x4000D32")]
 	Crunch = 0x40,
-	[Token(Token = "0x4000D35")]
+	[Token(Token = "0x4000D33")]
 	DontUploadUponCreate = 0x400,
-	[Token(Token = "0x4000D36")]
-	[Obsolete("IgnoreMipmapLimit flag is no longer used since this is now the default behavior for all Texture shapes. Please provide mipmap limit information using a MipmapLimitDescriptor argument.", false)]
+	[Token(Token = "0x4000D34")]
 	[ExcludeFromDocs]
+	[Obsolete("IgnoreMipmapLimit flag is no longer used since this is now the default behavior for all Texture shapes. Please provide mipmap limit information using a MipmapLimitDescriptor argument.", false)]
 	IgnoreMipmapLimit = 0x800
 }

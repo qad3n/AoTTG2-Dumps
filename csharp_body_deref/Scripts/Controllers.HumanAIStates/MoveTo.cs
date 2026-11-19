@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace Controllers.HumanAIStates;
 
-[Token(Token = "0x2000627")]
+[Token(Token = "0x2000686")]
 internal class MoveTo : HumanAIState
 {
-	[Token(Token = "0x4001BA2")]
+	[Token(Token = "0x4001D45")]
 	[FieldOffset(Offset = "0x20")]
 	public float MoveToRange;
 
-	[Token(Token = "0x17000AAF")]
+	[Token(Token = "0x17000AF7")]
 	public override string Name
 	{
-		[Token(Token = "0x6003C88")]
-		[Address(RVA = "0x211CF40", Offset = "0x211B540", VA = "0x18211CF40", Slot = "4")]
+		[Token(Token = "0x6003F18")]
+		[Address(RVA = "0x5AB0090", Offset = "0x5AAF090", VA = "0x5AB0090", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003C89")]
-	[Address(RVA = "0x211CD80", Offset = "0x211B380", VA = "0x18211CD80", Slot = "7")]
+	[Token(Token = "0x6003F19")]
+	[Address(RVA = "0x5AB00C0", Offset = "0x5AAF0C0", VA = "0x5AB00C0", Slot = "7")]
 	public override void Action()
 	{
 	}
 
-	[Token(Token = "0x6003C8A")]
-	[Address(RVA = "0x211CF00", Offset = "0x211B500", VA = "0x18211CF00", Slot = "8")]
+	[Token(Token = "0x6003F1A")]
+	[Address(RVA = "0x5AB0260", Offset = "0x5AAF260", VA = "0x5AB0260", Slot = "8")]
 	public override void OnStateExit()
 	{
 	}
 
-	[Token(Token = "0x6003C8B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6003F1B")]
+	[Address(RVA = "0x5AA7720", Offset = "0x5AA6720", VA = "0x5AA7720")]
 	public MoveTo()
 	{
 	}

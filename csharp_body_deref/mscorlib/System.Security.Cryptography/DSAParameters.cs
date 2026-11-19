@@ -11,40 +11,40 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x200030A")]
+[Token(Token = "0x20002E3")]
 [ComVisible(true)]
 public struct DSAParameters
 {
-	[Token(Token = "0x4000D0B")]
+	[Token(Token = "0x4000C6B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public byte[] P;
 
-	[Token(Token = "0x4000D0C")]
+	[Token(Token = "0x4000C6C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public byte[] Q;
 
-	[Token(Token = "0x4000D0D")]
+	[Token(Token = "0x4000C6D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public byte[] G;
 
-	[Token(Token = "0x4000D0E")]
+	[Token(Token = "0x4000C6E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public byte[] Y;
 
-	[Token(Token = "0x4000D0F")]
+	[Token(Token = "0x4000C6F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public byte[] J;
 
 	[NonSerialized]
-	[Token(Token = "0x4000D10")]
+	[Token(Token = "0x4000C70")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public byte[] X;
 
-	[Token(Token = "0x4000D11")]
+	[Token(Token = "0x4000C71")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public byte[] Seed;
 
-	[Token(Token = "0x4000D12")]
+	[Token(Token = "0x4000C72")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public int Counter;
 }

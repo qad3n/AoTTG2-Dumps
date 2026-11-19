@@ -83,7 +83,7 @@ public class PhotonTransformViewPositionModel
 	public int ExtrapolateNumberOfStoredPositions;
 
 	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x1D66280", Offset = "0x1D64880", VA = "0x181D66280")]
+	[Address(RVA = "0x56FF680", Offset = "0x56FE680", VA = "0x56FF680")]
 	public PhotonTransformViewPositionModel()
 	{
 	}

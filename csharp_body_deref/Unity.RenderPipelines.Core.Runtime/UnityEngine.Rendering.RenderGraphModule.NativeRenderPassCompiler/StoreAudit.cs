@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.StoreAudit
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,7 +35,7 @@ internal readonly struct StoreAudit
 	public readonly int msaaPassId;
 
 	[Token(Token = "0x60013B0")]
-	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
+	[Address(RVA = "0x659DE30", Offset = "0x659CE30", VA = "0x659DE30")]
 	public StoreAudit(StoreReason setReason, int setPassId = -1, StoreReason setMsaaReason = StoreReason.NoMSAABuffer, int setMsaaPassId = -1)
 	{
 	}

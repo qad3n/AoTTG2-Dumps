@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgScoreboardPopup
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgScoreboardPopup.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,95 +14,95 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200026D")]
+[Token(Token = "0x2000293")]
 internal abstract class AottgScoreboardPopup : PromptPopup
 {
-	[Token(Token = "0x4000C74")]
+	[Token(Token = "0x4000D23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private RectTransform _canvasRect;
 
-	[Token(Token = "0x4000C75")]
+	[Token(Token = "0x4000D24")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private Transform _dim;
 
-	[Token(Token = "0x4000C76")]
+	[Token(Token = "0x4000D25")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private Transform _dialogHost;
 
-	[Token(Token = "0x170001A0")]
+	[Token(Token = "0x170001AB")]
 	protected abstract string DialogId
 	{
-		[Token(Token = "0x6000E9E")]
+		[Token(Token = "0x6000FAD")]
 		get;
 	}
 
-	[Token(Token = "0x170001A1")]
+	[Token(Token = "0x170001AC")]
 	protected override PopupAnimation PopupAnimationType
 	{
-		[Token(Token = "0x6000E9F")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "54")]
+		[Token(Token = "0x6000FAE")]
+		[Address(RVA = "0x57B5C50", Offset = "0x57B4C50", VA = "0x57B5C50", Slot = "54")]
 		get
 		{
 			return default(PopupAnimation);
 		}
 	}
 
-	[Token(Token = "0x170001A2")]
+	[Token(Token = "0x170001AD")]
 	protected AottgInGameView View
 	{
-		[Token(Token = "0x6000EA0")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Token(Token = "0x6000FAF")]
+		[Address(RVA = "0x57B5C60", Offset = "0x57B4C60", VA = "0x57B5C60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000EA1")]
-		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
+		[Token(Token = "0x6000FB0")]
+		[Address(RVA = "0x57B5C70", Offset = "0x57B4C70", VA = "0x57B5C70")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001A3")]
+	[Token(Token = "0x170001AE")]
 	protected GisketchView Dialog
 	{
-		[Token(Token = "0x6000EA2")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[Token(Token = "0x6000FB1")]
+		[Address(RVA = "0x57B5C90", Offset = "0x57B4C90", VA = "0x57B5C90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000EA3")]
-		[Address(RVA = "0x1537500", Offset = "0x1535B00", VA = "0x181537500")]
+		[Token(Token = "0x6000FB2")]
+		[Address(RVA = "0x57B5CA0", Offset = "0x57B4CA0", VA = "0x57B5CA0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x1DE6EF0", Offset = "0x1DE54F0", VA = "0x181DE6EF0", Slot = "20")]
+	[Token(Token = "0x6000FB3")]
+	[Address(RVA = "0x57B5CC0", Offset = "0x57B4CC0", VA = "0x57B5CC0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x1DE7340", Offset = "0x1DE5940", VA = "0x181DE7340", Slot = "21")]
+	[Token(Token = "0x6000FB4")]
+	[Address(RVA = "0x57B6020", Offset = "0x57B5020", VA = "0x57B6020", Slot = "21")]
 	public override void Show()
 	{
 	}
 
-	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x1DE6D60", Offset = "0x1DE5360", VA = "0x181DE6D60")]
+	[Token(Token = "0x6000FB5")]
+	[Address(RVA = "0x57B6190", Offset = "0x57B5190", VA = "0x57B6190")]
 	private void FitCanvas(Transform target)
 	{
 	}
 
-	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x1DD9CD0", Offset = "0x1DD82D0", VA = "0x181DD9CD0")]
+	[Token(Token = "0x6000FB6")]
+	[Address(RVA = "0x57B6310", Offset = "0x57B5310", VA = "0x57B6310")]
 	protected AottgScoreboardPopup()
 	{
 	}

@@ -11,38 +11,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x200009C")]
+[Token(Token = "0x200009D")]
 [DebuggerTypeProxy(typeof(LoopExpressionProxy))]
 public sealed class LoopExpression : Expression
 {
-	[Token(Token = "0x170000B9")]
+	[Token(Token = "0x170000BB")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000466")]
-		[Address(RVA = "0x243C1F0", Offset = "0x243A7F0", VA = "0x18243C1F0", Slot = "5")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000BA")]
-	public sealed override ExpressionType NodeType
-	{
-		[Token(Token = "0x6000467")]
-		[Address(RVA = "0x232BB20", Offset = "0x232A120", VA = "0x18232BB20", Slot = "4")]
-		get
-		{
-			return default(ExpressionType);
-		}
-	}
-
-	[Token(Token = "0x170000BB")]
-	public Expression Body
-	{
-		[Token(Token = "0x6000468")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
-		[CompilerGenerated]
+		[Token(Token = "0x6000471")]
+		[Address(RVA = "0x5DD2A90", Offset = "0x5DD1A90", VA = "0x5DD2A90", Slot = "5")]
 		get
 		{
 			return null;
@@ -50,22 +27,21 @@ public sealed class LoopExpression : Expression
 	}
 
 	[Token(Token = "0x170000BC")]
-	public LabelTarget BreakLabel
+	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000469")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
-		[CompilerGenerated]
+		[Token(Token = "0x6000472")]
+		[Address(RVA = "0x5DD2AE0", Offset = "0x5DD1AE0", VA = "0x5DD2AE0", Slot = "4")]
 		get
 		{
-			return null;
+			return default(ExpressionType);
 		}
 	}
 
 	[Token(Token = "0x170000BD")]
-	public LabelTarget ContinueLabel
+	public Expression Body
 	{
-		[Token(Token = "0x600046A")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000473")]
+		[Address(RVA = "0x5DD2AF0", Offset = "0x5DD1AF0", VA = "0x5DD2AF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,21 +49,45 @@ public sealed class LoopExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x243C160", Offset = "0x243A760", VA = "0x18243C160")]
+	[Token(Token = "0x170000BE")]
+	public LabelTarget BreakLabel
+	{
+		[Token(Token = "0x6000474")]
+		[Address(RVA = "0x5DD2B00", Offset = "0x5DD1B00", VA = "0x5DD2B00")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000BF")]
+	public LabelTarget ContinueLabel
+	{
+		[Token(Token = "0x6000475")]
+		[Address(RVA = "0x5DD2B10", Offset = "0x5DD1B10", VA = "0x5DD2B10")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6000470")]
+	[Address(RVA = "0x5DD2A00", Offset = "0x5DD1A00", VA = "0x5DD2A00")]
 	internal LoopExpression(Expression body, LabelTarget @break, LabelTarget @continue)
 	{
 	}
 
-	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x243C0B0", Offset = "0x243A6B0", VA = "0x18243C0B0", Slot = "9")]
+	[Token(Token = "0x6000476")]
+	[Address(RVA = "0x5DD2B20", Offset = "0x5DD1B20", VA = "0x5DD2B20", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x243C0E0", Offset = "0x243A6E0", VA = "0x18243C0E0")]
+	[Token(Token = "0x6000477")]
+	[Address(RVA = "0x5DD0620", Offset = "0x5DCF620", VA = "0x5DD0620")]
 	public LoopExpression Update(LabelTarget breakLabel, LabelTarget continueLabel, Expression body)
 	{
 		return null;

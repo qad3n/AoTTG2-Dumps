@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015C")]
+[Token(Token = "0x200015D")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 public sealed class RangeAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005A6")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x40005AB")]
+	[FieldOffset(Offset = "0x14")]
 	public readonly float min;
 
-	[Token(Token = "0x40005A7")]
-	[FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x40005AC")]
+	[FieldOffset(Offset = "0x18")]
 	public readonly float max;
 
-	[Token(Token = "0x6000C3C")]
-	[Address(RVA = "0x2F25040", Offset = "0x2F23640", VA = "0x182F25040")]
+	[Token(Token = "0x6000C4E")]
+	[Address(RVA = "0x690DD80", Offset = "0x690CD80", VA = "0x690DD80")]
 	public RangeAttribute(float min, float max)
 	{
 	}

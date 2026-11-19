@@ -17,13 +17,13 @@ namespace UnityEngine.UI;
 public class RawImage : MaskableGraphic
 {
 	[Token(Token = "0x40001B1")]
-	[FieldOffset(Offset = "0xE0")]
+	[FieldOffset(Offset = "0xD8")]
 	[FormerlySerializedAs("m_Tex")]
 	[SerializeField]
 	private Texture m_Texture;
 
 	[Token(Token = "0x40001B2")]
-	[FieldOffset(Offset = "0xE8")]
+	[FieldOffset(Offset = "0xE0")]
 	[SerializeField]
 	private Rect m_UVRect;
 
@@ -31,7 +31,7 @@ public class RawImage : MaskableGraphic
 	public override Texture mainTexture
 	{
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x32DB7B0", Offset = "0x32D9DB0", VA = "0x1832DB7B0", Slot = "35")]
+		[Address(RVA = "0x6CE8B40", Offset = "0x6CE7B40", VA = "0x6CE8B40", Slot = "35")]
 		get
 		{
 			return null;
@@ -42,13 +42,13 @@ public class RawImage : MaskableGraphic
 	public Texture texture
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x187BC50", Offset = "0x187A250", VA = "0x18187BC50")]
+		[Address(RVA = "0x6CE8CE0", Offset = "0x6CE7CE0", VA = "0x6CE8CE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x32DB980", Offset = "0x32D9F80", VA = "0x1832DB980")]
+		[Address(RVA = "0x6CE8CF0", Offset = "0x6CE7CF0", VA = "0x6CE8CF0")]
 		set
 		{
 		}
@@ -58,38 +58,38 @@ public class RawImage : MaskableGraphic
 	public Rect uvRect
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x32DB970", Offset = "0x32D9F70", VA = "0x1832DB970")]
+		[Address(RVA = "0x6CE8DA0", Offset = "0x6CE7DA0", VA = "0x6CE8DA0")]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x32DBA30", Offset = "0x32DA030", VA = "0x1832DBA30")]
+		[Address(RVA = "0x6CE8DC0", Offset = "0x6CE7DC0", VA = "0x6CE8DC0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x32DB770", Offset = "0x32D9D70", VA = "0x1832DB770")]
+	[Address(RVA = "0x6CE8B10", Offset = "0x6CE7B10", VA = "0x6CE8B10")]
 	protected RawImage()
 	{
 	}
 
 	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x32DB5E0", Offset = "0x32D9BE0", VA = "0x1832DB5E0", Slot = "45")]
+	[Address(RVA = "0x6CE8EA0", Offset = "0x6CE7EA0", VA = "0x6CE8EA0", Slot = "45")]
 	public override void SetNativeSize()
 	{
 	}
 
 	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x32DB270", Offset = "0x32D9870", VA = "0x1832DB270", Slot = "44")]
+	[Address(RVA = "0x6CE9230", Offset = "0x6CE8230", VA = "0x6CE9230", Slot = "44")]
 	protected override void OnPopulateMesh(VertexHelper vh)
 	{
 	}
 
 	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x3079430", Offset = "0x3077A30", VA = "0x183079430", Slot = "13")]
+	[Address(RVA = "0x6CE9890", Offset = "0x6CE8890", VA = "0x6CE9890", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}

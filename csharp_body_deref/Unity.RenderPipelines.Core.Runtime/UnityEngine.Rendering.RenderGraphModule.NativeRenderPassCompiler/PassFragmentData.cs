@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.PassFragmentData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,14 +32,14 @@ internal readonly struct PassFragmentData
 	public readonly int depthSlice;
 
 	[Token(Token = "0x6001393")]
-	[Address(RVA = "0x2BB9520", Offset = "0x2BB7B20", VA = "0x182BB9520")]
+	[Address(RVA = "0x659C770", Offset = "0x659B770", VA = "0x659C770")]
 	public PassFragmentData(in ResourceHandle handle, AccessFlags flags, int mipLevel, int depthSlice)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001394")]
-	[Address(RVA = "0x2BB9410", Offset = "0x2BB7A10", VA = "0x182BB9410", Slot = "2")]
+	[Address(RVA = "0x659C790", Offset = "0x659B790", VA = "0x659C790", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -47,7 +47,7 @@ internal readonly struct PassFragmentData
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001395")]
-	[Address(RVA = "0x2BB94A0", Offset = "0x2BB7AA0", VA = "0x182BB94A0")]
+	[Address(RVA = "0x659C830", Offset = "0x659B830", VA = "0x659C830")]
 	public static bool SameSubResource(in PassFragmentData x, in PassFragmentData y)
 	{
 		return default(bool);

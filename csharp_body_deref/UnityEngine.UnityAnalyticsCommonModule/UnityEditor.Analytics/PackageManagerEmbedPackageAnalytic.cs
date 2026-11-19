@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.PackageManagerEmbedPackageAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,13 +21,13 @@ namespace UnityEditor.Analytics;
 public class PackageManagerEmbedPackageAnalytic : PackageManagerBaseAnalytic
 {
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x33075C0", Offset = "0x3305BC0", VA = "0x1833075C0")]
+	[Address(RVA = "0x6D18360", Offset = "0x6D17360", VA = "0x6D18360")]
 	public PackageManagerEmbedPackageAnalytic()
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3307510", Offset = "0x3305B10", VA = "0x183307510")]
+	[Address(RVA = "0x6D183D0", Offset = "0x6D173D0", VA = "0x6D183D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static PackageManagerEmbedPackageAnalytic CreatePackageManagerEmbedPackageAnalytic()
 	{

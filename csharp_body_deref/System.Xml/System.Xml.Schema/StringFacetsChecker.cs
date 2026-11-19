@@ -22,7 +22,7 @@ internal class StringFacetsChecker : FacetsChecker
 	private static Regex LanguagePattern
 	{
 		[Token(Token = "0x600123E")]
-		[Address(RVA = "0x27AF9F0", Offset = "0x27ADFF0", VA = "0x1827AF9F0")]
+		[Address(RVA = "0x616DDE0", Offset = "0x616CDE0", VA = "0x616DDE0")]
 		get
 		{
 			return null;
@@ -30,49 +30,49 @@ internal class StringFacetsChecker : FacetsChecker
 	}
 
 	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x27AF380", Offset = "0x27AD980", VA = "0x1827AF380", Slot = "5")]
+	[Address(RVA = "0x616DE90", Offset = "0x616CE90", VA = "0x616DE90", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001240")]
-	[Address(RVA = "0x27AF360", Offset = "0x27AD960", VA = "0x1827AF360", Slot = "13")]
+	[Address(RVA = "0x616DEF0", Offset = "0x616CEF0", VA = "0x616DEF0", Slot = "13")]
 	internal override Exception CheckValueFacets(string value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001241")]
-	[Address(RVA = "0x27AF400", Offset = "0x27ADA00", VA = "0x1827AF400")]
+	[Address(RVA = "0x615F5E0", Offset = "0x615E5E0", VA = "0x615F5E0")]
 	internal Exception CheckValueFacets(string value, XmlSchemaDatatype datatype, bool verifyUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x27AF810", Offset = "0x27ADE10", VA = "0x1827AF810", Slot = "17")]
+	[Address(RVA = "0x616E3A0", Offset = "0x616D3A0", VA = "0x616E3A0", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001243")]
-	[Address(RVA = "0x27AF650", Offset = "0x27ADC50", VA = "0x1827AF650")]
+	[Address(RVA = "0x616E150", Offset = "0x616D150", VA = "0x616E150")]
 	private bool MatchEnumeration(string value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001244")]
-	[Address(RVA = "0x27AF060", Offset = "0x27AD660", VA = "0x1827AF060")]
+	[Address(RVA = "0x616DF00", Offset = "0x616CF00", VA = "0x616DF00")]
 	private Exception CheckBuiltInFacets(string s, XmlTypeCode typeCode, bool verifyUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001245")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6153FF0", Offset = "0x6152FF0", VA = "0x6153FF0")]
 	public StringFacetsChecker()
 	{
 	}

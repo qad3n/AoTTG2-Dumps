@@ -9,74 +9,74 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000139")]
+[Token(Token = "0x20000FA")]
 public class X509Certificate2Collection : X509CertificateCollection
 {
-	[Token(Token = "0x40005AC")]
+	[Token(Token = "0x40004DD")]
 	[FieldOffset(Offset = "0x0")]
 	private static string[] newline_split;
 
-	[Token(Token = "0x1700014B")]
+	[Token(Token = "0x1700011C")]
 	public new X509Certificate2 this[int index]
 	{
-		[Token(Token = "0x600076F")]
-		[Address(RVA = "0x2882F10", Offset = "0x2881510", VA = "0x182882F10")]
+		[Token(Token = "0x60005B4")]
+		[Address(RVA = "0x6210CA0", Offset = "0x620FCA0", VA = "0x6210CA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x1924500", Offset = "0x1922B00", VA = "0x181924500")]
+	[Token(Token = "0x60005B2")]
+	[Address(RVA = "0x6210BE0", Offset = "0x620FBE0", VA = "0x6210BE0")]
 	public X509Certificate2Collection()
 	{
 	}
 
-	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x2882E70", Offset = "0x2881470", VA = "0x182882E70")]
+	[Token(Token = "0x60005B3")]
+	[Address(RVA = "0x6210C00", Offset = "0x620FC00", VA = "0x6210C00")]
 	public X509Certificate2Collection(X509Certificate2Collection certificates)
 	{
 	}
 
-	[Token(Token = "0x6000770")]
-	[Address(RVA = "0x28819F0", Offset = "0x287FFF0", VA = "0x1828819F0")]
+	[Token(Token = "0x60005B5")]
+	[Address(RVA = "0x6210DB0", Offset = "0x620FDB0", VA = "0x6210DB0")]
 	public int Add(X509Certificate2 certificate)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000771")]
-	[Address(RVA = "0x2881970", Offset = "0x287FF70", VA = "0x182881970")]
+	[Token(Token = "0x60005B6")]
+	[Address(RVA = "0x6210C30", Offset = "0x620FC30", VA = "0x6210C30")]
 	[System.MonoTODO("Method isn't transactional (like documented)")]
 	public void AddRange(X509Certificate2Collection certificates)
 	{
 	}
 
-	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x2881A70", Offset = "0x2880070", VA = "0x182881A70")]
+	[Token(Token = "0x60005B7")]
+	[Address(RVA = "0x6210E20", Offset = "0x620FE20", VA = "0x6210E20")]
 	public bool Contains(X509Certificate2 certificate)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x2882CF0", Offset = "0x28812F0", VA = "0x182882CF0")]
+	[Token(Token = "0x60005B8")]
+	[Address(RVA = "0x6211180", Offset = "0x6210180", VA = "0x6211180")]
 	private string GetKeyIdentifier(X509Certificate2 x)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x2881C90", Offset = "0x2880290", VA = "0x182881C90")]
+	[Token(Token = "0x60005B9")]
+	[Address(RVA = "0x6211240", Offset = "0x6210240", VA = "0x6211240")]
 	[System.MonoTODO("Does not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy")]
 	public X509Certificate2Collection Find(X509FindType findType, object findValue, bool validOnly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x2882C50", Offset = "0x2881250", VA = "0x182882C50")]
+	[Token(Token = "0x60005BA")]
+	[Address(RVA = "0x6212420", Offset = "0x6211420", VA = "0x6212420")]
 	public new X509Certificate2Enumerator GetEnumerator()
 	{
 		return null;

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200068B")]
+[Token(Token = "0x2000665")]
 public enum MatchType
 {
-	[Token(Token = "0x4001A54")]
+	[Token(Token = "0x40019BA")]
 	Simple,
-	[Token(Token = "0x4001A55")]
+	[Token(Token = "0x40019BB")]
 	Win32
 }

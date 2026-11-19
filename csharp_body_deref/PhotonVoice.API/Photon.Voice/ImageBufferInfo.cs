@@ -36,13 +36,13 @@ public struct ImageBufferInfo
 		public int this[int key]
 		{
 			[Token(Token = "0x60002DD")]
-			[Address(RVA = "0x1D76000", Offset = "0x1D74600", VA = "0x181D76000")]
+			[Address(RVA = "0x5719CD0", Offset = "0x5718CD0", VA = "0x5719CD0")]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60002DE")]
-			[Address(RVA = "0x1D76030", Offset = "0x1D74630", VA = "0x181D76030")]
+			[Address(RVA = "0x5719D00", Offset = "0x5718D00", VA = "0x5719D00")]
 			set
 			{
 			}
@@ -52,14 +52,14 @@ public struct ImageBufferInfo
 		public int Length
 		{
 			[Token(Token = "0x60002DF")]
-			[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+			[Address(RVA = "0x5719D30", Offset = "0x5718D30", VA = "0x5719D30")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60002E0")]
-			[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+			[Address(RVA = "0x5719D40", Offset = "0x5718D40", VA = "0x5719D40")]
 			[CompilerGenerated]
 			private set
 			{
@@ -67,7 +67,7 @@ public struct ImageBufferInfo
 		}
 
 		[Token(Token = "0x60002DC")]
-		[Address(RVA = "0x1D75FE0", Offset = "0x1D745E0", VA = "0x181D75FE0")]
+		[Address(RVA = "0x5719CB0", Offset = "0x5718CB0", VA = "0x5719CB0")]
 		public StrideSet(int length, int s0 = 0, int s1 = 0, int s2 = 0, int s3 = 0)
 		{
 		}
@@ -77,7 +77,7 @@ public struct ImageBufferInfo
 	public readonly int Width
 	{
 		[Token(Token = "0x60002D3")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x5719B90", Offset = "0x5718B90", VA = "0x5719B90")]
 		[CompilerGenerated]
 		get
 		{
@@ -89,7 +89,7 @@ public struct ImageBufferInfo
 	public readonly int Height
 	{
 		[Token(Token = "0x60002D4")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x5719BA0", Offset = "0x5718BA0", VA = "0x5719BA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -101,7 +101,7 @@ public struct ImageBufferInfo
 	public readonly StrideSet Stride
 	{
 		[Token(Token = "0x60002D5")]
-		[Address(RVA = "0x1797280", Offset = "0x1795880", VA = "0x181797280")]
+		[Address(RVA = "0x5719BB0", Offset = "0x5718BB0", VA = "0x5719BB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -113,7 +113,7 @@ public struct ImageBufferInfo
 	public readonly ImageFormat Format
 	{
 		[Token(Token = "0x60002D6")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x5719BD0", Offset = "0x5718BD0", VA = "0x5719BD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -125,14 +125,14 @@ public struct ImageBufferInfo
 	public Rotation Rotation
 	{
 		[Token(Token = "0x60002D7")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x5719BE0", Offset = "0x5718BE0", VA = "0x5719BE0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(Rotation);
 		}
 		[Token(Token = "0x60002D8")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x5719BF0", Offset = "0x5718BF0", VA = "0x5719BF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -143,14 +143,14 @@ public struct ImageBufferInfo
 	public Flip Flip
 	{
 		[Token(Token = "0x60002D9")]
-		[Address(RVA = "0x1C612C0", Offset = "0x1C5F8C0", VA = "0x181C612C0")]
+		[Address(RVA = "0x5719C00", Offset = "0x5718C00", VA = "0x5719C00")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(Flip);
 		}
 		[Token(Token = "0x60002DA")]
-		[Address(RVA = "0x1C613A0", Offset = "0x1C5F9A0", VA = "0x181C613A0")]
+		[Address(RVA = "0x5719C10", Offset = "0x5718C10", VA = "0x5719C10")]
 		[CompilerGenerated]
 		set
 		{
@@ -158,7 +158,7 @@ public struct ImageBufferInfo
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x1D6A6B0", Offset = "0x1D68CB0", VA = "0x181D6A6B0")]
+	[Address(RVA = "0x5719C20", Offset = "0x5718C20", VA = "0x5719C20")]
 	public ImageBufferInfo(int width, int height, StrideSet stride, ImageFormat format)
 	{
 	}

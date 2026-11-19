@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.BufferDesc
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,19 +33,19 @@ public struct BufferDesc
 	public GraphicsBuffer.UsageFlags usageFlags;
 
 	[Token(Token = "0x6001228")]
-	[Address(RVA = "0x2B88950", Offset = "0x2B86F50", VA = "0x182B88950")]
+	[Address(RVA = "0x657DE10", Offset = "0x657CE10", VA = "0x657DE10")]
 	public BufferDesc(int count, int stride)
 	{
 	}
 
 	[Token(Token = "0x6001229")]
-	[Address(RVA = "0x2B88970", Offset = "0x2B86F70", VA = "0x182B88970")]
+	[Address(RVA = "0x657DE30", Offset = "0x657CE30", VA = "0x657DE30")]
 	public BufferDesc(int count, int stride, GraphicsBuffer.Target target)
 	{
 	}
 
 	[Token(Token = "0x600122A")]
-	[Address(RVA = "0x2B88910", Offset = "0x2B86F10", VA = "0x182B88910", Slot = "2")]
+	[Address(RVA = "0x657DE50", Offset = "0x657CE50", VA = "0x657DE50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

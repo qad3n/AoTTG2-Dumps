@@ -18,7 +18,7 @@ namespace Gilzoide.FlexUi;
 public class NaNIsDisabledAttribute : PropertyAttribute
 {
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
+	[Address(RVA = "0x5216970", Offset = "0x5215970", VA = "0x5216970")]
 	public NaNIsDisabledAttribute()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.EventSystems.RaycastResult
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -81,13 +81,13 @@ public struct RaycastResult
 	public GameObject gameObject
 	{
 		[Token(Token = "0x600077E")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6D14E10", Offset = "0x6D13E10", VA = "0x6D14E10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600077F")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Address(RVA = "0x6D14E20", Offset = "0x6D13E20", VA = "0x6D14E20")]
 		set
 		{
 		}
@@ -97,7 +97,7 @@ public struct RaycastResult
 	public bool isValid
 	{
 		[Token(Token = "0x6000780")]
-		[Address(RVA = "0x32FF1B0", Offset = "0x32FD7B0", VA = "0x1832FF1B0")]
+		[Address(RVA = "0x6D14E30", Offset = "0x6D13E30", VA = "0x6D14E30")]
 		get
 		{
 			return default(bool);
@@ -105,13 +105,13 @@ public struct RaycastResult
 	}
 
 	[Token(Token = "0x6000781")]
-	[Address(RVA = "0x32FEB60", Offset = "0x32FD160", VA = "0x1832FEB60")]
+	[Address(RVA = "0x6D14EB0", Offset = "0x6D13EB0", VA = "0x6D14EB0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x32FECB0", Offset = "0x32FD2B0", VA = "0x1832FECB0", Slot = "3")]
+	[Address(RVA = "0x6D08CB0", Offset = "0x6D07CB0", VA = "0x6D08CB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

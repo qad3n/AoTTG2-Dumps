@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.CullContextData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,32 +17,32 @@ public class CullContextData : ContextItem
 	internal ScriptableRenderContext? m_RenderContext;
 
 	[Token(Token = "0x6000FDC")]
-	[Address(RVA = "0x2B690F0", Offset = "0x2B676F0", VA = "0x182B690F0", Slot = "4")]
+	[Address(RVA = "0x655CB70", Offset = "0x655BB70", VA = "0x655CB70", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000FDD")]
-	[Address(RVA = "0x2B69100", Offset = "0x2B67700", VA = "0x182B69100")]
+	[Address(RVA = "0x655CB80", Offset = "0x655BB80", VA = "0x655CB80")]
 	public void SetRenderContext(in ScriptableRenderContext renderContext)
 	{
 	}
 
 	[Token(Token = "0x6000FDE")]
-	[Address(RVA = "0x2B68FF0", Offset = "0x2B675F0", VA = "0x182B68FF0")]
+	[Address(RVA = "0x655CBE0", Offset = "0x655BBE0", VA = "0x655CBE0")]
 	public CullingResults Cull(ref ScriptableCullingParameters parameters)
 	{
 		return default(CullingResults);
 	}
 
 	[Token(Token = "0x6000FDF")]
-	[Address(RVA = "0x2B68EE0", Offset = "0x2B674E0", VA = "0x182B68EE0")]
+	[Address(RVA = "0x655CCC0", Offset = "0x655BCC0", VA = "0x655CCC0")]
 	public void CullShadowCasters(CullingResults cullingResults, ShadowCastersCullingInfos shadowCastersCullingInfos)
 	{
 	}
 
 	[Token(Token = "0x6000FE0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x655CDC0", Offset = "0x655BDC0", VA = "0x655CDC0")]
 	public CullContextData()
 	{
 	}

@@ -43,7 +43,7 @@ public class RaiseEventOptions
 	public WebFlags Flags;
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x1D25F50", Offset = "0x1D24550", VA = "0x181D25F50")]
+	[Address(RVA = "0x56BB640", Offset = "0x56BA640", VA = "0x56BB640")]
 	public RaiseEventOptions()
 	{
 	}

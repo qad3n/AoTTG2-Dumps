@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000735")]
+[Token(Token = "0x20007DD")]
 internal class ElementStyle
 {
-	[Token(Token = "0x4002402")]
+	[Token(Token = "0x4002772")]
 	[FieldOffset(Offset = "0x10")]
 	public int FontSize;
 
-	[Token(Token = "0x4002403")]
+	[Token(Token = "0x4002773")]
 	[FieldOffset(Offset = "0x14")]
 	public float TitleWidth;
 
-	[Token(Token = "0x4002404")]
+	[Token(Token = "0x4002774")]
 	[FieldOffset(Offset = "0x18")]
 	public string ThemePanel;
 
-	[Token(Token = "0x4002405")]
+	[Token(Token = "0x4002775")]
 	[FieldOffset(Offset = "0x20")]
 	public float Spacing;
 
-	[Token(Token = "0x4002406")]
+	[Token(Token = "0x4002776")]
 	[FieldOffset(Offset = "0x0")]
 	public static ElementStyle Default;
 
-	[Token(Token = "0x60046D5")]
-	[Address(RVA = "0x2211560", Offset = "0x220FB60", VA = "0x182211560")]
+	[Token(Token = "0x6004BF5")]
+	[Address(RVA = "0x5BEC570", Offset = "0x5BEB570", VA = "0x5BEC570")]
 	public ElementStyle(int fontSize = 24, float titleWidth = 120f, float spacing = 20f, string themePanel = "DefaultPanel")
 	{
 	}

@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200018F")]
+[Token(Token = "0x2000190")]
 internal sealed class TryFaultHandler
 {
-	[Token(Token = "0x4000357")]
+	[Token(Token = "0x4000360")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly int TryStartIndex;
 
-	[Token(Token = "0x4000358")]
+	[Token(Token = "0x4000361")]
 	[FieldOffset(Offset = "0x14")]
 	internal readonly int TryEndIndex;
 
-	[Token(Token = "0x4000359")]
+	[Token(Token = "0x4000362")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly int FinallyStartIndex;
 
-	[Token(Token = "0x400035A")]
+	[Token(Token = "0x4000363")]
 	[FieldOffset(Offset = "0x1C")]
 	internal readonly int FinallyEndIndex;
 
-	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x2332760", Offset = "0x2330D60", VA = "0x182332760")]
+	[Token(Token = "0x6000877")]
+	[Address(RVA = "0x5DF4C00", Offset = "0x5DF3C00", VA = "0x5DF4C00")]
 	internal TryFaultHandler(int tryStart, int tryEnd, int finallyStart, int finallyEnd)
 	{
 	}

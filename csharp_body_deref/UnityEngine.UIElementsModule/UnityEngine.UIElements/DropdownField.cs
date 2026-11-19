@@ -20,7 +20,7 @@ public class DropdownField : PopupField<string>
 	public new class UxmlFactory : UxmlFactory<DropdownField, UxmlTraits>
 	{
 		[Token(Token = "0x600059D")]
-		[Address(RVA = "0x31E39C0", Offset = "0x31E1FC0", VA = "0x1831E39C0")]
+		[Address(RVA = "0x6BDC690", Offset = "0x6BDB690", VA = "0x6BDC690")]
 		public UxmlFactory()
 		{
 		}
@@ -39,32 +39,32 @@ public class DropdownField : PopupField<string>
 		private UxmlStringAttributeDescription m_Choices;
 
 		[Token(Token = "0x600059E")]
-		[Address(RVA = "0x31E5C90", Offset = "0x31E4290", VA = "0x1831E5C90", Slot = "4")]
+		[Address(RVA = "0x6BDC6D0", Offset = "0x6BDB6D0", VA = "0x6BDC6D0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x600059F")]
-		[Address(RVA = "0x31E7230", Offset = "0x31E5830", VA = "0x1831E7230")]
+		[Address(RVA = "0x6BDC890", Offset = "0x6BDB890", VA = "0x6BDC890")]
 		public UxmlTraits()
 		{
 		}
 	}
 
 	[Token(Token = "0x600059A")]
-	[Address(RVA = "0x31D0420", Offset = "0x31CEA20", VA = "0x1831D0420")]
+	[Address(RVA = "0x6BDC520", Offset = "0x6BDB520", VA = "0x6BDC520")]
 	public DropdownField()
 	{
 	}
 
 	[Token(Token = "0x600059B")]
-	[Address(RVA = "0x31D03B0", Offset = "0x31CE9B0", VA = "0x1831D03B0")]
+	[Address(RVA = "0x6BDC580", Offset = "0x6BDB580", VA = "0x6BDC580")]
 	public DropdownField(string label)
 	{
 	}
 
 	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x31D0480", Offset = "0x31CEA80", VA = "0x1831D0480")]
+	[Address(RVA = "0x6BDC5F0", Offset = "0x6BDB5F0", VA = "0x6BDC5F0")]
 	public DropdownField(string label, List<string> choices, int defaultIndex, [Optional] Func<string, string> formatSelectedValueCallback, [Optional] Func<string, string> formatListItemCallback)
 	{
 	}

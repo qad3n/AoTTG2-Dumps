@@ -1,5 +1,5 @@
 // Type: UI.FeedPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/FeedPanel.cs
@@ -8,14 +8,14 @@
 
 // UI.FeedPanel$$get_ThemePanel
 // il2cpp: System_String_o* UI_FeedPanel__get_ThemePanel (UI_FeedPanel_o* __this, const MethodInfo* method);
-// 0x1822458e0
+// 0x5d21340
 
 System_String_o * UI_FeedPanel__get_ThemePanel(UI_FeedPanel_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184347258 == '\0') {
+  if (Il2CppMethodInitialized_07547dcd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"ChatPanel");
-    Il2CppMethodInitialized_184347258 = '\x01';
+    Il2CppMethodInitialized_07547dcd = '\x01';
   }
   return "ChatPanel";
 }
@@ -23,22 +23,24 @@ System_String_o * UI_FeedPanel__get_ThemePanel(UI_FeedPanel_o *__this,MethodInfo
 
 // UI.FeedPanel$$Setup
 // il2cpp: void UI_FeedPanel__Setup (UI_FeedPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x1822453e0
+// 0x5d21370
 
 void UI_FeedPanel__Setup(UI_FeedPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
+  UnityEngine_GameObject_o **targetAddress;
   Settings_UISettings_o *pSVar1;
   Settings_IntSetting_o *pSVar2;
+  UnityEngine_Vector2_o value;
   UnityEngine_Transform_o *pUVar3;
   UnityEngine_GameObject_o *pUVar4;
   UnityEngine_UI_LayoutElement_o *pUVar5;
   UnityEngine_RectTransform_o *__this_00;
   System_String_o *themePanel;
   UI_ElementStyle_o *__this_01;
-  UnityEngine_Vector2_o value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347259 == '\0') {
+  if (Il2CppMethodInitialized_07547dce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
@@ -46,23 +48,24 @@ void UI_FeedPanel__Setup(UI_FeedPanel_o *__this,UI_BasePanel_o *parent,MethodInf
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"Content/Panel");
     il2cpp_codegen_initialize_runtime_metadata(&"Content");
-    Il2CppMethodInitialized_184347259 = '\x01';
+    Il2CppMethodInitialized_07547dce = '\x01';
   }
   pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
     pUVar3 = UnityEngine_Transform__Find(pUVar3,"Content/Panel",(MethodInfo *)0x0);
     if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
       pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0);
+      targetAddress = &(__this->fields)._panel;
       (__this->fields)._panel = pUVar4;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._panel,pUVar4);
+      Il2CppCodeGenWriteBarrier(targetAddress);
       pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
       if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
         pUVar3 = UnityEngine_Transform__Find(pUVar3,"Content",(MethodInfo *)0x0);
         if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
           pUVar5 = UnityEngine_Component__GetComponent_object_
                              ((UnityEngine_Component_o *)pUVar3,
-                              (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement
-                             );
+                              (MethodInfo_34B0830 *)
+                              MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
           pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
           if (((pSVar1 != (Settings_UISettings_o *)0x0) &&
               (pSVar2 = (pSVar1->fields).ChatHeight, pSVar2 != (Settings_IntSetting_o *)0x0)) &&
@@ -75,16 +78,16 @@ void UI_FeedPanel__Setup(UI_FeedPanel_o *__this,UI_BasePanel_o *parent,MethodInf
             if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
               __this_00 = UnityEngine_Component__GetComponent_object_
                                     ((UnityEngine_Component_o *)pUVar3,
-                                     (MethodInfo_6651A0 *)
+                                     (MethodInfo_34B0830 *)
                                      MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
               pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
               if (((pSVar1 != (Settings_UISettings_o *)0x0) &&
                   (pSVar2 = (pSVar1->fields).ChatWidth, pSVar2 != (Settings_IntSetting_o *)0x0)) &&
-                 (value.fields.x = (float)(pSVar2->fields)._value,
-                 __this_00 != (UnityEngine_RectTransform_o *)0x0)) {
+                 (__this_00 != (UnityEngine_RectTransform_o *)0x0)) {
                 value.fields.y = 0.0;
+                value.fields.x = (float)(pSVar2->fields)._value;
                 UnityEngine_RectTransform__set_sizeDelta(__this_00,value,(MethodInfo *)0x0);
-                pUVar4 = (__this->fields)._panel;
+                pUVar4 = *targetAddress;
                 if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
                   pUVar3 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
                   themePanel = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
@@ -98,10 +101,11 @@ void UI_FeedPanel__Setup(UI_FeedPanel_o *__this,UI_BasePanel_o *parent,MethodInf
                                        (pUVar3,__this_01,(float)(pSVar2->fields)._value,2.0,(MethodInfo *)0x0)
                     ;
                     if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-                      pUVar3 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-                      (__this->fields)._horizontalLine = pUVar3;
-                      Il2CppCodeGenWriteBarrier(&(__this->fields)._horizontalLine,pUVar3);
-                      UI_FeedPanel__Sync(__this,(MethodInfo *)0x0);
+                      method_00 = (MethodInfo *)
+                                  UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
+                      (__this->fields)._horizontalLine = (UnityEngine_Transform_o *)method_00;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._horizontalLine);
+                      UI_FeedPanel__Sync(__this,method_00);
                       return;
                     }
                   }
@@ -119,44 +123,52 @@ void UI_FeedPanel__Setup(UI_FeedPanel_o *__this,UI_BasePanel_o *parent,MethodInf
 
 // UI.FeedPanel$$Sync
 // il2cpp: void UI_FeedPanel__Sync (UI_FeedPanel_o* __this, const MethodInfo* method);
-// 0x1822456a0
-// eh: try 0x182245771..0x1822457ac -> pad 0x183315930 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822457bd: mov rdx, qword ptr [rip + 0x1e3ad24]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
-// asm:   0x1822457c4: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x1822457c9: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1822457ce: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1822457d3: test rcx, rcx
-// asm:   0x1822457d6: jne 0x182245859
-// asm:   0x1822457dc: mov rsi, qword ptr [rsp + 0x70]
-// asm:   0x182245859: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d21600
+// eh: try 0x5d216d0..0x5d21701 -> pad 0x5d2177f (+2 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d21797..0x5d2179c -> pad 0x5d217bf cleanup
+// eh: try 0x5d217c2..0x5d217cc -> pad 0x5d217d4 catch (...) [compiler noexcept guard]
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d2177d: jmp 0x5d2177f
+// asm:   0x5d2177f: mov rbx, rax
+// asm:   0x5d21782: cmp edx, 1
+// asm:   0x5d21785: jne 0x5d217c2
+// asm:   0x5d21787: mov rdi, rbx
+// asm:   0x5d2178a: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d2178f: mov rbx, qword ptr [rax]
+// asm:   0x5d21792: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5d21797: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d2179c: lea rax, [rip + 0x156c5d5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x5d217a3: mov rsi, qword ptr [rax]
+// asm:   0x5d217a6: mov rdi, rsp
+// asm:   0x5d217a9: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5d217ae: test rbx, rbx
+// asm:   0x5d217b1: je 0x5d21715
+// asm:   0x5d217b7: mov rdi, rbx
+// asm:   0x5d217ba: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d217bf: mov rbx, rax
+// asm:   0x5d217c2: lea rdi, [rsp + 0x20]
+// asm:   0x5d217c7: call 0x2fdc040  ; il2cpp_runtime_helper_02fdc040()
+// asm:   0x5d217cc: mov rdi, rbx
+// asm:   0x5d217cf: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d217d4: mov rdi, rax
+// asm:   0x5d217d7: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_FeedPanel__Sync(UI_FeedPanel_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int length;
+  uint length;
   System_Collections_Generic_List_GameObject__o *pSVar2;
-  UnityEngine_Object_o *obj;
+  Il2CppObject *obj;
   bool bVar3;
-  undefined1 local_40 [16];
-  UnityEngine_Object_o *local_30;
-  undefined1 local_28 [8];
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
-  UnityEngine_Object_o *local_18;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_18434725a == '\0') {
+  if (Il2CppMethodInitialized_07547dcf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_ChatManager);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
@@ -168,51 +180,51 @@ void UI_FeedPanel__Sync(UI_FeedPanel_o *__this,MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_18434725a = '\x01';
+    Il2CppMethodInitialized_07547dcf = '\x01';
   }
-  local_28 = (undefined1  [8])0x0;
-  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
-  local_18 = (UnityEngine_Object_o *)0x0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
   pSVar2 = (__this->fields)._lines;
   if (pSVar2 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,
-               (System_Collections_Generic_List_T__o *)pSVar2,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
-    local_28 = (undefined1  [8])local_40._0_8_;
-    pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
-    local_18 = local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+    System_Collections_Generic_List_object___GetEnumerator
+              (&local_58,(System_Collections_Generic_List_object__o *)pSVar2,
+               (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+    local_38 = 0;
+    local_30 = (undefined1 *)&local_58;
     while( true ) {
       bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_object__o *)local_28,
-                         (MethodInfo_153A2A0 *)
+                        ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                         (MethodInfo_4C45C50 *)
                          MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
-      obj = local_18;
+      obj = local_58.fields._current;
       if (!bVar3) break;
       if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      UnityEngine_Object__Destroy_2f1ff70(obj,(MethodInfo *)0x0);
+      UnityEngine_Object__Destroy_69214e0((UnityEngine_Object_o *)obj,(MethodInfo *)0x0);
     }
     System_Collections_Generic_List_Enumerator_object___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
-               MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+              ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+               (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose)
+    ;
     pSVar2 = (__this->fields)._lines;
     if (pSVar2 != (System_Collections_Generic_List_GameObject__o *)0x0) {
       piVar1 = &(pSVar2->fields)._version;
       *piVar1 = *piVar1 + 1;
       length = (pSVar2->fields)._size;
+      method_00 = (MethodInfo *)(ulong)length;
       (pSVar2->fields)._size = 0;
-      if (0 < length) {
+      if (0 < (int)length) {
         System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
+        method_00 = extraout_RDX;
       }
       if ((TypeInfo_GameManagers_ChatManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_ChatManager);
+        method_00 = extraout_RDX_00;
       }
-      UI_FeedPanel__AddLines
-                (__this,TypeInfo_GameManagers_ChatManager->static_fields->FeedLines,(MethodInfo *)0x0);
+      UI_FeedPanel__AddLines(__this,TypeInfo_GameManagers_ChatManager->static_fields->FeedLines,method_00);
       return;
     }
   }
@@ -222,7 +234,7 @@ void UI_FeedPanel__Sync(UI_FeedPanel_o *__this,MethodInfo *method)
 
 // UI.FeedPanel$$AddLine
 // il2cpp: void UI_FeedPanel__AddLine (UI_FeedPanel_o* __this, System_String_o* line, const MethodInfo* method);
-// 0x182244d00
+// 0x5d219a0
 
 void UI_FeedPanel__AddLine(UI_FeedPanel_o *__this,System_String_o *line,MethodInfo *method)
 
@@ -232,14 +244,16 @@ void UI_FeedPanel__AddLine(UI_FeedPanel_o *__this,System_String_o *line,MethodIn
   System_Collections_Generic_List_GameObject__o *__this_00;
   UnityEngine_GameObject_array *pUVar3;
   MethodInfo *pMVar4;
-  UnityEngine_GameObject_o *item;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX;
   
-  if (Il2CppMethodInitialized_18434725b == '\0') {
+  if (Il2CppMethodInitialized_07547dd0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
-    Il2CppMethodInitialized_18434725b = '\x01';
+    Il2CppMethodInitialized_07547dd0 = '\x01';
+    method = extraout_RDX;
   }
   __this_00 = (__this->fields)._lines;
-  item = UI_FeedPanel__CreateLine(__this,line,(MethodInfo *)0x0);
+  method_00 = (MethodInfo *)UI_FeedPanel__CreateLine(__this,line,method);
   pMVar4 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
   if (__this_00 != (System_Collections_Generic_List_GameObject__o *)0x0) {
     piVar1 = &(__this_00->fields)._version;
@@ -249,19 +263,16 @@ void UI_FeedPanel__AddLine(UI_FeedPanel_o *__this,System_String_o *line,MethodIn
       uVar2 = (__this_00->fields)._size;
       if (uVar2 < (uint)pUVar3->max_length) {
         (__this_00->fields)._size = uVar2 + 1;
-        if ((uint)pUVar3->max_length <= uVar2) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar3->m_Items[(int)uVar2] = item;
-        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,item);
+        pUVar3->m_Items[(int)uVar2] = (UnityEngine_GameObject_o *)method_00;
+        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
       }
       else {
         System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
-                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
+                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)method_00,
+                   (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
       }
       UnityEngine_Canvas__ForceUpdateCanvases((MethodInfo *)0x0);
-      UI_FeedPanel__ClearExcessLines(__this,(MethodInfo *)0x0);
+      UI_FeedPanel__ClearExcessLines(__this,method_00);
       return;
     }
   }
@@ -271,28 +282,36 @@ void UI_FeedPanel__AddLine(UI_FeedPanel_o *__this,System_String_o *line,MethodIn
 
 // UI.FeedPanel$$AddLines
 // il2cpp: void UI_FeedPanel__AddLines (UI_FeedPanel_o* __this, System_Collections_Generic_List_string__o* lines, const MethodInfo* method);
-// 0x182244dd0
-// eh: try 0x182244e90..0x182244f96 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182244f3b: mov rdx, qword ptr [rip + 0x1e529d6]  ; MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose
-// asm:   0x182244f42: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x182244f47: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x182244f4c: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x182244f51: test rcx, rcx
-// asm:   0x182244f54: jne 0x182244f96
-// asm:   0x182244f56: mov rsi, qword ptr [rsp + 0x70]
-// asm:   0x182244f96: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315935: push rbp
-// asm:   0x183315936: sub rsp, 0x20
-// asm:   0x18331593a: mov rbp, rdx
-// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183315941: mov rcx, qword ptr [rax]
-// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
-// asm:   0x183315948: movabs rax, 0
-// asm:   0x183315952: add rsp, 0x20
-// asm:   0x183315956: pop rbp
-// asm:   0x183315957: ret 
+// 0x5d217e0
+// eh: try 0x5d2189f..0x5d2193a -> pad 0x5d21943 (+3 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5d2195b..0x5d21960 -> pad 0x5d2197f cleanup
+// eh: try 0x5d21982..0x5d2198c -> pad 0x5d21994 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5d2193f: jmp 0x5d21943
+// asm:   0x5d21941: jmp 0x5d21943
+// asm:   0x5d21943: mov r14, rax
+// asm:   0x5d21946: cmp edx, 1
+// asm:   0x5d21949: jne 0x5d21982
+// asm:   0x5d2194b: mov rdi, r14
+// asm:   0x5d2194e: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5d21953: mov rbx, qword ptr [rax]
+// asm:   0x5d21956: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x5d2195b: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5d21960: lea rax, [rip + 0x156d191]  ; MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose
+// asm:   0x5d21967: mov rsi, qword ptr [rax]
+// asm:   0x5d2196a: mov rdi, rsp
+// asm:   0x5d2196d: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5d21972: test rbx, rbx
+// asm:   0x5d21975: je 0x5d21918
+// asm:   0x5d21977: mov rdi, rbx
+// asm:   0x5d2197a: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5d2197f: mov r14, rax
+// asm:   0x5d21982: lea rdi, [rsp + 0x20]
+// asm:   0x5d21987: call 0x2fdc070  ; il2cpp_runtime_helper_02fdc070()
+// asm:   0x5d2198c: mov rdi, r14
+// asm:   0x5d2198f: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5d21994: mov rdi, rax
+// asm:   0x5d21997: call 0x2ab61e0  ; __clang_call_terminate()
 
 void UI_FeedPanel__AddLines
                (UI_FeedPanel_o *__this,System_Collections_Generic_List_string__o *lines,MethodInfo *method)
@@ -302,14 +321,15 @@ void UI_FeedPanel__AddLines
   uint uVar2;
   System_Collections_Generic_List_GameObject__o *__this_00;
   UnityEngine_GameObject_array *pUVar3;
-  MethodInfo *pMVar4;
-  bool bVar5;
+  bool bVar4;
   UnityEngine_GameObject_o *item;
-  undefined1 local_40 [16];
-  System_String_o *local_30;
-  System_Collections_Generic_List_Enumerator_object__o local_28;
+  MethodInfo *method_00;
+  MethodInfo *pMVar5;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_38;
+  undefined1 *local_30;
   
-  if (Il2CppMethodInitialized_18434725c == '\0') {
+  if (Il2CppMethodInitialized_07547dd1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -319,62 +339,53 @@ void UI_FeedPanel__AddLines
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_string_GetEnumerator);
-    Il2CppMethodInitialized_18434725c = '\x01';
+    Il2CppMethodInitialized_07547dd1 = '\x01';
   }
-  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_28.fields._index = 0;
-  local_28.fields._version = 0;
-  local_28.fields._current = (Il2CppObject *)0x0;
-  if (lines != (System_Collections_Generic_List_string__o *)0x0) {
-    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,
-               (System_Collections_Generic_List_T__o *)lines,
-               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_string_GetEnumerator);
-    local_28.fields._list = (System_Collections_Generic_List_T__o *)local_40._0_8_;
-    local_28.fields._index = local_40._8_4_;
-    local_28.fields._version = local_40._12_4_;
-    local_28.fields._current = (Il2CppObject *)local_30;
-    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-    local_40._8_8_ = &local_28;
-    while( true ) {
-      bVar5 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (&local_28,
-                         (MethodInfo_153A2A0 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_string_MoveNext);
-      if (!bVar5) {
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose);
-        UnityEngine_Canvas__ForceUpdateCanvases((MethodInfo *)0x0);
-        UI_FeedPanel__ClearExcessLines(__this,(MethodInfo *)0x0);
-        return;
-      }
-      __this_00 = (__this->fields)._lines;
-      item = UI_FeedPanel__CreateLine(__this,(System_String_o *)local_28.fields._current,(MethodInfo *)0x0);
-      pMVar4 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
-      if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
-      piVar1 = &(__this_00->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pUVar3 = (__this_00->fields)._items;
-      if (pUVar3 == (UnityEngine_GameObject_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      uVar2 = (__this_00->fields)._size;
-      if (uVar2 < (uint)pUVar3->max_length) {
-        (__this_00->fields)._size = uVar2 + 1;
-        if ((uint)pUVar3->max_length <= uVar2) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar3->m_Items[(int)uVar2] = item;
-        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,item);
-      }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
-                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-      }
-    }
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
+  if (lines == (System_Collections_Generic_List_string__o *)0x0) {
     ThrowNullReferenceException();
+  }
+  System_Collections_Generic_List_object___GetEnumerator
+            (&local_58,(System_Collections_Generic_List_object__o *)lines,
+             (MethodInfo_395E050 *)MethodInfo_System_Collections_Generic_List_string_GetEnumerator);
+  local_38 = 0;
+  local_30 = (undefined1 *)&local_58;
+  while( true ) {
+    bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                       (MethodInfo_4C45C50 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_string_MoveNext);
+    if (!bVar4) {
+      pMVar5 = MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose;
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((System_Collections_Generic_List_Enumerator_object__o *)&local_58,
+                 (MethodInfo_4C45C40 *)MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose);
+      UnityEngine_Canvas__ForceUpdateCanvases((MethodInfo *)0x0);
+      UI_FeedPanel__ClearExcessLines(__this,pMVar5);
+      return;
+    }
+    __this_00 = (__this->fields)._lines;
+    item = UI_FeedPanel__CreateLine(__this,(System_String_o *)local_58.fields._current,method_00);
+    pMVar5 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
+    if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
+    piVar1 = &(__this_00->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar3 = (__this_00->fields)._items;
+    if (pUVar3 == (UnityEngine_GameObject_array *)0x0) break;
+    uVar2 = (__this_00->fields)._size;
+    if (uVar2 < (uint)pUVar3->max_length) {
+      (__this_00->fields)._size = uVar2 + 1;
+      pUVar3->m_Items[(int)uVar2] = item;
+      Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item,
+                 (MethodInfo_395D230 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
   }
   ThrowNullReferenceException();
 }
@@ -382,13 +393,13 @@ void UI_FeedPanel__AddLines
 
 // UI.FeedPanel$$ClearExcessLines
 // il2cpp: void UI_FeedPanel__ClearExcessLines (UI_FeedPanel_o* __this, const MethodInfo* method);
-// 0x182244fa0
+// 0x5d21c60
 // asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1822450cd: jmp 0x182245066
-// asm:   0x1822450df: xorps xmm6, xmm6
-// asm:   0x1822450e2: comiss xmm6, xmm7
-// asm:   0x1822450e5: jbe 0x1822451a8
-// asm:   0x1822450eb: nop dword ptr [rax + rax]
+// asm:   0x5d21d29: nop dword ptr [rax]
+// asm:   0x5d21d86: jmp 0x5d21e78
+// asm:   0x5d21dbb: lea r13, [rip + 0x155962e]  ; TypeInfo_UnityEngine_Object
+// asm:   0x5d21dc2: lea rbp, [rip + 0x15729cf]  ; MethodInfo_System_Collections_Generic_List_GameObject_RemoveAt
+// asm:   0x5d21dc9: nop dword ptr [rax]
 
 void UI_FeedPanel__ClearExcessLines(UI_FeedPanel_o *__this,MethodInfo *method)
 
@@ -396,16 +407,15 @@ void UI_FeedPanel__ClearExcessLines(UI_FeedPanel_o *__this,MethodInfo *method)
   int iVar1;
   Settings_UISettings_o *pSVar2;
   Settings_IntSetting_o *pSVar3;
-  System_Collections_Generic_List_GameObject__o *pSVar4;
-  UnityEngine_GameObject_o *pUVar5;
-  UnityEngine_RectTransform_o *pUVar6;
-  UnityEngine_Vector2_o UVar7;
+  UnityEngine_GameObject_o *pUVar4;
+  UnityEngine_RectTransform_o *pUVar5;
   UnityEngine_Object_o *obj;
   int index;
-  float fVar8;
-  float fStackX_1c;
+  System_Collections_Generic_List_GameObject__o *pSVar6;
+  UnityEngine_Vector2_o UVar7;
+  float local_34;
   
-  if (Il2CppMethodInitialized_18434725d == '\0') {
+  if (Il2CppMethodInitialized_07547dd2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_GameObject_RemoveAt);
@@ -416,85 +426,83 @@ void UI_FeedPanel__ClearExcessLines(UI_FeedPanel_o *__this,MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
-    Il2CppMethodInitialized_18434725d = '\x01';
+    Il2CppMethodInitialized_07547dd2 = '\x01';
   }
   pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
-  if ((pSVar2 != (Settings_UISettings_o *)0x0) &&
-     (pSVar3 = (pSVar2->fields).ChatHeight, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+  if (((pSVar2 != (Settings_UISettings_o *)0x0) &&
+      (pSVar3 = (pSVar2->fields).ChatHeight, pSVar3 != (Settings_IntSetting_o *)0x0)) &&
+     (pSVar6 = (__this->fields)._lines, pSVar6 != (System_Collections_Generic_List_GameObject__o *)0x0)) {
     iVar1 = (pSVar3->fields)._value;
     index = 0;
-    pSVar4 = (__this->fields)._lines;
-    fVar8 = 0.0;
-    while (pSVar4 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-      if ((pSVar4->fields)._size <= index) {
-        fVar8 = fVar8 - (float)iVar1;
-        if (fVar8 <= 0.0) {
-          return;
-        }
-        goto label_1822450f0;
-      }
-      pSVar4 = (__this->fields)._lines;
-      if (((pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) ||
-          (pUVar5 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)pSVar4,index,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_GameObject_get_Item),
-          pUVar5 == (UnityEngine_GameObject_o *)0x0)) ||
-         (pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                             (pUVar5,(MethodInfo_6F5650 *)
+    local_34 = 0.0;
+    while (index < (pSVar6->fields)._size) {
+      pUVar4 = System_Collections_Generic_List_object___get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar6,index,
+                          (MethodInfo_395CF20 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item
+                         );
+      if ((pUVar4 == (UnityEngine_GameObject_o *)0x0) ||
+         (pUVar5 = UnityEngine_GameObject__GetComponent_object_
+                             (pUVar4,(MethodInfo_353B730 *)
                                      MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform),
-         pUVar6 == (UnityEngine_RectTransform_o *)0x0)) break;
-      UVar7 = UnityEngine_RectTransform__get_sizeDelta(pUVar6,(MethodInfo *)0x0);
+         pUVar5 == (UnityEngine_RectTransform_o *)0x0)) goto label_05d21e78;
+      UVar7 = UnityEngine_RectTransform__get_sizeDelta(pUVar5,(MethodInfo *)0x0);
+      local_34 = local_34 + UVar7.fields.y;
       index = index + 1;
-      pSVar4 = (__this->fields)._lines;
-      fStackX_1c = UVar7.fields.y;
-      fVar8 = fVar8 + fStackX_1c;
+      pSVar6 = (__this->fields)._lines;
+      if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d21e78;
     }
+    local_34 = local_34 - (float)iVar1;
+    if (local_34 <= 0.0) {
+      return;
+    }
+    pSVar6 = (__this->fields)._lines;
+    if (pSVar6 != (System_Collections_Generic_List_GameObject__o *)0x0) goto label_05d21dd0;
   }
-label_1822451c2:
+  goto label_05d21e78;
+  while( true ) {
+    UVar7 = UnityEngine_RectTransform__get_sizeDelta(pUVar5,(MethodInfo *)0x0);
+    local_34 = local_34 - UVar7.fields.y;
+    if (local_34 <= 0.0) {
+      return;
+    }
+    pSVar6 = (__this->fields)._lines;
+    if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
+    obj = (UnityEngine_Object_o *)
+          System_Collections_Generic_List_object___get_Item
+                    ((System_Collections_Generic_List_object__o *)pSVar6,0,
+                     (MethodInfo_395CF20 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    UnityEngine_Object__Destroy_69214e0(obj,(MethodInfo *)0x0);
+    pSVar6 = (__this->fields)._lines;
+    if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
+    System_Collections_Generic_List_object___RemoveAt
+              ((System_Collections_Generic_List_object__o *)pSVar6,0,
+               (MethodInfo_395F100 *)MethodInfo_System_Collections_Generic_List_GameObject_RemoveAt);
+    pSVar6 = (__this->fields)._lines;
+    if (pSVar6 == (System_Collections_Generic_List_GameObject__o *)0x0) break;
+label_05d21dd0:
+    if ((pSVar6->fields)._size < 1) {
+      return;
+    }
+    pUVar4 = System_Collections_Generic_List_object___get_Item
+                       ((System_Collections_Generic_List_object__o *)pSVar6,0,
+                        (MethodInfo_395CF20 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
+    if ((pUVar4 == (UnityEngine_GameObject_o *)0x0) ||
+       (pUVar5 = UnityEngine_GameObject__GetComponent_object_
+                           (pUVar4,(MethodInfo_353B730 *)
+                                   MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform),
+       pUVar5 == (UnityEngine_RectTransform_o *)0x0)) break;
+  }
+label_05d21e78:
   ThrowNullReferenceException();
-label_1822450f0:
-  pSVar4 = (__this->fields)._lines;
-  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_1822451c2;
-  if ((pSVar4->fields)._size < 1) {
-    return;
-  }
-  pUVar5 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                     ((System_Collections_Generic_List_object__o *)pSVar4,0,
-                      (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
-  if ((pUVar5 == (UnityEngine_GameObject_o *)0x0) ||
-     (pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                         (pUVar5,(MethodInfo_6F5650 *)
-                                 MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform),
-     pUVar6 == (UnityEngine_RectTransform_o *)0x0)) goto label_1822451c2;
-  UVar7 = UnityEngine_RectTransform__get_sizeDelta(pUVar6,(MethodInfo *)0x0);
-  fStackX_1c = UVar7.fields.y;
-  fVar8 = fVar8 - fStackX_1c;
-  if (fVar8 <= 0.0) {
-    return;
-  }
-  pSVar4 = (__this->fields)._lines;
-  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_1822451c2;
-  obj = (UnityEngine_Object_o *)
-        System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                  ((System_Collections_Generic_List_object__o *)pSVar4,0,
-                   (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_GameObject_get_Item);
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  UnityEngine_Object__Destroy_2f1ff70(obj,(MethodInfo *)0x0);
-  pSVar4 = (__this->fields)._lines;
-  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_1822451c2;
-  System_Collections_Generic_List_object___RemoveAt
-            ((System_Collections_Generic_List_object__o *)pSVar4,0,
-             (MethodInfo_947010 *)MethodInfo_System_Collections_Generic_List_GameObject_RemoveAt);
-  goto label_1822450f0;
 }
 
 
 // UI.FeedPanel$$CreateLine
 // il2cpp: UnityEngine_GameObject_o* UI_FeedPanel__CreateLine (UI_FeedPanel_o* __this, System_String_o* text, const MethodInfo* method);
-// 0x1822451d0
+// 0x5d21a50
 
 UnityEngine_GameObject_o *
 UI_FeedPanel__CreateLine(UI_FeedPanel_o *__this,System_String_o *text,MethodInfo *method)
@@ -507,20 +515,20 @@ UI_FeedPanel__CreateLine(UI_FeedPanel_o *__this,System_String_o *text,MethodInfo
   UI_ElementStyle_o *__this_00;
   UnityEngine_Transform_o *pUVar4;
   UnityEngine_GameObject_o *pUVar5;
-  UnityEngine_UI_Text_o *pUVar6;
-  UnityEngine_Color_o *pUVar7;
-  UnityEngine_Color_o local_18;
+  UnityEngine_UI_Text_o *text_00;
+  UnityEngine_Color_o UVar6;
   
-  if (Il2CppMethodInitialized_18434725e == '\0') {
+  if (Il2CppMethodInitialized_07547dd3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_LanguageFonts);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&"TextColor");
     il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
     il2cpp_codegen_initialize_runtime_metadata(&"Default");
-    Il2CppMethodInitialized_18434725e = '\x01';
+    Il2CppMethodInitialized_07547dd3 = '\x01';
   }
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
   if ((pSVar1 != (Settings_UISettings_o *)0x0) &&
@@ -535,23 +543,24 @@ UI_FeedPanel__CreateLine(UI_FeedPanel_o *__this,System_String_o *text,MethodInfo
       pUVar4 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
       pUVar5 = UI_ElementFactory__CreateDefaultLabel(pUVar4,__this_00,text,0,3,(MethodInfo *)0x0);
       if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                           (pUVar5,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+        text_00 = UnityEngine_GameObject__GetComponent_object_
+                            (pUVar5,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text)
+        ;
         if (__this_00 != (UI_ElementStyle_o *)0x0) {
           pSVar3 = (__this_00->fields).ThemePanel;
           if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
           }
-          pUVar7 = UI_UIManager__GetThemeColor
-                             (&local_18,pSVar3,"TextColor","Default",
-                              "DefaultPanel",(MethodInfo *)0x0);
-          if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
-            local_18.fields.r = (pUVar7->fields).r;
-            local_18.fields.g = (pUVar7->fields).g;
-            local_18.fields.b = (pUVar7->fields).b;
-            local_18.fields.a = (pUVar7->fields).a;
-            (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
-                      (pUVar6,&local_18,(pUVar6->klass->vtable)._23_set_color.method);
+          UVar6 = UI_UIManager__GetThemeColor
+                            (pSVar3,"TextColor","Default","DefaultPanel",
+                             (MethodInfo *)0x0);
+          if (text_00 != (UnityEngine_UI_Text_o *)0x0) {
+            (*(text_00->klass->vtable)._23_set_color.methodPtr)
+                      (text_00,UVar6,(text_00->klass->vtable)._23_set_color.method);
+            if ((TypeInfo_UI_LanguageFonts->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_LanguageFonts);
+            }
+            UI_LanguageFonts__SetText(text_00,text,(MethodInfo *)0x0);
             pUVar4 = (__this->fields)._horizontalLine;
             if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
               UnityEngine_Transform__SetAsLastSibling(pUVar4,(MethodInfo *)0x0);
@@ -568,25 +577,25 @@ UI_FeedPanel__CreateLine(UI_FeedPanel_o *__this,System_String_o *text,MethodInfo
 
 // UI.FeedPanel$$.ctor
 // il2cpp: void UI_FeedPanel___ctor (UI_FeedPanel_o* __this, const MethodInfo* method);
-// 0x182245860
+// 0x5d21e90
 
 void UI_FeedPanel___ctor(UI_FeedPanel_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_GameObject__o *__this_00;
   
-  if (Il2CppMethodInitialized_18434725f == '\0') {
+  if (Il2CppMethodInitialized_07547dd4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
-    Il2CppMethodInitialized_18434725f = '\x01';
+    Il2CppMethodInitialized_07547dd4 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._lines = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._lines,__this_00);
-  UI_BasePanel___ctor((UI_BasePanel_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._lines);
+  UI_BasePanel___ctor((UI_SimplePanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

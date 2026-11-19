@@ -103,7 +103,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginLeft
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0xB5B9B0", Offset = "0xB59FB0", VA = "0x180B5B9B0", Slot = "4")]
+		[Address(RVA = "0x699FA90", Offset = "0x699EA90", VA = "0x699FA90", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -114,7 +114,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginRight
 	{
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0xA4D4C0", Offset = "0xA4BAC0", VA = "0x180A4D4C0", Slot = "5")]
+		[Address(RVA = "0x699FAA0", Offset = "0x699EAA0", VA = "0x699FAA0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -125,7 +125,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginTop
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0", Slot = "6")]
+		[Address(RVA = "0x699FAB0", Offset = "0x699EAB0", VA = "0x699FAB0", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -136,7 +136,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginBottom
 	{
 		[Token(Token = "0x600027C")]
-		[Address(RVA = "0xA4D580", Offset = "0xA4BB80", VA = "0x180A4D580", Slot = "7")]
+		[Address(RVA = "0x699FAC0", Offset = "0x699EAC0", VA = "0x699FAC0", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -144,68 +144,68 @@ internal class GUILayoutGroup : GUILayoutEntry
 	}
 
 	[Token(Token = "0x600027D")]
-	[Address(RVA = "0x2FA8DA0", Offset = "0x2FA73A0", VA = "0x182FA8DA0")]
+	[Address(RVA = "0x699FAD0", Offset = "0x699EAD0", VA = "0x699FAD0")]
 	public GUILayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x600027E")]
-	[Address(RVA = "0x2FA67B0", Offset = "0x2FA4DB0", VA = "0x182FA67B0", Slot = "13")]
+	[Address(RVA = "0x699FBE0", Offset = "0x699EBE0", VA = "0x699FBE0", Slot = "13")]
 	public override void ApplyOptions(GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x600027F")]
-	[Address(RVA = "0x2FA68C0", Offset = "0x2FA4EC0", VA = "0x182FA68C0", Slot = "12")]
+	[Address(RVA = "0x699FCC0", Offset = "0x699ECC0", VA = "0x699FCC0", Slot = "12")]
 	protected override void ApplyStyleSettings(GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x6000280")]
-	[Address(RVA = "0x2FA7940", Offset = "0x2FA5F40", VA = "0x182FA7940")]
+	[Address(RVA = "0x699FD40", Offset = "0x699ED40", VA = "0x699FD40")]
 	public void ResetCursor()
 	{
 	}
 
 	[Token(Token = "0x6000281")]
-	[Address(RVA = "0x2FA7690", Offset = "0x2FA5C90", VA = "0x182FA7690")]
+	[Address(RVA = "0x699FD50", Offset = "0x699ED50", VA = "0x699FD50")]
 	public GUILayoutEntry GetNext()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x2FA6700", Offset = "0x2FA4D00", VA = "0x182FA6700")]
+	[Address(RVA = "0x699FF90", Offset = "0x699EF90", VA = "0x699FF90")]
 	public void Add(GUILayoutEntry e)
 	{
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2FA6FB0", Offset = "0x2FA55B0", VA = "0x182FA6FB0", Slot = "8")]
+	[Address(RVA = "0x69A0030", Offset = "0x699F030", VA = "0x69A0030", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x2FA7950", Offset = "0x2FA5F50", VA = "0x182FA7950", Slot = "10")]
+	[Address(RVA = "0x69A0770", Offset = "0x699F770", VA = "0x69A0770", Slot = "10")]
 	public override void SetHorizontal(float x, float width)
 	{
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x2FA6940", Offset = "0x2FA4F40", VA = "0x182FA6940", Slot = "9")]
+	[Address(RVA = "0x69A1200", Offset = "0x69A0200", VA = "0x69A1200", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}
 
 	[Token(Token = "0x6000286")]
-	[Address(RVA = "0x2FA8150", Offset = "0x2FA6750", VA = "0x182FA8150", Slot = "11")]
+	[Address(RVA = "0x69A18E0", Offset = "0x69A08E0", VA = "0x69A18E0", Slot = "11")]
 	public override void SetVertical(float y, float height)
 	{
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x2FA8950", Offset = "0x2FA6F50", VA = "0x182FA8950", Slot = "3")]
+	[Address(RVA = "0x69A23C0", Offset = "0x69A13C0", VA = "0x69A23C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

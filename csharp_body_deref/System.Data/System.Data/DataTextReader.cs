@@ -21,7 +21,7 @@ internal sealed class DataTextReader : XmlReader
 	public override XmlReaderSettings Settings
 	{
 		[Token(Token = "0x60008EF")]
-		[Address(RVA = "0x1C702C0", Offset = "0x1C6E8C0", VA = "0x181C702C0", Slot = "5")]
+		[Address(RVA = "0x5F04EF0", Offset = "0x5F03EF0", VA = "0x5F04EF0", Slot = "5")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ internal sealed class DataTextReader : XmlReader
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60008F0")]
-		[Address(RVA = "0x2547600", Offset = "0x2545C00", VA = "0x182547600", Slot = "6")]
+		[Address(RVA = "0x5F04F20", Offset = "0x5F03F20", VA = "0x5F04F20", Slot = "6")]
 		get
 		{
 			return default(XmlNodeType);
@@ -43,7 +43,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string Name
 	{
 		[Token(Token = "0x60008F1")]
-		[Address(RVA = "0x1CA8960", Offset = "0x1CA6F60", VA = "0x181CA8960", Slot = "7")]
+		[Address(RVA = "0x5F04F50", Offset = "0x5F03F50", VA = "0x5F04F50", Slot = "7")]
 		get
 		{
 			return null;
@@ -54,7 +54,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string LocalName
 	{
 		[Token(Token = "0x60008F2")]
-		[Address(RVA = "0x25475D0", Offset = "0x2545BD0", VA = "0x1825475D0", Slot = "8")]
+		[Address(RVA = "0x5F04F80", Offset = "0x5F03F80", VA = "0x5F04F80", Slot = "8")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string NamespaceURI
 	{
 		[Token(Token = "0x60008F3")]
-		[Address(RVA = "0x1A1F330", Offset = "0x1A1D930", VA = "0x181A1F330", Slot = "9")]
+		[Address(RVA = "0x5F04FB0", Offset = "0x5F03FB0", VA = "0x5F04FB0", Slot = "9")]
 		get
 		{
 			return null;
@@ -76,7 +76,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string Prefix
 	{
 		[Token(Token = "0x60008F4")]
-		[Address(RVA = "0x1A1F420", Offset = "0x1A1DA20", VA = "0x181A1F420", Slot = "10")]
+		[Address(RVA = "0x5F04FE0", Offset = "0x5F03FE0", VA = "0x5F04FE0", Slot = "10")]
 		get
 		{
 			return null;
@@ -87,7 +87,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string Value
 	{
 		[Token(Token = "0x60008F5")]
-		[Address(RVA = "0x1A1F3F0", Offset = "0x1A1D9F0", VA = "0x181A1F3F0", Slot = "11")]
+		[Address(RVA = "0x5F05010", Offset = "0x5F04010", VA = "0x5F05010", Slot = "11")]
 		get
 		{
 			return null;
@@ -98,7 +98,7 @@ internal sealed class DataTextReader : XmlReader
 	public override int Depth
 	{
 		[Token(Token = "0x60008F6")]
-		[Address(RVA = "0x2547540", Offset = "0x2545B40", VA = "0x182547540", Slot = "12")]
+		[Address(RVA = "0x5F05040", Offset = "0x5F04040", VA = "0x5F05040", Slot = "12")]
 		get
 		{
 			return default(int);
@@ -109,7 +109,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string BaseURI
 	{
 		[Token(Token = "0x60008F7")]
-		[Address(RVA = "0x25474E0", Offset = "0x2545AE0", VA = "0x1825474E0", Slot = "13")]
+		[Address(RVA = "0x5F05070", Offset = "0x5F04070", VA = "0x5F05070", Slot = "13")]
 		get
 		{
 			return null;
@@ -120,7 +120,7 @@ internal sealed class DataTextReader : XmlReader
 	public override bool IsEmptyElement
 	{
 		[Token(Token = "0x60008F8")]
-		[Address(RVA = "0x25475A0", Offset = "0x2545BA0", VA = "0x1825475A0", Slot = "14")]
+		[Address(RVA = "0x5F050A0", Offset = "0x5F040A0", VA = "0x5F050A0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -131,7 +131,7 @@ internal sealed class DataTextReader : XmlReader
 	public override bool IsDefault
 	{
 		[Token(Token = "0x60008F9")]
-		[Address(RVA = "0x1A1F3C0", Offset = "0x1A1D9C0", VA = "0x181A1F3C0", Slot = "15")]
+		[Address(RVA = "0x5F050D0", Offset = "0x5F040D0", VA = "0x5F050D0", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -142,7 +142,7 @@ internal sealed class DataTextReader : XmlReader
 	public override char QuoteChar
 	{
 		[Token(Token = "0x60008FA")]
-		[Address(RVA = "0x1A1F300", Offset = "0x1A1D900", VA = "0x181A1F300", Slot = "16")]
+		[Address(RVA = "0x5F05100", Offset = "0x5F04100", VA = "0x5F05100", Slot = "16")]
 		get
 		{
 			return default(char);
@@ -153,7 +153,7 @@ internal sealed class DataTextReader : XmlReader
 	public override XmlSpace XmlSpace
 	{
 		[Token(Token = "0x60008FB")]
-		[Address(RVA = "0x1A1F390", Offset = "0x1A1D990", VA = "0x181A1F390", Slot = "17")]
+		[Address(RVA = "0x5F05130", Offset = "0x5F04130", VA = "0x5F05130", Slot = "17")]
 		get
 		{
 			return default(XmlSpace);
@@ -164,7 +164,7 @@ internal sealed class DataTextReader : XmlReader
 	public override string XmlLang
 	{
 		[Token(Token = "0x60008FC")]
-		[Address(RVA = "0x2547660", Offset = "0x2545C60", VA = "0x182547660", Slot = "18")]
+		[Address(RVA = "0x5F05160", Offset = "0x5F04160", VA = "0x5F05160", Slot = "18")]
 		get
 		{
 			return null;
@@ -175,7 +175,7 @@ internal sealed class DataTextReader : XmlReader
 	public override int AttributeCount
 	{
 		[Token(Token = "0x60008FD")]
-		[Address(RVA = "0x25474B0", Offset = "0x2545AB0", VA = "0x1825474B0", Slot = "21")]
+		[Address(RVA = "0x5F05190", Offset = "0x5F04190", VA = "0x5F05190", Slot = "21")]
 		get
 		{
 			return default(int);
@@ -186,7 +186,7 @@ internal sealed class DataTextReader : XmlReader
 	public override bool EOF
 	{
 		[Token(Token = "0x6000908")]
-		[Address(RVA = "0x2547570", Offset = "0x2545B70", VA = "0x182547570", Slot = "32")]
+		[Address(RVA = "0x5F053A0", Offset = "0x5F043A0", VA = "0x5F053A0", Slot = "32")]
 		get
 		{
 			return default(bool);
@@ -197,7 +197,7 @@ internal sealed class DataTextReader : XmlReader
 	public override ReadState ReadState
 	{
 		[Token(Token = "0x600090A")]
-		[Address(RVA = "0x2547630", Offset = "0x2545C30", VA = "0x182547630", Slot = "34")]
+		[Address(RVA = "0x5F05400", Offset = "0x5F04400", VA = "0x5F05400", Slot = "34")]
 		get
 		{
 			return default(ReadState);
@@ -208,7 +208,7 @@ internal sealed class DataTextReader : XmlReader
 	public override XmlNameTable NameTable
 	{
 		[Token(Token = "0x600090C")]
-		[Address(RVA = "0x1CBA960", Offset = "0x1CB8F60", VA = "0x181CBA960", Slot = "36")]
+		[Address(RVA = "0x5F05460", Offset = "0x5F04460", VA = "0x5F05460", Slot = "36")]
 		get
 		{
 			return null;
@@ -219,7 +219,7 @@ internal sealed class DataTextReader : XmlReader
 	public override bool CanResolveEntity
 	{
 		[Token(Token = "0x600090E")]
-		[Address(RVA = "0x2547510", Offset = "0x2545B10", VA = "0x182547510", Slot = "38")]
+		[Address(RVA = "0x5F054C0", Offset = "0x5F044C0", VA = "0x5F054C0", Slot = "38")]
 		get
 		{
 			return default(bool);
@@ -230,7 +230,7 @@ internal sealed class DataTextReader : XmlReader
 	public override bool CanReadValueChunk
 	{
 		[Token(Token = "0x6000910")]
-		[Address(RVA = "0x1AD5A10", Offset = "0x1AD4010", VA = "0x181AD5A10", Slot = "40")]
+		[Address(RVA = "0x5F05520", Offset = "0x5F04520", VA = "0x5F05520", Slot = "40")]
 		get
 		{
 			return default(bool);
@@ -238,114 +238,114 @@ internal sealed class DataTextReader : XmlReader
 	}
 
 	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x2547250", Offset = "0x2545850", VA = "0x182547250")]
+	[Address(RVA = "0x5F04DE0", Offset = "0x5F03DE0", VA = "0x5F04DE0")]
 	internal static XmlReader CreateReader(XmlReader xr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x2547440", Offset = "0x2545A40", VA = "0x182547440")]
+	[Address(RVA = "0x5F04E80", Offset = "0x5F03E80", VA = "0x5F04E80")]
 	private DataTextReader(XmlReader input)
 	{
 	}
 
 	[Token(Token = "0x60008FE")]
-	[Address(RVA = "0x24447C0", Offset = "0x2442DC0", VA = "0x1824447C0", Slot = "22")]
+	[Address(RVA = "0x5F051C0", Offset = "0x5F041C0", VA = "0x5F051C0", Slot = "22")]
 	public override string GetAttribute(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x25472F0", Offset = "0x25458F0", VA = "0x1825472F0", Slot = "23")]
+	[Address(RVA = "0x5F051F0", Offset = "0x5F041F0", VA = "0x5F051F0", Slot = "23")]
 	public override string GetAttribute(string localName, string namespaceURI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x2547320", Offset = "0x2545920", VA = "0x182547320", Slot = "24")]
+	[Address(RVA = "0x5F05220", Offset = "0x5F04220", VA = "0x5F05220", Slot = "24")]
 	public override string GetAttribute(int i)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x2547350", Offset = "0x2545950", VA = "0x182547350", Slot = "25")]
+	[Address(RVA = "0x5F05250", Offset = "0x5F04250", VA = "0x5F05250", Slot = "25")]
 	public override bool MoveToAttribute(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x8F67D0", Offset = "0x8F4DD0", VA = "0x1808F67D0", Slot = "26")]
+	[Address(RVA = "0x5F05280", Offset = "0x5F04280", VA = "0x5F05280", Slot = "26")]
 	public override void MoveToAttribute(int i)
 	{
 	}
 
 	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x2547380", Offset = "0x2545980", VA = "0x182547380", Slot = "27")]
+	[Address(RVA = "0x5F052B0", Offset = "0x5F042B0", VA = "0x5F052B0", Slot = "27")]
 	public override bool MoveToFirstAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x1AC1C00", Offset = "0x1AC0200", VA = "0x181AC1C00", Slot = "28")]
+	[Address(RVA = "0x5F052E0", Offset = "0x5F042E0", VA = "0x5F052E0", Slot = "28")]
 	public override bool MoveToNextAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x197BE90", Offset = "0x197A490", VA = "0x18197BE90", Slot = "29")]
+	[Address(RVA = "0x5F05310", Offset = "0x5F04310", VA = "0x5F05310", Slot = "29")]
 	public override bool MoveToElement()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000906")]
-	[Address(RVA = "0x25473B0", Offset = "0x25459B0", VA = "0x1825473B0", Slot = "30")]
+	[Address(RVA = "0x5F05340", Offset = "0x5F04340", VA = "0x5F05340", Slot = "30")]
 	public override bool ReadAttributeValue()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000907")]
-	[Address(RVA = "0x2547410", Offset = "0x2545A10", VA = "0x182547410", Slot = "31")]
+	[Address(RVA = "0x5F05370", Offset = "0x5F04370", VA = "0x5F05370", Slot = "31")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x1CBA900", Offset = "0x1CB8F00", VA = "0x181CBA900", Slot = "33")]
+	[Address(RVA = "0x5F053D0", Offset = "0x5F043D0", VA = "0x5F053D0", Slot = "33")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x1AD59E0", Offset = "0x1AD3FE0", VA = "0x181AD59E0", Slot = "35")]
+	[Address(RVA = "0x5F05430", Offset = "0x5F04430", VA = "0x5F05430", Slot = "35")]
 	public override void Skip()
 	{
 	}
 
 	[Token(Token = "0x600090D")]
-	[Address(RVA = "0x1AE50F0", Offset = "0x1AE36F0", VA = "0x181AE50F0", Slot = "37")]
+	[Address(RVA = "0x5F05490", Offset = "0x5F04490", VA = "0x5F05490", Slot = "37")]
 	public override string LookupNamespace(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600090F")]
-	[Address(RVA = "0x1CBA930", Offset = "0x1CB8F30", VA = "0x181CBA930", Slot = "39")]
+	[Address(RVA = "0x5F054F0", Offset = "0x5F044F0", VA = "0x5F054F0", Slot = "39")]
 	public override void ResolveEntity()
 	{
 	}
 
 	[Token(Token = "0x6000911")]
-	[Address(RVA = "0x25473E0", Offset = "0x25459E0", VA = "0x1825473E0", Slot = "42")]
+	[Address(RVA = "0x5F05550", Offset = "0x5F04550", VA = "0x5F05550", Slot = "42")]
 	public override string ReadString()
 	{
 		return null;

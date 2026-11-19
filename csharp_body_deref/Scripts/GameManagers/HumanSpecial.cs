@@ -9,74 +9,74 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000347")]
+[Token(Token = "0x20003A9")]
 internal class HumanSpecial
 {
-	[Token(Token = "0x40010FA")]
+	[Token(Token = "0x40012AA")]
 	public const string Potato = "Potato";
 
-	[Token(Token = "0x40010FB")]
+	[Token(Token = "0x40012AB")]
 	public const string Escape = "Escape";
 
-	[Token(Token = "0x40010FC")]
+	[Token(Token = "0x40012AC")]
 	public const string Dance = "Dance";
 
-	[Token(Token = "0x40010FD")]
+	[Token(Token = "0x40012AD")]
 	public const string Distract = "Distract";
 
-	[Token(Token = "0x40010FE")]
+	[Token(Token = "0x40012AE")]
 	public const string Smell = "Smell";
 
-	[Token(Token = "0x40010FF")]
+	[Token(Token = "0x40012AF")]
 	public const string Supply = "Supply";
 
-	[Token(Token = "0x4001100")]
+	[Token(Token = "0x40012B0")]
 	public const string SmokeBomb = "SmokeBomb";
 
-	[Token(Token = "0x4001101")]
+	[Token(Token = "0x40012B1")]
 	public const string Carry = "Carry";
 
-	[Token(Token = "0x4001102")]
+	[Token(Token = "0x40012B2")]
 	public const string Switchback = "Switchback";
 
-	[Token(Token = "0x4001103")]
+	[Token(Token = "0x40012B3")]
 	public const string Confuse = "Confuse";
 
-	[Token(Token = "0x4001104")]
+	[Token(Token = "0x40012B4")]
 	public const string DownStrike = "DownStrike";
 
-	[Token(Token = "0x4001105")]
+	[Token(Token = "0x40012B5")]
 	public const string Spin1 = "Spin1";
 
-	[Token(Token = "0x4001106")]
+	[Token(Token = "0x40012B6")]
 	public const string Spin2 = "Spin2";
 
-	[Token(Token = "0x4001107")]
+	[Token(Token = "0x40012B7")]
 	public const string Spin3 = "Spin3";
 
-	[Token(Token = "0x4001108")]
+	[Token(Token = "0x40012B8")]
 	public const string BladeThrow = "BladeThrow";
 
-	[Token(Token = "0x4001109")]
+	[Token(Token = "0x40012B9")]
 	public const string AHSSTwinShot = "AHSSTwinShot";
 
-	[Token(Token = "0x400110A")]
+	[Token(Token = "0x40012BA")]
 	public const string Stock = "Stock";
 
-	[Token(Token = "0x400110B")]
+	[Token(Token = "0x40012BB")]
 	public const string None = "None";
 
-	[Token(Token = "0x400110C")]
+	[Token(Token = "0x40012BC")]
 	public const string Eren = "Eren";
 
-	[Token(Token = "0x400110D")]
+	[Token(Token = "0x40012BD")]
 	public const string Annie = "Annie";
 
-	[Token(Token = "0x400110E")]
+	[Token(Token = "0x40012BE")]
 	public const string Armored = "Armored";
 
-	[Token(Token = "0x60014DB")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600175B")]
+	[Address(RVA = "0x5858840", Offset = "0x5857840", VA = "0x5858840")]
 	public HumanSpecial()
 	{
 	}

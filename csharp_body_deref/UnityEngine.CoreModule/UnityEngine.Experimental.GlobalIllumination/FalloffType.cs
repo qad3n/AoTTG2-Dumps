@@ -12,14 +12,14 @@ namespace UnityEngine.Experimental.GlobalIllumination;
 [Token(Token = "0x20003E1")]
 public enum FalloffType : byte
 {
-	[Token(Token = "0x4000CD3")]
+	[Token(Token = "0x4000CD1")]
 	InverseSquared,
-	[Token(Token = "0x4000CD4")]
+	[Token(Token = "0x4000CD2")]
 	InverseSquaredNoRangeAttenuation,
-	[Token(Token = "0x4000CD5")]
+	[Token(Token = "0x4000CD3")]
 	Linear,
-	[Token(Token = "0x4000CD6")]
+	[Token(Token = "0x4000CD4")]
 	Legacy,
-	[Token(Token = "0x4000CD7")]
+	[Token(Token = "0x4000CD5")]
 	Undefined
 }

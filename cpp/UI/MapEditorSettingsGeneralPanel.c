@@ -1,5 +1,5 @@
 // Type: UI.MapEditorSettingsGeneralPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/MapEditorSettingsGeneralPanel.cs
@@ -8,10 +8,10 @@
 
 // UI.MapEditorSettingsGeneralPanel$$get_DoublePanel
 // il2cpp: bool UI_MapEditorSettingsGeneralPanel__get_DoublePanel (UI_MapEditorSettingsGeneralPanel_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5d9a6d0
 
-bool
-UI_MapEditorSettingsGeneralPanel__get_DoublePanel(UI_MapEditorSettingsGeneralPanel_o* __this, MethodInfo* method)
+bool UI_MapEditorSettingsGeneralPanel__get_DoublePanel
+               (UI_MapEditorSettingsGeneralPanel_o *__this,MethodInfo *method)
 
 {
   return true;
@@ -20,7 +20,7 @@ UI_MapEditorSettingsGeneralPanel__get_DoublePanel(UI_MapEditorSettingsGeneralPan
 
 // UI.MapEditorSettingsGeneralPanel$$Setup
 // il2cpp: void UI_MapEditorSettingsGeneralPanel__Setup (UI_MapEditorSettingsGeneralPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x1822d1d40
+// 0x5d9a6e0
 
 void UI_MapEditorSettingsGeneralPanel__Setup
                (UI_MapEditorSettingsGeneralPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
@@ -36,8 +36,10 @@ void UI_MapEditorSettingsGeneralPanel__Setup
   System_String_o *pSVar5;
   UI_ElementStyle_o *__this_00;
   System_String_o *pSVar6;
+  MethodInfo *in_R9;
+  MethodInfo *pMVar7;
   
-  if (Il2CppMethodInitialized_1843475c5 == '\0') {
+  if (Il2CppMethodInitialized_07548080 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_MapEditorSettingsPopup);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
@@ -55,14 +57,14 @@ void UI_MapEditorSettingsGeneralPanel__Setup
     il2cpp_codegen_initialize_runtime_metadata(&"CameraSlowMoveSpeed");
     il2cpp_codegen_initialize_runtime_metadata(&"");
     il2cpp_codegen_initialize_runtime_metadata(&"SnapRotate");
-    Il2CppMethodInitialized_1843475c5 = '\x01';
+    Il2CppMethodInitialized_07548080 = '\x01';
   }
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
   pSVar6 = "General";
   if (parent != (UI_BasePanel_o *)0x0) {
     bVar1 = (TypeInfo_UI_MapEditorSettingsPopup->_2).typeHierarchyDepth;
     if (((parent->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((parent->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+       ((parent->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
         (Il2CppClass *)TypeInfo_UI_MapEditorSettingsPopup)) {
       il2cpp_codegen_raise_invalid_cast_exception(parent);
     }
@@ -80,7 +82,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       }
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"CameraMoveSpeed","","",
-                          (MethodInfo *)0x0);
+                          in_R9);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -89,7 +92,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).CameraSlowMoveSpeed;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"CameraSlowMoveSpeed","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -98,7 +102,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).CameraFastMoveSpeed;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"CameraFastMoveSpeed","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -107,7 +112,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).CameraRotateSpeed;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"CameraRotateSpeed","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -116,7 +122,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       setting = (pSVar2->fields).RenderDistance;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"RenderDistance","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)setting,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -125,7 +132,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).SnapMove;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"SnapMove","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -134,7 +142,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).SnapRotate;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"SnapRotate","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -143,7 +152,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).SnapScale;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"SnapScale","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -152,7 +162,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).PlacementDistance;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"PlacementDistance","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar5,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -161,7 +172,8 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       setting_00 = (pSVar2->fields).PlaceOnFirstSurface;
       pSVar5 = UI_UIManager__GetLocale
                          (category,pSVar6,"PlaceOnFirstSurface","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
+      pMVar7 = (MethodInfo *)0x0;
       UI_ElementFactory__CreateToggleSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)setting_00,pSVar5,"",30.0,30.0,
                  (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
@@ -169,7 +181,7 @@ void UI_MapEditorSettingsGeneralPanel__Setup
       pSVar4 = (pSVar2->fields).HUDScale;
       pSVar6 = UI_UIManager__GetLocale
                          (category,pSVar6,"HUDScale","","",
-                          (MethodInfo *)0x0);
+                          pMVar7);
       UI_ElementFactory__CreateInputSetting
                 (pUVar3,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar6,"",120.0,40.0,
                  false,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
@@ -183,13 +195,12 @@ void UI_MapEditorSettingsGeneralPanel__Setup
 
 // UI.MapEditorSettingsGeneralPanel$$.ctor
 // il2cpp: void UI_MapEditorSettingsGeneralPanel___ctor (UI_MapEditorSettingsGeneralPanel_o* __this, const MethodInfo* method);
-// 0x181da8ae0
+// 0x5d9ade0
 
-void
-UI_MapEditorSettingsGeneralPanel___ctor(UI_MapEditorSettingsGeneralPanel_o* __this, MethodInfo* method)
+void UI_MapEditorSettingsGeneralPanel___ctor(UI_MapEditorSettingsGeneralPanel_o *__this,MethodInfo *method)
 
 {
-  UI_CategoryPanel___ctor((UI_TopLeftHUD_o *)__this,(MethodInfo *)0x0);
+  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

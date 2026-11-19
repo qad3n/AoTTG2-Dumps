@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200026B")]
+[Token(Token = "0x2000243")]
 public enum TaskStatus
 {
-	[Token(Token = "0x4000ADA")]
+	[Token(Token = "0x4000A38")]
 	Created,
-	[Token(Token = "0x4000ADB")]
+	[Token(Token = "0x4000A39")]
 	WaitingForActivation,
-	[Token(Token = "0x4000ADC")]
+	[Token(Token = "0x4000A3A")]
 	WaitingToRun,
-	[Token(Token = "0x4000ADD")]
+	[Token(Token = "0x4000A3B")]
 	Running,
-	[Token(Token = "0x4000ADE")]
+	[Token(Token = "0x4000A3C")]
 	WaitingForChildrenToComplete,
-	[Token(Token = "0x4000ADF")]
+	[Token(Token = "0x4000A3D")]
 	RanToCompletion,
-	[Token(Token = "0x4000AE0")]
+	[Token(Token = "0x4000A3E")]
 	Canceled,
-	[Token(Token = "0x4000AE1")]
+	[Token(Token = "0x4000A3F")]
 	Faulted
 }

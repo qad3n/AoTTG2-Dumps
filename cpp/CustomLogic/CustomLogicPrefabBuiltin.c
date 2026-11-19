@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicPrefabBuiltin
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicPrefabBuiltin.cs
@@ -8,179 +8,119 @@
 
 // CustomLogic.CustomLogicPrefabBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicPrefabBuiltin_o* CustomLogic_CustomLogicPrefabBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x181f7bc50
-// asm: 14 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181f7be8c: xor edx, edx
-// asm:   0x181f7be8e: mov rcx, rdi
-// asm:   0x181f7be91: call 0x18209af90  ; CustomLogic_BuiltinClassInstance___ctor()
-// asm:   0x181f7be96: mov rcx, qword ptr [rip + 0x214512b]  ; TypeInfo_Map_MapScriptSceneObject
-// asm:   0x181f7be9d: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
-// asm:   0x181f7bea2: xor edx, edx
-// asm:   0x181f7bea4: mov rcx, rax
-// asm:   0x181f7bea7: mov rbx, rax
-// asm:   0x181f7beaa: call 0x181eda710  ; Map_MapScriptSceneObject___ctor()
-// asm:   0x181f7beaf: lea rcx, [rdi + 0x30]
-// asm:   0x181f7beb3: mov qword ptr [rdi + 0x30], rbx
-// asm:   0x181f7beb7: mov rdx, rbx
-// asm:   0x181f7beba: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
-// asm:   0x181f7bebf: jmp 0x181f7be28
+// 0x5a3c710
 
 CustomLogic_CustomLogicPrefabBuiltin_o *
 CustomLogic_CustomLogicPrefabBuiltin_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
-  uint uVar1;
-  Il2CppObject *pIVar2;
-  bool bVar3;
-  System_String_o *pSVar4;
-  CustomLogic_CustomLogicPrefabBuiltin_o *pCVar5;
-  System_String_array *value;
-  Map_MapScriptSceneObject_o *pMVar6;
-  System_String_o *str2;
+  Il2CppObject *pIVar1;
+  bool clearComponents;
+  System_String_o *pSVar2;
+  CustomLogic_CustomLogicPrefabBuiltin_o *__this;
   System_String_o *str0;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_ArgumentException_o *__this;
+  System_ArgumentException_o *__this_00;
   MethodInfo *lastManagedFrame;
-  int32_t local_res8 [2];
+  MethodInfo *in_RCX;
+  int32_t local_24;
   
-  if (Il2CppMethodInitialized_1843457aa == '\0') {
+  if (Il2CppMethodInitialized_07546162 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin);
-    Il2CppMethodInitialized_1843457aa = '\x01';
+    Il2CppMethodInitialized_07546162 = '\x01';
   }
-  local_res8[0] = 0;
-  if (args != (System_Object_array *)0x0) {
-    if (args->max_length == 0) {
-      pCVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin);
-      if (Il2CppMethodInitialized_1843457a3 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptSceneObject);
-        Il2CppMethodInitialized_1843457a3 = '\x01';
-      }
-      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-      }
-      CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar5,(MethodInfo *)0x0);
-      pMVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
-      Map_MapScriptSceneObject___ctor(pMVar6,(MethodInfo *)0x0);
-      (pCVar5->fields).Value = pMVar6;
-      Il2CppCodeGenWriteBarrier(&(pCVar5->fields).Value,pMVar6);
-      return pCVar5;
-    }
+  if (args == (System_Object_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (args->max_length == 0) {
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin);
+    CustomLogic_CustomLogicPrefabBuiltin___ctor(__this,method);
+  }
+  else {
     if ((int)args->max_length != 2) {
       NullCheck(args);
-      local_res8[0] = (int32_t)args->max_length;
-      pSVar4 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-      str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+      pSVar2 = System_Int32__ToString(&local_24,(MethodInfo *)0x0);
       str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicPrefabBuiltin constructor found that takes ");
-      pSVar4 = System_String__Concat_1969b70(str0,pSVar4,str2,(MethodInfo *)0x0);
+      str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+      pSVar2 = System_String__Concat_5301f10(str0,pSVar2,str2,(MethodInfo *)0x0);
       klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
-      __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-      System_ArgumentException___ctor_1a77cc0(__this,pSVar4,(MethodInfo *)0x0);
+      __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+      System_ArgumentException___ctor_54186d0(__this_00,pSVar2,(MethodInfo *)0x0);
       lastManagedFrame =
            il2cpp_codegen_get_runtime_metadata
                      (&MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Factory_CreateInstance);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
     }
-    if ((int)args->max_length == 0) {
-label_181f7bf54:
-      ThrowIndexOutOfRangeException();
-    }
-    pIVar2 = args->m_Items[0];
+    pIVar1 = args->m_Items[0];
     if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    pSVar4 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                       (pIVar2,(MethodInfo_66EB70 *)
+    pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (pIVar1,(MethodInfo_34BDE00 *)
                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
-    bVar3 = false;
-    uVar1 = (uint)args->max_length;
-    if (1 < (int)uVar1) {
-      if (uVar1 < 2) goto label_181f7bf54;
-      pIVar2 = args->m_Items[1];
+    if ((int)args->max_length < 2) {
+      clearComponents = false;
+    }
+    else {
+      pIVar1 = args->m_Items[1];
       if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
       }
-      bVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        (pIVar2,(MethodInfo_66E400 *)
-                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+      clearComponents =
+           CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
+                     (pIVar1,(MethodInfo_34BD860 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool)
+      ;
     }
-    pCVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin);
-    if (Il2CppMethodInitialized_1843457a4 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptSceneObject);
-      il2cpp_codegen_initialize_runtime_metadata(&"");
-      Il2CppMethodInitialized_1843457a4 = '\x01';
-    }
-    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
-    }
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar5,(MethodInfo *)0x0);
-    if (pSVar4 != (System_String_o *)0x0) {
-      value = System_String__Split(pSVar4,10,0,(MethodInfo *)0x0);
-      pSVar4 = System_String__Join("",value,(MethodInfo *)0x0);
-      pMVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
-      Map_MapScriptSceneObject___ctor(pMVar6,(MethodInfo *)0x0);
-      (pCVar5->fields).Value = pMVar6;
-      Il2CppCodeGenWriteBarrier(&(pCVar5->fields).Value,pMVar6);
-      pMVar6 = (pCVar5->fields).Value;
-      if (pMVar6 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar6->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar6,pSVar4,(pMVar6->klass->vtable)._9_Deserialize.method);
-        if (bVar3 == false) {
-          return pCVar5;
-        }
-        CustomLogic_CustomLogicPrefabBuiltin__ClearComponents(pCVar5,(MethodInfo *)0x0);
-        return pCVar5;
-      }
-    }
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin);
+    CustomLogic_CustomLogicPrefabBuiltin___ctor_593bd60(__this,pSVar2,clearComponents,in_RCX);
   }
-  ThrowNullReferenceException();
+  return __this;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings.<>c$$.cctor
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings___c___cctor (const MethodInfo* method);
-// 0x181f807b0
+// 0x5a3e7c0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings___c___cctor(MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o *__this;
+  Il2CppObject *__this;
   
-  if (Il2CppMethodInitialized_1843457c6 == '\0') {
+  if (Il2CppMethodInitialized_0754617e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843457c6 = '\x01';
+    Il2CppMethodInitialized_0754617e = '\x01';
   }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-  TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9 = __this;
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9,__this);
+  __this = (Il2CppObject *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
+  System_Object___ctor(__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9 =
+       (CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o *)__this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9);
   return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings.<>c$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings___c___ctor (CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5a3e830
 
-void
-CustomLogic_CustomLogicPrefabBuiltin_Bindings___c___ctor(CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o* __this, MethodInfo* method)
+void CustomLogic_CustomLogicPrefabBuiltin_Bindings___c___ctor
+               (CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings.<>c$$<__CreateMethodBinding__ClearComponents>b__14_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_____CreateMethodBinding__ClearComponents_b__14_0 (CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicPrefabBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x181f7cb60
+// 0x5a3e840
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_____CreateMethodBinding__ClearComponents_b__14_0
@@ -188,37 +128,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_____CreateMethodBinding__Clear
           CustomLogic_CustomLogicPrefabBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  if (__c != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
-    CustomLogic_CustomLogicPrefabBuiltin__ClearComponents(__c,(MethodInfo *)0x0);
-    return (Il2CppObject *)0x0;
+  if (__c == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicPrefabBuiltin__ClearComponents(__c,(MethodInfo *)__c);
+  return (Il2CppObject *)0x0;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x181f5e520
+// 0x5a3c8b0
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
-  Il2CppObject *object;
   bool bVar1;
   uint32_t uVar2;
-  System_Func_CustomLogicPrefabBuiltin__object__o *__this;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *__this_00;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this_01;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_02;
-  CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_03;
-  System_String_o *pSVar3;
-  System_String_o *str0;
+  CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *pCVar3;
+  CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin__o *pCVar4;
+  System_String_o *pSVar5;
+  System_String_o *str2;
   Il2CppClass *klass;
-  System_Exception_o *__this_04;
-  MethodInfo *pMVar4;
+  System_Exception_o *__this;
+  MethodInfo *lastManagedFrame;
+  CustomLogic_CustomLogicPrefabBuiltin_Bindings_c *pCVar6;
   
-  if (Il2CppMethodInitialized_1843457ab == '\0') {
+  if (Il2CppMethodInitialized_07546163 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&"Asset");
     il2cpp_codegen_initialize_runtime_metadata(&"Scale");
@@ -233,7 +170,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding(System_String
     il2cpp_codegen_initialize_runtime_metadata(&"CollideWith");
     il2cpp_codegen_initialize_runtime_metadata(&"ClearComponents");
     il2cpp_codegen_initialize_runtime_metadata(&"PhysicsMaterial");
-    Il2CppMethodInitialized_1843457ab = '\x01';
+    Il2CppMethodInitialized_07546163 = '\x01';
   }
   uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
   if (uVar2 < 0x28528e12) {
@@ -242,123 +179,48 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding(System_String
         bVar1 = System_String__op_Equality(name,"Rotation",(MethodInfo *)0x0);
         if (bVar1) {
           if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+            pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
-          if (Il2CppMethodInitialized_1843457b3 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____getter_9_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____setter_9_1
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-            Il2CppMethodInitialized_1843457b3 = '\x01';
-          }
-          __this = il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          System_Func_object__object____ctor
-                    ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                     (intptr_t)
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____getter_9_0
-                     ,(MethodInfo_16E67D0 *)0x0);
-          __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____setter_9_1
-          ;
-          goto label_181f5f110;
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation
+                             ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
       else if (uVar2 == 0xfe07306) {
         bVar1 = System_String__op_Equality(name,"Name",(MethodInfo *)0x0);
         if (bVar1) {
           if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+            pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
-          if (Il2CppMethodInitialized_1843457b1 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____getter_7_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____setter_7_1
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-            Il2CppMethodInitialized_1843457b1 = '\x01';
-          }
-          __this = il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          System_Func_object__object____ctor
-                    ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                     (intptr_t)
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____getter_7_0
-                     ,(MethodInfo_16E67D0 *)0x0);
-          __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____setter_7_1
-          ;
-          goto label_181f5f110;
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name
+                             ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
       else if (uVar2 == 0x18a43c5b) {
         bVar1 = System_String__op_Equality(name,"Static",(MethodInfo *)0x0);
         if (bVar1) {
           if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
             il2cpp_codegen_runtime_class_init
                       ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+            pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static
+                               ((MethodInfo *)pCVar6);
+            return (CustomLogic_ICLMemberBinding_o *)pCVar3;
           }
-          if (Il2CppMethodInitialized_1843457af == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____getter_5_0
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&
-                       MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____setter_5_1
-                      );
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-            il2cpp_codegen_initialize_runtime_metadata
-                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-            Il2CppMethodInitialized_1843457af = '\x01';
-          }
-          __this = il2cpp_codegen_object_new
-                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          System_Func_object__object____ctor
-                    ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                     (intptr_t)
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____getter_5_0
-                     ,(MethodInfo_16E67D0 *)0x0);
-          __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          pMVar4 = 
-          MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____setter_5_1
-          ;
-          goto label_181f5f110;
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static
+                             ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
       }
     }
@@ -366,120 +228,48 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding(System_String
       bVar1 = System_String__op_Equality(name,"Active",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843457ae == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____getter_4_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____setter_4_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457ae = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____getter_4_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____setter_4_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x23922d03) {
       bVar1 = System_String__op_Equality(name,"AssetType",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetType
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843457ac == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____getter_2_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____setter_2_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457ac = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____getter_2_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____setter_2_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetType
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x28528e11) {
       bVar1 = System_String__op_Equality(name,"Scale",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843457b4 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____getter_10_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____setter_10_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457b4 = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____getter_10_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____setter_10_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
   }
@@ -488,151 +278,48 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings__CreateMemberBinding(System_String
       bVar1 = System_String__op_Equality(name,"CollideMode",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideMode
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843457b5 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____getter_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____setter_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457b5 = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____getter_1
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____setter_1
-        ;
-label_181f5f110:
-        System_Action_object__object____ctor
-                  (__this_00,(Il2CppObject *)0x0,(intptr_t)pMVar4,(MethodInfo *)0x0);
-        __this_03 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin)
-        ;
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)__this_03,(System_Func_T__object__o *)__this,
-                   (System_Action_T__object__o *)__this_00,
-                   (MethodInfo_12B8EE0 *)
-                   MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-        return (CustomLogic_ICLMemberBinding_o *)__this_03;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideMode
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x592a4941) {
       bVar1 = System_String__op_Equality(name,"Visible",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar3;
         }
-        if (Il2CppMethodInitialized_1843457b0 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____getter_6_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____setter_6_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457b0 = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____getter_6_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____setter_6_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x6f79efb6) {
       bVar1 = System_String__op_Equality(name,"ClearComponents",(MethodInfo *)0x0);
       if (bVar1) {
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+          pCVar4 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreateMethodBinding__ClearComponents
+                             ((MethodInfo *)pCVar6);
+          return (CustomLogic_ICLMemberBinding_o *)pCVar4;
         }
-        if (Il2CppMethodInitialized_1843457b8 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object_array_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c___CreateMethodBinding__ClearComponents_b__14_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-          Il2CppMethodInitialized_1843457b8 = '\x01';
-        }
-        if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init
-                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-        }
-        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                    TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0;
-        if (__this_01 == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-          if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
-          {
-            il2cpp_codegen_runtime_class_init
-                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-          }
-          object = (Il2CppObject *)
-                   TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9;
-          __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-                      il2cpp_codegen_object_new
-                                ((Il2CppClass *)
-                                 TypeInfo_System_Func_CustomLogicPrefabBuiltin_object_array_object);
-          System_Func_object__object__object____ctor
-                    (__this_01,object,
-                     (intptr_t)
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c___CreateMethodBinding__ClearComponents_b__14_0
-                     ,(MethodInfo *)0x0);
-          TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0 =
-               (System_Func_CustomLogicPrefabBuiltin__object____object__o *)__this_01;
-          Il2CppCodeGenWriteBarrier
-                    (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0,
-                     __this_01);
-        }
-        __this_02 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  (__this_02,(System_String_o *)__this_01,
-                   MethodInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin_ctor);
-        return (CustomLogic_ICLMemberBinding_o *)__this_02;
+        pCVar4 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreateMethodBinding__ClearComponents
+                           ((MethodInfo *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar4;
       }
     }
   }
@@ -640,177 +327,72 @@ label_181f5f110:
     if (uVar2 == 0x829f123b) {
       bVar1 = System_String__op_Equality(name,"Asset",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843457ad == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____getter_3_0
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____setter_3_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457ad = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____getter_3_0
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____setter_3_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Asset
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
     else if (uVar2 == 0x94e7d8c1) {
       bVar1 = System_String__op_Equality(name,"CollideWith",(MethodInfo *)0x0);
       if (bVar1) {
+        pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
         if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init
                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
         }
-        if (Il2CppMethodInitialized_1843457b6 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____getter_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&
-                     MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____setter_1
-                    );
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-          Il2CppMethodInitialized_1843457b6 = '\x01';
-        }
-        __this = il2cpp_codegen_object_new
-                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        System_Func_object__object____ctor
-                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                   (intptr_t)
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____getter_1
-                   ,(MethodInfo_16E67D0 *)0x0);
-        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                    il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        pMVar4 = 
-        MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____setter_1
-        ;
-        goto label_181f5f110;
+        pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideWith
+                           ((MethodInfo *)pCVar6);
+        return (CustomLogic_ICLMemberBinding_o *)pCVar3;
       }
     }
   }
   else if (uVar2 == 0xa3dd2697) {
     bVar1 = System_String__op_Equality(name,"PhysicsMaterial",(MethodInfo *)0x0);
     if (bVar1) {
+      pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
       if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init
                   ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
       }
-      if (Il2CppMethodInitialized_1843457b7 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____gett
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____sett
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        Il2CppMethodInitialized_1843457b7 = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____gett
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-      pMVar4 = 
-      MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____sett
-      ;
-      goto label_181f5f110;
+      pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__PhysicsMaterial
+                         ((MethodInfo *)pCVar6);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
     }
   }
   else if (uVar2 == 0xe27f342a) {
     bVar1 = System_String__op_Equality(name,"Position",(MethodInfo *)0x0);
     if (bVar1) {
+      pCVar6 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings;
       if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init
                   ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
       }
-      if (Il2CppMethodInitialized_1843457b2 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____getter_8_0
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____setter_8_1
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-        Il2CppMethodInitialized_1843457b2 = '\x01';
-      }
-      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-      System_Func_object__object____ctor
-                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
-                 (intptr_t)
-                 MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____getter_8_0
-                 ,(MethodInfo_16E67D0 *)0x0);
-      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
-                  il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
-      pMVar4 = 
-      MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____setter_8_1
-      ;
-      goto label_181f5f110;
+      pCVar3 = CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Position
+                         ((MethodInfo *)pCVar6);
+      return (CustomLogic_ICLMemberBinding_o *)pCVar3;
     }
   }
-  pSVar3 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicPrefabBuiltin not found");
-  str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
-  pSVar3 = System_String__Concat_1969b70(str0,name,pSVar3,(MethodInfo *)0x0);
+  pSVar5 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  str2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicPrefabBuiltin not found");
+  pSVar5 = System_String__Concat_5301f10(pSVar5,name,str2,(MethodInfo *)0x0);
   klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-  __this_04 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-  System_Exception___ctor_1b6abf0(__this_04,pSVar3,(MethodInfo *)0x0);
-  pMVar4 = il2cpp_codegen_get_runtime_metadata
-                     (&MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_CreateMemberBinding);
-  il2cpp_codegen_raise_exception((Il2CppObject *)__this_04,pMVar4);
+  __this = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_54fa440(__this,pSVar5,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__AssetType
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetType (const MethodInfo* method);
-// 0x181f6af80
+// 0x5a3ce70
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetType(MethodInfo *method)
@@ -820,7 +402,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetTyp
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457ac == '\0') {
+  if (Il2CppMethodInitialized_07546164 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -835,35 +417,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__AssetTyp
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457ac = '\x01';
+    Il2CppMethodInitialized_07546164 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____getter_2_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__AssetType_g____setter_2_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Asset
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Asset (const MethodInfo* method);
-// 0x181f6b070
+// 0x5a3cf50
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Asset(MethodInfo *method)
@@ -873,7 +454,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Asset(Me
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457ad == '\0') {
+  if (Il2CppMethodInitialized_07546165 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -888,35 +469,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Asset(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457ad = '\x01';
+    Il2CppMethodInitialized_07546165 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____getter_3_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Asset_g____setter_3_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Active
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active (const MethodInfo* method);
-// 0x181f6ada0
+// 0x5a3d030
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active(MethodInfo *method)
@@ -926,7 +506,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active(M
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457ae == '\0') {
+  if (Il2CppMethodInitialized_07546166 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -941,35 +521,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Active(M
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457ae = '\x01';
+    Il2CppMethodInitialized_07546166 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____getter_4_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Active_g____setter_4_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Static
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static (const MethodInfo* method);
-// 0x181f6dfa0
+// 0x5a3d110
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static(MethodInfo *method)
@@ -979,7 +558,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static(M
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457af == '\0') {
+  if (Il2CppMethodInitialized_07546167 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -994,35 +573,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Static(M
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457af = '\x01';
+    Il2CppMethodInitialized_07546167 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____getter_5_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Static_g____setter_5_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Visible
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible (const MethodInfo* method);
-// 0x181f6ec70
+// 0x5a3d1f0
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible(MethodInfo *method)
@@ -1032,7 +610,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible(
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b0 == '\0') {
+  if (Il2CppMethodInitialized_07546168 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1047,35 +625,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Visible(
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b0 = '\x01';
+    Il2CppMethodInitialized_07546168 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____getter_6_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Visible_g____setter_6_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Name
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name (const MethodInfo* method);
-// 0x181f6c9c0
+// 0x5a3d2d0
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name(MethodInfo *method)
@@ -1085,7 +662,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name(Met
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b1 == '\0') {
+  if (Il2CppMethodInitialized_07546169 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1100,35 +677,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Name(Met
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b1 = '\x01';
+    Il2CppMethodInitialized_07546169 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____getter_7_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Name_g____setter_7_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Position
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Position (const MethodInfo* method);
-// 0x181f6d190
+// 0x5a3d3b0
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Position(MethodInfo *method)
@@ -1138,7 +714,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Position
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b2 == '\0') {
+  if (Il2CppMethodInitialized_0754616a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1153,35 +729,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Position
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b2 = '\x01';
+    Il2CppMethodInitialized_0754616a = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____getter_8_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Position_g____setter_8_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Rotation
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation (const MethodInfo* method);
-// 0x181f6d6e0
+// 0x5a3d490
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation(MethodInfo *method)
@@ -1191,7 +766,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b3 == '\0') {
+  if (Il2CppMethodInitialized_0754616b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1206,35 +781,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Rotation
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b3 = '\x01';
+    Il2CppMethodInitialized_0754616b = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____getter_9_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Rotation_g____setter_9_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__Scale
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale (const MethodInfo* method);
-// 0x181f6daa0
+// 0x5a3d570
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale(MethodInfo *method)
@@ -1244,7 +818,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale(Me
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b4 == '\0') {
+  if (Il2CppMethodInitialized_0754616c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1259,35 +833,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__Scale(Me
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b4 = '\x01';
+    Il2CppMethodInitialized_0754616c = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____getter_10_0
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__Scale_g____setter_10_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__CollideMode
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideMode (const MethodInfo* method);
-// 0x181f6b570
+// 0x5a3d650
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideMode(MethodInfo *method)
@@ -1297,7 +870,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideM
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b5 == '\0') {
+  if (Il2CppMethodInitialized_0754616d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1312,35 +885,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideM
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b5 = '\x01';
+    Il2CppMethodInitialized_0754616d = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____getter_1
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideMode_g____setter_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__CollideWith
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideWith (const MethodInfo* method);
-// 0x181f6b660
+// 0x5a3d730
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideWith(MethodInfo *method)
@@ -1350,7 +922,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideW
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b6 == '\0') {
+  if (Il2CppMethodInitialized_0754616e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1365,35 +937,34 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__CollideW
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b6 = '\x01';
+    Il2CppMethodInitialized_0754616e = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____getter_1
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__CollideWith_g____setter_1
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreatePropertyBinding__PhysicsMaterial
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__PhysicsMaterial (const MethodInfo* method);
-// 0x181f6cf10
+// 0x5a3d810
 
 CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__PhysicsMaterial(MethodInfo *method)
@@ -1403,7 +974,7 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__PhysicsM
   System_Action_CustomLogicPrefabBuiltin__object__o *__this_00;
   CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin__o *__this_01;
   
-  if (Il2CppMethodInitialized_1843457b7 == '\0') {
+  if (Il2CppMethodInitialized_0754616f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicPrefabBuiltin_object);
     il2cpp_codegen_initialize_runtime_metadata
               (&
@@ -1418,45 +989,48 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreatePropertyBinding__PhysicsM
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
-    Il2CppMethodInitialized_1843457b7 = '\x01';
+    Il2CppMethodInitialized_0754616f = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object);
   System_Func_object__object____ctor
-            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+            ((System_Func_object__object__o *)__this,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____gett
-             ,(MethodInfo_16E67D0 *)0x0);
+             ,(MethodInfo_4F19B50 *)0x0);
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_CustomLogicPrefabBuiltin_object)
   ;
-  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler___ctor_129b060
-            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
-             (Il2CppObject *)0x0,
+  System_Action_object__object____ctor
+            ((System_Action_object__object__o *)__this_00,(Il2CppObject *)0x0,
              (intptr_t)
              MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings___CreatePropertyBinding__PhysicsMaterial_g____sett
-             ,(MethodInfo *)0x0);
+             ,(MethodInfo_4A89FC0 *)0x0);
   __this_01 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
             ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
              (System_Action_T__object__o *)__this_00,
-             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
+             (MethodInfo_48379A0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicPrefabBuiltin_ctor);
   return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$__CreateMethodBinding__ClearComponents
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin__o* CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreateMethodBinding__ClearComponents (const MethodInfo* method);
-// 0x181f67f60
+// 0x5a3d8f0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5a3d925: jmp 0x5a3d995
 
 CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin__o *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreateMethodBinding__ClearComponents(MethodInfo *method)
 
 {
+  uint32_t uVar1;
   Il2CppObject *object;
-  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
-  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  CustomLogic_CustomLogicPrefabBuiltin_Bindings___c_StaticFields *pCVar2;
+  System_Func_CustomLogicPrefabBuiltin__object____object__o *__this;
+  CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843457b8 == '\0') {
+  if (Il2CppMethodInitialized_07546170 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin)
@@ -1468,53 +1042,60 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings____CreateMethodBinding__ClearCompo
                MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c___CreateMethodBinding__ClearComponents_b__14_0
               );
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
-    Il2CppMethodInitialized_1843457b8 = '\x01';
+    Il2CppMethodInitialized_07546170 = '\x01';
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
   }
-  if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c)
     ;
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields;
+    __this = pCVar2->__9__14_0;
   }
-  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-           TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0;
-  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
-    if ((TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    pCVar2 = ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c)->static_fields;
+    __this = pCVar2->__9__14_0;
+  }
+  if (__this == (System_Func_CustomLogicPrefabBuiltin__object____object__o *)0x0) {
+    if ((((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c)->_2).
+        cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init
                 ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c);
+      pCVar2 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields;
     }
-    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9;
-    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
-             il2cpp_codegen_object_new
+    object = (Il2CppObject *)pCVar2->__9;
+    __this = il2cpp_codegen_object_new
                        ((Il2CppClass *)TypeInfo_System_Func_CustomLogicPrefabBuiltin_object_array_object);
     System_Func_object__object__object____ctor
-              (__this,object,
+              ((System_Func_object__object__object__o *)__this,object,
                (intptr_t)
                MethodInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c___CreateMethodBinding__ClearComponents_b__14_0
-               ,(MethodInfo *)0x0);
-    TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0 =
-         (System_Func_CustomLogicPrefabBuiltin__object____object__o *)__this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields->__9__14_0,__this);
+               ,(MethodInfo_4F20F30 *)0x0);
+    pCVar2 = TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings_c->static_fields;
+    pCVar2->__9__14_0 = __this;
+    Il2CppCodeGenWriteBarrier(&pCVar2->__9__14_0);
   }
-  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
-              il2cpp_codegen_object_new
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin);
   CustomLogic_CLMethodBinding_object____ctor
-            (__this_00,(System_String_o *)__this,
-             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin_ctor);
-  return (CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin__o *)__this_00;
+            ((CustomLogic_CLMethodBinding_T__o *)__this_00,(System_Func_T__object____object__o *)__this,
+             (MethodInfo_48378E0 *)MethodInfo_CustomLogic_CLMethodBinding_CustomLogicPrefabBuiltin_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x181f6ef40
+// 0x5a3da30
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_HashSet_string__o *__this;
   
-  if (Il2CppMethodInitialized_1843457b9 == '\0') {
+  if (Il2CppMethodInitialized_07546171 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
@@ -1533,85 +1114,86 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"CollideWith");
     il2cpp_codegen_initialize_runtime_metadata(&"ClearComponents");
     il2cpp_codegen_initialize_runtime_metadata(&"PhysicsMaterial");
-    Il2CppMethodInitialized_1843457b9 = '\x01';
+    Il2CppMethodInitialized_07546171 = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
   System_Collections_Generic_HashSet_object____ctor
             ((System_Collections_Generic_HashSet_object__o *)__this,
-             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
-  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PersistsOwnership",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AssetType",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Asset",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Active",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Static",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Visible",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Name",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Position",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Rotation",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Scale",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"CollideMode",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"CollideWith",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PhysicsMaterial",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    System_Collections_Generic_HashSet_object___Add
-              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"ClearComponents",
-               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
-    TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->static_fields->MemberNames = __this;
-    Il2CppCodeGenWriteBarrier
-              (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->static_fields->MemberNames,__this);
-    return;
+             (MethodInfo_4FB2EA0 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this == (System_Collections_Generic_HashSet_string__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PersistsOwnership",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AssetType",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Asset",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Active",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Static",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Visible",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Name",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Position",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Rotation",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Scale",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"CollideMode",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"CollideWith",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PhysicsMaterial",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  System_Collections_Generic_HashSet_object___Add
+            ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"ClearComponents",
+             (MethodInfo_4FB4450 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+  TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->static_fields->MemberNames = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicPrefabBuiltin_Bindings->static_fields->MemberNames);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__AssetType>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__AssetType_g____getter_2_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f62420
+// 0x5a3dcb0
 
-Il2CppObject*
-CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__AssetType_g____getter_2_0(CustomLogic_CustomLogicPrefabBuiltin_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__AssetType_g____getter_2_0
+          (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  Settings_ExperienceScoreRecord_o *pSVar1;
+  Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicExperienceScoreBuiltin_o *)0x0) &&
-     (pSVar1 = (__i->fields)._record, pSVar1 != (Settings_ExperienceScoreRecord_o *)0x0)) {
-    return (Il2CppObject *)(pSVar1->fields).ExperienceID;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).Type;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__AssetType>g____setter|2_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__AssetType_g____setter_2_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f62450
+// 0x5a3dcd0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__AssetType_g____setter_2_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1620,20 +1202,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__As
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457ba == '\0') {
+  if (Il2CppMethodInitialized_07546172 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457ba = '\x01';
+    Il2CppMethodInitialized_07546172 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Type = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Type,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Type);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -1652,7 +1234,7 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__As
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Asset>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Asset_g____getter_3_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f62510
+// 0x5a3dd90
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Asset_g____getter_3_0
@@ -1661,17 +1243,17 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Asset_g
 {
   Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    return (Il2CppObject *)(pMVar1->fields).Asset;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).Asset;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Asset>g____setter|3_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Asset_g____setter_3_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f62540
+// 0x5a3ddb0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Asset_g____setter_3_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1680,20 +1262,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__As
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457bb == '\0') {
+  if (Il2CppMethodInitialized_07546173 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457bb = '\x01';
+    Il2CppMethodInitialized_07546173 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Asset = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Asset,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Asset);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -1712,29 +1294,28 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__As
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Active>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Active_g____getter_4_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f62290
+// 0x5a3de70
 
-Il2CppObject*
-CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Active_g____getter_4_0(CustomLogic_CustomLogicPrefabBuiltin_o* __i, MethodInfo* method)
+Il2CppObject *
+CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Active_g____getter_4_0
+          (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  Settings_ExperienceScoreRecord_o *pSVar1;
-  Il2CppObject *pIVar2;
-  undefined1 local_res8 [32];
+  Il2CppObject *pIVar1;
+  undefined1 uStack_1;
   
-  if ((__i != (CustomLogic_CustomLogicExperienceScoreBuiltin_o *)0x0) &&
-     (pSVar1 = (__i->fields)._record, pSVar1 != (Settings_ExperienceScoreRecord_o *)0x0)) {
-    local_res8[0] = (pSVar1->fields).LowerIsBetter;
-    pIVar2 = il2cpp_value_box(g_data_184354de8,local_res8);
-    return pIVar2;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     ((__i->fields).Value == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_1);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Active>g____setter|4_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Active_g____setter_4_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f62360
+// 0x5a3deb0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Active_g____setter_4_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1744,29 +1325,26 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Ac
   bool bVar2;
   System_String_o *pSVar3;
   
-  if (Il2CppMethodInitialized_1843457bc == '\0') {
+  if (Il2CppMethodInitialized_07546174 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457bc = '\x01';
+    Il2CppMethodInitialized_07546174 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   bVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                    (__v,(MethodInfo_66E400 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+                    (__v,(MethodInfo_34BD860 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Active = bVar2;
+    pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -1775,30 +1353,28 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Ac
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Static>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Static_g____getter_5_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f66170
+// 0x5a3df60
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Static_g____getter_5_0
           (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  Map_MapScriptSceneObject_o *pMVar1;
-  Il2CppObject *pIVar2;
-  undefined1 local_res8 [32];
+  Il2CppObject *pIVar1;
+  undefined1 uStack_1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_res8[0] = (pMVar1->fields).Static;
-    pIVar2 = il2cpp_value_box(g_data_184354de8,local_res8);
-    return pIVar2;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     ((__i->fields).Value == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_1);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Static>g____setter|5_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Static_g____setter_5_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f661b0
+// 0x5a3dfa0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Static_g____setter_5_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1808,29 +1384,26 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__St
   bool bVar2;
   System_String_o *pSVar3;
   
-  if (Il2CppMethodInitialized_1843457bd == '\0') {
+  if (Il2CppMethodInitialized_07546175 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457bd = '\x01';
+    Il2CppMethodInitialized_07546175 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   bVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                    (__v,(MethodInfo_66E400 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+                    (__v,(MethodInfo_34BD860 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Static = bVar2;
+    pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -1839,30 +1412,28 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__St
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Visible>g____getter|6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Visible_g____getter_6_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f67240
+// 0x5a3e050
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Visible_g____getter_6_0
           (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  Map_MapScriptSceneObject_o *pMVar1;
-  Il2CppObject *pIVar2;
-  undefined1 local_res8 [32];
+  Il2CppObject *pIVar1;
+  undefined1 uStack_1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_res8[0] = (pMVar1->fields).Visible;
-    pIVar2 = il2cpp_value_box(g_data_184354de8,local_res8);
-    return pIVar2;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     ((__i->fields).Value == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar1 = il2cpp_vm_Object_Box(g_data_075566f0,&uStack_1);
+  return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Visible>g____setter|6_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Visible_g____setter_6_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f67280
+// 0x5a3e090
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Visible_g____setter_6_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1872,29 +1443,26 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Vi
   bool bVar2;
   System_String_o *pSVar3;
   
-  if (Il2CppMethodInitialized_1843457be == '\0') {
+  if (Il2CppMethodInitialized_07546176 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457be = '\x01';
+    Il2CppMethodInitialized_07546176 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   bVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                    (__v,(MethodInfo_66E400 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+                    (__v,(MethodInfo_34BD860 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Visible = bVar2;
+    pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -1903,7 +1471,7 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Vi
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Name>g____getter|7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Name_g____getter_7_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f643d0
+// 0x5a3e140
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Name_g____getter_7_0
@@ -1912,17 +1480,17 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Name_g_
 {
   Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    return (Il2CppObject *)(pMVar1->fields).Name;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).Name;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Name>g____setter|7_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Name_g____setter_7_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f64480
+// 0x5a3e160
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Name_g____setter_7_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -1931,20 +1499,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Na
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457bf == '\0') {
+  if (Il2CppMethodInitialized_07546177 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457bf = '\x01';
+    Il2CppMethodInitialized_07546177 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).Name = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Name,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Name);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -1963,38 +1531,27 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Na
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Position>g____getter|8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Position_g____getter_8_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f64d60
+// 0x5a3e220
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Position_g____getter_8_0
           (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
   if (__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843457a5 == '\0') {
+    if (Il2CppMethodInitialized_0754615d == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      Il2CppMethodInitialized_1843457a5 = '\x01';
+      Il2CppMethodInitialized_0754615d = '\x01';
     }
     __this = (__i->fields).Value;
     if (__this != (Map_MapScriptSceneObject_o *)0x0) {
-      pUVar3 = Map_MapScriptBaseObject__GetPosition
-                         ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this,
-                          (MethodInfo *)0x0);
-      uVar1._0_4_ = (pUVar3->fields).x;
-      uVar1._4_4_ = (pUVar3->fields).y;
-      fVar2 = (pUVar3->fields).z;
+      value = Map_MapScriptBaseObject__GetPosition((Map_MapScriptBaseObject_o *)__this,(MethodInfo *)0x0);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      local_28[0]._0_8_ = uVar1;
-      local_28[0].z = fVar2;
-      CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-                (__this_00,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+      CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_00,value,(MethodInfo *)0x0);
       return (Il2CppObject *)__this_00;
     }
   }
@@ -2004,87 +1561,58 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Positio
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Position>g____setter|8_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Position_g____setter_8_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f64ec0
+// 0x5a3e2a0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Position_g____setter_8_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  Map_MapScriptSceneObject_o *pMVar1;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar2;
-  System_String_o *pSVar3;
-  UnityEngine_Vector3_Fields local_18;
+  CustomLogic_CustomLogicVector3Builtin_o *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843457c0 == '\0') {
+  if (Il2CppMethodInitialized_07546178 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c0 = '\x01';
+    Il2CppMethodInitialized_07546178 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
-  if (((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-      (pCVar2 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (pCVar2->fields).Value.fields.x;
-    local_18.y = (pCVar2->fields).Value.fields.y;
-    local_18.z = (pCVar2->fields).Value.fields.z;
-    Map_MapScriptBaseObject__SetPosition
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    pMVar1 = (__i->fields).Value;
-    if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
-    }
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                    (__v,(MethodInfo_34BDE00 *)
+                         MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+  if (__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicPrefabBuiltin__set_Position(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Rotation>g____getter|9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Rotation_g____getter_9_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f65630
+// 0x5a3e320
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Rotation_g____getter_9_0
           (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
   if (__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843457a6 == '\0') {
+    if (Il2CppMethodInitialized_0754615e == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      Il2CppMethodInitialized_1843457a6 = '\x01';
+      Il2CppMethodInitialized_0754615e = '\x01';
     }
     __this = (__i->fields).Value;
     if (__this != (Map_MapScriptSceneObject_o *)0x0) {
-      pUVar3 = Map_MapScriptBaseObject__GetRotation
-                         ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this,
-                          (MethodInfo *)0x0);
-      uVar1._0_4_ = (pUVar3->fields).x;
-      uVar1._4_4_ = (pUVar3->fields).y;
-      fVar2 = (pUVar3->fields).z;
+      value = Map_MapScriptBaseObject__GetRotation((Map_MapScriptBaseObject_o *)__this,(MethodInfo *)0x0);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      local_28[0]._0_8_ = uVar1;
-      local_28[0].z = fVar2;
-      CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-                (__this_00,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+      CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_00,value,(MethodInfo *)0x0);
       return (Il2CppObject *)__this_00;
     }
   }
@@ -2094,87 +1622,58 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Rotatio
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Rotation>g____setter|9_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Rotation_g____setter_9_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f657e0
+// 0x5a3e3a0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Rotation_g____setter_9_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  Map_MapScriptSceneObject_o *pMVar1;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar2;
-  System_String_o *pSVar3;
-  UnityEngine_Vector3_Fields local_18;
+  CustomLogic_CustomLogicVector3Builtin_o *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843457c1 == '\0') {
+  if (Il2CppMethodInitialized_07546179 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c1 = '\x01';
+    Il2CppMethodInitialized_07546179 = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
-  if (((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-      (pCVar2 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (pCVar2->fields).Value.fields.x;
-    local_18.y = (pCVar2->fields).Value.fields.y;
-    local_18.z = (pCVar2->fields).Value.fields.z;
-    Map_MapScriptBaseObject__SetRotation
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    pMVar1 = (__i->fields).Value;
-    if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
-    }
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                    (__v,(MethodInfo_34BDE00 *)
+                         MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+  if (__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicPrefabBuiltin__set_Rotation(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Scale>g____getter|10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Scale_g____getter_10_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f65aa0
+// 0x5a3e420
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Scale_g____getter_10_0
           (CustomLogic_CustomLogicPrefabBuiltin_o *__i,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
   if (__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
-    if (Il2CppMethodInitialized_1843457a7 == '\0') {
+    if (Il2CppMethodInitialized_0754615f == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      Il2CppMethodInitialized_1843457a7 = '\x01';
+      Il2CppMethodInitialized_0754615f = '\x01';
     }
     __this = (__i->fields).Value;
     if (__this != (Map_MapScriptSceneObject_o *)0x0) {
-      pUVar3 = Map_MapScriptBaseObject__GetScale
-                         ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this,
-                          (MethodInfo *)0x0);
-      uVar1._0_4_ = (pUVar3->fields).x;
-      uVar1._4_4_ = (pUVar3->fields).y;
-      fVar2 = (pUVar3->fields).z;
+      value = Map_MapScriptBaseObject__GetScale((Map_MapScriptBaseObject_o *)__this,(MethodInfo *)0x0);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-      local_28[0]._0_8_ = uVar1;
-      local_28[0].z = fVar2;
-      CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-                (__this_00,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+      CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_00,value,(MethodInfo *)0x0);
       return (Il2CppObject *)__this_00;
     }
   }
@@ -2184,56 +1683,38 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Scale_g
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__Scale>g____setter|10_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Scale_g____setter_10_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f65c40
+// 0x5a3e4a0
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Scale_g____setter_10_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
-  Map_MapScriptSceneObject_o *pMVar1;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar2;
-  System_String_o *pSVar3;
-  UnityEngine_Vector3_Fields local_18;
+  CustomLogic_CustomLogicVector3Builtin_o *value;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_1843457c2 == '\0') {
+  if (Il2CppMethodInitialized_0754617a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c2 = '\x01';
+    Il2CppMethodInitialized_0754617a = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  pCVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)
-                          MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
-  if (((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-      (pCVar2 != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (pCVar2->fields).Value.fields.x;
-    local_18.y = (pCVar2->fields).Value.fields.y;
-    local_18.z = (pCVar2->fields).Value.fields.z;
-    Map_MapScriptBaseObject__SetScale
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    pMVar1 = (__i->fields).Value;
-    if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar3 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__i->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar3,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
-    }
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                    (__v,(MethodInfo_34BDE00 *)
+                         MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+  if (__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  CustomLogic_CustomLogicPrefabBuiltin__set_Scale(__i,value,method_00);
+  return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__CollideMode>g____getter|11_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideMode_g____getter_11_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f62b30
+// 0x5a3e520
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideMode_g____getter_11_0
@@ -2242,17 +1723,17 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Collide
 {
   Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    return (Il2CppObject *)(pMVar1->fields).CollideMode;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).CollideMode;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__CollideMode>g____setter|11_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideMode_g____setter_11_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f62b60
+// 0x5a3e540
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideMode_g____setter_11_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -2261,20 +1742,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Co
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457c3 == '\0') {
+  if (Il2CppMethodInitialized_0754617b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c3 = '\x01';
+    Il2CppMethodInitialized_0754617b = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).CollideMode = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideMode,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideMode);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2293,7 +1774,7 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Co
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__CollideWith>g____getter|12_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideWith_g____getter_12_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f62c20
+// 0x5a3e600
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideWith_g____getter_12_0
@@ -2302,17 +1783,17 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Collide
 {
   Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    return (Il2CppObject *)(pMVar1->fields).CollideWith;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).CollideWith;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__CollideWith>g____setter|12_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideWith_g____setter_12_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f62c50
+// 0x5a3e620
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__CollideWith_g____setter_12_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -2321,20 +1802,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Co
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457c4 == '\0') {
+  if (Il2CppMethodInitialized_0754617c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c4 = '\x01';
+    Il2CppMethodInitialized_0754617c = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).CollideWith = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideWith,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideWith);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2353,7 +1834,7 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Co
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__PhysicsMaterial>g____getter|13_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__PhysicsMaterial_g____getter_13_0 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, const MethodInfo* method);
-// 0x181f64b30
+// 0x5a3e6e0
 
 Il2CppObject *
 CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__PhysicsMaterial_g____getter_13_0
@@ -2362,17 +1843,17 @@ CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Physics
 {
   Map_MapScriptSceneObject_o *pMVar1;
   
-  if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
-     (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    return (Il2CppObject *)(pMVar1->fields).PhysicsMaterial;
+  if ((__i == (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) ||
+     (pMVar1 = (__i->fields).Value, pMVar1 == (Map_MapScriptSceneObject_o *)0x0)) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (Il2CppObject *)(pMVar1->fields).PhysicsMaterial;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin.Bindings$$<__CreatePropertyBinding__PhysicsMaterial>g____setter|13_1
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__PhysicsMaterial_g____setter_13_1 (CustomLogic_CustomLogicPrefabBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x181f64b60
+// 0x5a3e700
 
 void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__PhysicsMaterial_g____setter_13_1
                (CustomLogic_CustomLogicPrefabBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
@@ -2381,20 +1862,20 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Ph
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843457c5 == '\0') {
+  if (Il2CppMethodInitialized_0754617d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
-    Il2CppMethodInitialized_1843457c5 = '\x01';
+    Il2CppMethodInitialized_0754617d = '\x01';
   }
   if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
   pSVar2 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                     (__v,(MethodInfo_66EB70 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
+                     (__v,(MethodInfo_34BDE00 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_string);
   if ((__i != (CustomLogic_CustomLogicPrefabBuiltin_o *)0x0) &&
      (pMVar1 = (__i->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
     (pMVar1->fields).PhysicsMaterial = pSVar2;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).PhysicsMaterial,pSVar2);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).PhysicsMaterial);
     pMVar1 = (__i->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2413,7 +1894,7 @@ void CustomLogic_CustomLogicPrefabBuiltin_Bindings_____CreatePropertyBinding__Ph
 
 // CustomLogic.CustomLogicPrefabBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin___ctor (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f797a0
+// 0x5a3bcd0
 
 void CustomLogic_CustomLogicPrefabBuiltin___ctor
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
@@ -2421,10 +1902,10 @@ void CustomLogic_CustomLogicPrefabBuiltin___ctor
 {
   Map_MapScriptSceneObject_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843457a3 == '\0') {
+  if (Il2CppMethodInitialized_0754615b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptSceneObject);
-    Il2CppMethodInitialized_1843457a3 = '\x01';
+    Il2CppMethodInitialized_0754615b = '\x01';
   }
   if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
@@ -2433,29 +1914,29 @@ void CustomLogic_CustomLogicPrefabBuiltin___ctor
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
   Map_MapScriptSceneObject___ctor(__this_00,(MethodInfo *)0x0);
   (__this->fields).Value = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Value,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Value);
   return;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin___ctor (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* prefabCSV, bool clearComponents, const MethodInfo* method);
-// 0x181f79830
+// 0x5a3bd60
 
-void CustomLogic_CustomLogicPrefabBuiltin___ctor_1f79830
+void CustomLogic_CustomLogicPrefabBuiltin___ctor_593bd60
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *prefabCSV,bool clearComponents
                ,MethodInfo *method)
 
 {
   System_String_array *value;
-  System_String_o *pSVar1;
-  Map_MapScriptSceneObject_o *pMVar2;
+  MethodInfo *method_00;
+  Map_MapScriptSceneObject_o *pMVar1;
   
-  if (Il2CppMethodInitialized_1843457a4 == '\0') {
+  if (Il2CppMethodInitialized_0754615c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptSceneObject);
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843457a4 = '\x01';
+    Il2CppMethodInitialized_0754615c = '\x01';
   }
   if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
@@ -2463,17 +1944,18 @@ void CustomLogic_CustomLogicPrefabBuiltin___ctor_1f79830
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   if (prefabCSV != (System_String_o *)0x0) {
     value = System_String__Split(prefabCSV,10,0,(MethodInfo *)0x0);
-    pSVar1 = System_String__Join("",value,(MethodInfo *)0x0);
-    pMVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
-    Map_MapScriptSceneObject___ctor(pMVar2,(MethodInfo *)0x0);
-    (__this->fields).Value = pMVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).Value,pMVar2);
-    pMVar2 = (__this->fields).Value;
-    if (pMVar2 != (Map_MapScriptSceneObject_o *)0x0) {
-      (*(pMVar2->klass->vtable)._9_Deserialize.methodPtr)
-                (pMVar2,pSVar1,(pMVar2->klass->vtable)._9_Deserialize.method);
+    method_00 = (MethodInfo *)System_String__Join("",value,(MethodInfo *)0x0);
+    pMVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
+    Map_MapScriptSceneObject___ctor(pMVar1,(MethodInfo *)0x0);
+    (__this->fields).Value = pMVar1;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).Value);
+    pMVar1 = (__this->fields).Value;
+    if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,(System_String_o *)method_00,(pMVar1->klass->vtable)._9_Deserialize.method);
       if (clearComponents) {
-        CustomLogic_CustomLogicPrefabBuiltin__ClearComponents(__this,(MethodInfo *)0x0);
+        CustomLogic_CustomLogicPrefabBuiltin__ClearComponents(__this,method_00);
+        return;
       }
       return;
     }
@@ -2484,25 +1966,26 @@ void CustomLogic_CustomLogicPrefabBuiltin___ctor_1f79830
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_AssetType
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_AssetType (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79970
+// 0x5a3bf10
 
-System_String_o*
-CustomLogic_CustomLogicPrefabBuiltin__get_AssetType(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+System_String_o *
+CustomLogic_CustomLogicPrefabBuiltin__get_AssetType
+          (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AdaptivePerformance_AdaptivePerformanceScalerSettingsBase_o *pUVar1;
+  Map_MapScriptSceneObject_o *pMVar1;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AdaptivePerformance_AdaptivePerformanceScalerSettingsBase_o *)0x0) {
-    return (pUVar1->fields).m_Name;
+  pMVar1 = (__this->fields).Value;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Type;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_AssetType
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_AssetType (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79cb0
+// 0x5a3bf30
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_AssetType
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -2514,7 +1997,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_AssetType
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Type = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Type,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Type);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2533,25 +2016,26 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_AssetType
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Asset
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_Asset (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79990
+// 0x5a3bfe0
 
-System_String_o*
-CustomLogic_CustomLogicPrefabBuiltin__get_Asset(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+System_String_o *
+CustomLogic_CustomLogicPrefabBuiltin__get_Asset
+          (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  System_Xml_ValidatingReaderNodeData_o *pSVar1;
+  Map_MapScriptSceneObject_o *pMVar1;
   
-  pSVar1 = (__this->fields).Value;
-  if (pSVar1 != (System_Xml_ValidatingReaderNodeData_o *)0x0) {
-    return (pSVar1->fields).namespaceUri;
+  pMVar1 = (__this->fields).Value;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Asset;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Asset
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Asset (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79d10
+// 0x5a3c000
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Asset
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -2563,7 +2047,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Asset
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Asset = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Asset,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Asset);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2582,25 +2066,25 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Asset
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Active
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_Active (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79950
+// 0x5a3c060
 
-bool
-CustomLogic_CustomLogicPrefabBuiltin__get_Active(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPrefabBuiltin__get_Active
+               (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  Settings_ExperienceScoreRecord_o *pSVar1;
+  Map_MapScriptSceneObject_o *pMVar1;
   
-  pSVar1 = (__this->fields).Value;
-  if (pSVar1 != (Settings_ExperienceScoreRecord_o *)0x0) {
-    return (pSVar1->fields).LowerIsBetter;
+  pMVar1 = (__this->fields).Value;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Active;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Active
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Active (CustomLogic_CustomLogicPrefabBuiltin_o* __this, bool value, const MethodInfo* method);
-// 0x181f79c50
+// 0x5a3c080
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Active
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,bool value,MethodInfo *method)
@@ -2612,16 +2096,13 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Active
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Active = value;
+    pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__this->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -2630,7 +2111,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Active
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Static
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_Static (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79c10
+// 0x5a3c0d0
 
 bool CustomLogic_CustomLogicPrefabBuiltin__get_Static
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
@@ -2639,16 +2120,16 @@ bool CustomLogic_CustomLogicPrefabBuiltin__get_Static
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).Static;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Static;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Static
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Static (CustomLogic_CustomLogicPrefabBuiltin_o* __this, bool value, const MethodInfo* method);
-// 0x181f7a070
+// 0x5a3c0f0
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Static
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,bool value,MethodInfo *method)
@@ -2660,16 +2141,13 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Static
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Static = value;
+    pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__this->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -2678,7 +2156,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Static
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Visible
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_Visible (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79c30
+// 0x5a3c140
 
 bool CustomLogic_CustomLogicPrefabBuiltin__get_Visible
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
@@ -2687,16 +2165,16 @@ bool CustomLogic_CustomLogicPrefabBuiltin__get_Visible
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).Visible;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Visible;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Visible
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Visible (CustomLogic_CustomLogicPrefabBuiltin_o* __this, bool value, const MethodInfo* method);
-// 0x181f7a0d0
+// 0x5a3c160
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Visible
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,bool value,MethodInfo *method)
@@ -2708,16 +2186,13 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Visible
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Visible = value;
+    pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
-      pMVar1 = (__this->fields).Value;
-      if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+      (*(pMVar1->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar1,pSVar2,(pMVar1->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -2726,7 +2201,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Visible
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Name
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_Name (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79a20
+// 0x5a3c1b0
 
 System_String_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_Name
@@ -2736,16 +2211,16 @@ CustomLogic_CustomLogicPrefabBuiltin__get_Name
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).Name;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).Name;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Name
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Name (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79e30
+// 0x5a3c1d0
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Name
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -2757,7 +2232,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Name
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).Name = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Name,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).Name);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2776,46 +2251,35 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Name
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Position
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicPrefabBuiltin__get_Position (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79a60
+// 0x5a3c230
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_Position
           (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this_00;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_01;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843457a5 == '\0') {
+  if (Il2CppMethodInitialized_0754615d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    Il2CppMethodInitialized_1843457a5 = '\x01';
+    Il2CppMethodInitialized_0754615d = '\x01';
   }
   __this_00 = (__this->fields).Value;
-  if (__this_00 != (Map_MapScriptSceneObject_o *)0x0) {
-    pUVar3 = Map_MapScriptBaseObject__GetPosition
-                       ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this_00,
-                        (MethodInfo *)0x0);
-    uVar1._0_4_ = (pUVar3->fields).x;
-    uVar1._4_4_ = (pUVar3->fields).y;
-    fVar2 = (pUVar3->fields).z;
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    local_28[0]._0_8_ = uVar1;
-    local_28[0].z = fVar2;
-    CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-              (__this_01,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
-    return __this_01;
+  if (__this_00 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  value = Map_MapScriptBaseObject__GetPosition((Map_MapScriptBaseObject_o *)__this_00,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+  CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_01,value,(MethodInfo *)0x0);
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Position
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Position (CustomLogic_CustomLogicPrefabBuiltin_o* __this, CustomLogic_CustomLogicVector3Builtin_o* value, const MethodInfo* method);
-// 0x181f79ef0
+// 0x5a3c2b0
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Position
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,CustomLogic_CustomLogicVector3Builtin_o *value,
@@ -2824,15 +2288,12 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Position
 {
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
-  UnityEngine_Vector3_Fields local_18;
   
   if ((value != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
      (pMVar1 = (__this->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (value->fields).Value.fields.x;
-    local_18.y = (value->fields).Value.fields.y;
-    local_18.z = (value->fields).Value.fields.z;
     Map_MapScriptBaseObject__SetPosition
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o)(value->fields).Value.fields,
+               (MethodInfo *)0x0);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2851,46 +2312,35 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Position
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Rotation
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicPrefabBuiltin__get_Rotation (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79af0
+// 0x5a3c320
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_Rotation
           (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this_00;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_01;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843457a6 == '\0') {
+  if (Il2CppMethodInitialized_0754615e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    Il2CppMethodInitialized_1843457a6 = '\x01';
+    Il2CppMethodInitialized_0754615e = '\x01';
   }
   __this_00 = (__this->fields).Value;
-  if (__this_00 != (Map_MapScriptSceneObject_o *)0x0) {
-    pUVar3 = Map_MapScriptBaseObject__GetRotation
-                       ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this_00,
-                        (MethodInfo *)0x0);
-    uVar1._0_4_ = (pUVar3->fields).x;
-    uVar1._4_4_ = (pUVar3->fields).y;
-    fVar2 = (pUVar3->fields).z;
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    local_28[0]._0_8_ = uVar1;
-    local_28[0].z = fVar2;
-    CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-              (__this_01,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
-    return __this_01;
+  if (__this_00 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  value = Map_MapScriptBaseObject__GetRotation((Map_MapScriptBaseObject_o *)__this_00,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+  CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_01,value,(MethodInfo *)0x0);
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Rotation
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Rotation (CustomLogic_CustomLogicPrefabBuiltin_o* __this, CustomLogic_CustomLogicVector3Builtin_o* value, const MethodInfo* method);
-// 0x181f79f70
+// 0x5a3c3a0
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Rotation
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,CustomLogic_CustomLogicVector3Builtin_o *value,
@@ -2899,15 +2349,12 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Rotation
 {
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
-  UnityEngine_Vector3_Fields local_18;
   
   if ((value != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
      (pMVar1 = (__this->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (value->fields).Value.fields.x;
-    local_18.y = (value->fields).Value.fields.y;
-    local_18.z = (value->fields).Value.fields.z;
     Map_MapScriptBaseObject__SetRotation
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o)(value->fields).Value.fields,
+               (MethodInfo *)0x0);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -2926,46 +2373,35 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Rotation
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_Scale
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicPrefabBuiltin__get_Scale (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79b80
+// 0x5a3c410
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_Scale
           (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Map_MapScriptSceneObject_o *__this_00;
-  UnityEngine_Vector3_o *pUVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_01;
-  UnityEngine_Vector3_Fields local_28 [2];
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843457a7 == '\0') {
+  if (Il2CppMethodInitialized_0754615f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    Il2CppMethodInitialized_1843457a7 = '\x01';
+    Il2CppMethodInitialized_0754615f = '\x01';
   }
   __this_00 = (__this->fields).Value;
-  if (__this_00 != (Map_MapScriptSceneObject_o *)0x0) {
-    pUVar3 = Map_MapScriptBaseObject__GetScale
-                       ((UnityEngine_Vector3_o *)local_28,(Map_MapScriptBaseObject_o *)__this_00,
-                        (MethodInfo *)0x0);
-    uVar1._0_4_ = (pUVar3->fields).x;
-    uVar1._4_4_ = (pUVar3->fields).y;
-    fVar2 = (pUVar3->fields).z;
-    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
-    local_28[0]._0_8_ = uVar1;
-    local_28[0].z = fVar2;
-    CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
-              (__this_01,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
-    return __this_01;
+  if (__this_00 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  value = Map_MapScriptBaseObject__GetScale((Map_MapScriptBaseObject_o *)__this_00,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+  CustomLogic_CustomLogicVector3Builtin___ctor_58df850(__this_01,value,(MethodInfo *)0x0);
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_Scale
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_Scale (CustomLogic_CustomLogicPrefabBuiltin_o* __this, CustomLogic_CustomLogicVector3Builtin_o* value, const MethodInfo* method);
-// 0x181f79ff0
+// 0x5a3c490
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_Scale
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,CustomLogic_CustomLogicVector3Builtin_o *value,
@@ -2974,15 +2410,12 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Scale
 {
   Map_MapScriptSceneObject_o *pMVar1;
   System_String_o *pSVar2;
-  UnityEngine_Vector3_Fields local_18;
   
   if ((value != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
      (pMVar1 = (__this->fields).Value, pMVar1 != (Map_MapScriptSceneObject_o *)0x0)) {
-    local_18.x = (value->fields).Value.fields.x;
-    local_18.y = (value->fields).Value.fields.y;
-    local_18.z = (value->fields).Value.fields.z;
     Map_MapScriptBaseObject__SetScale
-              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+              ((Map_MapScriptBaseObject_o *)pMVar1,(UnityEngine_Vector3_o)(value->fields).Value.fields,
+               (MethodInfo *)0x0);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -3001,7 +2434,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_Scale
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_CollideMode
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_CollideMode (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f799e0
+// 0x5a3c500
 
 System_String_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_CollideMode
@@ -3011,16 +2444,16 @@ CustomLogic_CustomLogicPrefabBuiltin__get_CollideMode
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).CollideMode;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).CollideMode;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_CollideMode
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_CollideMode (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79d70
+// 0x5a3c520
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_CollideMode
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -3032,7 +2465,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_CollideMode
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).CollideMode = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideMode,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideMode);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -3051,7 +2484,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_CollideMode
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_CollideWith
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_CollideWith (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79a00
+// 0x5a3c580
 
 System_String_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_CollideWith
@@ -3061,16 +2494,16 @@ CustomLogic_CustomLogicPrefabBuiltin__get_CollideWith
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).CollideWith;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).CollideWith;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_CollideWith
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_CollideWith (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79dd0
+// 0x5a3c5a0
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_CollideWith
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -3082,7 +2515,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_CollideWith
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).CollideWith = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideWith,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).CollideWith);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -3101,7 +2534,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_CollideWith
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_PhysicsMaterial
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_PhysicsMaterial (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79a40
+// 0x5a3c600
 
 System_String_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_PhysicsMaterial
@@ -3111,16 +2544,16 @@ CustomLogic_CustomLogicPrefabBuiltin__get_PhysicsMaterial
   Map_MapScriptSceneObject_o *pMVar1;
   
   pMVar1 = (__this->fields).Value;
-  if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
-    return (pMVar1->fields).PhysicsMaterial;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return (pMVar1->fields).PhysicsMaterial;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$set_PhysicsMaterial
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__set_PhysicsMaterial (CustomLogic_CustomLogicPrefabBuiltin_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x181f79e90
+// 0x5a3c620
 
 void CustomLogic_CustomLogicPrefabBuiltin__set_PhysicsMaterial
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,System_String_o *value,MethodInfo *method)
@@ -3132,7 +2565,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_PhysicsMaterial
   pMVar1 = (__this->fields).Value;
   if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
     (pMVar1->fields).PhysicsMaterial = value;
-    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).PhysicsMaterial,value);
+    Il2CppCodeGenWriteBarrier(&(pMVar1->fields).PhysicsMaterial);
     pMVar1 = (__this->fields).Value;
     if (pMVar1 != (Map_MapScriptSceneObject_o *)0x0) {
       pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
@@ -3151,7 +2584,7 @@ void CustomLogic_CustomLogicPrefabBuiltin__set_PhysicsMaterial
 
 // CustomLogic.CustomLogicPrefabBuiltin$$ClearComponents
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__ClearComponents (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f796b0
+// 0x5a3be70
 
 void CustomLogic_CustomLogicPrefabBuiltin__ClearComponents
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
@@ -3159,45 +2592,45 @@ void CustomLogic_CustomLogicPrefabBuiltin__ClearComponents
 {
   int32_t *piVar1;
   int32_t length;
-  Map_MapScriptSceneObject_o *pMVar2;
-  System_Collections_Generic_List_MapScriptComponent__o *pSVar3;
-  System_String_o *pSVar4;
+  System_Collections_Generic_List_MapScriptComponent__o *pSVar2;
+  System_String_o *pSVar3;
+  Map_MapScriptSceneObject_o *pMVar4;
   
-  if (Il2CppMethodInitialized_1843457a8 == '\0') {
+  if (Il2CppMethodInitialized_07546160 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapScriptComponent_Clear);
-    Il2CppMethodInitialized_1843457a8 = '\x01';
+    Il2CppMethodInitialized_07546160 = '\x01';
   }
-  pMVar2 = (__this->fields).Value;
-  if ((pMVar2 != (Map_MapScriptSceneObject_o *)0x0) &&
-     (pSVar3 = (pMVar2->fields).Components,
-     pSVar3 != (System_Collections_Generic_List_MapScriptComponent__o *)0x0)) {
-    length = (pSVar3->fields)._size;
-    piVar1 = &(pSVar3->fields)._version;
+  pMVar4 = (__this->fields).Value;
+  if ((pMVar4 != (Map_MapScriptSceneObject_o *)0x0) &&
+     (pSVar2 = (pMVar4->fields).Components,
+     pSVar2 != (System_Collections_Generic_List_MapScriptComponent__o *)0x0)) {
+    piVar1 = &(pSVar2->fields)._version;
     *piVar1 = *piVar1 + 1;
-    (pSVar3->fields)._size = 0;
+    length = (pSVar2->fields)._size;
+    (pSVar2->fields)._size = 0;
     if (0 < length) {
-      System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,length,(MethodInfo *)0x0);
+      System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
+      pMVar4 = (__this->fields).Value;
+      if (pMVar4 == (Map_MapScriptSceneObject_o *)0x0) goto label_05a3befd;
     }
-    pMVar2 = (__this->fields).Value;
-    if (pMVar2 != (Map_MapScriptSceneObject_o *)0x0) {
-      pSVar4 = (*(pMVar2->klass->vtable)._8_Serialize.methodPtr)
-                         (pMVar2,(pMVar2->klass->vtable)._8_Serialize.method);
-      pMVar2 = (__this->fields).Value;
-      if (pMVar2 != (Map_MapScriptSceneObject_o *)0x0) {
-        (*(pMVar2->klass->vtable)._9_Deserialize.methodPtr)
-                  (pMVar2,pSVar4,(pMVar2->klass->vtable)._9_Deserialize.method);
-        return;
-      }
+    pSVar3 = (*(pMVar4->klass->vtable)._8_Serialize.methodPtr)
+                       (pMVar4,(pMVar4->klass->vtable)._8_Serialize.method);
+    pMVar4 = (__this->fields).Value;
+    if (pMVar4 != (Map_MapScriptSceneObject_o *)0x0) {
+      (*(pMVar4->klass->vtable)._9_Deserialize.methodPtr)
+                (pMVar4,pSVar3,(pMVar4->klass->vtable)._9_Deserialize.method);
+      return;
     }
   }
+label_05a3befd:
   ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$Refresh
 // il2cpp: void CustomLogic_CustomLogicPrefabBuiltin__Refresh (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f79750
+// 0x5a3bf90
 
 void CustomLogic_CustomLogicPrefabBuiltin__Refresh
                (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
@@ -3223,37 +2656,38 @@ void CustomLogic_CustomLogicPrefabBuiltin__Refresh
 
 // CustomLogic.CustomLogicPrefabBuiltin$$__Str__
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin____Str__ (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181afadd0
+// 0x5a3c680
 
-System_String_o*
-CustomLogic_CustomLogicPrefabBuiltin____Str__(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+System_String_o *
+CustomLogic_CustomLogicPrefabBuiltin____Str__
+          (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  System_Net_Sockets_NetworkStream_o *pSVar1;
-  bool bVar2;
+  Map_MapScriptSceneObject_o *pMVar1;
+  System_String_o *pSVar2;
   
-  pSVar1 = (__this->fields).Value;
-  if (pSVar1 != (System_Net_Sockets_NetworkStream_o *)0x0) {
-    bVar2 = (*(pSVar1->klass->vtable)._8_get_CanSeek.methodPtr)
-                      (pSVar1,(pSVar1->klass->vtable)._8_get_CanSeek.method);
-    return bVar2;
+  pMVar1 = (__this->fields).Value;
+  if (pMVar1 == (Map_MapScriptSceneObject_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pSVar2 = (*(pMVar1->klass->vtable)._8_Serialize.methodPtr)
+                     (pMVar1,(pMVar1->klass->vtable)._8_Serialize.method);
+  return pSVar2;
 }
 
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicPrefabBuiltin__get_ClassName (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x181f799b0
+// 0x5a3c6b0
 
 System_String_o *
 CustomLogic_CustomLogicPrefabBuiltin__get_ClassName
           (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843457a9 == '\0') {
+  if (Il2CppMethodInitialized_07546161 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Prefab");
-    Il2CppMethodInitialized_1843457a9 = '\x01';
+    Il2CppMethodInitialized_07546161 = '\x01';
   }
   return "Prefab";
 }
@@ -3261,10 +2695,10 @@ CustomLogic_CustomLogicPrefabBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_IsAbstract (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5a3c6e0
 
-bool
-CustomLogic_CustomLogicPrefabBuiltin__get_IsAbstract(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPrefabBuiltin__get_IsAbstract
+               (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -3273,10 +2707,10 @@ CustomLogic_CustomLogicPrefabBuiltin__get_IsAbstract(CustomLogic_CustomLogicPref
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_IsStatic (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5a3c6f0
 
-bool
-CustomLogic_CustomLogicPrefabBuiltin__get_IsStatic(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPrefabBuiltin__get_IsStatic
+               (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -3285,10 +2719,10 @@ CustomLogic_CustomLogicPrefabBuiltin__get_IsStatic(CustomLogic_CustomLogicPrefab
 
 // CustomLogic.CustomLogicPrefabBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicPrefabBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicPrefabBuiltin_o* __this, const MethodInfo* method);
-// 0x1808ed110
+// 0x5a3c700
 
-bool
-CustomLogic_CustomLogicPrefabBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicPrefabBuiltin_o* __this, MethodInfo* method)
+bool CustomLogic_CustomLogicPrefabBuiltin__get_InheritBaseMembers
+               (CustomLogic_CustomLogicPrefabBuiltin_o *__this,MethodInfo *method)
 
 {
   return true;

@@ -28,7 +28,7 @@ internal class XPathArrayIterator : ResetableIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C01")]
-		[Address(RVA = "0x26D4560", Offset = "0x26D2B60", VA = "0x1826D4560", Slot = "8")]
+		[Address(RVA = "0x608F180", Offset = "0x608E180", VA = "0x608F180", Slot = "8")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class XPathArrayIterator : ResetableIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C02")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "9")]
+		[Address(RVA = "0x608F2E0", Offset = "0x608E2E0", VA = "0x608F2E0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -50,7 +50,7 @@ internal class XPathArrayIterator : ResetableIterator
 	public override int Count
 	{
 		[Token(Token = "0x6001C03")]
-		[Address(RVA = "0x26D4510", Offset = "0x26D2B10", VA = "0x1826D4510", Slot = "10")]
+		[Address(RVA = "0x608F2F0", Offset = "0x608E2F0", VA = "0x608F2F0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -58,39 +58,39 @@ internal class XPathArrayIterator : ResetableIterator
 	}
 
 	[Token(Token = "0x6001BFE")]
-	[Address(RVA = "0x26D4330", Offset = "0x26D2930", VA = "0x1826D4330")]
+	[Address(RVA = "0x608EF10", Offset = "0x608DF10", VA = "0x608EF10")]
 	public XPathArrayIterator(XPathArrayIterator it)
 	{
 	}
 
 	[Token(Token = "0x6001BFF")]
-	[Address(RVA = "0x26D4380", Offset = "0x26D2980", VA = "0x1826D4380")]
+	[Address(RVA = "0x608EF60", Offset = "0x608DF60", VA = "0x608EF60")]
 	public XPathArrayIterator(XPathNodeIterator nodeIterator)
 	{
 	}
 
 	[Token(Token = "0x6001C00")]
-	[Address(RVA = "0x26D4180", Offset = "0x26D2780", VA = "0x1826D4180", Slot = "6")]
+	[Address(RVA = "0x608F100", Offset = "0x608E100", VA = "0x608F100", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C04")]
-	[Address(RVA = "0x26D42B0", Offset = "0x26D28B0", VA = "0x1826D42B0", Slot = "7")]
+	[Address(RVA = "0x608F390", Offset = "0x608E390", VA = "0x608F390", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C05")]
-	[Address(RVA = "0x26D4320", Offset = "0x26D2920", VA = "0x1826D4320", Slot = "12")]
+	[Address(RVA = "0x608F450", Offset = "0x608E450", VA = "0x608F450", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001C06")]
-	[Address(RVA = "0x26D4200", Offset = "0x26D2800", VA = "0x1826D4200", Slot = "11")]
+	[Address(RVA = "0x608F460", Offset = "0x608E460", VA = "0x608F460", Slot = "11")]
 	public override IEnumerator GetEnumerator()
 	{
 		return null;

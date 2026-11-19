@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ConstrainedExecution;
 
-[Token(Token = "0x200048D")]
+[Token(Token = "0x2000466")]
 public enum Cer
 {
-	[Token(Token = "0x40012E8")]
+	[Token(Token = "0x4001248")]
 	None,
-	[Token(Token = "0x40012E9")]
+	[Token(Token = "0x4001249")]
 	MayFail,
-	[Token(Token = "0x40012EA")]
+	[Token(Token = "0x400124A")]
 	Success
 }

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Changelog;
 
-[Token(Token = "0x2000940")]
+[Token(Token = "0x20009A7")]
 public enum AottgChangelogResultState
 {
-	[Token(Token = "0x4002DF1")]
+	[Token(Token = "0x400309F")]
 	LoadingNoCache,
-	[Token(Token = "0x4002DF2")]
+	[Token(Token = "0x40030A0")]
 	ReadyFresh,
-	[Token(Token = "0x4002DF3")]
+	[Token(Token = "0x40030A1")]
 	ReadyStaleRefreshing,
-	[Token(Token = "0x4002DF4")]
+	[Token(Token = "0x40030A2")]
 	FailedNoCache,
-	[Token(Token = "0x4002DF5")]
+	[Token(Token = "0x40030A3")]
 	FailedRefreshStale
 }

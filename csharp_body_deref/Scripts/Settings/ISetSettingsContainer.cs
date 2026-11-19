@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000D2")]
+[Token(Token = "0x200010D")]
 internal interface ISetSettingsContainer
 {
-	[Token(Token = "0x600041B")]
+	[Token(Token = "0x6000599")]
 	BaseSetSetting GetSelectedSet();
 
-	[Token(Token = "0x600041C")]
+	[Token(Token = "0x600059A")]
 	IntSetting GetSelectedSetIndex();
 
-	[Token(Token = "0x600041D")]
+	[Token(Token = "0x600059B")]
 	IListSetting GetSets();
 
-	[Token(Token = "0x600041E")]
+	[Token(Token = "0x600059C")]
 	string[] GetSetNames();
 
-	[Token(Token = "0x600041F")]
+	[Token(Token = "0x600059D")]
 	void CreateSet(string name);
 
-	[Token(Token = "0x6000420")]
+	[Token(Token = "0x600059E")]
 	void CopySelectedSet(string name);
 
-	[Token(Token = "0x6000421")]
+	[Token(Token = "0x600059F")]
 	void DeleteSelectedSet();
 
-	[Token(Token = "0x6000422")]
+	[Token(Token = "0x60005A0")]
 	bool CanDeleteSelectedSet();
 
-	[Token(Token = "0x6000423")]
+	[Token(Token = "0x60005A1")]
 	bool CanEditSelectedSet();
 
-	[Token(Token = "0x6000424")]
+	[Token(Token = "0x60005A2")]
 	void SetPresetsFromJsonString(string json);
 }

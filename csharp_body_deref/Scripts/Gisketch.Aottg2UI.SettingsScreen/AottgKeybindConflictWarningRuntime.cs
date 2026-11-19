@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgKeybindConflictWarningRuntime
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgKeybindConflictWarningRuntime.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,100 +15,100 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x200015D")]
+[Token(Token = "0x2000165")]
 internal sealed class AottgKeybindConflictWarningRuntime : MonoBehaviour
 {
-	[Token(Token = "0x40007EB")]
+	[Token(Token = "0x4000836")]
 	public const string NodeType = "AottgKeybindConflictWarning";
 
-	[Token(Token = "0x40007EC")]
+	[Token(Token = "0x4000837")]
 	private const string WarningSprite = "Icons/kenney-icons/warning";
 
-	[Token(Token = "0x40007ED")]
+	[Token(Token = "0x4000838")]
 	private const char StateKeySeparator = '\n';
 
-	[Token(Token = "0x40007EE")]
+	[Token(Token = "0x4000839")]
 	[FieldOffset(Offset = "0x20")]
 	private GisketchTheme _theme;
 
-	[Token(Token = "0x40007EF")]
+	[Token(Token = "0x400083A")]
 	[FieldOffset(Offset = "0x28")]
 	private GisketchUIState _state;
 
-	[Token(Token = "0x40007F0")]
+	[Token(Token = "0x400083B")]
 	[FieldOffset(Offset = "0x30")]
 	private string _visibleStateKey;
 
-	[Token(Token = "0x40007F1")]
+	[Token(Token = "0x400083C")]
 	[FieldOffset(Offset = "0x38")]
 	private string _tooltipStateKey;
 
-	[Token(Token = "0x40007F2")]
+	[Token(Token = "0x400083D")]
 	[FieldOffset(Offset = "0x40")]
 	private CanvasGroup _group;
 
-	[Token(Token = "0x40007F3")]
+	[Token(Token = "0x400083E")]
 	[FieldOffset(Offset = "0x48")]
 	private GisketchTooltipTrigger _tooltip;
 
-	[Token(Token = "0x600070E")]
-	[Address(RVA = "0x2307A20", Offset = "0x2306020", VA = "0x182307A20")]
+	[Token(Token = "0x6000785")]
+	[Address(RVA = "0x5CC1DD0", Offset = "0x5CC0DD0", VA = "0x5CC1DD0")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x2307620", Offset = "0x2305C20", VA = "0x182307620")]
+	[Token(Token = "0x6000786")]
+	[Address(RVA = "0x5CC1E90", Offset = "0x5CC0E90", VA = "0x5CC1E90")]
 	private static bool Build(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x2307E80", Offset = "0x2306480", VA = "0x182307E80")]
+	[Token(Token = "0x6000787")]
+	[Address(RVA = "0x5CC2230", Offset = "0x5CC1230", VA = "0x5CC2230")]
 	internal static string StateKeys(string visibleStateKey, string tooltipStateKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000711")]
-	[Address(RVA = "0x2307AE0", Offset = "0x23060E0", VA = "0x182307AE0")]
+	[Token(Token = "0x6000788")]
+	[Address(RVA = "0x5CC1F20", Offset = "0x5CC0F20", VA = "0x5CC1F20")]
 	private void Setup(GisketchTheme theme, GisketchUIState state, string stateKeys)
 	{
 	}
 
-	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x23076C0", Offset = "0x2305CC0", VA = "0x1823076C0")]
+	[Token(Token = "0x6000789")]
+	[Address(RVA = "0x5CC2530", Offset = "0x5CC1530", VA = "0x5CC2530")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x2307750", Offset = "0x2305D50", VA = "0x182307750")]
+	[Token(Token = "0x600078A")]
+	[Address(RVA = "0x5CC25B0", Offset = "0x5CC15B0", VA = "0x5CC25B0")]
 	private void OnStateChanged(string key)
 	{
 	}
 
-	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x23077B0", Offset = "0x2305DB0", VA = "0x1823077B0")]
+	[Token(Token = "0x600078B")]
+	[Address(RVA = "0x5CC22C0", Offset = "0x5CC12C0", VA = "0x5CC22C0")]
 	private void ReadStateKeys(string stateKeys)
 	{
 	}
 
-	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x2307940", Offset = "0x2305F40", VA = "0x182307940")]
+	[Token(Token = "0x600078C")]
+	[Address(RVA = "0x5CC2390", Offset = "0x5CC1390", VA = "0x5CC2390")]
 	private void RefreshVisibility()
 	{
 	}
 
-	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x2307880", Offset = "0x2305E80", VA = "0x182307880")]
+	[Token(Token = "0x600078D")]
+	[Address(RVA = "0x5CC2460", Offset = "0x5CC1460", VA = "0x5CC2460")]
 	private void RefreshTooltip()
 	{
 	}
 
-	[Token(Token = "0x6000717")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x600078E")]
+	[Address(RVA = "0x5CC2600", Offset = "0x5CC1600", VA = "0x5CC2600")]
 	public AottgKeybindConflictWarningRuntime()
 	{
 	}

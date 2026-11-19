@@ -18,7 +18,7 @@ internal class DoesNotReturnIfAttribute : Attribute
 	public bool ParameterValue
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x5555B60", Offset = "0x5554B60", VA = "0x5555B60")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,7 +27,7 @@ internal class DoesNotReturnIfAttribute : Attribute
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
+	[Address(RVA = "0x5555B40", Offset = "0x5554B40", VA = "0x5555B40")]
 	public DoesNotReturnIfAttribute(bool parameterValue)
 	{
 	}

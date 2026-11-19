@@ -14,11 +14,11 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x2000028")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationRemoveScalePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationRemoveScalePlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationRemoveScalePlayable.bindings.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationRemoveScalePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationRemoveScalePlayable.h")]
 internal struct AnimationRemoveScalePlayable : IEquatable<AnimationRemoveScalePlayable>
 {
 	[Token(Token = "0x4000063")]
@@ -30,20 +30,20 @@ internal struct AnimationRemoveScalePlayable : IEquatable<AnimationRemoveScalePl
 	private static readonly AnimationRemoveScalePlayable m_NullPlayable;
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2EAC440", Offset = "0x2EAAA40", VA = "0x182EAC440")]
+	[Address(RVA = "0x68ACEA0", Offset = "0x68ABEA0", VA = "0x68ACEA0")]
 	internal AnimationRemoveScalePlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68ACF90", Offset = "0x68ABF90", VA = "0x68ACF90", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2EAC260", Offset = "0x2EAA860", VA = "0x182EAC260", Slot = "4")]
+	[Address(RVA = "0x68ACFA0", Offset = "0x68ABFA0", VA = "0x68ACFA0", Slot = "4")]
 	public bool Equals(AnimationRemoveScalePlayable other)
 	{
 		return default(bool);

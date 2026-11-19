@@ -15,7 +15,7 @@ namespace UnityEngine.Rendering;
 public class HideInDebugUIAttribute : Attribute
 {
 	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x64BB500", Offset = "0x64BA500", VA = "0x64BB500")]
 	public HideInDebugUIAttribute()
 	{
 	}

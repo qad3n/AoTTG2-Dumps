@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000203")]
+[Token(Token = "0x2000204")]
 public enum ConfidenceLevel
 {
-	[Token(Token = "0x40006D2")]
+	[Token(Token = "0x40006D7")]
 	High,
-	[Token(Token = "0x40006D3")]
+	[Token(Token = "0x40006D8")]
 	Medium,
-	[Token(Token = "0x40006D4")]
+	[Token(Token = "0x40006D9")]
 	Low,
-	[Token(Token = "0x40006D5")]
+	[Token(Token = "0x40006DA")]
 	Rejected
 }

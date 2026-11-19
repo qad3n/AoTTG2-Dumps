@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnPointerDownMessageListener : MessageListener, IPointerDownHandler, IEventSystemHandler
 {
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x2DBE870", Offset = "0x2DBCE70", VA = "0x182DBE870", Slot = "4")]
+	[Address(RVA = "0x67A6410", Offset = "0x67A5410", VA = "0x67A6410", Slot = "4")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A64A0", Offset = "0x67A54A0", VA = "0x67A64A0")]
 	public UnityOnPointerDownMessageListener()
 	{
 	}

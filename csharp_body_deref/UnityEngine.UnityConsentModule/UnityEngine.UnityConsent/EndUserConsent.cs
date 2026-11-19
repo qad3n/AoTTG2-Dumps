@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UnityConsent.EndUserConsent
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ public static class EndUserConsent
 	private static Action<ConsentState> consentStateChanged;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3308F00", Offset = "0x3307500", VA = "0x183308F00")]
+	[Address(RVA = "0x6D19470", Offset = "0x6D18470", VA = "0x6D19470")]
 	[UnityEngine.Bindings.NativeMethod("GetConsentStateStatic")]
 	public static ConsentState GetConsentState()
 	{
@@ -33,7 +33,7 @@ public static class EndUserConsent
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x3308F40", Offset = "0x3307540", VA = "0x183308F40")]
+	[Address(RVA = "0x6D194E0", Offset = "0x6D184E0", VA = "0x6D194E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void OnConsentStateChanged()
 	{
@@ -41,6 +41,6 @@ public static class EndUserConsent
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x3308EC0", Offset = "0x33074C0", VA = "0x183308EC0")]
+	[Address(RVA = "0x6D194B0", Offset = "0x6D184B0", VA = "0x6D194B0")]
 	private static extern void GetConsentState_Injected(out ConsentState ret);
 }

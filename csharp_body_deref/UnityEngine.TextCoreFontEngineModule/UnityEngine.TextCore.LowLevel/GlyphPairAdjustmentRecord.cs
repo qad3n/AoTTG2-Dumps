@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,14 +40,14 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	[Token(Token = "0x1700002A")]
 	public GlyphAdjustmentRecord firstAdjustmentRecord
 	{
-		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x3002A00", Offset = "0x3001000", VA = "0x183002A00")]
+		[Token(Token = "0x60000A6")]
+		[Address(RVA = "0x69FD260", Offset = "0x69FC260", VA = "0x69FD260")]
 		get
 		{
 			return default(GlyphAdjustmentRecord);
 		}
-		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x3002A10", Offset = "0x3001010", VA = "0x183002A10")]
+		[Token(Token = "0x60000A7")]
+		[Address(RVA = "0x69FD270", Offset = "0x69FC270", VA = "0x69FD270")]
 		set
 		{
 		}
@@ -56,8 +56,8 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	[Token(Token = "0x1700002B")]
 	public GlyphAdjustmentRecord secondAdjustmentRecord
 	{
-		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x1536FE0", Offset = "0x15355E0", VA = "0x181536FE0")]
+		[Token(Token = "0x60000A8")]
+		[Address(RVA = "0x69FD280", Offset = "0x69FC280", VA = "0x69FD280")]
 		get
 		{
 			return default(GlyphAdjustmentRecord);
@@ -67,38 +67,38 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	[Token(Token = "0x1700002C")]
 	public FontFeatureLookupFlags featureLookupFlags
 	{
-		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
+		[Token(Token = "0x60000A9")]
+		[Address(RVA = "0x69FD2A0", Offset = "0x69FC2A0", VA = "0x69FD2A0")]
 		get
 		{
 			return default(FontFeatureLookupFlags);
 		}
 	}
 
-	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x30029D0", Offset = "0x3000FD0", VA = "0x1830029D0")]
+	[Token(Token = "0x60000AA")]
+	[Address(RVA = "0x69FD2B0", Offset = "0x69FC2B0", VA = "0x69FD2B0")]
 	public GlyphPairAdjustmentRecord(GlyphAdjustmentRecord firstAdjustmentRecord, GlyphAdjustmentRecord secondAdjustmentRecord)
 	{
 	}
 
-	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x3002970", Offset = "0x3000F70", VA = "0x183002970", Slot = "2")]
+	[Token(Token = "0x60000AB")]
+	[Address(RVA = "0x69FD2E0", Offset = "0x69FC2E0", VA = "0x69FD2E0", Slot = "2")]
 	[ExcludeFromDocs]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x3002850", Offset = "0x3000E50", VA = "0x183002850", Slot = "0")]
+	[Token(Token = "0x60000AC")]
+	[Address(RVA = "0x69FD340", Offset = "0x69FC340", VA = "0x69FD340", Slot = "0")]
 	[ExcludeFromDocs]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x30028C0", Offset = "0x3000EC0", VA = "0x1830028C0", Slot = "4")]
+	[Token(Token = "0x60000AD")]
+	[Address(RVA = "0x69FD3B0", Offset = "0x69FC3B0", VA = "0x69FD3B0", Slot = "4")]
 	[ExcludeFromDocs]
 	public bool Equals(GlyphPairAdjustmentRecord other)
 	{

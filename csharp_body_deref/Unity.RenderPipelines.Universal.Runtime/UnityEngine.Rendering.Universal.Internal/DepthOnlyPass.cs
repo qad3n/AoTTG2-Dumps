@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.DepthOnlyPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,14 +23,14 @@ public class DepthOnlyPass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x6000BBA")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66C9740", Offset = "0x66C8740", VA = "0x66C9740")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x4000D0A")]
-	[FieldOffset(Offset = "0x64")]
+	[FieldOffset(Offset = "0x60")]
 	private FilteringSettings m_FilteringSettings;
 
 	[Token(Token = "0x4000D0B")]
@@ -45,14 +45,14 @@ public class DepthOnlyPass : ScriptableRenderPass
 	internal ShaderTagId shaderTagId
 	{
 		[Token(Token = "0x6000BB2")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x66C8A90", Offset = "0x66C7A90", VA = "0x66C8A90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ShaderTagId);
 		}
 		[Token(Token = "0x6000BB3")]
-		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
+		[Address(RVA = "0x66C8AA0", Offset = "0x66C7AA0", VA = "0x66C8AA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -60,46 +60,46 @@ public class DepthOnlyPass : ScriptableRenderPass
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x66C8A70", Offset = "0x66C7A70", VA = "0x66C8A70", Slot = "6")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66C8A80", Offset = "0x66C7A80", VA = "0x66C8A80", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000BB4")]
-	[Address(RVA = "0x2CCCAD0", Offset = "0x2CCB0D0", VA = "0x182CCCAD0")]
+	[Address(RVA = "0x66C8AB0", Offset = "0x66C7AB0", VA = "0x66C8AB0")]
 	public DepthOnlyPass(RenderPassEvent evt, RenderQueueRange renderQueueRange, LayerMask layerMask)
 	{
 	}
 
 	[Token(Token = "0x6000BB5")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66C8C10", Offset = "0x66C7C10", VA = "0x66C8C10")]
 	public void Setup(RenderTextureDescriptor baseDescriptor, RTHandle depthAttachmentHandle)
 	{
 	}
 
 	[Token(Token = "0x6000BB6")]
-	[Address(RVA = "0x2CCBC60", Offset = "0x2CCA260", VA = "0x182CCBC60")]
+	[Address(RVA = "0x66C8C20", Offset = "0x66C7C20", VA = "0x66C8C20")]
 	private static void ExecutePass(RasterCommandBuffer cmd, RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000BB7")]
-	[Address(RVA = "0x2CCBD30", Offset = "0x2CCA330", VA = "0x182CCBD30")]
+	[Address(RVA = "0x66C8D20", Offset = "0x66C7D20", VA = "0x66C8D20")]
 	private RendererListParams InitRendererListParams(UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 		return default(RendererListParams);
 	}
 
 	[Token(Token = "0x6000BB8")]
-	[Address(RVA = "0x2CCC090", Offset = "0x2CCA690", VA = "0x182CCC090")]
+	[Address(RVA = "0x66C8E90", Offset = "0x66C7E90", VA = "0x66C8E90")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle depthTexture, uint batchLayerMask, bool setGlobalDepth)
 	{
 	}

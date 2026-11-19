@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000700")]
+[Token(Token = "0x20007AA")]
 internal class SimplePanel : BasePanel
 {
-	[Token(Token = "0x60044CB")]
-	[Address(RVA = "0x21BC920", Offset = "0x21BAF20", VA = "0x1821BC920")]
+	[Token(Token = "0x60049F2")]
+	[Address(RVA = "0x5BC8150", Offset = "0x5BC7150", VA = "0x5BC8150")]
 	public SimplePanel()
 	{
 	}

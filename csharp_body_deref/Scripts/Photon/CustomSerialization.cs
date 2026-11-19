@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace Photon;
 
-[Token(Token = "0x200089F")]
+[Token(Token = "0x2000905")]
 internal class CustomSerialization
 {
-	[Token(Token = "0x6005276")]
-	[Address(RVA = "0x2334BF0", Offset = "0x23331F0", VA = "0x182334BF0")]
+	[Token(Token = "0x60055B2")]
+	[Address(RVA = "0x5CDC380", Offset = "0x5CDB380", VA = "0x5CDC380")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6005277")]
-	[Address(RVA = "0x2334BF0", Offset = "0x23331F0", VA = "0x182334BF0")]
+	[Token(Token = "0x60055B3")]
+	[Address(RVA = "0x5CDC390", Offset = "0x5CDB390", VA = "0x5CDC390")]
 	internal static void Register()
 	{
 	}
 
-	[Token(Token = "0x6005278")]
-	[Address(RVA = "0x2334B20", Offset = "0x2333120", VA = "0x182334B20")]
+	[Token(Token = "0x60055B4")]
+	[Address(RVA = "0x5CDC4B0", Offset = "0x5CDB4B0", VA = "0x5CDC4B0")]
 	public static object DeserializeColor(byte[] data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005279")]
-	[Address(RVA = "0x2334D10", Offset = "0x2333310", VA = "0x182334D10")]
+	[Token(Token = "0x60055B5")]
+	[Address(RVA = "0x5CDC550", Offset = "0x5CDB550", VA = "0x5CDC550")]
 	public static byte[] SerializeColor(object obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600527A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60055B6")]
+	[Address(RVA = "0x5CDC670", Offset = "0x5CDB670", VA = "0x5CDC670")]
 	public CustomSerialization()
 	{
 	}

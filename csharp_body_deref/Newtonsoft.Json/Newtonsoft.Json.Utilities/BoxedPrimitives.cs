@@ -121,35 +121,35 @@ internal static class BoxedPrimitives
 	internal static readonly object DoubleZero;
 
 	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x1C19380", Offset = "0x1C17980", VA = "0x181C19380")]
+	[Address(RVA = "0x55A4840", Offset = "0x55A3840", VA = "0x55A4840")]
 	internal static object Get(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x1C18E80", Offset = "0x1C17480", VA = "0x181C18E80")]
+	[Address(RVA = "0x55A48B0", Offset = "0x55A38B0", VA = "0x55A48B0")]
 	internal static object Get(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x1C190F0", Offset = "0x1C176F0", VA = "0x181C190F0")]
+	[Address(RVA = "0x55A4AD0", Offset = "0x55A3AD0", VA = "0x55A4AD0")]
 	internal static object Get(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x1C19580", Offset = "0x1C17B80", VA = "0x181C19580")]
+	[Address(RVA = "0x55A4D00", Offset = "0x55A3D00", VA = "0x55A4D00")]
 	internal static object Get(decimal value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x1C19410", Offset = "0x1C17A10", VA = "0x181C19410")]
+	[Address(RVA = "0x55A4DC0", Offset = "0x55A3DC0", VA = "0x55A4DC0")]
 	internal static object Get(double value)
 	{
 		return null;

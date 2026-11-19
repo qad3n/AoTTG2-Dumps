@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001E1")]
+[Token(Token = "0x20001A2")]
 public static class SyntaxCheck
 {
-	[Token(Token = "0x6000CC1")]
-	[Address(RVA = "0x28C95B0", Offset = "0x28C7BB0", VA = "0x1828C95B0")]
+	[Token(Token = "0x6000B01")]
+	[Address(RVA = "0x6249A80", Offset = "0x6248A80", VA = "0x6249A80")]
 	public static bool CheckMachineName(string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC2")]
-	[Address(RVA = "0x28C9620", Offset = "0x28C7C20", VA = "0x1828C9620")]
+	[Token(Token = "0x6000B02")]
+	[Address(RVA = "0x6249AF0", Offset = "0x6248AF0", VA = "0x6249AF0")]
 	public static bool CheckPath(string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CC3")]
-	[Address(RVA = "0x28C96B0", Offset = "0x28C7CB0", VA = "0x1828C96B0")]
+	[Token(Token = "0x6000B03")]
+	[Address(RVA = "0x6249B70", Offset = "0x6248B70", VA = "0x6249B70")]
 	public static bool CheckRootedPath(string value)
 	{
 		return default(bool);

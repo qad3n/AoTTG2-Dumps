@@ -14,7 +14,7 @@ namespace Cysharp.Threading.Tasks;
 public static class ExceptionExtensions
 {
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x290DD70", Offset = "0x290C370", VA = "0x18290DD70")]
+	[Address(RVA = "0x62C5660", Offset = "0x62C4660", VA = "0x62C5660")]
 	public static bool IsOperationCanceledException(this Exception exception)
 	{
 		return default(bool);

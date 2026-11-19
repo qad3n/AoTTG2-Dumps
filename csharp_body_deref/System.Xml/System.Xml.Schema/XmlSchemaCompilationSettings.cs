@@ -20,7 +20,7 @@ public sealed class XmlSchemaCompilationSettings
 	public bool EnableUpaCheck
 	{
 		[Token(Token = "0x600159A")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6028870", Offset = "0x6027870", VA = "0x6028870")]
 		get
 		{
 			return default(bool);
@@ -28,7 +28,7 @@ public sealed class XmlSchemaCompilationSettings
 	}
 
 	[Token(Token = "0x6001599")]
-	[Address(RVA = "0x1C88340", Offset = "0x1C86940", VA = "0x181C88340")]
+	[Address(RVA = "0x6028850", Offset = "0x6027850", VA = "0x6028850")]
 	public XmlSchemaCompilationSettings()
 	{
 	}

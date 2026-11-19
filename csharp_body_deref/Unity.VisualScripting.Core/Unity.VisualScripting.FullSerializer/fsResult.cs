@@ -34,7 +34,7 @@ public struct fsResult
 	public bool Failed
 	{
 		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0x12906C0", Offset = "0x128ECC0", VA = "0x1812906C0")]
+		[Address(RVA = "0x6869D80", Offset = "0x6868D80", VA = "0x6869D80")]
 		get
 		{
 			return default(bool);
@@ -45,7 +45,7 @@ public struct fsResult
 	public bool Succeeded
 	{
 		[Token(Token = "0x60012B7")]
-		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
+		[Address(RVA = "0x6869D90", Offset = "0x6868D90", VA = "0x6869D90")]
 		get
 		{
 			return default(bool);
@@ -56,7 +56,7 @@ public struct fsResult
 	public bool HasWarnings
 	{
 		[Token(Token = "0x60012B8")]
-		[Address(RVA = "0x2E72C00", Offset = "0x2E71200", VA = "0x182E72C00")]
+		[Address(RVA = "0x6869DA0", Offset = "0x6868DA0", VA = "0x6869DA0")]
 		get
 		{
 			return default(bool);
@@ -67,7 +67,7 @@ public struct fsResult
 	public Exception AsException
 	{
 		[Token(Token = "0x60012BB")]
-		[Address(RVA = "0x2E729C0", Offset = "0x2E70FC0", VA = "0x182E729C0")]
+		[Address(RVA = "0x6869E80", Offset = "0x6868E80", VA = "0x6869E80")]
 		get
 		{
 			return null;
@@ -78,7 +78,7 @@ public struct fsResult
 	public IEnumerable<string> RawMessages
 	{
 		[Token(Token = "0x60012BC")]
-		[Address(RVA = "0x2E72C50", Offset = "0x2E71250", VA = "0x182E72C50")]
+		[Address(RVA = "0x686A130", Offset = "0x6869130", VA = "0x686A130")]
 		get
 		{
 			return null;
@@ -89,7 +89,7 @@ public struct fsResult
 	public string FormattedMessages
 	{
 		[Token(Token = "0x60012BD")]
-		[Address(RVA = "0x2E72B30", Offset = "0x2E71130", VA = "0x182E72B30")]
+		[Address(RVA = "0x686A1A0", Offset = "0x68691A0", VA = "0x686A1A0")]
 		get
 		{
 			return null;
@@ -97,54 +97,54 @@ public struct fsResult
 	}
 
 	[Token(Token = "0x60012B0")]
-	[Address(RVA = "0x2E722B0", Offset = "0x2E708B0", VA = "0x182E722B0")]
+	[Address(RVA = "0x68698B0", Offset = "0x68688B0", VA = "0x68698B0")]
 	public void AddMessage(string message)
 	{
 	}
 
 	[Token(Token = "0x60012B1")]
-	[Address(RVA = "0x2E723B0", Offset = "0x2E709B0", VA = "0x182E723B0")]
+	[Address(RVA = "0x68699A0", Offset = "0x68689A0", VA = "0x68699A0")]
 	public void AddMessages(fsResult result)
 	{
 	}
 
 	[Token(Token = "0x60012B2")]
-	[Address(RVA = "0x2E72730", Offset = "0x2E70D30", VA = "0x182E72730")]
+	[Address(RVA = "0x6869A50", Offset = "0x6868A50", VA = "0x6869A50")]
 	public fsResult Merge(fsResult other)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012B3")]
-	[Address(RVA = "0x2E72810", Offset = "0x2E70E10", VA = "0x182E72810")]
+	[Address(RVA = "0x6869B20", Offset = "0x6868B20", VA = "0x6869B20")]
 	public static fsResult Warn(string warning)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012B4")]
-	[Address(RVA = "0x2E72630", Offset = "0x2E70C30", VA = "0x182E72630")]
+	[Address(RVA = "0x6869C20", Offset = "0x6868C20", VA = "0x6869C20")]
 	public static fsResult Fail(string warning)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012B5")]
-	[Address(RVA = "0x2E72CC0", Offset = "0x2E712C0", VA = "0x182E72CC0")]
+	[Address(RVA = "0x6869D10", Offset = "0x6868D10", VA = "0x6869D10")]
 	public static fsResult operator +(fsResult a, fsResult b)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012B9")]
-	[Address(RVA = "0x2E72590", Offset = "0x2E70B90", VA = "0x182E72590")]
+	[Address(RVA = "0x6869DE0", Offset = "0x6868DE0", VA = "0x6869DE0")]
 	public fsResult AssertSuccess()
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60012BA")]
-	[Address(RVA = "0x2E72470", Offset = "0x2E70A70", VA = "0x182E72470")]
+	[Address(RVA = "0x686A000", Offset = "0x6869000", VA = "0x686A000")]
 	public fsResult AssertSuccessWithoutWarnings()
 	{
 		return default(fsResult);

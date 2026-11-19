@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncParticleSystemStoppedTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B75")]
-	[Address(RVA = "0x2934490", Offset = "0x2932A90", VA = "0x182934490")]
+	[Address(RVA = "0x62FDCC0", Offset = "0x62FCCC0", VA = "0x62FDCC0")]
 	private void OnParticleSystemStopped()
 	{
 	}
 
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x2934180", Offset = "0x2932780", VA = "0x182934180")]
+	[Address(RVA = "0x62FDD30", Offset = "0x62FCD30", VA = "0x62FDD30")]
 	public IAsyncOnParticleSystemStoppedHandler GetOnParticleSystemStoppedAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B77")]
-	[Address(RVA = "0x29341F0", Offset = "0x29327F0", VA = "0x1829341F0")]
+	[Address(RVA = "0x62FDDA0", Offset = "0x62FCDA0", VA = "0x62FDDA0")]
 	public IAsyncOnParticleSystemStoppedHandler GetOnParticleSystemStoppedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B78")]
-	[Address(RVA = "0x2934270", Offset = "0x2932870", VA = "0x182934270")]
+	[Address(RVA = "0x62FDE10", Offset = "0x62FCE10", VA = "0x62FDE10")]
 	public UniTask OnParticleSystemStoppedAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x2934380", Offset = "0x2932980", VA = "0x182934380")]
+	[Address(RVA = "0x62FDF00", Offset = "0x62FCF00", VA = "0x62FDF00")]
 	public UniTask OnParticleSystemStoppedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B7A")]
-	[Address(RVA = "0x2934500", Offset = "0x2932B00", VA = "0x182934500")]
+	[Address(RVA = "0x62FDFF0", Offset = "0x62FCFF0", VA = "0x62FDFF0")]
 	public AsyncParticleSystemStoppedTrigger()
 	{
 	}

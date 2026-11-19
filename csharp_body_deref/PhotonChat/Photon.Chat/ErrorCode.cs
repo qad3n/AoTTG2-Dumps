@@ -61,7 +61,7 @@ public class ErrorCode
 	public const int AuthenticationTicketExpired = 32753;
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56A61E0", Offset = "0x56A51E0", VA = "0x56A61E0")]
 	public ErrorCode()
 	{
 	}

@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005F6")]
+[Token(Token = "0x2000655")]
 internal interface ICustomLogicMathOperators
 {
-	[Token(Token = "0x6003A66")]
+	[Token(Token = "0x6003CF4")]
 	object __Add__(object self, object other);
 
-	[Token(Token = "0x6003A67")]
+	[Token(Token = "0x6003CF5")]
 	object __Sub__(object self, object other);
 
-	[Token(Token = "0x6003A68")]
+	[Token(Token = "0x6003CF6")]
 	object __Mul__(object self, object other);
 
-	[Token(Token = "0x6003A69")]
+	[Token(Token = "0x6003CF7")]
 	object __Div__(object self, object other);
 
-	[Token(Token = "0x6003A6A")]
+	[Token(Token = "0x6003CF8")]
 	object __Mod__(object self, object other);
 }

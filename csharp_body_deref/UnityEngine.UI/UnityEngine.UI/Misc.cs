@@ -13,13 +13,13 @@ namespace UnityEngine.UI;
 internal static class Misc
 {
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x32DA270", Offset = "0x32D8870", VA = "0x1832DA270")]
+	[Address(RVA = "0x6CE8230", Offset = "0x6CE7230", VA = "0x6CE8230")]
 	public static void Destroy(Object obj)
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x32DA1B0", Offset = "0x32D87B0", VA = "0x1832DA1B0")]
+	[Address(RVA = "0x6CE8350", Offset = "0x6CE7350", VA = "0x6CE8350")]
 	public static void DestroyImmediate(Object obj)
 	{
 	}

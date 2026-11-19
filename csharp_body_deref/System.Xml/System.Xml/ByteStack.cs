@@ -29,19 +29,19 @@ internal class ByteStack
 	private int size;
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x25D1550", Offset = "0x25CFB50", VA = "0x1825D1550")]
+	[Address(RVA = "0x5F99D90", Offset = "0x5F98D90", VA = "0x5F99D90")]
 	public ByteStack(int growthRate)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x25D1480", Offset = "0x25CFA80", VA = "0x1825D1480")]
+	[Address(RVA = "0x5F99E00", Offset = "0x5F98E00", VA = "0x5F99E00")]
 	public void Push(byte data)
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x25D1430", Offset = "0x25CFA30", VA = "0x1825D1430")]
+	[Address(RVA = "0x5F99EB0", Offset = "0x5F98EB0", VA = "0x5F99EB0")]
 	public byte Pop()
 	{
 		return default(byte);

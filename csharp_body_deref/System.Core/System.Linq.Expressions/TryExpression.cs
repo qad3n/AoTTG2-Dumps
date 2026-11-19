@@ -13,38 +13,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000C3")]
+[Token(Token = "0x20000C4")]
 [DebuggerTypeProxy(typeof(TryExpressionProxy))]
 public sealed class TryExpression : Expression
 {
-	[Token(Token = "0x17000128")]
+	[Token(Token = "0x1700012A")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000562")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000129")]
-	public sealed override ExpressionType NodeType
-	{
-		[Token(Token = "0x6000563")]
-		[Address(RVA = "0x2441870", Offset = "0x243FE70", VA = "0x182441870", Slot = "4")]
-		get
-		{
-			return default(ExpressionType);
-		}
-	}
-
-	[Token(Token = "0x1700012A")]
-	public Expression Body
-	{
-		[Token(Token = "0x6000564")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600056D")]
+		[Address(RVA = "0x5DD6150", Offset = "0x5DD5150", VA = "0x5DD6150", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,22 +30,21 @@ public sealed class TryExpression : Expression
 	}
 
 	[Token(Token = "0x1700012B")]
-	public ReadOnlyCollection<CatchBlock> Handlers
+	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000565")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
-		[CompilerGenerated]
+		[Token(Token = "0x600056E")]
+		[Address(RVA = "0x5DD6160", Offset = "0x5DD5160", VA = "0x5DD6160", Slot = "4")]
 		get
 		{
-			return null;
+			return default(ExpressionType);
 		}
 	}
 
 	[Token(Token = "0x1700012C")]
-	public Expression Finally
+	public Expression Body
 	{
-		[Token(Token = "0x6000566")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x600056F")]
+		[Address(RVA = "0x5DD6170", Offset = "0x5DD5170", VA = "0x5DD6170")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,10 +53,10 @@ public sealed class TryExpression : Expression
 	}
 
 	[Token(Token = "0x1700012D")]
-	public Expression Fault
+	public ReadOnlyCollection<CatchBlock> Handlers
 	{
-		[Token(Token = "0x6000567")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6000570")]
+		[Address(RVA = "0x5DD6180", Offset = "0x5DD5180", VA = "0x5DD6180")]
 		[CompilerGenerated]
 		get
 		{
@@ -88,21 +64,45 @@ public sealed class TryExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x6000561")]
-	[Address(RVA = "0x24417C0", Offset = "0x243FDC0", VA = "0x1824417C0")]
+	[Token(Token = "0x1700012E")]
+	public Expression Finally
+	{
+		[Token(Token = "0x6000571")]
+		[Address(RVA = "0x5DD6190", Offset = "0x5DD5190", VA = "0x5DD6190")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700012F")]
+	public Expression Fault
+	{
+		[Token(Token = "0x6000572")]
+		[Address(RVA = "0x5DD61A0", Offset = "0x5DD51A0", VA = "0x5DD61A0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600056C")]
+	[Address(RVA = "0x5DD6090", Offset = "0x5DD5090", VA = "0x5DD6090")]
 	internal TryExpression(Type type, Expression body, Expression @finally, Expression fault, ReadOnlyCollection<CatchBlock> handlers)
 	{
 	}
 
-	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x2441690", Offset = "0x243FC90", VA = "0x182441690", Slot = "9")]
+	[Token(Token = "0x6000573")]
+	[Address(RVA = "0x5DD61B0", Offset = "0x5DD51B0", VA = "0x5DD61B0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000569")]
-	[Address(RVA = "0x24416C0", Offset = "0x243FCC0", VA = "0x1824416C0")]
+	[Token(Token = "0x6000574")]
+	[Address(RVA = "0x5DD0D50", Offset = "0x5DCFD50", VA = "0x5DD0D50")]
 	public TryExpression Update(Expression body, IEnumerable<CatchBlock> handlers, Expression @finally, Expression fault)
 	{
 		return null;

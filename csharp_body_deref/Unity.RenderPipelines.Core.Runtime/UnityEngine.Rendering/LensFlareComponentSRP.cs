@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.LensFlareComponentSRP
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -128,57 +128,57 @@ public sealed class LensFlareComponentSRP : MonoBehaviour
 	public LensFlareDataSRP lensFlareData
 	{
 		[Token(Token = "0x6000B31")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x651B9D0", Offset = "0x651A9D0", VA = "0x651B9D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B32")]
-		[Address(RVA = "0x2B298C0", Offset = "0x2B27EC0", VA = "0x182B298C0")]
+		[Address(RVA = "0x651B9E0", Offset = "0x651A9E0", VA = "0x651B9E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x2B297F0", Offset = "0x2B27DF0", VA = "0x182B297F0")]
+	[Address(RVA = "0x6516FE0", Offset = "0x6515FE0", VA = "0x6516FE0")]
 	public float celestialProjectedOcclusionRadius(Camera mainCam)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x651BAD0", Offset = "0x651AAD0", VA = "0x651BAD0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x2B29220", Offset = "0x2B27820", VA = "0x182B29220")]
+	[Address(RVA = "0x651BAE0", Offset = "0x651AAE0", VA = "0x651BAE0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000B36")]
-	[Address(RVA = "0x2B291C0", Offset = "0x2B277C0", VA = "0x182B291C0")]
+	[Address(RVA = "0x651BBA0", Offset = "0x651ABA0", VA = "0x651BBA0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x2B292F0", Offset = "0x2B278F0", VA = "0x182B292F0")]
+	[Address(RVA = "0x651BA00", Offset = "0x651AA00", VA = "0x651BA00")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x2B291A0", Offset = "0x2B277A0", VA = "0x182B291A0")]
+	[Address(RVA = "0x651BC10", Offset = "0x651AC10", VA = "0x651BC10")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x2B29420", Offset = "0x2B27A20", VA = "0x182B29420")]
+	[Address(RVA = "0x651BC30", Offset = "0x651AC30", VA = "0x651BC30")]
 	public LensFlareComponentSRP()
 	{
 	}

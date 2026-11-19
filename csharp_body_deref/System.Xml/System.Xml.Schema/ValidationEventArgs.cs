@@ -24,7 +24,7 @@ public class ValidationEventArgs : EventArgs
 	public XmlSeverityType Severity
 	{
 		[Token(Token = "0x600143D")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x6014940", Offset = "0x6013940", VA = "0x6014940")]
 		get
 		{
 			return default(XmlSeverityType);
@@ -35,7 +35,7 @@ public class ValidationEventArgs : EventArgs
 	public XmlSchemaException Exception
 	{
 		[Token(Token = "0x600143E")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6014950", Offset = "0x6013950", VA = "0x6014950")]
 		get
 		{
 			return null;
@@ -43,13 +43,13 @@ public class ValidationEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x600143B")]
-	[Address(RVA = "0x2655880", Offset = "0x2653E80", VA = "0x182655880")]
+	[Address(RVA = "0x6014860", Offset = "0x6013860", VA = "0x6014860")]
 	internal ValidationEventArgs(XmlSchemaException ex)
 	{
 	}
 
 	[Token(Token = "0x600143C")]
-	[Address(RVA = "0x26558F0", Offset = "0x2653EF0", VA = "0x1826558F0")]
+	[Address(RVA = "0x60148D0", Offset = "0x60138D0", VA = "0x60148D0")]
 	internal ValidationEventArgs(XmlSchemaException ex, XmlSeverityType severity)
 	{
 	}

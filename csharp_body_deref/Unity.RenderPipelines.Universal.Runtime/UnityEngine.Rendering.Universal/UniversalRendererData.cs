@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRendererData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -107,13 +107,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public LayerMask prepassLayerMask
 	{
 		[Token(Token = "0x6000438")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x6627E60", Offset = "0x6626E60", VA = "0x6627E60")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000439")]
-		[Address(RVA = "0x2C34990", Offset = "0x2C32F90", VA = "0x182C34990")]
+		[Address(RVA = "0x6627E70", Offset = "0x6626E70", VA = "0x6627E70")]
 		set
 		{
 		}
@@ -123,13 +123,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public LayerMask opaqueLayerMask
 	{
 		[Token(Token = "0x600043A")]
-		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
+		[Address(RVA = "0x6627E80", Offset = "0x6626E80", VA = "0x6627E80")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600043B")]
-		[Address(RVA = "0x2C34980", Offset = "0x2C32F80", VA = "0x182C34980")]
+		[Address(RVA = "0x6627E90", Offset = "0x6626E90", VA = "0x6627E90")]
 		set
 		{
 		}
@@ -139,13 +139,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public LayerMask transparentLayerMask
 	{
 		[Token(Token = "0x600043C")]
-		[Address(RVA = "0xCDE980", Offset = "0xCDCF80", VA = "0x180CDE980")]
+		[Address(RVA = "0x6627EA0", Offset = "0x6626EA0", VA = "0x6627EA0")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600043D")]
-		[Address(RVA = "0x2C349C0", Offset = "0x2C32FC0", VA = "0x182C349C0")]
+		[Address(RVA = "0x6627EB0", Offset = "0x6626EB0", VA = "0x6627EB0")]
 		set
 		{
 		}
@@ -155,13 +155,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public StencilStateData defaultStencilState
 	{
 		[Token(Token = "0x600043E")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6627EC0", Offset = "0x6626EC0", VA = "0x6627EC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600043F")]
-		[Address(RVA = "0x2C34870", Offset = "0x2C32E70", VA = "0x182C34870")]
+		[Address(RVA = "0x6627ED0", Offset = "0x6626ED0", VA = "0x6627ED0")]
 		set
 		{
 		}
@@ -171,13 +171,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public bool shadowTransparentReceive
 	{
 		[Token(Token = "0x6000440")]
-		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
+		[Address(RVA = "0x6627EF0", Offset = "0x6626EF0", VA = "0x6627EF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000441")]
-		[Address(RVA = "0x2C349B0", Offset = "0x2C32FB0", VA = "0x182C349B0")]
+		[Address(RVA = "0x6627F00", Offset = "0x6626F00", VA = "0x6627F00")]
 		set
 		{
 		}
@@ -187,13 +187,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public RenderingMode renderingMode
 	{
 		[Token(Token = "0x6000442")]
-		[Address(RVA = "0x187BA40", Offset = "0x187A040", VA = "0x18187BA40")]
+		[Address(RVA = "0x6627F10", Offset = "0x6626F10", VA = "0x6627F10")]
 		get
 		{
 			return default(RenderingMode);
 		}
 		[Token(Token = "0x6000443")]
-		[Address(RVA = "0x2C349A0", Offset = "0x2C32FA0", VA = "0x182C349A0")]
+		[Address(RVA = "0x6627F20", Offset = "0x6626F20", VA = "0x6627F20")]
 		set
 		{
 		}
@@ -203,13 +203,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public DepthPrimingMode depthPrimingMode
 	{
 		[Token(Token = "0x6000444")]
-		[Address(RVA = "0x58A600", Offset = "0x588C00", VA = "0x18058A600")]
+		[Address(RVA = "0x6627F30", Offset = "0x6626F30", VA = "0x6627F30")]
 		get
 		{
 			return default(DepthPrimingMode);
 		}
 		[Token(Token = "0x6000445")]
-		[Address(RVA = "0x2C34950", Offset = "0x2C32F50", VA = "0x182C34950")]
+		[Address(RVA = "0x6627F40", Offset = "0x6626F40", VA = "0x6627F40")]
 		set
 		{
 		}
@@ -219,13 +219,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public CopyDepthMode copyDepthMode
 	{
 		[Token(Token = "0x6000446")]
-		[Address(RVA = "0x1BF1B70", Offset = "0x1BF0170", VA = "0x181BF1B70")]
+		[Address(RVA = "0x6627F50", Offset = "0x6626F50", VA = "0x6627F50")]
 		get
 		{
 			return default(CopyDepthMode);
 		}
 		[Token(Token = "0x6000447")]
-		[Address(RVA = "0x2C34860", Offset = "0x2C32E60", VA = "0x182C34860")]
+		[Address(RVA = "0x6627F60", Offset = "0x6626F60", VA = "0x6627F60")]
 		set
 		{
 		}
@@ -235,13 +235,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public DepthFormat depthAttachmentFormat
 	{
 		[Token(Token = "0x6000448")]
-		[Address(RVA = "0x2C34690", Offset = "0x2C32C90", VA = "0x182C34690")]
+		[Address(RVA = "0x6627F70", Offset = "0x6626F70", VA = "0x6627F70")]
 		get
 		{
 			return default(DepthFormat);
 		}
 		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x2C34890", Offset = "0x2C32E90", VA = "0x182C34890")]
+		[Address(RVA = "0x6628000", Offset = "0x6627000", VA = "0x6628000")]
 		set
 		{
 		}
@@ -251,13 +251,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public DepthFormat depthTextureFormat
 	{
 		[Token(Token = "0x600044A")]
-		[Address(RVA = "0x2C34720", Offset = "0x2C32D20", VA = "0x182C34720")]
+		[Address(RVA = "0x66280B0", Offset = "0x66270B0", VA = "0x66280B0")]
 		get
 		{
 			return default(DepthFormat);
 		}
 		[Token(Token = "0x600044B")]
-		[Address(RVA = "0x2C34960", Offset = "0x2C32F60", VA = "0x182C34960")]
+		[Address(RVA = "0x66281A0", Offset = "0x66271A0", VA = "0x66281A0")]
 		set
 		{
 		}
@@ -267,13 +267,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public bool accurateGbufferNormals
 	{
 		[Token(Token = "0x600044C")]
-		[Address(RVA = "0x1C40680", Offset = "0x1C3EC80", VA = "0x181C40680")]
+		[Address(RVA = "0x66281B0", Offset = "0x66271B0", VA = "0x66281B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600044D")]
-		[Address(RVA = "0x2C34850", Offset = "0x2C32E50", VA = "0x182C34850")]
+		[Address(RVA = "0x66281C0", Offset = "0x66271C0", VA = "0x66281C0")]
 		set
 		{
 		}
@@ -283,13 +283,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public IntermediateTextureMode intermediateTextureMode
 	{
 		[Token(Token = "0x600044E")]
-		[Address(RVA = "0xA4D580", Offset = "0xA4BB80", VA = "0x180A4D580")]
+		[Address(RVA = "0x66281D0", Offset = "0x66271D0", VA = "0x66281D0")]
 		get
 		{
 			return default(IntermediateTextureMode);
 		}
 		[Token(Token = "0x600044F")]
-		[Address(RVA = "0x2C34970", Offset = "0x2C32F70", VA = "0x182C34970")]
+		[Address(RVA = "0x66281E0", Offset = "0x66271E0", VA = "0x66281E0")]
 		set
 		{
 		}
@@ -299,7 +299,7 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public bool usesDeferredLighting
 	{
 		[Token(Token = "0x6000450")]
-		[Address(RVA = "0x2C34830", Offset = "0x2C32E30", VA = "0x182C34830")]
+		[Address(RVA = "0x66281F0", Offset = "0x66271F0", VA = "0x66281F0")]
 		get
 		{
 			return default(bool);
@@ -310,7 +310,7 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	public bool usesClusterLightLoop
 	{
 		[Token(Token = "0x6000451")]
-		[Address(RVA = "0x2C34810", Offset = "0x2C32E10", VA = "0x182C34810")]
+		[Address(RVA = "0x6628200", Offset = "0x6627200", VA = "0x6628200")]
 		get
 		{
 			return default(bool);
@@ -321,13 +321,13 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	internal override bool stripShadowsOffVariants
 	{
 		[Token(Token = "0x6000452")]
-		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960", Slot = "4")]
+		[Address(RVA = "0x6628210", Offset = "0x6627210", VA = "0x6628210", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000453")]
-		[Address(RVA = "0xB5BDB0", Offset = "0xB5A3B0", VA = "0x180B5BDB0", Slot = "5")]
+		[Address(RVA = "0x6628220", Offset = "0x6627220", VA = "0x6628220", Slot = "5")]
 		set
 		{
 		}
@@ -337,51 +337,51 @@ public class UniversalRendererData : ScriptableRendererData, ISerializationCallb
 	internal override bool stripAdditionalLightOffVariants
 	{
 		[Token(Token = "0x6000454")]
-		[Address(RVA = "0x24C53F0", Offset = "0x24C39F0", VA = "0x1824C53F0", Slot = "6")]
+		[Address(RVA = "0x6628230", Offset = "0x6627230", VA = "0x6628230", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000455")]
-		[Address(RVA = "0x2C12940", Offset = "0x2C10F40", VA = "0x182C12940", Slot = "7")]
+		[Address(RVA = "0x6628240", Offset = "0x6627240", VA = "0x6628240", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x2C34460", Offset = "0x2C32A60", VA = "0x182C34460", Slot = "8")]
+	[Address(RVA = "0x6627DD0", Offset = "0x6626DD0", VA = "0x6627DD0", Slot = "8")]
 	protected override ScriptableRenderer Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000456")]
-	[Address(RVA = "0x2ABF3A0", Offset = "0x2ABD9A0", VA = "0x182ABF3A0", Slot = "10")]
+	[Address(RVA = "0x6628250", Offset = "0x6627250", VA = "0x6628250", Slot = "10")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000457")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6627E50", Offset = "0x6626E50", VA = "0x6627E50")]
 	private void ReloadAllNullProperties()
 	{
 	}
 
 	[Token(Token = "0x6000458")]
-	[Address(RVA = "0x2C34510", Offset = "0x2C32B10", VA = "0x182C34510", Slot = "11")]
+	[Address(RVA = "0x6628260", Offset = "0x6627260", VA = "0x6628260", Slot = "11")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x2C344E0", Offset = "0x2C32AE0", VA = "0x182C344E0", Slot = "12")]
+	[Address(RVA = "0x6628270", Offset = "0x6627270", VA = "0x6628270", Slot = "12")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x2C34520", Offset = "0x2C32B20", VA = "0x182C34520")]
+	[Address(RVA = "0x66282A0", Offset = "0x66272A0", VA = "0x66282A0")]
 	public UniversalRendererData()
 	{
 	}

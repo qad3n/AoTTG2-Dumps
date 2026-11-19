@@ -37,14 +37,14 @@ public class StructWrapperPools
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x1CF0940", Offset = "0x1CEEF40", VA = "0x181CF0940")]
+	[Address(RVA = "0x5689EA0", Offset = "0x5688EA0", VA = "0x5689EA0")]
 	public StructWrapper<byte> Acquire(byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x1CF08D0", Offset = "0x1CEEED0", VA = "0x181CF08D0")]
+	[Address(RVA = "0x5689F30", Offset = "0x5688F30", VA = "0x5689F30")]
 	public StructWrapper<bool> Acquire(bool value)
 	{
 		return null;
@@ -57,13 +57,13 @@ public class StructWrapperPools
 	}
 
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x1CF09B0", Offset = "0x1CEEFB0", VA = "0x181CF09B0")]
+	[Address(RVA = "0x5689FC0", Offset = "0x5688FC0", VA = "0x5689FC0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x1CF86B0", Offset = "0x1CF6CB0", VA = "0x181CF86B0")]
+	[Address(RVA = "0x568A1D0", Offset = "0x56891D0", VA = "0x568A1D0")]
 	public StructWrapperPools()
 	{
 	}

@@ -12,57 +12,57 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000303")]
+[Token(Token = "0x20002DC")]
 [ComVisible(true)]
 public class CryptographicException : SystemException
 {
-	[Token(Token = "0x4000CF4")]
+	[Token(Token = "0x4000C54")]
 	private const int FORMAT_MESSAGE_IGNORE_INSERTS = 512;
 
-	[Token(Token = "0x4000CF5")]
+	[Token(Token = "0x4000C55")]
 	private const int FORMAT_MESSAGE_FROM_SYSTEM = 4096;
 
-	[Token(Token = "0x4000CF6")]
+	[Token(Token = "0x4000C56")]
 	private const int FORMAT_MESSAGE_ARGUMENT_ARRAY = 8192;
 
-	[Token(Token = "0x6001929")]
-	[Address(RVA = "0x19A3330", Offset = "0x19A1930", VA = "0x1819A3330")]
+	[Token(Token = "0x6001906")]
+	[Address(RVA = "0x5337C30", Offset = "0x5336C30", VA = "0x5337C30")]
 	public CryptographicException()
 	{
 	}
 
-	[Token(Token = "0x600192A")]
-	[Address(RVA = "0x19A3390", Offset = "0x19A1990", VA = "0x1819A3390")]
+	[Token(Token = "0x6001907")]
+	[Address(RVA = "0x53361D0", Offset = "0x53351D0", VA = "0x53361D0")]
 	public CryptographicException(string message)
 	{
 	}
 
-	[Token(Token = "0x600192B")]
-	[Address(RVA = "0x19A3270", Offset = "0x19A1870", VA = "0x1819A3270")]
+	[Token(Token = "0x6001908")]
+	[Address(RVA = "0x5337C80", Offset = "0x5336C80", VA = "0x5337C80")]
 	public CryptographicException(string format, string insert)
 	{
 	}
 
-	[Token(Token = "0x600192C")]
-	[Address(RVA = "0x19A3300", Offset = "0x19A1900", VA = "0x1819A3300")]
+	[Token(Token = "0x6001909")]
+	[Address(RVA = "0x5337D00", Offset = "0x5336D00", VA = "0x5337D00")]
 	public CryptographicException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x600192D")]
-	[Address(RVA = "0x19A3210", Offset = "0x19A1810", VA = "0x1819A3210")]
+	[Token(Token = "0x600190A")]
+	[Address(RVA = "0x5337D20", Offset = "0x5336D20", VA = "0x5337D20")]
 	public CryptographicException(int hr)
 	{
 	}
 
-	[Token(Token = "0x600192E")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x600190B")]
+	[Address(RVA = "0x5337D70", Offset = "0x5336D70", VA = "0x5337D70")]
 	protected CryptographicException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600192F")]
-	[Address(RVA = "0x19A31C0", Offset = "0x19A17C0", VA = "0x1819A31C0")]
+	[Token(Token = "0x600190C")]
+	[Address(RVA = "0x5337D80", Offset = "0x5336D80", VA = "0x5337D80")]
 	private static void ThrowCryptographicException(int hr)
 	{
 	}

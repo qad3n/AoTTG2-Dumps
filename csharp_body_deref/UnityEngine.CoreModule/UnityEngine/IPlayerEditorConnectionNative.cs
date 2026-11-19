@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000153")]
+[Token(Token = "0x2000154")]
 internal interface IPlayerEditorConnectionNative
 {
-	[Token(Token = "0x6000C0C")]
+	[Token(Token = "0x6000C1E")]
 	void Initialize();
 
-	[Token(Token = "0x6000C0D")]
+	[Token(Token = "0x6000C1F")]
 	void DisconnectAll();
 
-	[Token(Token = "0x6000C0E")]
+	[Token(Token = "0x6000C20")]
 	void SendMessage(Guid messageId, byte[] data, int playerId);
 
-	[Token(Token = "0x6000C0F")]
+	[Token(Token = "0x6000C21")]
 	bool TrySendMessage(Guid messageId, byte[] data, int playerId);
 
-	[Token(Token = "0x6000C10")]
+	[Token(Token = "0x6000C22")]
 	void Poll();
 
-	[Token(Token = "0x6000C11")]
+	[Token(Token = "0x6000C23")]
 	void RegisterInternal(Guid messageId);
 
-	[Token(Token = "0x6000C12")]
+	[Token(Token = "0x6000C24")]
 	void UnregisterInternal(Guid messageId);
 
-	[Token(Token = "0x6000C13")]
+	[Token(Token = "0x6000C25")]
 	bool IsConnected();
 }

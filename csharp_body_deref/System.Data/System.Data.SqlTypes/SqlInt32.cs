@@ -53,7 +53,7 @@ public struct SqlInt32 : INullable, IComparable, IXmlSerializable
 	public bool IsNull
 	{
 		[Token(Token = "0x6000A43")]
-		[Address(RVA = "0x12906C0", Offset = "0x128ECC0", VA = "0x1812906C0", Slot = "4")]
+		[Address(RVA = "0x5F11CA0", Offset = "0x5F10CA0", VA = "0x5F11CA0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -64,7 +64,7 @@ public struct SqlInt32 : INullable, IComparable, IXmlSerializable
 	public int Value
 	{
 		[Token(Token = "0x6000A44")]
-		[Address(RVA = "0x2572C60", Offset = "0x2571260", VA = "0x182572C60")]
+		[Address(RVA = "0x5F11CB0", Offset = "0x5F10CB0", VA = "0x5F11CB0")]
 		get
 		{
 			return default(int);
@@ -72,192 +72,192 @@ public struct SqlInt32 : INullable, IComparable, IXmlSerializable
 	}
 
 	[Token(Token = "0x6000A41")]
-	[Address(RVA = "0x2572C50", Offset = "0x2571250", VA = "0x182572C50")]
+	[Address(RVA = "0x5F18830", Offset = "0x5F17830", VA = "0x5F18830")]
 	private SqlInt32(bool fNull)
 	{
 	}
 
 	[Token(Token = "0x6000A42")]
-	[Address(RVA = "0xAE2660", Offset = "0xAE0C60", VA = "0x180AE2660")]
+	[Address(RVA = "0x5F18840", Offset = "0x5F17840", VA = "0x5F18840")]
 	public SqlInt32(int value)
 	{
 	}
 
 	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x25733D0", Offset = "0x25719D0", VA = "0x1825733D0")]
+	[Address(RVA = "0x5F18850", Offset = "0x5F17850", VA = "0x5F18850")]
 	public static implicit operator SqlInt32(int x)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A46")]
-	[Address(RVA = "0x2572B10", Offset = "0x2571110", VA = "0x182572B10", Slot = "3")]
+	[Address(RVA = "0x5F18860", Offset = "0x5F17860", VA = "0x5F18860", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x2573830", Offset = "0x2571E30", VA = "0x182573830")]
+	[Address(RVA = "0x5F188D0", Offset = "0x5F178D0", VA = "0x5F188D0")]
 	public static SqlInt32 operator -(SqlInt32 x)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x2572CF0", Offset = "0x25712F0", VA = "0x182572CF0")]
+	[Address(RVA = "0x5F18980", Offset = "0x5F17980", VA = "0x5F18980")]
 	public static SqlInt32 operator +(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x25736F0", Offset = "0x2571CF0", VA = "0x1825736F0")]
+	[Address(RVA = "0x5F18B00", Offset = "0x5F17B00", VA = "0x5F18B00")]
 	public static SqlInt32 operator -(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4A")]
-	[Address(RVA = "0x2573590", Offset = "0x2571B90", VA = "0x182573590")]
+	[Address(RVA = "0x5F18C60", Offset = "0x5F17C60", VA = "0x5F18C60")]
 	public static SqlInt32 operator *(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4B")]
-	[Address(RVA = "0x2572E50", Offset = "0x2571450", VA = "0x182572E50")]
+	[Address(RVA = "0x5F18DD0", Offset = "0x5F17DD0", VA = "0x5F18DD0")]
 	public static SqlInt32 operator /(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x2573310", Offset = "0x2571910", VA = "0x182573310")]
+	[Address(RVA = "0x5F18F50", Offset = "0x5F17F50", VA = "0x5F18F50")]
 	public static implicit operator SqlInt32(SqlByte x)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x25733F0", Offset = "0x25719F0", VA = "0x1825733F0")]
+	[Address(RVA = "0x5F19020", Offset = "0x5F18020", VA = "0x5F19020")]
 	public static implicit operator SqlInt32(SqlInt16 x)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0x25730D0", Offset = "0x25716D0", VA = "0x1825730D0")]
+	[Address(RVA = "0x5F190F0", Offset = "0x5F180F0", VA = "0x5F190F0")]
 	public static explicit operator SqlInt32(SqlInt64 x)
 	{
 		return default(SqlInt32);
 	}
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x25725E0", Offset = "0x2570BE0", VA = "0x1825725E0")]
+	[Address(RVA = "0x5F18AF0", Offset = "0x5F17AF0", VA = "0x5F18AF0")]
 	private static bool SameSignInt(int x, int y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A50")]
-	[Address(RVA = "0x2572FF0", Offset = "0x25715F0", VA = "0x182572FF0")]
+	[Address(RVA = "0x5F19210", Offset = "0x5F18210", VA = "0x5F19210")]
 	public static SqlBoolean operator ==(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x6000A51")]
-	[Address(RVA = "0x25734B0", Offset = "0x2571AB0", VA = "0x1825734B0")]
+	[Address(RVA = "0x5F19300", Offset = "0x5F18300", VA = "0x5F19300")]
 	public static SqlBoolean operator <(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x2573230", Offset = "0x2571830", VA = "0x182573230")]
+	[Address(RVA = "0x5F193F0", Offset = "0x5F183F0", VA = "0x5F193F0")]
 	public static SqlBoolean operator >(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x6000A53")]
-	[Address(RVA = "0x2572580", Offset = "0x2570B80", VA = "0x182572580")]
+	[Address(RVA = "0x5F194E0", Offset = "0x5F184E0", VA = "0x5F194E0")]
 	public static SqlBoolean LessThan(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x6000A54")]
-	[Address(RVA = "0x2572520", Offset = "0x2570B20", VA = "0x182572520")]
+	[Address(RVA = "0x5F19530", Offset = "0x5F18530", VA = "0x5F19530")]
 	public static SqlBoolean GreaterThan(SqlInt32 x, SqlInt32 y)
 	{
 		return default(SqlBoolean);
 	}
 
 	[Token(Token = "0x6000A55")]
-	[Address(RVA = "0x2572830", Offset = "0x2570E30", VA = "0x182572830")]
+	[Address(RVA = "0x5F19580", Offset = "0x5F18580", VA = "0x5F19580")]
 	public SqlDouble ToSqlDouble()
 	{
 		return default(SqlDouble);
 	}
 
 	[Token(Token = "0x6000A56")]
-	[Address(RVA = "0x25729D0", Offset = "0x2570FD0", VA = "0x1825729D0")]
+	[Address(RVA = "0x5F195D0", Offset = "0x5F185D0", VA = "0x5F195D0")]
 	public SqlInt64 ToSqlInt64()
 	{
 		return default(SqlInt64);
 	}
 
 	[Token(Token = "0x6000A57")]
-	[Address(RVA = "0x2572110", Offset = "0x2570710", VA = "0x182572110", Slot = "5")]
+	[Address(RVA = "0x5F196E0", Offset = "0x5F186E0", VA = "0x5F196E0", Slot = "5")]
 	public int CompareTo(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A58")]
-	[Address(RVA = "0x2571FA0", Offset = "0x25705A0", VA = "0x182571FA0")]
+	[Address(RVA = "0x5F197D0", Offset = "0x5F187D0", VA = "0x5F197D0")]
 	public int CompareTo(SqlInt32 value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A59")]
-	[Address(RVA = "0x2572220", Offset = "0x2570820", VA = "0x182572220", Slot = "0")]
+	[Address(RVA = "0x5F19940", Offset = "0x5F18940", VA = "0x5F19940", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A5A")]
-	[Address(RVA = "0x2572420", Offset = "0x2570A20", VA = "0x182572420", Slot = "2")]
+	[Address(RVA = "0x5F19A70", Offset = "0x5F18A70", VA = "0x5F19A70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x5F19B10", Offset = "0x5F18B10", VA = "0x5F19B10", Slot = "6")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x25725F0", Offset = "0x2570BF0", VA = "0x1825725F0", Slot = "7")]
+	[Address(RVA = "0x5F19B20", Offset = "0x5F18B20", VA = "0x5F19B20", Slot = "7")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x2572710", Offset = "0x2570D10", VA = "0x182572710", Slot = "8")]
+	[Address(RVA = "0x5F19C20", Offset = "0x5F18C20", VA = "0x5F19C20", Slot = "8")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000A5E")]
-	[Address(RVA = "0x25724B0", Offset = "0x2570AB0", VA = "0x1825724B0")]
+	[Address(RVA = "0x5F19D60", Offset = "0x5F18D60", VA = "0x5F19D60")]
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
 	{
 		return null;

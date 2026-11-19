@@ -22,7 +22,7 @@ public abstract class BaseVertexEffect
 	public abstract void ModifyVertices(List<UIVertex> vertices);
 
 	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6CFF720", Offset = "0x6CFE720", VA = "0x6CFF720")]
 	protected BaseVertexEffect()
 	{
 	}

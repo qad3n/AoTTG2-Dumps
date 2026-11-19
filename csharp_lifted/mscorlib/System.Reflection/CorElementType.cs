@@ -1,0 +1,160 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.CorElementType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace System.Reflection;
+
+[Serializable]
+[Token(Token = "0x200050F")]
+internal enum CorElementType : byte
+{
+	[Token(Token = "0x40013F9")]
+	End = 0,
+	[Token(Token = "0x40013FA")]
+	Void = 1,
+	[Token(Token = "0x40013FB")]
+	Boolean = 2,
+	[Token(Token = "0x40013FC")]
+	Char = 3,
+	[Token(Token = "0x40013FD")]
+	I1 = 4,
+	[Token(Token = "0x40013FE")]
+	U1 = 5,
+	[Token(Token = "0x40013FF")]
+	I2 = 6,
+	[Token(Token = "0x4001400")]
+	U2 = 7,
+	[Token(Token = "0x4001401")]
+	I4 = 8,
+	[Token(Token = "0x4001402")]
+	U4 = 9,
+	[Token(Token = "0x4001403")]
+	I8 = 10,
+	[Token(Token = "0x4001404")]
+	U8 = 11,
+	[Token(Token = "0x4001405")]
+	R4 = 12,
+	[Token(Token = "0x4001406")]
+	R8 = 13,
+	[Token(Token = "0x4001407")]
+	String = 14,
+	[Token(Token = "0x4001408")]
+	Ptr = 15,
+	[Token(Token = "0x4001409")]
+	ByRef = 16,
+	[Token(Token = "0x400140A")]
+	ValueType = 17,
+	[Token(Token = "0x400140B")]
+	Class = 18,
+	[Token(Token = "0x400140C")]
+	Var = 19,
+	[Token(Token = "0x400140D")]
+	Array = 20,
+	[Token(Token = "0x400140E")]
+	GenericInst = 21,
+	[Token(Token = "0x400140F")]
+	TypedByRef = 22,
+	[Token(Token = "0x4001410")]
+	I = 24,
+	[Token(Token = "0x4001411")]
+	U = 25,
+	[Token(Token = "0x4001412")]
+	FnPtr = 27,
+	[Token(Token = "0x4001413")]
+	Object = 28,
+	[Token(Token = "0x4001414")]
+	SzArray = 29,
+	[Token(Token = "0x4001415")]
+	MVar = 30,
+	[Token(Token = "0x4001416")]
+	CModReqd = 31,
+	[Token(Token = "0x4001417")]
+	CModOpt = 32,
+	[Token(Token = "0x4001418")]
+	Internal = 33,
+	[Token(Token = "0x4001419")]
+	Max = 34,
+	[Token(Token = "0x400141A")]
+	Modifier = 64,
+	[Token(Token = "0x400141B")]
+	Sentinel = 65,
+	[Token(Token = "0x400141C")]
+	Pinned = 69,
+	[Token(Token = "0x400141D")]
+	ELEMENT_TYPE_END = End,
+	[Token(Token = "0x400141E")]
+	ELEMENT_TYPE_VOID = Void,
+	[Token(Token = "0x400141F")]
+	ELEMENT_TYPE_BOOLEAN = Boolean,
+	[Token(Token = "0x4001420")]
+	ELEMENT_TYPE_CHAR = Char,
+	[Token(Token = "0x4001421")]
+	ELEMENT_TYPE_I1 = I1,
+	[Token(Token = "0x4001422")]
+	ELEMENT_TYPE_U1 = U1,
+	[Token(Token = "0x4001423")]
+	ELEMENT_TYPE_I2 = I2,
+	[Token(Token = "0x4001424")]
+	ELEMENT_TYPE_U2 = U2,
+	[Token(Token = "0x4001425")]
+	ELEMENT_TYPE_I4 = I4,
+	[Token(Token = "0x4001426")]
+	ELEMENT_TYPE_U4 = U4,
+	[Token(Token = "0x4001427")]
+	ELEMENT_TYPE_I8 = I8,
+	[Token(Token = "0x4001428")]
+	ELEMENT_TYPE_U8 = U8,
+	[Token(Token = "0x4001429")]
+	ELEMENT_TYPE_R4 = R4,
+	[Token(Token = "0x400142A")]
+	ELEMENT_TYPE_R8 = R8,
+	[Token(Token = "0x400142B")]
+	ELEMENT_TYPE_STRING = String,
+	[Token(Token = "0x400142C")]
+	ELEMENT_TYPE_PTR = Ptr,
+	[Token(Token = "0x400142D")]
+	ELEMENT_TYPE_BYREF = ByRef,
+	[Token(Token = "0x400142E")]
+	ELEMENT_TYPE_VALUETYPE = ValueType,
+	[Token(Token = "0x400142F")]
+	ELEMENT_TYPE_CLASS = Class,
+	[Token(Token = "0x4001430")]
+	ELEMENT_TYPE_VAR = Var,
+	[Token(Token = "0x4001431")]
+	ELEMENT_TYPE_ARRAY = Array,
+	[Token(Token = "0x4001432")]
+	ELEMENT_TYPE_GENERICINST = GenericInst,
+	[Token(Token = "0x4001433")]
+	ELEMENT_TYPE_TYPEDBYREF = TypedByRef,
+	[Token(Token = "0x4001434")]
+	ELEMENT_TYPE_I = I,
+	[Token(Token = "0x4001435")]
+	ELEMENT_TYPE_U = U,
+	[Token(Token = "0x4001436")]
+	ELEMENT_TYPE_FNPTR = FnPtr,
+	[Token(Token = "0x4001437")]
+	ELEMENT_TYPE_OBJECT = Object,
+	[Token(Token = "0x4001438")]
+	ELEMENT_TYPE_SZARRAY = SzArray,
+	[Token(Token = "0x4001439")]
+	ELEMENT_TYPE_MVAR = MVar,
+	[Token(Token = "0x400143A")]
+	ELEMENT_TYPE_CMOD_REQD = CModReqd,
+	[Token(Token = "0x400143B")]
+	ELEMENT_TYPE_CMOD_OPT = CModOpt,
+	[Token(Token = "0x400143C")]
+	ELEMENT_TYPE_INTERNAL = Internal,
+	[Token(Token = "0x400143D")]
+	ELEMENT_TYPE_MAX = Max,
+	[Token(Token = "0x400143E")]
+	ELEMENT_TYPE_MODIFIER = Modifier,
+	[Token(Token = "0x400143F")]
+	ELEMENT_TYPE_SENTINEL = Sentinel,
+	[Token(Token = "0x4001440")]
+	ELEMENT_TYPE_PINNED = Pinned
+}

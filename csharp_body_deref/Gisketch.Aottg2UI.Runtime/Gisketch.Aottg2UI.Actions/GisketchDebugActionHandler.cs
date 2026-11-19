@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000FC")]
+[Token(Token = "0x2000102")]
 internal sealed class GisketchDebugActionHandler : IGisketchActionHandler
 {
-	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x190BA60", Offset = "0x190A060", VA = "0x18190BA60", Slot = "4")]
+	[Token(Token = "0x60007C4")]
+	[Address(RVA = "0x52AB4C0", Offset = "0x52AA4C0", VA = "0x52AB4C0", Slot = "4")]
 	public void HandleAction(string actionId, GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60007C5")]
+	[Address(RVA = "0x52AB540", Offset = "0x52AA540", VA = "0x52AB540")]
 	public GisketchDebugActionHandler()
 	{
 	}

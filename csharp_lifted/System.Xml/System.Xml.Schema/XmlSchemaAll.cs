@@ -1,0 +1,54 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaAll
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Xml.Serialization;
+using Il2CppDummyDll;
+
+namespace System.Xml.Schema;
+
+[Token(Token = "0x200020C")]
+public class XmlSchemaAll : XmlSchemaGroupBase
+{
+	[Token(Token = "0x4000B08")]
+	[FieldOffset(Offset = "0x78")]
+	private XmlSchemaObjectCollection items;
+
+	[Token(Token = "0x17000594")]
+	[XmlElement("element", typeof(XmlSchemaElement))]
+	public override XmlSchemaObjectCollection Items
+	{
+		[Token(Token = "0x6001514")]
+		[Address(RVA = "0x6025F30", Offset = "0x6024F30", VA = "0x6025F30", Slot = "16")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000595")]
+	internal override bool IsEmpty
+	{
+		[Token(Token = "0x6001515")]
+		[Address(RVA = "0x6025F40", Offset = "0x6024F40", VA = "0x6025F40", Slot = "14")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6001516")]
+	[Address(RVA = "0x6025F70", Offset = "0x6024F70", VA = "0x6025F70", Slot = "17")]
+	internal override void SetItems(XmlSchemaObjectCollection newItems)
+	{
+	}
+
+	[Token(Token = "0x6001517")]
+	[Address(RVA = "0x6025F80", Offset = "0x6024F80", VA = "0x6025F80")]
+	public XmlSchemaAll()
+	{
+	}
+}

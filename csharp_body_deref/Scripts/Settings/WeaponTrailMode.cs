@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000D7")]
 public enum WeaponTrailMode
 {
-	[Token(Token = "0x4000329")]
+	[Token(Token = "0x400045D")]
 	Off,
-	[Token(Token = "0x400032A")]
+	[Token(Token = "0x400045E")]
 	Mine,
-	[Token(Token = "0x400032B")]
+	[Token(Token = "0x400045F")]
 	All
 }

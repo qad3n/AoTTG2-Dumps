@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E5")]
+[Token(Token = "0x20002A6")]
 internal interface ICloseEx
 {
-	[Token(Token = "0x600142F")]
+	[Token(Token = "0x6001271")]
 	void CloseEx(CloseExState closeState);
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_Math
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -43,14 +43,14 @@ public static class TMP_Math
 	internal const int MAX_QUADS_PER_MESH = 16383;
 
 	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x2D61A90", Offset = "0x2D60090", VA = "0x182D61A90")]
+	[Address(RVA = "0x67607B0", Offset = "0x675F7B0", VA = "0x67607B0")]
 	public static bool Approximately(float a, float b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x2D61AC0", Offset = "0x2D600C0", VA = "0x182D61AC0")]
+	[Address(RVA = "0x67607E0", Offset = "0x675F7E0", VA = "0x67607E0")]
 	public static int Mod(int a, int b)
 	{
 		return default(int);

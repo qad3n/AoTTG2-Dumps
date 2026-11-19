@@ -14,10 +14,10 @@ namespace UnityEngine.SceneManagement;
 [Flags]
 public enum LocalPhysicsMode
 {
-	[Token(Token = "0x4000760")]
+	[Token(Token = "0x400075E")]
 	None = 0,
-	[Token(Token = "0x4000761")]
+	[Token(Token = "0x400075F")]
 	Physics2D = 1,
-	[Token(Token = "0x4000762")]
+	[Token(Token = "0x4000760")]
 	Physics3D = 2
 }

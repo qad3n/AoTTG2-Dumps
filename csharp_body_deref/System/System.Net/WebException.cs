@@ -11,112 +11,112 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002D4")]
+[Token(Token = "0x2000295")]
 public class WebException : InvalidOperationException, ISerializable
 {
-	[Token(Token = "0x4000AB5")]
-	[FieldOffset(Offset = "0x90")]
+	[Token(Token = "0x40009E6")]
+	[FieldOffset(Offset = "0x8C")]
 	private WebExceptionStatus m_Status;
 
-	[Token(Token = "0x4000AB6")]
-	[FieldOffset(Offset = "0x98")]
+	[Token(Token = "0x40009E7")]
+	[FieldOffset(Offset = "0x90")]
 	private WebResponse m_Response;
 
 	[NonSerialized]
-	[Token(Token = "0x4000AB7")]
-	[FieldOffset(Offset = "0xA0")]
+	[Token(Token = "0x40009E8")]
+	[FieldOffset(Offset = "0x98")]
 	private WebExceptionInternalStatus m_InternalStatus;
 
-	[Token(Token = "0x17000416")]
+	[Token(Token = "0x170003E7")]
 	public WebExceptionStatus Status
 	{
-		[Token(Token = "0x60013CA")]
-		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
+		[Token(Token = "0x600120C")]
+		[Address(RVA = "0x62A7E20", Offset = "0x62A6E20", VA = "0x62A7E20")]
 		get
 		{
 			return default(WebExceptionStatus);
 		}
 	}
 
-	[Token(Token = "0x17000417")]
+	[Token(Token = "0x170003E8")]
 	public WebResponse Response
 	{
-		[Token(Token = "0x60013CB")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Token(Token = "0x600120D")]
+		[Address(RVA = "0x62A7E30", Offset = "0x62A6E30", VA = "0x62A7E30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60013BE")]
-	[Address(RVA = "0x27D50C0", Offset = "0x27D36C0", VA = "0x1827D50C0")]
+	[Token(Token = "0x6001200")]
+	[Address(RVA = "0x62A79B0", Offset = "0x62A69B0", VA = "0x62A79B0")]
 	public WebException()
 	{
 	}
 
-	[Token(Token = "0x60013BF")]
-	[Address(RVA = "0x27D5500", Offset = "0x27D3B00", VA = "0x1827D5500")]
+	[Token(Token = "0x6001201")]
+	[Address(RVA = "0x62A6620", Offset = "0x62A5620", VA = "0x62A6620")]
 	public WebException(string message)
 	{
 	}
 
-	[Token(Token = "0x60013C0")]
-	[Address(RVA = "0x27D5290", Offset = "0x27D3890", VA = "0x1827D5290")]
+	[Token(Token = "0x6001202")]
+	[Address(RVA = "0x62A79D0", Offset = "0x62A69D0", VA = "0x62A79D0")]
 	public WebException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60013C1")]
-	[Address(RVA = "0x27D50E0", Offset = "0x27D36E0", VA = "0x1827D50E0")]
+	[Token(Token = "0x6001203")]
+	[Address(RVA = "0x62A6840", Offset = "0x62A5840", VA = "0x62A6840")]
 	public WebException(string message, WebExceptionStatus status)
 	{
 	}
 
-	[Token(Token = "0x60013C2")]
-	[Address(RVA = "0x27D5130", Offset = "0x27D3730", VA = "0x1827D5130")]
+	[Token(Token = "0x6001204")]
+	[Address(RVA = "0x62A7AA0", Offset = "0x62A6AA0", VA = "0x62A7AA0")]
 	internal WebException(string message, WebExceptionStatus status, WebExceptionInternalStatus internalStatus, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60013C3")]
-	[Address(RVA = "0x27D52B0", Offset = "0x27D38B0", VA = "0x1827D52B0")]
+	[Token(Token = "0x6001205")]
+	[Address(RVA = "0x62A79F0", Offset = "0x62A69F0", VA = "0x62A79F0")]
 	public WebException(string message, Exception innerException, WebExceptionStatus status, WebResponse response)
 	{
 	}
 
-	[Token(Token = "0x60013C4")]
-	[Address(RVA = "0x27D5350", Offset = "0x27D3950", VA = "0x1827D5350")]
+	[Token(Token = "0x6001206")]
+	[Address(RVA = "0x62A7C10", Offset = "0x62A6C10", VA = "0x62A7C10")]
 	internal WebException(string message, string data, Exception innerException, WebExceptionStatus status, WebResponse response)
 	{
 	}
 
-	[Token(Token = "0x60013C5")]
-	[Address(RVA = "0x27D51E0", Offset = "0x27D37E0", VA = "0x1827D51E0")]
+	[Token(Token = "0x6001207")]
+	[Address(RVA = "0x62A7B50", Offset = "0x62A6B50", VA = "0x62A7B50")]
 	internal WebException(string message, Exception innerException, WebExceptionStatus status, WebResponse response, WebExceptionInternalStatus internalStatus)
 	{
 	}
 
-	[Token(Token = "0x60013C6")]
-	[Address(RVA = "0x27D5420", Offset = "0x27D3A20", VA = "0x1827D5420")]
+	[Token(Token = "0x6001208")]
+	[Address(RVA = "0x62A7CF0", Offset = "0x62A6CF0", VA = "0x62A7CF0")]
 	internal WebException(string message, string data, Exception innerException, WebExceptionStatus status, WebResponse response, WebExceptionInternalStatus internalStatus)
 	{
 	}
 
-	[Token(Token = "0x60013C7")]
-	[Address(RVA = "0x27D5100", Offset = "0x27D3700", VA = "0x1827D5100")]
+	[Token(Token = "0x6001209")]
+	[Address(RVA = "0x62A7DD0", Offset = "0x62A6DD0", VA = "0x62A7DD0")]
 	protected WebException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013C8")]
-	[Address(RVA = "0x27D5090", Offset = "0x27D3690", VA = "0x1827D5090", Slot = "4")]
+	[Token(Token = "0x600120A")]
+	[Address(RVA = "0x62A7DF0", Offset = "0x62A6DF0", VA = "0x62A7DF0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x60013C9")]
-	[Address(RVA = "0x27C5080", Offset = "0x27C3680", VA = "0x1827C5080", Slot = "11")]
+	[Token(Token = "0x600120B")]
+	[Address(RVA = "0x62A7E10", Offset = "0x62A6E10", VA = "0x62A7E10", Slot = "11")]
 	public override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

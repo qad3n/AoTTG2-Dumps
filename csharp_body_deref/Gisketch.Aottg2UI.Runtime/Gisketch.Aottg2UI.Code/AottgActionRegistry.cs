@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Code.AottgActionRegistry
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Code/AottgActionRegistry.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,51 +12,51 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200006D")]
+[Token(Token = "0x2000073")]
 public sealed class AottgActionRegistry
 {
-	[Token(Token = "0x400026A")]
+	[Token(Token = "0x400028E")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Dictionary<string, Action<GisketchActionContext>> _actions;
 
-	[Token(Token = "0x400026B")]
+	[Token(Token = "0x400028F")]
 	[FieldOffset(Offset = "0x18")]
 	private int _next;
 
-	[Token(Token = "0x6000331")]
-	[Address(RVA = "0x18C1110", Offset = "0x18BF710", VA = "0x1818C1110")]
+	[Token(Token = "0x600037C")]
+	[Address(RVA = "0x5261250", Offset = "0x5260250", VA = "0x5261250")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000332")]
-	[Address(RVA = "0x18C0A70", Offset = "0x18BF070", VA = "0x1818C0A70")]
+	[Token(Token = "0x600037D")]
+	[Address(RVA = "0x52612A0", Offset = "0x52602A0", VA = "0x52612A0")]
 	public void ClearOwner(string ownerId)
 	{
 	}
 
-	[Token(Token = "0x6000333")]
-	[Address(RVA = "0x18C0DD0", Offset = "0x18BF3D0", VA = "0x1818C0DD0")]
+	[Token(Token = "0x600037E")]
+	[Address(RVA = "0x52616E0", Offset = "0x52606E0", VA = "0x52616E0")]
 	public void ClearOwnersWithPrefix(string ownerIdPrefix)
 	{
 	}
 
-	[Token(Token = "0x6000334")]
-	[Address(RVA = "0x18C1160", Offset = "0x18BF760", VA = "0x1818C1160")]
+	[Token(Token = "0x600037F")]
+	[Address(RVA = "0x5261B00", Offset = "0x5260B00", VA = "0x5261B00")]
 	public string Register(string ownerId, Action<GisketchActionContext> action)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000335")]
-	[Address(RVA = "0x18C12A0", Offset = "0x18BF8A0", VA = "0x1818C12A0")]
+	[Token(Token = "0x6000380")]
+	[Address(RVA = "0x5261C20", Offset = "0x5260C20", VA = "0x5261C20")]
 	public bool TryHandle(string actionId, GisketchActionContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000336")]
-	[Address(RVA = "0x18C1370", Offset = "0x18BF970", VA = "0x1818C1370")]
+	[Token(Token = "0x6000381")]
+	[Address(RVA = "0x5261CD0", Offset = "0x5260CD0", VA = "0x5261CD0")]
 	public AottgActionRegistry()
 	{
 	}

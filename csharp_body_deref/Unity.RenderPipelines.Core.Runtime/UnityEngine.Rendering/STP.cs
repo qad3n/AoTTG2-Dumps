@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.STP
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -190,34 +190,34 @@ public static class STP
 		private Hash128 m_hash;
 
 		[Token(Token = "0x6000B78")]
-		[Address(RVA = "0x2B1F940", Offset = "0x2B1DF40", VA = "0x182B1F940")]
+		[Address(RVA = "0x6523980", Offset = "0x6522980", VA = "0x6523980")]
 		public bool Update(ref HistoryUpdateInfo info)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000B79")]
-		[Address(RVA = "0x2B1F8C0", Offset = "0x2B1DEC0", VA = "0x182B1F8C0")]
+		[Address(RVA = "0x6523520", Offset = "0x6522520", VA = "0x6523520")]
 		internal RTHandle GetCurrentHistoryTexture(HistoryTextureType historyType, int frameIndex)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000B7A")]
-		[Address(RVA = "0x2B1F900", Offset = "0x2B1DF00", VA = "0x182B1F900")]
+		[Address(RVA = "0x65234F0", Offset = "0x65224F0", VA = "0x65234F0")]
 		internal RTHandle GetPreviousHistoryTexture(HistoryTextureType historyType, int frameIndex)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000B7B")]
-		[Address(RVA = "0x2B1F800", Offset = "0x2B1DE00", VA = "0x182B1F800", Slot = "4")]
+		[Address(RVA = "0x6523EE0", Offset = "0x6522EE0", VA = "0x6523EE0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000B7C")]
-		[Address(RVA = "0x2B1FEC0", Offset = "0x2B1E4C0", VA = "0x182B1FEC0")]
+		[Address(RVA = "0x6523F80", Offset = "0x6522F80", VA = "0x6523F80")]
 		public HistoryContext()
 		{
 		}
@@ -419,7 +419,7 @@ public static class STP
 		public int version
 		{
 			[Token(Token = "0x6000B7F")]
-			[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+			[Address(RVA = "0x6524420", Offset = "0x6523420", VA = "0x6524420", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -430,13 +430,13 @@ public static class STP
 		public ComputeShader setupCS
 		{
 			[Token(Token = "0x6000B80")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x6524430", Offset = "0x6523430", VA = "0x6524430")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000B81")]
-			[Address(RVA = "0x2B2DCD0", Offset = "0x2B2C2D0", VA = "0x182B2DCD0")]
+			[Address(RVA = "0x6524440", Offset = "0x6523440", VA = "0x6524440")]
 			set
 			{
 			}
@@ -446,13 +446,13 @@ public static class STP
 		public ComputeShader preTaaCS
 		{
 			[Token(Token = "0x6000B82")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x65244A0", Offset = "0x65234A0", VA = "0x65244A0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000B83")]
-			[Address(RVA = "0x2B2DC60", Offset = "0x2B2C260", VA = "0x182B2DC60")]
+			[Address(RVA = "0x65244B0", Offset = "0x65234B0", VA = "0x65244B0")]
 			set
 			{
 			}
@@ -462,20 +462,20 @@ public static class STP
 		public ComputeShader taaCS
 		{
 			[Token(Token = "0x6000B84")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Address(RVA = "0x6524510", Offset = "0x6523510", VA = "0x6524510")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000B85")]
-			[Address(RVA = "0x2B2DD40", Offset = "0x2B2C340", VA = "0x182B2DD40")]
+			[Address(RVA = "0x6524520", Offset = "0x6523520", VA = "0x6524520")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000B86")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6524580", Offset = "0x6523580", VA = "0x6524580")]
 		public RuntimeResources()
 		{
 		}
@@ -572,7 +572,7 @@ public static class STP
 		public TextureHandle priorConvergence;
 
 		[Token(Token = "0x6000B87")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6524610", Offset = "0x6523610", VA = "0x6524610")]
 		public SetupData()
 		{
 		}
@@ -622,7 +622,7 @@ public static class STP
 		public TextureHandle convergence;
 
 		[Token(Token = "0x6000B88")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6524620", Offset = "0x6523620", VA = "0x6524620")]
 		public PreTaaData()
 		{
 		}
@@ -684,7 +684,7 @@ public static class STP
 		public TextureHandle output;
 
 		[Token(Token = "0x6000B89")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6524630", Offset = "0x6523630", VA = "0x6524630")]
 		public TaaData()
 		{
 		}
@@ -722,7 +722,7 @@ public static class STP
 	public static GUIContent[] debugViewDescriptions
 	{
 		[Token(Token = "0x6000B6B")]
-		[Address(RVA = "0x2B32DC0", Offset = "0x2B313C0", VA = "0x182B32DC0")]
+		[Address(RVA = "0x651DC60", Offset = "0x651CC60", VA = "0x651DC60")]
 		get
 		{
 			return null;
@@ -733,7 +733,7 @@ public static class STP
 	public static int[] debugViewIndices
 	{
 		[Token(Token = "0x6000B6C")]
-		[Address(RVA = "0x2B32E10", Offset = "0x2B31410", VA = "0x182B32E10")]
+		[Address(RVA = "0x651DCD0", Offset = "0x651CCD0", VA = "0x651DCD0")]
 		get
 		{
 			return null;
@@ -744,82 +744,82 @@ public static class STP
 	public static PerViewConfig[] perViewConfigs
 	{
 		[Token(Token = "0x6000B6D")]
-		[Address(RVA = "0x2B32E60", Offset = "0x2B31460", VA = "0x182B32E60")]
+		[Address(RVA = "0x651DD40", Offset = "0x651CD40", VA = "0x651DD40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B6E")]
-		[Address(RVA = "0x2B32EB0", Offset = "0x2B314B0", VA = "0x182B32EB0")]
+		[Address(RVA = "0x651DDB0", Offset = "0x651CDB0", VA = "0x651DDB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x2B31340", Offset = "0x2B2F940", VA = "0x182B31340")]
+	[Address(RVA = "0x651DC00", Offset = "0x651CC00", VA = "0x651DC00")]
 	public static bool IsSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x2B31370", Offset = "0x2B2F970", VA = "0x182B31370")]
+	[Address(RVA = "0x651DC20", Offset = "0x651CC20", VA = "0x651DC20")]
 	public static Vector2 Jit16(int frameIndex)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000B6F")]
-	[Address(RVA = "0x2B2DEE0", Offset = "0x2B2C4E0", VA = "0x182B2DEE0")]
+	[Address(RVA = "0x651DE10", Offset = "0x651CE10", VA = "0x651DE10")]
 	private static Hash128 ComputeHistoryHash(ref HistoryUpdateInfo info)
 	{
 		return default(Hash128);
 	}
 
 	[Token(Token = "0x6000B70")]
-	[Address(RVA = "0x2B2DDB0", Offset = "0x2B2C3B0", VA = "0x182B2DDB0")]
+	[Address(RVA = "0x651DEB0", Offset = "0x651CEB0", VA = "0x651DEB0")]
 	private static Vector2Int CalculateConvergenceTextureSize(Vector2Int historyTextureSize)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000B71")]
-	[Address(RVA = "0x2B2DE30", Offset = "0x2B2C430", VA = "0x182B2DE30")]
+	[Address(RVA = "0x651DF20", Offset = "0x651CF20", VA = "0x651DF20")]
 	private static float CalculateMotionScale(float deltaTime, float lastDeltaTime)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000B72")]
-	[Address(RVA = "0x2B31290", Offset = "0x2B2F890", VA = "0x182B31290")]
+	[Address(RVA = "0x651DFC0", Offset = "0x651CFC0", VA = "0x651DFC0")]
 	private static Matrix4x4 ExtractRotation(Matrix4x4 input)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000B73")]
-	[Address(RVA = "0x2B313C0", Offset = "0x2B2F9C0", VA = "0x182B313C0")]
+	[Address(RVA = "0x651DFF0", Offset = "0x651CFF0", VA = "0x651DFF0")]
 	private static int PackVector2ToInt(Vector2 value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B74")]
-	[Address(RVA = "0x2B31400", Offset = "0x2B2FA00", VA = "0x182B31400")]
+	[Address(RVA = "0x651E020", Offset = "0x651D020", VA = "0x651E020")]
 	private static void PopulateConstantData(ref Config config, ref StpConstantBufferData constants)
 	{
 	}
 
 	[Token(Token = "0x6000B75")]
-	[Address(RVA = "0x2B32860", Offset = "0x2B30E60", VA = "0x182B32860")]
+	[Address(RVA = "0x651FCD0", Offset = "0x651ECD0", VA = "0x651FCD0")]
 	private static TextureHandle UseTexture(IBaseRenderGraphBuilder builder, in TextureHandle texture, AccessFlags flags = AccessFlags.Read)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x2B2DF80", Offset = "0x2B2C580", VA = "0x182B2DF80")]
+	[Address(RVA = "0x651FD80", Offset = "0x651ED80", VA = "0x651FD80")]
 	public static TextureHandle Execute(RenderGraph renderGraph, ref Config config)
 	{
 		return default(TextureHandle);

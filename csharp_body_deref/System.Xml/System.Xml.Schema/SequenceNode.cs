@@ -36,7 +36,7 @@ internal sealed class SequenceNode : InteriorNode
 		public BitSet firstposRight;
 
 		[Token(Token = "0x6000FF0")]
-		[Address(RVA = "0x27841F0", Offset = "0x27827F0", VA = "0x1827841F0")]
+		[Address(RVA = "0x6146E90", Offset = "0x6145E90", VA = "0x6146E90")]
 		public SequenceConstructPosContext(SequenceNode node, BitSet firstpos, BitSet lastpos)
 		{
 		}
@@ -46,7 +46,7 @@ internal sealed class SequenceNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FED")]
-		[Address(RVA = "0x2784A10", Offset = "0x2783010", VA = "0x182784A10", Slot = "6")]
+		[Address(RVA = "0x6146F00", Offset = "0x6145F00", VA = "0x6146F00", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -54,19 +54,19 @@ internal sealed class SequenceNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0x2784260", Offset = "0x2782860", VA = "0x182784260", Slot = "5")]
+	[Address(RVA = "0x6146640", Offset = "0x6145640", VA = "0x6146640", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FEE")]
-	[Address(RVA = "0x277A850", Offset = "0x2778E50", VA = "0x18277A850", Slot = "4")]
+	[Address(RVA = "0x6147080", Offset = "0x6146080", VA = "0x6147080", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FEF")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6147090", Offset = "0x6146090", VA = "0x6147090")]
 	public SequenceNode()
 	{
 	}

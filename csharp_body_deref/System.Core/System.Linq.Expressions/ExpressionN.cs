@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000099")]
+[Token(Token = "0x200009A")]
 internal class ExpressionN<TDelegate> : Expression<TDelegate>
 {
-	[Token(Token = "0x40001A2")]
+	[Token(Token = "0x40001AB")]
 	[FieldOffset(Offset = "0x0")]
 	private IReadOnlyList<ParameterExpression> _parameters;
 
-	[Token(Token = "0x170000B4")]
+	[Token(Token = "0x170000B6")]
 	internal override int ParameterCount
 	{
-		[Token(Token = "0x600045D")]
+		[Token(Token = "0x6000468")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600045C")]
+	[Token(Token = "0x6000467")]
 	public ExpressionN(Expression body, IReadOnlyList<ParameterExpression> parameters)
 	{
 	}
 
-	[Token(Token = "0x600045E")]
+	[Token(Token = "0x6000469")]
 	internal override ParameterExpression GetParameter(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045F")]
+	[Token(Token = "0x600046A")]
 	internal override Expression<TDelegate> Rewrite(Expression body, ParameterExpression[] parameters)
 	{
 		return null;

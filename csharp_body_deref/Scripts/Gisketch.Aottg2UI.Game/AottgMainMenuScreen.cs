@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgMainMenuScreen
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgMainMenuScreen.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,46 +11,49 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000281")]
-[AottgScreen("main-menu", Title = "AoTTG 2 Main Menu", TitleKey = "MainMenu.Intro.Title", SearchTitle = "Menu", SearchTitleKey = "Common.Menu", SearchGroup = "main-menu")]
+[Token(Token = "0x20002AC")]
+[AottgScreen("main-menu", TitleKey = "MainMenu.Intro.Title", SearchTitleKey = "Common.Menu", SearchGroup = "main-menu")]
 public sealed class AottgMainMenuScreen : AottgScreen
 {
-	[Token(Token = "0x4000CEE")]
+	[Token(Token = "0x4000DB2")]
 	public const string Id = "main-menu";
 
-	[Token(Token = "0x4000CEF")]
+	[Token(Token = "0x4000DB3")]
 	private const string AccountBannerMotion = "mainMenuTipPanel";
 
-	[Token(Token = "0x170001B8")]
+	[Token(Token = "0x4000DB4")]
+	private const float AccountBannerMobileSafeOffsetY = 0f;
+
+	[Token(Token = "0x170001C7")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x6000F1E")]
-		[Address(RVA = "0x1DE3480", Offset = "0x1DE1A80", VA = "0x181DE3480", Slot = "4")]
+		[Token(Token = "0x6001046")]
+		[Address(RVA = "0x57C1660", Offset = "0x57C0660", VA = "0x57C1660", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B9")]
+	[Token(Token = "0x170001C8")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000F1F")]
-		[Address(RVA = "0x1DE3370", Offset = "0x1DE1970", VA = "0x181DE3370", Slot = "5")]
+		[Token(Token = "0x6001047")]
+		[Address(RVA = "0x57C1690", Offset = "0x57C0690", VA = "0x57C1690", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000F20")]
-	[Address(RVA = "0x1DE2FC0", Offset = "0x1DE15C0", VA = "0x181DE2FC0", Slot = "6")]
+	[Token(Token = "0x6001048")]
+	[Address(RVA = "0x57C1760", Offset = "0x57C0760", VA = "0x57C1760", Slot = "6")]
 	protected override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001049")]
+	[Address(RVA = "0x57C1B50", Offset = "0x57C0B50", VA = "0x57C1B50")]
 	public AottgMainMenuScreen()
 	{
 	}

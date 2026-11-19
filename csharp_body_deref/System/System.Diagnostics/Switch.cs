@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000103")]
+[Token(Token = "0x20000C4")]
 public abstract class Switch
 {
-	[Token(Token = "0x400044B")]
+	[Token(Token = "0x400037C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string description;
 
-	[Token(Token = "0x400044C")]
+	[Token(Token = "0x400037D")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string displayName;
 
-	[Token(Token = "0x400044D")]
+	[Token(Token = "0x400037E")]
 	[FieldOffset(Offset = "0x20")]
 	private string switchValueString;
 
-	[Token(Token = "0x400044E")]
+	[Token(Token = "0x400037F")]
 	[FieldOffset(Offset = "0x28")]
 	private string defaultValue;
 
-	[Token(Token = "0x400044F")]
+	[Token(Token = "0x4000380")]
 	[FieldOffset(Offset = "0x0")]
 	private static List<WeakReference> switches;
 
-	[Token(Token = "0x4000450")]
+	[Token(Token = "0x4000381")]
 	[FieldOffset(Offset = "0x8")]
 	private static int s_LastCollectionCount;
 
-	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x2874270", Offset = "0x2872870", VA = "0x182874270")]
+	[Token(Token = "0x600048F")]
+	[Address(RVA = "0x61FF780", Offset = "0x61FE780", VA = "0x61FF780")]
 	protected Switch(string displayName, string description)
 	{
 	}
 
-	[Token(Token = "0x6000646")]
-	[Address(RVA = "0x28742E0", Offset = "0x28728E0", VA = "0x1828742E0")]
+	[Token(Token = "0x6000490")]
+	[Address(RVA = "0x62002C0", Offset = "0x61FF2C0", VA = "0x62002C0")]
 	protected Switch(string displayName, string description, string defaultSwitchValue)
 	{
 	}
 
-	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x2874540", Offset = "0x2872B40", VA = "0x182874540")]
+	[Token(Token = "0x6000491")]
+	[Address(RVA = "0x6200520", Offset = "0x61FF520", VA = "0x6200520")]
 	private static void _pruneCachedSwitches()
 	{
 	}

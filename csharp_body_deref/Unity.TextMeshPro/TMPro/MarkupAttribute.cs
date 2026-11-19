@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.MarkupAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,13 +32,13 @@ internal struct MarkupAttribute
 	public int NameHashCode
 	{
 		[Token(Token = "0x60005BE")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x67584E0", Offset = "0x67574E0", VA = "0x67584E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005BF")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x67584F0", Offset = "0x67574F0", VA = "0x67584F0")]
 		set
 		{
 		}
@@ -48,13 +48,13 @@ internal struct MarkupAttribute
 	public int ValueHashCode
 	{
 		[Token(Token = "0x60005C0")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x6758500", Offset = "0x6757500", VA = "0x6758500")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005C1")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x6758510", Offset = "0x6757510", VA = "0x6758510")]
 		set
 		{
 		}
@@ -64,13 +64,13 @@ internal struct MarkupAttribute
 	public int ValueStartIndex
 	{
 		[Token(Token = "0x60005C2")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x6758520", Offset = "0x6757520", VA = "0x6758520")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005C3")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x6758530", Offset = "0x6757530", VA = "0x6758530")]
 		set
 		{
 		}
@@ -80,13 +80,13 @@ internal struct MarkupAttribute
 	public int ValueLength
 	{
 		[Token(Token = "0x60005C4")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x6758540", Offset = "0x6757540", VA = "0x6758540")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005C5")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
+		[Address(RVA = "0x6758550", Offset = "0x6757550", VA = "0x6758550")]
 		set
 		{
 		}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UITKTextJobSystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -53,13 +53,13 @@ internal class UITKTextJobSystem
 		public bool prepareSuccess;
 
 		[Token(Token = "0x60024A7")]
-		[Address(RVA = "0x313D040", Offset = "0x313B640", VA = "0x18313D040")]
+		[Address(RVA = "0x6B454B0", Offset = "0x6B444B0", VA = "0x6B454B0")]
 		public void Release()
 		{
 		}
 
 		[Token(Token = "0x60024A8")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6B45CF0", Offset = "0x6B44CF0", VA = "0x6B45CF0")]
 		public ManagedJobData()
 		{
 		}
@@ -73,7 +73,7 @@ internal class UITKTextJobSystem
 		public GCHandle managedJobDataHandle;
 
 		[Token(Token = "0x60024A9")]
-		[Address(RVA = "0x313D3A0", Offset = "0x313B9A0", VA = "0x18313D3A0", Slot = "4")]
+		[Address(RVA = "0x6B45D00", Offset = "0x6B44D00", VA = "0x6B45D00", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -92,7 +92,7 @@ internal class UITKTextJobSystem
 		public TempMeshAllocator alloc;
 
 		[Token(Token = "0x60024AA")]
-		[Address(RVA = "0x313C7D0", Offset = "0x313ADD0", VA = "0x18313C7D0", Slot = "4")]
+		[Address(RVA = "0x6B45EB0", Offset = "0x6B44EB0", VA = "0x6B45EB0", Slot = "4")]
 		public void Execute(int index)
 		{
 		}
@@ -159,43 +159,43 @@ internal class UITKTextJobSystem
 	internal MeshGenerationCallback m_AddDrawEntriesCallback;
 
 	[Token(Token = "0x600249F")]
-	[Address(RVA = "0x3153000", Offset = "0x3151600", VA = "0x183153000")]
+	[Address(RVA = "0x6B40E80", Offset = "0x6B3FE80", VA = "0x6B40E80")]
 	public UITKTextJobSystem()
 	{
 	}
 
 	[Token(Token = "0x60024A0")]
-	[Address(RVA = "0x3152710", Offset = "0x3150D10", VA = "0x183152710")]
+	[Address(RVA = "0x6B436D0", Offset = "0x6B426D0", VA = "0x6B436D0")]
 	private static void OnGetManagedJob(ManagedJobData managedJobData)
 	{
 	}
 
 	[Token(Token = "0x60024A1")]
-	[Address(RVA = "0x3152570", Offset = "0x3150B70", VA = "0x183152570")]
+	[Address(RVA = "0x6B40FD0", Offset = "0x6B3FFD0", VA = "0x6B40FD0")]
 	internal void GenerateText(MeshGenerationContext mgc, TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x60024A2")]
-	[Address(RVA = "0x3152780", Offset = "0x3150D80", VA = "0x183152780")]
+	[Address(RVA = "0x6B43730", Offset = "0x6B42730", VA = "0x6B43730")]
 	internal void PrepareTextJobified(MeshGenerationContext mgc, object _)
 	{
 	}
 
 	[Token(Token = "0x60024A3")]
-	[Address(RVA = "0x3152130", Offset = "0x3150730", VA = "0x183152130")]
+	[Address(RVA = "0x6B43890", Offset = "0x6B42890", VA = "0x6B43890")]
 	private void GenerateTextJobified(MeshGenerationContext mgc, object _)
 	{
 	}
 
 	[Token(Token = "0x60024A4")]
-	[Address(RVA = "0x3151620", Offset = "0x314FC20", VA = "0x183151620")]
+	[Address(RVA = "0x6B43CD0", Offset = "0x6B42CD0", VA = "0x6B43CD0")]
 	private static void ConvertMeshInfoToUIRVertex(UnityEngine.TextCore.Text.MeshInfo[] meshInfos, TempMeshAllocator alloc, TextElement visualElement, ref List<Material> materials, ref List<NativeSlice<Vertex>> verticesArray, ref List<NativeSlice<ushort>> indicesArray, ref List<GlyphRenderMode> renderModes)
 	{
 	}
 
 	[Token(Token = "0x60024A5")]
-	[Address(RVA = "0x3151290", Offset = "0x314F890", VA = "0x183151290")]
+	[Address(RVA = "0x6B45070", Offset = "0x6B44070", VA = "0x6B45070")]
 	private void AddDrawEntries(MeshGenerationContext mgc, object _)
 	{
 	}

@@ -14,37 +14,37 @@ namespace System.Xml.Serialization;
 internal class KeyHelper
 {
 	[Token(Token = "0x6000CC7")]
-	[Address(RVA = "0x273D0D0", Offset = "0x273B6D0", VA = "0x18273D0D0")]
+	[Address(RVA = "0x610BE20", Offset = "0x610AE20", VA = "0x610BE20")]
 	public static void AddField(StringBuilder sb, int n, string val)
 	{
 	}
 
 	[Token(Token = "0x6000CC8")]
-	[Address(RVA = "0x273D290", Offset = "0x273B890", VA = "0x18273D290")]
+	[Address(RVA = "0x610BE30", Offset = "0x610AE30", VA = "0x610BE30")]
 	public static void AddField(StringBuilder sb, int n, string val, string def)
 	{
 	}
 
 	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x273D370", Offset = "0x273B970", VA = "0x18273D370")]
+	[Address(RVA = "0x610BF00", Offset = "0x610AF00", VA = "0x610BF00")]
 	public static void AddField(StringBuilder sb, int n, bool val)
 	{
 	}
 
 	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x273D1A0", Offset = "0x273B7A0", VA = "0x18273D1A0")]
+	[Address(RVA = "0x610BF40", Offset = "0x610AF40", VA = "0x610BF40")]
 	public static void AddField(StringBuilder sb, int n, bool val, bool def)
 	{
 	}
 
 	[Token(Token = "0x6000CCB")]
-	[Address(RVA = "0x273D1E0", Offset = "0x273B7E0", VA = "0x18273D1E0")]
+	[Address(RVA = "0x610BF80", Offset = "0x610AF80", VA = "0x610BF80")]
 	public static void AddField(StringBuilder sb, int n, int val, int def)
 	{
 	}
 
 	[Token(Token = "0x6000CCC")]
-	[Address(RVA = "0x273D000", Offset = "0x273B600", VA = "0x18273D000")]
+	[Address(RVA = "0x610C020", Offset = "0x610B020", VA = "0x610C020")]
 	public static void AddField(StringBuilder sb, int n, Type val)
 	{
 	}

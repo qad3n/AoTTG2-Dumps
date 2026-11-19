@@ -24,7 +24,7 @@ internal struct LayoutValue
 	public LayoutUnit Unit
 	{
 		[Token(Token = "0x6002CAC")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x6BC5360", Offset = "0x6BC4360", VA = "0x6BC5360")]
 		get
 		{
 			return default(LayoutUnit);
@@ -35,7 +35,7 @@ internal struct LayoutValue
 	public float Value
 	{
 		[Token(Token = "0x6002CAD")]
-		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
+		[Address(RVA = "0x6BC5370", Offset = "0x6BC4370", VA = "0x6BC5370")]
 		get
 		{
 			return default(float);
@@ -43,56 +43,56 @@ internal struct LayoutValue
 	}
 
 	[Token(Token = "0x6002CAE")]
-	[Address(RVA = "0x31C32F0", Offset = "0x31C18F0", VA = "0x1831C32F0")]
+	[Address(RVA = "0x6BC1960", Offset = "0x6BC0960", VA = "0x6BC1960")]
 	public static LayoutValue Point(float value)
 	{
 		return default(LayoutValue);
 	}
 
 	[Token(Token = "0x6002CAF")]
-	[Address(RVA = "0x31C3230", Offset = "0x31C1830", VA = "0x1831C3230")]
+	[Address(RVA = "0x6BC5380", Offset = "0x6BC4380", VA = "0x6BC5380")]
 	public bool Equals(LayoutValue other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002CB0")]
-	[Address(RVA = "0x31C3150", Offset = "0x31C1750", VA = "0x1831C3150", Slot = "0")]
+	[Address(RVA = "0x6BC53D0", Offset = "0x6BC43D0", VA = "0x6BC53D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002CB1")]
-	[Address(RVA = "0x31C3290", Offset = "0x31C1890", VA = "0x1831C3290", Slot = "2")]
+	[Address(RVA = "0x6BC5460", Offset = "0x6BC4460", VA = "0x6BC5460", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002CB2")]
-	[Address(RVA = "0x31C3320", Offset = "0x31C1920", VA = "0x1831C3320")]
+	[Address(RVA = "0x6BC1A00", Offset = "0x6BC0A00", VA = "0x6BC1A00")]
 	public static LayoutValue Undefined()
 	{
 		return default(LayoutValue);
 	}
 
 	[Token(Token = "0x6002CB3")]
-	[Address(RVA = "0x31C3130", Offset = "0x31C1730", VA = "0x1831C3130")]
+	[Address(RVA = "0x6BC1950", Offset = "0x6BC0950", VA = "0x6BC1950")]
 	public static LayoutValue Auto()
 	{
 		return default(LayoutValue);
 	}
 
 	[Token(Token = "0x6002CB4")]
-	[Address(RVA = "0x31C32C0", Offset = "0x31C18C0", VA = "0x1831C32C0")]
+	[Address(RVA = "0x6BC19E0", Offset = "0x6BC09E0", VA = "0x6BC19E0")]
 	public static LayoutValue Percent(float value)
 	{
 		return default(LayoutValue);
 	}
 
 	[Token(Token = "0x6002CB5")]
-	[Address(RVA = "0x31C32F0", Offset = "0x31C18F0", VA = "0x1831C32F0")]
+	[Address(RVA = "0x6BC5490", Offset = "0x6BC4490", VA = "0x6BC5490")]
 	public static implicit operator LayoutValue(float value)
 	{
 		return default(LayoutValue);

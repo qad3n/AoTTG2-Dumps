@@ -18,27 +18,27 @@ public class ReferenceEqualityComparer : IEqualityComparer<object>
 	public static readonly ReferenceEqualityComparer Instance;
 
 	[Token(Token = "0x60010A7")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x684B880", Offset = "0x684A880", VA = "0x684B880")]
 	private ReferenceEqualityComparer()
 	{
 	}
 
 	[Token(Token = "0x60010A8")]
-	[Address(RVA = "0xC7E810", Offset = "0xC7CE10", VA = "0x180C7E810", Slot = "4")]
+	[Address(RVA = "0x684B890", Offset = "0x684A890", VA = "0x684B890", Slot = "4")]
 	private bool System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EEquals(object a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010A9")]
-	[Address(RVA = "0x2E555E0", Offset = "0x2E53BE0", VA = "0x182E555E0", Slot = "5")]
+	[Address(RVA = "0x684B8A0", Offset = "0x684A8A0", VA = "0x684B8A0", Slot = "5")]
 	private int System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EGetHashCode(object a)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60010AA")]
-	[Address(RVA = "0xC7E720", Offset = "0xC7CD20", VA = "0x180C7E720")]
+	[Address(RVA = "0x684B910", Offset = "0x684A910", VA = "0x684B910")]
 	public static int GetHashCode(object a)
 	{
 		return default(int);

@@ -15,7 +15,7 @@ namespace Photon.Voice;
 internal class UnsupportedPlatformException : Exception
 {
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x1D76CA0", Offset = "0x1D752A0", VA = "0x181D76CA0")]
+	[Address(RVA = "0x57196D0", Offset = "0x57186D0", VA = "0x57196D0")]
 	public UnsupportedPlatformException(string subject, [Optional] string platform)
 	{
 	}

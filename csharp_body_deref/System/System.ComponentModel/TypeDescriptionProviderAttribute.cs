@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x20001A9")]
 [AttributeUsage(AttributeTargets.Class, Inherited = true)]
 public sealed class TypeDescriptionProviderAttribute : Attribute
 {
-	[Token(Token = "0x1700029C")]
+	[Token(Token = "0x1700026D")]
 	public string TypeName
 	{
-		[Token(Token = "0x6000CEB")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6000B2B")]
+		[Address(RVA = "0x624B120", Offset = "0x624A120", VA = "0x624B120")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,14 +26,14 @@ public sealed class TypeDescriptionProviderAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000CE9")]
-	[Address(RVA = "0x28CA100", Offset = "0x28C8700", VA = "0x1828CA100")]
+	[Token(Token = "0x6000B29")]
+	[Address(RVA = "0x624AFE0", Offset = "0x6249FE0", VA = "0x624AFE0")]
 	public TypeDescriptionProviderAttribute(string typeName)
 	{
 	}
 
-	[Token(Token = "0x6000CEA")]
-	[Address(RVA = "0x28CA180", Offset = "0x28C8780", VA = "0x1828CA180")]
+	[Token(Token = "0x6000B2A")]
+	[Address(RVA = "0x624B060", Offset = "0x624A060", VA = "0x624B060")]
 	public TypeDescriptionProviderAttribute(Type type)
 	{
 	}

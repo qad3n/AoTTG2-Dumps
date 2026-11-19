@@ -28,7 +28,7 @@ internal sealed class XmlSchemaCollectionNode
 	internal string NamespaceURI
 	{
 		[Token(Token = "0x600158C")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x60285F0", Offset = "0x60275F0", VA = "0x60285F0")]
 		set
 		{
 		}
@@ -38,13 +38,13 @@ internal sealed class XmlSchemaCollectionNode
 	internal SchemaInfo SchemaInfo
 	{
 		[Token(Token = "0x600158D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6028600", Offset = "0x6027600", VA = "0x6028600")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600158E")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x6028610", Offset = "0x6027610", VA = "0x6028610")]
 		set
 		{
 		}
@@ -54,20 +54,20 @@ internal sealed class XmlSchemaCollectionNode
 	internal XmlSchema Schema
 	{
 		[Token(Token = "0x600158F")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6028620", Offset = "0x6027620", VA = "0x6028620")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001590")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x6028630", Offset = "0x6027630", VA = "0x6028630")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001591")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6028480", Offset = "0x6027480", VA = "0x6028480")]
 	public XmlSchemaCollectionNode()
 	{
 	}

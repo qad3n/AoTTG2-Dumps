@@ -23,13 +23,13 @@ public class EnsureThat
 	internal string paramName;
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x2DA4870", Offset = "0x2DA2E70", VA = "0x182DA4870")]
+	[Address(RVA = "0x6793960", Offset = "0x6792960", VA = "0x6793960")]
 	public void IsTrue(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x2DA3970", Offset = "0x2DA1F70", VA = "0x182DA3970")]
+	[Address(RVA = "0x6793A80", Offset = "0x6792A80", VA = "0x6793A80")]
 	public void IsFalse(bool value)
 	{
 	}
@@ -170,7 +170,7 @@ public class EnsureThat
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x2DA3D20", Offset = "0x2DA2320", VA = "0x182DA3D20")]
+	[Address(RVA = "0x6793BA0", Offset = "0x6792BA0", VA = "0x6793BA0")]
 	public void IsNotEmpty(Guid value)
 	{
 	}
@@ -191,7 +191,7 @@ public class EnsureThat
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x2DA2D00", Offset = "0x2DA1300", VA = "0x182DA2D00")]
+	[Address(RVA = "0x6793D00", Offset = "0x6792D00", VA = "0x6793D00")]
 	public void HasAttribute(Type param, Type attributeType)
 	{
 	}
@@ -202,103 +202,103 @@ public class EnsureThat
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x2DA2F90", Offset = "0x2DA1590", VA = "0x182DA2F90")]
+	[Address(RVA = "0x6794130", Offset = "0x6793130", VA = "0x6794130")]
 	private void HasConstructorAccepting(Type param, Type[] parameterTypes, bool nonPublic)
 	{
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x2DA31B0", Offset = "0x2DA17B0", VA = "0x182DA31B0")]
+	[Address(RVA = "0x6794390", Offset = "0x6793390", VA = "0x6794390")]
 	public void HasConstructorAccepting(Type param, params Type[] parameterTypes)
 	{
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x2DA3620", Offset = "0x2DA1C20", VA = "0x182DA3620")]
+	[Address(RVA = "0x67943A0", Offset = "0x67933A0", VA = "0x67943A0")]
 	public void HasPublicConstructorAccepting(Type param, params Type[] parameterTypes)
 	{
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x2DA4380", Offset = "0x2DA2980", VA = "0x182DA4380")]
+	[Address(RVA = "0x67943B0", Offset = "0x67933B0", VA = "0x67943B0")]
 	public void IsNotNullOrWhiteSpace(string value)
 	{
 	}
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x2DA4190", Offset = "0x2DA2790", VA = "0x182DA4190")]
+	[Address(RVA = "0x6794630", Offset = "0x6793630", VA = "0x6794630")]
 	public void IsNotNullOrEmpty(string value)
 	{
 	}
 
 	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x2DA4590", Offset = "0x2DA2B90", VA = "0x182DA4590")]
+	[Address(RVA = "0x6794510", Offset = "0x6793510", VA = "0x6794510")]
 	public void IsNotNull(string value)
 	{
 	}
 
 	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x2DA3BF0", Offset = "0x2DA21F0", VA = "0x182DA3BF0")]
+	[Address(RVA = "0x6794770", Offset = "0x6793770", VA = "0x6794770")]
 	public void IsNotEmpty(string value)
 	{
 	}
 
 	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x2DA31D0", Offset = "0x2DA17D0", VA = "0x182DA31D0")]
+	[Address(RVA = "0x67948C0", Offset = "0x67938C0", VA = "0x67948C0")]
 	public void HasLengthBetween(string value, int minLength, int maxLength)
 	{
 	}
 
 	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x2DA4B20", Offset = "0x2DA3120", VA = "0x182DA4B20")]
+	[Address(RVA = "0x6794B10", Offset = "0x6793B10", VA = "0x6794B10")]
 	public void Matches(string value, string match)
 	{
 	}
 
 	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x2DA4970", Offset = "0x2DA2F70", VA = "0x182DA4970")]
+	[Address(RVA = "0x6794B80", Offset = "0x6793B80", VA = "0x6794B80")]
 	public void Matches(string value, Regex match)
 	{
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x2DA4CF0", Offset = "0x2DA32F0", VA = "0x182DA4CF0")]
+	[Address(RVA = "0x6794D30", Offset = "0x6793D30", VA = "0x6794D30")]
 	public void SizeIs(string value, int expected)
 	{
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x2DA3640", Offset = "0x2DA1C40", VA = "0x182DA3640")]
+	[Address(RVA = "0x6794F20", Offset = "0x6793F20", VA = "0x6794F20")]
 	public void IsEqualTo(string value, string expected)
 	{
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x2DA37D0", Offset = "0x2DA1DD0", VA = "0x182DA37D0")]
+	[Address(RVA = "0x6795170", Offset = "0x6794170", VA = "0x6795170")]
 	public void IsEqualTo(string value, string expected, StringComparison comparison)
 	{
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x2DA4000", Offset = "0x2DA2600", VA = "0x182DA4000")]
+	[Address(RVA = "0x6795390", Offset = "0x6794390", VA = "0x6795390")]
 	public void IsNotEqualTo(string value, string expected)
 	{
 	}
 
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x2DA3E60", Offset = "0x2DA2460", VA = "0x182DA3E60")]
+	[Address(RVA = "0x6795550", Offset = "0x6794550", VA = "0x6795550")]
 	public void IsNotEqualTo(string value, string expected, StringComparison comparison)
 	{
 	}
 
 	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x2DA3A70", Offset = "0x2DA2070", VA = "0x182DA3A70")]
+	[Address(RVA = "0x6795770", Offset = "0x6794770", VA = "0x6795770")]
 	public void IsGuid(string value)
 	{
 	}
 
 	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x2DA4FB0", Offset = "0x2DA35B0", VA = "0x182DA4FB0")]
+	[Address(RVA = "0x67950E0", Offset = "0x67940E0", VA = "0x67950E0")]
 	private bool StringEquals(string x, string y, [Optional] StringComparison? comparison)
 	{
 		return default(bool);
@@ -310,7 +310,7 @@ public class EnsureThat
 	}
 
 	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x2DA46A0", Offset = "0x2DA2CA0", VA = "0x182DA46A0")]
+	[Address(RVA = "0x6795910", Offset = "0x6794910", VA = "0x6795910")]
 	public void IsOfType(Type param, Type expectedType)
 	{
 	}
@@ -331,7 +331,7 @@ public class EnsureThat
 	}
 
 	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6793950", Offset = "0x6792950", VA = "0x6793950")]
 	public EnsureThat()
 	{
 	}

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200028C")]
+[Token(Token = "0x2000264")]
 public class UnobservedTaskExceptionEventArgs : EventArgs
 {
-	[Token(Token = "0x4000B4F")]
+	[Token(Token = "0x4000AAD")]
 	[FieldOffset(Offset = "0x10")]
 	private AggregateException m_exception;
 
-	[Token(Token = "0x4000B50")]
+	[Token(Token = "0x4000AAE")]
 	[FieldOffset(Offset = "0x18")]
 	internal bool m_observed;
 
-	[Token(Token = "0x6001563")]
-	[Address(RVA = "0x1BC4960", Offset = "0x1BC2F60", VA = "0x181BC4960")]
+	[Token(Token = "0x600153A")]
+	[Address(RVA = "0x554D430", Offset = "0x554C430", VA = "0x554D430")]
 	public UnobservedTaskExceptionEventArgs(AggregateException exception)
 	{
 	}

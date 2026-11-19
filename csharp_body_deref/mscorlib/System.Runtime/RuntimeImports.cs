@@ -10,32 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.Runtime;
 
-[Token(Token = "0x2000367")]
-public static class RuntimeImports
+[Token(Token = "0x2000340")]
+internal static class RuntimeImports
 {
-	[Token(Token = "0x6001C77")]
-	[Address(RVA = "0x19E4640", Offset = "0x19E2C40", VA = "0x1819E4640")]
+	[Token(Token = "0x6001C4E")]
+	[Address(RVA = "0x5368BD0", Offset = "0x5367BD0", VA = "0x5368BD0")]
 	internal static void RhZeroMemory(ref byte b, ulong byteLength)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001C78")]
-	[Address(RVA = "0x19E4640", Offset = "0x19E2C40", VA = "0x1819E4640")]
+	[Token(Token = "0x6001C4F")]
+	[Address(RVA = "0x5368BE0", Offset = "0x5367BE0", VA = "0x5368BE0")]
 	private unsafe static extern void ZeroMemory(void* p, uint byteLength);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001C79")]
-	[Address(RVA = "0x19E4620", Offset = "0x19E2C20", VA = "0x1819E4620")]
+	[Token(Token = "0x6001C50")]
+	[Address(RVA = "0x5368BF0", Offset = "0x5367BF0", VA = "0x5368BF0")]
 	internal unsafe static extern void Memmove(byte* dest, byte* src, uint len);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001C7A")]
-	[Address(RVA = "0x19E4630", Offset = "0x19E2C30", VA = "0x1819E4630")]
+	[Token(Token = "0x6001C51")]
+	[Address(RVA = "0x5368C00", Offset = "0x5367C00", VA = "0x5368C00")]
 	internal unsafe static extern void Memmove_wbarrier(byte* dest, byte* src, uint len, IntPtr type_handle);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001C7B")]
-	[Address(RVA = "0x19E4650", Offset = "0x19E2C50", VA = "0x1819E4650")]
-	internal unsafe static extern void _ecvt_s(byte* buffer, int sizeInBytes, double value, int count, int* dec, int* sign);
 }

@@ -48,13 +48,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public float PointScaleFactor
 	{
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0xE8F460", Offset = "0xE8DA60", VA = "0x180E8F460")]
+		[Address(RVA = "0x5216050", Offset = "0x5215050", VA = "0x5216050")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x1878CB0", Offset = "0x18772B0", VA = "0x181878CB0")]
+		[Address(RVA = "0x5216060", Offset = "0x5215060", VA = "0x5216060")]
 		set
 		{
 		}
@@ -64,13 +64,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public Errata Errata
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x5216180", Offset = "0x5215180", VA = "0x5216180")]
 		get
 		{
 			return default(Errata);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x1878C50", Offset = "0x1877250", VA = "0x181878C50")]
+		[Address(RVA = "0x5216190", Offset = "0x5215190", VA = "0x5216190")]
 		set
 		{
 		}
@@ -80,13 +80,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public ExperimentalFeatureFlags ExperimentalFeatures
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x52162B0", Offset = "0x52152B0", VA = "0x52162B0")]
 		get
 		{
 			return default(ExperimentalFeatureFlags);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x1878C60", Offset = "0x1877260", VA = "0x181878C60")]
+		[Address(RVA = "0x52162C0", Offset = "0x52152C0", VA = "0x52162C0")]
 		set
 		{
 		}
@@ -96,7 +96,7 @@ public class FlexLayoutConfig : ScriptableObject
 	public YGConfig Config
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x1878BA0", Offset = "0x18771A0", VA = "0x181878BA0")]
+		[Address(RVA = "0x520F070", Offset = "0x520E070", VA = "0x520F070")]
 		get
 		{
 			return default(YGConfig);
@@ -104,19 +104,19 @@ public class FlexLayoutConfig : ScriptableObject
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x1878A90", Offset = "0x1877090", VA = "0x181878A90")]
+	[Address(RVA = "0x5216780", Offset = "0x5215780", VA = "0x5216780")]
 	protected void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x1878B20", Offset = "0x1877120", VA = "0x181878B20")]
+	[Address(RVA = "0x5216570", Offset = "0x5215570", VA = "0x5216570")]
 	protected void RefreshConfig()
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x1878B90", Offset = "0x1877190", VA = "0x181878B90")]
+	[Address(RVA = "0x5216920", Offset = "0x5215920", VA = "0x5216920")]
 	public FlexLayoutConfig()
 	{
 	}

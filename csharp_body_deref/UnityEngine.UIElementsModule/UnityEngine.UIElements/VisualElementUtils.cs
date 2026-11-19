@@ -27,21 +27,21 @@ internal static class VisualElementUtils
 	private static readonly string s_InspectorElementUssClassName;
 
 	[Token(Token = "0x6002827")]
-	[Address(RVA = "0x316A430", Offset = "0x3168A30", VA = "0x18316A430")]
+	[Address(RVA = "0x6B6ED30", Offset = "0x6B6DD30", VA = "0x6B6ED30")]
 	public static string GetUniqueName(string nameBase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002828")]
-	[Address(RVA = "0x316A340", Offset = "0x3168940", VA = "0x18316A340")]
+	[Address(RVA = "0x6B6EE50", Offset = "0x6B6DE50", VA = "0x6B6EE50")]
 	internal static int GetFoldoutDepth(this VisualElement element)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002829")]
-	[Address(RVA = "0x316A210", Offset = "0x3168810", VA = "0x18316A210")]
+	[Address(RVA = "0x6B6EF40", Offset = "0x6B6DF40", VA = "0x6B6EF40")]
 	internal static void AssignInspectorStyleIfNecessary(this VisualElement element, string classNameToEnable)
 	{
 	}

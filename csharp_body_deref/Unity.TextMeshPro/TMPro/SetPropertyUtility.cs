@@ -15,7 +15,7 @@ namespace TMPro;
 internal static class SetPropertyUtility
 {
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x2D33AD0", Offset = "0x2D320D0", VA = "0x182D33AD0")]
+	[Address(RVA = "0x672D990", Offset = "0x672C990", VA = "0x672D990")]
 	public static bool SetColor(ref Color currentValue, Color newValue)
 	{
 		return default(bool);

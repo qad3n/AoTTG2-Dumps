@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptiveShadowmapResolution
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AdaptivePerformance;
 
-[Token(Token = "0x200004B")]
+[Token(Token = "0x200004C")]
 public class AdaptiveShadowmapResolution : AdaptivePerformanceScaler
 {
-	[Token(Token = "0x4000131")]
+	[Token(Token = "0x4000132")]
 	[FieldOffset(Offset = "0x40")]
 	private float m_DefaultShadowmapResolution;
 
-	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x2E95760", Offset = "0x2E93D60", VA = "0x182E95760", Slot = "20")]
+	[Token(Token = "0x600023F")]
+	[Address(RVA = "0x6891E80", Offset = "0x6890E80", VA = "0x6891E80", Slot = "20")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x2E95800", Offset = "0x2E93E00", VA = "0x182E95800", Slot = "25")]
+	[Token(Token = "0x6000240")]
+	[Address(RVA = "0x6891F20", Offset = "0x6890F20", VA = "0x6891F20", Slot = "25")]
 	protected override void OnDisabled()
 	{
 	}
 
-	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x2E95860", Offset = "0x2E93E60", VA = "0x182E95860", Slot = "24")]
+	[Token(Token = "0x6000241")]
+	[Address(RVA = "0x6891F90", Offset = "0x6890F90", VA = "0x6891F90", Slot = "24")]
 	protected override void OnEnabled()
 	{
 	}
 
-	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x2E958B0", Offset = "0x2E93EB0", VA = "0x182E958B0", Slot = "23")]
+	[Token(Token = "0x6000242")]
+	[Address(RVA = "0x6891FE0", Offset = "0x6890FE0", VA = "0x6891FE0", Slot = "23")]
 	protected override void OnLevel()
 	{
 	}
 
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x2E94000", Offset = "0x2E92600", VA = "0x182E94000")]
+	[Token(Token = "0x6000243")]
+	[Address(RVA = "0x6892070", Offset = "0x6891070", VA = "0x6892070")]
 	public AdaptiveShadowmapResolution()
 	{
 	}

@@ -13,92 +13,92 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000296")]
+[Token(Token = "0x20002F2")]
 internal static class AottgCharacterStyleChoicePreview
 {
-	[Token(Token = "0x4000D53")]
+	[Token(Token = "0x4000EEA")]
 	private const string EffectRenderer = "profile-character-effect-preview";
 
-	[Token(Token = "0x4000D54")]
+	[Token(Token = "0x4000EEB")]
 	private const string FontRenderer = "profile-character-font-preview";
 
-	[Token(Token = "0x4000D55")]
+	[Token(Token = "0x4000EEC")]
 	private const string UiFont = "Aottg2";
 
-	[Token(Token = "0x4000D56")]
+	[Token(Token = "0x4000EED")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string[] TwoGradient;
 
-	[Token(Token = "0x4000D57")]
+	[Token(Token = "0x4000EEE")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly string[] FourGradient;
 
-	[Token(Token = "0x4000D58")]
+	[Token(Token = "0x4000EEF")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly Color DarkSurface;
 
-	[Token(Token = "0x4000D59")]
+	[Token(Token = "0x4000EF0")]
 	[FieldOffset(Offset = "0x20")]
 	private static bool _registered;
 
-	[Token(Token = "0x6000FD9")]
-	[Address(RVA = "0x1DFD320", Offset = "0x1DFB920", VA = "0x181DFD320")]
+	[Token(Token = "0x6001229")]
+	[Address(RVA = "0x57E2C10", Offset = "0x57E1C10", VA = "0x57E2C10")]
 	public static void Register()
 	{
 	}
 
-	[Token(Token = "0x6000FDA")]
-	[Address(RVA = "0x1DFDB80", Offset = "0x1DFC180", VA = "0x181DFDB80")]
+	[Token(Token = "0x600122A")]
+	[Address(RVA = "0x57E6800", Offset = "0x57E5800", VA = "0x57E6800")]
 	public static void UseEffectRenderer(GisketchNodeDefinition node)
 	{
 	}
 
-	[Token(Token = "0x6000FDB")]
-	[Address(RVA = "0x1DFDBE0", Offset = "0x1DFC1E0", VA = "0x181DFDBE0")]
+	[Token(Token = "0x600122B")]
+	[Address(RVA = "0x57E6850", Offset = "0x57E5850", VA = "0x57E6850")]
 	public static void UseFontRenderer(GisketchNodeDefinition node)
 	{
 	}
 
-	[Token(Token = "0x6000FDC")]
-	[Address(RVA = "0x1DFD470", Offset = "0x1DFBA70", VA = "0x181DFD470")]
+	[Token(Token = "0x600122C")]
+	[Address(RVA = "0x57E6DF0", Offset = "0x57E5DF0", VA = "0x57E6DF0")]
 	private static void RenderEffect(GisketchChoiceOptionRenderContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FDD")]
-	[Address(RVA = "0x1DFD8A0", Offset = "0x1DFBEA0", VA = "0x181DFD8A0")]
+	[Token(Token = "0x600122D")]
+	[Address(RVA = "0x57E7BF0", Offset = "0x57E6BF0", VA = "0x57E7BF0")]
 	private static void RenderFont(GisketchChoiceOptionRenderContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FDE")]
-	[Address(RVA = "0x1DFD200", Offset = "0x1DFB800", VA = "0x181DFD200")]
+	[Token(Token = "0x600122E")]
+	[Address(RVA = "0x57E70D0", Offset = "0x57E60D0", VA = "0x57E70D0")]
 	private static AottgNameStyleChoicePreview Preview(GisketchChoiceOptionRenderContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FDF")]
-	[Address(RVA = "0x1DFDA90", Offset = "0x1DFC090", VA = "0x181DFDA90")]
+	[Token(Token = "0x600122F")]
+	[Address(RVA = "0x57E74A0", Offset = "0x57E64A0", VA = "0x57E74A0")]
 	private static void SetFeedback(GisketchChoiceOptionRenderContext context, bool ownsColor)
 	{
 	}
 
-	[Token(Token = "0x6000FE0")]
-	[Address(RVA = "0x1DFCCD0", Offset = "0x1DFB2D0", VA = "0x181DFCCD0")]
+	[Token(Token = "0x6001230")]
+	[Address(RVA = "0x57E7200", Offset = "0x57E6200", VA = "0x57E7200")]
 	private static void ApplyDarkSurface(GisketchChoiceOptionRenderContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FE1")]
-	[Address(RVA = "0x1DFCF60", Offset = "0x1DFB560", VA = "0x181DFCF60")]
+	[Token(Token = "0x6001231")]
+	[Address(RVA = "0x57E7740", Offset = "0x57E6740", VA = "0x57E7740")]
 	private static Color[] Parse(IList<string> colors)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FE2")]
-	[Address(RVA = "0x1DFD1A0", Offset = "0x1DFB7A0", VA = "0x181DFD1A0")]
+	[Token(Token = "0x6001232")]
+	[Address(RVA = "0x57E7DC0", Offset = "0x57E6DC0", VA = "0x57E7DC0")]
 	private static Color Parse(string hex)
 	{
 		return default(Color);

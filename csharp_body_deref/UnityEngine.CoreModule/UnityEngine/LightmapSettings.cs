@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D5")]
+[Token(Token = "0x20000D6")]
 [UnityEngine.Bindings.StaticAccessor("GetLightmapSettings()")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/LightmapSettings.h")]
 public sealed class LightmapSettings : Object

@@ -14,7 +14,7 @@ namespace UnityEngine.Playables;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public interface INotificationReceiver
 {
-	[Token(Token = "0x6001219")]
+	[Token(Token = "0x600122D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnNotify(Playable origin, INotification notification, object context);
 }

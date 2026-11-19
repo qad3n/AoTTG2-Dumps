@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.CanvasGroup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,13 +23,13 @@ public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter
 	public float alpha
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x32BCAE0", Offset = "0x32BB0E0", VA = "0x1832BCAE0")]
+		[Address(RVA = "0x6CC9290", Offset = "0x6CC8290", VA = "0x6CC9290")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x32BCD70", Offset = "0x32BB370", VA = "0x1832BCD70")]
+		[Address(RVA = "0x6CC9340", Offset = "0x6CC8340", VA = "0x6CC9340")]
 		set
 		{
 		}
@@ -40,13 +40,13 @@ public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter
 	public bool interactable
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x32BCCA0", Offset = "0x32BB2A0", VA = "0x1832BCCA0")]
+		[Address(RVA = "0x6CC9420", Offset = "0x6CC8420", VA = "0x6CC9420")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x32BD010", Offset = "0x32BB610", VA = "0x1832BD010")]
+		[Address(RVA = "0x6CC94D0", Offset = "0x6CC84D0", VA = "0x6CC94D0")]
 		set
 		{
 		}
@@ -57,13 +57,13 @@ public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter
 	public bool blocksRaycasts
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x32BCA20", Offset = "0x32BB020", VA = "0x1832BCA20")]
+		[Address(RVA = "0x6CC9590", Offset = "0x6CC8590", VA = "0x6CC9590")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x32BCE50", Offset = "0x32BB450", VA = "0x1832BCE50")]
+		[Address(RVA = "0x6CC9640", Offset = "0x6CC8640", VA = "0x6CC9640")]
 		set
 		{
 		}
@@ -74,68 +74,68 @@ public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter
 	public bool ignoreParentGroups
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x32BCBE0", Offset = "0x32BB1E0", VA = "0x1832BCBE0")]
+		[Address(RVA = "0x6CC9700", Offset = "0x6CC8700", VA = "0x6CC9700")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x32BCF30", Offset = "0x32BB530", VA = "0x1832BCF30")]
+		[Address(RVA = "0x6CC97B0", Offset = "0x6CC87B0", VA = "0x6CC97B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x32BCA20", Offset = "0x32BB020", VA = "0x1832BCA20", Slot = "4")]
+	[Address(RVA = "0x6CC9870", Offset = "0x6CC8870", VA = "0x6CC9870", Slot = "4")]
 	public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6CC98F0", Offset = "0x6CC88F0", VA = "0x6CC98F0")]
 	public CanvasGroup()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x32BCAA0", Offset = "0x32BB0A0", VA = "0x1832BCAA0")]
+	[Address(RVA = "0x6CC9310", Offset = "0x6CC8310", VA = "0x6CC9310")]
 	private static extern float get_alpha_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x32BCD20", Offset = "0x32BB320", VA = "0x1832BCD20")]
+	[Address(RVA = "0x6CC93D0", Offset = "0x6CC83D0", VA = "0x6CC93D0")]
 	private static extern void set_alpha_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x32BCC60", Offset = "0x32BB260", VA = "0x1832BCC60")]
+	[Address(RVA = "0x6CC94A0", Offset = "0x6CC84A0", VA = "0x6CC94A0")]
 	private static extern bool get_interactable_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x32BCFC0", Offset = "0x32BB5C0", VA = "0x1832BCFC0")]
+	[Address(RVA = "0x6CC9550", Offset = "0x6CC8550", VA = "0x6CC9550")]
 	private static extern void set_interactable_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x32BCB60", Offset = "0x32BB160", VA = "0x1832BCB60")]
+	[Address(RVA = "0x6CC9610", Offset = "0x6CC8610", VA = "0x6CC9610")]
 	private static extern bool get_blocksRaycasts_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x32BCE00", Offset = "0x32BB400", VA = "0x1832BCE00")]
+	[Address(RVA = "0x6CC96C0", Offset = "0x6CC86C0", VA = "0x6CC96C0")]
 	private static extern void set_blocksRaycasts_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x32BCBA0", Offset = "0x32BB1A0", VA = "0x1832BCBA0")]
+	[Address(RVA = "0x6CC9780", Offset = "0x6CC8780", VA = "0x6CC9780")]
 	private static extern bool get_ignoreParentGroups_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x32BCEE0", Offset = "0x32BB4E0", VA = "0x1832BCEE0")]
+	[Address(RVA = "0x6CC9830", Offset = "0x6CC8830", VA = "0x6CC9830")]
 	private static extern void set_ignoreParentGroups_Injected(IntPtr _unity_self, bool value);
 }

@@ -22,27 +22,27 @@ public class PhotonTransformViewRotationControl
 	private Quaternion m_NetworkRotation;
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Address(RVA = "0x56FDEF0", Offset = "0x56FCEF0", VA = "0x56FDEF0")]
 	public PhotonTransformViewRotationControl(PhotonTransformViewRotationModel model)
 	{
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
+	[Address(RVA = "0x56FFE90", Offset = "0x56FEE90", VA = "0x56FFE90")]
 	public Quaternion GetNetworkRotation()
 	{
 		return default(Quaternion);
 	}
 
 	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x1D662C0", Offset = "0x1D648C0", VA = "0x181D662C0")]
+	[Address(RVA = "0x56FEC50", Offset = "0x56FDC50", VA = "0x56FEC50")]
 	public Quaternion GetRotation(Quaternion currentRotation)
 	{
 		return default(Quaternion);
 	}
 
 	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x1D66490", Offset = "0x1D64A90", VA = "0x181D66490")]
+	[Address(RVA = "0x56FF370", Offset = "0x56FE370", VA = "0x56FF370")]
 	public void OnPhotonSerializeView(Quaternion currentRotation, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}

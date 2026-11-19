@@ -77,86 +77,23 @@ public sealed class X501
 	[FieldOffset(Offset = "0x78")]
 	private static byte[] initial;
 
-	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x1923890", Offset = "0x1921E90", VA = "0x181923890")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x52AF690", Offset = "0x52AE690", VA = "0x52AF690")]
 	public static string ToString(ASN1 seq)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x19236B0", Offset = "0x1921CB0", VA = "0x1819236B0")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x52BAE80", Offset = "0x52B9E80", VA = "0x52BAE80")]
 	public static string ToString(ASN1 seq, bool reversed, string separator, bool quotes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x1921340", Offset = "0x191F940", VA = "0x181921340")]
+	[Token(Token = "0x600006F")]
+	[Address(RVA = "0x52BA2C0", Offset = "0x52B92C0", VA = "0x52BA2C0")]
 	private static void AppendEntry(StringBuilder sb, ASN1 entry, bool quotes)
 	{
-	}
-
-	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x1922110", Offset = "0x1920710", VA = "0x181922110")]
-	private static X520.AttributeTypeAndValue GetAttributeFromOid(string attributeType)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x1922C60", Offset = "0x1921260", VA = "0x181922C60")]
-	private static bool IsOid(string oid)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x1922D50", Offset = "0x1921350", VA = "0x181922D50")]
-	private static X520.AttributeTypeAndValue ReadAttribute(string value, ref int pos)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x1922BA0", Offset = "0x19211A0", VA = "0x181922BA0")]
-	private static bool IsHex(char c)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x19230A0", Offset = "0x19216A0", VA = "0x1819230A0")]
-	private static string ReadHex(string value, ref int pos)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x1922EE0", Offset = "0x19214E0", VA = "0x181922EE0")]
-	private static int ReadEscaped(StringBuilder sb, string value, int pos)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x19232D0", Offset = "0x19218D0", VA = "0x1819232D0")]
-	private static int ReadQuoted(StringBuilder sb, string value, int pos)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x1923410", Offset = "0x1921A10", VA = "0x181923410")]
-	private static string ReadValue(string value, ref int pos)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x1921CA0", Offset = "0x19202A0", VA = "0x181921CA0")]
-	public static ASN1 FromString(string rdn)
-	{
-		return null;
 	}
 }

@@ -40,7 +40,7 @@ internal class JsonSchemaBuilder
 	private JsonSchema CurrentSchema
 	{
 		[Token(Token = "0x6000A46")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x55F1780", Offset = "0x55F0780", VA = "0x55F1780")]
 		get
 		{
 			return null;
@@ -48,111 +48,111 @@ internal class JsonSchemaBuilder
 	}
 
 	[Token(Token = "0x6000A43")]
-	[Address(RVA = "0x1C5A380", Offset = "0x1C58980", VA = "0x181C5A380")]
+	[Address(RVA = "0x55EF770", Offset = "0x55EE770", VA = "0x55EF770")]
 	public JsonSchemaBuilder(JsonSchemaResolver resolver)
 	{
 	}
 
 	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x1C596C0", Offset = "0x1C57CC0", VA = "0x181C596C0")]
+	[Address(RVA = "0x55F1420", Offset = "0x55F0420", VA = "0x55F1420")]
 	private void Push(JsonSchema value)
 	{
 	}
 
 	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x1C571C0", Offset = "0x1C557C0", VA = "0x181C571C0")]
+	[Address(RVA = "0x55F1610", Offset = "0x55F0610", VA = "0x55F1610")]
 	private JsonSchema Pop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x1C59790", Offset = "0x1C57D90", VA = "0x181C59790")]
+	[Address(RVA = "0x55EF850", Offset = "0x55EE850", VA = "0x55EF850")]
 	internal JsonSchema Read(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x1C5A2D0", Offset = "0x1C588D0", VA = "0x181C5A2D0")]
+	[Address(RVA = "0x55F2750", Offset = "0x55F1750", VA = "0x55F2750")]
 	private string UnescapeReference(string reference)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x1C598B0", Offset = "0x1C57EB0", VA = "0x181C598B0")]
+	[Address(RVA = "0x55F1C20", Offset = "0x55F0C20", VA = "0x55F1C20")]
 	private JsonSchema ResolveReferences(JsonSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A4A")]
-	[Address(RVA = "0x1C56A10", Offset = "0x1C55010", VA = "0x181C56A10")]
+	[Address(RVA = "0x55F1790", Offset = "0x55F0790", VA = "0x55F1790")]
 	private JsonSchema BuildSchema(JToken token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A4B")]
-	[Address(RVA = "0x1C58300", Offset = "0x1C56900", VA = "0x181C58300")]
+	[Address(RVA = "0x55F2800", Offset = "0x55F1800", VA = "0x55F2800")]
 	private void ProcessSchemaProperties(JObject schemaObject)
 	{
 	}
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x1C577C0", Offset = "0x1C55DC0", VA = "0x181C577C0")]
+	[Address(RVA = "0x55F52D0", Offset = "0x55F42D0", VA = "0x55F52D0")]
 	private void ProcessExtends(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x1C57420", Offset = "0x1C55A20", VA = "0x181C57420")]
+	[Address(RVA = "0x55F4DE0", Offset = "0x55F3DE0", VA = "0x55F4DE0")]
 	private void ProcessEnum(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0x1C57350", Offset = "0x1C55950", VA = "0x181C57350")]
+	[Address(RVA = "0x55F4C80", Offset = "0x55F3C80", VA = "0x55F4C80")]
 	private void ProcessAdditionalProperties(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x1C57280", Offset = "0x1C55880", VA = "0x181C57280")]
+	[Address(RVA = "0x55F4D30", Offset = "0x55F3D30", VA = "0x55F4D30")]
 	private void ProcessAdditionalItems(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000A50")]
-	[Address(RVA = "0x1C57ED0", Offset = "0x1C564D0", VA = "0x181C57ED0")]
+	[Address(RVA = "0x55F40C0", Offset = "0x55F30C0", VA = "0x55F40C0")]
 	private IDictionary<string, JsonSchema> ProcessProperties(JToken token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A51")]
-	[Address(RVA = "0x1C57AF0", Offset = "0x1C560F0", VA = "0x181C57AF0")]
+	[Address(RVA = "0x55F46C0", Offset = "0x55F36C0", VA = "0x55F46C0")]
 	private void ProcessItems(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x1C592A0", Offset = "0x1C578A0", VA = "0x181C592A0")]
+	[Address(RVA = "0x55F3AF0", Offset = "0x55F2AF0", VA = "0x55F3AF0")]
 	private JsonSchemaType? ProcessType(JToken token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A53")]
-	[Address(RVA = "0x1C57040", Offset = "0x1C55640", VA = "0x181C57040")]
+	[Address(RVA = "0x55F5800", Offset = "0x55F4800", VA = "0x55F5800")]
 	internal static JsonSchemaType MapType(string type)
 	{
 		return default(JsonSchemaType);
 	}
 
 	[Token(Token = "0x6000A54")]
-	[Address(RVA = "0x1C56F30", Offset = "0x1C55530", VA = "0x181C56F30")]
+	[Address(RVA = "0x55F5970", Offset = "0x55F4970", VA = "0x55F5970")]
 	internal static string MapType(JsonSchemaType type)
 	{
 		return null;

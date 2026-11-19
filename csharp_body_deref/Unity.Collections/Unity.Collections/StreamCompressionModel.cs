@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Collections.StreamCompressionModel
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -72,7 +72,7 @@ public struct StreamCompressionModel
 	public static StreamCompressionModel Default
 	{
 		[Token(Token = "0x6000A1E")]
-		[Address(RVA = "0x29BACC0", Offset = "0x29B92C0", VA = "0x1829BACC0")]
+		[Address(RVA = "0x63844C0", Offset = "0x63834C0", VA = "0x63844C0")]
 		get
 		{
 			return default(StreamCompressionModel);
@@ -80,46 +80,46 @@ public struct StreamCompressionModel
 	}
 
 	[Token(Token = "0x6000A1F")]
-	[Address(RVA = "0x29BA560", Offset = "0x29B8B60", VA = "0x1829BA560")]
+	[Address(RVA = "0x63845D0", Offset = "0x63835D0", VA = "0x63845D0")]
 	private static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000A20")]
-	[Address(RVA = "0x29BA220", Offset = "0x29B8820", VA = "0x1829BA220")]
+	[Address(RVA = "0x6384FD0", Offset = "0x6383FD0", VA = "0x6384FD0")]
 	private static void GenerateHuffmanCodes(NativeArray<byte> symbolCodes, int symbolCodesOffset, NativeArray<byte> symbolLengths, int symbolLengthsOffset, int alphabetSize, int maxCodeLength)
 	{
 	}
 
 	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x29BAAA0", Offset = "0x29B90A0", VA = "0x1829BAAA0")]
+	[Address(RVA = "0x6385250", Offset = "0x6384250", VA = "0x6385250")]
 	private static uint ReverseBits(uint value, int num_bits)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x29BA440", Offset = "0x29B8A40", VA = "0x1829BA440")]
+	[Address(RVA = "0x63851D0", Offset = "0x63841D0", VA = "0x63851D0")]
 	private static void GenerateHuffmanDecodeTable(NativeArray<ushort> decodeTable, int decodeTableOffset, NativeArray<byte> symbolLengths, NativeArray<byte> symbolCodes, int alphabetSize, int maxCodeLength)
 	{
 	}
 
 	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x29B9F50", Offset = "0x29B8550", VA = "0x1829B9F50")]
+	[Address(RVA = "0x63852A0", Offset = "0x63842A0", VA = "0x63852A0")]
 	public readonly int CalculateBucket(uint value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x29BA4F0", Offset = "0x29B8AF0", VA = "0x1829BA4F0")]
+	[Address(RVA = "0x63853A0", Offset = "0x63843A0", VA = "0x63853A0")]
 	public readonly int GetCompressedSizeInBits(uint value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A25")]
-	[Address(RVA = "0x29BA0B0", Offset = "0x29B86B0", VA = "0x1829BA0B0")]
+	[Address(RVA = "0x6385510", Offset = "0x6384510", VA = "0x6385510")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckAlphabetSize(int alphabetSize)
@@ -127,7 +127,7 @@ public struct StreamCompressionModel
 	}
 
 	[Token(Token = "0x6000A26")]
-	[Address(RVA = "0x29BA1B0", Offset = "0x29B87B0", VA = "0x1829BA1B0")]
+	[Address(RVA = "0x6385590", Offset = "0x6384590", VA = "0x6385590")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckSymbolLength(NativeArray<byte> symbolLengths, int symbolLengthsOffset, int symbol, int length)
@@ -135,7 +135,7 @@ public struct StreamCompressionModel
 	}
 
 	[Token(Token = "0x6000A27")]
-	[Address(RVA = "0x29BA040", Offset = "0x29B8640", VA = "0x1829BA040")]
+	[Address(RVA = "0x63855F0", Offset = "0x63845F0", VA = "0x63855F0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckAlphabetAndMaxCodeLength(int alphabetSize, int maxCodeLength)
@@ -143,7 +143,7 @@ public struct StreamCompressionModel
 	}
 
 	[Token(Token = "0x6000A28")]
-	[Address(RVA = "0x29BA150", Offset = "0x29B8750", VA = "0x1829BA150")]
+	[Address(RVA = "0x6385650", Offset = "0x6384650", VA = "0x6385650")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	[Conditional("UNITY_DOTS_DEBUG")]
 	private static void CheckExceedMaxCodeLength(int length, int maxCodeLength)

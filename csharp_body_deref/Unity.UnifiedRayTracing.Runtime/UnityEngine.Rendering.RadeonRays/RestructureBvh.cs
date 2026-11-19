@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.RestructureBvh
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,14 +37,14 @@ internal sealed class RestructureBvh : IDisposable
 		public uint TotalSize;
 
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x2D94450", Offset = "0x2D92A50", VA = "0x182D94450")]
+		[Address(RVA = "0x677A310", Offset = "0x6779310", VA = "0x677A310")]
 		public static ScratchBufferLayout Create(uint triangleCount)
 		{
 			return default(ScratchBufferLayout);
 		}
 
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x2D94600", Offset = "0x2D92C00", VA = "0x182D94600")]
+		[Address(RVA = "0x677A480", Offset = "0x6779480", VA = "0x677A480")]
 		private uint Reserve(uint size)
 		{
 			return default(uint);
@@ -94,39 +94,39 @@ internal sealed class RestructureBvh : IDisposable
 	private const int kMaxThreadGroupsPerDispatch = 65535;
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2D933A0", Offset = "0x2D919A0", VA = "0x182D933A0")]
+	[Address(RVA = "0x6778A10", Offset = "0x6777A10", VA = "0x6778A10")]
 	public RestructureBvh(RadeonRaysShaders shaders)
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2D92E80", Offset = "0x2D91480", VA = "0x182D92E80", Slot = "4")]
+	[Address(RVA = "0x6778B80", Offset = "0x6777B80", VA = "0x6778B80", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2D93390", Offset = "0x2D91990", VA = "0x182D93390")]
+	[Address(RVA = "0x67793A0", Offset = "0x67783A0", VA = "0x67793A0")]
 	public ulong GetScratchDataSizeInDwords(uint triangleCount)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2D90250", Offset = "0x2D8E850", VA = "0x182D90250")]
+	[Address(RVA = "0x677A340", Offset = "0x6779340", VA = "0x677A340")]
 	public static uint GetBvhNodeCount(uint leafCount)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2D92EA0", Offset = "0x2D914A0", VA = "0x182D92EA0")]
+	[Address(RVA = "0x6778E60", Offset = "0x6777E60", VA = "0x6778E60")]
 	public void Execute(CommandBuffer cmd, GraphicsBuffer vertices, int verticesOffset, uint vertexStride, uint triangleCount, GraphicsBuffer scratch, in BottomLevelLevelAccelStruct result)
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2D92D10", Offset = "0x2D91310", VA = "0x182D92D10")]
+	[Address(RVA = "0x677A350", Offset = "0x6779350", VA = "0x677A350")]
 	private void BindKernelArguments(CommandBuffer cmd, int kernel, GraphicsBuffer vertices, GraphicsBuffer scratch, BottomLevelLevelAccelStruct result)
 	{
 	}

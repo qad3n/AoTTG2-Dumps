@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.BLASPositionsPool
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -46,7 +46,7 @@ internal sealed class BLASPositionsPool : IDisposable
 	public GraphicsBuffer VertexBuffer
 	{
 		[Token(Token = "0x60000FA")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6786D50", Offset = "0x6785D50", VA = "0x6786D50")]
 		get
 		{
 			return null;
@@ -54,31 +54,31 @@ internal sealed class BLASPositionsPool : IDisposable
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x2D846E0", Offset = "0x2D82CE0", VA = "0x182D846E0")]
+	[Address(RVA = "0x6786C30", Offset = "0x6785C30", VA = "0x6786C30")]
 	public BLASPositionsPool(ComputeShader copyPositionsShader, ComputeShader copyShader)
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x2D84630", Offset = "0x2D82C30", VA = "0x182D84630", Slot = "4")]
+	[Address(RVA = "0x6786D20", Offset = "0x6785D20", VA = "0x6786D20", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x2D84570", Offset = "0x2D82B70", VA = "0x182D84570")]
+	[Address(RVA = "0x6786D60", Offset = "0x6785D60", VA = "0x6786D60")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x2D84100", Offset = "0x2D82700", VA = "0x182D84100")]
+	[Address(RVA = "0x6786E10", Offset = "0x6785E10", VA = "0x6786E10")]
 	public void Add(VertexBufferChunk info, out BlockAllocator.Allocation verticesAllocation)
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x2D84660", Offset = "0x2D82C60", VA = "0x182D84660")]
+	[Address(RVA = "0x67871E0", Offset = "0x67861E0", VA = "0x67871E0")]
 	public void Remove(ref BlockAllocator.Allocation verticesAllocation)
 	{
 	}

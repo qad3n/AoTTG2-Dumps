@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200020A")]
+[Token(Token = "0x20001CB")]
 internal static class IntSecurity
 {
-	[Token(Token = "0x6000DA4")]
-	[Address(RVA = "0x28B3DE0", Offset = "0x28B23E0", VA = "0x1828B3DE0")]
+	[Token(Token = "0x6000BE4")]
+	[Address(RVA = "0x6252D40", Offset = "0x6251D40", VA = "0x6252D40")]
 	public static string UnsafeGetFullPath(string fileName)
 	{
 		return null;

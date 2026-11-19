@@ -15,7 +15,7 @@ namespace Unity.VisualScripting.FullSerializer;
 public sealed class fsIgnoreAttribute : Attribute
 {
 	[Token(Token = "0x6001283")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x68659C0", Offset = "0x68649C0", VA = "0x68659C0")]
 	public fsIgnoreAttribute()
 	{
 	}

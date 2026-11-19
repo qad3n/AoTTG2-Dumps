@@ -61,7 +61,7 @@ public sealed class AnimationEvent
 	internal AnimatorClipInfo m_AnimatorClipInfo;
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2EAB400", Offset = "0x2EA9A00", VA = "0x182EAB400")]
+	[Address(RVA = "0x68A9070", Offset = "0x68A8070", VA = "0x68A9070")]
 	public AnimationEvent()
 	{
 	}

@@ -11,29 +11,23 @@ using Il2CppDummyDll;
 namespace System.Security.Authentication;
 
 [Serializable]
-[Token(Token = "0x200011E")]
+[Token(Token = "0x20000DF")]
 public class AuthenticationException : SystemException
 {
-	[Token(Token = "0x60006E3")]
-	[Address(RVA = "0x28615E0", Offset = "0x285FBE0", VA = "0x1828615E0")]
+	[Token(Token = "0x600052D")]
+	[Address(RVA = "0x62085A0", Offset = "0x62075A0", VA = "0x62085A0")]
 	public AuthenticationException()
 	{
 	}
 
-	[Token(Token = "0x60006E4")]
-	[Address(RVA = "0x19E0120", Offset = "0x19DE720", VA = "0x1819E0120")]
-	public AuthenticationException(string message)
-	{
-	}
-
-	[Token(Token = "0x60006E5")]
-	[Address(RVA = "0x19E0110", Offset = "0x19DE710", VA = "0x1819E0110")]
+	[Token(Token = "0x600052E")]
+	[Address(RVA = "0x62085E0", Offset = "0x62075E0", VA = "0x62085E0")]
 	public AuthenticationException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60006E6")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x600052F")]
+	[Address(RVA = "0x62085F0", Offset = "0x62075F0", VA = "0x62085F0")]
 	protected AuthenticationException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

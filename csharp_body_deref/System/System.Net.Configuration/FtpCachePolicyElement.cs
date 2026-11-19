@@ -12,50 +12,50 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003EC")]
+[Token(Token = "0x20003A8")]
 public sealed class FtpCachePolicyElement : ConfigurationElement
 {
-	[Token(Token = "0x1700059E")]
+	[Token(Token = "0x17000570")]
 	public RequestCacheLevel PolicyLevel
 	{
-		[Token(Token = "0x6001A3E")]
-		[Address(RVA = "0x282AB70", Offset = "0x2829170", VA = "0x18282AB70")]
+		[Token(Token = "0x6001884")]
+		[Address(RVA = "0x61D0230", Offset = "0x61CF230", VA = "0x61D0230")]
 		get
 		{
 			return default(RequestCacheLevel);
 		}
-		[Token(Token = "0x6001A3F")]
-		[Address(RVA = "0x282ABD0", Offset = "0x28291D0", VA = "0x18282ABD0")]
+		[Token(Token = "0x6001885")]
+		[Address(RVA = "0x61D0260", Offset = "0x61CF260", VA = "0x61D0260")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700059F")]
+	[Token(Token = "0x17000571")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A40")]
-		[Address(RVA = "0x282ABA0", Offset = "0x28291A0", VA = "0x18282ABA0", Slot = "4")]
+		[Token(Token = "0x6001886")]
+		[Address(RVA = "0x61D0290", Offset = "0x61CF290", VA = "0x61D0290", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001A3D")]
-	[Address(RVA = "0x282AB40", Offset = "0x2829140", VA = "0x18282AB40")]
+	[Token(Token = "0x6001883")]
+	[Address(RVA = "0x61D0200", Offset = "0x61CF200", VA = "0x61D0200")]
 	public FtpCachePolicyElement()
 	{
 	}
 
-	[Token(Token = "0x6001A41")]
-	[Address(RVA = "0x282AAE0", Offset = "0x28290E0", VA = "0x18282AAE0", Slot = "5")]
+	[Token(Token = "0x6001887")]
+	[Address(RVA = "0x61D02C0", Offset = "0x61CF2C0", VA = "0x61D02C0", Slot = "5")]
 	protected override void DeserializeElement(XmlReader reader, bool serializeCollectionKey)
 	{
 	}
 
-	[Token(Token = "0x6001A42")]
-	[Address(RVA = "0x282AB10", Offset = "0x2829110", VA = "0x18282AB10", Slot = "9")]
+	[Token(Token = "0x6001888")]
+	[Address(RVA = "0x61D02F0", Offset = "0x61CF2F0", VA = "0x61D02F0", Slot = "9")]
 	protected override void Reset(ConfigurationElement parentElement)
 	{
 	}

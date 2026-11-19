@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Drawing.Color
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,7 +35,7 @@ public readonly struct Color : IEquatable<Color>
 	public byte R
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x25B10F0", Offset = "0x25AF6F0", VA = "0x1825B10F0")]
+		[Address(RVA = "0x5F5D250", Offset = "0x5F5C250", VA = "0x5F5D250")]
 		get
 		{
 			return default(byte);
@@ -46,7 +46,7 @@ public readonly struct Color : IEquatable<Color>
 	public byte G
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x25B0FC0", Offset = "0x25AF5C0", VA = "0x1825B0FC0")]
+		[Address(RVA = "0x5F5D320", Offset = "0x5F5C320", VA = "0x5F5D320")]
 		get
 		{
 			return default(byte);
@@ -57,7 +57,7 @@ public readonly struct Color : IEquatable<Color>
 	public byte B
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x25B0FB0", Offset = "0x25AF5B0", VA = "0x1825B0FB0")]
+		[Address(RVA = "0x5F5D330", Offset = "0x5F5C330", VA = "0x5F5D330")]
 		get
 		{
 			return default(byte);
@@ -68,7 +68,7 @@ public readonly struct Color : IEquatable<Color>
 	public byte A
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x25B0F90", Offset = "0x25AF590", VA = "0x1825B0F90")]
+		[Address(RVA = "0x5F5D340", Offset = "0x5F5C340", VA = "0x5F5D340")]
 		get
 		{
 			return default(byte);
@@ -79,7 +79,7 @@ public readonly struct Color : IEquatable<Color>
 	public bool IsKnownColor
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x25B0FE0", Offset = "0x25AF5E0", VA = "0x1825B0FE0")]
+		[Address(RVA = "0x5F5D350", Offset = "0x5F5C350", VA = "0x5F5D350")]
 		get
 		{
 			return default(bool);
@@ -90,7 +90,7 @@ public readonly struct Color : IEquatable<Color>
 	public string Name
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x25B0FF0", Offset = "0x25AF5F0", VA = "0x1825B0FF0")]
+		[Address(RVA = "0x5F5D360", Offset = "0x5F5C360", VA = "0x5F5D360")]
 		get
 		{
 			return null;
@@ -101,7 +101,7 @@ public readonly struct Color : IEquatable<Color>
 	private long Value
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x25B1110", Offset = "0x25AF710", VA = "0x1825B1110")]
+		[Address(RVA = "0x5F5D260", Offset = "0x5F5C260", VA = "0x5F5D260")]
 		get
 		{
 			return default(long);
@@ -109,35 +109,35 @@ public readonly struct Color : IEquatable<Color>
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x25B0D10", Offset = "0x25AF310", VA = "0x1825B0D10", Slot = "3")]
+	[Address(RVA = "0x5F5D460", Offset = "0x5F5C460", VA = "0x5F5D460", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x25B0C00", Offset = "0x25AF200", VA = "0x1825B0C00")]
+	[Address(RVA = "0x5F5D6E0", Offset = "0x5F5C6E0", VA = "0x5F5D6E0")]
 	public static bool operator ==(Color left, Color right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x25B0B30", Offset = "0x25AF130", VA = "0x1825B0B30", Slot = "0")]
+	[Address(RVA = "0x5F5D720", Offset = "0x5F5C720", VA = "0x5F5D720", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x25B0C00", Offset = "0x25AF200", VA = "0x1825B0C00", Slot = "4")]
+	[Address(RVA = "0x5F5D7A0", Offset = "0x5F5C7A0", VA = "0x5F5D7A0", Slot = "4")]
 	public bool Equals(Color other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x25B0C30", Offset = "0x25AF230", VA = "0x1825B0C30", Slot = "2")]
+	[Address(RVA = "0x5F5D7E0", Offset = "0x5F5C7E0", VA = "0x5F5D7E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

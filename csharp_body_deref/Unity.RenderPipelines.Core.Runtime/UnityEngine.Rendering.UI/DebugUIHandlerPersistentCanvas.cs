@@ -31,32 +31,32 @@ internal class DebugUIHandlerPersistentCanvas : MonoBehaviour
 	private List<DebugUI.ValueTuple> m_ValueTupleWidgets;
 
 	[Token(Token = "0x600148B")]
-	[Address(RVA = "0x2BAF2C0", Offset = "0x2BAD8C0", VA = "0x182BAF2C0")]
+	[Address(RVA = "0x65AA700", Offset = "0x65A9700", VA = "0x65AA700")]
 	internal void Toggle(DebugUI.Value widget, [Optional] string displayName)
 	{
 	}
 
 	[Token(Token = "0x600148C")]
-	[Address(RVA = "0x2BAF5B0", Offset = "0x2BADBB0", VA = "0x182BAF5B0")]
+	[Address(RVA = "0x65AAA20", Offset = "0x65A9A20", VA = "0x65AAA20")]
 	internal void Toggle(DebugUI.ValueTuple widget, [Optional] int? forceTupleIndex)
 	{
 	}
 
 	[Token(Token = "0x600148D")]
-	[Address(RVA = "0x2BAF270", Offset = "0x2BAD870", VA = "0x182BAF270")]
+	[Address(RVA = "0x65AADD0", Offset = "0x65A9DD0", VA = "0x65AADD0")]
 	internal bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600148E")]
-	[Address(RVA = "0x2BAF0D0", Offset = "0x2BAD6D0", VA = "0x182BAF0D0")]
+	[Address(RVA = "0x65AAE10", Offset = "0x65A9E10", VA = "0x65AAE10")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x600148F")]
-	[Address(RVA = "0x2BAF980", Offset = "0x2BADF80", VA = "0x182BAF980")]
+	[Address(RVA = "0x65AAFC0", Offset = "0x65A9FC0", VA = "0x65AAFC0")]
 	public DebugUIHandlerPersistentCanvas()
 	{
 	}

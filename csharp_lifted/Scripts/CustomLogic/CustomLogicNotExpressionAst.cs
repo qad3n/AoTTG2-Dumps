@@ -1,0 +1,29 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicNotExpressionAst
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicNotExpressionAst.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Ast/CustomLogicNotExpressionAst.cs
+// Bodies below are the native C lifted into C# syntax by tools/pipeline/lift_csharp.py.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace CustomLogic;
+
+[Token(Token = "0x200043E")]
+internal class CustomLogicNotExpressionAst : CustomLogicBaseExpressionAst
+{
+	[Token(Token = "0x400159A")]
+	[FieldOffset(Offset = "0x18")]
+	public CustomLogicBaseExpressionAst Next;
+
+	[Token(Token = "0x6001A77")]
+	[Address(RVA = "0x58A9250", Offset = "0x58A8250", VA = "0x58A9250")]
+	public CustomLogicNotExpressionAst(int line)
+	{
+		// Lifted from source/cpp/CustomLogic/CustomLogicNotExpressionAst.c (CustomLogic.CustomLogicNotExpressionAst$$.ctor): clean
+		base();
+		this.Type = 10;
+		this.Line = line;
+		return;
+	}
+}

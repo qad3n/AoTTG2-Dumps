@@ -29,7 +29,7 @@ internal abstract class FacetsChecker
 			internal string replacement;
 
 			[Token(Token = "0x6001223")]
-			[Address(RVA = "0x180F6B0", Offset = "0x180DCB0", VA = "0x18180F6B0")]
+			[Address(RVA = "0x616C0B0", Offset = "0x616B0B0", VA = "0x616C0B0")]
 			internal Map(char m, string r)
 			{
 			}
@@ -84,273 +84,273 @@ internal abstract class FacetsChecker
 		private static readonly Map[] c_map;
 
 		[Token(Token = "0x600120B")]
-		[Address(RVA = "0x27ABF80", Offset = "0x27AA580", VA = "0x1827ABF80")]
+		[Address(RVA = "0x6167A00", Offset = "0x6166A00", VA = "0x6167A00")]
 		public FacetsCompiler(DatatypeImplementation baseDatatype, RestrictionFacets restriction)
 		{
 		}
 
 		[Token(Token = "0x600120C")]
-		[Address(RVA = "0x27A8E70", Offset = "0x27A7470", VA = "0x1827A8E70")]
+		[Address(RVA = "0x6167D50", Offset = "0x6166D50", VA = "0x6167D50")]
 		internal void CompileLengthFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x600120D")]
-		[Address(RVA = "0x27AA060", Offset = "0x27A8660", VA = "0x1827AA060")]
+		[Address(RVA = "0x61681A0", Offset = "0x61671A0", VA = "0x61681A0")]
 		internal void CompileMinLengthFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x600120E")]
-		[Address(RVA = "0x27A97B0", Offset = "0x27A7DB0", VA = "0x1827A97B0")]
+		[Address(RVA = "0x61685A0", Offset = "0x61675A0", VA = "0x61685A0")]
 		internal void CompileMaxLengthFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x600120F")]
-		[Address(RVA = "0x27AA450", Offset = "0x27A8A50", VA = "0x1827AA450")]
+		[Address(RVA = "0x61689A0", Offset = "0x61679A0", VA = "0x61689A0")]
 		internal void CompilePatternFacet(XmlSchemaPatternFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001210")]
-		[Address(RVA = "0x27A8410", Offset = "0x27A6A10", VA = "0x1827A8410")]
+		[Address(RVA = "0x6168BF0", Offset = "0x6167BF0", VA = "0x6168BF0")]
 		internal void CompileEnumerationFacet(XmlSchemaFacet facet, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable)
 		{
 		}
 
 		[Token(Token = "0x6001211")]
-		[Address(RVA = "0x27AAA10", Offset = "0x27A9010", VA = "0x1827AAA10")]
+		[Address(RVA = "0x6168E00", Offset = "0x6167E00", VA = "0x6168E00")]
 		internal void CompileWhitespaceFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001212")]
-		[Address(RVA = "0x27A9550", Offset = "0x27A7B50", VA = "0x1827A9550")]
+		[Address(RVA = "0x6169770", Offset = "0x6168770", VA = "0x6169770")]
 		internal void CompileMaxInclusiveFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001213")]
-		[Address(RVA = "0x27A92F0", Offset = "0x27A78F0", VA = "0x1827A92F0")]
+		[Address(RVA = "0x6169A10", Offset = "0x6168A10", VA = "0x6169A10")]
 		internal void CompileMaxExclusiveFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001214")]
-		[Address(RVA = "0x27A9E00", Offset = "0x27A8400", VA = "0x1827A9E00")]
+		[Address(RVA = "0x6169230", Offset = "0x6168230", VA = "0x6169230")]
 		internal void CompileMinInclusiveFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001215")]
-		[Address(RVA = "0x27A9BA0", Offset = "0x27A81A0", VA = "0x1827A9BA0")]
+		[Address(RVA = "0x61694D0", Offset = "0x61684D0", VA = "0x61694D0")]
 		internal void CompileMinExclusiveFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001216")]
-		[Address(RVA = "0x27AA600", Offset = "0x27A8C00", VA = "0x1827AA600")]
+		[Address(RVA = "0x6169CB0", Offset = "0x6168CB0", VA = "0x6169CB0")]
 		internal void CompileTotalDigitsFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001217")]
-		[Address(RVA = "0x27A8B20", Offset = "0x27A7120", VA = "0x1827A8B20")]
+		[Address(RVA = "0x616A140", Offset = "0x6169140", VA = "0x616A140")]
 		internal void CompileFractionDigitsFacet(XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x6001218")]
-		[Address(RVA = "0x27AB440", Offset = "0x27A9A40", VA = "0x1827AB440")]
+		[Address(RVA = "0x616A4C0", Offset = "0x61694C0", VA = "0x616A4C0")]
 		internal void FinishFacetCompile()
 		{
 		}
 
 		[Token(Token = "0x6001219")]
-		[Address(RVA = "0x27A7DA0", Offset = "0x27A63A0", VA = "0x1827A7DA0")]
+		[Address(RVA = "0x616B010", Offset = "0x616A010", VA = "0x616B010")]
 		private void CheckValue(object value, XmlSchemaFacet facet)
 		{
 		}
 
 		[Token(Token = "0x600121A")]
-		[Address(RVA = "0x27A85B0", Offset = "0x27A6BB0", VA = "0x1827A85B0")]
+		[Address(RVA = "0x616A840", Offset = "0x6169840", VA = "0x616A840")]
 		internal void CompileFacetCombinations()
 		{
 		}
 
 		[Token(Token = "0x600121B")]
-		[Address(RVA = "0x27AAE70", Offset = "0x27A9470", VA = "0x1827AAE70")]
+		[Address(RVA = "0x616B830", Offset = "0x616A830", VA = "0x616B830")]
 		private void CopyFacetsFromBaseType()
 		{
 		}
 
 		[Token(Token = "0x600121C")]
-		[Address(RVA = "0x27AB780", Offset = "0x27A9D80", VA = "0x1827AB780")]
+		[Address(RVA = "0x616AE70", Offset = "0x6169E70", VA = "0x616AE70")]
 		private object ParseFacetValue(XmlSchemaDatatype datatype, XmlSchemaFacet facet, string code, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600121D")]
-		[Address(RVA = "0x27AB930", Offset = "0x27A9F30", VA = "0x1827AB930")]
+		[Address(RVA = "0x616B560", Offset = "0x616A560", VA = "0x616B560")]
 		private static string Preprocess(string pattern)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600121E")]
-		[Address(RVA = "0x27A7D00", Offset = "0x27A6300", VA = "0x1827A7D00")]
+		[Address(RVA = "0x616AD80", Offset = "0x6169D80", VA = "0x616AD80")]
 		private void CheckProhibitedFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode)
 		{
 		}
 
 		[Token(Token = "0x600121F")]
-		[Address(RVA = "0x27A7C80", Offset = "0x27A6280", VA = "0x1827A7C80")]
+		[Address(RVA = "0x616AE00", Offset = "0x6169E00", VA = "0x616AE00")]
 		private void CheckDupFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode)
 		{
 		}
 
 		[Token(Token = "0x6001220")]
-		[Address(RVA = "0x27ABC10", Offset = "0x27AA210", VA = "0x1827ABC10")]
+		[Address(RVA = "0x616AFC0", Offset = "0x6169FC0", VA = "0x616AFC0")]
 		private void SetFlag(XmlSchemaFacet facet, RestrictionFlags flag)
 		{
 		}
 
 		[Token(Token = "0x6001221")]
-		[Address(RVA = "0x27ABBE0", Offset = "0x27AA1E0", VA = "0x1827ABBE0")]
+		[Address(RVA = "0x616BD10", Offset = "0x616AD10", VA = "0x616BD10")]
 		private void SetFlag(RestrictionFlags flag)
 		{
 		}
 	}
 
 	[Token(Token = "0x60011F8")]
-	[Address(RVA = "0x27A7180", Offset = "0x27A5780", VA = "0x1827A7180", Slot = "4")]
+	[Address(RVA = "0x6167240", Offset = "0x6166240", VA = "0x6167240", Slot = "4")]
 	internal virtual Exception CheckLexicalFacets(ref string parseString, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011F9")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Address(RVA = "0x61674B0", Offset = "0x61664B0", VA = "0x61674B0", Slot = "5")]
 	internal virtual Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FA")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x61674C0", Offset = "0x61664C0", VA = "0x61674C0", Slot = "6")]
 	internal virtual Exception CheckValueFacets(decimal value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FB")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
+	[Address(RVA = "0x61674D0", Offset = "0x61664D0", VA = "0x61674D0", Slot = "7")]
 	internal virtual Exception CheckValueFacets(long value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FC")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+	[Address(RVA = "0x61674E0", Offset = "0x61664E0", VA = "0x61674E0", Slot = "8")]
 	internal virtual Exception CheckValueFacets(int value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FD")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
+	[Address(RVA = "0x61674F0", Offset = "0x61664F0", VA = "0x61674F0", Slot = "9")]
 	internal virtual Exception CheckValueFacets(short value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FE")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+	[Address(RVA = "0x6167500", Offset = "0x6166500", VA = "0x6167500", Slot = "10")]
 	internal virtual Exception CheckValueFacets(DateTime value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FF")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
+	[Address(RVA = "0x6167510", Offset = "0x6166510", VA = "0x6167510", Slot = "11")]
 	internal virtual Exception CheckValueFacets(double value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001200")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
+	[Address(RVA = "0x6167520", Offset = "0x6166520", VA = "0x6167520", Slot = "12")]
 	internal virtual Exception CheckValueFacets(float value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001201")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "13")]
+	[Address(RVA = "0x6167530", Offset = "0x6166530", VA = "0x6167530", Slot = "13")]
 	internal virtual Exception CheckValueFacets(string value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001202")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
+	[Address(RVA = "0x6167540", Offset = "0x6166540", VA = "0x6167540", Slot = "14")]
 	internal virtual Exception CheckValueFacets(byte[] value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001203")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "15")]
+	[Address(RVA = "0x6167550", Offset = "0x6166550", VA = "0x6167550", Slot = "15")]
 	internal virtual Exception CheckValueFacets(TimeSpan value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001204")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "16")]
+	[Address(RVA = "0x6167560", Offset = "0x6166560", VA = "0x6167560", Slot = "16")]
 	internal virtual Exception CheckValueFacets(XmlQualifiedName value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001205")]
-	[Address(RVA = "0x27A7520", Offset = "0x27A5B20", VA = "0x1827A7520")]
+	[Address(RVA = "0x6167280", Offset = "0x6166280", VA = "0x6167280")]
 	internal void CheckWhitespaceFacets(ref string s, XmlSchemaDatatype datatype)
 	{
 	}
 
 	[Token(Token = "0x6001206")]
-	[Address(RVA = "0x27A73B0", Offset = "0x27A59B0", VA = "0x1827A73B0")]
+	[Address(RVA = "0x6167360", Offset = "0x6166360", VA = "0x6167360")]
 	internal Exception CheckPatternFacets(RestrictionFacets restriction, string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001207")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "17")]
+	[Address(RVA = "0x6167570", Offset = "0x6166570", VA = "0x6167570", Slot = "17")]
 	internal virtual bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001208")]
-	[Address(RVA = "0x27A7610", Offset = "0x27A5C10", VA = "0x1827A7610", Slot = "18")]
+	[Address(RVA = "0x6167580", Offset = "0x6166580", VA = "0x6167580", Slot = "18")]
 	internal virtual RestrictionFacets ConstructRestriction(DatatypeImplementation datatype, XmlSchemaObjectCollection facets, XmlNameTable nameTable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001209")]
-	[Address(RVA = "0x27A7B50", Offset = "0x27A6150", VA = "0x1827A7B50")]
+	[Address(RVA = "0x616AC60", Offset = "0x6169C60", VA = "0x616AC60")]
 	internal static decimal Power(int x, int y)
 	{
 		return 0m;
 	}
 
 	[Token(Token = "0x600120A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x616AD70", Offset = "0x6169D70", VA = "0x616AD70")]
 	protected FacetsChecker()
 	{
 	}

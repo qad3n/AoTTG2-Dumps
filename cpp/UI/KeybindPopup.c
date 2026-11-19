@@ -1,21 +1,20 @@
 // Type: UI.KeybindPopup
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/KeybindPopup.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/KeybindPopup.cs
 // --------------------------------
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$.ctor
 // il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5cc1560
 
-void
-UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, int32_t __1__state, MethodInfo* method)
+void UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor
+               (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,int32_t __1__state,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +22,10 @@ UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor(UI_KeybindPopup__WaitAndUpdat
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.IDisposable.Dispose
 // il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5cc17d0
 
-void
-UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
+void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose
+               (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
 
 {
   return;
@@ -35,7 +34,7 @@ UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose(UI_Keybi
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$MoveNext
 // il2cpp: bool UI_KeybindPopup__WaitAndUpdateSetting_d__21__MoveNext (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
-// 0x1821d14e0
+// 0x5cc17e0
 
 bool UI_KeybindPopup__WaitAndUpdateSetting_d__21__MoveNext
                (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
@@ -45,40 +44,39 @@ bool UI_KeybindPopup__WaitAndUpdateSetting_d__21__MoveNext
   UI_KeybindPopup_o *__this_00;
   Il2CppObject *__this_01;
   
-  if (Il2CppMethodInitialized_184346f2b == '\0') {
+  if (Il2CppMethodInitialized_07547b25 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
-    Il2CppMethodInitialized_184346f2b = '\x01';
+    Il2CppMethodInitialized_07547b25 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
   if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
     __this_01 = (Il2CppObject *)
                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_01,(MethodInfo *)0x0);
+    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)__this_01,(MethodInfo *)0x0);
     (__this->fields).__2__current = __this_01;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
     (__this->fields).__1__state = 1;
-    return true;
   }
-  if (iVar1 == 1) {
+  else if (iVar1 == 1) {
     __this_00 = (__this->fields).__4__this;
     (__this->fields).__1__state = -1;
     if (__this_00 == (UI_KeybindPopup_o *)0x0) {
       ThrowNullReferenceException();
     }
-    UI_KeybindPopup__UpdateSetting(__this_00,(MethodInfo *)0x0);
+    UI_KeybindPopup__UpdateSetting(__this_00,method);
   }
-  return false;
+  return iVar1 == 0;
 }
 
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5cc1870
 
-Il2CppObject*
-UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -87,7 +85,7 @@ UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumera
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_Reset (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
-// 0x1821d1580
+// 0x5cc1880
 
 void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_Reset
                (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
@@ -110,10 +108,11 @@ void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator
 
 // UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5cc18c0
 
-Il2CppObject*
-UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_Current(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_Current
+          (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -122,10 +121,9 @@ UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_
 
 // UI.KeybindPopup$$get_EscapeBehavior
 // il2cpp: int32_t UI_KeybindPopup__get_EscapeBehavior (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x180564040
+// 0x5cc0ea0
 
-int32_t
-UI_KeybindPopup__get_EscapeBehavior(UI_KeybindPopup_o* __this, MethodInfo* method)
+int32_t UI_KeybindPopup__get_EscapeBehavior(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 1;
@@ -134,20 +132,20 @@ UI_KeybindPopup__get_EscapeBehavior(UI_KeybindPopup_o* __this, MethodInfo* metho
 
 // UI.KeybindPopup$$get_Title
 // il2cpp: System_String_o* UI_KeybindPopup__get_Title (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c57b0
+// 0x5cc0eb0
 
 System_String_o * UI_KeybindPopup__get_Title(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_184346f24 == '\0') {
+  if (Il2CppMethodInitialized_07547b1e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup");
     il2cpp_codegen_initialize_runtime_metadata(&"KeybindPopup");
     il2cpp_codegen_initialize_runtime_metadata(&"Title");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346f24 = '\x01';
+    Il2CppMethodInitialized_07547b1e = '\x01';
   }
   if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
@@ -161,10 +159,9 @@ System_String_o * UI_KeybindPopup__get_Title(UI_KeybindPopup_o *__this,MethodInf
 
 // UI.KeybindPopup$$get_Width
 // il2cpp: float UI_KeybindPopup__get_Width (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c1230
+// 0x5cc0f50
 
-float
-UI_KeybindPopup__get_Width(UI_KeybindPopup_o* __this, MethodInfo* method)
+float UI_KeybindPopup__get_Width(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 300.0;
@@ -173,10 +170,9 @@ UI_KeybindPopup__get_Width(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 // UI.KeybindPopup$$get_Height
 // il2cpp: float UI_KeybindPopup__get_Height (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x182182bd0
+// 0x5cc0f60
 
-float
-UI_KeybindPopup__get_Height(UI_KeybindPopup_o* __this, MethodInfo* method)
+float UI_KeybindPopup__get_Height(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 250.0;
@@ -185,10 +181,9 @@ UI_KeybindPopup__get_Height(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 // UI.KeybindPopup$$get_VerticalSpacing
 // il2cpp: float UI_KeybindPopup__get_VerticalSpacing (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x182182ab0
+// 0x5cc0f70
 
-float
-UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o* __this, MethodInfo* method)
+float UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 15.0;
@@ -197,10 +192,9 @@ UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o* __this, MethodInfo* meth
 
 // UI.KeybindPopup$$get_VerticalPadding
 // il2cpp: int32_t UI_KeybindPopup__get_VerticalPadding (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821bb430
+// 0x5cc0f80
 
-int32_t
-UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o* __this, MethodInfo* method)
+int32_t UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 0x1e;
@@ -209,10 +203,9 @@ UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o* __this, MethodInfo* meth
 
 // UI.KeybindPopup$$get_PanelAlignment
 // il2cpp: int32_t UI_KeybindPopup__get_PanelAlignment (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x180846f40
+// 0x5cc0f90
 
-int32_t
-UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o* __this, MethodInfo* method)
+int32_t UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   return 4;
@@ -221,7 +214,7 @@ UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o* __this, MethodInfo* metho
 
 // UI.KeybindPopup$$Setup
 // il2cpp: void UI_KeybindPopup__Setup (UI_KeybindPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x1821c50e0
+// 0x5cc0fa0
 
 void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -231,13 +224,16 @@ void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,Met
   System_String_o *pSVar2;
   UI_ElementStyle_o *__this_00;
   UnityEngine_Events_UnityAction_o *pUVar3;
+  System_String_o *first;
   UnityEngine_GameObject_o *pUVar4;
-  UnityEngine_UI_Text_o *value;
+  UnityEngine_UI_Text_o *pUVar5;
   Settings_InputKey_o *__this_01;
+  MethodInfo *extraout_RDX;
   
-  if (Il2CppMethodInitialized_184346f25 == '\0') {
+  if (Il2CppMethodInitialized_07547b1f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_InputKey);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_KeybindPopup_Setup_b__19_0);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_KeybindPopup_Setup_b__19_1);
@@ -250,9 +246,10 @@ void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,Met
     il2cpp_codegen_initialize_runtime_metadata(&":");
     il2cpp_codegen_initialize_runtime_metadata(&"Cancel");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346f25 = '\x01';
+    Il2CppMethodInitialized_07547b1f = '\x01';
+    method = extraout_RDX;
   }
-  UI_PromptPopup__Setup((UI_PromptPopup_o *)__this,parent,(MethodInfo *)0x0);
+  UI_PromptPopup__Setup((UI_PromptPopup_o *)__this,parent,method);
   fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
                        (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
   pSVar2 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
@@ -268,37 +265,42 @@ void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,Met
                       "",(MethodInfo *)0x0);
   pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
   UnityEngine_Events_UnityAction___ctor
-            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar3,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_0,(MethodInfo *)0x0);
+            (pUVar3,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_0,
+             (MethodInfo *)0x0);
   UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar2,0.0,pUVar3,(MethodInfo *)0x0);
   pUVar1 = (__this->fields).BottomBar;
   pSVar2 = UI_UIManager__GetLocaleCommon("Cancel",(MethodInfo *)0x0);
   pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
   UnityEngine_Events_UnityAction___ctor
-            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar3,(Il2CppObject *)__this,
-             (intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_1,(MethodInfo *)0x0);
+            (pUVar3,(Il2CppObject *)__this,(intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_1,
+             (MethodInfo *)0x0);
   UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar2,0.0,pUVar3,(MethodInfo *)0x0);
   pUVar1 = (__this->fields).SinglePanel;
-  pSVar2 = UI_UIManager__GetLocale
-                     ("SettingsPopup","KeybindPopup","CurrentKey","",
-                      "",(MethodInfo *)0x0);
-  pSVar2 = System_String__Concat_1969e50(pSVar2,":",(MethodInfo *)0x0);
+  first = UI_UIManager__GetLocale
+                    ("SettingsPopup","KeybindPopup","CurrentKey","",
+                     "",(MethodInfo *)0x0);
+  pSVar2 = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchArabicText);
+  }
+  pSVar2 = Gisketch_Aottg2UI_Styling_GisketchArabicText__Join
+                     (first,":",pSVar2,(MethodInfo *)0x0);
   pUVar4 = UI_ElementFactory__CreateDefaultLabel(pUVar1,__this_00,pSVar2,0,4,(MethodInfo *)0x0);
   if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
     UnityEngine_GameObject__GetComponent_object_
-              (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+              (pUVar4,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
     pUVar4 = UI_ElementFactory__CreateDefaultLabel
                        ((__this->fields).SinglePanel,__this_00,
-                        (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),0,4,(MethodInfo *)0x0);
+                        (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),0,4,(MethodInfo *)0x0);
     if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-      value = UnityEngine_GameObject__GetComponent_object_
-                        (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-      (__this->fields)._displayLabel = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._displayLabel,value);
+      pUVar5 = UnityEngine_GameObject__GetComponent_object_
+                         (pUVar4,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+      (__this->fields)._displayLabel = pUVar5;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._displayLabel);
       __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_InputKey);
       Settings_InputKey___ctor(__this_01,(MethodInfo *)0x0);
       (__this->fields)._buffer = __this_01;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._buffer,__this_01);
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._buffer);
       return;
     }
   }
@@ -308,7 +310,7 @@ void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,Met
 
 // UI.KeybindPopup$$Update
 // il2cpp: void UI_KeybindPopup__Update (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c5620
+// 0x5cc1320
 
 void UI_KeybindPopup__Update(UI_KeybindPopup_o *__this,MethodInfo *method)
 
@@ -316,11 +318,12 @@ void UI_KeybindPopup__Update(UI_KeybindPopup_o *__this,MethodInfo *method)
   Settings_InputKey_o *pSVar1;
   bool bVar2;
   System_String_o *a;
-  UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *routine;
+  UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this_00;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184346f26 == '\0') {
+  if (Il2CppMethodInitialized_07547b20 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Mouse0");
-    Il2CppMethodInitialized_184346f26 = '\x01';
+    Il2CppMethodInitialized_07547b20 = '\x01';
   }
   if (((__this->fields)._setting == (Settings_InputKey_o *)0x0) || ((__this->fields)._isDone != false)) {
     return;
@@ -331,29 +334,29 @@ void UI_KeybindPopup__Update(UI_KeybindPopup_o *__this,MethodInfo *method)
     if (!bVar2) {
       return;
     }
-    pSVar1 = (__this->fields)._buffer;
     (__this->fields)._isDone = true;
+    pSVar1 = (__this->fields)._buffer;
     if (pSVar1 != (Settings_InputKey_o *)0x0) {
       a = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)(pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
+      method_00 = (MethodInfo *)"Mouse0";
       bVar2 = System_String__op_Equality(a,"Mouse0",(MethodInfo *)0x0);
-      if (bVar2) {
-        if (Il2CppMethodInitialized_184346f27 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
-          Il2CppMethodInitialized_184346f27 = '\x01';
-        }
-        routine = il2cpp_codegen_object_new
-                            ((Il2CppClass *)TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
-        System_Object___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-        (routine->fields).__1__state = 0;
-        (routine->fields).__4__this = __this;
-        Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-        UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                  ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                   (MethodInfo *)0x0);
+      if (!bVar2) {
+        UI_KeybindPopup__UpdateSetting(__this,method_00);
         return;
       }
-      UI_KeybindPopup__UpdateSetting(__this,(MethodInfo *)0x0);
+      if (Il2CppMethodInitialized_07547b21 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+        Il2CppMethodInitialized_07547b21 = '\x01';
+      }
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+      System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+      (__this_00->fields).__1__state = 0;
+      (__this_00->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
+                 (MethodInfo *)0x0);
       return;
     }
   }
@@ -363,7 +366,7 @@ void UI_KeybindPopup__Update(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 // UI.KeybindPopup$$WaitAndUpdateSetting
 // il2cpp: System_Collections_IEnumerator_o* UI_KeybindPopup__WaitAndUpdateSetting (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c5740
+// 0x5cc1440
 
 System_Collections_IEnumerator_o *
 UI_KeybindPopup__WaitAndUpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *method)
@@ -371,23 +374,22 @@ UI_KeybindPopup__WaitAndUpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *meth
 {
   UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this_00;
   
-  if (Il2CppMethodInitialized_184346f27 == '\0') {
+  if (Il2CppMethodInitialized_07547b21 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
-    Il2CppMethodInitialized_184346f27 = '\x01';
+    Il2CppMethodInitialized_07547b21 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.KeybindPopup$$UpdateSetting
 // il2cpp: void UI_KeybindPopup__UpdateSetting (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c5560
+// 0x5cc14b0
 
 void UI_KeybindPopup__UpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *method)
 
@@ -429,7 +431,7 @@ void UI_KeybindPopup__UpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *method
 
 // UI.KeybindPopup$$Show
 // il2cpp: void UI_KeybindPopup__Show (UI_KeybindPopup_o* __this, Settings_InputKey_o* setting, UnityEngine_UI_Text_o* label, const MethodInfo* method);
-// 0x1821c5410
+// 0x5cc1580
 
 void UI_KeybindPopup__Show
                (UI_KeybindPopup_o *__this,Settings_InputKey_o *setting,UnityEngine_UI_Text_o *label,
@@ -441,18 +443,20 @@ void UI_KeybindPopup__Show
   bool bVar3;
   UnityEngine_GameObject_o *__this_00;
   System_String_o *pSVar4;
+  MethodInfo *method_00;
   
   __this_00 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+    method_00 = (MethodInfo *)0x0;
     bVar3 = UnityEngine_GameObject__get_activeSelf(__this_00,(MethodInfo *)0x0);
     if (bVar3) {
       return;
     }
-    UI_BasePopup__Show((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
+    UI_BasePopup__Show((UI_BasePopup_o *)__this,method_00);
     (__this->fields)._setting = setting;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._setting,setting);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._setting);
     (__this->fields)._settingLabel = label;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._settingLabel,label);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._settingLabel);
     pSVar1 = (__this->fields)._setting;
     if (pSVar1 != (Settings_InputKey_o *)0x0) {
       pUVar2 = (__this->fields)._displayLabel;
@@ -472,97 +476,102 @@ void UI_KeybindPopup__Show
 
 // UI.KeybindPopup$$OnButtonClick
 // il2cpp: void UI_KeybindPopup__OnButtonClick (UI_KeybindPopup_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x1821c4fd0
+// 0x5cc1630
 
 void UI_KeybindPopup__OnButtonClick(UI_KeybindPopup_o *__this,System_String_o *name,MethodInfo *method)
 
 {
   Settings_InputKey_o *__this_00;
   UnityEngine_UI_Text_o *pUVar1;
-  UI_KeybindPopup_c *pUVar2;
-  bool bVar3;
-  System_String_o *pSVar4;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_Enum_o local_50;
+  undefined4 local_40;
   System_Enum_o local_38;
   undefined4 local_28;
-  System_Enum_o local_20;
-  undefined4 local_10;
   
-  if (Il2CppMethodInitialized_184346f28 == '\0') {
+  if (Il2CppMethodInitialized_07547b22 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SpecialKey);
     il2cpp_codegen_initialize_runtime_metadata(&"Unbind");
-    Il2CppMethodInitialized_184346f28 = '\x01';
+    Il2CppMethodInitialized_07547b22 = '\x01';
   }
-  bVar3 = System_String__op_Equality(name,"Unbind",(MethodInfo *)0x0);
-  if (bVar3) {
+  bVar2 = System_String__op_Equality(name,"Unbind",(MethodInfo *)0x0);
+  if (bVar2) {
     __this_00 = (__this->fields)._setting;
     local_38.klass = (System_Enum_c *)TypeInfo_Settings_SpecialKey;
-    local_38.monitor = &g_data_ffffffffffffffff;
+    local_38.monitor = (void *)0xffffffffffffffff;
     local_28 = 0;
-    pSVar4 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
+    pSVar3 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
     if (__this_00 != (Settings_InputKey_o *)0x0) {
-      Settings_InputKey__LoadFromString(__this_00,pSVar4,(MethodInfo *)0x0);
+      Settings_InputKey__LoadFromString(__this_00,pSVar3,(MethodInfo *)0x0);
       pUVar1 = (__this->fields)._settingLabel;
-      local_20.klass = (System_Enum_c *)TypeInfo_Settings_SpecialKey;
-      local_20.monitor = &g_data_ffffffffffffffff;
-      local_10 = 0;
-      pSVar4 = System_Enum__ToString(&local_20,(MethodInfo *)0x0);
+      local_50.klass = (System_Enum_c *)TypeInfo_Settings_SpecialKey;
+      local_50.monitor = (void *)0xffffffffffffffff;
+      local_40 = 0;
+      pSVar3 = System_Enum__ToString(&local_50,(MethodInfo *)0x0);
       if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
         (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                  (pUVar1,pSVar4,(pUVar1->klass->vtable)._75_set_text.method);
-        goto label_1821c50b1;
+                  (pUVar1,pSVar3,(pUVar1->klass->vtable)._75_set_text.method);
+        goto label_05cc1713;
       }
     }
     ThrowNullReferenceException();
   }
-label_1821c50b1:
-  pUVar2 = __this->klass;
+label_05cc1713:
   (__this->fields)._isDone = true;
-  (*(pUVar2->vtable)._22_Hide.methodPtr)(__this,(pUVar2->vtable)._22_Hide.method);
+  (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
   return;
 }
 
 
 // UI.KeybindPopup$$.ctor
 // il2cpp: void UI_KeybindPopup___ctor (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c11a0
+// 0x5cc1740
 
-void
-UI_KeybindPopup___ctor(UI_KeybindPopup_o* __this, MethodInfo* method)
+void UI_KeybindPopup___ctor(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
+  UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,method);
   return;
 }
 
 
 // UI.KeybindPopup$$<Setup>b__19_0
 // il2cpp: void UI_KeybindPopup___Setup_b__19_0 (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c54e0
+// 0x5cc1750
 
 void UI_KeybindPopup___Setup_b__19_0(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346f29 == '\0') {
+  MethodInfo *in_RDX;
+  MethodInfo *extraout_RDX;
+  
+  if (Il2CppMethodInitialized_07547b23 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Unbind");
-    Il2CppMethodInitialized_184346f29 = '\x01';
+    Il2CppMethodInitialized_07547b23 = '\x01';
+    in_RDX = extraout_RDX;
   }
-  UI_KeybindPopup__OnButtonClick(__this,"Unbind",(MethodInfo *)0x0);
+  UI_KeybindPopup__OnButtonClick(__this,"Unbind",in_RDX);
   return;
 }
 
 
 // UI.KeybindPopup$$<Setup>b__19_1
 // il2cpp: void UI_KeybindPopup___Setup_b__19_1 (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x1821c5520
+// 0x5cc1790
 
 void UI_KeybindPopup___Setup_b__19_1(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346f2a == '\0') {
+  MethodInfo *in_RDX;
+  MethodInfo *extraout_RDX;
+  
+  if (Il2CppMethodInitialized_07547b24 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Cancel");
-    Il2CppMethodInitialized_184346f2a = '\x01';
+    Il2CppMethodInitialized_07547b24 = '\x01';
+    in_RDX = extraout_RDX;
   }
-  UI_KeybindPopup__OnButtonClick(__this,"Cancel",(MethodInfo *)0x0);
+  UI_KeybindPopup__OnButtonClick(__this,"Cancel",in_RDX);
   return;
 }
 

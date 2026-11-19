@@ -37,7 +37,7 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public class SliderEvent : UnityEvent<float>
 	{
 		[Token(Token = "0x600049C")]
-		[Address(RVA = "0x32E84B0", Offset = "0x32E6AB0", VA = "0x1832E84B0")]
+		[Address(RVA = "0x6CF64C0", Offset = "0x6CF54C0", VA = "0x6CF64C0")]
 		public SliderEvent()
 		{
 		}
@@ -130,13 +130,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public RectTransform fillRect
 	{
 		[Token(Token = "0x600046D")]
-		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
+		[Address(RVA = "0x6CF5270", Offset = "0x6CF4270", VA = "0x6CF5270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x32E9FE0", Offset = "0x32E85E0", VA = "0x1832E9FE0")]
+		[Address(RVA = "0x6CF5280", Offset = "0x6CF4280", VA = "0x6CF5280")]
 		set
 		{
 		}
@@ -146,13 +146,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public RectTransform handleRect
 	{
 		[Token(Token = "0x600046F")]
-		[Address(RVA = "0x1BD4C80", Offset = "0x1BD3280", VA = "0x181BD4C80")]
+		[Address(RVA = "0x6CF5E50", Offset = "0x6CF4E50", VA = "0x6CF5E50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000470")]
-		[Address(RVA = "0x32EA050", Offset = "0x32E8650", VA = "0x1832EA050")]
+		[Address(RVA = "0x6CF5E60", Offset = "0x6CF4E60", VA = "0x6CF5E60")]
 		set
 		{
 		}
@@ -162,13 +162,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public Direction direction
 	{
 		[Token(Token = "0x6000471")]
-		[Address(RVA = "0x1CD3470", Offset = "0x1CD1A70", VA = "0x181CD3470")]
+		[Address(RVA = "0x6CF5ED0", Offset = "0x6CF4ED0", VA = "0x6CF5ED0")]
 		get
 		{
 			return default(Direction);
 		}
 		[Token(Token = "0x6000472")]
-		[Address(RVA = "0x32E9F80", Offset = "0x32E8580", VA = "0x1832E9F80")]
+		[Address(RVA = "0x6CF5EE0", Offset = "0x6CF4EE0", VA = "0x6CF5EE0")]
 		set
 		{
 		}
@@ -178,13 +178,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public float minValue
 	{
 		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x2D447A0", Offset = "0x2D42DA0", VA = "0x182D447A0")]
+		[Address(RVA = "0x6CF5F40", Offset = "0x6CF4F40", VA = "0x6CF5F40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x32EA140", Offset = "0x32E8740", VA = "0x1832EA140")]
+		[Address(RVA = "0x6CF5F50", Offset = "0x6CF4F50", VA = "0x6CF5F50")]
 		set
 		{
 		}
@@ -194,13 +194,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public float maxValue
 	{
 		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x3283360", Offset = "0x3281960", VA = "0x183283360")]
+		[Address(RVA = "0x6CF5FD0", Offset = "0x6CF4FD0", VA = "0x6CF5FD0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x32EA0C0", Offset = "0x32E86C0", VA = "0x1832EA0C0")]
+		[Address(RVA = "0x6CF5FE0", Offset = "0x6CF4FE0", VA = "0x6CF5FE0")]
 		set
 		{
 		}
@@ -210,13 +210,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public bool wholeNumbers
 	{
 		[Token(Token = "0x6000477")]
-		[Address(RVA = "0x32E9F70", Offset = "0x32E8570", VA = "0x1832E9F70")]
+		[Address(RVA = "0x6CF6060", Offset = "0x6CF5060", VA = "0x6CF6060")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000478")]
-		[Address(RVA = "0x32EA230", Offset = "0x32E8830", VA = "0x1832EA230")]
+		[Address(RVA = "0x6CF6070", Offset = "0x6CF5070", VA = "0x6CF6070")]
 		set
 		{
 		}
@@ -226,13 +226,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public virtual float value
 	{
 		[Token(Token = "0x6000479")]
-		[Address(RVA = "0x32E9F50", Offset = "0x32E8550", VA = "0x1832E9F50", Slot = "46")]
+		[Address(RVA = "0x6CF60F0", Offset = "0x6CF50F0", VA = "0x6CF60F0", Slot = "46")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x32EA210", Offset = "0x32E8810", VA = "0x1832EA210", Slot = "47")]
+		[Address(RVA = "0x6CF61D0", Offset = "0x6CF51D0", VA = "0x6CF61D0", Slot = "47")]
 		set
 		{
 		}
@@ -242,13 +242,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public float normalizedValue
 	{
 		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x32E9E50", Offset = "0x32E8450", VA = "0x1832E9E50")]
+		[Address(RVA = "0x6CF6210", Offset = "0x6CF5210", VA = "0x6CF6210")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600047D")]
-		[Address(RVA = "0x32EA1C0", Offset = "0x32E87C0", VA = "0x1832EA1C0")]
+		[Address(RVA = "0x6CF6310", Offset = "0x6CF5310", VA = "0x6CF6310")]
 		set
 		{
 		}
@@ -258,13 +258,13 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	public SliderEvent onValueChanged
 	{
 		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x2CE6A00", Offset = "0x2CE5000", VA = "0x182CE6A00")]
+		[Address(RVA = "0x6CF6360", Offset = "0x6CF5360", VA = "0x6CF6360")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600047F")]
-		[Address(RVA = "0x3182970", Offset = "0x3180F70", VA = "0x183182970")]
+		[Address(RVA = "0x6CF6370", Offset = "0x6CF5370", VA = "0x6CF6370")]
 		set
 		{
 		}
@@ -274,7 +274,7 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	private float stepSize
 	{
 		[Token(Token = "0x6000480")]
-		[Address(RVA = "0x32E9F20", Offset = "0x32E8520", VA = "0x1832E9F20")]
+		[Address(RVA = "0x6CF6390", Offset = "0x6CF5390", VA = "0x6CF6390")]
 		get
 		{
 			return default(float);
@@ -285,7 +285,7 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	private Axis axis
 	{
 		[Token(Token = "0x600048D")]
-		[Address(RVA = "0x32E9E30", Offset = "0x32E8430", VA = "0x1832E9E30")]
+		[Address(RVA = "0x6CF6BF0", Offset = "0x6CF5BF0", VA = "0x6CF6BF0")]
 		get
 		{
 			return default(Axis);
@@ -296,7 +296,7 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	private bool reverseValue
 	{
 		[Token(Token = "0x600048E")]
-		[Address(RVA = "0x32E9F00", Offset = "0x32E8500", VA = "0x1832E9F00")]
+		[Address(RVA = "0x6CF6BE0", Offset = "0x6CF5BE0", VA = "0x6CF6BE0")]
 		get
 		{
 			return default(bool);
@@ -304,163 +304,163 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	}
 
 	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x32E90C0", Offset = "0x32E76C0", VA = "0x1832E90C0", Slot = "48")]
+	[Address(RVA = "0x6CF61F0", Offset = "0x6CF51F0", VA = "0x6CF61F0", Slot = "48")]
 	public virtual void SetValueWithoutNotify(float input)
 	{
 	}
 
 	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x32E9D30", Offset = "0x32E8330", VA = "0x1832E9D30")]
+	[Address(RVA = "0x6CF63C0", Offset = "0x6CF53C0", VA = "0x6CF63C0")]
 	protected Slider()
 	{
 	}
 
 	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "49")]
+	[Address(RVA = "0x6CF6500", Offset = "0x6CF5500", VA = "0x6CF6500", Slot = "49")]
 	public virtual void Rebuild(CanvasUpdate executing)
 	{
 	}
 
 	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "50")]
+	[Address(RVA = "0x6CF6510", Offset = "0x6CF5510", VA = "0x6CF6510", Slot = "50")]
 	public virtual void LayoutComplete()
 	{
 	}
 
 	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "51")]
+	[Address(RVA = "0x6CF6520", Offset = "0x6CF5520", VA = "0x6CF6520", Slot = "51")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x32E8960", Offset = "0x32E6F60", VA = "0x1832E8960", Slot = "5")]
+	[Address(RVA = "0x6CF6530", Offset = "0x6CF5530", VA = "0x6CF6530", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x32E88B0", Offset = "0x32E6EB0", VA = "0x1832E88B0", Slot = "7")]
+	[Address(RVA = "0x6CF6570", Offset = "0x6CF5570", VA = "0x6CF6570", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x32E9CE0", Offset = "0x32E82E0", VA = "0x1832E9CE0", Slot = "52")]
+	[Address(RVA = "0x6CF6590", Offset = "0x6CF5590", VA = "0x6CF6590", Slot = "52")]
 	protected virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x6000488")]
-	[Address(RVA = "0x32E85E0", Offset = "0x32E6BE0", VA = "0x1832E85E0", Slot = "13")]
+	[Address(RVA = "0x6CF65D0", Offset = "0x6CF55D0", VA = "0x6CF65D0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x32E91D0", Offset = "0x32E77D0", VA = "0x1832E91D0")]
+	[Address(RVA = "0x6CF52F0", Offset = "0x6CF42F0", VA = "0x6CF52F0")]
 	private void UpdateCachedReferences()
 	{
 	}
 
 	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x32E84F0", Offset = "0x32E6AF0", VA = "0x1832E84F0")]
+	[Address(RVA = "0x6CF6AF0", Offset = "0x6CF5AF0", VA = "0x6CF6AF0")]
 	private float ClampValue(float input)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x32E90E0", Offset = "0x32E76E0", VA = "0x1832E90E0", Slot = "53")]
+	[Address(RVA = "0x6CF6C00", Offset = "0x6CF5C00", VA = "0x6CF6C00", Slot = "53")]
 	protected virtual void Set(float input, bool sendCallback = true)
 	{
 	}
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x32E8EC0", Offset = "0x32E74C0", VA = "0x1832E8EC0", Slot = "10")]
+	[Address(RVA = "0x6CF6DC0", Offset = "0x6CF5DC0", VA = "0x6CF6DC0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x32E98E0", Offset = "0x32E7EE0", VA = "0x1832E98E0")]
+	[Address(RVA = "0x6CF5690", Offset = "0x6CF4690", VA = "0x6CF5690")]
 	private void UpdateVisuals()
 	{
 	}
 
 	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x32E9560", Offset = "0x32E7B60", VA = "0x1832E9560")]
+	[Address(RVA = "0x6CF6DF0", Offset = "0x6CF5DF0", VA = "0x6CF6DF0")]
 	private void UpdateDrag(PointerEventData eventData, Camera cam)
 	{
 	}
 
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x32E3910", Offset = "0x32E1F10", VA = "0x1832E3910")]
+	[Address(RVA = "0x6CF70D0", Offset = "0x6CF60D0", VA = "0x6CF70D0")]
 	private bool MayDrag(PointerEventData eventData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x32E8C70", Offset = "0x32E7270", VA = "0x1832E8C70", Slot = "32")]
+	[Address(RVA = "0x6CF7130", Offset = "0x6CF6130", VA = "0x6CF7130", Slot = "32")]
 	public override void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x32E88E0", Offset = "0x32E6EE0", VA = "0x1832E88E0", Slot = "54")]
+	[Address(RVA = "0x6CF7320", Offset = "0x6CF6320", VA = "0x6CF7320", Slot = "54")]
 	public virtual void OnDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x32E89B0", Offset = "0x32E6FB0", VA = "0x1832E89B0", Slot = "31")]
+	[Address(RVA = "0x6CF7390", Offset = "0x6CF6390", VA = "0x6CF7390", Slot = "31")]
 	public override void OnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x32E8550", Offset = "0x32E6B50", VA = "0x1832E8550", Slot = "27")]
+	[Address(RVA = "0x6CF7740", Offset = "0x6CF6740", VA = "0x6CF7740", Slot = "27")]
 	public override Selectable FindSelectableOnLeft()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x32E8580", Offset = "0x32E6B80", VA = "0x1832E8580", Slot = "28")]
+	[Address(RVA = "0x6CF7800", Offset = "0x6CF6800", VA = "0x6CF7800", Slot = "28")]
 	public override Selectable FindSelectableOnRight()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x32E85B0", Offset = "0x32E6BB0", VA = "0x1832E85B0", Slot = "29")]
+	[Address(RVA = "0x6CF78C0", Offset = "0x6CF68C0", VA = "0x6CF78C0", Slot = "29")]
 	public override Selectable FindSelectableOnUp()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x32E8520", Offset = "0x32E6B20", VA = "0x1832E8520", Slot = "30")]
+	[Address(RVA = "0x6CF7980", Offset = "0x6CF6980", VA = "0x6CF7980", Slot = "30")]
 	public override Selectable FindSelectableOnDown()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x32E3F80", Offset = "0x32E2580", VA = "0x1832E3F80", Slot = "55")]
+	[Address(RVA = "0x6CF7A40", Offset = "0x6CF6A40", VA = "0x6CF7A40", Slot = "55")]
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x32E8F00", Offset = "0x32E7500", VA = "0x1832E8F00")]
+	[Address(RVA = "0x6CF7A60", Offset = "0x6CF6A60", VA = "0x6CF7A60")]
 	public void SetDirection(Direction direction, bool includeRectLayouts)
 	{
 	}
 
 	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x2D057F0", Offset = "0x2D03DF0", VA = "0x182D057F0", Slot = "42")]
+	[Address(RVA = "0x6CF7BF0", Offset = "0x6CF6BF0", VA = "0x6CF7BF0", Slot = "42")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

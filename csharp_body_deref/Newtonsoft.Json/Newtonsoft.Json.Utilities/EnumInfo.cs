@@ -29,7 +29,7 @@ internal class EnumInfo
 	public readonly string[] ResolvedNames;
 
 	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x1C23B00", Offset = "0x1C22100", VA = "0x181C23B00")]
+	[Address(RVA = "0x55B0C70", Offset = "0x55AFC70", VA = "0x55B0C70")]
 	public EnumInfo(bool isFlags, ulong[] values, string[] names, string[] resolvedNames)
 	{
 	}

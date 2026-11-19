@@ -45,37 +45,37 @@ public class GraphicToggleIsOnTransition : MonoBehaviour, IPointerEnterHandler, 
 	private bool isHover;
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x1D53250", Offset = "0x1D51850", VA = "0x181D53250", Slot = "4")]
+	[Address(RVA = "0x56F8280", Offset = "0x56F7280", VA = "0x56F8280", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x1D532B0", Offset = "0x1D518B0", VA = "0x181D532B0", Slot = "5")]
+	[Address(RVA = "0x56F82D0", Offset = "0x56F72D0", VA = "0x56F82D0", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x1D53130", Offset = "0x1D51730", VA = "0x181D53130")]
+	[Address(RVA = "0x56F8320", Offset = "0x56F7320", VA = "0x56F8320")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x1D53080", Offset = "0x1D51680", VA = "0x181D53080")]
+	[Address(RVA = "0x56F8490", Offset = "0x56F7490", VA = "0x56F8490")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x1D53310", Offset = "0x1D51910", VA = "0x181D53310")]
+	[Address(RVA = "0x56F8450", Offset = "0x56F7450", VA = "0x56F8450")]
 	public void OnValueChanged(bool isOn)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x1D53360", Offset = "0x1D51960", VA = "0x181D53360")]
+	[Address(RVA = "0x56F8530", Offset = "0x56F7530", VA = "0x56F8530")]
 	public GraphicToggleIsOnTransition()
 	{
 	}

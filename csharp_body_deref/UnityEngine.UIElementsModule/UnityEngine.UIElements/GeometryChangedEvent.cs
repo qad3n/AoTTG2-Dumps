@@ -19,14 +19,14 @@ public class GeometryChangedEvent : EventBase<GeometryChangedEvent>
 	public Rect oldRect
 	{
 		[Token(Token = "0x6000D26")]
-		[Address(RVA = "0xCDE970", Offset = "0xCDCF70", VA = "0x180CDE970")]
+		[Address(RVA = "0x6C67FE0", Offset = "0x6C66FE0", VA = "0x6C67FE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000D27")]
-		[Address(RVA = "0x12BF2E0", Offset = "0x12BD8E0", VA = "0x1812BF2E0")]
+		[Address(RVA = "0x6C67FF0", Offset = "0x6C66FF0", VA = "0x6C67FF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -37,14 +37,14 @@ public class GeometryChangedEvent : EventBase<GeometryChangedEvent>
 	public Rect newRect
 	{
 		[Token(Token = "0x6000D28")]
-		[Address(RVA = "0x12BEF80", Offset = "0x12BD580", VA = "0x1812BEF80")]
+		[Address(RVA = "0x6C68000", Offset = "0x6C67000", VA = "0x6C68000")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000D29")]
-		[Address(RVA = "0x12BF1B0", Offset = "0x12BD7B0", VA = "0x1812BF1B0")]
+		[Address(RVA = "0x6C68010", Offset = "0x6C67010", VA = "0x6C68010")]
 		[CompilerGenerated]
 		private set
 		{
@@ -56,14 +56,14 @@ public class GeometryChangedEvent : EventBase<GeometryChangedEvent>
 	internal int layoutPass
 	{
 		[Token(Token = "0x6000D2A")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0")]
+		[Address(RVA = "0x6C68020", Offset = "0x6C67020", VA = "0x6C68020")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D2B")]
-		[Address(RVA = "0xA4D5A0", Offset = "0xA4BBA0", VA = "0x180A4D5A0")]
+		[Address(RVA = "0x6C68030", Offset = "0x6C67030", VA = "0x6C68030")]
 		[CompilerGenerated]
 		set
 		{
@@ -71,32 +71,32 @@ public class GeometryChangedEvent : EventBase<GeometryChangedEvent>
 	}
 
 	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x3265F60", Offset = "0x3264560", VA = "0x183265F60")]
+	[Address(RVA = "0x6C67D10", Offset = "0x6C66D10", VA = "0x6C67D10")]
 	static GeometryChangedEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x3265DB0", Offset = "0x32643B0", VA = "0x183265DB0")]
+	[Address(RVA = "0x6C67DE0", Offset = "0x6C66DE0", VA = "0x6C67DE0")]
 	public static GeometryChangedEvent GetPooled(Rect oldRect, Rect newRect)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x3265E30", Offset = "0x3264430", VA = "0x183265E30", Slot = "13")]
+	[Address(RVA = "0x6C67E80", Offset = "0x6C66E80", VA = "0x6C67E80", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D25")]
-	[Address(RVA = "0x3265E80", Offset = "0x3264480", VA = "0x183265E80")]
+	[Address(RVA = "0x6C67EC0", Offset = "0x6C66EC0", VA = "0x6C67EC0")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D2C")]
-	[Address(RVA = "0x3266040", Offset = "0x3264640", VA = "0x183266040")]
+	[Address(RVA = "0x6C68040", Offset = "0x6C67040", VA = "0x6C68040")]
 	public GeometryChangedEvent()
 	{
 	}

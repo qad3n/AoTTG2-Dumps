@@ -14,19 +14,19 @@ namespace Unity.VisualScripting;
 public class InvalidConversionException : InvalidCastException
 {
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x2DB1B10", Offset = "0x2DB0110", VA = "0x182DB1B10")]
+	[Address(RVA = "0x6797940", Offset = "0x6796940", VA = "0x6797940")]
 	public InvalidConversionException()
 	{
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x2DB1B20", Offset = "0x2DB0120", VA = "0x182DB1B20")]
+	[Address(RVA = "0x6797950", Offset = "0x6796950", VA = "0x6797950")]
 	public InvalidConversionException(string message)
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x2DB1B30", Offset = "0x2DB0130", VA = "0x182DB1B30")]
+	[Address(RVA = "0x6797960", Offset = "0x6796960", VA = "0x6797960")]
 	public InvalidConversionException(string message, Exception innerException)
 	{
 	}

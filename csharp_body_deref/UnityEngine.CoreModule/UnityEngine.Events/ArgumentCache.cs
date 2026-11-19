@@ -15,121 +15,121 @@ namespace UnityEngine.Events;
 [Token(Token = "0x2000220")]
 internal class ArgumentCache : ISerializationCallbackReceiver
 {
-	[Token(Token = "0x4000714")]
+	[Token(Token = "0x4000712")]
 	[FieldOffset(Offset = "0x10")]
 	[FormerlySerializedAs("objectArgument")]
 	[SerializeField]
 	private Object m_ObjectArgument;
 
-	[Token(Token = "0x4000715")]
+	[Token(Token = "0x4000713")]
 	[FieldOffset(Offset = "0x18")]
 	[SerializeField]
 	[FormerlySerializedAs("objectArgumentAssemblyTypeName")]
 	private string m_ObjectArgumentAssemblyTypeName;
 
-	[Token(Token = "0x4000716")]
+	[Token(Token = "0x4000714")]
 	[FieldOffset(Offset = "0x20")]
-	[SerializeField]
 	[FormerlySerializedAs("intArgument")]
+	[SerializeField]
 	private int m_IntArgument;
 
-	[Token(Token = "0x4000717")]
+	[Token(Token = "0x4000715")]
 	[FieldOffset(Offset = "0x24")]
-	[SerializeField]
 	[FormerlySerializedAs("floatArgument")]
+	[SerializeField]
 	private float m_FloatArgument;
 
-	[Token(Token = "0x4000718")]
+	[Token(Token = "0x4000716")]
 	[FieldOffset(Offset = "0x28")]
-	[SerializeField]
 	[FormerlySerializedAs("stringArgument")]
+	[SerializeField]
 	private string m_StringArgument;
 
-	[Token(Token = "0x4000719")]
+	[Token(Token = "0x4000717")]
 	[FieldOffset(Offset = "0x30")]
 	[SerializeField]
 	private bool m_BoolArgument;
 
-	[Token(Token = "0x170002C5")]
+	[Token(Token = "0x170002CA")]
 	public Object unityObjectArgument
 	{
-		[Token(Token = "0x60010F9")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Token(Token = "0x600110D")]
+		[Address(RVA = "0x69330D0", Offset = "0x69320D0", VA = "0x69330D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C6")]
+	[Token(Token = "0x170002CB")]
 	public string unityObjectArgumentAssemblyTypeName
 	{
-		[Token(Token = "0x60010FA")]
-		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
+		[Token(Token = "0x600110E")]
+		[Address(RVA = "0x69330E0", Offset = "0x69320E0", VA = "0x69330E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C7")]
+	[Token(Token = "0x170002CC")]
 	public int intArgument
 	{
-		[Token(Token = "0x60010FB")]
-		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
+		[Token(Token = "0x600110F")]
+		[Address(RVA = "0x69330F0", Offset = "0x69320F0", VA = "0x69330F0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002C8")]
+	[Token(Token = "0x170002CD")]
 	public float floatArgument
 	{
-		[Token(Token = "0x60010FC")]
-		[Address(RVA = "0x2F2DDD0", Offset = "0x2F2C3D0", VA = "0x182F2DDD0")]
+		[Token(Token = "0x6001110")]
+		[Address(RVA = "0x6933100", Offset = "0x6932100", VA = "0x6933100")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170002C9")]
+	[Token(Token = "0x170002CE")]
 	public string stringArgument
 	{
-		[Token(Token = "0x60010FD")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Token(Token = "0x6001111")]
+		[Address(RVA = "0x6933110", Offset = "0x6932110", VA = "0x6933110")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002CA")]
+	[Token(Token = "0x170002CF")]
 	public bool boolArgument
 	{
-		[Token(Token = "0x60010FE")]
-		[Address(RVA = "0xAD3610", Offset = "0xAD1C10", VA = "0x180AD3610")]
+		[Token(Token = "0x6001112")]
+		[Address(RVA = "0x6933120", Offset = "0x6932120", VA = "0x6933120")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60010FF")]
-	[Address(RVA = "0x2F2DDA0", Offset = "0x2F2C3A0", VA = "0x182F2DDA0", Slot = "4")]
+	[Token(Token = "0x6001113")]
+	[Address(RVA = "0x6933130", Offset = "0x6932130", VA = "0x6933130", Slot = "4")]
 	public void OnBeforeSerialize()
 	{
 	}
 
-	[Token(Token = "0x6001100")]
-	[Address(RVA = "0x2F2DDA0", Offset = "0x2F2C3A0", VA = "0x182F2DDA0", Slot = "5")]
+	[Token(Token = "0x6001114")]
+	[Address(RVA = "0x6933160", Offset = "0x6932160", VA = "0x6933160", Slot = "5")]
 	public void OnAfterDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6001101")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001115")]
+	[Address(RVA = "0x6933190", Offset = "0x6932190", VA = "0x6933190")]
 	public ArgumentCache()
 	{
 	}

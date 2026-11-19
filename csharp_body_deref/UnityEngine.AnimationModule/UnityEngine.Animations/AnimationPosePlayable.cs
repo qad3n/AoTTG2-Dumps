@@ -14,11 +14,11 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x2000027")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.StaticAccessor("AnimationPosePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationPosePlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationPosePlayable.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.StaticAccessor("AnimationPosePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 internal struct AnimationPosePlayable : IEquatable<AnimationPosePlayable>
 {
 	[Token(Token = "0x4000061")]
@@ -30,20 +30,20 @@ internal struct AnimationPosePlayable : IEquatable<AnimationPosePlayable>
 	private static readonly AnimationPosePlayable m_NullPlayable;
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x2EAC180", Offset = "0x2EAA780", VA = "0x182EAC180")]
+	[Address(RVA = "0x68ACC70", Offset = "0x68ABC70", VA = "0x68ACC70")]
 	internal AnimationPosePlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68ACD60", Offset = "0x68ABD60", VA = "0x68ACD60", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x2EABFA0", Offset = "0x2EAA5A0", VA = "0x182EABFA0", Slot = "4")]
+	[Address(RVA = "0x68ACD70", Offset = "0x68ABD70", VA = "0x68ACD70", Slot = "4")]
 	public bool Equals(AnimationPosePlayable other)
 	{
 		return default(bool);

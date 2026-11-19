@@ -9,101 +9,101 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200019D")]
+[Token(Token = "0x200015E")]
 internal sealed class ExtendedPropertyDescriptor : PropertyDescriptor
 {
-	[Token(Token = "0x40006A7")]
+	[Token(Token = "0x40005D8")]
 	[FieldOffset(Offset = "0x88")]
 	private readonly ReflectPropertyDescriptor _extenderInfo;
 
-	[Token(Token = "0x40006A8")]
+	[Token(Token = "0x40005D9")]
 	[FieldOffset(Offset = "0x90")]
 	private readonly IExtenderProvider _provider;
 
-	[Token(Token = "0x1700020D")]
+	[Token(Token = "0x170001DE")]
 	public override Type ComponentType
 	{
-		[Token(Token = "0x6000A95")]
-		[Address(RVA = "0x289E090", Offset = "0x289C690", VA = "0x18289E090", Slot = "17")]
+		[Token(Token = "0x60008D5")]
+		[Address(RVA = "0x6233C70", Offset = "0x6232C70", VA = "0x6233C70", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020E")]
+	[Token(Token = "0x170001DF")]
 	public override bool IsReadOnly
 	{
-		[Token(Token = "0x6000A96")]
-		[Address(RVA = "0x289E220", Offset = "0x289C820", VA = "0x18289E220", Slot = "20")]
+		[Token(Token = "0x60008D6")]
+		[Address(RVA = "0x6233CA0", Offset = "0x6232CA0", VA = "0x6233CA0", Slot = "20")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020F")]
+	[Token(Token = "0x170001E0")]
 	public override Type PropertyType
 	{
-		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x289E310", Offset = "0x289C910", VA = "0x18289E310", Slot = "21")]
+		[Token(Token = "0x60008D7")]
+		[Address(RVA = "0x6233D80", Offset = "0x6232D80", VA = "0x6233D80", Slot = "21")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000210")]
+	[Token(Token = "0x170001E1")]
 	public override string DisplayName
 	{
-		[Token(Token = "0x6000A98")]
-		[Address(RVA = "0x289E0C0", Offset = "0x289C6C0", VA = "0x18289E0C0", Slot = "13")]
+		[Token(Token = "0x60008D8")]
+		[Address(RVA = "0x6233DB0", Offset = "0x6232DB0", VA = "0x6233DB0", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A92")]
-	[Address(RVA = "0x289DE10", Offset = "0x289C410", VA = "0x18289DE10")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x6233810", Offset = "0x6232810", VA = "0x6233810")]
 	public ExtendedPropertyDescriptor(ReflectPropertyDescriptor extenderInfo, Type receiverType, IExtenderProvider provider, Attribute[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6000A93")]
-	[Address(RVA = "0x289DCD0", Offset = "0x289C2D0", VA = "0x18289DCD0")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x6233B10", Offset = "0x6232B10", VA = "0x6233B10")]
 	public ExtendedPropertyDescriptor(PropertyDescriptor extender, Attribute[] attributes)
 	{
 	}
 
-	[Token(Token = "0x6000A94")]
-	[Address(RVA = "0x289DBC0", Offset = "0x289C1C0", VA = "0x18289DBC0", Slot = "23")]
+	[Token(Token = "0x60008D4")]
+	[Address(RVA = "0x6233C40", Offset = "0x6232C40", VA = "0x6233C40", Slot = "23")]
 	public override bool CanResetValue(object comp)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A99")]
-	[Address(RVA = "0x289DBF0", Offset = "0x289C1F0", VA = "0x18289DBF0", Slot = "26")]
+	[Token(Token = "0x60008D9")]
+	[Address(RVA = "0x6233F90", Offset = "0x6232F90", VA = "0x6233F90", Slot = "26")]
 	public override object GetValue(object comp)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A9A")]
-	[Address(RVA = "0x289DC20", Offset = "0x289C220", VA = "0x18289DC20", Slot = "29")]
+	[Token(Token = "0x60008DA")]
+	[Address(RVA = "0x6233FC0", Offset = "0x6232FC0", VA = "0x6233FC0", Slot = "29")]
 	public override void ResetValue(object comp)
 	{
 	}
 
-	[Token(Token = "0x6000A9B")]
-	[Address(RVA = "0x289DC60", Offset = "0x289C260", VA = "0x18289DC60", Slot = "30")]
+	[Token(Token = "0x60008DB")]
+	[Address(RVA = "0x6233FF0", Offset = "0x6232FF0", VA = "0x6233FF0", Slot = "30")]
 	public override void SetValue(object component, object value)
 	{
 	}
 
-	[Token(Token = "0x6000A9C")]
-	[Address(RVA = "0x289DCA0", Offset = "0x289C2A0", VA = "0x18289DCA0", Slot = "31")]
+	[Token(Token = "0x60008DC")]
+	[Address(RVA = "0x6234020", Offset = "0x6233020", VA = "0x6234020", Slot = "31")]
 	public override bool ShouldSerializeValue(object comp)
 	{
 		return default(bool);

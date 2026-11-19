@@ -143,13 +143,13 @@ public static class UnityBindingExtensions
 		private UniTask.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000951")]
-		[Address(RVA = "0x29452D0", Offset = "0x29438D0", VA = "0x1829452D0", Slot = "4")]
+		[Address(RVA = "0x62F1C60", Offset = "0x62F0C60", VA = "0x62F1C60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000952")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x62F26B0", Offset = "0x62F16B0", VA = "0x62F26B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -275,13 +275,13 @@ public static class UnityBindingExtensions
 		private UniTask.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000955")]
-		[Address(RVA = "0x2945D20", Offset = "0x2944320", VA = "0x182945D20", Slot = "4")]
+		[Address(RVA = "0x62F26C0", Offset = "0x62F16C0", VA = "0x62F26C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000956")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Address(RVA = "0x62F3110", Offset = "0x62F2110", VA = "0x62F3110", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -289,19 +289,19 @@ public static class UnityBindingExtensions
 	}
 
 	[Token(Token = "0x6000942")]
-	[Address(RVA = "0x294DA50", Offset = "0x294C050", VA = "0x18294DA50")]
+	[Address(RVA = "0x62F1720", Offset = "0x62F0720", VA = "0x62F1720")]
 	public static void BindTo(this IUniTaskAsyncEnumerable<string> source, Text text, bool rebindOnError = true)
 	{
 	}
 
 	[Token(Token = "0x6000943")]
-	[Address(RVA = "0x294DA40", Offset = "0x294C040", VA = "0x18294DA40")]
+	[Address(RVA = "0x62F18E0", Offset = "0x62F08E0", VA = "0x62F18E0")]
 	public static void BindTo(this IUniTaskAsyncEnumerable<string> source, Text text, CancellationToken cancellationToken, bool rebindOnError = true)
 	{
 	}
 
 	[Token(Token = "0x6000944")]
-	[Address(RVA = "0x294D840", Offset = "0x294BE40", VA = "0x18294D840")]
+	[Address(RVA = "0x62F1800", Offset = "0x62F0800", VA = "0x62F1800")]
 	[AsyncStateMachine(typeof(_003CBindToCore_003Ed__2))]
 	private static UniTaskVoid BindToCore(IUniTaskAsyncEnumerable<string> source, Text text, CancellationToken cancellationToken, bool rebindOnError)
 	{
@@ -331,19 +331,19 @@ public static class UnityBindingExtensions
 	}
 
 	[Token(Token = "0x6000949")]
-	[Address(RVA = "0x294D9E0", Offset = "0x294BFE0", VA = "0x18294D9E0")]
+	[Address(RVA = "0x62F19C0", Offset = "0x62F09C0", VA = "0x62F19C0")]
 	public static void BindTo(this IUniTaskAsyncEnumerable<bool> source, Selectable selectable, bool rebindOnError = true)
 	{
 	}
 
 	[Token(Token = "0x600094A")]
-	[Address(RVA = "0x294DA30", Offset = "0x294C030", VA = "0x18294DA30")]
+	[Address(RVA = "0x62F1B80", Offset = "0x62F0B80", VA = "0x62F1B80")]
 	public static void BindTo(this IUniTaskAsyncEnumerable<bool> source, Selectable selectable, CancellationToken cancellationToken, bool rebindOnError = true)
 	{
 	}
 
 	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x294D910", Offset = "0x294BF10", VA = "0x18294D910")]
+	[Address(RVA = "0x62F1AA0", Offset = "0x62F0AA0", VA = "0x62F1AA0")]
 	[AsyncStateMachine(typeof(_003CBindToCore_003Ed__9))]
 	private static UniTaskVoid BindToCore(IUniTaskAsyncEnumerable<bool> source, Selectable selectable, CancellationToken cancellationToken, bool rebindOnError)
 	{

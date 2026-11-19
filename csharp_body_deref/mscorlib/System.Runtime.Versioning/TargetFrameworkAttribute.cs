@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Versioning;
 
-[Token(Token = "0x20003F4")]
+[Token(Token = "0x20003CD")]
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = false, Inherited = false)]
 public sealed class TargetFrameworkAttribute : Attribute
 {
-	[Token(Token = "0x4000FC9")]
+	[Token(Token = "0x4000F29")]
 	[FieldOffset(Offset = "0x10")]
 	private string _frameworkName;
 
-	[Token(Token = "0x4000FCA")]
+	[Token(Token = "0x4000F2A")]
 	[FieldOffset(Offset = "0x18")]
 	private string _frameworkDisplayName;
 
-	[Token(Token = "0x17000412")]
+	[Token(Token = "0x17000411")]
 	public string FrameworkDisplayName
 	{
-		[Token(Token = "0x6001F8B")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001F61")]
+		[Address(RVA = "0x539B3E0", Offset = "0x539A3E0", VA = "0x539B3E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001F8A")]
-	[Address(RVA = "0x1A09820", Offset = "0x1A07E20", VA = "0x181A09820")]
+	[Token(Token = "0x6001F60")]
+	[Address(RVA = "0x539B360", Offset = "0x539A360", VA = "0x539B360")]
 	public TargetFrameworkAttribute(string frameworkName)
 	{
 	}

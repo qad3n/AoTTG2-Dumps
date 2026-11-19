@@ -11,20 +11,20 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000CF")]
+[Token(Token = "0x20000D0")]
 [UnityEngine.Bindings.NativeType("Runtime/GfxDevice/GfxDeviceTypes.h")]
 public enum ComputeBufferMode
 {
-	[Token(Token = "0x400021D")]
+	[Token(Token = "0x4000222")]
 	Immutable,
-	[Token(Token = "0x400021E")]
+	[Token(Token = "0x4000223")]
 	Dynamic,
-	[Token(Token = "0x400021F")]
+	[Token(Token = "0x4000224")]
 	[Obsolete("ComputeBufferMode.Circular is deprecated (legacy mode)")]
 	Circular,
-	[Token(Token = "0x4000220")]
+	[Token(Token = "0x4000225")]
 	[Obsolete("ComputeBufferMode.StreamOut is deprecated (internal use only)")]
 	StreamOut,
-	[Token(Token = "0x4000221")]
+	[Token(Token = "0x4000226")]
 	SubUpdates
 }

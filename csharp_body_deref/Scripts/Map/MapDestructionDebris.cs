@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Map.MapDestructionDebris
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Map/MapDestructionDebris.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,263 +13,263 @@ using UnityEngine.Rendering;
 
 namespace Map;
 
-[Token(Token = "0x2000397")]
+[Token(Token = "0x20003F2")]
 internal sealed class MapDestructionDebris : MonoBehaviour
 {
-	[Token(Token = "0x2000398")]
+	[Token(Token = "0x20003F3")]
 	private sealed class Piece
 	{
-		[Token(Token = "0x40012C9")]
+		[Token(Token = "0x400145B")]
 		[FieldOffset(Offset = "0x10")]
 		public GameObject Fragment;
 
-		[Token(Token = "0x40012CA")]
+		[Token(Token = "0x400145C")]
 		[FieldOffset(Offset = "0x18")]
 		public Mesh Collision;
 
-		[Token(Token = "0x40012CB")]
+		[Token(Token = "0x400145D")]
 		[FieldOffset(Offset = "0x20")]
 		public Rigidbody Body;
 
-		[Token(Token = "0x40012CC")]
+		[Token(Token = "0x400145E")]
 		[FieldOffset(Offset = "0x28")]
 		public ConstantForce Force;
 
-		[Token(Token = "0x60016E1")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6001946")]
+		[Address(RVA = "0x5887600", Offset = "0x5886600", VA = "0x5887600")]
 		public Piece()
 		{
 		}
 	}
 
-	[Token(Token = "0x40012A8")]
+	[Token(Token = "0x400143A")]
 	private const int MaxActive = 8;
 
-	[Token(Token = "0x40012A9")]
+	[Token(Token = "0x400143B")]
 	private const int MaxFractureTriangles = 20000;
 
-	[Token(Token = "0x40012AA")]
+	[Token(Token = "0x400143C")]
 	private const int MinPieces = 6;
 
-	[Token(Token = "0x40012AB")]
+	[Token(Token = "0x400143D")]
 	private const int MaxPieces = 40;
 
-	[Token(Token = "0x40012AC")]
+	[Token(Token = "0x400143E")]
 	private const float PieceSize = 3f;
 
-	[Token(Token = "0x40012AD")]
+	[Token(Token = "0x400143F")]
 	private const float GroundClearance = 0.05f;
 
-	[Token(Token = "0x40012AE")]
+	[Token(Token = "0x4001440")]
 	private const float MinColliderThickness = 0.1f;
 
-	[Token(Token = "0x40012AF")]
+	[Token(Token = "0x4001441")]
 	private const float ColliderShrink = 0.75f;
 
-	[Token(Token = "0x40012B0")]
+	[Token(Token = "0x4001442")]
 	private const float ExtraGravity = 1f;
 
-	[Token(Token = "0x40012B1")]
+	[Token(Token = "0x4001443")]
 	private const float RubbleFriction = 0.1f;
 
-	[Token(Token = "0x40012B2")]
+	[Token(Token = "0x4001444")]
 	private const float Spin = 1.2f;
 
-	[Token(Token = "0x40012B3")]
+	[Token(Token = "0x4001445")]
 	private const float Nudge = 1f;
 
-	[Token(Token = "0x40012B4")]
+	[Token(Token = "0x4001446")]
 	private const float MinSettleTime = 0.5f;
 
-	[Token(Token = "0x40012B5")]
+	[Token(Token = "0x4001447")]
 	private const float SettledSpeed = 1f;
 
-	[Token(Token = "0x40012B6")]
+	[Token(Token = "0x4001448")]
 	private const float FadeDelay = 3f;
 
-	[Token(Token = "0x40012B7")]
+	[Token(Token = "0x4001449")]
 	private const float FadeDuration = 1.5f;
 
-	[Token(Token = "0x40012B8")]
+	[Token(Token = "0x400144A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly int FadeId;
 
-	[Token(Token = "0x40012B9")]
+	[Token(Token = "0x400144B")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly List<MapDestructionDebris> Active;
 
-	[Token(Token = "0x40012BA")]
+	[Token(Token = "0x400144C")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly RaycastHit[] GroundHits;
 
-	[Token(Token = "0x40012BB")]
+	[Token(Token = "0x400144D")]
 	[FieldOffset(Offset = "0x18")]
 	private static Shader _shader;
 
-	[Token(Token = "0x40012BC")]
+	[Token(Token = "0x400144E")]
 	[FieldOffset(Offset = "0x20")]
 	private static PhysicsMaterial _rubble;
 
-	[Token(Token = "0x40012BD")]
+	[Token(Token = "0x400144F")]
 	[FieldOffset(Offset = "0x28")]
 	private static int _workFrame;
 
-	[Token(Token = "0x40012BE")]
+	[Token(Token = "0x4001450")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Dictionary<Material, Material> _rubbleMaterials;
 
-	[Token(Token = "0x40012BF")]
+	[Token(Token = "0x4001451")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly List<Mesh> _meshes;
 
-	[Token(Token = "0x40012C0")]
+	[Token(Token = "0x4001452")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly List<Piece> _pieces;
 
-	[Token(Token = "0x40012C1")]
+	[Token(Token = "0x4001453")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly List<GameObject> _sectionVisuals;
 
-	[Token(Token = "0x40012C2")]
+	[Token(Token = "0x4001454")]
 	[FieldOffset(Offset = "0x40")]
 	private Material[] _fragmentMaterials;
 
-	[Token(Token = "0x40012C3")]
+	[Token(Token = "0x4001455")]
 	[FieldOffset(Offset = "0x48")]
 	private Task<List<List<MapFracture.Triangle>>> _fracture;
 
-	[Token(Token = "0x40012C4")]
+	[Token(Token = "0x4001456")]
 	[FieldOffset(Offset = "0x50")]
 	private Task _baking;
 
-	[Token(Token = "0x40012C5")]
+	[Token(Token = "0x4001457")]
 	[FieldOffset(Offset = "0x58")]
 	private ShadowCastingMode _shadows;
 
-	[Token(Token = "0x40012C6")]
+	[Token(Token = "0x4001458")]
 	[FieldOffset(Offset = "0x5C")]
 	private float _age;
 
-	[Token(Token = "0x40012C7")]
+	[Token(Token = "0x4001459")]
 	[FieldOffset(Offset = "0x60")]
 	private float _activeAge;
 
-	[Token(Token = "0x40012C8")]
+	[Token(Token = "0x400145A")]
 	[FieldOffset(Offset = "0x64")]
 	private int _seed;
 
-	[Token(Token = "0x60016CE")]
-	[Address(RVA = "0x1E9F160", Offset = "0x1E9D760", VA = "0x181E9F160")]
+	[Token(Token = "0x6001933")]
+	[Address(RVA = "0x5881DE0", Offset = "0x5880DE0", VA = "0x5881DE0")]
 	public static void Spawn(DestructibleMapObject target)
 	{
 	}
 
-	[Token(Token = "0x60016CF")]
-	[Address(RVA = "0x1E9E7B0", Offset = "0x1E9CDB0", VA = "0x181E9E7B0")]
+	[Token(Token = "0x6001934")]
+	[Address(RVA = "0x5882D70", Offset = "0x5881D70", VA = "0x5882D70")]
 	private static void LoadAssets()
 	{
 	}
 
-	[Token(Token = "0x60016D0")]
-	[Address(RVA = "0x1E9E170", Offset = "0x1E9C770", VA = "0x181E9E170")]
+	[Token(Token = "0x6001935")]
+	[Address(RVA = "0x5883440", Offset = "0x5882440", VA = "0x5883440")]
 	private static float FindGround(Bounds bounds)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60016D1")]
-	[Address(RVA = "0x1E9ED50", Offset = "0x1E9D350", VA = "0x181E9ED50")]
+	[Token(Token = "0x6001936")]
+	[Address(RVA = "0x5882F50", Offset = "0x5881F50", VA = "0x5882F50")]
 	private void Shatter(DestructibleMapObject target)
 	{
 	}
 
-	[Token(Token = "0x60016D2")]
-	[Address(RVA = "0x1E9DE00", Offset = "0x1E9C400", VA = "0x181E9DE00")]
+	[Token(Token = "0x6001937")]
+	[Address(RVA = "0x5884480", Offset = "0x5883480", VA = "0x5884480")]
 	private GameObject CreateVisual(MeshFilter source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016D3")]
-	[Address(RVA = "0x1E9D340", Offset = "0x1E9B940", VA = "0x181E9D340")]
+	[Token(Token = "0x6001938")]
+	[Address(RVA = "0x58848C0", Offset = "0x58838C0", VA = "0x58848C0")]
 	private void AddRenderer(GameObject visual, Material[] materials)
 	{
 	}
 
-	[Token(Token = "0x60016D4")]
-	[Address(RVA = "0x1E9E5F0", Offset = "0x1E9CBF0", VA = "0x181E9E5F0")]
+	[Token(Token = "0x6001939")]
+	[Address(RVA = "0x58847C0", Offset = "0x58837C0", VA = "0x58847C0")]
 	private Material GetMaterial(Material source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016D5")]
-	[Address(RVA = "0x1E9DA70", Offset = "0x1E9C070", VA = "0x181E9DA70")]
+	[Token(Token = "0x600193A")]
+	[Address(RVA = "0x5884930", Offset = "0x5883930", VA = "0x5884930")]
 	private static Material CreateMaterial(Material source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016D6")]
-	[Address(RVA = "0x1E9E430", Offset = "0x1E9CA30", VA = "0x181E9E430")]
+	[Token(Token = "0x600193B")]
+	[Address(RVA = "0x5884C00", Offset = "0x5883C00", VA = "0x5884C00")]
 	private static string FindProperty(Material source, ShaderPropertyFlags flag, ShaderPropertyType type, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016D7")]
-	[Address(RVA = "0x1E9F550", Offset = "0x1E9DB50", VA = "0x181E9F550")]
+	[Token(Token = "0x600193C")]
+	[Address(RVA = "0x5884DA0", Offset = "0x5883DA0", VA = "0x5884DA0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60016D8")]
-	[Address(RVA = "0x1E9F4B0", Offset = "0x1E9DAB0", VA = "0x181E9F4B0")]
+	[Token(Token = "0x600193D")]
+	[Address(RVA = "0x5885520", Offset = "0x5884520", VA = "0x5885520")]
 	private static bool TryClaimFrame()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016D9")]
-	[Address(RVA = "0x1E9D3D0", Offset = "0x1E9B9D0", VA = "0x181E9D3D0")]
+	[Token(Token = "0x600193E")]
+	[Address(RVA = "0x58855B0", Offset = "0x58845B0", VA = "0x58855B0")]
 	private void CreateFragments(List<List<MapFracture.Triangle>> cells)
 	{
 	}
 
-	[Token(Token = "0x60016DA")]
-	[Address(RVA = "0x1E9CC10", Offset = "0x1E9B210", VA = "0x181E9CC10")]
+	[Token(Token = "0x600193F")]
+	[Address(RVA = "0x5885D50", Offset = "0x5884D50", VA = "0x5885D50")]
 	private void ActivateFragments()
 	{
 	}
 
-	[Token(Token = "0x60016DB")]
-	[Address(RVA = "0x1E9D0A0", Offset = "0x1E9B6A0", VA = "0x181E9D0A0")]
+	[Token(Token = "0x6001940")]
+	[Address(RVA = "0x5887610", Offset = "0x5886610", VA = "0x5887610")]
 	private static Collider AddCollider(GameObject fragment, Mesh mesh, Mesh collision)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60016DC")]
-	[Address(RVA = "0x1E9E700", Offset = "0x1E9CD00", VA = "0x181E9E700")]
+	[Token(Token = "0x6001941")]
+	[Address(RVA = "0x58861E0", Offset = "0x58851E0", VA = "0x58861E0")]
 	private static bool IsSettled(Rigidbody body)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016DD")]
-	[Address(RVA = "0x1E9E590", Offset = "0x1E9CB90", VA = "0x181E9E590")]
+	[Token(Token = "0x6001942")]
+	[Address(RVA = "0x5886260", Offset = "0x5885260", VA = "0x5886260")]
 	private static void Freeze(Piece piece)
 	{
 	}
 
-	[Token(Token = "0x60016DE")]
-	[Address(RVA = "0x1E9E9D0", Offset = "0x1E9CFD0", VA = "0x181E9E9D0")]
+	[Token(Token = "0x6001943")]
+	[Address(RVA = "0x5887860", Offset = "0x5886860", VA = "0x5887860")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60016DF")]
-	[Address(RVA = "0x1E9FC40", Offset = "0x1E9E240", VA = "0x181E9FC40")]
+	[Token(Token = "0x6001944")]
+	[Address(RVA = "0x5887C30", Offset = "0x5886C30", VA = "0x5887C30")]
 	public MapDestructionDebris()
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x2000956")]
+[Token(Token = "0x20009BD")]
 public enum AottgApiTransportResult
 {
-	[Token(Token = "0x4002E38")]
+	[Token(Token = "0x40030E6")]
 	Success,
-	[Token(Token = "0x4002E39")]
+	[Token(Token = "0x40030E7")]
 	ConnectionError,
-	[Token(Token = "0x4002E3A")]
+	[Token(Token = "0x40030E8")]
 	ProtocolError,
-	[Token(Token = "0x4002E3B")]
+	[Token(Token = "0x40030E9")]
 	DataProcessingError
 }

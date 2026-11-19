@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.ConverterKey
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,13 +26,13 @@ internal readonly struct ConverterKey : IEquatable<ConverterKey>
 	public readonly Type DestinationType;
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
+	[Address(RVA = "0x69E9D10", Offset = "0x69E8D10", VA = "0x69E9D10")]
 	public ConverterKey(Type source, Type destination)
 	{
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x2FEAA00", Offset = "0x2FE9000", VA = "0x182FEAA00", Slot = "3")]
+	[Address(RVA = "0x69E9D40", Offset = "0x69E8D40", VA = "0x69E9D40", Slot = "3")]
 	[CompilerGenerated]
 	public override string ToString()
 	{
@@ -40,7 +40,7 @@ internal readonly struct ConverterKey : IEquatable<ConverterKey>
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x2FEA960", Offset = "0x2FE8F60", VA = "0x182FEA960")]
+	[Address(RVA = "0x69E9E10", Offset = "0x69E8E10", VA = "0x69E9E10")]
 	[CompilerGenerated]
 	private bool PrintMembers(StringBuilder builder)
 	{
@@ -48,7 +48,7 @@ internal readonly struct ConverterKey : IEquatable<ConverterKey>
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x2FEA8C0", Offset = "0x2FE8EC0", VA = "0x182FEA8C0", Slot = "2")]
+	[Address(RVA = "0x69E9EA0", Offset = "0x69E8EA0", VA = "0x69E9EA0", Slot = "2")]
 	[CompilerGenerated]
 	public override int GetHashCode()
 	{
@@ -56,7 +56,7 @@ internal readonly struct ConverterKey : IEquatable<ConverterKey>
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x2FEA820", Offset = "0x2FE8E20", VA = "0x182FEA820", Slot = "0")]
+	[Address(RVA = "0x69E9F30", Offset = "0x69E8F30", VA = "0x69E9F30", Slot = "0")]
 	[CompilerGenerated]
 	public override bool Equals(object obj)
 	{
@@ -64,7 +64,7 @@ internal readonly struct ConverterKey : IEquatable<ConverterKey>
 	}
 
 	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x2FEA760", Offset = "0x2FE8D60", VA = "0x182FEA760", Slot = "4")]
+	[Address(RVA = "0x69E9FA0", Offset = "0x69E8FA0", VA = "0x69E9FA0", Slot = "4")]
 	[CompilerGenerated]
 	public bool Equals(ConverterKey other)
 	{

@@ -12,43 +12,32 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x200081A")]
+[Token(Token = "0x2000898")]
 internal class MapEditorAddVariantPopup : BasePopup
 {
-	[Token(Token = "0x4002881")]
+	[Token(Token = "0x4002B3A")]
 	protected const int Columns = 8;
 
-	[Token(Token = "0x4002882")]
+	[Token(Token = "0x4002B3B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	protected List<GameObject> _rows;
 
-	[Token(Token = "0x17000E59")]
+	[Token(Token = "0x17000E5A")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004E09")]
-		[Address(RVA = "0x22A17C0", Offset = "0x229FDC0", VA = "0x1822A17C0", Slot = "35")]
+		[Token(Token = "0x60051A4")]
+		[Address(RVA = "0x5C61550", Offset = "0x5C60550", VA = "0x5C61550", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000E5A")]
+	[Token(Token = "0x17000E5B")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004E0A")]
-		[Address(RVA = "0x22A0680", Offset = "0x229EC80", VA = "0x1822A0680", Slot = "5")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000E5B")]
-	protected override float Height
-	{
-		[Token(Token = "0x6004E0B")]
-		[Address(RVA = "0x22A0670", Offset = "0x229EC70", VA = "0x1822A0670", Slot = "6")]
+		[Token(Token = "0x60051A5")]
+		[Address(RVA = "0x5C615F0", Offset = "0x5C605F0", VA = "0x5C615F0", Slot = "5")]
 		get
 		{
 			return default(float);
@@ -56,10 +45,10 @@ internal class MapEditorAddVariantPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000E5C")]
-	protected override float TopBarHeight
+	protected override float Height
 	{
-		[Token(Token = "0x6004E0C")]
-		[Address(RVA = "0x21C3380", Offset = "0x21C1980", VA = "0x1821C3380", Slot = "36")]
+		[Token(Token = "0x60051A6")]
+		[Address(RVA = "0x5C61600", Offset = "0x5C60600", VA = "0x5C61600", Slot = "6")]
 		get
 		{
 			return default(float);
@@ -67,88 +56,99 @@ internal class MapEditorAddVariantPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000E5D")]
-	protected override bool ScrollBar
+	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6004E0D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000E5E")]
-	protected override float VerticalSpacing
-	{
-		[Token(Token = "0x6004E0E")]
-		[Address(RVA = "0x21C0C80", Offset = "0x21BF280", VA = "0x1821C0C80", Slot = "11")]
+		[Token(Token = "0x60051A7")]
+		[Address(RVA = "0x5C61610", Offset = "0x5C60610", VA = "0x5C61610", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000E5F")]
-	protected override int HorizontalPadding
+	[Token(Token = "0x17000E5E")]
+	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004E0F")]
-		[Address(RVA = "0x1B9BE70", Offset = "0x1B9A470", VA = "0x181B9BE70", Slot = "10")]
+		[Token(Token = "0x60051A8")]
+		[Address(RVA = "0x5C61620", Offset = "0x5C60620", VA = "0x5C61620", Slot = "15")]
 		get
 		{
-			return default(int);
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000E5F")]
+	protected override float VerticalSpacing
+	{
+		[Token(Token = "0x60051A9")]
+		[Address(RVA = "0x5C61630", Offset = "0x5C60630", VA = "0x5C61630", Slot = "11")]
+		get
+		{
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000E60")]
-	protected override int VerticalPadding
+	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004E10")]
-		[Address(RVA = "0x1B56090", Offset = "0x1B54690", VA = "0x181B56090", Slot = "9")]
+		[Token(Token = "0x60051AA")]
+		[Address(RVA = "0x5C61640", Offset = "0x5C60640", VA = "0x5C61640", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6004E11")]
-	[Address(RVA = "0x22A10B0", Offset = "0x229F6B0", VA = "0x1822A10B0", Slot = "20")]
+	[Token(Token = "0x17000E61")]
+	protected override int VerticalPadding
+	{
+		[Token(Token = "0x60051AB")]
+		[Address(RVA = "0x5C61650", Offset = "0x5C60650", VA = "0x5C61650", Slot = "9")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x60051AC")]
+	[Address(RVA = "0x5C61660", Offset = "0x5C60660", VA = "0x5C61660", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004E12")]
-	[Address(RVA = "0x22A0E40", Offset = "0x229F440", VA = "0x1822A0E40")]
+	[Token(Token = "0x60051AD")]
+	[Address(RVA = "0x5C61790", Offset = "0x5C60790", VA = "0x5C61790")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004E13")]
-	[Address(RVA = "0x22A11F0", Offset = "0x229F7F0", VA = "0x1822A11F0")]
+	[Token(Token = "0x60051AE")]
+	[Address(RVA = "0x5C5FB10", Offset = "0x5C5EB10", VA = "0x5C5FB10")]
 	public void Show(string prefab)
 	{
 	}
 
-	[Token(Token = "0x6004E14")]
-	[Address(RVA = "0x22A0690", Offset = "0x229EC90", VA = "0x1822A0690")]
+	[Token(Token = "0x60051AF")]
+	[Address(RVA = "0x5C61850", Offset = "0x5C60850", VA = "0x5C61850")]
 	protected void CreateRow(List<string> items)
 	{
 	}
 
-	[Token(Token = "0x6004E15")]
-	[Address(RVA = "0x22A0D40", Offset = "0x229F340", VA = "0x1822A0D40", Slot = "62")]
+	[Token(Token = "0x60051B0")]
+	[Address(RVA = "0x5C61FE0", Offset = "0x5C60FE0", VA = "0x5C61FE0", Slot = "62")]
 	protected virtual string GetPreviewName(string item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004E16")]
-	[Address(RVA = "0x22A0F10", Offset = "0x229F510", VA = "0x1822A0F10", Slot = "63")]
+	[Token(Token = "0x60051B1")]
+	[Address(RVA = "0x5C620F0", Offset = "0x5C610F0", VA = "0x5C620F0", Slot = "63")]
 	protected virtual void OnSelectObject(string name)
 	{
 	}
 
-	[Token(Token = "0x6004E17")]
-	[Address(RVA = "0x22A1740", Offset = "0x229FD40", VA = "0x1822A1740")]
+	[Token(Token = "0x60051B2")]
+	[Address(RVA = "0x5C62260", Offset = "0x5C61260", VA = "0x5C62260")]
 	public MapEditorAddVariantPopup()
 	{
 	}

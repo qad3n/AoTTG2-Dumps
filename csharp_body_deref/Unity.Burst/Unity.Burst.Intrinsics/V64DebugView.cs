@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.Intrinsics.V64DebugView
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ internal class V64DebugView
 	public byte[] Byte
 	{
 		[Token(Token = "0x6000A5D")]
-		[Address(RVA = "0x298B440", Offset = "0x2989A40", VA = "0x18298B440")]
+		[Address(RVA = "0x633D650", Offset = "0x633C650", VA = "0x633D650")]
 		get
 		{
 			return null;
@@ -34,7 +34,7 @@ internal class V64DebugView
 	public sbyte[] SByte
 	{
 		[Token(Token = "0x6000A5E")]
-		[Address(RVA = "0x298B5E0", Offset = "0x2989BE0", VA = "0x18298B5E0")]
+		[Address(RVA = "0x633D700", Offset = "0x633C700", VA = "0x633D700")]
 		get
 		{
 			return null;
@@ -46,7 +46,7 @@ internal class V64DebugView
 	public ushort[] UShort
 	{
 		[Token(Token = "0x6000A5F")]
-		[Address(RVA = "0x298B8F0", Offset = "0x2989EF0", VA = "0x18298B8F0")]
+		[Address(RVA = "0x633D7B0", Offset = "0x633C7B0", VA = "0x633D7B0")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ internal class V64DebugView
 	public short[] SShort
 	{
 		[Token(Token = "0x6000A60")]
-		[Address(RVA = "0x298B780", Offset = "0x2989D80", VA = "0x18298B780")]
+		[Address(RVA = "0x633D830", Offset = "0x633C830", VA = "0x633D830")]
 		get
 		{
 			return null;
@@ -70,7 +70,7 @@ internal class V64DebugView
 	public uint[] UInt
 	{
 		[Token(Token = "0x6000A61")]
-		[Address(RVA = "0x298B810", Offset = "0x2989E10", VA = "0x18298B810")]
+		[Address(RVA = "0x633D8B0", Offset = "0x633C8B0", VA = "0x633D8B0")]
 		get
 		{
 			return null;
@@ -82,7 +82,7 @@ internal class V64DebugView
 	public int[] SInt
 	{
 		[Token(Token = "0x6000A62")]
-		[Address(RVA = "0x298B6A0", Offset = "0x2989CA0", VA = "0x18298B6A0")]
+		[Address(RVA = "0x633D910", Offset = "0x633C910", VA = "0x633D910")]
 		get
 		{
 			return null;
@@ -94,7 +94,7 @@ internal class V64DebugView
 	public float[] Float
 	{
 		[Token(Token = "0x6000A63")]
-		[Address(RVA = "0x298B570", Offset = "0x2989B70", VA = "0x18298B570")]
+		[Address(RVA = "0x633D970", Offset = "0x633C970", VA = "0x633D970")]
 		get
 		{
 			return null;
@@ -106,7 +106,7 @@ internal class V64DebugView
 	public long[] SLong
 	{
 		[Token(Token = "0x6000A64")]
-		[Address(RVA = "0x298B710", Offset = "0x2989D10", VA = "0x18298B710")]
+		[Address(RVA = "0x633D9E0", Offset = "0x633C9E0", VA = "0x633D9E0")]
 		get
 		{
 			return null;
@@ -118,7 +118,7 @@ internal class V64DebugView
 	public ulong[] ULong
 	{
 		[Token(Token = "0x6000A65")]
-		[Address(RVA = "0x298B880", Offset = "0x2989E80", VA = "0x18298B880")]
+		[Address(RVA = "0x633DA40", Offset = "0x633CA40", VA = "0x633DA40")]
 		get
 		{
 			return null;
@@ -130,7 +130,7 @@ internal class V64DebugView
 	public double[] Double
 	{
 		[Token(Token = "0x6000A66")]
-		[Address(RVA = "0x298B500", Offset = "0x2989B00", VA = "0x18298B500")]
+		[Address(RVA = "0x633DAA0", Offset = "0x633CAA0", VA = "0x633DAA0")]
 		get
 		{
 			return null;
@@ -138,7 +138,7 @@ internal class V64DebugView
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0xAA1890", Offset = "0xA9FE90", VA = "0x180AA1890")]
+	[Address(RVA = "0x633D630", Offset = "0x633C630", VA = "0x633D630")]
 	public V64DebugView(v64 value)
 	{
 	}

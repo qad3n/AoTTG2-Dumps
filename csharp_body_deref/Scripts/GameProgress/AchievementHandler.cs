@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace GameProgress;
 
-[Token(Token = "0x20002FD")]
+[Token(Token = "0x200035E")]
 internal class AchievementHandler : QuestHandler
 {
-	[Token(Token = "0x4000F3F")]
+	[Token(Token = "0x40010DD")]
 	[FieldOffset(Offset = "0x48")]
 	private AchievementContainer _achievement;
 
-	[Token(Token = "0x6001288")]
-	[Address(RVA = "0x1E28AE0", Offset = "0x1E270E0", VA = "0x181E28AE0")]
+	[Token(Token = "0x60014F6")]
+	[Address(RVA = "0x581AB50", Offset = "0x5819B50", VA = "0x581AB50")]
 	public AchievementHandler(AchievementContainer achievement)
 	{
 	}
 
-	[Token(Token = "0x6001289")]
-	[Address(RVA = "0x1E28AC0", Offset = "0x1E270C0", VA = "0x181E28AC0")]
+	[Token(Token = "0x60014F7")]
+	[Address(RVA = "0x581AEB0", Offset = "0x5819EB0", VA = "0x581AEB0")]
 	public void ReloadAchievements()
 	{
 	}
 
-	[Token(Token = "0x600128A")]
-	[Address(RVA = "0x1E28500", Offset = "0x1E26B00", VA = "0x181E28500")]
+	[Token(Token = "0x60014F8")]
+	[Address(RVA = "0x581AED0", Offset = "0x5819ED0", VA = "0x581AED0")]
 	private void LoadAchievements()
 	{
 	}
 
-	[Token(Token = "0x600128B")]
-	[Address(RVA = "0x1E27EA0", Offset = "0x1E264A0", VA = "0x181E27EA0")]
+	[Token(Token = "0x60014F9")]
+	[Address(RVA = "0x581B5F0", Offset = "0x581A5F0", VA = "0x581B5F0")]
 	private void CacheActiveAchievements()
 	{
 	}

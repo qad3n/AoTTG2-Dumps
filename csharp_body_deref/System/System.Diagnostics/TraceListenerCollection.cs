@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x200010C")]
+[Token(Token = "0x20000CD")]
 [DefaultMember("Item")]
 public class TraceListenerCollection : IList, ICollection, IEnumerable
 {
-	[Token(Token = "0x4000476")]
+	[Token(Token = "0x40003A7")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList list;
 
-	[Token(Token = "0x17000104")]
+	[Token(Token = "0x170000D5")]
 	public int Count
 	{
-		[Token(Token = "0x6000675")]
-		[Address(RVA = "0x1AB8C80", Offset = "0x1AB7280", VA = "0x181AB8C80", Slot = "16")]
+		[Token(Token = "0x60004BF")]
+		[Address(RVA = "0x6202730", Offset = "0x6201730", VA = "0x6202730", Slot = "16")]
 		get
 		{
 			return default(int);
@@ -32,137 +32,137 @@ public class TraceListenerCollection : IList, ICollection, IEnumerable
 
 	// C# has no syntax for parameterized property 'System.Collections.IList.Item'.
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
-	[property: Token(Token = "0x17000105")]
-	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x2876540", Offset = "0x2874B40", VA = "0x182876540", Slot = "4")]
+	[property: Token(Token = "0x170000D6")]
+	[Token(Token = "0x60004C5")]
+	[Address(RVA = "0x6202A10", Offset = "0x6201A10", VA = "0x6202A10", Slot = "4")]
 	private object System_002ECollections_002EIList_002Eget_Item(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600067C")]
-	[Address(RVA = "0x2876570", Offset = "0x2874B70", VA = "0x182876570", Slot = "5")]
+	[Token(Token = "0x60004C6")]
+	[Address(RVA = "0x6202A40", Offset = "0x6201A40", VA = "0x6202A40", Slot = "5")]
 	private void System_002ECollections_002EIList_002Eset_Item(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x17000106")]
+	[Token(Token = "0x170000D7")]
 	private bool System_002ECollections_002EIList_002EIsReadOnly
 	{
-		[Token(Token = "0x600067D")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x60004C7")]
+		[Address(RVA = "0x6202B40", Offset = "0x6201B40", VA = "0x6202B40", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000107")]
+	[Token(Token = "0x170000D8")]
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
-		[Token(Token = "0x600067E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "10")]
+		[Token(Token = "0x60004C8")]
+		[Address(RVA = "0x6202B50", Offset = "0x6201B50", VA = "0x6202B50", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000108")]
+	[Token(Token = "0x170000D9")]
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
-		[Token(Token = "0x6000684")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "17")]
+		[Token(Token = "0x60004CE")]
+		[Address(RVA = "0x6203070", Offset = "0x6202070", VA = "0x6203070", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000109")]
+	[Token(Token = "0x170000DA")]
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
-		[Token(Token = "0x6000685")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "18")]
+		[Token(Token = "0x60004CF")]
+		[Address(RVA = "0x6203080", Offset = "0x6202080", VA = "0x6203080", Slot = "18")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000674")]
-	[Address(RVA = "0x2876680", Offset = "0x2874C80", VA = "0x182876680")]
+	[Token(Token = "0x60004BE")]
+	[Address(RVA = "0x6201820", Offset = "0x6200820", VA = "0x6201820")]
 	internal TraceListenerCollection()
 	{
 	}
 
-	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x2875B80", Offset = "0x2874180", VA = "0x182875B80")]
+	[Token(Token = "0x60004C0")]
+	[Address(RVA = "0x62019B0", Offset = "0x62009B0", VA = "0x62019B0")]
 	public int Add(TraceListener listener)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x2875CB0", Offset = "0x28742B0", VA = "0x182875CB0", Slot = "8")]
+	[Token(Token = "0x60004C1")]
+	[Address(RVA = "0x62028A0", Offset = "0x62018A0", VA = "0x62028A0", Slot = "8")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x19244D0", Offset = "0x1922AD0", VA = "0x1819244D0", Slot = "19")]
+	[Token(Token = "0x60004C2")]
+	[Address(RVA = "0x6201BD0", Offset = "0x6200BD0", VA = "0x6201BD0", Slot = "19")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x2875D10", Offset = "0x2874310", VA = "0x182875D10")]
+	[Token(Token = "0x60004C3")]
+	[Address(RVA = "0x6202760", Offset = "0x6201760", VA = "0x6202760")]
 	internal void InitializeListener(TraceListener listener)
 	{
 	}
 
-	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x2875E50", Offset = "0x2874450", VA = "0x182875E50", Slot = "14")]
+	[Token(Token = "0x60004C4")]
+	[Address(RVA = "0x6202900", Offset = "0x6201900", VA = "0x6202900", Slot = "14")]
 	public void RemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x2876080", Offset = "0x2874680", VA = "0x182876080", Slot = "6")]
+	[Token(Token = "0x60004C9")]
+	[Address(RVA = "0x6202B60", Offset = "0x6201B60", VA = "0x6202B60", Slot = "6")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x1AB8620", Offset = "0x1AB6C20", VA = "0x181AB8620", Slot = "7")]
+	[Token(Token = "0x60004CA")]
+	[Address(RVA = "0x6202D30", Offset = "0x6201D30", VA = "0x6202D30", Slot = "7")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x1AB8650", Offset = "0x1AB6C50", VA = "0x181AB8650", Slot = "11")]
+	[Token(Token = "0x60004CB")]
+	[Address(RVA = "0x6202D60", Offset = "0x6201D60", VA = "0x6202D60", Slot = "11")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x2876260", Offset = "0x2874860", VA = "0x182876260", Slot = "12")]
+	[Token(Token = "0x60004CC")]
+	[Address(RVA = "0x6202D90", Offset = "0x6201D90", VA = "0x6202D90", Slot = "12")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
-	[Token(Token = "0x6000683")]
-	[Address(RVA = "0x2876430", Offset = "0x2874A30", VA = "0x182876430", Slot = "13")]
+	[Token(Token = "0x60004CD")]
+	[Address(RVA = "0x6202F60", Offset = "0x6201F60", VA = "0x6202F60", Slot = "13")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
-	[Token(Token = "0x6000686")]
-	[Address(RVA = "0x2875F60", Offset = "0x2874560", VA = "0x182875F60", Slot = "15")]
+	[Token(Token = "0x60004D0")]
+	[Address(RVA = "0x6203090", Offset = "0x6202090", VA = "0x6203090", Slot = "15")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}

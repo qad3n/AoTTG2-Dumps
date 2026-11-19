@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200076F")]
+[Token(Token = "0x200081A")]
 internal struct ChatDisplayNameRange
 {
-	[Token(Token = "0x40024D2")]
+	[Token(Token = "0x4002848")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly int SourceStartIndex;
 
-	[Token(Token = "0x40024D3")]
+	[Token(Token = "0x4002849")]
 	[FieldOffset(Offset = "0x4")]
 	public readonly int SourceEndIndex;
 
-	[Token(Token = "0x17000CF8")]
+	[Token(Token = "0x17000D74")]
 	public bool IsValid
 	{
-		[Token(Token = "0x6004845")]
-		[Address(RVA = "0x2228C50", Offset = "0x2227250", VA = "0x182228C50")]
+		[Token(Token = "0x6004D67")]
+		[Address(RVA = "0x5C08630", Offset = "0x5C07630", VA = "0x5C08630")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004844")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Token(Token = "0x6004D66")]
+	[Address(RVA = "0x5C08620", Offset = "0x5C07620", VA = "0x5C08620")]
 	public ChatDisplayNameRange(int sourceStartIndex, int sourceEndIndex)
 	{
 	}
 
-	[Token(Token = "0x6004846")]
-	[Address(RVA = "0x2228C40", Offset = "0x2227240", VA = "0x182228C40")]
+	[Token(Token = "0x6004D68")]
+	[Address(RVA = "0x5C08640", Offset = "0x5C07640", VA = "0x5C08640")]
 	public bool ContainsSourceIndex(int index)
 	{
 		return default(bool);

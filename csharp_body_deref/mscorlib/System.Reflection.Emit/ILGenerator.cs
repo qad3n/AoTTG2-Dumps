@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection.Emit;
 
-[Token(Token = "0x2000559")]
+[Token(Token = "0x2000532")]
 public class ILGenerator
 {
 }

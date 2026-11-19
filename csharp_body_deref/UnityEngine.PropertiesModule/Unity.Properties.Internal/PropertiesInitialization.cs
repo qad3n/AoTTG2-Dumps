@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.Internal.PropertiesInitialization
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,7 +16,7 @@ namespace Unity.Properties.Internal;
 internal static class PropertiesInitialization
 {
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x2FEB9F0", Offset = "0x2FE9FF0", VA = "0x182FEB9F0")]
+	[Address(RVA = "0x69EC550", Offset = "0x69EB550", VA = "0x69EC550")]
 	[UnityEngine.Scripting.RequiredByNativeCode(false)]
 	public static void InitializeProperties()
 	{

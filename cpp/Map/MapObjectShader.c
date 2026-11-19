@@ -1,5 +1,5 @@
 // Type: Map.MapObjectShader
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapObjectShader.cs
@@ -8,16 +8,16 @@
 
 // Map.MapObjectShader$$IsLegacyShader
 // il2cpp: bool Map_MapObjectShader__IsLegacyShader (System_String_o* shader, const MethodInfo* method);
-// 0x181eb4db0
+// 0x599e940
 
 bool Map_MapObjectShader__IsLegacyShader(System_String_o *shader,MethodInfo *method)
 
 {
   bool bVar1;
   
-  if (Il2CppMethodInitialized_1843450dc == '\0') {
+  if (Il2CppMethodInitialized_07545a74 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectShader);
-    Il2CppMethodInitialized_1843450dc = '\x01';
+    Il2CppMethodInitialized_07545a74 = '\x01';
   }
   if ((TypeInfo_Map_MapObjectShader->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapObjectShader);
@@ -52,12 +52,14 @@ bool Map_MapObjectShader__IsLegacyShader(System_String_o *shader,MethodInfo *met
 
 // Map.MapObjectShader$$.cctor
 // il2cpp: void Map_MapObjectShader___cctor (const MethodInfo* method);
-// 0x181eb4ed0
+// 0x599ea30
 
 void Map_MapObjectShader___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843450dd == '\0') {
+  Map_MapObjectShader_StaticFields *pMVar1;
+  
+  if (Il2CppMethodInitialized_07545a75 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectShader);
     il2cpp_codegen_initialize_runtime_metadata(&"Smoke1Mat");
     il2cpp_codegen_initialize_runtime_metadata(&"Reflective");
@@ -69,31 +71,37 @@ void Map_MapObjectShader___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"CannonRegionMat");
     il2cpp_codegen_initialize_runtime_metadata(&"DefaultNoTint");
     il2cpp_codegen_initialize_runtime_metadata(&"Transparent");
-    Il2CppMethodInitialized_1843450dd = '\x01';
+    Il2CppMethodInitialized_07545a75 = '\x01';
   }
   TypeInfo_Map_MapObjectShader->static_fields->Default = "Default";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Default,"Default");
-  TypeInfo_Map_MapObjectShader->static_fields->DefaultNoTint = "DefaultNoTint";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->DefaultNoTint,"DefaultNoTint")
-  ;
-  TypeInfo_Map_MapObjectShader->static_fields->DefaultTiled = "DefaultTiled";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->DefaultTiled,"DefaultTiled");
-  TypeInfo_Map_MapObjectShader->static_fields->Basic = "Basic";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Basic,"Basic");
-  TypeInfo_Map_MapObjectShader->static_fields->Transparent = "Transparent";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Transparent,"Transparent");
-  TypeInfo_Map_MapObjectShader->static_fields->Reflective = "Reflective";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Reflective,"Reflective");
-  TypeInfo_Map_MapObjectShader->static_fields->OldBombExplode = "OldBombExplodeMat";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Map_MapObjectShader->static_fields->OldBombExplode,"OldBombExplodeMat");
-  TypeInfo_Map_MapObjectShader->static_fields->CannonRegionMat = "CannonRegionMat";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Map_MapObjectShader->static_fields->CannonRegionMat,"CannonRegionMat");
-  TypeInfo_Map_MapObjectShader->static_fields->BombTexMat = "BombTexMat";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->BombTexMat,"BombTexMat");
-  TypeInfo_Map_MapObjectShader->static_fields->Smoke1Mat = "Smoke1Mat";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Smoke1Mat,"Smoke1Mat");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectShader->static_fields->Default);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->DefaultNoTint = "DefaultNoTint";
+  Il2CppCodeGenWriteBarrier(&pMVar1->DefaultNoTint);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->DefaultTiled = "DefaultTiled";
+  Il2CppCodeGenWriteBarrier(&pMVar1->DefaultTiled);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->Basic = "Basic";
+  Il2CppCodeGenWriteBarrier(&pMVar1->Basic);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->Transparent = "Transparent";
+  Il2CppCodeGenWriteBarrier(&pMVar1->Transparent);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->Reflective = "Reflective";
+  Il2CppCodeGenWriteBarrier(&pMVar1->Reflective);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->OldBombExplode = "OldBombExplodeMat";
+  Il2CppCodeGenWriteBarrier(&pMVar1->OldBombExplode);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->CannonRegionMat = "CannonRegionMat";
+  Il2CppCodeGenWriteBarrier(&pMVar1->CannonRegionMat);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->BombTexMat = "BombTexMat";
+  Il2CppCodeGenWriteBarrier(&pMVar1->BombTexMat);
+  pMVar1 = TypeInfo_Map_MapObjectShader->static_fields;
+  pMVar1->Smoke1Mat = "Smoke1Mat";
+  Il2CppCodeGenWriteBarrier(&pMVar1->Smoke1Mat);
   return;
 }
 

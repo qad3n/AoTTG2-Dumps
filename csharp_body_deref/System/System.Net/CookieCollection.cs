@@ -12,201 +12,201 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002F9")]
+[Token(Token = "0x20002BA")]
 public class CookieCollection : ICollection, IEnumerable
 {
-	[Token(Token = "0x20002FA")]
+	[Token(Token = "0x20002BB")]
 	internal enum Stamp
 	{
-		[Token(Token = "0x4000B7E")]
+		[Token(Token = "0x4000AAF")]
 		Check,
-		[Token(Token = "0x4000B7F")]
+		[Token(Token = "0x4000AB0")]
 		Set,
-		[Token(Token = "0x4000B80")]
+		[Token(Token = "0x4000AB1")]
 		SetToUnused,
-		[Token(Token = "0x4000B81")]
+		[Token(Token = "0x4000AB2")]
 		SetToMaxUsed
 	}
 
-	[Token(Token = "0x20002FB")]
+	[Token(Token = "0x20002BC")]
 	private class CookieCollectionEnumerator : IEnumerator
 	{
-		[Token(Token = "0x4000B82")]
+		[Token(Token = "0x4000AB3")]
 		[FieldOffset(Offset = "0x10")]
 		private CookieCollection m_cookies;
 
-		[Token(Token = "0x4000B83")]
+		[Token(Token = "0x4000AB4")]
 		[FieldOffset(Offset = "0x18")]
 		private int m_count;
 
-		[Token(Token = "0x4000B84")]
+		[Token(Token = "0x4000AB5")]
 		[FieldOffset(Offset = "0x1C")]
 		private int m_index;
 
-		[Token(Token = "0x4000B85")]
+		[Token(Token = "0x4000AB6")]
 		[FieldOffset(Offset = "0x20")]
 		private int m_version;
 
-		[Token(Token = "0x1700045F")]
+		[Token(Token = "0x17000430")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60014BA")]
-			[Address(RVA = "0x27C0AF0", Offset = "0x27BF0F0", VA = "0x1827C0AF0", Slot = "5")]
+			[Token(Token = "0x60012FC")]
+			[Address(RVA = "0x62B74A0", Offset = "0x62B64A0", VA = "0x62B74A0", Slot = "5")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60014B9")]
-		[Address(RVA = "0x27C0BF0", Offset = "0x27BF1F0", VA = "0x1827C0BF0")]
+		[Token(Token = "0x60012FB")]
+		[Address(RVA = "0x62B7440", Offset = "0x62B6440", VA = "0x62B7440")]
 		internal CookieCollectionEnumerator(CookieCollection cookies)
 		{
 		}
 
-		[Token(Token = "0x60014BB")]
-		[Address(RVA = "0x27C0A30", Offset = "0x27BF030", VA = "0x1827C0A30", Slot = "4")]
+		[Token(Token = "0x60012FD")]
+		[Address(RVA = "0x62B7540", Offset = "0x62B6540", VA = "0x62B7540", Slot = "4")]
 		private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60014BC")]
-		[Address(RVA = "0x27C0AE0", Offset = "0x27BF0E0", VA = "0x1827C0AE0", Slot = "6")]
+		[Token(Token = "0x60012FE")]
+		[Address(RVA = "0x62B75D0", Offset = "0x62B65D0", VA = "0x62B75D0", Slot = "6")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000B78")]
+	[Token(Token = "0x4000AA9")]
 	[FieldOffset(Offset = "0x10")]
 	internal int m_version;
 
-	[Token(Token = "0x4000B79")]
+	[Token(Token = "0x4000AAA")]
 	[FieldOffset(Offset = "0x18")]
 	private ArrayList m_list;
 
-	[Token(Token = "0x4000B7A")]
+	[Token(Token = "0x4000AAB")]
 	[FieldOffset(Offset = "0x20")]
 	private DateTime m_TimeStamp;
 
-	[Token(Token = "0x4000B7B")]
+	[Token(Token = "0x4000AAC")]
 	[FieldOffset(Offset = "0x28")]
 	private bool m_has_other_versions;
 
-	[Token(Token = "0x4000B7C")]
+	[Token(Token = "0x4000AAD")]
 	[FieldOffset(Offset = "0x29")]
 	[OptionalField]
 	private bool m_IsReadOnly;
 
-	[Token(Token = "0x1700045A")]
+	[Token(Token = "0x1700042B")]
 	public Cookie this[int index]
 	{
-		[Token(Token = "0x60014AC")]
-		[Address(RVA = "0x27C1870", Offset = "0x27BFE70", VA = "0x1827C1870")]
+		[Token(Token = "0x60012EE")]
+		[Address(RVA = "0x62B6450", Offset = "0x62B5450", VA = "0x62B6450")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700045B")]
+	[Token(Token = "0x1700042C")]
 	public int Count
 	{
-		[Token(Token = "0x60014AF")]
-		[Address(RVA = "0x19972D0", Offset = "0x19958D0", VA = "0x1819972D0", Slot = "5")]
+		[Token(Token = "0x60012F1")]
+		[Address(RVA = "0x62B6D70", Offset = "0x62B5D70", VA = "0x62B6D70", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700045C")]
+	[Token(Token = "0x1700042D")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x60014B0")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x60012F2")]
+		[Address(RVA = "0x62B6DA0", Offset = "0x62B5DA0", VA = "0x62B6DA0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700045D")]
+	[Token(Token = "0x1700042E")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x60014B1")]
-		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
+		[Token(Token = "0x60012F3")]
+		[Address(RVA = "0x62B6DB0", Offset = "0x62B5DB0", VA = "0x62B6DB0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700045E")]
+	[Token(Token = "0x1700042F")]
 	internal bool IsOtherVersionSeen
 	{
-		[Token(Token = "0x60014B4")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Token(Token = "0x60012F6")]
+		[Address(RVA = "0x62B6EB0", Offset = "0x62B5EB0", VA = "0x62B6EB0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60014AB")]
-	[Address(RVA = "0x27C17C0", Offset = "0x27BFDC0", VA = "0x1827C17C0")]
+	[Token(Token = "0x60012ED")]
+	[Address(RVA = "0x62B63B0", Offset = "0x62B53B0", VA = "0x62B63B0")]
 	public CookieCollection()
 	{
 	}
 
-	[Token(Token = "0x60014AD")]
-	[Address(RVA = "0x27C0C60", Offset = "0x27BF260", VA = "0x1827C0C60")]
+	[Token(Token = "0x60012EF")]
+	[Address(RVA = "0x62B6530", Offset = "0x62B5530", VA = "0x62B6530")]
 	public void Add(Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x60014AE")]
-	[Address(RVA = "0x27C0D20", Offset = "0x27BF320", VA = "0x1827C0D20")]
+	[Token(Token = "0x60012F0")]
+	[Address(RVA = "0x62B69E0", Offset = "0x62B59E0", VA = "0x62B69E0")]
 	public void Add(CookieCollection cookies)
 	{
 	}
 
-	[Token(Token = "0x60014B2")]
-	[Address(RVA = "0x27C1050", Offset = "0x27BF650", VA = "0x1827C1050", Slot = "4")]
+	[Token(Token = "0x60012F4")]
+	[Address(RVA = "0x62B6DC0", Offset = "0x62B5DC0", VA = "0x62B6DC0", Slot = "4")]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x60014B3")]
-	[Address(RVA = "0x27C16C0", Offset = "0x27BFCC0", VA = "0x1827C16C0")]
+	[Token(Token = "0x60012F5")]
+	[Address(RVA = "0x62B6DF0", Offset = "0x62B5DF0", VA = "0x62B6DF0")]
 	internal DateTime TimeStamp(Stamp how)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60014B5")]
-	[Address(RVA = "0x27C1350", Offset = "0x27BF950", VA = "0x1827C1350")]
+	[Token(Token = "0x60012F7")]
+	[Address(RVA = "0x62B6EC0", Offset = "0x62B5EC0", VA = "0x62B6EC0")]
 	internal int InternalAdd(Cookie cookie, bool isStrict)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60014B6")]
-	[Address(RVA = "0x27C1120", Offset = "0x27BF720", VA = "0x1827C1120")]
+	[Token(Token = "0x60012F8")]
+	[Address(RVA = "0x62B65F0", Offset = "0x62B55F0", VA = "0x62B65F0")]
 	internal int IndexOf(Cookie cookie)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60014B7")]
-	[Address(RVA = "0x27C1690", Offset = "0x27BFC90", VA = "0x1827C1690")]
+	[Token(Token = "0x60012F9")]
+	[Address(RVA = "0x62B7410", Offset = "0x62B6410", VA = "0x62B7410")]
 	internal void RemoveAt(int idx)
 	{
 	}
 
-	[Token(Token = "0x60014B8")]
-	[Address(RVA = "0x27C1080", Offset = "0x27BF680", VA = "0x1827C1080", Slot = "8")]
+	[Token(Token = "0x60012FA")]
+	[Address(RVA = "0x62B6CE0", Offset = "0x62B5CE0", VA = "0x62B6CE0", Slot = "8")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;

@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200063D")]
+[Token(Token = "0x200069C")]
 internal class CharacterPrefabs
 {
-	[Token(Token = "0x4001C27")]
+	[Token(Token = "0x4001DCE")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Human;
 
-	[Token(Token = "0x4001C28")]
+	[Token(Token = "0x4001DCF")]
 	[FieldOffset(Offset = "0x8")]
 	public static string BasicTitanPrefix;
 
-	[Token(Token = "0x4001C29")]
+	[Token(Token = "0x4001DD0")]
 	[FieldOffset(Offset = "0x10")]
 	public static string Horse;
 
-	[Token(Token = "0x4001C2A")]
+	[Token(Token = "0x4001DD1")]
 	[FieldOffset(Offset = "0x18")]
 	public static string ErenShifter;
 
-	[Token(Token = "0x4001C2B")]
+	[Token(Token = "0x4001DD2")]
 	[FieldOffset(Offset = "0x20")]
 	public static string AnnieShifter;
 
-	[Token(Token = "0x4001C2C")]
+	[Token(Token = "0x4001DD3")]
 	[FieldOffset(Offset = "0x28")]
 	public static string ArmoredShifter;
 
-	[Token(Token = "0x4001C2D")]
+	[Token(Token = "0x4001DD4")]
 	[FieldOffset(Offset = "0x30")]
 	public static string WallColossal;
 
-	[Token(Token = "0x6003DA6")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6004038")]
+	[Address(RVA = "0x5AE2D00", Offset = "0x5AE1D00", VA = "0x5AE2D00")]
 	public CharacterPrefabs()
 	{
 	}

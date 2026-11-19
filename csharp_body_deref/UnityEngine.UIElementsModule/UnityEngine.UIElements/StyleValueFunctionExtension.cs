@@ -13,7 +13,7 @@ namespace UnityEngine.UIElements;
 internal static class StyleValueFunctionExtension
 {
 	[Token(Token = "0x600230E")]
-	[Address(RVA = "0x312CCD0", Offset = "0x312B2D0", VA = "0x18312CCD0")]
+	[Address(RVA = "0x6B26D90", Offset = "0x6B25D90", VA = "0x6B26D90")]
 	public static string ToUssString(this StyleValueFunction svf)
 	{
 		return null;

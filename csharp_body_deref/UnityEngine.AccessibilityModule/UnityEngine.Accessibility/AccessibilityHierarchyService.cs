@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Accessibility.AccessibilityHierarchyService
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,34 +21,34 @@ internal static class AccessibilityHierarchyService
 	internal static AccessibilityHierarchy activeHierarchy
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x2E7BC70", Offset = "0x2E7A270", VA = "0x182E7BC70")]
+		[Address(RVA = "0x687B2E0", Offset = "0x687A2E0", VA = "0x687B2E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2E7BCB0", Offset = "0x2E7A2B0", VA = "0x182E7BCB0")]
+		[Address(RVA = "0x6879B80", Offset = "0x6878B80", VA = "0x6879B80")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x2E7BA80", Offset = "0x2E7A080", VA = "0x182E7BA80")]
+	[Address(RVA = "0x6877330", Offset = "0x6876330", VA = "0x6877330")]
 	internal static IReadOnlyList<AccessibilityNode> GetRootNodes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x2E7BBB0", Offset = "0x2E7A1B0", VA = "0x182E7BBB0")]
+	[Address(RVA = "0x68774A0", Offset = "0x68764A0", VA = "0x68774A0")]
 	internal static bool TryGetNode(int id, out AccessibilityNode node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x2E7BAD0", Offset = "0x2E7A0D0", VA = "0x182E7BAD0")]
+	[Address(RVA = "0x6877A20", Offset = "0x6876A20", VA = "0x6877A20")]
 	internal static bool TryGetNodeAt(float x, float y, out AccessibilityNode node)
 	{
 		return default(bool);

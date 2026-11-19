@@ -13,297 +13,297 @@ using Photon.Pun;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000467")]
+[Token(Token = "0x20004C6")]
 [CompilerGenerated]
 internal class CustomLogicNetworkViewBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000468")]
+	[Token(Token = "0x20004C7")]
 	public static class Factory
 	{
-		[Token(Token = "0x60021A1")]
-		[Address(RVA = "0x1F7B7E0", Offset = "0x1F79DE0", VA = "0x181F7B7E0")]
+		[Token(Token = "0x6002418")]
+		[Address(RVA = "0x59365B0", Offset = "0x59355B0", VA = "0x59365B0")]
 		public static CustomLogicNetworkViewBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000469")]
+	[Token(Token = "0x20004C8")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40015C5")]
+		[Token(Token = "0x4001765")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60021A2")]
-		[Address(RVA = "0x1F59F70", Offset = "0x1F58570", VA = "0x181F59F70")]
+		[Token(Token = "0x6002419")]
+		[Address(RVA = "0x59366E0", Offset = "0x59356E0", VA = "0x59366E0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A3")]
-		[Address(RVA = "0x1F6E130", Offset = "0x1F6C730", VA = "0x181F6E130")]
+		[Token(Token = "0x600241A")]
+		[Address(RVA = "0x5936AD0", Offset = "0x5935AD0", VA = "0x5936AD0")]
 		public static CLPropertyBinding<CustomLogicNetworkViewBuiltin> __CreatePropertyBinding__SyncTransforms()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A4")]
-		[Address(RVA = "0x1F6CD80", Offset = "0x1F6B380", VA = "0x181F6CD80")]
+		[Token(Token = "0x600241B")]
+		[Address(RVA = "0x5936BB0", Offset = "0x5935BB0", VA = "0x5936BB0")]
 		public static CLPropertyBinding<CustomLogicNetworkViewBuiltin> __CreatePropertyBinding__Owner()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A5")]
-		[Address(RVA = "0x1F6A9D0", Offset = "0x1F68FD0", VA = "0x181F6A9D0")]
+		[Token(Token = "0x600241C")]
+		[Address(RVA = "0x5936C50", Offset = "0x5935C50", VA = "0x5936C50")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__Transfer()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A6")]
-		[Address(RVA = "0x1F69E80", Offset = "0x1F68480", VA = "0x181F69E80")]
+		[Token(Token = "0x600241D")]
+		[Address(RVA = "0x5936D90", Offset = "0x5935D90", VA = "0x5936D90")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__SendMessage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A7")]
-		[Address(RVA = "0x1F69C40", Offset = "0x1F68240", VA = "0x181F69C40")]
+		[Token(Token = "0x600241E")]
+		[Address(RVA = "0x5936ED0", Offset = "0x5935ED0", VA = "0x5936ED0")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__SendMessageAll()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A8")]
-		[Address(RVA = "0x1F69D60", Offset = "0x1F68360", VA = "0x181F69D60")]
+		[Token(Token = "0x600241F")]
+		[Address(RVA = "0x5937010", Offset = "0x5936010", VA = "0x5937010")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__SendMessageOthers()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021A9")]
-		[Address(RVA = "0x1F69FA0", Offset = "0x1F685A0", VA = "0x181F69FA0")]
+		[Token(Token = "0x6002420")]
+		[Address(RVA = "0x5937150", Offset = "0x5936150", VA = "0x5937150")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__SendStream()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021AA")]
-		[Address(RVA = "0x1F698D0", Offset = "0x1F67ED0", VA = "0x181F698D0")]
+		[Token(Token = "0x6002421")]
+		[Address(RVA = "0x5937290", Offset = "0x5936290", VA = "0x5937290")]
 		public static CLMethodBinding<CustomLogicNetworkViewBuiltin> __CreateMethodBinding__ReceiveStream()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40015BE")]
+	[Token(Token = "0x400175E")]
 	[FieldOffset(Offset = "0x30")]
 	public readonly MapObject MapObject;
 
-	[Token(Token = "0x40015BF")]
+	[Token(Token = "0x400175F")]
 	[FieldOffset(Offset = "0x38")]
 	public CustomLogicPhotonSync Sync;
 
-	[Token(Token = "0x40015C0")]
+	[Token(Token = "0x4001760")]
 	[FieldOffset(Offset = "0x40")]
 	public int OwnerId;
 
-	[Token(Token = "0x40015C1")]
+	[Token(Token = "0x4001761")]
 	[FieldOffset(Offset = "0x48")]
 	private List<object> _streamObjects;
 
-	[Token(Token = "0x40015C2")]
+	[Token(Token = "0x4001762")]
 	[FieldOffset(Offset = "0x50")]
 	private readonly List<CustomLogicComponentInstance> _classInstances;
 
-	[Token(Token = "0x40015C3")]
+	[Token(Token = "0x4001763")]
 	[FieldOffset(Offset = "0x58")]
 	private readonly List<CustomLogicClassInstance> _addonInstances;
 
-	[Token(Token = "0x40015C4")]
+	[Token(Token = "0x4001764")]
 	[FieldOffset(Offset = "0x60")]
 	private bool _isTransformSynced;
 
-	[Token(Token = "0x17000419")]
+	[Token(Token = "0x1700045A")]
 	public bool SyncTransforms
 	{
-		[Token(Token = "0x6002189")]
-		[Address(RVA = "0x198C740", Offset = "0x198AD40", VA = "0x18198C740")]
+		[Token(Token = "0x6002400")]
+		[Address(RVA = "0x5934780", Offset = "0x5933780", VA = "0x5934780")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600218A")]
-		[Address(RVA = "0x1F77F40", Offset = "0x1F76540", VA = "0x181F77F40")]
+		[Token(Token = "0x6002401")]
+		[Address(RVA = "0x5934790", Offset = "0x5933790", VA = "0x5934790")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700041A")]
+	[Token(Token = "0x1700045B")]
 	public CustomLogicPlayerBuiltin Owner
 	{
-		[Token(Token = "0x600218B")]
-		[Address(RVA = "0x1F77E40", Offset = "0x1F76440", VA = "0x181F77E40")]
+		[Token(Token = "0x6002402")]
+		[Address(RVA = "0x5934810", Offset = "0x5933810", VA = "0x5934810")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700041B")]
+	[Token(Token = "0x1700045C")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600219D")]
-		[Address(RVA = "0x1F77E10", Offset = "0x1F76410", VA = "0x181F77E10", Slot = "6")]
+		[Token(Token = "0x6002414")]
+		[Address(RVA = "0x5936550", Offset = "0x5935550", VA = "0x5936550", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700041C")]
+	[Token(Token = "0x1700045D")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600219E")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6002415")]
+		[Address(RVA = "0x5936580", Offset = "0x5935580", VA = "0x5936580", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700041D")]
+	[Token(Token = "0x1700045E")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600219F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6002416")]
+		[Address(RVA = "0x5936590", Offset = "0x5935590", VA = "0x5936590", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700041E")]
+	[Token(Token = "0x1700045F")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60021A0")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6002417")]
+		[Address(RVA = "0x59365A0", Offset = "0x59355A0", VA = "0x59365A0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002188")]
-	[Address(RVA = "0x1F77D00", Offset = "0x1F76300", VA = "0x181F77D00")]
+	[Token(Token = "0x60023FF")]
+	[Address(RVA = "0x5934670", Offset = "0x5933670", VA = "0x5934670")]
 	public CustomLogicNetworkViewBuiltin(MapObject obj)
 	{
 	}
 
-	[Token(Token = "0x600218C")]
-	[Address(RVA = "0x1F76E90", Offset = "0x1F75490", VA = "0x181F76E90")]
+	[Token(Token = "0x6002403")]
+	[Address(RVA = "0x5934970", Offset = "0x5933970", VA = "0x5934970")]
 	public void OnSecond()
 	{
 	}
 
-	[Token(Token = "0x600218D")]
-	[Address(RVA = "0x1F77170", Offset = "0x1F75770", VA = "0x181F77170")]
+	[Token(Token = "0x6002404")]
+	[Address(RVA = "0x59349D0", Offset = "0x59339D0", VA = "0x59349D0")]
 	public void RegisterComponentInstance(CustomLogicComponentInstance instance)
 	{
 	}
 
-	[Token(Token = "0x600218E")]
-	[Address(RVA = "0x1F77090", Offset = "0x1F75690", VA = "0x181F77090")]
+	[Token(Token = "0x6002405")]
+	[Address(RVA = "0x5934A70", Offset = "0x5933A70", VA = "0x5934A70")]
 	public void RegisterAddonInstance(CustomLogicClassInstance instance)
 	{
 	}
 
-	[Token(Token = "0x600218F")]
-	[Address(RVA = "0x1F76C40", Offset = "0x1F75240", VA = "0x181F76C40")]
+	[Token(Token = "0x6002406")]
+	[Address(RVA = "0x5934B40", Offset = "0x5933B40", VA = "0x5934B40")]
 	public void OnNetworkTransfer(CustomLogicPlayerBuiltin oldOwner, CustomLogicPlayerBuiltin newOwner)
 	{
 	}
 
-	[Token(Token = "0x6002190")]
-	[Address(RVA = "0x1F777C0", Offset = "0x1F75DC0", VA = "0x181F777C0")]
+	[Token(Token = "0x6002407")]
+	[Address(RVA = "0x5935050", Offset = "0x5934050", VA = "0x5935050")]
 	public void SetSyncDynamic(CustomLogicPhotonSync sync)
 	{
 	}
 
-	[Token(Token = "0x6002191")]
-	[Address(RVA = "0x1F778A0", Offset = "0x1F75EA0", VA = "0x181F778A0")]
+	[Token(Token = "0x6002408")]
+	[Address(RVA = "0x5935130", Offset = "0x5934130", VA = "0x5935130")]
 	public void SetSync(CustomLogicPhotonSync sync)
 	{
 	}
 
-	[Token(Token = "0x6002192")]
-	[Address(RVA = "0x1F77290", Offset = "0x1F75890", VA = "0x181F77290")]
+	[Token(Token = "0x6002409")]
+	[Address(RVA = "0x59356B0", Offset = "0x59346B0", VA = "0x59356B0")]
 	public void SendNetworkStream(PhotonStream stream)
 	{
 	}
 
-	[Token(Token = "0x6002193")]
-	[Address(RVA = "0x1F76A60", Offset = "0x1F75060", VA = "0x181F76A60")]
+	[Token(Token = "0x600240A")]
+	[Address(RVA = "0x59358A0", Offset = "0x59348A0", VA = "0x59358A0")]
 	public void OnNetworkStream(object[] objs)
 	{
 	}
 
-	[Token(Token = "0x6002194")]
-	[Address(RVA = "0x1F76470", Offset = "0x1F74A70", VA = "0x181F76470")]
+	[Token(Token = "0x600240B")]
+	[Address(RVA = "0x5935A90", Offset = "0x5934A90", VA = "0x5935A90")]
 	public void OnNetworkMessage(CustomLogicPlayerBuiltin player, string message, double sentServerTime)
 	{
 	}
 
-	[Token(Token = "0x6002195")]
-	[Address(RVA = "0x1F77CB0", Offset = "0x1F762B0", VA = "0x181F77CB0")]
+	[Token(Token = "0x600240C")]
+	[Address(RVA = "0x5936160", Offset = "0x5935160", VA = "0x5936160")]
 	public void Transfer(CustomLogicPlayerBuiltin player)
 	{
 	}
 
-	[Token(Token = "0x6002196")]
-	[Address(RVA = "0x1F77260", Offset = "0x1F75860", VA = "0x181F77260")]
+	[Token(Token = "0x600240D")]
+	[Address(RVA = "0x59361B0", Offset = "0x59351B0", VA = "0x59361B0")]
 	public void SendMessage(CustomLogicPlayerBuiltin target, string msg)
 	{
 	}
 
-	[Token(Token = "0x6002197")]
-	[Address(RVA = "0x1F77220", Offset = "0x1F75820", VA = "0x181F77220")]
+	[Token(Token = "0x600240E")]
+	[Address(RVA = "0x59361D0", Offset = "0x59351D0", VA = "0x59361D0")]
 	public void SendMessageAll(string msg)
 	{
 	}
 
-	[Token(Token = "0x6002198")]
-	[Address(RVA = "0x1F77240", Offset = "0x1F75840", VA = "0x181F77240")]
+	[Token(Token = "0x600240F")]
+	[Address(RVA = "0x59361F0", Offset = "0x59351F0", VA = "0x59361F0")]
 	public void SendMessageOthers(string msg)
 	{
 	}
 
-	[Token(Token = "0x6002199")]
-	[Address(RVA = "0x1F77460", Offset = "0x1F75A60", VA = "0x181F77460")]
+	[Token(Token = "0x6002410")]
+	[Address(RVA = "0x5936210", Offset = "0x5935210", VA = "0x5936210")]
 	public void SendStream(object obj)
 	{
 	}
 
-	[Token(Token = "0x600219A")]
-	[Address(RVA = "0x1F76ED0", Offset = "0x1F754D0", VA = "0x181F76ED0")]
+	[Token(Token = "0x6002411")]
+	[Address(RVA = "0x59363B0", Offset = "0x59353B0", VA = "0x59363B0")]
 	public object ReceiveStream()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600219B")]
-	[Address(RVA = "0x1F77660", Offset = "0x1F75C60", VA = "0x181F77660")]
+	[Token(Token = "0x6002412")]
+	[Address(RVA = "0x59362B0", Offset = "0x59352B0", VA = "0x59362B0")]
 	private static object SerializeStreamObj(object obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600219C")]
-	[Address(RVA = "0x1F76300", Offset = "0x1F74900", VA = "0x181F76300")]
+	[Token(Token = "0x6002413")]
+	[Address(RVA = "0x5936430", Offset = "0x5935430", VA = "0x5936430")]
 	private static object DeserializeStreamObj(object obj)
 	{
 		return null;

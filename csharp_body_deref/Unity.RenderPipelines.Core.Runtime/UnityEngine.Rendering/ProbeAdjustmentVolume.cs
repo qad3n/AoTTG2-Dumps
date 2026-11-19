@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeAdjustmentVolume
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -192,19 +192,19 @@ public class ProbeAdjustmentVolume : MonoBehaviour, ISerializationCallbackReceiv
 	public bool overrideDilationThreshold;
 
 	[Token(Token = "0x600086A")]
-	[Address(RVA = "0x2B0C370", Offset = "0x2B0A970", VA = "0x182B0C370", Slot = "4")]
+	[Address(RVA = "0x64FB7F0", Offset = "0x64FA7F0", VA = "0x64FB7F0", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x600086B")]
-	[Address(RVA = "0x2B0C320", Offset = "0x2B0A920", VA = "0x182B0C320", Slot = "5")]
+	[Address(RVA = "0x64FB810", Offset = "0x64FA810", VA = "0x64FB810", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x2B0C390", Offset = "0x2B0A990", VA = "0x182B0C390")]
+	[Address(RVA = "0x64F6680", Offset = "0x64F5680", VA = "0x64F6680")]
 	public ProbeAdjustmentVolume()
 	{
 	}

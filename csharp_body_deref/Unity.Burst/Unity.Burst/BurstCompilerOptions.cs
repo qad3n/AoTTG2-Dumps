@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Burst.BurstCompilerOptions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -390,7 +390,7 @@ public sealed class BurstCompilerOptions
 	private bool IsGlobal
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x29532F0", Offset = "0x29518F0", VA = "0x1829532F0")]
+		[Address(RVA = "0x6310740", Offset = "0x630F740", VA = "0x6310740")]
 		[CompilerGenerated]
 		get
 		{
@@ -402,7 +402,7 @@ public sealed class BurstCompilerOptions
 	public bool IsEnabled
 	{
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x2953280", Offset = "0x2951880", VA = "0x182953280")]
+		[Address(RVA = "0x6310750", Offset = "0x630F750", VA = "0x6310750")]
 		get
 		{
 			return default(bool);
@@ -413,13 +413,13 @@ public sealed class BurstCompilerOptions
 	public bool EnableBurstCompilation
 	{
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x63107B0", Offset = "0x630F7B0", VA = "0x63107B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x2953370", Offset = "0x2951970", VA = "0x182953370")]
+		[Address(RVA = "0x6310620", Offset = "0x630F620", VA = "0x6310620")]
 		set
 		{
 		}
@@ -429,13 +429,13 @@ public sealed class BurstCompilerOptions
 	public bool EnableBurstCompileSynchronously
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x63107E0", Offset = "0x630F7E0", VA = "0x63107E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x2953450", Offset = "0x2951A50", VA = "0x182953450")]
+		[Address(RVA = "0x63107F0", Offset = "0x630F7F0", VA = "0x63107F0")]
 		set
 		{
 		}
@@ -445,13 +445,13 @@ public sealed class BurstCompilerOptions
 	public bool EnableBurstSafetyChecks
 	{
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0xE5A340", Offset = "0xE58940", VA = "0x180E5A340")]
+		[Address(RVA = "0x6310820", Offset = "0x630F820", VA = "0x6310820")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x29534B0", Offset = "0x2951AB0", VA = "0x1829534B0")]
+		[Address(RVA = "0x6310710", Offset = "0x630F710", VA = "0x6310710")]
 		set
 		{
 		}
@@ -461,13 +461,13 @@ public sealed class BurstCompilerOptions
 	public bool ForceEnableBurstSafetyChecks
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x1A78700", Offset = "0x1A76D00", VA = "0x181A78700")]
+		[Address(RVA = "0x6310840", Offset = "0x630F840", VA = "0x6310840")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x2953510", Offset = "0x2951B10", VA = "0x182953510")]
+		[Address(RVA = "0x6310850", Offset = "0x630F850", VA = "0x6310850")]
 		set
 		{
 		}
@@ -477,13 +477,13 @@ public sealed class BurstCompilerOptions
 	public bool EnableBurstDebug
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x6310880", Offset = "0x630F880", VA = "0x6310880")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x2953480", Offset = "0x2951A80", VA = "0x182953480")]
+		[Address(RVA = "0x6310890", Offset = "0x630F890", VA = "0x6310890")]
 		set
 		{
 		}
@@ -494,13 +494,13 @@ public sealed class BurstCompilerOptions
 	public bool DisableOptimizations
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+		[Address(RVA = "0x63108C0", Offset = "0x630F8C0", VA = "0x63108C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x63108D0", Offset = "0x630F8D0", VA = "0x63108D0")]
 		set
 		{
 		}
@@ -511,13 +511,13 @@ public sealed class BurstCompilerOptions
 	public bool EnableFastMath
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+		[Address(RVA = "0x63108E0", Offset = "0x630F8E0", VA = "0x63108E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x63108F0", Offset = "0x630F8F0", VA = "0x63108F0")]
 		set
 		{
 		}
@@ -527,13 +527,13 @@ public sealed class BurstCompilerOptions
 	internal bool EnableBurstTimings
 	{
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0xE5A400", Offset = "0xE58A00", VA = "0x180E5A400")]
+		[Address(RVA = "0x6310900", Offset = "0x630F900", VA = "0x6310900")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x29534E0", Offset = "0x2951AE0", VA = "0x1829534E0")]
+		[Address(RVA = "0x6310910", Offset = "0x630F910", VA = "0x6310910")]
 		set
 		{
 		}
@@ -543,7 +543,7 @@ public sealed class BurstCompilerOptions
 	internal bool RequiresSynchronousCompilation
 	{
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x2953300", Offset = "0x2951900", VA = "0x182953300")]
+		[Address(RVA = "0x6310940", Offset = "0x630F940", VA = "0x6310940")]
 		get
 		{
 			return default(bool);
@@ -554,14 +554,14 @@ public sealed class BurstCompilerOptions
 	internal Action OptionsChanged
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x63109A0", Offset = "0x630F9A0", VA = "0x63109A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x63109B0", Offset = "0x630F9B0", VA = "0x63109B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -569,119 +569,119 @@ public sealed class BurstCompilerOptions
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2952A70", Offset = "0x2951070", VA = "0x182952A70")]
+	[Address(RVA = "0x630FFA0", Offset = "0x630EFA0", VA = "0x630FFA0")]
 	internal static string SerialiseCompilationOptionsSafe(string[] roots, string[] folders, string options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x2950D10", Offset = "0x294F310", VA = "0x182950D10")]
+	[Address(RVA = "0x6310200", Offset = "0x630F200", VA = "0x6310200")]
 	internal static (string[], string[], string) DeserialiseCompilationOptionsSafe(string from)
 	{
 		return default((string[], string[], string));
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2953110", Offset = "0x2951710", VA = "0x182953110")]
+	[Address(RVA = "0x63105D0", Offset = "0x630F5D0", VA = "0x63105D0")]
 	private BurstCompilerOptions()
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2953220", Offset = "0x2951820", VA = "0x182953220")]
+	[Address(RVA = "0x630F5B0", Offset = "0x630E5B0", VA = "0x630F5B0")]
 	internal BurstCompilerOptions(bool isGlobal)
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x2950A70", Offset = "0x294F070", VA = "0x182950A70")]
+	[Address(RVA = "0x63109C0", Offset = "0x630F9C0", VA = "0x63109C0")]
 	internal BurstCompilerOptions Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x2952B30", Offset = "0x2951130", VA = "0x182952B30")]
+	[Address(RVA = "0x6310B00", Offset = "0x630FB00", VA = "0x6310B00")]
 	private static bool TryGetAttribute(MemberInfo member, out BurstCompileAttribute attribute)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2952BD0", Offset = "0x29511D0", VA = "0x182952BD0")]
+	[Address(RVA = "0x6311010", Offset = "0x6310010", VA = "0x6311010")]
 	private static bool TryGetAttribute(Assembly assembly, out BurstCompileAttribute attribute)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x2950DD0", Offset = "0x294F3D0", VA = "0x182950DD0")]
+	[Address(RVA = "0x6310B90", Offset = "0x630FB90", VA = "0x6310B90")]
 	private static BurstCompileAttribute GetBurstCompileAttribute(MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x29527C0", Offset = "0x2950DC0", VA = "0x1829527C0")]
+	[Address(RVA = "0x630E910", Offset = "0x630D910", VA = "0x630E910")]
 	internal static bool HasBurstCompileAttribute(MemberInfo member)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x29528F0", Offset = "0x2950EF0", VA = "0x1829528F0")]
+	[Address(RVA = "0x6311090", Offset = "0x6310090", VA = "0x6311090")]
 	internal static void MergeAttributes(ref BurstCompileAttribute memberAttribute, in BurstCompileAttribute assemblyAttribute)
 	{
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x2952C60", Offset = "0x2951260", VA = "0x182952C60")]
+	[Address(RVA = "0x63111C0", Offset = "0x63101C0", VA = "0x63111C0")]
 	internal bool TryGetOptions(MemberInfo member, out string flagsOut, bool isForILPostProcessing = false, bool isForCompilerClient = false, bool deterministicCompilation = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2951140", Offset = "0x294F740", VA = "0x182951140")]
+	[Address(RVA = "0x63113A0", Offset = "0x63103A0", VA = "0x63113A0")]
 	internal string GetOptions([Optional] BurstCompileAttribute attr, bool isForILPostProcessing = false, bool isForCompilerClient = false, bool deterministicCompilation = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x2950A20", Offset = "0x294F020", VA = "0x182950A20")]
+	[Address(RVA = "0x6311EF0", Offset = "0x6310EF0", VA = "0x6311EF0")]
 	private static void AddOption(StringBuilder builder, string option)
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2951060", Offset = "0x294F660", VA = "0x182951060")]
+	[Address(RVA = "0x6311E20", Offset = "0x6310E20", VA = "0x6311E20")]
 	internal static string GetOption(string optionName, [Optional] object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2952A50", Offset = "0x2951050", VA = "0x182952A50")]
+	[Address(RVA = "0x63107C0", Offset = "0x630F7C0", VA = "0x63107C0")]
 	private void OnOptionsChanged()
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x6310830", Offset = "0x630F830", VA = "0x6310830")]
 	private void MaybeTriggerRecompilation()
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2952FC0", Offset = "0x29515C0", VA = "0x182952FC0")]
+	[Address(RVA = "0x6311F40", Offset = "0x6310F40", VA = "0x6311F40")]
 	static BurstCompilerOptions()
 	{
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x63120A0", Offset = "0x63110A0", VA = "0x63120A0")]
 	private static bool CheckIsSecondaryUnityProcess()
 	{
 		return default(bool);

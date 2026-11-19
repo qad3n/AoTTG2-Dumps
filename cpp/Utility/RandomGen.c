@@ -1,5 +1,5 @@
 // Type: Utility.RandomGen
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/RandomGen.cs
@@ -8,7 +8,7 @@
 
 // Utility.RandomGen$$GetRandomBool
 // il2cpp: bool Utility_RandomGen__GetRandomBool (const MethodInfo* method);
-// 0x18233e720
+// 0x5df01f0
 
 bool Utility_RandomGen__GetRandomBool(MethodInfo *method)
 
@@ -22,7 +22,7 @@ bool Utility_RandomGen__GetRandomBool(MethodInfo *method)
 
 // Utility.RandomGen$$GetRandomSign
 // il2cpp: float Utility_RandomGen__GetRandomSign (const MethodInfo* method);
-// 0x18233e800
+// 0x5df0210
 
 float Utility_RandomGen__GetRandomSign(MethodInfo *method)
 
@@ -30,16 +30,13 @@ float Utility_RandomGen__GetRandomSign(MethodInfo *method)
   float fVar1;
   
   fVar1 = UnityEngine_Random__Range(0.0,1.0,(MethodInfo *)0x0);
-  if (0.5 < fVar1) {
-    return 1.0;
-  }
-  return -1.0;
+  return *(float *)(&g_data_0100ad30 + (ulong)(0.5 < fVar1) * 4);
 }
 
 
 // Utility.RandomGen$$Roll
 // il2cpp: bool Utility_RandomGen__Roll (float probability, const MethodInfo* method);
-// 0x18233e840
+// 0x5df0240
 
 bool Utility_RandomGen__Roll(float probability,MethodInfo *method)
 
@@ -53,119 +50,204 @@ bool Utility_RandomGen__Roll(float probability,MethodInfo *method)
 
 // Utility.RandomGen$$GetRandomDirection
 // il2cpp: UnityEngine_Vector3_o Utility_RandomGen__GetRandomDirection (bool _flat, const MethodInfo* method);
-// 0x18233e750
+// 0x5df0270
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5df02da: cmp byte ptr [rip + 0x174e44c], 0
+// asm:   0x5df02e1: movss dword ptr [rsp + 4], xmm2
+// asm:   0x5df02e7: je 0x5df0391
 
-UnityEngine_Vector3_o *
-Utility_RandomGen__GetRandomDirection
-          (UnityEngine_Vector3_o *__return_storage_ptr__,bool _flat,MethodInfo *method)
+UnityEngine_Vector3_o Utility_RandomGen__GetRandomDirection(bool _flat,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  UnityEngine_Vector3_o *pUVar3;
-  UnityEngine_Vector3_o local_28;
-  UnityEngine_Vector3_o local_18;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  uint32_t uVar3;
+  undefined8 uVar4;
+  UnityEngine_Vector3_StaticFields *pUVar5;
+  undefined7 in_register_00000039;
+  float fVar6;
+  float fVar7;
+  float extraout_XMM0_Db;
+  undefined4 extraout_XMM0_Db_00;
+  undefined4 extraout_XMM0_Db_01;
+  float extraout_XMM0_Dd;
+  undefined1 auVar10 [16];
+  undefined1 auVar8 [16];
+  undefined1 auVar9 [16];
+  undefined1 auVar11 [16];
+  undefined4 uVar12;
+  UnityEngine_Vector3_o UVar13;
+  undefined1 local_30 [12];
+  float fStack_24;
+  float local_18;
+  float fStack_14;
+  float fStack_c;
   
-  local_28.fields.x = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-  local_28.fields.y = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-  local_28.fields.z = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-  if (_flat) {
-    local_28.fields.y = 0.0;
+  local_18 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
+  fStack_14 = extraout_XMM0_Db;
+  fStack_c = extraout_XMM0_Dd;
+  fVar6 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
+  fVar7 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
+  stack0xffffffffffffffd8 = ZEXT816(0);
+  if ((int)CONCAT71(in_register_00000039,_flat) == 0) {
+    stack0xffffffffffffffd8 = ZEXT416((uint)fVar6);
   }
-  pUVar3 = UnityEngine_Vector3__get_normalized(&local_18,&local_28,(MethodInfo *)0x0);
-  fVar2 = (pUVar3->fields).y;
-  fVar1 = (pUVar3->fields).z;
-  (__return_storage_ptr__->fields).x = (pUVar3->fields).x;
-  (__return_storage_ptr__->fields).y = fVar2;
-  (__return_storage_ptr__->fields).z = fVar1;
-  return __return_storage_ptr__;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    uVar12 = 0;
+    Il2CppMethodInitialized_0753e72d = '\x01';
+    local_30._0_4_ = 0.0;
+    local_30._4_4_ = 0.0;
+  }
+  else {
+    local_30._0_4_ = 0.0;
+    local_30._4_4_ = 0.0;
+    uVar12 = extraout_XMM0_Db_00;
+  }
+  if (g_data_0753e729 == '\0') {
+    local_30._0_4_ = 0.0;
+    local_30._4_4_ = 0.0;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    uVar12 = 0;
+    g_data_0753e729 = '\x01';
+    uVar3 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    local_30._0_4_ = 0.0;
+    local_30._4_4_ = 0.0;
+    uVar3 = (((Il2CppClass *)TypeInfo_System_Math)->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar3 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    uVar12 = 0;
+  }
+  uVar4 = stack0xffffffffffffffd8;
+  fVar6 = fVar7 * fVar7 + (float)local_30._8_4_ * (float)local_30._8_4_ + local_18 * local_18;
+  if (fVar6 < 0.0) {
+    fVar6 = sqrtf(fVar6);
+    uVar12 = extraout_XMM0_Db_01;
+    uVar4 = stack0xffffffffffffffd8;
+  }
+  else {
+    fVar6 = SQRT(fVar6);
+  }
+  if (1e-05 < fVar6) {
+    auVar9._4_4_ = fStack_14;
+    auVar9._0_4_ = local_18;
+    local_30._8_4_ = SUB84(uVar4,0);
+    fStack_24 = SUB84(uVar4,4);
+    auVar9._8_4_ = fStack_14;
+    auVar9._12_4_ = fStack_c;
+    auVar8._8_8_ = auVar9._8_8_;
+    auVar8._4_4_ = local_30._8_4_;
+    auVar8._0_4_ = local_18;
+    auVar10._0_12_ = auVar8._0_12_;
+    auVar10._12_4_ = fStack_24;
+    fVar7 = fVar7 / fVar6;
+    auVar11._4_4_ = fVar6;
+    auVar11._0_4_ = fVar6;
+    auVar11._8_4_ = uVar12;
+    auVar11._12_4_ = uVar12;
+    auVar11 = divps(auVar10,auVar11);
+    local_30._0_4_ = auVar11._0_4_;
+    local_30._4_4_ = auVar11._4_4_;
+    pUVar5 = (UnityEngine_Vector3_StaticFields *)local_30;
+  }
+  else {
+    pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar7 = (pUVar5->zeroVector).fields.z;
+  }
+  uVar1 = (pUVar5->zeroVector).fields.x;
+  uVar2 = (pUVar5->zeroVector).fields.y;
+  UVar13.fields.y = (float)uVar2;
+  UVar13.fields.x = (float)uVar1;
+  UVar13.fields.z = fVar7;
+  return (UnityEngine_Vector3_o)UVar13.fields;
 }
 
 
 // Utility.RandomGen$$ChooseRandom<object>
-// il2cpp: Il2CppObject* Utility_RandomGen__ChooseRandom_object_ (System_Collections_Generic_List_T__o* items, const MethodInfo_732DC0* method);
-// 0x180732dc0
+// il2cpp: Il2CppObject* Utility_RandomGen__ChooseRandom_object_ (System_Collections_Generic_List_T__o* items, const MethodInfo_365F3C0* method);
+// 0x375f3c0
 
 Il2CppObject *
-Utility_RandomGen__ChooseRandom_object_(System_Collections_Generic_List_T__o *items,MethodInfo_732DC0 *method)
+Utility_RandomGen__ChooseRandom_object_
+          (System_Collections_Generic_List_T__o *items,MethodInfo_365F3C0 *method)
 
 {
   int32_t index;
   Il2CppObject *pIVar1;
   
-  if (method->rgctx_data == (MethodInfo_732DC0_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_365F3C0_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
   }
-  if (items != (System_Collections_Generic_List_T__o *)0x0) {
-    index = UnityEngine_Random__RandomRangeInt(0,(items->fields)._size,(MethodInfo *)0x0);
-    pIVar1 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                       ((System_Collections_Generic_List_object__o *)items,index,
-                        (MethodInfo_92B830 *)
-                        method->rgctx_data->_2_System_Collections_Generic_List_T__get_Item);
-    return pIVar1;
+  if (items == (System_Collections_Generic_List_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  index = UnityEngine_Random__Range_690e2b0(0,(items->fields)._size,(MethodInfo *)0x0);
+  pIVar1 = System_Collections_Generic_List_object___get_Item
+                     ((System_Collections_Generic_List_object__o *)items,index,
+                      (MethodInfo_395CF20 *)method->rgctx_data->_2_System_Collections_Generic_List_T__get_Item
+                     );
+  return pIVar1;
 }
 
 
 // Utility.RandomGen$$ChooseRandom<__Il2CppFullySharedGenericType>
-// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Utility_RandomGen__ChooseRandom___Il2CppFullySharedGenericType_ (System_Collections_Generic_List_T__o* items, const MethodInfo_732C90* method);
-// 0x180732c90
+// il2cpp: Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o Utility_RandomGen__ChooseRandom___Il2CppFullySharedGenericType_ (System_Collections_Generic_List_T__o* items, const MethodInfo_365F410* method);
+// 0x375f410
 
-Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *
+Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o
 Utility_RandomGen__ChooseRandom___Il2CppFullySharedGenericType_
-          (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *__return_storage_ptr__,
-          System_Collections_Generic_List_T__o *items,MethodInfo_732C90 *method)
+          (System_Collections_Generic_List_T__o *items,MethodInfo_365F410 *method)
 
 {
-  void *source;
-  MethodInfo *pMVar1;
-  Il2CppMethodPointer pIVar2;
-  InvokerMethod pIVar3;
-  longlong lVar4;
+  Il2CppMethodPointer pIVar1;
+  undefined8 *puVar2;
+  undefined8 uVar3;
+  code *pcVar4;
+  long lVar5;
   int32_t maxExclusive;
-  ulonglong uVar5;
-  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *pUVar6;
-  ulonglong size;
-  int32_t local_res8 [8];
-  undefined8 auStack_80 [5];
-  undefined8 auStack_58 [2];
+  Il2CppRGCTXData *pIVar6;
+  MethodInfo *in_RDX;
+  void *extraout_RDX;
+  void *__src;
+  ulong __n;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o UVar7;
+  undefined8 uStack_50;
   int32_t *local_48;
   void *local_40;
+  int32_t local_34;
   
-  if (method->rgctx_data == (MethodInfo_732C90_RGCTXs *)0x0) {
-    auStack_80[0] = 0x180732cba;
-    il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+  pIVar6 = (in_RDX->field7_0x38).rgctx_data;
+  if (pIVar6 == (Il2CppRGCTXData *)0x0) {
+    uStack_50 = 0x375f43b;
+    il2cpp_codegen_rgctx_method_init(in_RDX);
+    pIVar6 = (in_RDX->field7_0x38).rgctx_data;
   }
-  size = (ulonglong)(method->rgctx_data->_3_T->_2).stack_slot_size;
-  uVar5 = size + 0xf;
-  if (uVar5 <= size) {
-    uVar5 = 0xffffffffffffff0;
+  __n = (ulong)((pIVar6[3].klass)->_2).stack_slot_size;
+  lVar5 = -(__n + 0xf & 0xfffffffffffffff0);
+  __src = (void *)((long)&local_48 + lVar5);
+  if (items == (System_Collections_Generic_List_T__o *)0x0) {
+    *(undefined8 *)((long)&uStack_50 + lVar5) = 0x375f4bd;
+    ThrowNullReferenceException();
   }
-  auStack_80[0] = 0x180732ce5;
-  lVar4 = -(uVar5 & 0xfffffffffffffff0);
-  source = (void *)((longlong)&local_48 + lVar4);
-  if (__return_storage_ptr__ != (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)0x0) {
-    pMVar1 = method->rgctx_data->_1_System_Collections_Generic_List_T__get_Count;
-    pIVar2 = pMVar1->methodPointer;
-    *(undefined8 *)((longlong)auStack_80 + lVar4) = 0x180732d03;
-    maxExclusive = (*pIVar2)(__return_storage_ptr__,pMVar1);
-    *(undefined8 *)((longlong)auStack_80 + lVar4) = 0x180732d0f;
-    local_res8[0] = UnityEngine_Random__RandomRangeInt(0,maxExclusive,(MethodInfo *)0x0);
-    local_40 = source;
-    local_48 = local_res8;
-    pMVar1 = method->rgctx_data->_2_System_Collections_Generic_List_T__get_Item;
-    *(void **)((longlong)auStack_58 + lVar4) = source;
-    pIVar2 = pMVar1->methodPointer;
-    pIVar3 = pMVar1->invoker_method;
-    *(undefined8 *)((longlong)auStack_80 + lVar4) = 0x180732d3c;
-    (*pIVar3)(pIVar2,pMVar1,__return_storage_ptr__,&local_48,*(void **)((longlong)auStack_58 + lVar4));
-    *(undefined8 *)((longlong)auStack_80 + lVar4) = 0x180732d4a;
-    pUVar6 = memcpy(items,source,size);
-    return pUVar6;
-  }
-  *(undefined8 *)((longlong)auStack_80 + lVar4) = 0x180732d5c;
-  ThrowNullReferenceException();
+  pIVar1 = (pIVar6[1].method)->methodPointer;
+  *(undefined8 *)((long)&uStack_50 + lVar5) = 0x375f469;
+  maxExclusive = (*pIVar1)();
+  *(undefined8 *)((long)&uStack_50 + lVar5) = 0x375f474;
+  local_34 = UnityEngine_Random__Range_690e2b0(0,maxExclusive,(MethodInfo *)0x0);
+  puVar2 = *(undefined8 **)((long)(in_RDX->field7_0x38).methodMetadataHandle + 0x10);
+  uVar3 = *puVar2;
+  local_48 = &local_34;
+  pcVar4 = (code *)puVar2[2];
+  local_40 = __src;
+  *(undefined8 *)((long)&uStack_50 + lVar5) = 0x375f49b;
+  (*pcVar4)(uVar3,puVar2,items,&local_48,__src);
+  *(undefined8 *)((long)&uStack_50 + lVar5) = 0x375f4a9;
+  UVar7.klass = memcpy(method,__src,__n);
+  UVar7.monitor = extraout_RDX;
+  return UVar7;
 }
 
 

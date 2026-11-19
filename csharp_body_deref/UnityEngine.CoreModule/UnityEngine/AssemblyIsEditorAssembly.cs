@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200017C")]
+[Token(Token = "0x200017D")]
 [AttributeUsage(AttributeTargets.Assembly)]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class AssemblyIsEditorAssembly : Attribute

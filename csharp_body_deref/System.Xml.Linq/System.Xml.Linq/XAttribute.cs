@@ -28,7 +28,7 @@ public class XAttribute : XObject
 	public bool IsNamespaceDeclaration
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x25E5AD0", Offset = "0x25E40D0", VA = "0x1825E5AD0")]
+		[Address(RVA = "0x5F9DE90", Offset = "0x5F9CE90", VA = "0x5F9DE90")]
 		get
 		{
 			return default(bool);
@@ -39,7 +39,7 @@ public class XAttribute : XObject
 	public XName Name
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x5F9DF30", Offset = "0x5F9CF30", VA = "0x5F9DF30")]
 		get
 		{
 			return null;
@@ -50,7 +50,7 @@ public class XAttribute : XObject
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "7")]
+		[Address(RVA = "0x5F9DF40", Offset = "0x5F9CF40", VA = "0x5F9DF40", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -61,46 +61,46 @@ public class XAttribute : XObject
 	public string Value
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x5F9DF50", Offset = "0x5F9CF50", VA = "0x5F9DF50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x25E5B60", Offset = "0x25E4160", VA = "0x1825E5B60")]
+		[Address(RVA = "0x5F9DF60", Offset = "0x5F9CF60", VA = "0x5F9DF60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x25E5920", Offset = "0x25E3F20", VA = "0x1825E5920")]
+	[Address(RVA = "0x5F9D7A0", Offset = "0x5F9C7A0", VA = "0x5F9D7A0")]
 	public XAttribute(XName name, object value)
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x25E5A30", Offset = "0x25E4030", VA = "0x1825E5A30")]
+	[Address(RVA = "0x5F9DE00", Offset = "0x5F9CE00", VA = "0x5F9DE00")]
 	public XAttribute(XAttribute other)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x25E51F0", Offset = "0x25E37F0", VA = "0x1825E51F0", Slot = "3")]
+	[Address(RVA = "0x5F9E2A0", Offset = "0x5F9D2A0", VA = "0x5F9E2A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x25E50C0", Offset = "0x25E36C0", VA = "0x1825E50C0")]
+	[Address(RVA = "0x5F9E610", Offset = "0x5F9D610", VA = "0x5F9E610")]
 	internal string GetPrefixOfNamespace(XNamespace ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x25E5570", Offset = "0x25E3B70", VA = "0x1825E5570")]
+	[Address(RVA = "0x5F9DBF0", Offset = "0x5F9CBF0", VA = "0x5F9DBF0")]
 	private static void ValidateAttribute(XName name, string value)
 	{
 	}

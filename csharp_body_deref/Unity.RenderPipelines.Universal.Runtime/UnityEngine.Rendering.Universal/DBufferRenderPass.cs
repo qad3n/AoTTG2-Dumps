@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DBufferRenderPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,7 +42,7 @@ internal class DBufferRenderPass : ScriptableRenderPass
 		internal RendererListHandle rendererList;
 
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x660FE50", Offset = "0x660EE50", VA = "0x660FE50")]
 		public PassData()
 		{
 		}
@@ -85,44 +85,44 @@ internal class DBufferRenderPass : ScriptableRenderPass
 	private TextureHandle[] dbufferHandles;
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x2C1B3E0", Offset = "0x2C199E0", VA = "0x182C1B3E0")]
+	[Address(RVA = "0x660DB20", Offset = "0x660CB20", VA = "0x660DB20")]
 	public DBufferRenderPass(Material dBufferClear, DBufferSettings settings, DecalDrawDBufferSystem drawSystem, bool decalLayers)
 	{
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x2C19760", Offset = "0x2C17D60", VA = "0x182C19760")]
+	[Address(RVA = "0x660DF80", Offset = "0x660CF80", VA = "0x660DF80")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData passData, RendererList rendererList, bool renderGraph)
 	{
 	}
 
 	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x2C1B130", Offset = "0x2C19730", VA = "0x182C1B130")]
+	[Address(RVA = "0x660E1C0", Offset = "0x660D1C0", VA = "0x660E1C0")]
 	private static void SetKeywords(RasterCommandBuffer cmd, PassData passData)
 	{
 	}
 
 	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x2C197D0", Offset = "0x2C17DD0", VA = "0x182C197D0")]
+	[Address(RVA = "0x660E2B0", Offset = "0x660D2B0", VA = "0x660E2B0")]
 	private void InitPassData(ref PassData passData)
 	{
 	}
 
 	[Token(Token = "0x60002AF")]
-	[Address(RVA = "0x2C19840", Offset = "0x2C17E40", VA = "0x182C19840")]
+	[Address(RVA = "0x660E310", Offset = "0x660D310", VA = "0x660E310")]
 	private RendererListParams InitRendererListParams(UniversalRenderingData renderingData, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 		return default(RendererListParams);
 	}
 
 	[Token(Token = "0x60002B0")]
-	[Address(RVA = "0x2C19C20", Offset = "0x2C18220", VA = "0x182C19C20", Slot = "11")]
+	[Address(RVA = "0x660E430", Offset = "0x660D430", VA = "0x660E430", Slot = "11")]
 	public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x60002B1")]
-	[Address(RVA = "0x2C19B20", Offset = "0x2C18120", VA = "0x182C19B20", Slot = "10")]
+	[Address(RVA = "0x660FBC0", Offset = "0x660EBC0", VA = "0x660FBC0", Slot = "10")]
 	public override void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}

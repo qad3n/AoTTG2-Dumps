@@ -14,20 +14,20 @@ namespace UnityEngine;
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct LOD
 {
-	[Token(Token = "0x4000391")]
+	[Token(Token = "0x4000396")]
 	[FieldOffset(Offset = "0x0")]
 	public float screenRelativeTransitionHeight;
 
-	[Token(Token = "0x4000392")]
+	[Token(Token = "0x4000397")]
 	[FieldOffset(Offset = "0x4")]
 	public float fadeTransitionWidth;
 
-	[Token(Token = "0x4000393")]
+	[Token(Token = "0x4000398")]
 	[FieldOffset(Offset = "0x8")]
 	public Renderer[] renderers;
 
-	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x2EDBC20", Offset = "0x2EDA220", VA = "0x182EDBC20")]
+	[Token(Token = "0x600074C")]
+	[Address(RVA = "0x68E50D0", Offset = "0x68E40D0", VA = "0x68E50D0")]
 	public LOD(float screenRelativeTransitionHeight, Renderer[] renderers)
 	{
 	}

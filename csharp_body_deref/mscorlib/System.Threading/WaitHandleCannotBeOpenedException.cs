@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x2000203")]
+[Token(Token = "0x20001DB")]
 public class WaitHandleCannotBeOpenedException : ApplicationException
 {
-	[Token(Token = "0x60011D4")]
-	[Address(RVA = "0x1BA9280", Offset = "0x1BA7880", VA = "0x181BA9280")]
+	[Token(Token = "0x60011AB")]
+	[Address(RVA = "0x552BAF0", Offset = "0x552AAF0", VA = "0x552BAF0")]
 	public WaitHandleCannotBeOpenedException()
 	{
 	}
 
-	[Token(Token = "0x60011D5")]
-	[Address(RVA = "0x1BA92D0", Offset = "0x1BA78D0", VA = "0x181BA92D0")]
+	[Token(Token = "0x60011AC")]
+	[Address(RVA = "0x552BB30", Offset = "0x552AB30", VA = "0x552BB30")]
 	public WaitHandleCannotBeOpenedException(string message)
 	{
 	}
 
-	[Token(Token = "0x60011D6")]
-	[Address(RVA = "0x1A464A0", Offset = "0x1A44AA0", VA = "0x181A464A0")]
+	[Token(Token = "0x60011AD")]
+	[Address(RVA = "0x552BB50", Offset = "0x552AB50", VA = "0x552BB50")]
 	protected WaitHandleCannotBeOpenedException(SerializationInfo info, StreamingContext context)
 	{
 	}

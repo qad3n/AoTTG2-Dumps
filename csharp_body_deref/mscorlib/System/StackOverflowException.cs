@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000134")]
+[Token(Token = "0x200010C")]
 public sealed class StackOverflowException : SystemException
 {
-	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x1B4CBE0", Offset = "0x1B4B1E0", VA = "0x181B4CBE0")]
+	[Token(Token = "0x6000A21")]
+	[Address(RVA = "0x54D4A30", Offset = "0x54D3A30", VA = "0x54D4A30")]
 	public StackOverflowException()
 	{
 	}
 
-	[Token(Token = "0x6000A46")]
-	[Address(RVA = "0x1B4CC70", Offset = "0x1B4B270", VA = "0x181B4CC70")]
+	[Token(Token = "0x6000A22")]
+	[Address(RVA = "0x54D4AE0", Offset = "0x54D3AE0", VA = "0x54D4AE0")]
 	public StackOverflowException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
+	[Token(Token = "0x6000A23")]
+	[Address(RVA = "0x54D4B40", Offset = "0x54D3B40", VA = "0x54D4B40")]
 	internal StackOverflowException(SerializationInfo info, StreamingContext context)
 	{
 	}

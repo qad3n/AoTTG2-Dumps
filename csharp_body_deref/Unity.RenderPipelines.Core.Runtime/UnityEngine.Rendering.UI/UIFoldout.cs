@@ -27,31 +27,31 @@ public class UIFoldout : Toggle
 	public GameObject arrowClosed;
 
 	[Token(Token = "0x6001522")]
-	[Address(RVA = "0x2BBB370", Offset = "0x2BB9970", VA = "0x182BBB370", Slot = "6")]
+	[Address(RVA = "0x65AFF60", Offset = "0x65AEF60", VA = "0x65AFF60", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x6001523")]
-	[Address(RVA = "0x2BBB160", Offset = "0x2BB9760", VA = "0x182BBB160")]
+	[Address(RVA = "0x65B0020", Offset = "0x65AF020", VA = "0x65B0020")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6001524")]
-	[Address(RVA = "0x2BBB180", Offset = "0x2BB9780", VA = "0x182BBB180")]
+	[Address(RVA = "0x65B0010", Offset = "0x65AF010", VA = "0x65B0010")]
 	public void SetState(bool state)
 	{
 	}
 
 	[Token(Token = "0x6001525")]
-	[Address(RVA = "0x2BBB190", Offset = "0x2BB9790", VA = "0x182BBB190")]
+	[Address(RVA = "0x65B0030", Offset = "0x65AF030", VA = "0x65B0030")]
 	public void SetState(bool state, bool rebuildLayout)
 	{
 	}
 
 	[Token(Token = "0x6001526")]
-	[Address(RVA = "0x2BBB430", Offset = "0x2BB9A30", VA = "0x182BBB430")]
+	[Address(RVA = "0x65B0220", Offset = "0x65AF220", VA = "0x65B0220")]
 	public UIFoldout()
 	{
 	}

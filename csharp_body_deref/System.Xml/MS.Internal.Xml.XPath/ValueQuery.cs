@@ -17,7 +17,7 @@ internal abstract class ValueQuery : Query
 	public sealed override XPathNavigator Current
 	{
 		[Token(Token = "0x6001BE9")]
-		[Address(RVA = "0x26D3BB0", Offset = "0x26D21B0", VA = "0x1826D3BB0", Slot = "8")]
+		[Address(RVA = "0x608E840", Offset = "0x608D840", VA = "0x608E840", Slot = "8")]
 		get
 		{
 			return null;
@@ -28,7 +28,7 @@ internal abstract class ValueQuery : Query
 	public sealed override int CurrentPosition
 	{
 		[Token(Token = "0x6001BEA")]
-		[Address(RVA = "0x26D3B70", Offset = "0x26D2170", VA = "0x1826D3B70", Slot = "9")]
+		[Address(RVA = "0x608E880", Offset = "0x608D880", VA = "0x608E880", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -39,7 +39,7 @@ internal abstract class ValueQuery : Query
 	public sealed override int Count
 	{
 		[Token(Token = "0x6001BEB")]
-		[Address(RVA = "0x26D3B30", Offset = "0x26D2130", VA = "0x1826D3B30", Slot = "10")]
+		[Address(RVA = "0x608E8C0", Offset = "0x608D8C0", VA = "0x608E8C0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -47,25 +47,25 @@ internal abstract class ValueQuery : Query
 	}
 
 	[Token(Token = "0x6001BE6")]
-	[Address(RVA = "0x26D1150", Offset = "0x26CF750", VA = "0x1826D1150")]
+	[Address(RVA = "0x608C170", Offset = "0x608B170", VA = "0x608C170")]
 	public ValueQuery()
 	{
 	}
 
 	[Token(Token = "0x6001BE7")]
-	[Address(RVA = "0x26D1170", Offset = "0x26CF770", VA = "0x1826D1170")]
+	[Address(RVA = "0x608C430", Offset = "0x608B430", VA = "0x608C430")]
 	protected ValueQuery(ValueQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001BE8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Address(RVA = "0x608E830", Offset = "0x608D830", VA = "0x608E830", Slot = "12")]
 	public sealed override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001BEC")]
-	[Address(RVA = "0x26D3AF0", Offset = "0x26D20F0", VA = "0x1826D3AF0", Slot = "15")]
+	[Address(RVA = "0x608E900", Offset = "0x608D900", VA = "0x608E900", Slot = "15")]
 	public sealed override XPathNavigator Advance()
 	{
 		return null;

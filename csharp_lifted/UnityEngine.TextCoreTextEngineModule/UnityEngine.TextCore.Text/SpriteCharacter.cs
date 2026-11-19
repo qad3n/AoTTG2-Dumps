@@ -1,0 +1,38 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.SpriteCharacter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using Il2CppDummyDll;
+
+namespace UnityEngine.TextCore.Text;
+
+[Serializable]
+[Token(Token = "0x2000038")]
+public class SpriteCharacter : TextElement
+{
+	[Token(Token = "0x400019E")]
+	[FieldOffset(Offset = "0x30")]
+	[SerializeField]
+	private string m_Name;
+
+	[Token(Token = "0x1700003A")]
+	public string name
+	{
+		[Token(Token = "0x600017D")]
+		[Address(RVA = "0x6A40030", Offset = "0x6A3F030", VA = "0x6A40030")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600017E")]
+	[Address(RVA = "0x6A41200", Offset = "0x6A40200", VA = "0x6A41200")]
+	public SpriteCharacter()
+	{
+	}
+}

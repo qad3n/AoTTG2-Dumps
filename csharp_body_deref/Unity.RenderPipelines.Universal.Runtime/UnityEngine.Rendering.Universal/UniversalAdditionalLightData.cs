@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalAdditionalLightData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -138,13 +138,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public bool usePipelineSettings
 	{
 		[Token(Token = "0x60009F1")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x669F7C0", Offset = "0x669E7C0", VA = "0x669F7C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009F2")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x669F7D0", Offset = "0x669E7D0", VA = "0x669F7D0")]
 		set
 		{
 		}
@@ -154,7 +154,7 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	internal Light light
 	{
 		[Token(Token = "0x60009F3")]
-		[Address(RVA = "0x2CA4A30", Offset = "0x2CA3030", VA = "0x182CA4A30")]
+		[Address(RVA = "0x669F7E0", Offset = "0x669E7E0", VA = "0x669F7E0")]
 		get
 		{
 			return null;
@@ -165,7 +165,7 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public int additionalLightsShadowResolutionTier
 	{
 		[Token(Token = "0x60009F4")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x669F860", Offset = "0x669E860", VA = "0x669F860")]
 		get
 		{
 			return default(int);
@@ -176,13 +176,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public bool customShadowLayers
 	{
 		[Token(Token = "0x60009F5")]
-		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
+		[Address(RVA = "0x669F870", Offset = "0x669E870", VA = "0x669F870")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009F6")]
-		[Address(RVA = "0x2CA4AB0", Offset = "0x2CA30B0", VA = "0x182CA4AB0")]
+		[Address(RVA = "0x669F880", Offset = "0x669E880", VA = "0x669F880")]
 		set
 		{
 		}
@@ -193,13 +193,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public Vector2 lightCookieSize
 	{
 		[Token(Token = "0x60009F7")]
-		[Address(RVA = "0x2CA4A10", Offset = "0x2CA3010", VA = "0x182CA4A10")]
+		[Address(RVA = "0x669FA20", Offset = "0x669EA20", VA = "0x669FA20")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60009F8")]
-		[Address(RVA = "0x16EF920", Offset = "0x16EDF20", VA = "0x1816EF920")]
+		[Address(RVA = "0x669FA30", Offset = "0x669EA30", VA = "0x669FA30")]
 		set
 		{
 		}
@@ -210,13 +210,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public Vector2 lightCookieOffset
 	{
 		[Token(Token = "0x60009F9")]
-		[Address(RVA = "0x2C25BF0", Offset = "0x2C241F0", VA = "0x182C25BF0")]
+		[Address(RVA = "0x669FA40", Offset = "0x669EA40", VA = "0x669FA40")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60009FA")]
-		[Address(RVA = "0xE8F710", Offset = "0xE8DD10", VA = "0x180E8F710")]
+		[Address(RVA = "0x669FA50", Offset = "0x669EA50", VA = "0x669FA50")]
 		set
 		{
 		}
@@ -227,13 +227,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public SoftShadowQuality softShadowQuality
 	{
 		[Token(Token = "0x60009FB")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x669FA60", Offset = "0x669EA60", VA = "0x669FA60")]
 		get
 		{
 			return default(SoftShadowQuality);
 		}
 		[Token(Token = "0x60009FC")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x669FA70", Offset = "0x669EA70", VA = "0x669FA70")]
 		set
 		{
 		}
@@ -243,13 +243,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public RenderingLayerMask renderingLayers
 	{
 		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
+		[Address(RVA = "0x669FA80", Offset = "0x669EA80", VA = "0x669FA80")]
 		get
 		{
 			return default(RenderingLayerMask);
 		}
 		[Token(Token = "0x60009FE")]
-		[Address(RVA = "0x2CA4AC0", Offset = "0x2CA30C0", VA = "0x182CA4AC0")]
+		[Address(RVA = "0x669FA90", Offset = "0x669EA90", VA = "0x669FA90")]
 		set
 		{
 		}
@@ -259,13 +259,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public RenderingLayerMask shadowRenderingLayers
 	{
 		[Token(Token = "0x60009FF")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x669FB00", Offset = "0x669EB00", VA = "0x669FB00")]
 		get
 		{
 			return default(RenderingLayerMask);
 		}
 		[Token(Token = "0x6000A00")]
-		[Address(RVA = "0x2CA4B40", Offset = "0x2CA3140", VA = "0x182CA4B40")]
+		[Address(RVA = "0x669FB10", Offset = "0x669EB10", VA = "0x669FB10")]
 		set
 		{
 		}
@@ -276,13 +276,13 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public LightLayerEnum lightLayerMask
 	{
 		[Token(Token = "0x6000A04")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
+		[Address(RVA = "0x669FCB0", Offset = "0x669ECB0", VA = "0x669FCB0")]
 		get
 		{
 			return default(LightLayerEnum);
 		}
 		[Token(Token = "0x6000A05")]
-		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
+		[Address(RVA = "0x669FCC0", Offset = "0x669ECC0", VA = "0x669FCC0")]
 		set
 		{
 		}
@@ -293,38 +293,38 @@ public class UniversalAdditionalLightData : MonoBehaviour, ISerializationCallbac
 	public LightLayerEnum shadowLayerMask
 	{
 		[Token(Token = "0x6000A06")]
-		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
+		[Address(RVA = "0x669FCD0", Offset = "0x669ECD0", VA = "0x669FCD0")]
 		get
 		{
 			return default(LightLayerEnum);
 		}
 		[Token(Token = "0x6000A07")]
-		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
+		[Address(RVA = "0x669FCE0", Offset = "0x669ECE0", VA = "0x669FCE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000A01")]
-	[Address(RVA = "0x2CA45B0", Offset = "0x2CA2BB0", VA = "0x182CA45B0")]
+	[Address(RVA = "0x669F890", Offset = "0x669E890", VA = "0x669F890")]
 	private void SyncLightAndShadowLayers()
 	{
 	}
 
 	[Token(Token = "0x6000A02")]
-	[Address(RVA = "0x2CA4790", Offset = "0x2CA2D90", VA = "0x182CA4790", Slot = "4")]
+	[Address(RVA = "0x669FB80", Offset = "0x669EB80", VA = "0x669FB80", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6000A03")]
-	[Address(RVA = "0x2CA4680", Offset = "0x2CA2C80", VA = "0x182CA4680", Slot = "5")]
+	[Address(RVA = "0x669FB90", Offset = "0x669EB90", VA = "0x669FB90", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x2CA4860", Offset = "0x2CA2E60", VA = "0x182CA4860")]
+	[Address(RVA = "0x669FCF0", Offset = "0x669ECF0", VA = "0x669FCF0")]
 	public UniversalAdditionalLightData()
 	{
 	}

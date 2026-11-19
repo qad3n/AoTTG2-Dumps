@@ -2,121 +2,121 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Cryptography;
 
-[Token(Token = "0x200004C")]
+[Token(Token = "0x2000039")]
 public class MD4Managed : MD4
 {
-	[Token(Token = "0x4000213")]
+	[Token(Token = "0x4000209")]
 	[FieldOffset(Offset = "0x28")]
 	private uint[] state;
 
-	[Token(Token = "0x4000214")]
+	[Token(Token = "0x400020A")]
 	[FieldOffset(Offset = "0x30")]
 	private byte[] buffer;
 
-	[Token(Token = "0x4000215")]
+	[Token(Token = "0x400020B")]
 	[FieldOffset(Offset = "0x38")]
 	private uint[] count;
 
-	[Token(Token = "0x4000216")]
+	[Token(Token = "0x400020C")]
 	[FieldOffset(Offset = "0x40")]
 	private uint[] x;
 
-	[Token(Token = "0x4000217")]
+	[Token(Token = "0x400020D")]
 	[FieldOffset(Offset = "0x48")]
 	private byte[] digest;
 
-	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x1935D50", Offset = "0x1934350", VA = "0x181935D50")]
+	[Token(Token = "0x6000165")]
+	[Address(RVA = "0x52C9030", Offset = "0x52C8030", VA = "0x52C9030")]
 	public MD4Managed()
 	{
 	}
 
-	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x1935260", Offset = "0x1933860", VA = "0x181935260", Slot = "20")]
+	[Token(Token = "0x6000166")]
+	[Address(RVA = "0x52C9130", Offset = "0x52C8130", VA = "0x52C9130", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
-	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x1934DF0", Offset = "0x19333F0", VA = "0x181934DF0", Slot = "18")]
+	[Token(Token = "0x6000167")]
+	[Address(RVA = "0x52C91D0", Offset = "0x52C81D0", VA = "0x52C91D0", Slot = "18")]
 	protected override void HashCore(byte[] array, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x1934F70", Offset = "0x1933570", VA = "0x181934F70", Slot = "19")]
+	[Token(Token = "0x6000168")]
+	[Address(RVA = "0x52C9940", Offset = "0x52C8940", VA = "0x52C9940", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x1935CD0", Offset = "0x19342D0", VA = "0x181935CD0")]
+	[Token(Token = "0x6000169")]
+	[Address(RVA = "0x52C9B40", Offset = "0x52C8B40", VA = "0x52C9B40")]
 	private byte[] Padding(int nLength)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x1934D30", Offset = "0x1933330", VA = "0x181934D30")]
+	[Token(Token = "0x600016A")]
+	[Address(RVA = "0x52C9BA0", Offset = "0x52C8BA0", VA = "0x52C9BA0")]
 	private uint F(uint x, uint y, uint z)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x1934D90", Offset = "0x1933390", VA = "0x181934D90")]
+	[Token(Token = "0x600016B")]
+	[Address(RVA = "0x52C9BB0", Offset = "0x52C8BB0", VA = "0x52C9BB0")]
 	private uint G(uint x, uint y, uint z)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x1934DE0", Offset = "0x19333E0", VA = "0x181934DE0")]
+	[Token(Token = "0x600016C")]
+	[Address(RVA = "0x52C9BC0", Offset = "0x52C8BC0", VA = "0x52C9BC0")]
 	private uint H(uint x, uint y, uint z)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x1935D30", Offset = "0x1934330", VA = "0x181935D30")]
+	[Token(Token = "0x600016D")]
+	[Address(RVA = "0x52C9BD0", Offset = "0x52C8BD0", VA = "0x52C9BD0")]
 	private uint ROL(uint x, byte n)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x1934CF0", Offset = "0x19332F0", VA = "0x181934CF0")]
+	[Token(Token = "0x600016E")]
+	[Address(RVA = "0x52C9BE0", Offset = "0x52C8BE0", VA = "0x52C9BE0")]
 	private void FF(ref uint a, uint b, uint c, uint d, uint x, byte s)
 	{
 	}
 
-	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x1934D40", Offset = "0x1933340", VA = "0x181934D40")]
+	[Token(Token = "0x600016F")]
+	[Address(RVA = "0x52C9C00", Offset = "0x52C8C00", VA = "0x52C9C00")]
 	private void GG(ref uint a, uint b, uint c, uint d, uint x, byte s)
 	{
 	}
 
-	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x1934DA0", Offset = "0x19333A0", VA = "0x181934DA0")]
+	[Token(Token = "0x6000170")]
+	[Address(RVA = "0x52C9C30", Offset = "0x52C8C30", VA = "0x52C9C30")]
 	private void HH(ref uint a, uint b, uint c, uint d, uint x, byte s)
 	{
 	}
 
-	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x1934C10", Offset = "0x1933210", VA = "0x181934C10")]
+	[Token(Token = "0x6000171")]
+	[Address(RVA = "0x52C9A70", Offset = "0x52C8A70", VA = "0x52C9A70")]
 	private void Encode(byte[] output, uint[] input)
 	{
 	}
 
-	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x1934B60", Offset = "0x1933160", VA = "0x181934B60")]
+	[Token(Token = "0x6000172")]
+	[Address(RVA = "0x52C9C50", Offset = "0x52C8C50", VA = "0x52C9C50")]
 	private void Decode(uint[] output, byte[] input, int index)
 	{
 	}
 
-	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x1935330", Offset = "0x1933930", VA = "0x181935330")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x52C92F0", Offset = "0x52C82F0", VA = "0x52C92F0")]
 	private void MD4Transform(uint[] state, byte[] block, int index)
 	{
 	}

@@ -38,7 +38,7 @@ public struct ReturnToSynchronizationContext
 		public bool IsCompleted
 		{
 			[Token(Token = "0x6000692")]
-			[Address(RVA = "0x2909580", Offset = "0x2907B80", VA = "0x182909580")]
+			[Address(RVA = "0x62D9A90", Offset = "0x62D8A90", VA = "0x62D9A90")]
 			get
 			{
 				return default(bool);
@@ -46,38 +46,38 @@ public struct ReturnToSynchronizationContext
 		}
 
 		[Token(Token = "0x6000690")]
-		[Address(RVA = "0x2909420", Offset = "0x2907A20", VA = "0x182909420")]
+		[Address(RVA = "0x62D9A40", Offset = "0x62D8A40", VA = "0x62D9A40")]
 		public Awaiter(SynchronizationContext synchronizationContext, bool dontPostWhenSameContext, CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x6000691")]
-		[Address(RVA = "0xBAD8E0", Offset = "0xBABEE0", VA = "0x180BAD8E0")]
+		[Address(RVA = "0x62D9A70", Offset = "0x62D8A70", VA = "0x62D9A70")]
 		public Awaiter GetAwaiter()
 		{
 			return default(Awaiter);
 		}
 
 		[Token(Token = "0x6000693")]
-		[Address(RVA = "0x2908580", Offset = "0x2906B80", VA = "0x182908580")]
+		[Address(RVA = "0x62D9AB0", Offset = "0x62D8AB0", VA = "0x62D9AB0")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x6000694")]
-		[Address(RVA = "0x2908780", Offset = "0x2906D80", VA = "0x182908780", Slot = "5")]
+		[Address(RVA = "0x62D9B00", Offset = "0x62D8B00", VA = "0x62D9B00", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000695")]
-		[Address(RVA = "0x2909030", Offset = "0x2907630", VA = "0x182909030", Slot = "4")]
+		[Address(RVA = "0x62D9B80", Offset = "0x62D8B80", VA = "0x62D9B80", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6000696")]
-		[Address(RVA = "0x29084C0", Offset = "0x2906AC0", VA = "0x1829084C0")]
+		[Address(RVA = "0x62D9C00", Offset = "0x62D8C00", VA = "0x62D9C00")]
 		private static void Callback(object state)
 		{
 		}
@@ -96,13 +96,13 @@ public struct ReturnToSynchronizationContext
 	private readonly CancellationToken cancellationToken;
 
 	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x2909420", Offset = "0x2907A20", VA = "0x182909420")]
+	[Address(RVA = "0x62CDF50", Offset = "0x62CCF50", VA = "0x62CDF50")]
 	public ReturnToSynchronizationContext(SynchronizationContext syncContext, bool dontPostWhenSameContext, CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x2911D60", Offset = "0x2910360", VA = "0x182911D60")]
+	[Address(RVA = "0x62D99F0", Offset = "0x62D89F0", VA = "0x62D99F0")]
 	public Awaiter DisposeAsync()
 	{
 		return default(Awaiter);

@@ -13,19 +13,19 @@ namespace UnityEngine;
 [Token(Token = "0x2000096")]
 public struct ApplicationMemoryUsageChange
 {
-	[Token(Token = "0x17000058")]
+	[Token(Token = "0x17000059")]
 	private ApplicationMemoryUsage memoryUsage
 	{
-		[Token(Token = "0x600025A")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Token(Token = "0x600025E")]
+		[Address(RVA = "0x68BE380", Offset = "0x68BD380", VA = "0x68BE380")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+	[Token(Token = "0x600025F")]
+	[Address(RVA = "0x68BCED0", Offset = "0x68BBED0", VA = "0x68BCED0")]
 	public ApplicationMemoryUsageChange(ApplicationMemoryUsage usage)
 	{
 	}

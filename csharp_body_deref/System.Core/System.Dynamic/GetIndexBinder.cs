@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000275")]
+[Token(Token = "0x2000276")]
 public abstract class GetIndexBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000C61")]
-	[Address(RVA = "0x2484EF0", Offset = "0x24834F0", VA = "0x182484EF0", Slot = "7")]
+	[Token(Token = "0x6000C6C")]
+	[Address(RVA = "0x5E25510", Offset = "0x5E24510", VA = "0x5E25510", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C62")]
-	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
+	[Token(Token = "0x6000C6D")]
+	[Address(RVA = "0x5E255E0", Offset = "0x5E245E0", VA = "0x5E255E0")]
 	public DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C63")]
+	[Token(Token = "0x6000C6E")]
 	public abstract DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes, DynamicMetaObject errorSuggestion);
 }

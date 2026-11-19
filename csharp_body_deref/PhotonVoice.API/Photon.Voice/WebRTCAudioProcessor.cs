@@ -145,7 +145,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AECStreamDelayMs
 	{
 		[Token(Token = "0x600032D")]
-		[Address(RVA = "0x1D7F090", Offset = "0x1D7D690", VA = "0x181D7F090")]
+		[Address(RVA = "0x571AFF0", Offset = "0x5719FF0", VA = "0x571AFF0")]
 		set
 		{
 		}
@@ -155,7 +155,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AEC
 	{
 		[Token(Token = "0x600032E")]
-		[Address(RVA = "0x1D7F0B0", Offset = "0x1D7D6B0", VA = "0x181D7F0B0")]
+		[Address(RVA = "0x571B2A0", Offset = "0x571A2A0", VA = "0x571B2A0")]
 		set
 		{
 		}
@@ -165,7 +165,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AECHighPass
 	{
 		[Token(Token = "0x600032F")]
-		[Address(RVA = "0x1D7EFF0", Offset = "0x1D7D5F0", VA = "0x181D7EFF0")]
+		[Address(RVA = "0x571B990", Offset = "0x571A990", VA = "0x571B990")]
 		set
 		{
 		}
@@ -175,7 +175,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AECMobile
 	{
 		[Token(Token = "0x6000330")]
-		[Address(RVA = "0x1D7F020", Offset = "0x1D7D620", VA = "0x181D7F020")]
+		[Address(RVA = "0x571B9B0", Offset = "0x571A9B0", VA = "0x571B9B0")]
 		set
 		{
 		}
@@ -185,7 +185,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool HighPass
 	{
 		[Token(Token = "0x6000331")]
-		[Address(RVA = "0x1D7F4E0", Offset = "0x1D7DAE0", VA = "0x181D7F4E0")]
+		[Address(RVA = "0x571B9F0", Offset = "0x571A9F0", VA = "0x571B9F0")]
 		set
 		{
 		}
@@ -195,7 +195,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool NoiseSuppression
 	{
 		[Token(Token = "0x6000332")]
-		[Address(RVA = "0x1D7F510", Offset = "0x1D7DB10", VA = "0x181D7F510")]
+		[Address(RVA = "0x571BA10", Offset = "0x571AA10", VA = "0x571BA10")]
 		set
 		{
 		}
@@ -205,7 +205,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AGC
 	{
 		[Token(Token = "0x6000333")]
-		[Address(RVA = "0x1D7F3D0", Offset = "0x1D7D9D0", VA = "0x181D7F3D0")]
+		[Address(RVA = "0x571BA30", Offset = "0x571AA30", VA = "0x571BA30")]
 		set
 		{
 		}
@@ -215,7 +215,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AGCCompressionGain
 	{
 		[Token(Token = "0x6000334")]
-		[Address(RVA = "0x1D7F150", Offset = "0x1D7D750", VA = "0x181D7F150")]
+		[Address(RVA = "0x571BA50", Offset = "0x571AA50", VA = "0x571BA50")]
 		set
 		{
 		}
@@ -225,7 +225,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AGCTargetLevel
 	{
 		[Token(Token = "0x6000335")]
-		[Address(RVA = "0x1D7F290", Offset = "0x1D7D890", VA = "0x181D7F290")]
+		[Address(RVA = "0x571BBE0", Offset = "0x571ABE0", VA = "0x571BBE0")]
 		set
 		{
 		}
@@ -235,7 +235,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AGC2
 	{
 		[Token(Token = "0x6000336")]
-		[Address(RVA = "0x1D7F120", Offset = "0x1D7D720", VA = "0x181D7F120")]
+		[Address(RVA = "0x571BD70", Offset = "0x571AD70", VA = "0x571BD70")]
 		set
 		{
 		}
@@ -245,7 +245,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool VAD
 	{
 		[Token(Token = "0x6000337")]
-		[Address(RVA = "0x1D7F540", Offset = "0x1D7DB40", VA = "0x181D7F540")]
+		[Address(RVA = "0x571BD90", Offset = "0x571AD90", VA = "0x571BD90")]
 		set
 		{
 		}
@@ -255,58 +255,58 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool Bypass
 	{
 		[Token(Token = "0x6000339")]
-		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
+		[Address(RVA = "0x571BF90", Offset = "0x571AF90", VA = "0x571BF90")]
 		private get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000338")]
-		[Address(RVA = "0x1D7F400", Offset = "0x1D7DA00", VA = "0x181D7F400")]
+		[Address(RVA = "0x571BDB0", Offset = "0x571ADB0", VA = "0x571BDB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600033A")]
-	[Address(RVA = "0x1D7E710", Offset = "0x1D7CD10", VA = "0x181D7E710")]
+	[Address(RVA = "0x571BFA0", Offset = "0x571AFA0", VA = "0x571BFA0")]
 	public WebRTCAudioProcessor(ILogger logger, int frameSize, int samplingRate, int channels, int reverseSamplingRate, int reverseChannels)
 	{
 	}
 
 	[Token(Token = "0x600033B")]
-	[Address(RVA = "0x1D7D460", Offset = "0x1D7BA60", VA = "0x181D7D460")]
+	[Address(RVA = "0x571B2E0", Offset = "0x571A2E0", VA = "0x571B2E0")]
 	private void InitReverseStream()
 	{
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x1D7DEA0", Offset = "0x1D7C4A0", VA = "0x181D7DEA0", Slot = "4")]
+	[Address(RVA = "0x571C8D0", Offset = "0x571B8D0", VA = "0x571C8D0", Slot = "4")]
 	public short[] Process(short[] buf)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x1D7DA50", Offset = "0x1D7C050", VA = "0x181D7DA50")]
+	[Address(RVA = "0x571CD80", Offset = "0x571BD80", VA = "0x571CD80")]
 	public void OnAudioOutFrameFloat(float[] data)
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x1D7E230", Offset = "0x1D7C830", VA = "0x181D7E230")]
+	[Address(RVA = "0x571D440", Offset = "0x571C440", VA = "0x571D440")]
 	private void ReverseStreamThread()
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x1D7EE30", Offset = "0x1D7D430", VA = "0x181D7EE30")]
+	[Address(RVA = "0x571B010", Offset = "0x571A010", VA = "0x571B010")]
 	private int setParam(Param param, int v)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x1D7D240", Offset = "0x1D7B840", VA = "0x181D7D240", Slot = "5")]
+	[Address(RVA = "0x571DC10", Offset = "0x571CC10", VA = "0x571DC10", Slot = "5")]
 	public void Dispose()
 	{
 	}

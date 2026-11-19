@@ -10,33 +10,33 @@ using Photon.Pun;
 
 namespace Characters;
 
-[Token(Token = "0x20006B9")]
+[Token(Token = "0x2000718")]
 internal class BasicTitanMovementSync : BaseMovementSync
 {
-	[Token(Token = "0x4002155")]
+	[Token(Token = "0x400231C")]
 	[FieldOffset(Offset = "0x98")]
 	protected BasicTitan _titan;
 
-	[Token(Token = "0x600428E")]
-	[Address(RVA = "0x219DF10", Offset = "0x219C510", VA = "0x18219DF10", Slot = "5")]
+	[Token(Token = "0x600453B")]
+	[Address(RVA = "0x5B41C00", Offset = "0x5B40C00", VA = "0x5B41C00", Slot = "5")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x600428F")]
-	[Address(RVA = "0x219E2E0", Offset = "0x219C8E0", VA = "0x18219E2E0", Slot = "6")]
+	[Token(Token = "0x600453C")]
+	[Address(RVA = "0x5B41C60", Offset = "0x5B40C60", VA = "0x5B41C60", Slot = "6")]
 	protected override void SendCustomStream(PhotonStream stream)
 	{
 	}
 
-	[Token(Token = "0x6004290")]
-	[Address(RVA = "0x219DF70", Offset = "0x219C570", VA = "0x18219DF70", Slot = "7")]
+	[Token(Token = "0x600453D")]
+	[Address(RVA = "0x5B41DD0", Offset = "0x5B40DD0", VA = "0x5B41DD0", Slot = "7")]
 	protected override void ReceiveCustomStream(PhotonStream stream)
 	{
 	}
 
-	[Token(Token = "0x6004291")]
-	[Address(RVA = "0x21531C0", Offset = "0x21517C0", VA = "0x1821531C0")]
+	[Token(Token = "0x600453E")]
+	[Address(RVA = "0x5B421A0", Offset = "0x5B411A0", VA = "0x5B421A0")]
 	public BasicTitanMovementSync()
 	{
 	}

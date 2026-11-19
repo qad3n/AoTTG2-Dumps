@@ -158,20 +158,20 @@ public class RawCodec
 		private float[] buf;
 
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x1D75980", Offset = "0x1D73F80", VA = "0x181D75980")]
+		[Address(RVA = "0x5705CD0", Offset = "0x5704CD0", VA = "0x5705CD0")]
 		public ShortToFloat(Action<FrameOut<float>> output)
 		{
 		}
 
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x1D757D0", Offset = "0x1D73DD0", VA = "0x181D757D0")]
+		[Address(RVA = "0x5705D40", Offset = "0x5704D40", VA = "0x5705D40")]
 		public void Output(FrameOut<short> shortBuf)
 		{
 		}
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5705CC0", Offset = "0x5704CC0", VA = "0x5705CC0")]
 	public RawCodec()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Bindings.ThrowHelper
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,15 +14,15 @@ namespace UnityEngine.Bindings;
 [UnityEngine.Bindings.VisibleToOtherModules]
 internal static class ThrowHelper
 {
-	[Token(Token = "0x6001176")]
-	[Address(RVA = "0x2F58050", Offset = "0x2F56650", VA = "0x182F58050")]
+	[Token(Token = "0x600118A")]
+	[Address(RVA = "0x692F1F0", Offset = "0x692E1F0", VA = "0x692F1F0")]
 	[DoesNotReturn]
 	public static void ThrowArgumentNullException(object obj, string parameterName)
 	{
 	}
 
-	[Token(Token = "0x6001177")]
-	[Address(RVA = "0x2F580D0", Offset = "0x2F566D0", VA = "0x182F580D0")]
+	[Token(Token = "0x600118B")]
+	[Address(RVA = "0x69284F0", Offset = "0x69274F0", VA = "0x69284F0")]
 	[DoesNotReturn]
 	public static void ThrowNullReferenceException(object obj)
 	{

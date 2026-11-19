@@ -13,34 +13,34 @@ namespace System.Xml.Schema;
 internal class XmlStringConverter : XmlBaseConverter
 {
 	[Token(Token = "0x6001905")]
-	[Address(RVA = "0x269F1F0", Offset = "0x269D7F0", VA = "0x18269F1F0")]
+	[Address(RVA = "0x6057210", Offset = "0x6056210", VA = "0x6057210")]
 	protected XmlStringConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x6001906")]
-	[Address(RVA = "0x269EF20", Offset = "0x269D520", VA = "0x18269EF20")]
+	[Address(RVA = "0x6057270", Offset = "0x6056270", VA = "0x6057270")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001907")]
-	[Address(RVA = "0x269EFB0", Offset = "0x269D5B0", VA = "0x18269EFB0", Slot = "52")]
+	[Address(RVA = "0x6057300", Offset = "0x6056300", VA = "0x6057300", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001908")]
-	[Address(RVA = "0x269E770", Offset = "0x269CD70", VA = "0x18269E770", Slot = "59")]
+	[Address(RVA = "0x60574E0", Offset = "0x60564E0", VA = "0x60574E0", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001909")]
-	[Address(RVA = "0x269EA40", Offset = "0x269D040", VA = "0x18269EA40", Slot = "61")]
+	[Address(RVA = "0x6057760", Offset = "0x6056760", VA = "0x6057760", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

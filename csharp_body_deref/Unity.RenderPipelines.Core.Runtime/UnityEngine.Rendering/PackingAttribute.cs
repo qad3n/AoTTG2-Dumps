@@ -51,13 +51,13 @@ public class PackingAttribute : Attribute
 	public string preprocessor;
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x2B41590", Offset = "0x2B3FB90", VA = "0x182B41590")]
+	[Address(RVA = "0x6525B20", Offset = "0x6524B20", VA = "0x6525B20")]
 	public PackingAttribute(string[] displayNames, FieldPacking packingScheme = FieldPacking.NoPacking, int bitSize = 32, int offsetInSource = 0, float minValue = 0f, float maxValue = 1f, bool isDirection = false, bool sRGBDisplay = false, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x2B41680", Offset = "0x2B3FC80", VA = "0x182B41680")]
+	[Address(RVA = "0x6525C30", Offset = "0x6524C30", VA = "0x6525C30")]
 	public PackingAttribute(string displayName = "", FieldPacking packingScheme = FieldPacking.NoPacking, int bitSize = 0, int offsetInSource = 0, float minValue = 0f, float maxValue = 1f, bool isDirection = false, bool sRGBDisplay = false, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}

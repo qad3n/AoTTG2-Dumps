@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Renderer2DResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -70,7 +70,7 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	public int version
 	{
 		[Token(Token = "0x60007EC")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x667ACE0", Offset = "0x6679CE0", VA = "0x667ACE0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -81,7 +81,7 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x60007ED")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667ACF0", Offset = "0x6679CF0", VA = "0x667ACF0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -92,13 +92,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader lightShader
 	{
 		[Token(Token = "0x60007EE")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667AD00", Offset = "0x6679D00", VA = "0x667AD00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007EF")]
-		[Address(RVA = "0x2C78AF0", Offset = "0x2C770F0", VA = "0x182C78AF0")]
+		[Address(RVA = "0x667AD10", Offset = "0x6679D10", VA = "0x667AD10")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader projectedShadowShader
 	{
 		[Token(Token = "0x60007F0")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667AD70", Offset = "0x6679D70", VA = "0x667AD70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F1")]
-		[Address(RVA = "0x2C78B60", Offset = "0x2C77160", VA = "0x182C78B60")]
+		[Address(RVA = "0x667AD80", Offset = "0x6679D80", VA = "0x667AD80")]
 		set
 		{
 		}
@@ -124,13 +124,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader spriteShadowShader
 	{
 		[Token(Token = "0x60007F2")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x667ADE0", Offset = "0x6679DE0", VA = "0x667ADE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F3")]
-		[Address(RVA = "0x2C78BD0", Offset = "0x2C771D0", VA = "0x182C78BD0")]
+		[Address(RVA = "0x667ADF0", Offset = "0x6679DF0", VA = "0x667ADF0")]
 		set
 		{
 		}
@@ -140,13 +140,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader spriteUnshadowShader
 	{
 		[Token(Token = "0x60007F4")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x667AE50", Offset = "0x6679E50", VA = "0x667AE50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F5")]
-		[Address(RVA = "0x2C78C40", Offset = "0x2C77240", VA = "0x182C78C40")]
+		[Address(RVA = "0x667AE60", Offset = "0x6679E60", VA = "0x667AE60")]
 		set
 		{
 		}
@@ -156,13 +156,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader geometryShadowShader
 	{
 		[Token(Token = "0x60007F6")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x667AEC0", Offset = "0x6679EC0", VA = "0x667AEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F7")]
-		[Address(RVA = "0x2C78A10", Offset = "0x2C77010", VA = "0x182C78A10")]
+		[Address(RVA = "0x667AED0", Offset = "0x6679ED0", VA = "0x667AED0")]
 		set
 		{
 		}
@@ -172,13 +172,13 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader geometryUnshadowShader
 	{
 		[Token(Token = "0x60007F8")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x667AF30", Offset = "0x6679F30", VA = "0x667AF30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007F9")]
-		[Address(RVA = "0x2C78A80", Offset = "0x2C77080", VA = "0x182C78A80")]
+		[Address(RVA = "0x667AF40", Offset = "0x6679F40", VA = "0x667AF40")]
 		set
 		{
 		}
@@ -188,20 +188,20 @@ internal class Renderer2DResources : IRenderPipelineResources, IRenderPipelineGr
 	internal Shader copyDepthPS
 	{
 		[Token(Token = "0x60007FA")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x667AFA0", Offset = "0x6679FA0", VA = "0x667AFA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x2C789A0", Offset = "0x2C76FA0", VA = "0x182C789A0")]
+		[Address(RVA = "0x667AFB0", Offset = "0x6679FB0", VA = "0x667AFB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60007FC")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667B010", Offset = "0x667A010", VA = "0x667B010")]
 	public Renderer2DResources()
 	{
 	}

@@ -42,20 +42,20 @@ internal static class GroupBoxUtility
 	}
 
 	[Token(Token = "0x6001159")]
-	[Address(RVA = "0x3274B00", Offset = "0x3273100", VA = "0x183274B00")]
+	[Address(RVA = "0x6C90680", Offset = "0x6C8F680", VA = "0x6C90680")]
 	private static IGroupManager FindOrCreateGroupManager(IGroupBox groupBox)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600115A")]
-	[Address(RVA = "0x3274FA0", Offset = "0x32735A0", VA = "0x183274FA0")]
+	[Address(RVA = "0x6C90C60", Offset = "0x6C8FC60", VA = "0x6C90C60")]
 	private static void OnGroupBoxDetachedFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600115B")]
-	[Address(RVA = "0x3275060", Offset = "0x3273660", VA = "0x183275060")]
+	[Address(RVA = "0x6C90D30", Offset = "0x6C8FD30", VA = "0x6C90D30")]
 	private static void OnPanelDestroyed(BaseVisualElementPanel panel)
 	{
 	}

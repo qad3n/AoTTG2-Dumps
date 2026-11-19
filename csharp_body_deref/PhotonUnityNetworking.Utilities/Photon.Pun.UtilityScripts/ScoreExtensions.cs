@@ -14,19 +14,19 @@ namespace Photon.Pun.UtilityScripts;
 public static class ScoreExtensions
 {
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x1D5D6D0", Offset = "0x1D5BCD0", VA = "0x181D5D6D0")]
+	[Address(RVA = "0x56F2430", Offset = "0x56F1430", VA = "0x56F2430")]
 	public static void SetScore(this Player player, int newScore)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x1D5D4C0", Offset = "0x1D5BAC0", VA = "0x181D5D4C0")]
+	[Address(RVA = "0x56F24E0", Offset = "0x56F14E0", VA = "0x56F24E0")]
 	public static void AddScore(this Player player, int scoreToAddToCurrent)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x1D5D620", Offset = "0x1D5BC20", VA = "0x181D5D620")]
+	[Address(RVA = "0x56F25A0", Offset = "0x56F15A0", VA = "0x56F25A0")]
 	public static int GetScore(this Player player)
 	{
 		return default(int);

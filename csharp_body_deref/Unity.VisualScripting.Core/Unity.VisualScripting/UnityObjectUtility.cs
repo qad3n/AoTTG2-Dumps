@@ -116,28 +116,28 @@ public static class UnityObjectUtility
 	}
 
 	[Token(Token = "0x60010E3")]
-	[Address(RVA = "0x2E5A320", Offset = "0x2E58920", VA = "0x182E5A320")]
+	[Address(RVA = "0x684DB10", Offset = "0x684CB10", VA = "0x684DB10")]
 	public static bool IsDestroyed(this UnityEngine.Object target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010E4")]
-	[Address(RVA = "0x2E5A380", Offset = "0x2E58980", VA = "0x182E5A380")]
+	[Address(RVA = "0x684DB60", Offset = "0x684CB60", VA = "0x684DB60")]
 	public static bool IsUnityNull(this object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010E5")]
-	[Address(RVA = "0x2E5A440", Offset = "0x2E58A40", VA = "0x182E5A440")]
+	[Address(RVA = "0x684DC30", Offset = "0x684CC30", VA = "0x684DC30")]
 	public static string ToSafeString(this UnityEngine.Object uo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010E6")]
-	[Address(RVA = "0x2E5A680", Offset = "0x2E58C80", VA = "0x182E5A680")]
+	[Address(RVA = "0x684DEA0", Offset = "0x684CEA0", VA = "0x684DEA0")]
 	public static string ToSafeString(this object obj)
 	{
 		return null;
@@ -150,7 +150,7 @@ public static class UnityObjectUtility
 	}
 
 	[Token(Token = "0x60010E8")]
-	[Address(RVA = "0x2E5A860", Offset = "0x2E58E60", VA = "0x182E5A860")]
+	[Address(RVA = "0x684E0A0", Offset = "0x684D0A0", VA = "0x684E0A0")]
 	public static bool TrulyEqual(UnityEngine.Object a, UnityEngine.Object b)
 	{
 		return default(bool);

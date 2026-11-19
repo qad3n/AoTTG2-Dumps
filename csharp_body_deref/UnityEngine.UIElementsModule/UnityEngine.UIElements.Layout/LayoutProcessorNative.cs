@@ -17,13 +17,13 @@ internal class LayoutProcessorNative : ILayoutProcessor
 	private LayoutState m_State;
 
 	[Token(Token = "0x6002CBB")]
-	[Address(RVA = "0x31C2980", Offset = "0x31C0F80", VA = "0x1831C2980", Slot = "4")]
+	[Address(RVA = "0x6BC5950", Offset = "0x6BC4950", VA = "0x6BC5950", Slot = "4")]
 	private void UnityEngine_002EUIElements_002ELayout_002EILayoutProcessor_002ECalculateLayout(LayoutNode node, float parentWidth, float parentHeight, LayoutDirection parentDirection)
 	{
 	}
 
 	[Token(Token = "0x6002CBC")]
-	[Address(RVA = "0x31C2B60", Offset = "0x31C1160", VA = "0x1831C2B60")]
+	[Address(RVA = "0x6BC2CA0", Offset = "0x6BC1CA0", VA = "0x6BC2CA0")]
 	public LayoutProcessorNative()
 	{
 	}

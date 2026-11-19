@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003F1")]
+[Token(Token = "0x20003CA")]
 internal class ServerObjectReplySink : IMessageSink
 {
-	[Token(Token = "0x4000FC5")]
+	[Token(Token = "0x4000F25")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink _replySink;
 
-	[Token(Token = "0x4000FC6")]
+	[Token(Token = "0x4000F26")]
 	[FieldOffset(Offset = "0x18")]
 	private System.Runtime.Remoting.ServerIdentity _identity;
 
-	[Token(Token = "0x6001F80")]
-	[Address(RVA = "0x19ED830", Offset = "0x19EBE30", VA = "0x1819ED830")]
+	[Token(Token = "0x6001F56")]
+	[Address(RVA = "0x539A990", Offset = "0x5399990", VA = "0x539A990")]
 	public ServerObjectReplySink(System.Runtime.Remoting.ServerIdentity identity, IMessageSink replySink)
 	{
 	}
 
-	[Token(Token = "0x6001F81")]
-	[Address(RVA = "0x1A086F0", Offset = "0x1A06CF0", VA = "0x181A086F0", Slot = "4")]
+	[Token(Token = "0x6001F57")]
+	[Address(RVA = "0x539A9D0", Offset = "0x53999D0", VA = "0x539A9D0", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F82")]
-	[Address(RVA = "0x1A086B0", Offset = "0x1A06CB0", VA = "0x181A086B0", Slot = "5")]
+	[Token(Token = "0x6001F58")]
+	[Address(RVA = "0x539AAA0", Offset = "0x5399AA0", VA = "0x539AAA0", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

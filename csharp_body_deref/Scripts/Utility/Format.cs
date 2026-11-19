@@ -11,77 +11,77 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20008C1")]
+[Token(Token = "0x200092B")]
 internal class Format
 {
-	[Token(Token = "0x20008C2")]
+	[Token(Token = "0x200092C")]
 	public class HMSFormatter : ICustomFormatter, IFormatProvider
 	{
-		[Token(Token = "0x4002B7F")]
+		[Token(Token = "0x4002E37")]
 		[FieldOffset(Offset = "0x0")]
 		private static Dictionary<string, string> timeformats;
 
-		[Token(Token = "0x6005343")]
-		[Address(RVA = "0x233A000", Offset = "0x2338600", VA = "0x18233A000", Slot = "4")]
+		[Token(Token = "0x600569B")]
+		[Address(RVA = "0x5CEF030", Offset = "0x5CEE030", VA = "0x5CEF030", Slot = "4")]
 		public string Format(string format, object arg, IFormatProvider formatProvider)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6005344")]
-		[Address(RVA = "0x233A0D0", Offset = "0x23386D0", VA = "0x18233A0D0", Slot = "5")]
+		[Token(Token = "0x600569C")]
+		[Address(RVA = "0x5CEF100", Offset = "0x5CEE100", VA = "0x5CEF100", Slot = "5")]
 		public object GetFormat(Type formatType)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6005345")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x600569D")]
+		[Address(RVA = "0x5CEF010", Offset = "0x5CEE010", VA = "0x5CEF010")]
 		public HMSFormatter()
 		{
 		}
 	}
 
-	[Token(Token = "0x20008C3")]
+	[Token(Token = "0x200092D")]
 	public class PluralFormatter : ICustomFormatter, IFormatProvider
 	{
-		[Token(Token = "0x6005347")]
-		[Address(RVA = "0x233CF20", Offset = "0x233B520", VA = "0x18233CF20", Slot = "4")]
+		[Token(Token = "0x600569F")]
+		[Address(RVA = "0x5CEF310", Offset = "0x5CEE310", VA = "0x5CEF310", Slot = "4")]
 		public string Format(string format, object arg, IFormatProvider formatProvider)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6005348")]
-		[Address(RVA = "0x233D050", Offset = "0x233B650", VA = "0x18233D050", Slot = "5")]
+		[Token(Token = "0x60056A0")]
+		[Address(RVA = "0x5CEF430", Offset = "0x5CEE430", VA = "0x5CEF430", Slot = "5")]
 		public object GetFormat(Type formatType)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6005349")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x60056A1")]
+		[Address(RVA = "0x5CEF0F0", Offset = "0x5CEE0F0", VA = "0x5CEF0F0")]
 		public PluralFormatter()
 		{
 		}
 	}
 
-	[Token(Token = "0x6005340")]
-	[Address(RVA = "0x23398D0", Offset = "0x2337ED0", VA = "0x1823398D0")]
+	[Token(Token = "0x6005698")]
+	[Address(RVA = "0x5CEE8D0", Offset = "0x5CED8D0", VA = "0x5CEE8D0")]
 	public static string Suffix(ulong num)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005341")]
-	[Address(RVA = "0x2339370", Offset = "0x2337970", VA = "0x182339370")]
+	[Token(Token = "0x6005699")]
+	[Address(RVA = "0x5CEEAF0", Offset = "0x5CEDAF0", VA = "0x5CEEAF0")]
 	public static string GetReadableTimespan(TimeSpan ts)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005342")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600569A")]
+	[Address(RVA = "0x5CEF020", Offset = "0x5CEE020", VA = "0x5CEF020")]
 	public Format()
 	{
 	}

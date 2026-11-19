@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RendererUtils.RendererListDesc
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,59 +13,59 @@ namespace UnityEngine.Rendering.RendererUtils;
 [Token(Token = "0x20003DE")]
 public struct RendererListDesc
 {
-	[Token(Token = "0x4000CB4")]
+	[Token(Token = "0x4000CB2")]
 	[FieldOffset(Offset = "0x0")]
 	public SortingCriteria sortingCriteria;
 
-	[Token(Token = "0x4000CB5")]
+	[Token(Token = "0x4000CB3")]
 	[FieldOffset(Offset = "0x4")]
 	public PerObjectData rendererConfiguration;
 
-	[Token(Token = "0x4000CB6")]
+	[Token(Token = "0x4000CB4")]
 	[FieldOffset(Offset = "0x8")]
 	public RenderQueueRange renderQueueRange;
 
-	[Token(Token = "0x4000CB7")]
+	[Token(Token = "0x4000CB5")]
 	[FieldOffset(Offset = "0x10")]
 	public RenderStateBlock? stateBlock;
 
-	[Token(Token = "0x4000CB8")]
+	[Token(Token = "0x4000CB6")]
 	[FieldOffset(Offset = "0x80")]
 	public Shader overrideShader;
 
-	[Token(Token = "0x4000CB9")]
+	[Token(Token = "0x4000CB7")]
 	[FieldOffset(Offset = "0x88")]
 	public Material overrideMaterial;
 
-	[Token(Token = "0x4000CBA")]
+	[Token(Token = "0x4000CB8")]
 	[FieldOffset(Offset = "0x90")]
 	public bool excludeObjectMotionVectors;
 
-	[Token(Token = "0x4000CBB")]
+	[Token(Token = "0x4000CB9")]
 	[FieldOffset(Offset = "0x94")]
 	public int layerMask;
 
-	[Token(Token = "0x4000CBC")]
+	[Token(Token = "0x4000CBA")]
 	[FieldOffset(Offset = "0x98")]
 	public uint renderingLayerMask;
 
-	[Token(Token = "0x4000CBE")]
+	[Token(Token = "0x4000CBC")]
 	[FieldOffset(Offset = "0xA0")]
 	public int overrideMaterialPassIndex;
 
-	[Token(Token = "0x4000CBF")]
+	[Token(Token = "0x4000CBD")]
 	[FieldOffset(Offset = "0xA4")]
 	public int overrideShaderPassIndex;
 
-	[Token(Token = "0x4000CC4")]
+	[Token(Token = "0x4000CC2")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ShaderTagId s_EmptyName;
 
-	[Token(Token = "0x170003CA")]
+	[Token(Token = "0x170003CF")]
 	public readonly uint batchLayerMask
 	{
-		[Token(Token = "0x60017A4")]
-		[Address(RVA = "0x2F6C3E0", Offset = "0x2F6A9E0", VA = "0x182F6C3E0")]
+		[Token(Token = "0x60017B8")]
+		[Address(RVA = "0x6969BE0", Offset = "0x6968BE0", VA = "0x6969BE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,11 +73,11 @@ public struct RendererListDesc
 		}
 	}
 
-	[Token(Token = "0x170003CB")]
+	[Token(Token = "0x170003D0")]
 	internal readonly CullingResults cullingResult
 	{
-		[Token(Token = "0x60017A5")]
-		[Address(RVA = "0x2B97F00", Offset = "0x2B96500", VA = "0x182B97F00")]
+		[Token(Token = "0x60017B9")]
+		[Address(RVA = "0x6969BF0", Offset = "0x6968BF0", VA = "0x6969BF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -85,11 +85,11 @@ public struct RendererListDesc
 		}
 	}
 
-	[Token(Token = "0x170003CC")]
+	[Token(Token = "0x170003D1")]
 	internal readonly Camera camera
 	{
-		[Token(Token = "0x60017A6")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Token(Token = "0x60017BA")]
+		[Address(RVA = "0x6969C00", Offset = "0x6968C00", VA = "0x6969C00")]
 		[CompilerGenerated]
 		get
 		{
@@ -97,11 +97,11 @@ public struct RendererListDesc
 		}
 	}
 
-	[Token(Token = "0x170003CD")]
+	[Token(Token = "0x170003D2")]
 	internal readonly ShaderTagId passName
 	{
-		[Token(Token = "0x60017A7")]
-		[Address(RVA = "0x16F8DE0", Offset = "0x16F73E0", VA = "0x1816F8DE0")]
+		[Token(Token = "0x60017BB")]
+		[Address(RVA = "0x6969C10", Offset = "0x6968C10", VA = "0x6969C10")]
 		[CompilerGenerated]
 		get
 		{
@@ -109,11 +109,11 @@ public struct RendererListDesc
 		}
 	}
 
-	[Token(Token = "0x170003CE")]
+	[Token(Token = "0x170003D3")]
 	internal readonly ShaderTagId[] passNames
 	{
-		[Token(Token = "0x60017A8")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Token(Token = "0x60017BC")]
+		[Address(RVA = "0x6969C20", Offset = "0x6968C20", VA = "0x6969C20")]
 		[CompilerGenerated]
 		get
 		{
@@ -121,15 +121,15 @@ public struct RendererListDesc
 		}
 	}
 
-	[Token(Token = "0x60017A9")]
-	[Address(RVA = "0x2F6C260", Offset = "0x2F6A860", VA = "0x182F6C260")]
+	[Token(Token = "0x60017BD")]
+	[Address(RVA = "0x6969C30", Offset = "0x6968C30", VA = "0x6969C30")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017AA")]
-	[Address(RVA = "0x2F6B7D0", Offset = "0x2F69DD0", VA = "0x182F6B7D0")]
+	[Token(Token = "0x60017BE")]
+	[Address(RVA = "0x6969D60", Offset = "0x6968D60", VA = "0x6969D60")]
 	public static RendererListParams ConvertToParameters(in RendererListDesc desc)
 	{
 		return default(RendererListParams);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.GeometryPoolDesc
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,7 +25,7 @@ internal struct GeometryPoolDesc
 	public int meshChunkTablesByteSize;
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x2D8B380", Offset = "0x2D89980", VA = "0x182D8B380")]
+	[Address(RVA = "0x677B170", Offset = "0x677A170", VA = "0x677B170")]
 	public static GeometryPoolDesc NewDefault()
 	{
 		return default(GeometryPoolDesc);

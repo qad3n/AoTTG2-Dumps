@@ -11,270 +11,270 @@ using Il2CppDummyDll;
 namespace System.Collections.Specialized;
 
 [Serializable]
-[Token(Token = "0x200024F")]
+[Token(Token = "0x2000210")]
 public abstract class NameObjectCollectionBase : ICollection, IEnumerable, ISerializable, IDeserializationCallback
 {
-	[Token(Token = "0x2000250")]
+	[Token(Token = "0x2000211")]
 	internal class NameObjectEntry
 	{
-		[Token(Token = "0x4000847")]
+		[Token(Token = "0x4000778")]
 		[FieldOffset(Offset = "0x10")]
 		internal string Key;
 
-		[Token(Token = "0x4000848")]
+		[Token(Token = "0x4000779")]
 		[FieldOffset(Offset = "0x18")]
 		internal object Value;
 
-		[Token(Token = "0x6001024")]
-		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+		[Token(Token = "0x6000E64")]
+		[Address(RVA = "0x62857A0", Offset = "0x62847A0", VA = "0x62857A0")]
 		internal NameObjectEntry(string name, object value)
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000251")]
+	[Token(Token = "0x2000212")]
 	internal class NameObjectKeysEnumerator : IEnumerator
 	{
-		[Token(Token = "0x4000849")]
+		[Token(Token = "0x400077A")]
 		[FieldOffset(Offset = "0x10")]
 		private int _pos;
 
-		[Token(Token = "0x400084A")]
+		[Token(Token = "0x400077B")]
 		[FieldOffset(Offset = "0x18")]
 		private NameObjectCollectionBase _coll;
 
-		[Token(Token = "0x400084B")]
+		[Token(Token = "0x400077C")]
 		[FieldOffset(Offset = "0x20")]
 		private int _version;
 
-		[Token(Token = "0x17000337")]
+		[Token(Token = "0x17000308")]
 		public object Current
 		{
-			[Token(Token = "0x6001028")]
-			[Address(RVA = "0x28D7080", Offset = "0x28D5680", VA = "0x1828D7080", Slot = "5")]
+			[Token(Token = "0x6000E68")]
+			[Address(RVA = "0x6285970", Offset = "0x6284970", VA = "0x6285970", Slot = "5")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6001025")]
-		[Address(RVA = "0x28D7030", Offset = "0x28D5630", VA = "0x1828D7030")]
+		[Token(Token = "0x6000E65")]
+		[Address(RVA = "0x62857E0", Offset = "0x62847E0", VA = "0x62857E0")]
 		internal NameObjectKeysEnumerator(NameObjectCollectionBase coll)
 		{
 		}
 
-		[Token(Token = "0x6001026")]
-		[Address(RVA = "0x28D6ED0", Offset = "0x28D54D0", VA = "0x1828D6ED0", Slot = "4")]
+		[Token(Token = "0x6000E66")]
+		[Address(RVA = "0x6285830", Offset = "0x6284830", VA = "0x6285830", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001027")]
-		[Address(RVA = "0x28D6FA0", Offset = "0x28D55A0", VA = "0x1828D6FA0", Slot = "6")]
+		[Token(Token = "0x6000E67")]
+		[Address(RVA = "0x62858F0", Offset = "0x62848F0", VA = "0x62858F0", Slot = "6")]
 		public void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400083E")]
+	[Token(Token = "0x400076F")]
 	[FieldOffset(Offset = "0x10")]
 	private bool _readOnly;
 
-	[Token(Token = "0x400083F")]
+	[Token(Token = "0x4000770")]
 	[FieldOffset(Offset = "0x18")]
 	private ArrayList _entriesArray;
 
-	[Token(Token = "0x4000840")]
+	[Token(Token = "0x4000771")]
 	[FieldOffset(Offset = "0x20")]
 	private IEqualityComparer _keyComparer;
 
-	[Token(Token = "0x4000841")]
+	[Token(Token = "0x4000772")]
 	[FieldOffset(Offset = "0x28")]
 	private Hashtable _entriesTable;
 
-	[Token(Token = "0x4000842")]
+	[Token(Token = "0x4000773")]
 	[FieldOffset(Offset = "0x30")]
 	private NameObjectEntry _nullKeyEntry;
 
-	[Token(Token = "0x4000843")]
+	[Token(Token = "0x4000774")]
 	[FieldOffset(Offset = "0x38")]
 	private SerializationInfo _serializationInfo;
 
-	[Token(Token = "0x4000844")]
+	[Token(Token = "0x4000775")]
 	[FieldOffset(Offset = "0x40")]
 	private int _version;
 
 	[NonSerialized]
-	[Token(Token = "0x4000845")]
+	[Token(Token = "0x4000776")]
 	[FieldOffset(Offset = "0x48")]
 	private object _syncRoot;
 
-	[Token(Token = "0x4000846")]
+	[Token(Token = "0x4000777")]
 	[FieldOffset(Offset = "0x0")]
 	private static StringComparer defaultComparer;
 
-	[Token(Token = "0x17000333")]
+	[Token(Token = "0x17000304")]
 	protected bool IsReadOnly
 	{
-		[Token(Token = "0x6001016")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Token(Token = "0x6000E56")]
+		[Address(RVA = "0x6285260", Offset = "0x6284260", VA = "0x6285260")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000334")]
+	[Token(Token = "0x17000305")]
 	public virtual int Count
 	{
-		[Token(Token = "0x600101E")]
-		[Address(RVA = "0x19972D0", Offset = "0x19958D0", VA = "0x1819972D0", Slot = "14")]
+		[Token(Token = "0x6000E5E")]
+		[Address(RVA = "0x62852C0", Offset = "0x62842C0", VA = "0x62852C0", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000335")]
+	[Token(Token = "0x17000306")]
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
-		[Token(Token = "0x6001020")]
-		[Address(RVA = "0x28D6BD0", Offset = "0x28D51D0", VA = "0x1828D6BD0", Slot = "6")]
+		[Token(Token = "0x6000E60")]
+		[Address(RVA = "0x6285630", Offset = "0x6284630", VA = "0x6285630", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000336")]
+	[Token(Token = "0x17000307")]
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
-		[Token(Token = "0x6001021")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
+		[Token(Token = "0x6000E61")]
+		[Address(RVA = "0x62856B0", Offset = "0x62846B0", VA = "0x62856B0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600100C")]
-	[Address(RVA = "0x28D6D30", Offset = "0x28D5330", VA = "0x1828D6D30")]
+	[Token(Token = "0x6000E4C")]
+	[Address(RVA = "0x627F580", Offset = "0x627E580", VA = "0x627F580")]
 	protected NameObjectCollectionBase()
 	{
 	}
 
-	[Token(Token = "0x600100D")]
-	[Address(RVA = "0x28D6D90", Offset = "0x28D5390", VA = "0x1828D6D90")]
+	[Token(Token = "0x6000E4D")]
+	[Address(RVA = "0x6284150", Offset = "0x6283150", VA = "0x6284150")]
 	protected NameObjectCollectionBase(IEqualityComparer equalityComparer)
 	{
 	}
 
-	[Token(Token = "0x600100E")]
-	[Address(RVA = "0x28D6CF0", Offset = "0x28D52F0", VA = "0x1828D6CF0")]
+	[Token(Token = "0x6000E4E")]
+	[Address(RVA = "0x627F640", Offset = "0x627E640", VA = "0x627F640")]
 	protected NameObjectCollectionBase(int capacity, IEqualityComparer equalityComparer)
 	{
 	}
 
-	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000E4F")]
+	[Address(RVA = "0x6280810", Offset = "0x627F810", VA = "0x6280810")]
 	internal NameObjectCollectionBase(DBNull dummy)
 	{
 	}
 
-	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x25E39A0", Offset = "0x25E1FA0", VA = "0x1825E39A0")]
+	[Token(Token = "0x6000E50")]
+	[Address(RVA = "0x627F6D0", Offset = "0x627E6D0", VA = "0x627F6D0")]
 	protected NameObjectCollectionBase(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x28D57E0", Offset = "0x28D3DE0", VA = "0x1828D57E0", Slot = "11")]
+	[Token(Token = "0x6000E51")]
+	[Address(RVA = "0x6284370", Offset = "0x6283370", VA = "0x6284370", Slot = "11")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001012")]
-	[Address(RVA = "0x28D5F20", Offset = "0x28D4520", VA = "0x1828D5F20", Slot = "12")]
+	[Token(Token = "0x6000E52")]
+	[Address(RVA = "0x6284A00", Offset = "0x6283A00", VA = "0x6284A00", Slot = "12")]
 	public virtual void OnDeserialization(object sender)
 	{
 	}
 
-	[Token(Token = "0x6001013")]
-	[Address(RVA = "0x28D66F0", Offset = "0x28D4CF0", VA = "0x1828D66F0")]
+	[Token(Token = "0x6000E53")]
+	[Address(RVA = "0x62841E0", Offset = "0x62831E0", VA = "0x62841E0")]
 	private void Reset()
 	{
 	}
 
-	[Token(Token = "0x6001014")]
-	[Address(RVA = "0x28D67C0", Offset = "0x28D4DC0", VA = "0x1828D67C0")]
+	[Token(Token = "0x6000E54")]
+	[Address(RVA = "0x62842A0", Offset = "0x62832A0", VA = "0x62842A0")]
 	private void Reset(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6001015")]
-	[Address(RVA = "0x28D56A0", Offset = "0x28D3CA0", VA = "0x1828D56A0")]
+	[Token(Token = "0x6000E55")]
+	[Address(RVA = "0x62851B0", Offset = "0x62841B0", VA = "0x62851B0")]
 	private NameObjectEntry FindEntry(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001017")]
-	[Address(RVA = "0x28D4E50", Offset = "0x28D3450", VA = "0x1828D4E50")]
+	[Token(Token = "0x6000E57")]
+	[Address(RVA = "0x627FAD0", Offset = "0x627EAD0", VA = "0x627FAD0")]
 	protected void BaseAdd(string name, object value)
 	{
 	}
 
-	[Token(Token = "0x6001018")]
-	[Address(RVA = "0x28D5290", Offset = "0x28D3890", VA = "0x1828D5290")]
+	[Token(Token = "0x6000E58")]
+	[Address(RVA = "0x627FFD0", Offset = "0x627EFD0", VA = "0x627FFD0")]
 	protected void BaseRemove(string name)
 	{
 	}
 
-	[Token(Token = "0x6001019")]
-	[Address(RVA = "0x28D51D0", Offset = "0x28D37D0", VA = "0x1828D51D0")]
+	[Token(Token = "0x6000E59")]
+	[Address(RVA = "0x627FAB0", Offset = "0x627EAB0", VA = "0x627FAB0")]
 	protected object BaseGet(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600101A")]
-	[Address(RVA = "0x28D55D0", Offset = "0x28D3BD0", VA = "0x1828D55D0")]
+	[Token(Token = "0x6000E5A")]
+	[Address(RVA = "0x627FED0", Offset = "0x627EED0", VA = "0x627FED0")]
 	protected void BaseSet(string name, object value)
 	{
 	}
 
-	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x28D51F0", Offset = "0x28D37F0", VA = "0x1828D51F0")]
+	[Token(Token = "0x6000E5B")]
+	[Address(RVA = "0x6280410", Offset = "0x627F410", VA = "0x6280410")]
 	protected object BaseGet(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600101C")]
-	[Address(RVA = "0x28D5130", Offset = "0x28D3730", VA = "0x1828D5130")]
+	[Token(Token = "0x6000E5C")]
+	[Address(RVA = "0x6280530", Offset = "0x627F530", VA = "0x6280530")]
 	protected string BaseGetKey(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600101D")]
-	[Address(RVA = "0x28D5760", Offset = "0x28D3D60", VA = "0x1828D5760", Slot = "13")]
+	[Token(Token = "0x6000E5D")]
+	[Address(RVA = "0x6285270", Offset = "0x6284270", VA = "0x6285270", Slot = "13")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600101F")]
-	[Address(RVA = "0x28D6880", Offset = "0x28D4E80", VA = "0x1828D6880", Slot = "4")]
+	[Token(Token = "0x6000E5F")]
+	[Address(RVA = "0x62852F0", Offset = "0x62842F0", VA = "0x62852F0", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6001022")]
-	[Address(RVA = "0x28D4FF0", Offset = "0x28D35F0", VA = "0x1828D4FF0")]
+	[Token(Token = "0x6000E62")]
+	[Address(RVA = "0x6280600", Offset = "0x627F600", VA = "0x6280600")]
 	protected string[] BaseGetAllKeys()
 	{
 		return null;

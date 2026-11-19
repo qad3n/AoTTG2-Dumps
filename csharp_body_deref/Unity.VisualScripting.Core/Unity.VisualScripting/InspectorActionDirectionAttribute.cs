@@ -19,14 +19,14 @@ public sealed class InspectorActionDirectionAttribute : Attribute
 	public ActionDirection direction
 	{
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x6792EC0", Offset = "0x6791EC0", VA = "0x6792EC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActionDirection);
 		}
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6792ED0", Offset = "0x6791ED0", VA = "0x6792ED0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -34,7 +34,7 @@ public sealed class InspectorActionDirectionAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Address(RVA = "0x6792EA0", Offset = "0x6791EA0", VA = "0x6792EA0")]
 	public InspectorActionDirectionAttribute(ActionDirection direction)
 	{
 	}

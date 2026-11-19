@@ -9,83 +9,71 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000136")]
+[Token(Token = "0x20000F7")]
 [System.MonoTODO("Some X500DistinguishedNameFlags options aren't supported, like DoNotUsePlusSign, DoNotUseQuotes and ForceUTF8Encoding")]
 public sealed class X500DistinguishedName : AsnEncodedData
 {
-	[Token(Token = "0x400059C")]
+	[Token(Token = "0x40004CD")]
 	[FieldOffset(Offset = "0x20")]
 	private string name;
 
-	[Token(Token = "0x400059D")]
+	[Token(Token = "0x40004CE")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] canonEncoding;
 
-	[Token(Token = "0x17000139")]
+	[Token(Token = "0x1700010A")]
 	public string Name
 	{
-		[Token(Token = "0x6000741")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000588")]
+		[Address(RVA = "0x620D0A0", Offset = "0x620C0A0", VA = "0x620D0A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600073E")]
-	[Address(RVA = "0x2880B10", Offset = "0x287F110", VA = "0x182880B10")]
+	[Token(Token = "0x6000587")]
+	[Address(RVA = "0x620CE30", Offset = "0x620BE30", VA = "0x620CE30")]
 	public X500DistinguishedName(byte[] encodedDistinguishedName)
 	{
 	}
 
-	[Token(Token = "0x600073F")]
-	[Address(RVA = "0x2880780", Offset = "0x287ED80", VA = "0x182880780")]
-	public X500DistinguishedName(string distinguishedName)
-	{
-	}
-
-	[Token(Token = "0x6000740")]
-	[Address(RVA = "0x2880790", Offset = "0x287ED90", VA = "0x182880790")]
-	public X500DistinguishedName(string distinguishedName, X500DistinguishedNameFlags flag)
-	{
-	}
-
-	[Token(Token = "0x6000742")]
-	[Address(RVA = "0x28804F0", Offset = "0x287EAF0", VA = "0x1828804F0")]
+	[Token(Token = "0x6000589")]
+	[Address(RVA = "0x620D0B0", Offset = "0x620C0B0", VA = "0x620D0B0")]
 	public string Decode(X500DistinguishedNameFlags flag)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000743")]
-	[Address(RVA = "0x28806A0", Offset = "0x287ECA0", VA = "0x1828806A0", Slot = "5")]
+	[Token(Token = "0x600058A")]
+	[Address(RVA = "0x620D2A0", Offset = "0x620C2A0", VA = "0x620D2A0", Slot = "5")]
 	public override string Format(bool multiLine)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x2880710", Offset = "0x287ED10", VA = "0x182880710")]
+	[Token(Token = "0x600058B")]
+	[Address(RVA = "0x620D240", Offset = "0x620C240", VA = "0x620D240")]
 	private static string GetSeparator(X500DistinguishedNameFlags flag)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000745")]
-	[Address(RVA = "0x2880410", Offset = "0x287EA10", VA = "0x182880410")]
+	[Token(Token = "0x600058C")]
+	[Address(RVA = "0x620CFB0", Offset = "0x620BFB0", VA = "0x620CFB0")]
 	private void DecodeRawData()
 	{
 	}
 
-	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x2880240", Offset = "0x287E840", VA = "0x182880240")]
+	[Token(Token = "0x600058D")]
+	[Address(RVA = "0x620D2F0", Offset = "0x620C2F0", VA = "0x620D2F0")]
 	private static string Canonize(string s)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000747")]
-	[Address(RVA = "0x2880040", Offset = "0x287E640", VA = "0x182880040")]
+	[Token(Token = "0x600058E")]
+	[Address(RVA = "0x620D530", Offset = "0x620C530", VA = "0x620D530")]
 	internal static bool AreEqual(X500DistinguishedName name1, X500DistinguishedName name2)
 	{
 		return default(bool);

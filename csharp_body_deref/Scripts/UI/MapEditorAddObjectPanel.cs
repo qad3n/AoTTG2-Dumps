@@ -11,104 +11,104 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000813")]
+[Token(Token = "0x2000891")]
 internal class MapEditorAddObjectPanel : CategoryPanel
 {
-	[Token(Token = "0x4002874")]
+	[Token(Token = "0x4002B2D")]
 	protected const int Columns = 8;
 
-	[Token(Token = "0x17000E4D")]
+	[Token(Token = "0x17000E4E")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004DDF")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+		[Token(Token = "0x600517A")]
+		[Address(RVA = "0x5C5E4F0", Offset = "0x5C5D4F0", VA = "0x5C5E4F0", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000E4E")]
+	[Token(Token = "0x17000E4F")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004DE0")]
-		[Address(RVA = "0x21C0C80", Offset = "0x21BF280", VA = "0x1821C0C80", Slot = "11")]
+		[Token(Token = "0x600517B")]
+		[Address(RVA = "0x5C5E500", Offset = "0x5C5D500", VA = "0x5C5E500", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000E4F")]
+	[Token(Token = "0x17000E50")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004DE1")]
-		[Address(RVA = "0x1B9BE70", Offset = "0x1B9A470", VA = "0x181B9BE70", Slot = "10")]
+		[Token(Token = "0x600517C")]
+		[Address(RVA = "0x5C5E510", Offset = "0x5C5D510", VA = "0x5C5E510", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000E50")]
+	[Token(Token = "0x17000E51")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004DE2")]
-		[Address(RVA = "0x1B56090", Offset = "0x1B54690", VA = "0x181B56090", Slot = "9")]
+		[Token(Token = "0x600517D")]
+		[Address(RVA = "0x5C5E520", Offset = "0x5C5D520", VA = "0x5C5E520", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6004DE3")]
-	[Address(RVA = "0x229F280", Offset = "0x229D880", VA = "0x18229F280", Slot = "20")]
+	[Token(Token = "0x600517E")]
+	[Address(RVA = "0x5C5E530", Offset = "0x5C5D530", VA = "0x5C5E530", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004DE4")]
-	[Address(RVA = "0x229EB30", Offset = "0x229D130", VA = "0x18229EB30", Slot = "35")]
+	[Token(Token = "0x600517F")]
+	[Address(RVA = "0x5C5F160", Offset = "0x5C5E160", VA = "0x5C5F160", Slot = "35")]
 	protected virtual List<string> GetItems(string category)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004DE5")]
-	[Address(RVA = "0x229E940", Offset = "0x229CF40", VA = "0x18229E940")]
+	[Token(Token = "0x6005180")]
+	[Address(RVA = "0x5C5F440", Offset = "0x5C5E440", VA = "0x5C5F440")]
 	protected List<string> GetItemsNoVariants(List<string> items)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004DE6")]
-	[Address(RVA = "0x229E740", Offset = "0x229CD40", VA = "0x18229E740")]
+	[Token(Token = "0x6005181")]
+	[Address(RVA = "0x5C5E790", Offset = "0x5C5D790", VA = "0x5C5E790")]
 	protected List<string> Filter(List<string> original, string search)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004DE7")]
-	[Address(RVA = "0x229E140", Offset = "0x229C740", VA = "0x18229E140")]
+	[Token(Token = "0x6005182")]
+	[Address(RVA = "0x5C5EA70", Offset = "0x5C5DA70", VA = "0x5C5EA70")]
 	protected void CreateRow(List<string> items)
 	{
 	}
 
-	[Token(Token = "0x6004DE8")]
-	[Address(RVA = "0x229EE20", Offset = "0x229D420", VA = "0x18229EE20", Slot = "36")]
+	[Token(Token = "0x6005183")]
+	[Address(RVA = "0x5C5F730", Offset = "0x5C5E730", VA = "0x5C5F730", Slot = "36")]
 	protected virtual string GetPreviewName(string item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004DE9")]
-	[Address(RVA = "0x229EF20", Offset = "0x229D520", VA = "0x18229EF20", Slot = "37")]
+	[Token(Token = "0x6005184")]
+	[Address(RVA = "0x5C5F840", Offset = "0x5C5E840", VA = "0x5C5F840", Slot = "37")]
 	protected virtual void OnSelectObject(string name)
 	{
 	}
 
-	[Token(Token = "0x6004DEA")]
-	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
+	[Token(Token = "0x6005185")]
+	[Address(RVA = "0x5C5FFB0", Offset = "0x5C5EFB0", VA = "0x5C5FFB0")]
 	public MapEditorAddObjectPanel()
 	{
 	}

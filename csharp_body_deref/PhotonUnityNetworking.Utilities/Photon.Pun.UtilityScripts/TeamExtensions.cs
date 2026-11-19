@@ -15,7 +15,7 @@ namespace Photon.Pun.UtilityScripts;
 public static class TeamExtensions
 {
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x1D5F780", Offset = "0x1D5DD80", VA = "0x181D5F780")]
+	[Address(RVA = "0x56F2FA0", Offset = "0x56F1FA0", VA = "0x56F2FA0")]
 	[Obsolete("Use player.GetPhotonTeam")]
 	public static PunTeams.Team GetTeam(this Player player)
 	{
@@ -23,7 +23,7 @@ public static class TeamExtensions
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x1D5F840", Offset = "0x1D5DE40", VA = "0x181D5F840")]
+	[Address(RVA = "0x56F3070", Offset = "0x56F2070", VA = "0x56F3070")]
 	[Obsolete("Use player.JoinTeam")]
 	public static void SetTeam(this Player player, PunTeams.Team team)
 	{

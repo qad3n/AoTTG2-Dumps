@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x2000077")]
 internal static class StringExtensions
 {
-	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x2841610", Offset = "0x283FC10", VA = "0x182841610")]
+	[Token(Token = "0x60001AD")]
+	[Address(RVA = "0x61D3D90", Offset = "0x61D2D90", VA = "0x61D3D90")]
 	internal static string SubstringTrim(this string value, int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x2841730", Offset = "0x283FD30", VA = "0x182841730")]
+	[Token(Token = "0x60001AE")]
+	[Address(RVA = "0x61D3DB0", Offset = "0x61D2DB0", VA = "0x61D3DB0")]
 	internal static string SubstringTrim(this string value, int startIndex, int length)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.LightCookieManager
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -98,7 +98,7 @@ internal class LightCookieManager : IDisposable
 			public bool isPow2
 			{
 				[Token(Token = "0x6000650")]
-				[Address(RVA = "0x2C54160", Offset = "0x2C52760", VA = "0x182C54160")]
+				[Address(RVA = "0x66475C0", Offset = "0x66465C0", VA = "0x66475C0")]
 				get
 				{
 					return default(bool);
@@ -109,7 +109,7 @@ internal class LightCookieManager : IDisposable
 			public bool isSquare
 			{
 				[Token(Token = "0x6000651")]
-				[Address(RVA = "0x2C54180", Offset = "0x2C52780", VA = "0x182C54180")]
+				[Address(RVA = "0x66475E0", Offset = "0x66465E0", VA = "0x66475E0")]
 				get
 				{
 					return default(bool);
@@ -134,7 +134,7 @@ internal class LightCookieManager : IDisposable
 		public bool useStructuredBuffer;
 
 		[Token(Token = "0x600064F")]
-		[Address(RVA = "0x2C6DE50", Offset = "0x2C6C450", VA = "0x182C6DE50")]
+		[Address(RVA = "0x6647510", Offset = "0x6646510", VA = "0x6647510")]
 		public static Settings Create()
 		{
 			return default(Settings);
@@ -242,13 +242,13 @@ internal class LightCookieManager : IDisposable
 		public Vector4[] uvRects;
 
 		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x2C6FFD0", Offset = "0x2C6E5D0", VA = "0x182C6FFD0")]
+		[Address(RVA = "0x6647870", Offset = "0x6646870", VA = "0x6647870")]
 		public void Resize(int size)
 		{
 		}
 
 		[Token(Token = "0x600065F")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66479A0", Offset = "0x66469A0", VA = "0x66479A0")]
 		public WorkMemory()
 		{
 		}
@@ -297,7 +297,7 @@ internal class LightCookieManager : IDisposable
 		public Matrix4x4[] worldToLights
 		{
 			[Token(Token = "0x6000660")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+			[Address(RVA = "0x66479B0", Offset = "0x66469B0", VA = "0x66479B0")]
 			get
 			{
 				return null;
@@ -308,7 +308,7 @@ internal class LightCookieManager : IDisposable
 		public ShaderBitArray cookieEnableBits
 		{
 			[Token(Token = "0x6000661")]
-			[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+			[Address(RVA = "0x66479C0", Offset = "0x66469C0", VA = "0x66479C0")]
 			get
 			{
 				return default(ShaderBitArray);
@@ -319,7 +319,7 @@ internal class LightCookieManager : IDisposable
 		public Vector4[] atlasUVRects
 		{
 			[Token(Token = "0x6000662")]
-			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+			[Address(RVA = "0x66479D0", Offset = "0x66469D0", VA = "0x66479D0")]
 			get
 			{
 				return null;
@@ -330,7 +330,7 @@ internal class LightCookieManager : IDisposable
 		public float[] lightTypes
 		{
 			[Token(Token = "0x6000663")]
-			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+			[Address(RVA = "0x66479E0", Offset = "0x66469E0", VA = "0x66479E0")]
 			get
 			{
 				return null;
@@ -341,14 +341,14 @@ internal class LightCookieManager : IDisposable
 		public bool isUploaded
 		{
 			[Token(Token = "0x6000664")]
-			[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
+			[Address(RVA = "0x66479F0", Offset = "0x66469F0", VA = "0x66479F0")]
 			[CompilerGenerated]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x6000665")]
-			[Address(RVA = "0x174C1E0", Offset = "0x174A7E0", VA = "0x18174C1E0")]
+			[Address(RVA = "0x6647A00", Offset = "0x6646A00", VA = "0x6647A00")]
 			[CompilerGenerated]
 			set
 			{
@@ -356,31 +356,31 @@ internal class LightCookieManager : IDisposable
 		}
 
 		[Token(Token = "0x6000666")]
-		[Address(RVA = "0x2C5AAE0", Offset = "0x2C590E0", VA = "0x182C5AAE0")]
+		[Address(RVA = "0x6647A10", Offset = "0x6646A10", VA = "0x6647A10")]
 		public LightCookieShaderData(int size, bool useStructuredBuffer)
 		{
 		}
 
 		[Token(Token = "0x6000667")]
-		[Address(RVA = "0x2C5A680", Offset = "0x2C58C80", VA = "0x182C5A680", Slot = "4")]
+		[Address(RVA = "0x6647C70", Offset = "0x6646C70", VA = "0x6647C70", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000668")]
-		[Address(RVA = "0x2C5A6D0", Offset = "0x2C58CD0", VA = "0x182C5A6D0")]
+		[Address(RVA = "0x6647A40", Offset = "0x6646A40", VA = "0x6647A40")]
 		public void Resize(int size)
 		{
 		}
 
 		[Token(Token = "0x6000669")]
-		[Address(RVA = "0x2C5A900", Offset = "0x2C58F00", VA = "0x182C5A900")]
+		[Address(RVA = "0x6647CB0", Offset = "0x6646CB0", VA = "0x6647CB0")]
 		public void Upload(CommandBuffer cmd)
 		{
 		}
 
 		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x2C5A5F0", Offset = "0x2C58BF0", VA = "0x182C5A5F0")]
+		[Address(RVA = "0x6647E70", Offset = "0x6646E70", VA = "0x6647E70")]
 		public void Clear(CommandBuffer cmd)
 		{
 		}
@@ -429,14 +429,14 @@ internal class LightCookieManager : IDisposable
 	internal bool IsKeywordLightCookieEnabled
 	{
 		[Token(Token = "0x6000635")]
-		[Address(RVA = "0x2C00A50", Offset = "0x2BFF050", VA = "0x182C00A50")]
+		[Address(RVA = "0x66440C0", Offset = "0x66430C0", VA = "0x66440C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000636")]
-		[Address(RVA = "0x2C00A70", Offset = "0x2BFF070", VA = "0x182C00A70")]
+		[Address(RVA = "0x66440D0", Offset = "0x66430D0", VA = "0x66440D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -447,7 +447,7 @@ internal class LightCookieManager : IDisposable
 	internal RTHandle AdditionalLightsCookieAtlasTexture
 	{
 		[Token(Token = "0x6000637")]
-		[Address(RVA = "0x2C3C990", Offset = "0x2C3AF90", VA = "0x182C3C990")]
+		[Address(RVA = "0x6634D40", Offset = "0x6633D40", VA = "0x6634D40")]
 		get
 		{
 			return null;
@@ -455,140 +455,140 @@ internal class LightCookieManager : IDisposable
 	}
 
 	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x2C3C900", Offset = "0x2C3AF00", VA = "0x182C3C900")]
+	[Address(RVA = "0x6632620", Offset = "0x6631620", VA = "0x6632620")]
 	public LightCookieManager(ref Settings settings)
 	{
 	}
 
 	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x2C3ACA0", Offset = "0x2C392A0", VA = "0x182C3ACA0")]
+	[Address(RVA = "0x66440E0", Offset = "0x66430E0", VA = "0x66440E0")]
 	private void InitAdditionalLights(int size)
 	{
 	}
 
 	[Token(Token = "0x600063A")]
-	[Address(RVA = "0x2AE4400", Offset = "0x2AE2A00", VA = "0x182AE4400")]
+	[Address(RVA = "0x6644210", Offset = "0x6643210", VA = "0x6644210")]
 	public bool isInitialized()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600063B")]
-	[Address(RVA = "0x2C39DA0", Offset = "0x2C383A0", VA = "0x182C39DA0", Slot = "4")]
+	[Address(RVA = "0x6644230", Offset = "0x6643230", VA = "0x6644230", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x2C3A980", Offset = "0x2C38F80", VA = "0x182C3A980")]
+	[Address(RVA = "0x6644260", Offset = "0x6643260", VA = "0x6644260")]
 	public int GetLightCookieShaderDataIndex(int visibleLightIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x2C3B7E0", Offset = "0x2C39DE0", VA = "0x182C3B7E0")]
+	[Address(RVA = "0x66442A0", Offset = "0x66432A0", VA = "0x66442A0")]
 	public void Setup(CommandBuffer cmd, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x2C3B0C0", Offset = "0x2C396C0", VA = "0x182C3B0C0")]
+	[Address(RVA = "0x6644550", Offset = "0x6643550", VA = "0x6644550")]
 	private bool SetupMainLight(CommandBuffer cmd, ref VisibleLight visibleMainLight)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600063F")]
-	[Address(RVA = "0x2C3A9D0", Offset = "0x2C38FD0", VA = "0x182C3A9D0")]
+	[Address(RVA = "0x66451E0", Offset = "0x66441E0", VA = "0x66451E0")]
 	private LightCookieShaderFormat GetLightCookieShaderFormat(GraphicsFormat cookieFormat)
 	{
 		return default(LightCookieShaderFormat);
 	}
 
 	[Token(Token = "0x6000640")]
-	[Address(RVA = "0x2C3AA60", Offset = "0x2C39060", VA = "0x182C3AA60")]
+	[Address(RVA = "0x6645260", Offset = "0x6644260", VA = "0x6645260")]
 	private void GetLightUVScaleOffset(ref UniversalAdditionalLightData additionalLightData, ref Matrix4x4 uvTransform)
 	{
 	}
 
 	[Token(Token = "0x6000641")]
-	[Address(RVA = "0x2C3ADD0", Offset = "0x2C393D0", VA = "0x182C3ADD0")]
+	[Address(RVA = "0x6645050", Offset = "0x6644050", VA = "0x6645050")]
 	private bool SetupAdditionalLights(CommandBuffer cmd, UniversalLightData lightData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000642")]
-	[Address(RVA = "0x2C3A4D0", Offset = "0x2C38AD0", VA = "0x182C3A4D0")]
+	[Address(RVA = "0x66453D0", Offset = "0x66443D0", VA = "0x66453D0")]
 	private int FilterAndValidateAdditionalLights(UniversalLightData lightData, LightCookieMapping[] validLightMappings)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000643")]
-	[Address(RVA = "0x2C3BB70", Offset = "0x2C3A170", VA = "0x182C3BB70")]
+	[Address(RVA = "0x66458B0", Offset = "0x66448B0", VA = "0x66458B0")]
 	private int UpdateAdditionalLightsAtlas(CommandBuffer cmd, ref WorkSlice<LightCookieMapping> validLightMappings, Vector4[] textureAtlasUVRects)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x2C3A1E0", Offset = "0x2C387E0", VA = "0x182C3A1E0")]
+	[Address(RVA = "0x6646770", Offset = "0x6645770", VA = "0x6646770")]
 	private int FetchUVRects(CommandBuffer cmd, ref WorkSlice<LightCookieMapping> validLightMappings, Vector4[] textureAtlasUVRects, int cookieSizeDivisor)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x2C39B60", Offset = "0x2C38160", VA = "0x182C39B60")]
+	[Address(RVA = "0x6646650", Offset = "0x6645650", VA = "0x6646650")]
 	private uint ComputeCookieRequestPixelCount(ref WorkSlice<LightCookieMapping> validLightMappings)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000646")]
-	[Address(RVA = "0x2C39B20", Offset = "0x2C38120", VA = "0x182C39B20")]
+	[Address(RVA = "0x6646740", Offset = "0x6645740", VA = "0x6646740")]
 	private int ApproximateCookieSizeDivisor(float requestAtlasRatio)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x2C39DE0", Offset = "0x2C383E0", VA = "0x182C39DE0")]
+	[Address(RVA = "0x6646C00", Offset = "0x6645C00", VA = "0x6646C00")]
 	private Vector4 Fetch2D(CommandBuffer cmd, Texture cookie, int cookieSizeDivisor = 1)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x2C39F70", Offset = "0x2C38570", VA = "0x182C39F70")]
+	[Address(RVA = "0x66469B0", Offset = "0x66459B0", VA = "0x66469B0")]
 	private Vector4 FetchCube(CommandBuffer cmd, Texture cookie, int cookieSizeDivisor = 1)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x2C39C70", Offset = "0x2C38270", VA = "0x182C39C70")]
+	[Address(RVA = "0x6646F60", Offset = "0x6645F60", VA = "0x6646F60")]
 	private int ComputeOctahedralCookieSize(Texture cookie)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x2C39980", Offset = "0x2C37F80", VA = "0x182C39980")]
+	[Address(RVA = "0x6646E60", Offset = "0x6645E60", VA = "0x6646E60")]
 	private void AdjustUVRect(ref Vector4 uvScaleOffset, Texture cookie, ref Vector2 cookieSize)
 	{
 	}
 
 	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x2C3BA40", Offset = "0x2C3A040", VA = "0x182C3BA40")]
+	[Address(RVA = "0x6647060", Offset = "0x6646060", VA = "0x6647060")]
 	private void ShrinkUVRect(ref Vector4 uvScaleOffset, float amountPixels, ref Vector2 cookieSize)
 	{
 	}
 
 	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x2C3BDE0", Offset = "0x2C3A3E0", VA = "0x182C3BDE0")]
+	[Address(RVA = "0x6645A20", Offset = "0x6644A20", VA = "0x6645A20")]
 	private void UploadAdditionalLights(CommandBuffer cmd, UniversalLightData lightData, ref WorkSlice<LightCookieMapping> validLightMappings, ref WorkSlice<Vector4> validUvRects)
 	{
 	}

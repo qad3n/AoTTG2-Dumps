@@ -17,7 +17,7 @@ namespace UnityEngine;
 internal class WritableAttribute : Attribute
 {
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1140", Offset = "0x69F0140", VA = "0x69F1140")]
 	public WritableAttribute()
 	{
 	}

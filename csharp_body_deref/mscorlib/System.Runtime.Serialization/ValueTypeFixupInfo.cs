@@ -10,56 +10,56 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000408")]
+[Token(Token = "0x20003E1")]
 internal sealed class ValueTypeFixupInfo
 {
-	[Token(Token = "0x4000FE3")]
+	[Token(Token = "0x4000F43")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly long _containerID;
 
-	[Token(Token = "0x4000FE4")]
+	[Token(Token = "0x4000F44")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly FieldInfo _parentField;
 
-	[Token(Token = "0x4000FE5")]
+	[Token(Token = "0x4000F45")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly int[] _parentIndex;
 
-	[Token(Token = "0x1700041B")]
+	[Token(Token = "0x1700041A")]
 	public long ContainerID
 	{
-		[Token(Token = "0x6001FCF")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001FA5")]
+		[Address(RVA = "0x539CB50", Offset = "0x539BB50", VA = "0x539CB50")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x1700041C")]
+	[Token(Token = "0x1700041B")]
 	public FieldInfo ParentField
 	{
-		[Token(Token = "0x6001FD0")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001FA6")]
+		[Address(RVA = "0x539CB60", Offset = "0x539BB60", VA = "0x539CB60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700041D")]
+	[Token(Token = "0x1700041C")]
 	public int[] ParentIndex
 	{
-		[Token(Token = "0x6001FD1")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6001FA7")]
+		[Address(RVA = "0x539CB70", Offset = "0x539BB70", VA = "0x539CB70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001FCE")]
-	[Address(RVA = "0x1A22660", Offset = "0x1A20C60", VA = "0x181A22660")]
+	[Token(Token = "0x6001FA4")]
+	[Address(RVA = "0x539C9D0", Offset = "0x539B9D0", VA = "0x539C9D0")]
 	public ValueTypeFixupInfo(long containerID, FieldInfo member, int[] parentIndex)
 	{
 	}

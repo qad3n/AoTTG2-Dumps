@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchChoiceOptionRenderer
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchChoiceOptionRenderer.cs
@@ -8,7 +8,7 @@
 
 // Gisketch.Aottg2UI.Actions.GisketchChoiceOptionRenderer$$Register
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register (System_String_o* key, System_Action_GisketchChoiceOptionRenderContext__o* renderer, const MethodInfo* method);
-// 0x1818fce90
+// 0x539ed70
 
 void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
                (System_String_o *key,System_Action_GisketchChoiceOptionRenderContext__o *renderer,
@@ -18,40 +18,40 @@ void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__Register
   System_Collections_Generic_Dictionary_object__object__o *__this;
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184342214 == '\0') {
+  if (Il2CppMethodInitialized_07542b93 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_set_Item
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-    Il2CppMethodInitialized_184342214 = '\x01';
+    Il2CppMethodInitialized_07542b93 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(key,(MethodInfo *)0x0);
-  if ((!bVar1) && (renderer != (System_Action_GisketchChoiceOptionRenderContext__o *)0x0)) {
-    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0)
-    {
-      il2cpp_codegen_runtime_class_init
-                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-    }
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)
-             TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers;
-    if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (__this,(Il2CppObject *)key,(Il2CppObject *)renderer,
-               (MethodInfo_147A7F0 *)
-               MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_set_Item
-              );
+  if ((renderer == (System_Action_GisketchChoiceOptionRenderContext__o *)0x0) || (bVar1)) {
+    return;
   }
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
+  }
+  __this = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers;
+  if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_Dictionary_object__object___set_Item
+            (__this,(Il2CppObject *)key,(Il2CppObject *)renderer,
+             (MethodInfo_4AAD4C0 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_set_Item
+            );
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchChoiceOptionRenderer$$TryRender
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__TryRender (System_String_o* key, Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o* context, const MethodInfo* method);
-// 0x1818fcf30
+// 0x5397df0
 
 bool Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__TryRender
                (System_String_o *key,Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *context,
@@ -60,56 +60,61 @@ bool Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer__TryRender
 {
   System_Collections_Generic_Dictionary_object__object__o *__this;
   bool bVar1;
-  Il2CppObject *local_res8;
+  bool bVar2;
+  Il2CppObject *local_20;
   
-  if (Il2CppMethodInitialized_184342215 == '\0') {
+  if (Il2CppMethodInitialized_07542b94 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_TryGetValu
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-    Il2CppMethodInitialized_184342215 = '\x01';
+    Il2CppMethodInitialized_07542b94 = '\x01';
   }
-  local_res8 = (Il2CppObject *)0x0;
+  local_20 = (Il2CppObject *)0x0;
+  bVar2 = false;
   bVar1 = System_String__IsNullOrEmpty(key,(MethodInfo *)0x0);
-  if ((bVar1) || (context == (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0)) {
-    return false;
-  }
-  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init
-              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-  }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)
-           TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers;
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+  if ((context != (Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderContext_o *)0x0) && (!bVar1)) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->_2).cctor_finished_or_no_cctor == 0)
+    {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
+    }
+    __this = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers;
+    if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+label_05397eb4:
+      ThrowNullReferenceException();
+    }
     bVar1 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      (__this,(Il2CppObject *)key,&local_res8,
-                       (MethodInfo_14769C0 *)
+                      (__this,(Il2CppObject *)key,&local_20,
+                       (MethodInfo_4AAF440 *)
                        MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_TryGetValu
                       );
-    if (!bVar1) {
-      return false;
+    if (bVar1) {
+      if (local_20 == (Il2CppObject *)0x0) goto label_05397eb4;
+      (*local_20[1].monitor)(local_20[4].klass,context,local_20[2].monitor);
+      bVar2 = true;
     }
-    if (local_res8 != (Il2CppObject *)0x0) {
-      (*local_res8[1].monitor)(local_res8[4].klass,context,local_res8[2].monitor);
-      return true;
+    else {
+      bVar2 = false;
     }
   }
-  ThrowNullReferenceException();
+  return bVar2;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchChoiceOptionRenderer$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer___cctor (const MethodInfo* method);
-// 0x1818fd010
+// 0x539ee10
 
 void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer___cctor(MethodInfo *method)
 
 {
   System_Collections_Generic_Dictionary_string__Action_GisketchChoiceOptionRenderContext___o *__this;
   
-  if (Il2CppMethodInitialized_184342216 == '\0') {
+  if (Il2CppMethodInitialized_07542b95 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&
                MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_ctor
@@ -119,21 +124,20 @@ void Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer___cctor(MethodInfo *
               );
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer);
-    Il2CppMethodInitialized_184342216 = '\x01';
+    Il2CppMethodInitialized_07542b95 = '\x01';
   }
   __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)
                       TypeInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext
                      );
   System_Collections_Generic_Dictionary_object__object____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
-             (MethodInfo_1454140 *)
+            ((System_Collections_Generic_Dictionary_object__object__o *)__this,
+             (MethodInfo_4AAC8D0 *)
              MethodInfo_System_Collections_Generic_Dictionary_string_Action_GisketchChoiceOptionRenderContext_ctor
             );
   TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers = __this;
   Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers,__this
-            );
+            (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchChoiceOptionRenderer->static_fields->Renderers);
   return;
 }
 

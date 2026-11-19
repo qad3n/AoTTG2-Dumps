@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 public class MacroScriptableObject : LudiqScriptableObject
 {
 	[Token(Token = "0x6000FD9")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6847B20", Offset = "0x6846B20", VA = "0x6847B20")]
 	public MacroScriptableObject()
 	{
 	}

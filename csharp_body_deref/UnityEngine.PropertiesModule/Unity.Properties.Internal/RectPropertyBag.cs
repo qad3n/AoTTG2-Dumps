@@ -20,7 +20,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override string Name
 		{
 			[Token(Token = "0x6000213")]
-			[Address(RVA = "0x2FF6650", Offset = "0x2FF4C50", VA = "0x182FF6650", Slot = "12")]
+			[Address(RVA = "0x69EE690", Offset = "0x69ED690", VA = "0x69EE690", Slot = "12")]
 			get
 			{
 				return null;
@@ -31,7 +31,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6000214")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE6C0", Offset = "0x69ED6C0", VA = "0x69EE6C0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -39,20 +39,20 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		}
 
 		[Token(Token = "0x6000215")]
-		[Address(RVA = "0x2FF62A0", Offset = "0x2FF48A0", VA = "0x182FF62A0", Slot = "14")]
+		[Address(RVA = "0x69EE6D0", Offset = "0x69ED6D0", VA = "0x69EE6D0", Slot = "14")]
 		public override float GetValue(ref Rect container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x2FF63A0", Offset = "0x2FF49A0", VA = "0x182FF63A0", Slot = "15")]
+		[Address(RVA = "0x69EE730", Offset = "0x69ED730", VA = "0x69EE730", Slot = "15")]
 		public override void SetValue(ref Rect container, float value)
 		{
 		}
 
 		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x2FF6500", Offset = "0x2FF4B00", VA = "0x182FF6500")]
+		[Address(RVA = "0x69EE590", Offset = "0x69ED590", VA = "0x69EE590")]
 		public XProperty()
 		{
 		}
@@ -65,7 +65,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override string Name
 		{
 			[Token(Token = "0x6000218")]
-			[Address(RVA = "0x2FF6B00", Offset = "0x2FF5100", VA = "0x182FF6B00", Slot = "12")]
+			[Address(RVA = "0x69EE7B0", Offset = "0x69ED7B0", VA = "0x69EE7B0", Slot = "12")]
 			get
 			{
 				return null;
@@ -76,7 +76,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6000219")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE7E0", Offset = "0x69ED7E0", VA = "0x69EE7E0", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -84,20 +84,20 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		}
 
 		[Token(Token = "0x600021A")]
-		[Address(RVA = "0x2FF6720", Offset = "0x2FF4D20", VA = "0x182FF6720", Slot = "14")]
+		[Address(RVA = "0x69EE7F0", Offset = "0x69ED7F0", VA = "0x69EE7F0", Slot = "14")]
 		public override float GetValue(ref Rect container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x600021B")]
-		[Address(RVA = "0x2FF67C0", Offset = "0x2FF4DC0", VA = "0x182FF67C0", Slot = "15")]
+		[Address(RVA = "0x69EE850", Offset = "0x69ED850", VA = "0x69EE850", Slot = "15")]
 		public override void SetValue(ref Rect container, float value)
 		{
 		}
 
 		[Token(Token = "0x600021C")]
-		[Address(RVA = "0x2FF6880", Offset = "0x2FF4E80", VA = "0x182FF6880")]
+		[Address(RVA = "0x69EE5D0", Offset = "0x69ED5D0", VA = "0x69EE5D0")]
 		public YProperty()
 		{
 		}
@@ -110,7 +110,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override string Name
 		{
 			[Token(Token = "0x600021D")]
-			[Address(RVA = "0x2FF6240", Offset = "0x2FF4840", VA = "0x182FF6240", Slot = "12")]
+			[Address(RVA = "0x69EE8D0", Offset = "0x69ED8D0", VA = "0x69EE8D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -121,7 +121,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x600021E")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EE900", Offset = "0x69ED900", VA = "0x69EE900", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -129,20 +129,20 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		}
 
 		[Token(Token = "0x600021F")]
-		[Address(RVA = "0x2FF6070", Offset = "0x2FF4670", VA = "0x182FF6070", Slot = "14")]
+		[Address(RVA = "0x69EE910", Offset = "0x69ED910", VA = "0x69EE910", Slot = "14")]
 		public override float GetValue(ref Rect container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6000220")]
-		[Address(RVA = "0x2FF6110", Offset = "0x2FF4710", VA = "0x182FF6110", Slot = "15")]
+		[Address(RVA = "0x69EE970", Offset = "0x69ED970", VA = "0x69EE970", Slot = "15")]
 		public override void SetValue(ref Rect container, float value)
 		{
 		}
 
 		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x2FF6200", Offset = "0x2FF4800", VA = "0x182FF6200")]
+		[Address(RVA = "0x69EE610", Offset = "0x69ED610", VA = "0x69EE610")]
 		public WidthProperty()
 		{
 		}
@@ -155,7 +155,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override string Name
 		{
 			[Token(Token = "0x6000222")]
-			[Address(RVA = "0x2FEB2A0", Offset = "0x2FE98A0", VA = "0x182FEB2A0", Slot = "12")]
+			[Address(RVA = "0x69EE9F0", Offset = "0x69ED9F0", VA = "0x69EE9F0", Slot = "12")]
 			get
 			{
 				return null;
@@ -166,7 +166,7 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6000223")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			[Address(RVA = "0x69EEA20", Offset = "0x69EDA20", VA = "0x69EEA20", Slot = "13")]
 			get
 			{
 				return default(bool);
@@ -174,27 +174,27 @@ internal class RectPropertyBag : ContainerPropertyBag<Rect>
 		}
 
 		[Token(Token = "0x6000224")]
-		[Address(RVA = "0x2FEB0F0", Offset = "0x2FE96F0", VA = "0x182FEB0F0", Slot = "14")]
+		[Address(RVA = "0x69EEA30", Offset = "0x69EDA30", VA = "0x69EEA30", Slot = "14")]
 		public override float GetValue(ref Rect container)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6000225")]
-		[Address(RVA = "0x2FEB140", Offset = "0x2FE9740", VA = "0x182FEB140", Slot = "15")]
+		[Address(RVA = "0x69EEA90", Offset = "0x69EDA90", VA = "0x69EEA90", Slot = "15")]
 		public override void SetValue(ref Rect container, float value)
 		{
 		}
 
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x2FEB1F0", Offset = "0x2FE97F0", VA = "0x182FEB1F0")]
+		[Address(RVA = "0x69EE650", Offset = "0x69ED650", VA = "0x69EE650")]
 		public HeightProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x2FF2020", Offset = "0x2FF0620", VA = "0x182FF2020")]
+	[Address(RVA = "0x69ED2E0", Offset = "0x69EC2E0", VA = "0x69ED2E0")]
 	public RectPropertyBag()
 	{
 	}

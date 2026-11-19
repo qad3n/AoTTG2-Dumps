@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x2000979")]
+[Token(Token = "0x20009DF")]
 internal class PlayerEntry
 {
-	[Token(Token = "0x4002EB8")]
+	[Token(Token = "0x4003168")]
 	[FieldOffset(Offset = "0x10")]
 	public string SessionId;
 
-	[Token(Token = "0x4002EB9")]
+	[Token(Token = "0x4003169")]
 	[FieldOffset(Offset = "0x18")]
 	public string IPAddress;
 
-	[Token(Token = "0x4002EBA")]
+	[Token(Token = "0x400316A")]
 	[FieldOffset(Offset = "0x20")]
 	public string Username;
 
-	[Token(Token = "0x4002EBB")]
+	[Token(Token = "0x400316B")]
 	[FieldOffset(Offset = "0x28")]
 	public int ActorNumber;
 
-	[Token(Token = "0x60057DE")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005B35")]
+	[Address(RVA = "0x5D324D0", Offset = "0x5D314D0", VA = "0x5D324D0")]
 	public PlayerEntry()
 	{
 	}

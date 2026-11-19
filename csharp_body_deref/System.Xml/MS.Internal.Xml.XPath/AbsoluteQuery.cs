@@ -14,26 +14,26 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class AbsoluteQuery : ContextQuery
 {
 	[Token(Token = "0x6001A4D")]
-	[Address(RVA = "0x26B42C0", Offset = "0x26B28C0", VA = "0x1826B42C0")]
+	[Address(RVA = "0x607CF10", Offset = "0x607BF10", VA = "0x607CF10")]
 	public AbsoluteQuery()
 	{
 	}
 
 	[Token(Token = "0x6001A4E")]
-	[Address(RVA = "0x26B4280", Offset = "0x26B2880", VA = "0x1826B4280")]
+	[Address(RVA = "0x607CF50", Offset = "0x607BF50", VA = "0x607CF50")]
 	private AbsoluteQuery(AbsoluteQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A4F")]
-	[Address(RVA = "0x26B4200", Offset = "0x26B2800", VA = "0x1826B4200", Slot = "14")]
+	[Address(RVA = "0x607CFD0", Offset = "0x607BFD0", VA = "0x607CFD0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A50")]
-	[Address(RVA = "0x26B4190", Offset = "0x26B2790", VA = "0x1826B4190", Slot = "6")]
+	[Address(RVA = "0x607D050", Offset = "0x607C050", VA = "0x607D050", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

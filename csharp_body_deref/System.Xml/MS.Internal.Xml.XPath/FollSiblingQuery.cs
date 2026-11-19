@@ -27,46 +27,46 @@ internal sealed class FollSiblingQuery : BaseAxisQuery
 	private XPathNavigator _nextInput;
 
 	[Token(Token = "0x6001AF4")]
-	[Address(RVA = "0x26B92C0", Offset = "0x26B78C0", VA = "0x1826B92C0")]
+	[Address(RVA = "0x6080C50", Offset = "0x607FC50", VA = "0x6080C50")]
 	public FollSiblingQuery(Query qyInput, string name, string prefix, XPathNodeType type)
 	{
 	}
 
 	[Token(Token = "0x6001AF5")]
-	[Address(RVA = "0x26B9150", Offset = "0x26B7750", VA = "0x1826B9150")]
+	[Address(RVA = "0x6080D30", Offset = "0x607FD30", VA = "0x6080D30")]
 	private FollSiblingQuery(FollSiblingQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AF6")]
-	[Address(RVA = "0x26B8F60", Offset = "0x26B7560", VA = "0x1826B8F60", Slot = "12")]
+	[Address(RVA = "0x6080E20", Offset = "0x607FE20", VA = "0x6080E20", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AF7")]
-	[Address(RVA = "0x26B9030", Offset = "0x26B7630", VA = "0x1826B9030")]
+	[Address(RVA = "0x6080EF0", Offset = "0x607FEF0", VA = "0x6080EF0")]
 	private bool Visited(XPathNavigator nav)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001AF8")]
-	[Address(RVA = "0x26B8E20", Offset = "0x26B7420", VA = "0x1826B8E20")]
+	[Address(RVA = "0x6081020", Offset = "0x6080020", VA = "0x6081020")]
 	private XPathNavigator FetchInput()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AF9")]
-	[Address(RVA = "0x26B8A80", Offset = "0x26B7080", VA = "0x1826B8A80", Slot = "15")]
+	[Address(RVA = "0x6081090", Offset = "0x6080090", VA = "0x6081090", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AFA")]
-	[Address(RVA = "0x26B8C80", Offset = "0x26B7280", VA = "0x1826B8C80", Slot = "6")]
+	[Address(RVA = "0x6081350", Offset = "0x6080350", VA = "0x6081350", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

@@ -28,13 +28,13 @@ public struct StyleLength : IStyleValue<Length>, IEquatable<StyleLength>
 	public Length value
 	{
 		[Token(Token = "0x600204E")]
-		[Address(RVA = "0x3114370", Offset = "0x3112970", VA = "0x183114370", Slot = "4")]
+		[Address(RVA = "0x6B13400", Offset = "0x6B12400", VA = "0x6B13400", Slot = "4")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x600204F")]
-		[Address(RVA = "0x31144D0", Offset = "0x3112AD0", VA = "0x1831144D0", Slot = "5")]
+		[Address(RVA = "0x6B13430", Offset = "0x6B12430", VA = "0x6B13430", Slot = "5")]
 		set
 		{
 		}
@@ -44,93 +44,93 @@ public struct StyleLength : IStyleValue<Length>, IEquatable<StyleLength>
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x6002050")]
-		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840", Slot = "6")]
+		[Address(RVA = "0x6B13450", Offset = "0x6B12450", VA = "0x6B13450", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x6002051")]
-		[Address(RVA = "0x3114480", Offset = "0x3112A80", VA = "0x183114480", Slot = "7")]
+		[Address(RVA = "0x6B13460", Offset = "0x6B12460", VA = "0x6B13460", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002052")]
-	[Address(RVA = "0x31142E0", Offset = "0x31128E0", VA = "0x1831142E0")]
+	[Address(RVA = "0x6B134A0", Offset = "0x6B124A0", VA = "0x6B134A0")]
 	public StyleLength(float v)
 	{
 	}
 
 	[Token(Token = "0x6002053")]
-	[Address(RVA = "0x3114340", Offset = "0x3112940", VA = "0x183114340")]
+	[Address(RVA = "0x6B134E0", Offset = "0x6B124E0", VA = "0x6B134E0")]
 	public StyleLength(Length v)
 	{
 	}
 
 	[Token(Token = "0x6002054")]
-	[Address(RVA = "0x3111850", Offset = "0x310FE50", VA = "0x183111850")]
+	[Address(RVA = "0x6B13500", Offset = "0x6B12500", VA = "0x6B13500")]
 	public StyleLength(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6002055")]
-	[Address(RVA = "0x3114310", Offset = "0x3112910", VA = "0x183114310")]
+	[Address(RVA = "0x6B0DD80", Offset = "0x6B0CD80", VA = "0x6B0DD80")]
 	internal StyleLength(Length v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x6002056")]
-	[Address(RVA = "0x3114390", Offset = "0x3112990", VA = "0x183114390")]
+	[Address(RVA = "0x6B13510", Offset = "0x6B12510", VA = "0x6B13510")]
 	public static bool operator ==(StyleLength lhs, StyleLength rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002057")]
-	[Address(RVA = "0x31118C0", Offset = "0x310FEC0", VA = "0x1831118C0")]
+	[Address(RVA = "0x6B0DDA0", Offset = "0x6B0CDA0", VA = "0x6B0DDA0")]
 	public static implicit operator StyleLength(StyleKeyword keyword)
 	{
 		return default(StyleLength);
 	}
 
 	[Token(Token = "0x6002058")]
-	[Address(RVA = "0x3114430", Offset = "0x3112A30", VA = "0x183114430")]
+	[Address(RVA = "0x6B13540", Offset = "0x6B12540", VA = "0x6B13540")]
 	public static implicit operator StyleLength(float v)
 	{
 		return default(StyleLength);
 	}
 
 	[Token(Token = "0x6002059")]
-	[Address(RVA = "0x31143D0", Offset = "0x31129D0", VA = "0x1831143D0")]
+	[Address(RVA = "0x6B13570", Offset = "0x6B12570", VA = "0x6B13570")]
 	public static implicit operator StyleLength(Length v)
 	{
 		return default(StyleLength);
 	}
 
 	[Token(Token = "0x600205A")]
-	[Address(RVA = "0x3114140", Offset = "0x3112740", VA = "0x183114140", Slot = "8")]
+	[Address(RVA = "0x6B13590", Offset = "0x6B12590", VA = "0x6B13590", Slot = "8")]
 	public bool Equals(StyleLength other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600205B")]
-	[Address(RVA = "0x3114180", Offset = "0x3112780", VA = "0x183114180", Slot = "0")]
+	[Address(RVA = "0x6B135C0", Offset = "0x6B125C0", VA = "0x6B135C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600205C")]
-	[Address(RVA = "0x3114240", Offset = "0x3112840", VA = "0x183114240", Slot = "2")]
+	[Address(RVA = "0x6B13640", Offset = "0x6B12640", VA = "0x6B13640", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600205D")]
-	[Address(RVA = "0x3114270", Offset = "0x3112870", VA = "0x183114270", Slot = "3")]
+	[Address(RVA = "0x6B13660", Offset = "0x6B12660", VA = "0x6B13660", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

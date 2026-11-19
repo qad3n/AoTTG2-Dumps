@@ -26,7 +26,7 @@ public struct CancellationTokenAwaitable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x6000099")]
-			[Address(RVA = "0x2909500", Offset = "0x2907B00", VA = "0x182909500")]
+			[Address(RVA = "0x62C3040", Offset = "0x62C2040", VA = "0x62C3040")]
 			get
 			{
 				return default(bool);
@@ -34,25 +34,25 @@ public struct CancellationTokenAwaitable
 		}
 
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x2909410", Offset = "0x2907A10", VA = "0x182909410")]
+		[Address(RVA = "0x62C3030", Offset = "0x62C2030", VA = "0x62C3030")]
 		public Awaiter(CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+		[Address(RVA = "0x62C30C0", Offset = "0x62C20C0", VA = "0x62C30C0")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x2908BB0", Offset = "0x29071B0", VA = "0x182908BB0", Slot = "5")]
+		[Address(RVA = "0x62C30D0", Offset = "0x62C20D0", VA = "0x62C30D0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x2908BB0", Offset = "0x29071B0", VA = "0x182908BB0", Slot = "4")]
+		[Address(RVA = "0x62C3130", Offset = "0x62C2130", VA = "0x62C3130", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
@@ -63,13 +63,13 @@ public struct CancellationTokenAwaitable
 	private CancellationToken cancellationToken;
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x2909410", Offset = "0x2907A10", VA = "0x182909410")]
+	[Address(RVA = "0x62C3000", Offset = "0x62C2000", VA = "0x62C3000")]
 	public CancellationTokenAwaitable(CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2909750", Offset = "0x2907D50", VA = "0x182909750")]
+	[Address(RVA = "0x62C3010", Offset = "0x62C2010", VA = "0x62C3010")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

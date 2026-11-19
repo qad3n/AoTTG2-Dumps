@@ -25,7 +25,7 @@ public class ClipperRegistry
 	public static ClipperRegistry instance
 	{
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x30639F0", Offset = "0x3061FF0", VA = "0x1830639F0")]
+		[Address(RVA = "0x6A5EBB0", Offset = "0x6A5DBB0", VA = "0x6A5EBB0")]
 		get
 		{
 			return null;
@@ -33,31 +33,31 @@ public class ClipperRegistry
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x3063970", Offset = "0x3061F70", VA = "0x183063970")]
+	[Address(RVA = "0x6A60240", Offset = "0x6A5F240", VA = "0x6A60240")]
 	protected ClipperRegistry()
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x3063720", Offset = "0x3061D20", VA = "0x183063720")]
+	[Address(RVA = "0x6A5ECA0", Offset = "0x6A5DCA0", VA = "0x6A5ECA0")]
 	public void Cull()
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x30638A0", Offset = "0x3061EA0", VA = "0x1830638A0")]
+	[Address(RVA = "0x6A602C0", Offset = "0x6A5F2C0", VA = "0x6A602C0")]
 	public static void Register(IClipper c)
 	{
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x3063910", Offset = "0x3061F10", VA = "0x183063910")]
+	[Address(RVA = "0x6A60320", Offset = "0x6A5F320", VA = "0x6A60320")]
 	public static void Unregister(IClipper c)
 	{
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x3063840", Offset = "0x3061E40", VA = "0x183063840")]
+	[Address(RVA = "0x6A60370", Offset = "0x6A5F370", VA = "0x6A60370")]
 	public static void Disable(IClipper c)
 	{
 	}

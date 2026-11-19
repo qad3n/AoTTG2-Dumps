@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000D1")]
+[Token(Token = "0x200010C")]
 internal interface IListSetting
 {
-	[Token(Token = "0x6000416")]
+	[Token(Token = "0x6000594")]
 	int GetCount();
 
-	[Token(Token = "0x6000417")]
+	[Token(Token = "0x6000595")]
 	BaseSetting GetItemAt(int index);
 
-	[Token(Token = "0x6000418")]
+	[Token(Token = "0x6000596")]
 	List<BaseSetting> GetItems();
 
-	[Token(Token = "0x6000419")]
+	[Token(Token = "0x6000597")]
 	void AddItem(BaseSetting item);
 
-	[Token(Token = "0x600041A")]
+	[Token(Token = "0x6000598")]
 	void Clear();
 }

@@ -54,55 +54,55 @@ public class PhotonTransformViewClassic : MonoBehaviourPun, IPunObservable
 	private bool m_firstTake;
 
 	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x1D64500", Offset = "0x1D62B00", VA = "0x181D64500")]
+	[Address(RVA = "0x56FDCB0", Offset = "0x56FCCB0", VA = "0x56FDCB0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x1D64700", Offset = "0x1D62D00", VA = "0x181D64700")]
+	[Address(RVA = "0x56FDF90", Offset = "0x56FCF90", VA = "0x56FDF90")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x1D650F0", Offset = "0x1D636F0", VA = "0x181D650F0")]
+	[Address(RVA = "0x56FDFA0", Offset = "0x56FCFA0", VA = "0x56FDFA0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x1D64BD0", Offset = "0x1D631D0", VA = "0x181D64BD0")]
+	[Address(RVA = "0x56FE0F0", Offset = "0x56FD0F0", VA = "0x56FE0F0")]
 	private void UpdatePosition()
 	{
 	}
 
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x1D64CA0", Offset = "0x1D632A0", VA = "0x181D64CA0")]
+	[Address(RVA = "0x56FE170", Offset = "0x56FD170", VA = "0x56FE170")]
 	private void UpdateRotation()
 	{
 	}
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x1D64ED0", Offset = "0x1D634D0", VA = "0x181D64ED0")]
+	[Address(RVA = "0x56FE1F0", Offset = "0x56FD1F0", VA = "0x56FE1F0")]
 	private void UpdateScale()
 	{
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x1D64BA0", Offset = "0x1D631A0", VA = "0x181D64BA0")]
+	[Address(RVA = "0x56FF050", Offset = "0x56FE050", VA = "0x56FF050")]
 	public void SetSynchronizedValues(Vector3 speed, float turnSpeed)
 	{
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x1D64710", Offset = "0x1D62D10", VA = "0x181D64710", Slot = "4")]
+	[Address(RVA = "0x56FF080", Offset = "0x56FE080", VA = "0x56FF080", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x1D65270", Offset = "0x1D63870", VA = "0x181D65270")]
+	[Address(RVA = "0x56FF560", Offset = "0x56FE560", VA = "0x56FF560")]
 	public PhotonTransformViewClassic()
 	{
 	}

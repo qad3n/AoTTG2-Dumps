@@ -146,7 +146,7 @@ public class StorageManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x600041B")]
-		[Address(RVA = "0x5437F0", Offset = "0x541DF0", VA = "0x1805437F0")]
+		[Address(RVA = "0x315B5F0", Offset = "0x315A5F0", VA = "0x315B5F0")]
 		get
 		{
 			return default(FFIMethods);
@@ -154,112 +154,112 @@ public class StorageManager
 	}
 
 	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x5436D0", Offset = "0x541CD0", VA = "0x1805436D0")]
+	[Address(RVA = "0x315B720", Offset = "0x315A720", VA = "0x315B720")]
 	internal StorageManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x542AB0", Offset = "0x5410B0", VA = "0x180542AB0")]
+	[Address(RVA = "0x315B7E0", Offset = "0x315A7E0", VA = "0x315B7E0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x5430F0", Offset = "0x5416F0", VA = "0x1805430F0")]
+	[Address(RVA = "0x315B840", Offset = "0x315A840", VA = "0x315B840")]
 	public uint Read(string name, byte[] data)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x542B20", Offset = "0x541120", VA = "0x180542B20")]
+	[Address(RVA = "0x315B250", Offset = "0x315A250", VA = "0x315B250")]
 	[MonoPInvokeCallback]
 	private static void ReadAsyncCallbackImpl(IntPtr ptr, Result result, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x542F90", Offset = "0x541590", VA = "0x180542F90")]
+	[Address(RVA = "0x315B8F0", Offset = "0x315A8F0", VA = "0x315B8F0")]
 	public void ReadAsync(string name, ReadAsyncHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x542CA0", Offset = "0x5412A0", VA = "0x180542CA0")]
+	[Address(RVA = "0x315B3B0", Offset = "0x315A3B0", VA = "0x315B3B0")]
 	[MonoPInvokeCallback]
 	private static void ReadAsyncPartialCallbackImpl(IntPtr ptr, Result result, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x542E20", Offset = "0x541420", VA = "0x180542E20")]
+	[Address(RVA = "0x315BAD0", Offset = "0x315AAD0", VA = "0x315BAD0")]
 	public void ReadAsyncPartial(string name, ulong offset, ulong length, ReadAsyncPartialHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000423")]
-	[Address(RVA = "0x543600", Offset = "0x541C00", VA = "0x180543600")]
+	[Address(RVA = "0x315BCC0", Offset = "0x315ACC0", VA = "0x315BCC0")]
 	public void Write(string name, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x543350", Offset = "0x541950", VA = "0x180543350")]
+	[Address(RVA = "0x315B510", Offset = "0x315A510", VA = "0x315B510")]
 	[MonoPInvokeCallback]
 	private static void WriteAsyncCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x543460", Offset = "0x541A60", VA = "0x180543460")]
+	[Address(RVA = "0x315BD60", Offset = "0x315AD60", VA = "0x315BD60")]
 	public void WriteAsync(string name, byte[] data, WriteAsyncHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x542610", Offset = "0x540C10", VA = "0x180542610")]
+	[Address(RVA = "0x315BF50", Offset = "0x315AF50", VA = "0x315BF50")]
 	public void Delete(string name)
 	{
 	}
 
 	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x5426B0", Offset = "0x540CB0", VA = "0x1805426B0")]
+	[Address(RVA = "0x315BFE0", Offset = "0x315AFE0", VA = "0x315BFE0")]
 	public bool Exists(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x5425B0", Offset = "0x540BB0", VA = "0x1805425B0")]
+	[Address(RVA = "0x315C080", Offset = "0x315B080", VA = "0x315C080")]
 	public int Count()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x543290", Offset = "0x541890", VA = "0x180543290")]
+	[Address(RVA = "0x315C0D0", Offset = "0x315B0D0", VA = "0x315C0D0")]
 	public FileStat Stat(string name)
 	{
 		return default(FileStat);
 	}
 
 	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x5431D0", Offset = "0x5417D0", VA = "0x1805431D0")]
+	[Address(RVA = "0x315C180", Offset = "0x315B180", VA = "0x315C180")]
 	public FileStat StatAt(int index)
 	{
 		return default(FileStat);
 	}
 
 	[Token(Token = "0x600042B")]
-	[Address(RVA = "0x5429C0", Offset = "0x540FC0", VA = "0x1805429C0")]
+	[Address(RVA = "0x315C230", Offset = "0x315B230", VA = "0x315C230")]
 	public string GetPath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042C")]
-	[Address(RVA = "0x542770", Offset = "0x540D70", VA = "0x180542770")]
+	[Address(RVA = "0x315C310", Offset = "0x315B310", VA = "0x315C310")]
 	public IEnumerable<FileStat> Files()
 	{
 		return null;

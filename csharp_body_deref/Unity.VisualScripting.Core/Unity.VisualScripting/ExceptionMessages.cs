@@ -17,7 +17,7 @@ public static class ExceptionMessages
 	public static string Common_IsNull_Failed
 	{
 		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x2DA6F50", Offset = "0x2DA5550", VA = "0x182DA6F50")]
+		[Address(RVA = "0x6795AF0", Offset = "0x6794AF0", VA = "0x6795AF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,7 +29,7 @@ public static class ExceptionMessages
 	public static string Common_IsNotNull_Failed
 	{
 		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x2DA6F00", Offset = "0x2DA5500", VA = "0x182DA6F00")]
+		[Address(RVA = "0x6795B60", Offset = "0x6794B60", VA = "0x6795B60")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +41,7 @@ public static class ExceptionMessages
 	public static string Booleans_IsTrueFailed
 	{
 		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x2DA6D20", Offset = "0x2DA5320", VA = "0x182DA6D20")]
+		[Address(RVA = "0x6795BD0", Offset = "0x6794BD0", VA = "0x6795BD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +53,7 @@ public static class ExceptionMessages
 	public static string Booleans_IsFalseFailed
 	{
 		[Token(Token = "0x6000260")]
-		[Address(RVA = "0x2DA6CD0", Offset = "0x2DA52D0", VA = "0x182DA6CD0")]
+		[Address(RVA = "0x6795C40", Offset = "0x6794C40", VA = "0x6795C40")]
 		[CompilerGenerated]
 		get
 		{
@@ -65,7 +65,7 @@ public static class ExceptionMessages
 	public static string Collections_Any_Failed
 	{
 		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x2DA6D70", Offset = "0x2DA5370", VA = "0x182DA6D70")]
+		[Address(RVA = "0x6795CB0", Offset = "0x6794CB0", VA = "0x6795CB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,7 +77,7 @@ public static class ExceptionMessages
 	public static string Collections_ContainsKey_Failed
 	{
 		[Token(Token = "0x6000262")]
-		[Address(RVA = "0x2DA6DC0", Offset = "0x2DA53C0", VA = "0x182DA6DC0")]
+		[Address(RVA = "0x6795D20", Offset = "0x6794D20", VA = "0x6795D20")]
 		[CompilerGenerated]
 		get
 		{
@@ -89,7 +89,7 @@ public static class ExceptionMessages
 	public static string Collections_HasItemsFailed
 	{
 		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x2DA6E10", Offset = "0x2DA5410", VA = "0x182DA6E10")]
+		[Address(RVA = "0x6795D90", Offset = "0x6794D90", VA = "0x6795D90")]
 		[CompilerGenerated]
 		get
 		{
@@ -101,7 +101,7 @@ public static class ExceptionMessages
 	public static string Collections_HasNoNullItemFailed
 	{
 		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x2DA6E60", Offset = "0x2DA5460", VA = "0x182DA6E60")]
+		[Address(RVA = "0x6795E00", Offset = "0x6794E00", VA = "0x6795E00")]
 		[CompilerGenerated]
 		get
 		{
@@ -113,7 +113,7 @@ public static class ExceptionMessages
 	public static string Collections_SizeIs_Failed
 	{
 		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x2DA6EB0", Offset = "0x2DA54B0", VA = "0x182DA6EB0")]
+		[Address(RVA = "0x6795E70", Offset = "0x6794E70", VA = "0x6795E70")]
 		[CompilerGenerated]
 		get
 		{
@@ -125,7 +125,7 @@ public static class ExceptionMessages
 	public static string Comp_Is_Failed
 	{
 		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x2DA71E0", Offset = "0x2DA57E0", VA = "0x182DA71E0")]
+		[Address(RVA = "0x6795EE0", Offset = "0x6794EE0", VA = "0x6795EE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -137,7 +137,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNot_Failed
 	{
 		[Token(Token = "0x6000267")]
-		[Address(RVA = "0x2DA7190", Offset = "0x2DA5790", VA = "0x182DA7190")]
+		[Address(RVA = "0x6795F50", Offset = "0x6794F50", VA = "0x6795F50")]
 		[CompilerGenerated]
 		get
 		{
@@ -149,7 +149,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotLt
 	{
 		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x2DA70F0", Offset = "0x2DA56F0", VA = "0x182DA70F0")]
+		[Address(RVA = "0x6795FC0", Offset = "0x6794FC0", VA = "0x6795FC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -161,7 +161,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotLte
 	{
 		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x2DA7140", Offset = "0x2DA5740", VA = "0x182DA7140")]
+		[Address(RVA = "0x6796030", Offset = "0x6795030", VA = "0x6796030")]
 		[CompilerGenerated]
 		get
 		{
@@ -173,7 +173,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotGt
 	{
 		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x2DA6FA0", Offset = "0x2DA55A0", VA = "0x182DA6FA0")]
+		[Address(RVA = "0x67960A0", Offset = "0x67950A0", VA = "0x67960A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -185,7 +185,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotGte
 	{
 		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x2DA6FF0", Offset = "0x2DA55F0", VA = "0x182DA6FF0")]
+		[Address(RVA = "0x6796110", Offset = "0x6795110", VA = "0x6796110")]
 		[CompilerGenerated]
 		get
 		{
@@ -197,7 +197,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotInRange_ToLow
 	{
 		[Token(Token = "0x600026C")]
-		[Address(RVA = "0x2DA70A0", Offset = "0x2DA56A0", VA = "0x182DA70A0")]
+		[Address(RVA = "0x6796180", Offset = "0x6795180", VA = "0x6796180")]
 		[CompilerGenerated]
 		get
 		{
@@ -209,7 +209,7 @@ public static class ExceptionMessages
 	public static string Comp_IsNotInRange_ToHigh
 	{
 		[Token(Token = "0x600026D")]
-		[Address(RVA = "0x2DA7040", Offset = "0x2DA5640", VA = "0x182DA7040")]
+		[Address(RVA = "0x67961F0", Offset = "0x67951F0", VA = "0x67961F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -221,7 +221,7 @@ public static class ExceptionMessages
 	public static string Guids_IsNotEmpty_Failed
 	{
 		[Token(Token = "0x600026E")]
-		[Address(RVA = "0x2DA7230", Offset = "0x2DA5830", VA = "0x182DA7230")]
+		[Address(RVA = "0x6796260", Offset = "0x6795260", VA = "0x6796260")]
 		[CompilerGenerated]
 		get
 		{
@@ -233,7 +233,7 @@ public static class ExceptionMessages
 	public static string Strings_IsEqualTo_Failed
 	{
 		[Token(Token = "0x600026F")]
-		[Address(RVA = "0x2DA7470", Offset = "0x2DA5A70", VA = "0x182DA7470")]
+		[Address(RVA = "0x67962D0", Offset = "0x67952D0", VA = "0x67962D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -245,7 +245,7 @@ public static class ExceptionMessages
 	public static string Strings_IsNotEqualTo_Failed
 	{
 		[Token(Token = "0x6000270")]
-		[Address(RVA = "0x2DA7590", Offset = "0x2DA5B90", VA = "0x182DA7590")]
+		[Address(RVA = "0x6796340", Offset = "0x6795340", VA = "0x6796340")]
 		[CompilerGenerated]
 		get
 		{
@@ -257,7 +257,7 @@ public static class ExceptionMessages
 	public static string Strings_SizeIs_Failed
 	{
 		[Token(Token = "0x6000271")]
-		[Address(RVA = "0x2DA7710", Offset = "0x2DA5D10", VA = "0x182DA7710")]
+		[Address(RVA = "0x67963B0", Offset = "0x67953B0", VA = "0x67963B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -269,7 +269,7 @@ public static class ExceptionMessages
 	public static string Strings_IsNotNullOrWhiteSpace_Failed
 	{
 		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x2DA7650", Offset = "0x2DA5C50", VA = "0x182DA7650")]
+		[Address(RVA = "0x6796420", Offset = "0x6795420", VA = "0x6796420")]
 		[CompilerGenerated]
 		get
 		{
@@ -281,7 +281,7 @@ public static class ExceptionMessages
 	public static string Strings_IsNotNullOrEmpty_Failed
 	{
 		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x2DA75F0", Offset = "0x2DA5BF0", VA = "0x182DA75F0")]
+		[Address(RVA = "0x6796490", Offset = "0x6795490", VA = "0x6796490")]
 		[CompilerGenerated]
 		get
 		{
@@ -293,7 +293,7 @@ public static class ExceptionMessages
 	public static string Strings_HasLengthBetween_Failed_ToShort
 	{
 		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x2DA7410", Offset = "0x2DA5A10", VA = "0x182DA7410")]
+		[Address(RVA = "0x6796500", Offset = "0x6795500", VA = "0x6796500")]
 		[CompilerGenerated]
 		get
 		{
@@ -305,7 +305,7 @@ public static class ExceptionMessages
 	public static string Strings_HasLengthBetween_Failed_ToLong
 	{
 		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x2DA73B0", Offset = "0x2DA59B0", VA = "0x182DA73B0")]
+		[Address(RVA = "0x6796570", Offset = "0x6795570", VA = "0x6796570")]
 		[CompilerGenerated]
 		get
 		{
@@ -317,7 +317,7 @@ public static class ExceptionMessages
 	public static string Strings_Matches_Failed
 	{
 		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x2DA76B0", Offset = "0x2DA5CB0", VA = "0x182DA76B0")]
+		[Address(RVA = "0x67965E0", Offset = "0x67955E0", VA = "0x67965E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -329,7 +329,7 @@ public static class ExceptionMessages
 	public static string Strings_IsNotEmpty_Failed
 	{
 		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x2DA7530", Offset = "0x2DA5B30", VA = "0x182DA7530")]
+		[Address(RVA = "0x6796650", Offset = "0x6795650", VA = "0x6796650")]
 		[CompilerGenerated]
 		get
 		{
@@ -341,7 +341,7 @@ public static class ExceptionMessages
 	public static string Strings_IsGuid_Failed
 	{
 		[Token(Token = "0x6000278")]
-		[Address(RVA = "0x2DA74D0", Offset = "0x2DA5AD0", VA = "0x182DA74D0")]
+		[Address(RVA = "0x67966C0", Offset = "0x67956C0", VA = "0x67966C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -353,7 +353,7 @@ public static class ExceptionMessages
 	public static string Types_IsOfType_Failed
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x2DA7770", Offset = "0x2DA5D70", VA = "0x182DA7770")]
+		[Address(RVA = "0x6796730", Offset = "0x6795730", VA = "0x6796730")]
 		[CompilerGenerated]
 		get
 		{
@@ -365,7 +365,7 @@ public static class ExceptionMessages
 	public static string Reflection_HasAttribute_Failed
 	{
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x2DA7290", Offset = "0x2DA5890", VA = "0x182DA7290")]
+		[Address(RVA = "0x67967A0", Offset = "0x67957A0", VA = "0x67967A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -377,7 +377,7 @@ public static class ExceptionMessages
 	public static string Reflection_HasConstructor_Failed
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x2DA72F0", Offset = "0x2DA58F0", VA = "0x182DA72F0")]
+		[Address(RVA = "0x6796810", Offset = "0x6795810", VA = "0x6796810")]
 		[CompilerGenerated]
 		get
 		{
@@ -389,7 +389,7 @@ public static class ExceptionMessages
 	public static string Reflection_HasPublicConstructor_Failed
 	{
 		[Token(Token = "0x600027C")]
-		[Address(RVA = "0x2DA7350", Offset = "0x2DA5950", VA = "0x182DA7350")]
+		[Address(RVA = "0x6796880", Offset = "0x6795880", VA = "0x6796880")]
 		[CompilerGenerated]
 		get
 		{
@@ -401,7 +401,7 @@ public static class ExceptionMessages
 	public static string ValueTypes_IsNotDefault_Failed
 	{
 		[Token(Token = "0x600027D")]
-		[Address(RVA = "0x2DA77D0", Offset = "0x2DA5DD0", VA = "0x182DA77D0")]
+		[Address(RVA = "0x67968F0", Offset = "0x67958F0", VA = "0x67968F0")]
 		[CompilerGenerated]
 		get
 		{

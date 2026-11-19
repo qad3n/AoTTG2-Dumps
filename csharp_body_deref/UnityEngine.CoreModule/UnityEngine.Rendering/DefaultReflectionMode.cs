@@ -12,8 +12,8 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000329")]
 public enum DefaultReflectionMode
 {
-	[Token(Token = "0x4000870")]
+	[Token(Token = "0x400086E")]
 	Skybox,
-	[Token(Token = "0x4000871")]
+	[Token(Token = "0x400086F")]
 	Custom
 }

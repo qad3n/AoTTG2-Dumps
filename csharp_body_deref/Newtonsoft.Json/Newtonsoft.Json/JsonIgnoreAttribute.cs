@@ -15,7 +15,7 @@ namespace Newtonsoft.Json;
 public sealed class JsonIgnoreAttribute : Attribute
 {
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x555B5F0", Offset = "0x555A5F0", VA = "0x555B5F0")]
 	public JsonIgnoreAttribute()
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Weather;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x2000038")]
 public enum WeatherValueSelectType
 {
-	[Token(Token = "0x400013B")]
+	[Token(Token = "0x4000142")]
 	None,
-	[Token(Token = "0x400013C")]
+	[Token(Token = "0x4000143")]
 	Constant,
-	[Token(Token = "0x400013D")]
+	[Token(Token = "0x4000144")]
 	RandomBetween,
-	[Token(Token = "0x400013E")]
+	[Token(Token = "0x4000145")]
 	RandomFromList
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DebugDisplaySettingsHDROutput
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -73,14 +73,14 @@ public class DebugDisplaySettingsHDROutput
 	}
 
 	[Token(Token = "0x600058D")]
-	[Address(RVA = "0x2AD4320", Offset = "0x2AD2920", VA = "0x182AD4320")]
+	[Address(RVA = "0x64BF8E0", Offset = "0x64BE8E0", VA = "0x64BF8E0")]
 	public static DebugUI.Table CreateHDROuputDisplayTable()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64C0A00", Offset = "0x64BFA00", VA = "0x64C0A00")]
 	public DebugDisplaySettingsHDROutput()
 	{
 	}

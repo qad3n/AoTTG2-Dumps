@@ -18,57 +18,57 @@ namespace DG.Tweening.Plugins;
 public class Vector2Plugin : ABSTweenPlugin<Vector2, Vector2, VectorOptions>
 {
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x318A8F0", Offset = "0x31898F0", VA = "0x318A8F0", Slot = "4")]
 	public override void Reset(TweenerCore<Vector2, Vector2, VectorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x574C90", Offset = "0x573290", VA = "0x180574C90", Slot = "5")]
+	[Address(RVA = "0x318A900", Offset = "0x3189900", VA = "0x318A900", Slot = "5")]
 	public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x574AE0", Offset = "0x5730E0", VA = "0x180574AE0", Slot = "6")]
+	[Address(RVA = "0x318AB60", Offset = "0x3189B60", VA = "0x318AB60", Slot = "6")]
 	public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x546D10", Offset = "0x545310", VA = "0x180546D10", Slot = "7")]
+	[Address(RVA = "0x318AE10", Offset = "0x3189E10", VA = "0x318AE10", Slot = "7")]
 	public override Vector2 ConvertToStartValue(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 value)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x574DD0", Offset = "0x5733D0", VA = "0x180574DD0", Slot = "8")]
+	[Address(RVA = "0x318AE20", Offset = "0x3189E20", VA = "0x318AE20", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<Vector2, Vector2, VectorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x574A50", Offset = "0x573050", VA = "0x180574A50", Slot = "9")]
+	[Address(RVA = "0x318AE50", Offset = "0x3189E50", VA = "0x318AE50", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<Vector2, Vector2, VectorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x5749A0", Offset = "0x572FA0", VA = "0x1805749A0", Slot = "10")]
+	[Address(RVA = "0x318AED0", Offset = "0x3189ED0", VA = "0x318AED0", Slot = "10")]
 	public override float GetSpeedBasedDuration(VectorOptions options, float unitsXSecond, Vector2 changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x574670", Offset = "0x572C70", VA = "0x180574670", Slot = "11")]
+	[Address(RVA = "0x318AF80", Offset = "0x3189F80", VA = "0x318AF80", Slot = "11")]
 	public override void EvaluateAndApply(VectorOptions options, Tween t, bool isRelative, DOGetter<Vector2> getter, DOSetter<Vector2> setter, float elapsed, Vector2 startValue, Vector2 changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x574E00", Offset = "0x573400", VA = "0x180574E00")]
+	[Address(RVA = "0x318B500", Offset = "0x318A500", VA = "0x318B500")]
 	public Vector2Plugin()
 	{
 	}

@@ -10,72 +10,72 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000B8")]
+[Token(Token = "0x2000079")]
 internal static class SecurityUtils
 {
-	[Token(Token = "0x600036E")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60001BA")]
+	[Address(RVA = "0x61D4F10", Offset = "0x61D3F10", VA = "0x61D4F10")]
 	private static void DemandReflectionAccess(Type type)
 	{
 	}
 
-	[Token(Token = "0x600036F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x60001BB")]
+	[Address(RVA = "0x61D4F20", Offset = "0x61D3F20", VA = "0x61D4F20")]
 	private static void DemandGrantSet(Assembly assembly)
 	{
 	}
 
-	[Token(Token = "0x6000370")]
-	[Address(RVA = "0x2840FC0", Offset = "0x283F5C0", VA = "0x182840FC0")]
+	[Token(Token = "0x60001BC")]
+	[Address(RVA = "0x61D4F30", Offset = "0x61D3F30", VA = "0x61D4F30")]
 	private static bool HasReflectionPermission(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x2841390", Offset = "0x283F990", VA = "0x182841390")]
+	[Token(Token = "0x60001BD")]
+	[Address(RVA = "0x61D4F40", Offset = "0x61D3F40", VA = "0x61D4F40")]
 	internal static object SecureCreateInstance(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x2841450", Offset = "0x283FA50", VA = "0x182841450")]
+	[Token(Token = "0x60001BE")]
+	[Address(RVA = "0x61D4F50", Offset = "0x61D3F50", VA = "0x61D4F50")]
 	internal static object SecureCreateInstance(Type type, object[] args, bool allowNonPublic)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000373")]
-	[Address(RVA = "0x2841550", Offset = "0x283FB50", VA = "0x182841550")]
+	[Token(Token = "0x60001BF")]
+	[Address(RVA = "0x61D5010", Offset = "0x61D4010", VA = "0x61D5010")]
 	internal static object SecureCreateInstance(Type type, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000374")]
-	[Address(RVA = "0x28410D0", Offset = "0x283F6D0", VA = "0x1828410D0")]
+	[Token(Token = "0x60001C0")]
+	[Address(RVA = "0x61D5020", Offset = "0x61D4020", VA = "0x61D5020")]
 	internal static object SecureConstructorInvoke(Type type, Type[] argTypes, object[] args, bool allowNonPublic)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000375")]
-	[Address(RVA = "0x2841230", Offset = "0x283F830", VA = "0x182841230")]
+	[Token(Token = "0x60001C1")]
+	[Address(RVA = "0x61D5030", Offset = "0x61D4030", VA = "0x61D5030")]
 	internal static object SecureConstructorInvoke(Type type, Type[] argTypes, object[] args, bool allowNonPublic, BindingFlags extraFlags)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x2840F20", Offset = "0x283F520", VA = "0x182840F20")]
+	[Token(Token = "0x60001C2")]
+	[Address(RVA = "0x61D5160", Offset = "0x61D4160", VA = "0x61D5160")]
 	private static bool GenericArgumentsAreVisible(MethodInfo method)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x2840FE0", Offset = "0x283F5E0", VA = "0x182840FE0")]
+	[Token(Token = "0x60001C3")]
+	[Address(RVA = "0x61D51F0", Offset = "0x61D41F0", VA = "0x61D51F0")]
 	internal static object MethodInfoInvoke(MethodInfo method, object target, object[] args)
 	{
 		return null;

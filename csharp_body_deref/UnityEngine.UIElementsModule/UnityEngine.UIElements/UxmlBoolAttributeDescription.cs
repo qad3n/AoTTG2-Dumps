@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlBoolAttributeDescription : TypedUxmlAttributeDescription<bool>
 {
 	[Token(Token = "0x600268A")]
-	[Address(RVA = "0x3156360", Offset = "0x3154960", VA = "0x183156360")]
+	[Address(RVA = "0x6B5A110", Offset = "0x6B59110", VA = "0x6B5A110")]
 	public UxmlBoolAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x600268B")]
-	[Address(RVA = "0x31561F0", Offset = "0x31547F0", VA = "0x1831561F0", Slot = "4")]
+	[Address(RVA = "0x6B5A1A0", Offset = "0x6B591A0", VA = "0x6B5A1A0", Slot = "4")]
 	public override bool GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600268C")]
-	[Address(RVA = "0x3156190", Offset = "0x3154790", VA = "0x183156190")]
+	[Address(RVA = "0x6B5A320", Offset = "0x6B59320", VA = "0x6B5A320")]
 	private static bool ConvertValueToBool(string v, bool defaultValue)
 	{
 		return default(bool);

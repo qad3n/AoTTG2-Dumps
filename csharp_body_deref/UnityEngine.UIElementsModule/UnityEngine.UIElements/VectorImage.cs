@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VectorImage
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,14 +24,14 @@ public sealed class VectorImage : ScriptableObject
 
 	[Token(Token = "0x400118F")]
 	[FieldOffset(Offset = "0x20")]
-	[SerializeField]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
+	[SerializeField]
 	internal Texture2D atlas;
 
 	[Token(Token = "0x4001190")]
 	[FieldOffset(Offset = "0x28")]
-	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
 	[SerializeField]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
 	internal VectorImageVertex[] vertices;
 
 	[Token(Token = "0x4001191")]
@@ -56,7 +56,7 @@ public sealed class VectorImage : ScriptableObject
 	public float width
 	{
 		[Token(Token = "0x60027B0")]
-		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
+		[Address(RVA = "0x6B69360", Offset = "0x6B68360", VA = "0x6B69360")]
 		get
 		{
 			return default(float);
@@ -67,7 +67,7 @@ public sealed class VectorImage : ScriptableObject
 	public float height
 	{
 		[Token(Token = "0x60027B1")]
-		[Address(RVA = "0x2AC3BA0", Offset = "0x2AC21A0", VA = "0x182AC3BA0")]
+		[Address(RVA = "0x6B69370", Offset = "0x6B68370", VA = "0x6B69370")]
 		get
 		{
 			return default(float);
@@ -75,13 +75,13 @@ public sealed class VectorImage : ScriptableObject
 	}
 
 	[Token(Token = "0x60027B2")]
-	[Address(RVA = "0x3162210", Offset = "0x3160810", VA = "0x183162210")]
+	[Address(RVA = "0x6B69380", Offset = "0x6B68380", VA = "0x6B69380")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60027B3")]
-	[Address(RVA = "0x31622A0", Offset = "0x31608A0", VA = "0x1831622A0")]
+	[Address(RVA = "0x6B69410", Offset = "0x6B68410", VA = "0x6B69410")]
 	public VectorImage()
 	{
 	}

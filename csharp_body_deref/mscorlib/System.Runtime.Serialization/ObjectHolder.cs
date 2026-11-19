@@ -10,86 +10,97 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x200040F")]
+[Token(Token = "0x20003E8")]
 internal sealed class ObjectHolder
 {
-	[Token(Token = "0x4000FFA")]
+	[Token(Token = "0x4000F5A")]
 	[FieldOffset(Offset = "0x10")]
 	private object m_object;
 
-	[Token(Token = "0x4000FFB")]
+	[Token(Token = "0x4000F5B")]
 	[FieldOffset(Offset = "0x18")]
 	internal long m_id;
 
-	[Token(Token = "0x4000FFC")]
+	[Token(Token = "0x4000F5C")]
 	[FieldOffset(Offset = "0x20")]
 	private int m_missingElementsRemaining;
 
-	[Token(Token = "0x4000FFD")]
+	[Token(Token = "0x4000F5D")]
 	[FieldOffset(Offset = "0x24")]
 	private int m_missingDecendents;
 
-	[Token(Token = "0x4000FFE")]
+	[Token(Token = "0x4000F5E")]
 	[FieldOffset(Offset = "0x28")]
 	internal SerializationInfo m_serInfo;
 
-	[Token(Token = "0x4000FFF")]
+	[Token(Token = "0x4000F5F")]
 	[FieldOffset(Offset = "0x30")]
 	internal ISerializationSurrogate m_surrogate;
 
-	[Token(Token = "0x4001000")]
+	[Token(Token = "0x4000F60")]
 	[FieldOffset(Offset = "0x38")]
 	internal System.Runtime.Serialization.FixupHolderList m_missingElements;
 
-	[Token(Token = "0x4001001")]
+	[Token(Token = "0x4000F61")]
 	[FieldOffset(Offset = "0x40")]
 	internal System.Runtime.Serialization.LongList m_dependentObjects;
 
-	[Token(Token = "0x4001002")]
+	[Token(Token = "0x4000F62")]
 	[FieldOffset(Offset = "0x48")]
 	internal System.Runtime.Serialization.ObjectHolder m_next;
 
-	[Token(Token = "0x4001003")]
+	[Token(Token = "0x4000F63")]
 	[FieldOffset(Offset = "0x50")]
 	internal int m_flags;
 
-	[Token(Token = "0x4001004")]
+	[Token(Token = "0x4000F64")]
 	[FieldOffset(Offset = "0x54")]
 	private bool m_markForFixupWhenAvailable;
 
-	[Token(Token = "0x4001005")]
+	[Token(Token = "0x4000F65")]
 	[FieldOffset(Offset = "0x58")]
 	private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup;
 
-	[Token(Token = "0x4001006")]
+	[Token(Token = "0x4000F66")]
 	[FieldOffset(Offset = "0x60")]
 	private System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad;
 
-	[Token(Token = "0x4001007")]
+	[Token(Token = "0x4000F67")]
 	[FieldOffset(Offset = "0x68")]
 	private bool m_reachable;
 
-	[Token(Token = "0x17000420")]
+	[Token(Token = "0x1700041F")]
 	internal bool IsIncompleteObjectReference
 	{
-		[Token(Token = "0x600201C")]
-		[Address(RVA = "0x1A16070", Offset = "0x1A14670", VA = "0x181A16070")]
+		[Token(Token = "0x6001FF2")]
+		[Address(RVA = "0x53A0C60", Offset = "0x539FC60", VA = "0x53A0C60")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600201D")]
-		[Address(RVA = "0x1A16100", Offset = "0x1A14700", VA = "0x181A16100")]
+		[Token(Token = "0x6001FF3")]
+		[Address(RVA = "0x53A22F0", Offset = "0x53A12F0", VA = "0x53A22F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000421")]
+	[Token(Token = "0x17000420")]
 	internal bool RequiresDelayedFixup
 	{
-		[Token(Token = "0x600201E")]
-		[Address(RVA = "0x1A16080", Offset = "0x1A14680", VA = "0x181A16080")]
+		[Token(Token = "0x6001FF4")]
+		[Address(RVA = "0x53A3980", Offset = "0x53A2980", VA = "0x53A3980")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000421")]
+	internal bool RequiresValueTypeFixup
+	{
+		[Token(Token = "0x6001FF5")]
+		[Address(RVA = "0x53A1430", Offset = "0x53A0430", VA = "0x53A1430")]
 		get
 		{
 			return default(bool);
@@ -97,37 +108,37 @@ internal sealed class ObjectHolder
 	}
 
 	[Token(Token = "0x17000422")]
-	internal bool RequiresValueTypeFixup
-	{
-		[Token(Token = "0x600201F")]
-		[Address(RVA = "0x1A160B0", Offset = "0x1A146B0", VA = "0x181A160B0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000423")]
 	internal bool ValueTypeFixupPerformed
 	{
-		[Token(Token = "0x6002020")]
-		[Address(RVA = "0x1A160D0", Offset = "0x1A146D0", VA = "0x181A160D0")]
+		[Token(Token = "0x6001FF6")]
+		[Address(RVA = "0x53A1440", Offset = "0x53A0440", VA = "0x53A1440")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002021")]
-		[Address(RVA = "0x1A16140", Offset = "0x1A14740", VA = "0x181A16140")]
+		[Token(Token = "0x6001FF7")]
+		[Address(RVA = "0x53A2CB0", Offset = "0x53A1CB0", VA = "0x53A2CB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000424")]
+	[Token(Token = "0x17000423")]
 	internal bool HasISerializable
 	{
-		[Token(Token = "0x6002022")]
-		[Address(RVA = "0x1A16050", Offset = "0x1A14650", VA = "0x181A16050")]
+		[Token(Token = "0x6001FF8")]
+		[Address(RVA = "0x53A2AB0", Offset = "0x53A1AB0", VA = "0x53A2AB0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000424")]
+	internal bool HasSurrogate
+	{
+		[Token(Token = "0x6001FF9")]
+		[Address(RVA = "0x53A0F70", Offset = "0x539FF70", VA = "0x53A0F70")]
 		get
 		{
 			return default(bool);
@@ -135,10 +146,10 @@ internal sealed class ObjectHolder
 	}
 
 	[Token(Token = "0x17000425")]
-	internal bool HasSurrogate
+	internal bool CanSurrogatedObjectValueChange
 	{
-		[Token(Token = "0x6002023")]
-		[Address(RVA = "0x1A16060", Offset = "0x1A14660", VA = "0x181A16060")]
+		[Token(Token = "0x6001FFA")]
+		[Address(RVA = "0x53A0F80", Offset = "0x539FF80", VA = "0x53A0F80")]
 		get
 		{
 			return default(bool);
@@ -146,10 +157,10 @@ internal sealed class ObjectHolder
 	}
 
 	[Token(Token = "0x17000426")]
-	internal bool CanSurrogatedObjectValueChange
+	internal bool CanObjectValueChange
 	{
-		[Token(Token = "0x6002024")]
-		[Address(RVA = "0x1A15F80", Offset = "0x1A14580", VA = "0x181A15F80")]
+		[Token(Token = "0x6001FFB")]
+		[Address(RVA = "0x53A0BC0", Offset = "0x539FBC0", VA = "0x53A0BC0")]
 		get
 		{
 			return default(bool);
@@ -157,21 +168,21 @@ internal sealed class ObjectHolder
 	}
 
 	[Token(Token = "0x17000427")]
-	internal bool CanObjectValueChange
+	internal int DirectlyDependentObjects
 	{
-		[Token(Token = "0x6002025")]
-		[Address(RVA = "0x1A15F60", Offset = "0x1A14560", VA = "0x181A15F60")]
+		[Token(Token = "0x6001FFC")]
+		[Address(RVA = "0x53A4FA0", Offset = "0x53A3FA0", VA = "0x53A4FA0")]
 		get
 		{
-			return default(bool);
+			return default(int);
 		}
 	}
 
 	[Token(Token = "0x17000428")]
-	internal int DirectlyDependentObjects
+	internal int TotalDependentObjects
 	{
-		[Token(Token = "0x6002026")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x6001FFD")]
+		[Address(RVA = "0x53A3B80", Offset = "0x53A2B80", VA = "0x53A3B80")]
 		get
 		{
 			return default(int);
@@ -179,236 +190,225 @@ internal sealed class ObjectHolder
 	}
 
 	[Token(Token = "0x17000429")]
-	internal int TotalDependentObjects
+	internal bool Reachable
 	{
-		[Token(Token = "0x6002027")]
-		[Address(RVA = "0x19818D0", Offset = "0x197FED0", VA = "0x1819818D0")]
+		[Token(Token = "0x6001FFE")]
+		[Address(RVA = "0x53A4FB0", Offset = "0x53A3FB0", VA = "0x53A4FB0")]
 		get
 		{
-			return default(int);
+			return default(bool);
+		}
+		[Token(Token = "0x6001FFF")]
+		[Address(RVA = "0x53A4FC0", Offset = "0x53A3FC0", VA = "0x53A4FC0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700042A")]
-	internal bool Reachable
+	internal bool TypeLoadExceptionReachable
 	{
-		[Token(Token = "0x6002028")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Token(Token = "0x6002000")]
+		[Address(RVA = "0x53A2CA0", Offset = "0x53A1CA0", VA = "0x53A2CA0")]
 		get
 		{
 			return default(bool);
-		}
-		[Token(Token = "0x6002029")]
-		[Address(RVA = "0x12BF400", Offset = "0x12BDA00", VA = "0x1812BF400")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700042B")]
-	internal bool TypeLoadExceptionReachable
+	internal System.Runtime.Serialization.TypeLoadExceptionHolder TypeLoadException
 	{
-		[Token(Token = "0x600202A")]
-		[Address(RVA = "0x1A160C0", Offset = "0x1A146C0", VA = "0x181A160C0")]
+		[Token(Token = "0x6002001")]
+		[Address(RVA = "0x53A4FD0", Offset = "0x53A3FD0", VA = "0x53A4FD0")]
 		get
 		{
-			return default(bool);
+			return null;
+		}
+		[Token(Token = "0x6002002")]
+		[Address(RVA = "0x53A4FE0", Offset = "0x53A3FE0", VA = "0x53A4FE0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700042C")]
-	internal System.Runtime.Serialization.TypeLoadExceptionHolder TypeLoadException
+	internal object ObjectValue
 	{
-		[Token(Token = "0x600202B")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Token(Token = "0x6002003")]
+		[Address(RVA = "0x53A4FF0", Offset = "0x53A3FF0", VA = "0x53A4FF0")]
 		get
 		{
 			return null;
-		}
-		[Token(Token = "0x600202C")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700042D")]
-	internal object ObjectValue
-	{
-		[Token(Token = "0x600202D")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700042E")]
 	internal SerializationInfo SerializationInfo
 	{
-		[Token(Token = "0x600202F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6002005")]
+		[Address(RVA = "0x53A5000", Offset = "0x53A4000", VA = "0x53A5000")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002030")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6002006")]
+		[Address(RVA = "0x53A5010", Offset = "0x53A4010", VA = "0x53A5010")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700042F")]
+	[Token(Token = "0x1700042E")]
 	internal ISerializationSurrogate Surrogate
 	{
-		[Token(Token = "0x6002031")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6002007")]
+		[Address(RVA = "0x53A5020", Offset = "0x53A4020", VA = "0x53A5020")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000430")]
+	[Token(Token = "0x1700042F")]
 	internal System.Runtime.Serialization.LongList DependentObjects
 	{
-		[Token(Token = "0x6002032")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6002008")]
+		[Address(RVA = "0x53A5030", Offset = "0x53A4030", VA = "0x53A5030")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002033")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Token(Token = "0x6002009")]
+		[Address(RVA = "0x53A5040", Offset = "0x53A4040", VA = "0x53A5040")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000430")]
+	internal bool RequiresSerInfoFixup
+	{
+		[Token(Token = "0x600200A")]
+		[Address(RVA = "0x53A41D0", Offset = "0x53A31D0", VA = "0x53A41D0")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x600200B")]
+		[Address(RVA = "0x53A1410", Offset = "0x53A0410", VA = "0x53A1410")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000431")]
-	internal bool RequiresSerInfoFixup
-	{
-		[Token(Token = "0x6002034")]
-		[Address(RVA = "0x1A16090", Offset = "0x1A14690", VA = "0x181A16090")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6002035")]
-		[Address(RVA = "0x1A16120", Offset = "0x1A14720", VA = "0x181A16120")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000432")]
 	internal System.Runtime.Serialization.ValueTypeFixupInfo ValueFixup
 	{
-		[Token(Token = "0x6002036")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Token(Token = "0x600200C")]
+		[Address(RVA = "0x53A5050", Offset = "0x53A4050", VA = "0x53A5050")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000433")]
+	[Token(Token = "0x17000432")]
 	internal bool CompletelyFixed
 	{
-		[Token(Token = "0x6002037")]
-		[Address(RVA = "0x1A16010", Offset = "0x1A14610", VA = "0x181A16010")]
+		[Token(Token = "0x600200D")]
+		[Address(RVA = "0x53A0BA0", Offset = "0x539FBA0", VA = "0x53A0BA0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000434")]
+	[Token(Token = "0x17000433")]
 	internal long ContainerID
 	{
-		[Token(Token = "0x6002038")]
-		[Address(RVA = "0x1A16030", Offset = "0x1A14630", VA = "0x181A16030")]
+		[Token(Token = "0x600200E")]
+		[Address(RVA = "0x53A4E50", Offset = "0x53A3E50", VA = "0x53A4E50")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x6002010")]
-	[Address(RVA = "0x1A15B10", Offset = "0x1A14110", VA = "0x181A15B10")]
+	[Token(Token = "0x6001FE6")]
+	[Address(RVA = "0x53A06D0", Offset = "0x539F6D0", VA = "0x53A06D0")]
 	internal ObjectHolder(long objID)
 	{
 	}
 
-	[Token(Token = "0x6002011")]
-	[Address(RVA = "0x1A15BD0", Offset = "0x1A141D0", VA = "0x181A15BD0")]
+	[Token(Token = "0x6001FE7")]
+	[Address(RVA = "0x53A3720", Offset = "0x53A2720", VA = "0x53A3720")]
 	internal ObjectHolder(object obj, long objID, SerializationInfo info, ISerializationSurrogate surrogate, long idOfContainingObj, FieldInfo field, int[] arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x6002012")]
-	[Address(RVA = "0x1A15E50", Offset = "0x1A14450", VA = "0x181A15E50")]
+	[Token(Token = "0x6001FE8")]
+	[Address(RVA = "0x53A2FC0", Offset = "0x53A1FC0", VA = "0x53A2FC0")]
 	internal ObjectHolder(string obj, long objID, SerializationInfo info, ISerializationSurrogate surrogate, long idOfContainingObj, FieldInfo field, int[] arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x6002013")]
-	[Address(RVA = "0x1A155B0", Offset = "0x1A13BB0", VA = "0x181A155B0")]
+	[Token(Token = "0x6001FE9")]
+	[Address(RVA = "0x53A4D00", Offset = "0x53A3D00", VA = "0x53A4D00")]
 	private void IncrementDescendentFixups(int amount)
 	{
 	}
 
-	[Token(Token = "0x6002014")]
-	[Address(RVA = "0x1A15590", Offset = "0x1A13B90", VA = "0x181A15590")]
+	[Token(Token = "0x6001FEA")]
+	[Address(RVA = "0x53A2BC0", Offset = "0x53A1BC0", VA = "0x53A2BC0")]
 	internal void DecrementFixupsRemaining(ObjectManager manager)
 	{
 	}
 
-	[Token(Token = "0x6002015")]
-	[Address(RVA = "0x1A155D0", Offset = "0x1A13BD0", VA = "0x181A155D0")]
+	[Token(Token = "0x6001FEB")]
+	[Address(RVA = "0x53A2C20", Offset = "0x53A1C20", VA = "0x53A2C20")]
 	internal void RemoveDependency(long id)
 	{
 	}
 
-	[Token(Token = "0x6002016")]
-	[Address(RVA = "0x1A15490", Offset = "0x1A13A90", VA = "0x181A15490")]
+	[Token(Token = "0x6001FEC")]
+	[Address(RVA = "0x53A4380", Offset = "0x53A3380", VA = "0x53A4380")]
 	internal void AddFixup(System.Runtime.Serialization.FixupHolder fixup, ObjectManager manager)
 	{
 	}
 
-	[Token(Token = "0x6002017")]
-	[Address(RVA = "0x1A159A0", Offset = "0x1A13FA0", VA = "0x181A159A0")]
+	[Token(Token = "0x6001FED")]
+	[Address(RVA = "0x53A4D10", Offset = "0x53A3D10", VA = "0x53A4D10")]
 	private void UpdateDescendentDependencyChain(int amount, ObjectManager manager)
 	{
 	}
 
-	[Token(Token = "0x6002018")]
-	[Address(RVA = "0x1A15320", Offset = "0x1A13920", VA = "0x181A15320")]
+	[Token(Token = "0x6001FEE")]
+	[Address(RVA = "0x53A44B0", Offset = "0x53A34B0", VA = "0x53A44B0")]
 	internal void AddDependency(long dependentObject)
 	{
 	}
 
-	[Token(Token = "0x6002019")]
-	[Address(RVA = "0x1A15800", Offset = "0x1A13E00", VA = "0x181A15800")]
+	[Token(Token = "0x6001FEF")]
+	[Address(RVA = "0x53A3990", Offset = "0x53A2990", VA = "0x53A3990")]
 	internal void UpdateData(object obj, SerializationInfo info, ISerializationSurrogate surrogate, long idOfContainer, FieldInfo field, int[] arrayIndex, ObjectManager manager)
 	{
 	}
 
-	[Token(Token = "0x600201A")]
-	[Address(RVA = "0x1A155C0", Offset = "0x1A13BC0", VA = "0x181A155C0")]
+	[Token(Token = "0x6001FF0")]
+	[Address(RVA = "0x53A2D00", Offset = "0x53A1D00", VA = "0x53A2D00")]
 	internal void MarkForCompletionWhenAvailable()
 	{
 	}
 
-	[Token(Token = "0x600201B")]
-	[Address(RVA = "0x1A15640", Offset = "0x1A13C40", VA = "0x181A15640")]
+	[Token(Token = "0x6001FF1")]
+	[Address(RVA = "0x53A1100", Offset = "0x53A0100", VA = "0x53A1100")]
 	internal void SetFlags()
 	{
 	}
 
-	[Token(Token = "0x600202E")]
-	[Address(RVA = "0x1A156D0", Offset = "0x1A13CD0", VA = "0x181A156D0")]
+	[Token(Token = "0x6002004")]
+	[Address(RVA = "0x53A1010", Offset = "0x53A0010", VA = "0x53A1010")]
 	internal void SetObjectValue(object obj, ObjectManager manager)
 	{
 	}

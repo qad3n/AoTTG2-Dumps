@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x2000062")]
+[Token(Token = "0x2000068")]
 public sealed class GisketchStepperStepDefinition
 {
-	[Token(Token = "0x4000216")]
+	[Token(Token = "0x400023A")]
 	[FieldOffset(Offset = "0x10")]
 	public string id;
 
-	[Token(Token = "0x4000217")]
+	[Token(Token = "0x400023B")]
 	[FieldOffset(Offset = "0x18")]
 	public string title;
 
-	[Token(Token = "0x4000218")]
+	[Token(Token = "0x400023C")]
 	[FieldOffset(Offset = "0x20")]
 	public string titleKey;
 
-	[Token(Token = "0x4000219")]
+	[Token(Token = "0x400023D")]
 	[FieldOffset(Offset = "0x28")]
 	public string text;
 
-	[Token(Token = "0x400021A")]
+	[Token(Token = "0x400023E")]
 	[FieldOffset(Offset = "0x30")]
 	public string textKey;
 
-	[Token(Token = "0x400021B")]
+	[Token(Token = "0x400023F")]
 	[FieldOffset(Offset = "0x38")]
 	public GisketchNodeDefinition[] children;
 
-	[Token(Token = "0x6000326")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000371")]
+	[Address(RVA = "0x5261120", Offset = "0x5260120", VA = "0x5261120")]
 	public GisketchStepperStepDefinition()
 	{
 	}

@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.CodeDom.Compiler;
 
-[Token(Token = "0x20000FF")]
+[Token(Token = "0x20000C0")]
 [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = false)]
 public sealed class GeneratedCodeAttribute : Attribute
 {
-	[Token(Token = "0x4000449")]
+	[Token(Token = "0x400037A")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string tool;
 
-	[Token(Token = "0x400044A")]
+	[Token(Token = "0x400037B")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string version;
 
-	[Token(Token = "0x600063F")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Token(Token = "0x6000489")]
+	[Address(RVA = "0x61FF6A0", Offset = "0x61FE6A0", VA = "0x61FF6A0")]
 	public GeneratedCodeAttribute(string tool, string version)
 	{
 	}

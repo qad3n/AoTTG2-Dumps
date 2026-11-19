@@ -1,687 +1,686 @@
 // Type: Characters.TitanSteamEffect
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/TitanSteamEffect.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Characters.TitanSteamEffect$$ConfigureRegrowth
 // il2cpp: void Characters_TitanSteamEffect__ConfigureRegrowth (UnityEngine_ParticleSystem_o* particles, float titanSize, const MethodInfo* method);
-// 0x1821cebb0
+// 0x5c60bb0
 
 void Characters_TitanSteamEffect__ConfigureRegrowth
                (UnityEngine_ParticleSystem_o *particles,float titanSize,MethodInfo *method)
 
 {
-  UnityEngine_ParticleSystem_MinMaxGradient_o *pUVar1;
-  UnityEngine_ParticleSystem_MinMaxCurve_o *pUVar2;
-  UnityEngine_ParticleSystem_MainModule_o local_res8;
-  UnityEngine_ParticleSystem_ShapeModule_o local_res20;
-  UnityEngine_ParticleSystem_NoiseModule_o local_c8 [2];
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_b8;
-  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_98;
-  UnityEngine_ParticleSystem_MinMaxGradient_o local_58;
+  uint32_t uVar1;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_00;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_01;
+  UnityEngine_ParticleSystem_MinMaxGradient_o value_02;
+  UnityEngine_Color_o color;
+  UnityEngine_ParticleSystem_NoiseModule_o local_c0;
+  UnityEngine_ParticleSystem_ShapeModule_o local_b8;
+  UnityEngine_ParticleSystem_MainModule_o local_b0;
+  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_a8;
+  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_88;
+  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_68;
+  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_48;
   
-  if (Il2CppMethodInitialized_184346ea7 == '\0') {
+  if (Il2CppMethodInitialized_07547899 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSteamEffect);
-    Il2CppMethodInitialized_184346ea7 = '\x01';
+    Il2CppMethodInitialized_07547899 = '\x01';
+    uVar1 = (TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor;
   }
-  local_res8.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_res20.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_ShapeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_c8[0].fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_NoiseModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  if ((TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor == 0) {
+  else {
+    uVar1 = (TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSteamEffect);
+    Characters_TitanSteamEffect__Prepare(particles,method);
   }
-  Characters_TitanSteamEffect__Prepare(particles,(MethodInfo *)0x0);
-  if (particles != (UnityEngine_ParticleSystem_o *)0x0) {
-    local_res8.fields.m_ParticleSystem =
-         (UnityEngine_ParticleSystem_MainModule_Fields)
-         UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_MainModule__set_playOnAwake(&local_res8,false,(MethodInfo *)0x0);
-    local_b8.m_Mode = 0x3f800000;
-    local_b8.m_CurveMultiplier = 1.0;
-    local_b8.m_CurveMin = (UnityEngine_AnimationCurve_o *)0x3ecccccd3f800000;
-    pUVar1 = UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit
-                       (&local_58,(UnityEngine_Color_o *)&local_b8,(MethodInfo *)0x0);
-    local_98.m_Mode = (pUVar1->fields).m_Mode;
-    local_98._4_4_ = *(undefined4 *)&(pUVar1->fields).field_0x4;
-    local_98.m_GradientMin = (pUVar1->fields).m_GradientMin;
-    local_98.m_GradientMax = (pUVar1->fields).m_GradientMax;
-    local_98.m_ColorMin.fields.r = (pUVar1->fields).m_ColorMin.fields.r;
-    local_98.m_ColorMin.fields.g = (pUVar1->fields).m_ColorMin.fields.g;
-    local_98.m_ColorMin.fields.b = (pUVar1->fields).m_ColorMin.fields.b;
-    local_98.m_ColorMin.fields.a = (pUVar1->fields).m_ColorMin.fields.a;
-    local_98.m_ColorMax.fields.r = (pUVar1->fields).m_ColorMax.fields.r;
-    local_98.m_ColorMax.fields.g = (pUVar1->fields).m_ColorMax.fields.g;
-    local_98.m_ColorMax.fields.b = (pUVar1->fields).m_ColorMax.fields.b;
-    local_98.m_ColorMax.fields.a = (pUVar1->fields).m_ColorMax.fields.a;
-    UnityEngine_ParticleSystem_MainModule__set_startColor
-              (&local_res8,(UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_98,(MethodInfo *)0x0);
-    pUVar2 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                       ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_98,titanSize * 3.0,
-                        (MethodInfo *)0x0);
-    local_b8.m_Mode = (pUVar2->fields).m_Mode;
-    local_b8.m_CurveMultiplier = (pUVar2->fields).m_CurveMultiplier;
-    local_b8.m_CurveMin = (pUVar2->fields).m_CurveMin;
-    local_b8.m_CurveMax = (pUVar2->fields).m_CurveMax;
-    local_b8.m_ConstantMin = (pUVar2->fields).m_ConstantMin;
-    local_b8.m_ConstantMax = (pUVar2->fields).m_ConstantMax;
-    UnityEngine_ParticleSystem_MainModule__set_startSize
-              (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_b8,(MethodInfo *)0x0);
-    pUVar2 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                       ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_98,titanSize * 5.0,
-                        (MethodInfo *)0x0);
-    local_b8.m_Mode = (pUVar2->fields).m_Mode;
-    local_b8.m_CurveMultiplier = (pUVar2->fields).m_CurveMultiplier;
-    local_b8.m_CurveMin = (pUVar2->fields).m_CurveMin;
-    local_b8.m_CurveMax = (pUVar2->fields).m_CurveMax;
-    local_b8.m_ConstantMin = (pUVar2->fields).m_ConstantMin;
-    local_b8.m_ConstantMax = (pUVar2->fields).m_ConstantMax;
-    UnityEngine_ParticleSystem_MainModule__set_startSpeed
-              (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_b8,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_MainModule__set_scalingMode(&local_res8,2,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_MainModule__set_simulationSpace(&local_res8,1,(MethodInfo *)0x0);
-    local_res20.fields.m_ParticleSystem =
-         (UnityEngine_ParticleSystem_ShapeModule_Fields)
-         UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_shapeType(&local_res20,4,(MethodInfo *)0x0);
-    local_c8[0] = UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-    pUVar2 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                       ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_98,titanSize * 0.5,
-                        (MethodInfo *)0x0);
-    local_b8.m_Mode = (pUVar2->fields).m_Mode;
-    local_b8.m_CurveMultiplier = (pUVar2->fields).m_CurveMultiplier;
-    local_b8.m_CurveMin = (pUVar2->fields).m_CurveMin;
-    local_b8.m_CurveMax = (pUVar2->fields).m_CurveMax;
-    local_b8.m_ConstantMin = (pUVar2->fields).m_ConstantMin;
-    local_b8.m_ConstantMax = (pUVar2->fields).m_ConstantMax;
-    UnityEngine_ParticleSystem_NoiseModule__set_strength
-              (local_c8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_b8,(MethodInfo *)0x0);
-    return;
+  else {
+    Characters_TitanSteamEffect__Prepare(particles,method);
   }
-  ThrowNullReferenceException();
+  if (particles == (UnityEngine_ParticleSystem_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  local_b0 = UnityEngine_ParticleSystem__get_main(particles,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MainModule__set_playOnAwake(&local_b0,false,(MethodInfo *)0x0);
+  color.fields.b = 1.0;
+  color.fields.a = 0.4;
+  color.fields.r = 1.0;
+  color.fields.g = 1.0;
+  UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit
+            ((UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_48,color,(MethodInfo *)0x0);
+  value_02.fields.m_GradientMin = local_48.m_GradientMin;
+  value_02.fields.m_Mode = local_48.m_Mode;
+  value_02.fields._4_4_ = local_48._4_4_;
+  value_02.fields.m_GradientMax = local_48.m_GradientMax;
+  value_02.fields.m_ColorMin.fields.r = local_48.m_ColorMin.fields.r;
+  value_02.fields.m_ColorMin.fields.g = local_48.m_ColorMin.fields.g;
+  value_02.fields.m_ColorMin.fields.b = local_48.m_ColorMin.fields.b;
+  value_02.fields.m_ColorMin.fields.a = local_48.m_ColorMin.fields.a;
+  value_02.fields.m_ColorMax.fields.r = local_48.m_ColorMax.fields.r;
+  value_02.fields.m_ColorMax.fields.g = local_48.m_ColorMax.fields.g;
+  value_02.fields.m_ColorMax.fields.b = local_48.m_ColorMax.fields.b;
+  value_02.fields.m_ColorMax.fields.a = local_48.m_ColorMax.fields.a;
+  UnityEngine_ParticleSystem_MainModule__set_startColor(&local_b0,value_02,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_68,titanSize * 3.0,(MethodInfo *)0x0);
+  value.fields.m_CurveMin = local_68.m_CurveMin;
+  value.fields.m_Mode = local_68.m_Mode;
+  value.fields.m_CurveMultiplier = local_68.m_CurveMultiplier;
+  value.fields.m_CurveMax = local_68.m_CurveMax;
+  value.fields.m_ConstantMin = local_68.m_ConstantMin;
+  value.fields.m_ConstantMax = local_68.m_ConstantMax;
+  UnityEngine_ParticleSystem_MainModule__set_startSize(&local_b0,value,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_88,titanSize * 5.0,(MethodInfo *)0x0);
+  value_00.fields.m_CurveMin = local_88.m_CurveMin;
+  value_00.fields.m_Mode = local_88.m_Mode;
+  value_00.fields.m_CurveMultiplier = local_88.m_CurveMultiplier;
+  value_00.fields.m_CurveMax = local_88.m_CurveMax;
+  value_00.fields.m_ConstantMin = local_88.m_ConstantMin;
+  value_00.fields.m_ConstantMax = local_88.m_ConstantMax;
+  UnityEngine_ParticleSystem_MainModule__set_startSpeed(&local_b0,value_00,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MainModule__set_scalingMode(&local_b0,2,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MainModule__set_simulationSpace(&local_b0,1,(MethodInfo *)0x0);
+  local_b8 = UnityEngine_ParticleSystem__get_shape(particles,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_shapeType(&local_b8,4,(MethodInfo *)0x0);
+  local_c0 = UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_a8,titanSize * 0.5,(MethodInfo *)0x0);
+  value_01.fields.m_CurveMin = local_a8.m_CurveMin;
+  value_01.fields.m_Mode = local_a8.m_Mode;
+  value_01.fields.m_CurveMultiplier = local_a8.m_CurveMultiplier;
+  value_01.fields.m_CurveMax = local_a8.m_CurveMax;
+  value_01.fields.m_ConstantMin = local_a8.m_ConstantMin;
+  value_01.fields.m_ConstantMax = local_a8.m_ConstantMax;
+  UnityEngine_ParticleSystem_NoiseModule__set_strength(&local_c0,value_01,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Characters.TitanSteamEffect$$Configure
 // il2cpp: void Characters_TitanSteamEffect__Configure (UnityEngine_ParticleSystem_o* particles, float worldSize, bool plume, float rate, const MethodInfo* method);
-// 0x1821ceda0
+// 0x5c60ee0
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5c61042: movss xmm2, dword ptr [rip - 0x4c9f626]
+// asm:   0x5c6104a: jne 0x5c6102e
+// asm:   0x5c6104c: movss xmm1, dword ptr [rip - 0x4c9f2a4]
+// asm:   0x5c61314: movss xmm1, dword ptr [rip - 0x4c9f8e0]
+// asm:   0x5c61927: jmp 0x5c618a6
 
 void Characters_TitanSteamEffect__Configure
                (UnityEngine_ParticleSystem_o *particles,float worldSize,bool plume,float rate,
                MethodInfo *method)
 
 {
-  UnityEngine_ParticleSystem_MinMaxCurve_o *pUVar1;
-  UnityEngine_ParticleSystem_MinMaxGradient_o *pUVar2;
+  byte bVar1;
+  uint32_t uVar2;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_00;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_01;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_02;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_03;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_04;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_05;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_06;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_07;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_08;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_09;
+  UnityEngine_ParticleSystem_MinMaxCurve_o value_10;
+  UnityEngine_ParticleSystem_MinMaxGradient_o value_11;
+  UnityEngine_ParticleSystem_MinMaxGradient_o value_12;
   UnityEngine_Gradient_o *__this;
   UnityEngine_GradientColorKey_array *colorKeys;
   UnityEngine_GradientAlphaKey_array *alphaKeys;
   UnityEngine_AnimationCurve_o *curve;
   Il2CppClass *pIVar3;
+  undefined7 in_register_00000031;
   MethodInfo *pMVar4;
-  double dVar5;
+  float fVar5;
   float fVar6;
-  float fVar7;
-  float fVar8;
-  float fVar9;
-  UnityEngine_ParticleSystem_MainModule_o local_res8;
-  UnityEngine_ParticleSystem_NoiseModule_o local_1d8;
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule_o local_1d0;
-  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_1c8;
-  UnityEngine_ParticleSystem_EmissionModule_o local_188 [2];
-  _union_125884 local_178;
-  _union_125884 _Stack_170;
-  undefined1 local_168 [16];
-  UnityEngine_AnimationCurve_o *local_158;
-  UnityEngine_Color_Fields UStack_150;
-  UnityEngine_Color_Fields UStack_140;
-  _union_125884 local_128;
-  _union_125884 local_120;
-  _union_125884 local_118;
-  UnityEngine_ParticleSystem_ColorOverLifetimeModule_o local_110;
-  UnityEngine_ParticleSystem_SizeOverLifetimeModule_o local_108;
-  UnityEngine_ParticleSystem_RotationOverLifetimeModule_o local_100;
-  undefined1 local_f8 [16];
-  UnityEngine_AnimationCurve_o *local_e8;
-  undefined1 auStack_e0 [8];
-  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_d8;
-  UnityEngine_ParticleSystem_MinMaxGradient_o local_a0 [2];
+  UnityEngine_Color_o color;
+  UnityEngine_Color_o col;
+  UnityEngine_GradientAlphaKey_Fields local_130;
+  float local_124;
+  float local_120;
+  float local_11c;
+  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_118;
+  UnityEngine_ParticleSystem_EmissionModule_o local_f8;
+  UnityEngine_ParticleSystem_ColorOverLifetimeModule_o local_f0;
+  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_e8;
+  undefined1 local_a8 [16];
+  UnityEngine_AnimationCurve_o *local_98;
+  undefined8 uStack_90;
+  undefined1 local_88 [16];
+  undefined8 local_78;
+  undefined8 uStack_70;
+  UnityEngine_GradientAlphaKey_Fields local_68;
+  UnityEngine_GradientAlphaKey_Fields local_60;
+  UnityEngine_ParticleSystem_RotationOverLifetimeModule_o local_58;
+  UnityEngine_ParticleSystem_SizeOverLifetimeModule_o local_50;
+  UnityEngine_ParticleSystem_NoiseModule_o local_48;
+  UnityEngine_ParticleSystem_VelocityOverLifetimeModule_o local_40;
+  UnityEngine_ParticleSystem_MainModule_o local_38;
   
-  if (Il2CppMethodInitialized_184346ea8 == '\0') {
+  pMVar4 = (MethodInfo *)CONCAT71(in_register_00000031,plume);
+  local_11c = rate;
+  if (Il2CppMethodInitialized_0754789a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Empty_ParticleSystem_Burst);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GradientAlphaKey_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GradientColorKey_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Gradient);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSteamEffect);
-    Il2CppMethodInitialized_184346ea8 = '\x01';
+    Il2CppMethodInitialized_0754789a = '\x01';
   }
-  local_res8.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_1d0.fields.m_ParticleSystem =
+  local_40.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_VelocityOverLifetimeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_1d8.fields.m_ParticleSystem =
+  local_48.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_NoiseModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_110.fields.m_ParticleSystem =
+  local_f0.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_ColorOverLifetimeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_108.fields.m_ParticleSystem =
+  local_50.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_SizeOverLifetimeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_100.fields.m_ParticleSystem =
+  local_58.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_RotationOverLifetimeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  local_188[0].fields.m_ParticleSystem =
+  local_f8.fields.m_ParticleSystem =
        (UnityEngine_ParticleSystem_EmissionModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  if (worldSize <= 0.001) {
-    worldSize = 0.001;
-  }
   if ((TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSteamEffect);
   }
-  Characters_TitanSteamEffect__Prepare(particles,(MethodInfo *)0x0);
-  if (particles == (UnityEngine_ParticleSystem_o *)0x0) {
-    ThrowNullReferenceException();
-  }
-  local_res8.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_MainModule_Fields)
-       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_MainModule__set_playOnAwake(&local_res8,false,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_MainModule__set_loop(&local_res8,true,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_MainModule__set_stopAction(&local_res8,0,(MethodInfo *)0x0);
-  fVar8 = 1.8;
-  if (plume) {
-    fVar9 = 1.1;
-    fVar6 = 1.8;
-  }
-  else {
-    fVar9 = 0.7;
-    fVar6 = 1.3;
-  }
-  local_168._0_8_ = 0;
-  local_168._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
-  local_158 = (UnityEngine_AnimationCurve_o *)0x0;
-  UStack_150.r = 0.0;
-  UStack_150.g = 0.0;
-  UnityEngine_ParticleSystem_MinMaxCurve___ctor_2fc8b50
-            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_168,fVar9,fVar6,(MethodInfo *)0x0);
-  local_1c8._0_8_ = local_168._0_8_;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)local_168._8_8_;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)local_158;
-  local_1c8.m_ColorMin.fields.r = UStack_150.r;
-  local_1c8.m_ColorMin.fields.g = UStack_150.g;
-  UnityEngine_ParticleSystem_MainModule__set_startLifetime
-            (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  fVar9 = 0.09;
-  if (plume) {
-    fVar6 = worldSize * 0.115;
-    fVar7 = 0.2;
-  }
-  else {
-    fVar6 = worldSize * 0.05;
-    fVar7 = 0.09;
-  }
-  local_168._0_8_ = 0;
-  local_168._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
-  local_158 = (UnityEngine_AnimationCurve_o *)0x0;
-  UStack_150.r = 0.0;
-  UStack_150.g = 0.0;
-  UnityEngine_ParticleSystem_MinMaxCurve___ctor_2fc8b50
-            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_168,fVar6,worldSize * fVar7,(MethodInfo *)0x0);
-  local_1c8._0_8_ = local_168._0_8_;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)local_168._8_8_;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)local_158;
-  local_1c8.m_ColorMin.fields.r = UStack_150.r;
-  local_1c8.m_ColorMin.fields.g = UStack_150.g;
-  UnityEngine_ParticleSystem_MainModule__set_startSize
-            (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),0.0,(MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_MainModule__set_startSpeed
-            (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  local_178 = (_union_125884)0x3f8000003f800000;
-  _Stack_170 = (_union_125884)0x3f8000003f800000;
-  pUVar2 = UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxGradient_o *)(auStack_e0 + 8),
-                      (UnityEngine_Color_o *)&local_178._at_Byte0,(MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar2->fields).m_Mode;
-  local_1c8._4_4_ = *(undefined4 *)&(pUVar2->fields).field_0x4;
-  local_1c8.m_GradientMin = (pUVar2->fields).m_GradientMin;
-  local_1c8.m_GradientMax = (pUVar2->fields).m_GradientMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar2->fields).m_ColorMin.fields.r;
-  local_1c8.m_ColorMin.fields.g = (pUVar2->fields).m_ColorMin.fields.g;
-  local_1c8.m_ColorMin.fields.b = (pUVar2->fields).m_ColorMin.fields.b;
-  local_1c8.m_ColorMin.fields.a = (pUVar2->fields).m_ColorMin.fields.a;
-  local_1c8.m_ColorMax.fields.r = (pUVar2->fields).m_ColorMax.fields.r;
-  local_1c8.m_ColorMax.fields.g = (pUVar2->fields).m_ColorMax.fields.g;
-  local_1c8.m_ColorMax.fields.b = (pUVar2->fields).m_ColorMax.fields.b;
-  local_1c8.m_ColorMax.fields.a = (pUVar2->fields).m_ColorMax.fields.a;
-  UnityEngine_ParticleSystem_MainModule__set_startColor
-            (&local_res8,(UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_1c8,(MethodInfo *)0x0);
-  local_f8._0_8_ = 0;
-  local_f8._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
-  local_e8 = (UnityEngine_AnimationCurve_o *)0x0;
-  auStack_e0._0_4_ = 0.0;
-  auStack_e0._4_4_ = 0.0;
-  UnityEngine_ParticleSystem_MinMaxCurve___ctor_2fc8b50
-            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_f8,-3.1415927,3.1415927,(MethodInfo *)0x0);
-  local_1c8._0_8_ = local_f8._0_8_;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)local_f8._8_8_;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)local_e8;
-  local_1c8.m_ColorMin.fields.r = (float)auStack_e0._0_4_;
-  local_1c8.m_ColorMin.fields.g = (float)auStack_e0._4_4_;
-  UnityEngine_ParticleSystem_MainModule__set_startRotation
-            (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_MainModule__set_scalingMode(&local_res8,2,(MethodInfo *)0x0);
-  pMVar4 = (MethodInfo *)0x1;
-  UnityEngine_ParticleSystem_MainModule__set_simulationSpace(&local_res8,1,(MethodInfo *)0x0);
-  if (!plume) {
-    fVar8 = 1.3;
-  }
-  if (Il2CppMethodInitialized_18433df29 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-    Il2CppMethodInitialized_18433df29 = '\x01';
-  }
-  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-  }
-  dVar5 = il2cpp_runtime_helper_1804f45c0((double)(fVar8 * rate),pMVar4);
-  UnityEngine_ParticleSystem_MainModule__set_maxParticles(&local_res8,(int)dVar5 + 8,(MethodInfo *)0x0);
-  local_1d0.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_VelocityOverLifetimeModule_Fields)
-       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_enabled(&local_1d0,true,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_space(&local_1d0,1,(MethodInfo *)0x0);
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),0.0,(MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_x
-            (&local_1d0,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  if (!plume) {
-    fVar9 = 0.06;
-  }
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),fVar9 * worldSize,
-                      (MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_y
-            (&local_1d0,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),0.0,(MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_z
-            (&local_1d0,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  local_1d8 = UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_NoiseModule__set_enabled(&local_1d8,true,(MethodInfo *)0x0);
-  if (plume) {
-    fVar8 = 0.018;
-  }
-  else {
-    fVar8 = 0.009;
-  }
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),fVar8 * worldSize,
-                      (MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_NoiseModule__set_strength
-            (&local_1d8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_NoiseModule__set_frequency(&local_1d8,8.0 / worldSize,(MethodInfo *)0x0);
-  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),0.3,(MethodInfo *)0x0);
-  local_1c8.m_Mode = (pUVar1->fields).m_Mode;
-  local_1c8._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMin;
-  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)(pUVar1->fields).m_CurveMax;
-  local_1c8.m_ColorMin.fields.r = (pUVar1->fields).m_ConstantMin;
-  local_1c8.m_ColorMin.fields.g = (pUVar1->fields).m_ConstantMax;
-  UnityEngine_ParticleSystem_NoiseModule__set_scrollSpeed
-            (&local_1d8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_NoiseModule__set_damping(&local_1d8,false,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_NoiseModule__set_octaveCount(&local_1d8,2,(MethodInfo *)0x0);
-  local_110.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_ColorOverLifetimeModule_Fields)
-       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-  UnityEngine_ParticleSystem_ColorOverLifetimeModule__set_enabled(&local_110,true,(MethodInfo *)0x0);
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Gradient);
-  UnityEngine_Gradient___ctor(__this,(MethodInfo *)0x0);
-  colorKeys = (UnityEngine_GradientColorKey_array *)SZArrayNew(TypeInfo_UnityEngine_GradientColorKey_array,2);
-  local_178 = (_union_125884)0x3f8000003f800000;
-  _Stack_170 = (_union_125884)0x3f8000003f800000;
-  local_e8 = (UnityEngine_AnimationCurve_o *)((ulonglong)local_e8 & 0xffffffff00000000);
-  local_f8._0_4_ = 0;
-  local_f8._4_4_ = 0.0;
-  local_f8._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
-  UnityEngine_GradientColorKey___ctor
-            ((UnityEngine_GradientColorKey_o *)local_f8,(UnityEngine_Color_o *)&local_178._at_Byte0,0.38,
-             (MethodInfo *)0x0);
-  if (colorKeys != (UnityEngine_GradientColorKey_array *)0x0) {
-    if ((int)colorKeys->max_length != 0) {
-      colorKeys->m_Items[0].fields.color.fields.r = (float)local_f8._0_4_;
-      colorKeys->m_Items[0].fields.color.fields.g = (float)local_f8._4_4_;
-      colorKeys->m_Items[0].fields.color.fields.b = (float)local_f8._8_4_;
-      colorKeys->m_Items[0].fields.color.fields.a = (float)local_f8._12_4_;
-      colorKeys->m_Items[0].fields.time = local_e8._0_4_;
-      if ((TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSteamEffect);
-      }
-      local_178 = *(_union_125884 *)TypeInfo_Characters_TitanSteamEffect->static_fields;
-      _Stack_170 = ((_union_125884 *)TypeInfo_Characters_TitanSteamEffect->static_fields)[1];
-      local_168._0_8_ = 0;
-      local_168._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
-      local_158 = (UnityEngine_AnimationCurve_o *)((ulonglong)local_158 & 0xffffffff00000000);
-      UnityEngine_GradientColorKey___ctor
-                ((UnityEngine_GradientColorKey_o *)local_168,(UnityEngine_Color_o *)&local_178._at_Byte0,1.0,
-                 (MethodInfo *)0x0);
-      if (1 < (uint)colorKeys->max_length) {
-        colorKeys->m_Items[1].fields.color.fields.r = (float)local_168._0_4_;
-        colorKeys->m_Items[1].fields.color.fields.g = (float)local_168._4_4_;
-        colorKeys->m_Items[1].fields.color.fields.b = (float)local_168._8_4_;
-        colorKeys->m_Items[1].fields.color.fields.a = (float)local_168._12_4_;
-        colorKeys->m_Items[1].fields.time = local_158._0_4_;
-        alphaKeys = (UnityEngine_GradientAlphaKey_array *)
-                    SZArrayNew(TypeInfo_UnityEngine_GradientAlphaKey_array,4);
-        local_128 = (_union_125884)0x0;
-        Unity_Burst_Intrinsics_v64___ctor_1028c00
-                  ((Unity_Burst_Intrinsics_v64_o *)&local_128._at_Byte0,0.0,0.0,(MethodInfo *)0x0);
-        if (alphaKeys == (UnityEngine_GradientAlphaKey_array *)0x0) goto label_1821cf742;
-        if ((int)alphaKeys->max_length != 0) {
-          alphaKeys->m_Items[0].fields.alpha = (float)local_128._at_UInt0.UInt0;
-          alphaKeys->m_Items[0].fields.time = (float)local_128._at_UInt1.UInt1;
-          if (plume) {
-            fVar8 = 0.28;
-          }
-          else {
-            fVar8 = 0.35;
-          }
-          local_120 = (_union_125884)0x0;
-          Unity_Burst_Intrinsics_v64___ctor_1028c00
-                    ((Unity_Burst_Intrinsics_v64_o *)&local_120._at_Byte0,fVar8,0.2,(MethodInfo *)0x0);
-          if (1 < (uint)alphaKeys->max_length) {
-            alphaKeys->m_Items[1].fields.time = (float)local_120._at_UInt1.UInt1;
-            alphaKeys->m_Items[1].fields.alpha = (float)local_120._at_UInt0.UInt0;
-            local_118 = (_union_125884)0x0;
-            Unity_Burst_Intrinsics_v64___ctor_1028c00
-                      ((Unity_Burst_Intrinsics_v64_o *)&local_118._at_Byte0,0.1,0.6,(MethodInfo *)0x0);
-            if (2 < (uint)alphaKeys->max_length) {
-              alphaKeys->m_Items[2].fields.time = (float)local_118._at_UInt1.UInt1;
-              alphaKeys->m_Items[2].fields.alpha = (float)local_118._at_UInt0.UInt0;
-              local_178 = (_union_125884)0x0;
-              Unity_Burst_Intrinsics_v64___ctor_1028c00
-                        ((Unity_Burst_Intrinsics_v64_o *)&local_178._at_Byte0,0.0,1.0,(MethodInfo *)0x0);
-              if (3 < (uint)alphaKeys->max_length) {
-                alphaKeys->m_Items[3].fields.alpha = (float)local_178._at_UInt0.UInt0;
-                alphaKeys->m_Items[3].fields.time = (float)local_178._at_UInt1.UInt1;
-                if (__this != (UnityEngine_Gradient_o *)0x0) {
-                  UnityEngine_Gradient__SetKeys(__this,colorKeys,alphaKeys,(MethodInfo *)0x0);
-                  pUVar2 = UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit_2fc8f10
-                                     (local_a0,__this,(MethodInfo *)0x0);
-                  local_168._0_4_ = (pUVar2->fields).m_Mode;
-                  local_168._4_4_ = *(undefined4 *)&(pUVar2->fields).field_0x4;
-                  local_168._8_8_ = (pUVar2->fields).m_GradientMin;
-                  local_158 = (UnityEngine_AnimationCurve_o *)(pUVar2->fields).m_GradientMax;
-                  UStack_150.r = (pUVar2->fields).m_ColorMin.fields.r;
-                  UStack_150.g = (pUVar2->fields).m_ColorMin.fields.g;
-                  UStack_150.b = (pUVar2->fields).m_ColorMin.fields.b;
-                  UStack_150.a = (pUVar2->fields).m_ColorMin.fields.a;
-                  UStack_140.r = (pUVar2->fields).m_ColorMax.fields.r;
-                  UStack_140.g = (pUVar2->fields).m_ColorMax.fields.g;
-                  UStack_140.b = (pUVar2->fields).m_ColorMax.fields.b;
-                  UStack_140.a = (pUVar2->fields).m_ColorMax.fields.a;
-                  UnityEngine_ParticleSystem_ColorOverLifetimeModule__set_color
-                            (&local_110,(UnityEngine_ParticleSystem_MinMaxGradient_o *)local_168,
-                             (MethodInfo *)0x0);
-                  local_108.fields.m_ParticleSystem =
-                       (UnityEngine_ParticleSystem_SizeOverLifetimeModule_Fields)
-                       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-                  UnityEngine_ParticleSystem_SizeOverLifetimeModule__set_enabled
-                            (&local_108,true,(MethodInfo *)0x0);
-                  curve = UnityEngine_AnimationCurve__Linear(0.0,0.55,1.0,1.7,(MethodInfo *)0x0);
-                  local_d8.m_Mode = 0;
-                  local_d8._4_4_ = 0;
-                  local_d8.m_GradientMin = (UnityEngine_Gradient_o *)0x0;
-                  local_d8.m_GradientMax = (UnityEngine_Gradient_o *)0x0;
-                  local_d8.m_ColorMin.fields.r = 0.0;
-                  local_d8.m_ColorMin.fields.g = 0.0;
-                  UnityEngine_ParticleSystem_MinMaxCurve___ctor_2fc8c00
-                            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)(auStack_e0 + 8),1.0,curve,
-                             (MethodInfo *)0x0);
-                  local_168._0_8_ = local_d8._0_8_;
-                  local_168._8_8_ = local_d8.m_GradientMin;
-                  local_158 = (UnityEngine_AnimationCurve_o *)local_d8.m_GradientMax;
-                  UStack_150.r = local_d8.m_ColorMin.fields.r;
-                  UStack_150.g = local_d8.m_ColorMin.fields.g;
-                  UnityEngine_ParticleSystem_SizeOverLifetimeModule__set_size
-                            (&local_108,(UnityEngine_ParticleSystem_MinMaxCurve_o *)local_168,
-                             (MethodInfo *)0x0);
-                  local_100.fields.m_ParticleSystem =
-                       (UnityEngine_ParticleSystem_RotationOverLifetimeModule_Fields)
-                       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-                  UnityEngine_ParticleSystem_RotationOverLifetimeModule__set_enabled
-                            (&local_100,true,(MethodInfo *)0x0);
-                  local_1c8.m_Mode = 0;
-                  local_1c8._4_4_ = 0;
-                  local_1c8.m_GradientMin = (UnityEngine_Gradient_o *)0x0;
-                  local_1c8.m_GradientMax = (UnityEngine_Gradient_o *)0x0;
-                  local_1c8.m_ColorMin.fields.r = 0.0;
-                  local_1c8.m_ColorMin.fields.g = 0.0;
-                  UnityEngine_ParticleSystem_MinMaxCurve___ctor_2fc8b50
-                            ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_1c8,-0.873,0.873,
-                             (MethodInfo *)0x0);
-                  local_168._0_8_ = local_1c8._0_8_;
-                  local_168._8_8_ = local_1c8.m_GradientMin;
-                  local_158 = (UnityEngine_AnimationCurve_o *)local_1c8.m_GradientMax;
-                  UStack_150.r = local_1c8.m_ColorMin.fields.r;
-                  UStack_150.g = local_1c8.m_ColorMin.fields.g;
-                  UnityEngine_ParticleSystem_RotationOverLifetimeModule__set_z
-                            (&local_100,(UnityEngine_ParticleSystem_MinMaxCurve_o *)local_168,
-                             (MethodInfo *)0x0);
-                  local_188[0].fields.m_ParticleSystem =
-                       (UnityEngine_ParticleSystem_EmissionModule_Fields)
-                       UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-                  pUVar1 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                                     ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_f8,rate,
-                                      (MethodInfo *)0x0);
-                  local_168._0_4_ = (pUVar1->fields).m_Mode;
-                  local_168._4_4_ = (pUVar1->fields).m_CurveMultiplier;
-                  local_168._8_8_ = (pUVar1->fields).m_CurveMin;
-                  local_158 = (pUVar1->fields).m_CurveMax;
-                  UStack_150.r = (pUVar1->fields).m_ConstantMin;
-                  UStack_150.g = (pUVar1->fields).m_ConstantMax;
-                  UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime
-                            (local_188,(UnityEngine_ParticleSystem_MinMaxCurve_o *)local_168,(MethodInfo *)0x0
-                            );
-                  pMVar4 = MethodInfo_System_Array_Empty_ParticleSystem_Burst;
-                  if ((MethodInfo_System_Array_Empty_ParticleSystem_Burst->field7_0x38).rgctx_data ==
-                      (Il2CppRGCTXData *)0x0) {
-                    il2cpp_codegen_rgctx_method_init(MethodInfo_System_Array_Empty_ParticleSystem_Burst);
+  Characters_TitanSteamEffect__Prepare(particles,pMVar4);
+  if (particles != (UnityEngine_ParticleSystem_o *)0x0) {
+    local_38 = UnityEngine_ParticleSystem__get_main(particles,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MainModule__set_playOnAwake(&local_38,false,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MainModule__set_loop(&local_38,true,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MainModule__set_stopAction(&local_38,0,(MethodInfo *)0x0);
+    local_e8.m_GradientMax = (UnityEngine_Gradient_o *)0x0;
+    local_e8.m_ColorMin.fields.r = 0.0;
+    local_e8.m_ColorMin.fields.g = 0.0;
+    local_e8.m_Mode = 0;
+    local_e8._4_4_ = 0;
+    local_e8.m_GradientMin = (UnityEngine_Gradient_o *)0x0;
+    if (plume) {
+      fVar6 = 1.1;
+      fVar5 = 1.8;
+      local_120 = 0.115;
+    }
+    else {
+      fVar5 = 1.3;
+      fVar6 = 0.7;
+      local_120 = 0.05;
+    }
+    if (worldSize <= 0.001) {
+      worldSize = 0.001;
+    }
+    if (plume) {
+      local_124 = 0.2;
+    }
+    else {
+      local_124 = 0.09;
+    }
+    UnityEngine_ParticleSystem_MinMaxCurve___ctor_69c47b0
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_e8,fVar6,fVar5,(MethodInfo *)0x0);
+    value.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMin;
+    value.fields.m_Mode = local_e8.m_Mode;
+    value.fields.m_CurveMultiplier = (float)local_e8._4_4_;
+    value.fields.m_CurveMax = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMax;
+    value.fields.m_ConstantMin = local_e8.m_ColorMin.fields.r;
+    value.fields.m_ConstantMax = local_e8.m_ColorMin.fields.g;
+    UnityEngine_ParticleSystem_MainModule__set_startLifetime(&local_38,value,(MethodInfo *)0x0);
+    local_118.m_CurveMax = (UnityEngine_AnimationCurve_o *)0x0;
+    local_118.m_ConstantMin = 0.0;
+    local_118.m_ConstantMax = 0.0;
+    local_118.m_Mode = 0;
+    local_118.m_CurveMultiplier = 0.0;
+    local_118.m_CurveMin = (UnityEngine_AnimationCurve_o *)0x0;
+    UnityEngine_ParticleSystem_MinMaxCurve___ctor_69c47b0
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_118,local_120 * worldSize,
+               local_124 * worldSize,(MethodInfo *)0x0);
+    value_00.fields.m_CurveMin = local_118.m_CurveMin;
+    value_00.fields.m_Mode = local_118.m_Mode;
+    value_00.fields.m_CurveMultiplier = local_118.m_CurveMultiplier;
+    value_00.fields.m_CurveMax = local_118.m_CurveMax;
+    value_00.fields.m_ConstantMin = local_118.m_ConstantMin;
+    value_00.fields.m_ConstantMax = local_118.m_ConstantMax;
+    UnityEngine_ParticleSystem_MainModule__set_startSize(&local_38,value_00,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_88,0.0,(MethodInfo *)0x0);
+    value_01.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_88._8_8_;
+    value_01.fields.m_Mode = local_88._0_4_;
+    value_01.fields.m_CurveMultiplier = (float)local_88._4_4_;
+    value_01.fields.m_CurveMax = local_78;
+    value_01.fields.m_ConstantMin = (float)uStack_70;
+    value_01.fields.m_ConstantMax = uStack_70._4_4_;
+    UnityEngine_ParticleSystem_MainModule__set_startSpeed(&local_38,value_01,(MethodInfo *)0x0);
+    color.fields.b = 1.0;
+    color.fields.a = 1.0;
+    color.fields.r = 1.0;
+    color.fields.g = 1.0;
+    UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_e8,color,(MethodInfo *)0x0);
+    value_11.fields.m_GradientMin = local_e8.m_GradientMin;
+    value_11.fields.m_Mode = local_e8.m_Mode;
+    value_11.fields._4_4_ = local_e8._4_4_;
+    value_11.fields.m_GradientMax = local_e8.m_GradientMax;
+    value_11.fields.m_ColorMin.fields.r = local_e8.m_ColorMin.fields.r;
+    value_11.fields.m_ColorMin.fields.g = local_e8.m_ColorMin.fields.g;
+    value_11.fields.m_ColorMin.fields.b = local_e8.m_ColorMin.fields.b;
+    value_11.fields.m_ColorMin.fields.a = local_e8.m_ColorMin.fields.a;
+    value_11.fields.m_ColorMax.fields.r = local_e8.m_ColorMax.fields.r;
+    value_11.fields.m_ColorMax.fields.g = local_e8.m_ColorMax.fields.g;
+    value_11.fields.m_ColorMax.fields.b = local_e8.m_ColorMax.fields.b;
+    value_11.fields.m_ColorMax.fields.a = local_e8.m_ColorMax.fields.a;
+    UnityEngine_ParticleSystem_MainModule__set_startColor(&local_38,value_11,(MethodInfo *)0x0);
+    local_98 = (UnityEngine_AnimationCurve_o *)0x0;
+    uStack_90._0_4_ = 0.0;
+    uStack_90._4_4_ = 0.0;
+    local_a8._0_4_ = 0;
+    local_a8._4_4_ = 0.0;
+    local_a8._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
+    UnityEngine_ParticleSystem_MinMaxCurve___ctor_69c47b0
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_a8,-3.1415927,3.1415927,(MethodInfo *)0x0);
+    value_02.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_a8._8_8_;
+    value_02.fields.m_Mode = local_a8._0_4_;
+    value_02.fields.m_CurveMultiplier = (float)local_a8._4_4_;
+    value_02.fields.m_CurveMax = local_98;
+    value_02.fields.m_ConstantMin = (float)uStack_90;
+    value_02.fields.m_ConstantMax = uStack_90._4_4_;
+    UnityEngine_ParticleSystem_MainModule__set_startRotation(&local_38,value_02,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MainModule__set_scalingMode(&local_38,2,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MainModule__set_simulationSpace(&local_38,1,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_0753e7f9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e7f9 = '\x01';
+    }
+    fVar5 = fVar5 * local_11c;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    fVar6 = ceilf(fVar5);
+    UnityEngine_ParticleSystem_MainModule__set_maxParticles(&local_38,(int)fVar6 + 8,(MethodInfo *)0x0);
+    local_40 = UnityEngine_ParticleSystem__get_velocityOverLifetime(particles,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_enabled(&local_40,true,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_space(&local_40,1,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_e8,0.0,(MethodInfo *)0x0);
+    value_03.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMin;
+    value_03.fields.m_Mode = local_e8.m_Mode;
+    value_03.fields.m_CurveMultiplier = (float)local_e8._4_4_;
+    value_03.fields.m_CurveMax = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMax;
+    value_03.fields.m_ConstantMin = local_e8.m_ColorMin.fields.r;
+    value_03.fields.m_ConstantMax = local_e8.m_ColorMin.fields.g;
+    UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_x(&local_40,value_03,(MethodInfo *)0x0);
+    if (plume) {
+      fVar6 = worldSize * 0.09;
+      fVar5 = 0.018;
+    }
+    else {
+      fVar6 = worldSize * 0.06;
+      fVar5 = 0.009;
+    }
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_e8,fVar6,(MethodInfo *)0x0);
+    value_04.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMin;
+    value_04.fields.m_Mode = local_e8.m_Mode;
+    value_04.fields.m_CurveMultiplier = (float)local_e8._4_4_;
+    value_04.fields.m_CurveMax = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMax;
+    value_04.fields.m_ConstantMin = local_e8.m_ColorMin.fields.r;
+    value_04.fields.m_ConstantMax = local_e8.m_ColorMin.fields.g;
+    UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_y(&local_40,value_04,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_118,0.0,(MethodInfo *)0x0);
+    value_05.fields.m_CurveMin = local_118.m_CurveMin;
+    value_05.fields.m_Mode = local_118.m_Mode;
+    value_05.fields.m_CurveMultiplier = local_118.m_CurveMultiplier;
+    value_05.fields.m_CurveMax = local_118.m_CurveMax;
+    value_05.fields.m_ConstantMin = local_118.m_ConstantMin;
+    value_05.fields.m_ConstantMax = local_118.m_ConstantMax;
+    UnityEngine_ParticleSystem_VelocityOverLifetimeModule__set_z(&local_40,value_05,(MethodInfo *)0x0);
+    local_48 = UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_NoiseModule__set_enabled(&local_48,true,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_e8,fVar5 * worldSize,(MethodInfo *)0x0);
+    value_06.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMin;
+    value_06.fields.m_Mode = local_e8.m_Mode;
+    value_06.fields.m_CurveMultiplier = (float)local_e8._4_4_;
+    value_06.fields.m_CurveMax = (UnityEngine_AnimationCurve_o *)local_e8.m_GradientMax;
+    value_06.fields.m_ConstantMin = local_e8.m_ColorMin.fields.r;
+    value_06.fields.m_ConstantMax = local_e8.m_ColorMin.fields.g;
+    UnityEngine_ParticleSystem_NoiseModule__set_strength(&local_48,value_06,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_NoiseModule__set_frequency(&local_48,8.0 / worldSize,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_118,0.3,(MethodInfo *)0x0);
+    value_07.fields.m_CurveMin = local_118.m_CurveMin;
+    value_07.fields.m_Mode = local_118.m_Mode;
+    value_07.fields.m_CurveMultiplier = local_118.m_CurveMultiplier;
+    value_07.fields.m_CurveMax = local_118.m_CurveMax;
+    value_07.fields.m_ConstantMin = local_118.m_ConstantMin;
+    value_07.fields.m_ConstantMax = local_118.m_ConstantMax;
+    UnityEngine_ParticleSystem_NoiseModule__set_scrollSpeed(&local_48,value_07,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_NoiseModule__set_damping(&local_48,false,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_NoiseModule__set_octaveCount(&local_48,2,(MethodInfo *)0x0);
+    local_f0 = UnityEngine_ParticleSystem__get_colorOverLifetime(particles,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem_ColorOverLifetimeModule__set_enabled(&local_f0,true,(MethodInfo *)0x0);
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Gradient);
+    UnityEngine_Gradient___ctor(__this,(MethodInfo *)0x0);
+    colorKeys = (UnityEngine_GradientColorKey_array *)
+                SZArrayNew(TypeInfo_UnityEngine_GradientColorKey_array,2);
+    local_88._0_4_ = 0;
+    local_88._4_4_ = 0.0;
+    local_88._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
+    local_78 = (UnityEngine_AnimationCurve_o *)((ulong)local_78._4_4_ << 0x20);
+    col.fields.b = 1.0;
+    col.fields.a = 1.0;
+    col.fields.r = 1.0;
+    col.fields.g = 1.0;
+    UnityEngine_GradientColorKey___ctor((UnityEngine_GradientColorKey_o *)local_88,col,0.38,(MethodInfo *)0x0)
+    ;
+    if (colorKeys != (UnityEngine_GradientColorKey_array *)0x0) {
+      if ((int)colorKeys->max_length != 0) {
+        colorKeys->m_Items[0].fields.time = (float)local_78;
+        colorKeys->m_Items[0].fields.color.fields.r = (float)local_88._0_4_;
+        colorKeys->m_Items[0].fields.color.fields.g = (float)local_88._4_4_;
+        colorKeys->m_Items[0].fields.color.fields.b = (float)local_88._8_4_;
+        colorKeys->m_Items[0].fields.color.fields.a = (float)local_88._12_4_;
+        if ((TypeInfo_Characters_TitanSteamEffect->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_TitanSteamEffect);
+        }
+        local_a8._0_4_ = 0;
+        local_a8._4_4_ = 0.0;
+        local_a8._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
+        local_98 = (UnityEngine_AnimationCurve_o *)((ulong)local_98 & 0xffffffff00000000);
+        UnityEngine_GradientColorKey___ctor
+                  ((UnityEngine_GradientColorKey_o *)local_a8,
+                   (UnityEngine_Color_o)
+                   *(UnityEngine_Color_Fields *)TypeInfo_Characters_TitanSteamEffect->static_fields,1.0,
+                   (MethodInfo *)0x0);
+        if ((colorKeys->max_length & 0xfffffffe) != 0) {
+          colorKeys->m_Items[1].fields.time = local_98._0_4_;
+          colorKeys->m_Items[1].fields.color.fields.r = (float)local_a8._0_4_;
+          colorKeys->m_Items[1].fields.color.fields.g = (float)local_a8._4_4_;
+          colorKeys->m_Items[1].fields.color.fields.b = (float)local_a8._8_4_;
+          colorKeys->m_Items[1].fields.color.fields.a = (float)local_a8._12_4_;
+          alphaKeys = (UnityEngine_GradientAlphaKey_array *)
+                      SZArrayNew(TypeInfo_UnityEngine_GradientAlphaKey_array,4);
+          local_130.alpha = 0.0;
+          local_130.time = 0.0;
+          UnityEngine_GradientAlphaKey___ctor
+                    ((UnityEngine_GradientAlphaKey_o *)&local_130,0.0,0.0,(MethodInfo *)0x0);
+          if (alphaKeys == (UnityEngine_GradientAlphaKey_array *)0x0) goto label_05c61931;
+          if ((int)alphaKeys->max_length != 0) {
+            alphaKeys->m_Items[0].fields = local_130;
+            if (plume) {
+              fVar6 = 0.28;
+            }
+            else {
+              fVar6 = 0.35;
+            }
+            local_130.alpha = 0.0;
+            local_130.time = 0.0;
+            UnityEngine_GradientAlphaKey___ctor
+                      ((UnityEngine_GradientAlphaKey_o *)&local_130,fVar6,0.2,(MethodInfo *)0x0);
+            if ((alphaKeys->max_length & 0xfffffffe) != 0) {
+              alphaKeys->m_Items[1].fields = local_130;
+              local_60.alpha = 0.0;
+              local_60.time = 0.0;
+              UnityEngine_GradientAlphaKey___ctor
+                        ((UnityEngine_GradientAlphaKey_o *)&local_60,0.1,0.6,(MethodInfo *)0x0);
+              if (2 < (uint)alphaKeys->max_length) {
+                alphaKeys->m_Items[2].fields = local_60;
+                local_68.alpha = 0.0;
+                local_68.time = 0.0;
+                UnityEngine_GradientAlphaKey___ctor
+                          ((UnityEngine_GradientAlphaKey_o *)&local_68,0.0,1.0,(MethodInfo *)0x0);
+                if ((alphaKeys->max_length & 0xfffffffc) != 0) {
+                  alphaKeys->m_Items[3].fields = local_68;
+                  if (__this != (UnityEngine_Gradient_o *)0x0) {
+                    UnityEngine_Gradient__SetKeys(__this,colorKeys,alphaKeys,(MethodInfo *)0x0);
+                    UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit_69c4a70
+                              ((UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_e8,__this,
+                               (MethodInfo *)0x0);
+                    value_12.fields.m_GradientMin = local_e8.m_GradientMin;
+                    value_12.fields.m_Mode = local_e8.m_Mode;
+                    value_12.fields._4_4_ = local_e8._4_4_;
+                    value_12.fields.m_GradientMax = local_e8.m_GradientMax;
+                    value_12.fields.m_ColorMin.fields.r = local_e8.m_ColorMin.fields.r;
+                    value_12.fields.m_ColorMin.fields.g = local_e8.m_ColorMin.fields.g;
+                    value_12.fields.m_ColorMin.fields.b = local_e8.m_ColorMin.fields.b;
+                    value_12.fields.m_ColorMin.fields.a = local_e8.m_ColorMin.fields.a;
+                    value_12.fields.m_ColorMax.fields.r = local_e8.m_ColorMax.fields.r;
+                    value_12.fields.m_ColorMax.fields.g = local_e8.m_ColorMax.fields.g;
+                    value_12.fields.m_ColorMax.fields.b = local_e8.m_ColorMax.fields.b;
+                    value_12.fields.m_ColorMax.fields.a = local_e8.m_ColorMax.fields.a;
+                    UnityEngine_ParticleSystem_ColorOverLifetimeModule__set_color
+                              (&local_f0,value_12,(MethodInfo *)0x0);
+                    local_50 = UnityEngine_ParticleSystem__get_sizeOverLifetime(particles,(MethodInfo *)0x0);
+                    UnityEngine_ParticleSystem_SizeOverLifetimeModule__set_enabled
+                              (&local_50,true,(MethodInfo *)0x0);
+                    curve = UnityEngine_AnimationCurve__Linear(0.0,0.55,1.0,1.7,(MethodInfo *)0x0);
+                    local_118.m_CurveMax = (UnityEngine_AnimationCurve_o *)0x0;
+                    local_118.m_ConstantMin = 0.0;
+                    local_118.m_ConstantMax = 0.0;
+                    local_118.m_Mode = 0;
+                    local_118.m_CurveMultiplier = 0.0;
+                    local_118.m_CurveMin = (UnityEngine_AnimationCurve_o *)0x0;
+                    UnityEngine_ParticleSystem_MinMaxCurve___ctor_69c4760
+                              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_118,1.0,curve,
+                               (MethodInfo *)0x0);
+                    value_08.fields.m_CurveMin = local_118.m_CurveMin;
+                    value_08.fields.m_Mode = local_118.m_Mode;
+                    value_08.fields.m_CurveMultiplier = local_118.m_CurveMultiplier;
+                    value_08.fields.m_CurveMax = local_118.m_CurveMax;
+                    value_08.fields.m_ConstantMin = local_118.m_ConstantMin;
+                    value_08.fields.m_ConstantMax = local_118.m_ConstantMax;
+                    UnityEngine_ParticleSystem_SizeOverLifetimeModule__set_size
+                              (&local_50,value_08,(MethodInfo *)0x0);
+                    local_58 = UnityEngine_ParticleSystem__get_rotationOverLifetime
+                                         (particles,(MethodInfo *)0x0);
+                    UnityEngine_ParticleSystem_RotationOverLifetimeModule__set_enabled
+                              (&local_58,true,(MethodInfo *)0x0);
+                    local_78 = (UnityEngine_AnimationCurve_o *)0x0;
+                    uStack_70._0_4_ = 0.0;
+                    uStack_70._4_4_ = 0.0;
+                    local_88._0_4_ = 0;
+                    local_88._4_4_ = 0.0;
+                    local_88._8_8_ = (UnityEngine_AnimationCurve_o *)0x0;
+                    UnityEngine_ParticleSystem_MinMaxCurve___ctor_69c47b0
+                              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_88,-0.873,0.873,
+                               (MethodInfo *)0x0);
+                    value_09.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_88._8_8_;
+                    value_09.fields.m_Mode = local_88._0_4_;
+                    value_09.fields.m_CurveMultiplier = (float)local_88._4_4_;
+                    value_09.fields.m_CurveMax = local_78;
+                    value_09.fields.m_ConstantMin = (float)uStack_70;
+                    value_09.fields.m_ConstantMax = uStack_70._4_4_;
+                    UnityEngine_ParticleSystem_RotationOverLifetimeModule__set_z
+                              (&local_58,value_09,(MethodInfo *)0x0);
+                    local_f8 = UnityEngine_ParticleSystem__get_emission(particles,(MethodInfo *)0x0);
+                    UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+                              ((UnityEngine_ParticleSystem_MinMaxCurve_o *)local_a8,local_11c,
+                               (MethodInfo *)0x0);
+                    value_10.fields.m_CurveMin = (UnityEngine_AnimationCurve_o *)local_a8._8_8_;
+                    value_10.fields.m_Mode = local_a8._0_4_;
+                    value_10.fields.m_CurveMultiplier = (float)local_a8._4_4_;
+                    value_10.fields.m_CurveMax = local_98;
+                    value_10.fields.m_ConstantMin = (float)uStack_90;
+                    value_10.fields.m_ConstantMax = uStack_90._4_4_;
+                    UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime
+                              (&local_f8,value_10,(MethodInfo *)0x0);
+                    pMVar4 = MethodInfo_System_Array_Empty_ParticleSystem_Burst;
+                    if ((MethodInfo_System_Array_Empty_ParticleSystem_Burst->field7_0x38).methodMetadataHandle
+                        == (void *)0x0) {
+                      il2cpp_codegen_rgctx_method_init(MethodInfo_System_Array_Empty_ParticleSystem_Burst);
+                      pIVar3 = *(Il2CppClass **)((long)(pMVar4->field7_0x38).methodMetadataHandle + 0x10);
+                      bVar1 = (pIVar3->_2).bitflags1;
+                    }
+                    else {
+                      pIVar3 = *(Il2CppClass **)
+                                ((long)(MethodInfo_System_Array_Empty_ParticleSystem_Burst->field7_0x38).
+                                       methodMetadataHandle + 0x10);
+                      bVar1 = (pIVar3->_2).bitflags1;
+                    }
+                    if ((bVar1 & 1) == 0) {
+                      pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
+                      uVar2 = (pIVar3->_2).cctor_finished_or_no_cctor;
+                    }
+                    else {
+                      uVar2 = (pIVar3->_2).cctor_finished_or_no_cctor;
+                    }
+                    if (uVar2 == 0) {
+                      il2cpp_codegen_runtime_class_init(pIVar3);
+                      pIVar3 = (pMVar4->field7_0x38).rgctx_data[2].klass;
+                      bVar1 = (pIVar3->_2).bitflags1;
+                    }
+                    else {
+                      pIVar3 = (pMVar4->field7_0x38).rgctx_data[2].klass;
+                      bVar1 = (pIVar3->_2).bitflags1;
+                    }
+                    if ((bVar1 & 1) == 0) {
+                      pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
+                    }
+                    UnityEngine_ParticleSystem_EmissionModule__SetBursts
+                              (&local_f8,*(UnityEngine_ParticleSystem_Burst_array **)pIVar3->static_fields,
+                               (MethodInfo *)0x0);
+                    UnityEngine_ParticleSystem_EmissionModule__set_enabled(&local_f8,true,(MethodInfo *)0x0);
+                    return;
                   }
-                  pIVar3 = (pMVar4->field7_0x38).rgctx_data[2].klass;
-                  if (((pIVar3->_2).bitflags1 & 1) == 0) {
-                    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
-                  }
-                  if ((pIVar3->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init(pIVar3);
-                  }
-                  pIVar3 = (pMVar4->field7_0x38).rgctx_data[2].klass;
-                  if (((pIVar3->_2).bitflags1 & 1) == 0) {
-                    pIVar3 = il2cpp_codegen_class_init_checked(pIVar3);
-                  }
-                  UnityEngine_ParticleSystem_EmissionModule__SetBursts
-                            (local_188,*(UnityEngine_ParticleSystem_Burst_array **)pIVar3->static_fields,
-                             (MethodInfo *)0x0);
-                  UnityEngine_ParticleSystem_EmissionModule__set_enabled(local_188,true,(MethodInfo *)0x0);
-                  return;
+                  goto label_05c61931;
                 }
-                ThrowNullReferenceException();
               }
             }
           }
-          ThrowIndexOutOfRangeException();
         }
       }
+      ThrowIndexOutOfRangeException();
     }
-    ThrowIndexOutOfRangeException();
   }
-label_1821cf742:
+label_05c61931:
   ThrowNullReferenceException();
 }
 
 
 // Characters.TitanSteamEffect$$Prepare
 // il2cpp: void Characters_TitanSteamEffect__Prepare (UnityEngine_ParticleSystem_o* particles, const MethodInfo* method);
-// 0x1821cf750
+// 0x5c60dd0
 
 void Characters_TitanSteamEffect__Prepare(UnityEngine_ParticleSystem_o *particles,MethodInfo *method)
 
 {
   UnityEngine_ParticleSystem_o *__this;
   bool bVar1;
-  System_Object_array *pSVar2;
+  uint uVar2;
+  System_Object_array *pSVar3;
   UnityEngine_GameObject_o *__this_00;
-  uint uVar3;
+  uint uVar4;
   
-  if (Il2CppMethodInitialized_184346ea9 == '\0') {
+  if (Il2CppMethodInitialized_0754789b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_ParticleSystem_40ac078);
+              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_ParticleSystem_71a4fc0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346ea9 = '\x01';
+    Il2CppMethodInitialized_0754789b = '\x01';
   }
   if (particles != (UnityEngine_ParticleSystem_o *)0x0) {
-    pSVar2 = UnityEngine_Component__GetComponentsInChildren_object_
+    pSVar3 = UnityEngine_Component__GetComponentsInChildren_object_
                        ((UnityEngine_Component_o *)particles,true,
-                        (MethodInfo_665440 *)
-                        MethodInfo_UnityEngine_Component_GetComponentsInChildren_ParticleSystem_40ac078);
-    if (pSVar2 != (System_Object_array *)0x0) {
-      uVar3 = 0;
-      while( true ) {
-        if ((int)pSVar2->max_length <= (int)uVar3) {
-          return;
-        }
-        if ((uint)pSVar2->max_length <= uVar3) {
-          ThrowIndexOutOfRangeException();
-        }
-        __this = (UnityEngine_ParticleSystem_o *)pSVar2->m_Items[(int)uVar3];
-        if (__this == (UnityEngine_ParticleSystem_o *)0x0) break;
-        UnityEngine_ParticleSystem__Stop(__this,true,0,(MethodInfo *)0x0);
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar1 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)particles,(MethodInfo *)0x0)
-        ;
-        if (bVar1) {
-          __this_00 = UnityEngine_Component__get_gameObject
-                                ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-          if (__this_00 == (UnityEngine_GameObject_o *)0x0) break;
-          UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
-        }
-        uVar3 = uVar3 + 1;
+                        (MethodInfo_34B1260 *)
+                        MethodInfo_UnityEngine_Component_GetComponentsInChildren_ParticleSystem_71a4fc0);
+    if (pSVar3 != (System_Object_array *)0x0) {
+      uVar2 = (uint)pSVar3->max_length;
+      if (0 < (int)uVar2) {
+        uVar4 = 0;
+        do {
+          if (uVar2 <= uVar4) {
+            ThrowIndexOutOfRangeException();
+          }
+          __this = (UnityEngine_ParticleSystem_o *)pSVar3->m_Items[(int)uVar4];
+          if (__this == (UnityEngine_ParticleSystem_o *)0x0) goto label_05c60ebd;
+          UnityEngine_ParticleSystem__Stop(__this,true,0,(MethodInfo *)0x0);
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar1 = UnityEngine_Object__op_Inequality
+                            ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)particles,
+                             (MethodInfo *)0x0);
+          if (bVar1) {
+            __this_00 = UnityEngine_Component__get_gameObject
+                                  ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+            if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_05c60ebd;
+            UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+          }
+          uVar4 = uVar4 + 1;
+          uVar2 = (uint)pSVar3->max_length;
+        } while ((int)uVar4 < (int)uVar2);
       }
+      return;
     }
   }
+label_05c60ebd:
   ThrowNullReferenceException();
 }
 
 
 // Characters.TitanSteamEffect$$SetSurface
 // il2cpp: void Characters_TitanSteamEffect__SetSurface (UnityEngine_ParticleSystem_o* particles, UnityEngine_Mesh_o* mesh, const MethodInfo* method);
-// 0x1821cf860
+// 0x5c61940
 
 void Characters_TitanSteamEffect__SetSurface
                (UnityEngine_ParticleSystem_o *particles,UnityEngine_Mesh_o *mesh,MethodInfo *method)
 
 {
-  UnityEngine_Vector3_StaticFields *pUVar1;
-  UnityEngine_ParticleSystem_ShapeModule_o local_res8 [4];
-  UnityEngine_Vector3_Fields local_18;
+  UnityEngine_ParticleSystem_ShapeModule_o local_18;
   
-  local_res8[0].fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_ShapeModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
-  if (particles != (UnityEngine_ParticleSystem_o *)0x0) {
-    local_res8[0].fields.m_ParticleSystem =
-         (UnityEngine_ParticleSystem_ShapeModule_Fields)
-         UnityEngine_ParticleSystem__get_noise(particles,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_enabled(local_res8,true,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_shapeType(local_res8,6,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_mesh(local_res8,mesh,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_meshShapeType(local_res8,2,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_useMeshColors(local_res8,false,(MethodInfo *)0x0);
-    UnityEngine_ParticleSystem_ShapeModule__set_useMeshMaterialIndex(local_res8,false,(MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433dbea == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbea = '\x01';
-    }
-    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-    local_18.x = (pUVar1->zeroVector).fields.x;
-    local_18.y = (pUVar1->zeroVector).fields.y;
-    local_18.z = (pUVar1->zeroVector).fields.z;
-    UnityEngine_ParticleSystem_ShapeModule__set_position
-              (local_res8,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433dbea == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbea = '\x01';
-    }
-    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-    local_18.x = (pUVar1->zeroVector).fields.x;
-    local_18.y = (pUVar1->zeroVector).fields.y;
-    local_18.z = (pUVar1->zeroVector).fields.z;
-    UnityEngine_ParticleSystem_ShapeModule__set_rotation
-              (local_res8,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433dbeb == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbeb = '\x01';
-    }
-    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-    local_18.x = (pUVar1->oneVector).fields.x;
-    local_18.y = (pUVar1->oneVector).fields.y;
-    local_18.z = (pUVar1->oneVector).fields.z;
-    UnityEngine_ParticleSystem_ShapeModule__set_scale
-              (local_res8,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
-    return;
+  if (particles == (UnityEngine_ParticleSystem_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  local_18 = UnityEngine_ParticleSystem__get_shape(particles,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_enabled(&local_18,true,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_shapeType(&local_18,6,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_mesh(&local_18,mesh,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_meshShapeType(&local_18,2,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_useMeshColors(&local_18,false,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem_ShapeModule__set_useMeshMaterialIndex(&local_18,false,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
+  }
+  UnityEngine_ParticleSystem_ShapeModule__set_position
+            (&local_18,(UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields
+             ,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
+  }
+  UnityEngine_ParticleSystem_ShapeModule__set_rotation
+            (&local_18,(UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields
+             ,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_0753e4b7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e4b7 = '\x01';
+  }
+  UnityEngine_ParticleSystem_ShapeModule__set_scale
+            (&local_18,(UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->oneVector).fields,
+             (MethodInfo *)0x0);
+  return;
 }
 
 
 // Characters.TitanSteamEffect$$.cctor
 // il2cpp: void Characters_TitanSteamEffect___cctor (const MethodInfo* method);
-// 0x1821cf9e0
+// 0x5c61a70
 
 void Characters_TitanSteamEffect___cctor(MethodInfo *method)
 
 {
   Characters_TitanSteamEffect_StaticFields *pCVar1;
   
-  if (Il2CppMethodInitialized_184346eaa == '\0') {
+  if (Il2CppMethodInitialized_0754789c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_TitanSteamEffect);
-    Il2CppMethodInitialized_184346eaa = '\x01';
+    Il2CppMethodInitialized_0754789c = '\x01';
   }
   pCVar1 = TypeInfo_Characters_TitanSteamEffect->static_fields;
   (pCVar1->SteamColor).fields.r = 0.86;

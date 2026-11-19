@@ -10,88 +10,88 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003EF")]
+[Token(Token = "0x20003AB")]
 public sealed class HttpListenerTimeoutsElement : ConfigurationElement
 {
-	[Token(Token = "0x170005A8")]
+	[Token(Token = "0x1700057A")]
 	public TimeSpan DrainEntityBody
 	{
-		[Token(Token = "0x6001A54")]
-		[Address(RVA = "0x282AF30", Offset = "0x2829530", VA = "0x18282AF30")]
+		[Token(Token = "0x600189A")]
+		[Address(RVA = "0x61D0650", Offset = "0x61CF650", VA = "0x61D0650")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x170005A9")]
+	[Token(Token = "0x1700057B")]
 	public TimeSpan EntityBody
 	{
-		[Token(Token = "0x6001A55")]
-		[Address(RVA = "0x282AF60", Offset = "0x2829560", VA = "0x18282AF60")]
+		[Token(Token = "0x600189B")]
+		[Address(RVA = "0x61D0680", Offset = "0x61CF680", VA = "0x61D0680")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x170005AA")]
+	[Token(Token = "0x1700057C")]
 	public TimeSpan HeaderWait
 	{
-		[Token(Token = "0x6001A56")]
-		[Address(RVA = "0x282AF90", Offset = "0x2829590", VA = "0x18282AF90")]
+		[Token(Token = "0x600189C")]
+		[Address(RVA = "0x61D06B0", Offset = "0x61CF6B0", VA = "0x61D06B0")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x170005AB")]
+	[Token(Token = "0x1700057D")]
 	public TimeSpan IdleConnection
 	{
-		[Token(Token = "0x6001A57")]
-		[Address(RVA = "0x282AFC0", Offset = "0x28295C0", VA = "0x18282AFC0")]
+		[Token(Token = "0x600189D")]
+		[Address(RVA = "0x61D06E0", Offset = "0x61CF6E0", VA = "0x61D06E0")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x170005AC")]
+	[Token(Token = "0x1700057E")]
 	public long MinSendBytesPerSecond
 	{
-		[Token(Token = "0x6001A58")]
-		[Address(RVA = "0x282AFF0", Offset = "0x28295F0", VA = "0x18282AFF0")]
+		[Token(Token = "0x600189E")]
+		[Address(RVA = "0x61D0710", Offset = "0x61CF710", VA = "0x61D0710")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170005AD")]
+	[Token(Token = "0x1700057F")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A59")]
-		[Address(RVA = "0x282B020", Offset = "0x2829620", VA = "0x18282B020", Slot = "4")]
+		[Token(Token = "0x600189F")]
+		[Address(RVA = "0x61D0740", Offset = "0x61CF740", VA = "0x61D0740", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005AE")]
+	[Token(Token = "0x17000580")]
 	public TimeSpan RequestQueue
 	{
-		[Token(Token = "0x6001A5A")]
-		[Address(RVA = "0x282B050", Offset = "0x2829650", VA = "0x18282B050")]
+		[Token(Token = "0x60018A0")]
+		[Address(RVA = "0x61D0770", Offset = "0x61CF770", VA = "0x61D0770")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x6001A53")]
-	[Address(RVA = "0x282AF00", Offset = "0x2829500", VA = "0x18282AF00")]
+	[Token(Token = "0x6001899")]
+	[Address(RVA = "0x61D0620", Offset = "0x61CF620", VA = "0x61D0620")]
 	public HttpListenerTimeoutsElement()
 	{
 	}

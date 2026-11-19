@@ -20,7 +20,7 @@ internal class IgnoreAttribute : Attribute
 	public bool DoesNotContributeToSize
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x69F1A00", Offset = "0x69F0A00", VA = "0x69F1A00")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ internal class IgnoreAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x69F1A10", Offset = "0x69F0A10", VA = "0x69F1A10")]
 	public IgnoreAttribute()
 	{
 	}

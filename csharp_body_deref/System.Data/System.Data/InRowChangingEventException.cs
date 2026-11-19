@@ -15,19 +15,19 @@ namespace System.Data;
 public class InRowChangingEventException : DataException
 {
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BC60", Offset = "0x5E6AC60", VA = "0x5E6BC60")]
 	protected InRowChangingEventException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x24E4020", Offset = "0x24E2620", VA = "0x1824E4020")]
+	[Address(RVA = "0x5E6BC70", Offset = "0x5E6AC70", VA = "0x5E6BC70")]
 	public InRowChangingEventException()
 	{
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x24E4070", Offset = "0x24E2670", VA = "0x1824E4070")]
+	[Address(RVA = "0x5E6BCB0", Offset = "0x5E6ACB0", VA = "0x5E6BCB0")]
 	public InRowChangingEventException(string s)
 	{
 	}

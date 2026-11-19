@@ -35,7 +35,7 @@ public class PhotonAppSettings : ScriptableObject
 	public static PhotonAppSettings Instance
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x1D8AAA0", Offset = "0x1D890A0", VA = "0x181D8AAA0")]
+		[Address(RVA = "0x5724E90", Offset = "0x5723E90", VA = "0x5724E90")]
 		get
 		{
 			return null;
@@ -43,26 +43,26 @@ public class PhotonAppSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x1D67A10", Offset = "0x1D66010", VA = "0x181D67A10")]
+	[Address(RVA = "0x5724E10", Offset = "0x5723E10", VA = "0x5724E10")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x1D8A730", Offset = "0x1D88D30", VA = "0x181D8A730")]
+	[Address(RVA = "0x5724F20", Offset = "0x5723F20", VA = "0x5724F20")]
 	public static void LoadOrCreateSettings()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x1D8AA40", Offset = "0x1D89040", VA = "0x181D8AA40", Slot = "3")]
+	[Address(RVA = "0x57251E0", Offset = "0x57241E0", VA = "0x57251E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x5725230", Offset = "0x5724230", VA = "0x5725230")]
 	public PhotonAppSettings()
 	{
 	}

@@ -24,7 +24,7 @@ internal class XsdSimpleValue
 	public XmlSchemaSimpleType XmlType
 	{
 		[Token(Token = "0x600104B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x614DA00", Offset = "0x614CA00", VA = "0x614DA00")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class XsdSimpleValue
 	public object TypedValue
 	{
 		[Token(Token = "0x600104C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x614DA10", Offset = "0x614CA10", VA = "0x614DA10")]
 		get
 		{
 			return null;
@@ -43,7 +43,7 @@ internal class XsdSimpleValue
 	}
 
 	[Token(Token = "0x600104A")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x614D9C0", Offset = "0x614C9C0", VA = "0x614D9C0")]
 	public XsdSimpleValue(XmlSchemaSimpleType st, object value)
 	{
 	}

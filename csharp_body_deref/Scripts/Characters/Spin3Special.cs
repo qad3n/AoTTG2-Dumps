@@ -10,72 +10,72 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000686")]
+[Token(Token = "0x20006E5")]
 internal class Spin3Special : BaseAttackSpecial
 {
-	[Token(Token = "0x4001EC5")]
+	[Token(Token = "0x4002073")]
 	[FieldOffset(Offset = "0x48")]
 	protected float AnimationLoopStartTime;
 
-	[Token(Token = "0x4001EC6")]
+	[Token(Token = "0x4002074")]
 	[FieldOffset(Offset = "0x4C")]
 	protected float AnimationLoopEndTime;
 
-	[Token(Token = "0x4001EC7")]
+	[Token(Token = "0x4002075")]
 	[FieldOffset(Offset = "0x50")]
 	protected int Loops;
 
-	[Token(Token = "0x4001EC8")]
+	[Token(Token = "0x4002076")]
 	[FieldOffset(Offset = "0x54")]
 	protected int _stage;
 
-	[Token(Token = "0x4001EC9")]
+	[Token(Token = "0x4002077")]
 	[FieldOffset(Offset = "0x58")]
 	protected Vector3 _aimPoint;
 
-	[Token(Token = "0x4001ECA")]
+	[Token(Token = "0x4002078")]
 	[FieldOffset(Offset = "0x64")]
 	protected bool _pulled;
 
-	[Token(Token = "0x4001ECB")]
+	[Token(Token = "0x4002079")]
 	[FieldOffset(Offset = "0x65")]
 	protected bool _startSpin;
 
-	[Token(Token = "0x4001ECC")]
+	[Token(Token = "0x400207A")]
 	[FieldOffset(Offset = "0x68")]
 	protected float PullForce;
 
-	[Token(Token = "0x17000B2F")]
+	[Token(Token = "0x17000B79")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6004046")]
-		[Address(RVA = "0x20CF430", Offset = "0x20CDA30", VA = "0x1820CF430", Slot = "14")]
+		[Token(Token = "0x60042DE")]
+		[Address(RVA = "0x5B0ECD0", Offset = "0x5B0DCD0", VA = "0x5B0ECD0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6004047")]
-	[Address(RVA = "0x21773A0", Offset = "0x21759A0", VA = "0x1821773A0")]
+	[Token(Token = "0x60042DF")]
+	[Address(RVA = "0x5B0ECE0", Offset = "0x5B0DCE0", VA = "0x5B0ECE0")]
 	public Spin3Special(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6004048")]
-	[Address(RVA = "0x2176BB0", Offset = "0x21751B0", VA = "0x182176BB0", Slot = "9")]
+	[Token(Token = "0x60042E0")]
+	[Address(RVA = "0x5B0ED10", Offset = "0x5B0DD10", VA = "0x5B0ED10", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6004049")]
-	[Address(RVA = "0x2176CB0", Offset = "0x21752B0", VA = "0x182176CB0", Slot = "16")]
+	[Token(Token = "0x60042E1")]
+	[Address(RVA = "0x5B0EE10", Offset = "0x5B0DE10", VA = "0x5B0EE10", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x600404A")]
-	[Address(RVA = "0x2177320", Offset = "0x2175920", VA = "0x182177320")]
+	[Token(Token = "0x60042E2")]
+	[Address(RVA = "0x5B0F4A0", Offset = "0x5B0E4A0", VA = "0x5B0F4A0")]
 	protected float GetAnimationTime()
 	{
 		return default(float);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ShadowData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,7 +22,7 @@ public struct ShadowData
 	internal UniversalShadowData universalShadowData
 	{
 		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x2CC8A50", Offset = "0x2CC7050", VA = "0x182CC8A50")]
+		[Address(RVA = "0x66AE990", Offset = "0x66AD990", VA = "0x66AE990")]
 		get
 		{
 			return null;
@@ -33,7 +33,7 @@ public struct ShadowData
 	public unsafe ref bool supportsMainLightShadows
 	{
 		[Token(Token = "0x6000A98")]
-		[Address(RVA = "0x2CC89B0", Offset = "0x2CC6FB0", VA = "0x182CC89B0")]
+		[Address(RVA = "0x66AE9D0", Offset = "0x66AD9D0", VA = "0x66AE9D0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -44,7 +44,7 @@ public struct ShadowData
 	internal unsafe ref bool mainLightShadowsEnabled
 	{
 		[Token(Token = "0x6000A99")]
-		[Address(RVA = "0x2CC8820", Offset = "0x2CC6E20", VA = "0x182CC8820")]
+		[Address(RVA = "0x66AEA20", Offset = "0x66ADA20", VA = "0x66AEA20")]
 		get
 		{
 			return ref *(bool*)null;
@@ -55,7 +55,7 @@ public struct ShadowData
 	public unsafe ref int mainLightShadowmapWidth
 	{
 		[Token(Token = "0x6000A9A")]
-		[Address(RVA = "0x2CC87D0", Offset = "0x2CC6DD0", VA = "0x182CC87D0")]
+		[Address(RVA = "0x66AEA70", Offset = "0x66ADA70", VA = "0x66AEA70")]
 		get
 		{
 			return ref *(int*)null;
@@ -66,7 +66,7 @@ public struct ShadowData
 	public unsafe ref int mainLightShadowmapHeight
 	{
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x2CC8780", Offset = "0x2CC6D80", VA = "0x182CC8780")]
+		[Address(RVA = "0x66AEAC0", Offset = "0x66ADAC0", VA = "0x66AEAC0")]
 		get
 		{
 			return ref *(int*)null;
@@ -77,7 +77,7 @@ public struct ShadowData
 	public unsafe ref int mainLightShadowCascadesCount
 	{
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x2CC8690", Offset = "0x2CC6C90", VA = "0x182CC8690")]
+		[Address(RVA = "0x66AEB10", Offset = "0x66ADB10", VA = "0x66AEB10")]
 		get
 		{
 			return ref *(int*)null;
@@ -88,7 +88,7 @@ public struct ShadowData
 	public unsafe ref Vector3 mainLightShadowCascadesSplit
 	{
 		[Token(Token = "0x6000A9D")]
-		[Address(RVA = "0x2CC86E0", Offset = "0x2CC6CE0", VA = "0x182CC86E0")]
+		[Address(RVA = "0x66AEB60", Offset = "0x66ADB60", VA = "0x66AEB60")]
 		get
 		{
 			return ref *(Vector3*)null;
@@ -99,7 +99,7 @@ public struct ShadowData
 	public unsafe ref float mainLightShadowCascadeBorder
 	{
 		[Token(Token = "0x6000A9E")]
-		[Address(RVA = "0x2CC8640", Offset = "0x2CC6C40", VA = "0x182CC8640")]
+		[Address(RVA = "0x66AEBB0", Offset = "0x66ADBB0", VA = "0x66AEBB0")]
 		get
 		{
 			return ref *(float*)null;
@@ -110,7 +110,7 @@ public struct ShadowData
 	public unsafe ref bool supportsAdditionalLightShadows
 	{
 		[Token(Token = "0x6000A9F")]
-		[Address(RVA = "0x2CC8960", Offset = "0x2CC6F60", VA = "0x182CC8960")]
+		[Address(RVA = "0x66AEC00", Offset = "0x66ADC00", VA = "0x66AEC00")]
 		get
 		{
 			return ref *(bool*)null;
@@ -121,7 +121,7 @@ public struct ShadowData
 	internal unsafe ref bool additionalLightShadowsEnabled
 	{
 		[Token(Token = "0x6000AA0")]
-		[Address(RVA = "0x2CC83C0", Offset = "0x2CC69C0", VA = "0x182CC83C0")]
+		[Address(RVA = "0x66AEC50", Offset = "0x66ADC50", VA = "0x66AEC50")]
 		get
 		{
 			return ref *(bool*)null;
@@ -132,7 +132,7 @@ public struct ShadowData
 	public unsafe ref int additionalLightsShadowmapWidth
 	{
 		[Token(Token = "0x6000AA1")]
-		[Address(RVA = "0x2CC8460", Offset = "0x2CC6A60", VA = "0x182CC8460")]
+		[Address(RVA = "0x66AECA0", Offset = "0x66ADCA0", VA = "0x66AECA0")]
 		get
 		{
 			return ref *(int*)null;
@@ -143,7 +143,7 @@ public struct ShadowData
 	public unsafe ref int additionalLightsShadowmapHeight
 	{
 		[Token(Token = "0x6000AA2")]
-		[Address(RVA = "0x2CC8410", Offset = "0x2CC6A10", VA = "0x182CC8410")]
+		[Address(RVA = "0x66AECF0", Offset = "0x66ADCF0", VA = "0x66AECF0")]
 		get
 		{
 			return ref *(int*)null;
@@ -154,7 +154,7 @@ public struct ShadowData
 	public unsafe ref bool supportsSoftShadows
 	{
 		[Token(Token = "0x6000AA3")]
-		[Address(RVA = "0x2CC8A00", Offset = "0x2CC7000", VA = "0x182CC8A00")]
+		[Address(RVA = "0x66AED40", Offset = "0x66ADD40", VA = "0x66AED40")]
 		get
 		{
 			return ref *(bool*)null;
@@ -165,7 +165,7 @@ public struct ShadowData
 	public unsafe ref int shadowmapDepthBufferBits
 	{
 		[Token(Token = "0x6000AA4")]
-		[Address(RVA = "0x2CC8910", Offset = "0x2CC6F10", VA = "0x182CC8910")]
+		[Address(RVA = "0x66AED90", Offset = "0x66ADD90", VA = "0x66AED90")]
 		get
 		{
 			return ref *(int*)null;
@@ -176,7 +176,7 @@ public struct ShadowData
 	public unsafe ref List<Vector4> bias
 	{
 		[Token(Token = "0x6000AA5")]
-		[Address(RVA = "0x2CC84B0", Offset = "0x2CC6AB0", VA = "0x182CC84B0")]
+		[Address(RVA = "0x66AEDE0", Offset = "0x66ADDE0", VA = "0x66AEDE0")]
 		get
 		{
 			return ref *(List<Vector4>*)null;
@@ -187,7 +187,7 @@ public struct ShadowData
 	public unsafe ref List<int> resolution
 	{
 		[Token(Token = "0x6000AA6")]
-		[Address(RVA = "0x2CC8870", Offset = "0x2CC6E70", VA = "0x182CC8870")]
+		[Address(RVA = "0x66AEE30", Offset = "0x66ADE30", VA = "0x66AEE30")]
 		get
 		{
 			return ref *(List<int>*)null;
@@ -198,7 +198,7 @@ public struct ShadowData
 	internal unsafe ref bool isKeywordAdditionalLightShadowsEnabled
 	{
 		[Token(Token = "0x6000AA7")]
-		[Address(RVA = "0x2CC8500", Offset = "0x2CC6B00", VA = "0x182CC8500")]
+		[Address(RVA = "0x66AEE80", Offset = "0x66ADE80", VA = "0x66AEE80")]
 		get
 		{
 			return ref *(bool*)null;
@@ -209,7 +209,7 @@ public struct ShadowData
 	internal unsafe ref bool isKeywordSoftShadowsEnabled
 	{
 		[Token(Token = "0x6000AA8")]
-		[Address(RVA = "0x2CC8550", Offset = "0x2CC6B50", VA = "0x182CC8550")]
+		[Address(RVA = "0x66AEED0", Offset = "0x66ADED0", VA = "0x66AEED0")]
 		get
 		{
 			return ref *(bool*)null;
@@ -220,7 +220,7 @@ public struct ShadowData
 	internal unsafe ref int mainLightShadowResolution
 	{
 		[Token(Token = "0x6000AA9")]
-		[Address(RVA = "0x2CC8730", Offset = "0x2CC6D30", VA = "0x182CC8730")]
+		[Address(RVA = "0x66AEF20", Offset = "0x66ADF20", VA = "0x66AEF20")]
 		get
 		{
 			return ref *(int*)null;
@@ -231,7 +231,7 @@ public struct ShadowData
 	internal unsafe ref int mainLightRenderTargetWidth
 	{
 		[Token(Token = "0x6000AAA")]
-		[Address(RVA = "0x2CC85F0", Offset = "0x2CC6BF0", VA = "0x182CC85F0")]
+		[Address(RVA = "0x66AEF70", Offset = "0x66ADF70", VA = "0x66AEF70")]
 		get
 		{
 			return ref *(int*)null;
@@ -242,7 +242,7 @@ public struct ShadowData
 	internal unsafe ref int mainLightRenderTargetHeight
 	{
 		[Token(Token = "0x6000AAB")]
-		[Address(RVA = "0x2CC85A0", Offset = "0x2CC6BA0", VA = "0x182CC85A0")]
+		[Address(RVA = "0x66AEFC0", Offset = "0x66ADFC0", VA = "0x66AEFC0")]
 		get
 		{
 			return ref *(int*)null;
@@ -253,7 +253,7 @@ public struct ShadowData
 	internal unsafe ref NativeArray<URPLightShadowCullingInfos> visibleLightsShadowCullingInfos
 	{
 		[Token(Token = "0x6000AAC")]
-		[Address(RVA = "0x2CC8AA0", Offset = "0x2CC70A0", VA = "0x182CC8AA0")]
+		[Address(RVA = "0x66AF010", Offset = "0x66AE010", VA = "0x66AF010")]
 		get
 		{
 			return ref *(NativeArray<URPLightShadowCullingInfos>*)null;
@@ -264,7 +264,7 @@ public struct ShadowData
 	internal unsafe ref AdditionalLightsShadowAtlasLayout shadowAtlasLayout
 	{
 		[Token(Token = "0x6000AAD")]
-		[Address(RVA = "0x2CC88C0", Offset = "0x2CC6EC0", VA = "0x182CC88C0")]
+		[Address(RVA = "0x66AF060", Offset = "0x66AE060", VA = "0x66AF060")]
 		get
 		{
 			return ref *(AdditionalLightsShadowAtlasLayout*)null;
@@ -272,7 +272,7 @@ public struct ShadowData
 	}
 
 	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x66AE980", Offset = "0x66AD980", VA = "0x66AE980")]
 	internal ShadowData(ContextContainer frameData)
 	{
 	}

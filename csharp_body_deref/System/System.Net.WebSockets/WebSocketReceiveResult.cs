@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003C6")]
+[Token(Token = "0x2000382")]
 public class WebSocketReceiveResult
 {
-	[Token(Token = "0x40010BE")]
+	[Token(Token = "0x4000FD6")]
 	[FieldOffset(Offset = "0x1C")]
 	[CompilerGenerated]
 	private readonly WebSocketCloseStatus? _003CCloseStatus_003Ek__BackingField;
 
-	[Token(Token = "0x40010BF")]
+	[Token(Token = "0x4000FD7")]
 	[FieldOffset(Offset = "0x28")]
 	[CompilerGenerated]
 	private readonly string _003CCloseStatusDescription_003Ek__BackingField;
 
-	[Token(Token = "0x1700056A")]
+	[Token(Token = "0x1700053D")]
 	public int Count
 	{
-		[Token(Token = "0x600199C")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60017E3")]
+		[Address(RVA = "0x61CD5D0", Offset = "0x61CC5D0", VA = "0x61CD5D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -35,11 +35,11 @@ public class WebSocketReceiveResult
 		}
 	}
 
-	[Token(Token = "0x1700056B")]
+	[Token(Token = "0x1700053E")]
 	public bool EndOfMessage
 	{
-		[Token(Token = "0x600199D")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Token(Token = "0x60017E4")]
+		[Address(RVA = "0x61CD5E0", Offset = "0x61CC5E0", VA = "0x61CD5E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -47,11 +47,11 @@ public class WebSocketReceiveResult
 		}
 	}
 
-	[Token(Token = "0x1700056C")]
+	[Token(Token = "0x1700053F")]
 	public WebSocketMessageType MessageType
 	{
-		[Token(Token = "0x600199E")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x60017E5")]
+		[Address(RVA = "0x61CD5F0", Offset = "0x61CC5F0", VA = "0x61CD5F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -59,14 +59,14 @@ public class WebSocketReceiveResult
 		}
 	}
 
-	[Token(Token = "0x600199A")]
-	[Address(RVA = "0x28289E0", Offset = "0x2826FE0", VA = "0x1828289E0")]
+	[Token(Token = "0x60017E1")]
+	[Address(RVA = "0x61C2390", Offset = "0x61C1390", VA = "0x61C2390")]
 	public WebSocketReceiveResult(int count, WebSocketMessageType messageType, bool endOfMessage)
 	{
 	}
 
-	[Token(Token = "0x600199B")]
-	[Address(RVA = "0x2828940", Offset = "0x2826F40", VA = "0x182828940")]
+	[Token(Token = "0x60017E2")]
+	[Address(RVA = "0x61C2420", Offset = "0x61C1420", VA = "0x61C2420")]
 	public WebSocketReceiveResult(int count, WebSocketMessageType messageType, bool endOfMessage, WebSocketCloseStatus? closeStatus, string closeStatusDescription)
 	{
 	}

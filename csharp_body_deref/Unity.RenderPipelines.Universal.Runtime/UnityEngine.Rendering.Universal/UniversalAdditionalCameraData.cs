@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -195,7 +195,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	internal static UniversalAdditionalCameraData defaultAdditionalCameraData
 	{
 		[Token(Token = "0x60009AD")]
-		[Address(RVA = "0x2CA3E80", Offset = "0x2CA2480", VA = "0x182CA3E80")]
+		[Address(RVA = "0x669DD50", Offset = "0x669CD50", VA = "0x669DD50")]
 		get
 		{
 			return null;
@@ -206,7 +206,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	internal Camera camera
 	{
 		[Token(Token = "0x60009AE")]
-		[Address(RVA = "0x2CA3DD0", Offset = "0x2CA23D0", VA = "0x182CA3DD0")]
+		[Address(RVA = "0x669DF70", Offset = "0x669CF70", VA = "0x669DF70")]
 		get
 		{
 			return null;
@@ -217,13 +217,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool renderShadows
 	{
 		[Token(Token = "0x60009B0")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x669E040", Offset = "0x669D040", VA = "0x669E040")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009B1")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x669E050", Offset = "0x669D050", VA = "0x669E050")]
 		set
 		{
 		}
@@ -233,13 +233,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public CameraOverrideOption requiresDepthOption
 	{
 		[Token(Token = "0x60009B2")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x669E060", Offset = "0x669D060", VA = "0x669E060")]
 		get
 		{
 			return default(CameraOverrideOption);
 		}
 		[Token(Token = "0x60009B3")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x669E070", Offset = "0x669D070", VA = "0x669E070")]
 		set
 		{
 		}
@@ -249,13 +249,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public CameraOverrideOption requiresColorOption
 	{
 		[Token(Token = "0x60009B4")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x669E080", Offset = "0x669D080", VA = "0x669E080")]
 		get
 		{
 			return default(CameraOverrideOption);
 		}
 		[Token(Token = "0x60009B5")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x669E090", Offset = "0x669D090", VA = "0x669E090")]
 		set
 		{
 		}
@@ -265,13 +265,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public CameraRenderType renderType
 	{
 		[Token(Token = "0x60009B6")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x669E0A0", Offset = "0x669D0A0", VA = "0x669E0A0")]
 		get
 		{
 			return default(CameraRenderType);
 		}
 		[Token(Token = "0x60009B7")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x669E0B0", Offset = "0x669D0B0", VA = "0x669E0B0")]
 		set
 		{
 		}
@@ -281,7 +281,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public List<Camera> cameraStack
 	{
 		[Token(Token = "0x60009B8")]
-		[Address(RVA = "0x2CA3C60", Offset = "0x2CA2260", VA = "0x182CA3C60")]
+		[Address(RVA = "0x6690AF0", Offset = "0x668FAF0", VA = "0x6690AF0")]
 		get
 		{
 			return null;
@@ -292,7 +292,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool clearDepth
 	{
 		[Token(Token = "0x60009BA")]
-		[Address(RVA = "0x2CA3E70", Offset = "0x2CA2470", VA = "0x182CA3E70")]
+		[Address(RVA = "0x669EAD0", Offset = "0x669DAD0", VA = "0x669EAD0")]
 		get
 		{
 			return default(bool);
@@ -303,13 +303,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool requiresDepthTexture
 	{
 		[Token(Token = "0x60009BB")]
-		[Address(RVA = "0x2CA3FB0", Offset = "0x2CA25B0", VA = "0x182CA3FB0")]
+		[Address(RVA = "0x669EAE0", Offset = "0x669DAE0", VA = "0x669EAE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009BC")]
-		[Address(RVA = "0x2CA43D0", Offset = "0x2CA29D0", VA = "0x182CA43D0")]
+		[Address(RVA = "0x669EBE0", Offset = "0x669DBE0", VA = "0x669EBE0")]
 		set
 		{
 		}
@@ -319,13 +319,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool requiresColorTexture
 	{
 		[Token(Token = "0x60009BD")]
-		[Address(RVA = "0x2CA3F40", Offset = "0x2CA2540", VA = "0x182CA3F40")]
+		[Address(RVA = "0x669EC00", Offset = "0x669DC00", VA = "0x669EC00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009BE")]
-		[Address(RVA = "0x2CA43B0", Offset = "0x2CA29B0", VA = "0x182CA43B0")]
+		[Address(RVA = "0x669ED00", Offset = "0x669DD00", VA = "0x669ED00")]
 		set
 		{
 		}
@@ -335,7 +335,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public ScriptableRenderer scriptableRenderer
 	{
 		[Token(Token = "0x60009BF")]
-		[Address(RVA = "0x2CA4090", Offset = "0x2CA2690", VA = "0x182CA4090")]
+		[Address(RVA = "0x669E0C0", Offset = "0x669D0C0", VA = "0x669E0C0")]
 		get
 		{
 			return null;
@@ -346,13 +346,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public LayerMask volumeLayerMask
 	{
 		[Token(Token = "0x60009C1")]
-		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
+		[Address(RVA = "0x669ED30", Offset = "0x669DD30", VA = "0x669ED30")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x60009C2")]
-		[Address(RVA = "0x1CFE070", Offset = "0x1CFC670", VA = "0x181CFE070")]
+		[Address(RVA = "0x669ED40", Offset = "0x669DD40", VA = "0x669ED40")]
 		set
 		{
 		}
@@ -362,13 +362,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public Transform volumeTrigger
 	{
 		[Token(Token = "0x60009C3")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x669ED50", Offset = "0x669DD50", VA = "0x669ED50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009C4")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x669ED60", Offset = "0x669DD60", VA = "0x669ED60")]
 		set
 		{
 		}
@@ -378,13 +378,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	internal VolumeFrameworkUpdateMode volumeFrameworkUpdateMode
 	{
 		[Token(Token = "0x60009C5")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x669ED70", Offset = "0x669DD70", VA = "0x669ED70")]
 		get
 		{
 			return default(VolumeFrameworkUpdateMode);
 		}
 		[Token(Token = "0x60009C6")]
-		[Address(RVA = "0xB3E0D0", Offset = "0xB3C6D0", VA = "0x180B3E0D0")]
+		[Address(RVA = "0x669ED80", Offset = "0x669DD80", VA = "0x669ED80")]
 		set
 		{
 		}
@@ -394,7 +394,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool requiresVolumeFrameworkUpdate
 	{
 		[Token(Token = "0x60009C7")]
-		[Address(RVA = "0x2CA4020", Offset = "0x2CA2620", VA = "0x182CA4020")]
+		[Address(RVA = "0x669D400", Offset = "0x669C400", VA = "0x669D400")]
 		get
 		{
 			return default(bool);
@@ -405,13 +405,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public VolumeStack volumeStack
 	{
 		[Token(Token = "0x60009C8")]
-		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
+		[Address(RVA = "0x669ED90", Offset = "0x669DD90", VA = "0x669ED90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009C9")]
-		[Address(RVA = "0x2CA4430", Offset = "0x2CA2A30", VA = "0x182CA4430")]
+		[Address(RVA = "0x669DA70", Offset = "0x669CA70", VA = "0x669DA70")]
 		set
 		{
 		}
@@ -421,13 +421,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool renderPostProcessing
 	{
 		[Token(Token = "0x60009CB")]
-		[Address(RVA = "0x1CFDD60", Offset = "0x1CFC360", VA = "0x181CFDD60")]
+		[Address(RVA = "0x669EDA0", Offset = "0x669DDA0", VA = "0x669EDA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009CC")]
-		[Address(RVA = "0x1CFDDC0", Offset = "0x1CFC3C0", VA = "0x181CFDDC0")]
+		[Address(RVA = "0x669EDB0", Offset = "0x669DDB0", VA = "0x669EDB0")]
 		set
 		{
 		}
@@ -437,13 +437,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public AntialiasingMode antialiasing
 	{
 		[Token(Token = "0x60009CD")]
-		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		[Address(RVA = "0x669EDC0", Offset = "0x669DDC0", VA = "0x669EDC0")]
 		get
 		{
 			return default(AntialiasingMode);
 		}
 		[Token(Token = "0x60009CE")]
-		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
+		[Address(RVA = "0x669EDD0", Offset = "0x669DDD0", VA = "0x669EDD0")]
 		set
 		{
 		}
@@ -453,13 +453,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public AntialiasingQuality antialiasingQuality
 	{
 		[Token(Token = "0x60009CF")]
-		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
+		[Address(RVA = "0x669EDE0", Offset = "0x669DDE0", VA = "0x669EDE0")]
 		get
 		{
 			return default(AntialiasingQuality);
 		}
 		[Token(Token = "0x60009D0")]
-		[Address(RVA = "0x1CFDDB0", Offset = "0x1CFC3B0", VA = "0x181CFDDB0")]
+		[Address(RVA = "0x669EDF0", Offset = "0x669DDF0", VA = "0x669EDF0")]
 		set
 		{
 		}
@@ -469,7 +469,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public unsafe ref TemporalAA.Settings taaSettings
 	{
 		[Token(Token = "0x60009D1")]
-		[Address(RVA = "0xDFFF20", Offset = "0xDFE520", VA = "0x180DFFF20")]
+		[Address(RVA = "0x669EE00", Offset = "0x669DE00", VA = "0x669EE00")]
 		get
 		{
 			return ref *(TemporalAA.Settings*)null;
@@ -480,7 +480,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public ICameraHistoryReadAccess history
 	{
 		[Token(Token = "0x60009D2")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x669EE10", Offset = "0x669DE10", VA = "0x669EE10")]
 		get
 		{
 			return null;
@@ -491,7 +491,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	internal UniversalCameraHistory historyManager
 	{
 		[Token(Token = "0x60009D3")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x669EE20", Offset = "0x669DE20", VA = "0x669EE20")]
 		get
 		{
 			return null;
@@ -502,7 +502,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	internal MotionVectorsPersistentData motionVectorsPersistentData
 	{
 		[Token(Token = "0x60009D4")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Address(RVA = "0x669EE30", Offset = "0x669DE30", VA = "0x669EE30")]
 		get
 		{
 			return null;
@@ -513,13 +513,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool resetHistory
 	{
 		[Token(Token = "0x60009D5")]
-		[Address(RVA = "0x27CB170", Offset = "0x27C9770", VA = "0x1827CB170")]
+		[Address(RVA = "0x669EE40", Offset = "0x669DE40", VA = "0x669EE40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009D6")]
-		[Address(RVA = "0x2CA43F0", Offset = "0x2CA29F0", VA = "0x182CA43F0")]
+		[Address(RVA = "0x669EE50", Offset = "0x669DE50", VA = "0x669EE50")]
 		set
 		{
 		}
@@ -529,13 +529,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool stopNaN
 	{
 		[Token(Token = "0x60009D7")]
-		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
+		[Address(RVA = "0x669EE90", Offset = "0x669DE90", VA = "0x669EE90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009D8")]
-		[Address(RVA = "0x19377D0", Offset = "0x1935DD0", VA = "0x1819377D0")]
+		[Address(RVA = "0x669EEA0", Offset = "0x669DEA0", VA = "0x669EEA0")]
 		set
 		{
 		}
@@ -545,13 +545,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool dithering
 	{
 		[Token(Token = "0x60009D9")]
-		[Address(RVA = "0x1A21E30", Offset = "0x1A20430", VA = "0x181A21E30")]
+		[Address(RVA = "0x669EEB0", Offset = "0x669DEB0", VA = "0x669EEB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009DA")]
-		[Address(RVA = "0x1C5E470", Offset = "0x1C5CA70", VA = "0x181C5E470")]
+		[Address(RVA = "0x669EEC0", Offset = "0x669DEC0", VA = "0x669EEC0")]
 		set
 		{
 		}
@@ -561,13 +561,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool allowXRRendering
 	{
 		[Token(Token = "0x60009DB")]
-		[Address(RVA = "0x2CA3C50", Offset = "0x2CA2250", VA = "0x182CA3C50")]
+		[Address(RVA = "0x669EED0", Offset = "0x669DED0", VA = "0x669EED0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009DC")]
-		[Address(RVA = "0x2CA43A0", Offset = "0x2CA29A0", VA = "0x182CA43A0")]
+		[Address(RVA = "0x669EEE0", Offset = "0x669DEE0", VA = "0x669EEE0")]
 		set
 		{
 		}
@@ -577,13 +577,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool useScreenCoordOverride
 	{
 		[Token(Token = "0x60009DD")]
-		[Address(RVA = "0x2C120B0", Offset = "0x2C106B0", VA = "0x182C120B0")]
+		[Address(RVA = "0x669EEF0", Offset = "0x669DEF0", VA = "0x669EEF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009DE")]
-		[Address(RVA = "0x2C12970", Offset = "0x2C10F70", VA = "0x182C12970")]
+		[Address(RVA = "0x669EF00", Offset = "0x669DF00", VA = "0x669EF00")]
 		set
 		{
 		}
@@ -593,13 +593,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public Vector4 screenSizeOverride
 	{
 		[Token(Token = "0x60009DF")]
-		[Address(RVA = "0x1BD8500", Offset = "0x1BD6B00", VA = "0x181BD8500")]
+		[Address(RVA = "0x669EF10", Offset = "0x669DF10", VA = "0x669EF10")]
 		get
 		{
 			return default(Vector4);
 		}
 		[Token(Token = "0x60009E0")]
-		[Address(RVA = "0x1C613E0", Offset = "0x1C5F9E0", VA = "0x181C613E0")]
+		[Address(RVA = "0x669EF20", Offset = "0x669DF20", VA = "0x669EF20")]
 		set
 		{
 		}
@@ -609,13 +609,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public Vector4 screenCoordScaleBias
 	{
 		[Token(Token = "0x60009E1")]
-		[Address(RVA = "0x1C612E0", Offset = "0x1C5F8E0", VA = "0x181C612E0")]
+		[Address(RVA = "0x669EF30", Offset = "0x669DF30", VA = "0x669EF30")]
 		get
 		{
 			return default(Vector4);
 		}
 		[Token(Token = "0x60009E2")]
-		[Address(RVA = "0x1C613C0", Offset = "0x1C5F9C0", VA = "0x181C613C0")]
+		[Address(RVA = "0x669EF40", Offset = "0x669DF40", VA = "0x669EF40")]
 		set
 		{
 		}
@@ -625,13 +625,13 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public bool allowHDROutput
 	{
 		[Token(Token = "0x60009E3")]
-		[Address(RVA = "0x1B020E0", Offset = "0x1B006E0", VA = "0x181B020E0")]
+		[Address(RVA = "0x669EF50", Offset = "0x669DF50", VA = "0x669EF50")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009E4")]
-		[Address(RVA = "0x2B9B700", Offset = "0x2B99D00", VA = "0x182B9B700")]
+		[Address(RVA = "0x669EF60", Offset = "0x669DF60", VA = "0x669EF60")]
 		set
 		{
 		}
@@ -642,7 +642,7 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	public float version
 	{
 		[Token(Token = "0x60009EB")]
-		[Address(RVA = "0x2CA4390", Offset = "0x2CA2990", VA = "0x182CA4390")]
+		[Address(RVA = "0x669F530", Offset = "0x669E530", VA = "0x669F530")]
 		get
 		{
 			return default(float);
@@ -650,68 +650,68 @@ public class UniversalAdditionalCameraData : MonoBehaviour, ISerializationCallba
 	}
 
 	[Token(Token = "0x60009AF")]
-	[Address(RVA = "0x2CA3640", Offset = "0x2CA1C40", VA = "0x182CA3640")]
+	[Address(RVA = "0x669E010", Offset = "0x669D010", VA = "0x669E010")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x2CA36F0", Offset = "0x2CA1CF0", VA = "0x182CA36F0")]
+	[Address(RVA = "0x669E7F0", Offset = "0x669D7F0", VA = "0x669E7F0")]
 	internal void UpdateCameraStack()
 	{
 	}
 
 	[Token(Token = "0x60009C0")]
-	[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+	[Address(RVA = "0x669ED20", Offset = "0x669DD20", VA = "0x669ED20")]
 	public void SetRenderer(int index)
 	{
 	}
 
 	[Token(Token = "0x60009CA")]
-	[Address(RVA = "0x2CA2E10", Offset = "0x2CA1410", VA = "0x182CA2E10")]
+	[Address(RVA = "0x669D660", Offset = "0x669C660", VA = "0x669D660")]
 	internal void GetOrCreateVolumeStack()
 	{
 	}
 
 	[Token(Token = "0x60009E5")]
-	[Address(RVA = "0x2CA35B0", Offset = "0x2CA1BB0", VA = "0x182CA35B0")]
+	[Address(RVA = "0x669EF70", Offset = "0x669DF70", VA = "0x669EF70")]
 	public void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x60009E6")]
-	[Address(RVA = "0x2CA3470", Offset = "0x2CA1A70", VA = "0x182CA3470")]
+	[Address(RVA = "0x669F000", Offset = "0x669E000", VA = "0x669F000")]
 	public void OnDrawGizmos()
 	{
 	}
 
 	[Token(Token = "0x60009E7")]
-	[Address(RVA = "0x2CA3250", Offset = "0x2CA1850", VA = "0x182CA3250")]
+	[Address(RVA = "0x669F0F0", Offset = "0x669E0F0", VA = "0x669F0F0")]
 	public void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x2CA30F0", Offset = "0x2CA16F0", VA = "0x182CA30F0")]
+	[Address(RVA = "0x669F1C0", Offset = "0x669E1C0", VA = "0x669F1C0")]
 	private ScriptableRenderer GetRawRenderer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009E9")]
-	[Address(RVA = "0x2CA36D0", Offset = "0x2CA1CD0", VA = "0x182CA36D0", Slot = "4")]
+	[Address(RVA = "0x669F4E0", Offset = "0x669E4E0", VA = "0x669F4E0", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x2CA3680", Offset = "0x2CA1C80", VA = "0x182CA3680", Slot = "5")]
+	[Address(RVA = "0x669F500", Offset = "0x669E500", VA = "0x669F500", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x60009EC")]
-	[Address(RVA = "0x2CA39D0", Offset = "0x2CA1FD0", VA = "0x182CA39D0")]
+	[Address(RVA = "0x669DE00", Offset = "0x669CE00", VA = "0x669DE00")]
 	public UniversalAdditionalCameraData()
 	{
 	}

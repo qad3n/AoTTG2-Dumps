@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200032F")]
+[Token(Token = "0x2000308")]
 [ComVisible(true)]
 public abstract class SHA256 : HashAlgorithm
 {
-	[Token(Token = "0x6001ABA")]
-	[Address(RVA = "0x19CB1C0", Offset = "0x19C97C0", VA = "0x1819CB1C0")]
+	[Token(Token = "0x6001A97")]
+	[Address(RVA = "0x534ED10", Offset = "0x534DD10", VA = "0x534ED10")]
 	protected SHA256()
 	{
 	}
 
-	[Token(Token = "0x6001ABB")]
-	[Address(RVA = "0x19CB0A0", Offset = "0x19C96A0", VA = "0x1819CB0A0")]
+	[Token(Token = "0x6001A98")]
+	[Address(RVA = "0x534B730", Offset = "0x534A730", VA = "0x534B730")]
 	public new static SHA256 Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001ABC")]
-	[Address(RVA = "0x19CB0F0", Offset = "0x19C96F0", VA = "0x1819CB0F0")]
+	[Token(Token = "0x6001A99")]
+	[Address(RVA = "0x534EE10", Offset = "0x534DE10", VA = "0x534EE10")]
 	public new static SHA256 Create(string hashName)
 	{
 		return null;

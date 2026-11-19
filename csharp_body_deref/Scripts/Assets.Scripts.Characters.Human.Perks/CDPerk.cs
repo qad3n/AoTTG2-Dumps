@@ -10,76 +10,76 @@ using Il2CppDummyDll;
 
 namespace Assets.Scripts.Characters.Human.Perks;
 
-[Token(Token = "0x200089B")]
+[Token(Token = "0x2000901")]
 internal class CDPerk : BasePerk
 {
-	[Token(Token = "0x4002AEE")]
+	[Token(Token = "0x4002D96")]
 	[FieldOffset(Offset = "0x20")]
 	protected float _lastUseTime;
 
-	[Token(Token = "0x17000EF7")]
+	[Token(Token = "0x17000ED6")]
 	public bool PerkEnabled
 	{
-		[Token(Token = "0x6005241")]
-		[Address(RVA = "0x232C5D0", Offset = "0x232ABD0", VA = "0x18232C5D0")]
+		[Token(Token = "0x600557D")]
+		[Address(RVA = "0x5CDABE0", Offset = "0x5CD9BE0", VA = "0x5CDABE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000EF8")]
+	[Token(Token = "0x17000ED7")]
 	public float Cooldown
 	{
-		[Token(Token = "0x6005242")]
-		[Address(RVA = "0x2168BA0", Offset = "0x21671A0", VA = "0x182168BA0")]
+		[Token(Token = "0x600557E")]
+		[Address(RVA = "0x5CDAC00", Offset = "0x5CD9C00", VA = "0x5CDAC00")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6005243")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Token(Token = "0x600557F")]
+	[Address(RVA = "0x5CDAC10", Offset = "0x5CD9C10", VA = "0x5CDAC10", Slot = "9")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x6005244")]
-	[Address(RVA = "0x232C580", Offset = "0x232AB80", VA = "0x18232C580")]
+	[Token(Token = "0x6005580")]
+	[Address(RVA = "0x5CDAC20", Offset = "0x5CD9C20", VA = "0x5CDAC20")]
 	public void SetCooldownLeft(float cooldownLeft)
 	{
 	}
 
-	[Token(Token = "0x6005245")]
-	[Address(RVA = "0x232C4C0", Offset = "0x232AAC0", VA = "0x18232C4C0")]
+	[Token(Token = "0x6005581")]
+	[Address(RVA = "0x5CDAC50", Offset = "0x5CD9C50", VA = "0x5CDAC50")]
 	public float GetCooldownLeft()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005246")]
-	[Address(RVA = "0x232C510", Offset = "0x232AB10", VA = "0x18232C510")]
+	[Token(Token = "0x6005582")]
+	[Address(RVA = "0x5CDAC90", Offset = "0x5CD9C90", VA = "0x5CDAC90")]
 	public float GetCooldownRatio()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6005247")]
-	[Address(RVA = "0x232C490", Offset = "0x232AA90", VA = "0x18232C490", Slot = "10")]
+	[Token(Token = "0x6005583")]
+	[Address(RVA = "0x5CDACD0", Offset = "0x5CD9CD0", VA = "0x5CDACD0", Slot = "10")]
 	public virtual bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005248")]
-	[Address(RVA = "0x232C560", Offset = "0x232AB60", VA = "0x18232C560", Slot = "11")]
+	[Token(Token = "0x6005584")]
+	[Address(RVA = "0x5CDACF0", Offset = "0x5CD9CF0", VA = "0x5CDACF0", Slot = "11")]
 	public virtual void OnUse()
 	{
 	}
 
-	[Token(Token = "0x6005249")]
-	[Address(RVA = "0x232C5C0", Offset = "0x232ABC0", VA = "0x18232C5C0")]
+	[Token(Token = "0x6005585")]
+	[Address(RVA = "0x5CDAD10", Offset = "0x5CD9D10", VA = "0x5CDAD10")]
 	public CDPerk()
 	{
 	}

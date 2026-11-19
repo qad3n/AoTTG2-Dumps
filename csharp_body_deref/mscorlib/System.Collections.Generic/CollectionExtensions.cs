@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000632")]
+[Token(Token = "0x200060D")]
 public static class CollectionExtensions
 {
-	[Token(Token = "0x6002F9A")]
+	[Token(Token = "0x6002F79")]
 	public static TValue GetValueOrDefault<TKey, TValue>(this IReadOnlyDictionary<TKey, TValue> dictionary, TKey key)
 	{
 		return (TValue)null;
 	}
 
-	[Token(Token = "0x6002F9B")]
+	[Token(Token = "0x6002F7A")]
 	public static TValue GetValueOrDefault<TKey, TValue>(this IReadOnlyDictionary<TKey, TValue> dictionary, TKey key, TValue defaultValue)
 	{
 		return (TValue)null;

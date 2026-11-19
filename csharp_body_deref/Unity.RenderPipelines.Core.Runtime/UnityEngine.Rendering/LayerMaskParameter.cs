@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class LayerMaskParameter : VolumeParameter<LayerMask>
 {
 	[Token(Token = "0x6000F18")]
-	[Address(RVA = "0x2B5C8A0", Offset = "0x2B5AEA0", VA = "0x182B5C8A0")]
+	[Address(RVA = "0x6555400", Offset = "0x6554400", VA = "0x6555400")]
 	public LayerMaskParameter(LayerMask value, bool overrideState = false)
 	{
 	}

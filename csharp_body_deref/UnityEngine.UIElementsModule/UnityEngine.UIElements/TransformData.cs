@@ -30,41 +30,41 @@ internal struct TransformData : IStyleDataGroup<TransformData>, IEquatable<Trans
 	public Translate translate;
 
 	[Token(Token = "0x6001D86")]
-	[Address(RVA = "0x30F6520", Offset = "0x30F4B20", VA = "0x1830F6520", Slot = "4")]
+	[Address(RVA = "0x6AF9380", Offset = "0x6AF8380", VA = "0x6AF9380", Slot = "4")]
 	public TransformData Copy()
 	{
 		return default(TransformData);
 	}
 
 	[Token(Token = "0x6001D87")]
-	[Address(RVA = "0x30F64F0", Offset = "0x30F4AF0", VA = "0x1830F64F0", Slot = "5")]
+	[Address(RVA = "0x6AF93B0", Offset = "0x6AF83B0", VA = "0x6AF93B0", Slot = "5")]
 	public void CopyFrom(ref TransformData other)
 	{
 	}
 
 	[Token(Token = "0x6001D88")]
-	[Address(RVA = "0x30F6870", Offset = "0x30F4E70", VA = "0x1830F6870")]
+	[Address(RVA = "0x6AF93E0", Offset = "0x6AF83E0", VA = "0x6AF93E0")]
 	public static bool operator ==(TransformData lhs, TransformData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D89")]
-	[Address(RVA = "0x30F6550", Offset = "0x30F4B50", VA = "0x1830F6550", Slot = "6")]
+	[Address(RVA = "0x6AF9670", Offset = "0x6AF8670", VA = "0x6AF9670", Slot = "6")]
 	public bool Equals(TransformData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D8A")]
-	[Address(RVA = "0x30F6730", Offset = "0x30F4D30", VA = "0x1830F6730", Slot = "0")]
+	[Address(RVA = "0x6AF99E0", Offset = "0x6AF89E0", VA = "0x6AF99E0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D8B")]
-	[Address(RVA = "0x30F6800", Offset = "0x30F4E00", VA = "0x1830F6800", Slot = "2")]
+	[Address(RVA = "0x6AF9D50", Offset = "0x6AF8D50", VA = "0x6AF9D50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

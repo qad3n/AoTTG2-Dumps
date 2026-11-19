@@ -23,41 +23,41 @@ public class PhotonClientWebSocket : IPhotonSocket
 	private Task sendTask;
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x1CCFBD0", Offset = "0x1CCE1D0", VA = "0x181CCFBD0")]
+	[Address(RVA = "0x5661E50", Offset = "0x5660E50", VA = "0x5661E50")]
 	[Preserve]
 	public PhotonClientWebSocket(PeerBase peerBase)
 	{
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x1CCF590", Offset = "0x1CCDB90", VA = "0x181CCF590", Slot = "4")]
+	[Address(RVA = "0x5661EC0", Offset = "0x5660EC0", VA = "0x5661EC0", Slot = "4")]
 	public override bool Connect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x1CCE630", Offset = "0x1CCCC30", VA = "0x181CCE630")]
+	[Address(RVA = "0x5661F90", Offset = "0x5660F90", VA = "0x5661F90")]
 	private void AsyncConnectAndReceive()
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x1CCF660", Offset = "0x1CCDC60", VA = "0x181CCF660", Slot = "5")]
+	[Address(RVA = "0x5663070", Offset = "0x5662070", VA = "0x5663070", Slot = "5")]
 	public override bool Disconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x1CCF910", Offset = "0x1CCDF10", VA = "0x181CCF910", Slot = "6")]
+	[Address(RVA = "0x5663370", Offset = "0x5662370", VA = "0x5663370", Slot = "6")]
 	public override PhotonSocketError Send(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x1CCF8D0", Offset = "0x1CCDED0", VA = "0x181CCF8D0", Slot = "7")]
+	[Address(RVA = "0x5663610", Offset = "0x5662610", VA = "0x5663610", Slot = "7")]
 	public override PhotonSocketError Receive(out byte[] data)
 	{
 		return default(PhotonSocketError);

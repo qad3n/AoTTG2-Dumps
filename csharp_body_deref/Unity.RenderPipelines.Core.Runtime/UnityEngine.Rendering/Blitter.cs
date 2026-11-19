@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Blitter
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -188,286 +188,286 @@ public static class Blitter
 	private static int[] s_BlitColorAndDepthShaderPassIndicesMap;
 
 	[Token(Token = "0x6000D51")]
-	[Address(RVA = "0x2B3CFB0", Offset = "0x2B3B5B0", VA = "0x182B3CFB0")]
+	[Address(RVA = "0x653A740", Offset = "0x6539740", VA = "0x653A740")]
 	public static void Initialize(Shader blitPS, Shader blitColorAndDepthPS)
 	{
 	}
 
 	[Token(Token = "0x6000D52")]
-	[Address(RVA = "0x2B3C370", Offset = "0x2B3A970", VA = "0x182B3C370")]
+	[Address(RVA = "0x653B670", Offset = "0x653A670", VA = "0x653B670")]
 	public static void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000D53")]
-	[Address(RVA = "0x2B3CEB0", Offset = "0x2B3B4B0", VA = "0x182B3CEB0")]
+	[Address(RVA = "0x653B840", Offset = "0x653A840", VA = "0x653B840")]
 	public static Material GetBlitMaterial(TextureDimension dimension, bool singleSlice = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D54")]
-	[Address(RVA = "0x2B3CE30", Offset = "0x2B3B430", VA = "0x182B3CE30")]
+	[Address(RVA = "0x653B930", Offset = "0x653A930", VA = "0x653B930")]
 	internal static void DrawTriangle(RasterCommandBuffer cmd, Material material, int shaderPass)
 	{
 	}
 
 	[Token(Token = "0x6000D55")]
-	[Address(RVA = "0x2B3CC40", Offset = "0x2B3B240", VA = "0x182B3CC40")]
+	[Address(RVA = "0x653B9F0", Offset = "0x653A9F0", VA = "0x653B9F0")]
 	internal static void DrawTriangle(CommandBuffer cmd, Material material, int shaderPass)
 	{
 	}
 
 	[Token(Token = "0x6000D56")]
-	[Address(RVA = "0x2B3CA90", Offset = "0x2B3B090", VA = "0x182B3CA90")]
+	[Address(RVA = "0x653BA60", Offset = "0x653AA60", VA = "0x653BA60")]
 	internal static void DrawTriangle(CommandBuffer cmd, Material material, int shaderPass, MaterialPropertyBlock propertyBlock)
 	{
 	}
 
 	[Token(Token = "0x6000D57")]
-	[Address(RVA = "0x2B3C6E0", Offset = "0x2B3ACE0", VA = "0x182B3C6E0")]
+	[Address(RVA = "0x653BC80", Offset = "0x653AC80", VA = "0x653BC80")]
 	internal static void DrawQuadMesh(CommandBuffer cmd, Material material, int shaderPass, MaterialPropertyBlock propertyBlock)
 	{
 	}
 
 	[Token(Token = "0x6000D58")]
-	[Address(RVA = "0x2B3C980", Offset = "0x2B3AF80", VA = "0x182B3C980")]
+	[Address(RVA = "0x653BDE0", Offset = "0x653ADE0", VA = "0x653BDE0")]
 	internal static void DrawQuad(RasterCommandBuffer cmd, Material material, int shaderPass, MaterialPropertyBlock propertyBlock)
 	{
 	}
 
 	[Token(Token = "0x6000D59")]
-	[Address(RVA = "0x2B3CA00", Offset = "0x2B3B000", VA = "0x182B3CA00")]
+	[Address(RVA = "0x653C070", Offset = "0x653B070", VA = "0x653C070")]
 	internal static void DrawQuad(CommandBuffer cmd, Material material, int shaderPass)
 	{
 	}
 
 	[Token(Token = "0x6000D5A")]
-	[Address(RVA = "0x2B3C7D0", Offset = "0x2B3ADD0", VA = "0x182B3C7D0")]
+	[Address(RVA = "0x653BE50", Offset = "0x653AE50", VA = "0x653BE50")]
 	internal static void DrawQuad(CommandBuffer cmd, Material material, int shaderPass, MaterialPropertyBlock propertyBlock)
 	{
 	}
 
 	[Token(Token = "0x6000D5B")]
-	[Address(RVA = "0x2B3C1C0", Offset = "0x2B3A7C0", VA = "0x182B3C1C0")]
+	[Address(RVA = "0x653C0E0", Offset = "0x653B0E0", VA = "0x653C0E0")]
 	internal static bool CanCopyMSAA()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D5C")]
-	[Address(RVA = "0x2B3C250", Offset = "0x2B3A850", VA = "0x182B3C250")]
+	[Address(RVA = "0x653C170", Offset = "0x653B170", VA = "0x653C170")]
 	internal static bool CanCopyMSAA(bool srcBindTextureMS)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D5D")]
-	[Address(RVA = "0x2B3C5B0", Offset = "0x2B3ABB0", VA = "0x182B3C5B0")]
+	[Address(RVA = "0x653C210", Offset = "0x653B210", VA = "0x653C210")]
 	internal static void CopyTexture(RasterCommandBuffer cmd, bool isMSAA, bool force2DForXR = false)
 	{
 	}
 
 	[Token(Token = "0x6000D5E")]
-	[Address(RVA = "0x2B3BBB0", Offset = "0x2B3A1B0", VA = "0x182B3BBB0")]
+	[Address(RVA = "0x653C300", Offset = "0x653B300", VA = "0x653C300")]
 	internal static void BlitTexture(CommandBuffer cmd, RTHandle source, Vector4 scaleBias, float sourceMipLevel, int sourceDepthSlice, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D5F")]
-	[Address(RVA = "0x2B3B470", Offset = "0x2B39A70", VA = "0x182B3B470")]
+	[Address(RVA = "0x653C490", Offset = "0x653B490", VA = "0x653C490")]
 	internal static void BlitTexture(CommandBuffer cmd, RTHandle source, Vector4 scaleBias, Material material, int pass, float sourceMipLevel, int sourceDepthSlice)
 	{
 	}
 
 	[Token(Token = "0x6000D60")]
-	[Address(RVA = "0x2B3C110", Offset = "0x2B3A710", VA = "0x182B3C110")]
+	[Address(RVA = "0x653C750", Offset = "0x653B750", VA = "0x653C750")]
 	public static void BlitTexture(RasterCommandBuffer cmd, RTHandle source, Vector4 scaleBias, float mipLevel, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D61")]
-	[Address(RVA = "0x2B3BDF0", Offset = "0x2B3A3F0", VA = "0x182B3BDF0")]
+	[Address(RVA = "0x653C800", Offset = "0x653B800", VA = "0x653C800")]
 	public static void BlitTexture(CommandBuffer cmd, RTHandle source, Vector4 scaleBias, float mipLevel, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x2B3AD60", Offset = "0x2B39360", VA = "0x182B3AD60")]
+	[Address(RVA = "0x653CA70", Offset = "0x653BA70", VA = "0x653CA70")]
 	public static void BlitTexture2D(RasterCommandBuffer cmd, RTHandle source, Vector4 scaleBias, float mipLevel, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D63")]
-	[Address(RVA = "0x2B3AE10", Offset = "0x2B39410", VA = "0x182B3AE10")]
+	[Address(RVA = "0x653CB20", Offset = "0x653BB20", VA = "0x653CB20")]
 	public static void BlitTexture2D(CommandBuffer cmd, RTHandle source, Vector4 scaleBias, float mipLevel, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D64")]
-	[Address(RVA = "0x2B38E20", Offset = "0x2B37420", VA = "0x182B38E20")]
+	[Address(RVA = "0x653CCB0", Offset = "0x653BCB0", VA = "0x653CCB0")]
 	public static void BlitColorAndDepth(RasterCommandBuffer cmd, Texture sourceColor, RenderTexture sourceDepth, Vector4 scaleBias, float mipLevel, bool blitDepth)
 	{
 	}
 
 	[Token(Token = "0x6000D65")]
-	[Address(RVA = "0x2B38EC0", Offset = "0x2B374C0", VA = "0x182B38EC0")]
+	[Address(RVA = "0x653CD70", Offset = "0x653BD70", VA = "0x653CD70")]
 	public static void BlitColorAndDepth(CommandBuffer cmd, Texture sourceColor, RenderTexture sourceDepth, Vector4 scaleBias, float mipLevel, bool blitDepth)
 	{
 	}
 
 	[Token(Token = "0x6000D66")]
-	[Address(RVA = "0x2B39970", Offset = "0x2B37F70", VA = "0x182B39970")]
+	[Address(RVA = "0x653CFC0", Offset = "0x653BFC0", VA = "0x653CFC0")]
 	public static void BlitDepth(CommandBuffer cmd, RenderTexture sourceDepth, Vector4 scaleBias, float mipLevel)
 	{
 	}
 
 	[Token(Token = "0x6000D67")]
-	[Address(RVA = "0x2B3B8B0", Offset = "0x2B39EB0", VA = "0x182B3B8B0")]
+	[Address(RVA = "0x653D330", Offset = "0x653C330", VA = "0x653D330")]
 	public static void BlitTexture(RasterCommandBuffer cmd, RTHandle source, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x2B3C080", Offset = "0x2B3A680", VA = "0x182B3C080")]
+	[Address(RVA = "0x653D3D0", Offset = "0x653C3D0", VA = "0x653D3D0")]
 	public static void BlitTexture(UnsafeCommandBuffer cmd, RTHandle source, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D69")]
-	[Address(RVA = "0x2B3B1A0", Offset = "0x2B397A0", VA = "0x182B3B1A0")]
+	[Address(RVA = "0x653C5B0", Offset = "0x653B5B0", VA = "0x653C5B0")]
 	public static void BlitTexture(CommandBuffer cmd, RTHandle source, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6A")]
-	[Address(RVA = "0x2B3B940", Offset = "0x2B39F40", VA = "0x182B3B940")]
+	[Address(RVA = "0x653D470", Offset = "0x653C470", VA = "0x653D470")]
 	public static void BlitTexture(RasterCommandBuffer cmd, RenderTargetIdentifier source, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6B")]
-	[Address(RVA = "0x2B3B320", Offset = "0x2B39920", VA = "0x182B3B320")]
+	[Address(RVA = "0x653D500", Offset = "0x653C500", VA = "0x653D500")]
 	public static void BlitTexture(CommandBuffer cmd, RenderTargetIdentifier source, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x2B3AFC0", Offset = "0x2B395C0", VA = "0x182B3AFC0")]
+	[Address(RVA = "0x653D6A0", Offset = "0x653C6A0", VA = "0x653D6A0")]
 	public static void BlitTexture(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x2B3B5A0", Offset = "0x2B39BA0", VA = "0x182B3B5A0")]
+	[Address(RVA = "0x653D8B0", Offset = "0x653C8B0", VA = "0x653D8B0")]
 	public static void BlitTexture(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6E")]
-	[Address(RVA = "0x2B3BAD0", Offset = "0x2B3A0D0", VA = "0x182B3BAD0")]
+	[Address(RVA = "0x653DAF0", Offset = "0x653CAF0", VA = "0x653DAF0")]
 	public static void BlitTexture(CommandBuffer cmd, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D6F")]
-	[Address(RVA = "0x2B3B7A0", Offset = "0x2B39DA0", VA = "0x182B3B7A0")]
+	[Address(RVA = "0x653DC00", Offset = "0x653CC00", VA = "0x653DC00")]
 	public static void BlitTexture(RasterCommandBuffer cmd, Vector4 scaleBias, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D70")]
-	[Address(RVA = "0x2B385E0", Offset = "0x2B36BE0", VA = "0x182B385E0")]
+	[Address(RVA = "0x653DCD0", Offset = "0x653CCD0", VA = "0x653DCD0")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, float mipLevel = 0f, bool bilinear = false)
 	{
 	}
 
 	[Token(Token = "0x6000D71")]
-	[Address(RVA = "0x2B38450", Offset = "0x2B36A50", VA = "0x182B38450")]
+	[Address(RVA = "0x653DE30", Offset = "0x653CE30", VA = "0x653DE30")]
 	public static void BlitCameraTexture2D(CommandBuffer cmd, RTHandle source, RTHandle destination, float mipLevel = 0f, bool bilinear = false)
 	{
 	}
 
 	[Token(Token = "0x6000D72")]
-	[Address(RVA = "0x2B38CB0", Offset = "0x2B372B0", VA = "0x182B38CB0")]
+	[Address(RVA = "0x653DF90", Offset = "0x653CF90", VA = "0x653DF90")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D73")]
-	[Address(RVA = "0x2B38770", Offset = "0x2B36D70", VA = "0x182B38770")]
+	[Address(RVA = "0x653E0F0", Offset = "0x653D0F0", VA = "0x653E0F0")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, Vector4 scaleBias, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D74")]
-	[Address(RVA = "0x2B38AD0", Offset = "0x2B370D0", VA = "0x182B38AD0")]
+	[Address(RVA = "0x653E1D0", Offset = "0x653D1D0", VA = "0x653E1D0")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction, Material material, int pass)
 	{
 	}
 
 	[Token(Token = "0x6000D75")]
-	[Address(RVA = "0x2B38A00", Offset = "0x2B37000", VA = "0x182B38A00")]
+	[Address(RVA = "0x653E2F0", Offset = "0x653D2F0", VA = "0x653E2F0")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, Vector4 scaleBias, float mipLevel = 0f, bool bilinear = false)
 	{
 	}
 
 	[Token(Token = "0x6000D76")]
-	[Address(RVA = "0x2B38870", Offset = "0x2B36E70", VA = "0x182B38870")]
+	[Address(RVA = "0x653E3C0", Offset = "0x653D3C0", VA = "0x653E3C0")]
 	public static void BlitCameraTexture(CommandBuffer cmd, RTHandle source, RTHandle destination, Rect destViewport, float mipLevel = 0f, bool bilinear = false)
 	{
 	}
 
 	[Token(Token = "0x6000D77")]
-	[Address(RVA = "0x2B3AB50", Offset = "0x2B39150", VA = "0x182B3AB50")]
+	[Address(RVA = "0x6532320", Offset = "0x6531320", VA = "0x6532320")]
 	public static void BlitQuad(CommandBuffer cmd, Texture source, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear)
 	{
 	}
 
 	[Token(Token = "0x6000D78")]
-	[Address(RVA = "0x2B3A800", Offset = "0x2B38E00", VA = "0x182B3A800")]
+	[Address(RVA = "0x6528B10", Offset = "0x6527B10", VA = "0x6528B10")]
 	public static void BlitQuadWithPadding(CommandBuffer cmd, Texture source, Vector2 textureSize, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear, int paddingInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000D79")]
-	[Address(RVA = "0x2B3A4C0", Offset = "0x2B38AC0", VA = "0x182B3A4C0")]
+	[Address(RVA = "0x6528E30", Offset = "0x6527E30", VA = "0x6528E30")]
 	public static void BlitQuadWithPaddingMultiply(CommandBuffer cmd, Texture source, Vector2 textureSize, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear, int paddingInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000D7A")]
-	[Address(RVA = "0x2B39F80", Offset = "0x2B38580", VA = "0x182B39F80")]
+	[Address(RVA = "0x6529150", Offset = "0x6528150", VA = "0x6529150")]
 	public static void BlitOctahedralWithPadding(CommandBuffer cmd, Texture source, Vector2 textureSize, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear, int paddingInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000D7B")]
-	[Address(RVA = "0x2B39D00", Offset = "0x2B38300", VA = "0x182B39D00")]
+	[Address(RVA = "0x65293B0", Offset = "0x65283B0", VA = "0x65293B0")]
 	public static void BlitOctahedralWithPaddingMultiply(CommandBuffer cmd, Texture source, Vector2 textureSize, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear, int paddingInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000D7C")]
-	[Address(RVA = "0x2B39790", Offset = "0x2B37D90", VA = "0x182B39790")]
+	[Address(RVA = "0x6532B00", Offset = "0x6531B00", VA = "0x6532B00")]
 	public static void BlitCubeToOctahedral2DQuad(CommandBuffer cmd, Texture source, Vector4 scaleBiasRT, int mipLevelTex)
 	{
 	}
 
 	[Token(Token = "0x6000D7D")]
-	[Address(RVA = "0x2B393A0", Offset = "0x2B379A0", VA = "0x182B393A0")]
+	[Address(RVA = "0x653E540", Offset = "0x653D540", VA = "0x653E540")]
 	public static void BlitCubeToOctahedral2DQuadWithPadding(CommandBuffer cmd, Texture source, Vector2 textureSize, Vector4 scaleBiasRT, int mipLevelTex, bool bilinear, int paddingInPixels, [Optional] Vector4? decodeInstructions)
 	{
 	}
 
 	[Token(Token = "0x6000D7E")]
-	[Address(RVA = "0x2B390E0", Offset = "0x2B376E0", VA = "0x182B390E0")]
+	[Address(RVA = "0x6532FC0", Offset = "0x6531FC0", VA = "0x6532FC0")]
 	public static void BlitCubeToOctahedral2DQuadSingleChannel(CommandBuffer cmd, Texture source, Vector4 scaleBiasRT, int mipLevelTex)
 	{
 	}
 
 	[Token(Token = "0x6000D7F")]
-	[Address(RVA = "0x2B3A200", Offset = "0x2B38800", VA = "0x182B3A200")]
+	[Address(RVA = "0x6532CF0", Offset = "0x6531CF0", VA = "0x6532CF0")]
 	public static void BlitQuadSingleChannel(CommandBuffer cmd, Texture source, Vector4 scaleBiasTex, Vector4 scaleBiasRT, int mipLevelTex)
 	{
 	}

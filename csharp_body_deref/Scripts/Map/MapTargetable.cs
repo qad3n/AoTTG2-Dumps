@@ -12,86 +12,86 @@ using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x20003CB")]
+[Token(Token = "0x200042A")]
 internal class MapTargetable : ITargetable
 {
-	[Token(Token = "0x40013AF")]
+	[Token(Token = "0x400154F")]
 	[FieldOffset(Offset = "0x10")]
 	private Transform _transform;
 
-	[Token(Token = "0x40013B0")]
+	[Token(Token = "0x4001550")]
 	[FieldOffset(Offset = "0x18")]
 	private Vector3 _center;
 
-	[Token(Token = "0x17000285")]
+	[Token(Token = "0x170002C6")]
 	public GameObject GameObject
 	{
-		[Token(Token = "0x60017CE")]
-		[Address(RVA = "0x1EDAB30", Offset = "0x1ED9130", VA = "0x181EDAB30")]
+		[Token(Token = "0x6001A45")]
+		[Address(RVA = "0x58A6480", Offset = "0x58A5480", VA = "0x58A6480")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000286")]
+	[Token(Token = "0x170002C7")]
 	public string Team
 	{
-		[Token(Token = "0x60017CF")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6001A46")]
+		[Address(RVA = "0x58A64A0", Offset = "0x58A54A0", VA = "0x58A64A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017D0")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6001A47")]
+		[Address(RVA = "0x58A64B0", Offset = "0x58A54B0", VA = "0x58A64B0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000287")]
+	[Token(Token = "0x170002C8")]
 	public bool Enabled
 	{
-		[Token(Token = "0x60017D1")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Token(Token = "0x6001A48")]
+		[Address(RVA = "0x58A64C0", Offset = "0x58A54C0", VA = "0x58A64C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60017D2")]
-		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
+		[Token(Token = "0x6001A49")]
+		[Address(RVA = "0x58A64D0", Offset = "0x58A54D0", VA = "0x58A64D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60017D3")]
-	[Address(RVA = "0x1EDAAD0", Offset = "0x1ED90D0", VA = "0x181EDAAD0")]
+	[Token(Token = "0x6001A4A")]
+	[Address(RVA = "0x58A64E0", Offset = "0x58A54E0", VA = "0x58A64E0")]
 	public MapTargetable(Transform transform, Vector3 center, string team)
 	{
 	}
 
-	[Token(Token = "0x60017D4")]
-	[Address(RVA = "0x1EDAA70", Offset = "0x1ED9070", VA = "0x181EDAA70", Slot = "6")]
+	[Token(Token = "0x6001A4B")]
+	[Address(RVA = "0x58A6550", Offset = "0x58A5550", VA = "0x58A6550", Slot = "6")]
 	public bool ValidTarget()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60017D5")]
-	[Address(RVA = "0x1EDAA10", Offset = "0x1ED9010", VA = "0x181EDAA10", Slot = "5")]
+	[Token(Token = "0x6001A4C")]
+	[Address(RVA = "0x58A65B0", Offset = "0x58A55B0", VA = "0x58A65B0", Slot = "5")]
 	public Vector3 GetPosition()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60017D6")]
-	[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "4")]
+	[Token(Token = "0x6001A4D")]
+	[Address(RVA = "0x58A65E0", Offset = "0x58A55E0", VA = "0x58A65E0", Slot = "4")]
 	public string GetTeam()
 	{
 		return null;

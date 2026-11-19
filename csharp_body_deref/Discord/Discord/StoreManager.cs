@@ -169,7 +169,7 @@ public class StoreManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000471")]
-		[Address(RVA = "0x544FE0", Offset = "0x5435E0", VA = "0x180544FE0")]
+		[Address(RVA = "0x315E080", Offset = "0x315D080", VA = "0x315E080")]
 		get
 		{
 			return default(FFIMethods);
@@ -180,13 +180,13 @@ public class StoreManager
 	public event EntitlementCreateHandler OnEntitlementCreate
 	{
 		[Token(Token = "0x6000472")]
-		[Address(RVA = "0x544EA0", Offset = "0x5434A0", VA = "0x180544EA0")]
+		[Address(RVA = "0x315E1A0", Offset = "0x315D1A0", VA = "0x315E1A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x545110", Offset = "0x543710", VA = "0x180545110")]
+		[Address(RVA = "0x315E230", Offset = "0x315D230", VA = "0x315E230")]
 		[CompilerGenerated]
 		remove
 		{
@@ -197,13 +197,13 @@ public class StoreManager
 	public event EntitlementDeleteHandler OnEntitlementDelete
 	{
 		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x544F40", Offset = "0x543540", VA = "0x180544F40")]
+		[Address(RVA = "0x315E2C0", Offset = "0x315D2C0", VA = "0x315E2C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x5451B0", Offset = "0x5437B0", VA = "0x1805451B0")]
+		[Address(RVA = "0x315E350", Offset = "0x315D350", VA = "0x315E350")]
 		[CompilerGenerated]
 		remove
 		{
@@ -211,128 +211,128 @@ public class StoreManager
 	}
 
 	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x544DD0", Offset = "0x5433D0", VA = "0x180544DD0")]
+	[Address(RVA = "0x315E3E0", Offset = "0x315D3E0", VA = "0x315E3E0")]
 	internal StoreManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x544720", Offset = "0x542D20", VA = "0x180544720")]
+	[Address(RVA = "0x315E460", Offset = "0x315D460", VA = "0x315E460")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x543C40", Offset = "0x542240", VA = "0x180543C40")]
+	[Address(RVA = "0x315DBC0", Offset = "0x315CBC0", VA = "0x315DBC0")]
 	[MonoPInvokeCallback]
 	private static void FetchSkusCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x543D50", Offset = "0x542350", VA = "0x180543D50")]
+	[Address(RVA = "0x315E780", Offset = "0x315D780", VA = "0x315E780")]
 	public void FetchSkus(FetchSkusHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x543980", Offset = "0x541F80", VA = "0x180543980")]
+	[Address(RVA = "0x315E950", Offset = "0x315D950", VA = "0x315E950")]
 	public int CountSkus()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x544320", Offset = "0x542920", VA = "0x180544320")]
+	[Address(RVA = "0x315E9A0", Offset = "0x315D9A0", VA = "0x315E9A0")]
 	public Sku GetSku(long skuId)
 	{
 		return default(Sku);
 	}
 
 	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x544260", Offset = "0x542860", VA = "0x180544260")]
+	[Address(RVA = "0x315EA60", Offset = "0x315DA60", VA = "0x315EA60")]
 	public Sku GetSkuAt(int index)
 	{
 		return default(Sku);
 	}
 
 	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x5439E0", Offset = "0x541FE0", VA = "0x1805439E0")]
+	[Address(RVA = "0x315DCA0", Offset = "0x315CCA0", VA = "0x315DCA0")]
 	[MonoPInvokeCallback]
 	private static void FetchEntitlementsCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x543AF0", Offset = "0x5420F0", VA = "0x180543AF0")]
+	[Address(RVA = "0x315EB20", Offset = "0x315DB20", VA = "0x315EB20")]
 	public void FetchEntitlements(FetchEntitlementsHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600047F")]
-	[Address(RVA = "0x543920", Offset = "0x541F20", VA = "0x180543920")]
+	[Address(RVA = "0x315ECF0", Offset = "0x315DCF0", VA = "0x315ECF0")]
 	public int CountEntitlements()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x543F60", Offset = "0x542560", VA = "0x180543F60")]
+	[Address(RVA = "0x315ED40", Offset = "0x315DD40", VA = "0x315ED40")]
 	public Entitlement GetEntitlement(long entitlementId)
 	{
 		return default(Entitlement);
 	}
 
 	[Token(Token = "0x6000481")]
-	[Address(RVA = "0x543EA0", Offset = "0x5424A0", VA = "0x180543EA0")]
+	[Address(RVA = "0x315EDF0", Offset = "0x315DDF0", VA = "0x315EDF0")]
 	public Entitlement GetEntitlementAt(int index)
 	{
 		return default(Entitlement);
 	}
 
 	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x544660", Offset = "0x542C60", VA = "0x180544660")]
+	[Address(RVA = "0x315EEA0", Offset = "0x315DEA0", VA = "0x315EEA0")]
 	public bool HasSkuEntitlement(long skuId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x544B60", Offset = "0x543160", VA = "0x180544B60")]
+	[Address(RVA = "0x315DD80", Offset = "0x315CD80", VA = "0x315DD80")]
 	[MonoPInvokeCallback]
 	private static void StartPurchaseCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x544C70", Offset = "0x543270", VA = "0x180544C70")]
+	[Address(RVA = "0x315EF40", Offset = "0x315DF40", VA = "0x315EF40")]
 	public void StartPurchase(long skuId, StartPurchaseHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x544920", Offset = "0x542F20", VA = "0x180544920")]
+	[Address(RVA = "0x315DE60", Offset = "0x315CE60", VA = "0x315DE60")]
 	[MonoPInvokeCallback]
 	private static void OnEntitlementCreateImpl(IntPtr ptr, ref Entitlement entitlement)
 	{
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x544A40", Offset = "0x543040", VA = "0x180544A40")]
+	[Address(RVA = "0x315DF70", Offset = "0x315CF70", VA = "0x315DF70")]
 	[MonoPInvokeCallback]
 	private static void OnEntitlementDeleteImpl(IntPtr ptr, ref Entitlement entitlement)
 	{
 	}
 
 	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x544020", Offset = "0x542620", VA = "0x180544020")]
+	[Address(RVA = "0x315F120", Offset = "0x315E120", VA = "0x315F120")]
 	public IEnumerable<Entitlement> GetEntitlements()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000488")]
-	[Address(RVA = "0x5443E0", Offset = "0x5429E0", VA = "0x1805443E0")]
+	[Address(RVA = "0x315F2B0", Offset = "0x315E2B0", VA = "0x315F2B0")]
 	public IEnumerable<Sku> GetSkus()
 	{
 		return null;

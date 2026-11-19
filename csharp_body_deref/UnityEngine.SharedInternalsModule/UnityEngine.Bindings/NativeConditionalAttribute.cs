@@ -20,7 +20,7 @@ internal class NativeConditionalAttribute : Attribute
 	public string Condition
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x69F1260", Offset = "0x69F0260", VA = "0x69F1260")]
 		[CompilerGenerated]
 		set
 		{
@@ -31,7 +31,7 @@ internal class NativeConditionalAttribute : Attribute
 	public string StubReturnStatement
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x69F1270", Offset = "0x69F0270", VA = "0x69F1270")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,7 +42,7 @@ internal class NativeConditionalAttribute : Attribute
 	public bool Enabled
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x69F1280", Offset = "0x69F0280", VA = "0x69F1280")]
 		[CompilerGenerated]
 		set
 		{
@@ -50,13 +50,13 @@ internal class NativeConditionalAttribute : Attribute
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x2FF6E50", Offset = "0x2FF5450", VA = "0x182FF6E50")]
+	[Address(RVA = "0x69F1290", Offset = "0x69F0290", VA = "0x69F1290")]
 	public NativeConditionalAttribute(string condition)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x2FF6DF0", Offset = "0x2FF53F0", VA = "0x182FF6DF0")]
+	[Address(RVA = "0x69F12C0", Offset = "0x69F02C0", VA = "0x69F12C0")]
 	public NativeConditionalAttribute(string condition, string stubReturnStatement)
 	{
 	}

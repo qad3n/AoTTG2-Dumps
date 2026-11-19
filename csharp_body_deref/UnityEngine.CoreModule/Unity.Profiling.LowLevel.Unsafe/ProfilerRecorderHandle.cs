@@ -25,37 +25,37 @@ public readonly struct ProfilerRecorderHandle
 	[Token(Token = "0x17000015")]
 	public bool Valid
 	{
-		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x2ECE260", Offset = "0x2ECC860", VA = "0x182ECE260")]
+		[Token(Token = "0x60000A1")]
+		[Address(RVA = "0x68B5960", Offset = "0x68B4960", VA = "0x68B5960")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600009E")]
-	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+	[Token(Token = "0x60000A0")]
+	[Address(RVA = "0x68B5950", Offset = "0x68B4950", VA = "0x68B5950")]
 	internal ProfilerRecorderHandle(ulong handle)
 	{
 	}
 
-	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2ECE180", Offset = "0x2ECC780", VA = "0x182ECE180")]
+	[Token(Token = "0x60000A2")]
+	[Address(RVA = "0x68B5970", Offset = "0x68B4970", VA = "0x68B5970")]
 	public static ProfilerRecorderDescription GetDescription(ProfilerRecorderHandle handle)
 	{
 		return default(ProfilerRecorderDescription);
 	}
 
-	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2ECE080", Offset = "0x2ECC680", VA = "0x182ECE080")]
+	[Token(Token = "0x60000A3")]
+	[Address(RVA = "0x68B5AC0", Offset = "0x68B4AC0", VA = "0x68B5AC0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	internal unsafe static ProfilerRecorderHandle GetByName__Unmanaged(ProfilerCategory category, byte* name, int nameLen)
 	{
 		return default(ProfilerRecorderHandle);
 	}
 
-	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2ECE130", Offset = "0x2ECC730", VA = "0x182ECE130")]
+	[Token(Token = "0x60000A4")]
+	[Address(RVA = "0x68B5A50", Offset = "0x68B4A50", VA = "0x68B5A50")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static ProfilerRecorderDescription GetDescriptionInternal(ProfilerRecorderHandle handle)
 	{
@@ -63,12 +63,12 @@ public readonly struct ProfilerRecorderHandle
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2ECE030", Offset = "0x2ECC630", VA = "0x182ECE030")]
+	[Token(Token = "0x60000A5")]
+	[Address(RVA = "0x68B5B20", Offset = "0x68B4B20", VA = "0x68B5B20")]
 	private unsafe static extern void GetByName__Unmanaged_Injected([In] ref ProfilerCategory category, byte* name, int nameLen, out ProfilerRecorderHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2ECE0E0", Offset = "0x2ECC6E0", VA = "0x182ECE0E0")]
+	[Token(Token = "0x60000A6")]
+	[Address(RVA = "0x68B5B70", Offset = "0x68B4B70", VA = "0x68B5B70")]
 	private static extern void GetDescriptionInternal_Injected([In] ref ProfilerRecorderHandle handle, out ProfilerRecorderDescription ret);
 }

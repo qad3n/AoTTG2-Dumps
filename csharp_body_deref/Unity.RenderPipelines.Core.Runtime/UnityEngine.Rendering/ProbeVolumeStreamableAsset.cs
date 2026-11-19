@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeStreamableAsset
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -73,7 +73,7 @@ internal class ProbeVolumeStreamableAsset
 	public string assetGUID
 	{
 		[Token(Token = "0x6000ACE")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6511110", Offset = "0x6510110", VA = "0x6511110")]
 		get
 		{
 			return null;
@@ -84,7 +84,7 @@ internal class ProbeVolumeStreamableAsset
 	public TextAsset asset
 	{
 		[Token(Token = "0x6000ACF")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6511120", Offset = "0x6510120", VA = "0x6511120")]
 		get
 		{
 			return null;
@@ -95,7 +95,7 @@ internal class ProbeVolumeStreamableAsset
 	public int elementSize
 	{
 		[Token(Token = "0x6000AD0")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6511130", Offset = "0x6510130", VA = "0x6511130")]
 		get
 		{
 			return default(int);
@@ -106,7 +106,7 @@ internal class ProbeVolumeStreamableAsset
 	public SerializedDictionary<int, StreamableCellDesc> streamableCellDescs
 	{
 		[Token(Token = "0x6000AD1")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6511140", Offset = "0x6510140", VA = "0x6511140")]
 		get
 		{
 			return null;
@@ -114,74 +114,74 @@ internal class ProbeVolumeStreamableAsset
 	}
 
 	[Token(Token = "0x6000AD2")]
-	[Address(RVA = "0x2B2D5C0", Offset = "0x2B2BBC0", VA = "0x182B2D5C0")]
+	[Address(RVA = "0x6511150", Offset = "0x6510150", VA = "0x6511150")]
 	public ProbeVolumeStreamableAsset(string apvStreamingAssetsPath, SerializedDictionary<int, StreamableCellDesc> cellDescs, int elementSize, string bakingSetGUID, string assetGUID)
 	{
 	}
 
 	[Token(Token = "0x6000AD3")]
-	[Address(RVA = "0x2B2D520", Offset = "0x2B2BB20", VA = "0x182B2D520")]
+	[Address(RVA = "0x65112D0", Offset = "0x65102D0", VA = "0x65112D0")]
 	internal void RefreshAssetPath()
 	{
 	}
 
 	[Token(Token = "0x6000AD4")]
-	[Address(RVA = "0x2B2D2D0", Offset = "0x2B2B8D0", VA = "0x182B2D2D0")]
+	[Address(RVA = "0x6511370", Offset = "0x6510370", VA = "0x6511370")]
 	public string GetAssetPath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x2B2D410", Offset = "0x2B2BA10", VA = "0x182B2D410")]
+	[Address(RVA = "0x65113A0", Offset = "0x65103A0", VA = "0x65113A0")]
 	internal bool HasValidAssetReference()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x2B2D1F0", Offset = "0x2B2B7F0", VA = "0x182B2D1F0")]
+	[Address(RVA = "0x6511420", Offset = "0x6510420", VA = "0x6511420")]
 	public bool FileExists()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x2B2D390", Offset = "0x2B2B990", VA = "0x182B2D390")]
+	[Address(RVA = "0x65114F0", Offset = "0x65104F0", VA = "0x65114F0")]
 	public long GetFileSize()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x2B2D4A0", Offset = "0x2B2BAA0", VA = "0x182B2D4A0")]
+	[Address(RVA = "0x6511570", Offset = "0x6510570", VA = "0x6511570")]
 	public bool IsOpen()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x2B2D4B0", Offset = "0x2B2BAB0", VA = "0x182B2D4B0")]
+	[Address(RVA = "0x6511580", Offset = "0x6510580", VA = "0x6511580")]
 	public FileHandle OpenFile()
 	{
 		return default(FileHandle);
 	}
 
 	[Token(Token = "0x6000ADA")]
-	[Address(RVA = "0x2B2D100", Offset = "0x2B2B700", VA = "0x182B2D100")]
+	[Address(RVA = "0x65115D0", Offset = "0x65105D0", VA = "0x65115D0")]
 	public void CloseFile()
 	{
 	}
 
 	[Token(Token = "0x6000ADB")]
-	[Address(RVA = "0x20F2AD0", Offset = "0x20F10D0", VA = "0x1820F2AD0")]
+	[Address(RVA = "0x6511640", Offset = "0x6510640", VA = "0x6511640")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ADC")]
-	[Address(RVA = "0x2B2D180", Offset = "0x2B2B780", VA = "0x182B2D180")]
+	[Address(RVA = "0x6511650", Offset = "0x6510650", VA = "0x6511650")]
 	public void Dispose()
 	{
 	}

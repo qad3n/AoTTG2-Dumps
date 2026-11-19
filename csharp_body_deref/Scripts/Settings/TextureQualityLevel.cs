@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x20000C8")]
 public enum TextureQualityLevel
 {
-	[Token(Token = "0x40002E5")]
+	[Token(Token = "0x400041B")]
 	VeryLow,
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x400041C")]
 	Low,
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x400041D")]
 	Medium,
-	[Token(Token = "0x40002E8")]
+	[Token(Token = "0x400041E")]
 	High
 }

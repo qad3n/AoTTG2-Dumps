@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001CC")]
+[Token(Token = "0x20001CD")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class SerializeField : Attribute
 {
-	[Token(Token = "0x6000EEE")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000F00")]
+	[Address(RVA = "0x6924070", Offset = "0x6923070", VA = "0x6924070")]
 	public SerializeField()
 	{
 	}

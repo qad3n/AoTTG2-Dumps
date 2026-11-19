@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgPlaylistActions
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgPlaylistActions.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,110 +11,110 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000161")]
+[Token(Token = "0x2000169")]
 internal static class AottgPlaylistActions
 {
-	[Token(Token = "0x4000806")]
+	[Token(Token = "0x4000850")]
 	private const string PlaylistRowId = "settings-sound-custom-playlist";
 
-	[Token(Token = "0x600072E")]
-	[Address(RVA = "0x2309C00", Offset = "0x2308200", VA = "0x182309C00")]
+	[Token(Token = "0x60007A4")]
+	[Address(RVA = "0x5CC3710", Offset = "0x5CC2710", VA = "0x5CC3710")]
 	public static void OpenManagerDialog(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x23096F0", Offset = "0x2307CF0", VA = "0x1823096F0")]
+	[Token(Token = "0x60007A5")]
+	[Address(RVA = "0x5CC3CC0", Offset = "0x5CC2CC0", VA = "0x5CC3CC0")]
 	internal static void AddSong(GisketchActionContext context, string song)
 	{
 	}
 
-	[Token(Token = "0x6000730")]
-	[Address(RVA = "0x2309F00", Offset = "0x2308500", VA = "0x182309F00")]
+	[Token(Token = "0x60007A6")]
+	[Address(RVA = "0x5CC3E70", Offset = "0x5CC2E70", VA = "0x5CC3E70")]
 	internal static void RemoveSong(GisketchActionContext context, string song)
 	{
 	}
 
-	[Token(Token = "0x6000731")]
-	[Address(RVA = "0x2309630", Offset = "0x2307C30", VA = "0x182309630")]
+	[Token(Token = "0x60007A7")]
+	[Address(RVA = "0x5CC3CD0", Offset = "0x5CC2CD0", VA = "0x5CC3CD0")]
 	private static void AddSong(string song)
 	{
 	}
 
-	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x2309DE0", Offset = "0x23083E0", VA = "0x182309DE0")]
+	[Token(Token = "0x60007A8")]
+	[Address(RVA = "0x5CC3E80", Offset = "0x5CC2E80", VA = "0x5CC3E80")]
 	private static void RemoveSong(string song)
 	{
 	}
 
-	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x23099A0", Offset = "0x2307FA0", VA = "0x1823099A0")]
+	[Token(Token = "0x60007A9")]
+	[Address(RVA = "0x5CC3FB0", Offset = "0x5CC2FB0", VA = "0x5CC3FB0")]
 	internal static List<string> CurrentSongs()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000734")]
-	[Address(RVA = "0x2309840", Offset = "0x2307E40", VA = "0x182309840")]
+	[Token(Token = "0x60007AA")]
+	[Address(RVA = "0x5CC4530", Offset = "0x5CC3530", VA = "0x5CC4530")]
 	internal static List<string> AllSongs()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x23098E0", Offset = "0x2307EE0", VA = "0x1823098E0")]
+	[Token(Token = "0x60007AB")]
+	[Address(RVA = "0x5CC4640", Offset = "0x5CC3640", VA = "0x5CC4640")]
 	internal static List<string> AvailableSongs()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x2309CF0", Offset = "0x23082F0", VA = "0x182309CF0")]
+	[Token(Token = "0x60007AC")]
+	[Address(RVA = "0x5CC4710", Offset = "0x5CC3710", VA = "0x5CC4710")]
 	internal static List<string> PlaylistManagerSongs()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x2309B30", Offset = "0x2308130", VA = "0x182309B30")]
+	[Token(Token = "0x60007AD")]
+	[Address(RVA = "0x5CBD3C0", Offset = "0x5CBC3C0", VA = "0x5CBD3C0")]
 	internal static string CustomPlaylistText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x230A4E0", Offset = "0x2308AE0", VA = "0x18230A4E0")]
+	[Token(Token = "0x60007AE")]
+	[Address(RVA = "0x5CC38B0", Offset = "0x5CC28B0", VA = "0x5CC38B0")]
 	internal static void SyncCustomPlaylist(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x230A650", Offset = "0x2308C50", VA = "0x18230A650")]
+	[Token(Token = "0x60007AF")]
+	[Address(RVA = "0x5CC3950", Offset = "0x5CC2950", VA = "0x5CC3950")]
 	internal static void SyncPlaylistManager(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x230A350", Offset = "0x2308950", VA = "0x18230A350")]
+	[Token(Token = "0x60007B0")]
+	[Address(RVA = "0x5CC4870", Offset = "0x5CC3870", VA = "0x5CC4870")]
 	internal static string SongStateId(string song)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x230A130", Offset = "0x2308730", VA = "0x18230A130")]
+	[Token(Token = "0x60007B1")]
+	[Address(RVA = "0x5CC41E0", Offset = "0x5CC31E0", VA = "0x5CC41E0")]
 	private static void SetSongs(List<string> songs)
 	{
 	}
 
-	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x230A440", Offset = "0x2308A40", VA = "0x18230A440")]
+	[Token(Token = "0x60007B2")]
+	[Address(RVA = "0x5CC3DD0", Offset = "0x5CC2DD0", VA = "0x5CC3DD0")]
 	private static void SyncAfterChange(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x230A0B0", Offset = "0x23086B0", VA = "0x18230A0B0")]
+	[Token(Token = "0x60007B3")]
+	[Address(RVA = "0x5CC3830", Offset = "0x5CC2830", VA = "0x5CC3830")]
 	private static GisketchUIRoot Root(GisketchActionContext context)
 	{
 		return null;

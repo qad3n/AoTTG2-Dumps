@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.TemporalAA
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -106,13 +106,13 @@ public static class TemporalAA
 		public TemporalAAQuality quality
 		{
 			[Token(Token = "0x6000964")]
-			[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+			[Address(RVA = "0x6692480", Offset = "0x6691480", VA = "0x6692480")]
 			get
 			{
 				return default(TemporalAAQuality);
 			}
 			[Token(Token = "0x6000965")]
-			[Address(RVA = "0x2C928A0", Offset = "0x2C90EA0", VA = "0x182C928A0")]
+			[Address(RVA = "0x6692490", Offset = "0x6691490", VA = "0x6692490")]
 			set
 			{
 			}
@@ -122,13 +122,13 @@ public static class TemporalAA
 		public float baseBlendFactor
 		{
 			[Token(Token = "0x6000966")]
-			[Address(RVA = "0x2C927D0", Offset = "0x2C90DD0", VA = "0x182C927D0")]
+			[Address(RVA = "0x66924B0", Offset = "0x66914B0", VA = "0x66924B0")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x6000967")]
-			[Address(RVA = "0x2C927E0", Offset = "0x2C90DE0", VA = "0x182C927E0")]
+			[Address(RVA = "0x66924C0", Offset = "0x66914C0", VA = "0x66924C0")]
 			set
 			{
 			}
@@ -138,13 +138,13 @@ public static class TemporalAA
 		public float jitterScale
 		{
 			[Token(Token = "0x6000968")]
-			[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+			[Address(RVA = "0x66924F0", Offset = "0x66914F0", VA = "0x66924F0")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x6000969")]
-			[Address(RVA = "0x2C92840", Offset = "0x2C90E40", VA = "0x182C92840")]
+			[Address(RVA = "0x6692500", Offset = "0x6691500", VA = "0x6692500")]
 			set
 			{
 			}
@@ -154,13 +154,13 @@ public static class TemporalAA
 		public float mipBias
 		{
 			[Token(Token = "0x600096A")]
-			[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
+			[Address(RVA = "0x6692520", Offset = "0x6691520", VA = "0x6692520")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x600096B")]
-			[Address(RVA = "0x2C92870", Offset = "0x2C90E70", VA = "0x182C92870")]
+			[Address(RVA = "0x6692530", Offset = "0x6691530", VA = "0x6692530")]
 			set
 			{
 			}
@@ -170,13 +170,13 @@ public static class TemporalAA
 		public float varianceClampScale
 		{
 			[Token(Token = "0x600096C")]
-			[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
+			[Address(RVA = "0x6692560", Offset = "0x6691560", VA = "0x6692560")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x600096D")]
-			[Address(RVA = "0x2C928C0", Offset = "0x2C90EC0", VA = "0x182C928C0")]
+			[Address(RVA = "0x6692570", Offset = "0x6691570", VA = "0x6692570")]
 			set
 			{
 			}
@@ -186,20 +186,20 @@ public static class TemporalAA
 		public float contrastAdaptiveSharpening
 		{
 			[Token(Token = "0x600096E")]
-			[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
+			[Address(RVA = "0x66925A0", Offset = "0x66915A0", VA = "0x66925A0")]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x600096F")]
-			[Address(RVA = "0x2C92810", Offset = "0x2C90E10", VA = "0x182C92810")]
+			[Address(RVA = "0x66925B0", Offset = "0x66915B0", VA = "0x66925B0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000970")]
-		[Address(RVA = "0x2C927A0", Offset = "0x2C90DA0", VA = "0x182C927A0")]
+		[Address(RVA = "0x66925D0", Offset = "0x66915D0", VA = "0x66925D0")]
 		public static Settings Create()
 		{
 			return default(Settings);
@@ -261,7 +261,7 @@ public static class TemporalAA
 		internal bool taaAlphaOutput;
 
 		[Token(Token = "0x6000975")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66926F0", Offset = "0x66916F0", VA = "0x66926F0")]
 		public TaaPassData()
 		{
 		}
@@ -288,54 +288,54 @@ public static class TemporalAA
 	private static uint s_warnCounter;
 
 	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x2C99640", Offset = "0x2C97C40", VA = "0x182C99640")]
+	[Address(RVA = "0x668F6D0", Offset = "0x668E6D0", VA = "0x668F6D0")]
 	internal static int CalculateTaaFrameIndex(ref Settings settings)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x2C993E0", Offset = "0x2C979E0", VA = "0x182C993E0")]
+	[Address(RVA = "0x668FEA0", Offset = "0x668EEA0", VA = "0x668FEA0")]
 	internal static Matrix4x4 CalculateJitterMatrix(UniversalCameraData cameraData, JitterFunc jitterFunc)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x2C995C0", Offset = "0x2C97BC0", VA = "0x182C995C0")]
+	[Address(RVA = "0x6690080", Offset = "0x668F080", VA = "0x6690080")]
 	internal static void CalculateJitter(int frameIndex, out Vector2 jitter, out bool allowScaling)
 	{
 	}
 
 	[Token(Token = "0x600095C")]
-	[Address(RVA = "0x2C991B0", Offset = "0x2C977B0", VA = "0x182C991B0")]
+	[Address(RVA = "0x66900E0", Offset = "0x668F0E0", VA = "0x66900E0")]
 	internal static float[] CalculateFilterWeights(ref Settings settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x2C9A6E0", Offset = "0x2C98CE0", VA = "0x182C9A6E0")]
+	[Address(RVA = "0x66905C0", Offset = "0x668F5C0", VA = "0x66905C0")]
 	internal static RenderTextureDescriptor TemporalAADescFromCameraDesc(ref RenderTextureDescriptor cameraDesc)
 	{
 		return default(RenderTextureDescriptor);
 	}
 
 	[Token(Token = "0x600095E")]
-	[Address(RVA = "0x2C9A900", Offset = "0x2C98F00", VA = "0x182C9A900")]
+	[Address(RVA = "0x66907F0", Offset = "0x668F7F0", VA = "0x66907F0")]
 	internal static string ValidateAndWarn(UniversalCameraData cameraData, bool isSTPRequested = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095F")]
-	[Address(RVA = "0x2C99660", Offset = "0x2C97C60", VA = "0x182C99660")]
+	[Address(RVA = "0x6690C60", Offset = "0x668FC60", VA = "0x6690C60")]
 	internal static void ExecutePass(CommandBuffer cmd, Material taaMaterial, ref CameraData cameraData, RTHandle source, RTHandle destination, RenderTexture motionVectors)
 	{
 	}
 
 	[Token(Token = "0x6000960")]
-	[Address(RVA = "0x2C99B20", Offset = "0x2C98120", VA = "0x182C99B20")]
+	[Address(RVA = "0x6691170", Offset = "0x6690170", VA = "0x6691170")]
 	internal static void Render(RenderGraph renderGraph, Material taaMaterial, UniversalCameraData cameraData, ref TextureHandle srcColor, ref TextureHandle srcDepth, ref TextureHandle srcMotionVectors, ref TextureHandle dstColor)
 	{
 	}

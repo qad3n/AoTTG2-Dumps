@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004CF")]
-[Flags]
+[Token(Token = "0x20004A8")]
 [ComVisible(true)]
+[Flags]
 public enum CompilationRelaxations
 {
-	[Token(Token = "0x4001339")]
+	[Token(Token = "0x4001299")]
 	NoStringInterning = 8
 }

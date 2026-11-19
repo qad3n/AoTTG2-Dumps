@@ -17,74 +17,74 @@ internal abstract class AtlasBase
 	internal TextureRegistry textureRegistry;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x307D670", Offset = "0x307BC70", VA = "0x18307D670", Slot = "4")]
+	[Address(RVA = "0x6A79A40", Offset = "0x6A78A40", VA = "0x6A79A40", Slot = "4")]
 	public virtual bool TryGetAtlas(VisualElement ctx, Texture2D src, out TextureId atlas, out RectInt atlasRect)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Address(RVA = "0x6A79AA0", Offset = "0x6A78AA0", VA = "0x6A79AA0", Slot = "5")]
 	public virtual void ReturnAtlas(VisualElement ctx, Texture2D src, TextureId atlas)
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x6A79AB0", Offset = "0x6A78AB0", VA = "0x6A79AB0", Slot = "6")]
 	public virtual void Reset()
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Address(RVA = "0x6A79AC0", Offset = "0x6A78AC0", VA = "0x6A79AC0", Slot = "7")]
 	protected virtual void OnAssignedToPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Address(RVA = "0x6A79AD0", Offset = "0x6A78AD0", VA = "0x6A79AD0", Slot = "8")]
 	protected virtual void OnRemovedFromPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x6A79AE0", Offset = "0x6A78AE0", VA = "0x6A79AE0", Slot = "9")]
 	protected virtual void OnUpdateDynamicTextures(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x307D560", Offset = "0x307BB60", VA = "0x18307D560")]
+	[Address(RVA = "0x6A79AF0", Offset = "0x6A78AF0", VA = "0x6A79AF0")]
 	internal void InvokeAssignedToPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x25EACE0", Offset = "0x25E92E0", VA = "0x1825EACE0")]
+	[Address(RVA = "0x6A79B10", Offset = "0x6A78B10", VA = "0x6A79B10")]
 	internal void InvokeRemovedFromPanel(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x2845320", Offset = "0x2843920", VA = "0x182845320")]
+	[Address(RVA = "0x6A79B30", Offset = "0x6A78B30", VA = "0x6A79B30")]
 	internal void InvokeUpdateDynamicTextures(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x307D580", Offset = "0x307BB80", VA = "0x18307D580")]
+	[Address(RVA = "0x6A79B50", Offset = "0x6A78B50", VA = "0x6A79B50")]
 	protected static void RepaintTexturedElements(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x307D650", Offset = "0x307BC50", VA = "0x18307D650")]
+	[Address(RVA = "0x6A79C10", Offset = "0x6A78C10", VA = "0x6A79C10")]
 	protected void SetDynamicTexture(TextureId id, Texture texture)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x307D6E0", Offset = "0x307BCE0", VA = "0x18307D6E0")]
+	[Address(RVA = "0x6A79C30", Offset = "0x6A78C30", VA = "0x6A79C30")]
 	protected AtlasBase()
 	{
 	}

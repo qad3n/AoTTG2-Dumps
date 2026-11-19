@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Specialized;
 
-[Token(Token = "0x200024A")]
+[Token(Token = "0x200020B")]
 public enum NotifyCollectionChangedAction
 {
-	[Token(Token = "0x4000833")]
+	[Token(Token = "0x4000764")]
 	Add,
-	[Token(Token = "0x4000834")]
+	[Token(Token = "0x4000765")]
 	Remove,
-	[Token(Token = "0x4000835")]
+	[Token(Token = "0x4000766")]
 	Replace,
-	[Token(Token = "0x4000836")]
+	[Token(Token = "0x4000767")]
 	Move,
-	[Token(Token = "0x4000837")]
+	[Token(Token = "0x4000768")]
 	Reset
 }

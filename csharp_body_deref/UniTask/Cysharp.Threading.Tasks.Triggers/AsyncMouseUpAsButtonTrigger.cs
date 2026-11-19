@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncMouseUpAsButtonTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x2932650", Offset = "0x2930C50", VA = "0x182932650")]
+	[Address(RVA = "0x62FD5D0", Offset = "0x62FC5D0", VA = "0x62FD5D0")]
 	private void OnMouseUpAsButton()
 	{
 	}
 
 	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x2932340", Offset = "0x2930940", VA = "0x182932340")]
+	[Address(RVA = "0x62FD640", Offset = "0x62FC640", VA = "0x62FD640")]
 	public IAsyncOnMouseUpAsButtonHandler GetOnMouseUpAsButtonAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x29323B0", Offset = "0x29309B0", VA = "0x1829323B0")]
+	[Address(RVA = "0x62FD6B0", Offset = "0x62FC6B0", VA = "0x62FD6B0")]
 	public IAsyncOnMouseUpAsButtonHandler GetOnMouseUpAsButtonAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x2932430", Offset = "0x2930A30", VA = "0x182932430")]
+	[Address(RVA = "0x62FD720", Offset = "0x62FC720", VA = "0x62FD720")]
 	public UniTask OnMouseUpAsButtonAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x2932540", Offset = "0x2930B40", VA = "0x182932540")]
+	[Address(RVA = "0x62FD810", Offset = "0x62FC810", VA = "0x62FD810")]
 	public UniTask OnMouseUpAsButtonAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x29326C0", Offset = "0x2930CC0", VA = "0x1829326C0")]
+	[Address(RVA = "0x62FD900", Offset = "0x62FC900", VA = "0x62FD900")]
 	public AsyncMouseUpAsButtonTrigger()
 	{
 	}

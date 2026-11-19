@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace Unity.Collections.LowLevel.Unsafe;
 
 [Token(Token = "0x2000071")]
-[Obsolete("Use NativeSetThreadIndexAttribute instead")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[Obsolete("Use NativeSetThreadIndexAttribute instead")]
 [AttributeUsage(AttributeTargets.Struct)]
 public sealed class NativeContainerNeedsThreadIndexAttribute : Attribute
 {

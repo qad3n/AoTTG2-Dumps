@@ -9,22 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000526")]
+[Token(Token = "0x20004FF")]
 internal sealed class SignatureConstructedGenericType : System.Reflection.SignatureType
 {
-	[Token(Token = "0x400146C")]
+	[Token(Token = "0x40013CC")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Type _genericTypeDefinition;
 
-	[Token(Token = "0x400146D")]
+	[Token(Token = "0x40013CD")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Type[] _genericTypeArguments;
 
-	[Token(Token = "0x170004EB")]
+	[Token(Token = "0x170004EA")]
 	public sealed override bool IsGenericTypeDefinition
 	{
-		[Token(Token = "0x6002544")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "41")]
+		[Token(Token = "0x6002512")]
+		[Address(RVA = "0x53DC370", Offset = "0x53DB370", VA = "0x53DC370", Slot = "41")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170004EB")]
+	public sealed override bool IsByRefLike
+	{
+		[Token(Token = "0x6002516")]
+		[Address(RVA = "0x53DC3B0", Offset = "0x53DB3B0", VA = "0x53DC3B0", Slot = "44")]
 		get
 		{
 			return default(bool);
@@ -32,10 +43,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004EC")]
-	public sealed override bool IsByRefLike
+	public sealed override bool IsSZArray
 	{
-		[Token(Token = "0x6002548")]
-		[Address(RVA = "0x1A56030", Offset = "0x1A54630", VA = "0x181A56030", Slot = "44")]
+		[Token(Token = "0x6002518")]
+		[Address(RVA = "0x53DC3F0", Offset = "0x53DB3F0", VA = "0x53DC3F0", Slot = "42")]
 		get
 		{
 			return default(bool);
@@ -43,10 +54,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004ED")]
-	public sealed override bool IsSZArray
+	public sealed override bool IsVariableBoundArray
 	{
-		[Token(Token = "0x600254A")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "42")]
+		[Token(Token = "0x6002519")]
+		[Address(RVA = "0x53DC400", Offset = "0x53DB400", VA = "0x53DC400", Slot = "43")]
 		get
 		{
 			return default(bool);
@@ -54,10 +65,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004EE")]
-	public sealed override bool IsVariableBoundArray
+	public sealed override bool IsConstructedGenericType
 	{
-		[Token(Token = "0x600254B")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "43")]
+		[Token(Token = "0x600251A")]
+		[Address(RVA = "0x53DC410", Offset = "0x53DB410", VA = "0x53DC410", Slot = "37")]
 		get
 		{
 			return default(bool);
@@ -65,10 +76,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004EF")]
-	public sealed override bool IsConstructedGenericType
+	public sealed override bool IsGenericParameter
 	{
-		[Token(Token = "0x600254C")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "37")]
+		[Token(Token = "0x600251B")]
+		[Address(RVA = "0x53DC420", Offset = "0x53DB420", VA = "0x53DC420", Slot = "38")]
 		get
 		{
 			return default(bool);
@@ -76,10 +87,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004F0")]
-	public sealed override bool IsGenericParameter
+	public sealed override bool IsGenericMethodParameter
 	{
-		[Token(Token = "0x600254D")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "38")]
+		[Token(Token = "0x600251C")]
+		[Address(RVA = "0x53DC430", Offset = "0x53DB430", VA = "0x53DC430", Slot = "39")]
 		get
 		{
 			return default(bool);
@@ -87,10 +98,10 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004F1")]
-	public sealed override bool IsGenericMethodParameter
+	public sealed override bool ContainsGenericParameters
 	{
-		[Token(Token = "0x600254E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "39")]
+		[Token(Token = "0x600251D")]
+		[Address(RVA = "0x53DC440", Offset = "0x53DB440", VA = "0x53DC440", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -98,21 +109,21 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004F2")]
-	public sealed override bool ContainsGenericParameters
+	internal sealed override System.Reflection.SignatureType ElementType
 	{
-		[Token(Token = "0x600254F")]
-		[Address(RVA = "0x1A55ED0", Offset = "0x1A544D0", VA = "0x181A55ED0", Slot = "20")]
+		[Token(Token = "0x600251E")]
+		[Address(RVA = "0x53DC4B0", Offset = "0x53DB4B0", VA = "0x53DC4B0", Slot = "135")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x170004F3")]
-	internal sealed override System.Reflection.SignatureType ElementType
+	public sealed override Type[] GenericTypeArguments
 	{
-		[Token(Token = "0x6002550")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "135")]
+		[Token(Token = "0x6002522")]
+		[Address(RVA = "0x53DC540", Offset = "0x53DB540", VA = "0x53DC540", Slot = "50")]
 		get
 		{
 			return null;
@@ -120,106 +131,95 @@ internal sealed class SignatureConstructedGenericType : System.Reflection.Signat
 	}
 
 	[Token(Token = "0x170004F4")]
-	public sealed override Type[] GenericTypeArguments
-	{
-		[Token(Token = "0x6002554")]
-		[Address(RVA = "0x1A55FB0", Offset = "0x1A545B0", VA = "0x181A55FB0", Slot = "50")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170004F5")]
 	public sealed override int GenericParameterPosition
 	{
-		[Token(Token = "0x6002555")]
-		[Address(RVA = "0x1A55F60", Offset = "0x1A54560", VA = "0x181A55F60", Slot = "52")]
+		[Token(Token = "0x6002523")]
+		[Address(RVA = "0x53DC5C0", Offset = "0x53DB5C0", VA = "0x53DC5C0", Slot = "52")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170004F6")]
+	[Token(Token = "0x170004F5")]
 	public sealed override string Name
 	{
-		[Token(Token = "0x6002556")]
-		[Address(RVA = "0x1A56060", Offset = "0x1A54660", VA = "0x181A56060", Slot = "8")]
+		[Token(Token = "0x6002524")]
+		[Address(RVA = "0x53DC610", Offset = "0x53DB610", VA = "0x53DC610", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004F7")]
+	[Token(Token = "0x170004F6")]
 	public sealed override string Namespace
 	{
-		[Token(Token = "0x6002557")]
-		[Address(RVA = "0x1A56090", Offset = "0x1A54690", VA = "0x181A56090", Slot = "24")]
+		[Token(Token = "0x6002525")]
+		[Address(RVA = "0x53DC640", Offset = "0x53DB640", VA = "0x53DC640", Slot = "24")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002543")]
-	[Address(RVA = "0x1A55C80", Offset = "0x1A54280", VA = "0x181A55C80")]
+	[Token(Token = "0x6002511")]
+	[Address(RVA = "0x53DC150", Offset = "0x53DB150", VA = "0x53DC150")]
 	internal SignatureConstructedGenericType(Type genericTypeDefinition, Type[] typeArguments)
 	{
 	}
 
-	[Token(Token = "0x6002545")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "46")]
+	[Token(Token = "0x6002513")]
+	[Address(RVA = "0x53DC380", Offset = "0x53DB380", VA = "0x53DC380", Slot = "46")]
 	protected sealed override bool HasElementTypeImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002546")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "32")]
+	[Token(Token = "0x6002514")]
+	[Address(RVA = "0x53DC390", Offset = "0x53DB390", VA = "0x53DC390", Slot = "32")]
 	protected sealed override bool IsArrayImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002547")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "34")]
+	[Token(Token = "0x6002515")]
+	[Address(RVA = "0x53DC3A0", Offset = "0x53DB3A0", VA = "0x53DC3A0", Slot = "34")]
 	protected sealed override bool IsByRefImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002549")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "36")]
+	[Token(Token = "0x6002517")]
+	[Address(RVA = "0x53DC3E0", Offset = "0x53DB3E0", VA = "0x53DC3E0", Slot = "36")]
 	protected sealed override bool IsPointerImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002551")]
-	[Address(RVA = "0x1A55AD0", Offset = "0x1A540D0", VA = "0x181A55AD0", Slot = "48")]
+	[Token(Token = "0x600251F")]
+	[Address(RVA = "0x53DC4C0", Offset = "0x53DB4C0", VA = "0x53DC4C0", Slot = "48")]
 	public sealed override int GetArrayRank()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002552")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "49")]
+	[Token(Token = "0x6002520")]
+	[Address(RVA = "0x53DC510", Offset = "0x53DB510", VA = "0x53DC510", Slot = "49")]
 	public sealed override Type GetGenericTypeDefinition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002553")]
-	[Address(RVA = "0x1A55B20", Offset = "0x1A54120", VA = "0x181A55B20", Slot = "51")]
+	[Token(Token = "0x6002521")]
+	[Address(RVA = "0x53DC520", Offset = "0x53DB520", VA = "0x53DC520", Slot = "51")]
 	public sealed override Type[] GetGenericArguments()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002558")]
-	[Address(RVA = "0x1A55B40", Offset = "0x1A54140", VA = "0x181A55B40", Slot = "3")]
+	[Token(Token = "0x6002526")]
+	[Address(RVA = "0x53DC670", Offset = "0x53DB670", VA = "0x53DC670", Slot = "3")]
 	public sealed override string ToString()
 	{
 		return null;

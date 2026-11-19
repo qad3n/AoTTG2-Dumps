@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x20001BB")]
 internal struct Coord
 {
-	[Token(Token = "0x4000946")]
+	[Token(Token = "0x40008A4")]
 	[FieldOffset(Offset = "0x0")]
 	public short X;
 
-	[Token(Token = "0x4000947")]
+	[Token(Token = "0x40008A5")]
 	[FieldOffset(Offset = "0x2")]
 	public short Y;
 }

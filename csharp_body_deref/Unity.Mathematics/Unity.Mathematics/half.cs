@@ -29,7 +29,7 @@ public struct half : IEquatable<half>, IFormattable
 	public static float MaxValue
 	{
 		[Token(Token = "0x600160D")]
-		[Address(RVA = "0x2A99760", Offset = "0x2A97D60", VA = "0x182A99760")]
+		[Address(RVA = "0x6469F00", Offset = "0x6468F00", VA = "0x6469F00")]
 		get
 		{
 			return default(float);
@@ -40,7 +40,7 @@ public struct half : IEquatable<half>, IFormattable
 	public static float MinValue
 	{
 		[Token(Token = "0x600160E")]
-		[Address(RVA = "0x2A997E0", Offset = "0x2A97DE0", VA = "0x182A997E0")]
+		[Address(RVA = "0x6469F10", Offset = "0x6468F10", VA = "0x6469F10")]
 		get
 		{
 			return default(float);
@@ -51,7 +51,7 @@ public struct half : IEquatable<half>, IFormattable
 	public static half MaxValueAsHalf
 	{
 		[Token(Token = "0x600160F")]
-		[Address(RVA = "0x2A996F0", Offset = "0x2A97CF0", VA = "0x182A996F0")]
+		[Address(RVA = "0x6469F20", Offset = "0x6468F20", VA = "0x6469F20")]
 		get
 		{
 			return default(half);
@@ -62,7 +62,7 @@ public struct half : IEquatable<half>, IFormattable
 	public static half MinValueAsHalf
 	{
 		[Token(Token = "0x6001610")]
-		[Address(RVA = "0x2A99770", Offset = "0x2A97D70", VA = "0x182A99770")]
+		[Address(RVA = "0x6469F30", Offset = "0x6468F30", VA = "0x6469F30")]
 		get
 		{
 			return default(half);
@@ -71,28 +71,28 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001611")]
-	[Address(RVA = "0x17073B0", Offset = "0x17059B0", VA = "0x1817073B0")]
+	[Address(RVA = "0x6469F40", Offset = "0x6468F40", VA = "0x6469F40")]
 	public half(half x)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001612")]
-	[Address(RVA = "0x29C8D60", Offset = "0x29C7360", VA = "0x1829C8D60")]
+	[Address(RVA = "0x6469F50", Offset = "0x6468F50", VA = "0x6469F50")]
 	public half(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001613")]
-	[Address(RVA = "0x29C8CE0", Offset = "0x29C72E0", VA = "0x1829C8CE0")]
+	[Address(RVA = "0x6469FB0", Offset = "0x6468FB0", VA = "0x6469FB0")]
 	public half(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001614")]
-	[Address(RVA = "0x29E4930", Offset = "0x29E2F30", VA = "0x1829E4930")]
+	[Address(RVA = "0x646A010", Offset = "0x6469010", VA = "0x646A010")]
 	public static explicit operator half(float v)
 	{
 		return default(half);
@@ -100,7 +100,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001615")]
-	[Address(RVA = "0x29C8DE0", Offset = "0x29C73E0", VA = "0x1829C8DE0")]
+	[Address(RVA = "0x646A070", Offset = "0x6469070", VA = "0x646A070")]
 	public static explicit operator half(double v)
 	{
 		return default(half);
@@ -108,7 +108,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001616")]
-	[Address(RVA = "0x29C8E80", Offset = "0x29C7480", VA = "0x1829C8E80")]
+	[Address(RVA = "0x646A0D0", Offset = "0x64690D0", VA = "0x646A0D0")]
 	public static implicit operator float(half d)
 	{
 		return default(float);
@@ -116,7 +116,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001617")]
-	[Address(RVA = "0x29C8E60", Offset = "0x29C7460", VA = "0x1829C8E60")]
+	[Address(RVA = "0x646A130", Offset = "0x6469130", VA = "0x646A130")]
 	public static implicit operator double(half d)
 	{
 		return default(double);
@@ -124,7 +124,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001618")]
-	[Address(RVA = "0x29940F0", Offset = "0x29926F0", VA = "0x1829940F0")]
+	[Address(RVA = "0x646A190", Offset = "0x6469190", VA = "0x646A190")]
 	public static bool operator ==(half lhs, half rhs)
 	{
 		return default(bool);
@@ -132,7 +132,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001619")]
-	[Address(RVA = "0x2994140", Offset = "0x2992740", VA = "0x182994140")]
+	[Address(RVA = "0x646A1A0", Offset = "0x64691A0", VA = "0x646A1A0")]
 	public static bool operator !=(half lhs, half rhs)
 	{
 		return default(bool);
@@ -140,14 +140,14 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600161A")]
-	[Address(RVA = "0x1A7C310", Offset = "0x1A7A910", VA = "0x181A7C310", Slot = "4")]
+	[Address(RVA = "0x646A1B0", Offset = "0x64691B0", VA = "0x646A1B0", Slot = "4")]
 	public bool Equals(half rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600161B")]
-	[Address(RVA = "0x2A995F0", Offset = "0x2A97BF0", VA = "0x182A995F0", Slot = "0")]
+	[Address(RVA = "0x646A1C0", Offset = "0x64691C0", VA = "0x646A1C0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
@@ -155,7 +155,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600161C")]
-	[Address(RVA = "0x846ED0", Offset = "0x8454D0", VA = "0x180846ED0", Slot = "2")]
+	[Address(RVA = "0x646A220", Offset = "0x6469220", VA = "0x646A220", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -163,7 +163,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600161D")]
-	[Address(RVA = "0x2A99680", Offset = "0x2A97C80", VA = "0x182A99680", Slot = "3")]
+	[Address(RVA = "0x646A230", Offset = "0x6469230", VA = "0x646A230", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -171,7 +171,7 @@ public struct half : IEquatable<half>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600161E")]
-	[Address(RVA = "0x2A996B0", Offset = "0x2A97CB0", VA = "0x182A996B0", Slot = "5")]
+	[Address(RVA = "0x646A2A0", Offset = "0x64692A0", VA = "0x646A2A0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

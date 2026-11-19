@@ -13,9 +13,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x200001D")]
-[Flags]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[Flags]
 public enum MeshVertexAttributes
 {
 	[Token(Token = "0x400007F")]

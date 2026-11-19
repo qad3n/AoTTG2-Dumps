@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsJoint
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -48,7 +48,7 @@ public readonly struct PhysicsJoint : IEquatable<PhysicsJoint>
 	public bool isValid
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x2FD23B0", Offset = "0x2FD09B0", VA = "0x182FD23B0", Slot = "5")]
+		[Address(RVA = "0x69CBBB0", Offset = "0x69CABB0", VA = "0x69CBBB0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -59,7 +59,7 @@ public readonly struct PhysicsJoint : IEquatable<PhysicsJoint>
 	public JointType jointType
 	{
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x2FD23F0", Offset = "0x2FD09F0", VA = "0x182FD23F0", Slot = "6")]
+		[Address(RVA = "0x69CBBF0", Offset = "0x69CABF0", VA = "0x69CBBF0", Slot = "6")]
 		get
 		{
 			return default(JointType);
@@ -70,7 +70,7 @@ public readonly struct PhysicsJoint : IEquatable<PhysicsJoint>
 	public object callbackTarget
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x2FD2370", Offset = "0x2FD0970", VA = "0x182FD2370", Slot = "7")]
+		[Address(RVA = "0x69CBD30", Offset = "0x69CAD30", VA = "0x69CBD30", Slot = "7")]
 		get
 		{
 			return null;
@@ -78,28 +78,28 @@ public readonly struct PhysicsJoint : IEquatable<PhysicsJoint>
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x2FD20C0", Offset = "0x2FD06C0", VA = "0x182FD20C0", Slot = "3")]
+	[Address(RVA = "0x69CB920", Offset = "0x69CA920", VA = "0x69CB920", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x2FD1FE0", Offset = "0x2FD05E0", VA = "0x182FD1FE0", Slot = "0")]
+	[Address(RVA = "0x69CBC30", Offset = "0x69CAC30", VA = "0x69CBC30", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x2FD0FA0", Offset = "0x2FCF5A0", VA = "0x182FD0FA0", Slot = "4")]
+	[Address(RVA = "0x69CBC90", Offset = "0x69CAC90", VA = "0x69CBC90", Slot = "4")]
 	public bool Equals(PhysicsJoint other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x2FD2040", Offset = "0x2FD0640", VA = "0x182FD2040", Slot = "2")]
+	[Address(RVA = "0x69CBCC0", Offset = "0x69CACC0", VA = "0x69CBCC0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

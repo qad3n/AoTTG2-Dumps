@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class NavigationSubmitEvent : NavigationEventBase<NavigationSubmitEvent>
 {
 	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x32698E0", Offset = "0x3267EE0", VA = "0x1832698E0")]
+	[Address(RVA = "0x6C6BFD0", Offset = "0x6C6AFD0", VA = "0x6C6BFD0")]
 	static NavigationSubmitEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x32699C0", Offset = "0x3267FC0", VA = "0x1832699C0")]
+	[Address(RVA = "0x6C6C0A0", Offset = "0x6C6B0A0", VA = "0x6C6C0A0")]
 	public NavigationSubmitEvent()
 	{
 	}

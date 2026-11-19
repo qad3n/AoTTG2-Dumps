@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200006C")]
+[Token(Token = "0x20000A3")]
 internal interface ICustomSkinSettings : ISetSettingsContainer
 {
-	[Token(Token = "0x6000321")]
+	[Token(Token = "0x600048A")]
 	BoolSetting GetSkinsLocal();
 
-	[Token(Token = "0x6000322")]
+	[Token(Token = "0x600048B")]
 	BoolSetting GetSkinsEnabled();
 
-	[Token(Token = "0x6000323")]
+	[Token(Token = "0x600048C")]
 	IListSetting GetSkinSets();
 }

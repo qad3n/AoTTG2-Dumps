@@ -17,142 +17,142 @@ using SimpleJSONFixed;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x2000951")]
+[Token(Token = "0x20009B8")]
 public sealed class AottgApiClient
 {
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000952")]
+	[Token(Token = "0x20009B9")]
 	[CompilerGenerated]
 	private struct _003CSendAsync_003Ed__4 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4002E1F")]
+		[Token(Token = "0x40030CD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4002E20")]
+		[Token(Token = "0x40030CE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder<AottgApiResult> _003C_003Et__builder;
 
-		[Token(Token = "0x4002E21")]
+		[Token(Token = "0x40030CF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AottgApiRequest request;
 
-		[Token(Token = "0x4002E22")]
+		[Token(Token = "0x40030D0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AottgApiClient _003C_003E4__this;
 
-		[Token(Token = "0x4002E23")]
+		[Token(Token = "0x40030D1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4002E24")]
+		[Token(Token = "0x40030D2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private AottgApiTransportRequest _003CtransportRequest_003E5__2;
 
-		[Token(Token = "0x4002E25")]
+		[Token(Token = "0x40030D3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private UniTask<AottgApiTransportResponse>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6005704")]
-		[Address(RVA = "0x23742E0", Offset = "0x23728E0", VA = "0x1823742E0", Slot = "4")]
+		[Token(Token = "0x6005A5D")]
+		[Address(RVA = "0x5D2A5D0", Offset = "0x5D295D0", VA = "0x5D2A5D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6005705")]
-		[Address(RVA = "0x23747C0", Offset = "0x2372DC0", VA = "0x1823747C0", Slot = "5")]
+		[Token(Token = "0x6005A5E")]
+		[Address(RVA = "0x5D2ABD0", Offset = "0x5D29BD0", VA = "0x5D2ABD0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4002E1D")]
+	[Token(Token = "0x40030CB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly Func<string> _baseUrlProvider;
 
-	[Token(Token = "0x4002E1E")]
+	[Token(Token = "0x40030CC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly IAottgApiTransport _transport;
 
-	[Token(Token = "0x60056F8")]
-	[Address(RVA = "0x23606A0", Offset = "0x235ECA0", VA = "0x1823606A0")]
+	[Token(Token = "0x6005A51")]
+	[Address(RVA = "0x5D249E0", Offset = "0x5D239E0", VA = "0x5D249E0")]
 	public AottgApiClient()
 	{
 	}
 
-	[Token(Token = "0x60056F9")]
-	[Address(RVA = "0x23605C0", Offset = "0x235EBC0", VA = "0x1823605C0")]
+	[Token(Token = "0x6005A52")]
+	[Address(RVA = "0x5D29280", Offset = "0x5D28280", VA = "0x5D29280")]
 	public AottgApiClient(Func<string> baseUrlProvider, IAottgApiTransport transport)
 	{
 	}
 
-	[Token(Token = "0x60056FA")]
-	[Address(RVA = "0x2360490", Offset = "0x235EA90", VA = "0x182360490")]
+	[Token(Token = "0x6005A53")]
+	[Address(RVA = "0x5D24AD0", Offset = "0x5D23AD0", VA = "0x5D24AD0")]
 	[AsyncStateMachine(typeof(_003CSendAsync_003Ed__4))]
 	public UniTask<AottgApiResult> SendAsync(AottgApiRequest request, [Optional] CancellationToken cancellationToken)
 	{
 		return default(UniTask<AottgApiResult>);
 	}
 
-	[Token(Token = "0x60056FB")]
-	[Address(RVA = "0x235F840", Offset = "0x235DE40", VA = "0x18235F840")]
+	[Token(Token = "0x6005A54")]
+	[Address(RVA = "0x5D29350", Offset = "0x5D28350", VA = "0x5D29350")]
 	private static string DefaultBaseUrl()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056FC")]
-	[Address(RVA = "0x235F340", Offset = "0x235D940", VA = "0x18235F340")]
+	[Token(Token = "0x6005A55")]
+	[Address(RVA = "0x5D293C0", Offset = "0x5D283C0", VA = "0x5D293C0")]
 	private AottgApiTransportRequest BuildTransportRequest(AottgApiRequest request)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056FD")]
-	[Address(RVA = "0x235F6C0", Offset = "0x235DCC0", VA = "0x18235F6C0")]
+	[Token(Token = "0x6005A56")]
+	[Address(RVA = "0x5D29680", Offset = "0x5D28680", VA = "0x5D29680")]
 	private string BuildUrl(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056FE")]
-	[Address(RVA = "0x235FA90", Offset = "0x235E090", VA = "0x18235FA90")]
+	[Token(Token = "0x6005A57")]
+	[Address(RVA = "0x5D297F0", Offset = "0x5D287F0", VA = "0x5D297F0")]
 	private static AottgApiResult HandleResponse(AottgApiRequest request, AottgApiTransportRequest transportRequest, AottgApiTransportResponse response)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60056FF")]
-	[Address(RVA = "0x2360020", Offset = "0x235E620", VA = "0x182360020")]
+	[Token(Token = "0x6005A58")]
+	[Address(RVA = "0x5D29B40", Offset = "0x5D28B40", VA = "0x5D29B40")]
 	private static AottgApiResult NetworkFailure(AottgApiRequest request, AottgApiTransportRequest transportRequest, AottgApiTransportResponse response)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005700")]
-	[Address(RVA = "0x235FDD0", Offset = "0x235E3D0", VA = "0x18235FDD0")]
+	[Token(Token = "0x6005A59")]
+	[Address(RVA = "0x5D29B30", Offset = "0x5D28B30", VA = "0x5D29B30")]
 	private static bool IsNetworkError(AottgApiTransportResult result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005701")]
-	[Address(RVA = "0x2360340", Offset = "0x235E940", VA = "0x182360340")]
+	[Token(Token = "0x6005A5A")]
+	[Address(RVA = "0x5D29DF0", Offset = "0x5D28DF0", VA = "0x5D29DF0")]
 	private static string ParseError(string responseText, long responseCode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005702")]
-	[Address(RVA = "0x235F890", Offset = "0x235DE90", VA = "0x18235F890")]
+	[Token(Token = "0x6005A5B")]
+	[Address(RVA = "0x5D2A370", Offset = "0x5D29370", VA = "0x5D2A370")]
 	private static string FieldValue(JSONNode node, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005703")]
-	[Address(RVA = "0x235FDE0", Offset = "0x235E3E0", VA = "0x18235FDE0")]
+	[Token(Token = "0x6005A5C")]
+	[Address(RVA = "0x5D29F90", Offset = "0x5D28F90", VA = "0x5D29F90")]
 	private static void LogHttpFailure(AottgApiTransportRequest request, AottgApiTransportResponse response, string text)
 	{
 	}

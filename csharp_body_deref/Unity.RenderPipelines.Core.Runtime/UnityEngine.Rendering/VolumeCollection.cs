@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VolumeCollection
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ internal class VolumeCollection
 	public int count
 	{
 		[Token(Token = "0x6000ED9")]
-		[Address(RVA = "0x2B653D0", Offset = "0x2B639D0", VA = "0x182B653D0")]
+		[Address(RVA = "0x6553140", Offset = "0x6552140", VA = "0x6553140")]
 		get
 		{
 			return default(int);
@@ -40,41 +40,41 @@ internal class VolumeCollection
 	}
 
 	[Token(Token = "0x6000EDA")]
-	[Address(RVA = "0x2B64B30", Offset = "0x2B63130", VA = "0x182B64B30")]
+	[Address(RVA = "0x6553180", Offset = "0x6552180", VA = "0x6553180")]
 	public bool Register(Volume volume, int layer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EDB")]
-	[Address(RVA = "0x2B65070", Offset = "0x2B63670", VA = "0x182B65070")]
+	[Address(RVA = "0x6553660", Offset = "0x6552660", VA = "0x6553660")]
 	public bool Unregister(Volume volume, int layer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EDC")]
-	[Address(RVA = "0x2B646F0", Offset = "0x2B62CF0", VA = "0x182B646F0")]
+	[Address(RVA = "0x65538D0", Offset = "0x65528D0", VA = "0x65538D0")]
 	public bool ChangeLayer(Volume volume, int previousLayerIndex, int currentLayerIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EDD")]
-	[Address(RVA = "0x2B64F60", Offset = "0x2B63560", VA = "0x182B64F60")]
+	[Address(RVA = "0x65539B0", Offset = "0x65529B0", VA = "0x65539B0")]
 	internal static void SortByPriority(List<Volume> volumes)
 	{
 	}
 
 	[Token(Token = "0x6000EDE")]
-	[Address(RVA = "0x2B647D0", Offset = "0x2B62DD0", VA = "0x182B647D0")]
+	[Address(RVA = "0x6553AE0", Offset = "0x6552AE0", VA = "0x6553AE0")]
 	public List<Volume> GrabVolumes(LayerMask mask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EDF")]
-	[Address(RVA = "0x2B64DF0", Offset = "0x2B633F0", VA = "0x182B64DF0")]
+	[Address(RVA = "0x65534D0", Offset = "0x65524D0", VA = "0x65534D0")]
 	public void SetLayerIndexDirty(int layerIndex)
 	{
 	}
@@ -86,7 +86,7 @@ internal class VolumeCollection
 	}
 
 	[Token(Token = "0x6000EE1")]
-	[Address(RVA = "0x2B652C0", Offset = "0x2B638C0", VA = "0x182B652C0")]
+	[Address(RVA = "0x6553DC0", Offset = "0x6552DC0", VA = "0x6553DC0")]
 	public VolumeCollection()
 	{
 	}

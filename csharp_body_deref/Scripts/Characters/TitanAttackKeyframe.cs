@@ -11,29 +11,29 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20006D2")]
+[Token(Token = "0x2000734")]
 internal class TitanAttackKeyframe
 {
-	[Token(Token = "0x4002243")]
+	[Token(Token = "0x4002436")]
 	[FieldOffset(Offset = "0x10")]
 	public int Frame;
 
-	[Token(Token = "0x4002244")]
+	[Token(Token = "0x4002437")]
 	[FieldOffset(Offset = "0x14")]
 	private Vector3 _localPosition;
 
-	[Token(Token = "0x4002245")]
+	[Token(Token = "0x4002438")]
 	[FieldOffset(Offset = "0x20")]
 	private float _radius;
 
-	[Token(Token = "0x600431E")]
-	[Address(RVA = "0x21CCE90", Offset = "0x21CB490", VA = "0x1821CCE90")]
+	[Token(Token = "0x60045DF")]
+	[Address(RVA = "0x5B62410", Offset = "0x5B61410", VA = "0x5B62410")]
 	public TitanAttackKeyframe(JSONNode data)
 	{
 	}
 
-	[Token(Token = "0x600431F")]
-	[Address(RVA = "0x21CCDE0", Offset = "0x21CB3E0", VA = "0x1821CCDE0")]
+	[Token(Token = "0x60045E0")]
+	[Address(RVA = "0x5B62840", Offset = "0x5B61840", VA = "0x5B62840")]
 	public bool CheckCollision(Transform titan, Vector3 position, Vector3 velocity, float attackSpeed, float size)
 	{
 		return default(bool);

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001B5")]
+[Token(Token = "0x200018D")]
 internal enum UInt16Enum : ushort
 {
 

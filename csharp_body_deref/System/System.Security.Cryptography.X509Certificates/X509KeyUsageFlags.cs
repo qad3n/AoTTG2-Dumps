@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200012F")]
+[Token(Token = "0x20000F0")]
 [Flags]
 public enum X509KeyUsageFlags
 {
-	[Token(Token = "0x400056C")]
+	[Token(Token = "0x400049D")]
 	None = 0,
-	[Token(Token = "0x400056D")]
+	[Token(Token = "0x400049E")]
 	EncipherOnly = 1,
-	[Token(Token = "0x400056E")]
+	[Token(Token = "0x400049F")]
 	CrlSign = 2,
-	[Token(Token = "0x400056F")]
+	[Token(Token = "0x40004A0")]
 	KeyCertSign = 4,
-	[Token(Token = "0x4000570")]
+	[Token(Token = "0x40004A1")]
 	KeyAgreement = 8,
-	[Token(Token = "0x4000571")]
+	[Token(Token = "0x40004A2")]
 	DataEncipherment = 0x10,
-	[Token(Token = "0x4000572")]
+	[Token(Token = "0x40004A3")]
 	KeyEncipherment = 0x20,
-	[Token(Token = "0x4000573")]
+	[Token(Token = "0x40004A4")]
 	NonRepudiation = 0x40,
-	[Token(Token = "0x4000574")]
+	[Token(Token = "0x40004A5")]
 	DigitalSignature = 0x80,
-	[Token(Token = "0x4000575")]
+	[Token(Token = "0x40004A6")]
 	DecipherOnly = 0x8000
 }

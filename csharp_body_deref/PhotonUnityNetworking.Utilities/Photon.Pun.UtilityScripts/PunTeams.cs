@@ -39,56 +39,56 @@ public class PunTeams : MonoBehaviourPunCallbacks
 	public const string TeamPlayerProp = "team";
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x1D5B5E0", Offset = "0x1D59BE0", VA = "0x181D5B5E0")]
+	[Address(RVA = "0x56F2650", Offset = "0x56F1650", VA = "0x56F2650")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x1D5B5A0", Offset = "0x1D59BA0", VA = "0x181D5B5A0", Slot = "29")]
+	[Address(RVA = "0x56F2A70", Offset = "0x56F1A70", VA = "0x56F2A70", Slot = "29")]
 	public override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "41")]
+	[Address(RVA = "0x56F2A80", Offset = "0x56F1A80", VA = "0x56F2A80", Slot = "41")]
 	public override void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x1D5B5D0", Offset = "0x1D59BD0", VA = "0x181D5B5D0", Slot = "31")]
+	[Address(RVA = "0x56F2F60", Offset = "0x56F1F60", VA = "0x56F2F60", Slot = "31")]
 	public override void OnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "47")]
+	[Address(RVA = "0x56F2F70", Offset = "0x56F1F70", VA = "0x56F2F70", Slot = "47")]
 	public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "43")]
+	[Address(RVA = "0x56F2F80", Offset = "0x56F1F80", VA = "0x56F2F80", Slot = "43")]
 	public override void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "42")]
+	[Address(RVA = "0x56F2F90", Offset = "0x56F1F90", VA = "0x56F2F90", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x1D5B910", Offset = "0x1D59F10", VA = "0x181D5B910")]
+	[Address(RVA = "0x56F2A90", Offset = "0x56F1A90", VA = "0x56F2A90")]
 	[Obsolete("do not call this.")]
 	public void UpdateTeams()
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Address(RVA = "0x56F3060", Offset = "0x56F2060", VA = "0x56F3060")]
 	public PunTeams()
 	{
 	}

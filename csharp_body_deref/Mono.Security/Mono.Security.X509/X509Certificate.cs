@@ -110,14 +110,14 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000029")]
 	public DSA DSA
 	{
-		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x1925AE0", Offset = "0x19240E0", VA = "0x181925AE0")]
+		[Token(Token = "0x6000084")]
+		[Address(RVA = "0x52B36B0", Offset = "0x52B26B0", VA = "0x52B36B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x1926AC0", Offset = "0x19250C0", VA = "0x181926AC0")]
+		[Token(Token = "0x6000085")]
+		[Address(RVA = "0x52BDC60", Offset = "0x52BCC60", VA = "0x52BDC60")]
 		set
 		{
 		}
@@ -126,8 +126,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002A")]
 	public X509ExtensionCollection Extensions
 	{
-		[Token(Token = "0x6000092")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Token(Token = "0x6000086")]
+		[Address(RVA = "0x52BDCB0", Offset = "0x52BCCB0", VA = "0x52BDCB0")]
 		get
 		{
 			return null;
@@ -137,8 +137,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002B")]
 	public byte[] Hash
 	{
-		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x1925E80", Offset = "0x1924480", VA = "0x181925E80")]
+		[Token(Token = "0x6000087")]
+		[Address(RVA = "0x52BDCC0", Offset = "0x52BCCC0", VA = "0x52BDCC0")]
 		get
 		{
 			return null;
@@ -148,8 +148,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002C")]
 	public virtual string IssuerName
 	{
-		[Token(Token = "0x6000094")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "5")]
+		[Token(Token = "0x6000088")]
+		[Address(RVA = "0x52BDF40", Offset = "0x52BCF40", VA = "0x52BDF40", Slot = "5")]
 		get
 		{
 			return null;
@@ -159,8 +159,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002D")]
 	public virtual string KeyAlgorithm
 	{
-		[Token(Token = "0x6000095")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "6")]
+		[Token(Token = "0x6000089")]
+		[Address(RVA = "0x52BDF50", Offset = "0x52BCF50", VA = "0x52BDF50", Slot = "6")]
 		get
 		{
 			return null;
@@ -170,14 +170,14 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002E")]
 	public virtual byte[] KeyAlgorithmParameters
 	{
-		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x1926250", Offset = "0x1924850", VA = "0x181926250", Slot = "7")]
+		[Token(Token = "0x600008A")]
+		[Address(RVA = "0x52BDF60", Offset = "0x52BCF60", VA = "0x52BDF60", Slot = "7")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000097")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10", Slot = "8")]
+		[Token(Token = "0x600008B")]
+		[Address(RVA = "0x52BDFD0", Offset = "0x52BCFD0", VA = "0x52BDFD0", Slot = "8")]
 		set
 		{
 		}
@@ -186,8 +186,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x1700002F")]
 	public virtual byte[] PublicKey
 	{
-		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x19262D0", Offset = "0x19248D0", VA = "0x1819262D0", Slot = "9")]
+		[Token(Token = "0x600008C")]
+		[Address(RVA = "0x52BDFE0", Offset = "0x52BCFE0", VA = "0x52BDFE0", Slot = "9")]
 		get
 		{
 			return null;
@@ -197,14 +197,14 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000030")]
 	public virtual RSA RSA
 	{
-		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x1926350", Offset = "0x1924950", VA = "0x181926350", Slot = "10")]
+		[Token(Token = "0x600008D")]
+		[Address(RVA = "0x52BE050", Offset = "0x52BD050", VA = "0x52BE050", Slot = "10")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x1926B10", Offset = "0x1925110", VA = "0x181926B10", Slot = "11")]
+		[Token(Token = "0x600008E")]
+		[Address(RVA = "0x52BE230", Offset = "0x52BD230", VA = "0x52BE230", Slot = "11")]
 		set
 		{
 		}
@@ -213,8 +213,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000031")]
 	public virtual byte[] RawData
 	{
-		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x1926580", Offset = "0x1924B80", VA = "0x181926580", Slot = "12")]
+		[Token(Token = "0x600008F")]
+		[Address(RVA = "0x52BE280", Offset = "0x52BD280", VA = "0x52BE280", Slot = "12")]
 		get
 		{
 			return null;
@@ -224,8 +224,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000032")]
 	public virtual byte[] SerialNumber
 	{
-		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x1926600", Offset = "0x1924C00", VA = "0x181926600", Slot = "13")]
+		[Token(Token = "0x6000090")]
+		[Address(RVA = "0x52BE2F0", Offset = "0x52BD2F0", VA = "0x52BE2F0", Slot = "13")]
 		get
 		{
 			return null;
@@ -235,8 +235,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000033")]
 	public virtual byte[] Signature
 	{
-		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x1926690", Offset = "0x1924C90", VA = "0x181926690", Slot = "14")]
+		[Token(Token = "0x6000091")]
+		[Address(RVA = "0x52BE370", Offset = "0x52BD370", VA = "0x52BE370", Slot = "14")]
 		get
 		{
 			return null;
@@ -246,8 +246,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000034")]
 	public virtual string SubjectName
 	{
-		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570", Slot = "15")]
+		[Token(Token = "0x6000092")]
+		[Address(RVA = "0x52BE760", Offset = "0x52BD760", VA = "0x52BE760", Slot = "15")]
 		get
 		{
 			return null;
@@ -257,8 +257,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000035")]
 	public virtual DateTime ValidFrom
 	{
-		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "16")]
+		[Token(Token = "0x6000093")]
+		[Address(RVA = "0x52BE770", Offset = "0x52BD770", VA = "0x52BE770", Slot = "16")]
 		get
 		{
 			return default(DateTime);
@@ -268,8 +268,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000036")]
 	public virtual DateTime ValidUntil
 	{
-		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "17")]
+		[Token(Token = "0x6000094")]
+		[Address(RVA = "0x52BE780", Offset = "0x52BD780", VA = "0x52BE780", Slot = "17")]
 		get
 		{
 			return default(DateTime);
@@ -279,8 +279,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000037")]
 	public int Version
 	{
-		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0xB5B9F0", Offset = "0xB59FF0", VA = "0x180B5B9F0")]
+		[Token(Token = "0x6000095")]
+		[Address(RVA = "0x52BE790", Offset = "0x52BD790", VA = "0x52BE790")]
 		get
 		{
 			return default(int);
@@ -290,8 +290,8 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000038")]
 	public bool IsCurrent
 	{
-		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x19260C0", Offset = "0x19246C0", VA = "0x1819260C0")]
+		[Token(Token = "0x6000096")]
+		[Address(RVA = "0x52BE7A0", Offset = "0x52BD7A0", VA = "0x52BE7A0")]
 		get
 		{
 			return default(bool);
@@ -301,69 +301,69 @@ public class X509Certificate : ISerializable
 	[Token(Token = "0x17000039")]
 	public bool IsSelfSigned
 	{
-		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x19261C0", Offset = "0x19247C0", VA = "0x1819261C0")]
+		[Token(Token = "0x600009B")]
+		[Address(RVA = "0x52BEBE0", Offset = "0x52BDBE0", VA = "0x52BEBE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x1924A20", Offset = "0x1923020", VA = "0x181924A20")]
+	[Token(Token = "0x6000081")]
+	[Address(RVA = "0x52BCD60", Offset = "0x52BBD60", VA = "0x52BCD60")]
 	private void Parse(byte[] data)
 	{
 	}
 
-	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x19258B0", Offset = "0x1923EB0", VA = "0x1819258B0")]
+	[Token(Token = "0x6000082")]
+	[Address(RVA = "0x52AEC00", Offset = "0x52ADC00", VA = "0x52AEC00")]
 	public X509Certificate(byte[] data)
 	{
 	}
 
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x1924860", Offset = "0x1922E60", VA = "0x181924860")]
+	[Token(Token = "0x6000083")]
+	[Address(RVA = "0x52BDBE0", Offset = "0x52BCBE0", VA = "0x52BDBE0")]
 	private byte[] GetUnsignedBigInteger(byte[] integer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x1925780", Offset = "0x1923D80", VA = "0x181925780")]
+	[Token(Token = "0x6000097")]
+	[Address(RVA = "0x52BE7F0", Offset = "0x52BD7F0", VA = "0x52BE7F0")]
 	public bool WasCurrent(DateTime instant)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x19256B0", Offset = "0x1923CB0", VA = "0x1819256B0")]
+	[Token(Token = "0x6000098")]
+	[Address(RVA = "0x52BE8B0", Offset = "0x52BD8B0", VA = "0x52BE8B0")]
 	internal bool VerifySignature(DSA dsa)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x1925590", Offset = "0x1923B90", VA = "0x181925590")]
+	[Token(Token = "0x6000099")]
+	[Address(RVA = "0x52BE970", Offset = "0x52BD970", VA = "0x52BE970")]
 	internal bool VerifySignature(RSA rsa)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x19253A0", Offset = "0x19239A0", VA = "0x1819253A0")]
+	[Token(Token = "0x600009A")]
+	[Address(RVA = "0x52BEA80", Offset = "0x52BDA80", VA = "0x52BEA80")]
 	public bool VerifySignature(AsymmetricAlgorithm aa)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x1924800", Offset = "0x1922E00", VA = "0x181924800", Slot = "18")]
+	[Token(Token = "0x600009C")]
+	[Address(RVA = "0x52BECF0", Offset = "0x52BDCF0", VA = "0x52BECF0", Slot = "18")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x1924900", Offset = "0x1922F00", VA = "0x181924900")]
+	[Token(Token = "0x600009D")]
+	[Address(RVA = "0x52BDAD0", Offset = "0x52BCAD0", VA = "0x52BDAD0")]
 	private static byte[] PEM(string type, byte[] data)
 	{
 		return null;

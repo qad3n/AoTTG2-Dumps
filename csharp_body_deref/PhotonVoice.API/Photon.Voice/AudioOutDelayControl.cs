@@ -40,7 +40,7 @@ public class AudioOutDelayControl
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5703E50", Offset = "0x5702E50", VA = "0x5703E50")]
 	public AudioOutDelayControl()
 	{
 	}

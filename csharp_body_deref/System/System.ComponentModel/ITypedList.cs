@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001B0")]
+[Token(Token = "0x2000171")]
 public interface ITypedList
 {
-	[Token(Token = "0x6000AF9")]
+	[Token(Token = "0x6000939")]
 	string GetListName(PropertyDescriptor[] listAccessors);
 
-	[Token(Token = "0x6000AFA")]
+	[Token(Token = "0x600093A")]
 	PropertyDescriptorCollection GetItemProperties(PropertyDescriptor[] listAccessors);
 }

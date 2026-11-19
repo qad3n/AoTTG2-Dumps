@@ -15,19 +15,19 @@ namespace System.Data;
 public class DuplicateNameException : DataException
 {
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BBF0", Offset = "0x5E6ABF0", VA = "0x5E6BBF0")]
 	protected DuplicateNameException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x24D4AB0", Offset = "0x24D30B0", VA = "0x1824D4AB0")]
+	[Address(RVA = "0x5E6BC00", Offset = "0x5E6AC00", VA = "0x5E6BC00")]
 	public DuplicateNameException()
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x24D4A90", Offset = "0x24D3090", VA = "0x1824D4A90")]
+	[Address(RVA = "0x5E6BC40", Offset = "0x5E6AC40", VA = "0x5E6BC40")]
 	public DuplicateNameException(string s)
 	{
 	}

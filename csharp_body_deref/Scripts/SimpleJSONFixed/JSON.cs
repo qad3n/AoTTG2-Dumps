@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace SimpleJSONFixed;
 
-[Token(Token = "0x2000057")]
+[Token(Token = "0x2000056")]
 public static class JSON
 {
-	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x1DC70F0", Offset = "0x1DC56F0", VA = "0x181DC70F0")]
+	[Token(Token = "0x60002D6")]
+	[Address(RVA = "0x576B090", Offset = "0x576A090", VA = "0x576B090")]
 	public static JSONNode Parse(string aJSON)
 	{
 		return null;

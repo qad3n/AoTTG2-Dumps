@@ -16,41 +16,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncApplicationQuitTrigger : AsyncTriggerBase<AsyncUnit>
 {
 	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x2928EC0", Offset = "0x29274C0", VA = "0x182928EC0")]
+	[Address(RVA = "0x62F7BC0", Offset = "0x62F6BC0", VA = "0x62F7BC0")]
 	private void OnApplicationQuit()
 	{
 	}
 
 	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0x2928BB0", Offset = "0x29271B0", VA = "0x182928BB0")]
+	[Address(RVA = "0x62F7C30", Offset = "0x62F6C30", VA = "0x62F7C30")]
 	public IAsyncOnApplicationQuitHandler GetOnApplicationQuitAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x2928C20", Offset = "0x2927220", VA = "0x182928C20")]
+	[Address(RVA = "0x62F7CA0", Offset = "0x62F6CA0", VA = "0x62F7CA0")]
 	public IAsyncOnApplicationQuitHandler GetOnApplicationQuitAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x2928CA0", Offset = "0x29272A0", VA = "0x182928CA0")]
+	[Address(RVA = "0x62F7D10", Offset = "0x62F6D10", VA = "0x62F7D10")]
 	public UniTask OnApplicationQuitAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x2928DB0", Offset = "0x29273B0", VA = "0x182928DB0")]
+	[Address(RVA = "0x62F7E00", Offset = "0x62F6E00", VA = "0x62F7E00")]
 	public UniTask OnApplicationQuitAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000AB6")]
-	[Address(RVA = "0x2928F30", Offset = "0x2927530", VA = "0x182928F30")]
+	[Address(RVA = "0x62F7EF0", Offset = "0x62F6EF0", VA = "0x62F7EF0")]
 	public AsyncApplicationQuitTrigger()
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000620")]
+[Token(Token = "0x20005FB")]
 public interface IEnumerator<out T> : IDisposable, IEnumerator
 {
-	[Token(Token = "0x170007AE")]
+	[Token(Token = "0x170007AD")]
 	new T Current
 	{
-		[Token(Token = "0x6002F17")]
+		[Token(Token = "0x6002EF2")]
 		get;
 	}
 }

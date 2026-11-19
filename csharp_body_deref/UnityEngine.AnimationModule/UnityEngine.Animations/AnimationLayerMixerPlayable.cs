@@ -15,11 +15,11 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Animations;
 
 [Token(Token = "0x2000022")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationLayerMixerPlayable.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationLayerMixerPlayable.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationLayerMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationLayerMixerPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationLayerMixerPlayable.bindings.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationLayerMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 public struct AnimationLayerMixerPlayable : IEquatable<AnimationLayerMixerPlayable>
 {
 	[Token(Token = "0x4000058")]
@@ -31,20 +31,20 @@ public struct AnimationLayerMixerPlayable : IEquatable<AnimationLayerMixerPlayab
 	private static readonly AnimationLayerMixerPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2EAB620", Offset = "0x2EA9C20", VA = "0x182EAB620")]
+	[Address(RVA = "0x68AC380", Offset = "0x68AB380", VA = "0x68AC380")]
 	internal AnimationLayerMixerPlayable(PlayableHandle handle, bool singleLayerOptimization = true)
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Address(RVA = "0x68AC500", Offset = "0x68AB500", VA = "0x68AC500", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x2EAB4A0", Offset = "0x2EA9AA0", VA = "0x182EAB4A0", Slot = "4")]
+	[Address(RVA = "0x68AC510", Offset = "0x68AB510", VA = "0x68AC510", Slot = "4")]
 	public bool Equals(AnimationLayerMixerPlayable other)
 	{
 		return default(bool);
@@ -52,7 +52,7 @@ public struct AnimationLayerMixerPlayable : IEquatable<AnimationLayerMixerPlayab
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x2EAB540", Offset = "0x2EA9B40", VA = "0x182EAB540")]
+	[Address(RVA = "0x68AC4C0", Offset = "0x68AB4C0", VA = "0x68AC4C0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private static extern void SetSingleLayerOptimizationInternal(ref PlayableHandle handle, bool value);
 }

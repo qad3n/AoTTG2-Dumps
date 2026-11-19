@@ -9,61 +9,61 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000231")]
+[Token(Token = "0x2000232")]
 internal sealed class TypeIsInstruction : Instruction
 {
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x4000412")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _type;
 
-	[Token(Token = "0x17000237")]
+	[Token(Token = "0x17000239")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000AE9")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000AF4")]
+		[Address(RVA = "0x5E19E40", Offset = "0x5E18E40", VA = "0x5E19E40", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000238")]
+	[Token(Token = "0x1700023A")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000AEA")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000AF5")]
+		[Address(RVA = "0x5E19E50", Offset = "0x5E18E50", VA = "0x5E19E50", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000239")]
+	[Token(Token = "0x1700023B")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000AEB")]
-		[Address(RVA = "0x24818A0", Offset = "0x247FEA0", VA = "0x1824818A0", Slot = "9")]
+		[Token(Token = "0x6000AF6")]
+		[Address(RVA = "0x5E19E60", Offset = "0x5E18E60", VA = "0x5E19E60", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AE8")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6000AF3")]
+	[Address(RVA = "0x5E19E10", Offset = "0x5E18E10", VA = "0x5E19E10")]
 	internal TypeIsInstruction(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000AEC")]
-	[Address(RVA = "0x24817E0", Offset = "0x247FDE0", VA = "0x1824817E0", Slot = "8")]
+	[Token(Token = "0x6000AF7")]
+	[Address(RVA = "0x5E19E90", Offset = "0x5E18E90", VA = "0x5E19E90", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AED")]
-	[Address(RVA = "0x2481840", Offset = "0x247FE40", VA = "0x182481840", Slot = "3")]
+	[Token(Token = "0x6000AF8")]
+	[Address(RVA = "0x5E19EF0", Offset = "0x5E18EF0", VA = "0x5E19EF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000324")]
+[Token(Token = "0x2000386")]
 public enum AutofillType
 {
-	[Token(Token = "0x4001024")]
+	[Token(Token = "0x40011CA")]
 	None,
-	[Token(Token = "0x4001025")]
+	[Token(Token = "0x40011CB")]
 	PlayerID,
-	[Token(Token = "0x4001026")]
+	[Token(Token = "0x40011CC")]
 	PlayerIDList
 }

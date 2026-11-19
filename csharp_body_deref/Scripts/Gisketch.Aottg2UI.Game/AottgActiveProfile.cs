@@ -10,113 +10,113 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000288")]
+[Token(Token = "0x20002E4")]
 internal static class AottgActiveProfile
 {
-	[Token(Token = "0x170001BC")]
+	[Token(Token = "0x170001F9")]
 	public static bool UsesRemote
 	{
-		[Token(Token = "0x6000F39")]
-		[Address(RVA = "0x1DD7D90", Offset = "0x1DD6390", VA = "0x181DD7D90")]
+		[Token(Token = "0x6001187")]
+		[Address(RVA = "0x57D5340", Offset = "0x57D4340", VA = "0x57D5340")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000F3A")]
-	[Address(RVA = "0x1DD76D0", Offset = "0x1DD5CD0", VA = "0x181DD76D0")]
+	[Token(Token = "0x6001188")]
+	[Address(RVA = "0x57D53A0", Offset = "0x57D43A0", VA = "0x57D53A0")]
 	public static string PlayerName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F3B")]
-	[Address(RVA = "0x1DD70E0", Offset = "0x1DD56E0", VA = "0x181DD70E0")]
+	[Token(Token = "0x6001189")]
+	[Address(RVA = "0x57D5530", Offset = "0x57D4530", VA = "0x57D5530")]
 	public static string CharacterName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F3C")]
-	[Address(RVA = "0x1DD6640", Offset = "0x1DD4C40", VA = "0x181DD6640")]
+	[Token(Token = "0x600118A")]
+	[Address(RVA = "0x57D57B0", Offset = "0x57D47B0", VA = "0x57D57B0")]
 	public static string AccountName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F3D")]
-	[Address(RVA = "0x1DD6760", Offset = "0x1DD4D60", VA = "0x181DD6760")]
+	[Token(Token = "0x600118B")]
+	[Address(RVA = "0x57D58D0", Offset = "0x57D48D0", VA = "0x57D58D0")]
 	public static string AuthHandle()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F3E")]
-	[Address(RVA = "0x1DD6880", Offset = "0x1DD4E80", VA = "0x181DD6880")]
+	[Token(Token = "0x600118C")]
+	[Address(RVA = "0x57D59F0", Offset = "0x57D49F0", VA = "0x57D59F0")]
 	public static string AvatarKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F3F")]
-	[Address(RVA = "0x1DD6B60", Offset = "0x1DD5160", VA = "0x181DD6B60")]
+	[Token(Token = "0x600118D")]
+	[Address(RVA = "0x57D5BD0", Offset = "0x57D4BD0", VA = "0x57D5BD0")]
 	public static string BannerKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F40")]
-	[Address(RVA = "0x1DD69E0", Offset = "0x1DD4FE0", VA = "0x181DD69E0")]
+	[Token(Token = "0x600118E")]
+	[Address(RVA = "0x57D5DB0", Offset = "0x57D4DB0", VA = "0x57D5DB0")]
 	public static string AvatarSprite()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F41")]
-	[Address(RVA = "0x1DD6CC0", Offset = "0x1DD52C0", VA = "0x181DD6CC0")]
+	[Token(Token = "0x600118F")]
+	[Address(RVA = "0x57D5DD0", Offset = "0x57D4DD0", VA = "0x57D5DD0")]
 	public static string BannerSprite()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F42")]
-	[Address(RVA = "0x1DD6E40", Offset = "0x1DD5440", VA = "0x181DD6E40")]
+	[Token(Token = "0x6001190")]
+	[Address(RVA = "0x57D5DF0", Offset = "0x57D4DF0", VA = "0x57D5DF0")]
 	public static string Bio()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F43")]
-	[Address(RVA = "0x1DD7280", Offset = "0x1DD5880", VA = "0x181DD7280")]
+	[Token(Token = "0x6001191")]
+	[Address(RVA = "0x57D5FA0", Offset = "0x57D4FA0", VA = "0x57D5FA0")]
 	public static string LocalBio()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F44")]
-	[Address(RVA = "0x1DD6F60", Offset = "0x1DD5560", VA = "0x181DD6F60")]
+	[Token(Token = "0x6001192")]
+	[Address(RVA = "0x57D6000", Offset = "0x57D5000", VA = "0x57D6000")]
 	public static bool CanImportLocalBio()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F45")]
-	[Address(RVA = "0x1DD7AD0", Offset = "0x1DD60D0", VA = "0x181DD7AD0")]
+	[Token(Token = "0x6001193")]
+	[Address(RVA = "0x57D61B0", Offset = "0x57D51B0", VA = "0x57D61B0")]
 	public static string[] SocialLinks()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x1DD72F0", Offset = "0x1DD58F0", VA = "0x181DD72F0")]
+	[Token(Token = "0x6001194")]
+	[Address(RVA = "0x57D64D0", Offset = "0x57D54D0", VA = "0x57D64D0")]
 	public static List<string> LocalSocialLinks()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F47")]
-	[Address(RVA = "0x1DD7850", Offset = "0x1DD5E50", VA = "0x181DD7850")]
+	[Token(Token = "0x6001195")]
+	[Address(RVA = "0x57D6B30", Offset = "0x57D5B30", VA = "0x57D6B30")]
 	public static string SerializeSocialLinks(IEnumerable<string> links)
 	{
 		return null;

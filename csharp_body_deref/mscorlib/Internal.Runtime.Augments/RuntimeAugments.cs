@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace Internal.Runtime.Augments;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x2000062")]
 internal class RuntimeAugments
 {
-	[Token(Token = "0x4000244")]
+	[Token(Token = "0x4000195")]
 	[FieldOffset(Offset = "0x0")]
 	private static Internal.Runtime.Augments.ReflectionExecutionDomainCallbacks s_reflectionExecutionDomainCallbacks;
 
 	[Token(Token = "0x1700003B")]
 	internal static Internal.Runtime.Augments.ReflectionExecutionDomainCallbacks Callbacks
 	{
-		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x1967940", Offset = "0x1965F40", VA = "0x181967940")]
+		[Token(Token = "0x600022D")]
+		[Address(RVA = "0x52FE2F0", Offset = "0x52FD2F0", VA = "0x52FE2F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000269")]
-	[Address(RVA = "0x1967890", Offset = "0x1965E90", VA = "0x181967890")]
+	[Token(Token = "0x600022C")]
+	[Address(RVA = "0x52FE2D0", Offset = "0x52FD2D0", VA = "0x52FE2D0")]
 	public static void ReportUnhandledException(Exception exception)
 	{
 	}

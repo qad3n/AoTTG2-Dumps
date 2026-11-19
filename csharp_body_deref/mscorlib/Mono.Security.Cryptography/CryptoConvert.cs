@@ -10,130 +10,130 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Cryptography;
 
-[Token(Token = "0x2000060")]
+[Token(Token = "0x2000042")]
 internal sealed class CryptoConvert
 {
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x1944740", Offset = "0x1942D40", VA = "0x181944740")]
+	[Token(Token = "0x6000119")]
+	[Address(RVA = "0x52E8A40", Offset = "0x52E7A40", VA = "0x52E8A40")]
 	private static int ToInt32LE(byte[] bytes, int offset)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x1944740", Offset = "0x1942D40", VA = "0x181944740")]
+	[Token(Token = "0x600011A")]
+	[Address(RVA = "0x52E8AA0", Offset = "0x52E7AA0", VA = "0x52E8AA0")]
 	private static uint ToUInt32LE(byte[] bytes, int offset)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x1942D60", Offset = "0x1941360", VA = "0x181942D60")]
+	[Token(Token = "0x600011B")]
+	[Address(RVA = "0x52E8B00", Offset = "0x52E7B00", VA = "0x52E8B00")]
 	private static byte[] GetBytesLE(int val)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x19447C0", Offset = "0x1942DC0", VA = "0x1819447C0")]
+	[Token(Token = "0x600011C")]
+	[Address(RVA = "0x52E8B70", Offset = "0x52E7B70", VA = "0x52E8B70")]
 	private static byte[] Trim(byte[] array)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x19425B0", Offset = "0x1940BB0", VA = "0x1819425B0")]
+	[Token(Token = "0x600011D")]
+	[Address(RVA = "0x52E8C00", Offset = "0x52E7C00", VA = "0x52E8C00")]
 	public static RSA FromCapiPrivateKeyBlob(byte[] blob, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x1942DF0", Offset = "0x19413F0", VA = "0x181942DF0")]
+	[Token(Token = "0x600011E")]
+	[Address(RVA = "0x52E8C80", Offset = "0x52E7C80", VA = "0x52E8C80")]
 	private static RSAParameters GetParametersFromCapiPrivateKeyBlob(byte[] blob, int offset)
 	{
 		return default(RSAParameters);
 	}
 
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x1941FF0", Offset = "0x19405F0", VA = "0x181941FF0")]
+	[Token(Token = "0x600011F")]
+	[Address(RVA = "0x52E92D0", Offset = "0x52E82D0", VA = "0x52E92D0")]
 	public static DSA FromCapiPrivateKeyBlobDSA(byte[] blob, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x1943D80", Offset = "0x1942380", VA = "0x181943D80")]
+	[Token(Token = "0x6000120")]
+	[Address(RVA = "0x52E9870", Offset = "0x52E8870", VA = "0x52E9870")]
 	public static byte[] ToCapiPrivateKeyBlob(RSA rsa)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x1943A30", Offset = "0x1942030", VA = "0x181943A30")]
+	[Token(Token = "0x6000121")]
+	[Address(RVA = "0x52E9C50", Offset = "0x52E8C50", VA = "0x52E9C50")]
 	public static byte[] ToCapiPrivateKeyBlob(DSA dsa)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x1942C40", Offset = "0x1941240", VA = "0x181942C40")]
+	[Token(Token = "0x6000122")]
+	[Address(RVA = "0x52E9F40", Offset = "0x52E8F40", VA = "0x52E9F40")]
 	public static RSA FromCapiPublicKeyBlob(byte[] blob, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x1943560", Offset = "0x1941B60", VA = "0x181943560")]
+	[Token(Token = "0x6000123")]
+	[Address(RVA = "0x52EA080", Offset = "0x52E9080", VA = "0x52EA080")]
 	private static RSAParameters GetParametersFromCapiPublicKeyBlob(byte[] blob, int offset)
 	{
 		return default(RSAParameters);
 	}
 
-	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x1942660", Offset = "0x1940C60", VA = "0x181942660")]
+	[Token(Token = "0x6000124")]
+	[Address(RVA = "0x52EA550", Offset = "0x52E9550", VA = "0x52EA550")]
 	public static DSA FromCapiPublicKeyBlobDSA(byte[] blob, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x1944510", Offset = "0x1942B10", VA = "0x181944510")]
+	[Token(Token = "0x6000125")]
+	[Address(RVA = "0x52EAB00", Offset = "0x52E9B00", VA = "0x52EAB00")]
 	public static byte[] ToCapiPublicKeyBlob(RSA rsa)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x19441B0", Offset = "0x19427B0", VA = "0x1819441B0")]
+	[Token(Token = "0x6000126")]
+	[Address(RVA = "0x52EAD10", Offset = "0x52E9D10", VA = "0x52EAD10")]
 	public static byte[] ToCapiPublicKeyBlob(DSA dsa)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x1941DE0", Offset = "0x19403E0", VA = "0x181941DE0")]
+	[Token(Token = "0x6000127")]
+	[Address(RVA = "0x52EB020", Offset = "0x52EA020", VA = "0x52EB020")]
 	public static RSA FromCapiKeyBlob(byte[] blob)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x1941DF0", Offset = "0x19403F0", VA = "0x181941DF0")]
+	[Token(Token = "0x6000128")]
+	[Address(RVA = "0x52EB030", Offset = "0x52EA030", VA = "0x52EB030")]
 	public static RSA FromCapiKeyBlob(byte[] blob, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x1941B80", Offset = "0x1940180", VA = "0x181941B80")]
+	[Token(Token = "0x6000129")]
+	[Address(RVA = "0x52EB1C0", Offset = "0x52EA1C0", VA = "0x52EB1C0")]
 	public static DSA FromCapiKeyBlobDSA(byte[] blob)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x1941CB0", Offset = "0x19402B0", VA = "0x181941CB0")]
+	[Token(Token = "0x600012A")]
+	[Address(RVA = "0x52EB1D0", Offset = "0x52EA1D0", VA = "0x52EB1D0")]
 	public static DSA FromCapiKeyBlobDSA(byte[] blob, int offset)
 	{
 		return null;

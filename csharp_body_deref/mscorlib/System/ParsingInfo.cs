@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000EA")]
+[Token(Token = "0x20000C2")]
 internal struct ParsingInfo
 {
-	[Token(Token = "0x4000394")]
+	[Token(Token = "0x40002EF")]
 	[FieldOffset(Offset = "0x0")]
 	internal Calendar calendar;
 
-	[Token(Token = "0x4000395")]
+	[Token(Token = "0x40002F0")]
 	[FieldOffset(Offset = "0x8")]
 	internal int dayOfWeek;
 
-	[Token(Token = "0x4000396")]
+	[Token(Token = "0x40002F1")]
 	[FieldOffset(Offset = "0xC")]
 	internal System.DateTimeParse.TM timeMark;
 
-	[Token(Token = "0x4000397")]
+	[Token(Token = "0x40002F2")]
 	[FieldOffset(Offset = "0x10")]
 	internal bool fUseHour12;
 
-	[Token(Token = "0x4000398")]
+	[Token(Token = "0x40002F3")]
 	[FieldOffset(Offset = "0x11")]
 	internal bool fUseTwoDigitYear;
 
-	[Token(Token = "0x4000399")]
+	[Token(Token = "0x40002F4")]
 	[FieldOffset(Offset = "0x12")]
 	internal bool fAllowInnerWhite;
 
-	[Token(Token = "0x400039A")]
+	[Token(Token = "0x40002F5")]
 	[FieldOffset(Offset = "0x13")]
 	internal bool fAllowTrailingWhite;
 
-	[Token(Token = "0x400039B")]
+	[Token(Token = "0x40002F6")]
 	[FieldOffset(Offset = "0x14")]
 	internal bool fCustomNumberParser;
 
-	[Token(Token = "0x400039C")]
+	[Token(Token = "0x40002F7")]
 	[FieldOffset(Offset = "0x18")]
 	internal System.DateTimeParse.MatchNumberDelegate parseNumberDelegate;
 
-	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x1B3BE20", Offset = "0x1B3A420", VA = "0x181B3BE20")]
+	[Token(Token = "0x600075D")]
+	[Address(RVA = "0x54B1780", Offset = "0x54B0780", VA = "0x54B1780")]
 	internal void Init()
 	{
 	}

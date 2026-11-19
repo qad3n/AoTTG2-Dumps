@@ -17,7 +17,7 @@ namespace Gilzoide.FlexUi;
 public class NoAutoAttribute : Attribute
 {
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5216980", Offset = "0x5215980", VA = "0x5216980")]
 	public NoAutoAttribute()
 	{
 	}

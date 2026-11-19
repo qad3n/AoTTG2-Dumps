@@ -30,7 +30,7 @@ public class LocalVoiceAudioDummy : LocalVoice, ILocalVoiceAudio
 	public AudioUtil.IVoiceDetector VoiceDetector
 	{
 		[Token(Token = "0x6000240")]
-		[Address(RVA = "0xB5B620", Offset = "0xB59C20", VA = "0x180B5B620", Slot = "7")]
+		[Address(RVA = "0x57113B0", Offset = "0x57103B0", VA = "0x57113B0", Slot = "7")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ public class LocalVoiceAudioDummy : LocalVoice, ILocalVoiceAudio
 	public AudioUtil.ILevelMeter LevelMeter
 	{
 		[Token(Token = "0x6000241")]
-		[Address(RVA = "0x1BD4F90", Offset = "0x1BD3590", VA = "0x181BD4F90", Slot = "8")]
+		[Address(RVA = "0x57113C0", Offset = "0x57103C0", VA = "0x57113C0", Slot = "8")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public class LocalVoiceAudioDummy : LocalVoice, ILocalVoiceAudio
 	public bool VoiceDetectorCalibrating
 	{
 		[Token(Token = "0x6000242")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Address(RVA = "0x57113D0", Offset = "0x57103D0", VA = "0x57113D0", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -60,13 +60,13 @@ public class LocalVoiceAudioDummy : LocalVoice, ILocalVoiceAudio
 	}
 
 	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Address(RVA = "0x57113E0", Offset = "0x57103E0", VA = "0x57113E0", Slot = "10")]
 	public void VoiceDetectorCalibrate(int durationMs, [Optional] Action<float> onCalibrated)
 	{
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x1D6BF20", Offset = "0x1D6A520", VA = "0x181D6BF20")]
+	[Address(RVA = "0x57113F0", Offset = "0x57103F0", VA = "0x57113F0")]
 	public LocalVoiceAudioDummy()
 	{
 	}

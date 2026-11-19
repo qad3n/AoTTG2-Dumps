@@ -25,7 +25,7 @@ internal struct MatchResultInfo
 	public readonly PseudoStates dependencyPseudoMask;
 
 	[Token(Token = "0x6002D8E")]
-	[Address(RVA = "0x31ED190", Offset = "0x31EB790", VA = "0x1831ED190")]
+	[Address(RVA = "0x6BF56A0", Offset = "0x6BF46A0", VA = "0x6BF56A0")]
 	public MatchResultInfo(bool success, PseudoStates triggerPseudoMask, PseudoStates dependencyPseudoMask)
 	{
 	}

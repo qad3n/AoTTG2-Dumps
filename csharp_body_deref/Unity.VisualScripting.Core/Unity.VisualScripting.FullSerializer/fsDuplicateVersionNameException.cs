@@ -14,7 +14,7 @@ namespace Unity.VisualScripting.FullSerializer;
 public sealed class fsDuplicateVersionNameException : Exception
 {
 	[Token(Token = "0x6001274")]
-	[Address(RVA = "0x2E62610", Offset = "0x2E60C10", VA = "0x182E62610")]
+	[Address(RVA = "0x6864FE0", Offset = "0x6863FE0", VA = "0x6864FE0")]
 	public fsDuplicateVersionNameException(Type typeA, Type typeB, string version)
 	{
 	}

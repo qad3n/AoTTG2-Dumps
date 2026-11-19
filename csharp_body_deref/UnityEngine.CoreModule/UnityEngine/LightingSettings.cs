@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000C1")]
+[Token(Token = "0x20000B7")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/LightingSettings.h")]
 [UnityEngine.Bindings.PreventReadOnlyInstanceModification]
 public sealed class LightingSettings : Object
 {
-	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Token(Token = "0x600036B")]
+	[Address(RVA = "0x68C9140", Offset = "0x68C8140", VA = "0x68C9140")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void LightingSettingsDontStripMe()
 	{

@@ -1,64 +1,82 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgSettingsSearchContext.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* screenTitle, System_String_o* categoryId, System_String_o* categoryTitle, System_String_o* groupId, System_String_o* groupTitle, const MethodInfo* method);
-// 0x182393430
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18239346f: mov rax, qword ptr [rip + 0x1cfe59a]  ; "Settings"
-// asm:   0x182393476: jmp 0x182393482
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* categoryId, System_String_o* categoryTitle, const MethodInfo* method);
+// 0x5e3aeb0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor
+               (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *__this,
+               System_String_o *categoryId,System_String_o *categoryTitle,MethodInfo *method)
+
+{
+  System_String_o *pSVar1;
+  MethodInfo *method_00;
+  MethodInfo *in_stack_ffffffffffffffd8;
+  
+  if (Il2CppMethodInitialized_07548630 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+    il2cpp_codegen_initialize_runtime_metadata(&"Common.Settings");
+    Il2CppMethodInitialized_07548630 = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+  }
+  method_00 = (MethodInfo *)0x0;
+  pSVar1 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text("Common.Settings",(MethodInfo *)0x0);
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase(pSVar1,method_00);
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor_5d4b400
+            (__this,pSVar1,categoryId,categoryTitle,(System_String_o *)0x0,(System_String_o *)0x0,
+             in_stack_ffffffffffffffd8);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* screenTitle, System_String_o* categoryId, System_String_o* categoryTitle, System_String_o* groupId, System_String_o* groupTitle, const MethodInfo* method);
+// 0x5e4b400
+
+void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor_5d4b400
                (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *__this,
                System_String_o *screenTitle,System_String_o *categoryId,System_String_o *categoryTitle,
                System_String_o *groupId,System_String_o *groupTitle,MethodInfo *method)
 
 {
-  bool bVar1;
-  System_String_o *pSVar2;
+  System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_184347b10 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&"Settings");
-    Il2CppMethodInitialized_184347b10 = '\x01';
-  }
-  bVar1 = System_String__IsNullOrEmpty(screenTitle,(MethodInfo *)0x0);
-  pSVar2 = "Settings";
-  if (!bVar1) {
-    pSVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
-                       (screenTitle,(MethodInfo *)0x0);
-  }
-  (__this->fields).ScreenTitle = pSVar2;
-  Il2CppCodeGenWriteBarrier((void **)__this,pSVar2);
+  (__this->fields).ScreenTitle = screenTitle;
+  Il2CppCodeGenWriteBarrier((void **)__this);
   if (categoryId == (System_String_o *)0x0) {
-    categoryId = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    categoryId = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
   (__this->fields).CategoryId = categoryId;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CategoryId,categoryId);
-  pSVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
-                     (categoryTitle,(MethodInfo *)0x0);
-  (__this->fields).CategoryTitle = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CategoryTitle,pSVar2);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CategoryId);
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
+                     (categoryTitle,(MethodInfo *)categoryId);
+  (__this->fields).CategoryTitle = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CategoryTitle);
   if (groupId == (System_String_o *)0x0) {
-    groupId = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    groupId = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
   (__this->fields).GroupId = groupId;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).GroupId,groupId);
-  pSVar2 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
-                     (groupTitle,(MethodInfo *)0x0);
-  (__this->fields).GroupTitle = pSVar2;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).GroupTitle,pSVar2);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).GroupId);
+  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
+                     (groupTitle,(MethodInfo *)groupId);
+  (__this->fields).GroupTitle = pSVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).GroupTitle);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$get_HasCategory
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_HasCategory (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, const MethodInfo* method);
-// 0x182393530
+// 0x5e4b4c0
 
 bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_HasCategory
                (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *__this,MethodInfo *method)
@@ -73,19 +91,22 @@ bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_HasCategor
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$get_SectionId
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionId (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, const MethodInfo* method);
-// 0x180adc170
+// 0x5e4b4d0
 
-System_String_o*
-Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionId(Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, MethodInfo* method)
+System_String_o *
+Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionId
+          (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields)._Value_k__BackingField;
+  return (__this->fields).CategoryId;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$get_SectionTitle
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionTitle (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, const MethodInfo* method);
-// 0x182393550
+// 0x5e4b4e0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e4b543: mov rbx, r14
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionTitle
@@ -96,23 +117,25 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionTitle
   System_String_o *pSVar2;
   System_String_o *value;
   
-  pSVar2 = (__this->fields).CategoryTitle;
-  value = (__this->fields).GroupTitle;
-  if (Il2CppMethodInitialized_184347b14 == '\0') {
+  value = (__this->fields).CategoryTitle;
+  pSVar2 = (__this->fields).GroupTitle;
+  if (Il2CppMethodInitialized_07548634 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&" > ");
-    Il2CppMethodInitialized_184347b14 = '\x01';
+    Il2CppMethodInitialized_07548634 = '\x01';
   }
-  bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-  if (!bVar1) {
-    bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-    if (bVar1) {
+  bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+  if (bVar1) {
+    value = pSVar2;
+    if (pSVar2 == (System_String_o *)0x0) {
+      value = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+    }
+  }
+  else {
+    bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+    if (!bVar1) {
+      pSVar2 = System_String__Concat_5301f10(value," > ",pSVar2,(MethodInfo *)0x0);
       return pSVar2;
     }
-    pSVar2 = System_String__Concat_1969b70(pSVar2," > ",value,(MethodInfo *)0x0);
-    return pSVar2;
-  }
-  if (value == (System_String_o *)0x0) {
-    value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
   return value;
 }
@@ -120,27 +143,46 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionTitle
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$get_GroupSearchTitle
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_GroupSearchTitle (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, const MethodInfo* method);
-// 0x182393520
+// 0x5e41850
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e418b3: mov rbx, r14
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_GroupSearchTitle
           (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
+  bool bVar1;
+  System_String_o *pSVar2;
+  System_String_o *value;
   
-  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__get_SectionTitle
-                     (__this,(MethodInfo *)0x0);
-  return pSVar1;
+  value = (__this->fields).CategoryTitle;
+  pSVar2 = (__this->fields).GroupTitle;
+  if (Il2CppMethodInitialized_07548634 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&" > ");
+    Il2CppMethodInitialized_07548634 = '\x01';
+  }
+  bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+  if (bVar1) {
+    value = pSVar2;
+    if (pSVar2 == (System_String_o *)0x0) {
+      value = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+    }
+  }
+  else {
+    bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+    if (!bVar1) {
+      pSVar2 = System_String__Concat_5301f10(value," > ",pSVar2,(MethodInfo *)0x0);
+      return pSVar2;
+    }
+  }
+  return value;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$ForGroup
 // il2cpp: Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__ForGroup (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* groupId, System_String_o* groupTitle, const MethodInfo* method);
-// 0x182392bd0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182392c2a: mov rax, qword ptr [rip + 0x1cfeddf]  ; "Settings"
-// asm:   0x182392c31: jmp 0x182392c3d
+// 0x5e41810
 
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__ForGroup
@@ -149,57 +191,29 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__ForGroup
           System_String_o *groupTitle,MethodInfo *method)
 
 {
-  System_String_o *value;
-  System_String_o *value_00;
-  System_String_o *pSVar1;
-  System_String_o *value_01;
-  bool bVar2;
+  System_String_o *screenTitle;
+  System_String_o *categoryId;
+  System_String_o *categoryTitle;
+  MethodInfo *in_stack_ffffffffffffffe8;
   
-  pSVar1 = (__this->fields).ScreenTitle;
-  value_01 = (__this->fields).CategoryId;
-  bVar2 = Il2CppMethodInitialized_184347b10 == '\0';
-  value = (__this->fields).CategoryTitle;
-  (__return_storage_ptr__->fields).ScreenTitle = (System_String_o *)0x0;
-  (__return_storage_ptr__->fields).CategoryId = (System_String_o *)0x0;
+  screenTitle = (__this->fields).ScreenTitle;
+  categoryId = (__this->fields).CategoryId;
+  categoryTitle = (__this->fields).CategoryTitle;
   (__return_storage_ptr__->fields).CategoryTitle = (System_String_o *)0x0;
   (__return_storage_ptr__->fields).GroupId = (System_String_o *)0x0;
+  (__return_storage_ptr__->fields).ScreenTitle = (System_String_o *)0x0;
+  (__return_storage_ptr__->fields).CategoryId = (System_String_o *)0x0;
   (__return_storage_ptr__->fields).GroupTitle = (System_String_o *)0x0;
-  if (bVar2) {
-    il2cpp_codegen_initialize_runtime_metadata(&"Settings");
-    Il2CppMethodInitialized_184347b10 = '\x01';
-  }
-  bVar2 = System_String__IsNullOrEmpty(pSVar1,(MethodInfo *)0x0);
-  value_00 = "Settings";
-  if (!bVar2) {
-    value_00 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
-                         (pSVar1,(MethodInfo *)0x0);
-  }
-  (__return_storage_ptr__->fields).ScreenTitle = value_00;
-  Il2CppCodeGenWriteBarrier((void **)__return_storage_ptr__,value_00);
-  if (value_01 == (System_String_o *)0x0) {
-    value_01 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  }
-  (__return_storage_ptr__->fields).CategoryId = value_01;
-  Il2CppCodeGenWriteBarrier(&(__return_storage_ptr__->fields).CategoryId,value_01);
-  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase(value,(MethodInfo *)0x0);
-  (__return_storage_ptr__->fields).CategoryTitle = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__return_storage_ptr__->fields).CategoryTitle,pSVar1);
-  if (groupId == (System_String_o *)0x0) {
-    groupId = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  }
-  (__return_storage_ptr__->fields).GroupId = groupId;
-  Il2CppCodeGenWriteBarrier(&(__return_storage_ptr__->fields).GroupId,groupId);
-  pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
-                     (groupTitle,(MethodInfo *)0x0);
-  (__return_storage_ptr__->fields).GroupTitle = pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__return_storage_ptr__->fields).GroupTitle,pSVar1);
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext___ctor_5d4b400
+            (__return_storage_ptr__,screenTitle,categoryId,categoryTitle,groupId,groupTitle,
+             in_stack_ffffffffffffffe8);
   return __return_storage_ptr__;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$Title
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Title (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* value, const MethodInfo* method);
-// 0x182393410
+// 0x5e4b600
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Title
@@ -207,16 +221,16 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Title
           MethodInfo *method)
 
 {
-  if (value != (System_String_o *)0x0) {
-    return value;
+  if (value == (System_String_o *)0x0) {
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
-  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  return value;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$Keywords
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Keywords (Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o __this, System_String_o* value, const MethodInfo* method);
-// 0x182393030
+// 0x5e418e0
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Keywords
@@ -224,185 +238,173 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__Keywords
           MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  bool bVar2;
-  int32_t iVar3;
-  Il2CppObject *pIVar4;
-  System_Runtime_Serialization_ObjectHolder_o *__this_00;
-  System_String_o *pSVar5;
-  uint uVar6;
+  System_String_array *parts;
+  System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_184347b11 == '\0') {
+  if (Il2CppMethodInitialized_07548631 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184347b11 = '\x01';
+    Il2CppMethodInitialized_07548631 = '\x01';
   }
-  pIVar4 = SZArrayNew(TypeInfo_string_array,4);
-  if (pIVar4 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar4[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)(__this->fields).ScreenTitle;
-      pIVar4[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar4[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar4[1].monitor) {
-        pSVar5 = (__this->fields).CategoryTitle;
-        pIVar4[2].monitor = pSVar5;
-        Il2CppCodeGenWriteBarrier(&pIVar4[2].monitor,pSVar5);
-        if (2 < *(uint *)&pIVar4[1].monitor) {
-          pIVar1 = (Il2CppClass *)(__this->fields).GroupTitle;
-          pIVar4[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar4[3].klass,pIVar1);
-          if (3 < *(uint *)&pIVar4[1].monitor) {
-            pIVar4[3].monitor = value;
-            Il2CppCodeGenWriteBarrier(&pIVar4[3].monitor,value);
-            if (Il2CppMethodInitialized_184347b15 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_StringBuilder);
-              Il2CppMethodInitialized_184347b15 = '\x01';
-            }
-            __this_00 = (System_Runtime_Serialization_ObjectHolder_o *)
-                        il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
-            System_Text_StringBuilder___ctor((System_Text_StringBuilder_o *)__this_00,(MethodInfo *)0x0);
-            for (uVar6 = 0; (int)uVar6 < *(int *)&pIVar4[1].monitor; uVar6 = uVar6 + 1) {
-              if (*(uint *)&pIVar4[1].monitor <= uVar6) goto label_1823931b1;
-              bVar2 = System_String__IsNullOrWhiteSpace
-                                ((System_String_o *)(&pIVar4[2].klass)[(int)uVar6],(MethodInfo *)0x0);
-              if (!bVar2) {
-                if (__this_00 == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_1823931ab;
-                iVar3 = System_Text_StringBuilder__get_Length
-                                  (__this_00,(MethodInfo *)0x0);
-                if (0 < iVar3) {
-                  System_Text_StringBuilder__Append_197e090
-                            ((System_Text_StringBuilder_o *)__this_00,0x20,(MethodInfo *)0x0);
-                }
-                if (*(uint *)&pIVar4[1].monitor <= uVar6) goto label_1823931b1;
-                System_Text_StringBuilder__Append_197dca0
-                          ((System_Text_StringBuilder_o *)__this_00,
-                           (System_String_o *)(&pIVar4[2].klass)[(int)uVar6],(MethodInfo *)0x0);
-              }
-            }
-            if (__this_00 != (System_Runtime_Serialization_ObjectHolder_o *)0x0) {
-              pSVar5 = (System_String_o *)
-                       (*(__this_00->klass->vtable)._3_ToString.methodPtr)
-                                 (__this_00,(__this_00->klass->vtable)._3_ToString.method);
-              return pSVar5;
-            }
-            goto label_1823931ab;
-          }
+  parts = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+  if (parts == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)parts->max_length != 0) {
+    parts->m_Items[0] = (__this->fields).ScreenTitle;
+    Il2CppCodeGenWriteBarrier(parts->m_Items);
+    if ((parts->max_length & 0xfffffffe) != 0) {
+      parts->m_Items[1] = (__this->fields).CategoryTitle;
+      Il2CppCodeGenWriteBarrier(parts->m_Items + 1);
+      if (2 < (uint)parts->max_length) {
+        parts->m_Items[2] = (__this->fields).GroupTitle;
+        Il2CppCodeGenWriteBarrier(parts->m_Items + 2);
+        if ((parts->max_length & 0xfffffffc) != 0) {
+          parts->m_Items[3] = value;
+          Il2CppCodeGenWriteBarrier(parts->m_Items + 3);
+          pSVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinWords
+                             (parts,(MethodInfo *)value);
+          return pSVar1;
         }
       }
     }
-label_1823931b1:
-    ThrowIndexOutOfRangeException();
   }
-label_1823931ab:
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$TitleCase
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase (System_String_o* value, const MethodInfo* method);
-// 0x1823931c0
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823932a1: mov rcx, rdi
-// asm:   0x1823932a4: jmp 0x1823932b2
-// asm:   0x1823932a6: test rbx, rbx
-// asm:   0x1823932af: mov rcx, rbx
-// asm:   0x182393395: mov rdx, rbp
+// 0x5e4b180
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e4b249: nop dword ptr [rax]
+// asm:   0x5e4b2a6: jmp 0x5e4b36c
+// asm:   0x5e4b31e: nop 
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__TitleCase
           (System_String_o *value,MethodInfo *method)
 
 {
-  System_Runtime_Serialization_ObjectHolder_o *__this;
   bool bVar1;
   uint16_t uVar2;
-  System_Runtime_Serialization_ObjectHolder_o *__this_00;
-  System_Runtime_Serialization_ObjectHolder_o *__this_01;
+  System_Text_StringBuilder_o *__this;
+  System_Text_StringBuilder_o *__this_00;
   System_String_o *pSVar3;
-  System_String_o *value_00;
-  int32_t iVar4;
+  MethodInfo *extraout_RDX;
+  MethodInfo *method_00;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *method_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  MethodInfo *pMVar4;
+  MethodInfo *extraout_RDX_04;
+  int index;
+  int32_t iVar5;
+  System_Text_StringBuilder_o *__this_01;
   
-  if (Il2CppMethodInitialized_184347b12 == '\0') {
+  if (Il2CppMethodInitialized_07548632 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_StringBuilder);
-    Il2CppMethodInitialized_184347b12 = '\x01';
+    Il2CppMethodInitialized_07548632 = '\x01';
   }
   bVar1 = System_String__IsNullOrWhiteSpace(value,(MethodInfo *)0x0);
   if (bVar1) {
-    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
-  if (value == (System_String_o *)0x0) goto label_182393407;
-  iVar4 = (value->fields)._stringLength;
-  __this_00 = (System_Runtime_Serialization_ObjectHolder_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
-  System_Text_StringBuilder___ctor_1980e60((System_Text_StringBuilder_o *)__this_00,iVar4,(MethodInfo *)0x0);
-  __this_01 = (System_Runtime_Serialization_ObjectHolder_o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
-  System_Text_StringBuilder___ctor((System_Text_StringBuilder_o *)__this_01,(MethodInfo *)0x0);
-  for (iVar4 = 0; iVar4 < (value->fields)._stringLength; iVar4 = iVar4 + 1) {
-    uVar2 = System_String__get_Chars(value,iVar4,(MethodInfo *)0x0);
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar1 = System_Char__IsLetterOrDigit(uVar2,(MethodInfo *)0x0);
-    __this = __this_01;
-    if (!bVar1) {
-      Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
-                ((System_Text_StringBuilder_o *)__this_00,(System_Text_StringBuilder_o *)__this_01,
-                 (MethodInfo *)0x0);
-      __this = __this_00;
-    }
-    if (__this == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_182393407;
-    System_Text_StringBuilder__Append_197e090((System_Text_StringBuilder_o *)__this,uVar2,(MethodInfo *)0x0);
-  }
-  if (__this_01 == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_182393407;
-  iVar4 = System_Text_StringBuilder__get_Length(__this_01,(MethodInfo *)0x0);
-  if (iVar4 != 0) {
-    pSVar3 = (System_String_o *)(*(__this_01->klass->vtable)._3_ToString.methodPtr)(__this_01);
-    if (pSVar3 == (System_String_o *)0x0) goto label_182393407;
-    value_00 = System_String__ToUpperInvariant(pSVar3,(MethodInfo *)0x0);
-    bVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym(value_00,(MethodInfo *)0x0)
-    ;
-    if (bVar1) {
-      if (__this_00 == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_182393407;
-label_182393398:
-      System_Text_StringBuilder__Append_197dca0
-                ((System_Text_StringBuilder_o *)__this_00,value_00,(MethodInfo *)0x0);
-    }
-    else {
-      pSVar3 = System_String__ToLowerInvariant(pSVar3,(MethodInfo *)0x0);
-      if (pSVar3 == (System_String_o *)0x0) goto label_182393407;
-      uVar2 = System_String__get_Chars(pSVar3,0,(MethodInfo *)0x0);
-      if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(g_data_184354e48);
+  if (value != (System_String_o *)0x0) {
+    iVar5 = (value->fields)._stringLength;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
+    System_Text_StringBuilder___ctor_530d510(__this,iVar5,(MethodInfo *)0x0);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
+    System_Text_StringBuilder___ctor(__this_00,(MethodInfo *)0x0);
+    pMVar4 = extraout_RDX;
+    if (0 < (value->fields)._stringLength) {
+      if (__this == (System_Text_StringBuilder_o *)0x0) {
+        if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+          uVar2 = System_String__get_Chars(value,0,(MethodInfo *)0x0);
+          if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init(g_data_07556750);
+          }
+          bVar1 = System_Char__IsLetterOrDigit(uVar2,(MethodInfo *)0x0);
+          pMVar4 = extraout_RDX_04;
+          if (!bVar1) {
+label_05e4b3e9:
+            Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
+                      ((System_Text_StringBuilder_o *)0x0,__this_00,pMVar4);
+            ThrowNullReferenceException();
+          }
+          goto label_05e4b3e4;
+        }
+        iVar5 = 0;
+        do {
+          uVar2 = System_String__get_Chars(value,iVar5,(MethodInfo *)0x0);
+          if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init(g_data_07556750);
+          }
+          bVar1 = System_Char__IsLetterOrDigit(uVar2,(MethodInfo *)0x0);
+          pMVar4 = extraout_RDX_02;
+          if (!bVar1) goto label_05e4b3e9;
+          System_Text_StringBuilder__Append_530f6a0(__this_00,uVar2,(MethodInfo *)0x0);
+          iVar5 = iVar5 + 1;
+          pMVar4 = extraout_RDX_03;
+        } while (iVar5 < (value->fields)._stringLength);
       }
-      uVar2 = System_Char__ToUpperInvariant(uVar2,(MethodInfo *)0x0);
-      if (__this_00 == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_182393407;
-      System_Text_StringBuilder__Append_197e090
-                ((System_Text_StringBuilder_o *)__this_00,uVar2,(MethodInfo *)0x0);
-      if (1 < (pSVar3->fields)._stringLength) {
-        value_00 = System_String__Substring(pSVar3,1,(MethodInfo *)0x0);
-        goto label_182393398;
+      else {
+        index = 0;
+        if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+          do {
+            uVar2 = System_String__get_Chars(value,index,(MethodInfo *)0x0);
+            if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init(g_data_07556750);
+            }
+            bVar1 = System_Char__IsLetterOrDigit(uVar2,(MethodInfo *)0x0);
+            if (bVar1) goto label_05e4b3e4;
+            Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
+                      (__this,(System_Text_StringBuilder_o *)0x0,method_00);
+            System_Text_StringBuilder__Append_530f6a0(__this,uVar2,(MethodInfo *)0x0);
+            index = index + 1;
+            pMVar4 = extraout_RDX_00;
+          } while (index < (value->fields)._stringLength);
+        }
+        else {
+          do {
+            uVar2 = System_String__get_Chars(value,index,(MethodInfo *)0x0);
+            if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init(g_data_07556750);
+            }
+            bVar1 = System_Char__IsLetterOrDigit(uVar2,(MethodInfo *)0x0);
+            __this_01 = __this_00;
+            if (!bVar1) {
+              Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
+                        (__this,__this_00,method_01);
+              __this_01 = __this;
+            }
+            System_Text_StringBuilder__Append_530f6a0(__this_01,uVar2,(MethodInfo *)0x0);
+            index = index + 1;
+            pMVar4 = extraout_RDX_01;
+          } while (index < (value->fields)._stringLength);
+        }
       }
     }
-    System_Text_StringBuilder__set_Length((System_Text_StringBuilder_o *)__this_01,0,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord(__this,__this_00,pMVar4);
+    if ((__this != (System_Text_StringBuilder_o *)0x0) &&
+       (pSVar3 = (*(__this->klass->vtable)._3_ToString.methodPtr)
+                           (__this,(__this->klass->vtable)._3_ToString.method),
+       pSVar3 != (System_String_o *)0x0)) {
+      pSVar3 = System_String__Trim(pSVar3,(MethodInfo *)0x0);
+      return pSVar3;
+    }
   }
-  if ((__this_00 != (System_Runtime_Serialization_ObjectHolder_o *)0x0) &&
-     (pSVar3 = (*(((System_Text_StringBuilder_c *)__this_00->klass)->vtable)._3_ToString.methodPtr)
-                         (__this_00,
-                          (((System_Text_StringBuilder_c *)__this_00->klass)->vtable)._3_ToString.method),
-     pSVar3 != (System_String_o *)0x0)) {
-    pSVar3 = System_String__Trim(pSVar3,(MethodInfo *)0x0);
-    return pSVar3;
-  }
-label_182393407:
+label_05e4b3e4:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$AppendWord
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord (System_Text_StringBuilder_o* result, System_Text_StringBuilder_o* word, const MethodInfo* method);
-// 0x182392ac0
+// 0x5e4b750
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182392b9c: mov rdx, rbp
+// asm:   0x5e4b7b7: jmp 0x5e4b861
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
                (System_Text_StringBuilder_o *result,System_Text_StringBuilder_o *word,MethodInfo *method)
@@ -413,38 +415,39 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__AppendWord
   int32_t iVar3;
   System_String_o *pSVar4;
   System_String_o *value;
+  MethodInfo *method_00;
   
   if (word == (System_Text_StringBuilder_o *)0x0) {
-label_182392bc0:
+label_05e4b861:
     ThrowNullReferenceException();
   }
-  iVar3 = System_Runtime_Serialization_ObjectHolder__get_TotalDependentObjects
-                    ((System_Runtime_Serialization_ObjectHolder_o *)word,(MethodInfo *)0x0);
+  iVar3 = System_Text_StringBuilder__get_Length(word,(MethodInfo *)0x0);
   if (iVar3 == 0) {
     return;
   }
   pSVar4 = (*(word->klass->vtable)._3_ToString.methodPtr)(word,(word->klass->vtable)._3_ToString.method);
-  if (pSVar4 == (System_String_o *)0x0) goto label_182392bc0;
+  if (pSVar4 == (System_String_o *)0x0) goto label_05e4b861;
+  method_00 = (MethodInfo *)0x0;
   value = System_String__ToUpperInvariant(pSVar4,(MethodInfo *)0x0);
-  bVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym(value,(MethodInfo *)0x0);
+  bVar1 = Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym(value,method_00);
   if (bVar1) {
-    if (result == (System_Text_StringBuilder_o *)0x0) goto label_182392bc0;
+    if (result == (System_Text_StringBuilder_o *)0x0) goto label_05e4b861;
   }
   else {
     pSVar4 = System_String__ToLowerInvariant(pSVar4,(MethodInfo *)0x0);
-    if (pSVar4 == (System_String_o *)0x0) goto label_182392bc0;
+    if (pSVar4 == (System_String_o *)0x0) goto label_05e4b861;
     uVar2 = System_String__get_Chars(pSVar4,0,(MethodInfo *)0x0);
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
+    if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init(g_data_07556750);
     }
     uVar2 = System_Char__ToUpperInvariant(uVar2,(MethodInfo *)0x0);
-    if (result == (System_Text_StringBuilder_o *)0x0) goto label_182392bc0;
-    System_Text_StringBuilder__Append_197e090(result,uVar2,(MethodInfo *)0x0);
-    if ((pSVar4->fields)._stringLength < 2) goto label_182392baa;
+    if (result == (System_Text_StringBuilder_o *)0x0) goto label_05e4b861;
+    System_Text_StringBuilder__Append_530f6a0(result,uVar2,(MethodInfo *)0x0);
+    if ((pSVar4->fields)._stringLength < 2) goto label_05e4b84a;
     value = System_String__Substring(pSVar4,1,(MethodInfo *)0x0);
   }
-  System_Text_StringBuilder__Append_197dca0(result,value,(MethodInfo *)0x0);
-label_182392baa:
+  System_Text_StringBuilder__Append_530ed80(result,value,(MethodInfo *)0x0);
+label_05e4b84a:
   System_Text_StringBuilder__set_Length(word,0,(MethodInfo *)0x0);
   return;
 }
@@ -452,26 +455,7 @@ label_182392baa:
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$IsAcronym
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym (System_String_o* value, const MethodInfo* method);
-// 0x182392ce0
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x182392da0: mov rdx, qword ptr [rip + 0x1d430c1]  ; "KDR"
-// asm:   0x182392da7: jmp 0x182392e31
-// asm:   0x182392db3: mov rdx, qword ptr [rip + 0x1d115de]  ; "ODM"
-// asm:   0x182392dba: jmp 0x182392e31
-// asm:   0x182392dc3: mov rdx, qword ptr [rip + 0x1d4c9fe]  ; "FOV"
-// asm:   0x182392dca: jmp 0x182392e31
-// asm:   0x182392dd3: mov rdx, qword ptr [rip + 0x1d26476]  ; "WOW"
-// asm:   0x182392dda: jmp 0x182392e56
-// asm:   0x182392de3: mov rdx, qword ptr [rip + 0x1cf4c6e]  ; "UI"
-// asm:   0x182392dea: jmp 0x182392e31
-// asm:   0x182392df3: mov rdx, qword ptr [rip + 0x1d4633e]  ; "CL"
-// asm:   0x182392dfa: jmp 0x182392e31
-// asm:   0x182392e0a: mov rdx, qword ptr [rip + 0x1d34767]  ; "TS"
-// asm:   0x182392e11: jmp 0x182392e31
-// asm:   0x182392e1a: mov rdx, qword ptr [rip + 0x1d342f7]  ; "TPS"
-// asm:   0x182392e21: jmp 0x182392e31
-// asm:   0x182392e2a: mov rdx, qword ptr [rip + 0x1cec927]  ; "AOTTG"
-// asm:   0x182392e4f: mov rdx, qword ptr [rip + 0x1d4d04a]  ; "FPS"
+// 0x5e4b870
 
 bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym
                (System_String_o *value,MethodInfo *method)
@@ -479,9 +463,9 @@ bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym
 {
   bool bVar1;
   uint32_t uVar2;
-  System_String_o *pSVar3;
+  System_String_o **ppSVar3;
   
-  if (Il2CppMethodInitialized_184347b13 == '\0') {
+  if (Il2CppMethodInitialized_07548633 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"ODM");
     il2cpp_codegen_initialize_runtime_metadata(&"TS");
     il2cpp_codegen_initialize_runtime_metadata(&"HUD");
@@ -493,58 +477,71 @@ bool Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__IsAcronym
     il2cpp_codegen_initialize_runtime_metadata(&"UI");
     il2cpp_codegen_initialize_runtime_metadata(&"FOV");
     il2cpp_codegen_initialize_runtime_metadata(&"AOTTG");
-    Il2CppMethodInitialized_184347b13 = '\x01';
+    Il2CppMethodInitialized_07548633 = '\x01';
   }
   uVar2 = _PrivateImplementationDetails___ComputeStringHash(value,(MethodInfo *)0x0);
   if (uVar2 < 0x5942b41b) {
     if (uVar2 < 0x256778e7) {
-      pSVar3 = "FPS";
-      if (uVar2 != 0xad61c8) {
+      if (uVar2 == 0xad61c8) {
+        ppSVar3 = &"FPS";
+      }
+      else {
         if (uVar2 != 0x256778e6) {
           return false;
         }
-        bVar1 = System_String__op_Equality(value,"HUD",(MethodInfo *)0x0);
-        return bVar1;
+        ppSVar3 = &"HUD";
       }
-label_182392e56:
-      bVar1 = System_String__op_Equality(value,pSVar3,(MethodInfo *)0x0);
-      if (!bVar1) {
+    }
+    else if (uVar2 == 0x25f56a30) {
+      ppSVar3 = &"TS";
+    }
+    else if (uVar2 == 0x345d4ece) {
+      ppSVar3 = &"TPS";
+    }
+    else {
+      if (uVar2 != 0x5942b41a) {
         return false;
       }
-      return true;
-    }
-    pSVar3 = "TS";
-    if (((uVar2 != 0x25f56a30) && (pSVar3 = "TPS", uVar2 != 0x345d4ece)) &&
-       (pSVar3 = "AOTTG", uVar2 != 0x5942b41a)) {
-      return false;
+      ppSVar3 = &"AOTTG";
     }
   }
   else if (uVar2 < 0x82da261b) {
-    pSVar3 = "WOW";
-    if (uVar2 == 0x65239864) goto label_182392e56;
-    pSVar3 = "UI";
-    if ((uVar2 != 0x7bf3b2fb) && (pSVar3 = "CL", uVar2 != 0x82da261a)) {
-      return false;
+    if (uVar2 == 0x82da261a) {
+      ppSVar3 = &"CL";
     }
+    else if (uVar2 == 0x65239864) {
+      ppSVar3 = &"WOW";
+    }
+    else {
+      if (uVar2 != 0x7bf3b2fb) {
+        return false;
+      }
+      ppSVar3 = &"UI";
+    }
+  }
+  else if (uVar2 == 0xadc8a7c8) {
+    ppSVar3 = &"KDR";
+  }
+  else if (uVar2 == 0xe91aa979) {
+    ppSVar3 = &"ODM";
   }
   else {
-    pSVar3 = "KDR";
-    if (((uVar2 != 0xadc8a7c8) && (pSVar3 = "ODM", uVar2 != 0xe91aa979)) &&
-       (pSVar3 = "FOV", uVar2 != 0xf3cda0fc)) {
+    if (uVar2 != 0xf3cda0fc) {
       return false;
     }
+    ppSVar3 = &"FOV";
   }
-  bVar1 = System_String__op_Equality(value,pSVar3,(MethodInfo *)0x0);
-  if (!bVar1) {
-    return false;
+  bVar1 = System_String__op_Equality(value,*ppSVar3,(MethodInfo *)0x0);
+  if (bVar1) {
+    return true;
   }
-  return true;
+  return false;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$JoinPath
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinPath (System_String_o* first, System_String_o* second, const MethodInfo* method);
-// 0x182392ea0
+// 0x5e4b570
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinPath
@@ -554,21 +551,23 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinPath
   bool bVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184347b14 == '\0') {
+  if (Il2CppMethodInitialized_07548634 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&" > ");
-    Il2CppMethodInitialized_184347b14 = '\x01';
+    Il2CppMethodInitialized_07548634 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(first,(MethodInfo *)0x0);
-  if (!bVar1) {
-    bVar1 = System_String__IsNullOrEmpty(second,(MethodInfo *)0x0);
-    if (bVar1) {
-      return first;
+  if (bVar1) {
+    if (second == (System_String_o *)0x0) {
+      second = (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
-    pSVar2 = System_String__Concat_1969b70(first," > ",second,(MethodInfo *)0x0);
-    return pSVar2;
   }
-  if (second == (System_String_o *)0x0) {
-    second = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  else {
+    bVar1 = System_String__IsNullOrEmpty(second,(MethodInfo *)0x0);
+    if (!bVar1) {
+      pSVar2 = System_String__Concat_5301f10(first," > ",second,(MethodInfo *)0x0);
+      return pSVar2;
+    }
+    second = first;
   }
   return second;
 }
@@ -576,54 +575,73 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinPath
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSettingsSearchContext$$JoinWords
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinWords (System_String_array* parts, const MethodInfo* method);
-// 0x182392f40
+// 0x5e4b630
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext__JoinWords
           (System_String_array *parts,MethodInfo *method)
 
 {
-  bool bVar1;
-  int32_t iVar2;
-  System_Runtime_Serialization_ObjectHolder_o *__this;
-  System_String_o *pSVar3;
-  uint uVar4;
+  uint uVar1;
+  bool bVar2;
+  int32_t iVar3;
+  System_Text_StringBuilder_o *__this;
+  ulong uVar4;
+  System_String_o *pSVar5;
+  int iVar6;
+  ulong uVar7;
   
-  if (Il2CppMethodInitialized_184347b15 == '\0') {
+  if (Il2CppMethodInitialized_07548635 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_StringBuilder);
-    Il2CppMethodInitialized_184347b15 = '\x01';
+    Il2CppMethodInitialized_07548635 = '\x01';
   }
-  __this = (System_Runtime_Serialization_ObjectHolder_o *)
-           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
-  System_Text_StringBuilder___ctor((System_Text_StringBuilder_o *)__this,(MethodInfo *)0x0);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
+  System_Text_StringBuilder___ctor(__this,(MethodInfo *)0x0);
   if (parts != (System_String_array *)0x0) {
-    for (uVar4 = 0; (int)uVar4 < (int)parts->max_length; uVar4 = uVar4 + 1) {
-      if ((uint)parts->max_length <= uVar4) {
-label_182393024:
-        ThrowIndexOutOfRangeException();
-      }
-      bVar1 = System_String__IsNullOrWhiteSpace(parts->m_Items[(int)uVar4],(MethodInfo *)0x0);
-      if (!bVar1) {
-        if (__this == (System_Runtime_Serialization_ObjectHolder_o *)0x0) goto label_18239301e;
-        iVar2 = System_Text_StringBuilder__get_Length(__this,(MethodInfo *)0x0)
-        ;
-        if (0 < iVar2) {
-          System_Text_StringBuilder__Append_197e090
-                    ((System_Text_StringBuilder_o *)__this,0x20,(MethodInfo *)0x0);
-        }
-        if ((uint)parts->max_length <= uVar4) goto label_182393024;
-        System_Text_StringBuilder__Append_197dca0
-                  ((System_Text_StringBuilder_o *)__this,parts->m_Items[(int)uVar4],(MethodInfo *)0x0);
-      }
+    iVar6 = (int)parts->max_length;
+    uVar4 = parts->max_length & 0xffffffff;
+    if (__this == (System_Text_StringBuilder_o *)0x0) {
+      if (iVar6 < 1) goto label_05e4b74b;
+      uVar7 = 0;
+      do {
+        if (uVar4 <= uVar7) goto label_05e4b746;
+        bVar2 = System_String__IsNullOrWhiteSpace(parts->m_Items[uVar7],(MethodInfo *)0x0);
+        if (!bVar2) goto label_05e4b74b;
+        uVar7 = uVar7 + 1;
+        uVar1 = (uint)parts->max_length;
+        uVar4 = (ulong)uVar1;
+      } while ((long)uVar7 < (long)(int)uVar1);
     }
-    if (__this != (System_Runtime_Serialization_ObjectHolder_o *)0x0) {
-      pSVar3 = (System_String_o *)
-               (*(__this->klass->vtable)._3_ToString.methodPtr)
+    else {
+      if (iVar6 < 1) goto label_05e4b72b;
+      uVar7 = 0;
+      do {
+        if (uVar4 <= uVar7) {
+label_05e4b746:
+          ThrowIndexOutOfRangeException();
+        }
+        bVar2 = System_String__IsNullOrWhiteSpace(parts->m_Items[uVar7],(MethodInfo *)0x0);
+        if (!bVar2) {
+          iVar3 = System_Text_StringBuilder__get_Length(__this,(MethodInfo *)0x0);
+          if (0 < iVar3) {
+            System_Text_StringBuilder__Append_530f6a0(__this,0x20,(MethodInfo *)0x0);
+          }
+          if ((uint)parts->max_length <= uVar7) goto label_05e4b746;
+          System_Text_StringBuilder__Append_530ed80(__this,parts->m_Items[uVar7],(MethodInfo *)0x0);
+        }
+        uVar7 = uVar7 + 1;
+        uVar1 = (uint)parts->max_length;
+        uVar4 = (ulong)uVar1;
+      } while ((long)uVar7 < (long)(int)uVar1);
+    }
+    if (__this != (System_Text_StringBuilder_o *)0x0) {
+label_05e4b72b:
+      pSVar5 = (*(__this->klass->vtable)._3_ToString.methodPtr)
                          (__this,(__this->klass->vtable)._3_ToString.method);
-      return pSVar3;
+      return pSVar5;
     }
   }
-label_18239301e:
+label_05e4b74b:
   ThrowNullReferenceException();
 }
 

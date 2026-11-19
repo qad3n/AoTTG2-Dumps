@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UpdateLODGroupTransformJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -70,7 +70,7 @@ internal struct UpdateLODGroupTransformJob : IJobParallelFor
 	public UnsafeAtomicCounter32 atomicUpdateCount;
 
 	[Token(Token = "0x600032C")]
-	[Address(RVA = "0x2BFEA50", Offset = "0x2BFD050", VA = "0x182BFEA50", Slot = "4")]
+	[Address(RVA = "0x65E8300", Offset = "0x65E7300", VA = "0x65E8300", Slot = "4")]
 	public void Execute(int index)
 	{
 	}

@@ -57,7 +57,7 @@ public class GenerateHLSL : Attribute
 	public string sourcePath;
 
 	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x2B40AB0", Offset = "0x2B3F0B0", VA = "0x182B40AB0")]
+	[Address(RVA = "0x6525930", Offset = "0x6524930", VA = "0x6525930")]
 	public GenerateHLSL([Optional][DefaultParameterValue(0)] PackingRules rules, [Optional][DefaultParameterValue(true)] bool needAccessors, [Optional][DefaultParameterValue(false)] bool needSetters, [Optional][DefaultParameterValue(false)] bool needParamDebug, [Optional][DefaultParameterValue(1)] int paramDefinesStart, [Optional][DefaultParameterValue(false)] bool omitStructDeclaration, [Optional][DefaultParameterValue(false)] bool containsPackedFields, [Optional][DefaultParameterValue(false)] bool generateCBuffer, [Optional][DefaultParameterValue(-1)] int constantRegister, [Optional][CallerFilePath] string sourcePath)
 	{
 	}

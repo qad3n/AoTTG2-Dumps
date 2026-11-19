@@ -10,44 +10,44 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000CF")]
+[Token(Token = "0x200010A")]
 internal class FloatSetting : TypedSetting<float>
 {
-	[Token(Token = "0x4000508")]
+	[Token(Token = "0x4000646")]
 	[FieldOffset(Offset = "0x20")]
 	public float MinValue;
 
-	[Token(Token = "0x4000509")]
+	[Token(Token = "0x4000647")]
 	[FieldOffset(Offset = "0x24")]
 	public float MaxValue;
 
-	[Token(Token = "0x6000407")]
-	[Address(RVA = "0x1F12620", Offset = "0x1F10C20", VA = "0x181F12620")]
+	[Token(Token = "0x6000585")]
+	[Address(RVA = "0x5A558A0", Offset = "0x5A548A0", VA = "0x5A558A0")]
 	public FloatSetting()
 	{
 	}
 
-	[Token(Token = "0x6000408")]
-	[Address(RVA = "0x1F12570", Offset = "0x1F10B70", VA = "0x181F12570")]
+	[Token(Token = "0x6000586")]
+	[Address(RVA = "0x5A411F0", Offset = "0x5A401F0", VA = "0x5A411F0")]
 	public FloatSetting(float defaultValue, float minValue = -3.4028235E+38f, float maxValue = 3.4028235E+38f)
 	{
 	}
 
-	[Token(Token = "0x6000409")]
-	[Address(RVA = "0x1F12470", Offset = "0x1F10A70", VA = "0x181F12470", Slot = "6")]
+	[Token(Token = "0x6000587")]
+	[Address(RVA = "0x5A558F0", Offset = "0x5A548F0", VA = "0x5A558F0", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x600040A")]
-	[Address(RVA = "0x1F12500", Offset = "0x1F10B00", VA = "0x181F12500", Slot = "5")]
+	[Token(Token = "0x6000588")]
+	[Address(RVA = "0x5A55950", Offset = "0x5A54950", VA = "0x5A55950", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600040B")]
-	[Address(RVA = "0x1F124E0", Offset = "0x1F10AE0", VA = "0x181F124E0", Slot = "11")]
+	[Token(Token = "0x6000589")]
+	[Address(RVA = "0x5A559C0", Offset = "0x5A549C0", VA = "0x5A559C0", Slot = "11")]
 	protected override float SanitizeValue(float value)
 	{
 		return default(float);

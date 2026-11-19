@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncCancelTrigger : AsyncTriggerBase<BaseEventData>, ICancelHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C1D")]
-	[Address(RVA = "0x292A710", Offset = "0x2928D10", VA = "0x18292A710", Slot = "5")]
+	[Address(RVA = "0x6303030", Offset = "0x6302030", VA = "0x6303030", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EICancelHandler_002EOnCancel(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C1E")]
-	[Address(RVA = "0x292A470", Offset = "0x2928A70", VA = "0x18292A470")]
+	[Address(RVA = "0x6303080", Offset = "0x6302080", VA = "0x6303080")]
 	public IAsyncOnCancelHandler GetOnCancelAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C1F")]
-	[Address(RVA = "0x292A3F0", Offset = "0x29289F0", VA = "0x18292A3F0")]
+	[Address(RVA = "0x63030F0", Offset = "0x63020F0", VA = "0x63030F0")]
 	public IAsyncOnCancelHandler GetOnCancelAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C20")]
-	[Address(RVA = "0x292A5F0", Offset = "0x2928BF0", VA = "0x18292A5F0")]
+	[Address(RVA = "0x6303160", Offset = "0x6302160", VA = "0x6303160")]
 	public UniTask<BaseEventData> OnCancelAsync()
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C21")]
-	[Address(RVA = "0x292A4E0", Offset = "0x2928AE0", VA = "0x18292A4E0")]
+	[Address(RVA = "0x6303260", Offset = "0x6302260", VA = "0x6303260")]
 	public UniTask<BaseEventData> OnCancelAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
 	[Token(Token = "0x6000C22")]
-	[Address(RVA = "0x292A760", Offset = "0x2928D60", VA = "0x18292A760")]
+	[Address(RVA = "0x6303370", Offset = "0x6302370", VA = "0x6303370")]
 	public AsyncCancelTrigger()
 	{
 	}

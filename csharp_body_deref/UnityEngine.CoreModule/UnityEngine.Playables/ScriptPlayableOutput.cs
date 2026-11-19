@@ -14,7 +14,7 @@ namespace UnityEngine.Playables;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct ScriptPlayableOutput
 {
-	[Token(Token = "0x40007B8")]
+	[Token(Token = "0x40007B6")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableOutputHandle m_Handle;
 }

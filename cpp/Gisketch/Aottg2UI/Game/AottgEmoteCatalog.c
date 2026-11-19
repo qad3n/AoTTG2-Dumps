@@ -1,17 +1,14 @@
 // Type: Gisketch.Aottg2UI.Game.AottgEmoteCatalog
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgEmoteCatalog.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$StickerPresets
 // il2cpp: Gisketch_Aottg2UI_Game_AottgProfilePreset_array* Gisketch_Aottg2UI_Game_AottgEmoteCatalog__StickerPresets (const MethodInfo* method);
-// 0x181e10aa0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e10b92: mov r15, qword ptr [rip + 0x228ce2f]  ; "None"
-// asm:   0x181e10b99: jmp 0x181e10bca
+// 0x58f44b0
 
 Gisketch_Aottg2UI_Game_AottgProfilePreset_array *
 Gisketch_Aottg2UI_Game_AottgEmoteCatalog__StickerPresets(MethodInfo *method)
@@ -19,22 +16,21 @@ Gisketch_Aottg2UI_Game_AottgEmoteCatalog__StickerPresets(MethodInfo *method)
 {
   int32_t *piVar1;
   uint uVar2;
-  UnityEngine_UIElements_UIR_RenderData_o *value;
-  MethodInfo *pMVar3;
+  System_String_o *pSVar3;
+  Gisketch_Aottg2UI_Game_AottgProfilePreset_o item;
   bool bVar4;
-  System_Collections_Generic_List_AottgProfilePreset__o *__this;
-  System_String_array *pSVar5;
-  System_String_o *value_00;
-  UnityEngine_UIElements_UIR_Entry_o *value_01;
-  Gisketch_Aottg2UI_Game_AottgProfilePreset_array *pGVar6;
-  uint uVar7;
-  UnityEngine_UIElements_UIR_RenderData_o *local_58;
-  System_String_o *pSStack_50;
-  UnityEngine_UIElements_UIR_Entry_o *apUStack_48 [2];
-  undefined1 local_38 [16];
-  UnityEngine_UIElements_UIR_Entry_o *local_28;
+  int iVar5;
+  MethodInfo *__this;
+  System_String_array *pSVar6;
+  ulong uVar7;
+  System_String_o *pSVar8;
+  System_String_o *pSVar9;
+  Gisketch_Aottg2UI_Game_AottgProfilePreset_array *pGVar10;
+  MethodInfo *pMVar11;
+  ulong uVar12;
+  Gisketch_Aottg2UI_Game_AottgProfilePreset_o local_48;
   
-  if (Il2CppMethodInitialized_184344c3f == '\0') {
+  if (Il2CppMethodInitialized_075455b2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_AottgProfilePreset_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -42,160 +38,171 @@ Gisketch_Aottg2UI_Game_AottgEmoteCatalog__StickerPresets(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_AottgProfilePreset_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_AottgProfilePreset);
-    Il2CppMethodInitialized_184344c3f = '\x01';
+    Il2CppMethodInitialized_075455b2 = '\x01';
   }
-  __this = il2cpp_codegen_object_new
+  __this = (MethodInfo *)
+           il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_AottgProfilePreset);
+  pMVar11 = __this;
   System_Collections_Generic_List_AottgProfilePreset____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_AottgProfilePreset_ctor);
-  pSVar5 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__AllStickers((MethodInfo *)0x0);
-  if (pSVar5 != (System_String_array *)0x0) {
-    uVar7 = 0;
-    while ((int)uVar7 < (int)pSVar5->max_length) {
-      if ((uint)pSVar5->max_length <= uVar7) {
-label_181e10d02:
-        ThrowIndexOutOfRangeException();
+            ((System_Collections_Generic_List_AottgProfilePreset__o *)__this,
+             (MethodInfo_51CA920 *)MethodInfo_System_Collections_Generic_List_AottgProfilePreset_ctor);
+  pSVar6 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__AllStickers(pMVar11);
+  if (pSVar6 != (System_String_array *)0x0) {
+    iVar5 = (int)pSVar6->max_length;
+    if (__this != (MethodInfo *)0x0) {
+      if (0 < iVar5) {
+        uVar7 = pSVar6->max_length & 0xffffffff;
+        uVar12 = 0;
+        do {
+          if (uVar7 <= uVar12) {
+            ThrowIndexOutOfRangeException();
+          }
+          pSVar3 = pSVar6->m_Items[uVar12];
+          if (Il2CppMethodInitialized_075455b4 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&"None");
+            il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
+            Il2CppMethodInitialized_075455b4 = '\x01';
+          }
+          pMVar11 = (MethodInfo *)0x0;
+          bVar4 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+          if (bVar4) {
+            pSVar8 = "None";
+          }
+          else {
+            if (pSVar3 == (System_String_o *)0x0) goto label_058f471f;
+            pMVar11 = (MethodInfo *)"Emoji";
+            pSVar8 = System_String__Replace_5304550
+                               (pSVar3,"Emoji",
+                                (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+          }
+          pSVar9 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Sprite(pSVar3,pMVar11);
+          local_48.fields.Key = (System_String_o *)0x0;
+          local_48.fields.Label = (System_String_o *)0x0;
+          local_48.fields.Sprite = (System_String_o *)0x0;
+          Gisketch_Aottg2UI_Game_AottgProfilePreset___ctor(&local_48,pSVar3,pSVar8,pSVar9,(MethodInfo *)0x0);
+          pMVar11 = MethodInfo_System_Collections_Generic_List_AottgProfilePreset_Add;
+          piVar1 = (int32_t *)((long)&__this->name + 4);
+          *piVar1 = *piVar1 + 1;
+          pGVar10 = ((System_Collections_Generic_List_AottgProfilePreset__Fields *)&__this->invoker_method)->
+                    _items;
+          if (pGVar10 == (Gisketch_Aottg2UI_Game_AottgProfilePreset_array *)0x0) goto label_058f471f;
+          uVar2 = *(uint *)&__this->name;
+          if (uVar2 < (uint)pGVar10->max_length) {
+            *(uint *)&__this->name = uVar2 + 1;
+            pGVar10->m_Items[(int)uVar2].fields.Sprite = local_48.fields.Sprite;
+            pGVar10->m_Items[(int)uVar2].fields.Key = local_48.fields.Key;
+            pGVar10->m_Items[(int)uVar2].fields.Label = local_48.fields.Label;
+            Il2CppCodeGenWriteBarrier((void **)(pGVar10->m_Items + (int)uVar2));
+          }
+          else {
+            item.fields.Label = local_48.fields.Label;
+            item.fields.Key = local_48.fields.Key;
+            item.fields.Sprite = local_48.fields.Sprite;
+            System_Collections_Generic_List_AottgProfilePreset___AddWithResize
+                      ((System_Collections_Generic_List_AottgProfilePreset__o *)__this,item,
+                       (MethodInfo_51CB2D0 *)pMVar11->klass->rgctx_data[0xe].method);
+          }
+          uVar12 = uVar12 + 1;
+          uVar2 = (uint)pSVar6->max_length;
+          uVar7 = (ulong)uVar2;
+        } while ((long)uVar12 < (long)(int)uVar2);
       }
-      value = (UnityEngine_UIElements_UIR_RenderData_o *)pSVar5->m_Items[(int)uVar7];
-      if (Il2CppMethodInitialized_184344c41 == '\0') {
+      pGVar10 = System_Collections_Generic_List_AottgProfilePreset___ToArray
+                          ((System_Collections_Generic_List_AottgProfilePreset__o *)__this,
+                           (MethodInfo_51CD970 *)
+                           MethodInfo_System_Collections_Generic_List_AottgProfilePreset_ToArray);
+      return pGVar10;
+    }
+    if (0 < iVar5) {
+      pSVar3 = pSVar6->m_Items[0];
+      if (Il2CppMethodInitialized_075455b4 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&"None");
         il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
-        Il2CppMethodInitialized_184344c41 = '\x01';
+        Il2CppMethodInitialized_075455b4 = '\x01';
       }
-      bVar4 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-      value_00 = "None";
-      if (!bVar4) {
-        if (value == (UnityEngine_UIElements_UIR_RenderData_o *)0x0) goto label_181e10cfc;
-        value_00 = System_String__Replace_1970e80
-                             ((System_String_o *)value,"Emoji",
-                              (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-      }
-      value_01 = (UnityEngine_UIElements_UIR_Entry_o *)
-                 Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Sprite((System_String_o *)value,(MethodInfo *)0x0);
-      pSStack_50 = (System_String_o *)0x0;
-      apUStack_48[0] = (UnityEngine_UIElements_UIR_Entry_o *)0x0;
-      local_58 = value;
-      Il2CppCodeGenWriteBarrier(&local_58,value);
-      pSStack_50 = value_00;
-      Il2CppCodeGenWriteBarrier(&pSStack_50,value_00);
-      apUStack_48[0] = value_01;
-      Il2CppCodeGenWriteBarrier(apUStack_48,value_01);
-      pMVar3 = MethodInfo_System_Collections_Generic_List_AottgProfilePreset_Add;
-      if (__this == (System_Collections_Generic_List_AottgProfilePreset__o *)0x0) {
-label_181e10cfc:
-        ThrowNullReferenceException();
-      }
-      piVar1 = &(__this->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pGVar6 = (__this->fields)._items;
-      if (pGVar6 == (Gisketch_Aottg2UI_Game_AottgProfilePreset_array *)0x0) goto label_181e10cfc;
-      uVar2 = (__this->fields)._size;
-      if (uVar2 < (uint)pGVar6->max_length) {
-        (__this->fields)._size = uVar2 + 1;
-        if ((uint)pGVar6->max_length <= uVar2) goto label_181e10d02;
-        pGVar6->m_Items[(int)uVar2].fields.Key = (System_String_o *)local_58;
-        pGVar6->m_Items[(int)uVar2].fields.Label = pSStack_50;
-        pGVar6->m_Items[(int)uVar2].fields.Sprite = (System_String_o *)apUStack_48[0];
-        Il2CppCodeGenWriteBarrier((void **)(pGVar6->m_Items + (int)uVar2),(void *)0x0);
-        uVar7 = uVar7 + 1;
+      pMVar11 = (MethodInfo *)0x0;
+      bVar4 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+      if (bVar4) {
+        pSVar8 = "None";
       }
       else {
-        local_38._0_8_ = local_58;
-        local_38._8_8_ = pSStack_50;
-        local_28 = apUStack_48[0];
-        System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo___AddWithResize
-                  ((System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo__o
-                    *)__this,
-                   (UnityEngine_UIElements_UIR_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo_o
-                    *)local_38,(MethodInfo_973A50 *)pMVar3->klass->rgctx_data[0xe].method);
-        uVar7 = uVar7 + 1;
+        if (pSVar3 == (System_String_o *)0x0) goto label_058f471f;
+        pMVar11 = (MethodInfo *)"Emoji";
+        pSVar8 = System_String__Replace_5304550
+                           (pSVar3,"Emoji",
+                            (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
       }
-    }
-    if (__this != (System_Collections_Generic_List_AottgProfilePreset__o *)0x0) {
-      pGVar6 = (Gisketch_Aottg2UI_Game_AottgProfilePreset_array *)
-               System_Collections_Generic_List_AottgProfilePreset___ToArray
-                         ((System_Collections_Generic_List_T__o *)__this,
-                          (MethodInfo_929FE0 *)
-                          MethodInfo_System_Collections_Generic_List_AottgProfilePreset_ToArray);
-      return pGVar6;
+      pSVar9 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Sprite(pSVar3,pMVar11);
+      local_48.fields.Key = (System_String_o *)0x0;
+      local_48.fields.Label = (System_String_o *)0x0;
+      local_48.fields.Sprite = (System_String_o *)0x0;
+      Gisketch_Aottg2UI_Game_AottgProfilePreset___ctor(&local_48,pSVar3,pSVar8,pSVar9,(MethodInfo *)0x0);
+      ThrowNullReferenceException();
     }
   }
+label_058f471f:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$Sprite
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Sprite (System_String_o* value, const MethodInfo* method);
-// 0x181e108c0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e10a11: mov r8, qword ptr [rip + 0x22c7d70]  ; "_0"
-// asm:   0x181e10a18: jmp 0x181e10a2b
+// 0x58f4b90
 
 System_String_o * Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Sprite(System_String_o *value,MethodInfo *method)
 
 {
   bool bVar1;
-  System_String_array *pSVar2;
+  System_String_o **ppSVar2;
   System_String_o *pSVar3;
-  uint uVar4;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184344c40 == '\0') {
+  if (Il2CppMethodInitialized_075455b3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"UI/Icons/Emotes/");
     il2cpp_codegen_initialize_runtime_metadata(&"_0");
     il2cpp_codegen_initialize_runtime_metadata(&"Icon");
     il2cpp_codegen_initialize_runtime_metadata(&"UI/Icons/Profile/");
-    Il2CppMethodInitialized_184344c40 = '\x01';
+    Il2CppMethodInitialized_075455b3 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
   if (bVar1) {
-    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
   }
-  if (Il2CppMethodInitialized_184344c45 == '\0') {
+  if (Il2CppMethodInitialized_075455b8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
-    Il2CppMethodInitialized_184344c45 = '\x01';
+    Il2CppMethodInitialized_075455b8 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-  if (bVar1) {
-label_181e10a4c:
-    pSVar3 = System_String__Concat_1969b70
-                       ("UI/Icons/Profile/",value,"Icon",(MethodInfo *)0x0);
-    return pSVar3;
-  }
-  if (value != (System_String_o *)0x0) {
-    bVar1 = System_String__StartsWith_19722c0(value,"Emoji",4,(MethodInfo *)0x0);
-    if (!bVar1) goto label_181e10a4c;
-    if (Il2CppMethodInitialized_184344c42 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-      il2cpp_codegen_initialize_runtime_metadata(&"Data/Info/EmoteInfo");
-      il2cpp_codegen_initialize_runtime_metadata(&"AnimatedEmojis");
-      Il2CppMethodInitialized_184344c42 = '\x01';
+  if (!bVar1) {
+    if (value == (System_String_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,0);
-    pSVar2 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
-                       ("Data/Info/EmoteInfo","AnimatedEmojis",pSVar2,(MethodInfo *)0x0);
-    if (pSVar2 != (System_String_array *)0x0) {
-      for (uVar4 = 0; (int)uVar4 < (int)pSVar2->max_length; uVar4 = uVar4 + 1) {
-        if ((uint)pSVar2->max_length <= uVar4) {
-          ThrowIndexOutOfRangeException();
-        }
-        bVar1 = System_String__op_Equality(pSVar2->m_Items[(int)uVar4],value,(MethodInfo *)0x0);
-        pSVar3 = "_0";
-        if (bVar1) goto label_181e10a2b;
+    method_00 = (MethodInfo *)"Emoji";
+    bVar1 = System_String__StartsWith_53002b0(value,"Emoji",4,(MethodInfo *)0x0);
+    if (bVar1) {
+      bVar1 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__IsAnimated(value,method_00);
+      if (bVar1) {
+        ppSVar2 = &"_0";
       }
-      pSVar3 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-label_181e10a2b:
-      pSVar3 = System_String__Concat_1969b70("UI/Icons/Emotes/",value,pSVar3,(MethodInfo *)0x0);
-      return pSVar3;
+      else {
+        ppSVar2 = *(System_String_o ***)(g_data_07556758 + 0xb8);
+      }
+      pSVar3 = "UI/Icons/Emotes/";
+      goto label_058f4c8f;
     }
   }
-  ThrowNullReferenceException();
+  ppSVar2 = &"Icon";
+  pSVar3 = "UI/Icons/Profile/";
+label_058f4c8f:
+  pSVar3 = System_String__Concat_5301f10(pSVar3,value,*ppSVar2,(MethodInfo *)0x0);
+  return pSVar3;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$Label
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Label (System_String_o* value, const MethodInfo* method);
-// 0x181e10440
+// 0x58f4b10
 
 System_String_o * Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Label(System_String_o *value,MethodInfo *method)
 
@@ -203,88 +210,100 @@ System_String_o * Gisketch_Aottg2UI_Game_AottgEmoteCatalog__Label(System_String_
   bool bVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184344c41 == '\0') {
+  if (Il2CppMethodInitialized_075455b4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"None");
     il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
-    Il2CppMethodInitialized_184344c41 = '\x01';
+    Il2CppMethodInitialized_075455b4 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
   if (bVar1) {
     return "None";
   }
-  if (value != (System_String_o *)0x0) {
-    pSVar2 = System_String__Replace_1970e80
-                       (value,"Emoji",(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8)
-                        ,(MethodInfo *)0x0);
-    return pSVar2;
+  if (value == (System_String_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pSVar2 = System_String__Replace_5304550
+                     (value,"Emoji",(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),
+                      (MethodInfo *)0x0);
+  return pSVar2;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$IsAnimated
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgEmoteCatalog__IsAnimated (System_String_o* value, const MethodInfo* method);
-// 0x181e102f0
+// 0x58f4d10
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e10369: nop dword ptr [rax]
+// asm:   0x58f4d8d: nop dword ptr [rax]
 
 bool Gisketch_Aottg2UI_Game_AottgEmoteCatalog__IsAnimated(System_String_o *value,MethodInfo *method)
 
 {
-  bool bVar1;
-  System_String_array *pSVar2;
-  uint uVar3;
+  uint uVar1;
+  bool bVar2;
+  System_String_array *pSVar3;
+  ulong uVar4;
+  ulong uVar5;
   
-  if (Il2CppMethodInitialized_184344c42 == '\0') {
+  if (Il2CppMethodInitialized_075455b5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&"Data/Info/EmoteInfo");
     il2cpp_codegen_initialize_runtime_metadata(&"AnimatedEmojis");
-    Il2CppMethodInitialized_184344c42 = '\x01';
+    Il2CppMethodInitialized_075455b5 = '\x01';
   }
-  pSVar2 = (System_String_array *)SZArrayNew(TypeInfo_string_array,0);
-  pSVar2 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
-                     ("Data/Info/EmoteInfo","AnimatedEmojis",pSVar2,(MethodInfo *)0x0);
-  if (pSVar2 != (System_String_array *)0x0) {
-    uVar3 = 0;
-    while( true ) {
-      if ((int)pSVar2->max_length <= (int)uVar3) {
-        return false;
-      }
-      if ((uint)pSVar2->max_length <= uVar3) break;
-      bVar1 = System_String__op_Equality(pSVar2->m_Items[(int)uVar3],value,(MethodInfo *)0x0);
-      if (bVar1) {
-        return true;
-      }
-      uVar3 = uVar3 + 1;
+  pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,0);
+  pSVar3 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
+                     ("Data/Info/EmoteInfo","AnimatedEmojis",pSVar3,(MethodInfo *)&"AnimatedEmojis")
+  ;
+  if (pSVar3 == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar3->max_length < 1) {
+    return false;
+  }
+  uVar4 = pSVar3->max_length & 0xffffffff;
+  uVar5 = 0;
+  while( true ) {
+    if (uVar4 <= uVar5) {
+      ThrowIndexOutOfRangeException();
     }
-    ThrowIndexOutOfRangeException();
+    bVar2 = System_String__op_Equality(pSVar3->m_Items[uVar5],value,(MethodInfo *)0x0);
+    if (bVar2) break;
+    uVar5 = uVar5 + 1;
+    uVar1 = (uint)pSVar3->max_length;
+    uVar4 = (ulong)uVar1;
+    if ((long)(int)uVar1 <= (long)uVar5) {
+      return false;
+    }
   }
-  ThrowNullReferenceException();
+  return true;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$AllStickers
 // il2cpp: System_String_array* Gisketch_Aottg2UI_Game_AottgEmoteCatalog__AllStickers (const MethodInfo* method);
-// 0x181e10060
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e1022e: nop 
+// 0x58f4790
 
 System_String_array * Gisketch_Aottg2UI_Game_AottgEmoteCatalog__AllStickers(MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  bool bVar2;
-  System_String_array *pSVar3;
+  int32_t *piVar1;
+  uint uVar2;
+  System_String_o *pSVar3;
+  System_String_array *pSVar4;
+  MethodInfo *pMVar5;
+  bool bVar6;
+  System_String_array *pSVar7;
   System_Collections_Generic_List_string__o *__this;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar4;
-  uint uVar5;
+  ulong uVar8;
+  MethodInfo *in_RCX;
+  ulong uVar9;
+  long lVar10;
   
-  if (Il2CppMethodInitialized_184344c43 == '\0') {
+  if (Il2CppMethodInitialized_075455b6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
     il2cpp_codegen_initialize_runtime_metadata(&"Data/Info/ProfileIconInfo");
@@ -295,108 +314,160 @@ System_String_array * Gisketch_Aottg2UI_Game_AottgEmoteCatalog__AllStickers(Meth
     il2cpp_codegen_initialize_runtime_metadata(&"Icons");
     il2cpp_codegen_initialize_runtime_metadata(&"EmojiLove");
     il2cpp_codegen_initialize_runtime_metadata(&"AllEmojis");
-    Il2CppMethodInitialized_184344c43 = '\x01';
+    Il2CppMethodInitialized_075455b6 = '\x01';
   }
-  pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
-  pSVar1 = "EmojiSmile";
-  if (pSVar3 != (System_String_array *)0x0) {
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = "EmojiSmile";
-      Il2CppCodeGenWriteBarrier(pSVar3->m_Items,pSVar1);
-      pSVar1 = "EmojiThumbsUp";
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = "EmojiThumbsUp";
-        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 1,pSVar1);
-        pSVar1 = "EmojiCool";
-        if (2 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[2] = "EmojiCool";
-          Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 2,pSVar1);
-          pSVar1 = "EmojiLove";
-          if (3 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[3] = "EmojiLove";
-            Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 3,pSVar1);
-            pSVar3 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
-                               ("Data/Info/EmoteInfo","AllEmojis",pSVar3,(MethodInfo *)0x0);
-            __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string)
-            ;
-            System_Collections_Generic_List_object____ctor_94fb10
-                      ((System_Collections_Generic_List_object__o *)__this,
-                       (System_Collections_Generic_IEnumerable_T__o *)pSVar3,
-                       (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
-            pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,0);
-            pSVar3 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
-                               ("Data/Info/ProfileIconInfo","Icons",pSVar3,(MethodInfo *)0x0);
-            if (pSVar3 != (System_String_array *)0x0) {
-              for (uVar5 = 0; (int)uVar5 < (int)pSVar3->max_length; uVar5 = uVar5 + 1) {
-                if ((uint)pSVar3->max_length <= uVar5) goto label_181e102dc;
-                pSVar1 = pSVar3->m_Items[(int)uVar5];
-                if (Il2CppMethodInitialized_184344c45 == '\0') {
+  pSVar7 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+  if (pSVar7 == (System_String_array *)0x0) goto label_058f4afb;
+  if ((int)pSVar7->max_length != 0) {
+    pSVar7->m_Items[0] = "EmojiSmile";
+    Il2CppCodeGenWriteBarrier(pSVar7->m_Items);
+    if ((pSVar7->max_length & 0xfffffffe) != 0) {
+      pSVar7->m_Items[1] = "EmojiThumbsUp";
+      Il2CppCodeGenWriteBarrier(pSVar7->m_Items + 1);
+      if (2 < (uint)pSVar7->max_length) {
+        pSVar7->m_Items[2] = "EmojiCool";
+        Il2CppCodeGenWriteBarrier(pSVar7->m_Items + 2);
+        if ((pSVar7->max_length & 0xfffffffc) != 0) {
+          pSVar7->m_Items[3] = "EmojiLove";
+          Il2CppCodeGenWriteBarrier(pSVar7->m_Items + 3);
+          pSVar7 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
+                             ("Data/Info/EmoteInfo","AllEmojis",pSVar7,in_RCX);
+          __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+          System_Collections_Generic_List_object____ctor_395ca70
+                    ((System_Collections_Generic_List_object__o *)__this,
+                     (System_Collections_Generic_IEnumerable_T__o *)pSVar7,
+                     (MethodInfo_395CA70 *)MethodInfo_System_Collections_Generic_List_string_ctor_7196948);
+          pSVar7 = (System_String_array *)SZArrayNew(TypeInfo_string_array,0);
+          pSVar7 = Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
+                             ("Data/Info/ProfileIconInfo","Icons",pSVar7,
+                              (MethodInfo *)&"Icons");
+          if (pSVar7 != (System_String_array *)0x0) {
+            uVar8 = pSVar7->max_length;
+            if (__this == (System_Collections_Generic_List_string__o *)0x0) {
+              if ((int)uVar8 < 1) goto label_058f4afb;
+              lVar10 = 0;
+              do {
+                if ((uint)uVar8 <= (uint)lVar10) goto label_058f4b00;
+                pSVar3 = pSVar7->m_Items[lVar10];
+                if (Il2CppMethodInitialized_075455b8 == '\0') {
                   il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
-                  Il2CppMethodInitialized_184344c45 = '\x01';
+                  Il2CppMethodInitialized_075455b8 = '\x01';
                 }
-                bVar2 = System_String__IsNullOrEmpty(pSVar1,(MethodInfo *)0x0);
-                if (bVar2) {
-label_181e10291:
-                  if (__this == (System_Collections_Generic_List_string__o *)0x0) goto label_181e102d6;
-                  il2cpp_runtime_helper_180012890(__this,pSVar1,MethodInfo_System_Collections_Generic_List_string_Add);
+                bVar6 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+                if ((bVar6) || (pSVar3 == (System_String_o *)0x0)) goto label_058f4afb;
+                bVar6 = System_String__StartsWith_53002b0(pSVar3,"Emoji",4,(MethodInfo *)0x0);
+                if (!bVar6) goto label_058f4afb;
+                uVar2 = (uint)pSVar7->max_length;
+                uVar8 = (ulong)uVar2;
+                lVar10 = lVar10 + 1;
+              } while ((int)lVar10 < (int)uVar2);
+            }
+            else if (0 < (int)uVar8) {
+              uVar8 = uVar8 & 0xffffffff;
+              uVar9 = 0;
+              do {
+                if (uVar8 <= uVar9) goto label_058f4b00;
+                pSVar3 = pSVar7->m_Items[uVar9];
+                if (Il2CppMethodInitialized_075455b8 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
+                  Il2CppMethodInitialized_075455b8 = '\x01';
+                }
+                bVar6 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+                if (bVar6) {
+label_058f4a23:
+                  pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+                  piVar1 = &(__this->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pSVar4 = (__this->fields)._items;
+                  if (pSVar4 == (System_String_array *)0x0) goto label_058f4afb;
+                  uVar2 = (__this->fields)._size;
+                  if (uVar2 < (uint)pSVar4->max_length) {
+                    (__this->fields)._size = uVar2 + 1;
+                    pSVar4->m_Items[(int)uVar2] = pSVar3;
+                    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2);
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)pSVar3,
+                               (MethodInfo_395D230 *)pMVar5->klass->rgctx_data[0xe].method);
+                  }
                 }
                 else {
-                  if (pSVar1 == (System_String_o *)0x0) goto label_181e102d6;
-                  bVar2 = System_String__StartsWith_19722c0(pSVar1,"Emoji",4,(MethodInfo *)0x0);
-                  if (!bVar2) goto label_181e10291;
+                  if (pSVar3 == (System_String_o *)0x0) goto label_058f4afb;
+                  bVar6 = System_String__StartsWith_53002b0(pSVar3,"Emoji",4,(MethodInfo *)0x0);
+                  if (!bVar6) goto label_058f4a23;
                 }
-              }
-              if (__this != (System_Collections_Generic_List_string__o *)0x0) {
-                pUVar4 = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
-                                   ((System_Collections_Generic_List_T__o *)__this,
-                                    (MethodInfo_929FE0 *)
-                                    MethodInfo_System_Collections_Generic_List_string_ToArray);
-                return (System_String_array *)pUVar4;
-              }
+                uVar9 = uVar9 + 1;
+                uVar2 = (uint)pSVar7->max_length;
+                uVar8 = (ulong)uVar2;
+              } while ((long)uVar9 < (long)(int)uVar2);
             }
-            goto label_181e102d6;
+            if (__this != (System_Collections_Generic_List_string__o *)0x0) {
+              pSVar7 = (System_String_array *)
+                       System_Collections_Generic_List_object___ToArray
+                                 ((System_Collections_Generic_List_object__o *)__this,
+                                  (MethodInfo_395F5A0 *)
+                                  MethodInfo_System_Collections_Generic_List_string_ToArray);
+              return pSVar7;
+            }
           }
+label_058f4afb:
+          ThrowNullReferenceException();
         }
       }
     }
-label_181e102dc:
-    ThrowIndexOutOfRangeException();
   }
-label_181e102d6:
-  ThrowNullReferenceException();
+label_058f4b00:
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$ReadList
 // il2cpp: System_String_array* Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList (System_String_o* path, System_String_o* key, System_String_array* fallback, const MethodInfo* method);
-// 0x181e104c0
-// eh: try 0x181e106d0..0x181e108af -> pad 0x183317fd0 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 25 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181e10824: jmp 0x181e10856
-// asm:   0x181e10826: mov r8, qword ptr [rsp + 0x38]
-// asm:   0x181e1082b: cmp qword ptr [r8], 0
-// asm:   0x181e1082f: je 0x181e10842
-// asm:   0x181e10831: xor ecx, ecx
-// asm:   0x181e10833: mov r8, qword ptr [r8]
-// asm:   0x181e10836: mov rdx, qword ptr [rip + 0x2288ac3]  ; TypeInfo_System_IDisposable
-// asm:   0x181e1083d: call 0x180014840  ; InterfaceInvoker0_Invoke()
-// asm:   0x181e10842: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181e10847: test rcx, rcx
-// asm:   0x181e1084a: jne 0x181e108af
-// asm:   0x181e1084c: mov r14, qword ptr [rsp + 0x70]
-// asm:   0x181e10851: mov rdi, qword ptr [rsp + 0x20]
-// asm:   0x181e108af: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183317fd5: push rbp
-// asm:   0x183317fd6: sub rsp, 0x20
-// asm:   0x183317fda: mov rbp, rdx
-// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
-// asm:   0x183317fe1: mov rcx, qword ptr [rax]
-// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x183317fe8: movabs rax, 0
-// asm:   0x183317ff2: add rsp, 0x20
-// asm:   0x183317ff6: pop rbp
-// asm:   0x183317ff7: ret 
+// 0x58f4de0
+// eh: try 0x58f507f..0x58f52ac -> pad 0x58f52c5 (+7 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
+// eh: try 0x58f52df..0x58f52e4 -> pad 0x58f52e9 cleanup
+// eh: try 0x58f52ec..0x58f52f6 -> pad 0x58f52fe catch (...) [compiler noexcept guard]
+// asm: 39 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x58f504b: lea r13, [rip + 0x19843a6]  ; TypeInfo_System_Collections_IEnumerator
+// asm:   0x58f5052: lea rbp, [rip + 0x197bf77]  ; TypeInfo_System_Collections_Generic_IEnumerator_JSONNode
+// asm:   0x58f5059: lea r15, [rip + 0x19a18f8]  ; MethodInfo_System_Collections_Generic_List_string_Add
+// asm:   0x58f5060: jmp 0x58f5097
+// asm:   0x58f508a: mov rbx, qword ptr [rsp]
+// asm:   0x58f508e: test rbx, rbx
+// asm:   0x58f5091: je 0x58f529d
+// asm:   0x58f521e: nop 
+// asm:   0x58f5256: test r15, r15
+// asm:   0x58f5259: jne 0x58f52b1
+// asm:   0x58f525b: cmp ebp, 5
+// asm:   0x58f525e: je 0x58f5264
+// asm:   0x58f5260: test ebp, ebp
+// asm:   0x58f5262: jne 0x58f5286
+// asm:   0x58f52b1: mov rdi, r15
+// asm:   0x58f52b4: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x58f52b9: jmp 0x58f52c5
+// asm:   0x58f52bb: jmp 0x58f52c5
+// asm:   0x58f52bd: jmp 0x58f52c5
+// asm:   0x58f52bf: jmp 0x58f52c5
+// asm:   0x58f52c1: jmp 0x58f52c5
+// asm:   0x58f52c3: jmp 0x58f52c5
+// asm:   0x58f52c5: mov rbx, rax
+// asm:   0x58f52c8: cmp edx, 1
+// asm:   0x58f52cb: jne 0x58f52ec
+// asm:   0x58f52cd: mov rdi, rbx
+// asm:   0x58f52d0: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x58f52d5: mov r15, qword ptr [rax]
+// asm:   0x58f52d8: mov qword ptr [rsp + 8], r15
+// asm:   0x58f52dd: xor ebp, ebp
+// asm:   0x58f52df: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x58f52e4: jmp 0x58f51ef
+// asm:   0x58f52e9: mov rbx, rax
+// asm:   0x58f52ec: lea rdi, [rsp + 8]
+// asm:   0x58f52f1: call 0x2fd0b20  ; il2cpp_runtime_helper_02fd0b20()
+// asm:   0x58f52f6: mov rdi, rbx
+// asm:   0x58f52f9: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x58f52fe: mov rdi, rax
+// asm:   0x58f5301: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_String_array *
 Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
@@ -404,27 +475,27 @@ Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
 
 {
   int32_t *piVar1;
-  ushort uVar2;
-  uint uVar3;
-  Il2CppClass *pIVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  System_String_array *pSVar6;
-  MethodInfo *pMVar7;
-  bool bVar8;
+  uint uVar2;
+  Il2CppClass *pIVar3;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
+  System_String_array *pSVar5;
+  MethodInfo *pMVar6;
+  bool bVar7;
+  char cVar8;
   UnityEngine_Object_o *x;
   System_String_o *pSVar9;
   SimpleJSONFixed_JSONNode_o *a;
-  System_Xml_Schema_XmlSchema_o *a_00;
+  SimpleJSONFixed_JSONNode_o *a_00;
   System_Collections_Generic_List_string__o *__this;
   Il2CppObject *pIVar10;
-  void *pvVar11;
-  VirtualInvokeData *pVVar12;
-  Il2CppObject *pIVar13;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *pUVar14;
-  ushort uVar15;
+  VirtualInvokeData *pVVar11;
+  ulong uVar12;
+  long lVar13;
+  Il2CppObject *local_48;
+  undefined8 local_40;
+  undefined1 *local_38;
   
-  if (Il2CppMethodInitialized_184344c44 == '\0') {
+  if (Il2CppMethodInitialized_075455b7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_JSONNode);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_JSONNode);
@@ -437,148 +508,201 @@ Gisketch_Aottg2UI_Game_AottgEmoteCatalog__ReadList
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Resources_Load_TextAsset);
-    Il2CppMethodInitialized_184344c44 = '\x01';
+    Il2CppMethodInitialized_075455b7 = '\x01';
   }
+  local_48 = (Il2CppObject *)0x0;
   x = (UnityEngine_Object_o *)
       UnityEngine_Resources__Load_object_
-                (path,(MethodInfo_7965D0 *)MethodInfo_UnityEngine_Resources_Load_TextAsset);
+                (path,(MethodInfo_3665C30 *)MethodInfo_UnityEngine_Resources_Load_TextAsset);
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
+  bVar7 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar7) {
     return fallback;
   }
-  if (x != (UnityEngine_Object_o *)0x0) {
-    pSVar9 = UnityEngine_TextAsset__ToString((UnityEngine_TextAsset_o *)x,(MethodInfo *)0x0);
-    a = SimpleJSONFixed_JSON__Parse(pSVar9,(MethodInfo *)0x0);
-    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-    }
-    bVar8 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    if (bVar8) {
-      if (a == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_181e108b5;
-      a_00 = (*(a->klass->vtable)._7_get_Item.methodPtr)(a,(MethodInfo *)key);
-    }
-    else {
-      a_00 = (System_Xml_Schema_XmlSchema_o *)0x0;
-    }
-    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_LowLevelList_T__o *)__this,
-               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
-    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
-    }
-    bVar8 = SimpleJSONFixed_JSONNode__op_Inequality
-                      ((SimpleJSONFixed_JSONNode_o *)a_00,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    if (bVar8) {
-      if ((a_00 == (System_Xml_Schema_XmlSchema_o *)0x0) ||
-         (pIVar10 = (Il2CppObject *)
-                    (*((Il2CppClass *)a_00->klass)->vtable[27].methodPtr)
-                              (a_00,((Il2CppClass *)a_00->klass)->vtable[27].method),
-         pIVar10 == (Il2CppObject *)0x0)) goto label_181e108b5;
-      pIVar10 = InterfaceInvoker0_Invoke
-                          (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_JSONNode,pIVar10);
-      while( true ) {
+  if (x == (UnityEngine_Object_o *)0x0) goto label_058f52ac;
+  pSVar9 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)x,(MethodInfo *)0x0);
+  a = SimpleJSONFixed_JSON__Parse(pSVar9,(MethodInfo *)0x0);
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+  }
+  a_00 = (SimpleJSONFixed_JSONNode_o *)0x0;
+  bVar7 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (bVar7) {
+    if (a == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_058f52ac;
+    a_00 = (*(a->klass->vtable)._7_get_Item.methodPtr)(a,key,(a->klass->vtable)._7_get_Item.method);
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_List_object__o *)__this,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+  }
+  bVar7 = SimpleJSONFixed_JSONNode__op_Inequality(a_00,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (bVar7) {
+    if ((a_00 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+       (pIVar10 = (Il2CppObject *)
+                  (*(a_00->klass->vtable)._27_get_Children.methodPtr)
+                            (a_00,(a_00->klass->vtable)._27_get_Children.method),
+       pIVar10 != (Il2CppObject *)0x0)) {
+      pIVar3 = pIVar10->klass;
+      uVar12 = (ulong)(pIVar3->_2).interface_offsets_count;
+      if (uVar12 != 0) {
+        pIVar4 = (pIVar3->_1).interfaceOffsets;
+        lVar13 = 0;
+        do {
+          if (*(System_Collections_Generic_IEnumerable_JSONNode__c **)((long)&pIVar4->interfaceType + lVar13)
+              == TypeInfo_System_Collections_Generic_IEnumerable_JSONNode) {
+            pVVar11 = pIVar3->vtable + *(int *)((long)&pIVar4->offset + lVar13);
+            goto label_058f5021;
+          }
+          lVar13 = lVar13 + 0x10;
+        } while (uVar12 * 0x10 != lVar13);
+      }
+      pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (pIVar10,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_JSONNode,0);
+label_058f5021:
+      pIVar10 = (*pVVar11->methodPtr)(pIVar10,pVVar11->method);
+      local_38 = (undefined1 *)&local_48;
+      local_40 = 0;
+      do {
+        local_48 = pIVar10;
         if (pIVar10 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
-        pvVar11 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar10);
-        if ((char)pvVar11 == '\0') break;
-        if (pIVar10 == (Il2CppObject *)0x0) {
-          ThrowNullReferenceException();
-        }
-        pIVar4 = pIVar10->klass;
-        uVar2 = (pIVar4->_2).interface_offsets_count;
-        if (uVar2 != 0) {
-          uVar15 = 0;
-          pIVar5 = (pIVar4->_1).interfaceOffsets;
+        pIVar3 = pIVar10->klass;
+        uVar12 = (ulong)(pIVar3->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
+          lVar13 = 0;
           do {
-            if (pIVar5[uVar15].interfaceType ==
-                (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_JSONNode) {
-              pVVar12 = (VirtualInvokeData *)&pIVar4->vtable[pIVar5[uVar15].offset].methodPtr;
-              goto label_181e10756;
+            if (*(Il2CppClass **)((long)&pIVar4->interfaceType + lVar13) ==
+                (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
+              pVVar11 = pIVar3->vtable + *(int *)((long)&pIVar4->offset + lVar13);
+              goto label_058f50f3;
             }
-            uVar15 = uVar15 + 1;
-          } while (uVar15 < uVar2);
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
         }
-        pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
-                            (pIVar10,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_JSONNode,0
-                            );
-label_181e10756:
-        pIVar13 = (*pVVar12->methodPtr)(pIVar10,pVVar12->method);
-        if (pIVar13 == (Il2CppObject *)0x0) {
+        pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (pIVar10,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_058f50f3:
+        cVar8 = (*pVVar11->methodPtr)(pIVar10,pVVar11->method);
+        pIVar10 = local_48;
+        if (cVar8 == '\0') {
+          if (local_48 == (Il2CppObject *)0x0) goto label_058f5264;
+          pIVar3 = local_48->klass;
+          uVar12 = (ulong)(pIVar3->_2).interface_offsets_count;
+          if (uVar12 == 0) goto label_058f522f;
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
+          lVar13 = 0;
+          goto label_058f5220;
+        }
+        if (local_48 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar3 = local_48->klass;
+        uVar12 = (ulong)(pIVar3->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
+          lVar13 = 0;
+          do {
+            if (*(System_Collections_Generic_IEnumerator_JSONNode__c **)
+                 ((long)&pIVar4->interfaceType + lVar13) ==
+                TypeInfo_System_Collections_Generic_IEnumerator_JSONNode) {
+              pVVar11 = pIVar3->vtable + *(int *)((long)&pIVar4->offset + lVar13);
+              goto label_058f5173;
+            }
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
+        }
+        pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (local_48,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_JSONNode,
+                             0);
+label_058f5173:
+        pIVar10 = (*pVVar11->methodPtr)(pIVar10,pVVar11->method);
+        if (pIVar10 == (Il2CppObject *)0x0) {
           ThrowNullReferenceException();
         }
         pSVar9 = (System_String_o *)
-                 (*pIVar13->klass->vtable[9].methodPtr)(pIVar13,pIVar13->klass->vtable[9].method);
-        pMVar7 = MethodInfo_System_Collections_Generic_List_string_Add;
+                 (*pIVar10->klass->vtable[9].methodPtr)(pIVar10,pIVar10->klass->vtable[9].method);
+        pMVar6 = MethodInfo_System_Collections_Generic_List_string_Add;
         if (__this == (System_Collections_Generic_List_string__o *)0x0) {
+label_058f5298:
           ThrowNullReferenceException();
         }
         piVar1 = &(__this->fields)._version;
         *piVar1 = *piVar1 + 1;
-        pSVar6 = (__this->fields)._items;
-        if (pSVar6 == (System_String_array *)0x0) {
-          ThrowNullReferenceException();
-        }
-        uVar3 = (__this->fields)._size;
-        if (uVar3 < (uint)pSVar6->max_length) {
-          (__this->fields)._size = uVar3 + 1;
-          if ((uint)pSVar6->max_length <= uVar3) {
-            ThrowIndexOutOfRangeException();
-          }
-          pSVar6->m_Items[(int)uVar3] = pSVar9;
-          Il2CppCodeGenWriteBarrier(pSVar6->m_Items + (int)uVar3,pSVar9);
+        pSVar5 = (__this->fields)._items;
+        if (pSVar5 == (System_String_array *)0x0) goto label_058f5298;
+        uVar2 = (__this->fields)._size;
+        if (uVar2 < (uint)pSVar5->max_length) {
+          (__this->fields)._size = uVar2 + 1;
+          pSVar5->m_Items[(int)uVar2] = pSVar9;
+          Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar2);
+          pIVar10 = local_48;
         }
         else {
           System_Collections_Generic_List_object___AddWithResize
                     ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)pSVar9,
-                     (MethodInfo_93DD50 *)pMVar7->klass->rgctx_data[0xe].method);
+                     (MethodInfo_395D230 *)pMVar6->klass->rgctx_data[0xe].method);
+          pIVar10 = local_48;
         }
-      }
-      if (pIVar10 != (Il2CppObject *)0x0) {
-        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,pIVar10);
-      }
+      } while( true );
     }
-    if (__this != (System_Collections_Generic_List_string__o *)0x0) {
-      if ((__this->fields)._size < 1) {
-        return fallback;
-      }
-      pUVar14 = System_Collections_Generic_List_object___ToArray
-                          ((System_Collections_Generic_List_T__o *)__this,
-                           (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
-      return (System_String_array *)pUVar14;
+    goto label_058f52ac;
+  }
+  goto label_058f5264;
+  while (lVar13 = lVar13 + 0x10, uVar12 * 0x10 != lVar13) {
+label_058f5220:
+    if (*(System_IDisposable_c **)((long)&pIVar4->interfaceType + lVar13) == TypeInfo_System_IDisposable) {
+      pVVar11 = pIVar3->vtable + *(int *)((long)&pIVar4->offset + lVar13);
+      goto label_058f524d;
     }
   }
-label_181e108b5:
+label_058f522f:
+  pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath(local_48,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_058f524d:
+  (*pVVar11->methodPtr)(pIVar10,pVVar11->method);
+label_058f5264:
+  if (__this != (System_Collections_Generic_List_string__o *)0x0) {
+    if (0 < (__this->fields)._size) {
+      fallback = (System_String_array *)
+                 System_Collections_Generic_List_object___ToArray
+                           ((System_Collections_Generic_List_object__o *)__this,
+                            (MethodInfo_395F5A0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+    }
+    return fallback;
+  }
+label_058f52ac:
   ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgEmoteCatalog$$IsEmoji
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgEmoteCatalog__IsEmoji (System_String_o* value, const MethodInfo* method);
-// 0x181e103d0
+// 0x58f4cb0
 
 bool Gisketch_Aottg2UI_Game_AottgEmoteCatalog__IsEmoji(System_String_o *value,MethodInfo *method)
 
 {
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184344c45 == '\0') {
+  if (Il2CppMethodInitialized_075455b8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Emoji");
-    Il2CppMethodInitialized_184344c45 = '\x01';
+    Il2CppMethodInitialized_075455b8 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
   if (bVar1) {
     return false;
   }
-  if (value != (System_String_o *)0x0) {
-    bVar1 = System_String__StartsWith_19722c0(value,"Emoji",4,(MethodInfo *)0x0);
-    return bVar1;
+  if (value == (System_String_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  bVar1 = System_String__StartsWith_53002b0(value,"Emoji",4,(MethodInfo *)0x0);
+  return bVar1;
 }
 
 

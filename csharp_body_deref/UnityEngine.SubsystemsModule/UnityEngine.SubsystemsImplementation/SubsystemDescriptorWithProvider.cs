@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.SubsystemsImplementation.SubsystemDescriptorWithProvider
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,14 +18,14 @@ public abstract class SubsystemDescriptorWithProvider : ISubsystemDescriptor
 	public string id
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
+		[Address(RVA = "0x69F2F80", Offset = "0x69F1F80", VA = "0x69F2F80", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x69F2F90", Offset = "0x69F1F90", VA = "0x69F2F90")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ public abstract class SubsystemDescriptorWithProvider : ISubsystemDescriptor
 	protected internal Type providerType
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x69F2FA0", Offset = "0x69F1FA0", VA = "0x69F2FA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x69F2FB0", Offset = "0x69F1FB0", VA = "0x69F2FB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,14 +54,14 @@ public abstract class SubsystemDescriptorWithProvider : ISubsystemDescriptor
 	protected internal Type subsystemTypeOverride
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x69F2FC0", Offset = "0x69F1FC0", VA = "0x69F2FC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x69F2FD0", Offset = "0x69F1FD0", VA = "0x69F2FD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -72,7 +72,7 @@ public abstract class SubsystemDescriptorWithProvider : ISubsystemDescriptor
 	internal abstract void ThrowIfInvalid();
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69F2FE0", Offset = "0x69F1FE0", VA = "0x69F2FE0")]
 	protected SubsystemDescriptorWithProvider()
 	{
 	}

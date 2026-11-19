@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x200056E")]
+[Token(Token = "0x2000547")]
 [Flags]
 internal enum DateTimeFormatFlags
 {
-	[Token(Token = "0x40015D8")]
+	[Token(Token = "0x4001538")]
 	None = 0,
-	[Token(Token = "0x40015D9")]
+	[Token(Token = "0x4001539")]
 	UseGenitiveMonth = 1,
-	[Token(Token = "0x40015DA")]
+	[Token(Token = "0x400153A")]
 	UseLeapYearMonth = 2,
-	[Token(Token = "0x40015DB")]
+	[Token(Token = "0x400153B")]
 	UseSpacesInMonthNames = 4,
-	[Token(Token = "0x40015DC")]
+	[Token(Token = "0x400153C")]
 	UseHebrewRule = 8,
-	[Token(Token = "0x40015DD")]
+	[Token(Token = "0x400153D")]
 	UseSpacesInDayNames = 0x10,
-	[Token(Token = "0x40015DE")]
+	[Token(Token = "0x400153E")]
 	UseDigitPrefixInTokens = 0x20,
-	[Token(Token = "0x40015DF")]
+	[Token(Token = "0x400153F")]
 	NotInitialized = -1
 }

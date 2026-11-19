@@ -12,97 +12,97 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001E8")]
-[AottgScreen("credits", Title = "AoTTG 2 Credits", TitleKey = "Credits.Title", SearchTitle = "Credits", SearchTitleKey = "Common.Credits", SearchGroup = "main-menu", BackScreenId = "main-menu")]
+[Token(Token = "0x2000202")]
+[AottgScreen("credits", TitleKey = "Credits.Title", SearchTitleKey = "Common.Credits", SearchGroup = "main-menu", BackScreenId = "main-menu")]
 public sealed class AottgCreditsScreen : AottgScreen
 {
-	[Token(Token = "0x4000A42")]
+	[Token(Token = "0x4000ABA")]
 	public const string Id = "credits";
 
-	[Token(Token = "0x4000A43")]
+	[Token(Token = "0x4000ABB")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AottgBrushSidePanelOption[] Footer;
 
-	[Token(Token = "0x17000151")]
+	[Token(Token = "0x1700015A")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x6000B30")]
-		[Address(RVA = "0x23ABF70", Offset = "0x23AA570", VA = "0x1823ABF70", Slot = "4")]
+		[Token(Token = "0x6000BF4")]
+		[Address(RVA = "0x5D82120", Offset = "0x5D81120", VA = "0x5D82120", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000152")]
+	[Token(Token = "0x1700015B")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000B31")]
-		[Address(RVA = "0x23ABE60", Offset = "0x23AA460", VA = "0x1823ABE60", Slot = "5")]
+		[Token(Token = "0x6000BF5")]
+		[Address(RVA = "0x5D82150", Offset = "0x5D81150", VA = "0x5D82150", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B2F")]
-	[Address(RVA = "0x23ABCA0", Offset = "0x23AA2A0", VA = "0x1823ABCA0")]
+	[Token(Token = "0x6000BF3")]
+	[Address(RVA = "0x5D81E40", Offset = "0x5D80E40", VA = "0x5D81E40")]
 	static AottgCreditsScreen()
 	{
 	}
 
-	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x23AB270", Offset = "0x23A9870", VA = "0x1823AB270", Slot = "6")]
+	[Token(Token = "0x6000BF6")]
+	[Address(RVA = "0x5D82220", Offset = "0x5D81220", VA = "0x5D82220", Slot = "6")]
 	protected override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x23ABA50", Offset = "0x23AA050", VA = "0x1823ABA50")]
+	[Token(Token = "0x6000BF7")]
+	[Address(RVA = "0x5D82310", Offset = "0x5D81310", VA = "0x5D82310")]
 	private static AottgScreenSection[] Sections()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x23AB670", Offset = "0x23A9C70", VA = "0x1823AB670")]
+	[Token(Token = "0x6000BF8")]
+	[Address(RVA = "0x5D82630", Offset = "0x5D81630", VA = "0x5D82630")]
 	private static AottgScreenSection[] CreditSections(AottgCreditsResponse credits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x23AA590", Offset = "0x23A8B90", VA = "0x1823AA590")]
+	[Token(Token = "0x6000BF9")]
+	[Address(RVA = "0x5D829B0", Offset = "0x5D819B0", VA = "0x5D829B0")]
 	private static void BuildCredits(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000B36")]
-	[Address(RVA = "0x23AAD30", Offset = "0x23A9330", VA = "0x1823AAD30")]
+	[Token(Token = "0x6000BFA")]
+	[Address(RVA = "0x5D82BB0", Offset = "0x5D81BB0", VA = "0x5D82BB0")]
 	private static void BuildLoading(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x23AAFD0", Offset = "0x23A95D0", VA = "0x1823AAFD0")]
+	[Token(Token = "0x6000BFB")]
+	[Address(RVA = "0x5D82E10", Offset = "0x5D81E10", VA = "0x5D82E10")]
 	private static void BuildReadyPlaceholder(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x23AA7F0", Offset = "0x23A8DF0", VA = "0x1823AA7F0")]
+	[Token(Token = "0x6000BFC")]
+	[Address(RVA = "0x5D83070", Offset = "0x5D82070", VA = "0x5D83070")]
 	private static void BuildEmpty(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x23AAA90", Offset = "0x23A9090", VA = "0x1823AAA90")]
+	[Token(Token = "0x6000BFD")]
+	[Address(RVA = "0x5D832D0", Offset = "0x5D822D0", VA = "0x5D832D0")]
 	private static void BuildError(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000BFE")]
+	[Address(RVA = "0x5D83530", Offset = "0x5D82530", VA = "0x5D83530")]
 	public AottgCreditsScreen()
 	{
 	}

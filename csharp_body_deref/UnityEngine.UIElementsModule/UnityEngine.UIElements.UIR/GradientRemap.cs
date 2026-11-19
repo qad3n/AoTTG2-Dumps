@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005E2")]
+[Token(Token = "0x20005D2")]
 internal class GradientRemap : LinkedPoolItem<GradientRemap>
 {
-	[Token(Token = "0x40015DC")]
+	[Token(Token = "0x400154B")]
 	[FieldOffset(Offset = "0x18")]
 	public int origIndex;
 
-	[Token(Token = "0x40015DD")]
+	[Token(Token = "0x400154C")]
 	[FieldOffset(Offset = "0x1C")]
 	public int destIndex;
 
-	[Token(Token = "0x40015DE")]
+	[Token(Token = "0x400154D")]
 	[FieldOffset(Offset = "0x20")]
 	public RectInt location;
 
-	[Token(Token = "0x40015DF")]
+	[Token(Token = "0x400154E")]
 	[FieldOffset(Offset = "0x30")]
 	public GradientRemap next;
 
-	[Token(Token = "0x40015E0")]
+	[Token(Token = "0x400154F")]
 	[FieldOffset(Offset = "0x38")]
 	public TextureId atlas;
 
-	[Token(Token = "0x6002B8B")]
-	[Address(RVA = "0x31A39D0", Offset = "0x31A1FD0", VA = "0x1831A39D0")]
+	[Token(Token = "0x6002B56")]
+	[Address(RVA = "0x6BB0330", Offset = "0x6BAF330", VA = "0x6BB0330")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x6002B8C")]
-	[Address(RVA = "0x31A3A40", Offset = "0x31A2040", VA = "0x1831A3A40")]
+	[Token(Token = "0x6002B57")]
+	[Address(RVA = "0x6BB0280", Offset = "0x6BAF280", VA = "0x6BB0280")]
 	public GradientRemap()
 	{
 	}

@@ -13,23 +13,23 @@ namespace UnityEngine.Pool;
 [Token(Token = "0x20002E9")]
 public class CollectionPool<TCollection, TItem> where TCollection : class, ICollection<TItem>, new()
 {
-	[Token(Token = "0x400076F")]
+	[Token(Token = "0x400076D")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly ObjectPool<TCollection> s_Pool;
 
-	[Token(Token = "0x60011D2")]
+	[Token(Token = "0x60011E6")]
 	public static TCollection Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011D3")]
+	[Token(Token = "0x60011E7")]
 	public static PooledObject<TCollection> Get(out TCollection value)
 	{
 		return default(PooledObject<TCollection>);
 	}
 
-	[Token(Token = "0x60011D4")]
+	[Token(Token = "0x60011E8")]
 	public static void Release(TCollection toRelease)
 	{
 	}

@@ -9,52 +9,52 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20001B7")]
+[Token(Token = "0x20001B8")]
 internal sealed class LocalVariable
 {
-	[Token(Token = "0x4000391")]
+	[Token(Token = "0x400039A")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly int Index;
 
-	[Token(Token = "0x4000392")]
+	[Token(Token = "0x400039B")]
 	[FieldOffset(Offset = "0x14")]
 	private int _flags;
 
-	[Token(Token = "0x170001F8")]
+	[Token(Token = "0x170001FA")]
 	public bool IsBoxed
 	{
-		[Token(Token = "0x600099E")]
-		[Address(RVA = "0x2473230", Offset = "0x2471830", VA = "0x182473230")]
+		[Token(Token = "0x60009A9")]
+		[Address(RVA = "0x5E06F90", Offset = "0x5E05F90", VA = "0x5E06F90")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600099F")]
-		[Address(RVA = "0x2473240", Offset = "0x2471840", VA = "0x182473240")]
+		[Token(Token = "0x60009AA")]
+		[Address(RVA = "0x5E0CA90", Offset = "0x5E0BA90", VA = "0x5E0CA90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001F9")]
+	[Token(Token = "0x170001FB")]
 	public bool InClosure
 	{
-		[Token(Token = "0x60009A0")]
-		[Address(RVA = "0x2473220", Offset = "0x2471820", VA = "0x182473220")]
+		[Token(Token = "0x60009AB")]
+		[Address(RVA = "0x5E06F80", Offset = "0x5E05F80", VA = "0x5E06F80")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60009A1")]
-	[Address(RVA = "0x24731E0", Offset = "0x24717E0", VA = "0x1824731E0")]
+	[Token(Token = "0x60009AC")]
+	[Address(RVA = "0x5E0CAA0", Offset = "0x5E0BAA0", VA = "0x5E0CAA0")]
 	internal LocalVariable(int index, bool closure)
 	{
 	}
 
-	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x2473100", Offset = "0x2471700", VA = "0x182473100", Slot = "3")]
+	[Token(Token = "0x60009AD")]
+	[Address(RVA = "0x5E0CAD0", Offset = "0x5E0BAD0", VA = "0x5E0CAD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

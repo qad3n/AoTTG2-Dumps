@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualTreeLayoutUpdater
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -52,7 +52,7 @@ internal class VisualTreeLayoutUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x600284E")]
-		[Address(RVA = "0x3172190", Offset = "0x3170790", VA = "0x183172190", Slot = "12")]
+		[Address(RVA = "0x6B708D0", Offset = "0x6B6F8D0", VA = "0x6B708D0", Slot = "12")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -60,44 +60,44 @@ internal class VisualTreeLayoutUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x600284F")]
-	[Address(RVA = "0x3170CF0", Offset = "0x316F2F0", VA = "0x183170CF0", Slot = "15")]
+	[Address(RVA = "0x6B70940", Offset = "0x6B6F940", VA = "0x6B70940", Slot = "15")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6002850")]
-	[Address(RVA = "0x3171AF0", Offset = "0x31700F0", VA = "0x183171AF0", Slot = "14")]
+	[Address(RVA = "0x6B70A90", Offset = "0x6B6FA90", VA = "0x6B70A90", Slot = "14")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6002851")]
-	[Address(RVA = "0x3170E40", Offset = "0x316F440", VA = "0x183170E40")]
+	[Address(RVA = "0x6B72100", Offset = "0x6B71100", VA = "0x6B72100")]
 	private static bool UpdateHierarchyDisplayed(VisualElement ve, List<(Rect, Rect, VisualElement)> changeEvents, bool inheritedDisplayed = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002852")]
-	[Address(RVA = "0x31711C0", Offset = "0x316F7C0", VA = "0x1831711C0")]
+	[Address(RVA = "0x6B70FB0", Offset = "0x6B6FFB0", VA = "0x6B70FB0")]
 	private void UpdateSubTree(VisualElement ve, List<(Rect, Rect, VisualElement)> changeEvents)
 	{
 	}
 
 	[Token(Token = "0x6002853")]
-	[Address(RVA = "0x3170700", Offset = "0x316ED00", VA = "0x183170700")]
+	[Address(RVA = "0x6B71A00", Offset = "0x6B70A00", VA = "0x6B71A00")]
 	private void DispatchChangeEvents(List<(Rect, Rect, VisualElement)> changeEvents, int currentLayoutPass)
 	{
 	}
 
 	[Token(Token = "0x6002854")]
-	[Address(RVA = "0x31709D0", Offset = "0x316EFD0", VA = "0x1831709D0")]
+	[Address(RVA = "0x6B71D50", Offset = "0x6B70D50", VA = "0x6B71D50")]
 	private void DispatchMissedHierarchyChangeEvents(List<VisualElement> missedHierarchyChangeEvents, int currentLayoutPass)
 	{
 	}
 
 	[Token(Token = "0x6002855")]
-	[Address(RVA = "0x3172090", Offset = "0x3170690", VA = "0x183172090")]
+	[Address(RVA = "0x6B724D0", Offset = "0x6B714D0", VA = "0x6B724D0")]
 	public VisualTreeLayoutUpdater()
 	{
 	}

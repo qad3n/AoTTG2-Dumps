@@ -10,70 +10,70 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003C4")]
+[Token(Token = "0x200039D")]
 internal class IllogicalCallContext
 {
-	[Token(Token = "0x4000F3D")]
+	[Token(Token = "0x4000E9D")]
 	[FieldOffset(Offset = "0x10")]
 	private Hashtable m_Datastore;
 
-	[Token(Token = "0x4000F3E")]
+	[Token(Token = "0x4000E9E")]
 	[FieldOffset(Offset = "0x18")]
 	private object m_HostContext;
 
-	[Token(Token = "0x17000396")]
+	[Token(Token = "0x17000395")]
 	private Hashtable Datastore
 	{
-		[Token(Token = "0x6001E56")]
-		[Address(RVA = "0x19FB4C0", Offset = "0x19F9AC0", VA = "0x1819FB4C0")]
+		[Token(Token = "0x6001E2C")]
+		[Address(RVA = "0x538CBA0", Offset = "0x538BBA0", VA = "0x538CBA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000397")]
+	[Token(Token = "0x17000396")]
 	internal object HostContext
 	{
-		[Token(Token = "0x6001E57")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001E2D")]
+		[Address(RVA = "0x538CC20", Offset = "0x538BC20", VA = "0x538CC20")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001E58")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6001E2E")]
+		[Address(RVA = "0x538CC30", Offset = "0x538BC30", VA = "0x538CC30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000398")]
+	[Token(Token = "0x17000397")]
 	internal bool HasUserData
 	{
-		[Token(Token = "0x6001E59")]
-		[Address(RVA = "0x19FB530", Offset = "0x19F9B30", VA = "0x1819FB530")]
+		[Token(Token = "0x6001E2F")]
+		[Address(RVA = "0x538CC40", Offset = "0x538BC40", VA = "0x538CC40")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001E5A")]
-	[Address(RVA = "0x19FB420", Offset = "0x19F9A20", VA = "0x1819FB420")]
+	[Token(Token = "0x6001E30")]
+	[Address(RVA = "0x538CA20", Offset = "0x538BA20", VA = "0x538CA20")]
 	public void FreeNamedDataSlot(string name)
 	{
 	}
 
-	[Token(Token = "0x6001E5B")]
-	[Address(RVA = "0x19FB110", Offset = "0x19F9710", VA = "0x1819FB110")]
+	[Token(Token = "0x6001E31")]
+	[Address(RVA = "0x538CC70", Offset = "0x538BC70", VA = "0x538CC70")]
 	public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E5C")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001E32")]
+	[Address(RVA = "0x538CF50", Offset = "0x538BF50", VA = "0x538CF50")]
 	public IllogicalCallContext()
 	{
 	}

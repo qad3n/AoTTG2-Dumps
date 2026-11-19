@@ -1,59 +1,46 @@
 // Type: Map.MapFracture
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapFracture.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Map.MapFracture.Vertex$$.ctor
 // il2cpp: void Map_MapFracture_Vertex___ctor (Map_MapFracture_Vertex_o __this, UnityEngine_Vector3_o position, UnityEngine_Vector3_o normal, UnityEngine_Vector2_o uv, float shade, const MethodInfo* method);
-// 0x181ebac60
+// 0x598b720
 
 void Map_MapFracture_Vertex___ctor
-               (Map_MapFracture_Vertex_o *__this,UnityEngine_Vector3_o *position,UnityEngine_Vector3_o *normal
-               ,UnityEngine_Vector2_o uv,float shade,MethodInfo *method)
+               (Map_MapFracture_Vertex_o *__this,UnityEngine_Vector3_o position,UnityEngine_Vector3_o normal,
+               UnityEngine_Vector2_o uv,float shade,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  
-  fVar2 = (position->fields).y;
-  fVar1 = (position->fields).z;
-  (__this->fields).Position.fields.x = (position->fields).x;
-  (__this->fields).Position.fields.y = fVar2;
-  fVar2 = (normal->fields).y;
-  (__this->fields).Normal.fields.x = (normal->fields).x;
-  (__this->fields).Normal.fields.y = fVar2;
-  (__this->fields).Position.fields.z = fVar1;
-  fVar1 = (normal->fields).z;
-  (__this->fields).Shade = shade;
-  (__this->fields).Normal.fields.z = fVar1;
+  (__this->fields).Position.fields.x = position.fields.x;
+  (__this->fields).Position.fields.y = position.fields.y;
+  (__this->fields).Position.fields.z = position.fields.z;
+  (__this->fields).Normal.fields.x = normal.fields.x;
+  (__this->fields).Normal.fields.y = normal.fields.y;
+  (__this->fields).Normal.fields.z = normal.fields.z;
   (__this->fields).UV.fields = uv.fields;
+  (__this->fields).Shade = shade;
   return;
 }
 
 
 // Map.MapFracture.Vertex$$Lerp
 // il2cpp: Map_MapFracture_Vertex_o Map_MapFracture_Vertex__Lerp (Map_MapFracture_Vertex_o a, Map_MapFracture_Vertex_o b, float t, const MethodInfo* method);
-// 0x181eba9e0
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ebaa51: movaps xmm0, xmm6
-// asm:   0x181ebaa54: jmp 0x181ebaa5e
-// asm:   0x181ebaab6: movaps xmm0, xmm6
-// asm:   0x181ebaab9: jmp 0x181ebaac3
-// asm:   0x181ebab91: movaps xmm0, xmm6
-// asm:   0x181ebab94: jmp 0x181ebab9e
+// 0x598d0a0
 
 Map_MapFracture_Vertex_o *
 Map_MapFracture_Vertex__Lerp
-          (Map_MapFracture_Vertex_o *__return_storage_ptr__,Map_MapFracture_Vertex_o *a,
-          Map_MapFracture_Vertex_o *b,float t,MethodInfo *method)
+          (Map_MapFracture_Vertex_o *__return_storage_ptr__,Map_MapFracture_Vertex_o a,
+          Map_MapFracture_Vertex_o b,float t,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
+  undefined1 auVar1 [16];
+  UnityEngine_Vector3_StaticFields *pUVar2;
+  undefined4 uVar3;
+  undefined4 extraout_XMM0_Db;
   float fVar4;
   float fVar5;
   float fVar6;
@@ -62,165 +49,183 @@ Map_MapFracture_Vertex__Lerp
   float fVar9;
   float fVar10;
   float fVar11;
-  UnityEngine_Vector3_StaticFields *pUVar12;
-  float fVar13;
+  UnityEngine_Vector2_Fields UVar12;
+  undefined1 auVar13 [16];
   float fVar14;
   float fVar15;
   float fVar16;
   float fVar17;
-  float fVar18;
-  float local_a8;
-  float local_a4;
-  float local_a0;
+  UnityEngine_Vector3_Fields local_70;
+  float fStack_64;
+  undefined8 uStack_60;
+  undefined1 local_58 [8];
+  float fStack_50;
+  float fStack_4c;
+  undefined1 local_48 [8];
+  UnityEngine_Vector3_Fields UStack_40;
+  float fStack_34;
+  float fStack_30;
+  float fStack_2c;
+  undefined1 local_28 [16];
+  undefined1 local_18 [16];
   
-  fVar1 = (a->fields).Position.fields.x;
-  fVar2 = (a->fields).Position.fields.y;
-  fVar3 = (a->fields).Position.fields.z;
-  if (t < 0.0) {
-    fVar13 = 0.0;
+  local_48._0_4_ = a.fields.Position.fields.x;
+  local_48._4_4_ = a.fields.Position.fields.y;
+  UStack_40.x = 0.0;
+  UStack_40.y = 0.0;
+  local_18._0_4_ = b.fields.Position.fields.x;
+  local_18._4_4_ = b.fields.Position.fields.y;
+  local_18._8_4_ = 0.0;
+  local_18._12_4_ = 0.0;
+  UStack_40.z = 1.0;
+  if (t <= 1.0) {
+    UStack_40.z = t;
   }
-  else {
-    fVar13 = t;
-    if (1.0 < t) {
-      fVar13 = 1.0;
-    }
-  }
-  fVar4 = (b->fields).Position.fields.x;
-  fVar5 = (b->fields).Position.fields.y;
-  fVar6 = (b->fields).Position.fields.z;
-  fVar18 = (a->fields).Normal.fields.x;
-  fVar16 = (a->fields).Normal.fields.y;
-  fVar17 = (a->fields).Normal.fields.z;
-  if (t < 0.0) {
-    fVar14 = 0.0;
-  }
-  else {
-    fVar14 = t;
-    if (1.0 < t) {
-      fVar14 = 1.0;
-    }
-  }
-  fVar18 = ((b->fields).Normal.fields.x - fVar18) * fVar14 + fVar18;
-  fVar16 = ((b->fields).Normal.fields.y - fVar16) * fVar14 + fVar16;
-  fVar17 = ((b->fields).Normal.fields.z - fVar17) * fVar14 + fVar17;
-  local_a8 = fVar18;
-  local_a4 = fVar16;
-  local_a0 = fVar17;
-  if (Il2CppMethodInitialized_18433de5f == '\0') {
+  UStack_40.z = (float)(-(uint)(0.0 <= t) & (uint)UStack_40.z);
+  fVar4 = b.fields.Normal.fields.x - a.fields.Normal.fields.x;
+  fVar6 = b.fields.Normal.fields.y - a.fields.Normal.fields.y;
+  local_28 = ZEXT416((uint)UStack_40.z);
+  fStack_34 = UStack_40.z;
+  fStack_30 = UStack_40.z;
+  fStack_2c = UStack_40.z;
+  fVar8 = 0.0;
+  fVar10 = 0.0;
+  fVar14 = UStack_40.z;
+  fVar15 = 0.0;
+  fVar16 = 0.0;
+  fVar17 = 0.0;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
+    _local_58 = ZEXT416((uint)UStack_40.z);
+    fStack_64 = fVar6;
+    local_70.z = fVar4;
+    uStack_60._0_4_ = 0.0;
+    uStack_60._4_4_ = 0.0;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5f = '\x01';
+    Il2CppMethodInitialized_0753e72d = '\x01';
+    fVar4 = local_70.z;
+    fVar6 = fStack_64;
+    fVar8 = (float)uStack_60;
+    fVar10 = uStack_60._4_4_;
+    fVar14 = (float)local_58._0_4_;
+    fVar15 = (float)local_58._4_4_;
+    fVar16 = fStack_50;
+    fVar17 = fStack_4c;
   }
-  fVar14 = (float)il2cpp_runtime_helper_180546a40(&local_a8,0);
-  if (fVar14 <= 1e-05) {
-    pUVar12 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar18 = (pUVar12->zeroVector).fields.x;
-    fVar16 = (pUVar12->zeroVector).fields.y;
-    fVar17 = (pUVar12->zeroVector).fields.z;
+  fVar14 = fVar14 * (b.fields.Normal.fields.z - a.fields.Normal.fields.z);
+  local_70.x = 0.0;
+  local_70.y = 0.0;
+  fVar5 = fVar4 * UStack_40.z;
+  fVar7 = fVar6 * fStack_34;
+  fVar9 = fVar8 * fStack_30;
+  fVar11 = fVar10 * fStack_2c;
+  if (Il2CppMethodInitialized_0753e729 == '\0') {
+    local_58._4_4_ = fVar15;
+    local_58._0_4_ = fVar14;
+    fStack_50 = fVar16;
+    fStack_4c = fVar17;
+    fStack_64 = fVar6 * fStack_34;
+    local_70.z = fVar4 * UStack_40.z;
+    uStack_60._4_4_ = fVar10 * fStack_2c;
+    uStack_60._0_4_ = fVar8 * fStack_30;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e729 = '\x01';
+    fVar5 = local_70.z;
+    fVar7 = fStack_64;
+    fVar9 = (float)uStack_60;
+    fVar11 = uStack_60._4_4_;
+    fVar14 = (float)local_58._0_4_;
+  }
+  auVar13._0_4_ = a.fields.Normal.fields.x + fVar5;
+  auVar13._4_4_ = a.fields.Normal.fields.y + fVar7;
+  auVar13._8_4_ = fVar9 + 0.0;
+  auVar13._12_4_ = fVar11 + 0.0;
+  fVar14 = a.fields.Normal.fields.z + fVar14;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  uVar3 = 0;
+  fVar4 = fVar14 * fVar14 + auVar13._4_4_ * auVar13._4_4_ + auVar13._0_4_ * auVar13._0_4_;
+  if (fVar4 < 0.0) {
+    fVar4 = sqrtf(fVar4);
+    uVar3 = extraout_XMM0_Db;
   }
   else {
-    fVar18 = fVar18 / fVar14;
-    fVar16 = fVar16 / fVar14;
-    fVar17 = fVar17 / fVar14;
+    fVar4 = SQRT(fVar4);
   }
-  fVar14 = (a->fields).UV.fields.x;
-  fVar7 = (a->fields).UV.fields.y;
-  if (t < 0.0) {
-    fVar15 = 0.0;
+  if (fVar4 <= 1e-05) {
+    pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar14 = (pUVar2->zeroVector).fields.z;
   }
   else {
-    fVar15 = t;
-    if (1.0 < t) {
-      fVar15 = 1.0;
-    }
+    fVar14 = fVar14 / fVar4;
+    auVar1._4_4_ = fVar4;
+    auVar1._0_4_ = fVar4;
+    auVar1._8_4_ = uVar3;
+    auVar1._12_4_ = uVar3;
+    auVar13 = divps(auVar13,auVar1);
+    local_70.x = auVar13._0_4_;
+    local_70.y = auVar13._4_4_;
+    pUVar2 = (UnityEngine_Vector3_StaticFields *)&local_70;
   }
-  fVar8 = (b->fields).UV.fields.x;
-  fVar9 = (b->fields).UV.fields.y;
-  fVar10 = (a->fields).Shade;
-  if (t < 0.0) {
-    t = 0.0;
-  }
-  else if (1.0 < t) {
-    t = 1.0;
-  }
-  fVar11 = (b->fields).Shade;
-  (__return_storage_ptr__->fields).Position.fields.x = (fVar4 - fVar1) * fVar13 + fVar1;
-  (__return_storage_ptr__->fields).Position.fields.y = (fVar5 - fVar2) * fVar13 + fVar2;
-  (__return_storage_ptr__->fields).Normal.fields.x = fVar18;
-  (__return_storage_ptr__->fields).Normal.fields.y = fVar16;
-  (__return_storage_ptr__->fields).Position.fields.z = (fVar6 - fVar3) * fVar13 + fVar3;
-  (__return_storage_ptr__->fields).Normal.fields.z = fVar17;
-  (__return_storage_ptr__->fields).Shade = (fVar11 - fVar10) * t + fVar10;
-  (__return_storage_ptr__->fields).UV.fields.x = (fVar8 - fVar14) * fVar15 + fVar14;
-  (__return_storage_ptr__->fields).UV.fields.y = (fVar9 - fVar7) * fVar15 + fVar7;
+  fVar4 = (pUVar2->zeroVector).fields.x;
+  fVar6 = (pUVar2->zeroVector).fields.y;
+  UVar12.x = (b.fields.UV.fields.x - a.fields.UV.fields.x) * UStack_40.z + a.fields.UV.fields.x;
+  UVar12.y = (b.fields.UV.fields.y - a.fields.UV.fields.y) * fStack_34 + a.fields.UV.fields.y;
+  (__return_storage_ptr__->fields).Position.fields.x =
+       ((float)local_18._0_4_ - (float)local_48._0_4_) * UStack_40.z + (float)local_48._0_4_;
+  (__return_storage_ptr__->fields).Position.fields.y =
+       ((float)local_18._4_4_ - (float)local_48._4_4_) * fStack_34 + (float)local_48._4_4_;
+  (__return_storage_ptr__->fields).Position.fields.z =
+       (b.fields.Position.fields.z - a.fields.Position.fields.z) * (float)local_28._0_4_ +
+       a.fields.Position.fields.z;
+  (__return_storage_ptr__->fields).Normal.fields.x = fVar4;
+  (__return_storage_ptr__->fields).Normal.fields.y = fVar6;
+  (__return_storage_ptr__->fields).Normal.fields.z = fVar14;
+  (__return_storage_ptr__->fields).UV.fields = UVar12;
+  (__return_storage_ptr__->fields).Shade =
+       (b.fields.Shade - a.fields.Shade) * (float)local_28._0_4_ + a.fields.Shade;
   return __return_storage_ptr__;
 }
 
 
 // Map.MapFracture.Triangle$$.ctor
 // il2cpp: void Map_MapFracture_Triangle___ctor (Map_MapFracture_Triangle_o __this, Map_MapFracture_Vertex_o a, Map_MapFracture_Vertex_o b, Map_MapFracture_Vertex_o c, int32_t submesh, const MethodInfo* method);
-// 0x181eb6b10
+// 0x5988f60
 
 void Map_MapFracture_Triangle___ctor
-               (Map_MapFracture_Triangle_o *__this,Map_MapFracture_Vertex_o *a,Map_MapFracture_Vertex_o *b,
-               Map_MapFracture_Vertex_o *c,int32_t submesh,MethodInfo *method)
+               (Map_MapFracture_Triangle_o *__this,Map_MapFracture_Vertex_o a,Map_MapFracture_Vertex_o b,
+               Map_MapFracture_Vertex_o c,int32_t submesh,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined8 uVar2;
-  UnityEngine_Vector2_Fields UVar3;
-  Map_MapFracture_Vertex_o *pMVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  float fVar8;
+  Map_MapFracture_Vertex_o *pMVar1;
   
-  fVar5 = (a->fields).Position.fields.y;
-  uVar2 = *(undefined8 *)&(a->fields).Position.fields.z;
-  fVar1 = (a->fields).Shade;
-  fVar6 = (a->fields).Normal.fields.y;
-  fVar7 = (a->fields).Normal.fields.z;
-  UVar3 = (a->fields).UV.fields;
-  pMVar4 = &(__this->fields).A;
-  (pMVar4->fields).Position.fields.x = (a->fields).Position.fields.x;
-  (pMVar4->fields).Position.fields.y = fVar5;
-  *(undefined8 *)&(__this->fields).A.fields.Position.fields.z = uVar2;
-  fVar5 = (b->fields).Position.fields.x;
-  fVar8 = (b->fields).Position.fields.y;
-  uVar2 = *(undefined8 *)&(b->fields).Position.fields.z;
-  pMVar4 = &(__this->fields).A;
-  (pMVar4->fields).Normal.fields.y = fVar6;
-  (pMVar4->fields).Normal.fields.z = fVar7;
-  (__this->fields).A.fields.UV.fields = UVar3;
-  (__this->fields).A.fields.Shade = fVar1;
-  fVar6 = (b->fields).Normal.fields.y;
-  fVar7 = (b->fields).Normal.fields.z;
-  UVar3 = (b->fields).UV.fields;
-  fVar1 = (b->fields).Shade;
-  pMVar4 = &(__this->fields).B;
-  (pMVar4->fields).Position.fields.x = fVar5;
-  (pMVar4->fields).Position.fields.y = fVar8;
-  *(undefined8 *)&(__this->fields).B.fields.Position.fields.z = uVar2;
-  fVar5 = (c->fields).Position.fields.x;
-  fVar8 = (c->fields).Position.fields.y;
-  uVar2 = *(undefined8 *)&(c->fields).Position.fields.z;
-  pMVar4 = &(__this->fields).B;
-  (pMVar4->fields).Normal.fields.y = fVar6;
-  (pMVar4->fields).Normal.fields.z = fVar7;
-  (__this->fields).B.fields.UV.fields = UVar3;
-  (__this->fields).B.fields.Shade = fVar1;
-  fVar1 = (c->fields).Shade;
-  fVar6 = (c->fields).Normal.fields.y;
-  fVar7 = (c->fields).Normal.fields.z;
-  UVar3 = (c->fields).UV.fields;
-  pMVar4 = &(__this->fields).C;
-  (pMVar4->fields).Position.fields.x = fVar5;
-  (pMVar4->fields).Position.fields.y = fVar8;
-  *(undefined8 *)&(__this->fields).C.fields.Position.fields.z = uVar2;
-  pMVar4 = &(__this->fields).C;
-  (pMVar4->fields).Normal.fields.y = fVar6;
-  (pMVar4->fields).Normal.fields.z = fVar7;
-  (__this->fields).C.fields.UV.fields = UVar3;
-  (__this->fields).C.fields.Shade = fVar1;
+  (__this->fields).A.fields.Shade = a.fields.Shade;
+  pMVar1 = &(__this->fields).A;
+  (pMVar1->fields).Normal.fields.y = a.fields.Normal.fields.y;
+  (pMVar1->fields).Normal.fields.z = a.fields.Normal.fields.z;
+  (__this->fields).A.fields.UV.fields = a.fields.UV.fields;
+  pMVar1 = &(__this->fields).A;
+  (pMVar1->fields).Position.fields.x = a.fields.Position.fields.x;
+  (pMVar1->fields).Position.fields.y = a.fields.Position.fields.y;
+  *(undefined8 *)&(__this->fields).A.fields.Position.fields.z = a.fields._8_8_;
+  pMVar1 = &(__this->fields).B;
+  (pMVar1->fields).Position.fields.x = b.fields.Position.fields.x;
+  (pMVar1->fields).Position.fields.y = b.fields.Position.fields.y;
+  *(undefined8 *)&(__this->fields).B.fields.Position.fields.z = b.fields._8_8_;
+  pMVar1 = &(__this->fields).B;
+  (pMVar1->fields).Normal.fields.y = b.fields.Normal.fields.y;
+  (pMVar1->fields).Normal.fields.z = b.fields.Normal.fields.z;
+  (__this->fields).B.fields.UV.fields = b.fields.UV.fields;
+  (__this->fields).B.fields.Shade = b.fields.Shade;
+  pMVar1 = &(__this->fields).C;
+  (pMVar1->fields).Normal.fields.y = c.fields.Normal.fields.y;
+  (pMVar1->fields).Normal.fields.z = c.fields.Normal.fields.z;
+  (__this->fields).C.fields.UV.fields = c.fields.UV.fields;
+  pMVar1 = &(__this->fields).C;
+  (pMVar1->fields).Position.fields.x = c.fields.Position.fields.x;
+  (pMVar1->fields).Position.fields.y = c.fields.Position.fields.y;
+  *(undefined8 *)&(__this->fields).C.fields.Position.fields.z = c.fields._8_8_;
+  (__this->fields).C.fields.Shade = c.fields.Shade;
   (__this->fields).Submesh = submesh;
   return;
 }
@@ -228,152 +233,135 @@ void Map_MapFracture_Triangle___ctor
 
 // Map.MapFracture.Segment$$.ctor
 // il2cpp: void Map_MapFracture_Segment___ctor (Map_MapFracture_Segment_o __this, Map_MapFracture_Vertex_o a, Map_MapFracture_Vertex_o b, int32_t submesh, const MethodInfo* method);
-// 0x181eb6ad0
+// 0x598d340
 
 void Map_MapFracture_Segment___ctor
-               (Map_MapFracture_Segment_o *__this,Map_MapFracture_Vertex_o *a,Map_MapFracture_Vertex_o *b,
+               (Map_MapFracture_Segment_o *__this,Map_MapFracture_Vertex_o a,Map_MapFracture_Vertex_o b,
                int32_t submesh,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined8 uVar2;
-  UnityEngine_Vector2_Fields UVar3;
-  Map_MapFracture_Vertex_o *pMVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  float fVar8;
+  Map_MapFracture_Vertex_o *pMVar1;
   
-  fVar5 = (a->fields).Position.fields.x;
-  fVar6 = (a->fields).Position.fields.y;
-  uVar2 = *(undefined8 *)&(a->fields).Position.fields.z;
-  fVar1 = (a->fields).Shade;
-  fVar7 = (a->fields).Normal.fields.y;
-  fVar8 = (a->fields).Normal.fields.z;
-  UVar3 = (a->fields).UV.fields;
+  (__this->fields).A.fields.Shade = a.fields.Shade;
+  pMVar1 = &(__this->fields).A;
+  (pMVar1->fields).Normal.fields.y = a.fields.Normal.fields.y;
+  (pMVar1->fields).Normal.fields.z = a.fields.Normal.fields.z;
+  (__this->fields).A.fields.UV.fields = a.fields.UV.fields;
+  pMVar1 = &(__this->fields).A;
+  (pMVar1->fields).Position.fields.x = a.fields.Position.fields.x;
+  (pMVar1->fields).Position.fields.y = a.fields.Position.fields.y;
+  *(undefined8 *)&(__this->fields).A.fields.Position.fields.z = a.fields._8_8_;
+  pMVar1 = &(__this->fields).B;
+  (pMVar1->fields).Position.fields.x = b.fields.Position.fields.x;
+  (pMVar1->fields).Position.fields.y = b.fields.Position.fields.y;
+  *(undefined8 *)&(__this->fields).B.fields.Position.fields.z = b.fields._8_8_;
+  pMVar1 = &(__this->fields).B;
+  (pMVar1->fields).Normal.fields.y = b.fields.Normal.fields.y;
+  (pMVar1->fields).Normal.fields.z = b.fields.Normal.fields.z;
+  (__this->fields).B.fields.UV.fields = b.fields.UV.fields;
+  (__this->fields).B.fields.Shade = b.fields.Shade;
   (__this->fields).Submesh = submesh;
-  pMVar4 = &(__this->fields).A;
-  (pMVar4->fields).Position.fields.x = fVar5;
-  (pMVar4->fields).Position.fields.y = fVar6;
-  *(undefined8 *)&(__this->fields).A.fields.Position.fields.z = uVar2;
-  fVar5 = (b->fields).Position.fields.x;
-  fVar6 = (b->fields).Position.fields.y;
-  uVar2 = *(undefined8 *)&(b->fields).Position.fields.z;
-  pMVar4 = &(__this->fields).A;
-  (pMVar4->fields).Normal.fields.y = fVar7;
-  (pMVar4->fields).Normal.fields.z = fVar8;
-  (__this->fields).A.fields.UV.fields = UVar3;
-  (__this->fields).A.fields.Shade = fVar1;
-  fVar7 = (b->fields).Normal.fields.y;
-  fVar8 = (b->fields).Normal.fields.z;
-  UVar3 = (b->fields).UV.fields;
-  fVar1 = (b->fields).Shade;
-  pMVar4 = &(__this->fields).B;
-  (pMVar4->fields).Position.fields.x = fVar5;
-  (pMVar4->fields).Position.fields.y = fVar6;
-  *(undefined8 *)&(__this->fields).B.fields.Position.fields.z = uVar2;
-  pMVar4 = &(__this->fields).B;
-  (pMVar4->fields).Normal.fields.y = fVar7;
-  (pMVar4->fields).Normal.fields.z = fVar8;
-  (__this->fields).B.fields.UV.fields = UVar3;
-  (__this->fields).B.fields.Shade = fVar1;
   return;
 }
 
 
 // Map.MapFracture.Opening$$.ctor
 // il2cpp: void Map_MapFracture_Opening___ctor (Map_MapFracture_Opening_o __this, UnityEngine_Vector3_o normal, int32_t submesh, const MethodInfo* method);
-// 0x18180f450
+// 0x598d880
 
-void
-Map_MapFracture_Opening___ctor(Map_MapFracture_Opening_o __this, UnityEngine_Vector3_o normal, int32_t submesh, MethodInfo* method)
+void Map_MapFracture_Opening___ctor
+               (Map_MapFracture_Opening_o *__this,UnityEngine_Vector3_o normal,int32_t submesh,
+               MethodInfo *method)
 
 {
-  int32_t iVar1;
-  int32_t iVar2;
-  
-  iVar2 = (position->fields).m_Y;
-  iVar1 = (position->fields).m_Z;
-  (__this->fields).position.fields.m_X = (position->fields).m_X;
-  (__this->fields).position.fields.m_Y = iVar2;
-  (__this->fields).position.fields.m_Z = iVar1;
-  (__this->fields).subdivisionLevel = subdivisionLevel;
+  (__this->fields).Normal.fields.x = normal.fields.x;
+  (__this->fields).Normal.fields.y = normal.fields.y;
+  (__this->fields).Normal.fields.z = normal.fields.z;
+  (__this->fields).Submesh = submesh;
   return;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass16_0$$.ctor
 // il2cpp: void Map_MapFracture___c__DisplayClass16_0___ctor (Map_MapFracture___c__DisplayClass16_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5988fb0
 
-void
-Map_MapFracture___c__DisplayClass16_0___ctor(Map_MapFracture___c__DisplayClass16_0_o* __this, MethodInfo* method)
+void Map_MapFracture___c__DisplayClass16_0___ctor
+               (Map_MapFracture___c__DisplayClass16_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass16_1$$.ctor
 // il2cpp: void Map_MapFracture___c__DisplayClass16_1___ctor (Map_MapFracture___c__DisplayClass16_1_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x598b070
 
-void
-Map_MapFracture___c__DisplayClass16_1___ctor(Map_MapFracture___c__DisplayClass16_1_o* __this, MethodInfo* method)
+void Map_MapFracture___c__DisplayClass16_1___ctor
+               (Map_MapFracture___c__DisplayClass16_1_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass16_1$$<Shatter>b__0
 // il2cpp: int32_t Map_MapFracture___c__DisplayClass16_1___Shatter_b__0 (Map_MapFracture___c__DisplayClass16_1_o* __this, int32_t a, int32_t b, const MethodInfo* method);
-// 0x181eb9d30
+// 0x598f380
 
 int32_t Map_MapFracture___c__DisplayClass16_1___Shatter_b__0
                   (Map_MapFracture___c__DisplayClass16_1_o *__this,int32_t a,int32_t b,MethodInfo *method)
 
 {
-  Map_MapFracture___c__DisplayClass16_0_o *pMVar1;
-  System_Collections_Generic_List_Vector3__o *pSVar2;
-  int32_t iVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  float local_res8 [2];
-  UnityEngine_Rendering_ProbeBrickPool_BrickChunkAlloc_o local_18;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  Map_MapFracture___c__DisplayClass16_0_o *pMVar5;
+  System_Collections_Generic_List_Vector3__o *pSVar6;
+  int32_t iVar7;
+  undefined8 in_RAX;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  UnityEngine_Vector3_o UVar11;
+  undefined8 uStack_28;
   
-  if (Il2CppMethodInitialized_184345098 == '\0') {
+  uStack_28 = in_RAX;
+  if (Il2CppMethodInitialized_07545a29 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
-    Il2CppMethodInitialized_184345098 = '\x01';
+    Il2CppMethodInitialized_07545a29 = '\x01';
   }
-  pMVar1 = (__this->fields).CS___8__locals1;
-  local_res8[0] = 0.0;
-  if ((pMVar1 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) &&
-     (pSVar2 = (pMVar1->fields).seeds, pSVar2 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
-    System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc___get_Item
-              (&local_18,(System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc__o *)pSVar2,a,
-               (MethodInfo_93BF30 *)MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
-    fVar6 = (float)local_18.fields.y - (__this->fields).own.fields.y;
-    fVar4 = (float)local_18.fields.x - (__this->fields).own.fields.x;
-    fVar5 = (float)local_18.fields.z - (__this->fields).own.fields.z;
-    pMVar1 = (__this->fields).CS___8__locals1;
-    local_res8[0] = fVar6 * fVar6 + fVar4 * fVar4 + fVar5 * fVar5;
-    if ((pMVar1 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) &&
-       (pSVar2 = (pMVar1->fields).seeds, pSVar2 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
-      System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc___get_Item
-                (&local_18,(System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc__o *)pSVar2,b,
-                 (MethodInfo_93BF30 *)MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
-      fVar5 = (float)local_18.fields.y - (__this->fields).own.fields.y;
-      fVar4 = (float)local_18.fields.x - (__this->fields).own.fields.x;
-      fVar6 = (float)local_18.fields.z - (__this->fields).own.fields.z;
-      iVar3 = System_Single__CompareTo_1b49410
-                        (local_res8,fVar5 * fVar5 + fVar4 * fVar4 + fVar6 * fVar6,(MethodInfo *)0x0);
-      return iVar3;
+  pMVar5 = (__this->fields).CS___8__locals1;
+  if ((pMVar5 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) &&
+     (pSVar6 = (pMVar5->fields).seeds, pSVar6 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
+    UVar11 = System_Collections_Generic_List_Vector3___get_Item
+                       (pSVar6,a,(MethodInfo_39FF5D0 *)
+                                 MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+    uVar1 = (__this->fields).own.fields.x;
+    uVar3 = (__this->fields).own.fields.y;
+    fVar8 = UVar11.fields.x - (float)uVar1;
+    fVar9 = UVar11.fields.y - (float)uVar3;
+    fVar10 = UVar11.fields.z - (__this->fields).own.fields.z;
+    uStack_28 = CONCAT44(fVar10 * fVar10 + fVar9 * fVar9 + fVar8 * fVar8,(undefined4)uStack_28);
+    pMVar5 = (__this->fields).CS___8__locals1;
+    if ((pMVar5 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) &&
+       (pSVar6 = (pMVar5->fields).seeds, pSVar6 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
+      UVar11 = System_Collections_Generic_List_Vector3___get_Item
+                         (pSVar6,b,(MethodInfo_39FF5D0 *)
+                                   MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+      uVar2 = (__this->fields).own.fields.x;
+      uVar4 = (__this->fields).own.fields.y;
+      fVar8 = UVar11.fields.y - (float)uVar4;
+      fVar9 = UVar11.fields.z - (__this->fields).own.fields.z;
+      fVar10 = UVar11.fields.x - (float)uVar2;
+      iVar7 = System_Single__CompareTo_54d0870
+                        ((float *)((long)&uStack_28 + 4),fVar8 * fVar8 + fVar10 * fVar10 + fVar9 * fVar9,
+                         (MethodInfo *)0x0);
+      return iVar7;
     }
   }
   ThrowNullReferenceException();
@@ -382,101 +370,116 @@ int32_t Map_MapFracture___c__DisplayClass16_1___Shatter_b__0
 
 // Map.MapFracture.<>c__DisplayClass18_0$$.ctor
 // il2cpp: void Map_MapFracture___c__DisplayClass18_0___ctor (Map_MapFracture___c__DisplayClass18_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x598b300
 
-void
-Map_MapFracture___c__DisplayClass18_0___ctor(Map_MapFracture___c__DisplayClass18_0_o* __this, MethodInfo* method)
+void Map_MapFracture___c__DisplayClass18_0___ctor
+               (Map_MapFracture___c__DisplayClass18_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass18_0$$<HasVolume>b__0
 // il2cpp: float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__0 (Map_MapFracture___c__DisplayClass18_0_o* __this, UnityEngine_Vector3_o point, const MethodInfo* method);
-// 0x181eb9e60
+// 0x598f460
 
 float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__0
-                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o *point,
+                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o point,
                 MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
   float fVar3;
+  float fVar4;
+  float fVar5;
   
-  fVar1 = (point->fields).y - (__this->fields).origin.fields.y;
-  fVar3 = (point->fields).x - (__this->fields).origin.fields.x;
-  fVar2 = (point->fields).z - (__this->fields).origin.fields.z;
-  return fVar1 * fVar1 + fVar3 * fVar3 + fVar2 * fVar2;
+  uVar1 = (__this->fields).origin.fields.x;
+  uVar2 = (__this->fields).origin.fields.y;
+  fVar3 = point.fields.y - (float)uVar2;
+  fVar4 = point.fields.z - (__this->fields).origin.fields.z;
+  fVar5 = point.fields.x - (float)uVar1;
+  return fVar3 * fVar3 + fVar5 * fVar5 + fVar4 * fVar4;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass18_0$$<HasVolume>b__1
 // il2cpp: float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__1 (Map_MapFracture___c__DisplayClass18_0_o* __this, UnityEngine_Vector3_o point, const MethodInfo* method);
-// 0x181eb9ea0
+// 0x598f490
 
 float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__1
-                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o *point,
+                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o point,
                 MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
   float fVar5;
   float fVar6;
   float fVar7;
+  float fVar8;
+  float fVar9;
   
-  fVar3 = (point->fields).z - (__this->fields).origin.fields.z;
-  fVar7 = (__this->fields).axis.fields.y;
-  fVar2 = (__this->fields).axis.fields.z;
-  fVar1 = (__this->fields).axis.fields.x;
-  fVar5 = (point->fields).x - (__this->fields).origin.fields.x;
-  fVar6 = (point->fields).y - (__this->fields).origin.fields.y;
-  fVar4 = fVar3 * fVar7 - fVar6 * fVar2;
-  fVar2 = fVar5 * fVar2 - fVar3 * fVar1;
-  fVar7 = fVar6 * fVar1 - fVar5 * fVar7;
-  return fVar2 * fVar2 + fVar4 * fVar4 + fVar7 * fVar7;
+  uVar1 = (__this->fields).axis.fields.x;
+  uVar3 = (__this->fields).axis.fields.y;
+  fVar9 = (__this->fields).axis.fields.z;
+  uVar2 = (__this->fields).origin.fields.x;
+  uVar4 = (__this->fields).origin.fields.y;
+  fVar5 = point.fields.x - (float)uVar2;
+  fVar6 = point.fields.y - (float)uVar4;
+  fVar7 = point.fields.z - (__this->fields).origin.fields.z;
+  fVar8 = fVar9 * fVar5 - fVar7 * (float)uVar1;
+  fVar5 = (float)uVar1 * fVar6 - (float)uVar3 * fVar5;
+  fVar9 = (float)uVar3 * fVar7 - fVar9 * fVar6;
+  return fVar9 * fVar9 + fVar8 * fVar8 + fVar5 * fVar5;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass18_0$$<HasVolume>b__2
 // il2cpp: float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__2 (Map_MapFracture___c__DisplayClass18_0_o* __this, UnityEngine_Vector3_o point, const MethodInfo* method);
-// 0x181eb9f30
+// 0x598f500
 
 float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__2
-                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o *point,
+                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o point,
                 MethodInfo *method)
 
 {
-  return (point->fields).y * (__this->fields).normal.fields.y +
-         (point->fields).x * (__this->fields).normal.fields.x +
-         (point->fields).z * (__this->fields).normal.fields.z;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  
+  uVar1 = (__this->fields).normal.fields.x;
+  uVar2 = (__this->fields).normal.fields.y;
+  return point.fields.x * (float)uVar1 + point.fields.y * (float)uVar2 +
+         point.fields.z * (__this->fields).normal.fields.z;
 }
 
 
 // Map.MapFracture.<>c__DisplayClass18_0$$<HasVolume>b__3
 // il2cpp: float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__3 (Map_MapFracture___c__DisplayClass18_0_o* __this, UnityEngine_Vector3_o point, const MethodInfo* method);
-// 0x181eb9f60
+// 0x598f520
 
 float Map_MapFracture___c__DisplayClass18_0___HasVolume_b__3
-                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o *point,
+                (Map_MapFracture___c__DisplayClass18_0_o *__this,UnityEngine_Vector3_o point,
                 MethodInfo *method)
 
 {
-  return -((point->fields).y * (__this->fields).normal.fields.y +
-           (point->fields).x * (__this->fields).normal.fields.x +
-          (point->fields).z * (__this->fields).normal.fields.z);
+  undefined4 uVar1;
+  undefined4 uVar2;
+  
+  uVar1 = (__this->fields).normal.fields.x;
+  uVar2 = (__this->fields).normal.fields.y;
+  return -(point.fields.x * (float)uVar1 + point.fields.y * (float)uVar2 +
+          point.fields.z * (__this->fields).normal.fields.z);
 }
 
 
 // Map.MapFracture$$.ctor
 // il2cpp: void Map_MapFracture___ctor (Map_MapFracture_o* __this, System_Collections_Generic_List_MapFracture_Triangle__o* triangles, const MethodInfo* method);
-// 0x181ea7ef0
+// 0x5988a20
 
 void Map_MapFracture___ctor
                (Map_MapFracture_o *__this,System_Collections_Generic_List_MapFracture_Triangle__o *triangles,
@@ -484,52 +487,46 @@ void Map_MapFracture___ctor
 
 {
   Map_MapFracture_Vertex_array *pMVar1;
-  System_Single_array *value;
+  System_Single_array *pSVar2;
   System_Collections_Generic_List_MapFracture_Segment__o *__this_00;
   
-  if (Il2CppMethodInitialized_184345083 == '\0') {
+  if (Il2CppMethodInitialized_07545a14 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapFracture_Segment);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_float_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_Vertex_array);
-    Il2CppMethodInitialized_184345083 = '\x01';
+    Il2CppMethodInitialized_07545a14 = '\x01';
   }
   pMVar1 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,3);
   (__this->fields)._corners = pMVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._corners,pMVar1);
-  value = (System_Single_array *)SZArrayNew(TypeInfo_float_array,3);
-  (__this->fields)._distances = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._distances,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._corners);
+  pSVar2 = (System_Single_array *)SZArrayNew(TypeInfo_float_array,3);
+  (__this->fields)._distances = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._distances);
   pMVar1 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,6);
   (__this->fields)._polygon = pMVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._polygon,pMVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._polygon);
   pMVar1 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,2);
   (__this->fields)._cut = pMVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._cut,pMVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._cut);
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Segment);
   System_Collections_Generic_List_MapFracture_Segment____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Segment_ctor);
+            (__this_00,
+             (MethodInfo_3AAD510 *)MethodInfo_System_Collections_Generic_List_MapFracture_Segment_ctor);
   (__this->fields)._segments = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._segments,__this_00);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._segments);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._triangles = triangles;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._triangles,triangles);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._triangles);
   return;
 }
 
 
 // Map.MapFracture$$Read
 // il2cpp: Map_MapFracture_o* Map_MapFracture__Read (UnityEngine_MeshFilter_array* filters, UnityEngine_Transform_o* root, System_Collections_Generic_List_Material__o* materials, int32_t maxTriangles, const MethodInfo* method);
-// 0x181ea6940
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea6d29: nop dword ptr [rax]
-// asm:   0x181ea70ef: mov rdi, qword ptr [rbp + 8]
-// asm:   0x181ea70f3: mov r15, qword ptr [rbp + 0x270]
-// asm:   0x181ea70fa: mov r14, qword ptr [rsp + 0x78]
+// 0x5983710
 
 Map_MapFracture_o *
 Map_MapFracture__Read
@@ -537,101 +534,141 @@ Map_MapFracture__Read
           System_Collections_Generic_List_Material__o *materials,int32_t maxTriangles,MethodInfo *method)
 
 {
-  int iVar1;
-  int32_t index;
-  float fVar2;
-  float fVar3;
-  UnityEngine_MeshFilter_o *__this;
-  UnityEngine_Material_o *x;
-  undefined8 uVar4;
-  undefined8 uVar5;
-  undefined8 uVar6;
-  undefined8 uVar7;
-  undefined8 uVar8;
-  undefined8 uVar9;
-  undefined8 uVar10;
-  undefined8 uVar11;
-  undefined8 uVar12;
-  undefined8 uVar13;
-  undefined8 uVar14;
-  undefined8 uVar15;
-  undefined8 uVar16;
-  undefined8 uVar17;
-  undefined8 uVar18;
-  undefined8 uVar19;
-  undefined8 uVar20;
-  UnityEngine_Vector2_Fields UVar21;
-  undefined4 uVar22;
-  undefined4 uVar23;
-  undefined8 uVar24;
-  undefined4 uVar25;
-  undefined4 uVar26;
-  UnityEngine_Vector2_Fields UVar27;
-  bool bVar28;
-  bool bVar29;
-  int32_t iVar30;
-  uint uVar31;
-  System_Collections_Generic_Dictionary_object__int__o *__this_00;
-  System_Collections_Generic_List_MapFracture_Triangle__o *__this_01;
-  UnityEngine_Mesh_o *__this_02;
-  UnityEngine_MeshRenderer_o *__this_03;
-  UnityEngine_Material_array *pUVar32;
-  UnityEngine_Matrix4x4_o *pUVar33;
-  UnityEngine_Transform_o *__this_04;
-  UnityEngine_Vector3_array *pUVar34;
-  UnityEngine_Vector3_array *pUVar35;
-  System_Int32_array *pSVar36;
-  Map_MapFracture_Vertex_o *pMVar37;
-  Map_MapFracture_o *__this_05;
-  Map_MapFracture_Vertex_array *pMVar38;
-  System_Single_array *value;
-  System_Collections_Generic_List_MapFracture_Segment__o *__this_06;
-  uint uVar39;
-  uint submesh;
-  uint uVar40;
-  bool hasUV;
-  float fVar41;
-  UnityEngine_UIElements_TextureId_o local_304;
-  uint local_300;
-  UnityEngine_Vector2_array *local_2f8;
-  UnityEngine_Vector3_array *local_2f0;
-  UnityEngine_Vector3_array *local_2e8;
-  System_Collections_Generic_Dictionary_Material__int__o *local_2e0;
-  UnityEngine_Matrix4x4_Fields local_2d8;
-  UnityEngine_Matrix4x4_Fields local_298;
-  System_Collections_Generic_List_MapFracture_Triangle__o *local_258;
-  UnityEngine_Mesh_o *local_250;
-  undefined1 local_248 [64];
-  undefined8 local_208;
-  undefined8 uStack_200;
-  undefined4 local_1f8;
-  undefined4 uStack_1f4;
-  undefined4 uStack_1f0;
-  undefined4 uStack_1ec;
-  float local_1e8;
-  float fStack_1e4;
+  int32_t *piVar1;
+  UnityEngine_Vector2_o *pUVar2;
+  UnityEngine_MeshFilter_o *pUVar3;
+  UnityEngine_Material_o *pUVar4;
+  UnityEngine_Material_array *pUVar5;
+  Map_MapFracture_Triangle_array *pMVar6;
+  UnityEngine_Matrix4x4_o toRoot;
+  UnityEngine_Matrix4x4_o toRoot_00;
+  UnityEngine_Matrix4x4_o toRoot_01;
+  Map_MapFracture_Triangle_o item;
+  UnityEngine_Matrix4x4_o normalToRoot;
+  UnityEngine_Matrix4x4_o normalToRoot_00;
+  UnityEngine_Matrix4x4_o normalToRoot_01;
+  Map_MapFracture_Triangle_Fields *pMVar7;
+  Map_MapFracture_Vertex_o *pMVar8;
+  MethodInfo *pMVar9;
+  System_Collections_Generic_List_Material__o *__this;
+  bool bVar10;
+  int32_t iVar11;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_00;
+  UnityEngine_Mesh_o *pUVar12;
+  UnityEngine_MeshRenderer_o *pUVar13;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_Vector3_array *pUVar14;
+  UnityEngine_Vector3_array *pUVar15;
+  UnityEngine_Vector2_array *pUVar16;
+  System_Int32_array *pSVar17;
+  uint uVar18;
+  uint uVar19;
+  uint uVar20;
+  MethodInfo *method_00;
+  uint uVar21;
+  il2cpp_array_size_t iVar22;
+  uint uVar23;
+  bool hasNormals;
+  float fVar24;
+  MethodInfo *in_stack_fffffffffffffcf0;
+  float local_304;
+  UnityEngine_Mesh_o *local_300;
+  UnityEngine_Material_array *local_2f8;
+  Map_MapFracture_o *local_2f0;
+  System_Collections_Generic_Dictionary_Material__int__o *local_2e8;
+  int32_t local_2dc;
+  uint local_2d8;
+  int local_2d4;
+  int local_2d0;
+  int local_2cc;
+  undefined8 local_2c8;
+  float fStack_2c0;
+  float fStack_2bc;
+  undefined8 local_2b8;
+  UnityEngine_Vector2_Fields UStack_2b0;
+  float local_2a8;
+  float fStack_2a4;
+  float fStack_2a0;
+  float fStack_29c;
+  float local_298;
+  float fStack_294;
+  float fStack_290;
+  float fStack_28c;
+  undefined8 local_288;
+  UnityEngine_Vector3_Fields UStack_280;
+  float fStack_274;
+  float fStack_270;
+  float local_26c;
+  float fStack_268;
+  float fStack_264;
+  float local_25c;
+  float local_258;
+  float fStack_254;
+  float fStack_250;
+  float fStack_24c;
+  UnityEngine_Transform_o *local_248;
+  System_Int32_array *local_240;
+  UnityEngine_Matrix4x4_Fields local_238;
+  undefined8 local_1f8;
+  UnityEngine_Vector2_Fields UStack_1f0;
+  undefined8 local_1e8;
   float fStack_1e0;
-  UnityEngine_UIElements_TextureId_Fields UStack_1dc;
-  float local_1b8;
-  float fStack_1b4;
-  float fStack_1b0;
-  float fStack_1ac;
-  float fStack_1a8;
-  float fStack_1a4;
-  float fStack_1a0;
-  float fStack_19c;
-  float fStack_198;
-  float local_194;
-  undefined8 local_190;
-  undefined8 uStack_188;
-  undefined8 local_180;
-  UnityEngine_Vector2_Fields UStack_178;
-  float local_170;
-  UnityEngine_UIElements_TextureId_Fields local_16c;
-  UnityEngine_Matrix4x4_Fields local_168;
-  undefined1 local_128 [232];
+  float fStack_1dc;
+  undefined8 local_1d8;
+  undefined8 uStack_1d0;
+  UnityEngine_Vector3_array *local_1c8;
+  float fStack_1c0;
+  float fStack_1bc;
+  UnityEngine_Vector3_array *local_1b8;
+  UnityEngine_Vector2_Fields UStack_1b0;
+  undefined8 local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 local_198;
+  undefined8 uStack_190;
+  System_Collections_Generic_List_Material__o *local_188;
+  UnityEngine_MeshFilter_array *local_180;
+  System_Collections_Generic_List_MapFracture_Triangle__o *local_178;
+  ulong local_170;
+  ulong local_168;
+  UnityEngine_Vector2_array *local_160;
+  UnityEngine_Vector3_array *local_158 [2];
+  UnityEngine_Vector3_array *local_148;
+  UnityEngine_Vector2_Fields UStack_140;
+  float local_138;
+  float fStack_134;
+  float fStack_130;
+  float fStack_12c;
+  float local_128;
+  float fStack_124;
+  float fStack_120;
+  float fStack_11c;
+  float local_118;
+  float fStack_114;
+  UnityEngine_Vector3_Fields UStack_110;
+  float fStack_104;
+  float fStack_100;
+  float fStack_fc;
+  float fStack_f8;
+  float fStack_f4;
+  float local_f0;
+  UnityEngine_Vector3_array *local_e8;
+  undefined8 uStack_e0;
+  UnityEngine_Vector3_array *local_d8;
+  UnityEngine_Vector2_Fields UStack_d0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined8 local_b8;
+  undefined8 uStack_b0;
+  Map_MapFracture_Vertex_o local_a8;
+  Map_MapFracture_Vertex_o local_80;
+  UnityEngine_Vector3_array *local_58 [2];
+  UnityEngine_Vector3_array *local_48;
+  UnityEngine_Vector2_Fields UStack_40;
+  float local_38;
   
-  if (Il2CppMethodInitialized_184345084 == '\0') {
+  local_2dc = maxTriangles;
+  local_248 = root;
+  if (Il2CppMethodInitialized_07545a15 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Material_int_Add);
@@ -653,449 +690,570 @@ Map_MapFracture__Read
     ;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184345084 = '\x01';
+    Il2CppMethodInitialized_07545a15 = '\x01';
   }
-  local_2d8.m00 = 0.0;
-  local_2d8.m10 = 0.0;
-  local_2d8.m20 = 0.0;
-  local_2d8.m30 = 0.0;
-  local_304.fields.m_Index = (UnityEngine_UIElements_TextureId_Fields)0;
-  local_2d8.m01 = 0.0;
-  local_2d8.m11 = 0.0;
-  local_2d8.m21 = 0.0;
-  local_2d8.m31 = 0.0;
-  local_2d8.m02 = 0.0;
-  local_2d8.m12 = 0.0;
-  local_2d8.m22 = 0.0;
-  local_2d8.m32 = 0.0;
-  local_2d8.m03 = 0.0;
-  local_2d8.m13 = 0.0;
-  local_2d8.m23 = 0.0;
-  local_2d8.m33 = 0.0;
-  local_168.m00 = 0.0;
-  local_168.m10 = 0.0;
-  local_168.m20 = 0.0;
-  local_168.m30 = 0.0;
-  local_168.m01 = 0.0;
-  local_168.m11 = 0.0;
-  local_168.m21 = 0.0;
-  local_168.m31 = 0.0;
-  local_168.m02 = 0.0;
-  local_168.m12 = 0.0;
-  local_168.m22 = 0.0;
-  local_168.m32 = 0.0;
-  local_168.m03 = 0.0;
-  local_168.m13 = 0.0;
-  local_168.m23 = 0.0;
-  local_168.m33 = 0.0;
-  __this_00 = (System_Collections_Generic_Dictionary_object__int__o *)
-              il2cpp_codegen_object_new
+  local_238.m03 = 0.0;
+  local_238.m13 = 0.0;
+  local_238.m23 = 0.0;
+  local_238.m33 = 0.0;
+  local_238.m02 = 0.0;
+  local_238.m12 = 0.0;
+  local_238.m22 = 0.0;
+  local_238.m32 = 0.0;
+  local_238.m01 = 0.0;
+  local_238.m11 = 0.0;
+  local_238.m21 = 0.0;
+  local_238.m31 = 0.0;
+  local_238.m00 = 0.0;
+  local_238.m10 = 0.0;
+  local_238.m20 = 0.0;
+  local_238.m30 = 0.0;
+  local_b8._0_4_ = 0.0;
+  local_b8._4_4_ = 0.0;
+  uStack_b0._0_4_ = 0.0;
+  uStack_b0._4_4_ = 0.0;
+  local_c8._0_4_ = 0.0;
+  local_c8._4_4_ = 0.0;
+  uStack_c0._0_4_ = 0.0;
+  uStack_c0._4_4_ = 0.0;
+  local_d8 = (UnityEngine_Vector3_array *)0x0;
+  UStack_d0.x = 0.0;
+  UStack_d0.y = 0.0;
+  local_e8 = (UnityEngine_Vector3_array *)0x0;
+  uStack_e0._0_4_ = 0.0;
+  uStack_e0._4_4_ = 0.0;
+  local_304 = 0.0;
+  local_2e8 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Material_int);
-  local_2e0 = (System_Collections_Generic_Dictionary_Material__int__o *)__this_00;
   System_Collections_Generic_Dictionary_object__int____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_Material_int_ctor);
-  __this_01 = il2cpp_codegen_object_new
+            ((System_Collections_Generic_Dictionary_object__int__o *)local_2e8,
+             (MethodInfo_4A9CB80 *)MethodInfo_System_Collections_Generic_Dictionary_Material_int_ctor);
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
-  local_258 = __this_01;
   System_Collections_Generic_List_MapFracture_Triangle____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor);
+            (__this_00,
+             (MethodInfo_3AB14C0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor);
   if (filters != (UnityEngine_MeshFilter_array *)0x0) {
-    for (local_300 = 0; (int)local_300 < (int)filters->max_length; local_300 = local_300 + 1) {
-      if ((uint)filters->max_length <= local_300) {
-label_181ea72d9:
-        ThrowIndexOutOfRangeException();
-      }
-      __this = filters->m_Items[(int)local_300];
-      if ((__this == (UnityEngine_MeshFilter_o *)0x0) ||
-         (__this_02 = UnityEngine_MeshFilter__get_sharedMesh(__this,(MethodInfo *)0x0), local_250 = __this_02,
-         __this_02 == (UnityEngine_Mesh_o *)0x0)) goto label_181ea72d3;
-      bVar28 = UnityEngine_Mesh__get_isReadable(__this_02,(MethodInfo *)0x0);
-      if (!bVar28) goto label_181ea7122;
-      __this_03 = UnityEngine_Component__GetComponent_object_
-                            ((UnityEngine_Component_o *)__this,
-                             (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
-      if ((__this_03 == (UnityEngine_MeshRenderer_o *)0x0) ||
-         (pUVar32 = UnityEngine_Renderer__get_sharedMaterials
-                              ((UnityEngine_Renderer_o *)__this_03,(MethodInfo *)0x0),
-         root == (UnityEngine_Transform_o *)0x0)) goto label_181ea72d3;
-      pUVar33 = UnityEngine_Transform__get_worldToLocalMatrix
-                          ((UnityEngine_Matrix4x4_o *)local_248,root,(MethodInfo *)0x0);
-      uVar19._0_4_ = (pUVar33->fields).m00;
-      uVar19._4_4_ = (pUVar33->fields).m10;
-      uVar24._0_4_ = (pUVar33->fields).m20;
-      uVar24._4_4_ = (pUVar33->fields).m30;
-      uVar4._0_4_ = (pUVar33->fields).m01;
-      uVar4._4_4_ = (pUVar33->fields).m11;
-      uVar5._0_4_ = (pUVar33->fields).m21;
-      uVar5._4_4_ = (pUVar33->fields).m31;
-      uVar6._0_4_ = (pUVar33->fields).m02;
-      uVar6._4_4_ = (pUVar33->fields).m12;
-      uVar7._0_4_ = (pUVar33->fields).m22;
-      uVar7._4_4_ = (pUVar33->fields).m32;
-      uVar8._0_4_ = (pUVar33->fields).m03;
-      uVar8._4_4_ = (pUVar33->fields).m13;
-      uVar9._0_4_ = (pUVar33->fields).m23;
-      uVar9._4_4_ = (pUVar33->fields).m33;
-      __this_04 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (__this_04 == (UnityEngine_Transform_o *)0x0) goto label_181ea72d3;
-      pUVar33 = UnityEngine_Transform__get_localToWorldMatrix
-                          ((UnityEngine_Matrix4x4_o *)local_248,__this_04,(MethodInfo *)0x0);
-      local_128._0_4_ = (pUVar33->fields).m00;
-      local_128._4_4_ = (pUVar33->fields).m10;
-      local_128._8_4_ = (pUVar33->fields).m20;
-      local_128._12_4_ = (pUVar33->fields).m30;
-      local_128._16_4_ = (pUVar33->fields).m01;
-      local_128._20_4_ = (pUVar33->fields).m11;
-      local_128._24_4_ = (pUVar33->fields).m21;
-      local_128._28_4_ = (pUVar33->fields).m31;
-      local_128._32_4_ = (pUVar33->fields).m02;
-      local_128._36_4_ = (pUVar33->fields).m12;
-      local_128._40_4_ = (pUVar33->fields).m22;
-      local_128._44_4_ = (pUVar33->fields).m32;
-      local_128._48_4_ = (pUVar33->fields).m03;
-      local_128._52_4_ = (pUVar33->fields).m13;
-      local_128._56_4_ = (pUVar33->fields).m23;
-      local_128._60_4_ = (pUVar33->fields).m33;
-      local_298._0_8_ = uVar19;
-      local_298._8_8_ = uVar24;
-      local_298._16_8_ = uVar4;
-      local_298._24_8_ = uVar5;
-      local_298._32_8_ = uVar6;
-      local_298._40_8_ = uVar7;
-      local_298._48_8_ = uVar8;
-      local_298._56_8_ = uVar9;
-      pUVar33 = UnityEngine_Matrix4x4__op_Multiply
-                          ((UnityEngine_Matrix4x4_o *)local_248,(UnityEngine_Matrix4x4_o *)&local_298,
-                           (UnityEngine_Matrix4x4_o *)local_128,(MethodInfo *)0x0);
-      local_2d8.m00 = (pUVar33->fields).m00;
-      local_2d8.m10 = (pUVar33->fields).m10;
-      local_2d8.m20 = (pUVar33->fields).m20;
-      local_2d8.m30 = (pUVar33->fields).m30;
-      local_2d8.m01 = (pUVar33->fields).m01;
-      local_2d8.m11 = (pUVar33->fields).m11;
-      local_2d8.m21 = (pUVar33->fields).m21;
-      local_2d8.m31 = (pUVar33->fields).m31;
-      local_2d8.m02 = (pUVar33->fields).m02;
-      local_2d8.m12 = (pUVar33->fields).m12;
-      local_2d8.m22 = (pUVar33->fields).m22;
-      local_2d8.m32 = (pUVar33->fields).m32;
-      local_2d8.m03 = (pUVar33->fields).m03;
-      local_2d8.m13 = (pUVar33->fields).m13;
-      local_2d8.m23 = (pUVar33->fields).m23;
-      local_2d8.m33 = (pUVar33->fields).m33;
-      pUVar33 = UnityEngine_Matrix4x4__Internal_Inverse
-                          ((UnityEngine_Matrix4x4_o *)local_248,(UnityEngine_Matrix4x4_o *)&local_2d8,
-                           (MethodInfo *)0x0);
-      local_168.m00 = (pUVar33->fields).m00;
-      local_168.m10 = (pUVar33->fields).m10;
-      local_168.m20 = (pUVar33->fields).m20;
-      local_168.m30 = (pUVar33->fields).m30;
-      local_168.m01 = (pUVar33->fields).m01;
-      local_168.m11 = (pUVar33->fields).m11;
-      local_168.m21 = (pUVar33->fields).m21;
-      local_168.m31 = (pUVar33->fields).m31;
-      local_168.m02 = (pUVar33->fields).m02;
-      local_168.m12 = (pUVar33->fields).m12;
-      local_168.m22 = (pUVar33->fields).m22;
-      local_168.m32 = (pUVar33->fields).m32;
-      local_168.m03 = (pUVar33->fields).m03;
-      local_168.m13 = (pUVar33->fields).m13;
-      local_168.m23 = (pUVar33->fields).m23;
-      local_168.m33 = (pUVar33->fields).m33;
-      pUVar33 = UnityEngine_Matrix4x4__Internal_Transpose
-                          ((UnityEngine_Matrix4x4_o *)local_248,(UnityEngine_Matrix4x4_o *)&local_168,
-                           (MethodInfo *)0x0);
-      uVar10._0_4_ = (pUVar33->fields).m00;
-      uVar10._4_4_ = (pUVar33->fields).m10;
-      uVar11._0_4_ = (pUVar33->fields).m20;
-      uVar11._4_4_ = (pUVar33->fields).m30;
-      uVar12._0_4_ = (pUVar33->fields).m01;
-      uVar12._4_4_ = (pUVar33->fields).m11;
-      uVar13._0_4_ = (pUVar33->fields).m21;
-      uVar13._4_4_ = (pUVar33->fields).m31;
-      uVar14._0_4_ = (pUVar33->fields).m02;
-      uVar14._4_4_ = (pUVar33->fields).m12;
-      uVar15._0_4_ = (pUVar33->fields).m22;
-      uVar15._4_4_ = (pUVar33->fields).m32;
-      uVar16._0_4_ = (pUVar33->fields).m03;
-      uVar16._4_4_ = (pUVar33->fields).m13;
-      uVar17._0_4_ = (pUVar33->fields).m23;
-      uVar17._4_4_ = (pUVar33->fields).m33;
-      fVar41 = UnityEngine_Matrix4x4__get_determinant((UnityEngine_Matrix4x4_o *)&local_2d8,(MethodInfo *)0x0)
-      ;
-      pUVar34 = UnityEngine_Mesh__get_vertices(__this_02,(MethodInfo *)0x0);
-      local_2e8 = pUVar34;
-      pUVar35 = UnityEngine_Mesh__get_normals(__this_02,(MethodInfo *)0x0);
-      local_2f0 = pUVar35;
-      local_2f8 = UnityEngine_Mesh__get_uv(__this_02,(MethodInfo *)0x0);
-      if ((pUVar35 == (UnityEngine_Vector3_array *)0x0) || (pUVar34 == (UnityEngine_Vector3_array *)0x0))
-      goto label_181ea72d3;
-      iVar1 = (int)pUVar34->max_length;
-      bVar28 = (int)pUVar35->max_length == iVar1;
-      if (local_2f8 == (UnityEngine_Vector2_array *)0x0) goto label_181ea72d3;
-      hasUV = (int)local_2f8->max_length == iVar1;
-      for (submesh = 0; iVar30 = UnityEngine_Mesh__get_subMeshCount(__this_02,(MethodInfo *)0x0),
-          (int)submesh < iVar30; submesh = submesh + 1) {
-        if (pUVar32 == (UnityEngine_Material_array *)0x0) goto label_181ea72d3;
-        if (pUVar32->max_length == 0) break;
-        uVar31 = (int)pUVar32->max_length - 1;
-        uVar40 = submesh;
-        if ((int)uVar31 <= (int)submesh) {
-          uVar40 = uVar31;
-        }
-        if ((uint)pUVar32->max_length <= uVar40) goto label_181ea72d9;
-        x = pUVar32->m_Items[(int)uVar40];
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-        }
-        bVar29 = UnityEngine_Object__op_Equality
-                           ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((!bVar29) &&
-           (iVar30 = UnityEngine_Mesh__GetTopology(__this_02,submesh,(MethodInfo *)0x0), iVar30 == 0)) {
-          if (__this_00 == (System_Collections_Generic_Dictionary_object__int__o *)0x0) goto label_181ea72d3;
-          bVar29 = System_Collections_Generic_Dictionary_object__int___TryGetValue
-                             ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
-                              (Il2CppObject *)x,&local_304,
-                              (MethodInfo_1461BD0 *)
-                              MethodInfo_System_Collections_Generic_Dictionary_Material_int_TryGetValue);
-          if (!bVar29) {
-            if (materials == (System_Collections_Generic_List_Material__o *)0x0) goto label_181ea72d3;
-            local_304.fields.m_Index = (UnityEngine_UIElements_TextureId_Fields)(materials->fields)._size;
-            System_Collections_Generic_Dictionary_object__int___Add
-                      (__this_00,(Il2CppObject *)x,(int32_t)local_304.fields.m_Index,
-                       (MethodInfo_146B480 *)MethodInfo_System_Collections_Generic_Dictionary_Material_int_Add
-                      );
-            il2cpp_runtime_helper_180012890(materials,x);
+    uVar21 = (uint)filters->max_length;
+    if (local_248 == (UnityEngine_Transform_o *)0x0) {
+      if (0 < (int)uVar21) {
+        pUVar3 = filters->m_Items[0];
+        if ((pUVar3 != (UnityEngine_MeshFilter_o *)0x0) &&
+           (pUVar12 = UnityEngine_MeshFilter__get_sharedMesh(pUVar3,(MethodInfo *)0x0),
+           pUVar12 != (UnityEngine_Mesh_o *)0x0)) {
+          local_2f0 = (Map_MapFracture_o *)0x0;
+          bVar10 = UnityEngine_Mesh__get_isReadable(pUVar12,(MethodInfo *)0x0);
+          if (!bVar10) {
+            return local_2f0;
           }
-          pSVar36 = UnityEngine_Mesh__GetTriangles(__this_02,submesh,(MethodInfo *)0x0);
-          if ((__this_01 == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) ||
-             (pSVar36 == (System_Int32_array *)0x0)) goto label_181ea72d3;
-          iVar1 = (int)pSVar36->max_length;
-          if (maxTriangles <
-              iVar1 / 3 + (iVar1 >> 0x1f) +
-              (int)(((longlong)iVar1 / 3 + ((longlong)iVar1 >> 0x3f) & 0xffffffffU) >> 0x1f) +
-              (__this_01->fields)._size) goto label_181ea7122;
-          uVar40 = 0;
-          iVar1 = (int)pSVar36->max_length;
-          bVar29 = iVar1 != 0;
-          __this_00 = (System_Collections_Generic_Dictionary_object__int__o *)local_2e0;
-          if (0 < iVar1) {
-            do {
-              if (((!bVar29) || (uVar31 = (fVar41 < 0.0) + 1 + uVar40, (uint)pSVar36->max_length <= uVar31))
-                 || (uVar39 = (0.0 <= fVar41) + 1 + uVar40, (uint)pSVar36->max_length <= uVar39))
-              goto label_181ea72d9;
-              iVar30 = pSVar36->m_Items[(int)uVar31];
-              index = pSVar36->m_Items[(int)uVar39];
-              local_248._0_4_ = local_2d8.m00;
-              local_248._4_4_ = local_2d8.m10;
-              local_248._8_4_ = local_2d8.m20;
-              local_248._12_4_ = local_2d8.m30;
-              local_248._16_4_ = local_2d8.m01;
-              local_248._20_4_ = local_2d8.m11;
-              local_248._24_4_ = local_2d8.m21;
-              local_248._28_4_ = local_2d8.m31;
-              local_248._32_4_ = local_2d8.m02;
-              local_248._36_4_ = local_2d8.m12;
-              local_248._40_4_ = local_2d8.m22;
-              local_248._44_4_ = local_2d8.m32;
-              local_248._48_4_ = local_2d8.m03;
-              local_248._52_4_ = local_2d8.m13;
-              local_248._56_4_ = local_2d8.m23;
-              local_248._60_4_ = local_2d8.m33;
-              local_298._0_8_ = uVar10;
-              local_298._8_8_ = uVar11;
-              local_298._16_8_ = uVar12;
-              local_298._24_8_ = uVar13;
-              local_298._32_8_ = uVar14;
-              local_298._40_8_ = uVar15;
-              local_298._48_8_ = uVar16;
-              local_298._56_8_ = uVar17;
-              pMVar37 = Map_MapFracture__ReadVertex
-                                  ((Map_MapFracture_Vertex_o *)local_128,local_2e8,local_2f0,local_2f8,
-                                   pSVar36->m_Items[(int)uVar40],(UnityEngine_Matrix4x4_o *)local_248,
-                                   (UnityEngine_Matrix4x4_o *)&local_298,bVar28,hasUV,(MethodInfo *)0x0);
-              uVar18._0_4_ = (pMVar37->fields).Position.fields.x;
-              uVar18._4_4_ = (pMVar37->fields).Position.fields.y;
-              uVar19 = *(undefined8 *)&(pMVar37->fields).Position.fields.z;
-              fVar2 = (pMVar37->fields).Shade;
-              uVar20._0_4_ = (pMVar37->fields).Normal.fields.y;
-              uVar20._4_4_ = (pMVar37->fields).Normal.fields.z;
-              UVar21 = (pMVar37->fields).UV.fields;
-              local_298.m00 = local_2d8.m00;
-              local_298.m10 = local_2d8.m10;
-              local_298.m20 = local_2d8.m20;
-              local_298.m30 = local_2d8.m30;
-              local_298.m01 = local_2d8.m01;
-              local_298.m11 = local_2d8.m11;
-              local_298.m21 = local_2d8.m21;
-              local_298.m31 = local_2d8.m31;
-              local_298.m02 = local_2d8.m02;
-              local_298.m12 = local_2d8.m12;
-              local_298.m22 = local_2d8.m22;
-              local_298.m32 = local_2d8.m32;
-              local_298.m03 = local_2d8.m03;
-              local_298.m13 = local_2d8.m13;
-              local_298.m23 = local_2d8.m23;
-              local_298.m33 = local_2d8.m33;
-              local_248._0_8_ = uVar10;
-              local_248._8_8_ = uVar11;
-              local_248._16_8_ = uVar12;
-              local_248._24_8_ = uVar13;
-              local_248._32_8_ = uVar14;
-              local_248._40_8_ = uVar15;
-              local_248._48_8_ = uVar16;
-              local_248._56_8_ = uVar17;
-              pMVar37 = Map_MapFracture__ReadVertex
-                                  ((Map_MapFracture_Vertex_o *)local_128,local_2e8,local_2f0,local_2f8,iVar30,
-                                   (UnityEngine_Matrix4x4_o *)&local_298,(UnityEngine_Matrix4x4_o *)local_248,
-                                   bVar28,hasUV,(MethodInfo *)0x0);
-              uVar22 = (pMVar37->fields).Position.fields.x;
-              uVar23 = (pMVar37->fields).Position.fields.y;
-              uVar24 = *(undefined8 *)&(pMVar37->fields).Position.fields.z;
-              fVar3 = (pMVar37->fields).Shade;
-              uVar25 = (pMVar37->fields).Normal.fields.y;
-              uVar26 = (pMVar37->fields).Normal.fields.z;
-              UVar27 = (pMVar37->fields).UV.fields;
-              local_298.m00 = local_2d8.m00;
-              local_298.m10 = local_2d8.m10;
-              local_298.m20 = local_2d8.m20;
-              local_298.m30 = local_2d8.m30;
-              local_298.m01 = local_2d8.m01;
-              local_298.m11 = local_2d8.m11;
-              local_298.m21 = local_2d8.m21;
-              local_298.m31 = local_2d8.m31;
-              local_298.m02 = local_2d8.m02;
-              local_298.m12 = local_2d8.m12;
-              local_298.m22 = local_2d8.m22;
-              local_298.m32 = local_2d8.m32;
-              local_298.m03 = local_2d8.m03;
-              local_298.m13 = local_2d8.m13;
-              local_298.m23 = local_2d8.m23;
-              local_298.m33 = local_2d8.m33;
-              local_248._0_8_ = uVar10;
-              local_248._8_8_ = uVar11;
-              local_248._16_8_ = uVar12;
-              local_248._24_8_ = uVar13;
-              local_248._32_8_ = uVar14;
-              local_248._40_8_ = uVar15;
-              local_248._48_8_ = uVar16;
-              local_248._56_8_ = uVar17;
-              pMVar37 = Map_MapFracture__ReadVertex
-                                  ((Map_MapFracture_Vertex_o *)local_128,local_2e8,local_2f0,local_2f8,index,
-                                   (UnityEngine_Matrix4x4_o *)&local_298,(UnityEngine_Matrix4x4_o *)local_248,
-                                   bVar28,hasUV,(MethodInfo *)0x0);
-              __this_01 = local_258;
-              fStack_1ac = (float)uVar24;
-              fStack_1a8 = (float)((ulonglong)uVar24 >> 0x20);
-              uStack_200._0_4_ = (pMVar37->fields).Position.fields.x;
-              uStack_200._4_4_ = (pMVar37->fields).Position.fields.y;
-              uVar24 = *(undefined8 *)&(pMVar37->fields).Position.fields.z;
-              local_180._0_4_ = (pMVar37->fields).Normal.fields.y;
-              local_180._4_4_ = (pMVar37->fields).Normal.fields.z;
-              UStack_178 = (pMVar37->fields).UV.fields;
-              fStack_1e0 = (pMVar37->fields).Shade;
-              local_248._36_4_ = uVar22;
-              local_248._32_4_ = fVar2;
-              local_248._44_4_ = fStack_1ac;
-              local_248._40_4_ = uVar23;
-              local_16c = local_304.fields.m_Index;
-              fStack_19c = UVar27.x;
-              fStack_198 = UVar27.y;
-              local_208 = CONCAT44(fVar3,fStack_198);
-              local_248._52_4_ = uVar25;
-              local_248._48_4_ = fStack_1a8;
-              local_248._60_4_ = fStack_19c;
-              local_248._56_4_ = uVar26;
-              uStack_188._0_4_ = (undefined4)uVar24;
-              uStack_188._4_4_ = (undefined4)((ulonglong)uVar24 >> 0x20);
-              local_1e8 = UStack_178.x;
-              fStack_1e4 = UStack_178.y;
-              UStack_1dc = local_304.fields.m_Index;
-              local_1f8 = (undefined4)uStack_188;
-              uStack_1f4 = uStack_188._4_4_;
-              uStack_1f0 = (undefined4)local_180;
-              uStack_1ec = local_180._4_4_;
-              local_248._0_8_ = uVar18;
-              local_248._8_8_ = uVar19;
-              local_248._16_8_ = uVar20;
-              local_248._24_8_ = UVar21;
-              local_1b8 = fVar2;
-              fStack_1b4 = (float)uVar22;
-              fStack_1b0 = (float)uVar23;
-              fStack_1a4 = (float)uVar25;
-              fStack_1a0 = (float)uVar26;
-              local_194 = fVar3;
-              local_190 = uStack_200;
-              uStack_188 = uVar24;
-              local_170 = fStack_1e0;
-              il2cpp_runtime_helper_180043610(local_258);
-              uVar40 = uVar40 + 3;
-              uVar31 = (uint)pSVar36->max_length;
-              bVar29 = uVar40 < uVar31;
-              __this_02 = local_250;
-              __this_00 = (System_Collections_Generic_Dictionary_object__int__o *)local_2e0;
-            } while ((int)uVar40 < (int)uVar31);
+          pUVar13 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar3,
+                               (MethodInfo_34B0830 *)
+                               MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
+          if (pUVar13 != (UnityEngine_MeshRenderer_o *)0x0) {
+            UnityEngine_Renderer__get_sharedMaterials((UnityEngine_Renderer_o *)pUVar13,(MethodInfo *)0x0);
+            ThrowNullReferenceException();
           }
         }
+        goto label_059843bd;
       }
     }
-    if (__this_01 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-      if ((__this_01->fields)._size == 0) {
-label_181ea7122:
-        __this_05 = (Map_MapFracture_o *)0x0;
+    else {
+      local_188 = materials;
+      if (0 < (int)uVar21) {
+        local_2f0 = (Map_MapFracture_o *)0x0;
+        uVar23 = 0;
+        local_180 = filters;
+        local_178 = __this_00;
+        do {
+          if (uVar21 <= uVar23) {
+label_0598446f:
+            ThrowIndexOutOfRangeException();
+          }
+          pUVar3 = local_180->m_Items[(int)uVar23];
+          local_2d8 = uVar23;
+          if ((pUVar3 == (UnityEngine_MeshFilter_o *)0x0) ||
+             (pUVar12 = UnityEngine_MeshFilter__get_sharedMesh(pUVar3,(MethodInfo *)0x0),
+             pUVar12 == (UnityEngine_Mesh_o *)0x0)) goto label_059843bd;
+          bVar10 = UnityEngine_Mesh__get_isReadable(pUVar12,(MethodInfo *)0x0);
+          if (!bVar10) {
+            return local_2f0;
+          }
+          local_300 = pUVar12;
+          pUVar13 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar3,
+                               (MethodInfo_34B0830 *)
+                               MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
+          if (pUVar13 == (UnityEngine_MeshRenderer_o *)0x0) goto label_059843bd;
+          local_2f8 = UnityEngine_Renderer__get_sharedMaterials
+                                ((UnityEngine_Renderer_o *)pUVar13,(MethodInfo *)0x0);
+          UnityEngine_Transform__get_worldToLocalMatrix
+                    ((UnityEngine_Matrix4x4_o *)&local_2c8,local_248,(MethodInfo *)0x0);
+          local_1e8 = local_2c8;
+          fStack_1e0 = fStack_2c0;
+          fStack_1dc = fStack_2bc;
+          local_1f8 = local_2b8;
+          UStack_1f0 = UStack_2b0;
+          local_1d8 = CONCAT44(fStack_2a4,local_2a8);
+          uStack_1d0 = CONCAT44(fStack_29c,fStack_2a0);
+          local_258 = local_298;
+          fStack_254 = fStack_294;
+          fStack_250 = fStack_290;
+          fStack_24c = fStack_28c;
+          __this_01 = UnityEngine_Component__get_transform
+                                ((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0);
+          if (__this_01 == (UnityEngine_Transform_o *)0x0) goto label_059843bd;
+          UnityEngine_Transform__get_localToWorldMatrix
+                    ((UnityEngine_Matrix4x4_o *)&local_2c8,__this_01,(MethodInfo *)0x0);
+          local_238.m10 =
+               fStack_2bc * fStack_254 +
+               fStack_2c0 * local_1d8._4_4_ +
+               local_2c8._4_4_ * local_1f8._4_4_ + (float)local_2c8 * local_1e8._4_4_;
+          local_238.m00 =
+               fStack_2bc * local_258 +
+               fStack_2c0 * (float)local_1d8 +
+               local_2c8._4_4_ * (float)local_1f8 + (float)local_2c8 * (float)local_1e8;
+          local_238.m30 =
+               fStack_2bc * fStack_24c +
+               fStack_2c0 * uStack_1d0._4_4_ + local_2c8._4_4_ * UStack_1f0.y + (float)local_2c8 * fStack_1dc;
+          local_238.m20 =
+               fStack_2bc * fStack_250 +
+               fStack_2c0 * (float)uStack_1d0 + local_2c8._4_4_ * UStack_1f0.x + (float)local_2c8 * fStack_1e0
+          ;
+          local_238.m11 =
+               UStack_2b0.y * fStack_254 +
+               UStack_2b0.x * local_1d8._4_4_ +
+               local_2b8._4_4_ * local_1f8._4_4_ + (float)local_2b8 * local_1e8._4_4_;
+          local_238.m01 =
+               UStack_2b0.y * local_258 +
+               UStack_2b0.x * (float)local_1d8 +
+               local_2b8._4_4_ * (float)local_1f8 + (float)local_2b8 * (float)local_1e8;
+          local_238.m31 =
+               UStack_2b0.y * fStack_24c +
+               UStack_2b0.x * uStack_1d0._4_4_ +
+               local_2b8._4_4_ * UStack_1f0.y + (float)local_2b8 * fStack_1dc;
+          local_238.m21 =
+               UStack_2b0.y * fStack_250 +
+               UStack_2b0.x * (float)uStack_1d0 +
+               local_2b8._4_4_ * UStack_1f0.x + (float)local_2b8 * fStack_1e0;
+          local_238.m12 =
+               fStack_29c * fStack_254 +
+               fStack_2a0 * local_1d8._4_4_ + fStack_2a4 * local_1f8._4_4_ + local_2a8 * local_1e8._4_4_;
+          local_238.m02 =
+               fStack_29c * local_258 +
+               fStack_2a0 * (float)local_1d8 + fStack_2a4 * (float)local_1f8 + local_2a8 * (float)local_1e8;
+          local_238.m32 =
+               fStack_29c * fStack_24c +
+               fStack_2a0 * uStack_1d0._4_4_ + fStack_2a4 * UStack_1f0.y + local_2a8 * fStack_1dc;
+          local_238.m22 =
+               fStack_29c * fStack_250 +
+               fStack_2a0 * (float)uStack_1d0 + fStack_2a4 * UStack_1f0.x + local_2a8 * fStack_1e0;
+          local_238.m13 =
+               fStack_28c * fStack_254 +
+               fStack_290 * local_1d8._4_4_ + fStack_294 * local_1f8._4_4_ + local_298 * local_1e8._4_4_;
+          local_238.m03 =
+               fStack_28c * local_258 +
+               fStack_290 * (float)local_1d8 + fStack_294 * (float)local_1f8 + local_298 * (float)local_1e8;
+          local_238.m33 =
+               fStack_28c * fStack_24c +
+               fStack_290 * uStack_1d0._4_4_ + fStack_294 * UStack_1f0.y + local_298 * fStack_1dc;
+          local_238.m23 =
+               fStack_28c * fStack_250 +
+               fStack_290 * (float)uStack_1d0 + fStack_294 * UStack_1f0.x + local_298 * fStack_1e0;
+          UnityEngine_Matrix4x4__Internal_Inverse
+                    ((UnityEngine_Matrix4x4_o *)&local_2c8,(UnityEngine_Matrix4x4_o *)&local_238,
+                     (MethodInfo *)0x0);
+          local_c8._4_4_ = fStack_2a4;
+          local_c8._0_4_ = local_2a8;
+          uStack_c0._4_4_ = fStack_29c;
+          uStack_c0._0_4_ = fStack_2a0;
+          local_b8._0_4_ = local_298;
+          local_b8._4_4_ = fStack_294;
+          uStack_b0._0_4_ = fStack_290;
+          uStack_b0._4_4_ = fStack_28c;
+          local_d8 = local_2b8;
+          UStack_d0 = UStack_2b0;
+          local_e8 = local_2c8;
+          uStack_e0._0_4_ = fStack_2c0;
+          uStack_e0._4_4_ = fStack_2bc;
+          UnityEngine_Matrix4x4__Internal_Transpose
+                    ((UnityEngine_Matrix4x4_o *)local_158,(UnityEngine_Matrix4x4_o *)&local_e8,
+                     (MethodInfo *)0x0);
+          local_1a8 = CONCAT44(fStack_134,local_138);
+          uStack_1a0 = CONCAT44(fStack_12c,fStack_130);
+          local_198 = CONCAT44(fStack_124,local_128);
+          uStack_190 = CONCAT44(fStack_11c,fStack_120);
+          local_1b8 = local_148;
+          UStack_1b0 = UStack_140;
+          local_1c8 = local_158[0];
+          _fStack_1c0 = local_158[1];
+          fVar24 = UnityEngine_Matrix4x4__GetDeterminant
+                             ((UnityEngine_Matrix4x4_o *)&local_238,(MethodInfo *)0x0);
+          pUVar12 = local_300;
+          local_258 = fVar24;
+          pUVar14 = UnityEngine_Mesh__get_vertices(local_300,(MethodInfo *)0x0);
+          pUVar15 = UnityEngine_Mesh__get_normals(pUVar12,(MethodInfo *)0x0);
+          pUVar16 = UnityEngine_Mesh__get_uv(pUVar12,(MethodInfo *)0x0);
+          local_1f8 = pUVar15;
+          if (((pUVar15 == (UnityEngine_Vector3_array *)0x0) || (pUVar14 == (UnityEngine_Vector3_array *)0x0))
+             || (pUVar16 == (UnityEngine_Vector2_array *)0x0)) goto label_059843bd;
+          local_2cc = (int)pUVar15->max_length;
+          local_2d0 = (int)pUVar14->max_length;
+          local_2d4 = (int)pUVar16->max_length;
+          local_1e8 = pUVar14;
+          local_160 = pUVar16;
+          iVar11 = UnityEngine_Mesh__get_subMeshCount(pUVar12,(MethodInfo *)0x0);
+          if (0 < iVar11) {
+            if (local_2f8 == (UnityEngine_Material_array *)0x0) goto label_059843bd;
+            if (local_2e8 == (System_Collections_Generic_Dictionary_Material__int__o *)0x0) {
+              uVar21 = 0;
+              do {
+                if (local_2f8->max_length == 0) break;
+                uVar23 = (uint)local_2f8->max_length;
+                uVar18 = uVar23 - 1;
+                if ((int)uVar21 < (int)uVar18) {
+                  uVar18 = uVar21;
+                }
+                if (uVar23 <= uVar18) goto label_0598446f;
+                pUVar4 = local_2f8->m_Items[(int)uVar18];
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                bVar10 = UnityEngine_Object__op_Equality
+                                   ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,
+                                    (MethodInfo *)0x0);
+                pUVar12 = local_300;
+                if ((!bVar10) &&
+                   (iVar11 = UnityEngine_Mesh__GetTopology(local_300,uVar21,(MethodInfo *)0x0), iVar11 == 0))
+                goto label_059843bd;
+                uVar21 = uVar21 + 1;
+                iVar11 = UnityEngine_Mesh__get_subMeshCount(pUVar12,(MethodInfo *)0x0);
+              } while ((int)uVar21 < iVar11);
+            }
+            else {
+              local_170 = (ulong)(2 - (local_258 < 0.0));
+              local_168 = (ulong)((local_258 < 0.0) + 1);
+              uVar21 = 0;
+              do {
+                if (local_2f8->max_length == 0) break;
+                uVar23 = (uint)local_2f8->max_length;
+                uVar18 = uVar23 - 1;
+                if ((int)uVar21 < (int)uVar18) {
+                  uVar18 = uVar21;
+                }
+                if (uVar23 <= uVar18) goto label_0598446f;
+                pUVar4 = local_2f8->m_Items[(int)uVar18];
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                bVar10 = UnityEngine_Object__op_Equality
+                                   ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,
+                                    (MethodInfo *)0x0);
+                if ((!bVar10) &&
+                   (iVar11 = UnityEngine_Mesh__GetTopology(local_300,uVar21,(MethodInfo *)0x0), iVar11 == 0))
+                {
+                  bVar10 = System_Collections_Generic_Dictionary_object__int___TryGetValue
+                                     ((System_Collections_Generic_Dictionary_object__int__o *)local_2e8,
+                                      (Il2CppObject *)pUVar4,(int32_t *)&local_304,
+                                      (MethodInfo_4A9F630 *)
+                                      MethodInfo_System_Collections_Generic_Dictionary_Material_int_TryGetValue
+                                     );
+                  __this = local_188;
+                  if (!bVar10) {
+                    if (local_188 == (System_Collections_Generic_List_Material__o *)0x0) goto label_059843bd;
+                    local_304 = (float)(local_188->fields)._size;
+                    System_Collections_Generic_Dictionary_object__int___Add
+                              ((System_Collections_Generic_Dictionary_object__int__o *)local_2e8,
+                               (Il2CppObject *)pUVar4,(int32_t)local_304,
+                               (MethodInfo_4A9D780 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_Material_int_Add);
+                    pMVar9 = MethodInfo_System_Collections_Generic_List_Material_Add;
+                    piVar1 = &(__this->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pUVar5 = (__this->fields)._items;
+                    if (pUVar5 == (UnityEngine_Material_array *)0x0) goto label_059843bd;
+                    uVar23 = (__this->fields)._size;
+                    if (uVar23 < (uint)pUVar5->max_length) {
+                      (__this->fields)._size = uVar23 + 1;
+                      pUVar5->m_Items[(int)uVar23] = pUVar4;
+                      Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)uVar23);
+                    }
+                    else {
+                      System_Collections_Generic_List_object___AddWithResize
+                                ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)pUVar4,
+                                 (MethodInfo_395D230 *)pMVar9->klass->rgctx_data[0xe].method);
+                    }
+                  }
+                  pSVar17 = UnityEngine_Mesh__GetTriangles(local_300,uVar21,(MethodInfo *)0x0);
+                  if ((__this_00 == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) ||
+                     (pSVar17 == (System_Int32_array *)0x0)) goto label_059843bd;
+                  iVar22 = pSVar17->max_length;
+                  if (local_2dc < (int)iVar22 / 3 + (__this_00->fields)._size) {
+                    return local_2f0;
+                  }
+                  if (0 < (int)iVar22) {
+                    uVar23 = 0;
+                    local_240 = pSVar17;
+                    do {
+                      pUVar16 = local_160;
+                      pUVar15 = local_1e8;
+                      pUVar14 = local_1f8;
+                      uVar18 = (uint)iVar22;
+                      if (((uVar18 <= uVar23) || (uVar19 = (int)local_168 + uVar23, uVar18 <= uVar19)) ||
+                         (uVar20 = (int)local_170 + uVar23, uVar18 <= uVar20)) goto label_0598446f;
+                      bVar10 = local_2d4 == local_2d0;
+                      hasNormals = local_2cc == local_2d0;
+                      local_1d8 = CONCAT44(local_1d8._4_4_,local_240->m_Items[(int)uVar19]);
+                      local_258 = (float)local_240->m_Items[(int)uVar20];
+                      toRoot.fields.m20 = local_238.m20;
+                      toRoot.fields.m30 = local_238.m30;
+                      toRoot.fields.m00 = local_238.m00;
+                      toRoot.fields.m10 = local_238.m10;
+                      toRoot.fields.m01 = local_238.m01;
+                      toRoot.fields.m11 = local_238.m11;
+                      toRoot.fields.m21 = local_238.m21;
+                      toRoot.fields.m31 = local_238.m31;
+                      toRoot.fields.m02 = local_238.m02;
+                      toRoot.fields.m12 = local_238.m12;
+                      toRoot.fields.m22 = local_238.m22;
+                      toRoot.fields.m32 = local_238.m32;
+                      toRoot.fields.m03 = local_238.m03;
+                      toRoot.fields.m13 = local_238.m13;
+                      toRoot.fields.m23 = local_238.m23;
+                      toRoot.fields.m33 = local_238.m33;
+                      normalToRoot.fields.m20 = fStack_1c0;
+                      normalToRoot.fields.m30 = fStack_1bc;
+                      normalToRoot.fields._0_8_ = local_1c8;
+                      normalToRoot.fields._16_8_ = local_1b8;
+                      normalToRoot.fields.m21 = UStack_1b0.x;
+                      normalToRoot.fields.m31 = UStack_1b0.y;
+                      normalToRoot.fields.m02 = (float)(undefined4)local_1a8;
+                      normalToRoot.fields.m12 = (float)local_1a8._4_4_;
+                      normalToRoot.fields.m22 = (float)(undefined4)uStack_1a0;
+                      normalToRoot.fields.m32 = (float)uStack_1a0._4_4_;
+                      normalToRoot.fields.m03 = (float)(undefined4)local_198;
+                      normalToRoot.fields.m13 = (float)local_198._4_4_;
+                      normalToRoot.fields.m23 = (float)(undefined4)uStack_190;
+                      normalToRoot.fields.m33 = (float)uStack_190._4_4_;
+                      Map_MapFracture__ReadVertex
+                                ((Map_MapFracture_Vertex_o *)local_58,local_1e8,local_1f8,local_160,
+                                 local_240->m_Items[(int)uVar23],toRoot,normalToRoot,hasNormals,bVar10,
+                                 in_stack_fffffffffffffcf0);
+                      toRoot_00.fields.m20 = local_238.m20;
+                      toRoot_00.fields.m30 = local_238.m30;
+                      toRoot_00.fields.m00 = local_238.m00;
+                      toRoot_00.fields.m10 = local_238.m10;
+                      toRoot_00.fields.m01 = local_238.m01;
+                      toRoot_00.fields.m11 = local_238.m11;
+                      toRoot_00.fields.m21 = local_238.m21;
+                      toRoot_00.fields.m31 = local_238.m31;
+                      toRoot_00.fields.m02 = local_238.m02;
+                      toRoot_00.fields.m12 = local_238.m12;
+                      toRoot_00.fields.m22 = local_238.m22;
+                      toRoot_00.fields.m32 = local_238.m32;
+                      toRoot_00.fields.m03 = local_238.m03;
+                      toRoot_00.fields.m13 = local_238.m13;
+                      toRoot_00.fields.m23 = local_238.m23;
+                      toRoot_00.fields.m33 = local_238.m33;
+                      normalToRoot_00.fields.m20 = fStack_1c0;
+                      normalToRoot_00.fields.m30 = fStack_1bc;
+                      normalToRoot_00.fields._0_8_ = local_1c8;
+                      normalToRoot_00.fields._16_8_ = local_1b8;
+                      normalToRoot_00.fields.m21 = UStack_1b0.x;
+                      normalToRoot_00.fields.m31 = UStack_1b0.y;
+                      normalToRoot_00.fields.m02 = (float)(undefined4)local_1a8;
+                      normalToRoot_00.fields.m12 = (float)local_1a8._4_4_;
+                      normalToRoot_00.fields.m22 = (float)(undefined4)uStack_1a0;
+                      normalToRoot_00.fields.m32 = (float)uStack_1a0._4_4_;
+                      normalToRoot_00.fields.m03 = (float)(undefined4)local_198;
+                      normalToRoot_00.fields.m13 = (float)local_198._4_4_;
+                      normalToRoot_00.fields.m23 = (float)(undefined4)uStack_190;
+                      normalToRoot_00.fields.m33 = (float)uStack_190._4_4_;
+                      Map_MapFracture__ReadVertex
+                                (&local_80,pUVar15,pUVar14,pUVar16,(int32_t)(float)local_1d8,toRoot_00,
+                                 normalToRoot_00,hasNormals,bVar10,in_stack_fffffffffffffcf0);
+                      toRoot_01.fields.m20 = local_238.m20;
+                      toRoot_01.fields.m30 = local_238.m30;
+                      toRoot_01.fields.m00 = local_238.m00;
+                      toRoot_01.fields.m10 = local_238.m10;
+                      toRoot_01.fields.m01 = local_238.m01;
+                      toRoot_01.fields.m11 = local_238.m11;
+                      toRoot_01.fields.m21 = local_238.m21;
+                      toRoot_01.fields.m31 = local_238.m31;
+                      toRoot_01.fields.m02 = local_238.m02;
+                      toRoot_01.fields.m12 = local_238.m12;
+                      toRoot_01.fields.m22 = local_238.m22;
+                      toRoot_01.fields.m32 = local_238.m32;
+                      toRoot_01.fields.m03 = local_238.m03;
+                      toRoot_01.fields.m13 = local_238.m13;
+                      toRoot_01.fields.m23 = local_238.m23;
+                      toRoot_01.fields.m33 = local_238.m33;
+                      normalToRoot_01.fields.m20 = fStack_1c0;
+                      normalToRoot_01.fields.m30 = fStack_1bc;
+                      normalToRoot_01.fields._0_8_ = local_1c8;
+                      normalToRoot_01.fields._16_8_ = local_1b8;
+                      normalToRoot_01.fields.m21 = UStack_1b0.x;
+                      normalToRoot_01.fields.m31 = UStack_1b0.y;
+                      normalToRoot_01.fields.m02 = (float)(undefined4)local_1a8;
+                      normalToRoot_01.fields.m12 = (float)local_1a8._4_4_;
+                      normalToRoot_01.fields.m22 = (float)(undefined4)uStack_1a0;
+                      normalToRoot_01.fields.m32 = (float)uStack_1a0._4_4_;
+                      normalToRoot_01.fields.m03 = (float)(undefined4)local_198;
+                      normalToRoot_01.fields.m13 = (float)local_198._4_4_;
+                      normalToRoot_01.fields.m23 = (float)(undefined4)uStack_190;
+                      normalToRoot_01.fields.m33 = (float)uStack_190._4_4_;
+                      Map_MapFracture__ReadVertex
+                                (&local_a8,pUVar15,pUVar14,pUVar16,(int32_t)local_258,toRoot_01,
+                                 normalToRoot_01,hasNormals,bVar10,in_stack_fffffffffffffcf0);
+                      __this_00 = local_178;
+                      pMVar9 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
+                      local_f0 = local_a8.fields.Shade;
+                      fStack_100 = local_a8.fields.Normal.fields.y;
+                      fStack_fc = local_a8.fields.Normal.fields.z;
+                      fStack_f8 = local_a8.fields.UV.fields.x;
+                      fStack_f4 = local_a8.fields.UV.fields.y;
+                      UStack_110.x = local_a8.fields.Position.fields.x;
+                      UStack_110.y = local_a8.fields.Position.fields.y;
+                      UStack_110.z = local_a8.fields.Position.fields.z;
+                      fStack_104 = local_a8.fields.Normal.fields.x;
+                      local_158[0] = local_58[0];
+                      local_158[1] = local_58[1];
+                      local_148 = local_48;
+                      UStack_140 = UStack_40;
+                      local_138 = local_38;
+                      fStack_114 = local_80.fields.Shade;
+                      fStack_124 = local_80.fields.Normal.fields.y;
+                      fStack_120 = local_80.fields.Normal.fields.z;
+                      fStack_11c = local_80.fields.UV.fields.x;
+                      local_118 = local_80.fields.UV.fields.y;
+                      fStack_134 = local_80.fields.Position.fields.x;
+                      fStack_130 = local_80.fields.Position.fields.y;
+                      fStack_12c = local_80.fields.Position.fields.z;
+                      local_128 = local_80.fields.Normal.fields.x;
+                      fStack_268 = fStack_f8;
+                      fStack_264 = fStack_f4;
+                      fStack_294 = fStack_124;
+                      local_298 = local_128;
+                      fStack_28c = fStack_11c;
+                      fStack_290 = fStack_120;
+                      local_288 = CONCAT44(local_80.fields.Shade,local_118);
+                      UStack_280.z = local_a8.fields.Position.fields.z;
+                      fStack_274 = local_a8.fields.Normal.fields.x;
+                      UStack_280.x = local_a8.fields.Position.fields.x;
+                      UStack_280.y = local_a8.fields.Position.fields.y;
+                      local_2a8 = local_38;
+                      fStack_29c = fStack_12c;
+                      local_2b8 = local_48;
+                      UStack_2b0 = UStack_40;
+                      local_2c8 = local_58[0];
+                      _fStack_2c0 = local_58[1];
+                      local_25c = local_304;
+                      piVar1 = &(local_178->fields)._version;
+                      *piVar1 = *piVar1 + 1;
+                      pMVar6 = (local_178->fields)._items;
+                      fStack_2a4 = fStack_134;
+                      fStack_2a0 = fStack_130;
+                      fStack_270 = fStack_100;
+                      local_26c = fStack_fc;
+                      if (pMVar6 == (Map_MapFracture_Triangle_array *)0x0) goto label_059843bd;
+                      uVar18 = (local_178->fields)._size;
+                      if (uVar18 < (uint)pMVar6->max_length) {
+                        (local_178->fields)._size = uVar18 + 1;
+                        pUVar2 = &pMVar6->m_Items[(int)uVar18].fields.C.fields.UV;
+                        pUVar2->fields = local_a8.fields.UV.fields;
+                        pUVar2[1] = (UnityEngine_Vector2_o)CONCAT44(local_304,local_a8.fields.Shade);
+                        pMVar7 = &pMVar6->m_Items[(int)uVar18].fields;
+                        *(undefined8 *)((long)&(pMVar7->C).fields.Position.fields + 8) = local_a8.fields._8_8_
+                        ;
+                        *(undefined8 *)((long)&(pMVar7->C).fields.Normal.fields + 4) =
+                             local_a8.fields.Normal.fields._4_8_;
+                        pMVar7 = &pMVar6->m_Items[(int)uVar18].fields;
+                        *(undefined8 *)((long)&(pMVar7->B).fields.UV.fields + 4) = local_288;
+                        *(undefined8 *)&(pMVar7->C).fields.Position.fields =
+                             local_a8.fields.Position.fields._0_8_;
+                        pMVar7 = &pMVar6->m_Items[(int)uVar18].fields;
+                        pMVar8 = &pMVar7->B;
+                        (pMVar8->fields).Normal.fields.x = local_128;
+                        (pMVar8->fields).Normal.fields.y = fStack_124;
+                        *(undefined8 *)((long)&(pMVar7->B).fields.Normal.fields + 8) = _fStack_290;
+                        pMVar7 = &pMVar6->m_Items[(int)uVar18].fields;
+                        *(ulong *)&(pMVar7->A).fields.Shade = CONCAT44(fStack_134,local_38);
+                        *(ulong *)((long)&(pMVar7->B).fields.Position.fields + 4) =
+                             CONCAT44(fStack_12c,fStack_130);
+                        pMVar7 = &pMVar6->m_Items[(int)uVar18].fields;
+                        *(UnityEngine_Vector3_array **)((long)&(pMVar7->A).fields.Normal.fields + 4) =
+                             local_48;
+                        (pMVar7->A).fields.UV.fields = UStack_40;
+                        *(UnityEngine_Vector3_array **)&pMVar6->m_Items[(int)uVar18].fields.A.fields.Position
+                             = local_58[0];
+                        *(UnityEngine_Vector3_array **)
+                         ((long)&pMVar6->m_Items[(int)uVar18].fields.A.fields.Position + 8) = local_58[1];
+                      }
+                      else {
+                        item.fields.Submesh = (int32_t)local_304;
+                        item.fields.C.fields.Shade = local_a8.fields.Shade;
+                        item.fields.B.fields.Position.fields.x = fStack_134;
+                        item.fields.A.fields.Shade = local_38;
+                        item.fields.B.fields.Position.fields.z = fStack_12c;
+                        item.fields.B.fields.Position.fields.y = fStack_130;
+                        item.fields.A.fields._8_8_ = local_58[1];
+                        item.fields.A.fields.Position.fields._0_8_ = local_58[0];
+                        item.fields.A.fields.Normal.fields._4_8_ = local_48;
+                        item.fields.A.fields.UV.fields = UStack_40;
+                        item.fields.B.fields.Normal.fields.x = local_128;
+                        item.fields.B.fields.Normal.fields.y = fStack_124;
+                        item.fields.B.fields.Normal.fields.z = fStack_120;
+                        item.fields.B.fields.UV.fields.x = fStack_11c;
+                        item.fields.B.fields.UV.fields.y = local_118;
+                        item.fields.B.fields.Shade = local_80.fields.Shade;
+                        item.fields.C.fields.Position.fields.x = local_a8.fields.Position.fields.x;
+                        item.fields.C.fields.Position.fields.y = local_a8.fields.Position.fields.y;
+                        item.fields.C.fields.Position.fields.z = local_a8.fields.Position.fields.z;
+                        item.fields.C.fields.Normal.fields.x = local_a8.fields.Normal.fields.x;
+                        item.fields.C.fields.Normal.fields.y = local_a8.fields.Normal.fields.y;
+                        item.fields.C.fields.Normal.fields.z = local_a8.fields.Normal.fields.z;
+                        item.fields.C.fields.UV.fields = local_a8.fields.UV.fields;
+                        System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
+                                  (local_178,item,(MethodInfo_3AB1FB0 *)pMVar9->klass->rgctx_data[0xe].method)
+                        ;
+                      }
+                      uVar23 = uVar23 + 3;
+                      iVar22 = local_240->max_length;
+                    } while ((int)uVar23 < (int)iVar22);
+                  }
+                }
+                uVar21 = uVar21 + 1;
+                iVar11 = UnityEngine_Mesh__get_subMeshCount(local_300,(MethodInfo *)0x0);
+              } while ((int)uVar21 < iVar11);
+            }
+          }
+          uVar23 = local_2d8 + 1;
+          uVar21 = (uint)local_180->max_length;
+        } while ((int)uVar23 < (int)uVar21);
+      }
+    }
+    if (__this_00 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+      if ((__this_00->fields)._size == 0) {
+        local_2f0 = (Map_MapFracture_o *)0x0;
       }
       else {
-        __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture);
-        if (Il2CppMethodInitialized_184345083 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_ctor);
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_System_Collections_Generic_List_MapFracture_Segment);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_float_array);
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_Vertex_array);
-          Il2CppMethodInitialized_184345083 = '\x01';
-        }
-        pMVar38 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,3);
-        (__this_05->fields)._corners = pMVar38;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._corners,pMVar38);
-        value = (System_Single_array *)SZArrayNew(TypeInfo_float_array,3);
-        (__this_05->fields)._distances = value;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._distances,value);
-        pMVar38 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,6);
-        (__this_05->fields)._polygon = pMVar38;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._polygon,pMVar38);
-        pMVar38 = (Map_MapFracture_Vertex_array *)SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,2);
-        (__this_05->fields)._cut = pMVar38;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._cut,pMVar38);
-        __this_06 = il2cpp_codegen_object_new
-                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Segment);
-        System_Collections_Generic_List_MapFracture_Segment____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)__this_06,
-                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Segment_ctor);
-        (__this_05->fields)._segments = __this_06;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._segments,__this_06);
-        System_Configuration_ConfigurationCollectionAttribute___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_05,(MethodInfo *)0x0);
-        (__this_05->fields)._triangles = __this_01;
-        Il2CppCodeGenWriteBarrier(&(__this_05->fields)._triangles,__this_01);
+        local_2f0 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture);
+        Map_MapFracture___ctor(local_2f0,__this_00,method_00);
       }
-      return __this_05;
+      return local_2f0;
     }
   }
-label_181ea72d3:
+label_059843bd:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$Shatter
 // il2cpp: System_Collections_Generic_List_List_MapFracture_Triangle___o* Map_MapFracture__Shatter (Map_MapFracture_o* __this, int32_t pieceCount, float groundHeight, int32_t seed, const MethodInfo* method);
-// 0x181ea72e0
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea76fe: nop 
-// asm:   0x181ea790a: mov r14, rbx
-// asm:   0x181ea790d: jmp 0x181ea7775
+// 0x5987eb0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59884ea: jmp 0x598853e
+// asm:   0x59885cb: jmp 0x5988650
 
 System_Collections_Generic_List_List_MapFracture_Triangle___o *
 Map_MapFracture__Shatter
@@ -1103,56 +1261,71 @@ Map_MapFracture__Shatter
 
 {
   int32_t *piVar1;
-  float fVar2;
-  undefined8 uVar3;
-  float fVar4;
-  int32_t iVar5;
-  UnityEngine_Vector3_StaticFields *pUVar6;
-  Map_MapFracture___c__DisplayClass16_0_o *pMVar7;
-  undefined8 uVar8;
-  undefined8 uVar9;
-  int32_t iVar10;
-  int32_t iVar11;
-  bool bVar12;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o index;
-  Map_MapFracture___c__DisplayClass16_0_o *__this_00;
-  System_Collections_Generic_List_List_MapFracture_Triangle___o *__this_01;
-  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar13;
-  UnityEngine_Bounds_o *pUVar14;
+  Map_MapFracture___c__DisplayClass16_1_Fields *pMVar2;
+  float fVar3;
+  undefined4 uVar4;
+  float fVar5;
+  undefined4 uVar6;
+  uint32_t uVar7;
+  System_Int32_array *pSVar8;
+  UnityEngine_Vector3_StaticFields *pUVar9;
+  System_Collections_Generic_List_MapFracture_Triangle__array *pSVar10;
+  undefined1 auVar11 [16];
+  UnityEngine_Bounds_o bounds;
+  undefined4 uVar12;
+  undefined4 uVar13;
+  bool bVar14;
+  int32_t iVar15;
+  Map_MapFracture___c__DisplayClass16_0_o *pMVar16;
+  System_Collections_Generic_List_List_MapFracture_Triangle___o *__this_00;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_01;
   System_Random_o *__this_02;
-  System_Collections_Generic_List_Vector3__o *pSVar15;
-  System_Collections_Generic_List_T__o *__this_03;
-  Map_MapFracture___c__DisplayClass16_1_o *object;
-  System_Comparison_T__o *__this_04;
-  int iVar16;
-  int index_00;
-  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar17;
-  float fVar18;
-  UnityEngine_Vector3_Fields local_138;
-  System_Collections_Generic_List_List_MapFracture_Triangle___o *local_128;
-  System_Collections_Generic_List_MapFracture_Triangle__o *local_120;
-  UnityEngine_Rendering_ProbeBrickPool_BrickChunkAlloc_o local_118;
-  System_Collections_Generic_List_MapFracture_Triangle__o *local_108;
-  System_Collections_Generic_List_MapFracture_Triangle__o *local_100;
-  UnityEngine_Rendering_ProbeBrickPool_BrickChunkAlloc_Fields local_f8;
-  undefined8 local_e8;
-  UnityEngine_Vector3_Fields local_d8;
-  UnityEngine_Bounds_o local_c8 [6];
+  System_Collections_Generic_List_Vector3__o *pSVar17;
+  System_Collections_Generic_List_int__o *__this_03;
+  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar18;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_04;
+  Map_MapFracture___c__DisplayClass16_1_o *pMVar19;
+  Map_MapFracture___c__DisplayClass16_0_o *pMVar20;
+  System_Comparison_T__o *comparison;
+  System_Collections_Generic_List_MapFracture_Triangle__o *pSVar21;
+  MethodInfo **method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  int item;
+  int index;
+  Map_MapFracture___c__DisplayClass16_0_Fields *targetAddress;
+  MethodInfo *pMVar22;
+  Map_MapFracture___c__DisplayClass16_0_o **targetAddress_00;
+  uint uVar23;
+  System_Collections_Generic_List_MapFracture_Triangle__o *source;
+  undefined4 extraout_XMM0_Db;
+  undefined4 uVar24;
+  float extraout_XMM0_Dc;
+  float extraout_XMM0_Dd;
+  float fVar25;
+  undefined1 auVar26 [16];
+  UnityEngine_Vector3_o UVar27;
+  UnityEngine_Vector3_o normal;
+  float fStack_c8;
+  float fStack_c4;
+  float fStack_68;
+  float fStack_64;
+  UnityEngine_Bounds_o UStack_48;
   
-  if (Il2CppMethodInitialized_184345085 == '\0') {
+  if (Il2CppMethodInitialized_07545a16 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Comparison_int);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Clear);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Sort_40b3ca8);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Sort_7195140);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077448);
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077368);
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198620);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Count);
@@ -1168,265 +1341,357 @@ Map_MapFracture__Shatter
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_c__DisplayClass16_0);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Map_MapFracture_c__DisplayClass16_1_Shatter_b__0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_c__DisplayClass16_1);
-    Il2CppMethodInitialized_184345085 = '\x01';
+    Il2CppMethodInitialized_07545a16 = '\x01';
   }
-  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  Map_MapFracture__CloseOpenings(__this,(MethodInfo *)0x0);
-  __this_01 = il2cpp_codegen_object_new
+  pMVar16 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_0);
+  pMVar22 = (MethodInfo *)0x0;
+  System_Object___ctor((Il2CppObject *)pMVar16,(MethodInfo *)0x0);
+  Map_MapFracture__CloseOpenings(__this,pMVar22);
+  __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_List_MapFracture_Triangle);
-  local_128 = __this_01;
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_ctor);
-  pSVar17 = (__this->fields)._triangles;
-  if (pSVar17 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    iVar5 = (pSVar17->fields)._size;
-    pSVar13 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
-    local_120 = pSVar13;
-    System_Collections_Generic_List_MapFracture_Triangle____ctor
-              ((System_Collections_Generic_List_T__o *)pSVar13,iVar5,
-               (MethodInfo_92A4F0 *)
-               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077448);
-    pSVar17 = (__this->fields)._triangles;
-    if (Il2CppMethodInitialized_18433de5c == '\0') {
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_ctor);
+  pSVar18 = (__this->fields)._triangles;
+  if (pSVar18 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    iVar15 = (pSVar18->fields)._size;
+    __this_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+    System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+              (__this_01,iVar15,
+               (MethodInfo_3AB1540 *)
+               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+    pSVar18 = (__this->fields)._triangles;
+    if (Il2CppMethodInitialized_0753e72c == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433de5c = '\x01';
+      Il2CppMethodInitialized_0753e72c = '\x01';
     }
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    local_138.x = (pUVar6->upVector).fields.x;
-    local_138.y = (pUVar6->upVector).fields.y;
-    local_138.z = (pUVar6->upVector).fields.z;
-    bVar12 = Map_MapFracture__Clip
-                       (__this,pSVar17,pSVar13,(UnityEngine_Vector3_o *)&local_138,groundHeight,
-                        (MethodInfo *)0x0);
-    if (!bVar12) {
-      pSVar13 = (__this->fields)._triangles;
-      local_120 = pSVar13;
+    bVar14 = Map_MapFracture__Clip
+                       (__this,pSVar18,__this_01,
+                        (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->upVector).fields,
+                        groundHeight,method);
+    if (!bVar14) {
+      __this_01 = (__this->fields)._triangles;
     }
-    if (pSVar13 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-      if ((pSVar13->fields)._size == 0) {
-        return __this_01;
+    if (__this_01 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+      if ((__this_01->fields)._size == 0) {
+        return __this_00;
       }
-      pUVar14 = Map_MapFracture__GetBounds(local_c8,pSVar13,(MethodInfo *)0x0);
-      uVar8._0_4_ = (pUVar14->fields).m_Center.fields.x;
-      uVar8._4_4_ = (pUVar14->fields).m_Center.fields.y;
-      uVar9 = *(undefined8 *)&(pUVar14->fields).m_Center.fields.z;
-      uVar3._0_4_ = (pUVar14->fields).m_Extents.fields.y;
-      uVar3._4_4_ = (pUVar14->fields).m_Extents.fields.z;
+      Map_MapFracture__GetBounds(&UStack_48,__this_01,method_01);
       __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Random);
-      System_Random___ctor_1b47f40(__this_02,seed,(MethodInfo *)0x0);
-      local_c8[0].fields.m_Center.fields._0_8_ = uVar8;
-      local_c8[0].fields._8_8_ = uVar9;
-      local_c8[0].fields.m_Extents.fields._4_8_ = uVar3;
-      pSVar15 = Map_MapFracture__CreateSeeds(local_c8,pieceCount,__this_02,(MethodInfo *)0x0);
-      if (__this_00 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) {
-        (__this_00->fields).seeds = pSVar15;
-        Il2CppCodeGenWriteBarrier(&(__this_00->fields).seeds,pSVar15);
-        pSVar15 = (__this_00->fields).seeds;
-        if (pSVar15 != (System_Collections_Generic_List_Vector3__o *)0x0) {
-          iVar5 = (pSVar15->fields)._size;
-          __this_03 = (System_Collections_Generic_List_T__o *)
-                      il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-          System_Collections_Generic_List_int____ctor
-                    (__this_03,iVar5,
-                     (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-          iVar5 = (pSVar13->fields)._size;
-          local_108 = il2cpp_codegen_object_new
+      System_Random___ctor_54cebf0(__this_02,seed,(MethodInfo *)0x0);
+      bounds.fields.m_Center.fields.z = UStack_48.fields.m_Center.fields.z;
+      bounds.fields.m_Extents.fields.x = UStack_48.fields.m_Extents.fields.x;
+      bounds.fields.m_Center.fields.x = UStack_48.fields.m_Center.fields.x;
+      bounds.fields.m_Center.fields.y = UStack_48.fields.m_Center.fields.y;
+      bounds.fields.m_Extents.fields.y = UStack_48.fields.m_Extents.fields.y;
+      bounds.fields.m_Extents.fields.z = UStack_48.fields.m_Extents.fields.z;
+      pSVar17 = Map_MapFracture__CreateSeeds(bounds,pieceCount,__this_02,method_02);
+      if (pMVar16 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) {
+        targetAddress = &pMVar16->fields;
+        (pMVar16->fields).seeds = pSVar17;
+        Il2CppCodeGenWriteBarrier(&targetAddress->seeds);
+        pSVar17 = (pMVar16->fields).seeds;
+        if (pSVar17 != (System_Collections_Generic_List_Vector3__o *)0x0) {
+          iVar15 = (pSVar17->fields)._size;
+          __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+          System_Collections_Generic_List_int____ctor_3916240
+                    (__this_03,iVar15,
+                     (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+          iVar15 = (__this_01->fields)._size;
+          pSVar18 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+          System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+                    (pSVar18,iVar15,
+                     (MethodInfo_3AB1540 *)
+                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+          iVar15 = (__this_01->fields)._size;
+          __this_04 = il2cpp_codegen_object_new
                                 ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle)
           ;
-          System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo____ctor_92a4f0
-                    ((System_Collections_Generic_List_T__o *)local_108,iVar5,
-                     (MethodInfo_92A4F0 *)
-                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077448);
-          iVar5 = (pSVar13->fields)._size;
-          local_100 = il2cpp_codegen_object_new
-                                ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Triangle)
-          ;
-          System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo____ctor_92a4f0
-                    ((System_Collections_Generic_List_T__o *)local_100,iVar5,
-                     (MethodInfo_92A4F0 *)
-                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077448);
-          index_00 = 0;
-          while (pSVar15 = (__this_00->fields).seeds,
-                pSVar15 != (System_Collections_Generic_List_Vector3__o *)0x0) {
-            if ((pSVar15->fields)._size <= index_00) {
-              return __this_01;
-            }
-            object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_1);
-            System_Object___ctor
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0)
-            ;
-            if (object == (Map_MapFracture___c__DisplayClass16_1_o *)0x0) break;
-            (object->fields).CS___8__locals1 = __this_00;
-            Il2CppCodeGenWriteBarrier(&(object->fields).CS___8__locals1,__this_00);
-            pMVar7 = (object->fields).CS___8__locals1;
-            if ((pMVar7 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) ||
-               (pSVar15 = (pMVar7->fields).seeds, pSVar15 == (System_Collections_Generic_List_Vector3__o *)0x0
-               )) break;
-            System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc___get_Item
-                      ((UnityEngine_Rendering_ProbeBrickPool_BrickChunkAlloc_o *)&local_f8,
-                       (System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc__o *)pSVar15,index_00,
-                       (MethodInfo_93BF30 *)MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
-            (object->fields).own.fields.x = (float)local_f8.x;
-            (object->fields).own.fields.y = (float)local_f8.y;
-            (object->fields).own.fields.z = (float)local_f8.z;
-            if (__this_03 == (System_Collections_Generic_List_T__o *)0x0) break;
-            piVar1 = &(__this_03->fields)._version;
-            *piVar1 = *piVar1 + 1;
-            (__this_03->fields)._size = 0;
-            iVar16 = 0;
-            while( true ) {
-              pMVar7 = (object->fields).CS___8__locals1;
-              if ((pMVar7 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) ||
-                 (pSVar15 = (pMVar7->fields).seeds,
-                 pSVar15 == (System_Collections_Generic_List_Vector3__o *)0x0)) goto label_181ea79f2;
-              if ((pSVar15->fields)._size <= iVar16) break;
-              if (iVar16 != index_00) {
-                il2cpp_runtime_helper_180026690(__this_03,iVar16,MethodInfo_System_Collections_Generic_List_int_Add);
+          System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1540
+                    (__this_04,iVar15,
+                     (MethodInfo_3AB1540 *)
+                     MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198628);
+          pSVar17 = targetAddress->seeds;
+          if (pSVar17 != (System_Collections_Generic_List_Vector3__o *)0x0) {
+            if (__this_03 == (System_Collections_Generic_List_int__o *)0x0) {
+              if ((pSVar17->fields)._size < 1) {
+                return __this_00;
               }
-              iVar16 = iVar16 + 1;
-            }
-            __this_04 = (System_Comparison_T__o *)
-                        il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Comparison_int);
-            System_Comparison_int____ctor
-                      (__this_04,(Il2CppObject *)object,
-                       (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass16_1_Shatter_b__0,
-                       (MethodInfo_13402B0 *)0x0);
-            System_Collections_Generic_List_int___Sort
-                      (__this_03,__this_04,
-                       (MethodInfo_923EC0 *)MethodInfo_System_Collections_Generic_List_int_Sort_40b3ca8);
-            iVar16 = 0;
-            while ((pSVar17 = pSVar13, iVar16 < (__this_03->fields)._size && (iVar16 < 0x14))) {
-              if (pSVar17 == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0)
-              goto label_181ea79f2;
-              if ((pSVar17->fields)._size < 1) goto label_181ea7973;
-              pMVar7 = (object->fields).CS___8__locals1;
-              if (pMVar7 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) goto label_181ea79f2;
-              pSVar15 = (pMVar7->fields).seeds;
-              index = System_Collections_Generic_List_int___get_Item
-                                ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_03,
-                                 iVar16,(MethodInfo_92B8E0 *)
-                                        MethodInfo_System_Collections_Generic_List_int_get_Item);
-              if (pSVar15 == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_181ea79f2;
-              System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc___get_Item
-                        (&local_118,
-                         (System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc__o *)pSVar15,
-                         (int32_t)index.fields,
-                         (MethodInfo_93BF30 *)MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
-              iVar11 = local_118.fields.z;
-              iVar10 = local_118.fields.y;
-              iVar5 = local_118.fields.x;
-              fVar2 = (object->fields).own.fields.x - (float)local_118.fields.x;
-              fVar4 = (object->fields).own.fields.y - (float)local_118.fields.y;
-              fVar18 = (object->fields).own.fields.z - (float)local_118.fields.z;
-              local_138.y = fVar4;
-              local_138.x = fVar2;
-              local_138.z = fVar18;
-              if (Il2CppMethodInitialized_18433de5f == '\0') {
-                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-                Il2CppMethodInitialized_18433de5f = '\x01';
+              pMVar19 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_1)
+              ;
+              System_Object___ctor((Il2CppObject *)pMVar19,(MethodInfo *)0x0);
+              if (pMVar19 != (Map_MapFracture___c__DisplayClass16_1_o *)0x0) {
+                (pMVar19->fields).CS___8__locals1 = pMVar16;
+                Il2CppCodeGenWriteBarrier(&(pMVar19->fields).CS___8__locals1);
+                pMVar16 = (pMVar19->fields).CS___8__locals1;
+                if ((pMVar16 != (Map_MapFracture___c__DisplayClass16_0_o *)0x0) &&
+                   (pSVar17 = (pMVar16->fields).seeds,
+                   pSVar17 != (System_Collections_Generic_List_Vector3__o *)0x0)) {
+                  UVar27 = System_Collections_Generic_List_Vector3___get_Item
+                                     (pSVar17,0,
+                                      (MethodInfo_39FF5D0 *)
+                                      MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                  (pMVar19->fields).own.fields.x = UVar27.fields.x;
+                  (pMVar19->fields).own.fields.y = UVar27.fields.y;
+                  (pMVar19->fields).own.fields.z = UVar27.fields.z;
+                  ThrowNullReferenceException();
+                }
               }
-              local_d8.z = (float)il2cpp_runtime_helper_180546a40(&local_138,0);
-              if (local_d8.z <= 1e-05) {
-                pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-                fVar2 = (pUVar6->zeroVector).fields.x;
-                fVar4 = (pUVar6->zeroVector).fields.y;
-                local_d8.z = (pUVar6->zeroVector).fields.z;
-              }
-              else {
-                fVar2 = fVar2 / local_d8.z;
-                fVar4 = fVar4 / local_d8.z;
-                local_d8.z = fVar18 / local_d8.z;
-              }
-              local_e8 = CONCAT44(fVar4,fVar2);
-              pSVar13 = local_108;
-              if (pSVar17 == local_108) {
-                pSVar13 = local_100;
-              }
-              local_d8.y = fVar4;
-              local_d8.x = fVar2;
-              iVar16 = iVar16 + 1;
-              bVar12 = Map_MapFracture__Clip
-                                 (__this,pSVar17,pSVar13,(UnityEngine_Vector3_o *)&local_d8,
-                                  ((float)iVar10 + (object->fields).own.fields.y) * 0.5 * fVar4 +
-                                  ((float)iVar5 + (object->fields).own.fields.x) * 0.5 * fVar2 +
-                                  ((float)iVar11 + (object->fields).own.fields.z) * 0.5 * local_d8.z,
-                                  (MethodInfo *)0x0);
-              if (!bVar12) {
-                pSVar13 = pSVar17;
-              }
-            }
-            if (pSVar17 == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) break;
-            if ((pSVar17->fields)._size < 1) {
-label_181ea7973:
-              index_00 = index_00 + 1;
-              __this_01 = local_128;
-              pSVar13 = local_120;
             }
             else {
-              pSVar13 = il2cpp_codegen_object_new
-                                  ((Il2CppClass *)
-                                   TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
-              System_Collections_Generic_List_MapFracture_Triangle____ctor_9f08b0
-                        (pSVar13,(System_Collections_Generic_IEnumerable_T__o *)pSVar17,
-                         (MethodInfo_9F08B0 *)
-                         MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_4077368);
-              __this_01 = local_128;
-              if (local_128 == (System_Collections_Generic_List_List_MapFracture_Triangle___o *)0x0) break;
-              il2cpp_runtime_helper_180012890(local_128,pSVar13,
-                            MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_Add);
-              index_00 = index_00 + 1;
-              pSVar13 = local_120;
+              index = 0;
+              while( true ) {
+                if ((pSVar17->fields)._size <= index) {
+                  return __this_00;
+                }
+                pMVar19 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass16_1);
+                System_Object___ctor((Il2CppObject *)pMVar19,(MethodInfo *)0x0);
+                if (pMVar19 == (Map_MapFracture___c__DisplayClass16_1_o *)0x0) break;
+                targetAddress_00 = &(pMVar19->fields).CS___8__locals1;
+                (pMVar19->fields).CS___8__locals1 = pMVar16;
+                Il2CppCodeGenWriteBarrier(targetAddress_00);
+                pMVar20 = (pMVar19->fields).CS___8__locals1;
+                if ((pMVar20 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) ||
+                   (pSVar17 = (pMVar20->fields).seeds,
+                   pSVar17 == (System_Collections_Generic_List_Vector3__o *)0x0)) break;
+                UVar27 = System_Collections_Generic_List_Vector3___get_Item
+                                   (pSVar17,index,
+                                    (MethodInfo_39FF5D0 *)
+                                    MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                (pMVar19->fields).own.fields.x = UVar27.fields.x;
+                (pMVar19->fields).own.fields.y = UVar27.fields.y;
+                (pMVar19->fields).own.fields.z = UVar27.fields.z;
+                piVar1 = &(__this_03->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                (__this_03->fields)._size = 0;
+                pMVar20 = (pMVar19->fields).CS___8__locals1;
+                if (pMVar20 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) break;
+                item = 0;
+                while( true ) {
+                  pMVar22 = MethodInfo_System_Collections_Generic_List_int_Add;
+                  pSVar17 = (pMVar20->fields).seeds;
+                  if (pSVar17 == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_05988743;
+                  if ((pSVar17->fields)._size <= item) break;
+                  if (index != item) {
+                    piVar1 = &(__this_03->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pSVar8 = (__this_03->fields)._items;
+                    if (pSVar8 == (System_Int32_array *)0x0) goto label_05988743;
+                    uVar23 = (__this_03->fields)._size;
+                    if (uVar23 < (uint)pSVar8->max_length) {
+                      (__this_03->fields)._size = uVar23 + 1;
+                      pSVar8->m_Items[(int)uVar23] = item;
+                    }
+                    else {
+                      System_Collections_Generic_List_int___AddWithResize
+                                (__this_03,item,(MethodInfo_3916AC0 *)pMVar22->klass->rgctx_data[0xe].method);
+                      pMVar20 = *targetAddress_00;
+                    }
+                  }
+                  item = item + 1;
+                  if (pMVar20 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0) goto label_05988743;
+                }
+                comparison = (System_Comparison_T__o *)
+                             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Comparison_int);
+                System_Comparison_int____ctor
+                          ((System_Comparison_int__o *)comparison,(Il2CppObject *)pMVar19,
+                           (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass16_1_Shatter_b__0,
+                           (MethodInfo_48E1930 *)0x0);
+                System_Collections_Generic_List_int___Sort_3918cc0
+                          (__this_03,comparison,
+                           (MethodInfo_3918CC0 *)MethodInfo_System_Collections_Generic_List_int_Sort_7195140);
+                source = __this_01;
+                if (0 < (__this_03->fields)._size) {
+                  uVar23 = 0;
+                  do {
+                    if (source == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0)
+                    goto label_05988743;
+                    if ((source->fields)._size < 1) goto label_05988227;
+                    if (*targetAddress_00 == (Map_MapFracture___c__DisplayClass16_0_o *)0x0)
+                    goto label_05988743;
+                    pSVar17 = ((*targetAddress_00)->fields).seeds;
+                    iVar15 = System_Collections_Generic_List_int___get_Item
+                                       (__this_03,uVar23,
+                                        (MethodInfo_39167D0 *)
+                                        MethodInfo_System_Collections_Generic_List_int_get_Item);
+                    if (pSVar17 == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_05988743;
+                    method_00 = &MethodInfo_System_Collections_Generic_List_Vector3_get_Item;
+                    UVar27 = System_Collections_Generic_List_Vector3___get_Item
+                                       (pSVar17,iVar15,
+                                        (MethodInfo_39FF5D0 *)
+                                        MethodInfo_System_Collections_Generic_List_Vector3_get_Item);
+                    pMVar2 = &pMVar19->fields;
+                    uVar12 = (pMVar2->own).fields.x;
+                    uVar13 = (pMVar2->own).fields.y;
+                    fVar25 = (pMVar19->fields).own.fields.z;
+                    if (Il2CppMethodInitialized_0753e72d == '\0') {
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                      Il2CppMethodInitialized_0753e72d = '\x01';
+                      fVar3 = (float)uVar12;
+                      fVar5 = (float)uVar13;
+                      if (Il2CppMethodInitialized_0753e729 == '\0') goto label_05988603;
+label_05988467:
+                      uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                    }
+                    else {
+                      fVar3 = (pMVar2->own).fields.x;
+                      fVar5 = (pMVar19->fields).own.fields.y;
+                      if (Il2CppMethodInitialized_0753e729 != '\0') goto label_05988467;
+label_05988603:
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+                      Il2CppMethodInitialized_0753e729 = '\x01';
+                      uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                      fVar3 = (float)uVar12;
+                      fVar5 = (float)uVar13;
+                    }
+                    if (uVar7 == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+                      fVar3 = (float)uVar12;
+                      fVar5 = (float)uVar13;
+                    }
+                    uVar24 = 0;
+                    fStack_68 = UVar27.fields.x;
+                    fStack_64 = UVar27.fields.y;
+                    auVar26._0_4_ = fVar3 - fStack_68;
+                    auVar26._4_4_ = fVar5 - fStack_64;
+                    auVar26._8_4_ = 0.0 - extraout_XMM0_Dc;
+                    auVar26._12_4_ = 0.0 - extraout_XMM0_Dd;
+                    fVar25 = fVar25 - UVar27.fields.z;
+                    fVar3 = fVar25 * fVar25 + auVar26._4_4_ * auVar26._4_4_ + auVar26._0_4_ * auVar26._0_4_;
+                    if (fVar3 < 0.0) {
+                      fVar3 = sqrtf(fVar3);
+                      uVar24 = extraout_XMM0_Db;
+                      if (1e-05 < fVar3) goto label_05988512;
+label_059884c1:
+                      pUVar9 = TypeInfo_UnityEngine_Vector3->static_fields;
+                      fVar25 = (pUVar9->zeroVector).fields.z;
+                      fVar3 = (pUVar9->zeroVector).fields.x;
+                      fVar5 = (pUVar9->zeroVector).fields.y;
+                    }
+                    else {
+                      fVar3 = SQRT(fVar3);
+                      if (fVar3 <= 1e-05) goto label_059884c1;
+label_05988512:
+                      fVar25 = fVar25 / fVar3;
+                      auVar11._4_4_ = fVar3;
+                      auVar11._0_4_ = fVar3;
+                      auVar11._8_4_ = uVar24;
+                      auVar11._12_4_ = uVar24;
+                      auVar26 = divps(auVar26,auVar11);
+                      fVar3 = auVar26._0_4_;
+                      fVar5 = auVar26._4_4_;
+                    }
+                    pSVar21 = __this_04;
+                    if (source != pSVar18) {
+                      pSVar21 = pSVar18;
+                    }
+                    uVar4 = (pMVar19->fields).own.fields.x;
+                    uVar6 = (pMVar19->fields).own.fields.y;
+                    normal.fields.y = fVar5;
+                    normal.fields.x = fVar3;
+                    normal.fields.z = fVar25;
+                    bVar14 = Map_MapFracture__Clip
+                                       (__this,source,pSVar21,normal,
+                                        fVar3 * ((float)uVar4 + fStack_68) * 0.5 +
+                                        fVar5 * (fStack_64 + (float)uVar6) * 0.5 +
+                                        fVar25 * ((pMVar19->fields).own.fields.z + UVar27.fields.z) * 0.5,
+                                        (MethodInfo *)method_00);
+                    if (!bVar14) {
+                      pSVar21 = source;
+                    }
+                    source = pSVar21;
+                  } while ((uVar23 < 0x13) && (uVar23 = uVar23 + 1, (int)uVar23 < (__this_03->fields)._size));
+                }
+                if (source == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) break;
+                if (0 < (source->fields)._size) {
+                  pSVar21 = il2cpp_codegen_object_new
+                                      ((Il2CppClass *)
+                                       TypeInfo_System_Collections_Generic_List_MapFracture_Triangle);
+                  System_Collections_Generic_List_MapFracture_Triangle____ctor_3ab1620
+                            (pSVar21,(System_Collections_Generic_IEnumerable_T__o *)source,
+                             (MethodInfo_3AB1620 *)
+                             MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_ctor_7198620);
+                  pMVar22 = MethodInfo_System_Collections_Generic_List_List_MapFracture_Triangle_Add;
+                  if (__this_00 == (System_Collections_Generic_List_List_MapFracture_Triangle___o *)0x0)
+                  break;
+                  piVar1 = &(__this_00->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pSVar10 = (__this_00->fields)._items;
+                  if (pSVar10 == (System_Collections_Generic_List_MapFracture_Triangle__array *)0x0) break;
+                  uVar23 = (__this_00->fields)._size;
+                  if (uVar23 < (uint)pSVar10->max_length) {
+                    (__this_00->fields)._size = uVar23 + 1;
+                    pSVar10->m_Items[(int)uVar23] = pSVar21;
+                    Il2CppCodeGenWriteBarrier(pSVar10->m_Items + (int)uVar23);
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar21,
+                               (MethodInfo_395D230 *)pMVar22->klass->rgctx_data[0xe].method);
+                  }
+                }
+label_05988227:
+                index = index + 1;
+                pSVar17 = targetAddress->seeds;
+                if (pSVar17 == (System_Collections_Generic_List_Vector3__o *)0x0) break;
+              }
             }
           }
         }
       }
     }
   }
-label_181ea79f2:
+label_05988743:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$CreateMesh
 // il2cpp: UnityEngine_Mesh_o* Map_MapFracture__CreateMesh (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, int32_t submeshCount, UnityEngine_Vector3_o* center, const MethodInfo* method);
-// 0x181ea4390
-// eh: try 0x181ea4730..0x181ea4b00 -> pad 0x18333d440 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 31 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea45ce: nop 
-// asm:   0x181ea463d: mov rbx, qword ptr [rsp + 0x350]
-// asm:   0x181ea4976: mov rdx, qword ptr [rip + 0x2200423]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea497d: mov rcx, qword ptr [rsp + 0x70]
-// asm:   0x181ea4982: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea4987: mov rcx, qword ptr [rsp + 0x68]
-// asm:   0x181ea498c: test rcx, rcx
-// asm:   0x181ea498f: jne 0x181ea4b00
-// asm:   0x181ea4995: xor r14d, r14d
-// asm:   0x181ea4998: mov r15d, dword ptr [rsp + 0x358]
-// asm:   0x181ea49a0: mov rbx, qword ptr [rsp + 0x350]
-// asm:   0x181ea49a8: mov r13, qword ptr [rsp + 0x80]
-// asm:   0x181ea49b0: mov rax, qword ptr [rsp + 0x88]
-// asm:   0x181ea49b8: mov qword ptr [rsp + 0x40], rax
-// asm:   0x181ea49bd: mov rax, qword ptr [rsp + 0x90]
-// asm:   0x181ea49c5: mov qword ptr [rsp + 0x48], rax
-// asm:   0x181ea49ca: mov rsi, qword ptr [rsp + 0x98]
-// asm:   0x181ea49d2: mov r12, rsi
-// asm:   0x181ea4a7e: nop 
-// asm:   0x181ea4b00: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d440: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d445: push rbp
-// asm:   0x18333d446: sub rsp, 0x40
-// asm:   0x18333d44a: mov rbp, rdx
-// asm:   0x18333d44d: mov rax, qword ptr [rbp + 0x160]
-// asm:   0x18333d454: mov rcx, qword ptr [rax]
-// asm:   0x18333d457: mov qword ptr [rbp + 0x68], rcx
-// asm:   0x18333d45b: movabs rax, 0
-// asm:   0x18333d465: add rsp, 0x40
-// asm:   0x18333d469: pop rbp
-// asm:   0x18333d46a: ret 
+// 0x59862c0
+// eh: try 0x598668a..0x5986ac1 -> pad 0x5986ad2 (+6 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5986aed..0x5986af2 -> pad 0x5986b24 cleanup
+// eh: try 0x5986b27..0x5986b34 -> pad 0x5986b3c catch (...) [compiler noexcept guard]
+// asm: 36 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598653e: nop 
+// asm:   0x5986671: mov rbp, qword ptr [rsp + 0x30]
+// asm:   0x5986676: mov qword ptr [rsp + 0x28], r14
+// asm:   0x598667b: mov r13, qword ptr [rsp + 0x30]
+// asm:   0x5986ac1: jmp 0x5986ad2
+// asm:   0x5986ac3: mov qword ptr [rsp + 0x28], r14
+// asm:   0x5986ac8: jmp 0x5986ad2
+// asm:   0x5986aca: jmp 0x5986ad2
+// asm:   0x5986acc: jmp 0x5986ad2
+// asm:   0x5986ace: jmp 0x5986ad2
+// asm:   0x5986ad0: jmp 0x5986ad2
+// asm:   0x5986ad2: mov rbp, rax
+// asm:   0x5986ad5: cmp edx, 1
+// asm:   0x5986ad8: jne 0x5986b27
+// asm:   0x5986ada: mov rdi, rbp
+// asm:   0x5986add: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5986ae2: mov rbx, qword ptr [rax]
+// asm:   0x5986ae5: mov qword ptr [rsp + 0xe0], rbx
+// asm:   0x5986aed: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5986af2: lea rax, [rip + 0x19087df]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x5986af9: mov rsi, qword ptr [rax]
+// asm:   0x5986afc: lea rdi, [rsp + 0xf0]
+// asm:   0x5986b04: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x5986b09: test rbx, rbx
+// asm:   0x5986b0c: mov rbp, qword ptr [rsp + 0x30]
+// asm:   0x5986b11: mov r14, qword ptr [rsp + 0x28]
+// asm:   0x5986b16: je 0x5986926
+// asm:   0x5986b1c: mov rdi, rbx
+// asm:   0x5986b1f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5986b24: mov rbp, rax
+// asm:   0x5986b27: lea rdi, [rsp + 0xe0]
+// asm:   0x5986b2f: call 0x2fd43b0  ; il2cpp_runtime_helper_02fd43b0()
+// asm:   0x5986b34: mov rdi, rbp
+// asm:   0x5986b37: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5986b3c: mov rdi, rax
+// asm:   0x5986b3f: call 0x2ab61e0  ; __clang_call_terminate()
 
 UnityEngine_Mesh_o *
 Map_MapFracture__CreateMesh
@@ -1435,88 +1700,108 @@ Map_MapFracture__CreateMesh
 
 {
   int capacity;
-  float fVar1;
-  float fVar2;
-  bool bVar3;
-  UnityEngine_Bounds_o *pUVar4;
-  System_Collections_Generic_List_Vector3__o *inVertices;
-  System_Collections_Generic_List_Vector3__o *inNormals;
-  System_Collections_Generic_List_Vector2__o *uvs;
-  System_Collections_Generic_List_Color__o *inColors;
-  Il2CppObject *pIVar5;
-  Il2CppClass *pIVar6;
-  Il2CppObject *pIVar7;
-  UnityEngine_Object_o *__this;
-  ulonglong uVar8;
-  uint uVar9;
-  undefined1 local_2e0 [24];
-  System_Collections_Generic_List_Vector3__o *local_2c8;
-  System_Collections_Generic_List_Vector2__o *local_2c0;
-  System_Collections_Generic_List_Color__o *local_2b8;
-  Il2CppObject *local_2b0;
-  UnityEngine_Vector3_Fields local_298;
-  UnityEngine_Vector3_Fields local_288;
-  UnityEngine_Vector3_Fields local_278;
-  System_Collections_Generic_List_Enumerator_T__o local_268;
-  undefined8 uStack_250;
-  undefined8 local_248;
-  UnityEngine_Vector2_Fields UStack_240;
-  undefined8 local_238;
-  undefined8 uStack_230;
-  undefined8 local_228;
-  undefined8 uStack_220;
-  undefined8 local_218;
-  undefined8 uStack_210;
-  undefined8 local_208;
-  undefined8 uStack_200;
-  undefined8 local_1f8;
-  undefined8 uStack_1f0;
-  Il2CppObject *local_1d8 [3];
-  UnityEngine_Vector2_Fields UStack_1c0;
-  float local_1b8;
-  Map_MapFracture_Vertex_o local_1a8;
-  Map_MapFracture_Vertex_o local_178;
-  System_Collections_Generic_List_Enumerator_T__o local_148;
-  float fStack_130;
-  float fStack_12c;
-  float local_128;
-  float fStack_124;
-  UnityEngine_Vector2_Fields UStack_120;
-  undefined8 local_118;
-  undefined8 uStack_110;
-  undefined8 local_108;
-  undefined8 uStack_100;
-  undefined8 local_f8;
-  undefined8 uStack_f0;
-  float local_e8;
+  Map_MapFracture_Vertex_o vertex;
+  Map_MapFracture_Vertex_o vertex_00;
+  Map_MapFracture_Vertex_o vertex_01;
+  undefined8 uVar1;
+  undefined8 uVar2;
+  System_Collections_Generic_List_T__o *pSVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  float fVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  undefined8 uVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  undefined8 uVar13;
+  undefined8 uVar14;
+  undefined8 uVar15;
+  float fVar16;
+  undefined4 uVar17;
+  undefined4 uVar18;
+  undefined4 uVar19;
+  float fVar20;
+  bool bVar21;
+  System_Collections_Generic_List_Vector3__o *__this;
+  System_Collections_Generic_List_Vector3__o *__this_00;
+  System_Collections_Generic_List_Vector2__o *__this_01;
+  System_Collections_Generic_List_Color__o *__this_02;
+  Il2CppObject *pIVar22;
+  Il2CppClass *pIVar23;
+  Il2CppObject *pIVar24;
+  UnityEngine_Object_o *__this_03;
+  System_Collections_Generic_List_int__o *__this_04;
+  MethodInfo *extraout_RDX;
+  MethodInfo *method_00;
+  ulong uVar25;
+  Il2CppObject *pIVar26;
+  MethodInfo *in_R9;
+  System_Collections_Generic_List_Enumerator_T__o local_1d8;
+  undefined8 uStack_1c0;
+  System_Collections_Generic_List_T__o *local_1b8;
+  undefined8 uStack_1b0;
+  undefined8 local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 local_198;
+  undefined8 uStack_190;
+  undefined8 local_188;
+  undefined8 uStack_180;
+  undefined8 local_178;
+  float fStack_170;
+  undefined4 uStack_16c;
+  undefined4 local_168;
+  undefined4 uStack_164;
+  float fStack_160;
+  uint uStack_15c;
+  undefined8 local_158;
+  undefined8 uStack_150;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  float local_138;
+  System_Collections_Generic_List_Enumerator_T__o local_128;
+  int32_t iStack_110;
+  int32_t iStack_10c;
+  float local_108;
+  undefined4 uStack_104;
+  int32_t iStack_100;
+  int32_t iStack_fc;
+  undefined4 local_f8;
+  undefined4 uStack_f4;
+  undefined4 uStack_f0;
+  undefined4 uStack_ec;
+  undefined4 local_e8;
   float fStack_e4;
-  float fStack_e0;
-  float fStack_dc;
+  undefined8 uStack_e0;
   undefined8 local_d8;
-  undefined8 uStack_d0;
-  float local_a8;
-  float fStack_a4;
-  float fStack_a0;
-  float fStack_9c;
-  float local_98;
-  float fStack_94;
-  float fStack_90;
-  float fStack_8c;
-  float local_88;
-  float fStack_84;
-  float fStack_80;
-  float fStack_7c;
-  float local_78;
-  float fStack_74;
-  float fStack_70;
-  float fStack_6c;
-  float local_68;
-  float fStack_64;
-  float fStack_60;
-  uint uStack_5c;
-  ulonglong uVar10;
+  undefined4 uStack_d0;
+  undefined4 uStack_cc;
+  undefined4 local_c8;
+  undefined4 uStack_c4;
+  float fStack_c0;
+  undefined4 uStack_bc;
+  undefined8 local_b8;
+  undefined8 uStack_b0;
+  System_Collections_Generic_List_T__o *local_a8;
+  int32_t iStack_a0;
+  int32_t iStack_9c;
+  System_Collections_Generic_List_T__o *local_98;
+  int32_t iStack_90;
+  int32_t iStack_8c;
+  undefined8 local_88;
+  undefined8 uStack_80;
+  undefined8 local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined4 uStack_48;
+  undefined4 uStack_44;
+  float fStack_40;
   
-  if (Il2CppMethodInitialized_184345086 == '\0') {
+  method_00 = (MethodInfo *)center;
+  if (Il2CppMethodInitialized_07545a17 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1528,10 +1813,10 @@ Map_MapFracture__CreateMesh
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Vector2_ctor_40efe18);
+              (&MethodInfo_System_Collections_Generic_List_Vector2_ctor_7197518);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color_ctor_408ed18)
+              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color_ctor_7193c18)
     ;
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Count);
@@ -1541,259 +1826,324 @@ Map_MapFracture__CreateMesh
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector2);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mesh);
     il2cpp_codegen_initialize_runtime_metadata(&"Map debris");
-    Il2CppMethodInitialized_184345086 = '\x01';
+    Il2CppMethodInitialized_07545a17 = '\x01';
+    method_00 = extraout_RDX;
   }
-  local_268.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_268.fields._index = 0;
-  local_268.fields._version = 0;
-  local_268.fields._current = (Il2CppObject *)0x0;
-  uStack_250._0_4_ = 0.0;
-  uStack_250._4_4_ = 0.0;
-  local_248._0_4_ = 0.0;
-  local_248._4_4_ = 0.0;
-  UStack_240.x = 0.0;
-  UStack_240.y = 0.0;
-  local_238 = 0;
-  uStack_230 = 0;
-  local_228 = 0;
-  uStack_220 = 0;
-  local_218 = 0;
-  uStack_210 = 0;
-  local_208._0_4_ = 0.0;
-  local_208._4_4_ = 0.0;
-  uStack_200._0_4_ = 0.0;
-  uStack_200._4_4_ = 0.0;
-  local_1f8 = 0;
-  uStack_1f0 = 0;
-  pUVar4 = Map_MapFracture__GetBounds((UnityEngine_Bounds_o *)local_2e0,triangles,(MethodInfo *)0x0);
-  fVar1 = (pUVar4->fields).m_Center.fields.y;
-  fVar2 = (pUVar4->fields).m_Center.fields.z;
-  local_2e0._16_4_ = (pUVar4->fields).m_Extents.fields.y;
-  local_2e0._20_4_ = (pUVar4->fields).m_Extents.fields.z;
-  (center->fields).x = (pUVar4->fields).m_Center.fields.x;
-  (center->fields).y = fVar1;
-  (center->fields).z = fVar2;
+  local_168 = 0;
+  uStack_164 = 0;
+  fStack_160 = 0.0;
+  uStack_15c = 0;
+  local_178 = 0;
+  fStack_170 = 0.0;
+  uStack_16c = 0;
+  local_188 = 0;
+  uStack_180 = 0;
+  local_198 = 0;
+  uStack_190 = 0;
+  local_1a8 = 0;
+  uStack_1a0 = 0;
+  local_1b8 = (System_Collections_Generic_List_T__o *)0x0;
+  uStack_1b0._0_4_ = 0;
+  uStack_1b0._4_4_ = 0;
+  local_1d8.fields._current = (Il2CppObject *)0x0;
+  uStack_1c0._0_4_ = 0;
+  uStack_1c0._4_4_ = 0;
+  local_1d8.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_1d8.fields._index = 0;
+  local_1d8.fields._version = 0;
+  Map_MapFracture__GetBounds((UnityEngine_Bounds_o *)&local_128,triangles,method_00);
+  *(System_Collections_Generic_List_T__o **)&center->fields = local_128.fields._list;
+  (center->fields).z = (float)local_128.fields._index;
   if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
     capacity = (triangles->fields)._size * 3;
-    inVertices = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
-    System_Collections_Generic_List_Vector3____ctor
-              ((System_Collections_Generic_List_T__o *)inVertices,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    inNormals = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
-    System_Collections_Generic_List_Vector3____ctor
-              ((System_Collections_Generic_List_T__o *)inNormals,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    uvs = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector2);
-    System_Collections_Generic_List_Vector2____ctor
-              ((System_Collections_Generic_List_T__o *)uvs,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector2_ctor_40efe18);
-    inColors = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Color);
-    System_Collections_Generic_List_Color____ctor
-              ((System_Collections_Generic_List_T__o *)inColors,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Color_ctor_408ed18);
-    pIVar5 = SZArrayNew(TypeInfo_System_Collections_Generic_List_int__array,submeshCount);
-    uVar8 = 0;
-    uVar10 = uVar8;
-    local_2b0 = pIVar5;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
+    System_Collections_Generic_List_Vector3____ctor_39ff040
+              (__this,capacity,
+               (MethodInfo_39FF040 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
+    System_Collections_Generic_List_Vector3____ctor_39ff040
+              (__this_00,capacity,
+               (MethodInfo_39FF040 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector2);
+    System_Collections_Generic_List_Vector2____ctor_39f8cf0
+              (__this_01,capacity,
+               (MethodInfo_39F8CF0 *)MethodInfo_System_Collections_Generic_List_Vector2_ctor_7197518);
+    __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Color);
+    System_Collections_Generic_List_Color____ctor_51eb4b0
+              (__this_02,capacity,
+               (MethodInfo_51EB4B0 *)MethodInfo_System_Collections_Generic_List_Color_ctor_7193c18);
+    pIVar22 = SZArrayNew(TypeInfo_System_Collections_Generic_List_int__array,submeshCount);
     if (0 < submeshCount) {
-      do {
-        pIVar6 = (Il2CppClass *)
-                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+      if (pIVar22 == (Il2CppObject *)0x0) {
+        __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
         System_Collections_Generic_List_int____ctor
-                  ((System_Collections_Generic_LowLevelList_T__o *)pIVar6,
-                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
-        if (pIVar5 == (Il2CppObject *)0x0) goto label_181ea4ade;
-        if ((pIVar6 != (Il2CppClass *)0x0) &&
-           (pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pIVar6,(pIVar5->klass->_1).element_class),
-           pIVar7 == (Il2CppObject *)0x0)) {
-          pIVar5 = il2cpp_codegen_get_array_type_mismatch_exception();
-          il2cpp_codegen_raise_exception(pIVar5,(MethodInfo *)0x0);
-        }
-        if (*(uint *)&pIVar5[1].monitor <= (uint)uVar10) goto label_181ea4b06;
-        (&pIVar5[2].klass)[uVar10] = pIVar6;
-        Il2CppCodeGenWriteBarrier(&pIVar5[2].klass + uVar10,pIVar6);
-        uVar9 = (uint)uVar10 + 1;
-        uVar10 = (ulonglong)uVar9;
-      } while ((int)uVar9 < submeshCount);
-    }
-    local_2c8 = inNormals;
-    local_2c0 = uvs;
-    local_2b8 = inColors;
-    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-              (&local_148,triangles,
-               (MethodInfo_969260 *)
-               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    local_268.fields._list = local_148.fields._list;
-    local_268.fields._index = local_148.fields._index;
-    local_268.fields._version = local_148.fields._version;
-    local_268.fields._current = local_148.fields._current;
-    uStack_250._0_4_ = fStack_130;
-    uStack_250._4_4_ = fStack_12c;
-    local_248._0_4_ = local_128;
-    local_248._4_4_ = fStack_124;
-    UStack_240 = UStack_120;
-    local_238 = local_118;
-    uStack_230 = uStack_110;
-    local_228 = local_108;
-    uStack_220 = uStack_100;
-    local_218 = local_f8;
-    uStack_210 = uStack_f0;
-    local_208._0_4_ = local_e8;
-    local_208._4_4_ = fStack_e4;
-    uStack_200._0_4_ = fStack_e0;
-    uStack_200._4_4_ = fStack_dc;
-    local_1f8 = local_d8;
-    uStack_1f0 = uStack_d0;
-    local_2e0._0_4_ = 0.0;
-    local_2e0._4_4_ = 0.0;
-    local_2e0._8_8_ = &local_268;
-    while (bVar3 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                             (&local_268,
-                              (MethodInfo_1558F50 *)
-                              MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
-                             ), bVar3) {
-      local_a8 = (float)local_238;
-      fStack_a4 = local_238._4_4_;
-      fStack_a0 = (float)uStack_230;
-      fStack_9c = uStack_230._4_4_;
-      local_98 = (float)local_228;
-      fStack_94 = (float)((ulonglong)local_228 >> 0x20);
-      fStack_90 = (float)uStack_220;
-      fStack_8c = (float)((ulonglong)uStack_220 >> 0x20);
-      fVar1 = local_218._4_4_;
-      local_88 = (float)local_218;
-      fStack_84 = local_218._4_4_;
-      fStack_80 = (float)uStack_210;
-      fStack_7c = uStack_210._4_4_;
-      local_78 = (float)local_208;
-      fStack_74 = local_208._4_4_;
-      fStack_70 = (float)uStack_200;
-      fStack_6c = uStack_200._4_4_;
-      fVar2 = (float)uStack_1f0;
-      local_68 = (float)local_1f8;
-      fStack_64 = local_1f8._4_4_;
-      fStack_60 = (float)uStack_1f0;
-      uStack_5c = uStack_1f0._4_4_;
-      if (pIVar5 == (Il2CppObject *)0x0) {
+                  (__this_04,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
         ThrowNullReferenceException();
       }
-      if (*(uint *)&pIVar5[1].monitor <= uStack_1f0._4_4_) {
-        ThrowIndexOutOfRangeException();
+      pIVar26 = pIVar22 + 2;
+      uVar25 = 0;
+      do {
+        pIVar23 = (Il2CppClass *)
+                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+        System_Collections_Generic_List_int____ctor
+                  ((System_Collections_Generic_List_int__o *)pIVar23,
+                   (MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+        if ((pIVar23 != (Il2CppClass *)0x0) &&
+           (pIVar24 = il2cpp_vm_Object_IsInst((Il2CppObject *)pIVar23,(pIVar22->klass->_1).element_class),
+           pIVar24 == (Il2CppObject *)0x0)) {
+          pIVar22 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar22,(MethodInfo *)0x0);
+        }
+        if (*(uint *)&pIVar22[1].monitor <= uVar25) goto label_05986a26;
+        pIVar26->klass = pIVar23;
+        Il2CppCodeGenWriteBarrier(&pIVar26->klass);
+        uVar25 = uVar25 + 1;
+        pIVar26 = (Il2CppObject *)&pIVar26->monitor;
+      } while ((uint)submeshCount != uVar25);
+    }
+    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
+              (&local_128,triangles,
+               (MethodInfo_3AB3540 *)
+               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+    local_168 = (undefined4)local_b8;
+    uStack_164 = (undefined4)((ulong)local_b8 >> 0x20);
+    fStack_160 = (float)uStack_b0;
+    uStack_15c = (uint)((ulong)uStack_b0 >> 0x20);
+    local_178 = CONCAT44(uStack_c4,local_c8);
+    fStack_170 = fStack_c0;
+    uStack_16c = uStack_bc;
+    uStack_180 = CONCAT44(uStack_cc,uStack_d0);
+    local_188 = local_d8;
+    local_198 = CONCAT44(fStack_e4,local_e8);
+    uStack_190 = uStack_e0;
+    local_1b8 = (System_Collections_Generic_List_T__o *)CONCAT44(uStack_104,local_108);
+    uStack_1b0._4_4_ = iStack_fc;
+    uStack_1b0._0_4_ = iStack_100;
+    local_1a8 = CONCAT44(uStack_f4,local_f8);
+    uStack_1a0 = CONCAT44(uStack_ec,uStack_f0);
+    local_1d8.fields._current = local_128.fields._current;
+    uStack_1c0._0_4_ = iStack_110;
+    uStack_1c0._4_4_ = iStack_10c;
+    local_1d8.fields._list = local_128.fields._list;
+    local_1d8.fields._index = local_128.fields._index;
+    local_1d8.fields._version = local_128.fields._version;
+    if (pIVar22 == (Il2CppObject *)0x0) {
+      bVar21 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                         (&local_1d8,
+                          (MethodInfo_4C82200 *)
+                          MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext)
+      ;
+      if (bVar21) {
+        ThrowNullReferenceException();
       }
-      pIVar6 = (&pIVar5[2].klass)[(int)uStack_1f0._4_4_];
-      local_298.x = (center->fields).x;
-      local_298.y = (center->fields).y;
-      local_298.z = (center->fields).z;
-      local_1d8[0] = local_268.fields._current;
-      local_1d8[1] = (Il2CppObject *)uStack_250;
-      local_1d8[2] = (Il2CppObject *)local_248;
-      UStack_1c0 = UStack_240;
-      local_1b8 = (float)local_238;
-      Map_MapFracture__AddVertex
-                ((Map_MapFracture_Vertex_o *)local_1d8,(UnityEngine_Vector3_o *)&local_298,
-                 (System_Collections_Generic_List_int__o *)pIVar6,inVertices,inNormals,uvs,inColors,
-                 (MethodInfo *)0x0);
-      local_1a8.fields.Position.fields.y = fStack_a0;
-      local_1a8.fields.Position.fields.x = fStack_a4;
-      local_1a8.fields.Normal.fields.x = local_98;
-      local_1a8.fields.Position.fields.z = fStack_9c;
-      local_1a8.fields.Normal.fields.z = fStack_90;
-      local_1a8.fields.Normal.fields.y = fStack_94;
-      local_1a8.fields.UV.fields.y = local_88;
-      local_1a8.fields.UV.fields.x = fStack_8c;
-      local_288.x = (center->fields).x;
-      local_288.y = (center->fields).y;
-      local_288.z = (center->fields).z;
-      local_1a8.fields.Shade = fVar1;
-      Map_MapFracture__AddVertex
-                (&local_1a8,(UnityEngine_Vector3_o *)&local_288,
-                 (System_Collections_Generic_List_int__o *)pIVar6,inVertices,inNormals,uvs,inColors,
-                 (MethodInfo *)0x0);
-      local_178.fields.Position.fields.y = fStack_7c;
-      local_178.fields.Position.fields.x = fStack_80;
-      local_178.fields.UV.fields.y = fStack_64;
-      local_178.fields.UV.fields.x = local_68;
-      local_278.x = (center->fields).x;
-      local_278.y = (center->fields).y;
-      local_278.z = (center->fields).z;
-      local_178.fields.Position.fields.z = local_78;
-      local_178.fields.Normal.fields.x = fStack_74;
-      local_178.fields.Normal.fields.y = fStack_70;
-      local_178.fields.Normal.fields.z = fStack_6c;
-      local_178.fields.Shade = fVar2;
-      Map_MapFracture__AddVertex
-                (&local_178,(UnityEngine_Vector3_o *)&local_278,
-                 (System_Collections_Generic_List_int__o *)pIVar6,inVertices,inNormals,uvs,inColors,
-                 (MethodInfo *)0x0);
+    }
+    else {
+      while (bVar21 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                                (&local_1d8,
+                                 (MethodInfo_4C82200 *)
+                                 MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
+                                ), fVar20 = fStack_160, uVar19 = uStack_164, uVar18 = local_168,
+            uVar17 = uStack_16c, fVar16 = fStack_170, uVar14 = local_178, uVar12 = uStack_180,
+            uVar11 = local_188, uVar10 = uStack_190, uVar9 = local_198, uVar8 = uStack_1a0, uVar7 = local_1a8,
+            uVar4 = uStack_1b0, pSVar3 = local_1b8, uVar1 = uStack_1c0, pIVar26 = local_1d8.fields._current,
+            bVar21) {
+        if (*(uint *)&pIVar22[1].monitor <= uStack_15c) {
+          ThrowIndexOutOfRangeException();
+        }
+        pIVar23 = (&pIVar22[2].klass)[(int)uStack_15c];
+        fVar6 = (float)local_1a8;
+        vertex.fields.Position.fields.z = (float)(int32_t)uStack_1c0;
+        vertex.fields.Normal.fields.x = (float)uStack_1c0._4_4_;
+        vertex.fields.Position.fields._0_8_ = local_1d8.fields._current;
+        vertex.fields.Normal.fields._4_8_ = local_1b8;
+        vertex.fields.UV.fields.x = (float)(int32_t)uStack_1b0;
+        vertex.fields.UV.fields.y = (float)uStack_1b0._4_4_;
+        vertex.fields.Shade = (float)local_1a8;
+        Map_MapFracture__AddVertex
+                  (vertex,(UnityEngine_Vector3_o)center->fields,
+                   (System_Collections_Generic_List_int__o *)pIVar23,__this,__this_00,__this_01,__this_02,
+                   in_R9);
+        uVar5 = uStack_1b0;
+        uVar2 = uStack_1c0;
+        local_c8 = uVar18;
+        uStack_c4 = uVar19;
+        fStack_c0 = fVar20;
+        local_d8 = uVar14;
+        local_e8 = (undefined4)uVar11;
+        fStack_e4 = (float)((ulong)uVar11 >> 0x20);
+        uStack_e0 = uVar12;
+        local_f8 = (undefined4)uVar9;
+        uStack_f4 = (undefined4)((ulong)uVar9 >> 0x20);
+        uStack_f0 = (undefined4)uVar10;
+        uStack_ec = (undefined4)((ulong)uVar10 >> 0x20);
+        uStack_104 = (undefined4)((ulong)uVar7 >> 0x20);
+        iStack_100 = (int32_t)uVar8;
+        iStack_fc = (int32_t)((ulong)uVar8 >> 0x20);
+        local_128.fields._current = (Il2CppObject *)pSVar3;
+        uStack_1b0._0_4_ = (int32_t)uVar4;
+        uStack_1b0._4_4_ = SUB84(uVar4,4);
+        iStack_110 = (int32_t)uStack_1b0;
+        iStack_10c = uStack_1b0._4_4_;
+        local_128.fields._list = (System_Collections_Generic_List_T__o *)pIVar26;
+        uStack_1c0._0_4_ = (int32_t)uVar1;
+        uStack_1c0._4_4_ = SUB84(uVar1,4);
+        local_128.fields._index = (int32_t)uStack_1c0;
+        local_128.fields._version = uStack_1c0._4_4_;
+        local_158 = CONCAT44(iStack_100,uStack_104);
+        uStack_150 = CONCAT44(local_f8,iStack_fc);
+        local_148 = CONCAT44(uStack_f0,uStack_f4);
+        uStack_140 = CONCAT44(local_e8,uStack_ec);
+        local_138 = fStack_e4;
+        vertex_00.fields.Position.fields.z = (float)iStack_fc;
+        vertex_00.fields.Normal.fields.x = (float)local_f8;
+        vertex_00.fields.Position.fields.x = (float)uStack_104;
+        vertex_00.fields.Position.fields.y = (float)iStack_100;
+        vertex_00.fields.Normal.fields.y = (float)uStack_f4;
+        vertex_00.fields.Normal.fields.z = (float)uStack_f0;
+        vertex_00.fields.UV.fields.x = (float)uStack_ec;
+        vertex_00.fields.UV.fields.y = (float)local_e8;
+        vertex_00.fields.Shade = fStack_e4;
+        uStack_1c0 = uVar2;
+        uStack_1b0 = uVar5;
+        local_108 = fVar6;
+        Map_MapFracture__AddVertex
+                  (vertex_00,(UnityEngine_Vector3_o)center->fields,
+                   (System_Collections_Generic_List_int__o *)pIVar23,__this,__this_00,__this_01,__this_02,
+                   in_R9);
+        uVar15 = local_178;
+        uVar13 = uStack_180;
+        uVar5 = uStack_1b0;
+        uVar2 = uStack_1c0;
+        uStack_48 = uVar18;
+        uStack_44 = uVar19;
+        fStack_40 = fVar20;
+        uStack_58 = uVar14;
+        local_68 = uVar11;
+        uStack_60 = uVar12;
+        local_78 = uVar9;
+        uStack_70 = uVar10;
+        local_88 = uVar7;
+        uStack_80 = uVar8;
+        local_98 = pSVar3;
+        uStack_1b0._0_4_ = (int32_t)uVar4;
+        uStack_1b0._4_4_ = SUB84(uVar4,4);
+        iStack_90 = (int32_t)uStack_1b0;
+        iStack_8c = uStack_1b0._4_4_;
+        local_a8 = (System_Collections_Generic_List_T__o *)pIVar26;
+        uStack_1c0._0_4_ = (int32_t)uVar1;
+        uStack_1c0._4_4_ = SUB84(uVar1,4);
+        iStack_a0 = (int32_t)uStack_1c0;
+        iStack_9c = uStack_1c0._4_4_;
+        vertex_01.fields.Normal.fields.z = (float)uVar17;
+        vertex_01.fields.Normal.fields.y = fVar16;
+        vertex_01.fields.UV.fields.y = (float)uVar19;
+        vertex_01.fields.UV.fields.x = (float)uVar18;
+        local_178._0_4_ = (undefined4)uVar14;
+        local_178._4_4_ = SUB84(uVar14,4);
+        vertex_01.fields.Position.fields.z = (float)(undefined4)local_178;
+        vertex_01.fields.Normal.fields.x = (float)local_178._4_4_;
+        uStack_180._0_4_ = (undefined4)uVar12;
+        uStack_180._4_4_ = SUB84(uVar12,4);
+        vertex_01.fields.Position.fields.x = (float)(undefined4)uStack_180;
+        vertex_01.fields.Position.fields.y = (float)uStack_180._4_4_;
+        vertex_01.fields.Shade = fVar20;
+        uStack_1c0 = uVar2;
+        uStack_1b0 = uVar5;
+        uStack_180 = uVar13;
+        local_178 = uVar15;
+        Map_MapFracture__AddVertex
+                  (vertex_01,(UnityEngine_Vector3_o)center->fields,
+                   (System_Collections_Generic_List_int__o *)pIVar23,__this,__this_00,__this_01,__this_02,
+                   in_R9);
+      }
     }
     System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_268,
+              (&local_1d8,
+               (MethodInfo_4C821F0 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    __this = (UnityEngine_Object_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Mesh);
-    UnityEngine_Mesh___ctor((UnityEngine_Mesh_o *)__this,(MethodInfo *)0x0);
-    if (__this != (UnityEngine_Object_o *)0x0) {
-      UnityEngine_Object__set_name(__this,"Map debris",(MethodInfo *)0x0);
+    __this_03 = (UnityEngine_Object_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Mesh);
+    UnityEngine_Mesh___ctor((UnityEngine_Mesh_o *)__this_03,(MethodInfo *)0x0);
+    if (__this_03 != (UnityEngine_Object_o *)0x0) {
+      UnityEngine_Object__set_name(__this_03,"Map debris",(MethodInfo *)0x0);
       UnityEngine_Mesh__set_indexFormat
-                ((UnityEngine_Mesh_o *)__this,(uint)(0xffff < capacity),(MethodInfo *)0x0);
-      UnityEngine_Mesh__SetVertices((UnityEngine_Mesh_o *)__this,inVertices,(MethodInfo *)0x0);
-      UnityEngine_Mesh__SetNormals((UnityEngine_Mesh_o *)__this,inNormals,(MethodInfo *)0x0);
-      UnityEngine_Mesh__SetUVs((UnityEngine_Mesh_o *)__this,0,uvs,(MethodInfo *)0x0);
-      UnityEngine_Mesh__SetColors((UnityEngine_Mesh_o *)__this,inColors,(MethodInfo *)0x0);
-      UnityEngine_Mesh__set_subMeshCount((UnityEngine_Mesh_o *)__this,submeshCount,(MethodInfo *)0x0);
+                ((UnityEngine_Mesh_o *)__this_03,(uint)(0xffff < capacity),(MethodInfo *)0x0);
+      UnityEngine_Mesh__SetVertices((UnityEngine_Mesh_o *)__this_03,__this,(MethodInfo *)0x0);
+      UnityEngine_Mesh__SetNormals((UnityEngine_Mesh_o *)__this_03,__this_00,(MethodInfo *)0x0);
+      UnityEngine_Mesh__SetUVs((UnityEngine_Mesh_o *)__this_03,0,__this_01,(MethodInfo *)0x0);
+      UnityEngine_Mesh__SetColors((UnityEngine_Mesh_o *)__this_03,__this_02,(MethodInfo *)0x0);
+      UnityEngine_Mesh__set_subMeshCount((UnityEngine_Mesh_o *)__this_03,submeshCount,(MethodInfo *)0x0);
       if (0 < submeshCount) {
-        if (pIVar5 == (Il2CppObject *)0x0) goto label_181ea4ade;
+        if (pIVar22 == (Il2CppObject *)0x0) goto label_05986a3f;
+        uVar25 = 0;
         do {
-          uVar9 = (uint)uVar8;
-          if (*(uint *)&pIVar5[1].monitor <= uVar9) {
-label_181ea4b06:
+          if (*(uint *)&pIVar22[1].monitor <= uVar25) {
+label_05986a26:
             ThrowIndexOutOfRangeException();
           }
-          UnityEngine_Mesh__SetTriangles_2eec840
-                    ((UnityEngine_Mesh_o *)__this,
-                     (System_Collections_Generic_List_int__o *)(&pIVar5[2].klass)[(int)uVar9],uVar9,false,
-                     (MethodInfo *)0x0);
-          uVar8 = (ulonglong)(uVar9 + 1);
-        } while ((int)(uVar9 + 1) < submeshCount);
+          UnityEngine_Mesh__SetTriangles_68eb2d0
+                    ((UnityEngine_Mesh_o *)__this_03,
+                     (System_Collections_Generic_List_int__o *)(&pIVar22[2].klass)[uVar25],(int32_t)uVar25,
+                     false,(MethodInfo *)0x0);
+          uVar25 = uVar25 + 1;
+        } while ((uint)submeshCount != uVar25);
       }
-      UnityEngine_Mesh__RecalculateBounds((UnityEngine_Mesh_o *)__this,(MethodInfo *)0x0);
-      return (UnityEngine_Mesh_o *)__this;
+      UnityEngine_Mesh__RecalculateBounds((UnityEngine_Mesh_o *)__this_03,(MethodInfo *)0x0);
+      return (UnityEngine_Mesh_o *)__this_03;
     }
   }
-label_181ea4ade:
+label_05986a3f:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$HasVolume
 // il2cpp: bool Map_MapFracture__HasVolume (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, float thickness, const MethodInfo* method);
-// 0x181ea5e30
+// 0x5986b50
 
 bool Map_MapFracture__HasVolume
                (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,float thickness,
                MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
   undefined4 uVar3;
   undefined4 uVar4;
   undefined4 uVar5;
   undefined4 uVar6;
-  bool bVar7;
-  Map_MapFracture___c__DisplayClass18_0_o *object;
-  System_Func_Vector3__float__o *pSVar8;
-  UnityEngine_Vector3_o *pUVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
+  undefined4 uVar11;
+  undefined4 uVar12;
+  uint32_t uVar13;
+  Map_MapFracture___c__DisplayClass18_0_o *__this;
+  System_Func_Vector3__float__o *pSVar14;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
   float fVar15;
   float fVar16;
-  UnityEngine_Vector3_o local_128;
-  Map_MapFracture_Triangle_o local_118 [2];
+  undefined4 uVar17;
+  undefined4 extraout_XMM0_Db;
+  undefined1 auVar18 [16];
+  undefined1 auVar19 [16];
+  float fVar20;
+  float fVar21;
+  float fVar22;
+  UnityEngine_Vector3_o UVar23;
+  UnityEngine_Vector3_o UVar24;
+  float local_f8;
+  float fStack_f4;
+  float local_d8;
+  float fStack_d4;
+  float local_c8;
+  float fStack_c4;
+  Map_MapFracture_Triangle_o local_98;
   
-  if (Il2CppMethodInitialized_184345087 == '\0') {
+  if (Il2CppMethodInitialized_07545a18 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_Vector3_float);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
@@ -1806,180 +2156,207 @@ bool Map_MapFracture__HasVolume
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__3)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_c__DisplayClass18_0);
-    Il2CppMethodInitialized_184345087 = '\x01';
+    Il2CppMethodInitialized_07545a18 = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass18_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    System_Collections_Generic_List_MapFracture_Triangle___get_Item
-              (local_118,triangles,0,
-               (MethodInfo_9721B0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
-    if (object != (Map_MapFracture___c__DisplayClass18_0_o *)0x0) {
-      (object->fields).origin.fields.x = local_118[0].fields.A.fields.Position.fields.x;
-      (object->fields).origin.fields.y = local_118[0].fields.A.fields.Position.fields.y;
-      (object->fields).origin.fields.z = local_118[0].fields.A.fields.Position.fields.z;
-      pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
-      System_Func_Vector3__float____ctor
-                (pSVar8,(Il2CppObject *)object,
-                 (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__0,
-                 (MethodInfo_172A0E0 *)0x0);
-      pUVar9 = Map_MapFracture__Extreme(&local_128,triangles,pSVar8,(MethodInfo *)0x0);
-      uVar3 = (object->fields).origin.fields.x;
-      uVar5 = (object->fields).origin.fields.y;
-      uVar4 = (pUVar9->fields).x;
-      uVar6 = (pUVar9->fields).y;
-      (object->fields).axis.fields.z = (pUVar9->fields).z - (object->fields).origin.fields.z;
-      (object->fields).axis.fields.x = (float)uVar4 - (float)uVar3;
-      (object->fields).axis.fields.y = (float)uVar6 - (float)uVar5;
-      pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
-      System_Func_Vector3__float____ctor
-                (pSVar8,(Il2CppObject *)object,
-                 (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__1,
-                 (MethodInfo_172A0E0 *)0x0);
-      pUVar9 = Map_MapFracture__Extreme(&local_128,triangles,pSVar8,(MethodInfo *)0x0);
-      fVar16 = (object->fields).axis.fields.x;
-      fVar10 = (object->fields).axis.fields.y;
-      fVar12 = (object->fields).axis.fields.z;
-      fVar15 = (pUVar9->fields).y - (object->fields).origin.fields.y;
-      fVar13 = (pUVar9->fields).x - (object->fields).origin.fields.x;
-      fVar11 = (pUVar9->fields).z - (object->fields).origin.fields.z;
-      fVar14 = fVar11 * fVar10 - fVar15 * fVar12;
-      fVar12 = fVar13 * fVar12 - fVar11 * fVar16;
-      fVar16 = fVar15 * fVar16 - fVar13 * fVar10;
-      (object->fields).normal.fields.x = fVar14;
-      (object->fields).normal.fields.y = fVar12;
-      (object->fields).normal.fields.z = fVar16;
-      if (fVar12 * fVar12 + fVar14 * fVar14 + fVar16 * fVar16 < 0.0001) {
-        bVar7 = false;
-      }
-      else {
-        fVar16 = (float)il2cpp_runtime_helper_180546a40(&(object->fields).normal,0);
-        if (1e-05 < fVar16) {
-          fVar10 = (object->fields).normal.fields.z / fVar16;
-          fVar12 = (object->fields).normal.fields.y / fVar16;
-          fVar16 = (object->fields).normal.fields.x / fVar16;
-        }
-        else {
-          fVar10 = 0.0;
-          fVar12 = 0.0;
-          fVar16 = 0.0;
-        }
-        (object->fields).normal.fields.x = fVar16;
-        (object->fields).normal.fields.y = fVar12;
-        (object->fields).normal.fields.z = fVar10;
-        fVar16 = (object->fields).normal.fields.x;
-        fVar12 = (object->fields).normal.fields.y;
-        pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
-        System_Func_Vector3__float____ctor
-                  (pSVar8,(Il2CppObject *)object,
-                   (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__2,
-                   (MethodInfo_172A0E0 *)0x0);
-        pUVar9 = Map_MapFracture__Extreme(&local_128,triangles,pSVar8,(MethodInfo *)0x0);
-        fVar11 = (object->fields).normal.fields.x;
-        fVar13 = (object->fields).normal.fields.y;
-        fVar14 = (pUVar9->fields).x;
-        fVar15 = (pUVar9->fields).y;
-        fVar1 = (pUVar9->fields).z;
-        fVar2 = (object->fields).normal.fields.z;
-        pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
-        System_Func_Vector3__float____ctor
-                  (pSVar8,(Il2CppObject *)object,
-                   (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__3,
-                   (MethodInfo_172A0E0 *)0x0);
-        pUVar9 = Map_MapFracture__Extreme(&local_128,triangles,pSVar8,(MethodInfo *)0x0);
-        bVar7 = thickness <=
-                (fVar15 * fVar12 + fVar14 * fVar16 + fVar1 * fVar10) -
-                (fVar13 * (pUVar9->fields).y + fVar11 * (pUVar9->fields).x + fVar2 * (pUVar9->fields).z);
-      }
-      return bVar7;
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapFracture_c__DisplayClass18_0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  if ((triangles == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) ||
+     (System_Collections_Generic_List_MapFracture_Triangle___get_Item
+                (&local_98,triangles,0,
+                 (MethodInfo_3AB1AD0 *)
+                 MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item),
+     __this == (Map_MapFracture___c__DisplayClass18_0_o *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  (__this->fields).origin.fields.z = local_98.fields.A.fields.Position.fields.z;
+  (__this->fields).origin.fields.x = local_98.fields.A.fields.Position.fields.x;
+  (__this->fields).origin.fields.y = local_98.fields.A.fields.Position.fields.y;
+  pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
+  System_Func_Vector3__float____ctor
+            (pSVar14,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__0,(MethodInfo_4F1C360 *)0x0
+            );
+  UVar23 = Map_MapFracture__Extreme(triangles,pSVar14,method_00);
+  uVar1 = (__this->fields).origin.fields.x;
+  uVar7 = (__this->fields).origin.fields.y;
+  fVar22 = (__this->fields).origin.fields.z;
+  (__this->fields).axis.fields.x = UVar23.fields.x - (float)uVar1;
+  (__this->fields).axis.fields.y = UVar23.fields.y - (float)uVar7;
+  (__this->fields).axis.fields.z = UVar23.fields.z - fVar22;
+  pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
+  System_Func_Vector3__float____ctor
+            (pSVar14,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__1,(MethodInfo_4F1C360 *)0x0
+            );
+  UVar23 = Map_MapFracture__Extreme(triangles,pSVar14,method_01);
+  uVar2 = (__this->fields).origin.fields.x;
+  uVar8 = (__this->fields).origin.fields.y;
+  fVar21 = UVar23.fields.x - (float)uVar2;
+  uVar3 = (__this->fields).axis.fields.x;
+  uVar9 = (__this->fields).axis.fields.y;
+  fVar22 = (__this->fields).axis.fields.z;
+  fVar15 = UVar23.fields.z - (__this->fields).origin.fields.z;
+  fVar16 = UVar23.fields.y - (float)uVar8;
+  fVar20 = (float)uVar9 * fVar15 - fVar22 * fVar16;
+  fVar16 = (float)uVar3 * fVar16 - (float)uVar9 * fVar21;
+  fVar22 = fVar21 * fVar22 - fVar15 * (float)uVar3;
+  (__this->fields).normal.fields.x = fVar20;
+  (__this->fields).normal.fields.y = fVar22;
+  (__this->fields).normal.fields.z = fVar16;
+  if (0.0001 <= fVar16 * fVar16 + fVar22 * fVar22 + fVar20 * fVar20) {
+    if (Il2CppMethodInitialized_0753e729 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e729 = '\x01';
+      fVar22 = (__this->fields).normal.fields.y;
+      fVar16 = (__this->fields).normal.fields.z;
+      fVar20 = (__this->fields).normal.fields.x;
+      uVar13 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
     }
+    else {
+      uVar13 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+    }
+    if (uVar13 == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    fVar22 = fVar16 * fVar16 + fVar22 * fVar22 + fVar20 * fVar20;
+    if (fVar22 < 0.0) {
+      fVar22 = sqrtf(fVar22);
+      uVar17 = extraout_XMM0_Db;
+    }
+    else {
+      uVar17 = 0;
+      fVar22 = SQRT(fVar22);
+    }
+    if (1e-05 < fVar22) {
+      uVar4 = (__this->fields).normal.fields.x;
+      uVar10 = (__this->fields).normal.fields.y;
+      auVar18._4_4_ = uVar10;
+      auVar18._0_4_ = uVar4;
+      auVar18._8_8_ = 0;
+      auVar19._4_4_ = fVar22;
+      auVar19._0_4_ = fVar22;
+      auVar19._8_4_ = uVar17;
+      auVar19._12_4_ = uVar17;
+      auVar19 = divps(auVar18,auVar19);
+      (__this->fields).normal.fields.x = (float)auVar19._0_4_;
+      (__this->fields).normal.fields.y = (float)auVar19._4_4_;
+      fVar22 = (__this->fields).normal.fields.z / fVar22;
+    }
+    else {
+      (__this->fields).normal.fields.x = 0.0;
+      (__this->fields).normal.fields.y = 0.0;
+      fVar22 = 0.0;
+    }
+    (__this->fields).normal.fields.z = fVar22;
+    uVar5 = (__this->fields).normal.fields.x;
+    uVar11 = (__this->fields).normal.fields.y;
+    pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
+    System_Func_Vector3__float____ctor
+              (pSVar14,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__2,
+               (MethodInfo_4F1C360 *)0x0);
+    UVar23 = Map_MapFracture__Extreme(triangles,pSVar14,method_02);
+    uVar6 = (__this->fields).normal.fields.x;
+    uVar12 = (__this->fields).normal.fields.y;
+    fVar16 = (__this->fields).normal.fields.z;
+    pSVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_Vector3_float);
+    System_Func_Vector3__float____ctor
+              (pSVar14,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Map_MapFracture_c__DisplayClass18_0_HasVolume_b__3,
+               (MethodInfo_4F1C360 *)0x0);
+    UVar24 = Map_MapFracture__Extreme(triangles,pSVar14,method_03);
+    local_c8 = UVar23.fields.x;
+    fStack_c4 = UVar23.fields.y;
+    return thickness <=
+           (UVar23.fields.z * fVar22 + fStack_c4 * (float)uVar11 + local_c8 * (float)uVar5) -
+           (UVar24.fields.z * fVar16 + UVar24.fields.y * (float)uVar12 + UVar24.fields.x * (float)uVar6);
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // Map.MapFracture$$Extreme
 // il2cpp: UnityEngine_Vector3_o Map_MapFracture__Extreme (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, System_Func_Vector3__float__o* score, const MethodInfo* method);
-// 0x181ea55f0
-// eh: try 0x181ea57c0..0x181ea58c4 -> pad 0x18333d490 catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea57c0: movaps xmm7, xmm6
-// asm:   0x181ea5844: movaps xmm6, xmm7
-// asm:   0x181ea58d5: mov rdx, qword ptr [rip + 0x21ff4c4]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea58dc: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181ea58e1: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea58e6: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181ea58eb: test rcx, rcx
-// asm:   0x181ea58ee: jne 0x181ea5930
-// asm:   0x181ea58f0: mov rdi, qword ptr [rsp + 0x200]
-// asm:   0x181ea5930: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d490: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d495: push rbp
-// asm:   0x18333d496: sub rsp, 0x20
-// asm:   0x18333d49a: mov rbp, rdx
-// asm:   0x18333d49d: mov rax, qword ptr [rbp + 0x160]
-// asm:   0x18333d4a4: mov rcx, qword ptr [rax]
-// asm:   0x18333d4a7: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333d4ab: movabs rax, 0
-// asm:   0x18333d4b5: add rsp, 0x20
-// asm:   0x18333d4b9: pop rbp
-// asm:   0x18333d4ba: ret 
+// 0x598b310
+// eh: try 0x598b481..0x598b5b9 -> pad 0x598b64d (+3 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598b668..0x598b66d -> pad 0x598b691 cleanup
+// eh: try 0x598b694..0x598b6a1 -> pad 0x598b6a9 catch (...) [compiler noexcept guard]
+// asm: 32 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598b62d: mov rbx, rax
+// asm:   0x598b630: movaps xmm0, xmmword ptr [rsp + 0x50]
+// asm:   0x598b635: movaps xmmword ptr [rsp + 0x10], xmm0
+// asm:   0x598b63a: jmp 0x598b650
+// asm:   0x598b63c: mov rbx, rax
+// asm:   0x598b63f: movaps xmm0, xmmword ptr [rsp + 0x60]
+// asm:   0x598b644: movaps xmmword ptr [rsp + 0x10], xmm0
+// asm:   0x598b649: jmp 0x598b650
+// asm:   0x598b64b: jmp 0x598b64d
+// asm:   0x598b64d: mov rbx, rax
+// asm:   0x598b650: cmp edx, 1
+// asm:   0x598b653: jne 0x598b694
+// asm:   0x598b655: mov rdi, rbx
+// asm:   0x598b658: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598b65d: mov rbx, qword ptr [rax]
+// asm:   0x598b660: mov qword ptr [rsp + 0x110], rbx
+// asm:   0x598b668: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598b66d: lea rax, [rip + 0x1903c64]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x598b674: mov rsi, qword ptr [rax]
+// asm:   0x598b677: lea rdi, [rsp + 0x90]
+// asm:   0x598b67f: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x598b684: test rbx, rbx
+// asm:   0x598b687: je 0x598b611
+// asm:   0x598b689: mov rdi, rbx
+// asm:   0x598b68c: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598b691: mov rbx, rax
+// asm:   0x598b694: lea rdi, [rsp + 0x110]
+// asm:   0x598b69c: call 0x2fd43e0  ; il2cpp_runtime_helper_02fd43e0()
+// asm:   0x598b6a1: mov rdi, rbx
+// asm:   0x598b6a4: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598b6a9: mov rdi, rax
+// asm:   0x598b6ac: call 0x2ab61e0  ; __clang_call_terminate()
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 Map_MapFracture__Extreme
-          (UnityEngine_Vector3_o *__return_storage_ptr__,
-          System_Collections_Generic_List_MapFracture_Triangle__o *triangles,
+          (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,
           System_Func_Vector3__float__o *score,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  undefined8 uVar2;
-  undefined8 uVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  bool bVar7;
+  float fVar1;
+  uint uVar2;
+  uint uVar3;
+  System_Collections_Generic_List_Enumerator_T__o *pSVar4;
+  bool bVar5;
+  uint uVar6;
+  float fVar7;
   float fVar8;
   float fVar9;
   float fVar10;
-  float fVar11;
-  System_Collections_Generic_List_T__o *local_1d8;
-  float local_1d0;
-  undefined8 local_1c8;
-  System_Collections_Generic_List_Enumerator_T__o *local_1c0;
-  undefined8 local_1b8;
-  float local_1b0;
-  undefined8 local_1a8;
-  float local_1a0;
-  System_Collections_Generic_List_Enumerator_T__o local_198;
-  UnityEngine_Vector2_Fields UStack_180;
-  undefined8 local_178;
-  undefined8 uStack_170;
-  undefined1 local_168 [12];
-  float fStack_15c;
-  undefined8 local_158;
-  undefined1 auStack_150 [16];
-  undefined8 uStack_140;
-  UnityEngine_Vector2_Fields local_138;
-  undefined8 uStack_130;
-  undefined8 local_128;
-  undefined8 uStack_120;
-  undefined1 local_118 [24];
-  UnityEngine_Vector2_Fields UStack_100;
-  float local_f8;
-  float fStack_f4;
-  float fStack_f0;
-  float fStack_ec;
-  UnityEngine_Vector3_Fields local_e8 [2];
-  UnityEngine_Vector3_Fields aUStack_d0 [2];
-  UnityEngine_Vector2_Fields local_b8;
-  float fStack_b0;
-  int32_t iStack_ac;
+  UnityEngine_Vector3_o UVar11;
+  float local_18c;
+  Il2CppObject *local_188;
+  float local_168;
+  Il2CppObject *local_148;
+  Il2CppObject *local_138;
+  Il2CppObject *local_128;
+  System_Collections_Generic_List_Enumerator_T__o local_108;
+  undefined8 uStack_f0;
+  undefined8 local_e8;
+  undefined8 uStack_e0;
+  undefined4 local_d8;
+  float fStack_d4;
+  float fStack_d0;
+  uint uStack_cc;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined8 local_b8;
+  Il2CppObject *pIStack_b0;
   undefined8 local_a8;
   undefined8 uStack_a0;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  undefined1 local_88 [112];
   
-  if (Il2CppMethodInitialized_184345088 == '\0') {
+  if (Il2CppMethodInitialized_07545a19 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -1990,123 +2367,90 @@ Map_MapFracture__Extreme
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
-    Il2CppMethodInitialized_184345088 = '\x01';
+    Il2CppMethodInitialized_07545a19 = '\x01';
   }
-  (__return_storage_ptr__->fields).x = 0.0;
-  (__return_storage_ptr__->fields).y = 0.0;
-  (__return_storage_ptr__->fields).z = 0.0;
-  local_198.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_198.fields._index = 0;
-  local_198.fields._version = 0;
-  local_198.fields._current = (Il2CppObject *)0x0;
-  UStack_180.x = 0.0;
-  UStack_180.y = 0.0;
-  local_178 = 0;
-  uStack_170 = 0;
-  local_168._0_8_ = 0;
-  stack0xfffffffffffffea0 = 0;
-  local_158 = 0;
-  auStack_150._0_8_ = 0;
-  auStack_150._8_8_ = 0;
-  uStack_140 = 0;
-  local_138.x = 0.0;
-  local_138.y = 0.0;
-  uStack_130 = 0;
-  local_128 = 0;
-  uStack_120 = 0;
+  local_98 = 0;
+  uStack_90 = 0;
+  local_a8 = 0;
+  uStack_a0 = 0;
+  local_b8 = 0;
+  pIStack_b0 = (Il2CppObject *)0x0;
+  local_c8 = 0;
+  uStack_c0 = 0;
+  local_d8 = 0;
+  fStack_d4 = 0.0;
+  fStack_d0 = 0.0;
+  uStack_cc = 0;
+  local_e8 = 0;
+  uStack_e0 = 0;
+  local_108.fields._current = (Il2CppObject *)0x0;
+  uStack_f0 = 0;
+  local_108.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_108.fields._index = 0;
+  local_108.fields._version = 0;
   if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
     System_Collections_Generic_List_MapFracture_Triangle___get_Item
-              ((Map_MapFracture_Triangle_o *)local_118,triangles,0,
-               (MethodInfo_9721B0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
-    (__return_storage_ptr__->fields).x = (float)local_118._0_4_;
-    (__return_storage_ptr__->fields).y = (float)local_118._4_4_;
-    (__return_storage_ptr__->fields).z = (float)local_118._8_4_;
+              ((Map_MapFracture_Triangle_o *)local_88,triangles,0,
+               (MethodInfo_3AB1AD0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item)
+    ;
     if (score != (System_Func_Vector3__float__o *)0x0) {
-      local_1d8 = (System_Collections_Generic_List_T__o *)local_118._0_8_;
-      local_1d0 = (float)local_118._8_4_;
-      fVar9 = (float)(*(code *)(score->fields).invoke_impl)
-                               ((score->fields).method_code,&local_1d8,(score->fields).method);
+      local_188 = (Il2CppObject *)local_88._0_8_;
+      local_168 = (float)(*(code *)(score->fields).invoke_impl)
+                                   ((score->fields).method_code,(score->fields).method);
       System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_118,triangles,
-                 (MethodInfo_969260 *)
+                (&local_108,triangles,
+                 (MethodInfo_3AB3540 *)
                  MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-      local_198.fields._list = (System_Collections_Generic_List_T__o *)local_118._0_8_;
-      local_198.fields._current = (Il2CppObject *)local_118._16_8_;
-      UStack_180 = UStack_100;
-      local_168._0_4_ = local_e8[0].x;
-      local_168._4_4_ = local_e8[0].y;
-      local_168._8_4_ = local_e8[0].z;
-      fStack_15c = local_e8[1].x;
-      local_158._0_4_ = local_e8[1].y;
-      local_158._4_4_ = local_e8[1].z;
-      auStack_150._0_4_ = aUStack_d0[0].x;
-      auStack_150._4_4_ = aUStack_d0[0].y;
-      auStack_150._8_4_ = aUStack_d0[0].z;
-      auStack_150._12_4_ = aUStack_d0[1].x;
-      uStack_140._0_4_ = aUStack_d0[1].y;
-      uStack_140._4_4_ = aUStack_d0[1].z;
-      local_138 = local_b8;
-      uStack_130._0_4_ = fStack_b0;
-      uStack_130._4_4_ = iStack_ac;
-      local_128 = local_a8;
-      uStack_120 = uStack_a0;
-      local_1c8 = 0;
-      local_1c0 = &local_198;
-      while (bVar7 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                               (&local_198,
-                                (MethodInfo_1558F50 *)
-                                MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
-                               ), uVar2 = uStack_140, pIVar1 = local_198.fields._current, bVar7) {
-        fVar11 = fStack_15c;
-        local_f8 = (float)local_168._0_4_;
-        fStack_f4 = (float)local_168._4_4_;
-        fStack_f0 = (float)local_168._8_4_;
-        fStack_ec = fStack_15c;
-        fVar4 = local_138.x;
-        fVar8 = UStack_180.x;
-        local_1d8 = (System_Collections_Generic_List_T__o *)local_198.fields._current;
-        local_1d0 = fVar8;
-        fVar10 = (float)(*(code *)(score->fields).invoke_impl)
-                                  ((score->fields).method_code,&local_1d8,(score->fields).method);
-        fVar6 = fStack_f0;
-        fVar5 = fStack_f4;
-        if (fVar9 < fVar10) {
-          *(Il2CppObject **)&__return_storage_ptr__->fields = pIVar1;
-          (__return_storage_ptr__->fields).z = fVar8;
-          fVar9 = fVar10;
+      local_88._0_4_ = 0.0;
+      local_88._4_4_ = 0.0;
+      pSVar4 = &local_108;
+      fVar1 = (float)local_88._8_4_;
+      while( true ) {
+        local_88._8_8_ = pSVar4;
+        bVar5 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                          (&local_108,
+                           (MethodInfo_4C82200 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
+                          );
+        uVar3 = uStack_cc;
+        if (!bVar5) break;
+        uVar2 = (uint)uStack_f0;
+        local_148 = (Il2CppObject *)CONCAT44(fStack_d0,fStack_d4);
+        local_128 = pIStack_b0;
+        local_18c = (float)local_a8;
+        local_138 = local_108.fields._current;
+        fVar7 = (float)(*(code *)(score->fields).invoke_impl)
+                                 ((score->fields).method_code,(score->fields).method);
+        if (fVar7 <= local_168) {
+          local_138 = local_188;
         }
-        local_1b8 = CONCAT44(fStack_f0,fStack_f4);
-        local_1b0 = fVar11;
+        uVar6 = -(uint)(local_168 < fVar7);
         fVar8 = (float)(*(code *)(score->fields).invoke_impl)
-                                 ((score->fields).method_code,&local_1b8,(score->fields).method);
-        uVar3 = uStack_140;
-        if (fVar9 < fVar8) {
-          (__return_storage_ptr__->fields).x = fVar5;
-          (__return_storage_ptr__->fields).y = fVar6;
-          (__return_storage_ptr__->fields).z = fVar11;
-          fVar9 = fVar8;
+                                 ((score->fields).method_code,(score->fields).method);
+        fVar7 = (float)(~uVar6 & (uint)local_168 | (uint)fVar7 & uVar6);
+        if (fVar8 <= fVar7) {
+          local_148 = local_138;
         }
-        uStack_140._0_4_ = (float)uVar2;
-        uStack_140._4_4_ = SUB84(uVar2,4);
-        local_1a8._0_4_ = (float)uStack_140;
-        local_1a8._4_4_ = uStack_140._4_4_;
-        local_1a0 = fVar4;
-        uStack_140 = uVar3;
-        fVar11 = (float)(*(code *)(score->fields).invoke_impl)
-                                  ((score->fields).method_code,&local_1a8,(score->fields).method);
-        if (fVar9 < fVar11) {
-          uStack_140._0_4_ = (float)uVar2;
-          uStack_140._4_4_ = SUB84(uVar2,4);
-          (__return_storage_ptr__->fields).x = (float)uStack_140;
-          (__return_storage_ptr__->fields).y = uStack_140._4_4_;
-          (__return_storage_ptr__->fields).z = fVar4;
-          fVar9 = fVar11;
+        fVar9 = (float)(*(code *)(score->fields).invoke_impl)
+                                 ((score->fields).method_code,(score->fields).method);
+        fVar10 = (float)(~-(uint)(fVar7 < fVar8) & (uint)fVar7 | -(uint)(fVar7 < fVar8) & (uint)fVar8);
+        if (fVar9 <= fVar10) {
+          local_128 = local_148;
+          local_18c = (float)(~-(uint)(fVar7 < fVar8) & (~uVar6 & (uint)fVar1 | uVar2 & uVar6) |
+                             uVar3 & -(uint)(fVar7 < fVar8));
         }
+        local_168 = (float)(-(uint)(fVar10 < fVar9) & (uint)fVar9 | ~-(uint)(fVar10 < fVar9) & (uint)fVar10);
+        local_188 = local_128;
+        pSVar4 = (System_Collections_Generic_List_Enumerator_T__o *)local_88._8_8_;
+        fVar1 = local_18c;
       }
       System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_198,
+                (&local_108,
+                 (MethodInfo_4C821F0 *)
                  MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-      return __return_storage_ptr__;
+      UVar11.fields.z = fVar1;
+      UVar11.fields._0_8_ = local_188;
+      return (UnityEngine_Vector3_o)UVar11.fields;
     }
   }
   ThrowNullReferenceException();
@@ -2115,1083 +2459,113 @@ Map_MapFracture__Extreme
 
 // Map.MapFracture$$Consider
 // il2cpp: void Map_MapFracture__Consider (UnityEngine_Vector3_o point, System_Func_Vector3__float__o* score, UnityEngine_Vector3_o* best, float* bestScore, const MethodInfo* method);
-// 0x181ea3c40
+// 0x598b6c0
 
 void Map_MapFracture__Consider
-               (UnityEngine_Vector3_o *point,System_Func_Vector3__float__o *score,UnityEngine_Vector3_o *best,
+               (UnityEngine_Vector3_o point,System_Func_Vector3__float__o *score,UnityEngine_Vector3_o *best,
                float *bestScore,MethodInfo *method)
 
 {
   float fVar1;
-  float fVar2;
-  float fVar3;
-  undefined8 local_18;
-  float local_10;
   
-  if (score != (System_Func_Vector3__float__o *)0x0) {
-    local_18._0_4_ = (point->fields).x;
-    local_18._4_4_ = (point->fields).y;
-    local_10 = (point->fields).z;
-    fVar3 = (float)(*(code *)(score->fields).invoke_impl)
-                             ((score->fields).method_code,&local_18,(score->fields).method);
-    if (*bestScore < fVar3) {
-      fVar2 = (point->fields).y;
-      fVar1 = (point->fields).z;
-      (best->fields).x = (point->fields).x;
-      (best->fields).y = fVar2;
-      (best->fields).z = fVar1;
-      *bestScore = fVar3;
-    }
-    return;
+  if (score == (System_Func_Vector3__float__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  fVar1 = (float)(*(code *)(score->fields).invoke_impl)((score->fields).method_code,(score->fields).method);
+  if (*bestScore < fVar1) {
+    (best->fields).x = point.fields.x;
+    (best->fields).y = point.fields.y;
+    (best->fields).z = point.fields.z;
+    *bestScore = fVar1;
+  }
+  return;
 }
 
 
 // Map.MapFracture$$CreateCollisionMesh
 // il2cpp: UnityEngine_Mesh_o* Map_MapFracture__CreateCollisionMesh (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, UnityEngine_Vector3_o center, float scale, const MethodInfo* method);
-// 0x181ea3cc0
-// eh: try 0x181ea3f10..0x181ea4380 -> pad 0x18333d400 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 20 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea4259: mov rdx, qword ptr [rip + 0x2200b40]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea4260: mov rcx, qword ptr [rsp + 0x68]
-// asm:   0x181ea4265: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea426a: mov rcx, qword ptr [rsp + 0x60]
-// asm:   0x181ea426f: test rcx, rcx
-// asm:   0x181ea4272: jne 0x181ea4380
-// asm:   0x181ea4278: mov rsi, qword ptr [rsp + 0x200]
-// asm:   0x181ea4280: mov rdi, qword ptr [rsp + 0x70]
-// asm:   0x181ea4380: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d400: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d405: push rbp
-// asm:   0x18333d406: sub rsp, 0x30
-// asm:   0x18333d40a: mov rbp, rdx
-// asm:   0x18333d40d: mov rax, qword ptr [rbp + 0x100]
-// asm:   0x18333d414: mov rcx, qword ptr [rax]
-// asm:   0x18333d417: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x18333d41b: movabs rax, 0
-// asm:   0x18333d425: add rsp, 0x30
-// asm:   0x18333d429: pop rbp
-// asm:   0x18333d42a: ret 
+// 0x5986f50
+// eh: try 0x59871c9..0x598756b -> pad 0x598758e (+15 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x59875a9..0x59875ae -> pad 0x59875d3 cleanup
+// eh: try 0x59875d6..0x59875e3 -> pad 0x59875eb catch (...) [compiler noexcept guard]
+// asm: 38 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5987570: jmp 0x598758e
+// asm:   0x5987572: jmp 0x598758e
+// asm:   0x5987574: jmp 0x598758e
+// asm:   0x5987576: jmp 0x598758e
+// asm:   0x5987578: jmp 0x598758e
+// asm:   0x598757a: jmp 0x598758e
+// asm:   0x598757c: jmp 0x598758e
+// asm:   0x598757e: jmp 0x598758e
+// asm:   0x5987580: jmp 0x598758e
+// asm:   0x5987582: jmp 0x598758e
+// asm:   0x5987584: jmp 0x598758e
+// asm:   0x5987586: jmp 0x598758e
+// asm:   0x5987588: jmp 0x598758e
+// asm:   0x598758a: jmp 0x598758e
+// asm:   0x598758c: jmp 0x598758e
+// asm:   0x598758e: mov r15, rax
+// asm:   0x5987591: cmp edx, 1
+// asm:   0x5987594: jne 0x59875d6
+// asm:   0x5987596: mov rdi, r15
+// asm:   0x5987599: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598759e: mov r15, qword ptr [rax]
+// asm:   0x59875a1: mov qword ptr [rsp + 0xf8], r15
+// asm:   0x59875a9: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x59875ae: lea rax, [rip + 0x1907d23]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x59875b5: mov rsi, qword ptr [rax]
+// asm:   0x59875b8: lea rdi, [rsp + 0x40]
+// asm:   0x59875bd: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x59875c2: test r15, r15
+// asm:   0x59875c5: je 0x59874c4
+// asm:   0x59875cb: mov rdi, r15
+// asm:   0x59875ce: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x59875d3: mov r15, rax
+// asm:   0x59875d6: lea rdi, [rsp + 0xf8]
+// asm:   0x59875de: call 0x2fd4410  ; il2cpp_runtime_helper_02fd4410()
+// asm:   0x59875e3: mov rdi, r15
+// asm:   0x59875e6: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x59875eb: mov rdi, rax
+// asm:   0x59875ee: call 0x2ab61e0  ; __clang_call_terminate()
 
 UnityEngine_Mesh_o *
 Map_MapFracture__CreateCollisionMesh
-          (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,UnityEngine_Vector3_o *center,
+          (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,UnityEngine_Vector3_o center,
           float scale,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  float fVar2;
-  float fVar3;
-  int iVar4;
-  uint32_t uVar5;
-  uint uVar6;
-  System_Object_array *pSVar7;
-  UnityEngine_Vector3_array *pUVar8;
-  MethodInfo *pMVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  bool bVar16;
-  System_Collections_Generic_List_Vector3__o *inVertices;
-  System_Collections_Generic_List_T__o *__this;
-  UnityEngine_Object_o *__this_00;
-  float fVar17;
-  float fVar18;
-  float fVar19;
-  float fVar20;
-  UnityEngine_Vector3_o local_1c8;
-  UnityEngine_Vector3_o local_1b8;
-  UnityEngine_Vector3_o local_1a8;
-  undefined8 local_198;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_190;
-  System_Collections_Generic_List_T__o *local_188;
-  undefined1 local_178 [16];
-  undefined8 local_168;
-  undefined8 uStack_160;
-  undefined8 local_158;
-  undefined8 uStack_150;
-  undefined8 local_148;
-  undefined8 uStack_140;
-  undefined8 local_138;
-  undefined8 uStack_130;
-  undefined8 local_128;
-  undefined8 uStack_120;
-  undefined8 local_118;
-  undefined8 uStack_110;
-  undefined8 local_108;
-  undefined8 uStack_100;
-  System_Collections_Generic_List_Enumerator_T__o local_e8;
-  undefined8 uStack_d0;
-  undefined8 local_c8;
-  undefined8 uStack_c0;
-  undefined8 local_b8;
-  undefined8 uStack_b0;
-  undefined8 local_a8;
-  undefined8 uStack_a0;
-  undefined8 local_98;
-  undefined8 uStack_90;
-  undefined8 local_88;
-  undefined8 uStack_80;
-  undefined8 local_78;
-  undefined8 uStack_70;
-  
-  if (Il2CppMethodInitialized_184345089 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_get_Current);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Count);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector3);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mesh);
-    il2cpp_codegen_initialize_runtime_metadata(&"Map debris collision");
-    Il2CppMethodInitialized_184345089 = '\x01';
-  }
-  local_178._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_178._8_8_ = 0;
-  local_168 = (Il2CppObject *)0x0;
-  uStack_160 = 0;
-  local_158 = 0;
-  uStack_150 = 0;
-  local_148 = 0;
-  uStack_140 = 0;
-  local_138 = 0;
-  uStack_130 = 0;
-  local_128 = 0;
-  uStack_120 = 0;
-  local_118 = 0;
-  uStack_110 = 0;
-  local_108 = 0;
-  uStack_100 = 0;
-  if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    iVar4 = (triangles->fields)._size;
-    inVertices = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
-    System_Collections_Generic_List_Vector3____ctor
-              ((System_Collections_Generic_List_T__o *)inVertices,iVar4 * 3,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    iVar4 = (triangles->fields)._size;
-    __this = (System_Collections_Generic_List_T__o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-    System_Collections_Generic_List_int____ctor
-              (__this,iVar4 * 3,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-    local_188 = __this;
-    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-              (&local_e8,triangles,
-               (MethodInfo_969260 *)
-               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    local_178._0_8_ = local_e8.fields._list;
-    local_178._8_4_ = local_e8.fields._index;
-    local_178._12_4_ = local_e8.fields._version;
-    local_168 = local_e8.fields._current;
-    uStack_160 = uStack_d0;
-    local_158 = local_c8;
-    uStack_150 = uStack_c0;
-    local_148 = local_b8;
-    uStack_140 = uStack_b0;
-    local_138 = local_a8;
-    uStack_130 = uStack_a0;
-    local_128 = local_98;
-    uStack_120 = uStack_90;
-    local_118 = local_88;
-    uStack_110 = uStack_80;
-    local_108 = local_78;
-    uStack_100 = uStack_70;
-    local_198 = 0;
-    local_190 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_178;
-    while( true ) {
-      bVar16 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                         ((System_Collections_Generic_List_Enumerator_T__o *)local_178,
-                          (MethodInfo_1558F50 *)
-                          MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext)
-      ;
-      pMVar9 = MethodInfo_System_Collections_Generic_List_int_Add;
-      if (!bVar16) break;
-      if (inVertices == (System_Collections_Generic_List_Vector3__o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      if (__this == (System_Collections_Generic_List_T__o *)0x0) {
-        ThrowNullReferenceException();
-      }
-      fVar17 = (float)local_168;
-      fVar18 = local_168._4_4_;
-      fVar20 = (float)uStack_160;
-      fVar10 = local_148._4_4_;
-      fVar11 = (float)uStack_140;
-      fVar12 = uStack_140._4_4_;
-      fVar13 = (float)uStack_120;
-      fVar14 = uStack_120._4_4_;
-      fVar15 = (float)local_118;
-      uVar5 = (inVertices->fields)._size;
-      piVar1 = &(__this->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar7 = (__this->fields)._items;
-      if (pSVar7 == (System_Object_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      uVar6 = (__this->fields)._size;
-      if (uVar6 < (uint)pSVar7->max_length) {
-        (__this->fields)._size = uVar6 + 1;
-        if ((uint)pSVar7->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        *(uint32_t *)((longlong)pSVar7->m_Items + (longlong)(int)uVar6 * 4) = uVar5;
-      }
-      else {
-        System_Collections_Generic_List_int___AddWithResize
-                  ((System_Collections_Generic_List_uint__o *)__this,uVar5,
-                   (MethodInfo_91A500 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
-      fVar19 = (center->fields).x;
-      fVar2 = (center->fields).y;
-      fVar3 = (center->fields).z;
-      piVar1 = &(inVertices->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pUVar8 = (inVertices->fields)._items;
-      if (pUVar8 == (UnityEngine_Vector3_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      fVar19 = (fVar17 - fVar19) * scale;
-      fVar17 = (fVar18 - fVar2) * scale;
-      fVar18 = (fVar20 - fVar3) * scale;
-      uVar6 = (inVertices->fields)._size;
-      if (uVar6 < (uint)pUVar8->max_length) {
-        (inVertices->fields)._size = uVar6 + 1;
-        if ((uint)pUVar8->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar8->m_Items[(int)uVar6].fields.x = fVar19;
-        pUVar8->m_Items[(int)uVar6].fields.y = fVar17;
-        pUVar8->m_Items[(int)uVar6].fields.z = fVar18;
-      }
-      else {
-        local_1c8.fields.x = fVar19;
-        local_1c8.fields.y = fVar17;
-        local_1c8.fields.z = fVar18;
-        System_Collections_Generic_List_Vector3___AddWithResize
-                  (inVertices,&local_1c8,(MethodInfo_99C850 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_List_int_Add;
-      uVar5 = (inVertices->fields)._size;
-      piVar1 = &(__this->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar7 = (__this->fields)._items;
-      if (pSVar7 == (System_Object_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      uVar6 = (__this->fields)._size;
-      if (uVar6 < (uint)pSVar7->max_length) {
-        (__this->fields)._size = uVar6 + 1;
-        if ((uint)pSVar7->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        *(uint32_t *)((longlong)pSVar7->m_Items + (longlong)(int)uVar6 * 4) = uVar5;
-      }
-      else {
-        System_Collections_Generic_List_int___AddWithResize
-                  ((System_Collections_Generic_List_uint__o *)__this,uVar5,
-                   (MethodInfo_91A500 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
-      fVar17 = (center->fields).x;
-      fVar18 = (center->fields).y;
-      fVar20 = (center->fields).z;
-      piVar1 = &(inVertices->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pUVar8 = (inVertices->fields)._items;
-      if (pUVar8 == (UnityEngine_Vector3_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      fVar17 = (fVar10 - fVar17) * scale;
-      fVar18 = (fVar11 - fVar18) * scale;
-      fVar20 = (fVar12 - fVar20) * scale;
-      uVar6 = (inVertices->fields)._size;
-      if (uVar6 < (uint)pUVar8->max_length) {
-        (inVertices->fields)._size = uVar6 + 1;
-        if ((uint)pUVar8->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar8->m_Items[(int)uVar6].fields.x = fVar17;
-        pUVar8->m_Items[(int)uVar6].fields.y = fVar18;
-        pUVar8->m_Items[(int)uVar6].fields.z = fVar20;
-      }
-      else {
-        local_1b8.fields.x = fVar17;
-        local_1b8.fields.y = fVar18;
-        local_1b8.fields.z = fVar20;
-        System_Collections_Generic_List_Vector3___AddWithResize
-                  (inVertices,&local_1b8,(MethodInfo_99C850 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_List_int_Add;
-      uVar5 = (inVertices->fields)._size;
-      piVar1 = &(__this->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar7 = (__this->fields)._items;
-      if (pSVar7 == (System_Object_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      uVar6 = (__this->fields)._size;
-      if (uVar6 < (uint)pSVar7->max_length) {
-        (__this->fields)._size = uVar6 + 1;
-        if ((uint)pSVar7->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        *(uint32_t *)((longlong)pSVar7->m_Items + (longlong)(int)uVar6 * 4) = uVar5;
-      }
-      else {
-        System_Collections_Generic_List_int___AddWithResize
-                  ((System_Collections_Generic_List_uint__o *)__this,uVar5,
-                   (MethodInfo_91A500 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-      pMVar9 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
-      fVar17 = (center->fields).x;
-      fVar18 = (center->fields).y;
-      fVar20 = (center->fields).z;
-      piVar1 = &(inVertices->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pUVar8 = (inVertices->fields)._items;
-      if (pUVar8 == (UnityEngine_Vector3_array *)0x0) {
-        ThrowNullReferenceException();
-      }
-      fVar17 = (fVar13 - fVar17) * scale;
-      fVar18 = (fVar14 - fVar18) * scale;
-      fVar20 = (fVar15 - fVar20) * scale;
-      uVar6 = (inVertices->fields)._size;
-      if (uVar6 < (uint)pUVar8->max_length) {
-        (inVertices->fields)._size = uVar6 + 1;
-        if ((uint)pUVar8->max_length <= uVar6) {
-          ThrowIndexOutOfRangeException();
-        }
-        pUVar8->m_Items[(int)uVar6].fields.x = fVar17;
-        pUVar8->m_Items[(int)uVar6].fields.y = fVar18;
-        pUVar8->m_Items[(int)uVar6].fields.z = fVar20;
-      }
-      else {
-        local_1a8.fields.x = fVar17;
-        local_1a8.fields.y = fVar18;
-        local_1a8.fields.z = fVar20;
-        System_Collections_Generic_List_Vector3___AddWithResize
-                  (inVertices,&local_1a8,(MethodInfo_99C850 *)pMVar9->klass->rgctx_data[0xe].method);
-      }
-    }
-    System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_178,
-               MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    __this_00 = (UnityEngine_Object_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Mesh);
-    UnityEngine_Mesh___ctor((UnityEngine_Mesh_o *)__this_00,(MethodInfo *)0x0);
-    if (__this_00 != (UnityEngine_Object_o *)0x0) {
-      UnityEngine_Object__set_name(__this_00,"Map debris collision",(MethodInfo *)0x0);
-      if (inVertices != (System_Collections_Generic_List_Vector3__o *)0x0) {
-        UnityEngine_Mesh__set_indexFormat
-                  ((UnityEngine_Mesh_o *)__this_00,(uint)(0xffff < (inVertices->fields)._size),
-                   (MethodInfo *)0x0);
-        UnityEngine_Mesh__SetVertices((UnityEngine_Mesh_o *)__this_00,inVertices,(MethodInfo *)0x0);
-        UnityEngine_Mesh__SetTriangles_2eec840
-                  ((UnityEngine_Mesh_o *)__this_00,(System_Collections_Generic_List_int__o *)__this,0,false,
-                   (MethodInfo *)0x0);
-        return (UnityEngine_Mesh_o *)__this_00;
-      }
-    }
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Map.MapFracture$$AddVertex
-// il2cpp: void Map_MapFracture__AddVertex (Map_MapFracture_Vertex_o vertex, UnityEngine_Vector3_o center, System_Collections_Generic_List_int__o* indices, System_Collections_Generic_List_Vector3__o* positions, System_Collections_Generic_List_Vector3__o* normals, System_Collections_Generic_List_Vector2__o* uv, System_Collections_Generic_List_Color__o* colors, const MethodInfo* method);
-// 0x181ea1c80
-
-void Map_MapFracture__AddVertex
-               (Map_MapFracture_Vertex_o *vertex,UnityEngine_Vector3_o *center,
-               System_Collections_Generic_List_int__o *indices,
-               System_Collections_Generic_List_Vector3__o *positions,
-               System_Collections_Generic_List_Vector3__o *normals,
-               System_Collections_Generic_List_Vector2__o *uv,System_Collections_Generic_List_Color__o *colors
-               ,MethodInfo *method)
-
-{
-  int32_t *piVar1;
-  undefined4 uVar2;
-  undefined4 uVar3;
-  undefined4 uVar4;
-  undefined4 uVar5;
-  uint32_t item;
-  uint uVar6;
-  System_Int32_array *pSVar7;
-  UnityEngine_Vector3_array *pUVar8;
-  UnityEngine_Color_array *pUVar9;
-  undefined8 uVar10;
-  MethodInfo *pMVar11;
-  float fVar12;
-  undefined8 uVar13;
-  UnityEngine_UILineInfo_Fields local_68;
-  undefined8 local_58;
-  undefined4 uStack_50;
-  int32_t iStack_4c;
-  float fStack_48;
-  float fStack_44;
-  float fStack_40;
-  float fStack_3c;
-  
-  if (Il2CppMethodInitialized_18434508a == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_Add);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
-    Il2CppMethodInitialized_18434508a = '\x01';
-  }
-  pMVar11 = MethodInfo_System_Collections_Generic_List_int_Add;
-  if ((positions != (System_Collections_Generic_List_Vector3__o *)0x0) &&
-     (indices != (System_Collections_Generic_List_int__o *)0x0)) {
-    item = (positions->fields)._size;
-    piVar1 = &(indices->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar7 = (indices->fields)._items;
-    if (pSVar7 == (System_Int32_array *)0x0) goto label_181ea1f33;
-    uVar6 = (indices->fields)._size;
-    if (uVar6 < (uint)pSVar7->max_length) {
-      (indices->fields)._size = uVar6 + 1;
-      if ((uint)pSVar7->max_length <= uVar6) goto label_181ea1f39;
-      pSVar7->m_Items[(int)uVar6] = item;
-    }
-    else {
-      System_Collections_Generic_List_uint___AddWithResize
-                ((System_Collections_Generic_List_uint__o *)indices,item,
-                 (MethodInfo_91A500 *)pMVar11->klass->rgctx_data[0xe].method);
-    }
-    pMVar11 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
-    piVar1 = &(positions->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pUVar8 = (positions->fields)._items;
-    uVar2 = (center->fields).x;
-    uVar4 = (center->fields).y;
-    uVar3 = (vertex->fields).Position.fields.x;
-    uVar5 = (vertex->fields).Position.fields.y;
-    uVar13._0_4_ = (float)uVar3 - (float)uVar2;
-    uVar13._4_4_ = (float)uVar5 - (float)uVar4;
-    if (pUVar8 == (UnityEngine_Vector3_array *)0x0) goto label_181ea1f33;
-    uVar6 = (positions->fields)._size;
-    fVar12 = (vertex->fields).Position.fields.z - (center->fields).z;
-    if (uVar6 < (uint)pUVar8->max_length) {
-      (positions->fields)._size = uVar6 + 1;
-      if ((uint)pUVar8->max_length <= uVar6) goto label_181ea1f39;
-      pUVar8->m_Items[(int)uVar6].fields.x = (float)uVar13;
-      pUVar8->m_Items[(int)uVar6].fields.y = uVar13._4_4_;
-      pUVar8->m_Items[(int)uVar6].fields.z = fVar12;
-    }
-    else {
-      local_68._0_8_ = uVar13;
-      local_68.topY = fVar12;
-      System_Collections_Generic_List_Vector3___AddWithResize
-                (positions,(UnityEngine_Vector3_o *)&local_68,
-                 (MethodInfo_99C850 *)pMVar11->klass->rgctx_data[0xe].method);
-    }
-    pMVar11 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
-    local_58._0_4_ = (vertex->fields).Position.fields.x;
-    local_58._4_4_ = (vertex->fields).Position.fields.y;
-    uVar13 = *(undefined8 *)&(vertex->fields).Position.fields.z;
-    fStack_48 = (vertex->fields).Normal.fields.y;
-    fStack_44 = (vertex->fields).Normal.fields.z;
-    fStack_40 = (vertex->fields).UV.fields.x;
-    fStack_3c = (vertex->fields).UV.fields.y;
-    uStack_50 = (undefined4)uVar13;
-    iStack_4c = (int32_t)((ulonglong)uVar13 >> 0x20);
-    if (normals == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_181ea1f33;
-    piVar1 = &(normals->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pUVar8 = (normals->fields)._items;
-    if (pUVar8 == (UnityEngine_Vector3_array *)0x0) goto label_181ea1f33;
-    uVar6 = (normals->fields)._size;
-    uVar10._4_4_ = (int32_t)fStack_48;
-    uVar10._0_4_ = iStack_4c;
-    if (uVar6 < (uint)pUVar8->max_length) {
-      (normals->fields)._size = uVar6 + 1;
-      if ((uint)pUVar8->max_length <= uVar6) goto label_181ea1f39;
-      pUVar8->m_Items[(int)uVar6].fields.x = (float)iStack_4c;
-      pUVar8->m_Items[(int)uVar6].fields.y = fStack_48;
-      pUVar8->m_Items[(int)uVar6].fields.z = fStack_44;
-    }
-    else {
-      local_68._0_8_ = uVar10;
-      local_68.topY = fStack_44;
-      System_Collections_Generic_List_Vector3___AddWithResize
-                (normals,(UnityEngine_Vector3_o *)&local_68,
-                 (MethodInfo_99C850 *)pMVar11->klass->rgctx_data[0xe].method);
-    }
-    if (uv != (System_Collections_Generic_List_Vector2__o *)0x0) {
-      il2cpp_runtime_helper_18003dee0(uv,(vertex->fields).UV.fields,MethodInfo_System_Collections_Generic_List_Vector2_Add);
-      pMVar11 = MethodInfo_System_Collections_Generic_List_Color_Add;
-      if (colors != (System_Collections_Generic_List_Color__o *)0x0) {
-        piVar1 = &(colors->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pUVar9 = (colors->fields)._items;
-        if (pUVar9 != (UnityEngine_Color_array *)0x0) {
-          uVar6 = (colors->fields)._size;
-          fVar12 = (vertex->fields).Shade;
-          if ((uint)pUVar9->max_length <= uVar6) {
-            local_68.height = (int32_t)fVar12;
-            local_68.startCharIdx = (int32_t)fVar12;
-            local_68.leading = 1.0;
-            local_68.topY = fVar12;
-            System_Collections_Generic_List_UILineInfo___AddWithResize
-                      ((System_Collections_Generic_List_UILineInfo__o *)colors,
-                       (UnityEngine_UILineInfo_o *)&local_68,
-                       (MethodInfo_91A940 *)pMVar11->klass->rgctx_data[0xe].method);
-            return;
-          }
-          (colors->fields)._size = uVar6 + 1;
-          if (uVar6 < (uint)pUVar9->max_length) {
-            pUVar9->m_Items[(int)uVar6].fields.r = fVar12;
-            pUVar9->m_Items[(int)uVar6].fields.g = fVar12;
-            pUVar9->m_Items[(int)uVar6].fields.b = fVar12;
-            pUVar9->m_Items[(int)uVar6].fields.a = 1.0;
-            return;
-          }
-label_181ea1f39:
-          ThrowIndexOutOfRangeException();
-        }
-      }
-    }
-  }
-label_181ea1f33:
-  ThrowNullReferenceException();
-}
-
-
-// Map.MapFracture$$ReadVertex
-// il2cpp: Map_MapFracture_Vertex_o Map_MapFracture__ReadVertex (UnityEngine_Vector3_array* positions, UnityEngine_Vector3_array* normals, UnityEngine_Vector2_array* uv, int32_t index, UnityEngine_Matrix4x4_o toRoot, UnityEngine_Matrix4x4_o normalToRoot, bool hasNormals, bool hasUV, const MethodInfo* method);
-// 0x181ea6640
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea6836: unpcklps xmm7, xmm9
-// asm:   0x181ea683a: movaps xmm9, xmmword ptr [rsp + 0x50]
-// asm:   0x181ea6840: movd ebp, xmm8
-// asm:   0x181ea6845: movaps xmm8, xmmword ptr [rsp + 0x60]
-// asm:   0x181ea684b: jmp 0x181ea687f
-
-Map_MapFracture_Vertex_o *
-Map_MapFracture__ReadVertex
-          (Map_MapFracture_Vertex_o *__return_storage_ptr__,UnityEngine_Vector3_array *positions,
-          UnityEngine_Vector3_array *normals,UnityEngine_Vector2_array *uv,int32_t index,
-          UnityEngine_Matrix4x4_o *toRoot,UnityEngine_Matrix4x4_o *normalToRoot,bool hasNormals,bool hasUV,
-          MethodInfo *method)
-
-{
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
+  int iVar2;
+  int32_t iVar3;
+  uint uVar4;
+  System_Int32_array *pSVar5;
+  UnityEngine_Vector3_array *pUVar6;
+  MethodInfo *pMVar7;
   float fVar8;
   float fVar9;
   float fVar10;
-  float fVar11;
+  bool bVar11;
+  System_Collections_Generic_List_Vector3__o *__this;
+  System_Collections_Generic_List_int__o *__this_00;
+  UnityEngine_Object_o *__this_01;
   float fVar12;
   float fVar13;
   float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  float fVar18;
-  UnityEngine_Vector3_StaticFields *pUVar19;
-  UnityEngine_Vector2_StaticFields *pUVar20;
-  longlong lVar21;
-  float fVar22;
-  float fVar23;
-  float local_98;
-  float local_94;
-  float local_90;
-  
-  if (positions == (UnityEngine_Vector3_array *)0x0) {
-label_181ea692c:
-    ThrowNullReferenceException();
-  }
-  lVar21 = (longlong)index;
-  if ((uint)positions->max_length <= (uint)index) {
-label_181ea6932:
-    ThrowIndexOutOfRangeException();
-  }
-  fVar1 = positions->m_Items[lVar21].fields.x;
-  fVar2 = positions->m_Items[lVar21].fields.y;
-  fVar3 = positions->m_Items[lVar21].fields.z;
-  fVar4 = (toRoot->fields).m01;
-  fVar5 = (toRoot->fields).m00;
-  fVar6 = (toRoot->fields).m02;
-  fVar7 = (toRoot->fields).m11;
-  fVar8 = (toRoot->fields).m21;
-  fVar9 = (toRoot->fields).m10;
-  fVar10 = (toRoot->fields).m20;
-  fVar11 = (toRoot->fields).m22;
-  fVar12 = (toRoot->fields).m12;
-  fVar13 = (toRoot->fields).m03;
-  fVar14 = (toRoot->fields).m13;
-  fVar15 = (toRoot->fields).m23;
-  if (hasNormals) {
-    if (normals == (UnityEngine_Vector3_array *)0x0) goto label_181ea692c;
-    if ((uint)normals->max_length <= (uint)index) goto label_181ea6932;
-    fVar18 = normals->m_Items[lVar21].fields.x;
-    fVar22 = normals->m_Items[lVar21].fields.z;
-    fVar16 = normals->m_Items[lVar21].fields.y;
-    fVar17 = fVar16 * (normalToRoot->fields).m01 + fVar18 * (normalToRoot->fields).m00 +
-             fVar22 * (normalToRoot->fields).m02;
-    fVar23 = fVar16 * (normalToRoot->fields).m21 + fVar18 * (normalToRoot->fields).m20 +
-             fVar22 * (normalToRoot->fields).m22;
-    fVar18 = fVar16 * (normalToRoot->fields).m11 + fVar18 * (normalToRoot->fields).m10 +
-             fVar22 * (normalToRoot->fields).m12;
-    local_98 = fVar17;
-    local_94 = fVar18;
-    local_90 = fVar23;
-    if (Il2CppMethodInitialized_18433de5f == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433de5f = '\x01';
-    }
-    fVar22 = (float)il2cpp_runtime_helper_180546a40(&local_98,0);
-    if (fVar22 <= 1e-05) {
-      pUVar19 = TypeInfo_UnityEngine_Vector3->static_fields;
-      fVar17 = (pUVar19->zeroVector).fields.x;
-      fVar18 = (pUVar19->zeroVector).fields.y;
-      fVar23 = (pUVar19->zeroVector).fields.z;
-    }
-    else {
-      fVar17 = fVar17 / fVar22;
-      fVar18 = fVar18 / fVar22;
-      fVar23 = fVar23 / fVar22;
-    }
-  }
-  else {
-    if (Il2CppMethodInitialized_18433de5c == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433de5c = '\x01';
-    }
-    pUVar19 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar17 = (pUVar19->upVector).fields.x;
-    fVar18 = (pUVar19->upVector).fields.y;
-    fVar23 = (pUVar19->upVector).fields.z;
-  }
-  if (hasUV) {
-    if (uv == (UnityEngine_Vector2_array *)0x0) goto label_181ea692c;
-    if ((uint)uv->max_length <= (uint)index) goto label_181ea6932;
-    pUVar20 = (UnityEngine_Vector2_StaticFields *)(uv->m_Items + lVar21);
-  }
-  else {
-    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_18433e3c9 = '\x01';
-    }
-    pUVar20 = TypeInfo_UnityEngine_Vector2->static_fields;
-  }
-  fVar22 = (pUVar20->zeroVector).fields.y;
-  fVar16 = (pUVar20->zeroVector).fields.x;
-  (__return_storage_ptr__->fields).Position.fields.x = fVar2 * fVar4 + fVar1 * fVar5 + fVar3 * fVar6 + fVar13;
-  (__return_storage_ptr__->fields).Position.fields.y = fVar2 * fVar7 + fVar1 * fVar9 + fVar3 * fVar12 + fVar14
-  ;
-  (__return_storage_ptr__->fields).Normal.fields.x = fVar17;
-  (__return_storage_ptr__->fields).Normal.fields.y = fVar18;
-  (__return_storage_ptr__->fields).UV.fields.x = fVar16;
-  (__return_storage_ptr__->fields).Position.fields.z =
-       fVar2 * fVar8 + fVar1 * fVar10 + fVar3 * fVar11 + fVar15;
-  (__return_storage_ptr__->fields).Normal.fields.z = fVar23;
-  (__return_storage_ptr__->fields).UV.fields.y = fVar22;
-  (__return_storage_ptr__->fields).Shade = 1.0;
-  return __return_storage_ptr__;
-}
-
-
-// Map.MapFracture$$CreateSeeds
-// il2cpp: System_Collections_Generic_List_Vector3__o* Map_MapFracture__CreateSeeds (UnityEngine_Bounds_o bounds, int32_t count, System_Random_o* random, const MethodInfo* method);
-// 0x181ea4b10
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea4d0d: movss xmm9, dword ptr [rip + 0x14b3eee]
-// asm:   0x181ea4d16: movss xmm13, dword ptr [rip + 0x14b405d]
-// asm:   0x181ea4d1f: nop 
-// asm:   0x181ea4d2b: nop dword ptr [rax + rax]
-// asm:   0x181ea4d6b: nop dword ptr [rax + rax]
-// asm:   0x181ea4e78: mov ebx, dword ptr [rsp + 0x110]
-
-System_Collections_Generic_List_Vector3__o *
-Map_MapFracture__CreateSeeds
-          (UnityEngine_Bounds_o *bounds,int32_t count,System_Random_o *random,MethodInfo *method)
-
-{
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  UnityEngine_Vector3_StaticFields *pUVar4;
-  int iVar5;
-  int iVar6;
-  int iVar7;
-  System_Collections_Generic_List_Vector3__o *__this;
-  int iVar8;
-  int iVar9;
-  int iVar10;
-  UnityEngine_Object_o *pUVar11;
-  UnityEngine_Object_o *pUVar12;
-  UnityEngine_Object_o *pUVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  float fVar18;
-  float fVar19;
-  float local_e8;
-  float local_e4;
-  float local_e0;
-  
-  if (Il2CppMethodInitialized_18434508b == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector3);
-    Il2CppMethodInitialized_18434508b = '\x01';
-  }
-  fVar17 = (bounds->fields).m_Extents.fields.x;
-  fVar19 = (bounds->fields).m_Extents.fields.y;
-  fVar17 = fVar17 + fVar17;
-  fVar18 = (bounds->fields).m_Extents.fields.z;
-  fVar19 = fVar19 + fVar19;
-  fVar18 = fVar18 + fVar18;
-  if (Il2CppMethodInitialized_18433dbeb == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbeb = '\x01';
-  }
-  pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
-  fVar16 = (pUVar4->oneVector).fields.x * 0.0001;
-  fVar14 = (pUVar4->oneVector).fields.y * 0.0001;
-  fVar15 = (pUVar4->oneVector).fields.z * 0.0001;
-  if (fVar17 <= fVar16) {
-    fVar17 = fVar16;
-  }
-  if (fVar19 <= fVar14) {
-    fVar19 = fVar14;
-  }
-  if (fVar18 <= fVar15) {
-    fVar18 = fVar15;
-  }
-  if (count < 2) {
-    count = 1;
-  }
-  fVar14 = (float)il2cpp_runtime_helper_1804f6b50((fVar19 * fVar17 * fVar18) / (float)count);
-  iVar5 = il2cpp_runtime_helper_181290af0(fVar17 / fVar14,0);
-  if (iVar5 < 1) {
-    iVar5 = 1;
-  }
-  iVar6 = il2cpp_runtime_helper_181290af0(fVar19 / fVar14,0);
-  if (iVar6 < 1) {
-    iVar6 = 1;
-  }
-  iVar7 = il2cpp_runtime_helper_181290af0(fVar18 / fVar14,0);
-  if (iVar7 < 1) {
-    iVar7 = 1;
-  }
-  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
-  System_Collections_Generic_List_Vector3____ctor
-            ((System_Collections_Generic_List_T__o *)__this,iVar7 * iVar6 * iVar5,
-             (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_40f06b0);
-  iVar10 = 0;
-  if (iVar5 != 0) {
-    do {
-      iVar9 = 0;
-      if (iVar6 != 0) {
-        do {
-          if (iVar7 != 0) {
-            fVar14 = (bounds->fields).m_Center.fields.x;
-            fVar15 = (bounds->fields).m_Center.fields.y;
-            fVar16 = (bounds->fields).m_Center.fields.z;
-            fVar1 = (bounds->fields).m_Extents.fields.x;
-            fVar2 = (bounds->fields).m_Extents.fields.y;
-            fVar3 = (bounds->fields).m_Extents.fields.z;
-            iVar8 = 0;
-            if (random == (System_Random_o *)0x0) {
-label_181ea4eec:
-              ThrowNullReferenceException();
-            }
-            do {
-              pUVar11 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
-                                  (random,(random->klass->vtable)._8_NextDouble.method);
-              pUVar12 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
-                                  (random,(random->klass->vtable)._8_NextDouble.method);
-              pUVar13 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
-                                  (random,(random->klass->vtable)._8_NextDouble.method);
-              if (__this == (System_Collections_Generic_List_Vector3__o *)0x0) goto label_181ea4eec;
-              local_e8 = ((float)iVar10 + 0.5 + ((float)(double)pUVar11 - 0.5) * 0.8) *
-                         (fVar17 / (float)iVar5) + (fVar14 - fVar1);
-              local_e4 = ((float)iVar9 + 0.5 + ((float)(double)pUVar12 - 0.5) * 0.8) * (fVar19 / (float)iVar6)
-                         + (fVar15 - fVar2);
-              local_e0 = (((float)(double)pUVar13 - 0.5) * 0.8 + (float)iVar8 + 0.5) * (fVar18 / (float)iVar7)
-                         + (fVar16 - fVar3);
-              il2cpp_runtime_helper_180012810(__this,&local_e8,MethodInfo_System_Collections_Generic_List_Vector3_Add);
-              iVar8 = iVar8 + 1;
-            } while (iVar8 < iVar7);
-          }
-          iVar9 = iVar9 + 1;
-        } while (iVar9 < iVar6);
-      }
-      iVar10 = iVar10 + 1;
-    } while (iVar10 < iVar5);
-  }
-  return __this;
-}
-
-
-// Map.MapFracture$$Clip
-// il2cpp: bool Map_MapFracture__Clip (Map_MapFracture_o* __this, System_Collections_Generic_List_MapFracture_Triangle__o* source, System_Collections_Generic_List_MapFracture_Triangle__o* target, UnityEngine_Vector3_o normal, float distance, const MethodInfo* method);
-// 0x181ea27a0
-// eh: try 0x181ea2980..0x181ea2a3c -> pad 0x18333d300 catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea2a4d: mov rdx, qword ptr [rip + 0x220234c]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea2a54: mov rcx, qword ptr [rsp + 0x48]
-// asm:   0x181ea2a59: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea2a5e: mov rcx, qword ptr [rsp + 0x40]
-// asm:   0x181ea2a63: test rcx, rcx
-// asm:   0x181ea2a66: jne 0x181ea2aff
-// asm:   0x181ea2a6c: mov rsi, qword ptr [rsp + 0x1d8]
-// asm:   0x181ea2a74: mov rdi, qword ptr [rsp + 0x1d0]
-// asm:   0x181ea2a7c: mov r14, qword ptr [rsp + 0x1c0]
-// asm:   0x181ea2aff: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d300: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d305: push rbp
-// asm:   0x18333d306: sub rsp, 0x30
-// asm:   0x18333d30a: mov rbp, rdx
-// asm:   0x18333d30d: mov rax, qword ptr [rbp + 0x150]
-// asm:   0x18333d314: mov rcx, qword ptr [rax]
-// asm:   0x18333d317: mov qword ptr [rbp + 0x40], rcx
-// asm:   0x18333d31b: movabs rax, 0
-// asm:   0x18333d325: add rsp, 0x30
-// asm:   0x18333d329: pop rbp
-// asm:   0x18333d32a: ret 
-
-bool Map_MapFracture__Clip
-               (Map_MapFracture_o *__this,System_Collections_Generic_List_MapFracture_Triangle__o *source,
-               System_Collections_Generic_List_MapFracture_Triangle__o *target,UnityEngine_Vector3_o *normal,
-               float distance,MethodInfo *method)
-
-{
-  int32_t *piVar1;
-  System_Collections_Generic_List_MapFracture_Segment__o *pSVar2;
-  ulonglong uVar3;
-  bool bVar4;
-  UnityEngine_Vector3_Fields local_188;
-  undefined8 local_178;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_170;
+  UnityEngine_Vector3_o item;
+  UnityEngine_Vector3_o item_00;
+  UnityEngine_Vector3_o item_01;
+  float local_178;
+  float fStack_174;
   undefined1 local_168 [8];
-  UnityEngine_Vector2_Fields UStack_160;
-  UnityEngine_Vector2_Fields local_158;
-  UnityEngine_Vector2_Fields UStack_150;
-  UnityEngine_Vector2_Fields local_148;
-  UnityEngine_Vector2_Fields UStack_140;
-  UnityEngine_Vector2_Fields local_138;
-  UnityEngine_Vector2_Fields UStack_130;
-  UnityEngine_Vector2_Fields local_128;
-  UnityEngine_Vector2_Fields UStack_120;
-  UnityEngine_Vector2_Fields local_118;
-  UnityEngine_Vector2_Fields UStack_110;
-  UnityEngine_Vector2_Fields local_108;
-  UnityEngine_Vector2_Fields UStack_100;
-  UnityEngine_Vector2_Fields local_f8;
-  UnityEngine_Vector2_Fields UStack_f0;
-  undefined1 local_e8 [16];
-  UnityEngine_Vector2_Fields local_d8;
-  UnityEngine_Vector2_Fields UStack_d0;
-  UnityEngine_Vector2_Fields local_c8;
-  UnityEngine_Vector2_Fields UStack_c0;
-  UnityEngine_Vector2_Fields local_b8;
-  UnityEngine_Vector2_Fields UStack_b0;
-  UnityEngine_Vector2_Fields local_a8;
-  UnityEngine_Vector2_Fields UStack_a0;
-  UnityEngine_Vector2_Fields local_98;
-  UnityEngine_Vector2_Fields UStack_90;
-  UnityEngine_Vector2_Fields local_88;
-  UnityEngine_Vector2_Fields UStack_80;
-  UnityEngine_Vector2_Fields local_78;
-  UnityEngine_Vector2_Fields UStack_70;
-  
-  if (Il2CppMethodInitialized_18434508c == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_get_Current);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Clear);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_get_Count);
-    Il2CppMethodInitialized_18434508c = '\x01';
-  }
-  local_168._0_4_ = 0.0;
-  local_168._4_4_ = 0.0;
-  UStack_160.x = 0.0;
-  UStack_160.y = 0.0;
-  local_158.x = 0.0;
-  local_158.y = 0.0;
-  UStack_150.x = 0.0;
-  UStack_150.y = 0.0;
-  local_148.x = 0.0;
-  local_148.y = 0.0;
-  UStack_140.x = 0.0;
-  UStack_140.y = 0.0;
-  local_138.x = 0.0;
-  local_138.y = 0.0;
-  UStack_130.x = 0.0;
-  UStack_130.y = 0.0;
-  local_128.x = 0.0;
-  local_128.y = 0.0;
-  UStack_120.x = 0.0;
-  UStack_120.y = 0.0;
-  local_118.x = 0.0;
-  local_118.y = 0.0;
-  UStack_110.x = 0.0;
-  UStack_110.y = 0.0;
-  local_108.x = 0.0;
-  local_108.y = 0.0;
-  UStack_100.x = 0.0;
-  UStack_100.y = 0.0;
-  local_f8.x = 0.0;
-  local_f8.y = 0.0;
-  UStack_f0.x = 0.0;
-  UStack_f0.y = 0.0;
-  local_188.x = (normal->fields).x;
-  local_188.y = (normal->fields).y;
-  local_188.z = (normal->fields).z;
-  bVar4 = Map_MapFracture__Crosses(source,(UnityEngine_Vector3_o *)&local_188,distance,(MethodInfo *)0x0);
-  if (!bVar4) {
-    return false;
-  }
-  if (target != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    piVar1 = &(target->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    (target->fields)._size = 0;
-    pSVar2 = (__this->fields)._segments;
-    if (pSVar2 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
-      piVar1 = &(pSVar2->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      (pSVar2->fields)._size = 0;
-      if (source != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-        System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)local_e8,source,
-                   (MethodInfo_969260 *)
-                   MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-        local_168 = (undefined1  [8])local_e8._0_8_;
-        UStack_160.x = (float)local_e8._8_4_;
-        UStack_160.y = (float)local_e8._12_4_;
-        local_158 = local_d8;
-        UStack_150 = UStack_d0;
-        local_148 = local_c8;
-        UStack_140 = UStack_c0;
-        local_138 = local_b8;
-        UStack_130 = UStack_b0;
-        local_128 = local_a8;
-        UStack_120 = UStack_a0;
-        local_118 = local_98;
-        UStack_110 = UStack_90;
-        local_108 = local_88;
-        UStack_100 = UStack_80;
-        local_f8 = local_78;
-        UStack_f0 = UStack_70;
-        local_178 = 0;
-        local_170 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_168;
-        while (bVar4 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                                 ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
-                                  (MethodInfo_1558F50 *)
-                                  MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
-                                 ), bVar4) {
-          local_188.x = (normal->fields).x;
-          local_188.y = (normal->fields).y;
-          local_188.z = (normal->fields).z;
-          local_e8._0_4_ = local_158.x;
-          local_e8._4_4_ = local_158.y;
-          local_e8._8_4_ = UStack_150.x;
-          local_e8._12_4_ = UStack_150.y;
-          local_d8 = local_148;
-          UStack_d0 = UStack_140;
-          local_c8 = local_138;
-          UStack_c0 = UStack_130;
-          local_b8 = local_128;
-          UStack_b0 = UStack_120;
-          local_a8 = local_118;
-          UStack_a0 = UStack_110;
-          local_98 = local_108;
-          UStack_90 = UStack_100;
-          local_88 = local_f8;
-          UStack_80 = UStack_f0;
-          Map_MapFracture__ClipTriangle
-                    (__this,(Map_MapFracture_Triangle_o *)local_e8,(UnityEngine_Vector3_o *)&local_188,
-                     distance,target,(MethodInfo *)0x0);
-        }
-        System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_168,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-        pSVar2 = (__this->fields)._segments;
-        if (pSVar2 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
-          if (0 < (pSVar2->fields)._size) {
-            uVar3._0_4_ = (normal->fields).x;
-            uVar3._4_4_ = (normal->fields).y;
-            local_188._0_8_ = uVar3 ^ 0x8000000080000000;
-            local_188.z = -(normal->fields).z;
-            Map_MapFracture__AddCaps(pSVar2,(UnityEngine_Vector3_o *)&local_188,target,(MethodInfo *)0x0);
-          }
-          return true;
-        }
-      }
-    }
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Map.MapFracture$$Crosses
-// il2cpp: bool Map_MapFracture__Crosses (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, UnityEngine_Vector3_o normal, float distance, const MethodInfo* method);
-// 0x181ea4f30
-// eh: try 0x181ea5068..0x181ea512f -> pad 0x1833245d0 catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea516c: mov rdx, qword ptr [rip + 0x21ffc2d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea5173: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181ea5178: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea517d: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181ea5182: test rcx, rcx
-// asm:   0x181ea5185: jne 0x181ea5191
-// asm:   0x181ea5191: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x1833245d0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x1833245d5: push rbp
-// asm:   0x1833245d6: sub rsp, 0x20
-// asm:   0x1833245da: mov rbp, rdx
-// asm:   0x1833245dd: mov rax, qword ptr [rbp + 0xb0]
-// asm:   0x1833245e4: mov rcx, qword ptr [rax]
-// asm:   0x1833245e7: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x1833245eb: movabs rax, 0
-// asm:   0x1833245f5: add rsp, 0x20
-// asm:   0x1833245f9: pop rbp
-// asm:   0x1833245fa: ret 
-
-bool Map_MapFracture__Crosses
-               (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,
-               UnityEngine_Vector3_o *normal,float distance,MethodInfo *method)
-
-{
-  bool bVar1;
-  undefined1 local_138 [16];
+  undefined1 *puStack_160;
+  Il2CppObject *local_158;
+  undefined8 uStack_150;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  undefined4 local_138;
+  undefined4 uStack_134;
+  undefined4 uStack_130;
+  float fStack_12c;
   undefined8 local_128;
   undefined8 uStack_120;
   undefined8 local_118;
@@ -3206,7 +2580,985 @@ bool Map_MapFracture__Crosses
   undefined8 uStack_d0;
   undefined8 local_c8;
   undefined8 uStack_c0;
-  System_Collections_Generic_List_Enumerator_T__o local_a8;
+  undefined1 local_b0 [16];
+  Il2CppObject *local_a0;
+  undefined8 uStack_98;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  undefined8 uStack_38;
+  
+  fVar14 = center.fields.z;
+  if (Il2CppMethodInitialized_07545a1a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector3);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mesh);
+    il2cpp_codegen_initialize_runtime_metadata(&"Map debris collision");
+    Il2CppMethodInitialized_07545a1a = '\x01';
+  }
+  local_f8 = 0;
+  uStack_f0 = 0;
+  local_108 = 0;
+  uStack_100 = 0;
+  local_118 = 0;
+  uStack_110 = 0;
+  local_128 = 0;
+  uStack_120 = 0;
+  local_138 = 0;
+  uStack_134 = 0;
+  uStack_130 = 0;
+  fStack_12c = 0.0;
+  local_148 = 0;
+  uStack_140 = 0;
+  local_158 = (Il2CppObject *)0x0;
+  uStack_150 = 0;
+  local_168 = (undefined1  [8])0x0;
+  puStack_160 = (undefined1 *)0x0;
+  if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    iVar2 = (triangles->fields)._size;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
+    System_Collections_Generic_List_Vector3____ctor_39ff040
+              (__this,iVar2 * 3,
+               (MethodInfo_39FF040 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    iVar2 = (triangles->fields)._size;
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+    System_Collections_Generic_List_int____ctor_3916240
+              (__this_00,iVar2 * 3,
+               (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_b0,triangles,
+               (MethodInfo_3AB3540 *)
+               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+    local_f8 = local_40;
+    uStack_f0 = uStack_38;
+    local_108 = local_50;
+    uStack_100 = uStack_48;
+    local_118 = local_60;
+    uStack_110 = uStack_58;
+    local_128 = local_70;
+    uStack_120 = uStack_68;
+    local_138 = (undefined4)local_80;
+    uStack_134 = (undefined4)((ulong)local_80 >> 0x20);
+    uStack_130 = (undefined4)uStack_78;
+    fStack_12c = (float)((ulong)uStack_78 >> 0x20);
+    local_148 = local_90;
+    uStack_140 = uStack_88;
+    local_158 = local_a0;
+    uStack_150 = uStack_98;
+    local_168 = (undefined1  [8])local_b0._0_8_;
+    puStack_160 = (undefined1 *)local_b0._8_8_;
+    local_b0._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    local_b0._8_8_ = local_168;
+    if (__this == (System_Collections_Generic_List_Vector3__o *)0x0) {
+      bVar11 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                         ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
+                          (MethodInfo_4C82200 *)
+                          MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext)
+      ;
+      if (bVar11) {
+        ThrowNullReferenceException();
+      }
+    }
+    else if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) {
+      bVar11 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                         ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
+                          (MethodInfo_4C82200 *)
+                          MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext)
+      ;
+      if (bVar11) {
+label_0598754d:
+        ThrowNullReferenceException();
+      }
+    }
+    else {
+      while( true ) {
+        bVar11 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                           ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
+                            (MethodInfo_4C82200 *)
+                            MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
+                           );
+        fVar9 = fStack_12c;
+        pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+        if (!bVar11) break;
+        fVar8 = (float)uStack_150;
+        fVar10 = (float)local_108;
+        iVar3 = (__this->fields)._size;
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar5 = (__this_00->fields)._items;
+        if (pSVar5 == (System_Int32_array *)0x0) goto label_0598754d;
+        uVar4 = (__this_00->fields)._size;
+        local_e8 = uStack_110;
+        uStack_e0 = 0;
+        uStack_d0 = 0;
+        local_d8 = CONCAT44(uStack_130,uStack_134);
+        if (uVar4 < (uint)pSVar5->max_length) {
+          (__this_00->fields)._size = uVar4 + 1;
+          pSVar5->m_Items[(int)uVar4] = iVar3;
+          fVar12 = SUB84(local_158,0);
+          fVar13 = (float)((ulong)local_158 >> 0x20);
+        }
+        else {
+          local_c8 = local_158;
+          uStack_c0 = 0;
+          System_Collections_Generic_List_int___AddWithResize
+                    (__this_00,iVar3,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+          fVar12 = (float)local_c8;
+          fVar13 = local_c8._4_4_;
+        }
+        pMVar7 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+        piVar1 = &(__this->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pUVar6 = (__this->fields)._items;
+        if (pUVar6 == (UnityEngine_Vector3_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        local_178 = center.fields.x;
+        fStack_174 = center.fields.y;
+        item.fields.x = (fVar12 - local_178) * scale;
+        item.fields.y = (fVar13 - fStack_174) * scale;
+        item.fields.z = (fVar8 - fVar14) * scale;
+        uVar4 = (__this->fields)._size;
+        if (uVar4 < (uint)pUVar6->max_length) {
+          (__this->fields)._size = uVar4 + 1;
+          pUVar6->m_Items[(int)uVar4].fields.x = item.fields.x;
+          pUVar6->m_Items[(int)uVar4].fields.y = item.fields.y;
+          pUVar6->m_Items[(int)uVar4].fields.z = item.fields.z;
+        }
+        else {
+          System_Collections_Generic_List_Vector3___AddWithResize
+                    (__this,item,(MethodInfo_39FF950 *)pMVar7->klass->rgctx_data[0xe].method);
+        }
+        pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+        iVar3 = (__this->fields)._size;
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar5 = (__this_00->fields)._items;
+        if (pSVar5 == (System_Int32_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        uVar4 = (__this_00->fields)._size;
+        if (uVar4 < (uint)pSVar5->max_length) {
+          (__this_00->fields)._size = uVar4 + 1;
+          pSVar5->m_Items[(int)uVar4] = iVar3;
+        }
+        else {
+          System_Collections_Generic_List_int___AddWithResize
+                    (__this_00,iVar3,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+        }
+        pMVar7 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+        piVar1 = &(__this->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pUVar6 = (__this->fields)._items;
+        if (pUVar6 == (UnityEngine_Vector3_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        item_00.fields.x = ((float)local_d8 - local_178) * scale;
+        item_00.fields.y = (local_d8._4_4_ - fStack_174) * scale;
+        item_00.fields.z = (fVar9 - fVar14) * scale;
+        uVar4 = (__this->fields)._size;
+        if (uVar4 < (uint)pUVar6->max_length) {
+          (__this->fields)._size = uVar4 + 1;
+          pUVar6->m_Items[(int)uVar4].fields.x = item_00.fields.x;
+          pUVar6->m_Items[(int)uVar4].fields.y = item_00.fields.y;
+          pUVar6->m_Items[(int)uVar4].fields.z = item_00.fields.z;
+        }
+        else {
+          System_Collections_Generic_List_Vector3___AddWithResize
+                    (__this,item_00,(MethodInfo_39FF950 *)pMVar7->klass->rgctx_data[0xe].method);
+        }
+        pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+        iVar3 = (__this->fields)._size;
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar5 = (__this_00->fields)._items;
+        if (pSVar5 == (System_Int32_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        uVar4 = (__this_00->fields)._size;
+        if (uVar4 < (uint)pSVar5->max_length) {
+          (__this_00->fields)._size = uVar4 + 1;
+          pSVar5->m_Items[(int)uVar4] = iVar3;
+        }
+        else {
+          System_Collections_Generic_List_int___AddWithResize
+                    (__this_00,iVar3,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+        }
+        pMVar7 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+        piVar1 = &(__this->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pUVar6 = (__this->fields)._items;
+        if (pUVar6 == (UnityEngine_Vector3_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        item_01.fields.x = ((float)local_e8 - local_178) * scale;
+        item_01.fields.y = (local_e8._4_4_ - fStack_174) * scale;
+        item_01.fields.z = (fVar10 - fVar14) * scale;
+        uVar4 = (__this->fields)._size;
+        if (uVar4 < (uint)pUVar6->max_length) {
+          (__this->fields)._size = uVar4 + 1;
+          pUVar6->m_Items[(int)uVar4].fields.x = item_01.fields.x;
+          pUVar6->m_Items[(int)uVar4].fields.y = item_01.fields.y;
+          pUVar6->m_Items[(int)uVar4].fields.z = item_01.fields.z;
+        }
+        else {
+          System_Collections_Generic_List_Vector3___AddWithResize
+                    (__this,item_01,(MethodInfo_39FF950 *)pMVar7->klass->rgctx_data[0xe].method);
+        }
+      }
+    }
+    System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_168,
+               (MethodInfo_4C821F0 *)
+               MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+    __this_01 = (UnityEngine_Object_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Mesh);
+    UnityEngine_Mesh___ctor((UnityEngine_Mesh_o *)__this_01,(MethodInfo *)0x0);
+    if (__this_01 != (UnityEngine_Object_o *)0x0) {
+      UnityEngine_Object__set_name(__this_01,"Map debris collision",(MethodInfo *)0x0);
+      if (__this != (System_Collections_Generic_List_Vector3__o *)0x0) {
+        UnityEngine_Mesh__set_indexFormat
+                  ((UnityEngine_Mesh_o *)__this_01,(uint)(0xffff < (__this->fields)._size),(MethodInfo *)0x0);
+        UnityEngine_Mesh__SetVertices((UnityEngine_Mesh_o *)__this_01,__this,(MethodInfo *)0x0);
+        UnityEngine_Mesh__SetTriangles_68eb2d0
+                  ((UnityEngine_Mesh_o *)__this_01,__this_00,0,false,(MethodInfo *)0x0);
+        return (UnityEngine_Mesh_o *)__this_01;
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Map.MapFracture$$AddVertex
+// il2cpp: void Map_MapFracture__AddVertex (Map_MapFracture_Vertex_o vertex, UnityEngine_Vector3_o center, System_Collections_Generic_List_int__o* indices, System_Collections_Generic_List_Vector3__o* positions, System_Collections_Generic_List_Vector3__o* normals, System_Collections_Generic_List_Vector2__o* uv, System_Collections_Generic_List_Color__o* colors, const MethodInfo* method);
+// 0x598b080
+
+void Map_MapFracture__AddVertex
+               (Map_MapFracture_Vertex_o vertex,UnityEngine_Vector3_o center,
+               System_Collections_Generic_List_int__o *indices,
+               System_Collections_Generic_List_Vector3__o *positions,
+               System_Collections_Generic_List_Vector3__o *normals,
+               System_Collections_Generic_List_Vector2__o *uv,System_Collections_Generic_List_Color__o *colors
+               ,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  UnityEngine_Color_o *pUVar2;
+  int32_t item;
+  uint uVar3;
+  System_Int32_array *pSVar4;
+  UnityEngine_Vector3_array *pUVar5;
+  UnityEngine_Vector2_array *pUVar6;
+  UnityEngine_Color_array *pUVar7;
+  MethodInfo *pMVar8;
+  UnityEngine_Color_o item_00;
+  UnityEngine_Vector3_o item_01;
+  float local_48;
+  float fStack_44;
+  
+  if (Il2CppMethodInitialized_07545a1b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_get_Count);
+    Il2CppMethodInitialized_07545a1b = '\x01';
+  }
+  pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+  if ((positions != (System_Collections_Generic_List_Vector3__o *)0x0) &&
+     (indices != (System_Collections_Generic_List_int__o *)0x0)) {
+    item = (positions->fields)._size;
+    piVar1 = &(indices->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pSVar4 = (indices->fields)._items;
+    if (pSVar4 != (System_Int32_array *)0x0) {
+      uVar3 = (indices->fields)._size;
+      if (uVar3 < (uint)pSVar4->max_length) {
+        (indices->fields)._size = uVar3 + 1;
+        pSVar4->m_Items[(int)uVar3] = item;
+      }
+      else {
+        System_Collections_Generic_List_int___AddWithResize
+                  (indices,item,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+      }
+      pMVar8 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+      piVar1 = &(positions->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar5 = (positions->fields)._items;
+      if (pUVar5 != (UnityEngine_Vector3_array *)0x0) {
+        local_48 = center.fields.x;
+        fStack_44 = center.fields.y;
+        item_01.fields.x = vertex.fields.Position.fields.x - local_48;
+        item_01.fields.y = vertex.fields.Position.fields.y - fStack_44;
+        item_01.fields.z = vertex.fields.Position.fields.z - center.fields.z;
+        uVar3 = (positions->fields)._size;
+        if (uVar3 < (uint)pUVar5->max_length) {
+          (positions->fields)._size = uVar3 + 1;
+          pUVar5->m_Items[(int)uVar3].fields.x = item_01.fields.x;
+          pUVar5->m_Items[(int)uVar3].fields.y = item_01.fields.y;
+          pUVar5->m_Items[(int)uVar3].fields.z = item_01.fields.z;
+        }
+        else {
+          System_Collections_Generic_List_Vector3___AddWithResize
+                    (positions,item_01,(MethodInfo_39FF950 *)pMVar8->klass->rgctx_data[0xe].method);
+        }
+        pMVar8 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+        if (normals != (System_Collections_Generic_List_Vector3__o *)0x0) {
+          piVar1 = &(normals->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pUVar5 = (normals->fields)._items;
+          if (pUVar5 != (UnityEngine_Vector3_array *)0x0) {
+            uVar3 = (normals->fields)._size;
+            if (uVar3 < (uint)pUVar5->max_length) {
+              (normals->fields)._size = uVar3 + 1;
+              pUVar5->m_Items[(int)uVar3].fields.x = vertex.fields.Normal.fields.x;
+              pUVar5->m_Items[(int)uVar3].fields.y = vertex.fields.Normal.fields.y;
+              pUVar5->m_Items[(int)uVar3].fields.z = vertex.fields.Normal.fields.z;
+            }
+            else {
+              System_Collections_Generic_List_Vector3___AddWithResize
+                        (normals,vertex.fields.Normal.fields,
+                         (MethodInfo_39FF950 *)pMVar8->klass->rgctx_data[0xe].method);
+            }
+            pMVar8 = MethodInfo_System_Collections_Generic_List_Vector2_Add;
+            if (uv != (System_Collections_Generic_List_Vector2__o *)0x0) {
+              piVar1 = &(uv->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pUVar6 = (uv->fields)._items;
+              if (pUVar6 != (UnityEngine_Vector2_array *)0x0) {
+                uVar3 = (uv->fields)._size;
+                if (uVar3 < (uint)pUVar6->max_length) {
+                  (uv->fields)._size = uVar3 + 1;
+                  pUVar6->m_Items[(int)uVar3].fields = vertex.fields.UV.fields;
+                }
+                else {
+                  System_Collections_Generic_List_Vector2___AddWithResize
+                            (uv,vertex.fields.UV,(MethodInfo_39F9590 *)pMVar8->klass->rgctx_data[0xe].method);
+                }
+                pMVar8 = MethodInfo_System_Collections_Generic_List_Color_Add;
+                if (colors != (System_Collections_Generic_List_Color__o *)0x0) {
+                  piVar1 = &(colors->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pUVar7 = (colors->fields)._items;
+                  if (pUVar7 != (UnityEngine_Color_array *)0x0) {
+                    item_00.fields.a = 1.0;
+                    item_00.fields.b = vertex.fields.Shade;
+                    uVar3 = (colors->fields)._size;
+                    if (uVar3 < (uint)pUVar7->max_length) {
+                      (colors->fields)._size = uVar3 + 1;
+                      pUVar2 = pUVar7->m_Items + (int)uVar3;
+                      (pUVar2->fields).r = vertex.fields.Shade;
+                      (pUVar2->fields).g = vertex.fields.Shade;
+                      (pUVar2->fields).b = vertex.fields.Shade;
+                      (pUVar2->fields).a = 1.0;
+                      return;
+                    }
+                    item_00.fields.g = vertex.fields.Shade;
+                    item_00.fields.r = vertex.fields.Shade;
+                    System_Collections_Generic_List_Color___AddWithResize
+                              (colors,item_00,(MethodInfo_51EBD90 *)pMVar8->klass->rgctx_data[0xe].method);
+                    return;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Map.MapFracture$$ReadVertex
+// il2cpp: Map_MapFracture_Vertex_o Map_MapFracture__ReadVertex (UnityEngine_Vector3_array* positions, UnityEngine_Vector3_array* normals, UnityEngine_Vector2_array* uv, int32_t index, UnityEngine_Matrix4x4_o toRoot, UnityEngine_Matrix4x4_o normalToRoot, bool hasNormals, bool hasUV, const MethodInfo* method);
+// 0x5988b50
+
+Map_MapFracture_Vertex_o *
+Map_MapFracture__ReadVertex
+          (Map_MapFracture_Vertex_o *__return_storage_ptr__,UnityEngine_Vector3_array *positions,
+          UnityEngine_Vector3_array *normals,UnityEngine_Vector2_array *uv,int32_t index,
+          UnityEngine_Matrix4x4_o toRoot,UnityEngine_Matrix4x4_o normalToRoot,bool hasNormals,bool hasUV,
+          MethodInfo *method)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  UnityEngine_Vector2_Fields UVar4;
+  undefined1 auVar8 [16];
+  UnityEngine_Vector3_StaticFields *pUVar9;
+  UnityEngine_Vector2_StaticFields *pUVar10;
+  float fVar11;
+  undefined4 extraout_XMM0_Db;
+  float fVar12;
+  float fVar13;
+  float fVar14;
+  float fVar15;
+  float fVar16;
+  float fVar17;
+  float fVar18;
+  undefined1 auVar19 [16];
+  float fVar20;
+  float fVar21;
+  float fVar22;
+  float fVar23;
+  float fVar24;
+  float fVar25;
+  float fVar26;
+  float fVar27;
+  float fVar28;
+  float fVar29;
+  float fVar30;
+  float fVar31;
+  undefined1 auStack_d0 [92];
+  float fStack_74;
+  UnityEngine_Vector3_Fields UStack_70;
+  float fStack_64;
+  undefined8 uStack_60;
+  float local_58;
+  float fStack_54;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  undefined1 local_38 [16];
+  
+  if (positions == (UnityEngine_Vector3_array *)0x0) goto label_05988f4d;
+  if ((uint)positions->max_length <= (uint)index) goto label_05988f52;
+  local_48._0_4_ = positions->m_Items[index].fields.x;
+  local_48._4_4_ = positions->m_Items[index].fields.y;
+  uStack_40 = 0;
+  local_38 = ZEXT416((uint)positions->m_Items[index].fields.z);
+  auStack_d0._88_4_ = toRoot.fields.m00;
+  fStack_74 = toRoot.fields.m10;
+  UStack_70.x = 0.0;
+  UStack_70.y = 0.0;
+  UStack_70.z = toRoot.fields.m01;
+  fStack_64 = toRoot.fields.m11;
+  uStack_60._0_4_ = 0.0;
+  uStack_60._4_4_ = 0.0;
+  auStack_d0._72_4_ = toRoot.fields.m02;
+  auStack_d0._76_4_ = toRoot.fields.m12;
+  auStack_d0._80_4_ = 0.0;
+  auStack_d0._84_4_ = 0.0;
+  local_58 = toRoot.fields.m03;
+  fStack_54 = toRoot.fields.m13;
+  uStack_50 = 0;
+  if (hasNormals) {
+    if (normals == (UnityEngine_Vector3_array *)0x0) goto label_05988f4d;
+    if ((uint)normals->max_length <= (uint)index) goto label_05988f52;
+    uVar1 = normals->m_Items[index].fields.x;
+    uVar5 = normals->m_Items[index].fields.y;
+    fVar11 = normals->m_Items[index].fields.z;
+    fVar28 = normalToRoot.fields.m01 * (float)uVar5;
+    fVar29 = normalToRoot.fields.m11 * (float)uVar5;
+    fVar13 = fVar11;
+    fVar15 = fVar11;
+    fVar17 = fVar11;
+    fVar27 = fVar11 * normalToRoot.fields.m22;
+    fVar20 = 0.0;
+    fVar21 = 0.0;
+    fVar22 = 0.0;
+    fVar23 = normalToRoot.fields.m02;
+    fVar24 = normalToRoot.fields.m12;
+    fVar25 = 0.0;
+    fVar26 = 0.0;
+    fVar30 = (float)uVar5 * 0.0;
+    fVar31 = (float)uVar5 * 0.0;
+    if (Il2CppMethodInitialized_0753e72d == '\0') {
+      auStack_d0._24_16_ = ZEXT416((uint)(fVar11 * normalToRoot.fields.m22));
+      auStack_d0._56_4_ = normalToRoot.fields.m02;
+      auStack_d0._60_4_ = normalToRoot.fields.m12;
+      auStack_d0._64_4_ = 0.0;
+      auStack_d0._68_4_ = 0.0;
+      auStack_d0._8_4_ = fVar11;
+      auStack_d0._12_4_ = fVar11;
+      auStack_d0._16_4_ = fVar11;
+      auStack_d0._20_4_ = fVar11;
+      auStack_d0._40_4_ = fVar28;
+      auStack_d0._44_4_ = fVar29;
+      auStack_d0._48_4_ = (float)uVar5 * 0.0;
+      auStack_d0._52_4_ = (float)uVar5 * 0.0;
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72d = '\x01';
+      fVar11 = (float)auStack_d0._8_4_;
+      fVar13 = (float)auStack_d0._12_4_;
+      fVar15 = (float)auStack_d0._16_4_;
+      fVar17 = (float)auStack_d0._20_4_;
+      fVar27 = (float)auStack_d0._24_4_;
+      fVar20 = (float)auStack_d0._28_4_;
+      fVar21 = (float)auStack_d0._32_4_;
+      fVar22 = (float)auStack_d0._36_4_;
+      fVar23 = (float)auStack_d0._56_4_;
+      fVar24 = (float)auStack_d0._60_4_;
+      fVar25 = (float)auStack_d0._64_4_;
+      fVar26 = (float)auStack_d0._68_4_;
+      fVar28 = (float)auStack_d0._40_4_;
+      fVar29 = (float)auStack_d0._44_4_;
+      fVar30 = (float)auStack_d0._48_4_;
+      fVar31 = (float)auStack_d0._52_4_;
+    }
+    auStack_d0._0_4_ = 0.0;
+    auStack_d0._4_4_ = 0.0;
+    fVar12 = fVar11 * fVar23;
+    fVar14 = fVar13 * fVar24;
+    fVar16 = fVar15 * fVar25;
+    fVar18 = fVar17 * fVar26;
+    if (Il2CppMethodInitialized_0753e729 == '\0') {
+      auStack_d0._28_4_ = fVar20;
+      auStack_d0._24_4_ = fVar27;
+      auStack_d0._32_4_ = fVar21;
+      auStack_d0._36_4_ = fVar22;
+      auStack_d0._8_4_ = fVar11 * fVar23;
+      auStack_d0._12_4_ = fVar13 * fVar24;
+      auStack_d0._16_4_ = fVar15 * fVar25;
+      auStack_d0._20_4_ = fVar17 * fVar26;
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e729 = '\x01';
+      fVar12 = (float)auStack_d0._8_4_;
+      fVar14 = (float)auStack_d0._12_4_;
+      fVar16 = (float)auStack_d0._16_4_;
+      fVar18 = (float)auStack_d0._20_4_;
+      fVar27 = (float)auStack_d0._24_4_;
+    }
+    auVar19._0_4_ = (float)uVar1 * normalToRoot.fields.m00 + fVar28 + fVar12;
+    auVar19._4_4_ = (float)uVar1 * normalToRoot.fields.m10 + fVar29 + fVar14;
+    auVar19._8_4_ = (float)uVar1 * 0.0 + fVar30 + fVar16;
+    auVar19._12_4_ = (float)uVar1 * 0.0 + fVar31 + fVar18;
+    fVar27 = normalToRoot.fields.m20 * (float)uVar1 + normalToRoot.fields.m21 * (float)uVar5 + fVar27;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    uVar2 = 0;
+    fVar11 = fVar27 * fVar27 + auVar19._4_4_ * auVar19._4_4_ + auVar19._0_4_ * auVar19._0_4_;
+    if (fVar11 < 0.0) {
+      fVar11 = sqrtf(fVar11);
+      uVar2 = extraout_XMM0_Db;
+      if (fVar11 <= 1e-05) goto label_05988d9c;
+label_05988e40:
+      fVar27 = fVar27 / fVar11;
+      auVar8._4_4_ = fVar11;
+      auVar8._0_4_ = fVar11;
+      auVar8._8_4_ = uVar2;
+      auVar8._12_4_ = uVar2;
+      auVar19 = divps(auVar19,auVar8);
+      auStack_d0._0_4_ = auVar19._0_4_;
+      auStack_d0._4_4_ = auVar19._4_4_;
+      pUVar9 = (UnityEngine_Vector3_StaticFields *)auStack_d0;
+    }
+    else {
+      fVar11 = SQRT(fVar11);
+      if (1e-05 < fVar11) goto label_05988e40;
+label_05988d9c:
+      pUVar9 = TypeInfo_UnityEngine_Vector3->static_fields;
+      fVar27 = (pUVar9->zeroVector).fields.z;
+    }
+    uVar3 = (pUVar9->zeroVector).fields.x;
+    uVar7 = (pUVar9->zeroVector).fields.y;
+    uVar2 = uVar3;
+    uVar6 = uVar7;
+  }
+  else {
+    if (Il2CppMethodInitialized_0753e72c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72c = '\x01';
+    }
+    pUVar9 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar2 = (pUVar9->upVector).fields.x;
+    uVar6 = (pUVar9->upVector).fields.y;
+    fVar27 = (pUVar9->upVector).fields.z;
+  }
+  if (hasUV) {
+    if (uv == (UnityEngine_Vector2_array *)0x0) {
+label_05988f4d:
+      ThrowNullReferenceException();
+    }
+    if ((uint)uv->max_length <= (uint)index) {
+label_05988f52:
+      ThrowIndexOutOfRangeException();
+    }
+    pUVar10 = (UnityEngine_Vector2_StaticFields *)(uv->m_Items + index);
+  }
+  else {
+    if (Il2CppMethodInitialized_0753ecc8 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_0753ecc8 = '\x01';
+    }
+    pUVar10 = TypeInfo_UnityEngine_Vector2->static_fields;
+  }
+  UVar4 = (pUVar10->zeroVector).fields;
+  (__return_storage_ptr__->fields).Position.fields.x =
+       local_58 +
+       local_48._4_4_ * UStack_70.z + (float)local_48 * (float)auStack_d0._88_4_ +
+       (float)local_38._0_4_ * (float)auStack_d0._72_4_;
+  (__return_storage_ptr__->fields).Position.fields.y =
+       fStack_54 +
+       local_48._4_4_ * fStack_64 + (float)local_48 * fStack_74 +
+       (float)local_38._0_4_ * (float)auStack_d0._76_4_;
+  (__return_storage_ptr__->fields).Position.fields.z =
+       toRoot.fields.m23 +
+       toRoot.fields.m22 * (float)local_38._0_4_ +
+       toRoot.fields.m21 * local_48._4_4_ + toRoot.fields.m20 * (float)local_48;
+  (__return_storage_ptr__->fields).Normal.fields.x = (float)uVar2;
+  (__return_storage_ptr__->fields).Normal.fields.y = (float)uVar6;
+  (__return_storage_ptr__->fields).Normal.fields.z = fVar27;
+  (__return_storage_ptr__->fields).UV.fields = UVar4;
+  (__return_storage_ptr__->fields).Shade = 1.0;
+  return __return_storage_ptr__;
+}
+
+
+// Map.MapFracture$$CreateSeeds
+// il2cpp: System_Collections_Generic_List_Vector3__o* Map_MapFracture__CreateSeeds (UnityEngine_Bounds_o bounds, int32_t count, System_Random_o* random, const MethodInfo* method);
+// 0x598a9e0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598af12: jmp 0x598aeb0
+
+System_Collections_Generic_List_Vector3__o *
+Map_MapFracture__CreateSeeds
+          (UnityEngine_Bounds_o bounds,int32_t count,System_Random_o *random,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  uint uVar4;
+  UnityEngine_Vector3_StaticFields *pUVar5;
+  UnityEngine_Vector3_array *pUVar6;
+  undefined1 auVar7 [16];
+  undefined1 auVar8 [16];
+  double dVar9;
+  Il2CppMethodPointer pIVar10;
+  double dVar11;
+  int iVar12;
+  System_Collections_Generic_List_Vector3__o *__this;
+  MethodInfo *pMVar13;
+  undefined4 in_register_0000003c;
+  System_Collections_Generic_List_Vector3__c **ppSVar14;
+  UnityEngine_Vector3_c **__this_00;
+  MethodInfo *pMVar15;
+  int iVar16;
+  int iVar17;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  UnityEngine_Vector3_o item;
+  undefined1 local_b0 [24];
+  undefined8 local_98;
+  float fStack_90;
+  float fStack_8c;
+  undefined8 local_88;
+  uint16_t uStack_80;
+  uint8_t uStack_7e;
+  uint8_t uStack_7d;
+  undefined4 uStack_7c;
+  undefined4 local_6c;
+  undefined1 local_68 [16];
+  undefined1 local_58 [16];
+  undefined1 local_48 [12];
+  float fStack_3c;
+  
+  __this_00 = (UnityEngine_Vector3_c **)CONCAT44(in_register_0000003c,count);
+  pMVar13 = (MethodInfo *)random;
+  if (Il2CppMethodInitialized_07545a1c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector3_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+    ppSVar14 = &TypeInfo_System_Collections_Generic_List_Vector3;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector3);
+    Il2CppMethodInitialized_07545a1c = '\x01';
+    __this_00 = (UnityEngine_Vector3_c **)ppSVar14;
+  }
+  local_48._0_4_ = bounds.fields.m_Extents.fields.x;
+  local_48._4_4_ = bounds.fields.m_Extents.fields.y;
+  stack0xffffffffffffffc0 = 0;
+  local_68._0_4_ = bounds.fields.m_Extents.fields.x + bounds.fields.m_Extents.fields.x;
+  local_68._4_4_ = bounds.fields.m_Extents.fields.y + bounds.fields.m_Extents.fields.y;
+  local_68._8_8_ = 0;
+  local_b0._20_4_ = bounds.fields.m_Extents.fields.z;
+  if (g_data_0753e4b7 == '\0') {
+    __this_00 = &TypeInfo_UnityEngine_Vector3;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    g_data_0753e4b7 = '\x01';
+  }
+  pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar2 = (pUVar5->oneVector).fields.x;
+  uVar3 = (pUVar5->oneVector).fields.y;
+  fVar18 = (pUVar5->oneVector).fields.z * 0.0001;
+  fVar20 = bounds.fields.m_Extents.fields.z + bounds.fields.m_Extents.fields.z;
+  if (bounds.fields.m_Extents.fields.z + bounds.fields.m_Extents.fields.z <= fVar18) {
+    fVar20 = fVar18;
+  }
+  auVar7._4_4_ = (float)uVar3 * 0.0001;
+  auVar7._0_4_ = (float)uVar2 * 0.0001;
+  auVar7._8_8_ = 0;
+  local_68 = maxps(local_68,auVar7);
+  local_98._0_4_ = local_68._4_4_;
+  iVar12 = 1;
+  if (1 < count) {
+    iVar12 = count;
+  }
+  fStack_90 = (float)local_98;
+  local_98._4_4_ = (float)local_98;
+  fStack_8c = fStack_90;
+  fVar18 = powf((CustomLogic_CustomLogicMathBuiltin_o *)__this_00,
+                (local_68._0_4_ * (float)local_98 * fVar20) / (float)iVar12,0.33333334,pMVar13);
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  local_88 = (Il2CppType *)CONCAT44(local_68._4_4_,(float)local_68._0_4_ / fVar18);
+  uStack_80 = local_68._8_2_;
+  uStack_7e = local_68[10];
+  uStack_7d = local_68[0xb];
+  uStack_7c = local_68._12_4_;
+  fVar19 = (float)local_68._0_4_ / fVar18;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    fVar19 = (float)local_88;
+  }
+  pMVar15 = (MethodInfo *)local_b0;
+  local_58._0_8_ = (double)fVar19;
+  dVar9 = modf((double)fVar19,(double *)pMVar15,pMVar13);
+  pIVar10 = (Il2CppMethodPointer)local_b0._0_8_;
+  if (0.0 <= (float)local_88) {
+    if ((dVar9 != 0.5) || (NAN(dVar9))) {
+      pIVar10 = (Il2CppMethodPointer)floor((double)local_58._0_8_ + 0.5,pMVar15);
+    }
+    else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+      pIVar10 = (Il2CppMethodPointer)((double)local_b0._0_8_ + 1.0);
+    }
+  }
+  else if ((dVar9 != -0.5) || (NAN(dVar9))) {
+    pIVar10 = (Il2CppMethodPointer)ceil((double)local_58._0_8_ + -0.5,pMVar15);
+  }
+  else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+    pIVar10 = (Il2CppMethodPointer)((double)local_b0._0_8_ + -1.0);
+  }
+  local_b0._12_4_ = 1;
+  if (1 < (int)(double)pIVar10) {
+    local_b0._12_4_ = (int)(double)pIVar10;
+  }
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  local_98._0_4_ = (float)local_98 / fVar18;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  local_88 = (Il2CppType *)(double)(float)local_98;
+  pMVar15 = (MethodInfo *)local_b0;
+  dVar9 = modf((double)local_88,(double *)pMVar15,pMVar13);
+  pIVar10 = (Il2CppMethodPointer)local_b0._0_8_;
+  if (0.0 <= (float)local_98) {
+    if ((dVar9 != 0.5) || (NAN(dVar9))) {
+      pIVar10 = (Il2CppMethodPointer)floor((double)local_88 + 0.5,pMVar15);
+    }
+    else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+      pIVar10 = (Il2CppMethodPointer)((double)local_b0._0_8_ + 1.0);
+    }
+  }
+  else if ((dVar9 != -0.5) || (NAN(dVar9))) {
+    pIVar10 = (Il2CppMethodPointer)ceil((double)local_88 + -0.5,pMVar15);
+  }
+  else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+    pIVar10 = (Il2CppMethodPointer)((double)local_b0._0_8_ + -1.0);
+  }
+  local_b0._16_4_ = 1;
+  if (1 < (int)(double)pIVar10) {
+    local_b0._16_4_ = (int)(double)pIVar10;
+  }
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  local_98._0_4_ = fVar20 / fVar18;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  dVar9 = (double)(float)local_98;
+  pMVar15 = (MethodInfo *)local_b0;
+  dVar11 = modf(dVar9,(double *)pMVar15,pMVar13);
+  if (0.0 <= (float)local_98) {
+    if ((dVar11 != 0.5) || (NAN(dVar11))) {
+      local_b0._0_8_ = floor(dVar9 + 0.5,pMVar15);
+    }
+    else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+      local_b0._0_8_ = (double)local_b0._0_8_ + 1.0;
+    }
+  }
+  else if ((dVar11 != -0.5) || (NAN(dVar11))) {
+    local_b0._0_8_ = ceil(dVar9 + -0.5,pMVar15);
+  }
+  else if (((long)(double)local_b0._0_8_ & 1U) != 0) {
+    local_b0._0_8_ = (double)local_b0._0_8_ + -1.0;
+  }
+  iVar12 = 1;
+  if (1 < (int)(double)local_b0._0_8_) {
+    iVar12 = (int)(double)local_b0._0_8_;
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
+  System_Collections_Generic_List_Vector3____ctor_39ff040
+            (__this,local_b0._16_4_ * local_b0._12_4_ * iVar12,
+             (MethodInfo_39FF040 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor_7197570);
+  if (random == (System_Random_o *)0x0) {
+label_0598b012:
+    ThrowNullReferenceException();
+  }
+  if (__this == (System_Collections_Generic_List_Vector3__o *)0x0) {
+    (*(random->klass->vtable)._8_NextDouble.methodPtr)(random,(random->klass->vtable)._8_NextDouble.method);
+    (*(random->klass->vtable)._8_NextDouble.methodPtr)(random,(random->klass->vtable)._8_NextDouble.method);
+    (*(random->klass->vtable)._8_NextDouble.methodPtr)(random,(random->klass->vtable)._8_NextDouble.method);
+    ThrowNullReferenceException();
+  }
+  auVar8._4_4_ = (float)(int)local_b0._16_4_;
+  auVar8._0_4_ = (float)(int)local_b0._12_4_;
+  auVar8._8_8_ = 0;
+  local_68 = divps(local_68,auVar8);
+  local_b0._20_4_ = bounds.fields.m_Center.fields.z - (float)local_b0._20_4_;
+  local_48._4_4_ = bounds.fields.m_Center.fields.y - (float)local_48._4_4_;
+  local_48._0_4_ = bounds.fields.m_Center.fields.x - (float)local_48._0_4_;
+  stack0xffffffffffffffc0 = CONCAT44(0.0 - fStack_3c,0.0 - (float)local_48._8_4_);
+  local_6c = 0;
+  do {
+    local_58 = ZEXT416((uint)((float)(int)local_6c + 0.5));
+    iVar17 = 0;
+    do {
+      local_88 = (Il2CppType *)CONCAT44((float)iVar17 + 0.5,local_58._0_4_);
+      uStack_80 = local_58._8_2_;
+      uStack_7e = local_58[10];
+      uStack_7d = local_58[0xb];
+      uStack_7c = local_58._12_4_;
+      iVar16 = 0;
+      do {
+        while( true ) {
+          local_98 = (char *)(*(random->klass->vtable)._8_NextDouble.methodPtr)
+                                       (random,(random->klass->vtable)._8_NextDouble.method);
+          dVar9 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
+                            (random,(random->klass->vtable)._8_NextDouble.method);
+          local_98._0_4_ = (float)(double)local_98 + -0.5;
+          local_98._4_4_ = (float)dVar9 + -0.5;
+          fStack_90 = 0.0;
+          fStack_8c = 0.0;
+          dVar9 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
+                            (random,(random->klass->vtable)._8_NextDouble.method);
+          pMVar13 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+          piVar1 = &(__this->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pUVar6 = (__this->fields)._items;
+          if (pUVar6 == (UnityEngine_Vector3_array *)0x0) goto label_0598b012;
+          fVar18 = ((float)local_98 * 0.8 + (float)local_88) * (float)local_68._0_4_ + (float)local_48._0_4_;
+          fVar19 = (local_98._4_4_ * 0.8 + local_88._4_4_) * (float)local_68._4_4_ + (float)local_48._4_4_;
+          item.fields.z =
+               ((float)iVar16 + 0.5 + ((float)dVar9 + -0.5) * 0.8) * (fVar20 / (float)iVar12) +
+               (float)local_b0._20_4_;
+          uVar4 = (__this->fields)._size;
+          if ((uint)pUVar6->max_length <= uVar4) break;
+          (__this->fields)._size = uVar4 + 1;
+          pUVar6->m_Items[(int)uVar4].fields.x = fVar18;
+          pUVar6->m_Items[(int)uVar4].fields.y = fVar19;
+          pUVar6->m_Items[(int)uVar4].fields.z = item.fields.z;
+          iVar16 = iVar16 + 1;
+          if (iVar12 == iVar16) goto label_0598aeb0;
+        }
+        item.fields.x = fVar18;
+        item.fields.y = fVar19;
+        System_Collections_Generic_List_Vector3___AddWithResize
+                  (__this,item,(MethodInfo_39FF950 *)pMVar13->klass->rgctx_data[0xe].method);
+        iVar16 = iVar16 + 1;
+      } while (iVar12 != iVar16);
+label_0598aeb0:
+      iVar17 = iVar17 + 1;
+    } while (iVar17 != local_b0._16_4_);
+    local_6c = local_6c + 1;
+    if (local_6c == local_b0._12_4_) {
+      return __this;
+    }
+  } while( true );
+}
+
+
+// Map.MapFracture$$Clip
+// il2cpp: bool Map_MapFracture__Clip (Map_MapFracture_o* __this, System_Collections_Generic_List_MapFracture_Triangle__o* source, System_Collections_Generic_List_MapFracture_Triangle__o* target, UnityEngine_Vector3_o normal, float distance, const MethodInfo* method);
+// 0x598a390
+// eh: try 0x598a503..0x598a56e -> pad 0x598a5d7 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598a5f2..0x598a5f7 -> pad 0x598a61f cleanup
+// eh: try 0x598a622..0x598a62f -> pad 0x598a637 catch (...) [compiler noexcept guard]
+// asm: 25 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598a4fd: nop dword ptr [rax]
+// asm:   0x598a5d5: jmp 0x598a5d7
+// asm:   0x598a5d7: mov rbp, rax
+// asm:   0x598a5da: cmp edx, 1
+// asm:   0x598a5dd: jne 0x598a622
+// asm:   0x598a5df: mov rdi, rbp
+// asm:   0x598a5e2: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598a5e7: mov rbp, qword ptr [rax]
+// asm:   0x598a5ea: mov qword ptr [rsp + 0xa0], rbp
+// asm:   0x598a5f2: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598a5f7: lea rax, [rip + 0x1904cda]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x598a5fe: mov rsi, qword ptr [rax]
+// asm:   0x598a601: lea rdi, [rsp + 0xb0]
+// asm:   0x598a609: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x598a60e: test rbp, rbp
+// asm:   0x598a611: je 0x598a587
+// asm:   0x598a617: mov rdi, rbp
+// asm:   0x598a61a: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598a61f: mov rbp, rax
+// asm:   0x598a622: lea rdi, [rsp + 0xa0]
+// asm:   0x598a62a: call 0x2fd4440  ; il2cpp_runtime_helper_02fd4440()
+// asm:   0x598a62f: mov rdi, rbp
+// asm:   0x598a632: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598a637: mov rdi, rax
+// asm:   0x598a63a: call 0x2ab61e0  ; __clang_call_terminate()
+
+bool Map_MapFracture__Clip
+               (Map_MapFracture_o *__this,System_Collections_Generic_List_MapFracture_Triangle__o *source,
+               System_Collections_Generic_List_MapFracture_Triangle__o *target,UnityEngine_Vector3_o normal,
+               float distance,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  System_Collections_Generic_List_MapFracture_Segment__o *pSVar2;
+  ulong uVar3;
+  Map_MapFracture_Triangle_o triangle;
+  bool bVar4;
+  bool bVar5;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  UnityEngine_Vector3_o normal_00;
+  System_Collections_Generic_List_Enumerator_T__o local_b8;
+  undefined8 uStack_a0;
+  undefined8 local_98;
   undefined8 uStack_90;
   undefined8 local_88;
   undefined8 uStack_80;
@@ -3218,10 +3570,184 @@ bool Map_MapFracture__Crosses
   undefined8 uStack_50;
   undefined8 local_48;
   undefined8 uStack_40;
-  undefined8 local_38;
-  undefined8 uStack_30;
   
-  if (Il2CppMethodInitialized_18434508d == '\0') {
+  method_02 = (MethodInfo *)source;
+  if (Il2CppMethodInitialized_07545a1d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_get_Count);
+    Il2CppMethodInitialized_07545a1d = '\x01';
+  }
+  local_48 = 0;
+  uStack_40 = 0;
+  local_58 = 0;
+  uStack_50 = 0;
+  local_68 = 0;
+  uStack_60 = 0;
+  local_78 = 0;
+  uStack_70 = 0;
+  local_88 = 0;
+  uStack_80 = 0;
+  local_98 = 0;
+  uStack_90 = 0;
+  local_b8.fields._current = (Il2CppObject *)0x0;
+  uStack_a0 = 0;
+  local_b8.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_b8.fields._index = 0;
+  local_b8.fields._version = 0;
+  bVar4 = Map_MapFracture__Crosses(source,normal,distance,method_02);
+  if (!bVar4) {
+    return bVar4;
+  }
+  if (target != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    piVar1 = &(target->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (target->fields)._size = 0;
+    pSVar2 = (__this->fields)._segments;
+    if (pSVar2 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
+      piVar1 = &(pSVar2->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      (pSVar2->fields)._size = 0;
+      if (source != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+        System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
+                  (&local_b8,source,
+                   (MethodInfo_3AB3540 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+        while (bVar5 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                                 (&local_b8,
+                                  (MethodInfo_4C82200 *)
+                                  MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
+                                 ), bVar5) {
+          triangle.fields.A.fields.Position.fields.z = (float)(undefined4)uStack_a0;
+          triangle.fields.A.fields.Normal.fields.x = (float)uStack_a0._4_4_;
+          triangle.fields.A.fields.Position.fields._0_8_ = local_b8.fields._current;
+          triangle.fields.A.fields.Normal.fields.y = (float)(undefined4)local_98;
+          triangle.fields.A.fields.Normal.fields.z = (float)local_98._4_4_;
+          triangle.fields.A.fields.UV.fields.x = (float)(undefined4)uStack_90;
+          triangle.fields.A.fields.UV.fields.y = (float)uStack_90._4_4_;
+          triangle.fields.A.fields.Shade = (float)(undefined4)local_88;
+          triangle.fields.B.fields.Position.fields.x = (float)local_88._4_4_;
+          triangle.fields.B.fields.Position.fields.y = (float)(undefined4)uStack_80;
+          triangle.fields.B.fields.Position.fields.z = (float)uStack_80._4_4_;
+          triangle.fields.B.fields.Normal.fields.x = (float)(undefined4)local_78;
+          triangle.fields.B.fields.Normal.fields.y = (float)local_78._4_4_;
+          triangle.fields.B.fields.Normal.fields.z = (float)(undefined4)uStack_70;
+          triangle.fields.B.fields.UV.fields.x = (float)uStack_70._4_4_;
+          triangle.fields.B.fields.UV.fields.y = (float)(undefined4)local_68;
+          triangle.fields.B.fields.Shade = (float)local_68._4_4_;
+          triangle.fields.C.fields.Position.fields.x = (float)(undefined4)uStack_60;
+          triangle.fields.C.fields.Position.fields.y = (float)uStack_60._4_4_;
+          triangle.fields.C.fields.Position.fields.z = (float)(undefined4)local_58;
+          triangle.fields.C.fields.Normal.fields.x = (float)local_58._4_4_;
+          triangle.fields.C.fields.Normal.fields.y = (float)(undefined4)uStack_50;
+          triangle.fields.C.fields.Normal.fields.z = (float)uStack_50._4_4_;
+          triangle.fields.C.fields.UV.fields.x = (float)(undefined4)local_48;
+          triangle.fields.C.fields.UV.fields.y = (float)local_48._4_4_;
+          triangle.fields.C.fields.Shade = (float)(undefined4)uStack_40;
+          triangle.fields.Submesh = uStack_40._4_4_;
+          Map_MapFracture__ClipTriangle(__this,triangle,normal,distance,target,method_00);
+        }
+        System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
+                  (&local_b8,
+                   (MethodInfo_4C821F0 *)
+                   MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+        pSVar2 = (__this->fields)._segments;
+        if (pSVar2 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
+          if ((pSVar2->fields)._size < 1) {
+            return bVar4;
+          }
+          normal_00.fields.z = -normal.fields.z;
+          uVar3 = normal.fields._0_8_ ^ 0x8000000080000000;
+          normal_00.fields.x = (float)(int)uVar3;
+          normal_00.fields.y = (float)(int)(uVar3 >> 0x20);
+          Map_MapFracture__AddCaps(pSVar2,normal_00,target,method_01);
+          return bVar4;
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Map.MapFracture$$Crosses
+// il2cpp: bool Map_MapFracture__Crosses (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, UnityEngine_Vector3_o normal, float distance, const MethodInfo* method);
+// 0x598b770
+// eh: try 0x598b853..0x598b85b -> pad 0x598b93f catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598b957..0x598b95c -> pad 0x598b984 cleanup
+// eh: try 0x598b987..0x598b991 -> pad 0x598b999 catch (...) [compiler noexcept guard]
+// asm: 26 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598b909: jmp 0x598b910
+// asm:   0x598b93f: mov rbx, rax
+// asm:   0x598b942: cmp edx, 1
+// asm:   0x598b945: jne 0x598b987
+// asm:   0x598b947: mov rdi, rbx
+// asm:   0x598b94a: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598b94f: mov r14, qword ptr [rax]
+// asm:   0x598b952: mov qword ptr [rsp + 0x10], r14
+// asm:   0x598b957: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598b95c: lea rax, [rip + 0x1903975]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x598b963: mov rsi, qword ptr [rax]
+// asm:   0x598b966: lea rdi, [rsp + 0x20]
+// asm:   0x598b96b: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x598b970: xor ebx, ebx
+// asm:   0x598b972: mov ebp, 0
+// asm:   0x598b977: test r14, r14
+// asm:   0x598b97a: je 0x598b924
+// asm:   0x598b97c: mov rdi, r14
+// asm:   0x598b97f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598b984: mov rbx, rax
+// asm:   0x598b987: lea rdi, [rsp + 0x10]
+// asm:   0x598b98c: call 0x2fd4470  ; il2cpp_runtime_helper_02fd4470()
+// asm:   0x598b991: mov rdi, rbx
+// asm:   0x598b994: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598b999: mov rdi, rax
+// asm:   0x598b99c: call 0x2ab61e0  ; __clang_call_terminate()
+
+bool Map_MapFracture__Crosses
+               (System_Collections_Generic_List_MapFracture_Triangle__o *triangles,
+               UnityEngine_Vector3_o normal,float distance,MethodInfo *method)
+
+{
+  bool bVar1;
+  int iVar2;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  float fVar3;
+  System_Collections_Generic_List_Enumerator_T__o local_b8;
+  undefined8 uStack_a0;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  undefined4 local_88;
+  float fStack_84;
+  float fStack_80;
+  float fStack_7c;
+  undefined8 local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  undefined1 local_38 [24];
+  
+  fVar3 = normal.fields.z;
+  local_38._8_4_ = in_XMM0_Dc;
+  local_38._0_8_ = normal.fields._0_8_;
+  local_38._12_4_ = in_XMM0_Dd;
+  if (Il2CppMethodInitialized_07545a1e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -3230,1069 +3756,1170 @@ bool Map_MapFracture__Crosses
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_get_Current);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    Il2CppMethodInitialized_18434508d = '\x01';
+    Il2CppMethodInitialized_07545a1e = '\x01';
   }
-  local_138._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_138._8_8_ = 0;
-  local_128 = (Il2CppObject *)0x0;
-  uStack_120 = 0;
-  local_118 = 0;
-  uStack_110 = 0;
-  local_108 = 0;
-  uStack_100 = 0;
-  local_f8 = 0;
-  uStack_f0 = 0;
-  local_e8 = 0;
-  uStack_e0 = 0;
-  local_d8 = 0;
-  uStack_d0 = 0;
-  local_c8 = 0;
-  uStack_c0 = 0;
-  if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-              (&local_a8,triangles,
-               (MethodInfo_969260 *)
-               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    local_138._0_8_ = local_a8.fields._list;
-    local_138._8_4_ = local_a8.fields._index;
-    local_138._12_4_ = local_a8.fields._version;
-    local_128 = local_a8.fields._current;
-    uStack_120 = uStack_90;
-    local_118 = local_88;
-    uStack_110 = uStack_80;
-    local_108 = local_78;
-    uStack_100 = uStack_70;
-    local_f8 = local_68;
-    uStack_f0 = uStack_60;
-    local_e8 = local_58;
-    uStack_e0 = uStack_50;
-    local_d8 = local_48;
-    uStack_d0 = uStack_40;
-    local_c8 = local_38;
-    uStack_c0 = uStack_30;
-    do {
-      bVar1 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_138,
-                         (MethodInfo_1558F50 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
-      if (!bVar1) {
-        System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_138,
-                   MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-        return false;
-      }
-    } while (((-0.0001 <=
-               ((float)uStack_120 * (normal->fields).z +
-               local_128._4_4_ * (normal->fields).y + (float)local_128 * (normal->fields).x) - distance) &&
-             (-0.0001 <=
-              (uStack_100._4_4_ * (normal->fields).z +
-              (float)uStack_100 * (normal->fields).y + local_108._4_4_ * (normal->fields).x) - distance)) &&
-            (-0.0001 <=
-             ((float)local_d8 * (normal->fields).z +
-             uStack_e0._4_4_ * (normal->fields).y + (float)uStack_e0 * (normal->fields).x) - distance));
-    System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_138,
-               MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    return true;
+  local_48 = 0;
+  uStack_40 = 0;
+  local_58 = 0;
+  uStack_50 = 0;
+  local_68 = 0;
+  uStack_60 = 0;
+  local_78 = 0;
+  uStack_70 = 0;
+  local_88 = 0;
+  fStack_84 = 0.0;
+  fStack_80 = 0.0;
+  fStack_7c = 0.0;
+  local_98 = 0;
+  uStack_90 = 0;
+  local_b8.fields._current = (Il2CppObject *)0x0;
+  uStack_a0 = 0;
+  local_b8.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_b8.fields._index = 0;
+  local_b8.fields._version = 0;
+  if (triangles == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
+            (&local_b8,triangles,
+             (MethodInfo_3AB3540 *)
+             MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+  iVar2 = 5;
+  while( true ) {
+    bVar1 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                      (&local_b8,
+                       (MethodInfo_4C82200 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
+    if (!bVar1) break;
+    if (((((float)uStack_a0 * fVar3 +
+          (float)((ulong)local_b8.fields._current >> 0x20) * (float)local_38._4_4_ +
+          SUB84(local_b8.fields._current,0) * (float)local_38._0_4_) - distance < -0.0001) ||
+        ((fStack_7c * fVar3 + fStack_80 * (float)local_38._4_4_ + fStack_84 * (float)local_38._0_4_) -
+         distance < -0.0001)) ||
+       (((float)local_58 * fVar3 +
+        (float)((ulong)uStack_60 >> 0x20) * (float)local_38._4_4_ + (float)uStack_60 * (float)local_38._0_4_)
+        - distance < -0.0001)) goto label_0598b910;
+  }
+  iVar2 = 6;
+label_0598b910:
+  System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
+            (&local_b8,
+             (MethodInfo_4C821F0 *)
+             MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+  return iVar2 == 5 && bVar1;
 }
 
 
 // Map.MapFracture$$ClipTriangle
 // il2cpp: void Map_MapFracture__ClipTriangle (Map_MapFracture_o* __this, Map_MapFracture_Triangle_o triangle, UnityEngine_Vector3_o normal, float distance, System_Collections_Generic_List_MapFracture_Triangle__o* kept, const MethodInfo* method);
-// 0x181ea1f40
-// asm: 13 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea21e6: movdqa xmm8, xmmword ptr [rip + 0x14b6a61]
-// asm:   0x181ea21ef: mov r14d, r12d
-// asm:   0x181ea21f2: mov edi, r12d
-// asm:   0x181ea21f5: mov esi, r12d
-// asm:   0x181ea21f8: nop dword ptr [rax + rax]
-// asm:   0x181ea2707: movaps xmm0, xmmword ptr [rsp + 0x60]
-// asm:   0x181ea270c: imul rcx, r8, 0x4c
-// asm:   0x181ea2710: movups xmmword ptr [rcx + rdx + 0x20], xmm3
-// asm:   0x181ea2715: movups xmmword ptr [rcx + rdx + 0x30], xmm4
-// asm:   0x181ea271a: movups xmmword ptr [rcx + rdx + 0x40], xmm2
-// asm:   0x181ea271f: movups xmmword ptr [rcx + rdx + 0x50], xmm0
-// asm:   0x181ea2724: movups xmmword ptr [rcx + rdx + 0x5c], xmm1
-// asm:   0x181ea2729: jmp 0x181ea26b0
+// 0x598b9b0
 
 void Map_MapFracture__ClipTriangle
-               (Map_MapFracture_o *__this,Map_MapFracture_Triangle_o *triangle,UnityEngine_Vector3_o *normal,
+               (Map_MapFracture_o *__this,Map_MapFracture_Triangle_o triangle,UnityEngine_Vector3_o normal,
                float distance,System_Collections_Generic_List_MapFracture_Triangle__o *kept,MethodInfo *method
                )
 
 {
-  UnityEngine_Vector2_o *pUVar1;
-  int32_t *piVar2;
+  int32_t *piVar1;
+  Map_MapFracture_Vertex_o *pMVar2;
   float *pfVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  uint uVar7;
-  Map_MapFracture_Vertex_array *pMVar8;
-  System_Single_array *pSVar9;
-  Map_MapFracture_Triangle_array *pMVar10;
-  System_Collections_Generic_List_MapFracture_Segment__o *__this_00;
-  Map_MapFracture_Segment_array *pMVar11;
-  float fVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  undefined8 uVar15;
+  undefined8 *puVar4;
+  UnityEngine_Vector3_o *pUVar5;
+  UnityEngine_Vector2_Fields *pUVar6;
+  UnityEngine_Vector2_o *pUVar7;
+  float fVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
+  undefined4 uVar11;
+  undefined4 uVar12;
   undefined4 uVar16;
   undefined4 uVar17;
   undefined4 uVar18;
+  undefined8 uVar13;
+  undefined8 uVar14;
+  UnityEngine_Vector2_Fields UVar15;
   undefined4 uVar19;
-  UnityEngine_Vector2_Fields UVar20;
-  undefined8 uVar21;
-  undefined4 uVar22;
-  undefined4 uVar23;
-  undefined8 uVar24;
+  int iVar20;
+  uint32_t uVar21;
+  Map_MapFracture_Vertex_array *pMVar22;
+  System_Single_array *pSVar23;
+  System_Collections_Generic_List_MapFracture_Segment__o *__this_00;
+  undefined1 auVar24 [16];
   UnityEngine_Vector2_Fields UVar25;
-  undefined4 uVar26;
-  undefined4 uVar27;
-  undefined4 uVar28;
+  undefined8 uVar26;
+  undefined8 uVar27;
+  undefined8 uVar28;
   undefined4 uVar29;
-  undefined8 uVar30;
+  float fVar30;
   undefined4 uVar31;
   undefined4 uVar32;
-  undefined4 uVar33;
+  Map_MapFracture_Segment_o item;
+  Map_MapFracture_Triangle_o item_00;
+  UnityEngine_Vector2_Fields UVar33;
   undefined4 uVar34;
   undefined4 uVar35;
-  undefined4 uVar36;
-  undefined4 uVar37;
-  undefined4 uVar38;
-  undefined8 uVar39;
-  undefined8 uVar40;
-  undefined4 uVar41;
-  undefined4 uVar42;
-  undefined4 uVar43;
-  undefined4 uVar44;
-  undefined4 uVar45;
-  undefined4 uVar46;
-  undefined4 uVar47;
-  undefined4 uVar48;
-  undefined4 uVar49;
-  undefined4 uVar50;
-  undefined8 uVar51;
-  undefined8 uVar52;
-  undefined4 uVar53;
-  undefined4 uVar54;
-  undefined8 uVar55;
-  undefined8 uVar56;
-  undefined4 uVar57;
-  undefined4 uVar58;
-  undefined4 uVar59;
-  undefined4 uVar60;
-  undefined4 uVar61;
-  undefined4 uVar62;
-  undefined4 uVar63;
-  undefined4 uVar64;
-  undefined4 uVar65;
-  undefined4 uVar66;
-  bool bVar67;
-  bool bVar68;
-  Map_MapFracture_Vertex_Fields *pMVar69;
-  Map_MapFracture_Triangle_Fields *pMVar70;
-  Map_MapFracture_Segment_Fields *pMVar71;
-  float fVar72;
-  float fVar73;
-  MethodInfo *pMVar74;
-  Map_MapFracture_Vertex_o *pMVar75;
-  uint uVar76;
-  ulonglong uVar77;
-  ulonglong uVar78;
-  int iVar79;
-  uint uVar80;
-  uint uVar81;
-  uint uVar82;
-  ulonglong uVar83;
-  Map_MapFracture_Triangle_o local_1c8;
-  Map_MapFracture_Segment_o local_158;
-  undefined4 uStack_10c;
-  undefined8 local_108;
-  undefined8 uStack_100;
-  Map_MapFracture_Vertex_o local_e8;
-  Map_MapFracture_Vertex_o local_b8;
-  Map_MapFracture_Vertex_o local_88 [2];
-  
-  if (Il2CppMethodInitialized_18434508e == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add);
-    il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Add);
-    Il2CppMethodInitialized_18434508e = '\x01';
-  }
-  pMVar75 = &(triangle->fields).B;
-  uVar13 = (pMVar75->fields).Normal.fields.x;
-  uVar14 = (pMVar75->fields).Normal.fields.y;
-  uVar15 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-  pMVar8 = (__this->fields)._corners;
-  local_1c8.fields.B.fields.Normal.fields.z = (float)uVar15;
-  local_1c8.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar15 >> 0x20);
-  uVar15 = *(undefined8 *)&(triangle->fields).B.fields.UV.fields.y;
-  pMVar75 = &(triangle->fields).C;
-  uVar16 = (pMVar75->fields).Position.fields.x;
-  uVar17 = (pMVar75->fields).Position.fields.y;
-  local_1c8.fields.C.fields._8_8_ = *(undefined8 *)&(triangle->fields).C.fields.Position.fields.z;
-  pMVar75 = &(triangle->fields).C;
-  uVar18 = (pMVar75->fields).Normal.fields.y;
-  uVar19 = (pMVar75->fields).Normal.fields.z;
-  local_1c8.fields.B.fields.UV.fields.y = (float)uVar15;
-  local_1c8.fields.B.fields.Shade = (float)((ulonglong)uVar15 >> 0x20);
-  UVar20 = (triangle->fields).C.fields.UV.fields;
-  uVar15 = *(undefined8 *)&(triangle->fields).C.fields.Shade;
-  pMVar75 = &(triangle->fields).A;
-  uVar30._0_4_ = (pMVar75->fields).Position.fields.x;
-  uVar30._4_4_ = (pMVar75->fields).Position.fields.y;
-  uVar21 = *(undefined8 *)&(triangle->fields).A.fields.Position.fields.z;
-  local_1c8.fields.C.fields.UV.fields.x = UVar20.x;
-  local_1c8.fields.C.fields.UV.fields.y = UVar20.y;
-  local_1c8.fields.C.fields.Shade = (float)uVar15;
-  local_1c8.fields.Submesh = (int32_t)((ulonglong)uVar15 >> 0x20);
-  pMVar75 = &(triangle->fields).A;
-  uVar15._0_4_ = (pMVar75->fields).Normal.fields.y;
-  uVar15._4_4_ = (pMVar75->fields).Normal.fields.z;
-  UVar20 = (triangle->fields).A.fields.UV.fields;
-  fVar4 = (triangle->fields).A.fields.Shade;
-  pMVar75 = &(triangle->fields).B;
-  fVar5 = (pMVar75->fields).Position.fields.x;
-  fVar6 = (triangle->fields).B.fields.Position.fields.y;
-  fVar72 = (pMVar75->fields).Position.fields.x;
-  fVar73 = (pMVar75->fields).Position.fields.y;
-  fVar12 = (triangle->fields).B.fields.Position.fields.z;
-  local_1c8.fields.B.fields.Normal.fields.x = (float)uVar13;
-  local_1c8.fields.B.fields.Normal.fields.y = (float)uVar14;
-  local_1c8.fields.C.fields.Position.fields.x = (float)uVar16;
-  local_1c8.fields.C.fields.Position.fields.y = (float)uVar17;
-  local_1c8.fields.C.fields.Normal.fields.y = (float)uVar18;
-  local_1c8.fields.C.fields.Normal.fields.z = (float)uVar19;
-  if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-    local_1c8.fields.C.fields.Position.fields.x = (float)uVar16;
-    if ((int)pMVar8->max_length == 0) {
-label_181ea2796:
-      ThrowIndexOutOfRangeException();
-    }
-    pMVar75 = &(triangle->fields).B;
-    uVar22 = (pMVar75->fields).Normal.fields.x;
-    uVar23 = (pMVar75->fields).Normal.fields.y;
-    uVar24 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-    pMVar8->m_Items[0].fields.Position.fields.x = (float)uVar30;
-    pMVar8->m_Items[0].fields.Position.fields.y = uVar30._4_4_;
-    *(undefined8 *)&pMVar8->m_Items[0].fields.Position.fields.z = uVar21;
-    pMVar8->m_Items[0].fields.Normal.fields.y = (float)uVar15;
-    pMVar8->m_Items[0].fields.Normal.fields.z = uVar15._4_4_;
-    pMVar8->m_Items[0].fields.UV.fields = UVar20;
-    pMVar8->m_Items[0].fields.Shade = fVar4;
-    pMVar8 = (__this->fields)._corners;
-    local_1c8.fields.B.fields.Normal.fields.z = (float)uVar24;
-    local_1c8.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar24 >> 0x20);
-    UVar25 = (triangle->fields).C.fields.UV.fields;
-    uVar24 = *(undefined8 *)&(triangle->fields).C.fields.Shade;
-    local_1c8.fields.B.fields.UV.fields.y = (triangle->fields).B.fields.UV.fields.y;
-    local_1c8.fields.B.fields.Shade = (triangle->fields).B.fields.Shade;
-    local_1c8.fields.C.fields.Position.fields.x = (triangle->fields).C.fields.Position.fields.x;
-    local_1c8.fields.C.fields.Position.fields.y = (triangle->fields).C.fields.Position.fields.y;
-    local_1c8.fields.C.fields.UV.fields.x = UVar25.x;
-    local_1c8.fields.C.fields.UV.fields.y = UVar25.y;
-    local_1c8.fields.C.fields.Shade = (float)uVar24;
-    local_1c8.fields.Submesh = (int32_t)((ulonglong)uVar24 >> 0x20);
-    local_1c8.fields.A.fields.Position.fields._0_8_ = uVar30;
-    local_1c8.fields.A.fields._8_8_ = uVar21;
-    local_1c8.fields.A.fields.Normal.fields._4_8_ = uVar15;
-    local_1c8.fields.A.fields.UV.fields = UVar20;
-    local_1c8.fields.A.fields.Shade = fVar4;
-    local_1c8.fields.B.fields.Position.fields.x = fVar5;
-    local_1c8.fields.B.fields.Position.fields.y = fVar6;
-    local_1c8.fields.B.fields.Position.fields.z = fVar12;
-    local_1c8.fields.B.fields.Normal.fields.x = (float)uVar22;
-    local_1c8.fields.B.fields.Normal.fields.y = (float)uVar23;
-    if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-      if ((uint)pMVar8->max_length < 2) goto label_181ea2796;
-      uVar15 = CONCAT44(uVar22,fVar12);
-      UVar20.y = local_1c8.fields.B.fields.UV.fields.y;
-      UVar20.x = local_1c8.fields.B.fields.UV.fields.x;
-      pMVar8->m_Items[1].fields.Position.fields.x = fVar72;
-      pMVar8->m_Items[1].fields.Position.fields.y = fVar73;
-      *(undefined8 *)&pMVar8->m_Items[1].fields.Position.fields.z = uVar15;
-      uVar15 = *(undefined8 *)&(triangle->fields).A.fields.Shade;
-      pMVar75 = &(triangle->fields).B;
-      uVar26 = (pMVar75->fields).Position.fields.y;
-      uVar27 = (pMVar75->fields).Position.fields.z;
-      pMVar8->m_Items[1].fields.Normal.fields.y = (float)uVar23;
-      pMVar8->m_Items[1].fields.Normal.fields.z = local_1c8.fields.B.fields.Normal.fields.z;
-      pMVar8->m_Items[1].fields.UV.fields = UVar20;
-      pMVar75 = &(triangle->fields).B;
-      uVar28 = (pMVar75->fields).Normal.fields.x;
-      uVar29 = (pMVar75->fields).Normal.fields.y;
-      uVar30 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-      pMVar8->m_Items[1].fields.Shade = local_1c8.fields.B.fields.Shade;
-      pUVar1 = &(triangle->fields).C.fields.UV;
-      local_1c8.fields.C.fields.UV.fields.x = (pUVar1->fields).x;
-      local_1c8.fields.C.fields.UV.fields.y = (triangle->fields).C.fields.UV.fields.y;
-      UVar20 = pUVar1->fields;
-      local_1c8.fields.C.fields.Shade = (triangle->fields).C.fields.Shade;
-      local_1c8.fields.Submesh = (triangle->fields).Submesh;
-      pMVar8 = (__this->fields)._corners;
-      local_1c8.fields.B.fields.Normal.fields.z = (float)uVar30;
-      local_1c8.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar30 >> 0x20);
-      local_1c8.fields.A.fields.Shade = (float)uVar15;
-      local_1c8.fields.B.fields.Position.fields.x = (float)((ulonglong)uVar15 >> 0x20);
-      local_1c8.fields.C.fields._8_8_ = *(undefined8 *)&(triangle->fields).C.fields.Position.fields.z;
-      pMVar75 = &(triangle->fields).C;
-      uVar31 = (pMVar75->fields).Normal.fields.y;
-      uVar32 = (pMVar75->fields).Normal.fields.z;
-      uVar15 = *(undefined8 *)&(triangle->fields).B.fields.UV.fields.y;
-      pMVar75 = &(triangle->fields).C;
-      uVar33 = (pMVar75->fields).Position.fields.x;
-      uVar34 = (pMVar75->fields).Position.fields.y;
-      local_1c8.fields.B.fields.UV.fields.y = (float)uVar15;
-      local_1c8.fields.B.fields.Shade = (float)((ulonglong)uVar15 >> 0x20);
-      local_1c8.fields.B.fields.Position.fields.y = (float)uVar26;
-      local_1c8.fields.B.fields.Position.fields.z = (float)uVar27;
-      local_1c8.fields.B.fields.Normal.fields.x = (float)uVar28;
-      local_1c8.fields.B.fields.Normal.fields.y = (float)uVar29;
-      local_1c8.fields.C.fields.Position.fields.x = (float)uVar33;
-      local_1c8.fields.C.fields.Position.fields.y = (float)uVar34;
-      local_1c8.fields.C.fields.Normal.fields.y = (float)uVar31;
-      local_1c8.fields.C.fields.Normal.fields.z = (float)uVar32;
-      if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-        if ((uint)pMVar8->max_length < 3) goto label_181ea2796;
-        fVar4 = (normal->fields).x;
-        fVar5 = (normal->fields).y;
-        fVar6 = (normal->fields).z;
-        pMVar8->m_Items[2].fields.Position.fields.x = (float)uVar33;
-        pMVar8->m_Items[2].fields.Position.fields.y = (float)uVar34;
-        *(undefined8 *)&pMVar8->m_Items[2].fields.Position.fields.z = local_1c8.fields.C.fields._8_8_;
-        pMVar8->m_Items[2].fields.Normal.fields.y = (float)uVar31;
-        pMVar8->m_Items[2].fields.Normal.fields.z = (float)uVar32;
-        pMVar8->m_Items[2].fields.UV.fields = UVar20;
-        pMVar8->m_Items[2].fields.Shade = local_1c8.fields.C.fields.Shade;
-        pSVar9 = (__this->fields)._distances;
-        pMVar8 = (__this->fields)._corners;
-        if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-          uVar78 = 0;
-          bVar68 = false;
-          bVar67 = false;
-          uVar81 = 1;
-          uVar77 = uVar78;
-          do {
-            uVar76 = (uint)uVar77;
-            if ((uint)pMVar8->max_length <= uVar76) goto label_181ea2796;
-            if (pSVar9 == (System_Single_array *)0x0) goto label_181ea2790;
-            if ((uint)pSVar9->max_length <= uVar76) goto label_181ea2796;
-            pSVar9->m_Items[(int)uVar76] =
-                 (fVar5 * pMVar8->m_Items[(int)uVar76].fields.Position.fields.y +
-                  fVar4 * pMVar8->m_Items[(int)uVar76].fields.Position.fields.x +
-                 fVar6 * pMVar8->m_Items[(int)uVar76].fields.Position.fields.z) - distance;
-            if ((uint)pSVar9->max_length <= uVar76) goto label_181ea2796;
-            if (0.0001 < pSVar9->m_Items[(int)uVar76]) {
-              bVar68 = true;
-            }
-            if (pSVar9->m_Items[(int)uVar76] <= -0.0001 && pSVar9->m_Items[(int)uVar76] != -0.0001) {
-              bVar67 = true;
-            }
-            uVar77 = (ulonglong)(uVar76 + 1);
-          } while ((int)(uVar76 + 1) < 3);
-          if (bVar67) {
-            uVar77 = uVar78;
-            uVar83 = uVar78;
-            if (bVar68) {
-              do {
-                pMVar8 = (__this->fields)._corners;
-                if (pMVar8 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea2790;
-                uVar76 = (uint)uVar78;
-                if ((uint)pMVar8->max_length <= uVar76) goto label_181ea2796;
-                pSVar9 = (__this->fields)._distances;
-                if (pSVar9 == (System_Single_array *)0x0) goto label_181ea2790;
-                if ((uint)pSVar9->max_length <= uVar76) goto label_181ea2796;
-                iVar79 = uVar76 + 1;
-                uVar80 = iVar79 + (iVar79 / 3 + (iVar79 >> 0x1f) +
-                                  (int)(((longlong)iVar79 / 3 + ((longlong)iVar79 >> 0x3f) & 0xffffffffU) >>
-                                       0x1f)) * -3;
-                if ((uint)pSVar9->max_length <= uVar80) goto label_181ea2796;
-                pMVar75 = pMVar8->m_Items + uVar78;
-                uVar21._0_4_ = (pMVar75->fields).Position.fields.x;
-                uVar21._4_4_ = (pMVar75->fields).Position.fields.y;
-                uVar15 = *(undefined8 *)&(pMVar75->fields).Position.fields.z;
-                fVar6 = pMVar8->m_Items[uVar78].fields.Shade;
-                pMVar69 = &pMVar8->m_Items[uVar78].fields;
-                uVar24._0_4_ = (pMVar69->Normal).fields.y;
-                uVar24._4_4_ = (pMVar69->Normal).fields.z;
-                UVar20 = (pMVar69->UV).fields;
-                fVar4 = pSVar9->m_Items[uVar78];
-                fVar5 = pSVar9->m_Items[(int)uVar80];
-                if (-0.0001 <= fVar4) {
-                  pMVar8 = (__this->fields)._polygon;
-                  if (pMVar8 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea2790;
-                  uVar82 = (uint)uVar83;
-                  if ((uint)pMVar8->max_length <= uVar82) goto label_181ea2796;
-                  uVar83 = (ulonglong)(uVar82 + 1);
-                  pMVar75 = pMVar8->m_Items + (int)uVar82;
-                  (pMVar75->fields).Position.fields.x = (float)uVar21;
-                  (pMVar75->fields).Position.fields.y = uVar21._4_4_;
-                  *(undefined8 *)&(pMVar75->fields).Position.fields.z = uVar15;
-                  pMVar69 = &pMVar8->m_Items[(int)uVar82].fields;
-                  (pMVar69->Normal).fields.y = (float)uVar24;
-                  (pMVar69->Normal).fields.z = uVar24._4_4_;
-                  (pMVar69->UV).fields = UVar20;
-                  pMVar8->m_Items[(int)uVar82].fields.Shade = fVar6;
-                }
-                uVar82 = (uint)uVar77;
-                if (ABS(fVar4) <= 0.0001) {
-                  pMVar8 = (__this->fields)._cut;
-                  if (pMVar8 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea2790;
-                  uVar80 = (uint)pMVar8->max_length;
-                  if ((int)uVar82 < (int)uVar80) {
-                    if (uVar80 <= uVar82) goto label_181ea2796;
-                    pMVar75 = pMVar8->m_Items + (int)uVar82;
-                    (pMVar75->fields).Position.fields.x = (float)uVar21;
-                    (pMVar75->fields).Position.fields.y = uVar21._4_4_;
-                    *(undefined8 *)&(pMVar75->fields).Position.fields.z = uVar15;
-                    pMVar69 = &pMVar8->m_Items[(int)uVar82].fields;
-                    (pMVar69->Normal).fields.y = (float)uVar24;
-                    (pMVar69->Normal).fields.z = uVar24._4_4_;
-                    (pMVar69->UV).fields = UVar20;
-                    pMVar8->m_Items[(int)uVar82].fields.Shade = fVar6;
-                  }
-label_181ea23e0:
-                  uVar77 = (ulonglong)(uVar82 + 1);
-                }
-                else if (((0.0001 < fVar4) && (fVar5 < -0.0001)) || ((fVar4 < -0.0001 && (0.0001 < fVar5)))) {
-                  pMVar8 = (__this->fields)._corners;
-                  if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-                    if (uVar80 < (uint)pMVar8->max_length) {
-                      pMVar75 = pMVar8->m_Items + (int)uVar80;
-                      local_e8.fields.Position.fields.x = (pMVar75->fields).Position.fields.x;
-                      local_e8.fields.Position.fields.y = (pMVar75->fields).Position.fields.y;
-                      local_e8.fields._8_8_ = *(undefined8 *)&(pMVar75->fields).Position.fields.z;
-                      pMVar69 = &pMVar8->m_Items[(int)uVar80].fields;
-                      local_e8.fields.Normal.fields.y = (pMVar69->Normal).fields.y;
-                      local_e8.fields.Normal.fields.z = (pMVar69->Normal).fields.z;
-                      local_e8.fields.UV.fields = (pMVar69->UV).fields;
-                      local_e8.fields.Shade = pMVar8->m_Items[(int)uVar80].fields.Shade;
-                      local_b8.fields.Position.fields._0_8_ = uVar21;
-                      local_b8.fields._8_8_ = uVar15;
-                      local_b8.fields.Normal.fields._4_8_ = uVar24;
-                      local_b8.fields.UV.fields = UVar20;
-                      local_b8.fields.Shade = fVar6;
-                      pMVar75 = Map_MapFracture_Vertex__Lerp
-                                          (local_88,&local_b8,&local_e8,fVar4 / (fVar4 - fVar5),
-                                           (MethodInfo *)0x0);
-                      pMVar8 = (__this->fields)._polygon;
-                      if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-                        uVar80 = (uint)uVar83;
-                        if (uVar80 < (uint)pMVar8->max_length) {
-                          uVar35 = (pMVar75->fields).Position.fields.x;
-                          uVar36 = (pMVar75->fields).Position.fields.y;
-                          uVar15 = *(undefined8 *)&(pMVar75->fields).Position.fields.z;
-                          fVar4 = (pMVar75->fields).Shade;
-                          uVar37 = (pMVar75->fields).Normal.fields.y;
-                          uVar38 = (pMVar75->fields).Normal.fields.z;
-                          UVar20 = (pMVar75->fields).UV.fields;
-                          pMVar75 = pMVar8->m_Items + (int)uVar80;
-                          (pMVar75->fields).Position.fields.x = (float)uVar35;
-                          (pMVar75->fields).Position.fields.y = (float)uVar36;
-                          *(undefined8 *)&(pMVar75->fields).Position.fields.z = uVar15;
-                          pMVar69 = &pMVar8->m_Items[(int)uVar80].fields;
-                          (pMVar69->Normal).fields.y = (float)uVar37;
-                          (pMVar69->Normal).fields.z = (float)uVar38;
-                          (pMVar69->UV).fields = UVar20;
-                          pMVar8->m_Items[(int)uVar80].fields.Shade = fVar4;
-                          pMVar8 = (__this->fields)._cut;
-                          if (pMVar8 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea2790;
-                          uVar7 = (uint)pMVar8->max_length;
-                          if ((int)uVar82 < (int)uVar7) {
-                            if (uVar7 <= uVar82) goto label_181ea2796;
-                            pMVar75 = pMVar8->m_Items + (int)uVar82;
-                            (pMVar75->fields).Position.fields.x = (float)uVar35;
-                            (pMVar75->fields).Position.fields.y = (float)uVar36;
-                            *(undefined8 *)&(pMVar75->fields).Position.fields.z = uVar15;
-                            pMVar69 = &pMVar8->m_Items[(int)uVar82].fields;
-                            (pMVar69->Normal).fields.y = (float)uVar37;
-                            (pMVar69->Normal).fields.z = (float)uVar38;
-                            (pMVar69->UV).fields = UVar20;
-                            pMVar8->m_Items[(int)uVar82].fields.Shade = fVar4;
-                          }
-                          uVar83 = (ulonglong)(uVar80 + 1);
-                          goto label_181ea23e0;
-                        }
-                        goto label_181ea2796;
-                      }
-                      goto label_181ea2790;
-                    }
-                    goto label_181ea2796;
-                  }
-                  goto label_181ea2790;
-                }
-                uVar78 = (ulonglong)(uVar76 + 1);
-              } while ((int)(uVar76 + 1) < 3);
-              iVar79 = (int)uVar83 + -1;
-              if (1 < iVar79) {
-                do {
-                  pMVar74 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
-                  pMVar8 = (__this->fields)._polygon;
-                  if (pMVar8 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea2790;
-                  if ((((int)pMVar8->max_length == 0) || ((uint)pMVar8->max_length <= uVar81)) ||
-                     ((uint)pMVar8->max_length <= uVar81 + 1)) goto label_181ea2796;
-                  pMVar75 = &(triangle->fields).A;
-                  local_158.fields.A.fields.Position.fields.x = (pMVar75->fields).Position.fields.x;
-                  local_158.fields.A.fields.Position.fields.y = (pMVar75->fields).Position.fields.y;
-                  local_158.fields.A.fields._8_8_ =
-                       *(undefined8 *)&(triangle->fields).A.fields.Position.fields.z;
-                  local_1c8.fields.A.fields.Shade = pMVar8->m_Items[0].fields.Shade;
-                  pMVar75 = &(triangle->fields).A;
-                  local_158.fields.A.fields.Normal.fields.y = (pMVar75->fields).Normal.fields.y;
-                  local_158.fields.A.fields.Normal.fields.z = (pMVar75->fields).Normal.fields.z;
-                  local_158.fields.A.fields.UV.fields = (triangle->fields).A.fields.UV.fields;
-                  local_1c8.fields.Submesh = (triangle->fields).Submesh;
-                  uVar39._0_4_ = pMVar8->m_Items[0].fields.Position.fields.x;
-                  uVar39._4_4_ = pMVar8->m_Items[0].fields.Position.fields.y;
-                  uVar15 = *(undefined8 *)&pMVar8->m_Items[0].fields.Position.fields.z;
-                  uVar40._0_4_ = pMVar8->m_Items[0].fields.Normal.fields.y;
-                  uVar40._4_4_ = pMVar8->m_Items[0].fields.Normal.fields.z;
-                  UVar20 = pMVar8->m_Items[0].fields.UV.fields;
-                  uVar30 = *(undefined8 *)&(triangle->fields).A.fields.Shade;
-                  pMVar75 = &(triangle->fields).B;
-                  uVar41 = (pMVar75->fields).Position.fields.y;
-                  uVar42 = (pMVar75->fields).Position.fields.z;
-                  pMVar75 = &(triangle->fields).B;
-                  uVar43 = (pMVar75->fields).Normal.fields.x;
-                  uVar44 = (pMVar75->fields).Normal.fields.y;
-                  uVar21 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-                  local_158.fields.A.fields.Shade = (float)uVar30;
-                  local_158.fields.B.fields.Position.fields.x = (float)((ulonglong)uVar30 >> 0x20);
-                  uVar30 = *(undefined8 *)&(triangle->fields).B.fields.UV.fields.y;
-                  pMVar75 = &(triangle->fields).C;
-                  uVar45 = (pMVar75->fields).Position.fields.x;
-                  uVar46 = (pMVar75->fields).Position.fields.y;
-                  local_158.fields.B.fields.Normal.fields.z = (float)uVar21;
-                  local_158.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar21 >> 0x20);
-                  local_108 = *(undefined8 *)&(triangle->fields).C.fields.Position.fields.z;
-                  pMVar75 = &(triangle->fields).C;
-                  uStack_100._0_4_ = (pMVar75->fields).Normal.fields.y;
-                  uStack_100._4_4_ = (pMVar75->fields).Normal.fields.z;
-                  local_158.fields.B.fields.UV.fields.y = (float)uVar30;
-                  local_158.fields.B.fields.Shade = (float)((ulonglong)uVar30 >> 0x20);
-                  pMVar69 = &pMVar8->m_Items[uVar81].fields;
-                  uVar47 = (pMVar69->Normal).fields.y;
-                  uVar48 = (pMVar69->Normal).fields.z;
-                  UVar25 = (pMVar69->UV).fields;
-                  local_1c8.fields.A.fields.Position.fields.x = 0.0;
-                  local_1c8.fields.A.fields.Position.fields.y = 0.0;
-                  local_1c8.fields.A.fields.Position.fields.z = 0.0;
-                  local_1c8.fields.A.fields.Normal.fields.x = 0.0;
-                  local_1c8.fields.A.fields.Normal.fields.y = 0.0;
-                  local_1c8.fields.A.fields.Normal.fields.z = 0.0;
-                  local_1c8.fields.A.fields.UV.fields.x = 0.0;
-                  local_1c8.fields.A.fields.UV.fields.y = 0.0;
-                  pMVar75 = pMVar8->m_Items + uVar81;
-                  uVar49 = (pMVar75->fields).Position.fields.x;
-                  uVar50 = (pMVar75->fields).Position.fields.y;
-                  uVar30 = *(undefined8 *)&(pMVar75->fields).Position.fields.z;
-                  local_1c8.fields.B.fields.Shade = pMVar8->m_Items[uVar81].fields.Shade;
-                  local_1c8.fields.B.fields.Position.fields.z = (float)uVar30;
-                  local_1c8.fields.B.fields.Normal.fields.x = (float)((ulonglong)uVar30 >> 0x20);
-                  local_1c8.fields.B.fields.UV.fields.x = UVar25.x;
-                  local_1c8.fields.B.fields.UV.fields.y = UVar25.y;
-                  pMVar75 = pMVar8->m_Items + (ulonglong)uVar81 + 1;
-                  uVar51._0_4_ = (pMVar75->fields).Position.fields.x;
-                  uVar51._4_4_ = (pMVar75->fields).Position.fields.y;
-                  local_1c8.fields.C.fields._8_8_ = *(undefined8 *)&(pMVar75->fields).Position.fields.z;
-                  pMVar69 = &pMVar8->m_Items[(ulonglong)uVar81 + 1].fields;
-                  uVar52._0_4_ = (pMVar69->Normal).fields.y;
-                  uVar52._4_4_ = (pMVar69->Normal).fields.z;
-                  UVar25 = (pMVar69->UV).fields;
-                  local_1c8.fields.C.fields.Shade = pMVar8->m_Items[(ulonglong)uVar81 + 1].fields.Shade;
-                  local_1c8.fields.C.fields.UV.fields.x = UVar25.x;
-                  local_1c8.fields.C.fields.UV.fields.y = UVar25.y;
-                  local_1c8.fields.B.fields.Position.fields.x = (float)uVar49;
-                  local_1c8.fields.B.fields.Position.fields.y = (float)uVar50;
-                  local_1c8.fields.B.fields.Normal.fields.y = (float)uVar47;
-                  local_1c8.fields.B.fields.Normal.fields.z = (float)uVar48;
-                  local_1c8.fields.C.fields.Position.fields.x = (float)(undefined4)uVar51;
-                  local_1c8.fields.C.fields.Position.fields.y = (float)uVar51._4_4_;
-                  local_1c8.fields.C.fields.Normal.fields.y = (float)(undefined4)uVar52;
-                  local_1c8.fields.C.fields.Normal.fields.z = (float)uVar52._4_4_;
-                  local_158.fields.B.fields.Position.fields.y = (float)uVar41;
-                  local_158.fields.B.fields.Position.fields.z = (float)uVar42;
-                  local_158.fields.B.fields.Normal.fields.x = (float)uVar43;
-                  local_158.fields.B.fields.Normal.fields.y = (float)uVar44;
-                  local_158.fields.Submesh = uVar45;
-                  uStack_10c = uVar46;
-                  if (kept == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0)
-                  goto label_181ea2790;
-                  piVar2 = &(kept->fields)._version;
-                  *piVar2 = *piVar2 + 1;
-                  pMVar10 = (kept->fields)._items;
-                  if (pMVar10 == (Map_MapFracture_Triangle_array *)0x0) goto label_181ea2790;
-                  uVar76 = (kept->fields)._size;
-                  uVar30 = CONCAT44(uVar49,local_1c8.fields.A.fields.Shade);
-                  if (uVar76 < (uint)pMVar10->max_length) {
-                    (kept->fields)._size = uVar76 + 1;
-                    if ((uint)pMVar10->max_length <= uVar76) goto label_181ea2796;
-                    *(undefined8 *)&pMVar10->m_Items[(int)uVar76].fields.A.fields.Position = uVar39;
-                    *(undefined8 *)((longlong)&pMVar10->m_Items[(int)uVar76].fields.A.fields.Position + 8) =
-                         uVar15;
-                    pMVar70 = &pMVar10->m_Items[(int)uVar76].fields;
-                    *(undefined8 *)((longlong)&(pMVar70->A).fields.Normal.fields + 4) = uVar40;
-                    (pMVar70->A).fields.UV.fields = UVar20;
-                    pMVar70 = &pMVar10->m_Items[(int)uVar76].fields;
-                    *(undefined8 *)&(pMVar70->A).fields.Shade = uVar30;
-                    *(ulonglong *)((longlong)&(pMVar70->B).fields.Position.fields + 4) =
-                         CONCAT44(local_1c8.fields.B.fields.Position.fields.z,uVar50);
-                    pMVar70 = &pMVar10->m_Items[(int)uVar76].fields;
-                    pMVar75 = &pMVar70->B;
-                    (pMVar75->fields).Normal.fields.x = local_1c8.fields.B.fields.Normal.fields.x;
-                    (pMVar75->fields).Normal.fields.y = (float)uVar47;
-                    *(ulonglong *)((longlong)&(pMVar70->B).fields.Normal.fields + 8) =
-                         CONCAT44(local_1c8.fields.B.fields.UV.fields.x,uVar48);
-                    pMVar70 = &pMVar10->m_Items[(int)uVar76].fields;
-                    *(ulonglong *)((longlong)&(pMVar70->B).fields.UV.fields + 4) =
-                         CONCAT44(local_1c8.fields.B.fields.Shade,local_1c8.fields.B.fields.UV.fields.y);
-                    *(undefined8 *)&(pMVar70->C).fields.Position.fields = uVar51;
-                    pMVar70 = &pMVar10->m_Items[(int)uVar76].fields;
-                    *(undefined8 *)((longlong)&(pMVar70->C).fields.Position.fields + 8) =
-                         local_1c8.fields.C.fields._8_8_;
-                    *(undefined8 *)((longlong)&(pMVar70->C).fields.Normal.fields + 4) = uVar52;
-                    pUVar1 = &pMVar10->m_Items[(int)uVar76].fields.C.fields.UV;
-                    pUVar1->fields = UVar25;
-                    pUVar1[1] = (UnityEngine_Vector2_o)
-                                CONCAT44(local_1c8.fields.Submesh,local_1c8.fields.C.fields.Shade);
-                  }
-                  else {
-                    local_1c8.fields.A.fields.Position.fields._0_8_ = uVar39;
-                    local_1c8.fields.A.fields._8_8_ = uVar15;
-                    local_1c8.fields.A.fields.Normal.fields._4_8_ = uVar40;
-                    local_1c8.fields.A.fields.UV.fields = UVar20;
-                    System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
-                              (kept,&local_1c8,(MethodInfo_9E3880 *)pMVar74->klass->rgctx_data[0xe].method);
-                  }
-                  uVar81 = uVar81 + 1;
-                } while ((int)uVar81 < iVar79);
-              }
-              pMVar74 = MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Add;
-              if ((int)uVar77 == 2) {
-                pMVar8 = (__this->fields)._cut;
-                if (pMVar8 != (Map_MapFracture_Vertex_array *)0x0) {
-                  if (((int)pMVar8->max_length == 0) || ((uint)pMVar8->max_length < 2)) goto label_181ea2796;
-                  pMVar75 = &(triangle->fields).B;
-                  uVar53 = (pMVar75->fields).Normal.fields.x;
-                  uVar54 = (pMVar75->fields).Normal.fields.y;
-                  uVar15 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-                  __this_00 = (__this->fields)._segments;
-                  local_1c8.fields.B.fields.Normal.fields.z = (float)uVar15;
-                  local_1c8.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar15 >> 0x20);
-                  local_158.fields.A.fields.Normal.fields.y = 0.0;
-                  local_158.fields.A.fields.Normal.fields.z = 0.0;
-                  local_158.fields.A.fields.UV.fields.x = 0.0;
-                  local_158.fields.A.fields.UV.fields.y = 0.0;
-                  local_158.fields.A.fields.Position.fields.x = 0.0;
-                  local_158.fields.A.fields.Position.fields.y = 0.0;
-                  local_158.fields.A.fields.Position.fields.z = 0.0;
-                  local_158.fields.A.fields.Normal.fields.x = 0.0;
-                  uVar55._0_4_ = pMVar8->m_Items[0].fields.Position.fields.x;
-                  uVar55._4_4_ = pMVar8->m_Items[0].fields.Position.fields.y;
-                  uVar15 = *(undefined8 *)&pMVar8->m_Items[0].fields.Position.fields.z;
-                  uVar56._0_4_ = pMVar8->m_Items[0].fields.Normal.fields.y;
-                  uVar56._4_4_ = pMVar8->m_Items[0].fields.Normal.fields.z;
-                  UVar20 = pMVar8->m_Items[0].fields.UV.fields;
-                  pfVar3 = &pMVar8->m_Items[0].fields.Shade;
-                  local_158.fields.A.fields.Shade = *pfVar3;
-                  local_158.fields.B.fields.Shade = pMVar8->m_Items[1].fields.Shade;
-                  local_158.fields.Submesh = (triangle->fields).Submesh;
-                  uVar57 = pMVar8->m_Items[1].fields.Normal.fields.y;
-                  uVar58 = pMVar8->m_Items[1].fields.Normal.fields.z;
-                  UVar25 = pMVar8->m_Items[1].fields.UV.fields;
-                  uVar59 = pMVar8->m_Items[1].fields.Position.fields.x;
-                  uVar60 = pMVar8->m_Items[1].fields.Position.fields.y;
-                  uVar21 = *(undefined8 *)pfVar3;
-                  uVar30 = *(undefined8 *)&pMVar8->m_Items[1].fields.Position.fields.z;
-                  local_158.fields.B.fields.UV.fields.x = UVar25.x;
-                  local_158.fields.B.fields.UV.fields.y = UVar25.y;
-                  local_158.fields.B.fields.Position.fields.z = (float)uVar30;
-                  local_158.fields.B.fields.Normal.fields.x = (float)((ulonglong)uVar30 >> 0x20);
-                  local_1c8.fields.B.fields.Normal.fields.x = (float)uVar53;
-                  local_1c8.fields.B.fields.Normal.fields.y = (float)uVar54;
-                  local_158.fields.B.fields.Position.fields.x = (float)uVar59;
-                  local_158.fields.B.fields.Position.fields.y = (float)uVar60;
-                  local_158.fields.B.fields.Normal.fields.y = (float)uVar57;
-                  local_158.fields.B.fields.Normal.fields.z = (float)uVar58;
-                  if (__this_00 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
-                    piVar2 = &(__this_00->fields)._version;
-                    *piVar2 = *piVar2 + 1;
-                    pMVar11 = (__this_00->fields)._items;
-                    if (pMVar11 != (Map_MapFracture_Segment_array *)0x0) {
-                      uVar81 = (__this_00->fields)._size;
-                      local_1c8.fields.B.fields.Normal.fields.x = local_158.fields.B.fields.Normal.fields.x;
-                      local_1c8.fields.B.fields.Normal.fields.y = (float)uVar57;
-                      local_1c8.fields.B.fields.Normal.fields.z = (float)uVar58;
-                      local_1c8.fields.B.fields.UV.fields.x = local_158.fields.B.fields.UV.fields.x;
-                      local_1c8.fields.B.fields.UV.fields.y = local_158.fields.B.fields.UV.fields.y;
-                      local_1c8.fields.B.fields.Shade = local_158.fields.B.fields.Shade;
-                      local_1c8.fields.C.fields.Position.fields.x = (float)local_158.fields.Submesh;
-                      if ((uint)pMVar11->max_length <= uVar81) {
-                        local_158.fields.A.fields.Shade = (float)uVar21;
-                        local_158.fields.B.fields.Position.fields.x = (float)((ulonglong)uVar21 >> 0x20);
-                        local_158.fields.A.fields.Position.fields._0_8_ = uVar55;
-                        local_158.fields.A.fields._8_8_ = uVar15;
-                        local_158.fields.A.fields.Normal.fields._4_8_ = uVar56;
-                        local_158.fields.A.fields.UV.fields = UVar20;
-                        System_Collections_Generic_List_MapFracture_Segment___AddWithResize
-                                  (__this_00,&local_158,
-                                   (MethodInfo_9E3990 *)pMVar74->klass->rgctx_data[0xe].method);
-                        return;
-                      }
-                      (__this_00->fields)._size = uVar81 + 1;
-                      if (uVar81 < (uint)pMVar11->max_length) {
-                        *(undefined8 *)&pMVar11->m_Items[(int)uVar81].fields.A.fields.Position = uVar55;
-                        *(undefined8 *)((longlong)&pMVar11->m_Items[(int)uVar81].fields.A.fields.Position + 8)
-                             = uVar15;
-                        pMVar71 = &pMVar11->m_Items[(int)uVar81].fields;
-                        *(undefined8 *)((longlong)&(pMVar71->A).fields.Normal.fields + 4) = uVar56;
-                        (pMVar71->A).fields.UV.fields = UVar20;
-                        pMVar71 = &pMVar11->m_Items[(int)uVar81].fields;
-                        *(undefined8 *)&(pMVar71->A).fields.Shade = uVar21;
-                        *(ulonglong *)((longlong)&(pMVar71->B).fields.Position.fields + 4) =
-                             CONCAT44(local_158.fields.B.fields.Position.fields.z,uVar60);
-                        pMVar71 = &pMVar11->m_Items[(int)uVar81].fields;
-                        pMVar75 = &pMVar71->B;
-                        (pMVar75->fields).Normal.fields.x = local_158.fields.B.fields.Normal.fields.x;
-                        (pMVar75->fields).Normal.fields.y = (float)uVar57;
-                        *(ulonglong *)((longlong)&(pMVar71->B).fields.Normal.fields + 8) =
-                             CONCAT44(local_158.fields.B.fields.UV.fields.x,uVar58);
-                        pUVar1 = &pMVar11->m_Items[(int)uVar81].fields.B.fields.UV;
-                        pUVar1->fields = UVar25;
-                        pUVar1[1] = (UnityEngine_Vector2_o)
-                                    CONCAT44(local_158.fields.Submesh,local_158.fields.B.fields.Shade);
-                        return;
-                      }
-                      goto label_181ea2796;
-                    }
-                  }
-                }
-                goto label_181ea2790;
-              }
-            }
-          }
-          else {
-            if (kept == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) goto label_181ea2790;
-            pMVar75 = &(triangle->fields).A;
-            local_1c8.fields.A.fields.Position.fields.x = (pMVar75->fields).Position.fields.x;
-            local_1c8.fields.A.fields.Position.fields.y = (pMVar75->fields).Position.fields.y;
-            local_1c8.fields.A.fields._8_8_ = *(undefined8 *)&(triangle->fields).A.fields.Position.fields.z;
-            pMVar75 = &(triangle->fields).A;
-            local_1c8.fields.A.fields.Normal.fields.y = (pMVar75->fields).Normal.fields.y;
-            local_1c8.fields.A.fields.Normal.fields.z = (pMVar75->fields).Normal.fields.z;
-            local_1c8.fields.A.fields.UV.fields = (triangle->fields).A.fields.UV.fields;
-            uVar15 = *(undefined8 *)&(triangle->fields).A.fields.Shade;
-            pMVar75 = &(triangle->fields).B;
-            uVar61 = (pMVar75->fields).Position.fields.y;
-            uVar62 = (pMVar75->fields).Position.fields.z;
-            pMVar75 = &(triangle->fields).B;
-            uVar63 = (pMVar75->fields).Normal.fields.x;
-            uVar64 = (pMVar75->fields).Normal.fields.y;
-            uVar30 = *(undefined8 *)&(triangle->fields).B.fields.Normal.fields.z;
-            local_1c8.fields.A.fields.Shade = (float)uVar15;
-            local_1c8.fields.B.fields.Position.fields.x = (float)((ulonglong)uVar15 >> 0x20);
-            uVar15 = *(undefined8 *)&(triangle->fields).B.fields.UV.fields.y;
-            pMVar75 = &(triangle->fields).C;
-            uVar65 = (pMVar75->fields).Position.fields.x;
-            uVar66 = (pMVar75->fields).Position.fields.y;
-            local_1c8.fields.B.fields.Normal.fields.z = (float)uVar30;
-            local_1c8.fields.B.fields.UV.fields.x = (float)((ulonglong)uVar30 >> 0x20);
-            local_1c8.fields.C.fields._8_8_ = *(undefined8 *)&(triangle->fields).C.fields.Position.fields.z;
-            local_1c8.fields.C.fields.Normal.fields.y = (triangle->fields).C.fields.Normal.fields.y;
-            local_1c8.fields.C.fields.Normal.fields.z = (triangle->fields).C.fields.Normal.fields.z;
-            local_1c8.fields.B.fields.UV.fields.y = (float)uVar15;
-            local_1c8.fields.B.fields.Shade = (float)((ulonglong)uVar15 >> 0x20);
-            local_1c8.fields.C.fields.UV.fields.x = (triangle->fields).C.fields.UV.fields.x;
-            local_1c8.fields.C.fields.UV.fields.y = (triangle->fields).C.fields.UV.fields.y;
-            local_1c8.fields.C.fields.Shade = (triangle->fields).C.fields.Shade;
-            local_1c8.fields.Submesh = (triangle->fields).Submesh;
-            local_1c8.fields.B.fields.Position.fields.y = (float)uVar61;
-            local_1c8.fields.B.fields.Position.fields.z = (float)uVar62;
-            local_1c8.fields.B.fields.Normal.fields.x = (float)uVar63;
-            local_1c8.fields.B.fields.Normal.fields.y = (float)uVar64;
-            local_1c8.fields.C.fields.Position.fields.x = (float)uVar65;
-            local_1c8.fields.C.fields.Position.fields.y = (float)uVar66;
-            il2cpp_runtime_helper_180043610(kept,&local_1c8,MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add)
-            ;
-          }
-          return;
-        }
-      }
-    }
-  }
-label_181ea2790:
-  ThrowNullReferenceException();
-}
-
-
-// Map.MapFracture$$AddCut
-// il2cpp: void Map_MapFracture__AddCut (Map_MapFracture_o* __this, Map_MapFracture_Vertex_o vertex, int32_t* count, const MethodInfo* method);
-// 0x181ea1b40
-
-void Map_MapFracture__AddCut
-               (Map_MapFracture_o *__this,Map_MapFracture_Vertex_o *vertex,int32_t *count,MethodInfo *method)
-
-{
-  Map_MapFracture_Vertex_o *pMVar1;
-  uint uVar2;
-  float fVar3;
-  Map_MapFracture_Vertex_array *pMVar4;
-  undefined8 uVar5;
-  UnityEngine_Vector2_Fields UVar6;
-  Map_MapFracture_Vertex_Fields *pMVar7;
-  float fVar8;
-  float fVar9;
-  float fVar10;
-  
-  pMVar4 = (__this->fields)._cut;
-  if (pMVar4 == (Map_MapFracture_Vertex_array *)0x0) {
-    ThrowNullReferenceException();
-  }
-  if (*count < (int)pMVar4->max_length) {
-    pMVar4 = (__this->fields)._cut;
-    uVar2 = *count;
-    if ((uint)pMVar4->max_length <= uVar2) {
-      ThrowIndexOutOfRangeException();
-    }
-    fVar8 = (vertex->fields).Position.fields.y;
-    uVar5 = *(undefined8 *)&(vertex->fields).Position.fields.z;
-    fVar3 = (vertex->fields).Shade;
-    fVar9 = (vertex->fields).Normal.fields.y;
-    fVar10 = (vertex->fields).Normal.fields.z;
-    UVar6 = (vertex->fields).UV.fields;
-    pMVar1 = pMVar4->m_Items + (int)uVar2;
-    (pMVar1->fields).Position.fields.x = (vertex->fields).Position.fields.x;
-    (pMVar1->fields).Position.fields.y = fVar8;
-    *(undefined8 *)&(pMVar1->fields).Position.fields.z = uVar5;
-    pMVar7 = &pMVar4->m_Items[(int)uVar2].fields;
-    (pMVar7->Normal).fields.y = fVar9;
-    (pMVar7->Normal).fields.z = fVar10;
-    (pMVar7->UV).fields = UVar6;
-    pMVar4->m_Items[(int)uVar2].fields.Shade = fVar3;
-  }
-  *count = *count + 1;
-  return;
-}
-
-
-// Map.MapFracture$$CloseOpenings
-// il2cpp: void Map_MapFracture__CloseOpenings (Map_MapFracture_o* __this, const MethodInfo* method);
-// 0x181ea2b10
-// eh: try 0x181ea2f40..0x181ea359a -> pad 0x18333d360 (+1 call sites) catch Il2CppExceptionWrapper
-// eh: try 0x181ea3763..0x181ea3784 -> pad 0x1803567d0 cleanup
-// eh: try 0x181ea3a50..0x181ea3c29 -> pad 0x18333d3c0 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 76 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea2f4b: mov r12, qword ptr [rsp + 0x468]
-// asm:   0x181ea3406: mov rdx, qword ptr [rip + 0x2201993]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea340d: mov rcx, qword ptr [rsp + 0xb0]
-// asm:   0x181ea3415: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea341a: mov rcx, qword ptr [rsp + 0xa8]
-// asm:   0x181ea3422: test rcx, rcx
-// asm:   0x181ea3425: jne 0x181ea3c18
-// asm:   0x181ea342b: xor r15d, r15d
-// asm:   0x181ea342e: mov r14, qword ptr [rsp + 0x90]
-// asm:   0x181ea3436: mov rdi, qword ptr [rsp + 0x60]
-// asm:   0x181ea34ec: nop dword ptr [rax]
-// asm:   0x181ea35bf: mov rdx, qword ptr [rip + 0x220676a]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_Dispose
-// asm:   0x181ea35c6: mov rcx, qword ptr [rsp + 0x88]
-// asm:   0x181ea35ce: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea35d3: mov rcx, qword ptr [rsp + 0x80]
-// asm:   0x181ea35db: test rcx, rcx
-// asm:   0x181ea35de: jne 0x181ea3c29
-// asm:   0x181ea35e4: xor r15d, r15d
-// asm:   0x181ea35e7: mov r14, qword ptr [rsp + 0x90]
-// asm:   0x181ea35ef: mov rsi, qword ptr [rsp + 0x120]
-// asm:   0x181ea35f7: mov r12, qword ptr [rsp + 0x60]
-// asm:   0x181ea3659: movdqa xmm15, xmmword ptr [rip + 0x14b55ee]
-// asm:   0x181ea3662: xorps xmm14, xmm14
-// asm:   0x181ea3666: nop word ptr [rax + rax]
-// asm:   0x181ea3abf: mov rdx, qword ptr [rip + 0x21f924a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_Dispose
-// asm:   0x181ea3ac6: mov rcx, qword ptr [rsp + 0x130]
-// asm:   0x181ea3ace: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea3ad3: mov rcx, qword ptr [rsp + 0x128]
-// asm:   0x181ea3adb: test rcx, rcx
-// asm:   0x181ea3ade: jne 0x181ea3c2f
-// asm:   0x181ea3ae4: xor r15d, r15d
-// asm:   0x181ea3ae7: mov r14, qword ptr [rsp + 0x90]
-// asm:   0x181ea3aef: mov rsi, qword ptr [rsp + 0x120]
-// asm:   0x181ea3af7: mov r12, qword ptr [rsp + 0x60]
-// asm:   0x181ea3afc: mov rdi, qword ptr [rsp + 0xa8]
-// asm:   0x181ea3b04: mov r13, qword ptr [rsp + 0x98]
-// asm:   0x181ea3b0c: mov eax, dword ptr [rsp + 0x30]
-// asm:   0x181ea3b10: movss xmm6, dword ptr [rsp + 0x48]
-// asm:   0x181ea3b16: movdqa xmm15, xmmword ptr [rip + 0x14b5131]
-// asm:   0x181ea3b1f: xorps xmm14, xmm14
-// asm:   0x181ea3c18: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181ea3c29: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x181ea3c2f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d360: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d365: push rbp
-// asm:   0x18333d366: sub rsp, 0x30
-// asm:   0x18333d36a: mov rbp, rdx
-// asm:   0x18333d36d: mov rax, qword ptr [rbp + 0x260]
-// asm:   0x18333d374: mov rcx, qword ptr [rax]
-// asm:   0x18333d377: mov qword ptr [rbp + 0xa8], rcx
-// asm:   0x18333d37e: movabs rax, 0
-// asm:   0x18333d388: add rsp, 0x30
-// asm:   0x18333d38c: pop rbp
-// asm:   0x18333d38d: ret 
-// asm:   0x18333d390: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d395: push rbp
-// asm:   0x18333d396: sub rsp, 0x30
-// asm:   0x18333d39a: mov rbp, rdx
-// asm:   0x18333d39d: mov rax, qword ptr [rbp + 0x268]
-// asm:   0x18333d3a4: mov rcx, qword ptr [rax]
-// asm:   0x18333d3a7: mov qword ptr [rbp + 0x80], rcx
-// asm:   0x18333d3ae: movabs rax, 0
-// asm:   0x18333d3b8: add rsp, 0x30
-// asm:   0x18333d3bc: pop rbp
-// asm:   0x18333d3bd: ret 
-// asm:   0x18333d3c0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d3c5: push rbp
-// asm:   0x18333d3c6: sub rsp, 0x30
-// asm:   0x18333d3ca: mov rbp, rdx
-// asm:   0x18333d3cd: mov rax, qword ptr [rbp + 0x270]
-// asm:   0x18333d3d4: mov rcx, qword ptr [rax]
-// asm:   0x18333d3d7: mov qword ptr [rbp + 0x128], rcx
-// asm:   0x18333d3de: movabs rax, 0
-// asm:   0x18333d3e8: add rsp, 0x30
-// asm:   0x18333d3ec: pop rbp
-// asm:   0x18333d3ed: ret 
-
-void Map_MapFracture__CloseOpenings(Map_MapFracture_o *__this,MethodInfo *method)
-
-{
-  int32_t *piVar1;
-  System_Collections_Generic_List_MapFracture_Triangle__o *__this_00;
-  UnityEngine_Vector3_StaticFields *pUVar2;
-  undefined4 uVar3;
-  undefined4 uVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  bool bVar8;
-  int32_t iVar9;
-  int32_t tileX;
-  int32_t tileX_00;
-  System_Collections_Generic_Dictionary_Vector3Int__int__o *points;
-  System_Collections_Generic_List_MapFracture_Vertex__o *__this_01;
-  System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *__this_02;
-  System_Collections_Generic_Dictionary_int__int__o *__this_03;
-  System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *__this_04;
-  System_Collections_Generic_List_MapFracture_Vertex__o *loop;
-  System_Collections_Generic_List_Vector3__o *__this_05;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_06;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  float local_res18 [2];
-  System_Collections_Generic_Dictionary_Vector3Int__int__o *local_res20;
-  System_ValueTuple_int__int__Fields local_418;
-  UnityEngine_Vector3_Fields local_410;
-  float local_400;
-  Map_MapFracture_Opening_o local_3f8;
-  System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *local_3e8;
-  UnityEngine_Vector3_Fields local_3d8;
-  float fStack_3cc;
-  undefined1 local_3c8 [16];
-  System_Collections_Generic_List_MapFracture_Vertex__o *local_3b8;
-  undefined8 local_3b0;
-  float local_3a8;
-  System_Collections_Generic_List_MapFracture_Vertex__o *local_3a0;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_398;
-  undefined1 local_388 [8];
-  float fStack_380;
-  float fStack_37c;
-  Il2CppObject *local_378;
-  UnityEngine_Vector2_Fields UStack_370;
-  float local_368;
-  float fStack_364;
-  undefined8 uStack_360;
-  undefined1 local_358 [24];
-  UnityEngine_Vector2_Fields UStack_340;
-  float local_338;
-  System_Collections_Generic_Dictionary_int__int__o *local_328;
-  undefined8 local_320;
-  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_318;
-  Map_MapFracture_Vertex_o local_308;
-  undefined1 local_2d8 [16];
-  undefined8 local_2c8;
-  UnityEngine_Vector2_Fields UStack_2c0;
-  System_Collections_Generic_List_MapFracture_Vertex__o *local_2b8;
-  undefined1 local_2b0 [16];
-  Il2CppObject *local_2a0;
-  undefined1 local_298 [16];
-  float local_288;
-  float fStack_284;
-  float fStack_280;
-  float fStack_27c;
-  float local_278;
-  float fStack_274;
-  undefined8 uStack_270;
-  undefined1 local_268 [16];
-  undefined8 local_258;
-  uint64_t uStack_250;
-  Il2CppObject *local_248;
-  UnityEngine_Vector2_Fields UStack_240;
-  undefined8 local_238;
-  undefined8 uStack_230;
-  float local_228;
-  float fStack_224;
-  float fStack_220;
-  float fStack_21c;
-  float local_218;
-  float fStack_214;
-  float fStack_210;
-  float fStack_20c;
-  float local_208;
-  float fStack_204;
-  float fStack_200;
-  float fStack_1fc;
-  undefined8 local_1f8;
-  undefined8 uStack_1f0;
-  System_Collections_Generic_List_Enumerator_T__o local_1c8;
-  uint64_t uStack_1b0;
-  Il2CppObject *local_1a8;
-  UnityEngine_Vector2_Fields UStack_1a0;
-  undefined8 local_198;
-  undefined8 uStack_190;
-  float local_188;
-  float fStack_184;
-  float fStack_180;
-  float fStack_17c;
-  float local_178;
-  float fStack_174;
-  float fStack_170;
+  Map_MapFracture_Vertex_Fields *pMVar36;
+  Map_MapFracture_Triangle_Fields *pMVar37;
+  MethodInfo *pMVar38;
+  uint uVar39;
+  Map_MapFracture_Triangle_array *pMVar40;
+  UnityEngine_Vector3_StaticFields *pUVar41;
+  long lVar42;
+  uint uVar43;
+  uint uVar44;
+  uint uVar45;
+  long lVar46;
+  ulong uVar47;
+  ulong uVar48;
+  float fVar49;
+  float fVar50;
+  float fVar51;
+  undefined4 uVar52;
+  undefined4 extraout_XMM0_Db;
+  float fVar53;
+  float fVar54;
+  float fVar55;
+  undefined1 auVar56 [16];
+  float fVar57;
+  float fVar58;
+  float fVar59;
+  float fVar60;
+  float fVar61;
+  float local_1a8;
+  float fStack_1a4;
+  undefined1 local_188 [28];
   float fStack_16c;
   float local_168;
   float fStack_164;
   float fStack_160;
   float fStack_15c;
-  undefined8 local_158;
-  undefined8 uStack_150;
+  float local_158;
+  float fStack_154;
+  float fStack_150;
+  float fStack_14c;
+  float local_148;
+  float fStack_144;
+  float fStack_140;
+  float fStack_13c;
+  float local_138;
+  float fStack_134;
+  float fStack_130;
+  float fStack_12c;
   float local_128;
   float fStack_124;
   float fStack_120;
   float fStack_11c;
   float local_118;
   float fStack_114;
+  undefined8 uStack_110;
+  UnityEngine_Vector2_Fields local_108;
+  undefined8 uStack_100;
+  UnityEngine_Vector3_Fields local_f8 [2];
+  UnityEngine_Vector2_Fields UStack_e0;
+  float local_d8;
+  float fStack_d4;
+  float fStack_d0;
+  float fStack_cc;
+  float local_c8;
+  float fStack_c4;
+  float fStack_c0;
+  float fStack_bc;
+  float local_b8;
+  float fStack_b4;
+  UnityEngine_Vector3_Fields UStack_b0;
+  float fStack_a4;
+  float fStack_a0;
+  float fStack_9c;
+  float local_98;
+  float fStack_94;
+  float fStack_90;
+  int32_t iStack_8c;
+  float local_88;
+  float fStack_84;
+  float fStack_80;
+  float fStack_7c;
+  Map_MapFracture_o *local_70;
+  UnityEngine_Vector2_Fields local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  
+  uVar13 = triangle.fields.C.fields.Position.fields._0_8_;
+  uVar14 = triangle.fields.C.fields._8_8_;
+  uVar26 = triangle.fields.C.fields.Normal.fields._4_8_;
+  fVar55 = normal.fields.z;
+  fVar30 = normal.fields.x;
+  fVar51 = normal.fields.y;
+  if (Il2CppMethodInitialized_07545a1f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Add);
+    Il2CppMethodInitialized_07545a1f = '\x01';
+  }
+  pMVar22 = (__this->fields)._corners;
+  if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) {
+label_0598c723:
+    ThrowNullReferenceException();
+  }
+  if ((int)pMVar22->max_length != 0) {
+    pMVar22->m_Items[0].fields.Shade = triangle.fields.A.fields.Shade;
+    local_188._0_8_ = triangle.fields.A.fields.Position.fields._0_8_;
+    unique0x10002097 = triangle.fields.A.fields.UV.fields;
+    pMVar22->m_Items[0].fields.Normal.fields.y = triangle.fields.A.fields.Normal.fields.y;
+    pMVar22->m_Items[0].fields.Normal.fields.z = triangle.fields.A.fields.Normal.fields.z;
+    pMVar22->m_Items[0].fields.UV.fields = unique0x10002097;
+    pMVar22->m_Items[0].fields.Position.fields.x = triangle.fields.A.fields.Position.fields.x;
+    pMVar22->m_Items[0].fields.Position.fields.y = triangle.fields.A.fields.Position.fields.y;
+    *(long *)&pMVar22->m_Items[0].fields.Position.fields.z = triangle.fields.A.fields._8_8_;
+    pMVar22 = (__this->fields)._corners;
+    local_128 = triangle.fields.C.fields.UV.fields.x;
+    fStack_124 = triangle.fields.C.fields.UV.fields.y;
+    local_138 = triangle.fields.C.fields.Position.fields.z;
+    fStack_134 = triangle.fields.C.fields.Normal.fields.x;
+    fStack_130 = triangle.fields.C.fields.Normal.fields.y;
+    fStack_12c = triangle.fields.C.fields.Normal.fields.z;
+    local_148 = triangle.fields.B.fields.UV.fields.y;
+    fStack_144 = triangle.fields.B.fields.Shade;
+    fStack_140 = triangle.fields.C.fields.Position.fields.x;
+    fStack_13c = triangle.fields.C.fields.Position.fields.y;
+    local_158 = triangle.fields.B.fields.Normal.fields.x;
+    fStack_154 = triangle.fields.B.fields.Normal.fields.y;
+    fStack_150 = triangle.fields.B.fields.Normal.fields.z;
+    fStack_14c = triangle.fields.B.fields.UV.fields.x;
+    local_188._16_4_ = triangle.fields.A.fields.Normal.fields.y;
+    local_188._20_4_ = triangle.fields.A.fields.Normal.fields.z;
+    local_188._8_4_ = triangle.fields.A.fields.Position.fields.z;
+    local_188._12_4_ = triangle.fields.A.fields.Normal.fields.x;
+    local_168 = triangle.fields.A.fields.Shade;
+    fStack_164 = triangle.fields.B.fields.Position.fields.x;
+    fStack_160 = triangle.fields.B.fields.Position.fields.y;
+    fStack_15c = triangle.fields.B.fields.Position.fields.z;
+    fStack_120 = triangle.fields.C.fields.Shade;
+    fStack_11c = (float)triangle.fields.Submesh;
+    if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+    local_168 = triangle.fields.A.fields.Shade;
+    fStack_120 = triangle.fields.C.fields.Shade;
+    if ((pMVar22->max_length & 0xfffffffe) != 0) {
+      pMVar22->m_Items[1].fields.Shade = fStack_144;
+      pMVar22->m_Items[1].fields.Normal.fields.y = (float)triangle.fields.B.fields.Normal.fields.y;
+      pMVar22->m_Items[1].fields.Normal.fields.z = (float)triangle.fields.B.fields.Normal.fields.z;
+      pMVar22->m_Items[1].fields.UV.fields = triangle.fields.B.fields.UV.fields;
+      pMVar22->m_Items[1].fields.Position.fields.x = (float)triangle.fields.B.fields.Position.fields.x;
+      pMVar22->m_Items[1].fields.Position.fields.y = (float)triangle.fields.B.fields.Position.fields.y;
+      *(long *)&pMVar22->m_Items[1].fields.Position.fields.z = triangle.fields.B.fields._8_8_;
+      pMVar22 = (__this->fields)._corners;
+      UStack_b0.z = triangle.fields.C.fields.Position.fields.z;
+      fStack_a4 = triangle.fields.C.fields.Normal.fields.x;
+      UStack_b0.x = triangle.fields.C.fields.Position.fields.x;
+      UStack_b0.y = triangle.fields.C.fields.Position.fields.y;
+      local_f8[1].y = triangle.fields.A.fields.Normal.fields.y;
+      local_f8[1].z = triangle.fields.A.fields.Normal.fields.z;
+      UStack_e0 = unique0x10002097;
+      local_f8[0].x = triangle.fields.A.fields.Position.fields.x;
+      local_f8[0].y = triangle.fields.A.fields.Position.fields.y;
+      local_f8[0].z = triangle.fields.A.fields.Position.fields.z;
+      local_f8[1].x = triangle.fields.A.fields.Normal.fields.x;
+      local_d8 = triangle.fields.A.fields.Shade;
+      fStack_d4 = triangle.fields.B.fields.Position.fields.x;
+      fStack_d0 = triangle.fields.B.fields.Position.fields.y;
+      fStack_cc = triangle.fields.B.fields.Position.fields.z;
+      local_c8 = local_158;
+      fStack_c4 = fStack_154;
+      fStack_c0 = fStack_150;
+      fStack_bc = fStack_14c;
+      local_b8 = local_148;
+      fStack_b4 = fStack_144;
+      fStack_a0 = fStack_130;
+      fStack_9c = fStack_12c;
+      local_98 = local_128;
+      fStack_94 = fStack_124;
+      fStack_90 = triangle.fields.C.fields.Shade;
+      iStack_8c = triangle.fields.Submesh;
+      if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+      if (2 < (uint)pMVar22->max_length) {
+        pMVar22->m_Items[2].fields.Shade = triangle.fields.C.fields.Shade;
+        pMVar22->m_Items[2].fields.Normal.fields.y = triangle.fields.C.fields.Normal.fields.y;
+        pMVar22->m_Items[2].fields.Normal.fields.z = triangle.fields.C.fields.Normal.fields.z;
+        pMVar22->m_Items[2].fields.UV.fields = triangle.fields.C.fields.UV.fields;
+        pMVar22->m_Items[2].fields.Position.fields.x = triangle.fields.C.fields.Position.fields.x;
+        pMVar22->m_Items[2].fields.Position.fields.y = triangle.fields.C.fields.Position.fields.y;
+        *(undefined8 *)&pMVar22->m_Items[2].fields.Position.fields.z = uVar14;
+        pMVar22 = (__this->fields)._corners;
+        if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+        pSVar23 = (__this->fields)._distances;
+        iVar20 = (int)pMVar22->max_length;
+        if (pSVar23 == (System_Single_array *)0x0) {
+          if (iVar20 != 0) goto label_0598c723;
+        }
+        else if ((iVar20 != 0) && (uVar44 = (uint)pSVar23->max_length, uVar44 != 0)) {
+          uVar9 = pMVar22->m_Items[0].fields.Position.fields.x;
+          uVar16 = pMVar22->m_Items[0].fields.Position.fields.y;
+          fVar49 = ((float)uVar16 * fVar51 + (float)uVar9 * fVar30 +
+                   pMVar22->m_Items[0].fields.Position.fields.z * fVar55) - distance;
+          pSVar23->m_Items[0] = fVar49;
+          if ((iVar20 != 1) && (1 < uVar44)) {
+            uVar10 = pMVar22->m_Items[1].fields.Position.fields.x;
+            uVar17 = pMVar22->m_Items[1].fields.Position.fields.y;
+            fVar59 = ((float)uVar17 * fVar51 + (float)uVar10 * fVar30 +
+                     pMVar22->m_Items[1].fields.Position.fields.z * fVar55) - distance;
+            pSVar23->m_Items[1] = fVar59;
+            if ((iVar20 != 2) && (2 < uVar44)) {
+              uVar11 = pMVar22->m_Items[2].fields.Position.fields.x;
+              uVar18 = pMVar22->m_Items[2].fields.Position.fields.y;
+              fVar30 = ((float)uVar18 * fVar51 + (float)uVar11 * fVar30 +
+                       fVar55 * pMVar22->m_Items[2].fields.Position.fields.z) - distance;
+              pSVar23->m_Items[2] = fVar30;
+              pMVar38 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
+              if (-0.0001 <= fVar30 && (-0.0001 <= fVar49 && -0.0001 <= fVar59)) {
+                if (kept != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+                  piVar1 = &(kept->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pMVar40 = (kept->fields)._items;
+                  if (pMVar40 != (Map_MapFracture_Triangle_array *)0x0) {
+                    uVar44 = (kept->fields)._size;
+                    lVar46 = (long)(int)uVar44;
+                    if ((uint)pMVar40->max_length <= uVar44) {
+                      System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
+                                (kept,triangle,(MethodInfo_3AB1FB0 *)pMVar38->klass->rgctx_data[0xe].method);
+                      return;
+                    }
+                    (kept->fields)._size = uVar44 + 1;
+                    lVar42 = lVar46 * 0x70;
+                    pUVar7 = &pMVar40->m_Items[lVar46].fields.C.fields.UV;
+                    pUVar7->fields = triangle.fields.C.fields.UV.fields;
+                    pUVar7[1] = (UnityEngine_Vector2_o)triangle.fields._104_8_;
+                    pMVar37 = &pMVar40->m_Items[lVar46].fields;
+                    *(undefined8 *)((long)&(pMVar37->C).fields.Position.fields + 8) = uVar14;
+                    *(undefined8 *)((long)&(pMVar37->C).fields.Normal.fields + 4) = uVar26;
+                    pMVar37 = &pMVar40->m_Items[lVar46].fields;
+                    *(undefined8 *)((long)&(pMVar37->B).fields.UV.fields + 4) =
+                         triangle.fields.B.fields._28_8_;
+                    *(undefined8 *)&(pMVar37->C).fields.Position.fields = uVar13;
+                    local_f8[0].x = triangle.fields.A.fields.Position.fields.x;
+                    local_f8[0].y = triangle.fields.A.fields.Position.fields.y;
+                    local_188._8_4_ = triangle.fields.A.fields.Position.fields.z;
+                    local_188._12_4_ = triangle.fields.A.fields.Normal.fields.x;
+                    local_f8[1].y = triangle.fields.A.fields.Normal.fields.y;
+                    local_f8[1].z = triangle.fields.A.fields.Normal.fields.z;
+                    local_188._24_4_ = triangle.fields.A.fields.UV.fields.x;
+                    fStack_16c = triangle.fields.A.fields.UV.fields.y;
+                    fVar30 = triangle.fields.B.fields.Position.fields.y;
+label_0598c2ad:
+                    puVar4 = (undefined8 *)((long)&pMVar40->m_Items[0].fields.B.fields.Normal.fields + lVar42)
+                    ;
+                    *puVar4 = triangle.fields.B.fields.Normal.fields._0_8_;
+                    puVar4[1] = triangle.fields.B.fields._20_8_;
+                    pfVar3 = (float *)((long)&pMVar40->m_Items[0].fields.A.fields.Shade + lVar42);
+                    *pfVar3 = local_168;
+                    pfVar3[1] = fStack_164;
+                    pfVar3[2] = fVar30;
+                    pfVar3[3] = fStack_cc;
+                    pfVar3 = (float *)((long)&pMVar40->m_Items[0].fields.A.fields.Normal.fields + lVar42 + 4U)
+                    ;
+                    *pfVar3 = local_f8[1].y;
+                    pfVar3[1] = local_f8[1].z;
+                    pfVar3[2] = (float)local_188._24_4_;
+                    pfVar3[3] = fStack_16c;
+                    pfVar3 = (float *)((long)&pMVar40->m_Items[0].fields.A.fields.Position.fields + lVar42);
+                    *pfVar3 = local_f8[0].x;
+                    pfVar3[1] = local_f8[0].y;
+                    pfVar3[2] = (float)local_188._8_4_;
+                    pfVar3[3] = (float)local_188._12_4_;
+                    return;
+                  }
+                }
+              }
+              else {
+                if ((bool)(~(0.0001 < fVar49 || 0.0001 < fVar59) & fVar30 <= 0.0001)) {
+                  return;
+                }
+                lVar46 = 0x10;
+                uVar43 = 0;
+                uVar47 = 0;
+                uVar44 = 0;
+                do {
+                  uVar48 = uVar47 + 1;
+                  uVar39 = (uint)uVar48;
+                  if (uVar47 == 2) {
+                    uVar39 = 0;
+                  }
+                  pMVar22 = (__this->fields)._corners;
+                  if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+                  if ((uint)pMVar22->max_length <= uVar47) goto label_0598c71e;
+                  pSVar23 = (__this->fields)._distances;
+                  if (pSVar23 == (System_Single_array *)0x0) goto label_0598c723;
+                  uVar45 = (uint)pSVar23->max_length;
+                  if ((uVar45 <= uVar47) || (uVar45 <= uVar39)) goto label_0598c71e;
+                  uVar13 = *(undefined8 *)((long)pMVar22->m_Items + lVar46 * 4 + -0x40);
+                  fVar30 = *(float *)((long)pMVar22->m_Items + lVar46 * 4 + -0x38);
+                  uVar14 = *(undefined8 *)((long)pMVar22->m_Items + lVar46 * 4 + -0x34);
+                  fVar51 = *(float *)((long)pMVar22->m_Items + lVar46 * 4 + -0x2c);
+                  UVar15 = *(UnityEngine_Vector2_Fields *)((long)pMVar22->m_Items + lVar46 * 4 + -0x28);
+                  fVar55 = *(float *)((long)pMVar22->m_Items + lVar46 * 4 + -0x20);
+                  fVar49 = pSVar23->m_Items[uVar47];
+                  fVar59 = pSVar23->m_Items[uVar39];
+                  uVar45 = uVar44;
+                  if (-0.0001 <= fVar49) {
+                    pMVar22 = (__this->fields)._polygon;
+                    if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+                    if ((uint)pMVar22->max_length <= uVar44) goto label_0598c71e;
+                    uVar45 = uVar44 + 1;
+                    pMVar22->m_Items[(int)uVar44].fields.Position.fields.x = (float)uVar13;
+                    pMVar22->m_Items[(int)uVar44].fields.Position.fields.y = SUB84(uVar13,4);
+                    pMVar22->m_Items[(int)uVar44].fields.Position.fields.z = fVar30;
+                    pMVar22->m_Items[(int)uVar44].fields.Normal.fields.x = (float)(int)uVar14;
+                    pMVar22->m_Items[(int)uVar44].fields.Normal.fields.y = (float)(int)((ulong)uVar14 >> 0x20)
+                    ;
+                    pMVar22->m_Items[(int)uVar44].fields.Normal.fields.z = fVar51;
+                    pMVar22->m_Items[(int)uVar44].fields.UV.fields = UVar15;
+                    pMVar22->m_Items[(int)uVar44].fields.Shade = fVar55;
+                  }
+                  if (ABS(fVar49) <= 0.0001) {
+                    pMVar22 = (__this->fields)._cut;
+                    if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+                    uVar44 = (uint)pMVar22->max_length;
+                    if ((int)uVar43 < (int)uVar44) {
+                      if (uVar44 <= uVar43) goto label_0598c71e;
+                      pMVar22->m_Items[(int)uVar43].fields.Position.fields.x = (float)uVar13;
+                      pMVar22->m_Items[(int)uVar43].fields.Position.fields.y = SUB84(uVar13,4);
+                      pMVar22->m_Items[(int)uVar43].fields.Position.fields.z = fVar30;
+                      pMVar22->m_Items[(int)uVar43].fields.Normal.fields.x = (float)(int)uVar14;
+                      pMVar22->m_Items[(int)uVar43].fields.Normal.fields.y =
+                           (float)(int)((ulong)uVar14 >> 0x20);
+                      pMVar22->m_Items[(int)uVar43].fields.Normal.fields.z = fVar51;
+                      pMVar22->m_Items[(int)uVar43].fields.UV.fields = UVar15;
+                      pMVar22->m_Items[(int)uVar43].fields.Shade = fVar55;
+                    }
+label_0598bcc2:
+                    uVar43 = uVar43 + 1;
+                  }
+                  else if (((0.0001 < fVar49) && (fVar59 < -0.0001)) ||
+                          ((fVar49 < -0.0001 && (0.0001 < fVar59)))) {
+                    pMVar22 = (__this->fields)._corners;
+                    if (pMVar22 != (Map_MapFracture_Vertex_array *)0x0) {
+                      local_48 = uVar14;
+                      uStack_40 = 0;
+                      local_88 = fVar51;
+                      if (uVar39 < (uint)pMVar22->max_length) {
+                        local_58._0_4_ = pMVar22->m_Items[uVar39].fields.Position.fields.x;
+                        local_58._4_4_ = pMVar22->m_Items[uVar39].fields.Position.fields.y;
+                        uStack_50 = 0;
+                        fVar51 = pMVar22->m_Items[uVar39].fields.Position.fields.z;
+                        pMVar36 = &pMVar22->m_Items[uVar39].fields;
+                        pUVar5 = &pMVar36->Normal;
+                        uVar34 = (pUVar5->fields).x;
+                        uVar35 = (pUVar5->fields).y;
+                        fVar50 = pMVar22->m_Items[uVar39].fields.Normal.fields.z;
+                        local_68 = pMVar22->m_Items[uVar39].fields.UV.fields;
+                        uStack_60 = 0;
+                        fVar8 = pMVar22->m_Items[uVar39].fields.Shade;
+                        local_108 = UVar15;
+                        uStack_100 = 0;
+                        local_118 = (float)uVar13;
+                        fStack_114 = SUB84(uVar13,4);
+                        uStack_110 = 0;
+                        if (Il2CppMethodInitialized_0753e72d == '\0') {
+                          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                          Il2CppMethodInitialized_0753e72d = '\x01';
+                          local_188._0_4_ = 0.0;
+                          local_188._4_4_ = 0.0;
+                          fVar53 = local_118;
+                          fVar54 = fStack_114;
+                          fVar57 = local_108.x;
+                          fVar58 = local_108.y;
+                          fVar60 = (float)uVar34;
+                          fVar61 = (float)uVar35;
+                          if (Il2CppMethodInitialized_0753e729 == '\0') goto label_0598c1a6;
+label_0598bea8:
+                          local_188._0_4_ = 0.0;
+                          local_188._4_4_ = 0.0;
+                          uVar21 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                        }
+                        else {
+                          local_188._0_4_ = 0.0;
+                          local_188._4_4_ = 0.0;
+                          fVar53 = (float)uVar13;
+                          fVar54 = SUB84(uVar13,4);
+                          fVar57 = UVar15.x;
+                          fVar58 = UVar15.y;
+                          fVar60 = (pUVar5->fields).x;
+                          fVar61 = (pMVar36->Normal).fields.y;
+                          if (Il2CppMethodInitialized_0753e729 != '\0') goto label_0598bea8;
+label_0598c1a6:
+                          local_188._0_4_ = 0.0;
+                          local_188._4_4_ = 0.0;
+                          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+                          Il2CppMethodInitialized_0753e729 = '\x01';
+                          uVar21 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+                          fVar53 = local_118;
+                          fVar54 = fStack_114;
+                          fVar57 = local_108.x;
+                          fVar58 = local_108.y;
+                          fVar60 = (float)uVar34;
+                          fVar61 = (float)uVar35;
+                        }
+                        if (uVar21 == 0) {
+                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+                          fVar53 = local_118;
+                          fVar54 = fStack_114;
+                          fVar57 = local_108.x;
+                          fVar58 = local_108.y;
+                          fVar60 = (float)uVar34;
+                          fVar61 = (float)uVar35;
+                        }
+                        fVar49 = fVar49 / (fVar49 - fVar59);
+                        fVar59 = 1.0;
+                        if (fVar49 <= 1.0) {
+                          fVar59 = fVar49;
+                        }
+                        fVar59 = (float)(-(uint)(0.0 <= fVar49) & (uint)fVar59);
+                        auVar56._0_4_ = (fVar60 - (float)local_48) * fVar59 + (float)local_48;
+                        auVar56._4_4_ = (fVar61 - local_48._4_4_) * fVar59 + local_48._4_4_;
+                        auVar56._8_4_ = (0.0 - (float)uStack_40) * fVar59 + (float)uStack_40;
+                        auVar56._12_4_ = (0.0 - uStack_40._4_4_) * fVar59 + uStack_40._4_4_;
+                        fVar49 = (fVar50 - local_88) * fVar59 + local_88;
+                        uVar52 = 0;
+                        fVar50 = fVar49 * fVar49 +
+                                 auVar56._4_4_ * auVar56._4_4_ + auVar56._0_4_ * auVar56._0_4_;
+                        if (fVar50 < 0.0) {
+                          local_88 = fVar59;
+                          fStack_84 = fVar59;
+                          fStack_80 = fVar59;
+                          fStack_7c = fVar59;
+                          fVar50 = sqrtf(fVar50);
+                          uVar52 = extraout_XMM0_Db;
+                          fVar53 = local_118;
+                          fVar54 = fStack_114;
+                          fVar57 = local_108.x;
+                          fVar58 = local_108.y;
+                          fVar60 = local_88;
+                          fVar61 = fStack_84;
+                          if (1e-05 < fVar50) goto label_0598c04b;
+label_0598bf60:
+                          pUVar41 = TypeInfo_UnityEngine_Vector3->static_fields;
+                          fVar49 = (pUVar41->zeroVector).fields.z;
+                        }
+                        else {
+                          fVar50 = SQRT(fVar50);
+                          fVar60 = fVar59;
+                          fVar61 = fVar59;
+                          if (fVar50 <= 1e-05) goto label_0598bf60;
+label_0598c04b:
+                          fVar49 = fVar49 / fVar50;
+                          auVar24._4_4_ = fVar50;
+                          auVar24._0_4_ = fVar50;
+                          auVar24._8_4_ = uVar52;
+                          auVar24._12_4_ = uVar52;
+                          auVar56 = divps(auVar56,auVar24);
+                          local_188._0_4_ = auVar56._0_4_;
+                          local_188._4_4_ = auVar56._4_4_;
+                          pUVar41 = (UnityEngine_Vector3_StaticFields *)local_188;
+                        }
+                        pMVar22 = (__this->fields)._polygon;
+                        if (pMVar22 != (Map_MapFracture_Vertex_array *)0x0) {
+                          if (uVar45 < (uint)pMVar22->max_length) {
+                            fVar53 = ((float)local_58 - fVar53) * fVar60 + fVar53;
+                            fVar54 = (local_58._4_4_ - fVar54) * fVar61 + fVar54;
+                            fVar30 = (fVar51 - fVar30) * fVar59 + fVar30;
+                            uVar12 = (pUVar41->zeroVector).fields.x;
+                            uVar19 = (pUVar41->zeroVector).fields.y;
+                            fVar57 = (local_68.x - fVar57) * fVar60 + fVar57;
+                            fVar58 = (local_68.y - fVar58) * fVar61 + fVar58;
+                            fVar55 = (fVar8 - fVar55) * fVar59 + fVar55;
+                            pMVar22->m_Items[(int)uVar45].fields.Position.fields.x = fVar53;
+                            pMVar22->m_Items[(int)uVar45].fields.Position.fields.y = fVar54;
+                            pMVar22->m_Items[(int)uVar45].fields.Position.fields.z = fVar30;
+                            pMVar22->m_Items[(int)uVar45].fields.Normal.fields.x = (float)uVar12;
+                            pMVar22->m_Items[(int)uVar45].fields.Normal.fields.y = (float)uVar19;
+                            pMVar22->m_Items[(int)uVar45].fields.Normal.fields.z = fVar49;
+                            UVar15.y = fVar58;
+                            UVar15.x = fVar57;
+                            pMVar22->m_Items[(int)uVar45].fields.UV.fields = UVar15;
+                            pMVar22->m_Items[(int)uVar45].fields.Shade = fVar55;
+                            pMVar22 = (__this->fields)._cut;
+                            if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+                            uVar44 = (uint)pMVar22->max_length;
+                            if ((int)uVar43 < (int)uVar44) {
+                              if (uVar44 <= uVar43) goto label_0598c71e;
+                              pMVar22->m_Items[(int)uVar43].fields.Position.fields.x = fVar53;
+                              pMVar22->m_Items[(int)uVar43].fields.Position.fields.y = fVar54;
+                              pMVar22->m_Items[(int)uVar43].fields.Position.fields.z = fVar30;
+                              pMVar22->m_Items[(int)uVar43].fields.Normal.fields.x = (float)uVar12;
+                              pMVar22->m_Items[(int)uVar43].fields.Normal.fields.y = (float)uVar19;
+                              pMVar22->m_Items[(int)uVar43].fields.Normal.fields.z = fVar49;
+                              UVar25.y = fVar58;
+                              UVar25.x = fVar57;
+                              pMVar22->m_Items[(int)uVar43].fields.UV.fields = UVar25;
+                              pMVar22->m_Items[(int)uVar43].fields.Shade = fVar55;
+                            }
+                            uVar45 = uVar45 + 1;
+                            goto label_0598bcc2;
+                          }
+                          goto label_0598c71e;
+                        }
+                        goto label_0598c723;
+                      }
+                      goto label_0598c71e;
+                    }
+                    goto label_0598c723;
+                  }
+                  lVar46 = lVar46 + 9;
+                  uVar47 = uVar48;
+                  uVar44 = uVar45;
+                } while (uVar48 != 3);
+                uVar45 = uVar45 - 1;
+                if (1 < (int)uVar45) {
+                  uVar47 = 1;
+                  lVar46 = 0x68;
+                  local_70 = __this;
+                  do {
+                    while( true ) {
+                      pMVar38 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
+                      pMVar22 = (__this->fields)._polygon;
+                      if (pMVar22 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598c723;
+                      uVar48 = (ulong)(uint)pMVar22->max_length;
+                      if (((uVar48 == 0) || (uVar48 <= uVar47)) || (uVar47 = uVar47 + 1, uVar48 <= uVar47))
+                      goto label_0598c71e;
+                      pMVar2 = pMVar22->m_Items;
+                      fStack_90 = *(float *)((long)&pMVar22->m_Items[0].fields.Position.fields.x + lVar46);
+                      puVar4 = (undefined8 *)((long)pMVar22->m_Items + lVar46 + -0x20);
+                      UStack_b0._0_8_ = *puVar4;
+                      unique0x1000175f = puVar4[1];
+                      puVar4 = (undefined8 *)((long)pMVar22->m_Items + lVar46 + -0x10);
+                      uVar13 = *puVar4;
+                      UVar15 = *(UnityEngine_Vector2_Fields *)(puVar4 + 1);
+                      fStack_a0 = (float)uVar13;
+                      fStack_9c = (float)((ulong)uVar13 >> 0x20);
+                      local_98 = UVar15.x;
+                      fStack_94 = UVar15.y;
+                      local_d8 = pMVar22->m_Items[0].fields.Shade;
+                      local_f8[0].x = (pMVar2->fields).Position.fields.x;
+                      local_f8[0].y = (pMVar2->fields).Position.fields.y;
+                      local_f8._8_8_ = *(undefined8 *)&pMVar22->m_Items[0].fields.Position.fields.z;
+                      local_f8[1].y = pMVar22->m_Items[0].fields.Normal.fields.y;
+                      local_f8[1].z = pMVar22->m_Items[0].fields.Normal.fields.z;
+                      UStack_e0 = pMVar22->m_Items[0].fields.UV.fields;
+                      fStack_b4 = *(float *)((long)(pMVar22->m_Items + -1) + lVar46);
+                      puVar4 = (undefined8 *)((long)pMVar22->m_Items + lVar46 + -0x44);
+                      uVar14 = *puVar4;
+                      uVar26 = puVar4[1];
+                      puVar4 = (undefined8 *)((long)pMVar22->m_Items + lVar46 + -0x34);
+                      uVar27 = *puVar4;
+                      uVar28 = puVar4[1];
+                      fStack_c4 = (float)uVar27;
+                      fStack_c0 = (float)((ulong)uVar27 >> 0x20);
+                      fStack_bc = (float)uVar28;
+                      local_b8 = (float)((ulong)uVar28 >> 0x20);
+                      fStack_d4 = (float)uVar14;
+                      fStack_d0 = (float)((ulong)uVar14 >> 0x20);
+                      fStack_cc = (float)uVar26;
+                      local_c8 = (float)((ulong)uVar26 >> 0x20);
+                      if (kept == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0)
+                      goto label_0598c723;
+                      local_128 = local_98;
+                      fStack_124 = fStack_94;
+                      local_148 = local_b8;
+                      fStack_140 = UStack_b0.x;
+                      fStack_13c = UStack_b0.y;
+                      item_00.fields.B.fields.Position.fields.x = fStack_d4;
+                      item_00.fields.A.fields.Shade = local_d8;
+                      item_00.fields.B.fields.Position.fields.z = fStack_cc;
+                      item_00.fields.B.fields.Position.fields.y = fStack_d0;
+                      item_00.fields.B.fields.Normal.fields.y = fStack_c4;
+                      item_00.fields.B.fields.Normal.fields.x = local_c8;
+                      local_158 = local_c8;
+                      fStack_154 = fStack_c4;
+                      fStack_150 = fStack_c0;
+                      fStack_14c = fStack_bc;
+                      fStack_164 = fStack_d4;
+                      fStack_160 = fStack_d0;
+                      fStack_15c = fStack_cc;
+                      piVar1 = &(kept->fields)._version;
+                      *piVar1 = *piVar1 + 1;
+                      pMVar40 = (kept->fields)._items;
+                      local_188._0_8_ = local_f8[0]._0_8_;
+                      local_188._8_8_ = local_f8._8_8_;
+                      local_188._16_8_ = local_f8[1]._4_8_;
+                      unique0x100059d3 = UStack_e0;
+                      local_168 = local_d8;
+                      fStack_144 = fStack_b4;
+                      _local_138 = unique0x1000175f;
+                      fStack_130 = fStack_a0;
+                      fStack_12c = fStack_9c;
+                      fStack_120 = fStack_90;
+                      fStack_11c = (float)triangle.fields.Submesh;
+                      if (pMVar40 == (Map_MapFracture_Triangle_array *)0x0) goto label_0598c723;
+                      uVar44 = (kept->fields)._size;
+                      if ((uint)pMVar40->max_length <= uVar44) break;
+                      (kept->fields)._size = uVar44 + 1;
+                      pUVar7 = &pMVar40->m_Items[(int)uVar44].fields.C.fields.UV;
+                      pUVar7->fields = UVar15;
+                      pUVar7[1] = (UnityEngine_Vector2_o)CONCAT44(triangle.fields.Submesh,fStack_90);
+                      pMVar37 = &pMVar40->m_Items[(int)uVar44].fields;
+                      *(undefined8 *)((long)&(pMVar37->C).fields.Position.fields + 8) = unique0x1000175f;
+                      *(undefined8 *)((long)&(pMVar37->C).fields.Normal.fields + 4) = uVar13;
+                      pMVar37 = &pMVar40->m_Items[(int)uVar44].fields;
+                      *(ulong *)((long)&(pMVar37->B).fields.UV.fields + 4) = CONCAT44(fStack_b4,local_b8);
+                      *(undefined8 *)&(pMVar37->C).fields.Position.fields = UStack_b0._0_8_;
+                      pMVar37 = &pMVar40->m_Items[(int)uVar44].fields;
+                      pMVar2 = &pMVar37->B;
+                      (pMVar2->fields).Normal.fields.x = local_c8;
+                      (pMVar2->fields).Normal.fields.y = fStack_c4;
+                      *(ulong *)((long)&(pMVar37->B).fields.Normal.fields + 8) = CONCAT44(fStack_bc,fStack_c0)
+                      ;
+                      pMVar37 = &pMVar40->m_Items[(int)uVar44].fields;
+                      *(ulong *)&(pMVar37->A).fields.Shade = CONCAT44(fStack_d4,local_d8);
+                      *(ulong *)((long)&(pMVar37->B).fields.Position.fields + 4) =
+                           CONCAT44(fStack_cc,fStack_d0);
+                      pMVar37 = &pMVar40->m_Items[(int)uVar44].fields;
+                      *(undefined8 *)((long)&(pMVar37->A).fields.Normal.fields + 4) = local_f8[1]._4_8_;
+                      (pMVar37->A).fields.UV.fields = UStack_e0;
+                      *(undefined8 *)&pMVar40->m_Items[(int)uVar44].fields.A.fields.Position =
+                           local_f8[0]._0_8_;
+                      *(undefined8 *)((long)&pMVar40->m_Items[(int)uVar44].fields.A.fields.Position + 8) =
+                           local_f8._8_8_;
+                      lVar46 = lVar46 + 0x24;
+                      if (uVar45 == uVar47) goto label_0598c575;
+                    }
+                    item_00.fields.Submesh = triangle.fields.Submesh;
+                    item_00.fields.C.fields.Shade = fStack_90;
+                    item_00.fields.A.fields.Position.fields = (pMVar2->fields).Position.fields;
+                    item_00.fields.A.fields.Normal.fields = (pMVar2->fields).Normal.fields;
+                    item_00.fields.A.fields.UV.fields = (pMVar2->fields).UV.fields;
+                    item_00.fields.B.fields.Normal.fields.z = fStack_c0;
+                    item_00.fields.B.fields.UV.fields.x = fStack_bc;
+                    item_00.fields.B.fields.UV.fields.y = local_b8;
+                    item_00.fields.B.fields.Shade = fStack_b4;
+                    item_00.fields.C.fields.Position.fields.x = fStack_140;
+                    item_00.fields.C.fields.Position.fields.y = fStack_13c;
+                    item_00.fields.C.fields.Position.fields.z = (float)unique0x1000175f;
+                    item_00.fields.C.fields.Normal.fields.x = SUB84(unique0x1000175f,4);
+                    item_00.fields.C.fields.Normal.fields.y = (float)(int)uVar13;
+                    item_00.fields.C.fields.Normal.fields.z = (float)(int)((ulong)uVar13 >> 0x20);
+                    item_00.fields.C.fields.UV.fields = UVar15;
+                    System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
+                              (kept,item_00,(MethodInfo_3AB1FB0 *)pMVar38->klass->rgctx_data[0xe].method);
+                    lVar46 = lVar46 + 0x24;
+                    __this = local_70;
+                  } while (uVar45 != uVar47);
+                }
+label_0598c575:
+                pMVar38 = MethodInfo_System_Collections_Generic_List_MapFracture_Segment_Add;
+                if (uVar43 != 2) {
+                  return;
+                }
+                pMVar22 = (__this->fields)._cut;
+                if (pMVar22 != (Map_MapFracture_Vertex_array *)0x0) {
+                  iVar20 = (int)pMVar22->max_length;
+                  if ((iVar20 == 1) || (iVar20 == 0)) goto label_0598c71e;
+                  __this_00 = (__this->fields)._segments;
+                  pfVar3 = &pMVar22->m_Items[0].fields.Shade;
+                  local_d8 = *pfVar3;
+                  pMVar2 = pMVar22->m_Items;
+                  local_f8[0].x = (pMVar2->fields).Position.fields.x;
+                  local_f8[0].y = (pMVar2->fields).Position.fields.y;
+                  local_f8._8_8_ = *(undefined8 *)&pMVar22->m_Items[0].fields.Position.fields.z;
+                  local_f8[1].y = pMVar22->m_Items[0].fields.Normal.fields.y;
+                  local_f8[1].z = pMVar22->m_Items[0].fields.Normal.fields.z;
+                  UStack_e0 = pMVar22->m_Items[0].fields.UV.fields;
+                  uVar29 = pMVar22->m_Items[1].fields.Position.fields.x;
+                  fVar30 = pMVar22->m_Items[1].fields.Position.fields.y;
+                  uVar14 = *(undefined8 *)pfVar3;
+                  uVar13 = *(undefined8 *)&pMVar22->m_Items[1].fields.Position.fields.z;
+                  uVar31 = pMVar22->m_Items[1].fields.Normal.fields.y;
+                  uVar32 = pMVar22->m_Items[1].fields.Normal.fields.z;
+                  UVar15 = pMVar22->m_Items[1].fields.UV.fields;
+                  fStack_cc = (float)uVar13;
+                  local_c8 = (float)((ulong)uVar13 >> 0x20);
+                  fStack_bc = UVar15.x;
+                  local_b8 = UVar15.y;
+                  fStack_b4 = pMVar22->m_Items[1].fields.Shade;
+                  fStack_d4 = (float)uVar29;
+                  fStack_d0 = fVar30;
+                  fStack_c4 = (float)uVar31;
+                  fStack_c0 = (float)uVar32;
+                  if (__this_00 != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
+                    local_148 = local_b8;
+                    local_158 = local_c8;
+                    fStack_154 = (float)uVar31;
+                    fStack_150 = (float)uVar32;
+                    fStack_14c = fStack_bc;
+                    local_168 = (float)uVar14;
+                    fStack_164 = (float)((ulong)uVar14 >> 0x20);
+                    fStack_160 = fVar30;
+                    fStack_15c = fStack_cc;
+                    fStack_140 = (float)triangle.fields.Submesh;
+                    piVar1 = &(__this_00->fields)._version;
+                    *piVar1 = *piVar1 + 1;
+                    pMVar40 = (Map_MapFracture_Triangle_array *)(__this_00->fields)._items;
+                    local_188._0_8_ = local_f8[0]._0_8_;
+                    local_188._8_8_ = local_f8._8_8_;
+                    local_188._16_8_ = local_f8[1]._4_8_;
+                    unique0x100059eb = UStack_e0;
+                    fStack_144 = fStack_b4;
+                    if (pMVar40 != (Map_MapFracture_Triangle_array *)0x0) {
+                      uVar44 = (__this_00->fields)._size;
+                      if ((uint)pMVar40->max_length <= uVar44) {
+                        item.fields.B.fields.Position.fields.z = fStack_cc;
+                        item.fields.B.fields.Position.fields.y = fVar30;
+                        item.fields.B.fields.Normal.fields.y = (float)uVar31;
+                        item.fields.B.fields.Normal.fields.x = local_c8;
+                        item.fields.A.fields = pMVar2->fields;
+                        item.fields.B.fields.Position.fields.x = pMVar2[1].fields.Position.fields.x;
+                        item.fields.B.fields.Normal.fields.z = (float)uVar32;
+                        item.fields.B.fields.UV.fields.x = fStack_bc;
+                        item.fields.B.fields.UV.fields.y = local_b8;
+                        item.fields.B.fields.Shade = fStack_b4;
+                        item.fields.Submesh = triangle.fields.Submesh;
+                        System_Collections_Generic_List_MapFracture_Segment___AddWithResize
+                                  (__this_00,item,(MethodInfo_3AADF70 *)pMVar38->klass->rgctx_data[0xe].method
+                                  );
+                        return;
+                      }
+                      (__this_00->fields)._size = uVar44 + 1;
+                      lVar42 = (long)(int)uVar44 * 0x4c;
+                      UVar33.y = (float)triangle.fields.Submesh;
+                      UVar33.x = fStack_b4;
+                      pUVar6 = (UnityEngine_Vector2_Fields *)
+                               ((long)&pMVar40->m_Items[0].fields.B + lVar42 + 0x18);
+                      *pUVar6 = UVar15;
+                      pUVar6[1] = UVar33;
+                      local_188._8_4_ = local_f8[0].z;
+                      local_188._12_4_ = local_f8[1].x;
+                      local_188._24_4_ = UStack_e0.x;
+                      fStack_16c = UStack_e0.y;
+                      triangle.fields.B.fields.Normal.fields.y = (float)uVar31;
+                      triangle.fields.B.fields.Normal.fields.x = local_c8;
+                      triangle.fields.B.fields.UV.fields.x = fStack_bc;
+                      triangle.fields.B.fields.Normal.fields.z = (float)uVar32;
+                      goto label_0598c2ad;
+                    }
+                  }
+                }
+              }
+              goto label_0598c723;
+            }
+          }
+        }
+      }
+    }
+  }
+label_0598c71e:
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Map.MapFracture$$AddCut
+// il2cpp: void Map_MapFracture__AddCut (Map_MapFracture_o* __this, Map_MapFracture_Vertex_o vertex, int32_t* count, const MethodInfo* method);
+// 0x598d050
+
+void Map_MapFracture__AddCut
+               (Map_MapFracture_o *__this,Map_MapFracture_Vertex_o vertex,int32_t *count,MethodInfo *method)
+
+{
+  Map_MapFracture_Vertex_o *pMVar1;
+  uint uVar2;
+  Map_MapFracture_Vertex_array *pMVar3;
+  Map_MapFracture_Vertex_Fields *pMVar4;
+  uint uVar5;
+  
+  pMVar3 = (__this->fields)._cut;
+  if (pMVar3 == (Map_MapFracture_Vertex_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  uVar5 = *count;
+  uVar2 = (uint)pMVar3->max_length;
+  if ((int)uVar5 < (int)uVar2) {
+    if (uVar2 <= uVar5) {
+      ThrowIndexOutOfRangeException();
+    }
+    pMVar3->m_Items[(int)uVar5].fields.Shade = vertex.fields.Shade;
+    pMVar4 = &pMVar3->m_Items[(int)uVar5].fields;
+    (pMVar4->Normal).fields.y = vertex.fields.Normal.fields.y;
+    (pMVar4->Normal).fields.z = vertex.fields.Normal.fields.z;
+    (pMVar4->UV).fields = vertex.fields.UV.fields;
+    pMVar1 = pMVar3->m_Items + (int)uVar5;
+    (pMVar1->fields).Position.fields.x = vertex.fields.Position.fields.x;
+    (pMVar1->fields).Position.fields.y = vertex.fields.Position.fields.y;
+    *(undefined8 *)&(pMVar1->fields).Position.fields.z = vertex.fields._8_8_;
+    uVar5 = *count;
+  }
+  *count = uVar5 + 1;
+  return;
+}
+
+
+// Map.MapFracture$$CloseOpenings
+// il2cpp: void Map_MapFracture__CloseOpenings (Map_MapFracture_o* __this, const MethodInfo* method);
+// 0x5988fc0
+// eh: try 0x59893da..0x598a0a7 -> pad 0x598a317 (+15 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598a194..0x598a199 -> pad 0x598a294 cleanup
+// eh: try 0x598a28f..0x598a294 -> pad 0x598a2a9 catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598a297..0x598a2a4 -> pad 0x598a381 catch (...) [compiler noexcept guard]
+// eh: try 0x598a2d2..0x598a2d7 -> pad 0x598a2f9 cleanup
+// eh: try 0x598a2fc..0x598a309 -> pad 0x598a381 catch (...) [compiler noexcept guard]
+// eh: try 0x598a33c..0x598a341 -> pad 0x598a369 cleanup
+// eh: try 0x598a36c..0x598a379 -> pad 0x598a381 catch (...) [compiler noexcept guard]
+// asm: 85 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x59893cc: nop dword ptr [rax]
+// asm:   0x5989600: jmp 0x598965e
+// asm:   0x5989b20: mov ebx, ebp
+// asm:   0x5989c6d: jmp 0x598a28a
+// asm:   0x598a175: mov rbx, rax
+// asm:   0x598a178: cmp edx, 1
+// asm:   0x598a17b: jne 0x598a297
+// asm:   0x598a181: mov rdi, rbx
+// asm:   0x598a184: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598a189: mov rbp, qword ptr [rax]
+// asm:   0x598a18c: mov qword ptr [rsp + 0xe0], rbp
+// asm:   0x598a194: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598a199: lea rax, [rip + 0x1904c58]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_Dispose
+// asm:   0x598a1a0: mov rsi, qword ptr [rax]
+// asm:   0x598a1a3: lea rdi, [rsp + 0x1c0]
+// asm:   0x598a1ab: call 0x4d66410  ; System_Collections_Generic_List_Enumerator_Vector3___Dispose()
+// asm:   0x598a1b0: test rbp, rbp
+// asm:   0x598a1b3: mov r12, qword ptr [rsp + 0xd0]
+// asm:   0x598a1bb: mov r13, qword ptr [rsp + 0x90]
+// asm:   0x598a1c3: mov ebx, dword ptr [rsp + 0x70]
+// asm:   0x598a1c7: je 0x598a10d
+// asm:   0x598a1cd: mov rdi, rbp
+// asm:   0x598a1d0: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598a294: mov rbx, rax
+// asm:   0x598a297: lea rdi, [rsp + 0xe0]
+// asm:   0x598a29f: call 0x2fd4500  ; il2cpp_runtime_helper_02fd4500()
+// asm:   0x598a2a4: jmp 0x598a379
+// asm:   0x598a2a9: jmp 0x598a2b7
+// asm:   0x598a2ab: jmp 0x598a2b7
+// asm:   0x598a2ad: jmp 0x598a2b7
+// asm:   0x598a2af: jmp 0x598a2b7
+// asm:   0x598a2b1: jmp 0x598a2b7
+// asm:   0x598a2b3: jmp 0x598a2b7
+// asm:   0x598a2b5: jmp 0x598a2b7
+// asm:   0x598a2b7: mov rbx, rax
+// asm:   0x598a2ba: cmp edx, 1
+// asm:   0x598a2bd: jne 0x598a2fc
+// asm:   0x598a2bf: mov rdi, rbx
+// asm:   0x598a2c2: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598a2c7: mov rbx, qword ptr [rax]
+// asm:   0x598a2ca: mov qword ptr [rsp + 0xe0], rbx
+// asm:   0x598a2d2: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598a2d7: lea rax, [rip + 0x19052e2]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_Dispose
+// asm:   0x598a2de: mov rsi, qword ptr [rax]
+// asm:   0x598a2e1: lea rdi, [rsp + 0x190]
+// asm:   0x598a2e9: call 0x4d8e7c0  ; System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___Dispose()
+// asm:   0x598a2ee: test rbx, rbx
+// asm:   0x598a2f1: je 0x59899dc
+// asm:   0x598a2f7: jmp 0x598a361
+// asm:   0x598a2f9: mov rbx, rax
+// asm:   0x598a2fc: lea rdi, [rsp + 0xe0]
+// asm:   0x598a304: call 0x2fd44d0  ; il2cpp_runtime_helper_02fd44d0()
+// asm:   0x598a309: jmp 0x598a379
+// asm:   0x598a30b: jmp 0x598a317
+// asm:   0x598a30d: jmp 0x598a317
+// asm:   0x598a30f: jmp 0x598a31c
+// asm:   0x598a311: jmp 0x598a317
+// asm:   0x598a313: jmp 0x598a31c
+// asm:   0x598a315: jmp 0x598a31c
+// asm:   0x598a317: mov rbx, rax
+// asm:   0x598a31a: jmp 0x598a324
+// asm:   0x598a31c: mov rbx, rax
+// asm:   0x598a31f: mov rbp, qword ptr [rsp + 0x58]
+// asm:   0x598a324: cmp edx, 1
+// asm:   0x598a327: jne 0x598a36c
+// asm:   0x598a329: mov rdi, rbx
+// asm:   0x598a32c: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598a331: mov rbx, qword ptr [rax]
+// asm:   0x598a334: mov qword ptr [rsp + 0xe0], rbx
+// asm:   0x598a33c: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598a341: lea rax, [rip + 0x1904f90]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x598a348: mov rsi, qword ptr [rax]
+// asm:   0x598a34b: lea rdi, [rsp + 0x220]
+// asm:   0x598a353: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x598a358: test rbx, rbx
+// asm:   0x598a35b: je 0x59897d4
+// asm:   0x598a361: mov rdi, rbx
+// asm:   0x598a364: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598a369: mov rbx, rax
+// asm:   0x598a36c: lea rdi, [rsp + 0xe0]
+// asm:   0x598a374: call 0x2fd44a0  ; il2cpp_runtime_helper_02fd44a0()
+// asm:   0x598a379: mov rdi, rbx
+// asm:   0x598a37c: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598a381: mov rdi, rax
+// asm:   0x598a384: call 0x2ab61e0  ; __clang_call_terminate()
+
+void Map_MapFracture__CloseOpenings(Map_MapFracture_o *__this,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  Map_MapFracture_Vertex_o *pMVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  uint32_t uVar7;
+  uint uVar8;
+  System_Collections_Generic_List_MapFracture_Triangle__o *__this_00;
+  Map_MapFracture_Vertex_array *pMVar9;
+  UnityEngine_Vector3_array *pUVar10;
+  undefined1 auVar11 [16];
+  undefined1 auVar12 [16];
+  Map_MapFracture_Vertex_o vertex;
+  Map_MapFracture_Vertex_o vertex_00;
+  Map_MapFracture_Vertex_o vertex_01;
+  Map_MapFracture_Vertex_o item;
+  undefined1 auVar13 [16];
+  undefined1 auVar14 [16];
+  Map_MapFracture_Vertex_Fields *pMVar15;
+  ulong uVar16;
+  MethodInfo *pMVar17;
+  System_Collections_Generic_Dictionary_Vector3Int__int__o *points;
+  System_Collections_Generic_List_MapFracture_Vertex__o *__this_01;
+  int32_t b;
+  undefined8 uVar18;
+  undefined8 uVar19;
+  undefined4 uVar20;
+  bool bVar21;
+  int32_t iVar22;
+  int32_t b_00;
+  int iVar23;
+  System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *__this_02;
+  UnityEngine_Vector3_StaticFields *pUVar24;
+  System_Collections_Generic_Dictionary_int__int__o *pSVar25;
+  System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *pSVar26;
+  System_Collections_Generic_List_MapFracture_Vertex__o *pSVar27;
+  System_Collections_Generic_List_Vector3__o *__this_03;
+  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *pSVar28;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *in_R8;
+  float fVar29;
+  float extraout_XMM0_Db;
+  float fVar30;
+  undefined1 __x [4];
+  undefined1 auVar31 [16];
+  UnityEngine_Vector3_o normal;
+  Map_MapFracture_Opening_o MVar32;
+  Map_MapFracture_Opening_o value;
+  Map_MapFracture_Opening_o opening;
+  Map_MapFracture_Opening_o opening_00;
+  int32_t local_31c;
+  float local_318;
+  float fStack_314;
+  float fStack_310;
+  float fStack_30c;
+  undefined1 local_308 [4];
+  undefined1 auStack_304 [12];
+  System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *local_2f0;
+  undefined1 local_2e8 [16];
+  System_Collections_Generic_Dictionary_Vector3Int__int__o *local_2d8;
+  System_Collections_Generic_List_MapFracture_Vertex__o *local_2d0;
+  undefined1 local_2c8 [8];
+  float fStack_2c0;
+  float fStack_2bc;
+  undefined8 local_2b8;
+  undefined8 uStack_2b0;
+  undefined8 local_2a8;
+  undefined8 uStack_2a0;
+  undefined1 local_298 [8];
+  undefined1 *puStack_290;
+  System_Collections_Generic_Dictionary_int__int__o *local_288;
+  undefined1 local_278 [16];
+  undefined1 local_268 [16];
+  undefined8 local_258;
+  UnityEngine_Vector2_Fields UStack_250;
+  float local_248;
+  float fStack_244;
+  float fStack_240;
+  float fStack_23c;
+  undefined8 local_238;
+  undefined8 uStack_230;
+  undefined8 local_228;
+  undefined8 uStack_220;
+  undefined8 local_218;
+  ulong uStack_210;
+  undefined8 local_208;
+  undefined8 uStack_200;
+  undefined8 local_1f8;
+  undefined8 uStack_1f0;
+  undefined1 local_1e8 [8];
+  undefined1 local_1e0 [16];
+  System_Collections_Generic_Dictionary_int__int__o *local_1d0;
+  UnityEngine_Vector2_Fields UStack_1c8;
+  float local_1c0;
+  undefined1 local_1b8 [8];
+  undefined1 *puStack_1b0;
+  float local_1a8;
+  float fStack_1a4;
+  float fStack_1a0;
+  float fStack_19c;
+  undefined8 local_198;
+  undefined8 uStack_190;
+  undefined1 local_188 [8];
+  undefined1 *puStack_180;
+  System_Collections_Generic_Dictionary_int__int__o *local_178;
+  UnityEngine_Vector2_Fields UStack_170;
+  undefined4 local_168;
+  undefined4 uStack_164;
+  undefined4 uStack_160;
+  undefined4 uStack_15c;
+  undefined4 local_158;
+  float fStack_154;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  undefined8 local_138;
+  MethodInfo *local_130;
+  undefined1 local_128 [8];
+  undefined1 *puStack_120;
+  System_Collections_Generic_Dictionary_int__int__o *local_118;
   float fStack_110;
   float fStack_10c;
   float local_108;
   float fStack_104;
   float fStack_100;
   float fStack_fc;
+  float fStack_f8;
+  float fStack_f4;
+  float fStack_f0;
+  uint uStack_ec;
+  undefined8 local_e8;
+  undefined8 uStack_e0;
+  undefined8 local_d8;
+  ulong uStack_d0;
+  uint local_c8;
+  undefined4 uStack_c4;
+  undefined4 uStack_c0;
+  undefined4 uStack_bc;
+  undefined4 local_b8;
+  undefined4 uStack_b4;
+  float fStack_b0;
+  undefined4 uStack_ac;
+  undefined8 local_a8;
+  undefined4 uStack_a0;
+  undefined4 uStack_9c;
+  undefined4 uStack_98;
+  undefined4 uStack_94;
+  undefined4 uStack_90;
+  undefined4 uStack_8c;
+  float fStack_88;
+  undefined8 local_80;
+  undefined4 uStack_78;
+  undefined4 uStack_74;
+  undefined4 uStack_70;
+  undefined4 uStack_6c;
+  undefined4 uStack_68;
+  undefined4 uStack_64;
+  float fStack_60;
+  System_Collections_Generic_Dictionary_int__int__o *local_58;
+  float fStack_50;
+  float afStack_4c [3];
+  float fStack_40;
+  float fStack_3c;
+  float fStack_38;
   
-  if (Il2CppMethodInitialized_18434508f == '\0') {
+  if (Il2CppMethodInitialized_07545a20 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -4384,626 +5011,762 @@ void Map_MapFracture__CloseOpenings(Map_MapFracture_o *__this,MethodInfo *method
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector3);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
-    Il2CppMethodInitialized_18434508f = '\x01';
+    Il2CppMethodInitialized_07545a20 = '\x01';
   }
-  local_268._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_268._8_8_ = 0;
-  local_258 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  uStack_250 = 0;
-  local_248 = (Il2CppObject *)0x0;
-  UStack_240.x = 0.0;
-  UStack_240.y = 0.0;
-  local_238 = 0;
-  uStack_230 = 0;
-  local_228 = 0.0;
-  fStack_224 = 0.0;
-  fStack_220 = 0.0;
-  fStack_21c = 0.0;
-  local_218 = 0.0;
-  fStack_214 = 0.0;
-  fStack_210 = 0.0;
-  fStack_20c = 0.0;
-  local_208 = 0.0;
-  fStack_204 = 0.0;
-  fStack_200 = 0.0;
-  fStack_1fc = 0.0;
-  local_1f8 = 0;
-  uStack_1f0 = 0;
-  local_3d8.x = 0.0;
-  local_3d8.y = 0.0;
-  local_3d8.z = 0.0;
-  fStack_3cc = 0.0;
-  local_298._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_298._8_8_ = 0;
-  local_288 = 0.0;
-  fStack_284 = 0.0;
-  fStack_280 = 0.0;
-  fStack_27c = 0.0;
-  local_278 = 0.0;
-  fStack_274 = 0.0;
-  uStack_270 = 0;
-  local_2b0._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_2b0._8_8_ = 0;
-  local_2a0 = (Il2CppObject *)0x0;
-  local_410.x = 0.0;
-  local_410.y = 0.0;
-  local_410.z = 0.0;
-  local_res18[0] = 0.0;
-  local_2d8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_2d8._8_8_ = 0;
-  local_2c8 = (Il2CppObject *)0x0;
-  UStack_2c0.x = 0.0;
-  UStack_2c0.y = 0.0;
-  points = il2cpp_codegen_object_new
-                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_int);
-  local_res20 = points;
+  local_b8 = 0;
+  uStack_b4 = 0;
+  fStack_b0 = 0.0;
+  uStack_ac = 0;
+  local_c8 = 0;
+  uStack_c4 = 0;
+  uStack_c0 = 0;
+  uStack_bc = 0;
+  local_d8 = 0;
+  uStack_d0 = 0;
+  local_e8 = 0;
+  uStack_e0 = 0;
+  fStack_f8 = 0.0;
+  fStack_f4 = 0.0;
+  fStack_f0 = 0.0;
+  uStack_ec = 0;
+  local_108 = 0.0;
+  fStack_104 = 0.0;
+  fStack_100 = 0.0;
+  fStack_fc = 0.0;
+  local_118 = (System_Collections_Generic_Dictionary_int__int__o *)0x0;
+  fStack_110 = 0.0;
+  fStack_10c = 0.0;
+  local_128 = (undefined1  [8])0x0;
+  puStack_120 = (undefined1 *)0x0;
+  local_148 = 0;
+  uStack_140 = 0;
+  local_138 = 0;
+  local_168 = 0;
+  uStack_164 = 0;
+  uStack_160 = 0;
+  uStack_15c = 0;
+  local_158 = 0;
+  fStack_154 = 0.0;
+  local_198._0_4_ = 0;
+  local_198._4_4_ = 0;
+  uStack_190._0_4_ = 0.0;
+  uStack_190._4_4_ = 0.0;
+  local_1a8 = 0.0;
+  fStack_1a4 = 0.0;
+  fStack_1a0 = 0.0;
+  fStack_19c = 0.0;
+  local_1b8 = (undefined1  [8])0x0;
+  puStack_1b0 = (undefined1 *)0x0;
+  local_298 = (undefined1  [8])0x0;
+  puStack_290 = (undefined1 *)0x0;
+  local_288 = (System_Collections_Generic_Dictionary_int__int__o *)0x0;
+  local_31c = 0;
+  local_178 = (System_Collections_Generic_Dictionary_int__int__o *)0x0;
+  UStack_170.x = 0.0;
+  UStack_170.y = 0.0;
+  local_188 = (undefined1  [8])0x0;
+  puStack_180 = (undefined1 *)0x0;
+  local_2d8 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_int);
   System_Collections_Generic_Dictionary_Vector3Int__int____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)points,
-             (MethodInfo_14CF520 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_ctor);
-  __this_01 = il2cpp_codegen_object_new
+            (local_2d8,
+             (MethodInfo_4B1BB70 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_ctor);
+  local_2d0 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
   System_Collections_Generic_List_MapFracture_Vertex____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
+            (local_2d0,
+             (MethodInfo_3AB57C0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
   __this_02 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening
                         );
   System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening____ctor
             (__this_02,
-             (MethodInfo_13CC630 *)
+             (MethodInfo_499DDD0 *)
              MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_ctor);
   __this_00 = (__this->fields)._triangles;
+  local_130 = (MethodInfo *)__this;
   if (__this_00 != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    local_3e8 = __this_02;
-    local_3b8 = __this_01;
     System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-              (&local_1c8,__this_00,
-               (MethodInfo_969260 *)
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_268,__this_00,
+               (MethodInfo_3AB3540 *)
                MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    local_268._0_8_ = local_1c8.fields._list;
-    local_268._8_4_ = local_1c8.fields._index;
-    local_268._12_4_ = local_1c8.fields._version;
-    local_258 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_1c8.fields._current;
-    uStack_250 = uStack_1b0;
-    local_248 = local_1a8;
-    UStack_240 = UStack_1a0;
-    local_238 = local_198;
-    uStack_230 = uStack_190;
-    local_228 = local_188;
-    fStack_224 = fStack_184;
-    fStack_220 = fStack_180;
-    fStack_21c = fStack_17c;
-    local_218 = local_178;
-    fStack_214 = fStack_174;
-    fStack_210 = fStack_170;
-    fStack_20c = fStack_16c;
-    local_208 = local_168;
-    fStack_204 = fStack_164;
-    fStack_200 = fStack_160;
-    fStack_1fc = fStack_15c;
-    local_1f8 = local_158;
-    uStack_1f0 = uStack_150;
-    local_3a0 = (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
-    local_398 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_268;
-    while (bVar8 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                             ((System_Collections_Generic_List_Enumerator_T__o *)local_268,
-                              (MethodInfo_1558F50 *)
-                              MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
-                             ), fVar17 = local_208, fVar16 = fStack_214, bVar8) {
-      fVar13 = (float)local_258;
-      fVar10 = local_258._4_4_;
-      fVar5 = (float)uStack_250;
-      fVar12 = local_238._4_4_;
-      fVar11 = (float)uStack_230;
-      fVar15 = uStack_230._4_4_;
-      local_188 = local_218;
-      fStack_184 = fStack_214;
-      fStack_180 = fStack_210;
-      fStack_17c = fStack_20c;
-      local_178 = local_208;
-      fStack_174 = fStack_204;
-      fStack_170 = fStack_200;
-      fStack_16c = fStack_1fc;
-      fVar6 = (float)uStack_1f0;
-      fVar7 = uStack_1f0._4_4_;
-      local_168 = (float)local_1f8;
-      fStack_164 = local_1f8._4_4_;
-      fStack_160 = (float)uStack_1f0;
-      fStack_15c = uStack_1f0._4_4_;
-      local_128 = (float)local_238;
-      fStack_124 = local_238._4_4_;
-      fStack_120 = (float)uStack_230;
-      fStack_11c = uStack_230._4_4_;
-      local_118 = local_228;
-      fStack_114 = fStack_224;
-      fStack_110 = fStack_220;
-      fStack_10c = fStack_21c;
-      local_108 = local_218;
-      fStack_104 = fStack_214;
-      fStack_100 = fStack_210;
-      fStack_fc = fStack_20c;
-      local_358._0_8_ = local_258;
-      local_358._8_8_ = uStack_250;
-      local_358._16_8_ = local_248;
-      UStack_340 = UStack_240;
-      local_338 = (float)local_238;
-      iVar9 = Map_MapFracture__Weld(points,__this_01,(Map_MapFracture_Vertex_o *)local_358,(MethodInfo *)0x0);
-      local_308.fields.Position.fields.x = fStack_124;
-      local_308.fields.Position.fields.y = fStack_120;
-      local_308.fields.Position.fields.z = fStack_11c;
-      local_308.fields.Normal.fields.x = local_118;
-      local_308.fields.UV.fields.y = local_108;
-      local_308.fields.UV.fields.x = fStack_10c;
-      local_308.fields.Normal.fields.y = fStack_114;
-      local_308.fields.Normal.fields.z = fStack_110;
-      local_308.fields.Shade = fVar16;
-      tileX = Map_MapFracture__Weld(points,__this_01,&local_308,(MethodInfo *)0x0);
-      fVar14 = fStack_17c;
-      fVar16 = fStack_180;
-      local_388._0_4_ = fStack_180;
-      local_388._4_4_ = fStack_17c;
-      fStack_380 = local_178;
-      fStack_37c = fStack_174;
-      local_378 = (Il2CppObject *)CONCAT44(fStack_16c,fStack_170);
-      UStack_370.y = fStack_164;
-      UStack_370.x = local_168;
-      local_368 = fVar6;
-      tileX_00 = Map_MapFracture__Weld
-                           (points,__this_01,(Map_MapFracture_Vertex_o *)local_388,(MethodInfo *)0x0);
-      fVar12 = fVar12 - fVar13;
-      fVar11 = fVar11 - fVar10;
-      fVar15 = fVar15 - fVar5;
-      fVar16 = fVar16 - fVar13;
-      fVar14 = fVar14 - fVar10;
-      fVar17 = fVar17 - fVar5;
-      fVar13 = fVar17 * fVar11 - fVar14 * fVar15;
-      fVar17 = fVar16 * fVar15 - fVar17 * fVar12;
-      fVar16 = fVar14 * fVar12 - fVar16 * fVar11;
-      local_3b0 = (System_Collections_Generic_List_Vector3__o *)CONCAT44(fVar17,fVar13);
-      local_3a8 = fVar16;
-      if (Il2CppMethodInitialized_18433de5f == '\0') {
+    local_b8 = (undefined4)local_1f8;
+    uStack_b4 = (undefined4)((ulong)local_1f8 >> 0x20);
+    fStack_b0 = (float)uStack_1f0;
+    uStack_ac = (undefined4)((ulong)uStack_1f0 >> 0x20);
+    local_c8 = (uint)local_208;
+    uStack_c4 = (undefined4)((ulong)local_208 >> 0x20);
+    uStack_c0 = (undefined4)uStack_200;
+    uStack_bc = (undefined4)((ulong)uStack_200 >> 0x20);
+    local_d8 = local_218;
+    uStack_d0 = uStack_210;
+    local_e8 = local_228;
+    uStack_e0 = uStack_220;
+    fStack_f8 = (float)local_238;
+    fStack_f4 = (float)((ulong)local_238 >> 0x20);
+    fStack_f0 = (float)uStack_230;
+    uStack_ec = (uint)((ulong)uStack_230 >> 0x20);
+    local_108 = local_248;
+    fStack_104 = fStack_244;
+    fStack_100 = (float)_fStack_240;
+    fStack_fc = SUB84(_fStack_240,4);
+    local_118 = local_258;
+    fStack_110 = UStack_250.x;
+    fStack_10c = UStack_250.y;
+    local_128 = (undefined1  [8])local_268._0_8_;
+    puStack_120 = (undefined1 *)local_268._8_8_;
+    local_268._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+    local_268._8_8_ = local_128;
+    local_2f0 = __this_02;
+    while (bVar21 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                              ((System_Collections_Generic_List_Enumerator_T__o *)local_128,
+                               (MethodInfo_4C82200 *)
+                               MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext
+                              ), uVar20 = uStack_ac, pSVar27 = local_2d0, points = local_2d8, bVar21) {
+      local_318 = fStack_f4;
+      fStack_314 = fStack_f0;
+      fStack_310 = 0.0;
+      fStack_30c = 0.0;
+      local_138 = local_d8;
+      local_148 = local_e8;
+      uStack_140 = uStack_e0;
+      _fStack_2c0 = 0;
+      local_2c8 = (undefined1  [8])uStack_d0;
+      local_2e8 = ZEXT416(uStack_ec);
+      _local_308 = ZEXT416(local_c8);
+      local_158 = uStack_b4;
+      fStack_154 = fStack_b0;
+      local_168 = uStack_c4;
+      uStack_164 = uStack_c0;
+      uStack_160 = uStack_bc;
+      uStack_15c = local_b8;
+      local_2b8 = local_118;
+      uStack_2b0 = 0;
+      local_58 = local_118;
+      local_278 = ZEXT416((uint)fStack_110);
+      fStack_50 = fStack_110;
+      afStack_4c[0] = fStack_10c;
+      fStack_40 = fStack_100;
+      fStack_3c = fStack_fc;
+      fStack_38 = fStack_f8;
+      vertex.fields.Normal.fields.x = fStack_10c;
+      vertex.fields.Position.fields.z = fStack_110;
+      vertex.fields.Normal.fields.z = fStack_104;
+      vertex.fields.Normal.fields.y = local_108;
+      vertex.fields.UV.fields.y = fStack_fc;
+      vertex.fields.UV.fields.x = fStack_100;
+      vertex.fields.Position.fields._0_8_ = local_118;
+      vertex.fields.Shade = fStack_f8;
+      iVar22 = Map_MapFracture__Weld(local_2d8,local_2d0,vertex,(MethodInfo *)afStack_4c);
+      local_2a8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)CONCAT44(local_2a8._4_4_,iVar22);
+      local_80 = CONCAT44(fStack_314,local_318);
+      uStack_78 = local_2e8._0_4_;
+      uStack_64 = (undefined4)local_138;
+      fStack_60 = (float)((ulong)local_138 >> 0x20);
+      uStack_74 = (undefined4)local_148;
+      uStack_70 = (undefined4)((ulong)local_148 >> 0x20);
+      uStack_6c = (undefined4)uStack_140;
+      uStack_68 = (undefined4)((ulong)uStack_140 >> 0x20);
+      vertex_00.fields.Normal.fields.x = (float)uStack_74;
+      vertex_00.fields.Position.fields.z = (float)local_2e8._0_4_;
+      vertex_00.fields.Normal.fields.z = (float)uStack_6c;
+      vertex_00.fields.Normal.fields.y = (float)uStack_70;
+      vertex_00.fields.UV.fields.y = (float)uStack_64;
+      vertex_00.fields.UV.fields.x = (float)uStack_68;
+      vertex_00.fields.Position.fields.x = local_318;
+      vertex_00.fields.Position.fields.y = fStack_314;
+      vertex_00.fields.Shade = fStack_60;
+      iVar22 = Map_MapFracture__Weld(points,pSVar27,vertex_00,method_00);
+      local_a8 = local_2c8;
+      uStack_a0 = local_308;
+      uStack_8c = local_158;
+      fStack_88 = fStack_154;
+      uStack_9c = local_168;
+      uStack_98 = uStack_164;
+      uStack_94 = uStack_160;
+      uStack_90 = uStack_15c;
+      vertex_01.fields.Normal.fields.x = (float)local_168;
+      vertex_01.fields.Position.fields.z = (float)local_308;
+      vertex_01.fields.Normal.fields.z = (float)uStack_160;
+      vertex_01.fields.Normal.fields.y = (float)uStack_164;
+      vertex_01.fields.UV.fields.y = (float)local_158;
+      vertex_01.fields.UV.fields.x = (float)uStack_15c;
+      vertex_01.fields.Position.fields.x = (float)local_2c8._0_4_;
+      vertex_01.fields.Position.fields.y = (float)local_2c8._4_4_;
+      vertex_01.fields.Shade = fStack_154;
+      b_00 = Map_MapFracture__Weld(points,pSVar27,vertex_01,method_01);
+      if (Il2CppMethodInitialized_0753e72d == '\0') {
         il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433de5f = '\x01';
-      }
-      local_3c8._0_4_ = 0.0;
-      local_3c8._4_4_ = 0.0;
-      local_3c8._8_8_ = local_3c8._8_8_ & 0xffffffff00000000;
-      fVar10 = (float)il2cpp_runtime_helper_180546a40(&local_3b0,0);
-      if (fVar10 <= 1e-05) {
-        pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
-        local_3d8.x = (pUVar2->zeroVector).fields.x;
-        local_3d8.y = (pUVar2->zeroVector).fields.y;
-        local_3d8.z = (pUVar2->zeroVector).fields.z;
-      }
-      else {
-        local_3d8.x = fVar13 / fVar10;
-        local_3d8.z = fVar16 / fVar10;
-        local_3d8.y = fVar17 / fVar10;
-      }
-      fStack_3cc = fVar7;
-      if (Il2CppMethodInitialized_184345090 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                  );
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_ValueTuple_int_int_ctor);
-        Il2CppMethodInitialized_184345090 = '\x01';
-      }
-      if (iVar9 == tileX) {
-label_181ea3282:
-        fVar16 = local_3d8.x;
-        fVar17 = local_3d8.y;
-        fVar13 = local_3d8.z;
-        fVar10 = fStack_3cc;
+        Il2CppMethodInitialized_0753e72d = '\x01';
+        local_1e8._0_4_ = 0.0;
+        local_1e8._4_4_ = 0.0;
+        if (Il2CppMethodInitialized_0753e729 != '\0') goto label_059895ed;
+label_05989638:
+        local_1e8._0_4_ = 0.0;
+        local_1e8._4_4_ = 0.0;
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+        Il2CppMethodInitialized_0753e729 = '\x01';
+        uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
       }
       else {
-        local_418.Item1 = 0;
-        local_418.Item2 = 0;
-        System_ValueTuple_int__int____ctor
-                  ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,tileX,iVar9,
-                   MethodInfo_System_ValueTuple_int_int_ctor);
-        if (__this_02 ==
-            (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar8 = System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___Remove
-                          (__this_02,(System_ValueTuple_int__int__o)local_418,
-                           (MethodInfo_13C3940 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                          );
-        if (bVar8) goto label_181ea3282;
-        local_418.Item1 = 0;
-        local_418.Item2 = 0;
-        System_ValueTuple_int__int____ctor
-                  ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,iVar9,tileX,
-                   MethodInfo_System_ValueTuple_int_int_ctor);
-        fVar10 = fStack_3cc;
-        fVar13 = local_3d8.z;
-        fVar16 = local_3d8.x;
-        fVar17 = local_3d8.y;
-        local_3f8.fields.Normal.fields.x = local_3d8.x;
-        local_3f8.fields.Normal.fields.y = local_3d8.y;
-        local_3f8.fields.Submesh = (int32_t)fStack_3cc;
-        local_3f8.fields.Normal.fields.z = local_3d8.z;
-        System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___set_Item
-                  (__this_02,(System_ValueTuple_int__int__o)local_418,&local_3f8,
-                   (MethodInfo_13CE290 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                  );
+        local_1e8._0_4_ = 0.0;
+        local_1e8._4_4_ = 0.0;
+        if (Il2CppMethodInitialized_0753e729 == '\0') goto label_05989638;
+label_059895ed:
+        local_1e8._0_4_ = 0.0;
+        local_1e8._4_4_ = 0.0;
+        uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
       }
-      if (Il2CppMethodInitialized_184345090 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                  );
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_ValueTuple_int_int_ctor);
-        Il2CppMethodInitialized_184345090 = '\x01';
+      if (uVar7 == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
       }
-      if (tileX != tileX_00) {
-        local_418.Item1 = 0;
-        local_418.Item2 = 0;
-        System_ValueTuple_int__int____ctor
-                  ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,tileX_00,tileX,
-                   MethodInfo_System_ValueTuple_int_int_ctor);
-        if (__this_02 ==
-            (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar8 = System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___Remove
-                          (__this_02,(System_ValueTuple_int__int__o)local_418,
-                           (MethodInfo_13C3940 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                          );
-        if (!bVar8) {
-          local_418.Item1 = 0;
-          local_418.Item2 = 0;
-          System_ValueTuple_int__int____ctor
-                    ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,tileX,tileX_00,
-                     MethodInfo_System_ValueTuple_int_int_ctor);
-          local_3f8.fields.Normal.fields.y = fVar17;
-          local_3f8.fields.Normal.fields.x = fVar16;
-          local_3f8.fields.Submesh = (int32_t)fVar10;
-          local_3f8.fields.Normal.fields.z = fVar13;
-          System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___set_Item
-                    (__this_02,(System_ValueTuple_int__int__o)local_418,&local_3f8,
-                     (MethodInfo_13CE290 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                    );
-        }
+      fVar29 = (float)local_2c8._0_4_ - (float)local_2b8;
+      fVar30 = local_318 - (float)local_2b8;
+      auVar31._0_4_ =
+           ((float)local_308 - (float)local_278._0_4_) * (fStack_314 - local_2b8._4_4_) -
+           ((float)local_2e8._0_4_ - (float)local_278._0_4_) * ((float)local_2c8._4_4_ - local_2b8._4_4_);
+      auVar31._4_4_ =
+           ((float)local_2e8._0_4_ - (float)local_278._0_4_) * fVar29 -
+           ((float)local_308 - (float)local_278._0_4_) * fVar30;
+      auVar31._8_4_ =
+           ((float)auStack_304._0_4_ - (float)local_278._0_4_) * (fStack_310 - (float)uStack_2b0) -
+           ((float)auStack_304._0_4_ - (float)local_278._0_4_) * (fStack_2c0 - (float)uStack_2b0);
+      auVar31._12_4_ =
+           ((float)local_2e8._4_4_ - (float)local_278._0_4_) * (fStack_30c - uStack_2b0._4_4_) -
+           ((float)local_2e8._4_4_ - (float)local_278._0_4_) * (fStack_2bc - uStack_2b0._4_4_);
+      local_318 = fVar30 * ((float)local_2c8._4_4_ - local_2b8._4_4_) -
+                  fVar29 * (fStack_314 - local_2b8._4_4_);
+      fStack_314 = fVar30 * fVar30 - fVar29 * fVar29;
+      fStack_310 = fVar30 * (fStack_2c0 - (float)uStack_2b0) - fVar29 * (fStack_310 - (float)uStack_2b0);
+      fStack_30c = fVar30 * (fStack_2bc - uStack_2b0._4_4_) - fVar29 * (fStack_30c - uStack_2b0._4_4_);
+      fVar29 = local_318 * local_318 + auVar31._4_4_ * auVar31._4_4_ + auVar31._0_4_ * auVar31._0_4_;
+      if (fVar29 < 0.0) {
+        local_2e8 = auVar31;
+        fVar29 = sqrtf(fVar29);
+        fStack_314 = extraout_XMM0_Db;
+        auVar31 = local_2e8;
+        if (fVar29 <= 1e-05) goto label_05989707;
+label_05989742:
+        fVar30 = local_318 / fVar29;
+        auVar11._4_4_ = fVar29;
+        auVar11._0_4_ = fVar29;
+        auVar11._8_4_ = fStack_314;
+        auVar11._12_4_ = fStack_314;
+        auVar31 = divps(auVar31,auVar11);
+        local_1e8._0_4_ = auVar31._0_4_;
+        local_1e8._4_4_ = auVar31._4_4_;
+        pUVar24 = (UnityEngine_Vector3_StaticFields *)local_1e8;
       }
-      if (Il2CppMethodInitialized_184345090 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                  );
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&
-                   MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                  );
-        il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_ValueTuple_int_int_ctor);
-        Il2CppMethodInitialized_184345090 = '\x01';
+      else {
+        fVar29 = SQRT(fVar29);
+        if (1e-05 < fVar29) goto label_05989742;
+label_05989707:
+        pUVar24 = TypeInfo_UnityEngine_Vector3->static_fields;
+        fVar30 = (pUVar24->zeroVector).fields.z;
       }
-      points = local_res20;
-      if (tileX_00 != iVar9) {
-        local_418.Item1 = 0;
-        local_418.Item2 = 0;
-        System_ValueTuple_int__int____ctor
-                  ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,iVar9,tileX_00,
-                   MethodInfo_System_ValueTuple_int_int_ctor);
-        if (__this_02 ==
-            (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)0x0) {
-          ThrowNullReferenceException();
-        }
-        bVar8 = System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___Remove
-                          (__this_02,(System_ValueTuple_int__int__o)local_418,
-                           (MethodInfo_13C3940 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
-                          );
-        points = local_res20;
-        if (!bVar8) {
-          local_418.Item1 = 0;
-          local_418.Item2 = 0;
-          System_ValueTuple_int__int____ctor
-                    ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)&local_418,tileX_00,iVar9,
-                     MethodInfo_System_ValueTuple_int_int_ctor);
-          local_3f8.fields.Normal.fields.y = fVar17;
-          local_3f8.fields.Normal.fields.x = fVar16;
-          local_3f8.fields.Submesh = (int32_t)fVar10;
-          local_3f8.fields.Normal.fields.z = fVar13;
-          System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___set_Item
-                    (__this_02,(System_ValueTuple_int__int__o)local_418,&local_3f8,
-                     (MethodInfo_13CE290 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
-                    );
-          points = local_res20;
-        }
-      }
+      __this_02 = local_2f0;
+      uVar3 = (pUVar24->zeroVector).fields.x;
+      uVar5 = (pUVar24->zeroVector).fields.y;
+      MVar32.fields.Normal.fields.y = (float)uVar5;
+      MVar32.fields.Normal.fields.x = (float)uVar3;
+      opening_00.fields.Submesh = uVar20;
+      opening_00.fields.Normal.fields.z = fVar30;
+      b = (int32_t)(float)local_2a8;
+      fStack_310 = 0.0;
+      fStack_30c = 0.0;
+      MVar32.fields.Normal.fields.z = fVar30;
+      MVar32.fields.Submesh = uVar20;
+      local_318 = (float)uVar3;
+      fStack_314 = (float)uVar5;
+      Map_MapFracture__AddEdge(local_2f0,(int32_t)(float)local_2a8,iVar22,MVar32,in_R8);
+      opening.fields.Normal.fields.y = fStack_314;
+      opening.fields.Normal.fields.x = local_318;
+      opening.fields.Normal.fields.z = fVar30;
+      opening.fields.Submesh = uVar20;
+      Map_MapFracture__AddEdge(__this_02,iVar22,b_00,opening,in_R8);
+      opening_00.fields.Normal.fields.y = fStack_314;
+      opening_00.fields.Normal.fields.x = local_318;
+      Map_MapFracture__AddEdge(__this_02,b_00,b,opening_00,in_R8);
     }
     System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_268,
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_128,
+               (MethodInfo_4C821F0 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    __this_03 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_int);
+    pSVar25 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_int)
+    ;
     System_Collections_Generic_Dictionary_int__int____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-               (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
-    __this_04 = il2cpp_codegen_object_new
-                          ((Il2CppClass *)
-                           TypeInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening);
+              (pSVar25,(MethodInfo_4A032E0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_ctor);
+    pSVar26 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening
+                        );
     System_Collections_Generic_Dictionary_int__MapFracture_Opening____ctor
-              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_04,
-               (MethodInfo_1404750 *)
-               MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_ctor);
+              (pSVar26,(MethodInfo_4A2A560 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_ctor);
     if (__this_02 != (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)0x0
        ) {
-      local_3e8 = (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)
-                  __this_04;
-      local_328 = __this_03;
-      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___GetEnumerator
-                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_388,
-                 (System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
-                 (MethodInfo_13C1110 *)
+      System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___GetEnumerator
+                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_268,__this_02,
+                 (MethodInfo_499EE60 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_GetEnumerator
                 );
-      local_298._0_8_ = CONCAT44(local_388._4_4_,local_388._0_4_);
-      local_298._8_8_ = CONCAT44(fStack_37c,fStack_380);
-      local_288 = SUB84(local_378,0);
-      fStack_284 = (float)((ulonglong)local_378 >> 0x20);
-      fStack_280 = UStack_370.x;
-      fStack_27c = UStack_370.y;
-      local_278 = local_368;
-      fStack_274 = fStack_364;
-      uStack_270 = uStack_360;
-      local_3c8._0_4_ = 0.0;
-      local_3c8._4_4_ = 0.0;
-      local_3c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_298;
-      while (bVar8 = System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___MoveNext
-                               ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_298,
-                                (MethodInfo_155CE70 *)
-                                MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_MoveNext
-                               ), fVar16 = fStack_284, bVar8) {
-        local_308.fields.Position.fields.x = local_288;
-        local_308.fields.Position.fields.y = fStack_284;
-        local_308.fields.Position.fields.z = fStack_280;
-        local_308.fields.Normal.fields.x = fStack_27c;
-        local_308.fields.Normal.fields.y = local_278;
-        local_308.fields.Normal.fields.z = fStack_274;
-        if (__this_03 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+      local_198._4_4_ = fStack_244;
+      local_198._0_4_ = (int32_t)local_248;
+      uStack_190._0_4_ = fStack_240;
+      uStack_190._4_4_ = fStack_23c;
+      local_1a8 = SUB84(local_258,0);
+      fStack_1a4 = local_258._4_4_;
+      fStack_1a0 = UStack_250.x;
+      fStack_19c = UStack_250.y;
+      local_1b8 = (undefined1  [8])local_268._0_8_;
+      puStack_1b0 = (undefined1 *)local_268._8_8_;
+      local_268._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_268._8_8_ = local_1b8;
+      local_278._0_8_ = pSVar26;
+      local_2b8 = pSVar25;
+      if (pSVar25 == (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+        bVar21 = System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___MoveNext
+                           ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_1b8,
+                            (MethodInfo_4C8E670 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_MoveNext
+                           );
+        if (bVar21) {
           ThrowNullReferenceException();
         }
-        bVar8 = System_Collections_Generic_Dictionary_int__int___TryAdd
-                          (__this_03,(int32_t)fStack_284,(int32_t)local_288,
-                           (MethodInfo_14116F0 *)
-                           MethodInfo_System_Collections_Generic_Dictionary_int_int_TryAdd);
-        if (!bVar8) {
+      }
+      else if (pSVar26 == (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)0x0) {
+        bVar21 = System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___MoveNext
+                           ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_1b8,
+                            (MethodInfo_4C8E670 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_MoveNext
+                           );
+        if (bVar21) {
+          bVar21 = System_Collections_Generic_Dictionary_int__int___TryAdd
+                             (local_2b8,(int32_t)fStack_1a4,(int32_t)local_1a8,
+                              (MethodInfo_4A05C30 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_int_TryAdd);
+          if (bVar21) {
+            ThrowNullReferenceException();
+          }
+label_059899a9:
           System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_298,
+                    ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_1b8,
+                     (MethodInfo_4C8E7C0 *)
                      MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_Dispose
                     );
           return;
         }
-        if (__this_04 == (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)0x0) {
-          ThrowNullReferenceException();
+      }
+      else {
+        while (bVar21 = System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___MoveNext
+                                  ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)
+                                   local_1b8,
+                                   (MethodInfo_4C8E670 *)
+                                   MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_MoveNext
+                                  ), uVar18 = local_198, fVar29 = fStack_1a4, bVar21) {
+          local_318 = fStack_1a0;
+          fStack_314 = fStack_19c;
+          fStack_310 = 0.0;
+          fStack_30c = 0.0;
+          bVar21 = System_Collections_Generic_Dictionary_int__int___TryAdd
+                             (local_2b8,(int32_t)fStack_1a4,(int32_t)local_1a8,
+                              (MethodInfo_4A05C30 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_int_TryAdd);
+          uVar19 = local_198;
+          if (!bVar21) goto label_059899a9;
+          value.fields.Normal.fields.y = fStack_314;
+          value.fields.Normal.fields.x = local_318;
+          local_198._0_4_ = (int32_t)uVar18;
+          local_198._4_4_ = SUB84(uVar18,4);
+          value.fields.Normal.fields.z = (float)(int32_t)local_198;
+          value.fields.Submesh = local_198._4_4_;
+          local_198 = uVar19;
+          System_Collections_Generic_Dictionary_int__MapFracture_Opening___Add
+                    ((System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)local_278._0_8_,
+                     (int32_t)fVar29,value,
+                     (MethodInfo_4A2B190 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_Add);
         }
-        local_3f8.fields.Normal.fields.y = local_308.fields.Normal.fields.x;
-        local_3f8.fields.Normal.fields.x = local_308.fields.Position.fields.z;
-        local_3f8.fields.Submesh = (int32_t)local_308.fields.Normal.fields.z;
-        local_3f8.fields.Normal.fields.z = local_308.fields.Normal.fields.y;
-        System_Collections_Generic_Dictionary_int__MapFracture_Opening___Add
-                  (__this_04,(int32_t)fVar16,&local_3f8,
-                   (MethodInfo_1423810 *)
-                   MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_Add);
       }
       System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int__int___MapFracture_Opening___Dispose
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_298,
+                ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_1b8,
+                 (MethodInfo_4C8E7C0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_Enumerator_ValueTuple_int_int_MapFracture_Opening_Dispose
                 );
-      loop = il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
+      pSVar27 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
       System_Collections_Generic_List_MapFracture_Vertex____ctor
-                ((System_Collections_Generic_LowLevelList_T__o *)loop,
-                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
-      local_3a0 = loop;
-      local_2b8 = loop;
-      __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
+                (pSVar27,(MethodInfo_3AB57C0 *)
+                         MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
+      __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector3);
       System_Collections_Generic_List_Vector3____ctor
-                ((System_Collections_Generic_LowLevelList_T__o *)__this_05,
-                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor);
-      local_3b0 = __this_05;
-      if (__this_03 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
-label_181ea3670:
-        do {
-          iVar9 = System_Collections_Generic_Dictionary_int__int___get_Count
-                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-                             (MethodInfo_13CDEB0 *)
-                             MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Count);
-          if (iVar9 < 1) {
-            return;
-          }
-          __this_06 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
-                      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
-                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
-                                 (MethodInfo_13C6500 *)
-                                 MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Keys);
-          if (__this_06 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)
-          break;
-          System_Collections_Generic_Dictionary_ValueCollection_StylePropertyAnimationSystem_ElementPropertyPair__Int32Enum___GetEnumerator
-                    ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
-                     local_358,__this_06,
-                     (MethodInfo_F1E550 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_int_GetEnumerator);
-          local_2b0._0_8_ = local_358._0_8_;
-          local_2b0._8_8_ = local_358._8_8_;
-          local_2a0 = (Il2CppObject *)local_358._16_8_;
-          System_Collections_Generic_Dictionary_KeyCollection_Enumerator_uint__int___MoveNext
-                    ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
-                     local_2b0,
-                     (MethodInfo_1563BB0 *)
-                     MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_int_MoveNext
-                    );
-          local_res20 = (System_Collections_Generic_Dictionary_Vector3Int__int__o *)
-                        CONCAT44(local_res20._4_4_,local_2a0._0_4_);
-          local_418.Item1 = (int32_t)local_2a0._0_4_;
-          fVar16 = local_2a0._0_4_;
-          if (Il2CppMethodInitialized_18433dbea == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-            Il2CppMethodInitialized_18433dbea = '\x01';
-            fVar16 = local_res20._0_4_;
-          }
-          pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
-          fVar17 = (pUVar2->zeroVector).fields.x;
-          fVar13 = (pUVar2->zeroVector).fields.y;
-          fVar10 = (pUVar2->zeroVector).fields.z;
-          if (loop == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) break;
-          piVar1 = &(loop->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          (loop->fields)._size = 0;
-          if (__this_05 == (System_Collections_Generic_List_Vector3__o *)0x0) break;
-          piVar1 = &(__this_05->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          (__this_05->fields)._size = 0;
-          do {
-            bVar8 = System_Collections_Generic_Dictionary_int__int___TryGetValue
-                              ((System_Collections_Generic_Dictionary_int__float__o *)__this_03,
-                               (int32_t)fVar16,local_res18,
-                               (MethodInfo_1411820 *)
-                               MethodInfo_System_Collections_Generic_Dictionary_int_int_TryGetValue);
-            if ((!bVar8) || (0x7ff < (local_2b8->fields)._size)) {
-              System_Collections_Generic_Dictionary_int__int___Remove
-                        ((System_Collections_Generic_Dictionary_int__float__o *)__this_03,(int32_t)fVar16,
-                         (MethodInfo_140B8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Remove
+                (__this_03,(MethodInfo_39FEFC0 *)MethodInfo_System_Collections_Generic_List_Vector3_ctor);
+      pSVar25 = local_2b8;
+      if (local_2b8 != (System_Collections_Generic_Dictionary_int__int__o *)0x0) {
+        pSVar26 = (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)local_278._0_8_;
+        if (pSVar27 == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
+          iVar22 = System_Collections_Generic_Dictionary_int__int___get_Count
+                             (local_2b8,
+                              (MethodInfo_4A03B00 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Count);
+          if (0 < iVar22) {
+            pSVar28 = System_Collections_Generic_Dictionary_int__int___get_Keys
+                                (pSVar25,(MethodInfo_4A03B10 *)
+                                         MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Keys);
+            if (pSVar28 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0) {
+              System_Collections_Generic_Dictionary_KeyCollection_int__int___GetEnumerator
+                        ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                         local_1e0,pSVar28,
+                         (MethodInfo_5106330 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_int_GetEnumerator)
+              ;
+              local_258 = local_1d0;
+              local_268._0_8_ = local_1e0._0_8_;
+              local_268._8_8_ = local_1e0._8_8_;
+              local_298 = (undefined1  [8])local_1e0._0_8_;
+              puStack_290 = (undefined1 *)local_1e0._8_8_;
+              local_288 = local_1d0;
+              System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__int___MoveNext
+                        ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                         local_298,
+                         (MethodInfo_4C9FB40 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_int_MoveNext
                         );
-              goto label_181ea3670;
+              if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                Il2CppMethodInitialized_0753e4b6 = '\x01';
+              }
             }
-            if (__this_01 == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) goto label_181ea3c35;
-            System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                      ((Map_MapFracture_Vertex_o *)local_388,__this_01,(int32_t)fVar16,
-                       (MethodInfo_965440 *)
-                       MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-            local_358._0_8_ = CONCAT44(local_388._4_4_,local_388._0_4_);
-            local_358._8_8_ = CONCAT44(fStack_37c,fStack_380);
-            local_358._16_8_ = local_378;
-            UStack_340 = UStack_370;
-            local_338 = local_368;
-            il2cpp_runtime_helper_18003b8f0(loop,local_358,MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add);
-            if (__this_04 == (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)0x0)
-            goto label_181ea3c35;
-            System_Collections_Generic_Dictionary_int__MapFracture_Opening___get_Item
-                      (&local_3f8,__this_04,(int32_t)fVar16,
-                       (MethodInfo_14233B0 *)
-                       MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_get_Item);
-            local_3d8.x = local_3f8.fields.Normal.fields.x;
-            local_3d8.y = local_3f8.fields.Normal.fields.y;
-            local_3d8.z = local_3f8.fields.Normal.fields.z;
-            il2cpp_runtime_helper_180012810(__this_05,&local_3d8,MethodInfo_System_Collections_Generic_List_Vector3_Add);
-            System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                      ((Map_MapFracture_Vertex_o *)local_388,__this_01,(int32_t)fVar16,
-                       (MethodInfo_965440 *)
-                       MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-            fVar5 = fStack_380;
-            uVar4 = local_388._4_4_;
-            uVar3 = local_388._0_4_;
-            System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                      ((Map_MapFracture_Vertex_o *)local_388,__this_01,(int32_t)local_res18[0],
-                       (MethodInfo_965440 *)
-                       MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-            fVar17 = (fStack_380 * (float)uVar4 - (float)local_388._4_4_ * fVar5) + fVar17;
-            fVar13 = ((float)local_388._0_4_ * fVar5 - fStack_380 * (float)uVar3) + fVar13;
-            fVar10 = ((float)local_388._4_4_ * (float)uVar3 - (float)local_388._0_4_ * (float)uVar4) + fVar10;
-            local_410.y = fVar13;
-            local_410.x = fVar17;
-            local_410.z = fVar10;
-            System_Collections_Generic_Dictionary_int__int___Remove
-                      ((System_Collections_Generic_Dictionary_int__float__o *)__this_03,(int32_t)fVar16,
-                       (MethodInfo_140B8F0 *)MethodInfo_System_Collections_Generic_Dictionary_int_int_Remove);
-            fVar16 = local_res18[0];
-          } while (local_res18[0] != local_res20._0_4_);
-          if ((2 < (loop->fields)._size) && (0.0001 <= fVar10 * fVar10 + fVar13 * fVar13 + fVar17 * fVar17)) {
-            local_410.z = (float)il2cpp_runtime_helper_180546a40(&local_410,0);
-            if (1e-05 < local_410.z) {
-              fVar17 = fVar17 / local_410.z;
-              fVar13 = fVar13 / local_410.z;
-              local_410.y = fVar13;
-              local_410.x = fVar17;
-              local_410.z = fVar10 / local_410.z;
-            }
-            else {
-              fVar17 = 0.0;
-              fVar13 = 0.0;
-              local_410.x = 0.0;
-              local_410.y = 0.0;
-              local_410.z = 0.0;
-            }
-            fVar16 = local_410.z;
-            fVar10 = 0.0;
-            local_400 = 0.0;
-            System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc___GetEnumerator
-                      ((System_Collections_Generic_List_Enumerator_T__o *)local_358,
-                       (System_Collections_Generic_List_ProbeBrickPool_BrickChunkAlloc__o *)__this_05,
-                       (MethodInfo_930B50 *)MethodInfo_System_Collections_Generic_List_Vector3_GetEnumerator);
-            local_2d8._0_8_ = local_358._0_8_;
-            local_2d8._8_8_ = local_358._8_8_;
-            local_2c8 = (Il2CppObject *)local_358._16_8_;
-            UStack_2c0 = UStack_340;
-            local_320 = 0;
-            local_318 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_2d8;
-            while (bVar8 = System_Collections_Generic_List_Enumerator_ProbeBrickPool_BrickChunkAlloc___MoveNext
-                                     ((System_Collections_Generic_List_Enumerator_T__o *)local_2d8,
-                                      (MethodInfo_15296D0 *)
-                                      MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_MoveNext),
-                  bVar8) {
-              fVar10 = fVar10 + ABS(fVar13 * local_2c8._4_4_ + fVar17 * (float)local_2c8 +
-                                    fVar16 * UStack_2c0.x);
-              local_400 = fVar10;
-            }
-            System_Collections_Generic_List_Enumerator_Vector3___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_2d8,
-                       MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_Dispose);
-            if (fVar10 / (float)(loop->fields)._size <= 0.9) {
-              System_Collections_Generic_Dictionary_int__MapFracture_Opening___get_Item
-                        ((Map_MapFracture_Opening_o *)&local_308,__this_04,(int32_t)local_res20._0_4_,
-                         (MethodInfo_14233B0 *)
-                         MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_get_Item);
-              local_3c8._0_4_ = local_410.x;
-              local_3c8._4_4_ = local_410.y;
-              local_3c8._8_4_ = local_410.z;
-              Map_MapFracture__AddCap
-                        (loop,(UnityEngine_Vector3_o *)local_3c8,(int32_t)local_308.fields.Normal.fields.x,
-                         (__this->fields)._triangles,(MethodInfo *)0x0);
+            goto label_0598a28a;
+          }
+        }
+        else {
+          iVar23 = System_Collections_Generic_Dictionary_int__int___get_Count
+                             (local_2b8,
+                              (MethodInfo_4A03B00 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Count);
+          if (__this_03 == (System_Collections_Generic_List_Vector3__o *)0x0) {
+            if (0 < iVar23) {
+              pSVar28 = System_Collections_Generic_Dictionary_int__int___get_Keys
+                                  (pSVar25,(MethodInfo_4A03B10 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Keys);
+              if (pSVar28 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0) {
+                System_Collections_Generic_Dictionary_KeyCollection_int__int___GetEnumerator
+                          ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                           local_1e0,pSVar28,
+                           (MethodInfo_5106330 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_int_GetEnumerator
+                          );
+                local_258 = local_1d0;
+                local_268._0_8_ = local_1e0._0_8_;
+                local_268._8_8_ = local_1e0._8_8_;
+                local_298 = (undefined1  [8])local_1e0._0_8_;
+                puStack_290 = (undefined1 *)local_1e0._8_8_;
+                local_288 = local_1d0;
+                System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__int___MoveNext
+                          ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                           local_298,
+                           (MethodInfo_4C9FB40 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_int_MoveNext
+                          );
+                if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                  Il2CppMethodInitialized_0753e4b6 = '\x01';
+                }
+                piVar1 = &(pSVar27->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                (pSVar27->fields)._size = 0;
+                ThrowNullReferenceException();
+              }
+              goto label_0598a28a;
             }
           }
-        } while( true );
+          else {
+            while (0 < iVar23) {
+              pSVar28 = System_Collections_Generic_Dictionary_int__int___get_Keys
+                                  (pSVar25,(MethodInfo_4A03B10 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Keys);
+              if (pSVar28 == (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)
+              goto label_0598a28a;
+              System_Collections_Generic_Dictionary_KeyCollection_int__int___GetEnumerator
+                        ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                         local_1e0,pSVar28,
+                         (MethodInfo_5106330 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_int_int_GetEnumerator)
+              ;
+              local_258 = local_1d0;
+              local_268._0_8_ = local_1e0._0_8_;
+              local_268._8_8_ = local_1e0._8_8_;
+              local_298 = (undefined1  [8])local_1e0._0_8_;
+              puStack_290 = (undefined1 *)local_1e0._8_8_;
+              local_288 = local_1d0;
+              System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__int___MoveNext
+                        ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                         local_298,
+                         (MethodInfo_4C9FB40 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int_int_MoveNext
+                        );
+              iVar22 = (int32_t)local_288;
+              if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                Il2CppMethodInitialized_0753e4b6 = '\x01';
+              }
+              pUVar24 = TypeInfo_UnityEngine_Vector3->static_fields;
+              uVar4 = (pUVar24->zeroVector).fields.x;
+              uVar6 = (pUVar24->zeroVector).fields.y;
+              fStack_310 = 0.0;
+              fStack_30c = 0.0;
+              local_2e8._0_4_ = (pUVar24->zeroVector).fields.z;
+              piVar1 = &(pSVar27->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              (pSVar27->fields)._size = 0;
+              piVar1 = &(__this_03->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              (__this_03->fields)._size = 0;
+              local_2d8 = (System_Collections_Generic_Dictionary_Vector3Int__int__o *)
+                          CONCAT44(local_2d8._4_4_,iVar22);
+              local_318 = (float)uVar4;
+              fStack_314 = (float)uVar6;
+              if (local_2d0 == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
+                bVar21 = System_Collections_Generic_Dictionary_int__int___TryGetValue
+                                   (pSVar25,iVar22,&local_31c,
+                                    (MethodInfo_4A05BD0 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_int_int_TryGetValue);
+                if ((bVar21) && ((pSVar27->fields)._size < 0x800)) goto label_0598a28a;
+label_05989b22:
+                System_Collections_Generic_Dictionary_int__int___Remove
+                          (pSVar25,iVar22,
+                           (MethodInfo_4A05510 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_int_Remove);
+              }
+              else {
+                do {
+                  bVar21 = System_Collections_Generic_Dictionary_int__int___TryGetValue
+                                     (pSVar25,iVar22,&local_31c,
+                                      (MethodInfo_4A05BD0 *)
+                                      MethodInfo_System_Collections_Generic_Dictionary_int_int_TryGetValue);
+                  if ((!bVar21) || (0x7ff < (pSVar27->fields)._size)) goto label_05989b22;
+                  System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                            ((Map_MapFracture_Vertex_o *)local_1e0,local_2d0,iVar22,
+                             (MethodInfo_3AB5DD0 *)
+                             MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+                  pMVar17 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add;
+                  local_248 = local_1c0;
+                  local_258 = local_1d0;
+                  UStack_250 = UStack_1c8;
+                  local_268._0_8_ = local_1e0._0_8_;
+                  local_268._8_8_ = local_1e0._8_8_;
+                  piVar1 = &(pSVar27->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pMVar9 = (pSVar27->fields)._items;
+                  if (pMVar9 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598a28a;
+                  uVar8 = (pSVar27->fields)._size;
+                  if (uVar8 < (uint)pMVar9->max_length) {
+                    (pSVar27->fields)._size = uVar8 + 1;
+                    pMVar9->m_Items[(int)uVar8].fields.Shade = local_1c0;
+                    pMVar15 = &pMVar9->m_Items[(int)uVar8].fields;
+                    *(System_Collections_Generic_Dictionary_int__int__o **)&(pMVar15->Normal).fields.y =
+                         local_1d0;
+                    (pMVar15->UV).fields = UStack_1c8;
+                    pMVar2 = pMVar9->m_Items + (int)uVar8;
+                    (pMVar2->fields).Position.fields.x = (float)local_1e0._0_4_;
+                    (pMVar2->fields).Position.fields.y = (float)local_1e0._4_4_;
+                    *(undefined8 *)&(pMVar2->fields).Position.fields.z = local_1e0._8_8_;
+                  }
+                  else {
+                    item.fields.Position.fields.z = (float)local_1e0._8_4_;
+                    item.fields.Normal.fields.x = (float)local_1e0._12_4_;
+                    item.fields.Position.fields.x = (float)local_1e0._0_4_;
+                    item.fields.Position.fields.y = (float)local_1e0._4_4_;
+                    item.fields.Normal.fields._4_8_ = local_1d0;
+                    item.fields.UV.fields = UStack_1c8;
+                    item.fields.Shade = local_1c0;
+                    System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
+                              (pSVar27,item,(MethodInfo_3AB6170 *)pMVar17->klass->rgctx_data[0xe].method);
+                  }
+                  if (pSVar26 == (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)0x0)
+                  goto label_0598a28a;
+                  MVar32 = System_Collections_Generic_Dictionary_int__MapFracture_Opening___get_Item
+                                     (pSVar26,iVar22,
+                                      (MethodInfo_4A2B0D0 *)
+                                      MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_get_Item
+                                     );
+                  pMVar17 = MethodInfo_System_Collections_Generic_List_Vector3_Add;
+                  piVar1 = &(__this_03->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pUVar10 = (__this_03->fields)._items;
+                  if (pUVar10 == (UnityEngine_Vector3_array *)0x0) goto label_0598a28a;
+                  uVar8 = (__this_03->fields)._size;
+                  if (uVar8 < (uint)pUVar10->max_length) {
+                    (__this_03->fields)._size = uVar8 + 1;
+                    pUVar10->m_Items[(int)uVar8].fields.x = (float)MVar32.fields.Normal.fields.x;
+                    pUVar10->m_Items[(int)uVar8].fields.y = (float)MVar32.fields.Normal.fields.y;
+                    pUVar10->m_Items[(int)uVar8].fields.z = MVar32.fields.Normal.fields.z;
+                  }
+                  else {
+                    System_Collections_Generic_List_Vector3___AddWithResize
+                              (__this_03,MVar32.fields.Normal.fields,
+                               (MethodInfo_39FF950 *)pMVar17->klass->rgctx_data[0xe].method);
+                  }
+                  __this_01 = local_2d0;
+                  System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                            ((Map_MapFracture_Vertex_o *)local_268,local_2d0,iVar22,
+                             (MethodInfo_3AB5DD0 *)
+                             MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+                  local_2c8._4_4_ = local_268._4_4_;
+                  local_2a8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_268._0_8_;
+                  uStack_2a0 = 0;
+                  local_2c8._0_4_ = local_2c8._4_4_;
+                  fStack_2c0 = (float)local_2c8._4_4_;
+                  fStack_2bc = (float)local_2c8._4_4_;
+                  _local_308 = ZEXT416((uint)local_268._8_4_);
+                  System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                            ((Map_MapFracture_Vertex_o *)local_268,__this_01,local_31c,
+                             (MethodInfo_3AB5DD0 *)
+                             MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+                  pSVar25 = local_2b8;
+                  local_318 = local_318 +
+                              ((float)local_268._8_4_ * local_2a8._4_4_ - local_268._4_4_ * (float)local_308);
+                  fStack_314 = fStack_314 +
+                               ((float)local_308 * local_268._0_4_ - (float)local_2a8 * (float)local_268._8_4_
+                               );
+                  fStack_310 = fStack_310 + ((float)uStack_2a0 * 0.0 - (float)auStack_304._0_4_ * 0.0);
+                  fStack_30c = fStack_30c + ((float)auStack_304._0_4_ * uStack_2a0._4_4_ - 0.0);
+                  local_2e8._0_4_ =
+                       (float)local_2e8._0_4_ +
+                       (local_268._4_4_ * (float)local_2a8 - (float)local_2c8._0_4_ * local_268._0_4_);
+                  System_Collections_Generic_Dictionary_int__int___Remove
+                            (local_2b8,iVar22,
+                             (MethodInfo_4A05510 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_int_int_Remove);
+                  iVar23 = (int)local_2d8;
+                  pSVar26 = (System_Collections_Generic_Dictionary_int__MapFracture_Opening__o *)
+                            local_278._0_8_;
+                  iVar22 = local_31c;
+                } while (local_31c != (int)local_2d8);
+                if (2 < (pSVar27->fields)._size) {
+                  __x = (undefined1  [4])
+                        ((float)local_2e8._0_4_ * (float)local_2e8._0_4_ +
+                        fStack_314 * fStack_314 + local_318 * local_318);
+                  if (0.0001 <= (float)__x) {
+                    if (Il2CppMethodInitialized_0753e729 == '\0') {
+                      local_308 = __x;
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+                      Il2CppMethodInitialized_0753e729 = '\x01';
+                      __x = local_308;
+                      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor != 0) goto label_05989f84;
+label_05989fc8:
+                      local_308 = __x;
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+                      __x = local_308;
+                      if (0.0 <= (float)local_308) goto label_05989f8d;
+label_05989fe2:
+                      fVar29 = sqrtf((float)__x);
+                    }
+                    else {
+                      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) goto label_05989fc8;
+label_05989f84:
+                      if ((float)__x < 0.0) goto label_05989fe2;
+label_05989f8d:
+                      fVar29 = SQRT((float)__x);
+                    }
+                    auVar14._12_4_ = 0;
+                    auVar14._0_12_ = auStack_304;
+                    _local_308 = auVar14 << 0x20;
+                    _local_2c8 = ZEXT816(0);
+                    uVar16 = (ulong)local_2a8 >> 0x20;
+                    local_2a8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
+                                ((ulong)local_2a8 & 0xffffffff00000000);
+                    if (1e-05 < fVar29) {
+                      auVar13._4_4_ = fStack_314;
+                      auVar13._0_4_ = local_318;
+                      auVar13._8_4_ = fStack_310;
+                      auVar13._12_4_ = fStack_30c;
+                      auVar12._4_4_ = fVar29;
+                      auVar12._0_4_ = fVar29;
+                      auVar12._8_4_ = fVar29;
+                      auVar12._12_4_ = fVar29;
+                      _local_2c8 = divps(auVar13,auVar12);
+                      local_2a8 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)
+                                  CONCAT44((int)uVar16,(float)local_2e8._0_4_ / fVar29);
+                    }
+                    System_Collections_Generic_List_Vector3___GetEnumerator
+                              ((System_Collections_Generic_List_Enumerator_T__o *)local_268,__this_03,
+                               (MethodInfo_3A00880 *)
+                               MethodInfo_System_Collections_Generic_List_Vector3_GetEnumerator);
+                    local_178 = local_258;
+                    UStack_170 = UStack_250;
+                    local_188 = (undefined1  [8])local_268._0_8_;
+                    puStack_180 = (undefined1 *)local_268._8_8_;
+                    local_268._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+                    local_268._8_8_ = local_188;
+                    while (bVar21 = System_Collections_Generic_List_Enumerator_Vector3___MoveNext
+                                              ((System_Collections_Generic_List_Enumerator_T__o *)local_188,
+                                               (MethodInfo_4C66420 *)
+                                               MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_MoveNext
+                                              ), bVar21) {
+                      local_308 = (undefined1  [4])
+                                  ((float)local_308 +
+                                  ABS(UStack_170.x * (float)local_2a8 +
+                                      (float)((ulong)local_178 >> 0x20) * (float)local_2c8._4_4_ +
+                                      SUB84(local_178,0) * (float)local_2c8._0_4_));
+                    }
+                    System_Collections_Generic_List_Enumerator_Vector3___Dispose
+                              ((System_Collections_Generic_List_Enumerator_T__o *)local_188,
+                               (MethodInfo_4C66410 *)
+                               MethodInfo_System_Collections_Generic_List_Enumerator_Vector3_Dispose);
+                    if ((float)local_308 / (float)(pSVar27->fields)._size <= 0.9) {
+                      MVar32 = System_Collections_Generic_Dictionary_int__MapFracture_Opening___get_Item
+                                         (pSVar26,iVar23,
+                                          (MethodInfo_4A2B0D0 *)
+                                          MethodInfo_System_Collections_Generic_Dictionary_int_MapFracture_Opening_get_Item
+                                         );
+                      normal.fields.z = (float)local_2a8;
+                      normal.fields.x = (float)local_2c8._0_4_;
+                      normal.fields.y = (float)local_2c8._4_4_;
+                      Map_MapFracture__AddCap
+                                (pSVar27,normal,MVar32.fields.Submesh,
+                                 (System_Collections_Generic_List_MapFracture_Triangle__o *)
+                                 local_130->invoker_method,local_130);
+                    }
+                  }
+                }
+              }
+              iVar23 = System_Collections_Generic_Dictionary_int__int___get_Count
+                                 (pSVar25,(MethodInfo_4A03B00 *)
+                                          MethodInfo_System_Collections_Generic_Dictionary_int_int_get_Count);
+            }
+          }
+        }
+        return;
       }
     }
   }
-label_181ea3c35:
+label_0598a28a:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$AddEdge
 // il2cpp: void Map_MapFracture__AddEdge (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o* edges, int32_t a, int32_t b, Map_MapFracture_Opening_o opening, const MethodInfo* method);
-// 0x181ea1ba0
+// 0x598d890
 
 void Map_MapFracture__AddEdge
                (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *edges,
-               int32_t a,int32_t b,Map_MapFracture_Opening_o *opening,MethodInfo *method)
+               int32_t a,int32_t b,Map_MapFracture_Opening_o opening,MethodInfo *method)
 
 {
   bool bVar1;
-  System_ValueTuple_int__int__Fields local_48 [2];
-  Map_MapFracture_Opening_o local_38;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  Map_MapFracture_Opening_o value;
+  System_ValueTuple_int__int__Fields local_40;
+  undefined1 local_38 [16];
   
-  if (Il2CppMethodInitialized_184345090 == '\0') {
+  local_38._8_4_ = in_XMM0_Dc;
+  local_38._0_8_ = opening.fields.Normal.fields._0_8_;
+  local_38._12_4_ = in_XMM0_Dd;
+  if (Il2CppMethodInitialized_07545a21 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
               );
@@ -5012,34 +5775,35 @@ void Map_MapFracture__AddEdge
                MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
               );
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_ValueTuple_int_int_ctor);
-    Il2CppMethodInitialized_184345090 = '\x01';
+    Il2CppMethodInitialized_07545a21 = '\x01';
   }
   if (a != b) {
-    local_48[0].Item1 = 0;
-    local_48[0].Item2 = 0;
+    local_40.Item1 = 0;
+    local_40.Item2 = 0;
     System_ValueTuple_int__int____ctor
-              ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)local_48,b,a,
-               MethodInfo_System_ValueTuple_int_int_ctor);
+              ((System_ValueTuple_int__int__o *)&local_40,b,a,
+               (MethodInfo_452D1B0 *)MethodInfo_System_ValueTuple_int_int_ctor);
     if (edges == (System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening__o *)0x0) {
       ThrowNullReferenceException();
     }
     bVar1 = System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___Remove
-                      (edges,(System_ValueTuple_int__int__o)local_48[0],
-                       (MethodInfo_13C3940 *)
+                      (edges,(System_ValueTuple_int__int__o)local_40,
+                       (MethodInfo_49A00B0 *)
                        MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_Remove
                       );
     if (!bVar1) {
-      local_48[0].Item1 = 0;
-      local_48[0].Item2 = 0;
+      local_40.Item1 = 0;
+      local_40.Item2 = 0;
       System_ValueTuple_int__int____ctor
-                ((UnityEngine_TerrainUtils_TerrainTileCoord_o *)local_48,a,b,
-                 MethodInfo_System_ValueTuple_int_int_ctor);
-      local_38.fields.Normal.fields.x = (opening->fields).Normal.fields.x;
-      local_38.fields.Normal.fields.y = (opening->fields).Normal.fields.y;
-      local_38.fields._8_8_ = *(undefined8 *)&(opening->fields).Normal.fields.z;
+                ((System_ValueTuple_int__int__o *)&local_40,a,b,
+                 (MethodInfo_452D1B0 *)MethodInfo_System_ValueTuple_int_int_ctor);
+      value.fields.Normal.fields.z = (float)opening.fields.Normal.fields.z;
+      value.fields.Submesh = opening.fields.Submesh;
+      value.fields.Normal.fields.x = (float)local_38._0_4_;
+      value.fields.Normal.fields.y = (float)local_38._4_4_;
       System_Collections_Generic_Dictionary_ValueTuple_int__int___MapFracture_Opening___set_Item
-                (edges,(System_ValueTuple_int__int__o)local_48[0],&local_38,
-                 (MethodInfo_13CE290 *)
+                (edges,(System_ValueTuple_int__int__o)local_40,value,
+                 (MethodInfo_499E9E0 *)
                  MethodInfo_System_Collections_Generic_Dictionary_ValueTuple_int_int_MapFracture_Opening_set_Item
                 );
     }
@@ -5050,104 +5814,142 @@ void Map_MapFracture__AddEdge
 
 // Map.MapFracture$$AddCaps
 // il2cpp: void Map_MapFracture__AddCaps (System_Collections_Generic_List_MapFracture_Segment__o* segments, UnityEngine_Vector3_o normal, System_Collections_Generic_List_MapFracture_Triangle__o* target, const MethodInfo* method);
-// 0x181ea1500
-// eh: try 0x181ea17a0..0x181ea1b28 -> pad 0x18333d2c0 (+1 call sites) catch Il2CppExceptionWrapper
-// asm: 26 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea18a2: mov r12d, dword ptr [rsp + 0x188]
-// asm:   0x181ea18aa: nop word ptr [rax + rax]
-// asm:   0x181ea19c5: mov rdx, qword ptr [rip + 0x2203134]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Segment_Dispose
-// asm:   0x181ea19cc: mov rcx, qword ptr [rsp + 0x58]
-// asm:   0x181ea19d1: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea19d6: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181ea19db: test rcx, rcx
-// asm:   0x181ea19de: jne 0x181ea1b28
-// asm:   0x181ea19e4: xor r13d, r13d
-// asm:   0x181ea19e7: mov r15, qword ptr [rsp + 0x60]
-// asm:   0x181ea19ec: mov r14, qword ptr [rsp + 0x68]
-// asm:   0x181ea19f1: mov rdi, qword ptr [rsp + 0x40]
-// asm:   0x181ea1a1d: nop dword ptr [rax]
-// asm:   0x181ea1adf: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181ea1b28: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d2c0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d2c5: push rbp
-// asm:   0x18333d2c6: sub rsp, 0x30
-// asm:   0x18333d2ca: mov rbp, rdx
-// asm:   0x18333d2cd: mov rax, qword ptr [rbp + 0xd0]
-// asm:   0x18333d2d4: mov rcx, qword ptr [rax]
-// asm:   0x18333d2d7: mov qword ptr [rbp + 0x50], rcx
-// asm:   0x18333d2db: movabs rax, 0
-// asm:   0x18333d2e5: add rsp, 0x30
-// asm:   0x18333d2e9: pop rbp
-// asm:   0x18333d2ea: ret 
+// 0x598c730
+// eh: try 0x598ca1a..0x598cfc5 -> pad 0x598cfe1 (+19 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598d001..0x598d006 -> pad 0x598d033 cleanup
+// eh: try 0x598d036..0x598d040 -> pad 0x598d048 catch (...) [compiler noexcept guard]
+// asm: 44 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598ca09: nop dword ptr [rax]
+// asm:   0x598cb6a: jmp 0x598cc78
+// asm:   0x598cfc5: jmp 0x598cfe9
+// asm:   0x598cfc7: jmp 0x598cfe9
+// asm:   0x598cfc9: jmp 0x598cfe9
+// asm:   0x598cfcb: jmp 0x598cfe9
+// asm:   0x598cfcd: jmp 0x598cfe9
+// asm:   0x598cfcf: jmp 0x598cfe9
+// asm:   0x598cfd1: jmp 0x598cfe9
+// asm:   0x598cfd3: jmp 0x598cfe9
+// asm:   0x598cfd5: jmp 0x598cfe9
+// asm:   0x598cfd7: jmp 0x598cfe9
+// asm:   0x598cfd9: jmp 0x598cfe9
+// asm:   0x598cfdb: jmp 0x598cfe9
+// asm:   0x598cfdd: jmp 0x598cfe9
+// asm:   0x598cfdf: jmp 0x598cfe9
+// asm:   0x598cfe1: jmp 0x598cfe9
+// asm:   0x598cfe3: jmp 0x598cfe9
+// asm:   0x598cfe5: jmp 0x598cfe9
+// asm:   0x598cfe7: jmp 0x598cfe9
+// asm:   0x598cfe9: mov rbp, rax
+// asm:   0x598cfec: cmp edx, 1
+// asm:   0x598cfef: jne 0x598d036
+// asm:   0x598cff1: mov rdi, rbp
+// asm:   0x598cff4: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598cff9: mov rbx, qword ptr [rax]
+// asm:   0x598cffc: mov qword ptr [rsp + 0x50], rbx
+// asm:   0x598d001: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598d006: mov rbp, qword ptr [rsp + 0x30]
+// asm:   0x598d00b: lea rax, [rip + 0x19022ae]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Segment_Dispose
+// asm:   0x598d012: mov rsi, qword ptr [rax]
+// asm:   0x598d015: lea rdi, [rsp + 0xb0]
+// asm:   0x598d01d: call 0x4d81f30  ; System_Collections_Generic_List_Enumerator_MapFracture_Segment___Dispose()
+// asm:   0x598d022: test rbx, rbx
+// asm:   0x598d025: je 0x598cda0
+// asm:   0x598d02b: mov rdi, rbx
+// asm:   0x598d02e: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598d033: mov rbp, rax
+// asm:   0x598d036: lea rdi, [rsp + 0x50]
+// asm:   0x598d03b: call 0x2fd4530  ; il2cpp_runtime_helper_02fd4530()
+// asm:   0x598d040: mov rdi, rbp
+// asm:   0x598d043: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598d048: mov rdi, rax
+// asm:   0x598d04b: call 0x2ab61e0  ; __clang_call_terminate()
 
 void Map_MapFracture__AddCaps
-               (System_Collections_Generic_List_MapFracture_Segment__o *segments,UnityEngine_Vector3_o *normal
-               ,System_Collections_Generic_List_MapFracture_Triangle__o *target,MethodInfo *method)
+               (System_Collections_Generic_List_MapFracture_Segment__o *segments,UnityEngine_Vector3_o normal,
+               System_Collections_Generic_List_MapFracture_Triangle__o *target,MethodInfo *method)
 
 {
-  float fVar1;
-  bool bVar2;
+  int32_t *piVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  System_Collections_Generic_List_int__array *pSVar5;
+  System_Int32_array *pSVar6;
+  Map_MapFracture_Vertex_o vertex;
+  Map_MapFracture_Vertex_o vertex_00;
+  MethodInfo *pMVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  System_Collections_Generic_List_T__o *pSVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  undefined4 uVar13;
+  undefined4 uVar14;
+  undefined4 uVar15;
+  undefined4 uVar16;
+  float fVar17;
+  undefined8 uVar18;
+  undefined8 uVar19;
+  bool bVar20;
   int32_t index;
   int32_t item;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o submesh;
-  System_Collections_Generic_Dictionary_Vector3Int__int__o *points;
-  System_Collections_Generic_List_MapFracture_Vertex__o *vertices;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this;
+  int32_t iVar21;
+  System_Collections_Generic_Dictionary_Vector3Int__int__o *__this;
+  System_Collections_Generic_List_MapFracture_Vertex__o *__this_00;
+  System_Collections_Generic_List_int__o *pSVar22;
   System_Collections_Generic_List_List_int___o *neighbors;
-  System_Collections_Generic_List_T__o *__this_00;
-  System_Collections_Generic_List_int__o *__this_01;
-  Il2CppObject *pIVar3;
+  System_Collections_Generic_List_int__o *pSVar23;
   System_Boolean_array *visited;
-  System_Collections_Generic_List_MapFracture_Vertex__o *loop;
-  uint index_00;
-  System_Collections_Generic_List_List_int___o *local_1f8;
-  float local_1f0;
-  undefined8 local_1e8;
-  System_Collections_Generic_List_Enumerator_T__o *local_1e0;
-  System_Collections_Generic_List_MapFracture_Vertex__o *local_1d8;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *local_1d0;
-  System_Collections_Generic_List_Enumerator_T__o local_1c8;
-  undefined8 uStack_1b0;
-  undefined8 local_1a8;
-  UnityEngine_Vector2_Fields UStack_1a0;
-  undefined8 local_198;
-  undefined8 uStack_190;
-  undefined8 local_188;
-  float fStack_180;
-  float fStack_17c;
-  undefined8 local_178;
-  undefined8 uStack_170;
-  Il2CppObject *local_158 [3];
-  UnityEngine_Vector2_Fields UStack_140;
-  float local_138;
-  Map_MapFracture_Vertex_o local_128 [2];
-  float local_d8;
-  float fStack_d4;
-  float fStack_d0;
-  float fStack_cc;
-  float local_c8;
-  float fStack_c4;
-  float fStack_c0;
-  float fStack_bc;
-  float fStack_b8;
-  float fStack_b4;
-  float local_b0;
+  Il2CppObject *pIVar24;
+  System_Collections_Generic_List_MapFracture_Vertex__o *pSVar25;
+  System_Boolean_array *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  long lVar26;
+  ulong uVar27;
+  MethodInfo *in_R8;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  UnityEngine_Vector3_o normal_00;
+  System_Collections_Generic_List_Enumerator_T__o local_138;
+  undefined8 uStack_120;
+  System_Collections_Generic_List_T__o *local_118;
+  undefined8 uStack_110;
+  float local_108;
+  undefined4 uStack_104;
+  undefined4 uStack_100;
+  undefined4 uStack_fc;
+  undefined4 local_f8;
+  float fStack_f4;
+  undefined8 uStack_f0;
+  undefined8 local_e8;
+  undefined8 uStack_e0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  float local_b8;
   System_Collections_Generic_List_Enumerator_T__o local_a8;
-  float fStack_90;
-  float fStack_8c;
-  float local_88;
-  float fStack_84;
-  UnityEngine_Vector2_Fields UStack_80;
-  undefined8 local_78;
-  undefined8 uStack_70;
-  float local_68;
+  int32_t iStack_90;
+  int32_t iStack_8c;
+  undefined4 local_88;
+  undefined4 uStack_84;
+  int32_t iStack_80;
+  int32_t iStack_7c;
+  float local_78;
+  undefined4 uStack_74;
+  undefined4 uStack_70;
+  undefined4 uStack_6c;
+  undefined4 local_68;
   float fStack_64;
-  float fStack_60;
-  float fStack_5c;
+  undefined8 uStack_60;
   undefined8 local_58;
   undefined8 uStack_50;
+  undefined1 local_48 [16];
   
-  if (Il2CppMethodInitialized_184345091 == '\0') {
+  normal_00.fields.z = normal.fields.z;
+  local_48._8_4_ = in_XMM0_Dc;
+  local_48._0_8_ = normal.fields._0_8_;
+  local_48._12_4_ = in_XMM0_Dd;
+  if (Il2CppMethodInitialized_07545a22 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_bool_array);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_ctor);
@@ -5165,7 +5967,7 @@ void Map_MapFracture__AddCaps
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Segment_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_List_int_ctor);
@@ -5179,207 +5981,343 @@ void Map_MapFracture__AddCaps
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_List_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
-    Il2CppMethodInitialized_184345091 = '\x01';
+    Il2CppMethodInitialized_07545a22 = '\x01';
   }
-  local_1c8.fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_1c8.fields._index = 0;
-  local_1c8.fields._version = 0;
-  local_1c8.fields._current = (Il2CppObject *)0x0;
-  uStack_1b0._0_4_ = 0.0;
-  uStack_1b0._4_4_ = 0.0;
-  local_1a8._0_4_ = 0.0;
-  local_1a8._4_4_ = 0.0;
-  UStack_1a0.x = 0.0;
-  UStack_1a0.y = 0.0;
-  local_198 = 0;
-  uStack_190 = 0;
-  local_188 = 0;
-  fStack_180 = 0.0;
-  fStack_17c = 0.0;
-  local_178 = 0;
-  uStack_170 = 0;
-  points = il2cpp_codegen_object_new
+  local_e8 = 0;
+  uStack_e0 = 0;
+  local_f8 = 0;
+  fStack_f4 = 0.0;
+  uStack_f0 = 0;
+  local_108 = 0.0;
+  uStack_104 = 0;
+  uStack_100 = 0;
+  uStack_fc = 0;
+  local_118 = (System_Collections_Generic_List_T__o *)0x0;
+  uStack_110._0_4_ = 0;
+  uStack_110._4_4_ = 0;
+  local_138.fields._current = (Il2CppObject *)0x0;
+  uStack_120._0_4_ = 0;
+  uStack_120._4_4_ = 0;
+  local_138.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_138.fields._index = 0;
+  local_138.fields._version = 0;
+  __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_Vector3Int_int);
   System_Collections_Generic_Dictionary_Vector3Int__int____ctor
-            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)points,
-             (MethodInfo_14CF520 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_ctor);
-  vertices = il2cpp_codegen_object_new
-                       ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
+            (__this,(MethodInfo_4B1BB70 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_ctor
+            );
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
   System_Collections_Generic_List_MapFracture_Vertex____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)vertices,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
-  __this = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+            (__this_00,
+             (MethodInfo_3AB57C0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
+  pSVar22 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
   System_Collections_Generic_List_int____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+            (pSVar22,(MethodInfo_39161C0 *)MethodInfo_System_Collections_Generic_List_int_ctor);
   neighbors = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_List_int);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)neighbors,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_List_int_ctor);
+            ((System_Collections_Generic_List_object__o *)neighbors,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_List_int_ctor);
   if (segments != (System_Collections_Generic_List_MapFracture_Segment__o *)0x0) {
-    local_1f8 = neighbors;
-    local_1d8 = vertices;
-    local_1d0 = __this;
     System_Collections_Generic_List_MapFracture_Segment___GetEnumerator
               (&local_a8,segments,
-               (MethodInfo_9E6670 *)
+               (MethodInfo_3AAF430 *)
                MethodInfo_System_Collections_Generic_List_MapFracture_Segment_GetEnumerator);
-    local_1c8.fields._list = local_a8.fields._list;
-    local_1c8.fields._index = local_a8.fields._index;
-    local_1c8.fields._version = local_a8.fields._version;
-    local_1c8.fields._current = local_a8.fields._current;
-    uStack_1b0._0_4_ = fStack_90;
-    uStack_1b0._4_4_ = fStack_8c;
-    local_1a8._0_4_ = local_88;
-    local_1a8._4_4_ = fStack_84;
-    UStack_1a0 = UStack_80;
-    local_198 = local_78;
-    uStack_190 = uStack_70;
-    local_188 = CONCAT44(fStack_64,local_68);
-    fStack_180 = fStack_60;
-    fStack_17c = fStack_5c;
-    local_178 = local_58;
-    uStack_170 = uStack_50;
-    local_1e8 = 0;
-    local_1e0 = &local_1c8;
-    while (bVar2 = System_Collections_Generic_List_Enumerator_MapFracture_Segment___MoveNext
-                             (&local_1c8,
-                              (MethodInfo_1559880 *)
-                              MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Segment_MoveNext
-                             ), bVar2) {
-      local_78 = local_188;
-      fVar1 = local_178._4_4_;
-      local_68 = (float)local_178;
-      fStack_64 = local_178._4_4_;
-      fStack_60 = (float)uStack_170;
-      local_d8 = (float)local_198;
-      fStack_d4 = local_198._4_4_;
-      fStack_d0 = (float)uStack_190;
-      fStack_cc = uStack_190._4_4_;
-      local_c8 = (float)local_188;
-      fStack_c4 = (float)((ulonglong)local_188 >> 0x20);
-      fStack_c0 = fStack_180;
-      fStack_bc = fStack_17c;
-      fStack_b8 = (float)local_178;
-      fStack_b4 = local_178._4_4_;
-      local_b0 = (float)uStack_170;
-      local_158[0] = local_1c8.fields._current;
-      local_158[1] = (Il2CppObject *)uStack_1b0;
-      local_158[2] = (Il2CppObject *)local_1a8;
-      UStack_140 = UStack_1a0;
-      local_138 = (float)local_198;
-      index = Map_MapFracture__Weld(points,vertices,(Map_MapFracture_Vertex_o *)local_158,(MethodInfo *)0x0);
-      local_128[0].fields.Position.fields.y = fStack_d0;
-      local_128[0].fields.Position.fields.x = fStack_d4;
-      local_128[0].fields.Normal.fields.x = local_c8;
-      local_128[0].fields.Position.fields.z = fStack_cc;
-      local_128[0].fields.Normal.fields.z = fStack_c0;
-      local_128[0].fields.Normal.fields.y = fStack_c4;
-      local_128[0].fields.UV.fields.y = fStack_b8;
-      local_128[0].fields.UV.fields.x = fStack_bc;
-      local_128[0].fields.Shade = fVar1;
-      item = Map_MapFracture__Weld(points,vertices,local_128,(MethodInfo *)0x0);
-      fVar1 = local_b0;
+    local_e8 = local_58;
+    uStack_e0 = uStack_50;
+    local_f8 = local_68;
+    fStack_f4 = fStack_64;
+    uStack_f0 = uStack_60;
+    local_118 = (System_Collections_Generic_List_T__o *)CONCAT44(uStack_84,local_88);
+    uStack_110._4_4_ = iStack_7c;
+    uStack_110._0_4_ = iStack_80;
+    local_108 = local_78;
+    uStack_104 = uStack_74;
+    uStack_100 = uStack_70;
+    uStack_fc = uStack_6c;
+    local_138.fields._current = local_a8.fields._current;
+    uStack_120._0_4_ = iStack_90;
+    uStack_120._4_4_ = iStack_8c;
+    local_138.fields._list = local_a8.fields._list;
+    local_138.fields._index = local_a8.fields._index;
+    local_138.fields._version = local_a8.fields._version;
+label_0598ca10:
+    bVar20 = System_Collections_Generic_List_Enumerator_MapFracture_Segment___MoveNext
+                       (&local_138,
+                        (MethodInfo_4C81F40 *)
+                        MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Segment_MoveNext);
+    uVar19 = local_e8;
+    uVar18 = uStack_f0;
+    fVar17 = fStack_f4;
+    uVar16 = local_f8;
+    uVar15 = uStack_fc;
+    uVar14 = uStack_100;
+    uVar13 = uStack_104;
+    uVar11 = uStack_110;
+    pSVar10 = local_118;
+    uVar8 = uStack_120;
+    pIVar24 = local_138.fields._current;
+    if (bVar20) {
+      iVar21 = (int32_t)uStack_e0;
+      vertex.fields.Position.fields.z = (float)(int32_t)uStack_120;
+      vertex.fields.Normal.fields.x = (float)uStack_120._4_4_;
+      vertex.fields.Position.fields._0_8_ = local_138.fields._current;
+      vertex.fields.Normal.fields._4_8_ = local_118;
+      vertex.fields.UV.fields.x = (float)(int32_t)uStack_110;
+      vertex.fields.UV.fields.y = (float)uStack_110._4_4_;
+      vertex.fields.Shade = local_108;
+      index = Map_MapFracture__Weld(__this,__this_00,vertex,method_01);
+      uVar12 = uStack_110;
+      uVar9 = uStack_120;
+      local_68 = (undefined4)uVar19;
+      fStack_64 = (float)((ulong)uVar19 >> 0x20);
+      uStack_70 = (undefined4)uVar18;
+      uStack_6c = (undefined4)((ulong)uVar18 >> 0x20);
+      local_a8.fields._current = (Il2CppObject *)pSVar10;
+      uStack_110._0_4_ = (int32_t)uVar11;
+      uStack_110._4_4_ = SUB84(uVar11,4);
+      iStack_90 = (int32_t)uStack_110;
+      iStack_8c = uStack_110._4_4_;
+      local_a8.fields._list = (System_Collections_Generic_List_T__o *)pIVar24;
+      uStack_120._0_4_ = (int32_t)uVar8;
+      uStack_120._4_4_ = SUB84(uVar8,4);
+      local_a8.fields._index = (int32_t)uStack_120;
+      local_a8.fields._version = uStack_120._4_4_;
+      vertex_00.fields.Position.fields.y = (float)uVar14;
+      vertex_00.fields.Position.fields.x = (float)uVar13;
+      vertex_00.fields.Normal.fields.x = (float)uVar16;
+      vertex_00.fields.Position.fields.z = (float)uVar15;
+      local_c8 = CONCAT44(uStack_70,fVar17);
+      uStack_c0 = CONCAT44(local_68,uStack_6c);
+      local_b8 = fStack_64;
+      vertex_00.fields.Normal.fields.y = fVar17;
+      vertex_00.fields.Normal.fields.z = (float)uStack_70;
+      vertex_00.fields.UV.fields.x = (float)uStack_6c;
+      vertex_00.fields.UV.fields.y = (float)local_68;
+      vertex_00.fields.Shade = fStack_64;
+      uStack_120 = uVar9;
+      uStack_110 = uVar12;
+      item = Map_MapFracture__Weld(__this,__this_00,vertex_00,method_02);
       if (neighbors == (System_Collections_Generic_List_List_int___o *)0x0) {
         ThrowNullReferenceException();
       }
-      if (vertices == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
+      if (__this_00 == (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
         ThrowNullReferenceException();
       }
-      while ((neighbors->fields)._size < (vertices->fields)._size) {
-        __this_00 = (System_Collections_Generic_List_T__o *)
-                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-        System_Collections_Generic_List_int____ctor
-                  (__this_00,2,
-                   (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-        il2cpp_runtime_helper_180012890(neighbors,__this_00,MethodInfo_System_Collections_Generic_List_List_int_Add);
-        if (__this == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
+      iVar2 = (neighbors->fields)._size;
+      iVar3 = (__this_00->fields)._size;
+      if (pSVar22 == (System_Collections_Generic_List_int__o *)0x0) {
+        if (iVar2 < iVar3) {
+          pSVar22 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+          System_Collections_Generic_List_int____ctor_3916240
+                    (pSVar22,2,
+                     (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+          pMVar7 = MethodInfo_System_Collections_Generic_List_List_int_Add;
+          piVar1 = &(neighbors->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar5 = (neighbors->fields)._items;
+          if (pSVar5 != (System_Collections_Generic_List_int__array *)0x0) {
+            uVar4 = (neighbors->fields)._size;
+            if (uVar4 < (uint)pSVar5->max_length) {
+              (neighbors->fields)._size = uVar4 + 1;
+              pSVar5->m_Items[(int)uVar4] = pSVar22;
+              Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar4);
+            }
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        ((System_Collections_Generic_List_object__o *)neighbors,(Il2CppObject *)pSVar22,
+                         (MethodInfo_395D230 *)pMVar7->klass->rgctx_data[0xe].method);
+            }
+label_0598cfc0:
+            ThrowNullReferenceException();
+          }
+label_0598cf7a:
           ThrowNullReferenceException();
         }
-        il2cpp_runtime_helper_180026690(__this,fVar1,MethodInfo_System_Collections_Generic_List_int_Add);
+      }
+      else if (iVar2 < iVar3) {
+        do {
+          pSVar23 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+          System_Collections_Generic_List_int____ctor_3916240
+                    (pSVar23,2,
+                     (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+          pMVar7 = MethodInfo_System_Collections_Generic_List_List_int_Add;
+          piVar1 = &(neighbors->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar5 = (neighbors->fields)._items;
+          if (pSVar5 == (System_Collections_Generic_List_int__array *)0x0) goto label_0598cf7a;
+          uVar4 = (neighbors->fields)._size;
+          if (uVar4 < (uint)pSVar5->max_length) {
+            (neighbors->fields)._size = uVar4 + 1;
+            pSVar5->m_Items[(int)uVar4] = pSVar23;
+            Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar4);
+          }
+          else {
+            System_Collections_Generic_List_object___AddWithResize
+                      ((System_Collections_Generic_List_object__o *)neighbors,(Il2CppObject *)pSVar23,
+                       (MethodInfo_395D230 *)pMVar7->klass->rgctx_data[0xe].method);
+          }
+          pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+          piVar1 = &(pSVar22->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar6 = (pSVar22->fields)._items;
+          if (pSVar6 == (System_Int32_array *)0x0) goto label_0598cfc0;
+          uVar4 = (pSVar22->fields)._size;
+          if (uVar4 < (uint)pSVar6->max_length) {
+            (pSVar22->fields)._size = uVar4 + 1;
+            pSVar6->m_Items[(int)uVar4] = iVar21;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (pSVar22,iVar21,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+          }
+        } while ((neighbors->fields)._size < (__this_00->fields)._size);
       }
       if (index != item) {
-        __this_01 = (System_Collections_Generic_List_int__o *)
-                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)neighbors,index,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-        if (__this_01 == (System_Collections_Generic_List_int__o *)0x0) {
+        pSVar23 = (System_Collections_Generic_List_int__o *)
+                  System_Collections_Generic_List_object___get_Item
+                            ((System_Collections_Generic_List_object__o *)neighbors,index,
+                             (MethodInfo_395CF20 *)
+                             MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+        if (pSVar23 == (System_Collections_Generic_List_int__o *)0x0) {
           ThrowNullReferenceException();
         }
-        bVar2 = System_Collections_Generic_List_int___Contains
-                          (__this_01,item,
-                           (MethodInfo_91C120 *)MethodInfo_System_Collections_Generic_List_int_Contains);
-        if (!bVar2) {
-          pIVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                             ((System_Collections_Generic_List_object__o *)neighbors,index,
-                              (MethodInfo_92B830 *)
-                              MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-          if (pIVar3 == (Il2CppObject *)0x0) {
-            ThrowNullReferenceException();
+        bVar20 = System_Collections_Generic_List_int___Contains
+                           (pSVar23,item,
+                            (MethodInfo_3916F20 *)MethodInfo_System_Collections_Generic_List_int_Contains);
+        if (!bVar20) {
+          pSVar23 = (System_Collections_Generic_List_int__o *)
+                    System_Collections_Generic_List_object___get_Item
+                              ((System_Collections_Generic_List_object__o *)neighbors,index,
+                               (MethodInfo_395CF20 *)
+                               MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+          pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+          if (pSVar23 != (System_Collections_Generic_List_int__o *)0x0) {
+            piVar1 = &(pSVar23->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pSVar6 = (pSVar23->fields)._items;
+            if (pSVar6 != (System_Int32_array *)0x0) {
+              uVar4 = (pSVar23->fields)._size;
+              if (uVar4 < (uint)pSVar6->max_length) {
+                (pSVar23->fields)._size = uVar4 + 1;
+                pSVar6->m_Items[(int)uVar4] = item;
+              }
+              else {
+                System_Collections_Generic_List_int___AddWithResize
+                          (pSVar23,item,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+              }
+              pSVar23 = (System_Collections_Generic_List_int__o *)
+                        System_Collections_Generic_List_object___get_Item
+                                  ((System_Collections_Generic_List_object__o *)neighbors,item,
+                                   (MethodInfo_395CF20 *)
+                                   MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              pMVar7 = MethodInfo_System_Collections_Generic_List_int_Add;
+              if (pSVar23 != (System_Collections_Generic_List_int__o *)0x0) {
+                piVar1 = &(pSVar23->fields)._version;
+                *piVar1 = *piVar1 + 1;
+                pSVar6 = (pSVar23->fields)._items;
+                if (pSVar6 != (System_Int32_array *)0x0) {
+                  uVar4 = (pSVar23->fields)._size;
+                  if (uVar4 < (uint)pSVar6->max_length) {
+                    (pSVar23->fields)._size = uVar4 + 1;
+                    pSVar6->m_Items[(int)uVar4] = index;
+                  }
+                  else {
+                    System_Collections_Generic_List_int___AddWithResize
+                              (pSVar23,index,(MethodInfo_3916AC0 *)pMVar7->klass->rgctx_data[0xe].method);
+                  }
+                  goto label_0598ca10;
+                }
+              }
+              ThrowNullReferenceException();
+            }
           }
-          il2cpp_runtime_helper_180026690(pIVar3,item,MethodInfo_System_Collections_Generic_List_int_Add);
-          pIVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                             ((System_Collections_Generic_List_object__o *)neighbors,item,
-                              (MethodInfo_92B830 *)
-                              MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-          if (pIVar3 == (Il2CppObject *)0x0) {
-            ThrowNullReferenceException();
-          }
-          il2cpp_runtime_helper_180026690(pIVar3,index,MethodInfo_System_Collections_Generic_List_int_Add);
+          ThrowNullReferenceException();
         }
       }
+      goto label_0598ca10;
     }
     System_Collections_Generic_List_Enumerator_MapFracture_Segment___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_1c8,
+              (&local_138,
+               (MethodInfo_4C81F30 *)
                MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Segment_Dispose);
-    index_00 = 0;
-    if (vertices != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
-      visited = (System_Boolean_array *)SZArrayNew(TypeInfo_bool_array,(vertices->fields)._size);
-      while( true ) {
-        if ((vertices->fields)._size <= (int)index_00) {
-          return;
+    if (__this_00 != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
+      visited = (System_Boolean_array *)SZArrayNew(TypeInfo_bool_array,(__this_00->fields)._size);
+      iVar2 = (__this_00->fields)._size;
+      if (0 < iVar2) {
+        if (visited == (System_Boolean_array *)0x0) goto label_0598cf17;
+        if (neighbors == (System_Collections_Generic_List_List_int___o *)0x0) {
+          lVar26 = 0;
+          do {
+            if ((int)visited->max_length == (int)lVar26) goto label_0598cf26;
+            if (visited->m_Items[lVar26] == false) goto label_0598cf17;
+            lVar26 = lVar26 + 1;
+          } while ((int)lVar26 < iVar2);
         }
-        if (visited == (System_Boolean_array *)0x0) break;
-        if ((uint)visited->max_length <= index_00) {
-          ThrowIndexOutOfRangeException();
+        else if (pSVar22 == (System_Collections_Generic_List_int__o *)0x0) {
+          uVar27 = 0;
+          do {
+            if ((uint)visited->max_length <= uVar27) goto label_0598cf26;
+            if (visited->m_Items[uVar27] == false) {
+              pIVar24 = System_Collections_Generic_List_object___get_Item
+                                  ((System_Collections_Generic_List_object__o *)neighbors,(int32_t)uVar27,
+                                   (MethodInfo_395CF20 *)
+                                   MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              if ((pIVar24 == (Il2CppObject *)0x0) ||
+                 ((*(int *)&pIVar24[1].monitor == 2 &&
+                  (pSVar25 = Map_MapFracture__TraceLoop((int32_t)uVar27,__this_00,neighbors,visited,in_R8),
+                  pSVar25 != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0))))
+              goto label_0598cf17;
+            }
+            uVar27 = uVar27 + 1;
+          } while ((long)uVar27 < (long)(__this_00->fields)._size);
         }
-        if (visited->m_Items[(int)index_00] == false) {
-          if ((neighbors == (System_Collections_Generic_List_List_int___o *)0x0) ||
-             (pIVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                                 ((System_Collections_Generic_List_object__o *)neighbors,index_00,
-                                  (MethodInfo_92B830 *)
-                                  MethodInfo_System_Collections_Generic_List_List_int_get_Item),
-             pIVar3 == (Il2CppObject *)0x0)) break;
-          if ((*(int *)&pIVar3[1].monitor == 2) &&
-             (loop = Map_MapFracture__TraceLoop(index_00,vertices,neighbors,visited,(MethodInfo *)0x0),
-             loop != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0)) {
-            if (__this == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) break;
-            local_1f8 = *(System_Collections_Generic_List_List_int___o **)&normal->fields;
-            local_1f0 = (normal->fields).z;
-            submesh = System_Collections_Generic_List_int___get_Item
-                                (__this,index_00,
-                                 (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item)
-            ;
-            Map_MapFracture__AddCap
-                      (loop,(UnityEngine_Vector3_o *)&local_1f8,(int32_t)submesh.fields,target,
-                       (MethodInfo *)0x0);
-          }
+        else {
+          uVar27 = 0;
+          do {
+            if ((uint)visited->max_length <= uVar27) {
+label_0598cf26:
+              ThrowIndexOutOfRangeException();
+            }
+            if (visited->m_Items[uVar27] == false) {
+              iVar21 = (int32_t)uVar27;
+              pIVar24 = System_Collections_Generic_List_object___get_Item
+                                  ((System_Collections_Generic_List_object__o *)neighbors,iVar21,
+                                   (MethodInfo_395CF20 *)
+                                   MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              if (pIVar24 == (Il2CppObject *)0x0) goto label_0598cf17;
+              if ((*(int *)&pIVar24[1].monitor == 2) &&
+                 (method_00 = visited,
+                 pSVar25 = Map_MapFracture__TraceLoop(iVar21,__this_00,neighbors,visited,in_R8),
+                 pSVar25 != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0)) {
+                iVar21 = System_Collections_Generic_List_int___get_Item
+                                   (pSVar22,iVar21,
+                                    (MethodInfo_39167D0 *)
+                                    MethodInfo_System_Collections_Generic_List_int_get_Item);
+                normal_00.fields.x = (float)local_48._0_4_;
+                normal_00.fields.y = (float)local_48._4_4_;
+                Map_MapFracture__AddCap(pSVar25,normal_00,iVar21,target,(MethodInfo *)method_00);
+              }
+            }
+            uVar27 = uVar27 + 1;
+          } while ((long)uVar27 < (long)(__this_00->fields)._size);
         }
-        index_00 = index_00 + 1;
       }
+      return;
     }
   }
+label_0598cf17:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$TraceLoop
 // il2cpp: System_Collections_Generic_List_MapFracture_Vertex__o* Map_MapFracture__TraceLoop (int32_t start, System_Collections_Generic_List_MapFracture_Vertex__o* vertices, System_Collections_Generic_List_List_int___o* neighbors, System_Boolean_array* visited, const MethodInfo* method);
-// 0x181ea7a00
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea7bc0: mov r15d, r14d
+// 0x598e670
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598e850: jmp 0x598ea2f
+// asm:   0x598e86c: nop dword ptr [rax]
+// asm:   0x598ea28: jmp 0x598e846
 
 System_Collections_Generic_List_MapFracture_Vertex__o *
 Map_MapFracture__TraceLoop
@@ -5390,30 +6328,21 @@ Map_MapFracture__TraceLoop
 {
   int32_t *piVar1;
   Map_MapFracture_Vertex_o *pMVar2;
-  uint uVar3;
-  Map_MapFracture_Vertex_array *pMVar4;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields SVar5;
-  Map_MapFracture_Vertex_Fields *pMVar6;
-  MethodInfo *pMVar7;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields index;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields SVar8;
+  Map_MapFracture_Vertex_array *pMVar3;
+  Map_MapFracture_Vertex_o item;
+  Map_MapFracture_Vertex_o item_00;
+  Map_MapFracture_Vertex_Fields *pMVar4;
+  MethodInfo *pMVar5;
+  uint uVar6;
   System_Collections_Generic_List_MapFracture_Vertex__o *__this;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *pSVar9;
-  Il2CppObject *pIVar10;
-  System_Collections_Generic_List_MapFracture_Vertex__o *pSVar11;
-  int32_t index_00;
-  Map_MapFracture_Vertex_o local_78;
-  float local_48;
-  float fStack_44;
-  float fStack_40;
-  float fStack_3c;
-  float local_38;
-  float fStack_34;
-  float fStack_30;
-  float fStack_2c;
-  float local_28;
+  System_Collections_Generic_List_int__o *pSVar7;
+  Il2CppObject *pIVar8;
+  System_Collections_Generic_List_MapFracture_Vertex__o *pSVar9;
+  uint uVar10;
+  uint index;
+  Map_MapFracture_Vertex_o local_58;
   
-  if (Il2CppMethodInitialized_184345092 == '\0') {
+  if (Il2CppMethodInitialized_07545a23 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -5426,154 +6355,164 @@ Map_MapFracture__TraceLoop
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
-    Il2CppMethodInitialized_184345092 = '\x01';
+    Il2CppMethodInitialized_07545a23 = '\x01';
   }
   __this = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapFracture_Vertex);
   System_Collections_Generic_List_MapFracture_Vertex____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
+            (__this,(MethodInfo_3AB57C0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_ctor);
   if ((vertices != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) &&
      (System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                (&local_78,vertices,start,
-                 (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item),
-     pMVar7 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add,
+                (&local_58,vertices,start,
+                 (MethodInfo_3AB5DD0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item)
+     , pMVar5 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add,
      __this != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0)) {
     piVar1 = &(__this->fields)._version;
     *piVar1 = *piVar1 + 1;
-    pMVar4 = (__this->fields)._items;
-    if (pMVar4 == (Map_MapFracture_Vertex_array *)0x0) goto label_181ea7d10;
-    uVar3 = (__this->fields)._size;
-    if (uVar3 < (uint)pMVar4->max_length) {
-      (__this->fields)._size = uVar3 + 1;
-      if ((uint)pMVar4->max_length <= uVar3) goto label_181ea7d16;
-      pMVar2 = pMVar4->m_Items + (int)uVar3;
-      (pMVar2->fields).Position.fields.x = local_78.fields.Position.fields.x;
-      (pMVar2->fields).Position.fields.y = local_78.fields.Position.fields.y;
-      *(undefined8 *)&(pMVar2->fields).Position.fields.z = local_78.fields._8_8_;
-      pMVar6 = &pMVar4->m_Items[(int)uVar3].fields;
-      (pMVar6->Normal).fields.y = local_78.fields.Normal.fields.y;
-      (pMVar6->Normal).fields.z = local_78.fields.Normal.fields.z;
-      (pMVar6->UV).fields = local_78.fields.UV.fields;
-      pMVar4->m_Items[(int)uVar3].fields.Shade = local_78.fields.Shade;
-    }
-    else {
-      System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
-                (__this,&local_78,(MethodInfo_952080 *)pMVar7->klass->rgctx_data[0xe].method);
-    }
-    if (visited != (System_Boolean_array *)0x0) {
-      if ((uint)start < (uint)visited->max_length) {
+    pMVar3 = (__this->fields)._items;
+    if (pMVar3 != (Map_MapFracture_Vertex_array *)0x0) {
+      uVar6 = (__this->fields)._size;
+      if (uVar6 < (uint)pMVar3->max_length) {
+        (__this->fields)._size = uVar6 + 1;
+        pMVar3->m_Items[(int)uVar6].fields.Shade = local_58.fields.Shade;
+        pMVar4 = &pMVar3->m_Items[(int)uVar6].fields;
+        (pMVar4->Normal).fields.y = local_58.fields.Normal.fields.y;
+        (pMVar4->Normal).fields.z = local_58.fields.Normal.fields.z;
+        (pMVar4->UV).fields = local_58.fields.UV.fields;
+        pMVar2 = pMVar3->m_Items + (int)uVar6;
+        (pMVar2->fields).Position.fields.x = local_58.fields.Position.fields.x;
+        (pMVar2->fields).Position.fields.y = local_58.fields.Position.fields.y;
+        *(undefined8 *)&(pMVar2->fields).Position.fields.z = local_58.fields._8_8_;
+      }
+      else {
+        item.fields.Position.fields.z = local_58.fields.Position.fields.z;
+        item.fields.Normal.fields.x = local_58.fields.Normal.fields.x;
+        item.fields.Position.fields.x = local_58.fields.Position.fields.x;
+        item.fields.Position.fields.y = local_58.fields.Position.fields.y;
+        item.fields.Normal.fields.y = local_58.fields.Normal.fields.y;
+        item.fields.Normal.fields.z = local_58.fields.Normal.fields.z;
+        item.fields.UV.fields = local_58.fields.UV.fields;
+        item.fields.Shade = local_58.fields.Shade;
+        System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
+                  (__this,item,(MethodInfo_3AB6170 *)pMVar5->klass->rgctx_data[0xe].method);
+      }
+      if (visited != (System_Boolean_array *)0x0) {
+        if ((uint)visited->max_length <= (uint)start) {
+label_0598ea46:
+          ThrowIndexOutOfRangeException();
+        }
         visited->m_Items[start] = true;
-        if ((neighbors == (System_Collections_Generic_List_List_int___o *)0x0) ||
-           (pSVar9 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                     System_Collections_Generic_List_object___System_Collections_IList_get_Item
+        if ((neighbors != (System_Collections_Generic_List_List_int___o *)0x0) &&
+           (pSVar7 = (System_Collections_Generic_List_int__o *)
+                     System_Collections_Generic_List_object___get_Item
                                ((System_Collections_Generic_List_object__o *)neighbors,start,
-                                (MethodInfo_92B830 *)
+                                (MethodInfo_395CF20 *)
                                 MethodInfo_System_Collections_Generic_List_List_int_get_Item),
-           pSVar9 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0))
-        goto label_181ea7d10;
-        index = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                          (pSVar9,0,(MethodInfo_92B8E0 *)
-                                    MethodInfo_System_Collections_Generic_List_int_get_Item);
-        SVar5 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)start;
-        while( true ) {
-          if (index == (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)start) {
-            pSVar11 = (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
-            if (2 < (__this->fields)._size) {
-              pSVar11 = __this;
-            }
-            return pSVar11;
-          }
-          if ((uint)*(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)&visited->max_length
-              <= (uint)index) break;
-          if (visited->m_Items[(int)index] != false) {
-            return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
-          }
-          pIVar10 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)neighbors,(int32_t)index,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-          if (pIVar10 == (Il2CppObject *)0x0) goto label_181ea7d10;
-          if (*(int *)&pIVar10[1].monitor != 2) {
-            return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
-          }
-          if (0x7ff < (__this->fields)._size) {
-            return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
-          }
-          if ((uint)*(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)&visited->max_length
-              <= (uint)index) break;
-          visited->m_Items[(int)index] = true;
-          System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                    (&local_78,vertices,(int32_t)index,
-                     (MethodInfo_965440 *)
-                     MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-          local_48 = local_78.fields.Position.fields.x;
-          fStack_44 = local_78.fields.Position.fields.y;
-          fStack_40 = local_78.fields.Position.fields.z;
-          fStack_3c = local_78.fields.Normal.fields.x;
-          local_38 = local_78.fields.Normal.fields.y;
-          fStack_34 = local_78.fields.Normal.fields.z;
-          fStack_30 = local_78.fields.UV.fields.x;
-          fStack_2c = local_78.fields.UV.fields.y;
-          local_28 = local_78.fields.Shade;
-          il2cpp_runtime_helper_18003b8f0(__this,&local_48,MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add);
-          pSVar9 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                   System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                             ((System_Collections_Generic_List_object__o *)neighbors,(int32_t)index,
-                              (MethodInfo_92B830 *)
-                              MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-          if (pSVar9 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)
-          goto label_181ea7d10;
-          SVar8 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                  System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                            (pSVar9,0,(MethodInfo_92B8E0 *)
+           pSVar7 != (System_Collections_Generic_List_int__o *)0x0)) {
+          uVar6 = System_Collections_Generic_List_int___get_Item
+                            (pSVar7,0,(MethodInfo_39167D0 *)
                                       MethodInfo_System_Collections_Generic_List_int_get_Item);
-          if (SVar8 == SVar5) {
-            pSVar9 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                     System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)neighbors,(int32_t)index,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-            if (pSVar9 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)
-            goto label_181ea7d10;
-            index_00 = 1;
+          if (uVar6 != start) {
+            uVar10 = start;
+            do {
+              index = uVar6;
+              if ((uint)visited->max_length <= index) goto label_0598ea46;
+              if (visited->m_Items[(int)index] != false) {
+                return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
+              }
+              pIVar8 = System_Collections_Generic_List_object___get_Item
+                                 ((System_Collections_Generic_List_object__o *)neighbors,index,
+                                  (MethodInfo_395CF20 *)
+                                  MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              if (pIVar8 == (Il2CppObject *)0x0) goto label_0598ea41;
+              if (*(int *)&pIVar8[1].monitor != 2) {
+                return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
+              }
+              if (0x7ff < (__this->fields)._size) {
+                return (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
+              }
+              if ((uint)visited->max_length <= index) goto label_0598ea46;
+              visited->m_Items[(int)index] = true;
+              System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                        (&local_58,vertices,index,
+                         (MethodInfo_3AB5DD0 *)
+                         MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+              pMVar5 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add;
+              piVar1 = &(__this->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pMVar3 = (__this->fields)._items;
+              if (pMVar3 == (Map_MapFracture_Vertex_array *)0x0) goto label_0598ea41;
+              uVar6 = (__this->fields)._size;
+              if (uVar6 < (uint)pMVar3->max_length) {
+                (__this->fields)._size = uVar6 + 1;
+                pMVar3->m_Items[(int)uVar6].fields.Shade = local_58.fields.Shade;
+                pMVar4 = &pMVar3->m_Items[(int)uVar6].fields;
+                (pMVar4->Normal).fields.y = local_58.fields.Normal.fields.y;
+                (pMVar4->Normal).fields.z = local_58.fields.Normal.fields.z;
+                (pMVar4->UV).fields = local_58.fields.UV.fields;
+                pMVar2 = pMVar3->m_Items + (int)uVar6;
+                (pMVar2->fields).Position.fields.x = local_58.fields.Position.fields.x;
+                (pMVar2->fields).Position.fields.y = local_58.fields.Position.fields.y;
+                *(undefined8 *)&(pMVar2->fields).Position.fields.z = local_58.fields._8_8_;
+              }
+              else {
+                item_00.fields.Position.fields.z = local_58.fields.Position.fields.z;
+                item_00.fields.Normal.fields.x = local_58.fields.Normal.fields.x;
+                item_00.fields.Position.fields.x = local_58.fields.Position.fields.x;
+                item_00.fields.Position.fields.y = local_58.fields.Position.fields.y;
+                item_00.fields.Normal.fields.y = local_58.fields.Normal.fields.y;
+                item_00.fields.Normal.fields.z = local_58.fields.Normal.fields.z;
+                item_00.fields.UV.fields = local_58.fields.UV.fields;
+                item_00.fields.Shade = local_58.fields.Shade;
+                System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
+                          (__this,item_00,(MethodInfo_3AB6170 *)pMVar5->klass->rgctx_data[0xe].method);
+              }
+              pSVar7 = (System_Collections_Generic_List_int__o *)
+                       System_Collections_Generic_List_object___get_Item
+                                 ((System_Collections_Generic_List_object__o *)neighbors,index,
+                                  (MethodInfo_395CF20 *)
+                                  MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              if (pSVar7 == (System_Collections_Generic_List_int__o *)0x0) goto label_0598ea41;
+              uVar6 = System_Collections_Generic_List_int___get_Item
+                                (pSVar7,0,(MethodInfo_39167D0 *)
+                                          MethodInfo_System_Collections_Generic_List_int_get_Item);
+              pSVar7 = (System_Collections_Generic_List_int__o *)
+                       System_Collections_Generic_List_object___get_Item
+                                 ((System_Collections_Generic_List_object__o *)neighbors,index,
+                                  (MethodInfo_395CF20 *)
+                                  MethodInfo_System_Collections_Generic_List_List_int_get_Item);
+              if (pSVar7 == (System_Collections_Generic_List_int__o *)0x0) goto label_0598ea41;
+              uVar6 = System_Collections_Generic_List_int___get_Item
+                                (pSVar7,(uint)(uVar6 == uVar10),
+                                 (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item
+                                );
+              uVar10 = index;
+            } while (uVar6 != start);
           }
-          else {
-            pSVar9 = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-                     System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)neighbors,(int32_t)index,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_List_int_get_Item);
-            if (pSVar9 == (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0)
-            goto label_181ea7d10;
-            index_00 = 0;
+          pSVar9 = (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0;
+          if (2 < (__this->fields)._size) {
+            pSVar9 = __this;
           }
-          SVar8 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                  System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                            (pSVar9,index_00,
-                             (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-          SVar5 = index;
-          index = SVar8;
+          return pSVar9;
         }
       }
-label_181ea7d16:
-      ThrowIndexOutOfRangeException();
     }
   }
-label_181ea7d10:
+label_0598ea41:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$AddCap
 // il2cpp: void Map_MapFracture__AddCap (System_Collections_Generic_List_MapFracture_Vertex__o* loop, UnityEngine_Vector3_o normal, int32_t submesh, System_Collections_Generic_List_MapFracture_Triangle__o* target, const MethodInfo* method);
-// 0x181ea0c20
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea12ef: nop 
+// 0x598d980
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598df54: jmp 0x598df8d
+// asm:   0x598e00e: jmp 0x598e027
+// asm:   0x598e5b1: jmp 0x598e5bb
 
 void Map_MapFracture__AddCap
-               (System_Collections_Generic_List_MapFracture_Vertex__o *loop,UnityEngine_Vector3_o *normal,
+               (System_Collections_Generic_List_MapFracture_Vertex__o *loop,UnityEngine_Vector3_o normal,
                int32_t submesh,System_Collections_Generic_List_MapFracture_Triangle__o *target,
                MethodInfo *method)
 
@@ -5582,57 +6521,140 @@ void Map_MapFracture__AddCap
   undefined8 *puVar2;
   UnityEngine_Vector2_o *pUVar3;
   undefined4 uVar4;
-  undefined4 uVar5;
-  int32_t capacity;
-  UnityEngine_Vector3_StaticFields *pUVar6;
+  float fVar5;
+  int iVar6;
   UnityEngine_Vector2_array *pUVar7;
   Map_MapFracture_Triangle_array *pMVar8;
-  double dVar9;
+  UnityEngine_Vector2_o UVar9;
   UnityEngine_Vector2_o item;
-  undefined8 uVar10;
+  undefined1 auVar10 [16];
   undefined8 uVar11;
-  undefined8 uVar12;
-  UnityEngine_Vector2_Fields UVar13;
-  undefined8 uVar14;
-  undefined8 uVar15;
+  UnityEngine_Vector2_Fields UVar12;
+  Map_MapFracture_Triangle_o item_00;
+  UnityEngine_Vector3_o *pUVar13;
+  Map_MapFracture_Triangle_Fields *pMVar14;
+  Map_MapFracture_Vertex_o *pMVar15;
   undefined8 uVar16;
-  undefined8 uVar17;
-  Map_MapFracture_Triangle_Fields *pMVar18;
-  Map_MapFracture_Vertex_o *pMVar19;
-  MethodInfo *pMVar20;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields SVar21;
-  System_Collections_Generic_List_Vector2__o *_flat;
-  Il2CppObject *pIVar22;
-  longlong lVar23;
-  System_Collections_Generic_List_RegexCharClass_SingleRange__o *__this;
-  int iVar24;
-  uint uVar25;
-  float fVar26;
-  float fVar27;
+  undefined4 uVar17;
+  undefined4 uVar18;
+  uint uVar19;
+  UnityEngine_Vector3_StaticFields *pUVar20;
+  System_Collections_Generic_List_Vector2__o *__this;
+  Il2CppObject *pIVar21;
+  System_Collections_Generic_List_int__o *__this_00;
+  long lVar22;
+  UnityEngine_Vector3_o *pUVar23;
+  int32_t iVar24;
+  ulong uVar25;
+  MethodInfo *pMVar26;
+  Il2CppObject *pIVar27;
   float fVar28;
   float fVar29;
+  float extraout_XMM0_Db;
+  float in_XMM0_Dc;
+  float in_XMM0_Dd;
   float fVar30;
+  float in_XMM1_Db;
   float fVar31;
-  float fVar32;
+  undefined1 auVar32 [16];
   float fVar33;
   float fVar34;
   float fVar35;
   float fVar36;
   float fVar37;
-  float fVar38;
-  undefined8 local_1e0;
-  float local_1d8;
-  Map_MapFracture_Vertex_o local_1d0;
-  Map_MapFracture_Vertex_o local_1a8;
-  Map_MapFracture_Triangle_o local_178;
-  Map_MapFracture_Vertex_o local_108 [5];
+  float local_298;
+  float fStack_294;
+  float local_268;
+  float fStack_264;
+  float local_248;
+  float fStack_244;
+  undefined1 local_228 [48];
+  UnityEngine_Vector3_Fields local_1f8 [2];
+  UnityEngine_Vector3_Fields UStack_1e0;
+  float fStack_1d0;
+  float local_1cc;
+  float fStack_1c8;
+  float fStack_1c4;
+  float fStack_1c0;
+  float local_1bc;
+  undefined1 local_1b8 [8];
+  float fStack_1b0;
+  float fStack_1ac;
+  UnityEngine_Vector2_Fields local_1a8;
+  undefined8 uStack_1a0;
+  undefined1 local_198 [8];
+  undefined4 uStack_190;
+  undefined4 uStack_18c;
+  float local_188;
+  float fStack_184;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  System_Collections_Generic_List_Vector2__o *local_168;
+  System_Collections_Generic_List_MapFracture_Triangle__o *local_160;
+  float local_158;
+  float fStack_154;
+  float fStack_150;
+  float fStack_14c;
+  float local_148;
+  float fStack_144;
+  float fStack_140;
+  float fStack_13c;
+  undefined8 local_138;
+  undefined8 uStack_130;
+  undefined8 local_128;
+  undefined8 uStack_120;
+  undefined8 local_118;
+  undefined8 uStack_110;
+  float local_108;
+  Il2CppClass *local_f8;
+  float fStack_f0;
+  float fStack_ec;
+  float local_e8;
+  float fStack_e4;
+  UnityEngine_Vector2_Fields UStack_e0;
+  float local_d8;
+  float local_c8;
+  float fStack_c4;
+  float fStack_c0;
+  float fStack_bc;
+  float local_b8;
+  float fStack_b4;
+  float fStack_b0;
+  float fStack_ac;
+  Il2CppClass *local_a8;
+  float fStack_a0;
+  float fStack_9c;
+  float local_98;
+  float fStack_94;
+  UnityEngine_Vector2_Fields UStack_90;
+  float local_88;
+  float fStack_84;
+  float fStack_80;
+  float fStack_7c;
+  float fStack_78;
+  float fStack_74;
+  float fStack_70;
+  float fStack_6c;
+  float fStack_68;
+  float local_64;
+  UnityEngine_Vector3_Fields local_60;
+  float local_50;
+  float fStack_4c;
+  float fStack_48;
+  float fStack_44;
+  float local_40;
   
-  if (Il2CppMethodInitialized_184345093 == '\0') {
+  fVar29 = normal.fields.x;
+  fVar30 = normal.fields.y;
+  local_160 = target;
+  local_188 = normal.fields.z;
+  fStack_184 = in_XMM1_Db;
+  if (Il2CppMethodInitialized_07545a24 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_Add);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_System_Collections_Generic_List_Vector2_ctor_40efe18);
+              (&MethodInfo_System_Collections_Generic_List_Vector2_ctor_7197518);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Count);
@@ -5641,518 +6663,763 @@ void Map_MapFracture__AddCap
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Vector2);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapFracture_Vertex_array);
-    Il2CppMethodInitialized_184345093 = '\x01';
+    Il2CppMethodInitialized_07545a24 = '\x01';
   }
-  uVar10._0_4_ = (normal->fields).x;
-  uVar10._4_4_ = (normal->fields).y;
-  local_1e0 = uVar10;
-  if (0.9 <= ABS((normal->fields).y)) {
-    if (Il2CppMethodInitialized_1843445b8 == '\0') {
+  if (0.9 <= ABS(fVar30)) {
+    if (Il2CppMethodInitialized_07544d56 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_1843445b8 = '\x01';
+      Il2CppMethodInitialized_07544d56 = '\x01';
     }
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar34 = (pUVar6->rightVector).fields.x;
-    fVar26 = (pUVar6->rightVector).fields.y;
-    fVar37 = (pUVar6->rightVector).fields.z;
+    pUVar23 = &TypeInfo_UnityEngine_Vector3->static_fields->rightVector;
+    pUVar13 = &TypeInfo_UnityEngine_Vector3->static_fields->rightVector;
   }
   else {
-    if (Il2CppMethodInitialized_18433de5c == '\0') {
+    if (Il2CppMethodInitialized_0753e72c == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433de5c = '\x01';
+      Il2CppMethodInitialized_0753e72c = '\x01';
     }
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar34 = (pUVar6->upVector).fields.x;
-    fVar26 = (pUVar6->upVector).fields.y;
-    fVar37 = (pUVar6->upVector).fields.z;
+    pUVar23 = &TypeInfo_UnityEngine_Vector3->static_fields->upVector;
+    pUVar13 = &TypeInfo_UnityEngine_Vector3->static_fields->upVector;
   }
-  fVar35 = (normal->fields).z;
-  fVar36 = fVar37 * local_1e0._4_4_ - fVar26 * fVar35;
-  fVar37 = fVar34 * fVar35 - fVar37 * (float)(undefined4)uVar10;
-  fVar34 = fVar26 * (float)(undefined4)uVar10 - fVar34 * local_1e0._4_4_;
-  local_1e0 = CONCAT44(fVar37,fVar36);
-  local_1d8 = fVar34;
-  if (Il2CppMethodInitialized_18433de5f == '\0') {
+  uVar4 = (pUVar23->fields).x;
+  fVar5 = (pUVar23->fields).y;
+  fVar31 = (pUVar13->fields).z;
+  fVar28 = local_188;
+  fVar33 = 0.0;
+  fVar34 = local_188;
+  fVar35 = fVar31;
+  fVar36 = fStack_184;
+  fVar37 = 0.0;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
+    local_1a8.y = local_188;
+    local_1a8.x = fVar31;
+    uStack_1a0 = (ulong)(uint)fStack_184 << 0x20;
+    local_1b8._4_4_ = fVar31;
+    local_1b8._0_4_ = local_188;
+    fStack_1b0 = fStack_184;
+    fStack_1ac = 0.0;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5f = '\x01';
+    Il2CppMethodInitialized_0753e72d = '\x01';
+    fVar31 = local_1a8.x;
+    fVar28 = local_1a8.y;
+    fVar33 = (float)uStack_1a0;
+    fStack_184 = uStack_1a0._4_4_;
+    fVar34 = (float)local_1b8._0_4_;
+    fVar35 = (float)local_1b8._4_4_;
+    fVar36 = fStack_1b0;
+    fVar37 = fStack_1ac;
   }
-  fVar26 = (float)il2cpp_runtime_helper_180546a40(&local_1e0,0);
-  if (fVar26 <= 1e-05) {
-    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar36 = (pUVar6->zeroVector).fields.x;
-    fVar37 = (pUVar6->zeroVector).fields.y;
-    fVar34 = (pUVar6->zeroVector).fields.z;
+  local_228._0_8_ = (Il2CppClass *)0x0;
+  if (Il2CppMethodInitialized_0753e729 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e729 = '\x01';
+  }
+  auVar32._0_4_ = fVar30 * fVar31 - fVar5 * fVar34;
+  auVar32._4_4_ = (float)uVar4 * fVar28 - fVar29 * fVar35;
+  auVar32._8_4_ = in_XMM0_Dc * fVar33 - fVar36 * 0.0;
+  auVar32._12_4_ = in_XMM0_Dd * fStack_184 - fVar37 * 0.0;
+  fVar31 = fVar5 * fVar29 - (float)uVar4 * fVar30;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar28 = fVar31 * fVar31 + auVar32._4_4_ * auVar32._4_4_ + auVar32._0_4_ * auVar32._0_4_;
+  if (fVar28 < 0.0) {
+    fVar28 = sqrtf(fVar28);
+    fVar33 = extraout_XMM0_Db;
   }
   else {
-    fVar36 = fVar36 / fVar26;
-    fVar37 = fVar37 / fVar26;
-    fVar34 = fVar34 / fVar26;
+    fVar28 = SQRT(fVar28);
+    fVar33 = fVar5;
   }
-  fVar26 = (normal->fields).z;
-  fVar35 = (normal->fields).x;
-  fVar38 = (normal->fields).y;
+  if (1e-05 < fVar28) {
+    fVar31 = fVar31 / fVar28;
+    auVar10._4_4_ = fVar28;
+    auVar10._0_4_ = fVar28;
+    auVar10._8_4_ = fVar33;
+    auVar10._12_4_ = fVar33;
+    auVar32 = divps(auVar32,auVar10);
+    local_228._0_8_ = auVar32._0_8_;
+    pUVar20 = (UnityEngine_Vector3_StaticFields *)local_228;
+  }
+  else {
+    pUVar20 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar31 = (pUVar20->zeroVector).fields.z;
+    fVar5 = 0.0;
+  }
   if (loop != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
-    fVar30 = fVar34 * fVar38 - fVar37 * fVar26;
-    capacity = (loop->fields)._size;
-    fVar31 = fVar36 * fVar26 - fVar34 * fVar35;
-    fVar26 = fVar37 * fVar35 - fVar36 * fVar38;
-    _flat = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector2);
-    System_Collections_Generic_List_Vector2____ctor
-              ((System_Collections_Generic_List_T__o *)_flat,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_Vector2_ctor_40efe18);
-    fVar38 = 0.0;
-    fVar35 = 0.0;
-    for (iVar24 = 0; iVar24 < (loop->fields)._size; iVar24 = iVar24 + 1) {
-      System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                (&local_1d0,loop,iVar24,
-                 (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-      System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                (&local_1a8,loop,(iVar24 + 1) % (loop->fields)._size,
-                 (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-      fVar33 = local_1d0.fields.Position.fields.z;
-      pMVar20 = MethodInfo_System_Collections_Generic_List_Vector2_Add;
-      fVar32 = local_1d0.fields.Position.fields.x;
-      fVar29 = local_1d0.fields.Position.fields.y;
-      fVar27 = fVar37 * local_1d0.fields.Position.fields.y + fVar36 * local_1d0.fields.Position.fields.x +
-               fVar34 * local_1d0.fields.Position.fields.z;
-      fVar28 = fVar31 * local_1d0.fields.Position.fields.y + fVar30 * local_1d0.fields.Position.fields.x +
-               fVar26 * local_1d0.fields.Position.fields.z;
-      if (_flat == (System_Collections_Generic_List_Vector2__o *)0x0) goto label_181ea14f5;
-      piVar1 = &(_flat->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pUVar7 = (_flat->fields)._items;
-      if (pUVar7 == (UnityEngine_Vector2_array *)0x0) goto label_181ea14f5;
-      uVar25 = (_flat->fields)._size;
-      if (uVar25 < (uint)pUVar7->max_length) {
-        (_flat->fields)._size = uVar25 + 1;
-        if ((uint)pUVar7->max_length <= uVar25) goto label_181ea14ef;
-        pUVar7->m_Items[(int)uVar25].fields.x = fVar27;
-        pUVar7->m_Items[(int)uVar25].fields.y = fVar28;
-      }
-      else {
-        item.fields.y = fVar28;
-        item.fields.x = fVar27;
-        System_Collections_Generic_List_Vector2___AddWithResize
-                  (_flat,item,(MethodInfo_99C3D0 *)pMVar20->klass->rgctx_data[0xe].method);
-      }
-      fVar28 = local_1d0.fields.UV.fields.y;
-      fVar27 = local_1d0.fields.UV.fields.x;
-      if (Il2CppMethodInitialized_18433dee7 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-        Il2CppMethodInitialized_18433dee7 = '\x01';
-      }
-      fVar32 = fVar32 - local_1a8.fields.Position.fields.x;
-      fVar29 = fVar29 - local_1a8.fields.Position.fields.y;
-      fVar33 = fVar33 - local_1a8.fields.Position.fields.z;
-      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-      }
-      dVar9 = (double)(fVar29 * fVar29 + fVar32 * fVar32 + fVar33 * fVar33);
-      if (dVar9 < 0.0) {
-        dVar9 = sqrt(dVar9);
-      }
-      else {
-        dVar9 = SQRT(dVar9);
-      }
-      fVar38 = fVar38 + (float)dVar9;
-      if (Il2CppMethodInitialized_18433de5e == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-        Il2CppMethodInitialized_18433de5e = '\x01';
-      }
-      fVar27 = fVar27 - local_1a8.fields.UV.fields.x;
-      fVar28 = fVar28 - local_1a8.fields.UV.fields.y;
-      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-      }
-      dVar9 = (double)(fVar28 * fVar28 + fVar27 * fVar27);
-      if (dVar9 < 0.0) {
-        dVar9 = sqrt(dVar9);
-      }
-      else {
-        dVar9 = SQRT(dVar9);
-      }
-      fVar35 = fVar35 + (float)dVar9;
-    }
-    if (fVar38 <= 0.0001) {
-      fVar35 = 0.0;
+    local_138._0_4_ = (pUVar20->zeroVector).fields.x;
+    local_138._4_4_ = (pUVar20->zeroVector).fields.y;
+    local_148 = fVar30 * fVar31 - local_138._4_4_ * local_188;
+    local_198._0_4_ = (float)local_138 * local_188 - fVar29 * fVar31;
+    register0x00001304 = local_138 >> 0x20;
+    uStack_18c = 0;
+    uStack_130 = 0;
+    local_158 = local_138._4_4_ * fVar29 - fVar30 * (float)local_138;
+    iVar24 = (loop->fields)._size;
+    fStack_154 = local_138._4_4_;
+    fStack_150 = local_138._4_4_;
+    fStack_14c = local_138._4_4_;
+    fStack_144 = fVar30;
+    fStack_140 = fVar30;
+    fStack_13c = fVar30;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Vector2);
+    System_Collections_Generic_List_Vector2____ctor_39f8cf0
+              (__this,iVar24,
+               (MethodInfo_39F8CF0 *)MethodInfo_System_Collections_Generic_List_Vector2_ctor_7197518);
+    local_168 = __this;
+    if ((loop->fields)._size < 1) {
+      fVar29 = 0.0;
     }
     else {
-      fVar35 = (fVar35 / fVar38) * 0.15;
-    }
-    System_Collections_Generic_List_MapFracture_Vertex___get_Item
-              (&local_1a8,loop,0,
-               (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-    pIVar22 = SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,(loop->fields)._size);
-    for (uVar25 = 0; (int)uVar25 < (loop->fields)._size; uVar25 = uVar25 + 1) {
-      System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                (local_108,loop,uVar25,
-                 (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-      fVar32 = local_108[0].fields.Position.fields.x - local_1a8.fields.Position.fields.x;
-      fVar29 = local_108[0].fields.Position.fields.y - local_1a8.fields.Position.fields.y;
-      fVar38 = local_108[0].fields.Position.fields.z - local_1a8.fields.Position.fields.z;
-      System_Collections_Generic_List_MapFracture_Vertex___get_Item
-                (local_108,loop,uVar25,
-                 (MethodInfo_965440 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
-      local_1d0.fields.Position.fields.z = local_108[0].fields.Position.fields.z;
-      uVar4 = (normal->fields).x;
-      uVar5 = (normal->fields).y;
-      local_1d0.fields.Normal.fields.z = (normal->fields).z;
-      local_1d0.fields.UV.fields.x =
-           (fVar37 * fVar29 + fVar36 * fVar32 + fVar34 * fVar38) * fVar35 + local_1a8.fields.UV.fields.x;
-      local_1d0.fields.UV.fields.y =
-           (fVar31 * fVar29 + fVar30 * fVar32 + fVar26 * fVar38) * fVar35 + local_1a8.fields.UV.fields.y;
-      local_1d0.fields.Normal.fields.x = (float)uVar4;
-      local_1d0.fields.Normal.fields.y = (float)uVar5;
-      if (pIVar22 == (Il2CppObject *)0x0) goto label_181ea14f5;
-      if (*(uint *)&pIVar22[1].monitor <= uVar25) goto label_181ea14ef;
-      uVar10 = CONCAT44(uVar4,local_108[0].fields.Position.fields.z);
-      lVar23 = (longlong)(int)uVar25;
-      puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x20);
-      *puVar2 = CONCAT44(local_108[0].fields.Position.fields.y,local_108[0].fields.Position.fields.x);
-      puVar2[1] = uVar10;
-      puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x30);
-      *puVar2 = CONCAT44(local_1d0.fields.Normal.fields.z,uVar5);
-      puVar2[1] = CONCAT44(local_1d0.fields.UV.fields.y,local_1d0.fields.UV.fields.x);
-      *(undefined4 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x40) = 0x3f400000;
-    }
-    __this = (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)
-             Map_MapFracture__EarClip(_flat,(MethodInfo *)0x0);
-    if (__this != (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)0x0) {
+      if (__this == (System_Collections_Generic_List_Vector2__o *)0x0) {
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,0,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,(int32_t)(1 % (long)(loop->fields)._size),
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        ThrowNullReferenceException();
+      }
+      local_b8 = (float)local_198._0_4_;
+      fStack_b4 = (float)local_198._0_4_;
+      fStack_b0 = (float)local_198._0_4_;
+      fStack_ac = (float)local_198._0_4_;
+      fStack_c4 = local_158;
+      fStack_bc = fStack_154;
       iVar24 = 0;
-      while( true ) {
-        if ((__this->fields)._size <= iVar24) {
-          return;
-        }
-        SVar21 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                 System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                           (__this,iVar24,
-                            (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        if (pIVar22 == (Il2CppObject *)0x0) break;
-        if ((uint)*(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)&pIVar22[1].monitor <=
-            (uint)SVar21) {
-label_181ea14ef:
-          ThrowIndexOutOfRangeException();
-        }
-        lVar23 = (longlong)(int)SVar21;
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x20);
-        uVar10 = *puVar2;
-        uVar11 = puVar2[1];
-        fVar34 = *(float *)((longlong)pIVar22 + lVar23 * 0x24 + 0x40);
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x30);
-        uVar12 = *puVar2;
-        UVar13 = *(UnityEngine_Vector2_Fields *)(puVar2 + 1);
-        SVar21 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                 System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                           (__this,iVar24 + 1,
-                            (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        if ((uint)*(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)&pIVar22[1].monitor <=
-            (uint)SVar21) goto label_181ea14ef;
-        lVar23 = (longlong)(int)SVar21;
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x20);
-        uVar14 = *puVar2;
-        uVar15 = puVar2[1];
-        fVar26 = *(float *)((longlong)pIVar22 + lVar23 * 0x24 + 0x40);
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x30);
-        uVar16 = *puVar2;
-        uVar17 = puVar2[1];
-        SVar21 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-                 System_Collections_Generic_List_RegexCharClass_SingleRange___get_Item
-                           (__this,iVar24 + 2,
-                            (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        pMVar20 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
-        if ((uint)*(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)&pIVar22[1].monitor <=
-            (uint)SVar21) goto label_181ea14ef;
-        lVar23 = (longlong)(int)SVar21;
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x20);
-        local_178.fields.C.fields.Position.fields._0_8_ = *puVar2;
-        local_178.fields.C.fields._8_8_ = puVar2[1];
-        puVar2 = (undefined8 *)((longlong)pIVar22 + lVar23 * 0x24 + 0x30);
-        local_178.fields.C.fields.Normal.fields._4_8_ = *puVar2;
-        local_178.fields.C.fields.UV.fields = *(UnityEngine_Vector2_Fields *)(puVar2 + 1);
-        local_178.fields.Submesh = submesh;
-        local_178.fields.C.fields.Shade = *(float *)((longlong)pIVar22 + lVar23 * 0x24 + 0x40);
-        local_178.fields.B.fields.Position.fields.x = (float)uVar14;
-        local_178.fields.B.fields.Position.fields.y = (float)((ulonglong)uVar14 >> 0x20);
-        local_178.fields.B.fields.Position.fields.z = (float)uVar15;
-        local_178.fields.B.fields.Normal.fields.x = (float)((ulonglong)uVar15 >> 0x20);
-        local_178.fields.B.fields.Normal.fields.y = (float)uVar16;
-        local_178.fields.B.fields.Normal.fields.z = (float)((ulonglong)uVar16 >> 0x20);
-        local_178.fields.B.fields.UV.fields.x = (float)uVar17;
-        local_178.fields.B.fields.UV.fields.y = (float)((ulonglong)uVar17 >> 0x20);
-        local_178.fields.A.fields.Shade = fVar34;
-        local_178.fields.B.fields.Shade = fVar26;
-        if (target == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) break;
-        piVar1 = &(target->fields)._version;
+      fVar28 = 0.0;
+      fVar30 = 0.0;
+      local_c8 = fVar31;
+      fStack_c0 = fVar5;
+      do {
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,iVar24,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        uVar11 = local_228._0_8_;
+        uVar17 = local_228._8_4_;
+        local_1a8.x = (float)local_228._24_4_;
+        local_1a8.y = (float)local_228._28_4_;
+        uStack_1a0 = 0;
+        iVar24 = iVar24 + 1;
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,iVar24 % (loop->fields)._size,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        pMVar26 = MethodInfo_System_Collections_Generic_List_Vector2_Add;
+        local_178 = (Il2CppClass *)local_228._0_8_;
+        uStack_170 = 0;
+        uVar18 = local_228._8_4_;
+        _fStack_1b0 = 0;
+        local_1b8 = (undefined1  [8])local_228._24_8_;
+        piVar1 = &(__this->fields)._version;
         *piVar1 = *piVar1 + 1;
-        pMVar8 = (target->fields)._items;
-        if (pMVar8 == (Map_MapFracture_Triangle_array *)0x0) break;
-        uVar25 = (target->fields)._size;
-        if (uVar25 < (uint)pMVar8->max_length) {
-          (target->fields)._size = uVar25 + 1;
-          if ((uint)pMVar8->max_length <= uVar25) goto label_181ea14ef;
-          iVar24 = iVar24 + 3;
-          *(undefined8 *)&pMVar8->m_Items[(int)uVar25].fields.A.fields.Position = uVar10;
-          *(undefined8 *)((longlong)&pMVar8->m_Items[(int)uVar25].fields.A.fields.Position + 8) = uVar11;
-          pMVar18 = &pMVar8->m_Items[(int)uVar25].fields;
-          *(undefined8 *)((longlong)&(pMVar18->A).fields.Normal.fields + 4) = uVar12;
-          (pMVar18->A).fields.UV.fields = UVar13;
-          pMVar18 = &pMVar8->m_Items[(int)uVar25].fields;
-          *(ulonglong *)&(pMVar18->A).fields.Shade =
-               CONCAT44(local_178.fields.B.fields.Position.fields.x,fVar34);
-          *(ulonglong *)((longlong)&(pMVar18->B).fields.Position.fields + 4) =
-               CONCAT44(local_178.fields.B.fields.Position.fields.z,
-                        local_178.fields.B.fields.Position.fields.y);
-          pMVar18 = &pMVar8->m_Items[(int)uVar25].fields;
-          pMVar19 = &pMVar18->B;
-          (pMVar19->fields).Normal.fields.x = local_178.fields.B.fields.Normal.fields.x;
-          (pMVar19->fields).Normal.fields.y = local_178.fields.B.fields.Normal.fields.y;
-          *(ulonglong *)((longlong)&(pMVar18->B).fields.Normal.fields + 8) =
-               CONCAT44(local_178.fields.B.fields.UV.fields.x,local_178.fields.B.fields.Normal.fields.z);
-          pMVar18 = &pMVar8->m_Items[(int)uVar25].fields;
-          *(ulonglong *)((longlong)&(pMVar18->B).fields.UV.fields + 4) =
-               CONCAT44(fVar26,local_178.fields.B.fields.UV.fields.y);
-          *(undefined8 *)&(pMVar18->C).fields.Position.fields =
-               local_178.fields.C.fields.Position.fields._0_8_;
-          pMVar18 = &pMVar8->m_Items[(int)uVar25].fields;
-          *(undefined8 *)((longlong)&(pMVar18->C).fields.Position.fields + 8) =
-               local_178.fields.C.fields._8_8_;
-          *(undefined8 *)((longlong)&(pMVar18->C).fields.Normal.fields + 4) =
-               local_178.fields.C.fields.Normal.fields._4_8_;
-          pUVar3 = &pMVar8->m_Items[(int)uVar25].fields.C.fields.UV;
-          pUVar3->fields = local_178.fields.C.fields.UV.fields;
-          pUVar3[1] = (UnityEngine_Vector2_o)local_178.fields._104_8_;
+        pUVar7 = (__this->fields)._items;
+        if (pUVar7 == (UnityEngine_Vector2_array *)0x0) goto label_0598e5d2;
+        local_268 = (float)uVar11;
+        fStack_264 = SUB84(uVar11,4);
+        fVar29 = (float)uVar17 * local_c8 + fStack_264 * local_138._4_4_ + local_268 * (float)local_138;
+        fVar5 = (float)uVar17 * fStack_c4 + fStack_b4 * fStack_264 + local_148 * local_268;
+        uVar19 = (__this->fields)._size;
+        if (uVar19 < (uint)pUVar7->max_length) {
+          (__this->fields)._size = uVar19 + 1;
+          UVar9.fields.y = fVar5;
+          UVar9.fields.x = fVar29;
+          pUVar7->m_Items[(int)uVar19].fields = UVar9.fields;
         }
         else {
-          local_178.fields.A.fields.Position.fields._0_8_ = uVar10;
-          local_178.fields.A.fields._8_8_ = uVar11;
-          local_178.fields.A.fields.Normal.fields._4_8_ = uVar12;
-          local_178.fields.A.fields.UV.fields = UVar13;
-          System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
-                    (target,&local_178,(MethodInfo_9E3880 *)pMVar20->klass->rgctx_data[0xe].method);
-          iVar24 = iVar24 + 3;
+          item.fields.y = fVar5;
+          item.fields.x = fVar29;
+          System_Collections_Generic_List_Vector2___AddWithResize
+                    (__this,item,(MethodInfo_39F9590 *)pMVar26->klass->rgctx_data[0xe].method);
         }
+        if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+          Il2CppMethodInitialized_0753e7b7 = '\x01';
+        }
+        if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+        }
+        fVar29 = ((float)uVar17 - (float)uVar18) * ((float)uVar17 - (float)uVar18) +
+                 (fStack_264 - local_178._4_4_) * (fStack_264 - local_178._4_4_) +
+                 (local_268 - (float)local_178) * (local_268 - (float)local_178);
+        if (fVar29 < 0.0) {
+          fVar29 = sqrtf(fVar29);
+        }
+        else {
+          fVar29 = SQRT(fVar29);
+        }
+        if (Il2CppMethodInitialized_0753e72f == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+          Il2CppMethodInitialized_0753e72f = '\x01';
+        }
+        if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+        }
+        fVar5 = (local_1a8.y - (float)local_1b8._4_4_) * (local_1a8.y - (float)local_1b8._4_4_) +
+                (local_1a8.x - (float)local_1b8._0_4_) * (local_1a8.x - (float)local_1b8._0_4_);
+        if (fVar5 < 0.0) {
+          fVar5 = sqrtf(fVar5);
+        }
+        else {
+          fVar5 = SQRT(fVar5);
+        }
+        fVar30 = fVar30 + fVar5;
+        fVar28 = fVar28 + fVar29;
+      } while (iVar24 < (loop->fields)._size);
+      fVar29 = 0.0;
+      if (0.0001 < fVar28) {
+        fVar29 = (fVar30 / fVar28) * 0.15;
       }
     }
+    System_Collections_Generic_List_MapFracture_Vertex___get_Item
+              ((Map_MapFracture_Vertex_o *)local_228,loop,0,
+               (MethodInfo_3AB5DD0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+    uVar11 = local_228._0_8_;
+    local_1a8.x = (float)local_228._8_4_;
+    _fStack_1b0 = 0;
+    local_1b8 = (undefined1  [8])local_228._24_8_;
+    uVar19 = (loop->fields)._size;
+    pMVar26 = (MethodInfo *)(ulong)uVar19;
+    pIVar21 = SZArrayNew(TypeInfo_Map_MapFracture_Vertex_array,uVar19);
+    fVar30 = local_158;
+    if (0 < (loop->fields)._size) {
+      if (pIVar21 == (Il2CppObject *)0x0) {
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,0,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,0,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        ThrowNullReferenceException();
+      }
+      local_178 = (Il2CppClass *)CONCAT44(local_138._4_4_,local_148);
+      uStack_170 = uStack_130;
+      local_198._4_4_ = local_198._0_4_;
+      local_198._0_4_ = (float)local_138;
+      uStack_190 = (undefined4)uStack_130;
+      uStack_18c = uStack_130._4_4_;
+      pIVar27 = pIVar21 + 4;
+      uVar25 = 0;
+      do {
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,(int32_t)uVar25,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        uVar16 = local_228._0_8_;
+        uVar17 = local_228._8_4_;
+        pMVar26 = (MethodInfo *)loop;
+        System_Collections_Generic_List_MapFracture_Vertex___get_Item
+                  ((Map_MapFracture_Vertex_o *)local_228,loop,(int32_t)uVar25,
+                   (MethodInfo_3AB5DD0 *)
+                   MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Item);
+        if (*(uint *)&pIVar21[1].monitor <= uVar25) goto label_0598e5cd;
+        local_298 = (float)uVar16;
+        fStack_294 = SUB84(uVar16,4);
+        local_248 = (float)uVar11;
+        fStack_244 = SUB84(uVar11,4);
+        pIVar27[-2].klass = (Il2CppClass *)local_228._0_8_;
+        *(undefined4 *)&pIVar27[-2].monitor = local_228._8_4_;
+        *(long *)((long)&pIVar27[-2].monitor + 4) = normal.fields._0_8_;
+        *(float *)((long)&pIVar27[-1].klass + 4) = local_188;
+        pIVar27[-1].monitor =
+             (void *)CONCAT44(((fStack_294 - fStack_244) * (float)local_198._4_4_ +
+                               (float)local_178 * (local_298 - local_248) +
+                              ((float)uVar17 - local_1a8.x) * fVar30) * fVar29 + (float)local_1b8._4_4_,
+                              ((local_298 - local_248) * (float)local_198._0_4_ +
+                               local_178._4_4_ * (fStack_294 - fStack_244) +
+                              ((float)uVar17 - local_1a8.x) * fVar31) * fVar29 + (float)local_1b8._0_4_);
+        *(undefined4 *)&pIVar27->klass = 0x3f400000;
+        uVar25 = uVar25 + 1;
+        pIVar27 = (Il2CppObject *)((long)&pIVar27[2].klass + 4);
+      } while ((long)uVar25 < (long)(loop->fields)._size);
+    }
+    __this_00 = Map_MapFracture__EarClip(local_168,pMVar26);
+    if (__this_00 != (System_Collections_Generic_List_int__o *)0x0) {
+      iVar6 = (__this_00->fields)._size;
+      if (pIVar21 == (Il2CppObject *)0x0) {
+        if (0 < iVar6) {
+          System_Collections_Generic_List_int___get_Item
+                    (__this_00,0,(MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item
+                    );
+          ThrowNullReferenceException();
+        }
+      }
+      else if (0 < iVar6) {
+        iVar24 = 0;
+        while (uVar19 = System_Collections_Generic_List_int___get_Item
+                                  (__this_00,iVar24,
+                                   (MethodInfo_39167D0 *)
+                                   MethodInfo_System_Collections_Generic_List_int_get_Item),
+              uVar19 < *(uint *)&pIVar21[1].monitor) {
+          lVar22 = (long)(int)uVar19;
+          local_d8 = *(float *)((long)pIVar21 + lVar22 * 0x24 + 0x40);
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x20);
+          local_f8 = (Il2CppClass *)*puVar2;
+          _fStack_f0 = puVar2[1];
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x30);
+          _local_e8 = *puVar2;
+          UStack_e0 = *(UnityEngine_Vector2_Fields *)(puVar2 + 1);
+          uVar19 = System_Collections_Generic_List_int___get_Item
+                             (__this_00,iVar24 + 1,
+                              (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+          if (*(uint *)&pIVar21[1].monitor <= uVar19) break;
+          lVar22 = (long)(int)uVar19;
+          local_108 = *(float *)((long)pIVar21 + lVar22 * 0x24 + 0x40);
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x20);
+          local_128 = *puVar2;
+          uStack_120 = puVar2[1];
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x30);
+          local_118 = *puVar2;
+          uStack_110 = puVar2[1];
+          uVar19 = System_Collections_Generic_List_int___get_Item
+                             (__this_00,iVar24 + 2,
+                              (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+          pMVar26 = MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_Add;
+          if (*(uint *)&pIVar21[1].monitor <= uVar19) break;
+          lVar22 = (long)(int)uVar19;
+          local_40 = *(float *)((long)pIVar21 + lVar22 * 0x24 + 0x40);
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x20);
+          local_60._0_8_ = *puVar2;
+          unique0x10001d0b = puVar2[1];
+          puVar2 = (undefined8 *)((long)pIVar21 + lVar22 * 0x24 + 0x30);
+          uVar11 = *puVar2;
+          UVar12 = *(UnityEngine_Vector2_Fields *)(puVar2 + 1);
+          local_50 = (float)uVar11;
+          fStack_4c = (float)((ulong)uVar11 >> 0x20);
+          fStack_48 = UVar12.x;
+          fStack_44 = UVar12.y;
+          local_88 = local_d8;
+          local_98 = local_e8;
+          fStack_94 = fStack_e4;
+          UStack_90 = UStack_e0;
+          local_a8 = local_f8;
+          fStack_a0 = fStack_f0;
+          fStack_9c = fStack_ec;
+          local_64 = local_108;
+          fStack_74 = (float)local_118;
+          fStack_70 = (float)((ulong)local_118 >> 0x20);
+          fStack_6c = (float)uStack_110;
+          fStack_68 = (float)((ulong)uStack_110 >> 0x20);
+          fStack_84 = (float)local_128;
+          fStack_80 = (float)((ulong)local_128 >> 0x20);
+          fStack_7c = (float)uStack_120;
+          fStack_78 = (float)((ulong)uStack_120 >> 0x20);
+          if (local_160 == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) goto label_0598e5d2;
+          fStack_1c8 = fStack_48;
+          fStack_1c4 = fStack_44;
+          local_1f8[1].z = local_108;
+          local_1f8[1].y = fStack_68;
+          local_228._36_4_ = fStack_84;
+          local_228._32_4_ = local_d8;
+          local_228._44_4_ = fStack_7c;
+          local_228._40_4_ = fStack_80;
+          local_1f8[0].y = fStack_74;
+          local_1f8[0].x = fStack_78;
+          local_1f8[1].x = fStack_6c;
+          local_1f8[0].z = fStack_70;
+          local_228._16_4_ = local_e8;
+          local_228._20_4_ = fStack_e4;
+          local_228._24_4_ = UStack_e0.x;
+          local_228._28_4_ = UStack_e0.y;
+          local_228._0_8_ = local_f8;
+          local_228._8_4_ = fStack_f0;
+          local_228._12_4_ = fStack_ec;
+          piVar1 = &(local_160->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pMVar8 = (local_160->fields)._items;
+          UStack_1e0._0_8_ = local_60._0_8_;
+          unique0x1000375f = unique0x10001d0b;
+          fStack_1d0 = local_50;
+          local_1cc = fStack_4c;
+          fStack_1c0 = local_40;
+          local_1bc = (float)submesh;
+          if (pMVar8 == (Map_MapFracture_Triangle_array *)0x0) goto label_0598e5d2;
+          uVar19 = (local_160->fields)._size;
+          if (uVar19 < (uint)pMVar8->max_length) {
+            (local_160->fields)._size = uVar19 + 1;
+            pUVar3 = &pMVar8->m_Items[(int)uVar19].fields.C.fields.UV;
+            pUVar3->fields = UVar12;
+            pUVar3[1] = (UnityEngine_Vector2_o)CONCAT44(submesh,local_40);
+            pMVar14 = &pMVar8->m_Items[(int)uVar19].fields;
+            *(undefined8 *)((long)&(pMVar14->C).fields.Position.fields + 8) = unique0x10001d0b;
+            *(undefined8 *)((long)&(pMVar14->C).fields.Normal.fields + 4) = uVar11;
+            pMVar14 = &pMVar8->m_Items[(int)uVar19].fields;
+            *(undefined8 *)((long)&(pMVar14->B).fields.UV.fields + 4) = local_1f8[1]._4_8_;
+            *(undefined8 *)&(pMVar14->C).fields.Position.fields = local_60._0_8_;
+            pMVar14 = &pMVar8->m_Items[(int)uVar19].fields;
+            pMVar15 = &pMVar14->B;
+            (pMVar15->fields).Normal.fields.x = fStack_78;
+            (pMVar15->fields).Normal.fields.y = fStack_74;
+            *(undefined8 *)((long)&(pMVar14->B).fields.Normal.fields + 8) = local_1f8._8_8_;
+            pMVar14 = &pMVar8->m_Items[(int)uVar19].fields;
+            *(undefined8 *)&(pMVar14->A).fields.Shade = local_228._32_8_;
+            *(undefined8 *)((long)&(pMVar14->B).fields.Position.fields + 4) = local_228._40_8_;
+            pMVar14 = &pMVar8->m_Items[(int)uVar19].fields;
+            *(undefined8 *)((long)&(pMVar14->A).fields.Normal.fields + 4) = _local_e8;
+            (pMVar14->A).fields.UV.fields = UStack_e0;
+            *(Il2CppClass **)&pMVar8->m_Items[(int)uVar19].fields.A.fields.Position = local_f8;
+            *(undefined8 *)((long)&pMVar8->m_Items[(int)uVar19].fields.A.fields.Position + 8) = _fStack_f0;
+            iVar24 = iVar24 + 3;
+            if ((__this_00->fields)._size <= iVar24) {
+              return;
+            }
+          }
+          else {
+            item_00.fields.Submesh = submesh;
+            item_00.fields.C.fields.Shade = local_40;
+            item_00.fields.A.fields.Position.fields.z = fStack_f0;
+            item_00.fields.A.fields.Normal.fields.x = fStack_ec;
+            item_00.fields.A.fields.Position.fields._0_8_ = local_f8;
+            item_00.fields.A.fields.Normal.fields.y = local_e8;
+            item_00.fields.A.fields.Normal.fields.z = fStack_e4;
+            item_00.fields.A.fields.UV.fields = UStack_e0;
+            item_00.fields.A.fields.Shade = local_d8;
+            item_00.fields.B.fields.Position.fields.x = fStack_84;
+            item_00.fields.B.fields.Position.fields.y = fStack_80;
+            item_00.fields.B.fields.Position.fields.z = fStack_7c;
+            item_00.fields.B.fields.Normal.fields.x = fStack_78;
+            item_00.fields.B.fields.Normal.fields.y = fStack_74;
+            item_00.fields.B.fields.Normal.fields.z = fStack_70;
+            item_00.fields.B.fields.UV.fields.x = fStack_6c;
+            item_00.fields.B.fields.UV.fields.y = fStack_68;
+            item_00.fields.B.fields.Shade = local_108;
+            item_00.fields.C.fields.Position.fields.x = local_60.x;
+            item_00.fields.C.fields.Position.fields.y = local_60.y;
+            item_00.fields.C.fields.Position.fields.z = (float)unique0x10001d0b;
+            item_00.fields.C.fields.Normal.fields.x = SUB84(unique0x10001d0b,4);
+            item_00.fields.C.fields.Normal.fields.y = (float)(int)uVar11;
+            item_00.fields.C.fields.Normal.fields.z = (float)(int)((ulong)uVar11 >> 0x20);
+            item_00.fields.C.fields.UV.fields = UVar12;
+            System_Collections_Generic_List_MapFracture_Triangle___AddWithResize
+                      (local_160,item_00,(MethodInfo_3AB1FB0 *)pMVar26->klass->rgctx_data[0xe].method);
+            iVar24 = iVar24 + 3;
+            if ((__this_00->fields)._size <= iVar24) {
+              return;
+            }
+          }
+        }
+label_0598e5cd:
+        ThrowIndexOutOfRangeException();
+      }
+      return;
+    }
   }
-label_181ea14f5:
+label_0598e5d2:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$EarClip
 // il2cpp: System_Collections_Generic_List_int__o* Map_MapFracture__EarClip (System_Collections_Generic_List_Vector2__o* _flat, const MethodInfo* method);
-// 0x181ea51a0
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea5349: nop dword ptr [rax]
-// asm:   0x181ea535b: mov edx, ebx
-// asm:   0x181ea535d: jmp 0x181ea5366
-// asm:   0x181ea538d: nop dword ptr [rax]
-// asm:   0x181ea539a: mov ebx, r13d
-// asm:   0x181ea539d: nop dword ptr [rax]
-// asm:   0x181ea540f: jmp 0x181ea559c
+// 0x598ea50
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598eb1e: nop 
+// asm:   0x598eb77: jmp 0x598eb7c
 
 System_Collections_Generic_List_int__o *
 Map_MapFracture__EarClip(System_Collections_Generic_List_Vector2__o *_flat,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int32_t capacity;
   uint uVar2;
-  System_Object_array *pSVar3;
-  MethodInfo *pMVar4;
+  UnityEngine_Vector2_o UVar3;
+  UnityEngine_Vector2_o UVar4;
   bool bVar5;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o a;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o b;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_o c;
-  System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields SVar6;
-  System_Collections_Generic_List_T__o *__this;
-  Il2CppObject *pIVar7;
-  Il2CppObject *pIVar8;
-  System_Collections_Generic_List_T__o *__this_00;
-  int iVar9;
-  int iVar10;
+  int32_t iVar6;
+  int32_t iVar7;
+  System_Collections_Generic_List_int__o *__this;
+  System_Collections_Generic_List_int__o *__this_00;
+  MethodInfo *pMVar8;
+  System_Int32_array *pSVar9;
+  int32_t iVar10;
   int iVar11;
-  float fVar12;
-  float fStackX_c;
-  float fStackX_1c;
+  int iVar12;
+  int iVar13;
+  MethodInfo *in_R9;
+  float fVar14;
+  float local_48;
+  float fStack_44;
   
-  if (Il2CppMethodInitialized_184345094 == '\0') {
+  if (Il2CppMethodInitialized_07545a25 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_RemoveAt);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Count);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_get_Item);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
-    Il2CppMethodInitialized_184345094 = '\x01';
+    Il2CppMethodInitialized_07545a25 = '\x01';
   }
   if (_flat != (System_Collections_Generic_List_Vector2__o *)0x0) {
-    iVar10 = (_flat->fields)._size;
-    __this = (System_Collections_Generic_List_T__o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-    System_Collections_Generic_List_int____ctor
-              (__this,(iVar10 + -2) * 3,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-    fVar12 = 0.0;
-    iVar11 = 0;
-    for (iVar10 = iVar11; iVar10 < (_flat->fields)._size; iVar10 = iVar10 + 1) {
-      pIVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                         ((System_Collections_Generic_List_object__o *)_flat,iVar10,
-                          (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      pIVar8 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                         ((System_Collections_Generic_List_object__o *)_flat,
-                          (iVar10 + 1) % (_flat->fields)._size,
-                          (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      fStackX_c = (float)((ulonglong)pIVar8 >> 0x20);
-      fStackX_1c = (float)((ulonglong)pIVar7 >> 0x20);
-      fVar12 = fVar12 + (SUB84(pIVar7,0) * fStackX_c - SUB84(pIVar8,0) * fStackX_1c);
+    iVar13 = (_flat->fields)._size;
+    __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+    System_Collections_Generic_List_int____ctor_3916240
+              (__this,iVar13 * 3 + -6,
+               (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+    iVar13 = (_flat->fields)._size;
+    if (iVar13 < 1) {
+      fVar14 = 0.0;
     }
-    if (ABS(fVar12) < 0.0001) {
-      return (System_Collections_Generic_List_int__o *)__this;
-    }
-    capacity = (_flat->fields)._size;
-    __this_00 = (System_Collections_Generic_List_T__o *)
-                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
-    System_Collections_Generic_List_int____ctor
-              (__this_00,capacity,
-               (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_int_ctor_40b3068);
-    for (iVar10 = iVar11; iVar10 < (_flat->fields)._size; iVar10 = iVar10 + 1) {
-      iVar9 = iVar10;
-      if (fVar12 <= 0.0) {
-        iVar9 = ((_flat->fields)._size - iVar10) + -1;
-      }
-      if (__this_00 == (System_Collections_Generic_List_T__o *)0x0) goto label_181ea55df;
-      il2cpp_runtime_helper_180026690(__this_00,iVar9,MethodInfo_System_Collections_Generic_List_int_Add);
-    }
-    if (__this_00 == (System_Collections_Generic_List_T__o *)0x0) goto label_181ea55df;
-    while (iVar10 = iVar11, 3 < (__this_00->fields)._size) {
-      while( true ) {
-        a = System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,
-                       ((__this_00->fields)._size + -1 + iVar10) % (__this_00->fields)._size,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        b = System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,iVar10,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        c = System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,
-                       (iVar10 + 1) % (__this_00->fields)._size,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-        bVar5 = Map_MapFracture__IsEar
-                          (_flat,(System_Collections_Generic_List_int__o *)__this_00,(int32_t)a.fields,
-                           (int32_t)b.fields,(int32_t)c.fields,(MethodInfo *)0x0);
-        if (bVar5) break;
+    else {
+      iVar10 = 0;
+      fVar14 = 0.0;
+      do {
+        UVar3 = System_Collections_Generic_List_Vector2___get_Item
+                          (_flat,iVar10,
+                           (MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
         iVar10 = iVar10 + 1;
-        if ((__this_00->fields)._size <= iVar10) {
-          return (System_Collections_Generic_List_int__o *)__this;
+        UVar4 = System_Collections_Generic_List_Vector2___get_Item
+                          (_flat,iVar10 % (_flat->fields)._size,
+                           (MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
+        local_48 = UVar3.fields.x;
+        fStack_44 = UVar3.fields.y;
+        fVar14 = fVar14 + (UVar4.fields.y * local_48 - UVar4.fields.x * fStack_44);
+        iVar13 = (_flat->fields)._size;
+      } while (iVar10 < iVar13);
+    }
+    if (ABS(fVar14) < 0.0001) {
+      return __this;
+    }
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+    System_Collections_Generic_List_int____ctor_3916240
+              (__this_00,iVar13,
+               (MethodInfo_3916240 *)MethodInfo_System_Collections_Generic_List_int_ctor_71950c8);
+    iVar13 = (_flat->fields)._size;
+    if (iVar13 < 1) {
+      if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) goto label_0598ef0d;
+    }
+    else {
+      if (__this_00 == (System_Collections_Generic_List_int__o *)0x0) goto label_0598ef0d;
+      iVar12 = 0;
+      iVar11 = -1;
+      pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+      do {
+        iVar13 = iVar13 + iVar11;
+        if (0.0 < fVar14) {
+          iVar13 = iVar12;
+        }
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar9 = (__this_00->fields)._items;
+        if (pSVar9 == (System_Int32_array *)0x0) goto label_0598ef0d;
+        uVar2 = (__this_00->fields)._size;
+        if (uVar2 < (uint)pSVar9->max_length) {
+          (__this_00->fields)._size = uVar2 + 1;
+          pSVar9->m_Items[(int)uVar2] = iVar13;
+        }
+        else {
+          System_Collections_Generic_List_int___AddWithResize
+                    (__this_00,iVar13,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+          pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+        }
+        iVar12 = iVar12 + 1;
+        iVar13 = (_flat->fields)._size;
+        iVar11 = iVar11 + -1;
+      } while (iVar12 < iVar13);
+    }
+    iVar13 = (__this_00->fields)._size;
+    if (__this == (System_Collections_Generic_List_int__o *)0x0) {
+      if (iVar13 < 4) {
+        System_Collections_Generic_List_int___get_Item
+                  (__this_00,0,(MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+        ThrowNullReferenceException();
+      }
+      iVar13 = 1;
+      do {
+        iVar11 = (__this_00->fields)._size;
+        if (iVar11 <= iVar13 + -1) {
+          return (System_Collections_Generic_List_int__o *)0x0;
+        }
+        iVar10 = System_Collections_Generic_List_int___get_Item
+                           (__this_00,(iVar11 + iVar13 + -2) % iVar11,
+                            (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+        iVar6 = System_Collections_Generic_List_int___get_Item
+                          (__this_00,iVar13 + -1,
+                           (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+        iVar7 = System_Collections_Generic_List_int___get_Item
+                          (__this_00,iVar13 % (__this_00->fields)._size,
+                           (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+        bVar5 = Map_MapFracture__IsEar(_flat,__this_00,iVar10,iVar6,iVar7,in_R9);
+        iVar13 = iVar13 + 1;
+      } while (!bVar5);
+    }
+    else {
+      if (3 < iVar13) {
+        iVar13 = 0;
+        do {
+          do {
+            iVar11 = iVar13;
+            iVar13 = (__this_00->fields)._size;
+            if (iVar13 <= iVar11) {
+              return __this;
+            }
+            iVar10 = System_Collections_Generic_List_int___get_Item
+                               (__this_00,(iVar13 + iVar11 + -1) % iVar13,
+                                (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item)
+            ;
+            iVar6 = System_Collections_Generic_List_int___get_Item
+                              (__this_00,iVar11,
+                               (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+            iVar7 = System_Collections_Generic_List_int___get_Item
+                              (__this_00,(iVar11 + 1) % (__this_00->fields)._size,
+                               (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+            bVar5 = Map_MapFracture__IsEar(_flat,__this_00,iVar10,iVar6,iVar7,in_R9);
+            pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+            iVar13 = iVar11 + 1;
+          } while (!bVar5);
+          piVar1 = &(__this->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar9 = (__this->fields)._items;
+          if (pSVar9 == (System_Int32_array *)0x0) goto label_0598ef0d;
+          uVar2 = (__this->fields)._size;
+          if (uVar2 < (uint)pSVar9->max_length) {
+            (__this->fields)._size = uVar2 + 1;
+            pSVar9->m_Items[(int)uVar2] = iVar10;
+            piVar1 = &(__this->fields)._version;
+            *piVar1 = *piVar1 + 1;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (__this,iVar10,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+            pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+            pSVar9 = (__this->fields)._items;
+            piVar1 = &(__this->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            if (pSVar9 == (System_Int32_array *)0x0) goto label_0598ef0d;
+          }
+          uVar2 = (__this->fields)._size;
+          if (uVar2 < (uint)pSVar9->max_length) {
+            (__this->fields)._size = uVar2 + 1;
+            pSVar9->m_Items[(int)uVar2] = iVar6;
+            piVar1 = &(__this->fields)._version;
+            *piVar1 = *piVar1 + 1;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (__this,iVar6,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+            pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+            pSVar9 = (__this->fields)._items;
+            piVar1 = &(__this->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            if (pSVar9 == (System_Int32_array *)0x0) goto label_0598ef0d;
+          }
+          uVar2 = (__this->fields)._size;
+          if (uVar2 < (uint)pSVar9->max_length) {
+            (__this->fields)._size = uVar2 + 1;
+            pSVar9->m_Items[(int)uVar2] = iVar7;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (__this,iVar7,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+          }
+          System_Collections_Generic_List_int___RemoveAt
+                    (__this_00,iVar11,
+                     (MethodInfo_3918930 *)MethodInfo_System_Collections_Generic_List_int_RemoveAt);
+          iVar13 = 0;
+        } while (3 < (__this_00->fields)._size);
+      }
+      iVar10 = System_Collections_Generic_List_int___get_Item
+                         (__this_00,0,
+                          (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+      pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+      piVar1 = &(__this->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar9 = (__this->fields)._items;
+      if (pSVar9 != (System_Int32_array *)0x0) {
+        uVar2 = (__this->fields)._size;
+        if (uVar2 < (uint)pSVar9->max_length) {
+          (__this->fields)._size = uVar2 + 1;
+          pSVar9->m_Items[(int)uVar2] = iVar10;
+        }
+        else {
+          System_Collections_Generic_List_int___AddWithResize
+                    (__this,iVar10,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+        }
+        iVar10 = System_Collections_Generic_List_int___get_Item
+                           (__this_00,1,
+                            (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+        pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+        piVar1 = &(__this->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pSVar9 = (__this->fields)._items;
+        if (pSVar9 != (System_Int32_array *)0x0) {
+          uVar2 = (__this->fields)._size;
+          if (uVar2 < (uint)pSVar9->max_length) {
+            (__this->fields)._size = uVar2 + 1;
+            pSVar9->m_Items[(int)uVar2] = iVar10;
+          }
+          else {
+            System_Collections_Generic_List_int___AddWithResize
+                      (__this,iVar10,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+          }
+          iVar10 = System_Collections_Generic_List_int___get_Item
+                             (__this_00,2,
+                              (MethodInfo_39167D0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
+          pMVar8 = MethodInfo_System_Collections_Generic_List_int_Add;
+          piVar1 = &(__this->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar9 = (__this->fields)._items;
+          if (pSVar9 != (System_Int32_array *)0x0) {
+            uVar2 = (__this->fields)._size;
+            if (uVar2 < (uint)pSVar9->max_length) {
+              (__this->fields)._size = uVar2 + 1;
+              pSVar9->m_Items[(int)uVar2] = iVar10;
+              return __this;
+            }
+            System_Collections_Generic_List_int___AddWithResize
+                      (__this,iVar10,(MethodInfo_3916AC0 *)pMVar8->klass->rgctx_data[0xe].method);
+            return __this;
+          }
         }
       }
-      if (__this == (System_Collections_Generic_List_T__o *)0x0) goto label_181ea55df;
-      il2cpp_runtime_helper_180026690(__this,a.fields,MethodInfo_System_Collections_Generic_List_int_Add);
-      il2cpp_runtime_helper_180026690(__this,b.fields,MethodInfo_System_Collections_Generic_List_int_Add);
-      il2cpp_runtime_helper_180026690(__this,c.fields,MethodInfo_System_Collections_Generic_List_int_Add);
-      System_Collections_Generic_List_int___RemoveAt
-                ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,iVar10,
-                 (MethodInfo_922DE0 *)MethodInfo_System_Collections_Generic_List_int_RemoveAt);
-    }
-    SVar6 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-            System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,0,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-    pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
-    if (__this == (System_Collections_Generic_List_T__o *)0x0) goto label_181ea55df;
-    piVar1 = &(__this->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar3 = (__this->fields)._items;
-    if (pSVar3 == (System_Object_array *)0x0) goto label_181ea55df;
-    uVar2 = (__this->fields)._size;
-    if (uVar2 < (uint)pSVar3->max_length) {
-      (__this->fields)._size = uVar2 + 1;
-      if ((uint)pSVar3->max_length <= uVar2) goto label_181ea55e5;
-      *(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)
-       ((longlong)pSVar3->m_Items + (longlong)(int)uVar2 * 4) = SVar6;
-    }
-    else {
-      System_Collections_Generic_List_int___AddWithResize
-                ((System_Collections_Generic_List_uint__o *)__this,(uint32_t)SVar6,
-                 (MethodInfo_91A500 *)pMVar4->klass->rgctx_data[0xe].method);
-    }
-    SVar6 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-            System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,1,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-    pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
-    pSVar3 = (__this->fields)._items;
-    piVar1 = &(__this->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    if (pSVar3 == (System_Object_array *)0x0) goto label_181ea55df;
-    uVar2 = (__this->fields)._size;
-    if (uVar2 < (uint)pSVar3->max_length) {
-      (__this->fields)._size = uVar2 + 1;
-      if ((uint)pSVar3->max_length <= uVar2) goto label_181ea55e5;
-      *(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)
-       ((longlong)pSVar3->m_Items + (longlong)(int)uVar2 * 4) = SVar6;
-    }
-    else {
-      System_Collections_Generic_List_int___AddWithResize
-                ((System_Collections_Generic_List_uint__o *)__this,(uint32_t)SVar6,
-                 (MethodInfo_91A500 *)pMVar4->klass->rgctx_data[0xe].method);
-    }
-    SVar6 = (System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields)
-            System_Collections_Generic_List_int___get_Item
-                      ((System_Collections_Generic_List_RegexCharClass_SingleRange__o *)__this_00,2,
-                       (MethodInfo_92B8E0 *)MethodInfo_System_Collections_Generic_List_int_get_Item);
-    pMVar4 = MethodInfo_System_Collections_Generic_List_int_Add;
-    pSVar3 = (__this->fields)._items;
-    piVar1 = &(__this->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    if (pSVar3 != (System_Object_array *)0x0) {
-      uVar2 = (__this->fields)._size;
-      if ((uint)pSVar3->max_length <= uVar2) {
-        System_Collections_Generic_List_int___AddWithResize
-                  ((System_Collections_Generic_List_uint__o *)__this,(uint32_t)SVar6,
-                   (MethodInfo_91A500 *)pMVar4->klass->rgctx_data[0xe].method);
-        return (System_Collections_Generic_List_int__o *)__this;
-      }
-      (__this->fields)._size = uVar2 + 1;
-      if (uVar2 < (uint)pSVar3->max_length) {
-        *(System_Text_RegularExpressions_RegexCharClass_SingleRange_Fields *)
-         ((longlong)pSVar3->m_Items + (longlong)(int)uVar2 * 4) = SVar6;
-        return (System_Collections_Generic_List_int__o *)__this;
-      }
-label_181ea55e5:
-      ThrowIndexOutOfRangeException();
     }
   }
-label_181ea55df:
+label_0598ef0d:
   ThrowNullReferenceException();
 }
 
 
 // Map.MapFracture$$IsEar
 // il2cpp: bool Map_MapFracture__IsEar (System_Collections_Generic_List_Vector2__o* _flat, System_Collections_Generic_List_int__o* remaining, int32_t a, int32_t b, int32_t c, const MethodInfo* method);
-// 0x181ea6340
-// eh: try 0x181ea64f0..0x181ea6592 -> pad 0x18333d4c0 catch Il2CppExceptionWrapper
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea65b4: mov rdx, qword ptr [rip + 0x21e1d2d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
-// asm:   0x181ea65bb: mov rcx, qword ptr [rsp + 0x38]
-// asm:   0x181ea65c0: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea65c5: mov rcx, qword ptr [rsp + 0x30]
-// asm:   0x181ea65ca: test rcx, rcx
-// asm:   0x181ea65cd: jne 0x181ea6609
-// asm:   0x181ea6609: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x18333d4c0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333d4c5: push rbp
-// asm:   0x18333d4c6: sub rsp, 0x30
-// asm:   0x18333d4ca: mov rbp, rdx
-// asm:   0x18333d4cd: mov rax, qword ptr [rbp + 0x48]
-// asm:   0x18333d4d1: mov rcx, qword ptr [rax]
-// asm:   0x18333d4d4: mov qword ptr [rbp + 0x30], rcx
-// asm:   0x18333d4d8: movabs rax, 0
-// asm:   0x18333d4e2: add rsp, 0x30
-// asm:   0x18333d4e6: pop rbp
-// asm:   0x18333d4e7: ret 
+// 0x598f020
+// eh: try 0x598f16a..0x598f1d2 -> pad 0x598f2a1 (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598f2b9..0x598f2be -> pad 0x598f2e1 cleanup
+// eh: try 0x598f2e4..0x598f2ee -> pad 0x598f2f6 catch (...) [compiler noexcept guard]
+// asm: 28 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598f299: jmp 0x598f2a1
+// asm:   0x598f29b: jmp 0x598f2a1
+// asm:   0x598f29d: jmp 0x598f2a1
+// asm:   0x598f29f: jmp 0x598f2a1
+// asm:   0x598f2a1: mov rbx, rax
+// asm:   0x598f2a4: cmp edx, 1
+// asm:   0x598f2a7: jne 0x598f2e4
+// asm:   0x598f2a9: mov rdi, rbx
+// asm:   0x598f2ac: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598f2b1: mov rbx, qword ptr [rax]
+// asm:   0x598f2b4: mov qword ptr [rsp + 0x48], rbx
+// asm:   0x598f2b9: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598f2be: lea rax, [rip + 0x18fef33]  ; MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose
+// asm:   0x598f2c5: mov rsi, qword ptr [rax]
+// asm:   0x598f2c8: lea rdi, [rsp + 0x30]
+// asm:   0x598f2cd: call 0x4d3b490  ; System_Collections_Generic_List_Enumerator_int___Dispose()
+// asm:   0x598f2d2: xor ebp, ebp
+// asm:   0x598f2d4: test rbx, rbx
+// asm:   0x598f2d7: je 0x598f27f
+// asm:   0x598f2d9: mov rdi, rbx
+// asm:   0x598f2dc: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598f2e1: mov rbx, rax
+// asm:   0x598f2e4: lea rdi, [rsp + 0x48]
+// asm:   0x598f2e9: call 0x2fd4560  ; il2cpp_runtime_helper_02fd4560()
+// asm:   0x598f2ee: mov rdi, rbx
+// asm:   0x598f2f1: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598f2f6: mov rdi, rax
+// asm:   0x598f2f9: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Map_MapFracture__IsEar
                (System_Collections_Generic_List_Vector2__o *_flat,
@@ -6160,24 +7427,25 @@ bool Map_MapFracture__IsEar
                MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  bool bVar3;
-  Il2CppObject *pIVar4;
-  System_Collections_Generic_List_T__o *pSVar5;
-  Il2CppObject *pIVar6;
-  Il2CppObject *pIVar7;
-  UnityEngine_Vector2_o point;
-  UnityEngine_Vector2_o a_00;
-  UnityEngine_Vector2_o b_00;
-  UnityEngine_Vector2_o c_00;
-  float fStackX_c;
-  undefined1 local_c8 [8];
-  System_Collections_Generic_List_Enumerator_T__o *pSStack_c0;
-  Il2CppObject *local_b8;
-  System_Collections_Generic_List_Enumerator_T__o local_a8 [5];
+  UnityEngine_Vector2_o UVar1;
+  UnityEngine_Vector2_o UVar2;
+  UnityEngine_Vector2_o UVar3;
+  UnityEngine_Vector2_o UVar4;
+  bool bVar5;
+  int iVar6;
+  float fVar7;
+  float fVar8;
+  float local_88;
+  float fStack_84;
+  float local_78;
+  float fStack_74;
+  float local_68;
+  float fStack_64;
+  System_Collections_Generic_List_Enumerator_T__o local_58;
+  undefined8 local_40;
+  System_Collections_Generic_List_Enumerator_T__o *local_38;
   
-  if (Il2CppMethodInitialized_184345095 == '\0') {
+  if (Il2CppMethodInitialized_07545a26 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -6186,174 +7454,178 @@ bool Map_MapFracture__IsEar
               (&MethodInfo_System_Collections_Generic_List_Enumerator_int_get_Current);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-    Il2CppMethodInitialized_184345095 = '\x01';
+    Il2CppMethodInitialized_07545a26 = '\x01';
   }
-  local_a8[0].fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_a8[0].fields._index = 0;
-  local_a8[0].fields._version = 0;
-  local_a8[0].fields._current = (Il2CppObject *)0x0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
   if (_flat == (System_Collections_Generic_List_Vector2__o *)0x0) {
-label_181ea6603:
+label_0598f294:
     ThrowNullReferenceException();
   }
-  pIVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                     ((System_Collections_Generic_List_object__o *)_flat,b,
-                      (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-  fStackX_c = (float)((ulonglong)pIVar4 >> 0x20);
-  fVar1 = fStackX_c;
-  pSVar5 = (System_Collections_Generic_List_T__o *)
-           System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                     ((System_Collections_Generic_List_object__o *)_flat,a,
-                      (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-  local_c8 = (undefined1  [8])pSVar5;
-  pIVar6 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                     ((System_Collections_Generic_List_object__o *)_flat,c,
-                      (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-  fStackX_c = (float)((ulonglong)pIVar6 >> 0x20);
-  fVar2 = fStackX_c;
-  pIVar7 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                     ((System_Collections_Generic_List_object__o *)_flat,b,
-                      (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-  fStackX_c = (float)((ulonglong)pIVar7 >> 0x20);
-  if (9.999999e-09 <
-      (fVar2 - fStackX_c) * (SUB84(pIVar4,0) - SUB84(pSVar5,0)) -
-      (SUB84(pIVar6,0) - SUB84(pIVar7,0)) * (fVar1 - (float)local_c8._4_4_)) {
-    if (remaining == (System_Collections_Generic_List_int__o *)0x0) goto label_181ea6603;
-    System_Collections_Generic_List_RegexCharClass_SingleRange___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_c8,
-               (System_Collections_Generic_List_RegexCharClass_SingleRange__o *)remaining,
-               (MethodInfo_91F1C0 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
-    local_a8[0].fields._list = (System_Collections_Generic_List_T__o *)local_c8;
-    local_a8[0].fields._8_8_ = pSStack_c0;
-    local_a8[0].fields._current = local_b8;
-    local_c8 = (undefined1  [8])0x0;
-    pSStack_c0 = local_a8;
+  UVar1 = System_Collections_Generic_List_Vector2___get_Item
+                    (_flat,b,(MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item
+                    );
+  UVar2 = System_Collections_Generic_List_Vector2___get_Item
+                    (_flat,a,(MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item
+                    );
+  UVar3 = System_Collections_Generic_List_Vector2___get_Item
+                    (_flat,c,(MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item
+                    );
+  UVar4 = System_Collections_Generic_List_Vector2___get_Item
+                    (_flat,b,(MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item
+                    );
+  local_68 = UVar1.fields.x;
+  fStack_64 = UVar1.fields.y;
+  local_78 = UVar2.fields.x;
+  fStack_74 = UVar2.fields.y;
+  local_88 = UVar3.fields.x;
+  fStack_84 = UVar3.fields.y;
+  if ((fStack_84 - UVar4.fields.y) * (local_68 - local_78) -
+      (local_88 - UVar4.fields.x) * (fStack_64 - fStack_74) <= 9.999999e-09) {
+    bVar5 = false;
+  }
+  else {
+    if (remaining == (System_Collections_Generic_List_int__o *)0x0) goto label_0598f294;
+    System_Collections_Generic_List_int___GetEnumerator
+              (&local_58,remaining,
+               (MethodInfo_3917880 *)MethodInfo_System_Collections_Generic_List_int_GetEnumerator);
+    local_40 = 0;
+    local_38 = &local_58;
     do {
       do {
-        bVar3 = System_Collections_Generic_List_Enumerator_RegexCharClass_SingleRange___MoveNext
-                          (local_a8,(MethodInfo_1530180 *)
-                                    MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
-        if (!bVar3) {
-          System_Collections_Generic_List_Enumerator_int___Dispose
-                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8,
-                     MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
-          return true;
+        bVar5 = System_Collections_Generic_List_Enumerator_int___MoveNext
+                          ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+                           (MethodInfo_4C3B4A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_int_MoveNext);
+        if (!bVar5) {
+          iVar6 = 6;
+          goto label_0598f26b;
         }
-      } while ((((int)local_a8[0].fields._current == a) || ((int)local_a8[0].fields._current == b)) ||
-              ((int)local_a8[0].fields._current == c));
-      point.fields = (UnityEngine_Vector2_Fields)
-                     System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                               ((System_Collections_Generic_List_object__o *)_flat,
-                                (int)local_a8[0].fields._current,
-                                (MethodInfo_92B830 *)
-                                MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      a_00.fields = (UnityEngine_Vector2_Fields)
-                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)_flat,a,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      b_00.fields = (UnityEngine_Vector2_Fields)
-                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)_flat,b,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      c_00.fields = (UnityEngine_Vector2_Fields)
-                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
-                              ((System_Collections_Generic_List_object__o *)_flat,c,
-                               (MethodInfo_92B830 *)
-                               MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
-      bVar3 = Map_MapFracture__InTriangle(point,a_00,b_00,c_00,(MethodInfo *)0x0);
-    } while (!bVar3);
+      } while ((((int)local_58.fields._current == c) || ((int)local_58.fields._current == a)) ||
+              ((int)local_58.fields._current == b));
+      UVar1 = System_Collections_Generic_List_Vector2___get_Item
+                        (_flat,(int)local_58.fields._current,
+                         (MethodInfo_39F9280 *)MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
+      UVar2 = System_Collections_Generic_List_Vector2___get_Item
+                        (_flat,a,(MethodInfo_39F9280 *)
+                                 MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
+      UVar3 = System_Collections_Generic_List_Vector2___get_Item
+                        (_flat,b,(MethodInfo_39F9280 *)
+                                 MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
+      UVar4 = System_Collections_Generic_List_Vector2___get_Item
+                        (_flat,c,(MethodInfo_39F9280 *)
+                                 MethodInfo_System_Collections_Generic_List_Vector2_get_Item);
+      fVar7 = UVar4.fields.x;
+      fVar8 = UVar4.fields.y;
+      local_88 = UVar3.fields.x;
+      fStack_84 = UVar3.fields.y;
+      local_78 = UVar2.fields.x;
+      fStack_74 = UVar2.fields.y;
+      local_68 = UVar1.fields.x;
+      fStack_64 = UVar1.fields.y;
+    } while ((((fStack_64 - fStack_74) * (local_88 - local_78) -
+               (local_68 - local_78) * (fStack_84 - fStack_74) < 0.0) ||
+             ((fStack_64 - fStack_84) * (fVar7 - local_88) - (local_68 - local_88) * (fVar8 - fStack_84) < 0.0
+             )) || ((fStack_64 - fVar8) * (local_78 - fVar7) - (local_68 - fVar7) * (fStack_74 - fVar8) < 0.0)
+            );
+    iVar6 = 5;
+label_0598f26b:
     System_Collections_Generic_List_Enumerator_int___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8,
-               MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+              ((System_Collections_Generic_List_Enumerator_int__o *)&local_58,
+               (MethodInfo_4C3B490 *)MethodInfo_System_Collections_Generic_List_Enumerator_int_Dispose);
+    bVar5 = iVar6 != 5;
   }
-  return false;
+  return bVar5;
 }
 
 
 // Map.MapFracture$$InTriangle
 // il2cpp: bool Map_MapFracture__InTriangle (UnityEngine_Vector2_o point, UnityEngine_Vector2_o a, UnityEngine_Vector2_o b, UnityEngine_Vector2_o c, const MethodInfo* method);
-// 0x181ea6230
+// 0x598f300
 
 bool Map_MapFracture__InTriangle
                (UnityEngine_Vector2_o point,UnityEngine_Vector2_o a,UnityEngine_Vector2_o b,
                UnityEngine_Vector2_o c,MethodInfo *method)
 
 {
-  bool bVar1;
+  float fVar1;
   float fVar2;
   float fVar3;
   float fVar4;
   float fVar5;
-  undefined4 uStack_64;
-  undefined4 uStack_5c;
-  undefined4 uStack_54;
-  undefined4 uStack_4c;
+  float fVar6;
+  float fVar7;
+  float fVar8;
   
-  fVar2 = point.fields.x;
-  uStack_54 = a.fields.y;
-  fVar3 = a.fields.x;
+  fVar7 = c.fields.x;
+  fVar8 = c.fields.y;
   fVar5 = b.fields.x;
-  uStack_64 = b.fields.y;
-  uStack_4c = point.fields.y;
-  if (((uStack_4c - uStack_54) * (fVar5 - fVar3) - (fVar2 - fVar3) * (uStack_64 - uStack_54) < 0.0) ||
-     (uStack_5c = c.fields.y, fVar4 = c.fields.x,
-     (uStack_4c - uStack_64) * (fVar4 - fVar5) - (fVar2 - fVar5) * (uStack_5c - uStack_64) < 0.0)) {
-    bVar1 = false;
+  fVar6 = b.fields.y;
+  fVar3 = a.fields.x;
+  fVar4 = a.fields.y;
+  fVar1 = point.fields.x;
+  fVar2 = point.fields.y;
+  if ((fVar2 - fVar4) * (fVar5 - fVar3) - (fVar1 - fVar3) * (fVar6 - fVar4) < 0.0) {
+    return false;
   }
-  else {
-    bVar1 = 0.0 <= (uStack_4c - uStack_5c) * (fVar3 - fVar4) - (fVar2 - fVar4) * (uStack_54 - uStack_5c);
+  if ((fVar2 - fVar6) * (fVar7 - fVar5) - (fVar1 - fVar5) * (fVar8 - fVar6) < 0.0) {
+    return false;
   }
-  return bVar1;
+  return 0.0 <= (fVar2 - fVar8) * (fVar3 - fVar7) - (fVar1 - fVar7) * (fVar4 - fVar8);
 }
 
 
 // Map.MapFracture$$Cross
 // il2cpp: float Map_MapFracture__Cross (UnityEngine_Vector2_o a, UnityEngine_Vector2_o b, const MethodInfo* method);
-// 0x181ea4f00
+// 0x598f000
 
 float Map_MapFracture__Cross(UnityEngine_Vector2_o a,UnityEngine_Vector2_o b,MethodInfo *method)
 
 {
-  undefined4 uStackX_24;
-  
-  uStackX_24 = a.fields.y;
-  return b.fields.y * a.fields.x - b.fields.x * uStackX_24;
+  return a.fields.x * b.fields.y - a.fields.y * b.fields.x;
 }
 
 
 // Map.MapFracture$$Weld
 // il2cpp: int32_t Map_MapFracture__Weld (System_Collections_Generic_Dictionary_Vector3Int__int__o* points, System_Collections_Generic_List_MapFracture_Vertex__o* vertices, Map_MapFracture_Vertex_o vertex, const MethodInfo* method);
-// 0x181ea7d20
+// 0x598d380
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598d4b7: jmp 0x598d523
+// asm:   0x598d4f9: jmp 0x598d523
+// asm:   0x598d5cb: jmp 0x598d66b
+// asm:   0x598d610: jmp 0x598d66b
+// asm:   0x598d63e: jmp 0x598d523
+// asm:   0x598d745: jmp 0x598d66b
 
 int32_t Map_MapFracture__Weld
                   (System_Collections_Generic_Dictionary_Vector3Int__int__o *points,
                   System_Collections_Generic_List_MapFracture_Vertex__o *vertices,
-                  Map_MapFracture_Vertex_o *vertex,MethodInfo *method)
+                  Map_MapFracture_Vertex_o vertex,MethodInfo *method)
 
 {
   int32_t *piVar1;
   Map_MapFracture_Vertex_o *pMVar2;
   uint uVar3;
-  float fVar4;
-  Map_MapFracture_Vertex_array *pMVar5;
-  undefined8 uVar6;
-  UnityEngine_Vector2_Fields UVar7;
-  Map_MapFracture_Vertex_Fields *pMVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
+  Map_MapFracture_Vertex_array *pMVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  Map_MapFracture_Vertex_Fields *pMVar9;
+  bool bVar10;
+  MethodInfo *pMVar11;
   MethodInfo *pMVar12;
-  bool bVar13;
-  int32_t iVar14;
-  int32_t iVar15;
-  int32_t iVar16;
-  int32_t local_res8 [8];
-  UnityEngine_Vector3Int_o local_78;
-  Map_MapFracture_Vertex_o local_68;
+  undefined4 uVar13;
+  undefined4 uVar14;
+  UnityEngine_Vector3Int_o key;
+  UnityEngine_Vector3Int_o key_00;
+  Il2CppMethodPointer local_38;
+  int32_t local_2c;
   
-  if (Il2CppMethodInitialized_184345096 == '\0') {
+  pMVar11 = (MethodInfo *)vertices;
+  if (Il2CppMethodInitialized_07545a27 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -6362,69 +7634,142 @@ int32_t Map_MapFracture__Weld
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_get_Count);
-    Il2CppMethodInitialized_184345096 = '\x01';
+    Il2CppMethodInitialized_07545a27 = '\x01';
   }
-  local_res8[0] = 0;
-  iVar14 = il2cpp_runtime_helper_181290af0((vertex->fields).Position.fields.x / 0.01,0);
-  iVar15 = il2cpp_runtime_helper_181290af0((vertex->fields).Position.fields.y / 0.01,0);
-  iVar16 = il2cpp_runtime_helper_181290af0((vertex->fields).Position.fields.z / 0.01,0);
+  local_2c = 0;
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  dVar5 = (double)(vertex.fields.Position.fields.x / 0.01);
+  pMVar12 = (MethodInfo *)&local_38;
+  dVar6 = modf(dVar5,(double *)pMVar12,pMVar11);
+  uVar13 = SUB84(local_38,0);
+  uVar14 = (undefined4)((ulong)local_38 >> 0x20);
+  if (0.0 <= vertex.fields.Position.fields.x / 0.01) {
+    if ((dVar6 != 0.5) || (NAN(dVar6))) {
+      dVar5 = floor(dVar5 + 0.5,pMVar12);
+    }
+    else {
+      if (((long)(double)local_38 & 1U) == 0) goto label_0598d50e;
+      dVar5 = (double)local_38 + 1.0;
+    }
+  }
+  else {
+    if ((dVar6 != -0.5) || (NAN(dVar6))) {
+      dVar5 = ceil(dVar5 + -0.5,pMVar12);
+      uVar13 = SUB84(dVar5,0);
+      uVar14 = (undefined4)((ulong)dVar5 >> 0x20);
+    }
+    else if (((long)(double)local_38 & 1U) != 0) {
+      dVar5 = (double)local_38 + -1.0;
+      goto joined_r0x0598d4f7;
+    }
+label_0598d50e:
+    dVar5 = (double)CONCAT44(uVar14,uVar13);
+  }
+joined_r0x0598d4f7:
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  dVar6 = (double)(vertex.fields.Position.fields.y / 0.01);
+  pMVar12 = (MethodInfo *)&local_38;
+  dVar7 = modf(dVar6,(double *)pMVar12,pMVar11);
+  uVar13 = SUB84(local_38,0);
+  uVar14 = (undefined4)((ulong)local_38 >> 0x20);
+  if (0.0 <= vertex.fields.Position.fields.y / 0.01) {
+    if ((dVar7 != 0.5) || (NAN(dVar7))) {
+      dVar6 = floor(dVar6 + 0.5,pMVar12);
+      goto joined_r0x0598d73f;
+    }
+    if (((long)(double)local_38 & 1U) != 0) {
+      dVar6 = (double)local_38 + 1.0;
+      goto joined_r0x0598d73f;
+    }
+  }
+  else if ((dVar7 != -0.5) || (NAN(dVar7))) {
+    dVar6 = ceil(dVar6 + -0.5,pMVar12);
+    uVar13 = SUB84(dVar6,0);
+    uVar14 = (undefined4)((ulong)dVar6 >> 0x20);
+  }
+  else if (((long)(double)local_38 & 1U) != 0) {
+    dVar6 = (double)local_38 + -1.0;
+    goto joined_r0x0598d73f;
+  }
+  dVar6 = (double)CONCAT44(uVar14,uVar13);
+joined_r0x0598d73f:
+  if (Il2CppMethodInitialized_07541320 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_07541320 = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  dVar7 = (double)(vertex.fields.Position.fields.z / 0.01);
+  pMVar12 = (MethodInfo *)&local_38;
+  dVar8 = modf(dVar7,(double *)pMVar12,pMVar11);
+  if (0.0 <= vertex.fields.Position.fields.z / 0.01) {
+    if ((dVar8 != 0.5) || (NAN(dVar8))) {
+      local_38 = (Il2CppMethodPointer)floor(dVar7 + 0.5,pMVar12);
+    }
+    else if (((long)(double)local_38 & 1U) != 0) {
+      local_38 = (Il2CppMethodPointer)((double)local_38 + 1.0);
+    }
+  }
+  else if ((dVar8 != -0.5) || (NAN(dVar8))) {
+    local_38 = (Il2CppMethodPointer)ceil(dVar7 + -0.5,pMVar12);
+  }
+  else if (((long)(double)local_38 & 1U) != 0) {
+    local_38 = (Il2CppMethodPointer)((double)local_38 + -1.0);
+  }
   if (points != (System_Collections_Generic_Dictionary_Vector3Int__int__o *)0x0) {
-    local_78.fields.m_X = iVar14;
-    local_78.fields.m_Y = iVar15;
-    local_78.fields.m_Z = iVar16;
-    bVar13 = System_Collections_Generic_Dictionary_Vector3Int__int___TryGetValue
-                       (points,&local_78,local_res8,
-                        (MethodInfo_14CA790 *)
+    key_00.fields.m_Y = (int)dVar6;
+    key_00.fields.m_X = (int)dVar5;
+    key.fields.m_Z = (int)(double)local_38;
+    key.fields.m_X = (int)dVar5;
+    key.fields.m_Y = (int)dVar6;
+    bVar10 = System_Collections_Generic_Dictionary_Vector3Int__int___TryGetValue
+                       (points,key,&local_2c,
+                        (MethodInfo_4B1E650 *)
                         MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_TryGetValue);
-    if (bVar13) {
-      return local_res8[0];
+    if (bVar10) {
+      return local_2c;
     }
     if (vertices != (System_Collections_Generic_List_MapFracture_Vertex__o *)0x0) {
-      local_res8[0] = (vertices->fields)._size;
-      local_78.fields.m_X = iVar14;
-      local_78.fields.m_Y = iVar15;
-      local_78.fields.m_Z = iVar16;
+      local_2c = (vertices->fields)._size;
+      key_00.fields.m_Z = (int)(double)local_38;
       System_Collections_Generic_Dictionary_Vector3Int__int___Add
-                (points,&local_78,local_res8[0],
-                 (MethodInfo_14BA290 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_Add);
-      pMVar12 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add;
+                (points,key_00,local_2c,
+                 (MethodInfo_4B1C7C0 *)MethodInfo_System_Collections_Generic_Dictionary_Vector3Int_int_Add);
+      pMVar11 = MethodInfo_System_Collections_Generic_List_MapFracture_Vertex_Add;
       piVar1 = &(vertices->fields)._version;
       *piVar1 = *piVar1 + 1;
-      pMVar5 = (vertices->fields)._items;
-      if (pMVar5 != (Map_MapFracture_Vertex_array *)0x0) {
+      pMVar4 = (vertices->fields)._items;
+      if (pMVar4 != (Map_MapFracture_Vertex_array *)0x0) {
         uVar3 = (vertices->fields)._size;
-        if ((uint)pMVar5->max_length <= uVar3) {
-          local_68.fields.Shade = (vertex->fields).Shade;
-          local_68.fields.Position.fields.x = (vertex->fields).Position.fields.x;
-          local_68.fields.Position.fields.y = (vertex->fields).Position.fields.y;
-          local_68.fields._8_8_ = *(undefined8 *)&(vertex->fields).Position.fields.z;
-          local_68.fields.Normal.fields.y = (vertex->fields).Normal.fields.y;
-          local_68.fields.Normal.fields.z = (vertex->fields).Normal.fields.z;
-          local_68.fields.UV.fields = (vertex->fields).UV.fields;
-          System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
-                    (vertices,&local_68,(MethodInfo_952080 *)pMVar12->klass->rgctx_data[0xe].method);
-          return local_res8[0];
+        if (uVar3 < (uint)pMVar4->max_length) {
+          (vertices->fields)._size = uVar3 + 1;
+          pMVar4->m_Items[(int)uVar3].fields.Shade = vertex.fields.Shade;
+          pMVar9 = &pMVar4->m_Items[(int)uVar3].fields;
+          (pMVar9->Normal).fields.y = vertex.fields.Normal.fields.y;
+          (pMVar9->Normal).fields.z = vertex.fields.Normal.fields.z;
+          (pMVar9->UV).fields = vertex.fields.UV.fields;
+          pMVar2 = pMVar4->m_Items + (int)uVar3;
+          (pMVar2->fields).Position.fields.x = (float)vertex.fields.Position.fields.x;
+          (pMVar2->fields).Position.fields.y = (float)vertex.fields.Position.fields.y;
+          *(long *)&(pMVar2->fields).Position.fields.z = vertex.fields._8_8_;
+          return local_2c;
         }
-        (vertices->fields)._size = uVar3 + 1;
-        if (uVar3 < (uint)pMVar5->max_length) {
-          fVar9 = (vertex->fields).Position.fields.y;
-          uVar6 = *(undefined8 *)&(vertex->fields).Position.fields.z;
-          fVar4 = (vertex->fields).Shade;
-          fVar10 = (vertex->fields).Normal.fields.y;
-          fVar11 = (vertex->fields).Normal.fields.z;
-          UVar7 = (vertex->fields).UV.fields;
-          pMVar2 = pMVar5->m_Items + (int)uVar3;
-          (pMVar2->fields).Position.fields.x = (vertex->fields).Position.fields.x;
-          (pMVar2->fields).Position.fields.y = fVar9;
-          *(undefined8 *)&(pMVar2->fields).Position.fields.z = uVar6;
-          pMVar8 = &pMVar5->m_Items[(int)uVar3].fields;
-          (pMVar8->Normal).fields.y = fVar10;
-          (pMVar8->Normal).fields.z = fVar11;
-          (pMVar8->UV).fields = UVar7;
-          pMVar5->m_Items[(int)uVar3].fields.Shade = fVar4;
-          return local_res8[0];
-        }
-        ThrowIndexOutOfRangeException();
+        System_Collections_Generic_List_MapFracture_Vertex___AddWithResize
+                  (vertices,vertex,(MethodInfo_3AB6170 *)pMVar11->klass->rgctx_data[0xe].method);
+        return local_2c;
       }
     }
   }
@@ -6434,29 +7779,35 @@ int32_t Map_MapFracture__Weld
 
 // Map.MapFracture$$GetBounds
 // il2cpp: UnityEngine_Bounds_o Map_MapFracture__GetBounds (System_Collections_Generic_List_MapFracture_Triangle__o* triangles, const MethodInfo* method);
-// 0x181ea5940
-// eh: try 0x181ea5b60..0x181ea5da8 -> pad 0x183316e50 catch Il2CppExceptionWrapper
-// asm: 20 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181ea5b5e: nop 
-// asm:   0x181ea5db9: mov rdx, qword ptr [rip + 0x21fefe0]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
-// asm:   0x181ea5dc0: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181ea5dc5: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x181ea5dca: mov rcx, qword ptr [rsp + 0x20]
-// asm:   0x181ea5dcf: test rcx, rcx
-// asm:   0x181ea5dd2: jne 0x181ea5e26
-// asm:   0x181ea5dd4: mov rdi, qword ptr [rsp + 0x1e0]
-// asm:   0x181ea5e26: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183316e50: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183316e55: push rbp
-// asm:   0x183316e56: sub rsp, 0x20
-// asm:   0x183316e5a: mov rbp, rdx
-// asm:   0x183316e5d: mov rax, qword ptr [rbp + 0x130]
-// asm:   0x183316e64: mov rcx, qword ptr [rax]
-// asm:   0x183316e67: mov qword ptr [rbp + 0x20], rcx
-// asm:   0x183316e6b: movabs rax, 0
-// asm:   0x183316e75: add rsp, 0x20
-// asm:   0x183316e79: pop rbp
-// asm:   0x183316e7a: ret 
+// 0x598a640
+// eh: try 0x598a7a3..0x598a7ab -> pad 0x598a97a catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x598a995..0x598a99a -> pad 0x598a9bb cleanup
+// eh: try 0x598a9be..0x598a9cb -> pad 0x598a9d3 catch (...) [compiler noexcept guard]
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x598a799: nop dword ptr [rax]
+// asm:   0x598a97a: mov rbx, rax
+// asm:   0x598a97d: cmp edx, 1
+// asm:   0x598a980: jne 0x598a9be
+// asm:   0x598a982: mov rdi, rbx
+// asm:   0x598a985: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x598a98a: mov rbx, qword ptr [rax]
+// asm:   0x598a98d: mov qword ptr [rsp + 0xb0], rbx
+// asm:   0x598a995: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x598a99a: lea rax, [rip + 0x1904937]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose
+// asm:   0x598a9a1: mov rsi, qword ptr [rax]
+// asm:   0x598a9a4: lea rdi, [rsp + 0x30]
+// asm:   0x598a9a9: call 0x4d821f0  ; System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose()
+// asm:   0x598a9ae: test rbx, rbx
+// asm:   0x598a9b1: je 0x598a93a
+// asm:   0x598a9b3: mov rdi, rbx
+// asm:   0x598a9b6: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x598a9bb: mov rbx, rax
+// asm:   0x598a9be: lea rdi, [rsp + 0xb0]
+// asm:   0x598a9c6: call 0x2fd4590  ; il2cpp_runtime_helper_02fd4590()
+// asm:   0x598a9cb: mov rdi, rbx
+// asm:   0x598a9ce: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x598a9d3: mov rdi, rax
+// asm:   0x598a9d6: call 0x2ab61e0  ; __clang_call_terminate()
 
 UnityEngine_Bounds_o *
 Map_MapFracture__GetBounds
@@ -6464,45 +7815,54 @@ Map_MapFracture__GetBounds
           System_Collections_Generic_List_MapFracture_Triangle__o *triangles,MethodInfo *method)
 
 {
-  UnityEngine_Vector3_StaticFields *pUVar1;
-  bool bVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector3_StaticFields *pUVar3;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
+  ulong uVar6;
+  bool bVar7;
   float fVar8;
-  float fVar9;
-  float fVar10;
-  undefined1 local_1a8 [16];
-  undefined8 local_198;
-  UnityEngine_Vector2_Fields UStack_190;
-  undefined8 local_188;
-  undefined8 uStack_180;
-  undefined1 local_178 [12];
-  float fStack_16c;
-  undefined8 local_168;
-  undefined1 auStack_160 [16];
-  undefined8 uStack_150;
-  UnityEngine_Vector2_Fields local_148;
-  undefined8 uStack_140;
-  undefined8 local_138;
-  undefined8 uStack_130;
-  undefined1 local_128 [24];
-  UnityEngine_Vector2_Fields UStack_110;
-  float local_108;
-  float fStack_104;
-  float fStack_100;
-  float fStack_fc;
-  UnityEngine_Vector3_Fields local_f8 [2];
-  UnityEngine_Vector3_Fields aUStack_e0 [2];
-  UnityEngine_Vector2_Fields local_c8;
-  float fStack_c0;
-  int32_t iStack_bc;
+  undefined1 auVar9 [16];
+  undefined1 auVar10 [16];
+  undefined1 auVar11 [16];
+  uint uVar12;
+  float fVar13;
+  uint uVar16;
+  float fVar17;
+  float fVar18;
+  float fVar19;
+  undefined1 auVar14 [16];
+  undefined1 auVar15 [16];
+  float fVar20;
+  float fVar21;
+  undefined1 auVar22 [16];
+  float fVar23;
+  float fVar24;
+  float local_130;
+  float local_12c;
+  UnityEngine_Vector3_Fields local_128;
+  float local_118;
+  float fStack_114;
+  System_Collections_Generic_List_Enumerator_T__o local_108;
+  undefined8 uStack_f0;
+  undefined8 local_e8;
+  undefined8 uStack_e0;
+  undefined4 local_d8;
+  undefined4 uStack_d4;
+  undefined4 uStack_d0;
+  float fStack_cc;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
   undefined8 local_b8;
-  undefined8 uStack_b0;
+  ulong uStack_b0;
+  undefined8 local_a8;
+  undefined8 uStack_a0;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  undefined1 local_88 [112];
   
-  if (Il2CppMethodInitialized_184345097 == '\0') {
+  if (Il2CppMethodInitialized_07545a28 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -6513,206 +7873,179 @@ Map_MapFracture__GetBounds
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
-    Il2CppMethodInitialized_184345097 = '\x01';
+    Il2CppMethodInitialized_07545a28 = '\x01';
   }
-  (__return_storage_ptr__->fields).m_Center.fields.x = 0.0;
-  (__return_storage_ptr__->fields).m_Center.fields.y = 0.0;
-  *(undefined8 *)&(__return_storage_ptr__->fields).m_Center.fields.z = 0;
-  (__return_storage_ptr__->fields).m_Extents.fields.y = 0.0;
-  (__return_storage_ptr__->fields).m_Extents.fields.z = 0.0;
-  local_1a8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_1a8._8_8_ = 0;
-  local_198 = (Il2CppObject *)0x0;
-  UStack_190.x = 0.0;
-  UStack_190.y = 0.0;
-  local_188 = 0;
-  uStack_180 = 0;
-  local_178._0_8_ = 0;
-  stack0xfffffffffffffe90 = 0;
-  local_168 = 0;
-  auStack_160._0_8_ = 0;
-  auStack_160._8_8_ = 0;
-  uStack_150 = 0;
-  local_148.x = 0.0;
-  local_148.y = 0.0;
-  uStack_140 = 0;
-  local_138 = 0;
-  uStack_130 = 0;
-  if (triangles != (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
-    System_Collections_Generic_List_MapFracture_Triangle___get_Item
-              ((Map_MapFracture_Triangle_o *)local_128,triangles,0,
-               (MethodInfo_9721B0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
-    if (Il2CppMethodInitialized_18433dbea == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbea = '\x01';
-    }
-    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar6 = (pUVar1->zeroVector).fields.x;
-    fVar8 = (pUVar1->zeroVector).fields.y;
-    fVar10 = (pUVar1->zeroVector).fields.z;
-    (__return_storage_ptr__->fields).m_Center.fields.x = (float)local_128._0_4_;
-    (__return_storage_ptr__->fields).m_Center.fields.y = (float)local_128._4_4_;
-    (__return_storage_ptr__->fields).m_Center.fields.z = (float)local_128._8_4_;
-    (__return_storage_ptr__->fields).m_Extents.fields.x = fVar6 * 0.5;
-    (__return_storage_ptr__->fields).m_Extents.fields.y = fVar8 * 0.5;
-    (__return_storage_ptr__->fields).m_Extents.fields.z = fVar10 * 0.5;
-    System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_128,triangles,
-               (MethodInfo_969260 *)
-               MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
-    local_198 = (Il2CppObject *)local_128._16_8_;
-    UStack_190 = UStack_110;
-    local_188._0_4_ = local_108;
-    local_188._4_4_ = fStack_104;
-    uStack_180._0_4_ = fStack_100;
-    uStack_180._4_4_ = fStack_fc;
-    local_178._0_4_ = local_f8[0].x;
-    local_178._4_4_ = local_f8[0].y;
-    local_178._8_4_ = local_f8[0].z;
-    fStack_16c = local_f8[1].x;
-    local_168._0_4_ = local_f8[1].y;
-    local_168._4_4_ = local_f8[1].z;
-    auStack_160._0_4_ = aUStack_e0[0].x;
-    auStack_160._4_4_ = aUStack_e0[0].y;
-    auStack_160._8_4_ = aUStack_e0[0].z;
-    auStack_160._12_4_ = aUStack_e0[1].x;
-    uStack_150._0_4_ = aUStack_e0[1].y;
-    uStack_150._4_4_ = aUStack_e0[1].z;
-    local_148 = local_c8;
-    uStack_140._0_4_ = fStack_c0;
-    uStack_140._4_4_ = iStack_bc;
-    local_138 = local_b8;
-    uStack_130 = uStack_b0;
-    while( true ) {
-      bVar2 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
-                        ((System_Collections_Generic_List_Enumerator_T__o *)local_1a8,
-                         (MethodInfo_1558F50 *)
-                         MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
-      if (!bVar2) break;
-      fVar6 = (__return_storage_ptr__->fields).m_Center.fields.x -
-              (__return_storage_ptr__->fields).m_Extents.fields.x;
-      fVar8 = (__return_storage_ptr__->fields).m_Center.fields.y -
-              (__return_storage_ptr__->fields).m_Extents.fields.y;
-      fVar10 = (__return_storage_ptr__->fields).m_Center.fields.z -
-               (__return_storage_ptr__->fields).m_Extents.fields.z;
-      if ((float)local_198 <= fVar6) {
-        fVar6 = (float)local_198;
-      }
-      if (local_198._4_4_ <= fVar8) {
-        fVar8 = local_198._4_4_;
-      }
-      if (UStack_190.x <= fVar10) {
-        fVar10 = UStack_190.x;
-      }
-      fVar7 = (__return_storage_ptr__->fields).m_Extents.fields.x +
-              (__return_storage_ptr__->fields).m_Center.fields.x;
-      fVar4 = (__return_storage_ptr__->fields).m_Extents.fields.y +
-              (__return_storage_ptr__->fields).m_Center.fields.y;
-      fVar3 = (__return_storage_ptr__->fields).m_Extents.fields.z +
-              (__return_storage_ptr__->fields).m_Center.fields.z;
-      if (fVar7 <= (float)local_198) {
-        fVar7 = (float)local_198;
-      }
-      if (fVar4 <= local_198._4_4_) {
-        fVar4 = local_198._4_4_;
-      }
-      if (fVar3 <= UStack_190.x) {
-        fVar3 = UStack_190.x;
-      }
-      fVar7 = (fVar7 - fVar6) * 0.5;
-      (__return_storage_ptr__->fields).m_Extents.fields.x = fVar7;
-      fVar4 = (fVar4 - fVar8) * 0.5;
-      fVar3 = (fVar3 - fVar10) * 0.5;
-      fVar6 = fVar6 + fVar7;
-      (__return_storage_ptr__->fields).m_Center.fields.x = fVar6;
-      fVar6 = fVar6 - (__return_storage_ptr__->fields).m_Extents.fields.x;
-      fVar7 = (fVar4 + fVar8) - fVar4;
-      fVar9 = (fVar3 + fVar10) - fVar3;
-      if ((float)local_178._4_4_ <= fVar6) {
-        fVar6 = (float)local_178._4_4_;
-      }
-      if ((float)local_178._8_4_ <= fVar7) {
-        fVar7 = (float)local_178._8_4_;
-      }
-      if (fStack_16c <= fVar9) {
-        fVar9 = fStack_16c;
-      }
-      fVar5 = (__return_storage_ptr__->fields).m_Extents.fields.x +
-              (__return_storage_ptr__->fields).m_Center.fields.x;
-      fVar4 = fVar4 + fVar4 + fVar8;
-      fVar3 = fVar3 + fVar3 + fVar10;
-      if (fVar5 <= (float)local_178._4_4_) {
-        fVar5 = (float)local_178._4_4_;
-      }
-      if (fVar4 <= (float)local_178._8_4_) {
-        fVar4 = (float)local_178._8_4_;
-      }
-      if (fVar3 <= fStack_16c) {
-        fVar3 = fStack_16c;
-      }
-      fVar5 = (fVar5 - fVar6) * 0.5;
-      (__return_storage_ptr__->fields).m_Extents.fields.x = fVar5;
-      fVar10 = (fVar4 - fVar7) * 0.5;
-      fVar8 = (fVar3 - fVar9) * 0.5;
-      (__return_storage_ptr__->fields).m_Center.fields.x = fVar6 + fVar5;
-      fVar6 = (fVar6 + fVar5) - (__return_storage_ptr__->fields).m_Extents.fields.x;
-      fVar3 = (fVar10 + fVar7) - fVar10;
-      fVar4 = (fVar8 + fVar9) - fVar8;
-      if ((float)uStack_150 <= fVar6) {
-        fVar6 = (float)uStack_150;
-      }
-      if (uStack_150._4_4_ <= fVar3) {
-        fVar3 = uStack_150._4_4_;
-      }
-      if (local_148.x <= fVar4) {
-        fVar4 = local_148.x;
-      }
-      fVar5 = fVar5 + (__return_storage_ptr__->fields).m_Center.fields.x;
-      fVar10 = fVar10 + fVar10 + fVar7;
-      fVar8 = fVar8 + fVar8 + fVar9;
-      if (fVar5 <= (float)uStack_150) {
-        fVar5 = (float)uStack_150;
-      }
-      if (fVar10 <= uStack_150._4_4_) {
-        fVar10 = uStack_150._4_4_;
-      }
-      if (fVar8 <= local_148.x) {
-        fVar8 = local_148.x;
-      }
-      (__return_storage_ptr__->fields).m_Extents.fields.x = (fVar5 - fVar6) * 0.5;
-      fVar10 = (fVar10 - fVar3) * 0.5;
-      (__return_storage_ptr__->fields).m_Extents.fields.y = fVar10;
-      fVar8 = (fVar8 - fVar4) * 0.5;
-      (__return_storage_ptr__->fields).m_Extents.fields.z = fVar8;
-      (__return_storage_ptr__->fields).m_Center.fields.x =
-           fVar6 + (__return_storage_ptr__->fields).m_Extents.fields.x;
-      (__return_storage_ptr__->fields).m_Center.fields.y = fVar10 + fVar3;
-      (__return_storage_ptr__->fields).m_Center.fields.z = fVar8 + fVar4;
-    }
-    System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
-              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_1a8,
-               MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
-    return __return_storage_ptr__;
+  local_98 = 0;
+  uStack_90 = 0;
+  local_a8 = 0;
+  uStack_a0 = 0;
+  local_b8 = 0;
+  uStack_b0 = 0;
+  local_c8 = 0;
+  uStack_c0 = 0;
+  local_d8 = 0;
+  uStack_d4 = 0;
+  uStack_d0 = 0;
+  fStack_cc = 0.0;
+  local_e8 = 0;
+  uStack_e0 = 0;
+  local_108.fields._current = (Il2CppObject *)0x0;
+  uStack_f0 = 0;
+  local_108.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_108.fields._index = 0;
+  local_108.fields._version = 0;
+  if (triangles == (System_Collections_Generic_List_MapFracture_Triangle__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_List_MapFracture_Triangle___get_Item
+            ((Map_MapFracture_Triangle_o *)local_88,triangles,0,
+             (MethodInfo_3AB1AD0 *)MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_get_Item);
+  local_128.x = (float)local_88._0_4_;
+  local_128.y = (float)local_88._4_4_;
+  local_12c = (float)local_88._8_4_;
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
+  }
+  pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar1 = (pUVar3->zeroVector).fields.x;
+  uVar2 = (pUVar3->zeroVector).fields.y;
+  local_118 = (float)uVar1 * 0.5;
+  fStack_114 = (float)uVar2 * 0.5;
+  local_130 = (pUVar3->zeroVector).fields.z * 0.5;
+  System_Collections_Generic_List_MapFracture_Triangle___GetEnumerator
+            (&local_108,triangles,
+             (MethodInfo_3AB3540 *)
+             MethodInfo_System_Collections_Generic_List_MapFracture_Triangle_GetEnumerator);
+  local_88._0_4_ = 0.0;
+  local_88._4_4_ = 0.0;
+  local_88._8_8_ = &local_108;
+  while( true ) {
+    bVar7 = System_Collections_Generic_List_Enumerator_MapFracture_Triangle___MoveNext
+                      (&local_108,
+                       (MethodInfo_4C82200 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_MoveNext);
+    if (!bVar7) break;
+    fVar13 = SUB84(local_108.fields._current,0);
+    fVar17 = (float)((ulong)local_108.fields._current >> 0x20);
+    fVar24 = fStack_114 + local_128.y;
+    if (fStack_114 + local_128.y <= fVar17) {
+      fVar24 = fVar17;
+    }
+    fVar21 = local_12c - local_130;
+    if ((float)uStack_f0 <= local_12c - local_130) {
+      fVar21 = (float)uStack_f0;
+    }
+    fVar23 = local_130 + local_12c;
+    if (local_130 + local_12c <= (float)uStack_f0) {
+      fVar23 = (float)uStack_f0;
+    }
+    fVar23 = (fVar23 - fVar21) * 0.5;
+    fVar8 = (fVar21 + fVar23) - fVar23;
+    fVar23 = fVar21 + fVar23 + fVar23;
+    if (fStack_cc <= fVar8) {
+      fVar8 = fStack_cc;
+    }
+    if (fVar23 <= fStack_cc) {
+      fVar23 = fStack_cc;
+    }
+    fVar21 = (fVar23 - fVar8) * 0.5;
+    local_12c = (fVar8 + fVar21) - fVar21;
+    fVar21 = fVar8 + fVar21 + fVar21;
+    if ((float)local_a8 <= local_12c) {
+      local_12c = (float)local_a8;
+    }
+    if (fVar21 <= (float)local_a8) {
+      fVar21 = (float)local_a8;
+    }
+    fVar23 = local_118 + local_128.x;
+    if (local_118 + local_128.x <= fVar13) {
+      fVar23 = fVar13;
+    }
+    uVar12 = (int)((uint)(local_128.x - local_118 < fVar13) << 0x1f) >> 0x1f;
+    uVar16 = (int)((uint)(local_128.y - fStack_114 < fVar17) << 0x1f) >> 0x1f;
+    uVar6 = CONCAT44(~uVar16 & (uint)fVar17,~uVar12 & (uint)fVar13) |
+            CONCAT44((uint)(local_128.y - fStack_114) & uVar16,(uint)(local_128.x - local_118) & uVar12);
+    fVar13 = (float)uVar6;
+    fVar17 = (float)(uVar6 >> 0x20);
+    fVar23 = (fVar23 - fVar13) * 0.5;
+    fVar24 = (fVar24 - fVar17) * 0.5;
+    fVar8 = fStack_114 * 0.0;
+    fStack_114 = fStack_114 * 0.0;
+    fVar13 = fVar13 + fVar23;
+    fVar17 = fVar17 + fVar24;
+    auVar9._0_4_ = fVar13 - fVar23;
+    auVar9._4_4_ = fVar17 - fVar24;
+    auVar9._8_4_ = (fVar8 + 0.0) - fVar8;
+    auVar9._12_4_ = (fStack_114 + 0.0) - fStack_114;
+    auVar14._0_4_ = fVar13 + fVar23;
+    auVar14._4_4_ = fVar17 + fVar24;
+    auVar14._8_4_ = fVar8 + 0.0 + fVar8;
+    auVar14._12_4_ = fStack_114 + 0.0 + fStack_114;
+    auVar10._8_8_ = 0;
+    auVar10._0_8_ = CONCAT44(uStack_d0,uStack_d4);
+    auVar10 = minps(auVar9,auVar10);
+    auVar15._8_8_ = 0;
+    auVar15._0_8_ = CONCAT44(uStack_d0,uStack_d4);
+    auVar15 = maxps(auVar14,auVar15);
+    fVar8 = (auVar15._0_4_ - auVar10._0_4_) * 0.5;
+    fVar18 = (auVar15._4_4_ - auVar10._4_4_) * 0.5;
+    fVar19 = (auVar15._8_4_ - auVar10._8_4_) * 0.0;
+    fVar20 = (auVar15._12_4_ - auVar10._12_4_) * 0.0;
+    fVar24 = auVar10._0_4_ + fVar8;
+    fVar13 = auVar10._4_4_ + fVar18;
+    fVar17 = auVar10._8_4_ + fVar19;
+    fVar23 = auVar10._12_4_ + fVar20;
+    auVar22._0_4_ = fVar24 - fVar8;
+    auVar22._4_4_ = fVar13 - fVar18;
+    auVar22._8_4_ = fVar17 - fVar19;
+    auVar22._12_4_ = fVar23 - fVar20;
+    auVar11._0_4_ = fVar24 + fVar8;
+    auVar11._4_4_ = fVar13 + fVar18;
+    auVar11._8_4_ = fVar17 + fVar19;
+    auVar11._12_4_ = fVar23 + fVar20;
+    auVar4._8_8_ = 0;
+    auVar4._0_8_ = uStack_b0;
+    auVar15 = minps(auVar22,auVar4);
+    auVar5._8_8_ = 0;
+    auVar5._0_8_ = uStack_b0;
+    auVar10 = maxps(auVar11,auVar5);
+    local_118 = (auVar10._0_4_ - auVar15._0_4_) * 0.5;
+    fStack_114 = (auVar10._4_4_ - auVar15._4_4_) * 0.5;
+    local_130 = (fVar21 - local_12c) * 0.5;
+    local_128.y = auVar15._4_4_ + fStack_114;
+    local_128.x = auVar15._0_4_ + local_118;
+    local_12c = local_12c + local_130;
+  }
+  System_Collections_Generic_List_Enumerator_MapFracture_Triangle___Dispose
+            (&local_108,
+             (MethodInfo_4C821F0 *)
+             MethodInfo_System_Collections_Generic_List_Enumerator_MapFracture_Triangle_Dispose);
+  (__return_storage_ptr__->fields).m_Center.fields.x = local_128.x;
+  (__return_storage_ptr__->fields).m_Center.fields.y = local_128.y;
+  (__return_storage_ptr__->fields).m_Center.fields.z = local_12c;
+  (__return_storage_ptr__->fields).m_Extents.fields.x = local_118;
+  (__return_storage_ptr__->fields).m_Extents.fields.y = fStack_114;
+  (__return_storage_ptr__->fields).m_Extents.fields.z = local_130;
+  return __return_storage_ptr__;
 }
 
 
 // Map.MapFracture$$Next
 // il2cpp: float Map_MapFracture__Next (System_Random_o* random, const MethodInfo* method);
-// 0x181ea6610
+// 0x598b740
 
 float Map_MapFracture__Next(System_Random_o *random,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *pUVar1;
+  double dVar1;
   
-  if (random != (System_Random_o *)0x0) {
-    pUVar1 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
-                       (random,(random->klass->vtable)._8_NextDouble.method);
-    return (float)(double)pUVar1 - 0.5;
+  if (random == (System_Random_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  dVar1 = (*(random->klass->vtable)._8_NextDouble.methodPtr)
+                    (random,(random->klass->vtable)._8_NextDouble.method);
+  return (float)dVar1 + -0.5;
 }
 
 

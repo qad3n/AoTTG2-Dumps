@@ -16,7 +16,7 @@ internal class Ucs4Encoding2143 : Ucs4Encoding
 	public override string EncodingName
 	{
 		[Token(Token = "0x6000BCD")]
-		[Address(RVA = "0x27461D0", Offset = "0x27447D0", VA = "0x1827461D0", Slot = "8")]
+		[Address(RVA = "0x6100FE0", Offset = "0x60FFFE0", VA = "0x6100FE0", Slot = "8")]
 		get
 		{
 			return null;
@@ -24,13 +24,13 @@ internal class Ucs4Encoding2143 : Ucs4Encoding
 	}
 
 	[Token(Token = "0x6000BCC")]
-	[Address(RVA = "0x2746120", Offset = "0x2744720", VA = "0x182746120")]
+	[Address(RVA = "0x6100C20", Offset = "0x60FFC20", VA = "0x6100C20")]
 	public Ucs4Encoding2143()
 	{
 	}
 
 	[Token(Token = "0x6000BCE")]
-	[Address(RVA = "0x27460C0", Offset = "0x27446C0", VA = "0x1827460C0", Slot = "6")]
+	[Address(RVA = "0x6101010", Offset = "0x6100010", VA = "0x6101010", Slot = "6")]
 	public override byte[] GetPreamble()
 	{
 		return null;

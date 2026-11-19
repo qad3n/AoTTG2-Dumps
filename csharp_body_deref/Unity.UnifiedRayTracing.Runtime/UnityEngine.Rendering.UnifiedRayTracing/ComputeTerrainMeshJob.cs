@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.ComputeTerrainMeshJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -57,26 +57,26 @@ internal struct ComputeTerrainMeshJob : IJobParallelFor
 	public NativeArray<int> indices;
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x2D8ABD0", Offset = "0x2D891D0", VA = "0x182D8ABD0")]
+	[Address(RVA = "0x6785900", Offset = "0x6784900", VA = "0x6785900")]
 	public void DisposeArrays()
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x2D8AC90", Offset = "0x2D89290", VA = "0x182D8AC90", Slot = "4")]
+	[Address(RVA = "0x67859D0", Offset = "0x67849D0", VA = "0x67859D0", Slot = "4")]
 	public void Execute(int index)
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2D8A7D0", Offset = "0x2D88DD0", VA = "0x182D8A7D0")]
+	[Address(RVA = "0x6785B30", Offset = "0x6784B30", VA = "0x6785B30")]
 	private static float3 CalculateTerrainNormal(NativeArray<float> heightmap, int x, int y, int width, int height, float3 scale)
 	{
 		return default(float3);
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x2D8AE60", Offset = "0x2D89460", VA = "0x182D8AE60")]
+	[Address(RVA = "0x6785DD0", Offset = "0x6784DD0", VA = "0x6785DD0")]
 	private static float SampleHeight(int x, int y, int width, int height, NativeArray<float> heightmap, float scale)
 	{
 		return default(float);

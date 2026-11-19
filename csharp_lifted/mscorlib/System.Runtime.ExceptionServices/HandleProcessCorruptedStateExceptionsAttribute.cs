@@ -1,0 +1,21 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace System.Runtime.ExceptionServices;
+
+[Token(Token = "0x2000464")]
+[AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+public sealed class HandleProcessCorruptedStateExceptionsAttribute : Attribute
+{
+	[Token(Token = "0x6002290")]
+	[Address(RVA = "0x53C7DA0", Offset = "0x53C6DA0", VA = "0x53C7DA0")]
+	public HandleProcessCorruptedStateExceptionsAttribute()
+	{
+	}
+}

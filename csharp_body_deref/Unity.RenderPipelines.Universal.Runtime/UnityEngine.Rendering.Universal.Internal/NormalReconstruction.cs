@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.NormalReconstruction
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,25 +21,25 @@ public static class NormalReconstruction
 	private static Matrix4x4[] s_NormalReconstructionMatrix;
 
 	[Token(Token = "0x6000C0B")]
-	[Address(RVA = "0x2CDAD60", Offset = "0x2CD9360", VA = "0x182CDAD60")]
+	[Address(RVA = "0x66D59E0", Offset = "0x66D49E0", VA = "0x66D59E0")]
 	public static void SetupProperties(CommandBuffer cmd, in CameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000C0C")]
-	[Address(RVA = "0x2CDA800", Offset = "0x2CD8E00", VA = "0x182CDA800")]
+	[Address(RVA = "0x66D5B80", Offset = "0x66D4B80", VA = "0x66D5B80")]
 	public static void SetupProperties(RasterCommandBuffer cmd, in CameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000C0D")]
-	[Address(RVA = "0x2CDACD0", Offset = "0x2CD92D0", VA = "0x182CDACD0")]
+	[Address(RVA = "0x66D6060", Offset = "0x66D5060", VA = "0x66D6060")]
 	public static void SetupProperties(CommandBuffer cmd, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000C0E")]
-	[Address(RVA = "0x2CDA880", Offset = "0x2CD8E80", VA = "0x182CDA880")]
+	[Address(RVA = "0x66D5BF0", Offset = "0x66D4BF0", VA = "0x66D5BF0")]
 	public static void SetupProperties(RasterCommandBuffer cmd, in UniversalCameraData cameraData)
 	{
 	}

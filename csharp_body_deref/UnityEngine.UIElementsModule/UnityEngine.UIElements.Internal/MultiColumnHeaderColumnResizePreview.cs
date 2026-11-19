@@ -21,7 +21,7 @@ internal class MultiColumnHeaderColumnResizePreview : VisualElement
 	public static readonly string visualUssClassName;
 
 	[Token(Token = "0x6002EE0")]
-	[Address(RVA = "0x3204430", Offset = "0x3202A30", VA = "0x183204430")]
+	[Address(RVA = "0x6C03050", Offset = "0x6C02050", VA = "0x6C03050")]
 	public MultiColumnHeaderColumnResizePreview()
 	{
 	}

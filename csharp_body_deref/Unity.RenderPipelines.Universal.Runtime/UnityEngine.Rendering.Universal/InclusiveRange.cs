@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.InclusiveRange
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ internal struct InclusiveRange
 	public bool isEmpty
 	{
 		[Token(Token = "0x600097E")]
-		[Address(RVA = "0x2C91A30", Offset = "0x2C90030", VA = "0x182C91A30")]
+		[Address(RVA = "0x6692CB0", Offset = "0x6691CB0", VA = "0x6692CB0")]
 		get
 		{
 			return default(bool);
@@ -35,7 +35,7 @@ internal struct InclusiveRange
 	public static InclusiveRange empty
 	{
 		[Token(Token = "0x6000981")]
-		[Address(RVA = "0x2C91A20", Offset = "0x2C90020", VA = "0x182C91A20")]
+		[Address(RVA = "0x6692D40", Offset = "0x6691D40", VA = "0x6692D40")]
 		get
 		{
 			return default(InclusiveRange);
@@ -43,45 +43,45 @@ internal struct InclusiveRange
 	}
 
 	[Token(Token = "0x600097A")]
-	[Address(RVA = "0x2A94580", Offset = "0x2A92B80", VA = "0x182A94580")]
+	[Address(RVA = "0x6692BA0", Offset = "0x6691BA0", VA = "0x6692BA0")]
 	public InclusiveRange(short startEnd)
 	{
 	}
 
 	[Token(Token = "0x600097B")]
-	[Address(RVA = "0x1A6A860", Offset = "0x1A68E60", VA = "0x181A6A860")]
+	[Address(RVA = "0x6692BB0", Offset = "0x6691BB0", VA = "0x6692BB0")]
 	public InclusiveRange(short start, short end)
 	{
 	}
 
 	[Token(Token = "0x600097C")]
-	[Address(RVA = "0x2C918A0", Offset = "0x2C8FEA0", VA = "0x182C918A0")]
+	[Address(RVA = "0x6692BC0", Offset = "0x6691BC0", VA = "0x6692BC0")]
 	public void Expand(short index)
 	{
 	}
 
 	[Token(Token = "0x600097D")]
-	[Address(RVA = "0x2C91810", Offset = "0x2C8FE10", VA = "0x182C91810")]
+	[Address(RVA = "0x6692C30", Offset = "0x6691C30", VA = "0x6692C30")]
 	public void Clamp(short min, short max)
 	{
 	}
 
 	[Token(Token = "0x600097F")]
-	[Address(RVA = "0x2C91890", Offset = "0x2C8FE90", VA = "0x182C91890")]
+	[Address(RVA = "0x6692CC0", Offset = "0x6691CC0", VA = "0x6692CC0")]
 	public bool Contains(short index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000980")]
-	[Address(RVA = "0x2C91920", Offset = "0x2C8FF20", VA = "0x182C91920")]
+	[Address(RVA = "0x6692CD0", Offset = "0x6691CD0", VA = "0x6692CD0")]
 	public static InclusiveRange Merge(InclusiveRange a, InclusiveRange b)
 	{
 		return default(InclusiveRange);
 	}
 
 	[Token(Token = "0x6000982")]
-	[Address(RVA = "0x2C919A0", Offset = "0x2C8FFA0", VA = "0x182C919A0", Slot = "3")]
+	[Address(RVA = "0x6692D50", Offset = "0x6691D50", VA = "0x6692D50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

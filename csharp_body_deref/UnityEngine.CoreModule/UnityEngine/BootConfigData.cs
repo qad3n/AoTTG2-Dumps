@@ -20,16 +20,16 @@ internal class BootConfigData
 	[FieldOffset(Offset = "0x10")]
 	private IntPtr m_Ptr;
 
-	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x2EBBD90", Offset = "0x2EBA390", VA = "0x182EBBD90")]
+	[Token(Token = "0x6000260")]
+	[Address(RVA = "0x68BE390", Offset = "0x68BD390", VA = "0x68BE390")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static BootConfigData WrapBootConfigData(IntPtr nativeHandle)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600025D")]
-	[Address(RVA = "0x2EBBE40", Offset = "0x2EBA440", VA = "0x182EBBE40")]
+	[Token(Token = "0x6000261")]
+	[Address(RVA = "0x68BE430", Offset = "0x68BD430", VA = "0x68BE430")]
 	private BootConfigData(IntPtr nativeHandle)
 	{
 	}

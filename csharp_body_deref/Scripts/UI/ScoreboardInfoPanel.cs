@@ -5,8 +5,8 @@
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/ScoreboardInfoPanel.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Runtime.InteropServices;
 using Gisketch.Aottg2UI.Game;
 using Il2CppDummyDll;
@@ -15,84 +15,97 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20007AC")]
+[Token(Token = "0x2000857")]
 internal class ScoreboardInfoPanel : ScoreboardCategoryPanel
 {
-	[Token(Token = "0x40026C6")]
+	[Token(Token = "0x4002A43")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static readonly HashSet<string> HiddenSettings;
+
+	[Token(Token = "0x4002A44")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private AottgInGameView _view;
 
-	[Token(Token = "0x17000D6D")]
+	[Token(Token = "0x17000DDE")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x6004AA1")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
+		[Token(Token = "0x6004FB8")]
+		[Address(RVA = "0x5C3C810", Offset = "0x5C3B810", VA = "0x5C3C810", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D6E")]
+	[Token(Token = "0x17000DDF")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004AA2")]
-		[Address(RVA = "0x2182AB0", Offset = "0x21810B0", VA = "0x182182AB0", Slot = "11")]
+		[Token(Token = "0x6004FB9")]
+		[Address(RVA = "0x5C3C820", Offset = "0x5C3B820", VA = "0x5C3C820", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D6F")]
+	[Token(Token = "0x17000DE0")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004AA3")]
-		[Address(RVA = "0x1B9BE70", Offset = "0x1B9A470", VA = "0x181B9BE70", Slot = "9")]
+		[Token(Token = "0x6004FBA")]
+		[Address(RVA = "0x5C3C830", Offset = "0x5C3B830", VA = "0x5C3C830", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6004AA4")]
-	[Address(RVA = "0x22624B0", Offset = "0x2260AB0", VA = "0x1822624B0", Slot = "20")]
+	[Token(Token = "0x6004FBB")]
+	[Address(RVA = "0x5C3C840", Offset = "0x5C3B840", VA = "0x5C3C840", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004AA5")]
-	[Address(RVA = "0x22615E0", Offset = "0x225FBE0", VA = "0x1822615E0")]
+	[Token(Token = "0x6004FBC")]
+	[Address(RVA = "0x5C3E170", Offset = "0x5C3D170", VA = "0x5C3E170")]
+	private static string Locale(string item)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6004FBD")]
+	[Address(RVA = "0x5C3DA70", Offset = "0x5C3CA70", VA = "0x5C3DA70")]
+	private static string SandboxLocale(string item)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6004FBE")]
+	[Address(RVA = "0x5C3E200", Offset = "0x5C3D200", VA = "0x5C3E200")]
 	private void CreateDivider(Transform panel)
 	{
 	}
 
-	[Token(Token = "0x6004AA6")]
-	[Address(RVA = "0x22616B0", Offset = "0x225FCB0", VA = "0x1822616B0")]
+	[Token(Token = "0x6004FBF")]
+	[Address(RVA = "0x5C3DB00", Offset = "0x5C3CB00", VA = "0x5C3DB00")]
 	private void CreateLabel(Transform panel, ElementStyle style, string text, FontStyle fontStyle = FontStyle.Normal, TextAnchor alignment = TextAnchor.MiddleLeft)
 	{
 	}
 
-	[Token(Token = "0x6004AA7")]
-	[Address(RVA = "0x2261A00", Offset = "0x2260000", VA = "0x182261A00")]
-	private void CreateLabels(ElementStyle style, Transform panel, string category, OrderedDictionary settings)
+	[Token(Token = "0x6004FC0")]
+	[Address(RVA = "0x5C3DC30", Offset = "0x5C3CC30", VA = "0x5C3DC30")]
+	private void CreateLabels(ElementStyle style, Transform panel, string prefix, IDictionary settings)
 	{
 	}
 
-	[Token(Token = "0x6004AA8")]
-	[Address(RVA = "0x2262480", Offset = "0x2260A80", VA = "0x182262480")]
-	private void CreateLabels(ElementStyle style, Transform panel, string category, BaseSettingsContainer container)
+	[Token(Token = "0x6004FC1")]
+	[Address(RVA = "0x5C3E2B0", Offset = "0x5C3D2B0", VA = "0x5C3E2B0")]
+	private static string SettingValue(string id, BaseSetting setting)
 	{
+		return null;
 	}
 
-	[Token(Token = "0x6004AA9")]
-	[Address(RVA = "0x22617F0", Offset = "0x225FDF0", VA = "0x1822617F0")]
-	private void CreateLabels(ElementStyle style, Transform panel, string category, Dictionary<string, BaseSetting> settings)
-	{
-	}
-
-	[Token(Token = "0x6004AAA")]
-	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
+	[Token(Token = "0x6004FC2")]
+	[Address(RVA = "0x5C3E850", Offset = "0x5C3D850", VA = "0x5C3E850")]
 	public ScoreboardInfoPanel()
 	{
 	}

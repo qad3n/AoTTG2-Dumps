@@ -18,27 +18,27 @@ public class NoInterpMinFloatParameter : VolumeParameter<float>
 {
 	[NonSerialized]
 	[Token(Token = "0x400099A")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float min;
 
 	[Token(Token = "0x170001F3")]
 	public override float value
 	{
 		[Token(Token = "0x6000F35")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x65559C0", Offset = "0x65549C0", VA = "0x65559C0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F36")]
-		[Address(RVA = "0x2B5F3B0", Offset = "0x2B5D9B0", VA = "0x182B5F3B0", Slot = "15")]
+		[Address(RVA = "0x65559D0", Offset = "0x65549D0", VA = "0x65559D0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F37")]
-	[Address(RVA = "0x2B5F920", Offset = "0x2B5DF20", VA = "0x182B5F920")]
+	[Address(RVA = "0x65559E0", Offset = "0x65549E0", VA = "0x65559E0")]
 	public NoInterpMinFloatParameter(float value, float min, bool overrideState = false)
 	{
 	}

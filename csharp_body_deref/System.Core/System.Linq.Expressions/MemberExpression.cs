@@ -13,26 +13,26 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000A1")]
 [DebuggerTypeProxy(typeof(MemberExpressionProxy))]
 public class MemberExpression : Expression
 {
-	[Token(Token = "0x170000C1")]
+	[Token(Token = "0x170000C3")]
 	public MemberInfo Member
 	{
-		[Token(Token = "0x6000470")]
-		[Address(RVA = "0x209B220", Offset = "0x2099820", VA = "0x18209B220")]
+		[Token(Token = "0x600047B")]
+		[Address(RVA = "0x5DCE230", Offset = "0x5DCD230", VA = "0x5DCE230")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000C2")]
+	[Token(Token = "0x170000C4")]
 	public Expression Expression
 	{
-		[Token(Token = "0x6000471")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x600047C")]
+		[Address(RVA = "0x5DD2B80", Offset = "0x5DD1B80", VA = "0x5DD2B80")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,54 +40,54 @@ public class MemberExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x170000C3")]
+	[Token(Token = "0x170000C5")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x1AB5F20", Offset = "0x1AB4520", VA = "0x181AB5F20", Slot = "4")]
+		[Token(Token = "0x6000480")]
+		[Address(RVA = "0x5DD2E60", Offset = "0x5DD1E60", VA = "0x5DD2E60", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x243C4A0", Offset = "0x243AAA0", VA = "0x18243C4A0")]
+	[Token(Token = "0x600047D")]
+	[Address(RVA = "0x5DD2B90", Offset = "0x5DD1B90", VA = "0x5DD2B90")]
 	internal MemberExpression(Expression expression)
 	{
 	}
 
-	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x243C360", Offset = "0x243A960", VA = "0x18243C360")]
+	[Token(Token = "0x600047E")]
+	[Address(RVA = "0x5DD2C00", Offset = "0x5DD1C00", VA = "0x5DD2C00")]
 	internal static PropertyExpression Make(Expression expression, PropertyInfo property)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000474")]
-	[Address(RVA = "0x243C2B0", Offset = "0x243A8B0", VA = "0x18243C2B0")]
+	[Token(Token = "0x600047F")]
+	[Address(RVA = "0x5DD2D30", Offset = "0x5DD1D30", VA = "0x5DD2D30")]
 	internal static FieldExpression Make(Expression expression, FieldInfo field)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x243C280", Offset = "0x243A880", VA = "0x18243C280", Slot = "10")]
+	[Token(Token = "0x6000481")]
+	[Address(RVA = "0x5DD2E70", Offset = "0x5DD1E70", VA = "0x5DD2E70", Slot = "10")]
 	[ExcludeFromCodeCoverage]
 	internal virtual MemberInfo GetMember()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x243C250", Offset = "0x243A850", VA = "0x18243C250", Slot = "9")]
+	[Token(Token = "0x6000482")]
+	[Address(RVA = "0x5DD2EA0", Offset = "0x5DD1EA0", VA = "0x5DD2EA0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x243C410", Offset = "0x243AA10", VA = "0x18243C410")]
+	[Token(Token = "0x6000483")]
+	[Address(RVA = "0x5DD0750", Offset = "0x5DCF750", VA = "0x5DD0750")]
 	public MemberExpression Update(Expression expression)
 	{
 		return null;

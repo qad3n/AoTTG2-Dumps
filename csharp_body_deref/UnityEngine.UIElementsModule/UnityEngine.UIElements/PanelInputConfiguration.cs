@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PanelInputConfiguration
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,9 +12,9 @@ using Il2CppDummyDll;
 namespace UnityEngine.UIElements;
 
 [Token(Token = "0x200026E")]
-[ExecuteAlways]
 [AddComponentMenu("UI Toolkit/Panel Input Configuration", 1)]
 [HelpURL("UIE-get-started-with-runtime-ui")]
+[ExecuteAlways]
 [DisallowMultipleComponent]
 public sealed class PanelInputConfiguration : MonoBehaviour
 {
@@ -48,8 +48,8 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 
 		[Token(Token = "0x4000908")]
 		[FieldOffset(Offset = "0x4")]
-		[Tooltip("Determines which layers can block input events on world space panels.")]
 		[SerializeField]
+		[Tooltip("Determines which layers can block input events on world space panels.")]
 		internal LayerMask m_InteractionLayers;
 
 		[Token(Token = "0x4000909")]
@@ -66,14 +66,14 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 
 		[Token(Token = "0x400090B")]
 		[FieldOffset(Offset = "0x10")]
-		[SerializeField]
 		[Tooltip("Defines the Event Camera(s) used for world space raycasting input.")]
+		[SerializeField]
 		internal Camera[] m_EventCameras;
 
 		[Token(Token = "0x400090C")]
 		[FieldOffset(Offset = "0x18")]
-		[SerializeField]
 		[Tooltip("Determines which input event system is used for UI interactions when combining UI Toolkit and UGUI.")]
+		[SerializeField]
 		internal PanelInputRedirection m_PanelInputRedirection;
 
 		[Token(Token = "0x400090D")]
@@ -86,7 +86,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public static Settings Default
 		{
 			[Token(Token = "0x600107E")]
-			[Address(RVA = "0x32851F0", Offset = "0x32837F0", VA = "0x1832851F0")]
+			[Address(RVA = "0x6C86AC0", Offset = "0x6C85AC0", VA = "0x6C86AC0")]
 			get
 			{
 				return default(Settings);
@@ -97,7 +97,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public bool processWorldSpaceInput
 		{
 			[Token(Token = "0x600107F")]
-			[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
+			[Address(RVA = "0x6C86B20", Offset = "0x6C85B20", VA = "0x6C86B20")]
 			get
 			{
 				return default(bool);
@@ -108,7 +108,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public LayerMask interactionLayers
 		{
 			[Token(Token = "0x6001080")]
-			[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+			[Address(RVA = "0x6C86B30", Offset = "0x6C85B30", VA = "0x6C86B30")]
 			get
 			{
 				return default(LayerMask);
@@ -119,7 +119,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public float maxInteractionDistance
 		{
 			[Token(Token = "0x6001081")]
-			[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
+			[Address(RVA = "0x6C86B40", Offset = "0x6C85B40", VA = "0x6C86B40")]
 			get
 			{
 				return default(float);
@@ -130,7 +130,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public bool defaultEventCameraIsMainCamera
 		{
 			[Token(Token = "0x6001082")]
-			[Address(RVA = "0x2BA6F90", Offset = "0x2BA5590", VA = "0x182BA6F90")]
+			[Address(RVA = "0x6C86B50", Offset = "0x6C85B50", VA = "0x6C86B50")]
 			get
 			{
 				return default(bool);
@@ -141,7 +141,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public Camera[] eventCameras
 		{
 			[Token(Token = "0x6001083")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x6C86B60", Offset = "0x6C85B60", VA = "0x6C86B60")]
 			get
 			{
 				return null;
@@ -152,7 +152,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public PanelInputRedirection panelInputRedirection
 		{
 			[Token(Token = "0x6001084")]
-			[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+			[Address(RVA = "0x6C86B70", Offset = "0x6C85B70", VA = "0x6C86B70")]
 			get
 			{
 				return default(PanelInputRedirection);
@@ -163,7 +163,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 		public bool autoCreatePanelComponents
 		{
 			[Token(Token = "0x6001085")]
-			[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
+			[Address(RVA = "0x6C86B80", Offset = "0x6C85B80", VA = "0x6C86B80")]
 			get
 			{
 				return default(bool);
@@ -191,14 +191,14 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	internal static PanelInputConfiguration current
 	{
 		[Token(Token = "0x6001069")]
-		[Address(RVA = "0x32817A0", Offset = "0x327FDA0", VA = "0x1832817A0")]
+		[Address(RVA = "0x6C85D00", Offset = "0x6C84D00", VA = "0x6C85D00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600106A")]
-		[Address(RVA = "0x32817F0", Offset = "0x327FDF0", VA = "0x1832817F0")]
+		[Address(RVA = "0x6C85D40", Offset = "0x6C84D40", VA = "0x6C85D40")]
 		[CompilerGenerated]
 		set
 		{
@@ -209,7 +209,7 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	internal Settings settings
 	{
 		[Token(Token = "0x600106B")]
-		[Address(RVA = "0x3212690", Offset = "0x3210C90", VA = "0x183212690")]
+		[Address(RVA = "0x6C85D90", Offset = "0x6C84D90", VA = "0x6C85D90")]
 		get
 		{
 			return default(Settings);
@@ -220,13 +220,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public bool processWorldSpaceInput
 	{
 		[Token(Token = "0x600106C")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x6C85DB0", Offset = "0x6C84DB0", VA = "0x6C85DB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600106D")]
-		[Address(RVA = "0x3281920", Offset = "0x327FF20", VA = "0x183281920")]
+		[Address(RVA = "0x6C85DC0", Offset = "0x6C84DC0", VA = "0x6C85DC0")]
 		set
 		{
 		}
@@ -236,13 +236,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public LayerMask interactionLayers
 	{
 		[Token(Token = "0x600106E")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6C86360", Offset = "0x6C85360", VA = "0x6C86360")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600106F")]
-		[Address(RVA = "0x32818A0", Offset = "0x327FEA0", VA = "0x1832818A0")]
+		[Address(RVA = "0x6C86370", Offset = "0x6C85370", VA = "0x6C86370")]
 		set
 		{
 		}
@@ -252,13 +252,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public float maxInteractionDistance
 	{
 		[Token(Token = "0x6001070")]
-		[Address(RVA = "0x584AC0", Offset = "0x5830C0", VA = "0x180584AC0")]
+		[Address(RVA = "0x6C863B0", Offset = "0x6C853B0", VA = "0x6C863B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6001071")]
-		[Address(RVA = "0x32818F0", Offset = "0x327FEF0", VA = "0x1832818F0")]
+		[Address(RVA = "0x6C863C0", Offset = "0x6C853C0", VA = "0x6C863C0")]
 		set
 		{
 		}
@@ -268,13 +268,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public bool defaultEventCameraIsMainCamera
 	{
 		[Token(Token = "0x6001072")]
-		[Address(RVA = "0x584AB0", Offset = "0x5830B0", VA = "0x180584AB0")]
+		[Address(RVA = "0x6C863E0", Offset = "0x6C853E0", VA = "0x6C863E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001073")]
-		[Address(RVA = "0x3281850", Offset = "0x327FE50", VA = "0x183281850")]
+		[Address(RVA = "0x6C863F0", Offset = "0x6C853F0", VA = "0x6C863F0")]
 		set
 		{
 		}
@@ -284,13 +284,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public Camera[] eventCameras
 	{
 		[Token(Token = "0x6001074")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6C86400", Offset = "0x6C85400", VA = "0x6C86400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001075")]
-		[Address(RVA = "0x3281860", Offset = "0x327FE60", VA = "0x183281860")]
+		[Address(RVA = "0x6C86410", Offset = "0x6C85410", VA = "0x6C86410")]
 		set
 		{
 		}
@@ -300,13 +300,13 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public PanelInputRedirection panelInputRedirection
 	{
 		[Token(Token = "0x6001076")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		[Address(RVA = "0x6C86440", Offset = "0x6C85440", VA = "0x6C86440")]
 		get
 		{
 			return default(PanelInputRedirection);
 		}
 		[Token(Token = "0x6001077")]
-		[Address(RVA = "0x3281910", Offset = "0x327FF10", VA = "0x183281910")]
+		[Address(RVA = "0x6C86450", Offset = "0x6C85450", VA = "0x6C86450")]
 		set
 		{
 		}
@@ -316,38 +316,38 @@ public sealed class PanelInputConfiguration : MonoBehaviour
 	public bool autoCreatePanelComponents
 	{
 		[Token(Token = "0x6001078")]
-		[Address(RVA = "0xDA7C70", Offset = "0xDA6270", VA = "0x180DA7C70")]
+		[Address(RVA = "0x6C86460", Offset = "0x6C85460", VA = "0x6C86460")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001079")]
-		[Address(RVA = "0x32817E0", Offset = "0x327FDE0", VA = "0x1832817E0")]
+		[Address(RVA = "0x6C86470", Offset = "0x6C85470", VA = "0x6C86470")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600107A")]
-	[Address(RVA = "0x3281430", Offset = "0x327FA30", VA = "0x183281430")]
+	[Address(RVA = "0x6C86480", Offset = "0x6C85480", VA = "0x6C86480")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600107B")]
-	[Address(RVA = "0x3281330", Offset = "0x327F930", VA = "0x183281330")]
+	[Address(RVA = "0x6C86760", Offset = "0x6C85760", VA = "0x6C86760")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600107C")]
-	[Address(RVA = "0x3280EA0", Offset = "0x327F4A0", VA = "0x183280EA0")]
+	[Address(RVA = "0x6C85DD0", Offset = "0x6C84DD0", VA = "0x6C85DD0")]
 	private static void Apply(PanelInputConfiguration input)
 	{
 	}
 
 	[Token(Token = "0x600107D")]
-	[Address(RVA = "0x32816F0", Offset = "0x327FCF0", VA = "0x1832816F0")]
+	[Address(RVA = "0x6C869E0", Offset = "0x6C859E0", VA = "0x6C869E0")]
 	public PanelInputConfiguration()
 	{
 	}

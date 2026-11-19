@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.VisualScripting.Cloning
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ public static class Cloning
 	public static HashSet<ICloner> cloners
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x2D9D910", Offset = "0x2D9BF10", VA = "0x182D9D910")]
+		[Address(RVA = "0x6791430", Offset = "0x6790430", VA = "0x6791430")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ public static class Cloning
 	public static ArrayCloner arrayCloner
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x2D9D8C0", Offset = "0x2D9BEC0", VA = "0x182D9D8C0")]
+		[Address(RVA = "0x67914A0", Offset = "0x67904A0", VA = "0x67914A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,7 +48,7 @@ public static class Cloning
 	public static DictionaryCloner dictionaryCloner
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x2D9D960", Offset = "0x2D9BF60", VA = "0x182D9D960")]
+		[Address(RVA = "0x6791510", Offset = "0x6790510", VA = "0x6791510")]
 		[CompilerGenerated]
 		get
 		{
@@ -60,7 +60,7 @@ public static class Cloning
 	public static EnumerableCloner enumerableCloner
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x2D9D9B0", Offset = "0x2D9BFB0", VA = "0x182D9D9B0")]
+		[Address(RVA = "0x6791580", Offset = "0x6790580", VA = "0x6791580")]
 		[CompilerGenerated]
 		get
 		{
@@ -72,7 +72,7 @@ public static class Cloning
 	public static ListCloner listCloner
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x2D9DAF0", Offset = "0x2D9C0F0", VA = "0x182D9DAF0")]
+		[Address(RVA = "0x67915F0", Offset = "0x67905F0", VA = "0x67915F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -84,7 +84,7 @@ public static class Cloning
 	public static AnimationCurveCloner animationCurveCloner
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x2D9D870", Offset = "0x2D9BE70", VA = "0x182D9D870")]
+		[Address(RVA = "0x6791660", Offset = "0x6790660", VA = "0x6791660")]
 		[CompilerGenerated]
 		get
 		{
@@ -96,7 +96,7 @@ public static class Cloning
 	internal static GradientCloner gradientCloner
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x2D9DAA0", Offset = "0x2D9C0A0", VA = "0x182D9DAA0")]
+		[Address(RVA = "0x67916D0", Offset = "0x67906D0", VA = "0x67916D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -108,7 +108,7 @@ public static class Cloning
 	public static FieldsCloner fieldsCloner
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x2D9DA50", Offset = "0x2D9C050", VA = "0x182D9DA50")]
+		[Address(RVA = "0x6791740", Offset = "0x6790740", VA = "0x6791740")]
 		[CompilerGenerated]
 		get
 		{
@@ -120,7 +120,7 @@ public static class Cloning
 	public static FakeSerializationCloner fakeSerializationCloner
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x2D9DA00", Offset = "0x2D9C000", VA = "0x182D9DA00")]
+		[Address(RVA = "0x67917B0", Offset = "0x67907B0", VA = "0x67917B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -129,13 +129,13 @@ public static class Cloning
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x2D9CFB0", Offset = "0x2D9B5B0", VA = "0x182D9CFB0")]
+	[Address(RVA = "0x6790BE0", Offset = "0x678FBE0", VA = "0x6790BE0")]
 	static Cloning()
 	{
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2D9C760", Offset = "0x2D9AD60", VA = "0x182D9C760")]
+	[Address(RVA = "0x6791820", Offset = "0x6790820", VA = "0x6791820")]
 	public static object Clone(this object original, ICloner fallbackCloner, bool tryPreserveInstances)
 	{
 		return null;
@@ -148,7 +148,7 @@ public static class Cloning
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2D9C6D0", Offset = "0x2D9ACD0", VA = "0x182D9C6D0")]
+	[Address(RVA = "0x6791B60", Offset = "0x6790B60", VA = "0x6791B60")]
 	public static object CloneViaFakeSerialization(this object original)
 	{
 		return null;
@@ -161,20 +161,20 @@ public static class Cloning
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2D9C9D0", Offset = "0x2D9AFD0", VA = "0x182D9C9D0")]
+	[Address(RVA = "0x678DBD0", Offset = "0x678CBD0", VA = "0x678DBD0")]
 	internal static object Clone(CloningContext context, object original)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2D9C3A0", Offset = "0x2D9A9A0", VA = "0x182D9C3A0")]
+	[Address(RVA = "0x678F700", Offset = "0x678E700", VA = "0x678F700")]
 	internal static void CloneInto(CloningContext context, ref object clone, object original)
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x2D9CA40", Offset = "0x2D9B040", VA = "0x182D9CA40")]
+	[Address(RVA = "0x6791F70", Offset = "0x6790F70", VA = "0x6791F70")]
 	[CanBeNull]
 	public static ICloner GetCloner(object original, Type type)
 	{
@@ -182,14 +182,14 @@ public static class Cloning
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2D9CBC0", Offset = "0x2D9B1C0", VA = "0x182D9CBC0")]
+	[Address(RVA = "0x6791E10", Offset = "0x6790E10", VA = "0x6791E10")]
 	private static ICloner GetCloner(object original, Type type, ICloner fallbackCloner)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2D9CDC0", Offset = "0x2D9B3C0", VA = "0x182D9CDC0")]
+	[Address(RVA = "0x6791C20", Offset = "0x6790C20", VA = "0x6791C20")]
 	private static bool Skippable(Type type)
 	{
 		return default(bool);

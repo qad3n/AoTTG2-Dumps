@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000474")]
+[Token(Token = "0x200044D")]
 [AttributeUsage(AttributeTargets.Method, Inherited = false)]
 [ComVisible(true)]
 public sealed class PreserveSigAttribute : Attribute
 {
-	[Token(Token = "0x6002242")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6002218")]
+	[Address(RVA = "0x53C4BB0", Offset = "0x53C3BB0", VA = "0x53C4BB0")]
 	public PreserveSigAttribute()
 	{
 	}

@@ -1,0 +1,161 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.NonNullableHashSet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System.Collections;
+using System.Collections.Generic;
+using Il2CppDummyDll;
+
+namespace Unity.VisualScripting;
+
+[Token(Token = "0x2000028")]
+public class NonNullableHashSet<T> : ISet<T>, ICollection<T>, IEnumerable<T>, IEnumerable
+{
+	[Token(Token = "0x4000033")]
+	[FieldOffset(Offset = "0x0")]
+	private readonly HashSet<T> set;
+
+	[Token(Token = "0x1700003B")]
+	public int Count
+	{
+		[Token(Token = "0x6000134")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x1700003C")]
+	public bool IsReadOnly
+	{
+		[Token(Token = "0x6000135")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6000130")]
+	public NonNullableHashSet()
+	{
+	}
+
+	[Token(Token = "0x6000131")]
+	public NonNullableHashSet(IEqualityComparer<T> comparer)
+	{
+	}
+
+	[Token(Token = "0x6000132")]
+	public NonNullableHashSet(IEnumerable<T> collection)
+	{
+	}
+
+	[Token(Token = "0x6000133")]
+	public NonNullableHashSet(IEnumerable<T> collection, IEqualityComparer<T> comparer)
+	{
+	}
+
+	[Token(Token = "0x6000136")]
+	public bool Add(T item)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000137")]
+	public void Clear()
+	{
+	}
+
+	[Token(Token = "0x6000138")]
+	public bool Contains(T item)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000139")]
+	public void CopyTo(T[] array, int arrayIndex)
+	{
+	}
+
+	[Token(Token = "0x600013A")]
+	public void ExceptWith(IEnumerable<T> other)
+	{
+	}
+
+	[Token(Token = "0x600013B")]
+	public IEnumerator<T> GetEnumerator()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600013C")]
+	public void IntersectWith(IEnumerable<T> other)
+	{
+	}
+
+	[Token(Token = "0x600013D")]
+	public bool IsProperSubsetOf(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600013E")]
+	public bool IsProperSupersetOf(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600013F")]
+	public bool IsSubsetOf(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000140")]
+	public bool IsSupersetOf(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000141")]
+	public bool Overlaps(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000142")]
+	public bool Remove(T item)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000143")]
+	public bool SetEquals(IEnumerable<T> other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000144")]
+	public void SymmetricExceptWith(IEnumerable<T> other)
+	{
+	}
+
+	[Token(Token = "0x6000145")]
+	public void UnionWith(IEnumerable<T> other)
+	{
+	}
+
+	[Token(Token = "0x6000146")]
+	private void System_002ECollections_002EGeneric_002EICollection_003CT_003E_002EAdd(T item)
+	{
+	}
+
+	[Token(Token = "0x6000147")]
+	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
+	{
+		return null;
+	}
+}

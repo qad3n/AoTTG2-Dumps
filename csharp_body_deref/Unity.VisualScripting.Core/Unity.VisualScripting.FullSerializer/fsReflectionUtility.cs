@@ -14,7 +14,7 @@ namespace Unity.VisualScripting.FullSerializer;
 public static class fsReflectionUtility
 {
 	[Token(Token = "0x6001226")]
-	[Address(RVA = "0x2E6DE40", Offset = "0x2E6C440", VA = "0x182E6DE40")]
+	[Address(RVA = "0x685A930", Offset = "0x6859930", VA = "0x685A930")]
 	public static Type GetInterface(Type type, Type interfaceType)
 	{
 		return null;

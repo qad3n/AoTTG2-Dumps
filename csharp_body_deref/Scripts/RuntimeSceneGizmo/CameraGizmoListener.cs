@@ -15,46 +15,46 @@ using UnityEngine;
 
 namespace RuntimeSceneGizmo;
 
-[Token(Token = "0x2000058")]
+[Token(Token = "0x2000057")]
 public class CameraGizmoListener : MonoBehaviour
 {
-	[Token(Token = "0x2000059")]
+	[Token(Token = "0x2000058")]
 	[CompilerGenerated]
 	private sealed class _003CSetCameraRotation_003Ed__12 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001C9")]
+		[Token(Token = "0x40001D8")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001CA")]
+		[Token(Token = "0x40001D9")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40001CB")]
+		[Token(Token = "0x40001DA")]
 		[FieldOffset(Offset = "0x20")]
 		public CameraGizmoListener _003C_003E4__this;
 
-		[Token(Token = "0x40001CC")]
+		[Token(Token = "0x40001DB")]
 		[FieldOffset(Offset = "0x28")]
 		public Vector3 targetForward;
 
-		[Token(Token = "0x40001CD")]
+		[Token(Token = "0x40001DC")]
 		[FieldOffset(Offset = "0x34")]
 		private Quaternion _003CinitialRotation_003E5__2;
 
-		[Token(Token = "0x40001CE")]
+		[Token(Token = "0x40001DD")]
 		[FieldOffset(Offset = "0x44")]
 		private Quaternion _003CtargetRotation_003E5__3;
 
-		[Token(Token = "0x40001CF")]
+		[Token(Token = "0x40001DE")]
 		[FieldOffset(Offset = "0x54")]
 		private float _003Ct_003E5__4;
 
-		[Token(Token = "0x1700007E")]
+		[Token(Token = "0x17000077")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60002D9")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60002E2")]
+			[Address(RVA = "0x576B8B0", Offset = "0x576A8B0", VA = "0x576B8B0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -62,11 +62,11 @@ public class CameraGizmoListener : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x1700007F")]
+		[Token(Token = "0x17000078")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60002DB")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60002E4")]
+			[Address(RVA = "0x576B900", Offset = "0x576A900", VA = "0x576B900", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,72 +74,72 @@ public class CameraGizmoListener : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60002D6")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60002DF")]
+		[Address(RVA = "0x576B5C0", Offset = "0x576A5C0", VA = "0x576B5C0")]
 		[DebuggerHidden]
 		public _003CSetCameraRotation_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60002D7")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60002E0")]
+		[Address(RVA = "0x576B600", Offset = "0x576A600", VA = "0x576B600", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60002D8")]
-		[Address(RVA = "0x1DCFD00", Offset = "0x1DCE300", VA = "0x181DCFD00", Slot = "6")]
+		[Token(Token = "0x60002E1")]
+		[Address(RVA = "0x576B610", Offset = "0x576A610", VA = "0x576B610", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60002DA")]
-		[Address(RVA = "0x1DCFFE0", Offset = "0x1DCE5E0", VA = "0x181DCFFE0", Slot = "8")]
+		[Token(Token = "0x60002E3")]
+		[Address(RVA = "0x576B8C0", Offset = "0x576A8C0", VA = "0x576B8C0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200005A")]
+	[Token(Token = "0x2000059")]
 	[CompilerGenerated]
 	private sealed class _003CSwitchProjection_003Ed__11 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001D0")]
+		[Token(Token = "0x40001DF")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001D1")]
+		[Token(Token = "0x40001E0")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40001D2")]
+		[Token(Token = "0x40001E1")]
 		[FieldOffset(Offset = "0x20")]
 		public CameraGizmoListener _003C_003E4__this;
 
-		[Token(Token = "0x40001D3")]
+		[Token(Token = "0x40001E2")]
 		[FieldOffset(Offset = "0x28")]
 		private bool _003CisOrthographic_003E5__2;
 
-		[Token(Token = "0x40001D4")]
+		[Token(Token = "0x40001E3")]
 		[FieldOffset(Offset = "0x2C")]
 		private Matrix4x4 _003Cdest_003E5__3;
 
-		[Token(Token = "0x40001D5")]
+		[Token(Token = "0x40001E4")]
 		[FieldOffset(Offset = "0x6C")]
 		private Matrix4x4 _003Csrc_003E5__4;
 
-		[Token(Token = "0x40001D6")]
+		[Token(Token = "0x40001E5")]
 		[FieldOffset(Offset = "0xAC")]
 		private float _003Ct_003E5__5;
 
-		[Token(Token = "0x17000080")]
+		[Token(Token = "0x17000079")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60002DF")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60002E8")]
+			[Address(RVA = "0x576C180", Offset = "0x576B180", VA = "0x576C180", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -147,11 +147,11 @@ public class CameraGizmoListener : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000081")]
+		[Token(Token = "0x1700007A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60002E1")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60002EA")]
+			[Address(RVA = "0x576C1D0", Offset = "0x576B1D0", VA = "0x576C1D0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -159,109 +159,109 @@ public class CameraGizmoListener : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60002DC")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60002E5")]
+		[Address(RVA = "0x576B5A0", Offset = "0x576A5A0", VA = "0x576B5A0")]
 		[DebuggerHidden]
 		public _003CSwitchProjection_003Ed__11(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60002DD")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60002E6")]
+		[Address(RVA = "0x576B910", Offset = "0x576A910", VA = "0x576B910", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60002DE")]
-		[Address(RVA = "0x1DD0020", Offset = "0x1DCE620", VA = "0x181DD0020", Slot = "6")]
+		[Token(Token = "0x60002E7")]
+		[Address(RVA = "0x576B920", Offset = "0x576A920", VA = "0x576B920", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60002E0")]
-		[Address(RVA = "0x1DD03D0", Offset = "0x1DCE9D0", VA = "0x181DD03D0", Slot = "8")]
+		[Token(Token = "0x60002E9")]
+		[Address(RVA = "0x576C190", Offset = "0x576B190", VA = "0x576C190", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40001C3")]
+	[Token(Token = "0x40001D2")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private float cameraAdjustmentSpeed;
 
-	[Token(Token = "0x40001C4")]
+	[Token(Token = "0x40001D3")]
 	[FieldOffset(Offset = "0x24")]
 	[SerializeField]
 	private float projectionTransitionSpeed;
 
-	[Token(Token = "0x40001C5")]
+	[Token(Token = "0x40001D4")]
 	[FieldOffset(Offset = "0x28")]
 	private Camera mainCamera;
 
-	[Token(Token = "0x40001C6")]
+	[Token(Token = "0x40001D5")]
 	[FieldOffset(Offset = "0x30")]
 	private Transform mainCamParent;
 
-	[Token(Token = "0x40001C7")]
+	[Token(Token = "0x40001D6")]
 	[FieldOffset(Offset = "0x38")]
 	private IEnumerator cameraRotateCoroutine;
 
-	[Token(Token = "0x40001C8")]
+	[Token(Token = "0x40001D7")]
 	[FieldOffset(Offset = "0x40")]
 	private IEnumerator projectionChangeCoroutine;
 
-	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x1DB9BE0", Offset = "0x1DB81E0", VA = "0x181DB9BE0")]
+	[Token(Token = "0x60002D7")]
+	[Address(RVA = "0x576B0F0", Offset = "0x576A0F0", VA = "0x576B0F0")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x1DB9C40", Offset = "0x1DB8240", VA = "0x181DB9C40")]
+	[Token(Token = "0x60002D8")]
+	[Address(RVA = "0x576B150", Offset = "0x576A150", VA = "0x576B150")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x1DB9C80", Offset = "0x1DB8280", VA = "0x181DB9C80")]
+	[Token(Token = "0x60002D9")]
+	[Address(RVA = "0x576B180", Offset = "0x576A180", VA = "0x576B180")]
 	public void OnGizmoComponentClicked(GizmoComponent component)
 	{
 	}
 
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x1DBA060", Offset = "0x1DB8660", VA = "0x181DBA060")]
+	[Token(Token = "0x60002DA")]
+	[Address(RVA = "0x576B350", Offset = "0x576A350", VA = "0x576B350")]
 	public void SwitchOrthographicMode()
 	{
 	}
 
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x1DB9F20", Offset = "0x1DB8520", VA = "0x181DB9F20")]
+	[Token(Token = "0x60002DB")]
+	[Address(RVA = "0x576B3E0", Offset = "0x576A3E0", VA = "0x576B3E0")]
 	public void RotateCameraInDirection(Vector3 direction)
 	{
 	}
 
-	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x1DBA0F0", Offset = "0x1DB86F0", VA = "0x181DBA0F0")]
+	[Token(Token = "0x60002DC")]
+	[Address(RVA = "0x576B4A0", Offset = "0x576A4A0", VA = "0x576B4A0")]
 	[IteratorStateMachine(typeof(_003CSwitchProjection_003Ed__11))]
 	private IEnumerator SwitchProjection()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x1DB9FD0", Offset = "0x1DB85D0", VA = "0x181DB9FD0")]
+	[Token(Token = "0x60002DD")]
+	[Address(RVA = "0x576B510", Offset = "0x576A510", VA = "0x576B510")]
 	[IteratorStateMachine(typeof(_003CSetCameraRotation_003Ed__12))]
 	private IEnumerator SetCameraRotation(Vector3 targetForward)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x1DBA160", Offset = "0x1DB8760", VA = "0x181DBA160")]
+	[Token(Token = "0x60002DE")]
+	[Address(RVA = "0x576B5E0", Offset = "0x576A5E0", VA = "0x576B5E0")]
 	public CameraGizmoListener()
 	{
 	}

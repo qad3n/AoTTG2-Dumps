@@ -11,28 +11,28 @@ using UnityEngine;
 [Token(Token = "0x2000015")]
 public class LookAtTarget : MonoBehaviour
 {
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x400004E")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private Transform _target;
 
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x400004F")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	private float _speed;
 
-	[Token(Token = "0x400004E")]
+	[Token(Token = "0x4000050")]
 	[FieldOffset(Offset = "0x2C")]
 	private Vector3 _lookAtTarget;
 
-	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x1DA3EF0", Offset = "0x1DA24F0", VA = "0x181DA3EF0")]
+	[Token(Token = "0x6000069")]
+	[Address(RVA = "0x5749120", Offset = "0x5748120", VA = "0x5749120")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x1DA4020", Offset = "0x1DA2620", VA = "0x181DA4020")]
+	[Token(Token = "0x600006A")]
+	[Address(RVA = "0x57491F0", Offset = "0x57481F0", VA = "0x57491F0")]
 	public LookAtTarget()
 	{
 	}

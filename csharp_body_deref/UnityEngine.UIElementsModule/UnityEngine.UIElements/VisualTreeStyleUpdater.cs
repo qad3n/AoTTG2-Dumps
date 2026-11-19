@@ -53,7 +53,7 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x600285F")]
-		[Address(RVA = "0x3174BD0", Offset = "0x31731D0", VA = "0x183174BD0", Slot = "12")]
+		[Address(RVA = "0x6B72F90", Offset = "0x6B71F90", VA = "0x6B72F90", Slot = "12")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -64,14 +64,14 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	protected bool disposed
 	{
 		[Token(Token = "0x6002862")]
-		[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
+		[Address(RVA = "0x6B739D0", Offset = "0x6B729D0", VA = "0x6B739D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002863")]
-		[Address(RVA = "0x174C1E0", Offset = "0x174A7E0", VA = "0x18174C1E0")]
+		[Address(RVA = "0x6B739E0", Offset = "0x6B729E0", VA = "0x6B739E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -79,31 +79,31 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6002860")]
-	[Address(RVA = "0x31745A0", Offset = "0x3172BA0", VA = "0x1831745A0", Slot = "15")]
+	[Address(RVA = "0x6B73000", Offset = "0x6B72000", VA = "0x6B73000", Slot = "15")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6002861")]
-	[Address(RVA = "0x3174660", Offset = "0x3172C60", VA = "0x183174660", Slot = "14")]
+	[Address(RVA = "0x6B73170", Offset = "0x6B72170", VA = "0x6B73170", Slot = "14")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6002864")]
-	[Address(RVA = "0x3174560", Offset = "0x3172B60", VA = "0x183174560", Slot = "13")]
+	[Address(RVA = "0x6B739F0", Offset = "0x6B729F0", VA = "0x6B739F0", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6002865")]
-	[Address(RVA = "0x3174440", Offset = "0x3172A40", VA = "0x183174440")]
+	[Address(RVA = "0x6B73510", Offset = "0x6B72510", VA = "0x6B73510")]
 	private void ApplyStyles()
 	{
 	}
 
 	[Token(Token = "0x6002866")]
-	[Address(RVA = "0x3174AE0", Offset = "0x31730E0", VA = "0x183174AE0")]
+	[Address(RVA = "0x6B73A50", Offset = "0x6B72A50", VA = "0x6B73A50")]
 	public VisualTreeStyleUpdater()
 	{
 	}

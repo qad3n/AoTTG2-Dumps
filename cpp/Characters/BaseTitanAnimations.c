@@ -1,5 +1,5 @@
 // Type: Characters.BaseTitanAnimations
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseTitanAnimations.cs
@@ -8,15 +8,15 @@
 
 // Characters.BaseTitanAnimations$$get_Idle
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Idle (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179c20
+// 0x5c2d480
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Idle(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dcb == '\0') {
+  if (Il2CppMethodInitialized_0754779c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dcb = '\x01';
+    Il2CppMethodInitialized_0754779c = '\x01';
   }
   return "";
 }
@@ -24,15 +24,15 @@ Characters_BaseTitanAnimations__get_Idle(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Run
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Run (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179cb0
+// 0x5c2d4b0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Run(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dcc == '\0') {
+  if (Il2CppMethodInitialized_0754779d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dcc = '\x01';
+    Il2CppMethodInitialized_0754779d = '\x01';
   }
   return "";
 }
@@ -40,15 +40,15 @@ Characters_BaseTitanAnimations__get_Run(Characters_BaseTitanAnimations_o *__this
 
 // Characters.BaseTitanAnimations$$get_Sprint
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Sprint (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179dd0
+// 0x5c2d4e0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Sprint(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dcd == '\0') {
+  if (Il2CppMethodInitialized_0754779e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dcd = '\x01';
+    Il2CppMethodInitialized_0754779e = '\x01';
   }
   return "";
 }
@@ -56,15 +56,15 @@ Characters_BaseTitanAnimations__get_Sprint(Characters_BaseTitanAnimations_o *__t
 
 // Characters.BaseTitanAnimations$$get_Walk
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Walk (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179e90
+// 0x5c2d510
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Walk(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dce == '\0') {
+  if (Il2CppMethodInitialized_0754779f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dce = '\x01';
+    Il2CppMethodInitialized_0754779f = '\x01';
   }
   return "";
 }
@@ -72,15 +72,15 @@ Characters_BaseTitanAnimations__get_Walk(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Jump
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Jump (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179c50
+// 0x5c2d540
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Jump(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dcf == '\0') {
+  if (Il2CppMethodInitialized_075477a0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dcf = '\x01';
+    Il2CppMethodInitialized_075477a0 = '\x01';
   }
   return "";
 }
@@ -88,15 +88,15 @@ Characters_BaseTitanAnimations__get_Jump(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Fall
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Fall (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179bf0
+// 0x5c2d570
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Fall(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd0 == '\0') {
+  if (Il2CppMethodInitialized_075477a1 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd0 = '\x01';
+    Il2CppMethodInitialized_075477a1 = '\x01';
   }
   return "";
 }
@@ -104,15 +104,15 @@ Characters_BaseTitanAnimations__get_Fall(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Land
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Land (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179c80
+// 0x5c2d5a0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Land(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd1 == '\0') {
+  if (Il2CppMethodInitialized_075477a2 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd1 = '\x01';
+    Il2CppMethodInitialized_075477a2 = '\x01';
   }
   return "";
 }
@@ -120,15 +120,15 @@ Characters_BaseTitanAnimations__get_Land(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Stun
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Stun (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179e00
+// 0x5c2d5d0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Stun(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd2 == '\0') {
+  if (Il2CppMethodInitialized_075477a3 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd2 = '\x01';
+    Il2CppMethodInitialized_075477a3 = '\x01';
   }
   return "";
 }
@@ -136,15 +136,15 @@ Characters_BaseTitanAnimations__get_Stun(Characters_BaseTitanAnimations_o *__thi
 
 // Characters.BaseTitanAnimations$$get_Die
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Die (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179bc0
+// 0x5c2d600
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Die(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd3 == '\0') {
+  if (Il2CppMethodInitialized_075477a4 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd3 = '\x01';
+    Il2CppMethodInitialized_075477a4 = '\x01';
   }
   return "";
 }
@@ -152,15 +152,15 @@ Characters_BaseTitanAnimations__get_Die(Characters_BaseTitanAnimations_o *__this
 
 // Characters.BaseTitanAnimations$$get_DieSit
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_DieSit (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179b90
+// 0x5c2d630
 
 System_String_o *
 Characters_BaseTitanAnimations__get_DieSit(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd4 == '\0') {
+  if (Il2CppMethodInitialized_075477a5 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd4 = '\x01';
+    Il2CppMethodInitialized_075477a5 = '\x01';
   }
   return "";
 }
@@ -168,15 +168,15 @@ Characters_BaseTitanAnimations__get_DieSit(Characters_BaseTitanAnimations_o *__t
 
 // Characters.BaseTitanAnimations$$get_SitIdle
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitIdle (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179d70
+// 0x5c2d660
 
 System_String_o *
 Characters_BaseTitanAnimations__get_SitIdle(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd5 == '\0') {
+  if (Il2CppMethodInitialized_075477a6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd5 = '\x01';
+    Il2CppMethodInitialized_075477a6 = '\x01';
   }
   return "";
 }
@@ -184,15 +184,15 @@ Characters_BaseTitanAnimations__get_SitIdle(Characters_BaseTitanAnimations_o *__
 
 // Characters.BaseTitanAnimations$$get_SitDown
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitDown (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179d10
+// 0x5c2d690
 
 System_String_o *
 Characters_BaseTitanAnimations__get_SitDown(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd6 == '\0') {
+  if (Il2CppMethodInitialized_075477a7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd6 = '\x01';
+    Il2CppMethodInitialized_075477a7 = '\x01';
   }
   return "";
 }
@@ -200,15 +200,15 @@ Characters_BaseTitanAnimations__get_SitDown(Characters_BaseTitanAnimations_o *__
 
 // Characters.BaseTitanAnimations$$get_SitUp
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitUp (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179da0
+// 0x5c2d6c0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_SitUp(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd7 == '\0') {
+  if (Il2CppMethodInitialized_075477a8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd7 = '\x01';
+    Il2CppMethodInitialized_075477a8 = '\x01';
   }
   return "";
 }
@@ -216,15 +216,15 @@ Characters_BaseTitanAnimations__get_SitUp(Characters_BaseTitanAnimations_o *__th
 
 // Characters.BaseTitanAnimations$$get_SitFall
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitFall (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179d40
+// 0x5c2d6f0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_SitFall(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd8 == '\0') {
+  if (Il2CppMethodInitialized_075477a9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd8 = '\x01';
+    Il2CppMethodInitialized_075477a9 = '\x01';
   }
   return "";
 }
@@ -232,15 +232,15 @@ Characters_BaseTitanAnimations__get_SitFall(Characters_BaseTitanAnimations_o *__
 
 // Characters.BaseTitanAnimations$$get_SitBlind
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitBlind (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179ce0
+// 0x5c2d720
 
 System_String_o *
 Characters_BaseTitanAnimations__get_SitBlind(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dd9 == '\0') {
+  if (Il2CppMethodInitialized_075477aa == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dd9 = '\x01';
+    Il2CppMethodInitialized_075477aa = '\x01';
   }
   return "";
 }
@@ -248,15 +248,15 @@ Characters_BaseTitanAnimations__get_SitBlind(Characters_BaseTitanAnimations_o *_
 
 // Characters.BaseTitanAnimations$$get_Turn90L
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Turn90L (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179e30
+// 0x5c2d750
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Turn90L(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346dda == '\0') {
+  if (Il2CppMethodInitialized_075477ab == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346dda = '\x01';
+    Il2CppMethodInitialized_075477ab = '\x01';
   }
   return "";
 }
@@ -264,15 +264,15 @@ Characters_BaseTitanAnimations__get_Turn90L(Characters_BaseTitanAnimations_o *__
 
 // Characters.BaseTitanAnimations$$get_Turn90R
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Turn90R (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179e60
+// 0x5c2d780
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Turn90R(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346ddb == '\0') {
+  if (Il2CppMethodInitialized_075477ac == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346ddb = '\x01';
+    Il2CppMethodInitialized_075477ac = '\x01';
   }
   return "";
 }
@@ -280,15 +280,15 @@ Characters_BaseTitanAnimations__get_Turn90R(Characters_BaseTitanAnimations_o *__
 
 // Characters.BaseTitanAnimations$$get_Blind
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Blind (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x182179b60
+// 0x5c2d7b0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Blind(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346ddc == '\0') {
+  if (Il2CppMethodInitialized_075477ad == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_184346ddc = '\x01';
+    Il2CppMethodInitialized_075477ad = '\x01';
   }
   return "";
 }
@@ -296,14 +296,12 @@ Characters_BaseTitanAnimations__get_Blind(Characters_BaseTitanAnimations_o *__th
 
 // Characters.BaseTitanAnimations$$.ctor
 // il2cpp: void Characters_BaseTitanAnimations___ctor (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5c1dd90
 
-void
-Characters_BaseTitanAnimations___ctor(Characters_BaseTitanAnimations_o* __this, MethodInfo* method)
+void Characters_BaseTitanAnimations___ctor(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 

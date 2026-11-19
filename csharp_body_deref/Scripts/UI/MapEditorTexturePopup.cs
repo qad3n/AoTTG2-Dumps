@@ -9,25 +9,14 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000854")]
+[Token(Token = "0x20008D2")]
 internal class MapEditorTexturePopup : MapEditorAddObjectPopup
 {
-	[Token(Token = "0x17000EB4")]
+	[Token(Token = "0x17000EB5")]
 	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6005063")]
-		[Address(RVA = "0x21C3380", Offset = "0x21C1980", VA = "0x1821C3380", Slot = "36")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000EB5")]
-	protected override float Height
-	{
-		[Token(Token = "0x6005064")]
-		[Address(RVA = "0x21BB440", Offset = "0x21B9A40", VA = "0x1821BB440", Slot = "6")]
+		[Token(Token = "0x6005403")]
+		[Address(RVA = "0x5C9CC30", Offset = "0x5C9BC30", VA = "0x5C9CC30", Slot = "36")]
 		get
 		{
 			return default(float);
@@ -35,42 +24,53 @@ internal class MapEditorTexturePopup : MapEditorAddObjectPopup
 	}
 
 	[Token(Token = "0x17000EB6")]
+	protected override float Height
+	{
+		[Token(Token = "0x6005404")]
+		[Address(RVA = "0x5C9CC40", Offset = "0x5C9BC40", VA = "0x5C9CC40", Slot = "6")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000EB7")]
 	protected override bool TwoRows
 	{
-		[Token(Token = "0x6005065")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "62")]
+		[Token(Token = "0x6005405")]
+		[Address(RVA = "0x5C9CC50", Offset = "0x5C9BC50", VA = "0x5C9CC50", Slot = "62")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000EB7")]
+	[Token(Token = "0x17000EB8")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x6005066")]
-		[Address(RVA = "0x22D4030", Offset = "0x22D2630", VA = "0x1822D4030", Slot = "19")]
+		[Token(Token = "0x6005406")]
+		[Address(RVA = "0x5C9CC60", Offset = "0x5C9BC60", VA = "0x5C9CC60", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6005067")]
-	[Address(RVA = "0x22D3D20", Offset = "0x22D2320", VA = "0x1822D3D20", Slot = "63")]
+	[Token(Token = "0x6005407")]
+	[Address(RVA = "0x5C9CC90", Offset = "0x5C9BC90", VA = "0x5C9CC90", Slot = "63")]
 	protected override string[] GetCategories()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005068")]
-	[Address(RVA = "0x22D3E90", Offset = "0x22D2490", VA = "0x1822D3E90", Slot = "27")]
+	[Token(Token = "0x6005408")]
+	[Address(RVA = "0x5C9CE10", Offset = "0x5C9BE10", VA = "0x5C9CE10", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6005069")]
-	[Address(RVA = "0x22D4020", Offset = "0x22D2620", VA = "0x1822D4020")]
+	[Token(Token = "0x6005409")]
+	[Address(RVA = "0x5C9CFE0", Offset = "0x5C9BFE0", VA = "0x5C9CFE0")]
 	public MapEditorTexturePopup()
 	{
 	}

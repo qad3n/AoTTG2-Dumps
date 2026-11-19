@@ -11,99 +11,99 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x20000BF")]
 internal ref struct RegexWriter
 {
-	[Token(Token = "0x4000443")]
+	[Token(Token = "0x4000374")]
 	[FieldOffset(Offset = "0x0")]
 	private System.Collections.Generic.ValueListBuilder<int> _emitted;
 
-	[Token(Token = "0x4000444")]
+	[Token(Token = "0x4000375")]
 	[FieldOffset(Offset = "0x20")]
 	private System.Collections.Generic.ValueListBuilder<int> _intStack;
 
-	[Token(Token = "0x4000445")]
+	[Token(Token = "0x4000376")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly Dictionary<string, int> _stringHash;
 
-	[Token(Token = "0x4000446")]
+	[Token(Token = "0x4000377")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly List<string> _stringTable;
 
-	[Token(Token = "0x4000447")]
+	[Token(Token = "0x4000378")]
 	[FieldOffset(Offset = "0x50")]
 	private Hashtable _caps;
 
-	[Token(Token = "0x4000448")]
+	[Token(Token = "0x4000379")]
 	[FieldOffset(Offset = "0x58")]
 	private int _trackCount;
 
-	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x2873830", Offset = "0x2871E30", VA = "0x182873830")]
+	[Token(Token = "0x600047E")]
+	[Address(RVA = "0x61FDE00", Offset = "0x61FCE00", VA = "0x61FDE00")]
 	private RegexWriter(Span<int> emittedSpan, Span<int> intStackSpan)
 	{
 	}
 
-	[Token(Token = "0x6000635")]
-	[Address(RVA = "0x28735D0", Offset = "0x2871BD0", VA = "0x1828735D0")]
+	[Token(Token = "0x600047F")]
+	[Address(RVA = "0x61FDF40", Offset = "0x61FCF40", VA = "0x61FDF40")]
 	public static RegexCode Write(RegexTree tree)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x2872240", Offset = "0x2870840", VA = "0x182872240")]
+	[Token(Token = "0x6000480")]
+	[Address(RVA = "0x61FE5C0", Offset = "0x61FD5C0", VA = "0x61FE5C0")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x2872EF0", Offset = "0x28714F0", VA = "0x182872EF0")]
+	[Token(Token = "0x6000481")]
+	[Address(RVA = "0x61FE080", Offset = "0x61FD080", VA = "0x61FE080")]
 	public RegexCode RegexCodeFromRegexTree(RegexTree tree)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x2872E90", Offset = "0x2871490", VA = "0x182872E90")]
+	[Token(Token = "0x6000482")]
+	[Address(RVA = "0x61FEFF0", Offset = "0x61FDFF0", VA = "0x61FEFF0")]
 	private void PatchJump(int offset, int jumpDest)
 	{
 	}
 
-	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x2872D10", Offset = "0x2871310", VA = "0x182872D10")]
+	[Token(Token = "0x6000483")]
+	[Address(RVA = "0x61FF040", Offset = "0x61FE040", VA = "0x61FF040")]
 	private void Emit(int op)
 	{
 	}
 
-	[Token(Token = "0x600063A")]
-	[Address(RVA = "0x2872C90", Offset = "0x2871290", VA = "0x182872C90")]
+	[Token(Token = "0x6000484")]
+	[Address(RVA = "0x61FE610", Offset = "0x61FD610", VA = "0x61FE610")]
 	private void Emit(int op, int opd1)
 	{
 	}
 
-	[Token(Token = "0x600063B")]
-	[Address(RVA = "0x2872D70", Offset = "0x2871370", VA = "0x182872D70")]
+	[Token(Token = "0x6000485")]
+	[Address(RVA = "0x61FF110", Offset = "0x61FE110", VA = "0x61FF110")]
 	private void Emit(int op, int opd1, int opd2)
 	{
 	}
 
-	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x28734E0", Offset = "0x2871AE0", VA = "0x1828734E0")]
+	[Token(Token = "0x6000486")]
+	[Address(RVA = "0x61FF2E0", Offset = "0x61FE2E0", VA = "0x61FF2E0")]
 	private int StringCode(string str)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x2872DF0", Offset = "0x28713F0", VA = "0x182872DF0")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x61FF440", Offset = "0x61FE440", VA = "0x61FF440")]
 	private int MapCapnum(int capnum)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x2872290", Offset = "0x2870890", VA = "0x182872290")]
+	[Token(Token = "0x6000488")]
+	[Address(RVA = "0x61FE760", Offset = "0x61FD760", VA = "0x61FE760")]
 	private void EmitFragment(int nodetype, RegexNode node, int curIndex)
 	{
 	}

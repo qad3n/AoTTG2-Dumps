@@ -19,20 +19,20 @@ public class DefaultPool : IPunPrefabPool
 	public readonly Dictionary<string, GameObject> ResourceCache;
 
 	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x1D60DB0", Offset = "0x1D5F3B0", VA = "0x181D60DB0", Slot = "4")]
+	[Address(RVA = "0x56F91C0", Offset = "0x56F81C0", VA = "0x56F91C0", Slot = "4")]
 	public GameObject Instantiate(string prefabId, Vector3 position, Quaternion rotation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x1D60D60", Offset = "0x1D5F360", VA = "0x181D60D60", Slot = "5")]
+	[Address(RVA = "0x56F93D0", Offset = "0x56F83D0", VA = "0x56F93D0", Slot = "5")]
 	public void Destroy(GameObject gameObject)
 	{
 	}
 
 	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x1D60FD0", Offset = "0x1D5F5D0", VA = "0x181D60FD0")]
+	[Address(RVA = "0x56F9440", Offset = "0x56F8440", VA = "0x56F9440")]
 	public DefaultPool()
 	{
 	}

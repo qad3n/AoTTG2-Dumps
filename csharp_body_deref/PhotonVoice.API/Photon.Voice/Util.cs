@@ -14,7 +14,7 @@ namespace Photon.Voice;
 internal static class Util
 {
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x1D76EB0", Offset = "0x1D754B0", VA = "0x181D76EB0")]
+	[Address(RVA = "0x5706C40", Offset = "0x5705C40", VA = "0x5706C40")]
 	public static void SetThreadName(Thread t, string name)
 	{
 	}

@@ -2,10 +2,10 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D0")]
+[Token(Token = "0x2000091")]
 internal static class LocalAppContextSwitches
 {
-	[Token(Token = "0x4000322")]
+	[Token(Token = "0x4000253")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 }

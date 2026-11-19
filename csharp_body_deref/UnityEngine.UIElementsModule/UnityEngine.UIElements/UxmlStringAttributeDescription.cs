@@ -13,20 +13,20 @@ namespace UnityEngine.UIElements;
 public class UxmlStringAttributeDescription : TypedUxmlAttributeDescription<string>
 {
 	[Token(Token = "0x600265D")]
-	[Address(RVA = "0x3158970", Offset = "0x3156F70", VA = "0x183158970")]
+	[Address(RVA = "0x6B56FB0", Offset = "0x6B55FB0", VA = "0x6B56FB0")]
 	public UxmlStringAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x600265E")]
-	[Address(RVA = "0x3158670", Offset = "0x3156C70", VA = "0x183158670", Slot = "4")]
+	[Address(RVA = "0x6B58810", Offset = "0x6B57810", VA = "0x6B58810", Slot = "4")]
 	public override string GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600265F")]
-	[Address(RVA = "0x31587E0", Offset = "0x3156DE0", VA = "0x1831587E0")]
+	[Address(RVA = "0x6B58990", Offset = "0x6B57990", VA = "0x6B58990")]
 	public bool TryGetValueFromBag(IUxmlAttributes bag, CreationContext cc, ref string value)
 	{
 		return default(bool);

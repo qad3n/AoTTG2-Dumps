@@ -13,118 +13,118 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x2000615")]
+[Token(Token = "0x2000674")]
 internal class XmlInfo
 {
-	[Token(Token = "0x17000A95")]
+	[Token(Token = "0x17000ADD")]
 	public string Summary
 	{
-		[Token(Token = "0x6003B79")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6003E07")]
+		[Address(RVA = "0x5A97FA0", Offset = "0x5A96FA0", VA = "0x5A97FA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B7A")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Token(Token = "0x6003E08")]
+		[Address(RVA = "0x5A97FB0", Offset = "0x5A96FB0", VA = "0x5A97FB0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A96")]
+	[Token(Token = "0x17000ADE")]
 	public string Remarks
 	{
-		[Token(Token = "0x6003B7B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6003E09")]
+		[Address(RVA = "0x5A97FC0", Offset = "0x5A96FC0", VA = "0x5A97FC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B7C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6003E0A")]
+		[Address(RVA = "0x5A97FD0", Offset = "0x5A96FD0", VA = "0x5A97FD0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A97")]
+	[Token(Token = "0x17000ADF")]
 	public string Code
 	{
-		[Token(Token = "0x6003B7D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6003E0B")]
+		[Address(RVA = "0x5A97FE0", Offset = "0x5A96FE0", VA = "0x5A97FE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B7E")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6003E0C")]
+		[Address(RVA = "0x5A97FF0", Offset = "0x5A96FF0", VA = "0x5A97FF0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A98")]
+	[Token(Token = "0x17000AE0")]
 	public string Returns
 	{
-		[Token(Token = "0x6003B7F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6003E0D")]
+		[Address(RVA = "0x5A98000", Offset = "0x5A97000", VA = "0x5A98000")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B80")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6003E0E")]
+		[Address(RVA = "0x5A98010", Offset = "0x5A97010", VA = "0x5A98010")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6003B81")]
-	[Address(RVA = "0x2106630", Offset = "0x2104C30", VA = "0x182106630")]
+	[Token(Token = "0x6003E0F")]
+	[Address(RVA = "0x5A98020", Offset = "0x5A97020", VA = "0x5A98020")]
 	public static XmlInfo FromTypeXml(XmlDocument xmlDocument, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003B82")]
-	[Address(RVA = "0x2106040", Offset = "0x2104640", VA = "0x182106040")]
+	[Token(Token = "0x6003E10")]
+	[Address(RVA = "0x5A98170", Offset = "0x5A97170", VA = "0x5A98170")]
 	public static XmlInfo FromConstructorXml(XmlDocument xmlDocument, Type type, ConstructorInfo ctorInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003B83")]
-	[Address(RVA = "0x21064C0", Offset = "0x2104AC0", VA = "0x1821064C0")]
+	[Token(Token = "0x6003E11")]
+	[Address(RVA = "0x5A982C0", Offset = "0x5A972C0", VA = "0x5A982C0")]
 	public static XmlInfo FromPropertyXml(XmlDocument xmlDocument, Type type, PropertyInfo propertyInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003B84")]
-	[Address(RVA = "0x21061B0", Offset = "0x21047B0", VA = "0x1821061B0")]
+	[Token(Token = "0x6003E12")]
+	[Address(RVA = "0x5A98410", Offset = "0x5A97410", VA = "0x5A98410")]
 	public static XmlInfo FromFieldXml(XmlDocument xmlDocument, Type type, FieldInfo fieldInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003B85")]
-	[Address(RVA = "0x2106320", Offset = "0x2104920", VA = "0x182106320")]
+	[Token(Token = "0x6003E13")]
+	[Address(RVA = "0x5A98560", Offset = "0x5A97560", VA = "0x5A98560")]
 	public static XmlInfo FromMethodXml(XmlDocument xmlDocument, Type type, MethodInfo methodInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003B86")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6003E14")]
+	[Address(RVA = "0x5A98160", Offset = "0x5A97160", VA = "0x5A98160")]
 	public XmlInfo()
 	{
 	}

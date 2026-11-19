@@ -11,96 +11,96 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x200039F")]
+[Token(Token = "0x200035B")]
 public class MailAddress
 {
-	[Token(Token = "0x4000FC2")]
+	[Token(Token = "0x4000EDA")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Encoding _displayNameEncoding;
 
-	[Token(Token = "0x4000FC3")]
+	[Token(Token = "0x4000EDB")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _displayName;
 
-	[Token(Token = "0x4000FC4")]
+	[Token(Token = "0x4000EDC")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly string _userName;
 
-	[Token(Token = "0x4000FC5")]
+	[Token(Token = "0x4000EDD")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly string _host;
 
-	[Token(Token = "0x4000FC6")]
+	[Token(Token = "0x4000EDE")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly EncodedStreamFactory s_encoderFactory;
 
-	[Token(Token = "0x1700054F")]
+	[Token(Token = "0x17000522")]
 	public string DisplayName
 	{
-		[Token(Token = "0x60018E3")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x600172A")]
+		[Address(RVA = "0x61BDD10", Offset = "0x61BCD10", VA = "0x61BDD10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000550")]
+	[Token(Token = "0x17000523")]
 	public string Address
 	{
-		[Token(Token = "0x60018E4")]
-		[Address(RVA = "0x2813C70", Offset = "0x2812270", VA = "0x182813C70")]
+		[Token(Token = "0x600172B")]
+		[Address(RVA = "0x61BDD20", Offset = "0x61BCD20", VA = "0x61BDD20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000551")]
+	[Token(Token = "0x17000524")]
 	private string SmtpAddress
 	{
-		[Token(Token = "0x60018E5")]
-		[Address(RVA = "0x2813CC0", Offset = "0x28122C0", VA = "0x182813CC0")]
+		[Token(Token = "0x600172C")]
+		[Address(RVA = "0x61BDD60", Offset = "0x61BCD60", VA = "0x61BDD60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60018E0")]
-	[Address(RVA = "0x2813BD0", Offset = "0x28121D0", VA = "0x182813BD0")]
+	[Token(Token = "0x6001727")]
+	[Address(RVA = "0x61BD040", Offset = "0x61BC040", VA = "0x61BD040")]
 	internal MailAddress(string displayName, string userName, string domain)
 	{
 	}
 
-	[Token(Token = "0x60018E1")]
-	[Address(RVA = "0x2813BB0", Offset = "0x28121B0", VA = "0x182813BB0")]
+	[Token(Token = "0x6001728")]
+	[Address(RVA = "0x61BDA70", Offset = "0x61BCA70", VA = "0x61BDA70")]
 	public MailAddress(string address)
 	{
 	}
 
-	[Token(Token = "0x60018E2")]
-	[Address(RVA = "0x2813900", Offset = "0x2811F00", VA = "0x182813900")]
+	[Token(Token = "0x6001729")]
+	[Address(RVA = "0x61BDA80", Offset = "0x61BCA80", VA = "0x61BDA80")]
 	public MailAddress(string address, string displayName, Encoding displayNameEncoding)
 	{
 	}
 
-	[Token(Token = "0x60018E6")]
-	[Address(RVA = "0x2813750", Offset = "0x2811D50", VA = "0x182813750", Slot = "3")]
+	[Token(Token = "0x600172D")]
+	[Address(RVA = "0x61BDDE0", Offset = "0x61BCDE0", VA = "0x61BDDE0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018E7")]
-	[Address(RVA = "0x28136A0", Offset = "0x2811CA0", VA = "0x1828136A0", Slot = "0")]
+	[Token(Token = "0x600172E")]
+	[Address(RVA = "0x61BDF10", Offset = "0x61BCF10", VA = "0x61BDF10", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018E8")]
-	[Address(RVA = "0x2813710", Offset = "0x2811D10", VA = "0x182813710", Slot = "2")]
+	[Token(Token = "0x600172F")]
+	[Address(RVA = "0x61BDF70", Offset = "0x61BCF70", VA = "0x61BDF70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

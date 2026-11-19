@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,14 +22,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public PerformanceControlMode PerformanceControlMode
 	{
 		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "10")]
+		[Address(RVA = "0x6885CB0", Offset = "0x6884CB0", VA = "0x6885CB0", Slot = "10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PerformanceControlMode);
 		}
 		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Address(RVA = "0x6885CC0", Offset = "0x6884CC0", VA = "0x6885CC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -40,7 +40,7 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int MaxCpuPerformanceLevel
 	{
 		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x2E913F0", Offset = "0x2E8F9F0", VA = "0x182E913F0", Slot = "4")]
+		[Address(RVA = "0x687C820", Offset = "0x687B820", VA = "0x687C820", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -51,7 +51,7 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int MaxGpuPerformanceLevel
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x2E91440", Offset = "0x2E8FA40", VA = "0x182E91440", Slot = "5")]
+		[Address(RVA = "0x687C970", Offset = "0x687B970", VA = "0x687C970", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -62,14 +62,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int CpuLevel
 	{
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0", Slot = "6")]
+		[Address(RVA = "0x6885CD0", Offset = "0x6884CD0", VA = "0x6885CD0", Slot = "6")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80", Slot = "7")]
+		[Address(RVA = "0x6885CE0", Offset = "0x6884CE0", VA = "0x6885CE0", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -80,14 +80,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int GpuLevel
 	{
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "8")]
+		[Address(RVA = "0x6885CF0", Offset = "0x6884CF0", VA = "0x6885CF0", Slot = "8")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0", Slot = "9")]
+		[Address(RVA = "0x6885D00", Offset = "0x6884D00", VA = "0x6885D00", Slot = "9")]
 		[CompilerGenerated]
 		set
 		{
@@ -98,14 +98,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int CurrentCpuLevel
 	{
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x6885D10", Offset = "0x6884D10", VA = "0x6885D10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x6885D20", Offset = "0x6884D20", VA = "0x6885D20")]
 		[CompilerGenerated]
 		set
 		{
@@ -116,14 +116,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public int CurrentGpuLevel
 	{
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x6885D30", Offset = "0x6884D30", VA = "0x6885D30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x6885D40", Offset = "0x6884D40", VA = "0x6885D40")]
 		[CompilerGenerated]
 		set
 		{
@@ -134,14 +134,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public bool CpuPerformanceBoost
 	{
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x584AB0", Offset = "0x5830B0", VA = "0x180584AB0", Slot = "11")]
+		[Address(RVA = "0x6885D50", Offset = "0x6884D50", VA = "0x6885D50", Slot = "11")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x584B60", Offset = "0x583160", VA = "0x180584B60", Slot = "12")]
+		[Address(RVA = "0x6885D60", Offset = "0x6884D60", VA = "0x6885D60", Slot = "12")]
 		[CompilerGenerated]
 		set
 		{
@@ -152,14 +152,14 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	public bool GpuPerformanceBoost
 	{
 		[Token(Token = "0x600008F")]
-		[Address(RVA = "0x2809E90", Offset = "0x2808490", VA = "0x182809E90", Slot = "13")]
+		[Address(RVA = "0x6885D70", Offset = "0x6884D70", VA = "0x6885D70", Slot = "13")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x2809EA0", Offset = "0x28084A0", VA = "0x182809EA0", Slot = "14")]
+		[Address(RVA = "0x6885D80", Offset = "0x6884D80", VA = "0x6885D80", Slot = "14")]
 		[CompilerGenerated]
 		set
 		{
@@ -167,20 +167,20 @@ internal class DevicePerformanceControlImpl : IDevicePerformanceControl
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x2E913A0", Offset = "0x2E8F9A0", VA = "0x182E913A0")]
+	[Address(RVA = "0x68829C0", Offset = "0x68819C0", VA = "0x68829C0")]
 	public DevicePerformanceControlImpl(IDevicePerformanceLevelControl performanceLevelControl)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x2E90F90", Offset = "0x2E8F590", VA = "0x182E90F90")]
+	[Address(RVA = "0x6881130", Offset = "0x6880130", VA = "0x6881130")]
 	public bool Update(out PerformanceLevelChangeEventArgs changeArgs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x2E90F60", Offset = "0x2E8F560", VA = "0x182E90F60")]
+	[Address(RVA = "0x6885CA0", Offset = "0x6884CA0", VA = "0x6885CA0")]
 	private int ComputeDelta(int oldLevel, int newLevel)
 	{
 		return default(int);

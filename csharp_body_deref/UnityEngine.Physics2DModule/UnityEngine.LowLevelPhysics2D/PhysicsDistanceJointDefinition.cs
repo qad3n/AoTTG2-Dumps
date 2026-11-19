@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.LowLevelPhysics2D.PhysicsDistanceJointDefinition
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -36,8 +36,8 @@ public struct PhysicsDistanceJointDefinition
 
 	[Token(Token = "0x4000045")]
 	[FieldOffset(Offset = "0x30")]
-	[SerializeField]
 	[Min(1E-45f)]
+	[SerializeField]
 	private float m_Distance;
 
 	[Token(Token = "0x4000046")]
@@ -47,8 +47,8 @@ public struct PhysicsDistanceJointDefinition
 
 	[Token(Token = "0x4000047")]
 	[FieldOffset(Offset = "0x38")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_SpringFrequency;
 
 	[Token(Token = "0x4000048")]
@@ -89,14 +89,14 @@ public struct PhysicsDistanceJointDefinition
 
 	[Token(Token = "0x400004F")]
 	[FieldOffset(Offset = "0x58")]
-	[SerializeField]
 	[Min(0f)]
+	[SerializeField]
 	private float m_MinDistanceLimit;
 
 	[Token(Token = "0x4000050")]
 	[FieldOffset(Offset = "0x5C")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_MaxDistanceLimit;
 
 	[Token(Token = "0x4000051")]
@@ -107,8 +107,8 @@ public struct PhysicsDistanceJointDefinition
 
 	[Token(Token = "0x4000052")]
 	[FieldOffset(Offset = "0x64")]
-	[Min(0f)]
 	[SerializeField]
+	[Min(0f)]
 	private float m_TorqueThreshold;
 
 	[Token(Token = "0x4000053")]
@@ -138,7 +138,7 @@ public struct PhysicsDistanceJointDefinition
 	public static PhysicsDistanceJointDefinition defaultDefinition
 	{
 		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0x2FD1790", Offset = "0x2FCFD90", VA = "0x182FD1790")]
+		[Address(RVA = "0x69CB580", Offset = "0x69CA580", VA = "0x69CB580")]
 		get
 		{
 			return default(PhysicsDistanceJointDefinition);
@@ -146,13 +146,13 @@ public struct PhysicsDistanceJointDefinition
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x2FD16D0", Offset = "0x2FCFCD0", VA = "0x182FD16D0")]
+	[Address(RVA = "0x69CB480", Offset = "0x69CA480", VA = "0x69CB480")]
 	public PhysicsDistanceJointDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x2FD1600", Offset = "0x2FCFC00", VA = "0x182FD1600")]
+	[Address(RVA = "0x69C8DE0", Offset = "0x69C7DE0", VA = "0x69C8DE0")]
 	public PhysicsDistanceJointDefinition(bool useSettings)
 	{
 	}

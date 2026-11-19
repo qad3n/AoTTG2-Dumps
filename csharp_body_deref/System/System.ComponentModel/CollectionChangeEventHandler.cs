@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200017F")]
+[Token(Token = "0x2000140")]
 public delegate void CollectionChangeEventHandler(object sender, CollectionChangeEventArgs e);

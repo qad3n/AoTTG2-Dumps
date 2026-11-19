@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004D3")]
+[Token(Token = "0x20004AC")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface, AllowMultiple = true, Inherited = false)]
 internal sealed class TypeDependencyAttribute : Attribute
 {
-	[Token(Token = "0x400133D")]
+	[Token(Token = "0x400129D")]
 	[FieldOffset(Offset = "0x10")]
 	private string typeName;
 
-	[Token(Token = "0x6002380")]
-	[Address(RVA = "0x1A587F0", Offset = "0x1A56DF0", VA = "0x181A587F0")]
+	[Token(Token = "0x600234D")]
+	[Address(RVA = "0x53CBAB0", Offset = "0x53CAAB0", VA = "0x53CBAB0")]
 	public TypeDependencyAttribute(string typeName)
 	{
 	}

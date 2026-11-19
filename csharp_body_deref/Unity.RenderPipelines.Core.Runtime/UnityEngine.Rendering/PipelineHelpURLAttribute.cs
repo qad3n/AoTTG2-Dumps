@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.PipelineHelpURLAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -21,7 +21,7 @@ public class PipelineHelpURLAttribute : HelpURLAttribute
 	private string pipelineName
 	{
 		[Token(Token = "0x6000855")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x64FAF40", Offset = "0x64F9F40", VA = "0x64FAF40")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,7 +33,7 @@ public class PipelineHelpURLAttribute : HelpURLAttribute
 	private string pageName
 	{
 		[Token(Token = "0x6000856")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x64FAF50", Offset = "0x64F9F50", VA = "0x64FAF50")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,7 +45,7 @@ public class PipelineHelpURLAttribute : HelpURLAttribute
 	private string pageHash
 	{
 		[Token(Token = "0x6000857")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x64FAF60", Offset = "0x64F9F60", VA = "0x64FAF60")]
 		[CompilerGenerated]
 		get
 		{
@@ -57,7 +57,7 @@ public class PipelineHelpURLAttribute : HelpURLAttribute
 	public override string URL
 	{
 		[Token(Token = "0x6000859")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "7")]
+		[Address(RVA = "0x64FAFD0", Offset = "0x64F9FD0", VA = "0x64FAFD0", Slot = "7")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ public class PipelineHelpURLAttribute : HelpURLAttribute
 	}
 
 	[Token(Token = "0x6000858")]
-	[Address(RVA = "0x2B0C2C0", Offset = "0x2B0A8C0", VA = "0x182B0C2C0")]
+	[Address(RVA = "0x64FAF70", Offset = "0x64F9F70", VA = "0x64FAF70")]
 	public PipelineHelpURLAttribute(string pipelineName, string pageName, string pageHash = "")
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000B9")]
+[Token(Token = "0x20000BA")]
 internal sealed class ByRefParameterExpression : TypedParameterExpression
 {
-	[Token(Token = "0x60004D3")]
-	[Address(RVA = "0x242A530", Offset = "0x2428B30", VA = "0x18242A530")]
+	[Token(Token = "0x60004DE")]
+	[Address(RVA = "0x5DD5D60", Offset = "0x5DD4D60", VA = "0x5DD5D60")]
 	internal ByRefParameterExpression(Type type, string name)
 	{
 	}
 
-	[Token(Token = "0x60004D4")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+	[Token(Token = "0x60004DF")]
+	[Address(RVA = "0x5DD5EF0", Offset = "0x5DD4EF0", VA = "0x5DD5EF0", Slot = "10")]
 	internal override bool GetIsByRef()
 	{
 		return default(bool);

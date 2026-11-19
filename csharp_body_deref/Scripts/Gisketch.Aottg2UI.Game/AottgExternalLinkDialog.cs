@@ -11,82 +11,82 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001F0")]
+[Token(Token = "0x200020A")]
 [AottgDialog("external-link-confirm")]
 public sealed class AottgExternalLinkDialog : AottgDialog
 {
-	[Token(Token = "0x4000A63")]
+	[Token(Token = "0x4000ADB")]
 	public const string Id = "external-link-confirm";
 
-	[Token(Token = "0x17000155")]
+	[Token(Token = "0x1700015E")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000B61")]
-		[Address(RVA = "0x23AD6E0", Offset = "0x23ABCE0", VA = "0x1823AD6E0", Slot = "4")]
+		[Token(Token = "0x6000C25")]
+		[Address(RVA = "0x5D85100", Offset = "0x5D84100", VA = "0x5D85100", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000156")]
+	[Token(Token = "0x1700015F")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000B62")]
-		[Address(RVA = "0x23AD6B0", Offset = "0x23ABCB0", VA = "0x1823AD6B0", Slot = "5")]
+		[Token(Token = "0x6000C26")]
+		[Address(RVA = "0x5D85160", Offset = "0x5D84160", VA = "0x5D85160", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000157")]
+	[Token(Token = "0x17000160")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000B63")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "14")]
+		[Token(Token = "0x6000C27")]
+		[Address(RVA = "0x5D85190", Offset = "0x5D84190", VA = "0x5D85190", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x17000158")]
+	[Token(Token = "0x17000161")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000B64")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+		[Token(Token = "0x6000C28")]
+		[Address(RVA = "0x5D851A0", Offset = "0x5D841A0", VA = "0x5D851A0", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000159")]
+	[Token(Token = "0x17000162")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000B65")]
-		[Address(RVA = "0x23AD5B0", Offset = "0x23ABBB0", VA = "0x1823AD5B0", Slot = "15")]
+		[Token(Token = "0x6000C29")]
+		[Address(RVA = "0x5D851B0", Offset = "0x5D841B0", VA = "0x5D851B0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x23AD240", Offset = "0x23AB840", VA = "0x1823AD240", Slot = "20")]
+	[Token(Token = "0x6000C2A")]
+	[Address(RVA = "0x5D85270", Offset = "0x5D84270", VA = "0x5D85270", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x23AD4F0", Offset = "0x23ABAF0", VA = "0x1823AD4F0", Slot = "21")]
+	[Token(Token = "0x6000C2B")]
+	[Address(RVA = "0x5D854A0", Offset = "0x5D844A0", VA = "0x5D854A0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000C2C")]
+	[Address(RVA = "0x5D85530", Offset = "0x5D84530", VA = "0x5D85530")]
 	public AottgExternalLinkDialog()
 	{
 	}

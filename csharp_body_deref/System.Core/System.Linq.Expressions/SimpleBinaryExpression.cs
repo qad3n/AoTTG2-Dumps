@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x200004A")]
 internal class SimpleBinaryExpression : BinaryExpression
 {
-	[Token(Token = "0x17000055")]
+	[Token(Token = "0x17000057")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "4")]
+		[Token(Token = "0x60001E1")]
+		[Address(RVA = "0x5DAD3B0", Offset = "0x5DAC3B0", VA = "0x5DAD3B0", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ internal class SimpleBinaryExpression : BinaryExpression
 		}
 	}
 
-	[Token(Token = "0x17000056")]
+	[Token(Token = "0x17000058")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "5")]
+		[Token(Token = "0x60001E2")]
+		[Address(RVA = "0x5DAD3C0", Offset = "0x5DAC3C0", VA = "0x5DAD3C0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,8 +37,8 @@ internal class SimpleBinaryExpression : BinaryExpression
 		}
 	}
 
-	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x2424B80", Offset = "0x2423180", VA = "0x182424B80")]
+	[Token(Token = "0x60001E0")]
+	[Address(RVA = "0x5DAD310", Offset = "0x5DAC310", VA = "0x5DAD310")]
 	internal SimpleBinaryExpression(ExpressionType nodeType, Expression left, Expression right, Type type)
 	{
 	}

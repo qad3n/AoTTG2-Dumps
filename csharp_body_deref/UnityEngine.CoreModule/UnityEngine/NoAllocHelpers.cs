@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.NoAllocHelpers
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,72 +14,72 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001A9")]
+[Token(Token = "0x20001AA")]
 [UnityEngine.Bindings.VisibleToOtherModules]
 internal static class NoAllocHelpers
 {
-	[Token(Token = "0x20001AA")]
+	[Token(Token = "0x20001AB")]
 	private class ListPrivateFieldAccess<T>
 	{
-		[Token(Token = "0x4000625")]
+		[Token(Token = "0x400062A")]
 		[FieldOffset(Offset = "0x0")]
 		internal T[] _items;
 
-		[Token(Token = "0x4000626")]
+		[Token(Token = "0x400062B")]
 		[FieldOffset(Offset = "0x0")]
 		internal int _size;
 
-		[Token(Token = "0x4000627")]
+		[Token(Token = "0x400062C")]
 		[FieldOffset(Offset = "0x0")]
 		internal int _version;
 	}
 
-	[Token(Token = "0x6000E15")]
+	[Token(Token = "0x6000E27")]
 	public static void EnsureListElemCount<T>(List<T> list, int count)
 	{
 	}
 
-	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x2F1E1B0", Offset = "0x2F1C7B0", VA = "0x182F1E1B0")]
+	[Token(Token = "0x6000E28")]
+	[Address(RVA = "0x691D2C0", Offset = "0x691C2C0", VA = "0x691D2C0")]
 	public static int SafeLength(Array values)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E17")]
+	[Token(Token = "0x6000E29")]
 	public static int SafeLength<T>(List<T> values)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000E18")]
+	[Token(Token = "0x6000E2A")]
 	public static T[] ExtractArrayFromList<T>(List<T> list)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000E19")]
+	[Token(Token = "0x6000E2B")]
 	public static ReadOnlySpan<T> CreateReadOnlySpan<T>(List<T> list)
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000E1A")]
+	[Token(Token = "0x6000E2C")]
 	public static void ResetListContents<T>(List<T> list, ReadOnlySpan<T> span)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000E1B")]
+	[Token(Token = "0x6000E2D")]
 	public static void ResetListSize<T>(List<T> list, int size)
 	{
 	}
 
-	[Token(Token = "0x6000E1C")]
-	[Address(RVA = "0x2F1E0D0", Offset = "0x2F1C6D0", VA = "0x182F1E0D0")]
+	[Token(Token = "0x6000E2E")]
+	[Address(RVA = "0x691D2D0", Offset = "0x691C2D0", VA = "0x691D2D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static Array PrepareListForNativeFill(object list, Type elementType, int newSize)
 	{

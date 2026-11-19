@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x2000206")]
+[Token(Token = "0x2000207")]
 public enum DictationCompletionCause
 {
-	[Token(Token = "0x40006E6")]
-	Complete,
-	[Token(Token = "0x40006E7")]
-	AudioQualityFailure,
-	[Token(Token = "0x40006E8")]
-	Canceled,
-	[Token(Token = "0x40006E9")]
-	TimeoutExceeded,
-	[Token(Token = "0x40006EA")]
-	PauseLimitExceeded,
 	[Token(Token = "0x40006EB")]
-	NetworkFailure,
+	Complete,
 	[Token(Token = "0x40006EC")]
-	MicrophoneUnavailable,
+	AudioQualityFailure,
 	[Token(Token = "0x40006ED")]
+	Canceled,
+	[Token(Token = "0x40006EE")]
+	TimeoutExceeded,
+	[Token(Token = "0x40006EF")]
+	PauseLimitExceeded,
+	[Token(Token = "0x40006F0")]
+	NetworkFailure,
+	[Token(Token = "0x40006F1")]
+	MicrophoneUnavailable,
+	[Token(Token = "0x40006F2")]
 	UnknownError
 }

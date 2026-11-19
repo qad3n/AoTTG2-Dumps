@@ -29,7 +29,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 	public unsafe ref bool4 this[int index]
 	{
 		[Token(Token = "0x6000B19")]
-		[Address(RVA = "0x841B90", Offset = "0x840190", VA = "0x180841B90")]
+		[Address(RVA = "0x641C2E0", Offset = "0x641B2E0", VA = "0x641C2E0")]
 		get
 		{
 			return ref *(bool4*)null;
@@ -38,28 +38,28 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B05")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x641BD50", Offset = "0x641AD50", VA = "0x641BD50")]
 	public bool4x2(bool4 c0, bool4 c1)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B06")]
-	[Address(RVA = "0x2A4DDD0", Offset = "0x2A4C3D0", VA = "0x182A4DDD0")]
+	[Address(RVA = "0x641BD60", Offset = "0x641AD60", VA = "0x641BD60")]
 	public bool4x2(bool m00, bool m01, bool m10, bool m11, bool m20, bool m21, bool m30, bool m31)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B07")]
-	[Address(RVA = "0x2A4DDA0", Offset = "0x2A4C3A0", VA = "0x182A4DDA0")]
+	[Address(RVA = "0x641BDB0", Offset = "0x641ADB0", VA = "0x641BDB0")]
 	public bool4x2(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B08")]
-	[Address(RVA = "0x29D3690", Offset = "0x29D1C90", VA = "0x1829D3690")]
+	[Address(RVA = "0x641BDC0", Offset = "0x641ADC0", VA = "0x641BDC0")]
 	public static implicit operator bool4x2(bool v)
 	{
 		return default(bool4x2);
@@ -67,7 +67,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B09")]
-	[Address(RVA = "0x2A4E1D0", Offset = "0x2A4C7D0", VA = "0x182A4E1D0")]
+	[Address(RVA = "0x641BDE0", Offset = "0x641ADE0", VA = "0x641BDE0")]
 	public static bool4x2 operator ==(bool4x2 lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -75,7 +75,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0A")]
-	[Address(RVA = "0x2A4E160", Offset = "0x2A4C760", VA = "0x182A4E160")]
+	[Address(RVA = "0x641BE00", Offset = "0x641AE00", VA = "0x641BE00")]
 	public static bool4x2 operator ==(bool4x2 lhs, bool rhs)
 	{
 		return default(bool4x2);
@@ -83,7 +83,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0B")]
-	[Address(RVA = "0x2A4E270", Offset = "0x2A4C870", VA = "0x182A4E270")]
+	[Address(RVA = "0x641BEA0", Offset = "0x641AEA0", VA = "0x641BEA0")]
 	public static bool4x2 operator ==(bool lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -91,7 +91,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0C")]
-	[Address(RVA = "0x2A4E4A0", Offset = "0x2A4CAA0", VA = "0x182A4E4A0")]
+	[Address(RVA = "0x641BF40", Offset = "0x641AF40", VA = "0x641BF40")]
 	public static bool4x2 operator !=(bool4x2 lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -99,7 +99,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0D")]
-	[Address(RVA = "0x2A4E540", Offset = "0x2A4CB40", VA = "0x182A4E540")]
+	[Address(RVA = "0x641BF60", Offset = "0x641AF60", VA = "0x641BF60")]
 	public static bool4x2 operator !=(bool4x2 lhs, bool rhs)
 	{
 		return default(bool4x2);
@@ -107,7 +107,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0E")]
-	[Address(RVA = "0x2A4E5B0", Offset = "0x2A4CBB0", VA = "0x182A4E5B0")]
+	[Address(RVA = "0x641BFE0", Offset = "0x641AFE0", VA = "0x641BFE0")]
 	public static bool4x2 operator !=(bool lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -115,7 +115,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B0F")]
-	[Address(RVA = "0x2A4E620", Offset = "0x2A4CC20", VA = "0x182A4E620")]
+	[Address(RVA = "0x641C060", Offset = "0x641B060", VA = "0x641C060")]
 	public static bool4x2 operator !(bool4x2 val)
 	{
 		return default(bool4x2);
@@ -123,7 +123,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B10")]
-	[Address(RVA = "0x2A4DE90", Offset = "0x2A4C490", VA = "0x182A4DE90")]
+	[Address(RVA = "0x641C080", Offset = "0x641B080", VA = "0x641C080")]
 	public static bool4x2 operator &(bool4x2 lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -131,7 +131,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B11")]
-	[Address(RVA = "0x2A4DF30", Offset = "0x2A4C530", VA = "0x182A4DF30")]
+	[Address(RVA = "0x641C0A0", Offset = "0x641B0A0", VA = "0x641C0A0")]
 	public static bool4x2 operator &(bool4x2 lhs, bool rhs)
 	{
 		return default(bool4x2);
@@ -139,7 +139,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B12")]
-	[Address(RVA = "0x2A4DE20", Offset = "0x2A4C420", VA = "0x182A4DE20")]
+	[Address(RVA = "0x641C0D0", Offset = "0x641B0D0", VA = "0x641C0D0")]
 	public static bool4x2 operator &(bool lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -147,7 +147,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B13")]
-	[Address(RVA = "0x2A4DFA0", Offset = "0x2A4C5A0", VA = "0x182A4DFA0")]
+	[Address(RVA = "0x641C100", Offset = "0x641B100", VA = "0x641C100")]
 	public static bool4x2 operator |(bool4x2 lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -155,7 +155,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x2A4E060", Offset = "0x2A4C660", VA = "0x182A4E060")]
+	[Address(RVA = "0x641C120", Offset = "0x641B120", VA = "0x641C120")]
 	public static bool4x2 operator |(bool4x2 lhs, bool rhs)
 	{
 		return default(bool4x2);
@@ -163,7 +163,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B15")]
-	[Address(RVA = "0x2A4E0E0", Offset = "0x2A4C6E0", VA = "0x182A4E0E0")]
+	[Address(RVA = "0x641C160", Offset = "0x641B160", VA = "0x641C160")]
 	public static bool4x2 operator |(bool lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -171,7 +171,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B16")]
-	[Address(RVA = "0x2A4E2E0", Offset = "0x2A4C8E0", VA = "0x182A4E2E0")]
+	[Address(RVA = "0x641C1A0", Offset = "0x641B1A0", VA = "0x641C1A0")]
 	public static bool4x2 operator ^(bool4x2 lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -179,7 +179,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B17")]
-	[Address(RVA = "0x2A4E420", Offset = "0x2A4CA20", VA = "0x182A4E420")]
+	[Address(RVA = "0x641C1C0", Offset = "0x641B1C0", VA = "0x641C1C0")]
 	public static bool4x2 operator ^(bool4x2 lhs, bool rhs)
 	{
 		return default(bool4x2);
@@ -187,7 +187,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B18")]
-	[Address(RVA = "0x2A4E3A0", Offset = "0x2A4C9A0", VA = "0x182A4E3A0")]
+	[Address(RVA = "0x641C250", Offset = "0x641B250", VA = "0x641C250")]
 	public static bool4x2 operator ^(bool lhs, bool4x2 rhs)
 	{
 		return default(bool4x2);
@@ -195,14 +195,14 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B1A")]
-	[Address(RVA = "0x2A4D8E0", Offset = "0x2A4BEE0", VA = "0x182A4D8E0", Slot = "4")]
+	[Address(RVA = "0x641C2F0", Offset = "0x641B2F0", VA = "0x641C2F0", Slot = "4")]
 	public bool Equals(bool4x2 rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B1B")]
-	[Address(RVA = "0x2A4D930", Offset = "0x2A4BF30", VA = "0x182A4D930", Slot = "0")]
+	[Address(RVA = "0x641C370", Offset = "0x641B370", VA = "0x641C370", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
@@ -210,7 +210,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B1C")]
-	[Address(RVA = "0x2A4DA00", Offset = "0x2A4C000", VA = "0x182A4DA00", Slot = "2")]
+	[Address(RVA = "0x641C450", Offset = "0x641B450", VA = "0x641C450", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -218,7 +218,7 @@ public struct bool4x2 : IEquatable<bool4x2>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000B1D")]
-	[Address(RVA = "0x2A4DA10", Offset = "0x2A4C010", VA = "0x182A4DA10", Slot = "3")]
+	[Address(RVA = "0x641C550", Offset = "0x641B550", VA = "0x641C550", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

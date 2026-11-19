@@ -11,37 +11,37 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x20001F1")]
+[Token(Token = "0x20001C9")]
 public class AbandonedMutexException : SystemException
 {
-	[Token(Token = "0x4000989")]
-	[FieldOffset(Offset = "0x90")]
+	[Token(Token = "0x40008E7")]
+	[FieldOffset(Offset = "0x8C")]
 	private int _mutexIndex;
 
-	[Token(Token = "0x400098A")]
-	[FieldOffset(Offset = "0x98")]
+	[Token(Token = "0x40008E8")]
+	[FieldOffset(Offset = "0x90")]
 	private Mutex _mutex;
 
-	[Token(Token = "0x60011AD")]
-	[Address(RVA = "0x1B93D10", Offset = "0x1B92310", VA = "0x181B93D10")]
+	[Token(Token = "0x6001184")]
+	[Address(RVA = "0x552B2A0", Offset = "0x552A2A0", VA = "0x552B2A0")]
 	public AbandonedMutexException()
 	{
 	}
 
-	[Token(Token = "0x60011AE")]
-	[Address(RVA = "0x1B93D60", Offset = "0x1B92360", VA = "0x181B93D60")]
+	[Token(Token = "0x6001185")]
+	[Address(RVA = "0x552B2F0", Offset = "0x552A2F0", VA = "0x552B2F0")]
 	public AbandonedMutexException(int location, WaitHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60011AF")]
-	[Address(RVA = "0x1B93E20", Offset = "0x1B92420", VA = "0x181B93E20")]
+	[Token(Token = "0x6001186")]
+	[Address(RVA = "0x552B430", Offset = "0x552A430", VA = "0x552B430")]
 	protected AbandonedMutexException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60011B0")]
-	[Address(RVA = "0x1B93C80", Offset = "0x1B92280", VA = "0x181B93C80")]
+	[Token(Token = "0x6001187")]
+	[Address(RVA = "0x552B3B0", Offset = "0x552A3B0", VA = "0x552B3B0")]
 	private void SetupException(int location, WaitHandle handle)
 	{
 	}

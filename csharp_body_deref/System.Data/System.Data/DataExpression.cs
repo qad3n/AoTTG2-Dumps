@@ -49,7 +49,7 @@ internal sealed class DataExpression : IFilter
 	internal string Expression
 	{
 		[Token(Token = "0x6000604")]
-		[Address(RVA = "0x25096F0", Offset = "0x2507CF0", VA = "0x1825096F0")]
+		[Address(RVA = "0x5EA4EB0", Offset = "0x5EA3EB0", VA = "0x5EA4EB0")]
 		get
 		{
 			return null;
@@ -60,7 +60,7 @@ internal sealed class DataExpression : IFilter
 	internal bool HasValue
 	{
 		[Token(Token = "0x6000605")]
-		[Address(RVA = "0x2450AE0", Offset = "0x244F0E0", VA = "0x182450AE0")]
+		[Address(RVA = "0x5EB8CD0", Offset = "0x5EB7CD0", VA = "0x5EB8CD0")]
 		get
 		{
 			return default(bool);
@@ -68,88 +68,88 @@ internal sealed class DataExpression : IFilter
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x2509310", Offset = "0x2507910", VA = "0x182509310")]
+	[Address(RVA = "0x5EA5100", Offset = "0x5EA4100", VA = "0x5EA5100")]
 	internal DataExpression(DataTable table, string expression)
 	{
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x2509330", Offset = "0x2507930", VA = "0x182509330")]
+	[Address(RVA = "0x5EB7890", Offset = "0x5EB6890", VA = "0x5EB7890")]
 	internal DataExpression(DataTable table, string expression, Type type)
 	{
 	}
 
 	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x2508CC0", Offset = "0x25072C0", VA = "0x182508CC0")]
+	[Address(RVA = "0x5EB8B90", Offset = "0x5EB7B90", VA = "0x5EB8B90")]
 	internal void Bind(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x2508DF0", Offset = "0x25073F0", VA = "0x182508DF0")]
+	[Address(RVA = "0x5EAD7F0", Offset = "0x5EAC7F0", VA = "0x5EAD7F0")]
 	internal bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000608")]
-	[Address(RVA = "0x2508F70", Offset = "0x2507570", VA = "0x182508F70")]
+	[Address(RVA = "0x5EB8CE0", Offset = "0x5EB7CE0", VA = "0x5EB8CE0")]
 	internal object Evaluate()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000609")]
-	[Address(RVA = "0x2508E10", Offset = "0x2507410", VA = "0x182508E10")]
+	[Address(RVA = "0x5EB8CF0", Offset = "0x5EB7CF0", VA = "0x5EB8CF0")]
 	internal object Evaluate(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600060A")]
-	[Address(RVA = "0x2508FC0", Offset = "0x25075C0", VA = "0x182508FC0", Slot = "4")]
+	[Address(RVA = "0x5EB8F20", Offset = "0x5EB7F20", VA = "0x5EB8F20", Slot = "4")]
 	public bool Invoke(DataRow row, DataRowVersion version)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060B")]
-	[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+	[Address(RVA = "0x5EB9010", Offset = "0x5EB8010", VA = "0x5EB9010")]
 	internal DataColumn[] GetDependency()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0x2509060", Offset = "0x2507660", VA = "0x182509060")]
+	[Address(RVA = "0x5EB9020", Offset = "0x5EB8020", VA = "0x5EB9020")]
 	internal bool IsTableAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x2509080", Offset = "0x2507680", VA = "0x182509080")]
+	[Address(RVA = "0x5EB9040", Offset = "0x5EB8040", VA = "0x5EB9040")]
 	internal static bool IsUnknown(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x2508F80", Offset = "0x2507580", VA = "0x182508F80")]
+	[Address(RVA = "0x5EB90B0", Offset = "0x5EB80B0", VA = "0x5EB90B0")]
 	internal bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060F")]
-	[Address(RVA = "0x2508FA0", Offset = "0x25075A0", VA = "0x182508FA0")]
+	[Address(RVA = "0x5EB90D0", Offset = "0x5EB80D0", VA = "0x5EB90D0")]
 	internal bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000610")]
-	[Address(RVA = "0x25090D0", Offset = "0x25076D0", VA = "0x1825090D0")]
+	[Address(RVA = "0x5EB5430", Offset = "0x5EB4430", VA = "0x5EB5430")]
 	internal static bool ToBoolean(object value)
 	{
 		return default(bool);

@@ -1,21 +1,21 @@
 // Type: Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgGameCreateCarouselRuntime.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10___ctor (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5e8b5c0
 
-void
-Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10___ctor(Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, int32_t __1__state, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10___ctor
+               (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,
+               int32_t __1__state,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,11 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10___ctor(Gisket
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$System.IDisposable.Dispose
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_IDisposable_Dispose (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5e8c660
 
-void
-Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_IDisposable_Dispose(Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_IDisposable_Dispose
+               (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,
+               MethodInfo *method)
 
 {
   return;
@@ -35,192 +36,213 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_IDisp
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$MoveNext
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__MoveNext (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, const MethodInfo* method);
-// 0x1823cd8c0
+// 0x5e8c670
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823cda09: nop dword ptr [rax]
+// asm:   0x5e8c8f5: jmp 0x5e8ca71
 
 bool Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__MoveNext
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,
                MethodInfo *method)
 
 {
+  UnityEngine_RectTransform_array **targetAddress;
   int iVar1;
-  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this_00;
-  UnityEngine_UI_ScrollRect_o *pUVar2;
-  bool bVar3;
-  uint32_t length;
-  int32_t iVar4;
-  UnityEngine_RectTransform_array *pUVar5;
-  UnityEngine_CanvasGroup_array *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
-  UnityEngine_RectTransform_o *pUVar8;
+  MethodInfo *__this_00;
+  Il2CppClass *pIVar2;
+  UnityEngine_Component_o *pUVar3;
+  bool bVar4;
+  uint32_t uVar5;
+  int32_t iVar6;
+  UnityEngine_RectTransform_array *pUVar7;
+  UnityEngine_CanvasGroup_array *pUVar8;
+  UnityEngine_Transform_o *pUVar9;
+  UnityEngine_RectTransform_o *pUVar10;
   UnityEngine_CanvasGroup_o *x;
-  UnityEngine_GameObject_o *pUVar9;
-  System_Object_array *pSVar10;
-  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselFocus_o *pGVar11;
-  uint index;
-  uint uVar12;
+  UnityEngine_GameObject_o *pUVar11;
+  System_Object_array *pSVar12;
+  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselFocus_o *pGVar13;
+  MethodInfo *method_00;
+  uint uVar14;
+  long lVar15;
+  MethodInfo *method_01;
+  uint uVar16;
   
-  if (Il2CppMethodInitialized_184347d5e == '\0') {
+  if (Il2CppMethodInitialized_07548891 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_CanvasGroup_array);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CanvasGroup);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_Button_40ab7b8);
+              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_Button);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_AottgGameCreateCarouselFocus);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_CanvasGroup);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransform_array);
-    Il2CppMethodInitialized_184347d5e = '\x01';
+    Il2CppMethodInitialized_07548891 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
   if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
     (__this->fields).__2__current = (Il2CppObject *)0x0;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
     (__this->fields).__1__state = 1;
-    return true;
   }
-  if (iVar1 != 1) {
-    return false;
-  }
-  __this_00 = (__this->fields).__4__this;
-  (__this->fields).__1__state = -1;
-  if (((__this_00 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *)0x0) &&
-      (pUVar2 = (__this_00->fields)._scroll, pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0)) &&
-     (pUVar8 = (pUVar2->fields).m_Content, pUVar8 != (UnityEngine_RectTransform_o *)0x0)) {
-    length = UnityEngine_Transform__get_childCount((UnityEngine_Transform_o *)pUVar8,(MethodInfo *)0x0);
-    pUVar5 = (UnityEngine_RectTransform_array *)SZArrayNew(TypeInfo_UnityEngine_RectTransform_array,length);
-    (__this_00->fields)._items = pUVar5;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._items,pUVar5);
-    pUVar5 = (__this_00->fields)._items;
-    if (pUVar5 != (UnityEngine_RectTransform_array *)0x0) {
-      pUVar6 = (UnityEngine_CanvasGroup_array *)
-               SZArrayNew(TypeInfo_UnityEngine_CanvasGroup_array,(uint32_t)pUVar5->max_length);
-      (__this_00->fields)._itemFades = pUVar6;
-      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._itemFades,pUVar6);
-      uVar12 = 0;
-      index = 0;
-      while( true ) {
-        pUVar5 = (__this_00->fields)._items;
-        if ((pUVar5 == (UnityEngine_RectTransform_array *)0x0) ||
-           (pUVar2 = (__this_00->fields)._scroll, pUVar2 == (UnityEngine_UI_ScrollRect_o *)0x0))
-        goto label_1823cdcac;
-        pUVar8 = (pUVar2->fields).m_Content;
-        if ((int)pUVar5->max_length <= (int)index) break;
-        if (pUVar8 == (UnityEngine_RectTransform_o *)0x0) goto label_1823cdcac;
-        pUVar5 = (__this_00->fields)._items;
-        pUVar7 = UnityEngine_Transform__GetChild((UnityEngine_Transform_o *)pUVar8,index,(MethodInfo *)0x0);
-        if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_1823cdcac;
-        pUVar8 = UnityEngine_Component__GetComponent_object_
-                           ((UnityEngine_Component_o *)pUVar7,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
-        if ((uint)pUVar5->max_length <= index) goto label_1823cdca6;
-        pUVar5->m_Items[(int)index] = pUVar8;
-        Il2CppCodeGenWriteBarrier(pUVar5->m_Items + (int)index,pUVar8);
-        pUVar5 = (__this_00->fields)._items;
-        if (pUVar5 == (UnityEngine_RectTransform_array *)0x0) goto label_1823cdcac;
-        if ((uint)pUVar5->max_length <= index) goto label_1823cdca6;
-        if (pUVar5->m_Items[(int)index] == (UnityEngine_RectTransform_o *)0x0) goto label_1823cdcac;
-        x = UnityEngine_Component__GetComponent_object_
-                      ((UnityEngine_Component_o *)pUVar5->m_Items[(int)index],
-                       (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_CanvasGroup);
-        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  else if (iVar1 == 1) {
+    __this_00 = (MethodInfo *)(__this->fields).__4__this;
+    (__this->fields).__1__state = -1;
+    if (((__this_00 != (MethodInfo *)0x0) && (__this_00->klass != (Il2CppClass *)0x0)) &&
+       (pUVar10 = (__this_00->klass->_1).byval_arg.data, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
+      uVar5 = UnityEngine_Transform__get_childCount((UnityEngine_Transform_o *)pUVar10,(MethodInfo *)0x0);
+      pUVar7 = (UnityEngine_RectTransform_array *)SZArrayNew(TypeInfo_UnityEngine_RectTransform_array,uVar5);
+      targetAddress = (UnityEngine_RectTransform_array **)&__this_00->return_type;
+      __this_00->return_type = (Il2CppType *)pUVar7;
+      Il2CppCodeGenWriteBarrier(targetAddress);
+      if ((UnityEngine_RectTransform_array *)__this_00->return_type != (UnityEngine_RectTransform_array *)0x0)
+      {
+        pUVar8 = (UnityEngine_CanvasGroup_array *)
+                 SZArrayNew(TypeInfo_UnityEngine_CanvasGroup_array,
+                            (uint32_t)((UnityEngine_RectTransform_array *)__this_00->return_type)->max_length)
+        ;
+        __this_00->parameters = (Il2CppType **)pUVar8;
+        Il2CppCodeGenWriteBarrier(&__this_00->parameters);
+        pUVar7 = (UnityEngine_RectTransform_array *)__this_00->return_type;
+        if (pUVar7 != (UnityEngine_RectTransform_array *)0x0) {
+          uVar16 = 0;
+          lVar15 = 0x20;
+          while (pIVar2 = __this_00->klass, (int)uVar16 < (int)pUVar7->max_length) {
+            if (((pIVar2 == (Il2CppClass *)0x0) ||
+                (pUVar10 = (pIVar2->_1).byval_arg.data, pUVar10 == (UnityEngine_RectTransform_o *)0x0)) ||
+               (pUVar9 = UnityEngine_Transform__GetChild
+                                   ((UnityEngine_Transform_o *)pUVar10,uVar16,(MethodInfo *)0x0),
+               pUVar9 == (UnityEngine_Transform_o *)0x0)) goto label_05e8ca71;
+            pUVar10 = UnityEngine_Component__GetComponent_object_
+                                ((UnityEngine_Component_o *)pUVar9,
+                                 (MethodInfo_34B0830 *)
+                                 MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+            if ((uint)pUVar7->max_length <= uVar16) goto label_05e8ca76;
+            *(UnityEngine_RectTransform_o **)((long)pUVar7->m_Items + lVar15 + -0x20) = pUVar10;
+            Il2CppCodeGenWriteBarrier((void **)((long)pUVar7->m_Items + lVar15 + -0x20));
+            pUVar7 = *targetAddress;
+            if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) goto label_05e8ca71;
+            if ((uint)pUVar7->max_length <= uVar16) goto label_05e8ca76;
+            pUVar3 = *(UnityEngine_Component_o **)((long)pUVar7->m_Items + lVar15 + -0x20);
+            if (pUVar3 == (UnityEngine_Component_o *)0x0) goto label_05e8ca71;
+            x = UnityEngine_Component__GetComponent_object_
+                          (pUVar3,(MethodInfo_34B0830 *)
+                                  MethodInfo_UnityEngine_Component_GetComponent_CanvasGroup);
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+            }
+            bVar4 = UnityEngine_Object__op_Equality
+                              ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            if (bVar4) {
+              pUVar7 = *targetAddress;
+              if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) goto label_05e8ca71;
+              if ((uint)pUVar7->max_length <= uVar16) goto label_05e8ca76;
+              pUVar3 = *(UnityEngine_Component_o **)((long)pUVar7->m_Items + lVar15 + -0x20);
+              if ((pUVar3 == (UnityEngine_Component_o *)0x0) ||
+                 (pUVar11 = UnityEngine_Component__get_gameObject(pUVar3,(MethodInfo *)0x0),
+                 pUVar11 == (UnityEngine_GameObject_o *)0x0)) goto label_05e8ca71;
+              x = UnityEngine_GameObject__AddComponent_object_
+                            (pUVar11,(MethodInfo_353B6A0 *)
+                                     MethodInfo_UnityEngine_GameObject_AddComponent_CanvasGroup);
+            }
+            pUVar8 = (UnityEngine_CanvasGroup_array *)__this_00->parameters;
+            if (pUVar8 == (UnityEngine_CanvasGroup_array *)0x0) goto label_05e8ca71;
+            if ((uint)pUVar8->max_length <= uVar16) goto label_05e8ca76;
+            *(UnityEngine_CanvasGroup_o **)((long)pUVar8->m_Items + lVar15 + -0x20) = x;
+            Il2CppCodeGenWriteBarrier((void **)((long)pUVar8->m_Items + lVar15 + -0x20));
+            uVar16 = uVar16 + 1;
+            pUVar7 = *targetAddress;
+            lVar15 = lVar15 + 8;
+            if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) goto label_05e8ca71;
+          }
+          if ((pIVar2 != (Il2CppClass *)0x0) &&
+             (pUVar10 = (pIVar2->_1).byval_arg.data, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
+            method_01 = (MethodInfo *)0x1;
+            pSVar12 = UnityEngine_Component__GetComponentsInChildren_object_
+                                ((UnityEngine_Component_o *)pUVar10,true,
+                                 (MethodInfo_34B1260 *)
+                                 MethodInfo_UnityEngine_Component_GetComponentsInChildren_Button);
+            if (pSVar12 != (System_Object_array *)0x0) {
+              uVar16 = (uint)pSVar12->max_length;
+              if ((int)uVar16 < 1) goto label_05e8c9c9;
+              uVar14 = 0;
+              goto label_05e8c970;
+            }
+          }
         }
-        bVar3 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (bVar3) {
-          pUVar5 = (__this_00->fields)._items;
-          if (pUVar5 == (UnityEngine_RectTransform_array *)0x0) goto label_1823cdcac;
-          if ((uint)pUVar5->max_length <= index) goto label_1823cdca6;
-          if (pUVar5->m_Items[(int)index] == (UnityEngine_RectTransform_o *)0x0) goto label_1823cdcac;
-          pUVar9 = UnityEngine_Component__get_gameObject
-                             ((UnityEngine_Component_o *)pUVar5->m_Items[(int)index],(MethodInfo *)0x0);
-          if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1823cdcac;
-          x = UnityEngine_GameObject__AddComponent_object_
-                        (pUVar9,(MethodInfo_6F4D60 *)
-                                MethodInfo_UnityEngine_GameObject_AddComponent_CanvasGroup);
-        }
-        pUVar6 = (__this_00->fields)._itemFades;
-        if (pUVar6 == (UnityEngine_CanvasGroup_array *)0x0) goto label_1823cdcac;
-        if ((uint)pUVar6->max_length <= index) goto label_1823cdca6;
-        pUVar6->m_Items[(int)index] = x;
-        Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)index,x);
-        index = index + 1;
-      }
-      if (pUVar8 != (UnityEngine_RectTransform_o *)0x0) {
-        pSVar10 = UnityEngine_Component__GetComponentsInChildren_object_
-                            ((UnityEngine_Component_o *)pUVar8,true,
-                             (MethodInfo_665440 *)
-                             MethodInfo_UnityEngine_Component_GetComponentsInChildren_Button_40ab7b8);
-        if (pSVar10 != (System_Object_array *)0x0) goto label_1823cdb8e;
       }
     }
+    goto label_05e8ca71;
   }
-label_1823cdcac:
-  ThrowNullReferenceException();
-label_1823cdb8e:
-  if ((int)pSVar10->max_length <= (int)uVar12) goto label_1823cdbeb;
-  if ((uint)pSVar10->max_length <= uVar12) {
-label_1823cdca6:
-    ThrowIndexOutOfRangeException();
-  }
-  if ((UnityEngine_Component_o *)pSVar10->m_Items[(int)uVar12] == (UnityEngine_Component_o *)0x0)
-  goto label_1823cdcac;
-  pUVar9 = UnityEngine_Component__get_gameObject
-                     ((UnityEngine_Component_o *)pSVar10->m_Items[(int)uVar12],(MethodInfo *)0x0);
-  if (pUVar9 == (UnityEngine_GameObject_o *)0x0) goto label_1823cdcac;
-  pGVar11 = UnityEngine_GameObject__AddComponent_object_
-                      (pUVar9,(MethodInfo_6F4D60 *)
-                              MethodInfo_UnityEngine_GameObject_AddComponent_AottgGameCreateCarouselFocus);
-  if (pGVar11 == (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselFocus_o *)0x0) goto label_1823cdcac;
-  (pGVar11->fields)._carousel = __this_00;
-  Il2CppCodeGenWriteBarrier(&(pGVar11->fields)._carousel,__this_00);
-  uVar12 = uVar12 + 1;
-  goto label_1823cdb8e;
-label_1823cdbeb:
-  if ((__this_00->fields)._selectedIndex < 0) {
-label_1823cdc5c:
-    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-      Il2CppMethodInitialized_18433e3c9 = '\x01';
+  goto label_05e8ca5d;
+  while( true ) {
+    (pGVar13->fields)._carousel = (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *)__this_00;
+    method_01 = __this_00;
+    Il2CppCodeGenWriteBarrier(&(pGVar13->fields)._carousel);
+    uVar14 = uVar14 + 1;
+    uVar16 = (uint)pSVar12->max_length;
+    if ((int)uVar16 <= (int)uVar14) break;
+label_05e8c970:
+    if (uVar16 <= uVar14) {
+label_05e8ca76:
+      ThrowIndexOutOfRangeException();
     }
-    Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this_00,(MethodInfo *)0x0);
-    return false;
+    if ((((UnityEngine_Component_o *)pSVar12->m_Items[(int)uVar14] == (UnityEngine_Component_o *)0x0) ||
+        (pUVar11 = UnityEngine_Component__get_gameObject
+                             ((UnityEngine_Component_o *)pSVar12->m_Items[(int)uVar14],(MethodInfo *)0x0),
+        pUVar11 == (UnityEngine_GameObject_o *)0x0)) ||
+       (pGVar13 = UnityEngine_GameObject__AddComponent_object_
+                            (pUVar11,(MethodInfo_353B6A0 *)
+                                     MethodInfo_UnityEngine_GameObject_AddComponent_AottgGameCreateCarouselFocus
+                            ), pGVar13 == (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselFocus_o *)0x0))
+    goto label_05e8ca71;
   }
-  pUVar2 = (__this_00->fields)._scroll;
-  if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-     (pUVar8 = (pUVar2->fields).m_Content, pUVar8 != (UnityEngine_RectTransform_o *)0x0)) {
-    iVar1 = (__this_00->fields)._selectedIndex;
-    iVar4 = UnityEngine_Transform__get_childCount((UnityEngine_Transform_o *)pUVar8,(MethodInfo *)0x0);
-    if (iVar4 <= iVar1) goto label_1823cdc5c;
-    pUVar2 = (__this_00->fields)._scroll;
-    if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-       (pUVar8 = (pUVar2->fields).m_Content, pUVar8 != (UnityEngine_RectTransform_o *)0x0)) {
-      pUVar7 = UnityEngine_Transform__GetChild
-                         ((UnityEngine_Transform_o *)pUVar8,(__this_00->fields)._selectedIndex,
-                          (MethodInfo *)0x0);
-      if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-        pUVar8 = UnityEngine_Component__GetComponent_object_
-                           ((UnityEngine_Component_o *)pUVar7,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
-        Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Reveal(__this_00,pUVar8,(MethodInfo *)0x0);
-        goto label_1823cdc5c;
-      }
+label_05e8c9c9:
+  uVar5 = __this_00->token;
+  if (-1 < (int)uVar5) {
+    if ((__this_00->klass == (Il2CppClass *)0x0) ||
+       (pUVar10 = (__this_00->klass->_1).byval_arg.data, pUVar10 == (UnityEngine_RectTransform_o *)0x0)) {
+label_05e8ca71:
+      ThrowNullReferenceException();
+    }
+    method_01 = (MethodInfo *)0x0;
+    iVar6 = UnityEngine_Transform__get_childCount((UnityEngine_Transform_o *)pUVar10,(MethodInfo *)0x0);
+    if ((int)uVar5 < iVar6) {
+      if (((__this_00->klass == (Il2CppClass *)0x0) ||
+          (pUVar10 = (__this_00->klass->_1).byval_arg.data, pUVar10 == (UnityEngine_RectTransform_o *)0x0)) ||
+         (pUVar9 = UnityEngine_Transform__GetChild
+                             ((UnityEngine_Transform_o *)pUVar10,__this_00->token,(MethodInfo *)0x0),
+         pUVar9 == (UnityEngine_Transform_o *)0x0)) goto label_05e8ca71;
+      method_01 = (MethodInfo *)
+                  UnityEngine_Component__GetComponent_object_
+                            ((UnityEngine_Component_o *)pUVar9,
+                             (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform
+                            );
+      Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Reveal
+                ((Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *)__this_00,
+                 (UnityEngine_RectTransform_o *)method_01,method_00);
     }
   }
-  goto label_1823cdcac;
+  if (Il2CppMethodInitialized_0753ecc8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+    Il2CppMethodInitialized_0753ecc8 = '\x01';
+  }
+  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges
+            ((Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *)__this_00,method_01);
+label_05e8ca5d:
+  return iVar1 == 0;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_Generic_IEnumerator_System_Object__get_Current (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5e8ca80
 
-Il2CppObject*
-Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_Generic_IEnumerator_System_Object__get_Current(Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, MethodInfo* method)
+Il2CppObject *
+Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -229,7 +251,7 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Colle
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$System.Collections.IEnumerator.Reset
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_IEnumerator_Reset (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, const MethodInfo* method);
-// 0x1823cdcc0
+// 0x5e8ca90
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_IEnumerator_Reset
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,
@@ -254,10 +276,11 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime.<Start>d__10$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_IEnumerator_get_Current (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x5e8cad0
 
-Il2CppObject*
-Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_IEnumerator_get_Current(Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o* __this, MethodInfo* method)
+Il2CppObject *
+Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Collections_IEnumerator_get_Current
+          (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -266,7 +289,7 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10__System_Colle
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Setup (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, UnityEngine_UI_ScrollRect_o* scroll, int32_t selectedIndex, const MethodInfo* method);
-// 0x1823bfd00
+// 0x5e8b0e0
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Setup
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,
@@ -277,23 +300,25 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Setup
   UnityEngine_Events_UnityEvent_Vector2__o *__this_01;
   UnityEngine_GameObject_o *__this_02;
   Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *pGVar1;
-  DG_Tweening_Core_DOSetter_Vector2__o *__this_03;
+  UnityEngine_Events_UnityAction_T0__o *call;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
   
-  if (Il2CppMethodInitialized_184347d55 == '\0') {
+  if (Il2CppMethodInitialized_07548888 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_OnScroll);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction_Vector2);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Events_UnityEvent_Vector2_AddListener);
-    Il2CppMethodInitialized_184347d55 = '\x01';
+    Il2CppMethodInitialized_07548888 = '\x01';
   }
   (__this->fields)._scroll = scroll;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._scroll,scroll);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._scroll);
   (__this->fields)._selectedIndex = selectedIndex;
   if (scroll != (UnityEngine_UI_ScrollRect_o *)0x0) {
-    __this_00 = (scroll->fields).m_VerticalScrollbar;
     (scroll->fields).m_Horizontal = true;
     (scroll->fields).m_Vertical = false;
     (scroll->fields).m_ScrollSensitivity = 168.0;
+    __this_00 = (scroll->fields).m_VerticalScrollbar;
     if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
       __this_02 = UnityEngine_Component__get_gameObject
                             ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
@@ -301,25 +326,23 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Setup
         UnityEngine_GameObject__SetActive(__this_02,false,(MethodInfo *)0x0);
         UnityEngine_UI_ScrollRect__set_verticalScrollbar
                   (scroll,(UnityEngine_UI_Scrollbar_o *)0x0,(MethodInfo *)0x0);
-        pGVar1 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge
-                           (__this,false,(MethodInfo *)0x0);
+        pGVar1 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge(__this,false,method_00);
         (__this->fields)._leftEdge = pGVar1;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._leftEdge,pGVar1);
-        pGVar1 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge
-                           (__this,true,(MethodInfo *)0x0);
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._leftEdge);
+        pGVar1 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge(__this,true,method_01);
         (__this->fields)._rightEdge = pGVar1;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._rightEdge,pGVar1);
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._rightEdge);
         __this_01 = (UnityEngine_Events_UnityEvent_Vector2__o *)(scroll->fields).m_OnValueChanged;
-        __this_03 = (DG_Tweening_Core_DOSetter_Vector2__o *)
-                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2);
+        call = (UnityEngine_Events_UnityAction_T0__o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2);
         UnityEngine_Events_UnityAction_Vector2____ctor
-                  (__this_03,(Il2CppObject *)__this,
+                  ((UnityEngine_Events_UnityAction_Vector2__o *)call,(Il2CppObject *)__this,
                    (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_OnScroll,
-                   (MethodInfo_E5A7E0 *)0x0);
+                   (MethodInfo_4311CC0 *)0x0);
         if (__this_01 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
           UnityEngine_Events_UnityEvent_Vector2___AddListener
-                    (__this_01,(UnityEngine_Events_UnityAction_T0__o *)__this_03,
-                     (MethodInfo_EBBB50 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_AddListener);
+                    (__this_01,call,
+                     (MethodInfo_4319A50 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_AddListener);
           return;
         }
       }
@@ -331,18 +354,17 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Setup
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$CreateEdge
 // il2cpp: Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o* Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, bool right, const MethodInfo* method);
-// 0x1823bf3c0
+// 0x5e8b210
 
 Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *
 Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge
           (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,bool right,MethodInfo *method)
 
 {
+  System_String_o *name;
   UnityEngine_UI_ScrollRect_o *pUVar1;
-  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_c *pGVar2;
-  UnityEngine_Vector2_o value;
-  UnityEngine_Vector2_o value_00;
   Il2CppType *handle;
+  System_String_o **ppSVar2;
   System_Type_array *components;
   System_Type_o *pSVar3;
   Il2CppObject *pIVar4;
@@ -350,12 +372,12 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge
   UnityEngine_Transform_o *__this_01;
   UnityEngine_RectTransform_o *__this_02;
   Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *pGVar5;
+  UnityEngine_Vector2_o value;
+  UnityEngine_Vector2_o value_00;
   UnityEngine_Vector2_o value_01;
-  System_String_o *name;
   float fVar6;
-  UnityEngine_Color_Fields local_68 [4];
   
-  if (Il2CppMethodInitialized_184347d56 == '\0') {
+  if (Il2CppMethodInitialized_07548889 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_CanvasRenderer);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_GameObject_AddComponent_AottgGameCreateCarouselEdge);
@@ -365,90 +387,86 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__CreateEdge
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
     il2cpp_codegen_initialize_runtime_metadata(&"Carousel Left Fade");
     il2cpp_codegen_initialize_runtime_metadata(&"Carousel Right Fade");
-    Il2CppMethodInitialized_184347d56 = '\x01';
+    Il2CppMethodInitialized_07548889 = '\x01';
   }
-  name = "Carousel Left Fade";
   if (right) {
-    name = "Carousel Right Fade";
+    ppSVar2 = &"Carousel Right Fade";
   }
+  else {
+    ppSVar2 = &"Carousel Left Fade";
+  }
+  name = *ppSVar2;
   components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
   handle = TypeRef_UnityEngine_RectTransform;
-  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  if ((g_data_075567a8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_075567a8);
   }
   pSVar3 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
   if (components == (System_Type_array *)0x0) {
-label_1823bf6a1:
+label_05e8b4db:
     ThrowNullReferenceException();
   }
   if (pSVar3 != (System_Type_o *)0x0) {
     pIVar4 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class);
-    if (pIVar4 == (Il2CppObject *)0x0) {
-      pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
-      il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
-    }
+    if (pIVar4 == (Il2CppObject *)0x0) goto label_05e8b4e5;
   }
   if ((int)components->max_length != 0) {
     components->m_Items[0] = pSVar3;
-    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar3);
+    Il2CppCodeGenWriteBarrier(components->m_Items);
     pSVar3 = System_Type__GetTypeFromHandle
                        ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_CanvasRenderer,(MethodInfo *)0x0);
     if (pSVar3 != (System_Type_o *)0x0) {
       pIVar4 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar3,(((components->obj).klass)->_1).element_class);
       if (pIVar4 == (Il2CppObject *)0x0) {
+label_05e8b4e5:
         pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
         il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
       }
     }
-    if (1 < (uint)components->max_length) {
+    if ((components->max_length & 0xfffffffe) != 0) {
       components->m_Items[1] = pSVar3;
-      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar3);
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1);
       __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
-      UnityEngine_GameObject___ctor_2f1abe0(__this_00,name,components,(MethodInfo *)0x0);
+      UnityEngine_GameObject___ctor_691aa60(__this_00,name,components,(MethodInfo *)0x0);
       if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
         __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
         pUVar1 = (__this->fields)._scroll;
         if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) && (__this_01 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__SetParent_2f5a7e0
+          UnityEngine_Transform__SetParent_692d510
                     (__this_01,(UnityEngine_Transform_o *)(pUVar1->fields).m_Viewport,false,(MethodInfo *)0x0)
           ;
           __this_02 = UnityEngine_GameObject__GetComponent_object_
                                 (__this_00,
-                                 (MethodInfo_6F5650 *)
+                                 (MethodInfo_353B730 *)
                                  MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-          if (right) {
-            fVar6 = 1.0;
-          }
-          else {
-            fVar6 = 0.0;
-          }
           if (__this_02 != (UnityEngine_RectTransform_o *)0x0) {
-            value_01.fields.y = 0.0;
-            value_01.fields.x = fVar6;
-            UnityEngine_RectTransform__set_anchorMin(__this_02,value_01,(MethodInfo *)0x0);
-            value.fields.y = 1.0;
+            if (right) {
+              fVar6 = 1.0;
+            }
+            else {
+              fVar6 = 0.0;
+            }
+            value.fields.y = 0.0;
             value.fields.x = fVar6;
-            UnityEngine_RectTransform__set_anchorMax(__this_02,value,(MethodInfo *)0x0);
-            value_00.fields.y = 0.5;
+            UnityEngine_RectTransform__set_anchorMin(__this_02,value,(MethodInfo *)0x0);
+            value_00.fields.y = 1.0;
             value_00.fields.x = fVar6;
-            UnityEngine_RectTransform__set_pivot(__this_02,value_00,(MethodInfo *)0x0);
+            UnityEngine_RectTransform__set_anchorMax(__this_02,value_00,(MethodInfo *)0x0);
+            value_01.fields.y = 0.5;
+            value_01.fields.x = fVar6;
+            UnityEngine_RectTransform__set_pivot(__this_02,value_01,(MethodInfo *)0x0);
             UnityEngine_RectTransform__set_sizeDelta
                       (__this_02,(UnityEngine_Vector2_o)0x43200000,(MethodInfo *)0x0);
             pGVar5 = UnityEngine_GameObject__AddComponent_object_
                                (__this_00,
-                                (MethodInfo_6F4D60 *)
+                                (MethodInfo_353B6A0 *)
                                 MethodInfo_UnityEngine_GameObject_AddComponent_AottgGameCreateCarouselEdge);
             if (pGVar5 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *)0x0) {
-              pGVar2 = pGVar5->klass;
               (pGVar5->fields)._right = right;
-              (*(pGVar2->vtable)._25_set_raycastTarget.methodPtr)
-                        (pGVar5,false,(pGVar2->vtable)._25_set_raycastTarget.method);
-              local_68[0].r = 0.0;
-              local_68[0].g = 0.0;
-              local_68[0].b = 0.0;
-              local_68[0].a = 0.0;
+              (*(pGVar5->klass->vtable)._25_set_raycastTarget.methodPtr)
+                        (pGVar5,false,(pGVar5->klass->vtable)._25_set_raycastTarget.method);
               (*(pGVar5->klass->vtable)._23_set_color.methodPtr)
-                        (pGVar5,(UnityEngine_Color_o *)local_68,(pGVar5->klass->vtable)._23_set_color.method);
+                        (pGVar5,(UnityEngine_Color_o)ZEXT816(0),(pGVar5->klass->vtable)._23_set_color.method);
               (*(pGVar5->klass->vtable)._28_SetVerticesDirty.methodPtr)
                         (pGVar5,(pGVar5->klass->vtable)._28_SetVerticesDirty.method);
               return pGVar5;
@@ -456,7 +474,7 @@ label_1823bf6a1:
           }
         }
       }
-      goto label_1823bf6a1;
+      goto label_05e8b4db;
     }
   }
   ThrowIndexOutOfRangeException();
@@ -465,7 +483,7 @@ label_1823bf6a1:
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$Start
 // il2cpp: System_Collections_IEnumerator_o* Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, const MethodInfo* method);
-// 0x1823bfe40
+// 0x5e8b550
 
 System_Collections_IEnumerator_o *
 Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start
@@ -474,26 +492,25 @@ Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start
 {
   Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Start_d__10_o *__this_00;
   
-  if (Il2CppMethodInitialized_184347d57 == '\0') {
+  if (Il2CppMethodInitialized_0754888a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_Start_d__10);
-    Il2CppMethodInitialized_184347d57 = '\x01';
+    Il2CppMethodInitialized_0754888a = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)
                          TypeInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_Start_d__10);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$OnRectTransformDimensionsChange
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnRectTransformDimensionsChange (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, const MethodInfo* method);
-// 0x1823bf800
+// 0x5e8b5e0
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnRectTransformDimensionsChange
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,MethodInfo *method)
@@ -501,19 +518,22 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnRectTransformDimen
 {
   UnityEngine_UI_ScrollRect_o *x;
   bool bVar1;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347d58 == '\0') {
+  if (Il2CppMethodInitialized_0754888b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347d58 = '\x01';
+    Il2CppMethodInitialized_0754888b = '\x01';
   }
   x = (__this->fields)._scroll;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
+  method_00 = (MethodInfo *)0x0;
   bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
-    Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,method_00);
+    return;
   }
   return;
 }
@@ -521,25 +541,25 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnRectTransformDimen
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$OnDestroy
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnDestroy (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, const MethodInfo* method);
-// 0x1823bf720
+// 0x5e8bf90
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnDestroy
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,MethodInfo *method)
 
 {
   UnityEngine_UI_ScrollRect_o *pUVar1;
-  UnityEngine_UI_ScrollRect_ScrollRectEvent_o *__this_00;
+  UnityEngine_Events_UnityEvent_Vector2__o *__this_00;
   bool bVar2;
-  DG_Tweening_Core_DOSetter_Vector2__o *__this_01;
+  UnityEngine_Events_UnityAction_T0__o *call;
   
-  if (Il2CppMethodInitialized_184347d59 == '\0') {
+  if (Il2CppMethodInitialized_0754888c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_OnScroll);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction_Vector2);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
-    Il2CppMethodInitialized_184347d59 = '\x01';
+    Il2CppMethodInitialized_0754888c = '\x01';
   }
   pUVar1 = (__this->fields)._scroll;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -547,158 +567,115 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnDestroy
   }
   bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar2) {
-    return;
-  }
-  pUVar1 = (__this->fields)._scroll;
-  if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-    __this_00 = (pUVar1->fields).m_OnValueChanged;
-    __this_01 = (DG_Tweening_Core_DOSetter_Vector2__o *)
-                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2);
-    UnityEngine_Events_UnityAction_Vector2____ctor
-              (__this_01,(Il2CppObject *)__this,
-               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_OnScroll,
-               (MethodInfo_E5A7E0 *)0x0);
-    if (__this_00 != (UnityEngine_UI_ScrollRect_ScrollRectEvent_o *)0x0) {
-      UnityEngine_Events_UnityEvent___Il2CppFullySharedGenericType____Il2CppFullySharedGenericType____Il2CppFullySharedGenericType___RemoveListener
-                ((UnityEngine_Events_UnityEvent_T0__T1__T2__o *)__this_00,
-                 (UnityEngine_Events_UnityAction_T0__T1__T2__o *)__this_01,
-                 (MethodInfo_EBD4A0 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
-      return;
+  if (bVar2) {
+    pUVar1 = (__this->fields)._scroll;
+    if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
+      __this_00 = (UnityEngine_Events_UnityEvent_Vector2__o *)(pUVar1->fields).m_OnValueChanged;
+      call = (UnityEngine_Events_UnityAction_T0__o *)
+             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Vector2);
+      UnityEngine_Events_UnityAction_Vector2____ctor
+                ((UnityEngine_Events_UnityAction_Vector2__o *)call,(Il2CppObject *)__this,
+                 (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_OnScroll,
+                 (MethodInfo_4311CC0 *)0x0);
+      if (__this_00 != (UnityEngine_Events_UnityEvent_Vector2__o *)0x0) {
+        UnityEngine_Events_UnityEvent_Vector2___RemoveListener
+                  (__this_00,call,
+                   (MethodInfo_4319B00 *)MethodInfo_UnityEngine_Events_UnityEvent_Vector2_RemoveListener);
+        return;
+      }
     }
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$Reveal
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Reveal (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, UnityEngine_RectTransform_o* target, const MethodInfo* method);
-// 0x1823bf880
+// 0x5e8c070
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e8c182: jmp 0x5e8c28f
+// asm:   0x5e8c1c7: addss xmm1, xmm0
+// asm:   0x5e8c1cb: xorps xmm2, xmm2
+// asm:   0x5e8c1ce: ucomiss xmm3, xmm1
+// asm:   0x5e8c1d1: ja 0x5e8c21c
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__Reveal
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,
                UnityEngine_RectTransform_o *target,MethodInfo *method)
 
 {
-  float fVar1;
-  UnityEngine_UI_ScrollRect_o *pUVar2;
-  UnityEngine_RectTransform_o *pUVar3;
-  UnityEngine_Bounds_o *pUVar4;
-  UnityEngine_Rect_o *pUVar5;
-  UnityEngine_Vector2_o UVar6;
-  float fVar7;
-  float fVar8;
-  float fVar9;
-  UnityEngine_Bounds_o local_88 [5];
+  UnityEngine_UI_ScrollRect_o *pUVar1;
+  UnityEngine_RectTransform_o *pUVar2;
+  UnityEngine_Vector2_o UVar3;
+  MethodInfo *method_00;
+  float fVar4;
+  float fVar5;
+  UnityEngine_Rect_o UVar6;
+  UnityEngine_Bounds_o local_30;
   
-  if (Il2CppMethodInitialized_184347d5a == '\0') {
+  if (Il2CppMethodInitialized_0754888d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_RectTransformUtility);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347d5a = '\x01';
+    Il2CppMethodInitialized_0754888d = '\x01';
   }
-  pUVar2 = (__this->fields)._scroll;
-  if (pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-    pUVar3 = (pUVar2->fields).m_Viewport;
-    if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
-    }
-    pUVar4 = UnityEngine_RectTransformUtility__CalculateRelativeRectTransformBounds
-                       (local_88,(UnityEngine_Transform_o *)pUVar3,(UnityEngine_Transform_o *)target,
-                        (MethodInfo *)0x0);
-    pUVar2 = (__this->fields)._scroll;
-    if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-       (pUVar3 = (pUVar2->fields).m_Viewport, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-      fVar9 = (pUVar4->fields).m_Center.fields.x;
-      fVar7 = (pUVar4->fields).m_Extents.fields.x;
-      pUVar5 = UnityEngine_RectTransform__get_rect((UnityEngine_Rect_o *)local_88,pUVar3,(MethodInfo *)0x0);
-      fVar8 = (pUVar5->fields).m_XMin;
-      fVar1 = (pUVar5->fields).m_Width;
-      if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-      }
-      if (fVar8 <= fVar9 - fVar7) {
-        if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-        }
-        if (fVar7 + fVar9 <= fVar1 + fVar8) {
-          fVar8 = 0.0;
-        }
-        else {
-          if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-          }
-          fVar8 = (fVar7 + fVar9) - (fVar1 + fVar8);
-        }
-      }
-      else {
-        if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-        }
-        fVar8 = (fVar9 - fVar7) - fVar8;
-      }
-      if (ABS(fVar8) <= 0.01) {
-        return;
-      }
-      pUVar2 = (__this->fields)._scroll;
-      if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-         (pUVar3 = (pUVar2->fields).m_Content, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-        UVar6 = UnityEngine_RectTransform__get_anchoredPosition(pUVar3,(MethodInfo *)0x0);
-        if (Il2CppMethodInitialized_184347d5b == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-          Il2CppMethodInitialized_184347d5b = '\x01';
-        }
-        pUVar2 = (__this->fields)._scroll;
-        if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-           (pUVar3 = (pUVar2->fields).m_Content, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-          pUVar5 = UnityEngine_RectTransform__get_rect
-                             ((UnityEngine_Rect_o *)local_88,pUVar3,(MethodInfo *)0x0);
-          fVar9 = (pUVar5->fields).m_Width;
-          if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
-          }
-          pUVar2 = (__this->fields)._scroll;
-          if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-             (pUVar3 = (pUVar2->fields).m_Viewport, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
-            pUVar5 = UnityEngine_RectTransform__get_rect
-                               ((UnityEngine_Rect_o *)local_88,pUVar3,(MethodInfo *)0x0);
-            fVar9 = fVar9 - (pUVar5->fields).m_Width;
-            pUVar2 = (__this->fields)._scroll;
-            if (pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-              fVar7 = 0.0;
-              if (0.0 <= fVar9) {
-                fVar7 = fVar9;
-              }
-              (*(pUVar2->klass->vtable)._41_StopMovement.methodPtr)
-                        (pUVar2,(pUVar2->klass->vtable)._41_StopMovement.method);
-              pUVar2 = (__this->fields)._scroll;
-              if ((fVar7 <= 0.0) || (fVar7 = (-UVar6.fields.x + fVar8) / fVar7, fVar7 < 0.0)) {
-                fVar7 = 0.0;
-              }
-              else if (1.0 < fVar7) {
-                fVar7 = 1.0;
-              }
-              if (pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-                UnityEngine_UI_ScrollRect__set_horizontalNormalizedPosition(pUVar2,fVar7,(MethodInfo *)0x0);
-                if (Il2CppMethodInitialized_18433e3c9 == '\0') {
-                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-                  Il2CppMethodInitialized_18433e3c9 = '\x01';
-                }
-                Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-      }
-    }
+  pUVar1 = (__this->fields)._scroll;
+  if (pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) goto label_05e8c299;
+  pUVar2 = (pUVar1->fields).m_Viewport;
+  if ((TypeInfo_UnityEngine_RectTransformUtility->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_RectTransformUtility);
   }
-  ThrowNullReferenceException();
+  UnityEngine_RectTransformUtility__CalculateRelativeRectTransformBounds
+            (&local_30,(UnityEngine_Transform_o *)pUVar2,(UnityEngine_Transform_o *)target,(MethodInfo *)0x0);
+  pUVar1 = (__this->fields)._scroll;
+  if ((pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) ||
+     (pUVar2 = (pUVar1->fields).m_Viewport, pUVar2 == (UnityEngine_RectTransform_o *)0x0)) goto label_05e8c299;
+  UVar6 = UnityEngine_RectTransform__get_rect(pUVar2,(MethodInfo *)0x0);
+  fVar4 = UVar6.fields.m_XMin;
+  fVar5 = local_30.fields.m_Center.fields.x - local_30.fields.m_Extents.fields.x;
+  if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+    if (fVar5 < fVar4) goto label_05e8c142;
+label_05e8c1b5:
+    if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+    }
+    if (local_30.fields.m_Center.fields.x + local_30.fields.m_Extents.fields.x <= UVar6.fields.m_Width + fVar4
+       ) {
+      return;
+    }
+    if ((((Il2CppClass *)TypeInfo_UnityEngine_Rect)->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+    }
+    fVar5 = (local_30.fields.m_Center.fields.x + local_30.fields.m_Extents.fields.x) -
+            (UVar6.fields.m_Width + fVar4);
+  }
+  else {
+    if (fVar4 <= fVar5) goto label_05e8c1b5;
+label_05e8c142:
+    if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+    }
+    fVar5 = fVar5 - fVar4;
+  }
+  if (0.01 < ABS(fVar5)) {
+    pUVar1 = (__this->fields)._scroll;
+    if ((pUVar1 == (UnityEngine_UI_ScrollRect_o *)0x0) ||
+       (pUVar2 = (pUVar1->fields).m_Content, pUVar2 == (UnityEngine_RectTransform_o *)0x0)) {
+label_05e8c299:
+      ThrowNullReferenceException();
+    }
+    method_00 = (MethodInfo *)0x0;
+    UVar3 = UnityEngine_RectTransform__get_anchoredPosition(pUVar2,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__SetOffset(__this,fVar5 - UVar3.fields.x,method_00);
+  }
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$SetOffset
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__SetOffset (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, float offset, const MethodInfo* method);
-// 0x1823bfba0
+// 0x5e8c2a0
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__SetOffset
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,float offset,
@@ -707,50 +684,58 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__SetOffset
 {
   UnityEngine_UI_ScrollRect_o *pUVar1;
   UnityEngine_RectTransform_o *pUVar2;
-  UnityEngine_Rect_o *pUVar3;
+  MethodInfo *method_00;
+  float fVar3;
   float fVar4;
-  float fVar5;
-  UnityEngine_Rect_o local_58 [5];
+  UnityEngine_Rect_o UVar5;
+  UnityEngine_Rect_o UVar6;
+  float local_28;
   
-  if (Il2CppMethodInitialized_184347d5b == '\0') {
+  if (Il2CppMethodInitialized_0754888e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347d5b = '\x01';
+    Il2CppMethodInitialized_0754888e = '\x01';
   }
   pUVar1 = (__this->fields)._scroll;
   if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
      (pUVar2 = (pUVar1->fields).m_Content, pUVar2 != (UnityEngine_RectTransform_o *)0x0)) {
-    pUVar3 = UnityEngine_RectTransform__get_rect(local_58,pUVar2,(MethodInfo *)0x0);
-    fVar5 = (pUVar3->fields).m_Width;
+    UVar5 = UnityEngine_RectTransform__get_rect(pUVar2,(MethodInfo *)0x0);
     if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
     }
     pUVar1 = (__this->fields)._scroll;
     if ((pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
        (pUVar2 = (pUVar1->fields).m_Viewport, pUVar2 != (UnityEngine_RectTransform_o *)0x0)) {
-      pUVar3 = UnityEngine_RectTransform__get_rect(local_58,pUVar2,(MethodInfo *)0x0);
-      fVar5 = fVar5 - (pUVar3->fields).m_Width;
+      UVar6 = UnityEngine_RectTransform__get_rect(pUVar2,(MethodInfo *)0x0);
       pUVar1 = (__this->fields)._scroll;
       if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
+        local_28 = UVar5.fields.m_Width;
+        local_28 = local_28 - UVar6.fields.m_Width;
         fVar4 = 0.0;
-        if (0.0 <= fVar5) {
-          fVar4 = fVar5;
+        if (0.0 <= local_28) {
+          fVar4 = local_28;
         }
         (*(pUVar1->klass->vtable)._41_StopMovement.methodPtr)
                   (pUVar1,(pUVar1->klass->vtable)._41_StopMovement.method);
+        fVar3 = 0.0;
         pUVar1 = (__this->fields)._scroll;
-        if ((fVar4 <= 0.0) || (fVar4 = offset / fVar4, fVar4 < 0.0)) {
-          fVar4 = 0.0;
-        }
-        else if (1.0 < fVar4) {
-          fVar4 = 1.0;
+        if (0.0 < fVar4) {
+          fVar4 = offset / fVar4;
+          fVar3 = 1.0;
+          if (fVar4 <= 1.0) {
+            fVar3 = fVar4;
+          }
+          fVar3 = (float)(-(uint)(0.0 <= fVar4) & (uint)fVar3);
         }
         if (pUVar1 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-          UnityEngine_UI_ScrollRect__set_horizontalNormalizedPosition(pUVar1,fVar4,(MethodInfo *)0x0);
-          if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+          method_00 = (MethodInfo *)0x0;
+          UnityEngine_UI_ScrollRect__set_horizontalNormalizedPosition(pUVar1,fVar3,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_0753ecc8 == '\0') {
             il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
-            Il2CppMethodInitialized_18433e3c9 = '\x01';
+            Il2CppMethodInitialized_0753ecc8 = '\x01';
+            Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,method_00);
+            return;
           }
-          Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,(MethodInfo *)0x0);
+          Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,method_00);
           return;
         }
       }
@@ -762,295 +747,418 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__SetOffset
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$OnScroll
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnScroll (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, UnityEngine_Vector2_o position, const MethodInfo* method);
-// 0x1823bf870
+// 0x5e8c3e0
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__OnScroll
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,UnityEngine_Vector2_o position
                ,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges(__this,method);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$UpdateEdges
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, const MethodInfo* method);
-// 0x1823bfeb0
-// asm: 16 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823c0177: movss xmm12, dword ptr [rip + 0xf98a84]
-// asm:   0x1823c0180: movss xmm14, dword ptr [rip + 0xf99487]
-// asm:   0x1823c0189: nop dword ptr [rax]
-// asm:   0x1823c04b3: jmp 0x1823c0190
-// asm:   0x1823c04b8: movaps xmm14, xmmword ptr [rsp + 0xf0]
-// asm:   0x1823c04c1: movaps xmm13, xmmword ptr [rsp + 0x100]
-// asm:   0x1823c04ca: movaps xmm12, xmmword ptr [rsp + 0x110]
-// asm:   0x1823c04d3: movaps xmm11, xmmword ptr [rsp + 0x120]
-// asm:   0x1823c04dc: movaps xmm10, xmmword ptr [rsp + 0x130]
-// asm:   0x1823c04e5: movaps xmm9, xmmword ptr [rsp + 0x140]
-// asm:   0x1823c04ee: movaps xmm8, xmmword ptr [rsp + 0x150]
-// asm:   0x1823c04f7: movaps xmm7, xmmword ptr [rsp + 0x160]
-// asm:   0x1823c04ff: movaps xmm6, xmmword ptr [rsp + 0x170]
-// asm:   0x1823c0507: mov rsi, qword ptr [rsp + 0x180]
-// asm:   0x1823c050f: mov rbp, qword ptr [rsp + 0x1a8]
-// asm:   0x1823c0517: movaps xmm15, xmmword ptr [rsp + 0xe0]
+// 0x5e8b650
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e8bcd0: jmp 0x5e8bd1b
 
 void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__UpdateEdges
                (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *pGVar8;
-  UnityEngine_UI_ScrollRect_o *pUVar9;
-  UnityEngine_RectTransform_o *pUVar10;
-  UnityEngine_RectTransform_array *pUVar11;
-  UnityEngine_CanvasGroup_array *pUVar12;
+  Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *pGVar1;
+  UnityEngine_UI_ScrollRect_o *pUVar2;
+  UnityEngine_RectTransform_o *pUVar3;
+  UnityEngine_CanvasGroup_array *pUVar4;
   UnityEngine_CanvasGroup_o *x;
-  undefined8 uVar13;
-  undefined8 uVar14;
-  undefined8 uVar15;
-  undefined8 uVar16;
-  bool bVar17;
-  char cVar18;
-  UnityEngine_Rect_o *pUVar19;
-  UnityEngine_Matrix4x4_o *pUVar20;
-  UnityEngine_Vector3_o *pUVar21;
-  uint uVar22;
-  float fVar23;
-  float fVar24;
-  float fVar25;
-  float fVar26;
+  bool bVar5;
+  undefined4 extraout_EAX;
+  undefined4 extraout_EAX_00;
+  undefined4 uVar6;
+  UnityEngine_RectTransform_array *pUVar7;
+  undefined8 extraout_RAX;
+  undefined8 extraout_RAX_00;
+  undefined8 uVar8;
+  ulong uVar9;
+  undefined4 in_ECX;
+  uint uVar10;
+  ulong uVar11;
+  int iVar12;
+  int iVar13;
+  float fVar14;
+  float fVar15;
+  float fVar20;
+  undefined8 extraout_XMM0_Qb;
+  undefined1 auVar16 [16];
+  undefined1 auVar17 [16];
+  undefined1 auVar18 [16];
+  undefined1 auVar19 [16];
+  undefined8 extraout_XMM1_Qa;
+  undefined1 auVar21 [12];
+  undefined1 auVar22 [16];
+  undefined8 extraout_XMM1_Qb;
+  undefined1 auVar23 [16];
+  undefined1 auVar24 [16];
+  undefined1 auVar25 [16];
   float fVar27;
-  float opacity;
-  UnityEngine_Rect_Fields local_168;
-  UnityEngine_Vector3_o local_158;
-  UnityEngine_Vector3_o local_148;
-  UnityEngine_Rect_Fields local_138;
-  UnityEngine_Vector3_o local_128;
-  UnityEngine_Vector3_o local_118;
-  UnityEngine_Rect_o local_108;
-  UnityEngine_Matrix4x4_o local_f8 [3];
+  undefined1 auVar26 [16];
+  undefined1 auVar28 [16];
+  float fVar29;
+  UnityEngine_Rect_o UVar30;
+  UnityEngine_Rect_o UVar31;
+  UnityEngine_Color_o UVar32;
+  UnityEngine_Vector3_o UVar33;
+  UnityEngine_Vector3_o UVar34;
+  float local_108;
+  float local_f0;
+  float local_ec;
+  float local_d8;
+  float local_c8;
+  float fStack_c4;
+  float local_b8;
+  float fStack_b0;
+  float fStack_ac;
+  float local_a8;
+  float fStack_a0;
+  float fStack_9c;
+  float local_98;
+  float fStack_94;
+  float local_88;
+  UnityEngine_Matrix4x4_o local_70;
   
-  if (Il2CppMethodInitialized_184347d5c == '\0') {
+  if (Il2CppMethodInitialized_0754888f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347d5c = '\x01';
+    Il2CppMethodInitialized_0754888f = '\x01';
   }
-  pGVar8 = (__this->fields)._leftEdge;
+  pGVar1 = (__this->fields)._leftEdge;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar17 = UnityEngine_Object__op_Equality
-                     ((UnityEngine_Object_o *)pGVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar17) {
-    pGVar8 = (__this->fields)._rightEdge;
+  bVar5 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pGVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar5) {
+    pGVar1 = (__this->fields)._rightEdge;
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar17 = UnityEngine_Object__op_Equality
-                       ((UnityEngine_Object_o *)pGVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar17) {
-      pUVar9 = (__this->fields)._scroll;
-      if ((pUVar9 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-         (pUVar10 = (pUVar9->fields).m_Content, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
-        pUVar19 = UnityEngine_RectTransform__get_rect
-                            ((UnityEngine_Rect_o *)&local_168,pUVar10,(MethodInfo *)0x0);
-        fVar27 = (pUVar19->fields).m_Width;
+    bVar5 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pGVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar5) {
+      pUVar2 = (__this->fields)._scroll;
+      if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
+         (pUVar3 = (pUVar2->fields).m_Content, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
+        UVar30 = UnityEngine_RectTransform__get_rect(pUVar3,(MethodInfo *)0x0);
         if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
         }
-        pUVar9 = (__this->fields)._scroll;
-        if ((pUVar9 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-           (pUVar10 = (pUVar9->fields).m_Viewport, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
-          pUVar19 = UnityEngine_RectTransform__get_rect
-                              ((UnityEngine_Rect_o *)&local_168,pUVar10,(MethodInfo *)0x0);
-          fVar27 = fVar27 - (pUVar19->fields).m_Width;
-          if (fVar27 < 0.0) {
-            fVar27 = 0.0;
-          }
-          pUVar9 = (__this->fields)._scroll;
-          if (pUVar9 != (UnityEngine_UI_ScrollRect_o *)0x0) {
-            fVar23 = UnityEngine_UI_ScrollRect__get_horizontalNormalizedPosition(pUVar9,(MethodInfo *)0x0);
-            if (fVar23 < 0.0) {
-              fVar23 = 0.0;
-            }
-            else if (1.0 < fVar23) {
-              fVar23 = 1.0;
-            }
-            opacity = (fVar23 * fVar27) / 40.0;
-            if (opacity < 0.0) {
-              opacity = 0.0;
-            }
-            else if (1.0 < opacity) {
-              opacity = 1.0;
-            }
-            fVar27 = (fVar27 - fVar23 * fVar27) / 40.0;
-            if (fVar27 < 0.0) {
+        pUVar2 = (__this->fields)._scroll;
+        if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
+           (pUVar3 = (pUVar2->fields).m_Viewport, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
+          UVar31 = UnityEngine_RectTransform__get_rect(pUVar3,(MethodInfo *)0x0);
+          pUVar2 = (__this->fields)._scroll;
+          if (pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) {
+            fVar14 = UnityEngine_UI_ScrollRect__get_horizontalNormalizedPosition(pUVar2,(MethodInfo *)0x0);
+            pGVar1 = (__this->fields)._leftEdge;
+            if (pGVar1 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *)0x0) {
+              local_108 = UVar30.fields.m_Width;
+              local_d8 = UVar31.fields.m_Width;
+              auVar21 = ZEXT812(0x3f800000);
+              if (fVar14 <= auVar21._0_4_) {
+                auVar21._4_8_ = auVar21._4_8_;
+                auVar21._0_4_ = fVar14;
+              }
               fVar27 = 0.0;
-            }
-            else if (1.0 < fVar27) {
-              fVar27 = 1.0;
-            }
-            pGVar8 = (__this->fields)._leftEdge;
-            if (pGVar8 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *)0x0) {
-              Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge__SetOpacity(pGVar8,opacity,(MethodInfo *)0x0)
-              ;
-              pGVar8 = (__this->fields)._rightEdge;
-              if (pGVar8 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *)0x0) {
-                Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge__SetOpacity
-                          (pGVar8,fVar27,(MethodInfo *)0x0);
+              if (0.0 <= local_108 - local_d8) {
+                fVar27 = local_108 - local_d8;
+              }
+              fVar14 = (float)(-(uint)(0.0 <= fVar14) & auVar21._0_4_) * fVar27;
+              auVar22._0_4_ = fVar27 - fVar14;
+              auVar22._4_4_ = fVar14;
+              auVar22._8_8_ = 0;
+              auVar26 = divps(auVar22,_DAT_01005920);
+              auVar22 = minps(_DAT_01005870,auVar26);
+              fVar14 = (float)(-(uint)(0.0 <= auVar26._0_4_) & auVar22._0_4_);
+              fVar27 = (float)(-(uint)(0.0 <= auVar26._4_4_) & auVar22._4_4_);
+              UVar32 = (*(pGVar1->klass->vtable)._22_get_color.methodPtr)
+                                 (pGVar1,(pGVar1->klass->vtable)._22_get_color.method);
+              if (Il2CppMethodInitialized_0753e7b4 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mathf);
+                Il2CppMethodInitialized_0753e7b4 = '\x01';
+              }
+              fVar29 = ABS(UVar32.fields.a);
+              if (fVar29 <= ABS(fVar27)) {
+                fVar29 = ABS(fVar27);
+              }
+              fVar20 = TypeInfo_UnityEngine_Mathf->static_fields->Epsilon * 8.0;
+              fVar15 = fVar29 * 1e-06;
+              if (fVar29 * 1e-06 <= fVar20) {
+                fVar15 = fVar20;
+              }
+              if (fVar15 <= ABS(fVar27 - UVar32.fields.a)) {
+                (*(pGVar1->klass->vtable)._23_set_color.methodPtr)
+                          (pGVar1,(UnityEngine_Color_o)(ZEXT416((uint)fVar27) << 0x60),
+                           (pGVar1->klass->vtable)._23_set_color.method);
+              }
+              pGVar1 = (__this->fields)._rightEdge;
+              if (pGVar1 != (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselEdge_o *)0x0) {
+                UVar32 = (*(pGVar1->klass->vtable)._22_get_color.methodPtr)
+                                   (pGVar1,(pGVar1->klass->vtable)._22_get_color.method);
+                if (Il2CppMethodInitialized_0753e7b4 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mathf);
+                  Il2CppMethodInitialized_0753e7b4 = '\x01';
+                }
+                fVar29 = ABS(UVar32.fields.a);
+                if (fVar29 <= ABS(fVar14)) {
+                  fVar29 = ABS(fVar14);
+                }
+                fVar20 = TypeInfo_UnityEngine_Mathf->static_fields->Epsilon * 8.0;
+                auVar26 = ZEXT416((uint)fVar20);
+                fVar15 = fVar29 * 1e-06;
+                if (fVar29 * 1e-06 <= fVar20) {
+                  fVar15 = fVar20;
+                }
+                if (fVar15 <= ABS(fVar14 - UVar32.fields.a)) {
+                  (*(pGVar1->klass->vtable)._23_set_color.methodPtr)
+                            (pGVar1,(UnityEngine_Color_o)(ZEXT416((uint)fVar14) << 0x60),
+                             (pGVar1->klass->vtable)._23_set_color.method);
+                  auVar26._8_8_ = extraout_XMM1_Qb;
+                  auVar26._0_8_ = extraout_XMM1_Qa;
+                }
                 if ((__this->fields)._items == (UnityEngine_RectTransform_array *)0x0) {
                   return;
                 }
-                pUVar9 = (__this->fields)._scroll;
-                if ((pUVar9 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-                   (pUVar10 = (pUVar9->fields).m_Viewport, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
-                  pUVar19 = UnityEngine_RectTransform__get_rect
-                                      ((UnityEngine_Rect_o *)&local_168,pUVar10,(MethodInfo *)0x0);
-                  pUVar9 = (__this->fields)._scroll;
-                  if ((pUVar9 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
-                     (pUVar10 = (pUVar9->fields).m_Viewport, pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
-                    local_138.m_XMin = (pUVar19->fields).m_XMin;
-                    local_138.m_YMin = (pUVar19->fields).m_YMin;
-                    local_138.m_Width = (pUVar19->fields).m_Width;
-                    local_138.m_Height = (pUVar19->fields).m_Height;
-                    pUVar20 = UnityEngine_Transform__get_worldToLocalMatrix
-                                        (local_f8,(UnityEngine_Transform_o *)pUVar10,(MethodInfo *)0x0);
-                    uVar22 = 0;
-                    fVar23 = (pUVar20->fields).m01;
-                    fVar1 = (pUVar20->fields).m02;
-                    fVar2 = (pUVar20->fields).m03;
-                    fVar3 = (pUVar20->fields).m00;
-                    pUVar11 = (__this->fields)._items;
-                    while (pUVar11 != (UnityEngine_RectTransform_array *)0x0) {
-                      if ((int)pUVar11->max_length <= (int)uVar22) {
-                        return;
+                pUVar2 = (__this->fields)._scroll;
+                if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
+                   (pUVar3 = (pUVar2->fields).m_Viewport, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
+                  UVar30 = UnityEngine_RectTransform__get_rect(pUVar3,(MethodInfo *)0x0);
+                  pUVar2 = (__this->fields)._scroll;
+                  if ((pUVar2 != (UnityEngine_UI_ScrollRect_o *)0x0) &&
+                     (pUVar3 = (pUVar2->fields).m_Viewport, pUVar3 != (UnityEngine_RectTransform_o *)0x0)) {
+                    UnityEngine_Transform__get_worldToLocalMatrix
+                              (&local_70,(UnityEngine_Transform_o *)pUVar3,(MethodInfo *)0x0);
+                    pUVar7 = (__this->fields)._items;
+                    if (pUVar7 != (UnityEngine_RectTransform_array *)0x0) {
+                      iVar12 = -(uint)(fVar14 < 0.0);
+                      iVar13 = -(uint)(fVar27 < 0.0);
+                      auVar24._4_4_ = iVar13;
+                      auVar24._0_4_ = iVar12;
+                      auVar24._8_4_ = iVar13;
+                      auVar24._12_4_ = iVar13;
+                      auVar23._8_8_ = auVar24._8_8_;
+                      auVar23._4_4_ = iVar12;
+                      auVar23._0_4_ = iVar12;
+                      uVar10 = movmskpd(in_ECX,auVar23);
+                      local_ec = 0.0;
+                      local_f0 = 0.0;
+                      if ((uVar10 & 2) == 0) {
+                        local_f0 = fVar27;
                       }
-                      pUVar11 = (__this->fields)._items;
-                      if (pUVar11 == (UnityEngine_RectTransform_array *)0x0) break;
-                      if ((uint)pUVar11->max_length <= uVar22) goto label_1823c0530;
-                      pUVar10 = pUVar11->m_Items[(int)uVar22];
-                      if ((((Il2CppClass *)TypeInfo_UnityEngine_Object)->_2).cctor_finished_or_no_cctor == 0)
-                      {
-                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                      if ((uVar10 & 1) == 0) {
+                        local_ec = fVar14;
                       }
-                      bVar17 = UnityEngine_Object__op_Equality
-                                         ((UnityEngine_Object_o *)pUVar10,(UnityEngine_Object_o *)0x0,
-                                          (MethodInfo *)0x0);
-                      if (!bVar17) {
-                        pUVar12 = (__this->fields)._itemFades;
-                        if (pUVar12 == (UnityEngine_CanvasGroup_array *)0x0) break;
-                        if ((uint)pUVar12->max_length <= uVar22) goto label_1823c0530;
-                        x = pUVar12->m_Items[(int)uVar22];
+                      local_b8 = UVar30.fields.m_XMin;
+                      fStack_b0 = (float)extraout_XMM0_Qb;
+                      fStack_ac = (float)((ulong)extraout_XMM0_Qb >> 0x20);
+                      local_a8 = UVar30.fields.m_Width;
+                      fStack_a0 = auVar26._8_4_;
+                      fStack_9c = auVar26._12_4_;
+                      uVar11 = 0;
+                      do {
+                        uVar10 = (uint)pUVar7->max_length;
+                        if ((long)(int)uVar10 <= (long)uVar11) {
+                          return;
+                        }
+                        if (uVar10 <= uVar11) goto label_05e8bf83;
+                        pUVar3 = pUVar7->m_Items[uVar11];
                         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
                           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                         }
-                        bVar17 = UnityEngine_Object__op_Equality
-                                           ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,
-                                            (MethodInfo *)0x0);
-                        if (!bVar17) {
-                          pUVar11 = (__this->fields)._items;
-                          if (pUVar11 == (UnityEngine_RectTransform_array *)0x0) break;
-                          if ((uint)pUVar11->max_length <= uVar22) {
-label_1823c0530:
-                            ThrowIndexOutOfRangeException();
+                        bVar5 = UnityEngine_Object__op_Equality
+                                          ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,
+                                           (MethodInfo *)0x0);
+                        if (!bVar5) {
+                          pUVar4 = (__this->fields)._itemFades;
+                          if (pUVar4 == (UnityEngine_CanvasGroup_array *)0x0) break;
+                          if ((uint)pUVar4->max_length <= uVar11) goto label_05e8bf83;
+                          x = pUVar4->m_Items[uVar11];
+                          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                           }
-                          if (pUVar11->m_Items[(int)uVar22] == (UnityEngine_RectTransform_o *)0x0) break;
-                          pUVar19 = UnityEngine_RectTransform__get_rect
-                                              (&local_108,pUVar11->m_Items[(int)uVar22],(MethodInfo *)0x0);
-                          pUVar11 = (__this->fields)._items;
-                          if (pUVar11 == (UnityEngine_RectTransform_array *)0x0) break;
-                          if ((uint)pUVar11->max_length <= uVar22) goto label_1823c0530;
-                          fVar25 = (pUVar19->fields).m_XMin;
-                          fVar26 = (pUVar19->fields).m_YMin;
-                          fVar4 = (pUVar19->fields).m_Width;
-                          fVar24 = (pUVar19->fields).m_Height;
-                          pUVar10 = pUVar11->m_Items[(int)uVar22];
+                          bVar5 = UnityEngine_Object__op_Equality
+                                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,
+                                             (MethodInfo *)0x0);
+                          if (bVar5) goto label_05e8ba40;
+                          pUVar7 = (__this->fields)._items;
+                          if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) break;
+                          if ((uint)pUVar7->max_length <= uVar11) goto label_05e8bf83;
+                          if (pUVar7->m_Items[uVar11] == (UnityEngine_RectTransform_o *)0x0) break;
+                          UVar30 = UnityEngine_RectTransform__get_rect
+                                             (pUVar7->m_Items[uVar11],(MethodInfo *)0x0);
+                          pUVar7 = (__this->fields)._items;
+                          if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) break;
+                          if ((uint)pUVar7->max_length <= uVar11) goto label_05e8bf83;
+                          pUVar3 = pUVar7->m_Items[uVar11];
                           if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
                             il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
                           }
-                          if (pUVar10 == (UnityEngine_RectTransform_o *)0x0) break;
-                          local_158.fields.y = fVar24 * 0.5 + fVar26;
-                          local_158.fields.z = 0.0;
-                          local_158.fields.x = fVar25;
-                          pUVar21 = UnityEngine_Transform__TransformPoint
-                                              (&local_128,(UnityEngine_Transform_o *)pUVar10,&local_158,
-                                               (MethodInfo *)0x0);
-                          pUVar11 = (__this->fields)._items;
-                          fVar5 = (pUVar21->fields).y;
-                          fVar6 = (pUVar21->fields).x;
-                          fVar7 = (pUVar21->fields).z;
-                          if (pUVar11 == (UnityEngine_RectTransform_array *)0x0) break;
-                          if ((uint)pUVar11->max_length <= uVar22) goto label_1823c0530;
-                          if (pUVar11->m_Items[(int)uVar22] == (UnityEngine_RectTransform_o *)0x0) break;
-                          local_148.fields.y = fVar24 * 0.5 + fVar26;
-                          local_148.fields.z = 0.0;
-                          local_148.fields.x = fVar4 + fVar25;
-                          pUVar21 = UnityEngine_Transform__TransformPoint
-                                              (&local_118,
-                                               (UnityEngine_Transform_o *)pUVar11->m_Items[(int)uVar22],
-                                               &local_148,(MethodInfo *)0x0);
-                          uVar15 = local_138._8_8_;
-                          uVar13 = local_138._0_8_;
-                          fVar25 = (pUVar21->fields).y;
-                          fVar26 = (pUVar21->fields).z;
-                          fVar4 = (pUVar21->fields).x;
-                          local_168.m_XMin = local_138.m_XMin;
-                          local_168.m_YMin = local_138.m_YMin;
-                          local_168.m_Width = local_138.m_Width;
-                          local_168.m_Height = local_138.m_Height;
-                          fVar24 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__VisibilityAt
-                                             (fVar23 * fVar5 + fVar3 * fVar6 + fVar1 * fVar7 + fVar2,
-                                              (UnityEngine_Rect_o *)&local_168,opacity,fVar27,
+                          if (pUVar3 == (UnityEngine_RectTransform_o *)0x0) break;
+                          fVar14 = UVar30.fields.m_YMin + UVar30.fields.m_Height * 0.5;
+                          UVar33.fields.y = fVar14;
+                          UVar33.fields.x = UVar30.fields.m_XMin;
+                          UVar33.fields.z = 0.0;
+                          UVar33 = UnityEngine_Transform__TransformPoint
+                                             ((UnityEngine_Transform_o *)pUVar3,UVar33,(MethodInfo *)0x0);
+                          pUVar7 = (__this->fields)._items;
+                          if (pUVar7 == (UnityEngine_RectTransform_array *)0x0) break;
+                          uVar10 = (uint)pUVar7->max_length;
+                          if (uVar10 <= uVar11) goto label_05e8bf83;
+                          local_108 = UVar30.fields.m_Width;
+                          if (pUVar7->m_Items[uVar11] == (UnityEngine_RectTransform_o *)0x0) break;
+                          UVar34.fields.x = local_108 + UVar30.fields.m_XMin;
+                          UVar34.fields.y = fVar14;
+                          UVar34.fields.z = 0.0;
+                          UVar34 = UnityEngine_Transform__TransformPoint
+                                             ((UnityEngine_Transform_o *)pUVar7->m_Items[uVar11],UVar34,
                                               (MethodInfo *)0x0);
-                          uVar16 = local_138._8_8_;
-                          uVar14 = local_138._0_8_;
-                          local_138.m_XMin = (float)uVar13;
-                          local_138.m_YMin = SUB84(uVar13,4);
-                          local_168.m_XMin = local_138.m_XMin;
-                          local_168.m_YMin = local_138.m_YMin;
-                          local_138.m_Width = (float)uVar15;
-                          local_138.m_Height = SUB84(uVar15,4);
-                          local_168.m_Width = local_138.m_Width;
-                          local_168.m_Height = local_138.m_Height;
-                          local_138._0_8_ = uVar14;
-                          local_138._8_8_ = uVar16;
-                          fVar25 = Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__VisibilityAt
-                                             (fVar23 * fVar25 + fVar3 * fVar4 + fVar1 * fVar26 + fVar2,
-                                              (UnityEngine_Rect_o *)&local_168,opacity,fVar27,
-                                              (MethodInfo *)0x0);
-                          pUVar12 = (__this->fields)._itemFades;
-                          if (pUVar12 == (UnityEngine_CanvasGroup_array *)0x0) break;
-                          if ((uint)pUVar12->max_length <= uVar22) goto label_1823c0530;
-                          if (pUVar12->m_Items[(int)uVar22] == (UnityEngine_CanvasGroup_o *)0x0) break;
-                          fVar26 = (fVar25 + fVar24) * 0.5;
-                          fVar25 = UnityEngine_CanvasGroup__get_alpha
-                                             (pUVar12->m_Items[(int)uVar22],(MethodInfo *)0x0);
-                          cVar18 = il2cpp_runtime_helper_180562af0(fVar25,fVar26);
-                          if (cVar18 == '\0') {
-                            pUVar12 = (__this->fields)._itemFades;
-                            if (pUVar12 == (UnityEngine_CanvasGroup_array *)0x0) break;
-                            if ((uint)pUVar12->max_length <= uVar22) goto label_1823c0530;
-                            if (pUVar12->m_Items[(int)uVar22] == (UnityEngine_CanvasGroup_o *)0x0) break;
-                            UnityEngine_CanvasGroup__set_alpha
-                                      (pUVar12->m_Items[(int)uVar22],fVar26,(MethodInfo *)0x0);
+                          uVar8 = extraout_RAX;
+                          if (Il2CppMethodInitialized_07548890 == 0) {
+                            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
+                            Il2CppMethodInitialized_07548890 = 1;
+                            uVar8 = extraout_RAX_00;
                           }
-                          pUVar12 = (__this->fields)._itemFades;
-                          if (pUVar12 == (UnityEngine_CanvasGroup_array *)0x0) break;
-                          if ((uint)pUVar12->max_length <= uVar22) goto label_1823c0530;
-                          if (pUVar12->m_Items[(int)uVar22] == (UnityEngine_CanvasGroup_o *)0x0) break;
+                          uVar9 = CONCAT71((int7)((ulong)uVar8 >> 8),1);
+                          if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+                            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+                            uVar9 = (ulong)Il2CppMethodInitialized_07548890;
+                          }
+                          uVar6 = (undefined4)uVar9;
+                          local_98 = UVar33.fields.x;
+                          fStack_94 = UVar33.fields.y;
+                          fVar14 = UVar33.fields.z * local_70.fields.m02 +
+                                   fStack_94 * local_70.fields.m01 + local_70.fields.m00 * local_98 +
+                                   local_70.fields.m03;
+                          auVar28._0_4_ = (local_a8 + local_b8) - fVar14;
+                          auVar28._4_4_ = fVar14 - local_b8;
+                          auVar28._8_4_ = (fStack_a0 + fStack_b0) - local_b8;
+                          auVar28._12_4_ = (fStack_9c + fStack_ac) - local_b8;
+                          auVar26 = divps(auVar28,_DAT_01009340);
+                          auVar22 = minps(_DAT_01005870,auVar26);
+                          fVar14 = (float)(-(uint)(0.0 <= auVar26._0_4_) & auVar22._0_4_);
+                          local_88 = (float)(-(uint)(0.0 <= auVar26._4_4_) & auVar22._4_4_);
+                          iVar12 = -(uint)(0.5 < fVar14);
+                          iVar13 = -(uint)(0.5 < local_88);
+                          auVar17._4_4_ = iVar13;
+                          auVar17._0_4_ = iVar12;
+                          auVar17._8_4_ = iVar13;
+                          auVar17._12_4_ = iVar13;
+                          auVar16._8_8_ = auVar17._8_8_;
+                          auVar16._4_4_ = iVar12;
+                          auVar16._0_4_ = iVar12;
+                          uVar10 = movmskpd(uVar10,auVar16);
+                          if ((uVar10 & 2) == 0) {
+                            local_88 = local_88 * 0.5;
+                            if ((uVar10 & 1) == 0) goto label_05e8bcf7;
+label_05e8bcaf:
+                            fVar14 = (fVar14 + -0.5) * 1.5 + 0.25;
+                          }
+                          else {
+                            local_88 = (local_88 + -0.5) * 1.5 + 0.25;
+                            if ((uVar10 & 1) != 0) goto label_05e8bcaf;
+label_05e8bcf7:
+                            fVar14 = fVar14 * 0.5;
+                          }
+                          if ((uVar9 & 1) == 0) {
+                            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
+                            Il2CppMethodInitialized_07548890 = 1;
+                            uVar6 = extraout_EAX;
+                          }
+                          if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
+                            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
+                            uVar6 = extraout_EAX_00;
+                          }
+                          local_c8 = UVar34.fields.x;
+                          fStack_c4 = UVar34.fields.y;
+                          fVar27 = UVar34.fields.z * local_70.fields.m02 +
+                                   fStack_c4 * local_70.fields.m01 + local_70.fields.m00 * local_c8 +
+                                   local_70.fields.m03;
+                          auVar25._0_4_ = (local_a8 + local_b8) - fVar27;
+                          auVar25._4_4_ = fVar27 - local_b8;
+                          auVar25._8_4_ = (fStack_a0 + fStack_b0) - local_b8;
+                          auVar25._12_4_ = (fStack_9c + fStack_ac) - local_b8;
+                          auVar26 = divps(auVar25,_DAT_01009340);
+                          auVar22 = minps(_DAT_01005870,auVar26);
+                          fVar27 = (float)(-(uint)(0.0 <= auVar26._0_4_) & auVar22._0_4_);
+                          fVar29 = (float)(-(uint)(0.0 <= auVar26._4_4_) & auVar22._4_4_);
+                          iVar12 = -(uint)(0.5 < fVar27);
+                          iVar13 = -(uint)(0.5 < fVar29);
+                          auVar19._4_4_ = iVar13;
+                          auVar19._0_4_ = iVar12;
+                          auVar19._8_4_ = iVar13;
+                          auVar19._12_4_ = iVar13;
+                          auVar18._8_8_ = auVar19._8_8_;
+                          auVar18._4_4_ = iVar12;
+                          auVar18._0_4_ = iVar12;
+                          uVar10 = movmskpd(uVar6,auVar18);
+                          if ((uVar10 & 2) == 0) {
+                            fVar29 = fVar29 * 0.5;
+                            if ((uVar10 & 1) == 0) goto label_05e8bdee;
+label_05e8bdb8:
+                            fVar27 = (fVar27 + -0.5) * 1.5 + 0.25;
+                          }
+                          else {
+                            fVar29 = (fVar29 + -0.5) * 1.5 + 0.25;
+                            if ((uVar10 & 1) != 0) goto label_05e8bdb8;
+label_05e8bdee:
+                            fVar27 = fVar27 * 0.5;
+                          }
+                          pUVar4 = (__this->fields)._itemFades;
+                          if (pUVar4 == (UnityEngine_CanvasGroup_array *)0x0) break;
+                          if ((uint)pUVar4->max_length <= uVar11) {
+label_05e8bf83:
+                            ThrowIndexOutOfRangeException();
+                          }
+                          if (pUVar4->m_Items[uVar11] == (UnityEngine_CanvasGroup_o *)0x0) break;
+                          fVar15 = UnityEngine_CanvasGroup__get_alpha
+                                             (pUVar4->m_Items[uVar11],(MethodInfo *)0x0);
+                          if (Il2CppMethodInitialized_0753e7b4 == '\0') {
+                            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Mathf);
+                            Il2CppMethodInitialized_0753e7b4 = '\x01';
+                          }
+                          fVar27 = (((fVar27 + -1.0) * local_ec + 1.0) * ((fVar29 + -1.0) * local_f0 + 1.0) +
+                                   ((fVar14 + -1.0) * local_ec + 1.0) * ((local_88 + -1.0) * local_f0 + 1.0))
+                                   * 0.5;
+                          fVar14 = ABS(fVar15);
+                          if (ABS(fVar15) <= ABS(fVar27)) {
+                            fVar14 = ABS(fVar27);
+                          }
+                          fVar20 = TypeInfo_UnityEngine_Mathf->static_fields->Epsilon * 8.0;
+                          fVar29 = fVar14 * 1e-06;
+                          if (fVar14 * 1e-06 <= fVar20) {
+                            fVar29 = fVar20;
+                          }
+                          if (fVar29 <= ABS(fVar27 - fVar15)) {
+                            pUVar4 = (__this->fields)._itemFades;
+                            if (pUVar4 == (UnityEngine_CanvasGroup_array *)0x0) break;
+                            if ((uint)pUVar4->max_length <= uVar11) goto label_05e8bf83;
+                            if (pUVar4->m_Items[uVar11] == (UnityEngine_CanvasGroup_o *)0x0) break;
+                            UnityEngine_CanvasGroup__set_alpha
+                                      (pUVar4->m_Items[uVar11],fVar27,(MethodInfo *)0x0);
+                          }
+                          pUVar4 = (__this->fields)._itemFades;
+                          if (pUVar4 == (UnityEngine_CanvasGroup_array *)0x0) break;
+                          if ((uint)pUVar4->max_length <= uVar11) goto label_05e8bf83;
+                          if (pUVar4->m_Items[uVar11] == (UnityEngine_CanvasGroup_o *)0x0) break;
                           UnityEngine_CanvasGroup__set_blocksRaycasts
-                                    (pUVar12->m_Items[(int)uVar22],0.01 < fVar26,(MethodInfo *)0x0);
+                                    (pUVar4->m_Items[uVar11],0.01 < fVar27,(MethodInfo *)0x0);
                         }
-                      }
-                      uVar22 = uVar22 + 1;
-                      pUVar11 = (__this->fields)._items;
+label_05e8ba40:
+                        uVar11 = uVar11 + 1;
+                        pUVar7 = (__this->fields)._items;
+                      } while (pUVar7 != (UnityEngine_RectTransform_array *)0x0);
                     }
                   }
                 }
@@ -1068,97 +1176,79 @@ label_1823c0530:
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$VisibilityAt
 // il2cpp: float Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__VisibilityAt (float position, UnityEngine_Rect_o viewport, float leftOpacity, float rightOpacity, const MethodInfo* method);
-// 0x1823c0540
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823c05ce: jmp 0x1823c05e8
-// asm:   0x1823c062f: jmp 0x1823c0649
+// 0x5e8c4c0
 
 float Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__VisibilityAt
-                (float position,UnityEngine_Rect_o *viewport,float leftOpacity,float rightOpacity,
+                (float position,UnityEngine_Rect_o viewport,float leftOpacity,float rightOpacity,
                 MethodInfo *method)
 
 {
-  float fVar1;
+  float in_XMM0_Db;
+  float in_XMM1_Dc;
+  float in_XMM1_Dd;
+  undefined4 in_XMM3_Db;
+  undefined4 in_XMM4_Db;
+  undefined1 auVar1 [16];
   float fVar2;
+  float fVar4;
+  undefined1 auVar3 [16];
   
-  if (Il2CppMethodInitialized_184347d5d == '\0') {
+  if (Il2CppMethodInitialized_07548890 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Rect);
-    Il2CppMethodInitialized_184347d5d = '\x01';
+    Il2CppMethodInitialized_07548890 = '\x01';
   }
   if ((TypeInfo_UnityEngine_Rect->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Rect);
   }
-  fVar2 = (position - (viewport->fields).m_XMin) / 160.0;
-  if (fVar2 < 0.0) {
-    fVar2 = 0.0;
-label_1823c05e8:
-    fVar2 = fVar2 * 0.5;
-  }
-  else {
-    if (1.0 < fVar2) {
-      fVar2 = 1.0;
-    }
-    else if (fVar2 <= 0.5) goto label_1823c05e8;
-    fVar2 = (fVar2 - 0.5) * 1.5 + 0.25;
-  }
-  if (leftOpacity < 0.0) {
-    leftOpacity = 0.0;
-  }
-  else if (1.0 < leftOpacity) {
-    leftOpacity = 1.0;
-  }
-  fVar1 = (((viewport->fields).m_Width + (viewport->fields).m_XMin) - position) / 160.0;
-  if (fVar1 < 0.0) {
-    fVar1 = 0.0;
-label_1823c0649:
-    fVar1 = fVar1 * 0.5;
-  }
-  else {
-    if (1.0 < fVar1) {
-      fVar1 = 1.0;
-    }
-    else if (fVar1 <= 0.5) goto label_1823c0649;
-    fVar1 = (fVar1 - 0.5) * 1.5 + 0.25;
-  }
-  if (rightOpacity < 0.0) {
-    rightOpacity = 0.0;
-  }
-  else if (1.0 < rightOpacity) {
-    rightOpacity = 1.0;
-  }
-  return ((fVar1 - 1.0) * rightOpacity + 1.0) * ((fVar2 - 1.0) * leftOpacity + 1.0);
+  auVar3._0_4_ = position - viewport.fields.m_XMin;
+  auVar3._4_4_ = (viewport.fields.m_Width + viewport.fields.m_XMin) - position;
+  auVar3._8_4_ = in_XMM0_Db - in_XMM1_Dc;
+  auVar3._12_4_ = (viewport.fields.m_Height + viewport.fields.m_YMin) - in_XMM1_Dd;
+  auVar3 = divps(auVar3,_DAT_01009340);
+  auVar1 = minps(_DAT_01005870,auVar3);
+  fVar2 = (float)(-(uint)(0.0 <= auVar3._0_4_) & auVar1._0_4_);
+  fVar4 = (float)(-(uint)(0.0 <= auVar3._4_4_) & auVar1._4_4_);
+  auVar1._4_4_ = rightOpacity;
+  auVar1._0_4_ = leftOpacity;
+  auVar1._8_4_ = in_XMM3_Db;
+  auVar1._12_4_ = in_XMM4_Db;
+  auVar1 = minps(_DAT_01005870,auVar1);
+  return (((float)(~-(uint)(0.5 < fVar4) & (uint)(fVar4 * 0.5) |
+                  (uint)((fVar4 + -0.5) * 1.5 + 0.25) & -(uint)(0.5 < fVar4)) + -1.0) *
+          (float)(auVar1._4_4_ & -(uint)(0.0 <= rightOpacity)) + g_data_01005870._4_4_) *
+         (((float)(~-(uint)(0.5 < fVar2) & (uint)(fVar2 * 0.5) |
+                  (uint)((fVar2 + -0.5) * 1.5 + 0.25) & -(uint)(0.5 < fVar2)) + -1.0) *
+          (float)(auVar1._0_4_ & -(uint)(0.0 <= leftOpacity)) + (float)g_data_01005870);
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$EdgeVisibility
 // il2cpp: float Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__EdgeVisibility (float distance, const MethodInfo* method);
-// 0x1823bf6d0
+// 0x5e8c5f0
 
 float Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime__EdgeVisibility(float distance,MethodInfo *method)
 
 {
   float fVar1;
+  float fVar2;
   
   fVar1 = distance / 160.0;
-  if (fVar1 < 0.0) {
-    return 0.0;
+  fVar2 = 1.0;
+  if (fVar1 <= 1.0) {
+    fVar2 = fVar1;
   }
-  if (1.0 < fVar1) {
-    fVar1 = 1.0;
-  }
-  else if (fVar1 <= 0.5) {
-    return fVar1 * 0.5;
-  }
-  return (fVar1 - 0.5) * 1.5 + 0.25;
+  fVar2 = (float)(-(uint)(0.0 <= fVar1) & (uint)fVar2);
+  return (float)(-(uint)(0.5 < fVar2) & (uint)((fVar2 + -0.5) * 1.5 + 0.25) |
+                ~-(uint)(0.5 < fVar2) & (uint)(fVar2 * 0.5));
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgGameCreateCarouselRuntime$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime___ctor (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, const MethodInfo* method);
-// 0x180528540
+// 0x5e8c650
 
-void
-Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime___ctor(Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o* __this, MethodInfo* method)
+void Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime___ctor
+               (Gisketch_Aottg2UI_Game_AottgGameCreateCarouselRuntime_o *__this,MethodInfo *method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

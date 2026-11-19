@@ -31,260 +31,260 @@ internal class JsonSerializerInternalWriter : JsonSerializerInternalBase
 	private readonly List<object> _serializeStack;
 
 	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x1C69520", Offset = "0x1C67B20", VA = "0x181C69520")]
+	[Address(RVA = "0x55E1FE0", Offset = "0x55E0FE0", VA = "0x55E1FE0")]
 	public JsonSerializerInternalWriter(JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x1C67A20", Offset = "0x1C66020", VA = "0x181C67A20")]
+	[Address(RVA = "0x55E2060", Offset = "0x55E1060", VA = "0x55E2060")]
 	public void Serialize(JsonWriter jsonWriter, object? value, Type? objectType)
 	{
 	}
 
 	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x1C621B0", Offset = "0x1C607B0", VA = "0x181C621B0")]
+	[Address(RVA = "0x55E2EC0", Offset = "0x55E1EC0", VA = "0x55E2EC0")]
 	private JsonSerializerProxy GetInternalSerializer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x1C620B0", Offset = "0x1C606B0", VA = "0x181C620B0")]
+	[Address(RVA = "0x55E22E0", Offset = "0x55E12E0", VA = "0x55E22E0")]
 	private JsonContract? GetContractSafe(object? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x1C62130", Offset = "0x1C60730", VA = "0x181C62130")]
+	[Address(RVA = "0x55E3030", Offset = "0x55E2030", VA = "0x55E3030")]
 	private JsonContract GetContract(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008F0")]
-	[Address(RVA = "0x1C66F70", Offset = "0x1C65570", VA = "0x181C66F70")]
+	[Address(RVA = "0x55E3100", Offset = "0x55E2100", VA = "0x55E3100")]
 	private void SerializePrimitive(JsonWriter writer, object value, JsonPrimitiveContract contract, JsonProperty? member, JsonContainerContract? containerContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x60008F1")]
-	[Address(RVA = "0x1C672E0", Offset = "0x1C658E0", VA = "0x181C672E0")]
+	[Address(RVA = "0x55E2790", Offset = "0x55E1790", VA = "0x55E2790")]
 	private void SerializeValue(JsonWriter writer, object? value, JsonContract? valueContract, JsonProperty? member, JsonContainerContract? containerContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x60008F2")]
-	[Address(RVA = "0x1C62F50", Offset = "0x1C61550", VA = "0x181C62F50")]
+	[Address(RVA = "0x55E6440", Offset = "0x55E5440", VA = "0x55E6440")]
 	private bool? ResolveIsReference(JsonContract contract, JsonProperty? property, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008F3")]
-	[Address(RVA = "0x1C68050", Offset = "0x1C66650", VA = "0x181C68050")]
+	[Address(RVA = "0x55E22F0", Offset = "0x55E12F0", VA = "0x55E22F0")]
 	private bool ShouldWriteReference(object? value, JsonProperty? property, JsonContract? valueContract, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008F4")]
-	[Address(RVA = "0x1C67F90", Offset = "0x1C66590", VA = "0x181C67F90")]
+	[Address(RVA = "0x55E6510", Offset = "0x55E5510", VA = "0x55E6510")]
 	private bool ShouldWriteProperty(object? memberValue, JsonObjectContract? containerContract, JsonProperty property)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008F5")]
-	[Address(RVA = "0x1C61CA0", Offset = "0x1C602A0", VA = "0x181C61CA0")]
+	[Address(RVA = "0x55E65E0", Offset = "0x55E55E0", VA = "0x55E65E0")]
 	private bool CheckForCircularReference(JsonWriter writer, object? value, JsonProperty? property, JsonContract? contract, JsonContainerContract? containerContract, JsonProperty? containerProperty)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008F6")]
-	[Address(RVA = "0x1C68C50", Offset = "0x1C67250", VA = "0x181C68C50")]
+	[Address(RVA = "0x55E2500", Offset = "0x55E1500", VA = "0x55E2500")]
 	private void WriteReference(JsonWriter writer, object value)
 	{
 	}
 
 	[Token(Token = "0x60008F7")]
-	[Address(RVA = "0x1C627C0", Offset = "0x1C60DC0", VA = "0x181C627C0")]
+	[Address(RVA = "0x55E6A00", Offset = "0x55E5A00", VA = "0x55E6A00")]
 	private string GetReference(JsonWriter writer, object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008F8")]
-	[Address(RVA = "0x1C68400", Offset = "0x1C66A00", VA = "0x181C68400")]
+	[Address(RVA = "0x55E6BF0", Offset = "0x55E5BF0", VA = "0x55E6BF0")]
 	internal static bool TryConvertToString(object value, Type type, [NotNullWhen(true)] out string? s)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008F9")]
-	[Address(RVA = "0x1C67240", Offset = "0x1C65840", VA = "0x181C67240")]
+	[Address(RVA = "0x55E4D40", Offset = "0x55E3D40", VA = "0x55E4D40")]
 	private void SerializeString(JsonWriter writer, object value, JsonStringContract contract)
 	{
 	}
 
 	[Token(Token = "0x60008FA")]
-	[Address(RVA = "0x1C62DD0", Offset = "0x1C613D0", VA = "0x181C62DD0")]
+	[Address(RVA = "0x55E6EC0", Offset = "0x55E5EC0", VA = "0x55E6EC0")]
 	private void OnSerializing(JsonWriter writer, JsonContract contract, object value)
 	{
 	}
 
 	[Token(Token = "0x60008FB")]
-	[Address(RVA = "0x1C62C50", Offset = "0x1C61250", VA = "0x181C62C50")]
+	[Address(RVA = "0x55E70D0", Offset = "0x55E60D0", VA = "0x55E70D0")]
 	private void OnSerialized(JsonWriter writer, JsonContract contract, object value)
 	{
 	}
 
 	[Token(Token = "0x60008FC")]
-	[Address(RVA = "0x1C663F0", Offset = "0x1C649F0", VA = "0x181C663F0")]
+	[Address(RVA = "0x55E3BF0", Offset = "0x55E2BF0", VA = "0x55E3BF0")]
 	private void SerializeObject(JsonWriter writer, object value, JsonObjectContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x60008FD")]
-	[Address(RVA = "0x1C61430", Offset = "0x1C5FA30", VA = "0x181C61430")]
+	[Address(RVA = "0x55E7490", Offset = "0x55E6490", VA = "0x55E7490")]
 	private bool CalculatePropertyValues(JsonWriter writer, object value, JsonContainerContract contract, JsonProperty? member, JsonProperty property, [NotNullWhen(true)] out JsonContract? memberContract, out object? memberValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008FE")]
-	[Address(RVA = "0x1C686B0", Offset = "0x1C66CB0", VA = "0x181C686B0")]
+	[Address(RVA = "0x55E72E0", Offset = "0x55E62E0", VA = "0x55E72E0")]
 	private void WriteObjectStart(JsonWriter writer, object value, JsonContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x1C629E0", Offset = "0x1C60FE0", VA = "0x181C629E0")]
+	[Address(RVA = "0x55E82C0", Offset = "0x55E72C0", VA = "0x55E82C0")]
 	private bool HasCreatorParameter(JsonContainerContract? contract, JsonProperty property)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x1C68AB0", Offset = "0x1C670B0", VA = "0x181C68AB0")]
+	[Address(RVA = "0x55E8370", Offset = "0x55E7370", VA = "0x55E8370")]
 	private void WriteReferenceIdProperty(JsonWriter writer, Type type, object value)
 	{
 	}
 
 	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x1C69330", Offset = "0x1C67930", VA = "0x181C69330")]
+	[Address(RVA = "0x55E3450", Offset = "0x55E2450", VA = "0x55E3450")]
 	private void WriteTypeProperty(JsonWriter writer, Type type)
 	{
 	}
 
 	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x1A32630", Offset = "0x1A30C30", VA = "0x181A32630")]
+	[Address(RVA = "0x55E65D0", Offset = "0x55E55D0", VA = "0x55E65D0")]
 	private bool HasFlag(DefaultValueHandling value, DefaultValueHandling flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x1A32630", Offset = "0x1A30C30", VA = "0x181A32630")]
+	[Address(RVA = "0x55E6500", Offset = "0x55E5500", VA = "0x55E6500")]
 	private bool HasFlag(PreserveReferencesHandling value, PreserveReferencesHandling flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x1A32630", Offset = "0x1A30C30", VA = "0x181A32630")]
+	[Address(RVA = "0x55E85C0", Offset = "0x55E75C0", VA = "0x55E85C0")]
 	private bool HasFlag(TypeNameHandling value, TypeNameHandling flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x1C62FE0", Offset = "0x1C615E0", VA = "0x181C62FE0")]
+	[Address(RVA = "0x55E36D0", Offset = "0x55E26D0", VA = "0x55E36D0")]
 	private void SerializeConvertable(JsonWriter writer, JsonConverter converter, object value, JsonContract contract, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x6000906")]
-	[Address(RVA = "0x1C65810", Offset = "0x1C63E10", VA = "0x181C65810")]
+	[Address(RVA = "0x55E43B0", Offset = "0x55E33B0", VA = "0x55E43B0")]
 	private void SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x6000907")]
-	[Address(RVA = "0x1C661A0", Offset = "0x1C647A0", VA = "0x181C661A0")]
+	[Address(RVA = "0x55E4AF0", Offset = "0x55E3AF0", VA = "0x55E4AF0")]
 	private void SerializeMultidimensionalArray(JsonWriter writer, Array values, JsonArrayContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x6000908")]
-	[Address(RVA = "0x1C65DB0", Offset = "0x1C643B0", VA = "0x181C65DB0")]
+	[Address(RVA = "0x55E8920", Offset = "0x55E7920", VA = "0x55E8920")]
 	private void SerializeMultidimensionalArray(JsonWriter writer, Array values, JsonArrayContract contract, JsonProperty? member, int initialDepth, int[] indices)
 	{
 	}
 
 	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x1C68E40", Offset = "0x1C67440", VA = "0x181C68E40")]
+	[Address(RVA = "0x55E85D0", Offset = "0x55E75D0", VA = "0x55E85D0")]
 	private bool WriteStartArray(JsonWriter writer, object values, JsonArrayContract contract, JsonProperty? member, JsonContainerContract? containerContract, JsonProperty? containerProperty)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600090A")]
-	[Address(RVA = "0x1C64EB0", Offset = "0x1C634B0", VA = "0x181C64EB0")]
+	[Address(RVA = "0x55E5F20", Offset = "0x55E4F20", VA = "0x55E5F20")]
 	private void SerializeISerializable(JsonWriter writer, ISerializable value, JsonISerializableContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x1C63EC0", Offset = "0x1C624C0", VA = "0x181C63EC0")]
+	[Address(RVA = "0x55E56F0", Offset = "0x55E46F0", VA = "0x55E56F0")]
 	private void SerializeDynamic(JsonWriter writer, IDynamicMetaObjectProvider value, JsonDynamicContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x600090C")]
-	[Address(RVA = "0x1C67EE0", Offset = "0x1C664E0", VA = "0x181C67EE0")]
+	[Address(RVA = "0x55E8E20", Offset = "0x55E7E20", VA = "0x55E8E20")]
 	private bool ShouldWriteDynamicProperty(object? memberValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600090D")]
-	[Address(RVA = "0x1C68230", Offset = "0x1C66830", VA = "0x181C68230")]
+	[Address(RVA = "0x55E3270", Offset = "0x55E2270", VA = "0x55E3270")]
 	private bool ShouldWriteType(TypeNameHandling typeNameHandlingFlag, JsonContract contract, JsonProperty? member, JsonContainerContract? containerContract, JsonProperty? containerProperty)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600090E")]
-	[Address(RVA = "0x1C63400", Offset = "0x1C61A00", VA = "0x181C63400")]
+	[Address(RVA = "0x55E4DC0", Offset = "0x55E3DC0", VA = "0x55E4DC0")]
 	private void SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
 	{
 	}
 
 	[Token(Token = "0x600090F")]
-	[Address(RVA = "0x1C62280", Offset = "0x1C60880", VA = "0x181C62280")]
+	[Address(RVA = "0x55E7930", Offset = "0x55E6930", VA = "0x55E7930")]
 	private string GetPropertyName(JsonWriter writer, object name, JsonContract contract, out bool escape)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000910")]
-	[Address(RVA = "0x1C62960", Offset = "0x1C60F60", VA = "0x181C62960")]
+	[Address(RVA = "0x55E2E50", Offset = "0x55E1E50", VA = "0x55E2E50")]
 	private void HandleError(JsonWriter writer, int initialDepth)
 	{
 	}
 
 	[Token(Token = "0x6000911")]
-	[Address(RVA = "0x1C67D20", Offset = "0x1C66320", VA = "0x181C67D20")]
+	[Address(RVA = "0x55E7E20", Offset = "0x55E6E20", VA = "0x55E7E20")]
 	private bool ShouldSerialize(JsonWriter writer, JsonProperty property, object target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000912")]
-	[Address(RVA = "0x1C62A90", Offset = "0x1C61090", VA = "0x181C62A90")]
+	[Address(RVA = "0x55E8070", Offset = "0x55E7070", VA = "0x55E8070")]
 	private bool IsSpecified(JsonWriter writer, JsonProperty property, object target)
 	{
 		return default(bool);

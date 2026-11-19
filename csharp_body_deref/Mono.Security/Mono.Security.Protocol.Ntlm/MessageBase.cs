@@ -9,74 +9,74 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x200001F")]
 public abstract class MessageBase
 {
-	[Token(Token = "0x4000090")]
+	[Token(Token = "0x400008A")]
 	[FieldOffset(Offset = "0x0")]
 	private static byte[] header;
 
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x400008B")]
 	[FieldOffset(Offset = "0x10")]
 	private int _type;
 
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0x14")]
 	private NtlmFlags _flags;
 
-	[Token(Token = "0x17000053")]
+	[Token(Token = "0x17000050")]
 	public NtlmFlags Flags
 	{
-		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Token(Token = "0x60000FC")]
+		[Address(RVA = "0x52C5DA0", Offset = "0x52C4DA0", VA = "0x52C5DA0")]
 		get
 		{
 			return default(NtlmFlags);
 		}
-		[Token(Token = "0x6000121")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Token(Token = "0x60000FD")]
+		[Address(RVA = "0x52C5DB0", Offset = "0x52C4DB0", VA = "0x52C5DB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000054")]
+	[Token(Token = "0x17000051")]
 	public int Type
 	{
-		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x60000FE")]
+		[Address(RVA = "0x52C5DC0", Offset = "0x52C4DC0", VA = "0x52C5DC0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+	[Token(Token = "0x60000FB")]
+	[Address(RVA = "0x52C5D80", Offset = "0x52C4D80", VA = "0x52C5D80")]
 	protected MessageBase(int messageType)
 	{
 	}
 
-	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x19362F0", Offset = "0x19348F0", VA = "0x1819362F0")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x52C5DD0", Offset = "0x52C4DD0", VA = "0x52C5DD0")]
 	protected byte[] PrepareMessage(int messageSize)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x1936080", Offset = "0x1934680", VA = "0x181936080", Slot = "4")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x52C5EA0", Offset = "0x52C4EA0", VA = "0x52C5EA0", Slot = "4")]
 	protected virtual void Decode(byte[] message)
 	{
 	}
 
-	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x1935F80", Offset = "0x1934580", VA = "0x181935F80")]
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x52C6000", Offset = "0x52C5000", VA = "0x52C6000")]
 	protected bool CheckHeader(byte[] message)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000126")]
+	[Token(Token = "0x6000102")]
 	public abstract byte[] GetBytes();
 }

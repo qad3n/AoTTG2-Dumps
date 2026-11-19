@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PointerDeviceState
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,14 +31,14 @@ internal static class PointerDeviceState
 		internal Vector3 Position
 		{
 			[Token(Token = "0x6000E1D")]
-			[Address(RVA = "0x180F7A0", Offset = "0x180DDA0", VA = "0x18180F7A0")]
+			[Address(RVA = "0x6C6DF80", Offset = "0x6C6CF80", VA = "0x6C6DF80")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return default(Vector3);
 			}
 			[Token(Token = "0x6000E1E")]
-			[Address(RVA = "0x2B889E0", Offset = "0x2B86FE0", VA = "0x182B889E0")]
+			[Address(RVA = "0x6C6DF90", Offset = "0x6C6CF90", VA = "0x6C6DF90")]
 			[CompilerGenerated]
 			private set
 			{
@@ -49,14 +49,14 @@ internal static class PointerDeviceState
 		internal IPanel Panel
 		{
 			[Token(Token = "0x6000E1F")]
-			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+			[Address(RVA = "0x6C6DFA0", Offset = "0x6C6CFA0", VA = "0x6C6DFA0")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000E20")]
-			[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+			[Address(RVA = "0x6C6DFB0", Offset = "0x6C6CFB0", VA = "0x6C6DFB0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -67,14 +67,14 @@ internal static class PointerDeviceState
 		internal LocationFlag Flags
 		{
 			[Token(Token = "0x6000E21")]
-			[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+			[Address(RVA = "0x6C6DFC0", Offset = "0x6C6CFC0", VA = "0x6C6DFC0")]
 			[CompilerGenerated]
 			readonly get
 			{
 				return default(LocationFlag);
 			}
 			[Token(Token = "0x6000E22")]
-			[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+			[Address(RVA = "0x6C6DFD0", Offset = "0x6C6CFD0", VA = "0x6C6DFD0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -82,7 +82,7 @@ internal static class PointerDeviceState
 		}
 
 		[Token(Token = "0x6000E23")]
-		[Address(RVA = "0x326C920", Offset = "0x326AF20", VA = "0x18326C920")]
+		[Address(RVA = "0x6C6C900", Offset = "0x6C6B900", VA = "0x6C6C900")]
 		internal void SetLocation(Vector3 position, IPanel panel)
 		{
 		}
@@ -120,13 +120,13 @@ internal static class PointerDeviceState
 		public int updateFrameCount;
 
 		[Token(Token = "0x6000E24")]
-		[Address(RVA = "0x326E1C0", Offset = "0x326C7C0", VA = "0x18326E1C0", Slot = "4")]
+		[Address(RVA = "0x6C6DFE0", Offset = "0x6C6CFE0", VA = "0x6C6DFE0", Slot = "4")]
 		public virtual void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000E25")]
-		[Address(RVA = "0x326E1E0", Offset = "0x326C7E0", VA = "0x18326E1E0")]
+		[Address(RVA = "0x6C6E000", Offset = "0x6C6D000", VA = "0x6C6E000")]
 		public RuntimePointerState()
 		{
 		}
@@ -136,21 +136,21 @@ internal static class PointerDeviceState
 	public class ScreenPointerState : RuntimePointerState
 	{
 		[Token(Token = "0x4000819")]
-		[FieldOffset(Offset = "0x38")]
+		[FieldOffset(Offset = "0x34")]
 		public Vector2 mousePosition;
 
 		[Token(Token = "0x400081A")]
-		[FieldOffset(Offset = "0x40")]
+		[FieldOffset(Offset = "0x3C")]
 		public int? targetDisplay;
 
 		[Token(Token = "0x6000E26")]
-		[Address(RVA = "0x326E1F0", Offset = "0x326C7F0", VA = "0x18326E1F0", Slot = "4")]
+		[Address(RVA = "0x6C6E010", Offset = "0x6C6D010", VA = "0x6C6E010", Slot = "4")]
 		public override void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000E27")]
-		[Address(RVA = "0x326E1E0", Offset = "0x326C7E0", VA = "0x18326E1E0")]
+		[Address(RVA = "0x6C6DD90", Offset = "0x6C6CD90", VA = "0x6C6DD90")]
 		public ScreenPointerState()
 		{
 		}
@@ -160,22 +160,22 @@ internal static class PointerDeviceState
 	public class TrackedPointerState : RuntimePointerState
 	{
 		[Token(Token = "0x400081B")]
-		[FieldOffset(Offset = "0x38")]
+		[FieldOffset(Offset = "0x34")]
 		public Vector3 worldPosition;
 
 		[Token(Token = "0x400081C")]
-		[FieldOffset(Offset = "0x44")]
+		[FieldOffset(Offset = "0x40")]
 		public Quaternion worldOrientation;
 
 		[Token(Token = "0x400081D")]
-		[FieldOffset(Offset = "0x54")]
+		[FieldOffset(Offset = "0x50")]
 		public float maxDistance;
 
 		[Token(Token = "0x170002A2")]
 		public Ray worldRay
 		{
 			[Token(Token = "0x6000E28")]
-			[Address(RVA = "0x326E7C0", Offset = "0x326CDC0", VA = "0x18326E7C0")]
+			[Address(RVA = "0x6C6E070", Offset = "0x6C6D070", VA = "0x6C6E070")]
 			get
 			{
 				return default(Ray);
@@ -183,13 +183,13 @@ internal static class PointerDeviceState
 		}
 
 		[Token(Token = "0x6000E29")]
-		[Address(RVA = "0x326E690", Offset = "0x326CC90", VA = "0x18326E690", Slot = "4")]
+		[Address(RVA = "0x6C6E1F0", Offset = "0x6C6D1F0", VA = "0x6C6E1F0", Slot = "4")]
 		public override void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000E2A")]
-		[Address(RVA = "0x326E730", Offset = "0x326CD30", VA = "0x18326E730")]
+		[Address(RVA = "0x6C6D9D0", Offset = "0x6C6C9D0", VA = "0x6C6D9D0")]
 		public TrackedPointerState()
 		{
 		}
@@ -220,132 +220,132 @@ internal static class PointerDeviceState
 	private static readonly Camera[] s_CameraWithSoftPointerCapture;
 
 	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x326B130", Offset = "0x3269730", VA = "0x18326B130")]
+	[Address(RVA = "0x6C6C5D0", Offset = "0x6C6B5D0", VA = "0x6C6C5D0")]
 	internal static void RemovePanelData(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x326AF80", Offset = "0x3269580", VA = "0x18326AF80")]
+	[Address(RVA = "0x6C6CB20", Offset = "0x6C6BB20", VA = "0x6C6CB20")]
 	internal static void RemoveDocumentData(UIDocument document)
 	{
 	}
 
 	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x326B560", Offset = "0x3269B60", VA = "0x18326B560")]
+	[Address(RVA = "0x6C6CCA0", Offset = "0x6C6BCA0", VA = "0x6C6CCA0")]
 	public static void SavePointerPosition(int pointerId, Vector3 position, IPanel panel, ContextType contextType)
 	{
 	}
 
 	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x326AD20", Offset = "0x3269320", VA = "0x18326AD20")]
+	[Address(RVA = "0x6C6CD80", Offset = "0x6C6BD80", VA = "0x6C6CD80")]
 	public static void PressButton(int pointerId, int buttonId)
 	{
 	}
 
 	[Token(Token = "0x6000E0C")]
-	[Address(RVA = "0x326AE90", Offset = "0x3269490", VA = "0x18326AE90")]
+	[Address(RVA = "0x6C6CE70", Offset = "0x6C6BE70", VA = "0x6C6CE70")]
 	public static void ReleaseButton(int pointerId, int buttonId)
 	{
 	}
 
 	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x326AE10", Offset = "0x3269410", VA = "0x18326AE10")]
+	[Address(RVA = "0x6C6A630", Offset = "0x6C69630", VA = "0x6C6A630")]
 	public static void ReleaseAllButtons(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x326A630", Offset = "0x3268C30", VA = "0x18326A630")]
+	[Address(RVA = "0x6C60390", Offset = "0x6C5F390", VA = "0x6C60390")]
 	public static Vector3 GetPointerPosition(int pointerId, ContextType contextType)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000E0F")]
-	[Address(RVA = "0x326A4E0", Offset = "0x3268AE0", VA = "0x18326A4E0")]
+	[Address(RVA = "0x6C6CF60", Offset = "0x6C6BF60", VA = "0x6C6CF60")]
 	public static Vector3 GetPointerDeltaPosition(int pointerId, ContextType contextType, Vector3 newPosition)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000E10")]
-	[Address(RVA = "0x326A3F0", Offset = "0x32689F0", VA = "0x18326A3F0")]
+	[Address(RVA = "0x6C6D0B0", Offset = "0x6C6C0B0", VA = "0x6C6D0B0")]
 	public static IPanel GetPanel(int pointerId, ContextType contextType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E11")]
-	[Address(RVA = "0x326AC80", Offset = "0x3269280", VA = "0x18326AC80")]
+	[Address(RVA = "0x6C6D150", Offset = "0x6C6C150", VA = "0x6C6D150")]
 	private static bool HasFlagFast(LocationFlag flagSet, LocationFlag flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0x326AC90", Offset = "0x3269290", VA = "0x18326AC90")]
+	[Address(RVA = "0x6C6D160", Offset = "0x6C6C160", VA = "0x6C6D160")]
 	public static bool HasLocationFlag(int pointerId, ContextType contextType, LocationFlag flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x326A6D0", Offset = "0x3268CD0", VA = "0x18326A6D0")]
+	[Address(RVA = "0x6C6D200", Offset = "0x6C6C200", VA = "0x6C6D200")]
 	public static int GetPressedButtons(int pointerId)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x326ABF0", Offset = "0x32691F0", VA = "0x18326ABF0")]
+	[Address(RVA = "0x6C6D290", Offset = "0x6C6C290", VA = "0x6C6D290")]
 	internal static bool HasAdditionalPressedButtons(int pointerId, int exceptButtonId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x326A470", Offset = "0x3268A70", VA = "0x18326A470")]
+	[Address(RVA = "0x6C6D330", Offset = "0x6C6C330", VA = "0x6C6D330")]
 	internal static RuntimePanel GetPlayerPanelWithSoftPointerCapture(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x326AB80", Offset = "0x3269180", VA = "0x18326AB80")]
+	[Address(RVA = "0x6C6D3C0", Offset = "0x6C6C3C0", VA = "0x6C6D3C0")]
 	internal static UIDocument GetWorldSpaceDocumentWithSoftPointerCapture(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x326A380", Offset = "0x3268980", VA = "0x18326A380")]
+	[Address(RVA = "0x6C6D450", Offset = "0x6C6C450", VA = "0x6C6D450")]
 	internal static Camera GetCameraWithSoftPointerCapture(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x326B620", Offset = "0x3269C20", VA = "0x18326B620")]
+	[Address(RVA = "0x6C6D4E0", Offset = "0x6C6C4E0", VA = "0x6C6D4E0")]
 	internal static void SetElementWithSoftPointerCapture(int pointerId, VisualElement element, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6000E19")]
-	[Address(RVA = "0x326A920", Offset = "0x3268F20", VA = "0x18326A920")]
+	[Address(RVA = "0x6C6D740", Offset = "0x6C6C740", VA = "0x6C6D740")]
 	internal static TrackedPointerState GetTrackedState(int pointerId, bool createIfNull = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E1A")]
-	[Address(RVA = "0x326B470", Offset = "0x3269A70", VA = "0x18326B470")]
+	[Address(RVA = "0x6C6DA70", Offset = "0x6C6CA70", VA = "0x6C6DA70")]
 	internal static void RemoveTrackedState(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x326A740", Offset = "0x3268D40", VA = "0x18326A740")]
+	[Address(RVA = "0x6C6DB70", Offset = "0x6C6CB70", VA = "0x6C6DB70")]
 	internal static ScreenPointerState GetScreenPointerState(int pointerId, bool createIfNull = false)
 	{
 		return null;

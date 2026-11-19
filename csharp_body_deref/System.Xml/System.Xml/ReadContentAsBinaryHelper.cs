@@ -40,19 +40,19 @@ internal class ReadContentAsBinaryHelper
 	private bool isEnd;
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x26E1B00", Offset = "0x26E0100", VA = "0x1826E1B00")]
+	[Address(RVA = "0x6099EA0", Offset = "0x6098EA0", VA = "0x6099EA0")]
 	internal void Finish()
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x26E1E90", Offset = "0x26E0490", VA = "0x1826E1E90")]
+	[Address(RVA = "0x609A0B0", Offset = "0x60990B0", VA = "0x609A0B0")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x26E1D40", Offset = "0x26E0340", VA = "0x1826E1D40")]
+	[Address(RVA = "0x6099FE0", Offset = "0x6098FE0", VA = "0x6099FE0")]
 	private bool MoveToNextContentNode(bool moveIfOnContentNode)
 	{
 		return default(bool);

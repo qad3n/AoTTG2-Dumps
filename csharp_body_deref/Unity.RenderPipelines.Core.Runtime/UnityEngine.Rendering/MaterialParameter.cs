@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class MaterialParameter : VolumeParameter<Material>
 {
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x2B5DA40", Offset = "0x2B5C040", VA = "0x182B5DA40")]
+	[Address(RVA = "0x6556F60", Offset = "0x6555F60", VA = "0x6556F60")]
 	public MaterialParameter(Material value, bool overrideState = false)
 	{
 	}

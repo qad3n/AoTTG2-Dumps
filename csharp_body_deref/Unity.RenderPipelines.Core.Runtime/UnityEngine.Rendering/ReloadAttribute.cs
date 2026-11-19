@@ -26,19 +26,19 @@ public sealed class ReloadAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x64BF650", Offset = "0x64BE650", VA = "0x64BF650")]
 	public ReloadAttribute(string[] paths, Package package = Package.Root)
 	{
 	}
 
 	[Token(Token = "0x6000566")]
-	[Address(RVA = "0x2AE48E0", Offset = "0x2AE2EE0", VA = "0x182AE48E0")]
+	[Address(RVA = "0x64BF660", Offset = "0x64BE660", VA = "0x64BF660")]
 	public ReloadAttribute(string path, Package package = Package.Root)
 	{
 	}
 
 	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x64BF6E0", Offset = "0x64BE6E0", VA = "0x64BF6E0")]
 	public ReloadAttribute(string pathFormat, int rangeMin, int rangeMax, Package package = Package.Root)
 	{
 	}

@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnSubmitMessageListener : MessageListener, ISubmitHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x2DBEFC0", Offset = "0x2DBD5C0", VA = "0x182DBEFC0", Slot = "4")]
+	[Address(RVA = "0x67A67D0", Offset = "0x67A57D0", VA = "0x67A67D0", Slot = "4")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A6860", Offset = "0x67A5860", VA = "0x67A6860")]
 	public UnityOnSubmitMessageListener()
 	{
 	}

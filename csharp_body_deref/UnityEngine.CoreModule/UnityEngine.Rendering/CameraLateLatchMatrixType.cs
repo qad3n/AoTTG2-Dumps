@@ -12,12 +12,12 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000345")]
 public enum CameraLateLatchMatrixType
 {
-	[Token(Token = "0x400095A")]
+	[Token(Token = "0x4000958")]
 	View,
-	[Token(Token = "0x400095B")]
+	[Token(Token = "0x4000959")]
 	InverseView,
-	[Token(Token = "0x400095C")]
+	[Token(Token = "0x400095A")]
 	ViewProjection,
-	[Token(Token = "0x400095D")]
+	[Token(Token = "0x400095B")]
 	InverseViewProjection
 }

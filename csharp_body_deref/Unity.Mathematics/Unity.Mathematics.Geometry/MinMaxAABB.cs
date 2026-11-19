@@ -29,7 +29,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 	public float3 Extents
 	{
 		[Token(Token = "0x60024B1")]
-		[Address(RVA = "0x2A3A230", Offset = "0x2A38830", VA = "0x182A3A230")]
+		[Address(RVA = "0x640F4B0", Offset = "0x640E4B0", VA = "0x640F4B0")]
 		get
 		{
 			return default(float3);
@@ -40,7 +40,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 	public float3 HalfExtents
 	{
 		[Token(Token = "0x60024B2")]
-		[Address(RVA = "0x2A3A260", Offset = "0x2A38860", VA = "0x182A3A260")]
+		[Address(RVA = "0x640F4D0", Offset = "0x640E4D0", VA = "0x640F4D0")]
 		get
 		{
 			return default(float3);
@@ -51,7 +51,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 	public float3 Center
 	{
 		[Token(Token = "0x60024B3")]
-		[Address(RVA = "0x2A3A1E0", Offset = "0x2A387E0", VA = "0x182A3A1E0")]
+		[Address(RVA = "0x640F500", Offset = "0x640E500", VA = "0x640F500")]
 		get
 		{
 			return default(float3);
@@ -62,7 +62,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 	public bool IsValid
 	{
 		[Token(Token = "0x60024B4")]
-		[Address(RVA = "0x2A3A2B0", Offset = "0x2A388B0", VA = "0x182A3A2B0")]
+		[Address(RVA = "0x640F530", Offset = "0x640E530", VA = "0x640F530")]
 		get
 		{
 			return default(bool);
@@ -73,7 +73,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 	public float SurfaceArea
 	{
 		[Token(Token = "0x60024B5")]
-		[Address(RVA = "0x2A3A2E0", Offset = "0x2A388E0", VA = "0x182A3A2E0")]
+		[Address(RVA = "0x640F580", Offset = "0x640E580", VA = "0x640F580")]
 		get
 		{
 			return default(float);
@@ -82,14 +82,14 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024AE")]
-	[Address(RVA = "0x565080", Offset = "0x563680", VA = "0x180565080")]
+	[Address(RVA = "0x640F420", Offset = "0x640E420", VA = "0x640F420")]
 	public MinMaxAABB(float3 min, float3 max)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024AF")]
-	[Address(RVA = "0x2A39D30", Offset = "0x2A38330", VA = "0x182A39D30")]
+	[Address(RVA = "0x640F440", Offset = "0x640E440", VA = "0x640F440")]
 	public static MinMaxAABB CreateFromCenterAndExtents(float3 center, float3 extents)
 	{
 		return default(MinMaxAABB);
@@ -97,7 +97,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024B0")]
-	[Address(RVA = "0x2A39DF0", Offset = "0x2A383F0", VA = "0x182A39DF0")]
+	[Address(RVA = "0x640F480", Offset = "0x640E480", VA = "0x640F480")]
 	public static MinMaxAABB CreateFromCenterAndHalfExtents(float3 center, float3 halfExtents)
 	{
 		return default(MinMaxAABB);
@@ -105,7 +105,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024B6")]
-	[Address(RVA = "0x2A39C70", Offset = "0x2A38270", VA = "0x182A39C70")]
+	[Address(RVA = "0x640F5C0", Offset = "0x640E5C0", VA = "0x640F5C0")]
 	public bool Contains(float3 point)
 	{
 		return default(bool);
@@ -113,7 +113,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024B7")]
-	[Address(RVA = "0x2A39CD0", Offset = "0x2A382D0", VA = "0x182A39CD0")]
+	[Address(RVA = "0x640F630", Offset = "0x640E630", VA = "0x640F630")]
 	public bool Contains(MinMaxAABB aabb)
 	{
 		return default(bool);
@@ -121,7 +121,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024B8")]
-	[Address(RVA = "0x2A3A0E0", Offset = "0x2A386E0", VA = "0x182A3A0E0")]
+	[Address(RVA = "0x640F6C0", Offset = "0x640E6C0", VA = "0x640F6C0")]
 	public bool Overlaps(MinMaxAABB aabb)
 	{
 		return default(bool);
@@ -129,28 +129,28 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024B9")]
-	[Address(RVA = "0x2A3A090", Offset = "0x2A38690", VA = "0x182A3A090")]
+	[Address(RVA = "0x640F750", Offset = "0x640E750", VA = "0x640F750")]
 	public void Expand(float signedDistance)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BA")]
-	[Address(RVA = "0x2A39E50", Offset = "0x2A38450", VA = "0x182A39E50")]
+	[Address(RVA = "0x640F790", Offset = "0x640E790", VA = "0x640F790")]
 	public void Encapsulate(MinMaxAABB aabb)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BB")]
-	[Address(RVA = "0x2A39F40", Offset = "0x2A38540", VA = "0x182A39F40")]
+	[Address(RVA = "0x640F890", Offset = "0x640E890", VA = "0x640F890")]
 	public void Encapsulate(float3 point)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BC")]
-	[Address(RVA = "0x2A3A030", Offset = "0x2A38630", VA = "0x182A3A030", Slot = "4")]
+	[Address(RVA = "0x640F920", Offset = "0x640E920", VA = "0x640F920", Slot = "4")]
 	public bool Equals(MinMaxAABB other)
 	{
 		return default(bool);
@@ -158,7 +158,7 @@ public struct MinMaxAABB : IEquatable<MinMaxAABB>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60024BD")]
-	[Address(RVA = "0x2A3A140", Offset = "0x2A38740", VA = "0x182A3A140", Slot = "3")]
+	[Address(RVA = "0x640F990", Offset = "0x640E990", VA = "0x640F990", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

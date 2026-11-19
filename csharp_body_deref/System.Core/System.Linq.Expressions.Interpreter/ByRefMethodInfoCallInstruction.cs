@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000EC")]
+[Token(Token = "0x20000ED")]
 internal class ByRefMethodInfoCallInstruction : MethodInfoCallInstruction
 {
-	[Token(Token = "0x4000234")]
+	[Token(Token = "0x400023D")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly ByRefUpdater[] _byrefArgs;
 
-	[Token(Token = "0x1700015C")]
+	[Token(Token = "0x1700015E")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000600")]
-		[Address(RVA = "0x242A4B0", Offset = "0x2428AB0", VA = "0x18242A4B0", Slot = "5")]
+		[Token(Token = "0x600060B")]
+		[Address(RVA = "0x5DDCB70", Offset = "0x5DDBB70", VA = "0x5DDCB70", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x242A460", Offset = "0x2428A60", VA = "0x18242A460")]
+	[Token(Token = "0x600060A")]
+	[Address(RVA = "0x5DDCB20", Offset = "0x5DDBB20", VA = "0x5DDCB20")]
 	internal ByRefMethodInfoCallInstruction(MethodInfo target, int argumentCount, ByRefUpdater[] byrefArgs)
 	{
 	}
 
-	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x2429F50", Offset = "0x2428550", VA = "0x182429F50", Slot = "8")]
+	[Token(Token = "0x600060C")]
+	[Address(RVA = "0x5DDCBE0", Offset = "0x5DDBBE0", VA = "0x5DDCBE0", Slot = "8")]
 	public sealed override int Run(InterpretedFrame frame)
 	{
 		return default(int);

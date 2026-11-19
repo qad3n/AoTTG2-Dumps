@@ -55,7 +55,7 @@ public class BsonReader : JsonReader
 		public int Position;
 
 		[Token(Token = "0x6000FFF")]
-		[Address(RVA = "0x1CAE600", Offset = "0x1CACC00", VA = "0x181CAE600")]
+		[Address(RVA = "0x564A3B0", Offset = "0x56493B0", VA = "0x564A3B0")]
 		public ContainerContext(BsonType type)
 		{
 		}
@@ -125,13 +125,13 @@ public class BsonReader : JsonReader
 	public bool JsonNet35BinaryCompatibility
 	{
 		[Token(Token = "0x6000FDD")]
-		[Address(RVA = "0x1CAC590", Offset = "0x1CAAB90", VA = "0x181CAC590")]
+		[Address(RVA = "0x56494A0", Offset = "0x56484A0", VA = "0x56494A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FDE")]
-		[Address(RVA = "0x1CAC5C0", Offset = "0x1CAABC0", VA = "0x181CAC5C0")]
+		[Address(RVA = "0x56494B0", Offset = "0x56484B0", VA = "0x56494B0")]
 		set
 		{
 		}
@@ -141,13 +141,13 @@ public class BsonReader : JsonReader
 	public bool ReadRootValueAsArray
 	{
 		[Token(Token = "0x6000FDF")]
-		[Address(RVA = "0x1CAC5A0", Offset = "0x1CAABA0", VA = "0x181CAC5A0")]
+		[Address(RVA = "0x56494C0", Offset = "0x56484C0", VA = "0x56494C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000FE0")]
-		[Address(RVA = "0x1CAC5D0", Offset = "0x1CAABD0", VA = "0x181CAC5D0")]
+		[Address(RVA = "0x56494D0", Offset = "0x56484D0", VA = "0x56494D0")]
 		set
 		{
 		}
@@ -157,192 +157,192 @@ public class BsonReader : JsonReader
 	public DateTimeKind DateTimeKindHandling
 	{
 		[Token(Token = "0x6000FE1")]
-		[Address(RVA = "0x1AAAD70", Offset = "0x1AA9370", VA = "0x181AAAD70")]
+		[Address(RVA = "0x56494E0", Offset = "0x56484E0", VA = "0x56494E0")]
 		get
 		{
 			return default(DateTimeKind);
 		}
 		[Token(Token = "0x6000FE2")]
-		[Address(RVA = "0x1CAC5B0", Offset = "0x1CAABB0", VA = "0x181CAC5B0")]
+		[Address(RVA = "0x56494F0", Offset = "0x56484F0", VA = "0x56494F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FE3")]
-	[Address(RVA = "0x1CAC3A0", Offset = "0x1CAA9A0", VA = "0x181CAC3A0")]
+	[Address(RVA = "0x5649500", Offset = "0x5648500", VA = "0x5649500")]
 	public BsonReader(Stream stream)
 	{
 	}
 
 	[Token(Token = "0x6000FE4")]
-	[Address(RVA = "0x1CAC2E0", Offset = "0x1CAA8E0", VA = "0x181CAC2E0")]
+	[Address(RVA = "0x5649610", Offset = "0x5648610", VA = "0x5649610")]
 	public BsonReader(BinaryReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000FE5")]
-	[Address(RVA = "0x1CAC4A0", Offset = "0x1CAAAA0", VA = "0x181CAC4A0")]
+	[Address(RVA = "0x5649510", Offset = "0x5648510", VA = "0x5649510")]
 	public BsonReader(Stream stream, bool readRootValueAsArray, DateTimeKind dateTimeKindHandling)
 	{
 	}
 
 	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x1CAC220", Offset = "0x1CAA820", VA = "0x181CAC220")]
+	[Address(RVA = "0x5649620", Offset = "0x5648620", VA = "0x5649620")]
 	public BsonReader(BinaryReader reader, bool readRootValueAsArray, DateTimeKind dateTimeKindHandling)
 	{
 	}
 
 	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x1CAAE00", Offset = "0x1CA9400", VA = "0x181CAAE00")]
+	[Address(RVA = "0x56496F0", Offset = "0x56486F0", VA = "0x56496F0")]
 	private string ReadElement()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x1CABF30", Offset = "0x1CAA530", VA = "0x181CABF30", Slot = "21")]
+	[Address(RVA = "0x5649AD0", Offset = "0x5648AD0", VA = "0x5649AD0", Slot = "21")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x1CAA390", Offset = "0x1CA8990", VA = "0x181CAA390", Slot = "31")]
+	[Address(RVA = "0x564A2C0", Offset = "0x56492C0", VA = "0x564A2C0", Slot = "31")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x1CAAB60", Offset = "0x1CA9160", VA = "0x181CAAB60")]
+	[Address(RVA = "0x564A0A0", Offset = "0x56490A0", VA = "0x564A0A0")]
 	private bool ReadCodeWScope()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FEB")]
-	[Address(RVA = "0x1CAB2A0", Offset = "0x1CA98A0", VA = "0x181CAB2A0")]
+	[Address(RVA = "0x5649EC0", Offset = "0x5648EC0", VA = "0x5649EC0")]
 	private bool ReadReference()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0x1CAAF60", Offset = "0x1CA9560", VA = "0x181CAAF60")]
+	[Address(RVA = "0x5649C60", Offset = "0x5648C60", VA = "0x5649C60")]
 	private bool ReadNormal()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FED")]
-	[Address(RVA = "0x1CAA850", Offset = "0x1CA8E50", VA = "0x181CAA850")]
+	[Address(RVA = "0x564AB20", Offset = "0x5649B20", VA = "0x564AB20")]
 	private void PopContext()
 	{
 	}
 
 	[Token(Token = "0x6000FEE")]
-	[Address(RVA = "0x1CAA920", Offset = "0x1CA8F20", VA = "0x181CAA920")]
+	[Address(RVA = "0x564A3D0", Offset = "0x56493D0", VA = "0x564A3D0")]
 	private void PushContext(ContainerContext newContext)
 	{
 	}
 
 	[Token(Token = "0x6000FEF")]
-	[Address(RVA = "0x1CAAAE0", Offset = "0x1CA90E0", VA = "0x181CAAAE0")]
+	[Address(RVA = "0x564AAE0", Offset = "0x5649AE0", VA = "0x564AAE0")]
 	private byte ReadByte()
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000FF0")]
-	[Address(RVA = "0x1CAB850", Offset = "0x1CA9E50", VA = "0x181CAB850")]
+	[Address(RVA = "0x564A4C0", Offset = "0x56494C0", VA = "0x564A4C0")]
 	private void ReadType(BsonType type)
 	{
 	}
 
 	[Token(Token = "0x6000FF1")]
-	[Address(RVA = "0x1CAA9E0", Offset = "0x1CA8FE0", VA = "0x181CAA9E0")]
+	[Address(RVA = "0x564AC40", Offset = "0x5649C40", VA = "0x564AC40")]
 	private byte[] ReadBinary(out BsonBinaryType binaryType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FF2")]
-	[Address(RVA = "0x1CAB570", Offset = "0x1CA9B70", VA = "0x181CAB570")]
+	[Address(RVA = "0x5649770", Offset = "0x5648770", VA = "0x5649770")]
 	private string ReadString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FF3")]
-	[Address(RVA = "0x1CAAED0", Offset = "0x1CA94D0", VA = "0x181CAAED0")]
+	[Address(RVA = "0x564A330", Offset = "0x5649330", VA = "0x564A330")]
 	private string ReadLengthString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FF4")]
-	[Address(RVA = "0x1CAA520", Offset = "0x1CA8B20", VA = "0x181CAA520")]
+	[Address(RVA = "0x564AED0", Offset = "0x5649ED0", VA = "0x564AED0")]
 	private string GetString(int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FF5")]
-	[Address(RVA = "0x1CAA4A0", Offset = "0x1CA8AA0", VA = "0x181CAA4A0")]
+	[Address(RVA = "0x564AE40", Offset = "0x5649E40", VA = "0x564AE40")]
 	private int GetLastFullCharStop(int start)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FF6")]
-	[Address(RVA = "0x1CAA1A0", Offset = "0x1CA87A0", VA = "0x181CAA1A0")]
+	[Address(RVA = "0x564B1F0", Offset = "0x564A1F0", VA = "0x564B1F0")]
 	private int BytesInSequence(byte b)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FF7")]
-	[Address(RVA = "0x1CAA3D0", Offset = "0x1CA89D0", VA = "0x181CAA3D0")]
+	[Address(RVA = "0x564AD60", Offset = "0x5649D60", VA = "0x564AD60")]
 	private void EnsureBuffers()
 	{
 	}
 
 	[Token(Token = "0x6000FF8")]
-	[Address(RVA = "0x1CAADC0", Offset = "0x1CA93C0", VA = "0x181CAADC0")]
+	[Address(RVA = "0x564AC00", Offset = "0x5649C00", VA = "0x564AC00")]
 	private double ReadDouble()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000FF9")]
-	[Address(RVA = "0x1CAAE50", Offset = "0x1CA9450", VA = "0x181CAAE50")]
+	[Address(RVA = "0x564A2F0", Offset = "0x56492F0", VA = "0x564A2F0")]
 	private int ReadInt32()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FFA")]
-	[Address(RVA = "0x1CAAE90", Offset = "0x1CA9490", VA = "0x181CAAE90")]
+	[Address(RVA = "0x564AD20", Offset = "0x5649D20", VA = "0x564AD20")]
 	private long ReadInt64()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000FFB")]
-	[Address(RVA = "0x1CABEF0", Offset = "0x1CAA4F0", VA = "0x181CABEF0")]
+	[Address(RVA = "0x5649730", Offset = "0x5648730", VA = "0x5649730")]
 	private BsonType ReadType()
 	{
 		return default(BsonType);
 	}
 
 	[Token(Token = "0x6000FFC")]
-	[Address(RVA = "0x1CAA830", Offset = "0x1CA8E30", VA = "0x181CAA830")]
+	[Address(RVA = "0x564ABE0", Offset = "0x5649BE0", VA = "0x564ABE0")]
 	private void MovePosition(int count)
 	{
 	}
 
 	[Token(Token = "0x6000FFD")]
-	[Address(RVA = "0x1CAAB20", Offset = "0x1CA9120", VA = "0x181CAAB20")]
+	[Address(RVA = "0x564A480", Offset = "0x5649480", VA = "0x564A480")]
 	private byte[] ReadBytes(int count)
 	{
 		return null;

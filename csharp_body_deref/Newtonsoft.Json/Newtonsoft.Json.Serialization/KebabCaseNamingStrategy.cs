@@ -13,25 +13,25 @@ namespace Newtonsoft.Json.Serialization;
 public class KebabCaseNamingStrategy : NamingStrategy
 {
 	[Token(Token = "0x6000971")]
-	[Address(RVA = "0x1C6B900", Offset = "0x1C69F00", VA = "0x181C6B900")]
+	[Address(RVA = "0x55EB390", Offset = "0x55EA390", VA = "0x55EB390")]
 	public KebabCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames)
 	{
 	}
 
 	[Token(Token = "0x6000972")]
-	[Address(RVA = "0x1C6B8C0", Offset = "0x1C69EC0", VA = "0x181C6B8C0")]
+	[Address(RVA = "0x55EB3C0", Offset = "0x55EA3C0", VA = "0x55EB3C0")]
 	public KebabCaseNamingStrategy(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames)
 	{
 	}
 
 	[Token(Token = "0x6000973")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x55EB3F0", Offset = "0x55EA3F0", VA = "0x55EB3F0")]
 	public KebabCaseNamingStrategy()
 	{
 	}
 
 	[Token(Token = "0x6000974")]
-	[Address(RVA = "0x1C6B8B0", Offset = "0x1C69EB0", VA = "0x181C6B8B0", Slot = "7")]
+	[Address(RVA = "0x55EB400", Offset = "0x55EA400", VA = "0x55EB400", Slot = "7")]
 	protected override string ResolvePropertyName(string name)
 	{
 		return null;

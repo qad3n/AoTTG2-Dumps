@@ -1,0 +1,97 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.TabViewManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Generic;
+using Il2CppDummyDll;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
+
+namespace Photon.Pun.UtilityScripts;
+
+[Token(Token = "0x200002E")]
+public class TabViewManager : MonoBehaviour
+{
+	[Serializable]
+	[Token(Token = "0x200002F")]
+	public class TabChangeEvent : UnityEvent<string>
+	{
+		[Token(Token = "0x6000103")]
+		[Address(RVA = "0x56F8B50", Offset = "0x56F7B50", VA = "0x56F8B50")]
+		public TabChangeEvent()
+		{
+		}
+	}
+
+	[Serializable]
+	[Token(Token = "0x2000030")]
+	public class Tab
+	{
+		[Token(Token = "0x40000B6")]
+		[FieldOffset(Offset = "0x10")]
+		public string ID;
+
+		[Token(Token = "0x40000B7")]
+		[FieldOffset(Offset = "0x18")]
+		public Toggle Toggle;
+
+		[Token(Token = "0x40000B8")]
+		[FieldOffset(Offset = "0x20")]
+		public RectTransform View;
+
+		[Token(Token = "0x6000104")]
+		[Address(RVA = "0x56F8B90", Offset = "0x56F7B90", VA = "0x56F8B90")]
+		public Tab()
+		{
+		}
+	}
+
+	[Token(Token = "0x40000B1")]
+	[FieldOffset(Offset = "0x20")]
+	public ToggleGroup ToggleGroup;
+
+	[Token(Token = "0x40000B2")]
+	[FieldOffset(Offset = "0x28")]
+	public Tab[] Tabs;
+
+	[Token(Token = "0x40000B3")]
+	[FieldOffset(Offset = "0x30")]
+	public TabChangeEvent OnTabChanged;
+
+	[Token(Token = "0x40000B4")]
+	[FieldOffset(Offset = "0x38")]
+	protected Tab CurrentTab;
+
+	[Token(Token = "0x40000B5")]
+	[FieldOffset(Offset = "0x40")]
+	private Dictionary<Toggle, Tab> Tab_lut;
+
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x56F86F0", Offset = "0x56F76F0", VA = "0x56F86F0")]
+	private void Start()
+	{
+	}
+
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x56F8980", Offset = "0x56F7980", VA = "0x56F8980")]
+	public void SelectTab(string id)
+	{
+	}
+
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x56F8A10", Offset = "0x56F7A10", VA = "0x56F8A10")]
+	private void OnTabSelected(Tab tab)
+	{
+	}
+
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x56F8B40", Offset = "0x56F7B40", VA = "0x56F8B40")]
+	public TabViewManager()
+	{
+	}
+}

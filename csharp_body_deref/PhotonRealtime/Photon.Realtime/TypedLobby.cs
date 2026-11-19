@@ -28,7 +28,7 @@ public class TypedLobby
 	public bool IsDefault
 	{
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x1D26EA0", Offset = "0x1D254A0", VA = "0x181D26EA0")]
+		[Address(RVA = "0x56B8760", Offset = "0x56B7760", VA = "0x56B8760")]
 		get
 		{
 			return default(bool);
@@ -36,19 +36,19 @@ public class TypedLobby
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56BB770", Offset = "0x56BA770", VA = "0x56BB770")]
 	internal TypedLobby()
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x16F5C50", Offset = "0x16F4250", VA = "0x1816F5C50")]
+	[Address(RVA = "0x56BB780", Offset = "0x56BA780", VA = "0x56BB780")]
 	public TypedLobby(string name, LobbyType type)
 	{
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x1D26DB0", Offset = "0x1D253B0", VA = "0x181D26DB0", Slot = "3")]
+	[Address(RVA = "0x56BB7B0", Offset = "0x56BA7B0", VA = "0x56BB7B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -13,27 +13,27 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Audio;
 
-[Token(Token = "0x200002B")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/ScriptBindings/AudioClipPlayable.bindings.h")]
+[Token(Token = "0x2000019")]
 [UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/Director/AudioClipPlayable.h")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.StaticAccessor("AudioClipPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/ScriptBindings/AudioClipPlayable.bindings.h")]
 public struct AudioClipPlayable : IEquatable<AudioClipPlayable>
 {
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x400001F")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x6000097")]
-	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
+	[Token(Token = "0x6000081")]
+	[Address(RVA = "0x68B19B0", Offset = "0x68B09B0", VA = "0x68B19B0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2EB1F80", Offset = "0x2EB0580", VA = "0x182EB1F80", Slot = "4")]
+	[Token(Token = "0x6000082")]
+	[Address(RVA = "0x68B19C0", Offset = "0x68B09C0", VA = "0x68B19C0", Slot = "4")]
 	public bool Equals(AudioClipPlayable other)
 	{
 		return default(bool);

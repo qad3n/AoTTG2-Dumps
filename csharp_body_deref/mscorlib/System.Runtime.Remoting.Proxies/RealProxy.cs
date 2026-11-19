@@ -15,143 +15,143 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Proxies;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200038C")]
+[Token(Token = "0x2000365")]
 [ComVisible(true)]
 public abstract class RealProxy
 {
-	[Token(Token = "0x4000EDB")]
+	[Token(Token = "0x4000E3B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private Type class_to_proxy;
 
-	[Token(Token = "0x4000EDC")]
+	[Token(Token = "0x4000E3C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal Context _targetContext;
 
-	[Token(Token = "0x4000EDD")]
+	[Token(Token = "0x4000E3D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	internal MarshalByRefObject _server;
 
-	[Token(Token = "0x4000EDE")]
+	[Token(Token = "0x4000E3E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private int _targetDomainId;
 
-	[Token(Token = "0x4000EDF")]
+	[Token(Token = "0x4000E3F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	internal string _targetUri;
 
-	[Token(Token = "0x4000EE0")]
+	[Token(Token = "0x4000E40")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	internal System.Runtime.Remoting.Identity _objectIdentity;
 
-	[Token(Token = "0x4000EE1")]
+	[Token(Token = "0x4000E41")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private object _objTP;
 
-	[Token(Token = "0x4000EE2")]
+	[Token(Token = "0x4000E42")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private object _stubData;
 
-	[Token(Token = "0x17000358")]
+	[Token(Token = "0x17000357")]
 	internal System.Runtime.Remoting.Identity ObjectIdentity
 	{
-		[Token(Token = "0x6001D6F")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x6001D45")]
+		[Address(RVA = "0x537BD20", Offset = "0x537AD20", VA = "0x537BD20")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001D70")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Token(Token = "0x6001D46")]
+		[Address(RVA = "0x537BD30", Offset = "0x537AD30", VA = "0x537BD30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001D68")]
-	[Address(RVA = "0x1A05E00", Offset = "0x1A04400", VA = "0x181A05E00")]
+	[Token(Token = "0x6001D3E")]
+	[Address(RVA = "0x537BAD0", Offset = "0x537AAD0", VA = "0x537BAD0")]
 	protected RealProxy()
 	{
 	}
 
-	[Token(Token = "0x6001D69")]
-	[Address(RVA = "0x1A05F20", Offset = "0x1A04520", VA = "0x181A05F20")]
+	[Token(Token = "0x6001D3F")]
+	[Address(RVA = "0x537BAE0", Offset = "0x537AAE0", VA = "0x537BAE0")]
 	protected RealProxy(Type classToProxy)
 	{
 	}
 
-	[Token(Token = "0x6001D6A")]
-	[Address(RVA = "0x1A05D30", Offset = "0x1A04330", VA = "0x181A05D30")]
+	[Token(Token = "0x6001D40")]
+	[Address(RVA = "0x537BBD0", Offset = "0x537ABD0", VA = "0x537BBD0")]
 	internal RealProxy(Type classToProxy, System.Runtime.Remoting.ClientIdentity identity)
 	{
 	}
 
-	[Token(Token = "0x6001D6B")]
-	[Address(RVA = "0x1A05E10", Offset = "0x1A04410", VA = "0x181A05E10")]
+	[Token(Token = "0x6001D41")]
+	[Address(RVA = "0x537BAF0", Offset = "0x537AAF0", VA = "0x537BAF0")]
 	protected RealProxy(Type classToProxy, IntPtr stub, object stubData)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001D6C")]
-	[Address(RVA = "0x1A04D20", Offset = "0x1A03320", VA = "0x181A04D20")]
+	[Token(Token = "0x6001D42")]
+	[Address(RVA = "0x537BC00", Offset = "0x537AC00", VA = "0x537BC00")]
 	private static extern Type InternalGetProxyType(object transparentProxy);
 
-	[Token(Token = "0x6001D6D")]
-	[Address(RVA = "0x1A04B70", Offset = "0x1A03170", VA = "0x181A04B70")]
+	[Token(Token = "0x6001D43")]
+	[Address(RVA = "0x537BC10", Offset = "0x537AC10", VA = "0x537BC10")]
 	public Type GetProxiedType()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D6E")]
-	[Address(RVA = "0x1A04AE0", Offset = "0x1A030E0", VA = "0x181A04AE0", Slot = "4")]
+	[Token(Token = "0x6001D44")]
+	[Address(RVA = "0x537BCA0", Offset = "0x537ACA0", VA = "0x537BCA0", Slot = "4")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001D71")]
+	[Token(Token = "0x6001D47")]
 	public abstract IMessage Invoke(IMessage msg);
 
-	[Token(Token = "0x6001D72")]
-	[Address(RVA = "0x1A04D40", Offset = "0x1A03340", VA = "0x181A04D40")]
+	[Token(Token = "0x6001D48")]
+	[Address(RVA = "0x537AB00", Offset = "0x5379B00", VA = "0x537AB00")]
 	internal static object PrivateInvoke(RealProxy rp, IMessage msg, out Exception exc, out object[] out_args)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001D73")]
-	[Address(RVA = "0x1A04D30", Offset = "0x1A03330", VA = "0x181A04D30", Slot = "6")]
+	[Token(Token = "0x6001D49")]
+	[Address(RVA = "0x537CFE0", Offset = "0x537BFE0", VA = "0x537CFE0", Slot = "6")]
 	internal virtual extern object InternalGetTransparentProxy(string className);
 
-	[Token(Token = "0x6001D74")]
-	[Address(RVA = "0x1A04C00", Offset = "0x1A03200", VA = "0x181A04C00", Slot = "7")]
+	[Token(Token = "0x6001D4A")]
+	[Address(RVA = "0x537CFF0", Offset = "0x537BFF0", VA = "0x537CFF0", Slot = "7")]
 	public virtual object GetTransparentProxy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D75")]
-	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+	[Token(Token = "0x6001D4B")]
+	[Address(RVA = "0x537D160", Offset = "0x537C160", VA = "0x537D160")]
 	protected void AttachServer(MarshalByRefObject s)
 	{
 	}
 
-	[Token(Token = "0x6001D76")]
-	[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+	[Token(Token = "0x6001D4C")]
+	[Address(RVA = "0x537D170", Offset = "0x537C170", VA = "0x537D170")]
 	internal void SetTargetDomain(int domainId)
 	{
 	}
 
-	[Token(Token = "0x6001D77")]
-	[Address(RVA = "0x1A049B0", Offset = "0x1A02FB0", VA = "0x181A049B0")]
+	[Token(Token = "0x6001D4D")]
+	[Address(RVA = "0x537D180", Offset = "0x537C180", VA = "0x537D180")]
 	internal object GetAppDomainTarget()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D78")]
-	[Address(RVA = "0x1A05730", Offset = "0x1A03D30", VA = "0x181A05730")]
+	[Token(Token = "0x6001D4E")]
+	[Address(RVA = "0x537C6F0", Offset = "0x537B6F0", VA = "0x537C6F0")]
 	private static object[] ProcessResponse(IMethodReturnMessage mrm, System.Runtime.Remoting.Messaging.MonoMethodMessage call)
 	{
 		return null;

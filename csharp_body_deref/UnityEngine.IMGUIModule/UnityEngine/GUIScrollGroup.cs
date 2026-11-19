@@ -62,32 +62,32 @@ internal sealed class GUIScrollGroup : GUILayoutGroup
 	public GUIStyle verticalScrollbar;
 
 	[Token(Token = "0x6000289")]
-	[Address(RVA = "0x2FA94B0", Offset = "0x2FA7AB0", VA = "0x182FA94B0")]
+	[Address(RVA = "0x69A2830", Offset = "0x69A1830", VA = "0x69A2830")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public GUIScrollGroup()
 	{
 	}
 
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x2FA8FE0", Offset = "0x2FA75E0", VA = "0x182FA8FE0", Slot = "8")]
+	[Address(RVA = "0x69A2890", Offset = "0x69A1890", VA = "0x69A2890", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x2FA9080", Offset = "0x2FA7680", VA = "0x182FA9080", Slot = "10")]
+	[Address(RVA = "0x69A2940", Offset = "0x69A1940", VA = "0x69A2940", Slot = "10")]
 	public override void SetHorizontal(float x, float width)
 	{
 	}
 
 	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x2FA8ED0", Offset = "0x2FA74D0", VA = "0x182FA8ED0", Slot = "9")]
+	[Address(RVA = "0x69A2AD0", Offset = "0x69A1AD0", VA = "0x69A2AD0", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}
 
 	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x2FA9210", Offset = "0x2FA7810", VA = "0x182FA9210", Slot = "11")]
+	[Address(RVA = "0x69A2BF0", Offset = "0x69A1BF0", VA = "0x69A2BF0", Slot = "11")]
 	public override void SetVertical(float y, float height)
 	{
 	}

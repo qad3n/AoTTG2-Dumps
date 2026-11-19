@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Profiling.ProfilerRecorder
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,10 +18,10 @@ using UnityEngine.Scripting;
 namespace Unity.Profiling;
 
 [Token(Token = "0x200002D")]
-[UnityEngine.Scripting.UsedByNativeCode]
-[DebuggerDisplay("Count = {Count}")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Profiler/ScriptBindings/ProfilerRecorder.bindings.h")]
+[DebuggerDisplay("Count = {Count}")]
 [DebuggerTypeProxy(typeof(ProfilerRecorderDebugView))]
+[UnityEngine.Scripting.UsedByNativeCode]
 public struct ProfilerRecorder : IDisposable
 {
 	[Token(Token = "0x200002E")]
@@ -60,8 +60,8 @@ public struct ProfilerRecorder : IDisposable
 	[Token(Token = "0x1700000C")]
 	public bool Valid
 	{
-		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x2ECEB60", Offset = "0x2ECD160", VA = "0x182ECEB60")]
+		[Token(Token = "0x6000084")]
+		[Address(RVA = "0x68B5120", Offset = "0x68B4120", VA = "0x68B5120")]
 		get
 		{
 			return default(bool);
@@ -71,8 +71,8 @@ public struct ProfilerRecorder : IDisposable
 	[Token(Token = "0x1700000D")]
 	public long LastValue
 	{
-		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x2ECEAD0", Offset = "0x2ECD0D0", VA = "0x182ECEAD0")]
+		[Token(Token = "0x6000087")]
+		[Address(RVA = "0x68B5360", Offset = "0x68B4360", VA = "0x68B5360")]
 		get
 		{
 			return default(long);
@@ -82,8 +82,8 @@ public struct ProfilerRecorder : IDisposable
 	[Token(Token = "0x1700000E")]
 	public int Count
 	{
-		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x2ECE9A0", Offset = "0x2ECCFA0", VA = "0x182ECE9A0")]
+		[Token(Token = "0x6000088")]
+		[Address(RVA = "0x68B5430", Offset = "0x68B4430", VA = "0x68B5430")]
 		get
 		{
 			return default(int);
@@ -93,139 +93,139 @@ public struct ProfilerRecorder : IDisposable
 	[Token(Token = "0x1700000F")]
 	public bool IsRunning
 	{
-		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x2ECEA40", Offset = "0x2ECD040", VA = "0x182ECEA40")]
+		[Token(Token = "0x6000089")]
+		[Address(RVA = "0x68B5500", Offset = "0x68B4500", VA = "0x68B5500")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x2ECE930", Offset = "0x2ECCF30", VA = "0x182ECE930")]
+	[Token(Token = "0x6000083")]
+	[Address(RVA = "0x68B5060", Offset = "0x68B4060", VA = "0x68B5060")]
 	public ProfilerRecorder(ProfilerRecorderHandle statHandle, int capacity = 1, ProfilerRecorderOptions options = ProfilerRecorderOptions.Default)
 	{
 	}
 
-	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2ECE7F0", Offset = "0x2ECCDF0", VA = "0x182ECE7F0")]
+	[Token(Token = "0x6000085")]
+	[Address(RVA = "0x68B51B0", Offset = "0x68B41B0", VA = "0x68B51B0")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x2ECE890", Offset = "0x2ECCE90", VA = "0x182ECE890")]
+	[Token(Token = "0x6000086")]
+	[Address(RVA = "0x68B52D0", Offset = "0x68B42D0", VA = "0x68B52D0")]
 	public void Stop()
 	{
 	}
 
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x2ECE6A0", Offset = "0x2ECCCA0", VA = "0x182ECE6A0")]
+	[Token(Token = "0x600008A")]
+	[Address(RVA = "0x68B55D0", Offset = "0x68B45D0", VA = "0x68B55D0")]
 	public ProfilerRecorderSample GetSample(int index)
 	{
 		return default(ProfilerRecorderSample);
 	}
 
-	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x2ECE3C0", Offset = "0x2ECC9C0", VA = "0x182ECE3C0")]
+	[Token(Token = "0x600008B")]
+	[Address(RVA = "0x68B50C0", Offset = "0x68B40C0", VA = "0x68B50C0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	private static ProfilerRecorder Create(ProfilerRecorderHandle statHandle, int maxSampleCount, ProfilerRecorderOptions options)
 	{
 		return default(ProfilerRecorder);
 	}
 
-	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x2ECE330", Offset = "0x2ECC930", VA = "0x182ECE330")]
+	[Token(Token = "0x600008C")]
+	[Address(RVA = "0x68B5290", Offset = "0x68B4290", VA = "0x68B5290")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	private static void Control(ProfilerRecorder handle, ControlOptions options)
 	{
 	}
 
-	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x2ECE530", Offset = "0x2ECCB30", VA = "0x182ECE530")]
+	[Token(Token = "0x600008D")]
+	[Address(RVA = "0x68B53F0", Offset = "0x68B43F0", VA = "0x68B53F0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static long GetLastValue(ProfilerRecorder handle)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2ECE4B0", Offset = "0x2ECCAB0", VA = "0x182ECE4B0")]
+	[Token(Token = "0x600008E")]
+	[Address(RVA = "0x68B54C0", Offset = "0x68B44C0", VA = "0x68B54C0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static int GetCount(ProfilerRecorder handle, CountOptions countOptions)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2ECE7B0", Offset = "0x2ECCDB0", VA = "0x182ECE7B0")]
+	[Token(Token = "0x600008F")]
+	[Address(RVA = "0x68B5170", Offset = "0x68B4170", VA = "0x68B5170")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static bool GetValid(ProfilerRecorder handle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x2ECE5B0", Offset = "0x2ECCBB0", VA = "0x182ECE5B0")]
+	[Token(Token = "0x6000090")]
+	[Address(RVA = "0x68B5590", Offset = "0x68B4590", VA = "0x68B5590")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static bool GetRunning(ProfilerRecorder handle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2ECE640", Offset = "0x2ECCC40", VA = "0x182ECE640")]
+	[Token(Token = "0x6000091")]
+	[Address(RVA = "0x68B56A0", Offset = "0x68B46A0", VA = "0x68B56A0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true, ThrowsException = true)]
 	private static ProfilerRecorderSample GetSampleInternal(ProfilerRecorder handle, int index)
 	{
 		return default(ProfilerRecorderSample);
 	}
 
-	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2ECE420", Offset = "0x2ECCA20", VA = "0x182ECE420", Slot = "4")]
+	[Token(Token = "0x6000092")]
+	[Address(RVA = "0x68B58B0", Offset = "0x68B48B0", VA = "0x68B58B0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2ECE280", Offset = "0x2ECC880", VA = "0x182ECE280")]
+	[Token(Token = "0x6000093")]
+	[Address(RVA = "0x68B5240", Offset = "0x68B4240", VA = "0x68B5240")]
 	[BurstDiscard]
 	private void CheckInitializedAndThrow()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2ECE370", Offset = "0x2ECC970", VA = "0x182ECE370")]
+	[Token(Token = "0x6000094")]
+	[Address(RVA = "0x68B5710", Offset = "0x68B4710", VA = "0x68B5710")]
 	private static extern void Create_Injected([In] ref ProfilerRecorderHandle statHandle, int maxSampleCount, ProfilerRecorderOptions options, out ProfilerRecorder ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2ECE2F0", Offset = "0x2ECC8F0", VA = "0x182ECE2F0")]
+	[Token(Token = "0x6000095")]
+	[Address(RVA = "0x68B5760", Offset = "0x68B4760", VA = "0x68B5760")]
 	private static extern void Control_Injected([In] ref ProfilerRecorder handle, ControlOptions options);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x2ECE4F0", Offset = "0x2ECCAF0", VA = "0x182ECE4F0")]
+	[Token(Token = "0x6000096")]
+	[Address(RVA = "0x68B57A0", Offset = "0x68B47A0", VA = "0x68B57A0")]
 	private static extern long GetLastValue_Injected([In] ref ProfilerRecorder handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2ECE470", Offset = "0x2ECCA70", VA = "0x182ECE470")]
+	[Token(Token = "0x6000097")]
+	[Address(RVA = "0x68B57D0", Offset = "0x68B47D0", VA = "0x68B57D0")]
 	private static extern int GetCount_Injected([In] ref ProfilerRecorder handle, CountOptions countOptions);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x2ECE770", Offset = "0x2ECCD70", VA = "0x182ECE770")]
+	[Token(Token = "0x6000098")]
+	[Address(RVA = "0x68B5810", Offset = "0x68B4810", VA = "0x68B5810")]
 	private static extern bool GetValid_Injected([In] ref ProfilerRecorder handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2ECE570", Offset = "0x2ECCB70", VA = "0x182ECE570")]
+	[Token(Token = "0x6000099")]
+	[Address(RVA = "0x68B5840", Offset = "0x68B4840", VA = "0x68B5840")]
 	private static extern bool GetRunning_Injected([In] ref ProfilerRecorder handle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2ECE5F0", Offset = "0x2ECCBF0", VA = "0x182ECE5F0")]
+	[Token(Token = "0x600009A")]
+	[Address(RVA = "0x68B5870", Offset = "0x68B4870", VA = "0x68B5870")]
 	private static extern void GetSampleInternal_Injected([In] ref ProfilerRecorder handle, int index, out ProfilerRecorderSample ret);
 }

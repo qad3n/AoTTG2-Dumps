@@ -12,8 +12,8 @@ namespace UnityEngine.TextCore.LowLevel;
 [Token(Token = "0x200000E")]
 internal struct FontEngineUtilities
 {
-	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2FFD310", Offset = "0x2FFB910", VA = "0x182FFD310")]
+	[Token(Token = "0x6000090")]
+	[Address(RVA = "0x69FAD90", Offset = "0x69F9D90", VA = "0x69FAD90")]
 	internal static int MaxValue(int a, int b, int c)
 	{
 		return default(int);

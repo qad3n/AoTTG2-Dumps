@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_ResourceManager
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,7 +37,7 @@ public class TMP_ResourceManager
 		public readonly TMP_FontAsset fontAsset;
 
 		[Token(Token = "0x600035C")]
-		[Address(RVA = "0x2D337C0", Offset = "0x2D31DC0", VA = "0x182D337C0")]
+		[Address(RVA = "0x6734B60", Offset = "0x6733B60", VA = "0x6734B60")]
 		public FontAssetRef(int nameHashCode, int familyNameHashCode, int styleNameHashCode, TMP_FontAsset fontAsset)
 		{
 		}
@@ -71,7 +71,7 @@ public class TMP_ResourceManager
 	internal static int registeredFontAssetCount
 	{
 		[Token(Token = "0x6000350")]
-		[Address(RVA = "0x2D3E2D0", Offset = "0x2D3C8D0", VA = "0x182D3E2D0")]
+		[Address(RVA = "0x6734F50", Offset = "0x6733F50", VA = "0x6734F50")]
 		get
 		{
 			return default(int);
@@ -79,20 +79,20 @@ public class TMP_ResourceManager
 	}
 
 	[Token(Token = "0x600034D")]
-	[Address(RVA = "0x2D3D510", Offset = "0x2D3BB10", VA = "0x182D3D510")]
+	[Address(RVA = "0x67341D0", Offset = "0x67331D0", VA = "0x67341D0")]
 	internal static TMP_Settings GetTextSettings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600034E")]
-	[Address(RVA = "0x2D3D050", Offset = "0x2D3B650", VA = "0x182D3D050")]
+	[Address(RVA = "0x67342E0", Offset = "0x67332E0", VA = "0x67342E0")]
 	public static void AddFontAsset(TMP_FontAsset fontAsset)
 	{
 	}
 
 	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x2D3DDE0", Offset = "0x2D3C3E0", VA = "0x182D3DDE0")]
+	[Address(RVA = "0x6734B90", Offset = "0x6733B90", VA = "0x6734B90")]
 	public static void RemoveFontAsset(TMP_FontAsset fontAsset)
 	{
 	}
@@ -109,26 +109,26 @@ public class TMP_ResourceManager
 	}
 
 	[Token(Token = "0x6000353")]
-	[Address(RVA = "0x2D3DA20", Offset = "0x2D3C020", VA = "0x182D3DA20")]
+	[Address(RVA = "0x6734740", Offset = "0x6733740", VA = "0x6734740")]
 	private static void RemoveDestroyedFontAssetReferences()
 	{
 	}
 
 	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x2D3D630", Offset = "0x2D3BC30", VA = "0x182D3D630")]
+	[Address(RVA = "0x6734D10", Offset = "0x6733D10", VA = "0x6734D10")]
 	private static void ReassignLookupsToRegisteredFontAssets()
 	{
 	}
 
 	[Token(Token = "0x6000355")]
-	[Address(RVA = "0x2D3E040", Offset = "0x2D3C640", VA = "0x182D3E040")]
+	[Address(RVA = "0x6734FE0", Offset = "0x6733FE0", VA = "0x6734FE0")]
 	internal static bool TryGetFontAssetByName(int nameHashcode, out TMP_FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000356")]
-	[Address(RVA = "0x2D3DF70", Offset = "0x2D3C570", VA = "0x182D3DF70")]
+	[Address(RVA = "0x6735050", Offset = "0x6734050", VA = "0x6735050")]
 	internal static bool TryGetFontAssetByFamilyName(int familyNameHashCode, int styleNameHashCode, out TMP_FontAsset fontAsset)
 	{
 		return default(bool);
@@ -141,19 +141,19 @@ public class TMP_ResourceManager
 	}
 
 	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x2D3D4D0", Offset = "0x2D3BAD0", VA = "0x182D3D4D0")]
+	[Address(RVA = "0x6735110", Offset = "0x6734110", VA = "0x6735110")]
 	public static void ClearFontAssetGlyphCache()
 	{
 	}
 
 	[Token(Token = "0x6000359")]
-	[Address(RVA = "0x2D3D860", Offset = "0x2D3BE60", VA = "0x182D3D860")]
+	[Address(RVA = "0x6735170", Offset = "0x6734170", VA = "0x6735170")]
 	internal static void RebuildFontAssetCache()
 	{
 	}
 
 	[Token(Token = "0x600035A")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6735340", Offset = "0x6734340", VA = "0x6735340")]
 	public TMP_ResourceManager()
 	{
 	}

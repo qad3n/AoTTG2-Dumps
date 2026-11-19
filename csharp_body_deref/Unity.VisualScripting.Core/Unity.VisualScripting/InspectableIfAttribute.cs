@@ -19,14 +19,14 @@ public sealed class InspectableIfAttribute : Attribute, IInspectableAttribute
 	public int order
 	{
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "7")]
+		[Address(RVA = "0x6792E60", Offset = "0x6791E60", VA = "0x6792E60", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6792E70", Offset = "0x6791E70", VA = "0x6792E70")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,7 +37,7 @@ public sealed class InspectableIfAttribute : Attribute, IInspectableAttribute
 	public string conditionMember
 	{
 		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6792E80", Offset = "0x6791E80", VA = "0x6792E80")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,7 +46,7 @@ public sealed class InspectableIfAttribute : Attribute, IInspectableAttribute
 	}
 
 	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x2547AB0", Offset = "0x25460B0", VA = "0x182547AB0")]
+	[Address(RVA = "0x6792E30", Offset = "0x6791E30", VA = "0x6792E30")]
 	public InspectableIfAttribute(string conditionMember)
 	{
 	}

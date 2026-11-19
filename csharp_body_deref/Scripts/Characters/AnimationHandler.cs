@@ -11,247 +11,253 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000629")]
+[Token(Token = "0x2000688")]
 internal class AnimationHandler
 {
-	[Token(Token = "0x4001BA8")]
+	[Token(Token = "0x4001D4B")]
 	[FieldOffset(Offset = "0x10")]
 	private Animation Animation;
 
-	[Token(Token = "0x4001BA9")]
+	[Token(Token = "0x4001D4C")]
 	[FieldOffset(Offset = "0x18")]
 	private Animator Animator;
 
-	[Token(Token = "0x4001BAA")]
+	[Token(Token = "0x4001D4D")]
 	[FieldOffset(Offset = "0x20")]
 	private BaseCharacter Owner;
 
-	[Token(Token = "0x4001BAB")]
+	[Token(Token = "0x4001D4E")]
 	[FieldOffset(Offset = "0x28")]
 	private GameObject OwnerObject;
 
-	[Token(Token = "0x4001BAC")]
+	[Token(Token = "0x4001D4F")]
 	[FieldOffset(Offset = "0x30")]
 	private Renderer[] Renderers;
 
-	[Token(Token = "0x4001BAD")]
+	[Token(Token = "0x4001D50")]
 	[FieldOffset(Offset = "0x38")]
 	private Dictionary<string, float> _animationSpeed;
 
-	[Token(Token = "0x4001BAE")]
+	[Token(Token = "0x4001D51")]
 	[FieldOffset(Offset = "0x40")]
 	private Dictionary<string, float> _speedMultipliers;
 
-	[Token(Token = "0x4001BAF")]
+	[Token(Token = "0x4001D52")]
 	[FieldOffset(Offset = "0x48")]
 	private string _currentAnimation;
 
-	[Token(Token = "0x4001BB0")]
+	[Token(Token = "0x4001D53")]
 	[FieldOffset(Offset = "0x50")]
 	private float _currentAnimationStartTime;
 
-	[Token(Token = "0x4001BB1")]
+	[Token(Token = "0x4001D54")]
 	[FieldOffset(Offset = "0x54")]
 	private bool _isLegacy;
 
-	[Token(Token = "0x4001BB2")]
+	[Token(Token = "0x4001D55")]
 	[FieldOffset(Offset = "0x55")]
 	public bool LegacyCrossFadeTiming;
 
-	[Token(Token = "0x4001BB3")]
+	[Token(Token = "0x4001D56")]
 	[FieldOffset(Offset = "0x58")]
 	private Dictionary<string, AnimationClip> _animatorClips;
 
-	[Token(Token = "0x4001BB4")]
+	[Token(Token = "0x4001D57")]
 	[FieldOffset(Offset = "0x60")]
 	private Dictionary<string, string> _animatorStateNames;
 
-	[Token(Token = "0x4001BB5")]
+	[Token(Token = "0x4001D58")]
 	[FieldOffset(Offset = "0x68")]
 	private bool _shadowsEnabled;
 
-	[Token(Token = "0x4001BB6")]
+	[Token(Token = "0x4001D59")]
 	[FieldOffset(Offset = "0x69")]
 	private bool _visible;
 
-	[Token(Token = "0x4001BB7")]
+	[Token(Token = "0x4001D5A")]
 	[FieldOffset(Offset = "0x70")]
 	private Dictionary<Renderer, bool> _shadowCasters;
 
-	[Token(Token = "0x4001BB8")]
+	[Token(Token = "0x4001D5B")]
 	[FieldOffset(Offset = "0x78")]
 	private SkinQuality _skinQuality;
 
-	[Token(Token = "0x4001BB9")]
+	[Token(Token = "0x4001D5C")]
 	[FieldOffset(Offset = "0x7C")]
 	private int _renderStateVersion;
 
-	[Token(Token = "0x17000AB1")]
+	[Token(Token = "0x17000AF9")]
 	public int RenderStateVersion
 	{
-		[Token(Token = "0x6003CA9")]
-		[Address(RVA = "0x1BF1B70", Offset = "0x1BF0170", VA = "0x181BF1B70")]
+		[Token(Token = "0x6003F3A")]
+		[Address(RVA = "0x5AB2680", Offset = "0x5AB1680", VA = "0x5AB2680")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003C92")]
-	[Address(RVA = "0x2107F50", Offset = "0x2106550", VA = "0x182107F50")]
+	[Token(Token = "0x6003F22")]
+	[Address(RVA = "0x5AB0750", Offset = "0x5AAF750", VA = "0x5AB0750")]
 	public AnimationHandler(GameObject owner)
 	{
 	}
 
-	[Token(Token = "0x6003C93")]
-	[Address(RVA = "0x21078F0", Offset = "0x2105EF0", VA = "0x1821078F0")]
+	[Token(Token = "0x6003F23")]
+	[Address(RVA = "0x5AB0F70", Offset = "0x5AAFF70", VA = "0x5AB0F70")]
 	public void RefreshRenderers()
 	{
 	}
 
-	[Token(Token = "0x6003C94")]
-	[Address(RVA = "0x2106BE0", Offset = "0x21051E0", VA = "0x182106BE0")]
+	[Token(Token = "0x6003F24")]
+	[Address(RVA = "0x5AB1300", Offset = "0x5AB0300", VA = "0x5AB1300")]
+	public void RestoreDefaultShadows(Transform root)
+	{
+	}
+
+	[Token(Token = "0x6003F25")]
+	[Address(RVA = "0x5AB1410", Offset = "0x5AB0410", VA = "0x5AB1410")]
 	private bool CastsShadows(Renderer renderer, bool fallback = true)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C95")]
-	[Address(RVA = "0x2106FA0", Offset = "0x21055A0", VA = "0x182106FA0")]
+	[Token(Token = "0x6003F26")]
+	[Address(RVA = "0x5AB1490", Offset = "0x5AB0490", VA = "0x5AB1490")]
 	public string GetCurrentAnimation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003C96")]
-	[Address(RVA = "0x2107270", Offset = "0x2105870", VA = "0x182107270")]
+	[Token(Token = "0x6003F27")]
+	[Address(RVA = "0x5AB17E0", Offset = "0x5AB07E0", VA = "0x5AB17E0")]
 	public float GetLength(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C97")]
-	[Address(RVA = "0x21073A0", Offset = "0x21059A0", VA = "0x1821073A0")]
+	[Token(Token = "0x6003F28")]
+	[Address(RVA = "0x5AB1870", Offset = "0x5AB0870", VA = "0x5AB1870")]
 	public float GetSpeed(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C98")]
-	[Address(RVA = "0x2106F40", Offset = "0x2105540", VA = "0x182106F40")]
+	[Token(Token = "0x6003F29")]
+	[Address(RVA = "0x5AB1920", Offset = "0x5AB0920", VA = "0x5AB1920")]
 	public float GetBaseSpeed(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C99")]
-	[Address(RVA = "0x2107440", Offset = "0x2105A40", VA = "0x182107440")]
+	[Token(Token = "0x6003F2A")]
+	[Address(RVA = "0x5AB1970", Offset = "0x5AB0970", VA = "0x5AB1970")]
 	public float GetTotalTime(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C9A")]
-	[Address(RVA = "0x2107310", Offset = "0x2105910", VA = "0x182107310")]
+	[Token(Token = "0x6003F2B")]
+	[Address(RVA = "0x5AB19B0", Offset = "0x5AB09B0", VA = "0x5AB19B0")]
 	public float GetNormalizedTime(string name)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C9B")]
-	[Address(RVA = "0x21071B0", Offset = "0x21057B0", VA = "0x1821071B0")]
+	[Token(Token = "0x6003F2C")]
+	[Address(RVA = "0x5AB1A30", Offset = "0x5AB0A30", VA = "0x5AB1A30")]
 	public float GetCurrentNormalizedTime()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003C9C")]
-	[Address(RVA = "0x2107490", Offset = "0x2105A90", VA = "0x182107490")]
+	[Token(Token = "0x6003F2D")]
+	[Address(RVA = "0x5AA8860", Offset = "0x5AA7860", VA = "0x5AA8860")]
 	public bool IsPlaying(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003C9D")]
-	[Address(RVA = "0x21077B0", Offset = "0x2105DB0", VA = "0x1821077B0")]
+	[Token(Token = "0x6003F2E")]
+	[Address(RVA = "0x5AB1AC0", Offset = "0x5AB0AC0", VA = "0x5AB1AC0")]
 	public void Play(string name, float startTime, bool reset = false)
 	{
 	}
 
-	[Token(Token = "0x6003C9E")]
-	[Address(RVA = "0x2106C60", Offset = "0x2105260", VA = "0x182106C60")]
+	[Token(Token = "0x6003F2F")]
+	[Address(RVA = "0x5AB1BE0", Offset = "0x5AB0BE0", VA = "0x5AB1BE0")]
 	public void CrossFade(string name, float fade, float startTime)
 	{
 	}
 
-	[Token(Token = "0x6003C9F")]
-	[Address(RVA = "0x21074D0", Offset = "0x2105AD0", VA = "0x1821074D0")]
+	[Token(Token = "0x6003F30")]
+	[Address(RVA = "0x5AB1DB0", Offset = "0x5AB0DB0", VA = "0x5AB1DB0")]
 	private void LegacyCrossFade(string name, float fade, float startTime)
 	{
 	}
 
-	[Token(Token = "0x6003CA0")]
-	[Address(RVA = "0x2107E50", Offset = "0x2106450", VA = "0x182107E50")]
+	[Token(Token = "0x6003F31")]
+	[Address(RVA = "0x5AB1EF0", Offset = "0x5AB0EF0", VA = "0x5AB1EF0")]
 	public void SetSpeed(string name, float speed)
 	{
 	}
 
-	[Token(Token = "0x6003CA1")]
-	[Address(RVA = "0x2107DD0", Offset = "0x21063D0", VA = "0x182107DD0")]
+	[Token(Token = "0x6003F32")]
+	[Address(RVA = "0x5AB1FF0", Offset = "0x5AB0FF0", VA = "0x5AB1FF0")]
 	public void SetSpeedMultiplier(string name, float multiplier)
 	{
 	}
 
-	[Token(Token = "0x6003CA2")]
-	[Address(RVA = "0x2106B30", Offset = "0x2105130", VA = "0x182106B30")]
+	[Token(Token = "0x6003F33")]
+	[Address(RVA = "0x5AB1F60", Offset = "0x5AB0F60", VA = "0x5AB1F60")]
 	private void ApplySpeed(string name)
 	{
 	}
 
-	[Token(Token = "0x6003CA3")]
-	[Address(RVA = "0x2107C20", Offset = "0x2106220", VA = "0x182107C20")]
+	[Token(Token = "0x6003F34")]
+	[Address(RVA = "0x5AB2060", Offset = "0x5AB1060", VA = "0x5AB2060")]
 	public void SetSpeedAll(float speed)
 	{
 	}
 
-	[Token(Token = "0x6003CA4")]
-	[Address(RVA = "0x2107B90", Offset = "0x2106190", VA = "0x182107B90")]
+	[Token(Token = "0x6003F35")]
+	[Address(RVA = "0x5AB1240", Offset = "0x5AB0240", VA = "0x5AB1240")]
 	public void SetCullingType(bool alwaysAnimate)
 	{
 	}
 
-	[Token(Token = "0x6003CA5")]
-	[Address(RVA = "0x2107640", Offset = "0x2105C40", VA = "0x182107640")]
+	[Token(Token = "0x6003F36")]
+	[Address(RVA = "0x5AB2230", Offset = "0x5AB1230", VA = "0x5AB2230")]
 	public void OnDistanceUpdate(float distance)
 	{
 	}
 
-	[Token(Token = "0x6003CA6")]
-	[Address(RVA = "0x2107ED0", Offset = "0x21064D0", VA = "0x182107ED0")]
+	[Token(Token = "0x6003F37")]
+	[Address(RVA = "0x5AB2520", Offset = "0x5AB1520", VA = "0x5AB2520")]
 	private void SetVisible(bool visible)
 	{
 	}
 
-	[Token(Token = "0x6003CA7")]
-	[Address(RVA = "0x2107C00", Offset = "0x2106200", VA = "0x182107C00")]
+	[Token(Token = "0x6003F38")]
+	[Address(RVA = "0x5AB2610", Offset = "0x5AB1610", VA = "0x5AB2610")]
 	private void SetQuality(SkinQuality quality)
 	{
 	}
 
-	[Token(Token = "0x6003CA8")]
-	[Address(RVA = "0x2107C10", Offset = "0x2106210", VA = "0x182107C10")]
+	[Token(Token = "0x6003F39")]
+	[Address(RVA = "0x5AB25A0", Offset = "0x5AB15A0", VA = "0x5AB25A0")]
 	private void SetShadows(bool shadows)
 	{
 	}
 
-	[Token(Token = "0x6003CAA")]
-	[Address(RVA = "0x2106850", Offset = "0x2104E50", VA = "0x182106850")]
+	[Token(Token = "0x6003F3B")]
+	[Address(RVA = "0x5AB12A0", Offset = "0x5AB02A0", VA = "0x5AB12A0")]
 	private void ApplyRenderState()
 	{
 	}
 
-	[Token(Token = "0x6003CAB")]
-	[Address(RVA = "0x21069E0", Offset = "0x2104FE0", VA = "0x1821069E0")]
+	[Token(Token = "0x6003F3C")]
+	[Address(RVA = "0x5AB2690", Offset = "0x5AB1690", VA = "0x5AB2690")]
 	public void ApplyRenderState(Renderer renderer)
 	{
 	}

@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 
 namespace Mono.Security;
 
-[Token(Token = "0x200005E")]
+[Token(Token = "0x2000040")]
 [DefaultMember("Item")]
 internal class ASN1
 {
-	[Token(Token = "0x40001BD")]
+	[Token(Token = "0x400013B")]
 	[FieldOffset(Offset = "0x10")]
 	private byte m_nTag;
 
-	[Token(Token = "0x40001BE")]
+	[Token(Token = "0x400013C")]
 	[FieldOffset(Offset = "0x18")]
 	private byte[] m_aValue;
 
-	[Token(Token = "0x40001BF")]
+	[Token(Token = "0x400013D")]
 	[FieldOffset(Offset = "0x20")]
 	private ArrayList elist;
 
 	[Token(Token = "0x17000017")]
 	public int Count
 	{
-		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x1912730", Offset = "0x1910D30", VA = "0x181912730")]
+		[Token(Token = "0x6000109")]
+		[Address(RVA = "0x52E79A0", Offset = "0x52E69A0", VA = "0x52E79A0")]
 		get
 		{
 			return default(int);
@@ -41,60 +41,60 @@ internal class ASN1
 	[Token(Token = "0x17000018")]
 	public byte[] Value
 	{
-		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x19401C0", Offset = "0x193E7C0", VA = "0x1819401C0")]
+		[Token(Token = "0x600010A")]
+		[Address(RVA = "0x52E79C0", Offset = "0x52E69C0", VA = "0x52E79C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x19126A0", Offset = "0x1910CA0", VA = "0x1819126A0")]
+	[Token(Token = "0x6000106")]
+	[Address(RVA = "0x52E7610", Offset = "0x52E6610", VA = "0x52E7610")]
 	public ASN1(byte tag)
 	{
 	}
 
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x19126E0", Offset = "0x1910CE0", VA = "0x1819126E0")]
+	[Token(Token = "0x6000107")]
+	[Address(RVA = "0x52E7640", Offset = "0x52E6640", VA = "0x52E7640")]
 	public ASN1(byte tag, byte[] data)
 	{
 	}
 
-	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x1940030", Offset = "0x193E630", VA = "0x181940030")]
+	[Token(Token = "0x6000108")]
+	[Address(RVA = "0x52E7670", Offset = "0x52E6670", VA = "0x52E7670")]
 	public ASN1(byte[] data)
 	{
 	}
 
-	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x193F2F0", Offset = "0x193D8F0", VA = "0x18193F2F0")]
+	[Token(Token = "0x600010B")]
+	[Address(RVA = "0x52E7A50", Offset = "0x52E6A50", VA = "0x52E7A50")]
 	public Mono.Security.ASN1 Add(Mono.Security.ASN1 asn1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x193F690", Offset = "0x193DC90", VA = "0x18193F690", Slot = "4")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x52E7AE0", Offset = "0x52E6AE0", VA = "0x52E7AE0", Slot = "4")]
 	public virtual byte[] GetBytes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x193F4B0", Offset = "0x193DAB0", VA = "0x18193F4B0")]
+	[Token(Token = "0x600010D")]
+	[Address(RVA = "0x52E77F0", Offset = "0x52E67F0", VA = "0x52E77F0")]
 	protected void Decode(byte[] asn1, ref int anPos, int anLength)
 	{
 	}
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x193F390", Offset = "0x193D990", VA = "0x18193F390")]
+	[Token(Token = "0x600010E")]
+	[Address(RVA = "0x52E8220", Offset = "0x52E7220", VA = "0x52E8220")]
 	protected void DecodeTLV(byte[] asn1, ref int pos, out byte tag, out int length, out byte[] content)
 	{
 	}
 
-	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x193FD20", Offset = "0x193E320", VA = "0x18193FD20", Slot = "3")]
+	[Token(Token = "0x600010F")]
+	[Address(RVA = "0x52E8320", Offset = "0x52E7320", VA = "0x52E8320", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

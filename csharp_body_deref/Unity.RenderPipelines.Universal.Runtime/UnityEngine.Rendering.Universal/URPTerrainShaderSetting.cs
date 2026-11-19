@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.URPTerrainShaderSetting
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ public class URPTerrainShaderSetting : IRenderPipelineGraphicsSettings
 	public int version
 	{
 		[Token(Token = "0x6000902")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
+		[Address(RVA = "0x6689780", Offset = "0x6688780", VA = "0x6689780", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -52,20 +52,20 @@ public class URPTerrainShaderSetting : IRenderPipelineGraphicsSettings
 	public bool includeTerrainShaders
 	{
 		[Token(Token = "0x6000903")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x6689790", Offset = "0x6688790", VA = "0x6689790")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000904")]
-		[Address(RVA = "0x2CA2DA0", Offset = "0x2CA13A0", VA = "0x182CA2DA0")]
+		[Address(RVA = "0x66897A0", Offset = "0x66887A0", VA = "0x66897A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x2CA2D90", Offset = "0x2CA1390", VA = "0x182CA2D90")]
+	[Address(RVA = "0x6689800", Offset = "0x6688800", VA = "0x6689800")]
 	public URPTerrainShaderSetting()
 	{
 	}

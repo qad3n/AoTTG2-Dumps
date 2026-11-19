@@ -37,7 +37,7 @@ internal struct FrameTimeSample
 	internal float GPUFrameTime;
 
 	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x2A781E0", Offset = "0x2A767E0", VA = "0x182A781E0")]
+	[Address(RVA = "0x64D80E0", Offset = "0x64D70E0", VA = "0x64D80E0")]
 	internal FrameTimeSample(float initValue)
 	{
 	}

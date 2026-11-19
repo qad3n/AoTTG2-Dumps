@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.XROcclusionMeshPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,38 +35,38 @@ public class XROcclusionMeshPass : ScriptableRenderPass
 		internal TextureHandle cameraColorAttachment;
 
 		[Token(Token = "0x6000490")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x662A150", Offset = "0x6629150", VA = "0x662A150")]
 		public PassData()
 		{
 		}
 	}
 
 	[Token(Token = "0x400040A")]
-	[FieldOffset(Offset = "0x60")]
+	[FieldOffset(Offset = "0x5C")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public bool m_IsActiveTargetBackBuffer;
 
 	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x6629830", Offset = "0x6628830", VA = "0x6629830", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x2C52280", Offset = "0x2C50880", VA = "0x182C52280")]
+	[Address(RVA = "0x6629840", Offset = "0x6628840", VA = "0x6629840")]
 	public XROcclusionMeshPass(RenderPassEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x2C51BF0", Offset = "0x2C501F0", VA = "0x182C51BF0")]
+	[Address(RVA = "0x66298C0", Offset = "0x66288C0", VA = "0x66298C0")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData data)
 	{
 	}
 
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x2C51C80", Offset = "0x2C50280", VA = "0x182C51C80")]
+	[Address(RVA = "0x6629940", Offset = "0x6628940", VA = "0x6629940")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle cameraColorAttachment, in TextureHandle cameraDepthAttachment)
 	{
 	}

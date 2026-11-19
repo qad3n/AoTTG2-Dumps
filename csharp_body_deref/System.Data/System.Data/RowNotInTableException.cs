@@ -15,19 +15,19 @@ namespace System.Data;
 public class RowNotInTableException : DataException
 {
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Address(RVA = "0x5E6BE20", Offset = "0x5E6AE20", VA = "0x5E6BE20")]
 	protected RowNotInTableException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x24E4630", Offset = "0x24E2C30", VA = "0x1824E4630")]
+	[Address(RVA = "0x5E6BE30", Offset = "0x5E6AE30", VA = "0x5E6BE30")]
 	public RowNotInTableException()
 	{
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x24E4680", Offset = "0x24E2C80", VA = "0x1824E4680")]
+	[Address(RVA = "0x5E6BE70", Offset = "0x5E6AE70", VA = "0x5E6BE70")]
 	public RowNotInTableException(string s)
 	{
 	}

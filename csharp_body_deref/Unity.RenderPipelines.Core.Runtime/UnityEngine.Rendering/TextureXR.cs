@@ -104,7 +104,7 @@ public static class TextureXR
 	public static int maxViews
 	{
 		[Token(Token = "0x6000CA9")]
-		[Address(RVA = "0x2B4EA70", Offset = "0x2B4D070", VA = "0x182B4EA70")]
+		[Address(RVA = "0x65348D0", Offset = "0x65338D0", VA = "0x65348D0")]
 		set
 		{
 		}
@@ -114,7 +114,7 @@ public static class TextureXR
 	public static int slices
 	{
 		[Token(Token = "0x6000CAA")]
-		[Address(RVA = "0x2B4E9C0", Offset = "0x2B4CFC0", VA = "0x182B4E9C0")]
+		[Address(RVA = "0x6534920", Offset = "0x6533920", VA = "0x6534920")]
 		get
 		{
 			return default(int);
@@ -125,7 +125,7 @@ public static class TextureXR
 	public static bool useTexArray
 	{
 		[Token(Token = "0x6000CAB")]
-		[Address(RVA = "0x2B4EA10", Offset = "0x2B4D010", VA = "0x182B4EA10")]
+		[Address(RVA = "0x6534990", Offset = "0x6533990", VA = "0x6534990")]
 		get
 		{
 			return default(bool);
@@ -136,7 +136,7 @@ public static class TextureXR
 	public static TextureDimension dimension
 	{
 		[Token(Token = "0x6000CAC")]
-		[Address(RVA = "0x2B4E930", Offset = "0x2B4CF30", VA = "0x182B4E930")]
+		[Address(RVA = "0x65349E0", Offset = "0x65339E0", VA = "0x65349E0")]
 		get
 		{
 			return default(TextureDimension);
@@ -144,83 +144,83 @@ public static class TextureXR
 	}
 
 	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x2B4D630", Offset = "0x2B4BC30", VA = "0x182B4D630")]
+	[Address(RVA = "0x6534A70", Offset = "0x6533A70", VA = "0x6534A70")]
 	public static RTHandle GetBlackUIntTexture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x2B4D700", Offset = "0x2B4BD00", VA = "0x182B4D700")]
+	[Address(RVA = "0x6534B50", Offset = "0x6533B50", VA = "0x6534B50")]
 	public static RTHandle GetClearTexture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x2B4D7D0", Offset = "0x2B4BDD0", VA = "0x182B4D7D0")]
+	[Address(RVA = "0x6534C30", Offset = "0x6533C30", VA = "0x6534C30")]
 	public static RTHandle GetMagentaTexture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x2B4D550", Offset = "0x2B4BB50", VA = "0x182B4D550")]
+	[Address(RVA = "0x6534D10", Offset = "0x6533D10", VA = "0x6534D10")]
 	public static RTHandle GetBlackTexture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x2B4D4F0", Offset = "0x2B4BAF0", VA = "0x182B4D4F0")]
+	[Address(RVA = "0x6534DF0", Offset = "0x6533DF0", VA = "0x6534DF0")]
 	public static RTHandle GetBlackTextureArray()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB2")]
-	[Address(RVA = "0x2B4D490", Offset = "0x2B4BA90", VA = "0x182B4D490")]
+	[Address(RVA = "0x6534E60", Offset = "0x6533E60", VA = "0x6534E60")]
 	public static RTHandle GetBlackTexture3D()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x2B4D8A0", Offset = "0x2B4BEA0", VA = "0x182B4D8A0")]
+	[Address(RVA = "0x6534ED0", Offset = "0x6533ED0", VA = "0x6534ED0")]
 	public static RTHandle GetWhiteTexture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB4")]
-	[Address(RVA = "0x2B4D980", Offset = "0x2B4BF80", VA = "0x182B4D980")]
+	[Address(RVA = "0x6534FB0", Offset = "0x6533FB0", VA = "0x6534FB0")]
 	public static void Initialize(CommandBuffer cmd, ComputeShader clearR32_UIntShader)
 	{
 	}
 
 	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x2B4D270", Offset = "0x2B4B870", VA = "0x182B4D270")]
+	[Address(RVA = "0x65364F0", Offset = "0x65354F0", VA = "0x65364F0")]
 	private static Texture2DArray CreateTexture2DArrayFromTexture2D(Texture2D source, string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB6")]
-	[Address(RVA = "0x2B4CDD0", Offset = "0x2B4B3D0", VA = "0x182B4CDD0")]
+	[Address(RVA = "0x6536080", Offset = "0x6535080", VA = "0x6536080")]
 	private static Texture CreateBlackUIntTextureArray(CommandBuffer cmd, ComputeShader clearR32_UIntShader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x2B4D070", Offset = "0x2B4B670", VA = "0x182B4D070")]
+	[Address(RVA = "0x6536330", Offset = "0x6535330", VA = "0x6536330")]
 	private static Texture CreateBlackUintTexture(CommandBuffer cmd, ComputeShader clearR32_UIntShader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x2B4CD00", Offset = "0x2B4B300", VA = "0x182B4CD00")]
+	[Address(RVA = "0x6536710", Offset = "0x6535710", VA = "0x6536710")]
 	private static Texture3D CreateBlackTexture3D(string name)
 	{
 		return null;

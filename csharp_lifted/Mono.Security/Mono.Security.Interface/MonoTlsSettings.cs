@@ -1,0 +1,332 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Interface.MonoTlsSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+using Il2CppDummyDll;
+
+namespace Mono.Security.Interface;
+
+[Token(Token = "0x2000032")]
+public sealed class MonoTlsSettings
+{
+	[Token(Token = "0x40001ED")]
+	[FieldOffset(Offset = "0x70")]
+	private bool cloned;
+
+	[Token(Token = "0x40001EE")]
+	[FieldOffset(Offset = "0x71")]
+	private bool checkCertName;
+
+	[Token(Token = "0x40001EF")]
+	[FieldOffset(Offset = "0x72")]
+	private bool checkCertRevocationStatus;
+
+	[Token(Token = "0x40001F0")]
+	[FieldOffset(Offset = "0x73")]
+	private bool? useServicePointManagerCallback;
+
+	[Token(Token = "0x40001F1")]
+	[FieldOffset(Offset = "0x75")]
+	private bool skipSystemValidators;
+
+	[Token(Token = "0x40001F2")]
+	[FieldOffset(Offset = "0x76")]
+	private bool callbackNeedsChain;
+
+	[Token(Token = "0x40001F3")]
+	[FieldOffset(Offset = "0x78")]
+	private ICertificateValidator certificateValidator;
+
+	[Token(Token = "0x40001F4")]
+	[FieldOffset(Offset = "0x0")]
+	private static MonoTlsSettings defaultSettings;
+
+	[Token(Token = "0x17000069")]
+	public MonoRemoteCertificateValidationCallback RemoteCertificateValidationCallback
+	{
+		[Token(Token = "0x6000137")]
+		[Address(RVA = "0x52C8010", Offset = "0x52C7010", VA = "0x52C8010")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000138")]
+		[Address(RVA = "0x52C8020", Offset = "0x52C7020", VA = "0x52C8020")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006A")]
+	public MonoLocalCertificateSelectionCallback ClientCertificateSelectionCallback
+	{
+		[Token(Token = "0x6000139")]
+		[Address(RVA = "0x52C8030", Offset = "0x52C7030", VA = "0x52C8030")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600013A")]
+		[Address(RVA = "0x52C8040", Offset = "0x52C7040", VA = "0x52C8040")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006B")]
+	public bool? UseServicePointManagerCallback
+	{
+		[Token(Token = "0x600013B")]
+		[Address(RVA = "0x52C8050", Offset = "0x52C7050", VA = "0x52C8050")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600013C")]
+		[Address(RVA = "0x52C8060", Offset = "0x52C7060", VA = "0x52C8060")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006C")]
+	public bool CallbackNeedsCertificateChain
+	{
+		[Token(Token = "0x600013D")]
+		[Address(RVA = "0x52C8070", Offset = "0x52C7070", VA = "0x52C8070")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700006D")]
+	public DateTime? CertificateValidationTime
+	{
+		[Token(Token = "0x600013E")]
+		[Address(RVA = "0x52C8080", Offset = "0x52C7080", VA = "0x52C8080")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600013F")]
+		[Address(RVA = "0x52C8090", Offset = "0x52C7090", VA = "0x52C8090")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006E")]
+	public X509CertificateCollection TrustAnchors
+	{
+		[Token(Token = "0x6000140")]
+		[Address(RVA = "0x52C80A0", Offset = "0x52C70A0", VA = "0x52C80A0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000141")]
+		[Address(RVA = "0x52C80B0", Offset = "0x52C70B0", VA = "0x52C80B0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006F")]
+	public object UserSettings
+	{
+		[Token(Token = "0x6000142")]
+		[Address(RVA = "0x52C80C0", Offset = "0x52C70C0", VA = "0x52C80C0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000143")]
+		[Address(RVA = "0x52C80D0", Offset = "0x52C70D0", VA = "0x52C80D0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000070")]
+	internal string[] CertificateSearchPaths
+	{
+		[Token(Token = "0x6000144")]
+		[Address(RVA = "0x52C80E0", Offset = "0x52C70E0", VA = "0x52C80E0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000145")]
+		[Address(RVA = "0x52C80F0", Offset = "0x52C70F0", VA = "0x52C80F0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000071")]
+	internal bool SendCloseNotify
+	{
+		[Token(Token = "0x6000146")]
+		[Address(RVA = "0x52C8100", Offset = "0x52C7100", VA = "0x52C8100")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000147")]
+		[Address(RVA = "0x52C8110", Offset = "0x52C7110", VA = "0x52C8110")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000072")]
+	public string[] ClientCertificateIssuers
+	{
+		[Token(Token = "0x6000148")]
+		[Address(RVA = "0x52C8120", Offset = "0x52C7120", VA = "0x52C8120")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000149")]
+		[Address(RVA = "0x52C8130", Offset = "0x52C7130", VA = "0x52C8130")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000073")]
+	public bool DisallowUnauthenticatedCertificateRequest
+	{
+		[Token(Token = "0x600014A")]
+		[Address(RVA = "0x52C8140", Offset = "0x52C7140", VA = "0x52C8140")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x600014B")]
+		[Address(RVA = "0x52C8150", Offset = "0x52C7150", VA = "0x52C8150")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000074")]
+	public TlsProtocols? EnabledProtocols
+	{
+		[Token(Token = "0x600014C")]
+		[Address(RVA = "0x52C8160", Offset = "0x52C7160", VA = "0x52C8160")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600014D")]
+		[Address(RVA = "0x52C8170", Offset = "0x52C7170", VA = "0x52C8170")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000075")]
+	[CLSCompliant(false)]
+	public CipherSuiteCode[] EnabledCiphers
+	{
+		[Token(Token = "0x600014E")]
+		[Address(RVA = "0x52C8180", Offset = "0x52C7180", VA = "0x52C8180")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600014F")]
+		[Address(RVA = "0x52C8190", Offset = "0x52C7190", VA = "0x52C8190")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000076")]
+	public static MonoTlsSettings DefaultSettings
+	{
+		[Token(Token = "0x6000151")]
+		[Address(RVA = "0x52C81B0", Offset = "0x52C71B0", VA = "0x52C81B0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000077")]
+	[Obsolete("Do not use outside System.dll!")]
+	public ICertificateValidator CertificateValidator
+	{
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x52C8350", Offset = "0x52C7350", VA = "0x52C8350")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6000150")]
+	[Address(RVA = "0x52C81A0", Offset = "0x52C71A0", VA = "0x52C81A0")]
+	public MonoTlsSettings()
+	{
+	}
+
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x52C8240", Offset = "0x52C7240", VA = "0x52C8240")]
+	public static MonoTlsSettings CopyDefaultSettings()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x52C8360", Offset = "0x52C7360", VA = "0x52C8360")]
+	[Obsolete("Do not use outside System.dll!")]
+	public MonoTlsSettings CloneWithValidator(ICertificateValidator validator)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x52C8300", Offset = "0x52C7300", VA = "0x52C8300")]
+	public MonoTlsSettings Clone()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x52C83D0", Offset = "0x52C73D0", VA = "0x52C83D0")]
+	private MonoTlsSettings(MonoTlsSettings other)
+	{
+	}
+}

@@ -16,8 +16,8 @@ namespace Unity.Collections.LowLevel.Unsafe;
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeContainerSupportsDeferredConvertListToArray : Attribute
 {
-	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x68B7D00", Offset = "0x68B6D00", VA = "0x68B7D00")]
 	public NativeContainerSupportsDeferredConvertListToArray()
 	{
 	}

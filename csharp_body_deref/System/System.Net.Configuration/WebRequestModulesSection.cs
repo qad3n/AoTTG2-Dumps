@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FF")]
+[Token(Token = "0x20003BB")]
 public sealed class WebRequestModulesSection : ConfigurationSection
 {
-	[Token(Token = "0x170005F6")]
+	[Token(Token = "0x170005C8")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001ADF")]
-		[Address(RVA = "0x282CF40", Offset = "0x282B540", VA = "0x18282CF40", Slot = "4")]
+		[Token(Token = "0x6001925")]
+		[Address(RVA = "0x61D2060", Offset = "0x61D1060", VA = "0x61D2060", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005F7")]
+	[Token(Token = "0x170005C9")]
 	public WebRequestModuleElementCollection WebRequestModules
 	{
-		[Token(Token = "0x6001AE0")]
-		[Address(RVA = "0x282CF70", Offset = "0x282B570", VA = "0x18282CF70")]
+		[Token(Token = "0x6001926")]
+		[Address(RVA = "0x61D2090", Offset = "0x61D1090", VA = "0x61D2090")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001ADE")]
-	[Address(RVA = "0x282CF10", Offset = "0x282B510", VA = "0x18282CF10")]
+	[Token(Token = "0x6001924")]
+	[Address(RVA = "0x61D2030", Offset = "0x61D1030", VA = "0x61D2030")]
 	public WebRequestModulesSection()
 	{
 	}
 
-	[Token(Token = "0x6001AE1")]
-	[Address(RVA = "0x282CEB0", Offset = "0x282B4B0", VA = "0x18282CEB0", Slot = "6")]
+	[Token(Token = "0x6001927")]
+	[Address(RVA = "0x61D20C0", Offset = "0x61D10C0", VA = "0x61D20C0", Slot = "6")]
 	protected override void InitializeDefault()
 	{
 	}
 
-	[Token(Token = "0x6001AE2")]
-	[Address(RVA = "0x282CEE0", Offset = "0x282B4E0", VA = "0x18282CEE0", Slot = "8")]
+	[Token(Token = "0x6001928")]
+	[Address(RVA = "0x61D20F0", Offset = "0x61D10F0", VA = "0x61D20F0", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

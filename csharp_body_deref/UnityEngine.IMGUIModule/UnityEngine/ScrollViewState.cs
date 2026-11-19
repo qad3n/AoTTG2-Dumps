@@ -54,7 +54,7 @@ internal class ScrollViewState
 	public float previousTimeSinceStartup;
 
 	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69A31C0", Offset = "0x69A21C0", VA = "0x69A31C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public ScrollViewState()
 	{

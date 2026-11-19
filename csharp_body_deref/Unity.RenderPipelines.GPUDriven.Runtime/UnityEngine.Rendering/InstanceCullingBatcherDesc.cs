@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceCullingBatcherDesc
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ internal struct InstanceCullingBatcherDesc
 	public OnCullingCompleteCallback onCompleteCallback;
 
 	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x2BDF280", Offset = "0x2BDD880", VA = "0x182BDF280")]
+	[Address(RVA = "0x65CA2E0", Offset = "0x65C92E0", VA = "0x65CA2E0")]
 	public static InstanceCullingBatcherDesc NewDefault()
 	{
 		return default(InstanceCullingBatcherDesc);

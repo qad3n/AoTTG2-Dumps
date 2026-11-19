@@ -11,102 +11,102 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000156")]
+[Token(Token = "0x2000117")]
 [DefaultEvent("DoWork")]
 public class BackgroundWorker : Component
 {
-	[Token(Token = "0x40005F7")]
+	[Token(Token = "0x4000528")]
 	[FieldOffset(Offset = "0x28")]
 	private bool _canCancelWorker;
 
-	[Token(Token = "0x40005F8")]
+	[Token(Token = "0x4000529")]
 	[FieldOffset(Offset = "0x29")]
 	private bool _workerReportsProgress;
 
-	[Token(Token = "0x40005F9")]
+	[Token(Token = "0x400052A")]
 	[FieldOffset(Offset = "0x2A")]
 	private bool _cancellationPending;
 
-	[Token(Token = "0x40005FA")]
+	[Token(Token = "0x400052B")]
 	[FieldOffset(Offset = "0x2B")]
 	private bool _isRunning;
 
-	[Token(Token = "0x40005FB")]
+	[Token(Token = "0x400052C")]
 	[FieldOffset(Offset = "0x30")]
 	private AsyncOperation _asyncOperation;
 
-	[Token(Token = "0x40005FC")]
+	[Token(Token = "0x400052D")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly SendOrPostCallback _operationCompleted;
 
-	[Token(Token = "0x40005FD")]
+	[Token(Token = "0x400052E")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly SendOrPostCallback _progressReporter;
 
-	[Token(Token = "0x40005FE")]
+	[Token(Token = "0x400052F")]
 	[FieldOffset(Offset = "0x48")]
 	[CompilerGenerated]
 	private DoWorkEventHandler m_DoWork;
 
-	[Token(Token = "0x40005FF")]
+	[Token(Token = "0x4000530")]
 	[FieldOffset(Offset = "0x50")]
 	[CompilerGenerated]
 	private ProgressChangedEventHandler m_ProgressChanged;
 
-	[Token(Token = "0x4000600")]
+	[Token(Token = "0x4000531")]
 	[FieldOffset(Offset = "0x58")]
 	[CompilerGenerated]
 	private RunWorkerCompletedEventHandler m_RunWorkerCompleted;
 
-	[Token(Token = "0x170001A0")]
+	[Token(Token = "0x17000171")]
 	public bool CancellationPending
 	{
-		[Token(Token = "0x6000896")]
-		[Address(RVA = "0x1573430", Offset = "0x1571A30", VA = "0x181573430")]
+		[Token(Token = "0x60006D6")]
+		[Address(RVA = "0x6220F60", Offset = "0x621FF60", VA = "0x6220F60")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001A1")]
+	[Token(Token = "0x17000172")]
 	public bool IsBusy
 	{
-		[Token(Token = "0x600089A")]
-		[Address(RVA = "0x20FB1B0", Offset = "0x20F97B0", VA = "0x1820FB1B0")]
+		[Token(Token = "0x60006DA")]
+		[Address(RVA = "0x62210F0", Offset = "0x62200F0", VA = "0x62210F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001A2")]
+	[Token(Token = "0x17000173")]
 	public bool WorkerReportsProgress
 	{
-		[Token(Token = "0x60008A7")]
-		[Address(RVA = "0x1573470", Offset = "0x1571A70", VA = "0x181573470")]
+		[Token(Token = "0x60006E7")]
+		[Address(RVA = "0x6221780", Offset = "0x6220780", VA = "0x6221780")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60008A8")]
-		[Address(RVA = "0x15736C0", Offset = "0x1571CC0", VA = "0x1815736C0")]
+		[Token(Token = "0x60006E8")]
+		[Address(RVA = "0x6221790", Offset = "0x6220790", VA = "0x6221790")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001A3")]
+	[Token(Token = "0x17000174")]
 	public bool WorkerSupportsCancellation
 	{
-		[Token(Token = "0x60008A9")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Token(Token = "0x60006E9")]
+		[Address(RVA = "0x62217A0", Offset = "0x62207A0", VA = "0x62217A0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60008AA")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Token(Token = "0x60006EA")]
+		[Address(RVA = "0x62217B0", Offset = "0x62207B0", VA = "0x62217B0")]
 		set
 		{
 		}
@@ -115,14 +115,14 @@ public class BackgroundWorker : Component
 	[Token(Token = "0x14000002")]
 	public event DoWorkEventHandler DoWork
 	{
-		[Token(Token = "0x6000898")]
-		[Address(RVA = "0x287BBC0", Offset = "0x287A1C0", VA = "0x18287BBC0")]
+		[Token(Token = "0x60006D8")]
+		[Address(RVA = "0x6220FD0", Offset = "0x621FFD0", VA = "0x6220FD0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000899")]
-		[Address(RVA = "0x287BDA0", Offset = "0x287A3A0", VA = "0x18287BDA0")]
+		[Token(Token = "0x60006D9")]
+		[Address(RVA = "0x6221060", Offset = "0x6220060", VA = "0x6221060")]
 		[CompilerGenerated]
 		remove
 		{
@@ -132,14 +132,14 @@ public class BackgroundWorker : Component
 	[Token(Token = "0x14000003")]
 	public event ProgressChangedEventHandler ProgressChanged
 	{
-		[Token(Token = "0x600089E")]
-		[Address(RVA = "0x287BC60", Offset = "0x287A260", VA = "0x18287BC60")]
+		[Token(Token = "0x60006DE")]
+		[Address(RVA = "0x6221160", Offset = "0x6220160", VA = "0x6221160")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600089F")]
-		[Address(RVA = "0x287BE40", Offset = "0x287A440", VA = "0x18287BE40")]
+		[Token(Token = "0x60006DF")]
+		[Address(RVA = "0x62211F0", Offset = "0x62201F0", VA = "0x62211F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -149,94 +149,94 @@ public class BackgroundWorker : Component
 	[Token(Token = "0x14000004")]
 	public event RunWorkerCompletedEventHandler RunWorkerCompleted
 	{
-		[Token(Token = "0x60008A5")]
-		[Address(RVA = "0x287BD00", Offset = "0x287A300", VA = "0x18287BD00")]
+		[Token(Token = "0x60006E5")]
+		[Address(RVA = "0x6221660", Offset = "0x6220660", VA = "0x6221660")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60008A6")]
-		[Address(RVA = "0x287BEE0", Offset = "0x287A4E0", VA = "0x18287BEE0")]
+		[Token(Token = "0x60006E6")]
+		[Address(RVA = "0x62216F0", Offset = "0x62206F0", VA = "0x62216F0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000894")]
-	[Address(RVA = "0x287BAE0", Offset = "0x287A0E0", VA = "0x18287BAE0")]
+	[Token(Token = "0x60006D4")]
+	[Address(RVA = "0x6220DF0", Offset = "0x621FDF0", VA = "0x6220DF0")]
 	public BackgroundWorker()
 	{
 	}
 
-	[Token(Token = "0x6000895")]
-	[Address(RVA = "0x287B050", Offset = "0x2879650", VA = "0x18287B050")]
+	[Token(Token = "0x60006D5")]
+	[Address(RVA = "0x6220ED0", Offset = "0x621FED0", VA = "0x6220ED0")]
 	private void AsyncOperationCompleted(object arg)
 	{
 	}
 
-	[Token(Token = "0x6000897")]
-	[Address(RVA = "0x287B0E0", Offset = "0x28796E0", VA = "0x18287B0E0")]
+	[Token(Token = "0x60006D7")]
+	[Address(RVA = "0x6220F70", Offset = "0x621FF70", VA = "0x6220F70")]
 	public void CancelAsync()
 	{
 	}
 
-	[Token(Token = "0x600089B")]
-	[Address(RVA = "0x287B150", Offset = "0x2879750", VA = "0x18287B150", Slot = "16")]
+	[Token(Token = "0x60006DB")]
+	[Address(RVA = "0x6221100", Offset = "0x6220100", VA = "0x6221100", Slot = "16")]
 	protected virtual void OnDoWork(DoWorkEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x600089C")]
-	[Address(RVA = "0x24EC950", Offset = "0x24EAF50", VA = "0x1824EC950", Slot = "17")]
+	[Token(Token = "0x60006DC")]
+	[Address(RVA = "0x6221120", Offset = "0x6220120", VA = "0x6221120", Slot = "17")]
 	protected virtual void OnRunWorkerCompleted(RunWorkerCompletedEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x600089D")]
-	[Address(RVA = "0x287B170", Offset = "0x2879770", VA = "0x18287B170", Slot = "18")]
+	[Token(Token = "0x60006DD")]
+	[Address(RVA = "0x6221140", Offset = "0x6220140", VA = "0x6221140", Slot = "18")]
 	protected virtual void OnProgressChanged(ProgressChangedEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x60008A0")]
-	[Address(RVA = "0x287B190", Offset = "0x2879790", VA = "0x18287B190")]
+	[Token(Token = "0x60006E0")]
+	[Address(RVA = "0x6221280", Offset = "0x6220280", VA = "0x6221280")]
 	private void ProgressReporter(object arg)
 	{
 	}
 
-	[Token(Token = "0x60008A1")]
-	[Address(RVA = "0x287B3F0", Offset = "0x28799F0", VA = "0x18287B3F0")]
+	[Token(Token = "0x60006E1")]
+	[Address(RVA = "0x6221300", Offset = "0x6220300", VA = "0x6221300")]
 	public void ReportProgress(int percentProgress)
 	{
 	}
 
-	[Token(Token = "0x60008A2")]
-	[Address(RVA = "0x287B220", Offset = "0x2879820", VA = "0x18287B220")]
+	[Token(Token = "0x60006E2")]
+	[Address(RVA = "0x6221310", Offset = "0x6220310", VA = "0x6221310")]
 	public void ReportProgress(int percentProgress, object userState)
 	{
 	}
 
-	[Token(Token = "0x60008A3")]
-	[Address(RVA = "0x287B5C0", Offset = "0x2879BC0", VA = "0x18287B5C0")]
+	[Token(Token = "0x60006E3")]
+	[Address(RVA = "0x62213F0", Offset = "0x62203F0", VA = "0x62213F0")]
 	public void RunWorkerAsync()
 	{
 	}
 
-	[Token(Token = "0x60008A4")]
-	[Address(RVA = "0x287B5D0", Offset = "0x2879BD0", VA = "0x18287B5D0")]
+	[Token(Token = "0x60006E4")]
+	[Address(RVA = "0x6221400", Offset = "0x6220400", VA = "0x6221400")]
 	public void RunWorkerAsync(object argument)
 	{
 	}
 
-	[Token(Token = "0x60008AB")]
-	[Address(RVA = "0x287B8D0", Offset = "0x2879ED0", VA = "0x18287B8D0")]
+	[Token(Token = "0x60006EB")]
+	[Address(RVA = "0x62217C0", Offset = "0x62207C0", VA = "0x62217C0")]
 	private void WorkerThreadStart(object argument)
 	{
 	}
 
-	[Token(Token = "0x60008AC")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "14")]
+	[Token(Token = "0x60006EC")]
+	[Address(RVA = "0x6221930", Offset = "0x6220930", VA = "0x6221930", Slot = "14")]
 	protected override void Dispose(bool disposing)
 	{
 	}

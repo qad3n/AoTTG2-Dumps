@@ -18,7 +18,7 @@ namespace UnityEngine;
 public class GridLayout : Behaviour
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x696F600", Offset = "0x696E600", VA = "0x696F600")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void DoNothing()
 	{

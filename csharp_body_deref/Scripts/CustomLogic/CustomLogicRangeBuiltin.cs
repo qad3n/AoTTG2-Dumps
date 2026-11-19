@@ -11,94 +11,94 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000411")]
+[Token(Token = "0x2000470")]
 [CompilerGenerated]
 internal class CustomLogicRangeBuiltin : CustomLogicListBuiltin
 {
-	[Token(Token = "0x2000412")]
+	[Token(Token = "0x2000471")]
 	public new static class Factory
 	{
-		[Token(Token = "0x6001991")]
-		[Address(RVA = "0x1ED8CE0", Offset = "0x1ED72E0", VA = "0x181ED8CE0")]
+		[Token(Token = "0x6001C08")]
+		[Address(RVA = "0x58B96B0", Offset = "0x58B86B0", VA = "0x58B96B0")]
 		public static CustomLogicRangeBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000413")]
+	[Token(Token = "0x2000472")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x400146C")]
+		[Token(Token = "0x400160C")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001992")]
-		[Address(RVA = "0x1EBF900", Offset = "0x1EBDF00", VA = "0x181EBF900")]
+		[Token(Token = "0x6001C09")]
+		[Address(RVA = "0x58B9910", Offset = "0x58B8910", VA = "0x58B9910")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C6")]
+	[Token(Token = "0x17000307")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600198D")]
-		[Address(RVA = "0x1ED3140", Offset = "0x1ED1740", VA = "0x181ED3140", Slot = "6")]
+		[Token(Token = "0x6001C04")]
+		[Address(RVA = "0x58B9650", Offset = "0x58B8650", VA = "0x58B9650", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C7")]
+	[Token(Token = "0x17000308")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600198E")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6001C05")]
+		[Address(RVA = "0x58B9680", Offset = "0x58B8680", VA = "0x58B9680", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002C8")]
+	[Token(Token = "0x17000309")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600198F")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6001C06")]
+		[Address(RVA = "0x58B9690", Offset = "0x58B8690", VA = "0x58B9690", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002C9")]
+	[Token(Token = "0x1700030A")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001990")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "10")]
+		[Token(Token = "0x6001C07")]
+		[Address(RVA = "0x58B96A0", Offset = "0x58B86A0", VA = "0x58B96A0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600198A")]
-	[Address(RVA = "0x1ED2F60", Offset = "0x1ED1560", VA = "0x181ED2F60")]
+	[Token(Token = "0x6001C01")]
+	[Address(RVA = "0x58B9480", Offset = "0x58B8480", VA = "0x58B9480")]
 	public CustomLogicRangeBuiltin(int end)
 	{
 	}
 
-	[Token(Token = "0x600198B")]
-	[Address(RVA = "0x1ED2F40", Offset = "0x1ED1540", VA = "0x181ED2F40")]
+	[Token(Token = "0x6001C02")]
+	[Address(RVA = "0x58B9640", Offset = "0x58B8640", VA = "0x58B9640")]
 	public CustomLogicRangeBuiltin(int start, int end)
 	{
 	}
 
-	[Token(Token = "0x600198C")]
-	[Address(RVA = "0x1ED2F90", Offset = "0x1ED1590", VA = "0x181ED2F90")]
+	[Token(Token = "0x6001C03")]
+	[Address(RVA = "0x58B9490", Offset = "0x58B8490", VA = "0x58B9490")]
 	public CustomLogicRangeBuiltin(int start, int end, int step)
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200010F")]
+[Token(Token = "0x2000110")]
 public enum VRTextureUsage
 {
-	[Token(Token = "0x4000357")]
+	[Token(Token = "0x400035C")]
 	None,
-	[Token(Token = "0x4000358")]
+	[Token(Token = "0x400035D")]
 	OneEye,
-	[Token(Token = "0x4000359")]
+	[Token(Token = "0x400035E")]
 	TwoEyes,
-	[Token(Token = "0x400035A")]
+	[Token(Token = "0x400035F")]
 	DeviceSpecific
 }

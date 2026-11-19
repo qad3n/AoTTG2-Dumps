@@ -19,7 +19,7 @@ public sealed class fsForwardAttribute : Attribute
 	public string MemberName;
 
 	[Token(Token = "0x60011BB")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x685BF20", Offset = "0x685AF20", VA = "0x685BF20")]
 	public fsForwardAttribute(string memberName)
 	{
 	}

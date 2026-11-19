@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000311")]
+[Token(Token = "0x20002D2")]
 public delegate IPEndPoint BindIPEndPoint(ServicePoint servicePoint, IPEndPoint remoteEndPoint, int retryCount);

@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000EB")]
+[Token(Token = "0x20000AC")]
 public delegate string MatchEvaluator(Match match);

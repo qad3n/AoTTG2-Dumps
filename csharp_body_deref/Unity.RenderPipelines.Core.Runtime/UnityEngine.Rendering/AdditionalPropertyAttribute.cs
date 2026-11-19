@@ -15,7 +15,7 @@ namespace UnityEngine.Rendering;
 public class AdditionalPropertyAttribute : Attribute
 {
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x64BB4F0", Offset = "0x64BA4F0", VA = "0x64BB4F0")]
 	public AdditionalPropertyAttribute()
 	{
 	}

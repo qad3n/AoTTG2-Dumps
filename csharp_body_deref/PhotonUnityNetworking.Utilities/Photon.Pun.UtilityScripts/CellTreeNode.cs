@@ -62,44 +62,44 @@ public class CellTreeNode
 	private float maxDistance;
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56E85C0", Offset = "0x56E75C0", VA = "0x56E85C0")]
 	public CellTreeNode()
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x1D502C0", Offset = "0x1D4E8C0", VA = "0x181D502C0")]
+	[Address(RVA = "0x56E7A50", Offset = "0x56E6A50", VA = "0x56E7A50")]
 	public CellTreeNode(byte id, ENodeType nodeType, CellTreeNode parent)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x1D4FE00", Offset = "0x1D4E400", VA = "0x181D4FE00")]
+	[Address(RVA = "0x56E7EE0", Offset = "0x56E6EE0", VA = "0x56E7EE0")]
 	public void AddChild(CellTreeNode child)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x56E7FD0", Offset = "0x56E6FD0", VA = "0x56E7FD0")]
 	public void Draw()
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x1D4FF10", Offset = "0x1D4E510", VA = "0x181D4FF10")]
+	[Address(RVA = "0x56E8100", Offset = "0x56E7100", VA = "0x56E8100")]
 	public void GetActiveCells(List<byte> activeCells, bool yIsUpAxis, Vector3 position)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x1D50200", Offset = "0x1D4E800", VA = "0x181D50200")]
+	[Address(RVA = "0x56E8630", Offset = "0x56E7630", VA = "0x56E8630")]
 	public bool IsPointInsideCell(bool yIsUpAxis, Vector3 point)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x1D50250", Offset = "0x1D4E850", VA = "0x181D50250")]
+	[Address(RVA = "0x56E85D0", Offset = "0x56E75D0", VA = "0x56E85D0")]
 	public bool IsPointNearCell(bool yIsUpAxis, Vector3 point)
 	{
 		return default(bool);

@@ -1,113 +1,104 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.LeaderboardPopup
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/UI/LeaderboardPopup.c
 // Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/LeaderboardPopup.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
-using Settings;
 
 namespace UI;
 
-[Token(Token = "0x20007F3")]
+[Token(Token = "0x200087F")]
 internal class LeaderboardPopup : BasePopup
 {
-	[Token(Token = "0x400281E")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
-	public StringSetting CurrentCategory;
-
-	[Token(Token = "0x400281F")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
-	public StringSetting CurrentSubcategory;
-
-	[Token(Token = "0x17000DE2")]
+	[Token(Token = "0x17000E27")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004CC6")]
-		[Address(RVA = "0x228D440", Offset = "0x228BA40", VA = "0x18228D440", Slot = "35")]
+		[Token(Token = "0x60050FA")]
+		[Address(RVA = "0x5C56D80", Offset = "0x5C55D80", VA = "0x5C56D80", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000DE3")]
+	[Token(Token = "0x17000E28")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004CC7")]
-		[Address(RVA = "0x21BB440", Offset = "0x21B9A40", VA = "0x1821BB440", Slot = "5")]
+		[Token(Token = "0x60050FB")]
+		[Address(RVA = "0x5C56E20", Offset = "0x5C55E20", VA = "0x5C56E20", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DE4")]
+	[Token(Token = "0x17000E29")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004CC8")]
-		[Address(RVA = "0x228D430", Offset = "0x228BA30", VA = "0x18228D430", Slot = "6")]
+		[Token(Token = "0x60050FC")]
+		[Address(RVA = "0x5C56E30", Offset = "0x5C55E30", VA = "0x5C56E30", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000DE5")]
+	[Token(Token = "0x17000E2A")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x6004CC9")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x60050FD")]
+		[Address(RVA = "0x5C56E40", Offset = "0x5C55E40", VA = "0x5C56E40", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000DE6")]
+	[Token(Token = "0x17000E2B")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x6004CCA")]
-		[Address(RVA = "0x228D400", Offset = "0x228BA00", VA = "0x18228D400", Slot = "19")]
+		[Token(Token = "0x60050FE")]
+		[Address(RVA = "0x5C56E50", Offset = "0x5C55E50", VA = "0x5C56E50", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000DE7")]
+	[Token(Token = "0x17000E2C")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x6004CCB")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
+		[Token(Token = "0x60050FF")]
+		[Address(RVA = "0x5C56E80", Offset = "0x5C55E80", VA = "0x5C56E80", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004CCC")]
-	[Address(RVA = "0x228D0F0", Offset = "0x228B6F0", VA = "0x18228D0F0", Slot = "20")]
+	[Token(Token = "0x6005100")]
+	[Address(RVA = "0x5C56E90", Offset = "0x5C55E90", VA = "0x5C56E90", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004CCD")]
-	[Address(RVA = "0x228D050", Offset = "0x228B650", VA = "0x18228D050", Slot = "27")]
+	[Token(Token = "0x6005101")]
+	[Address(RVA = "0x5C57010", Offset = "0x5C56010", VA = "0x5C57010", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6004CCE")]
-	[Address(RVA = "0x228CFF0", Offset = "0x228B5F0", VA = "0x18228CFF0")]
+	[Token(Token = "0x6005102")]
+	[Address(RVA = "0x5C570B0", Offset = "0x5C560B0", VA = "0x5C570B0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004CCF")]
-	[Address(RVA = "0x228D320", Offset = "0x228B920", VA = "0x18228D320")]
+	[Token(Token = "0x6005103")]
+	[Address(RVA = "0x5C57120", Offset = "0x5C56120", VA = "0x5C57120")]
 	public LeaderboardPopup()
 	{
 	}

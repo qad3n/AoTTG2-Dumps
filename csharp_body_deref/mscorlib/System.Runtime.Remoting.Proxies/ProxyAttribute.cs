@@ -12,34 +12,34 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Proxies;
 
-[Token(Token = "0x200038A")]
-[ComVisible(true)]
+[Token(Token = "0x2000363")]
 [AttributeUsage(AttributeTargets.Class)]
+[ComVisible(true)]
 public class ProxyAttribute : Attribute, IContextAttribute
 {
-	[Token(Token = "0x6001D5D")]
-	[Address(RVA = "0x1A045F0", Offset = "0x1A02BF0", VA = "0x181A045F0", Slot = "9")]
+	[Token(Token = "0x6001D33")]
+	[Address(RVA = "0x537A380", Offset = "0x5379380", VA = "0x537A380", Slot = "9")]
 	public virtual MarshalByRefObject CreateInstance(Type serverType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D5E")]
-	[Address(RVA = "0x1A047A0", Offset = "0x1A02DA0", VA = "0x181A047A0", Slot = "10")]
+	[Token(Token = "0x6001D34")]
+	[Address(RVA = "0x537A4D0", Offset = "0x53794D0", VA = "0x537A4D0", Slot = "10")]
 	public virtual RealProxy CreateProxy(ObjRef objRef, Type serverType, object serverObject, Context serverContext)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D5F")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+	[Token(Token = "0x6001D35")]
+	[Address(RVA = "0x537A530", Offset = "0x5379530", VA = "0x537A530", Slot = "7")]
 	[ComVisible(true)]
 	public void GetPropertiesForNewContext(IConstructionCallMessage msg)
 	{
 	}
 
-	[Token(Token = "0x6001D60")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+	[Token(Token = "0x6001D36")]
+	[Address(RVA = "0x537A540", Offset = "0x5379540", VA = "0x537A540", Slot = "8")]
 	[ComVisible(true)]
 	public bool IsContextOK(Context ctx, IConstructionCallMessage msg)
 	{

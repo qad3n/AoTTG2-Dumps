@@ -18,21 +18,21 @@ internal static class MaterialManager
 	private static Dictionary<long, Material> s_FallbackMaterials;
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x3013850", Offset = "0x3011E50", VA = "0x183013850")]
+	[Address(RVA = "0x6A0E5A0", Offset = "0x6A0D5A0", VA = "0x6A0E5A0")]
 	public static Material GetFallbackMaterial(Material sourceMaterial, Material targetMaterial)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3013D10", Offset = "0x3012310", VA = "0x183013D10")]
+	[Address(RVA = "0x6A0ECB0", Offset = "0x6A0DCB0", VA = "0x6A0ECB0")]
 	public static Material GetFallbackMaterial(FontAsset fontAsset, Material sourceMaterial, int atlasIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3013560", Offset = "0x3011B60", VA = "0x183013560")]
+	[Address(RVA = "0x6A0EA10", Offset = "0x6A0DA10", VA = "0x6A0EA10")]
 	private static void CopyMaterialPresetProperties(Material source, Material destination)
 	{
 	}

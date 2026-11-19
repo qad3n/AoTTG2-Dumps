@@ -19,35 +19,35 @@ public class DebugUIHandlerContainer : MonoBehaviour
 	public RectTransform contentHolder;
 
 	[Token(Token = "0x600141F")]
-	[Address(RVA = "0x2BABF30", Offset = "0x2BAA530", VA = "0x182BABF30")]
+	[Address(RVA = "0x65A3BE0", Offset = "0x65A2BE0", VA = "0x65A3BE0")]
 	internal DebugUIHandlerWidget GetFirstItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001420")]
-	[Address(RVA = "0x2BABFB0", Offset = "0x2BAA5B0", VA = "0x182BABFB0")]
+	[Address(RVA = "0x65A3900", Offset = "0x65A2900", VA = "0x65A3900")]
 	internal DebugUIHandlerWidget GetLastItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001421")]
-	[Address(RVA = "0x2BAC040", Offset = "0x2BAA640", VA = "0x182BAC040")]
+	[Address(RVA = "0x65A3800", Offset = "0x65A2800", VA = "0x65A3800")]
 	internal bool IsDirectChild(DebugUIHandlerWidget widget)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001422")]
-	[Address(RVA = "0x2BABC60", Offset = "0x2BAA260", VA = "0x182BABC60")]
+	[Address(RVA = "0x65A7360", Offset = "0x65A6360", VA = "0x65A7360")]
 	private List<DebugUIHandlerWidget> GetActiveChildren()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001423")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x65A7770", Offset = "0x65A6770", VA = "0x65A7770")]
 	public DebugUIHandlerContainer()
 	{
 	}

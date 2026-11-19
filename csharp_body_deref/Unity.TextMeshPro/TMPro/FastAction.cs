@@ -23,25 +23,25 @@ public class FastAction
 	private Dictionary<Action, LinkedListNode<Action>> lookup;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2CDD5D0", Offset = "0x2CDBBD0", VA = "0x182CDD5D0")]
+	[Address(RVA = "0x66DA8F0", Offset = "0x66D98F0", VA = "0x66DA8F0")]
 	public void Add(Action rhs)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2CDD710", Offset = "0x2CDBD10", VA = "0x182CDD710")]
+	[Address(RVA = "0x66DA9A0", Offset = "0x66D99A0", VA = "0x66DA9A0")]
 	public void Remove(Action rhs)
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2CDD680", Offset = "0x2CDBC80", VA = "0x182CDD680")]
+	[Address(RVA = "0x66DAA50", Offset = "0x66D9A50", VA = "0x66DAA50")]
 	public void Call()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2CDD7D0", Offset = "0x2CDBDD0", VA = "0x182CDD7D0")]
+	[Address(RVA = "0x66DAAF0", Offset = "0x66D9AF0", VA = "0x66DAAF0")]
 	public FastAction()
 	{
 	}

@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000BC")]
+[Token(Token = "0x20000BD")]
 [DebuggerTypeProxy(typeof(RuntimeVariablesExpressionProxy))]
 public sealed class RuntimeVariablesExpression : Expression
 {
-	[Token(Token = "0x170000E6")]
+	[Token(Token = "0x170000E8")]
 	public ReadOnlyCollection<ParameterExpression> Variables
 	{
-		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60004E4")]
+		[Address(RVA = "0x5DD5F10", Offset = "0x5DD4F10", VA = "0x5DD5F10")]
 		[CompilerGenerated]
 		get
 		{

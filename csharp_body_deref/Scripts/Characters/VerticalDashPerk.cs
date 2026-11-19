@@ -10,77 +10,77 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200066D")]
+[Token(Token = "0x20006CC")]
 internal class VerticalDashPerk : DivisivePowerPerk
 {
-	[Token(Token = "0x17000B0F")]
+	[Token(Token = "0x17000B59")]
 	public override string Name
 	{
-		[Token(Token = "0x6003F88")]
-		[Address(RVA = "0x21613E0", Offset = "0x215F9E0", VA = "0x1821613E0", Slot = "4")]
+		[Token(Token = "0x6004220")]
+		[Address(RVA = "0x5AFB530", Offset = "0x5AFA530", VA = "0x5AFB530", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B10")]
+	[Token(Token = "0x17000B5A")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x6003F89")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6004221")]
+		[Address(RVA = "0x5AFB560", Offset = "0x5AFA560", VA = "0x5AFB560", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000B11")]
+	[Token(Token = "0x17000B5B")]
 	protected override float MaxPower
 	{
-		[Token(Token = "0x6003F8A")]
-		[Address(RVA = "0x1DA8AF0", Offset = "0x1DA70F0", VA = "0x181DA8AF0", Slot = "9")]
+		[Token(Token = "0x6004222")]
+		[Address(RVA = "0x5AFB570", Offset = "0x5AFA570", VA = "0x5AFB570", Slot = "9")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B12")]
+	[Token(Token = "0x17000B5C")]
 	protected override float MinPower
 	{
-		[Token(Token = "0x6003F8B")]
-		[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "10")]
+		[Token(Token = "0x6004223")]
+		[Address(RVA = "0x5AFB580", Offset = "0x5AFA580", VA = "0x5AFB580", Slot = "10")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B13")]
+	[Token(Token = "0x17000B5D")]
 	protected override float PowerUsageDivisor
 	{
-		[Token(Token = "0x6003F8C")]
-		[Address(RVA = "0x2161410", Offset = "0x215FA10", VA = "0x182161410", Slot = "11")]
+		[Token(Token = "0x6004224")]
+		[Address(RVA = "0x5AFB590", Offset = "0x5AFA590", VA = "0x5AFB590", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B14")]
+	[Token(Token = "0x17000B5E")]
 	protected override float LinearRecoveryRate
 	{
-		[Token(Token = "0x6003F8D")]
-		[Address(RVA = "0x2160800", Offset = "0x215EE00", VA = "0x182160800", Slot = "12")]
+		[Token(Token = "0x6004225")]
+		[Address(RVA = "0x5AFB5A0", Offset = "0x5AFA5A0", VA = "0x5AFB5A0", Slot = "12")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003F8E")]
-	[Address(RVA = "0x21607F0", Offset = "0x215EDF0", VA = "0x1821607F0")]
+	[Token(Token = "0x6004226")]
+	[Address(RVA = "0x5AF9790", Offset = "0x5AF8790", VA = "0x5AF9790")]
 	public VerticalDashPerk()
 	{
 	}

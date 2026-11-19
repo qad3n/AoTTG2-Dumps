@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.VisualScripting.UnityThread
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,7 +33,7 @@ public static class UnityThread
 	public static bool allowsAPI
 	{
 		[Token(Token = "0x6001002")]
-		[Address(RVA = "0x2E4EAC0", Offset = "0x2E4D0C0", VA = "0x182E4EAC0")]
+		[Address(RVA = "0x6846760", Offset = "0x6845760", VA = "0x6846760")]
 		get
 		{
 			return default(bool);
@@ -41,14 +41,14 @@ public static class UnityThread
 	}
 
 	[Token(Token = "0x6001003")]
-	[Address(RVA = "0x2E4E900", Offset = "0x2E4CF00", VA = "0x182E4E900")]
+	[Address(RVA = "0x6847E60", Offset = "0x6846E60", VA = "0x6847E60")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
 	private static void ResetStaticsOnLoad()
 	{
 	}
 
 	[Token(Token = "0x6001004")]
-	[Address(RVA = "0x2E4E820", Offset = "0x2E4CE20", VA = "0x182E4E820")]
+	[Address(RVA = "0x6847F40", Offset = "0x6846F40", VA = "0x6847F40")]
 	[Conditional("UNITY_EDITOR")]
 	public static void EditorAsync(Action action)
 	{

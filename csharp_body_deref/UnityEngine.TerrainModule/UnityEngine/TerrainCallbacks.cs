@@ -36,14 +36,14 @@ public static class TerrainCallbacks
 	private static TextureChangedCallback textureChanged;
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2FF8BD0", Offset = "0x2FF71D0", VA = "0x182FF8BD0")]
+	[Address(RVA = "0x69F38F0", Offset = "0x69F28F0", VA = "0x69F38F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeHeightmapChangedCallback(TerrainData terrainData, RectInt heightRegion, bool synched)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x2FF8D30", Offset = "0x2FF7330", VA = "0x182FF8D30")]
+	[Address(RVA = "0x69F3A70", Offset = "0x69F2A70", VA = "0x69F3A70")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeTextureChangedCallback(TerrainData terrainData, string textureName, RectInt texelRegion, bool synched)
 	{

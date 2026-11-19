@@ -15,13 +15,13 @@ namespace UnityEngine.Rendering;
 public struct VolumeIsolationScope : IDisposable
 {
 	[Token(Token = "0x6000EF8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x65552D0", Offset = "0x65542D0", VA = "0x65552D0")]
 	public VolumeIsolationScope(bool unused)
 	{
 	}
 
 	[Token(Token = "0x6000EF9")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x65552E0", Offset = "0x65542E0", VA = "0x65552E0", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}

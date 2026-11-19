@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DebugRenderSetup
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ internal class DebugRenderSetup : IDisposable
 	private DebugDisplaySettingsMaterial MaterialSettings
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x2C048F0", Offset = "0x2C02EF0", VA = "0x182C048F0")]
+		[Address(RVA = "0x660BD10", Offset = "0x660AD10", VA = "0x660BD10")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ internal class DebugRenderSetup : IDisposable
 	private DebugDisplaySettingsRendering RenderingSettings
 	{
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x2C04920", Offset = "0x2C02F20", VA = "0x182C04920")]
+		[Address(RVA = "0x660BD40", Offset = "0x660AD40", VA = "0x660BD40")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ internal class DebugRenderSetup : IDisposable
 	private DebugDisplaySettingsLighting LightingSettings
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x2C048C0", Offset = "0x2C02EC0", VA = "0x182C048C0")]
+		[Address(RVA = "0x660BD70", Offset = "0x660AD70", VA = "0x660BD70")]
 		get
 		{
 			return null;
@@ -60,64 +60,64 @@ internal class DebugRenderSetup : IDisposable
 	}
 
 	[Token(Token = "0x600027C")]
-	[Address(RVA = "0x2C03BC0", Offset = "0x2C021C0", VA = "0x182C03BC0")]
+	[Address(RVA = "0x660BBE0", Offset = "0x660ABE0", VA = "0x660BBE0")]
 	internal void Begin(RasterCommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x600027D")]
-	[Address(RVA = "0x2C043F0", Offset = "0x2C029F0", VA = "0x182C043F0")]
+	[Address(RVA = "0x660BCC0", Offset = "0x660ACC0", VA = "0x660BCC0")]
 	internal void End(RasterCommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x600027E")]
-	[Address(RVA = "0x2C04870", Offset = "0x2C02E70", VA = "0x182C04870")]
+	[Address(RVA = "0x660B020", Offset = "0x660A020", VA = "0x660B020")]
 	internal DebugRenderSetup(DebugHandler debugHandler, int index, FilteringSettings filteringSettings)
 	{
 	}
 
 	[Token(Token = "0x600027F")]
-	[Address(RVA = "0x2C03E80", Offset = "0x2C02480", VA = "0x182C03E80")]
+	[Address(RVA = "0x660BDA0", Offset = "0x660ADA0", VA = "0x660BDA0")]
 	internal void CreateRendererList(ScriptableRenderContext context, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock, ref RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000280")]
-	[Address(RVA = "0x2C040F0", Offset = "0x2C026F0", VA = "0x182C040F0")]
+	[Address(RVA = "0x660BF50", Offset = "0x660AF50", VA = "0x660BF50")]
 	internal void CreateRendererList(RenderGraph renderGraph, ref CullingResults cullResults, ref DrawingSettings drawingSettings, ref FilteringSettings filteringSettings, ref RenderStateBlock renderStateBlock, ref RendererListHandle rendererListHdl)
 	{
 	}
 
 	[Token(Token = "0x6000281")]
-	[Address(RVA = "0x2C04360", Offset = "0x2C02960", VA = "0x182C04360")]
+	[Address(RVA = "0x660BC40", Offset = "0x660AC40", VA = "0x660BC40")]
 	internal void DrawWithRendererList(RasterCommandBuffer cmd, ref RendererList rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x2C03C30", Offset = "0x2C02230", VA = "0x182C03C30")]
+	[Address(RVA = "0x660B220", Offset = "0x660A220", VA = "0x660B220")]
 	internal DrawingSettings CreateDrawingSettings(DrawingSettings drawingSettings)
 	{
 		return default(DrawingSettings);
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2C04460", Offset = "0x2C02A60", VA = "0x182C04460")]
+	[Address(RVA = "0x660B300", Offset = "0x660A300", VA = "0x660B300")]
 	internal RenderStateBlock GetRenderStateBlock(RenderStateBlock renderStateBlock)
 	{
 		return default(RenderStateBlock);
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+	[Address(RVA = "0x660C100", Offset = "0x660B100", VA = "0x660C100")]
 	internal int GetIndex()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Address(RVA = "0x660B210", Offset = "0x660A210", VA = "0x660B210", Slot = "4")]
 	public void Dispose()
 	{
 	}

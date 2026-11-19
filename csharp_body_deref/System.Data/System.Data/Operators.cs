@@ -21,35 +21,35 @@ internal sealed class Operators
 	private static readonly string[] s_looks;
 
 	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x25227F0", Offset = "0x2520DF0", VA = "0x1825227F0")]
+	[Address(RVA = "0x5EBD830", Offset = "0x5EBC830", VA = "0x5EBD830")]
 	internal static bool IsArithmetical(int op)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x2522810", Offset = "0x2520E10", VA = "0x182522810")]
+	[Address(RVA = "0x5EBD850", Offset = "0x5EBC850", VA = "0x5EBD850")]
 	internal static bool IsLogical(int op)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x2522830", Offset = "0x2520E30", VA = "0x182522830")]
+	[Address(RVA = "0x5EBD870", Offset = "0x5EBC870", VA = "0x5EBD870")]
 	internal static bool IsRelational(int op)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x2522840", Offset = "0x2520E40", VA = "0x182522840")]
+	[Address(RVA = "0x5EBD880", Offset = "0x5EBC880", VA = "0x5EBD880")]
 	internal static int Priority(int op)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x25228E0", Offset = "0x2520EE0", VA = "0x1825228E0")]
+	[Address(RVA = "0x5EBAFB0", Offset = "0x5EB9FB0", VA = "0x5EBAFB0")]
 	internal static string ToString(int op)
 	{
 		return null;

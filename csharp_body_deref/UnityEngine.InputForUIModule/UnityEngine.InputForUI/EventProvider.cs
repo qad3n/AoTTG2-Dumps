@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.InputForUI.EventProvider
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -66,55 +66,55 @@ internal static class EventProvider
 	private static List<Registration> _registrations;
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x2FBB110", Offset = "0x2FB9710", VA = "0x182FBB110")]
+	[Address(RVA = "0x69B6CB0", Offset = "0x69B5CB0", VA = "0x69B6CB0")]
 	public static void Subscribe(EventConsumer handler, [Optional][DefaultParameterValue(0)] int priority, [Optional] int? playerId, params Event.Type[] type)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x2FBB400", Offset = "0x2FB9A00", VA = "0x182FBB400")]
+	[Address(RVA = "0x69B7080", Offset = "0x69B6080", VA = "0x69B7080")]
 	public static void Unsubscribe(EventConsumer handler)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x2FBADB0", Offset = "0x2FB93B0", VA = "0x182FBADB0")]
+	[Address(RVA = "0x69B7190", Offset = "0x69B6190", VA = "0x69B7190")]
 	public static void SetEnabled(bool enable)
 	{
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x2FBA770", Offset = "0x2FB8D70", VA = "0x182FBA770")]
+	[Address(RVA = "0x69B7620", Offset = "0x69B6620", VA = "0x69B7620")]
 	internal static void Dispatch(in Event ev)
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x2FBA700", Offset = "0x2FB8D00", VA = "0x182FBA700")]
+	[Address(RVA = "0x69B6FF0", Offset = "0x69B5FF0", VA = "0x69B6FF0")]
 	private static void Bootstrap()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x2FBA9C0", Offset = "0x2FB8FC0", VA = "0x182FBA9C0")]
+	[Address(RVA = "0x69B7230", Offset = "0x69B6230", VA = "0x69B7230")]
 	private static void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x2FBAFA0", Offset = "0x2FB95A0", VA = "0x182FBAFA0")]
+	[Address(RVA = "0x69B7440", Offset = "0x69B6440", VA = "0x69B7440")]
 	private static void Shutdown()
 	{
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2FBACC0", Offset = "0x2FB92C0", VA = "0x182FBACC0")]
+	[Address(RVA = "0x69B7AF0", Offset = "0x69B6AF0", VA = "0x69B7AF0")]
 	private static void OnFocusChanged(bool focus)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x2FBAB60", Offset = "0x2FB9160", VA = "0x182FBAB60")]
+	[Address(RVA = "0x69B7C00", Offset = "0x69B6C00", VA = "0x69B7C00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyUpdate()
 	{

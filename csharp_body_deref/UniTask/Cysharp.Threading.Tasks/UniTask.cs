@@ -59,7 +59,7 @@ public readonly struct UniTask
 		public unsafe ref YieldPromise NextNode
 		{
 			[Token(Token = "0x6000229")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D01E0", Offset = "0x62CF1E0", VA = "0x62D01E0", Slot = "15")]
 			get
 			{
 				return ref *(YieldPromise*)null;
@@ -67,59 +67,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x2924DB0", Offset = "0x29233B0", VA = "0x182924DB0")]
+		[Address(RVA = "0x62D01F0", Offset = "0x62CF1F0", VA = "0x62D01F0")]
 		static YieldPromise()
 		{
 		}
 
 		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D02F0", Offset = "0x62CF2F0", VA = "0x62D02F0")]
 		private YieldPromise()
 		{
 		}
 
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x29247A0", Offset = "0x2922DA0", VA = "0x1829247A0")]
+		[Address(RVA = "0x62CAA30", Offset = "0x62C9A30", VA = "0x62CAA30")]
 		public static IUniTaskSource Create(PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x2924AE0", Offset = "0x29230E0", VA = "0x182924AE0", Slot = "13")]
+		[Address(RVA = "0x62D0300", Offset = "0x62CF300", VA = "0x62D0300", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x2924B70", Offset = "0x2923170", VA = "0x182924B70", Slot = "4")]
+		[Address(RVA = "0x62D0400", Offset = "0x62CF400", VA = "0x62D0400", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x2924D70", Offset = "0x2923370", VA = "0x182924D70", Slot = "7")]
+		[Address(RVA = "0x62D0450", Offset = "0x62CF450", VA = "0x62D0450", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000230")]
-		[Address(RVA = "0x2924C70", Offset = "0x2923270", VA = "0x182924C70", Slot = "5")]
+		[Address(RVA = "0x62D0500", Offset = "0x62CF500", VA = "0x62D0500", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x2924BC0", Offset = "0x29231C0", VA = "0x182924BC0", Slot = "14")]
+		[Address(RVA = "0x62D0560", Offset = "0x62CF560", VA = "0x62D0560", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000232")]
-		[Address(RVA = "0x2924CD0", Offset = "0x29232D0", VA = "0x182924CD0")]
+		[Address(RVA = "0x62D0600", Offset = "0x62CF600", VA = "0x62D0600")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -161,7 +161,7 @@ public readonly struct UniTask
 		public unsafe ref NextFramePromise NextNode
 		{
 			[Token(Token = "0x6000237")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D0800", Offset = "0x62CF800", VA = "0x62D0800", Slot = "15")]
 			get
 			{
 				return ref *(NextFramePromise*)null;
@@ -169,59 +169,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000238")]
-		[Address(RVA = "0x290F3B0", Offset = "0x290D9B0", VA = "0x18290F3B0")]
+		[Address(RVA = "0x62D0810", Offset = "0x62CF810", VA = "0x62D0810")]
 		static NextFramePromise()
 		{
 		}
 
 		[Token(Token = "0x6000239")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D0910", Offset = "0x62CF910", VA = "0x62D0910")]
 		private NextFramePromise()
 		{
 		}
 
 		[Token(Token = "0x600023A")]
-		[Address(RVA = "0x290ED20", Offset = "0x290D320", VA = "0x18290ED20")]
+		[Address(RVA = "0x62CAE60", Offset = "0x62C9E60", VA = "0x62CAE60")]
 		public static IUniTaskSource Create(PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600023B")]
-		[Address(RVA = "0x290F0A0", Offset = "0x290D6A0", VA = "0x18290F0A0", Slot = "13")]
+		[Address(RVA = "0x62D0920", Offset = "0x62CF920", VA = "0x62D0920", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600023C")]
-		[Address(RVA = "0x290F130", Offset = "0x290D730", VA = "0x18290F130", Slot = "4")]
+		[Address(RVA = "0x62D0A20", Offset = "0x62CFA20", VA = "0x62D0A20", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600023D")]
-		[Address(RVA = "0x290F370", Offset = "0x290D970", VA = "0x18290F370", Slot = "7")]
+		[Address(RVA = "0x62D0A70", Offset = "0x62CFA70", VA = "0x62D0A70", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600023E")]
-		[Address(RVA = "0x290F270", Offset = "0x290D870", VA = "0x18290F270", Slot = "5")]
+		[Address(RVA = "0x62D0B20", Offset = "0x62CFB20", VA = "0x62D0B20", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600023F")]
-		[Address(RVA = "0x290F180", Offset = "0x290D780", VA = "0x18290F180", Slot = "14")]
+		[Address(RVA = "0x62D0B80", Offset = "0x62CFB80", VA = "0x62D0B80", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000240")]
-		[Address(RVA = "0x290F2D0", Offset = "0x290D8D0", VA = "0x18290F2D0")]
+		[Address(RVA = "0x62D0C70", Offset = "0x62CFC70", VA = "0x62D0C70")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -267,7 +267,7 @@ public readonly struct UniTask
 		public unsafe ref WaitForEndOfFramePromise NextNode
 		{
 			[Token(Token = "0x6000245")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "14")]
+			[Address(RVA = "0x62D0E70", Offset = "0x62CFE70", VA = "0x62D0E70", Slot = "14")]
 			get
 			{
 				return ref *(WaitForEndOfFramePromise*)null;
@@ -278,7 +278,7 @@ public readonly struct UniTask
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600024E")]
-			[Address(RVA = "0x29220D0", Offset = "0x29206D0", VA = "0x1829220D0", Slot = "16")]
+			[Address(RVA = "0x62D12F0", Offset = "0x62D02F0", VA = "0x62D12F0", Slot = "16")]
 			get
 			{
 				return null;
@@ -286,66 +286,66 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x2922200", Offset = "0x2920800", VA = "0x182922200")]
+		[Address(RVA = "0x62D0E80", Offset = "0x62CFE80", VA = "0x62D0E80")]
 		static WaitForEndOfFramePromise()
 		{
 		}
 
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x2922360", Offset = "0x2920960", VA = "0x182922360")]
+		[Address(RVA = "0x62D0FD0", Offset = "0x62CFFD0", VA = "0x62D0FD0")]
 		private WaitForEndOfFramePromise()
 		{
 		}
 
 		[Token(Token = "0x6000248")]
-		[Address(RVA = "0x2921BB0", Offset = "0x29201B0", VA = "0x182921BB0")]
+		[Address(RVA = "0x62CB560", Offset = "0x62CA560", VA = "0x62CB560")]
 		public static IUniTaskSource Create(MonoBehaviour coroutineRunner, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000249")]
-		[Address(RVA = "0x2921ED0", Offset = "0x29204D0", VA = "0x182921ED0", Slot = "13")]
+		[Address(RVA = "0x62D0FE0", Offset = "0x62CFFE0", VA = "0x62D0FE0", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600024A")]
-		[Address(RVA = "0x2921F60", Offset = "0x2920560", VA = "0x182921F60", Slot = "4")]
+		[Address(RVA = "0x62D10E0", Offset = "0x62D00E0", VA = "0x62D10E0", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x29221C0", Offset = "0x29207C0", VA = "0x1829221C0", Slot = "7")]
+		[Address(RVA = "0x62D1130", Offset = "0x62D0130", VA = "0x62D1130", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x2921FB0", Offset = "0x29205B0", VA = "0x182921FB0", Slot = "5")]
+		[Address(RVA = "0x62D11E0", Offset = "0x62D01E0", VA = "0x62D11E0", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600024D")]
-		[Address(RVA = "0x2922120", Offset = "0x2920720", VA = "0x182922120")]
+		[Address(RVA = "0x62D1240", Offset = "0x62D0240", VA = "0x62D1240")]
 		private bool TryReturn()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x2922010", Offset = "0x2920610", VA = "0x182922010", Slot = "15")]
+		[Address(RVA = "0x62D1360", Offset = "0x62D0360", VA = "0x62D1360", Slot = "15")]
 		private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x1D64700", Offset = "0x1D62D00", VA = "0x181D64700", Slot = "17")]
+		[Address(RVA = "0x62D12E0", Offset = "0x62D02E0", VA = "0x62D12E0", Slot = "17")]
 		public void Reset()
 		{
 		}
@@ -394,7 +394,7 @@ public readonly struct UniTask
 		public unsafe ref DelayFramePromise NextNode
 		{
 			[Token(Token = "0x6000255")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D1570", Offset = "0x62D0570", VA = "0x62D1570", Slot = "15")]
 			get
 			{
 				return ref *(DelayFramePromise*)null;
@@ -402,59 +402,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000256")]
-		[Address(RVA = "0x290B5C0", Offset = "0x2909BC0", VA = "0x18290B5C0")]
+		[Address(RVA = "0x62D1580", Offset = "0x62D0580", VA = "0x62D1580")]
 		static DelayFramePromise()
 		{
 		}
 
 		[Token(Token = "0x6000257")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D1680", Offset = "0x62D0680", VA = "0x62D1680")]
 		private DelayFramePromise()
 		{
 		}
 
 		[Token(Token = "0x6000258")]
-		[Address(RVA = "0x290AF00", Offset = "0x2909500", VA = "0x18290AF00")]
+		[Address(RVA = "0x62CBE30", Offset = "0x62CAE30", VA = "0x62CBE30")]
 		public static IUniTaskSource Create(int delayFrameCount, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000259")]
-		[Address(RVA = "0x290B290", Offset = "0x2909890", VA = "0x18290B290", Slot = "13")]
+		[Address(RVA = "0x62D1690", Offset = "0x62D0690", VA = "0x62D1690", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600025A")]
-		[Address(RVA = "0x290B320", Offset = "0x2909920", VA = "0x18290B320", Slot = "4")]
+		[Address(RVA = "0x62D1790", Offset = "0x62D0790", VA = "0x62D1790", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600025B")]
-		[Address(RVA = "0x290B580", Offset = "0x2909B80", VA = "0x18290B580", Slot = "7")]
+		[Address(RVA = "0x62D17E0", Offset = "0x62D07E0", VA = "0x62D17E0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600025C")]
-		[Address(RVA = "0x290B480", Offset = "0x2909A80", VA = "0x18290B480", Slot = "5")]
+		[Address(RVA = "0x62D1890", Offset = "0x62D0890", VA = "0x62D1890", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x290B370", Offset = "0x2909970", VA = "0x18290B370", Slot = "14")]
+		[Address(RVA = "0x62D18F0", Offset = "0x62D08F0", VA = "0x62D18F0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x290B4E0", Offset = "0x2909AE0", VA = "0x18290B4E0")]
+		[Address(RVA = "0x62D1A00", Offset = "0x62D0A00", VA = "0x62D1A00")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -504,7 +504,7 @@ public readonly struct UniTask
 		public unsafe ref DelayPromise NextNode
 		{
 			[Token(Token = "0x6000263")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D1C10", Offset = "0x62D0C10", VA = "0x62D1C10", Slot = "15")]
 			get
 			{
 				return ref *(DelayPromise*)null;
@@ -512,59 +512,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x290C5C0", Offset = "0x290ABC0", VA = "0x18290C5C0")]
+		[Address(RVA = "0x62D1C20", Offset = "0x62D0C20", VA = "0x62D1C20")]
 		static DelayPromise()
 		{
 		}
 
 		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D1D20", Offset = "0x62D0D20", VA = "0x62D1D20")]
 		private DelayPromise()
 		{
 		}
 
 		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x290BEC0", Offset = "0x290A4C0", VA = "0x18290BEC0")]
+		[Address(RVA = "0x62CCCB0", Offset = "0x62CBCB0", VA = "0x62CCCB0")]
 		public static IUniTaskSource Create(TimeSpan delayTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000267")]
-		[Address(RVA = "0x290C2B0", Offset = "0x290A8B0", VA = "0x18290C2B0", Slot = "13")]
+		[Address(RVA = "0x62D1D30", Offset = "0x62D0D30", VA = "0x62D1D30", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x290C340", Offset = "0x290A940", VA = "0x18290C340", Slot = "4")]
+		[Address(RVA = "0x62D1E30", Offset = "0x62D0E30", VA = "0x62D1E30", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x290C580", Offset = "0x290AB80", VA = "0x18290C580", Slot = "7")]
+		[Address(RVA = "0x62D1E80", Offset = "0x62D0E80", VA = "0x62D1E80", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x290C480", Offset = "0x290AA80", VA = "0x18290C480", Slot = "5")]
+		[Address(RVA = "0x62D1F30", Offset = "0x62D0F30", VA = "0x62D1F30", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x290C390", Offset = "0x290A990", VA = "0x18290C390", Slot = "14")]
+		[Address(RVA = "0x62D1F90", Offset = "0x62D0F90", VA = "0x62D1F90", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600026C")]
-		[Address(RVA = "0x290C4E0", Offset = "0x290AAE0", VA = "0x18290C4E0")]
+		[Address(RVA = "0x62D2090", Offset = "0x62D1090", VA = "0x62D2090")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -614,7 +614,7 @@ public readonly struct UniTask
 		public unsafe ref DelayIgnoreTimeScalePromise NextNode
 		{
 			[Token(Token = "0x6000271")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D22A0", Offset = "0x62D12A0", VA = "0x62D22A0", Slot = "15")]
 			get
 			{
 				return ref *(DelayIgnoreTimeScalePromise*)null;
@@ -622,59 +622,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x290BDC0", Offset = "0x290A3C0", VA = "0x18290BDC0")]
+		[Address(RVA = "0x62D22B0", Offset = "0x62D12B0", VA = "0x62D22B0")]
 		static DelayIgnoreTimeScalePromise()
 		{
 		}
 
 		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D23B0", Offset = "0x62D13B0", VA = "0x62D23B0")]
 		private DelayIgnoreTimeScalePromise()
 		{
 		}
 
 		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x290B6C0", Offset = "0x2909CC0", VA = "0x18290B6C0")]
+		[Address(RVA = "0x62CC520", Offset = "0x62CB520", VA = "0x62CC520")]
 		public static IUniTaskSource Create(TimeSpan delayFrameTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x290BAB0", Offset = "0x290A0B0", VA = "0x18290BAB0", Slot = "13")]
+		[Address(RVA = "0x62D23C0", Offset = "0x62D13C0", VA = "0x62D23C0", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x290BB40", Offset = "0x290A140", VA = "0x18290BB40", Slot = "4")]
+		[Address(RVA = "0x62D24C0", Offset = "0x62D14C0", VA = "0x62D24C0", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x290BD80", Offset = "0x290A380", VA = "0x18290BD80", Slot = "7")]
+		[Address(RVA = "0x62D2510", Offset = "0x62D1510", VA = "0x62D2510", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000278")]
-		[Address(RVA = "0x290BC80", Offset = "0x290A280", VA = "0x18290BC80", Slot = "5")]
+		[Address(RVA = "0x62D25C0", Offset = "0x62D15C0", VA = "0x62D25C0", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x290BB90", Offset = "0x290A190", VA = "0x18290BB90", Slot = "14")]
+		[Address(RVA = "0x62D2620", Offset = "0x62D1620", VA = "0x62D2620", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x290BCE0", Offset = "0x290A2E0", VA = "0x18290BCE0")]
+		[Address(RVA = "0x62D2720", Offset = "0x62D1720", VA = "0x62D2720")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -720,7 +720,7 @@ public readonly struct UniTask
 		public unsafe ref DelayRealtimePromise NextNode
 		{
 			[Token(Token = "0x600027F")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D2930", Offset = "0x62D1930", VA = "0x62D2930", Slot = "15")]
 			get
 			{
 				return ref *(DelayRealtimePromise*)null;
@@ -728,59 +728,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x6000280")]
-		[Address(RVA = "0x290CDC0", Offset = "0x290B3C0", VA = "0x18290CDC0")]
+		[Address(RVA = "0x62D2940", Offset = "0x62D1940", VA = "0x62D2940")]
 		static DelayRealtimePromise()
 		{
 		}
 
 		[Token(Token = "0x6000281")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D2A40", Offset = "0x62D1A40", VA = "0x62D2A40")]
 		private DelayRealtimePromise()
 		{
 		}
 
 		[Token(Token = "0x6000282")]
-		[Address(RVA = "0x290C6C0", Offset = "0x290ACC0", VA = "0x18290C6C0")]
+		[Address(RVA = "0x62CC930", Offset = "0x62CB930", VA = "0x62CC930")]
 		public static IUniTaskSource Create(TimeSpan delayTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x290CA70", Offset = "0x290B070", VA = "0x18290CA70", Slot = "13")]
+		[Address(RVA = "0x62D2A50", Offset = "0x62D1A50", VA = "0x62D2A50", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x290CB00", Offset = "0x290B100", VA = "0x18290CB00", Slot = "4")]
+		[Address(RVA = "0x62D2B50", Offset = "0x62D1B50", VA = "0x62D2B50", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x290CD80", Offset = "0x290B380", VA = "0x18290CD80", Slot = "7")]
+		[Address(RVA = "0x62D2BA0", Offset = "0x62D1BA0", VA = "0x62D2BA0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x290CC80", Offset = "0x290B280", VA = "0x18290CC80", Slot = "5")]
+		[Address(RVA = "0x62D2C50", Offset = "0x62D1C50", VA = "0x62D2C50", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x290CB50", Offset = "0x290B150", VA = "0x18290CB50", Slot = "14")]
+		[Address(RVA = "0x62D2CB0", Offset = "0x62D1CB0", VA = "0x62D2CB0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x290CCE0", Offset = "0x290B2E0", VA = "0x18290CCE0")]
+		[Address(RVA = "0x62D2DE0", Offset = "0x62D1DE0", VA = "0x62D2DE0")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -812,39 +812,39 @@ public readonly struct UniTask
 		private bool calledGet;
 
 		[Token(Token = "0x600028E")]
-		[Address(RVA = "0x16E4310", Offset = "0x16E2910", VA = "0x1816E4310")]
+		[Address(RVA = "0x62CD1E0", Offset = "0x62CC1E0", VA = "0x62CD1E0")]
 		public ExceptionResultSource(Exception exception)
 		{
 		}
 
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x290DFB0", Offset = "0x290C5B0", VA = "0x18290DFB0", Slot = "13")]
+		[Address(RVA = "0x62D2FE0", Offset = "0x62D1FE0", VA = "0x62D2FE0", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000290")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
+		[Address(RVA = "0x62D3060", Offset = "0x62D2060", VA = "0x62D3060", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000291")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "7")]
+		[Address(RVA = "0x62D3070", Offset = "0x62D2070", VA = "0x62D3070", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000292")]
-		[Address(RVA = "0x12BC920", Offset = "0x12BAF20", VA = "0x1812BC920", Slot = "5")]
+		[Address(RVA = "0x62D3080", Offset = "0x62D2080", VA = "0x62D3080", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000293")]
-		[Address(RVA = "0x290DF00", Offset = "0x290C500", VA = "0x18290DF00", Slot = "1")]
+		[Address(RVA = "0x62D30A0", Offset = "0x62D20A0", VA = "0x62D30A0", Slot = "1")]
 		~ExceptionResultSource()
 		{
 		}
@@ -908,33 +908,33 @@ public readonly struct UniTask
 		private readonly CancellationToken cancellationToken;
 
 		[Token(Token = "0x600029B")]
-		[Address(RVA = "0x12BC950", Offset = "0x12BAF50", VA = "0x1812BC950")]
+		[Address(RVA = "0x62CD220", Offset = "0x62CC220", VA = "0x62CD220")]
 		public CanceledResultSource(CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x600029C")]
-		[Address(RVA = "0x2909700", Offset = "0x2907D00", VA = "0x182909700", Slot = "13")]
+		[Address(RVA = "0x62D3180", Offset = "0x62D2180", VA = "0x62D3180", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600029D")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
+		[Address(RVA = "0x62D31D0", Offset = "0x62D21D0", VA = "0x62D31D0", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600029E")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "7")]
+		[Address(RVA = "0x62D31E0", Offset = "0x62D21E0", VA = "0x62D31E0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600029F")]
-		[Address(RVA = "0x12BC920", Offset = "0x12BAF20", VA = "0x1812BC920", Slot = "5")]
+		[Address(RVA = "0x62D31F0", Offset = "0x62D21F0", VA = "0x62D31F0", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
@@ -997,32 +997,32 @@ public readonly struct UniTask
 		private Awaiter awaiter;
 
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x62CD6E0", Offset = "0x62CC6E0", VA = "0x62CD6E0")]
 		public DeferPromise(Func<UniTask> factory)
 		{
 		}
 
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x290AC70", Offset = "0x2909270", VA = "0x18290AC70", Slot = "13")]
+		[Address(RVA = "0x62D3210", Offset = "0x62D2210", VA = "0x62D3210", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x60002A8")]
-		[Address(RVA = "0x290ACD0", Offset = "0x29092D0", VA = "0x18290ACD0", Slot = "4")]
+		[Address(RVA = "0x62D32D0", Offset = "0x62D22D0", VA = "0x62D32D0", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x290ADD0", Offset = "0x29093D0", VA = "0x18290ADD0", Slot = "5")]
+		[Address(RVA = "0x62D3440", Offset = "0x62D2440", VA = "0x62D3440", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x290AE70", Offset = "0x2909470", VA = "0x18290AE70", Slot = "7")]
+		[Address(RVA = "0x62D3530", Offset = "0x62D2530", VA = "0x62D3530", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
@@ -1267,7 +1267,7 @@ public readonly struct UniTask
 		public unsafe ref WaitUntilPromise NextNode
 		{
 			[Token(Token = "0x60002C4")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D3650", Offset = "0x62D2650", VA = "0x62D3650", Slot = "15")]
 			get
 			{
 				return ref *(WaitUntilPromise*)null;
@@ -1275,59 +1275,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x29230D0", Offset = "0x29216D0", VA = "0x1829230D0")]
+		[Address(RVA = "0x62D3660", Offset = "0x62D2660", VA = "0x62D3660")]
 		static WaitUntilPromise()
 		{
 		}
 
 		[Token(Token = "0x60002C6")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D3760", Offset = "0x62D2760", VA = "0x62D3760")]
 		private WaitUntilPromise()
 		{
 		}
 
 		[Token(Token = "0x60002C7")]
-		[Address(RVA = "0x2922A50", Offset = "0x2921050", VA = "0x182922A50")]
+		[Address(RVA = "0x62CE070", Offset = "0x62CD070", VA = "0x62CE070")]
 		public static IUniTaskSource Create(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60002C8")]
-		[Address(RVA = "0x2922DB0", Offset = "0x29213B0", VA = "0x182922DB0", Slot = "13")]
+		[Address(RVA = "0x62D3770", Offset = "0x62D2770", VA = "0x62D3770", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x60002C9")]
-		[Address(RVA = "0x2922E40", Offset = "0x2921440", VA = "0x182922E40", Slot = "4")]
+		[Address(RVA = "0x62D3870", Offset = "0x62D2870", VA = "0x62D3870", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x2923090", Offset = "0x2921690", VA = "0x182923090", Slot = "7")]
+		[Address(RVA = "0x62D38C0", Offset = "0x62D28C0", VA = "0x62D38C0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x2922F80", Offset = "0x2921580", VA = "0x182922F80", Slot = "5")]
+		[Address(RVA = "0x62D3970", Offset = "0x62D2970", VA = "0x62D3970", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x2922E90", Offset = "0x2921490", VA = "0x182922E90", Slot = "14")]
+		[Address(RVA = "0x62D39D0", Offset = "0x62D29D0", VA = "0x62D39D0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x2922FE0", Offset = "0x29215E0", VA = "0x182922FE0")]
+		[Address(RVA = "0x62D3B30", Offset = "0x62D2B30", VA = "0x62D3B30")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -1465,7 +1465,7 @@ public readonly struct UniTask
 		public unsafe ref WaitWhilePromise NextNode
 		{
 			[Token(Token = "0x60002E0")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D3D50", Offset = "0x62D2D50", VA = "0x62D3D50", Slot = "15")]
 			get
 			{
 				return ref *(WaitWhilePromise*)null;
@@ -1473,59 +1473,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x60002E1")]
-		[Address(RVA = "0x2923850", Offset = "0x2921E50", VA = "0x182923850")]
+		[Address(RVA = "0x62D3D60", Offset = "0x62D2D60", VA = "0x62D3D60")]
 		static WaitWhilePromise()
 		{
 		}
 
 		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D3E60", Offset = "0x62D2E60", VA = "0x62D3E60")]
 		private WaitWhilePromise()
 		{
 		}
 
 		[Token(Token = "0x60002E3")]
-		[Address(RVA = "0x29231D0", Offset = "0x29217D0", VA = "0x1829231D0")]
+		[Address(RVA = "0x62CE430", Offset = "0x62CD430", VA = "0x62CE430")]
 		public static IUniTaskSource Create(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0x2923530", Offset = "0x2921B30", VA = "0x182923530", Slot = "13")]
+		[Address(RVA = "0x62D3E70", Offset = "0x62D2E70", VA = "0x62D3E70", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x29235C0", Offset = "0x2921BC0", VA = "0x1829235C0", Slot = "4")]
+		[Address(RVA = "0x62D3F70", Offset = "0x62D2F70", VA = "0x62D3F70", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60002E6")]
-		[Address(RVA = "0x2923810", Offset = "0x2921E10", VA = "0x182923810", Slot = "7")]
+		[Address(RVA = "0x62D3FC0", Offset = "0x62D2FC0", VA = "0x62D3FC0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x2923700", Offset = "0x2921D00", VA = "0x182923700", Slot = "5")]
+		[Address(RVA = "0x62D4070", Offset = "0x62D3070", VA = "0x62D4070", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x60002E8")]
-		[Address(RVA = "0x2923610", Offset = "0x2921C10", VA = "0x182923610", Slot = "14")]
+		[Address(RVA = "0x62D40D0", Offset = "0x62D30D0", VA = "0x62D40D0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x2923760", Offset = "0x2921D60", VA = "0x182923760")]
+		[Address(RVA = "0x62D4230", Offset = "0x62D3230", VA = "0x62D4230")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -1659,7 +1659,7 @@ public readonly struct UniTask
 		public unsafe ref WaitUntilCanceledPromise NextNode
 		{
 			[Token(Token = "0x60002FC")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "15")]
+			[Address(RVA = "0x62D4450", Offset = "0x62D3450", VA = "0x62D4450", Slot = "15")]
 			get
 			{
 				return ref *(WaitUntilCanceledPromise*)null;
@@ -1667,59 +1667,59 @@ public readonly struct UniTask
 		}
 
 		[Token(Token = "0x60002FD")]
-		[Address(RVA = "0x2922950", Offset = "0x2920F50", VA = "0x182922950")]
+		[Address(RVA = "0x62D4460", Offset = "0x62D3460", VA = "0x62D4460")]
 		static WaitUntilCanceledPromise()
 		{
 		}
 
 		[Token(Token = "0x60002FE")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x62D4560", Offset = "0x62D3560", VA = "0x62D4560")]
 		private WaitUntilCanceledPromise()
 		{
 		}
 
 		[Token(Token = "0x60002FF")]
-		[Address(RVA = "0x2922370", Offset = "0x2920970", VA = "0x182922370")]
+		[Address(RVA = "0x62CE7E0", Offset = "0x62CD7E0", VA = "0x62CE7E0")]
 		public static IUniTaskSource Create(CancellationToken cancellationToken, PlayerLoopTiming timing, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x29226B0", Offset = "0x2920CB0", VA = "0x1829226B0", Slot = "13")]
+		[Address(RVA = "0x62D4570", Offset = "0x62D3570", VA = "0x62D4570", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000301")]
-		[Address(RVA = "0x2922740", Offset = "0x2920D40", VA = "0x182922740", Slot = "4")]
+		[Address(RVA = "0x62D4670", Offset = "0x62D3670", VA = "0x62D4670", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000302")]
-		[Address(RVA = "0x2922910", Offset = "0x2920F10", VA = "0x182922910", Slot = "7")]
+		[Address(RVA = "0x62D46C0", Offset = "0x62D36C0", VA = "0x62D46C0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x2922810", Offset = "0x2920E10", VA = "0x182922810", Slot = "5")]
+		[Address(RVA = "0x62D4770", Offset = "0x62D3770", VA = "0x62D4770", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x2922790", Offset = "0x2920D90", VA = "0x182922790", Slot = "14")]
+		[Address(RVA = "0x62D47D0", Offset = "0x62D37D0", VA = "0x62D47D0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x2922870", Offset = "0x2920E70", VA = "0x182922870")]
+		[Address(RVA = "0x62D4850", Offset = "0x62D3850", VA = "0x62D4850")]
 		private bool TryReturn()
 		{
 			return default(bool);
@@ -3721,39 +3721,39 @@ public readonly struct UniTask
 		private UniTaskCompletionSourceCore<AsyncUnit> core;
 
 		[Token(Token = "0x6000490")]
-		[Address(RVA = "0x2923BD0", Offset = "0x29221D0", VA = "0x182923BD0")]
+		[Address(RVA = "0x62CEBA0", Offset = "0x62CDBA0", VA = "0x62CEBA0")]
 		public WhenAllPromise(UniTask[] tasks, int tasksLength)
 		{
 		}
 
 		[Token(Token = "0x6000491")]
-		[Address(RVA = "0x2923A80", Offset = "0x2922080", VA = "0x182923A80")]
+		[Address(RVA = "0x62D4A50", Offset = "0x62D3A50", VA = "0x62D4A50")]
 		private static void TryInvokeContinuation(WhenAllPromise self, in Awaiter awaiter)
 		{
 		}
 
 		[Token(Token = "0x6000492")]
-		[Address(RVA = "0x2923950", Offset = "0x2921F50", VA = "0x182923950", Slot = "13")]
+		[Address(RVA = "0x62D4C30", Offset = "0x62D3C30", VA = "0x62D4C30", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000493")]
-		[Address(RVA = "0x29239D0", Offset = "0x2921FD0", VA = "0x1829239D0", Slot = "4")]
+		[Address(RVA = "0x62D4CB0", Offset = "0x62D3CB0", VA = "0x62D4CB0", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000494")]
-		[Address(RVA = "0x2923B90", Offset = "0x2922190", VA = "0x182923B90", Slot = "7")]
+		[Address(RVA = "0x62D4D00", Offset = "0x62D3D00", VA = "0x62D4D00", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000495")]
-		[Address(RVA = "0x2923A20", Offset = "0x2922020", VA = "0x182923A20", Slot = "5")]
+		[Address(RVA = "0x62D4DB0", Offset = "0x62D3DB0", VA = "0x62D4DB0", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
@@ -5101,46 +5101,46 @@ public readonly struct UniTask
 		private UniTaskCompletionSourceCore<int> core;
 
 		[Token(Token = "0x600060D")]
-		[Address(RVA = "0x29243D0", Offset = "0x29229D0", VA = "0x1829243D0")]
+		[Address(RVA = "0x62CF2C0", Offset = "0x62CE2C0", VA = "0x62CF2C0")]
 		public WhenAnyPromise(UniTask[] tasks, int tasksLength)
 		{
 		}
 
 		[Token(Token = "0x600060E")]
-		[Address(RVA = "0x2924230", Offset = "0x2922830", VA = "0x182924230")]
+		[Address(RVA = "0x62D5030", Offset = "0x62D4030", VA = "0x62D5030")]
 		private static void TryInvokeContinuation(WhenAnyPromise self, in Awaiter awaiter, int i)
 		{
 		}
 
 		[Token(Token = "0x600060F")]
-		[Address(RVA = "0x2923EA0", Offset = "0x29224A0", VA = "0x182923EA0", Slot = "22")]
+		[Address(RVA = "0x62D5200", Offset = "0x62D4200", VA = "0x62D5200", Slot = "22")]
 		public int GetResult(short token)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x2923F20", Offset = "0x2922520", VA = "0x182923F20", Slot = "10")]
+		[Address(RVA = "0x62D5280", Offset = "0x62D4280", VA = "0x62D5280", Slot = "10")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000611")]
-		[Address(RVA = "0x2924070", Offset = "0x2922670", VA = "0x182924070", Slot = "11")]
+		[Address(RVA = "0x62D52D0", Offset = "0x62D42D0", VA = "0x62D52D0", Slot = "11")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x2924320", Offset = "0x2922920", VA = "0x182924320", Slot = "13")]
+		[Address(RVA = "0x62D5330", Offset = "0x62D4330", VA = "0x62D5330", Slot = "13")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x2923EA0", Offset = "0x29224A0", VA = "0x182923EA0", Slot = "12")]
+		[Address(RVA = "0x62D53E0", Offset = "0x62D43E0", VA = "0x62D53E0", Slot = "12")]
 		private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 		{
 		}
@@ -5154,40 +5154,40 @@ public readonly struct UniTask
 		private readonly IUniTaskSource source;
 
 		[Token(Token = "0x6000617")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x62D00C0", Offset = "0x62CF0C0", VA = "0x62D00C0")]
 		public AsyncUnitSource(IUniTaskSource source)
 		{
 		}
 
 		[Token(Token = "0x6000618")]
-		[Address(RVA = "0x2907420", Offset = "0x2905A20", VA = "0x182907420", Slot = "22")]
+		[Address(RVA = "0x62D5680", Offset = "0x62D4680", VA = "0x62D5680", Slot = "22")]
 		public AsyncUnit GetResult(short token)
 		{
 			return default(AsyncUnit);
 		}
 
 		[Token(Token = "0x6000619")]
-		[Address(RVA = "0x29074B0", Offset = "0x2905AB0", VA = "0x1829074B0", Slot = "10")]
+		[Address(RVA = "0x62D5770", Offset = "0x62D4770", VA = "0x62D5770", Slot = "10")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600061A")]
-		[Address(RVA = "0x2907510", Offset = "0x2905B10", VA = "0x182907510", Slot = "11")]
+		[Address(RVA = "0x62D5820", Offset = "0x62D4820", VA = "0x62D5820", Slot = "11")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600061B")]
-		[Address(RVA = "0x2907580", Offset = "0x2905B80", VA = "0x182907580", Slot = "13")]
+		[Address(RVA = "0x62D58E0", Offset = "0x62D48E0", VA = "0x62D58E0", Slot = "13")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600061C")]
-		[Address(RVA = "0x29073A0", Offset = "0x29059A0", VA = "0x1829073A0", Slot = "12")]
+		[Address(RVA = "0x62D5980", Offset = "0x62D4980", VA = "0x62D5980", Slot = "12")]
 		private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 		{
 		}
@@ -5201,40 +5201,40 @@ public readonly struct UniTask
 		private readonly IUniTaskSource source;
 
 		[Token(Token = "0x600061D")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x62CFC50", Offset = "0x62CEC50", VA = "0x62CFC50")]
 		public IsCanceledSource(IUniTaskSource source)
 		{
 		}
 
 		[Token(Token = "0x600061E")]
-		[Address(RVA = "0x290E3D0", Offset = "0x290C9D0", VA = "0x18290E3D0", Slot = "22")]
+		[Address(RVA = "0x62D5990", Offset = "0x62D4990", VA = "0x62D5990", Slot = "22")]
 		public bool GetResult(short token)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600061F")]
-		[Address(RVA = "0x290E350", Offset = "0x290C950", VA = "0x18290E350", Slot = "12")]
+		[Address(RVA = "0x62D5AD0", Offset = "0x62D4AD0", VA = "0x62D5AD0", Slot = "12")]
 		private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000620")]
-		[Address(RVA = "0x290E460", Offset = "0x290CA60", VA = "0x18290E460", Slot = "10")]
+		[Address(RVA = "0x62D5AE0", Offset = "0x62D4AE0", VA = "0x62D5AE0", Slot = "10")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000621")]
-		[Address(RVA = "0x290E530", Offset = "0x290CB30", VA = "0x18290E530", Slot = "13")]
+		[Address(RVA = "0x62D5B90", Offset = "0x62D4B90", VA = "0x62D5B90", Slot = "13")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000622")]
-		[Address(RVA = "0x290E4C0", Offset = "0x290CAC0", VA = "0x18290E4C0", Slot = "11")]
+		[Address(RVA = "0x62D5C30", Offset = "0x62D4C30", VA = "0x62D5C30", Slot = "11")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
@@ -5256,32 +5256,32 @@ public readonly struct UniTask
 		private UniTaskStatus status;
 
 		[Token(Token = "0x6000623")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Address(RVA = "0x62CFE50", Offset = "0x62CEE50", VA = "0x62CFE50")]
 		public MemoizeSource(IUniTaskSource source)
 		{
 		}
 
 		[Token(Token = "0x6000624")]
-		[Address(RVA = "0x290E580", Offset = "0x290CB80", VA = "0x18290E580", Slot = "13")]
+		[Address(RVA = "0x62D5CF0", Offset = "0x62D4CF0", VA = "0x62D5CF0", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x6000625")]
-		[Address(RVA = "0x290E6F0", Offset = "0x290CCF0", VA = "0x18290E6F0", Slot = "4")]
+		[Address(RVA = "0x62D5F40", Offset = "0x62D4F40", VA = "0x62D5F40", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x6000626")]
-		[Address(RVA = "0x290E760", Offset = "0x290CD60", VA = "0x18290E760", Slot = "5")]
+		[Address(RVA = "0x62D5FF0", Offset = "0x62D4FF0", VA = "0x62D5FF0", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x6000627")]
-		[Address(RVA = "0x290E7F0", Offset = "0x290CDF0", VA = "0x18290E7F0", Slot = "7")]
+		[Address(RVA = "0x62D60D0", Offset = "0x62D50D0", VA = "0x62D60D0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
@@ -5300,7 +5300,7 @@ public readonly struct UniTask
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x6000629")]
-			[Address(RVA = "0x2909470", Offset = "0x2907A70", VA = "0x182909470")]
+			[Address(RVA = "0x62D61A0", Offset = "0x62D51A0", VA = "0x62D61A0")]
 			[DebuggerHidden]
 			get
 			{
@@ -5310,7 +5310,7 @@ public readonly struct UniTask
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000628")]
-		[Address(RVA = "0xEF4190", Offset = "0xEF2790", VA = "0x180EF4190")]
+		[Address(RVA = "0x62D6190", Offset = "0x62D5190", VA = "0x62D6190")]
 		[DebuggerHidden]
 		public Awaiter(in UniTask task)
 		{
@@ -5318,7 +5318,7 @@ public readonly struct UniTask
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600062A")]
-		[Address(RVA = "0x2908620", Offset = "0x2906C20", VA = "0x182908620")]
+		[Address(RVA = "0x62D62C0", Offset = "0x62D52C0", VA = "0x62D62C0")]
 		[DebuggerHidden]
 		public void GetResult()
 		{
@@ -5326,7 +5326,7 @@ public readonly struct UniTask
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600062B")]
-		[Address(RVA = "0x2908A50", Offset = "0x2907050", VA = "0x182908A50", Slot = "5")]
+		[Address(RVA = "0x62D6380", Offset = "0x62D5380", VA = "0x62D6380", Slot = "5")]
 		[DebuggerHidden]
 		public void OnCompleted(Action continuation)
 		{
@@ -5334,7 +5334,7 @@ public readonly struct UniTask
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600062C")]
-		[Address(RVA = "0x2908F60", Offset = "0x2907560", VA = "0x182908F60", Slot = "4")]
+		[Address(RVA = "0x62D6490", Offset = "0x62D5490", VA = "0x62D6490", Slot = "4")]
 		[DebuggerHidden]
 		public void UnsafeOnCompleted(Action continuation)
 		{
@@ -5342,7 +5342,7 @@ public readonly struct UniTask
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600062D")]
-		[Address(RVA = "0x2908C20", Offset = "0x2907220", VA = "0x182908C20")]
+		[Address(RVA = "0x62D65A0", Offset = "0x62D55A0", VA = "0x62D65A0")]
 		[DebuggerHidden]
 		public void SourceOnCompleted(Action<object> continuation, object state)
 		{
@@ -5391,13 +5391,13 @@ public readonly struct UniTask
 		private YieldAwaitable.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x600064D")]
-		[Address(RVA = "0x2914DD0", Offset = "0x29133D0", VA = "0x182914DD0", Slot = "4")]
+		[Address(RVA = "0x62D6870", Offset = "0x62D5870", VA = "0x62D6870", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600064E")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62D6DB0", Offset = "0x62D5DB0", VA = "0x62D6DB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -5450,13 +5450,13 @@ public readonly struct UniTask
 		private YieldAwaitable.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x600064F")]
-		[Address(RVA = "0x29152A0", Offset = "0x29138A0", VA = "0x1829152A0", Slot = "4")]
+		[Address(RVA = "0x62D6DC0", Offset = "0x62D5DC0", VA = "0x62D6DC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000650")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62D72A0", Offset = "0x62D62A0", VA = "0x62D72A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -5509,13 +5509,13 @@ public readonly struct UniTask
 		private YieldAwaitable.Awaiter _003C_003Eu__3;
 
 		[Token(Token = "0x6000651")]
-		[Address(RVA = "0x2915780", Offset = "0x2913D80", VA = "0x182915780", Slot = "4")]
+		[Address(RVA = "0x62D72B0", Offset = "0x62D62B0", VA = "0x62D72B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62D7C70", Offset = "0x62D6C70", VA = "0x62D7C70", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -5572,13 +5572,13 @@ public readonly struct UniTask
 		private YieldAwaitable.Awaiter _003C_003Eu__3;
 
 		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x2915EF0", Offset = "0x29144F0", VA = "0x182915EF0", Slot = "4")]
+		[Address(RVA = "0x62D7C80", Offset = "0x62D6C80", VA = "0x62D7C80", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62D8640", Offset = "0x62D7640", VA = "0x62D8640", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -5851,13 +5851,13 @@ public readonly struct UniTask
 		private Awaitable.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600065D")]
-		[Address(RVA = "0x291A260", Offset = "0x2918860", VA = "0x18291A260", Slot = "4")]
+		[Address(RVA = "0x62D8650", Offset = "0x62D7650", VA = "0x62D8650", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62D88A0", Offset = "0x62D78A0", VA = "0x62D88A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -5885,7 +5885,7 @@ public readonly struct UniTask
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x2921AE0", Offset = "0x29200E0", VA = "0x182921AE0")]
+		[Address(RVA = "0x62CF980", Offset = "0x62CE980", VA = "0x62CF980")]
 		[DebuggerHidden]
 		get
 		{
@@ -5894,70 +5894,70 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x2920990", Offset = "0x291EF90", VA = "0x182920990")]
+	[Address(RVA = "0x62CA870", Offset = "0x62C9870", VA = "0x62CA870")]
 	public static IEnumerator ToCoroutine(Func<UniTask> taskFactory)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x846F50", Offset = "0x845550", VA = "0x180846F50")]
+	[Address(RVA = "0x62CA980", Offset = "0x62C9980", VA = "0x62CA980")]
 	public static YieldAwaitable Yield()
 	{
 		return default(YieldAwaitable);
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x611500", Offset = "0x60FB00", VA = "0x180611500")]
+	[Address(RVA = "0x62CA990", Offset = "0x62C9990", VA = "0x62CA990")]
 	public static YieldAwaitable Yield(PlayerLoopTiming timing)
 	{
 		return default(YieldAwaitable);
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x2921900", Offset = "0x291FF00", VA = "0x182921900")]
+	[Address(RVA = "0x62CA9A0", Offset = "0x62C99A0", VA = "0x62CA9A0")]
 	public static UniTask Yield(CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x2921860", Offset = "0x291FE60", VA = "0x182921860")]
+	[Address(RVA = "0x62CAD20", Offset = "0x62C9D20", VA = "0x62CAD20")]
 	public static UniTask Yield(PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x291FBB0", Offset = "0x291E1B0", VA = "0x18291FBB0")]
+	[Address(RVA = "0x62CADB0", Offset = "0x62C9DB0", VA = "0x62CADB0")]
 	public static UniTask NextFrame()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x291FAE0", Offset = "0x291E0E0", VA = "0x18291FAE0")]
+	[Address(RVA = "0x62CB230", Offset = "0x62CA230", VA = "0x62CB230")]
 	public static UniTask NextFrame(PlayerLoopTiming timing)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001A9")]
-	[Address(RVA = "0x291F990", Offset = "0x291DF90", VA = "0x18291F990")]
+	[Address(RVA = "0x62CB2E0", Offset = "0x62CA2E0", VA = "0x62CB2E0")]
 	public static UniTask NextFrame(CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x291FA40", Offset = "0x291E040", VA = "0x18291FA40")]
+	[Address(RVA = "0x62CB370", Offset = "0x62CA370", VA = "0x62CB370")]
 	public static UniTask NextFrame(PlayerLoopTiming timing, CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001AB")]
-	[Address(RVA = "0x2920D00", Offset = "0x291F300", VA = "0x182920D00")]
+	[Address(RVA = "0x62CB400", Offset = "0x62CA400", VA = "0x62CB400")]
 	[AsyncStateMachine(typeof(_003CWaitForEndOfFrame_003Ed__9))]
 	public static UniTask WaitForEndOfFrame([Optional] CancellationToken cancellationToken)
 	{
@@ -5965,84 +5965,84 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x2920E60", Offset = "0x291F460", VA = "0x182920E60")]
+	[Address(RVA = "0x62CB4A0", Offset = "0x62CA4A0", VA = "0x62CB4A0")]
 	public static UniTask WaitForEndOfFrame(MonoBehaviour coroutineRunner)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x2920DC0", Offset = "0x291F3C0", VA = "0x182920DC0")]
+	[Address(RVA = "0x62CB830", Offset = "0x62CA830", VA = "0x62CB830")]
 	public static UniTask WaitForEndOfFrame(MonoBehaviour coroutineRunner, CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x2921010", Offset = "0x291F610", VA = "0x182921010")]
+	[Address(RVA = "0x62CB8C0", Offset = "0x62CA8C0", VA = "0x62CB8C0")]
 	public static YieldAwaitable WaitForFixedUpdate()
 	{
 		return default(YieldAwaitable);
 	}
 
 	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x2920F30", Offset = "0x291F530", VA = "0x182920F30")]
+	[Address(RVA = "0x62CB920", Offset = "0x62CA920", VA = "0x62CB920")]
 	public static UniTask WaitForFixedUpdate(CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x29210F0", Offset = "0x291F6F0", VA = "0x1829210F0")]
+	[Address(RVA = "0x62CBA10", Offset = "0x62CAA10", VA = "0x62CBA10")]
 	public static UniTask WaitForSeconds(float duration, [Optional][DefaultParameterValue(false)] bool ignoreTimeScale, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x2921050", Offset = "0x291F650", VA = "0x182921050")]
+	[Address(RVA = "0x62CBCB0", Offset = "0x62CACB0", VA = "0x62CBCB0")]
 	public static UniTask WaitForSeconds(int duration, [Optional][DefaultParameterValue(false)] bool ignoreTimeScale, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x291EF80", Offset = "0x291D580", VA = "0x18291EF80")]
+	[Address(RVA = "0x62CBD20", Offset = "0x62CAD20", VA = "0x62CBD20")]
 	public static UniTask DelayFrame(int delayFrameCount, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x291F0A0", Offset = "0x291D6A0", VA = "0x18291F0A0")]
+	[Address(RVA = "0x62CBBC0", Offset = "0x62CABC0", VA = "0x62CBBC0")]
 	public static UniTask Delay(int millisecondsDelay, [Optional][DefaultParameterValue(false)] bool ignoreTimeScale, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x291F1A0", Offset = "0x291D7A0", VA = "0x18291F1A0")]
+	[Address(RVA = "0x62CC200", Offset = "0x62CB200", VA = "0x62CC200")]
 	public static UniTask Delay(TimeSpan delayTimeSpan, [Optional][DefaultParameterValue(false)] bool ignoreTimeScale, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x291F230", Offset = "0x291D830", VA = "0x18291F230")]
+	[Address(RVA = "0x62CC480", Offset = "0x62CB480", VA = "0x62CC480")]
 	public static UniTask Delay(int millisecondsDelay, DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x291F2F0", Offset = "0x291D8F0", VA = "0x18291F2F0")]
+	[Address(RVA = "0x62CC270", Offset = "0x62CB270", VA = "0x62CC270")]
 	public static UniTask Delay(TimeSpan delayTimeSpan, DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming delayTiming, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001B7")]
-	[Address(RVA = "0x291F680", Offset = "0x291DC80", VA = "0x18291F680")]
+	[Address(RVA = "0x62CD0D0", Offset = "0x62CC0D0", VA = "0x62CD0D0")]
 	public static UniTask FromException(Exception ex)
 	{
 		return default(UniTask);
@@ -6061,7 +6061,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x291F570", Offset = "0x291DB70", VA = "0x18291F570")]
+	[Address(RVA = "0x62C24B0", Offset = "0x62C14B0", VA = "0x62C24B0")]
 	public static UniTask FromCanceled([Optional] CancellationToken cancellationToken)
 	{
 		return default(UniTask);
@@ -6074,14 +6074,14 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x291EEB0", Offset = "0x291D4B0", VA = "0x18291EEB0")]
+	[Address(RVA = "0x62CD250", Offset = "0x62CC250", VA = "0x62CD250")]
 	public static UniTask Create(Func<UniTask> factory)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x291EE70", Offset = "0x291D470", VA = "0x18291EE70")]
+	[Address(RVA = "0x62CD270", Offset = "0x62CC270", VA = "0x62CD270")]
 	public static UniTask Create(Func<CancellationToken, UniTask> factory, CancellationToken cancellationToken)
 	{
 		return default(UniTask);
@@ -6100,7 +6100,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x291F7D0", Offset = "0x291DDD0", VA = "0x18291F7D0")]
+	[Address(RVA = "0x62CD290", Offset = "0x62CC290", VA = "0x62CD290")]
 	public static AsyncLazy Lazy(Func<UniTask> factory)
 	{
 		return null;
@@ -6113,13 +6113,13 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x2920CC0", Offset = "0x291F2C0", VA = "0x182920CC0")]
+	[Address(RVA = "0x62CD2E0", Offset = "0x62CC2E0", VA = "0x62CD2E0")]
 	public static void Void(Func<UniTaskVoid> asyncAction)
 	{
 	}
 
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x2920C80", Offset = "0x291F280", VA = "0x182920C80")]
+	[Address(RVA = "0x62CD310", Offset = "0x62CC310", VA = "0x62CD310")]
 	public static void Void(Func<CancellationToken, UniTaskVoid> asyncAction, CancellationToken cancellationToken)
 	{
 	}
@@ -6130,14 +6130,14 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x291EB40", Offset = "0x291D140", VA = "0x18291EB40")]
+	[Address(RVA = "0x62CD340", Offset = "0x62CC340", VA = "0x62CD340")]
 	public static Action Action(Func<UniTaskVoid> asyncAction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x291EBF0", Offset = "0x291D1F0", VA = "0x18291EBF0")]
+	[Address(RVA = "0x62CD400", Offset = "0x62CC400", VA = "0x62CD400")]
 	public static Action Action(Func<CancellationToken, UniTaskVoid> asyncAction, CancellationToken cancellationToken)
 	{
 		return null;
@@ -6150,14 +6150,14 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x2920BD0", Offset = "0x291F1D0", VA = "0x182920BD0")]
+	[Address(RVA = "0x62CD4D0", Offset = "0x62CC4D0", VA = "0x62CD4D0")]
 	public static UnityAction UnityAction(Func<UniTaskVoid> asyncAction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x2920B00", Offset = "0x291F100", VA = "0x182920B00")]
+	[Address(RVA = "0x62CD590", Offset = "0x62CC590", VA = "0x62CD590")]
 	public static UnityAction UnityAction(Func<CancellationToken, UniTaskVoid> asyncAction, CancellationToken cancellationToken)
 	{
 		return null;
@@ -6218,7 +6218,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x291EEF0", Offset = "0x291D4F0", VA = "0x18291EEF0")]
+	[Address(RVA = "0x62CD660", Offset = "0x62CC660", VA = "0x62CD660")]
 	public static UniTask Defer(Func<UniTask> factory)
 	{
 		return default(UniTask);
@@ -6243,7 +6243,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x291F8B0", Offset = "0x291DEB0", VA = "0x18291F8B0")]
+	[Address(RVA = "0x62CD710", Offset = "0x62CC710", VA = "0x62CD710")]
 	public static UniTask Never(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
@@ -6256,7 +6256,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x2920500", Offset = "0x291EB00", VA = "0x182920500")]
+	[Address(RVA = "0x62CD7D0", Offset = "0x62CC7D0", VA = "0x62CD7D0")]
 	[Obsolete("UniTask.Run is similar as Task.Run, it uses ThreadPool. For equivalent behaviour, use UniTask.RunOnThreadPool instead. If you don't want to use ThreadPool, you can use UniTask.Void(async void) or UniTask.Create(async UniTask) too.")]
 	public static UniTask Run(Action action, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6264,7 +6264,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x2920620", Offset = "0x291EC20", VA = "0x182920620")]
+	[Address(RVA = "0x62CD8F0", Offset = "0x62CC8F0", VA = "0x62CD8F0")]
 	[Obsolete("UniTask.Run is similar as Task.Run, it uses ThreadPool. For equivalent behaviour, use UniTask.RunOnThreadPool instead. If you don't want to use ThreadPool, you can use UniTask.Void(async void) or UniTask.Create(async UniTask) too.")]
 	public static UniTask Run(Action<object> action, object state, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6272,7 +6272,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x29202A0", Offset = "0x291E8A0", VA = "0x1829202A0")]
+	[Address(RVA = "0x62CDA40", Offset = "0x62CCA40", VA = "0x62CDA40")]
 	[Obsolete("UniTask.Run is similar as Task.Run, it uses ThreadPool. For equivalent behaviour, use UniTask.RunOnThreadPool instead. If you don't want to use ThreadPool, you can use UniTask.Void(async void) or UniTask.Create(async UniTask) too.")]
 	public static UniTask Run(Func<UniTask> action, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6280,7 +6280,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x29203C0", Offset = "0x291E9C0", VA = "0x1829203C0")]
+	[Address(RVA = "0x62CDB60", Offset = "0x62CCB60", VA = "0x62CDB60")]
 	[Obsolete("UniTask.Run is similar as Task.Run, it uses ThreadPool. For equivalent behaviour, use UniTask.RunOnThreadPool instead. If you don't want to use ThreadPool, you can use UniTask.Void(async void) or UniTask.Create(async UniTask) too.")]
 	public static UniTask Run(Func<object, UniTask> action, object state, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6316,7 +6316,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x29201B0", Offset = "0x291E7B0", VA = "0x1829201B0")]
+	[Address(RVA = "0x62CD830", Offset = "0x62CC830", VA = "0x62CD830")]
 	[AsyncStateMachine(typeof(_003CRunOnThreadPool_003Ed__82))]
 	public static UniTask RunOnThreadPool(Action action, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6324,7 +6324,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x291FFB0", Offset = "0x291E5B0", VA = "0x18291FFB0")]
+	[Address(RVA = "0x62CD960", Offset = "0x62CC960", VA = "0x62CD960")]
 	[AsyncStateMachine(typeof(_003CRunOnThreadPool_003Ed__83))]
 	public static UniTask RunOnThreadPool(Action<object> action, object state, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6332,7 +6332,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x29200C0", Offset = "0x291E6C0", VA = "0x1829200C0")]
+	[Address(RVA = "0x62CDAA0", Offset = "0x62CCAA0", VA = "0x62CDAA0")]
 	[AsyncStateMachine(typeof(_003CRunOnThreadPool_003Ed__84))]
 	public static UniTask RunOnThreadPool(Func<UniTask> action, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6340,7 +6340,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x291FEA0", Offset = "0x291E4A0", VA = "0x18291FEA0")]
+	[Address(RVA = "0x62CDBD0", Offset = "0x62CCBD0", VA = "0x62CDBD0")]
 	[AsyncStateMachine(typeof(_003CRunOnThreadPool_003Ed__85))]
 	public static UniTask RunOnThreadPool(Func<object, UniTask> action, object state, [Optional][DefaultParameterValue(true)] bool configureAwait, [Optional] CancellationToken cancellationToken)
 	{
@@ -6376,76 +6376,76 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x291FDF0", Offset = "0x291E3F0", VA = "0x18291FDF0")]
+	[Address(RVA = "0x62CDCC0", Offset = "0x62CCCC0", VA = "0x62CDCC0")]
 	public static SwitchToMainThreadAwaitable SwitchToMainThread([Optional] CancellationToken cancellationToken)
 	{
 		return default(SwitchToMainThreadAwaitable);
 	}
 
 	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x291FE20", Offset = "0x291E420", VA = "0x18291FE20")]
+	[Address(RVA = "0x62CDD20", Offset = "0x62CCD20", VA = "0x62CDD20")]
 	public static SwitchToMainThreadAwaitable SwitchToMainThread(PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken)
 	{
 		return default(SwitchToMainThreadAwaitable);
 	}
 
 	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x291FDF0", Offset = "0x291E3F0", VA = "0x18291FDF0")]
+	[Address(RVA = "0x62CDD50", Offset = "0x62CCD50", VA = "0x62CDD50")]
 	public static ReturnToMainThread ReturnToMainThread([Optional] CancellationToken cancellationToken)
 	{
 		return default(ReturnToMainThread);
 	}
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x291FE20", Offset = "0x291E420", VA = "0x18291FE20")]
+	[Address(RVA = "0x62CDDB0", Offset = "0x62CCDB0", VA = "0x62CDDB0")]
 	public static ReturnToMainThread ReturnToMainThread(PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ReturnToMainThread);
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x291FC70", Offset = "0x291E270", VA = "0x18291FC70")]
+	[Address(RVA = "0x62CDDE0", Offset = "0x62CCDE0", VA = "0x62CDDE0")]
 	public static void Post(Action action, PlayerLoopTiming timing = PlayerLoopTiming.Update)
 	{
 	}
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x62CDE30", Offset = "0x62CCE30", VA = "0x62CDE30")]
 	public static SwitchToThreadPoolAwaitable SwitchToThreadPool()
 	{
 		return default(SwitchToThreadPoolAwaitable);
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Address(RVA = "0x62CDE40", Offset = "0x62CCE40", VA = "0x62CDE40")]
 	public static SwitchToTaskPoolAwaitable SwitchToTaskPool()
 	{
 		return default(SwitchToTaskPoolAwaitable);
 	}
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x2920900", Offset = "0x291EF00", VA = "0x182920900")]
+	[Address(RVA = "0x62CDE50", Offset = "0x62CCE50", VA = "0x62CDE50")]
 	public static SwitchToSynchronizationContextAwaitable SwitchToSynchronizationContext(SynchronizationContext synchronizationContext, [Optional] CancellationToken cancellationToken)
 	{
 		return default(SwitchToSynchronizationContextAwaitable);
 	}
 
 	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x291FE50", Offset = "0x291E450", VA = "0x18291FE50")]
+	[Address(RVA = "0x62CDF10", Offset = "0x62CCF10", VA = "0x62CDF10")]
 	public static ReturnToSynchronizationContext ReturnToSynchronizationContext(SynchronizationContext synchronizationContext, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ReturnToSynchronizationContext);
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x291FD90", Offset = "0x291E390", VA = "0x18291FD90")]
+	[Address(RVA = "0x62CDF80", Offset = "0x62CCF80", VA = "0x62CDF80")]
 	public static ReturnToSynchronizationContext ReturnToCurrentSynchronizationContext([Optional][DefaultParameterValue(true)] bool dontPostWhenSameContext, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ReturnToSynchronizationContext);
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x2921310", Offset = "0x291F910", VA = "0x182921310")]
+	[Address(RVA = "0x62CDFD0", Offset = "0x62CCFD0", VA = "0x62CDFD0")]
 	public static UniTask WaitUntil(Func<bool> predicate, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
@@ -6458,7 +6458,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x29213B0", Offset = "0x291F9B0", VA = "0x1829213B0")]
+	[Address(RVA = "0x62CE390", Offset = "0x62CD390", VA = "0x62CE390")]
 	public static UniTask WaitWhile(Func<bool> predicate, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask);
@@ -6471,7 +6471,7 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x2921270", Offset = "0x291F870", VA = "0x182921270")]
+	[Address(RVA = "0x62CE750", Offset = "0x62CD750", VA = "0x62CE750")]
 	public static UniTask WaitUntilCanceled(CancellationToken cancellationToken, PlayerLoopTiming timing = PlayerLoopTiming.Update, bool completeImmediately = false)
 	{
 		return default(UniTask);
@@ -6580,14 +6580,14 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x2921590", Offset = "0x291FB90", VA = "0x182921590")]
+	[Address(RVA = "0x62CEAD0", Offset = "0x62CDAD0", VA = "0x62CEAD0")]
 	public static UniTask WhenAll(params UniTask[] tasks)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x2921450", Offset = "0x291FA50", VA = "0x182921450")]
+	[Address(RVA = "0x62CF0E0", Offset = "0x62CE0E0", VA = "0x62CF0E0")]
 	public static UniTask WhenAll(IEnumerable<UniTask> tasks)
 	{
 		return default(UniTask);
@@ -6696,14 +6696,14 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x2921670", Offset = "0x291FC70", VA = "0x182921670")]
+	[Address(RVA = "0x62CF220", Offset = "0x62CE220", VA = "0x62CF220")]
 	public static UniTask<int> WhenAny(params UniTask[] tasks)
 	{
 		return default(UniTask<int>);
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x2921710", Offset = "0x291FD10", VA = "0x182921710")]
+	[Address(RVA = "0x62CF7F0", Offset = "0x62CE7F0", VA = "0x62CF7F0")]
 	public static UniTask<int> WhenAny(IEnumerable<UniTask> tasks)
 	{
 		return default(UniTask<int>);
@@ -6723,7 +6723,7 @@ public readonly struct UniTask
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x2921AB0", Offset = "0x29200B0", VA = "0x182921AB0")]
+	[Address(RVA = "0x62CF960", Offset = "0x62CE960", VA = "0x62CF960")]
 	[DebuggerHidden]
 	public UniTask(IUniTaskSource source, short token)
 	{
@@ -6731,7 +6731,7 @@ public readonly struct UniTask
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x291F7A0", Offset = "0x291DDA0", VA = "0x18291F7A0")]
+	[Address(RVA = "0x62CFA30", Offset = "0x62CEA30", VA = "0x62CFA30")]
 	[DebuggerHidden]
 	public Awaiter GetAwaiter()
 	{
@@ -6739,35 +6739,35 @@ public readonly struct UniTask
 	}
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x2920760", Offset = "0x291ED60", VA = "0x182920760")]
+	[Address(RVA = "0x62CFA60", Offset = "0x62CEA60", VA = "0x62CFA60")]
 	public UniTask<bool> SuppressCancellationThrow()
 	{
 		return default(UniTask<bool>);
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x2921B40", Offset = "0x2920140", VA = "0x182921B40")]
+	[Address(RVA = "0x62CA3E0", Offset = "0x62C93E0", VA = "0x62CA3E0")]
 	public static implicit operator ValueTask(in UniTask self)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x2920A30", Offset = "0x291F030", VA = "0x182920A30", Slot = "3")]
+	[Address(RVA = "0x62CFC80", Offset = "0x62CEC80", VA = "0x62CFC80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x291FCD0", Offset = "0x291E2D0", VA = "0x18291FCD0")]
+	[Address(RVA = "0x62CFDB0", Offset = "0x62CEDB0", VA = "0x62CFDB0")]
 	public UniTask Preserve()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x291ECC0", Offset = "0x291D2C0", VA = "0x18291ECC0")]
+	[Address(RVA = "0x62CFE80", Offset = "0x62CEE80", VA = "0x62CFE80")]
 	public UniTask<AsyncUnit> AsAsyncUnitUniTask()
 	{
 		return default(UniTask<AsyncUnit>);

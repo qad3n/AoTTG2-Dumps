@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalEntityIndexer
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,52 +38,52 @@ internal class DecalEntityIndexer
 	private Queue<int> m_FreeIndices;
 
 	[Token(Token = "0x600032F")]
-	[Address(RVA = "0x2C1EC50", Offset = "0x2C1D250", VA = "0x182C1EC50")]
+	[Address(RVA = "0x6614D70", Offset = "0x6613D70", VA = "0x6614D70")]
 	public bool IsValid(DecalEntity decalEntity)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000330")]
-	[Address(RVA = "0x2C1E940", Offset = "0x2C1CF40", VA = "0x182C1E940")]
+	[Address(RVA = "0x6614DF0", Offset = "0x6613DF0", VA = "0x6614DF0")]
 	public DecalEntity CreateDecalEntity(int arrayIndex, int chunkIndex)
 	{
 		return default(DecalEntity);
 	}
 
 	[Token(Token = "0x6000331")]
-	[Address(RVA = "0x2C1EB10", Offset = "0x2C1D110", VA = "0x182C1EB10")]
+	[Address(RVA = "0x6614F60", Offset = "0x6613F60", VA = "0x6614F60")]
 	public void DestroyDecalEntity(DecalEntity decalEntity)
 	{
 	}
 
 	[Token(Token = "0x6000332")]
-	[Address(RVA = "0x2C1EBD0", Offset = "0x2C1D1D0", VA = "0x182C1EBD0")]
+	[Address(RVA = "0x6615010", Offset = "0x6614010", VA = "0x6615010")]
 	public DecalEntityItem GetItem(DecalEntity decalEntity)
 	{
 		return default(DecalEntityItem);
 	}
 
 	[Token(Token = "0x6000333")]
-	[Address(RVA = "0x2C1EE10", Offset = "0x2C1D410", VA = "0x182C1EE10")]
+	[Address(RVA = "0x6615060", Offset = "0x6614060", VA = "0x6615060")]
 	public void UpdateIndex(DecalEntity decalEntity, int newArrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000334")]
-	[Address(RVA = "0x2C1ECE0", Offset = "0x2C1D2E0", VA = "0x182C1ECE0")]
+	[Address(RVA = "0x66150F0", Offset = "0x66140F0", VA = "0x66150F0")]
 	public void RemapChunkIndices(List<int> remaper)
 	{
 	}
 
 	[Token(Token = "0x6000335")]
-	[Address(RVA = "0x2C1E8D0", Offset = "0x2C1CED0", VA = "0x182C1E8D0")]
+	[Address(RVA = "0x6615210", Offset = "0x6614210", VA = "0x6615210")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000336")]
-	[Address(RVA = "0x2C1EEC0", Offset = "0x2C1D4C0", VA = "0x182C1EEC0")]
+	[Address(RVA = "0x6615270", Offset = "0x6614270", VA = "0x6615270")]
 	public DecalEntityIndexer()
 	{
 	}

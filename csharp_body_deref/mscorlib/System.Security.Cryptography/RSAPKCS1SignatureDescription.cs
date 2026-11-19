@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000336")]
+[Token(Token = "0x200030F")]
 internal abstract class RSAPKCS1SignatureDescription : SignatureDescription
 {
-	[Token(Token = "0x4000D90")]
+	[Token(Token = "0x4000CF0")]
 	[FieldOffset(Offset = "0x30")]
 	private string _hashAlgorithm;
 
-	[Token(Token = "0x6001B03")]
-	[Address(RVA = "0x19C6260", Offset = "0x19C4860", VA = "0x1819C6260")]
+	[Token(Token = "0x6001AE0")]
+	[Address(RVA = "0x5353710", Offset = "0x5352710", VA = "0x5353710")]
 	protected RSAPKCS1SignatureDescription(string hashAlgorithm, string digestAlgorithm)
 	{
 	}
 
-	[Token(Token = "0x6001B04")]
-	[Address(RVA = "0x19C6020", Offset = "0x19C4620", VA = "0x1819C6020", Slot = "4")]
+	[Token(Token = "0x6001AE1")]
+	[Address(RVA = "0x53537D0", Offset = "0x53527D0", VA = "0x53537D0", Slot = "4")]
 	public sealed override AsymmetricSignatureDeformatter CreateDeformatter(AsymmetricAlgorithm key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B05")]
-	[Address(RVA = "0x19C6140", Offset = "0x19C4740", VA = "0x1819C6140", Slot = "5")]
+	[Token(Token = "0x6001AE2")]
+	[Address(RVA = "0x5353810", Offset = "0x5352810", VA = "0x5353810", Slot = "5")]
 	public sealed override AsymmetricSignatureFormatter CreateFormatter(AsymmetricAlgorithm key)
 	{
 		return null;

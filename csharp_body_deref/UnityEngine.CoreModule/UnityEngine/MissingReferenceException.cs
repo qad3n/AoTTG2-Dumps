@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.MissingReferenceException
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,23 +12,23 @@ using Il2CppDummyDll;
 namespace UnityEngine;
 
 [Serializable]
-[Token(Token = "0x20001B5")]
+[Token(Token = "0x20001B6")]
 public class MissingReferenceException : Exception
 {
-	[Token(Token = "0x6000E36")]
-	[Address(RVA = "0x2F1BEC0", Offset = "0x2F1A4C0", VA = "0x182F1BEC0")]
+	[Token(Token = "0x6000E48")]
+	[Address(RVA = "0x691E740", Offset = "0x691D740", VA = "0x691E740")]
 	public MissingReferenceException()
 	{
 	}
 
-	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x2F1BE50", Offset = "0x2F1A450", VA = "0x182F1BE50")]
+	[Token(Token = "0x6000E49")]
+	[Address(RVA = "0x691B730", Offset = "0x691A730", VA = "0x691B730")]
 	public MissingReferenceException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x2F1BDD0", Offset = "0x2F1A3D0", VA = "0x182F1BDD0")]
+	[Token(Token = "0x6000E4A")]
+	[Address(RVA = "0x691E7B0", Offset = "0x691D7B0", VA = "0x691E7B0")]
 	protected MissingReferenceException(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.UnifiedRayTracing.TerrainDesc
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -41,7 +41,7 @@ internal struct TerrainDesc
 	public bool frontTriangleCounterClockwise;
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x2D94620", Offset = "0x2D92C20", VA = "0x182D94620")]
+	[Address(RVA = "0x677F190", Offset = "0x677E190", VA = "0x677F190")]
 	public TerrainDesc(Terrain terrain)
 	{
 	}

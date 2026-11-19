@@ -1,5 +1,5 @@
 // Type: UI.QuestWeeklyPanel
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/QuestWeeklyPanel.cs
@@ -8,7 +8,7 @@
 
 // UI.QuestWeeklyPanel$$Setup
 // il2cpp: void UI_QuestWeeklyPanel__Setup (UI_QuestWeeklyPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x18229a200
+// 0x5d5ba10
 
 void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -21,10 +21,12 @@ void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *pa
   UI_ElementStyle_o *__this_00;
   UnityEngine_GameObject_o *__this_01;
   UnityEngine_UI_Text_o *pUVar5;
-  UnityEngine_Color_o *pUVar6;
-  UnityEngine_Color_Fields local_38;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
+  MethodInfo *method_00;
+  UnityEngine_Color_o UVar6;
   
-  if (Il2CppMethodInitialized_184347484 == '\0') {
+  if (Il2CppMethodInitialized_07547f54 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_GameProgressManager);
@@ -34,7 +36,7 @@ void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *pa
     il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
     il2cpp_codegen_initialize_runtime_metadata(&"ResetTextColor");
     il2cpp_codegen_initialize_runtime_metadata(&"QuestHeader");
-    Il2CppMethodInitialized_184347484 = '\x01';
+    Il2CppMethodInitialized_07547f54 = '\x01';
   }
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
   parent_00 = (__this->fields).SinglePanel;
@@ -49,24 +51,22 @@ void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *pa
   __this_01 = UI_ElementFactory__CreateDefaultLabel(parent_00,__this_00,pSVar4,0,3,(MethodInfo *)0x0);
   if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
     pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                       (__this_01,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+                       (__this_01,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
     pSVar4 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
     if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
     }
-    pUVar6 = UI_UIManager__GetThemeColor
-                       ((UnityEngine_Color_o *)&local_38,pSVar4,"QuestHeader","ResetTextColor",
-                        "DefaultPanel",(MethodInfo *)0x0);
+    UVar6 = UI_UIManager__GetThemeColor
+                      (pSVar4,"QuestHeader","ResetTextColor","DefaultPanel",
+                       (MethodInfo *)0x0);
     if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
-      local_38.r = (pUVar6->fields).r;
-      local_38.g = (pUVar6->fields).g;
-      local_38.b = (pUVar6->fields).b;
-      local_38.a = (pUVar6->fields).a;
       (*(pUVar5->klass->vtable)._23_set_color.methodPtr)
-                (pUVar5,(UnityEngine_Color_o *)&local_38,(pUVar5->klass->vtable)._23_set_color.method);
+                (pUVar5,UVar6,(pUVar5->klass->vtable)._23_set_color.method);
+      method_00 = extraout_RDX;
       if ((TypeInfo_GameProgress_GameProgressManager->_2).cctor_finished_or_no_cctor == 0) {
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameProgress_GameProgressManager);
+        method_00 = extraout_RDX_00;
       }
       pGVar1 = TypeInfo_GameProgress_GameProgressManager->static_fields->GameProgress;
       if (((pGVar1 != (GameProgress_GameProgressContainer_o *)0x0) &&
@@ -74,7 +74,7 @@ void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *pa
          (pSVar3 = (pGVar2->fields).WeeklyQuestItems, pSVar3 != (Settings_ListSetting_QuestItem__o *)0x0)) {
         UI_QuestCategoryPanel__CreateQuestItems
                   ((UI_QuestCategoryPanel_o *)__this,
-                   (System_Collections_Generic_List_QuestItem__o *)(pSVar3->fields)._value,(MethodInfo *)0x0);
+                   (System_Collections_Generic_List_QuestItem__o *)(pSVar3->fields)._value,method_00);
         return;
       }
     }
@@ -85,14 +85,14 @@ void UI_QuestWeeklyPanel__Setup(UI_QuestWeeklyPanel_o *__this,UI_BasePanel_o *pa
 
 // UI.QuestWeeklyPanel$$.ctor
 // il2cpp: void UI_QuestWeeklyPanel___ctor (UI_QuestWeeklyPanel_o* __this, const MethodInfo* method);
-// 0x182297a80
+// 0x5d5bc20
 
 void UI_QuestWeeklyPanel___ctor(UI_QuestWeeklyPanel_o *__this,MethodInfo *method)
 
 {
   (__this->fields).QuestItemWidth = 940.0;
   (__this->fields).QuestItemHeight = 100.0;
-  UI_CategoryPanel___ctor((UI_TopLeftHUD_o *)__this,(MethodInfo *)0x0);
+  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

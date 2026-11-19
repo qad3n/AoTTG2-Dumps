@@ -14,26 +14,26 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class ParentQuery : CacheAxisQuery
 {
 	[Token(Token = "0x6001B8C")]
-	[Address(RVA = "0x26C1810", Offset = "0x26BFE10", VA = "0x1826C1810")]
+	[Address(RVA = "0x60891F0", Offset = "0x60881F0", VA = "0x60891F0")]
 	public ParentQuery(Query qyInput, string Name, string Prefix, XPathNodeType Type)
 	{
 	}
 
 	[Token(Token = "0x6001B8D")]
-	[Address(RVA = "0x26C1820", Offset = "0x26BFE20", VA = "0x1826C1820")]
+	[Address(RVA = "0x6089290", Offset = "0x6088290", VA = "0x6089290")]
 	private ParentQuery(ParentQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B8E")]
-	[Address(RVA = "0x26C1740", Offset = "0x26BFD40", VA = "0x1826C1740", Slot = "14")]
+	[Address(RVA = "0x60892A0", Offset = "0x60882A0", VA = "0x60892A0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B8F")]
-	[Address(RVA = "0x26C16E0", Offset = "0x26BFCE0", VA = "0x1826C16E0", Slot = "6")]
+	[Address(RVA = "0x6089340", Offset = "0x6088340", VA = "0x6089340", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -33,14 +33,14 @@ internal struct LigatureSubstitutionRecord : IEquatable<LigatureSubstitutionReco
 	[Token(Token = "0x17000039")]
 	public uint[] componentGlyphIDs
 	{
-		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
+		[Token(Token = "0x60000C6")]
+		[Address(RVA = "0x69FD5D0", Offset = "0x69FC5D0", VA = "0x69FD5D0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+		[Token(Token = "0x60000C7")]
+		[Address(RVA = "0x69FD5E0", Offset = "0x69FC5E0", VA = "0x69FD5E0")]
 		set
 		{
 		}
@@ -49,42 +49,42 @@ internal struct LigatureSubstitutionRecord : IEquatable<LigatureSubstitutionReco
 	[Token(Token = "0x1700003A")]
 	public uint ligatureGlyphID
 	{
-		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
+		[Token(Token = "0x60000C8")]
+		[Address(RVA = "0x69FD5F0", Offset = "0x69FC5F0", VA = "0x69FD5F0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Token(Token = "0x60000C9")]
+		[Address(RVA = "0x69FD600", Offset = "0x69FC600", VA = "0x69FD600")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3002E60", Offset = "0x3001460", VA = "0x183002E60", Slot = "4")]
+	[Token(Token = "0x60000CA")]
+	[Address(RVA = "0x69FD610", Offset = "0x69FC610", VA = "0x69FD610", Slot = "4")]
 	public bool Equals(LigatureSubstitutionRecord other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3002EE0", Offset = "0x30014E0", VA = "0x183002EE0", Slot = "0")]
+	[Token(Token = "0x60000CB")]
+	[Address(RVA = "0x69FD6D0", Offset = "0x69FC6D0", VA = "0x69FD6D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2369FF0", Offset = "0x23685F0", VA = "0x182369FF0", Slot = "2")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x69FD780", Offset = "0x69FC780", VA = "0x69FD780", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x3002FC0", Offset = "0x30015C0", VA = "0x183002FC0")]
+	[Token(Token = "0x60000CD")]
+	[Address(RVA = "0x69FD670", Offset = "0x69FC670", VA = "0x69FD670")]
 	public static bool operator ==(LigatureSubstitutionRecord lhs, LigatureSubstitutionRecord rhs)
 	{
 		return default(bool);

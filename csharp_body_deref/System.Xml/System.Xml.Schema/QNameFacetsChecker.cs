@@ -14,35 +14,35 @@ namespace System.Xml.Schema;
 internal class QNameFacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x6001246")]
-	[Address(RVA = "0x2611D20", Offset = "0x2610320", VA = "0x182611D20", Slot = "5")]
+	[Address(RVA = "0x5FBED30", Offset = "0x5FBDD30", VA = "0x5FBED30", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001247")]
-	[Address(RVA = "0x2611B30", Offset = "0x2610130", VA = "0x182611B30", Slot = "16")]
+	[Address(RVA = "0x5FBEE50", Offset = "0x5FBDE50", VA = "0x5FBEE50", Slot = "16")]
 	internal override Exception CheckValueFacets(XmlQualifiedName value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001248")]
-	[Address(RVA = "0x2611F40", Offset = "0x2610540", VA = "0x182611F40", Slot = "17")]
+	[Address(RVA = "0x5FBF140", Offset = "0x5FBE140", VA = "0x5FBF140", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001249")]
-	[Address(RVA = "0x2611E50", Offset = "0x2610450", VA = "0x182611E50")]
+	[Address(RVA = "0x5FBF030", Offset = "0x5FBE030", VA = "0x5FBF030")]
 	private bool MatchEnumeration(XmlQualifiedName value, ArrayList enumeration)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600124A")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x5FBF240", Offset = "0x5FBE240", VA = "0x5FBF240")]
 	public QNameFacetsChecker()
 	{
 	}

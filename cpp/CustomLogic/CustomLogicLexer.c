@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicLexer
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicLexer.cs
@@ -8,10 +8,10 @@
 
 // CustomLogic.CustomLogicLexer$$get_Compiler
 // il2cpp: CustomLogic_CustomLogicCompiler_o* CustomLogic_CustomLogicLexer__get_Compiler (CustomLogic_CustomLogicLexer_o* __this, const MethodInfo* method);
-// 0x1808fb3a0
+// 0x5b74500
 
-CustomLogic_CustomLogicCompiler_o*
-CustomLogic_CustomLogicLexer__get_Compiler(CustomLogic_CustomLogicLexer_o* __this, MethodInfo* method)
+CustomLogic_CustomLogicCompiler_o *
+CustomLogic_CustomLogicLexer__get_Compiler(CustomLogic_CustomLogicLexer_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._Compiler_k__BackingField;
@@ -20,21 +20,22 @@ CustomLogic_CustomLogicLexer__get_Compiler(CustomLogic_CustomLogicLexer_o* __thi
 
 // CustomLogic.CustomLogicLexer$$set_Compiler
 // il2cpp: void CustomLogic_CustomLogicLexer__set_Compiler (CustomLogic_CustomLogicLexer_o* __this, CustomLogic_CustomLogicCompiler_o* value, const MethodInfo* method);
-// 0x180b8ac00
+// 0x5b74510
 
-void
-CustomLogic_CustomLogicLexer__set_Compiler(CustomLogic_CustomLogicLexer_o* __this, CustomLogic_CustomLogicCompiler_o* value, MethodInfo* method)
+void CustomLogic_CustomLogicLexer__set_Compiler
+               (CustomLogic_CustomLogicLexer_o *__this,CustomLogic_CustomLogicCompiler_o *value,
+               MethodInfo *method)
 
 {
   (__this->fields)._Compiler_k__BackingField = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField,value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicLexer$$.ctor
 // il2cpp: void CustomLogic_CustomLogicLexer___ctor (CustomLogic_CustomLogicLexer_o* __this, System_String_o* source, CustomLogic_CustomLogicCompiler_o* compiler, const MethodInfo* method);
-// 0x1820a2ee0
+// 0x5b74520
 
 void CustomLogic_CustomLogicLexer___ctor
                (CustomLogic_CustomLogicLexer_o *__this,System_String_o *source,
@@ -42,41 +43,42 @@ void CustomLogic_CustomLogicLexer___ctor
 
 {
   System_Collections_Generic_List_CustomLogicToken__o *__this_00;
+  CustomLogic_CustomLogicSymbols_c *method_00;
   
-  if (Il2CppMethodInitialized_1843468f3 == '\0') {
+  if (Il2CppMethodInitialized_07547369 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_CustomLogicToken);
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468f3 = '\x01';
+    Il2CppMethodInitialized_07547369 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_CustomLogicToken);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
-             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
+            ((System_Collections_Generic_List_object__o *)__this_00,
+             (MethodInfo_395C910 *)MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor);
   (__this->fields)._tokens = __this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tokens);
   (__this->fields).Error = "";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Error,"");
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Error);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  method_00 = TypeInfo_CustomLogic_CustomLogicSymbols;
   if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
   }
-  CustomLogic_CustomLogicSymbols__Init((MethodInfo *)0x0);
+  CustomLogic_CustomLogicSymbols__Init((MethodInfo *)method_00);
   (__this->fields)._source = source;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._source,source);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._source);
   (__this->fields)._Compiler_k__BackingField = compiler;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField,compiler);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Compiler_k__BackingField);
   return;
 }
 
 
 // CustomLogic.CustomLogicLexer$$GetLineNumberString
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__GetLineNumberString (CustomLogic_CustomLogicLexer_o* __this, int32_t line, const MethodInfo* method);
-// 0x1820a1a00
+// 0x5b746c0
 
 System_String_o *
 CustomLogic_CustomLogicLexer__GetLineNumberString
@@ -85,189 +87,203 @@ CustomLogic_CustomLogicLexer__GetLineNumberString
 {
   CustomLogic_CustomLogicCompiler_o *__this_00;
   System_String_o *pSVar1;
-  CustomLogic_CustomLogicCompiler_FileRange_o *pCVar2;
-  Il2CppObject *pIVar3;
-  Il2CppObject *arg2;
-  int iVar4;
-  int32_t local_res8 [2];
-  int32_t local_res10 [2];
-  int local_res20 [2];
-  int local_28 [4];
+  int32_t local_4;
   
-  local_res10[0] = line;
-  if ((__this->fields)._Compiler_k__BackingField == (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    pSVar1 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-    return pSVar1;
-  }
   __this_00 = (__this->fields)._Compiler_k__BackingField;
-  if (__this_00 != (CustomLogic_CustomLogicCompiler_o *)0x0) {
-    local_res8[0] = line;
-    if (Il2CppMethodInitialized_1843468e4 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&"{0} ({1}:{2})");
-      il2cpp_codegen_initialize_runtime_metadata(&"{0} (Internal C# Bindings)");
-      Il2CppMethodInitialized_1843468e4 = '\x01';
-    }
-    pCVar2 = CustomLogic_CustomLogicCompiler__FindFileRange(__this_00,local_res8[0],(MethodInfo *)0x0);
-    if (pCVar2 == (CustomLogic_CustomLogicCompiler_FileRange_o *)0x0) {
-      pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
-    }
-    else {
-      local_res20[0] = local_res8[0];
-      if ((pCVar2->fields)._Type_k__BackingField == 0) {
-        pIVar3 = il2cpp_value_box(g_data_184354e08,local_res20);
-        pSVar1 = System_String__Format("{0} (Internal C# Bindings)",pIVar3,(MethodInfo *)0x0);
-      }
-      else {
-        iVar4 = local_res8[0] - (pCVar2->fields)._StartLine_k__BackingField;
-        if ((pCVar2->fields)._Type_k__BackingField == 3) {
-          pIVar3 = il2cpp_value_box(g_data_184354e08,local_res20);
-          local_28[0] = (pCVar2->fields)._MapLogicOffset_k__BackingField + 1 + iVar4;
-        }
-        else {
-          pIVar3 = il2cpp_value_box(g_data_184354e08,local_res20);
-          local_28[0] = iVar4 + 1;
-        }
-        pSVar1 = (pCVar2->fields)._Name_k__BackingField;
-        arg2 = il2cpp_value_box(g_data_184354e08,local_28);
-        pSVar1 = System_String__Format_196d050
-                           ("{0} ({1}:{2})",pIVar3,(Il2CppObject *)pSVar1,arg2,(MethodInfo *)0x0);
-      }
-    }
+  if (__this_00 == (CustomLogic_CustomLogicCompiler_o *)0x0) {
+    pSVar1 = System_Int32__ToString(&local_4,(MethodInfo *)0x0);
     return pSVar1;
   }
-  ThrowNullReferenceException();
+  pSVar1 = CustomLogic_CustomLogicCompiler__FormatLineNumber(__this_00,line,method);
+  return pSVar1;
 }
 
 
 // CustomLogic.CustomLogicLexer$$GetTokens
 // il2cpp: System_Collections_Generic_List_CustomLogicToken__o* CustomLogic_CustomLogicLexer__GetTokens (CustomLogic_CustomLogicLexer_o* __this, const MethodInfo* method);
-// 0x1820a1b50
-// eh: try 0x1820a1c6f..0x1820a23b6 -> pad 0x18333de50 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
-// asm: 95 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a1c3f: nop 
-// asm:   0x1820a224c: jmp 0x1820a2251
-// asm:   0x1820a2258: mov rsi, qword ptr [rsp + 0xa0]
-// asm:   0x1820a2260: mov edx, dword ptr [rsi + 0x30]
-// asm:   0x1820a2263: inc edx
-// asm:   0x1820a2265: xor r8d, r8d
-// asm:   0x1820a2268: mov rcx, rsi
-// asm:   0x1820a226b: call 0x1820a1a00  ; CustomLogic_CustomLogicLexer__GetLineNumberString()
-// asm:   0x1820a2270: mov r15, rax
-// asm:   0x1820a2273: mov ecx, dword ptr [rsp + 0x50]
-// asm:   0x1820a2277: dec ecx
-// asm:   0x1820a2279: movsxd rdx, ecx
-// asm:   0x1820a227c: mov rcx, qword ptr [rsp + rdx*8 + 0x48]
-// asm:   0x1820a2281: test rcx, rcx
-// asm:   0x1820a2284: je 0x1820a235d
-// asm:   0x1820a228a: mov r8, qword ptr [rcx]
-// asm:   0x1820a228d: mov rdx, qword ptr [r8 + 0x190]
-// asm:   0x1820a2294: call qword ptr [r8 + 0x188]  ; vtable slot 5
-// asm:   0x1820a229b: mov rdi, rax
-// asm:   0x1820a229e: lea rcx, [rip + 0x20552c3]  ; ": "
-// asm:   0x1820a22a5: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820a22aa: mov rbx, rax
-// asm:   0x1820a22ad: lea rcx, [rip + 0x202d6dc]  ; "Error parsing custom logic at line "
-// asm:   0x1820a22b4: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820a22b9: mov rcx, rax
-// asm:   0x1820a22bc: xor r14d, r14d
-// asm:   0x1820a22bf: mov qword ptr [rsp + 0x20], r14
-// asm:   0x1820a22c4: mov r9, rdi
-// asm:   0x1820a22c7: mov r8, rbx
-// asm:   0x1820a22ca: mov rdx, r15
-// asm:   0x1820a22cd: call 0x181969590  ; System_String__Concat()
-// asm:   0x1820a22d2: mov qword ptr [rsi + 0x28], rax
-// asm:   0x1820a22d6: lea rcx, [rsi + 0x28]
-// asm:   0x1820a22da: mov rdx, rax
-// asm:   0x1820a22dd: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
-// asm:   0x1820a22e2: mov rbx, qword ptr [rsi + 0x28]
-// asm:   0x1820a22e6: lea rcx, [rip + 0x20593e3]  ; TypeInfo_ApplicationManagers_DebugConsole
-// asm:   0x1820a22ed: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820a22f2: cmp dword ptr [rax + 0xe4], r14d
-// asm:   0x1820a22f9: jne 0x1820a2303
-// asm:   0x1820a22fb: mov rcx, rax
-// asm:   0x1820a22fe: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
-// asm:   0x1820a2303: xor r8d, r8d
-// asm:   0x1820a2306: mov dl, 1
-// asm:   0x1820a2308: mov rcx, rbx
-// asm:   0x1820a230b: call 0x18234c240  ; ApplicationManagers_DebugConsole__Log()
-// asm:   0x1820a2310: lea rcx, [rip + 0x204f2b9]  ; TypeInfo_System_Collections_Generic_List_CustomLogicToken
-// asm:   0x1820a2317: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820a231c: mov rcx, rax
-// asm:   0x1820a231f: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
-// asm:   0x1820a2324: mov rbx, rax
-// asm:   0x1820a2327: lea rcx, [rip + 0x1ff21e2]  ; MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor
-// asm:   0x1820a232e: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x1820a2333: mov rdx, rax
-// asm:   0x1820a2336: mov rcx, rbx
-// asm:   0x1820a2339: call 0x18092a240  ; System_Collections_Generic_List_KeyValuePair_int__object_____ctor()
-// asm:   0x1820a233e: mov rax, rbx
-// asm:   0x1820a2341: add rsp, 0x70
-// asm:   0x1820a2345: pop r15
-// asm:   0x1820a2347: pop r14
-// asm:   0x1820a2349: pop rdi
-// asm:   0x1820a234a: pop rsi
-// asm:   0x1820a234b: pop rbx
-// asm:   0x1820a234c: ret 
-// asm:   0x18333de50: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x18333de55: push rbx
-// asm:   0x18333de56: push rbp
-// asm:   0x18333de57: push rdi
-// asm:   0x18333de58: sub rsp, 0x30
-// asm:   0x18333de5c: mov rbp, rdx
-// asm:   0x18333de5f: mov rdi, qword ptr [rbp + 0x60]
-// asm:   0x18333de63: mov rax, qword ptr [rdi]
-// asm:   0x18333de66: mov rbx, qword ptr [rax]
-// asm:   0x18333de69: lea rcx, [rip + 0xd3b0e8]  ; TypeInfo_System_Exception
-// asm:   0x18333de70: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
-// asm:   0x18333de75: mov rcx, rax
-// asm:   0x18333de78: mov rdx, rbx
-// asm:   0x18333de7b: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x18333de80: test al, al
-// asm:   0x18333de82: mov rax, qword ptr [rdi]
-// asm:   0x18333de85: je 0x18333de9f
-// asm:   0x18333de87: movsxd rcx, dword ptr [rbp + 0x50]
-// asm:   0x18333de8b: mov qword ptr [rbp + rcx*8 + 0x48], rax
-// asm:   0x18333de90: inc dword ptr [rbp + 0x50]
-// asm:   0x18333de93: movabs rax, 0
-// asm:   0x18333de9d: jmp 0x18333deb4
-// asm:   0x18333de9f: mov qword ptr [rbp + 0x58], rax
-// asm:   0x18333dea3: lea rdx, [rip + 0xc9e0de]
-// asm:   0x18333deaa: lea rcx, [rbp + 0x58]
-// asm:   0x18333deae: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x18333deb4: add rsp, 0x30
-// asm:   0x18333deb8: pop rdi
-// asm:   0x18333deb9: pop rbp
-// asm:   0x18333deba: pop rbx
-// asm:   0x18333debb: ret 
+// 0x5b746f0
+// eh: try 0x5b7483d..0x5b74e4f -> pad 0x5b74eb7 (+66 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: TypeInfo_System_Exception]
+// eh: try 0x5b74ee0..0x5b75003 -> pad 0x5b75003 (+1 call sites) cleanup
+// eh: try 0x5b75006..0x5b7500b -> pad 0x5b75013 catch (...) [compiler noexcept guard]
+// asm: 143 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b74c7b: nop dword ptr [rax + rax]
+// asm:   0x5b74e13: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x5b74e1d: call 0x30d63a0  ; ThrowNullReferenceException()
+// asm:   0x5b74e4f: jmp 0x5b74ec9
+// asm:   0x5b74e51: jmp 0x5b74ec9
+// asm:   0x5b74e53: jmp 0x5b74ec9
+// asm:   0x5b74e55: jmp 0x5b74ec9
+// asm:   0x5b74e57: jmp 0x5b74ec9
+// asm:   0x5b74e59: jmp 0x5b74ec9
+// asm:   0x5b74e5b: jmp 0x5b74ec9
+// asm:   0x5b74e5d: jmp 0x5b74ec9
+// asm:   0x5b74e5f: jmp 0x5b74ec9
+// asm:   0x5b74e61: jmp 0x5b74ec9
+// asm:   0x5b74e63: jmp 0x5b74ec9
+// asm:   0x5b74e65: jmp 0x5b74ec9
+// asm:   0x5b74e67: jmp 0x5b74ec9
+// asm:   0x5b74e69: jmp 0x5b74ec9
+// asm:   0x5b74e6b: jmp 0x5b74ec9
+// asm:   0x5b74e6d: jmp 0x5b74ec9
+// asm:   0x5b74e6f: jmp 0x5b74ec9
+// asm:   0x5b74e71: jmp 0x5b74ec9
+// asm:   0x5b74e73: jmp 0x5b74ec9
+// asm:   0x5b74e75: jmp 0x5b74ec9
+// asm:   0x5b74e77: jmp 0x5b74ec9
+// asm:   0x5b74e79: jmp 0x5b74ec9
+// asm:   0x5b74e7b: jmp 0x5b74ec9
+// asm:   0x5b74e7d: jmp 0x5b74ec9
+// asm:   0x5b74e7f: jmp 0x5b74ec9
+// asm:   0x5b74e81: jmp 0x5b74ec9
+// asm:   0x5b74e83: jmp 0x5b74ec9
+// asm:   0x5b74e85: jmp 0x5b74ec9
+// asm:   0x5b74e87: jmp 0x5b74ec9
+// asm:   0x5b74e89: jmp 0x5b74ec9
+// asm:   0x5b74e8b: jmp 0x5b74ec9
+// asm:   0x5b74e8d: jmp 0x5b74ec9
+// asm:   0x5b74e8f: jmp 0x5b74ec9
+// asm:   0x5b74e91: jmp 0x5b74ec9
+// asm:   0x5b74e93: jmp 0x5b74ec9
+// asm:   0x5b74e95: jmp 0x5b74ec9
+// asm:   0x5b74e97: jmp 0x5b74ec9
+// asm:   0x5b74e99: jmp 0x5b74ec9
+// asm:   0x5b74e9b: jmp 0x5b74ec9
+// asm:   0x5b74e9d: jmp 0x5b74ec9
+// asm:   0x5b74e9f: jmp 0x5b74ec9
+// asm:   0x5b74ea1: jmp 0x5b74ec9
+// asm:   0x5b74ea3: jmp 0x5b74ec9
+// asm:   0x5b74ea5: jmp 0x5b74ec9
+// asm:   0x5b74ea7: jmp 0x5b74ec9
+// asm:   0x5b74ea9: jmp 0x5b74ec9
+// asm:   0x5b74eab: jmp 0x5b74ec9
+// asm:   0x5b74ead: jmp 0x5b74ec9
+// asm:   0x5b74eaf: jmp 0x5b74ec9
+// asm:   0x5b74eb1: jmp 0x5b74ec9
+// asm:   0x5b74eb3: jmp 0x5b74ec9
+// asm:   0x5b74eb5: jmp 0x5b74ec9
+// asm:   0x5b74eb7: jmp 0x5b74ec9
+// asm:   0x5b74eb9: jmp 0x5b74ec9
+// asm:   0x5b74ebb: jmp 0x5b74ec9
+// asm:   0x5b74ebd: jmp 0x5b74ec9
+// asm:   0x5b74ebf: jmp 0x5b74ec9
+// asm:   0x5b74ec1: jmp 0x5b74ec9
+// asm:   0x5b74ec3: jmp 0x5b74ec9
+// asm:   0x5b74ec5: jmp 0x5b74ec9
+// asm:   0x5b74ec7: jmp 0x5b74ec9
+// asm:   0x5b74ec9: mov rbx, rax
+// asm:   0x5b74ecc: cmp edx, 1
+// asm:   0x5b74ecf: jne 0x5b7500b
+// asm:   0x5b74ed5: mov rdi, rbx
+// asm:   0x5b74ed8: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b74edd: mov rbx, rax
+// asm:   0x5b74ee0: lea rdi, [rip + 0x17031d9]  ; TypeInfo_System_Exception
+// asm:   0x5b74ee7: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74eec: mov rcx, qword ptr [rbx]
+// asm:   0x5b74eef: mov rsi, qword ptr [rcx]
+// asm:   0x5b74ef2: mov rdi, rax
+// asm:   0x5b74ef5: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5b74efa: test al, al
+// asm:   0x5b74efc: je 0x5b74fe2
+// asm:   0x5b74f02: mov rbp, qword ptr [rbx]
+// asm:   0x5b74f05: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b74f0a: mov esi, dword ptr [r14 + 0x30]
+// asm:   0x5b74f0e: inc esi
+// asm:   0x5b74f10: mov rdi, r14
+// asm:   0x5b74f13: call 0x5b746c0  ; CustomLogic_CustomLogicLexer__GetLineNumberString()
+// asm:   0x5b74f18: test rbp, rbp
+// asm:   0x5b74f1b: je 0x5b74fdd
+// asm:   0x5b74f21: mov r15, rax
+// asm:   0x5b74f24: mov rax, qword ptr [rbp]
+// asm:   0x5b74f28: mov rsi, qword ptr [rax + 0x190]
+// asm:   0x5b74f2f: mov rdi, rbp
+// asm:   0x5b74f32: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x5b74f38: mov rbp, rax
+// asm:   0x5b74f3b: lea rdi, [rip + 0x17660b6]  ; "Error parsing custom logic at line "
+// asm:   0x5b74f42: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74f47: mov rbx, rax
+// asm:   0x5b74f4a: lea rdi, [rip + 0x175d02f]  ; ": "
+// asm:   0x5b74f51: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74f56: mov rdi, rbx
+// asm:   0x5b74f59: mov rsi, r15
+// asm:   0x5b74f5c: mov rdx, rax
+// asm:   0x5b74f5f: mov rcx, rbp
+// asm:   0x5b74f62: xor r8d, r8d
+// asm:   0x5b74f65: call 0x5402810  ; System_String__Concat()
+// asm:   0x5b74f6a: lea rdi, [r14 + 0x28]
+// asm:   0x5b74f6e: mov qword ptr [r14 + 0x28], rax
+// asm:   0x5b74f72: mov rsi, rax
+// asm:   0x5b74f75: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x5b74f7a: mov rbx, qword ptr [r14 + 0x28]
+// asm:   0x5b74f7e: lea rdi, [rip + 0x17026db]  ; TypeInfo_ApplicationManagers_DebugConsole
+// asm:   0x5b74f85: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74f8a: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x5b74f91: jne 0x5b74f9b
+// asm:   0x5b74f93: mov rdi, rax
+// asm:   0x5b74f96: call 0x30d6240  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x5b74f9b: mov rdi, rbx
+// asm:   0x5b74f9e: mov esi, 1
+// asm:   0x5b74fa3: xor edx, edx
+// asm:   0x5b74fa5: call 0x5e0fa90  ; ApplicationManagers_DebugConsole__Log()
+// asm:   0x5b74faa: lea rdi, [rip + 0x16fca6f]  ; TypeInfo_System_Collections_Generic_List_CustomLogicToken
+// asm:   0x5b74fb1: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74fb6: mov rdi, rax
+// asm:   0x5b74fb9: call 0x30d6370  ; il2cpp_runtime_helper_030d6370()
+// asm:   0x5b74fbe: mov rbx, rax
+// asm:   0x5b74fc1: lea rdi, [rip + 0x171ef70]  ; MethodInfo_System_Collections_Generic_List_CustomLogicToken_ctor
+// asm:   0x5b74fc8: call 0x30d6070  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x5b74fcd: mov rdi, rbx
+// asm:   0x5b74fd0: mov rsi, rax
+// asm:   0x5b74fd3: call 0x3a5c910  ; System_Collections_Generic_List_object____ctor()
+// asm:   0x5b74fd8: jmp 0x5b74ded
+// asm:   0x5b74fe2: mov edi, 8
+// asm:   0x5b74fe7: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5b74fec: mov rcx, qword ptr [rbx]
+// asm:   0x5b74fef: mov qword ptr [rax], rcx
+// asm:   0x5b74ff2: lea rsi, [rip + 0x12b8507]
+// asm:   0x5b74ff9: mov rdi, rax
+// asm:   0x5b74ffc: xor edx, edx
+// asm:   0x5b74ffe: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5b75003: mov rbx, rax
+// asm:   0x5b75006: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b7500b: mov rdi, rbx
+// asm:   0x5b7500e: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b75013: mov rdi, rax
+// asm:   0x5b75016: call 0x2ab61e0  ; __clang_call_terminate()
 
 System_Collections_Generic_List_CustomLogicToken__o *
 CustomLogic_CustomLogicLexer__GetTokens(CustomLogic_CustomLogicLexer_o *__this,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  uint uVar2;
-  System_Collections_Generic_List_CustomLogicToken__o *pSVar3;
-  System_Collections_Generic_HashSet_object__o *pSVar4;
-  System_Collections_Generic_Dictionary_string__int__o *pSVar5;
-  uint16_t uVar6;
-  bool bVar7;
-  System_Char_array *pSVar8;
-  System_String_o *pSVar9;
+  uint uVar1;
+  int32_t *piVar2;
+  System_Char_array **targetAddress;
+  int32_t length;
+  uint32_t uVar3;
+  System_Collections_Generic_List_CustomLogicToken__o *pSVar4;
+  System_Collections_Generic_HashSet_object__o *pSVar5;
+  System_Collections_Generic_Dictionary_object__int__o *pSVar6;
+  uint16_t uVar7;
+  bool bVar8;
+  uint uVar9;
+  int iVar10;
+  System_Char_array *pSVar11;
+  System_String_o *pSVar12;
   System_String_o *str1;
-  MethodInfo *pMVar10;
-  MethodInfo *value;
+  Il2CppObject *pIVar13;
+  ulong uVar14;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *method_03;
+  MethodInfo *method_04;
+  MethodInfo *method_05;
+  MethodInfo *in_R8;
   uint startIndex;
-  undefined1 local_res18 [8];
-  uint16_t local_res20 [4];
-  int32_t local_68;
-  int32_t local_64;
-  int32_t local_60;
-  int32_t local_5c;
-  float local_58;
-  int32_t local_54 [3];
-  undefined4 local_48;
+  uint16_t local_3a;
+  float local_38;
+  int32_t local_34;
   
-  if (Il2CppMethodInitialized_1843468f4 == '\0') {
+  if (Il2CppMethodInitialized_0754736a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item);
@@ -279,268 +295,263 @@ CustomLogic_CustomLogicLexer__GetTokens(CustomLogic_CustomLogicLexer_o *__this,M
     il2cpp_codegen_initialize_runtime_metadata(&"true");
     il2cpp_codegen_initialize_runtime_metadata(&"");
     il2cpp_codegen_initialize_runtime_metadata(&".");
-    Il2CppMethodInitialized_1843468f4 = '\x01';
+    Il2CppMethodInitialized_0754736a = '\x01';
   }
-  startIndex = 0;
-  local_res20[0] = 0;
-  local_68 = 0;
-  local_48 = 0;
+  local_3a = 0;
+  local_34 = 0;
   (__this->fields)._line = 0;
-  pSVar3 = (__this->fields)._tokens;
-  if (pSVar3 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
-    piVar1 = &(pSVar3->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    uVar2 = (pSVar3->fields)._size;
-    pMVar10 = (MethodInfo *)(ulonglong)uVar2;
-    (pSVar3->fields)._size = 0;
-    if (0 < (int)uVar2) {
-      System_Array__Clear((System_Array_o *)(pSVar3->fields)._items,0,uVar2,(MethodInfo *)0x0);
+  pSVar4 = (__this->fields)._tokens;
+  if (pSVar4 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
+    piVar2 = &(pSVar4->fields)._version;
+    *piVar2 = *piVar2 + 1;
+    length = (pSVar4->fields)._size;
+    (pSVar4->fields)._size = 0;
+    if (0 < length) {
+      System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,length,(MethodInfo *)0x0);
     }
-    pSVar9 = (__this->fields)._source;
-    if (pSVar9 != (System_String_o *)0x0) {
-      pSVar8 = System_String__ToCharArray(pSVar9,(MethodInfo *)0x0);
-      (__this->fields)._chars = pSVar8;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._chars,pSVar8);
-      while (pSVar8 = (__this->fields)._chars, pSVar8 != (System_Char_array *)0x0) {
-        uVar2 = (uint)pSVar8->max_length;
-        if ((int)uVar2 <= (int)startIndex) {
+    pSVar12 = (__this->fields)._source;
+    if (pSVar12 != (System_String_o *)0x0) {
+      startIndex = 0;
+      pSVar11 = System_String__ToCharArray(pSVar12,(MethodInfo *)0x0);
+      targetAddress = &(__this->fields)._chars;
+      (__this->fields)._chars = pSVar11;
+      Il2CppCodeGenWriteBarrier(targetAddress);
+      pSVar11 = (__this->fields)._chars;
+      while (pSVar11 != (System_Char_array *)0x0) {
+        uVar9 = (uint)pSVar11->max_length;
+        if ((int)uVar9 <= (int)startIndex) {
           return (__this->fields)._tokens;
         }
-        if (uVar2 <= startIndex) {
+        if (uVar9 <= startIndex) {
           ThrowIndexOutOfRangeException();
         }
-        local_res20[0] = pSVar8->m_Items[(int)startIndex];
-        if (local_res20[0] == 10) {
-          piVar1 = &(__this->fields)._line;
-          *piVar1 = *piVar1 + 1;
+        local_3a = pSVar11->m_Items[(int)startIndex];
+        if (local_3a == 10) {
+          piVar2 = &(__this->fields)._line;
+          *piVar2 = *piVar2 + 1;
+          goto label_05b747f4;
         }
-        else {
-          if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init(g_data_184354e48);
+        if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(g_data_07556750);
+        }
+        pSVar12 = System_Char__ToString(&local_3a,(MethodInfo *)0x0);
+        pSVar11 = *targetAddress;
+        if (pSVar11 == (System_Char_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        uVar9 = (uint)pSVar11->max_length;
+        uVar14 = (ulong)(uVar9 - 1);
+        if ((int)startIndex < (int)(uVar9 - 1)) {
+          if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init(g_data_07556750);
+            uVar9 = (uint)pSVar11->max_length;
           }
-          pSVar9 = System_Char__ToString(local_res20,(System_IFormatProvider_o *)0x0,pMVar10);
-          pSVar8 = (__this->fields)._chars;
-          if (pSVar8 == (System_Char_array *)0x0) {
-            ThrowNullReferenceException();
+          uVar1 = startIndex + 1;
+          uVar14 = (ulong)uVar1;
+          if (uVar9 <= uVar1) {
+            ThrowIndexOutOfRangeException();
           }
-          if ((int)startIndex < (int)pSVar8->max_length + -1) {
-            pSVar8 = (__this->fields)._chars;
-            if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init(g_data_184354e48);
-            }
-            if ((uint)pSVar8->max_length <= startIndex + 1) {
-              ThrowIndexOutOfRangeException();
-            }
-            str1 = System_Char__ToString
-                             (pSVar8->m_Items + (int)(startIndex + 1),(System_IFormatProvider_o *)0x0,pMVar10)
-            ;
-            pSVar9 = System_String__Concat_1969e50(pSVar9,str1,(MethodInfo *)0x0);
-          }
-          uVar6 = local_res20[0];
-          if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init(g_data_184354e48);
-          }
-          bVar7 = System_Char__IsLetter(uVar6,(MethodInfo *)0x0);
-          uVar6 = local_res20[0];
-          if ((bVar7) || (local_res20[0] == 0x5f)) {
-            pSVar9 = CustomLogic_CustomLogicLexer__ScanBool(__this,startIndex,(MethodInfo *)0x0);
-            bVar7 = System_String__op_Inequality(pSVar9,"",(MethodInfo *)0x0);
-            if (bVar7) {
-              local_res18[0] = System_String__op_Equality(pSVar9,"true",(MethodInfo *)0x0);
-              pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354de8,local_res18);
-              CustomLogic_CustomLogicLexer__AddToken
-                        (__this,1,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-              if (pSVar9 == (System_String_o *)0x0) {
-                ThrowNullReferenceException();
-              }
-              startIndex = (startIndex - 1) + (pSVar9->fields)._stringLength;
-            }
-            else {
-              pSVar9 = CustomLogic_CustomLogicLexer__ScanAlphaSymbol(__this,startIndex,(MethodInfo *)0x0);
-              bVar7 = System_String__op_Inequality(pSVar9,"",(MethodInfo *)0x0);
-              if (bVar7) {
-                bVar7 = System_String__op_Equality(pSVar9,"null",(MethodInfo *)0x0);
-                if (bVar7) {
-                  pMVar10 = (MethodInfo *)0x0;
-                  CustomLogic_CustomLogicLexer__AddToken
-                            (__this,1,(Il2CppObject *)0x0,(__this->fields)._line,(MethodInfo *)0x0);
-                }
-                else {
-                  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                  }
-                  pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                  if (pSVar5 == (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-                    ThrowNullReferenceException();
-                  }
-                  local_54[0] = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                           (Il2CppObject *)pSVar9,
-                                           (MethodInfo_147A530 *)
-                                           MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item
-                                          );
-                  pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354e08,local_54);
-                  CustomLogic_CustomLogicLexer__AddToken
-                            (__this,0,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-                }
-                if (pSVar9 == (System_String_o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                startIndex = (startIndex - 1) + (pSVar9->fields)._stringLength;
-              }
-              else {
-                value = (MethodInfo *)
-                        CustomLogic_CustomLogicLexer__ScanName(__this,startIndex,(MethodInfo *)0x0);
-                pMVar10 = value;
-                CustomLogic_CustomLogicLexer__AddToken
-                          (__this,2,(Il2CppObject *)value,(__this->fields)._line,(MethodInfo *)0x0);
-                if (value == (MethodInfo *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                startIndex = (startIndex - 1) + *(int *)&value->invoker_method;
-              }
+          str1 = System_Char__ToString(pSVar11->m_Items + (int)uVar1,(MethodInfo *)0x0);
+          pSVar12 = System_String__Concat_52f0320(pSVar12,str1,(MethodInfo *)0x0);
+        }
+        uVar7 = local_3a;
+        if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(g_data_07556750);
+        }
+        bVar8 = System_Char__IsLetter(uVar7,(MethodInfo *)0x0);
+        uVar7 = local_3a;
+        method_00 = (MethodInfo *)CONCAT71((int7)(uVar14 >> 8),local_3a == 0x5f);
+        if (bVar8 || local_3a == 0x5f) {
+          pSVar12 = CustomLogic_CustomLogicLexer__ScanBool(__this,startIndex,method_01);
+          bVar8 = System_String__op_Inequality(pSVar12,"",(MethodInfo *)0x0);
+          if (bVar8) {
+            bVar8 = System_String__op_Equality(pSVar12,"true",(MethodInfo *)0x0);
+            local_38 = (float)CONCAT31(local_38._1_3_,bVar8);
+            pIVar13 = il2cpp_vm_Object_Box(g_data_075566f0,&local_38);
+            CustomLogic_CustomLogicLexer__AddToken(__this,1,pIVar13,(__this->fields)._line,in_R8);
+            if (pSVar12 == (System_String_o *)0x0) {
+              ThrowNullReferenceException();
             }
           }
           else {
-            if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init(g_data_184354e48);
-            }
-            bVar7 = System_Char__IsDigit(uVar6,(MethodInfo *)0x0);
-            if (bVar7) {
-              pSVar9 = CustomLogic_CustomLogicLexer__ScanNumber(__this,startIndex,(MethodInfo *)0x0);
-              if (pSVar9 == (System_String_o *)0x0) {
-                ThrowNullReferenceException();
-              }
-              bVar7 = System_String__Contains(pSVar9,".",(MethodInfo *)0x0);
-              if (bVar7) {
-                local_58 = System_Single__Parse(pSVar9,(MethodInfo *)0x0);
-                pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354e38,&local_58);
+            pSVar12 = CustomLogic_CustomLogicLexer__ScanAlphaSymbol(__this,startIndex,method_02);
+            bVar8 = System_String__op_Inequality(pSVar12,"",(MethodInfo *)0x0);
+            if (bVar8) {
+              bVar8 = System_String__op_Equality(pSVar12,"null",(MethodInfo *)0x0);
+              if (bVar8) {
                 CustomLogic_CustomLogicLexer__AddToken
-                          (__this,1,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-                startIndex = (startIndex - 1) + (pSVar9->fields)._stringLength;
+                          (__this,1,(Il2CppObject *)0x0,(__this->fields)._line,in_R8);
               }
               else {
-                local_5c = System_Int32__Parse(pSVar9,(MethodInfo *)0x0);
-                pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354e08,&local_5c);
-                CustomLogic_CustomLogicLexer__AddToken
-                          (__this,1,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-                startIndex = (startIndex - 1) + (pSVar9->fields)._stringLength;
+                if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+                }
+                pSVar6 = (System_Collections_Generic_Dictionary_object__int__o *)
+                         TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
+                if (pSVar6 == (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                local_38 = (float)System_Collections_Generic_Dictionary_object__int___get_Item
+                                            (pSVar6,(Il2CppObject *)pSVar12,
+                                             (MethodInfo_4A9D700 *)
+                                             MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item
+                                            );
+                pIVar13 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+                CustomLogic_CustomLogicLexer__AddToken(__this,0,pIVar13,(__this->fields)._line,in_R8);
               }
-            }
-            else if (local_res20[0] == 0x22) {
-              pMVar10 = (MethodInfo *)
-                        CustomLogic_CustomLogicLexer__ScanStringLiteral
-                                  (__this,startIndex,&local_68,(MethodInfo *)0x0);
-              CustomLogic_CustomLogicLexer__AddToken
-                        (__this,1,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-              startIndex = startIndex + 1 + local_68;
-            }
-            else if (local_res20[0] == 0x23) {
-              pMVar10 = (MethodInfo *)0x0;
-              pSVar9 = CustomLogic_CustomLogicLexer__ScanComment(__this,startIndex,(MethodInfo *)0x0);
-              if (pSVar9 == (System_String_o *)0x0) {
+              if (pSVar12 == (System_String_o *)0x0) {
                 ThrowNullReferenceException();
               }
-              startIndex = startIndex + 1 + (pSVar9->fields)._stringLength;
             }
             else {
-              if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-              }
-              pSVar4 = (System_Collections_Generic_HashSet_object__o *)
-                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
-              if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+              pSVar12 = CustomLogic_CustomLogicLexer__ScanName(__this,startIndex,method_04);
+              CustomLogic_CustomLogicLexer__AddToken
+                        (__this,2,(Il2CppObject *)pSVar12,(__this->fields)._line,in_R8);
+              if (pSVar12 == (System_String_o *)0x0) {
                 ThrowNullReferenceException();
               }
-              pMVar10 = MethodInfo_System_Collections_Generic_HashSet_string_Contains;
-              bVar7 = System_Collections_Generic_HashSet_object___Contains
-                                (pSVar4,(Il2CppObject *)pSVar9,
-                                 (MethodInfo_1759E40 *)
-                                 MethodInfo_System_Collections_Generic_HashSet_string_Contains);
-              if (bVar7) {
-                if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                }
-                pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                if (pSVar5 == (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                local_60 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                                     ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                      (Il2CppObject *)pSVar9,
-                                      (MethodInfo_147A530 *)
-                                      MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item);
-                pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354e08,&local_60);
-                CustomLogic_CustomLogicLexer__AddToken
-                          (__this,0,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
-                startIndex = startIndex + 1;
+            }
+          }
+label_05b74c80:
+          startIndex = (startIndex + (pSVar12->fields)._stringLength) - 1;
+        }
+        else {
+          if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init(g_data_07556750);
+          }
+          bVar8 = System_Char__IsDigit(uVar7,(MethodInfo *)0x0);
+          if (bVar8) {
+            pSVar12 = CustomLogic_CustomLogicLexer__ScanNumber(__this,startIndex,method_03);
+            if (pSVar12 == (System_String_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            bVar8 = System_String__Contains(pSVar12,".",(MethodInfo *)0x0);
+            if (bVar8) {
+              local_38 = System_Single__Parse(pSVar12,(MethodInfo *)0x0);
+              pIVar13 = il2cpp_vm_Object_Box(g_data_07556740,&local_38);
+              CustomLogic_CustomLogicLexer__AddToken(__this,1,pIVar13,(__this->fields)._line,in_R8);
+            }
+            else {
+              local_38 = (float)System_Int32__Parse(pSVar12,(MethodInfo *)0x0);
+              pIVar13 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+              CustomLogic_CustomLogicLexer__AddToken(__this,1,pIVar13,(__this->fields)._line,in_R8);
+            }
+            goto label_05b74c80;
+          }
+          if (local_3a == 0x23) {
+            pSVar12 = CustomLogic_CustomLogicLexer__ScanComment(__this,startIndex,method_03);
+            if (pSVar12 == (System_String_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            iVar10 = (pSVar12->fields)._stringLength;
+label_05b74b2c:
+            startIndex = startIndex + iVar10 + 1;
+          }
+          else {
+            if (local_3a == 0x22) {
+              pSVar12 = CustomLogic_CustomLogicLexer__ScanStringLiteral(__this,startIndex,&local_34,method_00)
+              ;
+              CustomLogic_CustomLogicLexer__AddToken
+                        (__this,1,(Il2CppObject *)pSVar12,(__this->fields)._line,in_R8);
+              iVar10 = local_34;
+              goto label_05b74b2c;
+            }
+            if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+            }
+            pSVar5 = (System_Collections_Generic_HashSet_object__o *)
+                     TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
+            if (pSVar5 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            bVar8 = System_Collections_Generic_HashSet_object___Contains
+                              (pSVar5,(Il2CppObject *)pSVar12,
+                               (MethodInfo_4FB3720 *)
+                               MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+            uVar3 = (TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor;
+            if (bVar8) {
+              if (uVar3 == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
               }
-              else {
-                if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                }
-                pSVar4 = (System_Collections_Generic_HashSet_object__o *)
-                         TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
-                if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-                  il2cpp_codegen_runtime_class_init(g_data_184354e48);
-                }
-                pSVar9 = System_Char__ToString(local_res20,(System_IFormatProvider_o *)0x0,pMVar10);
-                if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-                  ThrowNullReferenceException();
-                }
-                pMVar10 = MethodInfo_System_Collections_Generic_HashSet_string_Contains;
-                bVar7 = System_Collections_Generic_HashSet_object___Contains
-                                  (pSVar4,(Il2CppObject *)pSVar9,
-                                   (MethodInfo_1759E40 *)
-                                   MethodInfo_System_Collections_Generic_HashSet_string_Contains);
-                if (bVar7) {
-                  if (local_res20[0] == 0x2f) {
-                    pSVar8 = (__this->fields)._chars;
-                    if (pSVar8 == (System_Char_array *)0x0) {
-                      ThrowNullReferenceException();
-                    }
-                    if ((int)(startIndex + 1) < (int)pSVar8->max_length) {
-                      if ((uint)pSVar8->max_length <= startIndex + 1) {
-                        ThrowIndexOutOfRangeException();
-                      }
-                      if (pSVar8->m_Items[(longlong)(int)startIndex + 1] == 0x2a) {
-                        pMVar10 = (MethodInfo *)0x0;
-                        pSVar9 = CustomLogic_CustomLogicLexer__ScanBlockComment
-                                           (__this,startIndex + 1,(MethodInfo *)0x0);
-                        if (pSVar9 == (System_String_o *)0x0) {
-                          ThrowNullReferenceException();
-                        }
-                        startIndex = startIndex + 3 + (pSVar9->fields)._stringLength;
-                        goto label_1820a2251;
-                      }
-                    }
-                  }
-                  if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-                  }
-                  pSVar5 = TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
-                  if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-                    il2cpp_codegen_runtime_class_init(g_data_184354e48);
-                  }
-                  pSVar9 = System_Char__ToString(local_res20,(System_IFormatProvider_o *)0x0,pMVar10);
-                  if (pSVar5 == (System_Collections_Generic_Dictionary_string__int__o *)0x0) {
+              pSVar6 = (System_Collections_Generic_Dictionary_object__int__o *)
+                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
+              if (pSVar6 == (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              local_38 = (float)System_Collections_Generic_Dictionary_object__int___get_Item
+                                          (pSVar6,(Il2CppObject *)pSVar12,
+                                           (MethodInfo_4A9D700 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item
+                                          );
+              pIVar13 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+              CustomLogic_CustomLogicLexer__AddToken(__this,0,pIVar13,(__this->fields)._line,in_R8);
+              startIndex = startIndex + 1;
+            }
+            else {
+              if (uVar3 == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+              }
+              pSVar5 = (System_Collections_Generic_HashSet_object__o *)
+                       TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->SpecialSymbolNames;
+              if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init(g_data_07556750);
+              }
+              pSVar12 = System_Char__ToString(&local_3a,(MethodInfo *)0x0);
+              if (pSVar5 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              bVar8 = System_Collections_Generic_HashSet_object___Contains
+                                (pSVar5,(Il2CppObject *)pSVar12,
+                                 (MethodInfo_4FB3720 *)
+                                 MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+              if (bVar8) {
+                if (local_3a == 0x2f) {
+                  pSVar11 = *targetAddress;
+                  if (pSVar11 == (System_Char_array *)0x0) {
                     ThrowNullReferenceException();
                   }
-                  local_64 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                                       ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar5,
-                                        (Il2CppObject *)pSVar9,
-                                        (MethodInfo_147A530 *)
-                                        MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item);
-                  pMVar10 = (MethodInfo *)il2cpp_value_box(g_data_184354e08,&local_64);
-                  CustomLogic_CustomLogicLexer__AddToken
-                            (__this,0,(Il2CppObject *)pMVar10,(__this->fields)._line,(MethodInfo *)0x0);
+                  uVar9 = startIndex + 1;
+                  uVar1 = (uint)pSVar11->max_length;
+                  if ((int)uVar9 < (int)uVar1) {
+                    if (uVar1 <= uVar9) {
+                      ThrowIndexOutOfRangeException();
+                    }
+                    if (pSVar11->m_Items[(int)uVar9] == 0x2a) {
+                      pSVar12 = CustomLogic_CustomLogicLexer__ScanBlockComment(__this,uVar9,method_05);
+                      if (pSVar12 == (System_String_o *)0x0) {
+                        ThrowNullReferenceException();
+                      }
+                      startIndex = startIndex + (pSVar12->fields)._stringLength + 3;
+                      goto label_05b747f4;
+                    }
+                  }
                 }
+                if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+                }
+                pSVar6 = (System_Collections_Generic_Dictionary_object__int__o *)
+                         TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->Symbols;
+                if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init(g_data_07556750);
+                }
+                pSVar12 = System_Char__ToString(&local_3a,(MethodInfo *)0x0);
+                if (pSVar6 == (System_Collections_Generic_Dictionary_object__int__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                local_38 = (float)System_Collections_Generic_Dictionary_object__int___get_Item
+                                            (pSVar6,(Il2CppObject *)pSVar12,
+                                             (MethodInfo_4A9D700 *)
+                                             MethodInfo_System_Collections_Generic_Dictionary_string_int_get_Item
+                                            );
+                pIVar13 = il2cpp_vm_Object_Box(g_data_07556710,&local_38);
+                CustomLogic_CustomLogicLexer__AddToken(__this,0,pIVar13,(__this->fields)._line,in_R8);
               }
             }
           }
         }
-label_1820a2251:
+label_05b747f4:
         startIndex = startIndex + 1;
+        pSVar11 = *targetAddress;
       }
     }
   }
@@ -550,7 +561,7 @@ label_1820a2251:
 
 // CustomLogic.CustomLogicLexer$$AddToken
 // il2cpp: void CustomLogic_CustomLogicLexer__AddToken (CustomLogic_CustomLogicLexer_o* __this, int32_t type, Il2CppObject* value, int32_t line, const MethodInfo* method);
-// 0x1820a1910
+// 0x5b75180
 
 void CustomLogic_CustomLogicLexer__AddToken
                (CustomLogic_CustomLogicLexer_o *__this,int32_t type,Il2CppObject *value,int32_t line,
@@ -564,15 +575,19 @@ void CustomLogic_CustomLogicLexer__AddToken
   MethodInfo *pMVar4;
   CustomLogic_CustomLogicToken_o *__this_01;
   
-  if (Il2CppMethodInitialized_1843468f5 == '\0') {
+  if (Il2CppMethodInitialized_0754736b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicToken);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_CustomLogicToken_Add);
-    Il2CppMethodInitialized_1843468f5 = '\x01';
+    Il2CppMethodInitialized_0754736b = '\x01';
   }
   __this_00 = (__this->fields)._tokens;
   __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicToken);
-  CustomLogic_CustomLogicToken___ctor(__this_01,type,value,line,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  (__this_01->fields).Type = type;
+  (__this_01->fields).Value = value;
+  Il2CppCodeGenWriteBarrier(&(__this_01->fields).Value);
+  (__this_01->fields).Line = line;
   pMVar4 = MethodInfo_System_Collections_Generic_List_CustomLogicToken_Add;
   if (__this_00 != (System_Collections_Generic_List_CustomLogicToken__o *)0x0) {
     piVar1 = &(__this_00->fields)._version;
@@ -580,19 +595,16 @@ void CustomLogic_CustomLogicLexer__AddToken
     pCVar3 = (__this_00->fields)._items;
     if (pCVar3 != (CustomLogic_CustomLogicToken_array *)0x0) {
       uVar2 = (__this_00->fields)._size;
-      if ((uint)pCVar3->max_length <= uVar2) {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)__this_01,
-                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
-        return;
-      }
-      (__this_00->fields)._size = uVar2 + 1;
       if (uVar2 < (uint)pCVar3->max_length) {
+        (__this_00->fields)._size = uVar2 + 1;
         pCVar3->m_Items[(int)uVar2] = __this_01;
-        Il2CppCodeGenWriteBarrier(pCVar3->m_Items + (int)uVar2,__this_01);
+        Il2CppCodeGenWriteBarrier(pCVar3->m_Items + (int)uVar2);
         return;
       }
-      ThrowIndexOutOfRangeException();
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)__this_01,
+                 (MethodInfo_395D230 *)pMVar4->klass->rgctx_data[0xe].method);
+      return;
     }
   }
   ThrowNullReferenceException();
@@ -601,154 +613,160 @@ void CustomLogic_CustomLogicLexer__AddToken
 
 // CustomLogic.CustomLogicLexer$$ScanAlphaSymbol
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanAlphaSymbol (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a23c0
+// 0x5b75270
 // asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a24e9: jmp 0x1820a2423
-// asm:   0x1820a254e: mov rax, qword ptr [rip + 0x1fdc9d3]  ; ""
-// asm:   0x1820a2555: jmp 0x1820a2539
+// asm:   0x5b752de: nop 
+// asm:   0x5b75321: jmp 0x5b753ff
+// asm:   0x5b7539b: jmp 0x5b753ff
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanAlphaSymbol
           (CustomLogic_CustomLogicLexer_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
+  uint uVar1;
   uint16_t c;
-  System_Char_array *pSVar1;
   System_Collections_Generic_HashSet_object__o *__this_00;
   bool bVar2;
+  System_Char_array *pSVar3;
   System_String_o *str1;
   System_String_o *str0;
+  long lVar4;
   
-  if (Il2CppMethodInitialized_1843468f6 == '\0') {
+  if (Il2CppMethodInitialized_0754736c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicSymbols);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Contains)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468f6 = '\x01';
+    Il2CppMethodInitialized_0754736c = '\x01';
   }
-  pSVar1 = (__this->fields)._chars;
-  str0 = "";
-  do {
-    if (pSVar1 == (System_Char_array *)0x0) {
-label_1820a2557:
-      ThrowNullReferenceException();
-    }
-    if ((int)pSVar1->max_length <= startIndex) {
-      return "";
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) goto label_1820a2557;
-    if ((uint)pSVar1->max_length <= (uint)startIndex) {
-label_1820a255d:
-      ThrowIndexOutOfRangeException();
-    }
-    c = pSVar1->m_Items[startIndex];
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar2 = System_Char__IsLetter(c,(MethodInfo *)0x0);
-    if (!bVar2) {
-      pSVar1 = (__this->fields)._chars;
-      if (pSVar1 == (System_Char_array *)0x0) goto label_1820a2557;
-      if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a255d;
-      if (pSVar1->m_Items[startIndex] != 0x5f) {
-        if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
-        }
-        __this_00 = (System_Collections_Generic_HashSet_object__o *)
-                    TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames;
-        if (__this_00 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-          bVar2 = System_Collections_Generic_HashSet_object___Contains
-                            (__this_00,(Il2CppObject *)str0,
-                             (MethodInfo_1759E40 *)
-                             MethodInfo_System_Collections_Generic_HashSet_string_Contains);
-          if (bVar2) {
-            return str0;
-          }
-          return "";
-        }
-        goto label_1820a2557;
+  pSVar3 = (__this->fields)._chars;
+  if (pSVar3 != (System_Char_array *)0x0) {
+    lVar4 = (long)startIndex * 2 + 0x20;
+    str0 = "";
+    do {
+      uVar1 = (uint)pSVar3->max_length;
+      if ((int)uVar1 <= startIndex) {
+        return "";
       }
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) goto label_1820a2557;
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a255d;
-    str1 = System_Char__ToString(pSVar1->m_Items + startIndex,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    str0 = System_String__Concat_1969e50(str0,str1,(MethodInfo *)0x0);
-    startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._chars;
-  } while( true );
+      if (uVar1 <= (uint)startIndex) {
+label_05b753fa:
+        ThrowIndexOutOfRangeException();
+      }
+      c = *(uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20);
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      bVar2 = System_Char__IsLetter(c,(MethodInfo *)0x0);
+      pSVar3 = (__this->fields)._chars;
+      if (bVar2) {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+      }
+      else {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+        if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b753fa;
+        if (*(short *)((long)pSVar3->m_Items + lVar4 + -0x20) != 0x5f) {
+          if ((TypeInfo_CustomLogic_CustomLogicSymbols->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicSymbols);
+          }
+          __this_00 = (System_Collections_Generic_HashSet_object__o *)
+                      TypeInfo_CustomLogic_CustomLogicSymbols->static_fields->AlphaSymbolNames;
+          if (__this_00 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+            bVar2 = System_Collections_Generic_HashSet_object___Contains
+                              (__this_00,(Il2CppObject *)str0,
+                               (MethodInfo_4FB3720 *)
+                               MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+            if (bVar2) {
+              return str0;
+            }
+            return "";
+          }
+          break;
+        }
+      }
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b753fa;
+      str1 = System_Char__ToString((uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20),(MethodInfo *)0x0);
+      str0 = System_String__Concat_52f0320(str0,str1,(MethodInfo *)0x0);
+      startIndex = startIndex + 1;
+      pSVar3 = (__this->fields)._chars;
+      lVar4 = lVar4 + 2;
+    } while (pSVar3 != (System_Char_array *)0x0);
+  }
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicLexer$$ScanBool
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanBool (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a2700
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a2808: jmp 0x1820a2763
-// asm:   0x1820a2855: mov rax, rbp
-// asm:   0x1820a2858: jmp 0x1820a2840
+// 0x5b75020
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b7508e: nop 
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanBool
           (CustomLogic_CustomLogicLexer_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
+  uint uVar1;
   uint16_t c;
-  System_Char_array *pSVar1;
-  bool bVar2;
+  long lVar2;
+  bool bVar3;
+  System_Char_array *pSVar4;
   System_String_o *str1;
   System_String_o *a;
+  long lVar5;
   
-  if (Il2CppMethodInitialized_1843468f7 == '\0') {
+  if (Il2CppMethodInitialized_0754736d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"false");
     il2cpp_codegen_initialize_runtime_metadata(&"true");
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468f7 = '\x01';
+    Il2CppMethodInitialized_0754736d = '\x01';
   }
-  pSVar1 = (__this->fields)._chars;
-  a = "";
-  while (pSVar1 != (System_Char_array *)0x0) {
-    if ((int)pSVar1->max_length <= startIndex) {
-      return "";
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar1->max_length <= (uint)startIndex) {
-label_1820a285a:
-      ThrowIndexOutOfRangeException();
-    }
-    c = pSVar1->m_Items[startIndex];
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar2 = System_Char__IsLetter(c,(MethodInfo *)0x0);
-    if (!bVar2) {
-      bVar2 = System_String__op_Equality(a,"true",(MethodInfo *)0x0);
-      if (bVar2) {
-        return a;
-      }
-      bVar2 = System_String__op_Equality(a,"false",(MethodInfo *)0x0);
-      if (!bVar2) {
+  pSVar4 = (__this->fields)._chars;
+  if (pSVar4 != (System_Char_array *)0x0) {
+    lVar5 = (long)startIndex * 2 + 0x20;
+    a = "";
+    do {
+      uVar1 = (uint)pSVar4->max_length;
+      if ((int)uVar1 <= startIndex) {
         return "";
       }
-      return a;
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a285a;
-    str1 = System_Char__ToString(pSVar1->m_Items + startIndex,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    a = System_String__Concat_1969e50(a,str1,(MethodInfo *)0x0);
-    startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._chars;
+      if (uVar1 <= (uint)startIndex) {
+label_05b75173:
+        ThrowIndexOutOfRangeException();
+      }
+      c = *(uint16_t *)((long)pSVar4->m_Items + lVar5 + -0x20);
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      bVar3 = System_Char__IsLetter(c,(MethodInfo *)0x0);
+      if (!bVar3) {
+        bVar3 = System_String__op_Equality(a,"true",(MethodInfo *)0x0);
+        if (bVar3) {
+          return a;
+        }
+        bVar3 = System_String__op_Equality(a,"false",(MethodInfo *)0x0);
+        if (bVar3) {
+          return a;
+        }
+        return "";
+      }
+      pSVar4 = (__this->fields)._chars;
+      if (pSVar4 == (System_Char_array *)0x0) break;
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      if ((uint)pSVar4->max_length <= (uint)startIndex) goto label_05b75173;
+      startIndex = startIndex + 1;
+      lVar2 = lVar5 + -0x20;
+      lVar5 = lVar5 + 2;
+      str1 = System_Char__ToString((uint16_t *)((long)pSVar4->m_Items + lVar2),(MethodInfo *)0x0);
+      a = System_String__Concat_52f0320(a,str1,(MethodInfo *)0x0);
+      pSVar4 = (__this->fields)._chars;
+    } while (pSVar4 != (System_Char_array *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -756,62 +774,66 @@ label_1820a285a:
 
 // CustomLogic.CustomLogicLexer$$ScanNumber
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanNumber (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a2af0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a2b3b: nop dword ptr [rax + rax]
-// asm:   0x1820a2bfa: jmp 0x1820a2b40
+// 0x5b75540
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b755e0: jmp 0x5b7564e
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanNumber
           (CustomLogic_CustomLogicLexer_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
+  uint uVar1;
   uint16_t c;
-  System_Char_array *pSVar1;
   bool bVar2;
+  System_Char_array *pSVar3;
   System_String_o *str1;
   System_String_o *str0;
+  long lVar4;
   
-  if (Il2CppMethodInitialized_1843468f8 == '\0') {
+  if (Il2CppMethodInitialized_0754736e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468f8 = '\x01';
+    Il2CppMethodInitialized_0754736e = '\x01';
   }
-  pSVar1 = (__this->fields)._chars;
-  str0 = "";
-  while (pSVar1 != (System_Char_array *)0x0) {
-    if ((int)pSVar1->max_length <= startIndex) {
-      return str0;
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar1->max_length <= (uint)startIndex) {
-label_1820a2c17:
-      ThrowIndexOutOfRangeException();
-    }
-    c = pSVar1->m_Items[startIndex];
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar2 = System_Char__IsDigit(c,(MethodInfo *)0x0);
-    if (!bVar2) {
-      pSVar1 = (__this->fields)._chars;
-      if (pSVar1 == (System_Char_array *)0x0) break;
-      if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a2c17;
-      if (pSVar1->m_Items[startIndex] != 0x2e) {
+  pSVar3 = (__this->fields)._chars;
+  if (pSVar3 != (System_Char_array *)0x0) {
+    lVar4 = (long)startIndex * 2 + 0x20;
+    str0 = "";
+    do {
+      uVar1 = (uint)pSVar3->max_length;
+      if ((int)uVar1 <= startIndex) {
         return str0;
       }
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a2c17;
-    str1 = System_Char__ToString(pSVar1->m_Items + startIndex,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    str0 = System_String__Concat_1969e50(str0,str1,(MethodInfo *)0x0);
-    startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._chars;
+      if (uVar1 <= (uint)startIndex) {
+label_05b75665:
+        ThrowIndexOutOfRangeException();
+      }
+      c = *(uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20);
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      bVar2 = System_Char__IsDigit(c,(MethodInfo *)0x0);
+      pSVar3 = (__this->fields)._chars;
+      if (bVar2) {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+      }
+      else {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+        if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b75665;
+        if (*(short *)((long)pSVar3->m_Items + lVar4 + -0x20) != 0x2e) {
+          return str0;
+        }
+      }
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b75665;
+      str1 = System_Char__ToString((uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20),(MethodInfo *)0x0);
+      str0 = System_String__Concat_52f0320(str0,str1,(MethodInfo *)0x0);
+      startIndex = startIndex + 1;
+      pSVar3 = (__this->fields)._chars;
+      lVar4 = lVar4 + 2;
+    } while (pSVar3 != (System_Char_array *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -819,62 +841,66 @@ label_1820a2c17:
 
 // CustomLogic.CustomLogicLexer$$ScanName
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanName (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a29b0
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a29fb: nop dword ptr [rax + rax]
-// asm:   0x1820a2aba: jmp 0x1820a2a00
+// 0x5b75410
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b754b0: jmp 0x5b7551e
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanName
           (CustomLogic_CustomLogicLexer_o *__this,int32_t startIndex,MethodInfo *method)
 
 {
+  uint uVar1;
   uint16_t c;
-  System_Char_array *pSVar1;
   bool bVar2;
+  System_Char_array *pSVar3;
   System_String_o *str1;
   System_String_o *str0;
+  long lVar4;
   
-  if (Il2CppMethodInitialized_1843468f9 == '\0') {
+  if (Il2CppMethodInitialized_0754736f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468f9 = '\x01';
+    Il2CppMethodInitialized_0754736f = '\x01';
   }
-  pSVar1 = (__this->fields)._chars;
-  str0 = "";
-  while (pSVar1 != (System_Char_array *)0x0) {
-    if ((int)pSVar1->max_length <= startIndex) {
-      return str0;
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar1->max_length <= (uint)startIndex) {
-label_1820a2ad7:
-      ThrowIndexOutOfRangeException();
-    }
-    c = pSVar1->m_Items[startIndex];
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    bVar2 = System_Char__IsLetterOrDigit(c,(MethodInfo *)0x0);
-    if (!bVar2) {
-      pSVar1 = (__this->fields)._chars;
-      if (pSVar1 == (System_Char_array *)0x0) break;
-      if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a2ad7;
-      if (pSVar1->m_Items[startIndex] != 0x5f) {
+  pSVar3 = (__this->fields)._chars;
+  if (pSVar3 != (System_Char_array *)0x0) {
+    lVar4 = (long)startIndex * 2 + 0x20;
+    str0 = "";
+    do {
+      uVar1 = (uint)pSVar3->max_length;
+      if ((int)uVar1 <= startIndex) {
         return str0;
       }
-    }
-    pSVar1 = (__this->fields)._chars;
-    if (pSVar1 == (System_Char_array *)0x0) break;
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar1->max_length <= (uint)startIndex) goto label_1820a2ad7;
-    str1 = System_Char__ToString(pSVar1->m_Items + startIndex,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    str0 = System_String__Concat_1969e50(str0,str1,(MethodInfo *)0x0);
-    startIndex = startIndex + 1;
-    pSVar1 = (__this->fields)._chars;
+      if (uVar1 <= (uint)startIndex) {
+label_05b75535:
+        ThrowIndexOutOfRangeException();
+      }
+      c = *(uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20);
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      bVar2 = System_Char__IsLetterOrDigit(c,(MethodInfo *)0x0);
+      pSVar3 = (__this->fields)._chars;
+      if (bVar2) {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+      }
+      else {
+        if (pSVar3 == (System_Char_array *)0x0) break;
+        if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b75535;
+        if (*(short *)((long)pSVar3->m_Items + lVar4 + -0x20) != 0x5f) {
+          return str0;
+        }
+      }
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+      }
+      if ((uint)pSVar3->max_length <= (uint)startIndex) goto label_05b75535;
+      str1 = System_Char__ToString((uint16_t *)((long)pSVar3->m_Items + lVar4 + -0x20),(MethodInfo *)0x0);
+      str0 = System_String__Concat_52f0320(str0,str1,(MethodInfo *)0x0);
+      startIndex = startIndex + 1;
+      pSVar3 = (__this->fields)._chars;
+      lVar4 = lVar4 + 2;
+    } while (pSVar3 != (System_Char_array *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -882,18 +908,11 @@ label_1820a2ad7:
 
 // CustomLogic.CustomLogicLexer$$ScanStringLiteral
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanStringLiteral (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, int32_t* rawLiteralLength, const MethodInfo* method);
-// 0x1820a2c30
-// asm: 10 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a2dd4: mov rdx, qword ptr [rip + 0x1fde1ad]  ; "\t"
-// asm:   0x1820a2ddb: jmp 0x1820a2dff
-// asm:   0x1820a2ddd: mov rdx, qword ptr [rip + 0x1fe0204]  ; "\r"
-// asm:   0x1820a2de4: jmp 0x1820a2dff
-// asm:   0x1820a2de6: mov rdx, qword ptr [rip + 0x1fde6db]  ; "\n"
-// asm:   0x1820a2ded: jmp 0x1820a2dff
-// asm:   0x1820a2def: mov rdx, qword ptr [rip + 0x2030e5a]  ; "\\"
-// asm:   0x1820a2df6: jmp 0x1820a2dff
-// asm:   0x1820a2df8: mov rdx, qword ptr [rip + 0x2002f81]  ; "\""
-// asm:   0x1820a2e18: jmp 0x1820a2cc2
+// 0x5b75670
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b75776: cmp ebp, eax
+// asm:   0x5b75778: jb 0x5b757b0
+// asm:   0x5b7577a: jmp 0x5b75889
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanStringLiteral
@@ -902,106 +921,140 @@ CustomLogic_CustomLogicLexer__ScanStringLiteral
 
 {
   int32_t *piVar1;
-  System_Char_array *pSVar2;
+  uint16_t uVar2;
+  int iVar3;
+  uint32_t uVar4;
+  uint uVar5;
+  System_Char_array *pSVar6;
+  System_String_o *pSVar7;
   System_String_o *str1;
-  System_String_o *pSVar3;
-  Il2CppClass *pIVar4;
-  System_Exception_o *pSVar5;
-  MethodInfo *pMVar6;
-  uint uVar7;
-  uint16_t local_res10 [4];
+  System_String_o **ppSVar8;
+  Il2CppClass *klass;
+  System_Exception_o *__this_00;
+  MethodInfo *lastManagedFrame;
+  uint uVar9;
+  uint16_t local_3a;
+  CustomLogic_CustomLogicLexer_o *local_38;
   
-  pMVar6 = (MethodInfo *)rawLiteralLength;
-  if (Il2CppMethodInitialized_1843468fa == '\0') {
+  local_38 = __this;
+  if (Il2CppMethodInitialized_07547370 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"\n");
     il2cpp_codegen_initialize_runtime_metadata(&"\\");
     il2cpp_codegen_initialize_runtime_metadata(&"\t");
     il2cpp_codegen_initialize_runtime_metadata(&"\"");
     il2cpp_codegen_initialize_runtime_metadata(&"");
     il2cpp_codegen_initialize_runtime_metadata(&"\r");
-    Il2CppMethodInitialized_1843468fa = '\x01';
+    Il2CppMethodInitialized_07547370 = '\x01';
   }
-  pSVar3 = "";
-  local_res10[0] = 0;
+  pSVar7 = "";
+  local_3a = 0;
   *rawLiteralLength = 0;
-  pSVar2 = (__this->fields)._chars;
-  while (pSVar2 != (System_Char_array *)0x0) {
-    uVar7 = startIndex + 1;
-    if ((int)pSVar2->max_length <= (int)uVar7) {
-      pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-      pSVar5 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar4);
-      pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Unclosed string literal");
-      System_Exception___ctor_1b6abf0(pSVar5,pSVar3,(MethodInfo *)0x0);
-      pMVar6 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanStringLiteral)
-      ;
-      il2cpp_codegen_raise_exception((Il2CppObject *)pSVar5,pMVar6);
+  do {
+    pSVar6 = (local_38->fields)._chars;
+    if (pSVar6 == (System_Char_array *)0x0) {
+      ThrowNullReferenceException();
     }
-    *rawLiteralLength = *rawLiteralLength + 1;
-    pSVar2 = (__this->fields)._chars;
-    if (pSVar2 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar2->max_length <= uVar7) {
-label_1820a2ece:
-      ThrowIndexOutOfRangeException();
+    uVar9 = startIndex + 1;
+    uVar5 = (uint)pSVar6->max_length;
+    if ((int)uVar5 <= (int)uVar9) {
+label_05b7588e:
+      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+      __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+      pSVar7 = il2cpp_codegen_get_runtime_metadata(&"Unclosed string literal");
+      System_Exception___ctor_54fa440(__this_00,pSVar7,(MethodInfo *)0x0);
+      lastManagedFrame =
+           il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanStringLiteral);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
     }
-    if (pSVar2->m_Items[(int)uVar7] == 10) {
-      piVar1 = &(__this->fields)._line;
+    iVar3 = *rawLiteralLength;
+    *rawLiteralLength = iVar3 + 1;
+    if (uVar5 <= uVar9) goto label_05b75889;
+    uVar2 = pSVar6->m_Items[(int)uVar9];
+    if (uVar2 == 10) {
+      piVar1 = &(local_38->fields)._line;
       *piVar1 = *piVar1 + 1;
-    }
-    if (pSVar2 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar2->max_length <= uVar7) goto label_1820a2ece;
-    if (pSVar2->m_Items[(int)uVar7] == 0x5c) {
-      if ((int)pSVar2->max_length <= (int)(startIndex + 2U)) {
-        pIVar4 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-        pSVar5 = (System_Exception_o *)il2cpp_codegen_object_new(pIVar4);
-        pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Unclosed string literal");
-        System_Exception___ctor_1b6abf0(pSVar5,pSVar3,(MethodInfo *)0x0);
-        pMVar6 = il2cpp_codegen_get_runtime_metadata
-                           (&MethodInfo_CustomLogic_CustomLogicLexer_ScanStringLiteral);
-        il2cpp_codegen_raise_exception((Il2CppObject *)pSVar5,pMVar6);
+      uVar4 = (g_data_07556750->_2).cctor_finished_or_no_cctor;
+joined_r0x05b7579d:
+      if (uVar4 == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+        uVar5 = (uint)pSVar6->max_length;
       }
-      *rawLiteralLength = *rawLiteralLength + 1;
-      pSVar2 = (__this->fields)._chars;
-      if (pSVar2 == (System_Char_array *)0x0) break;
-      startIndex = startIndex + 2;
-      if ((uint)pSVar2->max_length <= (uint)startIndex) goto label_1820a2ece;
-      local_res10[0] = pSVar2->m_Items[(longlong)(int)uVar7 + 1];
-      str1 = "\"";
-      if ((((local_res10[0] != 0x22) && (str1 = "\\", local_res10[0] != 0x5c)) &&
-          (str1 = "\n", local_res10[0] != 0x6e)) &&
-         ((str1 = "\r", local_res10[0] != 0x72 &&
-          (str1 = "\t", local_res10[0] != 0x74)))) {
-        if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init(g_data_184354e48);
-        }
-        str1 = System_Char__ToString(local_res10,(System_IFormatProvider_o *)0x0,pMVar6);
+      if (uVar5 <= uVar9) {
+label_05b75889:
+        ThrowIndexOutOfRangeException();
       }
+      str1 = System_Char__ToString(pSVar6->m_Items + (int)uVar9,(MethodInfo *)0x0);
+      startIndex = uVar9;
     }
     else {
-      if (pSVar2->m_Items[(int)uVar7] == 0x22) {
-        *rawLiteralLength = *rawLiteralLength + -1;
-        return pSVar3;
+      if (uVar2 != 0x5c) {
+        if (uVar2 == 0x22) {
+          *rawLiteralLength = iVar3;
+          return pSVar7;
+        }
+        uVar4 = (g_data_07556750->_2).cctor_finished_or_no_cctor;
+        goto joined_r0x05b7579d;
       }
-      if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-        il2cpp_codegen_runtime_class_init(g_data_184354e48);
+      startIndex = startIndex + 2;
+      if ((int)uVar5 <= startIndex) goto label_05b7588e;
+      *rawLiteralLength = iVar3 + 2;
+      if (uVar5 <= (uint)startIndex) goto label_05b75889;
+      local_3a = pSVar6->m_Items[startIndex];
+      switch(local_3a) {
+      case 0x5c:
+        ppSVar8 = &"\\";
+        break;
+      case 0x5d:
+      case 0x5e:
+      case 0x5f:
+      case 0x60:
+      case 0x61:
+      case 0x62:
+      case 99:
+      case 100:
+      case 0x65:
+      case 0x66:
+      case 0x67:
+      case 0x68:
+      case 0x69:
+      case 0x6a:
+      case 0x6b:
+      case 0x6c:
+      case 0x6d:
+      case 0x6f:
+      case 0x70:
+      case 0x71:
+      case 0x73:
+switchD_05b7580d_caseD_1:
+        if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(g_data_07556750);
+        }
+        str1 = System_Char__ToString(&local_3a,(MethodInfo *)0x0);
+        goto label_05b75704;
+      case 0x6e:
+        ppSVar8 = &"\n";
+        break;
+      case 0x72:
+        ppSVar8 = &"\r";
+        break;
+      case 0x74:
+        ppSVar8 = &"\t";
+        break;
+      default:
+        if (local_3a != 0x22) goto switchD_05b7580d_caseD_1;
+        ppSVar8 = &"\"";
       }
-      if ((uint)pSVar2->max_length <= uVar7) goto label_1820a2ece;
-      str1 = System_Char__ToString(pSVar2->m_Items + (int)uVar7,(System_IFormatProvider_o *)0x0,pMVar6);
-      startIndex = uVar7;
+      str1 = *ppSVar8;
     }
-    pMVar6 = (MethodInfo *)0x0;
-    pSVar3 = System_String__Concat_1969e50(pSVar3,str1,(MethodInfo *)0x0);
-    pSVar2 = (__this->fields)._chars;
-  }
-  ThrowNullReferenceException();
+label_05b75704:
+    pSVar7 = System_String__Concat_52f0320(pSVar7,str1,(MethodInfo *)0x0);
+  } while( true );
 }
 
 
 // CustomLogic.CustomLogicLexer$$ScanComment
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanComment (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a2870
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a28bb: nop dword ptr [rax + rax]
-// asm:   0x1820a2939: jmp 0x1820a28c0
+// 0x5b758e0
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanComment
@@ -1009,49 +1062,51 @@ CustomLogic_CustomLogicLexer__ScanComment
 
 {
   int32_t *piVar1;
-  System_Char_array *pSVar2;
+  uint uVar2;
   System_String_o *str1;
   System_String_o *pSVar3;
   Il2CppClass *klass;
   System_Exception_o *__this_00;
   MethodInfo *lastManagedFrame;
+  System_Char_array *pSVar4;
   
-  if (Il2CppMethodInitialized_1843468fb == '\0') {
+  if (Il2CppMethodInitialized_07547371 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468fb = '\x01';
+    Il2CppMethodInitialized_07547371 = '\x01';
   }
-  pSVar2 = (__this->fields)._chars;
-  pSVar3 = "";
-  while (pSVar2 != (System_Char_array *)0x0) {
-    startIndex = startIndex + 1;
-    if ((int)pSVar2->max_length <= startIndex) {
-      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-      __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-      pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Unclosed comment");
-      System_Exception___ctor_1b6abf0(__this_00,pSVar3,(MethodInfo *)0x0);
-      lastManagedFrame =
-           il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanComment);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
-    }
-    pSVar2 = (__this->fields)._chars;
-    if (pSVar2 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar2->max_length <= (uint)startIndex) {
-label_1820a29a5:
-      ThrowIndexOutOfRangeException();
-    }
-    if (pSVar2->m_Items[startIndex] == 10) {
-      piVar1 = &(__this->fields)._line;
-      *piVar1 = *piVar1 + 1;
-      return pSVar3;
-    }
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar2->max_length <= (uint)startIndex) goto label_1820a29a5;
-    str1 = System_Char__ToString(pSVar2->m_Items + startIndex,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    pSVar3 = System_String__Concat_1969e50(pSVar3,str1,(MethodInfo *)0x0);
-    pSVar2 = (__this->fields)._chars;
+  pSVar4 = (__this->fields)._chars;
+  if (pSVar4 != (System_Char_array *)0x0) {
+    pSVar3 = "";
+    do {
+      startIndex = startIndex + 1;
+      uVar2 = (uint)pSVar4->max_length;
+      if ((int)uVar2 <= startIndex) {
+        klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+        __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+        pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Unclosed comment");
+        System_Exception___ctor_54fa440(__this_00,pSVar3,(MethodInfo *)0x0);
+        lastManagedFrame =
+             il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanComment);
+        il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+      }
+      if (uVar2 <= (uint)startIndex) {
+label_05b759a8:
+        ThrowIndexOutOfRangeException();
+      }
+      if (pSVar4->m_Items[startIndex] == 10) {
+        piVar1 = &(__this->fields)._line;
+        *piVar1 = *piVar1 + 1;
+        return pSVar3;
+      }
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+        uVar2 = (uint)pSVar4->max_length;
+      }
+      if (uVar2 <= (uint)startIndex) goto label_05b759a8;
+      str1 = System_Char__ToString(pSVar4->m_Items + startIndex,(MethodInfo *)0x0);
+      pSVar3 = System_String__Concat_52f0320(pSVar3,str1,(MethodInfo *)0x0);
+      pSVar4 = (__this->fields)._chars;
+    } while (pSVar4 != (System_Char_array *)0x0);
   }
   ThrowNullReferenceException();
 }
@@ -1059,10 +1114,10 @@ label_1820a29a5:
 
 // CustomLogic.CustomLogicLexer$$ScanBlockComment
 // il2cpp: System_String_o* CustomLogic_CustomLogicLexer__ScanBlockComment (CustomLogic_CustomLogicLexer_o* __this, int32_t startIndex, const MethodInfo* method);
-// 0x1820a2570
+// 0x5b75a00
 // asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820a25bb: nop dword ptr [rax + rax]
-// asm:   0x1820a2680: jmp 0x1820a25c0
+// asm:   0x5b75a59: nop dword ptr [rax]
+// asm:   0x5b75aa6: nop word ptr cs:[rax + rax]
 
 System_String_o *
 CustomLogic_CustomLogicLexer__ScanBlockComment
@@ -1070,60 +1125,67 @@ CustomLogic_CustomLogicLexer__ScanBlockComment
 
 {
   int32_t *piVar1;
-  System_Char_array *pSVar2;
+  uint uVar2;
+  short sVar3;
+  uint uVar4;
   System_String_o *str1;
-  System_String_o *pSVar3;
+  System_String_o *pSVar5;
   Il2CppClass *klass;
   System_Exception_o *__this_00;
   MethodInfo *lastManagedFrame;
-  uint uVar4;
+  System_Char_array *pSVar6;
+  uint uVar7;
+  long lVar8;
   
-  if (Il2CppMethodInitialized_1843468fc == '\0') {
+  if (Il2CppMethodInitialized_07547372 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"");
-    Il2CppMethodInitialized_1843468fc = '\x01';
+    Il2CppMethodInitialized_07547372 = '\x01';
   }
-  pSVar2 = (__this->fields)._chars;
-  pSVar3 = "";
-  while (pSVar2 != (System_Char_array *)0x0) {
-    uVar4 = startIndex + 1;
-    if ((int)pSVar2->max_length <= (int)uVar4) {
-      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
-      __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
-      pSVar3 = il2cpp_codegen_get_runtime_metadata(&"Unclosed block comment");
-      System_Exception___ctor_1b6abf0(__this_00,pSVar3,(MethodInfo *)0x0);
-      lastManagedFrame =
-           il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanBlockComment);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
-    }
-    pSVar2 = (__this->fields)._chars;
-    if (pSVar2 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar2->max_length <= uVar4) {
-label_1820a26ec:
-      ThrowIndexOutOfRangeException();
-    }
-    if (pSVar2->m_Items[(int)uVar4] == 10) {
-      piVar1 = &(__this->fields)._line;
-      *piVar1 = *piVar1 + 1;
-    }
-    if (pSVar2 == (System_Char_array *)0x0) break;
-    if ((uint)pSVar2->max_length <= uVar4) goto label_1820a26ec;
-    if ((pSVar2->m_Items[(int)uVar4] == 0x2a) &&
-       (pSVar2 = (__this->fields)._chars, (int)(startIndex + 2U) < (int)pSVar2->max_length)) {
-      if ((uint)pSVar2->max_length <= startIndex + 2U) goto label_1820a26ec;
-      if (pSVar2->m_Items[(longlong)(int)uVar4 + 1] == 0x2f) {
-        return pSVar3;
+  pSVar6 = (__this->fields)._chars;
+  if (pSVar6 != (System_Char_array *)0x0) {
+    uVar7 = startIndex + 1;
+    lVar8 = (long)(int)uVar7 * 2 + 0x20;
+    pSVar5 = "";
+    do {
+      uVar4 = (uint)pSVar6->max_length;
+      if ((int)uVar4 <= (int)uVar7) {
+        klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+        __this_00 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+        pSVar5 = il2cpp_codegen_get_runtime_metadata(&"Unclosed block comment");
+        System_Exception___ctor_54fa440(__this_00,pSVar5,(MethodInfo *)0x0);
+        lastManagedFrame =
+             il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicLexer_ScanBlockComment);
+        il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
       }
-    }
-    pSVar2 = (__this->fields)._chars;
-    if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init(g_data_184354e48);
-    }
-    if ((uint)pSVar2->max_length <= uVar4) goto label_1820a26ec;
-    str1 = System_Char__ToString(pSVar2->m_Items + (int)uVar4,(System_IFormatProvider_o *)0x0,method);
-    method = (MethodInfo *)0x0;
-    pSVar3 = System_String__Concat_1969e50(pSVar3,str1,(MethodInfo *)0x0);
-    startIndex = uVar4;
-    pSVar2 = (__this->fields)._chars;
+      if (uVar4 <= uVar7) {
+label_05b75b15:
+        ThrowIndexOutOfRangeException();
+      }
+      sVar3 = *(short *)((long)pSVar6->m_Items + lVar8 + -0x20);
+      if (sVar3 == 0x2a) {
+        uVar2 = uVar7 + 1;
+        if ((int)uVar2 < (int)uVar4) {
+          if (uVar4 <= uVar2) goto label_05b75b15;
+          if (pSVar6->m_Items[(int)uVar2] == 0x2f) {
+            return pSVar5;
+          }
+        }
+      }
+      else if (sVar3 == 10) {
+        piVar1 = &(__this->fields)._line;
+        *piVar1 = *piVar1 + 1;
+      }
+      if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_07556750);
+        uVar4 = (uint)pSVar6->max_length;
+      }
+      if (uVar4 <= uVar7) goto label_05b75b15;
+      str1 = System_Char__ToString((uint16_t *)((long)pSVar6->m_Items + lVar8 + -0x20),(MethodInfo *)0x0);
+      pSVar5 = System_String__Concat_52f0320(pSVar5,str1,(MethodInfo *)0x0);
+      pSVar6 = (__this->fields)._chars;
+      uVar7 = uVar7 + 1;
+      lVar8 = lVar8 + 2;
+    } while (pSVar6 != (System_Char_array *)0x0);
   }
   ThrowNullReferenceException();
 }

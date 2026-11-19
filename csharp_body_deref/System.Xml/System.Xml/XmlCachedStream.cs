@@ -18,7 +18,7 @@ internal class XmlCachedStream : MemoryStream
 	private Uri uri;
 
 	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x274B830", Offset = "0x2749E30", VA = "0x18274B830")]
+	[Address(RVA = "0x60FEE80", Offset = "0x60FDE80", VA = "0x60FEE80")]
 	internal XmlCachedStream(Uri uri, Stream stream)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextHandlePermanentCache
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,26 +24,26 @@ internal class TextHandlePermanentCache
 	private object syncRoot;
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x3056C40", Offset = "0x3055240", VA = "0x183056C40")]
+	[Address(RVA = "0x6A53370", Offset = "0x6A52370", VA = "0x6A53370")]
 	public void AddToCache(TextHandle textHandle)
 	{
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x3056F60", Offset = "0x3055560", VA = "0x183056F60")]
+	[Address(RVA = "0x6A53810", Offset = "0x6A52810", VA = "0x6A53810")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	public void RemoveFromCache(TextHandle textHandle)
 	{
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x3057100", Offset = "0x3055700", VA = "0x183057100")]
+	[Address(RVA = "0x6A53940", Offset = "0x6A52940", VA = "0x6A53940")]
 	private void ResetEntryState(TextHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x30571A0", Offset = "0x30557A0", VA = "0x1830571A0")]
+	[Address(RVA = "0x6A53A30", Offset = "0x6A52A30", VA = "0x6A53A30")]
 	public TextHandlePermanentCache()
 	{
 	}

@@ -1,17 +1,16 @@
 // Type: Controllers.BaseAIController
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Controllers/BaseAIController.cs
 // Prior real C# source (older reference): Assets/Scripts/Controllers/BaseAIController.cs
 // --------------------------------
 
 // Controllers.BaseAIController$$get_AIEnabled
 // il2cpp: bool Controllers_BaseAIController__get_AIEnabled (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x181cd39f0
+// 0x5b9b340
 
-bool
-Controllers_BaseAIController__get_AIEnabled(Controllers_BaseAIController_o* __this, MethodInfo* method)
+bool Controllers_BaseAIController__get_AIEnabled(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._aiEnabled;
@@ -20,57 +19,90 @@ Controllers_BaseAIController__get_AIEnabled(Controllers_BaseAIController_o* __th
 
 // Controllers.BaseAIController$$set_AIEnabled
 // il2cpp: void Controllers_BaseAIController__set_AIEnabled (Controllers_BaseAIController_o* __this, bool value, const MethodInfo* method);
-// 0x1820f2720
+// 0x5b9b350
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9b3d9: test bpl, bpl
+// asm:   0x5b9b4dc: jmp 0x5b9b4c7
 
 void Controllers_BaseAIController__set_AIEnabled
                (Controllers_BaseAIController_o *__this,bool value,MethodInfo *method)
 
 {
   byte bVar1;
-  Characters_BaseCharacter_o *pCVar2;
+  byte bVar2;
   Controllers_BaseAIController_c *pCVar3;
+  Characters_BaseCharacter_o *pCVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184346a7d == '\0') {
+  if (Il2CppMethodInitialized_07547449 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_HumanAIController);
-    Il2CppMethodInitialized_184346a7d = '\x01';
+    Il2CppMethodInitialized_07547449 = '\x01';
   }
   if ((__this->fields)._aiEnabled != value) {
-    pCVar2 = (__this->fields)._character;
     (__this->fields)._aiEnabled = value;
-    if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
+    pCVar4 = (__this->fields)._character;
+    if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
       bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
-      if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-         ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-          (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
-        *(bool *)&(*(uint64_t *)((char *)pCVar2 + 0x280)) = value;
+      if ((bVar1 <= (pCVar4->klass->_2).typeHierarchyDepth) &&
+         ((pCVar4->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan)
+         ) {
+        *(bool *)&(*(uint64_t *)((char *)pCVar4 + 0x298)) = value;
       }
     }
     if (!value) {
-      Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
-      pCVar2 = (__this->fields)._character;
-      if (pCVar2 == (Characters_BaseCharacter_o *)0x0) {
-        ThrowNullReferenceException();
+      if (Il2CppMethodInitialized_0754744f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+        Il2CppMethodInitialized_0754744f = '\x01';
       }
-      (pCVar2->fields).HasDirection = false;
-      pCVar3 = __this->klass;
-      bVar1 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
-      if (((pCVar3->_2).typeHierarchyDepth < bVar1) ||
-         ((pCVar3->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-          (Il2CppClass *)TypeInfo_Controllers_HumanAIController)) {
-        bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-        if ((bVar1 <= (pCVar3->_2).typeHierarchyDepth) &&
-           ((pCVar3->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-            (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
-          Controllers_BaseTitanAIController__Idle
-                    ((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0);
+      (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+      (__this->fields)._focusTimeLeft = 0.0;
+      pCVar4 = (__this->fields)._character;
+      if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
+        bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+        if ((bVar1 <= (pCVar4->klass->_2).typeHierarchyDepth) &&
+           ((pCVar4->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+            (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
+          (*(uint64_t *)((char *)pCVar4 + 0x168)) = (System_String_o *)0x0;
+          Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar4 + 0x168)));
+          pCVar4 = (__this->fields)._character;
+          if (pCVar4 == (Characters_BaseCharacter_o *)0x0) goto label_05b9b548;
+        }
+        (pCVar4->fields).HasDirection = false;
+        pCVar3 = __this->klass;
+        bVar1 = (pCVar3->_2).typeHierarchyDepth;
+        bVar2 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
+        if ((bVar2 <= bVar1) &&
+           ((pCVar3->_2).typeHierarchy[(ulong)bVar2 - 1] ==
+            (Il2CppClass *)TypeInfo_Controllers_HumanAIController)) {
+          Controllers_HumanAIController__StopInput
+                    ((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
+          return;
+        }
+        bVar2 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
+        if (bVar1 < bVar2) {
+          return;
+        }
+        if ((pCVar3->_2).typeHierarchy[(ulong)bVar2 - 1] !=
+            (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController) {
+          return;
+        }
+        *(undefined8 *)((long)&(*(uint64_t *)((char *)__this + 0x128)) + 4) = 0;
+        *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x140)) = 0;
+        *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x98)) = 0;
+        pCVar3 = (*(uint64_t *)((char *)__this + 0x90));
+        if (pCVar3 != (Controllers_BaseAIController_c *)0x0) {
+          *(undefined1 *)((long)&(pCVar3->_2).initializationExceptionGCHandle + 4) = 0;
+          *(undefined1 *)&(pCVar3->_2).vtable_count = 0;
+          fVar5 = UnityEngine_Random__Range(4.0,8.0,(MethodInfo *)0x0);
+          *(float *)&(*(uint8_t *)((char *)__this + 0x108)) = fVar5;
           return;
         }
       }
-      else {
-        Controllers_HumanAIController__StopInput((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
-      }
+label_05b9b548:
+      ThrowNullReferenceException();
     }
   }
   return;
@@ -79,7 +111,7 @@ void Controllers_BaseAIController__set_AIEnabled
 
 // Controllers.BaseAIController$$get_IsWalking
 // il2cpp: bool Controllers_BaseAIController__get_IsWalking (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f2660
+// 0x5b9b650
 
 bool Controllers_BaseAIController__get_IsWalking(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
@@ -87,25 +119,26 @@ bool Controllers_BaseAIController__get_IsWalking(Controllers_BaseAIController_o 
   byte bVar1;
   Characters_BaseCharacter_o *pCVar2;
   
-  if (Il2CppMethodInitialized_184346a7e == '\0') {
+  if (Il2CppMethodInitialized_0754744a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
-    Il2CppMethodInitialized_184346a7e = '\x01';
+    Il2CppMethodInitialized_0754744a = '\x01';
   }
   pCVar2 = (__this->fields)._character;
   if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
     bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
     if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human))
-    {
-      return (bool)*(undefined1 *)((longlong)&(*(uint64_t *)((char *)pCVar2 + 0x230)) + 4);
+       ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human)) {
+      return *(char *)((long)&(*(uint64_t *)((char *)pCVar2 + 0x238)) + 4) != '\0';
     }
   }
   bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-  if ((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
-     ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-      (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
-    return *(char *)&(*(uint64_t *)((char *)__this + 0xc0)) == '\0';
+  if ((__this->klass->_2).typeHierarchyDepth < bVar1) {
+    return false;
+  }
+  if ((__this->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+      (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController) {
+    return *(char *)&(*(uint32_t *)((char *)__this + 0xd0)) == '\0';
   }
   return false;
 }
@@ -113,7 +146,7 @@ bool Controllers_BaseAIController__get_IsWalking(Controllers_BaseAIController_o 
 
 // Controllers.BaseAIController$$set_IsWalking
 // il2cpp: void Controllers_BaseAIController__set_IsWalking (Controllers_BaseAIController_o* __this, bool value, const MethodInfo* method);
-// 0x1820f2860
+// 0x5b9b700
 
 void Controllers_BaseAIController__set_IsWalking
                (Controllers_BaseAIController_o *__this,bool value,MethodInfo *method)
@@ -122,50 +155,47 @@ void Controllers_BaseAIController__set_IsWalking
   byte bVar1;
   Characters_BaseCharacter_o *pCVar2;
   
-  if (Il2CppMethodInitialized_184346a7f == '\0') {
+  if (Il2CppMethodInitialized_0754744b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
-    Il2CppMethodInitialized_184346a7f = '\x01';
+    Il2CppMethodInitialized_0754744b = '\x01';
   }
   pCVar2 = (__this->fields)._character;
   if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
     bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
     if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human))
-    {
-      *(bool *)((longlong)&(*(uint64_t *)((char *)pCVar2 + 0x230)) + 4) = value;
+       ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human)) {
+      *(bool *)((long)&(*(uint64_t *)((char *)pCVar2 + 0x238)) + 4) = value;
       return;
     }
   }
   bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-  if ((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
-     ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+  if (((__this->klass->_2).typeHierarchyDepth < bVar1) ||
+     ((__this->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
       (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
-    *(bool *)&(*(uint64_t *)((char *)__this + 0xc0)) = !value;
-    pCVar2 = (__this->fields)._character;
-    if (pCVar2 == (Characters_BaseCharacter_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
-    if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-        (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
-      *(bool *)&(*(uint64_t *)((char *)pCVar2 + 0x110)) = value;
-      return;
-    }
-    il2cpp_codegen_raise_invalid_cast_exception(pCVar2);
+    return;
   }
+  *(bool *)&(*(uint32_t *)((char *)__this + 0xd0)) = !value;
+  if (pCVar2 == (Characters_BaseCharacter_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+  if (((pCVar2->klass->_2).typeHierarchyDepth < bVar1) ||
+     ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
+    il2cpp_codegen_raise_invalid_cast_exception();
+  }
+  (*(uint8_t *)((char *)pCVar2 + 0x128)) = value;
   return;
 }
 
 
 // Controllers.BaseAIController$$get_UsePathfinding
 // il2cpp: bool Controllers_BaseAIController__get_UsePathfinding (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x180f1d480
+// 0x5b9b800
 
-bool
-Controllers_BaseAIController__get_UsePathfinding(Controllers_BaseAIController_o* __this, MethodInfo* method)
+bool Controllers_BaseAIController__get_UsePathfinding
+               (Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._usePathfinding;
@@ -174,7 +204,7 @@ Controllers_BaseAIController__get_UsePathfinding(Controllers_BaseAIController_o*
 
 // Controllers.BaseAIController$$set_UsePathfinding
 // il2cpp: void Controllers_BaseAIController__set_UsePathfinding (Controllers_BaseAIController_o* __this, bool value, const MethodInfo* method);
-// 0x1820f2980
+// 0x5b9b810
 
 void Controllers_BaseAIController__set_UsePathfinding
                (Controllers_BaseAIController_o *__this,bool value,MethodInfo *method)
@@ -183,13 +213,14 @@ void Controllers_BaseAIController__set_UsePathfinding
   UnityEngine_Behaviour_o *__this_00;
   bool bVar1;
   UnityEngine_Object_o *pUVar2;
+  MethodInfo *in_RCX;
   
-  if (Il2CppMethodInitialized_184346a80 == '\0') {
+  if (Il2CppMethodInitialized_0754744c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider)
     ;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346a80 = '\x01';
+    Il2CppMethodInitialized_0754744c = '\x01';
   }
   (__this->fields)._usePathfinding = value;
   if (value) {
@@ -207,15 +238,15 @@ void Controllers_BaseAIController__set_UsePathfinding
         pUVar2 = (UnityEngine_Object_o *)
                  UnityEngine_Component__GetComponent_object_
                            ((UnityEngine_Component_o *)__this,
-                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider
-                           );
+                            (MethodInfo_34B0830 *)
+                            MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider);
         if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
           il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
         bVar1 = UnityEngine_Object__op_Inequality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
         if (bVar1) {
           Controllers_BaseAIController__CreateAgent
-                    (__this,(UnityEngine_CapsuleCollider_o *)pUVar2,10.0,2,(MethodInfo *)0x0);
+                    (__this,(UnityEngine_CapsuleCollider_o *)pUVar2,10.0,2,in_RCX);
         }
       }
     }
@@ -231,6 +262,7 @@ void Controllers_BaseAIController__set_UsePathfinding
       ThrowNullReferenceException();
     }
     UnityEngine_Behaviour__set_enabled(__this_00,value,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -238,15 +270,15 @@ void Controllers_BaseAIController__set_UsePathfinding
 
 // Controllers.BaseAIController$$GetTarget
 // il2cpp: Characters_ITargetable_o* Controllers_BaseAIController__GetTarget (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f18a0
+// 0x5b9bbc0
 
-Characters_ITargetable_o*
-Controllers_BaseAIController__GetTarget(Controllers_BaseAIController_o* __this, MethodInfo* method)
+Characters_ITargetable_o *
+Controllers_BaseAIController__GetTarget(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   bool bVar1;
   
-  bVar1 = Controllers_BaseAIController__IsValidTarget((__this->fields)._enemy,(MethodInfo *)0x0);
+  bVar1 = Controllers_BaseAIController__IsValidTarget((__this->fields)._enemy,method);
   if (bVar1) {
     return (__this->fields)._enemy;
   }
@@ -256,71 +288,139 @@ Controllers_BaseAIController__GetTarget(Controllers_BaseAIController_o* __this, 
 
 // Controllers.BaseAIController$$IsValidTarget
 // il2cpp: bool Controllers_BaseAIController__IsValidTarget (Characters_ITargetable_o* target, const MethodInfo* method);
-// 0x1820f1a00
+// 0x5b9bbe0
 
 bool Controllers_BaseAIController__IsValidTarget(Characters_ITargetable_o *target,MethodInfo *method)
 
 {
   byte bVar1;
-  bool bVar2;
-  void *pvVar3;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  bool bVar3;
+  Characters_ITargetable_c *pCVar4;
+  VirtualInvokeData *pVVar5;
+  ulong uVar6;
+  long lVar7;
   
-  if (Il2CppMethodInitialized_184346a81 == '\0') {
+  if (Il2CppMethodInitialized_0754744d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_ITargetable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346a81 = '\x01';
+    Il2CppMethodInitialized_0754744d = '\x01';
   }
   if (target == (Characters_ITargetable_o *)0x0) {
     return false;
   }
+  pCVar4 = target->klass;
   bVar1 = (TypeInfo_UnityEngine_Object->_2).typeHierarchyDepth;
-  if ((bVar1 <= (target->klass->_2).typeHierarchyDepth) &&
-     ((target->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == (Il2CppClass *)TypeInfo_UnityEngine_Object))
-  {
+  if ((bVar1 <= (pCVar4->_2).typeHierarchyDepth) &&
+     ((pCVar4->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_UnityEngine_Object)) {
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar2 = UnityEngine_Object__op_Inequality
+    bVar3 = UnityEngine_Object__op_Inequality
                       ((UnityEngine_Object_o *)target,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (!bVar2) {
+    if (!bVar3) {
       return false;
     }
+    pCVar4 = target->klass;
   }
-  pvVar3 = InterfaceInvoker0_Invoke(2,(Il2CppClass *)TypeInfo_Characters_ITargetable,(Il2CppObject *)target);
-  return SUB81(pvVar3,0);
+  uVar6 = (ulong)(pCVar4->_2).interface_offsets_count;
+  if (uVar6 != 0) {
+    pIVar2 = (pCVar4->_1).interfaceOffsets;
+    lVar7 = 0;
+    do {
+      if (*(Characters_ITargetable_c **)((long)&pIVar2->interfaceType + lVar7) ==
+          TypeInfo_Characters_ITargetable) {
+        pVVar5 = pCVar4->vtable + (*(int *)((long)&pIVar2->offset + lVar7) + 2);
+        goto label_05b9bcc9;
+      }
+      lVar7 = lVar7 + 0x10;
+    } while (uVar6 * 0x10 != lVar7);
+  }
+  pVVar5 = GetInterfaceInvokeDataFromVTableSlowPath
+                     ((Il2CppObject *)target,(Il2CppClass *)TypeInfo_Characters_ITargetable,2);
+label_05b9bcc9:
+  bVar3 = (*pVVar5->methodPtr)((Il2CppObject *)target,pVVar5->method);
+  return bVar3;
 }
 
 
 // Controllers.BaseAIController$$SetTarget
 // il2cpp: void Controllers_BaseAIController__SetTarget (Controllers_BaseAIController_o* __this, Characters_ITargetable_o* target, float focusDuration, const MethodInfo* method);
-// 0x1820f2050
+// 0x5b9bce0
 
-void
-Controllers_BaseAIController__SetTarget(Controllers_BaseAIController_o* __this, Characters_ITargetable_o* target, float focusDuration, MethodInfo* method)
+void Controllers_BaseAIController__SetTarget
+               (Controllers_BaseTitanAIController_o *__this,Characters_ITargetable_o *enemy,float focusTime,
+               MethodInfo *method)
 
 {
   byte bVar1;
-  Controllers_BaseTitanAIController_c *pCVar2;
+  Characters_BaseCharacter_o *pCVar2;
+  Characters_BaseTitan_o *pCVar3;
+  float fVar4;
   
-  if (Il2CppMethodInitialized_184346a82 == '\0') {
+  if (Il2CppMethodInitialized_0754744e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
-    Il2CppMethodInitialized_184346a82 = '\x01';
+    Il2CppMethodInitialized_0754744e = '\x01';
   }
   if (enemy == (Characters_ITargetable_o *)0x0) {
-    Controllers_BaseAIController__ClearTarget((Controllers_BaseAIController_o *)__this,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_0754744f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+      Il2CppMethodInitialized_0754744f = '\x01';
+    }
+    (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+    (__this->fields)._focusTimeLeft = 0.0;
+    pCVar2 = (__this->fields)._character;
+    if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
+      bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+      if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
+         ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan)
+         ) {
+        (*(uint64_t *)((char *)pCVar2 + 0x168)) = (System_String_o *)0x0;
+        Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x168)));
+        return;
+      }
+    }
   }
   else {
     (__this->fields)._automaticTargeting = true;
-    Controllers_BaseAIController__AssignTarget
-              ((Controllers_BaseAIController_o *)__this,enemy,focusTime,(MethodInfo *)0x0);
-    pCVar2 = __this->klass;
+    if (Il2CppMethodInitialized_0754744f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+      Il2CppMethodInitialized_0754744f = '\x01';
+    }
+    (__this->fields)._enemy = enemy;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+    if ((focusTime == 0.0) && (!NAN(focusTime))) {
+      focusTime = (__this->fields).FocusTime;
+    }
+    (__this->fields)._focusTimeLeft = focusTime;
+    pCVar2 = (__this->fields)._character;
+    if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
+      bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+      if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
+         ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan)
+         ) {
+        (*(uint64_t *)((char *)pCVar2 + 0x168)) = (System_String_o *)enemy;
+        Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x168)));
+      }
+    }
     (__this->fields)._idleTimeLeft = 0.0;
     bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-    if ((((bVar1 <= (pCVar2->_2).typeHierarchyDepth) &&
-         ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-          (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) &&
-        (__this != (Controllers_BaseTitanAIController_o *)0x0)) && ((__this->fields).AIState == 7)) {
-      Controllers_BaseTitanAIController__Idle(__this,(MethodInfo *)0x0);
+    if (((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
+        ((__this->klass->_2).typeHierarchy[(ulong)bVar1 - 1] ==
+         (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) && ((__this->fields).AIState == 7)) {
+      (__this->fields)._lowMovementSpeedTime = 0.0;
+      (__this->fields)._recoveryTimeLeft = 0.0;
+      (__this->fields)._avoidAngle = 0.0;
+      (__this->fields).AIState = 0;
+      pCVar3 = (__this->fields)._titan;
+      if (pCVar3 == (Characters_BaseTitan_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      (pCVar3->fields).HasDirection = false;
+      (pCVar3->fields).IsSit = false;
+      fVar4 = UnityEngine_Random__Range(4.0,8.0,(MethodInfo *)0x0);
+      (__this->fields)._stateTimeLeft = fVar4;
       return;
     }
   }
@@ -330,7 +430,7 @@ Controllers_BaseAIController__SetTarget(Controllers_BaseAIController_o* __this, 
 
 // Controllers.BaseAIController$$AssignTarget
 // il2cpp: void Controllers_BaseAIController__AssignTarget (Controllers_BaseAIController_o* __this, Characters_ITargetable_o* target, float focusDuration, const MethodInfo* method);
-// 0x1820f04f0
+// 0x5b9bef0
 
 void Controllers_BaseAIController__AssignTarget
                (Controllers_BaseAIController_o *__this,Characters_ITargetable_o *target,float focusDuration,
@@ -339,28 +439,31 @@ void Controllers_BaseAIController__AssignTarget
 {
   byte bVar1;
   Characters_BaseCharacter_o *pCVar2;
+  float fVar3;
   
-  if (Il2CppMethodInitialized_184346a83 == '\0') {
+  if (Il2CppMethodInitialized_0754744f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
-    Il2CppMethodInitialized_184346a83 = '\x01';
+    Il2CppMethodInitialized_0754744f = '\x01';
   }
   (__this->fields)._enemy = target;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy,target);
-  if (target == (Characters_ITargetable_o *)0x0) {
-    focusDuration = 0.0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+  fVar3 = 0.0;
+  if (target != (Characters_ITargetable_o *)0x0) {
+    fVar3 = focusDuration;
+    if ((focusDuration == 0.0) && (!NAN(focusDuration))) {
+      fVar3 = (__this->fields).FocusTime;
+    }
   }
-  else if (focusDuration == 0.0) {
-    focusDuration = (__this->fields).FocusTime;
-  }
-  (__this->fields)._focusTimeLeft = focusDuration;
+  (__this->fields)._focusTimeLeft = fVar3;
   pCVar2 = (__this->fields)._character;
   if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
     bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
     if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-        (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
-      (*(uint64_t *)((char *)pCVar2 + 0x150)) = (System_String_o *)target;
-      Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x150)),target);
+       ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan))
+    {
+      (*(uint64_t *)((char *)pCVar2 + 0x168)) = (System_String_o *)target;
+      Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x168)));
+      return;
     }
   }
   return;
@@ -369,7 +472,7 @@ void Controllers_BaseAIController__AssignTarget
 
 // Controllers.BaseAIController$$ClearTarget
 // il2cpp: void Controllers_BaseAIController__ClearTarget (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f0740
+// 0x5b9b550
 
 void Controllers_BaseAIController__ClearTarget(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
@@ -377,21 +480,21 @@ void Controllers_BaseAIController__ClearTarget(Controllers_BaseAIController_o *_
   byte bVar1;
   Characters_BaseCharacter_o *pCVar2;
   
-  if (Il2CppMethodInitialized_184346a83 == '\0') {
+  if (Il2CppMethodInitialized_0754744f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
-    Il2CppMethodInitialized_184346a83 = '\x01';
+    Il2CppMethodInitialized_0754744f = '\x01';
   }
   (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
   (__this->fields)._focusTimeLeft = 0.0;
   pCVar2 = (__this->fields)._character;
   if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
     bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
     if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-        (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
-      (*(uint64_t *)((char *)pCVar2 + 0x150)) = (System_String_o *)0x0;
-      Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x150)),(void *)0x0);
+       ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan))
+    {
+      (*(uint64_t *)((char *)pCVar2 + 0x168)) = (System_String_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar2 + 0x168)));
       return;
     }
   }
@@ -401,78 +504,94 @@ void Controllers_BaseAIController__ClearTarget(Controllers_BaseAIController_o *_
 
 // Controllers.BaseAIController$$SetDetectRange
 // il2cpp: void Controllers_BaseAIController__SetDetectRange (Controllers_BaseAIController_o* __this, float range, const MethodInfo* method);
-// 0x1820f2030
+// 0x5b9c020
 
 void Controllers_BaseAIController__SetDetectRange
                (Controllers_BaseAIController_o *__this,float range,MethodInfo *method)
 
 {
-  if ((__this->fields).DetectRange != range) {
-    (__this->fields).DetectRange = range;
-    (__this->fields)._updateEnemyTimeLeft = 0.0;
+  float fVar1;
+  
+  fVar1 = (__this->fields).DetectRange;
+  if ((fVar1 == range) && (!NAN(fVar1) && !NAN(range))) {
+    return;
   }
+  (__this->fields).DetectRange = range;
+  (__this->fields)._updateEnemyTimeLeft = 0.0;
   return;
 }
 
 
 // Controllers.BaseAIController$$GetNearestEnemy
 // il2cpp: Characters_ITargetable_o* Controllers_BaseAIController__GetNearestEnemy (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f1150
-// eh: try 0x1820f13b0..0x1820f14ce -> pad 0x183320150 catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f14df: mov rdx, qword ptr [rip + 0x1f9a7c2]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_Dispose
-// asm:   0x1820f14e6: mov rcx, qword ptr [rsp + 0x68]
-// asm:   0x1820f14eb: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
-// asm:   0x1820f14f0: mov rcx, qword ptr [rsp + 0x60]
-// asm:   0x1820f14f5: test rcx, rcx
-// asm:   0x1820f14f8: jne 0x1820f1543
-// asm:   0x1820f14fa: mov rsi, qword ptr [rsp + 0x110]
-// asm:   0x1820f1543: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183320150: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183320155: push rbp
-// asm:   0x183320156: sub rsp, 0x20
-// asm:   0x18332015a: mov rbp, rdx
-// asm:   0x18332015d: mov rax, qword ptr [rbp + 0x20]
-// asm:   0x183320161: mov rcx, qword ptr [rax]
-// asm:   0x183320164: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x183320168: movabs rax, 0
-// asm:   0x183320172: add rsp, 0x20
-// asm:   0x183320176: pop rbp
-// asm:   0x183320177: ret 
+// 0x5b9c040
+// eh: try 0x5b9c294..0x5b9c3e2 -> pad 0x5b9c3ef (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x5b9c407..0x5b9c40c -> pad 0x5b9c431 cleanup
+// eh: try 0x5b9c434..0x5b9c43e -> pad 0x5b9c446 catch (...) [compiler noexcept guard]
+// asm: 32 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9c1b9: jmp 0x5b9c3e2
+// asm:   0x5b9c26d: movss dword ptr [rsp + 0x10], xmm0
+// asm:   0x5b9c273: mov r14, rbx
+// asm:   0x5b9c276: jmp 0x5b9c290
+// asm:   0x5b9c2ea: jmp 0x5b9c308
+// asm:   0x5b9c3e7: jmp 0x5b9c3ef
+// asm:   0x5b9c3e9: jmp 0x5b9c3ef
+// asm:   0x5b9c3eb: jmp 0x5b9c3ef
+// asm:   0x5b9c3ed: jmp 0x5b9c3ef
+// asm:   0x5b9c3ef: mov rbx, rax
+// asm:   0x5b9c3f2: cmp edx, 1
+// asm:   0x5b9c3f5: jne 0x5b9c434
+// asm:   0x5b9c3f7: mov rdi, rbx
+// asm:   0x5b9c3fa: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5b9c3ff: mov rbx, qword ptr [rax]
+// asm:   0x5b9c402: mov qword ptr [rsp + 0x48], rbx
+// asm:   0x5b9c407: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5b9c40c: lea rax, [rip + 0x16f1ff5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_Dispose
+// asm:   0x5b9c413: mov rsi, qword ptr [rax]
+// asm:   0x5b9c416: lea rdi, [rsp + 0x70]
+// asm:   0x5b9c41b: call 0x4d45c40  ; System_Collections_Generic_List_Enumerator_object___Dispose()
+// asm:   0x5b9c420: test rbx, rbx
+// asm:   0x5b9c423: je 0x5b9c36d
+// asm:   0x5b9c429: mov rdi, rbx
+// asm:   0x5b9c42c: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x5b9c431: mov rbx, rax
+// asm:   0x5b9c434: lea rdi, [rsp + 0x48]
+// asm:   0x5b9c439: call 0x2fd83e0  ; il2cpp_runtime_helper_02fd83e0()
+// asm:   0x5b9c43e: mov rdi, rbx
+// asm:   0x5b9c441: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5b9c446: mov rdi, rax
+// asm:   0x5b9c449: call 0x2ab61e0  ; __clang_call_terminate()
 
 Characters_ITargetable_o *
 Controllers_BaseAIController__GetNearestEnemy(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  byte bVar4;
-  Utility_BaseComponentCache_o *pUVar5;
-  UnityEngine_Transform_o *pUVar6;
-  Characters_BaseDetection_o *pCVar7;
+  uint32_t uVar1;
+  Utility_BaseComponentCache_o *pUVar2;
+  UnityEngine_Transform_o *pUVar3;
+  Characters_BaseDetection_o *pCVar4;
   System_Collections_Generic_List_MapTargetable__o *__this_00;
+  undefined4 uVar5;
   Il2CppObject *__this_01;
-  bool bVar8;
-  UnityEngine_Vector3_o *pUVar9;
-  void *pvVar10;
-  Characters_BaseCharacter_o *pCVar11;
-  double dVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  Characters_BaseCharacter_o *local_res8;
-  float local_d8;
-  float local_d4;
-  float local_d0;
-  UnityEngine_Vector3_Fields local_c8;
-  UnityEngine_Vector3_o local_b8;
-  undefined1 local_a8 [16];
-  Characters_BaseCharacter_o *local_98;
-  System_Collections_Generic_List_Enumerator_object__o local_90 [5];
+  bool bVar6;
+  Characters_BaseCharacter_o *pCVar7;
+  MethodInfo *pMVar8;
+  float fVar9;
+  float fVar10;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dd;
+  float fVar11;
+  float fVar12;
+  UnityEngine_Vector3_o UVar13;
+  UnityEngine_Vector3_o UVar14;
+  float local_b8;
+  float fStack_b4;
+  undefined1 local_70 [16];
+  Characters_BaseCharacter_o *local_60;
+  undefined1 local_58 [16];
+  System_Collections_Generic_List_Enumerator_object__o local_48;
   
-  if (Il2CppMethodInitialized_184346a84 == '\0') {
+  if (Il2CppMethodInitialized_07547450 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_Dispose);
     il2cpp_codegen_initialize_runtime_metadata
@@ -482,61 +601,65 @@ Controllers_BaseAIController__GetNearestEnemy(Controllers_BaseAIController_o *__
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_MapTargetable_GetEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
-    Il2CppMethodInitialized_184346a84 = '\x01';
+    Il2CppMethodInitialized_07547450 = '\x01';
   }
-  local_90[0].fields._list = (System_Collections_Generic_List_T__o *)0x0;
-  local_90[0].fields._index = 0;
-  local_90[0].fields._version = 0;
-  local_90[0].fields._current = (Il2CppObject *)0x0;
-  pCVar11 = (__this->fields)._character;
-  if (((pCVar11 != (Characters_BaseCharacter_o *)0x0) &&
-      (pUVar5 = (pCVar11->fields).Cache, pUVar5 != (Utility_BaseComponentCache_o *)0x0)) &&
-     (pUVar6 = (pUVar5->fields).Transform, pUVar6 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar9 = UnityEngine_Transform__get_position((UnityEngine_Vector3_o *)&local_c8,pUVar6,(MethodInfo *)0x0);
-    pCVar11 = (__this->fields)._character;
-    if (pCVar11 != (Characters_BaseCharacter_o *)0x0) {
-      fVar1 = (pUVar9->fields).x;
-      fVar2 = (pUVar9->fields).y;
-      fVar3 = (pUVar9->fields).z;
-      fVar16 = (__this->fields).DetectRange;
-      local_res8 = (Characters_BaseCharacter_o *)0x0;
-      pCVar7 = (pCVar11->fields).Detection;
-      pCVar11 = (Characters_BaseCharacter_o *)0x0;
-      if (pCVar7 != (Characters_BaseDetection_o *)0x0) {
-        pCVar11 = (pCVar7->fields).ClosestEnemy;
+  pCVar7 = (__this->fields)._character;
+  if (((pCVar7 != (Characters_BaseCharacter_o *)0x0) &&
+      (pUVar2 = (pCVar7->fields).Cache, pUVar2 != (Utility_BaseComponentCache_o *)0x0)) &&
+     (pUVar3 = (pUVar2->fields).Transform, pUVar3 != (UnityEngine_Transform_o *)0x0)) {
+    pMVar8 = (MethodInfo *)0x0;
+    UVar13 = UnityEngine_Transform__get_position(pUVar3,(MethodInfo *)0x0);
+    local_58._8_4_ = extraout_XMM0_Dc;
+    local_58._0_8_ = UVar13.fields._0_8_;
+    local_58._12_4_ = extraout_XMM0_Dd;
+    pCVar7 = (__this->fields)._character;
+    if (pCVar7 != (Characters_BaseCharacter_o *)0x0) {
+      fVar9 = (__this->fields).DetectRange;
+      pCVar4 = (pCVar7->fields).Detection;
+      if (pCVar4 == (Characters_BaseDetection_o *)0x0) {
+        pCVar7 = (Characters_BaseCharacter_o *)0x0;
+        bVar6 = Controllers_BaseAIController__IsValidTarget((Characters_ITargetable_o *)0x0,pMVar8);
+        if (bVar6) goto label_05b9c3e2;
       }
-      bVar8 = Controllers_BaseAIController__IsValidTarget
-                        ((Characters_ITargetable_o *)pCVar11,(MethodInfo *)0x0);
-      if (bVar8) {
-        if (((pCVar11 == (Characters_BaseCharacter_o *)0x0) ||
-            (pUVar5 = (pCVar11->fields).Cache, pUVar5 == (Utility_BaseComponentCache_o *)0x0)) ||
-           (pUVar6 = (pUVar5->fields).Transform, pUVar6 == (UnityEngine_Transform_o *)0x0))
-        goto label_1820f153d;
-        pUVar9 = UnityEngine_Transform__get_position
-                           ((UnityEngine_Vector3_o *)&local_c8,pUVar6,(MethodInfo *)0x0);
-        fVar15 = (pUVar9->fields).x;
-        fVar13 = (pUVar9->fields).y;
-        fVar14 = (pUVar9->fields).z;
-        if (Il2CppMethodInitialized_18433dee7 == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
-          Il2CppMethodInitialized_18433dee7 = '\x01';
-        }
-        fVar15 = fVar15 - fVar1;
-        fVar13 = fVar13 - fVar2;
-        fVar14 = fVar14 - fVar3;
-        if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
-          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
-        }
-        dVar12 = (double)(fVar14 * fVar14 + fVar13 * fVar13 + fVar15 * fVar15);
-        if (dVar12 < 0.0) {
-          dVar12 = sqrt(dVar12);
+      else {
+        pCVar7 = (pCVar4->fields).ClosestEnemy;
+        bVar6 = Controllers_BaseAIController__IsValidTarget((Characters_ITargetable_o *)pCVar7,pMVar8);
+        if (bVar6) {
+          if (((pCVar7 == (Characters_BaseCharacter_o *)0x0) ||
+              (pUVar2 = (pCVar7->fields).Cache, pUVar2 == (Utility_BaseComponentCache_o *)0x0)) ||
+             (pUVar3 = (pUVar2->fields).Transform, pUVar3 == (UnityEngine_Transform_o *)0x0))
+          goto label_05b9c3e2;
+          UVar14 = UnityEngine_Transform__get_position(pUVar3,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+            Il2CppMethodInitialized_0753e7b7 = '\x01';
+            uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+          }
+          else {
+            uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+          }
+          if (uVar1 == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+          }
+          fVar10 = UVar14.fields.y - (float)local_58._4_4_;
+          fVar11 = UVar14.fields.z - UVar13.fields.z;
+          fVar12 = UVar14.fields.x - (float)local_58._0_4_;
+          fVar10 = fVar10 * fVar10 + fVar12 * fVar12 + fVar11 * fVar11;
+          if (fVar10 < 0.0) {
+            fVar10 = sqrtf(fVar10);
+          }
+          else {
+            fVar10 = SQRT(fVar10);
+          }
+          if (fVar10 < fVar9) {
+            fVar9 = fVar10;
+          }
+          else {
+            pCVar7 = (Characters_BaseCharacter_o *)0x0;
+          }
         }
         else {
-          dVar12 = SQRT(dVar12);
-        }
-        if ((float)dVar12 < fVar16) {
-          fVar16 = (float)dVar12;
-          local_res8 = pCVar11;
+          pCVar7 = (Characters_BaseCharacter_o *)0x0;
         }
       }
       if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
@@ -544,537 +667,584 @@ Controllers_BaseAIController__GetNearestEnemy(Controllers_BaseAIController_o *__
       }
       __this_00 = TypeInfo_Map_MapLoader->static_fields->MapTargetables;
       if (__this_00 != (System_Collections_Generic_List_MapTargetable__o *)0x0) {
-        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)local_a8,
-                   (System_Collections_Generic_List_T__o *)__this_00,
-                   (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_MapTargetable_GetEnumerator
-                  );
-        local_90[0].fields._list = (System_Collections_Generic_List_T__o *)local_a8._0_8_;
-        local_90[0].fields._index = local_a8._8_4_;
-        local_90[0].fields._version = local_a8._12_4_;
-        local_90[0].fields._current = (Il2CppObject *)local_98;
-        local_a8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
-        local_a8._8_8_ = local_90;
-label_1820f13b0:
-        do {
-          bVar8 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                            (local_90,(MethodInfo_153A2A0 *)
-                                      MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_MoveNext
-                            );
-          __this_01 = local_90[0].fields._current;
-          if (!bVar8) {
-            System_Collections_Generic_List_Enumerator_object___Dispose
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90,
-                       MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_Dispose);
-            return (Characters_ITargetable_o *)local_res8;
+        System_Collections_Generic_List_object___GetEnumerator
+                  ((System_Collections_Generic_List_Enumerator_T__o *)local_70,
+                   (System_Collections_Generic_List_object__o *)__this_00,
+                   (MethodInfo_395E050 *)
+                   MethodInfo_System_Collections_Generic_List_MapTargetable_GetEnumerator);
+        local_48.fields._current = (Il2CppObject *)local_60;
+        local_48.fields._list = (System_Collections_Generic_List_T__o *)local_70._0_8_;
+        local_48.fields._index = local_70._8_4_;
+        local_48.fields._version = local_70._12_4_;
+        local_70._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+        uVar5 = local_58._0_4_;
+        local_70._8_8_ = &local_48;
+        while( true ) {
+          do {
+            pMVar8 = MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_MoveNext;
+            bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                              (&local_48,
+                               (MethodInfo_4C45C50 *)
+                               MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_MoveNext);
+            __this_01 = local_48.fields._current;
+            if (!bVar6) {
+              System_Collections_Generic_List_Enumerator_object___Dispose
+                        (&local_48,
+                         (MethodInfo_4C45C40 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_MapTargetable_Dispose);
+              return (Characters_ITargetable_o *)pCVar7;
+            }
+            bVar6 = Controllers_BaseAIController__IsValidTarget
+                              ((Characters_ITargetable_o *)local_48.fields._current,pMVar8);
+          } while (!bVar6);
+          if ((Characters_BaseCharacter_o *)__this_01 == (Characters_BaseCharacter_o *)0x0) break;
+          UVar14 = Map_MapTargetable__GetPosition((Map_MapTargetable_o *)__this_01,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+            Il2CppMethodInitialized_0753e7b7 = '\x01';
+            uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
           }
-          if (Il2CppMethodInitialized_184346a81 == '\0') {
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_ITargetable);
-            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-            Il2CppMethodInitialized_184346a81 = '\x01';
+          else {
+            uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
           }
-        } while ((Characters_BaseCharacter_o *)__this_01 == (Characters_BaseCharacter_o *)0x0);
-        bVar4 = (TypeInfo_UnityEngine_Object->_2).typeHierarchyDepth;
-        if ((bVar4 <= (((Characters_BaseCharacter_c *)__this_01->klass)->_2).typeHierarchyDepth) &&
-           ((((Characters_BaseCharacter_c *)__this_01->klass)->_2).typeHierarchy[(ulonglong)bVar4 - 1] ==
-            (Il2CppClass *)TypeInfo_UnityEngine_Object)) goto code_r0x0001820f1429;
-        goto label_1820f144c;
+          if (uVar1 == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+          }
+          local_b8 = UVar14.fields.x;
+          fStack_b4 = UVar14.fields.y;
+          fVar10 = UVar14.fields.z - UVar13.fields.z;
+          fVar10 = (fStack_b4 - (float)local_58._4_4_) * (fStack_b4 - (float)local_58._4_4_) +
+                   (local_b8 - (float)uVar5) * (local_b8 - (float)uVar5) + fVar10 * fVar10;
+          if (fVar10 < 0.0) {
+            fVar9 = sqrtf(fVar10);
+            pCVar7 = (Characters_BaseCharacter_o *)__this_01;
+          }
+          else if (SQRT(fVar10) < fVar9) {
+            fVar9 = SQRT(fVar10);
+            pCVar7 = (Characters_BaseCharacter_o *)__this_01;
+          }
+        }
+        ThrowNullReferenceException();
       }
     }
   }
-label_1820f153d:
+label_05b9c3e2:
   ThrowNullReferenceException();
-code_r0x0001820f1429:
-  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
-  }
-  bVar8 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
-label_1820f144c:
-    pvVar10 = InterfaceInvoker0_Invoke(2,(Il2CppClass *)TypeInfo_Characters_ITargetable,__this_01);
-    if ((char)pvVar10 != '\0') {
-      pUVar9 = Map_MapTargetable__GetPosition(&local_b8,(Map_MapTargetable_o *)__this_01,(MethodInfo *)0x0);
-      local_c8.x = (pUVar9->fields).x;
-      local_c8.y = (pUVar9->fields).y;
-      local_c8.z = (pUVar9->fields).z;
-      local_d8 = fVar1;
-      local_d4 = fVar2;
-      local_d0 = fVar3;
-      fVar15 = (float)il2cpp_runtime_helper_180562c80(&local_c8,&local_d8,0);
-      if (fVar15 < fVar16) {
-        local_res8 = (Characters_BaseCharacter_o *)__this_01;
-        fVar16 = fVar15;
-      }
-    }
-  }
-  goto label_1820f13b0;
 }
 
 
 // Controllers.BaseAIController$$TargetNearestEnemy
 // il2cpp: void Controllers_BaseAIController__TargetNearestEnemy (Controllers_BaseAIController_o* __this, float focusDuration, const MethodInfo* method);
-// 0x1820f2160
+// 0x5b9c450
 
 void Controllers_BaseAIController__TargetNearestEnemy
                (Controllers_BaseAIController_o *__this,float focusDuration,MethodInfo *method)
 
 {
-  byte bVar1;
-  Controllers_BaseAIController_c *pCVar2;
-  Characters_ITargetable_o *target;
+  Characters_ITargetable_o *enemy;
+  MethodInfo *method_00;
   
   (__this->fields)._automaticTargeting = true;
-  target = Controllers_BaseAIController__GetNearestEnemy(__this,(MethodInfo *)0x0);
-  if (Il2CppMethodInitialized_184346a82 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
-    Il2CppMethodInitialized_184346a82 = '\x01';
-  }
-  if (target == (Characters_ITargetable_o *)0x0) {
-    Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
-  }
-  else {
-    (__this->fields)._automaticTargeting = true;
-    Controllers_BaseAIController__AssignTarget(__this,target,focusDuration,(MethodInfo *)0x0);
-    pCVar2 = __this->klass;
-    (__this->fields)._idleTimeLeft = 0.0;
-    bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-    if ((((bVar1 <= (pCVar2->_2).typeHierarchyDepth) &&
-         ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-          (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) &&
-        (__this != (Controllers_BaseAIController_o *)0x0)) && (*(int *)&(*(uint64_t *)((char *)__this + 0x98)) == 7)) {
-      Controllers_BaseTitanAIController__Idle((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0)
-      ;
-      return;
-    }
-  }
+  enemy = Controllers_BaseAIController__GetNearestEnemy(__this,method);
+  Controllers_BaseAIController__SetTarget
+            ((Controllers_BaseTitanAIController_o *)__this,enemy,focusDuration,method_00);
   return;
 }
 
 
 // Controllers.BaseAIController$$UpdateTargeting
 // il2cpp: void Controllers_BaseAIController__UpdateTargeting (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f2380
+// 0x5b9c480
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9c6bc: jmp 0x5b9c594
 
 void Controllers_BaseAIController__UpdateTargeting(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
+  Characters_ITargetable_o **targetAddress;
   float *pfVar1;
-  undefined8 uVar2;
-  ushort uVar3;
-  Il2CppObject *obj;
+  byte bVar2;
+  char cVar3;
   Characters_BaseCharacter_o *pCVar4;
-  Il2CppClass *pIVar5;
-  System_String_o *a;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar6;
-  Utility_BaseComponentCache_o *pUVar7;
+  System_String_o *pSVar5;
+  Utility_BaseComponentCache_o *pUVar6;
   UnityEngine_Transform_o *__this_00;
-  bool bVar8;
-  Il2CppObject *target;
-  longlong lVar9;
-  VirtualInvokeData *pVVar10;
-  System_String_o *b;
-  UnityEngine_Vector3_o *pUVar11;
-  undefined8 *puVar12;
-  ushort uVar13;
-  float fVar14;
-  float fVar15;
-  undefined8 local_38;
-  undefined4 local_30;
-  UnityEngine_Vector3_Fields local_28 [2];
+  bool bVar7;
+  System_String_o *pSVar8;
+  Characters_ITargetable_c *method_00;
+  float fVar9;
+  undefined4 uVar10;
+  float fVar11;
+  UnityEngine_Vector3_o UVar12;
+  float local_38;
   
-  if (Il2CppMethodInitialized_184346a85 == '\0') {
+  if (Il2CppMethodInitialized_07547451 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_ITargetable);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
-    Il2CppMethodInitialized_184346a85 = '\x01';
+    Il2CppMethodInitialized_07547451 = '\x01';
   }
-  fVar15 = (__this->fields)._focusTimeLeft;
-  fVar14 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._focusTimeLeft = fVar15 - fVar14;
-  fVar15 = (__this->fields)._updateEnemyTimeLeft;
-  fVar14 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._updateEnemyTimeLeft = fVar15 - fVar14;
-  bVar8 = Controllers_BaseAIController__IsValidTarget((__this->fields)._enemy,(MethodInfo *)0x0);
-  if (!bVar8) {
-    Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
+  fVar11 = (__this->fields)._focusTimeLeft;
+  fVar9 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  (__this->fields)._focusTimeLeft = fVar11 - fVar9;
+  fVar11 = (__this->fields)._updateEnemyTimeLeft;
+  fVar9 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  (__this->fields)._updateEnemyTimeLeft = fVar11 - fVar9;
+  targetAddress = &(__this->fields)._enemy;
+  bVar7 = Controllers_BaseAIController__IsValidTarget((__this->fields)._enemy,method);
+  if (bVar7) {
+label_05b9c577:
+    cVar3 = (__this->fields)._aiEnabled;
   }
-  if (((__this->fields)._aiEnabled != false) &&
-     (((__this->fields)._moveToActive == false || ((__this->fields)._moveToIgnoreEnemies == false)))) {
-    if ((__this->fields)._automaticTargeting == false) {
-      return;
+  else {
+    if (Il2CppMethodInitialized_0754744f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+      Il2CppMethodInitialized_0754744f = '\x01';
     }
-    if (0.0 < (__this->fields)._updateEnemyTimeLeft) {
-      return;
-    }
-    (__this->fields)._updateEnemyTimeLeft = 0.2;
-    target = (Il2CppObject *)Controllers_BaseAIController__GetNearestEnemy(__this,(MethodInfo *)0x0);
-    obj = (Il2CppObject *)(__this->fields)._enemy;
-    if (target != (Il2CppObject *)0x0) {
-      if ((obj != (Il2CppObject *)0x0) && (0.0 < (__this->fields)._focusTimeLeft)) {
-        if (obj != target) {
-          return;
-        }
-        fVar15 = (__this->fields).FocusTime;
-        pfVar1 = &(__this->fields)._focusTimeLeft;
-        lVar9 = 0x58;
-        if (*pfVar1 <= fVar15 && fVar15 != *pfVar1) {
-          lVar9 = 0x48;
-        }
-        (__this->fields)._focusTimeLeft = *(float *)((longlong)&__this->klass + lVar9);
-        return;
-      }
-      Controllers_BaseAIController__AssignTarget
-                (__this,(Characters_ITargetable_o *)target,0.0,(MethodInfo *)0x0);
-      return;
-    }
-    if (obj == (Il2CppObject *)0x0) {
-      return;
-    }
+    (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+    method = (MethodInfo *)0x0;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    (__this->fields)._focusTimeLeft = 0.0;
     pCVar4 = (__this->fields)._character;
-    if ((pCVar4 == (Characters_BaseCharacter_o *)0x0) || (obj == (Il2CppObject *)0x0)) {
-label_1820f262a:
-      ThrowNullReferenceException();
+    if (pCVar4 == (Characters_BaseCharacter_o *)0x0) goto label_05b9c577;
+    bVar2 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+    if (((pCVar4->klass->_2).typeHierarchyDepth < bVar2) ||
+       ((pCVar4->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != (Il2CppClass *)TypeInfo_Characters_BaseTitan))
+    goto label_05b9c577;
+    (*(uint64_t *)((char *)pCVar4 + 0x168)) = (System_String_o *)0x0;
+    method = (MethodInfo *)0x0;
+    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar4 + 0x168)));
+    cVar3 = (__this->fields)._aiEnabled;
+  }
+  if ((cVar3 == '\0') ||
+     (((__this->fields)._moveToActive != false && ((__this->fields)._moveToIgnoreEnemies != false)))) {
+    if (Il2CppMethodInitialized_0754744f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+      Il2CppMethodInitialized_0754744f = '\x01';
     }
-    pIVar5 = obj->klass;
-    a = (pCVar4->fields).Team;
-    uVar3 = (pIVar5->_2).interface_offsets_count;
-    if (uVar3 != 0) {
-      pIVar6 = (pIVar5->_1).interfaceOffsets;
-      uVar13 = 0;
-      do {
-        if (pIVar6[uVar13].interfaceType == (Il2CppClass *)TypeInfo_Characters_ITargetable) {
-          pVVar10 = pIVar5->vtable + pIVar6[uVar13].offset;
-          goto label_1820f2526;
-        }
-        uVar13 = uVar13 + 1;
-      } while (uVar13 < uVar3);
-    }
-    pVVar10 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_Characters_ITargetable,0);
-label_1820f2526:
-    b = (*pVVar10->methodPtr)(obj,pVVar10->method);
-    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
-      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
-    }
-    bVar8 = GameManagers_TeamInfo__SameTeam(a,b,(MethodInfo *)0x0);
-    if (!bVar8) {
-      pCVar4 = (__this->fields)._character;
-      if ((((pCVar4 == (Characters_BaseCharacter_o *)0x0) ||
-           (pUVar7 = (pCVar4->fields).Cache, pUVar7 == (Utility_BaseComponentCache_o *)0x0)) ||
-          (__this_00 = (pUVar7->fields).Transform, __this_00 == (UnityEngine_Transform_o *)0x0)) ||
-         (pUVar11 = UnityEngine_Transform__get_position
-                              ((UnityEngine_Vector3_o *)local_28,__this_00,(MethodInfo *)0x0),
-         (__this->fields)._enemy == (Characters_ITargetable_o *)0x0)) goto label_1820f262a;
-      uVar2._0_4_ = (pUVar11->fields).x;
-      uVar2._4_4_ = (pUVar11->fields).y;
-      fVar15 = (pUVar11->fields).z;
-      puVar12 = (undefined8 *)il2cpp_runtime_helper_180027220(local_28,1,TypeInfo_Characters_ITargetable);
-      local_38 = *puVar12;
-      local_30 = *(undefined4 *)(puVar12 + 1);
-      local_28[0]._0_8_ = uVar2;
-      local_28[0].z = fVar15;
-      fVar15 = (float)il2cpp_runtime_helper_180562c80(local_28,&local_38,0);
-      pfVar1 = &(__this->fields).FocusRange;
-      if (fVar15 < *pfVar1 || fVar15 == *pfVar1) {
+    (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    (__this->fields)._focusTimeLeft = 0.0;
+    pCVar4 = (__this->fields)._character;
+    if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
+      bVar2 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+      if ((bVar2 <= (pCVar4->klass->_2).typeHierarchyDepth) &&
+         ((pCVar4->klass->_2).typeHierarchy[(ulong)bVar2 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan)
+         ) {
+        (*(uint64_t *)((char *)pCVar4 + 0x168)) = (System_String_o *)0x0;
+label_05b9c61c:
+        Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar4 + 0x168)));
         return;
       }
     }
   }
-  Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
+  else if (((__this->fields)._automaticTargeting != false) && ((__this->fields)._updateEnemyTimeLeft <= 0.0))
+  {
+    (__this->fields)._updateEnemyTimeLeft = 0.2;
+    pSVar8 = (System_String_o *)Controllers_BaseAIController__GetNearestEnemy(__this,method);
+    pSVar5 = (System_String_o *)(__this->fields)._enemy;
+    if (pSVar8 == (System_String_o *)0x0) {
+      if (pSVar5 != (System_String_o *)0x0) {
+        pCVar4 = (__this->fields)._character;
+        if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
+          pSVar5 = (pCVar4->fields).Team;
+          method_00 = (Characters_ITargetable_c *)il2cpp_runtime_helper_02c13830(0,TypeInfo_Characters_ITargetable);
+          if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+          }
+          bVar7 = GameManagers_TeamInfo__SameTeam(pSVar5,(System_String_o *)method_00,(MethodInfo *)0x0);
+          if (bVar7) {
+label_05b9c80a:
+            Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)method_00);
+            return;
+          }
+          pCVar4 = (__this->fields)._character;
+          if (((pCVar4 != (Characters_BaseCharacter_o *)0x0) &&
+              (pUVar6 = (pCVar4->fields).Cache, pUVar6 != (Utility_BaseComponentCache_o *)0x0)) &&
+             (__this_00 = (pUVar6->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
+            UVar12 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+            if (*targetAddress != (Characters_ITargetable_o *)0x0) {
+              method_00 = TypeInfo_Characters_ITargetable;
+              fVar11 = UVar12.fields.z;
+              uVar10 = il2cpp_runtime_helper_02fd8410(1);
+              local_38 = UVar12.fields.x;
+              fVar11 = (float)il2cpp_runtime_helper_05956b50(local_38,UVar12.fields.z,uVar10,fVar11,0);
+              pfVar1 = &(__this->fields).FocusRange;
+              if (fVar11 < *pfVar1 || fVar11 == *pfVar1) {
+                return;
+              }
+              goto label_05b9c80a;
+            }
+          }
+        }
+        ThrowNullReferenceException();
+      }
+    }
+    else if ((pSVar5 == (System_String_o *)0x0) || (fVar11 = (__this->fields)._focusTimeLeft, fVar11 <= 0.0))
+    {
+      if (Il2CppMethodInitialized_0754744f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+        Il2CppMethodInitialized_0754744f = '\x01';
+      }
+      (__this->fields)._enemy = (Characters_ITargetable_o *)pSVar8;
+      Il2CppCodeGenWriteBarrier(targetAddress);
+      (__this->fields)._focusTimeLeft = (__this->fields).FocusTime;
+      pCVar4 = (__this->fields)._character;
+      if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
+        bVar2 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+        if ((bVar2 <= (pCVar4->klass->_2).typeHierarchyDepth) &&
+           ((pCVar4->klass->_2).typeHierarchy[(ulong)bVar2 - 1] ==
+            (Il2CppClass *)TypeInfo_Characters_BaseTitan)) {
+          (*(uint64_t *)((char *)pCVar4 + 0x168)) = pSVar8;
+          goto label_05b9c61c;
+        }
+      }
+    }
+    else if (pSVar5 == pSVar8) {
+      fVar9 = (__this->fields).FocusTime;
+      if (fVar9 <= fVar11) {
+        fVar9 = fVar11;
+      }
+      (__this->fields)._focusTimeLeft = fVar9;
+    }
+  }
   return;
 }
 
 
 // Controllers.BaseAIController$$MoveTo
 // il2cpp: void Controllers_BaseAIController__MoveTo (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o position, float range, bool ignoreEnemies, const MethodInfo* method);
-// 0x1820f1be0
+// 0x5b9c840
 
 void Controllers_BaseAIController__MoveTo
-               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *position,float range,
+               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o position,float range,
                bool ignoreEnemies,MethodInfo *method)
 
 {
-  UnityEngine_Vector3_Fields local_28 [2];
+  MethodInfo *method_00;
   
   (__this->fields)._moveToTarget = (Characters_ITargetable_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget,(void *)0x0);
-  local_28[0].x = (position->fields).x;
-  local_28[0].y = (position->fields).y;
-  local_28[0].z = (position->fields).z;
-  Controllers_BaseAIController__BeginMove
-            (__this,(UnityEngine_Vector3_o *)local_28,range,ignoreEnemies,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget);
+  Controllers_BaseAIController__BeginMove(__this,position,range,ignoreEnemies,method_00);
   return;
 }
 
 
 // Controllers.BaseAIController$$MoveToTarget
 // il2cpp: void Controllers_BaseAIController__MoveToTarget (Controllers_BaseAIController_o* __this, Characters_ITargetable_o* target, float range, bool ignoreEnemies, const MethodInfo* method);
-// 0x1820f1ab0
+// 0x5b9ca20
 
 void Controllers_BaseAIController__MoveToTarget
                (Controllers_BaseAIController_o *__this,Characters_ITargetable_o *target,float range,
                bool ignoreEnemies,MethodInfo *method)
 
 {
-  ushort uVar1;
-  Characters_ITargetable_c *pCVar2;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
-  bool bVar4;
-  VirtualInvokeData *pVVar5;
-  UnityEngine_Vector3_o *pUVar6;
-  ushort uVar7;
-  UnityEngine_Vector3_Fields local_38;
-  UnityEngine_Vector3_o local_28 [2];
+  Characters_ITargetable_c *pCVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  bool bVar3;
+  VirtualInvokeData *pVVar4;
+  ulong uVar5;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  long lVar6;
+  UnityEngine_Vector3_o position;
   
-  if (Il2CppMethodInitialized_184346a86 == '\0') {
+  method_01 = (MethodInfo *)target;
+  if (Il2CppMethodInitialized_07547452 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_ITargetable);
-    Il2CppMethodInitialized_184346a86 = '\x01';
+    Il2CppMethodInitialized_07547452 = '\x01';
   }
-  bVar4 = Controllers_BaseAIController__IsValidTarget(target,(MethodInfo *)0x0);
-  if (bVar4) {
-    (__this->fields)._moveToTarget = target;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget,target);
-    if (target == (Characters_ITargetable_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pCVar2 = target->klass;
-    uVar1 = (pCVar2->_2).interface_offsets_count;
-    if (uVar1 != 0) {
-      pIVar3 = (pCVar2->_1).interfaceOffsets;
-      uVar7 = 0;
-      do {
-        if (pIVar3[uVar7].interfaceType == (Il2CppClass *)TypeInfo_Characters_ITargetable) {
-          pVVar5 = pCVar2->vtable + (pIVar3[uVar7].offset + 1);
-          goto label_1820f1b65;
-        }
-        uVar7 = uVar7 + 1;
-      } while (uVar7 < uVar1);
-    }
-    pVVar5 = GetInterfaceInvokeDataFromVTableSlowPath
-                       ((Il2CppObject *)target,(Il2CppClass *)TypeInfo_Characters_ITargetable,1);
-label_1820f1b65:
-    pUVar6 = (*pVVar5->methodPtr)(local_28,(Il2CppObject *)target,pVVar5->method);
-    local_38.x = (pUVar6->fields).x;
-    local_38.y = (pUVar6->fields).y;
-    local_38.z = (pUVar6->fields).z;
-    Controllers_BaseAIController__BeginMove
-              (__this,(UnityEngine_Vector3_o *)&local_38,range,ignoreEnemies,(MethodInfo *)0x0);
+  bVar3 = Controllers_BaseAIController__IsValidTarget(target,method_01);
+  if (!bVar3) {
+    return;
   }
+  (__this->fields)._moveToTarget = target;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget);
+  if (target == (Characters_ITargetable_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  pCVar1 = target->klass;
+  uVar5 = (ulong)(pCVar1->_2).interface_offsets_count;
+  if (uVar5 != 0) {
+    pIVar2 = (pCVar1->_1).interfaceOffsets;
+    lVar6 = 0;
+    do {
+      if (*(Characters_ITargetable_c **)((long)&pIVar2->interfaceType + lVar6) ==
+          TypeInfo_Characters_ITargetable) {
+        pVVar4 = pCVar1->vtable + (*(int *)((long)&pIVar2->offset + lVar6) + 1);
+        goto label_05b9caed;
+      }
+      lVar6 = lVar6 + 0x10;
+    } while (uVar5 * 0x10 != lVar6);
+  }
+  pVVar4 = GetInterfaceInvokeDataFromVTableSlowPath
+                     ((Il2CppObject *)target,(Il2CppClass *)TypeInfo_Characters_ITargetable,1);
+label_05b9caed:
+  position = (*pVVar4->methodPtr)((Il2CppObject *)target,pVVar4->method);
+  Controllers_BaseAIController__BeginMove(__this,position,range,ignoreEnemies,method_00);
   return;
 }
 
 
 // Controllers.BaseAIController$$BeginMove
 // il2cpp: void Controllers_BaseAIController__BeginMove (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o position, float range, bool ignoreEnemies, const MethodInfo* method);
-// 0x1820f0600
+// 0x5b9c8a0
 
 void Controllers_BaseAIController__BeginMove
-               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *position,float range,
+               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o position,float range,
                bool ignoreEnemies,MethodInfo *method)
 
 {
   byte bVar1;
-  float fVar2;
-  Controllers_BaseAIController_c *pCVar3;
-  float fVar4;
+  byte bVar2;
+  Characters_BaseCharacter_o *pCVar3;
+  Controllers_BaseAIController_c *pCVar4;
   
-  if (Il2CppMethodInitialized_184346a87 == '\0') {
+  if (Il2CppMethodInitialized_07547453 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_HumanAIController);
-    Il2CppMethodInitialized_184346a87 = '\x01';
+    Il2CppMethodInitialized_07547453 = '\x01';
   }
-  fVar4 = (position->fields).y;
-  fVar2 = (position->fields).z;
-  (__this->fields)._moveToPosition.fields.x = (position->fields).x;
-  (__this->fields)._moveToPosition.fields.y = fVar4;
-  (__this->fields)._moveToPosition.fields.z = fVar2;
-  (__this->fields)._moveToRange = range;
   (__this->fields)._idleTimeLeft = 0.0;
+  (__this->fields)._moveToPosition.fields.x = position.fields.x;
+  (__this->fields)._moveToPosition.fields.y = position.fields.y;
+  (__this->fields)._moveToPosition.fields.z = position.fields.z;
+  (__this->fields)._moveToRange = range;
   (__this->fields)._moveToIgnoreEnemies = ignoreEnemies;
   (__this->fields)._moveToActive = true;
   if (ignoreEnemies) {
-    Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_0754744f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+      Il2CppMethodInitialized_0754744f = '\x01';
+    }
+    (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+    (__this->fields)._focusTimeLeft = 0.0;
+    pCVar3 = (__this->fields)._character;
+    if (pCVar3 != (Characters_BaseCharacter_o *)0x0) {
+      bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+      if ((bVar1 <= (pCVar3->klass->_2).typeHierarchyDepth) &&
+         ((pCVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan)
+         ) {
+        (*(uint64_t *)((char *)pCVar3 + 0x168)) = (System_String_o *)0x0;
+        Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar3 + 0x168)));
+      }
+    }
   }
-  pCVar3 = __this->klass;
-  bVar1 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
-  if ((bVar1 <= (pCVar3->_2).typeHierarchyDepth) &&
-     ((pCVar3->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-      (Il2CppClass *)TypeInfo_Controllers_HumanAIController)) {
+  pCVar4 = __this->klass;
+  bVar1 = (pCVar4->_2).typeHierarchyDepth;
+  bVar2 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
+  if ((bVar2 <= bVar1) &&
+     ((pCVar4->_2).typeHierarchy[(ulong)bVar2 - 1] == (Il2CppClass *)TypeInfo_Controllers_HumanAIController))
+  {
     Controllers_HumanAIController__BeginMove((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
     return;
   }
-  bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-  if ((bVar1 <= (pCVar3->_2).typeHierarchyDepth) &&
-     ((pCVar3->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+  bVar2 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
+  if ((bVar1 < bVar2) ||
+     ((pCVar4->_2).typeHierarchy[(long)&((MethodInfo *)(ulong)bVar2)[-1].field_0x57] !=
       (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
-    *(undefined8 *)&(*(uint8_t *)((char *)__this + 0x11c)) = 0;
-    *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x130)) = 0;
-    *(undefined1 *)&(*(uint32_t *)((char *)__this + 0xd0)) = 0;
-    (*(uint32_t *)((char *)__this + 0xd8)) = 0.0;
-    (*(uint32_t *)((char *)__this + 0xdc)) = 0.0;
-    Il2CppCodeGenWriteBarrier((void **)&(*(uint32_t *)((char *)__this + 0xd8)),(void *)0x0);
-    if (*(int *)&(*(uint64_t *)((char *)__this + 0x98)) == 7) {
-      Controllers_BaseTitanAIController__Idle((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0)
-      ;
-    }
-    if ((__this->fields)._moveToIgnoreEnemies != false) {
-      Controllers_BaseTitanAIController__Idle((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0)
-      ;
-    }
+    return;
   }
+  Controllers_BaseTitanAIController__BeginMove
+            ((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)(ulong)bVar2);
   return;
 }
 
 
 // Controllers.BaseAIController$$UpdateMoveTarget
 // il2cpp: void Controllers_BaseAIController__UpdateMoveTarget (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f2230
+// 0x5b9cc20
 
 void Controllers_BaseAIController__UpdateMoveTarget(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Characters_ITargetable_o **targetAddress;
+  byte bVar1;
   byte bVar2;
-  float fVar3;
-  Characters_BaseCharacter_o *pCVar4;
-  Controllers_BaseAIController_c *pCVar5;
-  bool bVar6;
-  undefined8 *puVar7;
-  undefined1 local_18 [16];
+  Characters_ITargetable_o *target;
+  Il2CppObject *obj;
+  Il2CppClass *pIVar3;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
+  Characters_BaseCharacter_o *pCVar5;
+  Controllers_BaseAIController_c *pCVar6;
+  bool bVar7;
+  VirtualInvokeData *pVVar8;
+  ulong uVar9;
+  long lVar10;
+  UnityEngine_Vector3_Fields UVar11;
   
-  if (Il2CppMethodInitialized_184346a88 == '\0') {
+  if (Il2CppMethodInitialized_07547454 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_HumanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_ITargetable);
-    Il2CppMethodInitialized_184346a88 = '\x01';
+    Il2CppMethodInitialized_07547454 = '\x01';
   }
-  if (((__this->fields)._moveToActive == false) ||
-     ((__this->fields)._moveToTarget == (Characters_ITargetable_o *)0x0)) {
-    return;
-  }
-  bVar6 = Controllers_BaseAIController__IsValidTarget((__this->fields)._moveToTarget,(MethodInfo *)0x0);
-  if (bVar6) {
-    if ((__this->fields)._moveToTarget != (Characters_ITargetable_o *)0x0) {
-      puVar7 = (undefined8 *)il2cpp_runtime_helper_180027220(local_18,1,TypeInfo_Characters_ITargetable);
-      uVar1 = *puVar7;
-      fVar3 = *(float *)(puVar7 + 1);
-      (__this->fields)._moveToPosition.fields.x = (float)(int)uVar1;
-      (__this->fields)._moveToPosition.fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
-      (__this->fields)._moveToPosition.fields.z = fVar3;
-      return;
+  if (((__this->fields)._moveToActive != false) &&
+     (target = (__this->fields)._moveToTarget, target != (Characters_ITargetable_o *)0x0)) {
+    targetAddress = &(__this->fields)._moveToTarget;
+    bVar7 = Controllers_BaseAIController__IsValidTarget(target,method);
+    if (bVar7) {
+      obj = (Il2CppObject *)*targetAddress;
+      if (obj == (Il2CppObject *)0x0) {
+label_05b9cdb4:
+        ThrowNullReferenceException();
+      }
+      pIVar3 = obj->klass;
+      uVar9 = (ulong)(pIVar3->_2).interface_offsets_count;
+      if (uVar9 != 0) {
+        pIVar4 = (pIVar3->_1).interfaceOffsets;
+        lVar10 = 0;
+        do {
+          if (*(Characters_ITargetable_c **)((long)&pIVar4->interfaceType + lVar10) ==
+              TypeInfo_Characters_ITargetable) {
+            pVVar8 = pIVar3->vtable + (*(int *)((long)&pIVar4->offset + lVar10) + 1);
+            goto label_05b9cd89;
+          }
+          lVar10 = lVar10 + 0x10;
+        } while (uVar9 * 0x10 != lVar10);
+      }
+      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_Characters_ITargetable,1);
+label_05b9cd89:
+      UVar11 = (UnityEngine_Vector3_Fields)(*pVVar8->methodPtr)(obj,pVVar8->method);
+      (__this->fields)._moveToPosition.fields = UVar11;
     }
-  }
-  else {
-    (__this->fields)._moveToTarget = (Characters_ITargetable_o *)0x0;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget,(void *)0x0);
-    pCVar4 = (__this->fields)._character;
-    (__this->fields)._moveToActive = false;
-    if (pCVar4 != (Characters_BaseCharacter_o *)0x0) {
-      (pCVar4->fields).HasDirection = false;
-      pCVar5 = __this->klass;
+    else {
+      (__this->fields)._moveToTarget = (Characters_ITargetable_o *)0x0;
+      Il2CppCodeGenWriteBarrier(targetAddress);
+      (__this->fields)._moveToActive = false;
+      pCVar5 = (__this->fields)._character;
+      if (pCVar5 == (Characters_BaseCharacter_o *)0x0) goto label_05b9cdb4;
+      (pCVar5->fields).HasDirection = false;
+      pCVar6 = __this->klass;
+      bVar1 = (pCVar6->_2).typeHierarchyDepth;
       bVar2 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
-      if ((bVar2 <= (pCVar5->_2).typeHierarchyDepth) &&
-         ((pCVar5->_2).typeHierarchy[(ulonglong)bVar2 - 1] ==
+      if ((bVar2 <= bVar1) &&
+         ((pCVar6->_2).typeHierarchy[(ulong)bVar2 - 1] ==
           (Il2CppClass *)TypeInfo_Controllers_HumanAIController)) {
         Controllers_HumanAIController__Idle((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
         return;
       }
       bVar2 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-      if ((pCVar5->_2).typeHierarchyDepth < bVar2) {
+      if ((bVar2 <= bVar1) &&
+         ((pCVar6->_2).typeHierarchy[(long)&((MethodInfo *)(ulong)bVar2)[-1].field_0x57] ==
+          (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
+        Controllers_BaseTitanAIController__ResetCommandState
+                  ((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)(ulong)bVar2);
         return;
       }
-      if ((pCVar5->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
-          (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController) {
-        return;
-      }
-      Controllers_BaseTitanAIController__Idle((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0)
-      ;
-      return;
     }
   }
-  ThrowNullReferenceException();
+  return;
 }
 
 
 // Controllers.BaseAIController$$IdleFor
 // il2cpp: void Controllers_BaseAIController__IdleFor (Controllers_BaseAIController_o* __this, float time, const MethodInfo* method);
-// 0x1820f18d0
+// 0x5b9cdc0
 
 void Controllers_BaseAIController__IdleFor
                (Controllers_BaseAIController_o *__this,float time,MethodInfo *method)
 
 {
   byte bVar1;
-  Controllers_BaseAIController_c *pCVar2;
-  float fVar3;
+  byte bVar2;
+  Characters_BaseCharacter_o *pCVar3;
+  Controllers_BaseAIController_c *pCVar4;
+  float fVar5;
   
-  if (Il2CppMethodInitialized_184346a89 == '\0') {
+  if (Il2CppMethodInitialized_07547455 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_BaseTitanAIController);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Controllers_HumanAIController);
-    Il2CppMethodInitialized_184346a89 = '\x01';
+    Il2CppMethodInitialized_07547455 = '\x01';
   }
   (__this->fields)._moveToTarget = (Characters_ITargetable_o *)0x0;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._moveToTarget);
   (__this->fields)._moveToActive = false;
-  fVar3 = 0.0;
+  fVar5 = 0.0;
   if (0.0 <= time) {
-    fVar3 = time;
+    fVar5 = time;
   }
-  (__this->fields)._idleTimeLeft = fVar3;
-  Controllers_BaseAIController__ClearTarget(__this,(MethodInfo *)0x0);
-  pCVar2 = __this->klass;
-  bVar1 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
-  if (((bVar1 <= (pCVar2->_2).typeHierarchyDepth) &&
-      ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
-       (Il2CppClass *)TypeInfo_Controllers_HumanAIController)) &&
-     (__this != (Controllers_BaseAIController_o *)0x0)) {
+  (__this->fields)._idleTimeLeft = fVar5;
+  if (Il2CppMethodInitialized_0754744f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+    Il2CppMethodInitialized_0754744f = '\x01';
+  }
+  (__this->fields)._enemy = (Characters_ITargetable_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._enemy);
+  (__this->fields)._focusTimeLeft = 0.0;
+  pCVar3 = (__this->fields)._character;
+  if (pCVar3 != (Characters_BaseCharacter_o *)0x0) {
+    bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+    if ((bVar1 <= (pCVar3->klass->_2).typeHierarchyDepth) &&
+       ((pCVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_BaseTitan))
+    {
+      (*(uint64_t *)((char *)pCVar3 + 0x168)) = (System_String_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pCVar3 + 0x168)));
+    }
+  }
+  pCVar4 = __this->klass;
+  bVar1 = (pCVar4->_2).typeHierarchyDepth;
+  bVar2 = (TypeInfo_Controllers_HumanAIController->_2).typeHierarchyDepth;
+  if ((bVar2 <= bVar1) &&
+     ((pCVar4->_2).typeHierarchy[(ulong)bVar2 - 1] == (Il2CppClass *)TypeInfo_Controllers_HumanAIController))
+  {
     Controllers_HumanAIController__StopInput((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
     Controllers_HumanAIController__Idle((Controllers_HumanAIController_o *)__this,(MethodInfo *)0x0);
     return;
   }
-  bVar1 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
-  if ((bVar1 <= (pCVar2->_2).typeHierarchyDepth) &&
-     ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+  bVar2 = (TypeInfo_Controllers_BaseTitanAIController->_2).typeHierarchyDepth;
+  if ((bVar1 < bVar2) ||
+     ((pCVar4->_2).typeHierarchy[(ulong)bVar2 - 1] !=
       (Il2CppClass *)TypeInfo_Controllers_BaseTitanAIController)) {
-    *(undefined1 *)&(*(uint32_t *)((char *)__this + 0xd0)) = 0;
-    (*(uint32_t *)((char *)__this + 0xd8)) = 0.0;
-    (*(uint32_t *)((char *)__this + 0xdc)) = 0.0;
-    Il2CppCodeGenWriteBarrier((void **)&(*(uint32_t *)((char *)__this + 0xd8)),(void *)0x0);
-    Controllers_BaseTitanAIController__Idle((Controllers_BaseTitanAIController_o *)__this,(MethodInfo *)0x0);
-    __this[1].fields._moveToPosition.fields.y = time;
-    *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x98)) = 7;
+    return;
   }
+  *(undefined1 *)&(*(uint64_t *)((char *)__this + 0xe0)) = 0;
+  (*(uint32_t *)((char *)__this + 0xe8)) = 0.0;
+  (*(uint32_t *)((char *)__this + 0xec)) = 0.0;
+  Il2CppCodeGenWriteBarrier((void **)&(*(uint32_t *)((char *)__this + 0xe8)));
+  *(undefined8 *)((long)&(*(uint64_t *)((char *)__this + 0x128)) + 4) = 0;
+  *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x140)) = 0;
+  *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x98)) = 0;
+  pCVar4 = (*(uint64_t *)((char *)__this + 0x90));
+  if (pCVar4 == (Controllers_BaseAIController_c *)0x0) {
+    ThrowNullReferenceException();
+  }
+  *(undefined1 *)((long)&(pCVar4->_2).initializationExceptionGCHandle + 4) = 0;
+  *(undefined1 *)&(pCVar4->_2).vtable_count = 0;
+  UnityEngine_Random__Range(4.0,8.0,(MethodInfo *)0x0);
+  *(undefined4 *)&(*(uint64_t *)((char *)__this + 0x98)) = 7;
+  *(float *)&(*(uint8_t *)((char *)__this + 0x108)) = time;
   return;
 }
 
 
 // Controllers.BaseAIController$$Awake
 // il2cpp: void Controllers_BaseAIController__Awake (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f05b0
+// 0x5b9d050
 
 void Controllers_BaseAIController__Awake(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
-  Characters_BaseCharacter_o *value;
+  Characters_BaseCharacter_o *pCVar1;
   
-  if (Il2CppMethodInitialized_184346a8a == '\0') {
+  if (Il2CppMethodInitialized_07547456 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
-    Il2CppMethodInitialized_184346a8a = '\x01';
+    Il2CppMethodInitialized_07547456 = '\x01';
   }
-  value = UnityEngine_Component__GetComponent_object_
-                    ((UnityEngine_Component_o *)__this,
-                     (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
-  (__this->fields)._character = value;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._character,value);
+  pCVar1 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
+  (__this->fields)._character = pCVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._character);
   return;
 }
 
 
 // Controllers.BaseAIController$$Start
 // il2cpp: void Controllers_BaseAIController__Start (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5b9d0a0
 
-void
-Controllers_BaseAIController__Start(Controllers_BaseAIController_o* __this, MethodInfo* method)
+void Controllers_BaseAIController__Start(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   return;
@@ -1083,10 +1253,9 @@ Controllers_BaseAIController__Start(Controllers_BaseAIController_o* __this, Meth
 
 // Controllers.BaseAIController$$FixedUpdate
 // il2cpp: void Controllers_BaseAIController__FixedUpdate (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5b9d0b0
 
-void
-Controllers_BaseAIController__FixedUpdate(Controllers_BaseAIController_o* __this, MethodInfo* method)
+void Controllers_BaseAIController__FixedUpdate(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   return;
@@ -1095,154 +1264,139 @@ Controllers_BaseAIController__FixedUpdate(Controllers_BaseAIController_o* __this
 
 // Controllers.BaseAIController$$GetAgentSpeed
 // il2cpp: float Controllers_BaseAIController__GetAgentSpeed (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f0e00
+// 0x5b9d0c0
 
 float Controllers_BaseAIController__GetAgentSpeed(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
   Characters_BaseCharacter_o *pCVar2;
-  System_String_o *pSVar3;
+  long lVar3;
+  float fVar4;
   
-  if (Il2CppMethodInitialized_184346a8b == '\0') {
+  if (Il2CppMethodInitialized_07547457 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
-    Il2CppMethodInitialized_184346a8b = '\x01';
+    Il2CppMethodInitialized_07547457 = '\x01';
   }
   pCVar2 = (__this->fields)._character;
+  fVar4 = 0.0;
   if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
     bVar1 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
     if ((bVar1 <= (pCVar2->klass->_2).typeHierarchyDepth) &&
-       ((pCVar2->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human))
-    {
-      pSVar3 = (*(uint64_t *)((char *)pCVar2 + 0x150));
-      if (pSVar3 == (System_String_o *)0x0) {
+       ((pCVar2->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == (Il2CppClass *)TypeInfo_Characters_Human)) {
+      lVar3 = *(long *)&(*(uint8_t *)((char *)pCVar2 + 0x158));
+      if (lVar3 == 0) {
         ThrowNullReferenceException();
       }
-      if (*(char *)((longlong)&(*(uint64_t *)((char *)pCVar2 + 0x230)) + 4) != '\0') {
-        return *(float *)&(*(uint64_t *)((char *)pSVar3 + 0x38)) * 0.25;
+      fVar4 = *(float *)(lVar3 + 0x38);
+      if (*(char *)((long)&(*(uint64_t *)((char *)pCVar2 + 0x238)) + 4) != '\0') {
+        return fVar4 * 0.25;
       }
-      return *(float *)&(*(uint64_t *)((char *)pSVar3 + 0x38)) * 1.0;
     }
   }
-  return 0.0;
+  return fVar4;
 }
 
 
 // Controllers.BaseAIController$$CreateAgent
 // il2cpp: void Controllers_BaseAIController__CreateAgent (Controllers_BaseAIController_o* __this, UnityEngine_CapsuleCollider_o* collider, float acceleration, int32_t obstacleAvoidance, const MethodInfo* method);
-// 0x1820f07e0
+// 0x5b9b960
 
 void Controllers_BaseAIController__CreateAgent
                (Controllers_BaseAIController_o *__this,UnityEngine_CapsuleCollider_o *collider,
                float acceleration,int32_t obstacleAvoidance,MethodInfo *method)
 
 {
+  UnityEngine_AI_NavMeshAgent_o **targetAddress;
   int32_t value;
-  UnityEngine_AI_NavMeshBuildSettings_o *pUVar1;
   UnityEngine_GameObject_o *__this_00;
-  UnityEngine_AI_NavMeshAgent_o *pUVar2;
-  float fVar3;
-  float local_res10 [2];
-  undefined1 local_98 [144];
+  UnityEngine_AI_NavMeshAgent_o *pUVar1;
+  float fVar2;
+  float local_b0;
+  float local_ac;
+  UnityEngine_AI_NavMeshBuildSettings_Fields local_a8;
+  UnityEngine_AI_NavMeshBuildSettings_Fields local_60;
   
-  if (Il2CppMethodInitialized_184346a8c == '\0') {
+  local_ac = acceleration;
+  if (Il2CppMethodInitialized_07547458 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_NavMeshAgent);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
-    Il2CppMethodInitialized_184346a8c = '\x01';
+    Il2CppMethodInitialized_07547458 = '\x01';
   }
-  local_98._0_4_ = 0;
-  local_98._4_4_ = 0.0;
-  local_98._8_4_ = 0.0;
-  local_98._12_4_ = 0.0;
-  local_res10[0] = 0.0;
-  local_98._16_4_ = 0.0;
-  local_98._20_4_ = 0.0;
-  local_98._24_4_ = 0.0;
-  local_98._28_4_ = 0.0;
-  local_98._32_4_ = 0;
-  local_98._36_4_ = 0;
-  local_98._40_4_ = 0;
-  local_98._44_4_ = 0.0;
-  local_98._48_4_ = 0.0;
-  local_98._52_4_ = 0.0;
-  local_98._56_4_ = 0.0;
-  local_98._60_4_ = 0.0;
+  local_b0 = 0.0;
   if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
   }
-  fVar3 = Utility_Util__GetAgentSize(collider,(MethodInfo *)0x0);
-  pUVar1 = Utility_Util__GetAgentSettings
-                     ((UnityEngine_AI_NavMeshBuildSettings_o *)(local_98 + 0x40),fVar3,local_res10,
-                      (MethodInfo *)0x0);
-  local_98._0_4_ = (pUVar1->fields).m_AgentTypeID;
-  local_98._4_4_ = (pUVar1->fields).m_AgentRadius;
-  local_98._8_4_ = (pUVar1->fields).m_AgentHeight;
-  local_98._12_4_ = (pUVar1->fields).m_AgentSlope;
-  local_98._16_4_ = (pUVar1->fields).m_AgentClimb;
-  local_98._20_4_ = (pUVar1->fields).m_LedgeDropHeight;
-  local_98._24_4_ = (pUVar1->fields).m_MaxJumpAcrossDistance;
-  local_98._28_4_ = (pUVar1->fields).m_MinRegionArea;
-  local_98._32_4_ = (pUVar1->fields).m_OverrideVoxelSize;
-  local_98._36_4_ = (pUVar1->fields).m_VoxelSize;
-  local_98._40_4_ = (pUVar1->fields).m_OverrideTileSize;
-  local_98._44_4_ = (pUVar1->fields).m_TileSize;
-  local_98._48_4_ = (pUVar1->fields).m_BuildHeightMesh;
-  local_98._52_4_ = (pUVar1->fields).m_MaxJobWorkers;
-  local_98._56_8_ = *(undefined8 *)&(pUVar1->fields).m_PreserveTilesOutsideBounds;
+  fVar2 = Utility_Util__GetAgentSize(collider,(MethodInfo *)0x0);
+  Utility_Util__GetAgentSettings
+            ((UnityEngine_AI_NavMeshBuildSettings_o *)&local_60,fVar2,&local_b0,(MethodInfo *)0x0);
+  local_a8.m_BuildHeightMesh = local_60.m_BuildHeightMesh;
+  local_a8.m_MaxJobWorkers = local_60.m_MaxJobWorkers;
+  local_a8.m_PreserveTilesOutsideBounds = local_60.m_PreserveTilesOutsideBounds;
+  local_a8.m_Debug.fields.m_Flags = local_60.m_Debug.fields.m_Flags;
+  local_a8._61_3_ = local_60._61_3_;
+  local_a8.m_OverrideVoxelSize = local_60.m_OverrideVoxelSize;
+  local_a8.m_VoxelSize = local_60.m_VoxelSize;
+  local_a8.m_OverrideTileSize = local_60.m_OverrideTileSize;
+  local_a8.m_TileSize = local_60.m_TileSize;
+  local_a8.m_AgentClimb = local_60.m_AgentClimb;
+  local_a8.m_LedgeDropHeight = local_60.m_LedgeDropHeight;
+  local_a8.m_MaxJumpAcrossDistance = local_60.m_MaxJumpAcrossDistance;
+  local_a8.m_MinRegionArea = local_60.m_MinRegionArea;
+  local_a8.m_AgentTypeID = local_60.m_AgentTypeID;
+  local_a8.m_AgentRadius = local_60.m_AgentRadius;
+  local_a8.m_AgentHeight = local_60.m_AgentHeight;
+  local_a8.m_AgentSlope = local_60.m_AgentSlope;
   __this_00 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar2 = UnityEngine_GameObject__AddComponent_object_
+    pUVar1 = UnityEngine_GameObject__AddComponent_object_
                        (__this_00,
-                        (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_NavMeshAgent);
-    (__this->fields)._agent = pUVar2;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._agent,pUVar2);
-    pUVar2 = (__this->fields)._agent;
-    value = UnityEngine_Touch__get_fingerId((UnityEngine_Touch_o *)local_98,(MethodInfo *)0x0);
-    if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-      UnityEngine_AI_NavMeshAgent__set_agentTypeID(pUVar2,value,(MethodInfo *)0x0);
-      pUVar2 = (__this->fields)._agent;
-      fVar3 = UnityEngine_AI_NavMeshBuildSettings__get_agentRadius
-                        ((UnityEngine_AI_NavMeshBuildSettings_o *)local_98,(MethodInfo *)0x0);
-      if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-        UnityEngine_AI_NavMeshAgent__set_radius(pUVar2,fVar3 / local_res10[0],(MethodInfo *)0x0);
-        pUVar2 = (__this->fields)._agent;
-        fVar3 = UnityEngine_AI_NavMeshBuildSettings__get_agentHeight
-                          ((UnityEngine_AI_NavMeshBuildSettings_o *)local_98,(MethodInfo *)0x0);
-        if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-          UnityEngine_AI_NavMeshAgent__set_height(pUVar2,fVar3 / local_res10[0],(MethodInfo *)0x0);
-          pUVar2 = (__this->fields)._agent;
-          if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-            UnityEngine_AI_NavMeshAgent__set_acceleration(pUVar2,acceleration,(MethodInfo *)0x0);
-            pUVar2 = (__this->fields)._agent;
-            if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                        (MethodInfo_353B6A0 *)MethodInfo_UnityEngine_GameObject_AddComponent_NavMeshAgent);
+    targetAddress = &(__this->fields)._agent;
+    (__this->fields)._agent = pUVar1;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    pUVar1 = (__this->fields)._agent;
+    value = UnityEngine_AI_NavMeshBuildSettings__get_agentTypeID
+                      ((UnityEngine_AI_NavMeshBuildSettings_o *)&local_a8,(MethodInfo *)0x0);
+    if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+      UnityEngine_AI_NavMeshAgent__set_agentTypeID(pUVar1,value,(MethodInfo *)0x0);
+      pUVar1 = *targetAddress;
+      fVar2 = UnityEngine_AI_NavMeshBuildSettings__get_agentRadius
+                        ((UnityEngine_AI_NavMeshBuildSettings_o *)&local_a8,(MethodInfo *)0x0);
+      if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+        UnityEngine_AI_NavMeshAgent__set_radius(pUVar1,fVar2 / local_b0,(MethodInfo *)0x0);
+        pUVar1 = *targetAddress;
+        fVar2 = UnityEngine_AI_NavMeshBuildSettings__get_agentHeight
+                          ((UnityEngine_AI_NavMeshBuildSettings_o *)&local_a8,(MethodInfo *)0x0);
+        if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+          UnityEngine_AI_NavMeshAgent__set_height(pUVar1,fVar2 / local_b0,(MethodInfo *)0x0);
+          if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+            UnityEngine_AI_NavMeshAgent__set_acceleration(*targetAddress,local_ac,(MethodInfo *)0x0);
+            if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
               UnityEngine_AI_NavMeshAgent__set_obstacleAvoidanceType
-                        (pUVar2,obstacleAvoidance,(MethodInfo *)0x0);
-              pUVar2 = (__this->fields)._agent;
-              if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                UnityEngine_AI_NavMeshAgent__set_angularSpeed(pUVar2,10.0,(MethodInfo *)0x0);
-                pUVar2 = (__this->fields)._agent;
-                if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                  UnityEngine_AI_NavMeshAgent__set_autoRepath(pUVar2,true,(MethodInfo *)0x0);
-                  pUVar2 = (__this->fields)._agent;
-                  if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                    UnityEngine_AI_NavMeshAgent__set_stoppingDistance(pUVar2,1.1,(MethodInfo *)0x0);
-                    pUVar2 = (__this->fields)._agent;
-                    if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                      UnityEngine_AI_NavMeshAgent__set_autoBraking(pUVar2,false,(MethodInfo *)0x0);
-                      pUVar2 = (__this->fields)._agent;
-                      if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                        UnityEngine_AI_NavMeshAgent__set_updatePosition(pUVar2,false,(MethodInfo *)0x0);
-                        pUVar2 = (__this->fields)._agent;
-                        if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                          UnityEngine_AI_NavMeshAgent__set_updateRotation(pUVar2,false,(MethodInfo *)0x0);
-                          pUVar2 = (__this->fields)._agent;
-                          if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                            UnityEngine_AI_NavMeshAgent__set_avoidancePriority(pUVar2,0,(MethodInfo *)0x0);
-                            pUVar2 = (__this->fields)._agent;
-                            fVar3 = (*(__this->klass->vtable)._7_GetAgentSpeed.methodPtr)
+                        (*targetAddress,obstacleAvoidance,(MethodInfo *)0x0);
+              if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                UnityEngine_AI_NavMeshAgent__set_angularSpeed(*targetAddress,10.0,(MethodInfo *)0x0);
+                if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                  UnityEngine_AI_NavMeshAgent__set_autoRepath(*targetAddress,true,(MethodInfo *)0x0);
+                  if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                    UnityEngine_AI_NavMeshAgent__set_stoppingDistance(*targetAddress,1.1,(MethodInfo *)0x0);
+                    if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                      UnityEngine_AI_NavMeshAgent__set_autoBraking(*targetAddress,false,(MethodInfo *)0x0);
+                      if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                        UnityEngine_AI_NavMeshAgent__set_updatePosition
+                                  (*targetAddress,false,(MethodInfo *)0x0);
+                        if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                          UnityEngine_AI_NavMeshAgent__set_updateRotation
+                                    (*targetAddress,false,(MethodInfo *)0x0);
+                          if (*targetAddress != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                            UnityEngine_AI_NavMeshAgent__set_avoidancePriority
+                                      (*targetAddress,0,(MethodInfo *)0x0);
+                            pUVar1 = (__this->fields)._agent;
+                            fVar2 = (*(__this->klass->vtable)._7_GetAgentSpeed.methodPtr)
                                               (__this,(__this->klass->vtable)._7_GetAgentSpeed.method);
-                            if (pUVar2 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                              UnityEngine_AI_NavMeshAgent__set_speed(pUVar2,fVar3,(MethodInfo *)0x0);
+                            if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                              UnityEngine_AI_NavMeshAgent__set_speed(pUVar1,fVar2,(MethodInfo *)0x0);
                               return;
                             }
                           }
@@ -1264,532 +1418,584 @@ void Controllers_BaseAIController__CreateAgent
 
 // Controllers.BaseAIController$$SetAgentDestination
 // il2cpp: void Controllers_BaseAIController__SetAgentDestination (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x1820f1fb0
+// 0x5b9d150
 
 void Controllers_BaseAIController__SetAgentDestination
-               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *position,MethodInfo *method)
+               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o position,MethodInfo *method)
 
 {
   UnityEngine_AI_NavMeshAgent_o *pUVar1;
   bool bVar2;
-  UnityEngine_Vector3_Fields local_18;
   
-  if ((__this->fields)._setTargetThisFrame == false) {
-    pUVar1 = (__this->fields)._agent;
-    if (pUVar1 == (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-label_1820f2024:
-      ThrowNullReferenceException();
-    }
+  if ((__this->fields)._setTargetThisFrame != false) {
+    return;
+  }
+  pUVar1 = (__this->fields)._agent;
+  if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
     bVar2 = UnityEngine_AI_NavMeshAgent__get_pathPending(pUVar1,(MethodInfo *)0x0);
-    if ((!bVar2) && ((__this->fields)._repathTimeLeft <= 0.0)) {
-      pUVar1 = (__this->fields)._agent;
-      if (pUVar1 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_1820f2024;
-      local_18.x = (position->fields).x;
-      local_18.y = (position->fields).y;
-      local_18.z = (position->fields).z;
-      UnityEngine_AI_NavMeshAgent__SetDestination(pUVar1,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0)
-      ;
+    if (bVar2) {
+      return;
+    }
+    if (0.0 < (__this->fields)._repathTimeLeft) {
+      return;
+    }
+    pUVar1 = (__this->fields)._agent;
+    if (pUVar1 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+      UnityEngine_AI_NavMeshAgent__SetDestination(pUVar1,position,(MethodInfo *)0x0);
       (__this->fields)._repathTimeLeft = 0.2;
       (__this->fields)._setTargetThisFrame = true;
+      return;
     }
   }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Controllers.BaseAIController$$GetAgentNavDirection
 // il2cpp: UnityEngine_Vector3_o Controllers_BaseAIController__GetAgentNavDirection (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o target, const MethodInfo* method);
-// 0x1820f0a80
-// asm: 24 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f0cc5: mov rax, qword ptr [rdx]
-// asm:   0x1820f0cc8: lea rcx, [rsp + 0x30]
-// asm:   0x1820f0ccd: mov r8, qword ptr [rax + 0x7e0]
-// asm:   0x1820f0cd4: call qword ptr [rax + 0x7d8]  ; vtable slot 106
-// asm:   0x1820f0cda: movsd xmm0, qword ptr [rax]
-// asm:   0x1820f0cde: mov eax, dword ptr [rax + 8]
-// asm:   0x1820f0ce1: movsd qword ptr [rdi], xmm0
-// asm:   0x1820f0ce5: mov dword ptr [rdi + 8], eax
-// asm:   0x1820f0ce8: jmp 0x1820f0c9e
-// asm:   0x1820f0cea: xor r8d, r8d
-// asm:   0x1820f0ced: lea rcx, [rsp + 0x30]
-// asm:   0x1820f0cf2: mov rdx, rbx
-// asm:   0x1820f0cf5: call 0x1820f0eb0  ; Controllers_BaseAIController__GetDirectionTowardsNavMesh()
-// asm:   0x1820f0cfa: movsd xmm0, qword ptr [rax]
-// asm:   0x1820f0cfe: mov eax, dword ptr [rax + 8]
-// asm:   0x1820f0d01: movsd qword ptr [rdi], xmm0
-// asm:   0x1820f0d05: mov dword ptr [rdi + 8], eax
-// asm:   0x1820f0d08: jmp 0x1820f0c9e
-// asm:   0x1820f0dd0: unpcklps xmm6, xmm8
-// asm:   0x1820f0dd4: movaps xmm8, xmmword ptr [rsp + 0x40]
-// asm:   0x1820f0dda: movsd qword ptr [rdi], xmm6
-// asm:   0x1820f0dde: movss dword ptr [rdi + 8], xmm7
-// asm:   0x1820f0de3: movaps xmm7, xmmword ptr [rsp + 0x50]
-// asm:   0x1820f0de8: jmp 0x1820f0c9e
+// 0x5b9d1d0
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9d270: mov qword ptr [rsp + 0x38], 0
+// asm:   0x5b9d279: cmp byte ptr [rip + 0x19a14a9], 0
+// asm:   0x5b9d280: je 0x5b9d4df
+// asm:   0x5b9d447: jmp 0x5b9d549
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 Controllers_BaseAIController__GetAgentNavDirection
-          (UnityEngine_Vector3_o *__return_storage_ptr__,Controllers_BaseAIController_o *__this,
-          UnityEngine_Vector3_o *target,MethodInfo *method)
+          (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o target,MethodInfo *method)
 
 {
-  undefined4 uVar1;
+  float fVar1;
   undefined4 uVar2;
-  undefined8 uVar3;
-  undefined4 uVar4;
+  undefined4 uVar3;
+  float fVar4;
   undefined4 uVar5;
+  undefined4 uVar6;
+  uint32_t uVar7;
   UnityEngine_Object_o *x;
-  UnityEngine_AI_NavMeshAgent_o *pUVar6;
-  UnityEngine_Vector3_StaticFields *pUVar7;
   Characters_BaseCharacter_o *pCVar8;
   Utility_BaseComponentCache_o *pUVar9;
   UnityEngine_Transform_o *__this_00;
-  bool bVar10;
-  int32_t iVar11;
-  UnityEngine_Vector3_o *pUVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
+  UnityEngine_Vector3_StaticFields *pUVar10;
+  UnityEngine_AI_NavMeshAgent_o *pUVar11;
+  undefined1 auVar12 [16];
+  undefined1 auVar13 [16];
+  undefined1 auVar14 [16];
+  bool bVar15;
+  int32_t iVar16;
+  MethodInfo *method_00;
+  undefined4 extraout_XMM0_Db;
+  undefined4 extraout_XMM0_Db_00;
+  undefined4 uVar17;
+  float in_XMM0_Dc;
+  float extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dc_00;
+  float in_XMM0_Dd;
+  float extraout_XMM0_Dd;
+  undefined4 extraout_XMM0_Dd_00;
   float fVar18;
-  UnityEngine_Vector3_Fields local_58;
-  UnityEngine_Vector3_o local_48 [5];
+  undefined4 in_XMM1_Db;
+  float fVar19;
+  undefined1 auVar20 [16];
+  UnityEngine_Vector3_o UVar21;
+  UnityEngine_Vector3_o UVar22;
+  UnityEngine_Vector3_Fields UVar23;
+  UnityEngine_Vector3_o UVar24;
+  float local_48;
+  float fStack_44;
   
-  if (Il2CppMethodInitialized_184346a8d == '\0') {
+  uVar17 = in_XMM1_Db;
+  if (Il2CppMethodInitialized_07547459 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346a8d = '\x01';
+    Il2CppMethodInitialized_07547459 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._agent;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar10 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar10) {
+  bVar15 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar15) {
     pCVar8 = (__this->fields)._character;
-    if (((pCVar8 != (Characters_BaseCharacter_o *)0x0) &&
-        (pUVar9 = (pCVar8->fields).Cache, pUVar9 != (Utility_BaseComponentCache_o *)0x0)) &&
-       (__this_00 = (pUVar9->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
-      pUVar12 = UnityEngine_Transform__get_position(local_48,__this_00,(MethodInfo *)0x0);
-      uVar1 = (target->fields).x;
-      uVar4 = (target->fields).y;
-      uVar2 = (pUVar12->fields).x;
-      uVar5 = (pUVar12->fields).y;
-      fVar17 = (target->fields).z - (pUVar12->fields).z;
-      local_58.y = (float)uVar4 - (float)uVar5;
-      local_58.x = (float)uVar1 - (float)uVar2;
-      local_58.z = fVar17;
-      if (Il2CppMethodInitialized_18433de5f == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-        Il2CppMethodInitialized_18433de5f = '\x01';
-      }
-      fVar13 = (float)il2cpp_runtime_helper_180546a40(&local_58,0);
-      if (fVar13 <= 1e-05) {
-        pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
-        fVar15 = (pUVar7->zeroVector).fields.x;
-        fVar14 = (pUVar7->zeroVector).fields.y;
-        fVar17 = (pUVar7->zeroVector).fields.z;
-      }
-      else {
-        fVar15 = ((float)uVar1 - (float)uVar2) / fVar13;
-        fVar14 = ((float)uVar4 - (float)uVar5) / fVar13;
-        fVar17 = fVar17 / fVar13;
-      }
-      (__return_storage_ptr__->fields).x = fVar15;
-      (__return_storage_ptr__->fields).y = fVar14;
-      (__return_storage_ptr__->fields).z = fVar17;
-      return __return_storage_ptr__;
+    if (((pCVar8 == (Characters_BaseCharacter_o *)0x0) ||
+        (pUVar9 = (pCVar8->fields).Cache, pUVar9 == (Utility_BaseComponentCache_o *)0x0)) ||
+       (__this_00 = (pUVar9->fields).Transform, __this_00 == (UnityEngine_Transform_o *)0x0))
+    goto label_05b9d675;
+    UVar21 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_0753e72d == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72d = '\x01';
     }
+    if (Il2CppMethodInitialized_0753e729 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e729 = '\x01';
+    }
+    local_48 = target.fields.x;
+    fStack_44 = target.fields.y;
+    auVar20._0_4_ = local_48 - UVar21.fields.x;
+    auVar20._4_4_ = fStack_44 - UVar21.fields.y;
+    auVar20._8_4_ = in_XMM0_Dc - extraout_XMM0_Dc;
+    auVar20._12_4_ = in_XMM0_Dd - extraout_XMM0_Dd;
+    fVar18 = target.fields.z - UVar21.fields.z;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    fVar1 = fVar18 * fVar18 + auVar20._4_4_ * auVar20._4_4_ + auVar20._0_4_ * auVar20._0_4_;
+    if (fVar1 < 0.0) {
+      fVar1 = sqrtf(fVar1);
+      in_XMM1_Db = extraout_XMM0_Db;
+    }
+    else {
+      fVar1 = SQRT(fVar1);
+    }
+    if (1e-05 < fVar1) {
+      UVar21.fields.z = fVar18 / fVar1;
+      auVar12._4_4_ = fVar1;
+      auVar12._0_4_ = fVar1;
+      auVar12._8_4_ = in_XMM1_Db;
+      auVar12._12_4_ = in_XMM1_Db;
+      auVar20 = divps(auVar20,auVar12);
+      UVar21.fields.x = (float)auVar20._0_4_;
+      UVar21.fields.y = (float)auVar20._4_4_;
+      return (UnityEngine_Vector3_o)UVar21.fields;
+    }
+    pUVar10 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar18 = (pUVar10->zeroVector).fields.z;
+    fVar1 = (pUVar10->zeroVector).fields.x;
+    fVar4 = (pUVar10->zeroVector).fields.y;
+    goto label_05b9d313;
+  }
+  pUVar11 = (__this->fields)._agent;
+  if (pUVar11 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d675;
+  method_00 = (MethodInfo *)0x0;
+  bVar15 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar11,(MethodInfo *)0x0);
+  if (!bVar15) {
+    UVar23 = (UnityEngine_Vector3_Fields)
+             Controllers_BaseAIController__GetDirectionTowardsNavMesh(__this,method_00);
+    return (UnityEngine_Vector3_o)UVar23;
+  }
+  if ((__this->fields)._setTargetThisFrame == false) {
+    pUVar11 = (__this->fields)._agent;
+    if (pUVar11 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d675;
+    bVar15 = UnityEngine_AI_NavMeshAgent__get_pathPending(pUVar11,(MethodInfo *)0x0);
+    if ((!bVar15) && (uVar17 = 0, (__this->fields)._repathTimeLeft <= 0.0)) {
+      pUVar11 = (__this->fields)._agent;
+      if (pUVar11 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d675;
+      UnityEngine_AI_NavMeshAgent__SetDestination(pUVar11,target,(MethodInfo *)0x0);
+      (__this->fields)._repathTimeLeft = 0.2;
+      (__this->fields)._setTargetThisFrame = true;
+      uVar17 = in_XMM1_Db;
+    }
+  }
+  pUVar11 = (__this->fields)._agent;
+  if (pUVar11 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d675;
+  UVar21 = UnityEngine_AI_NavMeshAgent__get_velocity(pUVar11,(MethodInfo *)0x0);
+  fVar18 = UVar21.fields.z;
+  auVar13._8_4_ = extraout_XMM0_Dc_00;
+  auVar13._0_8_ = UVar21.fields._0_8_;
+  auVar13._12_4_ = extraout_XMM0_Dd_00;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e72d = '\x01';
+    if (Il2CppMethodInitialized_0753e729 == '\0') goto label_05b9d639;
+label_05b9d3ce:
+    uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
   }
   else {
-    pUVar6 = (__this->fields)._agent;
-    if (pUVar6 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-      bVar10 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar6,(MethodInfo *)0x0);
-      if (!bVar10) {
-        pUVar12 = Controllers_BaseAIController__GetDirectionTowardsNavMesh(local_48,__this,(MethodInfo *)0x0);
-        fVar13 = (pUVar12->fields).y;
-        fVar17 = (pUVar12->fields).z;
-        (__return_storage_ptr__->fields).x = (pUVar12->fields).x;
-        (__return_storage_ptr__->fields).y = fVar13;
-        (__return_storage_ptr__->fields).z = fVar17;
-        return __return_storage_ptr__;
-      }
-      if ((__this->fields)._setTargetThisFrame == false) {
-        pUVar6 = (__this->fields)._agent;
-        if (pUVar6 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_1820f0ded;
-        bVar10 = UnityEngine_AI_NavMeshAgent__get_pathPending(pUVar6,(MethodInfo *)0x0);
-        if ((!bVar10) && ((__this->fields)._repathTimeLeft <= 0.0)) {
-          pUVar6 = (__this->fields)._agent;
-          if (pUVar6 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_1820f0ded;
-          local_58.x = (target->fields).x;
-          local_58.y = (target->fields).y;
-          local_58.z = (target->fields).z;
-          UnityEngine_AI_NavMeshAgent__SetDestination
-                    (pUVar6,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
-          (__this->fields)._repathTimeLeft = 0.2;
-          (__this->fields)._setTargetThisFrame = true;
-        }
-      }
-      pUVar6 = (__this->fields)._agent;
-      if (pUVar6 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-        pUVar12 = UnityEngine_AI_NavMeshAgent__get_velocity(local_48,pUVar6,(MethodInfo *)0x0);
-        uVar3._0_4_ = (pUVar12->fields).x;
-        uVar3._4_4_ = (pUVar12->fields).y;
-        fVar17 = (pUVar12->fields).z;
-        local_58._0_8_ = uVar3;
-        local_58.z = fVar17;
-        if (Il2CppMethodInitialized_18433de5f == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433de5f = '\x01';
-        }
-        fVar13 = (float)il2cpp_runtime_helper_180546a40(&local_58);
-        if (fVar13 <= 1e-05) {
-          pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
-          fVar13 = (pUVar7->zeroVector).fields.x;
-          fVar15 = (pUVar7->zeroVector).fields.y;
-          fVar17 = (pUVar7->zeroVector).fields.z;
-        }
-        else {
-          fVar15 = local_58.y / fVar13;
-          fVar17 = fVar17 / fVar13;
-          fVar13 = (float)uVar3 / fVar13;
-        }
-        local_58.y = fVar15;
-        local_58.x = fVar13;
-        if (Il2CppMethodInitialized_18433dbea == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433dbea = '\x01';
-        }
-        pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
-        fVar14 = fVar13 - (pUVar7->zeroVector).fields.x;
-        fVar18 = local_58.y - (pUVar7->zeroVector).fields.y;
-        fVar16 = fVar17 - (pUVar7->zeroVector).fields.z;
-        if (9.9999994e-11 <= fVar18 * fVar18 + fVar14 * fVar14 + fVar16 * fVar16) {
-          pUVar6 = (__this->fields)._agent;
-          if (pUVar6 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_1820f0ded;
-          iVar11 = UnityEngine_AI_NavMeshAgent__get_pathStatus(pUVar6,(MethodInfo *)0x0);
-          if (iVar11 != 2) {
-            (__return_storage_ptr__->fields).x = fVar13;
-            (__return_storage_ptr__->fields).y = fVar15;
-            (__return_storage_ptr__->fields).z = fVar17;
-            return __return_storage_ptr__;
-          }
-        }
-        pCVar8 = (__this->fields)._character;
-        if (pCVar8 != (Characters_BaseCharacter_o *)0x0) {
-          pUVar12 = (*(pCVar8->klass->vtable)._106_GetTargetDirection.methodPtr)
-                              (local_48,pCVar8,(pCVar8->klass->vtable)._106_GetTargetDirection.method);
-          fVar13 = (pUVar12->fields).y;
-          fVar17 = (pUVar12->fields).z;
-          (__return_storage_ptr__->fields).x = (pUVar12->fields).x;
-          (__return_storage_ptr__->fields).y = fVar13;
-          (__return_storage_ptr__->fields).z = fVar17;
-          return __return_storage_ptr__;
-        }
-      }
+    if (Il2CppMethodInitialized_0753e729 != '\0') goto label_05b9d3ce;
+label_05b9d639:
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e729 = '\x01';
+    uVar7 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar7 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  local_48 = UVar21.fields.x;
+  fStack_44 = UVar21.fields.y;
+  fVar1 = fVar18 * fVar18 + fStack_44 * fStack_44 + local_48 * local_48;
+  if (fVar1 < 0.0) {
+    fVar1 = sqrtf(fVar1);
+    uVar17 = extraout_XMM0_Db_00;
+    if (1e-05 < fVar1) goto label_05b9d523;
+label_05b9d420:
+    pUVar10 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar18 = (pUVar10->zeroVector).fields.z;
+    uVar2 = (pUVar10->zeroVector).fields.x;
+    uVar5 = (pUVar10->zeroVector).fields.y;
+    fVar1 = (float)uVar2;
+    fVar4 = (float)uVar5;
+  }
+  else {
+    fVar1 = SQRT(fVar1);
+    if (fVar1 <= 1e-05) goto label_05b9d420;
+label_05b9d523:
+    fVar18 = fVar18 / fVar1;
+    auVar14._4_4_ = fVar1;
+    auVar14._0_4_ = fVar1;
+    auVar14._8_4_ = uVar17;
+    auVar14._12_4_ = uVar17;
+    auVar20 = divps(auVar13,auVar14);
+    fVar1 = auVar20._0_4_;
+    fVar4 = auVar20._4_4_;
+  }
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
+  }
+  pUVar10 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar3 = (pUVar10->zeroVector).fields.x;
+  uVar6 = (pUVar10->zeroVector).fields.y;
+  fVar19 = fVar18 - (pUVar10->zeroVector).fields.z;
+  if (9.9999994e-11 <=
+      (fVar4 - (float)uVar6) * (fVar4 - (float)uVar6) + (fVar1 - (float)uVar3) * (fVar1 - (float)uVar3) +
+      fVar19 * fVar19) {
+    pUVar11 = (__this->fields)._agent;
+    if (pUVar11 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d675;
+    iVar16 = UnityEngine_AI_NavMeshAgent__get_pathStatus(pUVar11,(MethodInfo *)0x0);
+    if (iVar16 != 2) {
+label_05b9d313:
+      UVar22.fields.y = fVar4;
+      UVar22.fields.x = fVar1;
+      UVar22.fields.z = fVar18;
+      return (UnityEngine_Vector3_o)UVar22.fields;
     }
   }
-label_1820f0ded:
+  pCVar8 = (__this->fields)._character;
+  if (pCVar8 != (Characters_BaseCharacter_o *)0x0) {
+    UVar21.fields._0_8_ =
+         (*(pCVar8->klass->vtable)._106_GetTargetDirection.methodPtr)
+                   (pCVar8,(pCVar8->klass->vtable)._106_GetTargetDirection.method);
+    UVar24.fields.z = fVar18;
+    UVar24.fields._0_8_ = (undefined8)UVar21.fields._0_8_;
+    return (UnityEngine_Vector3_o)UVar24.fields;
+  }
+label_05b9d675:
   ThrowNullReferenceException();
 }
 
 
 // Controllers.BaseAIController$$GetDirectionTowardsNavMesh
 // il2cpp: UnityEngine_Vector3_o Controllers_BaseAIController__GetDirectionTowardsNavMesh (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f0eb0
+// 0x5b9d680
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9d73b: mov qword ptr [rsp + 8], 0
+// asm:   0x5b9d744: cmp byte ptr [rip + 0x19a0fde], 0
+// asm:   0x5b9d74b: je 0x5b9d915
+// asm:   0x5b9d7c3: jmp 0x5b9d8b6
+// asm:   0x5b9d841: jmp 0x5b9d8b6
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 Controllers_BaseAIController__GetDirectionTowardsNavMesh
-          (UnityEngine_Vector3_o *__return_storage_ptr__,Controllers_BaseAIController_o *__this,
-          MethodInfo *method)
+          (Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
-  ulonglong uVar1;
+  uint32_t uVar1;
   Characters_BaseCharacter_o *pCVar2;
   Utility_BaseComponentCache_o *pUVar3;
   UnityEngine_Transform_o *__this_00;
   UnityEngine_AI_NavMeshAgent_o *__this_01;
-  UnityEngine_Vector3_StaticFields *pUVar4;
-  undefined8 uVar5;
-  bool bVar6;
-  UnityEngine_Vector3_o *pUVar7;
-  float fVar8;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
+  float fVar6;
+  bool bVar7;
+  uint uVar8;
   float fVar9;
+  undefined4 extraout_XMM0_Db;
+  undefined4 extraout_XMM0_Db_00;
+  float extraout_XMM0_Dc;
+  float extraout_XMM0_Dd;
   float fVar10;
-  float fVar11;
-  UnityEngine_Vector3_Fields local_b8;
-  UnityEngine_AI_NavMeshQueryFilter_o local_a8;
-  UnityEngine_AI_NavMeshHit_o local_98 [4];
+  undefined4 uVar11;
+  undefined1 auVar12 [16];
+  undefined1 auVar13 [16];
+  UnityEngine_Vector3_o UVar14;
+  undefined8 local_70;
+  float local_58;
+  float local_48;
+  float fStack_44;
+  UnityEngine_AI_NavMeshHit_o local_38;
   
-  local_98[0].fields.m_Hit = 0;
+  local_38.fields.m_Normal.fields.y = 0.0;
+  local_38.fields.m_Normal.fields.z = 0.0;
+  local_38.fields.m_Distance = 0.0;
+  local_38.fields.m_Mask = 0;
+  local_38.fields.m_Position.fields.x = 0.0;
+  local_38.fields.m_Position.fields.y = 0.0;
+  local_38.fields.m_Position.fields.z = 0.0;
+  local_38.fields.m_Normal.fields.x = 0.0;
+  local_38.fields.m_Hit = 0;
   pCVar2 = (__this->fields)._character;
-  local_98[0].fields.m_Position.fields.x = 0.0;
-  local_98[0].fields.m_Position.fields.y = 0.0;
-  local_98[0].fields.m_Position.fields.z = 0.0;
-  local_98[0].fields.m_Normal.fields.x = 0.0;
-  local_98[0].fields.m_Normal.fields.y = 0.0;
-  local_98[0].fields.m_Normal.fields.z = 0.0;
-  local_98[0].fields.m_Distance = 0.0;
-  local_98[0].fields.m_Mask = 0;
-  if (((pCVar2 != (Characters_BaseCharacter_o *)0x0) &&
-      (pUVar3 = (pCVar2->fields).Cache, pUVar3 != (Utility_BaseComponentCache_o *)0x0)) &&
-     (__this_00 = (pUVar3->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar7 = UnityEngine_Transform__get_position
-                       ((UnityEngine_Vector3_o *)&local_b8,__this_00,(MethodInfo *)0x0);
-    __this_01 = (__this->fields)._agent;
-    local_a8.fields._costs_k__BackingField = (System_Single_array *)0x0;
-    if (__this_01 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-      fVar10 = (pUVar7->fields).x;
-      fVar8 = (pUVar7->fields).y;
-      uVar5._0_4_ = (pUVar7->fields).x;
-      uVar5._4_4_ = (pUVar7->fields).y;
-      fVar11 = (pUVar7->fields).z;
-      local_a8.fields._agentTypeID_k__BackingField =
-           UnityEngine_AI_NavMeshAgent__get_agentTypeID(__this_01,(MethodInfo *)0x0);
-      local_a8.fields._areaMask_k__BackingField = -1;
-      local_b8._0_8_ = uVar5;
-      local_b8.z = fVar11;
-      bVar6 = UnityEngine_AI_NavMesh__SamplePosition
-                        ((UnityEngine_Vector3_o *)&local_b8,local_98,100.0,&local_a8,(MethodInfo *)0x0);
-      if (bVar6) {
-        fVar10 = local_98[0].fields.m_Position.fields.x - fVar10;
-        fVar8 = local_98[0].fields.m_Position.fields.y - fVar8;
-        fVar11 = local_98[0].fields.m_Position.fields.z - fVar11;
-        local_b8.y = fVar8;
-        local_b8.x = fVar10;
-        local_b8.z = fVar11;
-        if (Il2CppMethodInitialized_18433de5f == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433de5f = '\x01';
-        }
-        fVar9 = (float)il2cpp_runtime_helper_180546a40(&local_b8,0);
-        if (fVar9 <= 1e-05) {
-          pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
-          fVar10 = (pUVar4->zeroVector).fields.x;
-          fVar8 = (pUVar4->zeroVector).fields.y;
-          fVar11 = (pUVar4->zeroVector).fields.z;
-        }
-        else {
-          fVar10 = fVar10 / fVar9;
-          fVar8 = fVar8 / fVar9;
-          fVar11 = fVar11 / fVar9;
-        }
-        (__return_storage_ptr__->fields).x = fVar10;
-        (__return_storage_ptr__->fields).y = fVar8;
-        (__return_storage_ptr__->fields).z = fVar11;
-      }
-      else {
-        pUVar7 = UnityEngine_Random__get_onUnitSphere((UnityEngine_Vector3_o *)&local_a8,(MethodInfo *)0x0);
-        uVar1._0_4_ = (pUVar7->fields).x;
-        uVar1._4_4_ = (pUVar7->fields).y;
-        fVar10 = (pUVar7->fields).z;
-        local_b8._0_8_ = uVar1 & 0xffffffff;
-        local_b8.z = fVar10;
-        if (Il2CppMethodInitialized_18433de5f == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-          Il2CppMethodInitialized_18433de5f = '\x01';
-        }
-        fVar8 = (float)il2cpp_runtime_helper_180546a40(&local_b8,0);
-        if (fVar8 <= 1e-05) {
-          pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
-          local_b8.x = (pUVar4->zeroVector).fields.x;
-          fVar8 = (pUVar4->zeroVector).fields.y;
-          fVar10 = (pUVar4->zeroVector).fields.z;
-        }
-        else {
-          local_b8.x = local_b8.x / fVar8;
-          fVar10 = fVar10 / fVar8;
-          fVar8 = 0.0 / fVar8;
-        }
-        (__return_storage_ptr__->fields).x = local_b8.x;
-        (__return_storage_ptr__->fields).y = fVar8;
-        (__return_storage_ptr__->fields).z = fVar10;
-      }
-      return __return_storage_ptr__;
-    }
+  if (((pCVar2 == (Characters_BaseCharacter_o *)0x0) ||
+      (pUVar3 = (pCVar2->fields).Cache, pUVar3 == (Utility_BaseComponentCache_o *)0x0)) ||
+     (__this_00 = (pUVar3->fields).Transform, __this_00 == (UnityEngine_Transform_o *)0x0)) {
+label_05b9d9b2:
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UVar14 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+  __this_01 = (__this->fields)._agent;
+  if (__this_01 == (UnityEngine_AI_NavMeshAgent_o *)0x0) goto label_05b9d9b2;
+  uVar8 = UnityEngine_AI_NavMeshAgent__get_agentTypeID(__this_01,(MethodInfo *)0x0);
+  uVar11 = 0;
+  auVar13._8_8_ = 0;
+  auVar13._0_8_ = (ulong)uVar8 << 0x20 | 0xffffffff;
+  bVar7 = UnityEngine_AI_NavMesh__SamplePosition
+                    (UVar14,&local_38,100.0,(UnityEngine_AI_NavMeshQueryFilter_o)(auVar13 << 0x40),
+                     (MethodInfo *)0x0);
+  if (bVar7) {
+    fVar9 = local_38.fields.m_Position.fields.x;
+    fVar6 = local_38.fields.m_Position.fields.y;
+    fVar10 = local_38.fields.m_Position.fields.z;
+    if (Il2CppMethodInitialized_0753e72d == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_0753e72d = '\x01';
+    }
+    if (Il2CppMethodInitialized_0753e729 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_0753e729 = '\x01';
+    }
+    local_48 = UVar14.fields.x;
+    fStack_44 = UVar14.fields.y;
+    auVar12._0_4_ = fVar9 - local_48;
+    auVar12._4_4_ = fVar6 - fStack_44;
+    auVar12._8_4_ = 0.0 - extraout_XMM0_Dc;
+    auVar12._12_4_ = 0.0 - extraout_XMM0_Dd;
+    fVar10 = fVar10 - UVar14.fields.z;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    uVar11 = 0;
+    fVar9 = fVar10 * fVar10 + auVar12._4_4_ * auVar12._4_4_ + auVar12._0_4_ * auVar12._0_4_;
+    if (fVar9 < 0.0) {
+      fVar9 = sqrtf(fVar9);
+      uVar11 = extraout_XMM0_Db;
+    }
+    else {
+      fVar9 = SQRT(fVar9);
+    }
+    if (fVar9 <= 1e-05) goto label_05b9d8b6;
+    fVar10 = fVar10 / fVar9;
+    auVar4._4_4_ = fVar9;
+    auVar4._0_4_ = fVar9;
+    auVar4._8_4_ = uVar11;
+    auVar4._12_4_ = uVar11;
+    auVar13 = divps(auVar12,auVar4);
+    local_70 = auVar13._0_8_;
+    goto label_05b9d8a7;
+  }
+  UVar14 = UnityEngine_Random__get_onUnitSphere((MethodInfo *)0x0);
+  fVar10 = UVar14.fields.z;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    uVar11 = 0;
+    Il2CppMethodInitialized_0753e72d = '\x01';
+    if (Il2CppMethodInitialized_0753e729 == '\0') goto label_05b9d972;
+label_05b9d7fd:
+    uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  else {
+    if (Il2CppMethodInitialized_0753e729 != '\0') goto label_05b9d7fd;
+label_05b9d972:
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    uVar11 = 0;
+    Il2CppMethodInitialized_0753e729 = '\x01';
+    uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
+  }
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    uVar11 = 0;
+  }
+  local_58 = UVar14.fields.x;
+  fVar9 = fVar10 * fVar10 + local_58 * local_58 + 0.0;
+  if (fVar9 < 0.0) {
+    fVar9 = sqrtf(fVar9);
+    uVar11 = extraout_XMM0_Db_00;
+  }
+  else {
+    fVar9 = SQRT(fVar9);
+  }
+  if (fVar9 <= 1e-05) {
+label_05b9d8b6:
+    return (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
+  }
+  fVar10 = fVar10 / fVar9;
+  auVar5._4_4_ = fVar9;
+  auVar5._0_4_ = fVar9;
+  auVar5._8_4_ = uVar11;
+  auVar5._12_4_ = uVar11;
+  auVar13 = divps(ZEXT416((uint)local_58),auVar5);
+  local_70 = auVar13._0_8_;
+label_05b9d8a7:
+  UVar14.fields.z = fVar10;
+  UVar14.fields.x = (float)(undefined4)local_70;
+  UVar14.fields.y = (float)local_70._4_4_;
+  return (UnityEngine_Vector3_o)UVar14.fields;
 }
 
 
 // Controllers.BaseAIController$$SampleAgentMesh
 // il2cpp: bool Controllers_BaseAIController__SampleAgentMesh (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o position, UnityEngine_AI_NavMeshHit_o* hit, const MethodInfo* method);
-// 0x1820f1f20
+// 0x5b9d9c0
 
 bool Controllers_BaseAIController__SampleAgentMesh
-               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *position,
+               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o position,
                UnityEngine_AI_NavMeshHit_o *hit,MethodInfo *method)
 
 {
-  undefined8 uVar1;
   UnityEngine_AI_NavMeshAgent_o *__this_00;
+  undefined1 auVar1 [16];
   bool bVar2;
-  System_Single_array *local_28;
-  float fStack_20;
-  int32_t iStack_1c;
-  UnityEngine_AI_NavMeshQueryFilter_o local_18;
+  uint uVar3;
   
   __this_00 = (__this->fields)._agent;
-  local_28 = (System_Single_array *)0x0;
-  if (__this_00 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-    iStack_1c = UnityEngine_AI_NavMeshAgent__get_agentTypeID(__this_00,(MethodInfo *)0x0);
-    uVar1._0_4_ = (position->fields).x;
-    uVar1._4_4_ = (position->fields).y;
-    fStack_20 = (position->fields).z;
-    local_18.fields._agentTypeID_k__BackingField = iStack_1c;
-    local_18.fields._areaMask_k__BackingField = -1;
-    local_18.fields._costs_k__BackingField = local_28;
-    local_28 = (System_Single_array *)uVar1;
-    bVar2 = UnityEngine_AI_NavMesh__SamplePosition
-                      ((UnityEngine_Vector3_o *)&local_28,hit,100.0,&local_18,(MethodInfo *)0x0);
-    return bVar2;
+  if (__this_00 == (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  uVar3 = UnityEngine_AI_NavMeshAgent__get_agentTypeID(__this_00,(MethodInfo *)0x0);
+  auVar1._8_8_ = 0;
+  auVar1._0_8_ = (ulong)uVar3 << 0x20 | 0xffffffff;
+  bVar2 = UnityEngine_AI_NavMesh__SamplePosition
+                    (position,hit,100.0,(UnityEngine_AI_NavMeshQueryFilter_o)(auVar1 << 0x40),
+                     (MethodInfo *)0x0);
+  return bVar2;
 }
 
 
 // Controllers.BaseAIController$$RefreshAgent
 // il2cpp: void Controllers_BaseAIController__RefreshAgent (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f1c60
-// asm: 6 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1820f1ef7: xor r8d, r8d
-// asm:   0x1820f1efa: movsd qword ptr [rbp - 9], xmm7
-// asm:   0x1820f1eff: lea rdx, [rbp - 9]
-// asm:   0x1820f1f03: mov dword ptr [rbp - 1], edi
-// asm:   0x1820f1f06: call 0x182e970a0  ; UnityEngine_AI_NavMeshAgent__set_nextPosition()
-// asm:   0x1820f1f0b: jmp 0x1820f1e7b
+// 0x5b9da20
 
 void Controllers_BaseAIController__RefreshAgent(Controllers_BaseAIController_o *__this,MethodInfo *method)
 
 {
-  System_Single_array *pSVar1;
-  float fVar2;
   UnityEngine_Object_o *x;
-  Characters_BaseCharacter_o *pCVar3;
-  Utility_BaseComponentCache_o *pUVar4;
+  Characters_BaseCharacter_o *pCVar1;
+  Utility_BaseComponentCache_o *pUVar2;
   UnityEngine_Transform_o *__this_00;
-  UnityEngine_AI_NavMeshAgent_o *pUVar5;
-  UnityEngine_Behaviour_o *pUVar6;
-  Controllers_BaseAIController_c *pCVar7;
-  bool bVar8;
-  UnityEngine_Vector3_o *pUVar9;
+  UnityEngine_AI_NavMeshAgent_o *pUVar3;
+  UnityEngine_Behaviour_o *pUVar4;
+  undefined1 auVar5 [16];
+  bool bVar6;
+  uint uVar7;
+  float fVar8;
+  float fVar9;
   float fVar10;
-  float fVar11;
-  System_Single_array *local_78;
-  float local_70;
-  UnityEngine_AI_NavMeshQueryFilter_o local_68;
-  System_Single_array *local_58;
-  undefined8 uStack_50;
-  undefined8 local_48;
-  undefined8 uStack_40;
-  int32_t local_38;
+  UnityEngine_Vector3_o sourcePosition;
+  float fStack_68;
+  float fStack_64;
+  UnityEngine_AI_NavMeshHit_o UStack_48;
   
-  if (Il2CppMethodInitialized_184346a8e == '\0') {
+  if (Il2CppMethodInitialized_0754745a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184346a8e = '\x01';
+    Il2CppMethodInitialized_0754745a = '\x01';
   }
+  UStack_48.fields.m_Normal.fields.y = 0.0;
+  UStack_48.fields.m_Normal.fields.z = 0.0;
+  UStack_48.fields.m_Distance = 0.0;
+  UStack_48.fields.m_Mask = 0;
+  UStack_48.fields.m_Position.fields.x = 0.0;
+  UStack_48.fields.m_Position.fields.y = 0.0;
+  UStack_48.fields.m_Position.fields.z = 0.0;
+  UStack_48.fields.m_Normal.fields.x = 0.0;
+  UStack_48.fields.m_Hit = 0;
   x = (UnityEngine_Object_o *)(__this->fields)._agent;
-  local_58 = (System_Single_array *)0x0;
-  uStack_50._0_4_ = 0.0;
-  uStack_50._4_4_ = 0.0;
-  local_38 = 0;
-  local_48._0_4_ = 0.0;
-  local_48._4_4_ = 0.0;
-  uStack_40._0_4_ = 0.0;
-  uStack_40._4_4_ = 0;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar8 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (bVar8) {
+  bVar6 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar6) {
     return;
   }
   if ((__this->fields)._usePathfinding == false) {
     return;
   }
-  pCVar3 = (__this->fields)._character;
-  if (((pCVar3 != (Characters_BaseCharacter_o *)0x0) &&
-      (pUVar4 = (pCVar3->fields).Cache, pUVar4 != (Utility_BaseComponentCache_o *)0x0)) &&
-     (__this_00 = (pUVar4->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar9 = UnityEngine_Transform__get_position
-                       ((UnityEngine_Vector3_o *)&local_68,__this_00,(MethodInfo *)0x0);
-    pUVar5 = (__this->fields)._agent;
-    if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-      pSVar1 = *(System_Single_array **)&pUVar9->fields;
-      fVar2 = (pUVar9->fields).z;
-      bVar8 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar5,(MethodInfo *)0x0);
-      if (bVar8) {
-        fVar11 = (__this->fields)._repathTimeLeft;
-        fVar10 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-        pCVar7 = __this->klass;
-        pUVar5 = (__this->fields)._agent;
-        (__this->fields)._repathTimeLeft = fVar11 - fVar10;
-        fVar11 = (*(pCVar7->vtable)._7_GetAgentSpeed.methodPtr)
-                           (__this,(pCVar7->vtable)._7_GetAgentSpeed.method);
-        if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-          UnityEngine_AI_NavMeshAgent__set_speed(pUVar5,fVar11,(MethodInfo *)0x0);
-          pUVar5 = (__this->fields)._agent;
-          if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-            local_68.fields._areaMask_k__BackingField = (int32_t)fVar2;
-            local_68.fields._costs_k__BackingField = pSVar1;
-            UnityEngine_AI_NavMeshAgent__set_nextPosition
-                      (pUVar5,(UnityEngine_Vector3_o *)&local_68,(MethodInfo *)0x0);
+  pCVar1 = (__this->fields)._character;
+  if (((pCVar1 != (Characters_BaseCharacter_o *)0x0) &&
+      (pUVar2 = (pCVar1->fields).Cache, pUVar2 != (Utility_BaseComponentCache_o *)0x0)) &&
+     (__this_00 = (pUVar2->fields).Transform, __this_00 != (UnityEngine_Transform_o *)0x0)) {
+    sourcePosition = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
+    pUVar3 = (__this->fields)._agent;
+    if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+      bVar6 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar3,(MethodInfo *)0x0);
+      if (bVar6) {
+        fVar9 = (__this->fields)._repathTimeLeft;
+        fVar8 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+        (__this->fields)._repathTimeLeft = fVar9 - fVar8;
+        pUVar3 = (__this->fields)._agent;
+        fVar9 = (*(__this->klass->vtable)._7_GetAgentSpeed.methodPtr)
+                          (__this,(__this->klass->vtable)._7_GetAgentSpeed.method);
+        if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+          UnityEngine_AI_NavMeshAgent__set_speed(pUVar3,fVar9,(MethodInfo *)0x0);
+          pUVar3 = (__this->fields)._agent;
+          if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+            UnityEngine_AI_NavMeshAgent__set_nextPosition(pUVar3,sourcePosition,(MethodInfo *)0x0);
             return;
           }
         }
       }
       else {
-        fVar11 = (__this->fields)._reacquireTimeLeft;
-        fVar10 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-        fVar11 = fVar11 - fVar10;
-        (__this->fields)._reacquireTimeLeft = fVar11;
-        if (0.0 < fVar11) {
+        fVar9 = (__this->fields)._reacquireTimeLeft;
+        fVar8 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+        fVar9 = fVar9 - fVar8;
+        (__this->fields)._reacquireTimeLeft = fVar9;
+        if (0.0 < fVar9) {
           return;
         }
-        pUVar5 = (__this->fields)._agent;
         (__this->fields)._reacquireTimeLeft = 1.0;
-        local_68.fields._costs_k__BackingField = (System_Single_array *)0x0;
-        if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-          local_68.fields._agentTypeID_k__BackingField =
-               UnityEngine_AI_NavMeshAgent__get_agentTypeID(pUVar5,(MethodInfo *)0x0);
-          local_68.fields._areaMask_k__BackingField = -1;
-          local_78 = pSVar1;
-          local_70 = fVar2;
-          bVar8 = UnityEngine_AI_NavMesh__SamplePosition
-                            ((UnityEngine_Vector3_o *)&local_78,(UnityEngine_AI_NavMeshHit_o *)&local_58,100.0
-                             ,&local_68,(MethodInfo *)0x0);
-          if (!bVar8) {
+        pUVar3 = (__this->fields)._agent;
+        if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+          uVar7 = UnityEngine_AI_NavMeshAgent__get_agentTypeID(pUVar3,(MethodInfo *)0x0);
+          auVar5._8_8_ = 0;
+          auVar5._0_8_ = (ulong)uVar7 << 0x20 | 0xffffffff;
+          bVar6 = UnityEngine_AI_NavMesh__SamplePosition
+                            (sourcePosition,&UStack_48,100.0,
+                             (UnityEngine_AI_NavMeshQueryFilter_o)(auVar5 << 0x40),(MethodInfo *)0x0);
+          if (!bVar6) {
             return;
           }
-          local_68.fields._costs_k__BackingField = local_58;
-          local_68.fields._areaMask_k__BackingField = (int32_t)(float)uStack_50;
-          local_78 = pSVar1;
-          local_70 = fVar2;
-          fVar11 = (float)il2cpp_runtime_helper_180562c80(&local_68);
-          pUVar5 = (__this->fields)._agent;
-          if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-            fVar10 = UnityEngine_AI_NavMeshAgent__get_height(pUVar5,(MethodInfo *)0x0);
-            if (fVar10 < fVar11) {
+          fVar8 = UStack_48.fields.m_Position.fields.x;
+          fVar10 = UStack_48.fields.m_Position.fields.y;
+          fVar9 = UStack_48.fields.m_Position.fields.z;
+          if (Il2CppMethodInitialized_0753e7b7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+            Il2CppMethodInitialized_0753e7b7 = '\x01';
+          }
+          if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+          }
+          fVar9 = fVar9 - sourcePosition.fields.z;
+          fStack_68 = sourcePosition.fields.x;
+          fStack_64 = sourcePosition.fields.y;
+          fVar8 = fVar8 - fStack_68;
+          fVar10 = fVar10 - fStack_64;
+          fVar9 = fVar9 * fVar9 + fVar10 * fVar10 + fVar8 * fVar8;
+          if (fVar9 < 0.0) {
+            fVar9 = sqrtf(fVar9);
+          }
+          else {
+            fVar9 = SQRT(fVar9);
+          }
+          pUVar3 = (__this->fields)._agent;
+          if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+            fVar8 = UnityEngine_AI_NavMeshAgent__get_height(pUVar3,(MethodInfo *)0x0);
+            if (fVar8 < fVar9) {
               return;
             }
-            pUVar6 = (UnityEngine_Behaviour_o *)(__this->fields)._agent;
-            if (pUVar6 != (UnityEngine_Behaviour_o *)0x0) {
-              UnityEngine_Behaviour__set_enabled(pUVar6,false,(MethodInfo *)0x0);
-              pUVar6 = (UnityEngine_Behaviour_o *)(__this->fields)._agent;
-              if (pUVar6 != (UnityEngine_Behaviour_o *)0x0) {
-                UnityEngine_Behaviour__set_enabled(pUVar6,true,(MethodInfo *)0x0);
-                pUVar5 = (__this->fields)._agent;
-                if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                  bVar8 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar5,(MethodInfo *)0x0);
-                  if (!bVar8) {
+            pUVar4 = (UnityEngine_Behaviour_o *)(__this->fields)._agent;
+            if (pUVar4 != (UnityEngine_Behaviour_o *)0x0) {
+              UnityEngine_Behaviour__set_enabled(pUVar4,false,(MethodInfo *)0x0);
+              pUVar4 = (UnityEngine_Behaviour_o *)(__this->fields)._agent;
+              if (pUVar4 != (UnityEngine_Behaviour_o *)0x0) {
+                UnityEngine_Behaviour__set_enabled(pUVar4,true,(MethodInfo *)0x0);
+                pUVar3 = (__this->fields)._agent;
+                if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                  bVar6 = UnityEngine_AI_NavMeshAgent__get_isOnNavMesh(pUVar3,(MethodInfo *)0x0);
+                  if (!bVar6) {
                     (__this->fields)._reacquireTimeLeft = 5.0;
                     return;
                   }
-                  pUVar5 = (__this->fields)._agent;
-                  if (pUVar5 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-                    local_68.fields._areaMask_k__BackingField = (int32_t)fVar2;
-                    local_68.fields._costs_k__BackingField = pSVar1;
-                    UnityEngine_AI_NavMeshAgent__set_nextPosition
-                              (pUVar5,(UnityEngine_Vector3_o *)&local_68,(MethodInfo *)0x0);
+                  pUVar3 = (__this->fields)._agent;
+                  if (pUVar3 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+                    UnityEngine_AI_NavMeshAgent__set_nextPosition(pUVar3,sourcePosition,(MethodInfo *)0x0);
                     (__this->fields)._repathTimeLeft = 0.0;
                     return;
                   }
@@ -1807,222 +2013,266 @@ void Controllers_BaseAIController__RefreshAgent(Controllers_BaseAIController_o *
 
 // Controllers.BaseAIController$$SyncAgentPosition
 // il2cpp: void Controllers_BaseAIController__SyncAgentPosition (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x1820f2120
+// 0x5b9dd20
 
 void Controllers_BaseAIController__SyncAgentPosition
-               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *position,MethodInfo *method)
+               (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o position,MethodInfo *method)
 
 {
   UnityEngine_AI_NavMeshAgent_o *__this_00;
-  UnityEngine_Vector3_Fields local_18 [2];
   
   __this_00 = (__this->fields)._agent;
-  if (__this_00 != (UnityEngine_AI_NavMeshAgent_o *)0x0) {
-    local_18[0].x = (position->fields).x;
-    local_18[0].y = (position->fields).y;
-    local_18[0].z = (position->fields).z;
-    UnityEngine_AI_NavMeshAgent__set_nextPosition
-              (__this_00,(UnityEngine_Vector3_o *)local_18,(MethodInfo *)0x0);
-    return;
+  if (__this_00 == (UnityEngine_AI_NavMeshAgent_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UnityEngine_AI_NavMeshAgent__set_nextPosition(__this_00,position,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Controllers.BaseAIController$$GetTargetAngle
 // il2cpp: float Controllers_BaseAIController__GetTargetAngle (Controllers_BaseAIController_o* __this, UnityEngine_Vector3_o direction, const MethodInfo* method);
-// 0x1820f1550
+// 0x5b9dd40
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9dd68: mov qword ptr [rsp + 0x10], 0
+// asm:   0x5b9dd71: cmp byte ptr [rip + 0x19a09b1], 0
+// asm:   0x5b9dd78: je 0x5b9df8a
+// asm:   0x5b9dde5: jmp 0x5b9de26
 
 float Controllers_BaseAIController__GetTargetAngle
-                (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o *direction,MethodInfo *method)
+                (Controllers_BaseAIController_o *__this,UnityEngine_Vector3_o direction,MethodInfo *method)
 
 {
-  undefined4 uVar1;
+  float fVar1;
   undefined4 uVar2;
-  UnityEngine_Vector3_StaticFields *pUVar3;
+  float fVar3;
+  undefined4 uVar4;
+  uint32_t uVar5;
   Characters_BaseCharacter_o *__this_00;
-  UnityEngine_Quaternion_o *pUVar4;
-  UnityEngine_Vector3_o *pUVar5;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Vector3_c *pUVar6;
-  bool bVar7;
+  UnityEngine_Vector3_StaticFields *pUVar6;
+  undefined4 extraout_XMM0_Db;
+  undefined4 in_XMM0_Dc;
+  undefined4 in_XMM0_Dd;
+  float fVar7;
+  undefined4 in_XMM1_Db;
   float fVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  UnityEngine_Vector3_Fields local_78;
-  UnityEngine_Vector3_Fields local_68;
-  UnityEngine_Quaternion_Fields local_58;
-  UnityEngine_Quaternion_o local_48 [4];
+  undefined1 auVar9 [16];
+  undefined4 uVar10;
+  undefined4 uVar11;
+  UnityEngine_Vector3_o UVar12;
+  UnityEngine_Vector3_o euler;
+  UnityEngine_Vector3_Fields local_58;
+  undefined1 local_48 [8];
+  undefined4 uStack_40;
+  undefined4 uStack_3c;
+  UnityEngine_Vector3_Fields local_38;
+  UnityEngine_Quaternion_Fields local_28;
   
-  fVar10 = (direction->fields).x;
-  fVar11 = (direction->fields).z;
-  local_58.x = 0.0;
-  local_58.y = 0.0;
-  local_58.z = 0.0;
-  local_58.w = 0.0;
-  local_78.y = 0.0;
-  local_78.x = fVar10;
-  local_78.z = fVar11;
-  if (Il2CppMethodInitialized_18433de5f == '\0') {
+  fVar7 = direction.fields.z;
+  uStack_40 = in_XMM0_Dc;
+  local_48 = (undefined1  [8])direction.fields._0_8_;
+  uStack_3c = in_XMM0_Dd;
+  local_28 = (UnityEngine_Quaternion_Fields)ZEXT816(0);
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5f = '\x01';
+    Il2CppMethodInitialized_0753e72d = '\x01';
   }
-  fVar8 = (float)il2cpp_runtime_helper_180546a40(&local_78);
-  pUVar6 = TypeInfo_UnityEngine_Vector3;
-  if (fVar8 <= 1e-05) {
-    pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar10 = (pUVar3->zeroVector).fields.x;
-    fVar12 = (pUVar3->zeroVector).fields.y;
-    fVar11 = (pUVar3->zeroVector).fields.z;
+  if (Il2CppMethodInitialized_0753e729 == '\0') {
+    local_58.x = 0.0;
+    local_58.y = 0.0;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_0753e729 = '\x01';
+    uVar5 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
   }
   else {
-    fVar10 = fVar10 / fVar8;
-    fVar12 = 0.0 / fVar8;
-    fVar11 = fVar11 / fVar8;
+    local_58.x = 0.0;
+    local_58.y = 0.0;
+    uVar5 = (((Il2CppClass *)TypeInfo_System_Math)->_2).cctor_finished_or_no_cctor;
   }
-  bVar7 = Il2CppMethodInitialized_18433dbea == '\0';
-  (direction->fields).x = fVar10;
-  (direction->fields).y = fVar12;
-  (direction->fields).z = fVar11;
-  if (bVar7) {
+  if (uVar5 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  fVar1 = fVar7 * fVar7 + (float)local_48._0_4_ * (float)local_48._0_4_ + 0.0;
+  if (fVar1 < 0.0) {
+    fVar1 = sqrtf(fVar1);
+    in_XMM1_Db = extraout_XMM0_Db;
+  }
+  else {
+    fVar1 = SQRT(fVar1);
+  }
+  if (fVar1 <= 1e-05) {
+    pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar7 = (pUVar6->zeroVector).fields.z;
+    fVar1 = (pUVar6->zeroVector).fields.x;
+    fVar3 = (pUVar6->zeroVector).fields.y;
+  }
+  else {
+    fVar7 = fVar7 / fVar1;
+    auVar9._4_4_ = fVar1;
+    auVar9._0_4_ = fVar1;
+    auVar9._8_4_ = in_XMM1_Db;
+    auVar9._12_4_ = in_XMM1_Db;
+    auVar9 = divps(ZEXT416((uint)local_48._0_4_),auVar9);
+    local_58._0_8_ = auVar9._0_8_;
+    fVar1 = auVar9._0_4_;
+    fVar3 = auVar9._4_4_;
+  }
+  uVar10 = 0;
+  uVar11 = 0;
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
+    local_48._4_4_ = fVar3;
+    local_48._0_4_ = fVar1;
+    _uStack_40 = 0;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbea = '\x01';
-    pUVar6 = TypeInfo_UnityEngine_Vector3;
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
+    fVar1 = (float)local_48._0_4_;
+    fVar3 = (float)local_48._4_4_;
+    uVar10 = uStack_40;
+    uVar11 = uStack_3c;
   }
-  pUVar3 = pUVar6->static_fields;
-  fVar8 = (direction->fields).x - (pUVar3->zeroVector).fields.x;
-  fVar9 = (direction->fields).y - (pUVar3->zeroVector).fields.y;
-  fVar11 = fVar11 - (pUVar3->zeroVector).fields.z;
-  if (9.9999994e-11 <= fVar9 * fVar9 + fVar8 * fVar8 + fVar11 * fVar11) {
-    if (Il2CppMethodInitialized_18433de5c == '\0') {
+  pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar2 = (pUVar6->zeroVector).fields.x;
+  uVar4 = (pUVar6->zeroVector).fields.y;
+  fVar8 = fVar7 - (pUVar6->zeroVector).fields.z;
+  if ((fVar3 - (float)uVar4) * (fVar3 - (float)uVar4) + (fVar1 - (float)uVar2) * (fVar1 - (float)uVar2) +
+      fVar8 * fVar8 < 9.9999994e-11) {
+    __this_00 = (__this->fields)._character;
+    if ((__this_00 == (Characters_BaseCharacter_o *)0x0) ||
+       (__this_01 = UnityEngine_Component__get_transform
+                              ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0),
+       __this_01 == (UnityEngine_Transform_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    UVar12 = UnityEngine_Transform__get_eulerAngles(__this_01,(MethodInfo *)0x0);
+    fVar7 = UVar12.fields.y;
+  }
+  else {
+    if (g_data_0753e72c == '\0') {
+      local_48._4_4_ = fVar3;
+      local_48._0_4_ = fVar1;
+      uStack_40 = uVar10;
+      uStack_3c = uVar11;
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433de5c = '\x01';
-      pUVar6 = TypeInfo_UnityEngine_Vector3;
+      g_data_0753e72c = '\x01';
+      pUVar6 = TypeInfo_UnityEngine_Vector3->static_fields;
+      fVar1 = (float)local_48._0_4_;
+      fVar3 = (float)local_48._4_4_;
     }
-    pUVar3 = pUVar6->static_fields;
-    local_68.y = fVar12;
-    local_68.x = fVar10;
-    local_78.x = (pUVar3->upVector).fields.x;
-    local_78.y = (pUVar3->upVector).fields.y;
-    local_78.z = (pUVar3->upVector).fields.z;
-    local_68.z = (direction->fields).z;
-    pUVar4 = UnityEngine_Quaternion__Internal_LookRotation
-                       (local_48,(UnityEngine_Vector3_o *)&local_68,(UnityEngine_Vector3_o *)&local_78,
-                        (MethodInfo *)0x0);
-    local_58.x = (pUVar4->fields).x;
-    local_58.y = (pUVar4->fields).y;
-    local_58.z = (pUVar4->fields).z;
-    local_58.w = (pUVar4->fields).w;
-    pUVar5 = UnityEngine_Quaternion__Internal_ToEulerRad
-                       ((UnityEngine_Vector3_o *)&local_78,(UnityEngine_Quaternion_o *)&local_58,
-                        (MethodInfo *)0x0);
-    uVar1 = (pUVar5->fields).x;
-    uVar2 = (pUVar5->fields).y;
-    local_68.y = (float)uVar2 * 57.29578;
-    local_68.x = (float)uVar1 * 57.29578;
-    local_68.z = (pUVar5->fields).z * 57.29578;
-    pUVar5 = UnityEngine_Quaternion__Internal_MakePositive
-                       ((UnityEngine_Vector3_o *)&local_78,(UnityEngine_Vector3_o *)&local_68,
-                        (MethodInfo *)0x0);
-label_1820f171a:
-    return (pUVar5->fields).y;
+    local_38.x = (pUVar6->upVector).fields.x;
+    local_38.y = (pUVar6->upVector).fields.y;
+    local_38.z = (pUVar6->upVector).fields.z;
+    local_58.y = fVar3;
+    local_58.x = fVar1;
+    local_58.z = fVar7;
+    local_28 = (UnityEngine_Quaternion_Fields)
+               UnityEngine_Quaternion__Internal_LookRotation
+                         ((UnityEngine_Vector3_o *)&local_58,(UnityEngine_Vector3_o *)&local_38,
+                          (MethodInfo *)0x0);
+    UVar12 = UnityEngine_Quaternion__Internal_ToEulerRad
+                       ((UnityEngine_Quaternion_o *)&local_28,(MethodInfo *)0x0);
+    euler.fields.x = UVar12.fields.x * 57.29578;
+    euler.fields.y = UVar12.fields.y * 57.29578;
+    euler.fields.z = UVar12.fields.z * 57.29578;
+    UVar12 = UnityEngine_Quaternion__Internal_MakePositive(euler,(MethodInfo *)0x0);
+    fVar7 = UVar12.fields.y;
   }
-  __this_00 = (__this->fields)._character;
-  if (__this_00 != (Characters_BaseCharacter_o *)0x0) {
-    __this_01 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-    if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-      pUVar5 = UnityEngine_Transform__get_eulerAngles
-                         ((UnityEngine_Vector3_o *)&local_68,__this_01,(MethodInfo *)0x0);
-      goto label_1820f171a;
-    }
-  }
-  ThrowNullReferenceException();
+  return fVar7;
 }
 
 
 // Controllers.BaseAIController$$GetTargetRotation
 // il2cpp: UnityEngine_Quaternion_o Controllers_BaseAIController__GetTargetRotation (Controllers_BaseAIController_o* __this, float angle, const MethodInfo* method);
-// 0x1820f1850
+// 0x5b9dfd0
 
-UnityEngine_Quaternion_o *
+UnityEngine_Quaternion_o
 Controllers_BaseAIController__GetTargetRotation
-          (UnityEngine_Quaternion_o *__return_storage_ptr__,Controllers_BaseAIController_o *__this,float angle
-          ,MethodInfo *method)
+          (Controllers_BaseAIController_o *__this,float angle,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  UnityEngine_Quaternion_o *pUVar4;
-  UnityEngine_Vector3_o local_28;
-  UnityEngine_Quaternion_o local_18;
+  UnityEngine_Quaternion_Fields UVar1;
+  UnityEngine_Vector3_o UStack_10;
   
-  local_28.fields.y = angle * 0.017453292;
-  local_28.fields.x = 0.0;
-  local_28.fields.z = 0.0;
-  pUVar4 = UnityEngine_Quaternion__Internal_FromEulerRad(&local_18,&local_28,(MethodInfo *)0x0);
-  fVar1 = (pUVar4->fields).y;
-  fVar2 = (pUVar4->fields).z;
-  fVar3 = (pUVar4->fields).w;
-  (__return_storage_ptr__->fields).x = (pUVar4->fields).x;
-  (__return_storage_ptr__->fields).y = fVar1;
-  (__return_storage_ptr__->fields).z = fVar2;
-  (__return_storage_ptr__->fields).w = fVar3;
-  return __return_storage_ptr__;
+  UStack_10.fields.x = 0.0;
+  UStack_10.fields.y = angle * 0.017453292;
+  UStack_10.fields.z = 0.0;
+  UVar1 = (UnityEngine_Quaternion_Fields)
+          UnityEngine_Quaternion__Internal_FromEulerRad(&UStack_10,(MethodInfo *)0x0);
+  return (UnityEngine_Quaternion_o)UVar1;
 }
 
 
 // Controllers.BaseAIController$$GetTargetDirection
 // il2cpp: UnityEngine_Vector3_o Controllers_BaseAIController__GetTargetDirection (Controllers_BaseAIController_o* __this, float angle, const MethodInfo* method);
-// 0x1820f1770
+// 0x5b9e010
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5b9e05c: mov qword ptr [rsp + 8], 0
+// asm:   0x5b9e065: cmp byte ptr [rip + 0x19a06bd], 0
+// asm:   0x5b9e06c: je 0x5b9e147
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 Controllers_BaseAIController__GetTargetDirection
-          (UnityEngine_Vector3_o *__return_storage_ptr__,Controllers_BaseAIController_o *__this,float angle,
-          MethodInfo *method)
+          (Controllers_BaseAIController_o *__this,float angle,MethodInfo *method)
 
 {
-  UnityEngine_Vector3_StaticFields *pUVar1;
+  uint32_t uVar1;
   float fVar2;
   float fVar3;
+  undefined4 extraout_XMM0_Db;
+  undefined4 extraout_XMM0_Db_00;
   float fVar4;
-  float fVar5;
-  float local_48 [16];
+  undefined1 auVar5 [16];
+  undefined4 uVar6;
+  UnityEngine_Vector3_o UVar7;
   
   fVar4 = (90.0 - angle) * 0.017453292;
-  fVar2 = (float)il2cpp_runtime_helper_1804f54c0(fVar4);
-  fVar4 = (float)il2cpp_runtime_helper_1804f5fc0(fVar4);
-  local_48[1] = 0.0;
-  local_48[0] = fVar2;
-  local_48[2] = fVar4;
-  if (Il2CppMethodInitialized_18433de5f == '\0') {
+  fVar2 = cosf(fVar4);
+  fVar4 = sinf(fVar4);
+  uVar6 = extraout_XMM0_Db;
+  if (Il2CppMethodInitialized_0753e72d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433de5f = '\x01';
+    uVar6 = 0;
+    Il2CppMethodInitialized_0753e72d = '\x01';
   }
-  fVar3 = (float)il2cpp_runtime_helper_180546a40(local_48,0);
-  if (fVar3 <= 1e-05) {
-    pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar2 = (pUVar1->zeroVector).fields.x;
-    fVar5 = (pUVar1->zeroVector).fields.y;
-    fVar4 = (pUVar1->zeroVector).fields.z;
+  if (Il2CppMethodInitialized_0753e729 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    uVar6 = 0;
+    Il2CppMethodInitialized_0753e729 = '\x01';
+    uVar1 = (TypeInfo_System_Math->_2).cctor_finished_or_no_cctor;
   }
   else {
-    fVar2 = fVar2 / fVar3;
-    fVar5 = 0.0 / fVar3;
-    fVar4 = fVar4 / fVar3;
+    uVar1 = (((Il2CppClass *)TypeInfo_System_Math)->_2).cctor_finished_or_no_cctor;
   }
-  (__return_storage_ptr__->fields).x = fVar2;
-  (__return_storage_ptr__->fields).y = fVar5;
-  (__return_storage_ptr__->fields).z = fVar4;
-  return __return_storage_ptr__;
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    uVar6 = 0;
+  }
+  fVar3 = fVar4 * fVar4 + fVar2 * fVar2 + 0.0;
+  if (fVar3 < 0.0) {
+    fVar3 = sqrtf(fVar3);
+    uVar6 = extraout_XMM0_Db_00;
+  }
+  else {
+    fVar3 = SQRT(fVar3);
+  }
+  if (fVar3 <= 1e-05) {
+    return (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
+  }
+  auVar5._4_4_ = fVar3;
+  auVar5._0_4_ = fVar3;
+  auVar5._8_4_ = uVar6;
+  auVar5._12_4_ = uVar6;
+  auVar5 = divps(ZEXT416((uint)fVar2),auVar5);
+  UVar7.fields.z = fVar4 / fVar3;
+  UVar7.fields.x = (float)auVar5._0_4_;
+  UVar7.fields.y = (float)auVar5._4_4_;
+  return (UnityEngine_Vector3_o)UVar7.fields;
 }
 
 
 // Controllers.BaseAIController$$.ctor
 // il2cpp: void Controllers_BaseAIController___ctor (Controllers_BaseAIController_o* __this, const MethodInfo* method);
-// 0x1820f2630
+// 0x5b9e190
 
 void Controllers_BaseAIController___ctor(Controllers_BaseAIController_o *__this,MethodInfo *method)
 

@@ -19,32 +19,32 @@ internal sealed class MergeFilterQuery : CacheOutputQuery
 	private Query _child;
 
 	[Token(Token = "0x6001B56")]
-	[Address(RVA = "0x26BFF60", Offset = "0x26BE560", VA = "0x1826BFF60")]
+	[Address(RVA = "0x6087A10", Offset = "0x6086A10", VA = "0x6087A10")]
 	public MergeFilterQuery(Query input, Query child)
 	{
 	}
 
 	[Token(Token = "0x6001B57")]
-	[Address(RVA = "0x26BFFA0", Offset = "0x26BE5A0", VA = "0x1826BFFA0")]
+	[Address(RVA = "0x6087A40", Offset = "0x6086A40", VA = "0x6087A40")]
 	private MergeFilterQuery(MergeFilterQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B58")]
-	[Address(RVA = "0x26BFF00", Offset = "0x26BE500", VA = "0x1826BFF00", Slot = "13")]
+	[Address(RVA = "0x6087A80", Offset = "0x6086A80", VA = "0x6087A80", Slot = "13")]
 	public override void SetXsltContext(XsltContext xsltContext)
 	{
 	}
 
 	[Token(Token = "0x6001B59")]
-	[Address(RVA = "0x26BFE60", Offset = "0x26BE460", VA = "0x1826BFE60", Slot = "14")]
+	[Address(RVA = "0x6087AD0", Offset = "0x6086AD0", VA = "0x6087AD0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B5A")]
-	[Address(RVA = "0x26BFDE0", Offset = "0x26BE3E0", VA = "0x1826BFDE0", Slot = "6")]
+	[Address(RVA = "0x6087BE0", Offset = "0x6086BE0", VA = "0x6087BE0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

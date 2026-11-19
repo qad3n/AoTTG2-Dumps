@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.DeferredLights
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -238,7 +238,7 @@ internal class DeferredLights
 		internal Vector2Int cameraTargetSizeCopy;
 
 		[Token(Token = "0x6000B45")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66BC6A0", Offset = "0x66BB6A0", VA = "0x66BC6A0")]
 		public SetupLightPassData()
 		{
 		}
@@ -380,7 +380,7 @@ internal class DeferredLights
 	internal int GBufferAlbedoIndex
 	{
 		[Token(Token = "0x6000AE9")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
+		[Address(RVA = "0x66B3140", Offset = "0x66B2140", VA = "0x66B3140")]
 		get
 		{
 			return default(int);
@@ -391,7 +391,7 @@ internal class DeferredLights
 	internal int GBufferSpecularMetallicIndex
 	{
 		[Token(Token = "0x6000AEA")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
+		[Address(RVA = "0x66B3150", Offset = "0x66B2150", VA = "0x66B3150")]
 		get
 		{
 			return default(int);
@@ -402,7 +402,7 @@ internal class DeferredLights
 	internal int GBufferNormalSmoothnessIndex
 	{
 		[Token(Token = "0x6000AEB")]
-		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
+		[Address(RVA = "0x66B3160", Offset = "0x66B2160", VA = "0x66B3160")]
 		get
 		{
 			return default(int);
@@ -413,7 +413,7 @@ internal class DeferredLights
 	internal int GBufferLightingIndex
 	{
 		[Token(Token = "0x6000AEC")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0")]
+		[Address(RVA = "0x66B3170", Offset = "0x66B2170", VA = "0x66B3170")]
 		get
 		{
 			return default(int);
@@ -424,7 +424,7 @@ internal class DeferredLights
 	internal int GbufferDepthIndex
 	{
 		[Token(Token = "0x6000AED")]
-		[Address(RVA = "0x2CC44B0", Offset = "0x2CC2AB0", VA = "0x182CC44B0")]
+		[Address(RVA = "0x66B3180", Offset = "0x66B2180", VA = "0x66B3180")]
 		get
 		{
 			return default(int);
@@ -435,7 +435,7 @@ internal class DeferredLights
 	internal int GBufferRenderingLayers
 	{
 		[Token(Token = "0x6000AEE")]
-		[Address(RVA = "0x2CC42F0", Offset = "0x2CC28F0", VA = "0x182CC42F0")]
+		[Address(RVA = "0x66B3190", Offset = "0x66B2190", VA = "0x66B3190")]
 		get
 		{
 			return default(int);
@@ -446,7 +446,7 @@ internal class DeferredLights
 	internal int GBufferShadowMask
 	{
 		[Token(Token = "0x6000AEF")]
-		[Address(RVA = "0x2CC4370", Offset = "0x2CC2970", VA = "0x182CC4370")]
+		[Address(RVA = "0x66B32B0", Offset = "0x66B22B0", VA = "0x66B32B0")]
 		get
 		{
 			return default(int);
@@ -457,7 +457,7 @@ internal class DeferredLights
 	internal int GBufferSliceCount
 	{
 		[Token(Token = "0x6000AF0")]
-		[Address(RVA = "0x2CC4410", Offset = "0x2CC2A10", VA = "0x182CC4410")]
+		[Address(RVA = "0x66B3360", Offset = "0x66B2360", VA = "0x66B3360")]
 		get
 		{
 			return default(int);
@@ -468,7 +468,7 @@ internal class DeferredLights
 	internal int GBufferInputAttachmentCount
 	{
 		[Token(Token = "0x6000AF1")]
-		[Address(RVA = "0x2CC42E0", Offset = "0x2CC28E0", VA = "0x182CC42E0")]
+		[Address(RVA = "0x66B3420", Offset = "0x66B2420", VA = "0x66B3420")]
 		get
 		{
 			return default(int);
@@ -479,7 +479,7 @@ internal class DeferredLights
 	internal bool UseShadowMask
 	{
 		[Token(Token = "0x6000AF3")]
-		[Address(RVA = "0x2CC45B0", Offset = "0x2CC2BB0", VA = "0x182CC45B0")]
+		[Address(RVA = "0x66B3350", Offset = "0x66B2350", VA = "0x66B3350")]
 		get
 		{
 			return default(bool);
@@ -490,7 +490,7 @@ internal class DeferredLights
 	internal bool UseRenderingLayers
 	{
 		[Token(Token = "0x6000AF4")]
-		[Address(RVA = "0x2CC4540", Offset = "0x2CC2B40", VA = "0x182CC4540")]
+		[Address(RVA = "0x66B3220", Offset = "0x66B2220", VA = "0x66B3220")]
 		get
 		{
 			return default(bool);
@@ -501,14 +501,14 @@ internal class DeferredLights
 	internal RenderingLayerUtils.MaskSize RenderingLayerMaskSize
 	{
 		[Token(Token = "0x6000AF5")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x66B36A0", Offset = "0x66B26A0", VA = "0x66B36A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(RenderingLayerUtils.MaskSize);
 		}
 		[Token(Token = "0x6000AF6")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x66B36B0", Offset = "0x66B26B0", VA = "0x66B36B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -519,14 +519,14 @@ internal class DeferredLights
 	internal bool UseDecalLayers
 	{
 		[Token(Token = "0x6000AF7")]
-		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
+		[Address(RVA = "0x66B36C0", Offset = "0x66B26C0", VA = "0x66B36C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AF8")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x66B36D0", Offset = "0x66B26D0", VA = "0x66B36D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -537,7 +537,7 @@ internal class DeferredLights
 	internal bool UseLightLayers
 	{
 		[Token(Token = "0x6000AF9")]
-		[Address(RVA = "0x2CC44E0", Offset = "0x2CC2AE0", VA = "0x182CC44E0")]
+		[Address(RVA = "0x66B3630", Offset = "0x66B2630", VA = "0x66B3630")]
 		get
 		{
 			return default(bool);
@@ -548,14 +548,14 @@ internal class DeferredLights
 	internal bool UseFramebufferFetch
 	{
 		[Token(Token = "0x6000AFA")]
-		[Address(RVA = "0x1A78700", Offset = "0x1A76D00", VA = "0x181A78700")]
+		[Address(RVA = "0x66B36E0", Offset = "0x66B26E0", VA = "0x66B36E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AFB")]
-		[Address(RVA = "0x1A78720", Offset = "0x1A76D20", VA = "0x181A78720")]
+		[Address(RVA = "0x66B36F0", Offset = "0x66B26F0", VA = "0x66B36F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -566,14 +566,14 @@ internal class DeferredLights
 	internal bool HasDepthPrepass
 	{
 		[Token(Token = "0x6000AFC")]
-		[Address(RVA = "0x29532F0", Offset = "0x29518F0", VA = "0x1829532F0")]
+		[Address(RVA = "0x66B3700", Offset = "0x66B2700", VA = "0x66B3700")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AFD")]
-		[Address(RVA = "0x2CC45C0", Offset = "0x2CC2BC0", VA = "0x182CC45C0")]
+		[Address(RVA = "0x66B3710", Offset = "0x66B2710", VA = "0x66B3710")]
 		[CompilerGenerated]
 		set
 		{
@@ -584,14 +584,14 @@ internal class DeferredLights
 	internal bool HasNormalPrepass
 	{
 		[Token(Token = "0x6000AFE")]
-		[Address(RVA = "0x2CC44D0", Offset = "0x2CC2AD0", VA = "0x182CC44D0")]
+		[Address(RVA = "0x66B3720", Offset = "0x66B2720", VA = "0x66B3720")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AFF")]
-		[Address(RVA = "0x2CC45D0", Offset = "0x2CC2BD0", VA = "0x182CC45D0")]
+		[Address(RVA = "0x66B3730", Offset = "0x66B2730", VA = "0x66B3730")]
 		[CompilerGenerated]
 		set
 		{
@@ -602,14 +602,14 @@ internal class DeferredLights
 	internal bool HasRenderingLayerPrepass
 	{
 		[Token(Token = "0x6000B00")]
-		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
+		[Address(RVA = "0x66B3740", Offset = "0x66B2740", VA = "0x66B3740")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B01")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x66B3750", Offset = "0x66B2750", VA = "0x66B3750")]
 		[CompilerGenerated]
 		set
 		{
@@ -620,14 +620,14 @@ internal class DeferredLights
 	internal bool AccurateGbufferNormals
 	{
 		[Token(Token = "0x6000B02")]
-		[Address(RVA = "0xE8F450", Offset = "0xE8DA50", VA = "0x180E8F450")]
+		[Address(RVA = "0x66B3760", Offset = "0x66B2760", VA = "0x66B3760")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B03")]
-		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
+		[Address(RVA = "0x66B3770", Offset = "0x66B2770", VA = "0x66B3770")]
 		[CompilerGenerated]
 		set
 		{
@@ -638,14 +638,14 @@ internal class DeferredLights
 	internal MixedLightingSetup MixedLightingSetup
 	{
 		[Token(Token = "0x6000B04")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x66B3780", Offset = "0x66B2780", VA = "0x66B3780")]
 		[CompilerGenerated]
 		get
 		{
 			return default(MixedLightingSetup);
 		}
 		[Token(Token = "0x6000B05")]
-		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
+		[Address(RVA = "0x66B3790", Offset = "0x66B2790", VA = "0x66B3790")]
 		[CompilerGenerated]
 		set
 		{
@@ -656,14 +656,14 @@ internal class DeferredLights
 	internal bool UseJobSystem
 	{
 		[Token(Token = "0x6000B06")]
-		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
+		[Address(RVA = "0x66B37A0", Offset = "0x66B27A0", VA = "0x66B37A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000B07")]
-		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
+		[Address(RVA = "0x66B37B0", Offset = "0x66B27B0", VA = "0x66B37B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -674,14 +674,14 @@ internal class DeferredLights
 	internal int RenderWidth
 	{
 		[Token(Token = "0x6000B08")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x66B37C0", Offset = "0x66B27C0", VA = "0x66B37C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000B09")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x66B37D0", Offset = "0x66B27D0", VA = "0x66B37D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -692,14 +692,14 @@ internal class DeferredLights
 	internal int RenderHeight
 	{
 		[Token(Token = "0x6000B0A")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x66B37E0", Offset = "0x66B27E0", VA = "0x66B37E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000B0B")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x66B37F0", Offset = "0x66B27F0", VA = "0x66B37F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -710,14 +710,14 @@ internal class DeferredLights
 	internal RTHandle[] GbufferAttachments
 	{
 		[Token(Token = "0x6000B0C")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x66B3800", Offset = "0x66B2800", VA = "0x66B3800")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B0D")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x66B3810", Offset = "0x66B2810", VA = "0x66B3810")]
 		[CompilerGenerated]
 		set
 		{
@@ -728,14 +728,14 @@ internal class DeferredLights
 	internal TextureHandle[] GbufferTextureHandles
 	{
 		[Token(Token = "0x6000B0E")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x66B3820", Offset = "0x66B2820", VA = "0x66B3820")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B0F")]
-		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
+		[Address(RVA = "0x66B3830", Offset = "0x66B2830", VA = "0x66B3830")]
 		[CompilerGenerated]
 		set
 		{
@@ -746,14 +746,14 @@ internal class DeferredLights
 	internal RTHandle[] DeferredInputAttachments
 	{
 		[Token(Token = "0x6000B10")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x66B3840", Offset = "0x66B2840", VA = "0x66B3840")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B11")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x66B3850", Offset = "0x66B2850", VA = "0x66B3850")]
 		[CompilerGenerated]
 		set
 		{
@@ -764,14 +764,14 @@ internal class DeferredLights
 	internal bool[] DeferredInputIsTransient
 	{
 		[Token(Token = "0x6000B12")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x66B3860", Offset = "0x66B2860", VA = "0x66B3860")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B13")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Address(RVA = "0x66B3870", Offset = "0x66B2870", VA = "0x66B3870")]
 		[CompilerGenerated]
 		set
 		{
@@ -782,14 +782,14 @@ internal class DeferredLights
 	internal RTHandle DepthAttachment
 	{
 		[Token(Token = "0x6000B14")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x66B3880", Offset = "0x66B2880", VA = "0x66B3880")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B15")]
-		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+		[Address(RVA = "0x66B3890", Offset = "0x66B2890", VA = "0x66B3890")]
 		[CompilerGenerated]
 		set
 		{
@@ -800,14 +800,14 @@ internal class DeferredLights
 	internal RTHandle DepthCopyTexture
 	{
 		[Token(Token = "0x6000B16")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x66B38A0", Offset = "0x66B28A0", VA = "0x66B38A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B17")]
-		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
+		[Address(RVA = "0x66B38B0", Offset = "0x66B28B0", VA = "0x66B38B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -818,14 +818,14 @@ internal class DeferredLights
 	internal GraphicsFormat[] GbufferFormats
 	{
 		[Token(Token = "0x6000B18")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x66B38C0", Offset = "0x66B28C0", VA = "0x66B38C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B19")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x66B38D0", Offset = "0x66B28D0", VA = "0x66B38D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -836,14 +836,14 @@ internal class DeferredLights
 	internal RTHandle DepthAttachmentHandle
 	{
 		[Token(Token = "0x6000B1A")]
-		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
+		[Address(RVA = "0x66B38E0", Offset = "0x66B28E0", VA = "0x66B38E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B1B")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x66B38F0", Offset = "0x66B28F0", VA = "0x66B38F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -851,250 +851,250 @@ internal class DeferredLights
 	}
 
 	[Token(Token = "0x6000AF2")]
-	[Address(RVA = "0x2CBE150", Offset = "0x2CBC750", VA = "0x182CBE150")]
+	[Address(RVA = "0x66B3430", Offset = "0x66B2430", VA = "0x66B3430")]
 	internal GraphicsFormat GetGBufferFormat(int index)
 	{
 		return default(GraphicsFormat);
 	}
 
 	[Token(Token = "0x6000B1C")]
-	[Address(RVA = "0x2CC3FA0", Offset = "0x2CC25A0", VA = "0x182CC3FA0")]
+	[Address(RVA = "0x66B3900", Offset = "0x66B2900", VA = "0x66B3900")]
 	internal DeferredLights(InitParams initParams, bool useNativeRenderPass = false)
 	{
 	}
 
 	[Token(Token = "0x6000B1D")]
-	[Address(RVA = "0x2CC2BB0", Offset = "0x2CC11B0", VA = "0x182CC2BB0")]
+	[Address(RVA = "0x66B4280", Offset = "0x66B3280", VA = "0x66B4280")]
 	internal void SetupRenderGraphLights(RenderGraph renderGraph, UniversalCameraData cameraData, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000B1E")]
-	[Address(RVA = "0x2CC23F0", Offset = "0x2CC09F0", VA = "0x182CC23F0")]
+	[Address(RVA = "0x66B46C0", Offset = "0x66B36C0", VA = "0x66B46C0")]
 	internal void SetupLights(CommandBuffer cmd, UniversalCameraData cameraData, Vector2Int cameraTargetSizeCopy, UniversalLightData lightData, bool isRenderGraph = false)
 	{
 	}
 
 	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x2CC1FA0", Offset = "0x2CC05A0", VA = "0x182CC1FA0")]
+	[Address(RVA = "0x66B5020", Offset = "0x66B4020", VA = "0x66B5020")]
 	internal void ResolveMixedLightingMode(UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000B20")]
-	[Address(RVA = "0x2CBDB40", Offset = "0x2CBC140", VA = "0x182CBDB40")]
+	[Address(RVA = "0x66B5170", Offset = "0x66B4170", VA = "0x66B5170")]
 	internal void DisableFramebufferFetchInput()
 	{
 	}
 
 	[Token(Token = "0x6000B21")]
-	[Address(RVA = "0x2CBF950", Offset = "0x2CBDF50", VA = "0x182CBF950")]
+	[Address(RVA = "0x66B5560", Offset = "0x66B4560", VA = "0x66B5560")]
 	internal void ReleaseGbufferResources()
 	{
 	}
 
 	[Token(Token = "0x6000B22")]
-	[Address(RVA = "0x2CBF750", Offset = "0x2CBDD50", VA = "0x182CBF750")]
+	[Address(RVA = "0x66B55F0", Offset = "0x66B45F0", VA = "0x66B55F0")]
 	internal void ReAllocateGBufferIfNeeded(RenderTextureDescriptor gbufferSlice, int gbufferIndex)
 	{
 	}
 
 	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x2CBC9B0", Offset = "0x2CBAFB0", VA = "0x182CBC9B0")]
+	[Address(RVA = "0x66B5180", Offset = "0x66B4180", VA = "0x66B5180")]
 	internal void CreateGbufferResources()
 	{
 	}
 
 	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x2CBC5B0", Offset = "0x2CBABB0", VA = "0x182CBC5B0")]
+	[Address(RVA = "0x66B57D0", Offset = "0x66B47D0", VA = "0x66B57D0")]
 	internal void CreateGbufferResourcesRenderGraph(RenderGraph renderGraph, UniversalResourceData resourceData)
 	{
 	}
 
 	[Token(Token = "0x6000B25")]
-	[Address(RVA = "0x2CC3260", Offset = "0x2CC1860", VA = "0x182CC3260")]
+	[Address(RVA = "0x66B5DE0", Offset = "0x66B4DE0", VA = "0x66B5DE0")]
 	internal void UpdateDeferredInputAttachments()
 	{
 	}
 
 	[Token(Token = "0x6000B26")]
-	[Address(RVA = "0x2CBED70", Offset = "0x2CBD370", VA = "0x182CBED70")]
+	[Address(RVA = "0x66B6440", Offset = "0x66B5440", VA = "0x66B6440")]
 	internal bool IsRuntimeSupportedThisFrame()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x2CC2F70", Offset = "0x2CC1570", VA = "0x182CC2F70")]
+	[Address(RVA = "0x66B6590", Offset = "0x66B5590", VA = "0x66B6590")]
 	public void Setup(AdditionalLightsShadowCasterPass additionalLightsShadowCasterPass, bool hasDepthPrepass, bool hasNormalPrepass, bool hasRenderingLayerPrepass, RTHandle depthCopyTexture, RTHandle depthAttachment, RTHandle colorAttachment)
 	{
 	}
 
 	[Token(Token = "0x6000B28")]
-	[Address(RVA = "0x58A900", Offset = "0x588F00", VA = "0x18058A900")]
+	[Address(RVA = "0x66B68A0", Offset = "0x66B58A0", VA = "0x66B68A0")]
 	internal void Setup(AdditionalLightsShadowCasterPass additionalLightsShadowCasterPass)
 	{
 	}
 
 	[Token(Token = "0x6000B29")]
-	[Address(RVA = "0x2CBEE00", Offset = "0x2CBD400", VA = "0x182CBEE00")]
+	[Address(RVA = "0x66B68C0", Offset = "0x66B58C0", VA = "0x66B68C0")]
 	public void OnCameraCleanup(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000B2A")]
-	[Address(RVA = "0x2CBF1A0", Offset = "0x2CBD7A0", VA = "0x182CBF1A0")]
+	[Address(RVA = "0x66B6980", Offset = "0x66B5980", VA = "0x66B6980")]
 	internal static StencilState OverwriteStencil(StencilState s, int stencilWriteMask)
 	{
 		return default(StencilState);
 	}
 
 	[Token(Token = "0x6000B2B")]
-	[Address(RVA = "0x2CBEEC0", Offset = "0x2CBD4C0", VA = "0x182CBEEC0")]
+	[Address(RVA = "0x66B6B20", Offset = "0x66B5B20", VA = "0x66B6B20")]
 	internal static RenderStateBlock OverwriteStencil(RenderStateBlock block, int stencilWriteMask, int stencilRef)
 	{
 		return default(RenderStateBlock);
 	}
 
 	[Token(Token = "0x6000B2C")]
-	[Address(RVA = "0x2CBDB50", Offset = "0x2CBC150", VA = "0x182CBDB50")]
+	[Address(RVA = "0x66B6DB0", Offset = "0x66B5DB0", VA = "0x66B6DB0")]
 	internal void ExecuteDeferredPass(RasterCommandBuffer cmd, UniversalCameraData cameraData, UniversalLightData lightData, UniversalShadowData shadowData)
 	{
 	}
 
 	[Token(Token = "0x6000B2D")]
-	[Address(RVA = "0x2CC2F60", Offset = "0x2CC1560", VA = "0x182CC2F60")]
+	[Address(RVA = "0x66B5010", Offset = "0x66B4010", VA = "0x66B5010")]
 	private void SetupShaderLightConstants(CommandBuffer cmd, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000B2E")]
-	[Address(RVA = "0x2CC2840", Offset = "0x2CC0E40", VA = "0x182CC2840")]
+	[Address(RVA = "0x66B8140", Offset = "0x66B7140", VA = "0x66B8140")]
 	private void SetupMainLightConstants(CommandBuffer cmd, UniversalLightData lightData)
 	{
 	}
 
 	[Token(Token = "0x6000B2F")]
-	[Address(RVA = "0x2CBE270", Offset = "0x2CBC870", VA = "0x182CBE270")]
+	[Address(RVA = "0x66B84B0", Offset = "0x66B74B0", VA = "0x66B84B0")]
 	internal Matrix4x4[] GetScreenToWorldMatrix(UniversalCameraData cameraData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B30")]
-	[Address(RVA = "0x2CC2B20", Offset = "0x2CC1120", VA = "0x182CC2B20")]
+	[Address(RVA = "0x66B7300", Offset = "0x66B6300", VA = "0x66B7300")]
 	private void SetupMatrixConstants(RasterCommandBuffer cmd, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000B31")]
-	[Address(RVA = "0x2CBF3A0", Offset = "0x2CBD9A0", VA = "0x182CBF3A0")]
+	[Address(RVA = "0x66B4B90", Offset = "0x66B3B90", VA = "0x66B4B90")]
 	private void PrecomputeLights(out NativeArray<ushort> stencilVisLights, out NativeArray<ushort> stencilVisLightOffsets, ref NativeArray<VisibleLight> visibleLights, bool hasAdditionalLights)
 	{
 	}
 
 	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x2CBE630", Offset = "0x2CBCC30", VA = "0x182CBE630")]
+	[Address(RVA = "0x66B7390", Offset = "0x66B6390", VA = "0x66B7390")]
 	private bool HasStencilLightsOfType(LightType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x2CBF9F0", Offset = "0x2CBDFF0", VA = "0x182CBF9F0")]
+	[Address(RVA = "0x66B75A0", Offset = "0x66B65A0", VA = "0x66B75A0")]
 	private void RenderClusterLights(RasterCommandBuffer cmd, UniversalShadowData shadowData)
 	{
 	}
 
 	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x2CC0960", Offset = "0x2CBEF60", VA = "0x182CC0960")]
+	[Address(RVA = "0x66B7A40", Offset = "0x66B6A40", VA = "0x66B7A40")]
 	private void RenderStencilLights(RasterCommandBuffer cmd, UniversalLightData lightData, UniversalShadowData shadowData, bool stripShadowsOffVariants)
 	{
 	}
 
 	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x2CC01B0", Offset = "0x2CBE7B0", VA = "0x182CC01B0")]
+	[Address(RVA = "0x66B8C80", Offset = "0x66B7C80", VA = "0x66B8C80")]
 	private void RenderStencilDirectionalLights(RasterCommandBuffer cmd, bool stripShadowsOffVariants, UniversalLightData lightData, UniversalShadowData shadowData, NativeArray<VisibleLight> visibleLights, bool hasAdditionalLightPass, bool hasLightCookieManager, int mainLightIndex)
 	{
 	}
 
 	[Token(Token = "0x6000B36")]
-	[Address(RVA = "0x2CC0CE0", Offset = "0x2CBF2E0", VA = "0x182CC0CE0")]
+	[Address(RVA = "0x66B9610", Offset = "0x66B8610", VA = "0x66B9610")]
 	private void RenderStencilPointLights(RasterCommandBuffer cmd, bool stripShadowsOffVariants, UniversalLightData lightData, UniversalShadowData shadowData, NativeArray<VisibleLight> visibleLights, bool hasAdditionalLightPass, bool hasLightCookieManager)
 	{
 	}
 
 	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x2CC15B0", Offset = "0x2CBFBB0", VA = "0x182CC15B0")]
+	[Address(RVA = "0x66B9ED0", Offset = "0x66B8ED0", VA = "0x66B9ED0")]
 	private void RenderStencilSpotLights(RasterCommandBuffer cmd, bool stripShadowsOffVariants, UniversalLightData lightData, UniversalShadowData shadowData, NativeArray<VisibleLight> visibleLights, bool hasAdditionalLightPass, bool hasLightCookieManager)
 	{
 	}
 
 	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x2CC0050", Offset = "0x2CBE650", VA = "0x182CC0050")]
+	[Address(RVA = "0x66B7400", Offset = "0x66B6400", VA = "0x66B7400")]
 	private void RenderSSAOBeforeShading(RasterCommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x2CBFE20", Offset = "0x2CBE420", VA = "0x182CBFE20")]
+	[Address(RVA = "0x66B7EC0", Offset = "0x66B6EC0", VA = "0x66B7EC0")]
 	private void RenderFog(RasterCommandBuffer cmd, bool isOrthographic)
 	{
 	}
 
 	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x2CBE930", Offset = "0x2CBCF30", VA = "0x182CBE930")]
+	[Address(RVA = "0x66B3E90", Offset = "0x66B2E90", VA = "0x66B3E90")]
 	private void InitStencilDeferredMaterial()
 	{
 	}
 
 	[Token(Token = "0x6000B3B")]
-	[Address(RVA = "0x2CBE6A0", Offset = "0x2CBCCA0", VA = "0x182CBE6A0")]
+	[Address(RVA = "0x66B3C20", Offset = "0x66B2C20", VA = "0x66B3C20")]
 	private void InitClusterDeferredMaterial()
 	{
 	}
 
 	[Token(Token = "0x6000B3C")]
-	[Address(RVA = "0x2CBD480", Offset = "0x2CBBA80", VA = "0x182CBD480")]
+	[Address(RVA = "0x66BAB60", Offset = "0x66B9B60", VA = "0x66BAB60")]
 	private static Mesh CreateSphereMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B3D")]
-	[Address(RVA = "0x2CBCDF0", Offset = "0x2CBB3F0", VA = "0x182CBCDF0")]
+	[Address(RVA = "0x66BB1D0", Offset = "0x66BA1D0", VA = "0x66BB1D0")]
 	private static Mesh CreateHemisphereMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B3E")]
-	[Address(RVA = "0x2CBC460", Offset = "0x2CBAA60", VA = "0x182CBC460")]
+	[Address(RVA = "0x66B8B30", Offset = "0x66B7B30", VA = "0x66B8B30")]
 	private static Mesh CreateFullscreenMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B3F")]
-	[Address(RVA = "0x2CC22A0", Offset = "0x2CC08A0", VA = "0x182CC22A0")]
+	[Address(RVA = "0x66B8420", Offset = "0x66B7420", VA = "0x66B8420")]
 	private void SetRenderingLayersMask(RasterCommandBuffer cmd, Light light, int shaderPropertyID)
 	{
 	}
 
 	[Token(Token = "0x6000B40")]
-	[Address(RVA = "0x2CC2100", Offset = "0x2CC0700", VA = "0x182CC2100")]
+	[Address(RVA = "0x66BAA00", Offset = "0x66B9A00", VA = "0x66BAA00")]
 	private void SetAdditionalLightsShadowsKeyword(ref RasterCommandBuffer cmd, bool stripShadowsOffVariants, bool additionalLightShadowsEnabled, bool hasDeferredShadows, bool shouldOverride, ref bool lastShadowsKeyword)
 	{
 	}
 
 	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x2CC2340", Offset = "0x2CC0940", VA = "0x182CC2340")]
+	[Address(RVA = "0x66BAAA0", Offset = "0x66B9AA0", VA = "0x66BAAA0")]
 	private void SetSoftShadowsKeyword(RasterCommandBuffer cmd, UniversalShadowData shadowData, Light light, bool hasDeferredShadows, bool shouldOverride, ref bool lastHasSoftShadow)
 	{
 	}
 
 	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x2CC2190", Offset = "0x2CC0790", VA = "0x182CC2190")]
+	[Address(RVA = "0x66BA8E0", Offset = "0x66B98E0", VA = "0x66BA8E0")]
 	private void SetLightCookiesKeyword(RasterCommandBuffer cmd, int visLightIndex, bool hasLightCookieManager, bool shouldOverride, ref bool lastLightCookieState, ref int lastCookieLightIndex)
 	{
 	}

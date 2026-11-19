@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.VoiceChatPanel
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/UI/VoiceChatPanel.c
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/VoiceChatPanel.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,58 +10,58 @@ using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using Photon.Realtime;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20007CA")]
+[Token(Token = "0x2000876")]
 internal class VoiceChatPanel : BasePanel
 {
-	[Token(Token = "0x400276D")]
+	[Token(Token = "0x4002AED")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private GameObject _panel;
 
-	[Token(Token = "0x400276E")]
+	[Token(Token = "0x4002AEE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
-	private Dictionary<int, GameObject> _playersTalking;
+	private readonly Dictionary<int, Text> _labels;
 
-	[Token(Token = "0x17000D9C")]
+	[Token(Token = "0x17000E0E")]
 	protected override string ThemePanel
 	{
-		[Token(Token = "0x6004B93")]
-		[Address(RVA = "0x22842E0", Offset = "0x22828E0", VA = "0x1822842E0", Slot = "4")]
+		[Token(Token = "0x60050B4")]
+		[Address(RVA = "0x5C538D0", Offset = "0x5C528D0", VA = "0x5C538D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004B94")]
-	[Address(RVA = "0x22840D0", Offset = "0x22826D0", VA = "0x1822840D0", Slot = "20")]
+	[Token(Token = "0x60050B5")]
+	[Address(RVA = "0x5C53900", Offset = "0x5C52900", VA = "0x5C53900", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004B95")]
-	[Address(RVA = "0x2283BB0", Offset = "0x22821B0", VA = "0x182283BB0")]
+	[Token(Token = "0x60050B6")]
+	[Address(RVA = "0x5C53A70", Offset = "0x5C52A70", VA = "0x5C53A70")]
 	public void AddPlayer(Player player)
 	{
 	}
 
-	[Token(Token = "0x6004B96")]
-	[Address(RVA = "0x2283FE0", Offset = "0x22825E0", VA = "0x182283FE0")]
+	[Token(Token = "0x60050B7")]
+	[Address(RVA = "0x5C53F40", Offset = "0x5C52F40", VA = "0x5C53F40")]
 	public void RemovePlayer(Player player)
 	{
 	}
 
-	[Token(Token = "0x6004B97")]
-	[Address(RVA = "0x2283DE0", Offset = "0x22823E0", VA = "0x182283DE0")]
-	protected GameObject CreateLine(string text)
+	[Token(Token = "0x60050B8")]
+	[Address(RVA = "0x5C53FF0", Offset = "0x5C52FF0", VA = "0x5C53FF0")]
+	public void ClearPlayer(int actorNumber)
 	{
-		return null;
 	}
 
-	[Token(Token = "0x6004B98")]
-	[Address(RVA = "0x2284260", Offset = "0x2282860", VA = "0x182284260")]
+	[Token(Token = "0x60050B9")]
+	[Address(RVA = "0x5C540C0", Offset = "0x5C530C0", VA = "0x5C540C0")]
 	public VoiceChatPanel()
 	{
 	}

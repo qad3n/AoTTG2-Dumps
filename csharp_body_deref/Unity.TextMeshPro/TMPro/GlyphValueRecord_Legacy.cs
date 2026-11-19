@@ -32,13 +32,13 @@ public struct GlyphValueRecord_Legacy
 	public float yAdvance;
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x2CF4560", Offset = "0x2CF2B60", VA = "0x182CF4560")]
+	[Address(RVA = "0x66F3430", Offset = "0x66F2430", VA = "0x66F3430")]
 	internal GlyphValueRecord_Legacy(GlyphValueRecord valueRecord)
 	{
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x2CF45C0", Offset = "0x2CF2BC0", VA = "0x182CF45C0")]
+	[Address(RVA = "0x66F3490", Offset = "0x66F2490", VA = "0x66F3490")]
 	public static GlyphValueRecord_Legacy operator +(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b)
 	{
 		return default(GlyphValueRecord_Legacy);

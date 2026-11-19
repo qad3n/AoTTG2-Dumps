@@ -15,7 +15,7 @@ namespace UnityEngine.UIElements;
 internal class PanelRootElement : VisualElement
 {
 	[Token(Token = "0x60012B6")]
-	[Address(RVA = "0x32B2300", Offset = "0x32B0900", VA = "0x1832B2300")]
+	[Address(RVA = "0x6CB6490", Offset = "0x6CB5490", VA = "0x6CB6490")]
 	public PanelRootElement()
 	{
 	}

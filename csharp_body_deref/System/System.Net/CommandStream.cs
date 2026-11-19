@@ -12,288 +12,288 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002A8")]
+[Token(Token = "0x2000269")]
 internal class CommandStream : NetworkStreamWrapper
 {
-	[Token(Token = "0x20002A9")]
+	[Token(Token = "0x200026A")]
 	internal enum PipelineInstruction
 	{
-		[Token(Token = "0x40009AD")]
+		[Token(Token = "0x40008DE")]
 		Abort,
-		[Token(Token = "0x40009AE")]
+		[Token(Token = "0x40008DF")]
 		Advance,
-		[Token(Token = "0x40009AF")]
+		[Token(Token = "0x40008E0")]
 		Pause,
-		[Token(Token = "0x40009B0")]
+		[Token(Token = "0x40008E1")]
 		Reread,
-		[Token(Token = "0x40009B1")]
+		[Token(Token = "0x40008E2")]
 		GiveStream
 	}
 
-	[Token(Token = "0x20002AA")]
+	[Token(Token = "0x200026B")]
 	[Flags]
 	internal enum PipelineEntryFlags
 	{
-		[Token(Token = "0x40009B3")]
+		[Token(Token = "0x40008E4")]
 		UserCommand = 1,
-		[Token(Token = "0x40009B4")]
+		[Token(Token = "0x40008E5")]
 		GiveDataStream = 2,
-		[Token(Token = "0x40009B5")]
+		[Token(Token = "0x40008E6")]
 		CreateDataConnection = 4,
-		[Token(Token = "0x40009B6")]
+		[Token(Token = "0x40008E7")]
 		DontLogParameter = 8
 	}
 
-	[Token(Token = "0x20002AB")]
+	[Token(Token = "0x200026C")]
 	internal class PipelineEntry
 	{
-		[Token(Token = "0x40009B7")]
+		[Token(Token = "0x40008E8")]
 		[FieldOffset(Offset = "0x10")]
 		internal string Command;
 
-		[Token(Token = "0x40009B8")]
+		[Token(Token = "0x40008E9")]
 		[FieldOffset(Offset = "0x18")]
 		internal PipelineEntryFlags Flags;
 
-		[Token(Token = "0x60012C6")]
-		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+		[Token(Token = "0x6001108")]
+		[Address(RVA = "0x6297560", Offset = "0x6296560", VA = "0x6297560")]
 		internal PipelineEntry(string command)
 		{
 		}
 
-		[Token(Token = "0x60012C7")]
-		[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
+		[Token(Token = "0x6001109")]
+		[Address(RVA = "0x6297590", Offset = "0x6296590", VA = "0x6297590")]
 		internal PipelineEntry(string command, PipelineEntryFlags flags)
 		{
 		}
 
-		[Token(Token = "0x60012C8")]
-		[Address(RVA = "0x2904DE0", Offset = "0x29033E0", VA = "0x182904DE0")]
+		[Token(Token = "0x600110A")]
+		[Address(RVA = "0x6295FB0", Offset = "0x6294FB0", VA = "0x6295FB0")]
 		internal bool HasFlag(PipelineEntryFlags flags)
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x400099D")]
+	[Token(Token = "0x40008CE")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AsyncCallback s_writeCallbackDelegate;
 
-	[Token(Token = "0x400099E")]
+	[Token(Token = "0x40008CF")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly AsyncCallback s_readCallbackDelegate;
 
-	[Token(Token = "0x400099F")]
+	[Token(Token = "0x40008D0")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _recoverableFailure;
 
-	[Token(Token = "0x40009A0")]
+	[Token(Token = "0x40008D1")]
 	[FieldOffset(Offset = "0x40")]
 	protected WebRequest _request;
 
-	[Token(Token = "0x40009A1")]
+	[Token(Token = "0x40008D2")]
 	[FieldOffset(Offset = "0x48")]
 	protected bool _isAsync;
 
-	[Token(Token = "0x40009A2")]
+	[Token(Token = "0x40008D3")]
 	[FieldOffset(Offset = "0x49")]
 	private bool _aborted;
 
-	[Token(Token = "0x40009A3")]
+	[Token(Token = "0x40008D4")]
 	[FieldOffset(Offset = "0x50")]
 	protected PipelineEntry[] _commands;
 
-	[Token(Token = "0x40009A4")]
+	[Token(Token = "0x40008D5")]
 	[FieldOffset(Offset = "0x58")]
 	protected int _index;
 
-	[Token(Token = "0x40009A5")]
+	[Token(Token = "0x40008D6")]
 	[FieldOffset(Offset = "0x5C")]
 	private bool _doRead;
 
-	[Token(Token = "0x40009A6")]
+	[Token(Token = "0x40008D7")]
 	[FieldOffset(Offset = "0x5D")]
 	private bool _doSend;
 
-	[Token(Token = "0x40009A7")]
+	[Token(Token = "0x40008D8")]
 	[FieldOffset(Offset = "0x60")]
 	private ResponseDescription _currentResponseDescription;
 
-	[Token(Token = "0x40009A8")]
+	[Token(Token = "0x40008D9")]
 	[FieldOffset(Offset = "0x68")]
 	protected string _abortReason;
 
-	[Token(Token = "0x40009A9")]
+	[Token(Token = "0x40008DA")]
 	[FieldOffset(Offset = "0x70")]
 	private string _buffer;
 
-	[Token(Token = "0x40009AA")]
+	[Token(Token = "0x40008DB")]
 	[FieldOffset(Offset = "0x78")]
 	private Encoding _encoding;
 
-	[Token(Token = "0x40009AB")]
+	[Token(Token = "0x40008DC")]
 	[FieldOffset(Offset = "0x80")]
 	private Decoder _decoder;
 
-	[Token(Token = "0x170003C1")]
+	[Token(Token = "0x17000392")]
 	internal bool RecoverableFailure
 	{
-		[Token(Token = "0x60012B1")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Token(Token = "0x60010F3")]
+		[Address(RVA = "0x6295650", Offset = "0x6294650", VA = "0x6295650")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003C2")]
+	[Token(Token = "0x17000393")]
 	protected Encoding Encoding
 	{
-		[Token(Token = "0x60012C0")]
-		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		[Token(Token = "0x6001102")]
+		[Address(RVA = "0x6297310", Offset = "0x6296310", VA = "0x6297310")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012C1")]
-		[Address(RVA = "0x28ED110", Offset = "0x28EB710", VA = "0x1828ED110")]
+		[Token(Token = "0x6001103")]
+		[Address(RVA = "0x6297320", Offset = "0x6296320", VA = "0x6297320")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60012AD")]
-	[Address(RVA = "0x28ED070", Offset = "0x28EB670", VA = "0x1828ED070")]
+	[Token(Token = "0x60010EF")]
+	[Address(RVA = "0x6295100", Offset = "0x6294100", VA = "0x6295100")]
 	internal CommandStream(TcpClient client)
 	{
 	}
 
-	[Token(Token = "0x60012AE")]
-	[Address(RVA = "0x28EB510", Offset = "0x28E9B10", VA = "0x1828EB510", Slot = "38")]
+	[Token(Token = "0x60010F0")]
+	[Address(RVA = "0x6295190", Offset = "0x6294190", VA = "0x6295190", Slot = "39")]
 	internal virtual void Abort(Exception e)
 	{
 	}
 
-	[Token(Token = "0x60012AF")]
-	[Address(RVA = "0x28EBC60", Offset = "0x28EA260", VA = "0x1828EBC60", Slot = "19")]
+	[Token(Token = "0x60010F1")]
+	[Address(RVA = "0x6295400", Offset = "0x6294400", VA = "0x6295400", Slot = "20")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60012B0")]
-	[Address(RVA = "0x28EBF00", Offset = "0x28EA500", VA = "0x1828EBF00")]
+	[Token(Token = "0x60010F2")]
+	[Address(RVA = "0x62955B0", Offset = "0x62945B0", VA = "0x62955B0")]
 	protected void InvokeRequestCallback(object obj)
 	{
 	}
 
-	[Token(Token = "0x60012B2")]
-	[Address(RVA = "0x28EBF90", Offset = "0x28EA590", VA = "0x1828EBF90")]
+	[Token(Token = "0x60010F4")]
+	[Address(RVA = "0x6295660", Offset = "0x6294660", VA = "0x6295660")]
 	protected void MarkAsRecoverableFailure()
 	{
 	}
 
-	[Token(Token = "0x60012B3")]
-	[Address(RVA = "0x28ECD80", Offset = "0x28EB380", VA = "0x1828ECD80")]
+	[Token(Token = "0x60010F5")]
+	[Address(RVA = "0x6295670", Offset = "0x6294670", VA = "0x6295670")]
 	internal Stream SubmitRequest(WebRequest request, bool isAsync, bool readInitalResponseOnConnect)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012B4")]
-	[Address(RVA = "0x28EB760", Offset = "0x28E9D60", VA = "0x1828EB760", Slot = "39")]
+	[Token(Token = "0x60010F6")]
+	[Address(RVA = "0x6295D70", Offset = "0x6294D70", VA = "0x6295D70", Slot = "40")]
 	protected virtual void ClearState()
 	{
 	}
 
-	[Token(Token = "0x60012B5")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "40")]
+	[Token(Token = "0x60010F7")]
+	[Address(RVA = "0x6295DF0", Offset = "0x6294DF0", VA = "0x6295DF0", Slot = "41")]
 	protected virtual PipelineEntry[] BuildCommandsList(WebRequest request)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012B6")]
-	[Address(RVA = "0x28EBDF0", Offset = "0x28EA3F0", VA = "0x1828EBDF0")]
+	[Token(Token = "0x60010F8")]
+	[Address(RVA = "0x6295E00", Offset = "0x6294E00", VA = "0x6295E00")]
 	protected Exception GenerateException(string message, WebExceptionStatus status, Exception innerException)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012B7")]
-	[Address(RVA = "0x28EBD40", Offset = "0x28EA340", VA = "0x1828EBD40")]
+	[Token(Token = "0x60010F9")]
+	[Address(RVA = "0x6295E70", Offset = "0x6294E70", VA = "0x6295E70")]
 	protected Exception GenerateException(FtpStatusCode code, string statusDescription, Exception innerException)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012B8")]
-	[Address(RVA = "0x28EBE60", Offset = "0x28EA460", VA = "0x1828EBE60")]
+	[Token(Token = "0x60010FA")]
+	[Address(RVA = "0x6295740", Offset = "0x6294740", VA = "0x6295740")]
 	protected void InitCommandPipeline(WebRequest request, PipelineEntry[] commands, bool isAsync)
 	{
 	}
 
-	[Token(Token = "0x60012B9")]
-	[Address(RVA = "0x28EB720", Offset = "0x28E9D20", VA = "0x1828EB720")]
+	[Token(Token = "0x60010FB")]
+	[Address(RVA = "0x6295F00", Offset = "0x6294F00", VA = "0x6295F00")]
 	internal void CheckContinuePipeline()
 	{
 	}
 
-	[Token(Token = "0x60012BA")]
-	[Address(RVA = "0x28EB780", Offset = "0x28E9D80", VA = "0x1828EB780")]
+	[Token(Token = "0x60010FC")]
+	[Address(RVA = "0x62957D0", Offset = "0x62947D0", VA = "0x62957D0")]
 	protected Stream ContinueCommandPipeline()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012BB")]
-	[Address(RVA = "0x28EC1B0", Offset = "0x28EA7B0", VA = "0x1828EC1B0")]
+	[Token(Token = "0x60010FD")]
+	[Address(RVA = "0x6295FC0", Offset = "0x6294FC0", VA = "0x6295FC0")]
 	private bool PostSendCommandProcessing(ref Stream stream)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012BC")]
-	[Address(RVA = "0x28EBFA0", Offset = "0x28EA5A0", VA = "0x1828EBFA0")]
+	[Token(Token = "0x60010FE")]
+	[Address(RVA = "0x6296430", Offset = "0x6295430", VA = "0x6296430")]
 	private bool PostReadCommandProcessing(ref Stream stream)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012BD")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "41")]
+	[Token(Token = "0x60010FF")]
+	[Address(RVA = "0x6296690", Offset = "0x6295690", VA = "0x6296690", Slot = "42")]
 	protected virtual PipelineInstruction PipelineCallback(PipelineEntry entry, ResponseDescription response, bool timeout, ref Stream stream)
 	{
 		return default(PipelineInstruction);
 	}
 
-	[Token(Token = "0x60012BE")]
-	[Address(RVA = "0x28EC2A0", Offset = "0x28EA8A0", VA = "0x1828EC2A0")]
+	[Token(Token = "0x6001100")]
+	[Address(RVA = "0x62966A0", Offset = "0x62956A0", VA = "0x62966A0")]
 	private static void ReadCallback(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x60012BF")]
-	[Address(RVA = "0x28ECE00", Offset = "0x28EB400", VA = "0x1828ECE00")]
+	[Token(Token = "0x6001101")]
+	[Address(RVA = "0x6297060", Offset = "0x6296060", VA = "0x6297060")]
 	private static void WriteCallback(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x60012C2")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "42")]
+	[Token(Token = "0x6001104")]
+	[Address(RVA = "0x6297370", Offset = "0x6296370", VA = "0x6297370", Slot = "43")]
 	protected virtual bool CheckValid(ResponseDescription response, ref int validThrough, ref int completeLength)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012C3")]
-	[Address(RVA = "0x28ECA50", Offset = "0x28EB050", VA = "0x1828ECA50")]
+	[Token(Token = "0x6001105")]
+	[Address(RVA = "0x6296100", Offset = "0x6295100", VA = "0x6296100")]
 	private ResponseDescription ReceiveCommandResponse()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60012C4")]
-	[Address(RVA = "0x28EC440", Offset = "0x28EAA40", VA = "0x1828EC440")]
+	[Token(Token = "0x6001106")]
+	[Address(RVA = "0x6296970", Offset = "0x6295970", VA = "0x6296970")]
 	private void ReceiveCommandResponseCallback(ReceiveState state, int bytesRead)
 	{
 	}

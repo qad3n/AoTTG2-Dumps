@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Categorization.ElementInfoAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,25 +16,25 @@ namespace UnityEngine.Categorization;
 [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
 public sealed class ElementInfoAttribute : Attribute
 {
-	[Token(Token = "0x4000739")]
+	[Token(Token = "0x4000737")]
 	[FieldOffset(Offset = "0x18")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private string _003CName_003Ek__BackingField;
 
-	[Token(Token = "0x170002D0")]
+	[Token(Token = "0x170002D5")]
 	public int Order
 	{
-		[Token(Token = "0x600116F")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x6001183")]
+		[Address(RVA = "0x6935900", Offset = "0x6934900", VA = "0x6935900")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001170")]
-	[Address(RVA = "0x2F2F760", Offset = "0x2F2DD60", VA = "0x182F2F760")]
+	[Token(Token = "0x6001184")]
+	[Address(RVA = "0x6935910", Offset = "0x6934910", VA = "0x6935910")]
 	public ElementInfoAttribute()
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001BE")]
+[Token(Token = "0x20001BF")]
 public enum FindObjectsSortMode
 {
-	[Token(Token = "0x4000647")]
+	[Token(Token = "0x400064C")]
 	None,
-	[Token(Token = "0x4000648")]
+	[Token(Token = "0x400064D")]
 	InstanceID
 }

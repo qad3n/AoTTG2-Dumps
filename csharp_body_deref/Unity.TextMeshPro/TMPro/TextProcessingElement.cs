@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TextProcessingElement
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,13 +38,13 @@ internal struct TextProcessingElement
 	public TextProcessingElementType ElementType
 	{
 		[Token(Token = "0x60005D1")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x6758750", Offset = "0x6757750", VA = "0x6758750")]
 		get
 		{
 			return default(TextProcessingElementType);
 		}
 		[Token(Token = "0x60005D2")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x6758760", Offset = "0x6757760", VA = "0x6758760")]
 		set
 		{
 		}
@@ -54,13 +54,13 @@ internal struct TextProcessingElement
 	public int StartIndex
 	{
 		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		[Address(RVA = "0x6758770", Offset = "0x6757770", VA = "0x6758770")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005D4")]
-		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
+		[Address(RVA = "0x6758780", Offset = "0x6757780", VA = "0x6758780")]
 		set
 		{
 		}
@@ -70,13 +70,13 @@ internal struct TextProcessingElement
 	public int Length
 	{
 		[Token(Token = "0x60005D5")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x6758790", Offset = "0x6757790", VA = "0x6758790")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005D6")]
-		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
+		[Address(RVA = "0x67587A0", Offset = "0x67577A0", VA = "0x67587A0")]
 		set
 		{
 		}
@@ -86,7 +86,7 @@ internal struct TextProcessingElement
 	public CharacterElement CharacterElement
 	{
 		[Token(Token = "0x60005D7")]
-		[Address(RVA = "0x561300", Offset = "0x55F900", VA = "0x180561300")]
+		[Address(RVA = "0x67587B0", Offset = "0x67577B0", VA = "0x67587B0")]
 		get
 		{
 			return default(CharacterElement);
@@ -97,13 +97,13 @@ internal struct TextProcessingElement
 	public MarkupElement MarkupElement
 	{
 		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x67587C0", Offset = "0x67577C0", VA = "0x67587C0")]
 		get
 		{
 			return default(MarkupElement);
 		}
 		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x2D7E6D0", Offset = "0x2D7CCD0", VA = "0x182D7E6D0")]
+		[Address(RVA = "0x67587D0", Offset = "0x67577D0", VA = "0x67587D0")]
 		set
 		{
 		}
@@ -113,7 +113,7 @@ internal struct TextProcessingElement
 	public static TextProcessingElement Undefined
 	{
 		[Token(Token = "0x60005DE")]
-		[Address(RVA = "0xB64860", Offset = "0xB62E60", VA = "0x180B64860")]
+		[Address(RVA = "0x67588E0", Offset = "0x67578E0", VA = "0x67588E0")]
 		get
 		{
 			return default(TextProcessingElement);
@@ -121,31 +121,31 @@ internal struct TextProcessingElement
 	}
 
 	[Token(Token = "0x60005DA")]
-	[Address(RVA = "0x2D7E6B0", Offset = "0x2D7CCB0", VA = "0x182D7E6B0")]
+	[Address(RVA = "0x67587E0", Offset = "0x67577E0", VA = "0x67587E0")]
 	public TextProcessingElement(TextProcessingElementType elementType, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x60005DB")]
-	[Address(RVA = "0x2D7E650", Offset = "0x2D7CC50", VA = "0x182D7E650")]
+	[Address(RVA = "0x6758800", Offset = "0x6757800", VA = "0x6758800")]
 	public TextProcessingElement(TMP_TextElement textElement, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x60005DC")]
-	[Address(RVA = "0x2D7E5C0", Offset = "0x2D7CBC0", VA = "0x182D7E5C0")]
+	[Address(RVA = "0x6758860", Offset = "0x6757860", VA = "0x6758860")]
 	public TextProcessingElement(CharacterElement characterElement, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x60005DD")]
-	[Address(RVA = "0x2D7E600", Offset = "0x2D7CC00", VA = "0x182D7E600")]
+	[Address(RVA = "0x6758890", Offset = "0x6757890", VA = "0x6758890")]
 	public TextProcessingElement(MarkupElement markupElement)
 	{
 	}
 
 	[Token(Token = "0x60005DF")]
-	[Address(RVA = "0x2D7E4D0", Offset = "0x2D7CAD0", VA = "0x182D7E4D0")]
+	[Address(RVA = "0x6758900", Offset = "0x6757900", VA = "0x6758900")]
 	private string DebuggerDisplay()
 	{
 		return null;

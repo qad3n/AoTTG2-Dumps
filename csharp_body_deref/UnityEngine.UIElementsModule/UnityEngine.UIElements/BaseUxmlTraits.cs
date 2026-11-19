@@ -19,7 +19,7 @@ public abstract class BaseUxmlTraits
 	protected bool canHaveAnyAttribute
 	{
 		[Token(Token = "0x60026AD")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6B5A7E0", Offset = "0x6B597E0", VA = "0x6B5A7E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -27,7 +27,7 @@ public abstract class BaseUxmlTraits
 	}
 
 	[Token(Token = "0x60026AC")]
-	[Address(RVA = "0x1C88340", Offset = "0x1C86940", VA = "0x181C88340")]
+	[Address(RVA = "0x6B5A7C0", Offset = "0x6B597C0", VA = "0x6B5A7C0")]
 	protected BaseUxmlTraits()
 	{
 	}

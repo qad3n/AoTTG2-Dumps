@@ -23,14 +23,14 @@ public class PhotonTeam
 	public byte Code;
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x1D57990", Offset = "0x1D55F90", VA = "0x181D57990", Slot = "3")]
+	[Address(RVA = "0x56EE020", Offset = "0x56ED020", VA = "0x56EE020", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56EE090", Offset = "0x56ED090", VA = "0x56EE090")]
 	public PhotonTeam()
 	{
 	}

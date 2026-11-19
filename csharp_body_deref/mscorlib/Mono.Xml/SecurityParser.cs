@@ -11,78 +11,78 @@ using Il2CppDummyDll;
 
 namespace Mono.Xml;
 
-[Token(Token = "0x2000047")]
+[Token(Token = "0x2000029")]
 internal class SecurityParser : Mono.Xml.SmallXmlParser, Mono.Xml.SmallXmlParser.IContentHandler
 {
-	[Token(Token = "0x400013F")]
+	[Token(Token = "0x40000BD")]
 	[FieldOffset(Offset = "0x68")]
 	private SecurityElement root;
 
-	[Token(Token = "0x4000140")]
+	[Token(Token = "0x40000BE")]
 	[FieldOffset(Offset = "0x70")]
 	private SecurityElement current;
 
-	[Token(Token = "0x4000141")]
+	[Token(Token = "0x40000BF")]
 	[FieldOffset(Offset = "0x78")]
 	private Stack stack;
 
-	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x194D5C0", Offset = "0x194BBC0", VA = "0x18194D5C0")]
+	[Token(Token = "0x600006B")]
+	[Address(RVA = "0x52D99E0", Offset = "0x52D89E0", VA = "0x52D99E0")]
 	public SecurityParser()
 	{
 	}
 
-	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x194D0C0", Offset = "0x194B6C0", VA = "0x18194D0C0")]
+	[Token(Token = "0x600006C")]
+	[Address(RVA = "0x52D9B80", Offset = "0x52D8B80", VA = "0x52D9B80")]
 	public void LoadXml(string xml)
 	{
 	}
 
-	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x52D9E00", Offset = "0x52D8E00", VA = "0x52D9E00")]
 	public SecurityElement ToXml()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x52D9E10", Offset = "0x52D8E10", VA = "0x52D9E10", Slot = "4")]
 	public void OnStartParsing(Mono.Xml.SmallXmlParser parser)
 	{
 	}
 
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x600006F")]
+	[Address(RVA = "0x52D9E20", Offset = "0x52D8E20", VA = "0x52D9E20", Slot = "8")]
 	public void OnProcessingInstruction(string name, string text)
 	{
 	}
 
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
+	[Token(Token = "0x6000070")]
+	[Address(RVA = "0x52D9E30", Offset = "0x52D8E30", VA = "0x52D9E30", Slot = "10")]
 	public void OnIgnorableWhitespace(string s)
 	{
 	}
 
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x194D290", Offset = "0x194B890", VA = "0x18194D290", Slot = "6")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x52D9E40", Offset = "0x52D8E40", VA = "0x52D9E40", Slot = "6")]
 	public void OnStartElement(string name, IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x194D1E0", Offset = "0x194B7E0", VA = "0x18194D1E0", Slot = "7")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x52DA150", Offset = "0x52D9150", VA = "0x52DA150", Slot = "7")]
 	public void OnEndElement(string name)
 	{
 	}
 
-	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x194D160", Offset = "0x194B760", VA = "0x18194D160", Slot = "9")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x52DA1D0", Offset = "0x52D91D0", VA = "0x52DA1D0", Slot = "9")]
 	public void OnChars(string ch)
 	{
 	}
 
-	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6000074")]
+	[Address(RVA = "0x52DA240", Offset = "0x52D9240", VA = "0x52DA240", Slot = "5")]
 	public void OnEndParsing(Mono.Xml.SmallXmlParser parser)
 	{
 	}

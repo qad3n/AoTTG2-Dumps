@@ -12,10 +12,10 @@ namespace UnityEngine;
 [Token(Token = "0x200011D")]
 public enum LODFadeMode
 {
-	[Token(Token = "0x400038E")]
+	[Token(Token = "0x4000393")]
 	None,
-	[Token(Token = "0x400038F")]
+	[Token(Token = "0x4000394")]
 	CrossFade,
-	[Token(Token = "0x4000390")]
+	[Token(Token = "0x4000395")]
 	SpeedTree
 }

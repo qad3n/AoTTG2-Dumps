@@ -14,10 +14,10 @@ namespace UnityEngine.Rendering;
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 public enum CullMode
 {
-	[Token(Token = "0x4000858")]
+	[Token(Token = "0x4000856")]
 	Off,
-	[Token(Token = "0x4000859")]
+	[Token(Token = "0x4000857")]
 	Front,
-	[Token(Token = "0x400085A")]
+	[Token(Token = "0x4000858")]
 	Back
 }

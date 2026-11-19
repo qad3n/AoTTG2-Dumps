@@ -15,19 +15,19 @@ namespace UnityEngine.TextCore.Text;
 public class Character : TextElement
 {
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x3003180", Offset = "0x3001780", VA = "0x183003180")]
+	[Address(RVA = "0x6A0D420", Offset = "0x6A0C420", VA = "0x6A0D420")]
 	public Character()
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x30031B0", Offset = "0x30017B0", VA = "0x1830031B0")]
+	[Address(RVA = "0x6A0D450", Offset = "0x6A0C450", VA = "0x6A0D450")]
 	public Character(uint unicode, FontAsset fontAsset, Glyph glyph)
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x3003100", Offset = "0x3001700", VA = "0x183003100")]
+	[Address(RVA = "0x6A0D4D0", Offset = "0x6A0C4D0", VA = "0x6A0D4D0")]
 	internal Character(uint unicode, uint glyphIndex)
 	{
 	}

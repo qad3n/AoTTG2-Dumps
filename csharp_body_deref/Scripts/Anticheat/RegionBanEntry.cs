@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x200097C")]
+[Token(Token = "0x20009E2")]
 internal class RegionBanEntry
 {
-	[Token(Token = "0x4002EC6")]
+	[Token(Token = "0x4003176")]
 	[FieldOffset(Offset = "0x10")]
 	public string TargetId;
 
-	[Token(Token = "0x4002EC7")]
+	[Token(Token = "0x4003177")]
 	[FieldOffset(Offset = "0x18")]
 	public string Username;
 
-	[Token(Token = "0x4002EC8")]
+	[Token(Token = "0x4003178")]
 	[FieldOffset(Offset = "0x20")]
 	public bool IsIPBan;
 
-	[Token(Token = "0x4002EC9")]
+	[Token(Token = "0x4003179")]
 	[FieldOffset(Offset = "0x28")]
 	public string Reason;
 
-	[Token(Token = "0x4002ECA")]
+	[Token(Token = "0x400317A")]
 	[FieldOffset(Offset = "0x30")]
 	public string BannedBy;
 
-	[Token(Token = "0x60057E1")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6005B38")]
+	[Address(RVA = "0x5D35820", Offset = "0x5D34820", VA = "0x5D35820")]
 	public RegionBanEntry()
 	{
 	}

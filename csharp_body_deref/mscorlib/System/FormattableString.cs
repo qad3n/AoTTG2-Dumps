@@ -9,48 +9,48 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D9")]
+[Token(Token = "0x20000B1")]
 public abstract class FormattableString : IFormattable
 {
 	[Token(Token = "0x17000088")]
 	public abstract string Format
 	{
-		[Token(Token = "0x60006DE")]
+		[Token(Token = "0x60006B9")]
 		get;
 	}
 
 	[Token(Token = "0x17000089")]
 	public abstract int ArgumentCount
 	{
-		[Token(Token = "0x60006E0")]
+		[Token(Token = "0x60006BB")]
 		get;
 	}
 
-	[Token(Token = "0x60006DF")]
+	[Token(Token = "0x60006BA")]
 	public abstract object[] GetArguments();
 
-	[Token(Token = "0x60006E1")]
+	[Token(Token = "0x60006BC")]
 	public abstract object GetArgument(int index);
 
-	[Token(Token = "0x60006E2")]
+	[Token(Token = "0x60006BD")]
 	public abstract string ToString(IFormatProvider formatProvider);
 
-	[Token(Token = "0x60006E3")]
-	[Address(RVA = "0x1B22F50", Offset = "0x1B21550", VA = "0x181B22F50", Slot = "4")]
+	[Token(Token = "0x60006BE")]
+	[Address(RVA = "0x549ED20", Offset = "0x549DD20", VA = "0x549ED20", Slot = "4")]
 	private string System_002EIFormattable_002EToString(string ignored, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006E4")]
-	[Address(RVA = "0x1B22F70", Offset = "0x1B21570", VA = "0x181B22F70", Slot = "3")]
+	[Token(Token = "0x60006BF")]
+	[Address(RVA = "0x549ED40", Offset = "0x549DD40", VA = "0x549ED40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006E5")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60006C0")]
+	[Address(RVA = "0x549EDA0", Offset = "0x549DDA0", VA = "0x549EDA0")]
 	protected FormattableString()
 	{
 	}

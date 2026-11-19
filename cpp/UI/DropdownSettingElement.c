@@ -1,79 +1,78 @@
 // Type: UI.DropdownSettingElement
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/DropdownSettingElement.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/Elements/SettingElements/DropdownSettingElement.cs
 // --------------------------------
 
-// UI.DropdownSettingElement.<>c__DisplayClass20_0$$.ctor
-// il2cpp: void UI_DropdownSettingElement___c__DisplayClass20_0___ctor (UI_DropdownSettingElement___c__DisplayClass20_0_o* __this, const MethodInfo* method);
-// 0x18054c890
+// UI.DropdownSettingElement.<>c__DisplayClass23_0$$.ctor
+// il2cpp: void UI_DropdownSettingElement___c__DisplayClass23_0___ctor (UI_DropdownSettingElement___c__DisplayClass23_0_o* __this, const MethodInfo* method);
+// 0x5ceff60
 
-void
-UI_DropdownSettingElement___c__DisplayClass20_0___ctor(UI_DropdownSettingElement___c__DisplayClass20_0_o* __this, MethodInfo* method)
+void UI_DropdownSettingElement___c__DisplayClass23_0___ctor
+               (UI_DropdownSettingElement___c__DisplayClass23_0_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.DropdownSettingElement.<>c__DisplayClass20_0$$<CreateOptionButton>b__0
-// il2cpp: void UI_DropdownSettingElement___c__DisplayClass20_0___CreateOptionButton_b__0 (UI_DropdownSettingElement___c__DisplayClass20_0_o* __this, const MethodInfo* method);
-// 0x18221ae30
+// UI.DropdownSettingElement.<>c__DisplayClass23_0$$<CreateOptionButton>b__0
+// il2cpp: void UI_DropdownSettingElement___c__DisplayClass23_0___CreateOptionButton_b__0 (UI_DropdownSettingElement___c__DisplayClass23_0_o* __this, const MethodInfo* method);
+// 0x5cf0590
 
-void UI_DropdownSettingElement___c__DisplayClass20_0___CreateOptionButton_b__0
-               (UI_DropdownSettingElement___c__DisplayClass20_0_o *__this,MethodInfo *method)
+void UI_DropdownSettingElement___c__DisplayClass23_0___CreateOptionButton_b__0
+               (UI_DropdownSettingElement___c__DisplayClass23_0_o *__this,MethodInfo *method)
 
 {
   UI_DropdownSettingElement_o *pUVar1;
   
   pUVar1 = (__this->fields).__4__this;
-  if (pUVar1 != (UI_DropdownSettingElement_o *)0x0) {
-    (*(pUVar1->klass->vtable)._8_OnDropdownOptionClick.methodPtr)
-              (pUVar1,(__this->fields).option,(__this->fields).index,
-               (pUVar1->klass->vtable)._8_OnDropdownOptionClick.method);
-    return;
+  if (pUVar1 == (UI_DropdownSettingElement_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (*(pUVar1->klass->vtable)._8_OnDropdownOptionClick.methodPtr)
+            (pUVar1,(__this->fields).option,(__this->fields).index,
+             (pUVar1->klass->vtable)._8_OnDropdownOptionClick.method);
+  return;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$.ctor
-// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__23___ctor (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$.ctor
+// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__26___ctor (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x5cf00c0
 
-void
-UI_DropdownSettingElement__WaitAndCloseOptions_d__23___ctor(UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, int32_t __1__state, MethodInfo* method)
+void UI_DropdownSettingElement__WaitAndCloseOptions_d__26___ctor
+               (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$System.IDisposable.Dispose
-// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_IDisposable_Dispose (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, const MethodInfo* method);
-// 0x180547020
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$System.IDisposable.Dispose
+// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_IDisposable_Dispose (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, const MethodInfo* method);
+// 0x5cf05c0
 
-void
-UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_IDisposable_Dispose(UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, MethodInfo* method)
+void UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_IDisposable_Dispose
+               (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$MoveNext
-// il2cpp: bool UI_DropdownSettingElement__WaitAndCloseOptions_d__23__MoveNext (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, const MethodInfo* method);
-// 0x18221b160
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$MoveNext
+// il2cpp: bool UI_DropdownSettingElement__WaitAndCloseOptions_d__26__MoveNext (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, const MethodInfo* method);
+// 0x5cf05d0
 
-bool UI_DropdownSettingElement__WaitAndCloseOptions_d__23__MoveNext
-               (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o *__this,MethodInfo *method)
+bool UI_DropdownSettingElement__WaitAndCloseOptions_d__26__MoveNext
+               (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,MethodInfo *method)
 
 {
   int iVar1;
@@ -83,59 +82,59 @@ bool UI_DropdownSettingElement__WaitAndCloseOptions_d__23__MoveNext
   Il2CppObject *__this_02;
   float fVar3;
   
-  if (Il2CppMethodInitialized_18434711b == '\0') {
+  if (Il2CppMethodInitialized_07547c88 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
-    Il2CppMethodInitialized_18434711b = '\x01';
+    Il2CppMethodInitialized_07547c88 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 != 0) {
-    if (iVar1 != 1) {
-      return false;
-    }
+  if (iVar1 == 0) {
+    (__this->fields).__1__state = -1;
+    __this_02 = (Il2CppObject *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)__this_02,(MethodInfo *)0x0);
+    (__this->fields).__2__current = __this_02;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+    (__this->fields).__1__state = 1;
+  }
+  else if (iVar1 == 1) {
     pUVar2 = (__this->fields).__4__this;
     (__this->fields).__1__state = -1;
     if ((pUVar2 != (UI_DropdownSettingElement_o *)0x0) &&
        (__this_00 = (pUVar2->fields)._scrollBar, __this_00 != (UnityEngine_UI_Scrollbar_o *)0x0)) {
       fVar3 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
-      __this_01 = (pUVar2->fields)._optionsPanel;
       (pUVar2->fields)._currentScrollValue = fVar3;
+      __this_01 = (pUVar2->fields)._optionsPanel;
       if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
         UnityEngine_GameObject__SetActive(__this_01,false,(MethodInfo *)0x0);
-        return false;
+        goto label_05cf0673;
       }
     }
     ThrowNullReferenceException();
   }
-  (__this->fields).__1__state = -1;
-  __this_02 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame)
-  ;
-  UnitySourceGeneratedAssemblyMonoScriptTypes_v1___ctor
-            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_02,(MethodInfo *)0x0);
-  (__this->fields).__2__current = __this_02;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_02);
-  (__this->fields).__1__state = 1;
-  return true;
+label_05cf0673:
+  return iVar1 == 0;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, const MethodInfo* method);
-// 0x180573e90
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, const MethodInfo* method);
+// 0x5cf0690
 
-Il2CppObject*
-UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$System.Collections.IEnumerator.Reset
-// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_IEnumerator_Reset (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, const MethodInfo* method);
-// 0x18221b230
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$System.Collections.IEnumerator.Reset
+// il2cpp: void UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_IEnumerator_Reset (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, const MethodInfo* method);
+// 0x5cf06a0
 
-void UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_IEnumerator_Reset
-               (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o *__this,MethodInfo *method)
+void UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_IEnumerator_Reset
+               (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -148,157 +147,158 @@ void UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_IE
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__23_System_Collections_IEnumerator_Reset
+                  MethodInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__26_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// UI.DropdownSettingElement.<WaitAndCloseOptions>d__23$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_IEnumerator_get_Current (UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, const MethodInfo* method);
-// 0x180573e90
+// UI.DropdownSettingElement.<WaitAndCloseOptions>d__26$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_IEnumerator_get_Current (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o* __this, const MethodInfo* method);
+// 0x5cf06e0
 
-Il2CppObject*
-UI_DropdownSettingElement__WaitAndCloseOptions_d__23__System_Collections_IEnumerator_get_Current(UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_DropdownSettingElement__WaitAndCloseOptions_d__26__System_Collections_IEnumerator_get_Current
+          (UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$.ctor
-// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__22___ctor (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$.ctor
+// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__25___ctor (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x5cf00a0
 
-void
-UI_DropdownSettingElement__WaitAndEnableOptions_d__22___ctor(UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, int32_t __1__state, MethodInfo* method)
+void UI_DropdownSettingElement__WaitAndEnableOptions_d__25___ctor
+               (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$System.IDisposable.Dispose
-// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_IDisposable_Dispose (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, const MethodInfo* method);
-// 0x180547020
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$System.IDisposable.Dispose
+// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_IDisposable_Dispose (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, const MethodInfo* method);
+// 0x5cf06f0
 
-void
-UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_IDisposable_Dispose(UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, MethodInfo* method)
+void UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_IDisposable_Dispose
+               (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,MethodInfo *method)
 
 {
   return;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$MoveNext
-// il2cpp: bool UI_DropdownSettingElement__WaitAndEnableOptions_d__22__MoveNext (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, const MethodInfo* method);
-// 0x18221b270
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$MoveNext
+// il2cpp: bool UI_DropdownSettingElement__WaitAndEnableOptions_d__25__MoveNext (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, const MethodInfo* method);
+// 0x5cf0700
 
-bool UI_DropdownSettingElement__WaitAndEnableOptions_d__22__MoveNext
-               (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o *__this,MethodInfo *method)
+bool UI_DropdownSettingElement__WaitAndEnableOptions_d__25__MoveNext
+               (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  float fVar2;
   UI_DropdownSettingElement_o *__this_00;
   UnityEngine_UI_Scrollbar_o *__this_01;
-  UnityEngine_GameObject_o *pUVar3;
-  float fVar4;
-  UnityEngine_Transform_o *pUVar5;
-  UnityEngine_Vector3_o *pUVar6;
-  Il2CppObject *pIVar7;
-  UnityEngine_Vector3_o local_18;
+  UnityEngine_GameObject_o *pUVar2;
+  Il2CppObject *pIVar3;
+  UnityEngine_Transform_o *pUVar4;
+  bool bVar5;
+  UnityEngine_Vector3_Fields UVar6;
   
-  if (Il2CppMethodInitialized_18434711c == '\0') {
+  if (Il2CppMethodInitialized_07547c89 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
-    Il2CppMethodInitialized_18434711c = '\x01';
+    Il2CppMethodInitialized_07547c89 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
   __this_00 = (__this->fields).__4__this;
-  if (iVar1 == 0) {
+  if (iVar1 == 2) {
     (__this->fields).__1__state = -1;
-    pIVar7 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor
-              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar7,(MethodInfo *)0x0);
-    (__this->fields).__2__current = pIVar7;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
-    (__this->fields).__1__state = 1;
-    return true;
+    if ((__this_00 == (UI_DropdownSettingElement_o *)0x0) ||
+       (__this_01 = (__this_00->fields)._scrollBar, __this_01 == (UnityEngine_UI_Scrollbar_o *)0x0))
+    goto label_05cf08a8;
+    bVar5 = false;
+    UnityEngine_UI_Scrollbar__set_value(__this_01,(__this_00->fields)._currentScrollValue,(MethodInfo *)0x0);
   }
-  if (iVar1 != 1) {
-    if (iVar1 == 2) {
+  else {
+    if (iVar1 == 1) {
       (__this->fields).__1__state = -1;
-      if ((__this_00 == (UI_DropdownSettingElement_o *)0x0) ||
-         (__this_01 = (__this_00->fields)._scrollBar, __this_01 == (UnityEngine_UI_Scrollbar_o *)0x0))
-      goto label_18221b430;
-      UnityEngine_UI_Scrollbar__set_value(__this_01,(__this_00->fields)._currentScrollValue,(MethodInfo *)0x0)
-      ;
-    }
-    return false;
-  }
-  (__this->fields).__1__state = -1;
-  if (__this_00 != (UI_DropdownSettingElement_o *)0x0) {
-    UI_DropdownSettingElement__SetOptionsPosition(__this_00,(MethodInfo *)0x0);
-    pUVar3 = (__this_00->fields)._optionsPanel;
-    if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar5 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0);
-      if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
-        UnityEngine_Transform__SetAsLastSibling(pUVar5,(MethodInfo *)0x0);
-        pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-        if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
-          pUVar6 = UnityEngine_Transform__get_position(&local_18,pUVar5,(MethodInfo *)0x0);
-          fVar2 = (pUVar6->fields).z;
-          fVar4 = (pUVar6->fields).y;
-          (__this_00->fields)._lastKnownPosition.fields.x = (pUVar6->fields).x;
-          (__this_00->fields)._lastKnownPosition.fields.y = fVar4;
-          (__this_00->fields)._lastKnownPosition.fields.z = fVar2;
-          pUVar3 = (__this_00->fields)._optionsPanel;
-          if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-            UnityEngine_GameObject__SetActive(pUVar3,true,(MethodInfo *)0x0);
-            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+      if (__this_00 != (UI_DropdownSettingElement_o *)0x0) {
+        UI_DropdownSettingElement__SetOptionsPosition(__this_00,method);
+        pUVar2 = (__this_00->fields)._optionsPanel;
+        if ((pUVar2 != (UnityEngine_GameObject_o *)0x0) &&
+           (pUVar4 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0),
+           pUVar4 != (UnityEngine_Transform_o *)0x0)) {
+          UnityEngine_Transform__SetAsLastSibling(pUVar4,(MethodInfo *)0x0);
+          pUVar4 = UnityEngine_Component__get_transform
+                             ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+          if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
+            UVar6 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_position(pUVar4,(MethodInfo *)0x0);
+            (__this_00->fields)._lastKnownPosition.fields = UVar6;
+            pUVar2 = (__this_00->fields)._optionsPanel;
+            if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+              UnityEngine_GameObject__SetActive(pUVar2,true,(MethodInfo *)0x0);
+              if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              }
+              TypeInfo_UI_UIManager->static_fields->NeedResizeText = true;
+              pIVar3 = (Il2CppObject *)
+                       il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+              UnityEngine_WaitForEndOfFrame___ctor
+                        ((UnityEngine_WaitForEndOfFrame_o *)pIVar3,(MethodInfo *)0x0);
+              (__this->fields).__2__current = pIVar3;
+              Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+              (__this->fields).__1__state = 2;
+              return true;
             }
-            TypeInfo_UI_UIManager->static_fields->NeedResizeText = true;
-            pIVar7 = (Il2CppObject *)
-                     il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
-            UnityEngine_WaitForEndOfFrame___ctor
-                      ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar7,(MethodInfo *)0x0);
-            (__this->fields).__2__current = pIVar7;
-            Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
-            (__this->fields).__1__state = 2;
-            return true;
           }
         }
       }
+label_05cf08a8:
+      ThrowNullReferenceException();
+    }
+    if (iVar1 == 0) {
+      (__this->fields).__1__state = -1;
+      pIVar3 = (Il2CppObject *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+      UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar3,(MethodInfo *)0x0);
+      (__this->fields).__2__current = pIVar3;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current);
+      (__this->fields).__1__state = 1;
+      bVar5 = true;
+    }
+    else {
+      bVar5 = false;
     }
   }
-label_18221b430:
-  ThrowNullReferenceException();
+  return bVar5;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, const MethodInfo* method);
-// 0x180573e90
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, const MethodInfo* method);
+// 0x5cf08b0
 
-Il2CppObject*
-UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$System.Collections.IEnumerator.Reset
-// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_IEnumerator_Reset (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, const MethodInfo* method);
-// 0x18221b440
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$System.Collections.IEnumerator.Reset
+// il2cpp: void UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_IEnumerator_Reset (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, const MethodInfo* method);
+// 0x5cf08c0
 
-void UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_IEnumerator_Reset
-               (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o *__this,MethodInfo *method)
+void UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_IEnumerator_Reset
+               (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,MethodInfo *method)
 
 {
   Il2CppClass *klass;
@@ -311,18 +311,19 @@ void UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_I
   lastManagedFrame =
        il2cpp_codegen_get_runtime_metadata
                  (&
-                  MethodInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22_System_Collections_IEnumerator_Reset
+                  MethodInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__25_System_Collections_IEnumerator_Reset
                  );
   il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// UI.DropdownSettingElement.<WaitAndEnableOptions>d__22$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_IEnumerator_get_Current (UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, const MethodInfo* method);
-// 0x180573e90
+// UI.DropdownSettingElement.<WaitAndEnableOptions>d__25$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_IEnumerator_get_Current (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o* __this, const MethodInfo* method);
+// 0x5cf0900
 
-Il2CppObject*
-UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_IEnumerator_get_Current(UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o* __this, MethodInfo* method)
+Il2CppObject *
+UI_DropdownSettingElement__WaitAndEnableOptions_d__25__System_Collections_IEnumerator_get_Current
+          (UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -331,7 +332,7 @@ UI_DropdownSettingElement__WaitAndEnableOptions_d__22__System_Collections_IEnume
 
 // UI.DropdownSettingElement$$get_SupportedSettingTypes
 // il2cpp: System_Collections_Generic_HashSet_SettingType__o* UI_DropdownSettingElement__get_SupportedSettingTypes (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220baa0
+// 0x5cef1d0
 
 System_Collections_Generic_HashSet_SettingType__o *
 UI_DropdownSettingElement__get_SupportedSettingTypes(UI_DropdownSettingElement_o *__this,MethodInfo *method)
@@ -339,38 +340,35 @@ UI_DropdownSettingElement__get_SupportedSettingTypes(UI_DropdownSettingElement_o
 {
   System_Collections_Generic_HashSet_SettingType__o *__this_00;
   
-  if (Il2CppMethodInitialized_18434710f == '\0') {
+  if (Il2CppMethodInitialized_07547c7c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_SettingType_Add)
     ;
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_SettingType);
-    Il2CppMethodInitialized_18434710f = '\x01';
+    Il2CppMethodInitialized_07547c7c = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_SettingType);
   System_Collections_Generic_HashSet_Int32Enum____ctor
             ((System_Collections_Generic_HashSet_T__o *)__this_00,
-             (MethodInfo_176DB60 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
-  if (__this_00 != (System_Collections_Generic_HashSet_SettingType__o *)0x0) {
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,4,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
-    System_Collections_Generic_HashSet_Int32Enum___Add
-              ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
-               (MethodInfo_1757D00 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
-    return __this_00;
+             (MethodInfo_4FAD1E0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_ctor);
+  if (__this_00 == (System_Collections_Generic_HashSet_SettingType__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,4,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
+  System_Collections_Generic_HashSet_Int32Enum___Add
+            ((System_Collections_Generic_HashSet_T__o *)__this_00,2,
+             (MethodInfo_4FAE7B0 *)MethodInfo_System_Collections_Generic_HashSet_SettingType_Add);
+  return __this_00;
 }
 
 
 // UI.DropdownSettingElement$$Setup
 // il2cpp: void UI_DropdownSettingElement__Setup (UI_DropdownSettingElement_o* __this, Settings_BaseSetting_o* setting, UI_ElementStyle_o* style, System_String_o* title, System_String_array* options, System_String_o* tooltip, float elementWidth, float elementHeight, float optionsWidth, float maxScrollHeight, UnityEngine_Events_UnityAction_o* onDropdownOptionSelect, System_Int32_array* intOptionValues, const MethodInfo* method);
-// 0x18220aa50
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18220aead: nop dword ptr [rax]
-// asm:   0x18220b263: movaps xmm6, xmm0
+// 0x5cee3b0
 
 void UI_DropdownSettingElement__Setup
                (UI_DropdownSettingElement_o *__this,Settings_BaseSetting_o *setting,UI_ElementStyle_o *style,
@@ -380,41 +378,49 @@ void UI_DropdownSettingElement__Setup
                MethodInfo *method)
 
 {
+  UnityEngine_GameObject_o **targetAddress;
+  UnityEngine_GameObject_o **targetAddress_00;
+  UnityEngine_GameObject_o **targetAddress_01;
+  UnityEngine_UI_Scrollbar_o **targetAddress_02;
   int32_t value;
+  uint uVar1;
+  System_Func_string__string__o *pSVar2;
   UnityEngine_Events_UnityEvent_o *__this_00;
-  bool bVar1;
-  UnityEngine_Transform_o *pUVar2;
-  UnityEngine_GameObject_o *pUVar3;
-  UnityEngine_UI_Text_o *pUVar4;
-  UnityEngine_UI_Button_o *pUVar5;
+  UnityEngine_Vector2_o UVar3;
+  UnityEngine_UI_ColorBlock_o value_00;
+  UnityEngine_UI_ColorBlock_o value_01;
+  bool bVar4;
+  UnityEngine_Transform_o *pUVar5;
+  UnityEngine_GameObject_o *pUVar6;
+  System_String_o *pSVar7;
+  UnityEngine_UI_Text_o *pUVar8;
+  UnityEngine_UI_Button_o *pUVar9;
   UnityEngine_Events_UnityAction_o *__this_01;
-  UnityEngine_UI_LayoutElement_o *pUVar6;
-  UnityEngine_UI_ColorBlock_o *pUVar7;
-  UnityEngine_Color_o *pUVar8;
-  UnityEngine_UI_Image_o *pUVar9;
-  UnityEngine_RectTransform_o *pUVar10;
-  UnityEngine_Vector2_o UVar11;
+  UnityEngine_UI_LayoutElement_o *pUVar10;
+  ulong uVar11;
+  UnityEngine_UI_Image_o *pUVar12;
+  UnityEngine_RectTransform_o *pUVar13;
   UnityEngine_UI_ScrollRect_o *__this_02;
-  UnityEngine_UI_Scrollbar_o *pUVar12;
+  UnityEngine_UI_Scrollbar_o *pUVar14;
   UI_MapEditorScaledPanel_o *x;
-  UnityEngine_Transform_o *pUVar13;
+  UnityEngine_Transform_o *pUVar15;
   Il2CppClass *klass;
   System_ArgumentException_o *__this_03;
-  System_String_o *pSVar14;
-  MethodInfo *lastManagedFrame;
-  uint index;
-  UnityEngine_Color_Fields local_128;
-  UnityEngine_UI_ColorBlock_o local_118;
-  UnityEngine_UI_ColorBlock_o local_b8;
+  MethodInfo *pMVar16;
+  ulong uVar17;
+  UnityEngine_Color_o UVar18;
+  float local_c8;
+  UnityEngine_UI_ColorBlock_o local_88;
   
-  if (Il2CppMethodInitialized_184347110 == '\0') {
+  pMVar16 = (MethodInfo *)tooltip;
+  if (Il2CppMethodInitialized_07547c7d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_UnityEngine_Component_GetComponentInParent_MapEditorScaledPanel);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Image);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Scrollbar);
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_DropdownSettingElement_Setup_b__13_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_DropdownSettingElement_Setup_b__14_0);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Button);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
@@ -436,431 +442,515 @@ void UI_DropdownSettingElement__Setup
     il2cpp_codegen_initialize_runtime_metadata(&"Scrollbar");
     il2cpp_codegen_initialize_runtime_metadata(&"Dropdown/SelectedButton");
     il2cpp_codegen_initialize_runtime_metadata(&"Options");
-    Il2CppMethodInitialized_184347110 = '\x01';
+    Il2CppMethodInitialized_07547c7d = '\x01';
   }
   if (options != (System_String_array *)0x0) {
     if (options->max_length == 0) {
       klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
       __this_03 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
-      pSVar14 = il2cpp_codegen_get_runtime_metadata(&"Dropdown cannot have 0 options.");
-      System_ArgumentException___ctor_1a77cc0(__this_03,pSVar14,(MethodInfo *)0x0);
-      lastManagedFrame = il2cpp_codegen_get_runtime_metadata(&MethodInfo_UI_DropdownSettingElement_Setup);
-      il2cpp_codegen_raise_exception((Il2CppObject *)__this_03,lastManagedFrame);
+      pSVar7 = il2cpp_codegen_get_runtime_metadata(&"Dropdown cannot have 0 options.");
+      System_ArgumentException___ctor_54186d0(__this_03,pSVar7,(MethodInfo *)0x0);
+      pMVar16 = il2cpp_codegen_get_runtime_metadata(&MethodInfo_UI_DropdownSettingElement_Setup);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_03,pMVar16);
     }
     (__this->fields)._onDropdownOptionSelect = onDropdownOptionSelect;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._onDropdownOptionSelect,onDropdownOptionSelect);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._onDropdownOptionSelect);
     (__this->fields)._intOptionValues = intOptionValues;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._intOptionValues,intOptionValues);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._intOptionValues);
     (__this->fields)._options = options;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._options,options);
-    pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-       (pUVar2 = UnityEngine_Transform__Find(pUVar2,"Dropdown/Mask",(MethodInfo *)0x0),
-       pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-      pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-      (__this->fields)._optionsPanel = pUVar3;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._optionsPanel,pUVar3);
-      pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-         (pUVar2 = UnityEngine_Transform__Find(pUVar2,"Dropdown/SelectedButton",(MethodInfo *)0x0),
-         pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-        pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-        (__this->fields)._selectedButton = pUVar3;
-        Il2CppCodeGenWriteBarrier(&(__this->fields)._selectedButton,pUVar3);
-        pUVar3 = (__this->fields)._selectedButton;
-        if (((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-            (pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0),
-            pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-           (pUVar2 = UnityEngine_Transform__Find(pUVar2,"Label",(MethodInfo *)0x0),
-           pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-          pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-          (__this->fields)._selectedButtonLabel = pUVar3;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._selectedButtonLabel,pUVar3);
-          if ((int)options->max_length == 0) {
-label_18220b598:
-            ThrowIndexOutOfRangeException();
-          }
-          if (style != (UI_ElementStyle_o *)0x0) {
-            pUVar3 = (__this->fields)._selectedButtonLabel;
-            pSVar14 = options->m_Items[0];
-            value = (style->fields).FontSize;
-            if (Il2CppMethodInitialized_184347105 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text)
-              ;
-              Il2CppMethodInitialized_184347105 = '\x01';
-            }
-            if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-               (pUVar4 = UnityEngine_GameObject__GetComponent_object_
-                                   (pUVar3,(MethodInfo_6F5650 *)
-                                           MethodInfo_UnityEngine_GameObject_GetComponent_Text),
-               pUVar4 != (UnityEngine_UI_Text_o *)0x0)) {
-              (*(pUVar4->klass->vtable)._75_set_text.methodPtr)
-                        (pUVar4,pSVar14,(pUVar4->klass->vtable)._75_set_text.method);
-              UnityEngine_UI_Text__set_fontSize(pUVar4,value,(MethodInfo *)0x0);
-              pUVar3 = (__this->fields)._selectedButton;
-              if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                 (pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                                     (pUVar3,(MethodInfo_6F5650 *)
-                                             MethodInfo_UnityEngine_GameObject_GetComponent_Button),
-                 pUVar5 != (UnityEngine_UI_Button_o *)0x0)) {
-                __this_00 = (UnityEngine_Events_UnityEvent_o *)(pUVar5->fields).m_OnClick;
-                __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
-                UnityEngine_Events_UnityAction___ctor
-                          ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_01,(Il2CppObject *)__this,
-                           (intptr_t)MethodInfo_UI_DropdownSettingElement_Setup_b__13_0,(MethodInfo *)0x0);
-                if (__this_00 != (UnityEngine_Events_UnityEvent_o *)0x0) {
-                  UnityEngine_Events_UnityEvent__AddListener(__this_00,__this_01,(MethodInfo *)0x0);
-                  pUVar3 = (__this->fields)._selectedButton;
-                  if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                     (pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                         (pUVar3,(MethodInfo_6F5650 *)
-                                                 MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement)
-                     , pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0)) {
-                    (*(pUVar6->klass->vtable)._36_set_preferredWidth.methodPtr)
-                              (pUVar6,elementWidth,(pUVar6->klass->vtable)._36_set_preferredWidth.method);
-                    pUVar3 = (__this->fields)._selectedButton;
-                    if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                       (pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                           (pUVar3,(MethodInfo_6F5650 *)
-                                                   MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
-                                           ), pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0)) {
-                      (*(pUVar6->klass->vtable)._38_set_preferredHeight.methodPtr)
-                                (pUVar6,elementHeight,(pUVar6->klass->vtable)._38_set_preferredHeight.method);
-                      for (index = 0; (int)index < (int)options->max_length; index = index + 1) {
-                        if ((uint)options->max_length <= index) goto label_18220b598;
-                        UI_DropdownSettingElement__CreateOptionButton
-                                  (__this,options->m_Items[(int)index],index,optionsWidth,elementHeight,
-                                   (style->fields).FontSize,(style->fields).ThemePanel,(MethodInfo *)0x0);
-                      }
-                      pUVar3 = (__this->fields)._selectedButton;
-                      if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-                        pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                                           (pUVar3,(MethodInfo_6F5650 *)
-                                                   MethodInfo_UnityEngine_GameObject_GetComponent_Button);
-                        pSVar14 = (style->fields).ThemePanel;
-                        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
-                        }
-                        pUVar7 = UI_UIManager__GetThemeColorBlock
-                                           (&local_b8,pSVar14,"DefaultSetting","Dropdown",
-                                            "DefaultPanel",(MethodInfo *)0x0);
-                        if (pUVar5 != (UnityEngine_UI_Button_o *)0x0) {
-                          local_118.fields.m_NormalColor.fields.r = (pUVar7->fields).m_NormalColor.fields.r;
-                          local_118.fields.m_NormalColor.fields.g = (pUVar7->fields).m_NormalColor.fields.g;
-                          local_118.fields.m_NormalColor.fields.b = (pUVar7->fields).m_NormalColor.fields.b;
-                          local_118.fields.m_NormalColor.fields.a = (pUVar7->fields).m_NormalColor.fields.a;
-                          local_118.fields.m_HighlightedColor.fields.r =
-                               (pUVar7->fields).m_HighlightedColor.fields.r;
-                          local_118.fields.m_HighlightedColor.fields.g =
-                               (pUVar7->fields).m_HighlightedColor.fields.g;
-                          local_118.fields.m_HighlightedColor.fields.b =
-                               (pUVar7->fields).m_HighlightedColor.fields.b;
-                          local_118.fields.m_HighlightedColor.fields.a =
-                               (pUVar7->fields).m_HighlightedColor.fields.a;
-                          local_118.fields.m_PressedColor.fields.r = (pUVar7->fields).m_PressedColor.fields.r;
-                          local_118.fields.m_PressedColor.fields.g = (pUVar7->fields).m_PressedColor.fields.g;
-                          local_118.fields.m_PressedColor.fields.b = (pUVar7->fields).m_PressedColor.fields.b;
-                          local_118.fields.m_PressedColor.fields.a = (pUVar7->fields).m_PressedColor.fields.a;
-                          local_118.fields.m_SelectedColor.fields.r =
-                               (pUVar7->fields).m_SelectedColor.fields.r;
-                          local_118.fields.m_SelectedColor.fields.g =
-                               (pUVar7->fields).m_SelectedColor.fields.g;
-                          local_118.fields.m_SelectedColor.fields.b =
-                               (pUVar7->fields).m_SelectedColor.fields.b;
-                          local_118.fields.m_SelectedColor.fields.a =
-                               (pUVar7->fields).m_SelectedColor.fields.a;
-                          local_118.fields.m_DisabledColor.fields.r =
-                               (pUVar7->fields).m_DisabledColor.fields.r;
-                          local_118.fields.m_DisabledColor.fields.g =
-                               (pUVar7->fields).m_DisabledColor.fields.g;
-                          local_118.fields.m_DisabledColor.fields.b =
-                               (pUVar7->fields).m_DisabledColor.fields.b;
-                          local_118.fields.m_DisabledColor.fields.a =
-                               (pUVar7->fields).m_DisabledColor.fields.a;
-                          local_118.fields.m_ColorMultiplier = (pUVar7->fields).m_ColorMultiplier;
-                          local_118.fields.m_FadeDuration = (pUVar7->fields).m_FadeDuration;
-                          UnityEngine_UI_Selectable__set_colors
-                                    ((UnityEngine_UI_Selectable_o *)pUVar5,&local_118,(MethodInfo *)0x0);
-                          pUVar3 = (__this->fields)._selectedButtonLabel;
-                          if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-                            pUVar4 = UnityEngine_GameObject__GetComponent_object_
-                                               (pUVar3,(MethodInfo_6F5650 *)
-                                                       MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-                            pUVar8 = UI_UIManager__GetThemeColor
-                                               ((UnityEngine_Color_o *)&local_128,(style->fields).ThemePanel,
-                                                "DefaultSetting","DropdownTextColor",
-                                                "DefaultPanel",(MethodInfo *)0x0);
-                            if (pUVar4 != (UnityEngine_UI_Text_o *)0x0) {
-                              local_128.r = (pUVar8->fields).r;
-                              local_128.g = (pUVar8->fields).g;
-                              local_128.b = (pUVar8->fields).b;
-                              local_128.a = (pUVar8->fields).a;
-                              (*(pUVar4->klass->vtable)._23_set_color.methodPtr)
-                                        (pUVar4,(UnityEngine_Color_o *)&local_128,
-                                         (pUVar4->klass->vtable)._23_set_color.method);
-                              pUVar3 = (__this->fields)._selectedButton;
-                              if (((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                                  (pUVar2 = UnityEngine_GameObject__get_transform(pUVar3,(MethodInfo *)0x0),
-                                  pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-                                 (pUVar2 = UnityEngine_Transform__Find
-                                                     (pUVar2,"Image",(MethodInfo *)0x0),
-                                 pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                pUVar9 = UnityEngine_Component__GetComponent_object_
-                                                   ((UnityEngine_Component_o *)pUVar2,
-                                                    (MethodInfo_6651A0 *)
-                                                    MethodInfo_UnityEngine_Component_GetComponent_Image);
-                                pUVar8 = UI_UIManager__GetThemeColor
-                                                   ((UnityEngine_Color_o *)&local_128,
-                                                    (style->fields).ThemePanel,"DefaultSetting",
-                                                    "DropdownTextColor","DefaultPanel",
-                                                    (MethodInfo *)0x0);
-                                if (pUVar9 != (UnityEngine_UI_Image_o *)0x0) {
-                                  local_128.r = (pUVar8->fields).r;
-                                  local_128.g = (pUVar8->fields).g;
-                                  local_128.b = (pUVar8->fields).b;
-                                  local_128.a = (pUVar8->fields).a;
-                                  (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
-                                            (pUVar9,(UnityEngine_Color_o *)&local_128,
-                                             (pUVar9->klass->vtable)._23_set_color.method);
-                                  pUVar3 = (__this->fields)._optionsPanel;
-                                  if (((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                                      (pUVar2 = UnityEngine_GameObject__get_transform
-                                                          (pUVar3,(MethodInfo *)0x0),
-                                      pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-                                     (pUVar2 = UnityEngine_Transform__Find
-                                                         (pUVar2,"Options",(MethodInfo *)0x0),
-                                     pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                    pUVar9 = UnityEngine_Component__GetComponent_object_
-                                                       ((UnityEngine_Component_o *)pUVar2,
-                                                        (MethodInfo_6651A0 *)
-                                                        MethodInfo_UnityEngine_Component_GetComponent_Image);
-                                    pUVar8 = UI_UIManager__GetThemeColor
-                                                       ((UnityEngine_Color_o *)&local_128,
-                                                        (style->fields).ThemePanel,"DefaultSetting",
-                                                        "DropdownBorderColor","DefaultPanel",
-                                                        (MethodInfo *)0x0);
-                                    if (pUVar9 != (UnityEngine_UI_Image_o *)0x0) {
-                                      local_128.r = (pUVar8->fields).r;
-                                      local_128.g = (pUVar8->fields).g;
-                                      local_128.b = (pUVar8->fields).b;
-                                      local_128.a = (pUVar8->fields).a;
-                                      (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
-                                                (pUVar9,(UnityEngine_Color_o *)&local_128,
-                                                 (pUVar9->klass->vtable)._23_set_color.method);
-                                      UnityEngine_Canvas__ForceUpdateCanvases((MethodInfo *)0x0);
-                                      pUVar3 = (__this->fields)._optionsPanel;
-                                      if (((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                                          (pUVar2 = UnityEngine_GameObject__get_transform
-                                                              (pUVar3,(MethodInfo *)0x0),
-                                          pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-                                         ((pUVar2 = UnityEngine_Transform__Find
-                                                              (pUVar2,"Options",(MethodInfo *)0x0)
-                                          , pUVar2 != (UnityEngine_Transform_o *)0x0 &&
-                                          (pUVar10 = UnityEngine_Component__GetComponent_object_
-                                                               ((UnityEngine_Component_o *)pUVar2,
-                                                                (MethodInfo_6651A0 *)
-                                                                                                                                
-                                                       MethodInfo_UnityEngine_Component_GetComponent_RectTransform
-                                                       ), pUVar10 != (UnityEngine_RectTransform_o *)0x0)))) {
-                                        UVar11 = UnityEngine_RectTransform__get_sizeDelta
-                                                           (pUVar10,(MethodInfo *)0x0);
-                                        options._4_4_ = UVar11.fields.y;
-                                        if (options._4_4_ <= maxScrollHeight) {
-                                          pUVar3 = (__this->fields)._optionsPanel;
-                                          if ((pUVar3 == (UnityEngine_GameObject_o *)0x0) ||
-                                             (__this_02 = UnityEngine_GameObject__GetComponent_object_
-                                                                    (pUVar3,(MethodInfo_6F5650 *)
-                                                                                                                                                        
-                                                       MethodInfo_UnityEngine_GameObject_GetComponent_ScrollRect
-                                                       ), __this_02 == (UnityEngine_UI_ScrollRect_o *)0x0))
-                                          goto label_18220b592;
-                                          UnityEngine_UI_ScrollRect__set_verticalScrollbar
-                                                    (__this_02,(UnityEngine_UI_Scrollbar_o *)0x0,
-                                                     (MethodInfo *)0x0);
-                                          pUVar3 = (__this->fields)._optionsPanel;
-                                          if ((pUVar3 == (UnityEngine_GameObject_o *)0x0) ||
-                                             (((pUVar2 = UnityEngine_GameObject__get_transform
-                                                                   (pUVar3,(MethodInfo *)0x0),
-                                               pUVar2 == (UnityEngine_Transform_o *)0x0 ||
-                                               (pUVar2 = UnityEngine_Transform__Find
-                                                                   (pUVar2,"Scrollbar",
-                                                                    (MethodInfo *)0x0),
-                                               pUVar2 == (UnityEngine_Transform_o *)0x0)) ||
-                                              (pUVar3 = UnityEngine_Component__get_gameObject
-                                                                  ((UnityEngine_Component_o *)pUVar2,
-                                                                   (MethodInfo *)0x0),
-                                              pUVar3 == (UnityEngine_GameObject_o *)0x0))))
-                                          goto label_18220b592;
-                                          UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
-                                          maxScrollHeight = options._4_4_;
-                                        }
-                                        pUVar3 = (__this->fields)._optionsPanel;
-                                        if (((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                                            (pUVar2 = UnityEngine_GameObject__get_transform
-                                                                (pUVar3,(MethodInfo *)0x0),
-                                            pUVar2 != (UnityEngine_Transform_o *)0x0)) &&
-                                           (pUVar2 = UnityEngine_Transform__Find
-                                                               (pUVar2,"Scrollbar",(MethodInfo *)0x0
-                                                               ), pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                          pUVar12 = UnityEngine_Component__GetComponent_object_
-                                                              ((UnityEngine_Component_o *)pUVar2,
-                                                               (MethodInfo_6651A0 *)
-                                                                                                                              
-                                                       MethodInfo_UnityEngine_Component_GetComponent_Scrollbar
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._options);
+    pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+      pUVar5 = UnityEngine_Transform__Find(pUVar5,"Dropdown/Mask",(MethodInfo *)0x0);
+      if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+        pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0);
+        targetAddress = &(__this->fields)._optionsPanel;
+        (__this->fields)._optionsPanel = pUVar6;
+        Il2CppCodeGenWriteBarrier(targetAddress);
+        pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+          pUVar5 = UnityEngine_Transform__Find(pUVar5,"Dropdown/SelectedButton",(MethodInfo *)0x0);
+          if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+            pUVar6 = UnityEngine_Component__get_gameObject
+                               ((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0);
+            targetAddress_00 = &(__this->fields)._selectedButton;
+            (__this->fields)._selectedButton = pUVar6;
+            Il2CppCodeGenWriteBarrier(targetAddress_00);
+            pUVar6 = (__this->fields)._selectedButton;
+            if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+              pUVar5 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+              if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                pUVar5 = UnityEngine_Transform__Find(pUVar5,"Label",(MethodInfo *)0x0);
+                if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                  pUVar6 = UnityEngine_Component__get_gameObject
+                                     ((UnityEngine_Component_o *)pUVar5,(MethodInfo *)0x0);
+                  targetAddress_01 = &(__this->fields)._selectedButtonLabel;
+                  (__this->fields)._selectedButtonLabel = pUVar6;
+                  Il2CppCodeGenWriteBarrier(targetAddress_01);
+                  if ((int)options->max_length == 0) {
+label_05ceef16:
+                    ThrowIndexOutOfRangeException();
+                  }
+                  pUVar6 = (__this->fields)._selectedButtonLabel;
+                  pSVar7 = options->m_Items[0];
+                  pSVar2 = (__this->fields)._optionLabel;
+                  if (pSVar2 != (System_Func_string__string__o *)0x0) {
+                    pSVar7 = (System_String_o *)
+                             (*(code *)(pSVar2->fields).invoke_impl)
+                                       ((pSVar2->fields).method_code,pSVar7,(pSVar2->fields).method);
+                  }
+                  if (style != (UI_ElementStyle_o *)0x0) {
+                    value = (style->fields).FontSize;
+                    if (Il2CppMethodInitialized_07547c72 == '\0') {
+                      il2cpp_codegen_initialize_runtime_metadata
+                                (&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+                      Il2CppMethodInitialized_07547c72 = '\x01';
+                    }
+                    if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                      pUVar8 = UnityEngine_GameObject__GetComponent_object_
+                                         (pUVar6,(MethodInfo_353B730 *)
+                                                 MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+                      if (pUVar8 != (UnityEngine_UI_Text_o *)0x0) {
+                        (*(pUVar8->klass->vtable)._75_set_text.methodPtr)
+                                  (pUVar8,pSVar7,(pUVar8->klass->vtable)._75_set_text.method);
+                        UnityEngine_UI_Text__set_fontSize(pUVar8,value,(MethodInfo *)0x0);
+                        if (*targetAddress_00 != (UnityEngine_GameObject_o *)0x0) {
+                          pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                                             (*targetAddress_00,
+                                              (MethodInfo_353B730 *)
+                                              MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                          if (pUVar9 != (UnityEngine_UI_Button_o *)0x0) {
+                            __this_00 = (UnityEngine_Events_UnityEvent_o *)(pUVar9->fields).m_OnClick;
+                            __this_01 = il2cpp_codegen_object_new
+                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                            UnityEngine_Events_UnityAction___ctor
+                                      (__this_01,(Il2CppObject *)__this,
+                                       (intptr_t)MethodInfo_UI_DropdownSettingElement_Setup_b__14_0,
+                                       (MethodInfo *)0x0);
+                            if (__this_00 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+                              UnityEngine_Events_UnityEvent__AddListener
+                                        (__this_00,__this_01,(MethodInfo *)0x0);
+                              if (*targetAddress_00 != (UnityEngine_GameObject_o *)0x0) {
+                                pUVar10 = UnityEngine_GameObject__GetComponent_object_
+                                                    (*targetAddress_00,
+                                                     (MethodInfo_353B730 *)
+                                                     MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
+                                                    );
+                                if (pUVar10 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                                  (*(pUVar10->klass->vtable)._36_set_preferredWidth.methodPtr)
+                                            (pUVar10,elementWidth,
+                                             (pUVar10->klass->vtable)._36_set_preferredWidth.method);
+                                  if (*targetAddress_00 != (UnityEngine_GameObject_o *)0x0) {
+                                    pUVar10 = UnityEngine_GameObject__GetComponent_object_
+                                                        (*targetAddress_00,
+                                                         (MethodInfo_353B730 *)
+                                                                                                                  
+                                                       MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
                                                        );
-                                          (__this->fields)._scrollBar = pUVar12;
-                                          Il2CppCodeGenWriteBarrier(&(__this->fields)._scrollBar,pUVar12);
-                                          pUVar12 = (__this->fields)._scrollBar;
-                                          pSVar14 = (style->fields).ThemePanel;
-                                          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
-                                            il2cpp_codegen_runtime_class_init
-                                                      ((Il2CppClass *)TypeInfo_UI_UIManager);
-                                          }
-                                          pUVar7 = UI_UIManager__GetThemeColorBlock
-                                                             (&local_b8,pSVar14,"DefaultSetting",
-                                                              "DropdownScrollbar","DefaultPanel",
-                                                              (MethodInfo *)0x0);
-                                          if (pUVar12 != (UnityEngine_UI_Scrollbar_o *)0x0) {
-                                            local_118.fields.m_NormalColor.fields.r =
-                                                 (pUVar7->fields).m_NormalColor.fields.r;
-                                            local_118.fields.m_NormalColor.fields.g =
-                                                 (pUVar7->fields).m_NormalColor.fields.g;
-                                            local_118.fields.m_NormalColor.fields.b =
-                                                 (pUVar7->fields).m_NormalColor.fields.b;
-                                            local_118.fields.m_NormalColor.fields.a =
-                                                 (pUVar7->fields).m_NormalColor.fields.a;
-                                            local_118.fields.m_HighlightedColor.fields.r =
-                                                 (pUVar7->fields).m_HighlightedColor.fields.r;
-                                            local_118.fields.m_HighlightedColor.fields.g =
-                                                 (pUVar7->fields).m_HighlightedColor.fields.g;
-                                            local_118.fields.m_HighlightedColor.fields.b =
-                                                 (pUVar7->fields).m_HighlightedColor.fields.b;
-                                            local_118.fields.m_HighlightedColor.fields.a =
-                                                 (pUVar7->fields).m_HighlightedColor.fields.a;
-                                            local_118.fields.m_PressedColor.fields.r =
-                                                 (pUVar7->fields).m_PressedColor.fields.r;
-                                            local_118.fields.m_PressedColor.fields.g =
-                                                 (pUVar7->fields).m_PressedColor.fields.g;
-                                            local_118.fields.m_PressedColor.fields.b =
-                                                 (pUVar7->fields).m_PressedColor.fields.b;
-                                            local_118.fields.m_PressedColor.fields.a =
-                                                 (pUVar7->fields).m_PressedColor.fields.a;
-                                            local_118.fields.m_SelectedColor.fields.r =
-                                                 (pUVar7->fields).m_SelectedColor.fields.r;
-                                            local_118.fields.m_SelectedColor.fields.g =
-                                                 (pUVar7->fields).m_SelectedColor.fields.g;
-                                            local_118.fields.m_SelectedColor.fields.b =
-                                                 (pUVar7->fields).m_SelectedColor.fields.b;
-                                            local_118.fields.m_SelectedColor.fields.a =
-                                                 (pUVar7->fields).m_SelectedColor.fields.a;
-                                            local_118.fields.m_DisabledColor.fields.r =
-                                                 (pUVar7->fields).m_DisabledColor.fields.r;
-                                            local_118.fields.m_DisabledColor.fields.g =
-                                                 (pUVar7->fields).m_DisabledColor.fields.g;
-                                            local_118.fields.m_DisabledColor.fields.b =
-                                                 (pUVar7->fields).m_DisabledColor.fields.b;
-                                            local_118.fields.m_DisabledColor.fields.a =
-                                                 (pUVar7->fields).m_DisabledColor.fields.a;
-                                            local_118.fields.m_ColorMultiplier =
-                                                 (pUVar7->fields).m_ColorMultiplier;
-                                            local_118.fields.m_FadeDuration = (pUVar7->fields).m_FadeDuration;
-                                            UnityEngine_UI_Selectable__set_colors
-                                                      ((UnityEngine_UI_Selectable_o *)pUVar12,&local_118,
-                                                       (MethodInfo *)0x0);
-                                            pUVar12 = (__this->fields)._scrollBar;
-                                            if (pUVar12 != (UnityEngine_UI_Scrollbar_o *)0x0) {
-                                              pUVar9 = UnityEngine_Component__GetComponent_object_
-                                                                 ((UnityEngine_Component_o *)pUVar12,
-                                                                  (MethodInfo_6651A0 *)
+                                    if (pUVar10 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                                      (*(pUVar10->klass->vtable)._38_set_preferredHeight.methodPtr)
+                                                (pUVar10,elementHeight,
+                                                 (pUVar10->klass->vtable)._38_set_preferredHeight.method);
+                                      if (0 < (int)options->max_length) {
+                                        uVar11 = options->max_length & 0xffffffff;
+                                        uVar17 = 0;
+                                        do {
+                                          if (uVar11 <= uVar17) goto label_05ceef16;
+                                          UI_DropdownSettingElement__CreateOptionButton
+                                                    (__this,options->m_Items[uVar17],(int32_t)uVar17,
+                                                     optionsWidth,elementHeight,(style->fields).FontSize,
+                                                     (style->fields).ThemePanel,pMVar16);
+                                          uVar17 = uVar17 + 1;
+                                          uVar1 = (uint)options->max_length;
+                                          uVar11 = (ulong)uVar1;
+                                        } while ((long)uVar17 < (long)(int)uVar1);
+                                      }
+                                      if (*targetAddress_00 != (UnityEngine_GameObject_o *)0x0) {
+                                        pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                                                           (*targetAddress_00,
+                                                            (MethodInfo_353B730 *)
+                                                                                                                        
+                                                       MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                                        pSVar7 = (style->fields).ThemePanel;
+                                        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                                          il2cpp_codegen_runtime_class_init
+                                                    ((Il2CppClass *)TypeInfo_UI_UIManager);
+                                        }
+                                        UI_UIManager__GetThemeColorBlock
+                                                  (&local_88,pSVar7,"DefaultSetting",
+                                                   "Dropdown","DefaultPanel",
+                                                   (MethodInfo *)0x0);
+                                        if (pUVar9 != (UnityEngine_UI_Button_o *)0x0) {
+                                          value_00.fields.m_NormalColor.fields.b =
+                                               local_88.fields.m_NormalColor.fields.b;
+                                          value_00.fields.m_NormalColor.fields.a =
+                                               local_88.fields.m_NormalColor.fields.a;
+                                          value_00.fields.m_NormalColor.fields.r =
+                                               local_88.fields.m_NormalColor.fields.r;
+                                          value_00.fields.m_NormalColor.fields.g =
+                                               local_88.fields.m_NormalColor.fields.g;
+                                          value_00.fields.m_HighlightedColor.fields.r =
+                                               local_88.fields.m_HighlightedColor.fields.r;
+                                          value_00.fields.m_HighlightedColor.fields.g =
+                                               local_88.fields.m_HighlightedColor.fields.g;
+                                          value_00.fields.m_HighlightedColor.fields.b =
+                                               local_88.fields.m_HighlightedColor.fields.b;
+                                          value_00.fields.m_HighlightedColor.fields.a =
+                                               local_88.fields.m_HighlightedColor.fields.a;
+                                          value_00.fields.m_PressedColor.fields.r =
+                                               local_88.fields.m_PressedColor.fields.r;
+                                          value_00.fields.m_PressedColor.fields.g =
+                                               local_88.fields.m_PressedColor.fields.g;
+                                          value_00.fields.m_PressedColor.fields.b =
+                                               local_88.fields.m_PressedColor.fields.b;
+                                          value_00.fields.m_PressedColor.fields.a =
+                                               local_88.fields.m_PressedColor.fields.a;
+                                          value_00.fields.m_SelectedColor.fields.r =
+                                               local_88.fields.m_SelectedColor.fields.r;
+                                          value_00.fields.m_SelectedColor.fields.g =
+                                               local_88.fields.m_SelectedColor.fields.g;
+                                          value_00.fields.m_SelectedColor.fields.b =
+                                               local_88.fields.m_SelectedColor.fields.b;
+                                          value_00.fields.m_SelectedColor.fields.a =
+                                               local_88.fields.m_SelectedColor.fields.a;
+                                          value_00.fields.m_DisabledColor.fields.r =
+                                               local_88.fields.m_DisabledColor.fields.r;
+                                          value_00.fields.m_DisabledColor.fields.g =
+                                               local_88.fields.m_DisabledColor.fields.g;
+                                          value_00.fields.m_DisabledColor.fields.b =
+                                               local_88.fields.m_DisabledColor.fields.b;
+                                          value_00.fields.m_DisabledColor.fields.a =
+                                               local_88.fields.m_DisabledColor.fields.a;
+                                          value_00.fields.m_ColorMultiplier =
+                                               local_88.fields.m_ColorMultiplier;
+                                          value_00.fields.m_FadeDuration = local_88.fields.m_FadeDuration;
+                                          UnityEngine_UI_Selectable__set_colors
+                                                    ((UnityEngine_UI_Selectable_o *)pUVar9,value_00,
+                                                     (MethodInfo *)0x0);
+                                          pUVar6 = *targetAddress_01;
+                                          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                                            pUVar8 = UnityEngine_GameObject__GetComponent_object_
+                                                               (pUVar6,(MethodInfo_353B730 *)
+                                                                                                                                              
+                                                       MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+                                            UVar18 = UI_UIManager__GetThemeColor
+                                                               ((style->fields).ThemePanel,
+                                                                "DefaultSetting","DropdownTextColor",
+                                                                "DefaultPanel",(MethodInfo *)0x0);
+                                            if (pUVar8 != (UnityEngine_UI_Text_o *)0x0) {
+                                              (*(pUVar8->klass->vtable)._23_set_color.methodPtr)
+                                                        (pUVar8,UVar18,
+                                                         (pUVar8->klass->vtable)._23_set_color.method);
+                                              if (*targetAddress_00 != (UnityEngine_GameObject_o *)0x0) {
+                                                pUVar5 = UnityEngine_GameObject__get_transform
+                                                                   (*targetAddress_00,(MethodInfo *)0x0);
+                                                if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                  pUVar5 = UnityEngine_Transform__Find
+                                                                     (pUVar5,"Image",
+                                                                      (MethodInfo *)0x0);
+                                                  if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                    pUVar12 = UnityEngine_Component__GetComponent_object_
+                                                                        ((UnityEngine_Component_o *)pUVar5,
+                                                                         (MethodInfo_34B0830 *)
+                                                                                                                                                  
+                                                       MethodInfo_UnityEngine_Component_GetComponent_Image);
+                                                    UVar18 = UI_UIManager__GetThemeColor
+                                                                       ((style->fields).ThemePanel,
+                                                                        "DefaultSetting",
+                                                                        "DropdownTextColor",
+                                                                        "DefaultPanel",
+                                                                        (MethodInfo *)0x0);
+                                                    if (pUVar12 != (UnityEngine_UI_Image_o *)0x0) {
+                                                      (*(pUVar12->klass->vtable)._23_set_color.methodPtr)
+                                                                (pUVar12,UVar18,
+                                                                 (pUVar12->klass->vtable)._23_set_color.method
+                                                                );
+                                                      if (*targetAddress != (UnityEngine_GameObject_o *)0x0) {
+                                                        pUVar5 = UnityEngine_GameObject__get_transform
+                                                                           (*targetAddress,(MethodInfo *)0x0);
+                                                        if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                          pUVar5 = UnityEngine_Transform__Find
+                                                                             (pUVar5,"Options",
+                                                                              (MethodInfo *)0x0);
+                                                          if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                            pUVar12 = 
+                                                       UnityEngine_Component__GetComponent_object_
+                                                                 ((UnityEngine_Component_o *)pUVar5,
+                                                                  (MethodInfo_34B0830 *)
                                                                                                                                     
                                                        MethodInfo_UnityEngine_Component_GetComponent_Image);
-                                              pUVar8 = UI_UIManager__GetThemeColor
-                                                                 ((UnityEngine_Color_o *)&local_128,
-                                                                  (style->fields).ThemePanel,
-                                                                  "DefaultSetting","DropdownScrollbarBackgroundColor",
-                                                                  "DefaultPanel",(MethodInfo *)0x0);
-                                              if (pUVar9 != (UnityEngine_UI_Image_o *)0x0) {
-                                                local_128.r = (pUVar8->fields).r;
-                                                local_128.g = (pUVar8->fields).g;
-                                                local_128.b = (pUVar8->fields).b;
-                                                local_128.a = (pUVar8->fields).a;
-                                                (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
-                                                          (pUVar9,(UnityEngine_Color_o *)&local_128,
-                                                           (pUVar9->klass->vtable)._23_set_color.method);
-                                                pUVar3 = (__this->fields)._optionsPanel;
-                                                if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
-                                                   (pUVar10 = UnityEngine_GameObject__GetComponent_object_
-                                                                        (pUVar3,(MethodInfo_6F5650 *)
-                                                                                                                                                                
+                                                       UVar18 = UI_UIManager__GetThemeColor
+                                                                          ((style->fields).ThemePanel,
+                                                                           "DefaultSetting",
+                                                                           "DropdownBorderColor",
+                                                                           "DefaultPanel",
+                                                                           (MethodInfo *)0x0);
+                                                       if (pUVar12 != (UnityEngine_UI_Image_o *)0x0) {
+                                                         (*(pUVar12->klass->vtable)._23_set_color.methodPtr)
+                                                                   (pUVar12,UVar18,
+                                                                    (pUVar12->klass->vtable)._23_set_color.
+                                                                    method);
+                                                         UnityEngine_Canvas__ForceUpdateCanvases
+                                                                   ((MethodInfo *)0x0);
+                                                         if (*targetAddress != (UnityEngine_GameObject_o *)0x0
+                                                            ) {
+                                                           pUVar5 = UnityEngine_GameObject__get_transform
+                                                                              (*targetAddress,
+                                                                               (MethodInfo *)0x0);
+                                                           if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                             pUVar5 = UnityEngine_Transform__Find
+                                                                                (pUVar5,"Options",
+                                                                                 (MethodInfo *)0x0);
+                                                             if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                               pUVar13 = 
+                                                       UnityEngine_Component__GetComponent_object_
+                                                                 ((UnityEngine_Component_o *)pUVar5,
+                                                                  (MethodInfo_34B0830 *)
+                                                                                                                                    
+                                                       MethodInfo_UnityEngine_Component_GetComponent_RectTransform
+                                                       );
+                                                       if (pUVar13 != (UnityEngine_RectTransform_o *)0x0) {
+                                                         UVar3 = UnityEngine_RectTransform__get_sizeDelta
+                                                                           (pUVar13,(MethodInfo *)0x0);
+                                                         local_c8 = maxScrollHeight;
+                                                         if (UVar3.fields.y <= maxScrollHeight) {
+                                                           if (*targetAddress ==
+                                                               (UnityEngine_GameObject_o *)0x0)
+                                                           goto label_05ceef11;
+                                                           __this_02 = 
+                                                       UnityEngine_GameObject__GetComponent_object_
+                                                                 (*targetAddress,
+                                                                  (MethodInfo_353B730 *)
+                                                                                                                                    
+                                                       MethodInfo_UnityEngine_GameObject_GetComponent_ScrollRect
+                                                       );
+                                                       if (__this_02 == (UnityEngine_UI_ScrollRect_o *)0x0)
+                                                       goto label_05ceef11;
+                                                       UnityEngine_UI_ScrollRect__set_verticalScrollbar
+                                                                 (__this_02,(UnityEngine_UI_Scrollbar_o *)0x0,
+                                                                  (MethodInfo *)0x0);
+                                                       if (*targetAddress == (UnityEngine_GameObject_o *)0x0)
+                                                       goto label_05ceef11;
+                                                       pUVar5 = UnityEngine_GameObject__get_transform
+                                                                          (*targetAddress,(MethodInfo *)0x0);
+                                                       if (pUVar5 == (UnityEngine_Transform_o *)0x0)
+                                                       goto label_05ceef11;
+                                                       pUVar5 = UnityEngine_Transform__Find
+                                                                          (pUVar5,"Scrollbar",
+                                                                           (MethodInfo *)0x0);
+                                                       if (pUVar5 == (UnityEngine_Transform_o *)0x0)
+                                                       goto label_05ceef11;
+                                                       pUVar6 = UnityEngine_Component__get_gameObject
+                                                                          ((UnityEngine_Component_o *)pUVar5,
+                                                                           (MethodInfo *)0x0);
+                                                       if (pUVar6 == (UnityEngine_GameObject_o *)0x0)
+                                                       goto label_05ceef11;
+                                                       UnityEngine_GameObject__SetActive
+                                                                 (pUVar6,false,(MethodInfo *)0x0);
+                                                       local_c8 = UVar3.fields.y;
+                                                       }
+                                                       if (*targetAddress != (UnityEngine_GameObject_o *)0x0)
+                                                       {
+                                                         pUVar5 = UnityEngine_GameObject__get_transform
+                                                                            (*targetAddress,(MethodInfo *)0x0)
+                                                         ;
+                                                         if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                           pUVar5 = UnityEngine_Transform__Find
+                                                                              (pUVar5,"Scrollbar",
+                                                                               (MethodInfo *)0x0);
+                                                           if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                             pUVar14 = 
+                                                       UnityEngine_Component__GetComponent_object_
+                                                                 ((UnityEngine_Component_o *)pUVar5,
+                                                                  (MethodInfo_34B0830 *)
+                                                                                                                                    
+                                                       MethodInfo_UnityEngine_Component_GetComponent_Scrollbar
+                                                       );
+                                                       targetAddress_02 = &(__this->fields)._scrollBar;
+                                                       (__this->fields)._scrollBar = pUVar14;
+                                                       Il2CppCodeGenWriteBarrier(targetAddress_02);
+                                                       pUVar14 = (__this->fields)._scrollBar;
+                                                       pSVar7 = (style->fields).ThemePanel;
+                                                       if ((TypeInfo_UI_UIManager->_2).
+                                                           cctor_finished_or_no_cctor == 0) {
+                                                         il2cpp_codegen_runtime_class_init
+                                                                   ((Il2CppClass *)TypeInfo_UI_UIManager);
+                                                       }
+                                                       pMVar16 = (MethodInfo *)0x0;
+                                                       UI_UIManager__GetThemeColorBlock
+                                                                 (&local_88,pSVar7,"DefaultSetting",
+                                                                  "DropdownScrollbar","DefaultPanel",
+                                                                  (MethodInfo *)0x0);
+                                                       if (pUVar14 != (UnityEngine_UI_Scrollbar_o *)0x0) {
+                                                         value_01.fields.m_NormalColor.fields.b =
+                                                              local_88.fields.m_NormalColor.fields.b;
+                                                         value_01.fields.m_NormalColor.fields.a =
+                                                              local_88.fields.m_NormalColor.fields.a;
+                                                         value_01.fields.m_NormalColor.fields.r =
+                                                              local_88.fields.m_NormalColor.fields.r;
+                                                         value_01.fields.m_NormalColor.fields.g =
+                                                              local_88.fields.m_NormalColor.fields.g;
+                                                         value_01.fields.m_HighlightedColor.fields.r =
+                                                              local_88.fields.m_HighlightedColor.fields.r;
+                                                         value_01.fields.m_HighlightedColor.fields.g =
+                                                              local_88.fields.m_HighlightedColor.fields.g;
+                                                         value_01.fields.m_HighlightedColor.fields.b =
+                                                              local_88.fields.m_HighlightedColor.fields.b;
+                                                         value_01.fields.m_HighlightedColor.fields.a =
+                                                              local_88.fields.m_HighlightedColor.fields.a;
+                                                         value_01.fields.m_PressedColor.fields.r =
+                                                              local_88.fields.m_PressedColor.fields.r;
+                                                         value_01.fields.m_PressedColor.fields.g =
+                                                              local_88.fields.m_PressedColor.fields.g;
+                                                         value_01.fields.m_PressedColor.fields.b =
+                                                              local_88.fields.m_PressedColor.fields.b;
+                                                         value_01.fields.m_PressedColor.fields.a =
+                                                              local_88.fields.m_PressedColor.fields.a;
+                                                         value_01.fields.m_SelectedColor.fields.r =
+                                                              local_88.fields.m_SelectedColor.fields.r;
+                                                         value_01.fields.m_SelectedColor.fields.g =
+                                                              local_88.fields.m_SelectedColor.fields.g;
+                                                         value_01.fields.m_SelectedColor.fields.b =
+                                                              local_88.fields.m_SelectedColor.fields.b;
+                                                         value_01.fields.m_SelectedColor.fields.a =
+                                                              local_88.fields.m_SelectedColor.fields.a;
+                                                         value_01.fields.m_DisabledColor.fields.r =
+                                                              local_88.fields.m_DisabledColor.fields.r;
+                                                         value_01.fields.m_DisabledColor.fields.g =
+                                                              local_88.fields.m_DisabledColor.fields.g;
+                                                         value_01.fields.m_DisabledColor.fields.b =
+                                                              local_88.fields.m_DisabledColor.fields.b;
+                                                         value_01.fields.m_DisabledColor.fields.a =
+                                                              local_88.fields.m_DisabledColor.fields.a;
+                                                         value_01.fields.m_ColorMultiplier =
+                                                              local_88.fields.m_ColorMultiplier;
+                                                         value_01.fields.m_FadeDuration =
+                                                              local_88.fields.m_FadeDuration;
+                                                         UnityEngine_UI_Selectable__set_colors
+                                                                   ((UnityEngine_UI_Selectable_o *)pUVar14,
+                                                                    value_01,(MethodInfo *)0x0);
+                                                         pUVar14 = *targetAddress_02;
+                                                         if (pUVar14 != (UnityEngine_UI_Scrollbar_o *)0x0) {
+                                                           pUVar12 = 
+                                                       UnityEngine_Component__GetComponent_object_
+                                                                 ((UnityEngine_Component_o *)pUVar14,
+                                                                  (MethodInfo_34B0830 *)
+                                                                                                                                    
+                                                       MethodInfo_UnityEngine_Component_GetComponent_Image);
+                                                       UVar18 = UI_UIManager__GetThemeColor
+                                                                          ((style->fields).ThemePanel,
+                                                                           "DefaultSetting",
+                                                                           "DropdownScrollbarBackgroundColor",
+                                                                           "DefaultPanel",
+                                                                           (MethodInfo *)0x0);
+                                                       if (pUVar12 != (UnityEngine_UI_Image_o *)0x0) {
+                                                         (*(pUVar12->klass->vtable)._23_set_color.methodPtr)
+                                                                   (pUVar12,UVar18,
+                                                                    (pUVar12->klass->vtable)._23_set_color.
+                                                                    method);
+                                                         if (*targetAddress != (UnityEngine_GameObject_o *)0x0
+                                                            ) {
+                                                           pUVar13 = 
+                                                       UnityEngine_GameObject__GetComponent_object_
+                                                                 (*targetAddress,
+                                                                  (MethodInfo_353B730 *)
+                                                                                                                                    
                                                        MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform
-                                                       ), pUVar10 != (UnityEngine_RectTransform_o *)0x0)) {
-                                                  UVar11.fields.y = maxScrollHeight;
-                                                  UVar11.fields.x = optionsWidth;
-                                                  UnityEngine_RectTransform__set_sizeDelta
-                                                            (pUVar10,UVar11,(MethodInfo *)0x0);
-                                                  pUVar2 = UnityEngine_Component__get_transform
-                                                                     ((UnityEngine_Component_o *)__this,
-                                                                      (MethodInfo *)0x0);
-                                                  if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
-                                                     ((pUVar2 = UnityEngine_Transform__Find
-                                                                          (pUVar2,"Label",
-                                                                           (MethodInfo *)0x0),
-                                                      pUVar2 != (UnityEngine_Transform_o *)0x0 &&
-                                                      (pUVar6 = UnityEngine_Component__GetComponent_object_
-                                                                          ((UnityEngine_Component_o *)pUVar2,
-                                                                           (MethodInfo_6651A0 *)
-                                                                                                                                                      
+                                                       );
+                                                       if (pUVar13 != (UnityEngine_RectTransform_o *)0x0) {
+                                                         UVar3.fields.y = local_c8;
+                                                         UVar3.fields.x = optionsWidth;
+                                                         UnityEngine_RectTransform__set_sizeDelta
+                                                                   (pUVar13,UVar3,(MethodInfo *)0x0);
+                                                         pUVar5 = UnityEngine_Component__get_transform
+                                                                            ((UnityEngine_Component_o *)__this
+                                                                             ,(MethodInfo *)0x0);
+                                                         if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                           pUVar5 = UnityEngine_Transform__Find
+                                                                              (pUVar5,"Label",
+                                                                               (MethodInfo *)0x0);
+                                                           if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                             pUVar10 = 
+                                                       UnityEngine_Component__GetComponent_object_
+                                                                 ((UnityEngine_Component_o *)pUVar5,
+                                                                  (MethodInfo_34B0830 *)
+                                                                                                                                    
                                                        MethodInfo_UnityEngine_Component_GetComponent_LayoutElement
-                                                       ), pUVar6 != (UnityEngine_UI_LayoutElement_o *)0x0))))
-                                                  {
-                                                    (*(pUVar6->klass->vtable)._38_set_preferredHeight.
-                                                      methodPtr)(pUVar6,elementHeight,
-                                                                 (pUVar6->klass->vtable).
-                                                                 _38_set_preferredHeight.method);
-                                                    (__this->fields)._optionsOffset.fields.z = 0.0;
-                                                    (__this->fields)._optionsOffset.fields.x =
-                                                         (optionsWidth - elementWidth) * 0.5;
-                                                    (__this->fields)._optionsOffset.fields.y =
-                                                         -(maxScrollHeight + elementHeight) * 0.5 + 2.0;
-                                                    x = 
-                                                       UnityEngine_Component__GetComponentInParent_object__664f20
+                                                       );
+                                                       if (pUVar10 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                                                         (*(pUVar10->klass->vtable)._38_set_preferredHeight.
+                                                           methodPtr)(pUVar10,elementHeight,
+                                                                      (pUVar10->klass->vtable).
+                                                                      _38_set_preferredHeight.method);
+                                                         (__this->fields)._optionsOffset.fields.x =
+                                                              (optionsWidth - elementWidth) * 0.5;
+                                                         (__this->fields)._optionsOffset.fields.y =
+                                                              2.0 - (local_c8 + elementHeight) * 0.5;
+                                                         (__this->fields)._optionsOffset.fields.z = 0.0;
+                                                         x = 
+                                                       UnityEngine_Component__GetComponentInParent_object__34b0d00
                                                                  ((UnityEngine_Component_o *)__this,
-                                                                  (MethodInfo_664F20 *)
+                                                                  (MethodInfo_34B0D00 *)
                                                                                                                                     
                                                        MethodInfo_UnityEngine_Component_GetComponentInParent_MapEditorScaledPanel
                                                        );
-                                                    if ((TypeInfo_UnityEngine_Object->_2).
-                                                        cctor_finished_or_no_cctor == 0) {
-                                                      il2cpp_codegen_runtime_class_init
-                                                                ((Il2CppClass *)TypeInfo_UnityEngine_Object);
-                                                    }
-                                                    bVar1 = UnityEngine_Object__op_Inequality
-                                                                      ((UnityEngine_Object_o *)x,
-                                                                       (UnityEngine_Object_o *)0x0,
-                                                                       (MethodInfo *)0x0);
-                                                    pUVar3 = (__this->fields)._optionsPanel;
-                                                    (__this->fields)._scaleWithPanel = bVar1;
-                                                    if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-                                                      pUVar2 = UnityEngine_GameObject__get_transform
-                                                                         (pUVar3,(MethodInfo *)0x0);
-                                                      pUVar13 = UnityEngine_Component__get_transform
-                                                                          ((UnityEngine_Component_o *)__this,
-                                                                           (MethodInfo *)0x0);
-                                                      if ((pUVar13 != (UnityEngine_Transform_o *)0x0) &&
-                                                         (pUVar13 = UnityEngine_Transform__GetRoot
-                                                                              (pUVar13,(MethodInfo *)0x0),
-                                                         pUVar2 != (UnityEngine_Transform_o *)0x0)) {
-                                                        UnityEngine_Transform__SetParent_2f5a7e0
-                                                                  (pUVar2,pUVar13,true,(MethodInfo *)0x0);
-                                                        pUVar3 = (__this->fields)._optionsPanel;
-                                                        if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
-                                                          UnityEngine_GameObject__SetActive
-                                                                    (pUVar3,false,(MethodInfo *)0x0);
-                                                          UI_BaseSettingElement__Setup
-                                                                    ((UI_BaseSettingElement_o *)__this,setting
-                                                                     ,style,title,tooltip,(MethodInfo *)0x0);
-                                                          return;
-                                                        }
+                                                       if ((TypeInfo_UnityEngine_Object->_2).
+                                                           cctor_finished_or_no_cctor == 0) {
+                                                         il2cpp_codegen_runtime_class_init
+                                                                   ((Il2CppClass *)TypeInfo_UnityEngine_Object
+                                                                   );
+                                                       }
+                                                       bVar4 = UnityEngine_Object__op_Inequality
+                                                                         ((UnityEngine_Object_o *)x,
+                                                                          (UnityEngine_Object_o *)0x0,
+                                                                          (MethodInfo *)0x0);
+                                                       (__this->fields)._scaleWithPanel = bVar4;
+                                                       pUVar6 = (__this->fields)._optionsPanel;
+                                                       if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                                                         pUVar5 = UnityEngine_GameObject__get_transform
+                                                                            (pUVar6,(MethodInfo *)0x0);
+                                                         pUVar15 = UnityEngine_Component__get_transform
+                                                                             ((UnityEngine_Component_o *)
+                                                                              __this,(MethodInfo *)0x0);
+                                                         if (pUVar15 != (UnityEngine_Transform_o *)0x0) {
+                                                           pUVar15 = UnityEngine_Transform__get_root
+                                                                               (pUVar15,(MethodInfo *)0x0);
+                                                           if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
+                                                             UnityEngine_Transform__SetParent_692d510
+                                                                       (pUVar5,pUVar15,true,(MethodInfo *)0x0)
+                                                             ;
+                                                             if (*targetAddress !=
+                                                                 (UnityEngine_GameObject_o *)0x0) {
+                                                               UnityEngine_GameObject__SetActive
+                                                                         (*targetAddress,false,
+                                                                          (MethodInfo *)0x0);
+                                                               UI_BaseSettingElement__Setup
+                                                                         ((UI_BaseSettingElement_o *)__this,
+                                                                          setting,style,title,tooltip,pMVar16)
+                                                               ;
+                                                               return;
+                                                             }
+                                                           }
+                                                         }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
+                                                       }
                                                       }
                                                     }
                                                   }
@@ -888,38 +978,74 @@ label_18220b598:
       }
     }
   }
-label_18220b592:
+label_05ceef11:
   ThrowNullReferenceException();
+}
+
+
+// UI.DropdownSettingElement$$SetOptionLabel
+// il2cpp: void UI_DropdownSettingElement__SetOptionLabel (UI_DropdownSettingElement_o* __this, System_Func_string__string__o* optionLabel, const MethodInfo* method);
+// 0x5cef7b0
+
+void UI_DropdownSettingElement__SetOptionLabel
+               (UI_DropdownSettingElement_o *__this,System_Func_string__string__o *optionLabel,
+               MethodInfo *method)
+
+{
+  (__this->fields)._optionLabel = optionLabel;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._optionLabel);
+  return;
+}
+
+
+// UI.DropdownSettingElement$$OptionLabel
+// il2cpp: System_String_o* UI_DropdownSettingElement__OptionLabel (UI_DropdownSettingElement_o* __this, System_String_o* option, const MethodInfo* method);
+// 0x5cef270
+
+System_String_o *
+UI_DropdownSettingElement__OptionLabel
+          (UI_DropdownSettingElement_o *__this,System_String_o *option,MethodInfo *method)
+
+{
+  System_Func_string__string__o *pSVar1;
+  code *vtableDispatch;
+  System_String_o *pSVar2;
+  
+  pSVar1 = (__this->fields)._optionLabel;
+  if (pSVar1 == (System_Func_string__string__o *)0x0) {
+    return option;
+  }
+  vtableDispatch = (code *)(pSVar1->fields).invoke_impl;
+  pSVar2 = (System_String_o *)
+           (*vtableDispatch)
+                     ((pSVar1->fields).method_code,option,(pSVar1->fields).method,vtableDispatch);
+  return pSVar2;
 }
 
 
 // UI.DropdownSettingElement$$FixScale
 // il2cpp: void UI_DropdownSettingElement__FixScale (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a100
+// 0x5cef7d0
 
-void
-UI_DropdownSettingElement__FixScale(UI_DropdownSettingElement_o* __this, MethodInfo* method)
+void UI_DropdownSettingElement__FixScale(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
   UnityEngine_GameObject_o *__this_00;
-  UnityEngine_Vector3_StaticFields *pUVar1;
   UnityEngine_Transform_o *__this_01;
-  UnityEngine_Vector3_Fields local_18;
   
   (__this->fields)._scaleWithPanel = false;
   __this_00 = (__this->fields)._optionsPanel;
   if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
     __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-    if (Il2CppMethodInitialized_18433dbeb == '\0') {
+    if (Il2CppMethodInitialized_0753e4b7 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbeb = '\x01';
+      Il2CppMethodInitialized_0753e4b7 = '\x01';
     }
     if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-      pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
-      local_18.x = (pUVar1->oneVector).fields.x;
-      local_18.y = (pUVar1->oneVector).fields.y;
-      local_18.z = (pUVar1->oneVector).fields.z;
-      UnityEngine_Transform__set_localScale(__this_01,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+      UnityEngine_Transform__set_localScale
+                (__this_01,
+                 (UnityEngine_Vector3_o)(TypeInfo_UnityEngine_Vector3->static_fields->oneVector).fields,
+                 (MethodInfo *)0x0);
       return;
     }
   }
@@ -929,7 +1055,7 @@ UI_DropdownSettingElement__FixScale(UI_DropdownSettingElement_o* __this, MethodI
 
 // UI.DropdownSettingElement$$IsOpen
 // il2cpp: bool UI_DropdownSettingElement__IsOpen (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a180
+// 0x5cef840
 
 bool UI_DropdownSettingElement__IsOpen(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -938,169 +1064,162 @@ bool UI_DropdownSettingElement__IsOpen(UI_DropdownSettingElement_o *__this,Metho
   UnityEngine_GameObject_o *__this_00;
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184347111 == '\0') {
+  if (Il2CppMethodInitialized_07547c7e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347111 = '\x01';
+    Il2CppMethodInitialized_07547c7e = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._optionsPanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
-    return false;
-  }
-  __this_00 = (__this->fields)._optionsPanel;
-  if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+  if (bVar1) {
+    __this_00 = (__this->fields)._optionsPanel;
+    if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
+      ThrowNullReferenceException();
+    }
     bVar1 = UnityEngine_GameObject__get_activeSelf(__this_00,(MethodInfo *)0x0);
     return bVar1;
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // UI.DropdownSettingElement$$SetOptionsPosition
 // il2cpp: void UI_DropdownSettingElement__SetOptionsPosition (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a610
+// 0x5cef8c0
 
 void UI_DropdownSettingElement__SetOptionsPosition(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  UnityEngine_GameObject_o *pUVar4;
-  UnityEngine_Vector3_StaticFields *pUVar5;
-  UnityEngine_Transform_o *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  UnityEngine_GameObject_o *pUVar7;
+  UnityEngine_Vector3_StaticFields *pUVar8;
+  UnityEngine_Vector2_o UVar9;
+  UnityEngine_Transform_o *pUVar10;
+  UnityEngine_Transform_o *pUVar11;
   UnityEngine_Transform_o *__this_00;
-  UnityEngine_Vector3_o *pUVar8;
-  UnityEngine_RectTransform_o *pUVar9;
-  UnityEngine_Vector2_o UVar10;
-  float fVar11;
-  float fVar12;
+  UnityEngine_RectTransform_o *pUVar12;
   float fVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fStackX_c;
-  UnityEngine_Vector3_Fields local_c8;
-  UnityEngine_Vector3_o local_b8 [14];
+  UnityEngine_Vector3_o UVar14;
+  UnityEngine_Vector3_o UVar15;
+  float local_7c;
+  undefined8 local_78;
+  float local_58;
+  float fStack_54;
+  undefined8 local_48;
+  float fStack_34;
+  float local_28;
+  float fStack_24;
   
-  if (Il2CppMethodInitialized_184347112 == '\0') {
+  if (Il2CppMethodInitialized_07547c7f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
-    Il2CppMethodInitialized_184347112 = '\x01';
+    Il2CppMethodInitialized_07547c7f = '\x01';
   }
   if ((__this->fields)._scaleWithPanel == false) {
-label_18220a7b7:
-    if (Il2CppMethodInitialized_18433dbeb == '\0') {
+label_05cef9cb:
+    if (Il2CppMethodInitialized_0753e4b7 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-      Il2CppMethodInitialized_18433dbeb = '\x01';
+      Il2CppMethodInitialized_0753e4b7 = '\x01';
     }
-    pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
-    fVar11 = (pUVar5->oneVector).fields.x;
-    fVar16 = (pUVar5->oneVector).fields.y;
-    fVar13 = (pUVar5->oneVector).fields.z;
+    pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar1 = (pUVar8->oneVector).fields.x;
+    uVar4 = (pUVar8->oneVector).fields.y;
+    local_7c = (pUVar8->oneVector).fields.z;
     if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
     }
-    fVar12 = TypeInfo_UI_UIManager->static_fields->CurrentCanvasScale;
-    fVar11 = fVar11 * fVar12;
-    fVar16 = fVar16 * fVar12;
-    fVar13 = fVar13 * fVar12;
+    fVar13 = TypeInfo_UI_UIManager->static_fields->CurrentCanvasScale;
+    local_7c = local_7c * fVar13;
+    local_48 = CONCAT44((float)uVar4 * fVar13,(float)uVar1 * fVar13);
   }
   else {
-    pUVar4 = (__this->fields)._optionsPanel;
-    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_18220aa4a;
-    pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-    pUVar7 = UnityEngine_Transform__GetRoot(pUVar7,(MethodInfo *)0x0);
-    pUVar4 = (__this->fields)._selectedButton;
-    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_18220aa4a;
-    __this_00 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-    if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-    pUVar8 = UnityEngine_Transform__get_lossyScale(local_b8,__this_00,(MethodInfo *)0x0);
-    if (pUVar7 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-    local_c8.x = (pUVar8->fields).x;
-    local_c8.y = (pUVar8->fields).y;
-    local_c8.z = (pUVar8->fields).z;
-    pUVar8 = UnityEngine_Transform__InverseTransformVector
-                       (local_b8,pUVar7,(UnityEngine_Vector3_o *)&local_c8,(MethodInfo *)0x0);
-    if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-    local_c8.x = (pUVar8->fields).x;
-    local_c8.y = (pUVar8->fields).y;
-    local_c8.z = (pUVar8->fields).z;
-    UnityEngine_Transform__set_localScale(pUVar6,(UnityEngine_Vector3_o *)&local_c8,(MethodInfo *)0x0);
-    if ((__this->fields)._scaleWithPanel == false) goto label_18220a7b7;
-    pUVar4 = (__this->fields)._selectedButton;
-    if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_18220aa4a;
-    pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-    if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-    pUVar8 = UnityEngine_Transform__get_lossyScale(local_b8,pUVar6,(MethodInfo *)0x0);
-    fVar11 = (pUVar8->fields).x;
-    fVar16 = (pUVar8->fields).y;
-    fVar13 = (pUVar8->fields).z;
+    pUVar7 = (__this->fields)._optionsPanel;
+    if (pUVar7 == (UnityEngine_GameObject_o *)0x0) goto label_05cefc0d;
+    pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+    pUVar11 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (pUVar11 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+    pUVar11 = UnityEngine_Transform__get_root(pUVar11,(MethodInfo *)0x0);
+    pUVar7 = (__this->fields)._selectedButton;
+    if (pUVar7 == (UnityEngine_GameObject_o *)0x0) goto label_05cefc0d;
+    __this_00 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+    if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+    UVar14 = UnityEngine_Transform__get_lossyScale(__this_00,(MethodInfo *)0x0);
+    if (pUVar11 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+    UVar14 = UnityEngine_Transform__InverseTransformVector(pUVar11,UVar14,(MethodInfo *)0x0);
+    if (pUVar10 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+    UnityEngine_Transform__set_localScale(pUVar10,UVar14,(MethodInfo *)0x0);
+    if ((__this->fields)._scaleWithPanel == false) goto label_05cef9cb;
+    pUVar7 = (__this->fields)._selectedButton;
+    if (pUVar7 == (UnityEngine_GameObject_o *)0x0) goto label_05cefc0d;
+    pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+    if (pUVar10 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+    UVar14 = UnityEngine_Transform__get_lossyScale(pUVar10,(MethodInfo *)0x0);
+    local_7c = UVar14.fields.z;
+    local_48 = UVar14.fields._0_8_;
   }
-  pUVar4 = (__this->fields)._selectedButton;
-  if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-    if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-      pUVar8 = UnityEngine_Transform__get_position(local_b8,pUVar6,(MethodInfo *)0x0);
-      pUVar4 = (__this->fields)._optionsPanel;
-      if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-        fVar12 = (pUVar8->fields).x;
-        fVar15 = (pUVar8->fields).y;
-        fVar14 = (pUVar8->fields).z;
-        fVar1 = (__this->fields)._optionsOffset.fields.x;
-        fVar2 = (__this->fields)._optionsOffset.fields.y;
-        fVar3 = (__this->fields)._optionsOffset.fields.z;
-        pUVar9 = UnityEngine_GameObject__GetComponent_object_
-                           (pUVar4,(MethodInfo_6F5650 *)
-                                   MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
-        if (pUVar9 != (UnityEngine_RectTransform_o *)0x0) {
-          UVar10 = UnityEngine_RectTransform__get_sizeDelta(pUVar9,(MethodInfo *)0x0);
-          pUVar4 = (__this->fields)._optionsPanel;
-          if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-            if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-              fVar15 = fVar16 * fVar2 + fVar15;
-              pUVar8 = UnityEngine_Transform__get_lossyScale(local_b8,pUVar6,(MethodInfo *)0x0);
-              fStackX_c = UVar10.fields.y;
-              if (fVar15 - fStackX_c * (pUVar8->fields).y * 0.5 < 0.0) {
-                pUVar4 = (__this->fields)._selectedButton;
-                fVar15 = (__this->fields)._optionsOffset.fields.y;
-                if (pUVar4 == (UnityEngine_GameObject_o *)0x0) goto label_18220aa4a;
-                fVar12 = (__this->fields)._optionsOffset.fields.x;
-                fVar14 = (__this->fields)._optionsOffset.fields.z;
-                pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-                if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_18220aa4a;
-                pUVar8 = UnityEngine_Transform__get_position(local_b8,pUVar6,(MethodInfo *)0x0);
-                fVar12 = fVar11 * fVar12 + (pUVar8->fields).x;
-                fVar15 = fVar16 * -fVar15 + (pUVar8->fields).y;
-                fVar14 = fVar13 * fVar14 + (pUVar8->fields).z;
+  pUVar7 = (__this->fields)._selectedButton;
+  if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
+    pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+    if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
+      UVar14 = UnityEngine_Transform__get_position(pUVar10,(MethodInfo *)0x0);
+      pUVar7 = (__this->fields)._optionsPanel;
+      if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
+        uVar2 = (__this->fields)._optionsOffset.fields.x;
+        uVar5 = (__this->fields)._optionsOffset.fields.y;
+        fVar13 = (__this->fields)._optionsOffset.fields.z;
+        pUVar12 = UnityEngine_GameObject__GetComponent_object_
+                            (pUVar7,(MethodInfo_353B730 *)
+                                    MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+        if (pUVar12 != (UnityEngine_RectTransform_o *)0x0) {
+          UVar9 = UnityEngine_RectTransform__get_sizeDelta(pUVar12,(MethodInfo *)0x0);
+          pUVar7 = (__this->fields)._optionsPanel;
+          if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
+            pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+            if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
+              local_78._0_4_ = UVar14.fields.x;
+              local_78._4_4_ = UVar14.fields.y;
+              local_78._4_4_ = local_78._4_4_ + (float)uVar5 * local_48._4_4_;
+              local_78 = CONCAT44(local_78._4_4_,(float)local_78 + (float)uVar2 * (float)local_48);
+              UVar15 = UnityEngine_Transform__get_lossyScale(pUVar10,(MethodInfo *)0x0);
+              fStack_34 = UVar9.fields.y;
+              if (0.0 <= local_78._4_4_ + fStack_34 * UVar15.fields.y * -0.5) {
+                fVar13 = UVar14.fields.z + fVar13 * local_7c;
               }
               else {
-                fVar12 = fVar11 * fVar1 + fVar12;
-                fVar14 = fVar13 * fVar3 + fVar14;
+                pUVar7 = (__this->fields)._selectedButton;
+                if (pUVar7 == (UnityEngine_GameObject_o *)0x0) goto label_05cefc0d;
+                uVar3 = (__this->fields)._optionsOffset.fields.x;
+                uVar6 = (__this->fields)._optionsOffset.fields.y;
+                fVar13 = (__this->fields)._optionsOffset.fields.z;
+                pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+                if (pUVar10 == (UnityEngine_Transform_o *)0x0) goto label_05cefc0d;
+                UVar14 = UnityEngine_Transform__get_position(pUVar10,(MethodInfo *)0x0);
+                local_78 = CONCAT44(UVar14.fields.y - local_48._4_4_ * (float)uVar6,
+                                    UVar14.fields.x + (float)local_48 * (float)uVar3);
+                fVar13 = local_7c * fVar13 + UVar14.fields.z;
               }
-              pUVar4 = (__this->fields)._optionsPanel;
-              if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar6 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
-                if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-                  pUVar9 = UnityEngine_Component__GetComponent_object_
-                                     ((UnityEngine_Component_o *)pUVar6,
-                                      (MethodInfo_6651A0 *)
-                                      MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
-                  if (pUVar9 != (UnityEngine_RectTransform_o *)0x0) {
-                    local_c8.y = fVar15;
-                    local_c8.x = fVar12;
-                    local_c8.z = fVar14;
+              pUVar7 = (__this->fields)._optionsPanel;
+              if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
+                pUVar10 = UnityEngine_GameObject__get_transform(pUVar7,(MethodInfo *)0x0);
+                if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
+                  pUVar12 = UnityEngine_Component__GetComponent_object_
+                                      ((UnityEngine_Component_o *)pUVar10,
+                                       (MethodInfo_34B0830 *)
+                                       MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+                  if (pUVar12 != (UnityEngine_RectTransform_o *)0x0) {
+                    UVar14.fields.z = fVar13;
+                    UVar14.fields.x = (float)local_78;
+                    UVar14.fields.y = local_78._4_4_;
                     UnityEngine_Transform__set_position
-                              ((UnityEngine_Transform_o *)pUVar9,(UnityEngine_Vector3_o *)&local_c8,
-                               (MethodInfo *)0x0);
+                              ((UnityEngine_Transform_o *)pUVar12,UVar14,(MethodInfo *)0x0);
                     return;
                   }
                 }
@@ -1111,14 +1230,14 @@ label_18220a7b7:
       }
     }
   }
-label_18220aa4a:
+label_05cefc0d:
   ThrowNullReferenceException();
 }
 
 
 // UI.DropdownSettingElement$$OnDisable
 // il2cpp: void UI_DropdownSettingElement__OnDisable (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a290
+// 0x5cefc20
 
 void UI_DropdownSettingElement__OnDisable(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -1127,9 +1246,9 @@ void UI_DropdownSettingElement__OnDisable(UI_DropdownSettingElement_o *__this,Me
   UnityEngine_GameObject_o *__this_00;
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184347113 == '\0') {
+  if (Il2CppMethodInitialized_07547c80 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347113 = '\x01';
+    Il2CppMethodInitialized_07547c80 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._optionsPanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -1142,6 +1261,7 @@ void UI_DropdownSettingElement__OnDisable(UI_DropdownSettingElement_o *__this,Me
       ThrowNullReferenceException();
     }
     UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -1149,7 +1269,7 @@ void UI_DropdownSettingElement__OnDisable(UI_DropdownSettingElement_o *__this,Me
 
 // UI.DropdownSettingElement$$OnDestroy
 // il2cpp: void UI_DropdownSettingElement__OnDestroy (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a200
+// 0x5cefca0
 
 void UI_DropdownSettingElement__OnDestroy(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -1157,9 +1277,9 @@ void UI_DropdownSettingElement__OnDestroy(UI_DropdownSettingElement_o *__this,Me
   UnityEngine_Object_o *pUVar1;
   bool bVar2;
   
-  if (Il2CppMethodInitialized_184347114 == '\0') {
+  if (Il2CppMethodInitialized_07547c81 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347114 = '\x01';
+    Il2CppMethodInitialized_07547c81 = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields)._optionsPanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -1171,7 +1291,8 @@ void UI_DropdownSettingElement__OnDestroy(UI_DropdownSettingElement_o *__this,Me
     if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    UnityEngine_Object__Destroy_2f1ff70(pUVar1,(MethodInfo *)0x0);
+    UnityEngine_Object__Destroy_69214e0(pUVar1,(MethodInfo *)0x0);
+    return;
   }
   return;
 }
@@ -1179,7 +1300,7 @@ void UI_DropdownSettingElement__OnDestroy(UI_DropdownSettingElement_o *__this,Me
 
 // UI.DropdownSettingElement$$Update
 // il2cpp: void UI_DropdownSettingElement__Update (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220b7d0
+// 0x5cefd20
 
 void UI_DropdownSettingElement__Update(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -1193,18 +1314,16 @@ void UI_DropdownSettingElement__Update(UI_DropdownSettingElement_o *__this,Metho
   UnityEngine_EventSystems_EventSystem_o *pUVar5;
   UnityEngine_Object_o *y;
   UnityEngine_Transform_o *__this_02;
-  UnityEngine_Vector3_o *pUVar6;
-  UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o *routine;
+  UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this_03;
+  float fVar6;
   float fVar7;
   float fVar8;
-  float fVar9;
-  float fStack_24;
-  UnityEngine_Vector3_o local_18;
+  UnityEngine_Vector3_o UVar9;
   
-  if (Il2CppMethodInitialized_184347115 == '\0') {
+  if (Il2CppMethodInitialized_07547c82 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_EventSystems_EventSystem);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
-    Il2CppMethodInitialized_184347115 = '\x01';
+    Il2CppMethodInitialized_07547c82 = '\x01';
   }
   pUVar3 = (UnityEngine_Object_o *)(__this->fields)._optionsPanel;
   if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
@@ -1228,7 +1347,7 @@ void UI_DropdownSettingElement__Update(UI_DropdownSettingElement_o *__this,Metho
       pUVar5 = UnityEngine_EventSystems_EventSystem__get_current((MethodInfo *)0x0);
       if ((pUVar5 == (UnityEngine_EventSystems_EventSystem_o *)0x0) ||
          (__this_01 = (__this->fields)._scrollBar, __this_01 == (UnityEngine_UI_Scrollbar_o *)0x0))
-      goto label_18220b9ad;
+      goto label_05cefee4;
       pUVar3 = (UnityEngine_Object_o *)(pUVar5->fields).m_CurrentSelected;
       y = (UnityEngine_Object_o *)
           UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
@@ -1236,80 +1355,80 @@ void UI_DropdownSettingElement__Update(UI_DropdownSettingElement_o *__this,Metho
         il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
       bVar4 = UnityEngine_Object__op_Inequality(pUVar3,y,(MethodInfo *)0x0);
-      if (bVar4) goto label_18220b948;
+      if (bVar4) goto label_05cefe75;
     }
     __this_02 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
     if (__this_02 != (UnityEngine_Transform_o *)0x0) {
-      pUVar6 = UnityEngine_Transform__get_position(&local_18,__this_02,(MethodInfo *)0x0);
-      uVar1 = (pUVar6->fields).x;
-      uVar2 = (pUVar6->fields).y;
-      fVar7 = (pUVar6->fields).z - (__this->fields)._lastKnownPosition.fields.z;
-      fVar9 = (float)uVar2 - (__this->fields)._lastKnownPosition.fields.y;
-      fVar8 = (float)uVar1 - (__this->fields)._lastKnownPosition.fields.x;
-      if (fVar9 * fVar9 + fVar8 * fVar8 + fVar7 * fVar7 < 9.9999994e-11) {
+      UVar9 = UnityEngine_Transform__get_position(__this_02,(MethodInfo *)0x0);
+      uVar1 = (__this->fields)._lastKnownPosition.fields.x;
+      uVar2 = (__this->fields)._lastKnownPosition.fields.y;
+      fVar6 = UVar9.fields.y - (float)uVar2;
+      fVar7 = UVar9.fields.z - (__this->fields)._lastKnownPosition.fields.z;
+      fVar8 = UVar9.fields.x - (float)uVar1;
+      if (fVar6 * fVar6 + fVar8 * fVar8 + fVar7 * fVar7 < 9.9999994e-11) {
         return;
       }
-label_18220b948:
-      if (Il2CppMethodInitialized_184347118 == '\0') {
+label_05cefe75:
+      if (Il2CppMethodInitialized_07547c85 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__23);
-        Il2CppMethodInitialized_184347118 = '\x01';
+                  (&TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__26);
+        Il2CppMethodInitialized_07547c85 = '\x01';
       }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__23);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+      __this_03 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__26);
+      System_Object___ctor((Il2CppObject *)__this_03,(MethodInfo *)0x0);
+      (__this_03->fields).__1__state = 0;
+      (__this_03->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(__this_03->fields).__4__this);
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_03,
                  (MethodInfo *)0x0);
       return;
     }
   }
-label_18220b9ad:
+label_05cefee4:
   ThrowNullReferenceException();
 }
 
 
 // UI.DropdownSettingElement$$CreateOptionButton
 // il2cpp: void UI_DropdownSettingElement__CreateOptionButton (UI_DropdownSettingElement_o* __this, System_String_o* option, int32_t index, float width, float height, int32_t fontSize, System_String_o* themePanel, const MethodInfo* method);
-// 0x182209c40
+// 0x5cef290
 
 void UI_DropdownSettingElement__CreateOptionButton
                (UI_DropdownSettingElement_o *__this,System_String_o *option,int32_t index,float width,
                float height,int32_t fontSize,System_String_o *themePanel,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
+  System_Func_string__string__o *pSVar1;
   UnityEngine_Events_UnityEvent_o *__this_00;
-  UI_DropdownSettingElement___c__DisplayClass20_0_o *object;
-  UnityEngine_GameObject_o *__this_01;
+  UnityEngine_UI_ColorBlock_o value;
+  UI_DropdownSettingElement___c__DisplayClass23_0_o *__this_01;
+  UnityEngine_GameObject_o *root;
   UnityEngine_Transform_o *pUVar2;
   UnityEngine_Transform_o *pUVar3;
   UnityEngine_GameObject_o *pUVar4;
-  UnityEngine_UI_Text_o *pUVar5;
-  UnityEngine_UI_Button_o *pUVar6;
+  System_String_o *pSVar5;
+  UnityEngine_UI_Text_o *pUVar6;
+  UnityEngine_UI_Button_o *pUVar7;
   UnityEngine_Events_UnityAction_o *__this_02;
-  UnityEngine_UI_LayoutElement_o *pUVar7;
-  UnityEngine_UI_ColorBlock_o *pUVar8;
-  UnityEngine_Color_o *pUVar9;
-  UnityEngine_Color_Fields local_108;
-  UnityEngine_UI_ColorBlock_o local_f8;
-  UnityEngine_UI_ColorBlock_o local_98;
+  UnityEngine_UI_LayoutElement_o *pUVar8;
+  System_String_o **targetAddress;
+  UnityEngine_Color_o UVar9;
+  UnityEngine_UI_ColorBlock_o local_88;
   
-  if (Il2CppMethodInitialized_184347116 == '\0') {
+  if (Il2CppMethodInitialized_07547c83 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Button);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_LanguageFonts);
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
     il2cpp_codegen_initialize_runtime_metadata
-              (&MethodInfo_UI_DropdownSettingElement_c__DisplayClass20_0_CreateOptionButton_b__0);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_c__DisplayClass20_0);
+              (&MethodInfo_UI_DropdownSettingElement_c__DisplayClass23_0_CreateOptionButton_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_c__DisplayClass23_0);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
     il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
@@ -1319,164 +1438,157 @@ void UI_DropdownSettingElement__CreateOptionButton
     il2cpp_codegen_initialize_runtime_metadata(&"Dropdown");
     il2cpp_codegen_initialize_runtime_metadata(&"Options");
     il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/Elements/DropdownOption");
-    Il2CppMethodInitialized_184347116 = '\x01';
+    Il2CppMethodInitialized_07547c83 = '\x01';
   }
-  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_c__DisplayClass20_0);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
-  if (object != (UI_DropdownSettingElement___c__DisplayClass20_0_o *)0x0) {
-    (object->fields).__4__this = __this;
-    Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
-    (object->fields).option = option;
-    Il2CppCodeGenWriteBarrier(&(object->fields).option,option);
-    (object->fields).index = index;
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_c__DisplayClass23_0)
+  ;
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  if (__this_01 != (UI_DropdownSettingElement___c__DisplayClass23_0_o *)0x0) {
+    (__this_01->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(__this_01->fields).__4__this);
+    targetAddress = &(__this_01->fields).option;
+    (__this_01->fields).option = option;
+    Il2CppCodeGenWriteBarrier(targetAddress);
+    (__this_01->fields).index = index;
     if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
     }
-    pSVar1 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
+    pSVar5 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
     if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
       il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
     }
-    __this_01 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                          (pSVar1,"Prefabs/Elements/DropdownOption",false,
-                           (MethodInfo_795F00 *)
-                           MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
-    if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar2 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+    root = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                     (pSVar5,"Prefabs/Elements/DropdownOption",false,false,
+                      (MethodInfo_3665790 *)
+                      MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    if ((TypeInfo_UI_LanguageFonts->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_LanguageFonts);
+    }
+    UI_LanguageFonts__Localize(root,(MethodInfo *)0x0);
+    if (root != (UnityEngine_GameObject_o *)0x0) {
+      pUVar2 = UnityEngine_GameObject__get_transform(root,(MethodInfo *)0x0);
       pUVar4 = (__this->fields)._optionsPanel;
       if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
         pUVar3 = UnityEngine_GameObject__get_transform(pUVar4,(MethodInfo *)0x0);
         if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
           pUVar3 = UnityEngine_Transform__Find(pUVar3,"Options",(MethodInfo *)0x0);
           if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_2f5a7e0(pUVar2,pUVar3,false,(MethodInfo *)0x0);
-            pUVar2 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+            UnityEngine_Transform__SetParent_692d510(pUVar2,pUVar3,false,(MethodInfo *)0x0);
+            pUVar2 = UnityEngine_GameObject__get_transform(root,(MethodInfo *)0x0);
             if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
               pUVar2 = UnityEngine_Transform__Find(pUVar2,"Label",(MethodInfo *)0x0);
               if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                 pUVar4 = UnityEngine_Component__get_gameObject
                                    ((UnityEngine_Component_o *)pUVar2,(MethodInfo *)0x0);
-                pSVar1 = (object->fields).option;
-                if (Il2CppMethodInitialized_184347105 == '\0') {
+                pSVar5 = *targetAddress;
+                pSVar1 = (__this->fields)._optionLabel;
+                if (pSVar1 != (System_Func_string__string__o *)0x0) {
+                  pSVar5 = (System_String_o *)
+                           (*(code *)(pSVar1->fields).invoke_impl)
+                                     ((pSVar1->fields).method_code,pSVar5,(pSVar1->fields).method);
+                }
+                if (Il2CppMethodInitialized_07547c72 == '\0') {
                   il2cpp_codegen_initialize_runtime_metadata
                             (&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-                  Il2CppMethodInitialized_184347105 = '\x01';
+                  Il2CppMethodInitialized_07547c72 = '\x01';
                 }
                 if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-                  pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                                     (pUVar4,(MethodInfo_6F5650 *)
+                  pUVar6 = UnityEngine_GameObject__GetComponent_object_
+                                     (pUVar4,(MethodInfo_353B730 *)
                                              MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-                  if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
-                    (*(pUVar5->klass->vtable)._75_set_text.methodPtr)
-                              (pUVar5,pSVar1,(pUVar5->klass->vtable)._75_set_text.method);
-                    UnityEngine_UI_Text__set_fontSize(pUVar5,fontSize,(MethodInfo *)0x0);
-                    pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                       (__this_01,
-                                        (MethodInfo_6F5650 *)
-                                        MethodInfo_UnityEngine_GameObject_GetComponent_Button);
-                    if (pUVar6 != (UnityEngine_UI_Button_o *)0x0) {
-                      __this_00 = (UnityEngine_Events_UnityEvent_o *)(pUVar6->fields).m_OnClick;
+                  if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
+                    (*(pUVar6->klass->vtable)._75_set_text.methodPtr)
+                              (pUVar6,pSVar5,(pUVar6->klass->vtable)._75_set_text.method);
+                    UnityEngine_UI_Text__set_fontSize(pUVar6,fontSize,(MethodInfo *)0x0);
+                    pUVar7 = UnityEngine_GameObject__GetComponent_object_
+                                       (root,(MethodInfo_353B730 *)
+                                             MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                    if (pUVar7 != (UnityEngine_UI_Button_o *)0x0) {
+                      __this_00 = (UnityEngine_Events_UnityEvent_o *)(pUVar7->fields).m_OnClick;
                       __this_02 = il2cpp_codegen_object_new
                                             ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
                       UnityEngine_Events_UnityAction___ctor
-                                ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_02,
-                                 (Il2CppObject *)object,
+                                (__this_02,(Il2CppObject *)__this_01,
                                  (intptr_t)
-                                 MethodInfo_UI_DropdownSettingElement_c__DisplayClass20_0_CreateOptionButton_b__0
+                                 MethodInfo_UI_DropdownSettingElement_c__DisplayClass23_0_CreateOptionButton_b__0
                                  ,(MethodInfo *)0x0);
                       if (__this_00 != (UnityEngine_Events_UnityEvent_o *)0x0) {
                         UnityEngine_Events_UnityEvent__AddListener(__this_00,__this_02,(MethodInfo *)0x0);
-                        pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                                           (__this_01,
-                                            (MethodInfo_6F5650 *)
-                                            MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
-                        if (pUVar7 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                          (*(pUVar7->klass->vtable)._36_set_preferredWidth.methodPtr)
-                                    (pUVar7,width,(pUVar7->klass->vtable)._36_set_preferredWidth.method);
-                          pUVar7 = UnityEngine_GameObject__GetComponent_object_
-                                             (__this_01,
-                                              (MethodInfo_6F5650 *)
-                                              MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
-                          if (pUVar7 != (UnityEngine_UI_LayoutElement_o *)0x0) {
-                            (*(pUVar7->klass->vtable)._38_set_preferredHeight.methodPtr)
-                                      (pUVar7,height,(pUVar7->klass->vtable)._38_set_preferredHeight.method);
-                            pUVar6 = UnityEngine_GameObject__GetComponent_object_
-                                               (__this_01,
-                                                (MethodInfo_6F5650 *)
-                                                MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+                        pUVar8 = UnityEngine_GameObject__GetComponent_object_
+                                           (root,(MethodInfo_353B730 *)
+                                                 MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement)
+                        ;
+                        if (pUVar8 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                          (*(pUVar8->klass->vtable)._36_set_preferredWidth.methodPtr)
+                                    (pUVar8,width,(pUVar8->klass->vtable)._36_set_preferredWidth.method);
+                          pUVar8 = UnityEngine_GameObject__GetComponent_object_
+                                             (root,(MethodInfo_353B730 *)
+                                                   MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement
+                                             );
+                          if (pUVar8 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                            (*(pUVar8->klass->vtable)._38_set_preferredHeight.methodPtr)
+                                      (pUVar8,height,(pUVar8->klass->vtable)._38_set_preferredHeight.method);
+                            pUVar7 = UnityEngine_GameObject__GetComponent_object_
+                                               (root,(MethodInfo_353B730 *)
+                                                     MethodInfo_UnityEngine_GameObject_GetComponent_Button);
                             if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
                               il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
                             }
-                            pUVar8 = UI_UIManager__GetThemeColorBlock
-                                               (&local_98,themePanel,"DefaultSetting",
-                                                "Dropdown","DefaultPanel",(MethodInfo *)0x0)
-                            ;
-                            if (pUVar6 != (UnityEngine_UI_Button_o *)0x0) {
-                              local_f8.fields.m_NormalColor.fields.r = (pUVar8->fields).m_NormalColor.fields.r
+                            UI_UIManager__GetThemeColorBlock
+                                      (&local_88,themePanel,"DefaultSetting","Dropdown",
+                                       "DefaultPanel",(MethodInfo *)0x0);
+                            if (pUVar7 != (UnityEngine_UI_Button_o *)0x0) {
+                              value.fields.m_NormalColor.fields.b = local_88.fields.m_NormalColor.fields.b;
+                              value.fields.m_NormalColor.fields.a = local_88.fields.m_NormalColor.fields.a;
+                              value.fields.m_NormalColor.fields.r = local_88.fields.m_NormalColor.fields.r;
+                              value.fields.m_NormalColor.fields.g = local_88.fields.m_NormalColor.fields.g;
+                              value.fields.m_HighlightedColor.fields.r =
+                                   local_88.fields.m_HighlightedColor.fields.r;
+                              value.fields.m_HighlightedColor.fields.g =
+                                   local_88.fields.m_HighlightedColor.fields.g;
+                              value.fields.m_HighlightedColor.fields.b =
+                                   local_88.fields.m_HighlightedColor.fields.b;
+                              value.fields.m_HighlightedColor.fields.a =
+                                   local_88.fields.m_HighlightedColor.fields.a;
+                              value.fields.m_PressedColor.fields.r = local_88.fields.m_PressedColor.fields.r;
+                              value.fields.m_PressedColor.fields.g = local_88.fields.m_PressedColor.fields.g;
+                              value.fields.m_PressedColor.fields.b = local_88.fields.m_PressedColor.fields.b;
+                              value.fields.m_PressedColor.fields.a = local_88.fields.m_PressedColor.fields.a;
+                              value.fields.m_SelectedColor.fields.r = local_88.fields.m_SelectedColor.fields.r
                               ;
-                              local_f8.fields.m_NormalColor.fields.g = (pUVar8->fields).m_NormalColor.fields.g
+                              value.fields.m_SelectedColor.fields.g = local_88.fields.m_SelectedColor.fields.g
                               ;
-                              local_f8.fields.m_NormalColor.fields.b = (pUVar8->fields).m_NormalColor.fields.b
+                              value.fields.m_SelectedColor.fields.b = local_88.fields.m_SelectedColor.fields.b
                               ;
-                              local_f8.fields.m_NormalColor.fields.a = (pUVar8->fields).m_NormalColor.fields.a
+                              value.fields.m_SelectedColor.fields.a = local_88.fields.m_SelectedColor.fields.a
                               ;
-                              local_f8.fields.m_HighlightedColor.fields.r =
-                                   (pUVar8->fields).m_HighlightedColor.fields.r;
-                              local_f8.fields.m_HighlightedColor.fields.g =
-                                   (pUVar8->fields).m_HighlightedColor.fields.g;
-                              local_f8.fields.m_HighlightedColor.fields.b =
-                                   (pUVar8->fields).m_HighlightedColor.fields.b;
-                              local_f8.fields.m_HighlightedColor.fields.a =
-                                   (pUVar8->fields).m_HighlightedColor.fields.a;
-                              local_f8.fields.m_PressedColor.fields.r =
-                                   (pUVar8->fields).m_PressedColor.fields.r;
-                              local_f8.fields.m_PressedColor.fields.g =
-                                   (pUVar8->fields).m_PressedColor.fields.g;
-                              local_f8.fields.m_PressedColor.fields.b =
-                                   (pUVar8->fields).m_PressedColor.fields.b;
-                              local_f8.fields.m_PressedColor.fields.a =
-                                   (pUVar8->fields).m_PressedColor.fields.a;
-                              local_f8.fields.m_SelectedColor.fields.r =
-                                   (pUVar8->fields).m_SelectedColor.fields.r;
-                              local_f8.fields.m_SelectedColor.fields.g =
-                                   (pUVar8->fields).m_SelectedColor.fields.g;
-                              local_f8.fields.m_SelectedColor.fields.b =
-                                   (pUVar8->fields).m_SelectedColor.fields.b;
-                              local_f8.fields.m_SelectedColor.fields.a =
-                                   (pUVar8->fields).m_SelectedColor.fields.a;
-                              local_f8.fields.m_DisabledColor.fields.r =
-                                   (pUVar8->fields).m_DisabledColor.fields.r;
-                              local_f8.fields.m_DisabledColor.fields.g =
-                                   (pUVar8->fields).m_DisabledColor.fields.g;
-                              local_f8.fields.m_DisabledColor.fields.b =
-                                   (pUVar8->fields).m_DisabledColor.fields.b;
-                              local_f8.fields.m_DisabledColor.fields.a =
-                                   (pUVar8->fields).m_DisabledColor.fields.a;
-                              local_f8.fields.m_ColorMultiplier = (pUVar8->fields).m_ColorMultiplier;
-                              local_f8.fields.m_FadeDuration = (pUVar8->fields).m_FadeDuration;
+                              value.fields.m_DisabledColor.fields.r = local_88.fields.m_DisabledColor.fields.r
+                              ;
+                              value.fields.m_DisabledColor.fields.g = local_88.fields.m_DisabledColor.fields.g
+                              ;
+                              value.fields.m_DisabledColor.fields.b = local_88.fields.m_DisabledColor.fields.b
+                              ;
+                              value.fields.m_DisabledColor.fields.a = local_88.fields.m_DisabledColor.fields.a
+                              ;
+                              value.fields.m_ColorMultiplier = local_88.fields.m_ColorMultiplier;
+                              value.fields.m_FadeDuration = local_88.fields.m_FadeDuration;
                               UnityEngine_UI_Selectable__set_colors
-                                        ((UnityEngine_UI_Selectable_o *)pUVar6,&local_f8,(MethodInfo *)0x0);
-                              pUVar2 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+                                        ((UnityEngine_UI_Selectable_o *)pUVar7,value,(MethodInfo *)0x0);
+                              pUVar2 = UnityEngine_GameObject__get_transform(root,(MethodInfo *)0x0);
                               if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
                                 pUVar2 = UnityEngine_Transform__Find
                                                    (pUVar2,"Label",(MethodInfo *)0x0);
                                 if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
-                                  pUVar5 = UnityEngine_Component__GetComponent_object_
+                                  pUVar6 = UnityEngine_Component__GetComponent_object_
                                                      ((UnityEngine_Component_o *)pUVar2,
-                                                      (MethodInfo_6651A0 *)
+                                                      (MethodInfo_34B0830 *)
                                                       MethodInfo_UnityEngine_Component_GetComponent_Text);
-                                  pUVar9 = UI_UIManager__GetThemeColor
-                                                     ((UnityEngine_Color_o *)&local_108,themePanel,
-                                                      "DefaultSetting","DropdownTextColor",
-                                                      "DefaultPanel",(MethodInfo *)0x0);
-                                  if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
-                                    local_108.r = (pUVar9->fields).r;
-                                    local_108.g = (pUVar9->fields).g;
-                                    local_108.b = (pUVar9->fields).b;
-                                    local_108.a = (pUVar9->fields).a;
-                                    (*(pUVar5->klass->vtable)._23_set_color.methodPtr)
-                                              (pUVar5,(UnityEngine_Color_o *)&local_108,
-                                               (pUVar5->klass->vtable)._23_set_color.method);
+                                  UVar9 = UI_UIManager__GetThemeColor
+                                                    (themePanel,"DefaultSetting","DropdownTextColor",
+                                                     "DefaultPanel",(MethodInfo *)0x0);
+                                  if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
+                                    (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
+                                              (pUVar6,UVar9,(pUVar6->klass->vtable)._23_set_color.method);
                                     return;
                                   }
                                 }
@@ -1501,44 +1613,43 @@ void UI_DropdownSettingElement__CreateOptionButton
 
 // UI.DropdownSettingElement$$OnDropdownSelectedButtonClick
 // il2cpp: void UI_DropdownSettingElement__OnDropdownSelectedButtonClick (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a540
+// 0x5ceff70
 
-void
-UI_DropdownSettingElement__OnDropdownSelectedButtonClick(UI_DropdownSettingElement_o* __this, MethodInfo* method)
+void UI_DropdownSettingElement__OnDropdownSelectedButtonClick
+               (UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
   UnityEngine_GameObject_o *pUVar1;
   UnityEngine_UI_Scrollbar_o *__this_00;
   bool bVar2;
-  UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o *routine;
+  UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this_01;
   float fVar3;
   
   pUVar1 = (__this->fields)._optionsPanel;
   if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
     bVar2 = UnityEngine_GameObject__get_activeSelf(pUVar1,(MethodInfo *)0x0);
     if (!bVar2) {
-      if (Il2CppMethodInitialized_184347117 == '\0') {
+      if (Il2CppMethodInitialized_07547c84 == '\0') {
         il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22);
-        Il2CppMethodInitialized_184347117 = '\x01';
+                  (&TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__25);
+        Il2CppMethodInitialized_07547c84 = '\x01';
       }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+      __this_01 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__25);
+      System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+      (__this_01->fields).__1__state = 0;
+      (__this_01->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(__this_01->fields).__4__this);
+      UnityEngine_MonoBehaviour__StartCoroutine_691c390
+                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_01,
                  (MethodInfo *)0x0);
       return;
     }
     __this_00 = (__this->fields)._scrollBar;
     if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
       fVar3 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
-      pUVar1 = (__this->fields)._optionsPanel;
       (__this->fields)._currentScrollValue = fVar3;
+      pUVar1 = (__this->fields)._optionsPanel;
       if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
         UnityEngine_GameObject__SetActive(pUVar1,false,(MethodInfo *)0x0);
         return;
@@ -1551,159 +1662,168 @@ UI_DropdownSettingElement__OnDropdownSelectedButtonClick(UI_DropdownSettingEleme
 
 // UI.DropdownSettingElement$$WaitAndEnableOptions
 // il2cpp: System_Collections_IEnumerator_o* UI_DropdownSettingElement__WaitAndEnableOptions (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220ba30
+// 0x5cf0030
 
 System_Collections_IEnumerator_o *
 UI_DropdownSettingElement__WaitAndEnableOptions(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
-  UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o *__this_00;
+  UI_DropdownSettingElement__WaitAndEnableOptions_d__25_o *__this_00;
   
-  if (Il2CppMethodInitialized_184347117 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22)
+  if (Il2CppMethodInitialized_07547c84 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__25)
     ;
-    Il2CppMethodInitialized_184347117 = '\x01';
+    Il2CppMethodInitialized_07547c84 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+                        ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__25);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.DropdownSettingElement$$WaitAndCloseOptions
 // il2cpp: System_Collections_IEnumerator_o* UI_DropdownSettingElement__WaitAndCloseOptions (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220b9c0
+// 0x5cefef0
 
 System_Collections_IEnumerator_o *
 UI_DropdownSettingElement__WaitAndCloseOptions(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
-  UI_DropdownSettingElement__WaitAndCloseOptions_d__23_o *__this_00;
+  UI_DropdownSettingElement__WaitAndCloseOptions_d__26_o *__this_00;
   
-  if (Il2CppMethodInitialized_184347118 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__23);
-    Il2CppMethodInitialized_184347118 = '\x01';
+  if (Il2CppMethodInitialized_07547c85 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__26);
+    Il2CppMethodInitialized_07547c85 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
-                        ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__23);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+                        ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndCloseOptions_d__26);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).__4__this = __this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.DropdownSettingElement$$OnDropdownOptionClick
 // il2cpp: void UI_DropdownSettingElement__OnDropdownOptionClick (UI_DropdownSettingElement_o* __this, System_String_o* option, int32_t index, const MethodInfo* method);
-// 0x18220a310
+// 0x5cf00e0
 
 void UI_DropdownSettingElement__OnDropdownOptionClick
                (UI_DropdownSettingElement_o *__this,System_String_o *option,int32_t index,MethodInfo *method)
 
 {
   byte bVar1;
-  UnityEngine_GameObject_o *pUVar2;
+  int iVar2;
+  UnityEngine_GameObject_o *pUVar3;
+  System_Func_string__string__o *pSVar4;
   UnityEngine_UI_Scrollbar_o *__this_00;
-  Settings_TypedSetting_int__o *__this_01;
-  System_Int32_array *pSVar3;
-  Settings_TypedSetting_T__o *__this_02;
-  UnityEngine_Events_UnityAction_o *pUVar4;
-  UnityEngine_UI_Text_o *pUVar5;
-  float fVar6;
+  Settings_TypedSetting_T__o *__this_01;
+  UnityEngine_Events_UnityAction_o *pUVar5;
+  Settings_TypedSetting_int__o *__this_02;
+  System_Int32_array *pSVar6;
+  System_String_o *pSVar7;
+  Il2CppObject *pIVar8;
+  float fVar9;
   
-  if (Il2CppMethodInitialized_184347119 == '\0') {
+  if (Il2CppMethodInitialized_07547c86 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_184347119 = '\x01';
+    Il2CppMethodInitialized_07547c86 = '\x01';
   }
-  pUVar2 = (__this->fields)._selectedButtonLabel;
-  if (Il2CppMethodInitialized_184347106 == '\0') {
+  pUVar3 = (__this->fields)._selectedButtonLabel;
+  pSVar4 = (__this->fields)._optionLabel;
+  pSVar7 = option;
+  if (pSVar4 != (System_Func_string__string__o *)0x0) {
+    pSVar7 = (System_String_o *)
+             (*(code *)(pSVar4->fields).invoke_impl)
+                       ((pSVar4->fields).method_code,option,(pSVar4->fields).method);
+  }
+  if (Il2CppMethodInitialized_07547c73 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-    Il2CppMethodInitialized_184347106 = '\x01';
+    Il2CppMethodInitialized_07547c73 = '\x01';
   }
-  if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                       (pUVar2,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-    if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
-      (*(pUVar5->klass->vtable)._75_set_text.methodPtr)
-                (pUVar5,option,(pUVar5->klass->vtable)._75_set_text.method);
-      __this_00 = (__this->fields)._scrollBar;
-      if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
-        fVar6 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
-        pUVar2 = (__this->fields)._optionsPanel;
-        (__this->fields)._currentScrollValue = fVar6;
-        if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
-          UnityEngine_GameObject__SetActive(pUVar2,false,(MethodInfo *)0x0);
-          if ((__this->fields)._settingType == 4) {
-            __this_02 = (Settings_TypedSetting_T__o *)(__this->fields)._setting;
-            if (__this_02 == (Settings_TypedSetting_T__o *)0x0) goto label_18220a50b;
-            bVar1 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
+  if ((pUVar3 != (UnityEngine_GameObject_o *)0x0) &&
+     (pIVar8 = UnityEngine_GameObject__GetComponent_object_
+                         (pUVar3,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text),
+     pIVar8 != (Il2CppObject *)0x0)) {
+    (*pIVar8->klass->vtable[0x4b].methodPtr)(pIVar8,pSVar7,pIVar8->klass->vtable[0x4b].method);
+    __this_00 = (__this->fields)._scrollBar;
+    if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
+      fVar9 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
+      (__this->fields)._currentScrollValue = fVar9;
+      pUVar3 = (__this->fields)._optionsPanel;
+      if (pUVar3 != (UnityEngine_GameObject_o *)0x0) {
+        UnityEngine_GameObject__SetActive(pUVar3,false,(MethodInfo *)0x0);
+        iVar2 = (__this->fields)._settingType;
+        if (iVar2 == 2) {
+          __this_02 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
+          pSVar6 = (__this->fields)._intOptionValues;
+          if (pSVar6 == (System_Int32_array *)0x0) {
+            if (__this_02 == (Settings_TypedSetting_int__o *)0x0) goto label_05cf0313;
+            bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
             if (((__this_02->klass->_2).typeHierarchyDepth < bVar1) ||
-               ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
-              il2cpp_codegen_raise_invalid_cast_exception(__this_02,TypeInfo_Settings_StringSetting);
-            }
-            Settings_TypedSetting_object___set_Value
-                      (__this_02,(Il2CppObject *)option,
-                       (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+               ((__this_02->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+                (Il2CppClass *)TypeInfo_Settings_IntSetting)) goto label_05cf0308;
           }
-          else if ((__this->fields)._settingType == 2) {
-            __this_01 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
-            if ((__this->fields)._intOptionValues == (System_Int32_array *)0x0) {
-              if (__this_01 != (Settings_TypedSetting_int__o *)0x0) {
-                bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-                if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
-                   ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                    (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-                  il2cpp_codegen_raise_invalid_cast_exception(__this_01);
-                }
-              }
-            }
-            else {
-              if (__this_01 != (Settings_TypedSetting_int__o *)0x0) {
-                bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
-                if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
-                   ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-                    (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
-                  il2cpp_codegen_raise_invalid_cast_exception(__this_01);
-                }
-              }
-              pSVar3 = (__this->fields)._intOptionValues;
-              if ((uint)pSVar3->max_length <= (uint)index) {
+          else {
+            if (__this_02 == (Settings_TypedSetting_int__o *)0x0) {
+              if ((uint)pSVar6->max_length <= (uint)index) {
+label_05cf0318:
                 ThrowIndexOutOfRangeException();
               }
-              index = pSVar3->m_Items[index];
+              goto label_05cf0313;
             }
-            if (__this_01 == (Settings_TypedSetting_int__o *)0x0) goto label_18220a50b;
-            Settings_TypedSetting_int___set_Value
-                      (__this_01,index,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+            bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
+            if (((__this_02->klass->_2).typeHierarchyDepth < bVar1) ||
+               ((__this_02->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+                (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
+label_05cf0308:
+              il2cpp_codegen_raise_invalid_cast_exception();
+            }
+            if ((uint)pSVar6->max_length <= (uint)index) goto label_05cf0318;
+            index = pSVar6->m_Items[index];
           }
-          pUVar4 = (__this->fields)._onDropdownOptionSelect;
-          if (pUVar4 != (UnityEngine_Events_UnityAction_o *)0x0) {
-            (*(code *)(pUVar4->fields).invoke_impl)((pUVar4->fields).method_code,(pUVar4->fields).method);
+          Settings_TypedSetting_int___set_Value
+                    (__this_02,index,(MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+          pUVar5 = (__this->fields)._onDropdownOptionSelect;
+        }
+        else {
+          if (iVar2 == 4) {
+            __this_01 = (Settings_TypedSetting_T__o *)(__this->fields)._setting;
+            if (__this_01 == (Settings_TypedSetting_T__o *)0x0) goto label_05cf0313;
+            bVar1 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
+            if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
+               ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] !=
+                (Il2CppClass *)TypeInfo_Settings_StringSetting)) goto label_05cf0308;
+            Settings_TypedSetting_object___set_Value
+                      (__this_01,(Il2CppObject *)option,
+                       (MethodInfo_42DA280 *)MethodInfo_Settings_TypedSetting_string_set_Value);
           }
+          pUVar5 = (__this->fields)._onDropdownOptionSelect;
+        }
+        if (pUVar5 == (UnityEngine_Events_UnityAction_o *)0x0) {
           return;
         }
+        (*(code *)(pUVar5->fields).invoke_impl)((pUVar5->fields).method_code,(pUVar5->fields).method);
+        return;
       }
     }
   }
-label_18220a50b:
+label_05cf0313:
   ThrowNullReferenceException();
 }
 
 
 // UI.DropdownSettingElement$$CloseOptions
 // il2cpp: void UI_DropdownSettingElement__CloseOptions (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x182209c00
+// 0x5cef0c0
 
 void UI_DropdownSettingElement__CloseOptions(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -1715,8 +1835,8 @@ void UI_DropdownSettingElement__CloseOptions(UI_DropdownSettingElement_o *__this
   __this_00 = (__this->fields)._scrollBar;
   if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
     fVar1 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
-    __this_01 = (__this->fields)._optionsPanel;
     (__this->fields)._currentScrollValue = fVar1;
+    __this_01 = (__this->fields)._optionsPanel;
     if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
       UnityEngine_GameObject__SetActive(__this_01,false,(MethodInfo *)0x0);
       return;
@@ -1728,99 +1848,127 @@ void UI_DropdownSettingElement__CloseOptions(UI_DropdownSettingElement_o *__this
 
 // UI.DropdownSettingElement$$SyncElement
 // il2cpp: void UI_DropdownSettingElement__SyncElement (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220b5f0
+// 0x5cf0320
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5cf0420: lea rax, [rip + 0x15bab51]  ; MethodInfo_UnityEngine_GameObject_GetComponent_Text
+// asm:   0x5cf0427: mov rsi, qword ptr [rax]
+// asm:   0x5cf042a: mov rdi, rbp
+// asm:   0x5cf042d: jmp 0x5cf052c
+// asm:   0x5cf051f: lea rax, [rip + 0x15baa52]  ; MethodInfo_UnityEngine_GameObject_GetComponent_Text
+// asm:   0x5cf0526: mov rsi, qword ptr [rax]
+// asm:   0x5cf0529: mov rdi, r15
 
 void UI_DropdownSettingElement__SyncElement(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
-  Settings_TypedSetting_int__o *__this_00;
-  System_String_array *pSVar2;
-  UnityEngine_GameObject_o *__this_01;
+  int iVar2;
   Settings_BaseSetting_o *pSVar3;
-  uint uVar4;
-  UnityEngine_UI_Text_o *pUVar5;
-  System_String_o *pSVar6;
+  System_Func_string__string__o *pSVar4;
+  Settings_TypedSetting_int__o *__this_00;
+  System_Int32_array *array;
+  uint value;
+  System_String_o *pSVar5;
+  System_String_array *pSVar6;
+  UnityEngine_UI_Text_o *pUVar7;
+  UnityEngine_GameObject_o *__this_01;
   
-  if (Il2CppMethodInitialized_18434711a == '\0') {
+  if (Il2CppMethodInitialized_07547c87 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_IndexOf_int);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
-    Il2CppMethodInitialized_18434711a = '\x01';
+    Il2CppMethodInitialized_07547c87 = '\x01';
   }
-  if ((__this->fields)._settingType == 4) {
-    pSVar3 = (__this->fields)._setting;
-    if (pSVar3 == (Settings_BaseSetting_o *)0x0) goto label_18220b7ad;
-    bVar1 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
-    if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((pSVar3->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_StringSetting)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pSVar3);
-    }
-    pSVar6 = (*(uint64_t *)((char *)pSVar3 + 0x20));
-  }
-  else {
-    if ((__this->fields)._settingType != 2) {
-      return;
-    }
+  iVar2 = (__this->fields)._settingType;
+  if (iVar2 == 2) {
     __this_00 = (Settings_TypedSetting_int__o *)(__this->fields)._setting;
-    if (__this_00 == (Settings_TypedSetting_int__o *)0x0) goto label_18220b7ad;
+    if (__this_00 == (Settings_TypedSetting_int__o *)0x0) goto label_05cf0565;
     bVar1 = (TypeInfo_Settings_IntSetting->_2).typeHierarchyDepth;
     if (((__this_00->klass->_2).typeHierarchyDepth < bVar1) ||
-       ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
-        (Il2CppClass *)TypeInfo_Settings_IntSetting)) {
+       ((__this_00->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_IntSetting)
+       ) {
       il2cpp_codegen_raise_invalid_cast_exception(__this_00);
     }
-    if ((__this->fields)._intOptionValues == (System_Int32_array *)0x0) {
-      uVar4 = (__this_00->fields)._value;
+    array = (__this->fields)._intOptionValues;
+    value = (__this_00->fields)._value;
+    if (array != (System_Int32_array *)0x0) {
+      value = System_Array__IndexOf_int_
+                        (array,value,(MethodInfo_36029E0 *)MethodInfo_System_Array_IndexOf_int);
     }
-    else {
-      uVar4 = System_Array__IndexOf_int_
-                        ((__this->fields)._intOptionValues,(__this_00->fields)._value,
-                         (MethodInfo_761C20 *)MethodInfo_System_Array_IndexOf_int);
-    }
-    if ((int)uVar4 < 0) {
-label_18220b6e5:
+    if ((int)value < 0) {
+label_05cf04aa:
+      value = 0;
       Settings_TypedSetting_int___set_Value
-                (__this_00,0,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
-      uVar4 = 0;
+                (__this_00,0,(MethodInfo_42DA160 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      pSVar6 = (__this->fields)._options;
+      if (pSVar6 == (System_String_array *)0x0) goto label_05cf0565;
     }
     else {
-      pSVar2 = (__this->fields)._options;
-      if (pSVar2 == (System_String_array *)0x0) goto label_18220b7ad;
-      if ((int)pSVar2->max_length <= (int)uVar4) goto label_18220b6e5;
+      pSVar6 = (__this->fields)._options;
+      if (pSVar6 == (System_String_array *)0x0) goto label_05cf0565;
+      if ((int)pSVar6->max_length <= (int)value) goto label_05cf04aa;
     }
-    pSVar2 = (__this->fields)._options;
-    if (pSVar2 == (System_String_array *)0x0) goto label_18220b7ad;
-    if ((uint)pSVar2->max_length <= uVar4) {
+    if ((uint)pSVar6->max_length <= value) {
       ThrowIndexOutOfRangeException();
     }
-    pSVar6 = pSVar2->m_Items[uVar4];
+    __this_01 = (__this->fields)._selectedButtonLabel;
+    pSVar5 = pSVar6->m_Items[value];
+    pSVar4 = (__this->fields)._optionLabel;
+    if (pSVar4 != (System_Func_string__string__o *)0x0) {
+      pSVar5 = (System_String_o *)
+               (*(code *)(pSVar4->fields).invoke_impl)
+                         ((pSVar4->fields).method_code,pSVar5,(pSVar4->fields).method);
+    }
+    if (Il2CppMethodInitialized_07547c73 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+      Il2CppMethodInitialized_07547c73 = '\x01';
+    }
+    if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_05cf0565;
   }
-  __this_01 = (__this->fields)._selectedButtonLabel;
-  if (Il2CppMethodInitialized_184347106 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
-    Il2CppMethodInitialized_184347106 = '\x01';
+  else {
+    if (iVar2 != 4) {
+      return;
+    }
+    pSVar3 = (__this->fields)._setting;
+    if (pSVar3 == (Settings_BaseSetting_o *)0x0) goto label_05cf0565;
+    bVar1 = (TypeInfo_Settings_StringSetting->_2).typeHierarchyDepth;
+    if (((pSVar3->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((pSVar3->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_StringSetting)
+       ) {
+      il2cpp_codegen_raise_invalid_cast_exception();
+    }
+    __this_01 = (__this->fields)._selectedButtonLabel;
+    pSVar5 = (*(uint64_t *)((char *)pSVar3 + 0x20));
+    pSVar4 = (__this->fields)._optionLabel;
+    if (pSVar4 != (System_Func_string__string__o *)0x0) {
+      pSVar5 = (System_String_o *)
+               (*(code *)(pSVar4->fields).invoke_impl)
+                         ((pSVar4->fields).method_code,pSVar5,(pSVar4->fields).method);
+    }
+    if (Il2CppMethodInitialized_07547c73 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+      Il2CppMethodInitialized_07547c73 = '\x01';
+    }
+    if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_05cf0565;
   }
-  if ((__this_01 != (UnityEngine_GameObject_o *)0x0) &&
-     (pUVar5 = UnityEngine_GameObject__GetComponent_object_
-                         (__this_01,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text),
-     pUVar5 != (UnityEngine_UI_Text_o *)0x0)) {
-    (*(pUVar5->klass->vtable)._75_set_text.methodPtr)
-              (pUVar5,pSVar6,(pUVar5->klass->vtable)._75_set_text.method);
+  pUVar7 = UnityEngine_GameObject__GetComponent_object_
+                     (__this_01,(MethodInfo_353B730 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+  if (pUVar7 != (UnityEngine_UI_Text_o *)0x0) {
+    (*(pUVar7->klass->vtable)._75_set_text.methodPtr)
+              (pUVar7,pSVar5,(pUVar7->klass->vtable)._75_set_text.method);
     return;
   }
-label_18220b7ad:
+label_05cf0565:
   ThrowNullReferenceException();
 }
 
 
 // UI.DropdownSettingElement$$.ctor
 // il2cpp: void UI_DropdownSettingElement___ctor (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x182209ba0
+// 0x5cef170
 
 void UI_DropdownSettingElement___ctor(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
@@ -1830,9 +1978,9 @@ void UI_DropdownSettingElement___ctor(UI_DropdownSettingElement_o *__this,Method
   float fVar3;
   
   (__this->fields)._currentScrollValue = 1.0;
-  if (Il2CppMethodInitialized_18433dbea == '\0') {
+  if (Il2CppMethodInitialized_0753e4b6 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433dbea = '\x01';
+    Il2CppMethodInitialized_0753e4b6 = '\x01';
   }
   pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
   fVar3 = (pUVar2->zeroVector).fields.y;
@@ -1845,52 +1993,15 @@ void UI_DropdownSettingElement___ctor(UI_DropdownSettingElement_o *__this,Method
 }
 
 
-// UI.DropdownSettingElement$$<Setup>b__13_0
-// il2cpp: void UI_DropdownSettingElement___Setup_b__13_0 (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
-// 0x18220a540
+// UI.DropdownSettingElement$$<Setup>b__14_0
+// il2cpp: void UI_DropdownSettingElement___Setup_b__14_0 (UI_DropdownSettingElement_o* __this, const MethodInfo* method);
+// 0x5cf0580
 
-void UI_DropdownSettingElement___Setup_b__13_0(UI_DropdownSettingElement_o *__this,MethodInfo *method)
+void UI_DropdownSettingElement___Setup_b__14_0(UI_DropdownSettingElement_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_GameObject_o *pUVar1;
-  UnityEngine_UI_Scrollbar_o *__this_00;
-  bool bVar2;
-  UI_DropdownSettingElement__WaitAndEnableOptions_d__22_o *routine;
-  float fVar3;
-  
-  pUVar1 = (__this->fields)._optionsPanel;
-  if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
-    bVar2 = UnityEngine_GameObject__get_activeSelf(pUVar1,(MethodInfo *)0x0);
-    if (!bVar2) {
-      if (Il2CppMethodInitialized_184347117 == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22);
-        Il2CppMethodInitialized_184347117 = '\x01';
-      }
-      routine = il2cpp_codegen_object_new
-                          ((Il2CppClass *)TypeInfo_UI_DropdownSettingElement_WaitAndEnableOptions_d__22);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
-      (routine->fields).__1__state = 0;
-      (routine->fields).__4__this = __this;
-      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
-      UnityEngine_MonoBehaviour__StartCoroutine_Auto
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
-                 (MethodInfo *)0x0);
-      return;
-    }
-    __this_00 = (__this->fields)._scrollBar;
-    if (__this_00 != (UnityEngine_UI_Scrollbar_o *)0x0) {
-      fVar3 = UnityEngine_UI_Scrollbar__get_value(__this_00,(MethodInfo *)0x0);
-      pUVar1 = (__this->fields)._optionsPanel;
-      (__this->fields)._currentScrollValue = fVar3;
-      if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
-        UnityEngine_GameObject__SetActive(pUVar1,false,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-  ThrowNullReferenceException();
+  UI_DropdownSettingElement__OnDropdownSelectedButtonClick(__this,method);
+  return;
 }
 
 

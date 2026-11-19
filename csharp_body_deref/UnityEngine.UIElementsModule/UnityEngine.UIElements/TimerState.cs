@@ -18,14 +18,14 @@ public struct TimerState : IEquatable<TimerState>
 	public long start
 	{
 		[Token(Token = "0x600139F")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6CC3280", Offset = "0x6CC2280", VA = "0x6CC3280")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013A0")]
-		[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
+		[Address(RVA = "0x6CC3290", Offset = "0x6CC2290", VA = "0x6CC3290")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,14 +36,14 @@ public struct TimerState : IEquatable<TimerState>
 	public long now
 	{
 		[Token(Token = "0x60013A1")]
-		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
+		[Address(RVA = "0x6CC32A0", Offset = "0x6CC22A0", VA = "0x6CC32A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60013A2")]
-		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
+		[Address(RVA = "0x6CC32B0", Offset = "0x6CC22B0", VA = "0x6CC32B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,7 +54,7 @@ public struct TimerState : IEquatable<TimerState>
 	public long deltaTime
 	{
 		[Token(Token = "0x60013A3")]
-		[Address(RVA = "0x32B8650", Offset = "0x32B6C50", VA = "0x1832B8650")]
+		[Address(RVA = "0x6CC32C0", Offset = "0x6CC22C0", VA = "0x6CC32C0")]
 		get
 		{
 			return default(long);
@@ -62,21 +62,21 @@ public struct TimerState : IEquatable<TimerState>
 	}
 
 	[Token(Token = "0x60013A4")]
-	[Address(RVA = "0x32B8520", Offset = "0x32B6B20", VA = "0x1832B8520", Slot = "0")]
+	[Address(RVA = "0x6CC32D0", Offset = "0x6CC22D0", VA = "0x6CC32D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013A5")]
-	[Address(RVA = "0x32B84F0", Offset = "0x32B6AF0", VA = "0x1832B84F0", Slot = "4")]
+	[Address(RVA = "0x6CC3340", Offset = "0x6CC2340", VA = "0x6CC3340", Slot = "4")]
 	public bool Equals(TimerState other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013A6")]
-	[Address(RVA = "0x32B85D0", Offset = "0x32B6BD0", VA = "0x1832B85D0", Slot = "2")]
+	[Address(RVA = "0x6CC3350", Offset = "0x6CC2350", VA = "0x6CC3350", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

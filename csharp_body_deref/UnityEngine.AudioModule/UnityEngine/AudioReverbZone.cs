@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000E")]
 [UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/AudioReverbZone.h")]
 [RequireComponent(typeof(Transform))]
 public sealed class AudioReverbZone : Behaviour

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005E0")]
+[Token(Token = "0x20005D0")]
 internal class GradientRemapPool : LinkedPool<GradientRemap>
 {
-	[Token(Token = "0x6002B86")]
-	[Address(RVA = "0x31A37F0", Offset = "0x31A1DF0", VA = "0x1831A37F0")]
+	[Token(Token = "0x6002B51")]
+	[Address(RVA = "0x6BAFF90", Offset = "0x6BAEF90", VA = "0x6BAFF90")]
 	public GradientRemapPool()
 	{
 	}

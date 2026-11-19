@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleComplexSelector
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ internal class StyleComplexSelector
 		public readonly bool negate;
 
 		[Token(Token = "0x600227A")]
-		[Address(RVA = "0xFEDB70", Offset = "0xFEC170", VA = "0x180FEDB70")]
+		[Address(RVA = "0x6B1F920", Offset = "0x6B1E920", VA = "0x6B1F920")]
 		public PseudoStateData(PseudoStates state, bool negate)
 		{
 		}
@@ -79,13 +79,13 @@ internal class StyleComplexSelector
 	public int specificity
 	{
 		[Token(Token = "0x600226D")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x6B1F1B0", Offset = "0x6B1E1B0", VA = "0x6B1F1B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600226E")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x6B1F1C0", Offset = "0x6B1E1C0", VA = "0x6B1F1C0")]
 		internal set
 		{
 		}
@@ -95,14 +95,14 @@ internal class StyleComplexSelector
 	public StyleRule rule
 	{
 		[Token(Token = "0x600226F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6B1F1D0", Offset = "0x6B1E1D0", VA = "0x6B1F1D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002270")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x6B1F1E0", Offset = "0x6B1E1E0", VA = "0x6B1F1E0")]
 		[CompilerGenerated]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
@@ -114,7 +114,7 @@ internal class StyleComplexSelector
 	public bool isSimple
 	{
 		[Token(Token = "0x6002271")]
-		[Address(RVA = "0x31132E0", Offset = "0x31118E0", VA = "0x1831132E0")]
+		[Address(RVA = "0x6B1F1F0", Offset = "0x6B1E1F0", VA = "0x6B1F1F0")]
 		get
 		{
 			return default(bool);
@@ -125,13 +125,13 @@ internal class StyleComplexSelector
 	public StyleSelector[] selectors
 	{
 		[Token(Token = "0x6002272")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6B1F210", Offset = "0x6B1E210", VA = "0x6B1F210")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002273")]
-		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
+		[Address(RVA = "0x6B1F220", Offset = "0x6B1E220", VA = "0x6B1F220")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 		internal set
 		{
@@ -139,33 +139,33 @@ internal class StyleComplexSelector
 	}
 
 	[Token(Token = "0x6002274")]
-	[Address(RVA = "0x3113290", Offset = "0x3111890", VA = "0x183113290")]
+	[Address(RVA = "0x6B1F230", Offset = "0x6B1E230", VA = "0x6B1F230")]
 	internal StyleComplexSelector()
 	{
 	}
 
 	[Token(Token = "0x6002275")]
-	[Address(RVA = "0x3112390", Offset = "0x3110990", VA = "0x183112390")]
+	[Address(RVA = "0x6B1F300", Offset = "0x6B1E300", VA = "0x6B1F300")]
 	internal void CachePseudoStateMasks(StyleSheet styleSheet)
 	{
 	}
 
 	[Token(Token = "0x6002276")]
-	[Address(RVA = "0x3113090", Offset = "0x3111690", VA = "0x183113090", Slot = "3")]
+	[Address(RVA = "0x6B1F950", Offset = "0x6B1E950", VA = "0x6B1F950", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002277")]
-	[Address(RVA = "0x3113040", Offset = "0x3111640", VA = "0x183113040")]
+	[Address(RVA = "0x6B1FAC0", Offset = "0x6B1EAC0", VA = "0x6B1FAC0")]
 	private static int StyleSelectorPartCompare(StyleSelectorPart x, StyleSelectorPart y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002278")]
-	[Address(RVA = "0x3112A90", Offset = "0x3111090", VA = "0x183112A90")]
+	[Address(RVA = "0x6B1FB00", Offset = "0x6B1EB00", VA = "0x6B1FB00")]
 	internal void CalculateHashes()
 	{
 	}

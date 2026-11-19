@@ -26,7 +26,7 @@ public abstract class VFXSpawnerCallbacks : ScriptableObject
 	public abstract void OnStop(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent);
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x6D20770", Offset = "0x6D1F770", VA = "0x6D20770")]
 	protected VFXSpawnerCallbacks()
 	{
 	}

@@ -12,110 +12,99 @@ using Il2CppDummyDll;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x20003C8")]
+[Token(Token = "0x2000384")]
 public class SslClientAuthenticationOptions
 {
-	[Token(Token = "0x40010C8")]
+	[Token(Token = "0x4000FE0")]
 	[FieldOffset(Offset = "0x10")]
 	private EncryptionPolicy _encryptionPolicy;
 
-	[Token(Token = "0x40010C9")]
+	[Token(Token = "0x4000FE1")]
 	[FieldOffset(Offset = "0x14")]
 	private X509RevocationMode _checkCertificateRevocation;
 
-	[Token(Token = "0x40010CA")]
+	[Token(Token = "0x4000FE2")]
 	[FieldOffset(Offset = "0x18")]
 	private SslProtocols _enabledSslProtocols;
 
-	[Token(Token = "0x40010CB")]
+	[Token(Token = "0x4000FE3")]
 	[FieldOffset(Offset = "0x1C")]
 	private bool _allowRenegotiation;
 
-	[Token(Token = "0x1700056D")]
-	public bool AllowRenegotiation
-	{
-		[Token(Token = "0x600199F")]
-		[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x1700056E")]
+	[Token(Token = "0x17000540")]
 	public string TargetHost
 	{
-		[Token(Token = "0x60019A0")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60017E6")]
+		[Address(RVA = "0x61CD600", Offset = "0x61CC600", VA = "0x61CD600")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60019A1")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x60017E7")]
+		[Address(RVA = "0x61CD610", Offset = "0x61CC610", VA = "0x61CD610")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700056F")]
+	[Token(Token = "0x17000541")]
 	public X509CertificateCollection ClientCertificates
 	{
-		[Token(Token = "0x60019A2")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x60017E8")]
+		[Address(RVA = "0x61CD620", Offset = "0x61CC620", VA = "0x61CD620")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60019A3")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x60017E9")]
+		[Address(RVA = "0x61CD630", Offset = "0x61CC630", VA = "0x61CD630")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000570")]
+	[Token(Token = "0x17000542")]
 	public X509RevocationMode CertificateRevocationCheckMode
 	{
-		[Token(Token = "0x60019A4")]
-		[Address(RVA = "0x281A660", Offset = "0x2818C60", VA = "0x18281A660")]
+		[Token(Token = "0x60017EA")]
+		[Address(RVA = "0x61CD640", Offset = "0x61CC640", VA = "0x61CD640")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000571")]
+	[Token(Token = "0x17000543")]
 	public EncryptionPolicy EncryptionPolicy
 	{
-		[Token(Token = "0x60019A5")]
-		[Address(RVA = "0x281A700", Offset = "0x2818D00", VA = "0x18281A700")]
+		[Token(Token = "0x60017EB")]
+		[Address(RVA = "0x61CD6D0", Offset = "0x61CC6D0", VA = "0x61CD6D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000572")]
+	[Token(Token = "0x17000544")]
 	public SslProtocols EnabledSslProtocols
 	{
-		[Token(Token = "0x60019A6")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x60017EC")]
+		[Address(RVA = "0x61CD760", Offset = "0x61CC760", VA = "0x61CD760")]
 		get
 		{
 			return default(SslProtocols);
 		}
-		[Token(Token = "0x60019A7")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x60017ED")]
+		[Address(RVA = "0x61CD770", Offset = "0x61CC770", VA = "0x61CD770")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60019A8")]
-	[Address(RVA = "0x281A650", Offset = "0x2818C50", VA = "0x18281A650")]
+	[Token(Token = "0x60017EE")]
+	[Address(RVA = "0x61CD780", Offset = "0x61CC780", VA = "0x61CD780")]
 	public SslClientAuthenticationOptions()
 	{
 	}

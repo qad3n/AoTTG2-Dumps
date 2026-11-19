@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x20000A3")]
 internal sealed class PropertyExpression : MemberExpression
 {
-	[Token(Token = "0x40001B3")]
+	[Token(Token = "0x40001BC")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly PropertyInfo _property;
 
-	[Token(Token = "0x170000C5")]
+	[Token(Token = "0x170000C7")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x243E8F0", Offset = "0x243CEF0", VA = "0x18243E8F0", Slot = "5")]
+		[Token(Token = "0x6000489")]
+		[Address(RVA = "0x5DD2F20", Offset = "0x5DD1F20", VA = "0x5DD2F20", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x2439780", Offset = "0x2437D80", VA = "0x182439780")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x5DD2CB0", Offset = "0x5DD1CB0", VA = "0x5DD2CB0")]
 	public PropertyExpression(Expression expression, PropertyInfo member)
 	{
 	}
 
-	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "10")]
+	[Token(Token = "0x6000488")]
+	[Address(RVA = "0x5DD2F10", Offset = "0x5DD1F10", VA = "0x5DD2F10", Slot = "10")]
 	internal override MemberInfo GetMember()
 	{
 		return null;

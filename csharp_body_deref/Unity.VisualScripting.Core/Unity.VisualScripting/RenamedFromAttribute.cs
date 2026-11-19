@@ -19,7 +19,7 @@ public sealed class RenamedFromAttribute : Attribute
 	public string previousName
 	{
 		[Token(Token = "0x6000E87")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6833470", Offset = "0x6832470", VA = "0x6833470")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public sealed class RenamedFromAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E86")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x6833440", Offset = "0x6832440", VA = "0x6833440")]
 	public RenamedFromAttribute(string previousName)
 	{
 	}

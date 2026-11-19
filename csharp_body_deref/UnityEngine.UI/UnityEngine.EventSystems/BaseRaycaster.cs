@@ -30,7 +30,7 @@ public abstract class BaseRaycaster : UIBehaviour
 	public virtual int priority
 	{
 		[Token(Token = "0x6000789")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "19")]
+		[Address(RVA = "0x6D15320", Offset = "0x6D14320", VA = "0x6D15320", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -41,7 +41,7 @@ public abstract class BaseRaycaster : UIBehaviour
 	public virtual int sortOrderPriority
 	{
 		[Token(Token = "0x600078A")]
-		[Address(RVA = "0x32F2360", Offset = "0x32F0960", VA = "0x1832F2360", Slot = "20")]
+		[Address(RVA = "0x6D15330", Offset = "0x6D14330", VA = "0x6D15330", Slot = "20")]
 		get
 		{
 			return default(int);
@@ -52,7 +52,7 @@ public abstract class BaseRaycaster : UIBehaviour
 	public virtual int renderOrderPriority
 	{
 		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x32F2360", Offset = "0x32F0960", VA = "0x1832F2360", Slot = "21")]
+		[Address(RVA = "0x6D15340", Offset = "0x6D14340", VA = "0x6D15340", Slot = "21")]
 		get
 		{
 			return default(int);
@@ -63,7 +63,7 @@ public abstract class BaseRaycaster : UIBehaviour
 	public BaseRaycaster rootRaycaster
 	{
 		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x32F2370", Offset = "0x32F0970", VA = "0x1832F2370")]
+		[Address(RVA = "0x6D09AD0", Offset = "0x6D08AD0", VA = "0x6D09AD0")]
 		get
 		{
 			return null;
@@ -74,38 +74,38 @@ public abstract class BaseRaycaster : UIBehaviour
 	public abstract void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList);
 
 	[Token(Token = "0x600078D")]
-	[Address(RVA = "0x32F2150", Offset = "0x32F0750", VA = "0x1832F2150", Slot = "3")]
+	[Address(RVA = "0x6D15350", Offset = "0x6D14350", VA = "0x6D15350", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600078E")]
-	[Address(RVA = "0x32F2000", Offset = "0x32F0600", VA = "0x1832F2000", Slot = "5")]
+	[Address(RVA = "0x6D15590", Offset = "0x6D14590", VA = "0x6D15590", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x32F1F00", Offset = "0x32F0500", VA = "0x1832F1F00", Slot = "7")]
+	[Address(RVA = "0x6D155F0", Offset = "0x6D145F0", VA = "0x6D155F0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000790")]
-	[Address(RVA = "0x32F1EE0", Offset = "0x32F04E0", VA = "0x1832F1EE0", Slot = "15")]
+	[Address(RVA = "0x6D15650", Offset = "0x6D14650", VA = "0x6D15650", Slot = "15")]
 	protected override void OnCanvasHierarchyChanged()
 	{
 	}
 
 	[Token(Token = "0x6000791")]
-	[Address(RVA = "0x32F1EE0", Offset = "0x32F04E0", VA = "0x1832F1EE0", Slot = "12")]
+	[Address(RVA = "0x6D15680", Offset = "0x6D14680", VA = "0x6D15680", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6000792")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6D052F0", Offset = "0x6D042F0", VA = "0x6D052F0")]
 	protected BaseRaycaster()
 	{
 	}

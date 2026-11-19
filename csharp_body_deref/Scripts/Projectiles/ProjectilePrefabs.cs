@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Projectiles;
 
-[Token(Token = "0x2000103")]
+[Token(Token = "0x2000077")]
 internal class ProjectilePrefabs
 {
-	[Token(Token = "0x40005DD")]
+	[Token(Token = "0x4000242")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Thunderspear;
 
-	[Token(Token = "0x40005DE")]
+	[Token(Token = "0x4000243")]
 	[FieldOffset(Offset = "0x8")]
 	public static string CannonBall;
 
-	[Token(Token = "0x40005DF")]
+	[Token(Token = "0x4000244")]
 	[FieldOffset(Offset = "0x10")]
 	public static string Flare;
 
-	[Token(Token = "0x40005E0")]
+	[Token(Token = "0x4000245")]
 	[FieldOffset(Offset = "0x18")]
 	public static string BladeThrow;
 
-	[Token(Token = "0x40005E1")]
+	[Token(Token = "0x4000246")]
 	[FieldOffset(Offset = "0x20")]
 	public static string SmokeBomb;
 
-	[Token(Token = "0x40005E2")]
+	[Token(Token = "0x4000247")]
 	[FieldOffset(Offset = "0x28")]
 	public static string Rock1;
 
-	[Token(Token = "0x40005E3")]
+	[Token(Token = "0x4000248")]
 	[FieldOffset(Offset = "0x30")]
 	public static string Rock2;
 
-	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000354")]
+	[Address(RVA = "0x5772540", Offset = "0x5771540", VA = "0x5772540")]
 	public ProjectilePrefabs()
 	{
 	}

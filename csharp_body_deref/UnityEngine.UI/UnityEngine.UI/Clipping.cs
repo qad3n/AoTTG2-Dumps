@@ -14,7 +14,7 @@ namespace UnityEngine.UI;
 public static class Clipping
 {
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x3063AF0", Offset = "0x30620F0", VA = "0x183063AF0")]
+	[Address(RVA = "0x6A603C0", Offset = "0x6A5F3C0", VA = "0x6A603C0")]
 	public static Rect FindCullAndClipWorldRect(List<RectMask2D> rectMaskParents, out bool validRect)
 	{
 		return default(Rect);

@@ -50,76 +50,76 @@ public class DebugUIHandlerPanel : MonoBehaviour
 	protected internal DebugUI.Panel m_Panel;
 
 	[Token(Token = "0x600147F")]
-	[Address(RVA = "0x2BAEC50", Offset = "0x2BAD250", VA = "0x182BAEC50")]
+	[Address(RVA = "0x65AA320", Offset = "0x65A9320", VA = "0x65AA320")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6001480")]
-	[Address(RVA = "0x2BAEE80", Offset = "0x2BAD480", VA = "0x182BAEE80")]
+	[Address(RVA = "0x65A52C0", Offset = "0x65A42C0", VA = "0x65A52C0")]
 	internal void SetPanel(DebugUI.Panel panel)
 	{
 	}
 
 	[Token(Token = "0x6001481")]
-	[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+	[Address(RVA = "0x65AA3F0", Offset = "0x65A93F0", VA = "0x65AA3F0")]
 	internal DebugUI.Panel GetPanel()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001482")]
-	[Address(RVA = "0x2BAEDE0", Offset = "0x2BAD3E0", VA = "0x182BAEDE0")]
+	[Address(RVA = "0x65AA400", Offset = "0x65A9400", VA = "0x65AA400")]
 	public void SelectNextItem()
 	{
 	}
 
 	[Token(Token = "0x6001483")]
-	[Address(RVA = "0x2BAEE60", Offset = "0x2BAD460", VA = "0x182BAEE60")]
+	[Address(RVA = "0x65AA460", Offset = "0x65A9460", VA = "0x65AA460")]
 	public void SelectPreviousItem()
 	{
 	}
 
 	[Token(Token = "0x6001484")]
-	[Address(RVA = "0x2BAED20", Offset = "0x2BAD320", VA = "0x182BAED20")]
+	[Address(RVA = "0x65AA4D0", Offset = "0x65A94D0", VA = "0x65AA4D0")]
 	public void OnScrollbarClicked()
 	{
 	}
 
 	[Token(Token = "0x6001485")]
-	[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
+	[Address(RVA = "0x65AA550", Offset = "0x65A9550", VA = "0x65AA550")]
 	internal void SetScrollTarget(DebugUIHandlerWidget target)
 	{
 	}
 
 	[Token(Token = "0x6001486")]
-	[Address(RVA = "0x2BAEED0", Offset = "0x2BAD4D0", VA = "0x182BAEED0")]
+	[Address(RVA = "0x65A47C0", Offset = "0x65A37C0", VA = "0x65A47C0")]
 	internal void UpdateScroll()
 	{
 	}
 
 	[Token(Token = "0x6001487")]
-	[Address(RVA = "0x2BAEAA0", Offset = "0x2BAD0A0", VA = "0x182BAEAA0")]
+	[Address(RVA = "0x65AA560", Offset = "0x65A9560", VA = "0x65AA560")]
 	private float GetYPosInScroll(RectTransform target)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6001488")]
-	[Address(RVA = "0x2BAEA50", Offset = "0x2BAD050", VA = "0x182BAEA50")]
+	[Address(RVA = "0x65A5DC0", Offset = "0x65A4DC0", VA = "0x65A5DC0")]
 	internal DebugUIHandlerWidget GetFirstItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001489")]
-	[Address(RVA = "0x2BAED80", Offset = "0x2BAD380", VA = "0x182BAED80")]
+	[Address(RVA = "0x65AA680", Offset = "0x65A9680", VA = "0x65AA680")]
 	public void ResetDebugManager()
 	{
 	}
 
 	[Token(Token = "0x600148A")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x65AA6F0", Offset = "0x65A96F0", VA = "0x65AA6F0")]
 	public DebugUIHandlerPanel()
 	{
 	}

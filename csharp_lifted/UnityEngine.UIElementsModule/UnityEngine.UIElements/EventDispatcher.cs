@@ -1,0 +1,173 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.EventDispatcher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+using JetBrains.Annotations;
+
+namespace UnityEngine.UIElements;
+
+[Token(Token = "0x20001AB")]
+public sealed class EventDispatcher
+{
+	[Token(Token = "0x20001AC")]
+	private struct EventRecord
+	{
+		[Token(Token = "0x400075E")]
+		[FieldOffset(Offset = "0x0")]
+		public EventBase m_Event;
+
+		[Token(Token = "0x400075F")]
+		[FieldOffset(Offset = "0x8")]
+		public BaseVisualElementPanel m_Panel;
+	}
+
+	[Token(Token = "0x20001AD")]
+	private struct DispatchContext
+	{
+		[Token(Token = "0x4000760")]
+		[FieldOffset(Offset = "0x0")]
+		public uint m_GateCount;
+
+		[Token(Token = "0x4000761")]
+		[FieldOffset(Offset = "0x8")]
+		public Queue<EventRecord> m_Queue;
+	}
+
+	[Token(Token = "0x4000750")]
+	[FieldOffset(Offset = "0x10")]
+	internal ClickDetector m_ClickDetector;
+
+	[Token(Token = "0x4000751")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly ObjectPool<Queue<EventRecord>> k_EventQueuePool;
+
+	[Token(Token = "0x4000752")]
+	[FieldOffset(Offset = "0x18")]
+	private Queue<EventRecord> m_Queue;
+
+	[Token(Token = "0x4000754")]
+	[FieldOffset(Offset = "0x28")]
+	private uint m_GateCount;
+
+	[Token(Token = "0x4000755")]
+	[FieldOffset(Offset = "0x2C")]
+	private uint m_GateDepth;
+
+	[Token(Token = "0x4000756")]
+	internal const int k_MaxGateDepth = 500;
+
+	[Token(Token = "0x4000757")]
+	internal const int k_NumberOfEventsWithStackInfo = 10;
+
+	[Token(Token = "0x4000758")]
+	internal const int k_NumberOfEventsWithEventInfo = 100;
+
+	[Token(Token = "0x4000759")]
+	[FieldOffset(Offset = "0x30")]
+	private int m_DispatchStackFrame;
+
+	[Token(Token = "0x400075A")]
+	[FieldOffset(Offset = "0x38")]
+	private EventBase m_CurrentEvent;
+
+	[Token(Token = "0x400075B")]
+	[FieldOffset(Offset = "0x40")]
+	private Stack<DispatchContext> m_DispatchContexts;
+
+	[Token(Token = "0x400075C")]
+	[FieldOffset(Offset = "0x48")]
+	private bool m_Immediate;
+
+	[Token(Token = "0x1700023E")]
+	internal PointerDispatchState pointerState
+	{
+		[Token(Token = "0x6000BBF")]
+		[Address(RVA = "0x6C5D580", Offset = "0x6C5C580", VA = "0x6C5D580")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700023F")]
+	private bool dispatchImmediately
+	{
+		[Token(Token = "0x6000BC2")]
+		[Address(RVA = "0x6C5D730", Offset = "0x6C5C730", VA = "0x6C5D730")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000240")]
+	private bool processingEvents
+	{
+		[Token(Token = "0x6000BC3")]
+		[Address(RVA = "0x6C5D750", Offset = "0x6C5C750", VA = "0x6C5D750")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6000BC0")]
+	[Address(RVA = "0x6C5D590", Offset = "0x6C5C590", VA = "0x6C5D590")]
+	internal static EventDispatcher CreateDefault()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000BC1")]
+	[Address(RVA = "0x6C5D5D0", Offset = "0x6C5C5D0", VA = "0x6C5D5D0")]
+	[Obsolete("Please use EventDispatcher.CreateDefault().")]
+	internal EventDispatcher()
+	{
+	}
+
+	[Token(Token = "0x6000BC4")]
+	[Address(RVA = "0x6C5D760", Offset = "0x6C5C760", VA = "0x6C5D760")]
+	internal void Dispatch(EventBase evt, [NotNull] BaseVisualElementPanel panel, DispatchMode dispatchMode)
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000BC5")]
+	[Address(RVA = "0x6C5DC80", Offset = "0x6C5CC80", VA = "0x6C5DC80")]
+	private bool HandleRecursiveState(EventBase evt)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000BC6")]
+	[Address(RVA = "0x6C5D340", Offset = "0x6C5C340", VA = "0x6C5D340")]
+	internal void CloseGate()
+	{
+	}
+
+	[Token(Token = "0x6000BC7")]
+	[Address(RVA = "0x6C5D380", Offset = "0x6C5C380", VA = "0x6C5D380")]
+	internal void OpenGate()
+	{
+	}
+
+	[Token(Token = "0x6000BC8")]
+	[Address(RVA = "0x6C5E100", Offset = "0x6C5D100", VA = "0x6C5E100")]
+	private void ProcessEventQueue()
+	{
+	}
+
+	[Token(Token = "0x6000BC9")]
+	[Address(RVA = "0x6C5D9C0", Offset = "0x6C5C9C0", VA = "0x6C5D9C0")]
+	private void ProcessEvent(EventBase evt, [NotNull] BaseVisualElementPanel panel)
+	{
+	}
+}

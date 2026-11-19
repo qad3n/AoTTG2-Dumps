@@ -18,13 +18,13 @@ public class ErrorInfo
 	public readonly string Info;
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x1D14630", Offset = "0x1D12C30", VA = "0x181D14630")]
+	[Address(RVA = "0x56B7260", Offset = "0x56B6260", VA = "0x56B7260")]
 	public ErrorInfo(EventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x1D145F0", Offset = "0x1D12BF0", VA = "0x181D145F0", Slot = "3")]
+	[Address(RVA = "0x56B7F60", Offset = "0x56B6F60", VA = "0x56B7F60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

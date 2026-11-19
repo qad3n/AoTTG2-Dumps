@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004FA")]
+[Token(Token = "0x20004D3")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyKeyFileAttribute : Attribute
 {
-	[Token(Token = "0x40013AF")]
+	[Token(Token = "0x400130F")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CKeyFile_003Ek__BackingField;
 
-	[Token(Token = "0x600245A")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x6002428")]
+	[Address(RVA = "0x53D7890", Offset = "0x53D6890", VA = "0x53D7890")]
 	public AssemblyKeyFileAttribute(string keyFile)
 	{
 	}

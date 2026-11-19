@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CLLinkedPrefabAttribute
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CLLinkedPrefabAttribute.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,16 +12,16 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003EA")]
+[Token(Token = "0x2000449")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = false)]
 [Conditional("UNITY_EDITOR")]
 internal class CLLinkedPrefabAttribute : Attribute
 {
-	[Token(Token = "0x1700028E")]
+	[Token(Token = "0x170002CF")]
 	public string Name
 	{
-		[Token(Token = "0x6001813")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x6001A8A")]
+		[Address(RVA = "0x58A97C0", Offset = "0x58A87C0", VA = "0x58A97C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,11 +29,11 @@ internal class CLLinkedPrefabAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700028F")]
+	[Token(Token = "0x170002D0")]
 	public string Path
 	{
-		[Token(Token = "0x6001814")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6001A8B")]
+		[Address(RVA = "0x58A97D0", Offset = "0x58A87D0", VA = "0x58A97D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,8 +41,8 @@ internal class CLLinkedPrefabAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6001815")]
-	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
+	[Token(Token = "0x6001A8C")]
+	[Address(RVA = "0x58A97E0", Offset = "0x58A87E0", VA = "0x58A97E0")]
 	public CLLinkedPrefabAttribute(string name, string path)
 	{
 	}

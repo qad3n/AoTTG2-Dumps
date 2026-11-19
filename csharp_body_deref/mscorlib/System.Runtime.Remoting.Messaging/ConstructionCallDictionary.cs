@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003D5")]
+[Token(Token = "0x20003AE")]
 internal class ConstructionCallDictionary : System.Runtime.Remoting.Messaging.MessageDictionary
 {
-	[Token(Token = "0x4000F7A")]
+	[Token(Token = "0x4000EDA")]
 	[FieldOffset(Offset = "0x0")]
 	public static string[] InternalKeys;
 
-	[Token(Token = "0x6001EC0")]
-	[Address(RVA = "0x19F4F10", Offset = "0x19F3510", VA = "0x1819F4F10")]
+	[Token(Token = "0x6001E96")]
+	[Address(RVA = "0x53926B0", Offset = "0x53916B0", VA = "0x53926B0")]
 	public ConstructionCallDictionary(IConstructionCallMessage message)
 	{
 	}
 
-	[Token(Token = "0x6001EC1")]
-	[Address(RVA = "0x19F4760", Offset = "0x19F2D60", VA = "0x1819F4760", Slot = "21")]
+	[Token(Token = "0x6001E97")]
+	[Address(RVA = "0x53937E0", Offset = "0x53927E0", VA = "0x53937E0", Slot = "21")]
 	protected override object GetMethodProperty(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001EC2")]
-	[Address(RVA = "0x19F4AA0", Offset = "0x19F30A0", VA = "0x1819F4AA0", Slot = "22")]
+	[Token(Token = "0x6001E98")]
+	[Address(RVA = "0x5394180", Offset = "0x5393180", VA = "0x5394180", Slot = "22")]
 	protected override void SetMethodProperty(string key, object value)
 	{
 	}

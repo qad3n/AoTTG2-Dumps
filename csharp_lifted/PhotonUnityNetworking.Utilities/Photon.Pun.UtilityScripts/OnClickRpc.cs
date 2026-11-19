@@ -1,0 +1,149 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.OnClickRpc
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+namespace Photon.Pun.UtilityScripts;
+
+[Token(Token = "0x200001F")]
+public class OnClickRpc : MonoBehaviourPun, IPointerClickHandler, IEventSystemHandler
+{
+	[Token(Token = "0x2000020")]
+	[CompilerGenerated]
+	private sealed class _003CClickFlash_003Ed__8 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		[Token(Token = "0x4000084")]
+		[FieldOffset(Offset = "0x10")]
+		private int _003C_003E1__state;
+
+		[Token(Token = "0x4000085")]
+		[FieldOffset(Offset = "0x18")]
+		private object _003C_003E2__current;
+
+		[Token(Token = "0x4000086")]
+		[FieldOffset(Offset = "0x20")]
+		public OnClickRpc _003C_003E4__this;
+
+		[Token(Token = "0x4000087")]
+		[FieldOffset(Offset = "0x28")]
+		private bool _003CwasEmissive_003E5__2;
+
+		[Token(Token = "0x4000088")]
+		[FieldOffset(Offset = "0x2C")]
+		private float _003Cf_003E5__3;
+
+		[Token(Token = "0x17000009")]
+		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
+		{
+			[Token(Token = "0x60000AC")]
+			[Address(RVA = "0x56F4DB0", Offset = "0x56F3DB0", VA = "0x56F4DB0", Slot = "4")]
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x1700000A")]
+		private object System_002ECollections_002EIEnumerator_002ECurrent
+		{
+			[Token(Token = "0x60000AE")]
+			[Address(RVA = "0x56F4E00", Offset = "0x56F3E00", VA = "0x56F4E00", Slot = "7")]
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x60000A9")]
+		[Address(RVA = "0x56F4A60", Offset = "0x56F3A60", VA = "0x56F4A60")]
+		[DebuggerHidden]
+		public _003CClickFlash_003Ed__8(int _003C_003E1__state)
+		{
+		}
+
+		[Token(Token = "0x60000AA")]
+		[Address(RVA = "0x56F4A90", Offset = "0x56F3A90", VA = "0x56F4A90", Slot = "5")]
+		[DebuggerHidden]
+		private void System_002EIDisposable_002EDispose()
+		{
+		}
+
+		[Token(Token = "0x60000AB")]
+		[Address(RVA = "0x56F4AA0", Offset = "0x56F3AA0", VA = "0x56F4AA0", Slot = "6")]
+		private bool MoveNext()
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x60000AD")]
+		[Address(RVA = "0x56F4DC0", Offset = "0x56F3DC0", VA = "0x56F4DC0", Slot = "8")]
+		[DebuggerHidden]
+		private void System_002ECollections_002EIEnumerator_002EReset()
+		{
+		}
+	}
+
+	[Token(Token = "0x400007E")]
+	[FieldOffset(Offset = "0x28")]
+	public PointerEventData.InputButton Button;
+
+	[Token(Token = "0x400007F")]
+	[FieldOffset(Offset = "0x2C")]
+	public KeyCode ModifierKey;
+
+	[Token(Token = "0x4000080")]
+	[FieldOffset(Offset = "0x30")]
+	public RpcTarget Target;
+
+	[Token(Token = "0x4000081")]
+	[FieldOffset(Offset = "0x38")]
+	private Material originalMaterial;
+
+	[Token(Token = "0x4000082")]
+	[FieldOffset(Offset = "0x40")]
+	private Color originalColor;
+
+	[Token(Token = "0x4000083")]
+	[FieldOffset(Offset = "0x50")]
+	private bool isFlashing;
+
+	[Token(Token = "0x60000A5")]
+	[Address(RVA = "0x56F4800", Offset = "0x56F3800", VA = "0x56F4800", Slot = "4")]
+	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
+	{
+	}
+
+	[Token(Token = "0x60000A6")]
+	[Address(RVA = "0x56F4980", Offset = "0x56F3980", VA = "0x56F4980")]
+	[PunRPC]
+	public void ClickRpc()
+	{
+	}
+
+	[Token(Token = "0x60000A7")]
+	[Address(RVA = "0x56F49F0", Offset = "0x56F39F0", VA = "0x56F49F0")]
+	[IteratorStateMachine(typeof(_003CClickFlash_003Ed__8))]
+	public IEnumerator ClickFlash()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60000A8")]
+	[Address(RVA = "0x56F4A80", Offset = "0x56F3A80", VA = "0x56F4A80")]
+	public OnClickRpc()
+	{
+	}
+}

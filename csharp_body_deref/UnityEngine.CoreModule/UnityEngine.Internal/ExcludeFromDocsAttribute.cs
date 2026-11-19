@@ -14,8 +14,8 @@ namespace UnityEngine.Internal;
 [Token(Token = "0x20002FC")]
 public class ExcludeFromDocsAttribute : Attribute
 {
-	[Token(Token = "0x6001218")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x600122C")]
+	[Address(RVA = "0x693A990", Offset = "0x6939990", VA = "0x693A990")]
 	public ExcludeFromDocsAttribute()
 	{
 	}

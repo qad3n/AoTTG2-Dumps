@@ -20,19 +20,19 @@ public class TypeInferenceRuleAttribute : Attribute
 	private readonly string _rule;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x2ED6260", Offset = "0x2ED4860", VA = "0x182ED6260")]
+	[Address(RVA = "0x68B2AD0", Offset = "0x68B1AD0", VA = "0x68B2AD0")]
 	public TypeInferenceRuleAttribute(TypeInferenceRules rule)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Address(RVA = "0x68B2B50", Offset = "0x68B1B50", VA = "0x68B2B50")]
 	public TypeInferenceRuleAttribute(string rule)
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0", Slot = "3")]
+	[Address(RVA = "0x68B2B80", Offset = "0x68B1B80", VA = "0x68B2B80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

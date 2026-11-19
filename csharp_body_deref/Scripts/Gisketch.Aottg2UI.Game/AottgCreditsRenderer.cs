@@ -13,80 +13,80 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001E4")]
+[Token(Token = "0x20001FE")]
 internal static class AottgCreditsRenderer
 {
-	[Token(Token = "0x4000A37")]
+	[Token(Token = "0x4000AB0")]
 	private const string InfoIcon = "UI/Icons/info-circle";
 
-	[Token(Token = "0x4000A38")]
+	[Token(Token = "0x4000AB1")]
 	private const float GroupTopGap = 8f;
 
-	[Token(Token = "0x4000A39")]
+	[Token(Token = "0x4000AB2")]
 	private const float ContributorCellWidthPercent = 32f;
 
-	[Token(Token = "0x4000A3A")]
+	[Token(Token = "0x4000AB3")]
 	private const float ContributorCellHeight = 36f;
 
-	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x23A8800", Offset = "0x23A6E00", VA = "0x1823A8800")]
+	[Token(Token = "0x6000BE3")]
+	[Address(RVA = "0x5D80210", Offset = "0x5D7F210", VA = "0x5D80210")]
 	public static void BuildCategory(AottgUi content, AottgCreditCategory category, int categoryIndex, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000B20")]
-	[Address(RVA = "0x23A9640", Offset = "0x23A7C40", VA = "0x1823A9640")]
+	[Token(Token = "0x6000BE4")]
+	[Address(RVA = "0x5D80AF0", Offset = "0x5D7FAF0", VA = "0x5D80AF0")]
 	private static void BuildGroup(AottgUi content, AottgCreditGroup group, string id)
 	{
 	}
 
-	[Token(Token = "0x6000B21")]
-	[Address(RVA = "0x23A9140", Offset = "0x23A7740", VA = "0x1823A9140")]
+	[Token(Token = "0x6000BE5")]
+	[Address(RVA = "0x5D80810", Offset = "0x5D7F810", VA = "0x5D80810")]
 	private static void BuildContributors(AottgUi content, IReadOnlyList<AottgCreditContributor> contributors, string id)
 	{
 	}
 
-	[Token(Token = "0x6000B22")]
-	[Address(RVA = "0x23A8E90", Offset = "0x23A7490", VA = "0x1823A8E90")]
+	[Token(Token = "0x6000BE6")]
+	[Address(RVA = "0x5D80FF0", Offset = "0x5D7FFF0", VA = "0x5D80FF0")]
 	private static void BuildContributor(AottgUi grid, AottgCreditContributor contributor, string id)
 	{
 	}
 
-	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x23A9A90", Offset = "0x23A8090", VA = "0x1823A9A90")]
+	[Token(Token = "0x6000BE7")]
+	[Address(RVA = "0x5D81240", Offset = "0x5D80240", VA = "0x5D81240")]
 	private static GisketchNodeDefinition[] ContributorChildren(AottgCreditContributor contributor, string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x23A9950", Offset = "0x23A7F50", VA = "0x1823A9950")]
+	[Token(Token = "0x6000BE8")]
+	[Address(RVA = "0x5D81140", Offset = "0x5D80140", VA = "0x5D81140")]
 	private static GisketchLayoutDefinition ContributorCellLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B25")]
-	[Address(RVA = "0x23A9330", Offset = "0x23A7930", VA = "0x1823A9330")]
-	private static void BuildEmpty(AottgUi content, string id, string textKey, string text)
+	[Token(Token = "0x6000BE9")]
+	[Address(RVA = "0x5D80E30", Offset = "0x5D7FE30", VA = "0x5D80E30")]
+	private static void BuildEmpty(AottgUi content, string id, string textKey)
 	{
 	}
 
-	[Token(Token = "0x6000B26")]
-	[Address(RVA = "0x23A9500", Offset = "0x23A7B00", VA = "0x1823A9500")]
+	[Token(Token = "0x6000BEA")]
+	[Address(RVA = "0x5D809E0", Offset = "0x5D7F9E0", VA = "0x5D809E0")]
 	private static void BuildGap(AottgUi content, string id)
 	{
 	}
 
-	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x23AA150", Offset = "0x23A8750", VA = "0x1823AA150")]
+	[Token(Token = "0x6000BEB")]
+	[Address(RVA = "0x5D816C0", Offset = "0x5D806C0", VA = "0x5D816C0")]
 	public static string SectionId(string name, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B28")]
-	[Address(RVA = "0x23A9FA0", Offset = "0x23A85A0", VA = "0x1823A9FA0")]
+	[Token(Token = "0x6000BEC")]
+	[Address(RVA = "0x5D81770", Offset = "0x5D80770", VA = "0x5D81770")]
 	private static string SafeId(string value)
 	{
 		return null;

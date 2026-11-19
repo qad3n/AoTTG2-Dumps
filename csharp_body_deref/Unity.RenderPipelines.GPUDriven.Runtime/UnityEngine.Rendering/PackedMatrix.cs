@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.PackedMatrix
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -26,14 +26,14 @@ internal struct PackedMatrix
 	public float4 packed2;
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x2BE7D90", Offset = "0x2BE6390", VA = "0x182BE7D90")]
+	[Address(RVA = "0x65DAC30", Offset = "0x65D9C30", VA = "0x65DAC30")]
 	public static PackedMatrix FromMatrix4x4(in Matrix4x4 m)
 	{
 		return default(PackedMatrix);
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x2BE7D90", Offset = "0x2BE6390", VA = "0x182BE7D90")]
+	[Address(RVA = "0x65DAC80", Offset = "0x65D9C80", VA = "0x65DAC80")]
 	public static PackedMatrix FromFloat4x4(in float4x4 m)
 	{
 		return default(PackedMatrix);

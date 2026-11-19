@@ -16,13 +16,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnEndDragMessageListener : MessageListener, IEndDragHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x2DBDF60", Offset = "0x2DBC560", VA = "0x182DBDF60", Slot = "4")]
+	[Address(RVA = "0x67A6230", Offset = "0x67A5230", VA = "0x67A6230", Slot = "4")]
 	public void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A62C0", Offset = "0x67A52C0", VA = "0x67A62C0")]
 	public UnityOnEndDragMessageListener()
 	{
 	}

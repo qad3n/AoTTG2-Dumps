@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x20003A1")]
+[Token(Token = "0x200035D")]
 public enum SmtpDeliveryMethod
 {
-	[Token(Token = "0x4000FCB")]
+	[Token(Token = "0x4000EE3")]
 	Network,
-	[Token(Token = "0x4000FCC")]
+	[Token(Token = "0x4000EE4")]
 	SpecifiedPickupDirectory,
-	[Token(Token = "0x4000FCD")]
+	[Token(Token = "0x4000EE5")]
 	PickupDirectoryFromIis
 }

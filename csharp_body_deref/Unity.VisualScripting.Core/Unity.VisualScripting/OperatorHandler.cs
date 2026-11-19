@@ -17,7 +17,7 @@ public abstract class OperatorHandler
 	public string name
 	{
 		[Token(Token = "0x6000C32")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x681A6F0", Offset = "0x68196F0", VA = "0x681A6F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,7 +29,7 @@ public abstract class OperatorHandler
 	public string verb
 	{
 		[Token(Token = "0x6000C33")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x681A700", Offset = "0x6819700", VA = "0x681A700")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +41,7 @@ public abstract class OperatorHandler
 	public string symbol
 	{
 		[Token(Token = "0x6000C34")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x681A710", Offset = "0x6819710", VA = "0x681A710")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +53,7 @@ public abstract class OperatorHandler
 	public string customMethodName
 	{
 		[Token(Token = "0x6000C35")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x681A720", Offset = "0x6819720", VA = "0x681A720")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,7 +62,7 @@ public abstract class OperatorHandler
 	}
 
 	[Token(Token = "0x6000C31")]
-	[Address(RVA = "0x2E1A8D0", Offset = "0x2E18ED0", VA = "0x182E1A8D0")]
+	[Address(RVA = "0x681A5B0", Offset = "0x68195B0", VA = "0x681A5B0")]
 	protected OperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}

@@ -12,423 +12,423 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20002F3")]
+[Token(Token = "0x20002B4")]
 public sealed class Cookie
 {
-	[Token(Token = "0x4000B3B")]
+	[Token(Token = "0x4000A6C")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly char[] PortSplitDelimiters;
 
-	[Token(Token = "0x4000B3C")]
+	[Token(Token = "0x4000A6D")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly char[] Reserved2Name;
 
-	[Token(Token = "0x4000B3D")]
+	[Token(Token = "0x4000A6E")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly char[] Reserved2Value;
 
-	[Token(Token = "0x4000B3E")]
+	[Token(Token = "0x4000A6F")]
 	[FieldOffset(Offset = "0x18")]
 	private static Comparer staticComparer;
 
-	[Token(Token = "0x4000B3F")]
+	[Token(Token = "0x4000A70")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_comment;
 
-	[Token(Token = "0x4000B40")]
+	[Token(Token = "0x4000A71")]
 	[FieldOffset(Offset = "0x18")]
 	private Uri m_commentUri;
 
-	[Token(Token = "0x4000B41")]
+	[Token(Token = "0x4000A72")]
 	[FieldOffset(Offset = "0x20")]
 	private CookieVariant m_cookieVariant;
 
-	[Token(Token = "0x4000B42")]
+	[Token(Token = "0x4000A73")]
 	[FieldOffset(Offset = "0x24")]
 	private bool m_discard;
 
-	[Token(Token = "0x4000B43")]
+	[Token(Token = "0x4000A74")]
 	[FieldOffset(Offset = "0x28")]
 	private string m_domain;
 
-	[Token(Token = "0x4000B44")]
+	[Token(Token = "0x4000A75")]
 	[FieldOffset(Offset = "0x30")]
 	private bool m_domain_implicit;
 
-	[Token(Token = "0x4000B45")]
+	[Token(Token = "0x4000A76")]
 	[FieldOffset(Offset = "0x38")]
 	private DateTime m_expires;
 
-	[Token(Token = "0x4000B46")]
+	[Token(Token = "0x4000A77")]
 	[FieldOffset(Offset = "0x40")]
 	private string m_name;
 
-	[Token(Token = "0x4000B47")]
+	[Token(Token = "0x4000A78")]
 	[FieldOffset(Offset = "0x48")]
 	private string m_path;
 
-	[Token(Token = "0x4000B48")]
+	[Token(Token = "0x4000A79")]
 	[FieldOffset(Offset = "0x50")]
 	private bool m_path_implicit;
 
-	[Token(Token = "0x4000B49")]
+	[Token(Token = "0x4000A7A")]
 	[FieldOffset(Offset = "0x58")]
 	private string m_port;
 
-	[Token(Token = "0x4000B4A")]
+	[Token(Token = "0x4000A7B")]
 	[FieldOffset(Offset = "0x60")]
 	private bool m_port_implicit;
 
-	[Token(Token = "0x4000B4B")]
+	[Token(Token = "0x4000A7C")]
 	[FieldOffset(Offset = "0x68")]
 	private int[] m_port_list;
 
-	[Token(Token = "0x4000B4C")]
+	[Token(Token = "0x4000A7D")]
 	[FieldOffset(Offset = "0x70")]
 	private bool m_secure;
 
-	[Token(Token = "0x4000B4D")]
+	[Token(Token = "0x4000A7E")]
 	[FieldOffset(Offset = "0x71")]
 	[OptionalField]
 	private bool m_httpOnly;
 
-	[Token(Token = "0x4000B4E")]
+	[Token(Token = "0x4000A7F")]
 	[FieldOffset(Offset = "0x78")]
 	private DateTime m_timeStamp;
 
-	[Token(Token = "0x4000B4F")]
+	[Token(Token = "0x4000A80")]
 	[FieldOffset(Offset = "0x80")]
 	private string m_value;
 
-	[Token(Token = "0x4000B50")]
+	[Token(Token = "0x4000A81")]
 	[FieldOffset(Offset = "0x88")]
 	private int m_version;
 
-	[Token(Token = "0x4000B51")]
+	[Token(Token = "0x4000A82")]
 	[FieldOffset(Offset = "0x90")]
 	private string m_domainKey;
 
-	[Token(Token = "0x4000B52")]
+	[Token(Token = "0x4000A83")]
 	[FieldOffset(Offset = "0x98")]
 	internal bool IsQuotedVersion;
 
-	[Token(Token = "0x4000B53")]
+	[Token(Token = "0x4000A84")]
 	[FieldOffset(Offset = "0x99")]
 	internal bool IsQuotedDomain;
 
-	[Token(Token = "0x1700043E")]
+	[Token(Token = "0x1700040F")]
 	public string Comment
 	{
-		[Token(Token = "0x600146D")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60012AF")]
+		[Address(RVA = "0x62B2870", Offset = "0x62B1870", VA = "0x62B2870")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600146E")]
-		[Address(RVA = "0x24EE510", Offset = "0x24ECB10", VA = "0x1824EE510")]
+		[Token(Token = "0x60012B0")]
+		[Address(RVA = "0x62B2880", Offset = "0x62B1880", VA = "0x62B2880")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700043F")]
+	[Token(Token = "0x17000410")]
 	public Uri CommentUri
 	{
-		[Token(Token = "0x600146F")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x60012B1")]
+		[Address(RVA = "0x62B28C0", Offset = "0x62B18C0", VA = "0x62B28C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000440")]
+	[Token(Token = "0x17000411")]
 	public bool HttpOnly
 	{
-		[Token(Token = "0x6001470")]
-		[Address(RVA = "0x1BD40B0", Offset = "0x1BD26B0", VA = "0x181BD40B0")]
+		[Token(Token = "0x60012B2")]
+		[Address(RVA = "0x62B28D0", Offset = "0x62B18D0", VA = "0x62B28D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000441")]
+	[Token(Token = "0x17000412")]
 	public bool Discard
 	{
-		[Token(Token = "0x6001471")]
-		[Address(RVA = "0x584290", Offset = "0x582890", VA = "0x180584290")]
+		[Token(Token = "0x60012B3")]
+		[Address(RVA = "0x62B28E0", Offset = "0x62B18E0", VA = "0x62B28E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000442")]
+	[Token(Token = "0x17000413")]
 	public string Domain
 	{
-		[Token(Token = "0x6001472")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x60012B4")]
+		[Address(RVA = "0x62B28F0", Offset = "0x62B18F0", VA = "0x62B28F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001473")]
-		[Address(RVA = "0x27C8AF0", Offset = "0x27C70F0", VA = "0x1827C8AF0")]
+		[Token(Token = "0x60012B5")]
+		[Address(RVA = "0x62B2900", Offset = "0x62B1900", VA = "0x62B2900")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000443")]
+	[Token(Token = "0x17000414")]
 	private string _Domain
 	{
-		[Token(Token = "0x6001474")]
-		[Address(RVA = "0x27C8800", Offset = "0x27C6E00", VA = "0x1827C8800")]
+		[Token(Token = "0x60012B6")]
+		[Address(RVA = "0x62B2970", Offset = "0x62B1970", VA = "0x62B2970")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000444")]
+	[Token(Token = "0x17000415")]
 	public bool Expired
 	{
-		[Token(Token = "0x6001475")]
-		[Address(RVA = "0x27C8740", Offset = "0x27C6D40", VA = "0x1827C8740")]
+		[Token(Token = "0x60012B7")]
+		[Address(RVA = "0x62B2A30", Offset = "0x62B1A30", VA = "0x62B2A30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000445")]
+	[Token(Token = "0x17000416")]
 	public DateTime Expires
 	{
-		[Token(Token = "0x6001476")]
-		[Address(RVA = "0x16EF920", Offset = "0x16EDF20", VA = "0x1816EF920")]
+		[Token(Token = "0x60012B8")]
+		[Address(RVA = "0x62B2AD0", Offset = "0x62B1AD0", VA = "0x62B2AD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000446")]
+	[Token(Token = "0x17000417")]
 	public string Name
 	{
-		[Token(Token = "0x6001477")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x60012B9")]
+		[Address(RVA = "0x62B2AE0", Offset = "0x62B1AE0", VA = "0x62B2AE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000447")]
+	[Token(Token = "0x17000418")]
 	public string Path
 	{
-		[Token(Token = "0x6001479")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x60012BB")]
+		[Address(RVA = "0x62B2C00", Offset = "0x62B1C00", VA = "0x62B2C00")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600147A")]
-		[Address(RVA = "0x27C8B60", Offset = "0x27C7160", VA = "0x1827C8B60")]
+		[Token(Token = "0x60012BC")]
+		[Address(RVA = "0x62B2C10", Offset = "0x62B1C10", VA = "0x62B2C10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000448")]
+	[Token(Token = "0x17000419")]
 	private string _Path
 	{
-		[Token(Token = "0x600147B")]
-		[Address(RVA = "0x27C88D0", Offset = "0x27C6ED0", VA = "0x1827C88D0")]
+		[Token(Token = "0x60012BD")]
+		[Address(RVA = "0x62B2C50", Offset = "0x62B1C50", VA = "0x62B2C50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000449")]
+	[Token(Token = "0x1700041A")]
 	internal bool Plain
 	{
-		[Token(Token = "0x600147C")]
-		[Address(RVA = "0x2736BA0", Offset = "0x27351A0", VA = "0x182736BA0")]
+		[Token(Token = "0x60012BE")]
+		[Address(RVA = "0x62B2A20", Offset = "0x62B1A20", VA = "0x62B2A20")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700044A")]
+	[Token(Token = "0x1700041B")]
 	public string Port
 	{
-		[Token(Token = "0x6001480")]
-		[Address(RVA = "0x27C8BB0", Offset = "0x27C71B0", VA = "0x1827C8BB0")]
+		[Token(Token = "0x60012C2")]
+		[Address(RVA = "0x62B3910", Offset = "0x62B2910", VA = "0x62B3910")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700044B")]
+	[Token(Token = "0x1700041C")]
 	internal int[] PortList
 	{
-		[Token(Token = "0x6001481")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Token(Token = "0x60012C3")]
+		[Address(RVA = "0x62B3D50", Offset = "0x62B2D50", VA = "0x62B3D50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700044C")]
+	[Token(Token = "0x1700041D")]
 	private string _Port
 	{
-		[Token(Token = "0x6001482")]
-		[Address(RVA = "0x27C8950", Offset = "0x27C6F50", VA = "0x1827C8950")]
+		[Token(Token = "0x60012C4")]
+		[Address(RVA = "0x62B3D60", Offset = "0x62B2D60", VA = "0x62B3D60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700044D")]
+	[Token(Token = "0x1700041E")]
 	public bool Secure
 	{
-		[Token(Token = "0x6001483")]
-		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
+		[Token(Token = "0x60012C5")]
+		[Address(RVA = "0x62B3E10", Offset = "0x62B2E10", VA = "0x62B3E10")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001484")]
-		[Address(RVA = "0xABD3A0", Offset = "0xABB9A0", VA = "0x180ABD3A0")]
+		[Token(Token = "0x60012C6")]
+		[Address(RVA = "0x62B3E20", Offset = "0x62B2E20", VA = "0x62B3E20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700044E")]
+	[Token(Token = "0x1700041F")]
 	public string Value
 	{
-		[Token(Token = "0x6001485")]
-		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
+		[Token(Token = "0x60012C7")]
+		[Address(RVA = "0x62B3E30", Offset = "0x62B2E30", VA = "0x62B3E30")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001486")]
-		[Address(RVA = "0x27C9070", Offset = "0x27C7670", VA = "0x1827C9070")]
+		[Token(Token = "0x60012C8")]
+		[Address(RVA = "0x62B3E40", Offset = "0x62B2E40", VA = "0x62B3E40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700044F")]
+	[Token(Token = "0x17000420")]
 	internal CookieVariant Variant
 	{
-		[Token(Token = "0x6001487")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Token(Token = "0x60012C9")]
+		[Address(RVA = "0x62B3E80", Offset = "0x62B2E80", VA = "0x62B3E80")]
 		get
 		{
 			return default(CookieVariant);
 		}
 	}
 
-	[Token(Token = "0x17000450")]
+	[Token(Token = "0x17000421")]
 	internal string DomainKey
 	{
-		[Token(Token = "0x6001488")]
-		[Address(RVA = "0x27C8720", Offset = "0x27C6D20", VA = "0x1827C8720")]
+		[Token(Token = "0x60012CA")]
+		[Address(RVA = "0x62B3E90", Offset = "0x62B2E90", VA = "0x62B3E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000451")]
+	[Token(Token = "0x17000422")]
 	public int Version
 	{
-		[Token(Token = "0x6001489")]
-		[Address(RVA = "0xA4D4B0", Offset = "0xA4BAB0", VA = "0x180A4D4B0")]
+		[Token(Token = "0x60012CB")]
+		[Address(RVA = "0x62B3EB0", Offset = "0x62B2EB0", VA = "0x62B3EB0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600148A")]
-		[Address(RVA = "0x27C90B0", Offset = "0x27C76B0", VA = "0x1827C90B0")]
+		[Token(Token = "0x60012CC")]
+		[Address(RVA = "0x62B3EC0", Offset = "0x62B2EC0", VA = "0x62B3EC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000452")]
+	[Token(Token = "0x17000423")]
 	private string _Version
 	{
-		[Token(Token = "0x600148B")]
-		[Address(RVA = "0x27C8A00", Offset = "0x27C7000", VA = "0x1827C8A00")]
+		[Token(Token = "0x60012CD")]
+		[Address(RVA = "0x62B3F30", Offset = "0x62B2F30", VA = "0x62B3F30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600146C")]
-	[Address(RVA = "0x27C85C0", Offset = "0x27C6BC0", VA = "0x1827C85C0")]
+	[Token(Token = "0x60012AE")]
+	[Address(RVA = "0x62B2710", Offset = "0x62B1710", VA = "0x62B2710")]
 	public Cookie()
 	{
 	}
 
-	[Token(Token = "0x6001478")]
-	[Address(RVA = "0x27C6DB0", Offset = "0x27C53B0", VA = "0x1827C6DB0")]
+	[Token(Token = "0x60012BA")]
+	[Address(RVA = "0x62B2AF0", Offset = "0x62B1AF0", VA = "0x62B2AF0")]
 	internal bool InternalSetName(string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600147D")]
-	[Address(RVA = "0x27C6EA0", Offset = "0x27C54A0", VA = "0x1827C6EA0")]
+	[Token(Token = "0x60012BF")]
+	[Address(RVA = "0x62B2CC0", Offset = "0x62B1CC0", VA = "0x62B2CC0")]
 	private static bool IsDomainEqualToHost(string domain, string host)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600147E")]
-	[Address(RVA = "0x27C73D0", Offset = "0x27C59D0", VA = "0x1827C73D0")]
+	[Token(Token = "0x60012C0")]
+	[Address(RVA = "0x62B2D10", Offset = "0x62B1D10", VA = "0x62B2D10")]
 	internal bool VerifySetDefaults(CookieVariant variant, Uri uri, bool isLocalDomain, string localDomain, bool set_default, bool isThrow)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600147F")]
-	[Address(RVA = "0x27C6A00", Offset = "0x27C5000", VA = "0x1827C6A00")]
+	[Token(Token = "0x60012C1")]
+	[Address(RVA = "0x62B3800", Offset = "0x62B2800", VA = "0x62B3800")]
 	private static bool DomainCharsTest(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600148C")]
-	[Address(RVA = "0x27C6BA0", Offset = "0x27C51A0", VA = "0x1827C6BA0")]
+	[Token(Token = "0x60012CE")]
+	[Address(RVA = "0x62B4020", Offset = "0x62B3020", VA = "0x62B4020")]
 	internal static IComparer GetComparer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600148D")]
-	[Address(RVA = "0x27C6A90", Offset = "0x27C5090", VA = "0x1827C6A90", Slot = "0")]
+	[Token(Token = "0x60012CF")]
+	[Address(RVA = "0x62B4090", Offset = "0x62B3090", VA = "0x62B4090", Slot = "0")]
 	public override bool Equals(object comparand)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600148E")]
-	[Address(RVA = "0x27C6BF0", Offset = "0x27C51F0", VA = "0x1827C6BF0", Slot = "2")]
+	[Token(Token = "0x60012D0")]
+	[Address(RVA = "0x62B4160", Offset = "0x62B3160", VA = "0x62B4160", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600148F")]
-	[Address(RVA = "0x27C6F00", Offset = "0x27C5500", VA = "0x1827C6F00", Slot = "3")]
+	[Token(Token = "0x60012D1")]
+	[Address(RVA = "0x62B4330", Offset = "0x62B3330", VA = "0x62B4330", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -19,14 +19,14 @@ public class DisableAnnotationAttribute : Attribute
 	public bool disableIcon
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
+		[Address(RVA = "0x6792870", Offset = "0x6791870", VA = "0x6792870")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
+		[Address(RVA = "0x6792880", Offset = "0x6791880", VA = "0x6792880")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,14 +37,14 @@ public class DisableAnnotationAttribute : Attribute
 	public bool disableGizmo
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
+		[Address(RVA = "0x6792890", Offset = "0x6791890", VA = "0x6792890")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
+		[Address(RVA = "0x67928A0", Offset = "0x67918A0", VA = "0x67928A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -52,7 +52,7 @@ public class DisableAnnotationAttribute : Attribute
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x2DA2A00", Offset = "0x2DA1000", VA = "0x182DA2A00")]
+	[Address(RVA = "0x67928B0", Offset = "0x67918B0", VA = "0x67928B0")]
 	public DisableAnnotationAttribute()
 	{
 	}

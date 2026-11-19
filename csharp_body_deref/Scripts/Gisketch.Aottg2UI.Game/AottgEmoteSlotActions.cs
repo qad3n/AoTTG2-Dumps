@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001BE")]
+[Token(Token = "0x20001D1")]
 internal static class AottgEmoteSlotActions
 {
-	[Token(Token = "0x400093C")]
+	[Token(Token = "0x40009A3")]
 	[FieldOffset(Offset = "0x0")]
 	public static Action<GisketchActionContext, string> SaveSticker;
 }

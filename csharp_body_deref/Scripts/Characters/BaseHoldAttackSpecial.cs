@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000676")]
+[Token(Token = "0x20006D5")]
 internal class BaseHoldAttackSpecial : HoldUseable
 {
-	[Token(Token = "0x4001EA8")]
+	[Token(Token = "0x4002056")]
 	[FieldOffset(Offset = "0x40")]
 	protected Human _human;
 
-	[Token(Token = "0x4001EA9")]
+	[Token(Token = "0x4002057")]
 	[FieldOffset(Offset = "0x48")]
 	protected bool _keyIsReset;
 
-	[Token(Token = "0x17000B1A")]
+	[Token(Token = "0x17000B64")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6003FF9")]
-		[Address(RVA = "0x20A7610", Offset = "0x20A5C10", VA = "0x1820A7610", Slot = "14")]
+		[Token(Token = "0x6004291")]
+		[Address(RVA = "0x5B08EB0", Offset = "0x5B07EB0", VA = "0x5B08EB0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003FFA")]
-	[Address(RVA = "0x2167160", Offset = "0x2165760", VA = "0x182167160")]
+	[Token(Token = "0x6004292")]
+	[Address(RVA = "0x5B08EC0", Offset = "0x5B07EC0", VA = "0x5B08EC0")]
 	public BaseHoldAttackSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003FFB")]
-	[Address(RVA = "0x21670A0", Offset = "0x21656A0", VA = "0x1821670A0", Slot = "12")]
+	[Token(Token = "0x6004293")]
+	[Address(RVA = "0x5B08F70", Offset = "0x5B07F70", VA = "0x5B08F70", Slot = "12")]
 	public override void SetInput(bool key)
 	{
 	}
 
-	[Token(Token = "0x6003FFC")]
-	[Address(RVA = "0x2167090", Offset = "0x2165690", VA = "0x182167090", Slot = "6")]
+	[Token(Token = "0x6004294")]
+	[Address(RVA = "0x5B09020", Offset = "0x5B08020", VA = "0x5B09020", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003FFD")]
-	[Address(RVA = "0x2166E10", Offset = "0x2165410", VA = "0x182166E10", Slot = "10")]
+	[Token(Token = "0x6004295")]
+	[Address(RVA = "0x5B09030", Offset = "0x5B08030", VA = "0x5B09030", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

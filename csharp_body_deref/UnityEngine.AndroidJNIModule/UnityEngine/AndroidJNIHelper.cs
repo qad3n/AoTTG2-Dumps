@@ -13,108 +13,108 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x2000003")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/AndroidJNI/Public/AndroidJNIBindingsHelpers.h")]
 [UnityEngine.Bindings.StaticAccessor("AndroidJNIBindingsHelpers", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeConditional("PLATFORM_ANDROID")]
 public static class AndroidJNIHelper
 {
-	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x2E9B1F0", Offset = "0x2E997F0", VA = "0x182E9B1F0")]
+	[Token(Token = "0x6000001")]
+	[Address(RVA = "0x68963E0", Offset = "0x68953E0", VA = "0x68963E0")]
 	public static IntPtr GetConstructorID(IntPtr javaClass, [DefaultValue("")] string signature)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x2E9B3A0", Offset = "0x2E999A0", VA = "0x182E9B3A0")]
+	[Token(Token = "0x6000002")]
+	[Address(RVA = "0x6896610", Offset = "0x6895610", VA = "0x6896610")]
 	public static IntPtr GetMethodID(IntPtr javaClass, string methodName, [DefaultValue("")] string signature, [DefaultValue("false")] bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2E9B250", Offset = "0x2E99850", VA = "0x182E9B250")]
+	[Token(Token = "0x6000003")]
+	[Address(RVA = "0x6896880", Offset = "0x6895880", VA = "0x6896880")]
 	public static IntPtr GetFieldID(IntPtr javaClass, string fieldName, [DefaultValue("")] string signature, [DefaultValue("false")] bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2E9AE70", Offset = "0x2E99470", VA = "0x182E9AE70")]
+	[Token(Token = "0x6000004")]
+	[Address(RVA = "0x6896C10", Offset = "0x6895C10", VA = "0x6896C10")]
 	public static IntPtr CreateJavaRunnable(AndroidJavaRunnable jrunnable)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x2E9AC10", Offset = "0x2E99210", VA = "0x182E9AC10")]
+	[Token(Token = "0x6000005")]
+	[Address(RVA = "0x6896D10", Offset = "0x6895D10", VA = "0x6896D10")]
 	public static IntPtr CreateJavaProxy(AndroidJavaProxy proxy)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x2E9AAD0", Offset = "0x2E990D0", VA = "0x182E9AAD0")]
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x6896F40", Offset = "0x6895F40", VA = "0x6896F40")]
 	public static void CreateJNIArgArray(object[] args, Span<jvalue> jniArgs)
 	{
 	}
 
-	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x2E9AFA0", Offset = "0x2E995A0", VA = "0x182E9AFA0")]
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x68976E0", Offset = "0x68966E0", VA = "0x68976E0")]
 	public static void DeleteJNIArgArray(object[] args, Span<jvalue> jniArgs)
 	{
 	}
 
-	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x2E9B120", Offset = "0x2E99720", VA = "0x182E9B120")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x6897890", Offset = "0x6896890", VA = "0x6897890")]
 	public static IntPtr GetConstructorID(IntPtr jclass, object[] args)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x2E9B2C0", Offset = "0x2E998C0", VA = "0x182E9B2C0")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x6897970", Offset = "0x6896970", VA = "0x6897970")]
 	public static IntPtr GetMethodID(IntPtr jclass, string methodName, object[] args, bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000063")]
+	[Token(Token = "0x600000A")]
 	public static ArrayType ConvertFromJNIArray<ArrayType>(IntPtr array)
 	{
 		return (ArrayType)null;
 	}
 
-	[Token(Token = "0x6000064")]
+	[Token(Token = "0x600000B")]
 	public static IntPtr GetMethodID<ReturnType>(IntPtr jclass, string methodName, object[] args, bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000065")]
+	[Token(Token = "0x600000C")]
 	public static IntPtr GetFieldID<FieldType>(IntPtr jclass, string fieldName, bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x2E9A9B0", Offset = "0x2E98FB0", VA = "0x182E9A9B0")]
+	[Token(Token = "0x600000D")]
+	[Address(RVA = "0x6897A80", Offset = "0x6896A80", VA = "0x6897A80")]
 	private static IntPtr Box(jvalue val, string boxedClass, string signature)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x2E9A8F0", Offset = "0x2E98EF0", VA = "0x182E9A8F0")]
+	[Token(Token = "0x600000E")]
+	[Address(RVA = "0x6897D90", Offset = "0x6896D90", VA = "0x6897D90")]
 	public static IntPtr Box(int value)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x2E9A950", Offset = "0x2E98F50", VA = "0x182E9A950")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x6897DE0", Offset = "0x6896DE0", VA = "0x6897DE0")]
 	public static IntPtr Box(bool value)
 	{
 		return default(IntPtr);

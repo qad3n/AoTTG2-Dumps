@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.ShaderUtilities
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -313,7 +313,7 @@ public static class ShaderUtilities
 	internal static Shader ShaderRef_MobileSDF
 	{
 		[Token(Token = "0x600039F")]
-		[Address(RVA = "0x2D36F60", Offset = "0x2D35560", VA = "0x182D36F60")]
+		[Address(RVA = "0x6737850", Offset = "0x6736850", VA = "0x6737850")]
 		get
 		{
 			return null;
@@ -324,7 +324,7 @@ public static class ShaderUtilities
 	internal static Shader ShaderRef_MobileBitmap
 	{
 		[Token(Token = "0x60003A0")]
-		[Address(RVA = "0x2D36E40", Offset = "0x2D35440", VA = "0x182D36E40")]
+		[Address(RVA = "0x6737950", Offset = "0x6736950", VA = "0x6737950")]
 		get
 		{
 			return null;
@@ -332,53 +332,53 @@ public static class ShaderUtilities
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x2D36B00", Offset = "0x2D35100", VA = "0x182D36B00")]
+	[Address(RVA = "0x6737A50", Offset = "0x6736A50", VA = "0x6737A50")]
 	static ShaderUtilities()
 	{
 	}
 
 	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x2D35700", Offset = "0x2D33D00", VA = "0x182D35700")]
+	[Address(RVA = "0x672E320", Offset = "0x672D320", VA = "0x672E320")]
 	public static void GetShaderPropertyIDs()
 	{
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x2D36530", Offset = "0x2D34B30", VA = "0x182D36530")]
+	[Address(RVA = "0x6737CA0", Offset = "0x6736CA0", VA = "0x6737CA0")]
 	public static void UpdateShaderRatios(Material mat)
 	{
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x2D33F80", Offset = "0x2D32580", VA = "0x182D33F80")]
+	[Address(RVA = "0x67381E0", Offset = "0x67371E0", VA = "0x67381E0")]
 	public static Vector4 GetFontExtent(Material material)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x2D36360", Offset = "0x2D34960", VA = "0x182D36360")]
+	[Address(RVA = "0x6738220", Offset = "0x6737220", VA = "0x6738220")]
 	public static bool IsMaskingEnabled(Material material)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x2D34BF0", Offset = "0x2D331F0", VA = "0x182D34BF0")]
+	[Address(RVA = "0x67383C0", Offset = "0x67373C0", VA = "0x67383C0")]
 	public static float GetPadding(Material material, bool enableExtraPadding, bool isBold)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x2D33B10", Offset = "0x2D32110", VA = "0x182D33B10")]
+	[Address(RVA = "0x6738C90", Offset = "0x6737C90", VA = "0x6738C90")]
 	private static float ComputePaddingForProperties(Material mat)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x2D33FD0", Offset = "0x2D325D0", VA = "0x182D33FD0")]
+	[Address(RVA = "0x6739010", Offset = "0x6738010", VA = "0x6739010")]
 	public static float GetPadding(Material[] materials, bool enableExtraPadding, bool isBold)
 	{
 		return default(float);

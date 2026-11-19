@@ -37,7 +37,7 @@ internal class ProbeSamplingDebugData
 	public GraphicsBuffer positionNormalBuffer;
 
 	[Token(Token = "0x6000A43")]
-	[Address(RVA = "0x2B13980", Offset = "0x2B11F80", VA = "0x182B13980")]
+	[Address(RVA = "0x6507980", Offset = "0x6506980", VA = "0x6507980")]
 	public ProbeSamplingDebugData()
 	{
 	}

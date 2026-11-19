@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200029D")]
+[Token(Token = "0x200025E")]
 internal static class HttpValidationHelpers
 {
-	[Token(Token = "0x400093D")]
+	[Token(Token = "0x400086E")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly char[] s_httpTrimCharacters;
 
-	[Token(Token = "0x6001251")]
-	[Address(RVA = "0x28FF7A0", Offset = "0x28FDDA0", VA = "0x1828FF7A0")]
+	[Token(Token = "0x6001093")]
+	[Address(RVA = "0x6290400", Offset = "0x628F400", VA = "0x6290400")]
 	public static bool IsInvalidMethodOrHeaderString(string stringValue)
 	{
 		return default(bool);

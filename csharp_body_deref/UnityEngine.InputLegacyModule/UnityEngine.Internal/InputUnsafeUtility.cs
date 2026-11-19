@@ -11,30 +11,30 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.Internal;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000E")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Input/InputBindings.h")]
 internal static class InputUnsafeUtility
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2FC4200", Offset = "0x2FC2800", VA = "0x182FC4200")]
+	[Token(Token = "0x6000050")]
+	[Address(RVA = "0x69C0C10", Offset = "0x69BFC10", VA = "0x69C0C10")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern bool GetKeyString__Unmanaged(byte* name, int nameLen);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x2FC4240", Offset = "0x2FC2840", VA = "0x182FC4240")]
+	[Token(Token = "0x6000051")]
+	[Address(RVA = "0x69C0C50", Offset = "0x69BFC50", VA = "0x69C0C50")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern bool GetKeyUpString__Unmanaged(byte* name, int nameLen);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2FC41C0", Offset = "0x2FC27C0", VA = "0x182FC41C0")]
+	[Token(Token = "0x6000052")]
+	[Address(RVA = "0x69C0C90", Offset = "0x69BFC90", VA = "0x69C0C90")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern bool GetKeyDownString__Unmanaged(byte* name, int nameLen);
 
-	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2FC39F0", Offset = "0x2FC1FF0", VA = "0x182FC39F0")]
+	[Token(Token = "0x6000053")]
+	[Address(RVA = "0x69BDFF0", Offset = "0x69BCFF0", VA = "0x69BDFF0")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static float GetAxis(string axisName)
 	{
@@ -42,13 +42,13 @@ internal static class InputUnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x2FC39B0", Offset = "0x2FC1FB0", VA = "0x182FC39B0")]
+	[Token(Token = "0x6000054")]
+	[Address(RVA = "0x69C0D00", Offset = "0x69BFD00", VA = "0x69C0D00")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern float GetAxis__Unmanaged(byte* axisName, int axisNameLen);
 
-	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x2FC37D0", Offset = "0x2FC1DD0", VA = "0x182FC37D0")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x69BE160", Offset = "0x69BD160", VA = "0x69BE160")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static float GetAxisRaw(string axisName)
 	{
@@ -56,13 +56,13 @@ internal static class InputUnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x2FC3790", Offset = "0x2FC1D90", VA = "0x182FC3790")]
+	[Token(Token = "0x6000056")]
+	[Address(RVA = "0x69C0D70", Offset = "0x69BFD70", VA = "0x69C0D70")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern float GetAxisRaw__Unmanaged(byte* axisName, int axisNameLen);
 
-	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x2FC4030", Offset = "0x2FC2630", VA = "0x182FC4030")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x69BE2D0", Offset = "0x69BD2D0", VA = "0x69BE2D0")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static bool GetButton(string buttonName)
 	{
@@ -70,13 +70,13 @@ internal static class InputUnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x2FC3FF0", Offset = "0x2FC25F0", VA = "0x182FC3FF0")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x69C0DE0", Offset = "0x69BFDE0", VA = "0x69C0DE0")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern bool GetButton__Unmanaged(byte* buttonName, int buttonNameLen);
 
-	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x2FC3C10", Offset = "0x2FC2210", VA = "0x182FC3C10")]
+	[Token(Token = "0x6000059")]
+	[Address(RVA = "0x69BE450", Offset = "0x69BD450", VA = "0x69BE450")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static bool GetButtonDown(string buttonName)
 	{
@@ -84,13 +84,13 @@ internal static class InputUnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x2FC3BD0", Offset = "0x2FC21D0", VA = "0x182FC3BD0")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x69C0E50", Offset = "0x69BFE50", VA = "0x69C0E50")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern byte GetButtonDown__Unmanaged(byte* buttonName, int buttonNameLen);
 
-	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x2FC3E20", Offset = "0x2FC2420", VA = "0x182FC3E20")]
+	[Token(Token = "0x600005B")]
+	[Address(RVA = "0x69BE5D0", Offset = "0x69BD5D0", VA = "0x69BE5D0")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static bool GetButtonUp(string buttonName)
 	{
@@ -98,33 +98,38 @@ internal static class InputUnsafeUtility
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x2FC3DE0", Offset = "0x2FC23E0", VA = "0x182FC3DE0")]
+	[Token(Token = "0x600005C")]
+	[Address(RVA = "0x69C0EC0", Offset = "0x69BFEC0", VA = "0x69C0EC0")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal unsafe static extern bool GetButtonUp__Unmanaged(byte* buttonName, int buttonNameLen);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x2FC3970", Offset = "0x2FC1F70", VA = "0x182FC3970")]
+	[Token(Token = "0x600005D")]
+	[Address(RVA = "0x69C0F00", Offset = "0x69BFF00", VA = "0x69C0F00")]
+	internal unsafe static extern bool IsJoystickPreconfigured__Unmanaged(byte* joystickName, int joystickNameLen);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x69C0CD0", Offset = "0x69BFCD0", VA = "0x69C0CD0")]
 	private static extern float GetAxis_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper axisName);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x2FC3750", Offset = "0x2FC1D50", VA = "0x182FC3750")]
+	[Token(Token = "0x600005F")]
+	[Address(RVA = "0x69C0D40", Offset = "0x69BFD40", VA = "0x69C0D40")]
 	private static extern float GetAxisRaw_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper axisName);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x2FC3FB0", Offset = "0x2FC25B0", VA = "0x182FC3FB0")]
+	[Token(Token = "0x6000060")]
+	[Address(RVA = "0x69C0DB0", Offset = "0x69BFDB0", VA = "0x69C0DB0")]
 	private static extern bool GetButton_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper buttonName);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x2FC3B90", Offset = "0x2FC2190", VA = "0x182FC3B90")]
+	[Token(Token = "0x6000061")]
+	[Address(RVA = "0x69C0E20", Offset = "0x69BFE20", VA = "0x69C0E20")]
 	private static extern bool GetButtonDown_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper buttonName);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x2FC3DA0", Offset = "0x2FC23A0", VA = "0x182FC3DA0")]
+	[Token(Token = "0x6000062")]
+	[Address(RVA = "0x69C0E90", Offset = "0x69BFE90", VA = "0x69C0E90")]
 	private static extern bool GetButtonUp_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper buttonName);
 }

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000666")]
+[Token(Token = "0x200063F")]
 public enum FileMode
 {
-	[Token(Token = "0x400199A")]
+	[Token(Token = "0x40018FD")]
 	CreateNew = 1,
-	[Token(Token = "0x400199B")]
+	[Token(Token = "0x40018FE")]
 	Create,
-	[Token(Token = "0x400199C")]
+	[Token(Token = "0x40018FF")]
 	Open,
-	[Token(Token = "0x400199D")]
+	[Token(Token = "0x4001900")]
 	OpenOrCreate,
-	[Token(Token = "0x400199E")]
+	[Token(Token = "0x4001901")]
 	Truncate,
-	[Token(Token = "0x400199F")]
+	[Token(Token = "0x4001902")]
 	Append
 }

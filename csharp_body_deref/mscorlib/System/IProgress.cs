@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x20000D6")]
 public interface IProgress<in T>
 {
-	[Token(Token = "0x60007E4")]
+	[Token(Token = "0x60007BF")]
 	void Report(T value);
 }

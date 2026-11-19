@@ -40,7 +40,7 @@ internal class NamespaceList
 	public ListType Type
 	{
 		[Token(Token = "0x6001284")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5FCA6C0", Offset = "0x5FC96C0", VA = "0x5FCA6C0")]
 		get
 		{
 			return default(ListType);
@@ -51,7 +51,7 @@ internal class NamespaceList
 	public string Excluded
 	{
 		[Token(Token = "0x6001285")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x5FCA6D0", Offset = "0x5FC96D0", VA = "0x5FCA6D0")]
 		get
 		{
 			return null;
@@ -62,7 +62,7 @@ internal class NamespaceList
 	public ICollection Enumerate
 	{
 		[Token(Token = "0x6001286")]
-		[Address(RVA = "0x2605740", Offset = "0x2603D40", VA = "0x182605740")]
+		[Address(RVA = "0x5FCA6E0", Offset = "0x5FC96E0", VA = "0x5FCA6E0")]
 		get
 		{
 			return null;
@@ -70,75 +70,75 @@ internal class NamespaceList
 	}
 
 	[Token(Token = "0x6001281")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5FCA2E0", Offset = "0x5FC92E0", VA = "0x5FCA2E0")]
 	public NamespaceList()
 	{
 	}
 
 	[Token(Token = "0x6001282")]
-	[Address(RVA = "0x2605490", Offset = "0x2603A90", VA = "0x182605490")]
+	[Address(RVA = "0x5FCA2F0", Offset = "0x5FC92F0", VA = "0x5FCA2F0")]
 	public NamespaceList(string namespaces, string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x6001283")]
-	[Address(RVA = "0x2604370", Offset = "0x2602970", VA = "0x182604370")]
+	[Address(RVA = "0x5FCA590", Offset = "0x5FC9590", VA = "0x5FCA590")]
 	public NamespaceList Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001287")]
-	[Address(RVA = "0x26042C0", Offset = "0x26028C0", VA = "0x1826042C0", Slot = "4")]
+	[Address(RVA = "0x5FCA750", Offset = "0x5FC9750", VA = "0x5FCA750", Slot = "4")]
 	public virtual bool Allows(string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001288")]
-	[Address(RVA = "0x2604340", Offset = "0x2602940", VA = "0x182604340")]
+	[Address(RVA = "0x5FCA7D0", Offset = "0x5FC97D0", VA = "0x5FCA7D0")]
 	public bool Allows(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001289")]
-	[Address(RVA = "0x2604CC0", Offset = "0x26032C0", VA = "0x182604CC0", Slot = "3")]
+	[Address(RVA = "0x5FCA800", Offset = "0x5FC9800", VA = "0x5FCA800", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600128A")]
-	[Address(RVA = "0x2604A10", Offset = "0x2603010", VA = "0x182604A10")]
+	[Address(RVA = "0x5FCAD00", Offset = "0x5FC9D00", VA = "0x5FCAD00")]
 	public static bool IsSubset(NamespaceList sub, NamespaceList super)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600128B")]
-	[Address(RVA = "0x2605060", Offset = "0x2603660", VA = "0x182605060")]
+	[Address(RVA = "0x5FCB0F0", Offset = "0x5FCA0F0", VA = "0x5FCB0F0")]
 	public static NamespaceList Union(NamespaceList o1, NamespaceList o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600128C")]
-	[Address(RVA = "0x26044C0", Offset = "0x2602AC0", VA = "0x1826044C0")]
+	[Address(RVA = "0x5FCB6C0", Offset = "0x5FCA6C0", VA = "0x5FCB6C0")]
 	private NamespaceList CompareSetToOther(NamespaceList other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600128D")]
-	[Address(RVA = "0x2604600", Offset = "0x2602C00", VA = "0x182604600")]
+	[Address(RVA = "0x5FCB810", Offset = "0x5FCA810", VA = "0x5FCB810")]
 	public static NamespaceList Intersection(NamespaceList o1, NamespaceList o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600128E")]
-	[Address(RVA = "0x2604C60", Offset = "0x2603260", VA = "0x182604C60")]
+	[Address(RVA = "0x5FCBE70", Offset = "0x5FCAE70", VA = "0x5FCBE70")]
 	private void RemoveNamespace(string tns)
 	{
 	}

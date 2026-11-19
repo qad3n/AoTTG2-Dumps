@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x200027C")]
+[Token(Token = "0x200027D")]
 public abstract class UnaryOperationBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000C81")]
-	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700")]
+	[Token(Token = "0x6000C8C")]
+	[Address(RVA = "0x5E25D80", Offset = "0x5E24D80", VA = "0x5E25D80")]
 	public DynamicMetaObject FallbackUnaryOperation(DynamicMetaObject target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C82")]
+	[Token(Token = "0x6000C8D")]
 	public abstract DynamicMetaObject FallbackUnaryOperation(DynamicMetaObject target, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000C83")]
-	[Address(RVA = "0x248E1E0", Offset = "0x248C7E0", VA = "0x18248E1E0", Slot = "7")]
+	[Token(Token = "0x6000C8E")]
+	[Address(RVA = "0x5E25DA0", Offset = "0x5E24DA0", VA = "0x5E25DA0", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

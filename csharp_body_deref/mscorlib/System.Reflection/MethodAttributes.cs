@@ -9,56 +9,56 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000515")]
+[Token(Token = "0x20004EE")]
 [Flags]
 public enum MethodAttributes
 {
-	[Token(Token = "0x4001410")]
+	[Token(Token = "0x4001370")]
 	MemberAccessMask = 7,
-	[Token(Token = "0x4001411")]
+	[Token(Token = "0x4001371")]
 	PrivateScope = 0,
-	[Token(Token = "0x4001412")]
+	[Token(Token = "0x4001372")]
 	Private = 1,
-	[Token(Token = "0x4001413")]
+	[Token(Token = "0x4001373")]
 	FamANDAssem = 2,
-	[Token(Token = "0x4001414")]
+	[Token(Token = "0x4001374")]
 	Assembly = 3,
-	[Token(Token = "0x4001415")]
+	[Token(Token = "0x4001375")]
 	Family = 4,
-	[Token(Token = "0x4001416")]
+	[Token(Token = "0x4001376")]
 	FamORAssem = 5,
-	[Token(Token = "0x4001417")]
+	[Token(Token = "0x4001377")]
 	Public = 6,
-	[Token(Token = "0x4001418")]
+	[Token(Token = "0x4001378")]
 	Static = 0x10,
-	[Token(Token = "0x4001419")]
+	[Token(Token = "0x4001379")]
 	Final = 0x20,
-	[Token(Token = "0x400141A")]
+	[Token(Token = "0x400137A")]
 	Virtual = 0x40,
-	[Token(Token = "0x400141B")]
+	[Token(Token = "0x400137B")]
 	HideBySig = 0x80,
-	[Token(Token = "0x400141C")]
+	[Token(Token = "0x400137C")]
 	CheckAccessOnOverride = 0x200,
-	[Token(Token = "0x400141D")]
+	[Token(Token = "0x400137D")]
 	VtableLayoutMask = 0x100,
-	[Token(Token = "0x400141E")]
+	[Token(Token = "0x400137E")]
 	ReuseSlot = 0,
-	[Token(Token = "0x400141F")]
+	[Token(Token = "0x400137F")]
 	NewSlot = VtableLayoutMask,
-	[Token(Token = "0x4001420")]
+	[Token(Token = "0x4001380")]
 	Abstract = 0x400,
-	[Token(Token = "0x4001421")]
+	[Token(Token = "0x4001381")]
 	SpecialName = 0x800,
-	[Token(Token = "0x4001422")]
+	[Token(Token = "0x4001382")]
 	PinvokeImpl = 0x2000,
-	[Token(Token = "0x4001423")]
+	[Token(Token = "0x4001383")]
 	UnmanagedExport = 8,
-	[Token(Token = "0x4001424")]
+	[Token(Token = "0x4001384")]
 	RTSpecialName = 0x1000,
-	[Token(Token = "0x4001425")]
+	[Token(Token = "0x4001385")]
 	HasSecurity = 0x4000,
-	[Token(Token = "0x4001426")]
+	[Token(Token = "0x4001386")]
 	RequireSecObject = 0x8000,
-	[Token(Token = "0x4001427")]
+	[Token(Token = "0x4001387")]
 	ReservedMask = RTSpecialName | HasSecurity | RequireSecObject
 }

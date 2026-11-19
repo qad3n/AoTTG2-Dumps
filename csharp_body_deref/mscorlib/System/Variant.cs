@@ -11,91 +11,91 @@ using Il2CppDummyDll;
 namespace System;
 
 [StructLayout((LayoutKind)2)]
-[Token(Token = "0x20001DE")]
+[Token(Token = "0x20001B6")]
 internal struct Variant
 {
-	[Token(Token = "0x4000923")]
+	[Token(Token = "0x4000881")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public short vt;
 
-	[Token(Token = "0x4000924")]
+	[Token(Token = "0x4000882")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	public ushort wReserved1;
 
-	[Token(Token = "0x4000925")]
+	[Token(Token = "0x4000883")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	public ushort wReserved2;
 
-	[Token(Token = "0x4000926")]
+	[Token(Token = "0x4000884")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6")]
 	public ushort wReserved3;
 
-	[Token(Token = "0x4000927")]
+	[Token(Token = "0x4000885")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public long llVal;
 
-	[Token(Token = "0x4000928")]
+	[Token(Token = "0x4000886")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public int lVal;
 
-	[Token(Token = "0x4000929")]
+	[Token(Token = "0x4000887")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public byte bVal;
 
-	[Token(Token = "0x400092A")]
+	[Token(Token = "0x4000888")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public short iVal;
 
-	[Token(Token = "0x400092B")]
+	[Token(Token = "0x4000889")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public float fltVal;
 
-	[Token(Token = "0x400092C")]
+	[Token(Token = "0x400088A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public double dblVal;
 
-	[Token(Token = "0x400092D")]
+	[Token(Token = "0x400088B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public short boolVal;
 
-	[Token(Token = "0x400092E")]
+	[Token(Token = "0x400088C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public IntPtr bstrVal;
 
-	[Token(Token = "0x400092F")]
+	[Token(Token = "0x400088D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public sbyte cVal;
 
-	[Token(Token = "0x4000930")]
+	[Token(Token = "0x400088E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public ushort uiVal;
 
-	[Token(Token = "0x4000931")]
+	[Token(Token = "0x400088F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public uint ulVal;
 
-	[Token(Token = "0x4000932")]
+	[Token(Token = "0x4000890")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public ulong ullVal;
 
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000891")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public int intVal;
 
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000892")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public uint uintVal;
 
-	[Token(Token = "0x4000935")]
+	[Token(Token = "0x4000893")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public IntPtr pdispVal;
 
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000894")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public System.BRECORD bRecord;
 
-	[Token(Token = "0x60010F6")]
-	[Address(RVA = "0x1BA91E0", Offset = "0x1BA77E0", VA = "0x181BA91E0")]
+	[Token(Token = "0x60010CD")]
+	[Address(RVA = "0x5520BF0", Offset = "0x551FBF0", VA = "0x5520BF0")]
 	public void Clear()
 	{
 	}

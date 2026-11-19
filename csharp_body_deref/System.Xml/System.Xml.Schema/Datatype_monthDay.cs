@@ -16,7 +16,7 @@ internal class Datatype_monthDay : Datatype_dateTimeBase
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600110A")]
-		[Address(RVA = "0x1AB5F20", Offset = "0x1AB4520", VA = "0x181AB5F20", Slot = "8")]
+		[Address(RVA = "0x615E7C0", Offset = "0x615D7C0", VA = "0x615E7C0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -24,7 +24,7 @@ internal class Datatype_monthDay : Datatype_dateTimeBase
 	}
 
 	[Token(Token = "0x600110B")]
-	[Address(RVA = "0x27A02D0", Offset = "0x279E8D0", VA = "0x1827A02D0")]
+	[Address(RVA = "0x6155A40", Offset = "0x6154A40", VA = "0x6155A40")]
 	internal Datatype_monthDay()
 	{
 	}

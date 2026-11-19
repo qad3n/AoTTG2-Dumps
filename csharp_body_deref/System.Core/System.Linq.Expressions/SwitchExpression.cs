@@ -13,39 +13,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000C1")]
+[Token(Token = "0x20000C2")]
 [DebuggerTypeProxy(typeof(SwitchExpressionProxy))]
 public sealed class SwitchExpression : Expression
 {
-	[Token(Token = "0x17000123")]
+	[Token(Token = "0x17000125")]
 	public Expression SwitchValue
 	{
-		[Token(Token = "0x600055B")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000124")]
-	public ReadOnlyCollection<SwitchCase> Cases
-	{
-		[Token(Token = "0x600055C")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000125")]
-	public Expression DefaultBody
-	{
-		[Token(Token = "0x600055D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000566")]
+		[Address(RVA = "0x5DD5FB0", Offset = "0x5DD4FB0", VA = "0x5DD5FB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,10 +30,34 @@ public sealed class SwitchExpression : Expression
 	}
 
 	[Token(Token = "0x17000126")]
+	public ReadOnlyCollection<SwitchCase> Cases
+	{
+		[Token(Token = "0x6000567")]
+		[Address(RVA = "0x5DD5FC0", Offset = "0x5DD4FC0", VA = "0x5DD5FC0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000127")]
+	public Expression DefaultBody
+	{
+		[Token(Token = "0x6000568")]
+		[Address(RVA = "0x5DD5FD0", Offset = "0x5DD4FD0", VA = "0x5DD5FD0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000128")]
 	public MethodInfo Comparison
 	{
-		[Token(Token = "0x600055E")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6000569")]
+		[Address(RVA = "0x5DD5FE0", Offset = "0x5DD4FE0", VA = "0x5DD5FE0")]
 		[CompilerGenerated]
 		get
 		{

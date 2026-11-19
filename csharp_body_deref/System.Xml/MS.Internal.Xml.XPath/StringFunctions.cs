@@ -17,11 +17,11 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class StringFunctions : ValueQuery
 {
 	[Token(Token = "0x4000E99")]
-	[FieldOffset(Offset = "0x18")]
+	[FieldOffset(Offset = "0x14")]
 	private Function.FunctionType _funcType;
 
 	[Token(Token = "0x4000E9A")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	private IList<Query> _argList;
 
 	[Token(Token = "0x4000E9B")]
@@ -32,7 +32,7 @@ internal sealed class StringFunctions : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001BCD")]
-		[Address(RVA = "0x26D30F0", Offset = "0x26D16F0", VA = "0x1826D30F0", Slot = "16")]
+		[Address(RVA = "0x608E170", Offset = "0x608D170", VA = "0x608E170", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -40,116 +40,116 @@ internal sealed class StringFunctions : ValueQuery
 	}
 
 	[Token(Token = "0x6001BC6")]
-	[Address(RVA = "0x26D2E60", Offset = "0x26D1460", VA = "0x1826D2E60")]
+	[Address(RVA = "0x608BD80", Offset = "0x608AD80", VA = "0x608BD80")]
 	public StringFunctions(Function.FunctionType funcType, IList<Query> argList)
 	{
 	}
 
 	[Token(Token = "0x6001BC7")]
-	[Address(RVA = "0x26D2EB0", Offset = "0x26D14B0", VA = "0x1826D2EB0")]
+	[Address(RVA = "0x608C190", Offset = "0x608B190", VA = "0x608C190")]
 	private StringFunctions(StringFunctions other)
 	{
 	}
 
 	[Token(Token = "0x6001BC8")]
-	[Address(RVA = "0x26D2160", Offset = "0x26D0760", VA = "0x1826D2160", Slot = "13")]
+	[Address(RVA = "0x608C460", Offset = "0x608B460", VA = "0x608C460", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BC9")]
-	[Address(RVA = "0x26D1740", Offset = "0x26CFD40", VA = "0x1826D1740", Slot = "14")]
+	[Address(RVA = "0x608C5E0", Offset = "0x608B5E0", VA = "0x608C5E0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BCA")]
-	[Address(RVA = "0x26D3480", Offset = "0x26D1A80", VA = "0x1826D3480")]
+	[Address(RVA = "0x608E0D0", Offset = "0x608D0D0", VA = "0x608E0D0")]
 	internal static string toString(double num)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BCB")]
-	[Address(RVA = "0x26D3120", Offset = "0x26D1720", VA = "0x1826D3120")]
+	[Address(RVA = "0x608E120", Offset = "0x608D120", VA = "0x608E120")]
 	internal static string toString(bool b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BCC")]
-	[Address(RVA = "0x26D3170", Offset = "0x26D1770", VA = "0x1826D3170")]
+	[Address(RVA = "0x608C6D0", Offset = "0x608B6D0", VA = "0x608C6D0")]
 	private string toString(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BCE")]
-	[Address(RVA = "0x26D13D0", Offset = "0x26CF9D0", VA = "0x1826D13D0")]
+	[Address(RVA = "0x608CAC0", Offset = "0x608BAC0", VA = "0x608CAC0")]
 	private string Concat(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BCF")]
-	[Address(RVA = "0x26D22F0", Offset = "0x26D08F0", VA = "0x1826D22F0")]
+	[Address(RVA = "0x608CCB0", Offset = "0x608BCB0", VA = "0x608CCB0")]
 	private bool StartsWith(XPathNodeIterator nodeIterator)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BD0")]
-	[Address(RVA = "0x26D15E0", Offset = "0x26CFBE0", VA = "0x1826D15E0")]
+	[Address(RVA = "0x608CE80", Offset = "0x608BE80", VA = "0x608CE80")]
 	private bool Contains(XPathNodeIterator nodeIterator)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BD1")]
-	[Address(RVA = "0x26D2710", Offset = "0x26D0D10", VA = "0x1826D2710")]
+	[Address(RVA = "0x608D080", Offset = "0x608C080", VA = "0x608D080")]
 	private string SubstringBefore(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BD2")]
-	[Address(RVA = "0x26D2540", Offset = "0x26D0B40", VA = "0x1826D2540")]
+	[Address(RVA = "0x608D2C0", Offset = "0x608C2C0", VA = "0x608D2C0")]
 	private string SubstringAfter(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BD3")]
-	[Address(RVA = "0x26D28C0", Offset = "0x26D0EC0", VA = "0x1826D28C0")]
+	[Address(RVA = "0x608D500", Offset = "0x608C500", VA = "0x608D500")]
 	private string Substring(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BD4")]
-	[Address(RVA = "0x26D2440", Offset = "0x26D0A40", VA = "0x1826D2440")]
+	[Address(RVA = "0x608D910", Offset = "0x608C910", VA = "0x608D910")]
 	private double StringLength(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001BD5")]
-	[Address(RVA = "0x26D1F50", Offset = "0x26D0550", VA = "0x1826D1F50")]
+	[Address(RVA = "0x608DAC0", Offset = "0x608CAC0", VA = "0x608DAC0")]
 	private string Normalize(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BD6")]
-	[Address(RVA = "0x26D2B60", Offset = "0x26D1160", VA = "0x1826D2B60")]
+	[Address(RVA = "0x608DD80", Offset = "0x608CD80", VA = "0x608DD80")]
 	private string Translate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BD7")]
-	[Address(RVA = "0x26D1370", Offset = "0x26CF970", VA = "0x1826D1370", Slot = "6")]
+	[Address(RVA = "0x608E1A0", Offset = "0x608D1A0", VA = "0x608E1A0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

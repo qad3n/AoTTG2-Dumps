@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DisallowGPUDrivenRendering
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -27,50 +27,50 @@ internal class DisallowGPUDrivenRendering : MonoBehaviour
 	public bool applyToChildrenRecursively
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x1991920", Offset = "0x198FF20", VA = "0x181991920")]
+		[Address(RVA = "0x65B0830", Offset = "0x65AF830", VA = "0x65B0830")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x2BC0900", Offset = "0x2BBEF00", VA = "0x182BC0900")]
+		[Address(RVA = "0x65B0840", Offset = "0x65AF840", VA = "0x65B0840")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x2BC0800", Offset = "0x2BBEE00", VA = "0x182BC0800")]
+	[Address(RVA = "0x65B08D0", Offset = "0x65AF8D0", VA = "0x65B08D0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x2BC0740", Offset = "0x2BBED40", VA = "0x182BC0740")]
+	[Address(RVA = "0x65B08A0", Offset = "0x65AF8A0", VA = "0x65B08A0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x2BC06A0", Offset = "0x2BBECA0", VA = "0x182BC06A0")]
+	[Address(RVA = "0x65B0C60", Offset = "0x65AFC60", VA = "0x65B0C60")]
 	private static void AllowGPUDrivenRendering(Transform transform, bool allow)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x2BC03C0", Offset = "0x2BBE9C0", VA = "0x182BC03C0")]
+	[Address(RVA = "0x65B0900", Offset = "0x65AF900", VA = "0x65B0900")]
 	private static void AllowGPUDrivenRenderingRecursively(Transform transform, bool allow)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x2BC08C0", Offset = "0x2BBEEC0", VA = "0x182BC08C0")]
+	[Address(RVA = "0x65B0D00", Offset = "0x65AFD00", VA = "0x65B0D00")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x65B0D70", Offset = "0x65AFD70", VA = "0x65B0D70")]
 	public DisallowGPUDrivenRendering()
 	{
 	}

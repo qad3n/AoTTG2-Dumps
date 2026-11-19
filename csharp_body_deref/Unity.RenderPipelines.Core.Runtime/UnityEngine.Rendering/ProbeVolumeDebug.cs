@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeVolumeDebug
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -134,19 +134,19 @@ internal class ProbeVolumeDebug : IDebugData
 	internal static int s_ActiveAdjustmentVolumes;
 
 	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x2B190E0", Offset = "0x2B176E0", VA = "0x182B190E0")]
+	[Address(RVA = "0x65079A0", Offset = "0x65069A0", VA = "0x65079A0")]
 	public ProbeVolumeDebug()
 	{
 	}
 
 	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x2B19070", Offset = "0x2B17670", VA = "0x182B19070")]
+	[Address(RVA = "0x6507A60", Offset = "0x6506A60", VA = "0x6507A60")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x6000A46")]
-	[Address(RVA = "0x2B19000", Offset = "0x2B17600", VA = "0x182B19000", Slot = "4")]
+	[Address(RVA = "0x6507AD0", Offset = "0x6506AD0", VA = "0x6507AD0", Slot = "4")]
 	public Action GetReset()
 	{
 		return null;

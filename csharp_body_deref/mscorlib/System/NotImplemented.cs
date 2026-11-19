@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200015E")]
+[Token(Token = "0x2000136")]
 internal static class NotImplemented
 {
 	[Token(Token = "0x1700010F")]
 	internal static Exception ByDesign
 	{
-		[Token(Token = "0x6000C83")]
-		[Address(RVA = "0x1B44970", Offset = "0x1B42F70", VA = "0x181B44970")]
+		[Token(Token = "0x6000C5E")]
+		[Address(RVA = "0x54D95F0", Offset = "0x54D85F0", VA = "0x54D95F0")]
 		get
 		{
 			return null;

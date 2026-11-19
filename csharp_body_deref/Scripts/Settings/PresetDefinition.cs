@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.PresetDefinition
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Settings/PresetDefinition.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,128 +13,124 @@ using SimpleJSONFixed;
 namespace Settings;
 
 [Serializable]
-[Token(Token = "0x200007C")]
+[Token(Token = "0x20000B3")]
 public class PresetDefinition
 {
-	[Token(Token = "0x4000268")]
+	[Token(Token = "0x4000395")]
 	[FieldOffset(Offset = "0x10")]
 	public string Category;
 
-	[Token(Token = "0x4000269")]
+	[Token(Token = "0x4000396")]
 	[FieldOffset(Offset = "0x18")]
 	public string SubCategory;
 
-	[Token(Token = "0x400026A")]
+	[Token(Token = "0x4000397")]
 	[FieldOffset(Offset = "0x20")]
 	public string Name;
 
-	[Token(Token = "0x400026B")]
+	[Token(Token = "0x4000398")]
 	[FieldOffset(Offset = "0x28")]
-	public string Description;
-
-	[Token(Token = "0x400026C")]
-	[FieldOffset(Offset = "0x30")]
 	public string Extends;
 
-	[Token(Token = "0x400026D")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000399")]
+	[FieldOffset(Offset = "0x30")]
 	public List<string> UIRules;
 
-	[Token(Token = "0x400026E")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400039A")]
+	[FieldOffset(Offset = "0x38")]
 	public Dictionary<string, List<string>> Variants;
 
-	[Token(Token = "0x400026F")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x400039B")]
+	[FieldOffset(Offset = "0x40")]
 	public List<ExperienceUISection> UISections;
 
 	[NonSerialized]
-	[Token(Token = "0x4000270")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x400039C")]
+	[FieldOffset(Offset = "0x48")]
 	private List<UIRule> _uiRules;
 
 	[NonSerialized]
-	[Token(Token = "0x4000271")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x400039D")]
+	[FieldOffset(Offset = "0x50")]
 	private UIRule _mapRule;
 
 	[NonSerialized]
-	[Token(Token = "0x4000272")]
-	[FieldOffset(Offset = "0x60")]
+	[Token(Token = "0x400039E")]
+	[FieldOffset(Offset = "0x58")]
 	private UIRule _modeRule;
 
-	[Token(Token = "0x1700008C")]
+	[Token(Token = "0x170000A9")]
 	public string DefaultVariant
 	{
-		[Token(Token = "0x600034A")]
-		[Address(RVA = "0x1DC8930", Offset = "0x1DC6F30", VA = "0x181DC8930")]
+		[Token(Token = "0x60004B5")]
+		[Address(RVA = "0x5A39200", Offset = "0x5A38200", VA = "0x5A39200")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700008D")]
+	[Token(Token = "0x170000AA")]
 	public List<UIRule> UIRulesObject
 	{
-		[Token(Token = "0x600034D")]
-		[Address(RVA = "0x1DC8E20", Offset = "0x1DC7420", VA = "0x181DC8E20")]
+		[Token(Token = "0x60004B8")]
+		[Address(RVA = "0x5A3B780", Offset = "0x5A3A780", VA = "0x5A3B780")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600034E")]
-		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
+		[Token(Token = "0x60004B9")]
+		[Address(RVA = "0x5A3B7C0", Offset = "0x5A3A7C0", VA = "0x5A3B7C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700008E")]
+	[Token(Token = "0x170000AB")]
 	public UIRule MapRule
 	{
-		[Token(Token = "0x600034F")]
-		[Address(RVA = "0x1DC8AE0", Offset = "0x1DC70E0", VA = "0x181DC8AE0")]
+		[Token(Token = "0x60004BA")]
+		[Address(RVA = "0x5A3B7D0", Offset = "0x5A3A7D0", VA = "0x5A3B7D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700008F")]
+	[Token(Token = "0x170000AC")]
 	public UIRule ModeRule
 	{
-		[Token(Token = "0x6000350")]
-		[Address(RVA = "0x1DC8C80", Offset = "0x1DC7280", VA = "0x181DC8C80")]
+		[Token(Token = "0x60004BB")]
+		[Address(RVA = "0x5A3B980", Offset = "0x5A3A980", VA = "0x5A3B980")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600034B")]
-	[Address(RVA = "0x1DC79C0", Offset = "0x1DC5FC0", VA = "0x181DC79C0")]
+	[Token(Token = "0x60004B6")]
+	[Address(RVA = "0x5A393A0", Offset = "0x5A383A0", VA = "0x5A393A0")]
 	public static PresetDefinition FromJson(string json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600034C")]
-	[Address(RVA = "0x1DC7C10", Offset = "0x1DC6210", VA = "0x181DC7C10")]
+	[Token(Token = "0x60004B7")]
+	[Address(RVA = "0x5A39460", Offset = "0x5A38460", VA = "0x5A39460")]
 	internal static Dictionary<string, List<string>> ReadVariants(JSONNode experience)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x1DC7AB0", Offset = "0x1DC60B0", VA = "0x181DC7AB0")]
+	[Token(Token = "0x60004BC")]
+	[Address(RVA = "0x5A3BB30", Offset = "0x5A3AB30", VA = "0x5A3BB30")]
 	private UIRule GetRule(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60004BD")]
+	[Address(RVA = "0x5A3BCA0", Offset = "0x5A3ACA0", VA = "0x5A3BCA0")]
 	public PresetDefinition()
 	{
 	}

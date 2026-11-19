@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.GlobalDynamicResolutionSettings
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -157,7 +157,7 @@ public struct GlobalDynamicResolutionSettings
 	public bool enableDLSS;
 
 	[Token(Token = "0x600050E")]
-	[Address(RVA = "0x2AE2E70", Offset = "0x2AE1470", VA = "0x182AE2E70")]
+	[Address(RVA = "0x64BF470", Offset = "0x64BE470", VA = "0x64BF470")]
 	public static GlobalDynamicResolutionSettings NewDefault()
 	{
 		return default(GlobalDynamicResolutionSettings);

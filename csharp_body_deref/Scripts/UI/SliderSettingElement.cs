@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.SliderSettingElement
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/SliderSettingElement.c
 // Prior real C# source (older reference): Assets/Scripts/UI/Elements/SettingElements/SliderSettingElement.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,66 +15,66 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000756")]
+[Token(Token = "0x20007FE")]
 internal class SliderSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4002464")]
+	[Token(Token = "0x40027D5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	protected Slider _slider;
 
-	[Token(Token = "0x4002465")]
+	[Token(Token = "0x40027D6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	protected Text _valueLabel;
 
-	[Token(Token = "0x4002466")]
+	[Token(Token = "0x40027D7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	protected NumberFormatInfo _formatInfo;
 
-	[Token(Token = "0x4002467")]
+	[Token(Token = "0x40027D8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	protected float _interval;
 
-	[Token(Token = "0x4002468")]
+	[Token(Token = "0x40027D9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	protected UnityAction _onValueChanged;
 
-	[Token(Token = "0x17000CD2")]
+	[Token(Token = "0x17000D55")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6004783")]
-		[Address(RVA = "0x2238210", Offset = "0x2236810", VA = "0x182238210", Slot = "4")]
+		[Token(Token = "0x6004CA5")]
+		[Address(RVA = "0x5BF7420", Offset = "0x5BF6420", VA = "0x5BF7420", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004784")]
-	[Address(RVA = "0x2237790", Offset = "0x2235D90", VA = "0x182237790")]
+	[Token(Token = "0x6004CA6")]
+	[Address(RVA = "0x5BF74C0", Offset = "0x5BF64C0", VA = "0x5BF74C0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip, float elementWidth, float elementHeight, int decimalPlaces, [Optional][DefaultParameterValue(0f)] float interval, [Optional] UnityAction onValueChanged)
 	{
 	}
 
-	[Token(Token = "0x6004785")]
-	[Address(RVA = "0x2237570", Offset = "0x2235B70", VA = "0x182237570")]
+	[Token(Token = "0x6004CA7")]
+	[Address(RVA = "0x5BF7CA0", Offset = "0x5BF6CA0", VA = "0x5BF7CA0")]
 	protected void OnValueChanged(float value)
 	{
 	}
 
-	[Token(Token = "0x6004786")]
-	[Address(RVA = "0x22380F0", Offset = "0x22366F0", VA = "0x1822380F0")]
+	[Token(Token = "0x6004CA8")]
+	[Address(RVA = "0x5BF7F40", Offset = "0x5BF6F40", VA = "0x5BF7F40")]
 	protected void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6004787")]
-	[Address(RVA = "0x2237FB0", Offset = "0x22365B0", VA = "0x182237FB0", Slot = "6")]
+	[Token(Token = "0x6004CA9")]
+	[Address(RVA = "0x5BF8040", Offset = "0x5BF7040", VA = "0x5BF8040", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6004788")]
-	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
+	[Token(Token = "0x6004CAA")]
+	[Address(RVA = "0x5BF8150", Offset = "0x5BF7150", VA = "0x5BF8150")]
 	public SliderSettingElement()
 	{
 	}

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000305")]
+[Token(Token = "0x20002C6")]
 public interface IWebProxy
 {
-	[Token(Token = "0x17000471")]
+	[Token(Token = "0x17000442")]
 	ICredentials Credentials
 	{
-		[Token(Token = "0x600150F")]
+		[Token(Token = "0x6001351")]
 		get;
 	}
 
-	[Token(Token = "0x600150D")]
+	[Token(Token = "0x600134F")]
 	Uri GetProxy(Uri destination);
 
-	[Token(Token = "0x600150E")]
+	[Token(Token = "0x6001350")]
 	bool IsBypassed(Uri host);
 }

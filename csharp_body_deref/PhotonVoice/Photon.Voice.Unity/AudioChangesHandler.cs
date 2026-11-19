@@ -40,37 +40,37 @@ public class AudioChangesHandler : VoiceComponent
 	public bool HandleDeviceChangeAndroid;
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x1D88680", Offset = "0x1D86C80", VA = "0x181D88680", Slot = "4")]
+	[Address(RVA = "0x57277A0", Offset = "0x57267A0", VA = "0x57277A0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x1D88C50", Offset = "0x1D87250", VA = "0x181D88C50")]
+	[Address(RVA = "0x57280F0", Offset = "0x57270F0", VA = "0x57280F0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x1D88EE0", Offset = "0x1D874E0", VA = "0x181D88EE0")]
+	[Address(RVA = "0x57284B0", Offset = "0x57274B0", VA = "0x57284B0")]
 	private void PhotonMicrophoneChangeDetected()
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x1D88DC0", Offset = "0x1D873C0", VA = "0x181D88DC0")]
+	[Address(RVA = "0x5728650", Offset = "0x5727650", VA = "0x5728650")]
 	private void OnDeviceChange()
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x1D88B10", Offset = "0x1D87110", VA = "0x181D88B10")]
+	[Address(RVA = "0x57289C0", Offset = "0x57279C0", VA = "0x57289C0")]
 	private void OnAudioConfigChanged(bool deviceWasChanged)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x1D88F80", Offset = "0x1D87580", VA = "0x181D88F80")]
+	[Address(RVA = "0x5728B50", Offset = "0x5727B50", VA = "0x5728B50")]
 	public AudioChangesHandler()
 	{
 	}

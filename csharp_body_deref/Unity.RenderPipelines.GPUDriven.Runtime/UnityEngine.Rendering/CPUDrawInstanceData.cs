@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.CPUDrawInstanceData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -49,7 +49,7 @@ internal class CPUDrawInstanceData
 	public NativeList<DrawInstance> drawInstances
 	{
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x65CB000", Offset = "0x65CA000", VA = "0x65CB000")]
 		get
 		{
 			return default(NativeList<DrawInstance>);
@@ -60,7 +60,7 @@ internal class CPUDrawInstanceData
 	public NativeParallelHashMap<DrawKey, int> batchHash
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
+		[Address(RVA = "0x65CB010", Offset = "0x65CA010", VA = "0x65CB010")]
 		get
 		{
 			return default(NativeParallelHashMap<DrawKey, int>);
@@ -71,7 +71,7 @@ internal class CPUDrawInstanceData
 	public NativeList<DrawBatch> drawBatches
 	{
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x65CB020", Offset = "0x65CA020", VA = "0x65CB020")]
 		get
 		{
 			return default(NativeList<DrawBatch>);
@@ -82,7 +82,7 @@ internal class CPUDrawInstanceData
 	public NativeParallelHashMap<RangeKey, int> rangeHash
 	{
 		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x561300", Offset = "0x55F900", VA = "0x180561300")]
+		[Address(RVA = "0x65CB030", Offset = "0x65CA030", VA = "0x65CB030")]
 		get
 		{
 			return default(NativeParallelHashMap<RangeKey, int>);
@@ -93,7 +93,7 @@ internal class CPUDrawInstanceData
 	public NativeList<DrawRange> drawRanges
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x65CB040", Offset = "0x65CA040", VA = "0x65CB040")]
 		get
 		{
 			return default(NativeList<DrawRange>);
@@ -104,7 +104,7 @@ internal class CPUDrawInstanceData
 	public NativeArray<int> drawBatchIndices
 	{
 		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x2BD5760", Offset = "0x2BD3D60", VA = "0x182BD5760")]
+		[Address(RVA = "0x65CB050", Offset = "0x65CA050", VA = "0x65CB050")]
 		get
 		{
 			return default(NativeArray<int>);
@@ -115,7 +115,7 @@ internal class CPUDrawInstanceData
 	public NativeArray<int> drawInstanceIndices
 	{
 		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x2BD57C0", Offset = "0x2BD3DC0", VA = "0x182BD57C0")]
+		[Address(RVA = "0x65CB090", Offset = "0x65CA090", VA = "0x65CB090")]
 		get
 		{
 			return default(NativeArray<int>);
@@ -126,7 +126,7 @@ internal class CPUDrawInstanceData
 	public bool valid
 	{
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x2BD5820", Offset = "0x2BD3E20", VA = "0x182BD5820")]
+		[Address(RVA = "0x65CB0D0", Offset = "0x65CA0D0", VA = "0x65CB0D0")]
 		get
 		{
 			return default(bool);
@@ -134,49 +134,49 @@ internal class CPUDrawInstanceData
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x2BD5290", Offset = "0x2BD3890", VA = "0x182BD5290")]
+	[Address(RVA = "0x65CB100", Offset = "0x65CA100", VA = "0x65CB100")]
 	public void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x2BD5110", Offset = "0x2BD3710", VA = "0x182BD5110")]
+	[Address(RVA = "0x65CB2F0", Offset = "0x65CA2F0", VA = "0x65CB2F0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2BD5470", Offset = "0x2BD3A70", VA = "0x182BD5470")]
+	[Address(RVA = "0x65CB490", Offset = "0x65CA490", VA = "0x65CB490")]
 	public void RebuildDrawListsIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x2BD4A60", Offset = "0x2BD3060", VA = "0x182BD4A60")]
+	[Address(RVA = "0x65CB790", Offset = "0x65CA790", VA = "0x65CB790")]
 	public void DestroyDrawInstanceIndices(NativeArray<int> drawInstanceIndicesToDestroy)
 	{
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2BD4AF0", Offset = "0x2BD30F0", VA = "0x182BD4AF0")]
+	[Address(RVA = "0x65CB980", Offset = "0x65CA980", VA = "0x65CB980")]
 	public void DestroyDrawInstances(NativeArray<InstanceHandle> destroyedInstances)
 	{
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x2BD4E00", Offset = "0x2BD3400", VA = "0x182BD4E00")]
+	[Address(RVA = "0x65CBC30", Offset = "0x65CAC30", VA = "0x65CBC30")]
 	public void DestroyMaterialDrawInstances(NativeArray<uint> destroyedBatchMaterials)
 	{
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x2161420", Offset = "0x215FA20", VA = "0x182161420")]
+	[Address(RVA = "0x65CBC20", Offset = "0x65CAC20", VA = "0x65CBC20")]
 	public void NeedsRebuild()
 	{
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x65CBED0", Offset = "0x65CAED0", VA = "0x65CBED0")]
 	public CPUDrawInstanceData()
 	{
 	}

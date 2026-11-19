@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEditor.Analytics.SendGameBuildAnalytic
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,17 +22,17 @@ namespace UnityEditor.Analytics;
 public class SendGameBuildAnalytic : AnalyticsEventBase
 {
 	[Token(Token = "0x4000038")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	private int navmesh_count;
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3307EF0", Offset = "0x33064F0", VA = "0x183307EF0")]
+	[Address(RVA = "0x6D17DE0", Offset = "0x6D16DE0", VA = "0x6D17DE0")]
 	public SendGameBuildAnalytic()
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x3307E60", Offset = "0x3306460", VA = "0x183307E60")]
+	[Address(RVA = "0x6D17E40", Offset = "0x6D16E40", VA = "0x6D17E40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static SendGameBuildAnalytic CreateSendGameBuildAnalytic()
 	{

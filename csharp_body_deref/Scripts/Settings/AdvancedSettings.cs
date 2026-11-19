@@ -9,74 +9,74 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x200009E")]
 internal class AdvancedSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x4000207")]
+	[Token(Token = "0x400033C")]
 	[FieldOffset(Offset = "0x38")]
 	public BoolSetting ServicesEnabled;
 
-	[Token(Token = "0x4000208")]
+	[Token(Token = "0x400033D")]
 	[FieldOffset(Offset = "0x40")]
 	public ListSetting<StringSetting> ServiceKeys;
 
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x400033E")]
 	[FieldOffset(Offset = "0x48")]
 	public ListSetting<StringSetting> ServiceUrls;
 
-	[Token(Token = "0x400020A")]
+	[Token(Token = "0x400033F")]
 	[FieldOffset(Offset = "0x50")]
 	public ListSetting<StringSetting> SecretKeys;
 
-	[Token(Token = "0x400020B")]
+	[Token(Token = "0x4000340")]
 	[FieldOffset(Offset = "0x58")]
 	public ListSetting<StringSetting> SecretValues;
 
-	[Token(Token = "0x17000087")]
+	[Token(Token = "0x170000A4")]
 	protected override string FileName
 	{
-		[Token(Token = "0x600030F")]
-		[Address(RVA = "0x1DB9AC0", Offset = "0x1DB80C0", VA = "0x181DB9AC0", Slot = "15")]
+		[Token(Token = "0x600047C")]
+		[Address(RVA = "0x58D13B0", Offset = "0x58D03B0", VA = "0x58D13B0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000088")]
+	[Token(Token = "0x170000A5")]
 	protected override bool Encrypted
 	{
-		[Token(Token = "0x6000310")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x600047D")]
+		[Address(RVA = "0x58D13E0", Offset = "0x58D03E0", VA = "0x58D13E0", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x1DB98D0", Offset = "0x1DB7ED0", VA = "0x181DB98D0", Slot = "13")]
+	[Token(Token = "0x600047E")]
+	[Address(RVA = "0x58D13F0", Offset = "0x58D03F0", VA = "0x58D13F0", Slot = "13")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x1DB9790", Offset = "0x1DB7D90", VA = "0x181DB9790")]
+	[Token(Token = "0x600047F")]
+	[Address(RVA = "0x58D1480", Offset = "0x58D0480", VA = "0x58D1480")]
 	public bool TryGetServiceUrl(string key, out string url)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x1DB9650", Offset = "0x1DB7C50", VA = "0x181DB9650")]
+	[Token(Token = "0x6000480")]
+	[Address(RVA = "0x58D15C0", Offset = "0x58D05C0", VA = "0x58D15C0")]
 	public bool TryGetSecretValue(string key, out string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x1DB9980", Offset = "0x1DB7F80", VA = "0x181DB9980")]
+	[Token(Token = "0x6000481")]
+	[Address(RVA = "0x58D1700", Offset = "0x58D0700", VA = "0x58D1700")]
 	public AdvancedSettings()
 	{
 	}

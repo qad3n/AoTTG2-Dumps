@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x2000085")]
+[Token(Token = "0x200005C")]
 public sealed class SafeWaitHandle : SafeHandleZeroOrMinusOneIsInvalid
 {
-	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x1967B60", Offset = "0x1966160", VA = "0x181967B60")]
+	[Token(Token = "0x600021C")]
+	[Address(RVA = "0x52FDFB0", Offset = "0x52FCFB0", VA = "0x52FDFB0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public SafeWaitHandle(IntPtr existingHandle, bool ownsHandle)
 	{
 	}
 
-	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x1967F80", Offset = "0x1966580", VA = "0x181967F80", Slot = "7")]
+	[Token(Token = "0x600021D")]
+	[Address(RVA = "0x52FDFD0", Offset = "0x52FCFD0", VA = "0x52FDFD0", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);

@@ -78,7 +78,7 @@ public struct LobbyTransaction
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x538240", Offset = "0x536840", VA = "0x180538240")]
+		[Address(RVA = "0x3140440", Offset = "0x313F440", VA = "0x3140440")]
 		get
 		{
 			return default(FFIMethods);
@@ -86,37 +86,37 @@ public struct LobbyTransaction
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x5381A0", Offset = "0x5367A0", VA = "0x1805381A0")]
+	[Address(RVA = "0x3140550", Offset = "0x313F550", VA = "0x3140550")]
 	public void SetType(LobbyType type)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x538100", Offset = "0x536700", VA = "0x180538100")]
+	[Address(RVA = "0x31405E0", Offset = "0x313F5E0", VA = "0x31405E0")]
 	public void SetOwner(long ownerId)
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x537F10", Offset = "0x536510", VA = "0x180537F10")]
+	[Address(RVA = "0x3140670", Offset = "0x313F670", VA = "0x3140670")]
 	public void SetCapacity(uint capacity)
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x538050", Offset = "0x536650", VA = "0x180538050")]
+	[Address(RVA = "0x3140700", Offset = "0x313F700", VA = "0x3140700")]
 	public void SetMetadata(string key, string value)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x537E70", Offset = "0x536470", VA = "0x180537E70")]
+	[Address(RVA = "0x3140790", Offset = "0x313F790", VA = "0x3140790")]
 	public void DeleteMetadata(string key)
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x537FB0", Offset = "0x5365B0", VA = "0x180537FB0")]
+	[Address(RVA = "0x3140820", Offset = "0x313F820", VA = "0x3140820")]
 	public void SetLocked(bool locked)
 	{
 	}

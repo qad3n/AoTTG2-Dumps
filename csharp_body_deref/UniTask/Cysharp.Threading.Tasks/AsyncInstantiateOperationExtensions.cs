@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Cysharp.Threading.Tasks.AsyncInstantiateOperationExtensions
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -64,7 +64,7 @@ public static class AsyncInstantiateOperationExtensions
 		public unsafe ref AsyncInstantiateOperationConfiguredSource NextNode
 		{
 			[Token(Token = "0x60008DF")]
-			[Address(RVA = "0xB109D0", Offset = "0xB0EFD0", VA = "0x180B109D0", Slot = "24")]
+			[Address(RVA = "0x62EFCD0", Offset = "0x62EECD0", VA = "0x62EFCD0", Slot = "24")]
 			get
 			{
 				return ref *(AsyncInstantiateOperationConfiguredSource*)null;
@@ -72,73 +72,73 @@ public static class AsyncInstantiateOperationExtensions
 		}
 
 		[Token(Token = "0x60008E0")]
-		[Address(RVA = "0x29301E0", Offset = "0x292E7E0", VA = "0x1829301E0")]
+		[Address(RVA = "0x62EFCE0", Offset = "0x62EECE0", VA = "0x62EFCE0")]
 		static AsyncInstantiateOperationConfiguredSource()
 		{
 		}
 
 		[Token(Token = "0x60008E1")]
-		[Address(RVA = "0x29302E0", Offset = "0x292E8E0", VA = "0x1829302E0")]
+		[Address(RVA = "0x62EFDE0", Offset = "0x62EEDE0", VA = "0x62EFDE0")]
 		private AsyncInstantiateOperationConfiguredSource()
 		{
 		}
 
 		[Token(Token = "0x60008E2")]
-		[Address(RVA = "0x292FA00", Offset = "0x292E000", VA = "0x18292FA00")]
+		[Address(RVA = "0x62EF8D0", Offset = "0x62EE8D0", VA = "0x62EF8D0")]
 		public static IUniTaskSource<UnityEngine.Object[]> Create(AsyncInstantiateOperation asyncOperation, PlayerLoopTiming timing, IProgress<float> progress, CancellationToken cancellationToken, bool cancelImmediately, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60008E3")]
-		[Address(RVA = "0x292FE40", Offset = "0x292E440", VA = "0x18292FE40", Slot = "22")]
+		[Address(RVA = "0x62EFE60", Offset = "0x62EEE60", VA = "0x62EFE60", Slot = "22")]
 		public UnityEngine.Object[] GetResult(short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60008E4")]
-		[Address(RVA = "0x292FE30", Offset = "0x292E430", VA = "0x18292FE30", Slot = "12")]
+		[Address(RVA = "0x62EFF70", Offset = "0x62EEF70", VA = "0x62EFF70", Slot = "12")]
 		private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x60008E5")]
-		[Address(RVA = "0x292FEE0", Offset = "0x292E4E0", VA = "0x18292FEE0", Slot = "10")]
+		[Address(RVA = "0x62EFF80", Offset = "0x62EEF80", VA = "0x62EFF80", Slot = "10")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60008E6")]
-		[Address(RVA = "0x29301A0", Offset = "0x292E7A0", VA = "0x1829301A0", Slot = "13")]
+		[Address(RVA = "0x62EFFD0", Offset = "0x62EEFD0", VA = "0x62EFFD0", Slot = "13")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60008E7")]
-		[Address(RVA = "0x2930060", Offset = "0x292E660", VA = "0x182930060", Slot = "11")]
+		[Address(RVA = "0x62F0080", Offset = "0x62EF080", VA = "0x62F0080", Slot = "11")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x60008E8")]
-		[Address(RVA = "0x292FF30", Offset = "0x292E530", VA = "0x18292FF30", Slot = "23")]
+		[Address(RVA = "0x62F00E0", Offset = "0x62EF0E0", VA = "0x62F00E0", Slot = "23")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60008E9")]
-		[Address(RVA = "0x29300C0", Offset = "0x292E6C0", VA = "0x1829300C0")]
+		[Address(RVA = "0x62F0280", Offset = "0x62EF280", VA = "0x62F0280")]
 		private bool TryReturn()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60008EA")]
-		[Address(RVA = "0x292F940", Offset = "0x292DF40", VA = "0x18292F940")]
+		[Address(RVA = "0x62F0370", Offset = "0x62EF370", VA = "0x62F0370")]
 		private void Continuation(AsyncOperation _)
 		{
 		}
@@ -272,7 +272,7 @@ public static class AsyncInstantiateOperationExtensions
 	}
 
 	[Token(Token = "0x60008DB")]
-	[Address(RVA = "0x2930360", Offset = "0x292E960", VA = "0x182930360")]
+	[Address(RVA = "0x62EF6F0", Offset = "0x62EE6F0", VA = "0x62EF6F0")]
 	public static UniTask<UnityEngine.Object[]> ToUniTask(this AsyncInstantiateOperation asyncOperation, [Optional] IProgress<float> progress, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken, bool cancelImmediately = false)
 	{
 		return default(UniTask<UnityEngine.Object[]>);

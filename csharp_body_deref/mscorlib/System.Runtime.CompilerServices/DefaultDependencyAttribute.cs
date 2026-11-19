@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004CD")]
+[Token(Token = "0x20004A6")]
 [AttributeUsage(AttributeTargets.Assembly)]
 public sealed class DefaultDependencyAttribute : Attribute
 {
-	[Token(Token = "0x4001335")]
+	[Token(Token = "0x4001295")]
 	[FieldOffset(Offset = "0x10")]
 	private LoadHint loadHint;
 
-	[Token(Token = "0x6002378")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6002345")]
+	[Address(RVA = "0x53CB9C0", Offset = "0x53CA9C0", VA = "0x53CB9C0")]
 	public DefaultDependencyAttribute(LoadHint loadHintArgument)
 	{
 	}

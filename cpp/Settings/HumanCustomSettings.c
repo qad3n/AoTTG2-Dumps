@@ -1,5 +1,5 @@
 // Type: Settings.HumanCustomSettings
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/HumanCustomSettings.cs
@@ -8,15 +8,15 @@
 
 // Settings.HumanCustomSettings$$get_FileName
 // il2cpp: System_String_o* Settings_HumanCustomSettings__get_FileName (Settings_HumanCustomSettings_o* __this, const MethodInfo* method);
-// 0x181f17f10
+// 0x5b45390
 
 System_String_o *
 Settings_HumanCustomSettings__get_FileName(Settings_HumanCustomSettings_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_18434543e == '\0') {
+  if (Il2CppMethodInitialized_07547286 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"HumanCustom.json");
-    Il2CppMethodInitialized_18434543e = '\x01';
+    Il2CppMethodInitialized_07547286 = '\x01';
   }
   return "HumanCustom.json";
 }
@@ -24,7 +24,7 @@ Settings_HumanCustomSettings__get_FileName(Settings_HumanCustomSettings_o *__thi
 
 // Settings.HumanCustomSettings$$.ctor
 // il2cpp: void Settings_HumanCustomSettings___ctor (Settings_HumanCustomSettings_o* __this, const MethodInfo* method);
-// 0x181f17df0
+// 0x5b453c0
 
 void Settings_HumanCustomSettings___ctor(Settings_HumanCustomSettings_o *__this,MethodInfo *method)
 
@@ -32,7 +32,7 @@ void Settings_HumanCustomSettings___ctor(Settings_HumanCustomSettings_o *__this,
   Settings_SetSettingsContainerNoPresets_HumanCustomSet__o *__this_00;
   Settings_SetSettingsContainerPresetsOnly_HumanCustomSet__o *pSVar1;
   
-  if (Il2CppMethodInitialized_18434543f == '\0') {
+  if (Il2CppMethodInitialized_07547287 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_Settings_SetSettingsContainerNoPresets_HumanCustomSet_ctor);
     il2cpp_codegen_initialize_runtime_metadata
@@ -41,37 +41,37 @@ void Settings_HumanCustomSettings___ctor(Settings_HumanCustomSettings_o *__this,
               (&MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet);
-    Il2CppMethodInitialized_18434543f = '\x01';
+    Il2CppMethodInitialized_07547287 = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new
                         ((Il2CppClass *)TypeInfo_Settings_SetSettingsContainerNoPresets_HumanCustomSet);
   Settings_SetSettingsContainerNoPresets_object____ctor
-            ((Settings_SetSettingsContainerPresetsOnly_T__o *)__this_00,
-             (MethodInfo_C8E5B0 *)MethodInfo_Settings_SetSettingsContainerNoPresets_HumanCustomSet_ctor);
+            ((Settings_SetSettingsContainerNoPresets_T__o *)__this_00,
+             (MethodInfo_4047460 *)MethodInfo_Settings_SetSettingsContainerNoPresets_HumanCustomSet_ctor);
   (__this->fields).CustomSets = (Settings_SetSettingsContainer_HumanCustomSet__o *)__this_00;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CustomSets,__this_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CustomSets);
   pSVar1 = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet);
   Settings_SetSettingsContainerPresetsOnly_object____ctor
             ((Settings_SetSettingsContainerPresetsOnly_T__o *)pSVar1,
-             (MethodInfo_C8E5B0 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
+             (MethodInfo_4047490 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
   (__this->fields).Costume1Sets = (Settings_SetSettingsContainer_HumanCustomSet__o *)pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume1Sets,pSVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume1Sets);
   pSVar1 = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet);
   Settings_SetSettingsContainerPresetsOnly_object____ctor
             ((Settings_SetSettingsContainerPresetsOnly_T__o *)pSVar1,
-             (MethodInfo_C8E5B0 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
+             (MethodInfo_4047490 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
   (__this->fields).Costume2Sets = (Settings_SetSettingsContainer_HumanCustomSet__o *)pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume2Sets,pSVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume2Sets);
   pSVar1 = il2cpp_codegen_object_new
                      ((Il2CppClass *)TypeInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet);
   Settings_SetSettingsContainerPresetsOnly_object____ctor
             ((Settings_SetSettingsContainerPresetsOnly_T__o *)pSVar1,
-             (MethodInfo_C8E5B0 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
+             (MethodInfo_4047490 *)MethodInfo_Settings_SetSettingsContainerPresetsOnly_HumanCustomSet_ctor);
   (__this->fields).Costume3Sets = (Settings_SetSettingsContainer_HumanCustomSet__o *)pSVar1;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume3Sets,pSVar1);
-  Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Costume3Sets);
+  Settings_PresetSettingsContainer___ctor((Settings_PresetSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

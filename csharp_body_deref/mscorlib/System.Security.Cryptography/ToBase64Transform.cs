@@ -10,15 +10,26 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002FE")]
+[Token(Token = "0x20002D7")]
 [ComVisible(true)]
 public class ToBase64Transform : ICryptoTransform, IDisposable
 {
-	[Token(Token = "0x17000296")]
+	[Token(Token = "0x17000295")]
 	public int InputBlockSize
 	{
-		[Token(Token = "0x600190A")]
-		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
+		[Token(Token = "0x60018E7")]
+		[Address(RVA = "0x5336900", Offset = "0x5335900", VA = "0x5336900", Slot = "4")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000296")]
+	public int OutputBlockSize
+	{
+		[Token(Token = "0x60018E8")]
+		[Address(RVA = "0x5336910", Offset = "0x5335910", VA = "0x5336910", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -26,78 +37,67 @@ public class ToBase64Transform : ICryptoTransform, IDisposable
 	}
 
 	[Token(Token = "0x17000297")]
-	public int OutputBlockSize
+	public bool CanTransformMultipleBlocks
 	{
-		[Token(Token = "0x600190B")]
-		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "5")]
+		[Token(Token = "0x60018E9")]
+		[Address(RVA = "0x5336920", Offset = "0x5335920", VA = "0x5336920", Slot = "6")]
 		get
 		{
-			return default(int);
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000298")]
-	public bool CanTransformMultipleBlocks
-	{
-		[Token(Token = "0x600190C")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000299")]
 	public virtual bool CanReuseTransform
 	{
-		[Token(Token = "0x600190D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
+		[Token(Token = "0x60018EA")]
+		[Address(RVA = "0x5336930", Offset = "0x5335930", VA = "0x5336930", Slot = "11")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600190E")]
-	[Address(RVA = "0x19B6A80", Offset = "0x19B5080", VA = "0x1819B6A80", Slot = "8")]
+	[Token(Token = "0x60018EB")]
+	[Address(RVA = "0x5336940", Offset = "0x5335940", VA = "0x5336940", Slot = "8")]
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600190F")]
-	[Address(RVA = "0x19B6D70", Offset = "0x19B5370", VA = "0x1819B6D70", Slot = "9")]
+	[Token(Token = "0x60018EC")]
+	[Address(RVA = "0x5336B90", Offset = "0x5335B90", VA = "0x5336B90", Slot = "9")]
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001910")]
-	[Address(RVA = "0x19B6A20", Offset = "0x19B5020", VA = "0x1819B6A20", Slot = "10")]
+	[Token(Token = "0x60018ED")]
+	[Address(RVA = "0x5336DB0", Offset = "0x5335DB0", VA = "0x5336DB0", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001911")]
-	[Address(RVA = "0x19B6A20", Offset = "0x19B5020", VA = "0x1819B6A20")]
+	[Token(Token = "0x60018EE")]
+	[Address(RVA = "0x5336E20", Offset = "0x5335E20", VA = "0x5336E20")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001912")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
+	[Token(Token = "0x60018EF")]
+	[Address(RVA = "0x5336E90", Offset = "0x5335E90", VA = "0x5336E90", Slot = "12")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001913")]
-	[Address(RVA = "0x19A7CB0", Offset = "0x19A62B0", VA = "0x1819A7CB0", Slot = "1")]
+	[Token(Token = "0x60018F0")]
+	[Address(RVA = "0x5336EA0", Offset = "0x5335EA0", VA = "0x5336EA0", Slot = "1")]
 	~ToBase64Transform()
 	{
 	}
 
-	[Token(Token = "0x6001914")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60018F1")]
+	[Address(RVA = "0x5336F40", Offset = "0x5335F40", VA = "0x5336F40")]
 	public ToBase64Transform()
 	{
 	}

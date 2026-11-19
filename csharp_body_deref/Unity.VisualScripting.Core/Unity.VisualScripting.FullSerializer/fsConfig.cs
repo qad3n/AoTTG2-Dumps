@@ -55,7 +55,7 @@ public class fsConfig
 	public bool SerializeEnumsAsInteger;
 
 	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x2E5EA90", Offset = "0x2E5D090", VA = "0x182E5EA90")]
+	[Address(RVA = "0x6863C60", Offset = "0x6862C60", VA = "0x6863C60")]
 	public fsConfig()
 	{
 	}

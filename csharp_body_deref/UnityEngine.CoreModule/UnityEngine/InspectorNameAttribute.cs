@@ -11,17 +11,17 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000158")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x2000159")]
 [AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
+[UnityEngine.Scripting.UsedByNativeCode]
 public class InspectorNameAttribute : PropertyAttribute
 {
-	[Token(Token = "0x40005A2")]
+	[Token(Token = "0x40005A7")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly string displayName;
 
-	[Token(Token = "0x6000C37")]
-	[Address(RVA = "0x2F1B750", Offset = "0x2F19D50", VA = "0x182F1B750")]
+	[Token(Token = "0x6000C49")]
+	[Address(RVA = "0x690DCA0", Offset = "0x690CCA0", VA = "0x690DCA0")]
 	public InspectorNameAttribute(string displayName)
 	{
 	}

@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000502")]
+[Token(Token = "0x20004DB")]
 [Flags]
 public enum CallingConventions
 {
-	[Token(Token = "0x40013D2")]
+	[Token(Token = "0x4001332")]
 	Standard = 1,
-	[Token(Token = "0x40013D3")]
+	[Token(Token = "0x4001333")]
 	VarArgs = 2,
-	[Token(Token = "0x40013D4")]
+	[Token(Token = "0x4001334")]
 	Any = Standard | VarArgs,
-	[Token(Token = "0x40013D5")]
+	[Token(Token = "0x4001335")]
 	HasThis = 0x20,
-	[Token(Token = "0x40013D6")]
+	[Token(Token = "0x4001336")]
 	ExplicitThis = 0x40
 }

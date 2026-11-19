@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ConstantBuffer
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -113,19 +113,19 @@ public class ConstantBuffer
 	}
 
 	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x2ABDC80", Offset = "0x2ABC280", VA = "0x182ABDC80")]
+	[Address(RVA = "0x64BAEE0", Offset = "0x64B9EE0", VA = "0x64BAEE0")]
 	public static void ReleaseAll()
 	{
 	}
 
 	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x2ABDBB0", Offset = "0x2ABC1B0", VA = "0x182ABDBB0")]
+	[Address(RVA = "0x64BB0B0", Offset = "0x64BA0B0", VA = "0x64BB0B0")]
 	internal static void Register(ConstantBufferBase cb)
 	{
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64BB1A0", Offset = "0x64BA1A0", VA = "0x64BB1A0")]
 	public ConstantBuffer()
 	{
 	}

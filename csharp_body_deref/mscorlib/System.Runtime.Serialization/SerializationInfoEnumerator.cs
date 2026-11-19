@@ -10,60 +10,71 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003FC")]
+[Token(Token = "0x20003D5")]
 public sealed class SerializationInfoEnumerator : IEnumerator
 {
-	[Token(Token = "0x4000FD1")]
+	[Token(Token = "0x4000F31")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string[] _members;
 
-	[Token(Token = "0x4000FD2")]
+	[Token(Token = "0x4000F32")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly object[] _data;
 
-	[Token(Token = "0x4000FD3")]
+	[Token(Token = "0x4000F33")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Type[] _types;
 
-	[Token(Token = "0x4000FD4")]
+	[Token(Token = "0x4000F34")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly int _numItems;
 
-	[Token(Token = "0x4000FD5")]
+	[Token(Token = "0x4000F35")]
 	[FieldOffset(Offset = "0x2C")]
 	private int _currItem;
 
-	[Token(Token = "0x4000FD6")]
+	[Token(Token = "0x4000F36")]
 	[FieldOffset(Offset = "0x30")]
 	private bool _current;
 
-	[Token(Token = "0x17000415")]
+	[Token(Token = "0x17000414")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x6001FA0")]
-		[Address(RVA = "0x1A08130", Offset = "0x1A06730", VA = "0x181A08130", Slot = "5")]
+		[Token(Token = "0x6001F76")]
+		[Address(RVA = "0x539B620", Offset = "0x539A620", VA = "0x539B620", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000416")]
+	[Token(Token = "0x17000415")]
 	public SerializationEntry Current
 	{
-		[Token(Token = "0x6001FA1")]
-		[Address(RVA = "0x1A08200", Offset = "0x1A06800", VA = "0x181A08200")]
+		[Token(Token = "0x6001F77")]
+		[Address(RVA = "0x5394E80", Offset = "0x5393E80", VA = "0x5394E80")]
 		get
 		{
 			return default(SerializationEntry);
 		}
 	}
 
-	[Token(Token = "0x17000417")]
+	[Token(Token = "0x17000416")]
 	public string Name
 	{
-		[Token(Token = "0x6001FA3")]
-		[Address(RVA = "0x1A08320", Offset = "0x1A06920", VA = "0x181A08320")]
+		[Token(Token = "0x6001F79")]
+		[Address(RVA = "0x538D330", Offset = "0x538C330", VA = "0x538D330")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000417")]
+	public object Value
+	{
+		[Token(Token = "0x6001F7A")]
+		[Address(RVA = "0x538D3B0", Offset = "0x538C3B0", VA = "0x538D3B0")]
 		get
 		{
 			return null;
@@ -71,42 +82,31 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x17000418")]
-	public object Value
-	{
-		[Token(Token = "0x6001FA4")]
-		[Address(RVA = "0x1A08440", Offset = "0x1A06A40", VA = "0x181A08440")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000419")]
 	public Type ObjectType
 	{
-		[Token(Token = "0x6001FA5")]
-		[Address(RVA = "0x1A083B0", Offset = "0x1A069B0", VA = "0x181A083B0")]
+		[Token(Token = "0x6001F7B")]
+		[Address(RVA = "0x539B690", Offset = "0x539A690", VA = "0x539B690")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001F9E")]
-	[Address(RVA = "0x1A08190", Offset = "0x1A06790", VA = "0x181A08190")]
+	[Token(Token = "0x6001F74")]
+	[Address(RVA = "0x539B5B0", Offset = "0x539A5B0", VA = "0x539B5B0")]
 	internal SerializationInfoEnumerator(string[] members, object[] info, Type[] types, int numItems)
 	{
 	}
 
-	[Token(Token = "0x6001F9F")]
-	[Address(RVA = "0x1A08100", Offset = "0x1A06700", VA = "0x181A08100", Slot = "4")]
+	[Token(Token = "0x6001F75")]
+	[Address(RVA = "0x538D4B0", Offset = "0x538C4B0", VA = "0x538D4B0", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001FA2")]
-	[Address(RVA = "0x1A08120", Offset = "0x1A06720", VA = "0x181A08120", Slot = "6")]
+	[Token(Token = "0x6001F78")]
+	[Address(RVA = "0x539B680", Offset = "0x539A680", VA = "0x539B680", Slot = "6")]
 	public void Reset()
 	{
 	}

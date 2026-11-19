@@ -15,13 +15,13 @@ namespace UnityEngine.Rendering;
 public class TextureCurveParameter : VolumeParameter<TextureCurve>
 {
 	[Token(Token = "0x6000EA9")]
-	[Address(RVA = "0x2B626F0", Offset = "0x2B60CF0", VA = "0x182B626F0")]
+	[Address(RVA = "0x6550670", Offset = "0x654F670", VA = "0x6550670")]
 	public TextureCurveParameter(TextureCurve value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000EAA")]
-	[Address(RVA = "0x2B626D0", Offset = "0x2B60CD0", VA = "0x182B626D0", Slot = "11")]
+	[Address(RVA = "0x65506C0", Offset = "0x654F6C0", VA = "0x65506C0", Slot = "11")]
 	public override void Release()
 	{
 	}

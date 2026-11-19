@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x20000FF")]
 public enum LobbyModeType
 {
-	[Token(Token = "0x40004D5")]
+	[Token(Token = "0x4000613")]
 	Public,
-	[Token(Token = "0x40004D6")]
+	[Token(Token = "0x4000614")]
 	Custom
 }

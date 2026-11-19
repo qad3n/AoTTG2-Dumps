@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ShadingRateCombinerStage
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,8 +12,8 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000348")]
 public enum ShadingRateCombinerStage
 {
-	[Token(Token = "0x4000970")]
+	[Token(Token = "0x400096E")]
 	Primitive,
-	[Token(Token = "0x4000971")]
+	[Token(Token = "0x400096F")]
 	Fragment
 }

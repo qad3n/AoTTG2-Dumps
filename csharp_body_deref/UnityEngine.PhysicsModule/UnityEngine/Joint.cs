@@ -11,8 +11,8 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000011")]
-[UnityEngine.Bindings.NativeHeader("Modules/Physics/Joint.h")]
 [UnityEngine.NativeClass("Unity::Joint")]
+[UnityEngine.Bindings.NativeHeader("Modules/Physics/Joint.h")]
 public class Joint : Component
 {
 }

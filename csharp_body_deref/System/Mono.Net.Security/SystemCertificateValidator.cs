@@ -14,22 +14,22 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000064")]
 internal static class SystemCertificateValidator
 {
-	[Token(Token = "0x400012A")]
+	[Token(Token = "0x4000129")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool is_macosx;
 
-	[Token(Token = "0x400012B")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x4")]
 	private static X509KeyUsageFlags s_flags;
 
-	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x249F860", Offset = "0x249DE60", VA = "0x18249F860")]
+	[Token(Token = "0x6000168")]
+	[Address(RVA = "0x5E3F0F0", Offset = "0x5E3E0F0", VA = "0x5E3F0F0")]
 	static SystemCertificateValidator()
 	{
 	}
 
-	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
+	[Token(Token = "0x6000169")]
+	[Address(RVA = "0x5E397D0", Offset = "0x5E387D0", VA = "0x5E397D0")]
 	internal static bool NeedsChain(MonoTlsSettings settings)
 	{
 		return default(bool);

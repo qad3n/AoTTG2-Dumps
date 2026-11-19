@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x2000654")]
+[Token(Token = "0x200062F")]
 public struct MemoryHandle : IDisposable
 {
-	[Token(Token = "0x4001979")]
+	[Token(Token = "0x40018E0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private unsafe void* _pointer;
 
-	[Token(Token = "0x400197A")]
+	[Token(Token = "0x40018E1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private GCHandle _handle;
 
-	[Token(Token = "0x400197B")]
+	[Token(Token = "0x40018E2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IPinnable _pinnable;
 
-	[Token(Token = "0x170007DC")]
+	[Token(Token = "0x170007DB")]
 	[CLSCompliant(false)]
 	public unsafe void* Pointer
 	{
-		[Token(Token = "0x600306B")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Token(Token = "0x600304A")]
+		[Address(RVA = "0x5462270", Offset = "0x5461270", VA = "0x5462270")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -38,15 +38,15 @@ public struct MemoryHandle : IDisposable
 		}
 	}
 
-	[Token(Token = "0x600306A")]
-	[Address(RVA = "0x1AD5BE0", Offset = "0x1AD41E0", VA = "0x181AD5BE0")]
+	[Token(Token = "0x6003049")]
+	[Address(RVA = "0x5462250", Offset = "0x5461250", VA = "0x5462250")]
 	[CLSCompliant(false)]
 	public unsafe MemoryHandle(void* pointer, [Optional] GCHandle handle, [Optional] IPinnable pinnable)
 	{
 	}
 
-	[Token(Token = "0x600306C")]
-	[Address(RVA = "0x1AD5B70", Offset = "0x1AD4170", VA = "0x181AD5B70", Slot = "4")]
+	[Token(Token = "0x600304B")]
+	[Address(RVA = "0x5462280", Offset = "0x5461280", VA = "0x5462280", Slot = "4")]
 	public void Dispose()
 	{
 	}

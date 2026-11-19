@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003D2")]
+[Token(Token = "0x2000431")]
 public enum CustomLogicAstType
 {
-	[Token(Token = "0x40013D1")]
+	[Token(Token = "0x4001571")]
 	Start,
-	[Token(Token = "0x40013D2")]
+	[Token(Token = "0x4001572")]
 	ClassDefinition,
-	[Token(Token = "0x40013D3")]
+	[Token(Token = "0x4001573")]
 	MethodDefinition,
-	[Token(Token = "0x40013D4")]
+	[Token(Token = "0x4001574")]
 	AssignmentExpression,
-	[Token(Token = "0x40013D5")]
+	[Token(Token = "0x4001575")]
 	MethodCallExpression,
-	[Token(Token = "0x40013D6")]
+	[Token(Token = "0x4001576")]
 	ClassInstantiateExpression,
-	[Token(Token = "0x40013D7")]
+	[Token(Token = "0x4001577")]
 	FieldExpression,
-	[Token(Token = "0x40013D8")]
+	[Token(Token = "0x4001578")]
 	PrimitiveExpression,
-	[Token(Token = "0x40013D9")]
+	[Token(Token = "0x4001579")]
 	UnaryExpression,
-	[Token(Token = "0x40013DA")]
+	[Token(Token = "0x400157A")]
 	BinopExpression,
-	[Token(Token = "0x40013DB")]
+	[Token(Token = "0x400157B")]
 	NotExpression,
-	[Token(Token = "0x40013DC")]
+	[Token(Token = "0x400157C")]
 	VariableExpression,
-	[Token(Token = "0x40013DD")]
+	[Token(Token = "0x400157D")]
 	ReturnExpression,
-	[Token(Token = "0x40013DE")]
+	[Token(Token = "0x400157E")]
 	ContinueExpression,
-	[Token(Token = "0x40013DF")]
+	[Token(Token = "0x400157F")]
 	BreakExpression,
-	[Token(Token = "0x40013E0")]
+	[Token(Token = "0x4001580")]
 	WaitExpression,
-	[Token(Token = "0x40013E1")]
+	[Token(Token = "0x4001581")]
 	ConditionalExpression,
-	[Token(Token = "0x40013E2")]
+	[Token(Token = "0x4001582")]
 	ForExpression
 }

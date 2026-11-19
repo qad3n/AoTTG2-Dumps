@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnMouseOverMessageListener : MessageListener
 {
 	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x2DBE570", Offset = "0x2DBCB70", VA = "0x182DBE570")]
+	[Address(RVA = "0x67A4D70", Offset = "0x67A3D70", VA = "0x67A4D70")]
 	private void OnMouseOver()
 	{
 	}
 
 	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A4DE0", Offset = "0x67A3DE0", VA = "0x67A4DE0")]
 	public UnityOnMouseOverMessageListener()
 	{
 	}

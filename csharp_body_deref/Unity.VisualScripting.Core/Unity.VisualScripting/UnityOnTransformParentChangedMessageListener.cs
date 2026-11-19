@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnTransformParentChangedMessageListener : MessageListener
 {
 	[Token(Token = "0x6000455")]
-	[Address(RVA = "0x2DBF210", Offset = "0x2DBD810", VA = "0x182DBF210")]
+	[Address(RVA = "0x67A5010", Offset = "0x67A4010", VA = "0x67A5010")]
 	private void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6000456")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A5080", Offset = "0x67A4080", VA = "0x67A5080")]
 	public UnityOnTransformParentChangedMessageListener()
 	{
 	}

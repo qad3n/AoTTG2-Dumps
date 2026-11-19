@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200061F")]
+[Token(Token = "0x20005FA")]
 public interface IEnumerable<out T> : IEnumerable
 {
-	[Token(Token = "0x6002F16")]
+	[Token(Token = "0x6002EF1")]
 	new IEnumerator<T> GetEnumerator();
 }

@@ -9,26 +9,19 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D0")]
+[Token(Token = "0x20001E7")]
 internal static class AottgChangelogFormatting
 {
-	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x23A5420", Offset = "0x23A3A20", VA = "0x1823A5420")]
+	[Token(Token = "0x6000B58")]
+	[Address(RVA = "0x5D77010", Offset = "0x5D76010", VA = "0x5D77010")]
 	public static string ShortDate(string isoDate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A9F")]
-	[Address(RVA = "0x23A5200", Offset = "0x23A3800", VA = "0x1823A5200")]
+	[Token(Token = "0x6000B59")]
+	[Address(RVA = "0x5D770A0", Offset = "0x5D760A0", VA = "0x5D770A0")]
 	public static string ErrorText(string error)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000AA0")]
-	[Address(RVA = "0x23A5500", Offset = "0x23A3B00", VA = "0x1823A5500")]
-	public static string Text(string key, string fallback)
 	{
 		return null;
 	}

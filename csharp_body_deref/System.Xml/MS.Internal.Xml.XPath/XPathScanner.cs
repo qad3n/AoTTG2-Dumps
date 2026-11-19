@@ -124,7 +124,7 @@ internal sealed class XPathScanner
 	public string SourceText
 	{
 		[Token(Token = "0x6001C46")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6093B20", Offset = "0x6092B20", VA = "0x6093B20")]
 		get
 		{
 			return null;
@@ -135,7 +135,7 @@ internal sealed class XPathScanner
 	private char CurrentChar
 	{
 		[Token(Token = "0x6001C47")]
-		[Address(RVA = "0x1BD3E50", Offset = "0x1BD2450", VA = "0x181BD3E50")]
+		[Address(RVA = "0x6093B30", Offset = "0x6092B30", VA = "0x6093B30")]
 		get
 		{
 			return default(char);
@@ -146,7 +146,7 @@ internal sealed class XPathScanner
 	public LexKind Kind
 	{
 		[Token(Token = "0x6001C49")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x6093B40", Offset = "0x6092B40", VA = "0x6093B40")]
 		get
 		{
 			return default(LexKind);
@@ -157,7 +157,7 @@ internal sealed class XPathScanner
 	public string Name
 	{
 		[Token(Token = "0x6001C4A")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6093B50", Offset = "0x6092B50", VA = "0x6093B50")]
 		get
 		{
 			return null;
@@ -168,7 +168,7 @@ internal sealed class XPathScanner
 	public string Prefix
 	{
 		[Token(Token = "0x6001C4B")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6093B60", Offset = "0x6092B60", VA = "0x6093B60")]
 		get
 		{
 			return null;
@@ -179,7 +179,7 @@ internal sealed class XPathScanner
 	public string StringValue
 	{
 		[Token(Token = "0x6001C4C")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x6093B70", Offset = "0x6092B70", VA = "0x6093B70")]
 		get
 		{
 			return null;
@@ -190,7 +190,7 @@ internal sealed class XPathScanner
 	public double NumberValue
 	{
 		[Token(Token = "0x6001C4D")]
-		[Address(RVA = "0xE8F6F0", Offset = "0xE8DCF0", VA = "0x180E8F6F0")]
+		[Address(RVA = "0x6093B80", Offset = "0x6092B80", VA = "0x6093B80")]
 		get
 		{
 			return default(double);
@@ -201,7 +201,7 @@ internal sealed class XPathScanner
 	public bool CanBeFunction
 	{
 		[Token(Token = "0x6001C4E")]
-		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
+		[Address(RVA = "0x6093B90", Offset = "0x6092B90", VA = "0x6093B90")]
 		get
 		{
 			return default(bool);
@@ -209,54 +209,54 @@ internal sealed class XPathScanner
 	}
 
 	[Token(Token = "0x6001C45")]
-	[Address(RVA = "0x26DECD0", Offset = "0x26DD2D0", VA = "0x1826DECD0")]
+	[Address(RVA = "0x608FC70", Offset = "0x608EC70", VA = "0x608FC70")]
 	public XPathScanner(string xpathExpr)
 	{
 	}
 
 	[Token(Token = "0x6001C48")]
-	[Address(RVA = "0x26DE050", Offset = "0x26DC650", VA = "0x1826DE050")]
+	[Address(RVA = "0x6093AD0", Offset = "0x6092AD0", VA = "0x6093AD0")]
 	private bool NextChar()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C4F")]
-	[Address(RVA = "0x26DEC60", Offset = "0x26DD260", VA = "0x1826DEC60")]
+	[Address(RVA = "0x6093BA0", Offset = "0x6092BA0", VA = "0x6093BA0")]
 	private void SkipSpace()
 	{
 	}
 
 	[Token(Token = "0x6001C50")]
-	[Address(RVA = "0x26DE0B0", Offset = "0x26DC6B0", VA = "0x1826DE0B0")]
+	[Address(RVA = "0x60921E0", Offset = "0x60911E0", VA = "0x60921E0")]
 	public bool NextLex()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C51")]
-	[Address(RVA = "0x26DE9E0", Offset = "0x26DCFE0", VA = "0x1826DE9E0")]
+	[Address(RVA = "0x6093DF0", Offset = "0x6092DF0", VA = "0x6093DF0")]
 	private double ScanNumber()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001C52")]
-	[Address(RVA = "0x26DE860", Offset = "0x26DCE60", VA = "0x1826DE860")]
+	[Address(RVA = "0x6093C00", Offset = "0x6092C00", VA = "0x6093C00")]
 	private double ScanFraction()
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001C53")]
-	[Address(RVA = "0x26DEB50", Offset = "0x26DD150", VA = "0x1826DEB50")]
+	[Address(RVA = "0x6093CD0", Offset = "0x6092CD0", VA = "0x6093CD0")]
 	private string ScanString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C54")]
-	[Address(RVA = "0x26DE940", Offset = "0x26DCF40", VA = "0x1826DE940")]
+	[Address(RVA = "0x6093F10", Offset = "0x6092F10", VA = "0x6093F10")]
 	private string ScanName()
 	{
 		return null;

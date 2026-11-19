@@ -57,13 +57,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public float spacing
 	{
 		[Token(Token = "0x60002A4")]
-		[Address(RVA = "0x58A700", Offset = "0x588D00", VA = "0x18058A700")]
+		[Address(RVA = "0x6CE0AA0", Offset = "0x6CDFAA0", VA = "0x6CE0AA0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002A5")]
-		[Address(RVA = "0x32C6020", Offset = "0x32C4620", VA = "0x1832C6020")]
+		[Address(RVA = "0x6CE0AB0", Offset = "0x6CDFAB0", VA = "0x6CE0AB0")]
 		set
 		{
 		}
@@ -73,13 +73,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childForceExpandWidth
 	{
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x2CBC320", Offset = "0x2CBA920", VA = "0x182CBC320")]
+		[Address(RVA = "0x6CE0B00", Offset = "0x6CDFB00", VA = "0x6CE0B00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x32C5EE0", Offset = "0x32C44E0", VA = "0x1832C5EE0")]
+		[Address(RVA = "0x6CE0B10", Offset = "0x6CDFB10", VA = "0x6CE0B10")]
 		set
 		{
 		}
@@ -89,13 +89,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childForceExpandHeight
 	{
 		[Token(Token = "0x60002A8")]
-		[Address(RVA = "0x2511000", Offset = "0x250F600", VA = "0x182511000")]
+		[Address(RVA = "0x6CE0B60", Offset = "0x6CDFB60", VA = "0x6CE0B60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x32C5E90", Offset = "0x32C4490", VA = "0x1832C5E90")]
+		[Address(RVA = "0x6CE0B70", Offset = "0x6CDFB70", VA = "0x6CE0B70")]
 		set
 		{
 		}
@@ -105,13 +105,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childControlWidth
 	{
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x2510380", Offset = "0x250E980", VA = "0x182510380")]
+		[Address(RVA = "0x6CE0BC0", Offset = "0x6CDFBC0", VA = "0x6CE0BC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AB")]
-		[Address(RVA = "0x32C5E40", Offset = "0x32C4440", VA = "0x1832C5E40")]
+		[Address(RVA = "0x6CE0BD0", Offset = "0x6CDFBD0", VA = "0x6CE0BD0")]
 		set
 		{
 		}
@@ -121,13 +121,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childControlHeight
 	{
 		[Token(Token = "0x60002AC")]
-		[Address(RVA = "0x2510370", Offset = "0x250E970", VA = "0x182510370")]
+		[Address(RVA = "0x6CE0C20", Offset = "0x6CDFC20", VA = "0x6CE0C20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AD")]
-		[Address(RVA = "0x32C5DF0", Offset = "0x32C43F0", VA = "0x1832C5DF0")]
+		[Address(RVA = "0x6CE0C30", Offset = "0x6CDFC30", VA = "0x6CE0C30")]
 		set
 		{
 		}
@@ -137,13 +137,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childScaleWidth
 	{
 		[Token(Token = "0x60002AE")]
-		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
+		[Address(RVA = "0x6CE0C80", Offset = "0x6CDFC80", VA = "0x6CE0C80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AF")]
-		[Address(RVA = "0x32C5F80", Offset = "0x32C4580", VA = "0x1832C5F80")]
+		[Address(RVA = "0x6CE0C90", Offset = "0x6CDFC90", VA = "0x6CE0C90")]
 		set
 		{
 		}
@@ -153,13 +153,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childScaleHeight
 	{
 		[Token(Token = "0x60002B0")]
-		[Address(RVA = "0x12BEF40", Offset = "0x12BD540", VA = "0x1812BEF40")]
+		[Address(RVA = "0x6CE0CE0", Offset = "0x6CDFCE0", VA = "0x6CE0CE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002B1")]
-		[Address(RVA = "0x32C5F30", Offset = "0x32C4530", VA = "0x1832C5F30")]
+		[Address(RVA = "0x6CE0CF0", Offset = "0x6CDFCF0", VA = "0x6CE0CF0")]
 		set
 		{
 		}
@@ -169,38 +169,38 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool reverseArrangement
 	{
 		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x26EDC80", Offset = "0x26EC280", VA = "0x1826EDC80")]
+		[Address(RVA = "0x6CE0D40", Offset = "0x6CDFD40", VA = "0x6CE0D40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x32C5FD0", Offset = "0x32C45D0", VA = "0x1832C5FD0")]
+		[Address(RVA = "0x6CE0D50", Offset = "0x6CDFD50", VA = "0x6CE0D50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x32C4FA0", Offset = "0x32C35A0", VA = "0x1832C4FA0")]
+	[Address(RVA = "0x6CDFB20", Offset = "0x6CDEB20", VA = "0x6CDFB20")]
 	protected void CalcAlongAxis(int axis, bool isVertical)
 	{
 	}
 
 	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x32C54A0", Offset = "0x32C3AA0", VA = "0x1832C54A0")]
+	[Address(RVA = "0x6CE0080", Offset = "0x6CDF080", VA = "0x6CE0080")]
 	protected void SetChildrenAlongAxis(int axis, bool isVertical)
 	{
 	}
 
 	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x32C5390", Offset = "0x32C3990", VA = "0x1832C5390")]
+	[Address(RVA = "0x6CE0DA0", Offset = "0x6CDFDA0", VA = "0x6CE0DA0")]
 	private void GetChildSizes(RectTransform child, int axis, bool controlSize, bool childForceExpand, out float min, out float preferred, out float flexible)
 	{
 	}
 
 	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x32C4F90", Offset = "0x32C3590", VA = "0x1832C4F90")]
+	[Address(RVA = "0x6CDFAF0", Offset = "0x6CDEAF0", VA = "0x6CDFAF0")]
 	protected HorizontalOrVerticalLayoutGroup()
 	{
 	}

@@ -11,38 +11,38 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200039E")]
+[Token(Token = "0x2000372")]
 [UnityEngine.Scripting.UsedByNativeCode]
 internal struct CoreCameraValues : IEquatable<CoreCameraValues>
 {
-	[Token(Token = "0x4000B34")]
+	[Token(Token = "0x4000A14")]
 	[FieldOffset(Offset = "0x0")]
 	private int filterMode;
 
-	[Token(Token = "0x4000B35")]
+	[Token(Token = "0x4000A15")]
 	[FieldOffset(Offset = "0x4")]
 	private uint cullingMask;
 
-	[Token(Token = "0x4000B36")]
+	[Token(Token = "0x4000A16")]
 	[FieldOffset(Offset = "0x8")]
 	private int instanceID;
 
-	[Token(Token = "0x60015E8")]
-	[Address(RVA = "0x2F2C960", Offset = "0x2F2AF60", VA = "0x182F2C960", Slot = "4")]
+	[Token(Token = "0x600158D")]
+	[Address(RVA = "0x6956A50", Offset = "0x6955A50", VA = "0x6956A50", Slot = "4")]
 	public bool Equals(CoreCameraValues other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015E9")]
-	[Address(RVA = "0x2F63F30", Offset = "0x2F62530", VA = "0x182F63F30", Slot = "0")]
+	[Token(Token = "0x600158E")]
+	[Address(RVA = "0x6956A70", Offset = "0x6955A70", VA = "0x6956A70", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015EA")]
-	[Address(RVA = "0x2F63FE0", Offset = "0x2F625E0", VA = "0x182F63FE0", Slot = "2")]
+	[Token(Token = "0x600158F")]
+	[Address(RVA = "0x6956AE0", Offset = "0x6955AE0", VA = "0x6956AE0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

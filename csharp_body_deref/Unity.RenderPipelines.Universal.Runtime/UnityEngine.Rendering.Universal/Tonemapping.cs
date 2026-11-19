@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Tonemapping
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -63,14 +63,14 @@ public sealed class Tonemapping : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter maxNits;
 
 	[Token(Token = "0x60006DB")]
-	[Address(RVA = "0x2C6E860", Offset = "0x2C6CE60", VA = "0x182C6E860", Slot = "8")]
+	[Address(RVA = "0x664C690", Offset = "0x664B690", VA = "0x664C690", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006DC")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+	[Address(RVA = "0x664C6C0", Offset = "0x664B6C0", VA = "0x664C6C0", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -78,7 +78,7 @@ public sealed class Tonemapping : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006DD")]
-	[Address(RVA = "0x2C6E890", Offset = "0x2C6CE90", VA = "0x182C6E890")]
+	[Address(RVA = "0x664C6D0", Offset = "0x664B6D0", VA = "0x664C6D0")]
 	public Tonemapping()
 	{
 	}

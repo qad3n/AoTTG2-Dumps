@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000163")]
+[Token(Token = "0x2000124")]
 public interface ISupportInitialize
 {
-	[Token(Token = "0x60008F1")]
+	[Token(Token = "0x6000731")]
 	void BeginInit();
 
-	[Token(Token = "0x60008F2")]
+	[Token(Token = "0x6000732")]
 	void EndInit();
 }

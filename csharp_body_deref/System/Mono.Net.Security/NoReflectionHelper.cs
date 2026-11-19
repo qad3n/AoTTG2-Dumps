@@ -12,8 +12,8 @@ namespace Mono.Net.Security;
 [Token(Token = "0x2000063")]
 internal static class NoReflectionHelper
 {
-	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x249E540", Offset = "0x249CB40", VA = "0x18249E540")]
+	[Token(Token = "0x6000167")]
+	[Address(RVA = "0x5E3F050", Offset = "0x5E3E050", VA = "0x5E3F050")]
 	internal static object GetProvider()
 	{
 		return null;

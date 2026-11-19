@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.EventDispatcher
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -89,7 +89,7 @@ public sealed class EventDispatcher
 	internal PointerDispatchState pointerState
 	{
 		[Token(Token = "0x6000BBF")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6C5D580", Offset = "0x6C5C580", VA = "0x6C5D580")]
 		[CompilerGenerated]
 		get
 		{
@@ -101,7 +101,7 @@ public sealed class EventDispatcher
 	private bool dispatchImmediately
 	{
 		[Token(Token = "0x6000BC2")]
-		[Address(RVA = "0x32606B0", Offset = "0x325ECB0", VA = "0x1832606B0")]
+		[Address(RVA = "0x6C5D730", Offset = "0x6C5C730", VA = "0x6C5D730")]
 		get
 		{
 			return default(bool);
@@ -112,7 +112,7 @@ public sealed class EventDispatcher
 	private bool processingEvents
 	{
 		[Token(Token = "0x6000BC3")]
-		[Address(RVA = "0x58AA20", Offset = "0x589020", VA = "0x18058AA20")]
+		[Address(RVA = "0x6C5D750", Offset = "0x6C5C750", VA = "0x6C5D750")]
 		[CompilerGenerated]
 		set
 		{
@@ -120,53 +120,53 @@ public sealed class EventDispatcher
 	}
 
 	[Token(Token = "0x6000BC0")]
-	[Address(RVA = "0x325F630", Offset = "0x325DC30", VA = "0x18325F630")]
+	[Address(RVA = "0x6C5D590", Offset = "0x6C5C590", VA = "0x6C5D590")]
 	internal static EventDispatcher CreateDefault()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BC1")]
-	[Address(RVA = "0x3260550", Offset = "0x325EB50", VA = "0x183260550")]
+	[Address(RVA = "0x6C5D5D0", Offset = "0x6C5C5D0", VA = "0x6C5D5D0")]
 	[Obsolete("Please use EventDispatcher.CreateDefault().")]
 	internal EventDispatcher()
 	{
 	}
 
 	[Token(Token = "0x6000BC4")]
-	[Address(RVA = "0x325F7B0", Offset = "0x325DDB0", VA = "0x18325F7B0")]
+	[Address(RVA = "0x6C5D760", Offset = "0x6C5C760", VA = "0x6C5D760")]
 	internal void Dispatch(EventBase evt, [NotNull] BaseVisualElementPanel panel, DispatchMode dispatchMode)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000BC5")]
-	[Address(RVA = "0x325F9A0", Offset = "0x325DFA0", VA = "0x18325F9A0")]
+	[Address(RVA = "0x6C5DC80", Offset = "0x6C5CC80", VA = "0x6C5DC80")]
 	private bool HandleRecursiveState(EventBase evt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BC6")]
-	[Address(RVA = "0x325F610", Offset = "0x325DC10", VA = "0x18325F610")]
+	[Address(RVA = "0x6C5D340", Offset = "0x6C5C340", VA = "0x6C5D340")]
 	internal void CloseGate()
 	{
 	}
 
 	[Token(Token = "0x6000BC7")]
-	[Address(RVA = "0x325FD80", Offset = "0x325E380", VA = "0x18325FD80")]
+	[Address(RVA = "0x6C5D380", Offset = "0x6C5C380", VA = "0x6C5D380")]
 	internal void OpenGate()
 	{
 	}
 
 	[Token(Token = "0x6000BC8")]
-	[Address(RVA = "0x325FE60", Offset = "0x325E460", VA = "0x18325FE60")]
+	[Address(RVA = "0x6C5E100", Offset = "0x6C5D100", VA = "0x6C5E100")]
 	private void ProcessEventQueue()
 	{
 	}
 
 	[Token(Token = "0x6000BC9")]
-	[Address(RVA = "0x3260100", Offset = "0x325E700", VA = "0x183260100")]
+	[Address(RVA = "0x6C5D9C0", Offset = "0x6C5C9C0", VA = "0x6C5D9C0")]
 	private void ProcessEvent(EventBase evt, [NotNull] BaseVisualElementPanel panel)
 	{
 	}

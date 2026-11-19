@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000CB")]
+[Token(Token = "0x20000CC")]
 public enum FullScreenMode
 {
-	[Token(Token = "0x4000214")]
+	[Token(Token = "0x4000219")]
 	ExclusiveFullScreen,
-	[Token(Token = "0x4000215")]
+	[Token(Token = "0x400021A")]
 	FullScreenWindow,
-	[Token(Token = "0x4000216")]
+	[Token(Token = "0x400021B")]
 	MaximizedWindow,
-	[Token(Token = "0x4000217")]
+	[Token(Token = "0x400021C")]
 	Windowed
 }

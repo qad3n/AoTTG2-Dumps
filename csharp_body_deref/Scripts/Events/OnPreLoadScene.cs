@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 
 namespace Events;
 
-[Token(Token = "0x2000892")]
+[Token(Token = "0x20008F8")]
 public delegate void OnPreLoadScene(SceneName sceneName);

@@ -56,25 +56,25 @@ public class PhotonRigidbodyView : MonoBehaviourPun, IPunObservable
 	public float m_TeleportIfDistanceGreaterThan;
 
 	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x1D63A30", Offset = "0x1D62030", VA = "0x181D63A30")]
+	[Address(RVA = "0x56FC470", Offset = "0x56FB470", VA = "0x56FC470")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x1D63A90", Offset = "0x1D62090", VA = "0x181D63A90")]
+	[Address(RVA = "0x56FC4C0", Offset = "0x56FB4C0", VA = "0x56FC4C0")]
 	public void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x60001B7")]
-	[Address(RVA = "0x1D63D30", Offset = "0x1D62330", VA = "0x181D63D30", Slot = "4")]
+	[Address(RVA = "0x56FC810", Offset = "0x56FB810", VA = "0x56FC810", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001B8")]
-	[Address(RVA = "0x1D644E0", Offset = "0x1D62AE0", VA = "0x181D644E0")]
+	[Address(RVA = "0x56FCF10", Offset = "0x56FBF10", VA = "0x56FCF10")]
 	public PhotonRigidbodyView()
 	{
 	}

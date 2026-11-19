@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.Internal.FinalBlitPass
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -91,7 +91,7 @@ public class FinalBlitPass : ScriptableRenderPass
 		internal bool useFullScreenViewport;
 
 		[Token(Token = "0x6000BF2")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66D2470", Offset = "0x66D1470", VA = "0x66D2470")]
 		public PassData()
 		{
 		}
@@ -106,64 +106,64 @@ public class FinalBlitPass : ScriptableRenderPass
 	private BlitMaterialData[] m_BlitMaterialData;
 
 	[Token(Token = "0x6000BE7")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
+	[Address(RVA = "0x66D1080", Offset = "0x66D0080", VA = "0x66D1080", Slot = "6")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
+	[Address(RVA = "0x66D1090", Offset = "0x66D0090", VA = "0x66D1090", Slot = "9")]
 	[Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
 	public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x2CD0750", Offset = "0x2CCED50", VA = "0x182CD0750")]
+	[Address(RVA = "0x66D10A0", Offset = "0x66D00A0", VA = "0x66D10A0")]
 	public FinalBlitPass(RenderPassEvent evt, Material blitMaterial, Material blitHDRMaterial)
 	{
 	}
 
 	[Token(Token = "0x6000BEA")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66D12C0", Offset = "0x66D02C0", VA = "0x66D12C0")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000BEB")]
-	[Address(RVA = "0x2CD06B0", Offset = "0x2CCECB0", VA = "0x182CD06B0")]
+	[Address(RVA = "0x66D12D0", Offset = "0x66D02D0", VA = "0x66D12D0")]
 	[Obsolete("Use RTHandles for colorHandle. #from(2022.1) #breakingFrom(2023.1)", true)]
 	public void Setup(RenderTextureDescriptor baseDescriptor, RenderTargetHandle colorHandle)
 	{
 	}
 
 	[Token(Token = "0x6000BEC")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x66D1320", Offset = "0x66D0320", VA = "0x66D1320")]
 	public void Setup(RenderTextureDescriptor baseDescriptor, RTHandle colorHandle)
 	{
 	}
 
 	[Token(Token = "0x6000BED")]
-	[Address(RVA = "0x2CD05D0", Offset = "0x2CCEBD0", VA = "0x182CD05D0")]
+	[Address(RVA = "0x66D1330", Offset = "0x66D0330", VA = "0x66D1330")]
 	private static void SetupHDROutput(ColorGamut hdrDisplayColorGamut, Material material, HDROutputUtils.Operation hdrOperation, Vector4 hdrOutputParameters, bool rendersOverlayUI)
 	{
 	}
 
 	[Token(Token = "0x6000BEE")]
-	[Address(RVA = "0x2CCF7E0", Offset = "0x2CCDDE0", VA = "0x182CCF7E0")]
+	[Address(RVA = "0x66D1460", Offset = "0x66D0460", VA = "0x66D1460")]
 	private static void ExecutePass(RasterCommandBuffer cmd, PassData data, RTHandle source, RTHandle destination, UniversalCameraData cameraData, Vector4 scaleBias)
 	{
 	}
 
 	[Token(Token = "0x6000BEF")]
-	[Address(RVA = "0x2CCFB90", Offset = "0x2CCE190", VA = "0x182CCFB90")]
+	[Address(RVA = "0x66D17A0", Offset = "0x66D07A0", VA = "0x66D17A0")]
 	private void InitPassData(UniversalCameraData cameraData, ref PassData passData, BlitType blitType, bool enableAlphaOutput, bool useFullScreenViewport)
 	{
 	}
 
 	[Token(Token = "0x6000BF0")]
-	[Address(RVA = "0x2CCFC40", Offset = "0x2CCE240", VA = "0x182CCFC40")]
+	[Address(RVA = "0x66D1850", Offset = "0x66D0850", VA = "0x66D1850")]
 	internal void Render(RenderGraph renderGraph, ContextContainer frameData, UniversalCameraData cameraData, in TextureHandle src, in TextureHandle dest, TextureHandle overlayUITexture, bool useFullScreenViewport = false)
 	{
 	}

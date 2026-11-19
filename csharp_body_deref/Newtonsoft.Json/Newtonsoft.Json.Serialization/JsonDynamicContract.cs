@@ -28,7 +28,7 @@ public class JsonDynamicContract : JsonContainerContract
 	public JsonPropertyCollection Properties
 	{
 		[Token(Token = "0x6000826")]
-		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
+		[Address(RVA = "0x55D1750", Offset = "0x55D0750", VA = "0x55D1750")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,14 +40,14 @@ public class JsonDynamicContract : JsonContainerContract
 	public Func<string, string>? PropertyNameResolver
 	{
 		[Token(Token = "0x6000827")]
-		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
+		[Address(RVA = "0x55D1760", Offset = "0x55D0760", VA = "0x55D1760")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000828")]
-		[Address(RVA = "0x1C42420", Offset = "0x1C40A20", VA = "0x181C42420")]
+		[Address(RVA = "0x55D1770", Offset = "0x55D0770", VA = "0x55D1770")]
 		[CompilerGenerated]
 		set
 		{
@@ -55,34 +55,34 @@ public class JsonDynamicContract : JsonContainerContract
 	}
 
 	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x1C41E20", Offset = "0x1C40420", VA = "0x181C41E20")]
+	[Address(RVA = "0x55D1790", Offset = "0x55D0790", VA = "0x55D1790")]
 	private static CallSite<Func<CallSite, object, object>> CreateCallSiteGetter(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x1C41F20", Offset = "0x1C40520", VA = "0x181C41F20")]
+	[Address(RVA = "0x55D1890", Offset = "0x55D0890", VA = "0x55D1890")]
 	private static CallSite<Func<CallSite, object, object, object>> CreateCallSiteSetter(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x1C42280", Offset = "0x1C40880", VA = "0x181C42280")]
+	[Address(RVA = "0x55CB310", Offset = "0x55CA310", VA = "0x55CB310")]
 	public JsonDynamicContract(Type underlyingType)
 	{
 	}
 
 	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x1C42020", Offset = "0x1C40620", VA = "0x181C42020")]
+	[Address(RVA = "0x55D1990", Offset = "0x55D0990", VA = "0x55D1990")]
 	internal bool TryGetMember(IDynamicMetaObjectProvider dynamicProvider, string name, out object? value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x1C42160", Offset = "0x1C40760", VA = "0x181C42160")]
+	[Address(RVA = "0x55D1AC0", Offset = "0x55D0AC0", VA = "0x55D1AC0")]
 	internal bool TrySetMember(IDynamicMetaObjectProvider dynamicProvider, string name, object? value)
 	{
 		return default(bool);

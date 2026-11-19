@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000191")]
+[Token(Token = "0x2000152")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event)]
 public sealed class InheritanceAttribute : Attribute
 {
-	[Token(Token = "0x4000680")]
+	[Token(Token = "0x40005B1")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly InheritanceAttribute Inherited;
 
-	[Token(Token = "0x4000681")]
+	[Token(Token = "0x40005B2")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly InheritanceAttribute InheritedReadOnly;
 
-	[Token(Token = "0x4000682")]
+	[Token(Token = "0x40005B3")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly InheritanceAttribute NotInherited;
 
-	[Token(Token = "0x4000683")]
+	[Token(Token = "0x40005B4")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly InheritanceAttribute Default;
 
-	[Token(Token = "0x170001F4")]
+	[Token(Token = "0x170001C5")]
 	public InheritanceLevel InheritanceLevel
 	{
-		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Token(Token = "0x6000866")]
+		[Address(RVA = "0x6230360", Offset = "0x622F360", VA = "0x6230360")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,41 +42,41 @@ public sealed class InheritanceAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x289ED60", Offset = "0x289D360", VA = "0x18289ED60")]
+	[Token(Token = "0x6000864")]
+	[Address(RVA = "0x62302D0", Offset = "0x622F2D0", VA = "0x62302D0")]
 	public InheritanceAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000A25")]
-	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
+	[Token(Token = "0x6000865")]
+	[Address(RVA = "0x6230340", Offset = "0x622F340", VA = "0x6230340")]
 	public InheritanceAttribute(InheritanceLevel inheritanceLevel)
 	{
 	}
 
-	[Token(Token = "0x6000A27")]
-	[Address(RVA = "0x289EA40", Offset = "0x289D040", VA = "0x18289EA40", Slot = "0")]
+	[Token(Token = "0x6000867")]
+	[Address(RVA = "0x6230370", Offset = "0x622F370", VA = "0x6230370", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A28")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x6000868")]
+	[Address(RVA = "0x62303E0", Offset = "0x622F3E0", VA = "0x62303E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A29")]
-	[Address(RVA = "0x289EAE0", Offset = "0x289D0E0", VA = "0x18289EAE0", Slot = "6")]
+	[Token(Token = "0x6000869")]
+	[Address(RVA = "0x62303F0", Offset = "0x622F3F0", VA = "0x62303F0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A2A")]
-	[Address(RVA = "0x289EB50", Offset = "0x289D150", VA = "0x18289EB50", Slot = "3")]
+	[Token(Token = "0x600086A")]
+	[Address(RVA = "0x6230460", Offset = "0x622F460", VA = "0x6230460", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

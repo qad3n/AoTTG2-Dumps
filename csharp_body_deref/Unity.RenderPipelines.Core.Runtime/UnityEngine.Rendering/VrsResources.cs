@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.VrsResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -61,7 +61,7 @@ internal class VrsResources : IDisposable
 	internal Material visualizationMaterial
 	{
 		[Token(Token = "0x6000FBF")]
-		[Address(RVA = "0x2B83290", Offset = "0x2B81890", VA = "0x182B83290")]
+		[Address(RVA = "0x6559CD0", Offset = "0x6558CD0", VA = "0x6559CD0")]
 		get
 		{
 			return null;
@@ -69,50 +69,50 @@ internal class VrsResources : IDisposable
 	}
 
 	[Token(Token = "0x6000FC0")]
-	[Address(RVA = "0x2B831B0", Offset = "0x2B817B0", VA = "0x182B831B0")]
+	[Address(RVA = "0x65583F0", Offset = "0x65573F0", VA = "0x65583F0")]
 	internal VrsResources(VrsRenderPipelineRuntimeResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000FC1")]
-	[Address(RVA = "0x2B82C10", Offset = "0x2B81210", VA = "0x182B82C10", Slot = "1")]
+	[Address(RVA = "0x655B570", Offset = "0x655A570", VA = "0x655B570", Slot = "1")]
 	~VrsResources()
 	{
 	}
 
 	[Token(Token = "0x6000FC2")]
-	[Address(RVA = "0x2B82C00", Offset = "0x2B81200", VA = "0x182B82C00", Slot = "4")]
+	[Address(RVA = "0x6558580", Offset = "0x6557580", VA = "0x6558580", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000FC3")]
-	[Address(RVA = "0x2B82F20", Offset = "0x2B81520", VA = "0x182B82F20")]
+	[Address(RVA = "0x655B4E0", Offset = "0x655A4E0", VA = "0x655B4E0")]
 	private void InitializeResources(VrsRenderPipelineRuntimeResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x2B82B20", Offset = "0x2B81120", VA = "0x182B82B20")]
+	[Address(RVA = "0x655B640", Offset = "0x655A640", VA = "0x655B640")]
 	private void DisposeResources()
 	{
 	}
 
 	[Token(Token = "0x6000FC5")]
-	[Address(RVA = "0x2B82970", Offset = "0x2B80F70", VA = "0x182B82970")]
+	[Address(RVA = "0x655B9B0", Offset = "0x655A9B0", VA = "0x655B9B0")]
 	private void AllocFragmentSizeBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000FC6")]
-	[Address(RVA = "0x2B82CB0", Offset = "0x2B812B0", VA = "0x182B82CB0")]
+	[Address(RVA = "0x655B730", Offset = "0x655A730", VA = "0x655B730")]
 	private bool InitComputeShader(VrsRenderPipelineRuntimeResources resources)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC7")]
-	[Address(RVA = "0x2B83160", Offset = "0x2B81760", VA = "0x182B83160")]
+	[Address(RVA = "0x655BB40", Offset = "0x655AB40", VA = "0x655BB40")]
 	private static int TryFindKernel(ComputeShader computeShader, string name)
 	{
 		return default(int);

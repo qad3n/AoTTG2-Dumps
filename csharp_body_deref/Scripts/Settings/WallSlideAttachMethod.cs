@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000BB")]
+[Token(Token = "0x20000F3")]
 public enum WallSlideAttachMethod
 {
-	[Token(Token = "0x4000448")]
+	[Token(Token = "0x400057E")]
 	None,
-	[Token(Token = "0x4000449")]
+	[Token(Token = "0x400057F")]
 	Strafe,
-	[Token(Token = "0x400044A")]
+	[Token(Token = "0x4000580")]
 	Auto
 }

@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public sealed class RequiresUnityAPIAttribute : Attribute
 {
 	[Token(Token = "0x6000FDA")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6847B30", Offset = "0x6846B30", VA = "0x6847B30")]
 	public RequiresUnityAPIAttribute()
 	{
 	}

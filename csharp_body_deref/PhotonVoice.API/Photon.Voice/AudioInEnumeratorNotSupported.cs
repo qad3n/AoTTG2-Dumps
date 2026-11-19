@@ -13,7 +13,7 @@ namespace Photon.Voice;
 internal class AudioInEnumeratorNotSupported : DeviceEnumeratorNotSupported
 {
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x1D67D80", Offset = "0x1D66380", VA = "0x181D67D80")]
+	[Address(RVA = "0x5704E20", Offset = "0x5703E20", VA = "0x5704E20")]
 	public AudioInEnumeratorNotSupported(ILogger logger)
 	{
 	}

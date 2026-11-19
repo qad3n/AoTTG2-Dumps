@@ -32,13 +32,13 @@ public struct VertexGradient
 	public Color bottomRight;
 
 	[Token(Token = "0x6000652")]
-	[Address(RVA = "0x2D7E6E0", Offset = "0x2D7CCE0", VA = "0x182D7E6E0")]
+	[Address(RVA = "0x6760850", Offset = "0x675F850", VA = "0x6760850")]
 	public VertexGradient(Color color)
 	{
 	}
 
 	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x2A401B0", Offset = "0x2A3E7B0", VA = "0x182A401B0")]
+	[Address(RVA = "0x6760870", Offset = "0x675F870", VA = "0x6760870")]
 	public VertexGradient(Color color0, Color color1, Color color2, Color color3)
 	{
 	}

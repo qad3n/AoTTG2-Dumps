@@ -11,76 +11,76 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FB")]
+[Token(Token = "0x20003B7")]
 public sealed class SocketElement : ConfigurationElement
 {
-	[Token(Token = "0x170005EA")]
+	[Token(Token = "0x170005BC")]
 	public bool AlwaysUseCompletionPortsForAccept
 	{
-		[Token(Token = "0x6001AC5")]
-		[Address(RVA = "0x282C790", Offset = "0x282AD90", VA = "0x18282C790")]
+		[Token(Token = "0x600190B")]
+		[Address(RVA = "0x61D1B80", Offset = "0x61D0B80", VA = "0x61D1B80")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001AC6")]
-		[Address(RVA = "0x282C850", Offset = "0x282AE50", VA = "0x18282C850")]
+		[Token(Token = "0x600190C")]
+		[Address(RVA = "0x61D1BB0", Offset = "0x61D0BB0", VA = "0x61D1BB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005EB")]
+	[Token(Token = "0x170005BD")]
 	public bool AlwaysUseCompletionPortsForConnect
 	{
-		[Token(Token = "0x6001AC7")]
-		[Address(RVA = "0x282C7C0", Offset = "0x282ADC0", VA = "0x18282C7C0")]
+		[Token(Token = "0x600190D")]
+		[Address(RVA = "0x61D1BE0", Offset = "0x61D0BE0", VA = "0x61D1BE0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001AC8")]
-		[Address(RVA = "0x282C880", Offset = "0x282AE80", VA = "0x18282C880")]
+		[Token(Token = "0x600190E")]
+		[Address(RVA = "0x61D1C10", Offset = "0x61D0C10", VA = "0x61D1C10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005EC")]
+	[Token(Token = "0x170005BE")]
 	public IPProtectionLevel IPProtectionLevel
 	{
-		[Token(Token = "0x6001AC9")]
-		[Address(RVA = "0x282C7F0", Offset = "0x282ADF0", VA = "0x18282C7F0")]
+		[Token(Token = "0x600190F")]
+		[Address(RVA = "0x61D1C40", Offset = "0x61D0C40", VA = "0x61D1C40")]
 		get
 		{
 			return default(IPProtectionLevel);
 		}
-		[Token(Token = "0x6001ACA")]
-		[Address(RVA = "0x282C8B0", Offset = "0x282AEB0", VA = "0x18282C8B0")]
+		[Token(Token = "0x6001910")]
+		[Address(RVA = "0x61D1C70", Offset = "0x61D0C70", VA = "0x61D1C70")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005ED")]
+	[Token(Token = "0x170005BF")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001ACB")]
-		[Address(RVA = "0x282C820", Offset = "0x282AE20", VA = "0x18282C820", Slot = "4")]
+		[Token(Token = "0x6001911")]
+		[Address(RVA = "0x61D1CA0", Offset = "0x61D0CA0", VA = "0x61D1CA0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001AC4")]
-	[Address(RVA = "0x282C760", Offset = "0x282AD60", VA = "0x18282C760")]
+	[Token(Token = "0x600190A")]
+	[Address(RVA = "0x61D1B50", Offset = "0x61D0B50", VA = "0x61D1B50")]
 	public SocketElement()
 	{
 	}
 
-	[Token(Token = "0x6001ACC")]
-	[Address(RVA = "0x282C730", Offset = "0x282AD30", VA = "0x18282C730", Slot = "8")]
+	[Token(Token = "0x6001912")]
+	[Address(RVA = "0x61D1CD0", Offset = "0x61D0CD0", VA = "0x61D1CD0", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

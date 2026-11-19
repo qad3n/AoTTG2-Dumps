@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.FontAsset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -357,13 +357,13 @@ public class FontAsset : TextAsset
 	public FontAssetCreationEditorSettings fontAssetCreationEditorSettings
 	{
 		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x30124E0", Offset = "0x3010AE0", VA = "0x1830124E0")]
+		[Address(RVA = "0x6A102D0", Offset = "0x6A0F2D0", VA = "0x6A102D0")]
 		get
 		{
 			return default(FontAssetCreationEditorSettings);
 		}
 		[Token(Token = "0x6000092")]
-		[Address(RVA = "0x3012920", Offset = "0x3010F20", VA = "0x183012920")]
+		[Address(RVA = "0x6A10310", Offset = "0x6A0F310", VA = "0x6A10310")]
 		set
 		{
 		}
@@ -373,13 +373,13 @@ public class FontAsset : TextAsset
 	public Font sourceFontFile
 	{
 		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x2E8CB50", Offset = "0x2E8B150", VA = "0x182E8CB50")]
+		[Address(RVA = "0x6A10360", Offset = "0x6A0F360", VA = "0x6A10360")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x189BA60", Offset = "0x189A060", VA = "0x18189BA60")]
+		[Address(RVA = "0x6A10370", Offset = "0x6A0F370", VA = "0x6A10370")]
 		internal set
 		{
 		}
@@ -389,13 +389,13 @@ public class FontAsset : TextAsset
 	public AtlasPopulationMode atlasPopulationMode
 	{
 		[Token(Token = "0x6000095")]
-		[Address(RVA = "0x30122C0", Offset = "0x30108C0", VA = "0x1830122C0")]
+		[Address(RVA = "0x6A10390", Offset = "0x6A0F390", VA = "0x6A10390")]
 		get
 		{
 			return default(AtlasPopulationMode);
 		}
 		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x1C43490", Offset = "0x1C41A90", VA = "0x181C43490")]
+		[Address(RVA = "0x6A103A0", Offset = "0x6A0F3A0", VA = "0x6A103A0")]
 		set
 		{
 		}
@@ -405,13 +405,13 @@ public class FontAsset : TextAsset
 	public FaceInfo faceInfo
 	{
 		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x3012430", Offset = "0x3010A30", VA = "0x183012430")]
+		[Address(RVA = "0x6A103B0", Offset = "0x6A0F3B0", VA = "0x6A103B0")]
 		get
 		{
 			return default(FaceInfo);
 		}
 		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x3012710", Offset = "0x3010D10", VA = "0x183012710")]
+		[Address(RVA = "0x6A10400", Offset = "0x6A0F400", VA = "0x6A10400")]
 		set
 		{
 		}
@@ -421,13 +421,13 @@ public class FontAsset : TextAsset
 	internal int familyNameHashCode
 	{
 		[Token(Token = "0x6000099")]
-		[Address(RVA = "0x3012490", Offset = "0x3010A90", VA = "0x183012490")]
+		[Address(RVA = "0x6A105D0", Offset = "0x6A0F5D0", VA = "0x6A105D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x3012910", Offset = "0x3010F10", VA = "0x183012910")]
+		[Address(RVA = "0x6A10600", Offset = "0x6A0F600", VA = "0x6A10600")]
 		set
 		{
 		}
@@ -437,13 +437,13 @@ public class FontAsset : TextAsset
 	internal int styleNameHashCode
 	{
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x3012610", Offset = "0x3010C10", VA = "0x183012610")]
+		[Address(RVA = "0x6A10610", Offset = "0x6A0F610", VA = "0x6A10610")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x30129F0", Offset = "0x3010FF0", VA = "0x1830129F0")]
+		[Address(RVA = "0x6A10640", Offset = "0x6A0F640", VA = "0x6A10640")]
 		set
 		{
 		}
@@ -453,13 +453,13 @@ public class FontAsset : TextAsset
 	public List<Glyph> glyphTable
 	{
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x30125A0", Offset = "0x3010BA0", VA = "0x1830125A0")]
+		[Address(RVA = "0x6A10650", Offset = "0x6A0F650", VA = "0x6A10650")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x24C0B20", Offset = "0x24BF120", VA = "0x1824C0B20")]
+		[Address(RVA = "0x6A10660", Offset = "0x6A0F660", VA = "0x6A10660")]
 		internal set
 		{
 		}
@@ -469,7 +469,7 @@ public class FontAsset : TextAsset
 	public Dictionary<uint, Glyph> glyphLookupTable
 	{
 		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x3012560", Offset = "0x3010B60", VA = "0x183012560")]
+		[Address(RVA = "0x6A10680", Offset = "0x6A0F680", VA = "0x6A10680")]
 		get
 		{
 			return null;
@@ -480,13 +480,13 @@ public class FontAsset : TextAsset
 	public List<Character> characterTable
 	{
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x3012410", Offset = "0x3010A10", VA = "0x183012410")]
+		[Address(RVA = "0x6A10E70", Offset = "0x6A0FE70", VA = "0x6A10E70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x1D1FE00", Offset = "0x1D1E400", VA = "0x181D1FE00")]
+		[Address(RVA = "0x6A10E80", Offset = "0x6A0FE80", VA = "0x6A10E80")]
 		internal set
 		{
 		}
@@ -496,7 +496,7 @@ public class FontAsset : TextAsset
 	public Dictionary<uint, Character> characterLookupTable
 	{
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x30123D0", Offset = "0x30109D0", VA = "0x1830123D0")]
+		[Address(RVA = "0x6A10EA0", Offset = "0x6A0FEA0", VA = "0x6A10EA0")]
 		get
 		{
 			return null;
@@ -507,7 +507,7 @@ public class FontAsset : TextAsset
 	public Texture2D atlasTexture
 	{
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x30122F0", Offset = "0x30108F0", VA = "0x1830122F0")]
+		[Address(RVA = "0x6A10EC0", Offset = "0x6A0FEC0", VA = "0x6A10EC0")]
 		get
 		{
 			return null;
@@ -518,13 +518,13 @@ public class FontAsset : TextAsset
 	public Texture2D[] atlasTextures
 	{
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x3012390", Offset = "0x3010990", VA = "0x183012390")]
+		[Address(RVA = "0x6A10F50", Offset = "0x6A0FF50", VA = "0x6A10F50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x30126B0", Offset = "0x3010CB0", VA = "0x1830126B0")]
+		[Address(RVA = "0x6A10F60", Offset = "0x6A0FF60", VA = "0x6A10F60")]
 		set
 		{
 		}
@@ -534,7 +534,7 @@ public class FontAsset : TextAsset
 	public int atlasTextureCount
 	{
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x30122E0", Offset = "0x30108E0", VA = "0x1830122E0")]
+		[Address(RVA = "0x6A10F80", Offset = "0x6A0FF80", VA = "0x6A10F80")]
 		get
 		{
 			return default(int);
@@ -545,13 +545,13 @@ public class FontAsset : TextAsset
 	public bool isMultiAtlasTexturesEnabled
 	{
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x30125B0", Offset = "0x3010BB0", VA = "0x1830125B0")]
+		[Address(RVA = "0x6A10F90", Offset = "0x6A0FF90", VA = "0x6A10F90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x30129C0", Offset = "0x3010FC0", VA = "0x1830129C0")]
+		[Address(RVA = "0x6A10FA0", Offset = "0x6A0FFA0", VA = "0x6A10FA0")]
 		set
 		{
 		}
@@ -561,13 +561,13 @@ public class FontAsset : TextAsset
 	public bool getFontFeatures
 	{
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x3012550", Offset = "0x3010B50", VA = "0x183012550")]
+		[Address(RVA = "0x6A10FB0", Offset = "0x6A0FFB0", VA = "0x6A10FB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x30129B0", Offset = "0x3010FB0", VA = "0x1830129B0")]
+		[Address(RVA = "0x6A10FC0", Offset = "0x6A0FFC0", VA = "0x6A10FC0")]
 		set
 		{
 		}
@@ -577,13 +577,13 @@ public class FontAsset : TextAsset
 	internal bool clearDynamicDataOnBuild
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x3012420", Offset = "0x3010A20", VA = "0x183012420")]
+		[Address(RVA = "0x6A10FD0", Offset = "0x6A0FFD0", VA = "0x6A10FD0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x3012700", Offset = "0x3010D00", VA = "0x183012700")]
+		[Address(RVA = "0x6A10FE0", Offset = "0x6A0FFE0", VA = "0x6A10FE0")]
 		set
 		{
 		}
@@ -593,13 +593,13 @@ public class FontAsset : TextAsset
 	public int atlasWidth
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x30123A0", Offset = "0x30109A0", VA = "0x1830123A0")]
+		[Address(RVA = "0x6A10FF0", Offset = "0x6A0FFF0", VA = "0x6A10FF0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x30126D0", Offset = "0x3010CD0", VA = "0x1830126D0")]
+		[Address(RVA = "0x6A11000", Offset = "0x6A10000", VA = "0x6A11000")]
 		internal set
 		{
 		}
@@ -609,13 +609,13 @@ public class FontAsset : TextAsset
 	public int atlasHeight
 	{
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x30122A0", Offset = "0x30108A0", VA = "0x1830122A0")]
+		[Address(RVA = "0x6A11010", Offset = "0x6A10010", VA = "0x6A11010")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x3012680", Offset = "0x3010C80", VA = "0x183012680")]
+		[Address(RVA = "0x6A11020", Offset = "0x6A10020", VA = "0x6A11020")]
 		internal set
 		{
 		}
@@ -625,13 +625,13 @@ public class FontAsset : TextAsset
 	public int atlasPadding
 	{
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x30122B0", Offset = "0x30108B0", VA = "0x1830122B0")]
+		[Address(RVA = "0x6A11030", Offset = "0x6A10030", VA = "0x6A11030")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x3012690", Offset = "0x3010C90", VA = "0x183012690")]
+		[Address(RVA = "0x6A11040", Offset = "0x6A10040", VA = "0x6A11040")]
 		internal set
 		{
 		}
@@ -641,13 +641,13 @@ public class FontAsset : TextAsset
 	public GlyphRenderMode atlasRenderMode
 	{
 		[Token(Token = "0x60000B3")]
-		[Address(RVA = "0x30122D0", Offset = "0x30108D0", VA = "0x1830122D0")]
+		[Address(RVA = "0x6A11050", Offset = "0x6A10050", VA = "0x6A11050")]
 		get
 		{
 			return default(GlyphRenderMode);
 		}
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x30126A0", Offset = "0x3010CA0", VA = "0x1830126A0")]
+		[Address(RVA = "0x6A11060", Offset = "0x6A10060", VA = "0x6A11060")]
 		internal set
 		{
 		}
@@ -657,13 +657,13 @@ public class FontAsset : TextAsset
 	internal List<GlyphRect> usedGlyphRects
 	{
 		[Token(Token = "0x60000B8")]
-		[Address(RVA = "0x3012670", Offset = "0x3010C70", VA = "0x183012670")]
+		[Address(RVA = "0x6A110B0", Offset = "0x6A100B0", VA = "0x6A110B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B9")]
-		[Address(RVA = "0x26ABCB0", Offset = "0x26AA2B0", VA = "0x1826ABCB0")]
+		[Address(RVA = "0x6A110C0", Offset = "0x6A100C0", VA = "0x6A110C0")]
 		set
 		{
 		}
@@ -673,13 +673,13 @@ public class FontAsset : TextAsset
 	internal List<GlyphRect> freeGlyphRects
 	{
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x3012540", Offset = "0x3010B40", VA = "0x183012540")]
+		[Address(RVA = "0x6A110E0", Offset = "0x6A100E0", VA = "0x6A110E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BB")]
-		[Address(RVA = "0x3012990", Offset = "0x3010F90", VA = "0x183012990")]
+		[Address(RVA = "0x6A110F0", Offset = "0x6A100F0", VA = "0x6A110F0")]
 		set
 		{
 		}
@@ -689,13 +689,13 @@ public class FontAsset : TextAsset
 	public FontFeatureTable fontFeatureTable
 	{
 		[Token(Token = "0x60000BC")]
-		[Address(RVA = "0x3012520", Offset = "0x3010B20", VA = "0x183012520")]
+		[Address(RVA = "0x6A11110", Offset = "0x6A10110", VA = "0x6A11110")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x2CF3EB0", Offset = "0x2CF24B0", VA = "0x182CF3EB0")]
+		[Address(RVA = "0x6A11120", Offset = "0x6A10120", VA = "0x6A11120")]
 		internal set
 		{
 		}
@@ -705,13 +705,13 @@ public class FontAsset : TextAsset
 	public List<FontAsset> fallbackFontAssetTable
 	{
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x3012480", Offset = "0x3010A80", VA = "0x183012480")]
+		[Address(RVA = "0x6A11140", Offset = "0x6A10140", VA = "0x6A11140")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x30128F0", Offset = "0x3010EF0", VA = "0x1830128F0")]
+		[Address(RVA = "0x6A11150", Offset = "0x6A10150", VA = "0x6A11150")]
 		set
 		{
 		}
@@ -721,13 +721,13 @@ public class FontAsset : TextAsset
 	public FontWeightPair[] fontWeightTable
 	{
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x3012530", Offset = "0x3010B30", VA = "0x183012530")]
+		[Address(RVA = "0x6A11170", Offset = "0x6A10170", VA = "0x6A11170")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x3012970", Offset = "0x3010F70", VA = "0x183012970")]
+		[Address(RVA = "0x6A11180", Offset = "0x6A10180", VA = "0x6A11180")]
 		internal set
 		{
 		}
@@ -737,13 +737,13 @@ public class FontAsset : TextAsset
 	public float regularStyleWeight
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x3012600", Offset = "0x3010C00", VA = "0x183012600")]
+		[Address(RVA = "0x6A111A0", Offset = "0x6A101A0", VA = "0x6A111A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x2F6E510", Offset = "0x2F6CB10", VA = "0x182F6E510")]
+		[Address(RVA = "0x6A111B0", Offset = "0x6A101B0", VA = "0x6A111B0")]
 		set
 		{
 		}
@@ -753,13 +753,13 @@ public class FontAsset : TextAsset
 	public float regularStyleSpacing
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x30125F0", Offset = "0x3010BF0", VA = "0x1830125F0")]
+		[Address(RVA = "0x6A111C0", Offset = "0x6A101C0", VA = "0x6A111C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x30129E0", Offset = "0x3010FE0", VA = "0x1830129E0")]
+		[Address(RVA = "0x6A111D0", Offset = "0x6A101D0", VA = "0x6A111D0")]
 		set
 		{
 		}
@@ -769,13 +769,13 @@ public class FontAsset : TextAsset
 	public float boldStyleWeight
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x30123C0", Offset = "0x30109C0", VA = "0x1830123C0")]
+		[Address(RVA = "0x6A111E0", Offset = "0x6A101E0", VA = "0x6A111E0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x30126F0", Offset = "0x3010CF0", VA = "0x1830126F0")]
+		[Address(RVA = "0x6A111F0", Offset = "0x6A101F0", VA = "0x6A111F0")]
 		set
 		{
 		}
@@ -785,13 +785,13 @@ public class FontAsset : TextAsset
 	public float boldStyleSpacing
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x30123B0", Offset = "0x30109B0", VA = "0x1830123B0")]
+		[Address(RVA = "0x6A11200", Offset = "0x6A10200", VA = "0x6A11200")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x30126E0", Offset = "0x3010CE0", VA = "0x1830126E0")]
+		[Address(RVA = "0x6A11210", Offset = "0x6A10210", VA = "0x6A11210")]
 		set
 		{
 		}
@@ -801,13 +801,13 @@ public class FontAsset : TextAsset
 	public byte italicStyleSlant
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x30125C0", Offset = "0x3010BC0", VA = "0x1830125C0")]
+		[Address(RVA = "0x6A11220", Offset = "0x6A10220", VA = "0x6A11220")]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x30129D0", Offset = "0x3010FD0", VA = "0x1830129D0")]
+		[Address(RVA = "0x6A11230", Offset = "0x6A10230", VA = "0x6A11230")]
 		set
 		{
 		}
@@ -817,13 +817,13 @@ public class FontAsset : TextAsset
 	public byte tabMultiple
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x3012660", Offset = "0x3010C60", VA = "0x183012660")]
+		[Address(RVA = "0x6A11240", Offset = "0x6A10240", VA = "0x6A11240")]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x3012A00", Offset = "0x3011000", VA = "0x183012A00")]
+		[Address(RVA = "0x6A11250", Offset = "0x6A10250", VA = "0x6A11250")]
 		set
 		{
 		}
@@ -833,7 +833,7 @@ public class FontAsset : TextAsset
 	internal IntPtr nativeFontAsset
 	{
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x30125D0", Offset = "0x3010BD0", VA = "0x1830125D0")]
+		[Address(RVA = "0x6A01AD0", Offset = "0x6A00AD0", VA = "0x6A01AD0")]
 		[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 		get
 		{
@@ -852,7 +852,7 @@ public class FontAsset : TextAsset
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x300B5A0", Offset = "0x3009BA0", VA = "0x18300B5A0")]
+	[Address(RVA = "0x6A11070", Offset = "0x6A10070", VA = "0x6A11070")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 	internal bool IsBitmap()
 	{
@@ -860,7 +860,7 @@ public class FontAsset : TextAsset
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x300B5D0", Offset = "0x3009BD0", VA = "0x18300B5D0")]
+	[Address(RVA = "0x6A11090", Offset = "0x6A10090", VA = "0x6A11090")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 	internal bool IsRaster()
 	{
@@ -868,116 +868,116 @@ public class FontAsset : TextAsset
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x300B5C0", Offset = "0x3009BC0", VA = "0x18300B5C0")]
+	[Address(RVA = "0x6A110A0", Offset = "0x6A100A0", VA = "0x6A110A0")]
 	internal bool IsColor()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x3006FB0", Offset = "0x30055B0", VA = "0x183006FB0")]
+	[Address(RVA = "0x6A11260", Offset = "0x6A10260", VA = "0x6A11260")]
 	public static FontAsset CreateFontAsset(string familyName, string styleName, int pointSize = 90)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x3006790", Offset = "0x3004D90", VA = "0x183006790")]
+	[Address(RVA = "0x6A11430", Offset = "0x6A10430", VA = "0x6A11430")]
 	internal static FontAsset CreateFontAssetInternal(string familyName, string styleName, int pointSize = 90)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x3006E20", Offset = "0x3005420", VA = "0x183006E20")]
+	[Address(RVA = "0x6A116D0", Offset = "0x6A106D0", VA = "0x6A116D0")]
 	public static FontAsset CreateFontAsset(string familyName, string styleName, int pointSize, int padding, GlyphRenderMode renderMode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x3006890", Offset = "0x3004E90", VA = "0x183006890")]
+	[Address(RVA = "0x6A117B0", Offset = "0x6A107B0", VA = "0x6A117B0")]
 	internal static List<FontAsset> CreateFontAssetOSFallbackList(string[] fallbacksFamilyNames, int pointSize = 90)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x30069D0", Offset = "0x3004FD0", VA = "0x1830069D0")]
+	[Address(RVA = "0x6A11B10", Offset = "0x6A10B10", VA = "0x6A11B10")]
 	internal static FontAsset CreateFontAssetWithOSFallbackList(string[] fallbacksFamilyNames, int pointSize = 90)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x3005DE0", Offset = "0x30043E0", VA = "0x183005DE0")]
+	[Address(RVA = "0x6A119C0", Offset = "0x6A109C0", VA = "0x6A119C0")]
 	private static FontAsset CreateFontAssetFromFamilyName(string familyName, int pointSize = 90)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x3006F10", Offset = "0x3005510", VA = "0x183006F10")]
+	[Address(RVA = "0x6A11D20", Offset = "0x6A10D20", VA = "0x6A11D20")]
 	public static FontAsset CreateFontAsset(string fontFilePath, int faceIndex, int samplingPointSize, int atlasPadding, GlyphRenderMode renderMode, int atlasWidth, int atlasHeight)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3006B80", Offset = "0x3005180", VA = "0x183006B80")]
+	[Address(RVA = "0x6A11510", Offset = "0x6A10510", VA = "0x6A11510")]
 	private static FontAsset CreateFontAsset(string fontFilePath, int faceIndex, int samplingPointSize, int atlasPadding, GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3006D60", Offset = "0x3005360", VA = "0x183006D60")]
+	[Address(RVA = "0x6A124C0", Offset = "0x6A114C0", VA = "0x6A124C0")]
 	public static FontAsset CreateFontAsset(Font font)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x3007250", Offset = "0x3005850", VA = "0x183007250")]
+	[Address(RVA = "0x6A125A0", Offset = "0x6A115A0", VA = "0x6A125A0")]
 	public static FontAsset CreateFontAsset(Font font, int samplingPointSize, int atlasPadding, GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, AtlasPopulationMode atlasPopulationMode = AtlasPopulationMode.Dynamic, bool enableMultiAtlasSupport = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x30072F0", Offset = "0x30058F0", VA = "0x1830072F0")]
+	[Address(RVA = "0x6A12640", Offset = "0x6A11640", VA = "0x6A12640")]
 	private static FontAsset CreateFontAsset(Font font, int faceIndex, int samplingPointSize, int atlasPadding, GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, AtlasPopulationMode atlasPopulationMode = AtlasPopulationMode.Dynamic, bool enableMultiAtlasSupport = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x3005F50", Offset = "0x3004550", VA = "0x183005F50")]
+	[Address(RVA = "0x6A11DB0", Offset = "0x6A10DB0", VA = "0x6A11DB0")]
 	private static FontAsset CreateFontAssetInstance(Font font, int atlasPadding, GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport, UnityEngine.TextCore.LowLevel.FontFaceHandle faceHandle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x300C230", Offset = "0x300A830", VA = "0x18300C230")]
+	[Address(RVA = "0x6A129B0", Offset = "0x6A119B0", VA = "0x6A129B0")]
 	private void RegisterCallbackInstance(FontAsset instance)
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x300B780", Offset = "0x3009D80", VA = "0x18300B780", Slot = "4")]
+	[Address(RVA = "0x6A12D00", Offset = "0x6A11D00", VA = "0x6A12D00", Slot = "4")]
 	internal override void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x300B990", Offset = "0x3009F90", VA = "0x18300B990")]
+	[Address(RVA = "0x6A106A0", Offset = "0x6A0F6A0", VA = "0x6A106A0")]
 	public void ReadFontAssetDefinition()
 	{
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x300A720", Offset = "0x3008D20", VA = "0x18300A720")]
+	[Address(RVA = "0x6A12F80", Offset = "0x6A11F80", VA = "0x6A12F80")]
 	internal void InitializeDictionaryLookupTables()
 	{
 	}
@@ -993,329 +993,329 @@ public class FontAsset : TextAsset
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x300A8D0", Offset = "0x3008ED0", VA = "0x18300A8D0")]
+	[Address(RVA = "0x6A131D0", Offset = "0x6A121D0", VA = "0x6A131D0")]
 	internal void InitializeGlyphLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x300A4C0", Offset = "0x3008AC0", VA = "0x18300A4C0")]
+	[Address(RVA = "0x6A13480", Offset = "0x6A12480", VA = "0x6A13480")]
 	internal void InitializeCharacterLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x3005480", Offset = "0x3003A80", VA = "0x183005480")]
+	[Address(RVA = "0x6A14420", Offset = "0x6A13420", VA = "0x6A14420")]
 	internal void ClearFallbackCharacterTable()
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x300ADF0", Offset = "0x30093F0", VA = "0x18300ADF0")]
+	[Address(RVA = "0x6A13870", Offset = "0x6A12870", VA = "0x6A13870")]
 	internal void InitializeLigatureSubstitutionLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x300AAF0", Offset = "0x30090F0", VA = "0x18300AAF0")]
+	[Address(RVA = "0x6A13CA0", Offset = "0x6A12CA0", VA = "0x6A13CA0")]
 	internal void InitializeGlyphPairAdjustmentRecordsLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x300B140", Offset = "0x3009740", VA = "0x18300B140")]
+	[Address(RVA = "0x6A13FA0", Offset = "0x6A12FA0", VA = "0x6A13FA0")]
 	internal void InitializeMarkToBaseAdjustmentRecordsLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x300B370", Offset = "0x3009970", VA = "0x18300B370")]
+	[Address(RVA = "0x6A141E0", Offset = "0x6A131E0", VA = "0x6A141E0")]
 	internal void InitializeMarkToMarkAdjustmentRecordsLookupDictionary()
 	{
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x3004E10", Offset = "0x3003410", VA = "0x183004E10")]
+	[Address(RVA = "0x6A12FD0", Offset = "0x6A11FD0", VA = "0x6A12FD0")]
 	internal void AddSynthesizedCharactersAndFaceMetrics()
 	{
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x3004610", Offset = "0x3002C10", VA = "0x183004610")]
+	[Address(RVA = "0x6A149D0", Offset = "0x6A139D0", VA = "0x6A149D0")]
 	private void AddSynthesizedCharacter(uint unicode, bool isFontFaceLoaded, bool addImmediately = false)
 	{
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x30036C0", Offset = "0x3001CC0", VA = "0x1830036C0")]
+	[Address(RVA = "0x6A153B0", Offset = "0x6A143B0", VA = "0x6A153B0")]
 	internal void AddCharacterToLookupCache(uint unicode, Character character)
 	{
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x3003600", Offset = "0x3001C00", VA = "0x183003600")]
+	[Address(RVA = "0x6A15420", Offset = "0x6A14420", VA = "0x6A15420")]
 	internal void AddCharacterToLookupCache(uint unicode, Character character, FontStyles fontStyle, TextFontWeight fontWeight)
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x3008390", Offset = "0x3006990", VA = "0x183008390")]
+	[Address(RVA = "0x6A154F0", Offset = "0x6A144F0", VA = "0x6A154F0")]
 	internal bool GetCharacterInLookupCache(uint unicode, FontStyles fontStyle, TextFontWeight fontWeight, out Character character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x300C760", Offset = "0x300AD60", VA = "0x18300C760")]
+	[Address(RVA = "0x6A155C0", Offset = "0x6A145C0", VA = "0x6A155C0")]
 	internal void RemoveCharacterInLookupCache(uint unicode, FontStyles fontStyle, TextFontWeight fontWeight)
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x3005B00", Offset = "0x3004100", VA = "0x183005B00")]
+	[Address(RVA = "0x6A15680", Offset = "0x6A14680", VA = "0x6A15680")]
 	internal bool ContainsCharacterInLookupCache(uint unicode, FontStyles fontStyle, TextFontWeight fontWeight)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x3005D70", Offset = "0x3004370", VA = "0x183005D70")]
+	[Address(RVA = "0x6A15360", Offset = "0x6A14360", VA = "0x6A15360")]
 	private uint CreateCompositeKey(uint unicode, FontStyles fontStyle = FontStyles.Normal, TextFontWeight fontWeight = TextFontWeight.Regular)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x300B5E0", Offset = "0x3009BE0", VA = "0x18300B5E0")]
+	[Address(RVA = "0x6A14830", Offset = "0x6A13830", VA = "0x6A14830")]
 	internal FontEngineError LoadFontFace()
 	{
 		return default(FontEngineError);
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x300CE30", Offset = "0x300B430", VA = "0x18300CE30")]
+	[Address(RVA = "0x6A15740", Offset = "0x6A14740", VA = "0x6A15740")]
 	internal void SortCharacterTable()
 	{
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x300D000", Offset = "0x300B600", VA = "0x18300D000")]
+	[Address(RVA = "0x6A158A0", Offset = "0x6A148A0", VA = "0x6A158A0")]
 	internal void SortGlyphTable()
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x300CFB0", Offset = "0x300B5B0", VA = "0x18300CFB0")]
+	[Address(RVA = "0x6A15A00", Offset = "0x6A14A00", VA = "0x6A15A00")]
 	internal void SortFontFeatureTable()
 	{
 	}
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x300CB20", Offset = "0x300B120", VA = "0x18300CB20")]
+	[Address(RVA = "0x6A15A40", Offset = "0x6A14A40", VA = "0x6A15A40")]
 	internal void SortAllTables()
 	{
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x3009780", Offset = "0x3007D80", VA = "0x183009780")]
+	[Address(RVA = "0x6A15A90", Offset = "0x6A14A90", VA = "0x6A15A90")]
 	public bool HasCharacter(int character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x3009800", Offset = "0x3007E00", VA = "0x183009800")]
+	[Address(RVA = "0x6A15B00", Offset = "0x6A14B00", VA = "0x6A15B00")]
 	public bool HasCharacter(char character, bool searchFallbacks = false, bool tryAddCharacter = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x30093F0", Offset = "0x30079F0", VA = "0x1830093F0")]
+	[Address(RVA = "0x6A15B10", Offset = "0x6A14B10", VA = "0x6A15B10")]
 	public bool HasCharacter(uint character, bool searchFallbacks = false, bool tryAddCharacter = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x30090D0", Offset = "0x30076D0", VA = "0x1830090D0")]
+	[Address(RVA = "0x6A16410", Offset = "0x6A15410", VA = "0x6A16410")]
 	private bool HasCharacterWithStyle_Internal(uint character, FontStyles fontStyle, TextFontWeight fontWeight, bool searchFallbacks = false, bool tryAddCharacter = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x3009100", Offset = "0x3007700", VA = "0x183009100")]
+	[Address(RVA = "0x6A161A0", Offset = "0x6A151A0", VA = "0x6A161A0")]
 	private bool HasCharacter_Internal(uint character, FontStyles fontStyle = FontStyles.Normal, TextFontWeight fontWeight = TextFontWeight.Regular, bool searchFallbacks = false, bool tryAddCharacter = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x3009DA0", Offset = "0x30083A0", VA = "0x183009DA0")]
+	[Address(RVA = "0x6A16420", Offset = "0x6A15420", VA = "0x6A16420")]
 	public bool HasCharacters(string text, out List<char> missingCharacters)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x30098E0", Offset = "0x3007EE0", VA = "0x1830098E0")]
+	[Address(RVA = "0x6A165C0", Offset = "0x6A155C0", VA = "0x6A165C0")]
 	public bool HasCharacters(string text, out uint[] missingCharacters, bool searchFallbacks = false, bool tryAddCharacter = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3009820", Offset = "0x3007E20", VA = "0x183009820")]
+	[Address(RVA = "0x6A16AD0", Offset = "0x6A15AD0", VA = "0x6A16AD0")]
 	public bool HasCharacters(string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3008530", Offset = "0x3006B30", VA = "0x183008530")]
+	[Address(RVA = "0x6A16B90", Offset = "0x6A15B90", VA = "0x6A16B90")]
 	public static string GetCharacters(FontAsset fontAsset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3008450", Offset = "0x3006A50", VA = "0x183008450")]
+	[Address(RVA = "0x6A16C90", Offset = "0x6A15C90", VA = "0x6A16C90")]
 	public static int[] GetCharactersArray(FontAsset fontAsset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x3008C00", Offset = "0x3007200", VA = "0x183008C00")]
+	[Address(RVA = "0x6A16DA0", Offset = "0x6A15DA0", VA = "0x6A16DA0")]
 	internal uint GetGlyphIndex(uint unicode)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x3008940", Offset = "0x3006F40", VA = "0x183008940")]
+	[Address(RVA = "0x6A16EE0", Offset = "0x6A15EE0", VA = "0x6A16EE0")]
 	internal Glyph GetGlyphInCache(uint glyphID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x3008AB0", Offset = "0x30070B0", VA = "0x183008AB0")]
+	[Address(RVA = "0x6A16DB0", Offset = "0x6A15DB0", VA = "0x6A16DB0")]
 	internal uint GetGlyphIndex(uint unicode, out bool success)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3008D30", Offset = "0x3007330", VA = "0x183008D30")]
+	[Address(RVA = "0x6A16F50", Offset = "0x6A15F50", VA = "0x6A16F50")]
 	internal uint GetGlyphVariantIndex(uint unicode, uint variantSelectorUnicode)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x3010A60", Offset = "0x300F060", VA = "0x183010A60")]
+	[Address(RVA = "0x6A16FE0", Offset = "0x6A15FE0", VA = "0x6A16FE0")]
 	internal void UpdateFontAssetData()
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x30057A0", Offset = "0x3003DA0", VA = "0x1830057A0")]
+	[Address(RVA = "0x6A17690", Offset = "0x6A16690", VA = "0x6A17690")]
 	public void ClearFontAssetData(bool setAtlasSizeToZero = false)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3005240", Offset = "0x3003840", VA = "0x183005240")]
+	[Address(RVA = "0x6A17920", Offset = "0x6A16920", VA = "0x6A17920")]
 	internal void ClearCharacterAndGlyphTablesInternal()
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x3005270", Offset = "0x3003870", VA = "0x183005270")]
+	[Address(RVA = "0x6A171B0", Offset = "0x6A161B0", VA = "0x6A171B0")]
 	private void ClearCharacterAndGlyphTables()
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x3005A00", Offset = "0x3004000", VA = "0x183005A00")]
+	[Address(RVA = "0x6A17380", Offset = "0x6A16380", VA = "0x6A17380")]
 	private void ClearFontFeaturesTables()
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x3005010", Offset = "0x3003610", VA = "0x183005010")]
+	[Address(RVA = "0x6A17440", Offset = "0x6A16440", VA = "0x6A17440")]
 	internal void ClearAtlasTextures(bool setAtlasSizeToZero = false)
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x3007E60", Offset = "0x3006460", VA = "0x183007E60")]
+	[Address(RVA = "0x6A12E30", Offset = "0x6A11E30", VA = "0x6A12E30")]
 	private void DestroyAtlasTextures()
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x30089C0", Offset = "0x3006FC0", VA = "0x1830089C0")]
+	[Address(RVA = "0x6A17940", Offset = "0x6A16940", VA = "0x6A17940")]
 	private uint GetGlyphIndexWithFallback(uint unicode)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x300C580", Offset = "0x300AB80", VA = "0x18300C580")]
+	[Address(RVA = "0x6A17A40", Offset = "0x6A16A40", VA = "0x6A17A40")]
 	internal static void RegisterFontAssetForFontFeatureUpdate(FontAsset fontAsset)
 	{
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x300C670", Offset = "0x300AC70", VA = "0x18300C670")]
+	[Address(RVA = "0x6A17B60", Offset = "0x6A16B60", VA = "0x6A17B60")]
 	internal static void RegisterFontAssetForKerningUpdate(FontAsset fontAsset)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x3010D90", Offset = "0x300F390", VA = "0x183010D90")]
+	[Address(RVA = "0x6A17C80", Offset = "0x6A16C80", VA = "0x6A17C80")]
 	internal static void UpdateFontFeaturesForFontAssetsInQueue()
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x300C0E0", Offset = "0x300A6E0", VA = "0x18300C0E0")]
+	[Address(RVA = "0x6A18050", Offset = "0x6A17050", VA = "0x6A18050")]
 	internal static void RegisterAtlasTextureForApply(Texture2D texture)
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x30100E0", Offset = "0x300E6E0", VA = "0x1830100E0")]
+	[Address(RVA = "0x6A18180", Offset = "0x6A17180", VA = "0x6A18180")]
 	internal static void UpdateAtlasTexturesInQueue()
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3010BC0", Offset = "0x300F1C0", VA = "0x183010BC0")]
+	[Address(RVA = "0x6A18330", Offset = "0x6A17330", VA = "0x6A18330")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 	internal static void UpdateFontAssetsInUpdateQueue()
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x300D4F0", Offset = "0x300BAF0", VA = "0x18300D4F0")]
+	[Address(RVA = "0x6A17670", Offset = "0x6A16670", VA = "0x6A17670")]
 	public bool TryAddCharacters(uint[] unicodes, bool includeFontFeatures = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x300D520", Offset = "0x300BB20", VA = "0x18300D520")]
+	[Address(RVA = "0x6A18390", Offset = "0x6A17390", VA = "0x6A18390")]
 	public bool TryAddCharacters(uint[] unicodes, out uint[] missingUnicodes, bool includeFontFeatures = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x300F8A0", Offset = "0x300DEA0", VA = "0x18300F8A0")]
+	[Address(RVA = "0x6A19F00", Offset = "0x6A18F00", VA = "0x6A19F00")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal bool TryAddGlyphs(List<uint> glyphsToAdd)
 	{
@@ -1323,318 +1323,318 @@ public class FontAsset : TextAsset
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x300D4C0", Offset = "0x300BAC0", VA = "0x18300D4C0")]
+	[Address(RVA = "0x6A1A9F0", Offset = "0x6A199F0", VA = "0x6A1A9F0")]
 	public bool TryAddCharacters(string characters, bool includeFontFeatures = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x300E6E0", Offset = "0x300CCE0", VA = "0x18300E6E0")]
+	[Address(RVA = "0x6A1AA10", Offset = "0x6A19A10", VA = "0x6A1AA10")]
 	public bool TryAddCharacters(string characters, out string missingCharacters, bool includeFontFeatures = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x300F2F0", Offset = "0x300D8F0", VA = "0x18300F2F0")]
+	[Address(RVA = "0x6A1ABB0", Offset = "0x6A19BB0", VA = "0x6A1ABB0")]
 	internal bool TryAddGlyphVariantIndexInternal(uint unicode, uint nextCharacter, uint variantGlyphIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x300FFF0", Offset = "0x300E5F0", VA = "0x18300FFF0")]
+	[Address(RVA = "0x6A1AC40", Offset = "0x6A19C40", VA = "0x6A1AC40")]
 	internal bool TryGetGlyphVariantIndexInternal(uint unicode, uint nextCharacter, out uint variantGlyphIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x300E870", Offset = "0x300CE70", VA = "0x18300E870")]
+	[Address(RVA = "0x6A1ACD0", Offset = "0x6A19CD0", VA = "0x6A1ACD0")]
 	internal bool TryAddGlyphInternal(uint glyphIndex, out Glyph glyph, bool populateLigatures = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x300D490", Offset = "0x300BA90", VA = "0x18300D490")]
+	[Address(RVA = "0x6A1B310", Offset = "0x6A1A310", VA = "0x6A1B310")]
 	internal bool TryAddCharacterInternal(uint unicode, out Character character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x300D180", Offset = "0x300B780", VA = "0x18300D180")]
+	[Address(RVA = "0x6A15ED0", Offset = "0x6A14ED0", VA = "0x6A15ED0")]
 	internal bool TryAddCharacterInternal(uint unicode, FontStyles fontStyle, TextFontWeight fontWeight, out Character character, bool populateLigatures = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x300EA20", Offset = "0x300D020", VA = "0x18300EA20")]
+	[Address(RVA = "0x6A1AEB0", Offset = "0x6A19EB0", VA = "0x6A1AEB0")]
 	private bool TryAddGlyphToAtlas(uint glyphIndex, out Glyph glyph, bool populateLigatures = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x300EE90", Offset = "0x300D490", VA = "0x18300EE90")]
+	[Address(RVA = "0x6A1B4E0", Offset = "0x6A1A4E0", VA = "0x6A1B4E0")]
 	private bool TryAddGlyphToTexture(uint glyphIndex, out Glyph glyph, bool populateLigatures = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x300F380", Offset = "0x300D980", VA = "0x18300F380")]
+	[Address(RVA = "0x6A19910", Offset = "0x6A18910", VA = "0x6A19910")]
 	private bool TryAddGlyphsToNewAtlasTexture()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x300C810", Offset = "0x300AE10", VA = "0x18300C810")]
+	[Address(RVA = "0x6A1A750", Offset = "0x6A19750", VA = "0x6A1A750")]
 	private void SetupNewAtlasTexture()
 	{
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x3005BB0", Offset = "0x30041B0", VA = "0x183005BB0")]
+	[Address(RVA = "0x6A1B330", Offset = "0x6A1A330", VA = "0x6A1B330")]
 	private Character CreateCharacterAndAddToCache(uint unicode, Glyph glyph, FontStyles fontStyle, TextFontWeight fontWeight)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x30110A0", Offset = "0x300F6A0", VA = "0x1830110A0")]
+	[Address(RVA = "0x6A19EA0", Offset = "0x6A18EA0", VA = "0x6A19EA0")]
 	private void UpdateFontFeaturesForNewlyAddedGlyphs()
 	{
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3011270", Offset = "0x300F870", VA = "0x183011270")]
+	[Address(RVA = "0x6A18000", Offset = "0x6A17000", VA = "0x6A18000")]
 	private void UpdateGlyphAdjustmentRecordsForNewGlyphs()
 	{
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x3011180", Offset = "0x300F780", VA = "0x183011180")]
+	[Address(RVA = "0x6A17FB0", Offset = "0x6A16FB0", VA = "0x6A17FB0")]
 	private void UpdateGPOSFontFeaturesForNewlyAddedGlyphs()
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x300A360", Offset = "0x3008960", VA = "0x18300A360")]
+	[Address(RVA = "0x6A13720", Offset = "0x6A12720", VA = "0x6A13720")]
 	internal void ImportFontFeatures()
 	{
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x30111E0", Offset = "0x300F7E0", VA = "0x1830111E0")]
+	[Address(RVA = "0x6A1B890", Offset = "0x6A1A890", VA = "0x6A1B890")]
 	private void UpdateGSUBFontFeaturesForNewGlyphIndex(uint glyphIndex)
 	{
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3011450", Offset = "0x300FA50", VA = "0x183011450")]
+	[Address(RVA = "0x6A1B920", Offset = "0x6A1A920", VA = "0x6A1B920")]
 	internal void UpdateLigatureSubstitutionRecords()
 	{
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x3003740", Offset = "0x3001D40", VA = "0x183003740")]
+	[Address(RVA = "0x6A1C970", Offset = "0x6A1B970", VA = "0x6A1C970")]
 	private void AddLigatureSubstitutionRecords(UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord[] records)
 	{
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x30112D0", Offset = "0x300F8D0", VA = "0x1830112D0")]
+	[Address(RVA = "0x6A1BA10", Offset = "0x6A1AA10", VA = "0x6A1BA10")]
 	internal void UpdateGlyphAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x30042B0", Offset = "0x30028B0", VA = "0x1830042B0")]
+	[Address(RVA = "0x6A1BCD0", Offset = "0x6A1ACD0", VA = "0x6A1BCD0")]
 	private void AddPairAdjustmentRecords(GlyphPairAdjustmentRecord[] records)
 	{
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x3010440", Offset = "0x300EA40", VA = "0x183010440")]
+	[Address(RVA = "0x6A1BB00", Offset = "0x6A1AB00", VA = "0x6A1BB00")]
 	internal void UpdateDiacriticalMarkAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x3003BB0", Offset = "0x30021B0", VA = "0x183003BB0")]
+	[Address(RVA = "0x6A1C120", Offset = "0x6A1B120", VA = "0x6A1C120")]
 	private void AddMarkToBaseAdjustmentRecords(UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord[] records)
 	{
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x3003F20", Offset = "0x3002520", VA = "0x183003F20")]
+	[Address(RVA = "0x6A1C540", Offset = "0x6A1B540", VA = "0x6A1C540")]
 	private void AddMarkToMarkAdjustmentRecords(UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord[] records)
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x3007FC0", Offset = "0x30065C0", VA = "0x183007FC0")]
+	[Address(RVA = "0x6A01780", Offset = "0x6A00780", VA = "0x6A01780")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal void EnsureNativeFontAssetIsCreated()
 	{
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x3010830", Offset = "0x300EE30", VA = "0x183010830")]
+	[Address(RVA = "0x6A1DC10", Offset = "0x6A1CC10", VA = "0x6A1DC10")]
 	internal void UpdateFallbacks()
 	{
 	}
 
 	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x3011610", Offset = "0x300FC10", VA = "0x183011610")]
+	[Address(RVA = "0x6A1DD80", Offset = "0x6A1CD80", VA = "0x6A1DD80")]
 	internal void UpdateWeightFallbacks()
 	{
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x3010690", Offset = "0x300EC90", VA = "0x183010690")]
+	[Address(RVA = "0x6A10470", Offset = "0x6A0F470", VA = "0x6A10470")]
 	internal void UpdateFaceInfo()
 	{
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x3011520", Offset = "0x300FB20", VA = "0x183011520")]
+	[Address(RVA = "0x6A1DFE0", Offset = "0x6A1CFE0", VA = "0x6A1DFE0")]
 	internal void UpdateRenderMode()
 	{
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x3011370", Offset = "0x300F970", VA = "0x183011370")]
+	[Address(RVA = "0x6A1E0B0", Offset = "0x6A1D0B0", VA = "0x6A1E0B0")]
 	internal void UpdateItalicAngle()
 	{
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x3010350", Offset = "0x300E950", VA = "0x183010350")]
+	[Address(RVA = "0x6A1E180", Offset = "0x6A1D180", VA = "0x6A1E180")]
 	internal void UpdateBoldWeight()
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x30102B0", Offset = "0x300E8B0", VA = "0x1830102B0")]
+	[Address(RVA = "0x6A1E280", Offset = "0x6A1D280", VA = "0x6A1E280")]
 	internal void UpdateBoldSpacing()
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x3008620", Offset = "0x3006C20", VA = "0x183008620")]
+	[Address(RVA = "0x6A1CFC0", Offset = "0x6A1BFC0", VA = "0x6A1CFC0")]
 	internal IntPtr[] GetFallbacks()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x300A2C0", Offset = "0x30088C0", VA = "0x18300A2C0")]
+	[Address(RVA = "0x6A1E370", Offset = "0x6A1D370", VA = "0x6A1E370")]
 	private bool HasRecursion(FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x3009F10", Offset = "0x3008510", VA = "0x183009F10")]
+	[Address(RVA = "0x6A1E420", Offset = "0x6A1D420", VA = "0x6A1E420")]
 	private bool HasRecursionInternal(FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x3008DD0", Offset = "0x30073D0", VA = "0x183008DD0")]
+	[Address(RVA = "0x6A1D410", Offset = "0x6A1C410", VA = "0x6A1D410")]
 	private (IntPtr[], IntPtr[]) GetWeightFallbacks()
 	{
 		return default((IntPtr[], IntPtr[]));
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x3010970", Offset = "0x300EF70", VA = "0x183010970")]
+	[Address(RVA = "0x6A1DC80", Offset = "0x6A1CC80", VA = "0x6A1DC80")]
 	private static void UpdateFallbacks(IntPtr ptr, IntPtr[] fallbacks)
 	{
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x30117C0", Offset = "0x300FDC0", VA = "0x1830117C0")]
+	[Address(RVA = "0x6A1DDF0", Offset = "0x6A1CDF0", VA = "0x6A1DDF0")]
 	private static void UpdateWeightFallbacks(IntPtr ptr, IntPtr[] regularFallbacks, IntPtr[] italicFallbacks)
 	{
 	}
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x30079A0", Offset = "0x3005FA0", VA = "0x1830079A0")]
+	[Address(RVA = "0x6A1D860", Offset = "0x6A1C860", VA = "0x6A1D860")]
 	private static IntPtr Create(FaceInfo faceInfo, Font sourceFontFile, Font sourceFont_EditorRef, string sourceFontFilePath, EntityId fontEntityId, IntPtr[] fallbacks, IntPtr[] weightFallbacks, IntPtr[] italicFallbacks, GlyphRenderMode renderMode, byte italicSlant, float boldWeight, int boldSpacing, IntPtr managedObject)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x3010610", Offset = "0x300EC10", VA = "0x183010610")]
+	[Address(RVA = "0x6A1DF40", Offset = "0x6A1CF40", VA = "0x6A1DF40")]
 	private static void UpdateFaceInfo(IntPtr ptr, FaceInfo faceInfo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x30114E0", Offset = "0x300FAE0", VA = "0x1830114E0")]
+	[Address(RVA = "0x6A1E070", Offset = "0x6A1D070", VA = "0x6A1E070")]
 	private static extern void UpdateRenderMode(IntPtr ptr, GlyphRenderMode renderMode);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3011400", Offset = "0x300FA00", VA = "0x183011400")]
+	[Address(RVA = "0x6A1E140", Offset = "0x6A1D140", VA = "0x6A1E140")]
 	private static extern void UpdateItalicAngle(IntPtr ptr, byte italicAngle);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x30103F0", Offset = "0x300E9F0", VA = "0x1830103F0")]
+	[Address(RVA = "0x6A1E230", Offset = "0x6A1D230", VA = "0x6A1E230")]
 	private static extern void UpdateBoldWeight(IntPtr ptr, float boldWeight);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3010270", Offset = "0x300E870", VA = "0x183010270")]
+	[Address(RVA = "0x6A1E330", Offset = "0x6A1D330", VA = "0x6A1E330")]
 	private static extern void UpdateBoldSpacing(IntPtr ptr, int boldSpacing);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3007F70", Offset = "0x3006570", VA = "0x183007F70")]
+	[Address(RVA = "0x6A12F40", Offset = "0x6A11F40", VA = "0x6A12F40")]
 	[UnityEngine.Bindings.FreeFunction("FontAsset::Destroy")]
 	private static extern void Destroy(IntPtr ptr, IntPtr managedObject);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x3007910", Offset = "0x3005F10", VA = "0x183007910")]
+	[Address(RVA = "0x6A1E920", Offset = "0x6A1D920", VA = "0x6A1E920")]
 	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	[UnityEngine.Bindings.FreeFunction("FontAsset::CreateHbFaceIfNeeded")]
 	internal static extern void CreateHbFaceIfNeeded();
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x3011E90", Offset = "0x3010490", VA = "0x183011E90")]
+	[Address(RVA = "0x6A1E950", Offset = "0x6A1D950", VA = "0x6A1E950")]
 	public FontAsset()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x30107E0", Offset = "0x300EDE0", VA = "0x1830107E0")]
+	[Address(RVA = "0x6A1E7F0", Offset = "0x6A1D7F0", VA = "0x6A1E7F0")]
 	private static extern void UpdateFallbacks_Injected(IntPtr ptr, ref UnityEngine.Bindings.ManagedSpanWrapper fallbacks);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x30115B0", Offset = "0x300FBB0", VA = "0x1830115B0")]
+	[Address(RVA = "0x6A1E830", Offset = "0x6A1D830", VA = "0x6A1E830")]
 	private static extern void UpdateWeightFallbacks_Injected(IntPtr ptr, ref UnityEngine.Bindings.ManagedSpanWrapper regularFallbacks, ref UnityEngine.Bindings.ManagedSpanWrapper italicFallbacks);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x3007940", Offset = "0x3005F40", VA = "0x183007940")]
+	[Address(RVA = "0x6A1E870", Offset = "0x6A1D870", VA = "0x6A1E870")]
 	private static extern IntPtr Create_Injected([In] ref FaceInfo faceInfo, IntPtr sourceFontFile, IntPtr sourceFont_EditorRef, ref UnityEngine.Bindings.ManagedSpanWrapper sourceFontFilePath, [In] ref EntityId fontEntityId, ref UnityEngine.Bindings.ManagedSpanWrapper fallbacks, ref UnityEngine.Bindings.ManagedSpanWrapper weightFallbacks, ref UnityEngine.Bindings.ManagedSpanWrapper italicFallbacks, GlyphRenderMode renderMode, byte italicSlant, float boldWeight, int boldSpacing, IntPtr managedObject);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x30105C0", Offset = "0x300EBC0", VA = "0x1830105C0")]
+	[Address(RVA = "0x6A1E8E0", Offset = "0x6A1D8E0", VA = "0x6A1E8E0")]
 	private static extern void UpdateFaceInfo_Injected(IntPtr ptr, [In] ref FaceInfo faceInfo);
 }

@@ -30,46 +30,46 @@ internal sealed class CacheChildrenQuery : ChildrenQuery
 	private bool _needInput;
 
 	[Token(Token = "0x6001A8E")]
-	[Address(RVA = "0x26B63E0", Offset = "0x26B49E0", VA = "0x1826B63E0")]
+	[Address(RVA = "0x607E450", Offset = "0x607D450", VA = "0x607E450")]
 	public CacheChildrenQuery(Query qyInput, string name, string prefix, XPathNodeType type)
 	{
 	}
 
 	[Token(Token = "0x6001A8F")]
-	[Address(RVA = "0x26B6310", Offset = "0x26B4910", VA = "0x1826B6310")]
+	[Address(RVA = "0x607E650", Offset = "0x607D650", VA = "0x607E650")]
 	private CacheChildrenQuery(CacheChildrenQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A90")]
-	[Address(RVA = "0x26B61F0", Offset = "0x26B47F0", VA = "0x1826B61F0", Slot = "12")]
+	[Address(RVA = "0x607E7B0", Offset = "0x607D7B0", VA = "0x607E7B0", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001A91")]
-	[Address(RVA = "0x26B5B10", Offset = "0x26B4110", VA = "0x1826B5B10", Slot = "15")]
+	[Address(RVA = "0x607E8E0", Offset = "0x607D8E0", VA = "0x607E8E0", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A92")]
-	[Address(RVA = "0x26B6020", Offset = "0x26B4620", VA = "0x1826B6020")]
+	[Address(RVA = "0x607EB40", Offset = "0x607DB40", VA = "0x607EB40")]
 	private bool DecideNextNode()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A93")]
-	[Address(RVA = "0x26B6180", Offset = "0x26B4780", VA = "0x1826B6180")]
+	[Address(RVA = "0x607EAD0", Offset = "0x607DAD0", VA = "0x607EAD0")]
 	private XPathNavigator GetNextInput()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A94")]
-	[Address(RVA = "0x26B5F20", Offset = "0x26B4520", VA = "0x1826B5F20", Slot = "6")]
+	[Address(RVA = "0x607ECA0", Offset = "0x607DCA0", VA = "0x607ECA0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

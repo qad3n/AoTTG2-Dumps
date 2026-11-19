@@ -10,17 +10,17 @@ using UnityEngine;
 
 namespace Spawnables;
 
-[Token(Token = "0x2000063")]
+[Token(Token = "0x2000062")]
 internal class SupplySpawnable : BaseSpawnable
 {
-	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x1DCF860", Offset = "0x1DCDE60", VA = "0x181DCF860")]
+	[Token(Token = "0x6000314")]
+	[Address(RVA = "0x576E330", Offset = "0x576D330", VA = "0x576E330")]
 	protected void OnTriggerStay(Collider other)
 	{
 	}
 
-	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000315")]
+	[Address(RVA = "0x576E420", Offset = "0x576D420", VA = "0x576E420")]
 	public SupplySpawnable()
 	{
 	}

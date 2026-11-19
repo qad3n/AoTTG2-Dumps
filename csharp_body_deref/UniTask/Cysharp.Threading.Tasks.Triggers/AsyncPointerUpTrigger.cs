@@ -17,41 +17,41 @@ namespace Cysharp.Threading.Tasks.Triggers;
 public sealed class AsyncPointerUpTrigger : AsyncTriggerBase<PointerEventData>, IPointerUpHandler, IEventSystemHandler
 {
 	[Token(Token = "0x6000C6A")]
-	[Address(RVA = "0x2935F40", Offset = "0x2934540", VA = "0x182935F40", Slot = "5")]
+	[Address(RVA = "0x63056B0", Offset = "0x63046B0", VA = "0x63056B0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerUpHandler_002EOnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000C6B")]
-	[Address(RVA = "0x2935CA0", Offset = "0x29342A0", VA = "0x182935CA0")]
+	[Address(RVA = "0x6305700", Offset = "0x6304700", VA = "0x6305700")]
 	public IAsyncOnPointerUpHandler GetOnPointerUpAsyncHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C6C")]
-	[Address(RVA = "0x2935C20", Offset = "0x2934220", VA = "0x182935C20")]
+	[Address(RVA = "0x6305770", Offset = "0x6304770", VA = "0x6305770")]
 	public IAsyncOnPointerUpHandler GetOnPointerUpAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C6D")]
-	[Address(RVA = "0x2935E20", Offset = "0x2934420", VA = "0x182935E20")]
+	[Address(RVA = "0x63057E0", Offset = "0x63047E0", VA = "0x63057E0")]
 	public UniTask<PointerEventData> OnPointerUpAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C6E")]
-	[Address(RVA = "0x2935D10", Offset = "0x2934310", VA = "0x182935D10")]
+	[Address(RVA = "0x63058E0", Offset = "0x63048E0", VA = "0x63058E0")]
 	public UniTask<PointerEventData> OnPointerUpAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
 	[Token(Token = "0x6000C6F")]
-	[Address(RVA = "0x2935F90", Offset = "0x2934590", VA = "0x182935F90")]
+	[Address(RVA = "0x63059F0", Offset = "0x63049F0", VA = "0x63059F0")]
 	public AsyncPointerUpTrigger()
 	{
 	}

@@ -10,101 +10,115 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000684")]
+[Token(Token = "0x200065D")]
 public static class Directory
 {
-	[Token(Token = "0x60031FC")]
-	[Address(RVA = "0x1AE7040", Offset = "0x1AE5640", VA = "0x181AE7040")]
+	[Token(Token = "0x60031B6")]
+	[Address(RVA = "0x5476A50", Offset = "0x5475A50", VA = "0x5476A50")]
 	public static DirectoryInfo CreateDirectory(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60031FD")]
-	[Address(RVA = "0x1AE7270", Offset = "0x1AE5870", VA = "0x181AE7270")]
+	[Token(Token = "0x60031B7")]
+	[Address(RVA = "0x5476D10", Offset = "0x5475D10", VA = "0x5476D10")]
 	public static bool Exists(string path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60031FE")]
-	[Address(RVA = "0x1AE75E0", Offset = "0x1AE5BE0", VA = "0x181AE75E0")]
+	[Token(Token = "0x60031B8")]
+	[Address(RVA = "0x5476EB0", Offset = "0x5475EB0", VA = "0x5476EB0")]
 	public static string[] GetFiles(string path, string searchPattern)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60031FF")]
-	[Address(RVA = "0x1AE76C0", Offset = "0x1AE5CC0", VA = "0x181AE76C0")]
+	[Token(Token = "0x60031B9")]
+	[Address(RVA = "0x5477030", Offset = "0x5476030", VA = "0x5477030")]
 	public static string[] GetFiles(string path, string searchPattern, SearchOption searchOption)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003200")]
-	[Address(RVA = "0x1AE78A0", Offset = "0x1AE5EA0", VA = "0x181AE78A0")]
+	[Token(Token = "0x60031BA")]
+	[Address(RVA = "0x5476FD0", Offset = "0x5475FD0", VA = "0x5476FD0")]
 	public static string[] GetFiles(string path, string searchPattern, EnumerationOptions enumerationOptions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003201")]
-	[Address(RVA = "0x1AE7330", Offset = "0x1AE5930", VA = "0x181AE7330")]
+	[Token(Token = "0x60031BB")]
+	[Address(RVA = "0x54773F0", Offset = "0x54763F0", VA = "0x54773F0")]
 	public static string[] GetDirectories(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003202")]
-	[Address(RVA = "0x1AE7420", Offset = "0x1AE5A20", VA = "0x181AE7420")]
+	[Token(Token = "0x60031BC")]
+	[Address(RVA = "0x5477510", Offset = "0x5476510", VA = "0x5477510")]
 	public static string[] GetDirectories(string path, string searchPattern, EnumerationOptions enumerationOptions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003203")]
-	[Address(RVA = "0x1AE7490", Offset = "0x1AE5A90", VA = "0x181AE7490")]
+	[Token(Token = "0x60031BD")]
+	[Address(RVA = "0x5477570", Offset = "0x5476570", VA = "0x5477570")]
 	public static string[] GetFileSystemEntries(string path, string searchPattern)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003204")]
-	[Address(RVA = "0x1AE7570", Offset = "0x1AE5B70", VA = "0x181AE7570")]
+	[Token(Token = "0x60031BE")]
+	[Address(RVA = "0x5477690", Offset = "0x5476690", VA = "0x5477690")]
 	public static string[] GetFileSystemEntries(string path, string searchPattern, EnumerationOptions enumerationOptions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003205")]
-	[Address(RVA = "0x1AE79A0", Offset = "0x1AE5FA0", VA = "0x181AE79A0")]
+	[Token(Token = "0x60031BF")]
+	[Address(RVA = "0x5477230", Offset = "0x5476230", VA = "0x5477230")]
 	internal static IEnumerable<string> InternalEnumeratePaths(string path, string searchPattern, System.IO.SearchTarget searchTarget, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003206")]
-	[Address(RVA = "0x1AE7BE0", Offset = "0x1AE61E0", VA = "0x181AE7BE0")]
+	[Token(Token = "0x60031C0")]
+	[Address(RVA = "0x54776F0", Offset = "0x54766F0", VA = "0x54776F0")]
+	public static IEnumerable<string> EnumerateFileSystemEntries(string path)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60031C1")]
+	[Address(RVA = "0x54777D0", Offset = "0x54767D0", VA = "0x54777D0")]
+	public static IEnumerable<string> EnumerateFileSystemEntries(string path, string searchPattern, EnumerationOptions enumerationOptions)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60031C2")]
+	[Address(RVA = "0x54777E0", Offset = "0x54767E0", VA = "0x54777E0")]
 	internal static string InternalGetDirectoryRoot(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003207")]
-	[Address(RVA = "0x1AE7320", Offset = "0x1AE5920", VA = "0x181AE7320")]
+	[Token(Token = "0x60031C3")]
+	[Address(RVA = "0x5477880", Offset = "0x5476880", VA = "0x5477880")]
 	public static string GetCurrentDirectory()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003208")]
-	[Address(RVA = "0x1AE71D0", Offset = "0x1AE57D0", VA = "0x181AE71D0")]
+	[Token(Token = "0x60031C4")]
+	[Address(RVA = "0x5477890", Offset = "0x5476890", VA = "0x5477890")]
 	public static void Delete(string path, bool recursive)
 	{
 	}
 
-	[Token(Token = "0x6003209")]
-	[Address(RVA = "0x1AE7910", Offset = "0x1AE5F10", VA = "0x181AE7910")]
+	[Token(Token = "0x60031C5")]
+	[Address(RVA = "0x5477950", Offset = "0x5476950", VA = "0x5477950")]
 	internal static string InsecureGetCurrentDirectory()
 	{
 		return null;

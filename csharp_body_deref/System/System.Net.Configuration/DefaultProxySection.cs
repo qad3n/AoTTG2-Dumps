@@ -10,99 +10,99 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003E6")]
+[Token(Token = "0x20003A2")]
 public sealed class DefaultProxySection : ConfigurationSection
 {
-	[Token(Token = "0x17000590")]
+	[Token(Token = "0x17000562")]
 	public BypassElementCollection BypassList
 	{
-		[Token(Token = "0x6001A23")]
-		[Address(RVA = "0x282A900", Offset = "0x2828F00", VA = "0x18282A900")]
+		[Token(Token = "0x6001869")]
+		[Address(RVA = "0x61CFD20", Offset = "0x61CED20", VA = "0x61CFD20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000591")]
+	[Token(Token = "0x17000563")]
 	public bool Enabled
 	{
-		[Token(Token = "0x6001A24")]
-		[Address(RVA = "0x282A930", Offset = "0x2828F30", VA = "0x18282A930")]
+		[Token(Token = "0x600186A")]
+		[Address(RVA = "0x61CFD50", Offset = "0x61CED50", VA = "0x61CFD50")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001A25")]
-		[Address(RVA = "0x282AA20", Offset = "0x2829020", VA = "0x18282AA20")]
+		[Token(Token = "0x600186B")]
+		[Address(RVA = "0x61CFD80", Offset = "0x61CED80", VA = "0x61CFD80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000592")]
+	[Token(Token = "0x17000564")]
 	public ModuleElement Module
 	{
-		[Token(Token = "0x6001A26")]
-		[Address(RVA = "0x282A960", Offset = "0x2828F60", VA = "0x18282A960")]
+		[Token(Token = "0x600186C")]
+		[Address(RVA = "0x61CFDB0", Offset = "0x61CEDB0", VA = "0x61CFDB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000593")]
+	[Token(Token = "0x17000565")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001A27")]
-		[Address(RVA = "0x282A990", Offset = "0x2828F90", VA = "0x18282A990", Slot = "4")]
+		[Token(Token = "0x600186D")]
+		[Address(RVA = "0x61CFDE0", Offset = "0x61CEDE0", VA = "0x61CFDE0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000594")]
+	[Token(Token = "0x17000566")]
 	public ProxyElement Proxy
 	{
-		[Token(Token = "0x6001A28")]
-		[Address(RVA = "0x282A9C0", Offset = "0x2828FC0", VA = "0x18282A9C0")]
+		[Token(Token = "0x600186E")]
+		[Address(RVA = "0x61CFE10", Offset = "0x61CEE10", VA = "0x61CFE10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000595")]
+	[Token(Token = "0x17000567")]
 	public bool UseDefaultCredentials
 	{
-		[Token(Token = "0x6001A29")]
-		[Address(RVA = "0x282A9F0", Offset = "0x2828FF0", VA = "0x18282A9F0")]
+		[Token(Token = "0x600186F")]
+		[Address(RVA = "0x61CFE40", Offset = "0x61CEE40", VA = "0x61CFE40")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001A2A")]
-		[Address(RVA = "0x282AA50", Offset = "0x2829050", VA = "0x18282AA50")]
+		[Token(Token = "0x6001870")]
+		[Address(RVA = "0x61CFE70", Offset = "0x61CEE70", VA = "0x61CFE70")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001A22")]
-	[Address(RVA = "0x282A8D0", Offset = "0x2828ED0", VA = "0x18282A8D0")]
+	[Token(Token = "0x6001868")]
+	[Address(RVA = "0x61CFCF0", Offset = "0x61CECF0", VA = "0x61CFCF0")]
 	public DefaultProxySection()
 	{
 	}
 
-	[Token(Token = "0x6001A2B")]
-	[Address(RVA = "0x282A870", Offset = "0x2828E70", VA = "0x18282A870", Slot = "8")]
+	[Token(Token = "0x6001871")]
+	[Address(RVA = "0x61CFEA0", Offset = "0x61CEEA0", VA = "0x61CFEA0", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6001A2C")]
-	[Address(RVA = "0x282A8A0", Offset = "0x2828EA0", VA = "0x18282A8A0", Slot = "9")]
+	[Token(Token = "0x6001872")]
+	[Address(RVA = "0x61CFED0", Offset = "0x61CEED0", VA = "0x61CFED0", Slot = "9")]
 	protected override void Reset(ConfigurationElement parentElement)
 	{
 	}

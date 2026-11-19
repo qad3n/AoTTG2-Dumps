@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001CE")]
-[AttributeUsage(AttributeTargets.Class)]
+[Token(Token = "0x20001CF")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Class)]
 public sealed class PreferBinarySerialization : Attribute
 {
-	[Token(Token = "0x6000EF0")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000F02")]
+	[Address(RVA = "0x6924090", Offset = "0x6923090", VA = "0x6924090")]
 	public PreferBinarySerialization()
 	{
 	}

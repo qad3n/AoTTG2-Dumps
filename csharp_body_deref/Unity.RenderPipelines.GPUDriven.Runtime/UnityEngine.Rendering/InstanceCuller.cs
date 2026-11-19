@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceCuller
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -89,7 +89,7 @@ internal struct InstanceCuller : IDisposable
 		public IndirectBufferContextHandles bufferHandles;
 
 		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x65C9AA0", Offset = "0x65C8AA0", VA = "0x65C9AA0")]
 		public InstanceOcclusionTestPassData()
 		{
 		}
@@ -156,127 +156,127 @@ internal struct InstanceCuller : IDisposable
 	private CommandBuffer m_CommandBuffer;
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x2BCD360", Offset = "0x2BCB960", VA = "0x182BCD360")]
+	[Address(RVA = "0x65C6090", Offset = "0x65C5090", VA = "0x65C6090")]
 	internal void Init(GPUResidentDrawerResources resources, [Optional] DebugRendererBatcherStats debugStats)
 	{
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x2BCAFC0", Offset = "0x2BC95C0", VA = "0x182BCAFC0")]
+	[Address(RVA = "0x65C63A0", Offset = "0x65C53A0", VA = "0x65C63A0")]
 	private JobHandle AnimateCrossFades(CPUPerCameraInstanceData perCameraInstanceData, BatchCullingContext cc, out CPUPerCameraInstanceData.PerCameraInstanceDataArrays cameraInstanceData, out bool hasAnimatedCrossfade)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x2BCC4E0", Offset = "0x2BCAAE0", VA = "0x182BCC4E0")]
+	[Address(RVA = "0x65C66A0", Offset = "0x65C56A0", VA = "0x65C66A0")]
 	private JobHandle CreateFrustumCullingJob(in BatchCullingContext cc, in CPUInstanceData.ReadOnly instanceData, in CPUSharedInstanceData.ReadOnly sharedInstanceData, in CPUPerCameraInstanceData perCameraInstanceData, NativeList<LODGroupCullingData> lodGroupCullingData, in BinningConfig binningConfig, float smallMeshScreenPercentage, OcclusionCullingCommon occlusionCullingCommon, NativeArray<byte> rendererVisibilityMasks, NativeArray<byte> rendererMeshLodSettings, NativeArray<byte> rendererCrossFadeValues)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x2BCB2D0", Offset = "0x2BC98D0", VA = "0x182BCB2D0")]
+	[Address(RVA = "0x65C6F00", Offset = "0x65C5F00", VA = "0x65C6F00")]
 	private int ComputeWorstCaseDrawCommandCount(in BatchCullingContext cc, BinningConfig binningConfig, CPUDrawInstanceData drawInstanceData)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x2BCB4F0", Offset = "0x2BC9AF0", VA = "0x182BCB4F0")]
+	[Address(RVA = "0x65C6FD0", Offset = "0x65C5FD0", VA = "0x65C6FD0")]
 	public JobHandle CreateCullJobTree(in BatchCullingContext cc, BatchCullingOutput cullingOutput, in CPUInstanceData.ReadOnly instanceData, in CPUSharedInstanceData.ReadOnly sharedInstanceData, in CPUPerCameraInstanceData perCameraInstanceData, in GPUInstanceDataBuffer.ReadOnly instanceDataBuffer, NativeList<LODGroupCullingData> lodGroupCullingData, CPUDrawInstanceData drawInstanceData, NativeParallelHashMap<uint, BatchID> batchIDs, float smallMeshScreenPercentage, OcclusionCullingCommon occlusionCullingCommon)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x2BCB3A0", Offset = "0x2BC99A0", VA = "0x182BCB3A0")]
+	[Address(RVA = "0x65C7D60", Offset = "0x65C6D60", VA = "0x65C7D60")]
 	private JobHandle CreateCompactedVisibilityMaskJob(in CPUInstanceData.ReadOnly instanceData, NativeArray<byte> rendererVisibilityMasks, JobHandle cullingJobHandle)
 	{
 		return default(JobHandle);
 	}
 
 	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x2BCD670", Offset = "0x2BCBC70", VA = "0x182BCD670")]
+	[Address(RVA = "0x65C7E80", Offset = "0x65C6E80", VA = "0x65C7E80")]
 	public void InstanceOccludersUpdated(int viewInstanceID, int subviewMask, RenderersBatchersContext batchersContext)
 	{
 	}
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x2BC3500", Offset = "0x2BC1B00", VA = "0x182BC3500")]
+	[Address(RVA = "0x65C7F30", Offset = "0x65C6F30", VA = "0x65C7F30")]
 	private void DisposeCompactVisibilityMasks()
 	{
 	}
 
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x65C7F60", Offset = "0x65C6F60", VA = "0x65C7F60")]
 	private void DisposeSceneViewHiddenBits()
 	{
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x2BCD320", Offset = "0x2BCB920", VA = "0x182BCD320")]
+	[Address(RVA = "0x65C7F70", Offset = "0x65C6F70", VA = "0x65C7F70")]
 	public ParallelBitArray GetCompactedVisibilityMasks(bool syncCullingJobs)
 	{
 		return default(ParallelBitArray);
 	}
 
 	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x2BCD730", Offset = "0x2BCBD30", VA = "0x182BCD730")]
+	[Address(RVA = "0x65BB220", Offset = "0x65BA220", VA = "0x65BB220")]
 	public void InstanceOcclusionTest(RenderGraph renderGraph, in OcclusionCullingSettings settings, ReadOnlySpan<SubviewOcclusionTest> subviewOcclusionTests, RenderersBatchersContext batchersContext)
 	{
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x2BCCF70", Offset = "0x2BCB570", VA = "0x182BCCF70")]
+	[Address(RVA = "0x65C7FB0", Offset = "0x65C6FB0", VA = "0x65C7FB0")]
 	internal void EnsureValidOcclusionTestResults(int viewInstanceID)
 	{
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x2BCA3B0", Offset = "0x2BC89B0", VA = "0x182BCA3B0")]
+	[Address(RVA = "0x65C8260", Offset = "0x65C7260", VA = "0x65C8260")]
 	private void AddOcclusionCullingDispatch(ComputeCommandBuffer cmd, in OcclusionCullingSettings settings, in InstanceOcclusionTestSubviewSettings subviewSettings, in IndirectBufferContextHandles bufferHandles, in OccluderHandles occluderHandles, RenderersBatchersContext batchersContext)
 	{
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x2BCD2B0", Offset = "0x2BCB8B0", VA = "0x182BCD2B0")]
+	[Address(RVA = "0x65C8EB0", Offset = "0x65C7EB0", VA = "0x65C8EB0")]
 	private void FlushDebugCounters()
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x65C8F00", Offset = "0x65C7F00", VA = "0x65C8F00")]
 	private void OnBeginSceneViewCameraRendering()
 	{
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x65C8F10", Offset = "0x65C7F10", VA = "0x65C8F10")]
 	private void OnEndSceneViewCameraRendering()
 	{
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x2BCDCA0", Offset = "0x2BCC2A0", VA = "0x182BCDCA0")]
+	[Address(RVA = "0x65C8F20", Offset = "0x65C7F20", VA = "0x65C8F20")]
 	public void UpdateFrame(int cameraCount)
 	{
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x2BCDC70", Offset = "0x2BCC270", VA = "0x182BCDC70")]
+	[Address(RVA = "0x65C9030", Offset = "0x65C8030", VA = "0x65C9030")]
 	public void OnBeginCameraRendering(Camera camera)
 	{
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x2BCDC70", Offset = "0x2BCC270", VA = "0x182BCDC70")]
+	[Address(RVA = "0x65C9050", Offset = "0x65C8050", VA = "0x65C9050")]
 	public void OnEndCameraRendering(Camera camera)
 	{
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x2BCCE90", Offset = "0x2BCB490", VA = "0x182BCCE90", Slot = "4")]
+	[Address(RVA = "0x65C9070", Offset = "0x65C8070", VA = "0x65C9070", Slot = "4")]
 	public void Dispose()
 	{
 	}

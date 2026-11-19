@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x20003B3")]
+[Token(Token = "0x200038C")]
 [ComVisible(true)]
 public interface IServerChannelSinkProvider
 {
-	[Token(Token = "0x1700037C")]
+	[Token(Token = "0x1700037B")]
 	IServerChannelSinkProvider Next
 	{
-		[Token(Token = "0x6001E19")]
+		[Token(Token = "0x6001DEF")]
 		set;
 	}
 }

@@ -12,44 +12,44 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x20003BA")]
+[Token(Token = "0x2000393")]
 [ComVisible(true)]
 public interface IConstructionCallMessage : IMessage, IMethodCallMessage, IMethodMessage
 {
-	[Token(Token = "0x17000384")]
+	[Token(Token = "0x17000383")]
 	Type ActivationType
 	{
-		[Token(Token = "0x6001E30")]
+		[Token(Token = "0x6001E06")]
+		get;
+	}
+
+	[Token(Token = "0x17000384")]
+	string ActivationTypeName
+	{
+		[Token(Token = "0x6001E07")]
 		get;
 	}
 
 	[Token(Token = "0x17000385")]
-	string ActivationTypeName
-	{
-		[Token(Token = "0x6001E31")]
-		get;
-	}
-
-	[Token(Token = "0x17000386")]
 	IActivator Activator
 	{
-		[Token(Token = "0x6001E32")]
+		[Token(Token = "0x6001E08")]
 		get;
-		[Token(Token = "0x6001E33")]
+		[Token(Token = "0x6001E09")]
 		set;
 	}
 
-	[Token(Token = "0x17000387")]
+	[Token(Token = "0x17000386")]
 	object[] CallSiteActivationAttributes
 	{
-		[Token(Token = "0x6001E34")]
+		[Token(Token = "0x6001E0A")]
 		get;
 	}
 
-	[Token(Token = "0x17000388")]
+	[Token(Token = "0x17000387")]
 	IList ContextProperties
 	{
-		[Token(Token = "0x6001E35")]
+		[Token(Token = "0x6001E0B")]
 		get;
 	}
 }

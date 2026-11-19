@@ -17,13 +17,13 @@ namespace UnityEngine.Rendering;
 public class NoInterpCubemapParameter : VolumeParameter<Cubemap>
 {
 	[Token(Token = "0x6000F68")]
-	[Address(RVA = "0x2B5F6B0", Offset = "0x2B5DCB0", VA = "0x182B5F6B0")]
+	[Address(RVA = "0x6556BA0", Offset = "0x6555BA0", VA = "0x6556BA0")]
 	public NoInterpCubemapParameter(Cubemap value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000F69")]
-	[Address(RVA = "0x2B5F5C0", Offset = "0x2B5DBC0", VA = "0x182B5F5C0", Slot = "2")]
+	[Address(RVA = "0x6556BF0", Offset = "0x6555BF0", VA = "0x6556BF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

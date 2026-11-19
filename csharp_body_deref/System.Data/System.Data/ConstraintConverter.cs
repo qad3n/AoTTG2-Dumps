@@ -15,20 +15,20 @@ namespace System.Data;
 internal sealed class ConstraintConverter : ExpandableObjectConverter
 {
 	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
+	[Address(RVA = "0x5E8F1D0", Offset = "0x5E8E1D0", VA = "0x5E8F1D0")]
 	public ConstraintConverter()
 	{
 	}
 
 	[Token(Token = "0x6000388")]
-	[Address(RVA = "0x24E9070", Offset = "0x24E7670", VA = "0x1824E9070", Slot = "5")]
+	[Address(RVA = "0x5E8F1E0", Offset = "0x5E8E1E0", VA = "0x5E8F1E0", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x24E9100", Offset = "0x24E7700", VA = "0x1824E9100", Slot = "7")]
+	[Address(RVA = "0x5E8F280", Offset = "0x5E8E280", VA = "0x5E8F280", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;

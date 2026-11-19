@@ -12,68 +12,68 @@ using Il2CppDummyDll;
 namespace System.ComponentModel;
 
 [Serializable]
-[Token(Token = "0x2000226")]
+[Token(Token = "0x20001E7")]
 public class Win32Exception : ExternalException, ISerializable
 {
-	[Token(Token = "0x40007F9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
+	[Token(Token = "0x400072A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private readonly int nativeErrorCode;
 
-	[Token(Token = "0x170002FD")]
+	[Token(Token = "0x170002CE")]
 	public int NativeErrorCode
 	{
-		[Token(Token = "0x6000F2D")]
-		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
+		[Token(Token = "0x6000D6D")]
+		[Address(RVA = "0x627B830", Offset = "0x627A830", VA = "0x627B830")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x28EA5B0", Offset = "0x28E8BB0", VA = "0x1828EA5B0")]
+	[Token(Token = "0x6000D67")]
+	[Address(RVA = "0x627AC20", Offset = "0x6279C20", VA = "0x627AC20")]
 	public Win32Exception()
 	{
 	}
 
-	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x28EA760", Offset = "0x28E8D60", VA = "0x1828EA760")]
+	[Token(Token = "0x6000D68")]
+	[Address(RVA = "0x627AC90", Offset = "0x6279C90", VA = "0x627AC90")]
 	public Win32Exception(int error)
 	{
 	}
 
-	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x28EA730", Offset = "0x28E8D30", VA = "0x1828EA730")]
+	[Token(Token = "0x6000D69")]
+	[Address(RVA = "0x627B6C0", Offset = "0x627A6C0", VA = "0x627B6C0")]
 	public Win32Exception(int error, string message)
 	{
 	}
 
-	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x28EA6B0", Offset = "0x28E8CB0", VA = "0x1828EA6B0")]
+	[Token(Token = "0x6000D6A")]
+	[Address(RVA = "0x627B6E0", Offset = "0x627A6E0", VA = "0x627B6E0")]
 	public Win32Exception(string message)
 	{
 	}
 
-	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x28EA530", Offset = "0x28E8B30", VA = "0x1828EA530")]
+	[Token(Token = "0x6000D6B")]
+	[Address(RVA = "0x627B740", Offset = "0x627A740", VA = "0x627B740")]
 	public Win32Exception(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x28EA620", Offset = "0x28E8C20", VA = "0x1828EA620")]
+	[Token(Token = "0x6000D6C")]
+	[Address(RVA = "0x627B7B0", Offset = "0x627A7B0", VA = "0x627B7B0")]
 	protected Win32Exception(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x28EA460", Offset = "0x28E8A60", VA = "0x1828EA460", Slot = "11")]
+	[Token(Token = "0x6000D6E")]
+	[Address(RVA = "0x627B840", Offset = "0x627A840", VA = "0x627B840", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x28E9990", Offset = "0x28E7F90", VA = "0x1828E9990")]
+	[Token(Token = "0x6000D6F")]
+	[Address(RVA = "0x627ACC0", Offset = "0x6279CC0", VA = "0x627ACC0")]
 	internal static string GetErrorMessage(int error)
 	{
 		return null;

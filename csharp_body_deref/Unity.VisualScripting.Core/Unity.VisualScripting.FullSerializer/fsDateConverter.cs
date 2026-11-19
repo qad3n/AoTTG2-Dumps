@@ -23,7 +23,7 @@ public class fsDateConverter : fsConverter
 	private string DateTimeFormatString
 	{
 		[Token(Token = "0x60011A0")]
-		[Address(RVA = "0x2E60E60", Offset = "0x2E5F460", VA = "0x182E60E60")]
+		[Address(RVA = "0x6857AE0", Offset = "0x6856AE0", VA = "0x6857AE0")]
 		get
 		{
 			return null;
@@ -31,28 +31,28 @@ public class fsDateConverter : fsConverter
 	}
 
 	[Token(Token = "0x60011A1")]
-	[Address(RVA = "0x2E603E0", Offset = "0x2E5E9E0", VA = "0x182E603E0", Slot = "9")]
+	[Address(RVA = "0x6857B30", Offset = "0x6856B30", VA = "0x6857B30", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011A2")]
-	[Address(RVA = "0x2E60B80", Offset = "0x2E5F180", VA = "0x182E60B80", Slot = "7")]
+	[Address(RVA = "0x6857C30", Offset = "0x6856C30", VA = "0x6857C30", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011A3")]
-	[Address(RVA = "0x2E604E0", Offset = "0x2E5EAE0", VA = "0x182E604E0", Slot = "8")]
+	[Address(RVA = "0x6857EC0", Offset = "0x6856EC0", VA = "0x6857EC0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x60011A4")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6858720", Offset = "0x6857720", VA = "0x6858720")]
 	public fsDateConverter()
 	{
 	}

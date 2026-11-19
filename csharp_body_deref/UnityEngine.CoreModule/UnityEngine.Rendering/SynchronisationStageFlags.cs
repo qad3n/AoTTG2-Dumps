@@ -12,12 +12,12 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x200034A")]
 public enum SynchronisationStageFlags
 {
-	[Token(Token = "0x4000978")]
+	[Token(Token = "0x4000976")]
 	VertexProcessing = 1,
-	[Token(Token = "0x4000979")]
+	[Token(Token = "0x4000977")]
 	PixelProcessing = 2,
-	[Token(Token = "0x400097A")]
+	[Token(Token = "0x4000978")]
 	ComputeProcessing = 4,
-	[Token(Token = "0x400097B")]
+	[Token(Token = "0x4000979")]
 	AllGPUOperations = 7
 }

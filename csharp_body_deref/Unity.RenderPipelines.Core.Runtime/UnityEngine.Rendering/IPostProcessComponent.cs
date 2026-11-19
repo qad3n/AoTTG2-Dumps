@@ -17,7 +17,7 @@ public interface IPostProcessComponent
 	bool IsActive();
 
 	[Token(Token = "0x6000AF8")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "1")]
+	[Address(RVA = "0x65129C0", Offset = "0x65119C0", VA = "0x65129C0", Slot = "1")]
 	[Obsolete("Unused #from(2023.1)")]
 	bool IsTileCompatible()
 	{

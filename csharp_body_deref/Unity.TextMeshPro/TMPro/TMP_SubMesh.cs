@@ -82,13 +82,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public TMP_FontAsset fontAsset
 	{
 		[Token(Token = "0x60003ED")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x673D8E0", Offset = "0x673C8E0", VA = "0x673D8E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003EE")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Address(RVA = "0x673D8F0", Offset = "0x673C8F0", VA = "0x673D8F0")]
 		set
 		{
 		}
@@ -98,13 +98,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public TMP_SpriteAsset spriteAsset
 	{
 		[Token(Token = "0x60003EF")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x673D900", Offset = "0x673C900", VA = "0x673D900")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003F0")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x673D910", Offset = "0x673C910", VA = "0x673D910")]
 		set
 		{
 		}
@@ -114,13 +114,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public Material material
 	{
 		[Token(Token = "0x60003F1")]
-		[Address(RVA = "0x2D45A00", Offset = "0x2D44000", VA = "0x182D45A00")]
+		[Address(RVA = "0x673D920", Offset = "0x673C920", VA = "0x673D920")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003F2")]
-		[Address(RVA = "0x2D45E80", Offset = "0x2D44480", VA = "0x182D45E80")]
+		[Address(RVA = "0x673DAC0", Offset = "0x673CAC0", VA = "0x673DAC0")]
 		set
 		{
 		}
@@ -130,13 +130,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public Material sharedMaterial
 	{
 		[Token(Token = "0x60003F3")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x673DC20", Offset = "0x673CC20", VA = "0x673DC20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003F4")]
-		[Address(RVA = "0x2D45750", Offset = "0x2D43D50", VA = "0x182D45750")]
+		[Address(RVA = "0x673DC30", Offset = "0x673CC30", VA = "0x673DC30")]
 		set
 		{
 		}
@@ -146,13 +146,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public Material fallbackMaterial
 	{
 		[Token(Token = "0x60003F5")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x673DCC0", Offset = "0x673CCC0", VA = "0x673DCC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003F6")]
-		[Address(RVA = "0x2D45D20", Offset = "0x2D44320", VA = "0x182D45D20")]
+		[Address(RVA = "0x673DCD0", Offset = "0x673CCD0", VA = "0x673DCD0")]
 		set
 		{
 		}
@@ -162,13 +162,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public Material fallbackSourceMaterial
 	{
 		[Token(Token = "0x60003F7")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x673DE00", Offset = "0x673CE00", VA = "0x673DE00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003F8")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x673DE10", Offset = "0x673CE10", VA = "0x673DE10")]
 		set
 		{
 		}
@@ -178,13 +178,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public bool isDefaultMaterial
 	{
 		[Token(Token = "0x60003F9")]
-		[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
+		[Address(RVA = "0x673DE20", Offset = "0x673CE20", VA = "0x673DE20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60003FA")]
-		[Address(RVA = "0x174C1E0", Offset = "0x174A7E0", VA = "0x18174C1E0")]
+		[Address(RVA = "0x673DE30", Offset = "0x673CE30", VA = "0x673DE30")]
 		set
 		{
 		}
@@ -194,13 +194,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public float padding
 	{
 		[Token(Token = "0x60003FB")]
-		[Address(RVA = "0x2D45BF0", Offset = "0x2D441F0", VA = "0x182D45BF0")]
+		[Address(RVA = "0x673DE40", Offset = "0x673CE40", VA = "0x673DE40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003FC")]
-		[Address(RVA = "0x2D45F10", Offset = "0x2D44510", VA = "0x182D45F10")]
+		[Address(RVA = "0x673DE50", Offset = "0x673CE50", VA = "0x673DE50")]
 		set
 		{
 		}
@@ -210,7 +210,7 @@ public class TMP_SubMesh : MonoBehaviour
 	public Renderer renderer
 	{
 		[Token(Token = "0x60003FD")]
-		[Address(RVA = "0x2D45C00", Offset = "0x2D44200", VA = "0x182D45C00")]
+		[Address(RVA = "0x673DE60", Offset = "0x673CE60", VA = "0x673DE60")]
 		get
 		{
 			return null;
@@ -221,7 +221,7 @@ public class TMP_SubMesh : MonoBehaviour
 	public MeshFilter meshFilter
 	{
 		[Token(Token = "0x60003FE")]
-		[Address(RVA = "0x2D45A10", Offset = "0x2D44010", VA = "0x182D45A10")]
+		[Address(RVA = "0x673DEF0", Offset = "0x673CEF0", VA = "0x673DEF0")]
 		get
 		{
 			return null;
@@ -232,13 +232,13 @@ public class TMP_SubMesh : MonoBehaviour
 	public Mesh mesh
 	{
 		[Token(Token = "0x60003FF")]
-		[Address(RVA = "0x2D45B30", Offset = "0x2D44130", VA = "0x182D45B30")]
+		[Address(RVA = "0x673E010", Offset = "0x673D010", VA = "0x673E010")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000400")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x673E0C0", Offset = "0x673D0C0", VA = "0x673E0C0")]
 		set
 		{
 		}
@@ -248,7 +248,7 @@ public class TMP_SubMesh : MonoBehaviour
 	public TMP_Text textComponent
 	{
 		[Token(Token = "0x6000401")]
-		[Address(RVA = "0x2D45C90", Offset = "0x2D44290", VA = "0x182D45C90")]
+		[Address(RVA = "0x673E0D0", Offset = "0x673D0D0", VA = "0x673E0D0")]
 		get
 		{
 			return null;
@@ -256,96 +256,96 @@ public class TMP_SubMesh : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x2D44B00", Offset = "0x2D43100", VA = "0x182D44B00")]
+	[Address(RVA = "0x673E160", Offset = "0x673D160", VA = "0x673E160")]
 	public static TMP_SubMesh AddSubTextObject(TextMeshPro textComponent, MaterialReference materialReference)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x2D454A0", Offset = "0x2D43AA0", VA = "0x182D454A0")]
+	[Address(RVA = "0x673E4A0", Offset = "0x673D4A0", VA = "0x673E4A0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x2D453E0", Offset = "0x2D439E0", VA = "0x182D453E0")]
+	[Address(RVA = "0x673E5B0", Offset = "0x673D5B0", VA = "0x673E5B0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000405")]
-	[Address(RVA = "0x2D45290", Offset = "0x2D43890", VA = "0x182D45290")]
+	[Address(RVA = "0x673E670", Offset = "0x673D670", VA = "0x673E670")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000406")]
-	[Address(RVA = "0x2D44F30", Offset = "0x2D43530", VA = "0x182D44F30")]
+	[Address(RVA = "0x673E7D0", Offset = "0x673D7D0", VA = "0x673E7D0")]
 	public void DestroySelf()
 	{
 	}
 
 	[Token(Token = "0x6000407")]
-	[Address(RVA = "0x2D44F90", Offset = "0x2D43590", VA = "0x182D44F90")]
+	[Address(RVA = "0x673D930", Offset = "0x673C930", VA = "0x673D930")]
 	private Material GetMaterial(Material mat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000408")]
-	[Address(RVA = "0x2D44E70", Offset = "0x2D43470", VA = "0x182D44E70")]
+	[Address(RVA = "0x673E830", Offset = "0x673D830", VA = "0x673E830")]
 	private Material CreateMaterialInstance(Material source)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000409")]
-	[Address(RVA = "0x2D451F0", Offset = "0x2D437F0", VA = "0x182D451F0")]
+	[Address(RVA = "0x673E8E0", Offset = "0x673D8E0", VA = "0x673E8E0")]
 	private Material GetSharedMaterial()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600040A")]
-	[Address(RVA = "0x2D45750", Offset = "0x2D43D50", VA = "0x182D45750")]
+	[Address(RVA = "0x673DC40", Offset = "0x673CC40", VA = "0x673DC40")]
 	private void SetSharedMaterial(Material mat)
 	{
 	}
 
 	[Token(Token = "0x600040B")]
-	[Address(RVA = "0x2D45160", Offset = "0x2D43760", VA = "0x182D45160")]
+	[Address(RVA = "0x673DB90", Offset = "0x673CB90", VA = "0x673DB90")]
 	public float GetPaddingForMaterial()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600040C")]
-	[Address(RVA = "0x2D45990", Offset = "0x2D43F90", VA = "0x182D45990")]
+	[Address(RVA = "0x673E980", Offset = "0x673D980", VA = "0x673E980")]
 	public void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold)
 	{
 	}
 
 	[Token(Token = "0x600040D")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
+	[Address(RVA = "0x673DC00", Offset = "0x673CC00", VA = "0x673DC00")]
 	public void SetVerticesDirty()
 	{
 	}
 
 	[Token(Token = "0x600040E")]
-	[Address(RVA = "0x2D45740", Offset = "0x2D43D40", VA = "0x182D45740")]
+	[Address(RVA = "0x673DC10", Offset = "0x673CC10", VA = "0x673DC10")]
 	public void SetMaterialDirty()
 	{
 	}
 
 	[Token(Token = "0x600040F")]
-	[Address(RVA = "0x2D45790", Offset = "0x2D43D90", VA = "0x182D45790")]
+	[Address(RVA = "0x673E9E0", Offset = "0x673D9E0", VA = "0x673E9E0")]
 	protected void UpdateMaterial()
 	{
 	}
 
 	[Token(Token = "0x6000410")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x673EBC0", Offset = "0x673DBC0", VA = "0x673EBC0")]
 	public TMP_SubMesh()
 	{
 	}

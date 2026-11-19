@@ -12,52 +12,41 @@ using UnityEngine.Events;
 
 namespace UI;
 
-[Token(Token = "0x2000811")]
+[Token(Token = "0x200088F")]
 internal class MapEditorAddComponentPopup : BasePopup
 {
-	[Token(Token = "0x400286E")]
+	[Token(Token = "0x4002B27")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public StringSetting Search;
 
-	[Token(Token = "0x400286F")]
+	[Token(Token = "0x4002B28")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private InputSettingElement _searchInput;
 
-	[Token(Token = "0x4002870")]
+	[Token(Token = "0x4002B29")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	public StringSetting FinishSetting;
 
-	[Token(Token = "0x4002871")]
+	[Token(Token = "0x4002B2A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private UnityAction _onLoad;
 
-	[Token(Token = "0x17000E46")]
+	[Token(Token = "0x17000E47")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004DCB")]
-		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
+		[Token(Token = "0x6005166")]
+		[Address(RVA = "0x5C5DA20", Offset = "0x5C5CA20", VA = "0x5C5DA20", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000E47")]
+	[Token(Token = "0x17000E48")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004DCC")]
-		[Address(RVA = "0x210FB90", Offset = "0x210E190", VA = "0x18210FB90", Slot = "5")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000E48")]
-	protected override float Height
-	{
-		[Token(Token = "0x6004DCD")]
-		[Address(RVA = "0x21500A0", Offset = "0x214E6A0", VA = "0x1821500A0", Slot = "6")]
+		[Token(Token = "0x6005167")]
+		[Address(RVA = "0x5C5DA40", Offset = "0x5C5CA40", VA = "0x5C5DA40", Slot = "5")]
 		get
 		{
 			return default(float);
@@ -65,21 +54,21 @@ internal class MapEditorAddComponentPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000E49")]
-	protected override bool CategoryPanel
+	protected override float Height
 	{
-		[Token(Token = "0x6004DCE")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
+		[Token(Token = "0x6005168")]
+		[Address(RVA = "0x5C5DA50", Offset = "0x5C5CA50", VA = "0x5C5DA50", Slot = "6")]
 		get
 		{
-			return default(bool);
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000E4A")]
-	protected override bool CategoryButtons
+	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x6004DCF")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "42")]
+		[Token(Token = "0x6005169")]
+		[Address(RVA = "0x5C5DA60", Offset = "0x5C5CA60", VA = "0x5C5DA60", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -87,78 +76,89 @@ internal class MapEditorAddComponentPopup : BasePopup
 	}
 
 	[Token(Token = "0x17000E4B")]
+	protected override bool CategoryButtons
+	{
+		[Token(Token = "0x600516A")]
+		[Address(RVA = "0x5C5DA70", Offset = "0x5C5CA70", VA = "0x5C5DA70", Slot = "42")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000E4C")]
 	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6004DD0")]
-		[Address(RVA = "0x21C3380", Offset = "0x21C1980", VA = "0x1821C3380", Slot = "36")]
+		[Token(Token = "0x600516B")]
+		[Address(RVA = "0x5C5DA80", Offset = "0x5C5CA80", VA = "0x5C5DA80", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000E4C")]
+	[Token(Token = "0x17000E4D")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x6004DD1")]
-		[Address(RVA = "0x229E110", Offset = "0x229C710", VA = "0x18229E110", Slot = "19")]
+		[Token(Token = "0x600516C")]
+		[Address(RVA = "0x5C5DA90", Offset = "0x5C5CA90", VA = "0x5C5DA90", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004DD2")]
-	[Address(RVA = "0x229DCF0", Offset = "0x229C2F0", VA = "0x18229DCF0", Slot = "20")]
+	[Token(Token = "0x600516D")]
+	[Address(RVA = "0x5C5DAC0", Offset = "0x5C5CAC0", VA = "0x5C5DAC0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004DD3")]
-	[Address(RVA = "0x229D6F0", Offset = "0x229BCF0", VA = "0x18229D6F0", Slot = "62")]
+	[Token(Token = "0x600516E")]
+	[Address(RVA = "0x5C5DD80", Offset = "0x5C5CD80", VA = "0x5C5DD80", Slot = "62")]
 	protected virtual string[] GetCategories()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004DD4")]
-	[Address(RVA = "0x229DAE0", Offset = "0x229C0E0", VA = "0x18229DAE0", Slot = "44")]
+	[Token(Token = "0x600516F")]
+	[Address(RVA = "0x5C5DE80", Offset = "0x5C5CE80", VA = "0x5C5DE80", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x6004DD5")]
-	[Address(RVA = "0x229D870", Offset = "0x229BE70", VA = "0x18229D870")]
+	[Token(Token = "0x6005170")]
+	[Address(RVA = "0x5C5E090", Offset = "0x5C5D090", VA = "0x5C5E090")]
 	protected void OnTopBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004DD6")]
-	[Address(RVA = "0x229D950", Offset = "0x229BF50", VA = "0x18229D950", Slot = "27")]
+	[Token(Token = "0x6005171")]
+	[Address(RVA = "0x5C5E170", Offset = "0x5C5D170", VA = "0x5C5E170", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6004DD7")]
-	[Address(RVA = "0x229DFA0", Offset = "0x229C5A0", VA = "0x18229DFA0")]
+	[Token(Token = "0x6005172")]
+	[Address(RVA = "0x5C5E340", Offset = "0x5C5D340", VA = "0x5C5E340")]
 	public void Show(UnityAction onLoad)
 	{
 	}
 
-	[Token(Token = "0x6004DD8")]
-	[Address(RVA = "0x229D7E0", Offset = "0x229BDE0", VA = "0x18229D7E0")]
+	[Token(Token = "0x6005173")]
+	[Address(RVA = "0x5C5D900", Offset = "0x5C5C900", VA = "0x5C5D900")]
 	public void OnSelectItem(string name)
 	{
 	}
 
-	[Token(Token = "0x6004DD9")]
-	[Address(RVA = "0xA37400", Offset = "0xA35A00", VA = "0x180A37400")]
+	[Token(Token = "0x6005174")]
+	[Address(RVA = "0x5C5E380", Offset = "0x5C5D380", VA = "0x5C5E380")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004DDA")]
-	[Address(RVA = "0x229E030", Offset = "0x229C630", VA = "0x18229E030")]
+	[Token(Token = "0x6005175")]
+	[Address(RVA = "0x5C5E3A0", Offset = "0x5C5D3A0", VA = "0x5C5E3A0")]
 	public MapEditorAddComponentPopup()
 	{
 	}

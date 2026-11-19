@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -52,27 +52,27 @@ public class AdaptivePerformanceScalerSettingsBase
 
 	[Token(Token = "0x40000F7")]
 	[FieldOffset(Offset = "0x2C")]
-	[SerializeField]
 	[Tooltip("Minimum value for the scale boundary.")]
+	[SerializeField]
 	private float m_MinBound;
 
 	[Token(Token = "0x40000F8")]
 	[FieldOffset(Offset = "0x30")]
-	[Tooltip("Maximum value for the scale boundary.")]
 	[SerializeField]
+	[Tooltip("Maximum value for the scale boundary.")]
 	private float m_MaxBound;
 
 	[Token(Token = "0x1700009B")]
 	public string name
 	{
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
+		[Address(RVA = "0x688A100", Offset = "0x6889100", VA = "0x688A100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x688A160", Offset = "0x6889160", VA = "0x688A160")]
 		set
 		{
 		}
@@ -82,13 +82,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public bool enabled
 	{
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x2E85230", Offset = "0x2E83830", VA = "0x182E85230")]
+		[Address(RVA = "0x688A190", Offset = "0x6889190", VA = "0x688A190")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
+		[Address(RVA = "0x688A1D0", Offset = "0x68891D0", VA = "0x688A1D0")]
 		set
 		{
 		}
@@ -98,13 +98,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public float scale
 	{
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x2E8CC00", Offset = "0x2E8B200", VA = "0x182E8CC00")]
+		[Address(RVA = "0x688A200", Offset = "0x6889200", VA = "0x688A200")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
+		[Address(RVA = "0x688A240", Offset = "0x6889240", VA = "0x688A240")]
 		set
 		{
 		}
@@ -114,13 +114,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public ScalerVisualImpact visualImpact
 	{
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
+		[Address(RVA = "0x688A270", Offset = "0x6889270", VA = "0x688A270")]
 		get
 		{
 			return default(ScalerVisualImpact);
 		}
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x688A2A0", Offset = "0x68892A0", VA = "0x688A2A0")]
 		set
 		{
 		}
@@ -130,13 +130,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public ScalerTarget target
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x1CC78C0", Offset = "0x1CC5EC0", VA = "0x181CC78C0")]
+		[Address(RVA = "0x688A2D0", Offset = "0x68892D0", VA = "0x688A2D0")]
 		get
 		{
 			return default(ScalerTarget);
 		}
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x688A300", Offset = "0x6889300", VA = "0x688A300")]
 		set
 		{
 		}
@@ -146,13 +146,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public int maxLevel
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
+		[Address(RVA = "0x688A330", Offset = "0x6889330", VA = "0x688A330")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x688A360", Offset = "0x6889360", VA = "0x688A360")]
 		set
 		{
 		}
@@ -162,13 +162,13 @@ public class AdaptivePerformanceScalerSettingsBase
 	public float minBound
 	{
 		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
+		[Address(RVA = "0x688A390", Offset = "0x6889390", VA = "0x688A390")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
+		[Address(RVA = "0x688A3D0", Offset = "0x68893D0", VA = "0x688A3D0")]
 		set
 		{
 		}
@@ -178,20 +178,20 @@ public class AdaptivePerformanceScalerSettingsBase
 	public float maxBound
 	{
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x2E8CBF0", Offset = "0x2E8B1F0", VA = "0x182E8CBF0")]
+		[Address(RVA = "0x688A400", Offset = "0x6889400", VA = "0x688A400")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
+		[Address(RVA = "0x688A440", Offset = "0x6889440", VA = "0x688A440")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x2E8CB70", Offset = "0x2E8B170", VA = "0x182E8CB70")]
+	[Address(RVA = "0x688AA00", Offset = "0x6889A00", VA = "0x688AA00")]
 	public AdaptivePerformanceScalerSettingsBase()
 	{
 	}

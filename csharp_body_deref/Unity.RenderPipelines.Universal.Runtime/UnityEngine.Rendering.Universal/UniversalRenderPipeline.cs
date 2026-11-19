@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipeline
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -30,7 +30,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 			public ProfilingSampler sampler;
 
 			[Token(Token = "0x6000A72")]
-			[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+			[Address(RVA = "0x66AD390", Offset = "0x66AC390", VA = "0x66AD390")]
 			public CameraMetadataCacheEntry()
 			{
 			}
@@ -45,7 +45,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 		private static readonly CameraMetadataCacheEntry k_NoAllocEntry;
 
 		[Token(Token = "0x6000A70")]
-		[Address(RVA = "0x2CB7040", Offset = "0x2CB5640", VA = "0x182CB7040")]
+		[Address(RVA = "0x66AD1E0", Offset = "0x66AC1E0", VA = "0x66AD1E0")]
 		public static CameraMetadataCacheEntry GetCached(Camera camera)
 		{
 			return null;
@@ -149,13 +149,13 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 		private readonly Camera m_Camera;
 
 		[Token(Token = "0x6000A76")]
-		[Address(RVA = "0x2CB74E0", Offset = "0x2CB5AE0", VA = "0x182CB74E0")]
+		[Address(RVA = "0x66AD930", Offset = "0x66AC930", VA = "0x66AD930")]
 		public CameraRenderingScope(ScriptableRenderContext context, Camera camera)
 		{
 		}
 
 		[Token(Token = "0x6000A77")]
-		[Address(RVA = "0x2CB7340", Offset = "0x2CB5940", VA = "0x182CB7340", Slot = "4")]
+		[Address(RVA = "0x66ADA40", Offset = "0x66ACA40", VA = "0x66ADA40", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -181,13 +181,13 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 		private readonly List<Camera> m_Cameras;
 
 		[Token(Token = "0x6000A79")]
-		[Address(RVA = "0x2CB9D30", Offset = "0x2CB8330", VA = "0x182CB9D30")]
+		[Address(RVA = "0x66ADBF0", Offset = "0x66ACBF0", VA = "0x66ADBF0")]
 		public ContextRenderingScope(ScriptableRenderContext context, List<Camera> cameras)
 		{
 		}
 
 		[Token(Token = "0x6000A7A")]
-		[Address(RVA = "0x2CB9B90", Offset = "0x2CB8190", VA = "0x182CB9B90", Slot = "4")]
+		[Address(RVA = "0x66ADCF0", Offset = "0x66ACCF0", VA = "0x66ADCF0", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -213,7 +213,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 		public int slice;
 
 		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x2CC8AF0", Offset = "0x2CC70F0", VA = "0x182CC8AF0")]
+		[Address(RVA = "0x66ADEA0", Offset = "0x66ACEA0", VA = "0x66ADEA0")]
 		public SingleCameraRequest()
 		{
 		}
@@ -309,7 +309,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static float maxShadowBias
 	{
 		[Token(Token = "0x6000A1A")]
-		[Address(RVA = "0x20B9980", Offset = "0x20B7F80", VA = "0x1820B9980")]
+		[Address(RVA = "0x66A0190", Offset = "0x669F190", VA = "0x66A0190")]
 		get
 		{
 			return default(float);
@@ -320,7 +320,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static float minRenderScale
 	{
 		[Token(Token = "0x6000A1B")]
-		[Address(RVA = "0x21BC890", Offset = "0x21BAE90", VA = "0x1821BC890")]
+		[Address(RVA = "0x66A01A0", Offset = "0x669F1A0", VA = "0x66A01A0")]
 		get
 		{
 			return default(float);
@@ -331,7 +331,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static float maxRenderScale
 	{
 		[Token(Token = "0x6000A1C")]
-		[Address(RVA = "0x2161410", Offset = "0x215FA10", VA = "0x182161410")]
+		[Address(RVA = "0x66A01B0", Offset = "0x669F1B0", VA = "0x66A01B0")]
 		get
 		{
 			return default(float);
@@ -342,7 +342,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static int maxNumIterationsEnclosingSphere
 	{
 		[Token(Token = "0x6000A1D")]
-		[Address(RVA = "0x2168BB0", Offset = "0x21671B0", VA = "0x182168BB0")]
+		[Address(RVA = "0x66A01C0", Offset = "0x669F1C0", VA = "0x66A01C0")]
 		get
 		{
 			return default(int);
@@ -353,7 +353,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static int maxPerObjectLights
 	{
 		[Token(Token = "0x6000A1E")]
-		[Address(RVA = "0x846F50", Offset = "0x845550", VA = "0x180846F50")]
+		[Address(RVA = "0x66A01D0", Offset = "0x669F1D0", VA = "0x66A01D0")]
 		get
 		{
 			return default(int);
@@ -364,7 +364,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static int maxVisibleAdditionalLights
 	{
 		[Token(Token = "0x6000A1F")]
-		[Address(RVA = "0x2CB11F0", Offset = "0x2CAF7F0", VA = "0x182CB11F0")]
+		[Address(RVA = "0x66A01E0", Offset = "0x669F1E0", VA = "0x66A01E0")]
 		get
 		{
 			return default(int);
@@ -375,7 +375,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static int lightsPerTile
 	{
 		[Token(Token = "0x6000A20")]
-		[Address(RVA = "0x2CB1140", Offset = "0x2CAF740", VA = "0x182CB1140")]
+		[Address(RVA = "0x66A02A0", Offset = "0x669F2A0", VA = "0x66A02A0")]
 		get
 		{
 			return default(int);
@@ -386,7 +386,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static int maxZBinWords
 	{
 		[Token(Token = "0x6000A21")]
-		[Address(RVA = "0x868140", Offset = "0x866740", VA = "0x180868140")]
+		[Address(RVA = "0x66A02F0", Offset = "0x669F2F0", VA = "0x66A02F0")]
 		get
 		{
 			return default(int);
@@ -397,7 +397,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static int maxTileWords
 	{
 		[Token(Token = "0x6000A22")]
-		[Address(RVA = "0x2CB1190", Offset = "0x2CAF790", VA = "0x182CB1190")]
+		[Address(RVA = "0x66A0300", Offset = "0x669F300", VA = "0x66A0300")]
 		get
 		{
 			return default(int);
@@ -408,7 +408,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static int maxVisibleReflectionProbes
 	{
 		[Token(Token = "0x6000A23")]
-		[Address(RVA = "0x2CB12C0", Offset = "0x2CAF8C0", VA = "0x182CB12C0")]
+		[Address(RVA = "0x66A0350", Offset = "0x669F350", VA = "0x66A0350")]
 		get
 		{
 			return default(int);
@@ -419,14 +419,14 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal UniversalRenderPipelineRuntimeTextures runtimeTextures
 	{
 		[Token(Token = "0x6000A24")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x66A03C0", Offset = "0x669F3C0", VA = "0x66A03C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A25")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Address(RVA = "0x66A03D0", Offset = "0x669F3D0", VA = "0x66A03D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -437,14 +437,14 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static RenderTextureUVOriginStrategy renderTextureUVOriginStrategy
 	{
 		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x2CB1340", Offset = "0x2CAF940", VA = "0x182CB1340")]
+		[Address(RVA = "0x66A03E0", Offset = "0x669F3E0", VA = "0x66A03E0")]
 		[CompilerGenerated]
 		private get
 		{
 			return default(RenderTextureUVOriginStrategy);
 		}
 		[Token(Token = "0x6000A27")]
-		[Address(RVA = "0x2CB1440", Offset = "0x2CAFA40", VA = "0x182CB1440")]
+		[Address(RVA = "0x66A0450", Offset = "0x669F450", VA = "0x66A0450")]
 		[CompilerGenerated]
 		set
 		{
@@ -455,7 +455,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public override RenderPipelineGlobalSettings defaultSettings
 	{
 		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "9")]
+		[Address(RVA = "0x66A04A0", Offset = "0x669F4A0", VA = "0x66A04A0", Slot = "9")]
 		get
 		{
 			return null;
@@ -466,14 +466,14 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static bool canOptimizeScreenMSAASamples
 	{
 		[Token(Token = "0x6000A29")]
-		[Address(RVA = "0x2CB10F0", Offset = "0x2CAF6F0", VA = "0x182CB10F0")]
+		[Address(RVA = "0x66A04B0", Offset = "0x669F4B0", VA = "0x66A04B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A2A")]
-		[Address(RVA = "0x2CB13E0", Offset = "0x2CAF9E0", VA = "0x182CB13E0")]
+		[Address(RVA = "0x66A0520", Offset = "0x669F520", VA = "0x66A0520")]
 		[CompilerGenerated]
 		private set
 		{
@@ -484,14 +484,14 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	internal static int startFrameScreenMSAASamples
 	{
 		[Token(Token = "0x6000A2B")]
-		[Address(RVA = "0x2CB1390", Offset = "0x2CAF990", VA = "0x182CB1390")]
+		[Address(RVA = "0x66A0570", Offset = "0x669F570", VA = "0x66A0570")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000A2C")]
-		[Address(RVA = "0x2CB14A0", Offset = "0x2CAFAA0", VA = "0x182CB14A0")]
+		[Address(RVA = "0x66A05E0", Offset = "0x669F5E0", VA = "0x66A05E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -502,7 +502,7 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	public static UniversalRenderPipelineAsset asset
 	{
 		[Token(Token = "0x6000A63")]
-		[Address(RVA = "0x2CB1050", Offset = "0x2CAF650", VA = "0x182CB1050")]
+		[Address(RVA = "0x668E6F0", Offset = "0x668D6F0", VA = "0x668E6F0")]
 		get
 		{
 			return null;
@@ -510,32 +510,32 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	}
 
 	[Token(Token = "0x6000A2D")]
-	[Address(RVA = "0x2CAF870", Offset = "0x2CADE70", VA = "0x182CAF870", Slot = "3")]
+	[Address(RVA = "0x66A0630", Offset = "0x669F630", VA = "0x66A0630", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A2E")]
-	[Address(RVA = "0x2CB0750", Offset = "0x2CAED50", VA = "0x182CB0750")]
+	[Address(RVA = "0x66A0650", Offset = "0x669F650", VA = "0x66A0650")]
 	public UniversalRenderPipeline(UniversalRenderPipelineAsset asset)
 	{
 	}
 
 	[Token(Token = "0x6000A2F")]
-	[Address(RVA = "0x2CA7DD0", Offset = "0x2CA63D0", VA = "0x182CA7DD0", Slot = "8")]
+	[Address(RVA = "0x66A0FE0", Offset = "0x669FFE0", VA = "0x66A0FE0", Slot = "8")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000A30")]
-	[Address(RVA = "0x2CA7D20", Offset = "0x2CA6320", VA = "0x182CA7D20")]
+	[Address(RVA = "0x66A1450", Offset = "0x66A0450", VA = "0x66A1450")]
 	private void DisposeAdditionalCameraData()
 	{
 	}
 
 	[Token(Token = "0x6000A31")]
-	[Address(RVA = "0x2CAE130", Offset = "0x2CAC730", VA = "0x182CAE130", Slot = "7")]
+	[Address(RVA = "0x66A1500", Offset = "0x66A0500", VA = "0x66A1500", Slot = "7")]
 	protected override void Render(ScriptableRenderContext renderContext, List<Camera> cameras)
 	{
 	}
@@ -552,374 +552,374 @@ public sealed class UniversalRenderPipeline : RenderPipeline
 	}
 
 	[Token(Token = "0x6000A34")]
-	[Address(RVA = "0x2CAE0D0", Offset = "0x2CAC6D0", VA = "0x182CAE0D0")]
+	[Address(RVA = "0x66A46C0", Offset = "0x66A36C0", VA = "0x66A46C0")]
 	[Obsolete("RenderSingleCamera is obsolete, please use RenderPipeline.SubmitRenderRequest with UniversalRenderer.SingleCameraRequest as RequestData type. #from(2023.1)")]
 	public static void RenderSingleCamera(ScriptableRenderContext context, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6000A35")]
-	[Address(RVA = "0x2CAC6A0", Offset = "0x2CAACA0", VA = "0x182CAC6A0")]
+	[Address(RVA = "0x66A45E0", Offset = "0x66A35E0", VA = "0x66A45E0")]
 	internal static void RenderSingleCameraInternal(ScriptableRenderContext context, Camera camera, bool isLastBaseCamera = true)
 	{
 	}
 
 	[Token(Token = "0x6000A36")]
-	[Address(RVA = "0x2CAC780", Offset = "0x2CAAD80", VA = "0x182CAC780")]
+	[Address(RVA = "0x66A4720", Offset = "0x66A3720", VA = "0x66A4720")]
 	internal static void RenderSingleCameraInternal(ScriptableRenderContext context, Camera camera, ref UniversalAdditionalCameraData additionalCameraData, bool isLastBaseCamera = true)
 	{
 	}
 
 	[Token(Token = "0x6000A37")]
-	[Address(RVA = "0x2CAF890", Offset = "0x2CADE90", VA = "0x182CAF890")]
+	[Address(RVA = "0x66A7B60", Offset = "0x66A6B60", VA = "0x66A7B60")]
 	private static bool TryGetCullingParameters(UniversalCameraData cameraData, out ScriptableCullingParameters cullingParams)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A38")]
-	[Address(RVA = "0x2CACC50", Offset = "0x2CAB250", VA = "0x182CACC50")]
+	[Address(RVA = "0x66A6410", Offset = "0x66A5410", VA = "0x66A6410")]
 	private static void RenderSingleCamera(ScriptableRenderContext context, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A39")]
-	[Address(RVA = "0x2CA69F0", Offset = "0x2CA4FF0", VA = "0x182CA69F0")]
+	[Address(RVA = "0x66AA090", Offset = "0x66A9090", VA = "0x66AA090")]
 	private static void CreateShadowAtlasAndCullShadowCasters(UniversalLightData lightData, UniversalShadowData shadowData, UniversalCameraData cameraData, ref CullingResults cullResults, ref ScriptableRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000A3A")]
-	[Address(RVA = "0x2CAB160", Offset = "0x2CA9760", VA = "0x182CAB160")]
+	[Address(RVA = "0x66A2A00", Offset = "0x66A1A00", VA = "0x66A2A00")]
 	private static void RenderCameraStack(ScriptableRenderContext context, Camera baseCamera, bool isLastBaseCamera)
 	{
 	}
 
 	[Token(Token = "0x6000A3B")]
-	[Address(RVA = "0x2CAFA50", Offset = "0x2CAE050", VA = "0x182CAFA50")]
+	[Address(RVA = "0x66AA960", Offset = "0x66A9960", VA = "0x66AA960")]
 	private static void UpdateCameraData(UniversalCameraData baseCameraData, in XRPass xr)
 	{
 	}
 
 	[Token(Token = "0x6000A3C")]
-	[Address(RVA = "0x2CB0200", Offset = "0x2CAE800", VA = "0x182CB0200")]
+	[Address(RVA = "0x66A4250", Offset = "0x66A3250", VA = "0x66A4250")]
 	private static void UpdateVolumeFramework(Camera camera, UniversalAdditionalCameraData additionalCameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x2CA59D0", Offset = "0x2CA3FD0", VA = "0x182CA59D0")]
+	[Address(RVA = "0x66AAE70", Offset = "0x66A9E70", VA = "0x66AAE70")]
 	private static bool CheckPostProcessForDepth(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A3E")]
-	[Address(RVA = "0x2CA5A60", Offset = "0x2CA4060", VA = "0x182CA5A60")]
+	[Address(RVA = "0x66AA650", Offset = "0x66A9650", VA = "0x66AA650")]
 	private static bool CheckPostProcessForDepth()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A3F")]
-	[Address(RVA = "0x2CAEE40", Offset = "0x2CAD440", VA = "0x182CAEE40")]
+	[Address(RVA = "0x66A0EE0", Offset = "0x669FEE0", VA = "0x66A0EE0")]
 	private static void SetSupportedRenderingFeatures(UniversalRenderPipelineAsset pipelineAsset)
 	{
 	}
 
 	[Token(Token = "0x6000A40")]
-	[Address(RVA = "0x2CA8D80", Offset = "0x2CA7380", VA = "0x182CA8D80")]
+	[Address(RVA = "0x66A4C10", Offset = "0x66A3C10", VA = "0x66A4C10")]
 	private static ScriptableRenderer GetRenderer(Camera camera, UniversalAdditionalCameraData additionalCameraData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A41")]
-	[Address(RVA = "0x2CAA690", Offset = "0x2CA8C90", VA = "0x182CAA690")]
+	[Address(RVA = "0x66AAEF0", Offset = "0x66A9EF0", VA = "0x66AAEF0")]
 	internal static void InitializeScaledDimensions(Camera camera, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A42")]
-	[Address(RVA = "0x2CA5B30", Offset = "0x2CA4130", VA = "0x182CA5B30")]
+	[Address(RVA = "0x66A4D80", Offset = "0x66A3D80", VA = "0x66A4D80")]
 	private static UniversalCameraData CreateCameraData(ContextContainer frameData, Camera camera, UniversalAdditionalCameraData additionalCameraData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A43")]
-	[Address(RVA = "0x2CAA720", Offset = "0x2CA8D20", VA = "0x182CAA720")]
+	[Address(RVA = "0x66AAF60", Offset = "0x66A9F60", VA = "0x66AAF60")]
 	private static void InitializeStackedCameraData(Camera baseCamera, UniversalAdditionalCameraData baseAdditionalCameraData, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x2CA9180", Offset = "0x2CA7780", VA = "0x182CA9180")]
+	[Address(RVA = "0x66A55C0", Offset = "0x66A45C0", VA = "0x66A55C0")]
 	private static void InitializeAdditionalCameraData(Camera camera, UniversalAdditionalCameraData additionalCameraData, bool resolveFinalTarget, bool isLastBaseCamera, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x2CA68A0", Offset = "0x2CA4EA0", VA = "0x182CA68A0")]
+	[Address(RVA = "0x66A9820", Offset = "0x66A8820", VA = "0x66A9820")]
 	private static UniversalRenderingData CreateRenderingData(ContextContainer frameData, UniversalRenderPipelineAsset settings, CommandBuffer cmd, RenderingMode? renderingMode, ScriptableRenderer renderer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A46")]
-	[Address(RVA = "0x2CA6CF0", Offset = "0x2CA52F0", VA = "0x182CA6CF0")]
+	[Address(RVA = "0x66A85F0", Offset = "0x66A75F0", VA = "0x66A85F0")]
 	private static UniversalShadowData CreateShadowData(ContextContainer frameData, UniversalRenderPipelineAsset urpAsset, RenderingMode? renderingMode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A47")]
-	[Address(RVA = "0x2CA61A0", Offset = "0x2CA47A0", VA = "0x182CA61A0")]
+	[Address(RVA = "0x66A9960", Offset = "0x66A8960", VA = "0x66A9960")]
 	private static CullContextData CreateCullContextData(ContextContainer frameData, ScriptableRenderContext context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A48")]
-	[Address(RVA = "0x2CA8880", Offset = "0x2CA6E80", VA = "0x182CA8880")]
+	[Address(RVA = "0x66AC090", Offset = "0x66AB090", VA = "0x66AC090")]
 	private static Vector3 GetMainLightCascadeSplit(int mainLightShadowCascadesCount, UniversalRenderPipelineAsset urpAsset)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000A49")]
-	[Address(RVA = "0x2CAA570", Offset = "0x2CA8B70", VA = "0x182CAA570")]
+	[Address(RVA = "0x66AA390", Offset = "0x66A9390", VA = "0x66AA390")]
 	private static void InitializeMainLightShadowResolution(UniversalShadowData shadowData)
 	{
 	}
 
 	[Token(Token = "0x6000A4A")]
-	[Address(RVA = "0x2CA64E0", Offset = "0x2CA4AE0", VA = "0x182CA64E0")]
+	[Address(RVA = "0x66A9740", Offset = "0x66A8740", VA = "0x66A9740")]
 	private static UniversalPostProcessingData CreatePostProcessingData(ContextContainer frameData, UniversalRenderPipelineAsset settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A4B")]
-	[Address(RVA = "0x2CA7CD0", Offset = "0x2CA62D0", VA = "0x182CA7CD0")]
+	[Address(RVA = "0x66A82B0", Offset = "0x66A72B0", VA = "0x66A82B0")]
 	private static UniversalResourceData CreateUniversalResourceData(ContextContainer frameData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x2CA6210", Offset = "0x2CA4810", VA = "0x182CA6210")]
+	[Address(RVA = "0x66A82F0", Offset = "0x66A72F0", VA = "0x66A82F0")]
 	private static UniversalLightData CreateLightData(ContextContainer frameData, UniversalRenderPipelineAsset settings, NativeArray<VisibleLight> visibleLights, RenderingMode? renderingMode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x2CA55B0", Offset = "0x2CA3BB0", VA = "0x182CA55B0")]
+	[Address(RVA = "0x66ABE30", Offset = "0x66AAE30", VA = "0x66ABE30")]
 	private static void ApplyTaaRenderingDebugOverrides(ref TemporalAA.Settings taaSettings)
 	{
 	}
 
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0x2CAFF70", Offset = "0x2CAE570", VA = "0x182CAFF70")]
+	[Address(RVA = "0x66ABCD0", Offset = "0x66AACD0", VA = "0x66ABCD0")]
 	private static void UpdateTemporalAAData(UniversalCameraData cameraData, UniversalAdditionalCameraData additionalCameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x2CB00C0", Offset = "0x2CAE6C0", VA = "0x182CB00C0")]
+	[Address(RVA = "0x66A8170", Offset = "0x66A7170", VA = "0x66A8170")]
 	private static void UpdateTemporalAATargets(UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A50")]
-	[Address(RVA = "0x2CAFDC0", Offset = "0x2CAE3C0", VA = "0x182CAFDC0")]
+	[Address(RVA = "0x66AA730", Offset = "0x66A9730", VA = "0x66AA730")]
 	private static void UpdateCameraStereoMatrices(Camera camera, XRPass xr)
 	{
 	}
 
 	[Token(Token = "0x6000A51")]
-	[Address(RVA = "0x2CA8BB0", Offset = "0x2CA71B0", VA = "0x182CA8BB0")]
+	[Address(RVA = "0x66ABED0", Offset = "0x66AAED0", VA = "0x66ABED0")]
 	private static PerObjectData GetPerObjectLightFlags(UniversalLightData universalLightData, UniversalRenderPipelineAsset settings, RenderingMode? renderingMode)
 	{
 		return default(PerObjectData);
 	}
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x2CA82B0", Offset = "0x2CA68B0", VA = "0x182CA82B0")]
+	[Address(RVA = "0x66AC240", Offset = "0x66AB240", VA = "0x66AC240")]
 	private static int GetBrightestDirectionalLightIndex(UniversalRenderPipelineAsset settings, NativeArray<VisibleLight> visibleLights)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A53")]
-	[Address(RVA = "0x2CA8920", Offset = "0x2CA6F20", VA = "0x182CA8920")]
+	[Address(RVA = "0x66AC100", Offset = "0x66AB100", VA = "0x66AC100")]
 	private static int GetMainLightIndex(UniversalRenderPipelineAsset settings, NativeArray<VisibleLight> visibleLights)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A54")]
-	[Address(RVA = "0x2CAF410", Offset = "0x2CADA10", VA = "0x182CAF410")]
+	[Address(RVA = "0x66A2370", Offset = "0x66A1370", VA = "0x66A2370")]
 	private void SetupPerFrameShaderConstants()
 	{
 	}
 
 	[Token(Token = "0x6000A55")]
-	[Address(RVA = "0x2CAEF30", Offset = "0x2CAD530", VA = "0x182CAEF30")]
+	[Address(RVA = "0x66A7D10", Offset = "0x66A6D10", VA = "0x66A7D10")]
 	private static void SetupPerCameraShaderConstants(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000A56")]
-	[Address(RVA = "0x2CA57A0", Offset = "0x2CA3DA0", VA = "0x182CA57A0")]
+	[Address(RVA = "0x66A99D0", Offset = "0x66A89D0", VA = "0x66A99D0")]
 	private static void CheckAndApplyDebugSettings(ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000A57")]
-	[Address(RVA = "0x2CAEA00", Offset = "0x2CAD000", VA = "0x182CAEA00")]
+	[Address(RVA = "0x66ABAE0", Offset = "0x66AAAE0", VA = "0x66ABAE0")]
 	private static ImageUpscalingFilter ResolveUpscalingFilterSelection(Vector2 imageSize, float renderScale, UpscalingFilterSelection selection, bool enableRenderGraph)
 	{
 		return default(ImageUpscalingFilter);
 	}
 
 	[Token(Token = "0x6000A58")]
-	[Address(RVA = "0x2CA90A0", Offset = "0x2CA76A0", VA = "0x182CA90A0")]
+	[Address(RVA = "0x66A20C0", Offset = "0x66A10C0", VA = "0x66A20C0")]
 	internal static bool HDROutputForMainDisplayIsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A59")]
-	[Address(RVA = "0x2CA9000", Offset = "0x2CA7600", VA = "0x182CA9000")]
+	[Address(RVA = "0x66AC400", Offset = "0x66AB400", VA = "0x66AC400")]
 	internal static bool HDROutputForAnyDisplayIsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A5A")]
-	[Address(RVA = "0x2CAEBD0", Offset = "0x2CAD1D0", VA = "0x182CAEBD0")]
+	[Address(RVA = "0x66A1C40", Offset = "0x66A0C40", VA = "0x66A1C40")]
 	private void SetHDRState(List<Camera> cameras)
 	{
 	}
 
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x2CA84F0", Offset = "0x2CA6AF0", VA = "0x182CA84F0")]
+	[Address(RVA = "0x66AC4A0", Offset = "0x66AB4A0", VA = "0x66AC4A0")]
 	internal static void GetHDROutputLuminanceParameters(HDROutputUtils.HDRDisplayInformation hdrDisplayInformation, ColorGamut hdrDisplayColorGamut, Tonemapping tonemapping, out Vector4 hdrOutputParameters)
 	{
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x2CA8410", Offset = "0x2CA6A10", VA = "0x182CA8410")]
+	[Address(RVA = "0x66AC5C0", Offset = "0x66AB5C0", VA = "0x66AC5C0")]
 	internal static void GetHDROutputGradingParameters(Tonemapping tonemapping, out Vector4 hdrOutputParameters)
 	{
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x2CA53A0", Offset = "0x2CA39A0", VA = "0x182CA53A0")]
+	[Address(RVA = "0x66A6190", Offset = "0x66A5190", VA = "0x66A6190")]
 	private static void ApplyAdaptivePerformance(UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x6000A5E")]
-	[Address(RVA = "0x2CA50F0", Offset = "0x2CA36F0", VA = "0x182CA50F0")]
+	[Address(RVA = "0x66A9D90", Offset = "0x66A8D90", VA = "0x66A9D90")]
 	private static void ApplyAdaptivePerformance(ContextContainer frameData)
 	{
 	}
 
 	[Token(Token = "0x6000A5F")]
-	[Address(RVA = "0x2CA5650", Offset = "0x2CA3C50", VA = "0x182CA5650")]
+	[Address(RVA = "0x66AA4B0", Offset = "0x66A94B0", VA = "0x66AA4B0")]
 	private static AdditionalLightsShadowAtlasLayout BuildAdditionalLightsShadowAtlasLayout(UniversalLightData lightData, UniversalShadowData shadowData, UniversalCameraData cameraData)
 	{
 		return default(AdditionalLightsShadowAtlasLayout);
 	}
 
 	[Token(Token = "0x6000A60")]
-	[Address(RVA = "0x2CA5040", Offset = "0x2CA3640", VA = "0x182CA5040")]
+	[Address(RVA = "0x66A2020", Offset = "0x66A1020", VA = "0x66A2020")]
 	private static void AdjustUIOverlayOwnership(int cameraCount)
 	{
 	}
 
 	[Token(Token = "0x6000A61")]
-	[Address(RVA = "0x2CAF710", Offset = "0x2CADD10", VA = "0x182CAF710")]
+	[Address(RVA = "0x66A2240", Offset = "0x66A1240", VA = "0x66A2240")]
 	private static void SetupScreenMSAASamplesState(int cameraCount)
 	{
 	}
 
 	[Token(Token = "0x6000A62")]
-	[Address(RVA = "0x2CAAE70", Offset = "0x2CA9470", VA = "0x182CAAE70")]
+	[Address(RVA = "0x66A2940", Offset = "0x66A1940", VA = "0x66A2940")]
 	public static bool IsGameCamera(Camera camera)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A64")]
-	[Address(RVA = "0x2CAF800", Offset = "0x2CADE00", VA = "0x182CAF800")]
+	[Address(RVA = "0x66A27C0", Offset = "0x66A17C0", VA = "0x66A27C0")]
 	private void SortCameras(List<Camera> cameras)
 	{
 	}
 
 	[Token(Token = "0x6000A65")]
-	[Address(RVA = "0x2CA8610", Offset = "0x2CA6C10", VA = "0x182CA8610")]
+	[Address(RVA = "0x66A2830", Offset = "0x66A1830", VA = "0x66A2830")]
 	private int GetLastBaseCameraIndex(List<Camera> cameras)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x2CAAF40", Offset = "0x2CA9540", VA = "0x182CAAF40")]
+	[Address(RVA = "0x66AC3A0", Offset = "0x66AB3A0", VA = "0x66AC3A0")]
 	internal static GraphicsFormat MakeRenderTextureGraphicsFormat(bool isHdrEnabled, HDRColorBufferPrecision requestHDRColorBufferPrecision, bool needsAlpha)
 	{
 		return default(GraphicsFormat);
 	}
 
 	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x2CAAFB0", Offset = "0x2CA95B0", VA = "0x182CAAFB0")]
+	[Address(RVA = "0x66AC680", Offset = "0x66AB680", VA = "0x66AC680")]
 	internal static GraphicsFormat MakeUnormRenderTextureGraphicsFormat()
 	{
 		return default(GraphicsFormat);
 	}
 
 	[Token(Token = "0x6000A68")]
-	[Address(RVA = "0x2CA65D0", Offset = "0x2CA4BD0", VA = "0x182CA65D0")]
+	[Address(RVA = "0x66AB7A0", Offset = "0x66AA7A0", VA = "0x66AB7A0")]
 	internal static RenderTextureDescriptor CreateRenderTextureDescriptor(Camera camera, UniversalCameraData cameraData, bool isHdrEnabled, HDRColorBufferPrecision requestHDRColorBufferPrecision, int msaaSamples, bool needsAlpha, bool requiresOpaqueTexture)
 	{
 		return default(RenderTextureDescriptor);
 	}
 
 	[Token(Token = "0x6000A69")]
-	[Address(RVA = "0x2CA8710", Offset = "0x2CA6D10", VA = "0x182CA8710")]
+	[Address(RVA = "0x66AC6B0", Offset = "0x66AB6B0", VA = "0x66AC6B0")]
 	public static void GetLightAttenuationAndSpotDirection(LightType lightType, float lightRange, Matrix4x4 lightLocalToWorldMatrix, float spotAngle, float? innerSpotAngle, out Vector4 lightAttenuation, out Vector4 lightSpotDir)
 	{
 	}
 
 	[Token(Token = "0x6000A6A")]
-	[Address(RVA = "0x2CA8D30", Offset = "0x2CA7330", VA = "0x182CA8D30")]
+	[Address(RVA = "0x66AC800", Offset = "0x66AB800", VA = "0x66AC800")]
 	internal static void GetPunctualLightDistanceAttenuation(float lightRange, ref Vector4 lightAttenuation)
 	{
 	}
 
 	[Token(Token = "0x6000A6B")]
-	[Address(RVA = "0x2CA8E50", Offset = "0x2CA7450", VA = "0x182CA8E50")]
+	[Address(RVA = "0x66AC870", Offset = "0x66AB870", VA = "0x66AC870")]
 	internal static void GetSpotAngleAttenuation(float spotAngle, float? innerSpotAngle, ref Vector4 lightAttenuation)
 	{
 	}
 
 	[Token(Token = "0x6000A6C")]
-	[Address(RVA = "0x2CA8FC0", Offset = "0x2CA75C0", VA = "0x182CA8FC0")]
+	[Address(RVA = "0x66AC840", Offset = "0x66AB840", VA = "0x66AC840")]
 	internal static void GetSpotDirection(ref Matrix4x4 lightLocalToWorldMatrix, out Vector4 lightSpotDir)
 	{
 	}
 
 	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x2CAA0D0", Offset = "0x2CA86D0", VA = "0x182CAA0D0")]
+	[Address(RVA = "0x66AC9F0", Offset = "0x66AB9F0", VA = "0x66AC9F0")]
 	public static void InitializeLightConstants_Common(NativeArray<VisibleLight> lights, int lightIndex, out Vector4 lightPos, out Vector4 lightColor, out Vector4 lightAttenuation, out Vector4 lightSpotDir, out Vector4 lightOcclusionProbeChannel)
 	{
 	}
 
 	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x2CAAFE0", Offset = "0x2CA95E0", VA = "0x182CAAFE0")]
+	[Address(RVA = "0x66AA1C0", Offset = "0x66A91C0", VA = "0x66AA1C0")]
 	private static void RecordAndExecuteRenderGraph(RenderGraph renderGraph, ScriptableRenderContext context, ScriptableRenderer renderer, CommandBuffer cmd, Camera camera, RenderTextureUVOriginStrategy uvOriginStrategy)
 	{
 	}

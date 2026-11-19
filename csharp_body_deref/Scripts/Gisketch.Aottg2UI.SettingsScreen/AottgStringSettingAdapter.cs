@@ -10,43 +10,43 @@ using Settings;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x200016C")]
+[Token(Token = "0x2000174")]
 internal sealed class AottgStringSettingAdapter : AottgSettingAdapter
 {
-	[Token(Token = "0x4000816")]
+	[Token(Token = "0x400085F")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly StringSetting _setting;
 
-	[Token(Token = "0x17000102")]
+	[Token(Token = "0x17000105")]
 	public override string TextValue
 	{
-		[Token(Token = "0x6000787")]
-		[Address(RVA = "0x231F440", Offset = "0x231DA40", VA = "0x18231F440", Slot = "16")]
+		[Token(Token = "0x60007FD")]
+		[Address(RVA = "0x5CC6350", Offset = "0x5CC5350", VA = "0x5CC6350", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000103")]
+	[Token(Token = "0x17000106")]
 	public override int MaxCharacters
 	{
-		[Token(Token = "0x6000788")]
-		[Address(RVA = "0x231F420", Offset = "0x231DA20", VA = "0x18231F420", Slot = "23")]
+		[Token(Token = "0x60007FE")]
+		[Address(RVA = "0x5CC63A0", Offset = "0x5CC53A0", VA = "0x5CC63A0", Slot = "23")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000786")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x60007FC")]
+	[Address(RVA = "0x5CC6320", Offset = "0x5CC5320", VA = "0x5CC6320")]
 	public AottgStringSettingAdapter(StringSetting setting)
 	{
 	}
 
-	[Token(Token = "0x6000789")]
-	[Address(RVA = "0x231F3B0", Offset = "0x231D9B0", VA = "0x18231F3B0", Slot = "26")]
+	[Token(Token = "0x60007FF")]
+	[Address(RVA = "0x5CC63C0", Offset = "0x5CC53C0", VA = "0x5CC63C0", Slot = "26")]
 	public override void SetText(string value)
 	{
 	}

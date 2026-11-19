@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.HlbvhTopLevelBuilder
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -48,14 +48,14 @@ internal class HlbvhTopLevelBuilder
 		public uint TotalSize;
 
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x2D94540", Offset = "0x2D92B40", VA = "0x182D94540")]
+		[Address(RVA = "0x6777890", Offset = "0x6776890", VA = "0x6777890")]
 		public static ScratchBufferLayout Create(uint instanceCount)
 		{
 			return default(ScratchBufferLayout);
 		}
 
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x2D945F0", Offset = "0x2D92BF0", VA = "0x182D945F0")]
+		[Address(RVA = "0x6778380", Offset = "0x6777380", VA = "0x6778380")]
 		private uint Reserve(uint size)
 		{
 			return default(uint);
@@ -96,45 +96,45 @@ internal class HlbvhTopLevelBuilder
 	private const uint kTrianglesPerGroup = 2048u;
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x2D90F60", Offset = "0x2D8F560", VA = "0x182D90F60")]
+	[Address(RVA = "0x6777710", Offset = "0x6776710", VA = "0x6777710")]
 	public HlbvhTopLevelBuilder(RadeonRaysShaders shaders)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2D90EF0", Offset = "0x2D8F4F0", VA = "0x182D90EF0")]
+	[Address(RVA = "0x6777850", Offset = "0x6776850", VA = "0x6777850")]
 	public ulong GetScratchDataSizeInDwords(uint instanceCount)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x2D90250", Offset = "0x2D8E850", VA = "0x182D90250")]
+	[Address(RVA = "0x6777920", Offset = "0x6776920", VA = "0x6777920")]
 	public static uint GetBvhNodeCount(uint leafCount)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x2D90420", Offset = "0x2D8EA20", VA = "0x182D90420")]
+	[Address(RVA = "0x6777930", Offset = "0x6776930", VA = "0x6777930")]
 	public void AllocateResultBuffers(uint instanceCount, ref TopLevelAccelStruct accelStruct)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x2D90770", Offset = "0x2D8ED70", VA = "0x182D90770")]
+	[Address(RVA = "0x6777A60", Offset = "0x6776A60", VA = "0x6777A60")]
 	public void CreateEmpty(ref TopLevelAccelStruct accelStruct)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x2D90940", Offset = "0x2D8EF40", VA = "0x182D90940")]
+	[Address(RVA = "0x6777BE0", Offset = "0x6776BE0", VA = "0x6777BE0")]
 	public void Execute(CommandBuffer cmd, GraphicsBuffer scratch, ref TopLevelAccelStruct accelStruct)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x2D90540", Offset = "0x2D8EB40", VA = "0x182D90540")]
+	[Address(RVA = "0x67781B0", Offset = "0x67771B0", VA = "0x67781B0")]
 	private void BindKernelArguments(CommandBuffer cmd, int kernel, GraphicsBuffer scratch, ScratchBufferLayout scratchLayout, TopLevelAccelStruct accelStruct, bool setSortedCodes)
 	{
 	}

@@ -1,17 +1,16 @@
 // Type: Characters.HumanSounds
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/HumanSounds.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/HumanSounds.cs
 // --------------------------------
 
 // Characters.HumanSounds$$GetRandom
 // il2cpp: System_String_o* Characters_HumanSounds__GetRandom (System_String_array* sounds, const MethodInfo* method);
-// 0x18215c630
+// 0x5bf5fd0
 
-System_String_o*
-Characters_HumanSounds__GetRandom(System_String_array* sounds, MethodInfo* method)
+System_String_o * Characters_HumanSounds__GetRandom(System_String_array *sounds,MethodInfo *method)
 
 {
   uint uVar1;
@@ -19,506 +18,456 @@ Characters_HumanSounds__GetRandom(System_String_array* sounds, MethodInfo* metho
   if (sounds == (System_String_array *)0x0) {
     ThrowNullReferenceException();
   }
-  uVar1 = UnityEngine_Random__RandomRangeInt(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
-  if (uVar1 < (uint)sounds->max_length) {
-    return sounds->m_Items[(int)uVar1];
+  uVar1 = UnityEngine_Random__Range_690e2b0(0,(int32_t)sounds->max_length,(MethodInfo *)0x0);
+  if ((uint)sounds->max_length <= uVar1) {
+    ThrowIndexOutOfRangeException();
   }
-  ThrowIndexOutOfRangeException();
+  return sounds->m_Items[(int)uVar1];
 }
 
 
 // Characters.HumanSounds$$GetRandomTSLaunch
 // il2cpp: System_String_o* Characters_HumanSounds__GetRandomTSLaunch (const MethodInfo* method);
-// 0x18215c550
+// 0x5bf6000
 
 System_String_o * Characters_HumanSounds__GetRandomTSLaunch(MethodInfo *method)
 
 {
-  Il2CppClass *value;
-  System_String_o *value_00;
   uint uVar1;
   Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346c63 == '\0') {
+  if (Il2CppMethodInitialized_07547633 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c63 = '\x01';
+    Il2CppMethodInitialized_07547633 = '\x01';
   }
   pIVar2 = SZArrayNew(TypeInfo_string_array,2);
   if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
   }
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar2[1].monitor != 0) {
-      value = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->TSLaunch1;
-      pIVar2[2].klass = value;
-      Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,value);
-      if (1 < *(uint *)&pIVar2[1].monitor) {
-        value_00 = TypeInfo_Characters_HumanSounds->static_fields->TSLaunch2;
-        pIVar2[2].monitor = value_00;
-        Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor,value_00);
-        uVar1 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
-        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
-          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
-        }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->TSLaunch1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->TSLaunch2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+      if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+        return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.HumanSounds$$GetRandomAPGShot
 // il2cpp: System_String_o* Characters_HumanSounds__GetRandomAPGShot (const MethodInfo* method);
-// 0x18215bfd0
+// 0x5bf60e0
 
 System_String_o * Characters_HumanSounds__GetRandomAPGShot(MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  System_String_o *pSVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
+  uint uVar1;
+  Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346c64 == '\0') {
+  if (Il2CppMethodInitialized_07547634 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c64 = '\x01';
+    Il2CppMethodInitialized_07547634 = '\x01';
   }
-  pIVar4 = SZArrayNew(TypeInfo_string_array,4);
+  pIVar2 = SZArrayNew(TypeInfo_string_array,4);
   if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
   }
-  if (pIVar4 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar4[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->APGShot1;
-      pIVar4[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar4[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar4[1].monitor) {
-        pSVar2 = TypeInfo_Characters_HumanSounds->static_fields->APGShot2;
-        pIVar4[2].monitor = pSVar2;
-        Il2CppCodeGenWriteBarrier(&pIVar4[2].monitor,pSVar2);
-        if (2 < *(uint *)&pIVar4[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->APGShot3;
-          pIVar4[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar4[3].klass,pIVar1);
-          if (3 < *(uint *)&pIVar4[1].monitor) {
-            pSVar2 = TypeInfo_Characters_HumanSounds->static_fields->APGShot4;
-            pIVar4[3].monitor = pSVar2;
-            Il2CppCodeGenWriteBarrier(&pIVar4[3].monitor,pSVar2);
-            uVar3 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar4[1].monitor,(MethodInfo *)0x0);
-            if (uVar3 < *(uint *)&pIVar4[1].monitor) {
-              return (System_String_o *)(&pIVar4[2].klass)[(int)uVar3];
-            }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->APGShot1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->APGShot2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->APGShot3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        if (((ulong)pIVar2[1].monitor & 0xfffffffc) != 0) {
+          pIVar2[3].monitor = TypeInfo_Characters_HumanSounds->static_fields->APGShot4;
+          Il2CppCodeGenWriteBarrier(&pIVar2[3].monitor);
+          uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+          if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+            return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
           }
         }
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.HumanSounds$$GetRandomAHSSNapeHitVar1
 // il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSNapeHitVar1 (const MethodInfo* method);
-// 0x18215bdb0
+// 0x5bf6210
 
 System_String_o * Characters_HumanSounds__GetRandomAHSSNapeHitVar1(MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c65 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c65 = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var1;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var1;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var1;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomAHSSNapeHitVar2
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSNapeHitVar2 (const MethodInfo* method);
-// 0x18215bec0
-
-System_String_o * Characters_HumanSounds__GetRandomAHSSNapeHitVar2(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c66 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c66 = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var2;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var2;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var2;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomBladeNapeVar1
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar1 (const MethodInfo* method);
-// 0x18215c110
-
-System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar1(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c67 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c67 = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var1;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var2;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var3;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomBladeNapeVar2
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar2 (const MethodInfo* method);
-// 0x18215c220
-
-System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar2(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c68 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c68 = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var1;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var2;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var3;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomBladeNapeVar3
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar3 (const MethodInfo* method);
-// 0x18215c330
-
-System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar3(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c69 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c69 = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var1;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var2;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var3;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomBladeNapeVar4
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar4 (const MethodInfo* method);
-// 0x18215c440
-
-System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar4(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *value;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  
-  if (Il2CppMethodInitialized_184346c6a == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c6a = '\x01';
-  }
-  pIVar3 = SZArrayNew(TypeInfo_string_array,3);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar3 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar3[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var1;
-      pIVar3[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar3[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar3[1].monitor) {
-        value = TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var2;
-        pIVar3[2].monitor = value;
-        Il2CppCodeGenWriteBarrier(&pIVar3[2].monitor,value);
-        if (2 < *(uint *)&pIVar3[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var3;
-          pIVar3[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,pIVar1);
-          uVar2 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar3[1].monitor,(MethodInfo *)0x0);
-          if (uVar2 < *(uint *)&pIVar3[1].monitor) {
-            return (System_String_o *)(&pIVar3[2].klass)[(int)uVar2];
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomAHSSGunShot
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSGunShot (const MethodInfo* method);
-// 0x18215bc70
-
-System_String_o * Characters_HumanSounds__GetRandomAHSSGunShot(MethodInfo *method)
-
-{
-  Il2CppClass *pIVar1;
-  System_String_o *pSVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
-  
-  if (Il2CppMethodInitialized_184346c6b == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
-    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c6b = '\x01';
-  }
-  pIVar4 = SZArrayNew(TypeInfo_string_array,4);
-  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
-    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
-  }
-  if (pIVar4 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar4[1].monitor != 0) {
-      pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot1;
-      pIVar4[2].klass = pIVar1;
-      Il2CppCodeGenWriteBarrier(&pIVar4[2].klass,pIVar1);
-      if (1 < *(uint *)&pIVar4[1].monitor) {
-        pSVar2 = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot2;
-        pIVar4[2].monitor = pSVar2;
-        Il2CppCodeGenWriteBarrier(&pIVar4[2].monitor,pSVar2);
-        if (2 < *(uint *)&pIVar4[1].monitor) {
-          pIVar1 = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot3;
-          pIVar4[3].klass = pIVar1;
-          Il2CppCodeGenWriteBarrier(&pIVar4[3].klass,pIVar1);
-          if (3 < *(uint *)&pIVar4[1].monitor) {
-            pSVar2 = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot4;
-            pIVar4[3].monitor = pSVar2;
-            Il2CppCodeGenWriteBarrier(&pIVar4[3].monitor,pSVar2);
-            uVar3 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar4[1].monitor,(MethodInfo *)0x0);
-            if (uVar3 < *(uint *)&pIVar4[1].monitor) {
-              return (System_String_o *)(&pIVar4[2].klass)[(int)uVar3];
-            }
-          }
-        }
-      }
-    }
-    ThrowIndexOutOfRangeException();
-  }
-  ThrowNullReferenceException();
-}
-
-
-// Characters.HumanSounds$$GetRandomAHSSGunShotDouble
-// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSGunShotDouble (const MethodInfo* method);
-// 0x18215bb90
-
-System_String_o * Characters_HumanSounds__GetRandomAHSSGunShotDouble(MethodInfo *method)
-
-{
-  Il2CppClass *value;
-  System_String_o *value_00;
   uint uVar1;
   Il2CppObject *pIVar2;
   
-  if (Il2CppMethodInitialized_184346c6c == '\0') {
+  if (Il2CppMethodInitialized_07547635 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
-    Il2CppMethodInitialized_184346c6c = '\x01';
+    Il2CppMethodInitialized_07547635 = '\x01';
   }
-  pIVar2 = SZArrayNew(TypeInfo_string_array,2);
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
   if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
   }
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    if (*(int *)&pIVar2[1].monitor != 0) {
-      value = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble1;
-      pIVar2[2].klass = value;
-      Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,value);
-      if (1 < *(uint *)&pIVar2[1].monitor) {
-        value_00 = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble2;
-        pIVar2[2].monitor = value_00;
-        Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor,value_00);
-        uVar1 = UnityEngine_Random__RandomRangeInt(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var1;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var1;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
         if (uVar1 < *(uint *)&pIVar2[1].monitor) {
           return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
         }
       }
     }
-    ThrowIndexOutOfRangeException();
   }
-  ThrowNullReferenceException();
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomAHSSNapeHitVar2
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSNapeHitVar2 (const MethodInfo* method);
+// 0x5bf6320
+
+System_String_o * Characters_HumanSounds__GetRandomAHSSNapeHitVar2(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_07547636 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_07547636 = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var2;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var2;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomBladeNapeVar1
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar1 (const MethodInfo* method);
+// 0x5bf6430
+
+System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar1(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_07547637 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_07547637 = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomBladeNapeVar2
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar2 (const MethodInfo* method);
+// 0x5bf6540
+
+System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar2(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_07547638 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_07547638 = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomBladeNapeVar3
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar3 (const MethodInfo* method);
+// 0x5bf6650
+
+System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar3(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_07547639 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_07547639 = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomBladeNapeVar4
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomBladeNapeVar4 (const MethodInfo* method);
+// 0x5bf6760
+
+System_String_o * Characters_HumanSounds__GetRandomBladeNapeVar4(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_0754763a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_0754763a = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+        if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+          return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomAHSSGunShot
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSGunShot (const MethodInfo* method);
+// 0x5bf6870
+
+System_String_o * Characters_HumanSounds__GetRandomAHSSGunShot(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_0754763b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_0754763b = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,4);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      if (2 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[3].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot3;
+        Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+        if (((ulong)pIVar2[1].monitor & 0xfffffffc) != 0) {
+          pIVar2[3].monitor = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot4;
+          Il2CppCodeGenWriteBarrier(&pIVar2[3].monitor);
+          uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+          if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+            return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+          }
+        }
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Characters.HumanSounds$$GetRandomAHSSGunShotDouble
+// il2cpp: System_String_o* Characters_HumanSounds__GetRandomAHSSGunShotDouble (const MethodInfo* method);
+// 0x5bf69a0
+
+System_String_o * Characters_HumanSounds__GetRandomAHSSGunShotDouble(MethodInfo *method)
+
+{
+  uint uVar1;
+  Il2CppObject *pIVar2;
+  
+  if (Il2CppMethodInitialized_0754763c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    Il2CppMethodInitialized_0754763c = '\x01';
+  }
+  pIVar2 = SZArrayNew(TypeInfo_string_array,2);
+  if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+  }
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (*(int *)&pIVar2[1].monitor != 0) {
+    pIVar2[2].klass = (Il2CppClass *)TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble1;
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass);
+    if (((ulong)pIVar2[1].monitor & 0xfffffffe) != 0) {
+      pIVar2[2].monitor = TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble2;
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor);
+      uVar1 = UnityEngine_Random__Range_690e2b0(0,*(int32_t *)&pIVar2[1].monitor,(MethodInfo *)0x0);
+      if (uVar1 < *(uint *)&pIVar2[1].monitor) {
+        return (System_String_o *)(&pIVar2[2].klass)[(int)uVar1];
+      }
+    }
+  }
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.HumanSounds$$.ctor
 // il2cpp: void Characters_HumanSounds___ctor (Characters_HumanSounds_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x5bf6a80
 
-void
-Characters_HumanSounds___ctor(Characters_HumanSounds_o* __this, MethodInfo* method)
+void Characters_HumanSounds___ctor(Characters_HumanSounds_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Characters.HumanSounds$$.cctor
 // il2cpp: void Characters_HumanSounds___cctor (const MethodInfo* method);
-// 0x18215c670
+// 0x5bf6a90
 
 void Characters_HumanSounds___cctor(MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346c6d == '\0') {
+  Characters_HumanSounds_StaticFields *pCVar1;
+  
+  if (Il2CppMethodInitialized_0754763d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
     il2cpp_codegen_initialize_runtime_metadata(&"Death4");
     il2cpp_codegen_initialize_runtime_metadata(&"AHSSGunShotDouble2");
@@ -599,213 +548,244 @@ void Characters_HumanSounds___cctor(MethodInfo *method)
     il2cpp_codegen_initialize_runtime_metadata(&"ReelIn");
     il2cpp_codegen_initialize_runtime_metadata(&"OldHookLaunch");
     il2cpp_codegen_initialize_runtime_metadata(&"TSLaunch1");
-    Il2CppMethodInitialized_184346c6d = '\x01';
+    Il2CppMethodInitialized_0754763d = '\x01';
   }
   TypeInfo_Characters_HumanSounds->static_fields->BladeBreak = "BladeBreak";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->BladeBreak,"BladeBreak")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->BladeHit = "BladeHit";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->BladeHit,"BladeHit");
-  TypeInfo_Characters_HumanSounds->static_fields->OldBladeHit = "OldBladeHit";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->OldBladeHit,"OldBladeHit");
-  TypeInfo_Characters_HumanSounds->static_fields->NapeHit = "NapeHit";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->NapeHit,"NapeHit");
-  TypeInfo_Characters_HumanSounds->static_fields->LimbHit = "LimbHit";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->LimbHit,"LimbHit");
-  TypeInfo_Characters_HumanSounds->static_fields->OldNapeHit = "OldNapeHit";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->OldNapeHit,"OldNapeHit")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->BladeReloadAir = "BladeReloadAir";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeReloadAir,"BladeReloadAir");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeReloadGround = "BladeReloadGround";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeReloadGround,"BladeReloadGround");
-  TypeInfo_Characters_HumanSounds->static_fields->GunReload = "GunReload";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GunReload,"GunReload");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeSwing1 = "BladeSwing1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeSwing1,"BladeSwing1");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeSwing2 = "BladeSwing2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeSwing2,"BladeSwing2");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeSwing3 = "BladeSwing3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeSwing3,"BladeSwing3");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeSwing4 = "BladeSwing4";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeSwing4,"BladeSwing4");
-  TypeInfo_Characters_HumanSounds->static_fields->OldBladeSwing = "OldBladeSwing";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->OldBladeSwing,"OldBladeSwing");
-  TypeInfo_Characters_HumanSounds->static_fields->Dodge = "Dodge";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Dodge,"Dodge");
-  TypeInfo_Characters_HumanSounds->static_fields->FlareLaunch = "FlareLaunch";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->FlareLaunch,"FlareLaunch");
-  TypeInfo_Characters_HumanSounds->static_fields->ThunderspearLaunch = "ThunderspearLaunch";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->ThunderspearLaunch,"ThunderspearLaunch");
-  TypeInfo_Characters_HumanSounds->static_fields->GasBurst = "GasBurst";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GasBurst,"GasBurst");
-  TypeInfo_Characters_HumanSounds->static_fields->HookLaunch = "HookLaunch";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->HookLaunch,"HookLaunch")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->OldHookLaunch = "OldHookLaunch";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->OldHookLaunch,"OldHookLaunch");
-  TypeInfo_Characters_HumanSounds->static_fields->HookRetractLeft = "HookRetractLeft";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->HookRetractLeft,"HookRetractLeft");
-  TypeInfo_Characters_HumanSounds->static_fields->HookRetractRight = "HookRetractRight";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->HookRetractRight,"HookRetractRight");
-  TypeInfo_Characters_HumanSounds->static_fields->HookImpact = "HookImpact";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->HookImpact,"HookImpact")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->HookImpactLoud = "HookImpactLoud";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->HookImpactLoud,"HookImpactLoud");
-  TypeInfo_Characters_HumanSounds->static_fields->GasStart = "GasStart";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GasStart,"GasStart");
-  TypeInfo_Characters_HumanSounds->static_fields->GasLoop = "GasLoop";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GasLoop,"GasLoop");
-  TypeInfo_Characters_HumanSounds->static_fields->GasEnd = "GasEnd";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GasEnd,"GasEnd");
-  TypeInfo_Characters_HumanSounds->static_fields->ReelIn = "ReelIn";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->ReelIn,"ReelIn");
-  TypeInfo_Characters_HumanSounds->static_fields->ReelOut = "ReelOut";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->ReelOut,"ReelOut");
-  TypeInfo_Characters_HumanSounds->static_fields->CrashLand = "CrashLand";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->CrashLand,"CrashLand");
-  TypeInfo_Characters_HumanSounds->static_fields->Jump = "Jump";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Jump,"Jump");
-  TypeInfo_Characters_HumanSounds->static_fields->Land = "Land";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Land,"Land");
-  TypeInfo_Characters_HumanSounds->static_fields->NoGas = "NoGas";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->NoGas,"NoGas");
-  TypeInfo_Characters_HumanSounds->static_fields->Refill = "Refill";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Refill,"Refill");
-  TypeInfo_Characters_HumanSounds->static_fields->Slide = "Slide";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Slide,"Slide");
-  TypeInfo_Characters_HumanSounds->static_fields->Footstep1 = "Footstep1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Footstep1,"Footstep1");
-  TypeInfo_Characters_HumanSounds->static_fields->Footstep2 = "Footstep2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Footstep2,"Footstep2");
-  TypeInfo_Characters_HumanSounds->static_fields->Death1 = "Death1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Death1,"Death1");
-  TypeInfo_Characters_HumanSounds->static_fields->Death2 = "Death2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Death2,"Death2");
-  TypeInfo_Characters_HumanSounds->static_fields->Death3 = "Death3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Death3,"Death3");
-  TypeInfo_Characters_HumanSounds->static_fields->Death4 = "Death4";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Death4,"Death4");
-  TypeInfo_Characters_HumanSounds->static_fields->Death5 = "Death5";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Death5,"Death5");
-  TypeInfo_Characters_HumanSounds->static_fields->Checkpoint = "Checkpoint";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Checkpoint,"Checkpoint")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->TimerTick = "TimerTick";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->TimerTick,"TimerTick");
-  TypeInfo_Characters_HumanSounds->static_fields->TimerGo = "TimerGo";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->TimerGo,"TimerGo");
-  TypeInfo_Characters_HumanSounds->static_fields->GunExplode = "GunExplode";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->GunExplode,"GunExplode")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->GunExplodeLoud = "GunExplodeLoud";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->GunExplodeLoud,"GunExplodeLoud");
-  TypeInfo_Characters_HumanSounds->static_fields->WaterSplash = "WaterSplash";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->WaterSplash,"WaterSplash");
-  TypeInfo_Characters_HumanSounds->static_fields->Switchback = "Switchback";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->Switchback,"Switchback")
-  ;
-  TypeInfo_Characters_HumanSounds->static_fields->APGShot1 = "APGShot1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->APGShot1,"APGShot1");
-  TypeInfo_Characters_HumanSounds->static_fields->APGShot2 = "APGShot2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->APGShot2,"APGShot2");
-  TypeInfo_Characters_HumanSounds->static_fields->APGShot3 = "APGShot3";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->APGShot3,"APGShot3");
-  TypeInfo_Characters_HumanSounds->static_fields->APGShot4 = "APGShot4";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->APGShot4,"APGShot4");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var1 = "BladeNape1Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var1,"BladeNape1Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var2 = "BladeNape1Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var2,"BladeNape1Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var3 = "BladeNape1Var3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape1Var3,"BladeNape1Var3");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var1 = "BladeNape2Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var1,"BladeNape2Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var2 = "BladeNape2Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var2,"BladeNape2Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var3 = "BladeNape2Var3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape2Var3,"BladeNape2Var3");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var1 = "BladeNape3Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var1,"BladeNape3Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var2 = "BladeNape3Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var2,"BladeNape3Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var3 = "BladeNape3Var3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape3Var3,"BladeNape3Var3");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var1 = "BladeNape4Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var1,"BladeNape4Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var2 = "BladeNape4Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var2,"BladeNape4Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var3 = "BladeNape4Var3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->BladeNape4Var3,"BladeNape4Var3");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot1 = "AHSSGunShot1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot1,"AHSSGunShot1");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot2 = "AHSSGunShot2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot2,"AHSSGunShot2");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot3 = "AHSSGunShot3";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot3,"AHSSGunShot3");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot4 = "AHSSGunShot4";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShot4,"AHSSGunShot4");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble1 = "AHSSGunShotDouble1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble1,"AHSSGunShotDouble1");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble2 = "AHSSGunShotDouble2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSGunShotDouble2,"AHSSGunShotDouble2");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var1 = "AHSSNape1Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var1,"AHSSNape1Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var2 = "AHSSNape1Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape1Var2,"AHSSNape1Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var1 = "AHSSNape2Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var1,"AHSSNape2Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var2 = "AHSSNape2Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape2Var2,"AHSSNape2Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var1 = "AHSSNape3Var1";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var1,"AHSSNape3Var1");
-  TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var2 = "AHSSNape3Var2";
-  Il2CppCodeGenWriteBarrier
-            (&TypeInfo_Characters_HumanSounds->static_fields->AHSSNape3Var2,"AHSSNape3Var2");
-  TypeInfo_Characters_HumanSounds->static_fields->TSLaunch1 = "TSLaunch1";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->TSLaunch1,"TSLaunch1");
-  TypeInfo_Characters_HumanSounds->static_fields->TSLaunch2 = "TSLaunch2";
-  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->TSLaunch2,"TSLaunch2");
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanSounds->static_fields->BladeBreak);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeHit = "BladeHit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeHit);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->OldBladeHit = "OldBladeHit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->OldBladeHit);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->NapeHit = "NapeHit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->NapeHit);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->LimbHit = "LimbHit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->LimbHit);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->OldNapeHit = "OldNapeHit";
+  Il2CppCodeGenWriteBarrier(&pCVar1->OldNapeHit);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeReloadAir = "BladeReloadAir";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeReloadAir);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeReloadGround = "BladeReloadGround";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeReloadGround);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GunReload = "GunReload";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GunReload);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeSwing1 = "BladeSwing1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeSwing1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeSwing2 = "BladeSwing2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeSwing2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeSwing3 = "BladeSwing3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeSwing3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeSwing4 = "BladeSwing4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeSwing4);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->OldBladeSwing = "OldBladeSwing";
+  Il2CppCodeGenWriteBarrier(&pCVar1->OldBladeSwing);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Dodge = "Dodge";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Dodge);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->FlareLaunch = "FlareLaunch";
+  Il2CppCodeGenWriteBarrier(&pCVar1->FlareLaunch);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->ThunderspearLaunch = "ThunderspearLaunch";
+  Il2CppCodeGenWriteBarrier(&pCVar1->ThunderspearLaunch);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GasBurst = "GasBurst";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GasBurst);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->HookLaunch = "HookLaunch";
+  Il2CppCodeGenWriteBarrier(&pCVar1->HookLaunch);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->OldHookLaunch = "OldHookLaunch";
+  Il2CppCodeGenWriteBarrier(&pCVar1->OldHookLaunch);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->HookRetractLeft = "HookRetractLeft";
+  Il2CppCodeGenWriteBarrier(&pCVar1->HookRetractLeft);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->HookRetractRight = "HookRetractRight";
+  Il2CppCodeGenWriteBarrier(&pCVar1->HookRetractRight);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->HookImpact = "HookImpact";
+  Il2CppCodeGenWriteBarrier(&pCVar1->HookImpact);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->HookImpactLoud = "HookImpactLoud";
+  Il2CppCodeGenWriteBarrier(&pCVar1->HookImpactLoud);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GasStart = "GasStart";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GasStart);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GasLoop = "GasLoop";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GasLoop);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GasEnd = "GasEnd";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GasEnd);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->ReelIn = "ReelIn";
+  Il2CppCodeGenWriteBarrier(&pCVar1->ReelIn);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->ReelOut = "ReelOut";
+  Il2CppCodeGenWriteBarrier(&pCVar1->ReelOut);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->CrashLand = "CrashLand";
+  Il2CppCodeGenWriteBarrier(&pCVar1->CrashLand);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Jump = "Jump";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Jump);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Land = "Land";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Land);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->NoGas = "NoGas";
+  Il2CppCodeGenWriteBarrier(&pCVar1->NoGas);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Refill = "Refill";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Refill);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Slide = "Slide";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Slide);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Footstep1 = "Footstep1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Footstep1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Footstep2 = "Footstep2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Footstep2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Death1 = "Death1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Death1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Death2 = "Death2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Death2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Death3 = "Death3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Death3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Death4 = "Death4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Death4);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Death5 = "Death5";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Death5);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Checkpoint = "Checkpoint";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Checkpoint);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->TimerTick = "TimerTick";
+  Il2CppCodeGenWriteBarrier(&pCVar1->TimerTick);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->TimerGo = "TimerGo";
+  Il2CppCodeGenWriteBarrier(&pCVar1->TimerGo);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GunExplode = "GunExplode";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GunExplode);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->GunExplodeLoud = "GunExplodeLoud";
+  Il2CppCodeGenWriteBarrier(&pCVar1->GunExplodeLoud);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->WaterSplash = "WaterSplash";
+  Il2CppCodeGenWriteBarrier(&pCVar1->WaterSplash);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->Switchback = "Switchback";
+  Il2CppCodeGenWriteBarrier(&pCVar1->Switchback);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->APGShot1 = "APGShot1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->APGShot1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->APGShot2 = "APGShot2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->APGShot2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->APGShot3 = "APGShot3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->APGShot3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->APGShot4 = "APGShot4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->APGShot4);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape1Var1 = "BladeNape1Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape1Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape1Var2 = "BladeNape1Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape1Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape1Var3 = "BladeNape1Var3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape1Var3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape2Var1 = "BladeNape2Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape2Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape2Var2 = "BladeNape2Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape2Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape2Var3 = "BladeNape2Var3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape2Var3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape3Var1 = "BladeNape3Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape3Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape3Var2 = "BladeNape3Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape3Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape3Var3 = "BladeNape3Var3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape3Var3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape4Var1 = "BladeNape4Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape4Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape4Var2 = "BladeNape4Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape4Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->BladeNape4Var3 = "BladeNape4Var3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->BladeNape4Var3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShot1 = "AHSSGunShot1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShot1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShot2 = "AHSSGunShot2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShot2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShot3 = "AHSSGunShot3";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShot3);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShot4 = "AHSSGunShot4";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShot4);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShotDouble1 = "AHSSGunShotDouble1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShotDouble1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSGunShotDouble2 = "AHSSGunShotDouble2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSGunShotDouble2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape1Var1 = "AHSSNape1Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape1Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape1Var2 = "AHSSNape1Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape1Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape2Var1 = "AHSSNape2Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape2Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape2Var2 = "AHSSNape2Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape2Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape3Var1 = "AHSSNape3Var1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape3Var1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->AHSSNape3Var2 = "AHSSNape3Var2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->AHSSNape3Var2);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->TSLaunch1 = "TSLaunch1";
+  Il2CppCodeGenWriteBarrier(&pCVar1->TSLaunch1);
+  pCVar1 = TypeInfo_Characters_HumanSounds->static_fields;
+  pCVar1->TSLaunch2 = "TSLaunch2";
+  Il2CppCodeGenWriteBarrier(&pCVar1->TSLaunch2);
   return;
 }
 

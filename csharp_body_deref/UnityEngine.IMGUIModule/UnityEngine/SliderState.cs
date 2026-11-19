@@ -26,7 +26,7 @@ internal class SliderState
 	public bool isDragging;
 
 	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x69A31D0", Offset = "0x69A21D0", VA = "0x69A31D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public SliderState()
 	{

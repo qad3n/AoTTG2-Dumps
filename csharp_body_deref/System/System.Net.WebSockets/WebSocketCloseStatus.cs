@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003C2")]
+[Token(Token = "0x200037E")]
 public enum WebSocketCloseStatus
 {
-	[Token(Token = "0x40010A1")]
+	[Token(Token = "0x4000FB9")]
 	NormalClosure = 1000,
-	[Token(Token = "0x40010A2")]
+	[Token(Token = "0x4000FBA")]
 	EndpointUnavailable = 1001,
-	[Token(Token = "0x40010A3")]
+	[Token(Token = "0x4000FBB")]
 	ProtocolError = 1002,
-	[Token(Token = "0x40010A4")]
+	[Token(Token = "0x4000FBC")]
 	InvalidMessageType = 1003,
-	[Token(Token = "0x40010A5")]
+	[Token(Token = "0x4000FBD")]
 	Empty = 1005,
-	[Token(Token = "0x40010A6")]
+	[Token(Token = "0x4000FBE")]
 	InvalidPayloadData = 1007,
-	[Token(Token = "0x40010A7")]
+	[Token(Token = "0x4000FBF")]
 	PolicyViolation = 1008,
-	[Token(Token = "0x40010A8")]
+	[Token(Token = "0x4000FC0")]
 	MessageTooBig = 1009,
-	[Token(Token = "0x40010A9")]
+	[Token(Token = "0x4000FC1")]
 	MandatoryExtension = 1010,
-	[Token(Token = "0x40010AA")]
+	[Token(Token = "0x4000FC2")]
 	InternalServerError = 1011
 }

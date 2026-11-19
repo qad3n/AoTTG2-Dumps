@@ -1,5 +1,5 @@
 // Type: UI.HUDScaler
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/HUDScaler.cs
@@ -8,7 +8,7 @@
 
 // UI.HUDScaler$$ApplyScale
 // il2cpp: void UI_HUDScaler__ApplyScale (UI_HUDScaler_o* __this, const MethodInfo* method);
-// 0x1822115c0
+// 0x5cec970
 
 void UI_HUDScaler__ApplyScale(UI_HUDScaler_o *__this,MethodInfo *method)
 
@@ -16,33 +16,31 @@ void UI_HUDScaler__ApplyScale(UI_HUDScaler_o *__this,MethodInfo *method)
   Settings_UISettings_o *pSVar1;
   Settings_FloatSetting_o *pSVar2;
   UnityEngine_RectTransform_o *__this_00;
-  UnityEngine_Vector3_o *pUVar3;
-  float fVar4;
-  UnityEngine_Vector3_o local_38;
-  UnityEngine_Vector3_o local_28 [2];
+  float fVar3;
+  UnityEngine_Vector3_o UVar4;
+  UnityEngine_Vector3_o value;
   
-  if (Il2CppMethodInitialized_1843470f9 == '\0') {
+  if (Il2CppMethodInitialized_07547c66 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
-    Il2CppMethodInitialized_1843470f9 = '\x01';
+    Il2CppMethodInitialized_07547c66 = '\x01';
   }
-  UI_IgnoreScaler__ApplyScale((UI_IgnoreScaler_o *)__this,(MethodInfo *)0x0);
+  UI_IgnoreScaler__ApplyScale((UI_IgnoreScaler_o *)__this,method);
   pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
   if ((pSVar1 != (Settings_UISettings_o *)0x0) &&
      (pSVar2 = (pSVar1->fields).HUDScale, pSVar2 != (Settings_FloatSetting_o *)0x0)) {
-    fVar4 = (pSVar2->fields)._value;
+    fVar3 = (pSVar2->fields)._value;
     __this_00 = UnityEngine_Component__GetComponent_object_
                           ((UnityEngine_Component_o *)__this,
-                           (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+                           (MethodInfo_34B0830 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
     if (__this_00 != (UnityEngine_RectTransform_o *)0x0) {
-      fVar4 = fVar4 * 0.5;
-      pUVar3 = UnityEngine_Transform__get_localScale
-                         (local_28,(UnityEngine_Transform_o *)__this_00,(MethodInfo *)0x0);
-      local_38.fields.z = 0.0;
-      local_38.fields.x = fVar4 * (pUVar3->fields).x;
-      local_38.fields.y = fVar4 * (pUVar3->fields).y;
-      UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)__this_00,&local_38,(MethodInfo *)0x0);
+      fVar3 = fVar3 * 0.5;
+      UVar4 = UnityEngine_Transform__get_localScale((UnityEngine_Transform_o *)__this_00,(MethodInfo *)0x0);
+      value.fields.x = UVar4.fields.x * fVar3;
+      value.fields.y = UVar4.fields.y * fVar3;
+      value.fields.z = 0.0;
+      UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)__this_00,value,(MethodInfo *)0x0);
       return;
     }
   }
@@ -52,10 +50,9 @@ void UI_HUDScaler__ApplyScale(UI_HUDScaler_o *__this,MethodInfo *method)
 
 // UI.HUDScaler$$.ctor
 // il2cpp: void UI_HUDScaler___ctor (UI_HUDScaler_o* __this, const MethodInfo* method);
-// 0x182206f90
+// 0x5ceca40
 
-void
-UI_HUDScaler___ctor(UI_HUDScaler_o* __this, MethodInfo* method)
+void UI_HUDScaler___ctor(UI_HUDScaler_o *__this,MethodInfo *method)
 
 {
   (__this->fields).Scale = 1.0;

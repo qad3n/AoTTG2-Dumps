@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000310")]
+[Token(Token = "0x20002D1")]
 internal class BasicClient : IAuthenticationModule
 {
-	[Token(Token = "0x17000477")]
+	[Token(Token = "0x17000448")]
 	public string AuthenticationType
 	{
-		[Token(Token = "0x600153D")]
-		[Address(RVA = "0x27DCB10", Offset = "0x27DB110", VA = "0x1827DCB10", Slot = "6")]
+		[Token(Token = "0x600137F")]
+		[Address(RVA = "0x617FFE0", Offset = "0x617EFE0", VA = "0x617FFE0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001539")]
-	[Address(RVA = "0x27DC6B0", Offset = "0x27DACB0", VA = "0x1827DC6B0", Slot = "4")]
+	[Token(Token = "0x600137B")]
+	[Address(RVA = "0x617FBC0", Offset = "0x617EBC0", VA = "0x617FBC0", Slot = "4")]
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600153A")]
-	[Address(RVA = "0x27DC760", Offset = "0x27DAD60", VA = "0x1827DC760")]
+	[Token(Token = "0x600137C")]
+	[Address(RVA = "0x617FF40", Offset = "0x617EF40", VA = "0x617FF40")]
 	private static byte[] GetBytes(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600153B")]
-	[Address(RVA = "0x27DC7F0", Offset = "0x27DADF0", VA = "0x1827DC7F0")]
+	[Token(Token = "0x600137D")]
+	[Address(RVA = "0x617FC50", Offset = "0x617EC50", VA = "0x617FC50")]
 	private static Authorization InternalAuthenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600153C")]
-	[Address(RVA = "0x27DCAF0", Offset = "0x27DB0F0", VA = "0x1827DCAF0", Slot = "5")]
+	[Token(Token = "0x600137E")]
+	[Address(RVA = "0x617FFD0", Offset = "0x617EFD0", VA = "0x617FFD0", Slot = "5")]
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600153E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6001380")]
+	[Address(RVA = "0x617EF80", Offset = "0x617DF80", VA = "0x617EF80")]
 	public BasicClient()
 	{
 	}

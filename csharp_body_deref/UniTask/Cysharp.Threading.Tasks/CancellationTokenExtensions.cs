@@ -44,13 +44,13 @@ public static class CancellationTokenExtensions
 		private UniTask.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x29178D0", Offset = "0x2915ED0", VA = "0x1829178D0", Slot = "4")]
+		[Address(RVA = "0x62C2BE0", Offset = "0x62C1BE0", VA = "0x62C2BE0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000095")]
-		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
+		[Address(RVA = "0x62C2FF0", Offset = "0x62C1FF0", VA = "0x62C2FF0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -66,14 +66,14 @@ public static class CancellationTokenExtensions
 	private static readonly Action<object> disposeCallback;
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x290A0A0", Offset = "0x29086A0", VA = "0x18290A0A0")]
+	[Address(RVA = "0x62C1EA0", Offset = "0x62C0EA0", VA = "0x62C1EA0")]
 	public static CancellationToken ToCancellationToken(this UniTask task)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x2909DF0", Offset = "0x29083F0", VA = "0x182909DF0")]
+	[Address(RVA = "0x62C20B0", Offset = "0x62C10B0", VA = "0x62C20B0")]
 	public static CancellationToken ToCancellationToken(this UniTask task, CancellationToken linkToken)
 	{
 		return default(CancellationToken);
@@ -92,7 +92,7 @@ public static class CancellationTokenExtensions
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x2909D40", Offset = "0x2908340", VA = "0x182909D40")]
+	[Address(RVA = "0x62C1FF0", Offset = "0x62C0FF0", VA = "0x62C1FF0")]
 	[AsyncStateMachine(typeof(_003CToCancellationTokenCore_003Ed__6))]
 	private static UniTaskVoid ToCancellationTokenCore(UniTask task, CancellationTokenSource cts)
 	{
@@ -100,48 +100,48 @@ public static class CancellationTokenExtensions
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x290A1D0", Offset = "0x29087D0", VA = "0x18290A1D0")]
+	[Address(RVA = "0x62C22E0", Offset = "0x62C12E0", VA = "0x62C22E0")]
 	public static (UniTask, CancellationTokenRegistration) ToUniTask(this CancellationToken cancellationToken)
 	{
 		return default((UniTask, CancellationTokenRegistration));
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2909940", Offset = "0x2907F40", VA = "0x182909940")]
+	[Address(RVA = "0x62C2760", Offset = "0x62C1760", VA = "0x62C2760")]
 	private static void Callback(object state)
 	{
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x290A3D0", Offset = "0x29089D0", VA = "0x18290A3D0")]
+	[Address(RVA = "0x62C27D0", Offset = "0x62C17D0", VA = "0x62C27D0")]
 	public static CancellationTokenAwaitable WaitUntilCanceled(this CancellationToken cancellationToken)
 	{
 		return default(CancellationTokenAwaitable);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2909A60", Offset = "0x2908060", VA = "0x182909A60")]
+	[Address(RVA = "0x62C27F0", Offset = "0x62C17F0", VA = "0x62C27F0")]
 	public static CancellationTokenRegistration RegisterWithoutCaptureExecutionContext(this CancellationToken cancellationToken, Action callback)
 	{
 		return default(CancellationTokenRegistration);
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2909BD0", Offset = "0x29081D0", VA = "0x182909BD0")]
+	[Address(RVA = "0x62C25B0", Offset = "0x62C15B0", VA = "0x62C25B0")]
 	public static CancellationTokenRegistration RegisterWithoutCaptureExecutionContext(this CancellationToken cancellationToken, Action<object> callback, object state)
 	{
 		return default(CancellationTokenRegistration);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x29098A0", Offset = "0x2907EA0", VA = "0x1829098A0")]
+	[Address(RVA = "0x62C2990", Offset = "0x62C1990", VA = "0x62C2990")]
 	public static CancellationTokenRegistration AddTo(this IDisposable disposable, CancellationToken cancellationToken)
 	{
 		return default(CancellationTokenRegistration);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x29099C0", Offset = "0x2907FC0", VA = "0x1829099C0")]
+	[Address(RVA = "0x62C2A20", Offset = "0x62C1A20", VA = "0x62C2A20")]
 	private static void DisposeCallback(object state)
 	{
 	}

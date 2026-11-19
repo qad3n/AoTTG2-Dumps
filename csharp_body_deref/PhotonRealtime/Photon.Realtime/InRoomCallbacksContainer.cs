@@ -19,37 +19,37 @@ internal class InRoomCallbacksContainer : List<IInRoomCallbacks>, IInRoomCallbac
 	private readonly LoadBalancingClient client;
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x1D163C0", Offset = "0x1D149C0", VA = "0x181D163C0")]
+	[Address(RVA = "0x56ABF50", Offset = "0x56AAF50", VA = "0x56ABF50")]
 	public InRoomCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x1D15D00", Offset = "0x1D14300", VA = "0x181D15D00", Slot = "35")]
+	[Address(RVA = "0x56B6A50", Offset = "0x56B5A50", VA = "0x56B6A50", Slot = "35")]
 	public void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x1D15EA0", Offset = "0x1D144A0", VA = "0x181D15EA0", Slot = "36")]
+	[Address(RVA = "0x56B6E10", Offset = "0x56B5E10", VA = "0x56B6E10", Slot = "36")]
 	public void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x1D16200", Offset = "0x1D14800", VA = "0x181D16200", Slot = "37")]
+	[Address(RVA = "0x56AFDF0", Offset = "0x56AEDF0", VA = "0x56AFDF0", Slot = "37")]
 	public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x1D16050", Offset = "0x1D14650", VA = "0x181D16050", Slot = "38")]
+	[Address(RVA = "0x56AF5C0", Offset = "0x56AE5C0", VA = "0x56AF5C0", Slot = "38")]
 	public void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProp)
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x1D15B40", Offset = "0x1D14140", VA = "0x181D15B40", Slot = "39")]
+	[Address(RVA = "0x56B6C20", Offset = "0x56B5C20", VA = "0x56B6C20", Slot = "39")]
 	public void OnMasterClientSwitched(Player newMasterClient)
 	{
 	}

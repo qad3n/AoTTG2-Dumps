@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.CompilerContextData
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 		public unsafe ref readonly PassData Current
 		{
 			[Token(Token = "0x6001357")]
-			[Address(RVA = "0x2B97510", Offset = "0x2B95B10", VA = "0x182B97510")]
+			[Address(RVA = "0x658CBA0", Offset = "0x658BBA0", VA = "0x658CBA0")]
 			get
 			{
 				return ref *(PassData*)null;
@@ -39,20 +39,20 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 		}
 
 		[Token(Token = "0x6001356")]
-		[Address(RVA = "0x2B97440", Offset = "0x2B95A40", VA = "0x182B97440")]
+		[Address(RVA = "0x658C920", Offset = "0x658B920", VA = "0x658C920")]
 		public PassIterator(CompilerContextData ctx)
 		{
 		}
 
 		[Token(Token = "0x6001358")]
-		[Address(RVA = "0x2B974A0", Offset = "0x2B95AA0", VA = "0x182B974A0")]
+		[Address(RVA = "0x658CBF0", Offset = "0x658BBF0", VA = "0x658CBF0")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001359")]
-		[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
+		[Address(RVA = "0x658CB90", Offset = "0x658BB90", VA = "0x658CB90")]
 		public PassIterator GetEnumerator()
 		{
 			return default(PassIterator);
@@ -74,7 +74,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 		public unsafe ref readonly NativePassData Current
 		{
 			[Token(Token = "0x600135B")]
-			[Address(RVA = "0x2B97450", Offset = "0x2B95A50", VA = "0x182B97450")]
+			[Address(RVA = "0x658CEC0", Offset = "0x658BEC0", VA = "0x658CEC0")]
 			get
 			{
 				return ref *(NativePassData*)null;
@@ -82,20 +82,20 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 		}
 
 		[Token(Token = "0x600135A")]
-		[Address(RVA = "0x2B97440", Offset = "0x2B95A40", VA = "0x182B97440")]
+		[Address(RVA = "0x658CC70", Offset = "0x658BC70", VA = "0x658CC70")]
 		public NativePassIterator(CompilerContextData ctx)
 		{
 		}
 
 		[Token(Token = "0x600135C")]
-		[Address(RVA = "0x2B97380", Offset = "0x2B95980", VA = "0x182B97380")]
+		[Address(RVA = "0x658CF10", Offset = "0x658BF10", VA = "0x658CF10")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600135D")]
-		[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
+		[Address(RVA = "0x658CEB0", Offset = "0x658BEB0", VA = "0x658CEB0")]
 		public NativePassIterator GetEnumerator()
 		{
 			return default(NativePassIterator);
@@ -162,7 +162,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 	public PassIterator Passes
 	{
 		[Token(Token = "0x600134F")]
-		[Address(RVA = "0x2B8AA30", Offset = "0x2B89030", VA = "0x182B8AA30")]
+		[Address(RVA = "0x658C910", Offset = "0x658B910", VA = "0x658C910")]
 		get
 		{
 			return default(PassIterator);
@@ -173,7 +173,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 	public NativePassIterator NativePasses
 	{
 		[Token(Token = "0x6001351")]
-		[Address(RVA = "0x2B8AA30", Offset = "0x2B89030", VA = "0x182B8AA30")]
+		[Address(RVA = "0x658CC60", Offset = "0x658BC60", VA = "0x658CC60")]
 		get
 		{
 			return default(NativePassIterator);
@@ -181,32 +181,32 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 	}
 
 	[Token(Token = "0x600133E")]
-	[Address(RVA = "0x2B8A930", Offset = "0x2B88F30", VA = "0x182B8A930")]
+	[Address(RVA = "0x658B6F0", Offset = "0x658A6F0", VA = "0x658B6F0")]
 	public CompilerContextData()
 	{
 	}
 
 	[Token(Token = "0x600133F")]
-	[Address(RVA = "0x2B891A0", Offset = "0x2B877A0", VA = "0x182B891A0")]
+	[Address(RVA = "0x658B7F0", Offset = "0x658A7F0", VA = "0x658B7F0")]
 	private void AllocateNativeDataStructuresIfNeeded(int estimatedNumPasses)
 	{
 	}
 
 	[Token(Token = "0x6001340")]
-	[Address(RVA = "0x2B8A100", Offset = "0x2B88700", VA = "0x182B8A100")]
+	[Address(RVA = "0x658BAD0", Offset = "0x658AAD0", VA = "0x658BAD0")]
 	public void Initialize(RenderGraphResourceRegistry resourceRegistry, int estimatedNumPasses)
 	{
 	}
 
 	[Token(Token = "0x6001341")]
-	[Address(RVA = "0x2B895B0", Offset = "0x2B87BB0", VA = "0x182B895B0", Slot = "5")]
+	[Address(RVA = "0x658BB40", Offset = "0x658AB40", VA = "0x658BB40", Slot = "5")]
 	public void Clear()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001342")]
-	[Address(RVA = "0x2B8A860", Offset = "0x2B88E60", VA = "0x182B8A860")]
+	[Address(RVA = "0x658BCF0", Offset = "0x658ACF0", VA = "0x658BCF0")]
 	public unsafe ref ResourceUnversionedData UnversionedResourceData(in ResourceHandle h)
 	{
 		return ref *(ResourceUnversionedData*)null;
@@ -214,7 +214,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001343")]
-	[Address(RVA = "0x2B86830", Offset = "0x2B84E30", VA = "0x182B86830")]
+	[Address(RVA = "0x658BDD0", Offset = "0x658ADD0", VA = "0x658BDD0")]
 	public unsafe ref ResourceVersionedData VersionedResourceData(in ResourceHandle h)
 	{
 		return ref *(ResourceVersionedData*)null;
@@ -222,7 +222,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001344")]
-	[Address(RVA = "0x2B8A190", Offset = "0x2B88790", VA = "0x182B8A190")]
+	[Address(RVA = "0x658BDF0", Offset = "0x658ADF0", VA = "0x658BDF0")]
 	public ReadOnlySpan<ResourceReaderData> Readers(in ResourceHandle h)
 	{
 		return default(ReadOnlySpan<ResourceReaderData>);
@@ -230,14 +230,14 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001345")]
-	[Address(RVA = "0x2B8A310", Offset = "0x2B88910", VA = "0x182B8A310")]
+	[Address(RVA = "0x658BF60", Offset = "0x658AF60", VA = "0x658BF60")]
 	public unsafe ref ResourceReaderData ResourceReader(in ResourceHandle h, int i)
 	{
 		return ref *(ResourceReaderData*)null;
 	}
 
 	[Token(Token = "0x6001346")]
-	[Address(RVA = "0x2B8A4D0", Offset = "0x2B88AD0", VA = "0x182B8A4D0")]
+	[Address(RVA = "0x658C090", Offset = "0x658B090", VA = "0x658C090")]
 	public bool TryAddToFragmentList(in TextureAccess access, int listFirstIndex, int numItems, out string errorMessage)
 	{
 		return default(bool);
@@ -245,7 +245,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001347")]
-	[Address(RVA = "0x2B898A0", Offset = "0x2B87EA0", VA = "0x182B898A0")]
+	[Address(RVA = "0x658C1E0", Offset = "0x658B1E0", VA = "0x658C1E0")]
 	public Name GetFullPassName(int passId)
 	{
 		return default(Name);
@@ -253,7 +253,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001348")]
-	[Address(RVA = "0x2B89C60", Offset = "0x2B88260", VA = "0x182B89C60")]
+	[Address(RVA = "0x658C240", Offset = "0x658B240", VA = "0x658C240")]
 	public string GetPassName(int passId)
 	{
 		return null;
@@ -261,7 +261,7 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001349")]
-	[Address(RVA = "0x2B89F10", Offset = "0x2B88510", VA = "0x182B89F10")]
+	[Address(RVA = "0x658C290", Offset = "0x658B290", VA = "0x658C290")]
 	public string GetResourceName(in ResourceHandle h)
 	{
 		return null;
@@ -269,66 +269,66 @@ internal class CompilerContextData : IDisposable, RenderGraph.ICompiledGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600134A")]
-	[Address(RVA = "0x2B89FE0", Offset = "0x2B885E0", VA = "0x182B89FE0")]
+	[Address(RVA = "0x658C380", Offset = "0x658B380", VA = "0x658C380")]
 	public string GetResourceVersionedName(in ResourceHandle h)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600134B")]
-	[Address(RVA = "0x2B8A610", Offset = "0x2B88C10", VA = "0x182B8A610")]
+	[Address(RVA = "0x658C410", Offset = "0x658B410", VA = "0x658C410")]
 	public bool TryAddToRandomAccessResourceList(in ResourceHandle h, int randomWriteSlotIndex, bool preserveCounterValue, int listFirstIndex, int numItems, out string errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134C")]
-	[Address(RVA = "0x2B8A440", Offset = "0x2B88A40", VA = "0x182B8A440")]
+	[Address(RVA = "0x658C6C0", Offset = "0x658B6C0", VA = "0x658C6C0")]
 	public void TagAllPasses(int value)
 	{
 	}
 
 	[Token(Token = "0x600134D")]
-	[Address(RVA = "0x2B89750", Offset = "0x2B87D50", VA = "0x182B89750")]
+	[Address(RVA = "0x658C760", Offset = "0x658B760", VA = "0x658C760")]
 	public void CullAllPasses(bool isCulled)
 	{
 	}
 
 	[Token(Token = "0x600134E")]
-	[Address(RVA = "0x2B8A080", Offset = "0x2B88680", VA = "0x182B8A080")]
+	[Address(RVA = "0x658C800", Offset = "0x658B800", VA = "0x658C800")]
 	public TextureUVOrigin GetTextureUVOrigin(in TextureHandle targetHandle)
 	{
 		return default(TextureUVOrigin);
 	}
 
 	[Token(Token = "0x6001350")]
-	[Address(RVA = "0x2B89CC0", Offset = "0x2B882C0", VA = "0x182B89CC0")]
+	[Address(RVA = "0x658C930", Offset = "0x658B930", VA = "0x658C930")]
 	internal List<PassData> GetPasses()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001352")]
-	[Address(RVA = "0x2B89910", Offset = "0x2B87F10", VA = "0x182B89910")]
+	[Address(RVA = "0x658CC80", Offset = "0x658BC80", VA = "0x658CC80")]
 	internal List<NativePassData> GetNativePasses()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001353")]
-	[Address(RVA = "0x2B89840", Offset = "0x2B87E40", VA = "0x182B89840", Slot = "1")]
+	[Address(RVA = "0x658CFD0", Offset = "0x658BFD0", VA = "0x658CFD0", Slot = "1")]
 	~CompilerContextData()
 	{
 	}
 
 	[Token(Token = "0x6001354")]
-	[Address(RVA = "0x2B897E0", Offset = "0x2B87DE0", VA = "0x182B897E0", Slot = "4")]
+	[Address(RVA = "0x658D1C0", Offset = "0x658C1C0", VA = "0x658D1C0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001355")]
-	[Address(RVA = "0x2B89460", Offset = "0x2B87A60", VA = "0x182B89460")]
+	[Address(RVA = "0x658D060", Offset = "0x658C060", VA = "0x658D060")]
 	private void Cleanup()
 	{
 	}

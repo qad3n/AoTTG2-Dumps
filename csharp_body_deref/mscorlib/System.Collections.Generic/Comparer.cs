@@ -11,40 +11,40 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000641")]
+[Token(Token = "0x200061C")]
 [System.Runtime.CompilerServices.TypeDependency("System.Collections.Generic.ObjectComparer`1")]
 public abstract class Comparer<T> : IComparer, IComparer<T>
 {
-	[Token(Token = "0x4001971")]
+	[Token(Token = "0x40018D8")]
 	[FieldOffset(Offset = "0x0")]
 	private static Comparer<T> defaultComparer;
 
-	[Token(Token = "0x170007D9")]
+	[Token(Token = "0x170007D8")]
 	public static Comparer<T> Default
 	{
-		[Token(Token = "0x600300D")]
+		[Token(Token = "0x6002FEC")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600300E")]
+	[Token(Token = "0x6002FED")]
 	private static Comparer<T> CreateComparer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600300F")]
+	[Token(Token = "0x6002FEE")]
 	public abstract int Compare(T x, T y);
 
-	[Token(Token = "0x6003010")]
+	[Token(Token = "0x6002FEF")]
 	private int System_002ECollections_002EIComparer_002ECompare(object x, object y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003011")]
+	[Token(Token = "0x6002FF0")]
 	protected Comparer()
 	{
 	}

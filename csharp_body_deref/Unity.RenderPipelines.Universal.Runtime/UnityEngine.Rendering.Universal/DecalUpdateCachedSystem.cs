@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.DecalUpdateCachedSystem
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -70,20 +70,20 @@ internal class DecalUpdateCachedSystem
 		public float minDistance;
 
 		[Token(Token = "0x6000355")]
-		[Address(RVA = "0x2C349D0", Offset = "0x2C32FD0", VA = "0x182C349D0")]
+		[Address(RVA = "0x6619580", Offset = "0x6618580", VA = "0x6619580")]
 		private float DistanceBetweenQuaternions(quaternion a, quaternion b)
 		{
 			return default(float);
 		}
 
 		[Token(Token = "0x6000356")]
-		[Address(RVA = "0x2C34A20", Offset = "0x2C33020", VA = "0x182C34A20", Slot = "4")]
+		[Address(RVA = "0x66195B0", Offset = "0x66185B0", VA = "0x66195B0", Slot = "4")]
 		public void Execute(int index, TransformAccess transform)
 		{
 		}
 
 		[Token(Token = "0x6000357")]
-		[Address(RVA = "0x2C352B0", Offset = "0x2C338B0", VA = "0x182C352B0")]
+		[Address(RVA = "0x6619F90", Offset = "0x6618F90", VA = "0x6619F90")]
 		private BoundingSphere GetDecalProjectBoundingSphere(Matrix4x4 decalToWorld)
 		{
 			return default(BoundingSphere);
@@ -103,19 +103,19 @@ internal class DecalUpdateCachedSystem
 	private ProfilingSampler m_SamplerJob;
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x2C27EA0", Offset = "0x2C264A0", VA = "0x182C27EA0")]
+	[Address(RVA = "0x6618FE0", Offset = "0x6617FE0", VA = "0x6618FE0")]
 	public DecalUpdateCachedSystem(DecalEntityManager entityManager)
 	{
 	}
 
 	[Token(Token = "0x6000353")]
-	[Address(RVA = "0x2C27D30", Offset = "0x2C26330", VA = "0x182C27D30")]
+	[Address(RVA = "0x66190B0", Offset = "0x66180B0", VA = "0x66190B0")]
 	public void Execute()
 	{
 	}
 
 	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x2C27A10", Offset = "0x2C26010", VA = "0x182C27A10")]
+	[Address(RVA = "0x6619250", Offset = "0x6618250", VA = "0x6619250")]
 	private void Execute(DecalEntityChunk entityChunk, DecalCachedChunk cachedChunk, int count)
 	{
 	}

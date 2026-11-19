@@ -9,52 +9,52 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200028D")]
+[Token(Token = "0x2000265")]
 internal sealed class ThreadPoolTaskScheduler : TaskScheduler
 {
-	[Token(Token = "0x4000B51")]
+	[Token(Token = "0x4000AAF")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ParameterizedThreadStart s_longRunningThreadWork;
 
-	[Token(Token = "0x1700020F")]
+	[Token(Token = "0x1700020E")]
 	internal override bool RequiresAtomicStartTransition
 	{
-		[Token(Token = "0x6001569")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6001540")]
+		[Address(RVA = "0x554F0C0", Offset = "0x554E0C0", VA = "0x554F0C0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001564")]
-	[Address(RVA = "0x1BC07A0", Offset = "0x1BBEDA0", VA = "0x181BC07A0")]
+	[Token(Token = "0x600153B")]
+	[Address(RVA = "0x554E9B0", Offset = "0x554D9B0", VA = "0x554E9B0")]
 	internal ThreadPoolTaskScheduler()
 	{
 	}
 
-	[Token(Token = "0x6001565")]
-	[Address(RVA = "0x1BC0350", Offset = "0x1BBE950", VA = "0x181BC0350", Slot = "4")]
+	[Token(Token = "0x600153C")]
+	[Address(RVA = "0x554EC90", Offset = "0x554DC90", VA = "0x554EC90", Slot = "4")]
 	protected internal override void QueueTask(Task task)
 	{
 	}
 
-	[Token(Token = "0x6001566")]
-	[Address(RVA = "0x1BC0600", Offset = "0x1BBEC00", VA = "0x181BC0600", Slot = "5")]
+	[Token(Token = "0x600153D")]
+	[Address(RVA = "0x554EFC0", Offset = "0x554DFC0", VA = "0x554EFC0", Slot = "5")]
 	protected override bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001567")]
-	[Address(RVA = "0x1BC05F0", Offset = "0x1BBEBF0", VA = "0x181BC05F0", Slot = "6")]
+	[Token(Token = "0x600153E")]
+	[Address(RVA = "0x554F0A0", Offset = "0x554E0A0", VA = "0x554F0A0", Slot = "6")]
 	protected internal override bool TryDequeue(Task task)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001568")]
-	[Address(RVA = "0x1BC0330", Offset = "0x1BBE930", VA = "0x181BC0330", Slot = "7")]
+	[Token(Token = "0x600153F")]
+	[Address(RVA = "0x554F0B0", Offset = "0x554E0B0", VA = "0x554F0B0", Slot = "7")]
 	internal override void NotifyWorkItemProgress()
 	{
 	}

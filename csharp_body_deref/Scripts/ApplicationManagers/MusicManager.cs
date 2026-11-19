@@ -16,54 +16,54 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000917")]
+[Token(Token = "0x2000981")]
 public class MusicManager : MonoBehaviour
 {
-	[Token(Token = "0x2000918")]
+	[Token(Token = "0x2000983")]
 	[CompilerGenerated]
-	private sealed class _003CFadeNextSong_003Ed__48 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CFadeNextSong_003Ed__47 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002D4C")]
+		[Token(Token = "0x400300C")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002D4D")]
+		[Token(Token = "0x400300D")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002D4E")]
+		[Token(Token = "0x400300E")]
 		[FieldOffset(Offset = "0x20")]
 		public MusicManager _003C_003E4__this;
 
-		[Token(Token = "0x4002D4F")]
+		[Token(Token = "0x400300F")]
 		[FieldOffset(Offset = "0x28")]
 		public AudioClip nextClip;
 
-		[Token(Token = "0x4002D50")]
+		[Token(Token = "0x4003010")]
 		[FieldOffset(Offset = "0x30")]
 		public float startTime;
 
-		[Token(Token = "0x4002D51")]
+		[Token(Token = "0x4003011")]
 		[FieldOffset(Offset = "0x34")]
 		public float volume;
 
-		[Token(Token = "0x4002D52")]
+		[Token(Token = "0x4003012")]
 		[FieldOffset(Offset = "0x38")]
 		private float _003CfadeInTime_003E5__2;
 
-		[Token(Token = "0x4002D53")]
+		[Token(Token = "0x4003013")]
 		[FieldOffset(Offset = "0x3C")]
 		private float _003CfadeOutTime_003E5__3;
 
-		[Token(Token = "0x4002D54")]
+		[Token(Token = "0x4003014")]
 		[FieldOffset(Offset = "0x40")]
 		private float _003CfadeTimeLeft_003E5__4;
 
-		[Token(Token = "0x17000F6A")]
+		[Token(Token = "0x17000F4E")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6005595")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
+			[Token(Token = "0x60058F9")]
+			[Address(RVA = "0x5D1B9A0", Offset = "0x5D1A9A0", VA = "0x5D1B9A0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -71,11 +71,11 @@ public class MusicManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000F6B")]
+		[Token(Token = "0x17000F4F")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6005597")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
+			[Token(Token = "0x60058FB")]
+			[Address(RVA = "0x5D1B9F0", Offset = "0x5D1A9F0", VA = "0x5D1B9F0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -83,389 +83,298 @@ public class MusicManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6005592")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
+		[Token(Token = "0x60058F6")]
+		[Address(RVA = "0x5D1A520", Offset = "0x5D19520", VA = "0x5D1A520")]
 		[DebuggerHidden]
-		public _003CFadeNextSong_003Ed__48(int _003C_003E1__state)
+		public _003CFadeNextSong_003Ed__47(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6005593")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+		[Token(Token = "0x60058F7")]
+		[Address(RVA = "0x5D1B3E0", Offset = "0x5D1A3E0", VA = "0x5D1B3E0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6005594")]
-		[Address(RVA = "0x23593E0", Offset = "0x23579E0", VA = "0x1823593E0", Slot = "6")]
+		[Token(Token = "0x60058F8")]
+		[Address(RVA = "0x5D1B3F0", Offset = "0x5D1A3F0", VA = "0x5D1B3F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6005596")]
-		[Address(RVA = "0x23597D0", Offset = "0x2357DD0", VA = "0x1823597D0", Slot = "8")]
+		[Token(Token = "0x60058FA")]
+		[Address(RVA = "0x5D1B9B0", Offset = "0x5D1A9B0", VA = "0x5D1B9B0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000919")]
-	[CompilerGenerated]
-	private sealed class _003CStartSoundEffect_003Ed__43 : IEnumerator<object>, IEnumerator, IDisposable
-	{
-		[Token(Token = "0x4002D55")]
-		[FieldOffset(Offset = "0x10")]
-		private int _003C_003E1__state;
-
-		[Token(Token = "0x4002D56")]
-		[FieldOffset(Offset = "0x18")]
-		private object _003C_003E2__current;
-
-		[Token(Token = "0x4002D57")]
-		[FieldOffset(Offset = "0x20")]
-		public MusicManager _003C_003E4__this;
-
-		[Token(Token = "0x4002D58")]
-		[FieldOffset(Offset = "0x28")]
-		public float volume;
-
-		[Token(Token = "0x4002D59")]
-		[FieldOffset(Offset = "0x30")]
-		public AudioClip clip;
-
-		[Token(Token = "0x17000F6C")]
-		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
-		{
-			[Token(Token = "0x600559B")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
-			[DebuggerHidden]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x17000F6D")]
-		private object System_002ECollections_002EIEnumerator_002ECurrent
-		{
-			[Token(Token = "0x600559D")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
-			[DebuggerHidden]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x6005598")]
-		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
-		[DebuggerHidden]
-		public _003CStartSoundEffect_003Ed__43(int _003C_003E1__state)
-		{
-		}
-
-		[Token(Token = "0x6005599")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
-		[DebuggerHidden]
-		private void System_002EIDisposable_002EDispose()
-		{
-		}
-
-		[Token(Token = "0x600559A")]
-		[Address(RVA = "0x235DC10", Offset = "0x235C210", VA = "0x18235DC10", Slot = "6")]
-		private bool MoveNext()
-		{
-			return default(bool);
-		}
-
-		[Token(Token = "0x600559C")]
-		[Address(RVA = "0x235DD00", Offset = "0x235C300", VA = "0x18235DD00", Slot = "8")]
-		[DebuggerHidden]
-		private void System_002ECollections_002EIEnumerator_002EReset()
-		{
-		}
-	}
-
-	[Token(Token = "0x4002D2F")]
+	[Token(Token = "0x4002FED")]
 	[FieldOffset(Offset = "0x0")]
 	private static MusicManager _instance;
 
-	[Token(Token = "0x4002D30")]
+	[Token(Token = "0x4002FEE")]
 	[FieldOffset(Offset = "0x8")]
 	private static JSONNode _musicInfo;
 
-	[Token(Token = "0x4002D31")]
+	[Token(Token = "0x4002FEF")]
 	[FieldOffset(Offset = "0x20")]
 	private string _currentPlaylist;
 
-	[Token(Token = "0x4002D32")]
+	[Token(Token = "0x4002FF0")]
 	[FieldOffset(Offset = "0x28")]
 	private AudioSource _audio;
 
-	[Token(Token = "0x4002D33")]
+	[Token(Token = "0x4002FF1")]
 	[FieldOffset(Offset = "0x30")]
 	private GameObject _soundEffectObject;
 
-	[Token(Token = "0x4002D34")]
+	[Token(Token = "0x4002FF2")]
 	[FieldOffset(Offset = "0x38")]
 	private AudioSource _soundEffect;
 
-	[Token(Token = "0x4002D35")]
+	[Token(Token = "0x4002FF3")]
 	[FieldOffset(Offset = "0x40")]
 	private float _songTimeLeft;
 
-	[Token(Token = "0x4002D36")]
+	[Token(Token = "0x4002FF4")]
 	[FieldOffset(Offset = "0x44")]
 	private float _songVolume;
 
-	[Token(Token = "0x4002D37")]
+	[Token(Token = "0x4002FF5")]
 	[FieldOffset(Offset = "0x48")]
 	private bool _autoPlay;
 
-	[Token(Token = "0x4002D38")]
+	[Token(Token = "0x4002FF6")]
 	[FieldOffset(Offset = "0x49")]
 	private bool _isFading;
 
-	[Token(Token = "0x4002D39")]
+	[Token(Token = "0x4002FF7")]
 	private const float BattleFadeInTime = 1f;
 
-	[Token(Token = "0x4002D3A")]
+	[Token(Token = "0x4002FF8")]
 	private const float DefaultFadeOutTime = 1f;
 
-	[Token(Token = "0x4002D3B")]
+	[Token(Token = "0x4002FF9")]
 	private const float DefaultFadeInTime = 5f;
 
-	[Token(Token = "0x4002D3C")]
+	[Token(Token = "0x4002FFA")]
 	[FieldOffset(Offset = "0x4C")]
 	private int _currentSong;
 
-	[Token(Token = "0x4002D3D")]
+	[Token(Token = "0x4002FFB")]
 	[FieldOffset(Offset = "0x50")]
 	private List<string> _customPlaylist;
 
-	[Token(Token = "0x4002D3E")]
+	[Token(Token = "0x4002FFC")]
 	[FieldOffset(Offset = "0x58")]
 	private string _currentSongName;
 
-	[Token(Token = "0x4002D3F")]
+	[Token(Token = "0x4002FFD")]
 	[FieldOffset(Offset = "0x10")]
 	public static bool _muted;
 
-	[Token(Token = "0x4002D40")]
+	[Token(Token = "0x4002FFE")]
 	[FieldOffset(Offset = "0x60")]
 	public bool _isDefaultPlaylist;
 
-	[Token(Token = "0x4002D41")]
+	[Token(Token = "0x4002FFF")]
 	[FieldOffset(Offset = "0x64")]
 	private float _transitionTimeLeft;
 
-	[Token(Token = "0x4002D42")]
+	[Token(Token = "0x4003000")]
 	[FieldOffset(Offset = "0x68")]
 	private bool _isMenuTransition;
 
-	[Token(Token = "0x4002D43")]
+	[Token(Token = "0x4003001")]
 	[FieldOffset(Offset = "0x69")]
 	private bool _justPlayedMenuTransition;
 
-	[Token(Token = "0x4002D44")]
+	[Token(Token = "0x4003002")]
 	[FieldOffset(Offset = "0x70")]
 	private string _lastSongBeforeGrabbed;
 
-	[Token(Token = "0x4002D45")]
+	[Token(Token = "0x4003003")]
 	[FieldOffset(Offset = "0x78")]
 	private float _lastTimeBeforeGrabbed;
 
-	[Token(Token = "0x4002D46")]
+	[Token(Token = "0x4003004")]
 	[FieldOffset(Offset = "0x7C")]
 	private bool _justEscapedGrab;
 
-	[Token(Token = "0x4002D47")]
+	[Token(Token = "0x4003005")]
 	[FieldOffset(Offset = "0x80")]
 	private float _lastCheckBattleMusic;
 
-	[Token(Token = "0x4002D48")]
+	[Token(Token = "0x4003006")]
 	private const float BattleTitanAnyDistance = 200f;
 
-	[Token(Token = "0x4002D49")]
+	[Token(Token = "0x4003007")]
 	private const float BattleTitanActiveDistance = 1000f;
 
-	[Token(Token = "0x4002D4A")]
+	[Token(Token = "0x4003008")]
 	private const float BattleOtherAnyDistance = 500f;
 
-	[Token(Token = "0x4002D4B")]
+	[Token(Token = "0x4003009")]
 	private const float CheckBattleMusicDelay = 0.2f;
 
-	[Token(Token = "0x6005577")]
-	[Address(RVA = "0x23527C0", Offset = "0x2350DC0", VA = "0x1823527C0")]
+	[Token(Token = "0x60058DA")]
+	[Address(RVA = "0x5D08F30", Offset = "0x5D07F30", VA = "0x5D08F30")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6005578")]
-	[Address(RVA = "0x2352F00", Offset = "0x2351500", VA = "0x182352F00")]
+	[Token(Token = "0x60058DB")]
+	[Address(RVA = "0x5D18580", Offset = "0x5D17580", VA = "0x5D18580")]
 	private static void OnLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6005579")]
-	[Address(RVA = "0x2351B60", Offset = "0x2350160", VA = "0x182351B60")]
+	[Token(Token = "0x60058DC")]
+	[Address(RVA = "0x5D16170", Offset = "0x5D15170", VA = "0x5D16170")]
 	public static void ApplySoundSettings()
 	{
 	}
 
-	[Token(Token = "0x600557A")]
-	[Address(RVA = "0x2352FB0", Offset = "0x23515B0", VA = "0x182352FB0")]
+	[Token(Token = "0x60058DD")]
+	[Address(RVA = "0x5D18A20", Offset = "0x5D17A20", VA = "0x5D18A20")]
 	public static void PlayDeathSong()
 	{
 	}
 
-	[Token(Token = "0x600557B")]
-	[Address(RVA = "0x2353130", Offset = "0x2351730", VA = "0x182353130")]
+	[Token(Token = "0x60058DE")]
+	[Address(RVA = "0x5D18DB0", Offset = "0x5D17DB0", VA = "0x5D18DB0")]
 	public static void PlayGrabbedSong()
 	{
 	}
 
-	[Token(Token = "0x600557C")]
-	[Address(RVA = "0x2352E70", Offset = "0x2351470", VA = "0x182352E70")]
+	[Token(Token = "0x60058DF")]
+	[Address(RVA = "0x5D19070", Offset = "0x5D18070", VA = "0x5D19070")]
 	public static void OnEscapeGrab()
 	{
 	}
 
-	[Token(Token = "0x600557D")]
-	[Address(RVA = "0x2353070", Offset = "0x2351670", VA = "0x182353070")]
+	[Token(Token = "0x60058E0")]
+	[Address(RVA = "0x5D190D0", Offset = "0x5D180D0", VA = "0x5D190D0")]
 	public static void PlayEffect()
 	{
 	}
 
-	[Token(Token = "0x600557E")]
-	[Address(RVA = "0x23538C0", Offset = "0x2351EC0", VA = "0x1823538C0")]
+	[Token(Token = "0x60058E1")]
+	[Address(RVA = "0x5D193B0", Offset = "0x5D183B0", VA = "0x5D193B0")]
 	public static void PlayTransition()
 	{
 	}
 
-	[Token(Token = "0x600557F")]
-	[Address(RVA = "0x23539D0", Offset = "0x2351FD0", VA = "0x1823539D0")]
+	[Token(Token = "0x60058E2")]
+	[Address(RVA = "0x5D18620", Offset = "0x5D17620", VA = "0x5D18620")]
 	public static void SetPlaylist(string playlist)
 	{
 	}
 
-	[Token(Token = "0x6005580")]
-	[Address(RVA = "0x2352AE0", Offset = "0x23510E0", VA = "0x182352AE0")]
+	[Token(Token = "0x60058E3")]
+	[Address(RVA = "0x5D18FA0", Offset = "0x5D17FA0", VA = "0x5D18FA0")]
 	public static bool IsMusicDisabled()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6005581")]
-	[Address(RVA = "0x2354A20", Offset = "0x2353020", VA = "0x182354A20")]
+	[Token(Token = "0x60058E4")]
+	[Address(RVA = "0x5D19490", Offset = "0x5D18490", VA = "0x5D19490")]
 	private static void StopMusic()
 	{
 	}
 
-	[Token(Token = "0x6005582")]
-	[Address(RVA = "0x23520F0", Offset = "0x23506F0", VA = "0x1823520F0")]
+	[Token(Token = "0x60058E5")]
+	[Address(RVA = "0x5D19610", Offset = "0x5D18610", VA = "0x5D19610")]
 	private static void FinishSetPlaylist(string playlist, bool forceNext = false)
 	{
 	}
 
-	[Token(Token = "0x6005583")]
-	[Address(RVA = "0x23535D0", Offset = "0x2351BD0", VA = "0x1823535D0")]
+	[Token(Token = "0x60058E6")]
+	[Address(RVA = "0x5D19180", Offset = "0x5D18180", VA = "0x5D19180")]
 	private static void PlaySoundEffect(JSONNode songInfo)
 	{
 	}
 
-	[Token(Token = "0x6005584")]
-	[Address(RVA = "0x2353350", Offset = "0x2351950", VA = "0x182353350")]
+	[Token(Token = "0x60058E7")]
+	[Address(RVA = "0x5D18AD0", Offset = "0x5D17AD0", VA = "0x5D18AD0")]
 	private static void PlayImmediateTransition(JSONNode songInfo)
 	{
 	}
 
-	[Token(Token = "0x6005585")]
-	[Address(RVA = "0x2354980", Offset = "0x2352F80", VA = "0x182354980")]
-	[IteratorStateMachine(typeof(_003CStartSoundEffect_003Ed__43))]
-	private IEnumerator StartSoundEffect(AudioClip clip, float volume)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6005586")]
-	[Address(RVA = "0x2353C60", Offset = "0x2352260", VA = "0x182353C60")]
+	[Token(Token = "0x60058E8")]
+	[Address(RVA = "0x5D19830", Offset = "0x5D18830", VA = "0x5D19830")]
 	public static void SetSong(string song, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x6005587")]
-	[Address(RVA = "0x2351CF0", Offset = "0x23502F0", VA = "0x182351CF0")]
+	[Token(Token = "0x60058E9")]
+	[Address(RVA = "0x5D1A4D0", Offset = "0x5D194D0", VA = "0x5D1A4D0")]
 	public static void ChatNextSong()
 	{
 	}
 
-	[Token(Token = "0x6005588")]
-	[Address(RVA = "0x2352BB0", Offset = "0x23511B0", VA = "0x182352BB0")]
+	[Token(Token = "0x60058EA")]
+	[Address(RVA = "0x5D19F10", Offset = "0x5D18F10", VA = "0x5D19F10")]
 	public static void NextSong()
 	{
 	}
 
-	[Token(Token = "0x6005589")]
-	[Address(RVA = "0x2351E00", Offset = "0x2350400", VA = "0x182351E00")]
+	[Token(Token = "0x60058EB")]
+	[Address(RVA = "0x5D1A160", Offset = "0x5D19160", VA = "0x5D1A160")]
 	private static JSONNode FindSong(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600558A")]
-	[Address(RVA = "0x2351D50", Offset = "0x2350350", VA = "0x182351D50")]
-	[IteratorStateMachine(typeof(_003CFadeNextSong_003Ed__48))]
+	[Token(Token = "0x60058EC")]
+	[Address(RVA = "0x5D1A430", Offset = "0x5D19430", VA = "0x5D1A430")]
+	[IteratorStateMachine(typeof(_003CFadeNextSong_003Ed__47))]
 	private IEnumerator FadeNextSong(AudioClip nextClip, float volume, float startTime)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600558B")]
-	[Address(RVA = "0x2354C60", Offset = "0x2353260", VA = "0x182354C60")]
+	[Token(Token = "0x60058ED")]
+	[Address(RVA = "0x5D1A540", Offset = "0x5D19540", VA = "0x5D1A540")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x600558C")]
-	[Address(RVA = "0x2354360", Offset = "0x2352960", VA = "0x182354360")]
+	[Token(Token = "0x60058EE")]
+	[Address(RVA = "0x5D1A790", Offset = "0x5D19790", VA = "0x5D1A790")]
 	private bool ShouldPlayBattleMusic()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600558D")]
-	[Address(RVA = "0x2352730", Offset = "0x2350D30", VA = "0x182352730")]
+	[Token(Token = "0x60058EF")]
+	[Address(RVA = "0x5D18990", Offset = "0x5D17990", VA = "0x5D18990")]
 	private static float GetMusicVolume()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600558E")]
-	[Address(RVA = "0x2352690", Offset = "0x2350C90", VA = "0x182352690")]
+	[Token(Token = "0x60058F0")]
+	[Address(RVA = "0x5D1AD10", Offset = "0x5D19D10", VA = "0x5D1AD10")]
 	public static string GetCurrentSong()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600558F")]
-	[Address(RVA = "0x2352350", Offset = "0x2350950", VA = "0x182352350")]
+	[Token(Token = "0x60058F1")]
+	[Address(RVA = "0x5D1ADB0", Offset = "0x5D19DB0", VA = "0x5D1ADB0")]
 	public static List<string> GetAllSongs()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6005590")]
-	[Address(RVA = "0x2353810", Offset = "0x2351E10", VA = "0x182353810")]
-	public static void PlaySoundOneShot(AudioSource source)
-	{
-	}
-
-	[Token(Token = "0x6005591")]
-	[Address(RVA = "0x2354EC0", Offset = "0x23534C0", VA = "0x182354EC0")]
+	[Token(Token = "0x60058F2")]
+	[Address(RVA = "0x5D1B270", Offset = "0x5D1A270", VA = "0x5D1B270")]
 	public MusicManager()
 	{
 	}

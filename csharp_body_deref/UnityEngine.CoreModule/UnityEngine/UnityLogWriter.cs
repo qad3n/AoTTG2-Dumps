@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UnityLogWriter
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,67 +13,67 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200013A")]
+[Token(Token = "0x200013B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Logging/UnityLogWriter.bindings.h")]
 internal class UnityLogWriter : TextWriter
 {
-	[Token(Token = "0x170001C0")]
+	[Token(Token = "0x170001C5")]
 	public override Encoding Encoding
 	{
-		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x2F0A550", Offset = "0x2F08B50", VA = "0x182F0A550", Slot = "11")]
+		[Token(Token = "0x6000A0E")]
+		[Address(RVA = "0x68FBF10", Offset = "0x68FAF10", VA = "0x68FBF10", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009FA")]
-	[Address(RVA = "0x2F0A460", Offset = "0x2F08A60", VA = "0x182F0A460")]
+	[Token(Token = "0x6000A0B")]
+	[Address(RVA = "0x68FBC20", Offset = "0x68FAC20", VA = "0x68FBC20")]
 	[UnityEngine.ThreadAndSerializationSafe]
 	public static void WriteStringToUnityLog(string s)
 	{
 	}
 
-	[Token(Token = "0x60009FB")]
-	[Address(RVA = "0x2F0A2E0", Offset = "0x2F088E0", VA = "0x182F0A2E0")]
+	[Token(Token = "0x6000A0C")]
+	[Address(RVA = "0x68FBC30", Offset = "0x68FAC30", VA = "0x68FBC30")]
 	[UnityEngine.Bindings.FreeFunction(IsThreadSafe = true)]
 	private static void WriteStringToUnityLogImpl(string s)
 	{
 	}
 
-	[Token(Token = "0x60009FC")]
-	[Address(RVA = "0x2F0A1C0", Offset = "0x2F087C0", VA = "0x182F0A1C0")]
+	[Token(Token = "0x6000A0D")]
+	[Address(RVA = "0x68FBDC0", Offset = "0x68FADC0", VA = "0x68FBDC0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60009FE")]
-	[Address(RVA = "0x2F0A490", Offset = "0x2F08A90", VA = "0x182F0A490", Slot = "13")]
+	[Token(Token = "0x6000A0F")]
+	[Address(RVA = "0x68FBF20", Offset = "0x68FAF20", VA = "0x68FBF20", Slot = "13")]
 	public override void Write(char value)
 	{
 	}
 
-	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x2F0A470", Offset = "0x2F08A70", VA = "0x182F0A470", Slot = "18")]
+	[Token(Token = "0x6000A10")]
+	[Address(RVA = "0x68FBF60", Offset = "0x68FAF60", VA = "0x68FBF60", Slot = "18")]
 	public override void Write(string s)
 	{
 	}
 
-	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x2F0A4D0", Offset = "0x2F08AD0", VA = "0x182F0A4D0", Slot = "15")]
+	[Token(Token = "0x6000A11")]
+	[Address(RVA = "0x68FBF70", Offset = "0x68FAF70", VA = "0x68FBF70", Slot = "15")]
 	public override void Write(char[] buffer, int index, int count)
 	{
 	}
 
-	[Token(Token = "0x6000A01")]
-	[Address(RVA = "0x2F0A500", Offset = "0x2F08B00", VA = "0x182F0A500")]
+	[Token(Token = "0x6000A12")]
+	[Address(RVA = "0x68FBEA0", Offset = "0x68FAEA0", VA = "0x68FBEA0")]
 	public UnityLogWriter()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A02")]
-	[Address(RVA = "0x2F0A2A0", Offset = "0x2F088A0", VA = "0x182F0A2A0")]
+	[Token(Token = "0x6000A13")]
+	[Address(RVA = "0x68FBD90", Offset = "0x68FAD90", VA = "0x68FBD90")]
 	private static extern void WriteStringToUnityLogImpl_Injected(ref ManagedSpanWrapper s);
 }

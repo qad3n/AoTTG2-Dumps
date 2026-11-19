@@ -17,7 +17,7 @@ namespace UnityEngine.Rendering;
 public class NoInterpIntParameter : VolumeParameter<int>
 {
 	[Token(Token = "0x6000F1C")]
-	[Address(RVA = "0x2B5F7F0", Offset = "0x2B5DDF0", VA = "0x182B5F7F0")]
+	[Address(RVA = "0x6555510", Offset = "0x6554510", VA = "0x6555510")]
 	public NoInterpIntParameter(int value, bool overrideState = false)
 	{
 	}

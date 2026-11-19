@@ -26,7 +26,7 @@ public class DisconnectMessage
 	public Dictionary<byte, object> Parameters;
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x5668860", Offset = "0x5667860", VA = "0x5668860")]
 	public DisconnectMessage()
 	{
 	}

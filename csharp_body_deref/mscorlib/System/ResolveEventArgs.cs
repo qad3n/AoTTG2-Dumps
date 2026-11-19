@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200012C")]
+[Token(Token = "0x2000104")]
 public class ResolveEventArgs : EventArgs
 {
-	[Token(Token = "0x400043C")]
+	[Token(Token = "0x4000397")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly string _003CName_003Ek__BackingField;
 
-	[Token(Token = "0x400043D")]
+	[Token(Token = "0x4000398")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly Assembly _003CRequestingAssembly_003Ek__BackingField;
 
-	[Token(Token = "0x60009CC")]
-	[Address(RVA = "0x1B48470", Offset = "0x1B46A70", VA = "0x181B48470")]
+	[Token(Token = "0x60009A8")]
+	[Address(RVA = "0x54CF630", Offset = "0x54CE630", VA = "0x54CF630")]
 	public ResolveEventArgs(string name)
 	{
 	}
 
-	[Token(Token = "0x60009CD")]
-	[Address(RVA = "0x1B483E0", Offset = "0x1B469E0", VA = "0x181B483E0")]
+	[Token(Token = "0x60009A9")]
+	[Address(RVA = "0x54CF6A0", Offset = "0x54CE6A0", VA = "0x54CF6A0")]
 	public ResolveEventArgs(string name, Assembly requestingAssembly)
 	{
 	}

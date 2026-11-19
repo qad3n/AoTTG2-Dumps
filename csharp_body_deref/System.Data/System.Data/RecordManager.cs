@@ -41,7 +41,7 @@ internal sealed class RecordManager
 	internal int LastFreeRecord
 	{
 		[Token(Token = "0x600074D")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Address(RVA = "0x5EC6660", Offset = "0x5EC5660", VA = "0x5EC6660")]
 		get
 		{
 			return default(int);
@@ -52,13 +52,13 @@ internal sealed class RecordManager
 	internal int MinimumCapacity
 	{
 		[Token(Token = "0x600074E")]
-		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
+		[Address(RVA = "0x5EC6670", Offset = "0x5EC5670", VA = "0x5EC6670")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600074F")]
-		[Address(RVA = "0x25241C0", Offset = "0x25227C0", VA = "0x1825241C0")]
+		[Address(RVA = "0x5EC6680", Offset = "0x5EC5680", VA = "0x5EC6680")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ internal sealed class RecordManager
 	internal int RecordCapacity
 	{
 		[Token(Token = "0x6000750")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x5EC66B0", Offset = "0x5EC56B0", VA = "0x5EC66B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000751")]
-		[Address(RVA = "0x2524200", Offset = "0x2522800", VA = "0x182524200")]
+		[Address(RVA = "0x5EC65D0", Offset = "0x5EC55D0", VA = "0x5EC65D0")]
 		set
 		{
 		}
@@ -84,79 +84,79 @@ internal sealed class RecordManager
 	internal DataRow this[int record]
 	{
 		[Token(Token = "0x6000757")]
-		[Address(RVA = "0x2524110", Offset = "0x2522710", VA = "0x182524110")]
+		[Address(RVA = "0x5EC6B70", Offset = "0x5EC5B70", VA = "0x5EC6B70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000758")]
-		[Address(RVA = "0x2524140", Offset = "0x2522740", VA = "0x182524140")]
+		[Address(RVA = "0x5EC68D0", Offset = "0x5EC58D0", VA = "0x5EC68D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x2524030", Offset = "0x2522630", VA = "0x182524030")]
+	[Address(RVA = "0x5EC6390", Offset = "0x5EC5390", VA = "0x5EC6390")]
 	internal RecordManager(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x2523CB0", Offset = "0x25222B0", VA = "0x182523CB0")]
+	[Address(RVA = "0x5EC6460", Offset = "0x5EC5460", VA = "0x5EC6460")]
 	private void GrowRecordCapacity()
 	{
 	}
 
 	[Token(Token = "0x6000752")]
-	[Address(RVA = "0x2523ED0", Offset = "0x25224D0", VA = "0x182523ED0")]
+	[Address(RVA = "0x5EC6570", Offset = "0x5EC5570", VA = "0x5EC6570")]
 	internal static int NewCapacity(int capacity)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000753")]
-	[Address(RVA = "0x2523FB0", Offset = "0x25225B0", VA = "0x182523FB0")]
+	[Address(RVA = "0x5EC6590", Offset = "0x5EC5590", VA = "0x5EC6590")]
 	private int NormalizedMinimumCapacity(int capacity)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000754")]
-	[Address(RVA = "0x2523EE0", Offset = "0x25224E0", VA = "0x182523EE0")]
+	[Address(RVA = "0x5EC66C0", Offset = "0x5EC56C0", VA = "0x5EC66C0")]
 	internal int NewRecordBase()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000755")]
-	[Address(RVA = "0x2523B40", Offset = "0x2522140", VA = "0x182523B40")]
+	[Address(RVA = "0x5EC6770", Offset = "0x5EC5770", VA = "0x5EC6770")]
 	internal void FreeRecord(ref int record)
 	{
 	}
 
 	[Token(Token = "0x6000756")]
-	[Address(RVA = "0x25236F0", Offset = "0x2521CF0", VA = "0x1825236F0")]
+	[Address(RVA = "0x5EC6940", Offset = "0x5EC5940", VA = "0x5EC6940")]
 	internal void Clear(bool clearAll)
 	{
 	}
 
 	[Token(Token = "0x6000759")]
-	[Address(RVA = "0x2523EB0", Offset = "0x25224B0", VA = "0x182523EB0")]
+	[Address(RVA = "0x5EC6BA0", Offset = "0x5EC5BA0", VA = "0x5EC6BA0")]
 	internal int ImportRecord(DataTable src, int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600075A")]
-	[Address(RVA = "0x2523900", Offset = "0x2521F00", VA = "0x182523900")]
+	[Address(RVA = "0x5EC6BB0", Offset = "0x5EC5BB0", VA = "0x5EC6BB0")]
 	internal int CopyRecord(DataTable src, int record, int copy)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600075B")]
-	[Address(RVA = "0x2523FF0", Offset = "0x25225F0", VA = "0x182523FF0")]
+	[Address(RVA = "0x5EC6F50", Offset = "0x5EC5F50", VA = "0x5EC6F50")]
 	internal void SetRowCache(DataRow[] newRows)
 	{
 	}

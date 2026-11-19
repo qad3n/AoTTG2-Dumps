@@ -11,69 +11,69 @@ using UnityEngine;
 
 namespace Weather;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000034")]
 internal class ThunderWeatherEffect : BaseWeatherEffect
 {
-	[Token(Token = "0x400010A")]
+	[Token(Token = "0x4000111")]
 	[FieldOffset(Offset = "0x0")]
 	public static List<List<LightningParticle>> LightningPool;
 
-	[Token(Token = "0x400010B")]
-	[FieldOffset(Offset = "0x70")]
+	[Token(Token = "0x4000112")]
+	[FieldOffset(Offset = "0x6C")]
 	protected float _lightningWaitTime;
 
-	[Token(Token = "0x400010C")]
+	[Token(Token = "0x4000113")]
 	private const int MaxLightningParticles = 4;
 
-	[Token(Token = "0x17000024")]
+	[Token(Token = "0x1700001D")]
 	protected override Vector3 _positionOffset
 	{
-		[Token(Token = "0x600016A")]
-		[Address(RVA = "0x1DA1240", Offset = "0x1D9F840", VA = "0x181DA1240", Slot = "4")]
+		[Token(Token = "0x600016F")]
+		[Address(RVA = "0x57568E0", Offset = "0x57558E0", VA = "0x57568E0", Slot = "4")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x1DAF9B0", Offset = "0x1DADFB0", VA = "0x181DAF9B0")]
+	[Token(Token = "0x6000170")]
+	[Address(RVA = "0x5756930", Offset = "0x5755930", VA = "0x5756930")]
 	public static void OnFinishInit()
 	{
 	}
 
-	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
+	[Token(Token = "0x6000171")]
+	[Address(RVA = "0x5756F60", Offset = "0x5755F60", VA = "0x5756F60", Slot = "8")]
 	public override void Randomize()
 	{
 	}
 
-	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x1DAE3A0", Offset = "0x1DAC9A0", VA = "0x181DAE3A0", Slot = "11")]
+	[Token(Token = "0x6000172")]
+	[Address(RVA = "0x5756F70", Offset = "0x5755F70", VA = "0x5756F70", Slot = "11")]
 	public override void Setup(Transform parent)
 	{
 	}
 
-	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x1DAFED0", Offset = "0x1DAE4D0", VA = "0x181DAFED0", Slot = "10")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x5756F80", Offset = "0x5755F80", VA = "0x5756F80", Slot = "10")]
 	public override void SetLevel(float level)
 	{
 	}
 
-	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x1DAF930", Offset = "0x1DADF30", VA = "0x181DAF930")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x5756FC0", Offset = "0x5755FC0", VA = "0x5756FC0")]
 	protected void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x1DAF440", Offset = "0x1DADA40", VA = "0x181DAF440")]
+	[Token(Token = "0x6000175")]
+	[Address(RVA = "0x5757040", Offset = "0x5756040", VA = "0x5757040")]
 	protected void CreateLightning()
 	{
 	}
 
-	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x1DAFFB0", Offset = "0x1DAE5B0", VA = "0x181DAFFB0")]
+	[Token(Token = "0x6000176")]
+	[Address(RVA = "0x5757560", Offset = "0x5756560", VA = "0x5757560")]
 	public ThunderWeatherEffect()
 	{
 	}

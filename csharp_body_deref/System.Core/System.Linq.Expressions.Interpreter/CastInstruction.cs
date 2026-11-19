@@ -9,189 +9,189 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x200023C")]
+[Token(Token = "0x200023D")]
 internal abstract class CastInstruction : Instruction
 {
-	[Token(Token = "0x200023D")]
+	[Token(Token = "0x200023E")]
 	private sealed class CastInstructionT<T> : CastInstruction
 	{
-		[Token(Token = "0x6000B15")]
+		[Token(Token = "0x6000B20")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000B16")]
+		[Token(Token = "0x6000B21")]
 		public CastInstructionT()
 		{
 		}
 	}
 
-	[Token(Token = "0x200023E")]
+	[Token(Token = "0x200023F")]
 	private abstract class CastInstructionNoT : CastInstruction
 	{
-		[Token(Token = "0x200023F")]
+		[Token(Token = "0x2000240")]
 		private sealed class Ref : CastInstructionNoT
 		{
-			[Token(Token = "0x6000B1B")]
-			[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+			[Token(Token = "0x6000B26")]
+			[Address(RVA = "0x5E1B2C0", Offset = "0x5E1A2C0", VA = "0x5E1B2C0")]
 			public Ref(Type t)
 			{
 			}
 
-			[Token(Token = "0x6000B1C")]
-			[Address(RVA = "0x247D1A0", Offset = "0x247B7A0", VA = "0x18247D1A0", Slot = "11")]
+			[Token(Token = "0x6000B27")]
+			[Address(RVA = "0x5E1B440", Offset = "0x5E1A440", VA = "0x5E1B440", Slot = "11")]
 			protected override void ConvertNull(InterpretedFrame frame)
 			{
 			}
 		}
 
-		[Token(Token = "0x2000240")]
+		[Token(Token = "0x2000241")]
 		private sealed class Value : CastInstructionNoT
 		{
-			[Token(Token = "0x6000B1D")]
-			[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+			[Token(Token = "0x6000B28")]
+			[Address(RVA = "0x5E1B290", Offset = "0x5E1A290", VA = "0x5E1B290")]
 			public Value(Type t)
 			{
 			}
 
-			[Token(Token = "0x6000B1E")]
-			[Address(RVA = "0x2482D10", Offset = "0x2481310", VA = "0x182482D10", Slot = "11")]
+			[Token(Token = "0x6000B29")]
+			[Address(RVA = "0x5E1B460", Offset = "0x5E1A460", VA = "0x5E1B460", Slot = "11")]
 			protected override void ConvertNull(InterpretedFrame frame)
 			{
 			}
 		}
 
-		[Token(Token = "0x4000422")]
+		[Token(Token = "0x400042B")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly Type _t;
 
-		[Token(Token = "0x6000B17")]
-		[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+		[Token(Token = "0x6000B22")]
+		[Address(RVA = "0x5E1B260", Offset = "0x5E1A260", VA = "0x5E1B260")]
 		protected CastInstructionNoT(Type t)
 		{
 		}
 
-		[Token(Token = "0x6000B18")]
-		[Address(RVA = "0x24672B0", Offset = "0x24658B0", VA = "0x1824672B0")]
+		[Token(Token = "0x6000B23")]
+		[Address(RVA = "0x5E1B190", Offset = "0x5E1A190", VA = "0x5E1B190")]
 		public new static CastInstruction Create(Type t)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B19")]
-		[Address(RVA = "0x2467370", Offset = "0x2465970", VA = "0x182467370", Slot = "8")]
+		[Token(Token = "0x6000B24")]
+		[Address(RVA = "0x5E1B2F0", Offset = "0x5E1A2F0", VA = "0x5E1B2F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000B1A")]
+		[Token(Token = "0x6000B25")]
 		protected abstract void ConvertNull(InterpretedFrame frame);
 	}
 
-	[Token(Token = "0x4000413")]
+	[Token(Token = "0x400041C")]
 	[FieldOffset(Offset = "0x0")]
 	private static CastInstruction s_Boolean;
 
-	[Token(Token = "0x4000414")]
+	[Token(Token = "0x400041D")]
 	[FieldOffset(Offset = "0x8")]
 	private static CastInstruction s_Byte;
 
-	[Token(Token = "0x4000415")]
+	[Token(Token = "0x400041E")]
 	[FieldOffset(Offset = "0x10")]
 	private static CastInstruction s_Char;
 
-	[Token(Token = "0x4000416")]
+	[Token(Token = "0x400041F")]
 	[FieldOffset(Offset = "0x18")]
 	private static CastInstruction s_DateTime;
 
-	[Token(Token = "0x4000417")]
+	[Token(Token = "0x4000420")]
 	[FieldOffset(Offset = "0x20")]
 	private static CastInstruction s_Decimal;
 
-	[Token(Token = "0x4000418")]
+	[Token(Token = "0x4000421")]
 	[FieldOffset(Offset = "0x28")]
 	private static CastInstruction s_Double;
 
-	[Token(Token = "0x4000419")]
+	[Token(Token = "0x4000422")]
 	[FieldOffset(Offset = "0x30")]
 	private static CastInstruction s_Int16;
 
-	[Token(Token = "0x400041A")]
+	[Token(Token = "0x4000423")]
 	[FieldOffset(Offset = "0x38")]
 	private static CastInstruction s_Int32;
 
-	[Token(Token = "0x400041B")]
+	[Token(Token = "0x4000424")]
 	[FieldOffset(Offset = "0x40")]
 	private static CastInstruction s_Int64;
 
-	[Token(Token = "0x400041C")]
+	[Token(Token = "0x4000425")]
 	[FieldOffset(Offset = "0x48")]
 	private static CastInstruction s_SByte;
 
-	[Token(Token = "0x400041D")]
+	[Token(Token = "0x4000426")]
 	[FieldOffset(Offset = "0x50")]
 	private static CastInstruction s_Single;
 
-	[Token(Token = "0x400041E")]
+	[Token(Token = "0x4000427")]
 	[FieldOffset(Offset = "0x58")]
 	private static CastInstruction s_String;
 
-	[Token(Token = "0x400041F")]
+	[Token(Token = "0x4000428")]
 	[FieldOffset(Offset = "0x60")]
 	private static CastInstruction s_UInt16;
 
-	[Token(Token = "0x4000420")]
+	[Token(Token = "0x4000429")]
 	[FieldOffset(Offset = "0x68")]
 	private static CastInstruction s_UInt32;
 
-	[Token(Token = "0x4000421")]
+	[Token(Token = "0x400042A")]
 	[FieldOffset(Offset = "0x70")]
 	private static CastInstruction s_UInt64;
 
-	[Token(Token = "0x17000245")]
+	[Token(Token = "0x17000247")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000B10")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
+		[Token(Token = "0x6000B1B")]
+		[Address(RVA = "0x5E1AA10", Offset = "0x5E19A10", VA = "0x5E1AA10", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000246")]
+	[Token(Token = "0x17000248")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000B11")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000B1C")]
+		[Address(RVA = "0x5E1AA20", Offset = "0x5E19A20", VA = "0x5E1AA20", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000247")]
+	[Token(Token = "0x17000249")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000B12")]
-		[Address(RVA = "0x2467DA0", Offset = "0x24663A0", VA = "0x182467DA0", Slot = "9")]
+		[Token(Token = "0x6000B1D")]
+		[Address(RVA = "0x5E1AA30", Offset = "0x5E19A30", VA = "0x5E1AA30", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B13")]
-	[Address(RVA = "0x2467510", Offset = "0x2465B10", VA = "0x182467510")]
+	[Token(Token = "0x6000B1E")]
+	[Address(RVA = "0x5E1AA60", Offset = "0x5E19A60", VA = "0x5E1AA60")]
 	public static Instruction Create(Type t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000B1F")]
+	[Address(RVA = "0x5E1B250", Offset = "0x5E1A250", VA = "0x5E1B250")]
 	protected CastInstruction()
 	{
 	}

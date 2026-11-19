@@ -55,7 +55,7 @@ public sealed class SqlXml : INullable, IXmlSerializable
 	private static MethodInfo CreateSqlReaderMethodInfo
 	{
 		[Token(Token = "0x6000AFE")]
-		[Address(RVA = "0x257E7D0", Offset = "0x257CDD0", VA = "0x18257E7D0")]
+		[Address(RVA = "0x5F20ED0", Offset = "0x5F1FED0", VA = "0x5F20ED0")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ public sealed class SqlXml : INullable, IXmlSerializable
 	public bool IsNull
 	{
 		[Token(Token = "0x6000AFF")]
-		[Address(RVA = "0x257C290", Offset = "0x257A890", VA = "0x18257C290", Slot = "4")]
+		[Address(RVA = "0x5F20E50", Offset = "0x5F1FE50", VA = "0x5F20E50", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -74,59 +74,59 @@ public sealed class SqlXml : INullable, IXmlSerializable
 	}
 
 	[Token(Token = "0x6000AFA")]
-	[Address(RVA = "0x257E790", Offset = "0x257CD90", VA = "0x18257E790")]
+	[Address(RVA = "0x5F20C50", Offset = "0x5F1FC50", VA = "0x5F20C50")]
 	public SqlXml()
 	{
 	}
 
 	[Token(Token = "0x6000AFB")]
-	[Address(RVA = "0x257DDB0", Offset = "0x257C3B0", VA = "0x18257DDB0")]
+	[Address(RVA = "0x5F20CB0", Offset = "0x5F1FCB0", VA = "0x5F20CB0")]
 	public XmlReader CreateReader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AFC")]
-	[Address(RVA = "0x257E060", Offset = "0x257C660", VA = "0x18257E060")]
+	[Address(RVA = "0x5F20FF0", Offset = "0x5F1FFF0", VA = "0x5F20FF0")]
 	internal static XmlReader CreateSqlXmlReader(Stream stream, bool closeInput = false, bool throwTargetInvocationExceptions = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AFD")]
-	[Address(RVA = "0x257DF80", Offset = "0x257C580", VA = "0x18257DF80")]
+	[Address(RVA = "0x5F211B0", Offset = "0x5F201B0", VA = "0x5F211B0")]
 	private static Func<Stream, XmlReaderSettings, XmlParserContext, XmlReader> CreateSqlReaderDelegate()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B00")]
-	[Address(RVA = "0x257E240", Offset = "0x257C840", VA = "0x18257E240")]
+	[Address(RVA = "0x5F20C80", Offset = "0x5F1FC80", VA = "0x5F20C80")]
 	private void SetNull()
 	{
 	}
 
 	[Token(Token = "0x6000B01")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Address(RVA = "0x5F212A0", Offset = "0x5F202A0", VA = "0x5F212A0", Slot = "5")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B02")]
-	[Address(RVA = "0x257E270", Offset = "0x257C870", VA = "0x18257E270", Slot = "6")]
+	[Address(RVA = "0x5F212B0", Offset = "0x5F202B0", VA = "0x5F212B0", Slot = "6")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader r)
 	{
 	}
 
 	[Token(Token = "0x6000B03")]
-	[Address(RVA = "0x257E450", Offset = "0x257CA50", VA = "0x18257E450", Slot = "7")]
+	[Address(RVA = "0x5F214A0", Offset = "0x5F204A0", VA = "0x5F214A0", Slot = "7")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000B04")]
-	[Address(RVA = "0x257E1D0", Offset = "0x257C7D0", VA = "0x18257E1D0")]
+	[Address(RVA = "0x5F21600", Offset = "0x5F20600", VA = "0x5F21600")]
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
 	{
 		return null;

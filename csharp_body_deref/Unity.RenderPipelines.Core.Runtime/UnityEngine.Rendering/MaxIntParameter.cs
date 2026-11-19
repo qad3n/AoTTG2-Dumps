@@ -18,27 +18,27 @@ public class MaxIntParameter : IntParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x4000993")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public int max;
 
 	[Token(Token = "0x170001EE")]
 	public override int value
 	{
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
+		[Address(RVA = "0x6555660", Offset = "0x6554660", VA = "0x6555660", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000F24")]
-		[Address(RVA = "0x2B5E390", Offset = "0x2B5C990", VA = "0x182B5E390", Slot = "15")]
+		[Address(RVA = "0x6555670", Offset = "0x6554670", VA = "0x6555670", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F25")]
-	[Address(RVA = "0x2B5E330", Offset = "0x2B5C930", VA = "0x182B5E330")]
+	[Address(RVA = "0x6555680", Offset = "0x6554680", VA = "0x6555680")]
 	public MaxIntParameter(int value, int max, bool overrideState = false)
 	{
 	}

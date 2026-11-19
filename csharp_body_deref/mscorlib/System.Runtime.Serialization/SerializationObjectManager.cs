@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x2000407")]
+[Token(Token = "0x20003E0")]
 public sealed class SerializationObjectManager
 {
-	[Token(Token = "0x4000FE0")]
+	[Token(Token = "0x4000F40")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Dictionary<object, object> _objectSeenTable;
 
-	[Token(Token = "0x4000FE1")]
+	[Token(Token = "0x4000F41")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly StreamingContext _context;
 
-	[Token(Token = "0x4000FE2")]
+	[Token(Token = "0x4000F42")]
 	[FieldOffset(Offset = "0x28")]
 	private SerializationEventHandler _onSerializedHandler;
 
-	[Token(Token = "0x6001FCA")]
-	[Address(RVA = "0x1A220B0", Offset = "0x1A206B0", VA = "0x181A220B0")]
+	[Token(Token = "0x6001FA0")]
+	[Address(RVA = "0x539C760", Offset = "0x539B760", VA = "0x539C760")]
 	public SerializationObjectManager(StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001FCB")]
-	[Address(RVA = "0x1A21F10", Offset = "0x1A20510", VA = "0x181A21F10")]
+	[Token(Token = "0x6001FA1")]
+	[Address(RVA = "0x539C7F0", Offset = "0x539B7F0", VA = "0x539C7F0")]
 	public void RegisterObject(object obj)
 	{
 	}
 
-	[Token(Token = "0x6001FCC")]
-	[Address(RVA = "0x1A21EE0", Offset = "0x1A204E0", VA = "0x181A21EE0")]
+	[Token(Token = "0x6001FA2")]
+	[Address(RVA = "0x539C9B0", Offset = "0x539B9B0", VA = "0x539C9B0")]
 	public void RaiseOnSerializedEvent()
 	{
 	}
 
-	[Token(Token = "0x6001FCD")]
-	[Address(RVA = "0x1A21E40", Offset = "0x1A20440", VA = "0x181A21E40")]
+	[Token(Token = "0x6001FA3")]
+	[Address(RVA = "0x539C910", Offset = "0x539B910", VA = "0x539C910")]
 	private void AddOnSerialized(object obj)
 	{
 	}

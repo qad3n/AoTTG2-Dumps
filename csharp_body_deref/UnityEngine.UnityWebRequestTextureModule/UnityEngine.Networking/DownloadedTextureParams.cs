@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Networking.DownloadedTextureParams
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -24,7 +24,7 @@ public struct DownloadedTextureParams
 	public static DownloadedTextureParams Default
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x330F900", Offset = "0x330DF00", VA = "0x18330F900")]
+		[Address(RVA = "0x6D1F7B0", Offset = "0x6D1E7B0", VA = "0x6D1F7B0")]
 		get
 		{
 			return default(DownloadedTextureParams);
@@ -35,14 +35,24 @@ public struct DownloadedTextureParams
 	public bool readable
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x330F920", Offset = "0x330DF20", VA = "0x18330F920")]
+		[Address(RVA = "0x6D1F7C0", Offset = "0x6D1E7C0", VA = "0x6D1F7C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x28CBD50", Offset = "0x28CA350", VA = "0x1828CBD50")]
+	[Token(Token = "0x17000003")]
+	public bool mipmapChain
+	{
+		[Token(Token = "0x6000003")]
+		[Address(RVA = "0x6D1F7F0", Offset = "0x6D1E7F0", VA = "0x6D1F7F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6000004")]
+	[Address(RVA = "0x6D1F7D0", Offset = "0x6D1E7D0", VA = "0x6D1F7D0")]
 	private void SetFlags(DownloadedTextureFlags flgs, bool add)
 	{
 	}

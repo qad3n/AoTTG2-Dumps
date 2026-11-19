@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.SweepLineRectUtils
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ public static class SweepLineRectUtils
 	private struct EventComparer : IComparer<Vector4>
 	{
 		[Token(Token = "0x6000E98")]
-		[Address(RVA = "0x2B58010", Offset = "0x2B56610", VA = "0x182B58010", Slot = "4")]
+		[Address(RVA = "0x654FD60", Offset = "0x654ED60", VA = "0x654FD60", Slot = "4")]
 		public int Compare(Vector4 a, Vector4 b)
 		{
 			return default(int);
@@ -28,7 +28,7 @@ public static class SweepLineRectUtils
 	private struct ActiveComparer : IComparer<Vector2>
 	{
 		[Token(Token = "0x6000E99")]
-		[Address(RVA = "0x2B4FAF0", Offset = "0x2B4E0F0", VA = "0x182B4FAF0", Slot = "4")]
+		[Address(RVA = "0x654FDB0", Offset = "0x654EDB0", VA = "0x654FDB0", Slot = "4")]
 		public int Compare(Vector2 a, Vector2 b)
 		{
 			return default(int);
@@ -44,28 +44,28 @@ public static class SweepLineRectUtils
 	private static Vector2[] s_ActiveBuffer;
 
 	[Token(Token = "0x6000E93")]
-	[Address(RVA = "0x2B61CC0", Offset = "0x2B602C0", VA = "0x182B61CC0")]
+	[Address(RVA = "0x65479C0", Offset = "0x65469C0", VA = "0x65479C0")]
 	public static float CalculateRectUnionArea(List<Rect> rects)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000E94")]
-	[Address(RVA = "0x2B62130", Offset = "0x2B60730", VA = "0x182B62130")]
+	[Address(RVA = "0x654FC10", Offset = "0x654EC10", VA = "0x654FC10")]
 	private static float MergeLengthY(Vector2[] activeBuffer, int count)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000E95")]
-	[Address(RVA = "0x2B61980", Offset = "0x2B5FF80", VA = "0x182B61980")]
+	[Address(RVA = "0x654F600", Offset = "0x654E600", VA = "0x654F600")]
 	private static float CalculateRectUnionArea(Vector4[] eventsBuffer, Vector2[] activeBuffer, int eventCount)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000E96")]
-	[Address(RVA = "0x2B61FA0", Offset = "0x2B605A0", VA = "0x182B61FA0")]
+	[Address(RVA = "0x654F470", Offset = "0x654E470", VA = "0x654F470")]
 	private static void InsertEvents(in Rect rect, Vector4[] eventsBuffer, ref int eventCount)
 	{
 	}

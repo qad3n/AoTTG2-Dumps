@@ -20,7 +20,7 @@ public class JsonSerializationException : JsonException
 	public int LineNumber
 	{
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
+		[Address(RVA = "0x5563010", Offset = "0x5562010", VA = "0x5563010")]
 		[CompilerGenerated]
 		get
 		{
@@ -32,7 +32,7 @@ public class JsonSerializationException : JsonException
 	public int LinePosition
 	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0xB5B910", Offset = "0xB59F10", VA = "0x180B5B910")]
+		[Address(RVA = "0x5563020", Offset = "0x5562020", VA = "0x5563020")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,7 +44,7 @@ public class JsonSerializationException : JsonException
 	public string? Path
 	{
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
+		[Address(RVA = "0x5563030", Offset = "0x5562030", VA = "0x5563030")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,51 +53,51 @@ public class JsonSerializationException : JsonException
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x1BCD1B0", Offset = "0x1BCB7B0", VA = "0x181BCD1B0")]
+	[Address(RVA = "0x5563040", Offset = "0x5562040", VA = "0x5563040")]
 	public JsonSerializationException()
 	{
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x1BCD200", Offset = "0x1BCB800", VA = "0x181BCD200")]
+	[Address(RVA = "0x55630B0", Offset = "0x55620B0", VA = "0x55630B0")]
 	public JsonSerializationException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x1BCD260", Offset = "0x1BCB860", VA = "0x181BCD260")]
+	[Address(RVA = "0x5563110", Offset = "0x5562110", VA = "0x5563110")]
 	public JsonSerializationException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x1BCD2D0", Offset = "0x1BCB8D0", VA = "0x181BCD2D0")]
+	[Address(RVA = "0x5563170", Offset = "0x5562170", VA = "0x5563170")]
 	public JsonSerializationException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x1BCE9E0", Offset = "0x1BCCFE0", VA = "0x181BCE9E0")]
+	[Address(RVA = "0x55631E0", Offset = "0x55621E0", VA = "0x55631E0")]
 	public JsonSerializationException(string message, string path, int lineNumber, int linePosition, Exception? innerException)
 	{
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x1BD40C0", Offset = "0x1BD26C0", VA = "0x181BD40C0")]
+	[Address(RVA = "0x555A0A0", Offset = "0x55590A0", VA = "0x555A0A0")]
 	internal static JsonSerializationException Create(JsonReader reader, string message)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x1BD4270", Offset = "0x1BD2870", VA = "0x181BD4270")]
+	[Address(RVA = "0x5563280", Offset = "0x5562280", VA = "0x5563280")]
 	internal static JsonSerializationException Create(JsonReader reader, string message, Exception? ex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x1BD4420", Offset = "0x1BD2A20", VA = "0x181BD4420")]
+	[Address(RVA = "0x5563300", Offset = "0x5562300", VA = "0x5563300")]
 	internal static JsonSerializationException Create(IJsonLineInfo? lineInfo, string path, string message, Exception? ex)
 	{
 		return null;

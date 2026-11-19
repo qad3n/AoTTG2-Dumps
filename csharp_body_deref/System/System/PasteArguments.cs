@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x2000076")]
 internal static class PasteArguments
 {
-	[Token(Token = "0x600035F")]
-	[Address(RVA = "0x2840BC0", Offset = "0x283F1C0", VA = "0x182840BC0")]
+	[Token(Token = "0x60001AB")]
+	[Address(RVA = "0x61D3AF0", Offset = "0x61D2AF0", VA = "0x61D3AF0")]
 	internal static void AppendArgument(StringBuilder stringBuilder, string argument)
 	{
 	}
 
-	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x2840DA0", Offset = "0x283F3A0", VA = "0x182840DA0")]
+	[Token(Token = "0x60001AC")]
+	[Address(RVA = "0x61D3D10", Offset = "0x61D2D10", VA = "0x61D3D10")]
 	private static bool ContainsNoWhitespaceOrQuotes(string s)
 	{
 		return default(bool);

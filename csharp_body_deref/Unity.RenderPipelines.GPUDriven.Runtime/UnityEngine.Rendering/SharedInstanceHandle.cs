@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.SharedInstanceHandle
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -22,14 +22,14 @@ internal struct SharedInstanceHandle : IEquatable<SharedInstanceHandle>, ICompar
 	public int index
 	{
 		[Token(Token = "0x60001F3")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x65D35C0", Offset = "0x65D25C0", VA = "0x65D35C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x65D35D0", Offset = "0x65D25D0", VA = "0x65D35D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -40,7 +40,7 @@ internal struct SharedInstanceHandle : IEquatable<SharedInstanceHandle>, ICompar
 	public bool valid
 	{
 		[Token(Token = "0x60001F5")]
-		[Address(RVA = "0x2BEADA0", Offset = "0x2BE93A0", VA = "0x182BEADA0")]
+		[Address(RVA = "0x65D35E0", Offset = "0x65D25E0", VA = "0x65D35E0")]
 		get
 		{
 			return default(bool);
@@ -48,21 +48,21 @@ internal struct SharedInstanceHandle : IEquatable<SharedInstanceHandle>, ICompar
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x2BEACC0", Offset = "0x2BE92C0", VA = "0x182BEACC0", Slot = "4")]
+	[Address(RVA = "0x65D3640", Offset = "0x65D2640", VA = "0x65D3640", Slot = "4")]
 	public bool Equals(SharedInstanceHandle other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x2BEAC50", Offset = "0x2BE9250", VA = "0x182BEAC50", Slot = "5")]
+	[Address(RVA = "0x65D3690", Offset = "0x65D2690", VA = "0x65D3690", Slot = "5")]
 	public int CompareTo(SharedInstanceHandle other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x2BEAD10", Offset = "0x2BE9310", VA = "0x182BEAD10", Slot = "2")]
+	[Address(RVA = "0x65D36F0", Offset = "0x65D26F0", VA = "0x65D36F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

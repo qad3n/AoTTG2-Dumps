@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20003B1")]
+[Token(Token = "0x2000385")]
 public class InvalidImportException : Exception
 {
 }

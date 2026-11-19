@@ -10,49 +10,49 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20005D9")]
+[Token(Token = "0x20005C4")]
 internal struct TextCoreSettings : IEquatable<TextCoreSettings>
 {
-	[Token(Token = "0x40015B2")]
+	[Token(Token = "0x40014F4")]
 	[FieldOffset(Offset = "0x0")]
 	public Color faceColor;
 
-	[Token(Token = "0x40015B3")]
+	[Token(Token = "0x40014F5")]
 	[FieldOffset(Offset = "0x10")]
 	public Color outlineColor;
 
-	[Token(Token = "0x40015B4")]
+	[Token(Token = "0x40014F6")]
 	[FieldOffset(Offset = "0x20")]
 	public float outlineWidth;
 
-	[Token(Token = "0x40015B5")]
+	[Token(Token = "0x40014F7")]
 	[FieldOffset(Offset = "0x24")]
 	public Color underlayColor;
 
-	[Token(Token = "0x40015B6")]
+	[Token(Token = "0x40014F8")]
 	[FieldOffset(Offset = "0x34")]
 	public Vector2 underlayOffset;
 
-	[Token(Token = "0x40015B7")]
+	[Token(Token = "0x40014F9")]
 	[FieldOffset(Offset = "0x3C")]
 	public float underlaySoftness;
 
-	[Token(Token = "0x6002B64")]
-	[Address(RVA = "0x31B0F30", Offset = "0x31AF530", VA = "0x1831B0F30", Slot = "0")]
+	[Token(Token = "0x6002B03")]
+	[Address(RVA = "0x6BAAD40", Offset = "0x6BA9D40", VA = "0x6BAAD40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B65")]
-	[Address(RVA = "0x31B0FE0", Offset = "0x31AF5E0", VA = "0x1831B0FE0", Slot = "4")]
+	[Token(Token = "0x6002B04")]
+	[Address(RVA = "0x6BAAEA0", Offset = "0x6BA9EA0", VA = "0x6BAAEA0", Slot = "4")]
 	public bool Equals(TextCoreSettings other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B66")]
-	[Address(RVA = "0x31B1120", Offset = "0x31AF720", VA = "0x1831B1120", Slot = "2")]
+	[Token(Token = "0x6002B05")]
+	[Address(RVA = "0x6BAAFB0", Offset = "0x6BA9FB0", VA = "0x6BAAFB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

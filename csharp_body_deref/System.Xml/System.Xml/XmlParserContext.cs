@@ -57,7 +57,7 @@ public class XmlParserContext
 	public XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x60A46C0", Offset = "0x60A36C0", VA = "0x60A46C0")]
 		get
 		{
 			return null;
@@ -68,7 +68,7 @@ public class XmlParserContext
 	public XmlNamespaceManager NamespaceManager
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x60A46D0", Offset = "0x60A36D0", VA = "0x60A46D0")]
 		get
 		{
 			return null;
@@ -79,7 +79,7 @@ public class XmlParserContext
 	public string DocTypeName
 	{
 		[Token(Token = "0x6000306")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x60A46E0", Offset = "0x60A36E0", VA = "0x60A46E0")]
 		get
 		{
 			return null;
@@ -90,7 +90,7 @@ public class XmlParserContext
 	public string PublicId
 	{
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x60A46F0", Offset = "0x60A36F0", VA = "0x60A46F0")]
 		get
 		{
 			return null;
@@ -101,7 +101,7 @@ public class XmlParserContext
 	public string SystemId
 	{
 		[Token(Token = "0x6000308")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x60A4700", Offset = "0x60A3700", VA = "0x60A4700")]
 		get
 		{
 			return null;
@@ -112,7 +112,7 @@ public class XmlParserContext
 	public string BaseURI
 	{
 		[Token(Token = "0x6000309")]
-		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
+		[Address(RVA = "0x60A4710", Offset = "0x60A3710", VA = "0x60A4710")]
 		get
 		{
 			return null;
@@ -123,7 +123,7 @@ public class XmlParserContext
 	public string InternalSubset
 	{
 		[Token(Token = "0x600030A")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x60A4720", Offset = "0x60A3720", VA = "0x60A4720")]
 		get
 		{
 			return null;
@@ -134,7 +134,7 @@ public class XmlParserContext
 	public string XmlLang
 	{
 		[Token(Token = "0x600030B")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Address(RVA = "0x60A4730", Offset = "0x60A3730", VA = "0x60A4730")]
 		get
 		{
 			return null;
@@ -145,7 +145,7 @@ public class XmlParserContext
 	public XmlSpace XmlSpace
 	{
 		[Token(Token = "0x600030C")]
-		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
+		[Address(RVA = "0x60A4740", Offset = "0x60A3740", VA = "0x60A4740")]
 		get
 		{
 			return default(XmlSpace);
@@ -156,7 +156,7 @@ public class XmlParserContext
 	public Encoding Encoding
 	{
 		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		[Address(RVA = "0x60A4750", Offset = "0x60A3750", VA = "0x60A4750")]
 		get
 		{
 			return null;
@@ -167,7 +167,7 @@ public class XmlParserContext
 	internal bool HasDtdInfo
 	{
 		[Token(Token = "0x600030E")]
-		[Address(RVA = "0x26ECC80", Offset = "0x26EB280", VA = "0x1826ECC80")]
+		[Address(RVA = "0x60A4760", Offset = "0x60A3760", VA = "0x60A4760")]
 		get
 		{
 			return default(bool);
@@ -175,19 +175,19 @@ public class XmlParserContext
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x26EC900", Offset = "0x26EAF00", VA = "0x1826EC900")]
+	[Address(RVA = "0x60A4320", Offset = "0x60A3320", VA = "0x60A4320")]
 	public XmlParserContext(XmlNameTable nt, XmlNamespaceManager nsMgr, string xmlLang, XmlSpace xmlSpace)
 	{
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x26EC960", Offset = "0x26EAF60", VA = "0x1826EC960")]
+	[Address(RVA = "0x60A4360", Offset = "0x60A3360", VA = "0x60A4360")]
 	public XmlParserContext(XmlNameTable nt, XmlNamespaceManager nsMgr, string docTypeName, string pubId, string sysId, string internalSubset, string baseURI, string xmlLang, XmlSpace xmlSpace)
 	{
 	}
 
 	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x26EC9D0", Offset = "0x26EAFD0", VA = "0x1826EC9D0")]
+	[Address(RVA = "0x60A43A0", Offset = "0x60A33A0", VA = "0x60A43A0")]
 	public XmlParserContext(XmlNameTable nt, XmlNamespaceManager nsMgr, string docTypeName, string pubId, string sysId, string internalSubset, string baseURI, string xmlLang, XmlSpace xmlSpace, Encoding enc)
 	{
 	}

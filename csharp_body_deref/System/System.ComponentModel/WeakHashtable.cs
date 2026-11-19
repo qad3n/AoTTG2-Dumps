@@ -10,99 +10,99 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200022B")]
+[Token(Token = "0x20001EC")]
 internal sealed class WeakHashtable : Hashtable
 {
-	[Token(Token = "0x200022C")]
+	[Token(Token = "0x20001ED")]
 	private class WeakKeyComparer : IEqualityComparer
 	{
-		[Token(Token = "0x6000F49")]
-		[Address(RVA = "0x28E97D0", Offset = "0x28E7DD0", VA = "0x1828E97D0", Slot = "4")]
+		[Token(Token = "0x6000D89")]
+		[Address(RVA = "0x627C690", Offset = "0x627B690", VA = "0x627C690", Slot = "4")]
 		private bool System_002ECollections_002EIEqualityComparer_002EEquals(object x, object y)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000F4A")]
-		[Address(RVA = "0x28E9960", Offset = "0x28E7F60", VA = "0x1828E9960", Slot = "5")]
+		[Token(Token = "0x6000D8A")]
+		[Address(RVA = "0x627C7F0", Offset = "0x627B7F0", VA = "0x627C7F0", Slot = "5")]
 		private int System_002ECollections_002EIEqualityComparer_002EGetHashCode(object obj)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000F4B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x6000D8B")]
+		[Address(RVA = "0x627C680", Offset = "0x627B680", VA = "0x627C680")]
 		public WeakKeyComparer()
 		{
 		}
 	}
 
-	[Token(Token = "0x200022D")]
+	[Token(Token = "0x20001EE")]
 	private sealed class EqualityWeakReference : WeakReference
 	{
-		[Token(Token = "0x400080B")]
+		[Token(Token = "0x400073C")]
 		[FieldOffset(Offset = "0x20")]
 		private int _hashCode;
 
-		[Token(Token = "0x6000F4C")]
-		[Address(RVA = "0x28D39A0", Offset = "0x28D1FA0", VA = "0x1828D39A0")]
+		[Token(Token = "0x6000D8C")]
+		[Address(RVA = "0x627C5D0", Offset = "0x627B5D0", VA = "0x627C5D0")]
 		internal EqualityWeakReference(object o)
 		{
 		}
 
-		[Token(Token = "0x6000F4D")]
-		[Address(RVA = "0x28D3920", Offset = "0x28D1F20", VA = "0x1828D3920", Slot = "0")]
+		[Token(Token = "0x6000D8D")]
+		[Address(RVA = "0x627C820", Offset = "0x627B820", VA = "0x627C820", Slot = "0")]
 		public override bool Equals(object o)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000F4E")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "2")]
+		[Token(Token = "0x6000D8E")]
+		[Address(RVA = "0x627C890", Offset = "0x627B890", VA = "0x627C890", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x4000808")]
+	[Token(Token = "0x4000739")]
 	[FieldOffset(Offset = "0x0")]
 	private static IEqualityComparer _comparer;
 
-	[Token(Token = "0x4000809")]
+	[Token(Token = "0x400073A")]
 	[FieldOffset(Offset = "0x50")]
 	private long _lastGlobalMem;
 
-	[Token(Token = "0x400080A")]
+	[Token(Token = "0x400073B")]
 	[FieldOffset(Offset = "0x58")]
 	private int _lastHashCount;
 
-	[Token(Token = "0x6000F43")]
-	[Address(RVA = "0x28E9770", Offset = "0x28E7D70", VA = "0x1828E9770")]
+	[Token(Token = "0x6000D83")]
+	[Address(RVA = "0x6269F30", Offset = "0x6268F30", VA = "0x6269F30")]
 	internal WeakHashtable()
 	{
 	}
 
-	[Token(Token = "0x6000F44")]
-	[Address(RVA = "0x28E9210", Offset = "0x28E7810", VA = "0x1828E9210", Slot = "24")]
+	[Token(Token = "0x6000D84")]
+	[Address(RVA = "0x627BE70", Offset = "0x627AE70", VA = "0x627BE70", Slot = "24")]
 	public override void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000F45")]
-	[Address(RVA = "0x28E9220", Offset = "0x28E7820", VA = "0x1828E9220", Slot = "39")]
+	[Token(Token = "0x6000D85")]
+	[Address(RVA = "0x627BE80", Offset = "0x627AE80", VA = "0x627BE80", Slot = "39")]
 	public override void Remove(object key)
 	{
 	}
 
-	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x28E9650", Offset = "0x28E7C50", VA = "0x1828E9650")]
+	[Token(Token = "0x6000D86")]
+	[Address(RVA = "0x6268480", Offset = "0x6267480", VA = "0x6268480")]
 	public void SetWeak(object key, object value)
 	{
 	}
 
-	[Token(Token = "0x6000F47")]
-	[Address(RVA = "0x28E9230", Offset = "0x28E7830", VA = "0x1828E9230")]
+	[Token(Token = "0x6000D87")]
+	[Address(RVA = "0x627BE90", Offset = "0x627AE90", VA = "0x627BE90")]
 	private void ScavengeKeys()
 	{
 	}

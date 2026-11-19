@@ -12,193 +12,193 @@ using Unity.Mathematics;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20005C7")]
+[Token(Token = "0x2000626")]
 [CompilerGenerated]
 internal class CustomLogicRandomBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x20005C8")]
+	[Token(Token = "0x2000627")]
 	public static class Factory
 	{
-		[Token(Token = "0x600381F")]
-		[Address(RVA = "0x20AB200", Offset = "0x20A9800", VA = "0x1820AB200")]
+		[Token(Token = "0x6003AAB")]
+		[Address(RVA = "0x5A34EE0", Offset = "0x5A33EE0", VA = "0x5A34EE0")]
 		public static CustomLogicRandomBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20005C9")]
+	[Token(Token = "0x2000628")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40018DF")]
+		[Token(Token = "0x4001A7F")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6003820")]
-		[Address(RVA = "0x208ED90", Offset = "0x208D390", VA = "0x18208ED90")]
+		[Token(Token = "0x6003AAC")]
+		[Address(RVA = "0x5A350C0", Offset = "0x5A340C0", VA = "0x5A350C0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003821")]
-		[Address(RVA = "0x2098020", Offset = "0x2096620", VA = "0x182098020")]
+		[Token(Token = "0x6003AAD")]
+		[Address(RVA = "0x5A35440", Offset = "0x5A34440", VA = "0x5A35440")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomInt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003822")]
-		[Address(RVA = "0x2097F00", Offset = "0x2096500", VA = "0x182097F00")]
+		[Token(Token = "0x6003AAE")]
+		[Address(RVA = "0x5A35580", Offset = "0x5A34580", VA = "0x5A35580")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003823")]
-		[Address(RVA = "0x2097CC0", Offset = "0x20962C0", VA = "0x182097CC0")]
+		[Token(Token = "0x6003AAF")]
+		[Address(RVA = "0x5A356C0", Offset = "0x5A346C0", VA = "0x5A356C0")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomBool()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003824")]
-		[Address(RVA = "0x2098260", Offset = "0x2096860", VA = "0x182098260")]
+		[Token(Token = "0x6003AB0")]
+		[Address(RVA = "0x5A35800", Offset = "0x5A34800", VA = "0x5A35800")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomVector3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003825")]
-		[Address(RVA = "0x2097DE0", Offset = "0x20963E0", VA = "0x182097DE0")]
+		[Token(Token = "0x6003AB1")]
+		[Address(RVA = "0x5A35940", Offset = "0x5A34940", VA = "0x5A35940")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomDirection()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003826")]
-		[Address(RVA = "0x2098140", Offset = "0x2096740", VA = "0x182098140")]
+		[Token(Token = "0x6003AB2")]
+		[Address(RVA = "0x5A35A80", Offset = "0x5A34A80", VA = "0x5A35A80")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__RandomSign()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6003827")]
-		[Address(RVA = "0x2097820", Offset = "0x2095E20", VA = "0x182097820")]
+		[Token(Token = "0x6003AB3")]
+		[Address(RVA = "0x5A35BC0", Offset = "0x5A34BC0", VA = "0x5A35BC0")]
 		public static CLMethodBinding<CustomLogicRandomBuiltin> __CreateMethodBinding__PerlinNoise()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40018DD")]
+	[Token(Token = "0x4001A7D")]
 	[FieldOffset(Offset = "0x30")]
 	public Random Rand;
 
-	[Token(Token = "0x40018DE")]
+	[Token(Token = "0x4001A7E")]
 	[FieldOffset(Offset = "0x34")]
 	public readonly bool UseInstanceRandom;
 
-	[Token(Token = "0x17000A07")]
+	[Token(Token = "0x17000A4F")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600381B")]
-		[Address(RVA = "0x20AA5E0", Offset = "0x20A8BE0", VA = "0x1820AA5E0", Slot = "6")]
+		[Token(Token = "0x6003AA7")]
+		[Address(RVA = "0x5A34E80", Offset = "0x5A33E80", VA = "0x5A34E80", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000A08")]
+	[Token(Token = "0x17000A50")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600381C")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
+		[Token(Token = "0x6003AA8")]
+		[Address(RVA = "0x5A34EB0", Offset = "0x5A33EB0", VA = "0x5A34EB0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000A09")]
+	[Token(Token = "0x17000A51")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600381D")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
+		[Token(Token = "0x6003AA9")]
+		[Address(RVA = "0x5A34EC0", Offset = "0x5A33EC0", VA = "0x5A34EC0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000A0A")]
+	[Token(Token = "0x17000A52")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600381E")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003AAA")]
+		[Address(RVA = "0x5A34ED0", Offset = "0x5A33ED0", VA = "0x5A34ED0", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003812")]
-	[Address(RVA = "0x20AA590", Offset = "0x20A8B90", VA = "0x1820AA590")]
+	[Token(Token = "0x6003A9E")]
+	[Address(RVA = "0x5A347B0", Offset = "0x5A337B0", VA = "0x5A347B0")]
 	public CustomLogicRandomBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6003813")]
-	[Address(RVA = "0x20AA510", Offset = "0x20A8B10", VA = "0x1820AA510")]
+	[Token(Token = "0x6003A9F")]
+	[Address(RVA = "0x5A34820", Offset = "0x5A33820", VA = "0x5A34820")]
 	public CustomLogicRandomBuiltin(int seed)
 	{
 	}
 
-	[Token(Token = "0x6003814")]
-	[Address(RVA = "0x20AA2A0", Offset = "0x20A88A0", VA = "0x1820AA2A0")]
+	[Token(Token = "0x6003AA0")]
+	[Address(RVA = "0x5A34890", Offset = "0x5A33890", VA = "0x5A34890")]
 	public int RandomInt(int min, int max)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003815")]
-	[Address(RVA = "0x20AA240", Offset = "0x20A8840", VA = "0x1820AA240")]
+	[Token(Token = "0x6003AA1")]
+	[Address(RVA = "0x5A348D0", Offset = "0x5A338D0", VA = "0x5A348D0")]
 	public float RandomFloat(float min, float max)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003816")]
-	[Address(RVA = "0x20A9F90", Offset = "0x20A8590", VA = "0x1820A9F90")]
+	[Token(Token = "0x6003AA2")]
+	[Address(RVA = "0x5A34920", Offset = "0x5A33920", VA = "0x5A34920")]
 	public bool RandomBool()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003817")]
-	[Address(RVA = "0x20AA340", Offset = "0x20A8940", VA = "0x1820AA340")]
+	[Token(Token = "0x6003AA3")]
+	[Address(RVA = "0x5A34950", Offset = "0x5A33950", VA = "0x5A34950")]
 	public CustomLogicVector3Builtin RandomVector3(CustomLogicVector3Builtin a, CustomLogicVector3Builtin b)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003818")]
-	[Address(RVA = "0x20A9FD0", Offset = "0x20A85D0", VA = "0x1820A9FD0")]
+	[Token(Token = "0x6003AA4")]
+	[Address(RVA = "0x5A34B30", Offset = "0x5A33B30", VA = "0x5A34B30")]
 	public CustomLogicVector3Builtin RandomDirection(bool flat = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003819")]
-	[Address(RVA = "0x20AA2F0", Offset = "0x20A88F0", VA = "0x1820AA2F0")]
+	[Token(Token = "0x6003AA5")]
+	[Address(RVA = "0x5A34E30", Offset = "0x5A33E30", VA = "0x5A34E30")]
 	public int RandomSign()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600381A")]
-	[Address(RVA = "0x20A9F80", Offset = "0x20A8580", VA = "0x1820A9F80")]
+	[Token(Token = "0x6003AA6")]
+	[Address(RVA = "0x5A34E70", Offset = "0x5A33E70", VA = "0x5A34E70")]
 	public float PerlinNoise(float x, float y)
 	{
 		return default(float);

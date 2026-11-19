@@ -24,7 +24,7 @@ internal class RepaintData
 	public Matrix4x4 currentOffset
 	{
 		[Token(Token = "0x60011E6")]
-		[Address(RVA = "0x153E300", Offset = "0x153C900", VA = "0x18153E300")]
+		[Address(RVA = "0x6CB3490", Offset = "0x6CB2490", VA = "0x6CB3490")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ internal class RepaintData
 	public Rect currentWorldClip
 	{
 		[Token(Token = "0x60011E7")]
-		[Address(RVA = "0x18FEB30", Offset = "0x18FD130", VA = "0x1818FEB30")]
+		[Address(RVA = "0x6CB34C0", Offset = "0x6CB24C0", VA = "0x6CB34C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,14 +48,14 @@ internal class RepaintData
 	public Event repaintEvent
 	{
 		[Token(Token = "0x60011E8")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x6CB34D0", Offset = "0x6CB24D0", VA = "0x6CB34D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60011E9")]
-		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
+		[Address(RVA = "0x6CB34E0", Offset = "0x6CB24E0", VA = "0x6CB34E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -63,7 +63,7 @@ internal class RepaintData
 	}
 
 	[Token(Token = "0x60011EA")]
-	[Address(RVA = "0x32B5FF0", Offset = "0x32B45F0", VA = "0x1832B5FF0")]
+	[Address(RVA = "0x6CB34F0", Offset = "0x6CB24F0", VA = "0x6CB34F0")]
 	public RepaintData()
 	{
 	}

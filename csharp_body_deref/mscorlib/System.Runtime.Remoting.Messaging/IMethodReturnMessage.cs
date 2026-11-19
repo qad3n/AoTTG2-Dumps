@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003E1")]
+[Token(Token = "0x20003BA")]
 [ComVisible(true)]
 public interface IMethodReturnMessage : IMethodMessage, IMessage
 {
-	[Token(Token = "0x170003C9")]
+	[Token(Token = "0x170003C8")]
 	Exception Exception
 	{
-		[Token(Token = "0x6001EE9")]
+		[Token(Token = "0x6001EBF")]
+		get;
+	}
+
+	[Token(Token = "0x170003C9")]
+	object[] OutArgs
+	{
+		[Token(Token = "0x6001EC0")]
 		get;
 	}
 
 	[Token(Token = "0x170003CA")]
-	object[] OutArgs
-	{
-		[Token(Token = "0x6001EEA")]
-		get;
-	}
-
-	[Token(Token = "0x170003CB")]
 	object ReturnValue
 	{
-		[Token(Token = "0x6001EEB")]
+		[Token(Token = "0x6001EC1")]
 		get;
 	}
 }

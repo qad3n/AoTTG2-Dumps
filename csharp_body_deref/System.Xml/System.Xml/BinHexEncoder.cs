@@ -13,20 +13,20 @@ namespace System.Xml;
 internal static class BinHexEncoder
 {
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x25CCC50", Offset = "0x25CB250", VA = "0x1825CCC50")]
+	[Address(RVA = "0x5F8B420", Offset = "0x5F8A420", VA = "0x5F8B420")]
 	internal static void Encode(byte[] buffer, int index, int count, XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x25CCE90", Offset = "0x25CB490", VA = "0x1825CCE90")]
+	[Address(RVA = "0x5F8B730", Offset = "0x5F8A730", VA = "0x5F8B730")]
 	internal static string Encode(byte[] inArray, int offsetIn, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x25CD070", Offset = "0x25CB670", VA = "0x1825CD070")]
+	[Address(RVA = "0x5F8B5E0", Offset = "0x5F8A5E0", VA = "0x5F8B5E0")]
 	private static int Encode(byte[] inArray, int offsetIn, int count, char[] outArray)
 	{
 		return default(int);

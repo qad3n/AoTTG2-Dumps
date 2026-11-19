@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleTextAutoSize
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,13 +25,13 @@ public struct StyleTextAutoSize : IStyleValue<TextAutoSize>, IEquatable<StyleTex
 	public TextAutoSize value
 	{
 		[Token(Token = "0x6002335")]
-		[Address(RVA = "0x312CBD0", Offset = "0x312B1D0", VA = "0x18312CBD0", Slot = "4")]
+		[Address(RVA = "0x6B28950", Offset = "0x6B27950", VA = "0x6B28950", Slot = "4")]
 		get
 		{
 			return default(TextAutoSize);
 		}
 		[Token(Token = "0x6002336")]
-		[Address(RVA = "0x312CB80", Offset = "0x312B180", VA = "0x18312CB80", Slot = "5")]
+		[Address(RVA = "0x6B28990", Offset = "0x6B27990", VA = "0x6B28990", Slot = "5")]
 		set
 		{
 		}
@@ -41,80 +41,80 @@ public struct StyleTextAutoSize : IStyleValue<TextAutoSize>, IEquatable<StyleTex
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x6002337")]
-		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930", Slot = "6")]
+		[Address(RVA = "0x6B289B0", Offset = "0x6B279B0", VA = "0x6B289B0", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x6002338")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10", Slot = "7")]
+		[Address(RVA = "0x6B289C0", Offset = "0x6B279C0", VA = "0x6B289C0", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002339")]
-	[Address(RVA = "0x312CB80", Offset = "0x312B180", VA = "0x18312CB80")]
+	[Address(RVA = "0x6B289D0", Offset = "0x6B279D0", VA = "0x6B289D0")]
 	public StyleTextAutoSize(TextAutoSize v)
 	{
 	}
 
 	[Token(Token = "0x600233A")]
-	[Address(RVA = "0x312CBC0", Offset = "0x312B1C0", VA = "0x18312CBC0")]
+	[Address(RVA = "0x6B28A10", Offset = "0x6B27A10", VA = "0x6B28A10")]
 	public StyleTextAutoSize(StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x600233B")]
-	[Address(RVA = "0x312CBA0", Offset = "0x312B1A0", VA = "0x18312CBA0")]
+	[Address(RVA = "0x6B289F0", Offset = "0x6B279F0", VA = "0x6B289F0")]
 	internal StyleTextAutoSize(TextAutoSize v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x600233C")]
-	[Address(RVA = "0x312CC00", Offset = "0x312B200", VA = "0x18312CC00")]
+	[Address(RVA = "0x6B28A30", Offset = "0x6B27A30", VA = "0x6B28A30")]
 	public static bool operator ==(StyleTextAutoSize lhs, StyleTextAutoSize rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600233D")]
-	[Address(RVA = "0x312CCA0", Offset = "0x312B2A0", VA = "0x18312CCA0")]
+	[Address(RVA = "0x6B28AA0", Offset = "0x6B27AA0", VA = "0x6B28AA0")]
 	public static implicit operator StyleTextAutoSize(StyleKeyword keyword)
 	{
 		return default(StyleTextAutoSize);
 	}
 
 	[Token(Token = "0x600233E")]
-	[Address(RVA = "0x312CC50", Offset = "0x312B250", VA = "0x18312CC50")]
+	[Address(RVA = "0x6B28AC0", Offset = "0x6B27AC0", VA = "0x6B28AC0")]
 	public static implicit operator StyleTextAutoSize(TextAutoSize v)
 	{
 		return default(StyleTextAutoSize);
 	}
 
 	[Token(Token = "0x600233F")]
-	[Address(RVA = "0x312C970", Offset = "0x312AF70", VA = "0x18312C970", Slot = "8")]
+	[Address(RVA = "0x6B28AE0", Offset = "0x6B27AE0", VA = "0x6B28AE0", Slot = "8")]
 	public bool Equals(StyleTextAutoSize other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002340")]
-	[Address(RVA = "0x312C9D0", Offset = "0x312AFD0", VA = "0x18312C9D0", Slot = "0")]
+	[Address(RVA = "0x6B28B40", Offset = "0x6B27B40", VA = "0x6B28B40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002341")]
-	[Address(RVA = "0x312CAD0", Offset = "0x312B0D0", VA = "0x18312CAD0", Slot = "2")]
+	[Address(RVA = "0x6B28BE0", Offset = "0x6B27BE0", VA = "0x6B28BE0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002342")]
-	[Address(RVA = "0x312CB10", Offset = "0x312B110", VA = "0x18312CB10", Slot = "3")]
+	[Address(RVA = "0x6B28C20", Offset = "0x6B27C20", VA = "0x6B28C20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

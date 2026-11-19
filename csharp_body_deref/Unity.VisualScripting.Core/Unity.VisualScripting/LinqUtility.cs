@@ -349,7 +349,7 @@ public static class LinqUtility
 	}
 
 	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x2E53CE0", Offset = "0x2E522E0", VA = "0x182E53CE0")]
+	[Address(RVA = "0x684A950", Offset = "0x6849950", VA = "0x684A950")]
 	public static void AddRange(this IList list, IEnumerable items)
 	{
 	}

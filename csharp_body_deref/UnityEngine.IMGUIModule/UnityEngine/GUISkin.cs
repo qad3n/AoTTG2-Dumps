@@ -16,8 +16,8 @@ namespace UnityEngine;
 [Serializable]
 [Token(Token = "0x2000016")]
 [UnityEngine.AssetFileNameExtension("guiskin", new string[] { })]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [ExecuteInEditMode]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class GUISkin : ScriptableObject
 {
 	[Token(Token = "0x2000017")]
@@ -173,13 +173,13 @@ public sealed class GUISkin : ScriptableObject
 	public Font font
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
+		[Address(RVA = "0x6982CD0", Offset = "0x6981CD0", VA = "0x6982CD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x2F8EE50", Offset = "0x2F8D450", VA = "0x182F8EE50")]
+		[Address(RVA = "0x6990710", Offset = "0x698F710", VA = "0x6990710")]
 		set
 		{
 		}
@@ -189,13 +189,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle box
 	{
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Address(RVA = "0x697EE50", Offset = "0x697DE50", VA = "0x697EE50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0x2F8ECD0", Offset = "0x2F8D2D0", VA = "0x182F8ECD0")]
+		[Address(RVA = "0x6990A00", Offset = "0x698FA00", VA = "0x6990A00")]
 		set
 		{
 		}
@@ -205,13 +205,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle label
 	{
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0xAD2BE0", Offset = "0xAD11E0", VA = "0x180AD2BE0")]
+		[Address(RVA = "0x697D000", Offset = "0x697C000", VA = "0x697D000")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x2F8F360", Offset = "0x2F8D960", VA = "0x182F8F360")]
+		[Address(RVA = "0x6990A90", Offset = "0x698FA90", VA = "0x6990A90")]
 		set
 		{
 		}
@@ -221,13 +221,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle textField
 	{
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0xAD2BF0", Offset = "0xAD11F0", VA = "0x180AD2BF0")]
+		[Address(RVA = "0x6980730", Offset = "0x697F730", VA = "0x6980730")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x2F8F560", Offset = "0x2F8DB60", VA = "0x182F8F560")]
+		[Address(RVA = "0x6990B20", Offset = "0x698FB20", VA = "0x6990B20")]
 		set
 		{
 		}
@@ -237,13 +237,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle textArea
 	{
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x2E8E8E0", Offset = "0x2E8CEE0", VA = "0x182E8E8E0")]
+		[Address(RVA = "0x6990BB0", Offset = "0x698FBB0", VA = "0x6990BB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x2F8F4E0", Offset = "0x2F8DAE0", VA = "0x182F8F4E0")]
+		[Address(RVA = "0x6990BC0", Offset = "0x698FBC0", VA = "0x6990BC0")]
 		set
 		{
 		}
@@ -253,13 +253,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle button
 	{
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
+		[Address(RVA = "0x697F450", Offset = "0x697E450", VA = "0x697F450")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x2F8ED50", Offset = "0x2F8D350", VA = "0x182F8ED50")]
+		[Address(RVA = "0x6990C50", Offset = "0x698FC50", VA = "0x6990C50")]
 		set
 		{
 		}
@@ -269,13 +269,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle toggle
 	{
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Address(RVA = "0x698C1C0", Offset = "0x698B1C0", VA = "0x698C1C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x2F8F5E0", Offset = "0x2F8DBE0", VA = "0x182F8F5E0")]
+		[Address(RVA = "0x6990CE0", Offset = "0x698FCE0", VA = "0x6990CE0")]
 		set
 		{
 		}
@@ -285,13 +285,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle window
 	{
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x2E8E900", Offset = "0x2E8CF00", VA = "0x182E8E900")]
+		[Address(RVA = "0x698DDD0", Offset = "0x698CDD0", VA = "0x698DDD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x2F8F9E0", Offset = "0x2F8DFE0", VA = "0x182F8F9E0")]
+		[Address(RVA = "0x6990D70", Offset = "0x698FD70", VA = "0x6990D70")]
 		set
 		{
 		}
@@ -301,13 +301,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalSlider
 	{
 		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x2E8E8F0", Offset = "0x2E8CEF0", VA = "0x182E8E8F0")]
+		[Address(RVA = "0x698C510", Offset = "0x698B510", VA = "0x698C510")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x2F8F2E0", Offset = "0x2F8D8E0", VA = "0x182F8F2E0")]
+		[Address(RVA = "0x6990E00", Offset = "0x698FE00", VA = "0x6990E00")]
 		set
 		{
 		}
@@ -317,13 +317,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalSliderThumb
 	{
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x2E8E910", Offset = "0x2E8CF10", VA = "0x182E8E910")]
+		[Address(RVA = "0x698C520", Offset = "0x698B520", VA = "0x698C520")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x2F8F260", Offset = "0x2F8D860", VA = "0x182F8F260")]
+		[Address(RVA = "0x6990E90", Offset = "0x698FE90", VA = "0x6990E90")]
 		set
 		{
 		}
@@ -333,13 +333,13 @@ public sealed class GUISkin : ScriptableObject
 	internal GUIStyle horizontalSliderThumbExtent
 	{
 		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x2E8E920", Offset = "0x2E8CF20", VA = "0x182E8E920")]
+		[Address(RVA = "0x6990F20", Offset = "0x698FF20", VA = "0x6990F20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x2F8F1E0", Offset = "0x2F8D7E0", VA = "0x182F8F1E0")]
+		[Address(RVA = "0x6990F30", Offset = "0x698FF30", VA = "0x6990F30")]
 		set
 		{
 		}
@@ -349,13 +349,13 @@ public sealed class GUISkin : ScriptableObject
 	internal GUIStyle sliderMixed
 	{
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x2E8E8C0", Offset = "0x2E8CEC0", VA = "0x182E8E8C0")]
+		[Address(RVA = "0x6990FC0", Offset = "0x698FFC0", VA = "0x6990FC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x2F8F460", Offset = "0x2F8DA60", VA = "0x182F8F460")]
+		[Address(RVA = "0x6990FD0", Offset = "0x698FFD0", VA = "0x6990FD0")]
 		set
 		{
 		}
@@ -365,13 +365,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalSlider
 	{
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x2E8E930", Offset = "0x2E8CF30", VA = "0x182E8E930")]
+		[Address(RVA = "0x6991060", Offset = "0x6990060", VA = "0x6991060")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600013D")]
-		[Address(RVA = "0x2F8F960", Offset = "0x2F8DF60", VA = "0x182F8F960")]
+		[Address(RVA = "0x6991070", Offset = "0x6990070", VA = "0x6991070")]
 		set
 		{
 		}
@@ -381,13 +381,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalSliderThumb
 	{
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x2E8E8D0", Offset = "0x2E8CED0", VA = "0x182E8E8D0")]
+		[Address(RVA = "0x6991100", Offset = "0x6990100", VA = "0x6991100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x2F8F8E0", Offset = "0x2F8DEE0", VA = "0x182F8F8E0")]
+		[Address(RVA = "0x6991110", Offset = "0x6990110", VA = "0x6991110")]
 		set
 		{
 		}
@@ -397,13 +397,13 @@ public sealed class GUISkin : ScriptableObject
 	internal GUIStyle verticalSliderThumbExtent
 	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x2E8E8A0", Offset = "0x2E8CEA0", VA = "0x182E8E8A0")]
+		[Address(RVA = "0x69911A0", Offset = "0x69901A0", VA = "0x69911A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x2F8F860", Offset = "0x2F8DE60", VA = "0x182F8F860")]
+		[Address(RVA = "0x69911B0", Offset = "0x69901B0", VA = "0x69911B0")]
 		set
 		{
 		}
@@ -413,13 +413,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalScrollbar
 	{
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x1CCD7A0", Offset = "0x1CCBDA0", VA = "0x181CCD7A0")]
+		[Address(RVA = "0x6986640", Offset = "0x6985640", VA = "0x6986640")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x2F8F160", Offset = "0x2F8D760", VA = "0x182F8F160")]
+		[Address(RVA = "0x6991240", Offset = "0x6990240", VA = "0x6991240")]
 		set
 		{
 		}
@@ -429,13 +429,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalScrollbarThumb
 	{
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x1CCD790", Offset = "0x1CCBD90", VA = "0x181CCD790")]
+		[Address(RVA = "0x69912D0", Offset = "0x69902D0", VA = "0x69912D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000145")]
-		[Address(RVA = "0x2F8F0E0", Offset = "0x2F8D6E0", VA = "0x182F8F0E0")]
+		[Address(RVA = "0x69912E0", Offset = "0x69902E0", VA = "0x69912E0")]
 		set
 		{
 		}
@@ -445,13 +445,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalScrollbarLeftButton
 	{
 		[Token(Token = "0x6000146")]
-		[Address(RVA = "0x2E8CB50", Offset = "0x2E8B150", VA = "0x182E8CB50")]
+		[Address(RVA = "0x6991370", Offset = "0x6990370", VA = "0x6991370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000147")]
-		[Address(RVA = "0x2F8EFE0", Offset = "0x2F8D5E0", VA = "0x182F8EFE0")]
+		[Address(RVA = "0x6991380", Offset = "0x6990380", VA = "0x6991380")]
 		set
 		{
 		}
@@ -461,13 +461,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle horizontalScrollbarRightButton
 	{
 		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x2E8CB60", Offset = "0x2E8B160", VA = "0x182E8CB60")]
+		[Address(RVA = "0x6991410", Offset = "0x6990410", VA = "0x6991410")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x2F8F060", Offset = "0x2F8D660", VA = "0x182F8F060")]
+		[Address(RVA = "0x6991420", Offset = "0x6990420", VA = "0x6991420")]
 		set
 		{
 		}
@@ -477,13 +477,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalScrollbar
 	{
 		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x2E8A930", Offset = "0x2E88F30", VA = "0x182E8A930")]
+		[Address(RVA = "0x6986650", Offset = "0x6985650", VA = "0x6986650")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x2F8F7E0", Offset = "0x2F8DDE0", VA = "0x182F8F7E0")]
+		[Address(RVA = "0x69914B0", Offset = "0x69904B0", VA = "0x69914B0")]
 		set
 		{
 		}
@@ -493,13 +493,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalScrollbarThumb
 	{
 		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x2E8A940", Offset = "0x2E88F40", VA = "0x182E8A940")]
+		[Address(RVA = "0x6991540", Offset = "0x6990540", VA = "0x6991540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600014D")]
-		[Address(RVA = "0x2F8F6E0", Offset = "0x2F8DCE0", VA = "0x182F8F6E0")]
+		[Address(RVA = "0x6991550", Offset = "0x6990550", VA = "0x6991550")]
 		set
 		{
 		}
@@ -509,13 +509,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalScrollbarUpButton
 	{
 		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x2F8ECC0", Offset = "0x2F8D2C0", VA = "0x182F8ECC0")]
+		[Address(RVA = "0x69915E0", Offset = "0x69905E0", VA = "0x69915E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x2F8F760", Offset = "0x2F8DD60", VA = "0x182F8F760")]
+		[Address(RVA = "0x69915F0", Offset = "0x69905F0", VA = "0x69915F0")]
 		set
 		{
 		}
@@ -525,13 +525,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle verticalScrollbarDownButton
 	{
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x2F8ECB0", Offset = "0x2F8D2B0", VA = "0x182F8ECB0")]
+		[Address(RVA = "0x6991680", Offset = "0x6990680", VA = "0x6991680")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x2F8F660", Offset = "0x2F8DC60", VA = "0x182F8F660")]
+		[Address(RVA = "0x6991690", Offset = "0x6990690", VA = "0x6991690")]
 		set
 		{
 		}
@@ -541,13 +541,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle scrollView
 	{
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x2F8EC90", Offset = "0x2F8D290", VA = "0x182F8EC90")]
+		[Address(RVA = "0x6986660", Offset = "0x6985660", VA = "0x6986660")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x2F8F3E0", Offset = "0x2F8D9E0", VA = "0x182F8F3E0")]
+		[Address(RVA = "0x6991720", Offset = "0x6990720", VA = "0x6991720")]
 		set
 		{
 		}
@@ -557,13 +557,13 @@ public sealed class GUISkin : ScriptableObject
 	public GUIStyle[] customStyles
 	{
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x2F8EB80", Offset = "0x2F8D180", VA = "0x182F8EB80")]
+		[Address(RVA = "0x69917B0", Offset = "0x69907B0", VA = "0x69917B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x2F8EDD0", Offset = "0x2F8D3D0", VA = "0x182F8EDD0")]
+		[Address(RVA = "0x69917C0", Offset = "0x69907C0", VA = "0x69917C0")]
 		set
 		{
 		}
@@ -573,7 +573,7 @@ public sealed class GUISkin : ScriptableObject
 	public GUISettings settings
 	{
 		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x2F8ECA0", Offset = "0x2F8D2A0", VA = "0x182F8ECA0")]
+		[Address(RVA = "0x6982BD0", Offset = "0x6981BD0", VA = "0x6982BD0")]
 		get
 		{
 			return null;
@@ -584,7 +584,7 @@ public sealed class GUISkin : ScriptableObject
 	internal static GUIStyle error
 	{
 		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x2F8EB90", Offset = "0x2F8D190", VA = "0x182F8EB90")]
+		[Address(RVA = "0x6991850", Offset = "0x6990850", VA = "0x6991850")]
 		get
 		{
 			return null;
@@ -592,57 +592,57 @@ public sealed class GUISkin : ScriptableObject
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x2F8EA80", Offset = "0x2F8D080", VA = "0x182F8EA80")]
+	[Address(RVA = "0x69904C0", Offset = "0x698F4C0", VA = "0x69904C0")]
 	public GUISkin()
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x2F8D110", Offset = "0x2F8B710", VA = "0x182F8D110")]
+	[Address(RVA = "0x69905A0", Offset = "0x698F5A0", VA = "0x69905A0")]
 	internal void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x2F8E4A0", Offset = "0x2F8CAA0", VA = "0x182F8E4A0")]
+	[Address(RVA = "0x69906A0", Offset = "0x698F6A0", VA = "0x69906A0")]
 	internal static void CleanupRoots()
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x2F8D110", Offset = "0x2F8B710", VA = "0x182F8D110")]
+	[Address(RVA = "0x6990620", Offset = "0x698F620", VA = "0x6990620")]
 	internal void Apply()
 	{
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x2F8D180", Offset = "0x2F8B780", VA = "0x182F8D180")]
+	[Address(RVA = "0x6991A60", Offset = "0x6990A60", VA = "0x6991A60")]
 	private void BuildStyleCache()
 	{
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x2F8E670", Offset = "0x2F8CC70", VA = "0x182F8E670")]
+	[Address(RVA = "0x69842A0", Offset = "0x69832A0", VA = "0x69842A0")]
 	public GUIStyle GetStyle(string styleName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x2F8E520", Offset = "0x2F8CB20", VA = "0x182F8E520")]
+	[Address(RVA = "0x6993C20", Offset = "0x6992C20", VA = "0x6993C20")]
 	public GUIStyle FindStyle(string styleName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x2F8E950", Offset = "0x2F8CF50", VA = "0x182F8E950")]
+	[Address(RVA = "0x697CA40", Offset = "0x697BA40", VA = "0x697CA40")]
 	internal void MakeCurrent()
 	{
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x2F8E5B0", Offset = "0x2F8CBB0", VA = "0x182F8E5B0")]
+	[Address(RVA = "0x6993CB0", Offset = "0x6992CB0", VA = "0x6993CB0")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;

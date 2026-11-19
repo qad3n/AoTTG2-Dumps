@@ -14,7 +14,7 @@ namespace EZhex1991.EZSoftBone;
 public class EZNestedEditorAttribute : PropertyAttribute
 {
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
+	[Address(RVA = "0x31A2750", Offset = "0x31A1750", VA = "0x31A2750")]
 	public EZNestedEditorAttribute()
 	{
 	}

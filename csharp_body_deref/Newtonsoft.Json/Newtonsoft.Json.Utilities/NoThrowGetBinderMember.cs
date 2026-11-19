@@ -18,13 +18,13 @@ internal class NoThrowGetBinderMember : GetMemberBinder
 	private readonly GetMemberBinder _innerBinder;
 
 	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x1C2B5C0", Offset = "0x1C29BC0", VA = "0x181C2B5C0")]
+	[Address(RVA = "0x55B07B0", Offset = "0x55AF7B0", VA = "0x55B07B0")]
 	public NoThrowGetBinderMember(GetMemberBinder innerBinder)
 	{
 	}
 
 	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x1C2B470", Offset = "0x1C29A70", VA = "0x181C2B470", Slot = "9")]
+	[Address(RVA = "0x55B07F0", Offset = "0x55AF7F0", VA = "0x55B07F0", Slot = "9")]
 	public override DynamicMetaObject FallbackGetMember(DynamicMetaObject target, DynamicMetaObject? errorSuggestion)
 	{
 		return null;

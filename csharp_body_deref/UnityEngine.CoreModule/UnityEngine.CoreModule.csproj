@@ -18,6 +18,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
@@ -29,9 +32,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>../../dumps/il2cpp/DummyDll/Unity.Collections.dll</HintPath>

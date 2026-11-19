@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -25,19 +25,19 @@ internal struct StyleSyntaxToken
 	public float number;
 
 	[Token(Token = "0x6002DF0")]
-	[Address(RVA = "0x31F9F00", Offset = "0x31F8500", VA = "0x1831F9F00")]
+	[Address(RVA = "0x6BFD830", Offset = "0x6BFC830", VA = "0x6BFD830")]
 	public StyleSyntaxToken(StyleSyntaxTokenType t)
 	{
 	}
 
 	[Token(Token = "0x6002DF1")]
-	[Address(RVA = "0x31F9F30", Offset = "0x31F8530", VA = "0x1831F9F30")]
+	[Address(RVA = "0x6BFD860", Offset = "0x6BFC860", VA = "0x6BFD860")]
 	public StyleSyntaxToken(StyleSyntaxTokenType type, string text)
 	{
 	}
 
 	[Token(Token = "0x6002DF2")]
-	[Address(RVA = "0x31F9EC0", Offset = "0x31F84C0", VA = "0x1831F9EC0")]
+	[Address(RVA = "0x6BFD880", Offset = "0x6BFC880", VA = "0x6BFD880")]
 	public StyleSyntaxToken(StyleSyntaxTokenType type, float number)
 	{
 	}

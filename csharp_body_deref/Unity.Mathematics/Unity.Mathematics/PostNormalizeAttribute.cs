@@ -14,7 +14,7 @@ namespace Unity.Mathematics;
 public class PostNormalizeAttribute : PropertyAttribute
 {
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
+	[Address(RVA = "0x63EF280", Offset = "0x63EE280", VA = "0x63EF280")]
 	public PostNormalizeAttribute()
 	{
 	}

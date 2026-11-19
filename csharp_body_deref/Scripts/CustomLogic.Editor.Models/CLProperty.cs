@@ -11,104 +11,104 @@ using Newtonsoft.Json;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x2000612")]
+[Token(Token = "0x2000671")]
 internal class CLProperty : BaseModel
 {
-	[Token(Token = "0x17000A7F")]
+	[Token(Token = "0x17000AC7")]
 	public TypeReference Type
 	{
-		[Token(Token = "0x6003B4B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x6003DD9")]
+		[Address(RVA = "0x5A97B50", Offset = "0x5A96B50", VA = "0x5A97B50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B4C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Token(Token = "0x6003DDA")]
+		[Address(RVA = "0x5A97B60", Offset = "0x5A96B60", VA = "0x5A97B60")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A80")]
+	[Token(Token = "0x17000AC8")]
 	[JsonProperty("label")]
 	public string Name
 	{
-		[Token(Token = "0x6003B4D")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6003DDB")]
+		[Address(RVA = "0x5A97B70", Offset = "0x5A96B70", VA = "0x5A97B70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B4E")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6003DDC")]
+		[Address(RVA = "0x5A97B80", Offset = "0x5A96B80", VA = "0x5A97B80")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A81")]
+	[Token(Token = "0x17000AC9")]
 	public XmlInfo Info
 	{
-		[Token(Token = "0x6003B4F")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x6003DDD")]
+		[Address(RVA = "0x5A97B90", Offset = "0x5A96B90", VA = "0x5A97B90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B50")]
-		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		[Token(Token = "0x6003DDE")]
+		[Address(RVA = "0x5A97BA0", Offset = "0x5A96BA0", VA = "0x5A97BA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A82")]
+	[Token(Token = "0x17000ACA")]
 	[JsonProperty("readonly")]
 	public bool IsReadonly
 	{
-		[Token(Token = "0x6003B51")]
-		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[Token(Token = "0x6003DDF")]
+		[Address(RVA = "0x5A97BB0", Offset = "0x5A96BB0", VA = "0x5A97BB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6003B52")]
-		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
+		[Token(Token = "0x6003DE0")]
+		[Address(RVA = "0x5A97BC0", Offset = "0x5A96BC0", VA = "0x5A97BC0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000A83")]
+	[Token(Token = "0x17000ACB")]
 	[JsonIgnore]
 	public string[] EnumNames
 	{
-		[Token(Token = "0x6003B53")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Token(Token = "0x6003DE1")]
+		[Address(RVA = "0x5A97BD0", Offset = "0x5A96BD0", VA = "0x5A97BD0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003B54")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Token(Token = "0x6003DE2")]
+		[Address(RVA = "0x5A97BE0", Offset = "0x5A96BE0", VA = "0x5A97BE0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6003B55")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6003DE3")]
+	[Address(RVA = "0x5A97BF0", Offset = "0x5A96BF0", VA = "0x5A97BF0")]
 	public CLProperty()
 	{
 	}

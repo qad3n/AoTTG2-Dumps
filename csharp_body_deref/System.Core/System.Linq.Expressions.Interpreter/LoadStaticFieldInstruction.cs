@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000139")]
+[Token(Token = "0x200013A")]
 internal sealed class LoadStaticFieldInstruction : FieldInstruction
 {
-	[Token(Token = "0x1700019E")]
+	[Token(Token = "0x170001A0")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60006F6")]
-		[Address(RVA = "0x2465650", Offset = "0x2463C50", VA = "0x182465650", Slot = "9")]
+		[Token(Token = "0x6000701")]
+		[Address(RVA = "0x5DE4230", Offset = "0x5DE3230", VA = "0x5DE4230", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700019F")]
+	[Token(Token = "0x170001A1")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60006F7")]
-		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
+		[Token(Token = "0x6000702")]
+		[Address(RVA = "0x5DE4260", Offset = "0x5DE3260", VA = "0x5DE4260", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000700")]
+	[Address(RVA = "0x5DE4200", Offset = "0x5DE3200", VA = "0x5DE4200")]
 	public LoadStaticFieldInstruction(FieldInfo field)
 	{
 	}
 
-	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x24655B0", Offset = "0x2463BB0", VA = "0x1824655B0", Slot = "8")]
+	[Token(Token = "0x6000703")]
+	[Address(RVA = "0x5DE4270", Offset = "0x5DE3270", VA = "0x5DE4270", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

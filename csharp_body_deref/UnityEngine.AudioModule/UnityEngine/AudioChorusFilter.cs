@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000013")]
 [RequireComponent(typeof(AudioBehaviour))]
 public sealed class AudioChorusFilter : Behaviour
 {

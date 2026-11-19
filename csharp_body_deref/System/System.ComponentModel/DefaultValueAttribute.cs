@@ -9,139 +9,139 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000151")]
+[Token(Token = "0x2000112")]
 [AttributeUsage(AttributeTargets.All)]
 public class DefaultValueAttribute : Attribute
 {
-	[Token(Token = "0x40005ED")]
+	[Token(Token = "0x400051E")]
 	[FieldOffset(Offset = "0x10")]
 	private object _value;
 
-	[Token(Token = "0x40005EE")]
+	[Token(Token = "0x400051F")]
 	[FieldOffset(Offset = "0x0")]
 	private static object s_convertFromInvariantString;
 
-	[Token(Token = "0x1700019B")]
+	[Token(Token = "0x1700016C")]
 	public virtual object Value
 	{
-		[Token(Token = "0x600087A")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "7")]
+		[Token(Token = "0x60006BA")]
+		[Address(RVA = "0x6220610", Offset = "0x621F610", VA = "0x6220610", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600086B")]
-	[Address(RVA = "0x287C980", Offset = "0x287AF80", VA = "0x18287C980")]
+	[Token(Token = "0x60006AB")]
+	[Address(RVA = "0x621FD40", Offset = "0x621ED40", VA = "0x621FD40")]
 	public DefaultValueAttribute(Type type, string value)
 	{
 	}
 
-	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x28777F0", Offset = "0x2875DF0", VA = "0x1828777F0")]
+	[Token(Token = "0x60006AC")]
+	[Address(RVA = "0x62201F0", Offset = "0x621F1F0", VA = "0x62201F0")]
 	public DefaultValueAttribute(char value)
 	{
 	}
 
-	[Token(Token = "0x600086D")]
-	[Address(RVA = "0x2877930", Offset = "0x2875F30", VA = "0x182877930")]
+	[Token(Token = "0x60006AD")]
+	[Address(RVA = "0x6220240", Offset = "0x621F240", VA = "0x6220240")]
 	public DefaultValueAttribute(byte value)
 	{
 	}
 
-	[Token(Token = "0x600086E")]
-	[Address(RVA = "0x28776B0", Offset = "0x2875CB0", VA = "0x1828776B0")]
+	[Token(Token = "0x60006AE")]
+	[Address(RVA = "0x6220290", Offset = "0x621F290", VA = "0x6220290")]
 	public DefaultValueAttribute(short value)
 	{
 	}
 
-	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x28777A0", Offset = "0x2875DA0", VA = "0x1828777A0")]
+	[Token(Token = "0x60006AF")]
+	[Address(RVA = "0x62202E0", Offset = "0x621F2E0", VA = "0x62202E0")]
 	public DefaultValueAttribute(int value)
 	{
 	}
 
-	[Token(Token = "0x6000870")]
-	[Address(RVA = "0x2877750", Offset = "0x2875D50", VA = "0x182877750")]
+	[Token(Token = "0x60006B0")]
+	[Address(RVA = "0x6220330", Offset = "0x621F330", VA = "0x6220330")]
 	public DefaultValueAttribute(long value)
 	{
 	}
 
-	[Token(Token = "0x6000871")]
-	[Address(RVA = "0x2877840", Offset = "0x2875E40", VA = "0x182877840")]
+	[Token(Token = "0x60006B1")]
+	[Address(RVA = "0x6220380", Offset = "0x621F380", VA = "0x6220380")]
 	public DefaultValueAttribute(float value)
 	{
 	}
 
-	[Token(Token = "0x6000872")]
-	[Address(RVA = "0x2877980", Offset = "0x2875F80", VA = "0x182877980")]
+	[Token(Token = "0x60006B2")]
+	[Address(RVA = "0x62203D0", Offset = "0x621F3D0", VA = "0x62203D0")]
 	public DefaultValueAttribute(double value)
 	{
 	}
 
-	[Token(Token = "0x6000873")]
-	[Address(RVA = "0x2877700", Offset = "0x2875D00", VA = "0x182877700")]
+	[Token(Token = "0x60006B3")]
+	[Address(RVA = "0x6220420", Offset = "0x621F420", VA = "0x6220420")]
 	public DefaultValueAttribute(bool value)
 	{
 	}
 
-	[Token(Token = "0x6000874")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x60006B4")]
+	[Address(RVA = "0x6220470", Offset = "0x621F470", VA = "0x6220470")]
 	public DefaultValueAttribute(string value)
 	{
 	}
 
-	[Token(Token = "0x6000875")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x60006B5")]
+	[Address(RVA = "0x62204A0", Offset = "0x621F4A0", VA = "0x62204A0")]
 	public DefaultValueAttribute(object value)
 	{
 	}
 
-	[Token(Token = "0x6000876")]
-	[Address(RVA = "0x287C890", Offset = "0x287AE90", VA = "0x18287C890")]
+	[Token(Token = "0x60006B6")]
+	[Address(RVA = "0x62204D0", Offset = "0x621F4D0", VA = "0x62204D0")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(sbyte value)
 	{
 	}
 
-	[Token(Token = "0x6000877")]
-	[Address(RVA = "0x287CD20", Offset = "0x287B320", VA = "0x18287CD20")]
+	[Token(Token = "0x60006B7")]
+	[Address(RVA = "0x6220520", Offset = "0x621F520", VA = "0x6220520")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(ushort value)
 	{
 	}
 
-	[Token(Token = "0x6000878")]
-	[Address(RVA = "0x287C8E0", Offset = "0x287AEE0", VA = "0x18287C8E0")]
+	[Token(Token = "0x60006B8")]
+	[Address(RVA = "0x6220570", Offset = "0x621F570", VA = "0x6220570")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(uint value)
 	{
 	}
 
-	[Token(Token = "0x6000879")]
-	[Address(RVA = "0x287C930", Offset = "0x287AF30", VA = "0x18287C930")]
+	[Token(Token = "0x60006B9")]
+	[Address(RVA = "0x62205C0", Offset = "0x621F5C0", VA = "0x62205C0")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(ulong value)
 	{
 	}
 
-	[Token(Token = "0x600087B")]
-	[Address(RVA = "0x287C580", Offset = "0x287AB80", VA = "0x18287C580", Slot = "0")]
+	[Token(Token = "0x60006BB")]
+	[Address(RVA = "0x6220620", Offset = "0x621F620", VA = "0x6220620", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600087C")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x60006BC")]
+	[Address(RVA = "0x6220720", Offset = "0x621F720", VA = "0x6220720", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600087D")]
-	[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+	[Token(Token = "0x60006BD")]
+	[Address(RVA = "0x6220730", Offset = "0x621F730", VA = "0x6220730")]
 	protected void SetValue(object value)
 	{
 	}

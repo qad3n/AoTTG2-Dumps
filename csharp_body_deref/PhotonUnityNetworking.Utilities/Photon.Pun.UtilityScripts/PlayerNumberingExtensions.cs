@@ -14,14 +14,14 @@ namespace Photon.Pun.UtilityScripts;
 public static class PlayerNumberingExtensions
 {
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x1D5A000", Offset = "0x1D58600", VA = "0x181D5A000")]
+	[Address(RVA = "0x56F1DB0", Offset = "0x56F0DB0", VA = "0x56F1DB0")]
 	public static int GetPlayerNumber(this Player player)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x1D5A140", Offset = "0x1D58740", VA = "0x181D5A140")]
+	[Address(RVA = "0x56F1F30", Offset = "0x56F0F30", VA = "0x56F1F30")]
 	public static void SetPlayerNumber(this Player player, int playerNumber)
 	{
 	}

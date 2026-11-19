@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Time
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,165 +12,165 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001D9")]
+[Token(Token = "0x20001DA")]
 [UnityEngine.Bindings.StaticAccessor("GetTimeManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Input/TimeManager.h")]
 public class Time
 {
-	[Token(Token = "0x1700027A")]
+	[Token(Token = "0x17000281")]
 	[UnityEngine.Bindings.NativeProperty("CurTime")]
 	public static extern float time
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F89")]
-		[Address(RVA = "0x2F29860", Offset = "0x2F27E60", VA = "0x182F29860")]
+		[Token(Token = "0x6000F9F")]
+		[Address(RVA = "0x6927800", Offset = "0x6926800", VA = "0x6927800")]
 		get;
 	}
 
-	[Token(Token = "0x1700027B")]
+	[Token(Token = "0x17000282")]
 	[UnityEngine.Bindings.NativeProperty("CurTime")]
 	public static extern double timeAsDouble
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F8A")]
-		[Address(RVA = "0x2F29780", Offset = "0x2F27D80", VA = "0x182F29780")]
+		[Token(Token = "0x6000FA0")]
+		[Address(RVA = "0x6927830", Offset = "0x6926830", VA = "0x6927830")]
 		get;
 	}
 
-	[Token(Token = "0x1700027C")]
+	[Token(Token = "0x17000283")]
 	[UnityEngine.Bindings.NativeProperty("CurTimeRational")]
 	public static RationalTime timeAsRational
 	{
-		[Token(Token = "0x6000F8B")]
-		[Address(RVA = "0x2F297F0", Offset = "0x2F27DF0", VA = "0x182F297F0")]
+		[Token(Token = "0x6000FA1")]
+		[Address(RVA = "0x6927860", Offset = "0x6926860", VA = "0x6927860")]
 		get
 		{
 			return default(RationalTime);
 		}
 	}
 
-	[Token(Token = "0x1700027D")]
+	[Token(Token = "0x17000284")]
 	public static extern float deltaTime
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F8C")]
-		[Address(RVA = "0x2F295D0", Offset = "0x2F27BD0", VA = "0x182F295D0")]
-		get;
-	}
-
-	[Token(Token = "0x1700027E")]
-	public static extern float fixedTime
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F8D")]
-		[Address(RVA = "0x2F29630", Offset = "0x2F27C30", VA = "0x182F29630")]
-		get;
-	}
-
-	[Token(Token = "0x1700027F")]
-	public static extern float unscaledTime
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F8E")]
-		[Address(RVA = "0x2F298C0", Offset = "0x2F27EC0", VA = "0x182F298C0")]
-		get;
-	}
-
-	[Token(Token = "0x17000280")]
-	public static extern float unscaledDeltaTime
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F8F")]
-		[Address(RVA = "0x2F29890", Offset = "0x2F27E90", VA = "0x182F29890")]
-		get;
-	}
-
-	[Token(Token = "0x17000281")]
-	public static extern float fixedDeltaTime
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F90")]
-		[Address(RVA = "0x2F29600", Offset = "0x2F27C00", VA = "0x182F29600")]
-		get;
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F91")]
-		[Address(RVA = "0x2F298F0", Offset = "0x2F27EF0", VA = "0x182F298F0")]
-		set;
-	}
-
-	[Token(Token = "0x17000282")]
-	public static extern float smoothDeltaTime
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F92")]
-		[Address(RVA = "0x2F29750", Offset = "0x2F27D50", VA = "0x182F29750")]
-		get;
-	}
-
-	[Token(Token = "0x17000283")]
-	public static extern float timeScale
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F93")]
-		[Address(RVA = "0x2F29830", Offset = "0x2F27E30", VA = "0x182F29830")]
-		get;
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F94")]
-		[Address(RVA = "0x2F29930", Offset = "0x2F27F30", VA = "0x182F29930")]
-		set;
-	}
-
-	[Token(Token = "0x17000284")]
-	public static extern int frameCount
-	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x2F29660", Offset = "0x2F27C60", VA = "0x182F29660")]
+		[Token(Token = "0x6000FA2")]
+		[Address(RVA = "0x69278D0", Offset = "0x69268D0", VA = "0x69278D0")]
 		get;
 	}
 
 	[Token(Token = "0x17000285")]
-	[UnityEngine.Bindings.NativeProperty("RenderFrameCount")]
-	public static extern int renderedFrameCount
+	public static extern float fixedTime
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F96")]
-		[Address(RVA = "0x2F29720", Offset = "0x2F27D20", VA = "0x182F29720")]
+		[Token(Token = "0x6000FA3")]
+		[Address(RVA = "0x6927900", Offset = "0x6926900", VA = "0x6927900")]
 		get;
 	}
 
 	[Token(Token = "0x17000286")]
-	[UnityEngine.Bindings.NativeProperty("Realtime")]
-	public static extern float realtimeSinceStartup
+	public static extern float unscaledTime
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F97")]
-		[Address(RVA = "0x2F296F0", Offset = "0x2F27CF0", VA = "0x182F296F0")]
+		[Token(Token = "0x6000FA4")]
+		[Address(RVA = "0x6927930", Offset = "0x6926930", VA = "0x6927930")]
 		get;
 	}
 
 	[Token(Token = "0x17000287")]
-	[UnityEngine.Bindings.NativeProperty("Realtime")]
-	public static extern double realtimeSinceStartupAsDouble
+	public static extern float unscaledDeltaTime
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F98")]
-		[Address(RVA = "0x2F296C0", Offset = "0x2F27CC0", VA = "0x182F296C0")]
+		[Token(Token = "0x6000FA5")]
+		[Address(RVA = "0x6927960", Offset = "0x6926960", VA = "0x6927960")]
 		get;
 	}
 
 	[Token(Token = "0x17000288")]
+	public static extern float fixedDeltaTime
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FA6")]
+		[Address(RVA = "0x6927990", Offset = "0x6926990", VA = "0x6927990")]
+		get;
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FA7")]
+		[Address(RVA = "0x69279C0", Offset = "0x69269C0", VA = "0x69279C0")]
+		set;
+	}
+
+	[Token(Token = "0x17000289")]
+	public static extern float smoothDeltaTime
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FA8")]
+		[Address(RVA = "0x6927A00", Offset = "0x6926A00", VA = "0x6927A00")]
+		get;
+	}
+
+	[Token(Token = "0x1700028A")]
+	public static extern float timeScale
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FA9")]
+		[Address(RVA = "0x6927A30", Offset = "0x6926A30", VA = "0x6927A30")]
+		get;
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FAA")]
+		[Address(RVA = "0x6927A60", Offset = "0x6926A60", VA = "0x6927A60")]
+		set;
+	}
+
+	[Token(Token = "0x1700028B")]
+	public static extern int frameCount
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FAB")]
+		[Address(RVA = "0x6927AA0", Offset = "0x6926AA0", VA = "0x6927AA0")]
+		get;
+	}
+
+	[Token(Token = "0x1700028C")]
+	[UnityEngine.Bindings.NativeProperty("RenderFrameCount")]
+	public static extern int renderedFrameCount
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FAC")]
+		[Address(RVA = "0x6927AD0", Offset = "0x6926AD0", VA = "0x6927AD0")]
+		get;
+	}
+
+	[Token(Token = "0x1700028D")]
+	[UnityEngine.Bindings.NativeProperty("Realtime")]
+	public static extern float realtimeSinceStartup
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FAD")]
+		[Address(RVA = "0x6927B00", Offset = "0x6926B00", VA = "0x6927B00")]
+		get;
+	}
+
+	[Token(Token = "0x1700028E")]
+	[UnityEngine.Bindings.NativeProperty("Realtime")]
+	public static extern double realtimeSinceStartupAsDouble
+	{
+		[MethodImpl((MethodImplOptions)4096)]
+		[Token(Token = "0x6000FAE")]
+		[Address(RVA = "0x6927B30", Offset = "0x6926B30", VA = "0x6927B30")]
+		get;
+	}
+
+	[Token(Token = "0x1700028F")]
 	public static extern bool inFixedTimeStep
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000F99")]
-		[Address(RVA = "0x2F29690", Offset = "0x2F27C90", VA = "0x182F29690")]
+		[Token(Token = "0x6000FAF")]
+		[Address(RVA = "0x6927B60", Offset = "0x6926B60", VA = "0x6927B60")]
 		[UnityEngine.Bindings.NativeName("IsUsingFixedTimeStep")]
 		get;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x2F297B0", Offset = "0x2F27DB0", VA = "0x182F297B0")]
+	[Token(Token = "0x6000FB0")]
+	[Address(RVA = "0x69278A0", Offset = "0x69268A0", VA = "0x69278A0")]
 	private static extern void get_timeAsRational_Injected(out RationalTime ret);
 }

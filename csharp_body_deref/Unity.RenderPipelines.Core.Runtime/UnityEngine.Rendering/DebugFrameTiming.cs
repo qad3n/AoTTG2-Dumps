@@ -43,14 +43,14 @@ public class DebugFrameTiming
 	public int bottleneckHistorySize
 	{
 		[Token(Token = "0x600060D")]
-		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+		[Address(RVA = "0x64C8640", Offset = "0x64C7640", VA = "0x64C8640")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600060E")]
-		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
+		[Address(RVA = "0x64C8650", Offset = "0x64C7650", VA = "0x64C8650")]
 		[CompilerGenerated]
 		set
 		{
@@ -61,14 +61,14 @@ public class DebugFrameTiming
 	public int sampleHistorySize
 	{
 		[Token(Token = "0x600060F")]
-		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+		[Address(RVA = "0x64C8660", Offset = "0x64C7660", VA = "0x64C8660")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x64C8670", Offset = "0x64C7670", VA = "0x64C8670")]
 		[CompilerGenerated]
 		set
 		{
@@ -76,25 +76,25 @@ public class DebugFrameTiming
 	}
 
 	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x2AD9910", Offset = "0x2AD7F10", VA = "0x182AD9910")]
+	[Address(RVA = "0x64C8680", Offset = "0x64C7680", VA = "0x64C8680")]
 	public DebugFrameTiming()
 	{
 	}
 
 	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x2AD92F0", Offset = "0x2AD78F0", VA = "0x182AD92F0")]
+	[Address(RVA = "0x64C88A0", Offset = "0x64C78A0", VA = "0x64C88A0")]
 	public void UpdateFrameTiming()
 	{
 	}
 
 	[Token(Token = "0x6000613")]
-	[Address(RVA = "0x2AD71F0", Offset = "0x2AD57F0", VA = "0x182AD71F0")]
+	[Address(RVA = "0x64C9740", Offset = "0x64C8740", VA = "0x64C9740")]
 	public void RegisterDebugUI(List<DebugUI.Widget> list)
 	{
 	}
 
 	[Token(Token = "0x6000614")]
-	[Address(RVA = "0x2AD8CD0", Offset = "0x2AD72D0", VA = "0x182AD8CD0")]
+	[Address(RVA = "0x64CB400", Offset = "0x64CA400", VA = "0x64CB400")]
 	internal void Reset()
 	{
 	}

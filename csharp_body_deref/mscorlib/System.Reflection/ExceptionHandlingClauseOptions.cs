@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000509")]
+[Token(Token = "0x20004E2")]
 [Flags]
 public enum ExceptionHandlingClauseOptions
 {
-	[Token(Token = "0x40013E1")]
+	[Token(Token = "0x4001341")]
 	Clause = 0,
-	[Token(Token = "0x40013E2")]
+	[Token(Token = "0x4001342")]
 	Filter = 1,
-	[Token(Token = "0x40013E3")]
+	[Token(Token = "0x4001343")]
 	Finally = 2,
-	[Token(Token = "0x40013E4")]
+	[Token(Token = "0x4001344")]
 	Fault = 4
 }

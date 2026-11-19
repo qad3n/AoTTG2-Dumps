@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x2000241")]
+[Token(Token = "0x2000202")]
 internal static class HashtableExtensions
 {
-	[Token(Token = "0x6000F91")]
+	[Token(Token = "0x6000DD1")]
 	public static bool TryGetValue<T>(this Hashtable table, object key, out T value)
 	{
 		return default(bool);

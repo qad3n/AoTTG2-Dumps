@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RTHandleResourcePool
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -38,73 +38,73 @@ internal class RTHandleResourcePool
 	internal int staleResourceCapacity
 	{
 		[Token(Token = "0x60007D8")]
-		[Address(RVA = "0x2C74C20", Offset = "0x2C73220", VA = "0x182C74C20")]
+		[Address(RVA = "0x6676190", Offset = "0x6675190", VA = "0x6676190")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60007D9")]
-		[Address(RVA = "0x2C74C70", Offset = "0x2C73270", VA = "0x182C74C70")]
+		[Address(RVA = "0x6676200", Offset = "0x6675200", VA = "0x6676200")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x2C737F0", Offset = "0x2C71DF0", VA = "0x182C737F0")]
+	[Address(RVA = "0x6676720", Offset = "0x6675720", VA = "0x6676720")]
 	internal bool AddResourceToPool(in TextureDesc texDesc, RTHandle resource, int currentFrameIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x2C74940", Offset = "0x2C72F40", VA = "0x182C74940")]
+	[Address(RVA = "0x6676A60", Offset = "0x6675A60", VA = "0x6676A60")]
 	internal bool TryGetResource(in TextureDesc texDesc, out RTHandle resource, bool usepool = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x2C73A20", Offset = "0x2C72020", VA = "0x182C73A20")]
+	[Address(RVA = "0x66762A0", Offset = "0x66752A0", VA = "0x66762A0")]
 	internal void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x60007DD")]
-	[Address(RVA = "0x2C748D0", Offset = "0x2C72ED0", VA = "0x182C748D0")]
+	[Address(RVA = "0x6676CC0", Offset = "0x6675CC0", VA = "0x6676CC0")]
 	protected static bool ShouldReleaseResource(int lastUsedFrameIndex, int currentFrameIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007DE")]
-	[Address(RVA = "0x2C744B0", Offset = "0x2C72AB0", VA = "0x182C744B0")]
+	[Address(RVA = "0x6676D20", Offset = "0x6675D20", VA = "0x6676D20")]
 	internal void PurgeUnusedResources(int currentFrameIndex)
 	{
 	}
 
 	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x2C73ED0", Offset = "0x2C724D0", VA = "0x182C73ED0")]
+	[Address(RVA = "0x6677320", Offset = "0x6676320", VA = "0x6677320")]
 	internal void LogDebugInfo()
 	{
 	}
 
 	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x2C73E30", Offset = "0x2C72430", VA = "0x182C73E30")]
+	[Address(RVA = "0x66769C0", Offset = "0x66759C0", VA = "0x66769C0")]
 	internal int GetHashCodeWithNameHash(in TextureDesc texDesc)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x2C73D00", Offset = "0x2C72300", VA = "0x182C73D00")]
+	[Address(RVA = "0x66779E0", Offset = "0x66769E0", VA = "0x66779E0")]
 	internal static TextureDesc CreateTextureDesc(RenderTextureDescriptor desc, TextureSizeMode textureSizeMode = TextureSizeMode.Explicit, int anisoLevel = 1, float mipMapBias = 0f, FilterMode filterMode = FilterMode.Point, TextureWrapMode wrapMode = TextureWrapMode.Clamp, string name = "")
 	{
 		return default(TextureDesc);
 	}
 
 	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x2C74B50", Offset = "0x2C73150", VA = "0x182C74B50")]
+	[Address(RVA = "0x6677BC0", Offset = "0x6676BC0", VA = "0x6677BC0")]
 	public RTHandleResourcePool()
 	{
 	}

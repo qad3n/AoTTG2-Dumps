@@ -11,29 +11,29 @@ using UnityEngine;
 [Token(Token = "0x2000016")]
 public class MouseMove : MonoBehaviour
 {
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x4000051")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private float _sensitivity;
 
-	[Token(Token = "0x4000050")]
+	[Token(Token = "0x4000052")]
 	[FieldOffset(Offset = "0x24")]
 	private Vector3 _originalPos;
 
-	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x1DA84D0", Offset = "0x1DA6AD0", VA = "0x181DA84D0")]
+	[Token(Token = "0x600006B")]
+	[Address(RVA = "0x5749200", Offset = "0x5748200", VA = "0x5749200")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x1DA8510", Offset = "0x1DA6B10", VA = "0x181DA8510")]
+	[Token(Token = "0x600006C")]
+	[Address(RVA = "0x5749230", Offset = "0x5748230", VA = "0x5749230")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x1DA8600", Offset = "0x1DA6C00", VA = "0x181DA8600")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x57492E0", Offset = "0x57482E0", VA = "0x57492E0")]
 	public MouseMove()
 	{
 	}

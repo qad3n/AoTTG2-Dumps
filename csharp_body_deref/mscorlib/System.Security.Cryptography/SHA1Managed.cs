@@ -10,78 +10,78 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200032E")]
+[Token(Token = "0x2000307")]
 [ComVisible(true)]
 public class SHA1Managed : SHA1
 {
-	[Token(Token = "0x4000D79")]
+	[Token(Token = "0x4000CD9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private byte[] _buffer;
 
-	[Token(Token = "0x4000D7A")]
+	[Token(Token = "0x4000CDA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private long _count;
 
-	[Token(Token = "0x4000D7B")]
+	[Token(Token = "0x4000CDB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private uint[] _stateSHA1;
 
-	[Token(Token = "0x4000D7C")]
+	[Token(Token = "0x4000CDC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private uint[] _expandedBuffer;
 
-	[Token(Token = "0x6001AB1")]
-	[Address(RVA = "0x19C9730", Offset = "0x19C7D30", VA = "0x1819C9730")]
+	[Token(Token = "0x6001A8E")]
+	[Address(RVA = "0x534DA10", Offset = "0x534CA10", VA = "0x534DA10")]
 	public SHA1Managed()
 	{
 	}
 
-	[Token(Token = "0x6001AB2")]
-	[Address(RVA = "0x19C8B70", Offset = "0x19C7170", VA = "0x1819C8B70", Slot = "20")]
+	[Token(Token = "0x6001A8F")]
+	[Address(RVA = "0x534DBB0", Offset = "0x534CBB0", VA = "0x534DBB0", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
-	[Token(Token = "0x6001AB3")]
-	[Address(RVA = "0x19C8B50", Offset = "0x19C7150", VA = "0x1819C8B50", Slot = "18")]
+	[Token(Token = "0x6001A90")]
+	[Address(RVA = "0x534DC40", Offset = "0x534CC40", VA = "0x534DC40", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6001AB4")]
-	[Address(RVA = "0x19C8B60", Offset = "0x19C7160", VA = "0x1819C8B60", Slot = "19")]
+	[Token(Token = "0x6001A91")]
+	[Address(RVA = "0x534DE00", Offset = "0x534CE00", VA = "0x534DE00", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AB5")]
-	[Address(RVA = "0x19AE570", Offset = "0x19ACB70", VA = "0x1819AE570")]
+	[Token(Token = "0x6001A92")]
+	[Address(RVA = "0x534DB50", Offset = "0x534CB50", VA = "0x534DB50")]
 	private void InitializeState()
 	{
 	}
 
-	[Token(Token = "0x6001AB6")]
-	[Address(RVA = "0x19C95D0", Offset = "0x19C7BD0", VA = "0x1819C95D0")]
+	[Token(Token = "0x6001A93")]
+	[Address(RVA = "0x534DC50", Offset = "0x534CC50", VA = "0x534DC50")]
 	private void _HashData(byte[] partIn, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6001AB7")]
-	[Address(RVA = "0x19C9340", Offset = "0x19C7940", VA = "0x1819C9340")]
+	[Token(Token = "0x6001A94")]
+	[Address(RVA = "0x534DE10", Offset = "0x534CE10", VA = "0x534DE10")]
 	private byte[] _EndHash()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AB8")]
-	[Address(RVA = "0x19C8C80", Offset = "0x19C7280", VA = "0x1819C8C80")]
+	[Token(Token = "0x6001A95")]
+	[Address(RVA = "0x534DFC0", Offset = "0x534CFC0", VA = "0x534DFC0")]
 	private unsafe static void SHATransform(uint* expandedBuffer, uint* state, byte* block)
 	{
 	}
 
-	[Token(Token = "0x6001AB9")]
-	[Address(RVA = "0x19C8BD0", Offset = "0x19C71D0", VA = "0x1819C8BD0")]
+	[Token(Token = "0x6001A96")]
+	[Address(RVA = "0x534ECE0", Offset = "0x534DCE0", VA = "0x534ECE0")]
 	private unsafe static void SHAExpand(uint* x)
 	{
 	}

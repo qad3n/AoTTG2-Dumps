@@ -1,0 +1,147 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.HttpStatusCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace System.Net;
+
+[Token(Token = "0x2000263")]
+public enum HttpStatusCode
+{
+	[Token(Token = "0x4000877")]
+	Continue = 100,
+	[Token(Token = "0x4000878")]
+	SwitchingProtocols = 101,
+	[Token(Token = "0x4000879")]
+	Processing = 102,
+	[Token(Token = "0x400087A")]
+	EarlyHints = 103,
+	[Token(Token = "0x400087B")]
+	OK = 200,
+	[Token(Token = "0x400087C")]
+	Created = 201,
+	[Token(Token = "0x400087D")]
+	Accepted = 202,
+	[Token(Token = "0x400087E")]
+	NonAuthoritativeInformation = 203,
+	[Token(Token = "0x400087F")]
+	NoContent = 204,
+	[Token(Token = "0x4000880")]
+	ResetContent = 205,
+	[Token(Token = "0x4000881")]
+	PartialContent = 206,
+	[Token(Token = "0x4000882")]
+	MultiStatus = 207,
+	[Token(Token = "0x4000883")]
+	AlreadyReported = 208,
+	[Token(Token = "0x4000884")]
+	IMUsed = 226,
+	[Token(Token = "0x4000885")]
+	MultipleChoices = 300,
+	[Token(Token = "0x4000886")]
+	Ambiguous = MultipleChoices,
+	[Token(Token = "0x4000887")]
+	MovedPermanently = 301,
+	[Token(Token = "0x4000888")]
+	Moved = MovedPermanently,
+	[Token(Token = "0x4000889")]
+	Found = 302,
+	[Token(Token = "0x400088A")]
+	Redirect = Found,
+	[Token(Token = "0x400088B")]
+	SeeOther = 303,
+	[Token(Token = "0x400088C")]
+	RedirectMethod = SeeOther,
+	[Token(Token = "0x400088D")]
+	NotModified = 304,
+	[Token(Token = "0x400088E")]
+	UseProxy = 305,
+	[Token(Token = "0x400088F")]
+	Unused = 306,
+	[Token(Token = "0x4000890")]
+	TemporaryRedirect = 307,
+	[Token(Token = "0x4000891")]
+	RedirectKeepVerb = TemporaryRedirect,
+	[Token(Token = "0x4000892")]
+	PermanentRedirect = 308,
+	[Token(Token = "0x4000893")]
+	BadRequest = 400,
+	[Token(Token = "0x4000894")]
+	Unauthorized = 401,
+	[Token(Token = "0x4000895")]
+	PaymentRequired = 402,
+	[Token(Token = "0x4000896")]
+	Forbidden = 403,
+	[Token(Token = "0x4000897")]
+	NotFound = 404,
+	[Token(Token = "0x4000898")]
+	MethodNotAllowed = 405,
+	[Token(Token = "0x4000899")]
+	NotAcceptable = 406,
+	[Token(Token = "0x400089A")]
+	ProxyAuthenticationRequired = 407,
+	[Token(Token = "0x400089B")]
+	RequestTimeout = 408,
+	[Token(Token = "0x400089C")]
+	Conflict = 409,
+	[Token(Token = "0x400089D")]
+	Gone = 410,
+	[Token(Token = "0x400089E")]
+	LengthRequired = 411,
+	[Token(Token = "0x400089F")]
+	PreconditionFailed = 412,
+	[Token(Token = "0x40008A0")]
+	RequestEntityTooLarge = 413,
+	[Token(Token = "0x40008A1")]
+	RequestUriTooLong = 414,
+	[Token(Token = "0x40008A2")]
+	UnsupportedMediaType = 415,
+	[Token(Token = "0x40008A3")]
+	RequestedRangeNotSatisfiable = 416,
+	[Token(Token = "0x40008A4")]
+	ExpectationFailed = 417,
+	[Token(Token = "0x40008A5")]
+	MisdirectedRequest = 421,
+	[Token(Token = "0x40008A6")]
+	UnprocessableEntity = 422,
+	[Token(Token = "0x40008A7")]
+	Locked = 423,
+	[Token(Token = "0x40008A8")]
+	FailedDependency = 424,
+	[Token(Token = "0x40008A9")]
+	UpgradeRequired = 426,
+	[Token(Token = "0x40008AA")]
+	PreconditionRequired = 428,
+	[Token(Token = "0x40008AB")]
+	TooManyRequests = 429,
+	[Token(Token = "0x40008AC")]
+	RequestHeaderFieldsTooLarge = 431,
+	[Token(Token = "0x40008AD")]
+	UnavailableForLegalReasons = 451,
+	[Token(Token = "0x40008AE")]
+	InternalServerError = 500,
+	[Token(Token = "0x40008AF")]
+	NotImplemented = 501,
+	[Token(Token = "0x40008B0")]
+	BadGateway = 502,
+	[Token(Token = "0x40008B1")]
+	ServiceUnavailable = 503,
+	[Token(Token = "0x40008B2")]
+	GatewayTimeout = 504,
+	[Token(Token = "0x40008B3")]
+	HttpVersionNotSupported = 505,
+	[Token(Token = "0x40008B4")]
+	VariantAlsoNegotiates = 506,
+	[Token(Token = "0x40008B5")]
+	InsufficientStorage = 507,
+	[Token(Token = "0x40008B6")]
+	LoopDetected = 508,
+	[Token(Token = "0x40008B7")]
+	NotExtended = 510,
+	[Token(Token = "0x40008B8")]
+	NetworkAuthenticationRequired = 511
+}

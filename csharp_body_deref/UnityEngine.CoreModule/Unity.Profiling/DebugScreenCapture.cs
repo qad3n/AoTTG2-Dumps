@@ -18,8 +18,8 @@ public struct DebugScreenCapture
 	[Token(Token = "0x17000010")]
 	public NativeArray<byte> RawImageDataReference
 	{
-		[Token(Token = "0x6000099")]
-		[Address(RVA = "0xBDB210", Offset = "0xBD9810", VA = "0x180BDB210")]
+		[Token(Token = "0x600009B")]
+		[Address(RVA = "0x68B5900", Offset = "0x68B4900", VA = "0x68B5900")]
 		[CompilerGenerated]
 		set
 		{
@@ -29,8 +29,8 @@ public struct DebugScreenCapture
 	[Token(Token = "0x17000011")]
 	public TextureFormat ImageFormat
 	{
-		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Token(Token = "0x600009C")]
+		[Address(RVA = "0x68B5910", Offset = "0x68B4910", VA = "0x68B5910")]
 		[CompilerGenerated]
 		set
 		{
@@ -40,8 +40,8 @@ public struct DebugScreenCapture
 	[Token(Token = "0x17000012")]
 	public int Width
 	{
-		[Token(Token = "0x600009B")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Token(Token = "0x600009D")]
+		[Address(RVA = "0x68B5920", Offset = "0x68B4920", VA = "0x68B5920")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,8 +51,8 @@ public struct DebugScreenCapture
 	[Token(Token = "0x17000013")]
 	public int Height
 	{
-		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
+		[Token(Token = "0x600009E")]
+		[Address(RVA = "0x68B5930", Offset = "0x68B4930", VA = "0x68B5930")]
 		[CompilerGenerated]
 		set
 		{

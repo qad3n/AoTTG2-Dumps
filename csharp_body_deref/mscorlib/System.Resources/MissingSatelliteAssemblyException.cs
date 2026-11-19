@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace System.Resources;
 
 [Serializable]
-[Token(Token = "0x20004DD")]
+[Token(Token = "0x20004B6")]
 public class MissingSatelliteAssemblyException : SystemException
 {
-	[Token(Token = "0x4001346")]
+	[Token(Token = "0x40012A6")]
 	[FieldOffset(Offset = "0x90")]
 	private string _cultureName;
 
-	[Token(Token = "0x60023BA")]
-	[Address(RVA = "0x1A4B130", Offset = "0x1A49730", VA = "0x181A4B130")]
+	[Token(Token = "0x6002388")]
+	[Address(RVA = "0x53CBD30", Offset = "0x53CAD30", VA = "0x53CBD30")]
 	public MissingSatelliteAssemblyException()
 	{
 	}
 
-	[Token(Token = "0x60023BB")]
-	[Address(RVA = "0x1A4B0F0", Offset = "0x1A496F0", VA = "0x181A4B0F0")]
+	[Token(Token = "0x6002389")]
+	[Address(RVA = "0x53CBD70", Offset = "0x53CAD70", VA = "0x53CBD70")]
 	public MissingSatelliteAssemblyException(string message, string cultureName)
 	{
 	}
 
-	[Token(Token = "0x60023BC")]
-	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
+	[Token(Token = "0x600238A")]
+	[Address(RVA = "0x53CBDB0", Offset = "0x53CADB0", VA = "0x53CBDB0")]
 	protected MissingSatelliteAssemblyException(SerializationInfo info, StreamingContext context)
 	{
 	}

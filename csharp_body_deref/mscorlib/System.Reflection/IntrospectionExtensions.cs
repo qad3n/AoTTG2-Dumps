@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200050F")]
+[Token(Token = "0x20004E8")]
 public static class IntrospectionExtensions
 {
-	[Token(Token = "0x60024A5")]
-	[Address(RVA = "0x1A46270", Offset = "0x1A44870", VA = "0x181A46270")]
+	[Token(Token = "0x6002473")]
+	[Address(RVA = "0x53D91A0", Offset = "0x53D81A0", VA = "0x53D91A0")]
 	public static TypeInfo GetTypeInfo(this Type type)
 	{
 		return null;

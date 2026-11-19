@@ -13,38 +13,38 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x2000164")]
+[Token(Token = "0x2000165")]
 internal sealed class InterpretedFrame
 {
-	[Token(Token = "0x2000165")]
+	[Token(Token = "0x2000166")]
 	[CompilerGenerated]
 	private sealed class _003CGetStackTraceDebugInfo_003Ed__29 : IEnumerable<InterpretedFrameInfo>, IEnumerable, IEnumerator<InterpretedFrameInfo>, IDisposable, IEnumerator
 	{
-		[Token(Token = "0x40002F2")]
+		[Token(Token = "0x40002FB")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40002F3")]
+		[Token(Token = "0x40002FC")]
 		[FieldOffset(Offset = "0x18")]
 		private InterpretedFrameInfo _003C_003E2__current;
 
-		[Token(Token = "0x40002F4")]
+		[Token(Token = "0x40002FD")]
 		[FieldOffset(Offset = "0x28")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x40002F5")]
+		[Token(Token = "0x40002FE")]
 		[FieldOffset(Offset = "0x30")]
 		public InterpretedFrame _003C_003E4__this;
 
-		[Token(Token = "0x40002F6")]
+		[Token(Token = "0x40002FF")]
 		[FieldOffset(Offset = "0x38")]
 		private InterpretedFrame _003Cframe_003E5__2;
 
-		[Token(Token = "0x170001BC")]
+		[Token(Token = "0x170001BE")]
 		private InterpretedFrameInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ELinq_002EExpressions_002EInterpreter_002EInterpretedFrameInfo_003E_002ECurrent
 		{
-			[Token(Token = "0x60007F4")]
-			[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990", Slot = "6")]
+			[Token(Token = "0x60007FF")]
+			[Address(RVA = "0x5DF09D0", Offset = "0x5DEF9D0", VA = "0x5DF09D0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -52,11 +52,11 @@ internal sealed class InterpretedFrame
 			}
 		}
 
-		[Token(Token = "0x170001BD")]
+		[Token(Token = "0x170001BF")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60007F6")]
-			[Address(RVA = "0x2465F80", Offset = "0x2464580", VA = "0x182465F80", Slot = "9")]
+			[Token(Token = "0x6000801")]
+			[Address(RVA = "0x5DF0A20", Offset = "0x5DEFA20", VA = "0x5DF0A20", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -64,44 +64,44 @@ internal sealed class InterpretedFrame
 			}
 		}
 
-		[Token(Token = "0x60007F1")]
-		[Address(RVA = "0x8E81C0", Offset = "0x8E67C0", VA = "0x1808E81C0")]
+		[Token(Token = "0x60007FC")]
+		[Address(RVA = "0x5DEFF20", Offset = "0x5DEEF20", VA = "0x5DEFF20")]
 		[DebuggerHidden]
 		public _003CGetStackTraceDebugInfo_003Ed__29(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60007F2")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Token(Token = "0x60007FD")]
+		[Address(RVA = "0x5DF0840", Offset = "0x5DEF840", VA = "0x5DF0840", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60007F3")]
-		[Address(RVA = "0x2465C90", Offset = "0x2464290", VA = "0x182465C90", Slot = "8")]
+		[Token(Token = "0x60007FE")]
+		[Address(RVA = "0x5DF0850", Offset = "0x5DEF850", VA = "0x5DF0850", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60007F5")]
-		[Address(RVA = "0x2465F40", Offset = "0x2464540", VA = "0x182465F40", Slot = "10")]
+		[Token(Token = "0x6000800")]
+		[Address(RVA = "0x5DF09E0", Offset = "0x5DEF9E0", VA = "0x5DF09E0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60007F7")]
-		[Address(RVA = "0x2465EA0", Offset = "0x24644A0", VA = "0x182465EA0", Slot = "4")]
+		[Token(Token = "0x6000802")]
+		[Address(RVA = "0x5DF0A70", Offset = "0x5DEFA70", VA = "0x5DF0A70", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<InterpretedFrameInfo> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ELinq_002EExpressions_002EInterpreter_002EInterpretedFrameInfo_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60007F8")]
-		[Address(RVA = "0x2465EA0", Offset = "0x24644A0", VA = "0x182465EA0", Slot = "5")]
+		[Token(Token = "0x6000803")]
+		[Address(RVA = "0x5DF0B10", Offset = "0x5DEFB10", VA = "0x5DF0B10", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -109,227 +109,227 @@ internal sealed class InterpretedFrame
 		}
 	}
 
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x40002F0")]
 	[ThreadStatic]
 	private static InterpretedFrame s_currentFrame;
 
-	[Token(Token = "0x40002E8")]
+	[Token(Token = "0x40002F1")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly Interpreter Interpreter;
 
-	[Token(Token = "0x40002E9")]
+	[Token(Token = "0x40002F2")]
 	[FieldOffset(Offset = "0x18")]
 	internal InterpretedFrame _parent;
 
-	[Token(Token = "0x40002EA")]
+	[Token(Token = "0x40002F3")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly int[] _continuations;
 
-	[Token(Token = "0x40002EB")]
+	[Token(Token = "0x40002F4")]
 	[FieldOffset(Offset = "0x28")]
 	private int _continuationIndex;
 
-	[Token(Token = "0x40002EC")]
+	[Token(Token = "0x40002F5")]
 	[FieldOffset(Offset = "0x2C")]
 	private int _pendingContinuation;
 
-	[Token(Token = "0x40002ED")]
+	[Token(Token = "0x40002F6")]
 	[FieldOffset(Offset = "0x30")]
 	private object _pendingValue;
 
-	[Token(Token = "0x40002EE")]
+	[Token(Token = "0x40002F7")]
 	[FieldOffset(Offset = "0x38")]
 	public readonly object[] Data;
 
-	[Token(Token = "0x40002EF")]
+	[Token(Token = "0x40002F8")]
 	[FieldOffset(Offset = "0x40")]
 	public readonly IStrongBox[] Closure;
 
-	[Token(Token = "0x40002F0")]
+	[Token(Token = "0x40002F9")]
 	[FieldOffset(Offset = "0x48")]
 	public int StackIndex;
 
-	[Token(Token = "0x40002F1")]
+	[Token(Token = "0x40002FA")]
 	[FieldOffset(Offset = "0x4C")]
 	public int InstructionIndex;
 
-	[Token(Token = "0x170001BA")]
+	[Token(Token = "0x170001BC")]
 	public string Name
 	{
-		[Token(Token = "0x60007D8")]
-		[Address(RVA = "0x244FAF0", Offset = "0x244E0F0", VA = "0x18244FAF0")]
+		[Token(Token = "0x60007E3")]
+		[Address(RVA = "0x5DEFD00", Offset = "0x5DEED00", VA = "0x5DEFD00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001BB")]
+	[Token(Token = "0x170001BD")]
 	public InterpretedFrame Parent
 	{
-		[Token(Token = "0x60007E4")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60007EF")]
+		[Address(RVA = "0x5DEFEA0", Offset = "0x5DEEEA0", VA = "0x5DEFEA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x244F9D0", Offset = "0x244DFD0", VA = "0x18244F9D0")]
+	[Token(Token = "0x60007E1")]
+	[Address(RVA = "0x5DEFAC0", Offset = "0x5DEEAC0", VA = "0x5DEFAC0")]
 	internal InterpretedFrame(Interpreter interpreter, IStrongBox[] closure)
 	{
 	}
 
-	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x244EA20", Offset = "0x244D020", VA = "0x18244EA20")]
+	[Token(Token = "0x60007E2")]
+	[Address(RVA = "0x5DEFBD0", Offset = "0x5DEEBD0", VA = "0x5DEFBD0")]
 	public DebugInfo GetDebugInfo(int instructionIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x244F030", Offset = "0x244D630", VA = "0x18244F030")]
+	[Token(Token = "0x60007E4")]
+	[Address(RVA = "0x5DE39B0", Offset = "0x5DE29B0", VA = "0x5DE39B0")]
 	public void Push(object value)
 	{
 	}
 
-	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x244F330", Offset = "0x244D930", VA = "0x18244F330")]
+	[Token(Token = "0x60007E5")]
+	[Address(RVA = "0x5DE4040", Offset = "0x5DE3040", VA = "0x5DE4040")]
 	public void Push(bool value)
 	{
 	}
 
-	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x244F2A0", Offset = "0x244D8A0", VA = "0x18244F2A0")]
+	[Token(Token = "0x60007E6")]
+	[Address(RVA = "0x5DE84B0", Offset = "0x5DE74B0", VA = "0x5DE84B0")]
 	public void Push(int value)
 	{
 	}
 
-	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x244F160", Offset = "0x244D760", VA = "0x18244F160")]
+	[Token(Token = "0x60007E7")]
+	[Address(RVA = "0x5DE3A20", Offset = "0x5DE2A20", VA = "0x5DE3A20")]
 	public void Push(byte value)
 	{
 	}
 
-	[Token(Token = "0x60007DD")]
-	[Address(RVA = "0x244F200", Offset = "0x244D800", VA = "0x18244F200")]
+	[Token(Token = "0x60007E8")]
+	[Address(RVA = "0x5DEFD20", Offset = "0x5DEED20", VA = "0x5DEFD20")]
 	public void Push(sbyte value)
 	{
 	}
 
-	[Token(Token = "0x60007DE")]
-	[Address(RVA = "0x244F0C0", Offset = "0x244D6C0", VA = "0x18244F0C0")]
+	[Token(Token = "0x60007E9")]
+	[Address(RVA = "0x5DE8380", Offset = "0x5DE7380", VA = "0x5DE8380")]
 	public void Push(short value)
 	{
 	}
 
-	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x244F420", Offset = "0x244DA20", VA = "0x18244F420")]
+	[Token(Token = "0x60007EA")]
+	[Address(RVA = "0x5DE3BC0", Offset = "0x5DE2BC0", VA = "0x5DE3BC0")]
 	public void Push(ushort value)
 	{
 	}
 
-	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x244EEB0", Offset = "0x244D4B0", VA = "0x18244EEB0")]
+	[Token(Token = "0x60007EB")]
+	[Address(RVA = "0x5DE3980", Offset = "0x5DE2980", VA = "0x5DE3980")]
 	public object Pop()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x244F770", Offset = "0x244DD70", VA = "0x18244F770")]
+	[Token(Token = "0x60007EC")]
+	[Address(RVA = "0x5DEFDC0", Offset = "0x5DEEDC0", VA = "0x5DEFDC0")]
 	internal void SetStackDepth(int depth)
 	{
 	}
 
-	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x244EDE0", Offset = "0x244D3E0", VA = "0x18244EDE0")]
+	[Token(Token = "0x60007ED")]
+	[Address(RVA = "0x5DEFDE0", Offset = "0x5DEEDE0", VA = "0x5DEFDE0")]
 	public object Peek()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x244E900", Offset = "0x244CF00", VA = "0x18244E900")]
+	[Token(Token = "0x60007EE")]
+	[Address(RVA = "0x5DEFE10", Offset = "0x5DEEE10", VA = "0x5DEFE10")]
 	public void Dup()
 	{
 	}
 
-	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x244EB50", Offset = "0x244D150", VA = "0x18244EB50")]
+	[Token(Token = "0x60007F0")]
+	[Address(RVA = "0x5DEFEB0", Offset = "0x5DEEEB0", VA = "0x5DEFEB0")]
 	[IteratorStateMachine(typeof(_003CGetStackTraceDebugInfo_003Ed__29))]
 	public IEnumerable<InterpretedFrameInfo> GetStackTraceDebugInfo()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x244F4C0", Offset = "0x244DAC0", VA = "0x18244F4C0")]
+	[Token(Token = "0x60007F1")]
+	[Address(RVA = "0x5DEFF50", Offset = "0x5DEEF50", VA = "0x5DEFF50")]
 	internal void SaveTraceToException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x244E9A0", Offset = "0x244CFA0", VA = "0x18244E9A0")]
+	[Token(Token = "0x60007F2")]
+	[Address(RVA = "0x5DF0200", Offset = "0x5DEF200", VA = "0x5DF0200")]
 	internal InterpretedFrame Enter()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x244ED90", Offset = "0x244D390", VA = "0x18244ED90")]
+	[Token(Token = "0x60007F3")]
+	[Address(RVA = "0x5DF0270", Offset = "0x5DEF270", VA = "0x5DF0270")]
 	internal void Leave(InterpretedFrame prevFrame)
 	{
 	}
 
-	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x244ED80", Offset = "0x244D380", VA = "0x18244ED80")]
+	[Token(Token = "0x60007F4")]
+	[Address(RVA = "0x5DF02C0", Offset = "0x5DEF2C0", VA = "0x5DF02C0")]
 	internal bool IsJumpHappened()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007EA")]
-	[Address(RVA = "0xE47CD0", Offset = "0xE462D0", VA = "0x180E47CD0")]
+	[Token(Token = "0x60007F5")]
+	[Address(RVA = "0x5DF02D0", Offset = "0x5DEF2D0", VA = "0x5DF02D0")]
 	public void RemoveContinuation()
 	{
 	}
 
-	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x244EEF0", Offset = "0x244D4F0", VA = "0x18244EEF0")]
+	[Token(Token = "0x60007F6")]
+	[Address(RVA = "0x5DF02E0", Offset = "0x5DEF2E0", VA = "0x5DF02E0")]
 	public void PushContinuation(int continuation)
 	{
 	}
 
-	[Token(Token = "0x60007EC")]
-	[Address(RVA = "0x244F790", Offset = "0x244DD90", VA = "0x18244F790")]
+	[Token(Token = "0x60007F7")]
+	[Address(RVA = "0x5DF0310", Offset = "0x5DEF310", VA = "0x5DF0310")]
 	public int YieldToCurrentContinuation()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007ED")]
-	[Address(RVA = "0x244F800", Offset = "0x244DE00", VA = "0x18244F800")]
+	[Token(Token = "0x60007F8")]
+	[Address(RVA = "0x5DF0370", Offset = "0x5DEF370", VA = "0x5DF0370")]
 	public int YieldToPendingContinuation()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60007EE")]
-	[Address(RVA = "0x244EF30", Offset = "0x244D530", VA = "0x18244EF30")]
+	[Token(Token = "0x60007F9")]
+	[Address(RVA = "0x5DF0530", Offset = "0x5DEF530", VA = "0x5DF0530")]
 	internal void PushPendingContinuation()
 	{
 	}
 
-	[Token(Token = "0x60007EF")]
-	[Address(RVA = "0x244EE10", Offset = "0x244D410", VA = "0x18244EE10")]
+	[Token(Token = "0x60007FA")]
+	[Address(RVA = "0x5DF0610", Offset = "0x5DEF610", VA = "0x5DF0610")]
 	internal void PopPendingContinuation()
 	{
 	}
 
-	[Token(Token = "0x60007F0")]
-	[Address(RVA = "0x244EBD0", Offset = "0x244D1D0", VA = "0x18244EBD0")]
+	[Token(Token = "0x60007FB")]
+	[Address(RVA = "0x5DF06A0", Offset = "0x5DEF6A0", VA = "0x5DF06A0")]
 	public int Goto(int labelIndex, object value, bool gotoExceptionHandler)
 	{
 		return default(int);

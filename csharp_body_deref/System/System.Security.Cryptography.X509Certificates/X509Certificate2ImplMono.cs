@@ -11,158 +11,158 @@ using Mono.Security.X509;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200013C")]
+[Token(Token = "0x20000FD")]
 internal class X509Certificate2ImplMono : X509Certificate2ImplUnix
 {
-	[Token(Token = "0x40005AE")]
+	[Token(Token = "0x40004DF")]
 	[FieldOffset(Offset = "0xB0")]
 	private X509CertificateImplCollection intermediateCerts;
 
-	[Token(Token = "0x40005AF")]
+	[Token(Token = "0x40004E0")]
 	[FieldOffset(Offset = "0xB8")]
 	private Mono.Security.X509.X509Certificate _cert;
 
-	[Token(Token = "0x40005B0")]
+	[Token(Token = "0x40004E1")]
 	[FieldOffset(Offset = "0x0")]
 	private static string empty_error;
 
-	[Token(Token = "0x40005B1")]
+	[Token(Token = "0x40004E2")]
 	[FieldOffset(Offset = "0x8")]
 	private static byte[] signedData;
 
-	[Token(Token = "0x17000155")]
+	[Token(Token = "0x17000126")]
 	public override bool IsValid
 	{
-		[Token(Token = "0x6000789")]
-		[Address(RVA = "0x2663FD0", Offset = "0x26625D0", VA = "0x182663FD0", Slot = "5")]
+		[Token(Token = "0x60005CE")]
+		[Address(RVA = "0x6212920", Offset = "0x6211920", VA = "0x6212920", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000156")]
+	[Token(Token = "0x17000127")]
 	private Mono.Security.X509.X509Certificate Cert
 	{
-		[Token(Token = "0x600078E")]
-		[Address(RVA = "0x28473D0", Offset = "0x28459D0", VA = "0x1828473D0")]
+		[Token(Token = "0x60005D3")]
+		[Address(RVA = "0x6212CE0", Offset = "0x6211CE0", VA = "0x6212CE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000157")]
+	[Token(Token = "0x17000128")]
 	public override bool HasPrivateKey
 	{
-		[Token(Token = "0x6000790")]
-		[Address(RVA = "0x2884210", Offset = "0x2882810", VA = "0x182884210", Slot = "17")]
+		[Token(Token = "0x60005D5")]
+		[Address(RVA = "0x6212D40", Offset = "0x6211D40", VA = "0x6212D40", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000158")]
+	[Token(Token = "0x17000129")]
 	public override AsymmetricAlgorithm PrivateKey
 	{
-		[Token(Token = "0x6000791")]
-		[Address(RVA = "0x2884230", Offset = "0x2882830", VA = "0x182884230", Slot = "24")]
+		[Token(Token = "0x60005D6")]
+		[Address(RVA = "0x6212D60", Offset = "0x6211D60", VA = "0x6212D60", Slot = "23")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x2884660", Offset = "0x2882C60", VA = "0x182884660", Slot = "25")]
+		[Token(Token = "0x60005D7")]
+		[Address(RVA = "0x6213270", Offset = "0x6212270", VA = "0x6213270", Slot = "24")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000159")]
+	[Token(Token = "0x1700012A")]
 	internal override X509CertificateImplCollection IntermediateCertificates
 	{
-		[Token(Token = "0x6000798")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220", Slot = "29")]
+		[Token(Token = "0x60005DD")]
+		[Address(RVA = "0x6214060", Offset = "0x6213060", VA = "0x6214060", Slot = "28")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700015A")]
+	[Token(Token = "0x1700012B")]
 	internal Mono.Security.X509.X509Certificate MonoCertificate
 	{
-		[Token(Token = "0x6000799")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Token(Token = "0x60005DE")]
+		[Address(RVA = "0x6214070", Offset = "0x6213070", VA = "0x6214070")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600078A")]
-	[Address(RVA = "0x2884110", Offset = "0x2882710", VA = "0x182884110")]
+	[Token(Token = "0x60005CF")]
+	[Address(RVA = "0x6212930", Offset = "0x6211930", VA = "0x6212930")]
 	public X509Certificate2ImplMono(Mono.Security.X509.X509Certificate cert)
 	{
 	}
 
-	[Token(Token = "0x600078B")]
-	[Address(RVA = "0x2884150", Offset = "0x2882750", VA = "0x182884150")]
+	[Token(Token = "0x60005D0")]
+	[Address(RVA = "0x6212980", Offset = "0x6211980", VA = "0x6212980")]
 	private X509Certificate2ImplMono(X509Certificate2ImplMono other)
 	{
 	}
 
-	[Token(Token = "0x600078C")]
-	[Address(RVA = "0x2883EC0", Offset = "0x28824C0", VA = "0x182883EC0")]
+	[Token(Token = "0x60005D1")]
+	[Address(RVA = "0x6212A80", Offset = "0x6211A80", VA = "0x6212A80")]
 	public X509Certificate2ImplMono(byte[] rawData, Microsoft.Win32.SafeHandles.SafePasswordHandle password, X509KeyStorageFlags keyStorageFlags)
 	{
 	}
 
-	[Token(Token = "0x600078D")]
-	[Address(RVA = "0x28832C0", Offset = "0x28818C0", VA = "0x1828832C0", Slot = "6")]
+	[Token(Token = "0x60005D2")]
+	[Address(RVA = "0x6212C80", Offset = "0x6211C80", VA = "0x6212C80", Slot = "6")]
 	public override System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x28834D0", Offset = "0x2881AD0", VA = "0x1828834D0", Slot = "33")]
+	[Token(Token = "0x60005D4")]
+	[Address(RVA = "0x6212D00", Offset = "0x6211D00", VA = "0x6212D00", Slot = "32")]
 	protected override byte[] GetRawCertData()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000793")]
-	[Address(RVA = "0x2883440", Offset = "0x2881A40", VA = "0x182883440", Slot = "18")]
+	[Token(Token = "0x60005D8")]
+	[Address(RVA = "0x6213400", Offset = "0x6212400", VA = "0x6213400", Slot = "18")]
 	public override RSA GetRSAPrivateKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000794")]
-	[Address(RVA = "0x28833B0", Offset = "0x28819B0", VA = "0x1828833B0", Slot = "19")]
+	[Token(Token = "0x60005D9")]
+	[Address(RVA = "0x6213480", Offset = "0x6212480", VA = "0x6213480", Slot = "19")]
 	public override DSA GetDSAPrivateKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000795")]
-	[Address(RVA = "0x2883BE0", Offset = "0x28821E0", VA = "0x182883BE0")]
+	[Token(Token = "0x60005DA")]
+	[Address(RVA = "0x6212C30", Offset = "0x6211C30", VA = "0x6212C30")]
 	private Mono.Security.X509.X509Certificate ImportPkcs12(byte[] rawData, Microsoft.Win32.SafeHandles.SafePasswordHandle password)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000796")]
-	[Address(RVA = "0x2883520", Offset = "0x2881B20", VA = "0x182883520")]
+	[Token(Token = "0x60005DB")]
+	[Address(RVA = "0x6213500", Offset = "0x6212500", VA = "0x6213500")]
 	private Mono.Security.X509.X509Certificate ImportPkcs12(byte[] rawData, string password)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000797")]
-	[Address(RVA = "0x2883C50", Offset = "0x2882250", VA = "0x182883C50", Slot = "31")]
+	[Token(Token = "0x60005DC")]
+	[Address(RVA = "0x6213EB0", Offset = "0x6212EB0", VA = "0x6213EB0", Slot = "30")]
 	[System.MonoTODO("by default this depends on the incomplete X509Chain")]
 	public override bool Verify(X509Certificate2 thisCertificate)
 	{

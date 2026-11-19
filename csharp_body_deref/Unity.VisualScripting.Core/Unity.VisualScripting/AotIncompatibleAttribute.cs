@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public sealed class AotIncompatibleAttribute : Attribute
 {
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x67A87A0", Offset = "0x67A77A0", VA = "0x67A87A0")]
 	public AotIncompatibleAttribute()
 	{
 	}

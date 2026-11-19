@@ -17,14 +17,14 @@ public class WheelEvent : MouseEventBase<WheelEvent>
 	public Vector3 delta
 	{
 		[Token(Token = "0x6000D83")]
-		[Address(RVA = "0x2101A80", Offset = "0x2100080", VA = "0x182101A80")]
+		[Address(RVA = "0x6C690D0", Offset = "0x6C680D0", VA = "0x6C690D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000D84")]
-		[Address(RVA = "0x3272380", Offset = "0x3270980", VA = "0x183272380")]
+		[Address(RVA = "0x6C690F0", Offset = "0x6C680F0", VA = "0x6C690F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -32,52 +32,52 @@ public class WheelEvent : MouseEventBase<WheelEvent>
 	}
 
 	[Token(Token = "0x6000D82")]
-	[Address(RVA = "0x3272250", Offset = "0x3270850", VA = "0x183272250")]
+	[Address(RVA = "0x6C69000", Offset = "0x6C68000", VA = "0x6C69000")]
 	static WheelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D85")]
-	[Address(RVA = "0x3271FC0", Offset = "0x32705C0", VA = "0x183271FC0")]
+	[Address(RVA = "0x6C69100", Offset = "0x6C68100", VA = "0x6C69100")]
 	public new static WheelEvent GetPooled(Event systemEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D86")]
-	[Address(RVA = "0x32720C0", Offset = "0x32706C0", VA = "0x1832720C0")]
+	[Address(RVA = "0x6C69170", Offset = "0x6C68170", VA = "0x6C69170")]
 	internal static WheelEvent GetPooled(Vector3 delta, Vector3 mousePosition, EventModifiers modifiers = EventModifiers.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D87")]
-	[Address(RVA = "0x3272050", Offset = "0x3270650", VA = "0x183272050")]
+	[Address(RVA = "0x6C69230", Offset = "0x6C68230", VA = "0x6C69230")]
 	internal static WheelEvent GetPooled(Vector3 delta, IPointerEvent pointerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D88")]
-	[Address(RVA = "0x3272180", Offset = "0x3270780", VA = "0x183272180", Slot = "13")]
+	[Address(RVA = "0x6C692A0", Offset = "0x6C682A0", VA = "0x6C692A0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000D89")]
-	[Address(RVA = "0x32721D0", Offset = "0x32707D0", VA = "0x1832721D0")]
+	[Address(RVA = "0x6C69350", Offset = "0x6C68350", VA = "0x6C69350")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000D8A")]
-	[Address(RVA = "0x3272330", Offset = "0x3270930", VA = "0x183272330")]
+	[Address(RVA = "0x6C693D0", Offset = "0x6C683D0", VA = "0x6C693D0")]
 	public WheelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x3271E60", Offset = "0x3270460", VA = "0x183271E60", Slot = "10")]
+	[Address(RVA = "0x6C69480", Offset = "0x6C68480", VA = "0x6C69480", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

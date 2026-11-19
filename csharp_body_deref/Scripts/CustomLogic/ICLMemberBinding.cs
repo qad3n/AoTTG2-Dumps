@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003F4")]
+[Token(Token = "0x2000453")]
 internal interface ICLMemberBinding
 {
 }

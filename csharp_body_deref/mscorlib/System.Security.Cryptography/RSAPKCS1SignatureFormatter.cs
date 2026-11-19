@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200034B")]
+[Token(Token = "0x2000324")]
 [ComVisible(true)]
 public class RSAPKCS1SignatureFormatter : AsymmetricSignatureFormatter
 {
-	[Token(Token = "0x4000E12")]
+	[Token(Token = "0x4000D72")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private RSA rsa;
 
-	[Token(Token = "0x4000E13")]
+	[Token(Token = "0x4000D73")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string hash;
 
-	[Token(Token = "0x6001BBF")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6001B9C")]
+	[Address(RVA = "0x535F820", Offset = "0x535E820", VA = "0x535F820")]
 	public RSAPKCS1SignatureFormatter()
 	{
 	}
 
-	[Token(Token = "0x6001BC0")]
-	[Address(RVA = "0x19DD8E0", Offset = "0x19DBEE0", VA = "0x1819DD8E0")]
+	[Token(Token = "0x6001B9D")]
+	[Address(RVA = "0x535F830", Offset = "0x535E830", VA = "0x535F830")]
 	public RSAPKCS1SignatureFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001BC1")]
-	[Address(RVA = "0x19DD920", Offset = "0x19DBF20", VA = "0x1819DD920", Slot = "7")]
+	[Token(Token = "0x6001B9E")]
+	[Address(RVA = "0x535F870", Offset = "0x535E870", VA = "0x535F870", Slot = "7")]
 	public override byte[] CreateSignature(byte[] rgbHash)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BC2")]
-	[Address(RVA = "0x19DDAA0", Offset = "0x19DC0A0", VA = "0x1819DDAA0", Slot = "5")]
+	[Token(Token = "0x6001B9F")]
+	[Address(RVA = "0x535F970", Offset = "0x535E970", VA = "0x535F970", Slot = "5")]
 	public override void SetHashAlgorithm(string strName)
 	{
 	}
 
-	[Token(Token = "0x6001BC3")]
-	[Address(RVA = "0x19DDB10", Offset = "0x19DC110", VA = "0x1819DDB10", Slot = "4")]
+	[Token(Token = "0x6001BA0")]
+	[Address(RVA = "0x535F9D0", Offset = "0x535E9D0", VA = "0x535F9D0", Slot = "4")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}

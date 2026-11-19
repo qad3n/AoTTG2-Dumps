@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderersParameters
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -75,7 +75,7 @@ internal struct RenderersParameters
 		public static readonly int[] DOTS_ST_WindHistoryParams;
 
 		[Token(Token = "0x60003B9")]
-		[Address(RVA = "0x2BF8F60", Offset = "0x2BF7560", VA = "0x182BF8F60")]
+		[Address(RVA = "0x65F1570", Offset = "0x65F0570", VA = "0x65F1570")]
 		static ParamNames()
 		{
 		}
@@ -100,7 +100,7 @@ internal struct RenderersParameters
 		public bool valid
 		{
 			[Token(Token = "0x60003BA")]
-			[Address(RVA = "0x1DBB1F0", Offset = "0x1DB97F0", VA = "0x181DBB1F0")]
+			[Address(RVA = "0x65F18B0", Offset = "0x65F08B0", VA = "0x65F18B0")]
 			get
 			{
 				return default(bool);
@@ -153,14 +153,14 @@ internal struct RenderersParameters
 	public ParamInfo[] windHistoryParams;
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x2BFBFC0", Offset = "0x2BFA5C0", VA = "0x182BFBFC0")]
+	[Address(RVA = "0x65F0040", Offset = "0x65EF040", VA = "0x65F0040")]
 	public static GPUInstanceDataBuffer CreateInstanceDataBuffer(Flags flags, in InstanceNumInfo instanceNumInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x2BFC560", Offset = "0x2BFAB60", VA = "0x182BFC560")]
+	[Address(RVA = "0x65F0490", Offset = "0x65EF490", VA = "0x65F0490")]
 	public RenderersParameters(in GPUInstanceDataBuffer instanceDataBuffer)
 	{
 	}

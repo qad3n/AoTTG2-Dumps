@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003F2")]
+[Token(Token = "0x20003AE")]
 public sealed class MailSettingsSectionGroup : ConfigurationSectionGroup
 {
-	[Token(Token = "0x170005B6")]
+	[Token(Token = "0x17000588")]
 	public SmtpSection Smtp
 	{
-		[Token(Token = "0x6001A6B")]
-		[Address(RVA = "0x282B380", Offset = "0x2829980", VA = "0x18282B380")]
+		[Token(Token = "0x60018B1")]
+		[Address(RVA = "0x61D0AA0", Offset = "0x61CFAA0", VA = "0x61D0AA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001A6A")]
-	[Address(RVA = "0x282B350", Offset = "0x2829950", VA = "0x18282B350")]
+	[Token(Token = "0x60018B0")]
+	[Address(RVA = "0x61D0A70", Offset = "0x61CFA70", VA = "0x61D0A70")]
 	public MailSettingsSectionGroup()
 	{
 	}

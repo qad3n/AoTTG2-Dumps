@@ -12,12 +12,12 @@ namespace UnityEngine.Playables;
 [Token(Token = "0x2000307")]
 public enum DirectorUpdateMode
 {
-	[Token(Token = "0x40007AA")]
+	[Token(Token = "0x40007A8")]
 	DSPClock,
-	[Token(Token = "0x40007AB")]
+	[Token(Token = "0x40007A9")]
 	GameTime,
-	[Token(Token = "0x40007AC")]
+	[Token(Token = "0x40007AA")]
 	UnscaledGameTime,
-	[Token(Token = "0x40007AD")]
+	[Token(Token = "0x40007AB")]
 	Manual
 }

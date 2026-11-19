@@ -43,19 +43,19 @@ public class MoveByKeys : MonoBehaviourPun
 	private Rigidbody2D body2d;
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x1D53880", Offset = "0x1D51E80", VA = "0x181D53880")]
+	[Address(RVA = "0x56F3CB0", Offset = "0x56F2CB0", VA = "0x56F3CB0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x1D533B0", Offset = "0x1D519B0", VA = "0x181D533B0")]
+	[Address(RVA = "0x56F3D90", Offset = "0x56F2D90", VA = "0x56F3D90")]
 	public void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x1D53950", Offset = "0x1D51F50", VA = "0x181D53950")]
+	[Address(RVA = "0x56F41B0", Offset = "0x56F31B0", VA = "0x56F41B0")]
 	public MoveByKeys()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Characters.NoneSpecial
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/NoneSpecial.cs
@@ -8,7 +8,7 @@
 
 // Characters.NoneSpecial$$.ctor
 // il2cpp: void Characters_NoneSpecial___ctor (Characters_NoneSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x182171670
+// 0x5c0d7b0
 
 void Characters_NoneSpecial___ctor
                (Characters_NoneSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
@@ -22,10 +22,9 @@ void Characters_NoneSpecial___ctor
 
 // Characters.NoneSpecial$$CanUse
 // il2cpp: bool Characters_NoneSpecial__CanUse (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x180668280
+// 0x5c0d7d0
 
-bool
-Characters_NoneSpecial__CanUse(Characters_NoneSpecial_o* __this, MethodInfo* method)
+bool Characters_NoneSpecial__CanUse(Characters_NoneSpecial_o *__this,MethodInfo *method)
 
 {
   return false;
@@ -34,10 +33,9 @@ Characters_NoneSpecial__CanUse(Characters_NoneSpecial_o* __this, MethodInfo* met
 
 // Characters.NoneSpecial$$Activate
 // il2cpp: void Characters_NoneSpecial__Activate (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5c0d7e0
 
-void
-Characters_NoneSpecial__Activate(Characters_NoneSpecial_o* __this, MethodInfo* method)
+void Characters_NoneSpecial__Activate(Characters_NoneSpecial_o *__this,MethodInfo *method)
 
 {
   return;
@@ -46,10 +44,9 @@ Characters_NoneSpecial__Activate(Characters_NoneSpecial_o* __this, MethodInfo* m
 
 // Characters.NoneSpecial$$Deactivate
 // il2cpp: void Characters_NoneSpecial__Deactivate (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x5c0d7f0
 
-void
-Characters_NoneSpecial__Deactivate(Characters_NoneSpecial_o* __this, MethodInfo* method)
+void Characters_NoneSpecial__Deactivate(Characters_NoneSpecial_o *__this,MethodInfo *method)
 
 {
   return;

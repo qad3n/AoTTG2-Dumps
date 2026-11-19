@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Spawnables;
 
-[Token(Token = "0x2000060")]
+[Token(Token = "0x200005F")]
 internal class Rock1Spawnable : BaseSpawnable
 {
-	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x1DC9420", Offset = "0x1DC7A20", VA = "0x181DC9420", Slot = "5")]
+	[Token(Token = "0x600030D")]
+	[Address(RVA = "0x576DBA0", Offset = "0x576CBA0", VA = "0x576DBA0", Slot = "5")]
 	protected override void SetupSettings(object[] settings)
 	{
 	}
 
-	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x600030E")]
+	[Address(RVA = "0x576DD80", Offset = "0x576CD80", VA = "0x576DD80")]
 	public Rock1Spawnable()
 	{
 	}

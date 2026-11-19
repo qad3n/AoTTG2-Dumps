@@ -18,7 +18,7 @@ internal class ExtensionMethodCache
 	internal readonly MethodInfo[] Cache;
 
 	[Token(Token = "0x60006AE")]
-	[Address(RVA = "0x2DD6240", Offset = "0x2DD4840", VA = "0x182DD6240")]
+	[Address(RVA = "0x67BD560", Offset = "0x67BC560", VA = "0x67BD560")]
 	internal ExtensionMethodCache()
 	{
 	}

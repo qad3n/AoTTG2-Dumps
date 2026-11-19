@@ -10,115 +10,126 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200033C")]
+[Token(Token = "0x2000315")]
 [ComVisible(true)]
 public abstract class SymmetricAlgorithm : IDisposable
 {
-	[Token(Token = "0x4000D91")]
+	[Token(Token = "0x4000CF1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	protected int BlockSizeValue;
 
-	[Token(Token = "0x4000D92")]
+	[Token(Token = "0x4000CF2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	protected int FeedbackSizeValue;
 
-	[Token(Token = "0x4000D93")]
+	[Token(Token = "0x4000CF3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	protected byte[] IVValue;
 
-	[Token(Token = "0x4000D94")]
+	[Token(Token = "0x4000CF4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	protected byte[] KeyValue;
 
-	[Token(Token = "0x4000D95")]
+	[Token(Token = "0x4000CF5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	protected KeySizes[] LegalBlockSizesValue;
 
-	[Token(Token = "0x4000D96")]
+	[Token(Token = "0x4000CF6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	protected KeySizes[] LegalKeySizesValue;
 
-	[Token(Token = "0x4000D97")]
+	[Token(Token = "0x4000CF7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	protected int KeySizeValue;
 
-	[Token(Token = "0x4000D98")]
+	[Token(Token = "0x4000CF8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 	protected CipherMode ModeValue;
 
-	[Token(Token = "0x4000D99")]
+	[Token(Token = "0x4000CF9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	protected PaddingMode PaddingValue;
 
-	[Token(Token = "0x170002DF")]
+	[Token(Token = "0x170002DE")]
 	public virtual int BlockSize
 	{
-		[Token(Token = "0x6001B0F")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "6")]
+		[Token(Token = "0x6001AEC")]
+		[Address(RVA = "0x5353BD0", Offset = "0x5352BD0", VA = "0x5353BD0", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001B10")]
-		[Address(RVA = "0x19CF1D0", Offset = "0x19CD7D0", VA = "0x1819CF1D0", Slot = "7")]
+		[Token(Token = "0x6001AED")]
+		[Address(RVA = "0x5353BE0", Offset = "0x5352BE0", VA = "0x5353BE0", Slot = "7")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002DF")]
+	public virtual int FeedbackSize
+	{
+		[Token(Token = "0x6001AEE")]
+		[Address(RVA = "0x5353CC0", Offset = "0x5352CC0", VA = "0x5353CC0", Slot = "8")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x6001AEF")]
+		[Address(RVA = "0x5353CD0", Offset = "0x5352CD0", VA = "0x5353CD0", Slot = "9")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002E0")]
-	public virtual int FeedbackSize
+	public virtual byte[] IV
 	{
-		[Token(Token = "0x6001B11")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "8")]
+		[Token(Token = "0x6001AF0")]
+		[Address(RVA = "0x5353D50", Offset = "0x5352D50", VA = "0x5353D50", Slot = "10")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6001B12")]
-		[Address(RVA = "0x19CF2F0", Offset = "0x19CD8F0", VA = "0x1819CF2F0", Slot = "9")]
+		[Token(Token = "0x6001AF1")]
+		[Address(RVA = "0x5353DE0", Offset = "0x5352DE0", VA = "0x5353DE0", Slot = "11")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002E1")]
-	public virtual byte[] IV
+	public virtual byte[] Key
 	{
-		[Token(Token = "0x6001B13")]
-		[Address(RVA = "0x19CEF80", Offset = "0x19CD580", VA = "0x1819CEF80", Slot = "10")]
+		[Token(Token = "0x6001AF2")]
+		[Address(RVA = "0x5353F30", Offset = "0x5352F30", VA = "0x5353F30", Slot = "12")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001B14")]
-		[Address(RVA = "0x19CF380", Offset = "0x19CD980", VA = "0x1819CF380", Slot = "11")]
+		[Token(Token = "0x6001AF3")]
+		[Address(RVA = "0x5353FC0", Offset = "0x5352FC0", VA = "0x5353FC0", Slot = "13")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002E2")]
-	public virtual byte[] Key
+	public virtual KeySizes[] LegalBlockSizes
 	{
-		[Token(Token = "0x6001B15")]
-		[Address(RVA = "0x19CF020", Offset = "0x19CD620", VA = "0x1819CF020", Slot = "12")]
+		[Token(Token = "0x6001AF4")]
+		[Address(RVA = "0x5354210", Offset = "0x5353210", VA = "0x5354210", Slot = "14")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001B16")]
-		[Address(RVA = "0x19CF590", Offset = "0x19CDB90", VA = "0x1819CF590", Slot = "13")]
-		set
-		{
-		}
 	}
 
 	[Token(Token = "0x170002E3")]
-	public virtual KeySizes[] LegalBlockSizes
+	public virtual KeySizes[] LegalKeySizes
 	{
-		[Token(Token = "0x6001B17")]
-		[Address(RVA = "0x19CF0C0", Offset = "0x19CD6C0", VA = "0x1819CF0C0", Slot = "14")]
+		[Token(Token = "0x6001AF5")]
+		[Address(RVA = "0x5354290", Offset = "0x5353290", VA = "0x5354290", Slot = "15")]
 		get
 		{
 			return null;
@@ -126,132 +137,121 @@ public abstract class SymmetricAlgorithm : IDisposable
 	}
 
 	[Token(Token = "0x170002E4")]
-	public virtual KeySizes[] LegalKeySizes
-	{
-		[Token(Token = "0x6001B18")]
-		[Address(RVA = "0x19CF140", Offset = "0x19CD740", VA = "0x1819CF140", Slot = "15")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170002E5")]
 	public virtual int KeySize
 	{
-		[Token(Token = "0x6001B19")]
-		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "16")]
+		[Token(Token = "0x6001AF6")]
+		[Address(RVA = "0x5354310", Offset = "0x5353310", VA = "0x5354310", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001B1A")]
-		[Address(RVA = "0x19CF4F0", Offset = "0x19CDAF0", VA = "0x1819CF4F0", Slot = "17")]
+		[Token(Token = "0x6001AF7")]
+		[Address(RVA = "0x5354320", Offset = "0x5353320", VA = "0x5354320", Slot = "17")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002E5")]
+	public virtual CipherMode Mode
+	{
+		[Token(Token = "0x6001AF8")]
+		[Address(RVA = "0x5354410", Offset = "0x5353410", VA = "0x5354410", Slot = "18")]
+		get
+		{
+			return default(CipherMode);
+		}
+		[Token(Token = "0x6001AF9")]
+		[Address(RVA = "0x5354420", Offset = "0x5353420", VA = "0x5354420", Slot = "19")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002E6")]
-	public virtual CipherMode Mode
-	{
-		[Token(Token = "0x6001B1B")]
-		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0", Slot = "18")]
-		get
-		{
-			return default(CipherMode);
-		}
-		[Token(Token = "0x6001B1C")]
-		[Address(RVA = "0x19CF720", Offset = "0x19CDD20", VA = "0x1819CF720", Slot = "19")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002E7")]
 	public virtual PaddingMode Padding
 	{
-		[Token(Token = "0x6001B1D")]
-		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0", Slot = "20")]
+		[Token(Token = "0x6001AFA")]
+		[Address(RVA = "0x5354490", Offset = "0x5353490", VA = "0x5354490", Slot = "20")]
 		get
 		{
 			return default(PaddingMode);
 		}
-		[Token(Token = "0x6001B1E")]
-		[Address(RVA = "0x19CF7A0", Offset = "0x19CDDA0", VA = "0x1819CF7A0", Slot = "21")]
+		[Token(Token = "0x6001AFB")]
+		[Address(RVA = "0x53544A0", Offset = "0x53534A0", VA = "0x53544A0", Slot = "21")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001B0B")]
-	[Address(RVA = "0x19CEF50", Offset = "0x19CD550", VA = "0x1819CEF50")]
+	[Token(Token = "0x6001AE8")]
+	[Address(RVA = "0x5353A40", Offset = "0x5352A40", VA = "0x5353A40")]
 	protected SymmetricAlgorithm()
 	{
 	}
 
-	[Token(Token = "0x6001B0C")]
-	[Address(RVA = "0x19CEE40", Offset = "0x19CD440", VA = "0x1819CEE40", Slot = "4")]
+	[Token(Token = "0x6001AE9")]
+	[Address(RVA = "0x5353A60", Offset = "0x5352A60", VA = "0x5353A60", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001B0D")]
-	[Address(RVA = "0x19CEB30", Offset = "0x19CD130", VA = "0x1819CEB30")]
+	[Token(Token = "0x6001AEA")]
+	[Address(RVA = "0x5353AD0", Offset = "0x5352AD0", VA = "0x5353AD0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001B0E")]
-	[Address(RVA = "0x19CEDC0", Offset = "0x19CD3C0", VA = "0x1819CEDC0", Slot = "5")]
+	[Token(Token = "0x6001AEB")]
+	[Address(RVA = "0x5353B60", Offset = "0x5352B60", VA = "0x5353B60", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001B1F")]
-	[Address(RVA = "0x19CEEA0", Offset = "0x19CD4A0", VA = "0x1819CEEA0")]
+	[Token(Token = "0x6001AFC")]
+	[Address(RVA = "0x5354190", Offset = "0x5353190", VA = "0x5354190")]
 	public bool ValidKeySize(int bitLength)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001B20")]
-	[Address(RVA = "0x19CECA0", Offset = "0x19CD2A0", VA = "0x1819CECA0")]
+	[Token(Token = "0x6001AFD")]
+	[Address(RVA = "0x5354510", Offset = "0x5353510", VA = "0x5354510")]
 	public static SymmetricAlgorithm Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B21")]
-	[Address(RVA = "0x19CECF0", Offset = "0x19CD2F0", VA = "0x1819CECF0")]
+	[Token(Token = "0x6001AFE")]
+	[Address(RVA = "0x5354550", Offset = "0x5353550", VA = "0x5354550")]
 	public static SymmetricAlgorithm Create(string algName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B22")]
-	[Address(RVA = "0x19CEC40", Offset = "0x19CD240", VA = "0x1819CEC40", Slot = "22")]
+	[Token(Token = "0x6001AFF")]
+	[Address(RVA = "0x5354660", Offset = "0x5353660", VA = "0x5354660", Slot = "22")]
 	public virtual ICryptoTransform CreateEncryptor()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B23")]
+	[Token(Token = "0x6001B00")]
 	public abstract ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV);
 
-	[Token(Token = "0x6001B24")]
-	[Address(RVA = "0x19CEBE0", Offset = "0x19CD1E0", VA = "0x1819CEBE0", Slot = "24")]
+	[Token(Token = "0x6001B01")]
+	[Address(RVA = "0x53546C0", Offset = "0x53536C0", VA = "0x53546C0", Slot = "24")]
 	public virtual ICryptoTransform CreateDecryptor()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B25")]
+	[Token(Token = "0x6001B02")]
 	public abstract ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV);
 
-	[Token(Token = "0x6001B26")]
+	[Token(Token = "0x6001B03")]
 	public abstract void GenerateKey();
 
-	[Token(Token = "0x6001B27")]
+	[Token(Token = "0x6001B04")]
 	public abstract void GenerateIV();
 }

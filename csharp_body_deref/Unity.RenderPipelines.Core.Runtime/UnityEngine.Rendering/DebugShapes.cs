@@ -36,7 +36,7 @@ public class DebugShapes
 	public static DebugShapes instance
 	{
 		[Token(Token = "0x6000687")]
-		[Address(RVA = "0x2AE0360", Offset = "0x2ADE960", VA = "0x182AE0360")]
+		[Address(RVA = "0x64D0CC0", Offset = "0x64CFCC0", VA = "0x64D0CC0")]
 		get
 		{
 			return null;
@@ -44,78 +44,78 @@ public class DebugShapes
 	}
 
 	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x2ADF800", Offset = "0x2ADDE00", VA = "0x182ADF800")]
+	[Address(RVA = "0x64D0D60", Offset = "0x64CFD60", VA = "0x64D0D60")]
 	private void BuildSphere(ref Mesh outputMesh, float radius, uint longSubdiv, uint latSubdiv)
 	{
 	}
 
 	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x2ADDAA0", Offset = "0x2ADC0A0", VA = "0x182ADDAA0")]
+	[Address(RVA = "0x64D15B0", Offset = "0x64D05B0", VA = "0x64D15B0")]
 	private void BuildBox(ref Mesh outputMesh, float length, float width, float height)
 	{
 	}
 
 	[Token(Token = "0x600068A")]
-	[Address(RVA = "0x2ADE780", Offset = "0x2ADCD80", VA = "0x182ADE780")]
+	[Address(RVA = "0x64D1F30", Offset = "0x64D0F30", VA = "0x64D1F30")]
 	private void BuildCone(ref Mesh outputMesh, float height, float topRadius, float bottomRadius, int nbSides)
 	{
 	}
 
 	[Token(Token = "0x600068B")]
-	[Address(RVA = "0x2ADF1F0", Offset = "0x2ADD7F0", VA = "0x182ADF1F0")]
+	[Address(RVA = "0x64D29E0", Offset = "0x64D19E0", VA = "0x64D29E0")]
 	private void BuildPyramid(ref Mesh outputMesh, float width, float height, float depth)
 	{
 	}
 
 	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x2ADF680", Offset = "0x2ADDC80", VA = "0x182ADF680")]
+	[Address(RVA = "0x64D2E20", Offset = "0x64D1E20", VA = "0x64D2E20")]
 	private void BuildShapes()
 	{
 	}
 
 	[Token(Token = "0x600068D")]
-	[Address(RVA = "0x2AE0090", Offset = "0x2ADE690", VA = "0x182AE0090")]
+	[Address(RVA = "0x64D2F60", Offset = "0x64D1F60", VA = "0x64D2F60")]
 	private void RebuildResources()
 	{
 	}
 
 	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x2AE0340", Offset = "0x2ADE940", VA = "0x182AE0340")]
+	[Address(RVA = "0x64D3040", Offset = "0x64D2040", VA = "0x64D3040")]
 	public Mesh RequestSphereMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600068F")]
-	[Address(RVA = "0x2ADF160", Offset = "0x2ADD760", VA = "0x182ADF160")]
+	[Address(RVA = "0x64D3050", Offset = "0x64D2050", VA = "0x64D3050")]
 	public Mesh BuildCustomSphereMesh(float radius, uint longSubdiv, uint latSubdiv)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x2AE02E0", Offset = "0x2ADE8E0", VA = "0x182AE02E0")]
+	[Address(RVA = "0x64D30D0", Offset = "0x64D20D0", VA = "0x64D30D0")]
 	public Mesh RequestBoxMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x2AE0300", Offset = "0x2ADE900", VA = "0x182AE0300")]
+	[Address(RVA = "0x64D30E0", Offset = "0x64D20E0", VA = "0x64D30E0")]
 	public Mesh RequestConeMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x2AE0320", Offset = "0x2ADE920", VA = "0x182AE0320")]
+	[Address(RVA = "0x64D30F0", Offset = "0x64D20F0", VA = "0x64D30F0")]
 	public Mesh RequestPyramidMesh()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x64D0D50", Offset = "0x64CFD50", VA = "0x64D0D50")]
 	public DebugShapes()
 	{
 	}

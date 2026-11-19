@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200051D")]
+[Token(Token = "0x20004F6")]
 [DefaultMember("Item")]
 public readonly struct ParameterModifier
 {
-	[Token(Token = "0x4001451")]
+	[Token(Token = "0x40013B1")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly bool[] _byRef;
 }

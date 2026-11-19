@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RadeonRays.HlbvhBuilder
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -52,14 +52,14 @@ internal class HlbvhBuilder
 		public uint TotalSize;
 
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x2D94490", Offset = "0x2D92A90", VA = "0x182D94490")]
+		[Address(RVA = "0x67768C0", Offset = "0x67758C0", VA = "0x67768C0")]
 		public static ScratchBufferLayout Create(uint triangleCount)
 		{
 			return default(ScratchBufferLayout);
 		}
 
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x2D94610", Offset = "0x2D92C10", VA = "0x182D94610")]
+		[Address(RVA = "0x67776D0", Offset = "0x67766D0", VA = "0x67776D0")]
 		private uint Reserve(uint size)
 		{
 			return default(uint);
@@ -100,40 +100,40 @@ internal class HlbvhBuilder
 	private const uint kTrianglesPerGroup = 2048u;
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x2D902E0", Offset = "0x2D8E8E0", VA = "0x182D902E0")]
+	[Address(RVA = "0x6776640", Offset = "0x6775640", VA = "0x6776640")]
 	public HlbvhBuilder(RadeonRaysShaders shaders)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x2D90270", Offset = "0x2D8E870", VA = "0x182D90270")]
+	[Address(RVA = "0x6776870", Offset = "0x6775870", VA = "0x6776870")]
 	public uint GetScratchDataSizeInDwords(uint triangleCount)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x2D90250", Offset = "0x2D8E850", VA = "0x182D90250")]
+	[Address(RVA = "0x6775BF0", Offset = "0x6774BF0", VA = "0x6775BF0")]
 	public static uint GetBvhNodeCount(uint leafCount)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x2D90260", Offset = "0x2D8E860", VA = "0x182D90260")]
+	[Address(RVA = "0x6776950", Offset = "0x6775950", VA = "0x6776950")]
 	public uint GetResultDataSizeInDwords(uint triangleCount)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x2D8FB20", Offset = "0x2D8E120", VA = "0x182D8FB20")]
+	[Address(RVA = "0x6776960", Offset = "0x6775960", VA = "0x6776960")]
 	public void Execute(CommandBuffer cmd, GraphicsBuffer vertices, int verticesOffset, uint vertexStride, GraphicsBuffer indices, int indicesOffset, int baseIndex, IndexFormat indexFormat, uint triangleCount, GraphicsBuffer scratch, in BottomLevelLevelAccelStruct result)
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x2D8F8E0", Offset = "0x2D8DEE0", VA = "0x182D8F8E0")]
+	[Address(RVA = "0x67770A0", Offset = "0x67760A0", VA = "0x67770A0")]
 	private void BindKernelArguments(CommandBuffer cmd, int kernel, GraphicsBuffer vertices, GraphicsBuffer indices, GraphicsBuffer scratch, ScratchBufferLayout scratchLayout, BottomLevelLevelAccelStruct result, bool setSortedCodes)
 	{
 	}

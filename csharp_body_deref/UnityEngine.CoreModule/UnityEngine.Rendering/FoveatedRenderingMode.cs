@@ -12,8 +12,8 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000341")]
 public enum FoveatedRenderingMode
 {
-	[Token(Token = "0x400093D")]
+	[Token(Token = "0x400093B")]
 	Disabled,
-	[Token(Token = "0x400093E")]
+	[Token(Token = "0x400093C")]
 	Enabled
 }

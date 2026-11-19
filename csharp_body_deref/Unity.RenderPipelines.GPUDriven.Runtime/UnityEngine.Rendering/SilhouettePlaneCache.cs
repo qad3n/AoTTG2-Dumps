@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.SilhouettePlaneCache
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ internal struct SilhouettePlaneCache : IDisposable
 		public int lastUsedFrameIndex;
 
 		[Token(Token = "0x6000359")]
-		[Address(RVA = "0x2BFD6F0", Offset = "0x2BFBCF0", VA = "0x182BFD6F0")]
+		[Address(RVA = "0x65EADF0", Offset = "0x65E9DF0", VA = "0x65EADF0")]
 		public Slot(int viewInstanceID, int planeCount, int frameIndex)
 		{
 		}
@@ -60,31 +60,31 @@ internal struct SilhouettePlaneCache : IDisposable
 	private NativeList<Plane> m_PlaneStorage;
 
 	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x2BFD1F0", Offset = "0x2BFB7F0", VA = "0x182BFD1F0")]
+	[Address(RVA = "0x65EA830", Offset = "0x65E9830", VA = "0x65EA830")]
 	public void Init()
 	{
 	}
 
 	[Token(Token = "0x6000355")]
-	[Address(RVA = "0x2BFCE80", Offset = "0x2BFB480", VA = "0x182BFCE80", Slot = "4")]
+	[Address(RVA = "0x65EA960", Offset = "0x65E9960", VA = "0x65EA960", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000356")]
-	[Address(RVA = "0x2BFD320", Offset = "0x2BFB920", VA = "0x182BFD320")]
+	[Address(RVA = "0x65EAA00", Offset = "0x65E9A00", VA = "0x65EAA00")]
 	public void Update(int viewInstanceID, NativeArray<Plane> planes, int frameIndex)
 	{
 	}
 
 	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x2BFCF10", Offset = "0x2BFB510", VA = "0x182BFCF10")]
+	[Address(RVA = "0x65EAE00", Offset = "0x65E9E00", VA = "0x65EAE00")]
 	public void FreeUnusedSlots(int frameIndex, int maximumAge)
 	{
 	}
 
 	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x2BFD0C0", Offset = "0x2BFB6C0", VA = "0x182BFD0C0")]
+	[Address(RVA = "0x65EAFA0", Offset = "0x65E9FA0", VA = "0x65EAFA0")]
 	public NativeArray<Plane> GetSubArray(int viewInstanceID)
 	{
 		return default(NativeArray<Plane>);

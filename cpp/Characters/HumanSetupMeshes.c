@@ -1,5 +1,5 @@
 // Type: Characters.HumanSetupMeshes
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/HumanSetupMeshes.cs
@@ -8,41 +8,40 @@
 
 // Characters.HumanSetupMeshes$$.ctor
 // il2cpp: void Characters_HumanSetupMeshes___ctor (Characters_HumanSetupMeshes_o* __this, Characters_HumanSetup_o* setup, const MethodInfo* method);
-// 0x182170ad0
+// 0x5c06210
 
 void Characters_HumanSetupMeshes___ctor
                (Characters_HumanSetupMeshes_o *__this,Characters_HumanSetup_o *setup,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184346cba == '\0') {
+  if (Il2CppMethodInitialized_0754768a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Human/Parts/Costumes/Prefabs/");
     il2cpp_codegen_initialize_runtime_metadata(&"Human/Parts/Face/Prefabs/");
     il2cpp_codegen_initialize_runtime_metadata(&"Human/Parts/Hairs/Prefabs/");
     il2cpp_codegen_initialize_runtime_metadata(&"Human/Parts/Weapons/Prefabs/");
     il2cpp_codegen_initialize_runtime_metadata(&"Human/Parts/Accessories/Prefabs/");
-    Il2CppMethodInitialized_184346cba = '\x01';
+    Il2CppMethodInitialized_0754768a = '\x01';
   }
   (__this->fields).CostumesPath = "Human/Parts/Costumes/Prefabs/";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).CostumesPath,"Human/Parts/Costumes/Prefabs/");
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CostumesPath);
   (__this->fields).AccessoriesPath = "Human/Parts/Accessories/Prefabs/";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).AccessoriesPath,"Human/Parts/Accessories/Prefabs/");
+  Il2CppCodeGenWriteBarrier(&(__this->fields).AccessoriesPath);
   (__this->fields).HairsPath = "Human/Parts/Hairs/Prefabs/";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).HairsPath,"Human/Parts/Hairs/Prefabs/");
+  Il2CppCodeGenWriteBarrier(&(__this->fields).HairsPath);
   (__this->fields).WeaponsPath = "Human/Parts/Weapons/Prefabs/";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).WeaponsPath,"Human/Parts/Weapons/Prefabs/");
+  Il2CppCodeGenWriteBarrier(&(__this->fields).WeaponsPath);
   (__this->fields).FacePath = "Human/Parts/Face/Prefabs/";
-  Il2CppCodeGenWriteBarrier(&(__this->fields).FacePath,"Human/Parts/Face/Prefabs/");
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FacePath);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._setup = setup;
-  Il2CppCodeGenWriteBarrier(&(__this->fields)._setup,setup);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._setup);
   return;
 }
 
 
 // Characters.HumanSetupMeshes$$GetBootsMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetBootsMesh (Characters_HumanSetupMeshes_o* __this, int32_t boots, const MethodInfo* method);
-// 0x18216fc30
+// 0x5c06300
 
 System_String_o *
 Characters_HumanSetupMeshes__GetBootsMesh
@@ -51,31 +50,23 @@ Characters_HumanSetupMeshes__GetBootsMesh
 {
   System_String_o *str2;
   System_String_o *pSVar1;
-  int32_t local_res10 [6];
+  int32_t local_c;
   
-  local_res10[0] = boots;
-  if (Il2CppMethodInitialized_184346cbb == '\0') {
+  local_c = boots;
+  if (Il2CppMethodInitialized_0754768b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"character_leg_");
-    Il2CppMethodInitialized_184346cbb = '\x01';
+    Il2CppMethodInitialized_0754768b = '\x01';
   }
   pSVar1 = (__this->fields).CostumesPath;
-  str2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
-  pSVar1 = System_String__Concat_1969b70(pSVar1,"character_leg_",str2,(MethodInfo *)0x0);
+  str2 = System_Int32__ToString(&local_c,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_5301f10(pSVar1,"character_leg_",str2,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Characters.HumanSetupMeshes$$GetHandMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetHandMesh (Characters_HumanSetupMeshes_o* __this, bool left, const MethodInfo* method);
-// 0x182170830
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821708ee: mov rdx, qword ptr [rip + 0x1f0c63b]  ; "_empty"
-// asm:   0x1821708f5: jmp 0x182170910
-// asm:   0x1821708f7: mov rdx, qword ptr [rip + 0x1f0d96a]  ; "_ts"
-// asm:   0x1821708fe: jmp 0x182170910
-// asm:   0x182170900: mov rdx, qword ptr [rip + 0x1f0bba9]  ; "_ah_0"
-// asm:   0x182170907: jmp 0x182170910
-// asm:   0x182170909: mov rdx, qword ptr [rip + 0x1f67e78]  ; "_0"
+// 0x5c06360
 
 System_String_o *
 Characters_HumanSetupMeshes__GetHandMesh(Characters_HumanSetupMeshes_o *__this,bool left,MethodInfo *method)
@@ -83,62 +74,63 @@ Characters_HumanSetupMeshes__GetHandMesh(Characters_HumanSetupMeshes_o *__this,b
 {
   Characters_HumanSetup_o *__this_00;
   bool bVar1;
-  System_String_o *pSVar2;
-  System_String_o *str1;
+  System_String_o **ppSVar2;
+  ulong uVar3;
+  System_String_o *pSVar4;
   
-  if (Il2CppMethodInitialized_184346cbc == '\0') {
+  if (Il2CppMethodInitialized_0754768c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"_ts");
     il2cpp_codegen_initialize_runtime_metadata(&"_empty");
     il2cpp_codegen_initialize_runtime_metadata(&"character_hand_l");
     il2cpp_codegen_initialize_runtime_metadata(&"character_hand_r");
     il2cpp_codegen_initialize_runtime_metadata(&"_0");
     il2cpp_codegen_initialize_runtime_metadata(&"_ah_0");
-    Il2CppMethodInitialized_184346cbc = '\x01';
+    Il2CppMethodInitialized_0754768c = '\x01';
   }
-  pSVar2 = "character_hand_r";
   if (left) {
-    pSVar2 = "character_hand_l";
+    ppSVar2 = &"character_hand_l";
+  }
+  else {
+    ppSVar2 = &"character_hand_r";
   }
   __this_00 = (__this->fields)._setup;
-  if (__this_00 != (Characters_HumanSetup_o *)0x0) {
-    str1 = "_0";
-    if (((((__this_00->fields).Weapon == 0) || (str1 = "_ah_0", (__this_00->fields).Weapon == 1)
-         ) || (str1 = "_ts", (__this_00->fields).Weapon == 2)) ||
-       ((str1 = "_empty", (__this_00->fields).Weapon == 3 ||
-        (bVar1 = Characters_HumanSetup__get_HasWeapon(__this_00,(MethodInfo *)0x0),
-        str1 = "_empty", !bVar1)))) {
-      pSVar2 = System_String__Concat_1969e50(pSVar2,str1,(MethodInfo *)0x0);
-    }
-    pSVar2 = System_String__Concat_1969e50((__this->fields).CostumesPath,pSVar2,(MethodInfo *)0x0);
-    return pSVar2;
+  if (__this_00 == (Characters_HumanSetup_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pSVar4 = *ppSVar2;
+  uVar3 = (ulong)(__this_00->fields).Weapon;
+  if (uVar3 < 4) {
+    ppSVar2 = (System_String_o **)(((System_String_o **[]){&"_0", &"_ah_0", &"_ts", &"_empty"}))[uVar3];
+  }
+  else {
+    bVar1 = Characters_HumanSetup__get_HasWeapon(__this_00,(MethodInfo *)0x0);
+    if (bVar1) goto label_05c0641d;
+    ppSVar2 = &"_empty";
+  }
+  pSVar4 = System_String__Concat_52f0320(pSVar4,*ppSVar2,(MethodInfo *)0x0);
+label_05c0641d:
+  pSVar4 = System_String__Concat_52f0320((__this->fields).CostumesPath,pSVar4,(MethodInfo *)0x0);
+  return pSVar4;
 }
 
 
 // Characters.HumanSetupMeshes$$GetArmMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetArmMesh (Characters_HumanSetupMeshes_o* __this, bool left, const MethodInfo* method);
-// 0x18216f840
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18216f989: xor r9d, r9d
-// asm:   0x18216f98c: mov rdx, rax
-// asm:   0x18216f9b9: xor r9d, r9d
-// asm:   0x18216f9bc: mov rdx, rdi
-// asm:   0x18216f9bf: jmp 0x18216f98f
+// 0x5c06440
 
 System_String_o *
 Characters_HumanSetupMeshes__GetArmMesh(Characters_HumanSetupMeshes_o *__this,bool left,MethodInfo *method)
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  bool bVar4;
-  System_Xml_Schema_XmlSchema_o *pSVar5;
-  System_String_o *pSVar6;
-  System_String_o *pSVar7;
+  bool bVar2;
+  System_String_o **ppSVar3;
+  SimpleJSONFixed_JSONNode_o *pSVar4;
+  System_String_o *__this_00;
+  System_String_o *pSVar5;
+  System_String_o **ppSVar6;
   
-  if (Il2CppMethodInitialized_184346cbd == '\0') {
+  if (Il2CppMethodInitialized_0754768d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"_arm_L");
     il2cpp_codegen_initialize_runtime_metadata(&"_uniform");
     il2cpp_codegen_initialize_runtime_metadata(&"_arm_R");
@@ -148,41 +140,41 @@ Characters_HumanSetupMeshes__GetArmMesh(Characters_HumanSetupMeshes_o *__this,bo
     il2cpp_codegen_initialize_runtime_metadata(&"player");
     il2cpp_codegen_initialize_runtime_metadata(&"Uniform");
     il2cpp_codegen_initialize_runtime_metadata(&"_casual");
-    Il2CppMethodInitialized_184346cbd = '\x01';
+    Il2CppMethodInitialized_0754768d = '\x01';
   }
-  pSVar7 = "player";
+  pSVar5 = "player";
   pCVar1 = (__this->fields)._setup;
   if (pCVar1 != (Characters_HumanSetup_o *)0x0) {
-    if (((pCVar1->fields).Weapon == 1) || ((pCVar1->fields).Weapon == 3)) {
-      pSVar6 = "_casual_arm_AH_R";
-      if (left) {
-        pSVar6 = "_casual_arm_AH_L";
+    if (((pCVar1->fields).Weapon | 2U) == 3) {
+      ppSVar3 = &"_casual_arm_AH_R";
+      ppSVar6 = &"_casual_arm_AH_L";
+label_05c0658b:
+      if (!left) {
+        ppSVar6 = ppSVar3;
       }
-label_18216f98f:
-      pSVar7 = System_String__Concat_1969b70((__this->fields).CostumesPath,pSVar7,pSVar6,(MethodInfo *)0x0);
-      return pSVar7;
+      pSVar5 = System_String__Concat_5301f10((__this->fields).CostumesPath,pSVar5,*ppSVar6,(MethodInfo *)0x0);
+      return pSVar5;
     }
-    pSVar2 = (pCVar1->fields).CurrentCostume;
-    if ((pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
-       (pSVar5 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Type"),
-       pSVar5 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
-      pSVar3 = pSVar5->klass;
-      pSVar6 = (System_String_o *)
-               (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                         (pSVar5,(UnityEngine_GameObject_o *)(pSVar3->vtable)._9_SetUnhandledAttributes.method
-                          ,(MethodInfo *)pSVar3);
-      if (pSVar6 != (System_String_o *)0x0) {
-        bVar4 = System_String__StartsWith(pSVar6,"Uniform",(MethodInfo *)0x0);
-        pSVar6 = "_casual";
-        if (bVar4) {
-          pSVar6 = "_uniform";
+    pSVar4 = (pCVar1->fields).CurrentCostume;
+    if (pSVar4 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      pSVar4 = (*(pSVar4->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar4,"Type",(pSVar4->klass->vtable)._7_get_Item.method);
+      if (pSVar4 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        __this_00 = (*(pSVar4->klass->vtable)._9_get_Value.methodPtr)
+                              (pSVar4,*(MethodInfo **)((long)&(pSVar4->klass->vtable)._9_get_Value + 8));
+        if (__this_00 != (System_String_o *)0x0) {
+          bVar2 = System_String__StartsWith(__this_00,"Uniform",(MethodInfo *)0x0);
+          if (bVar2) {
+            ppSVar6 = &"_uniform";
+          }
+          else {
+            ppSVar6 = &"_casual";
+          }
+          pSVar5 = System_String__Concat_52f0320(pSVar5,*ppSVar6,(MethodInfo *)0x0);
+          ppSVar3 = &"_arm_R";
+          ppSVar6 = &"_arm_L";
+          goto label_05c0658b;
         }
-        pSVar7 = System_String__Concat_1969e50(pSVar7,pSVar6,(MethodInfo *)0x0);
-        pSVar6 = "_arm_R";
-        if (left) {
-          pSVar6 = "_arm_L";
-        }
-        goto label_18216f98f;
       }
     }
   }
@@ -192,42 +184,47 @@ label_18216f98f:
 
 // Characters.HumanSetupMeshes$$Get3dmgMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__Get3dmgMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x18216f7a0
+// 0x5c065b0
 
 System_String_o *
 Characters_HumanSetupMeshes__Get3dmgMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
 
 {
-  Characters_HumanSetup_o *pCVar1;
-  System_String_o *pSVar2;
+  int iVar1;
+  Characters_HumanSetup_o *pCVar2;
+  System_String_o **ppSVar3;
+  System_String_o *pSVar4;
   
-  if (Il2CppMethodInitialized_184346cbe == '\0') {
+  if (Il2CppMethodInitialized_0754768e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"3dmg_2");
     il2cpp_codegen_initialize_runtime_metadata(&"3dmg_3");
     il2cpp_codegen_initialize_runtime_metadata(&"3dmg");
-    Il2CppMethodInitialized_184346cbe = '\x01';
+    Il2CppMethodInitialized_0754768e = '\x01';
   }
-  pCVar1 = (__this->fields)._setup;
-  if (pCVar1 == (Characters_HumanSetup_o *)0x0) {
+  pCVar2 = (__this->fields)._setup;
+  if (pCVar2 == (Characters_HumanSetup_o *)0x0) {
     ThrowNullReferenceException();
   }
-  pSVar2 = (__this->fields).AccessoriesPath;
-  if ((pCVar1->fields).Weapon == 1) {
-    pSVar2 = System_String__Concat_1969e50(pSVar2,"3dmg_2",(MethodInfo *)0x0);
-    return pSVar2;
+  iVar1 = (pCVar2->fields).Weapon;
+  if (iVar1 == 3) {
+    ppSVar3 = &"3dmg_3";
+    pSVar4 = (__this->fields).AccessoriesPath;
   }
-  if ((pCVar1->fields).Weapon != 3) {
-    pSVar2 = System_String__Concat_1969e50(pSVar2,"3dmg",(MethodInfo *)0x0);
-    return pSVar2;
+  else {
+    ppSVar3 = &"3dmg";
+    pSVar4 = (__this->fields).AccessoriesPath;
+    if (iVar1 == 1) {
+      ppSVar3 = &"3dmg_2";
+    }
   }
-  pSVar2 = System_String__Concat_1969e50(pSVar2,"3dmg_3",(MethodInfo *)0x0);
-  return pSVar2;
+  pSVar4 = System_String__Concat_52f0320(pSVar4,*ppSVar3,(MethodInfo *)0x0);
+  return pSVar4;
 }
 
 
 // Characters.HumanSetupMeshes$$GetBeltMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetBeltMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x18216f9d0
+// 0x5c06640
 
 System_String_o *
 Characters_HumanSetupMeshes__GetBeltMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
@@ -236,78 +233,78 @@ Characters_HumanSetupMeshes__GetBeltMesh(Characters_HumanSetupMeshes_o *__this,M
   Characters_HumanSetup_o *pCVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184346cbf == '\0') {
+  if (Il2CppMethodInitialized_0754768f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"3dmg_belt");
-    Il2CppMethodInitialized_184346cbf = '\x01';
+    Il2CppMethodInitialized_0754768f = '\x01';
   }
   pCVar1 = (__this->fields)._setup;
-  if (pCVar1 != (Characters_HumanSetup_o *)0x0) {
-    if (((pCVar1->fields).Weapon != 1) && ((pCVar1->fields).Weapon != 3)) {
-      pSVar2 = System_String__Concat_1969e50
-                         ((__this->fields).AccessoriesPath,"3dmg_belt",(MethodInfo *)0x0);
-      return pSVar2;
-    }
-    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  if (pCVar1 == (Characters_HumanSetup_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  if (((pCVar1->fields).Weapon | 2U) == 3) {
+    return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+  }
+  pSVar2 = System_String__Concat_52f0320
+                     ((__this->fields).AccessoriesPath,"3dmg_belt",(MethodInfo *)0x0);
+  return pSVar2;
 }
 
 
 // Characters.HumanSetupMeshes$$GetGasMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetGasMesh (Characters_HumanSetupMeshes_o* __this, bool left, const MethodInfo* method);
-// 0x182170550
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1821705f5: jmp 0x1821705cd
+// 0x5c066b0
 
 System_String_o *
 Characters_HumanSetupMeshes__GetGasMesh(Characters_HumanSetupMeshes_o *__this,bool left,MethodInfo *method)
 
 {
   Characters_HumanSetup_o *pCVar1;
-  System_String_o *pSVar2;
+  System_String_o **ppSVar2;
+  System_String_o *pSVar3;
+  System_String_o **ppSVar4;
   
-  if (Il2CppMethodInitialized_184346cc0 == '\0') {
+  if (Il2CppMethodInitialized_07547690 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"char_gun_mag_l");
     il2cpp_codegen_initialize_runtime_metadata(&"char_gun_mag_r");
     il2cpp_codegen_initialize_runtime_metadata(&"scabbard_L");
     il2cpp_codegen_initialize_runtime_metadata(&"scabbard_R");
-    Il2CppMethodInitialized_184346cc0 = '\x01';
+    Il2CppMethodInitialized_07547690 = '\x01';
   }
   pCVar1 = (__this->fields)._setup;
   if (pCVar1 == (Characters_HumanSetup_o *)0x0) {
     ThrowNullReferenceException();
   }
-  if (((pCVar1->fields).Weapon == 1) || ((pCVar1->fields).Weapon == 3)) {
-    pSVar2 = "char_gun_mag_r";
-    if (left) {
-      pSVar2 = "char_gun_mag_l";
-    }
+  if (((pCVar1->fields).Weapon | 2U) == 3) {
+    ppSVar2 = &"char_gun_mag_r";
+    ppSVar4 = &"char_gun_mag_l";
   }
   else {
-    pSVar2 = "scabbard_R";
-    if (left) {
-      pSVar2 = "scabbard_L";
-    }
+    ppSVar2 = &"scabbard_R";
+    ppSVar4 = &"scabbard_L";
   }
-  pSVar2 = System_String__Concat_1969e50((__this->fields).AccessoriesPath,pSVar2,(MethodInfo *)0x0);
-  return pSVar2;
+  if (!left) {
+    ppSVar4 = ppSVar2;
+  }
+  pSVar3 = System_String__Concat_52f0320((__this->fields).AccessoriesPath,*ppSVar4,(MethodInfo *)0x0);
+  return pSVar3;
 }
 
 
 // Characters.HumanSetupMeshes$$GetWeaponMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetWeaponMesh (Characters_HumanSetupMeshes_o* __this, bool left, const MethodInfo* method);
-// 0x182170950
+// 0x5c06750
 
 System_String_o *
 Characters_HumanSetupMeshes__GetWeaponMesh(Characters_HumanSetupMeshes_o *__this,bool left,MethodInfo *method)
 
 {
-  Characters_HumanSetup_o *pCVar1;
-  bool bVar2;
-  System_String_o *pSVar3;
-  System_String_o *pSVar4;
+  int iVar1;
+  Characters_HumanSetup_o *pCVar2;
+  bool bVar3;
+  System_String_o **ppSVar4;
+  System_String_o *pSVar5;
   
-  if (Il2CppMethodInitialized_184346cc1 == '\0') {
+  if (Il2CppMethodInitialized_07547691 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"blade_R");
     il2cpp_codegen_initialize_runtime_metadata(&"blade_L");
     il2cpp_codegen_initialize_runtime_metadata(&"character_gun_r_0");
@@ -316,47 +313,55 @@ Characters_HumanSetupMeshes__GetWeaponMesh(Characters_HumanSetupMeshes_o *__this
     il2cpp_codegen_initialize_runtime_metadata(&"thunderspear_l");
     il2cpp_codegen_initialize_runtime_metadata(&"character_gun_l_0");
     il2cpp_codegen_initialize_runtime_metadata(&"apg_L");
-    Il2CppMethodInitialized_184346cc1 = '\x01';
+    Il2CppMethodInitialized_07547691 = '\x01';
   }
-  pCVar1 = (__this->fields)._setup;
-  if (pCVar1 != (Characters_HumanSetup_o *)0x0) {
-    bVar2 = Characters_HumanSetup__get_HasWeapon(pCVar1,(MethodInfo *)0x0);
-    if (!bVar2) {
-      return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  pCVar2 = (__this->fields)._setup;
+  if (pCVar2 != (Characters_HumanSetup_o *)0x0) {
+    bVar3 = Characters_HumanSetup__get_HasWeapon(pCVar2,(MethodInfo *)0x0);
+    if (!bVar3) {
+      return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
-    pCVar1 = (__this->fields)._setup;
-    if (pCVar1 != (Characters_HumanSetup_o *)0x0) {
-      pSVar3 = (__this->fields).WeaponsPath;
-      if ((pCVar1->fields).Weapon == 1) {
-        pSVar4 = "character_gun_r_0";
+    pCVar2 = (__this->fields)._setup;
+    if (pCVar2 != (Characters_HumanSetup_o *)0x0) {
+      iVar1 = (pCVar2->fields).Weapon;
+      if (iVar1 == 3) {
+        pSVar5 = (__this->fields).WeaponsPath;
         if (left) {
-          pSVar4 = "character_gun_l_0";
+          ppSVar4 = &"apg_L";
         }
-        pSVar3 = System_String__Concat_1969e50(pSVar3,pSVar4,(MethodInfo *)0x0);
-        return pSVar3;
+        else {
+          ppSVar4 = &"apg_R";
+        }
       }
-      if ((pCVar1->fields).Weapon != 3) {
-        if ((pCVar1->fields).Weapon != 2) {
-          pSVar4 = "blade_R";
-          if (left) {
-            pSVar4 = "blade_L";
-          }
-          pSVar3 = System_String__Concat_1969e50(pSVar3,pSVar4,(MethodInfo *)0x0);
-          return pSVar3;
-        }
-        pSVar4 = "thunderspear_r";
+      else if (iVar1 == 2) {
+        pSVar5 = (__this->fields).WeaponsPath;
         if (left) {
-          pSVar4 = "thunderspear_l";
+          ppSVar4 = &"thunderspear_l";
         }
-        pSVar3 = System_String__Concat_1969e50(pSVar3,pSVar4,(MethodInfo *)0x0);
-        return pSVar3;
+        else {
+          ppSVar4 = &"thunderspear_r";
+        }
       }
-      pSVar4 = "apg_R";
-      if (left) {
-        pSVar4 = "apg_L";
+      else if (iVar1 == 1) {
+        pSVar5 = (__this->fields).WeaponsPath;
+        if (left) {
+          ppSVar4 = &"character_gun_l_0";
+        }
+        else {
+          ppSVar4 = &"character_gun_r_0";
+        }
       }
-      pSVar3 = System_String__Concat_1969e50(pSVar3,pSVar4,(MethodInfo *)0x0);
-      return pSVar3;
+      else {
+        pSVar5 = (__this->fields).WeaponsPath;
+        if (left) {
+          ppSVar4 = &"blade_L";
+        }
+        else {
+          ppSVar4 = &"blade_R";
+        }
+      }
+      pSVar5 = System_String__Concat_52f0320(pSVar5,*ppSVar4,(MethodInfo *)0x0);
+      return pSVar5;
     }
   }
   ThrowNullReferenceException();
@@ -365,26 +370,23 @@ Characters_HumanSetupMeshes__GetWeaponMesh(Characters_HumanSetupMeshes_o *__this
 
 // Characters.HumanSetupMeshes$$GetBodyMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetBodyMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x18216fa50
+// 0x5c068a0
 
 System_String_o *
 Characters_HumanSetupMeshes__GetBodyMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  Settings_HumanCustomSet_o *pSVar4;
-  Settings_IntSetting_o *pSVar5;
-  bool bVar6;
-  System_Xml_Schema_XmlSchema_o *pSVar7;
+  Settings_HumanCustomSet_o *pSVar2;
+  Settings_IntSetting_o *pSVar3;
+  bool bVar4;
+  SimpleJSONFixed_JSONNode_o *pSVar5;
+  System_String_o *pSVar6;
+  System_String_o **ppSVar7;
   System_String_o *pSVar8;
-  System_String_o *pSVar9;
-  System_String_o *pSVar10;
-  MethodInfo *method_00;
-  uint16_t local_res8 [4];
+  uint16_t local_1a;
   
-  if (Il2CppMethodInitialized_184346cc2 == '\0') {
+  if (Il2CppMethodInitialized_07547692 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Last_char);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"_F");
@@ -394,48 +396,47 @@ Characters_HumanSetupMeshes__GetBodyMesh(Characters_HumanSetupMeshes_o *__this,M
     il2cpp_codegen_initialize_runtime_metadata(&"player");
     il2cpp_codegen_initialize_runtime_metadata(&"Uniform");
     il2cpp_codegen_initialize_runtime_metadata(&"_casual");
-    Il2CppMethodInitialized_184346cc2 = '\x01';
+    Il2CppMethodInitialized_07547692 = '\x01';
   }
-  pSVar9 = "player";
+  pSVar8 = "player";
   pCVar1 = (__this->fields)._setup;
-  local_res8[0] = 0;
   if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-     (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-    pSVar7 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Type");
-    if (pSVar7 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      pSVar3 = pSVar7->klass;
-      pSVar8 = (System_String_o *)
-               (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                         (pSVar7,(UnityEngine_GameObject_o *)(pSVar3->vtable)._9_SetUnhandledAttributes.method
-                          ,(MethodInfo *)pSVar3);
-      if (pSVar8 != (System_String_o *)0x0) {
-        bVar6 = System_String__StartsWith(pSVar8,"Uniform",(MethodInfo *)0x0);
-        pSVar10 = "_casual";
-        if (bVar6) {
-          pSVar10 = "_uniform";
+     (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+    pSVar5 = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)
+                       (pSVar5,"Type",(pSVar5->klass->vtable)._7_get_Item.method);
+    if (pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      pSVar6 = (*(pSVar5->klass->vtable)._9_get_Value.methodPtr)
+                         (pSVar5,*(MethodInfo **)((long)&(pSVar5->klass->vtable)._9_get_Value + 8));
+      if (pSVar6 != (System_String_o *)0x0) {
+        bVar4 = System_String__StartsWith(pSVar6,"Uniform",(MethodInfo *)0x0);
+        if (bVar4) {
+          ppSVar7 = &"_uniform";
         }
-        pSVar9 = System_String__Concat_1969e50(pSVar9,pSVar10,(MethodInfo *)0x0);
+        else {
+          ppSVar7 = &"_casual";
+        }
+        pSVar8 = System_String__Concat_52f0320(pSVar8,*ppSVar7,(MethodInfo *)0x0);
         pCVar1 = (__this->fields)._setup;
         if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-            (pSVar4 = (pCVar1->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
-           (pSVar5 = (pSVar4->fields).Sex, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-          pSVar10 = "_F";
-          if ((pSVar5->fields)._value == 0) {
-            pSVar10 = "_M";
+            (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 != (Settings_HumanCustomSet_o *)0x0)) &&
+           (pSVar3 = (pSVar2->fields).Sex, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+          if ((pSVar3->fields)._value == 0) {
+            ppSVar7 = &"_M";
           }
-          method_00 = (MethodInfo *)0x0;
-          pSVar9 = System_String__Concat_1969e50(pSVar9,pSVar10,(MethodInfo *)0x0);
-          local_res8[0] =
-               System_Linq_Enumerable__Last_char_
-                         ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar8,
-                          (MethodInfo_6BF890 *)MethodInfo_System_Linq_Enumerable_Last_char);
-          if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
-            il2cpp_codegen_runtime_class_init(g_data_184354e48);
+          else {
+            ppSVar7 = &"_F";
           }
-          pSVar8 = System_Char__ToString(local_res8,(System_IFormatProvider_o *)0x0,method_00);
-          pSVar9 = System_String__Concat_1969e50(pSVar9,pSVar8,(MethodInfo *)0x0);
-          pSVar9 = System_String__Concat_1969e50((__this->fields).CostumesPath,pSVar9,(MethodInfo *)0x0);
-          return pSVar9;
+          pSVar8 = System_String__Concat_52f0320(pSVar8,*ppSVar7,(MethodInfo *)0x0);
+          local_1a = System_Linq_Enumerable__Last_char_
+                               ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar6,
+                                (MethodInfo_34EE680 *)MethodInfo_System_Linq_Enumerable_Last_char);
+          if ((g_data_07556750->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init(g_data_07556750);
+          }
+          pSVar6 = System_Char__ToString(&local_1a,(MethodInfo *)0x0);
+          pSVar8 = System_String__Concat_52f0320(pSVar8,pSVar6,(MethodInfo *)0x0);
+          pSVar8 = System_String__Concat_52f0320((__this->fields).CostumesPath,pSVar8,(MethodInfo *)0x0);
+          return pSVar8;
         }
       }
     }
@@ -446,13 +447,7 @@ Characters_HumanSetupMeshes__GetBodyMesh(Characters_HumanSetupMeshes_o *__this,M
 
 // Characters.HumanSetupMeshes$$GetBrandMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetBrandMesh (Characters_HumanSetupMeshes_o* __this, int32_t brand, const MethodInfo* method);
-// 0x18216fc90
-// asm: 5 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18216fe33: jmp 0x18216fdec
-// asm:   0x18216fe35: mov rdx, qword ptr [rip + 0x1f387b4]  ; "character_brand_arm_r_0"
-// asm:   0x18216fe3c: jmp 0x18216fdec
-// asm:   0x18216fe3e: mov rdx, qword ptr [rip + 0x1f386c3]  ; "character_brand_arm_l_0"
-// asm:   0x18216fe45: jmp 0x18216fdec
+// 0x5c06a80
 
 System_String_o *
 Characters_HumanSetupMeshes__GetBrandMesh
@@ -460,15 +455,14 @@ Characters_HumanSetupMeshes__GetBrandMesh
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  Settings_HumanCustomSet_o *pSVar4;
-  Settings_IntSetting_o *pSVar5;
-  bool bVar6;
-  System_Xml_Schema_XmlSchema_o *pSVar7;
-  System_String_o *pSVar8;
+  Settings_HumanCustomSet_o *pSVar2;
+  Settings_IntSetting_o *pSVar3;
+  bool bVar4;
+  SimpleJSONFixed_JSONNode_o *pSVar5;
+  System_String_o *pSVar6;
+  System_String_o **ppSVar7;
   
-  if (Il2CppMethodInitialized_184346cc3 == '\0') {
+  if (Il2CppMethodInitialized_07547693 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"character_brand_arm_r_0");
     il2cpp_codegen_initialize_runtime_metadata(&"Type");
@@ -478,64 +472,71 @@ Characters_HumanSetupMeshes__GetBrandMesh
     il2cpp_codegen_initialize_runtime_metadata(&"Uniform");
     il2cpp_codegen_initialize_runtime_metadata(&"character_brand_back_f_0");
     il2cpp_codegen_initialize_runtime_metadata(&"character_brand_arm_l_0");
-    Il2CppMethodInitialized_184346cc3 = '\x01';
+    Il2CppMethodInitialized_07547693 = '\x01';
   }
   pCVar1 = (__this->fields)._setup;
-  if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-      (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) &&
-     (pSVar7 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Type"),
-     pSVar7 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
-    pSVar3 = pSVar7->klass;
-    pSVar8 = (System_String_o *)
-             (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                       (pSVar7,(UnityEngine_GameObject_o *)(pSVar3->vtable)._9_SetUnhandledAttributes.method,
-                        (MethodInfo *)pSVar3);
-    if (pSVar8 != (System_String_o *)0x0) {
-      bVar6 = System_String__StartsWith(pSVar8,"Uniform",(MethodInfo *)0x0);
-      if (!bVar6) {
-label_18216fe47:
-        return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  if ((((pCVar1 == (Characters_HumanSetup_o *)0x0) ||
+       (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 == (SimpleJSONFixed_JSONNode_o *)0x0)) ||
+      (pSVar5 = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)
+                          (pSVar5,"Type",(pSVar5->klass->vtable)._7_get_Item.method),
+      pSVar5 == (SimpleJSONFixed_JSONNode_o *)0x0)) ||
+     (pSVar6 = (*(pSVar5->klass->vtable)._9_get_Value.methodPtr)
+                         (pSVar5,*(MethodInfo **)((long)&(pSVar5->klass->vtable)._9_get_Value + 8)),
+     pSVar6 == (System_String_o *)0x0)) goto label_05c06c50;
+  bVar4 = System_String__StartsWith(pSVar6,"Uniform",(MethodInfo *)0x0);
+  if (bVar4) {
+    switch(brand) {
+    case 1:
+      pSVar6 = (__this->fields).CostumesPath;
+      ppSVar7 = &"character_brand_arm_l_0";
+      break;
+    case 2:
+      pSVar6 = (__this->fields).CostumesPath;
+      ppSVar7 = &"character_brand_arm_r_0";
+      break;
+    case 3:
+      pCVar1 = (__this->fields)._setup;
+      if (((pCVar1 == (Characters_HumanSetup_o *)0x0) ||
+          (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 == (Settings_HumanCustomSet_o *)0x0)) ||
+         (pSVar3 = (pSVar2->fields).Sex, pSVar3 == (Settings_IntSetting_o *)0x0)) {
+label_05c06c50:
+        ThrowNullReferenceException();
       }
-      pSVar8 = "character_brand_arm_l_0";
-      if ((brand == 1) || (pSVar8 = "character_brand_arm_r_0", brand == 2)) {
-label_18216fdec:
-        pSVar8 = System_String__Concat_1969e50((__this->fields).CostumesPath,pSVar8,(MethodInfo *)0x0);
-        return pSVar8;
-      }
-      if (brand == 3) {
-        pCVar1 = (__this->fields)._setup;
-        if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-            (pSVar4 = (pCVar1->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
-           (pSVar5 = (pSVar4->fields).Sex, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-          pSVar8 = "character_brand_chest_f_0";
-          if ((pSVar5->fields)._value == 0) {
-            pSVar8 = "character_brand_chest_m_0";
-          }
-          goto label_18216fdec;
-        }
+      pSVar6 = (__this->fields).CostumesPath;
+      if ((pSVar3->fields)._value == 0) {
+        ppSVar7 = &"character_brand_chest_m_0";
       }
       else {
-        if (brand != 4) goto label_18216fe47;
-        pCVar1 = (__this->fields)._setup;
-        if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-            (pSVar4 = (pCVar1->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
-           (pSVar5 = (pSVar4->fields).Sex, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-          pSVar8 = "character_brand_back_f_0";
-          if ((pSVar5->fields)._value == 0) {
-            pSVar8 = "character_brand_back_m_0";
-          }
-          goto label_18216fdec;
-        }
+        ppSVar7 = &"character_brand_chest_f_0";
       }
+      break;
+    case 4:
+      pCVar1 = (__this->fields)._setup;
+      if (((pCVar1 == (Characters_HumanSetup_o *)0x0) ||
+          (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 == (Settings_HumanCustomSet_o *)0x0)) ||
+         (pSVar3 = (pSVar2->fields).Sex, pSVar3 == (Settings_IntSetting_o *)0x0)) goto label_05c06c50;
+      pSVar6 = (__this->fields).CostumesPath;
+      if ((pSVar3->fields)._value == 0) {
+        ppSVar7 = &"character_brand_back_m_0";
+      }
+      else {
+        ppSVar7 = &"character_brand_back_f_0";
+      }
+      break;
+    default:
+      goto switchD_05c06b8e_default;
     }
+    pSVar6 = System_String__Concat_52f0320(pSVar6,*ppSVar7,(MethodInfo *)0x0);
+    return pSVar6;
   }
-  ThrowNullReferenceException();
+switchD_05c06b8e_default:
+  return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
 }
 
 
 // Characters.HumanSetupMeshes$$GetEyeMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetEyeMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x1821704a0
+// 0x5c06c60
 
 System_String_o *
 Characters_HumanSetupMeshes__GetEyeMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
@@ -543,18 +544,18 @@ Characters_HumanSetupMeshes__GetEyeMesh(Characters_HumanSetupMeshes_o *__this,Me
 {
   System_String_o *pSVar1;
   
-  if (Il2CppMethodInitialized_184346cc4 == '\0') {
+  if (Il2CppMethodInitialized_07547694 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"char_eyes");
-    Il2CppMethodInitialized_184346cc4 = '\x01';
+    Il2CppMethodInitialized_07547694 = '\x01';
   }
-  pSVar1 = System_String__Concat_1969e50((__this->fields).FacePath,"char_eyes",(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_52f0320((__this->fields).FacePath,"char_eyes",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Characters.HumanSetupMeshes$$GetFaceMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetFaceMesh (Characters_HumanSetupMeshes_o* __this, System_String_o* prefab, const MethodInfo* method);
-// 0x1821704e0
+// 0x5c06ca0
 
 System_String_o *
 Characters_HumanSetupMeshes__GetFaceMesh
@@ -564,24 +565,23 @@ Characters_HumanSetupMeshes__GetFaceMesh
   bool bVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184346cc5 == '\0') {
+  if (Il2CppMethodInitialized_07547695 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"char_face");
-    Il2CppMethodInitialized_184346cc5 = '\x01';
+    Il2CppMethodInitialized_07547695 = '\x01';
   }
   bVar1 = System_String__op_Inequality
-                    (prefab,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-  pSVar2 = "char_face";
-  if (bVar1) {
-    pSVar2 = prefab;
+                    (prefab,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+  if (!bVar1) {
+    prefab = "char_face";
   }
-  pSVar2 = System_String__Concat_1969e50((__this->fields).FacePath,pSVar2,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_52f0320((__this->fields).FacePath,prefab,(MethodInfo *)0x0);
   return pSVar2;
 }
 
 
 // Characters.HumanSetupMeshes$$GetGlassMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetGlassMesh (Characters_HumanSetupMeshes_o* __this, System_String_o* prefab, const MethodInfo* method);
-// 0x182170600
+// 0x5c06d10
 
 System_String_o *
 Characters_HumanSetupMeshes__GetGlassMesh
@@ -591,57 +591,52 @@ Characters_HumanSetupMeshes__GetGlassMesh
   bool bVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184346cc6 == '\0') {
+  if (Il2CppMethodInitialized_07547696 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"char_glasses");
-    Il2CppMethodInitialized_184346cc6 = '\x01';
+    Il2CppMethodInitialized_07547696 = '\x01';
   }
   bVar1 = System_String__op_Inequality
-                    (prefab,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-  pSVar2 = "char_glasses";
-  if (bVar1) {
-    pSVar2 = prefab;
+                    (prefab,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+  if (!bVar1) {
+    prefab = "char_glasses";
   }
-  pSVar2 = System_String__Concat_1969e50((__this->fields).FacePath,pSVar2,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_52f0320((__this->fields).FacePath,prefab,(MethodInfo *)0x0);
   return pSVar2;
 }
 
 
 // Characters.HumanSetupMeshes$$GetHairMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetHairMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x182170750
+// 0x5c06d80
 
 System_String_o *
 Characters_HumanSetupMeshes__GetHairMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  bool bVar4;
-  System_Xml_Schema_XmlSchema_o *pSVar5;
-  System_String_o *pSVar6;
+  bool bVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
+  System_String_o *pSVar4;
   
-  if (Il2CppMethodInitialized_184346cc7 == '\0') {
+  if (Il2CppMethodInitialized_07547697 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Texture");
-    Il2CppMethodInitialized_184346cc7 = '\x01';
+    Il2CppMethodInitialized_07547697 = '\x01';
   }
   pCVar1 = (__this->fields)._setup;
   if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-     (pSVar2 = (pCVar1->fields).CurrentHair, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-    pSVar5 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Texture");
-    if (pSVar5 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      pSVar3 = pSVar5->klass;
-      pSVar6 = (System_String_o *)
-               (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                         (pSVar5,(UnityEngine_GameObject_o *)(pSVar3->vtable)._9_SetUnhandledAttributes.method
-                          ,(MethodInfo *)pSVar3);
-      bVar4 = System_String__op_Equality
-                        (pSVar6,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
-      if (!bVar4) {
-        pSVar6 = System_String__Concat_1969e50((__this->fields).HairsPath,pSVar6,(MethodInfo *)0x0);
-        return pSVar6;
+     (pSVar3 = (pCVar1->fields).CurrentHair, pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+    pSVar3 = (*(pSVar3->klass->vtable)._7_get_Item.methodPtr)
+                       (pSVar3,"Texture",(pSVar3->klass->vtable)._7_get_Item.method);
+    if (pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      pSVar4 = (*(pSVar3->klass->vtable)._9_get_Value.methodPtr)
+                         (pSVar3,*(MethodInfo **)((long)&(pSVar3->klass->vtable)._9_get_Value + 8));
+      bVar2 = System_String__op_Equality
+                        (pSVar4,(System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8),(MethodInfo *)0x0);
+      if (bVar2) {
+        return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
       }
-      return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+      pSVar4 = System_String__Concat_52f0320((__this->fields).HairsPath,pSVar4,(MethodInfo *)0x0);
+      return pSVar4;
     }
   }
   ThrowNullReferenceException();
@@ -650,44 +645,41 @@ Characters_HumanSetupMeshes__GetHairMesh(Characters_HumanSetupMeshes_o *__this,M
 
 // Characters.HumanSetupMeshes$$GetHairClothMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetHairClothMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x182170670
+// 0x5c06e50
 
 System_String_o *
 Characters_HumanSetupMeshes__GetHairClothMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  bool bVar4;
-  System_Xml_Schema_XmlSchema_o *pSVar5;
+  bool bVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
   System_String_o *str1;
-  System_String_o *pSVar6;
+  System_String_o *pSVar4;
   
-  if (Il2CppMethodInitialized_184346cc8 == '\0') {
+  if (Il2CppMethodInitialized_07547698 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"Cloth");
-    Il2CppMethodInitialized_184346cc8 = '\x01';
+    Il2CppMethodInitialized_07547698 = '\x01';
   }
   pCVar1 = (__this->fields)._setup;
   if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-     (pSVar2 = (pCVar1->fields).CurrentHair, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-    bVar4 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)(pSVar2,(MethodInfo *)"Cloth");
-    if (!bVar4) {
-      return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+     (pSVar3 = (pCVar1->fields).CurrentHair, pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+    bVar2 = (*(pSVar3->klass->vtable)._28_HasKey.methodPtr)
+                      (pSVar3,"Cloth",(pSVar3->klass->vtable)._28_HasKey.method);
+    if (!bVar2) {
+      return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
     pCVar1 = (__this->fields)._setup;
     if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-       (pSVar2 = (pCVar1->fields).CurrentHair, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-      pSVar6 = (__this->fields).HairsPath;
-      pSVar5 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Cloth");
-      if (pSVar5 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-        pSVar3 = pSVar5->klass;
-        str1 = (System_String_o *)
-               (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                         (pSVar5,(UnityEngine_GameObject_o *)(pSVar3->vtable)._9_SetUnhandledAttributes.method
-                          ,(MethodInfo *)pSVar3);
-        pSVar6 = System_String__Concat_1969e50(pSVar6,str1,(MethodInfo *)0x0);
-        return pSVar6;
+       (pSVar3 = (pCVar1->fields).CurrentHair, pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      pSVar4 = (__this->fields).HairsPath;
+      pSVar3 = (*(pSVar3->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar3,"Cloth",(pSVar3->klass->vtable)._7_get_Item.method);
+      if (pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        str1 = (*(pSVar3->klass->vtable)._9_get_Value.methodPtr)
+                         (pSVar3,*(MethodInfo **)((long)&(pSVar3->klass->vtable)._9_get_Value + 8));
+        pSVar4 = System_String__Concat_52f0320(pSVar4,str1,(MethodInfo *)0x0);
+        return pSVar4;
       }
     }
   }
@@ -697,22 +689,23 @@ Characters_HumanSetupMeshes__GetHairClothMesh(Characters_HumanSetupMeshes_o *__t
 
 // Characters.HumanSetupMeshes$$GetCapeMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetCapeMesh (Characters_HumanSetupMeshes_o* __this, const MethodInfo* method);
-// 0x18216fe70
+// 0x5c06f30
 
 System_String_o *
 Characters_HumanSetupMeshes__GetCapeMesh(Characters_HumanSetupMeshes_o *__this,MethodInfo *method)
 
 {
-  Characters_HumanSetup_o *pCVar1;
-  Settings_HumanCustomSet_o *pSVar2;
-  Settings_IntSetting_o *pSVar3;
-  SimpleJSONFixed_JSONNode_o *pSVar4;
-  System_Xml_Schema_XmlSchema_c *pSVar5;
-  bool bVar6;
-  System_String_o *pSVar7;
-  System_Xml_Schema_XmlSchema_o *pSVar8;
+  int iVar1;
+  Characters_HumanSetup_o *pCVar2;
+  Settings_HumanCustomSet_o *pSVar3;
+  Settings_IntSetting_o *pSVar4;
+  bool bVar5;
+  System_String_o **ppSVar6;
+  SimpleJSONFixed_JSONNode_o *pSVar7;
+  System_String_o *pSVar8;
+  System_String_o *str0;
   
-  if (Il2CppMethodInitialized_184346cc9 == '\0') {
+  if (Il2CppMethodInitialized_07547699 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"hair_longcurly2");
     il2cpp_codegen_initialize_runtime_metadata(&"hair_longbangs");
@@ -726,76 +719,77 @@ Characters_HumanSetupMeshes__GetCapeMesh(Characters_HumanSetupMeshes_o *__this,M
     il2cpp_codegen_initialize_runtime_metadata(&"hair_longanime");
     il2cpp_codegen_initialize_runtime_metadata(&"character_cloakee_hoodless");
     il2cpp_codegen_initialize_runtime_metadata(&"character_cape_0");
-    Il2CppMethodInitialized_184346cc9 = '\x01';
+    Il2CppMethodInitialized_07547699 = '\x01';
   }
-  pCVar1 = (__this->fields)._setup;
-  if (((pCVar1 == (Characters_HumanSetup_o *)0x0) ||
-      (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 == (Settings_HumanCustomSet_o *)0x0)) ||
-     (pSVar3 = (pSVar2->fields).Cape, pSVar3 == (Settings_IntSetting_o *)0x0)) {
-label_182170110:
-    ThrowNullReferenceException();
-  }
-  if ((pSVar3->fields)._value == 0) {
-    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
-  }
-  if ((((((((__this->fields)._setup)->fields).CustomSet)->fields).Cape)->fields)._value != 2) {
-    pSVar7 = System_String__Concat_1969e50
-                       ((__this->fields).CostumesPath,"character_cape_0",(MethodInfo *)0x0);
-    return pSVar7;
-  }
-  pCVar1 = (__this->fields)._setup;
-  if (pCVar1 == (Characters_HumanSetup_o *)0x0) goto label_182170110;
-  bVar6 = Characters_HumanSetup__get_IsHooded(pCVar1,(MethodInfo *)0x0);
-  if (bVar6) {
-    pSVar7 = System_String__Concat_1969e50
-                       ((__this->fields).CostumesPath,"character_cloakee_hooded",(MethodInfo *)0x0);
-    return pSVar7;
-  }
-  pCVar1 = (__this->fields)._setup;
-  if ((pCVar1 == (Characters_HumanSetup_o *)0x0) ||
-     (pSVar4 = (pCVar1->fields).CurrentHair, pSVar4 == (SimpleJSONFixed_JSONNode_o *)0x0)) goto label_182170110;
-  pSVar8 = (*(pSVar4->klass->vtable)._7_get_Item.methodPtr)(pSVar4,(MethodInfo *)"Texture");
-  if (pSVar8 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_182170110;
-  pSVar5 = pSVar8->klass;
-  pSVar7 = (System_String_o *)
-           (*(pSVar5->vtable)._9_SetUnhandledAttributes.methodPtr)
-                     (pSVar8,(UnityEngine_GameObject_o *)(pSVar5->vtable)._9_SetUnhandledAttributes.method,
-                      (MethodInfo *)pSVar5);
-  bVar6 = System_String__op_Equality(pSVar7,"hair_longanime",(MethodInfo *)0x0);
-  if (!bVar6) {
-    bVar6 = System_String__op_Equality(pSVar7,"hair_longbangs",(MethodInfo *)0x0);
-    if (!bVar6) {
-      bVar6 = System_String__op_Equality(pSVar7,"hair_lacylong",(MethodInfo *)0x0);
-      if (!bVar6) {
-        bVar6 = System_String__op_Equality(pSVar7,"hair_himecut",(MethodInfo *)0x0);
-        if (!bVar6) {
-          bVar6 = System_String__op_Equality(pSVar7,"hair_himecutvariant",(MethodInfo *)0x0);
-          if (!bVar6) {
-            bVar6 = System_String__op_Equality(pSVar7,"hair_longcurly",(MethodInfo *)0x0);
-            if (!bVar6) {
-              bVar6 = System_String__op_Equality(pSVar7,"hair_longcurly2",(MethodInfo *)0x0);
-              pSVar7 = (__this->fields).CostumesPath;
-              if (!bVar6) {
-                pSVar7 = System_String__Concat_1969e50(pSVar7,"character_cloakee",(MethodInfo *)0x0);
-                return pSVar7;
+  pCVar2 = (__this->fields)._setup;
+  if (((pCVar2 == (Characters_HumanSetup_o *)0x0) ||
+      (pSVar3 = (pCVar2->fields).CustomSet, pSVar3 == (Settings_HumanCustomSet_o *)0x0)) ||
+     (pSVar4 = (pSVar3->fields).Cape, pSVar4 == (Settings_IntSetting_o *)0x0)) goto label_05c0719a;
+  iVar1 = (pSVar4->fields)._value;
+  if (iVar1 == 2) {
+    bVar5 = Characters_HumanSetup__get_IsHooded(pCVar2,(MethodInfo *)0x0);
+    if (!bVar5) {
+      pCVar2 = (__this->fields)._setup;
+      if ((pCVar2 == (Characters_HumanSetup_o *)0x0) ||
+         (pSVar7 = (pCVar2->fields).CurrentHair, pSVar7 == (SimpleJSONFixed_JSONNode_o *)0x0)) {
+label_05c0719a:
+        ThrowNullReferenceException();
+      }
+      pSVar7 = (*(pSVar7->klass->vtable)._7_get_Item.methodPtr)
+                         (pSVar7,"Texture",(pSVar7->klass->vtable)._7_get_Item.method);
+      if (pSVar7 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05c0719a;
+      pSVar8 = (*(pSVar7->klass->vtable)._9_get_Value.methodPtr)
+                         (pSVar7,*(MethodInfo **)((long)&(pSVar7->klass->vtable)._9_get_Value + 8));
+      bVar5 = System_String__op_Equality(pSVar8,"hair_longanime",(MethodInfo *)0x0);
+      ppSVar6 = &"character_cloakee_hoodless";
+      if (!bVar5) {
+        bVar5 = System_String__op_Equality(pSVar8,"hair_longbangs",(MethodInfo *)0x0);
+        if (!bVar5) {
+          bVar5 = System_String__op_Equality(pSVar8,"hair_lacylong",(MethodInfo *)0x0);
+          if (!bVar5) {
+            bVar5 = System_String__op_Equality(pSVar8,"hair_himecut",(MethodInfo *)0x0);
+            if (!bVar5) {
+              bVar5 = System_String__op_Equality(pSVar8,"hair_himecutvariant",(MethodInfo *)0x0);
+              if (!bVar5) {
+                bVar5 = System_String__op_Equality(pSVar8,"hair_longcurly",(MethodInfo *)0x0);
+                if (!bVar5) {
+                  bVar5 = System_String__op_Equality(pSVar8,"hair_longcurly2",(MethodInfo *)0x0);
+                  if (bVar5) {
+                    ppSVar6 = &"character_cloakee_hoodless";
+                  }
+                  else {
+                    ppSVar6 = &"character_cloakee";
+                  }
+                }
               }
-              goto label_1821700c8;
             }
           }
         }
       }
+      str0 = (__this->fields).CostumesPath;
+      pSVar8 = *ppSVar6;
+      goto label_05c0718e;
     }
+    str0 = (__this->fields).CostumesPath;
+    ppSVar6 = &"character_cloakee_hooded";
   }
-  pSVar7 = (__this->fields).CostumesPath;
-label_1821700c8:
-  pSVar7 = System_String__Concat_1969e50(pSVar7,"character_cloakee_hoodless",(MethodInfo *)0x0);
-  return pSVar7;
+  else {
+    if (iVar1 == 0) {
+      return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
+    }
+    str0 = (__this->fields).CostumesPath;
+    ppSVar6 = &"character_cape_0";
+  }
+  pSVar8 = *ppSVar6;
+label_05c0718e:
+  pSVar8 = System_String__Concat_52f0320(str0,pSVar8,(MethodInfo *)0x0);
+  return pSVar8;
 }
 
 
 // Characters.HumanSetupMeshes$$GetChestMesh
 // il2cpp: System_String_o* Characters_HumanSetupMeshes__GetChestMesh (Characters_HumanSetupMeshes_o* __this, int32_t chest, const MethodInfo* method);
-// 0x182170120
+// 0x5c071a0
 
 System_String_o *
 Characters_HumanSetupMeshes__GetChestMesh
@@ -803,15 +797,14 @@ Characters_HumanSetupMeshes__GetChestMesh
 
 {
   Characters_HumanSetup_o *pCVar1;
-  SimpleJSONFixed_JSONNode_o *pSVar2;
-  System_Xml_Schema_XmlSchema_c *pSVar3;
-  Settings_HumanCustomSet_o *pSVar4;
-  Settings_IntSetting_o *pSVar5;
-  bool bVar6;
-  System_Xml_Schema_XmlSchema_o *pSVar7;
-  System_String_o *pSVar8;
+  Settings_HumanCustomSet_o *pSVar2;
+  Settings_IntSetting_o *pSVar3;
+  bool bVar4;
+  SimpleJSONFixed_JSONNode_o *pSVar5;
+  System_String_o *pSVar6;
+  System_String_o **ppSVar7;
   
-  if (Il2CppMethodInitialized_184346cca == '\0') {
+  if (Il2CppMethodInitialized_0754769a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
     il2cpp_codegen_initialize_runtime_metadata(&"body_blade_keeper_f_0");
     il2cpp_codegen_initialize_runtime_metadata(&"mikasa_asset_uni_0");
@@ -824,40 +817,33 @@ Characters_HumanSetupMeshes__GetChestMesh
     il2cpp_codegen_initialize_runtime_metadata(&"Uniform");
     il2cpp_codegen_initialize_runtime_metadata(&"char_cap_cas");
     il2cpp_codegen_initialize_runtime_metadata(&"mikasa_asset_cas_0");
-    Il2CppMethodInitialized_184346cca = '\x01';
+    Il2CppMethodInitialized_0754769a = '\x01';
   }
-  if (chest == 1) {
+  if (chest == 3) {
     pCVar1 = (__this->fields)._setup;
-    if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-        (pSVar4 = (pCVar1->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
-       (pSVar5 = (pSVar4->fields).Cape, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-      if ((pSVar5->fields)._value == 2) goto label_182170471;
-      pSVar2 = (((__this->fields)._setup)->fields).CurrentCostume;
-      if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-        bVar6 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)(pSVar2,(MethodInfo *)"Hoodie");
-        if (!bVar6) goto label_182170471;
-        pCVar1 = (__this->fields)._setup;
-        if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-           (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-          pSVar7 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)
-                             (pSVar2,(MethodInfo *)"Type");
-          if (pSVar7 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-            pSVar3 = pSVar7->klass;
-            pSVar8 = (System_String_o *)
-                     (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                               (pSVar7,(UnityEngine_GameObject_o *)
-                                       (pSVar3->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar3)
-            ;
-            if (pSVar8 != (System_String_o *)0x0) {
-              bVar6 = System_String__StartsWith(pSVar8,"Uniform",(MethodInfo *)0x0);
-              pSVar8 = (__this->fields).AccessoriesPath;
-              if (!bVar6) {
-                pSVar8 = System_String__Concat_1969e50(pSVar8,"char_cap_cas",(MethodInfo *)0x0);
-                return pSVar8;
-              }
-              pSVar8 = System_String__Concat_1969e50(pSVar8,"char_cap_uni",(MethodInfo *)0x0);
-              return pSVar8;
+    if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
+       (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      bVar4 = (*(pSVar5->klass->vtable)._28_HasKey.methodPtr)
+                        (pSVar5,"Scarf",(pSVar5->klass->vtable)._28_HasKey.method);
+      if (!bVar4) goto label_05c0748b;
+      pCVar1 = (__this->fields)._setup;
+      if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
+         (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+        pSVar5 = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)
+                           (pSVar5,"Type",(pSVar5->klass->vtable)._7_get_Item.method);
+        if (pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+          pSVar6 = (*(pSVar5->klass->vtable)._9_get_Value.methodPtr)
+                             (pSVar5,*(MethodInfo **)((long)&(pSVar5->klass->vtable)._9_get_Value + 8));
+          if (pSVar6 != (System_String_o *)0x0) {
+            bVar4 = System_String__StartsWith(pSVar6,"Uniform",(MethodInfo *)0x0);
+            pSVar6 = (__this->fields).CostumesPath;
+            if (bVar4) {
+              ppSVar7 = &"mikasa_asset_uni_0";
             }
+            else {
+              ppSVar7 = &"mikasa_asset_cas_0";
+            }
+            goto label_05c074c3;
           }
         }
       }
@@ -866,52 +852,61 @@ Characters_HumanSetupMeshes__GetChestMesh
   else if (chest == 2) {
     pCVar1 = (__this->fields)._setup;
     if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-       (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-      bVar6 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)(pSVar2,(MethodInfo *)"Holster");
-      if (!bVar6) goto label_182170471;
+       (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      bVar4 = (*(pSVar5->klass->vtable)._28_HasKey.methodPtr)
+                        (pSVar5,"Holster",(pSVar5->klass->vtable)._28_HasKey.method);
+      if (!bVar4) goto label_05c0748b;
       pCVar1 = (__this->fields)._setup;
       if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-          (pSVar4 = (pCVar1->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
-         (pSVar5 = (pSVar4->fields).Sex, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-        pSVar8 = (__this->fields).AccessoriesPath;
-        if ((pSVar5->fields)._value != 0) {
-          pSVar8 = System_String__Concat_1969e50(pSVar8,"body_blade_keeper_f_0",(MethodInfo *)0x0);
-          return pSVar8;
+          (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 != (Settings_HumanCustomSet_o *)0x0)) &&
+         (pSVar3 = (pSVar2->fields).Sex, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+        pSVar6 = (__this->fields).AccessoriesPath;
+        if ((pSVar3->fields)._value == 0) {
+          ppSVar7 = &"body_blade_keeper_m_0";
         }
-        pSVar8 = System_String__Concat_1969e50(pSVar8,"body_blade_keeper_m_0",(MethodInfo *)0x0);
-        return pSVar8;
+        else {
+          ppSVar7 = &"body_blade_keeper_f_0";
+        }
+label_05c074c3:
+        pSVar6 = System_String__Concat_52f0320(pSVar6,*ppSVar7,(MethodInfo *)0x0);
+        return pSVar6;
       }
     }
   }
   else {
-    if (chest != 3) {
-label_182170471:
-      return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    if (chest != 1) {
+label_05c0748b:
+      return (System_String_o *)**(undefined8 **)(g_data_07556758 + 0xb8);
     }
     pCVar1 = (__this->fields)._setup;
-    if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-       (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-      bVar6 = (*(pSVar2->klass->vtable)._28_HasKey.methodPtr)(pSVar2,(MethodInfo *)"Scarf");
-      if (!bVar6) goto label_182170471;
-      pCVar1 = (__this->fields)._setup;
-      if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
-         (pSVar2 = (pCVar1->fields).CurrentCostume, pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
-        pSVar7 = (*(pSVar2->klass->vtable)._7_get_Item.methodPtr)(pSVar2,(MethodInfo *)"Type");
-        if (pSVar7 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-          pSVar3 = pSVar7->klass;
-          pSVar8 = (System_String_o *)
-                   (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
-                             (pSVar7,(UnityEngine_GameObject_o *)
-                                     (pSVar3->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar3);
-          if (pSVar8 != (System_String_o *)0x0) {
-            bVar6 = System_String__StartsWith(pSVar8,"Uniform",(MethodInfo *)0x0);
-            pSVar8 = (__this->fields).CostumesPath;
-            if (!bVar6) {
-              pSVar8 = System_String__Concat_1969e50(pSVar8,"mikasa_asset_cas_0",(MethodInfo *)0x0);
-              return pSVar8;
+    if (((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
+        (pSVar2 = (pCVar1->fields).CustomSet, pSVar2 != (Settings_HumanCustomSet_o *)0x0)) &&
+       (pSVar3 = (pSVar2->fields).Cape, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+      if ((pSVar3->fields)._value == 2) goto label_05c0748b;
+      pSVar5 = (pCVar1->fields).CurrentCostume;
+      if (pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        bVar4 = (*(pSVar5->klass->vtable)._28_HasKey.methodPtr)
+                          (pSVar5,"Hoodie",(pSVar5->klass->vtable)._28_HasKey.method);
+        if (!bVar4) goto label_05c0748b;
+        pCVar1 = (__this->fields)._setup;
+        if ((pCVar1 != (Characters_HumanSetup_o *)0x0) &&
+           (pSVar5 = (pCVar1->fields).CurrentCostume, pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+          pSVar5 = (*(pSVar5->klass->vtable)._7_get_Item.methodPtr)
+                             (pSVar5,"Type",(pSVar5->klass->vtable)._7_get_Item.method);
+          if (pSVar5 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+            pSVar6 = (*(pSVar5->klass->vtable)._9_get_Value.methodPtr)
+                               (pSVar5,*(MethodInfo **)((long)&(pSVar5->klass->vtable)._9_get_Value + 8));
+            if (pSVar6 != (System_String_o *)0x0) {
+              bVar4 = System_String__StartsWith(pSVar6,"Uniform",(MethodInfo *)0x0);
+              pSVar6 = (__this->fields).AccessoriesPath;
+              if (bVar4) {
+                ppSVar7 = &"char_cap_uni";
+              }
+              else {
+                ppSVar7 = &"char_cap_cas";
+              }
+              goto label_05c074c3;
             }
-            pSVar8 = System_String__Concat_1969e50(pSVar8,"mikasa_asset_uni_0",(MethodInfo *)0x0);
-            return pSVar8;
           }
         }
       }

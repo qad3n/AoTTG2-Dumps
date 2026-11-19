@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.PostProcessPassRenderGraph
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -216,7 +216,7 @@ internal class PostProcessPassRenderGraph
 		internal Vector2Int newCameraTargetSize;
 
 		[Token(Token = "0x6000770")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667120", Offset = "0x6666120", VA = "0x6667120")]
 		public UpdateCameraResolutionPassData()
 		{
 		}
@@ -234,7 +234,7 @@ internal class PostProcessPassRenderGraph
 		internal Material stopNaN;
 
 		[Token(Token = "0x6000771")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667130", Offset = "0x6666130", VA = "0x6667130")]
 		public StopNaNsPassData()
 		{
 		}
@@ -272,7 +272,7 @@ internal class PostProcessPassRenderGraph
 		internal Material material;
 
 		[Token(Token = "0x6000772")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667140", Offset = "0x6666140", VA = "0x6667140")]
 		public SMAASetupPassData()
 		{
 		}
@@ -294,7 +294,7 @@ internal class PostProcessPassRenderGraph
 		internal Material material;
 
 		[Token(Token = "0x6000773")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667150", Offset = "0x6666150", VA = "0x6667150")]
 		public SMAAPassData()
 		{
 		}
@@ -332,7 +332,7 @@ internal class PostProcessPassRenderGraph
 		internal Material uberMaterial;
 
 		[Token(Token = "0x6000774")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667160", Offset = "0x6666160", VA = "0x6667160")]
 		public UberSetupBloomPassData()
 		{
 		}
@@ -366,7 +366,7 @@ internal class PostProcessPassRenderGraph
 		internal TextureHandle[] bloomMipDown;
 
 		[Token(Token = "0x6000775")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667170", Offset = "0x6666170", VA = "0x6667170")]
 		public BloomPassData()
 		{
 		}
@@ -396,7 +396,7 @@ internal class PostProcessPassRenderGraph
 		internal bool enableAlphaOutput;
 
 		[Token(Token = "0x6000776")]
-		[Address(RVA = "0x2C70370", Offset = "0x2C6E970", VA = "0x182C70370")]
+		[Address(RVA = "0x6667180", Offset = "0x6666180", VA = "0x6667180")]
 		internal bool Equals(ref BloomMaterialParams other)
 		{
 			return default(bool);
@@ -463,7 +463,7 @@ internal class PostProcessPassRenderGraph
 		internal TextureHandle destination;
 
 		[Token(Token = "0x6000777")]
-		[Address(RVA = "0x2C70460", Offset = "0x2C6EA60", VA = "0x182C70460")]
+		[Address(RVA = "0x6667220", Offset = "0x6666220", VA = "0x6667220")]
 		public DoFGaussianPassData()
 		{
 		}
@@ -529,7 +529,7 @@ internal class PostProcessPassRenderGraph
 		internal TextureHandle destination;
 
 		[Token(Token = "0x6000778")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667280", Offset = "0x6666280", VA = "0x6667280")]
 		public DoFBokehPassData()
 		{
 		}
@@ -559,7 +559,7 @@ internal class PostProcessPassRenderGraph
 		internal bool isPaniniGeneric;
 
 		[Token(Token = "0x6000779")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667290", Offset = "0x6666290", VA = "0x6667290")]
 		public PaniniProjectionPassData()
 		{
 		}
@@ -605,7 +605,7 @@ internal class PostProcessPassRenderGraph
 		internal bool enableAlphaOutput;
 
 		[Token(Token = "0x600077A")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672A0", Offset = "0x66662A0", VA = "0x66672A0")]
 		public MotionBlurPassData()
 		{
 		}
@@ -651,7 +651,7 @@ internal class PostProcessPassRenderGraph
 		internal bool usePanini;
 
 		[Token(Token = "0x600077B")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672B0", Offset = "0x66662B0", VA = "0x66672B0")]
 		public LensFlarePassData()
 		{
 		}
@@ -705,7 +705,7 @@ internal class PostProcessPassRenderGraph
 		internal int downsample;
 
 		[Token(Token = "0x600077C")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672C0", Offset = "0x66662C0", VA = "0x66672C0")]
 		public LensFlareScreenSpacePassData()
 		{
 		}
@@ -735,7 +735,7 @@ internal class PostProcessPassRenderGraph
 		internal bool isActiveTargetBackBuffer;
 
 		[Token(Token = "0x600077D")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672D0", Offset = "0x66662D0", VA = "0x66672D0")]
 		public PostProcessingFinalSetupPassData()
 		{
 		}
@@ -765,7 +765,7 @@ internal class PostProcessPassRenderGraph
 		internal Vector2 fsrOutputSize;
 
 		[Token(Token = "0x600077E")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672E0", Offset = "0x66662E0", VA = "0x66672E0")]
 		public PostProcessingFinalFSRScalePassData()
 		{
 		}
@@ -795,7 +795,7 @@ internal class PostProcessPassRenderGraph
 		internal FinalBlitSettings settings;
 
 		[Token(Token = "0x600077F")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x66672F0", Offset = "0x66662F0", VA = "0x66672F0")]
 		public PostProcessingFinalBlitPassData()
 		{
 		}
@@ -829,7 +829,7 @@ internal class PostProcessPassRenderGraph
 		public HDROutputUtils.Operation hdrOperations;
 
 		[Token(Token = "0x6000780")]
-		[Address(RVA = "0xB62B70", Offset = "0xB61170", VA = "0x180B62B70")]
+		[Address(RVA = "0x6667300", Offset = "0x6666300", VA = "0x6667300")]
 		public static FinalBlitSettings Create()
 		{
 			return default(FinalBlitSettings);
@@ -896,7 +896,7 @@ internal class PostProcessPassRenderGraph
 		internal bool isActiveTargetBackBuffer;
 
 		[Token(Token = "0x6000781")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667310", Offset = "0x6666310", VA = "0x6667310")]
 		public UberPostPassData()
 		{
 		}
@@ -906,7 +906,7 @@ internal class PostProcessPassRenderGraph
 	private class PostFXSetupPassData
 	{
 		[Token(Token = "0x6000782")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x6667320", Offset = "0x6666320", VA = "0x6667320")]
 		public PostFXSetupPassData()
 		{
 		}
@@ -1059,26 +1059,26 @@ internal class PostProcessPassRenderGraph
 	private const string _UpscaledColorTargetName = "_CameraColorUpscaledSTP";
 
 	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x2C6D520", Offset = "0x2C6BB20", VA = "0x182C6D520")]
+	[Address(RVA = "0x66550A0", Offset = "0x66540A0", VA = "0x66550A0")]
 	public PostProcessPassRenderGraph(PostProcessData data, GraphicsFormat requestPostProColorFormat)
 	{
 	}
 
 	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x2C5F380", Offset = "0x2C5D980", VA = "0x182C5F380")]
+	[Address(RVA = "0x6655440", Offset = "0x6654440", VA = "0x6655440")]
 	public void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x2C5F620", Offset = "0x2C5DC20", VA = "0x182C5F620")]
+	[Address(RVA = "0x6655470", Offset = "0x6654470", VA = "0x6655470")]
 	public void Dispose()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x2C5FA20", Offset = "0x2C5E020", VA = "0x182C5FA20")]
+	[Address(RVA = "0x6655490", Offset = "0x6654490", VA = "0x6655490")]
 	private static bool IsHDRFormat(GraphicsFormat format)
 	{
 		return default(bool);
@@ -1086,7 +1086,7 @@ internal class PostProcessPassRenderGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x2C5F9D0", Offset = "0x2C5DFD0", VA = "0x182C5F9D0")]
+	[Address(RVA = "0x6655510", Offset = "0x6654510", VA = "0x6655510")]
 	private static bool IsAlphaFormat(GraphicsFormat format)
 	{
 		return default(bool);
@@ -1094,7 +1094,7 @@ internal class PostProcessPassRenderGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x2C6B510", Offset = "0x2C69B10", VA = "0x182C6B510")]
+	[Address(RVA = "0x6655570", Offset = "0x6654570", VA = "0x6655570")]
 	private bool RequireSRGBConversionBlitToBackBuffer(bool requireSrgbConversion)
 	{
 		return default(bool);
@@ -1102,159 +1102,159 @@ internal class PostProcessPassRenderGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600073E")]
-	[Address(RVA = "0x2C6B4D0", Offset = "0x2C69AD0", VA = "0x182C6B4D0")]
+	[Address(RVA = "0x6655590", Offset = "0x6654590", VA = "0x6655590")]
 	private static bool RequireHDROutput(UniversalCameraData cameraData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600073F")]
-	[Address(RVA = "0x2C6CF30", Offset = "0x2C6B530", VA = "0x182C6CF30")]
+	[Address(RVA = "0x66555D0", Offset = "0x66545D0", VA = "0x66555D0")]
 	private void UpdateCameraResolution(RenderGraph renderGraph, UniversalCameraData cameraData, Vector2Int newCameraTargetSize)
 	{
 	}
 
 	[Token(Token = "0x6000740")]
-	[Address(RVA = "0x2C5F4D0", Offset = "0x2C5DAD0", VA = "0x182C5F4D0")]
+	[Address(RVA = "0x6655990", Offset = "0x6654990", VA = "0x6655990")]
 	internal static TextureHandle CreateCompatibleTexture(RenderGraph renderGraph, in TextureHandle source, string name, bool clear, FilterMode filterMode)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000741")]
-	[Address(RVA = "0x2C5F3C0", Offset = "0x2C5D9C0", VA = "0x182C5F3C0")]
+	[Address(RVA = "0x6655AE0", Offset = "0x6654AE0", VA = "0x6655AE0")]
 	internal static TextureHandle CreateCompatibleTexture(RenderGraph renderGraph, in TextureDesc desc, string name, bool clear, FilterMode filterMode)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000742")]
-	[Address(RVA = "0x2C5F640", Offset = "0x2C5DC40", VA = "0x182C5F640")]
+	[Address(RVA = "0x6655C50", Offset = "0x6654C50", VA = "0x6655C50")]
 	internal static TextureDesc GetCompatibleDescriptor(TextureDesc desc, int width, int height, GraphicsFormat format)
 	{
 		return default(TextureDesc);
 	}
 
 	[Token(Token = "0x6000743")]
-	[Address(RVA = "0x2C5F710", Offset = "0x2C5DD10", VA = "0x182C5F710")]
+	[Address(RVA = "0x6655BC0", Offset = "0x6654BC0", VA = "0x6655BC0")]
 	internal static TextureDesc GetCompatibleDescriptor(TextureDesc desc)
 	{
 		return default(TextureDesc);
 	}
 
 	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x2C600D0", Offset = "0x2C5E6D0", VA = "0x182C600D0")]
+	[Address(RVA = "0x6655AC0", Offset = "0x6654AC0", VA = "0x6655AC0")]
 	internal static void MakeCompatible(ref TextureDesc desc)
 	{
 	}
 
 	[Token(Token = "0x6000745")]
-	[Address(RVA = "0x2C5F6B0", Offset = "0x2C5DCB0", VA = "0x182C5F6B0")]
+	[Address(RVA = "0x6655D00", Offset = "0x6654D00", VA = "0x6655D00")]
 	internal static RenderTextureDescriptor GetCompatibleDescriptor(RenderTextureDescriptor desc, int width, int height, GraphicsFormat format, GraphicsFormat depthStencilFormat = GraphicsFormat.None)
 	{
 		return default(RenderTextureDescriptor);
 	}
 
 	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x2C6A300", Offset = "0x2C68900", VA = "0x182C6A300")]
+	[Address(RVA = "0x6655D50", Offset = "0x6654D50", VA = "0x6655D50")]
 	public void RenderStopNaN(RenderGraph renderGraph, in TextureHandle activeCameraColor, out TextureHandle stopNaNTarget)
 	{
 	}
 
 	[Token(Token = "0x6000747")]
-	[Address(RVA = "0x2C68900", Offset = "0x2C66F00", VA = "0x182C68900")]
+	[Address(RVA = "0x6656220", Offset = "0x6655220", VA = "0x6656220")]
 	public void RenderSMAA(RenderGraph renderGraph, UniversalResourceData resourceData, AntialiasingQuality antialiasingQuality, in TextureHandle source, out TextureHandle SMAATarget)
 	{
 	}
 
 	[Token(Token = "0x6000748")]
-	[Address(RVA = "0x2C6C8B0", Offset = "0x2C6AEB0", VA = "0x182C6C8B0")]
+	[Address(RVA = "0x6657D70", Offset = "0x6656D70", VA = "0x6657D70")]
 	public void UberPostSetupBloomPass(RenderGraph rendergraph, Material uberMaterial, in TextureDesc srcDesc)
 	{
 	}
 
 	[Token(Token = "0x6000749")]
-	[Address(RVA = "0x2C5F180", Offset = "0x2C5D780", VA = "0x182C5F180")]
+	[Address(RVA = "0x66583A0", Offset = "0x66573A0", VA = "0x66583A0")]
 	public Vector2Int CalcBloomResolution(Bloom bloom, in TextureDesc bloomSourceDesc)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x2C5F060", Offset = "0x2C5D660", VA = "0x182C5F060")]
+	[Address(RVA = "0x6658440", Offset = "0x6657440", VA = "0x6658440")]
 	public int CalcBloomMipCount(Bloom bloom, Vector2Int bloomResolution)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x2C604A0", Offset = "0x2C5EAA0", VA = "0x182C604A0")]
+	[Address(RVA = "0x6658570", Offset = "0x6657570", VA = "0x6658570")]
 	public void RenderBloomTexture(RenderGraph renderGraph, in TextureHandle source, out TextureHandle destination, bool enableAlphaOutput)
 	{
 	}
 
 	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x2C5E5F0", Offset = "0x2C5CBF0", VA = "0x182C5E5F0")]
+	[Address(RVA = "0x665A420", Offset = "0x6659420", VA = "0x665A420")]
 	private TextureHandle BloomGaussian(RenderGraph renderGraph, TextureHandle source, int mipCount)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600074D")]
-	[Address(RVA = "0x2C5EBB0", Offset = "0x2C5D1B0", VA = "0x182C5EBB0")]
+	[Address(RVA = "0x6659D70", Offset = "0x6658D70", VA = "0x6659D70")]
 	private TextureHandle BloomKawase(RenderGraph renderGraph, TextureHandle source, int mipCount)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x2C5E030", Offset = "0x2C5C630", VA = "0x182C5E030")]
+	[Address(RVA = "0x6659620", Offset = "0x6658620", VA = "0x6659620")]
 	private TextureHandle BloomDual(RenderGraph renderGraph, TextureHandle source, int mipCount)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x2C631D0", Offset = "0x2C617D0", VA = "0x182C631D0")]
+	[Address(RVA = "0x665AB70", Offset = "0x6659B70", VA = "0x665AB70")]
 	public void RenderDoF(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureHandle source, out TextureHandle destination)
 	{
 	}
 
 	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x2C62260", Offset = "0x2C60860", VA = "0x182C62260")]
+	[Address(RVA = "0x665AD60", Offset = "0x6659D60", VA = "0x665AD60")]
 	public void RenderDoFGaussian(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureHandle source, TextureHandle destination, ref Material dofMaterial)
 	{
 	}
 
 	[Token(Token = "0x6000751")]
-	[Address(RVA = "0x2C600F0", Offset = "0x2C5E6F0", VA = "0x182C600F0")]
+	[Address(RVA = "0x665CC50", Offset = "0x665BC50", VA = "0x665CC50")]
 	private void PrepareBokehKernel(float maxRadius, float rcpAspect)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000752")]
-	[Address(RVA = "0x2C5F9B0", Offset = "0x2C5DFB0", VA = "0x182C5F9B0")]
+	[Address(RVA = "0x665D1D0", Offset = "0x665C1D0", VA = "0x665D1D0")]
 	private static float GetMaxBokehRadiusInPixels(float viewportHeight)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000753")]
-	[Address(RVA = "0x2C613C0", Offset = "0x2C5F9C0", VA = "0x182C613C0")]
+	[Address(RVA = "0x665BD30", Offset = "0x665AD30", VA = "0x665BD30")]
 	public void RenderDoFBokeh(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureHandle source, in TextureHandle destination, ref Material dofMaterial)
 	{
 	}
 
 	[Token(Token = "0x6000754")]
-	[Address(RVA = "0x2C66950", Offset = "0x2C64F50", VA = "0x182C66950")]
+	[Address(RVA = "0x665D1F0", Offset = "0x665C1F0", VA = "0x665D1F0")]
 	public void RenderPaniniProjection(RenderGraph renderGraph, Camera camera, in TextureHandle source, out TextureHandle destination)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000755")]
-	[Address(RVA = "0x2C5F320", Offset = "0x2C5D920", VA = "0x182C5F320")]
+	[Address(RVA = "0x665D9B0", Offset = "0x665C9B0", VA = "0x665D9B0")]
 	private static Vector2 CalcViewExtents(Camera camera, int width, int height)
 	{
 		return default(Vector2);
@@ -1262,161 +1262,161 @@ internal class PostProcessPassRenderGraph
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000756")]
-	[Address(RVA = "0x2C5F230", Offset = "0x2C5D830", VA = "0x182C5F230")]
+	[Address(RVA = "0x665DA00", Offset = "0x665CA00", VA = "0x665DA00")]
 	private static Vector2 CalcCropExtents(Camera camera, float d, int width, int height)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000757")]
-	[Address(RVA = "0x2C6A760", Offset = "0x2C68D60", VA = "0x182C6A760")]
+	[Address(RVA = "0x665DAE0", Offset = "0x665CAE0", VA = "0x665DAE0")]
 	private void RenderTemporalAA(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, ref TextureHandle source, out TextureHandle destination)
 	{
 	}
 
 	[Token(Token = "0x6000758")]
-	[Address(RVA = "0x2C69EC0", Offset = "0x2C684C0", VA = "0x182C69EC0")]
+	[Address(RVA = "0x665DBD0", Offset = "0x665CBD0", VA = "0x665DBD0")]
 	private void RenderSTP(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, ref TextureHandle source, out TextureHandle destination)
 	{
 	}
 
 	[Token(Token = "0x6000759")]
-	[Address(RVA = "0x2C660F0", Offset = "0x2C646F0", VA = "0x182C660F0")]
+	[Address(RVA = "0x665E040", Offset = "0x665D040", VA = "0x665E040")]
 	public void RenderMotionBlur(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureHandle source, out TextureHandle destination)
 	{
 	}
 
 	[Token(Token = "0x600075A")]
-	[Address(RVA = "0x2C6D220", Offset = "0x2C6B820", VA = "0x182C6D220")]
+	[Address(RVA = "0x665E920", Offset = "0x665D920", VA = "0x665E920")]
 	internal static void UpdateMotionBlurMatrices(ref Material material, Camera camera, XRPass xr)
 	{
 	}
 
 	[Token(Token = "0x600075B")]
-	[Address(RVA = "0x2C5FAA0", Offset = "0x2C5E0A0", VA = "0x182C5FAA0")]
+	[Address(RVA = "0x665EC40", Offset = "0x665DC40", VA = "0x665EC40")]
 	private void LensFlareDataDrivenComputeOcclusion(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureDesc srcDesc)
 	{
 	}
 
 	[Token(Token = "0x600075C")]
-	[Address(RVA = "0x2C64F10", Offset = "0x2C63510", VA = "0x182C64F10")]
+	[Address(RVA = "0x665F300", Offset = "0x665E300", VA = "0x665F300")]
 	public void RenderLensFlareDataDriven(RenderGraph renderGraph, UniversalResourceData resourceData, UniversalCameraData cameraData, in TextureHandle destination, in TextureDesc srcDesc)
 	{
 	}
 
 	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x2C5F770", Offset = "0x2C5DD70", VA = "0x182C5F770")]
+	[Address(RVA = "0x665FA70", Offset = "0x665EA70", VA = "0x665FA70")]
 	private static float GetLensFlareLightAttenuation(Light light, Camera cam, Vector3 wo)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x2C65610", Offset = "0x2C63C10", VA = "0x182C65610")]
+	[Address(RVA = "0x665FC80", Offset = "0x665EC80", VA = "0x665FC80")]
 	public TextureHandle RenderLensFlareScreenSpace(RenderGraph renderGraph, Camera camera, in TextureDesc srcDesc, TextureHandle originalBloomTexture, TextureHandle screenSpaceLensFlareBloomMipTexture, bool sameBloomInputOutputTex)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x600075F")]
-	[Address(RVA = "0x2C6B910", Offset = "0x2C69F10", VA = "0x182C6B910")]
+	[Address(RVA = "0x66608A0", Offset = "0x665F8A0", VA = "0x66608A0")]
 	private static void ScaleViewport(RasterCommandBuffer cmd, RTHandle sourceTextureHdl, RTHandle dest, UniversalCameraData cameraData, bool isActiveTargetBackBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000760")]
-	[Address(RVA = "0x2C6B520", Offset = "0x2C69B20", VA = "0x182C6B520")]
+	[Address(RVA = "0x6660AD0", Offset = "0x665FAD0", VA = "0x6660AD0")]
 	private static void ScaleViewportAndBlit(in RasterGraphContext context, in TextureHandle source, in TextureHandle destination, UniversalCameraData cameraData, Material material, bool isActiveTargetBackBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000761")]
-	[Address(RVA = "0x2C6B690", Offset = "0x2C69C90", VA = "0x182C6B690")]
+	[Address(RVA = "0x6660C10", Offset = "0x665FC10", VA = "0x6660C10")]
 	private static void ScaleViewportAndDrawVisibilityMesh(in RasterGraphContext context, in TextureHandle source, in TextureHandle destination, UniversalCameraData cameraData, Material material, bool isActiveTargetBackBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000762")]
-	[Address(RVA = "0x2C648B0", Offset = "0x2C62EB0", VA = "0x182C648B0")]
+	[Address(RVA = "0x6660EA0", Offset = "0x665FEA0", VA = "0x6660EA0")]
 	public void RenderFinalSetup(RenderGraph renderGraph, UniversalCameraData cameraData, in TextureHandle source, in TextureHandle destination, ref FinalBlitSettings settings, bool isActiveTargetBackBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000763")]
-	[Address(RVA = "0x2C63A60", Offset = "0x2C62060", VA = "0x182C63A60")]
+	[Address(RVA = "0x6661680", Offset = "0x6660680", VA = "0x6661680")]
 	public void RenderFinalFSRScale(RenderGraph renderGraph, in TextureHandle source, in TextureDesc srcDesc, in TextureHandle destination, in TextureDesc dstDesc, bool enableAlphaOutput)
 	{
 	}
 
 	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x2C63410", Offset = "0x2C61A10", VA = "0x182C63410")]
+	[Address(RVA = "0x6661C20", Offset = "0x6660C20", VA = "0x6661C20")]
 	public void RenderFinalBlit(RenderGraph renderGraph, UniversalCameraData cameraData, in TextureHandle source, in TextureHandle overlayUITexture, in TextureHandle postProcessingTarget, ref FinalBlitSettings settings)
 	{
 	}
 
 	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x2C63F50", Offset = "0x2C62550", VA = "0x182C63F50")]
+	[Address(RVA = "0x6662500", Offset = "0x6661500", VA = "0x6662500")]
 	public void RenderFinalPassRenderGraph(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle source, in TextureHandle overlayUITexture, in TextureHandle postProcessingTarget, bool enableColorEncodingIfNeeded)
 	{
 	}
 
 	[Token(Token = "0x6000766")]
-	[Address(RVA = "0x2C6C650", Offset = "0x2C6AC50", VA = "0x182C6C650")]
+	[Address(RVA = "0x6663010", Offset = "0x6662010", VA = "0x6663010")]
 	private TextureHandle TryGetCachedUserLutTextureHandle(RenderGraph renderGraph)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000767")]
-	[Address(RVA = "0x2C6A8A0", Offset = "0x2C68EA0", VA = "0x182C6A8A0")]
+	[Address(RVA = "0x6663240", Offset = "0x6662240", VA = "0x6663240")]
 	public void RenderUberPost(RenderGraph renderGraph, ContextContainer frameData, UniversalCameraData cameraData, UniversalPostProcessingData postProcessingData, in TextureHandle sourceTexture, in TextureHandle destTexture, in TextureHandle lutTexture, in TextureHandle bloomTexture, in TextureHandle overlayUITexture, bool requireHDROutput, bool enableAlphaOutput)
 	{
 	}
 
 	[Token(Token = "0x6000768")]
-	[Address(RVA = "0x2C67060", Offset = "0x2C65660", VA = "0x182C67060")]
+	[Address(RVA = "0x66642E0", Offset = "0x66632E0", VA = "0x66642E0")]
 	public void RenderPostProcessingRenderGraph(RenderGraph renderGraph, ContextContainer frameData, in TextureHandle activeCameraColorTexture, in TextureHandle lutTexture, in TextureHandle overlayUITexture, in TextureHandle postProcessingTarget, bool hasFinalPass, bool resolveToDebugScreen, bool enableColorEndingIfNeeded)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000769")]
-	[Address(RVA = "0x2C6BF30", Offset = "0x2C6A530", VA = "0x182C6BF30")]
+	[Address(RVA = "0x6665800", Offset = "0x6664800", VA = "0x6665800")]
 	private void SetupLensDistortion(Material material, bool isSceneView)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600076A")]
-	[Address(RVA = "0x2C6BB70", Offset = "0x2C6A170", VA = "0x182C6BB70")]
+	[Address(RVA = "0x6665B90", Offset = "0x6664B90", VA = "0x6665B90")]
 	private void SetupChromaticAberration(Material material)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600076B")]
-	[Address(RVA = "0x2C6C300", Offset = "0x2C6A900", VA = "0x182C6C300")]
+	[Address(RVA = "0x6665CA0", Offset = "0x6664CA0", VA = "0x6665CA0")]
 	private void SetupVignette(Material material, XRPass xrPass, int width, int height)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600076C")]
-	[Address(RVA = "0x2C6BD30", Offset = "0x2C6A330", VA = "0x182C6BD30")]
+	[Address(RVA = "0x6665F10", Offset = "0x6664F10", VA = "0x6665F10")]
 	private void SetupGrain(UniversalCameraData cameraData, Material material)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x2C6BC70", Offset = "0x2C6A270", VA = "0x182C6BC70")]
+	[Address(RVA = "0x6665FB0", Offset = "0x6664FB0", VA = "0x6665FB0")]
 	private void SetupDithering(UniversalCameraData cameraData, Material material)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x2C6BDF0", Offset = "0x2C6A3F0", VA = "0x182C6BDF0")]
+	[Address(RVA = "0x6666060", Offset = "0x6665060", VA = "0x6666060")]
 	private void SetupHDROutput(HDROutputUtils.HDRDisplayInformation hdrDisplayInformation, ColorGamut hdrDisplayColorGamut, Material material, HDROutputUtils.Operation hdrOperations, bool rendersOverlayUI)
 	{
 	}

@@ -14,21 +14,21 @@ namespace Unity.VisualScripting;
 public class EventHookComparer : IEqualityComparer<EventHook>
 {
 	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x2DA5F10", Offset = "0x2DA4510", VA = "0x182DA5F10", Slot = "4")]
+	[Address(RVA = "0x6797790", Offset = "0x6796790", VA = "0x6797790", Slot = "4")]
 	public bool Equals(EventHook x, EventHook y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x2DA5F70", Offset = "0x2DA4570", VA = "0x182DA5F70", Slot = "5")]
+	[Address(RVA = "0x67977F0", Offset = "0x67967F0", VA = "0x67977F0", Slot = "5")]
 	public int GetHashCode(EventHook obj)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6797100", Offset = "0x6796100", VA = "0x6797100")]
 	public EventHookComparer()
 	{
 	}

@@ -14,86 +14,86 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x2000208")]
 internal sealed class AottgHoverMarqueeTextRuntime : MonoBehaviour
 {
-	[Token(Token = "0x4000A57")]
+	[Token(Token = "0x4000ACF")]
 	private const float Gap = 32f;
 
-	[Token(Token = "0x4000A58")]
+	[Token(Token = "0x4000AD0")]
 	private const float PixelsPerSecond = 34f;
 
-	[Token(Token = "0x4000A59")]
+	[Token(Token = "0x4000AD1")]
 	private const float PauseSeconds = 0.45f;
 
-	[Token(Token = "0x4000A5A")]
+	[Token(Token = "0x4000AD2")]
 	[FieldOffset(Offset = "0x20")]
 	private TextMeshProUGUI _text;
 
-	[Token(Token = "0x4000A5B")]
+	[Token(Token = "0x4000AD3")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform _textRect;
 
-	[Token(Token = "0x4000A5C")]
+	[Token(Token = "0x4000AD4")]
 	[FieldOffset(Offset = "0x30")]
 	private Color _normalColor;
 
-	[Token(Token = "0x4000A5D")]
+	[Token(Token = "0x4000AD5")]
 	[FieldOffset(Offset = "0x40")]
 	private Color _activeColor;
 
-	[Token(Token = "0x4000A5E")]
+	[Token(Token = "0x4000AD6")]
 	[FieldOffset(Offset = "0x50")]
 	private bool _active;
 
-	[Token(Token = "0x4000A5F")]
+	[Token(Token = "0x4000AD7")]
 	[FieldOffset(Offset = "0x58")]
 	private Tween _tween;
 
-	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x23B43D0", Offset = "0x23B29D0", VA = "0x1823B43D0")]
+	[Token(Token = "0x6000C12")]
+	[Address(RVA = "0x5D84130", Offset = "0x5D83130", VA = "0x5D84130")]
 	public void Setup(string value, GisketchStyleDefinition style, GisketchTheme theme, string activeColor)
 	{
 	}
 
-	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x23B3BD0", Offset = "0x23B21D0", VA = "0x1823B3BD0")]
+	[Token(Token = "0x6000C13")]
+	[Address(RVA = "0x5D84CD0", Offset = "0x5D83CD0", VA = "0x5D84CD0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x23B3BF0", Offset = "0x23B21F0", VA = "0x1823B3BF0")]
+	[Token(Token = "0x6000C14")]
+	[Address(RVA = "0x5D84CF0", Offset = "0x5D83CF0", VA = "0x5D84CF0")]
 	private void OnRectTransformDimensionsChange()
 	{
 	}
 
-	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x23B43C0", Offset = "0x23B29C0", VA = "0x1823B43C0")]
+	[Token(Token = "0x6000C15")]
+	[Address(RVA = "0x5D84D00", Offset = "0x5D83D00", VA = "0x5D84D00")]
 	public void SetActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x23B3700", Offset = "0x23B1D00", VA = "0x1823B3700")]
+	[Token(Token = "0x6000C16")]
+	[Address(RVA = "0x5D841A0", Offset = "0x5D831A0", VA = "0x5D841A0")]
 	private void CreateText(GisketchStyleDefinition style, GisketchTheme theme, string activeColor)
 	{
 	}
 
-	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x23B4190", Offset = "0x23B2790", VA = "0x1823B4190")]
+	[Token(Token = "0x6000C17")]
+	[Address(RVA = "0x5D84640", Offset = "0x5D83640", VA = "0x5D84640")]
 	private void RegisterParent()
 	{
 	}
 
-	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x23B3C00", Offset = "0x23B2200", VA = "0x1823B3C00")]
+	[Token(Token = "0x6000C18")]
+	[Address(RVA = "0x5D84760", Offset = "0x5D83760", VA = "0x5D84760")]
 	private void RefreshMarquee()
 	{
 	}
 
-	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Token(Token = "0x6000C19")]
+	[Address(RVA = "0x5D84E40", Offset = "0x5D83E40", VA = "0x5D84E40")]
 	public AottgHoverMarqueeTextRuntime()
 	{
 	}

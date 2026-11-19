@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000300")]
+[Token(Token = "0x20002D9")]
 [ComVisible(true)]
 public enum CipherMode
 {
-	[Token(Token = "0x4000CE6")]
+	[Token(Token = "0x4000C46")]
 	CBC = 1,
-	[Token(Token = "0x4000CE7")]
+	[Token(Token = "0x4000C47")]
 	ECB,
-	[Token(Token = "0x4000CE8")]
+	[Token(Token = "0x4000C48")]
 	OFB,
-	[Token(Token = "0x4000CE9")]
+	[Token(Token = "0x4000C49")]
 	CFB,
-	[Token(Token = "0x4000CEA")]
+	[Token(Token = "0x4000C4A")]
 	CTS
 }

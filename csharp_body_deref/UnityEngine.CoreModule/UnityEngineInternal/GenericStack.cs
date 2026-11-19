@@ -14,7 +14,7 @@ namespace UnityEngineInternal;
 public class GenericStack : Stack
 {
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x2EC7B90", Offset = "0x2EC6190", VA = "0x182EC7B90")]
+	[Address(RVA = "0x68B2B90", Offset = "0x68B1B90", VA = "0x68B2B90")]
 	public GenericStack()
 	{
 	}

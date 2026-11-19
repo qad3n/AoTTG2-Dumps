@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualElementStyleSheetSet
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ public struct VisualElementStyleSheetSet : IEquatable<VisualElementStyleSheetSet
 	public int count
 	{
 		[Token(Token = "0x6002823")]
-		[Address(RVA = "0x316A1B0", Offset = "0x31687B0", VA = "0x18316A1B0")]
+		[Address(RVA = "0x6B6E980", Offset = "0x6B6D980", VA = "0x6B6E980")]
 		get
 		{
 			return default(int);
@@ -31,46 +31,46 @@ public struct VisualElementStyleSheetSet : IEquatable<VisualElementStyleSheetSet
 	}
 
 	[Token(Token = "0x600281F")]
-	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
+	[Address(RVA = "0x6B6E970", Offset = "0x6B6D970", VA = "0x6B6E970")]
 	internal VisualElementStyleSheetSet(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x6002820")]
-	[Address(RVA = "0x3169D90", Offset = "0x3168390", VA = "0x183169D90")]
+	[Address(RVA = "0x6B5DFD0", Offset = "0x6B5CFD0", VA = "0x6B5DFD0")]
 	public void Add(StyleSheet styleSheet)
 	{
 	}
 
 	[Token(Token = "0x6002821")]
-	[Address(RVA = "0x3169EA0", Offset = "0x31684A0", VA = "0x183169EA0")]
+	[Address(RVA = "0x6B6E9D0", Offset = "0x6B6D9D0", VA = "0x6B6E9D0")]
 	public void Insert(int index, StyleSheet styleSheet)
 	{
 	}
 
 	[Token(Token = "0x6002822")]
-	[Address(RVA = "0x316A050", Offset = "0x3168650", VA = "0x18316A050")]
+	[Address(RVA = "0x6B6EB60", Offset = "0x6B6DB60", VA = "0x6B6EB60")]
 	public bool Remove(StyleSheet styleSheet)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002824")]
-	[Address(RVA = "0x3169E90", Offset = "0x3168490", VA = "0x183169E90", Slot = "4")]
+	[Address(RVA = "0x6B6ECA0", Offset = "0x6B6DCA0", VA = "0x6B6ECA0", Slot = "4")]
 	public bool Equals(VisualElementStyleSheetSet other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002825")]
-	[Address(RVA = "0x3169E00", Offset = "0x3168400", VA = "0x183169E00", Slot = "0")]
+	[Address(RVA = "0x6B6ECB0", Offset = "0x6B6DCB0", VA = "0x6B6ECB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002826")]
-	[Address(RVA = "0x30ED3D0", Offset = "0x30EB9D0", VA = "0x1830ED3D0", Slot = "2")]
+	[Address(RVA = "0x6B6ED10", Offset = "0x6B6DD10", VA = "0x6B6ED10", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

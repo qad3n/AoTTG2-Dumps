@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000DF")]
+[Token(Token = "0x200011A")]
 internal class SetSettingsContainerPresetsOnly<T> : SetSettingsContainer<T> where T : BaseSetSetting, new()
 {
-	[Token(Token = "0x170000B0")]
+	[Token(Token = "0x170000CD")]
 	protected override bool PresetsOnly
 	{
-		[Token(Token = "0x6000487")]
+		[Token(Token = "0x6000605")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000488")]
+	[Token(Token = "0x6000606")]
 	public SetSettingsContainerPresetsOnly()
 	{
 	}

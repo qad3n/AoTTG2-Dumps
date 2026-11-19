@@ -11,105 +11,105 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003CF")]
+[Token(Token = "0x20003A8")]
 internal class CADMessageBase
 {
-	[Token(Token = "0x4000F67")]
+	[Token(Token = "0x4000EC7")]
 	[FieldOffset(Offset = "0x10")]
 	protected object[] _args;
 
-	[Token(Token = "0x4000F68")]
+	[Token(Token = "0x4000EC8")]
 	[FieldOffset(Offset = "0x18")]
 	protected byte[] _serializedArgs;
 
-	[Token(Token = "0x4000F69")]
+	[Token(Token = "0x4000EC9")]
 	[FieldOffset(Offset = "0x20")]
 	protected int _propertyCount;
 
-	[Token(Token = "0x4000F6A")]
+	[Token(Token = "0x4000ECA")]
 	[FieldOffset(Offset = "0x28")]
 	protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext;
 
-	[Token(Token = "0x4000F6B")]
+	[Token(Token = "0x4000ECB")]
 	[FieldOffset(Offset = "0x30")]
 	internal byte[] serializedMethod;
 
-	[Token(Token = "0x6001E90")]
-	[Address(RVA = "0x19EFAB0", Offset = "0x19EE0B0", VA = "0x1819EFAB0")]
+	[Token(Token = "0x6001E66")]
+	[Address(RVA = "0x538F530", Offset = "0x538E530", VA = "0x538F530")]
 	public CADMessageBase(IMethodMessage msg)
 	{
 	}
 
-	[Token(Token = "0x6001E91")]
-	[Address(RVA = "0x19EDD10", Offset = "0x19EC310", VA = "0x1819EDD10")]
+	[Token(Token = "0x6001E67")]
+	[Address(RVA = "0x538F5C0", Offset = "0x538E5C0", VA = "0x538F5C0")]
 	internal MethodBase GetMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E92")]
-	[Address(RVA = "0x19EDE90", Offset = "0x19EC490", VA = "0x1819EDE90")]
+	[Token(Token = "0x6001E68")]
+	[Address(RVA = "0x538F630", Offset = "0x538E630", VA = "0x538F630")]
 	protected static Type[] GetSignature(MethodBase methodBase, bool load)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E93")]
-	[Address(RVA = "0x19EE690", Offset = "0x19ECC90", VA = "0x1819EE690")]
+	[Token(Token = "0x6001E69")]
+	[Address(RVA = "0x538F8F0", Offset = "0x538E8F0", VA = "0x538F8F0")]
 	internal static int MarshalProperties(IDictionary dict, ref ArrayList args)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001E94")]
-	[Address(RVA = "0x19EF950", Offset = "0x19EDF50", VA = "0x1819EF950")]
+	[Token(Token = "0x6001E6A")]
+	[Address(RVA = "0x5390240", Offset = "0x538F240", VA = "0x5390240")]
 	internal static void UnmarshalProperties(IDictionary dict, int count, ArrayList args)
 	{
 	}
 
-	[Token(Token = "0x6001E95")]
-	[Address(RVA = "0x19EE090", Offset = "0x19EC690", VA = "0x1819EE090")]
+	[Token(Token = "0x6001E6B")]
+	[Address(RVA = "0x53903E0", Offset = "0x538F3E0", VA = "0x53903E0")]
 	private static bool IsPossibleToIgnoreMarshal(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001E96")]
-	[Address(RVA = "0x19EE220", Offset = "0x19EC820", VA = "0x1819EE220")]
+	[Token(Token = "0x6001E6C")]
+	[Address(RVA = "0x5390540", Offset = "0x538F540", VA = "0x5390540")]
 	protected object MarshalArgument(object arg, ref ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E97")]
-	[Address(RVA = "0x19EED10", Offset = "0x19ED310", VA = "0x1819EED10")]
+	[Token(Token = "0x6001E6D")]
+	[Address(RVA = "0x5390730", Offset = "0x538F730", VA = "0x5390730")]
 	protected object UnmarshalArgument(object arg, ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E98")]
-	[Address(RVA = "0x19EE580", Offset = "0x19ECB80", VA = "0x1819EE580")]
+	[Token(Token = "0x6001E6E")]
+	[Address(RVA = "0x5390D60", Offset = "0x538FD60", VA = "0x5390D60")]
 	internal object[] MarshalArguments(object[] arguments, ref ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E99")]
-	[Address(RVA = "0x19EF840", Offset = "0x19EDE40", VA = "0x1819EF840")]
+	[Token(Token = "0x6001E6F")]
+	[Address(RVA = "0x5390E70", Offset = "0x538FE70", VA = "0x5390E70")]
 	internal object[] UnmarshalArguments(object[] arguments, ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E9A")]
-	[Address(RVA = "0x19EEB50", Offset = "0x19ED150", VA = "0x1819EEB50")]
+	[Token(Token = "0x6001E70")]
+	[Address(RVA = "0x5390F80", Offset = "0x538FF80", VA = "0x5390F80")]
 	protected void SaveLogicalCallContext(IMethodMessage msg, ref ArrayList serializeList)
 	{
 	}
 
-	[Token(Token = "0x6001E9B")]
-	[Address(RVA = "0x19EDC80", Offset = "0x19EC280", VA = "0x1819EDC80")]
+	[Token(Token = "0x6001E71")]
+	[Address(RVA = "0x5391240", Offset = "0x5390240", VA = "0x5391240")]
 	internal LogicalCallContext GetLogicalCallContext(ArrayList args)
 	{
 		return null;

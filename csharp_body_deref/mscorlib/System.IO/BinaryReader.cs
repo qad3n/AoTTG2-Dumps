@@ -11,249 +11,249 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000699")]
+[Token(Token = "0x2000673")]
 [ComVisible(true)]
 public class BinaryReader : IDisposable
 {
-	[Token(Token = "0x4001A9B")]
+	[Token(Token = "0x4001A01")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private Stream m_stream;
 
-	[Token(Token = "0x4001A9C")]
+	[Token(Token = "0x4001A02")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private byte[] m_buffer;
 
-	[Token(Token = "0x4001A9D")]
+	[Token(Token = "0x4001A03")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Decoder m_decoder;
 
-	[Token(Token = "0x4001A9E")]
+	[Token(Token = "0x4001A04")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private byte[] m_charBytes;
 
-	[Token(Token = "0x4001A9F")]
+	[Token(Token = "0x4001A05")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private char[] m_singleChar;
 
-	[Token(Token = "0x4001AA0")]
+	[Token(Token = "0x4001A06")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private char[] m_charBuffer;
 
-	[Token(Token = "0x4001AA1")]
+	[Token(Token = "0x4001A07")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private int m_maxCharsSize;
 
-	[Token(Token = "0x4001AA2")]
+	[Token(Token = "0x4001A08")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x44")]
 	private bool m_2BytesPerChar;
 
-	[Token(Token = "0x4001AA3")]
+	[Token(Token = "0x4001A09")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x45")]
 	private bool m_isMemoryStream;
 
-	[Token(Token = "0x4001AA4")]
+	[Token(Token = "0x4001A0A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x46")]
 	private bool m_leaveOpen;
 
-	[Token(Token = "0x17000831")]
+	[Token(Token = "0x17000830")]
 	public virtual Stream BaseStream
 	{
-		[Token(Token = "0x60032D3")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
+		[Token(Token = "0x60032A0")]
+		[Address(RVA = "0x5481A10", Offset = "0x5480A10", VA = "0x5481A10", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60032D0")]
-	[Address(RVA = "0x1AE4A30", Offset = "0x1AE3030", VA = "0x181AE4A30")]
+	[Token(Token = "0x600329D")]
+	[Address(RVA = "0x5481730", Offset = "0x5480730", VA = "0x5481730")]
 	public BinaryReader(Stream input)
 	{
 	}
 
-	[Token(Token = "0x60032D1")]
-	[Address(RVA = "0x1AE4AB0", Offset = "0x1AE30B0", VA = "0x181AE4AB0")]
+	[Token(Token = "0x600329E")]
+	[Address(RVA = "0x5481A00", Offset = "0x5480A00", VA = "0x5481A00")]
 	public BinaryReader(Stream input, Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x60032D2")]
-	[Address(RVA = "0x1AE4790", Offset = "0x1AE2D90", VA = "0x181AE4790")]
+	[Token(Token = "0x600329F")]
+	[Address(RVA = "0x5481790", Offset = "0x5480790", VA = "0x5481790")]
 	public BinaryReader(Stream input, Encoding encoding, bool leaveOpen)
 	{
 	}
 
-	[Token(Token = "0x60032D4")]
-	[Address(RVA = "0x1AE3010", Offset = "0x1AE1610", VA = "0x181AE3010", Slot = "6")]
+	[Token(Token = "0x60032A1")]
+	[Address(RVA = "0x5481A20", Offset = "0x5480A20", VA = "0x5481A20", Slot = "6")]
 	public virtual void Close()
 	{
 	}
 
-	[Token(Token = "0x60032D5")]
-	[Address(RVA = "0x1AE3030", Offset = "0x1AE1630", VA = "0x181AE3030", Slot = "7")]
+	[Token(Token = "0x60032A2")]
+	[Address(RVA = "0x5481A40", Offset = "0x5480A40", VA = "0x5481A40", Slot = "7")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60032D6")]
-	[Address(RVA = "0x1AE3010", Offset = "0x1AE1610", VA = "0x181AE3010", Slot = "4")]
+	[Token(Token = "0x60032A3")]
+	[Address(RVA = "0x5481B00", Offset = "0x5480B00", VA = "0x5481B00", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60032D7")]
-	[Address(RVA = "0x1AE4580", Offset = "0x1AE2B80", VA = "0x181AE4580", Slot = "8")]
+	[Token(Token = "0x60032A4")]
+	[Address(RVA = "0x5481B20", Offset = "0x5480B20", VA = "0x5481B20", Slot = "8")]
 	public virtual int Read()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60032D8")]
-	[Address(RVA = "0x1AE3910", Offset = "0x1AE1F10", VA = "0x181AE3910", Slot = "9")]
+	[Token(Token = "0x60032A5")]
+	[Address(RVA = "0x5481E70", Offset = "0x5480E70", VA = "0x5481E70", Slot = "9")]
 	public virtual bool ReadBoolean()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60032D9")]
-	[Address(RVA = "0x1AE3960", Offset = "0x1AE1F60", VA = "0x181AE3960", Slot = "10")]
+	[Token(Token = "0x60032A6")]
+	[Address(RVA = "0x5481EB0", Offset = "0x5480EB0", VA = "0x5481EB0", Slot = "10")]
 	public virtual byte ReadByte()
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x60032DA")]
-	[Address(RVA = "0x1AE4130", Offset = "0x1AE2730", VA = "0x181AE4130", Slot = "11")]
+	[Token(Token = "0x60032A7")]
+	[Address(RVA = "0x5481F80", Offset = "0x5480F80", VA = "0x5481F80", Slot = "11")]
 	[CLSCompliant(false)]
 	public virtual sbyte ReadSByte()
 	{
 		return default(sbyte);
 	}
 
-	[Token(Token = "0x60032DB")]
-	[Address(RVA = "0x1AE3B50", Offset = "0x1AE2150", VA = "0x181AE3B50", Slot = "12")]
+	[Token(Token = "0x60032A8")]
+	[Address(RVA = "0x5481FC0", Offset = "0x5480FC0", VA = "0x5481FC0", Slot = "12")]
 	public virtual char ReadChar()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60032DC")]
-	[Address(RVA = "0x1AE3E80", Offset = "0x1AE2480", VA = "0x181AE3E80", Slot = "13")]
+	[Token(Token = "0x60032A9")]
+	[Address(RVA = "0x5482040", Offset = "0x5481040", VA = "0x5482040", Slot = "13")]
 	public virtual short ReadInt16()
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x60032DD")]
-	[Address(RVA = "0x1AE3E80", Offset = "0x1AE2480", VA = "0x181AE3E80", Slot = "14")]
+	[Token(Token = "0x60032AA")]
+	[Address(RVA = "0x5482080", Offset = "0x5481080", VA = "0x5482080", Slot = "14")]
 	[CLSCompliant(false)]
 	public virtual ushort ReadUInt16()
 	{
 		return default(ushort);
 	}
 
-	[Token(Token = "0x60032DE")]
-	[Address(RVA = "0x1AE3EE0", Offset = "0x1AE24E0", VA = "0x181AE3EE0", Slot = "15")]
+	[Token(Token = "0x60032AB")]
+	[Address(RVA = "0x54820C0", Offset = "0x54810C0", VA = "0x54820C0", Slot = "15")]
 	public virtual int ReadInt32()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60032DF")]
-	[Address(RVA = "0x1AE4500", Offset = "0x1AE2B00", VA = "0x181AE4500", Slot = "16")]
+	[Token(Token = "0x60032AC")]
+	[Address(RVA = "0x54821F0", Offset = "0x54811F0", VA = "0x54821F0", Slot = "16")]
 	[CLSCompliant(false)]
 	public virtual uint ReadUInt32()
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60032E0")]
-	[Address(RVA = "0x1AE4010", Offset = "0x1AE2610", VA = "0x181AE4010", Slot = "17")]
+	[Token(Token = "0x60032AD")]
+	[Address(RVA = "0x5482260", Offset = "0x5481260", VA = "0x5482260", Slot = "17")]
 	public virtual long ReadInt64()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x60032E1")]
-	[Address(RVA = "0x1AE4010", Offset = "0x1AE2610", VA = "0x181AE4010", Slot = "18")]
+	[Token(Token = "0x60032AE")]
+	[Address(RVA = "0x5482310", Offset = "0x5481310", VA = "0x5482310", Slot = "18")]
 	[CLSCompliant(false)]
 	public virtual ulong ReadUInt64()
 	{
 		return default(ulong);
 	}
 
-	[Token(Token = "0x60032E2")]
-	[Address(RVA = "0x1AE4180", Offset = "0x1AE2780", VA = "0x181AE4180", Slot = "19")]
+	[Token(Token = "0x60032AF")]
+	[Address(RVA = "0x54823C0", Offset = "0x54813C0", VA = "0x54823C0", Slot = "19")]
 	public virtual float ReadSingle()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60032E3")]
-	[Address(RVA = "0x1AE3E40", Offset = "0x1AE2440", VA = "0x181AE3E40", Slot = "20")]
+	[Token(Token = "0x60032B0")]
+	[Address(RVA = "0x54823F0", Offset = "0x54813F0", VA = "0x54823F0", Slot = "20")]
 	public virtual double ReadDouble()
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x60032E4")]
-	[Address(RVA = "0x1AE3D00", Offset = "0x1AE2300", VA = "0x181AE3D00", Slot = "21")]
+	[Token(Token = "0x60032B1")]
+	[Address(RVA = "0x5482420", Offset = "0x5481420", VA = "0x5482420", Slot = "21")]
 	public virtual decimal ReadDecimal()
 	{
 		return 0m;
 	}
 
-	[Token(Token = "0x60032E5")]
-	[Address(RVA = "0x1AE41C0", Offset = "0x1AE27C0", VA = "0x181AE41C0", Slot = "22")]
+	[Token(Token = "0x60032B2")]
+	[Address(RVA = "0x5482590", Offset = "0x5481590", VA = "0x5482590", Slot = "22")]
 	public virtual string ReadString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60032E6")]
-	[Address(RVA = "0x1AE3250", Offset = "0x1AE1850", VA = "0x181AE3250")]
+	[Token(Token = "0x60032B3")]
+	[Address(RVA = "0x5482A40", Offset = "0x5481A40", VA = "0x5482A40")]
 	private int InternalReadChars(char[] buffer, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60032E7")]
-	[Address(RVA = "0x1AE35D0", Offset = "0x1AE1BD0", VA = "0x181AE35D0")]
+	[Token(Token = "0x60032B4")]
+	[Address(RVA = "0x5481B90", Offset = "0x5480B90", VA = "0x5481B90")]
 	private int InternalReadOneChar()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60032E8")]
-	[Address(RVA = "0x1AE3B80", Offset = "0x1AE2180", VA = "0x181AE3B80", Slot = "23")]
+	[Token(Token = "0x60032B5")]
+	[Address(RVA = "0x5482DD0", Offset = "0x5481DD0", VA = "0x5482DD0", Slot = "23")]
 	public virtual char[] ReadChars(int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60032E9")]
-	[Address(RVA = "0x1AE45A0", Offset = "0x1AE2BA0", VA = "0x181AE45A0", Slot = "24")]
+	[Token(Token = "0x60032B6")]
+	[Address(RVA = "0x5482F50", Offset = "0x5481F50", VA = "0x5482F50", Slot = "24")]
 	public virtual int Read(byte[] buffer, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60032EA")]
-	[Address(RVA = "0x1AE39A0", Offset = "0x1AE1FA0", VA = "0x181AE39A0", Slot = "25")]
+	[Token(Token = "0x60032B7")]
+	[Address(RVA = "0x5483120", Offset = "0x5482120", VA = "0x5483120", Slot = "25")]
 	public virtual byte[] ReadBytes(int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60032EB")]
-	[Address(RVA = "0x1AE30F0", Offset = "0x1AE16F0", VA = "0x181AE30F0", Slot = "26")]
+	[Token(Token = "0x60032B8")]
+	[Address(RVA = "0x54832E0", Offset = "0x54822E0", VA = "0x54832E0", Slot = "26")]
 	protected virtual void FillBuffer(int numBytes)
 	{
 	}
 
-	[Token(Token = "0x60032EC")]
-	[Address(RVA = "0x1AE3860", Offset = "0x1AE1E60", VA = "0x181AE3860")]
+	[Token(Token = "0x60032B9")]
+	[Address(RVA = "0x5482930", Offset = "0x5481930", VA = "0x5482930")]
 	protected internal int Read7BitEncodedInt()
 	{
 		return default(int);

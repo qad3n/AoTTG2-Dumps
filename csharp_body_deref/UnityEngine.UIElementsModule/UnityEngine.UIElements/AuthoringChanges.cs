@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.AuthoringChanges
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,7 +20,7 @@ internal class AuthoringChanges
 	public HashSet<VisualElement> addedOrMovedElements
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x6A7AC70", Offset = "0x6A79C70", VA = "0x6A7AC70")]
 		[CompilerGenerated]
 		get
 		{
@@ -32,7 +32,7 @@ internal class AuthoringChanges
 	public HashSet<VisualElement> removedFromPanel
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x6A7AC80", Offset = "0x6A79C80", VA = "0x6A7AC80")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,7 +44,7 @@ internal class AuthoringChanges
 	public HashSet<VisualElement> styleChanged
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x6A7AC90", Offset = "0x6A79C90", VA = "0x6A7AC90")]
 		[CompilerGenerated]
 		get
 		{
@@ -56,7 +56,7 @@ internal class AuthoringChanges
 	public HashSet<VisualElement> stylingContextChanged
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Address(RVA = "0x6A7ACA0", Offset = "0x6A79CA0", VA = "0x6A7ACA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -68,7 +68,7 @@ internal class AuthoringChanges
 	public HashSet<VisualElement> bindingContextChanged
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Address(RVA = "0x6A7ACB0", Offset = "0x6A79CB0", VA = "0x6A7ACB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,20 +77,20 @@ internal class AuthoringChanges
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x307D820", Offset = "0x307BE20", VA = "0x18307D820")]
+	[Address(RVA = "0x6A7ACC0", Offset = "0x6A79CC0", VA = "0x6A7ACC0")]
 	public bool ContainsChanges()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x307D780", Offset = "0x307BD80", VA = "0x18307D780")]
+	[Address(RVA = "0x6A7AD40", Offset = "0x6A79D40", VA = "0x6A7AD40")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x307D8B0", Offset = "0x307BEB0", VA = "0x18307D8B0")]
+	[Address(RVA = "0x6A7ADD0", Offset = "0x6A79DD0", VA = "0x6A7ADD0")]
 	public AuthoringChanges()
 	{
 	}

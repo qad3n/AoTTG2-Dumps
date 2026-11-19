@@ -10,95 +10,95 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x20001C1")]
+[ComVisible(true)]
 [DesignerCategory("Component")]
 [ClassInterface(ClassInterfaceType.AutoDispatch)]
-[ComVisible(true)]
 public class Component : MarshalByRefObject, IComponent, IDisposable
 {
-	[Token(Token = "0x4000779")]
+	[Token(Token = "0x40006AA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly object EventDisposed;
 
-	[Token(Token = "0x400077A")]
+	[Token(Token = "0x40006AB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private ISite site;
 
-	[Token(Token = "0x400077B")]
+	[Token(Token = "0x40006AC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private EventHandlerList events;
 
-	[Token(Token = "0x170002BD")]
+	[Token(Token = "0x1700028E")]
 	protected virtual bool CanRaiseEvents
 	{
-		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
+		[Token(Token = "0x6000B96")]
+		[Address(RVA = "0x624DAD0", Offset = "0x624CAD0", VA = "0x624DAD0", Slot = "11")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002BE")]
+	[Token(Token = "0x1700028F")]
 	internal bool CanRaiseEventsInternal
 	{
-		[Token(Token = "0x6000D57")]
-		[Address(RVA = "0x1A4B640", Offset = "0x1A49C40", VA = "0x181A4B640")]
+		[Token(Token = "0x6000B97")]
+		[Address(RVA = "0x624DAE0", Offset = "0x624CAE0", VA = "0x624DAE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002BF")]
+	[Token(Token = "0x17000290")]
 	protected EventHandlerList Events
 	{
-		[Token(Token = "0x6000D5A")]
-		[Address(RVA = "0x28AFB10", Offset = "0x28AE110", VA = "0x1828AFB10")]
+		[Token(Token = "0x6000B9A")]
+		[Address(RVA = "0x624DC10", Offset = "0x624CC10", VA = "0x624DC10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C0")]
+	[Token(Token = "0x17000291")]
 	[Browsable(false)]
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public virtual ISite Site
 	{
-		[Token(Token = "0x6000D5B")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
+		[Token(Token = "0x6000B9B")]
+		[Address(RVA = "0x624DDA0", Offset = "0x624CDA0", VA = "0x624DDA0", Slot = "12")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000D5C")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30", Slot = "13")]
+		[Token(Token = "0x6000B9C")]
+		[Address(RVA = "0x624DDB0", Offset = "0x624CDB0", VA = "0x624DDB0", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C1")]
+	[Token(Token = "0x17000292")]
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	[Browsable(false)]
 	public IContainer Container
 	{
-		[Token(Token = "0x6000D5F")]
-		[Address(RVA = "0x28AFA70", Offset = "0x28AE070", VA = "0x1828AFA70")]
+		[Token(Token = "0x6000B9F")]
+		[Address(RVA = "0x624E150", Offset = "0x624D150", VA = "0x624E150")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C2")]
-	[Browsable(false)]
+	[Token(Token = "0x17000293")]
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+	[Browsable(false)]
 	protected bool DesignMode
 	{
-		[Token(Token = "0x6000D61")]
-		[Address(RVA = "0x28AFAC0", Offset = "0x28AE0C0", VA = "0x1828AFAC0")]
+		[Token(Token = "0x6000BA1")]
+		[Address(RVA = "0x624E2A0", Offset = "0x624D2A0", VA = "0x624E2A0")]
 		get
 		{
 			return default(bool);
@@ -106,56 +106,56 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	}
 
 	[Token(Token = "0x1400000D")]
-	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	[Browsable(false)]
+	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	public event EventHandler Disposed
 	{
-		[Token(Token = "0x6000D58")]
-		[Address(RVA = "0x28AF990", Offset = "0x28ADF90", VA = "0x1828AF990", Slot = "8")]
+		[Token(Token = "0x6000B98")]
+		[Address(RVA = "0x624DB00", Offset = "0x624CB00", VA = "0x624DB00", Slot = "8")]
 		add
 		{
 		}
-		[Token(Token = "0x6000D59")]
-		[Address(RVA = "0x28AFB80", Offset = "0x28AE180", VA = "0x1828AFB80", Slot = "9")]
+		[Token(Token = "0x6000B99")]
+		[Address(RVA = "0x624DC90", Offset = "0x624CC90", VA = "0x624DC90", Slot = "9")]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D55")]
-	[Address(RVA = "0x28AF750", Offset = "0x28ADD50", VA = "0x1828AF750", Slot = "1")]
+	[Token(Token = "0x6000B95")]
+	[Address(RVA = "0x624DA30", Offset = "0x624CA30", VA = "0x624DA30", Slot = "1")]
 	~Component()
 	{
 	}
 
-	[Token(Token = "0x6000D5D")]
-	[Address(RVA = "0x28AF500", Offset = "0x28ADB00", VA = "0x1828AF500", Slot = "10")]
+	[Token(Token = "0x6000B9D")]
+	[Address(RVA = "0x624DDC0", Offset = "0x624CDC0", VA = "0x624DDC0", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000D5E")]
-	[Address(RVA = "0x28AF560", Offset = "0x28ADB60", VA = "0x1828AF560", Slot = "14")]
+	[Token(Token = "0x6000B9E")]
+	[Address(RVA = "0x624DE30", Offset = "0x624CE30", VA = "0x624DE30", Slot = "14")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000D60")]
-	[Address(RVA = "0x28AF7C0", Offset = "0x28ADDC0", VA = "0x1828AF7C0", Slot = "15")]
+	[Token(Token = "0x6000BA0")]
+	[Address(RVA = "0x624E1F0", Offset = "0x624D1F0", VA = "0x624E1F0", Slot = "15")]
 	protected virtual object GetService(Type service)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x28AF820", Offset = "0x28ADE20", VA = "0x1828AF820", Slot = "3")]
+	[Token(Token = "0x6000BA2")]
+	[Address(RVA = "0x624E340", Offset = "0x624D340", VA = "0x624E340", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D63")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000BA3")]
+	[Address(RVA = "0x624E480", Offset = "0x624D480", VA = "0x624E480")]
 	public Component()
 	{
 	}

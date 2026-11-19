@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x20006AB")]
+[Token(Token = "0x2000685")]
 internal static class MonoLinqHelper
 {
-	[Token(Token = "0x60033C5")]
+	[Token(Token = "0x600338E")]
 	public static T[] ToArray<T>(this IEnumerable<T> source)
 	{
 		return null;

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TreeViewExpansionChangedArgs
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,7 +17,7 @@ public class TreeViewExpansionChangedArgs
 	public int id
 	{
 		[Token(Token = "0x600043D")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x6AA6D90", Offset = "0x6AA5D90", VA = "0x6AA6D90")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ public class TreeViewExpansionChangedArgs
 	public bool isExpanded
 	{
 		[Token(Token = "0x600043E")]
-		[Address(RVA = "0x1A78710", Offset = "0x1A76D10", VA = "0x181A78710")]
+		[Address(RVA = "0x6AA6DA0", Offset = "0x6AA5DA0", VA = "0x6AA6DA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -39,7 +39,7 @@ public class TreeViewExpansionChangedArgs
 	public bool isAppliedToAllChildren
 	{
 		[Token(Token = "0x600043F")]
-		[Address(RVA = "0x1A78720", Offset = "0x1A76D20", VA = "0x181A78720")]
+		[Address(RVA = "0x6AA6DB0", Offset = "0x6AA5DB0", VA = "0x6AA6DB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -47,7 +47,7 @@ public class TreeViewExpansionChangedArgs
 	}
 
 	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6AA6DC0", Offset = "0x6AA5DC0", VA = "0x6AA6DC0")]
 	public TreeViewExpansionChangedArgs()
 	{
 	}

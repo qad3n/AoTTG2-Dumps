@@ -16,19 +16,19 @@ namespace System.Data;
 public class PropertyCollection : Hashtable, ICloneable
 {
 	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x25235C0", Offset = "0x2521BC0", VA = "0x1825235C0")]
+	[Address(RVA = "0x5EC5FE0", Offset = "0x5EC4FE0", VA = "0x5EC5FE0")]
 	public PropertyCollection()
 	{
 	}
 
 	[Token(Token = "0x60006F7")]
-	[Address(RVA = "0x25235D0", Offset = "0x2521BD0", VA = "0x1825235D0")]
+	[Address(RVA = "0x5EC5FF0", Offset = "0x5EC4FF0", VA = "0x5EC5FF0")]
 	protected PropertyCollection(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x2523390", Offset = "0x2521990", VA = "0x182523390", Slot = "25")]
+	[Address(RVA = "0x5EC6000", Offset = "0x5EC5000", VA = "0x5EC6000", Slot = "25")]
 	public override object Clone()
 	{
 		return null;

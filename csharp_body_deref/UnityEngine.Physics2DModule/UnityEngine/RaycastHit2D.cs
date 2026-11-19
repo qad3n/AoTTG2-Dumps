@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.RaycastHit2D
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,8 +13,8 @@ namespace UnityEngine;
 
 [Token(Token = "0x2000008")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Interfaces/IPhysics2D.h")]
-[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = false)]
 [UnityEngine.NativeClass("RaycastHit2D", "struct RaycastHit2D;")]
+[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = false)]
 public struct RaycastHit2D
 {
 	[Token(Token = "0x4000028")]
@@ -51,7 +51,7 @@ public struct RaycastHit2D
 	public Vector2 point
 	{
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x2FDA4A0", Offset = "0x2FD8AA0", VA = "0x182FDA4A0")]
+		[Address(RVA = "0x69C7AF0", Offset = "0x69C6AF0", VA = "0x69C7AF0")]
 		get
 		{
 			return default(Vector2);
@@ -62,7 +62,7 @@ public struct RaycastHit2D
 	public Vector2 normal
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x2FDA480", Offset = "0x2FD8A80", VA = "0x182FDA480")]
+		[Address(RVA = "0x69C7B00", Offset = "0x69C6B00", VA = "0x69C7B00")]
 		get
 		{
 			return default(Vector2);
@@ -73,7 +73,7 @@ public struct RaycastHit2D
 	public float distance
 	{
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x2E82BD0", Offset = "0x2E811D0", VA = "0x182E82BD0")]
+		[Address(RVA = "0x69C7B10", Offset = "0x69C6B10", VA = "0x69C7B10")]
 		get
 		{
 			return default(float);
@@ -84,7 +84,7 @@ public struct RaycastHit2D
 	public Collider2D collider
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x2FDA3E0", Offset = "0x2FD89E0", VA = "0x182FDA3E0")]
+		[Address(RVA = "0x69C7B20", Offset = "0x69C6B20", VA = "0x69C7B20")]
 		get
 		{
 			return null;

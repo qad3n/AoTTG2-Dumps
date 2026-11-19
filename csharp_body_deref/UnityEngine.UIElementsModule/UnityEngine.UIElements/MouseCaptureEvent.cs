@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class MouseCaptureEvent : MouseCaptureEventBase<MouseCaptureEvent>
 {
 	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x3267480", Offset = "0x3265A80", VA = "0x183267480")]
+	[Address(RVA = "0x6C5EDB0", Offset = "0x6C5DDB0", VA = "0x6C5EDB0")]
 	static MouseCaptureEvent()
 	{
 	}
 
 	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x3267560", Offset = "0x3265B60", VA = "0x183267560")]
+	[Address(RVA = "0x6C5EE80", Offset = "0x6C5DE80", VA = "0x6C5EE80")]
 	public MouseCaptureEvent()
 	{
 	}

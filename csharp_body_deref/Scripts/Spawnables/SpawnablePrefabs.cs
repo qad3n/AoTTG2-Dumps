@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Spawnables;
 
-[Token(Token = "0x2000061")]
+[Token(Token = "0x2000060")]
 internal class SpawnablePrefabs
 {
-	[Token(Token = "0x40001FC")]
+	[Token(Token = "0x400020B")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Supply;
 
-	[Token(Token = "0x40001FD")]
+	[Token(Token = "0x400020C")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Rock1;
 
-	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x600030F")]
+	[Address(RVA = "0x576DD90", Offset = "0x576CD90", VA = "0x576DD90")]
 	public SpawnablePrefabs()
 	{
 	}

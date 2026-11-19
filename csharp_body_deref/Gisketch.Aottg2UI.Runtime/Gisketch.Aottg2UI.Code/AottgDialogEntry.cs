@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000076")]
+[Token(Token = "0x200007C")]
 public sealed class AottgDialogEntry
 {
 	[Token(Token = "0x17000068")]
 	public string Id
 	{
-		[Token(Token = "0x6000377")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60003C2")]
+		[Address(RVA = "0x52637D0", Offset = "0x52627D0", VA = "0x52637D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,8 +29,8 @@ public sealed class AottgDialogEntry
 	[Token(Token = "0x17000069")]
 	public Type Type
 	{
-		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60003C3")]
+		[Address(RVA = "0x52637E0", Offset = "0x52627E0", VA = "0x52637E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,8 +41,8 @@ public sealed class AottgDialogEntry
 	[Token(Token = "0x1700006A")]
 	public AottgDialogAttribute Attribute
 	{
-		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x60003C4")]
+		[Address(RVA = "0x52637F0", Offset = "0x52627F0", VA = "0x52637F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,8 +50,8 @@ public sealed class AottgDialogEntry
 		}
 	}
 
-	[Token(Token = "0x6000376")]
-	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
+	[Token(Token = "0x60003C1")]
+	[Address(RVA = "0x5263590", Offset = "0x5262590", VA = "0x5263590")]
 	internal AottgDialogEntry(string id, Type type, AottgDialogAttribute attribute)
 	{
 	}

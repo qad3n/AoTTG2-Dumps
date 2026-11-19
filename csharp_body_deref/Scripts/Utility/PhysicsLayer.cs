@@ -11,129 +11,129 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x20008C4")]
+[Token(Token = "0x200092F")]
 internal class PhysicsLayer
 {
-	[Token(Token = "0x4002B80")]
+	[Token(Token = "0x4002E39")]
 	[FieldOffset(Offset = "0x0")]
 	public static int UI;
 
-	[Token(Token = "0x4002B81")]
+	[Token(Token = "0x4002E3A")]
 	[FieldOffset(Offset = "0x4")]
 	public static int NoCollision;
 
-	[Token(Token = "0x4002B82")]
+	[Token(Token = "0x4002E3B")]
 	[FieldOffset(Offset = "0x8")]
 	public static int Hitbox;
 
-	[Token(Token = "0x4002B83")]
+	[Token(Token = "0x4002E3C")]
 	[FieldOffset(Offset = "0xC")]
 	public static int Human;
 
-	[Token(Token = "0x4002B84")]
+	[Token(Token = "0x4002E3D")]
 	[FieldOffset(Offset = "0x10")]
 	public static int TitanMovebox;
 
-	[Token(Token = "0x4002B85")]
+	[Token(Token = "0x4002E3E")]
 	[FieldOffset(Offset = "0x14")]
 	public static int TitanPushbox;
 
-	[Token(Token = "0x4002B86")]
+	[Token(Token = "0x4002E3F")]
 	[FieldOffset(Offset = "0x18")]
 	public static int Hurtbox;
 
-	[Token(Token = "0x4002B87")]
+	[Token(Token = "0x4002E40")]
 	[FieldOffset(Offset = "0x1C")]
 	public static int Projectile;
 
-	[Token(Token = "0x4002B88")]
+	[Token(Token = "0x4002E41")]
 	[FieldOffset(Offset = "0x20")]
 	public static int ProjectileDetection;
 
-	[Token(Token = "0x4002B89")]
+	[Token(Token = "0x4002E42")]
 	[FieldOffset(Offset = "0x24")]
 	public static int CharacterDetection;
 
-	[Token(Token = "0x4002B8A")]
+	[Token(Token = "0x4002E43")]
 	[FieldOffset(Offset = "0x28")]
 	public static int NPC;
 
-	[Token(Token = "0x4002B8B")]
+	[Token(Token = "0x4002E44")]
 	[FieldOffset(Offset = "0x2C")]
 	public static int MapObjectMapObjects;
 
-	[Token(Token = "0x4002B8C")]
+	[Token(Token = "0x4002E45")]
 	[FieldOffset(Offset = "0x30")]
 	public static int MapObjectProjectiles;
 
-	[Token(Token = "0x4002B8D")]
+	[Token(Token = "0x4002E46")]
 	[FieldOffset(Offset = "0x34")]
 	public static int MapObjectCharacters;
 
-	[Token(Token = "0x4002B8E")]
+	[Token(Token = "0x4002E47")]
 	[FieldOffset(Offset = "0x38")]
 	public static int MapObjectEntities;
 
-	[Token(Token = "0x4002B8F")]
+	[Token(Token = "0x4002E48")]
 	[FieldOffset(Offset = "0x3C")]
 	public static int MapObjectAll;
 
-	[Token(Token = "0x4002B90")]
+	[Token(Token = "0x4002E49")]
 	[FieldOffset(Offset = "0x40")]
 	public static int MapEditorObject;
 
-	[Token(Token = "0x4002B91")]
+	[Token(Token = "0x4002E4A")]
 	[FieldOffset(Offset = "0x44")]
 	public static int MapEditorGizmo;
 
-	[Token(Token = "0x4002B92")]
+	[Token(Token = "0x4002E4B")]
 	[FieldOffset(Offset = "0x48")]
 	public static int MinimapIcon;
 
-	[Token(Token = "0x4002B93")]
+	[Token(Token = "0x4002E4C")]
 	[FieldOffset(Offset = "0x4C")]
 	public static int Background;
 
-	[Token(Token = "0x4002B94")]
+	[Token(Token = "0x4002E4D")]
 	[FieldOffset(Offset = "0x50")]
 	public static int MapObjectTitans;
 
-	[Token(Token = "0x4002B95")]
+	[Token(Token = "0x4002E4E")]
 	[FieldOffset(Offset = "0x54")]
 	public static int MapObjectHumans;
 
-	[Token(Token = "0x4002B96")]
+	[Token(Token = "0x4002E4F")]
 	[FieldOffset(Offset = "0x58")]
 	private static Dictionary<int, LayerMask> _masks;
 
-	[Token(Token = "0x600534A")]
-	[Address(RVA = "0x233BCD0", Offset = "0x233A2D0", VA = "0x18233BCD0")]
+	[Token(Token = "0x60056A5")]
+	[Address(RVA = "0x5CEF560", Offset = "0x5CEE560", VA = "0x5CEF560")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600534B")]
-	[Address(RVA = "0x233BC40", Offset = "0x233A240", VA = "0x18233BC40")]
+	[Token(Token = "0x60056A6")]
+	[Address(RVA = "0x5CEFFC0", Offset = "0x5CEEFC0", VA = "0x5CEFFC0")]
 	public static LayerMask GetMask(params int[] layers)
 	{
 		return default(LayerMask);
 	}
 
-	[Token(Token = "0x600534C")]
-	[Address(RVA = "0x233BBC0", Offset = "0x233A1C0", VA = "0x18233BBC0")]
+	[Token(Token = "0x60056A7")]
+	[Address(RVA = "0x5CF0060", Offset = "0x5CEF060", VA = "0x5CF0060")]
 	public static LayerMask CopyMask(int originLayer)
 	{
 		return default(LayerMask);
 	}
 
-	[Token(Token = "0x600534D")]
-	[Address(RVA = "0x233CB30", Offset = "0x233B130", VA = "0x18233CB30")]
+	[Token(Token = "0x60056A8")]
+	[Address(RVA = "0x5CEFE80", Offset = "0x5CEEE80", VA = "0x5CEFE80")]
 	private static void SetLayerCollisions(int layer, int[] others)
 	{
 	}
 
-	[Token(Token = "0x600534E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x60056A9")]
+	[Address(RVA = "0x5CF0100", Offset = "0x5CEF100", VA = "0x5CF0100")]
 	public PhysicsLayer()
 	{
 	}

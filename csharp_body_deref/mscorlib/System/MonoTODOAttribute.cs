@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000176")]
+[Token(Token = "0x200014E")]
 [AttributeUsage(AttributeTargets.All, AllowMultiple = true)]
 internal class MonoTODOAttribute : Attribute
 {
-	[Token(Token = "0x400056E")]
+	[Token(Token = "0x40004CC")]
 	[FieldOffset(Offset = "0x10")]
 	private string comment;
 
-	[Token(Token = "0x6000D9E")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Token(Token = "0x6000D79")]
+	[Address(RVA = "0x54E9970", Offset = "0x54E8970", VA = "0x54E9970")]
 	public MonoTODOAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000D9F")]
-	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
+	[Token(Token = "0x6000D7A")]
+	[Address(RVA = "0x54E9990", Offset = "0x54E8990", VA = "0x54E9990")]
 	public MonoTODOAttribute(string comment)
 	{
 	}

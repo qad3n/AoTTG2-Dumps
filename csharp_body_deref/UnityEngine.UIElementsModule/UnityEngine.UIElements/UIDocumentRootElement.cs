@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIDocumentRootElement
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,14 +23,14 @@ internal class UIDocumentRootElement : TemplateContainer
 	internal UIRenderer uiRenderer
 	{
 		[Token(Token = "0x6001104")]
-		[Address(RVA = "0x3206DC0", Offset = "0x32053C0", VA = "0x183206DC0")]
+		[Address(RVA = "0x6C8A770", Offset = "0x6C89770", VA = "0x6C8A770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001105")]
-		[Address(RVA = "0x3206E90", Offset = "0x3205490", VA = "0x183206E90")]
+		[Address(RVA = "0x6C8A780", Offset = "0x6C89780", VA = "0x6C8A780")]
 		[CompilerGenerated]
 		set
 		{
@@ -38,7 +38,7 @@ internal class UIDocumentRootElement : TemplateContainer
 	}
 
 	[Token(Token = "0x6001106")]
-	[Address(RVA = "0x3286930", Offset = "0x3284F30", VA = "0x183286930")]
+	[Address(RVA = "0x6C8A7A0", Offset = "0x6C897A0", VA = "0x6C8A7A0")]
 	public UIDocumentRootElement(UIDocument document, VisualTreeAsset sourceAsset)
 	{
 	}

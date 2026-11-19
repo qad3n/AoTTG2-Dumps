@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.TMP_Asset
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -49,13 +49,13 @@ public abstract class TMP_Asset : ScriptableObject
 	public string version
 	{
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x66DC820", Offset = "0x66DB820", VA = "0x66DC820")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x66DC830", Offset = "0x66DB830", VA = "0x66DC830")]
 		internal set
 		{
 		}
@@ -65,7 +65,7 @@ public abstract class TMP_Asset : ScriptableObject
 	public int instanceID
 	{
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x2CDFAB0", Offset = "0x2CDE0B0", VA = "0x182CDFAB0")]
+		[Address(RVA = "0x66DC840", Offset = "0x66DB840", VA = "0x66DC840")]
 		get
 		{
 			return default(int);
@@ -76,13 +76,13 @@ public abstract class TMP_Asset : ScriptableObject
 	public int hashCode
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x2CDFA40", Offset = "0x2CDE040", VA = "0x182CDFA40")]
+		[Address(RVA = "0x66DB2D0", Offset = "0x66DA2D0", VA = "0x66DB2D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
+		[Address(RVA = "0x66DC860", Offset = "0x66DB860", VA = "0x66DC860")]
 		set
 		{
 		}
@@ -92,13 +92,13 @@ public abstract class TMP_Asset : ScriptableObject
 	public FaceInfo faceInfo
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2CDFA00", Offset = "0x2CDE000", VA = "0x182CDFA00")]
+		[Address(RVA = "0x66DC870", Offset = "0x66DB870", VA = "0x66DC870")]
 		get
 		{
 			return default(FaceInfo);
 		}
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x2CDFBB0", Offset = "0x2CDE1B0", VA = "0x182CDFBB0")]
+		[Address(RVA = "0x66DC8B0", Offset = "0x66DB8B0", VA = "0x66DC8B0")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ public abstract class TMP_Asset : ScriptableObject
 	public Material material
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x66DC900", Offset = "0x66DB900", VA = "0x66DC900")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0xB5BE30", Offset = "0xB5A430", VA = "0x180B5BE30")]
+		[Address(RVA = "0x66DC910", Offset = "0x66DB910", VA = "0x66DC910")]
 		set
 		{
 		}
@@ -124,20 +124,20 @@ public abstract class TMP_Asset : ScriptableObject
 	public int materialHashCode
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x2CDFAE0", Offset = "0x2CDE0E0", VA = "0x182CDFAE0")]
+		[Address(RVA = "0x66DB350", Offset = "0x66DA350", VA = "0x66DB350")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0xE92690", Offset = "0xE90C90", VA = "0x180E92690")]
+		[Address(RVA = "0x66DC930", Offset = "0x66DB930", VA = "0x66DC930")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
+	[Address(RVA = "0x66DC940", Offset = "0x66DB940", VA = "0x66DC940")]
 	protected TMP_Asset()
 	{
 	}

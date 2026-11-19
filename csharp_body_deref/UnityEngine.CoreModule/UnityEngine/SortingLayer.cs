@@ -20,8 +20,8 @@ public struct SortingLayer
 	private int m_Id;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x2ED41D0", Offset = "0x2ED27D0", VA = "0x182ED41D0")]
+	[Token(Token = "0x60001DC")]
+	[Address(RVA = "0x68BA850", Offset = "0x68B9850", VA = "0x68BA850")]
 	[UnityEngine.Bindings.FreeFunction("GetTagManager().GetSortingLayerValueFromUniqueID")]
 	public static extern int GetLayerValueFromID(int id);
 }

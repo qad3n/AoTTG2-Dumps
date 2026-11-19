@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Windows.WebCam.PhotoCapture
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,151 +16,151 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.Windows.WebCam;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000209")]
+[Token(Token = "0x200020A")]
 [UnityEngine.Bindings.StaticAccessor("PhotoCapture", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [MovedFrom("UnityEngine.XR.WSA.WebCam")]
 [UnityEngine.Bindings.NativeHeader("PlatformDependent/Win/Webcam/PhotoCapture.h")]
 public class PhotoCapture : IDisposable
 {
-	[Token(Token = "0x200020A")]
+	[Token(Token = "0x200020B")]
 	public enum CaptureResultType
 	{
-		[Token(Token = "0x40006F8")]
+		[Token(Token = "0x40006FD")]
 		Success,
-		[Token(Token = "0x40006F9")]
+		[Token(Token = "0x40006FE")]
 		UnknownError
 	}
 
-	[Token(Token = "0x200020B")]
+	[Token(Token = "0x200020C")]
 	public struct PhotoCaptureResult
 	{
-		[Token(Token = "0x40006FA")]
+		[Token(Token = "0x40006FF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public CaptureResultType resultType;
 
-		[Token(Token = "0x40006FB")]
+		[Token(Token = "0x4000700")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public long hResult;
 	}
 
-	[Token(Token = "0x200020C")]
+	[Token(Token = "0x200020D")]
 	public delegate void OnCaptureResourceCreatedCallback(PhotoCapture captureObject);
 
-	[Token(Token = "0x200020D")]
+	[Token(Token = "0x200020E")]
 	public delegate void OnPhotoModeStartedCallback(PhotoCaptureResult result);
 
-	[Token(Token = "0x200020E")]
+	[Token(Token = "0x200020F")]
 	public delegate void OnPhotoModeStoppedCallback(PhotoCaptureResult result);
 
-	[Token(Token = "0x200020F")]
+	[Token(Token = "0x2000210")]
 	public delegate void OnCapturedToDiskCallback(PhotoCaptureResult result);
 
-	[Token(Token = "0x2000210")]
+	[Token(Token = "0x2000211")]
 	public delegate void OnCapturedToMemoryCallback(PhotoCaptureResult result, PhotoCaptureFrame photoCaptureFrame);
 
-	[Token(Token = "0x2000211")]
+	[Token(Token = "0x2000212")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x60010CE")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Token(Token = "0x60010EB")]
+		[Address(RVA = "0x6932340", Offset = "0x6931340", VA = "0x6932340")]
 		public static IntPtr ConvertToNative(PhotoCapture photoCapture)
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x40006F5")]
+	[Token(Token = "0x40006FA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal IntPtr m_NativePtr;
 
-	[Token(Token = "0x40006F6")]
+	[Token(Token = "0x40006FB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly long HR_SUCCESS;
 
-	[Token(Token = "0x60010B7")]
-	[Address(RVA = "0x2F4D1A0", Offset = "0x2F4B7A0", VA = "0x182F4D1A0")]
+	[Token(Token = "0x60010D4")]
+	[Address(RVA = "0x69319B0", Offset = "0x69309B0", VA = "0x69319B0")]
 	private static PhotoCaptureResult MakeCaptureResult(long hResult)
 	{
 		return default(PhotoCaptureResult);
 	}
 
-	[Token(Token = "0x60010B8")]
-	[Address(RVA = "0x2F4D110", Offset = "0x2F4B710", VA = "0x182F4D110")]
+	[Token(Token = "0x60010D5")]
+	[Address(RVA = "0x69319F0", Offset = "0x69309F0", VA = "0x69319F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnCreatedResourceDelegate(OnCaptureResourceCreatedCallback callback, IntPtr nativePtr)
 	{
 	}
 
-	[Token(Token = "0x60010B9")]
-	[Address(RVA = "0x2EC4A00", Offset = "0x2EC3000", VA = "0x182EC4A00")]
+	[Token(Token = "0x60010D6")]
+	[Address(RVA = "0x6931A80", Offset = "0x6930A80", VA = "0x6931A80")]
 	private PhotoCapture(IntPtr nativeCaptureObject)
 	{
 	}
 
-	[Token(Token = "0x60010BA")]
-	[Address(RVA = "0x2F4CED0", Offset = "0x2F4B4D0", VA = "0x182F4CED0")]
+	[Token(Token = "0x60010D7")]
+	[Address(RVA = "0x6931AA0", Offset = "0x6930AA0", VA = "0x6931AA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnPhotoModeStartedDelegate(OnPhotoModeStartedCallback callback, long hResult)
 	{
 	}
 
-	[Token(Token = "0x60010BB")]
-	[Address(RVA = "0x2F4CED0", Offset = "0x2F4B4D0", VA = "0x182F4CED0")]
+	[Token(Token = "0x60010D8")]
+	[Address(RVA = "0x6931B10", Offset = "0x6930B10", VA = "0x6931B10")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnPhotoModeStoppedDelegate(OnPhotoModeStoppedCallback callback, long hResult)
 	{
 	}
 
-	[Token(Token = "0x60010BC")]
-	[Address(RVA = "0x2F4CED0", Offset = "0x2F4B4D0", VA = "0x182F4CED0")]
+	[Token(Token = "0x60010D9")]
+	[Address(RVA = "0x6931B80", Offset = "0x6930B80", VA = "0x6931B80")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnCapturedPhotoToDiskDelegate(OnCapturedToDiskCallback callback, long hResult)
 	{
 	}
 
-	[Token(Token = "0x60010BD")]
-	[Address(RVA = "0x2F4CF60", Offset = "0x2F4B560", VA = "0x182F4CF60")]
+	[Token(Token = "0x60010DA")]
+	[Address(RVA = "0x6931BF0", Offset = "0x6930BF0", VA = "0x6931BF0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnCapturedPhotoToMemoryDelegate(OnCapturedToMemoryCallback callback, long hResult, IntPtr photoCaptureFramePtr)
 	{
 	}
 
-	[Token(Token = "0x60010BE")]
-	[Address(RVA = "0x2F4CD90", Offset = "0x2F4B390", VA = "0x182F4CD90", Slot = "4")]
+	[Token(Token = "0x60010DB")]
+	[Address(RVA = "0x6931CC0", Offset = "0x6930CC0", VA = "0x6931CC0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60010BF")]
-	[Address(RVA = "0x2F4CD30", Offset = "0x2F4B330", VA = "0x182F4CD30")]
+	[Token(Token = "0x60010DC")]
+	[Address(RVA = "0x6931D50", Offset = "0x6930D50", VA = "0x6931D50")]
 	[UnityEngine.Bindings.NativeName("Dispose")]
 	[UnityEngine.Bindings.NativeConditional("(PLATFORM_WIN || PLATFORM_WINRT) && !PLATFORM_XBOXONE")]
 	private void Dispose_Internal()
 	{
 	}
 
-	[Token(Token = "0x60010C0")]
-	[Address(RVA = "0x2F4CE20", Offset = "0x2F4B420", VA = "0x182F4CE20", Slot = "1")]
+	[Token(Token = "0x60010DD")]
+	[Address(RVA = "0x6931DD0", Offset = "0x6930DD0", VA = "0x6931DD0", Slot = "1")]
 	~PhotoCapture()
 	{
 	}
 
-	[Token(Token = "0x60010C1")]
-	[Address(RVA = "0x2F4CC90", Offset = "0x2F4B290", VA = "0x182F4CC90")]
-	[UnityEngine.ThreadAndSerializationSafe]
+	[Token(Token = "0x60010DE")]
+	[Address(RVA = "0x6931E90", Offset = "0x6930E90", VA = "0x6931E90")]
 	[UnityEngine.Bindings.NativeConditional("(PLATFORM_WIN || PLATFORM_WINRT) && !PLATFORM_XBOXONE")]
+	[UnityEngine.ThreadAndSerializationSafe]
 	[UnityEngine.Bindings.NativeName("DisposeThreaded")]
 	private void DisposeThreaded_Internal()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60010C2")]
-	[Address(RVA = "0x2F4CCF0", Offset = "0x2F4B2F0", VA = "0x182F4CCF0")]
+	[Token(Token = "0x60010DF")]
+	[Address(RVA = "0x6931DA0", Offset = "0x6930DA0", VA = "0x6931DA0")]
 	private static extern void Dispose_Internal_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60010C3")]
-	[Address(RVA = "0x2F4CC50", Offset = "0x2F4B250", VA = "0x182F4CC50")]
+	[Token(Token = "0x60010E0")]
+	[Address(RVA = "0x6931EE0", Offset = "0x6930EE0", VA = "0x6931EE0")]
 	private static extern void DisposeThreaded_Internal_Injected(IntPtr _unity_self);
 }

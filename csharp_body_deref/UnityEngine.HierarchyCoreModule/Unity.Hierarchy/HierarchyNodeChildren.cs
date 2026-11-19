@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Hierarchy.HierarchyNodeChildren
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -32,7 +32,7 @@ public readonly struct HierarchyNodeChildren
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x600000D")]
-			[Address(RVA = "0x2F7B4B0", Offset = "0x2F79AB0", VA = "0x182F7B4B0")]
+			[Address(RVA = "0x696FFB0", Offset = "0x696EFB0", VA = "0x696FFB0")]
 			get
 			{
 				return ref *(HierarchyNode*)null;
@@ -40,14 +40,14 @@ public readonly struct HierarchyNodeChildren
 		}
 
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x2F7C270", Offset = "0x2F7A870", VA = "0x182F7C270")]
+		[Address(RVA = "0x696FF10", Offset = "0x696EF10", VA = "0x696FF10")]
 		internal Enumerator(in HierarchyNodeChildren enumerable)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x2F7BD50", Offset = "0x2F7A350", VA = "0x182F7BD50")]
+		[Address(RVA = "0x6970030", Offset = "0x696F030", VA = "0x6970030")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -71,13 +71,13 @@ public readonly struct HierarchyNodeChildren
 	private readonly int m_Count;
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x2F7D8D0", Offset = "0x2F7BED0", VA = "0x182F7D8D0")]
+	[Address(RVA = "0x696FD50", Offset = "0x696ED50", VA = "0x696FD50")]
 	internal HierarchyNodeChildren(Hierarchy hierarchy, IntPtr nodeChildrenPtr)
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x2F7D890", Offset = "0x2F7BE90", VA = "0x182F7D890")]
+	[Address(RVA = "0x696FEE0", Offset = "0x696EEE0", VA = "0x696FEE0")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
@@ -85,7 +85,7 @@ public readonly struct HierarchyNodeChildren
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x2F7B680", Offset = "0x2F79C80", VA = "0x182F7B680")]
+	[Address(RVA = "0x696FF40", Offset = "0x696EF40", VA = "0x696FF40")]
 	private void ThrowIfVersionChanged()
 	{
 	}

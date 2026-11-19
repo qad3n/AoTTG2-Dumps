@@ -14,10 +14,10 @@ namespace UnityEngine;
 
 [Token(Token = "0x2000016")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[HelpURL("AnimatorOverrideController")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorOverrideController.h")]
 [DefaultMember("Item")]
-[HelpURL("AnimatorOverrideController")]
 public class AnimatorOverrideController : RuntimeAnimatorController
 {
 	[Token(Token = "0x2000017")]
@@ -28,9 +28,9 @@ public class AnimatorOverrideController : RuntimeAnimatorController
 	internal OnOverrideControllerDirtyCallback OnOverrideControllerDirty;
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x2EAE3C0", Offset = "0x2EAC9C0", VA = "0x182EAE3C0")]
-	[UnityEngine.Scripting.RequiredByNativeCode]
+	[Address(RVA = "0x68AC160", Offset = "0x68AB160", VA = "0x68AC160")]
 	[UnityEngine.Bindings.NativeConditional("UNITY_EDITOR")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void OnInvalidateOverrideController(AnimatorOverrideController controller)
 	{
 	}

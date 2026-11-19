@@ -19,7 +19,7 @@ public sealed class DataTableNewRowEventArgs : EventArgs
 	private readonly DataRow _003CRow_003Ek__BackingField;
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x25097D0", Offset = "0x2507DD0", VA = "0x1825097D0")]
+	[Address(RVA = "0x5EA3FB0", Offset = "0x5EA2FB0", VA = "0x5EA3FB0")]
 	public DataTableNewRowEventArgs(DataRow dataRow)
 	{
 	}

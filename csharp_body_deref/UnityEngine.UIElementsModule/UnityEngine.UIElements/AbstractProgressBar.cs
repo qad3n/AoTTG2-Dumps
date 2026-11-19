@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.AbstractProgressBar
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -35,13 +35,13 @@ public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged
 		private UxmlStringAttributeDescription m_Title;
 
 		[Token(Token = "0x60008C7")]
-		[Address(RVA = "0x3225CE0", Offset = "0x32242E0", VA = "0x183225CE0", Slot = "4")]
+		[Address(RVA = "0x6C278A0", Offset = "0x6C268A0", VA = "0x6C278A0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60008C8")]
-		[Address(RVA = "0x3226840", Offset = "0x3224E40", VA = "0x183226840")]
+		[Address(RVA = "0x6C27AA0", Offset = "0x6C26AA0", VA = "0x6C27AA0")]
 		public UxmlTraits()
 		{
 		}
@@ -116,13 +116,13 @@ public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged
 	public string title
 	{
 		[Token(Token = "0x60008B9")]
-		[Address(RVA = "0x320AA90", Offset = "0x3209090", VA = "0x18320AA90")]
+		[Address(RVA = "0x6C26800", Offset = "0x6C25800", VA = "0x6C26800")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008BA")]
-		[Address(RVA = "0x320AC50", Offset = "0x3209250", VA = "0x18320AC50")]
+		[Address(RVA = "0x6C26830", Offset = "0x6C25830", VA = "0x6C26830")]
 		set
 		{
 		}
@@ -133,13 +133,13 @@ public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged
 	public float lowValue
 	{
 		[Token(Token = "0x60008BB")]
-		[Address(RVA = "0x2D24260", Offset = "0x2D22860", VA = "0x182D24260")]
+		[Address(RVA = "0x6C26910", Offset = "0x6C25910", VA = "0x6C26910")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60008BC")]
-		[Address(RVA = "0x320AB90", Offset = "0x3209190", VA = "0x18320AB90")]
+		[Address(RVA = "0x6C26920", Offset = "0x6C25920", VA = "0x6C26920")]
 		set
 		{
 		}
@@ -150,13 +150,13 @@ public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged
 	public float highValue
 	{
 		[Token(Token = "0x60008BD")]
-		[Address(RVA = "0x320AA80", Offset = "0x3209080", VA = "0x18320AA80")]
+		[Address(RVA = "0x6C26B70", Offset = "0x6C25B70", VA = "0x6C26B70")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60008BE")]
-		[Address(RVA = "0x320AAD0", Offset = "0x32090D0", VA = "0x18320AAD0")]
+		[Address(RVA = "0x6C26B80", Offset = "0x6C25B80", VA = "0x6C26B80")]
 		set
 		{
 		}
@@ -167,44 +167,44 @@ public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged
 	public virtual float value
 	{
 		[Token(Token = "0x60008C1")]
-		[Address(RVA = "0x320AAC0", Offset = "0x32090C0", VA = "0x18320AAC0", Slot = "146")]
+		[Address(RVA = "0x6C27010", Offset = "0x6C26010", VA = "0x6C27010", Slot = "146")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60008C2")]
-		[Address(RVA = "0x320AD40", Offset = "0x3209340", VA = "0x18320AD40", Slot = "147")]
+		[Address(RVA = "0x6C27020", Offset = "0x6C26020", VA = "0x6C27020", Slot = "147")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60008BF")]
-	[Address(RVA = "0x320A720", Offset = "0x3208D20", VA = "0x18320A720")]
+	[Address(RVA = "0x6C26CA0", Offset = "0x6C25CA0", VA = "0x6C26CA0")]
 	public AbstractProgressBar()
 	{
 	}
 
 	[Token(Token = "0x60008C0")]
-	[Address(RVA = "0x3209FB0", Offset = "0x32085B0", VA = "0x183209FB0")]
+	[Address(RVA = "0x6C26FF0", Offset = "0x6C25FF0", VA = "0x6C26FF0")]
 	private void OnGeometryChanged(GeometryChangedEvent e)
 	{
 	}
 
 	[Token(Token = "0x60008C3")]
-	[Address(RVA = "0x320A140", Offset = "0x3208740", VA = "0x18320A140", Slot = "145")]
+	[Address(RVA = "0x6C272C0", Offset = "0x6C262C0", VA = "0x6C272C0", Slot = "145")]
 	public void SetValueWithoutNotify(float newValue)
 	{
 	}
 
 	[Token(Token = "0x60008C4")]
-	[Address(RVA = "0x3209FE0", Offset = "0x32085E0", VA = "0x183209FE0")]
+	[Address(RVA = "0x6C26A40", Offset = "0x6C25A40", VA = "0x6C26A40")]
 	private void SetProgress(float p)
 	{
 	}
 
 	[Token(Token = "0x60008C5")]
-	[Address(RVA = "0x3209D80", Offset = "0x3208380", VA = "0x183209D80")]
+	[Address(RVA = "0x6C272F0", Offset = "0x6C262F0", VA = "0x6C272F0")]
 	private float CalculateOppositeProgressWidth(float width)
 	{
 		return default(float);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -40,7 +40,7 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	public int version
 	{
 		[Token(Token = "0x6000830")]
-		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		[Address(RVA = "0x667BD50", Offset = "0x667AD50", VA = "0x667BD50", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -51,7 +51,7 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	private bool UnityEngine_002ERendering_002EIRenderPipelineGraphicsSettings_002EisAvailableInPlayerBuild
 	{
 		[Token(Token = "0x6000831")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "5")]
+		[Address(RVA = "0x667BD60", Offset = "0x667AD60", VA = "0x667BD60", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -62,13 +62,13 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	public Shader xrOcclusionMeshPS
 	{
 		[Token(Token = "0x6000832")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x667BD70", Offset = "0x667AD70", VA = "0x667BD70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000833")]
-		[Address(RVA = "0x2C8EA30", Offset = "0x2C8D030", VA = "0x182C8EA30")]
+		[Address(RVA = "0x667BD80", Offset = "0x667AD80", VA = "0x667BD80")]
 		set
 		{
 		}
@@ -78,13 +78,13 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	public Shader xrMirrorViewPS
 	{
 		[Token(Token = "0x6000834")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x667BDE0", Offset = "0x667ADE0", VA = "0x667BDE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000835")]
-		[Address(RVA = "0x2C8E950", Offset = "0x2C8CF50", VA = "0x182C8E950")]
+		[Address(RVA = "0x667BDF0", Offset = "0x667ADF0", VA = "0x667BDF0")]
 		set
 		{
 		}
@@ -94,13 +94,13 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	public Shader xrMotionVector
 	{
 		[Token(Token = "0x6000836")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Address(RVA = "0x667BE50", Offset = "0x667AE50", VA = "0x667BE50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000837")]
-		[Address(RVA = "0x2C8E9C0", Offset = "0x2C8CFC0", VA = "0x182C8E9C0")]
+		[Address(RVA = "0x667BE60", Offset = "0x667AE60", VA = "0x667BE60")]
 		set
 		{
 		}
@@ -110,7 +110,7 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	internal bool valid
 	{
 		[Token(Token = "0x6000838")]
-		[Address(RVA = "0x2C8E880", Offset = "0x2C8CE80", VA = "0x182C8E880")]
+		[Address(RVA = "0x667BEC0", Offset = "0x667AEC0", VA = "0x667BEC0")]
 		get
 		{
 			return default(bool);
@@ -118,7 +118,7 @@ public class UniversalRenderPipelineRuntimeXRResources : IRenderPipelineResource
 	}
 
 	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x667BF80", Offset = "0x667AF80", VA = "0x667BF80")]
 	public UniversalRenderPipelineRuntimeXRResources()
 	{
 	}

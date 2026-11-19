@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualTreeAssetUtilities
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -55,7 +55,7 @@ internal static class VisualTreeAssetUtilities
 		private string System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EString_003E_002ECurrent
 		{
 			[Token(Token = "0x60027AB")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
+			[Address(RVA = "0x6B69260", Offset = "0x6B68260", VA = "0x6B69260", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -67,7 +67,7 @@ internal static class VisualTreeAssetUtilities
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60027AD")]
-			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
+			[Address(RVA = "0x6B692B0", Offset = "0x6B682B0", VA = "0x6B692B0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -76,35 +76,35 @@ internal static class VisualTreeAssetUtilities
 		}
 
 		[Token(Token = "0x60027A8")]
-		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
+		[Address(RVA = "0x6B69150", Offset = "0x6B68150", VA = "0x6B69150")]
 		[DebuggerHidden]
 		public _003CEnumerateEnclosingNamespaces_003Ed__0(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60027A9")]
-		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
+		[Address(RVA = "0x6B69180", Offset = "0x6B68180", VA = "0x6B69180", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60027AA")]
-		[Address(RVA = "0x315E990", Offset = "0x315CF90", VA = "0x18315E990", Slot = "8")]
+		[Address(RVA = "0x6B69190", Offset = "0x6B68190", VA = "0x6B69190", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60027AC")]
-		[Address(RVA = "0x315EB00", Offset = "0x315D100", VA = "0x18315EB00", Slot = "10")]
+		[Address(RVA = "0x6B69270", Offset = "0x6B68270", VA = "0x6B69270", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60027AE")]
-		[Address(RVA = "0x315EA60", Offset = "0x315D060", VA = "0x18315EA60", Slot = "4")]
+		[Address(RVA = "0x6B692C0", Offset = "0x6B682C0", VA = "0x6B692C0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<string> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EString_003E_002EGetEnumerator()
 		{
@@ -112,7 +112,7 @@ internal static class VisualTreeAssetUtilities
 		}
 
 		[Token(Token = "0x60027AF")]
-		[Address(RVA = "0x315EA60", Offset = "0x315D060", VA = "0x18315EA60", Slot = "5")]
+		[Address(RVA = "0x6B69350", Offset = "0x6B68350", VA = "0x6B69350", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -121,7 +121,7 @@ internal static class VisualTreeAssetUtilities
 	}
 
 	[Token(Token = "0x60027A6")]
-	[Address(RVA = "0x316A670", Offset = "0x3168C70", VA = "0x18316A670")]
+	[Address(RVA = "0x6B690E0", Offset = "0x6B680E0", VA = "0x6B690E0")]
 	[IteratorStateMachine(typeof(_003CEnumerateEnclosingNamespaces_003Ed__0))]
 	public static IEnumerable<string> EnumerateEnclosingNamespaces(string fullTypeName)
 	{
@@ -129,7 +129,7 @@ internal static class VisualTreeAssetUtilities
 	}
 
 	[Token(Token = "0x60027A7")]
-	[Address(RVA = "0x316A6F0", Offset = "0x3168CF0", VA = "0x18316A6F0")]
+	[Address(RVA = "0x6B661D0", Offset = "0x6B651D0", VA = "0x6B661D0")]
 	public static UxmlNamespaceDefinition FindUxmlNamespaceDefinitionForTypeName(this VisualTreeAsset vta, UxmlAsset asset, string fullTypeName)
 	{
 		return default(UxmlNamespaceDefinition);

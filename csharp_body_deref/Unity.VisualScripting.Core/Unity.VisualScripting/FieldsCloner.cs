@@ -14,21 +14,21 @@ namespace Unity.VisualScripting;
 public sealed class FieldsCloner : ReflectedCloner
 {
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
+	[Address(RVA = "0x678EE30", Offset = "0x678DE30", VA = "0x678EE30", Slot = "15")]
 	protected override bool IncludeField(FieldInfo field)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "16")]
+	[Address(RVA = "0x678EE40", Offset = "0x678DE40", VA = "0x678EE40", Slot = "16")]
 	protected override bool IncludeProperty(PropertyInfo property)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x2DA7B70", Offset = "0x2DA6170", VA = "0x182DA7B70")]
+	[Address(RVA = "0x678EE50", Offset = "0x678DE50", VA = "0x678EE50")]
 	public FieldsCloner()
 	{
 	}

@@ -14,14 +14,14 @@ namespace Photon.Pun.UtilityScripts;
 public class ByteComparer : IComparer<byte>
 {
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x1D4FDE0", Offset = "0x1D4E3E0", VA = "0x181D4FDE0", Slot = "4")]
+	[Address(RVA = "0x56E8680", Offset = "0x56E7680", VA = "0x56E8680", Slot = "4")]
 	public int Compare(byte x, byte y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x56E8440", Offset = "0x56E7440", VA = "0x56E8440")]
 	public ByteComparer()
 	{
 	}

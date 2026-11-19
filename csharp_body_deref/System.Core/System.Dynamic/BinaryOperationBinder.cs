@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.Dynamic;
 
-[Token(Token = "0x2000259")]
+[Token(Token = "0x200025A")]
 public abstract class BinaryOperationBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x1700025E")]
+	[Token(Token = "0x17000260")]
 	public ExpressionType Operation
 	{
-		[Token(Token = "0x6000BA5")]
-		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
+		[Token(Token = "0x6000BB0")]
+		[Address(RVA = "0x5E1D240", Offset = "0x5E1C240", VA = "0x5E1D240")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,18 +26,18 @@ public abstract class BinaryOperationBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x6000BA6")]
-	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
+	[Token(Token = "0x6000BB1")]
+	[Address(RVA = "0x5E1D250", Offset = "0x5E1C250", VA = "0x5E1D250")]
 	public DynamicMetaObject FallbackBinaryOperation(DynamicMetaObject target, DynamicMetaObject arg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BA7")]
+	[Token(Token = "0x6000BB2")]
 	public abstract DynamicMetaObject FallbackBinaryOperation(DynamicMetaObject target, DynamicMetaObject arg, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000BA8")]
-	[Address(RVA = "0x2466770", Offset = "0x2464D70", VA = "0x182466770", Slot = "7")]
+	[Token(Token = "0x6000BB3")]
+	[Address(RVA = "0x5E1D270", Offset = "0x5E1C270", VA = "0x5E1D270", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

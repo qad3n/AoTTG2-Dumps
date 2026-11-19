@@ -10,44 +10,44 @@ using Internal.Runtime.Augments;
 
 namespace Internal.Threading.Tasks.Tracing;
 
-[Token(Token = "0x2000088")]
+[Token(Token = "0x200005F")]
 internal static class TaskTrace
 {
-	[Token(Token = "0x400023E")]
+	[Token(Token = "0x400018F")]
 	[FieldOffset(Offset = "0x0")]
 	private static Internal.Runtime.Augments.TaskTraceCallbacks s_callbacks;
 
 	[Token(Token = "0x17000039")]
 	public static bool Enabled
 	{
-		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x1975930", Offset = "0x1973F30", VA = "0x181975930")]
+		[Token(Token = "0x6000222")]
+		[Address(RVA = "0x52FE0B0", Offset = "0x52FD0B0", VA = "0x52FE0B0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000260")]
-	[Address(RVA = "0x19757B0", Offset = "0x1973DB0", VA = "0x1819757B0")]
+	[Token(Token = "0x6000223")]
+	[Address(RVA = "0x52FE100", Offset = "0x52FD100", VA = "0x52FE100")]
 	public static void TaskWaitBegin_Asynchronous(int OriginatingTaskSchedulerID, int OriginatingTaskID, int TaskID)
 	{
 	}
 
-	[Token(Token = "0x6000261")]
-	[Address(RVA = "0x1975830", Offset = "0x1973E30", VA = "0x181975830")]
+	[Token(Token = "0x6000224")]
+	[Address(RVA = "0x52FE170", Offset = "0x52FD170", VA = "0x52FE170")]
 	public static void TaskWaitBegin_Synchronous(int OriginatingTaskSchedulerID, int OriginatingTaskID, int TaskID)
 	{
 	}
 
-	[Token(Token = "0x6000262")]
-	[Address(RVA = "0x19758B0", Offset = "0x1973EB0", VA = "0x1819758B0")]
+	[Token(Token = "0x6000225")]
+	[Address(RVA = "0x52FE1E0", Offset = "0x52FD1E0", VA = "0x52FE1E0")]
 	public static void TaskWaitEnd(int OriginatingTaskSchedulerID, int OriginatingTaskID, int TaskID)
 	{
 	}
 
-	[Token(Token = "0x6000263")]
-	[Address(RVA = "0x1975730", Offset = "0x1973D30", VA = "0x181975730")]
+	[Token(Token = "0x6000226")]
+	[Address(RVA = "0x52FE250", Offset = "0x52FD250", VA = "0x52FE250")]
 	public static void TaskScheduled(int OriginatingTaskSchedulerID, int OriginatingTaskID, int TaskID, int CreatingTaskID, int TaskCreationOptions)
 	{
 	}

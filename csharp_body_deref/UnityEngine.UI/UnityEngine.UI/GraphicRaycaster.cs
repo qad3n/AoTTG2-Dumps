@@ -70,7 +70,7 @@ public class GraphicRaycaster : BaseRaycaster
 	public override int sortOrderPriority
 	{
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x306F110", Offset = "0x306D710", VA = "0x18306F110", Slot = "20")]
+		[Address(RVA = "0x6A6EA50", Offset = "0x6A6DA50", VA = "0x6A6EA50", Slot = "20")]
 		get
 		{
 			return default(int);
@@ -81,7 +81,7 @@ public class GraphicRaycaster : BaseRaycaster
 	public override int renderOrderPriority
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x306F0B0", Offset = "0x306D6B0", VA = "0x18306F0B0", Slot = "21")]
+		[Address(RVA = "0x6A6EB30", Offset = "0x6A6DB30", VA = "0x6A6EB30", Slot = "21")]
 		get
 		{
 			return default(int);
@@ -92,13 +92,13 @@ public class GraphicRaycaster : BaseRaycaster
 	public bool ignoreReversedGraphics
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+		[Address(RVA = "0x6A6EB80", Offset = "0x6A6DB80", VA = "0x6A6EB80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
+		[Address(RVA = "0x6A6EB90", Offset = "0x6A6DB90", VA = "0x6A6EB90")]
 		set
 		{
 		}
@@ -108,13 +108,13 @@ public class GraphicRaycaster : BaseRaycaster
 	public BlockingObjects blockingObjects
 	{
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+		[Address(RVA = "0x6A6EBA0", Offset = "0x6A6DBA0", VA = "0x6A6EBA0")]
 		get
 		{
 			return default(BlockingObjects);
 		}
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
+		[Address(RVA = "0x6A6EBB0", Offset = "0x6A6DBB0", VA = "0x6A6EBB0")]
 		set
 		{
 		}
@@ -124,13 +124,13 @@ public class GraphicRaycaster : BaseRaycaster
 	public LayerMask blockingMask
 	{
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		[Address(RVA = "0x6A6EBC0", Offset = "0x6A6DBC0", VA = "0x6A6EBC0")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
+		[Address(RVA = "0x6A6EBD0", Offset = "0x6A6DBD0", VA = "0x6A6EBD0")]
 		set
 		{
 		}
@@ -140,7 +140,7 @@ public class GraphicRaycaster : BaseRaycaster
 	private Canvas canvas
 	{
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x306EF60", Offset = "0x306D560", VA = "0x18306EF60")]
+		[Address(RVA = "0x6A6EAA0", Offset = "0x6A6DAA0", VA = "0x6A6EAA0")]
 		get
 		{
 			return null;
@@ -151,7 +151,7 @@ public class GraphicRaycaster : BaseRaycaster
 	public override Camera eventCamera
 	{
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x306EFF0", Offset = "0x306D5F0", VA = "0x18306EFF0", Slot = "18")]
+		[Address(RVA = "0x6A70280", Offset = "0x6A6F280", VA = "0x6A70280", Slot = "18")]
 		get
 		{
 			return null;
@@ -159,19 +159,19 @@ public class GraphicRaycaster : BaseRaycaster
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x306EED0", Offset = "0x306D4D0", VA = "0x18306EED0")]
+	[Address(RVA = "0x6A6EBE0", Offset = "0x6A6DBE0", VA = "0x6A6EBE0")]
 	protected GraphicRaycaster()
 	{
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x306DFD0", Offset = "0x306C5D0", VA = "0x18306DFD0", Slot = "17")]
+	[Address(RVA = "0x6A6EC70", Offset = "0x6A6DC70", VA = "0x6A6EC70", Slot = "17")]
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
 	{
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x306DA10", Offset = "0x306C010", VA = "0x18306DA10")]
+	[Address(RVA = "0x6A6FBA0", Offset = "0x6A6EBA0", VA = "0x6A6FBA0")]
 	private static void Raycast(Canvas canvas, Camera eventCamera, Vector2 pointerPosition, IList<Graphic> foundGraphics, List<Graphic> results)
 	{
 	}

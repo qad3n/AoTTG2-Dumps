@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003FD")]
+[Token(Token = "0x20003D6")]
 internal delegate void DeserializationEventHandler(object sender);

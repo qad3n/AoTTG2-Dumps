@@ -16,7 +16,7 @@ internal sealed class QmarkNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FFA")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
+		[Address(RVA = "0x6147650", Offset = "0x6146650", VA = "0x6147650", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -24,13 +24,13 @@ internal sealed class QmarkNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FF9")]
-	[Address(RVA = "0x2783A10", Offset = "0x2782010", VA = "0x182783A10", Slot = "5")]
+	[Address(RVA = "0x6147620", Offset = "0x6146620", VA = "0x6147620", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FFB")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x6147660", Offset = "0x6146660", VA = "0x6147660")]
 	public QmarkNode()
 	{
 	}

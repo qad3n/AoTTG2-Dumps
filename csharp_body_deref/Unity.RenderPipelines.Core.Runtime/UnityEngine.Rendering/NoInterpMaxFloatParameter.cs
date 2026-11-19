@@ -18,27 +18,27 @@ public class NoInterpMaxFloatParameter : VolumeParameter<float>
 {
 	[NonSerialized]
 	[Token(Token = "0x400099C")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float max;
 
 	[Token(Token = "0x170001F5")]
 	public override float value
 	{
 		[Token(Token = "0x6000F3B")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x6555AC0", Offset = "0x6554AC0", VA = "0x6555AC0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F3C")]
-		[Address(RVA = "0x2B5E320", Offset = "0x2B5C920", VA = "0x182B5E320", Slot = "15")]
+		[Address(RVA = "0x6555AD0", Offset = "0x6554AD0", VA = "0x6555AD0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F3D")]
-	[Address(RVA = "0x2B5F850", Offset = "0x2B5DE50", VA = "0x182B5F850")]
+	[Address(RVA = "0x6555AE0", Offset = "0x6554AE0", VA = "0x6555AE0")]
 	public NoInterpMaxFloatParameter(float value, float max, bool overrideState = false)
 	{
 	}

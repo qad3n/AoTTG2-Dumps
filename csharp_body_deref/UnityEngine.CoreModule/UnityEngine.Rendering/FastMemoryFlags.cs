@@ -14,10 +14,10 @@ namespace UnityEngine.Rendering;
 [Flags]
 public enum FastMemoryFlags
 {
-	[Token(Token = "0x4000819")]
+	[Token(Token = "0x4000817")]
 	None = 0,
-	[Token(Token = "0x400081A")]
+	[Token(Token = "0x4000818")]
 	SpillTop = 1,
-	[Token(Token = "0x400081B")]
+	[Token(Token = "0x4000819")]
 	SpillBottom = 2
 }

@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Credits.AottgCreditsParser
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Credits/AottgCreditsParser.cs
@@ -8,36 +8,45 @@
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryParse
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryParse (System_String_o* json, ApplicationManagers_Credits_AottgCreditsResponse_o** credits, System_String_o** error, const MethodInfo* method);
-// 0x182365080
-// eh: try 0x1823650d2..0x1823650ee -> pad 0x183315840 catch Il2CppExceptionWrapper [managed catch: runtime default class]
-// asm: 27 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823650f0: xor r8d, r8d
-// asm:   0x1823650f3: mov rdx, qword ptr [rsp + 0x50]
-// asm:   0x1823650f8: mov rcx, qword ptr [rsp + 0x48]
-// asm:   0x1823650fd: call 0x182364380  ; ApplicationManagers_Credits_AottgCreditsParser__Fail()
-// asm:   0x183315840: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315845: push rbx
-// asm:   0x183315846: push rbp
-// asm:   0x183315847: sub rsp, 0x28
-// asm:   0x18331584b: mov rbp, rdx
-// asm:   0x18331584e: mov rbx, qword ptr [rbp + 0x28]
-// asm:   0x183315852: mov rdx, qword ptr [rbx]
-// asm:   0x183315855: mov rdx, qword ptr [rdx]
-// asm:   0x183315858: mov rcx, qword ptr [rip + 0x103f571]
-// asm:   0x18331585f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
-// asm:   0x183315864: test al, al
-// asm:   0x183315866: je 0x183315874
-// asm:   0x183315868: movabs rax, 0
-// asm:   0x183315872: jmp 0x18331588c
-// asm:   0x183315874: mov rax, qword ptr [rbx]
-// asm:   0x183315877: mov qword ptr [rbp + 0x20], rax
-// asm:   0x18331587b: lea rdx, [rip + 0xcc6706]
-// asm:   0x183315882: lea rcx, [rbp + 0x20]
-// asm:   0x183315886: call 0x1804ef7d0  ; _CxxThrowException()
-// asm:   0x18331588c: add rsp, 0x28
-// asm:   0x183315890: pop rbp
-// asm:   0x183315891: pop rbx
-// asm:   0x183315892: ret 
+// 0x5e22b80
+// eh: try 0x5e22c0b..0x5e22c23 -> pad 0x5e22c35 (+1 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
+// eh: try 0x5e22c59..0x5e22c97 -> pad 0x5e22c97 (+1 call sites) cleanup
+// eh: try 0x5e22c9a..0x5e22c9f -> pad 0x5e22ca7 catch (...) [compiler noexcept guard]
+// asm: 34 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e22c33: jmp 0x5e22c35
+// asm:   0x5e22c35: mov r15, rax
+// asm:   0x5e22c38: cmp edx, 1
+// asm:   0x5e22c3b: jne 0x5e22c9f
+// asm:   0x5e22c3d: mov rdi, r15
+// asm:   0x5e22c40: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x5e22c45: mov rbx, rax
+// asm:   0x5e22c48: lea rax, [rip + 0x1733a79]
+// asm:   0x5e22c4f: mov rdi, qword ptr [rax + 0x10]
+// asm:   0x5e22c53: mov rax, qword ptr [rbx]
+// asm:   0x5e22c56: mov rsi, qword ptr [rax]
+// asm:   0x5e22c59: call 0x30d6910  ; il2cpp_runtime_helper_030d6910()
+// asm:   0x5e22c5e: test al, al
+// asm:   0x5e22c60: je 0x5e22c76
+// asm:   0x5e22c62: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e22c67: mov rdi, r12
+// asm:   0x5e22c6a: mov rsi, r14
+// asm:   0x5e22c6d: call 0x5e22cb0  ; ApplicationManagers_Credits_AottgCreditsParser__Fail()
+// asm:   0x5e22c72: xor ebx, ebx
+// asm:   0x5e22c74: jmp 0x5e22c25
+// asm:   0x5e22c76: mov edi, 8
+// asm:   0x5e22c7b: call 0x6e255b0  ; __cxa_allocate_exception()
+// asm:   0x5e22c80: mov rcx, qword ptr [rbx]
+// asm:   0x5e22c83: mov qword ptr [rax], rcx
+// asm:   0x5e22c86: lea rsi, [rip + 0x100a873]
+// asm:   0x5e22c8d: mov rdi, rax
+// asm:   0x5e22c90: xor edx, edx
+// asm:   0x5e22c92: call 0x6e255c0  ; __cxa_throw()
+// asm:   0x5e22c97: mov r15, rax
+// asm:   0x5e22c9a: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x5e22c9f: mov rdi, r15
+// asm:   0x5e22ca2: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x5e22ca7: mov rdi, rax
+// asm:   0x5e22caa: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryParse
                (System_String_o *json,ApplicationManagers_Credits_AottgCreditsResponse_o **credits,
@@ -48,189 +57,180 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryParse
   SimpleJSONFixed_JSONNode_o *root;
   
   *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(credits,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(credits);
   *error = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(error,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(error);
   bVar1 = System_String__IsNullOrWhiteSpace(json,(MethodInfo *)0x0);
-  if (!bVar1) {
+  if (bVar1) {
+    if (Il2CppMethodInitialized_075484d0 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"bad_response");
+      Il2CppMethodInitialized_075484d0 = '\x01';
+    }
+    *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
+    bVar1 = false;
+    Il2CppCodeGenWriteBarrier(credits);
+    *error = "bad_response";
+    Il2CppCodeGenWriteBarrier(error);
+  }
+  else {
     root = SimpleJSONFixed_JSON__Parse(json,(MethodInfo *)0x0);
-    bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParse_2364d60
-                      (root,credits,error,(MethodInfo *)0x0);
-    return bVar1;
+    bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParse_5d22d10(root,credits,error,method);
   }
-  if (Il2CppMethodInitialized_184347a21 == '\0') {
-    il2cpp_codegen_initialize_runtime_metadata(&"bad_response");
-    Il2CppMethodInitialized_184347a21 = '\x01';
-  }
-  *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(credits,(void *)0x0);
-  *error = "bad_response";
-  Il2CppCodeGenWriteBarrier(error,"bad_response");
-  return false;
+  return bVar1;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryParse
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryParse (SimpleJSONFixed_JSONNode_o* root, ApplicationManagers_Credits_AottgCreditsResponse_o** credits, System_String_o** error, const MethodInfo* method);
-// 0x182364d60
+// 0x5e22d10
 
-bool ApplicationManagers_Credits_AottgCreditsParser__TryParse_2364d60
+bool ApplicationManagers_Credits_AottgCreditsParser__TryParse_5d22d10
                (SimpleJSONFixed_JSONNode_o *root,ApplicationManagers_Credits_AottgCreditsResponse_o **credits,
                System_String_o **error,MethodInfo *method)
 
 {
   bool bVar1;
-  char cVar2;
   uint32_t length;
-  int iVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
-  longlong *plVar5;
-  System_Object_array *array;
-  SimpleJSONFixed_JSONNode_o *node;
+  int iVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
+  SimpleJSONFixed_JSONArray_o *pSVar4;
+  ApplicationManagers_Credits_AottgCreditCategory_array *categories;
   ApplicationManagers_Credits_AottgCreditsResponse_o *__this;
-  System_Collections_ObjectModel_ReadOnlyCollection_T__o *value;
-  uint uVar6;
+  MethodInfo *method_00;
+  ApplicationManagers_Credits_AottgCreditCategory_o **category;
+  ulong uVar5;
+  undefined1 auVar6 [16];
   
-  if (Il2CppMethodInitialized_184347a18 == '\0') {
+  if (Il2CppMethodInitialized_075484c7 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_ApplicationManagers_Credits_AottgCreditCategory_array);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsResponse);
     il2cpp_codegen_initialize_runtime_metadata(&"categories");
-    Il2CppMethodInitialized_184347a18 = '\x01';
+    Il2CppMethodInitialized_075484c7 = '\x01';
   }
-  uVar6 = 0;
   *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(credits,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(credits);
   *error = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(error,(void *)0x0);
-  if (Il2CppMethodInitialized_184347a20 == '\0') {
+  Il2CppCodeGenWriteBarrier(error);
+  if (Il2CppMethodInitialized_075484cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a20 = '\x01';
+    Il2CppMethodInitialized_075484cf = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
   bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(root,(Il2CppObject *)0x0,(MethodInfo *)0x0);
   if (!bVar1) {
-label_182365012:
-    if (Il2CppMethodInitialized_184347a21 == '\0') {
+label_05e22f64:
+    if (Il2CppMethodInitialized_075484d0 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&"bad_response");
-      Il2CppMethodInitialized_184347a21 = '\x01';
+      Il2CppMethodInitialized_075484d0 = '\x01';
     }
     *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-    Il2CppCodeGenWriteBarrier(credits,(void *)0x0);
+    Il2CppCodeGenWriteBarrier(credits);
     *error = "bad_response";
-    Il2CppCodeGenWriteBarrier(error,"bad_response");
+    Il2CppCodeGenWriteBarrier(error);
     return false;
   }
   if (root != (SimpleJSONFixed_JSONNode_o *)0x0) {
     bVar1 = (*(root->klass->vtable)._17_get_IsObject.methodPtr)
                       (root,(root->klass->vtable)._17_get_IsObject.method);
     if ((!bVar1) ||
-       (bVar1 = (*(root->klass->vtable)._28_HasKey.methodPtr)(root,(MethodInfo *)"categories"),
-       !bVar1)) goto label_182365012;
-    pSVar4 = (*(root->klass->vtable)._7_get_Item.methodPtr)(root,(MethodInfo *)"categories");
-    if (pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      cVar2 = (*((Il2CppClass *)pSVar4->klass)->vtable[16].methodPtr)(pSVar4);
-      if (cVar2 == '\0') goto label_182365012;
-      pSVar4 = (*(root->klass->vtable)._7_get_Item.methodPtr)(root,(MethodInfo *)"categories");
-      if ((pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) &&
-         (plVar5 = (longlong *)
-                   (*(code *)((Il2CppClass *)pSVar4->klass)->vtable[45].methodPtr)
-                             (pSVar4,((Il2CppClass *)pSVar4->klass)->vtable[45].method),
-         plVar5 != (longlong *)0x0)) {
-        length = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
-        array = (System_Object_array *)
-                SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditCategory_array,length);
-        for (; iVar3 = (**(code **)(*plVar5 + 0x1e8))(plVar5), (int)uVar6 < iVar3; uVar6 = uVar6 + 1) {
-          node = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar5 + 0x188))(plVar5,uVar6);
-          if (array == (System_Object_array *)0x0) goto label_182365075;
-          if ((uint)array->max_length <= uVar6) {
-            ThrowIndexOutOfRangeException();
+       (bVar1 = (*(root->klass->vtable)._28_HasKey.methodPtr)
+                          (root,"categories",(root->klass->vtable)._28_HasKey.method), !bVar1))
+    goto label_05e22f64;
+    pSVar3 = (*(root->klass->vtable)._7_get_Item.methodPtr)
+                       (root,"categories",(root->klass->vtable)._7_get_Item.method);
+    if (pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      bVar1 = (*(pSVar3->klass->vtable)._16_get_IsArray.methodPtr)
+                        (pSVar3,(pSVar3->klass->vtable)._16_get_IsArray.method);
+      if (!bVar1) goto label_05e22f64;
+      pSVar3 = (*(root->klass->vtable)._7_get_Item.methodPtr)
+                         (root,"categories",(root->klass->vtable)._7_get_Item.method);
+      if ((pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+         (pSVar4 = (*(pSVar3->klass->vtable)._45_get_AsArray.methodPtr)
+                             (pSVar3,(pSVar3->klass->vtable)._45_get_AsArray.method),
+         pSVar4 != (SimpleJSONFixed_JSONArray_o *)0x0)) {
+        length = (**(code **)((long)pSVar4->klass + 0x1e8))
+                           (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+        categories = (ApplicationManagers_Credits_AottgCreditCategory_array *)
+                     SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditCategory_array,length);
+        iVar2 = (**(code **)((long)pSVar4->klass + 0x1e8))
+                          (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+        if (0 < iVar2) {
+          if (categories == (ApplicationManagers_Credits_AottgCreditCategory_array *)0x0) {
+            (**(code **)((long)pSVar4->klass + 0x188))(pSVar4,0,*(undefined8 *)((long)pSVar4->klass + 400));
+            ThrowNullReferenceException();
           }
-          bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParseCategory
-                            (node,(ApplicationManagers_Credits_AottgCreditCategory_o **)
-                                  (array->m_Items + (int)uVar6),(MethodInfo *)0x0);
-          if (!bVar1) {
-            bVar1 = ApplicationManagers_Credits_AottgCreditsParser__Fail(credits,error,(MethodInfo *)0x0);
-            return bVar1;
-          }
+          category = categories->m_Items;
+          uVar5 = 0;
+          do {
+            auVar6 = (**(code **)((long)pSVar4->klass + 0x188))
+                               (pSVar4,uVar5 & 0xffffffff,*(undefined8 *)((long)pSVar4->klass + 400));
+            if ((uint)categories->max_length <= uVar5) {
+              ThrowIndexOutOfRangeException();
+            }
+            bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParseCategory
+                              (auVar6._0_8_,category,auVar6._8_8_);
+            if (!bVar1) goto label_05e22f64;
+            uVar5 = uVar5 + 1;
+            iVar2 = (**(code **)((long)pSVar4->klass + 0x1e8))
+                              (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+            category = category + 1;
+          } while ((long)uVar5 < (long)iVar2);
         }
         __this = il2cpp_codegen_object_new
                            ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsResponse);
-        if (Il2CppMethodInitialized_184347a0e == '\0') {
-          il2cpp_codegen_initialize_runtime_metadata
-                    (&TypeInfo_ApplicationManagers_Credits_AottgCreditCategory_array);
-          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_AottgCreditCategory);
-          Il2CppMethodInitialized_184347a0e = '\x01';
-        }
-        System_Object___ctor
-                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-        if (array == (System_Object_array *)0x0) {
-          array = (System_Object_array *)
-                  SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditCategory_array,0);
-        }
-        value = System_Array__AsReadOnly_object_
-                          (array,(MethodInfo_68BBD0 *)MethodInfo_System_Array_AsReadOnly_AottgCreditCategory);
-        if (__this != (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
-          (__this->fields)._Categories_k__BackingField =
-               (System_Collections_Generic_IReadOnlyList_AottgCreditCategory__o *)value;
-          Il2CppCodeGenWriteBarrier(&(__this->fields)._Categories_k__BackingField,value);
-          *credits = __this;
-          Il2CppCodeGenWriteBarrier(credits,__this);
-          return true;
-        }
+        ApplicationManagers_Credits_AottgCreditsResponse___ctor(__this,categories,method_00);
+        *credits = __this;
+        Il2CppCodeGenWriteBarrier(credits);
+        return true;
       }
     }
   }
-label_182365075:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryParseCategory
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryParseCategory (SimpleJSONFixed_JSONNode_o* node, ApplicationManagers_Credits_AottgCreditCategory_o** category, const MethodInfo* method);
-// 0x182364510
+// 0x5e23060
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryParseCategory
                (SimpleJSONFixed_JSONNode_o *node,ApplicationManagers_Credits_AottgCreditCategory_o **category,
                MethodInfo *method)
 
 {
-  System_String_o *value;
-  System_String_o *value_00;
+  ApplicationManagers_Credits_AottgCreditGroup_array *groups;
+  ApplicationManagers_Credits_AottgCreditContributor_array *contributors;
+  System_String_o *description;
+  System_String_o *name;
   bool bVar1;
-  char cVar2;
-  uint32_t length;
-  int iVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
-  longlong *plVar5;
-  SimpleJSONFixed_JSONNode_o *node_00;
   ApplicationManagers_Credits_AottgCreditCategory_o *__this;
-  ApplicationManagers_Credits_AottgCreditContributor_array *array;
-  System_Collections_ObjectModel_ReadOnlyCollection_T__o *pSVar6;
-  System_Object_array *array_00;
-  uint uVar7;
-  System_Object_array *local_res8;
-  System_String_o *local_res10;
-  System_String_o *local_res20;
-  ApplicationManagers_Credits_AottgCreditContributor_array *local_38 [2];
+  MethodInfo *in_RCX;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *method_02;
+  MethodInfo *in_R9;
+  ApplicationManagers_Credits_AottgCreditGroup_array *local_50;
+  ApplicationManagers_Credits_AottgCreditContributor_array *local_48;
+  System_String_o *local_40;
+  System_String_o *local_38;
   
-  if (Il2CppMethodInitialized_184347a19 == '\0') {
+  if (Il2CppMethodInitialized_075484c8 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditCategory);
     il2cpp_codegen_initialize_runtime_metadata(&"name");
-    Il2CppMethodInitialized_184347a19 = '\x01';
+    Il2CppMethodInitialized_075484c8 = '\x01';
   }
-  uVar7 = 0;
-  local_res10 = (System_String_o *)0x0;
-  local_res20 = (System_String_o *)0x0;
-  local_38[0] = (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0;
-  local_res8 = (System_Object_array *)0x0;
+  local_38 = (System_String_o *)0x0;
+  local_40 = (System_String_o *)0x0;
+  local_48 = (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0;
+  local_50 = (ApplicationManagers_Credits_AottgCreditGroup_array *)0x0;
   *category = (ApplicationManagers_Credits_AottgCreditCategory_o *)0x0;
-  Il2CppCodeGenWriteBarrier(category,(void *)0x0);
-  if (Il2CppMethodInitialized_184347a20 == '\0') {
+  Il2CppCodeGenWriteBarrier(category);
+  if (Il2CppMethodInitialized_075484cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a20 = '\x01';
+    Il2CppMethodInitialized_075484cf = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
@@ -238,109 +238,26 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryParseCategory
   bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
     if (node == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_1823648eb:
       ThrowNullReferenceException();
     }
     bVar1 = (*(node->klass->vtable)._17_get_IsObject.methodPtr)
                       (node,(node->klass->vtable)._17_get_IsObject.method);
     if ((((bVar1) &&
          (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
-                            (node,"name",&local_res10,(MethodInfo *)0x0), bVar1)) &&
-        (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription
-                           (node,&local_res20,(MethodInfo *)0x0), bVar1)) &&
-       (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors
-                          (node,local_38,(MethodInfo *)0x0), bVar1)) {
-      if (Il2CppMethodInitialized_184347a1a == '\0') {
-        il2cpp_codegen_initialize_runtime_metadata
-                  (&TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array);
-        il2cpp_codegen_initialize_runtime_metadata(&"groups");
-        Il2CppMethodInitialized_184347a1a = '\x01';
-      }
-      local_res8 = (System_Object_array *)0x0;
-      Il2CppCodeGenWriteBarrier(&local_res8,(void *)0x0);
-      bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)"groups");
-      if (bVar1) {
-        pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"groups");
-        if (pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-          cVar2 = (*((Il2CppClass *)pSVar4->klass)->vtable[16].methodPtr)
-                            (pSVar4,*(undefined8 *)&((Il2CppClass *)pSVar4->klass)->vtable[16].method);
-          if (cVar2 == '\0') {
-            return false;
-          }
-          pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"groups");
-          if ((pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) &&
-             (plVar5 = (longlong *)
-                       (*(code *)((Il2CppClass *)pSVar4->klass)->vtable[45].methodPtr)
-                                 (pSVar4,((Il2CppClass *)pSVar4->klass)->vtable[45].method),
-             plVar5 != (longlong *)0x0)) {
-            length = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
-            local_res8 = (System_Object_array *)
-                         SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array,length);
-            Il2CppCodeGenWriteBarrier(&local_res8,local_res8);
-            for (; iVar3 = (**(code **)(*plVar5 + 0x1e8))(plVar5), array = local_38[0], value_00 = local_res20
-                , value = local_res10, array_00 = local_res8, (int)uVar7 < iVar3; uVar7 = uVar7 + 1) {
-              node_00 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar5 + 0x188))(plVar5,uVar7);
-              if (local_res8 == (System_Object_array *)0x0) goto label_1823648eb;
-              if ((uint)local_res8->max_length <= uVar7) {
-                ThrowIndexOutOfRangeException();
-              }
-              bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParseGroup
-                                (node_00,(ApplicationManagers_Credits_AottgCreditGroup_o **)
-                                         (local_res8->m_Items + (int)uVar7),(MethodInfo *)0x0);
-              if (!bVar1) {
-                return false;
-              }
-            }
-            __this = il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditCategory);
-            if (Il2CppMethodInitialized_184347a0f == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&TypeInfo_ApplicationManagers_Credits_AottgCreditContributor_array);
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array);
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&MethodInfo_System_Array_AsReadOnly_AottgCreditContributor);
-              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_AottgCreditGroup)
-              ;
-              Il2CppMethodInitialized_184347a0f = '\x01';
-            }
-            System_Object___ctor
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0)
-            ;
-            (__this->fields)._Name_k__BackingField = value;
-            Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
-            (__this->fields)._Description_k__BackingField = value_00;
-            Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value_00);
-            if (array == (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0) {
-              array = (ApplicationManagers_Credits_AottgCreditContributor_array *)
-                      SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditContributor_array,0);
-            }
-            pSVar6 = System_Array__AsReadOnly_object_
-                               ((System_Object_array *)array,
-                                (MethodInfo_68BBD0 *)MethodInfo_System_Array_AsReadOnly_AottgCreditContributor
-                               );
-            if (__this != (ApplicationManagers_Credits_AottgCreditCategory_o *)0x0) {
-              (__this->fields)._Contributors_k__BackingField =
-                   (System_Collections_Generic_IReadOnlyList_AottgCreditContributor__o *)pSVar6;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._Contributors_k__BackingField,pSVar6);
-              if (array_00 == (System_Object_array *)0x0) {
-                array_00 = (System_Object_array *)
-                           SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array,0);
-              }
-              pSVar6 = System_Array__AsReadOnly_object_
-                                 (array_00,(MethodInfo_68BBD0 *)
-                                           MethodInfo_System_Array_AsReadOnly_AottgCreditGroup);
-              (__this->fields)._Groups_k__BackingField =
-                   (System_Collections_Generic_IReadOnlyList_AottgCreditGroup__o *)pSVar6;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._Groups_k__BackingField,pSVar6);
-              *category = __this;
-              Il2CppCodeGenWriteBarrier(category,__this);
-              return true;
-            }
-          }
-        }
-        goto label_1823648eb;
-      }
+                            (node,"name",&local_38,in_RCX), bVar1)) &&
+        (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription(node,&local_40,method_00),
+        bVar1)) &&
+       ((bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors(node,&local_48,method_01)
+        , bVar1 &&
+        (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadGroups(node,&local_50,method_02),
+        name = local_38, description = local_40, contributors = local_48, groups = local_50, bVar1)))) {
+      __this = il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditCategory);
+      ApplicationManagers_Credits_AottgCreditCategory___ctor
+                (__this,name,description,contributors,groups,in_R9);
+      *category = __this;
+      Il2CppCodeGenWriteBarrier(category);
+      return true;
     }
   }
   return false;
@@ -349,7 +266,9 @@ label_1823648eb:
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryReadGroups
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryReadGroups (SimpleJSONFixed_JSONNode_o* node, ApplicationManagers_Credits_AottgCreditGroup_array** groups, const MethodInfo* method);
-// 0x1823654b0
+// 0x5e23670
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e23808: jmp 0x5e2380d
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryReadGroups
                (SimpleJSONFixed_JSONNode_o *node,ApplicationManagers_Credits_AottgCreditGroup_array **groups,
@@ -357,63 +276,77 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryReadGroups
 
 {
   bool bVar1;
-  char cVar2;
   uint32_t length;
-  int iVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
-  longlong *plVar5;
-  ApplicationManagers_Credits_AottgCreditGroup_array *pAVar6;
-  SimpleJSONFixed_JSONNode_o *node_00;
-  uint uVar7;
+  int iVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
+  SimpleJSONFixed_JSONArray_o *pSVar4;
+  ApplicationManagers_Credits_AottgCreditGroup_array *pAVar5;
+  ulong uVar6;
+  long lVar7;
+  undefined1 auVar8 [16];
   
-  if (Il2CppMethodInitialized_184347a1a == '\0') {
+  if (Il2CppMethodInitialized_075484c9 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array);
     il2cpp_codegen_initialize_runtime_metadata(&"groups");
-    Il2CppMethodInitialized_184347a1a = '\x01';
+    Il2CppMethodInitialized_075484c9 = '\x01';
   }
   *groups = (ApplicationManagers_Credits_AottgCreditGroup_array *)0x0;
-  Il2CppCodeGenWriteBarrier(groups,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(groups);
   if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)"groups");
+    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)
+                      (node,"groups",(node->klass->vtable)._28_HasKey.method);
     if (!bVar1) {
       return false;
     }
-    pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"groups");
-    if (pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      cVar2 = (*((Il2CppClass *)pSVar4->klass)->vtable[16].methodPtr)(pSVar4,*(undefined8 *)&((Il2CppClass *)pSVar4->klass)->vtable[16].method)
-      ;
-      if (cVar2 == '\0') {
+    pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                       (node,"groups",(node->klass->vtable)._7_get_Item.method);
+    if (pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      bVar1 = (*(pSVar3->klass->vtable)._16_get_IsArray.methodPtr)
+                        (pSVar3,(pSVar3->klass->vtable)._16_get_IsArray.method);
+      if (!bVar1) {
         return false;
       }
-      pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"groups");
-      if ((pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) &&
-         (plVar5 = (longlong *)
-                   (*(code *)((Il2CppClass *)pSVar4->klass)->vtable[45].methodPtr)
-                             (pSVar4,((Il2CppClass *)pSVar4->klass)->vtable[45].method),
-         plVar5 != (longlong *)0x0)) {
-        length = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
-        pAVar6 = (ApplicationManagers_Credits_AottgCreditGroup_array *)
+      pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,"groups",(node->klass->vtable)._7_get_Item.method);
+      if ((pSVar3 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+         (pSVar4 = (*(pSVar3->klass->vtable)._45_get_AsArray.methodPtr)
+                             (pSVar3,(pSVar3->klass->vtable)._45_get_AsArray.method),
+         pSVar4 != (SimpleJSONFixed_JSONArray_o *)0x0)) {
+        length = (**(code **)((long)pSVar4->klass + 0x1e8))
+                           (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+        pAVar5 = (ApplicationManagers_Credits_AottgCreditGroup_array *)
                  SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditGroup_array,length);
-        *groups = pAVar6;
-        Il2CppCodeGenWriteBarrier(groups,pAVar6);
-        uVar7 = 0;
+        *groups = pAVar5;
+        Il2CppCodeGenWriteBarrier(groups);
+        iVar2 = (**(code **)((long)pSVar4->klass + 0x1e8))
+                          (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+        if (iVar2 < 1) {
+          return true;
+        }
+        lVar7 = 0x20;
+        uVar6 = 0;
         while( true ) {
-          iVar3 = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
-          if (iVar3 <= (int)uVar7) {
-            return true;
-          }
-          node_00 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar5 + 0x188))(plVar5,uVar7);
-          pAVar6 = *groups;
-          if (pAVar6 == (ApplicationManagers_Credits_AottgCreditGroup_array *)0x0) break;
-          if ((uint)pAVar6->max_length <= uVar7) {
+          auVar8 = (**(code **)((long)pSVar4->klass + 0x188))
+                             (pSVar4,uVar6 & 0xffffffff,*(undefined8 *)((long)pSVar4->klass + 400));
+          pAVar5 = *groups;
+          if (pAVar5 == (ApplicationManagers_Credits_AottgCreditGroup_array *)0x0) break;
+          if ((uint)pAVar5->max_length <= uVar6) {
             ThrowIndexOutOfRangeException();
           }
           bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParseGroup
-                            (node_00,pAVar6->m_Items + (int)uVar7,(MethodInfo *)0x0);
+                            (auVar8._0_8_,
+                             (ApplicationManagers_Credits_AottgCreditGroup_o **)
+                             ((long)pAVar5->m_Items + lVar7 + -0x20),auVar8._8_8_);
           if (!bVar1) {
-            return false;
+            return bVar1;
           }
-          uVar7 = uVar7 + 1;
+          uVar6 = uVar6 + 1;
+          iVar2 = (**(code **)((long)pSVar4->klass + 0x1e8))
+                            (pSVar4,*(undefined8 *)((long)pSVar4->klass + 0x1f0));
+          lVar7 = lVar7 + 8;
+          if ((long)iVar2 <= (long)uVar6) {
+            return bVar1;
+          }
         }
       }
     }
@@ -424,36 +357,39 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryReadGroups
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryParseGroup
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryParseGroup (SimpleJSONFixed_JSONNode_o* node, ApplicationManagers_Credits_AottgCreditGroup_o** group, const MethodInfo* method);
-// 0x182364b60
+// 0x5e23830
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryParseGroup
                (SimpleJSONFixed_JSONNode_o *node,ApplicationManagers_Credits_AottgCreditGroup_o **group,
                MethodInfo *method)
 
 {
-  System_String_o *value;
-  System_String_o *value_00;
+  ApplicationManagers_Credits_AottgCreditContributor_array *contributors;
+  System_String_o *description;
+  System_String_o *title;
   bool bVar1;
   ApplicationManagers_Credits_AottgCreditGroup_o *__this;
-  ApplicationManagers_Credits_AottgCreditContributor_array *array;
-  System_Collections_ObjectModel_ReadOnlyCollection_T__o *value_01;
-  System_String_o *local_res8;
-  System_String_o *local_res10 [2];
-  ApplicationManagers_Credits_AottgCreditContributor_array *local_res20;
+  MethodInfo *in_RCX;
+  MethodInfo *method_00;
+  MethodInfo *method_01;
+  MethodInfo *in_R8;
+  ApplicationManagers_Credits_AottgCreditContributor_array *local_40;
+  System_String_o *local_38;
+  System_String_o *local_30;
   
-  if (Il2CppMethodInitialized_184347a1b == '\0') {
+  if (Il2CppMethodInitialized_075484ca == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditGroup);
     il2cpp_codegen_initialize_runtime_metadata(&"title");
-    Il2CppMethodInitialized_184347a1b = '\x01';
+    Il2CppMethodInitialized_075484ca = '\x01';
   }
-  local_res8 = (System_String_o *)0x0;
-  local_res10[0] = (System_String_o *)0x0;
-  local_res20 = (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0;
+  local_30 = (System_String_o *)0x0;
+  local_38 = (System_String_o *)0x0;
+  local_40 = (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0;
   *group = (ApplicationManagers_Credits_AottgCreditGroup_o *)0x0;
-  Il2CppCodeGenWriteBarrier(group,(void *)0x0);
-  if (Il2CppMethodInitialized_184347a20 == '\0') {
+  Il2CppCodeGenWriteBarrier(group);
+  if (Il2CppMethodInitialized_075484cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a20 = '\x01';
+    Il2CppMethodInitialized_075484cf = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
@@ -461,60 +397,23 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryParseGroup
   bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
   if (bVar1) {
     if (node == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_182364d54:
       ThrowNullReferenceException();
     }
     bVar1 = (*(node->klass->vtable)._17_get_IsObject.methodPtr)
                       (node,(node->klass->vtable)._17_get_IsObject.method);
-    if (bVar1) {
-      bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
-                        (node,"title",&local_res8,(MethodInfo *)0x0);
-      if (bVar1) {
-        bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription
-                          (node,local_res10,(MethodInfo *)0x0);
-        if (bVar1) {
-          bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors
-                            (node,&local_res20,(MethodInfo *)0x0);
-          array = local_res20;
-          value_00 = local_res10[0];
-          value = local_res8;
-          if (bVar1) {
-            __this = il2cpp_codegen_object_new
-                               ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditGroup);
-            if (Il2CppMethodInitialized_184347a10 == '\0') {
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&TypeInfo_ApplicationManagers_Credits_AottgCreditContributor_array);
-              il2cpp_codegen_initialize_runtime_metadata
-                        (&MethodInfo_System_Array_AsReadOnly_AottgCreditContributor);
-              Il2CppMethodInitialized_184347a10 = '\x01';
-            }
-            System_Object___ctor
-                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0)
-            ;
-            (__this->fields)._Title_k__BackingField = value;
-            Il2CppCodeGenWriteBarrier(&(__this->fields)._Title_k__BackingField,value);
-            (__this->fields)._Description_k__BackingField = value_00;
-            Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value_00);
-            if (array == (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0) {
-              array = (ApplicationManagers_Credits_AottgCreditContributor_array *)
-                      SZArrayNew(TypeInfo_ApplicationManagers_Credits_AottgCreditContributor_array,0);
-            }
-            value_01 = System_Array__AsReadOnly_object_
-                                 ((System_Object_array *)array,
-                                  (MethodInfo_68BBD0 *)
-                                  MethodInfo_System_Array_AsReadOnly_AottgCreditContributor);
-            if (__this != (ApplicationManagers_Credits_AottgCreditGroup_o *)0x0) {
-              (__this->fields)._Contributors_k__BackingField =
-                   (System_Collections_Generic_IReadOnlyList_AottgCreditContributor__o *)value_01;
-              Il2CppCodeGenWriteBarrier(&(__this->fields)._Contributors_k__BackingField,value_01);
-              *group = __this;
-              Il2CppCodeGenWriteBarrier(group,__this);
-              return true;
-            }
-            goto label_182364d54;
-          }
-        }
-      }
+    if ((((bVar1) &&
+         (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
+                            (node,"title",&local_30,in_RCX), bVar1)) &&
+        (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription(node,&local_38,method_00),
+        bVar1)) &&
+       (bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors(node,&local_40,method_01),
+       title = local_30, description = local_38, contributors = local_40, bVar1)) {
+      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditGroup)
+      ;
+      ApplicationManagers_Credits_AottgCreditGroup___ctor(__this,title,description,contributors,in_R8);
+      *group = __this;
+      Il2CppCodeGenWriteBarrier(group);
+      return true;
     }
   }
   return false;
@@ -523,29 +422,39 @@ label_182364d54:
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryReadContributors
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors (SimpleJSONFixed_JSONNode_o* node, ApplicationManagers_Credits_AottgCreditContributor_array** contributors, const MethodInfo* method);
-// 0x182365170
-// asm: 1 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1823652ce: nop 
+// 0x5e233e0
+// asm: 10 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e23617: lea rax, [rip + 0x146fd82]  ; MethodInfo_System_Collections_Generic_List_AottgCreditContributor_ToArray
+// asm:   0x5e2361e: mov rsi, qword ptr [rax]
+// asm:   0x5e23621: mov rdi, rbx
+// asm:   0x5e23624: call 0x3a5f5a0  ; System_Collections_Generic_List_object___ToArray()
+// asm:   0x5e23629: mov qword ptr [r14], rax
+// asm:   0x5e2362c: mov rdi, r14
+// asm:   0x5e2362f: mov rsi, rax
+// asm:   0x5e23632: call 0x30d5fb0  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x5e23637: mov bl, 1
+// asm:   0x5e23639: jmp 0x5e23601
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors
                (SimpleJSONFixed_JSONNode_o *node,
                ApplicationManagers_Credits_AottgCreditContributor_array **contributors,MethodInfo *method)
 
 {
-  bool bVar1;
-  char cVar2;
+  int32_t *piVar1;
+  uint uVar2;
+  MethodInfo *pMVar3;
+  bool bVar4;
   int32_t capacity;
-  int iVar3;
-  System_Xml_Schema_XmlSchema_o *pSVar4;
-  longlong *plVar5;
-  System_Collections_Generic_List_AottgCreditContributor__o *__this;
-  SimpleJSONFixed_JSONNode_o *node_00;
-  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
-  *value;
+  int iVar5;
   int iVar6;
-  ApplicationManagers_Credits_AottgCreditContributor_o *local_res8;
+  SimpleJSONFixed_JSONNode_o *pSVar7;
+  SimpleJSONFixed_JSONArray_o *pSVar8;
+  System_Collections_Generic_List_AottgCreditContributor__o *__this;
+  ApplicationManagers_Credits_AottgCreditContributor_array *pAVar9;
+  undefined1 auVar10 [16];
+  ApplicationManagers_Credits_AottgCreditContributor_o *local_38;
   
-  if (Il2CppMethodInitialized_184347a1c == '\0') {
+  if (Il2CppMethodInitialized_075484cb == '\0') {
     il2cpp_codegen_initialize_runtime_metadata
               (&MethodInfo_System_Collections_Generic_List_AottgCreditContributor_Add);
     il2cpp_codegen_initialize_runtime_metadata
@@ -555,227 +464,271 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryReadContributors
     il2cpp_codegen_initialize_runtime_metadata
               (&TypeInfo_System_Collections_Generic_List_AottgCreditContributor);
     il2cpp_codegen_initialize_runtime_metadata(&"contributors");
-    Il2CppMethodInitialized_184347a1c = '\x01';
+    Il2CppMethodInitialized_075484cb = '\x01';
   }
-  iVar6 = 0;
-  local_res8 = (ApplicationManagers_Credits_AottgCreditContributor_o *)0x0;
+  local_38 = (ApplicationManagers_Credits_AottgCreditContributor_o *)0x0;
   *contributors = (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0;
-  Il2CppCodeGenWriteBarrier(contributors,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(contributors);
   if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)"contributors");
-    if (!bVar1) {
+    bVar4 = (*(node->klass->vtable)._28_HasKey.methodPtr)
+                      (node,"contributors",(node->klass->vtable)._28_HasKey.method);
+    if (!bVar4) {
       return false;
     }
-    pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"contributors");
-    if (pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      cVar2 = (*((Il2CppClass *)pSVar4->klass)->vtable[16].methodPtr)(pSVar4,*(undefined8 *)&((Il2CppClass *)pSVar4->klass)->vtable[16].method)
-      ;
-      if (cVar2 == '\0') {
+    pSVar7 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                       (node,"contributors",(node->klass->vtable)._7_get_Item.method);
+    if (pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      bVar4 = (*(pSVar7->klass->vtable)._16_get_IsArray.methodPtr)
+                        (pSVar7,(pSVar7->klass->vtable)._16_get_IsArray.method);
+      if (!bVar4) {
         return false;
       }
-      pSVar4 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"contributors");
-      if ((pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) &&
-         (plVar5 = (longlong *)
-                   (*(code *)((Il2CppClass *)pSVar4->klass)->vtable[45].methodPtr)
-                             (pSVar4,((Il2CppClass *)pSVar4->klass)->vtable[45].method),
-         plVar5 != (longlong *)0x0)) {
-        capacity = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
+      pSVar7 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,"contributors",(node->klass->vtable)._7_get_Item.method);
+      if ((pSVar7 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+         (pSVar8 = (*(pSVar7->klass->vtable)._45_get_AsArray.methodPtr)
+                             (pSVar7,(pSVar7->klass->vtable)._45_get_AsArray.method),
+         pSVar8 != (SimpleJSONFixed_JSONArray_o *)0x0)) {
+        capacity = (**(code **)((long)pSVar8->klass + 0x1e8))
+                             (pSVar8,*(undefined8 *)((long)pSVar8->klass + 0x1f0));
         __this = il2cpp_codegen_object_new
                            ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_AottgCreditContributor);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_List_T__o *)__this,capacity,
-                   (MethodInfo_92A4F0 *)MethodInfo_System_Collections_Generic_List_AottgCreditContributor_ctor
-                  );
-        for (; iVar3 = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0)), iVar6 < iVar3;
-            iVar6 = iVar6 + 1) {
-          node_00 = (SimpleJSONFixed_JSONNode_o *)(**(code **)(*plVar5 + 0x188))(plVar5,iVar6);
-          bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryParseContributor
-                            (node_00,&local_res8,(MethodInfo *)0x0);
-          if (!bVar1) {
+        System_Collections_Generic_List_object____ctor_395c990
+                  ((System_Collections_Generic_List_object__o *)__this,capacity,
+                   (MethodInfo_395C990 *)
+                   MethodInfo_System_Collections_Generic_List_AottgCreditContributor_ctor);
+        iVar5 = (**(code **)((long)pSVar8->klass + 0x1e8))
+                          (pSVar8,*(undefined8 *)((long)pSVar8->klass + 0x1f0));
+        if (iVar5 < 1) {
+          if (__this != (System_Collections_Generic_List_AottgCreditContributor__o *)0x0) goto label_05e23617;
+        }
+        else {
+          if (__this != (System_Collections_Generic_List_AottgCreditContributor__o *)0x0) {
+            iVar5 = 0;
+            do {
+              auVar10 = (**(code **)((long)pSVar8->klass + 0x188))
+                                  (pSVar8,iVar5,*(undefined8 *)((long)pSVar8->klass + 400));
+              bVar4 = ApplicationManagers_Credits_AottgCreditsParser__TryParseContributor
+                                (auVar10._0_8_,&local_38,auVar10._8_8_);
+              pMVar3 = MethodInfo_System_Collections_Generic_List_AottgCreditContributor_Add;
+              if (!bVar4) {
+                return false;
+              }
+              piVar1 = &(__this->fields)._version;
+              *piVar1 = *piVar1 + 1;
+              pAVar9 = (__this->fields)._items;
+              if (pAVar9 == (ApplicationManagers_Credits_AottgCreditContributor_array *)0x0)
+              goto label_05e23661;
+              uVar2 = (__this->fields)._size;
+              if (uVar2 < (uint)pAVar9->max_length) {
+                (__this->fields)._size = uVar2 + 1;
+                pAVar9->m_Items[(int)uVar2] = local_38;
+                Il2CppCodeGenWriteBarrier(pAVar9->m_Items + (int)uVar2);
+              }
+              else {
+                System_Collections_Generic_List_object___AddWithResize
+                          ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)local_38,
+                           (MethodInfo_395D230 *)pMVar3->klass->rgctx_data[0xe].method);
+              }
+              iVar5 = iVar5 + 1;
+              iVar6 = (**(code **)((long)pSVar8->klass + 0x1e8))
+                                (pSVar8,*(undefined8 *)((long)pSVar8->klass + 0x1f0));
+            } while (iVar5 < iVar6);
+label_05e23617:
+            pAVar9 = (ApplicationManagers_Credits_AottgCreditContributor_array *)
+                     System_Collections_Generic_List_object___ToArray
+                               ((System_Collections_Generic_List_object__o *)__this,
+                                (MethodInfo_395F5A0 *)
+                                MethodInfo_System_Collections_Generic_List_AottgCreditContributor_ToArray);
+            *contributors = pAVar9;
+            Il2CppCodeGenWriteBarrier(contributors);
+            return true;
+          }
+          auVar10 = (**(code **)((long)pSVar8->klass + 0x188))
+                              (pSVar8,0,*(undefined8 *)((long)pSVar8->klass + 400));
+          bVar4 = ApplicationManagers_Credits_AottgCreditsParser__TryParseContributor
+                            (auVar10._0_8_,&local_38,auVar10._8_8_);
+          if (!bVar4) {
             return false;
           }
-          if (__this == (System_Collections_Generic_List_AottgCreditContributor__o *)0x0) goto label_18236536b;
-          il2cpp_runtime_helper_180012890(__this,local_res8,
-                        MethodInfo_System_Collections_Generic_List_AottgCreditContributor_Add);
-        }
-        if (__this != (System_Collections_Generic_List_AottgCreditContributor__o *)0x0) {
-          value = System_Collections_Generic_List_object___ToArray
-                            ((System_Collections_Generic_List_T__o *)__this,
-                             (MethodInfo_929FE0 *)
-                             MethodInfo_System_Collections_Generic_List_AottgCreditContributor_ToArray);
-          *contributors = (ApplicationManagers_Credits_AottgCreditContributor_array *)value;
-          Il2CppCodeGenWriteBarrier(contributors,value);
-          return true;
         }
       }
     }
   }
-label_18236536b:
+label_05e23661:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryParseContributor
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryParseContributor (SimpleJSONFixed_JSONNode_o* node, ApplicationManagers_Credits_AottgCreditContributor_o** contributor, const MethodInfo* method);
-// 0x182364900
+// 0x5e239a0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x5e23bc4: jmp 0x5e23bc8
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryParseContributor
                (SimpleJSONFixed_JSONNode_o *node,
                ApplicationManagers_Credits_AottgCreditContributor_o **contributor,MethodInfo *method)
 
 {
-  System_String_o *value;
-  bool bVar1;
-  char cVar2;
-  System_Xml_Schema_XmlSchema_o *pSVar3;
-  System_Xml_Schema_XmlSchemaObject_o *pSVar4;
-  System_String_o *value_00;
+  System_String_o *pSVar1;
+  bool bVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
   ApplicationManagers_Credits_AottgCreditContributor_o *__this;
-  System_String_o *local_res8;
-  System_Guid_Fields local_18;
+  System_String_o *value;
+  MethodInfo *in_RCX;
+  MethodInfo *method_00;
+  System_String_o *local_40;
+  System_Guid_Fields local_38;
   
-  if (Il2CppMethodInitialized_184347a1d == '\0') {
+  if (Il2CppMethodInitialized_075484cc == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditContributor);
     il2cpp_codegen_initialize_runtime_metadata(&"accountId");
     il2cpp_codegen_initialize_runtime_metadata(&"name");
-    Il2CppMethodInitialized_184347a1d = '\x01';
+    Il2CppMethodInitialized_075484cc = '\x01';
   }
-  value_00 = (System_String_o *)0x0;
-  local_res8 = (System_String_o *)0x0;
+  local_40 = (System_String_o *)0x0;
+  local_38._a = 0;
+  local_38._b = 0;
+  local_38._c = 0;
+  local_38._d = 0;
+  local_38._e = 0;
+  local_38._f = 0;
+  local_38._g = 0;
+  local_38._h = 0;
+  local_38._i = 0;
+  local_38._j = 0;
+  local_38._k = 0;
   *contributor = (ApplicationManagers_Credits_AottgCreditContributor_o *)0x0;
-  local_18._a = 0;
-  local_18._b = 0;
-  local_18._c = 0;
-  local_18._d = '\0';
-  local_18._e = '\0';
-  local_18._f = '\0';
-  local_18._g = '\0';
-  local_18._h = '\0';
-  local_18._i = '\0';
-  local_18._j = '\0';
-  local_18._k = '\0';
-  Il2CppCodeGenWriteBarrier(contributor,(void *)0x0);
-  if (Il2CppMethodInitialized_184347a20 == '\0') {
+  Il2CppCodeGenWriteBarrier(contributor);
+  if (Il2CppMethodInitialized_075484cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a20 = '\x01';
+    Il2CppMethodInitialized_075484cf = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
+  bVar2 = SimpleJSONFixed_JSONNode__op_Inequality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (!bVar2) {
     return false;
   }
-  if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(node->klass->vtable)._17_get_IsObject.methodPtr)
-                      (node,(node->klass->vtable)._17_get_IsObject.method);
-    if (!bVar1) {
-      return false;
-    }
-    bVar1 = ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
-                      (node,"name",&local_res8,(MethodInfo *)0x0);
-    if (!bVar1) {
-      return false;
-    }
-    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)"accountId");
-    if (!bVar1) {
-      return false;
-    }
-    pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"accountId");
-    if (pSVar3 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      cVar2 = (*(code *)((Il2CppClass *)pSVar3->klass)->vtable[15].methodPtr)(pSVar3);
-      if (cVar2 == '\0') {
-        pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"accountId");
-        if (pSVar3 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_182364b53;
-        pSVar4 = (*(pSVar3->klass->vtable)._13_Clone.methodPtr)
-                           (pSVar3,(pSVar3->klass->vtable)._13_Clone.method);
-        if ((char)pSVar4 == '\0') {
-          return false;
-        }
-        pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"accountId");
-        value_00 = ApplicationManagers_Credits_AottgCreditsParser__Trimmed
-                             ((SimpleJSONFixed_JSONNode_o *)pSVar3,(MethodInfo *)0x0);
-        bVar1 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
-        if (bVar1) {
-          return false;
-        }
-        bVar1 = System_Guid__TryParse(value_00,(System_Guid_o *)&local_18,(MethodInfo *)0x0);
-        if (!bVar1) {
-          return false;
-        }
-      }
-      value = local_res8;
-      __this = il2cpp_codegen_object_new
-                         ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditContributor);
-      System_Object___ctor
-                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
-      (__this->fields)._Name_k__BackingField = value;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
-      (__this->fields)._AccountId_k__BackingField = value_00;
-      Il2CppCodeGenWriteBarrier(&(__this->fields)._AccountId_k__BackingField,value_00);
-      *contributor = __this;
-      Il2CppCodeGenWriteBarrier(contributor,__this);
-      return true;
-    }
+  if (node == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_05e23bd6:
+    ThrowNullReferenceException();
   }
-label_182364b53:
-  ThrowNullReferenceException();
+  bVar2 = (*(node->klass->vtable)._17_get_IsObject.methodPtr)
+                    (node,(node->klass->vtable)._17_get_IsObject.method);
+  if (((bVar2) &&
+      (bVar2 = ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
+                         (node,"name",&local_40,in_RCX), bVar2)) &&
+     (bVar2 = (*(node->klass->vtable)._28_HasKey.methodPtr)
+                        (node,"accountId",(node->klass->vtable)._28_HasKey.method), bVar2)) {
+    pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                       (node,"accountId",(node->klass->vtable)._7_get_Item.method);
+    if (pSVar3 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e23bd6;
+    bVar2 = (*(pSVar3->klass->vtable)._15_get_IsNull.methodPtr)
+                      (pSVar3,(pSVar3->klass->vtable)._15_get_IsNull.method);
+    if (bVar2) {
+      value = (System_String_o *)0x0;
+    }
+    else {
+      pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,"accountId",(node->klass->vtable)._7_get_Item.method);
+      if (pSVar3 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e23bd6;
+      bVar2 = (*(pSVar3->klass->vtable)._13_get_IsString.methodPtr)
+                        (pSVar3,(pSVar3->klass->vtable)._13_get_IsString.method);
+      if (!bVar2) goto label_05e23bc6;
+      method_00 = (MethodInfo *)"accountId";
+      pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,"accountId",(node->klass->vtable)._7_get_Item.method);
+      value = ApplicationManagers_Credits_AottgCreditsParser__Trimmed(pSVar3,method_00);
+      bVar2 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+      if (bVar2) {
+        return false;
+      }
+      bVar2 = System_Guid__TryParse(value,(System_Guid_o *)&local_38,(MethodInfo *)0x0);
+      if (!bVar2) {
+        return false;
+      }
+    }
+    pSVar1 = local_40;
+    __this = il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditContributor);
+    System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+    (__this->fields)._Name_k__BackingField = pSVar1;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField);
+    (__this->fields)._AccountId_k__BackingField = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._AccountId_k__BackingField);
+    *contributor = __this;
+    Il2CppCodeGenWriteBarrier(contributor);
+    bVar2 = true;
+  }
+  else {
+label_05e23bc6:
+    bVar2 = false;
+  }
+  return bVar2;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryReadDescription
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription (SimpleJSONFixed_JSONNode_o* node, System_String_o** description, const MethodInfo* method);
-// 0x182365380
+// 0x5e232c0
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryReadDescription
                (SimpleJSONFixed_JSONNode_o *node,System_String_o **description,MethodInfo *method)
 
 {
   bool bVar1;
-  char cVar2;
-  System_Xml_Schema_XmlSchema_o *pSVar3;
-  System_Xml_Schema_XmlSchemaObject_o *pSVar4;
-  System_String_o *value;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  System_String_o *pSVar3;
+  MethodInfo *method_00;
   
-  if (Il2CppMethodInitialized_184347a1e == '\0') {
+  if (Il2CppMethodInitialized_075484cd == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"description");
-    Il2CppMethodInitialized_184347a1e = '\x01';
+    Il2CppMethodInitialized_075484cd = '\x01';
   }
   *description = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(description,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(description);
   if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)"description");
+    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)
+                      (node,"description",(node->klass->vtable)._28_HasKey.method);
     if (!bVar1) {
       return false;
     }
-    pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"description");
-    if (pSVar3 != (System_Xml_Schema_XmlSchema_o *)0x0) {
-      cVar2 = (*(code *)((Il2CppClass *)pSVar3->klass)->vtable[15].methodPtr)(pSVar3,((Il2CppClass *)pSVar3->klass)->vtable[15].method);
-      if (cVar2 == '\0') {
-        pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"description");
-        if (pSVar3 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_1823654a6;
-        pSVar4 = (*(pSVar3->klass->vtable)._13_Clone.methodPtr)
-                           (pSVar3,(pSVar3->klass->vtable)._13_Clone.method);
-        if ((char)pSVar4 == '\0') {
-          return false;
-        }
-        pSVar3 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)"description");
-        value = ApplicationManagers_Credits_AottgCreditsParser__Trimmed
-                          ((SimpleJSONFixed_JSONNode_o *)pSVar3,(MethodInfo *)0x0);
-        *description = value;
-        Il2CppCodeGenWriteBarrier(description,value);
+    pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                       (node,"description",(node->klass->vtable)._7_get_Item.method);
+    if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      bVar1 = (*(pSVar2->klass->vtable)._15_get_IsNull.methodPtr)
+                        (pSVar2,(pSVar2->klass->vtable)._15_get_IsNull.method);
+      if (bVar1) {
+        return true;
       }
-      return true;
+      pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,"description",(node->klass->vtable)._7_get_Item.method);
+      if (pSVar2 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        bVar1 = (*(pSVar2->klass->vtable)._13_get_IsString.methodPtr)
+                          (pSVar2,(pSVar2->klass->vtable)._13_get_IsString.method);
+        if (bVar1) {
+          method_00 = (MethodInfo *)"description";
+          pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                             (node,"description",(node->klass->vtable)._7_get_Item.method);
+          pSVar3 = ApplicationManagers_Credits_AottgCreditsParser__Trimmed(pSVar2,method_00);
+          *description = pSVar3;
+          Il2CppCodeGenWriteBarrier(description);
+          return true;
+        }
+        return false;
+      }
     }
   }
-label_1823654a6:
   ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$TryReadRequiredString
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString (SimpleJSONFixed_JSONNode_o* node, System_String_o* key, System_String_o** value, const MethodInfo* method);
-// 0x182365680
+// 0x5e23200
 
 bool ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
                (SimpleJSONFixed_JSONNode_o *node,System_String_o *key,System_String_o **value,
@@ -783,39 +736,39 @@ bool ApplicationManagers_Credits_AottgCreditsParser__TryReadRequiredString
 
 {
   bool bVar1;
-  System_Xml_Schema_XmlSchema_o *pSVar2;
-  System_Xml_Schema_XmlSchemaObject_o *pSVar3;
-  System_String_o *value_00;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
+  System_String_o *pSVar3;
   
   *value = (System_String_o *)0x0;
-  Il2CppCodeGenWriteBarrier(value,(void *)0x0);
-  if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,(MethodInfo *)key);
-    if (bVar1) {
-      pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)key);
-      if (pSVar2 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18236575b;
-      pSVar3 = (*(pSVar2->klass->vtable)._13_Clone.methodPtr)(pSVar2,(pSVar2->klass->vtable)._13_Clone.method)
-      ;
-      if ((char)pSVar3 != '\0') {
-        pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)key);
-        value_00 = ApplicationManagers_Credits_AottgCreditsParser__Trimmed
-                             ((SimpleJSONFixed_JSONNode_o *)pSVar2,(MethodInfo *)0x0);
-        *value = value_00;
-        Il2CppCodeGenWriteBarrier(value,value_00);
-        bVar1 = System_String__IsNullOrEmpty(*value,(MethodInfo *)0x0);
-        return !bVar1;
-      }
-    }
-    return false;
+  Il2CppCodeGenWriteBarrier(value);
+  if (node == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_05e232ba:
+    ThrowNullReferenceException();
   }
-label_18236575b:
-  ThrowNullReferenceException();
+  bVar1 = (*(node->klass->vtable)._28_HasKey.methodPtr)(node,key,(node->klass->vtable)._28_HasKey.method);
+  if (bVar1) {
+    pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,key,(node->klass->vtable)._7_get_Item.method)
+    ;
+    if (pSVar2 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_05e232ba;
+    bVar1 = (*(pSVar2->klass->vtable)._13_get_IsString.methodPtr)
+                      (pSVar2,(pSVar2->klass->vtable)._13_get_IsString.method);
+    if (bVar1) {
+      pSVar2 = (*(node->klass->vtable)._7_get_Item.methodPtr)
+                         (node,key,(node->klass->vtable)._7_get_Item.method);
+      pSVar3 = ApplicationManagers_Credits_AottgCreditsParser__Trimmed(pSVar2,(MethodInfo *)key);
+      *value = pSVar3;
+      Il2CppCodeGenWriteBarrier(value);
+      bVar1 = System_String__IsNullOrEmpty(*value,(MethodInfo *)0x0);
+      return !bVar1;
+    }
+  }
+  return false;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$Trimmed
 // il2cpp: System_String_o* ApplicationManagers_Credits_AottgCreditsParser__Trimmed (SimpleJSONFixed_JSONNode_o* node, const MethodInfo* method);
-// 0x182364470
+// 0x5e23be0
 
 System_String_o *
 ApplicationManagers_Credits_AottgCreditsParser__Trimmed(SimpleJSONFixed_JSONNode_o *node,MethodInfo *method)
@@ -824,9 +777,9 @@ ApplicationManagers_Credits_AottgCreditsParser__Trimmed(SimpleJSONFixed_JSONNode
   bool bVar1;
   System_String_o *pSVar2;
   
-  if (Il2CppMethodInitialized_184347a1f == '\0') {
+  if (Il2CppMethodInitialized_075484ce == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a1f = '\x01';
+    Il2CppMethodInitialized_075484ce = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
@@ -853,7 +806,7 @@ ApplicationManagers_Credits_AottgCreditsParser__Trimmed(SimpleJSONFixed_JSONNode
 
 // ApplicationManagers.Credits.AottgCreditsParser$$IsObject
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__IsObject (SimpleJSONFixed_JSONNode_o* node, const MethodInfo* method);
-// 0x1823643f0
+// 0x5e22ff0
 
 bool ApplicationManagers_Credits_AottgCreditsParser__IsObject
                (SimpleJSONFixed_JSONNode_o *node,MethodInfo *method)
@@ -861,43 +814,43 @@ bool ApplicationManagers_Credits_AottgCreditsParser__IsObject
 {
   bool bVar1;
   
-  if (Il2CppMethodInitialized_184347a20 == '\0') {
+  if (Il2CppMethodInitialized_075484cf == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
-    Il2CppMethodInitialized_184347a20 = '\x01';
+    Il2CppMethodInitialized_075484cf = '\x01';
   }
   if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
     il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
   bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if (!bVar1) {
-    return false;
-  }
-  if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
+  if (bVar1) {
+    if (node == (SimpleJSONFixed_JSONNode_o *)0x0) {
+      ThrowNullReferenceException();
+    }
     bVar1 = (*(node->klass->vtable)._17_get_IsObject.methodPtr)
                       (node,(node->klass->vtable)._17_get_IsObject.method);
     return bVar1;
   }
-  ThrowNullReferenceException();
+  return false;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsParser$$Fail
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsParser__Fail (ApplicationManagers_Credits_AottgCreditsResponse_o** credits, System_String_o** error, const MethodInfo* method);
-// 0x182364380
+// 0x5e22cb0
 
 bool ApplicationManagers_Credits_AottgCreditsParser__Fail
                (ApplicationManagers_Credits_AottgCreditsResponse_o **credits,System_String_o **error,
                MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_184347a21 == '\0') {
+  if (Il2CppMethodInitialized_075484d0 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&"bad_response");
-    Il2CppMethodInitialized_184347a21 = '\x01';
+    Il2CppMethodInitialized_075484d0 = '\x01';
   }
   *credits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  Il2CppCodeGenWriteBarrier(credits,(void *)0x0);
+  Il2CppCodeGenWriteBarrier(credits);
   *error = "bad_response";
-  Il2CppCodeGenWriteBarrier(error,"bad_response");
+  Il2CppCodeGenWriteBarrier(error);
   return false;
 }
 

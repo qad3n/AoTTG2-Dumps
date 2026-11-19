@@ -9,36 +9,25 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000826")]
+[Token(Token = "0x20008A4")]
 internal class MapEditorErrorPopup : ExportPopup
 {
-	[Token(Token = "0x17000E7E")]
+	[Token(Token = "0x17000E7F")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004EB1")]
-		[Address(RVA = "0x22AD450", Offset = "0x22ABA50", VA = "0x1822AD450", Slot = "35")]
+		[Token(Token = "0x600524E")]
+		[Address(RVA = "0x5C71790", Offset = "0x5C70790", VA = "0x5C71790", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000E7F")]
+	[Token(Token = "0x17000E80")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004EB2")]
-		[Address(RVA = "0x210FB90", Offset = "0x210E190", VA = "0x18210FB90", Slot = "5")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000E80")]
-	protected override float Height
-	{
-		[Token(Token = "0x6004EB3")]
-		[Address(RVA = "0x21D8200", Offset = "0x21D6800", VA = "0x1821D8200", Slot = "6")]
+		[Token(Token = "0x600524F")]
+		[Address(RVA = "0x5C71830", Offset = "0x5C70830", VA = "0x5C71830", Slot = "5")]
 		get
 		{
 			return default(float);
@@ -46,29 +35,40 @@ internal class MapEditorErrorPopup : ExportPopup
 	}
 
 	[Token(Token = "0x17000E81")]
-	protected override int VerticalPadding
+	protected override float Height
 	{
-		[Token(Token = "0x6004EB4")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
+		[Token(Token = "0x6005250")]
+		[Address(RVA = "0x5C71840", Offset = "0x5C70840", VA = "0x5C71840", Slot = "6")]
 		get
 		{
-			return default(int);
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000E82")]
-	protected override int HorizontalPadding
+	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004EB5")]
-		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "10")]
+		[Token(Token = "0x6005251")]
+		[Address(RVA = "0x5C71850", Offset = "0x5C70850", VA = "0x5C71850", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6004EB6")]
-	[Address(RVA = "0x22AD440", Offset = "0x22ABA40", VA = "0x1822AD440")]
+	[Token(Token = "0x17000E83")]
+	protected override int HorizontalPadding
+	{
+		[Token(Token = "0x6005252")]
+		[Address(RVA = "0x5C71860", Offset = "0x5C70860", VA = "0x5C71860", Slot = "10")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x6005253")]
+	[Address(RVA = "0x5C71870", Offset = "0x5C70870", VA = "0x5C71870")]
 	public MapEditorErrorPopup()
 	{
 	}

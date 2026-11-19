@@ -9,108 +9,108 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004DA")]
+[Token(Token = "0x20004B3")]
 internal static class Unsafe
 {
-	[Token(Token = "0x60023A4")]
+	[Token(Token = "0x6002372")]
 	public unsafe static ref T Add<T>(ref T source, int elementOffset)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60023A5")]
+	[Token(Token = "0x6002373")]
 	public unsafe static ref T Add<T>(ref T source, IntPtr elementOffset)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60023A6")]
+	[Token(Token = "0x6002374")]
 	public unsafe static void* Add<T>(void* source, int elementOffset)
 	{
 		//IL_0002: Expected I, but got O
 		return (void*)unchecked((nint)null);
 	}
 
-	[Token(Token = "0x60023A7")]
+	[Token(Token = "0x6002375")]
 	public unsafe static ref T AddByteOffset<T>(ref T source, IntPtr byteOffset)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60023A8")]
+	[Token(Token = "0x6002376")]
 	public static bool AreSame<T>(ref T left, ref T right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60023A9")]
+	[Token(Token = "0x6002377")]
 	public static T As<T>(object o) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AA")]
+	[Token(Token = "0x6002378")]
 	public unsafe static ref TTo As<TFrom, TTo>(ref TFrom source)
 	{
 		return ref *(TTo*)null;
 	}
 
-	[Token(Token = "0x60023AB")]
+	[Token(Token = "0x6002379")]
 	public unsafe static void* AsPointer<T>(ref T value)
 	{
 		//IL_0002: Expected I, but got O
 		return (void*)unchecked((nint)null);
 	}
 
-	[Token(Token = "0x60023AC")]
+	[Token(Token = "0x600237A")]
 	public unsafe static ref T AsRef<T>(void* source)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60023AD")]
+	[Token(Token = "0x600237B")]
 	public unsafe static ref T AsRef<T>(in T source)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60023AE")]
-	[Address(RVA = "0x1A58C70", Offset = "0x1A57270", VA = "0x181A58C70")]
+	[Token(Token = "0x600237C")]
+	[Address(RVA = "0x53CBCB0", Offset = "0x53CACB0", VA = "0x53CBCB0")]
 	public static void InitBlockUnaligned(ref byte startAddress, byte value, uint byteCount)
 	{
 	}
 
-	[Token(Token = "0x60023AF")]
+	[Token(Token = "0x600237D")]
 	public unsafe static T Read<T>(void* source)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60023B0")]
+	[Token(Token = "0x600237E")]
 	public static T ReadUnaligned<T>(ref byte source)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60023B1")]
+	[Token(Token = "0x600237F")]
 	public static int SizeOf<T>()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023B2")]
+	[Token(Token = "0x6002380")]
 	public static void WriteUnaligned<T>(ref byte destination, T value)
 	{
 	}
 
-	[Token(Token = "0x60023B3")]
+	[Token(Token = "0x6002381")]
 	public static bool IsAddressLessThan<T>(ref T left, ref T right)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60023B4")]
+	[Token(Token = "0x6002382")]
 	internal unsafe static ref T AddByteOffset<T>(ref T source, ulong byteOffset)
 	{
 		return ref *(T*)null;

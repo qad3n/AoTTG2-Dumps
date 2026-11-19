@@ -40,7 +40,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 		public double w;
 
 		[Token(Token = "0x6000FCD")]
-		[Address(RVA = "0x2A657A0", Offset = "0x2A63DA0", VA = "0x182A657A0")]
+		[Address(RVA = "0x64381A0", Offset = "0x64371A0", VA = "0x64381A0")]
 		public DebuggerProxy(double4 v)
 		{
 		}
@@ -72,7 +72,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3A")]
-		[Address(RVA = "0x2A54190", Offset = "0x2A52790", VA = "0x182A54190")]
+		[Address(RVA = "0x64348D0", Offset = "0x64338D0", VA = "0x64348D0")]
 		get
 		{
 			return default(double4);
@@ -85,7 +85,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3B")]
-		[Address(RVA = "0x2A541B0", Offset = "0x2A527B0", VA = "0x182A541B0")]
+		[Address(RVA = "0x64348F0", Offset = "0x64338F0", VA = "0x64348F0")]
 		get
 		{
 			return default(double4);
@@ -98,7 +98,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3C")]
-		[Address(RVA = "0x2A59F60", Offset = "0x2A58560", VA = "0x182A59F60")]
+		[Address(RVA = "0x6434910", Offset = "0x6433910", VA = "0x6434910")]
 		get
 		{
 			return default(double4);
@@ -111,7 +111,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3D")]
-		[Address(RVA = "0x2A67000", Offset = "0x2A65600", VA = "0x182A67000")]
+		[Address(RVA = "0x6434930", Offset = "0x6433930", VA = "0x6434930")]
 		get
 		{
 			return default(double4);
@@ -124,7 +124,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3E")]
-		[Address(RVA = "0x2A541F0", Offset = "0x2A527F0", VA = "0x182A541F0")]
+		[Address(RVA = "0x6434950", Offset = "0x6433950", VA = "0x6434950")]
 		get
 		{
 			return default(double4);
@@ -137,7 +137,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E3F")]
-		[Address(RVA = "0x2A54210", Offset = "0x2A52810", VA = "0x182A54210")]
+		[Address(RVA = "0x6434970", Offset = "0x6433970", VA = "0x6434970")]
 		get
 		{
 			return default(double4);
@@ -150,7 +150,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E40")]
-		[Address(RVA = "0x2A59F80", Offset = "0x2A58580", VA = "0x182A59F80")]
+		[Address(RVA = "0x6434990", Offset = "0x6433990", VA = "0x6434990")]
 		get
 		{
 			return default(double4);
@@ -163,7 +163,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E41")]
-		[Address(RVA = "0x2A67020", Offset = "0x2A65620", VA = "0x182A67020")]
+		[Address(RVA = "0x64349B0", Offset = "0x64339B0", VA = "0x64349B0")]
 		get
 		{
 			return default(double4);
@@ -176,7 +176,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E42")]
-		[Address(RVA = "0x2A59FC0", Offset = "0x2A585C0", VA = "0x182A59FC0")]
+		[Address(RVA = "0x64349D0", Offset = "0x64339D0", VA = "0x64349D0")]
 		get
 		{
 			return default(double4);
@@ -189,7 +189,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E43")]
-		[Address(RVA = "0x2A59FE0", Offset = "0x2A585E0", VA = "0x182A59FE0")]
+		[Address(RVA = "0x64349F0", Offset = "0x64339F0", VA = "0x64349F0")]
 		get
 		{
 			return default(double4);
@@ -202,7 +202,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E44")]
-		[Address(RVA = "0x2984F70", Offset = "0x2983570", VA = "0x182984F70")]
+		[Address(RVA = "0x6434A10", Offset = "0x6433A10", VA = "0x6434A10")]
 		get
 		{
 			return default(double4);
@@ -215,7 +215,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E45")]
-		[Address(RVA = "0x2A67040", Offset = "0x2A65640", VA = "0x182A67040")]
+		[Address(RVA = "0x6434A30", Offset = "0x6433A30", VA = "0x6434A30")]
 		get
 		{
 			return default(double4);
@@ -228,7 +228,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E46")]
-		[Address(RVA = "0x2A66FA0", Offset = "0x2A655A0", VA = "0x182A66FA0")]
+		[Address(RVA = "0x6434A50", Offset = "0x6433A50", VA = "0x6434A50")]
 		get
 		{
 			return default(double4);
@@ -241,7 +241,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E47")]
-		[Address(RVA = "0x2A66FC0", Offset = "0x2A655C0", VA = "0x182A66FC0")]
+		[Address(RVA = "0x6434A70", Offset = "0x6433A70", VA = "0x6434A70")]
 		get
 		{
 			return default(double4);
@@ -254,7 +254,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E48")]
-		[Address(RVA = "0x2A66FE0", Offset = "0x2A655E0", VA = "0x182A66FE0")]
+		[Address(RVA = "0x6434AA0", Offset = "0x6433AA0", VA = "0x6434AA0")]
 		get
 		{
 			return default(double4);
@@ -267,7 +267,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E49")]
-		[Address(RVA = "0x2A66F80", Offset = "0x2A65580", VA = "0x182A66F80")]
+		[Address(RVA = "0x6434AC0", Offset = "0x6433AC0", VA = "0x6434AC0")]
 		get
 		{
 			return default(double4);
@@ -280,7 +280,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4A")]
-		[Address(RVA = "0x2A54250", Offset = "0x2A52850", VA = "0x182A54250")]
+		[Address(RVA = "0x6434AE0", Offset = "0x6433AE0", VA = "0x6434AE0")]
 		get
 		{
 			return default(double4);
@@ -293,7 +293,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4B")]
-		[Address(RVA = "0x2A54270", Offset = "0x2A52870", VA = "0x182A54270")]
+		[Address(RVA = "0x6434B00", Offset = "0x6433B00", VA = "0x6434B00")]
 		get
 		{
 			return default(double4);
@@ -306,7 +306,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4C")]
-		[Address(RVA = "0x2A5A000", Offset = "0x2A58600", VA = "0x182A5A000")]
+		[Address(RVA = "0x6434B10", Offset = "0x6433B10", VA = "0x6434B10")]
 		get
 		{
 			return default(double4);
@@ -319,7 +319,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4D")]
-		[Address(RVA = "0x2A67130", Offset = "0x2A65730", VA = "0x182A67130")]
+		[Address(RVA = "0x6434B30", Offset = "0x6433B30", VA = "0x6434B30")]
 		get
 		{
 			return default(double4);
@@ -332,7 +332,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4E")]
-		[Address(RVA = "0x2A542C0", Offset = "0x2A528C0", VA = "0x182A542C0")]
+		[Address(RVA = "0x6434B50", Offset = "0x6433B50", VA = "0x6434B50")]
 		get
 		{
 			return default(double4);
@@ -345,7 +345,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E4F")]
-		[Address(RVA = "0x2A542E0", Offset = "0x2A528E0", VA = "0x182A542E0")]
+		[Address(RVA = "0x6434B70", Offset = "0x6433B70", VA = "0x6434B70")]
 		get
 		{
 			return default(double4);
@@ -358,7 +358,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E50")]
-		[Address(RVA = "0x2A5A030", Offset = "0x2A58630", VA = "0x182A5A030")]
+		[Address(RVA = "0x6434B90", Offset = "0x6433B90", VA = "0x6434B90")]
 		get
 		{
 			return default(double4);
@@ -371,7 +371,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E51")]
-		[Address(RVA = "0x2A67160", Offset = "0x2A65760", VA = "0x182A67160")]
+		[Address(RVA = "0x6434BB0", Offset = "0x6433BB0", VA = "0x6434BB0")]
 		get
 		{
 			return default(double4);
@@ -384,7 +384,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E52")]
-		[Address(RVA = "0x2A5A050", Offset = "0x2A58650", VA = "0x182A5A050")]
+		[Address(RVA = "0x6434BD0", Offset = "0x6433BD0", VA = "0x6434BD0")]
 		get
 		{
 			return default(double4);
@@ -397,7 +397,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E53")]
-		[Address(RVA = "0x2A5A080", Offset = "0x2A58680", VA = "0x182A5A080")]
+		[Address(RVA = "0x6434BF0", Offset = "0x6433BF0", VA = "0x6434BF0")]
 		get
 		{
 			return default(double4);
@@ -410,7 +410,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E54")]
-		[Address(RVA = "0x2A5A0B0", Offset = "0x2A586B0", VA = "0x182A5A0B0")]
+		[Address(RVA = "0x6434C10", Offset = "0x6433C10", VA = "0x6434C10")]
 		get
 		{
 			return default(double4);
@@ -423,14 +423,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E55")]
-		[Address(RVA = "0x29DA4C0", Offset = "0x29D8AC0", VA = "0x1829DA4C0")]
+		[Address(RVA = "0x6434C30", Offset = "0x6433C30", VA = "0x6434C30")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E56")]
-		[Address(RVA = "0x2A65CD0", Offset = "0x2A642D0", VA = "0x182A65CD0")]
+		[Address(RVA = "0x6434C50", Offset = "0x6433C50", VA = "0x6434C50")]
 		set
 		{
 		}
@@ -442,7 +442,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E57")]
-		[Address(RVA = "0x2A670A0", Offset = "0x2A656A0", VA = "0x182A670A0")]
+		[Address(RVA = "0x6434C70", Offset = "0x6433C70", VA = "0x6434C70")]
 		get
 		{
 			return default(double4);
@@ -455,7 +455,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E58")]
-		[Address(RVA = "0x2A670D0", Offset = "0x2A656D0", VA = "0x182A670D0")]
+		[Address(RVA = "0x6434C90", Offset = "0x6433C90", VA = "0x6434C90")]
 		get
 		{
 			return default(double4);
@@ -468,14 +468,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E59")]
-		[Address(RVA = "0x2A67100", Offset = "0x2A65700", VA = "0x182A67100")]
+		[Address(RVA = "0x6434CB0", Offset = "0x6433CB0", VA = "0x6434CB0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5A")]
-		[Address(RVA = "0x2A68930", Offset = "0x2A66F30", VA = "0x182A68930")]
+		[Address(RVA = "0x6434CD0", Offset = "0x6433CD0", VA = "0x6434CD0")]
 		set
 		{
 		}
@@ -487,7 +487,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5B")]
-		[Address(RVA = "0x2A67080", Offset = "0x2A65680", VA = "0x182A67080")]
+		[Address(RVA = "0x6434CF0", Offset = "0x6433CF0", VA = "0x6434CF0")]
 		get
 		{
 			return default(double4);
@@ -500,7 +500,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5C")]
-		[Address(RVA = "0x2A5A110", Offset = "0x2A58710", VA = "0x182A5A110")]
+		[Address(RVA = "0x6434D10", Offset = "0x6433D10", VA = "0x6434D10")]
 		get
 		{
 			return default(double4);
@@ -513,7 +513,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5D")]
-		[Address(RVA = "0x2A5A130", Offset = "0x2A58730", VA = "0x182A5A130")]
+		[Address(RVA = "0x6434D30", Offset = "0x6433D30", VA = "0x6434D30")]
 		get
 		{
 			return default(double4);
@@ -526,7 +526,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5E")]
-		[Address(RVA = "0x2A5A160", Offset = "0x2A58760", VA = "0x182A5A160")]
+		[Address(RVA = "0x6434D50", Offset = "0x6433D50", VA = "0x6434D50")]
 		get
 		{
 			return default(double4);
@@ -539,7 +539,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E5F")]
-		[Address(RVA = "0x2A67250", Offset = "0x2A65850", VA = "0x182A67250")]
+		[Address(RVA = "0x6434D70", Offset = "0x6433D70", VA = "0x6434D70")]
 		get
 		{
 			return default(double4);
@@ -552,7 +552,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E60")]
-		[Address(RVA = "0x2A5A1B0", Offset = "0x2A587B0", VA = "0x182A5A1B0")]
+		[Address(RVA = "0x6434DA0", Offset = "0x6433DA0", VA = "0x6434DA0")]
 		get
 		{
 			return default(double4);
@@ -565,7 +565,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E61")]
-		[Address(RVA = "0x2A5A1E0", Offset = "0x2A587E0", VA = "0x182A5A1E0")]
+		[Address(RVA = "0x6434DC0", Offset = "0x6433DC0", VA = "0x6434DC0")]
 		get
 		{
 			return default(double4);
@@ -578,7 +578,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E62")]
-		[Address(RVA = "0x2A5A200", Offset = "0x2A58800", VA = "0x182A5A200")]
+		[Address(RVA = "0x6434DE0", Offset = "0x6433DE0", VA = "0x6434DE0")]
 		get
 		{
 			return default(double4);
@@ -591,14 +591,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E63")]
-		[Address(RVA = "0x2A67280", Offset = "0x2A65880", VA = "0x182A67280")]
+		[Address(RVA = "0x6434E00", Offset = "0x6433E00", VA = "0x6434E00")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E64")]
-		[Address(RVA = "0x2A68990", Offset = "0x2A66F90", VA = "0x182A68990")]
+		[Address(RVA = "0x6434E30", Offset = "0x6433E30", VA = "0x6434E30")]
 		set
 		{
 		}
@@ -610,7 +610,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E65")]
-		[Address(RVA = "0x2A5A250", Offset = "0x2A58850", VA = "0x182A5A250")]
+		[Address(RVA = "0x6434E60", Offset = "0x6433E60", VA = "0x6434E60")]
 		get
 		{
 			return default(double4);
@@ -623,7 +623,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E66")]
-		[Address(RVA = "0x2A5A270", Offset = "0x2A58870", VA = "0x182A5A270")]
+		[Address(RVA = "0x6434E80", Offset = "0x6433E80", VA = "0x6434E80")]
 		get
 		{
 			return default(double4);
@@ -636,7 +636,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E67")]
-		[Address(RVA = "0x2A5A290", Offset = "0x2A58890", VA = "0x182A5A290")]
+		[Address(RVA = "0x6434EB0", Offset = "0x6433EB0", VA = "0x6434EB0")]
 		get
 		{
 			return default(double4);
@@ -649,7 +649,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E68")]
-		[Address(RVA = "0x2A672B0", Offset = "0x2A658B0", VA = "0x182A672B0")]
+		[Address(RVA = "0x6434ED0", Offset = "0x6433ED0", VA = "0x6434ED0")]
 		get
 		{
 			return default(double4);
@@ -662,7 +662,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E69")]
-		[Address(RVA = "0x2A671C0", Offset = "0x2A657C0", VA = "0x182A671C0")]
+		[Address(RVA = "0x6434EF0", Offset = "0x6433EF0", VA = "0x6434EF0")]
 		get
 		{
 			return default(double4);
@@ -675,14 +675,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6A")]
-		[Address(RVA = "0x2A671F0", Offset = "0x2A657F0", VA = "0x182A671F0")]
+		[Address(RVA = "0x6434F10", Offset = "0x6433F10", VA = "0x6434F10")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6B")]
-		[Address(RVA = "0x2A68970", Offset = "0x2A66F70", VA = "0x182A68970")]
+		[Address(RVA = "0x6434F30", Offset = "0x6433F30", VA = "0x6434F30")]
 		set
 		{
 		}
@@ -694,7 +694,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6C")]
-		[Address(RVA = "0x2A67220", Offset = "0x2A65820", VA = "0x182A67220")]
+		[Address(RVA = "0x6434F50", Offset = "0x6433F50", VA = "0x6434F50")]
 		get
 		{
 			return default(double4);
@@ -707,7 +707,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6D")]
-		[Address(RVA = "0x2A671A0", Offset = "0x2A657A0", VA = "0x182A671A0")]
+		[Address(RVA = "0x6434F70", Offset = "0x6433F70", VA = "0x6434F70")]
 		get
 		{
 			return default(double4);
@@ -720,7 +720,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6E")]
-		[Address(RVA = "0x2A66D40", Offset = "0x2A65340", VA = "0x182A66D40")]
+		[Address(RVA = "0x6434F90", Offset = "0x6433F90", VA = "0x6434F90")]
 		get
 		{
 			return default(double4);
@@ -733,7 +733,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E6F")]
-		[Address(RVA = "0x2A66D60", Offset = "0x2A65360", VA = "0x182A66D60")]
+		[Address(RVA = "0x6434FB0", Offset = "0x6433FB0", VA = "0x6434FB0")]
 		get
 		{
 			return default(double4);
@@ -746,7 +746,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E70")]
-		[Address(RVA = "0x2A66D90", Offset = "0x2A65390", VA = "0x182A66D90")]
+		[Address(RVA = "0x6434FD0", Offset = "0x6433FD0", VA = "0x6434FD0")]
 		get
 		{
 			return default(double4);
@@ -759,7 +759,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E71")]
-		[Address(RVA = "0x2A66D10", Offset = "0x2A65310", VA = "0x182A66D10")]
+		[Address(RVA = "0x6435000", Offset = "0x6434000", VA = "0x6435000")]
 		get
 		{
 			return default(double4);
@@ -772,7 +772,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E72")]
-		[Address(RVA = "0x2A66E10", Offset = "0x2A65410", VA = "0x182A66E10")]
+		[Address(RVA = "0x6435020", Offset = "0x6434020", VA = "0x6435020")]
 		get
 		{
 			return default(double4);
@@ -785,7 +785,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E73")]
-		[Address(RVA = "0x2A66E40", Offset = "0x2A65440", VA = "0x182A66E40")]
+		[Address(RVA = "0x6435040", Offset = "0x6434040", VA = "0x6435040")]
 		get
 		{
 			return default(double4);
@@ -798,14 +798,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E74")]
-		[Address(RVA = "0x2A66E60", Offset = "0x2A65460", VA = "0x182A66E60")]
+		[Address(RVA = "0x6435070", Offset = "0x6434070", VA = "0x6435070")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E75")]
-		[Address(RVA = "0x2A688B0", Offset = "0x2A66EB0", VA = "0x182A688B0")]
+		[Address(RVA = "0x6435090", Offset = "0x6434090", VA = "0x6435090")]
 		set
 		{
 		}
@@ -817,7 +817,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E76")]
-		[Address(RVA = "0x2A66DE0", Offset = "0x2A653E0", VA = "0x182A66DE0")]
+		[Address(RVA = "0x64350B0", Offset = "0x64340B0", VA = "0x64350B0")]
 		get
 		{
 			return default(double4);
@@ -830,7 +830,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E77")]
-		[Address(RVA = "0x2A66EE0", Offset = "0x2A654E0", VA = "0x182A66EE0")]
+		[Address(RVA = "0x64350E0", Offset = "0x64340E0", VA = "0x64350E0")]
 		get
 		{
 			return default(double4);
@@ -843,14 +843,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E78")]
-		[Address(RVA = "0x2A66F10", Offset = "0x2A65510", VA = "0x182A66F10")]
+		[Address(RVA = "0x6435100", Offset = "0x6434100", VA = "0x6435100")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E79")]
-		[Address(RVA = "0x2A688F0", Offset = "0x2A66EF0", VA = "0x182A688F0")]
+		[Address(RVA = "0x6435130", Offset = "0x6434130", VA = "0x6435130")]
 		set
 		{
 		}
@@ -862,7 +862,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7A")]
-		[Address(RVA = "0x2A66F40", Offset = "0x2A65540", VA = "0x182A66F40")]
+		[Address(RVA = "0x6435160", Offset = "0x6434160", VA = "0x6435160")]
 		get
 		{
 			return default(double4);
@@ -875,7 +875,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7B")]
-		[Address(RVA = "0x2A66EB0", Offset = "0x2A654B0", VA = "0x182A66EB0")]
+		[Address(RVA = "0x6435180", Offset = "0x6434180", VA = "0x6435180")]
 		get
 		{
 			return default(double4);
@@ -888,7 +888,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7C")]
-		[Address(RVA = "0x2A66C90", Offset = "0x2A65290", VA = "0x182A66C90")]
+		[Address(RVA = "0x64351A0", Offset = "0x64341A0", VA = "0x64351A0")]
 		get
 		{
 			return default(double4);
@@ -901,7 +901,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7D")]
-		[Address(RVA = "0x2A66CB0", Offset = "0x2A652B0", VA = "0x182A66CB0")]
+		[Address(RVA = "0x64351C0", Offset = "0x64341C0", VA = "0x64351C0")]
 		get
 		{
 			return default(double4);
@@ -914,7 +914,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7E")]
-		[Address(RVA = "0x2A66CD0", Offset = "0x2A652D0", VA = "0x182A66CD0")]
+		[Address(RVA = "0x64351F0", Offset = "0x64341F0", VA = "0x64351F0")]
 		get
 		{
 			return default(double4);
@@ -927,7 +927,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E7F")]
-		[Address(RVA = "0x2A66C70", Offset = "0x2A65270", VA = "0x182A66C70")]
+		[Address(RVA = "0x6435220", Offset = "0x6434220", VA = "0x6435220")]
 		get
 		{
 			return default(double4);
@@ -940,7 +940,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E80")]
-		[Address(RVA = "0x2A54340", Offset = "0x2A52940", VA = "0x182A54340")]
+		[Address(RVA = "0x6435240", Offset = "0x6434240", VA = "0x6435240")]
 		get
 		{
 			return default(double4);
@@ -953,7 +953,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E81")]
-		[Address(RVA = "0x2A54360", Offset = "0x2A52960", VA = "0x182A54360")]
+		[Address(RVA = "0x6435260", Offset = "0x6434260", VA = "0x6435260")]
 		get
 		{
 			return default(double4);
@@ -966,7 +966,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E82")]
-		[Address(RVA = "0x2A5A2B0", Offset = "0x2A588B0", VA = "0x182A5A2B0")]
+		[Address(RVA = "0x6435280", Offset = "0x6434280", VA = "0x6435280")]
 		get
 		{
 			return default(double4);
@@ -979,7 +979,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E83")]
-		[Address(RVA = "0x2A676D0", Offset = "0x2A65CD0", VA = "0x182A676D0")]
+		[Address(RVA = "0x64352A0", Offset = "0x64342A0", VA = "0x64352A0")]
 		get
 		{
 			return default(double4);
@@ -992,7 +992,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E84")]
-		[Address(RVA = "0x2A543A0", Offset = "0x2A529A0", VA = "0x182A543A0")]
+		[Address(RVA = "0x64352C0", Offset = "0x64342C0", VA = "0x64352C0")]
 		get
 		{
 			return default(double4);
@@ -1005,7 +1005,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E85")]
-		[Address(RVA = "0x2A543D0", Offset = "0x2A529D0", VA = "0x182A543D0")]
+		[Address(RVA = "0x64352E0", Offset = "0x64342E0", VA = "0x64352E0")]
 		get
 		{
 			return default(double4);
@@ -1018,7 +1018,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E86")]
-		[Address(RVA = "0x2A5A2D0", Offset = "0x2A588D0", VA = "0x182A5A2D0")]
+		[Address(RVA = "0x6435300", Offset = "0x6434300", VA = "0x6435300")]
 		get
 		{
 			return default(double4);
@@ -1031,7 +1031,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E87")]
-		[Address(RVA = "0x2A676F0", Offset = "0x2A65CF0", VA = "0x182A676F0")]
+		[Address(RVA = "0x6435320", Offset = "0x6434320", VA = "0x6435320")]
 		get
 		{
 			return default(double4);
@@ -1044,7 +1044,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E88")]
-		[Address(RVA = "0x2A5A320", Offset = "0x2A58920", VA = "0x182A5A320")]
+		[Address(RVA = "0x6435340", Offset = "0x6434340", VA = "0x6435340")]
 		get
 		{
 			return default(double4);
@@ -1057,7 +1057,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E89")]
-		[Address(RVA = "0x2A5A350", Offset = "0x2A58950", VA = "0x182A5A350")]
+		[Address(RVA = "0x6435360", Offset = "0x6434360", VA = "0x6435360")]
 		get
 		{
 			return default(double4);
@@ -1070,7 +1070,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8A")]
-		[Address(RVA = "0x2A5A380", Offset = "0x2A58980", VA = "0x182A5A380")]
+		[Address(RVA = "0x6435380", Offset = "0x6434380", VA = "0x6435380")]
 		get
 		{
 			return default(double4);
@@ -1083,14 +1083,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8B")]
-		[Address(RVA = "0x2A67720", Offset = "0x2A65D20", VA = "0x182A67720")]
+		[Address(RVA = "0x64353A0", Offset = "0x64343A0", VA = "0x64353A0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8C")]
-		[Address(RVA = "0x2A68A80", Offset = "0x2A67080", VA = "0x182A68A80")]
+		[Address(RVA = "0x64353C0", Offset = "0x64343C0", VA = "0x64353C0")]
 		set
 		{
 		}
@@ -1102,7 +1102,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8D")]
-		[Address(RVA = "0x2A67640", Offset = "0x2A65C40", VA = "0x182A67640")]
+		[Address(RVA = "0x64353E0", Offset = "0x64343E0", VA = "0x64353E0")]
 		get
 		{
 			return default(double4);
@@ -1115,7 +1115,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8E")]
-		[Address(RVA = "0x2A67670", Offset = "0x2A65C70", VA = "0x182A67670")]
+		[Address(RVA = "0x6435400", Offset = "0x6434400", VA = "0x6435400")]
 		get
 		{
 			return default(double4);
@@ -1128,14 +1128,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E8F")]
-		[Address(RVA = "0x2A676A0", Offset = "0x2A65CA0", VA = "0x182A676A0")]
+		[Address(RVA = "0x6435430", Offset = "0x6434430", VA = "0x6435430")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E90")]
-		[Address(RVA = "0x2A68A60", Offset = "0x2A67060", VA = "0x182A68A60")]
+		[Address(RVA = "0x6435450", Offset = "0x6434450", VA = "0x6435450")]
 		set
 		{
 		}
@@ -1147,7 +1147,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E91")]
-		[Address(RVA = "0x2A67620", Offset = "0x2A65C20", VA = "0x182A67620")]
+		[Address(RVA = "0x6435470", Offset = "0x6434470", VA = "0x6435470")]
 		get
 		{
 			return default(double4);
@@ -1160,7 +1160,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E92")]
-		[Address(RVA = "0x2A54420", Offset = "0x2A52A20", VA = "0x182A54420")]
+		[Address(RVA = "0x6435490", Offset = "0x6434490", VA = "0x6435490")]
 		get
 		{
 			return default(double4);
@@ -1173,7 +1173,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E93")]
-		[Address(RVA = "0x2A54440", Offset = "0x2A52A40", VA = "0x182A54440")]
+		[Address(RVA = "0x64354B0", Offset = "0x64344B0", VA = "0x64354B0")]
 		get
 		{
 			return default(double4);
@@ -1186,7 +1186,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E94")]
-		[Address(RVA = "0x2A5A3A0", Offset = "0x2A589A0", VA = "0x182A5A3A0")]
+		[Address(RVA = "0x64354D0", Offset = "0x64344D0", VA = "0x64354D0")]
 		get
 		{
 			return default(double4);
@@ -1199,7 +1199,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E95")]
-		[Address(RVA = "0x2A677F0", Offset = "0x2A65DF0", VA = "0x182A677F0")]
+		[Address(RVA = "0x6435500", Offset = "0x6434500", VA = "0x6435500")]
 		get
 		{
 			return default(double4);
@@ -1212,7 +1212,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E96")]
-		[Address(RVA = "0x2A54480", Offset = "0x2A52A80", VA = "0x182A54480")]
+		[Address(RVA = "0x6435530", Offset = "0x6434530", VA = "0x6435530")]
 		get
 		{
 			return default(double4);
@@ -1225,7 +1225,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E97")]
-		[Address(RVA = "0x2A544A0", Offset = "0x2A52AA0", VA = "0x182A544A0")]
+		[Address(RVA = "0x6435550", Offset = "0x6434550", VA = "0x6435550")]
 		get
 		{
 			return default(double4);
@@ -1238,7 +1238,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E98")]
-		[Address(RVA = "0x2A5A3C0", Offset = "0x2A589C0", VA = "0x182A5A3C0")]
+		[Address(RVA = "0x6435570", Offset = "0x6434570", VA = "0x6435570")]
 		get
 		{
 			return default(double4);
@@ -1251,7 +1251,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E99")]
-		[Address(RVA = "0x2A67810", Offset = "0x2A65E10", VA = "0x182A67810")]
+		[Address(RVA = "0x6435590", Offset = "0x6434590", VA = "0x6435590")]
 		get
 		{
 			return default(double4);
@@ -1264,7 +1264,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9A")]
-		[Address(RVA = "0x2A5A400", Offset = "0x2A58A00", VA = "0x182A5A400")]
+		[Address(RVA = "0x64355C0", Offset = "0x64345C0", VA = "0x64355C0")]
 		get
 		{
 			return default(double4);
@@ -1277,7 +1277,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9B")]
-		[Address(RVA = "0x2A5A420", Offset = "0x2A58A20", VA = "0x182A5A420")]
+		[Address(RVA = "0x64355E0", Offset = "0x64345E0", VA = "0x64355E0")]
 		get
 		{
 			return default(double4);
@@ -1290,7 +1290,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9C")]
-		[Address(RVA = "0x2A5A440", Offset = "0x2A58A40", VA = "0x182A5A440")]
+		[Address(RVA = "0x6435600", Offset = "0x6434600", VA = "0x6435600")]
 		get
 		{
 			return default(double4);
@@ -1303,7 +1303,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9D")]
-		[Address(RVA = "0x2A67830", Offset = "0x2A65E30", VA = "0x182A67830")]
+		[Address(RVA = "0x6435620", Offset = "0x6434620", VA = "0x6435620")]
 		get
 		{
 			return default(double4);
@@ -1316,7 +1316,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9E")]
-		[Address(RVA = "0x2A67790", Offset = "0x2A65D90", VA = "0x182A67790")]
+		[Address(RVA = "0x6435640", Offset = "0x6434640", VA = "0x6435640")]
 		get
 		{
 			return default(double4);
@@ -1329,7 +1329,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000E9F")]
-		[Address(RVA = "0x2A677B0", Offset = "0x2A65DB0", VA = "0x182A677B0")]
+		[Address(RVA = "0x6435670", Offset = "0x6434670", VA = "0x6435670")]
 		get
 		{
 			return default(double4);
@@ -1342,7 +1342,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA0")]
-		[Address(RVA = "0x2A677D0", Offset = "0x2A65DD0", VA = "0x182A677D0")]
+		[Address(RVA = "0x64356A0", Offset = "0x64346A0", VA = "0x64356A0")]
 		get
 		{
 			return default(double4);
@@ -1355,7 +1355,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA1")]
-		[Address(RVA = "0x2A67770", Offset = "0x2A65D70", VA = "0x182A67770")]
+		[Address(RVA = "0x64356C0", Offset = "0x64346C0", VA = "0x64356C0")]
 		get
 		{
 			return default(double4);
@@ -1368,7 +1368,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA2")]
-		[Address(RVA = "0x2A5A4A0", Offset = "0x2A58AA0", VA = "0x182A5A4A0")]
+		[Address(RVA = "0x64356F0", Offset = "0x64346F0", VA = "0x64356F0")]
 		get
 		{
 			return default(double4);
@@ -1381,7 +1381,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA3")]
-		[Address(RVA = "0x2A5A4C0", Offset = "0x2A58AC0", VA = "0x182A5A4C0")]
+		[Address(RVA = "0x6435710", Offset = "0x6434710", VA = "0x6435710")]
 		get
 		{
 			return default(double4);
@@ -1394,7 +1394,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA4")]
-		[Address(RVA = "0x2A5A4F0", Offset = "0x2A58AF0", VA = "0x182A5A4F0")]
+		[Address(RVA = "0x6435730", Offset = "0x6434730", VA = "0x6435730")]
 		get
 		{
 			return default(double4);
@@ -1407,14 +1407,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA5")]
-		[Address(RVA = "0x2A67920", Offset = "0x2A65F20", VA = "0x182A67920")]
+		[Address(RVA = "0x6435750", Offset = "0x6434750", VA = "0x6435750")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA6")]
-		[Address(RVA = "0x2A68AE0", Offset = "0x2A670E0", VA = "0x182A68AE0")]
+		[Address(RVA = "0x6435770", Offset = "0x6434770", VA = "0x6435770")]
 		set
 		{
 		}
@@ -1426,7 +1426,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA7")]
-		[Address(RVA = "0x2A5A540", Offset = "0x2A58B40", VA = "0x182A5A540")]
+		[Address(RVA = "0x6435790", Offset = "0x6434790", VA = "0x6435790")]
 		get
 		{
 			return default(double4);
@@ -1439,7 +1439,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA8")]
-		[Address(RVA = "0x2A5A570", Offset = "0x2A58B70", VA = "0x182A5A570")]
+		[Address(RVA = "0x64357B0", Offset = "0x64347B0", VA = "0x64357B0")]
 		get
 		{
 			return default(double4);
@@ -1452,7 +1452,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x2A5A590", Offset = "0x2A58B90", VA = "0x182A5A590")]
+		[Address(RVA = "0x64357D0", Offset = "0x64347D0", VA = "0x64357D0")]
 		get
 		{
 			return default(double4);
@@ -1465,7 +1465,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAA")]
-		[Address(RVA = "0x2A67950", Offset = "0x2A65F50", VA = "0x182A67950")]
+		[Address(RVA = "0x64357E0", Offset = "0x64347E0", VA = "0x64357E0")]
 		get
 		{
 			return default(double4);
@@ -1478,7 +1478,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x2A5A5E0", Offset = "0x2A58BE0", VA = "0x182A5A5E0")]
+		[Address(RVA = "0x6435800", Offset = "0x6434800", VA = "0x6435800")]
 		get
 		{
 			return default(double4);
@@ -1491,7 +1491,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x2A5A600", Offset = "0x2A58C00", VA = "0x182A5A600")]
+		[Address(RVA = "0x6435820", Offset = "0x6434820", VA = "0x6435820")]
 		get
 		{
 			return default(double4);
@@ -1504,7 +1504,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x2A5A620", Offset = "0x2A58C20", VA = "0x182A5A620")]
+		[Address(RVA = "0x6435840", Offset = "0x6434840", VA = "0x6435840")]
 		get
 		{
 			return default(double4);
@@ -1517,7 +1517,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x2A67980", Offset = "0x2A65F80", VA = "0x182A67980")]
+		[Address(RVA = "0x6435860", Offset = "0x6434860", VA = "0x6435860")]
 		get
 		{
 			return default(double4);
@@ -1530,14 +1530,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x2A67890", Offset = "0x2A65E90", VA = "0x182A67890")]
+		[Address(RVA = "0x6435880", Offset = "0x6434880", VA = "0x6435880")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB0")]
-		[Address(RVA = "0x2A68AC0", Offset = "0x2A670C0", VA = "0x182A68AC0")]
+		[Address(RVA = "0x64358A0", Offset = "0x64348A0", VA = "0x64358A0")]
 		set
 		{
 		}
@@ -1549,7 +1549,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB1")]
-		[Address(RVA = "0x2A678C0", Offset = "0x2A65EC0", VA = "0x182A678C0")]
+		[Address(RVA = "0x64358C0", Offset = "0x64348C0", VA = "0x64358C0")]
 		get
 		{
 			return default(double4);
@@ -1562,7 +1562,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB2")]
-		[Address(RVA = "0x2A678F0", Offset = "0x2A65EF0", VA = "0x182A678F0")]
+		[Address(RVA = "0x64358E0", Offset = "0x64348E0", VA = "0x64358E0")]
 		get
 		{
 			return default(double4);
@@ -1575,7 +1575,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB3")]
-		[Address(RVA = "0x2A67870", Offset = "0x2A65E70", VA = "0x182A67870")]
+		[Address(RVA = "0x6435900", Offset = "0x6434900", VA = "0x6435900")]
 		get
 		{
 			return default(double4);
@@ -1588,7 +1588,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB4")]
-		[Address(RVA = "0x2A673E0", Offset = "0x2A659E0", VA = "0x182A673E0")]
+		[Address(RVA = "0x6435920", Offset = "0x6434920", VA = "0x6435920")]
 		get
 		{
 			return default(double4);
@@ -1601,7 +1601,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB5")]
-		[Address(RVA = "0x2A67400", Offset = "0x2A65A00", VA = "0x182A67400")]
+		[Address(RVA = "0x6435950", Offset = "0x6434950", VA = "0x6435950")]
 		get
 		{
 			return default(double4);
@@ -1614,14 +1614,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB6")]
-		[Address(RVA = "0x2A67430", Offset = "0x2A65A30", VA = "0x182A67430")]
+		[Address(RVA = "0x6435970", Offset = "0x6434970", VA = "0x6435970")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB7")]
-		[Address(RVA = "0x2A689E0", Offset = "0x2A66FE0", VA = "0x182A689E0")]
+		[Address(RVA = "0x64359A0", Offset = "0x64349A0", VA = "0x64359A0")]
 		set
 		{
 		}
@@ -1633,7 +1633,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB8")]
-		[Address(RVA = "0x2A673B0", Offset = "0x2A659B0", VA = "0x182A673B0")]
+		[Address(RVA = "0x64359D0", Offset = "0x64349D0", VA = "0x64359D0")]
 		get
 		{
 			return default(double4);
@@ -1646,7 +1646,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x2A674B0", Offset = "0x2A65AB0", VA = "0x182A674B0")]
+		[Address(RVA = "0x6435A00", Offset = "0x6434A00", VA = "0x6435A00")]
 		get
 		{
 			return default(double4);
@@ -1659,7 +1659,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x2A674E0", Offset = "0x2A65AE0", VA = "0x182A674E0")]
+		[Address(RVA = "0x6435A30", Offset = "0x6434A30", VA = "0x6435A30")]
 		get
 		{
 			return default(double4);
@@ -1672,7 +1672,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBB")]
-		[Address(RVA = "0x2A67500", Offset = "0x2A65B00", VA = "0x182A67500")]
+		[Address(RVA = "0x6435A60", Offset = "0x6434A60", VA = "0x6435A60")]
 		get
 		{
 			return default(double4);
@@ -1685,7 +1685,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBC")]
-		[Address(RVA = "0x2A67480", Offset = "0x2A65A80", VA = "0x182A67480")]
+		[Address(RVA = "0x6435A80", Offset = "0x6434A80", VA = "0x6435A80")]
 		get
 		{
 			return default(double4);
@@ -1698,14 +1698,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBD")]
-		[Address(RVA = "0x2A67580", Offset = "0x2A65B80", VA = "0x182A67580")]
+		[Address(RVA = "0x6435AB0", Offset = "0x6434AB0", VA = "0x6435AB0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBE")]
-		[Address(RVA = "0x2A68A20", Offset = "0x2A67020", VA = "0x182A68A20")]
+		[Address(RVA = "0x6435AE0", Offset = "0x6434AE0", VA = "0x6435AE0")]
 		set
 		{
 		}
@@ -1717,7 +1717,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EBF")]
-		[Address(RVA = "0x2A675B0", Offset = "0x2A65BB0", VA = "0x182A675B0")]
+		[Address(RVA = "0x6435B10", Offset = "0x6434B10", VA = "0x6435B10")]
 		get
 		{
 			return default(double4);
@@ -1730,7 +1730,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC0")]
-		[Address(RVA = "0x2A675E0", Offset = "0x2A65BE0", VA = "0x182A675E0")]
+		[Address(RVA = "0x6435B30", Offset = "0x6434B30", VA = "0x6435B30")]
 		get
 		{
 			return default(double4);
@@ -1743,7 +1743,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC1")]
-		[Address(RVA = "0x2A67550", Offset = "0x2A65B50", VA = "0x182A67550")]
+		[Address(RVA = "0x6435B50", Offset = "0x6434B50", VA = "0x6435B50")]
 		get
 		{
 			return default(double4);
@@ -1756,7 +1756,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC2")]
-		[Address(RVA = "0x2A67330", Offset = "0x2A65930", VA = "0x182A67330")]
+		[Address(RVA = "0x6435B70", Offset = "0x6434B70", VA = "0x6435B70")]
 		get
 		{
 			return default(double4);
@@ -1769,7 +1769,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC3")]
-		[Address(RVA = "0x2A67350", Offset = "0x2A65950", VA = "0x182A67350")]
+		[Address(RVA = "0x6435BA0", Offset = "0x6434BA0", VA = "0x6435BA0")]
 		get
 		{
 			return default(double4);
@@ -1782,7 +1782,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC4")]
-		[Address(RVA = "0x2A67370", Offset = "0x2A65970", VA = "0x182A67370")]
+		[Address(RVA = "0x6435BD0", Offset = "0x6434BD0", VA = "0x6435BD0")]
 		get
 		{
 			return default(double4);
@@ -1795,7 +1795,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC5")]
-		[Address(RVA = "0x2A67310", Offset = "0x2A65910", VA = "0x182A67310")]
+		[Address(RVA = "0x6435C00", Offset = "0x6434C00", VA = "0x6435C00")]
 		get
 		{
 			return default(double4);
@@ -1808,7 +1808,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC6")]
-		[Address(RVA = "0x2A5A680", Offset = "0x2A58C80", VA = "0x182A5A680")]
+		[Address(RVA = "0x6435C30", Offset = "0x6434C30", VA = "0x6435C30")]
 		get
 		{
 			return default(double4);
@@ -1821,7 +1821,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC7")]
-		[Address(RVA = "0x2A5A6A0", Offset = "0x2A58CA0", VA = "0x182A5A6A0")]
+		[Address(RVA = "0x6435C50", Offset = "0x6434C50", VA = "0x6435C50")]
 		get
 		{
 			return default(double4);
@@ -1834,7 +1834,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC8")]
-		[Address(RVA = "0x2A5A6C0", Offset = "0x2A58CC0", VA = "0x182A5A6C0")]
+		[Address(RVA = "0x6435C70", Offset = "0x6434C70", VA = "0x6435C70")]
 		get
 		{
 			return default(double4);
@@ -1847,7 +1847,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x2A67DA0", Offset = "0x2A663A0", VA = "0x182A67DA0")]
+		[Address(RVA = "0x6435C90", Offset = "0x6434C90", VA = "0x6435C90")]
 		get
 		{
 			return default(double4);
@@ -1860,7 +1860,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECA")]
-		[Address(RVA = "0x2A5A700", Offset = "0x2A58D00", VA = "0x182A5A700")]
+		[Address(RVA = "0x6435CC0", Offset = "0x6434CC0", VA = "0x6435CC0")]
 		get
 		{
 			return default(double4);
@@ -1873,7 +1873,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECB")]
-		[Address(RVA = "0x2A5A730", Offset = "0x2A58D30", VA = "0x182A5A730")]
+		[Address(RVA = "0x6435CE0", Offset = "0x6434CE0", VA = "0x6435CE0")]
 		get
 		{
 			return default(double4);
@@ -1886,7 +1886,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECC")]
-		[Address(RVA = "0x2A5A750", Offset = "0x2A58D50", VA = "0x182A5A750")]
+		[Address(RVA = "0x6435D00", Offset = "0x6434D00", VA = "0x6435D00")]
 		get
 		{
 			return default(double4);
@@ -1899,14 +1899,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0x2A67DC0", Offset = "0x2A663C0", VA = "0x182A67DC0")]
+		[Address(RVA = "0x6435D20", Offset = "0x6434D20", VA = "0x6435D20")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECE")]
-		[Address(RVA = "0x2A68BD0", Offset = "0x2A671D0", VA = "0x182A68BD0")]
+		[Address(RVA = "0x6435D40", Offset = "0x6434D40", VA = "0x6435D40")]
 		set
 		{
 		}
@@ -1918,7 +1918,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ECF")]
-		[Address(RVA = "0x2A5A7A0", Offset = "0x2A58DA0", VA = "0x182A5A7A0")]
+		[Address(RVA = "0x6435D60", Offset = "0x6434D60", VA = "0x6435D60")]
 		get
 		{
 			return default(double4);
@@ -1931,7 +1931,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x2A5A7D0", Offset = "0x2A58DD0", VA = "0x182A5A7D0")]
+		[Address(RVA = "0x6435D80", Offset = "0x6434D80", VA = "0x6435D80")]
 		get
 		{
 			return default(double4);
@@ -1944,7 +1944,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED1")]
-		[Address(RVA = "0x2A5A800", Offset = "0x2A58E00", VA = "0x182A5A800")]
+		[Address(RVA = "0x6435DB0", Offset = "0x6434DB0", VA = "0x6435DB0")]
 		get
 		{
 			return default(double4);
@@ -1957,7 +1957,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED2")]
-		[Address(RVA = "0x2A67DF0", Offset = "0x2A663F0", VA = "0x182A67DF0")]
+		[Address(RVA = "0x6435DD0", Offset = "0x6434DD0", VA = "0x6435DD0")]
 		get
 		{
 			return default(double4);
@@ -1970,7 +1970,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED3")]
-		[Address(RVA = "0x2A67D10", Offset = "0x2A66310", VA = "0x182A67D10")]
+		[Address(RVA = "0x6435DF0", Offset = "0x6434DF0", VA = "0x6435DF0")]
 		get
 		{
 			return default(double4);
@@ -1983,14 +1983,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED4")]
-		[Address(RVA = "0x2A67D40", Offset = "0x2A66340", VA = "0x182A67D40")]
+		[Address(RVA = "0x6435E20", Offset = "0x6434E20", VA = "0x6435E20")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED5")]
-		[Address(RVA = "0x2A68BB0", Offset = "0x2A671B0", VA = "0x182A68BB0")]
+		[Address(RVA = "0x6435E50", Offset = "0x6434E50", VA = "0x6435E50")]
 		set
 		{
 		}
@@ -2002,7 +2002,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED6")]
-		[Address(RVA = "0x2A67D70", Offset = "0x2A66370", VA = "0x182A67D70")]
+		[Address(RVA = "0x6435E80", Offset = "0x6434E80", VA = "0x6435E80")]
 		get
 		{
 			return default(double4);
@@ -2015,7 +2015,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED7")]
-		[Address(RVA = "0x2A67CF0", Offset = "0x2A662F0", VA = "0x182A67CF0")]
+		[Address(RVA = "0x6435EA0", Offset = "0x6434EA0", VA = "0x6435EA0")]
 		get
 		{
 			return default(double4);
@@ -2028,7 +2028,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED8")]
-		[Address(RVA = "0x2A5A860", Offset = "0x2A58E60", VA = "0x182A5A860")]
+		[Address(RVA = "0x6435ED0", Offset = "0x6434ED0", VA = "0x6435ED0")]
 		get
 		{
 			return default(double4);
@@ -2041,7 +2041,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000ED9")]
-		[Address(RVA = "0x2A5A880", Offset = "0x2A58E80", VA = "0x182A5A880")]
+		[Address(RVA = "0x6435EF0", Offset = "0x6434EF0", VA = "0x6435EF0")]
 		get
 		{
 			return default(double4);
@@ -2054,7 +2054,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDA")]
-		[Address(RVA = "0x2A5A8B0", Offset = "0x2A58EB0", VA = "0x182A5A8B0")]
+		[Address(RVA = "0x6435F10", Offset = "0x6434F10", VA = "0x6435F10")]
 		get
 		{
 			return default(double4);
@@ -2067,14 +2067,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDB")]
-		[Address(RVA = "0x2A67EF0", Offset = "0x2A664F0", VA = "0x182A67EF0")]
+		[Address(RVA = "0x6435F30", Offset = "0x6434F30", VA = "0x6435F30")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDC")]
-		[Address(RVA = "0x2A68C30", Offset = "0x2A67230", VA = "0x182A68C30")]
+		[Address(RVA = "0x6435F60", Offset = "0x6434F60", VA = "0x6435F60")]
 		set
 		{
 		}
@@ -2086,7 +2086,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDD")]
-		[Address(RVA = "0x2A5A900", Offset = "0x2A58F00", VA = "0x182A5A900")]
+		[Address(RVA = "0x6435F90", Offset = "0x6434F90", VA = "0x6435F90")]
 		get
 		{
 			return default(double4);
@@ -2099,7 +2099,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDE")]
-		[Address(RVA = "0x2A5A920", Offset = "0x2A58F20", VA = "0x182A5A920")]
+		[Address(RVA = "0x6435FB0", Offset = "0x6434FB0", VA = "0x6435FB0")]
 		get
 		{
 			return default(double4);
@@ -2112,7 +2112,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EDF")]
-		[Address(RVA = "0x2A5A940", Offset = "0x2A58F40", VA = "0x182A5A940")]
+		[Address(RVA = "0x6435FD0", Offset = "0x6434FD0", VA = "0x6435FD0")]
 		get
 		{
 			return default(double4);
@@ -2125,7 +2125,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE0")]
-		[Address(RVA = "0x2A67F20", Offset = "0x2A66520", VA = "0x182A67F20")]
+		[Address(RVA = "0x6435FF0", Offset = "0x6434FF0", VA = "0x6435FF0")]
 		get
 		{
 			return default(double4);
@@ -2138,7 +2138,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE1")]
-		[Address(RVA = "0x2A5A980", Offset = "0x2A58F80", VA = "0x182A5A980")]
+		[Address(RVA = "0x6436010", Offset = "0x6435010", VA = "0x6436010")]
 		get
 		{
 			return default(double4);
@@ -2151,7 +2151,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE2")]
-		[Address(RVA = "0x2A5A9B0", Offset = "0x2A58FB0", VA = "0x182A5A9B0")]
+		[Address(RVA = "0x6436030", Offset = "0x6435030", VA = "0x6436030")]
 		get
 		{
 			return default(double4);
@@ -2164,7 +2164,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE3")]
-		[Address(RVA = "0x2A5A9E0", Offset = "0x2A58FE0", VA = "0x182A5A9E0")]
+		[Address(RVA = "0x6436050", Offset = "0x6435050", VA = "0x6436050")]
 		get
 		{
 			return default(double4);
@@ -2177,7 +2177,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE4")]
-		[Address(RVA = "0x2A67F40", Offset = "0x2A66540", VA = "0x182A67F40")]
+		[Address(RVA = "0x6436070", Offset = "0x6435070", VA = "0x6436070")]
 		get
 		{
 			return default(double4);
@@ -2190,14 +2190,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE5")]
-		[Address(RVA = "0x2A67E60", Offset = "0x2A66460", VA = "0x182A67E60")]
+		[Address(RVA = "0x6436090", Offset = "0x6435090", VA = "0x6436090")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE6")]
-		[Address(RVA = "0x2A68C10", Offset = "0x2A67210", VA = "0x182A68C10")]
+		[Address(RVA = "0x64360C0", Offset = "0x64350C0", VA = "0x64360C0")]
 		set
 		{
 		}
@@ -2209,7 +2209,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE7")]
-		[Address(RVA = "0x2A67E90", Offset = "0x2A66490", VA = "0x182A67E90")]
+		[Address(RVA = "0x64360F0", Offset = "0x64350F0", VA = "0x64360F0")]
 		get
 		{
 			return default(double4);
@@ -2222,7 +2222,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE8")]
-		[Address(RVA = "0x2A67EC0", Offset = "0x2A664C0", VA = "0x182A67EC0")]
+		[Address(RVA = "0x6436110", Offset = "0x6435110", VA = "0x6436110")]
 		get
 		{
 			return default(double4);
@@ -2235,7 +2235,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EE9")]
-		[Address(RVA = "0x2A67E40", Offset = "0x2A66440", VA = "0x182A67E40")]
+		[Address(RVA = "0x6436130", Offset = "0x6435130", VA = "0x6436130")]
 		get
 		{
 			return default(double4);
@@ -2248,7 +2248,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EEA")]
-		[Address(RVA = "0x2A5AA30", Offset = "0x2A59030", VA = "0x182A5AA30")]
+		[Address(RVA = "0x6436150", Offset = "0x6435150", VA = "0x6436150")]
 		get
 		{
 			return default(double4);
@@ -2261,7 +2261,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EEB")]
-		[Address(RVA = "0x2A5AA50", Offset = "0x2A59050", VA = "0x182A5AA50")]
+		[Address(RVA = "0x6436170", Offset = "0x6435170", VA = "0x6436170")]
 		get
 		{
 			return default(double4);
@@ -2274,7 +2274,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EEC")]
-		[Address(RVA = "0x2A5AA70", Offset = "0x2A59070", VA = "0x182A5AA70")]
+		[Address(RVA = "0x6436190", Offset = "0x6435190", VA = "0x6436190")]
 		get
 		{
 			return default(double4);
@@ -2287,7 +2287,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EED")]
-		[Address(RVA = "0x2A68010", Offset = "0x2A66610", VA = "0x182A68010")]
+		[Address(RVA = "0x64361B0", Offset = "0x64351B0", VA = "0x64361B0")]
 		get
 		{
 			return default(double4);
@@ -2300,7 +2300,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EEE")]
-		[Address(RVA = "0x2A5AAB0", Offset = "0x2A590B0", VA = "0x182A5AAB0")]
+		[Address(RVA = "0x64361E0", Offset = "0x64351E0", VA = "0x64361E0")]
 		get
 		{
 			return default(double4);
@@ -2313,7 +2313,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EEF")]
-		[Address(RVA = "0x2A5AAD0", Offset = "0x2A590D0", VA = "0x182A5AAD0")]
+		[Address(RVA = "0x6436200", Offset = "0x6435200", VA = "0x6436200")]
 		get
 		{
 			return default(double4);
@@ -2326,7 +2326,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF0")]
-		[Address(RVA = "0x2A5AAF0", Offset = "0x2A590F0", VA = "0x182A5AAF0")]
+		[Address(RVA = "0x6436230", Offset = "0x6435230", VA = "0x6436230")]
 		get
 		{
 			return default(double4);
@@ -2339,7 +2339,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF1")]
-		[Address(RVA = "0x2A68030", Offset = "0x2A66630", VA = "0x182A68030")]
+		[Address(RVA = "0x6436250", Offset = "0x6435250", VA = "0x6436250")]
 		get
 		{
 			return default(double4);
@@ -2352,7 +2352,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF2")]
-		[Address(RVA = "0x2A5AB30", Offset = "0x2A59130", VA = "0x182A5AB30")]
+		[Address(RVA = "0x6436280", Offset = "0x6435280", VA = "0x6436280")]
 		get
 		{
 			return default(double4);
@@ -2365,7 +2365,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF3")]
-		[Address(RVA = "0x2A5AB50", Offset = "0x2A59150", VA = "0x182A5AB50")]
+		[Address(RVA = "0x64362A0", Offset = "0x64352A0", VA = "0x64362A0")]
 		get
 		{
 			return default(double4);
@@ -2378,7 +2378,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF4")]
-		[Address(RVA = "0x2A5AB70", Offset = "0x2A59170", VA = "0x182A5AB70")]
+		[Address(RVA = "0x64362D0", Offset = "0x64352D0", VA = "0x64362D0")]
 		get
 		{
 			return default(double4);
@@ -2391,7 +2391,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF5")]
-		[Address(RVA = "0x2A68050", Offset = "0x2A66650", VA = "0x182A68050")]
+		[Address(RVA = "0x64362F0", Offset = "0x64352F0", VA = "0x64362F0")]
 		get
 		{
 			return default(double4);
@@ -2404,7 +2404,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF6")]
-		[Address(RVA = "0x2A67FB0", Offset = "0x2A665B0", VA = "0x182A67FB0")]
+		[Address(RVA = "0x6436310", Offset = "0x6435310", VA = "0x6436310")]
 		get
 		{
 			return default(double4);
@@ -2417,7 +2417,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF7")]
-		[Address(RVA = "0x2A67FD0", Offset = "0x2A665D0", VA = "0x182A67FD0")]
+		[Address(RVA = "0x6436330", Offset = "0x6435330", VA = "0x6436330")]
 		get
 		{
 			return default(double4);
@@ -2430,7 +2430,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF8")]
-		[Address(RVA = "0x2A67FF0", Offset = "0x2A665F0", VA = "0x182A67FF0")]
+		[Address(RVA = "0x6436350", Offset = "0x6435350", VA = "0x6436350")]
 		get
 		{
 			return default(double4);
@@ -2443,7 +2443,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EF9")]
-		[Address(RVA = "0x2A67F90", Offset = "0x2A66590", VA = "0x182A67F90")]
+		[Address(RVA = "0x6436370", Offset = "0x6435370", VA = "0x6436370")]
 		get
 		{
 			return default(double4);
@@ -2456,7 +2456,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFA")]
-		[Address(RVA = "0x2A67AB0", Offset = "0x2A660B0", VA = "0x182A67AB0")]
+		[Address(RVA = "0x6436390", Offset = "0x6435390", VA = "0x6436390")]
 		get
 		{
 			return default(double4);
@@ -2469,14 +2469,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFB")]
-		[Address(RVA = "0x2A67AD0", Offset = "0x2A660D0", VA = "0x182A67AD0")]
+		[Address(RVA = "0x64363B0", Offset = "0x64353B0", VA = "0x64363B0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFC")]
-		[Address(RVA = "0x2A68B30", Offset = "0x2A67130", VA = "0x182A68B30")]
+		[Address(RVA = "0x64363D0", Offset = "0x64353D0", VA = "0x64363D0")]
 		set
 		{
 		}
@@ -2488,7 +2488,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFD")]
-		[Address(RVA = "0x2A67B00", Offset = "0x2A66100", VA = "0x182A67B00")]
+		[Address(RVA = "0x64363F0", Offset = "0x64353F0", VA = "0x64363F0")]
 		get
 		{
 			return default(double4);
@@ -2501,7 +2501,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFE")]
-		[Address(RVA = "0x2A67A80", Offset = "0x2A66080", VA = "0x182A67A80")]
+		[Address(RVA = "0x6436410", Offset = "0x6435410", VA = "0x6436410")]
 		get
 		{
 			return default(double4);
@@ -2514,14 +2514,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000EFF")]
-		[Address(RVA = "0x2A67B80", Offset = "0x2A66180", VA = "0x182A67B80")]
+		[Address(RVA = "0x6436430", Offset = "0x6435430", VA = "0x6436430")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F00")]
-		[Address(RVA = "0x2A68B70", Offset = "0x2A67170", VA = "0x182A68B70")]
+		[Address(RVA = "0x6436450", Offset = "0x6435450", VA = "0x6436450")]
 		set
 		{
 		}
@@ -2533,7 +2533,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F01")]
-		[Address(RVA = "0x2A67BB0", Offset = "0x2A661B0", VA = "0x182A67BB0")]
+		[Address(RVA = "0x6436470", Offset = "0x6435470", VA = "0x6436470")]
 		get
 		{
 			return default(double4);
@@ -2546,7 +2546,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F02")]
-		[Address(RVA = "0x2A67BD0", Offset = "0x2A661D0", VA = "0x182A67BD0")]
+		[Address(RVA = "0x6436490", Offset = "0x6435490", VA = "0x6436490")]
 		get
 		{
 			return default(double4);
@@ -2559,7 +2559,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F03")]
-		[Address(RVA = "0x2A67B50", Offset = "0x2A66150", VA = "0x182A67B50")]
+		[Address(RVA = "0x64364B0", Offset = "0x64354B0", VA = "0x64364B0")]
 		get
 		{
 			return default(double4);
@@ -2572,7 +2572,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F04")]
-		[Address(RVA = "0x2A67C50", Offset = "0x2A66250", VA = "0x182A67C50")]
+		[Address(RVA = "0x64364D0", Offset = "0x64354D0", VA = "0x64364D0")]
 		get
 		{
 			return default(double4);
@@ -2585,7 +2585,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F05")]
-		[Address(RVA = "0x2A67C80", Offset = "0x2A66280", VA = "0x182A67C80")]
+		[Address(RVA = "0x64364F0", Offset = "0x64354F0", VA = "0x64364F0")]
 		get
 		{
 			return default(double4);
@@ -2598,7 +2598,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F06")]
-		[Address(RVA = "0x2A67CB0", Offset = "0x2A662B0", VA = "0x182A67CB0")]
+		[Address(RVA = "0x6436510", Offset = "0x6435510", VA = "0x6436510")]
 		get
 		{
 			return default(double4);
@@ -2611,7 +2611,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F07")]
-		[Address(RVA = "0x2A67C20", Offset = "0x2A66220", VA = "0x182A67C20")]
+		[Address(RVA = "0x6436530", Offset = "0x6435530", VA = "0x6436530")]
 		get
 		{
 			return default(double4);
@@ -2624,7 +2624,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F08")]
-		[Address(RVA = "0x2A67A00", Offset = "0x2A66000", VA = "0x182A67A00")]
+		[Address(RVA = "0x6436540", Offset = "0x6435540", VA = "0x6436540")]
 		get
 		{
 			return default(double4);
@@ -2637,7 +2637,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F09")]
-		[Address(RVA = "0x2A67A20", Offset = "0x2A66020", VA = "0x182A67A20")]
+		[Address(RVA = "0x6436560", Offset = "0x6435560", VA = "0x6436560")]
 		get
 		{
 			return default(double4);
@@ -2650,7 +2650,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0A")]
-		[Address(RVA = "0x2A67A40", Offset = "0x2A66040", VA = "0x182A67A40")]
+		[Address(RVA = "0x6436580", Offset = "0x6435580", VA = "0x6436580")]
 		get
 		{
 			return default(double4);
@@ -2663,7 +2663,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0B")]
-		[Address(RVA = "0x2A679E0", Offset = "0x2A65FE0", VA = "0x182A679E0")]
+		[Address(RVA = "0x64365A0", Offset = "0x64355A0", VA = "0x64365A0")]
 		get
 		{
 			return default(double4);
@@ -2676,7 +2676,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0C")]
-		[Address(RVA = "0x2A663D0", Offset = "0x2A649D0", VA = "0x182A663D0")]
+		[Address(RVA = "0x64365C0", Offset = "0x64355C0", VA = "0x64365C0")]
 		get
 		{
 			return default(double4);
@@ -2689,7 +2689,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0D")]
-		[Address(RVA = "0x2A663F0", Offset = "0x2A649F0", VA = "0x182A663F0")]
+		[Address(RVA = "0x64365E0", Offset = "0x64355E0", VA = "0x64365E0")]
 		get
 		{
 			return default(double4);
@@ -2702,7 +2702,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0E")]
-		[Address(RVA = "0x2A66410", Offset = "0x2A64A10", VA = "0x182A66410")]
+		[Address(RVA = "0x6436600", Offset = "0x6435600", VA = "0x6436600")]
 		get
 		{
 			return default(double4);
@@ -2715,7 +2715,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F0F")]
-		[Address(RVA = "0x2A663B0", Offset = "0x2A649B0", VA = "0x182A663B0")]
+		[Address(RVA = "0x6436630", Offset = "0x6435630", VA = "0x6436630")]
 		get
 		{
 			return default(double4);
@@ -2728,7 +2728,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F10")]
-		[Address(RVA = "0x2A66480", Offset = "0x2A64A80", VA = "0x182A66480")]
+		[Address(RVA = "0x6436650", Offset = "0x6435650", VA = "0x6436650")]
 		get
 		{
 			return default(double4);
@@ -2741,7 +2741,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F11")]
-		[Address(RVA = "0x2A664B0", Offset = "0x2A64AB0", VA = "0x182A664B0")]
+		[Address(RVA = "0x6436670", Offset = "0x6435670", VA = "0x6436670")]
 		get
 		{
 			return default(double4);
@@ -2754,14 +2754,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F12")]
-		[Address(RVA = "0x2A664D0", Offset = "0x2A64AD0", VA = "0x182A664D0")]
+		[Address(RVA = "0x6436690", Offset = "0x6435690", VA = "0x6436690")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F13")]
-		[Address(RVA = "0x2A68700", Offset = "0x2A66D00", VA = "0x182A68700")]
+		[Address(RVA = "0x64366B0", Offset = "0x64356B0", VA = "0x64366B0")]
 		set
 		{
 		}
@@ -2773,7 +2773,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F14")]
-		[Address(RVA = "0x2A66450", Offset = "0x2A64A50", VA = "0x182A66450")]
+		[Address(RVA = "0x64366D0", Offset = "0x64356D0", VA = "0x64366D0")]
 		get
 		{
 			return default(double4);
@@ -2786,7 +2786,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F15")]
-		[Address(RVA = "0x2A66550", Offset = "0x2A64B50", VA = "0x182A66550")]
+		[Address(RVA = "0x64366F0", Offset = "0x64356F0", VA = "0x64366F0")]
 		get
 		{
 			return default(double4);
@@ -2799,14 +2799,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F16")]
-		[Address(RVA = "0x2A66580", Offset = "0x2A64B80", VA = "0x182A66580")]
+		[Address(RVA = "0x6436720", Offset = "0x6435720", VA = "0x6436720")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F17")]
-		[Address(RVA = "0x2A68740", Offset = "0x2A66D40", VA = "0x182A68740")]
+		[Address(RVA = "0x6436750", Offset = "0x6435750", VA = "0x6436750")]
 		set
 		{
 		}
@@ -2818,7 +2818,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F18")]
-		[Address(RVA = "0x2A665B0", Offset = "0x2A64BB0", VA = "0x182A665B0")]
+		[Address(RVA = "0x6436780", Offset = "0x6435780", VA = "0x6436780")]
 		get
 		{
 			return default(double4);
@@ -2831,7 +2831,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F19")]
-		[Address(RVA = "0x2A66520", Offset = "0x2A64B20", VA = "0x182A66520")]
+		[Address(RVA = "0x64367B0", Offset = "0x64357B0", VA = "0x64367B0")]
 		get
 		{
 			return default(double4);
@@ -2844,7 +2844,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1A")]
-		[Address(RVA = "0x2A66300", Offset = "0x2A64900", VA = "0x182A66300")]
+		[Address(RVA = "0x64367D0", Offset = "0x64357D0", VA = "0x64367D0")]
 		get
 		{
 			return default(double4);
@@ -2857,7 +2857,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1B")]
-		[Address(RVA = "0x2A66330", Offset = "0x2A64930", VA = "0x182A66330")]
+		[Address(RVA = "0x64367F0", Offset = "0x64357F0", VA = "0x64367F0")]
 		get
 		{
 			return default(double4);
@@ -2870,7 +2870,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1C")]
-		[Address(RVA = "0x2A66360", Offset = "0x2A64960", VA = "0x182A66360")]
+		[Address(RVA = "0x6436820", Offset = "0x6435820", VA = "0x6436820")]
 		get
 		{
 			return default(double4);
@@ -2883,7 +2883,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1D")]
-		[Address(RVA = "0x2A662E0", Offset = "0x2A648E0", VA = "0x182A662E0")]
+		[Address(RVA = "0x6436850", Offset = "0x6435850", VA = "0x6436850")]
 		get
 		{
 			return default(double4);
@@ -2896,7 +2896,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1E")]
-		[Address(RVA = "0x2A66710", Offset = "0x2A64D10", VA = "0x182A66710")]
+		[Address(RVA = "0x6436870", Offset = "0x6435870", VA = "0x6436870")]
 		get
 		{
 			return default(double4);
@@ -2909,7 +2909,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F1F")]
-		[Address(RVA = "0x2A66730", Offset = "0x2A64D30", VA = "0x182A66730")]
+		[Address(RVA = "0x6436890", Offset = "0x6435890", VA = "0x6436890")]
 		get
 		{
 			return default(double4);
@@ -2922,14 +2922,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F20")]
-		[Address(RVA = "0x2A66760", Offset = "0x2A64D60", VA = "0x182A66760")]
+		[Address(RVA = "0x64368B0", Offset = "0x64358B0", VA = "0x64368B0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F21")]
-		[Address(RVA = "0x2A68790", Offset = "0x2A66D90", VA = "0x182A68790")]
+		[Address(RVA = "0x64368E0", Offset = "0x64358E0", VA = "0x64368E0")]
 		set
 		{
 		}
@@ -2941,7 +2941,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F22")]
-		[Address(RVA = "0x2A666E0", Offset = "0x2A64CE0", VA = "0x182A666E0")]
+		[Address(RVA = "0x6436910", Offset = "0x6435910", VA = "0x6436910")]
 		get
 		{
 			return default(double4);
@@ -2954,7 +2954,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x2A667D0", Offset = "0x2A64DD0", VA = "0x182A667D0")]
+		[Address(RVA = "0x6436930", Offset = "0x6435930", VA = "0x6436930")]
 		get
 		{
 			return default(double4);
@@ -2967,7 +2967,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F24")]
-		[Address(RVA = "0x2A667F0", Offset = "0x2A64DF0", VA = "0x182A667F0")]
+		[Address(RVA = "0x6436960", Offset = "0x6435960", VA = "0x6436960")]
 		get
 		{
 			return default(double4);
@@ -2980,7 +2980,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F25")]
-		[Address(RVA = "0x2A66810", Offset = "0x2A64E10", VA = "0x182A66810")]
+		[Address(RVA = "0x6436990", Offset = "0x6435990", VA = "0x6436990")]
 		get
 		{
 			return default(double4);
@@ -2993,7 +2993,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F26")]
-		[Address(RVA = "0x2A667B0", Offset = "0x2A64DB0", VA = "0x182A667B0")]
+		[Address(RVA = "0x64369B0", Offset = "0x64359B0", VA = "0x64369B0")]
 		get
 		{
 			return default(double4);
@@ -3006,14 +3006,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F27")]
-		[Address(RVA = "0x2A66880", Offset = "0x2A64E80", VA = "0x182A66880")]
+		[Address(RVA = "0x64369E0", Offset = "0x64359E0", VA = "0x64369E0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F28")]
-		[Address(RVA = "0x2A687D0", Offset = "0x2A66DD0", VA = "0x182A687D0")]
+		[Address(RVA = "0x6436A00", Offset = "0x6435A00", VA = "0x6436A00")]
 		set
 		{
 		}
@@ -3025,7 +3025,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x2A668B0", Offset = "0x2A64EB0", VA = "0x182A668B0")]
+		[Address(RVA = "0x6436A20", Offset = "0x6435A20", VA = "0x6436A20")]
 		get
 		{
 			return default(double4);
@@ -3038,7 +3038,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2A")]
-		[Address(RVA = "0x2A668E0", Offset = "0x2A64EE0", VA = "0x182A668E0")]
+		[Address(RVA = "0x6436A40", Offset = "0x6435A40", VA = "0x6436A40")]
 		get
 		{
 			return default(double4);
@@ -3051,7 +3051,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2B")]
-		[Address(RVA = "0x2A66850", Offset = "0x2A64E50", VA = "0x182A66850")]
+		[Address(RVA = "0x6436A60", Offset = "0x6435A60", VA = "0x6436A60")]
 		get
 		{
 			return default(double4);
@@ -3064,7 +3064,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2C")]
-		[Address(RVA = "0x2A66630", Offset = "0x2A64C30", VA = "0x182A66630")]
+		[Address(RVA = "0x6436A80", Offset = "0x6435A80", VA = "0x6436A80")]
 		get
 		{
 			return default(double4);
@@ -3077,7 +3077,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2D")]
-		[Address(RVA = "0x2A66660", Offset = "0x2A64C60", VA = "0x182A66660")]
+		[Address(RVA = "0x6436AB0", Offset = "0x6435AB0", VA = "0x6436AB0")]
 		get
 		{
 			return default(double4);
@@ -3090,7 +3090,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2E")]
-		[Address(RVA = "0x2A66690", Offset = "0x2A64C90", VA = "0x182A66690")]
+		[Address(RVA = "0x6436AE0", Offset = "0x6435AE0", VA = "0x6436AE0")]
 		get
 		{
 			return default(double4);
@@ -3103,7 +3103,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F2F")]
-		[Address(RVA = "0x2A66610", Offset = "0x2A64C10", VA = "0x182A66610")]
+		[Address(RVA = "0x6436B10", Offset = "0x6435B10", VA = "0x6436B10")]
 		get
 		{
 			return default(double4);
@@ -3116,7 +3116,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F30")]
-		[Address(RVA = "0x2A66A40", Offset = "0x2A65040", VA = "0x182A66A40")]
+		[Address(RVA = "0x6436B40", Offset = "0x6435B40", VA = "0x6436B40")]
 		get
 		{
 			return default(double4);
@@ -3129,14 +3129,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F31")]
-		[Address(RVA = "0x2A66A60", Offset = "0x2A65060", VA = "0x182A66A60")]
+		[Address(RVA = "0x6436B60", Offset = "0x6435B60", VA = "0x6436B60")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F32")]
-		[Address(RVA = "0x2A68820", Offset = "0x2A66E20", VA = "0x182A68820")]
+		[Address(RVA = "0x6436B80", Offset = "0x6435B80", VA = "0x6436B80")]
 		set
 		{
 		}
@@ -3148,7 +3148,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F33")]
-		[Address(RVA = "0x2A66A90", Offset = "0x2A65090", VA = "0x182A66A90")]
+		[Address(RVA = "0x6436BA0", Offset = "0x6435BA0", VA = "0x6436BA0")]
 		get
 		{
 			return default(double4);
@@ -3161,7 +3161,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F34")]
-		[Address(RVA = "0x2A66A10", Offset = "0x2A65010", VA = "0x182A66A10")]
+		[Address(RVA = "0x6436BC0", Offset = "0x6435BC0", VA = "0x6436BC0")]
 		get
 		{
 			return default(double4);
@@ -3174,14 +3174,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F35")]
-		[Address(RVA = "0x2A66B10", Offset = "0x2A65110", VA = "0x182A66B10")]
+		[Address(RVA = "0x6436BF0", Offset = "0x6435BF0", VA = "0x6436BF0")]
 		get
 		{
 			return default(double4);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F36")]
-		[Address(RVA = "0x2A68860", Offset = "0x2A66E60", VA = "0x182A68860")]
+		[Address(RVA = "0x6436C10", Offset = "0x6435C10", VA = "0x6436C10")]
 		set
 		{
 		}
@@ -3193,7 +3193,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F37")]
-		[Address(RVA = "0x2A66B40", Offset = "0x2A65140", VA = "0x182A66B40")]
+		[Address(RVA = "0x6436C30", Offset = "0x6435C30", VA = "0x6436C30")]
 		get
 		{
 			return default(double4);
@@ -3206,7 +3206,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F38")]
-		[Address(RVA = "0x2A66B60", Offset = "0x2A65160", VA = "0x182A66B60")]
+		[Address(RVA = "0x6436C50", Offset = "0x6435C50", VA = "0x6436C50")]
 		get
 		{
 			return default(double4);
@@ -3219,7 +3219,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F39")]
-		[Address(RVA = "0x2A66AE0", Offset = "0x2A650E0", VA = "0x182A66AE0")]
+		[Address(RVA = "0x6436C70", Offset = "0x6435C70", VA = "0x6436C70")]
 		get
 		{
 			return default(double4);
@@ -3232,7 +3232,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3A")]
-		[Address(RVA = "0x2A66BD0", Offset = "0x2A651D0", VA = "0x182A66BD0")]
+		[Address(RVA = "0x6436C90", Offset = "0x6435C90", VA = "0x6436C90")]
 		get
 		{
 			return default(double4);
@@ -3245,7 +3245,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3B")]
-		[Address(RVA = "0x2A66BF0", Offset = "0x2A651F0", VA = "0x182A66BF0")]
+		[Address(RVA = "0x6436CB0", Offset = "0x6435CB0", VA = "0x6436CB0")]
 		get
 		{
 			return default(double4);
@@ -3258,7 +3258,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3C")]
-		[Address(RVA = "0x2A66C10", Offset = "0x2A65210", VA = "0x182A66C10")]
+		[Address(RVA = "0x6436CD0", Offset = "0x6435CD0", VA = "0x6436CD0")]
 		get
 		{
 			return default(double4);
@@ -3271,7 +3271,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3D")]
-		[Address(RVA = "0x2A66BB0", Offset = "0x2A651B0", VA = "0x182A66BB0")]
+		[Address(RVA = "0x6436CF0", Offset = "0x6435CF0", VA = "0x6436CF0")]
 		get
 		{
 			return default(double4);
@@ -3284,7 +3284,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3E")]
-		[Address(RVA = "0x2A66960", Offset = "0x2A64F60", VA = "0x182A66960")]
+		[Address(RVA = "0x6436D10", Offset = "0x6435D10", VA = "0x6436D10")]
 		get
 		{
 			return default(double4);
@@ -3297,7 +3297,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F3F")]
-		[Address(RVA = "0x2A66990", Offset = "0x2A64F90", VA = "0x182A66990")]
+		[Address(RVA = "0x6436D30", Offset = "0x6435D30", VA = "0x6436D30")]
 		get
 		{
 			return default(double4);
@@ -3310,7 +3310,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F40")]
-		[Address(RVA = "0x2A669C0", Offset = "0x2A64FC0", VA = "0x182A669C0")]
+		[Address(RVA = "0x6436D50", Offset = "0x6435D50", VA = "0x6436D50")]
 		get
 		{
 			return default(double4);
@@ -3323,7 +3323,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F41")]
-		[Address(RVA = "0x2A66940", Offset = "0x2A64F40", VA = "0x182A66940")]
+		[Address(RVA = "0x6436D70", Offset = "0x6435D70", VA = "0x6436D70")]
 		get
 		{
 			return default(double4);
@@ -3336,7 +3336,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F42")]
-		[Address(RVA = "0x2A66100", Offset = "0x2A64700", VA = "0x182A66100")]
+		[Address(RVA = "0x6436D90", Offset = "0x6435D90", VA = "0x6436D90")]
 		get
 		{
 			return default(double4);
@@ -3349,7 +3349,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F43")]
-		[Address(RVA = "0x2A66120", Offset = "0x2A64720", VA = "0x182A66120")]
+		[Address(RVA = "0x6436DB0", Offset = "0x6435DB0", VA = "0x6436DB0")]
 		get
 		{
 			return default(double4);
@@ -3362,7 +3362,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F44")]
-		[Address(RVA = "0x2A66140", Offset = "0x2A64740", VA = "0x182A66140")]
+		[Address(RVA = "0x6436DD0", Offset = "0x6435DD0", VA = "0x6436DD0")]
 		get
 		{
 			return default(double4);
@@ -3375,7 +3375,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F45")]
-		[Address(RVA = "0x2A660E0", Offset = "0x2A646E0", VA = "0x182A660E0")]
+		[Address(RVA = "0x6436E00", Offset = "0x6435E00", VA = "0x6436E00")]
 		get
 		{
 			return default(double4);
@@ -3388,7 +3388,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F46")]
-		[Address(RVA = "0x2A661A0", Offset = "0x2A647A0", VA = "0x182A661A0")]
+		[Address(RVA = "0x6436E20", Offset = "0x6435E20", VA = "0x6436E20")]
 		get
 		{
 			return default(double4);
@@ -3401,7 +3401,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F47")]
-		[Address(RVA = "0x2A661C0", Offset = "0x2A647C0", VA = "0x182A661C0")]
+		[Address(RVA = "0x6436E40", Offset = "0x6435E40", VA = "0x6436E40")]
 		get
 		{
 			return default(double4);
@@ -3414,7 +3414,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F48")]
-		[Address(RVA = "0x2A661E0", Offset = "0x2A647E0", VA = "0x182A661E0")]
+		[Address(RVA = "0x6436E70", Offset = "0x6435E70", VA = "0x6436E70")]
 		get
 		{
 			return default(double4);
@@ -3427,7 +3427,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F49")]
-		[Address(RVA = "0x2A66180", Offset = "0x2A64780", VA = "0x182A66180")]
+		[Address(RVA = "0x6436E90", Offset = "0x6435E90", VA = "0x6436E90")]
 		get
 		{
 			return default(double4);
@@ -3440,7 +3440,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4A")]
-		[Address(RVA = "0x2A66240", Offset = "0x2A64840", VA = "0x182A66240")]
+		[Address(RVA = "0x6436EC0", Offset = "0x6435EC0", VA = "0x6436EC0")]
 		get
 		{
 			return default(double4);
@@ -3453,7 +3453,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4B")]
-		[Address(RVA = "0x2A66260", Offset = "0x2A64860", VA = "0x182A66260")]
+		[Address(RVA = "0x6436EF0", Offset = "0x6435EF0", VA = "0x6436EF0")]
 		get
 		{
 			return default(double4);
@@ -3466,7 +3466,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4C")]
-		[Address(RVA = "0x2A66280", Offset = "0x2A64880", VA = "0x182A66280")]
+		[Address(RVA = "0x6436F10", Offset = "0x6435F10", VA = "0x6436F10")]
 		get
 		{
 			return default(double4);
@@ -3479,7 +3479,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4D")]
-		[Address(RVA = "0x2A66220", Offset = "0x2A64820", VA = "0x182A66220")]
+		[Address(RVA = "0x6436F40", Offset = "0x6435F40", VA = "0x6436F40")]
 		get
 		{
 			return default(double4);
@@ -3492,7 +3492,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4E")]
-		[Address(RVA = "0x2A66060", Offset = "0x2A64660", VA = "0x182A66060")]
+		[Address(RVA = "0x6436F60", Offset = "0x6435F60", VA = "0x6436F60")]
 		get
 		{
 			return default(double4);
@@ -3505,7 +3505,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F4F")]
-		[Address(RVA = "0x2A66080", Offset = "0x2A64680", VA = "0x182A66080")]
+		[Address(RVA = "0x6436F80", Offset = "0x6435F80", VA = "0x6436F80")]
 		get
 		{
 			return default(double4);
@@ -3518,7 +3518,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F50")]
-		[Address(RVA = "0x2A660A0", Offset = "0x2A646A0", VA = "0x182A660A0")]
+		[Address(RVA = "0x6436FB0", Offset = "0x6435FB0", VA = "0x6436FB0")]
 		get
 		{
 			return default(double4);
@@ -3531,7 +3531,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F51")]
-		[Address(RVA = "0x2A66040", Offset = "0x2A64640", VA = "0x182A66040")]
+		[Address(RVA = "0x6436FE0", Offset = "0x6435FE0", VA = "0x6436FE0")]
 		get
 		{
 			return default(double4);
@@ -3544,7 +3544,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F52")]
-		[Address(RVA = "0x2A54170", Offset = "0x2A52770", VA = "0x182A54170")]
+		[Address(RVA = "0x6437000", Offset = "0x6436000", VA = "0x6437000")]
 		get
 		{
 			return default(double3);
@@ -3557,7 +3557,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F53")]
-		[Address(RVA = "0x2A541D0", Offset = "0x2A527D0", VA = "0x182A541D0")]
+		[Address(RVA = "0x6437020", Offset = "0x6436020", VA = "0x6437020")]
 		get
 		{
 			return default(double3);
@@ -3570,7 +3570,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F54")]
-		[Address(RVA = "0x2A59FA0", Offset = "0x2A585A0", VA = "0x182A59FA0")]
+		[Address(RVA = "0x6437030", Offset = "0x6436030", VA = "0x6437030")]
 		get
 		{
 			return default(double3);
@@ -3583,7 +3583,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F55")]
-		[Address(RVA = "0x2A66F60", Offset = "0x2A65560", VA = "0x182A66F60")]
+		[Address(RVA = "0x6437050", Offset = "0x6436050", VA = "0x6437050")]
 		get
 		{
 			return default(double3);
@@ -3596,7 +3596,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F56")]
-		[Address(RVA = "0x2A54230", Offset = "0x2A52830", VA = "0x182A54230")]
+		[Address(RVA = "0x6437070", Offset = "0x6436070", VA = "0x6437070")]
 		get
 		{
 			return default(double3);
@@ -3609,7 +3609,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F57")]
-		[Address(RVA = "0x2A542A0", Offset = "0x2A528A0", VA = "0x182A542A0")]
+		[Address(RVA = "0x6437080", Offset = "0x6436080", VA = "0x6437080")]
 		get
 		{
 			return default(double3);
@@ -3622,14 +3622,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F58")]
-		[Address(RVA = "0x29D9130", Offset = "0x29D7730", VA = "0x1829D9130")]
+		[Address(RVA = "0x6437090", Offset = "0x6436090", VA = "0x6437090")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F59")]
-		[Address(RVA = "0x2A59E00", Offset = "0x2A58400", VA = "0x182A59E00")]
+		[Address(RVA = "0x64370B0", Offset = "0x64360B0", VA = "0x64370B0")]
 		set
 		{
 		}
@@ -3641,14 +3641,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5A")]
-		[Address(RVA = "0x2A67060", Offset = "0x2A65660", VA = "0x182A67060")]
+		[Address(RVA = "0x64370D0", Offset = "0x64360D0", VA = "0x64370D0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5B")]
-		[Address(RVA = "0x2A68910", Offset = "0x2A66F10", VA = "0x182A68910")]
+		[Address(RVA = "0x64370F0", Offset = "0x64360F0", VA = "0x64370F0")]
 		set
 		{
 		}
@@ -3660,7 +3660,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5C")]
-		[Address(RVA = "0x2A5A0F0", Offset = "0x2A586F0", VA = "0x182A5A0F0")]
+		[Address(RVA = "0x6437110", Offset = "0x6436110", VA = "0x6437110")]
 		get
 		{
 			return default(double3);
@@ -3673,14 +3673,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5D")]
-		[Address(RVA = "0x2A5A190", Offset = "0x2A58790", VA = "0x182A5A190")]
+		[Address(RVA = "0x6437130", Offset = "0x6436130", VA = "0x6437130")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5E")]
-		[Address(RVA = "0x2A5B480", Offset = "0x2A59A80", VA = "0x182A5B480")]
+		[Address(RVA = "0x6437150", Offset = "0x6436150", VA = "0x6437150")]
 		set
 		{
 		}
@@ -3692,7 +3692,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F5F")]
-		[Address(RVA = "0x2A5A230", Offset = "0x2A58830", VA = "0x182A5A230")]
+		[Address(RVA = "0x6437170", Offset = "0x6436170", VA = "0x6437170")]
 		get
 		{
 			return default(double3);
@@ -3705,14 +3705,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F60")]
-		[Address(RVA = "0x2A67180", Offset = "0x2A65780", VA = "0x182A67180")]
+		[Address(RVA = "0x6437190", Offset = "0x6436190", VA = "0x6437190")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F61")]
-		[Address(RVA = "0x2A68950", Offset = "0x2A66F50", VA = "0x182A68950")]
+		[Address(RVA = "0x64371B0", Offset = "0x64361B0", VA = "0x64371B0")]
 		set
 		{
 		}
@@ -3724,7 +3724,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F62")]
-		[Address(RVA = "0x2A66CF0", Offset = "0x2A652F0", VA = "0x182A66CF0")]
+		[Address(RVA = "0x64371D0", Offset = "0x64361D0", VA = "0x64371D0")]
 		get
 		{
 			return default(double3);
@@ -3737,14 +3737,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F63")]
-		[Address(RVA = "0x2A66DC0", Offset = "0x2A653C0", VA = "0x182A66DC0")]
+		[Address(RVA = "0x64371F0", Offset = "0x64361F0", VA = "0x64371F0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F64")]
-		[Address(RVA = "0x2A68890", Offset = "0x2A66E90", VA = "0x182A68890")]
+		[Address(RVA = "0x6437210", Offset = "0x6436210", VA = "0x6437210")]
 		set
 		{
 		}
@@ -3756,14 +3756,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F65")]
-		[Address(RVA = "0x2A66E90", Offset = "0x2A65490", VA = "0x182A66E90")]
+		[Address(RVA = "0x6437240", Offset = "0x6436240", VA = "0x6437240")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F66")]
-		[Address(RVA = "0x2A688D0", Offset = "0x2A66ED0", VA = "0x182A688D0")]
+		[Address(RVA = "0x6437260", Offset = "0x6436260", VA = "0x6437260")]
 		set
 		{
 		}
@@ -3775,7 +3775,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F67")]
-		[Address(RVA = "0x2A66C50", Offset = "0x2A65250", VA = "0x182A66C50")]
+		[Address(RVA = "0x6437280", Offset = "0x6436280", VA = "0x6437280")]
 		get
 		{
 			return default(double3);
@@ -3788,7 +3788,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F68")]
-		[Address(RVA = "0x2A54320", Offset = "0x2A52920", VA = "0x182A54320")]
+		[Address(RVA = "0x64372A0", Offset = "0x64362A0", VA = "0x64372A0")]
 		get
 		{
 			return default(double3);
@@ -3801,7 +3801,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F69")]
-		[Address(RVA = "0x2A54380", Offset = "0x2A52980", VA = "0x182A54380")]
+		[Address(RVA = "0x64372C0", Offset = "0x64362C0", VA = "0x64372C0")]
 		get
 		{
 			return default(double3);
@@ -3814,14 +3814,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6A")]
-		[Address(RVA = "0x2A5A300", Offset = "0x2A58900", VA = "0x182A5A300")]
+		[Address(RVA = "0x64372D0", Offset = "0x64362D0", VA = "0x64372D0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6B")]
-		[Address(RVA = "0x2A5B4A0", Offset = "0x2A59AA0", VA = "0x182A5B4A0")]
+		[Address(RVA = "0x64372F0", Offset = "0x64362F0", VA = "0x64372F0")]
 		set
 		{
 		}
@@ -3833,14 +3833,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6C")]
-		[Address(RVA = "0x2A67600", Offset = "0x2A65C00", VA = "0x182A67600")]
+		[Address(RVA = "0x6437310", Offset = "0x6436310", VA = "0x6437310")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6D")]
-		[Address(RVA = "0x2A68A40", Offset = "0x2A67040", VA = "0x182A68A40")]
+		[Address(RVA = "0x6437330", Offset = "0x6436330", VA = "0x6437330")]
 		set
 		{
 		}
@@ -3852,7 +3852,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6E")]
-		[Address(RVA = "0x2A54400", Offset = "0x2A52A00", VA = "0x182A54400")]
+		[Address(RVA = "0x6437350", Offset = "0x6436350", VA = "0x6437350")]
 		get
 		{
 			return default(double3);
@@ -3865,7 +3865,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F6F")]
-		[Address(RVA = "0x2A54460", Offset = "0x2A52A60", VA = "0x182A54460")]
+		[Address(RVA = "0x6437370", Offset = "0x6436370", VA = "0x6437370")]
 		get
 		{
 			return default(double3);
@@ -3878,7 +3878,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F70")]
-		[Address(RVA = "0x2A5A3E0", Offset = "0x2A589E0", VA = "0x182A5A3E0")]
+		[Address(RVA = "0x6437390", Offset = "0x6436390", VA = "0x6437390")]
 		get
 		{
 			return default(double3);
@@ -3891,7 +3891,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F71")]
-		[Address(RVA = "0x2A67750", Offset = "0x2A65D50", VA = "0x182A67750")]
+		[Address(RVA = "0x64373A0", Offset = "0x64363A0", VA = "0x64373A0")]
 		get
 		{
 			return default(double3);
@@ -3904,14 +3904,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F72")]
-		[Address(RVA = "0x2A5A480", Offset = "0x2A58A80", VA = "0x182A5A480")]
+		[Address(RVA = "0x64373C0", Offset = "0x64363C0", VA = "0x64373C0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F73")]
-		[Address(RVA = "0x2A5B4D0", Offset = "0x2A59AD0", VA = "0x182A5B4D0")]
+		[Address(RVA = "0x64373E0", Offset = "0x64363E0", VA = "0x64373E0")]
 		set
 		{
 		}
@@ -3923,7 +3923,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F74")]
-		[Address(RVA = "0x2A5A520", Offset = "0x2A58B20", VA = "0x182A5A520")]
+		[Address(RVA = "0x6437400", Offset = "0x6436400", VA = "0x6437400")]
 		get
 		{
 			return default(double3);
@@ -3936,7 +3936,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F75")]
-		[Address(RVA = "0x2A5A5C0", Offset = "0x2A58BC0", VA = "0x182A5A5C0")]
+		[Address(RVA = "0x6437410", Offset = "0x6436410", VA = "0x6437410")]
 		get
 		{
 			return default(double3);
@@ -3949,14 +3949,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F76")]
-		[Address(RVA = "0x2A67850", Offset = "0x2A65E50", VA = "0x182A67850")]
+		[Address(RVA = "0x6437420", Offset = "0x6436420", VA = "0x6437420")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F77")]
-		[Address(RVA = "0x2A68AA0", Offset = "0x2A670A0", VA = "0x182A68AA0")]
+		[Address(RVA = "0x6437440", Offset = "0x6436440", VA = "0x6437440")]
 		set
 		{
 		}
@@ -3968,14 +3968,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F78")]
-		[Address(RVA = "0x2A67390", Offset = "0x2A65990", VA = "0x182A67390")]
+		[Address(RVA = "0x6437460", Offset = "0x6436460", VA = "0x6437460")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F79")]
-		[Address(RVA = "0x2A689C0", Offset = "0x2A66FC0", VA = "0x182A689C0")]
+		[Address(RVA = "0x6437480", Offset = "0x6436480", VA = "0x6437480")]
 		set
 		{
 		}
@@ -3987,7 +3987,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7A")]
-		[Address(RVA = "0x2A67460", Offset = "0x2A65A60", VA = "0x182A67460")]
+		[Address(RVA = "0x64374B0", Offset = "0x64364B0", VA = "0x64374B0")]
 		get
 		{
 			return default(double3);
@@ -4000,14 +4000,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7B")]
-		[Address(RVA = "0x2A67530", Offset = "0x2A65B30", VA = "0x182A67530")]
+		[Address(RVA = "0x64374D0", Offset = "0x64364D0", VA = "0x64374D0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7C")]
-		[Address(RVA = "0x2A68A00", Offset = "0x2A67000", VA = "0x182A68A00")]
+		[Address(RVA = "0x64374F0", Offset = "0x64364F0", VA = "0x64374F0")]
 		set
 		{
 		}
@@ -4019,7 +4019,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7D")]
-		[Address(RVA = "0x2A672F0", Offset = "0x2A658F0", VA = "0x182A672F0")]
+		[Address(RVA = "0x6437510", Offset = "0x6436510", VA = "0x6437510")]
 		get
 		{
 			return default(double3);
@@ -4032,7 +4032,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7E")]
-		[Address(RVA = "0x2A5A660", Offset = "0x2A58C60", VA = "0x182A5A660")]
+		[Address(RVA = "0x6437530", Offset = "0x6436530", VA = "0x6437530")]
 		get
 		{
 			return default(double3);
@@ -4045,14 +4045,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F7F")]
-		[Address(RVA = "0x2A5A6E0", Offset = "0x2A58CE0", VA = "0x182A5A6E0")]
+		[Address(RVA = "0x6437550", Offset = "0x6436550", VA = "0x6437550")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F80")]
-		[Address(RVA = "0x2A5B500", Offset = "0x2A59B00", VA = "0x182A5B500")]
+		[Address(RVA = "0x6437570", Offset = "0x6436570", VA = "0x6437570")]
 		set
 		{
 		}
@@ -4064,7 +4064,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F81")]
-		[Address(RVA = "0x2A5A780", Offset = "0x2A58D80", VA = "0x182A5A780")]
+		[Address(RVA = "0x6437590", Offset = "0x6436590", VA = "0x6437590")]
 		get
 		{
 			return default(double3);
@@ -4077,14 +4077,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F82")]
-		[Address(RVA = "0x2A67CD0", Offset = "0x2A662D0", VA = "0x182A67CD0")]
+		[Address(RVA = "0x64375B0", Offset = "0x64365B0", VA = "0x64375B0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F83")]
-		[Address(RVA = "0x2A68B90", Offset = "0x2A67190", VA = "0x182A68B90")]
+		[Address(RVA = "0x64375D0", Offset = "0x64365D0", VA = "0x64375D0")]
 		set
 		{
 		}
@@ -4096,14 +4096,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F84")]
-		[Address(RVA = "0x2A5A840", Offset = "0x2A58E40", VA = "0x182A5A840")]
+		[Address(RVA = "0x6437600", Offset = "0x6436600", VA = "0x6437600")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F85")]
-		[Address(RVA = "0x2A5B530", Offset = "0x2A59B30", VA = "0x182A5B530")]
+		[Address(RVA = "0x6437620", Offset = "0x6436620", VA = "0x6437620")]
 		set
 		{
 		}
@@ -4115,7 +4115,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F86")]
-		[Address(RVA = "0x2A5A8E0", Offset = "0x2A58EE0", VA = "0x182A5A8E0")]
+		[Address(RVA = "0x6437640", Offset = "0x6436640", VA = "0x6437640")]
 		get
 		{
 			return default(double3);
@@ -4128,7 +4128,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F87")]
-		[Address(RVA = "0x2A5A960", Offset = "0x2A58F60", VA = "0x182A5A960")]
+		[Address(RVA = "0x6437660", Offset = "0x6436660", VA = "0x6437660")]
 		get
 		{
 			return default(double3);
@@ -4141,14 +4141,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F88")]
-		[Address(RVA = "0x2A67E20", Offset = "0x2A66420", VA = "0x182A67E20")]
+		[Address(RVA = "0x6437670", Offset = "0x6436670", VA = "0x6437670")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F89")]
-		[Address(RVA = "0x2A68BF0", Offset = "0x2A671F0", VA = "0x182A68BF0")]
+		[Address(RVA = "0x6437690", Offset = "0x6436690", VA = "0x6437690")]
 		set
 		{
 		}
@@ -4160,7 +4160,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8A")]
-		[Address(RVA = "0x2A5AA10", Offset = "0x2A59010", VA = "0x182A5AA10")]
+		[Address(RVA = "0x64376B0", Offset = "0x64366B0", VA = "0x64376B0")]
 		get
 		{
 			return default(double3);
@@ -4173,7 +4173,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8B")]
-		[Address(RVA = "0x2A5AA90", Offset = "0x2A59090", VA = "0x182A5AA90")]
+		[Address(RVA = "0x64376D0", Offset = "0x64366D0", VA = "0x64376D0")]
 		get
 		{
 			return default(double3);
@@ -4186,7 +4186,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8C")]
-		[Address(RVA = "0x2A5AB10", Offset = "0x2A59110", VA = "0x182A5AB10")]
+		[Address(RVA = "0x64376F0", Offset = "0x64366F0", VA = "0x64376F0")]
 		get
 		{
 			return default(double3);
@@ -4199,7 +4199,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8D")]
-		[Address(RVA = "0x2A67F70", Offset = "0x2A66570", VA = "0x182A67F70")]
+		[Address(RVA = "0x6437710", Offset = "0x6436710", VA = "0x6437710")]
 		get
 		{
 			return default(double3);
@@ -4212,14 +4212,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8E")]
-		[Address(RVA = "0x2A67A60", Offset = "0x2A66060", VA = "0x182A67A60")]
+		[Address(RVA = "0x6437720", Offset = "0x6436720", VA = "0x6437720")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F8F")]
-		[Address(RVA = "0x2A68B10", Offset = "0x2A67110", VA = "0x182A68B10")]
+		[Address(RVA = "0x6437740", Offset = "0x6436740", VA = "0x6437740")]
 		set
 		{
 		}
@@ -4231,14 +4231,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F90")]
-		[Address(RVA = "0x2A67B30", Offset = "0x2A66130", VA = "0x182A67B30")]
+		[Address(RVA = "0x6437760", Offset = "0x6436760", VA = "0x6437760")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F91")]
-		[Address(RVA = "0x2A68B50", Offset = "0x2A67150", VA = "0x182A68B50")]
+		[Address(RVA = "0x6437780", Offset = "0x6436780", VA = "0x6437780")]
 		set
 		{
 		}
@@ -4250,7 +4250,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F92")]
-		[Address(RVA = "0x2A67C00", Offset = "0x2A66200", VA = "0x182A67C00")]
+		[Address(RVA = "0x64377A0", Offset = "0x64367A0", VA = "0x64377A0")]
 		get
 		{
 			return default(double3);
@@ -4263,7 +4263,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F93")]
-		[Address(RVA = "0x2A679C0", Offset = "0x2A65FC0", VA = "0x182A679C0")]
+		[Address(RVA = "0x64377B0", Offset = "0x64367B0", VA = "0x64377B0")]
 		get
 		{
 			return default(double3);
@@ -4276,7 +4276,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F94")]
-		[Address(RVA = "0x2A66390", Offset = "0x2A64990", VA = "0x182A66390")]
+		[Address(RVA = "0x64377C0", Offset = "0x64367C0", VA = "0x64377C0")]
 		get
 		{
 			return default(double3);
@@ -4289,14 +4289,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x2A66430", Offset = "0x2A64A30", VA = "0x182A66430")]
+		[Address(RVA = "0x64377E0", Offset = "0x64367E0", VA = "0x64377E0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F96")]
-		[Address(RVA = "0x2A686E0", Offset = "0x2A66CE0", VA = "0x182A686E0")]
+		[Address(RVA = "0x6437800", Offset = "0x6436800", VA = "0x6437800")]
 		set
 		{
 		}
@@ -4308,14 +4308,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F97")]
-		[Address(RVA = "0x2A66500", Offset = "0x2A64B00", VA = "0x182A66500")]
+		[Address(RVA = "0x6437820", Offset = "0x6436820", VA = "0x6437820")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F98")]
-		[Address(RVA = "0x2A68720", Offset = "0x2A66D20", VA = "0x182A68720")]
+		[Address(RVA = "0x6437840", Offset = "0x6436840", VA = "0x6437840")]
 		set
 		{
 		}
@@ -4327,7 +4327,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F99")]
-		[Address(RVA = "0x2A662C0", Offset = "0x2A648C0", VA = "0x182A662C0")]
+		[Address(RVA = "0x6437870", Offset = "0x6436870", VA = "0x6437870")]
 		get
 		{
 			return default(double3);
@@ -4340,14 +4340,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9A")]
-		[Address(RVA = "0x2A666C0", Offset = "0x2A64CC0", VA = "0x182A666C0")]
+		[Address(RVA = "0x6437890", Offset = "0x6436890", VA = "0x6437890")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9B")]
-		[Address(RVA = "0x2A68770", Offset = "0x2A66D70", VA = "0x182A68770")]
+		[Address(RVA = "0x64378B0", Offset = "0x64368B0", VA = "0x64378B0")]
 		set
 		{
 		}
@@ -4359,7 +4359,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9C")]
-		[Address(RVA = "0x2A66790", Offset = "0x2A64D90", VA = "0x182A66790")]
+		[Address(RVA = "0x64378D0", Offset = "0x64368D0", VA = "0x64378D0")]
 		get
 		{
 			return default(double3);
@@ -4372,14 +4372,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9D")]
-		[Address(RVA = "0x2A66830", Offset = "0x2A64E30", VA = "0x182A66830")]
+		[Address(RVA = "0x64378F0", Offset = "0x64368F0", VA = "0x64378F0")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9E")]
-		[Address(RVA = "0x2A687B0", Offset = "0x2A66DB0", VA = "0x182A687B0")]
+		[Address(RVA = "0x6437910", Offset = "0x6436910", VA = "0x6437910")]
 		set
 		{
 		}
@@ -4391,7 +4391,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000F9F")]
-		[Address(RVA = "0x2A665F0", Offset = "0x2A64BF0", VA = "0x182A665F0")]
+		[Address(RVA = "0x6437930", Offset = "0x6436930", VA = "0x6437930")]
 		get
 		{
 			return default(double3);
@@ -4404,14 +4404,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA0")]
-		[Address(RVA = "0x2A669F0", Offset = "0x2A64FF0", VA = "0x182A669F0")]
+		[Address(RVA = "0x6437950", Offset = "0x6436950", VA = "0x6437950")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA1")]
-		[Address(RVA = "0x2A68800", Offset = "0x2A66E00", VA = "0x182A68800")]
+		[Address(RVA = "0x6437970", Offset = "0x6436970", VA = "0x6437970")]
 		set
 		{
 		}
@@ -4423,14 +4423,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA2")]
-		[Address(RVA = "0x2A66AC0", Offset = "0x2A650C0", VA = "0x182A66AC0")]
+		[Address(RVA = "0x6437990", Offset = "0x6436990", VA = "0x6437990")]
 		get
 		{
 			return default(double3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA3")]
-		[Address(RVA = "0x2A68840", Offset = "0x2A66E40", VA = "0x182A68840")]
+		[Address(RVA = "0x64379B0", Offset = "0x64369B0", VA = "0x64379B0")]
 		set
 		{
 		}
@@ -4442,7 +4442,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA4")]
-		[Address(RVA = "0x2A66B90", Offset = "0x2A65190", VA = "0x182A66B90")]
+		[Address(RVA = "0x64379D0", Offset = "0x64369D0", VA = "0x64379D0")]
 		get
 		{
 			return default(double3);
@@ -4455,7 +4455,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA5")]
-		[Address(RVA = "0x2A66920", Offset = "0x2A64F20", VA = "0x182A66920")]
+		[Address(RVA = "0x64379F0", Offset = "0x64369F0", VA = "0x64379F0")]
 		get
 		{
 			return default(double3);
@@ -4468,7 +4468,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA6")]
-		[Address(RVA = "0x2A660C0", Offset = "0x2A646C0", VA = "0x182A660C0")]
+		[Address(RVA = "0x6437A00", Offset = "0x6436A00", VA = "0x6437A00")]
 		get
 		{
 			return default(double3);
@@ -4481,7 +4481,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA7")]
-		[Address(RVA = "0x2A66160", Offset = "0x2A64760", VA = "0x182A66160")]
+		[Address(RVA = "0x6437A20", Offset = "0x6436A20", VA = "0x6437A20")]
 		get
 		{
 			return default(double3);
@@ -4494,7 +4494,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x2A66200", Offset = "0x2A64800", VA = "0x182A66200")]
+		[Address(RVA = "0x6437A40", Offset = "0x6436A40", VA = "0x6437A40")]
 		get
 		{
 			return default(double3);
@@ -4507,7 +4507,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x2A66020", Offset = "0x2A64620", VA = "0x182A66020")]
+		[Address(RVA = "0x6437A60", Offset = "0x6436A60", VA = "0x6437A60")]
 		get
 		{
 			return default(double3);
@@ -4520,7 +4520,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x29903E0", Offset = "0x298E9E0", VA = "0x1829903E0")]
+		[Address(RVA = "0x6437A80", Offset = "0x6436A80", VA = "0x6437A80")]
 		get
 		{
 			return default(double2);
@@ -4533,14 +4533,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x29D8380", Offset = "0x29D6980", VA = "0x1829D8380")]
+		[Address(RVA = "0x6437A90", Offset = "0x6436A90", VA = "0x6437A90")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAC")]
-		[Address(RVA = "0x2A54000", Offset = "0x2A52600", VA = "0x182A54000")]
+		[Address(RVA = "0x6437AA0", Offset = "0x6436AA0", VA = "0x6437AA0")]
 		set
 		{
 		}
@@ -4552,14 +4552,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAD")]
-		[Address(RVA = "0x2A5A0D0", Offset = "0x2A586D0", VA = "0x182A5A0D0")]
+		[Address(RVA = "0x6437AB0", Offset = "0x6436AB0", VA = "0x6437AB0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAE")]
-		[Address(RVA = "0x2A5B470", Offset = "0x2A59A70", VA = "0x182A5B470")]
+		[Address(RVA = "0x6437AC0", Offset = "0x6436AC0", VA = "0x6437AC0")]
 		set
 		{
 		}
@@ -4571,14 +4571,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FAF")]
-		[Address(RVA = "0x2A66C30", Offset = "0x2A65230", VA = "0x182A66C30")]
+		[Address(RVA = "0x6437AD0", Offset = "0x6436AD0", VA = "0x6437AD0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB0")]
-		[Address(RVA = "0x2A68880", Offset = "0x2A66E80", VA = "0x182A68880")]
+		[Address(RVA = "0x6437AE0", Offset = "0x6436AE0", VA = "0x6437AE0")]
 		set
 		{
 		}
@@ -4590,14 +4590,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB1")]
-		[Address(RVA = "0x2A54300", Offset = "0x2A52900", VA = "0x182A54300")]
+		[Address(RVA = "0x6437AF0", Offset = "0x6436AF0", VA = "0x6437AF0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB2")]
-		[Address(RVA = "0x2A54AD0", Offset = "0x2A530D0", VA = "0x182A54AD0")]
+		[Address(RVA = "0x6437B00", Offset = "0x6436B00", VA = "0x6437B00")]
 		set
 		{
 		}
@@ -4609,7 +4609,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB3")]
-		[Address(RVA = "0x2A543F0", Offset = "0x2A529F0", VA = "0x182A543F0")]
+		[Address(RVA = "0x6437B10", Offset = "0x6436B10", VA = "0x6437B10")]
 		get
 		{
 			return default(double2);
@@ -4622,14 +4622,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB4")]
-		[Address(RVA = "0x2A5A460", Offset = "0x2A58A60", VA = "0x182A5A460")]
+		[Address(RVA = "0x6437B20", Offset = "0x6436B20", VA = "0x6437B20")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB5")]
-		[Address(RVA = "0x2A5B4C0", Offset = "0x2A59AC0", VA = "0x182A5B4C0")]
+		[Address(RVA = "0x6437B30", Offset = "0x6436B30", VA = "0x6437B30")]
 		set
 		{
 		}
@@ -4641,14 +4641,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB6")]
-		[Address(RVA = "0x2A672D0", Offset = "0x2A658D0", VA = "0x182A672D0")]
+		[Address(RVA = "0x6437B40", Offset = "0x6436B40", VA = "0x6437B40")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB7")]
-		[Address(RVA = "0x2A689B0", Offset = "0x2A66FB0", VA = "0x182A689B0")]
+		[Address(RVA = "0x6437B50", Offset = "0x6436B50", VA = "0x6437B50")]
 		set
 		{
 		}
@@ -4660,14 +4660,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB8")]
-		[Address(RVA = "0x2A5A640", Offset = "0x2A58C40", VA = "0x182A5A640")]
+		[Address(RVA = "0x6437B60", Offset = "0x6436B60", VA = "0x6437B60")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FB9")]
-		[Address(RVA = "0x2A5B4F0", Offset = "0x2A59AF0", VA = "0x182A5B4F0")]
+		[Address(RVA = "0x6437B70", Offset = "0x6436B70", VA = "0x6437B70")]
 		set
 		{
 		}
@@ -4679,14 +4679,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBA")]
-		[Address(RVA = "0x2A5A820", Offset = "0x2A58E20", VA = "0x182A5A820")]
+		[Address(RVA = "0x6437B80", Offset = "0x6436B80", VA = "0x6437B80")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBB")]
-		[Address(RVA = "0x2A5B520", Offset = "0x2A59B20", VA = "0x182A5B520")]
+		[Address(RVA = "0x6437B90", Offset = "0x6436B90", VA = "0x6437B90")]
 		set
 		{
 		}
@@ -4698,7 +4698,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBC")]
-		[Address(RVA = "0x2A5AA00", Offset = "0x2A59000", VA = "0x182A5AA00")]
+		[Address(RVA = "0x6437BA0", Offset = "0x6436BA0", VA = "0x6437BA0")]
 		get
 		{
 			return default(double2);
@@ -4711,14 +4711,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBD")]
-		[Address(RVA = "0x2A679A0", Offset = "0x2A65FA0", VA = "0x182A679A0")]
+		[Address(RVA = "0x6437BB0", Offset = "0x6436BB0", VA = "0x6437BB0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBE")]
-		[Address(RVA = "0x2A68B00", Offset = "0x2A67100", VA = "0x182A68B00")]
+		[Address(RVA = "0x6437BC0", Offset = "0x6436BC0", VA = "0x6437BC0")]
 		set
 		{
 		}
@@ -4730,14 +4730,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FBF")]
-		[Address(RVA = "0x2A662A0", Offset = "0x2A648A0", VA = "0x182A662A0")]
+		[Address(RVA = "0x6437BD0", Offset = "0x6436BD0", VA = "0x6437BD0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC0")]
-		[Address(RVA = "0x2A686D0", Offset = "0x2A66CD0", VA = "0x182A686D0")]
+		[Address(RVA = "0x6437BE0", Offset = "0x6436BE0", VA = "0x6437BE0")]
 		set
 		{
 		}
@@ -4749,14 +4749,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC1")]
-		[Address(RVA = "0x2A665D0", Offset = "0x2A64BD0", VA = "0x182A665D0")]
+		[Address(RVA = "0x6437BF0", Offset = "0x6436BF0", VA = "0x6437BF0")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC2")]
-		[Address(RVA = "0x2A68760", Offset = "0x2A66D60", VA = "0x182A68760")]
+		[Address(RVA = "0x6437C00", Offset = "0x6436C00", VA = "0x6437C00")]
 		set
 		{
 		}
@@ -4768,14 +4768,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC3")]
-		[Address(RVA = "0x2A66900", Offset = "0x2A64F00", VA = "0x182A66900")]
+		[Address(RVA = "0x6437C10", Offset = "0x6436C10", VA = "0x6437C10")]
 		get
 		{
 			return default(double2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC4")]
-		[Address(RVA = "0x2A687F0", Offset = "0x2A66DF0", VA = "0x182A687F0")]
+		[Address(RVA = "0x6437C20", Offset = "0x6436C20", VA = "0x6437C20")]
 		set
 		{
 		}
@@ -4787,7 +4787,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000FC5")]
-		[Address(RVA = "0x2A66010", Offset = "0x2A64610", VA = "0x182A66010")]
+		[Address(RVA = "0x6437C30", Offset = "0x6436C30", VA = "0x6437C30")]
 		get
 		{
 			return default(double2);
@@ -4798,13 +4798,13 @@ public struct double4 : IEquatable<double4>, IFormattable
 	public double this[int index]
 	{
 		[Token(Token = "0x6000FC6")]
-		[Address(RVA = "0x2A54160", Offset = "0x2A52760", VA = "0x182A54160")]
+		[Address(RVA = "0x6437C40", Offset = "0x6436C40", VA = "0x6437C40")]
 		get
 		{
 			return default(double);
 		}
 		[Token(Token = "0x6000FC7")]
-		[Address(RVA = "0x2A54AC0", Offset = "0x2A530C0", VA = "0x182A54AC0")]
+		[Address(RVA = "0x6437C50", Offset = "0x6436C50", VA = "0x6437C50")]
 		set
 		{
 		}
@@ -4812,140 +4812,140 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x298BD40", Offset = "0x298A340", VA = "0x18298BD40")]
+	[Address(RVA = "0x6433640", Offset = "0x6432640", VA = "0x6433640")]
 	public double4(double x, double y, double z, double w)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x2A65CF0", Offset = "0x2A642F0", VA = "0x182A65CF0")]
+	[Address(RVA = "0x6433660", Offset = "0x6432660", VA = "0x6433660")]
 	public double4(double x, double y, double2 zw)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x2A65DA0", Offset = "0x2A643A0", VA = "0x182A65DA0")]
+	[Address(RVA = "0x6433680", Offset = "0x6432680", VA = "0x6433680")]
 	public double4(double x, double2 yz, double w)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x2A65DE0", Offset = "0x2A643E0", VA = "0x182A65DE0")]
+	[Address(RVA = "0x64336A0", Offset = "0x64326A0", VA = "0x64336A0")]
 	public double4(double x, double3 yzw)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x2A65F40", Offset = "0x2A64540", VA = "0x182A65F40")]
+	[Address(RVA = "0x64336C0", Offset = "0x64326C0", VA = "0x64336C0")]
 	public double4(double2 xy, double z, double w)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x2A65DC0", Offset = "0x2A643C0", VA = "0x182A65DC0")]
+	[Address(RVA = "0x64336E0", Offset = "0x64326E0", VA = "0x64336E0")]
 	public double4(double2 xy, double2 zw)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFD")]
-	[Address(RVA = "0x2A65F20", Offset = "0x2A64520", VA = "0x182A65F20")]
+	[Address(RVA = "0x6433700", Offset = "0x6432700", VA = "0x6433700")]
 	public double4(double3 xyz, double w)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x2A65CD0", Offset = "0x2A642D0", VA = "0x182A65CD0")]
+	[Address(RVA = "0x6433720", Offset = "0x6432720", VA = "0x6433720")]
 	public double4(double4 xyzw)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x2A55180", Offset = "0x2A53780", VA = "0x182A55180")]
+	[Address(RVA = "0x6433740", Offset = "0x6432740", VA = "0x6433740")]
 	public double4(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x2A65E00", Offset = "0x2A64400", VA = "0x182A65E00")]
+	[Address(RVA = "0x6433760", Offset = "0x6432760", VA = "0x6433760")]
 	public double4(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E01")]
-	[Address(RVA = "0x2A65F60", Offset = "0x2A64560", VA = "0x182A65F60")]
+	[Address(RVA = "0x6433790", Offset = "0x6432790", VA = "0x6433790")]
 	public double4(bool4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x2A65E20", Offset = "0x2A64420", VA = "0x182A65E20")]
+	[Address(RVA = "0x64337E0", Offset = "0x64327E0", VA = "0x64337E0")]
 	public double4(int v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x2A65F00", Offset = "0x2A64500", VA = "0x182A65F00")]
+	[Address(RVA = "0x6433800", Offset = "0x6432800", VA = "0x6433800")]
 	public double4(int4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x2A65FC0", Offset = "0x2A645C0", VA = "0x182A65FC0")]
+	[Address(RVA = "0x6433840", Offset = "0x6432840", VA = "0x6433840")]
 	public double4(uint v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x2A65E50", Offset = "0x2A64450", VA = "0x182A65E50")]
+	[Address(RVA = "0x6433860", Offset = "0x6432860", VA = "0x6433860")]
 	public double4(uint4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x2A65E90", Offset = "0x2A64490", VA = "0x182A65E90")]
+	[Address(RVA = "0x64338A0", Offset = "0x64328A0", VA = "0x64338A0")]
 	public double4(half v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x2A65D10", Offset = "0x2A64310", VA = "0x182A65D10")]
+	[Address(RVA = "0x6433910", Offset = "0x6432910", VA = "0x6433910")]
 	public double4(half4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x2A65CB0", Offset = "0x2A642B0", VA = "0x182A65CB0")]
+	[Address(RVA = "0x6433A20", Offset = "0x6432A20", VA = "0x6433A20")]
 	public double4(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x2A551F0", Offset = "0x2A537F0", VA = "0x182A551F0")]
+	[Address(RVA = "0x6433A40", Offset = "0x6432A40", VA = "0x6433A40")]
 	public double4(float4 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x29D8460", Offset = "0x29D6A60", VA = "0x1829D8460")]
+	[Address(RVA = "0x6433A50", Offset = "0x6432A50", VA = "0x6433A50")]
 	public static implicit operator double4(double v)
 	{
 		return default(double4);
@@ -4953,7 +4953,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x29DA6A0", Offset = "0x29D8CA0", VA = "0x1829DA6A0")]
+	[Address(RVA = "0x6433A70", Offset = "0x6432A70", VA = "0x6433A70")]
 	public static explicit operator double4(bool v)
 	{
 		return default(double4);
@@ -4961,7 +4961,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0C")]
-	[Address(RVA = "0x29DA450", Offset = "0x29D8A50", VA = "0x1829DA450")]
+	[Address(RVA = "0x6433AA0", Offset = "0x6432AA0", VA = "0x6433AA0")]
 	public static explicit operator double4(bool4 v)
 	{
 		return default(double4);
@@ -4969,7 +4969,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x29DA570", Offset = "0x29D8B70", VA = "0x1829DA570")]
+	[Address(RVA = "0x6433B00", Offset = "0x6432B00", VA = "0x6433B00")]
 	public static implicit operator double4(int v)
 	{
 		return default(double4);
@@ -4977,7 +4977,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x29DA6D0", Offset = "0x29D8CD0", VA = "0x1829DA6D0")]
+	[Address(RVA = "0x6433B20", Offset = "0x6432B20", VA = "0x6433B20")]
 	public static implicit operator double4(int4 v)
 	{
 		return default(double4);
@@ -4985,7 +4985,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E0F")]
-	[Address(RVA = "0x29DA700", Offset = "0x29D8D00", VA = "0x1829DA700")]
+	[Address(RVA = "0x6433B60", Offset = "0x6432B60", VA = "0x6433B60")]
 	public static implicit operator double4(uint v)
 	{
 		return default(double4);
@@ -4993,7 +4993,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E10")]
-	[Address(RVA = "0x29DA750", Offset = "0x29D8D50", VA = "0x1829DA750")]
+	[Address(RVA = "0x6433B80", Offset = "0x6432B80", VA = "0x6433B80")]
 	public static implicit operator double4(uint4 v)
 	{
 		return default(double4);
@@ -5001,7 +5001,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E11")]
-	[Address(RVA = "0x29DA5A0", Offset = "0x29D8BA0", VA = "0x1829DA5A0")]
+	[Address(RVA = "0x6433BC0", Offset = "0x6432BC0", VA = "0x6433BC0")]
 	public static implicit operator double4(half v)
 	{
 		return default(double4);
@@ -5009,7 +5009,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0x29DA3C0", Offset = "0x29D89C0", VA = "0x1829DA3C0")]
+	[Address(RVA = "0x6433C30", Offset = "0x6432C30", VA = "0x6433C30")]
 	public static implicit operator double4(half4 v)
 	{
 		return default(double4);
@@ -5017,7 +5017,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x29DA530", Offset = "0x29D8B30", VA = "0x1829DA530")]
+	[Address(RVA = "0x6433D40", Offset = "0x6432D40", VA = "0x6433D40")]
 	public static implicit operator double4(float v)
 	{
 		return default(double4);
@@ -5025,7 +5025,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x29DA670", Offset = "0x29D8C70", VA = "0x1829DA670")]
+	[Address(RVA = "0x6433D60", Offset = "0x6432D60", VA = "0x6433D60")]
 	public static implicit operator double4(float4 v)
 	{
 		return default(double4);
@@ -5033,7 +5033,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x2A68680", Offset = "0x2A66C80", VA = "0x182A68680")]
+	[Address(RVA = "0x6433D80", Offset = "0x6432D80", VA = "0x6433D80")]
 	public static double4 operator *(double4 lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5041,7 +5041,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x2A55C20", Offset = "0x2A54220", VA = "0x182A55C20")]
+	[Address(RVA = "0x6433DB0", Offset = "0x6432DB0", VA = "0x6433DB0")]
 	public static double4 operator *(double4 lhs, double rhs)
 	{
 		return default(double4);
@@ -5049,7 +5049,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x2A55C40", Offset = "0x2A54240", VA = "0x182A55C40")]
+	[Address(RVA = "0x6433DE0", Offset = "0x6432DE0", VA = "0x6433DE0")]
 	public static double4 operator *(double lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5057,7 +5057,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x2A68070", Offset = "0x2A66670", VA = "0x182A68070")]
+	[Address(RVA = "0x6433E10", Offset = "0x6432E10", VA = "0x6433E10")]
 	public static double4 operator +(double4 lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5065,7 +5065,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E19")]
-	[Address(RVA = "0x2A55310", Offset = "0x2A53910", VA = "0x182A55310")]
+	[Address(RVA = "0x6433E40", Offset = "0x6432E40", VA = "0x6433E40")]
 	public static double4 operator +(double4 lhs, double rhs)
 	{
 		return default(double4);
@@ -5073,7 +5073,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1A")]
-	[Address(RVA = "0x2A55330", Offset = "0x2A53930", VA = "0x182A55330")]
+	[Address(RVA = "0x6433E70", Offset = "0x6432E70", VA = "0x6433E70")]
 	public static double4 operator +(double lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5081,7 +5081,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x2A55D10", Offset = "0x2A54310", VA = "0x182A55D10")]
+	[Address(RVA = "0x6433EA0", Offset = "0x6432EA0", VA = "0x6433EA0")]
 	public static double4 operator -(double4 lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5089,7 +5089,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1C")]
-	[Address(RVA = "0x2A55CF0", Offset = "0x2A542F0", VA = "0x182A55CF0")]
+	[Address(RVA = "0x6433ED0", Offset = "0x6432ED0", VA = "0x6433ED0")]
 	public static double4 operator -(double4 lhs, double rhs)
 	{
 		return default(double4);
@@ -5097,7 +5097,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1D")]
-	[Address(RVA = "0x2A55CB0", Offset = "0x2A542B0", VA = "0x182A55CB0")]
+	[Address(RVA = "0x6433F00", Offset = "0x6432F00", VA = "0x6433F00")]
 	public static double4 operator -(double lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5105,7 +5105,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1E")]
-	[Address(RVA = "0x2A553B0", Offset = "0x2A539B0", VA = "0x182A553B0")]
+	[Address(RVA = "0x6433F30", Offset = "0x6432F30", VA = "0x6433F30")]
 	public static double4 operator /(double4 lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5113,7 +5113,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E1F")]
-	[Address(RVA = "0x2A55390", Offset = "0x2A53990", VA = "0x182A55390")]
+	[Address(RVA = "0x6433F60", Offset = "0x6432F60", VA = "0x6433F60")]
 	public static double4 operator /(double4 lhs, double rhs)
 	{
 		return default(double4);
@@ -5121,7 +5121,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E20")]
-	[Address(RVA = "0x2A55400", Offset = "0x2A53A00", VA = "0x182A55400")]
+	[Address(RVA = "0x6433F90", Offset = "0x6432F90", VA = "0x6433F90")]
 	public static double4 operator /(double lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5129,7 +5129,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E21")]
-	[Address(RVA = "0x29E3740", Offset = "0x29E1D40", VA = "0x1829E3740")]
+	[Address(RVA = "0x6433FC0", Offset = "0x6432FC0", VA = "0x6433FC0")]
 	public static double4 operator %(double4 lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5137,7 +5137,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E22")]
-	[Address(RVA = "0x2A55BA0", Offset = "0x2A541A0", VA = "0x182A55BA0")]
+	[Address(RVA = "0x64340A0", Offset = "0x64330A0", VA = "0x64340A0")]
 	public static double4 operator %(double4 lhs, double rhs)
 	{
 		return default(double4);
@@ -5145,7 +5145,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E23")]
-	[Address(RVA = "0x2A55B20", Offset = "0x2A54120", VA = "0x182A55B20")]
+	[Address(RVA = "0x6434160", Offset = "0x6433160", VA = "0x6434160")]
 	public static double4 operator %(double lhs, double4 rhs)
 	{
 		return default(double4);
@@ -5153,7 +5153,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E24")]
-	[Address(RVA = "0x2A683A0", Offset = "0x2A669A0", VA = "0x182A683A0")]
+	[Address(RVA = "0x6434210", Offset = "0x6433210", VA = "0x6434210")]
 	public static double4 operator ++(double4 val)
 	{
 		return default(double4);
@@ -5161,7 +5161,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E25")]
-	[Address(RVA = "0x2A680C0", Offset = "0x2A666C0", VA = "0x182A680C0")]
+	[Address(RVA = "0x6434240", Offset = "0x6433240", VA = "0x6434240")]
 	public static double4 operator --(double4 val)
 	{
 		return default(double4);
@@ -5169,7 +5169,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E26")]
-	[Address(RVA = "0x2A68600", Offset = "0x2A66C00", VA = "0x182A68600")]
+	[Address(RVA = "0x6434270", Offset = "0x6433270", VA = "0x6434270")]
 	public static bool4 operator <(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5177,7 +5177,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E27")]
-	[Address(RVA = "0x2A685D0", Offset = "0x2A66BD0", VA = "0x182A685D0")]
+	[Address(RVA = "0x64342D0", Offset = "0x64332D0", VA = "0x64342D0")]
 	public static bool4 operator <(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5185,7 +5185,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E28")]
-	[Address(RVA = "0x2A68640", Offset = "0x2A66C40", VA = "0x182A68640")]
+	[Address(RVA = "0x6434310", Offset = "0x6433310", VA = "0x6434310")]
 	public static bool4 operator <(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5193,7 +5193,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E29")]
-	[Address(RVA = "0x2A68590", Offset = "0x2A66B90", VA = "0x182A68590")]
+	[Address(RVA = "0x6434360", Offset = "0x6433360", VA = "0x6434360")]
 	public static bool4 operator <=(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5201,7 +5201,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x2A68560", Offset = "0x2A66B60", VA = "0x182A68560")]
+	[Address(RVA = "0x64343C0", Offset = "0x64333C0", VA = "0x64343C0")]
 	public static bool4 operator <=(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5209,7 +5209,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x2A68520", Offset = "0x2A66B20", VA = "0x182A68520")]
+	[Address(RVA = "0x6434400", Offset = "0x6433400", VA = "0x6434400")]
 	public static bool4 operator <=(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5217,7 +5217,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x2A682F0", Offset = "0x2A668F0", VA = "0x182A682F0")]
+	[Address(RVA = "0x6434450", Offset = "0x6433450", VA = "0x6434450")]
 	public static bool4 operator >(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5225,7 +5225,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x2A68330", Offset = "0x2A66930", VA = "0x182A68330")]
+	[Address(RVA = "0x64344B0", Offset = "0x64334B0", VA = "0x64344B0")]
 	public static bool4 operator >(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5233,7 +5233,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x2A68370", Offset = "0x2A66970", VA = "0x182A68370")]
+	[Address(RVA = "0x6434500", Offset = "0x6433500", VA = "0x6434500")]
 	public static bool4 operator >(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5241,7 +5241,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x2A682B0", Offset = "0x2A668B0", VA = "0x182A682B0")]
+	[Address(RVA = "0x6434540", Offset = "0x6433540", VA = "0x6434540")]
 	public static bool4 operator >=(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5249,7 +5249,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E30")]
-	[Address(RVA = "0x2A68270", Offset = "0x2A66870", VA = "0x182A68270")]
+	[Address(RVA = "0x64345A0", Offset = "0x64335A0", VA = "0x64345A0")]
 	public static bool4 operator >=(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5257,7 +5257,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E31")]
-	[Address(RVA = "0x2A68240", Offset = "0x2A66840", VA = "0x182A68240")]
+	[Address(RVA = "0x64345F0", Offset = "0x64335F0", VA = "0x64345F0")]
 	public static bool4 operator >=(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5265,7 +5265,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E32")]
-	[Address(RVA = "0x2A55D60", Offset = "0x2A54360", VA = "0x182A55D60")]
+	[Address(RVA = "0x6434630", Offset = "0x6433630", VA = "0x6434630")]
 	public static double4 operator -(double4 val)
 	{
 		return default(double4);
@@ -5273,7 +5273,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E33")]
-	[Address(RVA = "0x29DA4C0", Offset = "0x29D8AC0", VA = "0x1829DA4C0")]
+	[Address(RVA = "0x6434650", Offset = "0x6433650", VA = "0x6434650")]
 	public static double4 operator +(double4 val)
 	{
 		return default(double4);
@@ -5281,7 +5281,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E34")]
-	[Address(RVA = "0x2A681D0", Offset = "0x2A667D0", VA = "0x182A681D0")]
+	[Address(RVA = "0x6434670", Offset = "0x6433670", VA = "0x6434670")]
 	public static bool4 operator ==(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5289,7 +5289,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E35")]
-	[Address(RVA = "0x2A68150", Offset = "0x2A66750", VA = "0x182A68150")]
+	[Address(RVA = "0x64346E0", Offset = "0x64336E0", VA = "0x64346E0")]
 	public static bool4 operator ==(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5297,7 +5297,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E36")]
-	[Address(RVA = "0x2A680F0", Offset = "0x2A666F0", VA = "0x182A680F0")]
+	[Address(RVA = "0x6434740", Offset = "0x6433740", VA = "0x6434740")]
 	public static bool4 operator ==(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5305,7 +5305,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x2A683D0", Offset = "0x2A669D0", VA = "0x182A683D0")]
+	[Address(RVA = "0x64347A0", Offset = "0x64337A0", VA = "0x64347A0")]
 	public static bool4 operator !=(double4 lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5313,7 +5313,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x2A684A0", Offset = "0x2A66AA0", VA = "0x182A684A0")]
+	[Address(RVA = "0x6434810", Offset = "0x6433810", VA = "0x6434810")]
 	public static bool4 operator !=(double4 lhs, double rhs)
 	{
 		return default(bool4);
@@ -5321,7 +5321,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000E39")]
-	[Address(RVA = "0x2A68440", Offset = "0x2A66A40", VA = "0x182A68440")]
+	[Address(RVA = "0x6434870", Offset = "0x6433870", VA = "0x6434870")]
 	public static bool4 operator !=(double lhs, double4 rhs)
 	{
 		return default(bool4);
@@ -5329,14 +5329,14 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000FC8")]
-	[Address(RVA = "0x2A54AE0", Offset = "0x2A530E0", VA = "0x182A54AE0", Slot = "4")]
+	[Address(RVA = "0x6437C60", Offset = "0x6436C60", VA = "0x6437C60", Slot = "4")]
 	public bool Equals(double4 rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC9")]
-	[Address(RVA = "0x2A657F0", Offset = "0x2A63DF0", VA = "0x182A657F0", Slot = "0")]
+	[Address(RVA = "0x6437CB0", Offset = "0x6436CB0", VA = "0x6437CB0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
@@ -5344,7 +5344,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000FCA")]
-	[Address(RVA = "0x29E5250", Offset = "0x29E3850", VA = "0x1829E5250", Slot = "2")]
+	[Address(RVA = "0x6437D50", Offset = "0x6436D50", VA = "0x6437D50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -5352,7 +5352,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000FCB")]
-	[Address(RVA = "0x2A658B0", Offset = "0x2A63EB0", VA = "0x182A658B0", Slot = "3")]
+	[Address(RVA = "0x6437DD0", Offset = "0x6436DD0", VA = "0x6437DD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -5360,7 +5360,7 @@ public struct double4 : IEquatable<double4>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x2A65AC0", Offset = "0x2A640C0", VA = "0x182A65AC0", Slot = "5")]
+	[Address(RVA = "0x6437FD0", Offset = "0x6436FD0", VA = "0x6437FD0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

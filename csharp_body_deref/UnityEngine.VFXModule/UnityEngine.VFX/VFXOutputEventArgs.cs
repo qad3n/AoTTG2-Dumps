@@ -16,8 +16,8 @@ public struct VFXOutputEventArgs
 {
 	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly int _003CnameId_003Ek__BackingField;
 
 	[Token(Token = "0x400001F")]
@@ -27,7 +27,7 @@ public struct VFXOutputEventArgs
 	private readonly VFXEventAttribute _003CeventAttribute_003Ek__BackingField;
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x1028B90", Offset = "0x1027190", VA = "0x181028B90")]
+	[Address(RVA = "0x6D20C50", Offset = "0x6D1FC50", VA = "0x6D20C50")]
 	public VFXOutputEventArgs(int nameId, VFXEventAttribute eventAttribute)
 	{
 	}

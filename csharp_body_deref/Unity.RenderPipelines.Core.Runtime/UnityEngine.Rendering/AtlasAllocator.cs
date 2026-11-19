@@ -28,20 +28,20 @@ internal class AtlasAllocator
 		public Vector4 m_Rect;
 
 		[Token(Token = "0x6000C81")]
-		[Address(RVA = "0x2B34FF0", Offset = "0x2B335F0", VA = "0x182B34FF0")]
+		[Address(RVA = "0x6531B00", Offset = "0x6530B00", VA = "0x6531B00")]
 		public AtlasNode Allocate(ref ObjectPool<AtlasNode> pool, int width, int height, bool powerOfTwoPadding)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C82")]
-		[Address(RVA = "0x2B35340", Offset = "0x2B33940", VA = "0x182B35340")]
+		[Address(RVA = "0x6531DC0", Offset = "0x6530DC0", VA = "0x6531DC0")]
 		public void Release(ref ObjectPool<AtlasNode> pool)
 		{
 		}
 
 		[Token(Token = "0x6000C83")]
-		[Address(RVA = "0x2B35430", Offset = "0x2B33A30", VA = "0x182B35430")]
+		[Address(RVA = "0x6531A70", Offset = "0x6530A70", VA = "0x6531A70")]
 		public AtlasNode()
 		{
 		}
@@ -68,20 +68,20 @@ internal class AtlasAllocator
 	private ObjectPool<AtlasNode> m_NodePool;
 
 	[Token(Token = "0x6000C7E")]
-	[Address(RVA = "0x2B34D70", Offset = "0x2B33370", VA = "0x182B34D70")]
+	[Address(RVA = "0x65317E0", Offset = "0x65307E0", VA = "0x65317E0")]
 	public AtlasAllocator(int width, int height, bool potPadding)
 	{
 	}
 
 	[Token(Token = "0x6000C7F")]
-	[Address(RVA = "0x2B34C90", Offset = "0x2B33290", VA = "0x182B34C90")]
+	[Address(RVA = "0x6531A80", Offset = "0x6530A80", VA = "0x6531A80")]
 	public bool Allocate(ref Vector4 result, int width, int height)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C80")]
-	[Address(RVA = "0x2B34D10", Offset = "0x2B33310", VA = "0x182B34D10")]
+	[Address(RVA = "0x6531D80", Offset = "0x6530D80", VA = "0x6531D80")]
 	public void Reset()
 	{
 	}

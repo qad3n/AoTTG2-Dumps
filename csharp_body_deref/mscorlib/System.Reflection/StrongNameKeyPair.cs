@@ -12,40 +12,40 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000551")]
+[Token(Token = "0x200052A")]
 [ComVisible(true)]
 public class StrongNameKeyPair : ISerializable, IDeserializationCallback
 {
-	[Token(Token = "0x400155E")]
+	[Token(Token = "0x40014BE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private byte[] _publicKey;
 
-	[Token(Token = "0x400155F")]
+	[Token(Token = "0x40014BF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string _keyPairContainer;
 
-	[Token(Token = "0x4001560")]
+	[Token(Token = "0x40014C0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private bool _keyPairExported;
 
-	[Token(Token = "0x4001561")]
+	[Token(Token = "0x40014C1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private byte[] _keyPairArray;
 
-	[Token(Token = "0x60027A0")]
-	[Address(RVA = "0x1A72FD0", Offset = "0x1A715D0", VA = "0x181A72FD0")]
+	[Token(Token = "0x600276E")]
+	[Address(RVA = "0x53EDEE0", Offset = "0x53ECEE0", VA = "0x53EDEE0")]
 	protected StrongNameKeyPair(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60027A1")]
-	[Address(RVA = "0x1A72EB0", Offset = "0x1A714B0", VA = "0x181A72EB0", Slot = "4")]
+	[Token(Token = "0x600276F")]
+	[Address(RVA = "0x53EE0E0", Offset = "0x53ED0E0", VA = "0x53EE0E0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60027A2")]
-	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
+	[Token(Token = "0x6002770")]
+	[Address(RVA = "0x53EE200", Offset = "0x53ED200", VA = "0x53EE200", Slot = "5")]
 	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
 	{
 	}

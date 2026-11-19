@@ -13,23 +13,23 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000314")]
+[Token(Token = "0x20002D5")]
 internal class ContentDecodeStream : WebReadStream
 {
-	[Token(Token = "0x2000315")]
+	[Token(Token = "0x20002D6")]
 	internal enum Mode
 	{
-		[Token(Token = "0x4000BCD")]
+		[Token(Token = "0x4000AFE")]
 		GZip,
-		[Token(Token = "0x4000BCE")]
+		[Token(Token = "0x4000AFF")]
 		Deflate
 	}
 
-	[Token(Token = "0x17000478")]
+	[Token(Token = "0x17000449")]
 	private Stream OriginalInnerStream
 	{
-		[Token(Token = "0x6001547")]
-		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[Token(Token = "0x6001389")]
+		[Address(RVA = "0x61807B0", Offset = "0x617F7B0", VA = "0x61807B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,28 +37,28 @@ internal class ContentDecodeStream : WebReadStream
 		}
 	}
 
-	[Token(Token = "0x6001546")]
-	[Address(RVA = "0x27DD850", Offset = "0x27DBE50", VA = "0x1827DD850")]
+	[Token(Token = "0x6001388")]
+	[Address(RVA = "0x61806B0", Offset = "0x617F6B0", VA = "0x61806B0")]
 	public static ContentDecodeStream Create(WebOperation operation, Stream innerStream, Mode mode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001548")]
-	[Address(RVA = "0x27DCE10", Offset = "0x27DB410", VA = "0x1827DCE10")]
+	[Token(Token = "0x600138A")]
+	[Address(RVA = "0x6180780", Offset = "0x617F780", VA = "0x6180780")]
 	private ContentDecodeStream(WebOperation operation, Stream decodeStream, Stream originalInnerStream)
 	{
 	}
 
-	[Token(Token = "0x6001549")]
-	[Address(RVA = "0x27D0B20", Offset = "0x27CF120", VA = "0x1827D0B20", Slot = "38")]
+	[Token(Token = "0x600138B")]
+	[Address(RVA = "0x61807C0", Offset = "0x617F7C0", VA = "0x61807C0", Slot = "39")]
 	protected override Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600154A")]
-	[Address(RVA = "0x27DD920", Offset = "0x27DBF20", VA = "0x1827DD920", Slot = "39")]
+	[Token(Token = "0x600138C")]
+	[Address(RVA = "0x61807F0", Offset = "0x617F7F0", VA = "0x61807F0", Slot = "40")]
 	internal override Task FinishReading(CancellationToken cancellationToken)
 	{
 		return null;

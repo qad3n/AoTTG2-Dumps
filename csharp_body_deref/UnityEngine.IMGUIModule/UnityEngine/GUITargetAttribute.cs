@@ -20,7 +20,7 @@ public class GUITargetAttribute : Attribute
 	internal int displayMask;
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x2F97040", Offset = "0x2F95640", VA = "0x182F97040")]
+	[Address(RVA = "0x699AF40", Offset = "0x6999F40", VA = "0x699AF40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static int GetGUITargetAttrValue(Type klass, string methodName)
 	{

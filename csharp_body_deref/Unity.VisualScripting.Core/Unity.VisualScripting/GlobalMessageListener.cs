@@ -19,37 +19,37 @@ namespace Unity.VisualScripting;
 public sealed class GlobalMessageListener : MonoBehaviour, ISingleton
 {
 	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x2DA7F80", Offset = "0x2DA6580", VA = "0x182DA7F80")]
+	[Address(RVA = "0x67A33F0", Offset = "0x67A23F0", VA = "0x67A33F0")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x2DA7C70", Offset = "0x2DA6270", VA = "0x182DA7C70")]
+	[Address(RVA = "0x67A34F0", Offset = "0x67A24F0", VA = "0x67A34F0")]
 	private void OnApplicationFocus(bool focus)
 	{
 	}
 
 	[Token(Token = "0x600041B")]
-	[Address(RVA = "0x2DA7D80", Offset = "0x2DA6380", VA = "0x182DA7D80")]
+	[Address(RVA = "0x67A3610", Offset = "0x67A2610", VA = "0x67A3610")]
 	private void OnApplicationPause(bool paused)
 	{
 	}
 
 	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x2DA7E90", Offset = "0x2DA6490", VA = "0x182DA7E90")]
+	[Address(RVA = "0x67A3730", Offset = "0x67A2730", VA = "0x67A3730")]
 	private void OnApplicationQuit()
 	{
 	}
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x2DA8070", Offset = "0x2DA6670", VA = "0x182DA8070")]
+	[Address(RVA = "0x67A3830", Offset = "0x67A2830", VA = "0x67A3830")]
 	public static void Require()
 	{
 	}
 
 	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x67A38B0", Offset = "0x67A28B0", VA = "0x67A38B0")]
 	public GlobalMessageListener()
 	{
 	}

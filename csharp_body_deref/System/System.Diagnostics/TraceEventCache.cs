@@ -10,117 +10,117 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x2000106")]
+[Token(Token = "0x20000C7")]
 public class TraceEventCache
 {
-	[Token(Token = "0x4000453")]
+	[Token(Token = "0x4000384")]
 	[FieldOffset(Offset = "0x0")]
 	private static int processId;
 
-	[Token(Token = "0x4000454")]
+	[Token(Token = "0x4000385")]
 	[FieldOffset(Offset = "0x8")]
 	private static string processName;
 
-	[Token(Token = "0x4000455")]
+	[Token(Token = "0x4000386")]
 	[FieldOffset(Offset = "0x10")]
 	private long timeStamp;
 
-	[Token(Token = "0x4000456")]
+	[Token(Token = "0x4000387")]
 	[FieldOffset(Offset = "0x18")]
 	private DateTime dateTime;
 
-	[Token(Token = "0x4000457")]
+	[Token(Token = "0x4000388")]
 	[FieldOffset(Offset = "0x20")]
 	private string stackTrace;
 
-	[Token(Token = "0x170000F3")]
+	[Token(Token = "0x170000C4")]
 	public string Callstack
 	{
-		[Token(Token = "0x600064E")]
-		[Address(RVA = "0x2874BD0", Offset = "0x28731D0", VA = "0x182874BD0")]
+		[Token(Token = "0x6000498")]
+		[Address(RVA = "0x6201070", Offset = "0x6200070", VA = "0x6201070")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F4")]
+	[Token(Token = "0x170000C5")]
 	public Stack LogicalOperationStack
 	{
-		[Token(Token = "0x600064F")]
-		[Address(RVA = "0x2874CB0", Offset = "0x28732B0", VA = "0x182874CB0")]
+		[Token(Token = "0x6000499")]
+		[Address(RVA = "0x62010A0", Offset = "0x62000A0", VA = "0x62010A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F5")]
+	[Token(Token = "0x170000C6")]
 	public DateTime DateTime
 	{
-		[Token(Token = "0x6000650")]
-		[Address(RVA = "0x2874C10", Offset = "0x2873210", VA = "0x182874C10")]
+		[Token(Token = "0x600049A")]
+		[Address(RVA = "0x62010C0", Offset = "0x62000C0", VA = "0x62010C0")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x170000F6")]
+	[Token(Token = "0x170000C7")]
 	public int ProcessId
 	{
-		[Token(Token = "0x6000651")]
-		[Address(RVA = "0x28749D0", Offset = "0x2872FD0", VA = "0x1828749D0")]
+		[Token(Token = "0x600049B")]
+		[Address(RVA = "0x6201150", Offset = "0x6200150", VA = "0x6201150")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000F7")]
+	[Token(Token = "0x170000C8")]
 	public string ThreadId
 	{
-		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x2874E00", Offset = "0x2873400", VA = "0x182874E00")]
+		[Token(Token = "0x600049C")]
+		[Address(RVA = "0x62011D0", Offset = "0x62001D0", VA = "0x62011D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F8")]
+	[Token(Token = "0x170000C9")]
 	public long Timestamp
 	{
-		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x2874E80", Offset = "0x2873480", VA = "0x182874E80")]
+		[Token(Token = "0x600049D")]
+		[Address(RVA = "0x6201260", Offset = "0x6200260", VA = "0x6201260")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x2874A20", Offset = "0x2873020", VA = "0x182874A20")]
+	[Token(Token = "0x600049E")]
+	[Address(RVA = "0x62012E0", Offset = "0x62002E0", VA = "0x62012E0")]
 	private static void InitProcessInfo()
 	{
 	}
 
-	[Token(Token = "0x6000655")]
-	[Address(RVA = "0x28749D0", Offset = "0x2872FD0", VA = "0x1828749D0")]
+	[Token(Token = "0x600049F")]
+	[Address(RVA = "0x6201190", Offset = "0x6200190", VA = "0x6201190")]
 	internal static int GetProcessId()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x1B81DF0", Offset = "0x1B803F0", VA = "0x181B81DF0")]
+	[Token(Token = "0x60004A0")]
+	[Address(RVA = "0x6201240", Offset = "0x6200240", VA = "0x6201240")]
 	internal static int GetThreadId()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x2874B60", Offset = "0x2873160", VA = "0x182874B60")]
+	[Token(Token = "0x60004A1")]
+	[Address(RVA = "0x6201770", Offset = "0x6200770", VA = "0x6201770")]
 	public TraceEventCache()
 	{
 	}

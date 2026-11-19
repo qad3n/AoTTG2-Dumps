@@ -227,14 +227,14 @@ public class PhotonPeer
 	public int CommandBufferSize
 	{
 		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+		[Address(RVA = "0x5663650", Offset = "0x5662650", VA = "0x5663650")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
+		[Address(RVA = "0x5663660", Offset = "0x5662660", VA = "0x5663660")]
 		[CompilerGenerated]
 		set
 		{
@@ -246,14 +246,14 @@ public class PhotonPeer
 	public int LimitOfUnreliableCommands
 	{
 		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
+		[Address(RVA = "0x5663670", Offset = "0x5662670", VA = "0x5663670")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600015E")]
-		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
+		[Address(RVA = "0x5663680", Offset = "0x5662680", VA = "0x5663680")]
 		[CompilerGenerated]
 		set
 		{
@@ -265,7 +265,7 @@ public class PhotonPeer
 	public int LocalTimeInMilliSeconds
 	{
 		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x1CD35B0", Offset = "0x1CD1BB0", VA = "0x181CD35B0")]
+		[Address(RVA = "0x5663690", Offset = "0x5662690", VA = "0x5663690")]
 		get
 		{
 			return default(int);
@@ -276,7 +276,7 @@ public class PhotonPeer
 	protected internal byte ClientSdkIdShifted
 	{
 		[Token(Token = "0x6000161")]
-		[Address(RVA = "0x1CD3070", Offset = "0x1CD1670", VA = "0x181CD3070")]
+		[Address(RVA = "0x5663710", Offset = "0x5662710", VA = "0x5663710")]
 		get
 		{
 			return default(byte);
@@ -288,7 +288,7 @@ public class PhotonPeer
 	public string ClientVersion
 	{
 		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x1CD3080", Offset = "0x1CD1680", VA = "0x181CD3080")]
+		[Address(RVA = "0x5663720", Offset = "0x5662720", VA = "0x5663720")]
 		get
 		{
 			return null;
@@ -299,7 +299,7 @@ public class PhotonPeer
 	public static string Version
 	{
 		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x1CD3A30", Offset = "0x1CD2030", VA = "0x181CD3A30")]
+		[Address(RVA = "0x5663A50", Offset = "0x5662A50", VA = "0x5663A50")]
 		get
 		{
 			return null;
@@ -310,14 +310,14 @@ public class PhotonPeer
 	public SerializationProtocol SerializationProtocolType
 	{
 		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
+		[Address(RVA = "0x5663D80", Offset = "0x5662D80", VA = "0x5663D80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(SerializationProtocol);
 		}
 		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
+		[Address(RVA = "0x5663D90", Offset = "0x5662D90", VA = "0x5663D90")]
 		[CompilerGenerated]
 		set
 		{
@@ -328,14 +328,14 @@ public class PhotonPeer
 	public Type SocketImplementation
 	{
 		[Token(Token = "0x6000166")]
-		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[Address(RVA = "0x5663DA0", Offset = "0x5662DA0", VA = "0x5663DA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000167")]
-		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
+		[Address(RVA = "0x5663DB0", Offset = "0x5662DB0", VA = "0x5663DB0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -346,7 +346,7 @@ public class PhotonPeer
 	public int SocketErrorCode
 	{
 		[Token(Token = "0x6000168")]
-		[Address(RVA = "0x1CD3950", Offset = "0x1CD1F50", VA = "0x181CD3950")]
+		[Address(RVA = "0x5663DC0", Offset = "0x5662DC0", VA = "0x5663DC0")]
 		get
 		{
 			return default(int);
@@ -357,14 +357,14 @@ public class PhotonPeer
 	public IPhotonPeerListener Listener
 	{
 		[Token(Token = "0x6000169")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Address(RVA = "0x5663DE0", Offset = "0x5662DE0", VA = "0x5663DE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600016A")]
-		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
+		[Address(RVA = "0x5663DF0", Offset = "0x5662DF0", VA = "0x5663DF0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -375,13 +375,13 @@ public class PhotonPeer
 	public bool ReuseEventInstance
 	{
 		[Token(Token = "0x600016D")]
-		[Address(RVA = "0x1CD3820", Offset = "0x1CD1E20", VA = "0x181CD3820")]
+		[Address(RVA = "0x5663F40", Offset = "0x5662F40", VA = "0x5663F40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600016E")]
-		[Address(RVA = "0x1CD44E0", Offset = "0x1CD2AE0", VA = "0x181CD44E0")]
+		[Address(RVA = "0x5663F50", Offset = "0x5662F50", VA = "0x5663F50")]
 		set
 		{
 		}
@@ -391,13 +391,13 @@ public class PhotonPeer
 	public bool UseByteArraySlicePoolForEvents
 	{
 		[Token(Token = "0x600016F")]
-		[Address(RVA = "0x1CD3A00", Offset = "0x1CD2000", VA = "0x181CD3A00")]
+		[Address(RVA = "0x5664030", Offset = "0x5663030", VA = "0x5664030")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000170")]
-		[Address(RVA = "0x1C5E470", Offset = "0x1C5CA70", VA = "0x181C5E470")]
+		[Address(RVA = "0x5664040", Offset = "0x5663040", VA = "0x5664040")]
 		set
 		{
 		}
@@ -407,13 +407,13 @@ public class PhotonPeer
 	public bool WrapIncomingStructs
 	{
 		[Token(Token = "0x6000171")]
-		[Address(RVA = "0x1CD3DA0", Offset = "0x1CD23A0", VA = "0x181CD3DA0")]
+		[Address(RVA = "0x5664050", Offset = "0x5663050", VA = "0x5664050")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000172")]
-		[Address(RVA = "0x1CD4630", Offset = "0x1CD2C30", VA = "0x181CD4630")]
+		[Address(RVA = "0x5664060", Offset = "0x5663060", VA = "0x5664060")]
 		set
 		{
 		}
@@ -423,7 +423,7 @@ public class PhotonPeer
 	public ByteArraySlicePool ByteArraySlicePool
 	{
 		[Token(Token = "0x6000173")]
-		[Address(RVA = "0x1CD2FA0", Offset = "0x1CD15A0", VA = "0x181CD2FA0")]
+		[Address(RVA = "0x5664070", Offset = "0x5663070", VA = "0x5664070")]
 		get
 		{
 			return null;
@@ -434,7 +434,7 @@ public class PhotonPeer
 	public long BytesIn
 	{
 		[Token(Token = "0x6000174")]
-		[Address(RVA = "0x1CD3010", Offset = "0x1CD1610", VA = "0x181CD3010")]
+		[Address(RVA = "0x56640A0", Offset = "0x56630A0", VA = "0x56640A0")]
 		get
 		{
 			return default(long);
@@ -445,7 +445,7 @@ public class PhotonPeer
 	public long BytesOut
 	{
 		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x1CD3040", Offset = "0x1CD1640", VA = "0x181CD3040")]
+		[Address(RVA = "0x56640C0", Offset = "0x56630C0", VA = "0x56640C0")]
 		get
 		{
 			return default(long);
@@ -456,7 +456,7 @@ public class PhotonPeer
 	public int ByteCountCurrentDispatch
 	{
 		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x1CD2FD0", Offset = "0x1CD15D0", VA = "0x181CD2FD0")]
+		[Address(RVA = "0x56640E0", Offset = "0x56630E0", VA = "0x56640E0")]
 		get
 		{
 			return default(int);
@@ -467,7 +467,7 @@ public class PhotonPeer
 	public string CommandInfoCurrentDispatch
 	{
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x1CD33F0", Offset = "0x1CD19F0", VA = "0x181CD33F0")]
+		[Address(RVA = "0x5664100", Offset = "0x5663100", VA = "0x5664100")]
 		get
 		{
 			return null;
@@ -478,7 +478,7 @@ public class PhotonPeer
 	public int ByteCountLastOperation
 	{
 		[Token(Token = "0x6000178")]
-		[Address(RVA = "0x1CD2FF0", Offset = "0x1CD15F0", VA = "0x181CD2FF0")]
+		[Address(RVA = "0x5664150", Offset = "0x5663150", VA = "0x5664150")]
 		get
 		{
 			return default(int);
@@ -489,14 +489,14 @@ public class PhotonPeer
 	public bool EnableServerTracing
 	{
 		[Token(Token = "0x6000179")]
-		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
+		[Address(RVA = "0x5664170", Offset = "0x5663170", VA = "0x5664170")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600017A")]
-		[Address(RVA = "0xABD3A0", Offset = "0xABB9A0", VA = "0x180ABD3A0")]
+		[Address(RVA = "0x5664180", Offset = "0x5663180", VA = "0x5664180")]
 		[CompilerGenerated]
 		set
 		{
@@ -507,13 +507,13 @@ public class PhotonPeer
 	public byte QuickResendAttempts
 	{
 		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x1CD3780", Offset = "0x1CD1D80", VA = "0x181CD3780")]
+		[Address(RVA = "0x5664190", Offset = "0x5663190", VA = "0x5664190")]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x1CD44D0", Offset = "0x1CD2AD0", VA = "0x181CD44D0")]
+		[Address(RVA = "0x56641A0", Offset = "0x56631A0", VA = "0x56641A0")]
 		set
 		{
 		}
@@ -523,7 +523,7 @@ public class PhotonPeer
 	public PeerStateValue PeerState
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x1CD36E0", Offset = "0x1CD1CE0", VA = "0x181CD36E0")]
+		[Address(RVA = "0x56641B0", Offset = "0x56631B0", VA = "0x56641B0")]
 		get
 		{
 			return default(PeerStateValue);
@@ -534,7 +534,7 @@ public class PhotonPeer
 	public string PeerID
 	{
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x1CD36B0", Offset = "0x1CD1CB0", VA = "0x181CD36B0")]
+		[Address(RVA = "0x56641E0", Offset = "0x56631E0", VA = "0x56641E0")]
 		get
 		{
 			return null;
@@ -545,7 +545,7 @@ public class PhotonPeer
 	public int QueuedIncomingCommands
 	{
 		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x1CD3720", Offset = "0x1CD1D20", VA = "0x181CD3720")]
+		[Address(RVA = "0x5664210", Offset = "0x5663210", VA = "0x5664210")]
 		get
 		{
 			return default(int);
@@ -556,7 +556,7 @@ public class PhotonPeer
 	public int QueuedOutgoingCommands
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x1CD3750", Offset = "0x1CD1D50", VA = "0x181CD3750")]
+		[Address(RVA = "0x5664240", Offset = "0x5663240", VA = "0x5664240")]
 		get
 		{
 			return default(int);
@@ -567,13 +567,13 @@ public class PhotonPeer
 	public bool CrcEnabled
 	{
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x1CD3480", Offset = "0x1CD1A80", VA = "0x181CD3480")]
+		[Address(RVA = "0x5664540", Offset = "0x5663540", VA = "0x5664540")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x1CD3E70", Offset = "0x1CD2470", VA = "0x181CD3E70")]
+		[Address(RVA = "0x5664550", Offset = "0x5663550", VA = "0x5664550")]
 		set
 		{
 		}
@@ -583,7 +583,7 @@ public class PhotonPeer
 	public int PacketLossByCrc
 	{
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x1CD3680", Offset = "0x1CD1C80", VA = "0x181CD3680")]
+		[Address(RVA = "0x56645C0", Offset = "0x56635C0", VA = "0x56645C0")]
 		get
 		{
 			return default(int);
@@ -594,7 +594,7 @@ public class PhotonPeer
 	public int PacketLossByChallenge
 	{
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x1CD3660", Offset = "0x1CD1C60", VA = "0x181CD3660")]
+		[Address(RVA = "0x56645E0", Offset = "0x56635E0", VA = "0x56645E0")]
 		get
 		{
 			return default(int);
@@ -605,7 +605,7 @@ public class PhotonPeer
 	public int SentReliableCommandsCount
 	{
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x1CD3870", Offset = "0x1CD1E70", VA = "0x181CD3870")]
+		[Address(RVA = "0x5664600", Offset = "0x5663600", VA = "0x5664600")]
 		get
 		{
 			return default(int);
@@ -616,7 +616,7 @@ public class PhotonPeer
 	public int ResentReliableCommands
 	{
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x1CD3790", Offset = "0x1CD1D90", VA = "0x181CD3790")]
+		[Address(RVA = "0x5664630", Offset = "0x5663630", VA = "0x5664630")]
 		get
 		{
 			return default(int);
@@ -627,13 +627,13 @@ public class PhotonPeer
 	public int DisconnectTimeout
 	{
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x1CD34A0", Offset = "0x1CD1AA0", VA = "0x181CD34A0")]
+		[Address(RVA = "0x56646D0", Offset = "0x56636D0", VA = "0x56646D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x1CD3F00", Offset = "0x1CD2500", VA = "0x181CD3F00")]
+		[Address(RVA = "0x56646E0", Offset = "0x56636E0", VA = "0x56646E0")]
 		set
 		{
 		}
@@ -643,7 +643,7 @@ public class PhotonPeer
 	public int ServerTimeInMilliSeconds
 	{
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x1CD3900", Offset = "0x1CD1F00", VA = "0x181CD3900")]
+		[Address(RVA = "0x56646F0", Offset = "0x56636F0", VA = "0x56646F0")]
 		get
 		{
 			return default(int);
@@ -655,7 +655,7 @@ public class PhotonPeer
 	public SupportClass.IntegerMillisecondsDelegate LocalMsTimestampDelegate
 	{
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x1CD4150", Offset = "0x1CD2750", VA = "0x181CD4150")]
+		[Address(RVA = "0x5664740", Offset = "0x5663740", VA = "0x5664740")]
 		set
 		{
 		}
@@ -665,7 +665,7 @@ public class PhotonPeer
 	public int ConnectionTime
 	{
 		[Token(Token = "0x600018D")]
-		[Address(RVA = "0x1CD3440", Offset = "0x1CD1A40", VA = "0x181CD3440")]
+		[Address(RVA = "0x5664720", Offset = "0x5663720", VA = "0x5664720")]
 		get
 		{
 			return default(int);
@@ -676,7 +676,7 @@ public class PhotonPeer
 	public int LastSendAckTime
 	{
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x1CD3550", Offset = "0x1CD1B50", VA = "0x181CD3550")]
+		[Address(RVA = "0x5664850", Offset = "0x5663850", VA = "0x5664850")]
 		get
 		{
 			return default(int);
@@ -687,7 +687,7 @@ public class PhotonPeer
 	public int LastSendOutgoingTime
 	{
 		[Token(Token = "0x600018F")]
-		[Address(RVA = "0x1CD3580", Offset = "0x1CD1B80", VA = "0x181CD3580")]
+		[Address(RVA = "0x5664870", Offset = "0x5663870", VA = "0x5664870")]
 		get
 		{
 			return default(int);
@@ -698,13 +698,13 @@ public class PhotonPeer
 	public int LongestSentCall
 	{
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0x1CD35F0", Offset = "0x1CD1BF0", VA = "0x181CD35F0")]
+		[Address(RVA = "0x5664890", Offset = "0x5663890", VA = "0x5664890")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0x1CD4290", Offset = "0x1CD2890", VA = "0x181CD4290")]
+		[Address(RVA = "0x56648B0", Offset = "0x56638B0", VA = "0x56648B0")]
 		set
 		{
 		}
@@ -714,7 +714,7 @@ public class PhotonPeer
 	public int RoundTripTime
 	{
 		[Token(Token = "0x6000192")]
-		[Address(RVA = "0x1CD3850", Offset = "0x1CD1E50", VA = "0x181CD3850")]
+		[Address(RVA = "0x56648D0", Offset = "0x56638D0", VA = "0x56648D0")]
 		get
 		{
 			return default(int);
@@ -725,7 +725,7 @@ public class PhotonPeer
 	public int RoundTripTimeVariance
 	{
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x1CD3830", Offset = "0x1CD1E30", VA = "0x181CD3830")]
+		[Address(RVA = "0x56648F0", Offset = "0x56638F0", VA = "0x56648F0")]
 		get
 		{
 			return default(int);
@@ -736,7 +736,7 @@ public class PhotonPeer
 	public int LastRoundTripTime
 	{
 		[Token(Token = "0x6000194")]
-		[Address(RVA = "0x1CD3530", Offset = "0x1CD1B30", VA = "0x181CD3530")]
+		[Address(RVA = "0x5664910", Offset = "0x5663910", VA = "0x5664910")]
 		get
 		{
 			return default(int);
@@ -747,7 +747,7 @@ public class PhotonPeer
 	public int TimestampOfLastSocketReceive
 	{
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x1CD3980", Offset = "0x1CD1F80", VA = "0x181CD3980")]
+		[Address(RVA = "0x5664930", Offset = "0x5663930", VA = "0x5664930")]
 		get
 		{
 			return default(int);
@@ -758,7 +758,7 @@ public class PhotonPeer
 	public string ServerAddress
 	{
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x1CD38A0", Offset = "0x1CD1EA0", VA = "0x181CD38A0")]
+		[Address(RVA = "0x5664950", Offset = "0x5663950", VA = "0x5664950")]
 		get
 		{
 			return null;
@@ -769,7 +769,7 @@ public class PhotonPeer
 	public string ServerIpAddress
 	{
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x1CD38C0", Offset = "0x1CD1EC0", VA = "0x181CD38C0")]
+		[Address(RVA = "0x5664970", Offset = "0x5663970", VA = "0x5664970")]
 		get
 		{
 			return null;
@@ -780,7 +780,7 @@ public class PhotonPeer
 	public ConnectionProtocol UsedProtocol
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x1CD3A10", Offset = "0x1CD2010", VA = "0x181CD3A10")]
+		[Address(RVA = "0x56646B0", Offset = "0x56636B0", VA = "0x56646B0")]
 		get
 		{
 			return default(ConnectionProtocol);
@@ -791,14 +791,14 @@ public class PhotonPeer
 	public ConnectionProtocol TransportProtocol
 	{
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x1CD39F0", Offset = "0x1CD1FF0", VA = "0x181CD39F0")]
+		[Address(RVA = "0x56649B0", Offset = "0x56639B0", VA = "0x56649B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ConnectionProtocol);
 		}
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x1CD4620", Offset = "0x1CD2C20", VA = "0x181CD4620")]
+		[Address(RVA = "0x56649C0", Offset = "0x56639C0", VA = "0x56649C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -809,13 +809,13 @@ public class PhotonPeer
 	public virtual bool IsSimulationEnabled
 	{
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x1CD3500", Offset = "0x1CD1B00", VA = "0x181CD3500", Slot = "4")]
+		[Address(RVA = "0x56649D0", Offset = "0x56639D0", VA = "0x56649D0", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x1CD4040", Offset = "0x1CD2640", VA = "0x181CD4040", Slot = "5")]
+		[Address(RVA = "0x5664A20", Offset = "0x5663A20", VA = "0x5664A20", Slot = "5")]
 		set
 		{
 		}
@@ -825,7 +825,7 @@ public class PhotonPeer
 	public NetworkSimulationSet NetworkSimulationSettings
 	{
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x1CD3630", Offset = "0x1CD1C30", VA = "0x181CD3630")]
+		[Address(RVA = "0x5664A00", Offset = "0x5663A00", VA = "0x5664A00")]
 		get
 		{
 			return null;
@@ -836,13 +836,13 @@ public class PhotonPeer
 	public int MaximumTransferUnit
 	{
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x1CD3620", Offset = "0x1CD1C20", VA = "0x181CD3620")]
+		[Address(RVA = "0x5664B30", Offset = "0x5663B30", VA = "0x5664B30")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600019F")]
-		[Address(RVA = "0x1CD42C0", Offset = "0x1CD28C0", VA = "0x181CD42C0")]
+		[Address(RVA = "0x5664B40", Offset = "0x5663B40", VA = "0x5664B40")]
 		set
 		{
 		}
@@ -852,7 +852,7 @@ public class PhotonPeer
 	public bool IsEncryptionAvailable
 	{
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x1CD34C0", Offset = "0x1CD1AC0", VA = "0x181CD34C0")]
+		[Address(RVA = "0x5664C10", Offset = "0x5663C10", VA = "0x5664C10")]
 		get
 		{
 			return default(bool);
@@ -864,14 +864,14 @@ public class PhotonPeer
 	public bool IsSendingOnlyAcks
 	{
 		[Token(Token = "0x60001A1")]
-		[Address(RVA = "0x1CD34F0", Offset = "0x1CD1AF0", VA = "0x181CD34F0")]
+		[Address(RVA = "0x5664C30", Offset = "0x5663C30", VA = "0x5664C30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001A2")]
-		[Address(RVA = "0x1CD4030", Offset = "0x1CD2630", VA = "0x181CD4030")]
+		[Address(RVA = "0x5664C40", Offset = "0x5663C40", VA = "0x5664C40")]
 		[CompilerGenerated]
 		set
 		{
@@ -882,14 +882,14 @@ public class PhotonPeer
 	public TrafficStats TrafficStatsIncoming
 	{
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
+		[Address(RVA = "0x5664C50", Offset = "0x5663C50", VA = "0x5664C50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A4")]
-		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
+		[Address(RVA = "0x5664C60", Offset = "0x5663C60", VA = "0x5664C60")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -900,14 +900,14 @@ public class PhotonPeer
 	public TrafficStats TrafficStatsOutgoing
 	{
 		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[Address(RVA = "0x5664C80", Offset = "0x5663C80", VA = "0x5664C80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x1537500", Offset = "0x1535B00", VA = "0x181537500")]
+		[Address(RVA = "0x5664C90", Offset = "0x5663C90", VA = "0x5664C90")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -918,14 +918,14 @@ public class PhotonPeer
 	public TrafficStatsGameLevel TrafficStatsGameLevel
 	{
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Address(RVA = "0x5664CB0", Offset = "0x5663CB0", VA = "0x5664CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x87BC50", Offset = "0x87A250", VA = "0x18087BC50")]
+		[Address(RVA = "0x5664CC0", Offset = "0x5663CC0", VA = "0x5664CC0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -936,7 +936,7 @@ public class PhotonPeer
 	public long TrafficStatsElapsedMs
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x1CD39B0", Offset = "0x1CD1FB0", VA = "0x181CD39B0")]
+		[Address(RVA = "0x5664CE0", Offset = "0x5663CE0", VA = "0x5664CE0")]
 		get
 		{
 			return default(long);
@@ -947,13 +947,13 @@ public class PhotonPeer
 	public bool TrafficStatsEnabled
 	{
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x1CD39E0", Offset = "0x1CD1FE0", VA = "0x181CD39E0")]
+		[Address(RVA = "0x5664D00", Offset = "0x5663D00", VA = "0x5664D00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x1CD45B0", Offset = "0x1CD2BB0", VA = "0x181CD45B0")]
+		[Address(RVA = "0x5664D10", Offset = "0x5663D10", VA = "0x5664D10")]
 		set
 		{
 		}
@@ -963,13 +963,13 @@ public class PhotonPeer
 	public Type PayloadEncryptorType
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x1CD36A0", Offset = "0x1CD1CA0", VA = "0x181CD36A0")]
+		[Address(RVA = "0x5665600", Offset = "0x5664600", VA = "0x5665600")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x1CD43B0", Offset = "0x1CD29B0", VA = "0x181CD43B0")]
+		[Address(RVA = "0x5665610", Offset = "0x5664610", VA = "0x5665610")]
 		set
 		{
 		}
@@ -979,13 +979,13 @@ public class PhotonPeer
 	public Type EncryptorType
 	{
 		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x1CD34B0", Offset = "0x1CD1AB0", VA = "0x181CD34B0")]
+		[Address(RVA = "0x5665790", Offset = "0x5664790", VA = "0x5665790")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x1CD3F10", Offset = "0x1CD2510", VA = "0x181CD3F10")]
+		[Address(RVA = "0x56657A0", Offset = "0x56647A0", VA = "0x56657A0")]
 		set
 		{
 		}
@@ -995,14 +995,14 @@ public class PhotonPeer
 	public int CountDiscarded
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x1CD3470", Offset = "0x1CD1A70", VA = "0x181CD3470")]
+		[Address(RVA = "0x5665920", Offset = "0x5664920", VA = "0x5665920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x1CD3E60", Offset = "0x1CD2460", VA = "0x181CD3E60")]
+		[Address(RVA = "0x5665930", Offset = "0x5664930", VA = "0x5665930")]
 		[CompilerGenerated]
 		set
 		{
@@ -1013,14 +1013,14 @@ public class PhotonPeer
 	public int DeltaUnreliableNumber
 	{
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x1CD3490", Offset = "0x1CD1A90", VA = "0x181CD3490")]
+		[Address(RVA = "0x5665940", Offset = "0x5664940", VA = "0x5665940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x1CD3EF0", Offset = "0x1CD24F0", VA = "0x181CD3EF0")]
+		[Address(RVA = "0x5665950", Offset = "0x5664950", VA = "0x5665950")]
 		[CompilerGenerated]
 		set
 		{
@@ -1031,13 +1031,13 @@ public class PhotonPeer
 	public event Action<DisconnectMessage> OnDisconnectMessage
 	{
 		[Token(Token = "0x600016B")]
-		[Address(RVA = "0x1CD2EF0", Offset = "0x1CD14F0", VA = "0x181CD2EF0")]
+		[Address(RVA = "0x5663E00", Offset = "0x5662E00", VA = "0x5663E00")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600016C")]
-		[Address(RVA = "0x1CD3DB0", Offset = "0x1CD23B0", VA = "0x181CD3DB0")]
+		[Address(RVA = "0x5663EA0", Offset = "0x5662EA0", VA = "0x5663EA0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -1045,7 +1045,7 @@ public class PhotonPeer
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x1CCFC40", Offset = "0x1CCE240", VA = "0x181CCFC40")]
+	[Address(RVA = "0x56636F0", Offset = "0x56626F0", VA = "0x56636F0")]
 	[Obsolete("Use the ITrafficRecorder to capture all traffic instead.")]
 	public string CommandLogToString()
 	{
@@ -1053,163 +1053,163 @@ public class PhotonPeer
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x1CD10C0", Offset = "0x1CCF6C0", VA = "0x181CD10C0")]
+	[Address(RVA = "0x5664270", Offset = "0x5663270", VA = "0x5664270")]
 	public static void MessageBufferPoolTrim(int countOfBuffers)
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x1CD1050", Offset = "0x1CCF650", VA = "0x181CD1050")]
+	[Address(RVA = "0x56644B0", Offset = "0x56634B0", VA = "0x56644B0")]
 	public static int MessageBufferPoolSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x1CD2390", Offset = "0x1CD0990", VA = "0x181CD2390")]
+	[Address(RVA = "0x5664F10", Offset = "0x5663F10", VA = "0x5664F10")]
 	public void TrafficStatsReset()
 	{
 	}
 
 	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x1CD0EC0", Offset = "0x1CCF4C0", VA = "0x181CD0EC0")]
+	[Address(RVA = "0x5664D70", Offset = "0x5663D70", VA = "0x5664D70")]
 	internal void InitializeTrafficStats()
 	{
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x1CD2450", Offset = "0x1CD0A50", VA = "0x181CD2450")]
+	[Address(RVA = "0x5664F80", Offset = "0x5663F80", VA = "0x5664F80")]
 	public string VitalStatsToString(bool all)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001B7")]
-	[Address(RVA = "0x1CD2C50", Offset = "0x1CD1250", VA = "0x181CD2C50")]
+	[Address(RVA = "0x5665960", Offset = "0x5664960", VA = "0x5665960")]
 	public PhotonPeer(ConnectionProtocol protocolType)
 	{
 	}
 
 	[Token(Token = "0x60001B8")]
-	[Address(RVA = "0x1CD2C10", Offset = "0x1CD1210", VA = "0x181CD2C10")]
+	[Address(RVA = "0x5665D60", Offset = "0x5664D60", VA = "0x5665D60")]
 	public PhotonPeer(IPhotonPeerListener listener, ConnectionProtocol protocolType)
 	{
 	}
 
 	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x1CD04B0", Offset = "0x1CCEAB0", VA = "0x181CD04B0", Slot = "6")]
+	[Address(RVA = "0x5665D90", Offset = "0x5664D90", VA = "0x5665D90", Slot = "6")]
 	public virtual bool Connect(string serverAddress, string appId, [Optional] object photonToken, [Optional] object customInitData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x1CCFC60", Offset = "0x1CCE260", VA = "0x181CCFC60", Slot = "7")]
+	[Address(RVA = "0x5665DC0", Offset = "0x5664DC0", VA = "0x5665DC0", Slot = "7")]
 	public virtual bool Connect(string serverAddress, string proxyServerAddress, string appId, object photonToken, [Optional] object customInitData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x1CD04F0", Offset = "0x1CCEAF0", VA = "0x181CD04F0")]
+	[Address(RVA = "0x5665C00", Offset = "0x5664C00", VA = "0x5665C00")]
 	private void CreatePeerBase()
 	{
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x1CD0660", Offset = "0x1CCEC60", VA = "0x181CD0660", Slot = "8")]
+	[Address(RVA = "0x56666C0", Offset = "0x56656C0", VA = "0x56666C0", Slot = "8")]
 	public virtual void Disconnect()
 	{
 	}
 
 	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x1CD1340", Offset = "0x1CCF940", VA = "0x181CD1340")]
+	[Address(RVA = "0x5666830", Offset = "0x5665830", VA = "0x5666830")]
 	internal void OnDisconnectMessageCall(DisconnectMessage dm)
 	{
 	}
 
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x1CD2230", Offset = "0x1CD0830", VA = "0x181CD2230", Slot = "9")]
+	[Address(RVA = "0x5666850", Offset = "0x5665850", VA = "0x5666850", Slot = "9")]
 	public virtual void StopThread()
 	{
 	}
 
 	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x1CD09E0", Offset = "0x1CCEFE0", VA = "0x181CD09E0", Slot = "10")]
+	[Address(RVA = "0x56669C0", Offset = "0x56659C0", VA = "0x56669C0", Slot = "10")]
 	public virtual void FetchServerTimestamp()
 	{
 	}
 
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x1CD08D0", Offset = "0x1CCEED0", VA = "0x181CD08D0")]
+	[Address(RVA = "0x56669F0", Offset = "0x56659F0", VA = "0x56669F0")]
 	public bool EstablishEncryption()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x1CD0A10", Offset = "0x1CCF010", VA = "0x181CD0A10")]
+	[Address(RVA = "0x5666B30", Offset = "0x5665B30", VA = "0x5666B30")]
 	public bool InitDatagramEncryption(byte[] encryptionSecret, byte[] hmacSecret, bool randomizedSequenceNumbers = false, bool chainingModeGCM = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x1BD59A0", Offset = "0x1BD3FA0", VA = "0x181BD59A0")]
+	[Address(RVA = "0x5667130", Offset = "0x5666130", VA = "0x5667130")]
 	public void InitPayloadEncryption(byte[] secret)
 	{
 	}
 
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x1CD21E0", Offset = "0x1CD07E0", VA = "0x181CD21E0", Slot = "11")]
+	[Address(RVA = "0x5667150", Offset = "0x5666150", VA = "0x5667150", Slot = "11")]
 	public virtual void Service()
 	{
 	}
 
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x1CD20E0", Offset = "0x1CD06E0", VA = "0x181CD20E0", Slot = "12")]
+	[Address(RVA = "0x56671A0", Offset = "0x56661A0", VA = "0x56671A0", Slot = "12")]
 	public virtual bool SendOutgoingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x1CD17A0", Offset = "0x1CCFDA0", VA = "0x181CD17A0", Slot = "13")]
+	[Address(RVA = "0x56672A0", Offset = "0x56662A0", VA = "0x56672A0", Slot = "13")]
 	public virtual bool SendAcksOnly()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x1CD07C0", Offset = "0x1CCEDC0", VA = "0x181CD07C0", Slot = "14")]
+	[Address(RVA = "0x56673A0", Offset = "0x56663A0", VA = "0x56673A0", Slot = "14")]
 	public virtual bool DispatchIncomingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x1CD1CC0", Offset = "0x1CD02C0", VA = "0x181CD1CC0", Slot = "15")]
+	[Address(RVA = "0x56674B0", Offset = "0x56664B0", VA = "0x56674B0", Slot = "15")]
 	public virtual bool SendOperation(byte operationCode, Dictionary<byte, object> operationParameters, SendOptions sendOptions)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x1CD18A0", Offset = "0x1CCFEA0", VA = "0x181CD18A0", Slot = "16")]
+	[Address(RVA = "0x5667A60", Offset = "0x5666A60", VA = "0x5667A60", Slot = "16")]
 	public virtual bool SendOperation(byte operationCode, ParameterDictionary operationParameters, SendOptions sendOptions)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x1CD1360", Offset = "0x1CCF960", VA = "0x181CD1360")]
+	[Address(RVA = "0x5668010", Offset = "0x5667010", VA = "0x5668010")]
 	public static bool RegisterType(Type customType, byte code, SerializeMethod serializeMethod, DeserializeMethod constructor)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x1CD1580", Offset = "0x1CCFB80", VA = "0x181CD1580")]
+	[Address(RVA = "0x5668280", Offset = "0x5667280", VA = "0x5668280")]
 	public static bool RegisterType(Type customType, byte code, SerializeStreamMethod serializeMethod, DeserializeStreamMethod constructor)
 	{
 		return default(bool);

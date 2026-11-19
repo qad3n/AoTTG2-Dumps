@@ -9,65 +9,65 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
 
-[Token(Token = "0x20000FD")]
+[Token(Token = "0x20000FE")]
 internal sealed class LeaveExceptionHandlerInstruction : IndexedBranchInstruction
 {
-	[Token(Token = "0x400024D")]
+	[Token(Token = "0x4000256")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly LeaveExceptionHandlerInstruction[] s_cache;
 
-	[Token(Token = "0x400024E")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000257")]
+	[FieldOffset(Offset = "0x14")]
 	private readonly bool _hasValue;
 
-	[Token(Token = "0x17000186")]
+	[Token(Token = "0x17000188")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000661")]
-		[Address(RVA = "0x243BEC0", Offset = "0x243A4C0", VA = "0x18243BEC0", Slot = "9")]
+		[Token(Token = "0x600066C")]
+		[Address(RVA = "0x5DDF200", Offset = "0x5DDE200", VA = "0x5DDF200", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000187")]
+	[Token(Token = "0x17000189")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000662")]
-		[Address(RVA = "0x2429AE0", Offset = "0x24280E0", VA = "0x182429AE0", Slot = "4")]
+		[Token(Token = "0x600066D")]
+		[Address(RVA = "0x5DDF230", Offset = "0x5DDE230", VA = "0x5DDF230", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000188")]
+	[Token(Token = "0x1700018A")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000663")]
-		[Address(RVA = "0x2429AE0", Offset = "0x24280E0", VA = "0x182429AE0", Slot = "5")]
+		[Token(Token = "0x600066E")]
+		[Address(RVA = "0x5DDF240", Offset = "0x5DDE240", VA = "0x5DDF240", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x242E200", Offset = "0x242C800", VA = "0x18242E200")]
+	[Token(Token = "0x600066B")]
+	[Address(RVA = "0x5DDF1E0", Offset = "0x5DDE1E0", VA = "0x5DDF1E0")]
 	private LeaveExceptionHandlerInstruction(int labelIndex, bool hasValue)
 	{
 	}
 
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x243BCB0", Offset = "0x243A2B0", VA = "0x18243BCB0")]
+	[Token(Token = "0x600066F")]
+	[Address(RVA = "0x5DDF250", Offset = "0x5DDE250", VA = "0x5DDF250")]
 	internal static LeaveExceptionHandlerInstruction Create(int labelIndex, bool hasValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x243BE00", Offset = "0x243A400", VA = "0x18243BE00", Slot = "8")]
+	[Token(Token = "0x6000670")]
+	[Address(RVA = "0x5DDF370", Offset = "0x5DDE370", VA = "0x5DDF370", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

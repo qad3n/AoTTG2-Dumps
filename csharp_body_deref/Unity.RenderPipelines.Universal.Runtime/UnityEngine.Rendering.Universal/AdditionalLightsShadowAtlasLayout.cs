@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.AdditionalLightsShadowAtlasLayout
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -64,13 +64,13 @@ internal struct AdditionalLightsShadowAtlasLayout
 		public bool softShadow
 		{
 			[Token(Token = "0x60006F3")]
-			[Address(RVA = "0x2C6E210", Offset = "0x2C6C810", VA = "0x182C6E210")]
+			[Address(RVA = "0x664E1A0", Offset = "0x664D1A0", VA = "0x664E1A0")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x60006F4")]
-			[Address(RVA = "0x2C6E250", Offset = "0x2C6C850", VA = "0x182C6E250")]
+			[Address(RVA = "0x664E090", Offset = "0x664D090", VA = "0x664E090")]
 			set
 			{
 			}
@@ -80,13 +80,13 @@ internal struct AdditionalLightsShadowAtlasLayout
 		public bool pointLightShadow
 		{
 			[Token(Token = "0x60006F5")]
-			[Address(RVA = "0x2C6E200", Offset = "0x2C6C800", VA = "0x182C6E200")]
+			[Address(RVA = "0x664E1B0", Offset = "0x664D1B0", VA = "0x664E1B0")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x60006F6")]
-			[Address(RVA = "0x2C6E220", Offset = "0x2C6C820", VA = "0x182C6E220")]
+			[Address(RVA = "0x664E0A0", Offset = "0x664D0A0", VA = "0x664E0A0")]
 			set
 			{
 			}
@@ -142,82 +142,82 @@ internal struct AdditionalLightsShadowAtlasLayout
 	private int m_AtlasSize;
 
 	[Token(Token = "0x60006E7")]
-	[Address(RVA = "0x2C52F20", Offset = "0x2C51520", VA = "0x182C52F20")]
+	[Address(RVA = "0x664CD60", Offset = "0x664BD60", VA = "0x664CD60")]
 	public AdditionalLightsShadowAtlasLayout(UniversalLightData lightData, UniversalShadowData shadowData, UniversalCameraData cameraData)
 	{
 	}
 
 	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
+	[Address(RVA = "0x664E1C0", Offset = "0x664D1C0", VA = "0x664E1C0")]
 	public int GetTotalShadowSlicesCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
+	[Address(RVA = "0x664E1D0", Offset = "0x664D1D0", VA = "0x664E1D0")]
 	public int GetTotalShadowResolutionRequestCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
+	[Address(RVA = "0x664E1E0", Offset = "0x664D1E0", VA = "0x664E1E0")]
 	public bool HasTooManyShadowMaps()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
+	[Address(RVA = "0x664E1F0", Offset = "0x664D1F0", VA = "0x664E1F0")]
 	public int GetShadowSlicesScaleFactor()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+	[Address(RVA = "0x664E200", Offset = "0x664D200", VA = "0x664E200")]
 	public int GetAtlasSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x2C52F10", Offset = "0x2C51510", VA = "0x182C52F10")]
+	[Address(RVA = "0x664E210", Offset = "0x664D210", VA = "0x664E210")]
 	public bool HasSpaceForLight(int originalVisibleLightIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x2C52EE0", Offset = "0x2C514E0", VA = "0x182C52EE0")]
+	[Address(RVA = "0x664E220", Offset = "0x664D220", VA = "0x664E220")]
 	public ShadowResolutionRequest GetSortedShadowResolutionRequest(int sortedShadowResolutionRequestIndex)
 	{
 		return default(ShadowResolutionRequest);
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x2C52EA0", Offset = "0x2C514A0", VA = "0x182C52EA0")]
+	[Address(RVA = "0x664E250", Offset = "0x664D250", VA = "0x664E250")]
 	public ShadowResolutionRequest GetSliceShadowResolutionRequest(int originalVisibleLightIndex, int sliceIndex)
 	{
 		return default(ShadowResolutionRequest);
 	}
 
 	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x2C52B70", Offset = "0x2C51170", VA = "0x182C52B70")]
+	[Address(RVA = "0x664E290", Offset = "0x664D290", VA = "0x664E290")]
 	public static void ClearStaticCaches()
 	{
 	}
 
 	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x2C52D70", Offset = "0x2C51370", VA = "0x182C52D70")]
+	[Address(RVA = "0x664E0B0", Offset = "0x664D0B0", VA = "0x664E0B0")]
 	private static int EstimateScaleFactorNeededToFitAllShadowsInAtlas(in NativeArray<ShadowResolutionRequest> shadowResolutionRequests, int endIndex, int atlasSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x2C52C70", Offset = "0x2C51270", VA = "0x182C52C70")]
+	[Address(RVA = "0x664DF90", Offset = "0x664CF90", VA = "0x664DF90")]
 	private static Func<ShadowResolutionRequest, ShadowResolutionRequest, int> CreateCompareShadowResolutionRequesPredicate()
 	{
 		return null;

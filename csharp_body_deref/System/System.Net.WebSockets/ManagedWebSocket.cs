@@ -17,85 +17,85 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x20003A2")]
+[Token(Token = "0x200035E")]
 internal sealed class ManagedWebSocket : WebSocket
 {
-	[Token(Token = "0x20003A3")]
+	[Token(Token = "0x200035F")]
 	private sealed class Utf8MessageState
 	{
-		[Token(Token = "0x4000FEA")]
+		[Token(Token = "0x4000F02")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		internal bool SequenceInProgress;
 
-		[Token(Token = "0x4000FEB")]
+		[Token(Token = "0x4000F03")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 		internal int AdditionalBytesExpected;
 
-		[Token(Token = "0x4000FEC")]
+		[Token(Token = "0x4000F04")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		internal int ExpectedValueMin;
 
-		[Token(Token = "0x4000FED")]
+		[Token(Token = "0x4000F05")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 		internal int CurrentDecodeBits;
 
-		[Token(Token = "0x6001917")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Token(Token = "0x600175E")]
+		[Address(RVA = "0x61BE580", Offset = "0x61BD580", VA = "0x61BE580")]
 		public Utf8MessageState()
 		{
 		}
 	}
 
-	[Token(Token = "0x20003A4")]
+	[Token(Token = "0x2000360")]
 	private enum MessageOpcode : byte
 	{
-		[Token(Token = "0x4000FEF")]
+		[Token(Token = "0x4000F07")]
 		Continuation = 0,
-		[Token(Token = "0x4000FF0")]
+		[Token(Token = "0x4000F08")]
 		Text = 1,
-		[Token(Token = "0x4000FF1")]
+		[Token(Token = "0x4000F09")]
 		Binary = 2,
-		[Token(Token = "0x4000FF2")]
+		[Token(Token = "0x4000F0A")]
 		Close = 8,
-		[Token(Token = "0x4000FF3")]
+		[Token(Token = "0x4000F0B")]
 		Ping = 9,
-		[Token(Token = "0x4000FF4")]
+		[Token(Token = "0x4000F0C")]
 		Pong = 10
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003A5")]
+	[Token(Token = "0x2000361")]
 	private struct MessageHeader
 	{
-		[Token(Token = "0x4000FF5")]
+		[Token(Token = "0x4000F0D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		internal MessageOpcode Opcode;
 
-		[Token(Token = "0x4000FF6")]
+		[Token(Token = "0x4000F0E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x1")]
 		internal bool Fin;
 
-		[Token(Token = "0x4000FF7")]
+		[Token(Token = "0x4000F0F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		internal long PayloadLength;
 
-		[Token(Token = "0x4000FF8")]
+		[Token(Token = "0x4000F10")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		internal int Mask;
 	}
 
-	[Token(Token = "0x20003A6")]
+	[Token(Token = "0x2000362")]
 	private interface IWebSocketReceiveResultGetter<TResult>
 	{
-		[Token(Token = "0x6001918")]
+		[Token(Token = "0x600175F")]
 		TResult GetResult(int count, WebSocketMessageType messageType, bool endOfMessage, WebSocketCloseStatus? closeStatus, string closeDescription);
 	}
 
-	[Token(Token = "0x20003A7")]
+	[Token(Token = "0x2000363")]
 	private readonly struct WebSocketReceiveResultGetter : IWebSocketReceiveResultGetter<WebSocketReceiveResult>
 	{
-		[Token(Token = "0x6001919")]
-		[Address(RVA = "0x28288C0", Offset = "0x2826EC0", VA = "0x1828288C0", Slot = "4")]
+		[Token(Token = "0x6001760")]
+		[Address(RVA = "0x61C23A0", Offset = "0x61C13A0", VA = "0x61C23A0", Slot = "4")]
 		public WebSocketReceiveResult GetResult(int count, WebSocketMessageType messageType, bool endOfMessage, WebSocketCloseStatus? closeStatus, string closeDescription)
 		{
 			return null;
@@ -103,38 +103,38 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003A9")]
+	[Token(Token = "0x2000365")]
 	[CompilerGenerated]
 	private struct _003CWaitForWriteTaskAsync_003Ed__55 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000FFF")]
+		[Token(Token = "0x4000F17")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001000")]
+		[Token(Token = "0x4000F18")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001001")]
+		[Token(Token = "0x4000F19")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ValueTask writeTask;
 
-		[Token(Token = "0x4001002")]
+		[Token(Token = "0x4000F1A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001003")]
+		[Token(Token = "0x4000F1B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001921")]
-		[Address(RVA = "0x2826CB0", Offset = "0x28252B0", VA = "0x182826CB0", Slot = "4")]
+		[Token(Token = "0x6001768")]
+		[Address(RVA = "0x61C2770", Offset = "0x61C1770", VA = "0x61C2770", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001922")]
-		[Address(RVA = "0x28270D0", Offset = "0x28256D0", VA = "0x1828270D0", Slot = "5")]
+		[Token(Token = "0x6001769")]
+		[Address(RVA = "0x61C2D70", Offset = "0x61C1D70", VA = "0x61C2D70", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -142,58 +142,58 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003AA")]
+	[Token(Token = "0x2000366")]
 	[CompilerGenerated]
 	private struct _003CSendFrameFallbackAsync_003Ed__56 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001004")]
+		[Token(Token = "0x4000F1C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001005")]
+		[Token(Token = "0x4000F1D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001006")]
+		[Token(Token = "0x4000F1E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001007")]
+		[Token(Token = "0x4000F1F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public MessageOpcode opcode;
 
-		[Token(Token = "0x4001008")]
+		[Token(Token = "0x4000F20")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x29")]
 		public bool endOfMessage;
 
-		[Token(Token = "0x4001009")]
+		[Token(Token = "0x4000F21")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public ReadOnlyMemory<byte> payloadBuffer;
 
-		[Token(Token = "0x400100A")]
+		[Token(Token = "0x4000F22")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x400100B")]
+		[Token(Token = "0x4000F23")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x400100C")]
+		[Token(Token = "0x4000F24")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private CancellationTokenRegistration _003C_003E7__wrap1;
 
-		[Token(Token = "0x400100D")]
+		[Token(Token = "0x4000F25")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6001923")]
-		[Address(RVA = "0x2822650", Offset = "0x2820C50", VA = "0x182822650", Slot = "4")]
+		[Token(Token = "0x600176A")]
+		[Address(RVA = "0x61C2DD0", Offset = "0x61C1DD0", VA = "0x61C2DD0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001924")]
-		[Address(RVA = "0x2822F70", Offset = "0x2821570", VA = "0x182822F70", Slot = "5")]
+		[Token(Token = "0x600176B")]
+		[Address(RVA = "0x61C38C0", Offset = "0x61C28C0", VA = "0x61C38C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -201,60 +201,60 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003AC")]
+	[Token(Token = "0x2000368")]
 	[CompilerGenerated]
 	private struct _003CReceiveAsyncPrivate_003Ed__61<TWebSocketReceiveResultGetter, TWebSocketReceiveResult> : IAsyncStateMachine where TWebSocketReceiveResultGetter : struct, IWebSocketReceiveResultGetter<TWebSocketReceiveResult>
 	{
-		[Token(Token = "0x4001010")]
+		[Token(Token = "0x4000F28")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001011")]
+		[Token(Token = "0x4000F29")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public AsyncValueTaskMethodBuilder<TWebSocketReceiveResult> _003C_003Et__builder;
 
-		[Token(Token = "0x4001012")]
+		[Token(Token = "0x4000F2A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4001013")]
+		[Token(Token = "0x4000F2B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001014")]
+		[Token(Token = "0x4000F2C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public TWebSocketReceiveResultGetter resultGetter;
 
-		[Token(Token = "0x4001015")]
+		[Token(Token = "0x4000F2D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public Memory<byte> payloadBuffer;
 
-		[Token(Token = "0x4001016")]
+		[Token(Token = "0x4000F2E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationTokenRegistration _003Cregistration_003E5__2;
 
-		[Token(Token = "0x4001017")]
+		[Token(Token = "0x4000F2F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private MessageHeader _003Cheader_003E5__3;
 
-		[Token(Token = "0x4001018")]
+		[Token(Token = "0x4000F30")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private int _003CtotalBytesReceived_003E5__4;
 
-		[Token(Token = "0x4001019")]
+		[Token(Token = "0x4000F31")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x400101A")]
+		[Token(Token = "0x4000F32")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6001928")]
+		[Token(Token = "0x600176F")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001929")]
+		[Token(Token = "0x6001770")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -262,50 +262,50 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003AD")]
+	[Token(Token = "0x2000369")]
 	[CompilerGenerated]
 	private struct _003CHandleReceivedCloseAsync_003Ed__62 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400101B")]
+		[Token(Token = "0x4000F33")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400101C")]
+		[Token(Token = "0x4000F34")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400101D")]
+		[Token(Token = "0x4000F35")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x400101E")]
+		[Token(Token = "0x4000F36")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public MessageHeader header;
 
-		[Token(Token = "0x400101F")]
+		[Token(Token = "0x4000F37")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4001020")]
+		[Token(Token = "0x4000F38")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private WebSocketCloseStatus _003CcloseStatus_003E5__2;
 
-		[Token(Token = "0x4001021")]
+		[Token(Token = "0x4000F39")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private string _003CcloseStatusDescription_003E5__3;
 
-		[Token(Token = "0x4001022")]
+		[Token(Token = "0x4000F3A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x600192A")]
-		[Address(RVA = "0x281FCD0", Offset = "0x281E2D0", VA = "0x18281FCD0", Slot = "4")]
+		[Token(Token = "0x6001771")]
+		[Address(RVA = "0x61C3920", Offset = "0x61C2920", VA = "0x61C3920", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600192B")]
-		[Address(RVA = "0x28206F0", Offset = "0x281ECF0", VA = "0x1828206F0", Slot = "5")]
+		[Token(Token = "0x6001772")]
+		[Address(RVA = "0x61C4540", Offset = "0x61C3540", VA = "0x61C4540", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -313,46 +313,46 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003AE")]
+	[Token(Token = "0x200036A")]
 	[CompilerGenerated]
 	private struct _003CWaitForServerToCloseConnectionAsync_003Ed__63 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001023")]
+		[Token(Token = "0x4000F3B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001024")]
+		[Token(Token = "0x4000F3C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001025")]
+		[Token(Token = "0x4000F3D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001026")]
+		[Token(Token = "0x4000F3E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4001027")]
+		[Token(Token = "0x4000F3F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private CancellationTokenSource _003CfinalCts_003E5__2;
 
-		[Token(Token = "0x4001028")]
+		[Token(Token = "0x4000F40")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private CancellationTokenRegistration _003C_003E7__wrap2;
 
-		[Token(Token = "0x4001029")]
+		[Token(Token = "0x4000F41")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x600192C")]
-		[Address(RVA = "0x28264D0", Offset = "0x2824AD0", VA = "0x1828264D0", Slot = "4")]
+		[Token(Token = "0x6001773")]
+		[Address(RVA = "0x61C45A0", Offset = "0x61C35A0", VA = "0x61C45A0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600192D")]
-		[Address(RVA = "0x2826C50", Offset = "0x2825250", VA = "0x182826C50", Slot = "5")]
+		[Token(Token = "0x6001774")]
+		[Address(RVA = "0x61C4DE0", Offset = "0x61C3DE0", VA = "0x61C4DE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -360,46 +360,46 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003AF")]
+	[Token(Token = "0x200036B")]
 	[CompilerGenerated]
 	private struct _003CHandleReceivedPingPongAsync_003Ed__64 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400102A")]
+		[Token(Token = "0x4000F42")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400102B")]
+		[Token(Token = "0x4000F43")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400102C")]
+		[Token(Token = "0x4000F44")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public MessageHeader header;
 
-		[Token(Token = "0x400102D")]
+		[Token(Token = "0x4000F45")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x400102E")]
+		[Token(Token = "0x4000F46")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x400102F")]
+		[Token(Token = "0x4000F47")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x4001030")]
+		[Token(Token = "0x4000F48")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x600192E")]
-		[Address(RVA = "0x2820750", Offset = "0x281ED50", VA = "0x182820750", Slot = "4")]
+		[Token(Token = "0x6001775")]
+		[Address(RVA = "0x61C4E40", Offset = "0x61C3E40", VA = "0x61C4E40", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600192F")]
-		[Address(RVA = "0x2820CD0", Offset = "0x281F2D0", VA = "0x182820CD0", Slot = "5")]
+		[Token(Token = "0x6001776")]
+		[Address(RVA = "0x61C55C0", Offset = "0x61C45C0", VA = "0x61C55C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -407,46 +407,46 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003B0")]
+	[Token(Token = "0x200036C")]
 	[CompilerGenerated]
 	private struct _003CCloseWithReceiveErrorAndThrowAsync_003Ed__66 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001031")]
+		[Token(Token = "0x4000F49")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001032")]
+		[Token(Token = "0x4000F4A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001033")]
+		[Token(Token = "0x4000F4B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001034")]
+		[Token(Token = "0x4000F4C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public WebSocketCloseStatus closeStatus;
 
-		[Token(Token = "0x4001035")]
+		[Token(Token = "0x4000F4D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 		public WebSocketError error;
 
-		[Token(Token = "0x4001036")]
+		[Token(Token = "0x4000F4E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public Exception innerException;
 
-		[Token(Token = "0x4001037")]
+		[Token(Token = "0x4000F4F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001930")]
-		[Address(RVA = "0x281D250", Offset = "0x281B850", VA = "0x18281D250", Slot = "4")]
+		[Token(Token = "0x6001777")]
+		[Address(RVA = "0x61C5620", Offset = "0x61C4620", VA = "0x61C5620", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001931")]
-		[Address(RVA = "0x281D450", Offset = "0x281BA50", VA = "0x18281D450", Slot = "5")]
+		[Token(Token = "0x6001778")]
+		[Address(RVA = "0x61C5870", Offset = "0x61C4870", VA = "0x61C5870", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -454,50 +454,50 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003B1")]
+	[Token(Token = "0x200036D")]
 	[CompilerGenerated]
 	private struct _003CCloseAsyncPrivate_003Ed__68 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001038")]
+		[Token(Token = "0x4000F50")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001039")]
+		[Token(Token = "0x4000F51")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400103A")]
+		[Token(Token = "0x4000F52")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x400103B")]
+		[Token(Token = "0x4000F53")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public WebSocketCloseStatus closeStatus;
 
-		[Token(Token = "0x400103C")]
+		[Token(Token = "0x4000F54")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string statusDescription;
 
-		[Token(Token = "0x400103D")]
+		[Token(Token = "0x4000F55")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x400103E")]
+		[Token(Token = "0x4000F56")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private byte[] _003CcloseBuffer_003E5__2;
 
-		[Token(Token = "0x400103F")]
+		[Token(Token = "0x4000F57")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001932")]
-		[Address(RVA = "0x281CAE0", Offset = "0x281B0E0", VA = "0x18281CAE0", Slot = "4")]
+		[Token(Token = "0x6001779")]
+		[Address(RVA = "0x61C58D0", Offset = "0x61C48D0", VA = "0x61C58D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001933")]
-		[Address(RVA = "0x281D1F0", Offset = "0x281B7F0", VA = "0x18281D1F0", Slot = "5")]
+		[Token(Token = "0x600177A")]
+		[Address(RVA = "0x61C6060", Offset = "0x61C5060", VA = "0x61C6060", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -505,54 +505,54 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003B2")]
+	[Token(Token = "0x200036E")]
 	[CompilerGenerated]
 	private struct _003CSendCloseFrameAsync_003Ed__69 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001040")]
+		[Token(Token = "0x4000F58")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4001041")]
+		[Token(Token = "0x4000F59")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001042")]
+		[Token(Token = "0x4000F5A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string closeStatusDescription;
 
-		[Token(Token = "0x4001043")]
+		[Token(Token = "0x4000F5B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public WebSocketCloseStatus closeStatus;
 
-		[Token(Token = "0x4001044")]
+		[Token(Token = "0x4000F5C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x4001045")]
+		[Token(Token = "0x4000F5D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4001046")]
+		[Token(Token = "0x4000F5E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private byte[] _003Cbuffer_003E5__2;
 
-		[Token(Token = "0x4001047")]
+		[Token(Token = "0x4000F5F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x4001048")]
+		[Token(Token = "0x4000F60")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6001934")]
-		[Address(RVA = "0x2821CF0", Offset = "0x28202F0", VA = "0x182821CF0", Slot = "4")]
+		[Token(Token = "0x600177B")]
+		[Address(RVA = "0x61C60C0", Offset = "0x61C50C0", VA = "0x61C60C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001935")]
-		[Address(RVA = "0x28225F0", Offset = "0x2820BF0", VA = "0x1828225F0", Slot = "5")]
+		[Token(Token = "0x600177C")]
+		[Address(RVA = "0x61C6BA0", Offset = "0x61C5BA0", VA = "0x61C6BA0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -560,480 +560,480 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[StructLayout(LayoutKind.Auto)]
-	[Token(Token = "0x20003B3")]
+	[Token(Token = "0x200036F")]
 	[CompilerGenerated]
 	private struct _003CEnsureBufferContainsAsync_003Ed__71 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4001049")]
+		[Token(Token = "0x4000F61")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400104A")]
+		[Token(Token = "0x4000F62")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400104B")]
+		[Token(Token = "0x4000F63")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public ManagedWebSocket _003C_003E4__this;
 
-		[Token(Token = "0x400104C")]
+		[Token(Token = "0x4000F64")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public int minimumRequiredBytes;
 
-		[Token(Token = "0x400104D")]
+		[Token(Token = "0x4000F65")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x400104E")]
+		[Token(Token = "0x4000F66")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public bool throwOnPrematureClosure;
 
-		[Token(Token = "0x400104F")]
+		[Token(Token = "0x4000F67")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6001936")]
-		[Address(RVA = "0x281F6F0", Offset = "0x281DCF0", VA = "0x18281F6F0", Slot = "4")]
+		[Token(Token = "0x600177D")]
+		[Address(RVA = "0x61C6C00", Offset = "0x61C5C00", VA = "0x61C6C00", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6001937")]
-		[Address(RVA = "0x281FC70", Offset = "0x281E270", VA = "0x18281FC70", Slot = "5")]
+		[Token(Token = "0x600177E")]
+		[Address(RVA = "0x61C71B0", Offset = "0x61C61B0", VA = "0x61C71B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000FCE")]
+	[Token(Token = "0x4000EE6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly RandomNumberGenerator s_random;
 
-	[Token(Token = "0x4000FCF")]
+	[Token(Token = "0x4000EE7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static readonly UTF8Encoding s_textEncoding;
 
-	[Token(Token = "0x4000FD0")]
+	[Token(Token = "0x4000EE8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static readonly WebSocketState[] s_validSendStates;
 
-	[Token(Token = "0x4000FD1")]
+	[Token(Token = "0x4000EE9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private static readonly WebSocketState[] s_validReceiveStates;
 
-	[Token(Token = "0x4000FD2")]
+	[Token(Token = "0x4000EEA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static readonly WebSocketState[] s_validCloseOutputStates;
 
-	[Token(Token = "0x4000FD3")]
+	[Token(Token = "0x4000EEB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private static readonly WebSocketState[] s_validCloseStates;
 
-	[Token(Token = "0x4000FD4")]
+	[Token(Token = "0x4000EEC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private static readonly Task<WebSocketReceiveResult> s_cachedCloseTask;
 
-	[Token(Token = "0x4000FD5")]
+	[Token(Token = "0x4000EED")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly Stream _stream;
 
-	[Token(Token = "0x4000FD6")]
+	[Token(Token = "0x4000EEE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly bool _isServer;
 
-	[Token(Token = "0x4000FD7")]
+	[Token(Token = "0x4000EEF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly string _subprotocol;
 
-	[Token(Token = "0x4000FD8")]
+	[Token(Token = "0x4000EF0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly Timer _keepAliveTimer;
 
-	[Token(Token = "0x4000FD9")]
+	[Token(Token = "0x4000EF1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private readonly CancellationTokenSource _abortSource;
 
-	[Token(Token = "0x4000FDA")]
+	[Token(Token = "0x4000EF2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private Memory<byte> _receiveBuffer;
 
-	[Token(Token = "0x4000FDB")]
+	[Token(Token = "0x4000EF3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private readonly Utf8MessageState _utf8TextState;
 
-	[Token(Token = "0x4000FDC")]
+	[Token(Token = "0x4000EF4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private readonly SemaphoreSlim _sendFrameAsyncLock;
 
-	[Token(Token = "0x4000FDD")]
+	[Token(Token = "0x4000EF5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private WebSocketState _state;
 
-	[Token(Token = "0x4000FDE")]
+	[Token(Token = "0x4000EF6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x5C")]
 	private bool _disposed;
 
-	[Token(Token = "0x4000FDF")]
+	[Token(Token = "0x4000EF7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x5D")]
 	private bool _sentCloseFrame;
 
-	[Token(Token = "0x4000FE0")]
+	[Token(Token = "0x4000EF8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x5E")]
 	private bool _receivedCloseFrame;
 
-	[Token(Token = "0x4000FE1")]
+	[Token(Token = "0x4000EF9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private WebSocketCloseStatus? _closeStatus;
 
-	[Token(Token = "0x4000FE2")]
+	[Token(Token = "0x4000EFA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private string _closeStatusDescription;
 
-	[Token(Token = "0x4000FE3")]
+	[Token(Token = "0x4000EFB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private MessageHeader _lastReceiveHeader;
 
-	[Token(Token = "0x4000FE4")]
+	[Token(Token = "0x4000EFC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private int _receiveBufferOffset;
 
-	[Token(Token = "0x4000FE5")]
+	[Token(Token = "0x4000EFD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private int _receiveBufferCount;
 
-	[Token(Token = "0x4000FE6")]
+	[Token(Token = "0x4000EFE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private int _receivedMaskOffsetOffset;
 
-	[Token(Token = "0x4000FE7")]
+	[Token(Token = "0x4000EFF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private byte[] _sendBuffer;
 
-	[Token(Token = "0x4000FE8")]
+	[Token(Token = "0x4000F00")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private bool _lastSendWasFragment;
 
-	[Token(Token = "0x4000FE9")]
+	[Token(Token = "0x4000F01")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Task _lastReceiveAsync;
 
-	[Token(Token = "0x17000552")]
+	[Token(Token = "0x17000525")]
 	private object StateUpdateLock
 	{
-		[Token(Token = "0x60018EB")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x6001732")]
+		[Address(RVA = "0x61BE560", Offset = "0x61BD560", VA = "0x61BE560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000553")]
+	[Token(Token = "0x17000526")]
 	private object ReceiveAsyncLock
 	{
-		[Token(Token = "0x60018EC")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x6001733")]
+		[Address(RVA = "0x61BE570", Offset = "0x61BD570", VA = "0x61BE570")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000554")]
+	[Token(Token = "0x17000527")]
 	public override string CloseStatusDescription
 	{
-		[Token(Token = "0x60018F0")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0", Slot = "5")]
+		[Token(Token = "0x6001737")]
+		[Address(RVA = "0x61BE6C0", Offset = "0x61BD6C0", VA = "0x61BE6C0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000555")]
+	[Token(Token = "0x17000528")]
 	public override WebSocketState State
 	{
-		[Token(Token = "0x60018F1")]
-		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0", Slot = "6")]
+		[Token(Token = "0x6001738")]
+		[Address(RVA = "0x61BE6D0", Offset = "0x61BD6D0", VA = "0x61BE6D0", Slot = "6")]
 		get
 		{
 			return default(WebSocketState);
 		}
 	}
 
-	[Token(Token = "0x60018EA")]
-	[Address(RVA = "0x28155C0", Offset = "0x2813BC0", VA = "0x1828155C0")]
+	[Token(Token = "0x6001731")]
+	[Address(RVA = "0x61BE020", Offset = "0x61BD020", VA = "0x61BE020")]
 	public static ManagedWebSocket CreateFromConnectedStream(Stream stream, bool isServer, string subprotocol, TimeSpan keepAliveInterval)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018ED")]
-	[Address(RVA = "0x28185C0", Offset = "0x2816BC0", VA = "0x1828185C0")]
+	[Token(Token = "0x6001734")]
+	[Address(RVA = "0x61BE090", Offset = "0x61BD090", VA = "0x61BE090")]
 	private ManagedWebSocket(Stream stream, bool isServer, string subprotocol, TimeSpan keepAliveInterval)
 	{
 	}
 
-	[Token(Token = "0x60018EE")]
-	[Address(RVA = "0x2815740", Offset = "0x2813D40", VA = "0x182815740", Slot = "10")]
+	[Token(Token = "0x6001735")]
+	[Address(RVA = "0x61BE5A0", Offset = "0x61BD5A0", VA = "0x61BE5A0", Slot = "10")]
 	public override void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60018EF")]
-	[Address(RVA = "0x28156F0", Offset = "0x2813CF0", VA = "0x1828156F0")]
+	[Token(Token = "0x6001736")]
+	[Address(RVA = "0x61BE680", Offset = "0x61BD680", VA = "0x61BE680")]
 	private void DisposeCore()
 	{
 	}
 
-	[Token(Token = "0x60018F2")]
-	[Address(RVA = "0x2815F50", Offset = "0x2814550", VA = "0x182815F50", Slot = "12")]
+	[Token(Token = "0x6001739")]
+	[Address(RVA = "0x61BE6E0", Offset = "0x61BD6E0", VA = "0x61BE6E0", Slot = "12")]
 	public override Task SendAsync(ArraySegment<byte> buffer, WebSocketMessageType messageType, bool endOfMessage, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F3")]
-	[Address(RVA = "0x2816F80", Offset = "0x2815580", VA = "0x182816F80")]
+	[Token(Token = "0x600173A")]
+	[Address(RVA = "0x61BEB10", Offset = "0x61BDB10", VA = "0x61BEB10")]
 	private ValueTask SendPrivateAsync(ReadOnlyMemory<byte> buffer, WebSocketMessageType messageType, bool endOfMessage, CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
-	[Token(Token = "0x60018F4")]
-	[Address(RVA = "0x2815BB0", Offset = "0x28141B0", VA = "0x182815BB0", Slot = "11")]
+	[Token(Token = "0x600173B")]
+	[Address(RVA = "0x61BF0B0", Offset = "0x61BE0B0", VA = "0x61BF0B0", Slot = "11")]
 	public override Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> buffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F5")]
-	[Address(RVA = "0x2815120", Offset = "0x2813720", VA = "0x182815120", Slot = "8")]
+	[Token(Token = "0x600173C")]
+	[Address(RVA = "0x61BF460", Offset = "0x61BE460", VA = "0x61BF460", Slot = "8")]
 	public override Task CloseAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F6")]
-	[Address(RVA = "0x28152F0", Offset = "0x28138F0", VA = "0x1828152F0", Slot = "9")]
+	[Token(Token = "0x600173D")]
+	[Address(RVA = "0x61BF860", Offset = "0x61BE860", VA = "0x61BF860", Slot = "9")]
 	public override Task CloseOutputAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F7")]
-	[Address(RVA = "0x2814D80", Offset = "0x2813380", VA = "0x182814D80", Slot = "7")]
+	[Token(Token = "0x600173E")]
+	[Address(RVA = "0x61BFAE0", Offset = "0x61BEAE0", VA = "0x61BFAE0", Slot = "7")]
 	public override void Abort()
 	{
 	}
 
-	[Token(Token = "0x60018F8")]
-	[Address(RVA = "0x2816320", Offset = "0x2814920", VA = "0x182816320")]
+	[Token(Token = "0x600173F")]
+	[Address(RVA = "0x61BEF90", Offset = "0x61BDF90", VA = "0x61BEF90")]
 	private ValueTask SendFrameAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer, CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
-	[Token(Token = "0x60018F9")]
-	[Address(RVA = "0x2816660", Offset = "0x2814C60", VA = "0x182816660")]
+	[Token(Token = "0x6001740")]
+	[Address(RVA = "0x61BFB10", Offset = "0x61BEB10", VA = "0x61BFB10")]
 	private ValueTask SendFrameLockAcquiredNonCancelableAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer)
 	{
 		return default(ValueTask);
 	}
 
-	[Token(Token = "0x60018FA")]
-	[Address(RVA = "0x2817BE0", Offset = "0x28161E0", VA = "0x182817BE0")]
+	[Token(Token = "0x6001741")]
+	[Address(RVA = "0x61C0580", Offset = "0x61BF580", VA = "0x61C0580")]
 	[AsyncStateMachine(typeof(_003CWaitForWriteTaskAsync_003Ed__55))]
 	private Task WaitForWriteTaskAsync(ValueTask writeTask)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018FB")]
-	[Address(RVA = "0x2816540", Offset = "0x2814B40", VA = "0x182816540")]
+	[Token(Token = "0x6001742")]
+	[Address(RVA = "0x61C0000", Offset = "0x61BF000", VA = "0x61C0000")]
 	[AsyncStateMachine(typeof(_003CSendFrameFallbackAsync_003Ed__56))]
 	private Task SendFrameFallbackAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018FC")]
-	[Address(RVA = "0x2817CF0", Offset = "0x28162F0", VA = "0x182817CF0")]
+	[Token(Token = "0x6001743")]
+	[Address(RVA = "0x61C0140", Offset = "0x61BF140", VA = "0x61C0140")]
 	private int WriteFrameToSendBuffer(MessageOpcode opcode, bool endOfMessage, ReadOnlySpan<byte> payloadBuffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018FD")]
-	[Address(RVA = "0x2816BA0", Offset = "0x28151A0", VA = "0x182816BA0")]
+	[Token(Token = "0x6001744")]
+	[Address(RVA = "0x61C0A80", Offset = "0x61BFA80", VA = "0x61C0A80")]
 	private void SendKeepAliveFrameAsync()
 	{
 	}
 
-	[Token(Token = "0x60018FE")]
-	[Address(RVA = "0x2818060", Offset = "0x2816660", VA = "0x182818060")]
+	[Token(Token = "0x6001745")]
+	[Address(RVA = "0x61C0810", Offset = "0x61BF810", VA = "0x61C0810")]
 	private static int WriteHeader(MessageOpcode opcode, byte[] sendBuffer, ReadOnlySpan<byte> payload, bool endOfMessage, bool useMask)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60018FF")]
-	[Address(RVA = "0x2818220", Offset = "0x2816820", VA = "0x182818220")]
+	[Token(Token = "0x6001746")]
+	[Address(RVA = "0x61C0FC0", Offset = "0x61BFFC0", VA = "0x61C0FC0")]
 	private static void WriteRandomMask(byte[] buffer, int offset)
 	{
 	}
 
-	[Token(Token = "0x6001900")]
+	[Token(Token = "0x6001747")]
 	[AsyncStateMachine(typeof(_003CReceiveAsyncPrivate_003Ed__61<, >))]
 	private ValueTask<TWebSocketReceiveResult> ReceiveAsyncPrivate<TWebSocketReceiveResultGetter, TWebSocketReceiveResult>(Memory<byte> payloadBuffer, CancellationToken cancellationToken, [Optional] TWebSocketReceiveResultGetter resultGetter) where TWebSocketReceiveResultGetter : struct, IWebSocketReceiveResultGetter<TWebSocketReceiveResult>
 	{
 		return default(ValueTask<TWebSocketReceiveResult>);
 	}
 
-	[Token(Token = "0x6001901")]
-	[Address(RVA = "0x2815910", Offset = "0x2813F10", VA = "0x182815910")]
+	[Token(Token = "0x6001748")]
+	[Address(RVA = "0x61C1060", Offset = "0x61C0060", VA = "0x61C1060")]
 	[AsyncStateMachine(typeof(_003CHandleReceivedCloseAsync_003Ed__62))]
 	private Task HandleReceivedCloseAsync(MessageHeader header, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001902")]
-	[Address(RVA = "0x2817AE0", Offset = "0x28160E0", VA = "0x182817AE0")]
+	[Token(Token = "0x6001749")]
+	[Address(RVA = "0x61C1190", Offset = "0x61C0190", VA = "0x61C1190")]
 	[AsyncStateMachine(typeof(_003CWaitForServerToCloseConnectionAsync_003Ed__63))]
 	private Task WaitForServerToCloseConnectionAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001903")]
-	[Address(RVA = "0x2815A40", Offset = "0x2814040", VA = "0x182815A40")]
+	[Token(Token = "0x600174A")]
+	[Address(RVA = "0x61C1280", Offset = "0x61C0280", VA = "0x61C1280")]
 	[AsyncStateMachine(typeof(_003CHandleReceivedPingPongAsync_003Ed__64))]
 	private Task HandleReceivedPingPongAsync(MessageHeader header, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001904")]
-	[Address(RVA = "0x2815B70", Offset = "0x2814170", VA = "0x182815B70")]
+	[Token(Token = "0x600174B")]
+	[Address(RVA = "0x61C13B0", Offset = "0x61C03B0", VA = "0x61C13B0")]
 	private static bool IsValidCloseStatus(WebSocketCloseStatus closeStatus)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001905")]
-	[Address(RVA = "0x28153E0", Offset = "0x28139E0", VA = "0x1828153E0")]
+	[Token(Token = "0x600174C")]
+	[Address(RVA = "0x61C13F0", Offset = "0x61C03F0", VA = "0x61C13F0")]
 	[AsyncStateMachine(typeof(_003CCloseWithReceiveErrorAndThrowAsync_003Ed__66))]
 	private Task CloseWithReceiveErrorAndThrowAsync(WebSocketCloseStatus closeStatus, WebSocketError error, [Optional] Exception innerException)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001906")]
-	[Address(RVA = "0x2817400", Offset = "0x2815A00", VA = "0x182817400")]
+	[Token(Token = "0x600174D")]
+	[Address(RVA = "0x61C1500", Offset = "0x61C0500", VA = "0x61C1500")]
 	private bool TryParseMessageHeaderFromReceiveBuffer(out MessageHeader resultHeader)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001907")]
-	[Address(RVA = "0x2815000", Offset = "0x2813600", VA = "0x182815000")]
+	[Token(Token = "0x600174E")]
+	[Address(RVA = "0x61BF740", Offset = "0x61BE740", VA = "0x61BF740")]
 	[AsyncStateMachine(typeof(_003CCloseAsyncPrivate_003Ed__68))]
 	private Task CloseAsyncPrivate(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001908")]
-	[Address(RVA = "0x2816200", Offset = "0x2814800", VA = "0x182816200")]
+	[Token(Token = "0x600174F")]
+	[Address(RVA = "0x61BF9B0", Offset = "0x61BE9B0", VA = "0x61BF9B0")]
 	[AsyncStateMachine(typeof(_003CSendCloseFrameAsync_003Ed__69))]
 	private Task SendCloseFrameAsync(WebSocketCloseStatus closeStatus, string closeStatusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001909")]
-	[Address(RVA = "0x28155B0", Offset = "0x2813BB0", VA = "0x1828155B0")]
+	[Token(Token = "0x6001750")]
+	[Address(RVA = "0x61C17C0", Offset = "0x61C07C0", VA = "0x61C17C0")]
 	private void ConsumeFromBuffer(int count)
 	{
 	}
 
-	[Token(Token = "0x600190A")]
-	[Address(RVA = "0x2815800", Offset = "0x2813E00", VA = "0x182815800")]
+	[Token(Token = "0x6001751")]
+	[Address(RVA = "0x61C1880", Offset = "0x61C0880", VA = "0x61C1880")]
 	[AsyncStateMachine(typeof(_003CEnsureBufferContainsAsync_003Ed__71))]
 	private Task EnsureBufferContainsAsync(int minimumRequiredBytes, CancellationToken cancellationToken, bool throwOnPrematureClosure = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600190B")]
-	[Address(RVA = "0x28172B0", Offset = "0x28158B0", VA = "0x1828172B0")]
+	[Token(Token = "0x6001752")]
+	[Address(RVA = "0x61C1990", Offset = "0x61C0990", VA = "0x61C1990")]
 	private void ThrowIfEOFUnexpected(bool throwOnPrematureClosure)
 	{
 	}
 
-	[Token(Token = "0x600190C")]
-	[Address(RVA = "0x2814DC0", Offset = "0x28133C0", VA = "0x182814DC0")]
+	[Token(Token = "0x6001753")]
+	[Address(RVA = "0x61C0680", Offset = "0x61BF680", VA = "0x61C0680")]
 	private void AllocateSendBuffer(int minLength)
 	{
 	}
 
-	[Token(Token = "0x600190D")]
-	[Address(RVA = "0x2815EA0", Offset = "0x28144A0", VA = "0x182815EA0")]
+	[Token(Token = "0x6001754")]
+	[Address(RVA = "0x61C1A40", Offset = "0x61C0A40", VA = "0x61C1A40")]
 	private void ReleaseSendBuffer()
 	{
 	}
 
-	[Token(Token = "0x600190E")]
-	[Address(RVA = "0x28154F0", Offset = "0x2813AF0", VA = "0x1828154F0")]
+	[Token(Token = "0x6001755")]
+	[Address(RVA = "0x61C17D0", Offset = "0x61C07D0", VA = "0x61C17D0")]
 	private static int CombineMaskBytes(Span<byte> buffer, int maskOffset)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600190F")]
-	[Address(RVA = "0x2814E60", Offset = "0x2813460", VA = "0x182814E60")]
+	[Token(Token = "0x6001756")]
+	[Address(RVA = "0x61C09E0", Offset = "0x61BF9E0", VA = "0x61C09E0")]
 	private static int ApplyMask(Span<byte> toMask, byte[] mask, int maskOffset, int maskOffsetIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001910")]
-	[Address(RVA = "0x2814F10", Offset = "0x2813510", VA = "0x182814F10")]
+	[Token(Token = "0x6001757")]
+	[Address(RVA = "0x61C1BE0", Offset = "0x61C0BE0", VA = "0x61C1BE0")]
 	private static int ApplyMask(Span<byte> toMask, int mask, int maskIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001911")]
-	[Address(RVA = "0x2817350", Offset = "0x2815950", VA = "0x182817350")]
+	[Token(Token = "0x6001758")]
+	[Address(RVA = "0x61BF3E0", Offset = "0x61BE3E0", VA = "0x61BF3E0")]
 	private void ThrowIfOperationInProgress(bool operationCompleted, [Optional][CallerMemberName] string methodName)
 	{
 	}
 
-	[Token(Token = "0x6001912")]
-	[Address(RVA = "0x2817390", Offset = "0x2815990", VA = "0x182817390")]
+	[Token(Token = "0x6001759")]
+	[Address(RVA = "0x61C1CE0", Offset = "0x61C0CE0", VA = "0x61C1CE0")]
 	private void ThrowOperationInProgress(string methodName)
 	{
 	}
 
-	[Token(Token = "0x6001913")]
-	[Address(RVA = "0x2815630", Offset = "0x2813C30", VA = "0x182815630")]
+	[Token(Token = "0x600175A")]
+	[Address(RVA = "0x61C04E0", Offset = "0x61BF4E0", VA = "0x61C04E0")]
 	private static Exception CreateOperationCanceledException(Exception innerException, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001914")]
-	[Address(RVA = "0x2817770", Offset = "0x2815D70", VA = "0x182817770")]
+	[Token(Token = "0x600175B")]
+	[Address(RVA = "0x61C1D40", Offset = "0x61C0D40", VA = "0x61C1D40")]
 	private static bool TryValidateUtf8(Span<byte> span, bool endOfMessage, Utf8MessageState state)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001915")]
-	[Address(RVA = "0x2817940", Offset = "0x2815F40", VA = "0x182817940")]
+	[Token(Token = "0x600175C")]
+	[Address(RVA = "0x61C1F60", Offset = "0x61C0F60", VA = "0x61C1F60")]
 	private Task ValidateAndReceiveAsync(Task receiveTask, byte[] buffer, CancellationToken cancellationToken)
 	{
 		return null;

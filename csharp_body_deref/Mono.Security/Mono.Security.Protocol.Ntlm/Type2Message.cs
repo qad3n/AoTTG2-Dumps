@@ -9,74 +9,74 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000024")]
 public class Type2Message : MessageBase
 {
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x18")]
 	private byte[] _nonce;
 
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000A1")]
 	[FieldOffset(Offset = "0x20")]
 	private string _targetName;
 
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40000A2")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] _targetInfo;
 
-	[Token(Token = "0x17000058")]
+	[Token(Token = "0x17000055")]
 	public byte[] Nonce
 	{
-		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x193E280", Offset = "0x193C880", VA = "0x18193E280")]
+		[Token(Token = "0x600010D")]
+		[Address(RVA = "0x52C5620", Offset = "0x52C4620", VA = "0x52C5620")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000059")]
+	[Token(Token = "0x17000056")]
 	public string TargetName
 	{
-		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x600010E")]
+		[Address(RVA = "0x52C6950", Offset = "0x52C5950", VA = "0x52C6950")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700005A")]
+	[Token(Token = "0x17000057")]
 	public byte[] TargetInfo
 	{
-		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x193E300", Offset = "0x193C900", VA = "0x18193E300")]
+		[Token(Token = "0x600010F")]
+		[Address(RVA = "0x52C55A0", Offset = "0x52C45A0", VA = "0x52C55A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x193E1E0", Offset = "0x193C7E0", VA = "0x18193E1E0")]
+	[Token(Token = "0x600010B")]
+	[Address(RVA = "0x52C6810", Offset = "0x52C5810", VA = "0x52C6810")]
 	public Type2Message(byte[] message)
 	{
 	}
 
-	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x193E0A0", Offset = "0x193C6A0", VA = "0x18193E0A0", Slot = "1")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x52C68B0", Offset = "0x52C58B0", VA = "0x52C68B0", Slot = "1")]
 	~Type2Message()
 	{
 	}
 
-	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x193DF30", Offset = "0x193C530", VA = "0x18193DF30", Slot = "4")]
+	[Token(Token = "0x6000110")]
+	[Address(RVA = "0x52C6960", Offset = "0x52C5960", VA = "0x52C6960", Slot = "4")]
 	protected override void Decode(byte[] message)
 	{
 	}
 
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x193E110", Offset = "0x193C710", VA = "0x18193E110", Slot = "5")]
+	[Token(Token = "0x6000111")]
+	[Address(RVA = "0x52C6B70", Offset = "0x52C5B70", VA = "0x52C6B70", Slot = "5")]
 	public override byte[] GetBytes()
 	{
 		return null;

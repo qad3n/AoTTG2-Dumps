@@ -11,140 +11,140 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003FA")]
+[Token(Token = "0x20003B6")]
 public sealed class ServicePointManagerElement : ConfigurationElement
 {
-	[Token(Token = "0x170005E2")]
+	[Token(Token = "0x170005B4")]
 	public bool CheckCertificateName
 	{
-		[Token(Token = "0x6001AB4")]
-		[Address(RVA = "0x282BC20", Offset = "0x282A220", VA = "0x18282BC20")]
+		[Token(Token = "0x60018FA")]
+		[Address(RVA = "0x61D1850", Offset = "0x61D0850", VA = "0x61D1850")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001AB5")]
-		[Address(RVA = "0x282BDA0", Offset = "0x282A3A0", VA = "0x18282BDA0")]
+		[Token(Token = "0x60018FB")]
+		[Address(RVA = "0x61D1880", Offset = "0x61D0880", VA = "0x61D1880")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E3")]
+	[Token(Token = "0x170005B5")]
 	public bool CheckCertificateRevocationList
 	{
-		[Token(Token = "0x6001AB6")]
-		[Address(RVA = "0x282BC50", Offset = "0x282A250", VA = "0x18282BC50")]
+		[Token(Token = "0x60018FC")]
+		[Address(RVA = "0x61D18B0", Offset = "0x61D08B0", VA = "0x61D18B0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001AB7")]
-		[Address(RVA = "0x282BDD0", Offset = "0x282A3D0", VA = "0x18282BDD0")]
+		[Token(Token = "0x60018FD")]
+		[Address(RVA = "0x61D18E0", Offset = "0x61D08E0", VA = "0x61D18E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E4")]
+	[Token(Token = "0x170005B6")]
 	public int DnsRefreshTimeout
 	{
-		[Token(Token = "0x6001AB8")]
-		[Address(RVA = "0x282BC80", Offset = "0x282A280", VA = "0x18282BC80")]
+		[Token(Token = "0x60018FE")]
+		[Address(RVA = "0x61D1910", Offset = "0x61D0910", VA = "0x61D1910")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6001AB9")]
-		[Address(RVA = "0x282BE00", Offset = "0x282A400", VA = "0x18282BE00")]
+		[Token(Token = "0x60018FF")]
+		[Address(RVA = "0x61D1940", Offset = "0x61D0940", VA = "0x61D1940")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E5")]
+	[Token(Token = "0x170005B7")]
 	public bool EnableDnsRoundRobin
 	{
-		[Token(Token = "0x6001ABA")]
-		[Address(RVA = "0x282BCB0", Offset = "0x282A2B0", VA = "0x18282BCB0")]
+		[Token(Token = "0x6001900")]
+		[Address(RVA = "0x61D1970", Offset = "0x61D0970", VA = "0x61D1970")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001ABB")]
-		[Address(RVA = "0x282BE30", Offset = "0x282A430", VA = "0x18282BE30")]
+		[Token(Token = "0x6001901")]
+		[Address(RVA = "0x61D19A0", Offset = "0x61D09A0", VA = "0x61D19A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E6")]
+	[Token(Token = "0x170005B8")]
 	public EncryptionPolicy EncryptionPolicy
 	{
-		[Token(Token = "0x6001ABC")]
-		[Address(RVA = "0x282BCE0", Offset = "0x282A2E0", VA = "0x18282BCE0")]
+		[Token(Token = "0x6001902")]
+		[Address(RVA = "0x61D19D0", Offset = "0x61D09D0", VA = "0x61D19D0")]
 		get
 		{
 			return default(EncryptionPolicy);
 		}
-		[Token(Token = "0x6001ABD")]
-		[Address(RVA = "0x282BE60", Offset = "0x282A460", VA = "0x18282BE60")]
+		[Token(Token = "0x6001903")]
+		[Address(RVA = "0x61D1A00", Offset = "0x61D0A00", VA = "0x61D1A00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E7")]
+	[Token(Token = "0x170005B9")]
 	public bool Expect100Continue
 	{
-		[Token(Token = "0x6001ABE")]
-		[Address(RVA = "0x282BD10", Offset = "0x282A310", VA = "0x18282BD10")]
+		[Token(Token = "0x6001904")]
+		[Address(RVA = "0x61D1A30", Offset = "0x61D0A30", VA = "0x61D1A30")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001ABF")]
-		[Address(RVA = "0x282BE90", Offset = "0x282A490", VA = "0x18282BE90")]
+		[Token(Token = "0x6001905")]
+		[Address(RVA = "0x61D1A60", Offset = "0x61D0A60", VA = "0x61D1A60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170005E8")]
+	[Token(Token = "0x170005BA")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001AC0")]
-		[Address(RVA = "0x282BD40", Offset = "0x282A340", VA = "0x18282BD40", Slot = "4")]
+		[Token(Token = "0x6001906")]
+		[Address(RVA = "0x61D1A90", Offset = "0x61D0A90", VA = "0x61D1A90", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005E9")]
+	[Token(Token = "0x170005BB")]
 	public bool UseNagleAlgorithm
 	{
-		[Token(Token = "0x6001AC1")]
-		[Address(RVA = "0x282BD70", Offset = "0x282A370", VA = "0x18282BD70")]
+		[Token(Token = "0x6001907")]
+		[Address(RVA = "0x61D1AC0", Offset = "0x61D0AC0", VA = "0x61D1AC0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001AC2")]
-		[Address(RVA = "0x282BEC0", Offset = "0x282A4C0", VA = "0x18282BEC0")]
+		[Token(Token = "0x6001908")]
+		[Address(RVA = "0x61D1AF0", Offset = "0x61D0AF0", VA = "0x61D1AF0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001AB3")]
-	[Address(RVA = "0x282BBF0", Offset = "0x282A1F0", VA = "0x18282BBF0")]
+	[Token(Token = "0x60018F9")]
+	[Address(RVA = "0x61D1820", Offset = "0x61D0820", VA = "0x61D1820")]
 	public ServicePointManagerElement()
 	{
 	}
 
-	[Token(Token = "0x6001AC3")]
-	[Address(RVA = "0x282BBC0", Offset = "0x282A1C0", VA = "0x18282BBC0", Slot = "8")]
+	[Token(Token = "0x6001909")]
+	[Address(RVA = "0x61D1B20", Offset = "0x61D0B20", VA = "0x61D1B20", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

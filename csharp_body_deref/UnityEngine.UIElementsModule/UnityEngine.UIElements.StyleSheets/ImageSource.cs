@@ -31,7 +31,7 @@ internal struct ImageSource
 	public RenderTexture renderTexture;
 
 	[Token(Token = "0x6002D4B")]
-	[Address(RVA = "0x31ED0A0", Offset = "0x31EB6A0", VA = "0x1831ED0A0")]
+	[Address(RVA = "0x6BEF390", Offset = "0x6BEE390", VA = "0x6BEF390")]
 	public bool IsNull()
 	{
 		return default(bool);

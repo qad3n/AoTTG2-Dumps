@@ -18,27 +18,27 @@ public class MinFloatParameter : FloatParameter
 {
 	[NonSerialized]
 	[Token(Token = "0x4000999")]
-	[FieldOffset(Offset = "0x20")]
+	[FieldOffset(Offset = "0x18")]
 	public float min;
 
 	[Token(Token = "0x170001F2")]
 	public override float value
 	{
 		[Token(Token = "0x6000F32")]
-		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
+		[Address(RVA = "0x6555940", Offset = "0x6554940", VA = "0x6555940", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000F33")]
-		[Address(RVA = "0x2B5F3B0", Offset = "0x2B5D9B0", VA = "0x182B5F3B0", Slot = "15")]
+		[Address(RVA = "0x6555950", Offset = "0x6554950", VA = "0x6555950", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F34")]
-	[Address(RVA = "0x2B5E2B0", Offset = "0x2B5C8B0", VA = "0x182B5E2B0")]
+	[Address(RVA = "0x6555960", Offset = "0x6554960", VA = "0x6555960")]
 	public MinFloatParameter(float value, float min, bool overrideState = false)
 	{
 	}

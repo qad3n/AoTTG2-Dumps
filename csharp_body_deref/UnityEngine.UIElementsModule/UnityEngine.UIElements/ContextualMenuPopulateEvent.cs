@@ -21,14 +21,14 @@ public class ContextualMenuPopulateEvent : MouseEventBase<ContextualMenuPopulate
 	public DropdownMenu menu
 	{
 		[Token(Token = "0x6000DC0")]
-		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[Address(RVA = "0x6C6AA00", Offset = "0x6C69A00", VA = "0x6C6AA00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DC1")]
-		[Address(RVA = "0x87BC50", Offset = "0x87A250", VA = "0x18087BC50")]
+		[Address(RVA = "0x6C6AA10", Offset = "0x6C69A10", VA = "0x6C6AA10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -39,14 +39,14 @@ public class ContextualMenuPopulateEvent : MouseEventBase<ContextualMenuPopulate
 	public EventBase triggerEvent
 	{
 		[Token(Token = "0x6000DC2")]
-		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
+		[Address(RVA = "0x6C6AA30", Offset = "0x6C69A30", VA = "0x6C6AA30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DC3")]
-		[Address(RVA = "0xC8FFC0", Offset = "0xC8E5C0", VA = "0x180C8FFC0")]
+		[Address(RVA = "0x6C6AA40", Offset = "0x6C69A40", VA = "0x6C6AA40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -54,38 +54,38 @@ public class ContextualMenuPopulateEvent : MouseEventBase<ContextualMenuPopulate
 	}
 
 	[Token(Token = "0x6000DBF")]
-	[Address(RVA = "0x32573A0", Offset = "0x32559A0", VA = "0x1832573A0")]
+	[Address(RVA = "0x6C6A930", Offset = "0x6C69930", VA = "0x6C6A930")]
 	static ContextualMenuPopulateEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DC4")]
-	[Address(RVA = "0x3256E80", Offset = "0x3255480", VA = "0x183256E80")]
+	[Address(RVA = "0x6C6AA60", Offset = "0x6C69A60", VA = "0x6C6AA60")]
 	public static ContextualMenuPopulateEvent GetPooled(EventBase triggerEvent, DropdownMenu menu, IEventHandler target, ContextualMenuManager menuManager)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DC5")]
-	[Address(RVA = "0x3257210", Offset = "0x3255810", VA = "0x183257210", Slot = "13")]
+	[Address(RVA = "0x6C6B180", Offset = "0x6C6A180", VA = "0x6C6B180", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000DC6")]
-	[Address(RVA = "0x3257260", Offset = "0x3255860", VA = "0x183257260")]
+	[Address(RVA = "0x6C6B220", Offset = "0x6C6A220", VA = "0x6C6B220")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000DC7")]
-	[Address(RVA = "0x3257480", Offset = "0x3255A80", VA = "0x183257480")]
+	[Address(RVA = "0x6C6B290", Offset = "0x6C6A290", VA = "0x6C6B290")]
 	public ContextualMenuPopulateEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DC8")]
-	[Address(RVA = "0x32572E0", Offset = "0x32558E0", VA = "0x1832572E0", Slot = "9")]
+	[Address(RVA = "0x6C6B330", Offset = "0x6C6A330", VA = "0x6C6B330", Slot = "9")]
 	protected internal override void PostDispatch(IPanel panel)
 	{
 	}

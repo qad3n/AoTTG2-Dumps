@@ -7,7 +7,6 @@
 // ===============================================================
 using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using Gisketch.Aottg2UI.Actions;
 using Gisketch.Aottg2UI.Code;
 using Il2CppDummyDll;
@@ -15,134 +14,126 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200029D")]
+[Token(Token = "0x20002F9")]
 internal sealed class AottgCharacterTextField : AottgComponent
 {
-	[Token(Token = "0x4000D8E")]
+	[Token(Token = "0x4000F25")]
 	private const int VisibleLimit = 31;
 
-	[Token(Token = "0x4000D8F")]
+	[Token(Token = "0x4000F26")]
 	private const int RawInputLimit = 512;
 
-	[Token(Token = "0x4000D90")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4000F27")]
+	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, string> Values;
 
-	[Token(Token = "0x4000D91")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x4000F28")]
+	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000D92")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-	private readonly string _label;
-
-	[Token(Token = "0x4000D93")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000F29")]
+	[FieldOffset(Offset = "0x18")]
 	private readonly string _labelKey;
 
-	[Token(Token = "0x4000D94")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
-	private readonly string _placeholder;
-
-	[Token(Token = "0x4000D95")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x4000F2A")]
+	[FieldOffset(Offset = "0x20")]
 	private readonly string _placeholderKey;
 
-	[Token(Token = "0x4000D96")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000F2B")]
+	[FieldOffset(Offset = "0x28")]
 	private readonly string _value;
 
-	[Token(Token = "0x4000D97")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000F2C")]
+	[FieldOffset(Offset = "0x30")]
 	private readonly bool _enabled;
 
-	[Token(Token = "0x4000D98")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000F2D")]
+	[FieldOffset(Offset = "0x38")]
 	private readonly string _effectPrefix;
 
-	[Token(Token = "0x4000D99")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000F2E")]
+	[FieldOffset(Offset = "0x40")]
 	private readonly Action<GisketchActionContext> _changed;
 
-	[Token(Token = "0x6001037")]
-	[Address(RVA = "0x1E06160", Offset = "0x1E04760", VA = "0x181E06160")]
-	public AottgCharacterTextField(string id, string label, string placeholder, string value, bool enabled, string effectPrefix, Action<GisketchActionContext> changed, [Optional] string labelKey, [Optional] string placeholderKey)
+	[Token(Token = "0x6001287")]
+	[Address(RVA = "0x57EDF10", Offset = "0x57ECF10", VA = "0x57EDF10")]
+	public AottgCharacterTextField(string id, string labelKey, string placeholderKey, string value, bool enabled, string effectPrefix, Action<GisketchActionContext> changed)
 	{
 	}
 
-	[Token(Token = "0x6001038")]
-	[Address(RVA = "0x1E05F20", Offset = "0x1E04520", VA = "0x181E05F20")]
+	[Token(Token = "0x6001288")]
+	[Address(RVA = "0x57DF000", Offset = "0x57DE000", VA = "0x57DF000")]
 	public static string Value(string id, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001039")]
-	[Address(RVA = "0x1E05300", Offset = "0x1E03900", VA = "0x181E05300")]
+	[Token(Token = "0x6001289")]
+	[Address(RVA = "0x57E55F0", Offset = "0x57E45F0", VA = "0x57E55F0")]
 	public static void SetValue(GameObject source, string id, string value)
 	{
 	}
 
-	[Token(Token = "0x600103A")]
-	[Address(RVA = "0x1E04B70", Offset = "0x1E03170", VA = "0x181E04B70")]
+	[Token(Token = "0x600128A")]
+	[Address(RVA = "0x57DF7C0", Offset = "0x57DE7C0", VA = "0x57DF7C0")]
 	public static void SetFont(GameObject source, string id, string font)
 	{
 	}
 
-	[Token(Token = "0x600103B")]
-	[Address(RVA = "0x1E05FF0", Offset = "0x1E045F0", VA = "0x181E05FF0")]
+	[Token(Token = "0x600128B")]
+	[Address(RVA = "0x57EE380", Offset = "0x57ED380", VA = "0x57EE380")]
 	public static string VisibleText(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600103C")]
-	[Address(RVA = "0x1E04510", Offset = "0x1E02B10", VA = "0x181E04510", Slot = "4")]
+	[Token(Token = "0x600128C")]
+	[Address(RVA = "0x57EE410", Offset = "0x57ED410", VA = "0x57EE410", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x600103D")]
-	[Address(RVA = "0x1E04830", Offset = "0x1E02E30", VA = "0x181E04830")]
+	[Token(Token = "0x600128D")]
+	[Address(RVA = "0x57EE620", Offset = "0x57ED620", VA = "0x57EE620")]
 	private static bool IsEnabled(GisketchActionContext context, string id, bool fallback)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600103E")]
-	[Address(RVA = "0x1E04D80", Offset = "0x1E03380", VA = "0x181E04D80")]
+	[Token(Token = "0x600128E")]
+	[Address(RVA = "0x57EE7A0", Offset = "0x57ED7A0", VA = "0x57EE7A0")]
 	private static void SetFromInput(GisketchActionContext context, string id, Action<GisketchActionContext> changed)
 	{
 	}
 
-	[Token(Token = "0x600103F")]
-	[Address(RVA = "0x1E04750", Offset = "0x1E02D50", VA = "0x181E04750")]
+	[Token(Token = "0x600128F")]
+	[Address(RVA = "0x57EE9F0", Offset = "0x57ED9F0", VA = "0x57EE9F0")]
 	private static string CleanInput(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001040")]
-	[Address(RVA = "0x1E047F0", Offset = "0x1E02DF0", VA = "0x181E047F0")]
+	[Token(Token = "0x6001290")]
+	[Address(RVA = "0x57EE760", Offset = "0x57ED760", VA = "0x57EE760")]
 	public static string EnabledKey(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001041")]
-	[Address(RVA = "0x1E05180", Offset = "0x1E03780", VA = "0x181E05180")]
+	[Token(Token = "0x6001291")]
+	[Address(RVA = "0x57EDFE0", Offset = "0x57ECFE0", VA = "0x57EDFE0")]
 	private static void SetInputText(Transform root, string id, string value)
 	{
 	}
 
-	[Token(Token = "0x6001042")]
-	[Address(RVA = "0x1E05000", Offset = "0x1E03600", VA = "0x181E05000")]
+	[Token(Token = "0x6001292")]
+	[Address(RVA = "0x57EE200", Offset = "0x57ED200", VA = "0x57EE200")]
 	private static void SetInputFont(Transform root, string id, string font)
 	{
 	}
 
-	[Token(Token = "0x6001043")]
-	[Address(RVA = "0x1E04990", Offset = "0x1E02F90", VA = "0x181E04990")]
+	[Token(Token = "0x6001293")]
+	[Address(RVA = "0x57EEAC0", Offset = "0x57EDAC0", VA = "0x57EEAC0")]
 	public static void SetFieldVisible(GameObject source, string id, bool visible)
 	{
 	}

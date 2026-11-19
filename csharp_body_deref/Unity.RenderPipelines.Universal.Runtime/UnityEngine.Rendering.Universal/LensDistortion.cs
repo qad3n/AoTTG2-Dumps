@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.LensDistortion
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -42,14 +42,14 @@ public sealed class LensDistortion : VolumeComponent, IPostProcessComponent
 	public ClampedFloatParameter scale;
 
 	[Token(Token = "0x60006C2")]
-	[Address(RVA = "0x2C5A0A0", Offset = "0x2C586A0", VA = "0x182C5A0A0", Slot = "8")]
+	[Address(RVA = "0x664B620", Offset = "0x664A620", VA = "0x664B620", Slot = "8")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006C3")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+	[Address(RVA = "0x664B6A0", Offset = "0x664A6A0", VA = "0x664B6A0", Slot = "9")]
 	[Obsolete("Unused. #from(2023.1)")]
 	public bool IsTileCompatible()
 	{
@@ -57,7 +57,7 @@ public sealed class LensDistortion : VolumeComponent, IPostProcessComponent
 	}
 
 	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x2C5A150", Offset = "0x2C58750", VA = "0x182C5A150")]
+	[Address(RVA = "0x664B6B0", Offset = "0x664A6B0", VA = "0x664B6B0")]
 	public LensDistortion()
 	{
 	}

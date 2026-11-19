@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.InstanceOcclusionEventDebugArray
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,7 +39,7 @@ internal struct InstanceOcclusionEventDebugArray : IDisposable
 		public OcclusionTest occlusionTest;
 
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x2BC9EC0", Offset = "0x2BC84C0", VA = "0x182BC9EC0")]
+		[Address(RVA = "0x65C6080", Offset = "0x65C5080", VA = "0x65C6080")]
 		public bool HasVersion()
 		{
 			return default(bool);
@@ -92,7 +92,7 @@ internal struct InstanceOcclusionEventDebugArray : IDisposable
 	public GraphicsBuffer CounterBuffer
 	{
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x65C5730", Offset = "0x65C4730", VA = "0x65C5730")]
 		get
 		{
 			return null;
@@ -100,26 +100,26 @@ internal struct InstanceOcclusionEventDebugArray : IDisposable
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x2BCDEE0", Offset = "0x2BCC4E0", VA = "0x182BCDEE0")]
+	[Address(RVA = "0x65C5740", Offset = "0x65C4740", VA = "0x65C5740")]
 	public void Init()
 	{
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x2BCDDB0", Offset = "0x2BCC3B0", VA = "0x182BCDDB0", Slot = "4")]
+	[Address(RVA = "0x65C5850", Offset = "0x65C4850", VA = "0x65C5850", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x2BCE530", Offset = "0x2BCCB30", VA = "0x182BCE530")]
+	[Address(RVA = "0x65C59A0", Offset = "0x65C49A0", VA = "0x65C59A0")]
 	public int TryAdd(int viewInstanceID, InstanceOcclusionEventType eventType, int occluderVersion, int subviewMask, OcclusionTest occlusionTest)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x2BCDFF0", Offset = "0x2BCC5F0", VA = "0x182BCDFF0")]
+	[Address(RVA = "0x65C5AC0", Offset = "0x65C4AC0", VA = "0x65C5AC0")]
 	public void MoveToDebugStatsAndClear(DebugRendererBatcherStats debugStats)
 	{
 	}

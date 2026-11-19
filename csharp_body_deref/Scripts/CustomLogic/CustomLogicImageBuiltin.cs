@@ -12,133 +12,133 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200058F")]
+[Token(Token = "0x20005EE")]
 [CompilerGenerated]
 internal class CustomLogicImageBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000590")]
+	[Token(Token = "0x20005EF")]
 	public static class Factory
 	{
-		[Token(Token = "0x6003488")]
-		[Address(RVA = "0x2074480", Offset = "0x2072A80", VA = "0x182074480")]
+		[Token(Token = "0x6003714")]
+		[Address(RVA = "0x59FFF30", Offset = "0x59FEF30", VA = "0x59FFF30")]
 		public static CustomLogicImageBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000591")]
+	[Token(Token = "0x20005F0")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40017E4")]
+		[Token(Token = "0x4001984")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6003489")]
-		[Address(RVA = "0x204B650", Offset = "0x2049C50", VA = "0x18204B650")]
+		[Token(Token = "0x6003715")]
+		[Address(RVA = "0x5A00090", Offset = "0x59FF090", VA = "0x5A00090")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600348A")]
-		[Address(RVA = "0x2062410", Offset = "0x2060A10", VA = "0x182062410")]
+		[Token(Token = "0x6003716")]
+		[Address(RVA = "0x5A001D0", Offset = "0x59FF1D0", VA = "0x5A001D0")]
 		public static CLPropertyBinding<CustomLogicImageBuiltin> __CreatePropertyBinding__ImagePath()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600348B")]
-		[Address(RVA = "0x205DC40", Offset = "0x205C240", VA = "0x18205DC40")]
+		[Token(Token = "0x6003717")]
+		[Address(RVA = "0x5A002B0", Offset = "0x59FF2B0", VA = "0x5A002B0")]
 		public static CLMethodBinding<CustomLogicImageBuiltin> __CreateMethodBinding__SetImage()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40017E2")]
+	[Token(Token = "0x4001982")]
 	[FieldOffset(Offset = "0x30")]
 	private string _currentImagePath;
 
-	[Token(Token = "0x40017E3")]
+	[Token(Token = "0x4001983")]
 	[FieldOffset(Offset = "0x38")]
 	private Texture2D _currentTexture;
 
-	[Token(Token = "0x170009AF")]
+	[Token(Token = "0x170009F7")]
 	public string ImagePath
 	{
-		[Token(Token = "0x6003481")]
-		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[Token(Token = "0x600370D")]
+		[Address(RVA = "0x59FFEA0", Offset = "0x59FEEA0", VA = "0x59FFEA0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003482")]
-		[Address(RVA = "0x2067960", Offset = "0x2065F60", VA = "0x182067960")]
+		[Token(Token = "0x600370E")]
+		[Address(RVA = "0x59FFEB0", Offset = "0x59FEEB0", VA = "0x59FFEB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170009B0")]
+	[Token(Token = "0x170009F8")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6003484")]
-		[Address(RVA = "0x2067930", Offset = "0x2065F30", VA = "0x182067930", Slot = "6")]
+		[Token(Token = "0x6003710")]
+		[Address(RVA = "0x59FFED0", Offset = "0x59FEED0", VA = "0x59FFED0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009B1")]
+	[Token(Token = "0x170009F9")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6003485")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
+		[Token(Token = "0x6003711")]
+		[Address(RVA = "0x59FFF00", Offset = "0x59FEF00", VA = "0x59FFF00", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009B2")]
+	[Token(Token = "0x170009FA")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6003486")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
+		[Token(Token = "0x6003712")]
+		[Address(RVA = "0x59FFF10", Offset = "0x59FEF10", VA = "0x59FFF10", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009B3")]
+	[Token(Token = "0x170009FB")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6003487")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
+		[Token(Token = "0x6003713")]
+		[Address(RVA = "0x59FFF20", Offset = "0x59FEF20", VA = "0x59FFF20", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600347F")]
-	[Address(RVA = "0x20678B0", Offset = "0x2065EB0", VA = "0x1820678B0")]
+	[Token(Token = "0x600370B")]
+	[Address(RVA = "0x59FFBE0", Offset = "0x59FEBE0", VA = "0x59FFBE0")]
 	public CustomLogicImageBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6003480")]
-	[Address(RVA = "0x2067650", Offset = "0x2065C50", VA = "0x182067650")]
+	[Token(Token = "0x600370C")]
+	[Address(RVA = "0x59FFC60", Offset = "0x59FEC60", VA = "0x59FFC60")]
 	public CustomLogicImageBuiltin SetImage(string imagePath)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003483")]
-	[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+	[Token(Token = "0x600370F")]
+	[Address(RVA = "0x59FFEC0", Offset = "0x59FEEC0", VA = "0x59FFEC0")]
 	internal Texture2D GetTexture()
 	{
 		return null;

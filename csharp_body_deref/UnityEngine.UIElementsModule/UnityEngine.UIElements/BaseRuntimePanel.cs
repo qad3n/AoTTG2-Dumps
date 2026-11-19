@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.BaseRuntimePanel
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -74,13 +74,13 @@ internal abstract class BaseRuntimePanel : Panel
 	public GameObject selectableGameObject
 	{
 		[Token(Token = "0x6001293")]
-		[Address(RVA = "0x2D07840", Offset = "0x2D05E40", VA = "0x182D07840", Slot = "58")]
+		[Address(RVA = "0x6CB82A0", Offset = "0x6CB72A0", VA = "0x6CB82A0", Slot = "58")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001294")]
-		[Address(RVA = "0x32A8BB0", Offset = "0x32A71B0", VA = "0x1832A8BB0", Slot = "59")]
+		[Address(RVA = "0x6CB82B0", Offset = "0x6CB72B0", VA = "0x6CB82B0", Slot = "59")]
 		set
 		{
 		}
@@ -90,13 +90,13 @@ internal abstract class BaseRuntimePanel : Panel
 	public float sortingPriority
 	{
 		[Token(Token = "0x6001295")]
-		[Address(RVA = "0x32A8940", Offset = "0x32A6F40", VA = "0x1832A8940")]
+		[Address(RVA = "0x6CB86A0", Offset = "0x6CB76A0", VA = "0x6CB86A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6001296")]
-		[Address(RVA = "0x32A8C50", Offset = "0x32A7250", VA = "0x1832A8C50")]
+		[Address(RVA = "0x6CB86B0", Offset = "0x6CB76B0", VA = "0x6CB86B0")]
 		set
 		{
 		}
@@ -106,13 +106,13 @@ internal abstract class BaseRuntimePanel : Panel
 	internal bool drawsInCameras
 	{
 		[Token(Token = "0x600129E")]
-		[Address(RVA = "0x32A8740", Offset = "0x32A6D40", VA = "0x1832A8740")]
+		[Address(RVA = "0x6CB8BA0", Offset = "0x6CB7BA0", VA = "0x6CB8BA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600129F")]
-		[Address(RVA = "0x32A8A90", Offset = "0x32A7090", VA = "0x1832A8A90")]
+		[Address(RVA = "0x6CB8BB0", Offset = "0x6CB7BB0", VA = "0x6CB8BB0")]
 		set
 		{
 		}
@@ -122,13 +122,13 @@ internal abstract class BaseRuntimePanel : Panel
 	internal float pixelsPerUnit
 	{
 		[Token(Token = "0x60012A0")]
-		[Address(RVA = "0x32A8750", Offset = "0x32A6D50", VA = "0x1832A8750")]
+		[Address(RVA = "0x6CB8C40", Offset = "0x6CB7C40", VA = "0x6CB8C40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60012A1")]
-		[Address(RVA = "0x32A8B10", Offset = "0x32A7110", VA = "0x1832A8B10")]
+		[Address(RVA = "0x6CB8C50", Offset = "0x6CB7C50", VA = "0x6CB8C50")]
 		set
 		{
 		}
@@ -138,14 +138,14 @@ internal abstract class BaseRuntimePanel : Panel
 	internal int targetDisplay
 	{
 		[Token(Token = "0x60012A2")]
-		[Address(RVA = "0x30E5510", Offset = "0x30E3B10", VA = "0x1830E5510")]
+		[Address(RVA = "0x6CB8C60", Offset = "0x6CB7C60", VA = "0x6CB8C60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60012A3")]
-		[Address(RVA = "0x32A8CE0", Offset = "0x32A72E0", VA = "0x1832A8CE0")]
+		[Address(RVA = "0x6CB8C70", Offset = "0x6CB7C70", VA = "0x6CB8C70")]
 		[CompilerGenerated]
 		set
 		{
@@ -156,7 +156,7 @@ internal abstract class BaseRuntimePanel : Panel
 	internal int screenRenderingWidth
 	{
 		[Token(Token = "0x60012A4")]
-		[Address(RVA = "0x32A8850", Offset = "0x32A6E50", VA = "0x1832A8850")]
+		[Address(RVA = "0x6CB8C80", Offset = "0x6CB7C80", VA = "0x6CB8C80")]
 		get
 		{
 			return default(int);
@@ -167,7 +167,7 @@ internal abstract class BaseRuntimePanel : Panel
 	internal int screenRenderingHeight
 	{
 		[Token(Token = "0x60012A5")]
-		[Address(RVA = "0x32A8760", Offset = "0x32A6D60", VA = "0x1832A8760")]
+		[Address(RVA = "0x6CB8D80", Offset = "0x6CB7D80", VA = "0x6CB8D80")]
 		get
 		{
 			return default(int);
@@ -178,13 +178,13 @@ internal abstract class BaseRuntimePanel : Panel
 	public Func<Vector2, Vector3> screenToPanelSpace
 	{
 		[Token(Token = "0x60012AA")]
-		[Address(RVA = "0x30E4E20", Offset = "0x30E3420", VA = "0x1830E4E20")]
+		[Address(RVA = "0x6CB91A0", Offset = "0x6CB81A0", VA = "0x6CB91A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60012AB")]
-		[Address(RVA = "0x32A8B20", Offset = "0x32A7120", VA = "0x1832A8B20")]
+		[Address(RVA = "0x6CB91B0", Offset = "0x6CB81B0", VA = "0x6CB91B0")]
 		set
 		{
 		}
@@ -194,13 +194,13 @@ internal abstract class BaseRuntimePanel : Panel
 	public event Action destroyed
 	{
 		[Token(Token = "0x6001297")]
-		[Address(RVA = "0x32A8480", Offset = "0x32A6A80", VA = "0x1832A8480")]
+		[Address(RVA = "0x6CB87C0", Offset = "0x6CB77C0", VA = "0x6CB87C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6001298")]
-		[Address(RVA = "0x32A8950", Offset = "0x32A6F50", VA = "0x1832A8950")]
+		[Address(RVA = "0x6CB8860", Offset = "0x6CB7860", VA = "0x6CB8860")]
 		[CompilerGenerated]
 		remove
 		{
@@ -211,13 +211,13 @@ internal abstract class BaseRuntimePanel : Panel
 	internal event Action drawsInCamerasChanged
 	{
 		[Token(Token = "0x600129B")]
-		[Address(RVA = "0x32A8520", Offset = "0x32A6B20", VA = "0x1832A8520")]
+		[Address(RVA = "0x6CB8A40", Offset = "0x6CB7A40", VA = "0x6CB8A40")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600129C")]
-		[Address(RVA = "0x32A89F0", Offset = "0x32A6FF0", VA = "0x1832A89F0")]
+		[Address(RVA = "0x6CB8AE0", Offset = "0x6CB7AE0", VA = "0x6CB8AE0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -225,77 +225,77 @@ internal abstract class BaseRuntimePanel : Panel
 	}
 
 	[Token(Token = "0x6001299")]
-	[Address(RVA = "0x32A8390", Offset = "0x32A6990", VA = "0x1832A8390")]
+	[Address(RVA = "0x6CB8900", Offset = "0x6CB7900", VA = "0x6CB8900")]
 	protected BaseRuntimePanel(ScriptableObject ownerObject, [Optional] EventDispatcher dispatcher)
 	{
 	}
 
 	[Token(Token = "0x600129A")]
-	[Address(RVA = "0x32A7810", Offset = "0x32A5E10", VA = "0x1832A7810", Slot = "24")]
+	[Address(RVA = "0x6CB89F0", Offset = "0x6CB79F0", VA = "0x6CB89F0", Slot = "24")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600129D")]
-	[Address(RVA = "0x32A7860", Offset = "0x32A5E60", VA = "0x1832A7860")]
+	[Address(RVA = "0x6CB8B80", Offset = "0x6CB7B80", VA = "0x6CB8B80")]
 	private void InvokeDrawsInCamerasChanged()
 	{
 	}
 
 	[Token(Token = "0x60012A6")]
-	[Address(RVA = "0x32A8260", Offset = "0x32A6860", VA = "0x1832A8260", Slot = "60")]
+	[Address(RVA = "0x6CB8E80", Offset = "0x6CB7E80", VA = "0x6CB8E80", Slot = "60")]
 	internal virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x60012A7")]
-	[Address(RVA = "0x32A85C0", Offset = "0x32A6BC0", VA = "0x1832A85C0")]
+	[Address(RVA = "0x6CB8DD0", Offset = "0x6CB7DD0", VA = "0x6CB8DD0")]
 	internal static int getScreenRenderingHeight(int display)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012A8")]
-	[Address(RVA = "0x32A8680", Offset = "0x32A6C80", VA = "0x1832A8680")]
+	[Address(RVA = "0x6CB8CD0", Offset = "0x6CB7CD0", VA = "0x6CB8CD0")]
 	internal static int getScreenRenderingWidth(int display)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012A9")]
-	[Address(RVA = "0x32A7A80", Offset = "0x32A6080", VA = "0x1832A7A80", Slot = "57")]
+	[Address(RVA = "0x6CB8EB0", Offset = "0x6CB7EB0", VA = "0x6CB8EB0", Slot = "57")]
 	public override void Render()
 	{
 	}
 
 	[Token(Token = "0x60012AC")]
-	[Address(RVA = "0x32A81E0", Offset = "0x32A67E0", VA = "0x1832A81E0")]
+	[Address(RVA = "0x6CB9240", Offset = "0x6CB8240", VA = "0x6CB9240")]
 	internal Vector3 ScreenToPanel(Vector2 screen)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60012AD")]
-	[Address(RVA = "0x32A7EE0", Offset = "0x32A64E0", VA = "0x1832A7EE0")]
+	[Address(RVA = "0x6CB9280", Offset = "0x6CB8280", VA = "0x6CB9280")]
 	internal bool ScreenToPanel(Vector2 screenPosition, Vector2 screenDelta, out Vector3 panelPosition, bool allowOutside = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012AE")]
-	[Address(RVA = "0x32A7540", Offset = "0x32A5B40", VA = "0x1832A7540")]
+	[Address(RVA = "0x6CB8340", Offset = "0x6CB7340", VA = "0x6CB8340")]
 	private void AssignPanelToComponents(BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x60012AF")]
-	[Address(RVA = "0x32A7910", Offset = "0x32A5F10", VA = "0x1832A7910")]
+	[Address(RVA = "0x6CB9550", Offset = "0x6CB8550", VA = "0x6CB9550")]
 	internal void PointerLeavesPanel(int pointerId)
 	{
 	}
 
 	[Token(Token = "0x60012B0")]
-	[Address(RVA = "0x32A7880", Offset = "0x32A5E80", VA = "0x1832A7880")]
+	[Address(RVA = "0x6CB9670", Offset = "0x6CB8670", VA = "0x6CB9670")]
 	internal void PointerEntersPanel(int pointerId, Vector3 position)
 	{
 	}

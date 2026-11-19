@@ -13,15 +13,15 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x20000B5")]
 [DebuggerTypeProxy(typeof(NewArrayExpressionProxy))]
 public class NewArrayExpression : Expression
 {
-	[Token(Token = "0x170000DB")]
+	[Token(Token = "0x170000DD")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60004C1")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
+		[Token(Token = "0x60004CC")]
+		[Address(RVA = "0x5DD5510", Offset = "0x5DD4510", VA = "0x5DD5510", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,11 +29,11 @@ public class NewArrayExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x170000DC")]
+	[Token(Token = "0x170000DE")]
 	public ReadOnlyCollection<Expression> Expressions
 	{
-		[Token(Token = "0x60004C2")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60004CD")]
+		[Address(RVA = "0x5DD5520", Offset = "0x5DD4520", VA = "0x5DD5520")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,28 +41,28 @@ public class NewArrayExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x60004BF")]
-	[Address(RVA = "0x243DC60", Offset = "0x243C260", VA = "0x18243DC60")]
+	[Token(Token = "0x60004CA")]
+	[Address(RVA = "0x5DD52D0", Offset = "0x5DD42D0", VA = "0x5DD52D0")]
 	internal NewArrayExpression(Type type, ReadOnlyCollection<Expression> expressions)
 	{
 	}
 
-	[Token(Token = "0x60004C0")]
-	[Address(RVA = "0x243DA80", Offset = "0x243C080", VA = "0x18243DA80")]
+	[Token(Token = "0x60004CB")]
+	[Address(RVA = "0x5DD5350", Offset = "0x5DD4350", VA = "0x5DD5350")]
 	internal static NewArrayExpression Make(ExpressionType nodeType, Type type, ReadOnlyCollection<Expression> expressions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x243DA50", Offset = "0x243C050", VA = "0x18243DA50", Slot = "9")]
+	[Token(Token = "0x60004CE")]
+	[Address(RVA = "0x5DD5530", Offset = "0x5DD4530", VA = "0x5DD5530", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004C4")]
-	[Address(RVA = "0x243DB00", Offset = "0x243C100", VA = "0x18243DB00")]
+	[Token(Token = "0x60004CF")]
+	[Address(RVA = "0x5DD09D0", Offset = "0x5DCF9D0", VA = "0x5DD09D0")]
 	public NewArrayExpression Update(IEnumerable<Expression> expressions)
 	{
 		return null;

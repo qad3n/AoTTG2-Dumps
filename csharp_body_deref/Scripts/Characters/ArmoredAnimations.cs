@@ -9,77 +9,77 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000694")]
+[Token(Token = "0x20006F3")]
 internal class ArmoredAnimations : BaseTitanAnimations
 {
-	[Token(Token = "0x17000B40")]
+	[Token(Token = "0x17000B8A")]
 	public override string Idle
 	{
-		[Token(Token = "0x600409B")]
-		[Address(RVA = "0x2166560", Offset = "0x2164B60", VA = "0x182166560", Slot = "4")]
+		[Token(Token = "0x6004333")]
+		[Address(RVA = "0x5B156D0", Offset = "0x5B146D0", VA = "0x5B156D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B41")]
+	[Token(Token = "0x17000B8B")]
 	public override string Run
 	{
-		[Token(Token = "0x600409C")]
-		[Address(RVA = "0x2166590", Offset = "0x2164B90", VA = "0x182166590", Slot = "5")]
+		[Token(Token = "0x6004334")]
+		[Address(RVA = "0x5B15700", Offset = "0x5B14700", VA = "0x5B15700", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B42")]
+	[Token(Token = "0x17000B8C")]
 	public override string Walk
 	{
-		[Token(Token = "0x600409D")]
-		[Address(RVA = "0x21665F0", Offset = "0x2164BF0", VA = "0x1821665F0", Slot = "7")]
+		[Token(Token = "0x6004335")]
+		[Address(RVA = "0x5B15730", Offset = "0x5B14730", VA = "0x5B15730", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B43")]
+	[Token(Token = "0x17000B8D")]
 	public override string Die
 	{
-		[Token(Token = "0x600409E")]
-		[Address(RVA = "0x2166530", Offset = "0x2164B30", VA = "0x182166530", Slot = "12")]
+		[Token(Token = "0x6004336")]
+		[Address(RVA = "0x5B15760", Offset = "0x5B14760", VA = "0x5B15760", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B44")]
+	[Token(Token = "0x17000B8E")]
 	public override string Stun
 	{
-		[Token(Token = "0x600409F")]
-		[Address(RVA = "0x21665C0", Offset = "0x2164BC0", VA = "0x1821665C0", Slot = "11")]
+		[Token(Token = "0x6004337")]
+		[Address(RVA = "0x5B15790", Offset = "0x5B14790", VA = "0x5B15790", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B45")]
+	[Token(Token = "0x17000B8F")]
 	public string AttackSwipe
 	{
-		[Token(Token = "0x60040A0")]
-		[Address(RVA = "0x2166500", Offset = "0x2164B00", VA = "0x182166500")]
+		[Token(Token = "0x6004338")]
+		[Address(RVA = "0x5B157C0", Offset = "0x5B147C0", VA = "0x5B157C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60040A1")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6004339")]
+	[Address(RVA = "0x5B157F0", Offset = "0x5B147F0", VA = "0x5B157F0")]
 	public ArmoredAnimations()
 	{
 	}

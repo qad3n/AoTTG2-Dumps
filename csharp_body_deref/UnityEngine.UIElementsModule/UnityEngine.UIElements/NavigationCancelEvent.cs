@@ -13,13 +13,13 @@ namespace UnityEngine.UIElements;
 public class NavigationCancelEvent : NavigationEventBase<NavigationCancelEvent>
 {
 	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x32691D0", Offset = "0x32677D0", VA = "0x1832691D0")]
+	[Address(RVA = "0x6C6BDD0", Offset = "0x6C6ADD0", VA = "0x6C6BDD0")]
 	static NavigationCancelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x32692B0", Offset = "0x32678B0", VA = "0x1832692B0")]
+	[Address(RVA = "0x6C6BEA0", Offset = "0x6C6AEA0", VA = "0x6C6BEA0")]
 	public NavigationCancelEvent()
 	{
 	}

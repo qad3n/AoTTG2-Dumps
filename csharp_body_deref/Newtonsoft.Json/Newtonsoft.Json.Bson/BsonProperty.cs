@@ -17,14 +17,14 @@ internal class BsonProperty
 	public BsonString Name
 	{
 		[Token(Token = "0x6001025")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x564BE30", Offset = "0x564AE30", VA = "0x564BE30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001026")]
-		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
+		[Address(RVA = "0x564BE40", Offset = "0x564AE40", VA = "0x564BE40")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,14 +35,14 @@ internal class BsonProperty
 	public BsonToken Value
 	{
 		[Token(Token = "0x6001027")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x564BE50", Offset = "0x564AE50", VA = "0x564BE50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001028")]
-		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[Address(RVA = "0x564BE60", Offset = "0x564AE60", VA = "0x564BE60")]
 		[CompilerGenerated]
 		set
 		{
@@ -50,7 +50,7 @@ internal class BsonProperty
 	}
 
 	[Token(Token = "0x6001029")]
-	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+	[Address(RVA = "0x564B6F0", Offset = "0x564A6F0", VA = "0x564B6F0")]
 	public BsonProperty()
 	{
 	}

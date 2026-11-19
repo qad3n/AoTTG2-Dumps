@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000430")]
+[Token(Token = "0x2000409")]
 internal enum ValueFixupEnum
 {
-	[Token(Token = "0x40010AC")]
+	[Token(Token = "0x400100C")]
 	Empty,
-	[Token(Token = "0x40010AD")]
+	[Token(Token = "0x400100D")]
 	Array,
-	[Token(Token = "0x40010AE")]
+	[Token(Token = "0x400100E")]
 	Header,
-	[Token(Token = "0x40010AF")]
+	[Token(Token = "0x400100F")]
 	Member
 }

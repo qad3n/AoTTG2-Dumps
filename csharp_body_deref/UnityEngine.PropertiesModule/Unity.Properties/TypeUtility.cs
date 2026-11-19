@@ -121,7 +121,7 @@ public static class TypeUtility
 		private bool Unity_002EProperties_002ETypeUtility_002EITypeConstructor_002ECanBeInstantiated
 		{
 			[Token(Token = "0x60001A2")]
-			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
+			[Address(RVA = "0x69EC3F0", Offset = "0x69EB3F0", VA = "0x69EC3F0", Slot = "4")]
 			get
 			{
 				return default(bool);
@@ -129,14 +129,14 @@ public static class TypeUtility
 		}
 
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x2FEB5E0", Offset = "0x2FE9BE0", VA = "0x182FEB5E0", Slot = "5")]
+		[Address(RVA = "0x69EC400", Offset = "0x69EB400", VA = "0x69EC400", Slot = "5")]
 		public object Instantiate()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001A4")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x69EBFB0", Offset = "0x69EAFB0", VA = "0x69EBFB0")]
 		public NonConstructable()
 		{
 		}
@@ -163,7 +163,7 @@ public static class TypeUtility
 		}
 
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
+		[Address(RVA = "0x69EBFA0", Offset = "0x69EAFA0", VA = "0x69EBFA0")]
 		public TypeConstructorVisitor()
 		{
 		}
@@ -190,34 +190,34 @@ public static class TypeUtility
 	private static readonly object syncedPoolObject;
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x2FF4520", Offset = "0x2FF2B20", VA = "0x182FF4520")]
+	[Address(RVA = "0x69EADF0", Offset = "0x69E9DF0", VA = "0x69EADF0")]
 	static TypeUtility()
 	{
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x2FF3AD0", Offset = "0x2FF20D0", VA = "0x182FF3AD0")]
+	[Address(RVA = "0x69EB240", Offset = "0x69EA240", VA = "0x69EB240")]
 	public static string GetTypeDisplayName(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x2FF3C00", Offset = "0x2FF2200", VA = "0x182FF3C00")]
+	[Address(RVA = "0x69EB360", Offset = "0x69EA360", VA = "0x69EB360")]
 	private static string GetTypeDisplayName(Type type, IReadOnlyList<Type> args, ref int argIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x2FF3920", Offset = "0x2FF1F20", VA = "0x182FF3920")]
+	[Address(RVA = "0x69EBBD0", Offset = "0x69EABD0", VA = "0x69EBBD0")]
 	public static Type GetRootType(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x2FF3650", Offset = "0x2FF1C50", VA = "0x182FF3650")]
+	[Address(RVA = "0x69EBCD0", Offset = "0x69EACD0", VA = "0x69EBCD0")]
 	[Preserve]
 	private static ITypeConstructor CreateTypeConstructor(Type type)
 	{
@@ -231,7 +231,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2FF3A10", Offset = "0x2FF2010", VA = "0x182FF3A10")]
+	[Address(RVA = "0x69EBFC0", Offset = "0x69EAFC0", VA = "0x69EBFC0")]
 	private static ITypeConstructor GetTypeConstructor(Type type)
 	{
 		return null;
@@ -244,7 +244,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2FF32E0", Offset = "0x2FF18E0", VA = "0x182FF32E0")]
+	[Address(RVA = "0x69EC070", Offset = "0x69EB070", VA = "0x69EC070")]
 	public static bool CanBeInstantiated(Type type)
 	{
 		return default(bool);
@@ -304,7 +304,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x2FF34D0", Offset = "0x2FF1AD0", VA = "0x182FF34D0")]
+	[Address(RVA = "0x69EC160", Offset = "0x69EB160", VA = "0x69EC160")]
 	private static void CheckIsAssignableFrom(Type type, Type derivedType)
 	{
 	}
@@ -315,7 +315,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x2FF33F0", Offset = "0x2FF19F0", VA = "0x182FF33F0")]
+	[Address(RVA = "0x69EC2B0", Offset = "0x69EB2B0", VA = "0x69EC2B0")]
 	private static void CheckCanBeInstantiated(ITypeConstructor constructor, Type type)
 	{
 	}

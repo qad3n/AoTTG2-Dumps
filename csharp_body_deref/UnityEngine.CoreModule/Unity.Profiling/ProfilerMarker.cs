@@ -6,6 +6,7 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using JetBrains.Annotations;
@@ -16,8 +17,8 @@ using UnityEngine.Scripting;
 namespace Unity.Profiling;
 
 [Token(Token = "0x2000027")]
-[UnityEngine.Scripting.UsedByNativeCode]
 [IgnoredByDeepProfiler]
+[UnityEngine.Scripting.UsedByNativeCode]
 public struct ProfilerMarker
 {
 	[Token(Token = "0x2000028")]
@@ -31,15 +32,15 @@ public struct ProfilerMarker
 		internal readonly IntPtr m_Ptr;
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x2EBB9C0", Offset = "0x2EB9FC0", VA = "0x182EBB9C0")]
+		[Token(Token = "0x6000080")]
+		[Address(RVA = "0x68B4FD0", Offset = "0x68B3FD0", VA = "0x68B4FD0")]
 		internal AutoScope(IntPtr markerPtr)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x2EBB970", Offset = "0x2EB9F70", VA = "0x182EBB970", Slot = "4")]
+		[Token(Token = "0x6000081")]
+		[Address(RVA = "0x68B5010", Offset = "0x68B4010", VA = "0x68B5010", Slot = "4")]
 		public void Dispose()
 		{
 		}
@@ -55,7 +56,7 @@ public struct ProfilerMarker
 	public IntPtr Handle
 	{
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x68B4CE0", Offset = "0x68B3CE0", VA = "0x68B4CE0")]
 		get
 		{
 			return default(IntPtr);
@@ -64,28 +65,46 @@ public struct ProfilerMarker
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x2ECE000", Offset = "0x2ECC600", VA = "0x182ECE000")]
+	[Address(RVA = "0x68B4CF0", Offset = "0x68B3CF0", VA = "0x68B4CF0")]
 	public ProfilerMarker(string name)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x2ECDFD0", Offset = "0x2ECC5D0", VA = "0x182ECDFD0")]
+	[Address(RVA = "0x68B4E90", Offset = "0x68B3E90", VA = "0x68B4E90")]
 	public ProfilerMarker(ProfilerCategory category, string name)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x2ECDF90", Offset = "0x2ECC590", VA = "0x182ECDF90")]
+	[Address(RVA = "0x68B4EB0", Offset = "0x68B3EB0", VA = "0x68B4EB0")]
 	public ProfilerMarker(ProfilerCategory category, string name, MarkerFlags flags)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x2ECDF50", Offset = "0x2ECC550", VA = "0x182ECDF50")]
+	[Address(RVA = "0x68B4ED0", Offset = "0x68B3ED0", VA = "0x68B4ED0")]
+	[Conditional("ENABLE_PROFILER")]
+	[Pure]
+	public void Begin()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x600007E")]
+	[Address(RVA = "0x68B4F30", Offset = "0x68B3F30", VA = "0x68B4F30")]
+	[Conditional("ENABLE_PROFILER")]
+	[Pure]
+	public void End()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x600007F")]
+	[Address(RVA = "0x68B4F90", Offset = "0x68B3F90", VA = "0x68B4F90")]
 	[Pure]
 	public AutoScope Auto()
 	{

@@ -44,7 +44,7 @@ internal struct ProbeVolumeBakingProcessSettings
 	internal static ProbeVolumeBakingProcessSettings Default
 	{
 		[Token(Token = "0x6000A53")]
-		[Address(RVA = "0x2B13A80", Offset = "0x2B12080", VA = "0x182B13A80")]
+		[Address(RVA = "0x6507ED0", Offset = "0x6506ED0", VA = "0x6507ED0")]
 		get
 		{
 			return default(ProbeVolumeBakingProcessSettings);
@@ -52,19 +52,19 @@ internal struct ProbeVolumeBakingProcessSettings
 	}
 
 	[Token(Token = "0x6000A54")]
-	[Address(RVA = "0x2B13A50", Offset = "0x2B12050", VA = "0x182B13A50")]
+	[Address(RVA = "0x6507F70", Offset = "0x6506F70", VA = "0x6507F70")]
 	internal ProbeVolumeBakingProcessSettings(ProbeDilationSettings dilationSettings, VirtualOffsetSettings virtualOffsetSettings)
 	{
 	}
 
 	[Token(Token = "0x6000A55")]
-	[Address(RVA = "0x2B139A0", Offset = "0x2B11FA0", VA = "0x182B139A0")]
+	[Address(RVA = "0x6507F20", Offset = "0x6506F20", VA = "0x6507F20")]
 	internal void SetDefaults()
 	{
 	}
 
 	[Token(Token = "0x6000A56")]
-	[Address(RVA = "0x2B13A10", Offset = "0x2B12010", VA = "0x182B13A10")]
+	[Address(RVA = "0x6507FA0", Offset = "0x6506FA0", VA = "0x6507FA0")]
 	internal void Upgrade()
 	{
 	}

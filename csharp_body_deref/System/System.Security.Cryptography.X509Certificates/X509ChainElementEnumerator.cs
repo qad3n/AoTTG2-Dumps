@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000144")]
+[Token(Token = "0x2000105")]
 public sealed class X509ChainElementEnumerator : IEnumerator
 {
-	[Token(Token = "0x40005BC")]
+	[Token(Token = "0x40004ED")]
 	[FieldOffset(Offset = "0x10")]
 	private IEnumerator enumerator;
 
-	[Token(Token = "0x17000179")]
+	[Token(Token = "0x1700014A")]
 	public X509ChainElement Current
 	{
-		[Token(Token = "0x60007E9")]
-		[Address(RVA = "0x2888540", Offset = "0x2886B40", VA = "0x182888540")]
+		[Token(Token = "0x600062A")]
+		[Address(RVA = "0x6217790", Offset = "0x6216790", VA = "0x6217790")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700017A")]
+	[Token(Token = "0x1700014B")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x60007EA")]
-		[Address(RVA = "0x2888480", Offset = "0x2886A80", VA = "0x182888480", Slot = "5")]
+		[Token(Token = "0x600062B")]
+		[Address(RVA = "0x6217870", Offset = "0x6216870", VA = "0x6217870", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x28884D0", Offset = "0x2886AD0", VA = "0x1828884D0")]
+	[Token(Token = "0x6000629")]
+	[Address(RVA = "0x6217450", Offset = "0x6216450", VA = "0x6217450")]
 	internal X509ChainElementEnumerator(IEnumerable enumerable)
 	{
 	}
 
-	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x28883E0", Offset = "0x28869E0", VA = "0x1828883E0", Slot = "4")]
+	[Token(Token = "0x600062C")]
+	[Address(RVA = "0x6217910", Offset = "0x6216910", VA = "0x6217910", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007EC")]
-	[Address(RVA = "0x2888430", Offset = "0x2886A30", VA = "0x182888430", Slot = "6")]
+	[Token(Token = "0x600062D")]
+	[Address(RVA = "0x62179A0", Offset = "0x62169A0", VA = "0x62179A0", Slot = "6")]
 	public void Reset()
 	{
 	}

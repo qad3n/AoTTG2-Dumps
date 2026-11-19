@@ -19,7 +19,7 @@ public sealed class DataTableClearEventArgs : EventArgs
 	private readonly DataTable _003CTable_003Ek__BackingField;
 
 	[Token(Token = "0x60004CF")]
-	[Address(RVA = "0x24FAE90", Offset = "0x24F9490", VA = "0x1824FAE90")]
+	[Address(RVA = "0x5EA15C0", Offset = "0x5EA05C0", VA = "0x5EA15C0")]
 	public DataTableClearEventArgs(DataTable dataTable)
 	{
 	}

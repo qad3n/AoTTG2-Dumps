@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.ModerationBatchBanPopup
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/ModerationBatchBanPopup.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,38 +12,38 @@ using TMPro;
 
 namespace UI;
 
-[Token(Token = "0x20007A4")]
+[Token(Token = "0x2000851")]
 internal class ModerationBatchBanPopup : AottgScoreboardPopup
 {
-	[Token(Token = "0x40026A6")]
+	[Token(Token = "0x4002A25")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private TMP_InputField _targets;
 
-	[Token(Token = "0x17000D5D")]
+	[Token(Token = "0x17000DD9")]
 	protected override string DialogId
 	{
-		[Token(Token = "0x6004A5F")]
-		[Address(RVA = "0x225DB00", Offset = "0x225C100", VA = "0x18225DB00", Slot = "62")]
+		[Token(Token = "0x6004F8D")]
+		[Address(RVA = "0x5C39C00", Offset = "0x5C38C00", VA = "0x5C39C00", Slot = "62")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004A60")]
-	[Address(RVA = "0x225D880", Offset = "0x225BE80", VA = "0x18225D880", Slot = "20")]
+	[Token(Token = "0x6004F8E")]
+	[Address(RVA = "0x5C39C30", Offset = "0x5C38C30", VA = "0x5C39C30", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004A61")]
-	[Address(RVA = "0x225D920", Offset = "0x225BF20", VA = "0x18225D920")]
+	[Token(Token = "0x6004F8F")]
+	[Address(RVA = "0x5C39CD0", Offset = "0x5C38CD0", VA = "0x5C39CD0")]
 	internal void Submit(string action)
 	{
 	}
 
-	[Token(Token = "0x6004A62")]
-	[Address(RVA = "0x225DAF0", Offset = "0x225C0F0", VA = "0x18225DAF0")]
+	[Token(Token = "0x6004F90")]
+	[Address(RVA = "0x5C39EB0", Offset = "0x5C38EB0", VA = "0x5C39EB0")]
 	public ModerationBatchBanPopup()
 	{
 	}

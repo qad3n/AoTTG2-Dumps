@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004FC")]
+[Token(Token = "0x20004D5")]
 [Flags]
 public enum AssemblyNameFlags
 {
-	[Token(Token = "0x40013B3")]
+	[Token(Token = "0x4001313")]
 	None = 0,
-	[Token(Token = "0x40013B4")]
+	[Token(Token = "0x4001314")]
 	PublicKey = 1,
-	[Token(Token = "0x40013B5")]
+	[Token(Token = "0x4001315")]
 	EnableJITcompileOptimizer = 0x4000,
-	[Token(Token = "0x40013B6")]
+	[Token(Token = "0x4001316")]
 	EnableJITcompileTracking = 0x8000,
-	[Token(Token = "0x40013B7")]
+	[Token(Token = "0x4001317")]
 	Retargetable = 0x100
 }

@@ -18,7 +18,7 @@ public class NamespaceConverter : fsDirectConverter
 	public override Type ModelType
 	{
 		[Token(Token = "0x6000F49")]
-		[Address(RVA = "0x2E2F860", Offset = "0x2E2DE60", VA = "0x182E2F860", Slot = "9")]
+		[Address(RVA = "0x6841180", Offset = "0x6840180", VA = "0x6841180", Slot = "9")]
 		get
 		{
 			return null;
@@ -26,28 +26,28 @@ public class NamespaceConverter : fsDirectConverter
 	}
 
 	[Token(Token = "0x6000F4A")]
-	[Address(RVA = "0x2E2F5C0", Offset = "0x2E2DBC0", VA = "0x182E2F5C0", Slot = "4")]
+	[Address(RVA = "0x68411E0", Offset = "0x68401E0", VA = "0x68411E0", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F4B")]
-	[Address(RVA = "0x2E2F750", Offset = "0x2E2DD50", VA = "0x182E2F750", Slot = "7")]
+	[Address(RVA = "0x6841220", Offset = "0x6840220", VA = "0x6841220", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F4C")]
-	[Address(RVA = "0x2E2F610", Offset = "0x2E2DC10", VA = "0x182E2F610", Slot = "8")]
+	[Address(RVA = "0x68412F0", Offset = "0x68402F0", VA = "0x68412F0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F4D")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6841410", Offset = "0x6840410", VA = "0x6841410")]
 	public NamespaceConverter()
 	{
 	}

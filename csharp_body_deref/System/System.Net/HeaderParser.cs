@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20002E1")]
+[Token(Token = "0x20002A2")]
 internal delegate string[] HeaderParser(string value);

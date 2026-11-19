@@ -30,7 +30,7 @@ public struct SwitchToMainThreadAwaitable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x600066B")]
-			[Address(RVA = "0x2909650", Offset = "0x2907C50", VA = "0x182909650")]
+			[Address(RVA = "0x62D8CB0", Offset = "0x62D7CB0", VA = "0x62D8CB0")]
 			get
 			{
 				return default(bool);
@@ -38,25 +38,25 @@ public struct SwitchToMainThreadAwaitable
 		}
 
 		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
+		[Address(RVA = "0x62D8C90", Offset = "0x62D7C90", VA = "0x62D8C90")]
 		public Awaiter(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x600066C")]
-		[Address(RVA = "0x29085D0", Offset = "0x2906BD0", VA = "0x1829085D0")]
+		[Address(RVA = "0x62D8D70", Offset = "0x62D7D70", VA = "0x62D8D70")]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x600066D")]
-		[Address(RVA = "0x29086C0", Offset = "0x2906CC0", VA = "0x1829086C0", Slot = "5")]
+		[Address(RVA = "0x62D8DC0", Offset = "0x62D7DC0", VA = "0x62D8DC0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x600066E")]
-		[Address(RVA = "0x2908CC0", Offset = "0x29072C0", VA = "0x182908CC0", Slot = "4")]
+		[Address(RVA = "0x62D8E10", Offset = "0x62D7E10", VA = "0x62D8E10", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
@@ -71,13 +71,13 @@ public struct SwitchToMainThreadAwaitable
 	private readonly CancellationToken cancellationToken;
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
+	[Address(RVA = "0x62CDD00", Offset = "0x62CCD00", VA = "0x62CDD00")]
 	public SwitchToMainThreadAwaitable(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x2911D30", Offset = "0x2910330", VA = "0x182911D30")]
+	[Address(RVA = "0x62D8C50", Offset = "0x62D7C50", VA = "0x62D8C50")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

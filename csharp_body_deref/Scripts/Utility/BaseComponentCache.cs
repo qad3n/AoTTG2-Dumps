@@ -12,37 +12,37 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x20008A3")]
+[Token(Token = "0x200090E")]
 internal class BaseComponentCache
 {
-	[Token(Token = "0x4002B0C")]
+	[Token(Token = "0x4002DC3")]
 	[FieldOffset(Offset = "0x10")]
 	public Transform Transform;
 
-	[Token(Token = "0x4002B0D")]
+	[Token(Token = "0x4002DC4")]
 	[FieldOffset(Offset = "0x18")]
 	public Rigidbody Rigidbody;
 
-	[Token(Token = "0x4002B0E")]
+	[Token(Token = "0x4002DC5")]
 	[FieldOffset(Offset = "0x20")]
 	public PhotonView PhotonView;
 
-	[Token(Token = "0x4002B0F")]
+	[Token(Token = "0x4002DC6")]
 	[FieldOffset(Offset = "0x28")]
 	public List<Collider> Colliders;
 
-	[Token(Token = "0x4002B10")]
+	[Token(Token = "0x4002DC7")]
 	[FieldOffset(Offset = "0x30")]
 	public Dictionary<string, AudioSource> AudioSources;
 
-	[Token(Token = "0x600529B")]
-	[Address(RVA = "0x232BDB0", Offset = "0x232A3B0", VA = "0x18232BDB0")]
+	[Token(Token = "0x60055F2")]
+	[Address(RVA = "0x5CCB650", Offset = "0x5CCA650", VA = "0x5CCB650")]
 	public BaseComponentCache(GameObject owner)
 	{
 	}
 
-	[Token(Token = "0x600529C")]
-	[Address(RVA = "0x232BBE0", Offset = "0x232A1E0", VA = "0x18232BBE0")]
+	[Token(Token = "0x60055F3")]
+	[Address(RVA = "0x5CE0DC0", Offset = "0x5CDFDC0", VA = "0x5CE0DC0")]
 	public void LoadAudio(string prefab, Transform parent)
 	{
 	}

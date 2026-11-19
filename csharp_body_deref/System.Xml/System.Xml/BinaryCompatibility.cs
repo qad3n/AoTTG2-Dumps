@@ -16,7 +16,7 @@ internal static class BinaryCompatibility
 	public static bool TargetsAtLeast_Desktop_V4_5_2
 	{
 		[Token(Token = "0x6000C32")]
-		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
+		[Address(RVA = "0x6105C40", Offset = "0x6104C40", VA = "0x6105C40")]
 		get
 		{
 			return default(bool);

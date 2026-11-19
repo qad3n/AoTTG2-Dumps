@@ -14,18 +14,18 @@ namespace UnityEngine.Events;
 [Token(Token = "0x200021E")]
 public enum PersistentListenerMode
 {
-	[Token(Token = "0x400070D")]
+	[Token(Token = "0x400070B")]
 	EventDefined,
-	[Token(Token = "0x400070E")]
+	[Token(Token = "0x400070C")]
 	Void,
-	[Token(Token = "0x400070F")]
+	[Token(Token = "0x400070D")]
 	Object,
-	[Token(Token = "0x4000710")]
+	[Token(Token = "0x400070E")]
 	Int,
-	[Token(Token = "0x4000711")]
+	[Token(Token = "0x400070F")]
 	Float,
-	[Token(Token = "0x4000712")]
+	[Token(Token = "0x4000710")]
 	String,
-	[Token(Token = "0x4000713")]
+	[Token(Token = "0x4000711")]
 	Bool
 }

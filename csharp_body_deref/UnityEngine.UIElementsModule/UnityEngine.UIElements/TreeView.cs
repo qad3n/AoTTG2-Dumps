@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TreeView
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -19,7 +19,7 @@ public class TreeView : BaseTreeView
 	public new class UxmlFactory : UxmlFactory<TreeView, UxmlTraits>
 	{
 		[Token(Token = "0x6000A7A")]
-		[Address(RVA = "0x3254C00", Offset = "0x3253200", VA = "0x183254C00")]
+		[Address(RVA = "0x6C44F80", Offset = "0x6C43F80", VA = "0x6C44F80")]
 		public UxmlFactory()
 		{
 		}
@@ -34,13 +34,13 @@ public class TreeView : BaseTreeView
 		private UxmlAssetAttributeDescription<VisualTreeAsset> m_ItemTemplate;
 
 		[Token(Token = "0x6000A7B")]
-		[Address(RVA = "0x3255200", Offset = "0x3253800", VA = "0x183255200", Slot = "4")]
+		[Address(RVA = "0x6C44FC0", Offset = "0x6C43FC0", VA = "0x6C44FC0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x3255750", Offset = "0x3253D50", VA = "0x183255750")]
+		[Address(RVA = "0x6C45100", Offset = "0x6C44100", VA = "0x6C45100")]
 		public UxmlTraits()
 		{
 		}
@@ -95,13 +95,13 @@ public class TreeView : BaseTreeView
 	public Func<VisualElement> makeItem
 	{
 		[Token(Token = "0x6000A6A")]
-		[Address(RVA = "0x2D242E0", Offset = "0x2D228E0", VA = "0x182D242E0")]
+		[Address(RVA = "0x6C44750", Offset = "0x6C43750", VA = "0x6C44750")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A6B")]
-		[Address(RVA = "0x324E0A0", Offset = "0x324C6A0", VA = "0x18324E0A0")]
+		[Address(RVA = "0x6C44760", Offset = "0x6C43760", VA = "0x6C44760")]
 		set
 		{
 		}
@@ -112,13 +112,13 @@ public class TreeView : BaseTreeView
 	public VisualTreeAsset itemTemplate
 	{
 		[Token(Token = "0x6000A6C")]
-		[Address(RVA = "0x32205E0", Offset = "0x321EBE0", VA = "0x1832205E0")]
+		[Address(RVA = "0x6C44800", Offset = "0x6C43800", VA = "0x6C44800")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A6D")]
-		[Address(RVA = "0x324DFA0", Offset = "0x324C5A0", VA = "0x18324DFA0")]
+		[Address(RVA = "0x6C44810", Offset = "0x6C43810", VA = "0x6C44810")]
 		set
 		{
 		}
@@ -129,13 +129,13 @@ public class TreeView : BaseTreeView
 	public Action<VisualElement, int> bindItem
 	{
 		[Token(Token = "0x6000A6F")]
-		[Address(RVA = "0x324DE20", Offset = "0x324C420", VA = "0x18324DE20")]
+		[Address(RVA = "0x6C449F0", Offset = "0x6C439F0", VA = "0x6C449F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A70")]
-		[Address(RVA = "0x324DE50", Offset = "0x324C450", VA = "0x18324DE50")]
+		[Address(RVA = "0x6C44A00", Offset = "0x6C43A00", VA = "0x6C44A00")]
 		set
 		{
 		}
@@ -146,13 +146,13 @@ public class TreeView : BaseTreeView
 	public Action<VisualElement, int> unbindItem
 	{
 		[Token(Token = "0x6000A71")]
-		[Address(RVA = "0x324DE40", Offset = "0x324C440", VA = "0x18324DE40")]
+		[Address(RVA = "0x6C44AA0", Offset = "0x6C43AA0", VA = "0x6C44AA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A72")]
-		[Address(RVA = "0x324E150", Offset = "0x324C750", VA = "0x18324E150")]
+		[Address(RVA = "0x6C44AB0", Offset = "0x6C43AB0", VA = "0x6C44AB0")]
 		set
 		{
 		}
@@ -163,47 +163,47 @@ public class TreeView : BaseTreeView
 	public Action<VisualElement> destroyItem
 	{
 		[Token(Token = "0x6000A73")]
-		[Address(RVA = "0x324DE30", Offset = "0x324C430", VA = "0x18324DE30")]
+		[Address(RVA = "0x6C44B40", Offset = "0x6C43B40", VA = "0x6C44B40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A74")]
-		[Address(RVA = "0x324DF00", Offset = "0x324C500", VA = "0x18324DF00")]
+		[Address(RVA = "0x6C44B50", Offset = "0x6C43B50", VA = "0x6C44B50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x324D650", Offset = "0x324BC50", VA = "0x18324D650")]
+	[Address(RVA = "0x6C44910", Offset = "0x6C43910", VA = "0x6C44910")]
 	private VisualElement TemplateMakeItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x324D610", Offset = "0x324BC10", VA = "0x18324D610", Slot = "150")]
+	[Address(RVA = "0x6C44BE0", Offset = "0x6C43BE0", VA = "0x6C44BE0", Slot = "150")]
 	internal override bool HasValidDataAndBindings()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A76")]
-	[Address(RVA = "0x324D5B0", Offset = "0x324BBB0", VA = "0x18324D5B0", Slot = "146")]
+	[Address(RVA = "0x6C44C20", Offset = "0x6C43C20", VA = "0x6C44C20", Slot = "146")]
 	protected override CollectionViewController CreateViewController()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A77")]
-	[Address(RVA = "0x324DB70", Offset = "0x324C170", VA = "0x18324DB70")]
+	[Address(RVA = "0x6C44C80", Offset = "0x6C43C80", VA = "0x6C44C80")]
 	public TreeView()
 	{
 	}
 
 	[Token(Token = "0x6000A78")]
-	[Address(RVA = "0x324DCC0", Offset = "0x324C2C0", VA = "0x18324DCC0")]
+	[Address(RVA = "0x6C44C90", Offset = "0x6C43C90", VA = "0x6C44C90")]
 	public TreeView(Func<VisualElement> makeItem, Action<VisualElement, int> bindItem)
 	{
 	}

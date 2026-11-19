@@ -1,57 +1,55 @@
 // Type: Interpolate
-// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Interpolate.cs
 // Prior real C# source (older reference): Assets/Scripts/ThirdParty/MeleeWeaponTrail/Interpolate.cs
 // --------------------------------
 
 // Interpolate.ToVector3<object>$$.ctor
-// il2cpp: void Interpolate_ToVector3_object____ctor (Interpolate_ToVector3_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_E41220* method);
-// 0x180e41220
-// asm: 2 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x180e412a1: jmp 0x180e412d8
-// asm:   0x180e412bc: jmp 0x180e412d8
+// il2cpp: void Interpolate_ToVector3_object____ctor (Interpolate_ToVector3_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_4266310* method);
+// 0x4366310
 
-void
-Interpolate_ToVector3_object____ctor(Interpolate_ToVector3_T__o* __this, Il2CppObject* object, intptr_t method, MethodInfo_E41220* method)
+void Interpolate_ToVector3_object____ctor
+               (Interpolate_ToVector3_T__o *__this,Il2CppObject *object,intptr_t method,
+               MethodInfo_4266310 *methodInfo)
 
 {
   char cVar1;
   char cVar2;
   Il2CppObject *ex;
-  code *pcVar3;
   
   (__this->fields).method_ptr = *(intptr_t *)(method + 8);
   (__this->fields).method = method;
   (__this->fields).m_target = object;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target,object);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target);
   cVar2 = *(char *)(method + 0x52);
   (__this->fields).method_code = (intptr_t)__this;
-  cVar1 = il2cpp_runtime_helper_1804161b0();
+  cVar1 = il2cpp_runtime_helper_030d61c0();
   if (cVar1 == '\0') {
     if (cVar2 == '\0') {
       if ((__this->fields).method_is_virtual == false) {
-        pcVar3 = il2cpp_runtime_helper_1800d6cf0;
+        (__this->fields).invoke_impl = (intptr_t)&label_02bad490;
       }
       else {
-        cVar2 = il2cpp_runtime_helper_18041f060(method);
+        cVar2 = il2cpp_runtime_helper_03143050(method);
+        cVar1 = il2cpp_runtime_helper_030d68e0(method);
         if (cVar2 == '\0') {
-          cVar2 = il2cpp_runtime_helper_180417090(method);
-          pcVar3 = il2cpp_runtime_helper_1800d6e40;
-          if (cVar2 != '\0') {
-            pcVar3 = il2cpp_runtime_helper_1800d6d30;
+          if (cVar1 == '\0') {
+            (__this->fields).invoke_impl = (intptr_t)&label_02bad4c0;
           }
+          else {
+            (__this->fields).invoke_impl = (intptr_t)&label_02bad4f0;
+          }
+        }
+        else if (cVar1 == '\0') {
+          (__this->fields).invoke_impl = (intptr_t)&label_02bad580;
         }
         else {
-          cVar2 = il2cpp_runtime_helper_180417090(method);
-          pcVar3 = il2cpp_runtime_helper_1800d6bc0;
-          if (cVar2 == '\0') {
-            pcVar3 = il2cpp_runtime_helper_1800d6c90;
-          }
+          (__this->fields).invoke_impl = (intptr_t)&label_02bad5c0;
         }
       }
-      goto label_180e412d8;
+      goto label_0436637e;
     }
     if (object == (Il2CppObject *)0x0) {
       ex = il2cpp_codegen_get_argument_exception
@@ -60,38 +58,37 @@ Interpolate_ToVector3_object____ctor(Interpolate_ToVector3_T__o* __this, Il2CppO
     }
   }
   else if (cVar2 == '\x01') {
-    pcVar3 = il2cpp_runtime_helper_1800d6e00;
-    goto label_180e412d8;
+    (__this->fields).invoke_impl = (intptr_t)&label_02bad4b0;
+    goto label_0436637e;
   }
-  pcVar3 = (code *)(__this->fields).method_ptr;
+  (__this->fields).invoke_impl = (__this->fields).method_ptr;
   (__this->fields).method_code = (intptr_t)(__this->fields).m_target;
-label_180e412d8:
-  (__this->fields).invoke_impl = (intptr_t)pcVar3;
-  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_1800d6880;
+label_0436637e:
+  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_02bad440;
   return;
 }
 
 
 // Interpolate.ToVector3<Vector3>$$.ctor
-// il2cpp: void Interpolate_ToVector3_Vector3____ctor (Interpolate_ToVector3_Vector3__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_E41310* method);
-// 0x180e41310
+// il2cpp: void Interpolate_ToVector3_Vector3____ctor (Interpolate_ToVector3_Vector3__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_4266490* method);
+// 0x4366490
 
-void
-Interpolate_ToVector3_Vector3____ctor(Interpolate_ToVector3_Vector3__o* __this, Il2CppObject* object, intptr_t method, MethodInfo_E41310* method)
+void Interpolate_ToVector3_Vector3____ctor
+               (Interpolate_ToVector3_Vector3__o *__this,Il2CppObject *object,intptr_t method,
+               MethodInfo_4266490 *methodInfo)
 
 {
   char cVar1;
   char cVar2;
-  code *pcVar3;
   Il2CppObject *ex;
   
   (__this->fields).method_ptr = *(intptr_t *)(method + 8);
   (__this->fields).method = method;
   (__this->fields).m_target = object;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target,object);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target);
   cVar1 = *(char *)(method + 0x52);
   (__this->fields).method_code = (intptr_t)__this;
-  cVar2 = il2cpp_runtime_helper_1804161b0();
+  cVar2 = il2cpp_runtime_helper_030d61c0();
   if (cVar2 == '\0') {
     if (object == (Il2CppObject *)0x0) {
       ex = il2cpp_codegen_get_argument_exception
@@ -100,63 +97,59 @@ Interpolate_ToVector3_Vector3____ctor(Interpolate_ToVector3_Vector3__o* __this, 
     }
   }
   else if (cVar1 == '\x01') {
-    pcVar3 = il2cpp_runtime_helper_1800d6f20;
-    goto label_180e4136f;
+    (__this->fields).invoke_impl = (intptr_t)&label_02bad6d0;
+    goto label_043664f6;
   }
+  (__this->fields).invoke_impl = (__this->fields).method_ptr;
   (__this->fields).method_code = (intptr_t)(__this->fields).m_target;
-  pcVar3 = (code *)(__this->fields).method_ptr;
-label_180e4136f:
-  (__this->fields).invoke_impl = (intptr_t)pcVar3;
-  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_1800d6ea0;
+label_043664f6:
+  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_02bad660;
   return;
 }
 
 
 // Interpolate.ToVector3<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Interpolate_ToVector3___Il2CppFullySharedGenericType____ctor (Interpolate_ToVector3_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_E41130* method);
-// 0x180e41130
-// asm: 3 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x180e41185: jmp 0x180e411ec
-// asm:   0x180e411ba: jmp 0x180e411ec
-// asm:   0x180e411d5: jmp 0x180e411ec
+// il2cpp: void Interpolate_ToVector3___Il2CppFullySharedGenericType____ctor (Interpolate_ToVector3_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_4266600* method);
+// 0x4366600
 
 void Interpolate_ToVector3___Il2CppFullySharedGenericType____ctor
                (Interpolate_ToVector3_T__o *__this,Il2CppObject *object,intptr_t method,
-               MethodInfo_E41130 *methodInfo)
+               MethodInfo_4266600 *methodInfo)
 
 {
   char cVar1;
   char cVar2;
-  Il2CppObject *ex;
   code *pcVar3;
+  Il2CppObject *ex;
   
   (__this->fields).method_ptr = *(intptr_t *)(method + 8);
   (__this->fields).method = method;
   (__this->fields).m_target = object;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target,object);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target);
   cVar2 = *(char *)(method + 0x52);
   (__this->fields).method_code = (intptr_t)__this;
-  cVar1 = il2cpp_runtime_helper_1804161b0();
+  cVar1 = il2cpp_runtime_helper_030d61c0();
   if (cVar1 == '\0') {
     if (cVar2 == '\0') {
       if ((__this->fields).method_is_virtual == false) {
-        pcVar3 = il2cpp_runtime_helper_1800d6a20;
+        pcVar3 = il2cpp_runtime_helper_02bad7e0;
       }
       else {
-        cVar2 = il2cpp_runtime_helper_18041f060(method);
+        cVar2 = il2cpp_runtime_helper_03143050(method);
+        cVar1 = il2cpp_runtime_helper_030d68e0(method);
         if (cVar2 == '\0') {
-          cVar2 = il2cpp_runtime_helper_180417090(method);
-          pcVar3 = il2cpp_runtime_helper_1800d6b70;
-          if (cVar2 != '\0') {
-            pcVar3 = il2cpp_runtime_helper_1800d6a60;
+          if (cVar1 == '\0') {
+            pcVar3 = il2cpp_runtime_helper_02bad820;
+          }
+          else {
+            pcVar3 = (code *)&label_02bad870;
           }
         }
+        else if (cVar1 == '\0') {
+          pcVar3 = (code *)&g_data_02bad910;
+        }
         else {
-          cVar2 = il2cpp_runtime_helper_180417090(method);
-          pcVar3 = il2cpp_runtime_helper_1800d68f0;
-          if (cVar2 == '\0') {
-            pcVar3 = il2cpp_runtime_helper_1800d69c0;
-          }
+          pcVar3 = il2cpp_runtime_helper_02bad960;
         }
       }
     }
@@ -166,275 +159,255 @@ void Interpolate_ToVector3___Il2CppFullySharedGenericType____ctor
                        ((char *)0x0,"Delegate to an instance method cannot have null \'this\'.");
         il2cpp_codegen_raise_exception(ex,(MethodInfo *)0x0);
       }
-      pcVar3 = il2cpp_runtime_helper_1800d6800;
+      pcVar3 = il2cpp_runtime_helper_02bad7a0;
     }
+  }
+  else if (cVar2 == '\x01') {
+    pcVar3 = il2cpp_runtime_helper_02bad730;
   }
   else {
-    pcVar3 = il2cpp_runtime_helper_1800d6b30;
-    if (cVar2 != '\x01') {
-      pcVar3 = il2cpp_runtime_helper_1800d6840;
-    }
+    pcVar3 = il2cpp_runtime_helper_02bad760;
   }
   (__this->fields).invoke_impl = (intptr_t)pcVar3;
-  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_1800d6880;
+  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_02bad6e0;
   return;
 }
 
 
 // Interpolate.ToVector3<object>$$Invoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_object___Invoke (Interpolate_ToVector3_T__o* __this, Il2CppObject* v, const MethodInfo_583BA0* method);
-// 0x180583ba0
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_object___Invoke (Interpolate_ToVector3_T__o* __this, Il2CppObject* v, const MethodInfo_4266420* method);
+// 0x4366420
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3_object___Invoke(Interpolate_ToVector3_T__o* __this, Il2CppObject* v, MethodInfo_583BA0* method)
+Interpolate_ToVector3_object___Invoke
+          (Interpolate_ToVector3_T__o *__this,Il2CppObject *v,MethodInfo_4266420 *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
-  undefined8 *puVar3;
-  undefined1 local_18 [16];
+  code *vtableDispatch;
+  float in_XMM1_Da;
+  UnityEngine_Vector3_o UVar1;
   
-  puVar3 = (undefined8 *)
-           (*(code *)(__this->fields).invoke_impl)
-                     (local_18,(__this->fields).method_code,normalizedLength,(__this->fields).method);
-  uVar1 = *puVar3;
-  fVar2 = *(float *)(puVar3 + 1);
-  (__return_storage_ptr__->fields).x = (float)(int)uVar1;
-  (__return_storage_ptr__->fields).y = (float)(int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).z = fVar2;
-  return __return_storage_ptr__;
+  vtableDispatch = (code *)(__this->fields).invoke_impl;
+  UVar1.fields._0_8_ =
+       (*vtableDispatch)((__this->fields).method_code,v,(__this->fields).method,vtableDispatch);
+  UVar1.fields.z = in_XMM1_Da;
+  return (UnityEngine_Vector3_o)UVar1.fields;
 }
 
 
 // Interpolate.ToVector3<Vector3>$$Invoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_Vector3___Invoke (Interpolate_ToVector3_Vector3__o* __this, UnityEngine_Vector3_o v, const MethodInfo_E410E0* method);
-// 0x180e410e0
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_Vector3___Invoke (Interpolate_ToVector3_Vector3__o* __this, UnityEngine_Vector3_o v, const MethodInfo_4266530* method);
+// 0x4366530
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3_Vector3___Invoke(Interpolate_ToVector3_Vector3__o* __this, UnityEngine_Vector3_o v, MethodInfo_E410E0* method)
+Interpolate_ToVector3_Vector3___Invoke
+          (Interpolate_ToVector3_Vector3__o *__this,UnityEngine_Vector3_o v,MethodInfo_4266530 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  undefined8 *puVar3;
-  undefined8 local_28;
-  int32_t local_20;
-  undefined1 local_18 [16];
+  code *vtableDispatch;
+  undefined8 in_RDX;
+  float fVar1;
+  UnityEngine_Vector3_o UVar2;
   
-  local_28._0_4_ = (arg->fields).m_X;
-  local_28._4_4_ = (arg->fields).m_Y;
-  local_20 = (arg->fields).m_Z;
-  puVar3 = (undefined8 *)
-           (*(code *)(__this->fields).invoke_impl)
-                     (local_18,(__this->fields).method_code,&local_28,(__this->fields).method);
-  uVar1 = *puVar3;
-  iVar2 = *(int32_t *)(puVar3 + 1);
-  (__return_storage_ptr__->fields).m_X = (int)uVar1;
-  (__return_storage_ptr__->fields).m_Y = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).m_Z = iVar2;
-  return __return_storage_ptr__;
+  fVar1 = v.fields.z;
+  vtableDispatch = (code *)(__this->fields).invoke_impl;
+  UVar2.fields._0_8_ =
+       (*vtableDispatch)
+                 (v.fields._0_8_,(__this->fields).method_code,(__this->fields).method,in_RDX,
+                  vtableDispatch);
+  UVar2.fields.z = fVar1;
+  return (UnityEngine_Vector3_o)UVar2.fields;
 }
 
 
 // Interpolate.ToVector3<__Il2CppFullySharedGenericType>$$Invoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3___Il2CppFullySharedGenericType___Invoke (Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, const MethodInfo_583BA0* method);
-// 0x180583ba0
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3___Il2CppFullySharedGenericType___Invoke (Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, const MethodInfo_42666F0* method);
+// 0x43666f0
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3___Il2CppFullySharedGenericType___Invoke(Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, MethodInfo_583BA0* method)
+Interpolate_ToVector3___Il2CppFullySharedGenericType___Invoke
+          (Interpolate_ToVector3_T__o *__this,Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v,
+          MethodInfo_42666F0 *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
-  undefined8 *puVar3;
-  undefined1 local_18 [16];
+  code *vtableDispatch;
+  float in_XMM1_Da;
+  UnityEngine_Vector3_o UVar1;
   
-  puVar3 = (undefined8 *)
-           (*(code *)(__this->fields).invoke_impl)
-                     (local_18,(__this->fields).method_code,normalizedLength,(__this->fields).method);
-  uVar1 = *puVar3;
-  fVar2 = *(float *)(puVar3 + 1);
-  (__return_storage_ptr__->fields).x = (float)(int)uVar1;
-  (__return_storage_ptr__->fields).y = (float)(int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).z = fVar2;
-  return __return_storage_ptr__;
+  vtableDispatch = (code *)(__this->fields).invoke_impl;
+  UVar1.fields._0_8_ =
+       (*vtableDispatch)
+                 ((__this->fields).method_code,v.klass,(__this->fields).method,vtableDispatch);
+  UVar1.fields.z = in_XMM1_Da;
+  return (UnityEngine_Vector3_o)UVar1.fields;
 }
 
 
 // Interpolate.ToVector3<object>$$BeginInvoke
-// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3_object___BeginInvoke (Interpolate_ToVector3_T__o* __this, Il2CppObject* v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_528E30* method);
-// 0x180528e30
+// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3_object___BeginInvoke (Interpolate_ToVector3_T__o* __this, Il2CppObject* v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_4266440* method);
+// 0x4366440
 
-System_IAsyncResult_o*
-Interpolate_ToVector3_object___BeginInvoke(Interpolate_ToVector3_T__o* __this, Il2CppObject* v, System_AsyncCallback_o* callback, Il2CppObject* object, MethodInfo_528E30* method)
+System_IAsyncResult_o *
+Interpolate_ToVector3_object___BeginInvoke
+          (Interpolate_ToVector3_T__o *__this,Il2CppObject *v,System_AsyncCallback_o *callback,
+          Il2CppObject *object,MethodInfo_4266440 *method)
 
 {
   System_IAsyncResult_o *pSVar1;
-  System_String_o *local_18;
-  undefined8 local_10;
+  Il2CppObject *pIStack_18;
+  undefined8 uStack_10;
   
-  local_10 = 0;
-  local_18 = routeData;
-  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_18042b200(__this,&local_18);
+  uStack_10 = 0;
+  pIStack_18 = v;
+  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_031591c0(__this,&pIStack_18);
   return pSVar1;
 }
 
 
 // Interpolate.ToVector3<Vector3>$$BeginInvoke
-// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3_Vector3___BeginInvoke (Interpolate_ToVector3_Vector3__o* __this, UnityEngine_Vector3_o v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_E41070* method);
-// 0x180e41070
+// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3_Vector3___BeginInvoke (Interpolate_ToVector3_Vector3__o* __this, UnityEngine_Vector3_o v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_4266550* method);
+// 0x4366550
 
 System_IAsyncResult_o *
 Interpolate_ToVector3_Vector3___BeginInvoke
-          (Interpolate_ToVector3_Vector3__o *__this,UnityEngine_Vector3_o *v,System_AsyncCallback_o *callback,
-          Il2CppObject *object,MethodInfo_E41070 *method)
+          (Interpolate_ToVector3_Vector3__o *__this,UnityEngine_Vector3_o v,System_AsyncCallback_o *callback,
+          Il2CppObject *object,MethodInfo_4266550 *method)
 
 {
   System_IAsyncResult_o *pSVar1;
-  Il2CppObject *local_38;
-  undefined8 uStack_30;
+  undefined8 local_38;
+  float local_30;
+  Il2CppObject *local_28;
+  undefined8 uStack_20;
   
-  if (Il2CppMethodInitialized_18433fabd == '\0') {
+  local_30 = v.fields.z;
+  local_38 = v.fields._0_8_;
+  if (Il2CppMethodInitialized_07540325 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18433fabd = '\x01';
+    Il2CppMethodInitialized_07540325 = '\x01';
   }
-  local_38 = (Il2CppObject *)0x0;
-  uStack_30 = 0;
-  local_38 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,v);
-  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_18042b200(__this,&local_38,callback,object);
+  local_28 = (Il2CppObject *)0x0;
+  uStack_20 = 0;
+  local_28 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_38);
+  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_031591c0(__this,&local_28,callback,object);
   return pSVar1;
 }
 
 
 // Interpolate.ToVector3<__Il2CppFullySharedGenericType>$$BeginInvoke
-// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3___Il2CppFullySharedGenericType___BeginInvoke (Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_E40FF0* method);
-// 0x180e40ff0
+// il2cpp: System_IAsyncResult_o* Interpolate_ToVector3___Il2CppFullySharedGenericType___BeginInvoke (Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_4266710* method);
+// 0x4366710
 
-System_IAsyncResult_o*
-Interpolate_ToVector3___Il2CppFullySharedGenericType___BeginInvoke(Interpolate_ToVector3_T__o* __this, Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v, System_AsyncCallback_o* callback, Il2CppObject* object, MethodInfo_E40FF0* method)
+System_IAsyncResult_o *
+Interpolate_ToVector3___Il2CppFullySharedGenericType___BeginInvoke
+          (Interpolate_ToVector3_T__o *__this,Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o v,
+          System_AsyncCallback_o *callback,Il2CppObject *object,MethodInfo_4266710 *method)
 
 {
   Il2CppClass *klass;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *data;
   System_IAsyncResult_o *pSVar1;
-  Il2CppObject *local_38;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *local_38;
   undefined8 uStack_30;
   
-  local_38 = (Il2CppObject *)0x0;
+  data = v.klass;
+  local_38 = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)0x0;
   uStack_30 = 0;
-  klass = (Il2CppClass *)HlmOOlSuKQO(**(undefined8 **)((__this->fields).method + 0x30));
+  klass = il2cpp_vm_Class_FromIl2CppType((Il2CppType *)**(undefined8 **)((__this->fields).method + 0x30));
   if (((klass->_2).bitflags1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   if ((int)(klass->_1).byval_arg.bits < 0) {
-    pNewValue = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_o *)il2cpp_value_box(klass,pNewValue);
+    data = (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)il2cpp_vm_Object_Box(klass,data);
   }
-  local_38 = (Il2CppObject *)pNewValue;
-  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_18042b200(__this,&local_38,callback,object);
+  local_38 = data;
+  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_031591c0(__this,&local_38,v.monitor,callback);
   return pSVar1;
 }
 
 
 // Interpolate.ToVector3<object>$$EndInvoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_object___EndInvoke (Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_583B60* method);
-// 0x180583b60
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_object___EndInvoke (Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_4266460* method);
+// 0x4366460
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3_object___EndInvoke(Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, MethodInfo_583B60* method)
+Interpolate_ToVector3_object___EndInvoke
+          (Interpolate_ToVector3_T__o *__this,System_IAsyncResult_o *result,MethodInfo_4266460 *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Il2CppObject *obj;
-  undefined8 *puVar3;
+  UnityEngine_Vector3_Fields *pUVar1;
   
-  obj = (Il2CppObject *)il2cpp_runtime_helper_18042b2c0(result,0);
-  if (obj != (Il2CppObject *)0x0) {
-    puVar3 = il2cpp_object_unbox(obj);
-    uVar1 = *puVar3;
-    fVar2 = *(float *)(puVar3 + 1);
-    (__return_storage_ptr__->fields).x = (float)(int)uVar1;
-    (__return_storage_ptr__->fields).y = (float)(int)((ulonglong)uVar1 >> 0x20);
-    (__return_storage_ptr__->fields).z = fVar2;
-    return __return_storage_ptr__;
+  obj = (Il2CppObject *)il2cpp_runtime_helper_03159300(result,0);
+  if (obj == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pUVar1 = il2cpp_vm_Object_Unbox(obj);
+  return (UnityEngine_Vector3_o)*pUVar1;
 }
 
 
 // Interpolate.ToVector3<Vector3>$$EndInvoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_Vector3___EndInvoke (Interpolate_ToVector3_Vector3__o* __this, System_IAsyncResult_o* result, const MethodInfo_583B60* method);
-// 0x180583b60
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3_Vector3___EndInvoke (Interpolate_ToVector3_Vector3__o* __this, System_IAsyncResult_o* result, const MethodInfo_42665D0* method);
+// 0x43665d0
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3_Vector3___EndInvoke(Interpolate_ToVector3_Vector3__o* __this, System_IAsyncResult_o* result, MethodInfo_583B60* method)
+Interpolate_ToVector3_Vector3___EndInvoke
+          (Interpolate_ToVector3_Vector3__o *__this,System_IAsyncResult_o *result,MethodInfo_42665D0 *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Il2CppObject *obj;
-  undefined8 *puVar3;
+  UnityEngine_Vector3_Fields *pUVar1;
   
-  obj = (Il2CppObject *)il2cpp_runtime_helper_18042b2c0(result,0);
-  if (obj != (Il2CppObject *)0x0) {
-    puVar3 = il2cpp_object_unbox(obj);
-    uVar1 = *puVar3;
-    fVar2 = *(float *)(puVar3 + 1);
-    (__return_storage_ptr__->fields).x = (float)(int)uVar1;
-    (__return_storage_ptr__->fields).y = (float)(int)((ulonglong)uVar1 >> 0x20);
-    (__return_storage_ptr__->fields).z = fVar2;
-    return __return_storage_ptr__;
+  obj = (Il2CppObject *)il2cpp_runtime_helper_03159300(result,0);
+  if (obj == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pUVar1 = il2cpp_vm_Object_Unbox(obj);
+  return (UnityEngine_Vector3_o)*pUVar1;
 }
 
 
 // Interpolate.ToVector3<__Il2CppFullySharedGenericType>$$EndInvoke
-// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3___Il2CppFullySharedGenericType___EndInvoke (Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_583B60* method);
-// 0x180583b60
+// il2cpp: UnityEngine_Vector3_o Interpolate_ToVector3___Il2CppFullySharedGenericType___EndInvoke (Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_4266790* method);
+// 0x4366790
 
 UnityEngine_Vector3_o
-Interpolate_ToVector3___Il2CppFullySharedGenericType___EndInvoke(Interpolate_ToVector3_T__o* __this, System_IAsyncResult_o* result, MethodInfo_583B60* method)
+Interpolate_ToVector3___Il2CppFullySharedGenericType___EndInvoke
+          (Interpolate_ToVector3_T__o *__this,System_IAsyncResult_o *result,MethodInfo_4266790 *method)
 
 {
-  undefined8 uVar1;
-  float fVar2;
   Il2CppObject *obj;
-  undefined8 *puVar3;
+  UnityEngine_Vector3_Fields *pUVar1;
   
-  obj = (Il2CppObject *)il2cpp_runtime_helper_18042b2c0(result,0);
-  if (obj != (Il2CppObject *)0x0) {
-    puVar3 = il2cpp_object_unbox(obj);
-    uVar1 = *puVar3;
-    fVar2 = *(float *)(puVar3 + 1);
-    (__return_storage_ptr__->fields).x = (float)(int)uVar1;
-    (__return_storage_ptr__->fields).y = (float)(int)((ulonglong)uVar1 >> 0x20);
-    (__return_storage_ptr__->fields).z = fVar2;
-    return __return_storage_ptr__;
+  obj = (Il2CppObject *)il2cpp_runtime_helper_03159300(result,0);
+  if (obj == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pUVar1 = il2cpp_vm_Object_Unbox(obj);
+  return (UnityEngine_Vector3_o)*pUVar1;
 }
 
 
 // Interpolate.Function$$.ctor
 // il2cpp: void Interpolate_Function___ctor (Interpolate_Function_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
-// 0x18054e560
+// 0x5849e70
 
-void
-Interpolate_Function___ctor(Interpolate_Function_o* __this, Il2CppObject* object, intptr_t method, MethodInfo* method)
+void Interpolate_Function___ctor
+               (Interpolate_Function_o *__this,Il2CppObject *object,intptr_t method,MethodInfo *methodInfo)
 
 {
   char cVar1;
   char cVar2;
-  undefined1 *puVar3;
   Il2CppObject *ex;
   
   (__this->fields).method_ptr = *(intptr_t *)(method + 8);
   (__this->fields).method = method;
   (__this->fields).m_target = object;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target,object);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target);
   cVar1 = *(char *)(method + 0x52);
   (__this->fields).method_code = (intptr_t)__this;
-  cVar2 = il2cpp_runtime_helper_1804161b0();
+  cVar2 = il2cpp_runtime_helper_030d61c0();
   if (cVar2 == '\0') {
     if (object == (Il2CppObject *)0x0) {
       ex = il2cpp_codegen_get_argument_exception
@@ -443,173 +416,189 @@ Interpolate_Function___ctor(Interpolate_Function_o* __this, Il2CppObject* object
     }
   }
   else if (cVar1 == '\x04') {
-    puVar3 = &label_1800127b0;
-    goto label_18054e5bf;
+    (__this->fields).invoke_impl = (intptr_t)&label_02fce3a0;
+    goto label_05849ed6;
   }
+  (__this->fields).invoke_impl = (__this->fields).method_ptr;
   (__this->fields).method_code = (intptr_t)(__this->fields).m_target;
-  puVar3 = (undefined1 *)(__this->fields).method_ptr;
-label_18054e5bf:
-  (__this->fields).invoke_impl = (intptr_t)puVar3;
-  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_180012700;
+label_05849ed6:
+  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_02fce310;
   return;
 }
 
 
 // Interpolate.Function$$Invoke
 // il2cpp: float Interpolate_Function__Invoke (Interpolate_Function_o* __this, float a, float b, float c, float d, const MethodInfo* method);
-// 0x18054e540
+// 0x584ae30
 
-float
-Interpolate_Function__Invoke(Interpolate_Function_o* __this, float a, float b, float c, float d, MethodInfo* method)
+float Interpolate_Function__Invoke
+                (Interpolate_Function_o *__this,float a,float b,float c,float d,MethodInfo *method)
 
 {
+  code *vtableDispatch;
+  undefined8 in_RDX;
   float fVar1;
   
-  fVar1 = (float)(*(code *)(__this->fields).invoke_impl)((__this->fields).method_code);
+  vtableDispatch = (code *)(__this->fields).invoke_impl;
+  fVar1 = (float)(*vtableDispatch)
+                           ((__this->fields).method_code,(__this->fields).method,in_RDX,vtableDispatch)
+  ;
   return fVar1;
 }
 
 
 // Interpolate.Function$$BeginInvoke
 // il2cpp: System_IAsyncResult_o* Interpolate_Function__BeginInvoke (Interpolate_Function_o* __this, float a, float b, float c, float d, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
-// 0x18054e460
+// 0x584ae50
 
-System_IAsyncResult_o*
-Interpolate_Function__BeginInvoke(Interpolate_Function_o* __this, float a, float b, float c, float d, System_AsyncCallback_o* callback, Il2CppObject* object, MethodInfo* method)
+System_IAsyncResult_o *
+Interpolate_Function__BeginInvoke
+          (Interpolate_Function_o *__this,float a,float b,float c,float d,System_AsyncCallback_o *callback,
+          Il2CppObject *object,MethodInfo *method)
 
 {
   System_IAsyncResult_o *pSVar1;
-  float local_res10 [2];
-  float local_res18 [2];
-  float local_res20 [2];
+  float local_58;
+  float local_54;
+  float local_50;
+  float local_4c;
+  Il2CppObject *local_48;
+  Il2CppObject *local_40;
   Il2CppObject *local_38;
-  Il2CppObject *pIStack_30;
-  Il2CppObject *local_28;
-  Il2CppObject *pIStack_20;
-  undefined8 local_18;
+  Il2CppObject *local_30;
+  undefined8 local_28;
   
-  local_38 = (Il2CppObject *)0x0;
-  pIStack_30 = (Il2CppObject *)0x0;
-  local_18 = 0;
-  local_28 = (Il2CppObject *)0x0;
-  pIStack_20 = (Il2CppObject *)0x0;
-  local_res10[0] = time;
-  local_res18[0] = duration;
-  local_res20[0] = overshootOrAmplitude;
-  local_38 = il2cpp_value_box(g_data_184354e38,local_res10);
-  pIStack_30 = il2cpp_value_box(g_data_184354e38,local_res18);
-  local_28 = il2cpp_value_box(g_data_184354e38,local_res20);
-  pIStack_20 = il2cpp_value_box(g_data_184354e38,&period);
-  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_18042b200(__this,&local_38,callback,object);
+  local_28 = 0;
+  local_58 = d;
+  local_54 = c;
+  local_50 = b;
+  local_4c = a;
+  local_48 = il2cpp_vm_Object_Box(g_data_07556740,&local_4c);
+  local_40 = il2cpp_vm_Object_Box(g_data_07556740,&local_50);
+  local_38 = il2cpp_vm_Object_Box(g_data_07556740,&local_54);
+  local_30 = il2cpp_vm_Object_Box(g_data_07556740,&local_58);
+  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_031591c0(__this,&local_48,callback,object);
   return pSVar1;
 }
 
 
 // Interpolate.Function$$EndInvoke
 // il2cpp: float Interpolate_Function__EndInvoke (Interpolate_Function_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);
-// 0x18054e510
+// 0x584af00
 
-float
-Interpolate_Function__EndInvoke(Interpolate_Function_o* __this, System_IAsyncResult_o* result, MethodInfo* method)
+float Interpolate_Function__EndInvoke
+                (Interpolate_Function_o *__this,System_IAsyncResult_o *result,MethodInfo *method)
 
 {
   Il2CppObject *obj;
   float *pfVar1;
   
-  obj = (Il2CppObject *)il2cpp_runtime_helper_18042b2c0(result,0);
-  if (obj != (Il2CppObject *)0x0) {
-    pfVar1 = il2cpp_object_unbox(obj);
-    return *pfVar1;
+  obj = (Il2CppObject *)il2cpp_runtime_helper_03159300(result,0);
+  if (obj == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pfVar1 = il2cpp_vm_Object_Unbox(obj);
+  return *pfVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$.ctor
-// il2cpp: void Interpolate__NewBezier_d__16_object____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewBezier_d__16_object____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_465C8C0* method);
+// 0x475c8c0
 
-void
-Interpolate__NewBezier_d__16_object____ctor(Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewBezier_d__16_object____ctor
+               (Interpolate__NewBezier_d__16_T__o *__this,int32_t __1__state,MethodInfo_465C8C0 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$.ctor
-// il2cpp: void Interpolate__NewBezier_d__16_Vector3____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewBezier_d__16_Vector3____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_465D2B0* method);
+// 0x475d2b0
 
-void
-Interpolate__NewBezier_d__16_Vector3____ctor(Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewBezier_d__16_Vector3____ctor
+               (Interpolate__NewBezier_d__16_T__o *__this,int32_t __1__state,MethodInfo_465D2B0 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType____ctor (Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, const MethodInfo_465DCC0* method);
+// 0x475dcc0
 
-void
-Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType____ctor(Interpolate__NewBezier_d__16_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType____ctor
+               (Interpolate__NewBezier_d__16_T__o *__this,int32_t __1__state,MethodInfo_465DCC0 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewBezier_d__16_object___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11675B0* method);
-// 0x1811675b0
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18116762a: jmp 0x181167640
-// asm:   0x18116762c: lea rcx, [rsp + 0x30]
-// asm:   0x181167631: call 0x1811508c0  ; il2cpp_runtime_helper_1811508c0()
-// asm:   0x181167636: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x18116763b: test rcx, rcx
-// asm:   0x18116763e: jne 0x181167646
-// asm:   0x181167646: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// il2cpp: void Interpolate__NewBezier_d__16_object___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465C8F0* method);
+// 0x475c8f0
 
 void Interpolate__NewBezier_d__16_object___System_IDisposable_Dispose
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11675B0 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465C8F0 *method)
 
 {
   int iVar1;
+  Il2CppObject *obj;
+  Il2CppClass *pIVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
+  VirtualInvokeData *pVVar4;
+  ulong uVar5;
+  long lVar6;
   
   iVar1 = (__this->fields).__1__state;
-  if ((iVar1 == -3) || (iVar1 == 1)) {
-    if (Il2CppMethodInitialized_184340817 == '\0') {
+  if ((iVar1 == 1) || (iVar1 == -3)) {
+    if (Il2CppMethodInitialized_0754106d == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_184340817 = '\x01';
+      Il2CppMethodInitialized_0754106d = '\x01';
     }
     (__this->fields).__1__state = -1;
-    if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+    obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar2 = obj->klass;
+      uVar5 = (ulong)(pIVar2->_2).interface_offsets_count;
+      if (uVar5 != 0) {
+        pIVar3 = (pIVar2->_1).interfaceOffsets;
+        lVar6 = 0;
+        do {
+          if (*(System_IDisposable_c **)((long)&pIVar3->interfaceType + lVar6) == TypeInfo_System_IDisposable)
+          {
+            pVVar4 = pIVar2->vtable + *(int *)((long)&pIVar3->offset + lVar6);
+            goto label_0475c98f;
+          }
+          lVar6 = lVar6 + 0x10;
+        } while (uVar5 * 0x10 != lVar6);
+      }
+      pVVar4 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475c98f:
+      (*pVVar4->methodPtr)(obj,pVVar4->method);
+      return;
     }
   }
   return;
@@ -617,33 +606,48 @@ void Interpolate__NewBezier_d__16_object___System_IDisposable_Dispose
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewBezier_d__16_Vector3___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1167650* method);
-// 0x181167650
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1811676ca: jmp 0x1811676e0
-// asm:   0x1811676cc: lea rcx, [rsp + 0x30]
-// asm:   0x1811676d1: call 0x181150ad0  ; il2cpp_runtime_helper_181150ad0()
-// asm:   0x1811676d6: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x1811676db: test rcx, rcx
-// asm:   0x1811676de: jne 0x1811676e6
-// asm:   0x1811676e6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// il2cpp: void Interpolate__NewBezier_d__16_Vector3___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D2E0* method);
+// 0x475d2e0
 
 void Interpolate__NewBezier_d__16_Vector3___System_IDisposable_Dispose
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1167650 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D2E0 *method)
 
 {
   int iVar1;
+  Il2CppObject *obj;
+  Il2CppClass *pIVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
+  VirtualInvokeData *pVVar4;
+  ulong uVar5;
+  long lVar6;
   
   iVar1 = (__this->fields).__1__state;
-  if ((iVar1 == -3) || (iVar1 == 1)) {
-    if (Il2CppMethodInitialized_18434081a == '\0') {
+  if ((iVar1 == 1) || (iVar1 == -3)) {
+    if (Il2CppMethodInitialized_07541070 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_18434081a = '\x01';
+      Il2CppMethodInitialized_07541070 = '\x01';
     }
     (__this->fields).__1__state = -1;
-    if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+    obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar2 = obj->klass;
+      uVar5 = (ulong)(pIVar2->_2).interface_offsets_count;
+      if (uVar5 != 0) {
+        pIVar3 = (pIVar2->_1).interfaceOffsets;
+        lVar6 = 0;
+        do {
+          if (*(System_IDisposable_c **)((long)&pIVar3->interfaceType + lVar6) == TypeInfo_System_IDisposable)
+          {
+            pVVar4 = pIVar2->vtable + *(int *)((long)&pIVar3->offset + lVar6);
+            goto label_0475d37f;
+          }
+          lVar6 = lVar6 + 0x10;
+        } while (uVar5 * 0x10 != lVar6);
+      }
+      pVVar4 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475d37f:
+      (*pVVar4->methodPtr)(obj,pVVar4->method);
+      return;
     }
   }
   return;
@@ -651,776 +655,1305 @@ void Interpolate__NewBezier_d__16_Vector3___System_IDisposable_Dispose
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11643F0* method);
-// 0x1811643f0
-// asm: 11 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181164428: mov rax, qword ptr [rsp + 0x58]
-// asm:   0x18116442d: mov rcx, qword ptr [rax + 0x20]
-// asm:   0x181164431: mov rax, qword ptr [rcx + 0xc0]
-// asm:   0x181164438: mov r8, qword ptr [rax + 8]
-// asm:   0x18116443c: mov rdx, r8
-// asm:   0x18116443f: mov rcx, qword ptr [rsp + 0x50]
-// asm:   0x181164444: call qword ptr [r8]
-// asm:   0x181164447: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x18116444c: test rcx, rcx
-// asm:   0x18116444f: jne 0x181164456
-// asm:   0x181164456: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_IDisposable_Dispose (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DCF0* method);
+// 0x475dcf0
 
-void
-Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_IDisposable_Dispose(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11643F0* method)
+void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_IDisposable_Dispose
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DCF0 *method)
 
 {
   int iVar1;
-  MethodInfo *pMVar2;
   
   iVar1 = (__this->fields).__1__state;
-  if ((iVar1 == -3) || (iVar1 == 1)) {
-    pMVar2 = method->klass->rgctx_data->_1_Interpolate__NewBezier_d__16_T____m__Finally1;
-    (*pMVar2->methodPointer)(__this,pMVar2);
+  if ((iVar1 == 1) || (iVar1 == -3)) {
+    (*method->klass->rgctx_data->_1_Interpolate__NewBezier_d__16_T____m__Finally1->methodPointer)();
+    return;
   }
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$MoveNext
-// il2cpp: bool Interpolate__NewBezier_d__16_object___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11668F0* method);
-// 0x1811668f0
-// eh: try 0x181166992..0x181166d3e -> pad 0x183315aa0 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 21 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181166b78: mov rax, r12
-// asm:   0x181166b7b: jmp 0x181166b91
-// asm:   0x181166cd3: mov rbx, qword ptr [rsp + 0x48]
-// asm:   0x181166cd8: test rbx, rbx
-// asm:   0x181166cdb: jne 0x181166d3e
-// asm:   0x181166cdd: movzx eax, byte ptr [rsp + 0xb0]
-// asm:   0x181166d3e: lea rcx, [rsp + 0x50]
-// asm:   0x181166d43: call 0x1811506e0  ; il2cpp_runtime_helper_1811506e0()
-// asm:   0x181166d48: mov rcx, rbx
-// asm:   0x181166d4b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315aa0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315aa5: push rbp
-// asm:   0x183315aa6: sub rsp, 0x30
-// asm:   0x183315aaa: mov rbp, rdx
-// asm:   0x183315aad: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315ab1: mov rcx, qword ptr [rax]
-// asm:   0x183315ab4: mov qword ptr [rbp + 0x48], rcx
-// asm:   0x183315ab8: movabs rax, 0
-// asm:   0x183315ac2: add rsp, 0x30
-// asm:   0x183315ac6: pop rbp
-// asm:   0x183315ac7: ret 
+// il2cpp: bool Interpolate__NewBezier_d__16_object___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465C9A0* method);
+// 0x475c9a0
+// eh: try 0x475ca8f..0x475cff8 -> pad 0x475d00c (+23 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x475d038..0x475d03d -> pad 0x475d058 cleanup
+// eh: try 0x475d05b..0x475d065 -> pad 0x475d06d catch (...) [compiler noexcept guard]
+// asm: 52 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x475ca7f: nop 
+// asm:   0x475cac6: xor ebx, ebx
+// asm:   0x475cac8: jmp 0x475cfaf
+// asm:   0x475caff: nop 
+// asm:   0x475cb9f: nop 
+// asm:   0x475cc2e: nop 
+// asm:   0x475cd8f: nop 
+// asm:   0x475ce4c: nop dword ptr [rax]
+// asm:   0x475cfd4: mov rdi, r15
+// asm:   0x475cfd7: mov rsi, rbx
+// asm:   0x475cfda: call 0x30d6890  ; il2cpp_codegen_raise_invalid_cast_exception()
+// asm:   0x475cff8: jmp 0x475d020
+// asm:   0x475cffa: jmp 0x475d020
+// asm:   0x475cffc: jmp 0x475d020
+// asm:   0x475cffe: jmp 0x475d020
+// asm:   0x475d000: jmp 0x475d020
+// asm:   0x475d002: jmp 0x475d020
+// asm:   0x475d004: jmp 0x475d020
+// asm:   0x475d006: jmp 0x475d020
+// asm:   0x475d008: jmp 0x475d020
+// asm:   0x475d00a: jmp 0x475d020
+// asm:   0x475d00c: jmp 0x475d020
+// asm:   0x475d00e: jmp 0x475d020
+// asm:   0x475d010: jmp 0x475d020
+// asm:   0x475d012: jmp 0x475d020
+// asm:   0x475d014: jmp 0x475d020
+// asm:   0x475d016: jmp 0x475d020
+// asm:   0x475d018: jmp 0x475d020
+// asm:   0x475d01a: jmp 0x475d020
+// asm:   0x475d01c: jmp 0x475d020
+// asm:   0x475d01e: jmp 0x475d020
+// asm:   0x475d020: mov rbx, rax
+// asm:   0x475d023: cmp edx, 1
+// asm:   0x475d026: jne 0x475d05b
+// asm:   0x475d028: mov rdi, rbx
+// asm:   0x475d02b: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x475d030: mov rbx, qword ptr [rax]
+// asm:   0x475d033: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x475d038: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x475d03d: test rbx, rbx
+// asm:   0x475d040: je 0x475cac6
+// asm:   0x475d046: mov rdi, qword ptr [rsp + 8]
+// asm:   0x475d04b: call 0x2c166d0  ; il2cpp_runtime_helper_02c166d0()
+// asm:   0x475d050: mov rdi, rbx
+// asm:   0x475d053: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x475d058: mov rbx, rax
+// asm:   0x475d05b: lea rdi, [rsp + 0x20]
+// asm:   0x475d060: call 0x2c16230  ; il2cpp_runtime_helper_02c16230()
+// asm:   0x475d065: mov rdi, rbx
+// asm:   0x475d068: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x475d06d: mov rdi, rax
+// asm:   0x475d070: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Interpolate__NewBezier_d__16_object___MoveNext
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11668F0 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465C9A0 *method)
 
 {
-  undefined8 uVar1;
-  int iVar2;
-  float fVar3;
-  System_Collections_IList_o *pSVar4;
-  Interpolate_ToVector3_T__o *pIVar5;
-  float fVar6;
-  Interpolate__NewBezier_d__16_T__o *pIVar7;
-  void *pvVar8;
-  UnityEngine_Vector3_array *pUVar9;
-  System_Collections_Generic_IEnumerator_float__o *value;
-  Il2CppObject *pIVar10;
-  Il2CppClass *klass;
+  int iVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  Interpolate_ToVector3_T__o *pIVar3;
+  Interpolate__NewBezier_d__16_T__o *pIVar4;
+  bool bVar5;
+  int32_t iVar6;
+  uint32_t length;
+  VirtualInvokeData *pVVar7;
+  UnityEngine_Vector3_array *pUVar8;
+  Il2CppObject *pIVar9;
+  Il2CppClass *pIVar10;
   Il2CppObject *pIVar11;
-  undefined8 *puVar12;
-  UnityEngine_Vector3_o *pUVar13;
-  uint uVar14;
-  float elapsedTime;
-  Interpolate__NewBezier_d__16_T__o *local_res8;
-  MethodInfo_11668F0 *local_res10;
-  undefined1 local_res18;
-  UnityEngine_Vector3_o local_60;
-  undefined8 local_50;
-  Interpolate__NewBezier_d__16_T__o **local_48;
-  MethodInfo_11668F0 **local_40;
+  ulong uVar12;
+  long lVar13;
+  ulong uVar14;
+  undefined8 uVar15;
+  float in_XMM1_Da;
+  UnityEngine_Vector3_Fields UVar16;
+  Interpolate__NewBezier_d__16_T__o *pIStack_60;
+  float fStack_54;
+  MethodInfo_465C9A0 *pMStack_50;
+  undefined8 uStack_48;
+  Interpolate__NewBezier_d__16_T__o **ppIStack_40;
+  MethodInfo_465C9A0 **ppMStack_38;
   
-  local_res8 = __this;
-  local_res10 = method;
-  if (Il2CppMethodInitialized_184340816 == '\0') {
+  pIStack_60 = __this;
+  pMStack_50 = method;
+  if (Il2CppMethodInitialized_0754106c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3_array);
-    Il2CppMethodInitialized_184340816 = '\x01';
+    Il2CppMethodInitialized_0754106c = '\x01';
   }
-  local_res18 = 0;
-  local_50 = 0;
-  local_48 = &local_res8;
-  local_40 = &local_res10;
-  iVar2 = (local_res8->fields).__1__state;
-  if (iVar2 == 0) {
-    (local_res8->fields).__1__state = -1;
-    pIVar10 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar10 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar10);
-    if ((int)pvVar8 < 2) {
+  uStack_48 = 0;
+  ppIStack_40 = &pIStack_60;
+  ppMStack_38 = &pMStack_50;
+  iVar1 = (__this->fields).__1__state;
+  if (iVar1 != 1) {
+    if (iVar1 != 0) {
       return false;
     }
-    pIVar10 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar10 == (Il2CppObject *)0x0) {
+    (__this->fields).__1__state = -1;
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar10);
-    pUVar9 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,(uint32_t)pvVar8);
-    (local_res8->fields)._points_5__2 = pUVar9;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,pUVar9);
-    pIVar10 = (Il2CppObject *)(local_res8->fields).steps;
-    if (pIVar10 == (Il2CppObject *)0x0) {
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+          goto label_0475cab8;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475cab8:
+    iVar6 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    if (iVar6 < 2) {
+      return false;
+    }
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    value = InterfaceInvoker0_Invoke
-                      (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,pIVar10);
-    (local_res8->fields).__7__wrap2 = value;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,value);
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+          goto label_0475cb38;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475cb38:
+    length = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    pUVar8 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,length);
+    (pIStack_60->fields)._points_5__2 = pUVar8;
+    Il2CppCodeGenWriteBarrier(&(pIStack_60->fields)._points_5__2);
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).steps;
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerable_float__c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_Generic_IEnumerable_float) {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475cbd1;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,0);
+label_0475cbd1:
+    pIVar9 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    (pIStack_60->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)pIVar9;
+    Il2CppCodeGenWriteBarrier(&(pIStack_60->fields).__7__wrap2);
+    __this = pIStack_60;
   }
-  else if (iVar2 != 1) {
-    return false;
-  }
-  (local_res8->fields).__1__state = -3;
-  pIVar10 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar10 == (Il2CppObject *)0x0) {
+  (__this->fields).__1__state = -3;
+  pIVar9 = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (pIVar9 == (Il2CppObject *)0x0) {
     ThrowNullReferenceException();
   }
-  pvVar8 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar10);
-  pIVar7 = local_res8;
-  if ((char)pvVar8 == '\0') {
-    if (Il2CppMethodInitialized_184340817 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_184340817 = '\x01';
-    }
-    (pIVar7->fields).__1__state = -1;
-    if ((pIVar7->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(pIVar7->fields).__7__wrap2);
-    }
-    (local_res8->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,(void *)0x0);
-    (local_res8->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,(void *)0x0);
-    return false;
+  pIVar10 = pIVar9->klass;
+  uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+  if (uVar14 != 0) {
+    pIVar2 = (pIVar10->_1).interfaceOffsets;
+    lVar13 = 0;
+    do {
+      if (*(System_Collections_IEnumerator_c **)((long)&pIVar2->interfaceType + lVar13) ==
+          TypeInfo_System_Collections_IEnumerator) {
+        pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+        goto label_0475cc61;
+      }
+      lVar13 = lVar13 + 0x10;
+    } while (uVar14 * 0x10 != lVar13);
   }
-  pIVar10 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar10 == (Il2CppObject *)0x0) {
+  pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                     (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_0475cc61:
+  bVar5 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+  pIVar4 = pIStack_60;
+  if (bVar5) {
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).__7__wrap2;
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerator_float__c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_Generic_IEnumerator_float) {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475cd64;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,0);
+label_0475cd64:
+    fStack_54 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      uVar14 = 0;
+      do {
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar2 = (pIVar10->_1).interfaceOffsets;
+          lVar13 = 0;
+          do {
+            if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+                TypeInfo_System_Collections_ICollection) {
+              pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+              goto label_0475cdf7;
+            }
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
+        }
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475cdf7:
+        iVar6 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+        if ((long)iVar6 <= (long)uVar14) {
+          UVar16 = (UnityEngine_Vector3_Fields)
+                   Interpolate__Bezier((pIStack_60->fields).ease,(pIStack_60->fields)._points_5__2,fStack_54,
+                                       (pIStack_60->fields).maxStep,(MethodInfo *)0x0);
+          (pIStack_60->fields).__2__current.fields = UVar16;
+          (pIStack_60->fields).__1__state = 1;
+          return true;
+        }
+        pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+        if (pIVar9 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pUVar8 = (pIStack_60->fields)._points_5__2;
+        pIVar3 = (pIStack_60->fields).toVector3;
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar2 = (pIVar10->_1).interfaceOffsets;
+          lVar13 = 0;
+          do {
+            if (*(System_Collections_IList_c **)((long)&pIVar2->interfaceType + lVar13) ==
+                TypeInfo_System_Collections_IList) {
+              pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+              goto label_0475ce83;
+            }
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
+        }
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475ce83:
+        pIVar9 = (*pVVar7->methodPtr)(pIVar9,(int32_t)uVar14,pVVar7->method);
+        if (pIVar3 == (Interpolate_ToVector3_T__o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar10 = pMStack_50->klass->rgctx_data->_3_T;
+        if (((pIVar10->_2).bitflags1 & 1) == 0) {
+          pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+        }
+        if (pIVar9 == (Il2CppObject *)0x0) {
+          pIVar11 = (Il2CppObject *)0x0;
+        }
+        else {
+          pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+          if (pIVar11 == (Il2CppObject *)0x0) {
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar9,pIVar10);
+          }
+        }
+        uVar15 = (*(code *)(pIVar3->fields).invoke_impl)
+                           ((pIVar3->fields).method_code,pIVar11,(pIVar3->fields).method);
+        if (pUVar8 == (UnityEngine_Vector3_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        if ((uint)pUVar8->max_length <= uVar14) {
+          ThrowIndexOutOfRangeException();
+        }
+        pUVar8->m_Items[uVar14].fields.x = (float)(int)uVar15;
+        pUVar8->m_Items[uVar14].fields.y = (float)(int)((ulong)uVar15 >> 0x20);
+        pUVar8->m_Items[uVar14].fields.z = in_XMM1_Da;
+        uVar14 = uVar14 + 1;
+        pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+      } while (pIVar9 != (Il2CppObject *)0x0);
+    }
     ThrowNullReferenceException();
   }
-  InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,pIVar10);
-  pIVar10 = (Il2CppObject *)0x0;
-  while( true ) {
-    pIVar11 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar11 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar11);
-    uVar14 = (uint)pIVar10;
-    if ((int)pvVar8 <= (int)uVar14) {
-      pUVar13 = Interpolate__Bezier(&local_60,(local_res8->fields).ease,(local_res8->fields)._points_5__2,
-                                    elapsedTime,(local_res8->fields).maxStep,(MethodInfo *)0x0);
-      fVar3 = (pUVar13->fields).z;
-      fVar6 = (pUVar13->fields).y;
-      (local_res8->fields).__2__current.fields.x = (pUVar13->fields).x;
-      (local_res8->fields).__2__current.fields.y = fVar6;
-      (local_res8->fields).__2__current.fields.z = fVar3;
-      (local_res8->fields).__1__state = 1;
-      return true;
-    }
-    pSVar4 = (local_res8->fields).nodes;
-    if (pSVar4 == (System_Collections_IList_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pUVar9 = (local_res8->fields)._points_5__2;
-    pIVar5 = (local_res8->fields).toVector3;
-    pIVar10 = (Il2CppObject *)il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar4,pIVar10);
-    if (pIVar5 == (Interpolate_ToVector3_T__o *)0x0) break;
-    klass = local_res10->klass->rgctx_data->_3_T;
-    if (((klass->_2).bitflags1 & 1) == 0) {
-      klass = il2cpp_codegen_class_init_checked(klass);
-    }
-    pIVar11 = (Il2CppObject *)0x0;
-    if ((pIVar10 != (Il2CppObject *)0x0) &&
-       (pIVar11 = il2cpp_vm_Object_IsInst(pIVar10,klass), pIVar11 == (Il2CppObject *)0x0)) {
-      il2cpp_codegen_raise_invalid_cast_exception(pIVar10,klass);
-    }
-    puVar12 = (undefined8 *)
-              (*(code *)(pIVar5->fields).invoke_impl)
-                        (&local_60,(pIVar5->fields).method_code,pIVar11,(pIVar5->fields).method);
-    if (pUVar9 == (UnityEngine_Vector3_array *)0x0) {
-      ThrowNullReferenceException();
-    }
-    if ((uint)pUVar9->max_length <= uVar14) {
-      ThrowIndexOutOfRangeException();
-    }
-    fVar3 = *(float *)(puVar12 + 1);
-    uVar1 = *puVar12;
-    pUVar9->m_Items[(int)uVar14].fields.x = (float)(int)uVar1;
-    pUVar9->m_Items[(int)uVar14].fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
-    pUVar9->m_Items[(int)uVar14].fields.z = fVar3;
-    pIVar10 = (Il2CppObject *)(ulonglong)(uVar14 + 1);
+  if (Il2CppMethodInitialized_0754106d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    Il2CppMethodInitialized_0754106d = '\x01';
   }
-  ThrowNullReferenceException();
+  (pIVar4->fields).__1__state = -1;
+  pIVar9 = (Il2CppObject *)(pIVar4->fields).__7__wrap2;
+  if (pIVar9 != (Il2CppObject *)0x0) {
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar13) == TypeInfo_System_IDisposable)
+        {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475cf74;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar9,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475cf74:
+    (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+  }
+  (pIStack_60->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pIStack_60->fields).__7__wrap2);
+  (pIStack_60->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pIStack_60->fields)._points_5__2);
+  return false;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$MoveNext
-// il2cpp: bool Interpolate__NewBezier_d__16_Vector3___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1166470* method);
-// 0x181166470
-// eh: try 0x181166512..0x1811668d1 -> pad 0x183327470 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18116686a: mov rbx, qword ptr [rsp + 0x60]
-// asm:   0x18116686f: test rbx, rbx
-// asm:   0x181166872: jne 0x1811668d1
-// asm:   0x181166874: movzx eax, byte ptr [rsp + 0xd0]
-// asm:   0x1811668d1: lea rcx, [rsp + 0x68]
-// asm:   0x1811668d6: call 0x181150890  ; il2cpp_runtime_helper_181150890()
-// asm:   0x1811668db: mov rcx, rbx
-// asm:   0x1811668de: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183327470: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183327475: push rbp
-// asm:   0x183327476: sub rsp, 0x30
-// asm:   0x18332747a: mov rbp, rdx
-// asm:   0x18332747d: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183327481: mov rcx, qword ptr [rax]
-// asm:   0x183327484: mov qword ptr [rbp + 0x60], rcx
-// asm:   0x183327488: movabs rax, 0
-// asm:   0x183327492: add rsp, 0x30
-// asm:   0x183327496: pop rbp
-// asm:   0x183327497: ret 
+// il2cpp: bool Interpolate__NewBezier_d__16_Vector3___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D390* method);
+// 0x475d390
+// eh: try 0x475d47f..0x475da05 -> pad 0x475da19 (+24 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x475da45..0x475da4a -> pad 0x475da65 cleanup
+// eh: try 0x475da68..0x475da72 -> pad 0x475da7a catch (...) [compiler noexcept guard]
+// asm: 48 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x475d46f: nop 
+// asm:   0x475d4b6: xor ebx, ebx
+// asm:   0x475d4b8: jmp 0x475d9b7
+// asm:   0x475d4ef: nop 
+// asm:   0x475d58f: nop 
+// asm:   0x475d61e: nop 
+// asm:   0x475d7af: nop 
+// asm:   0x475da05: jmp 0x475da2d
+// asm:   0x475da07: jmp 0x475da2d
+// asm:   0x475da09: jmp 0x475da2d
+// asm:   0x475da0b: jmp 0x475da2d
+// asm:   0x475da0d: jmp 0x475da2d
+// asm:   0x475da0f: jmp 0x475da2d
+// asm:   0x475da11: jmp 0x475da2d
+// asm:   0x475da13: jmp 0x475da2d
+// asm:   0x475da15: jmp 0x475da2d
+// asm:   0x475da17: jmp 0x475da2d
+// asm:   0x475da19: jmp 0x475da2d
+// asm:   0x475da1b: jmp 0x475da2d
+// asm:   0x475da1d: jmp 0x475da2d
+// asm:   0x475da1f: jmp 0x475da2d
+// asm:   0x475da21: jmp 0x475da2d
+// asm:   0x475da23: jmp 0x475da2d
+// asm:   0x475da25: jmp 0x475da2d
+// asm:   0x475da27: jmp 0x475da2d
+// asm:   0x475da29: jmp 0x475da2d
+// asm:   0x475da2b: jmp 0x475da2d
+// asm:   0x475da2d: mov rbx, rax
+// asm:   0x475da30: cmp edx, 1
+// asm:   0x475da33: jne 0x475da68
+// asm:   0x475da35: mov rdi, rbx
+// asm:   0x475da38: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x475da3d: mov rbx, qword ptr [rax]
+// asm:   0x475da40: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x475da45: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x475da4a: test rbx, rbx
+// asm:   0x475da4d: je 0x475d4b6
+// asm:   0x475da53: mov rdi, qword ptr [rsp + 8]
+// asm:   0x475da58: call 0x2c16780  ; il2cpp_runtime_helper_02c16780()
+// asm:   0x475da5d: mov rdi, rbx
+// asm:   0x475da60: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x475da65: mov rbx, rax
+// asm:   0x475da68: lea rdi, [rsp + 0x20]
+// asm:   0x475da6d: call 0x2c16250  ; il2cpp_runtime_helper_02c16250()
+// asm:   0x475da72: mov rdi, rbx
+// asm:   0x475da75: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x475da7a: mov rdi, rax
+// asm:   0x475da7d: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Interpolate__NewBezier_d__16_Vector3___MoveNext
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1166470 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D390 *method)
 
 {
-  undefined8 uVar1;
-  int iVar2;
-  float fVar3;
-  System_Collections_IList_o *pSVar4;
-  Interpolate_ToVector3_T__o *pIVar5;
-  float fVar6;
-  Interpolate__NewBezier_d__16_T__o *pIVar7;
-  void *pvVar8;
-  UnityEngine_Vector3_array *pUVar9;
-  System_Collections_Generic_IEnumerator_float__o *value;
-  Il2CppObject *pIVar10;
-  Il2CppClass *klass;
+  int iVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  Interpolate_ToVector3_T__o *pIVar3;
+  Interpolate__NewBezier_d__16_T__o *pIVar4;
+  bool bVar5;
+  int32_t iVar6;
+  uint32_t length;
+  VirtualInvokeData *pVVar7;
+  UnityEngine_Vector3_array *pUVar8;
+  Il2CppObject *pIVar9;
+  Il2CppClass *pIVar10;
   undefined8 *puVar11;
-  UnityEngine_Vector3_o *pUVar12;
-  uint uVar13;
-  float elapsedTime;
-  Interpolate__NewBezier_d__16_T__o *local_res8;
-  MethodInfo_1166470 *local_res10;
-  undefined1 local_res18;
-  undefined8 local_78;
-  undefined4 local_70;
-  UnityEngine_Vector3_o local_68;
-  undefined8 local_58;
-  Interpolate__NewBezier_d__16_T__o **local_50;
-  MethodInfo_1166470 **local_48;
+  ulong uVar12;
+  long lVar13;
+  ulong uVar14;
+  undefined8 uVar15;
+  float fVar16;
+  UnityEngine_Vector3_Fields UVar17;
+  Interpolate__NewBezier_d__16_T__o *pIStack_60;
+  float fStack_54;
+  MethodInfo_465D390 *pMStack_50;
+  undefined8 uStack_48;
+  Interpolate__NewBezier_d__16_T__o **ppIStack_40;
+  MethodInfo_465D390 **ppMStack_38;
   
-  local_res8 = __this;
-  local_res10 = method;
-  if (Il2CppMethodInitialized_184340819 == '\0') {
+  pIStack_60 = __this;
+  pMStack_50 = method;
+  if (Il2CppMethodInitialized_0754106f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3_array);
-    Il2CppMethodInitialized_184340819 = '\x01';
+    Il2CppMethodInitialized_0754106f = '\x01';
   }
-  local_res18 = 0;
-  uVar13 = 0;
-  local_58 = 0;
-  local_50 = &local_res8;
-  local_48 = &local_res10;
-  iVar2 = (local_res8->fields).__1__state;
-  if (iVar2 == 0) {
-    (local_res8->fields).__1__state = -1;
-    pIVar10 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar10 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar10);
-    if ((int)pvVar8 < 2) {
+  uStack_48 = 0;
+  ppIStack_40 = &pIStack_60;
+  ppMStack_38 = &pMStack_50;
+  iVar1 = (__this->fields).__1__state;
+  if (iVar1 != 1) {
+    if (iVar1 != 0) {
       return false;
     }
-    pIVar10 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar10 == (Il2CppObject *)0x0) {
+    (__this->fields).__1__state = -1;
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar10);
-    pUVar9 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,(uint32_t)pvVar8);
-    (local_res8->fields)._points_5__2 = pUVar9;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,pUVar9);
-    pIVar10 = (Il2CppObject *)(local_res8->fields).steps;
-    if (pIVar10 == (Il2CppObject *)0x0) {
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+          goto label_0475d4a8;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475d4a8:
+    iVar6 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    if (iVar6 < 2) {
+      return false;
+    }
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    value = InterfaceInvoker0_Invoke
-                      (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,pIVar10);
-    (local_res8->fields).__7__wrap2 = value;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,value);
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+          goto label_0475d528;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475d528:
+    length = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    pUVar8 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,length);
+    (pIStack_60->fields)._points_5__2 = pUVar8;
+    Il2CppCodeGenWriteBarrier(&(pIStack_60->fields)._points_5__2);
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).steps;
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerable_float__c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_Generic_IEnumerable_float) {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475d5c1;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,0);
+label_0475d5c1:
+    pIVar9 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    (pIStack_60->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)pIVar9;
+    Il2CppCodeGenWriteBarrier(&(pIStack_60->fields).__7__wrap2);
+    __this = pIStack_60;
   }
-  else if (iVar2 != 1) {
-    return false;
-  }
-  (local_res8->fields).__1__state = -3;
-  pIVar10 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar10 == (Il2CppObject *)0x0) {
+  (__this->fields).__1__state = -3;
+  pIVar9 = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (pIVar9 == (Il2CppObject *)0x0) {
     ThrowNullReferenceException();
   }
-  pvVar8 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar10);
-  pIVar7 = local_res8;
-  if ((char)pvVar8 == '\0') {
-    if (Il2CppMethodInitialized_18434081a == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_18434081a = '\x01';
-    }
-    (pIVar7->fields).__1__state = -1;
-    if ((pIVar7->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(pIVar7->fields).__7__wrap2);
-    }
-    (local_res8->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,(void *)0x0);
-    (local_res8->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,(void *)0x0);
-    return false;
+  pIVar10 = pIVar9->klass;
+  uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+  if (uVar14 != 0) {
+    pIVar2 = (pIVar10->_1).interfaceOffsets;
+    lVar13 = 0;
+    do {
+      if (*(System_Collections_IEnumerator_c **)((long)&pIVar2->interfaceType + lVar13) ==
+          TypeInfo_System_Collections_IEnumerator) {
+        pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+        goto label_0475d651;
+      }
+      lVar13 = lVar13 + 0x10;
+    } while (uVar14 * 0x10 != lVar13);
   }
-  pIVar10 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar10 == (Il2CppObject *)0x0) {
+  pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                     (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_0475d651:
+  bVar5 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+  pIVar4 = pIStack_60;
+  if (bVar5) {
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).__7__wrap2;
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerator_float__c **)((long)&pIVar2->interfaceType + lVar13) ==
+            TypeInfo_System_Collections_Generic_IEnumerator_float) {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475d754;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,0);
+label_0475d754:
+    fStack_54 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+    pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      uVar14 = 0;
+      do {
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar2 = (pIVar10->_1).interfaceOffsets;
+          lVar13 = 0;
+          do {
+            if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar13) ==
+                TypeInfo_System_Collections_ICollection) {
+              pVVar7 = pIVar10->vtable + (*(int *)((long)&pIVar2->offset + lVar13) + 1);
+              goto label_0475d7f7;
+            }
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
+        }
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475d7f7:
+        iVar6 = (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+        if ((long)iVar6 <= (long)uVar14) {
+          UVar17 = (UnityEngine_Vector3_Fields)
+                   Interpolate__Bezier((pIStack_60->fields).ease,(pIStack_60->fields)._points_5__2,fStack_54,
+                                       (pIStack_60->fields).maxStep,(MethodInfo *)0x0);
+          (pIStack_60->fields).__2__current.fields = UVar17;
+          (pIStack_60->fields).__1__state = 1;
+          return true;
+        }
+        pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+        if (pIVar9 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pUVar8 = (pIStack_60->fields)._points_5__2;
+        pIVar3 = (pIStack_60->fields).toVector3;
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar2 = (pIVar10->_1).interfaceOffsets;
+          lVar13 = 0;
+          do {
+            if (*(System_Collections_IList_c **)((long)&pIVar2->interfaceType + lVar13) ==
+                TypeInfo_System_Collections_IList) {
+              pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+              goto label_0475d883;
+            }
+            lVar13 = lVar13 + 0x10;
+          } while (uVar12 * 0x10 != lVar13);
+        }
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475d883:
+        pIVar9 = (*pVVar7->methodPtr)(pIVar9,(int32_t)uVar14,pVVar7->method);
+        if (pIVar3 == (Interpolate_ToVector3_T__o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar10 = pMStack_50->klass->rgctx_data->_3_T;
+        if (((pIVar10->_2).bitflags1 & 1) == 0) {
+          pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+        }
+        if (pIVar9 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        if ((pIVar9->klass->_1).element_class != (pIVar10->_1).element_class) {
+          il2cpp_codegen_raise_invalid_cast_exception(pIVar9,pIVar10);
+        }
+        puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+        fVar16 = *(float *)(puVar11 + 1);
+        uVar15 = (*(code *)(pIVar3->fields).invoke_impl)
+                           (*puVar11,(pIVar3->fields).method_code,(pIVar3->fields).method);
+        if (pUVar8 == (UnityEngine_Vector3_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        if ((uint)pUVar8->max_length <= uVar14) {
+          ThrowIndexOutOfRangeException();
+        }
+        pUVar8->m_Items[uVar14].fields.x = (float)(int)uVar15;
+        pUVar8->m_Items[uVar14].fields.y = (float)(int)((ulong)uVar15 >> 0x20);
+        pUVar8->m_Items[uVar14].fields.z = fVar16;
+        uVar14 = uVar14 + 1;
+        pIVar9 = (Il2CppObject *)(pIStack_60->fields).nodes;
+      } while (pIVar9 != (Il2CppObject *)0x0);
+    }
     ThrowNullReferenceException();
   }
-  InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,pIVar10);
-  while( true ) {
-    pIVar10 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar10 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pvVar8 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar10);
-    if ((int)pvVar8 <= (int)uVar13) {
-      pUVar12 = Interpolate__Bezier(&local_68,(local_res8->fields).ease,(local_res8->fields)._points_5__2,
-                                    elapsedTime,(local_res8->fields).maxStep,(MethodInfo *)0x0);
-      fVar3 = (pUVar12->fields).z;
-      fVar6 = (pUVar12->fields).y;
-      (local_res8->fields).__2__current.fields.x = (pUVar12->fields).x;
-      (local_res8->fields).__2__current.fields.y = fVar6;
-      (local_res8->fields).__2__current.fields.z = fVar3;
-      (local_res8->fields).__1__state = 1;
-      return true;
-    }
-    pSVar4 = (local_res8->fields).nodes;
-    if (pSVar4 == (System_Collections_IList_o *)0x0) {
-      ThrowNullReferenceException();
-    }
-    pUVar9 = (local_res8->fields)._points_5__2;
-    pIVar5 = (local_res8->fields).toVector3;
-    pIVar10 = (Il2CppObject *)il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar4,uVar13);
-    if (pIVar5 == (Interpolate_ToVector3_T__o *)0x0) break;
-    klass = local_res10->klass->rgctx_data->_3_T;
-    if (((klass->_2).bitflags1 & 1) == 0) {
-      klass = il2cpp_codegen_class_init_checked(klass);
-    }
-    if (pIVar10 == (Il2CppObject *)0x0) {
-      ThrowNullReferenceException();
-    }
-    if ((pIVar10->klass->_1).element_class != (klass->_1).element_class) {
-      il2cpp_codegen_raise_invalid_cast_exception();
-    }
-    puVar11 = il2cpp_object_unbox(pIVar10);
-    local_78 = *puVar11;
-    local_70 = *(undefined4 *)(puVar11 + 1);
-    puVar11 = (undefined8 *)
-              (*(code *)(pIVar5->fields).invoke_impl)
-                        (&local_68,(pIVar5->fields).method_code,&local_78,(pIVar5->fields).method);
-    if (pUVar9 == (UnityEngine_Vector3_array *)0x0) {
-      ThrowNullReferenceException();
-    }
-    if ((uint)pUVar9->max_length <= uVar13) {
-      ThrowIndexOutOfRangeException();
-    }
-    fVar3 = *(float *)(puVar11 + 1);
-    uVar1 = *puVar11;
-    pUVar9->m_Items[(int)uVar13].fields.x = (float)(int)uVar1;
-    pUVar9->m_Items[(int)uVar13].fields.y = (float)(int)((ulonglong)uVar1 >> 0x20);
-    pUVar9->m_Items[(int)uVar13].fields.z = fVar3;
-    uVar13 = uVar13 + 1;
+  if (Il2CppMethodInitialized_07541070 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    Il2CppMethodInitialized_07541070 = '\x01';
   }
-  ThrowNullReferenceException();
+  (pIVar4->fields).__1__state = -1;
+  pIVar9 = (Il2CppObject *)(pIVar4->fields).__7__wrap2;
+  if (pIVar9 != (Il2CppObject *)0x0) {
+    pIVar10 = pIVar9->klass;
+    uVar14 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar14 != 0) {
+      pIVar2 = (pIVar10->_1).interfaceOffsets;
+      lVar13 = 0;
+      do {
+        if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar13) == TypeInfo_System_IDisposable)
+        {
+          pVVar7 = pIVar10->vtable + *(int *)((long)&pIVar2->offset + lVar13);
+          goto label_0475d97c;
+        }
+        lVar13 = lVar13 + 0x10;
+      } while (uVar14 * 0x10 != lVar13);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar9,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475d97c:
+    (*pVVar7->methodPtr)(pIVar9,pVVar7->method);
+  }
+  (pIStack_60->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pIStack_60->fields).__7__wrap2);
+  (pIStack_60->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pIStack_60->fields)._points_5__2);
+  return false;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$MoveNext
-// il2cpp: bool Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1166D60* method);
-// 0x181166d60
-// eh: try 0x181166e3d..0x1811671ca -> pad 0x183318620 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181167173: mov rbx, qword ptr [rbp + 0x18]
-// asm:   0x181167177: test rbx, rbx
-// asm:   0x18116717a: jne 0x1811671ca
-// asm:   0x18116717c: movzx eax, byte ptr [rbp + 0x90]
-// asm:   0x1811671ca: lea rcx, [rbp + 0x20]
-// asm:   0x1811671ce: call 0x181150800  ; il2cpp_runtime_helper_181150800()
-// asm:   0x1811671d3: mov rcx, rbx
-// asm:   0x1811671d6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183318620: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183318625: push rbp
-// asm:   0x183318626: sub rsp, 0x30
-// asm:   0x18331862a: lea rbp, [rdx + 0x30]
-// asm:   0x18331862e: mov rax, qword ptr [rbp]
-// asm:   0x183318632: mov rcx, qword ptr [rax]
-// asm:   0x183318635: mov qword ptr [rbp + 0x18], rcx
-// asm:   0x183318639: movabs rax, 0
-// asm:   0x183318643: add rsp, 0x30
-// asm:   0x183318647: pop rbp
-// asm:   0x183318648: ret 
+// il2cpp: bool Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___MoveNext (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DD20* method);
+// 0x475dd20
+// eh: try 0x475de3f..0x475e336 -> pad 0x475e34a (+22 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x475e375..0x475e37a -> pad 0x475e3a4 cleanup
+// eh: try 0x475e3a7..0x475e3b0 -> pad 0x475e3b8 catch (...) [compiler noexcept guard]
+// asm: 51 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x475de76: xor ebx, ebx
+// asm:   0x475de78: jmp 0x475e2f8
+// asm:   0x475dead: nop dword ptr [rax]
+// asm:   0x475df4d: nop dword ptr [rax]
+// asm:   0x475dfdc: nop dword ptr [rax]
+// asm:   0x475e0fd: nop dword ptr [rax]
+// asm:   0x475e336: jmp 0x475e35e
+// asm:   0x475e338: jmp 0x475e35e
+// asm:   0x475e33a: jmp 0x475e35e
+// asm:   0x475e33c: jmp 0x475e35e
+// asm:   0x475e33e: jmp 0x475e35e
+// asm:   0x475e340: jmp 0x475e35e
+// asm:   0x475e342: jmp 0x475e35e
+// asm:   0x475e344: jmp 0x475e35e
+// asm:   0x475e346: jmp 0x475e35e
+// asm:   0x475e348: jmp 0x475e35e
+// asm:   0x475e34a: jmp 0x475e35e
+// asm:   0x475e34c: jmp 0x475e35e
+// asm:   0x475e34e: jmp 0x475e35e
+// asm:   0x475e350: jmp 0x475e35e
+// asm:   0x475e352: jmp 0x475e35e
+// asm:   0x475e354: jmp 0x475e35e
+// asm:   0x475e356: jmp 0x475e35e
+// asm:   0x475e358: jmp 0x475e35e
+// asm:   0x475e35a: jmp 0x475e35e
+// asm:   0x475e35c: jmp 0x475e35e
+// asm:   0x475e35e: mov rbx, rax
+// asm:   0x475e361: cmp edx, 1
+// asm:   0x475e364: jne 0x475e3a7
+// asm:   0x475e366: mov rdi, rbx
+// asm:   0x475e369: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x475e36e: mov rbx, qword ptr [rax]
+// asm:   0x475e371: mov qword ptr [rbp - 0x70], rbx
+// asm:   0x475e375: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x475e37a: test rbx, rbx
+// asm:   0x475e37d: je 0x475de76
+// asm:   0x475e383: mov rax, qword ptr [rbp - 0x38]
+// asm:   0x475e387: mov rdi, qword ptr [rbp - 0x30]
+// asm:   0x475e38b: mov rax, qword ptr [rax + 0x20]
+// asm:   0x475e38f: mov rax, qword ptr [rax + 0xc0]
+// asm:   0x475e396: mov rsi, qword ptr [rax + 0x28]
+// asm:   0x475e39a: call qword ptr [rsi]
+// asm:   0x475e39c: mov rdi, rbx
+// asm:   0x475e39f: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x475e3a4: mov rbx, rax
+// asm:   0x475e3a7: lea rdi, [rbp - 0x70]
+// asm:   0x475e3ab: call 0x2c16270  ; il2cpp_runtime_helper_02c16270()
+// asm:   0x475e3b0: mov rdi, rbx
+// asm:   0x475e3b3: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x475e3b8: mov rdi, rax
+// asm:   0x475e3bb: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___MoveNext
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1166D60 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DD20 *method)
 
 {
+  float duration;
   int iVar1;
-  float fVar2;
-  Il2CppObject *pIVar3;
-  System_Collections_IList_o *pSVar4;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  MethodInfo *pMVar3;
+  Il2CppMethodPointer pIVar4;
   Interpolate_ToVector3_T__o *pIVar5;
-  MethodInfo *pMVar6;
-  Il2CppMethodPointer pIVar7;
-  InvokerMethod pIVar8;
+  Interpolate__NewBezier_d__16_T__RGCTXs *pIVar6;
+  InvokerMethod pIVar7;
   Interpolate_Function_o *ease;
-  longlong lVar9;
-  float fVar10;
-  ulonglong uVar11;
-  void *pvVar12;
-  UnityEngine_Vector3_array *pUVar13;
-  System_Collections_Generic_IEnumerator_float__o *value;
-  undefined8 uVar14;
-  Il2CppClass *klass;
-  undefined8 *puVar15;
-  UnityEngine_Vector3_o *pUVar16;
-  ulonglong uVar17;
-  uint uVar18;
+  Interpolate__NewBezier_d__16_T__Fields *pIVar8;
   float elapsedTime;
-  Interpolate__NewBezier_d__16_T__o *local_res8;
-  MethodInfo_1166D60 *local_res10;
-  undefined1 local_res18;
-  undefined8 *local_res20;
-  undefined8 auStack_b0 [5];
-  float afStack_88 [2];
+  Interpolate__NewBezier_d__16_T__o *pIVar9;
+  bool bVar10;
+  int32_t iVar11;
+  uint32_t length;
+  VirtualInvokeData *pVVar12;
+  UnityEngine_Vector3_array *pUVar13;
+  Il2CppObject *pIVar14;
+  Il2CppClass *pIVar15;
+  undefined8 *puVar16;
+  ulong uVar17;
+  undefined1 *puVar18;
+  long lVar19;
+  long lVar20;
+  undefined1 *puVar21;
+  ulong uVar22;
+  UnityEngine_Vector3_Fields UVar23;
   undefined8 uStack_80;
-  undefined1 local_78 [8];
-  UnityEngine_Vector3_Fields local_70;
+  undefined8 local_78;
+  MethodInfo_465DD20 **local_70;
+  Interpolate__NewBezier_d__16_T__o **local_68;
   undefined8 local_60;
-  MethodInfo_1166D60 **local_58;
-  Interpolate__NewBezier_d__16_T__o **local_50;
+  float local_58;
+  undefined8 *local_50;
+  float local_44;
+  MethodInfo_465DD20 *local_40;
+  Interpolate__NewBezier_d__16_T__o *local_38;
   
-  local_res8 = __this;
-  local_res10 = method;
-  if (g_data_18434081c == '\0') {
-    auStack_b0[0] = 0x181166d96;
+  local_40 = method;
+  local_38 = __this;
+  if (g_data_07541072 == '\0') {
+    uStack_80 = 0x475dd54;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
-    auStack_b0[0] = 0x181166da2;
+    uStack_80 = 0x475dd60;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_float);
-    auStack_b0[0] = 0x181166dae;
+    uStack_80 = 0x475dd6c;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_float);
-    auStack_b0[0] = 0x181166dba;
+    uStack_80 = 0x475dd78;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
-    auStack_b0[0] = 0x181166dc6;
+    uStack_80 = 0x475dd84;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
-    auStack_b0[0] = 0x181166dd2;
+    uStack_80 = 0x475dd90;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3_array);
-    g_data_18434081c = '\x01';
+    g_data_07541072 = '\x01';
   }
-  uVar17 = (ulonglong)(local_res10->klass->rgctx_data->_3_T->_2).stack_slot_size;
-  uVar11 = uVar17 + 0xf;
-  if (uVar11 <= uVar17) {
-    uVar11 = 0xffffffffffffff0;
-  }
-  auStack_b0[0] = 0x181166e11;
-  lVar9 = -(uVar11 & 0xfffffffffffffff0);
-  local_res18 = 0;
-  uVar18 = 0;
-  local_60 = 0;
-  local_58 = &local_res10;
-  local_50 = &local_res8;
-  iVar1 = (local_res8->fields).__1__state;
-  if (iVar1 == 0) {
-    (local_res8->fields).__1__state = -1;
-    pIVar3 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar3 == (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671a6;
-      ThrowNullReferenceException();
-    }
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166e7b;
-    pvVar12 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar3);
-    if ((int)pvVar12 < 2) {
+  lVar20 = -((ulong)(method->klass->rgctx_data->_3_T->_2).stack_slot_size + 0xf & 0xfffffffffffffff0);
+  puVar21 = (undefined1 *)((long)&local_78 + lVar20);
+  local_78 = 0;
+  local_70 = &local_40;
+  local_68 = &local_38;
+  iVar1 = (__this->fields).__1__state;
+  puVar18 = puVar21;
+  if (iVar1 != 1) {
+    if (iVar1 != 0) {
       return false;
     }
-    pIVar3 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar3 == (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671a1;
+    (__this->fields).__1__state = -1;
+    pIVar14 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar14 == (Il2CppObject *)0x0) {
+      *(undefined8 *)((long)&uStack_80 + lVar20) = 0x475e327;
       ThrowNullReferenceException();
     }
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166ea9;
-    pvVar12 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar3);
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166eb7;
-    pUVar13 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,(uint32_t)pvVar12);
-    (local_res8->fields)._points_5__2 = pUVar13;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166ed5;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,pUVar13);
-    pIVar3 = (Il2CppObject *)(local_res8->fields).steps;
-    if (pIVar3 == (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x18116719b;
+    pIVar15 = pIVar14->klass;
+    uVar22 = (ulong)(pIVar15->_2).interface_offsets_count;
+    if (uVar22 != 0) {
+      pIVar2 = (pIVar15->_1).interfaceOffsets;
+      lVar19 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar19) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar12 = pIVar15->vtable + (*(int *)((long)&pIVar2->offset + lVar19) + 1);
+          goto label_0475de68;
+        }
+        lVar19 = lVar19 + 0x10;
+      } while (uVar22 * 0x10 != lVar19);
+    }
+    *(undefined8 *)((long)&uStack_80 + lVar20) = 0x475de4c;
+    pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+    puVar18 = (undefined1 *)((long)&local_78 + lVar20);
+label_0475de68:
+    pMVar3 = pVVar12->method;
+    pIVar4 = pVVar12->methodPtr;
+    *(undefined8 *)(puVar18 + -8) = 0x475de71;
+    iVar11 = (*pIVar4)(pIVar14,pMVar3);
+    if (iVar11 < 2) {
+      return false;
+    }
+    pIVar14 = (Il2CppObject *)(local_38->fields).nodes;
+    if (pIVar14 == (Il2CppObject *)0x0) {
+      *(undefined8 *)(puVar18 + -8) = 0x475e331;
       ThrowNullReferenceException();
     }
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166ef7;
-    value = InterfaceInvoker0_Invoke
-                      (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,pIVar3);
-    (local_res8->fields).__7__wrap2 = value;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166f15;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,value);
+    pIVar15 = pIVar14->klass;
+    uVar22 = (ulong)(pIVar15->_2).interface_offsets_count;
+    if (uVar22 != 0) {
+      pIVar2 = (pIVar15->_1).interfaceOffsets;
+      lVar20 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar20) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar12 = pIVar15->vtable + (*(int *)((long)&pIVar2->offset + lVar20) + 1);
+          goto label_0475dee8;
+        }
+        lVar20 = lVar20 + 0x10;
+      } while (uVar22 * 0x10 != lVar20);
+    }
+    *(undefined8 *)(puVar18 + -8) = 0x475decc;
+    pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475dee8:
+    pMVar3 = pVVar12->method;
+    pIVar4 = pVVar12->methodPtr;
+    *(undefined8 *)(puVar18 + -8) = 0x475def1;
+    length = (*pIVar4)(pIVar14,pMVar3);
+    *(undefined8 *)(puVar18 + -8) = 0x475df02;
+    pUVar13 = (UnityEngine_Vector3_array *)SZArrayNew(TypeInfo_UnityEngine_Vector3_array,length);
+    (local_38->fields)._points_5__2 = pUVar13;
+    pIVar8 = &local_38->fields;
+    *(undefined8 *)(puVar18 + -8) = 0x475df16;
+    Il2CppCodeGenWriteBarrier(&pIVar8->_points_5__2);
+    pIVar14 = (Il2CppObject *)(local_38->fields).steps;
+    if (pIVar14 == (Il2CppObject *)0x0) {
+      *(undefined8 *)(puVar18 + -8) = 0x475e336;
+      ThrowNullReferenceException();
+    }
+    pIVar15 = pIVar14->klass;
+    uVar22 = (ulong)(pIVar15->_2).interface_offsets_count;
+    if (uVar22 != 0) {
+      pIVar2 = (pIVar15->_1).interfaceOffsets;
+      lVar20 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerable_float__c **)((long)&pIVar2->interfaceType + lVar20) ==
+            TypeInfo_System_Collections_Generic_IEnumerable_float) {
+          pVVar12 = pIVar15->vtable + *(int *)((long)&pIVar2->offset + lVar20);
+          goto label_0475df81;
+        }
+        lVar20 = lVar20 + 0x10;
+      } while (uVar22 * 0x10 != lVar20);
+    }
+    *(undefined8 *)(puVar18 + -8) = 0x475df69;
+    pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,0);
+label_0475df81:
+    pMVar3 = pVVar12->method;
+    pIVar4 = pVVar12->methodPtr;
+    *(undefined8 *)(puVar18 + -8) = 0x475df8a;
+    pIVar14 = (*pIVar4)(pIVar14,pMVar3);
+    (local_38->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)pIVar14;
+    pIVar8 = &local_38->fields;
+    *(undefined8 *)(puVar18 + -8) = 0x475df9e;
+    Il2CppCodeGenWriteBarrier(&pIVar8->__7__wrap2);
+    __this = local_38;
   }
-  else if (iVar1 != 1) {
-    return false;
-  }
-  (local_res8->fields).__1__state = -3;
-  pIVar3 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar3 == (Il2CppObject *)0x0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671c9;
+  (__this->fields).__1__state = -3;
+  pIVar14 = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (pIVar14 == (Il2CppObject *)0x0) {
+    *(undefined8 *)(puVar18 + -8) = 0x475e322;
     ThrowNullReferenceException();
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166f50;
-  pvVar12 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar3);
-  if ((char)pvVar12 == '\0') {
-    pIVar7 = local_res10->klass->rgctx_data->_1_Interpolate__NewBezier_d__16_T____m__Finally1->methodPointer;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181167125;
-    (*pIVar7)(local_res8);
-    (local_res8->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181167142;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields).__7__wrap2,(void *)0x0);
-    (local_res8->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x18116715f;
-    Il2CppCodeGenWriteBarrier(&(local_res8->fields)._points_5__2,(void *)0x0);
+  pIVar15 = pIVar14->klass;
+  uVar22 = (ulong)(pIVar15->_2).interface_offsets_count;
+  if (uVar22 != 0) {
+    pIVar2 = (pIVar15->_1).interfaceOffsets;
+    lVar20 = 0;
+    do {
+      if (*(System_Collections_IEnumerator_c **)((long)&pIVar2->interfaceType + lVar20) ==
+          TypeInfo_System_Collections_IEnumerator) {
+        pVVar12 = pIVar15->vtable + *(int *)((long)&pIVar2->offset + lVar20);
+        goto label_0475e011;
+      }
+      lVar20 = lVar20 + 0x10;
+    } while (uVar22 * 0x10 != lVar20);
+  }
+  *(undefined8 *)(puVar18 + -8) = 0x475dff9;
+  pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                      (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_0475e011:
+  pMVar3 = pVVar12->method;
+  pIVar4 = pVVar12->methodPtr;
+  *(undefined8 *)(puVar18 + -8) = 0x475e01a;
+  bVar10 = (*pIVar4)(pIVar14,pMVar3);
+  pIVar9 = local_38;
+  if (!bVar10) {
+    pIVar4 = local_40->klass->rgctx_data->_1_Interpolate__NewBezier_d__16_T____m__Finally1->methodPointer;
+    *(undefined8 *)(puVar18 + -8) = 0x475e094;
+    (*pIVar4)(pIVar9);
+    (local_38->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
+    pIVar8 = &local_38->fields;
+    *(undefined8 *)(puVar18 + -8) = 0x475e0ab;
+    Il2CppCodeGenWriteBarrier(&pIVar8->__7__wrap2);
+    (local_38->fields)._points_5__2 = (UnityEngine_Vector3_array *)0x0;
+    pIVar8 = &local_38->fields;
+    *(undefined8 *)(puVar18 + -8) = 0x475e0c4;
+    Il2CppCodeGenWriteBarrier(&pIVar8->_points_5__2);
     return false;
   }
-  pIVar3 = (Il2CppObject *)(local_res8->fields).__7__wrap2;
-  if (pIVar3 == (Il2CppObject *)0x0) {
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671c4;
+  pIVar14 = (Il2CppObject *)(local_38->fields).__7__wrap2;
+  if (pIVar14 == (Il2CppObject *)0x0) {
+    *(undefined8 *)(puVar18 + -8) = 0x475e32c;
     ThrowNullReferenceException();
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166f7a;
-  InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,pIVar3);
-  while( true ) {
-    pIVar3 = (Il2CppObject *)(local_res8->fields).nodes;
-    if (pIVar3 == (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671bf;
-      ThrowNullReferenceException();
-    }
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166fa5;
-    pvVar12 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar3);
-    if ((int)pvVar12 <= (int)uVar18) {
-      *(undefined8 *)((longlong)&uStack_80 + lVar9) = 0;
-      *(float *)((longlong)afStack_88 + lVar9) = (local_res8->fields).maxStep;
-      pUVar13 = (local_res8->fields)._points_5__2;
-      ease = (local_res8->fields).ease;
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811670d1;
-      pUVar16 = Interpolate__Bezier((UnityEngine_Vector3_o *)&local_70,ease,pUVar13,elapsedTime,
-                                    *(float *)((longlong)afStack_88 + lVar9),
-                                    *(MethodInfo **)((longlong)&uStack_80 + lVar9));
-      fVar2 = (pUVar16->fields).z;
-      fVar10 = (pUVar16->fields).y;
-      (local_res8->fields).__2__current.fields.x = (pUVar16->fields).x;
-      (local_res8->fields).__2__current.fields.y = fVar10;
-      (local_res8->fields).__2__current.fields.z = fVar2;
-      (local_res8->fields).__1__state = 1;
-      return true;
-    }
-    pSVar4 = (local_res8->fields).nodes;
-    if (pSVar4 == (System_Collections_IList_o *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671ba;
-      ThrowNullReferenceException();
-    }
-    pUVar13 = (local_res8->fields)._points_5__2;
-    pIVar5 = (local_res8->fields).toVector3;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181166fda;
-    uVar14 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar4,uVar18);
-    klass = local_res10->klass->rgctx_data->_3_T;
-    if (((klass->_2).bitflags1 & 1) == 0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181167004;
-      klass = il2cpp_codegen_class_init_checked(klass);
-    }
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181167012;
-    puVar15 = (undefined8 *)il2cpp_runtime_helper_180416280(uVar14,klass,local_78 + lVar9);
-    if (pIVar5 == (Interpolate_ToVector3_T__o *)0x0) break;
-    if (-1 < (int)(local_res10->klass->rgctx_data->_3_T->_1).byval_arg.bits) {
-      puVar15 = (undefined8 *)*puVar15;
-    }
-    pMVar6 = local_res10->klass->rgctx_data->_4_Interpolate_ToVector3_T__Invoke;
-    *(UnityEngine_Vector3_Fields **)((longlong)afStack_88 + lVar9) = &local_70;
-    pIVar7 = pMVar6->methodPointer;
-    pIVar8 = pMVar6->invoker_method;
-    *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x181167074;
-    local_res20 = puVar15;
-    (*pIVar8)(pIVar7,pMVar6,pIVar5,&local_res20,*(void **)((longlong)afStack_88 + lVar9));
-    if (pUVar13 == (UnityEngine_Vector3_array *)0x0) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671b0;
-      ThrowNullReferenceException();
-    }
-    if ((uint)pUVar13->max_length <= uVar18) {
-      *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671ab;
-      ThrowIndexOutOfRangeException();
-    }
-    pUVar13->m_Items[(int)uVar18].fields.x = local_70.x;
-    pUVar13->m_Items[(int)uVar18].fields.y = local_70.y;
-    pUVar13->m_Items[(int)uVar18].fields.z = local_70.z;
-    uVar18 = uVar18 + 1;
+  pIVar15 = pIVar14->klass;
+  uVar22 = (ulong)(pIVar15->_2).interface_offsets_count;
+  if (uVar22 != 0) {
+    pIVar2 = (pIVar15->_1).interfaceOffsets;
+    lVar20 = 0;
+    do {
+      if (*(System_Collections_Generic_IEnumerator_float__c **)((long)&pIVar2->interfaceType + lVar20) ==
+          TypeInfo_System_Collections_Generic_IEnumerator_float) {
+        pVVar12 = pIVar15->vtable + *(int *)((long)&pIVar2->offset + lVar20);
+        goto label_0475e0db;
+      }
+      lVar20 = lVar20 + 0x10;
+    } while (uVar22 * 0x10 != lVar20);
   }
-  *(undefined8 *)((longlong)auStack_b0 + lVar9) = 0x1811671b5;
+  *(undefined8 *)(puVar18 + -8) = 0x475e079;
+  pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                      (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,0);
+label_0475e0db:
+  pMVar3 = pVVar12->method;
+  pIVar4 = pVVar12->methodPtr;
+  *(undefined8 *)(puVar18 + -8) = 0x475e0e4;
+  local_44 = (*pIVar4)(pIVar14,pMVar3);
+  pIVar14 = (Il2CppObject *)(local_38->fields).nodes;
+  if (pIVar14 != (Il2CppObject *)0x0) {
+    uVar22 = 0;
+    do {
+      pIVar15 = pIVar14->klass;
+      uVar17 = (ulong)(pIVar15->_2).interface_offsets_count;
+      if (uVar17 != 0) {
+        pIVar2 = (pIVar15->_1).interfaceOffsets;
+        lVar20 = 0;
+        do {
+          if (*(System_Collections_ICollection_c **)((long)&pIVar2->interfaceType + lVar20) ==
+              TypeInfo_System_Collections_ICollection) {
+            pVVar12 = pIVar15->vtable + (*(int *)((long)&pIVar2->offset + lVar20) + 1);
+            goto label_0475e177;
+          }
+          lVar20 = lVar20 + 0x10;
+        } while (uVar17 * 0x10 != lVar20);
+      }
+      *(undefined8 *)(puVar18 + -8) = 0x475e14c;
+      pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475e177:
+      pMVar3 = pVVar12->method;
+      pIVar4 = pVVar12->methodPtr;
+      *(undefined8 *)(puVar18 + -8) = 0x475e180;
+      iVar11 = (*pIVar4)(pIVar14,pMVar3);
+      elapsedTime = local_44;
+      if ((long)iVar11 <= (long)uVar22) {
+        ease = (local_38->fields).ease;
+        pUVar13 = (local_38->fields)._points_5__2;
+        duration = (local_38->fields).maxStep;
+        *(undefined8 *)(puVar18 + -8) = 0x475e2e2;
+        UVar23 = (UnityEngine_Vector3_Fields)
+                 Interpolate__Bezier(ease,pUVar13,elapsedTime,duration,(MethodInfo *)0x0);
+        (local_38->fields).__2__current.fields = UVar23;
+        (local_38->fields).__1__state = 1;
+        return true;
+      }
+      pIVar14 = (Il2CppObject *)(local_38->fields).nodes;
+      if (pIVar14 == (Il2CppObject *)0x0) {
+        *(undefined8 *)(puVar18 + -8) = 0x475e31d;
+        ThrowNullReferenceException();
+      }
+      pUVar13 = (local_38->fields)._points_5__2;
+      pIVar5 = (local_38->fields).toVector3;
+      pIVar15 = pIVar14->klass;
+      uVar17 = (ulong)(pIVar15->_2).interface_offsets_count;
+      if (uVar17 != 0) {
+        pIVar2 = (pIVar15->_1).interfaceOffsets;
+        lVar20 = 0;
+        do {
+          if (*(System_Collections_IList_c **)((long)&pIVar2->interfaceType + lVar20) ==
+              TypeInfo_System_Collections_IList) {
+            pVVar12 = pIVar15->vtable + *(int *)((long)&pIVar2->offset + lVar20);
+            goto label_0475e203;
+          }
+          lVar20 = lVar20 + 0x10;
+        } while (uVar17 * 0x10 != lVar20);
+      }
+      *(undefined8 *)(puVar18 + -8) = 0x475e1e9;
+      pVVar12 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475e203:
+      pMVar3 = pVVar12->method;
+      pIVar4 = pVVar12->methodPtr;
+      *(undefined8 *)(puVar18 + -8) = 0x475e20f;
+      pIVar14 = (*pIVar4)(pIVar14,(int32_t)uVar22,pMVar3);
+      pIVar15 = local_40->klass->rgctx_data->_3_T;
+      if (((pIVar15->_2).bitflags1 & 1) == 0) {
+        *(undefined8 *)(puVar18 + -8) = 0x475e236;
+        pIVar15 = il2cpp_codegen_class_init_checked(pIVar15);
+      }
+      *(undefined8 *)(puVar18 + -8) = 0x475e244;
+      puVar16 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar14,pIVar15,puVar21);
+      if (pIVar5 == (Interpolate_ToVector3_T__o *)0x0) {
+        *(undefined8 *)(puVar18 + -8) = 0x475e313;
+        ThrowNullReferenceException();
+      }
+      pIVar6 = local_40->klass->rgctx_data;
+      if (-1 < (int)(pIVar6->_3_T->_1).byval_arg.bits) {
+        puVar16 = (undefined8 *)*puVar16;
+      }
+      pMVar3 = pIVar6->_4_Interpolate_ToVector3_T__Invoke;
+      pIVar4 = pMVar3->methodPointer;
+      pIVar7 = pMVar3->invoker_method;
+      local_50 = puVar16;
+      *(undefined8 *)(puVar18 + -8) = 0x475e282;
+      (*pIVar7)(pIVar4,pMVar3,pIVar5,&local_50,&local_60);
+      if (pUVar13 == (UnityEngine_Vector3_array *)0x0) {
+        *(undefined8 *)(puVar18 + -8) = 0x475e318;
+        ThrowNullReferenceException();
+      }
+      if ((uint)pUVar13->max_length <= uVar22) {
+        *(undefined8 *)(puVar18 + -8) = 0x475e30e;
+        ThrowIndexOutOfRangeException();
+      }
+      pUVar13->m_Items[uVar22].fields.x = (float)(undefined4)local_60;
+      pUVar13->m_Items[uVar22].fields.y = (float)local_60._4_4_;
+      pUVar13->m_Items[uVar22].fields.z = local_58;
+      uVar22 = uVar22 + 1;
+      pIVar14 = (Il2CppObject *)(local_38->fields).nodes;
+    } while (pIVar14 != (Il2CppObject *)0x0);
+  }
+  *(undefined8 *)(puVar18 + -8) = 0x475e2c9;
   ThrowNullReferenceException();
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$<>m__Finally1
-// il2cpp: void Interpolate__NewBezier_d__16_object_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11676F0* method);
-// 0x1811676f0
+// il2cpp: void Interpolate__NewBezier_d__16_object_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D080* method);
+// 0x475d080
 
 void Interpolate__NewBezier_d__16_object_____m__Finally1
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11676F0 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D080 *method)
 
 {
-  if (Il2CppMethodInitialized_184340817 == '\0') {
+  Il2CppObject *obj;
+  Il2CppClass *pIVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  VirtualInvokeData *pVVar3;
+  ulong uVar4;
+  long lVar5;
+  
+  if (Il2CppMethodInitialized_0754106d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-    Il2CppMethodInitialized_184340817 = '\x01';
+    Il2CppMethodInitialized_0754106d = '\x01';
   }
   (__this->fields).__1__state = -1;
-  if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-    InterfaceInvoker0_Invoke
-              (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+  obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (obj == (Il2CppObject *)0x0) {
     return;
   }
+  pIVar1 = obj->klass;
+  uVar4 = (ulong)(pIVar1->_2).interface_offsets_count;
+  if (uVar4 != 0) {
+    pIVar2 = (pIVar1->_1).interfaceOffsets;
+    lVar5 = 0;
+    do {
+      if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar5) == TypeInfo_System_IDisposable) {
+        pVVar3 = pIVar1->vtable + *(int *)((long)&pIVar2->offset + lVar5);
+        goto label_0475d10f;
+      }
+      lVar5 = lVar5 + 0x10;
+    } while (uVar4 * 0x10 != lVar5);
+  }
+  pVVar3 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475d10f:
+  (*pVVar3->methodPtr)(obj,pVVar3->method);
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$<>m__Finally1
-// il2cpp: void Interpolate__NewBezier_d__16_Vector3_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1167740* method);
-// 0x181167740
+// il2cpp: void Interpolate__NewBezier_d__16_Vector3_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DA90* method);
+// 0x475da90
 
 void Interpolate__NewBezier_d__16_Vector3_____m__Finally1
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1167740 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DA90 *method)
 
 {
-  if (Il2CppMethodInitialized_18434081a == '\0') {
+  Il2CppObject *obj;
+  Il2CppClass *pIVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  VirtualInvokeData *pVVar3;
+  ulong uVar4;
+  long lVar5;
+  
+  if (Il2CppMethodInitialized_07541070 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-    Il2CppMethodInitialized_18434081a = '\x01';
+    Il2CppMethodInitialized_07541070 = '\x01';
   }
   (__this->fields).__1__state = -1;
-  if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-    InterfaceInvoker0_Invoke
-              (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+  obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (obj == (Il2CppObject *)0x0) {
     return;
   }
+  pIVar1 = obj->klass;
+  uVar4 = (ulong)(pIVar1->_2).interface_offsets_count;
+  if (uVar4 != 0) {
+    pIVar2 = (pIVar1->_1).interfaceOffsets;
+    lVar5 = 0;
+    do {
+      if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar5) == TypeInfo_System_IDisposable) {
+        pVVar3 = pIVar1->vtable + *(int *)((long)&pIVar2->offset + lVar5);
+        goto label_0475db1f;
+      }
+      lVar5 = lVar5 + 0x10;
+    } while (uVar4 * 0x10 != lVar5);
+  }
+  pVVar3 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475db1f:
+  (*pVVar3->methodPtr)(obj,pVVar3->method);
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$<>m__Finally1
-// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1167790* method);
-// 0x181167790
+// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType_____m__Finally1 (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E3C0* method);
+// 0x475e3c0
 
 void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType_____m__Finally1
-               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1167790 *method)
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E3C0 *method)
 
 {
-  if (Il2CppMethodInitialized_18434081d == '\0') {
+  Il2CppObject *obj;
+  Il2CppClass *pIVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  VirtualInvokeData *pVVar3;
+  ulong uVar4;
+  long lVar5;
+  
+  if (Il2CppMethodInitialized_07541073 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-    Il2CppMethodInitialized_18434081d = '\x01';
+    Il2CppMethodInitialized_07541073 = '\x01';
   }
   (__this->fields).__1__state = -1;
-  if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-    InterfaceInvoker0_Invoke
-              (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+  obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (obj == (Il2CppObject *)0x0) {
     return;
   }
+  pIVar1 = obj->klass;
+  uVar4 = (ulong)(pIVar1->_2).interface_offsets_count;
+  if (uVar4 != 0) {
+    pIVar2 = (pIVar1->_1).interfaceOffsets;
+    lVar5 = 0;
+    do {
+      if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar5) == TypeInfo_System_IDisposable) {
+        pVVar3 = pIVar1->vtable + *(int *)((long)&pIVar2->offset + lVar5);
+        goto label_0475e44f;
+      }
+      lVar5 = lVar5 + 0x10;
+    } while (uVar4 * 0x10 != lVar5);
+  }
+  pVVar3 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0475e44f:
+  (*pVVar3->methodPtr)(obj,pVVar3->method);
   return;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D120* method);
+// 0x475d120
 
 UnityEngine_Vector3_o
-Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D120 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DB30* method);
+// 0x475db30
 
 UnityEngine_Vector3_o
-Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DB30 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E460* method);
+// 0x475e460
 
 UnityEngine_Vector3_o
-Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E460 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D130* method);
+// 0x475d130
 
-void
-Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_Reset(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_Reset
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D130 *method)
 
 {
   Il2CppClass *klass;
@@ -1434,11 +1967,11 @@ Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_Reset(Inter
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DB40* method);
+// 0x475db40
 
-void
-Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_Reset(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_Reset
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DB40 *method)
 
 {
   Il2CppClass *klass;
@@ -1452,11 +1985,11 @@ Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_Reset(Inte
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E470* method);
+// 0x475e470
 
-void
-Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset
+               (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E470 *method)
 
 {
   Il2CppClass *klass;
@@ -1470,104 +2003,101 @@ Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11674C0* method);
-// 0x1811674c0
+// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D170* method);
+// 0x475d170
 
 Il2CppObject *
 Interpolate__NewBezier_d__16_object___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11674C0 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D170 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_184340818 == '\0') {
+  if (Il2CppMethodInitialized_0754106e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_184340818 = '\x01';
+    Il2CppMethodInitialized_0754106e = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1167560* method);
-// 0x181167560
+// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DB80* method);
+// 0x475db80
 
 Il2CppObject *
 Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1167560 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DB80 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_18434081b == '\0') {
+  if (Il2CppMethodInitialized_07541071 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18434081b = '\x01';
+    Il2CppMethodInitialized_07541071 = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_1167510* method);
-// 0x181167510
+// il2cpp: Il2CppObject* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E4B0* method);
+// 0x475e4b0
 
 Il2CppObject *
 Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_1167510 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E4B0 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_18434081e == '\0') {
+  if (Il2CppMethodInitialized_07541074 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_18434081e = '\x01';
+    Il2CppMethodInitialized_07541074 = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11671E0* method);
-// 0x1811671e0
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D1C0* method);
+// 0x475d1c0
 
-System_Collections_Generic_IEnumerator_Vector3__o*
-Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11671E0* method)
+System_Collections_Generic_IEnumerator_Vector3__o *
+Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D1C0 *method)
 
 {
   int iVar1;
-  Interpolate_Function_o *value;
-  System_Collections_IList_o *value_00;
-  Interpolate_ToVector3_T__o *value_01;
-  System_Collections_Generic_IEnumerable_float__o *value_02;
   int32_t iVar2;
   Il2CppClass *klass;
   Interpolate__NewBezier_d__16_T__o *__this_00;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_18116725a;
+      goto label_0475d22e;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
@@ -1575,57 +2105,45 @@ Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_Uni
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   __this_00 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_18116725a:
-  if (__this_00 != (Interpolate__NewBezier_d__16_T__o *)0x0) {
-    value = (__this->fields).__3__ease;
-    (__this_00->fields).ease = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,value);
-    value_00 = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value_00);
-    value_01 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_01;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_01);
-    (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
-    value_02 = (__this->fields).__3__steps;
-    (__this_00->fields).steps = value_02;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps,value_02);
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0475d22e:
+  (__this_00->fields).ease = (__this->fields).__3__ease;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease);
+  (__this_00->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes);
+  (__this_00->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3);
+  (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
+  (__this_00->fields).steps = (__this->fields).__3__steps;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps);
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11671E0* method);
-// 0x1811671e0
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DBD0* method);
+// 0x475dbd0
 
 System_Collections_Generic_IEnumerator_Vector3__o *
 Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11671E0 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DBD0 *method)
 
 {
   int iVar1;
-  Interpolate_Function_o *value;
-  System_Collections_IList_o *value_00;
-  Interpolate_ToVector3_T__o *value_01;
-  System_Collections_Generic_IEnumerable_float__o *value_02;
   int32_t iVar2;
   Il2CppClass *klass;
   Interpolate__NewBezier_d__16_T__o *__this_00;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_18116725a;
+      goto label_0475dc3e;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
@@ -1633,293 +2151,189 @@ Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerable_Un
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   __this_00 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_18116725a:
-  if (__this_00 != (Interpolate__NewBezier_d__16_T__o *)0x0) {
-    value = (__this->fields).__3__ease;
-    (__this_00->fields).ease = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,value);
-    value_00 = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value_00);
-    value_01 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_01;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_01);
-    (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
-    value_02 = (__this->fields).__3__steps;
-    (__this_00->fields).steps = value_02;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps,value_02);
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0475dc3e:
+  (__this_00->fields).ease = (__this->fields).__3__ease;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease);
+  (__this_00->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes);
+  (__this_00->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3);
+  (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
+  (__this_00->fields).steps = (__this->fields).__3__steps;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps);
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11672D0* method);
-// 0x1811672d0
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E500* method);
+// 0x475e500
 
 System_Collections_Generic_IEnumerator_Vector3__o *
 Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11672D0 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E500 *method)
 
 {
   int iVar1;
-  MethodInfo *pMVar2;
-  Interpolate_Function_o *value;
-  System_Collections_IList_o *value_00;
-  Interpolate_ToVector3_T__o *value_01;
-  System_Collections_Generic_IEnumerable_float__o *value_02;
-  int32_t iVar3;
+  int32_t iVar2;
   Il2CppClass *klass;
-  Interpolate__NewBezier_d__16_T__o *pIVar4;
+  Interpolate__NewBezier_d__16_T__o *pIVar3;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+    if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
-      pIVar4 = __this;
-      goto label_181167348;
+      pIVar3 = __this;
+      goto label_0475e56f;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
   if (((klass->_2).bitflags1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  pIVar4 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
-  pMVar2 = method->klass->rgctx_data->_6_Interpolate__NewBezier_d__16_T___ctor;
-  (*pMVar2->methodPointer)(pIVar4,0,pMVar2);
-label_181167348:
-  if (pIVar4 != (Interpolate__NewBezier_d__16_T__o *)0x0) {
-    value = (__this->fields).__3__ease;
-    (pIVar4->fields).ease = value;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).ease,value);
-    value_00 = (__this->fields).__3__nodes;
-    (pIVar4->fields).nodes = value_00;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).nodes,value_00);
-    value_01 = (__this->fields).__3__toVector3;
-    (pIVar4->fields).toVector3 = value_01;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).toVector3,value_01);
-    (pIVar4->fields).maxStep = (__this->fields).__3__maxStep;
-    value_02 = (__this->fields).__3__steps;
-    (pIVar4->fields).steps = value_02;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).steps,value_02);
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)pIVar4;
+  pIVar3 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
+  (*method->klass->rgctx_data->_6_Interpolate__NewBezier_d__16_T___ctor->methodPointer)(pIVar3,0);
+  if (pIVar3 == (Interpolate__NewBezier_d__16_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+label_0475e56f:
+  (pIVar3->fields).ease = (__this->fields).__3__ease;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).ease);
+  (pIVar3->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).nodes);
+  (pIVar3->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).toVector3);
+  (pIVar3->fields).maxStep = (__this->fields).__3__maxStep;
+  (pIVar3->fields).steps = (__this->fields).__3__steps;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).steps);
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)pIVar3;
 }
 
 
 // Interpolate.<NewBezier>d__16<object>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16_object___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11673D0* method);
-// 0x1811673d0
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16_object___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465D290* method);
+// 0x475d290
 
-System_Collections_IEnumerator_o*
-Interpolate__NewBezier_d__16_object___System_Collections_IEnumerable_GetEnumerator(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11673D0* method)
+System_Collections_IEnumerator_o *
+Interpolate__NewBezier_d__16_object___System_Collections_IEnumerable_GetEnumerator
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465D290 *method)
 
 {
-  int iVar1;
-  MethodInfo *pMVar2;
-  Interpolate_Function_o *value;
-  System_Collections_IList_o *value_00;
-  Interpolate_ToVector3_T__o *value_01;
-  System_Collections_Generic_IEnumerable_float__o *value_02;
-  int32_t iVar3;
-  Il2CppClass *klass;
-  Interpolate__NewBezier_d__16_T__o *__this_00;
+  System_Collections_Generic_IEnumerator_Vector3__o *pSVar1;
   
-  pMVar2 = method->klass->rgctx_data->
-           _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  if ((__this->fields).__1__state == -2) {
-    iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
-      (__this->fields).__1__state = 0;
-      __this_00 = __this;
-      goto label_181167456;
-    }
-  }
-  klass = pMVar2->klass->rgctx_data->klass;
-  if (((klass->_2).bitflags1 & 1) == 0) {
-    klass = il2cpp_codegen_class_init_checked(klass);
-  }
-  __this_00 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (__this_00->fields).__l__initialThreadId = iVar3;
-label_181167456:
-  if (__this_00 != (Interpolate__NewBezier_d__16_T__o *)0x0) {
-    value = (__this->fields).__3__ease;
-    (__this_00->fields).ease = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,value);
-    value_00 = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value_00);
-    value_01 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_01;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_01);
-    (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
-    value_02 = (__this->fields).__3__steps;
-    (__this_00->fields).steps = value_02;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps,value_02);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+  pSVar1 = Interpolate__NewBezier_d__16_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     (__this,(MethodInfo_465D1C0 *)
+                             method->klass->rgctx_data->
+                             _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     );
+  return (System_Collections_IEnumerator_o *)pSVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<Vector3>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11673D0* method);
-// 0x1811673d0
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465DCA0* method);
+// 0x475dca0
 
 System_Collections_IEnumerator_o *
 Interpolate__NewBezier_d__16_Vector3___System_Collections_IEnumerable_GetEnumerator
-          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_11673D0 *method)
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465DCA0 *method)
 
 {
-  int iVar1;
-  MethodInfo *pMVar2;
-  Interpolate_Function_o *value;
-  System_Collections_IList_o *value_00;
-  Interpolate_ToVector3_T__o *value_01;
-  System_Collections_Generic_IEnumerable_float__o *value_02;
-  int32_t iVar3;
-  Il2CppClass *klass;
-  Interpolate__NewBezier_d__16_T__o *__this_00;
+  System_Collections_Generic_IEnumerator_Vector3__o *pSVar1;
   
-  pMVar2 = method->klass->rgctx_data->
-           _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  if ((__this->fields).__1__state == -2) {
-    iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
-      (__this->fields).__1__state = 0;
-      __this_00 = __this;
-      goto label_181167456;
-    }
-  }
-  klass = pMVar2->klass->rgctx_data->klass;
-  if (((klass->_2).bitflags1 & 1) == 0) {
-    klass = il2cpp_codegen_class_init_checked(klass);
-  }
-  __this_00 = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (__this_00->fields).__l__initialThreadId = iVar3;
-label_181167456:
-  if (__this_00 != (Interpolate__NewBezier_d__16_T__o *)0x0) {
-    value = (__this->fields).__3__ease;
-    (__this_00->fields).ease = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,value);
-    value_00 = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value_00);
-    value_01 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_01;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_01);
-    (__this_00->fields).maxStep = (__this->fields).__3__maxStep;
-    value_02 = (__this->fields).__3__steps;
-    (__this_00->fields).steps = value_02;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).steps,value_02);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+  pSVar1 = Interpolate__NewBezier_d__16_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     (__this,(MethodInfo_465DBD0 *)
+                             method->klass->rgctx_data->
+                             _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     );
+  return (System_Collections_IEnumerator_o *)pSVar1;
 }
 
 
 // Interpolate.<NewBezier>d__16<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_11612B0* method);
-// 0x1811612b0
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewBezier_d__16_T__o* __this, const MethodInfo_465E5D0* method);
+// 0x475e5d0
 
-System_Collections_IEnumerator_o*
-Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator(Interpolate__NewBezier_d__16_T__o* __this, MethodInfo_11612B0* method)
+System_Collections_IEnumerator_o *
+Interpolate__NewBezier_d__16___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator
+          (Interpolate__NewBezier_d__16_T__o *__this,MethodInfo_465E5D0 *method)
 
 {
-  MethodInfo *pMVar1;
-  System_Collections_IEnumerator_o *pSVar2;
+  System_Collections_IEnumerator_o *pSVar1;
   
-  pMVar1 = method->klass->rgctx_data->
-           _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  pSVar2 = (System_Collections_IEnumerator_o *)(*pMVar1->methodPointer)(__this,pMVar1);
-  return pSVar2;
+  pSVar1 = (System_Collections_IEnumerator_o *)
+           (*method->klass->rgctx_data->
+             _7_Interpolate__NewBezier_d__16_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+             ->methodPointer)();
+  return pSVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$.ctor
-// il2cpp: void Interpolate__NewCatmullRom_d__20_object____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewCatmullRom_d__20_object____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_465E5F0* method);
+// 0x475e5f0
 
-void
-Interpolate__NewCatmullRom_d__20_object____ctor(Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewCatmullRom_d__20_object____ctor
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,int32_t __1__state,MethodInfo_465E5F0 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$.ctor
-// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_494FFA0* method);
+// 0x4a4ffa0
 
-void
-Interpolate__NewCatmullRom_d__20_Vector3____ctor(Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewCatmullRom_d__20_Vector3____ctor
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,int32_t __1__state,MethodInfo_494FFA0 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$.ctor
-// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_8E2870* method);
-// 0x1808e2870
+// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType____ctor (Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, const MethodInfo_4950890* method);
+// 0x4a50890
 
-void
-Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType____ctor(Interpolate__NewCatmullRom_d__20_T__o* __this, int32_t __1__state, MethodInfo_8E2870* method)
+void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType____ctor
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,int32_t __1__state,MethodInfo_4950890 *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewCatmullRom_d__20_object___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_547020* method);
-// 0x180547020
+// il2cpp: void Interpolate__NewCatmullRom_d__20_object___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465E620* method);
+// 0x475e620
 
-void
-Interpolate__NewCatmullRom_d__20_object___System_IDisposable_Dispose(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_547020* method)
+void Interpolate__NewCatmullRom_d__20_object___System_IDisposable_Dispose
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465E620 *method)
 
 {
   return;
@@ -1927,11 +2341,11 @@ Interpolate__NewCatmullRom_d__20_object___System_IDisposable_Dispose(Interpolate
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_547020* method);
-// 0x180547020
+// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_494FFD0* method);
+// 0x4a4ffd0
 
-void
-Interpolate__NewCatmullRom_d__20_Vector3___System_IDisposable_Dispose(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_547020* method)
+void Interpolate__NewCatmullRom_d__20_Vector3___System_IDisposable_Dispose
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_494FFD0 *method)
 
 {
   return;
@@ -1939,11 +2353,11 @@ Interpolate__NewCatmullRom_d__20_Vector3___System_IDisposable_Dispose(Interpolat
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.IDisposable.Dispose
-// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_547020* method);
-// 0x180547020
+// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_IDisposable_Dispose (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_49508C0* method);
+// 0x4a508c0
 
-void
-Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_IDisposable_Dispose(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_547020* method)
+void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_IDisposable_Dispose
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_49508C0 *method)
 
 {
   return;
@@ -1951,578 +2365,770 @@ Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_IDispos
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$MoveNext
-// il2cpp: bool Interpolate__NewCatmullRom_d__20_object___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_11677E0* method);
-// 0x1811677e0
-// asm: 22 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x1811678bc: nop dword ptr [rax]
-// asm:   0x181167919: mov eax, edi
-// asm:   0x18116791b: jmp 0x181167927
-// asm:   0x1811679bf: mov rax, rdi
-// asm:   0x1811679c2: jmp 0x1811679d8
-// asm:   0x181167a51: mov rax, rdi
-// asm:   0x181167a54: jmp 0x181167a6a
-// asm:   0x181167adc: mov rax, rdi
-// asm:   0x181167adf: jmp 0x181167af5
-// asm:   0x181167b68: mov rax, rdi
-// asm:   0x181167b6b: jmp 0x181167b81
-// asm:   0x181167d18: mov r9, qword ptr [rbp + 0x28]
-// asm:   0x181167d1c: lea rcx, [rsp + 0x80]
-// asm:   0x181167d24: mov rdx, qword ptr [rbp + 0x40]
-// asm:   0x181167d28: mov r8, rdi
-// asm:   0x181167d2b: call qword ptr [rbp + 0x18]
-// asm:   0x181167d2e: movsd xmm0, qword ptr [rax]
-// asm:   0x181167d32: mov ecx, dword ptr [rax + 8]
-// asm:   0x181167d35: movsd qword ptr [rbx + 0x14], xmm0
-// asm:   0x181167d3a: mov dword ptr [rbx + 0x1c], ecx
-// asm:   0x181167d3d: mov dword ptr [rbx + 0x10], 1
-// asm:   0x181167d44: jmp 0x181167c2b
+// il2cpp: bool Interpolate__NewCatmullRom_d__20_object___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465E630* method);
+// 0x475e630
+// asm: 9 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x475e6bf: nop 
+// asm:   0x475e739: nop dword ptr [rax]
+// asm:   0x475e849: jmp 0x475e90a
+// asm:   0x475e8ba: jmp 0x475ecc3
+// asm:   0x475e960: jmp 0x475e82b
+// asm:   0x475e99c: nop dword ptr [rax]
+// asm:   0x475ea23: jmp 0x475ecc3
+// asm:   0x475eb03: jmp 0x475ecc3
+// asm:   0x475ebe3: jmp 0x475ecc3
 
 bool Interpolate__NewCatmullRom_d__20_object___MoveNext
-               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_11677E0 *method)
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465E630 *method)
 
 {
-  int32_t *piVar1;
-  undefined8 uVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar1;
+  Interpolate_ToVector3_T__o *pIVar2;
   undefined8 uVar3;
   undefined8 uVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  System_Collections_IList_o *pSVar8;
-  Interpolate_ToVector3_T__o *pIVar9;
-  int iVar10;
-  void *pvVar11;
-  Il2CppObject *pIVar12;
-  Il2CppClass *pIVar13;
-  undefined8 *puVar14;
-  Il2CppObject *pIVar15;
-  Il2CppObject *pIVar16;
-  UnityEngine_Vector3_o *pUVar17;
-  UnityEngine_Vector3_Fields local_a8;
-  UnityEngine_Vector3_Fields local_98;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_Fields local_78;
-  UnityEngine_Vector3_o local_68 [5];
+  char cVar5;
+  int32_t iVar6;
+  int iVar7;
+  VirtualInvokeData *pVVar8;
+  Il2CppObject *pIVar9;
+  Il2CppClass *pIVar10;
+  Il2CppObject *pIVar11;
+  ulong uVar12;
+  int iVar13;
+  int iVar14;
+  int iVar15;
+  long lVar16;
+  undefined8 uVar17;
+  float in_XMM1_Da;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  UnityEngine_Vector3_o UVar21;
+  UnityEngine_Vector3_o start;
+  UnityEngine_Vector3_o next;
+  UnityEngine_Vector3_o end;
   
-  if (Il2CppMethodInitialized_18434081f == '\0') {
+  if (Il2CppMethodInitialized_07541075 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
-    Il2CppMethodInitialized_18434081f = '\x01';
+    Il2CppMethodInitialized_07541075 = '\x01';
   }
-  iVar10 = (__this->fields).__1__state;
-  if (iVar10 == 0) {
-    pIVar16 = (Il2CppObject *)(__this->fields).nodes;
+  iVar7 = (__this->fields).__1__state;
+  if (iVar7 == 2) {
     (__this->fields).__1__state = -1;
-    if (pIVar16 != (Il2CppObject *)0x0) {
-      pvVar11 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar16);
-      if ((int)pvVar11 < 2) {
+    iVar7 = (__this->fields)._stepCount_5__8;
+    iVar14 = (__this->fields)._step_5__9 + 1;
+    (__this->fields)._step_5__9 = iVar14;
+    goto label_0475e945;
+  }
+  if (iVar7 == 1) {
+    (__this->fields).__1__state = -1;
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      pIVar10 = pIVar9->klass;
+      uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+      if (uVar12 != 0) {
+        pIVar1 = (pIVar10->_1).interfaceOffsets;
+        lVar16 = 0;
+        do {
+          if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar16) ==
+              TypeInfo_System_Collections_ICollection) {
+            pVVar8 = pIVar10->vtable + (*(int *)((long)&pIVar1->offset + lVar16) + 1);
+            goto label_0475e805;
+          }
+          lVar16 = lVar16 + 0x10;
+        } while (uVar12 * 0x10 != lVar16);
+      }
+      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                         (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475e805:
+      iVar6 = (*pVVar8->methodPtr)(pIVar9,pVVar8->method);
+      (__this->fields)._last_5__2 = iVar6 + -1;
+      (__this->fields)._current_5__3 = 0;
+      iVar14 = 0;
+      cVar5 = (__this->fields).loop;
+      iVar7 = (__this->fields)._last_5__2;
+      if ((bool)cVar5 != false) goto label_0475e8da;
+label_0475e82b:
+      if (iVar7 <= iVar14) {
         return false;
       }
-      pSVar8 = (__this->fields).nodes;
-      if (pSVar8 != (System_Collections_IList_o *)0x0) {
-        pIVar9 = (__this->fields).toVector3;
-        pIVar16 = (Il2CppObject *)il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,0);
-        if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-          pIVar13 = method->klass->rgctx_data->_2_T;
-          if (((pIVar13->_2).bitflags1 & 1) == 0) {
-            pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-          }
-          if (pIVar16 == (Il2CppObject *)0x0) {
-            pIVar12 = (Il2CppObject *)0x0;
-          }
-          else {
-            pIVar12 = il2cpp_vm_Object_IsInst(pIVar16,pIVar13);
-            if (pIVar12 == (Il2CppObject *)0x0) {
-              il2cpp_codegen_raise_invalid_cast_exception(pIVar16,pIVar13);
+      if (iVar14 != 0) goto label_0475e8f3;
+      (__this->fields)._previous_5__4 = 0;
+      (__this->fields)._start_5__5 = 0;
+      iVar13 = 0;
+      if (iVar7 != 0) goto label_0475e918;
+      do {
+        iVar7 = iVar13;
+        iVar14 = iVar7;
+        do {
+          if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_0475e913;
+          while( true ) {
+            (__this->fields)._end_5__6 = iVar14;
+            iVar13 = 0;
+            if (cVar5 == '\0') {
+              iVar13 = iVar7;
             }
+            if (iVar14 != iVar7) {
+              iVar13 = iVar14 + 1;
+            }
+            (__this->fields)._next_5__7 = iVar13;
+            iVar7 = (__this->fields).slices + 1;
+            (__this->fields)._stepCount_5__8 = iVar7;
+            (__this->fields)._step_5__9 = 1;
+            iVar14 = 1;
+label_0475e945:
+            if (iVar14 <= iVar7) {
+              pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+              if (pIVar9 == (Il2CppObject *)0x0) goto label_0475e913;
+              pIVar2 = (__this->fields).toVector3;
+              iVar6 = (__this->fields)._previous_5__4;
+              pIVar10 = pIVar9->klass;
+              uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+              if (uVar12 == 0) goto label_0475e9af;
+              pIVar1 = (pIVar10->_1).interfaceOffsets;
+              lVar16 = 0;
+              goto label_0475e9a0;
+            }
+            iVar14 = (__this->fields)._current_5__3 + 1;
+            (__this->fields)._current_5__3 = iVar14;
+            cVar5 = (__this->fields).loop;
+            iVar7 = (__this->fields)._last_5__2;
+            if ((bool)cVar5 == false) goto label_0475e82b;
+label_0475e8da:
+            iVar15 = iVar7;
+            if (iVar7 < iVar14) {
+              (__this->fields)._current_5__3 = 0;
+              iVar13 = 0;
+            }
+            else {
+              iVar13 = 0;
+              if (iVar14 != 0) {
+label_0475e8f3:
+                iVar15 = iVar14 + -1;
+                iVar13 = iVar14;
+              }
+            }
+            (__this->fields)._previous_5__4 = iVar15;
+            (__this->fields)._start_5__5 = iVar13;
+            if (iVar13 == iVar7) break;
+label_0475e918:
+            iVar14 = iVar13 + 1;
           }
-          puVar14 = (undefined8 *)
-                    (*(code *)(pIVar9->fields).invoke_impl)
-                              (local_68,(pIVar9->fields).method_code,pIVar12,(pIVar9->fields).method);
-          uVar2 = *puVar14;
-          fVar5 = *(float *)(puVar14 + 1);
-          (__this->fields).__2__current.fields.x = (float)(int)uVar2;
-          (__this->fields).__2__current.fields.y = (float)(int)((ulonglong)uVar2 >> 0x20);
-          (__this->fields).__2__current.fields.z = fVar5;
-          (__this->fields).__1__state = 1;
-          return true;
-        }
-      }
+          iVar14 = 0;
+          iVar13 = iVar7;
+        } while (cVar5 != '\0');
+      } while( true );
     }
+    goto label_0475e913;
+  }
+  if (iVar7 != 0) {
+    return false;
+  }
+  (__this->fields).__1__state = -1;
+  pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+  if (pIVar9 == (Il2CppObject *)0x0) goto label_0475e913;
+  pIVar10 = pIVar9->klass;
+  uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+  if (uVar12 != 0) {
+    pIVar1 = (pIVar10->_1).interfaceOffsets;
+    lVar16 = 0;
+    do {
+      if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar16) ==
+          TypeInfo_System_Collections_ICollection) {
+        pVVar8 = pIVar10->vtable + (*(int *)((long)&pIVar1->offset + lVar16) + 1);
+        goto label_0475e77f;
+      }
+      lVar16 = lVar16 + 0x10;
+    } while (uVar12 * 0x10 != lVar16);
+  }
+  pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                     (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_0475e77f:
+  iVar6 = (*pVVar8->methodPtr)(pIVar9,pVVar8->method);
+  if (iVar6 < 2) {
+    return false;
+  }
+  pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+  if (pIVar9 == (Il2CppObject *)0x0) goto label_0475e913;
+  pIVar2 = (__this->fields).toVector3;
+  pIVar10 = pIVar9->klass;
+  uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+  if (uVar12 != 0) {
+    pIVar1 = (pIVar10->_1).interfaceOffsets;
+    lVar16 = 0;
+    do {
+      if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+          TypeInfo_System_Collections_IList) {
+        pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+        goto label_0475e868;
+      }
+      lVar16 = lVar16 + 0x10;
+    } while (uVar12 * 0x10 != lVar16);
+  }
+  pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0)
+  ;
+label_0475e868:
+  pIVar9 = (*pVVar8->methodPtr)(pIVar9,0,pVVar8->method);
+  if (pIVar2 == (Interpolate_ToVector3_T__o *)0x0) goto label_0475e913;
+  pIVar10 = method->klass->rgctx_data->_2_T;
+  if (((pIVar10->_2).bitflags1 & 1) == 0) {
+    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  }
+  if (pIVar9 == (Il2CppObject *)0x0) {
+    pIVar11 = (Il2CppObject *)0x0;
   }
   else {
-    pIVar16 = (Il2CppObject *)0x0;
-    if (iVar10 == 1) {
-      pIVar12 = (Il2CppObject *)(__this->fields).nodes;
-      (__this->fields).__1__state = -1;
-      if (pIVar12 != (Il2CppObject *)0x0) {
-        pvVar11 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar12);
-        (__this->fields)._current_5__3 = 0;
-        (__this->fields)._last_5__2 = (int)pvVar11 + -1;
-        goto label_1811678c0;
-      }
+    pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+    if (pIVar11 == (Il2CppObject *)0x0) goto label_0475ecc3;
+  }
+  uVar17 = (*(code *)(pIVar2->fields).invoke_impl)
+                     ((pIVar2->fields).method_code,pIVar11,(pIVar2->fields).method);
+  iVar6 = 1;
+label_0475ed2a:
+  (__this->fields).__2__current.fields.x = (float)(int)uVar17;
+  (__this->fields).__2__current.fields.y = (float)(int)((ulong)uVar17 >> 0x20);
+  (__this->fields).__2__current.fields.z = in_XMM1_Da;
+  (__this->fields).__1__state = iVar6;
+  return true;
+  while (lVar16 = lVar16 + 0x10, uVar12 * 0x10 != lVar16) {
+label_0475e9a0:
+    if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+        TypeInfo_System_Collections_IList) {
+      pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+      goto label_0475e9d1;
+    }
+  }
+label_0475e9af:
+  pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0)
+  ;
+label_0475e9d1:
+  pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+  if (pIVar2 == (Interpolate_ToVector3_T__o *)0x0) goto label_0475e913;
+  pIVar10 = method->klass->rgctx_data->_2_T;
+  if (((pIVar10->_2).bitflags1 & 1) == 0) {
+    pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+  }
+  if (pIVar9 == (Il2CppObject *)0x0) {
+    pIVar11 = (Il2CppObject *)0x0;
+  }
+  else {
+    pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+    if (pIVar11 == (Il2CppObject *)0x0) goto label_0475ecc3;
+  }
+  uVar17 = (*(code *)(pIVar2->fields).invoke_impl)
+                     ((pIVar2->fields).method_code,pIVar11,(pIVar2->fields).method);
+  pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+  if (pIVar9 != (Il2CppObject *)0x0) {
+    pIVar2 = (__this->fields).toVector3;
+    iVar6 = (__this->fields)._start_5__5;
+    pIVar10 = pIVar9->klass;
+    uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+    fVar18 = in_XMM1_Da;
+    if (uVar12 != 0) {
+      pIVar1 = (pIVar10->_1).interfaceOffsets;
+      lVar16 = 0;
+      do {
+        if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+            TypeInfo_System_Collections_IList) {
+          pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+          goto label_0475eab1;
+        }
+        lVar16 = lVar16 + 0x10;
+      } while (uVar12 * 0x10 != lVar16);
+    }
+    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475eab1:
+    pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+    if (pIVar2 == (Interpolate_ToVector3_T__o *)0x0) goto label_0475e913;
+    pIVar10 = method->klass->rgctx_data->_2_T;
+    if (((pIVar10->_2).bitflags1 & 1) == 0) {
+      pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+    }
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      pIVar11 = (Il2CppObject *)0x0;
     }
     else {
-      if (iVar10 != 2) {
-        return false;
+      pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+      if (pIVar11 == (Il2CppObject *)0x0) goto label_0475ecc3;
+    }
+    uVar4 = (*(code *)(pIVar2->fields).invoke_impl)
+                      ((pIVar2->fields).method_code,pIVar11,(pIVar2->fields).method);
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) goto label_0475e913;
+    pIVar2 = (__this->fields).toVector3;
+    iVar6 = (__this->fields)._end_5__6;
+    pIVar10 = pIVar9->klass;
+    uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+    fVar19 = fVar18;
+    if (uVar12 != 0) {
+      pIVar1 = (pIVar10->_1).interfaceOffsets;
+      lVar16 = 0;
+      do {
+        if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+            TypeInfo_System_Collections_IList) {
+          pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+          goto label_0475eb91;
+        }
+        lVar16 = lVar16 + 0x10;
+      } while (uVar12 * 0x10 != lVar16);
+    }
+    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475eb91:
+    pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+    if (pIVar2 == (Interpolate_ToVector3_T__o *)0x0) goto label_0475e913;
+    pIVar10 = method->klass->rgctx_data->_2_T;
+    if (((pIVar10->_2).bitflags1 & 1) == 0) {
+      pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+    }
+    if (pIVar9 == (Il2CppObject *)0x0) {
+      pIVar11 = (Il2CppObject *)0x0;
+    }
+    else {
+      pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+      if (pIVar11 == (Il2CppObject *)0x0) goto label_0475ecc3;
+    }
+    uVar3 = (*(code *)(pIVar2->fields).invoke_impl)
+                      ((pIVar2->fields).method_code,pIVar11,(pIVar2->fields).method);
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      pIVar2 = (__this->fields).toVector3;
+      iVar6 = (__this->fields)._next_5__7;
+      pIVar10 = pIVar9->klass;
+      uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+      fVar20 = fVar19;
+      if (uVar12 != 0) {
+        pIVar1 = (pIVar10->_1).interfaceOffsets;
+        lVar16 = 0;
+        do {
+          if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+              TypeInfo_System_Collections_IList) {
+            pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+            goto label_0475ec71;
+          }
+          lVar16 = lVar16 + 0x10;
+        } while (uVar12 * 0x10 != lVar16);
       }
-      piVar1 = &(__this->fields)._step_5__9;
-      *piVar1 = *piVar1 + 1;
-      (__this->fields).__1__state = -1;
-      while ((__this->fields)._stepCount_5__8 < (__this->fields)._step_5__9) {
-        piVar1 = &(__this->fields)._current_5__3;
-        *piVar1 = *piVar1 + 1;
-label_1811678c0:
-        if ((__this->fields).loop == false) {
-          if ((__this->fields)._last_5__2 <= (__this->fields)._current_5__3) {
-            return false;
-          }
-          if ((__this->fields).loop != false) goto label_1811678d4;
+      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                         (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_0475ec71:
+      pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+      if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+        pIVar10 = method->klass->rgctx_data->_2_T;
+        if (((pIVar10->_2).bitflags1 & 1) == 0) {
+          pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+        }
+        if (pIVar9 == (Il2CppObject *)0x0) {
+          pIVar11 = (Il2CppObject *)0x0;
         }
         else {
-label_1811678d4:
-          if ((__this->fields)._last_5__2 < (__this->fields)._current_5__3) {
-            (__this->fields)._current_5__3 = 0;
+          pIVar11 = il2cpp_vm_Object_IsInst(pIVar9,pIVar10);
+          if (pIVar11 == (Il2CppObject *)0x0) {
+label_0475ecc3:
+            il2cpp_codegen_raise_invalid_cast_exception(pIVar9,pIVar10);
           }
         }
-        if ((__this->fields)._current_5__3 == 0) {
-          if ((__this->fields).loop == false) {
-            iVar10 = (__this->fields)._current_5__3;
-          }
-          else {
-            iVar10 = (__this->fields)._last_5__2;
-          }
-        }
-        else {
-          iVar10 = (__this->fields)._current_5__3 + -1;
-        }
-        if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_181167d49;
-        (__this->fields)._previous_5__4 = iVar10;
-        (__this->fields)._start_5__5 = (__this->fields)._current_5__3;
-        if ((__this->fields)._current_5__3 == (__this->fields)._last_5__2) {
-          iVar10 = 0;
-          if ((__this->fields).loop == false) {
-            iVar10 = (__this->fields)._current_5__3;
-          }
-        }
-        else {
-          iVar10 = (__this->fields)._current_5__3 + 1;
-        }
-        (__this->fields)._end_5__6 = iVar10;
-        if ((__this->fields)._end_5__6 == (__this->fields)._last_5__2) {
-          if ((__this->fields).loop == false) {
-            iVar10 = (__this->fields)._end_5__6;
-          }
-          else {
-            iVar10 = 0;
-          }
-        }
-        else {
-          iVar10 = (__this->fields)._end_5__6 + 1;
-        }
-        (__this->fields)._next_5__7 = iVar10;
-        (__this->fields)._step_5__9 = 1;
-        (__this->fields)._stepCount_5__8 = (__this->fields).slices + 1;
-      }
-      pSVar8 = (__this->fields).nodes;
-      if (pSVar8 != (System_Collections_IList_o *)0x0) {
-        pIVar9 = (__this->fields).toVector3;
-        pIVar12 = (Il2CppObject *)
-                  il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,(__this->fields)._previous_5__4);
-        if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-          pIVar13 = method->klass->rgctx_data->_2_T;
-          if (((pIVar13->_2).bitflags1 & 1) == 0) {
-            pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-          }
-          pIVar15 = pIVar16;
-          if ((pIVar12 != (Il2CppObject *)0x0) &&
-             (pIVar15 = il2cpp_vm_Object_IsInst(pIVar12,pIVar13), pIVar15 == (Il2CppObject *)0x0)) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-          }
-          puVar14 = (undefined8 *)
-                    (*(code *)(pIVar9->fields).invoke_impl)
-                              (&local_78,(pIVar9->fields).method_code,pIVar15,(pIVar9->fields).method);
-          pSVar8 = (__this->fields).nodes;
-          if (pSVar8 != (System_Collections_IList_o *)0x0) {
-            uVar2 = *puVar14;
-            fVar5 = *(float *)(puVar14 + 1);
-            pIVar9 = (__this->fields).toVector3;
-            pIVar12 = (Il2CppObject *)
-                      il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,(__this->fields)._start_5__5);
-            if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-              pIVar13 = method->klass->rgctx_data->_2_T;
-              if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-              }
-              pIVar15 = pIVar16;
-              if ((pIVar12 != (Il2CppObject *)0x0) &&
-                 (pIVar15 = il2cpp_vm_Object_IsInst(pIVar12,pIVar13), pIVar15 == (Il2CppObject *)0x0)) {
-                il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-              }
-              puVar14 = (undefined8 *)
-                        (*(code *)(pIVar9->fields).invoke_impl)
-                                  (&local_78,(pIVar9->fields).method_code,pIVar15,(pIVar9->fields).method);
-              pSVar8 = (__this->fields).nodes;
-              if (pSVar8 != (System_Collections_IList_o *)0x0) {
-                uVar3 = *puVar14;
-                fVar6 = *(float *)(puVar14 + 1);
-                pIVar9 = (__this->fields).toVector3;
-                pIVar12 = (Il2CppObject *)
-                          il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,(__this->fields)._end_5__6)
-                ;
-                if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-                  pIVar13 = method->klass->rgctx_data->_2_T;
-                  if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                    pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-                  }
-                  pIVar15 = pIVar16;
-                  if ((pIVar12 != (Il2CppObject *)0x0) &&
-                     (pIVar15 = il2cpp_vm_Object_IsInst(pIVar12,pIVar13), pIVar15 == (Il2CppObject *)0x0)) {
-                    il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-                  }
-                  puVar14 = (undefined8 *)
-                            (*(code *)(pIVar9->fields).invoke_impl)
-                                      (&local_78,(pIVar9->fields).method_code,pIVar15,(pIVar9->fields).method)
-                  ;
-                  pSVar8 = (__this->fields).nodes;
-                  if (pSVar8 != (System_Collections_IList_o *)0x0) {
-                    uVar4 = *puVar14;
-                    fVar7 = *(float *)(puVar14 + 1);
-                    pIVar9 = (__this->fields).toVector3;
-                    pIVar12 = (Il2CppObject *)
-                              il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,
-                                            (__this->fields)._next_5__7);
-                    if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-                      pIVar13 = method->klass->rgctx_data->_2_T;
-                      if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                        pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-                      }
-                      if ((pIVar12 != (Il2CppObject *)0x0) &&
-                         (pIVar16 = il2cpp_vm_Object_IsInst(pIVar12,pIVar13), pIVar16 == (Il2CppObject *)0x0))
-                      {
-                        il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-                      }
-                      puVar14 = (undefined8 *)
-                                (*(code *)(pIVar9->fields).invoke_impl)
-                                          (&local_78,(pIVar9->fields).method_code,pIVar16,
-                                           (pIVar9->fields).method);
-                      local_a8._0_8_ = *puVar14;
-                      local_a8.z = *(float *)(puVar14 + 1);
-                      local_98._0_8_ = uVar4;
-                      local_98.z = fVar7;
-                      local_88._0_8_ = uVar3;
-                      local_88.z = fVar6;
-                      local_78._0_8_ = uVar2;
-                      local_78.z = fVar5;
-                      pUVar17 = Interpolate__CatmullRom
-                                          (local_68,(UnityEngine_Vector3_o *)&local_78,
-                                           (UnityEngine_Vector3_o *)&local_88,
-                                           (UnityEngine_Vector3_o *)&local_98,
-                                           (UnityEngine_Vector3_o *)&local_a8,
-                                           (float)(__this->fields)._step_5__9,
-                                           (float)(__this->fields)._stepCount_5__8,(MethodInfo *)0x0);
-                      fVar6 = (pUVar17->fields).y;
-                      fVar5 = (pUVar17->fields).z;
-                      (__this->fields).__2__current.fields.x = (pUVar17->fields).x;
-                      (__this->fields).__2__current.fields.y = fVar6;
-                      (__this->fields).__2__current.fields.z = fVar5;
-                      (__this->fields).__1__state = 2;
-                      return true;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
+        next.fields._0_8_ =
+             (*(code *)(pIVar2->fields).invoke_impl)
+                       ((pIVar2->fields).method_code,pIVar11,(pIVar2->fields).method);
+        UVar21.fields.z = in_XMM1_Da;
+        UVar21.fields.x = (float)(int)uVar17;
+        UVar21.fields.y = (float)(int)((ulong)uVar17 >> 0x20);
+        start.fields.z = fVar18;
+        start.fields.x = (float)(int)uVar4;
+        start.fields.y = (float)(int)((ulong)uVar4 >> 0x20);
+        next.fields.z = fVar20;
+        end.fields.z = fVar19;
+        end.fields.x = (float)(int)uVar3;
+        end.fields.y = (float)(int)((ulong)uVar3 >> 0x20);
+        UVar21 = Interpolate__CatmullRom
+                           (UVar21,start,end,next,(float)(__this->fields)._step_5__9,
+                            (float)(__this->fields)._stepCount_5__8,(MethodInfo *)0x0);
+        in_XMM1_Da = UVar21.fields.z;
+        uVar17 = UVar21.fields._0_8_;
+        iVar6 = 2;
+        goto label_0475ed2a;
       }
     }
   }
-label_181167d49:
+label_0475e913:
   ThrowNullReferenceException();
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$MoveNext
-// il2cpp: bool Interpolate__NewCatmullRom_d__20_Vector3___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1394560* method);
-// 0x181394560
-// asm: 16 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181394aad: call 0x180416360  ; il2cpp_object_unbox()
-// asm:   0x181394ab2: mov r9, qword ptr [rsi + 0x28]
-// asm:   0x181394ab6: lea r8, [rbp - 0x19]
-// asm:   0x181394aba: mov rdx, qword ptr [rsi + 0x40]
-// asm:   0x181394abe: lea rcx, [rbp - 9]
-// asm:   0x181394ac2: movsd xmm0, qword ptr [rax]
-// asm:   0x181394ac6: mov eax, dword ptr [rax + 8]
-// asm:   0x181394ac9: movsd qword ptr [rbp - 0x19], xmm0
-// asm:   0x181394ace: mov dword ptr [rbp - 0x11], eax
-// asm:   0x181394ad1: call qword ptr [rsi + 0x18]
-// asm:   0x181394ad4: movsd xmm0, qword ptr [rax]
-// asm:   0x181394ad8: mov ecx, dword ptr [rax + 8]
-// asm:   0x181394adb: movsd qword ptr [rbx + 0x14], xmm0
-// asm:   0x181394ae0: mov dword ptr [rbx + 0x1c], ecx
-// asm:   0x181394ae3: mov dword ptr [rbx + 0x10], 1
-// asm:   0x181394aea: jmp 0x1813949d1
+// il2cpp: bool Interpolate__NewCatmullRom_d__20_Vector3___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_494FFE0* method);
+// 0x4a4ffe0
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4a5006f: nop 
+// asm:   0x4a500e9: nop dword ptr [rax]
+// asm:   0x4a501f9: jmp 0x4a502c0
+// asm:   0x4a50316: jmp 0x4a501db
+// asm:   0x4a5043f: nop 
+// asm:   0x4a5051f: nop 
+// asm:   0x4a505ff: nop 
 
 bool Interpolate__NewCatmullRom_d__20_Vector3___MoveNext
-               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1394560 *method)
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_494FFE0 *method)
 
 {
-  int32_t *piVar1;
-  undefined8 uVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar1;
+  Interpolate_ToVector3_T__o *pIVar2;
   undefined8 uVar3;
   undefined8 uVar4;
-  float fVar5;
-  float fVar6;
-  float fVar7;
-  System_Collections_IList_o *pSVar8;
-  Interpolate_ToVector3_T__o *pIVar9;
-  int iVar10;
-  void *pvVar11;
-  Il2CppObject *pIVar12;
-  Il2CppClass *pIVar13;
-  undefined8 *puVar14;
-  UnityEngine_Vector3_o *pUVar15;
-  UnityEngine_Vector3_Fields local_a8;
-  UnityEngine_Vector3_Fields local_98;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_Fields local_78;
-  UnityEngine_Vector3_o local_68 [5];
+  char cVar5;
+  int32_t iVar6;
+  int iVar7;
+  VirtualInvokeData *pVVar8;
+  Il2CppObject *pIVar9;
+  Il2CppClass *pIVar10;
+  undefined8 *puVar11;
+  ulong uVar12;
+  int iVar13;
+  int iVar14;
+  int iVar15;
+  long lVar16;
+  undefined8 uVar17;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  UnityEngine_Vector3_o UVar21;
+  UnityEngine_Vector3_o start;
+  UnityEngine_Vector3_o next;
+  UnityEngine_Vector3_o end;
   
-  if (Il2CppMethodInitialized_184340d3e == '\0') {
+  if (Il2CppMethodInitialized_0754162b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
-    Il2CppMethodInitialized_184340d3e = '\x01';
+    Il2CppMethodInitialized_0754162b = '\x01';
   }
-  iVar10 = (__this->fields).__1__state;
-  if (iVar10 == 0) {
-    pIVar12 = (Il2CppObject *)(__this->fields).nodes;
+  iVar7 = (__this->fields).__1__state;
+  if (iVar7 == 2) {
     (__this->fields).__1__state = -1;
-    if (pIVar12 != (Il2CppObject *)0x0) {
-      pvVar11 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar12);
-      if ((int)pvVar11 < 2) {
+    iVar7 = (__this->fields)._stepCount_5__8;
+    iVar14 = (__this->fields)._step_5__9 + 1;
+    (__this->fields)._step_5__9 = iVar14;
+    goto label_04a502fb;
+  }
+  if (iVar7 == 1) {
+    (__this->fields).__1__state = -1;
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 == (Il2CppObject *)0x0) goto label_04a502c9;
+    pIVar10 = pIVar9->klass;
+    uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+    if (uVar12 != 0) {
+      pIVar1 = (pIVar10->_1).interfaceOffsets;
+      lVar16 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar16) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar8 = pIVar10->vtable + (*(int *)((long)&pIVar1->offset + lVar16) + 1);
+          goto label_04a501b5;
+        }
+        lVar16 = lVar16 + 0x10;
+      } while (uVar12 * 0x10 != lVar16);
+    }
+    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_04a501b5:
+    iVar6 = (*pVVar8->methodPtr)(pIVar9,pVVar8->method);
+    (__this->fields)._last_5__2 = iVar6 + -1;
+    (__this->fields)._current_5__3 = 0;
+    iVar14 = 0;
+    cVar5 = (__this->fields).loop;
+    iVar7 = (__this->fields)._last_5__2;
+    if ((bool)cVar5 != false) goto label_04a50290;
+label_04a501db:
+    if (iVar14 < iVar7) {
+      if (iVar14 != 0) goto label_04a502a9;
+      (__this->fields)._previous_5__4 = 0;
+      (__this->fields)._start_5__5 = 0;
+      iVar13 = 0;
+      if (iVar7 != 0) goto label_04a502ce;
+      do {
+        iVar7 = iVar13;
+        iVar14 = iVar7;
+        do {
+          if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_04a502c9;
+          while( true ) {
+            (__this->fields)._end_5__6 = iVar14;
+            iVar13 = 0;
+            if (cVar5 == '\0') {
+              iVar13 = iVar7;
+            }
+            if (iVar14 != iVar7) {
+              iVar13 = iVar14 + 1;
+            }
+            (__this->fields)._next_5__7 = iVar13;
+            iVar7 = (__this->fields).slices + 1;
+            (__this->fields)._stepCount_5__8 = iVar7;
+            (__this->fields)._step_5__9 = 1;
+            iVar14 = 1;
+label_04a502fb:
+            if (iVar14 <= iVar7) {
+              pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+              if (pIVar9 == (Il2CppObject *)0x0) goto label_04a502c9;
+              pIVar2 = (__this->fields).toVector3;
+              iVar6 = (__this->fields)._previous_5__4;
+              pIVar10 = pIVar9->klass;
+              uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+              if (uVar12 == 0) goto label_04a5036f;
+              pIVar1 = (pIVar10->_1).interfaceOffsets;
+              lVar16 = 0;
+              goto label_04a50360;
+            }
+            iVar14 = (__this->fields)._current_5__3 + 1;
+            (__this->fields)._current_5__3 = iVar14;
+            cVar5 = (__this->fields).loop;
+            iVar7 = (__this->fields)._last_5__2;
+            if ((bool)cVar5 == false) goto label_04a501db;
+label_04a50290:
+            iVar15 = iVar7;
+            if (iVar7 < iVar14) {
+              (__this->fields)._current_5__3 = 0;
+              iVar13 = 0;
+            }
+            else {
+              iVar13 = 0;
+              if (iVar14 != 0) {
+label_04a502a9:
+                iVar15 = iVar14 + -1;
+                iVar13 = iVar14;
+              }
+            }
+            (__this->fields)._previous_5__4 = iVar15;
+            (__this->fields)._start_5__5 = iVar13;
+            if (iVar13 == iVar7) break;
+label_04a502ce:
+            iVar14 = iVar13 + 1;
+          }
+          iVar14 = 0;
+          iVar13 = iVar7;
+        } while (cVar5 != '\0');
+      } while( true );
+    }
+  }
+  else if (iVar7 == 0) {
+    (__this->fields).__1__state = -1;
+    pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      pIVar10 = pIVar9->klass;
+      uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+      if (uVar12 != 0) {
+        pIVar1 = (pIVar10->_1).interfaceOffsets;
+        lVar16 = 0;
+        do {
+          if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar16) ==
+              TypeInfo_System_Collections_ICollection) {
+            pVVar8 = pIVar10->vtable + (*(int *)((long)&pIVar1->offset + lVar16) + 1);
+            goto label_04a5012f;
+          }
+          lVar16 = lVar16 + 0x10;
+        } while (uVar12 * 0x10 != lVar16);
+      }
+      pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                         (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_04a5012f:
+      iVar6 = (*pVVar8->methodPtr)(pIVar9,pVVar8->method);
+      if (iVar6 < 2) {
         return false;
       }
-      pSVar8 = (__this->fields).nodes;
-      if (pSVar8 != (System_Collections_IList_o *)0x0) {
-        pIVar9 = (__this->fields).toVector3;
-        pIVar12 = (Il2CppObject *)il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,0);
-        if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-          pIVar13 = method->klass->rgctx_data->_2_T;
-          if (((pIVar13->_2).bitflags1 & 1) == 0) {
-            pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+      pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+      if (pIVar9 != (Il2CppObject *)0x0) {
+        pIVar2 = (__this->fields).toVector3;
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar1 = (pIVar10->_1).interfaceOffsets;
+          lVar16 = 0;
+          do {
+            if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+                TypeInfo_System_Collections_IList) {
+              pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+              goto label_04a50218;
+            }
+            lVar16 = lVar16 + 0x10;
+          } while (uVar12 * 0x10 != lVar16);
+        }
+        pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50218:
+        pIVar9 = (*pVVar8->methodPtr)(pIVar9,0,pVVar8->method);
+        if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+          pIVar10 = method->klass->rgctx_data->_2_T;
+          if (((pIVar10->_2).bitflags1 & 1) == 0) {
+            pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
           }
-          if (pIVar12 != (Il2CppObject *)0x0) {
-            if ((pIVar12->klass->_1).element_class == (pIVar13->_1).element_class) {
-              puVar14 = il2cpp_object_unbox(pIVar12);
-              local_78._0_8_ = *puVar14;
-              local_78.z = *(float *)(puVar14 + 1);
-              puVar14 = (undefined8 *)
-                        (*(code *)(pIVar9->fields).invoke_impl)
-                                  (local_68,(pIVar9->fields).method_code,&local_78,(pIVar9->fields).method);
-              uVar2 = *puVar14;
-              fVar5 = *(float *)(puVar14 + 1);
-              (__this->fields).__2__current.fields.x = (float)(int)uVar2;
-              (__this->fields).__2__current.fields.y = (float)(int)((ulonglong)uVar2 >> 0x20);
-              (__this->fields).__2__current.fields.z = fVar5;
-              (__this->fields).__1__state = 1;
+          if (pIVar9 != (Il2CppObject *)0x0) {
+            if ((pIVar9->klass->_1).element_class == (pIVar10->_1).element_class) {
+              puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+              UVar21.fields.z = *(float *)(puVar11 + 1);
+              uVar17 = (*(code *)(pIVar2->fields).invoke_impl)
+                                 ((int)*puVar11,(pIVar2->fields).method_code,(pIVar2->fields).method);
+              iVar6 = 1;
+label_04a506ee:
+              (__this->fields).__2__current.fields.x = (float)(int)uVar17;
+              (__this->fields).__2__current.fields.y = (float)(int)((ulong)uVar17 >> 0x20);
+              (__this->fields).__2__current.fields.z = UVar21.fields.z;
+              (__this->fields).__1__state = iVar6;
               return true;
             }
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
+            goto label_04a5070b;
           }
         }
       }
     }
+    goto label_04a502c9;
   }
-  else if (iVar10 == 1) {
-    pIVar12 = (Il2CppObject *)(__this->fields).nodes;
-    (__this->fields).__1__state = -1;
-    if (pIVar12 != (Il2CppObject *)0x0) {
-      pvVar11 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar12);
-      (__this->fields)._current_5__3 = 0;
-      (__this->fields)._last_5__2 = (int)pvVar11 + -1;
-      goto label_181394640;
+  return false;
+  while (lVar16 = lVar16 + 0x10, uVar12 * 0x10 != lVar16) {
+label_04a50360:
+    if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+        TypeInfo_System_Collections_IList) {
+      pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+      goto label_04a50391;
     }
   }
-  else {
-    if (iVar10 != 2) {
-      return false;
+label_04a5036f:
+  pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0)
+  ;
+label_04a50391:
+  pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+  if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+    pIVar10 = method->klass->rgctx_data->_2_T;
+    if (((pIVar10->_2).bitflags1 & 1) == 0) {
+      pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
     }
-    piVar1 = &(__this->fields)._step_5__9;
-    *piVar1 = *piVar1 + 1;
-    (__this->fields).__1__state = -1;
-    while ((__this->fields)._stepCount_5__8 < (__this->fields)._step_5__9) {
-      piVar1 = &(__this->fields)._current_5__3;
-      *piVar1 = *piVar1 + 1;
-label_181394640:
-      if ((__this->fields).loop == false) {
-        if ((__this->fields)._last_5__2 <= (__this->fields)._current_5__3) {
-          return false;
+    if (pIVar9 != (Il2CppObject *)0x0) {
+      if ((pIVar9->klass->_1).element_class != (pIVar10->_1).element_class) goto label_04a5070b;
+      puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+      UVar21.fields.z = *(float *)(puVar11 + 1);
+      uVar17 = (*(code *)(pIVar2->fields).invoke_impl)
+                         ((int)*puVar11,(pIVar2->fields).method_code,(pIVar2->fields).method);
+      pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+      if (pIVar9 != (Il2CppObject *)0x0) {
+        pIVar2 = (__this->fields).toVector3;
+        iVar6 = (__this->fields)._start_5__5;
+        pIVar10 = pIVar9->klass;
+        uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+        if (uVar12 != 0) {
+          pIVar1 = (pIVar10->_1).interfaceOffsets;
+          lVar16 = 0;
+          do {
+            if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+                TypeInfo_System_Collections_IList) {
+              pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+              goto label_04a50471;
+            }
+            lVar16 = lVar16 + 0x10;
+          } while (uVar12 * 0x10 != lVar16);
         }
-        if ((__this->fields).loop != false) goto label_181394654;
-      }
-      else {
-label_181394654:
-        if ((__this->fields)._last_5__2 < (__this->fields)._current_5__3) {
-          (__this->fields)._current_5__3 = 0;
-        }
-      }
-      if ((__this->fields)._current_5__3 == 0) {
-        if ((__this->fields).loop == false) {
-          iVar10 = (__this->fields)._current_5__3;
-        }
-        else {
-          iVar10 = (__this->fields)._last_5__2;
-        }
-      }
-      else {
-        iVar10 = (__this->fields)._current_5__3 + -1;
-      }
-      if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_181394aef;
-      (__this->fields)._previous_5__4 = iVar10;
-      (__this->fields)._start_5__5 = (__this->fields)._current_5__3;
-      if ((__this->fields)._current_5__3 == (__this->fields)._last_5__2) {
-        if ((__this->fields).loop == false) {
-          iVar10 = (__this->fields)._current_5__3;
-        }
-        else {
-          iVar10 = 0;
-        }
-      }
-      else {
-        iVar10 = (__this->fields)._current_5__3 + 1;
-      }
-      (__this->fields)._end_5__6 = iVar10;
-      if ((__this->fields)._end_5__6 == (__this->fields)._last_5__2) {
-        if ((__this->fields).loop == false) {
-          iVar10 = (__this->fields)._end_5__6;
-        }
-        else {
-          iVar10 = 0;
-        }
-      }
-      else {
-        iVar10 = (__this->fields)._end_5__6 + 1;
-      }
-      (__this->fields)._next_5__7 = iVar10;
-      (__this->fields)._step_5__9 = 1;
-      (__this->fields)._stepCount_5__8 = (__this->fields).slices + 1;
-    }
-    pSVar8 = (__this->fields).nodes;
-    if (pSVar8 != (System_Collections_IList_o *)0x0) {
-      pIVar9 = (__this->fields).toVector3;
-      pIVar12 = (Il2CppObject *)
-                il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,(__this->fields)._previous_5__4);
-      if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-        pIVar13 = method->klass->rgctx_data->_2_T;
-        if (((pIVar13->_2).bitflags1 & 1) == 0) {
-          pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-        }
-        if (pIVar12 != (Il2CppObject *)0x0) {
-          if ((pIVar12->klass->_1).element_class != (pIVar13->_1).element_class) {
-            il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
+        pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50471:
+        pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+        if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+          pIVar10 = method->klass->rgctx_data->_2_T;
+          if (((pIVar10->_2).bitflags1 & 1) == 0) {
+            pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
           }
-          puVar14 = il2cpp_object_unbox(pIVar12);
-          local_a8._0_8_ = *puVar14;
-          local_a8.z = *(float *)(puVar14 + 1);
-          puVar14 = (undefined8 *)
-                    (*(code *)(pIVar9->fields).invoke_impl)
-                              (&local_78,(pIVar9->fields).method_code,&local_a8,(pIVar9->fields).method);
-          pSVar8 = (__this->fields).nodes;
-          if (pSVar8 != (System_Collections_IList_o *)0x0) {
-            uVar2 = *puVar14;
-            fVar5 = *(float *)(puVar14 + 1);
-            pIVar9 = (__this->fields).toVector3;
-            pIVar12 = (Il2CppObject *)
-                      il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,(__this->fields)._start_5__5);
-            if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-              pIVar13 = method->klass->rgctx_data->_2_T;
-              if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+          if (pIVar9 != (Il2CppObject *)0x0) {
+            if ((pIVar9->klass->_1).element_class != (pIVar10->_1).element_class) goto label_04a5070b;
+            puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+            fVar18 = *(float *)(puVar11 + 1);
+            uVar4 = (*(code *)(pIVar2->fields).invoke_impl)
+                              ((int)*puVar11,(pIVar2->fields).method_code,(pIVar2->fields).method);
+            pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+            if (pIVar9 != (Il2CppObject *)0x0) {
+              pIVar2 = (__this->fields).toVector3;
+              iVar6 = (__this->fields)._end_5__6;
+              pIVar10 = pIVar9->klass;
+              uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+              if (uVar12 != 0) {
+                pIVar1 = (pIVar10->_1).interfaceOffsets;
+                lVar16 = 0;
+                do {
+                  if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+                      TypeInfo_System_Collections_IList) {
+                    pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+                    goto label_04a50551;
+                  }
+                  lVar16 = lVar16 + 0x10;
+                } while (uVar12 * 0x10 != lVar16);
               }
-              if (pIVar12 != (Il2CppObject *)0x0) {
-                if ((pIVar12->klass->_1).element_class != (pIVar13->_1).element_class) {
-                  il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
+              pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                                 (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50551:
+              pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+              if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+                pIVar10 = method->klass->rgctx_data->_2_T;
+                if (((pIVar10->_2).bitflags1 & 1) == 0) {
+                  pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
                 }
-                puVar14 = il2cpp_object_unbox(pIVar12);
-                local_a8._0_8_ = *puVar14;
-                local_a8.z = *(float *)(puVar14 + 1);
-                puVar14 = (undefined8 *)
-                          (*(code *)(pIVar9->fields).invoke_impl)
-                                    (&local_78,(pIVar9->fields).method_code,&local_a8,(pIVar9->fields).method)
-                ;
-                pSVar8 = (__this->fields).nodes;
-                if (pSVar8 != (System_Collections_IList_o *)0x0) {
-                  uVar3 = *puVar14;
-                  fVar6 = *(float *)(puVar14 + 1);
-                  pIVar9 = (__this->fields).toVector3;
-                  pIVar12 = (Il2CppObject *)
-                            il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,
-                                          (__this->fields)._end_5__6);
-                  if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-                    pIVar13 = method->klass->rgctx_data->_2_T;
-                    if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                      pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-                    }
-                    if (pIVar12 != (Il2CppObject *)0x0) {
-                      if ((pIVar12->klass->_1).element_class != (pIVar13->_1).element_class) {
-                        il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-                      }
-                      puVar14 = il2cpp_object_unbox(pIVar12);
-                      local_a8._0_8_ = *puVar14;
-                      local_a8.z = *(float *)(puVar14 + 1);
-                      puVar14 = (undefined8 *)
-                                (*(code *)(pIVar9->fields).invoke_impl)
-                                          (&local_78,(pIVar9->fields).method_code,&local_a8,
-                                           (pIVar9->fields).method);
-                      pSVar8 = (__this->fields).nodes;
-                      if (pSVar8 != (System_Collections_IList_o *)0x0) {
-                        uVar4 = *puVar14;
-                        fVar7 = *(float *)(puVar14 + 1);
-                        pIVar9 = (__this->fields).toVector3;
-                        pIVar12 = (Il2CppObject *)
-                                  il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar8,
-                                                (__this->fields)._next_5__7);
-                        if (pIVar9 != (Interpolate_ToVector3_T__o *)0x0) {
-                          pIVar13 = method->klass->rgctx_data->_2_T;
-                          if (((pIVar13->_2).bitflags1 & 1) == 0) {
-                            pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
-                          }
-                          if (pIVar12 != (Il2CppObject *)0x0) {
-                            if ((pIVar12->klass->_1).element_class == (pIVar13->_1).element_class) {
-                              puVar14 = il2cpp_object_unbox(pIVar12);
-                              local_a8._0_8_ = *puVar14;
-                              local_a8.z = *(float *)(puVar14 + 1);
-                              puVar14 = (undefined8 *)
-                                        (*(code *)(pIVar9->fields).invoke_impl)
-                                                  (&local_78,(pIVar9->fields).method_code,&local_a8,
-                                                   (pIVar9->fields).method);
-                              local_a8._0_8_ = *puVar14;
-                              local_a8.z = *(float *)(puVar14 + 1);
-                              local_98._0_8_ = uVar4;
-                              local_98.z = fVar7;
-                              local_88._0_8_ = uVar3;
-                              local_88.z = fVar6;
-                              local_78._0_8_ = uVar2;
-                              local_78.z = fVar5;
-                              pUVar15 = Interpolate__CatmullRom
-                                                  (local_68,(UnityEngine_Vector3_o *)&local_78,
-                                                   (UnityEngine_Vector3_o *)&local_88,
-                                                   (UnityEngine_Vector3_o *)&local_98,
-                                                   (UnityEngine_Vector3_o *)&local_a8,
-                                                   (float)(__this->fields)._step_5__9,
-                                                   (float)(__this->fields)._stepCount_5__8,(MethodInfo *)0x0);
-                              fVar6 = (pUVar15->fields).y;
-                              fVar5 = (pUVar15->fields).z;
-                              (__this->fields).__2__current.fields.x = (pUVar15->fields).x;
-                              (__this->fields).__2__current.fields.y = fVar6;
-                              (__this->fields).__2__current.fields.z = fVar5;
-                              (__this->fields).__1__state = 2;
-                              return true;
-                            }
-                            il2cpp_codegen_raise_invalid_cast_exception(pIVar12,pIVar13);
-                          }
+                if (pIVar9 != (Il2CppObject *)0x0) {
+                  if ((pIVar9->klass->_1).element_class != (pIVar10->_1).element_class) {
+label_04a5070b:
+                    il2cpp_codegen_raise_invalid_cast_exception(pIVar9,pIVar10);
+                  }
+                  puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+                  fVar19 = *(float *)(puVar11 + 1);
+                  uVar3 = (*(code *)(pIVar2->fields).invoke_impl)
+                                    ((int)*puVar11,(pIVar2->fields).method_code,(pIVar2->fields).method);
+                  pIVar9 = (Il2CppObject *)(__this->fields).nodes;
+                  if (pIVar9 != (Il2CppObject *)0x0) {
+                    pIVar2 = (__this->fields).toVector3;
+                    iVar6 = (__this->fields)._next_5__7;
+                    pIVar10 = pIVar9->klass;
+                    uVar12 = (ulong)(pIVar10->_2).interface_offsets_count;
+                    if (uVar12 != 0) {
+                      pIVar1 = (pIVar10->_1).interfaceOffsets;
+                      lVar16 = 0;
+                      do {
+                        if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar16) ==
+                            TypeInfo_System_Collections_IList) {
+                          pVVar8 = pIVar10->vtable + *(int *)((long)&pIVar1->offset + lVar16);
+                          goto label_04a50631;
                         }
+                        lVar16 = lVar16 + 0x10;
+                      } while (uVar12 * 0x10 != lVar16);
+                    }
+                    pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                                       (pIVar9,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50631:
+                    pIVar9 = (*pVVar8->methodPtr)(pIVar9,iVar6,pVVar8->method);
+                    if (pIVar2 != (Interpolate_ToVector3_T__o *)0x0) {
+                      pIVar10 = method->klass->rgctx_data->_2_T;
+                      if (((pIVar10->_2).bitflags1 & 1) == 0) {
+                        pIVar10 = il2cpp_codegen_class_init_checked(pIVar10);
+                      }
+                      if (pIVar9 != (Il2CppObject *)0x0) {
+                        if ((pIVar9->klass->_1).element_class == (pIVar10->_1).element_class) {
+                          puVar11 = il2cpp_vm_Object_Unbox(pIVar9);
+                          fVar20 = *(float *)(puVar11 + 1);
+                          next.fields._0_8_ =
+                               (*(code *)(pIVar2->fields).invoke_impl)
+                                         ((int)*puVar11,(pIVar2->fields).method_code,(pIVar2->fields).method);
+                          UVar21.fields.z = UVar21.fields.z;
+                          UVar21.fields.x = (float)(int)uVar17;
+                          UVar21.fields.y = (float)(int)((ulong)uVar17 >> 0x20);
+                          start.fields.z = fVar18;
+                          start.fields.x = (float)(int)uVar4;
+                          start.fields.y = (float)(int)((ulong)uVar4 >> 0x20);
+                          next.fields.z = fVar20;
+                          end.fields.z = fVar19;
+                          end.fields.x = (float)(int)uVar3;
+                          end.fields.y = (float)(int)((ulong)uVar3 >> 0x20);
+                          UVar21 = Interpolate__CatmullRom
+                                             (UVar21,start,end,next,(float)(__this->fields)._step_5__9,
+                                              (float)(__this->fields)._stepCount_5__8,(MethodInfo *)0x0);
+                          UVar21.fields.z = UVar21.fields.z;
+                          uVar17 = UVar21.fields._0_8_;
+                          iVar6 = 2;
+                          goto label_04a506ee;
+                        }
+                        goto label_04a5070b;
                       }
                     }
                   }
@@ -2534,392 +3140,509 @@ label_181394654:
       }
     }
   }
-label_181394aef:
+label_04a502c9:
   ThrowNullReferenceException();
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$MoveNext
-// il2cpp: bool Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1393EE0* method);
-// 0x181393ee0
-// asm: 18 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x18139402e: nop 
-// asm:   0x181394505: mov rax, qword ptr [rdi + 0x20]
-// asm:   0x181394509: lea r9, [rbp + 0xc0]
-// asm:   0x181394510: mov qword ptr [rbp + 0xc0], r8
-// asm:   0x181394517: mov r8, rsi
-// asm:   0x18139451a: mov rcx, qword ptr [rax + 0xc0]
-// asm:   0x181394521: lea rax, [rbp + 0x30]
-// asm:   0x181394525: mov qword ptr [rsp + 0x20], rax
-// asm:   0x18139452a: mov r10, qword ptr [rcx + 0x18]
-// asm:   0x18139452e: mov rdx, r10
-// asm:   0x181394531: mov rcx, qword ptr [r10]
-// asm:   0x181394534: call qword ptr [r10 + 0x10]
-// asm:   0x181394538: movsd xmm0, qword ptr [rbp + 0x30]
-// asm:   0x18139453d: mov eax, dword ptr [rbp + 0x38]
-// asm:   0x181394540: movsd qword ptr [rbx + 0x14], xmm0
-// asm:   0x181394545: mov dword ptr [rbx + 0x1c], eax
-// asm:   0x181394548: mov dword ptr [rbx + 0x10], 1
-// asm:   0x18139454f: jmp 0x181394437
+// il2cpp: bool Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___MoveNext (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_49508D0* method);
+// 0x4a508d0
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x4a50b49: jmp 0x4a50c2a
+// asm:   0x4a50c33: jmp 0x4a510fd
+// asm:   0x4a50c80: jmp 0x4a50b2b
+// asm:   0x4a50ccc: nop dword ptr [rax]
+// asm:   0x4a50edd: nop dword ptr [rax]
 
 bool Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___MoveNext
-               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1393EE0 *method)
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_49508D0 *method)
 
 {
-  int32_t *piVar1;
-  int32_t iVar2;
-  int iVar3;
-  float fVar4;
-  Il2CppObject *pIVar5;
-  System_Collections_IList_o *pSVar6;
-  Interpolate_ToVector3_T__o *pIVar7;
-  Interpolate__NewCatmullRom_d__20_T__RGCTXs *pIVar8;
-  MethodInfo *pMVar9;
-  Il2CppMethodPointer pIVar10;
-  InvokerMethod pIVar11;
-  longlong lVar12;
-  longlong lVar13;
-  longlong lVar14;
-  longlong lVar15;
-  float fVar16;
-  undefined8 uVar17;
-  undefined8 uVar18;
-  undefined8 uVar19;
-  int iVar20;
-  ulonglong uVar21;
-  void *pvVar22;
-  undefined8 uVar23;
-  Il2CppClass *pIVar24;
-  undefined8 *puVar25;
-  UnityEngine_Vector3_o *pUVar26;
-  ulonglong uVar27;
-  undefined8 *local_res8;
-  longlong local_res10;
-  undefined8 auStack_100 [5];
-  longlong lStack_d8;
-  float afStack_d0 [4];
+  Il2CppRuntimeInterfaceOffsetPair *pIVar1;
+  MethodInfo *pMVar2;
+  Il2CppMethodPointer pIVar3;
+  Interpolate_ToVector3_T__o *pIVar4;
+  Interpolate__NewCatmullRom_d__20_T__RGCTXs *pIVar5;
+  InvokerMethod pIVar6;
+  long lVar7;
+  long lVar8;
+  long lVar9;
+  float fVar10;
+  MethodInfo_49508D0 *pMVar11;
+  char cVar12;
+  int32_t iVar13;
+  int iVar14;
+  ulong uVar15;
+  VirtualInvokeData *pVVar16;
+  Il2CppObject *pIVar17;
+  Il2CppClass *pIVar18;
+  undefined8 *puVar19;
+  long lVar20;
+  ulong uVar21;
+  int iVar22;
+  int iVar23;
+  int iVar24;
+  long lVar25;
+  long lVar26;
+  long lVar27;
+  float fVar28;
+  float fVar29;
+  UnityEngine_Vector3_o previous;
+  UnityEngine_Vector3_o UVar30;
+  UnityEngine_Vector3_o start;
+  UnityEngine_Vector3_o end;
   undefined8 uStack_c0;
-  UnityEngine_Vector3_Fields local_b8;
-  UnityEngine_Vector3_Fields local_a8;
-  UnityEngine_Vector3_Fields local_98;
-  UnityEngine_Vector3_Fields local_88;
-  UnityEngine_Vector3_o local_78 [5];
+  float afStack_b8 [2];
+  undefined8 uStack_b0;
+  long local_a8 [3];
+  undefined8 uStack_90;
+  long local_80;
+  long local_78;
+  undefined8 uStack_70;
+  float local_5c;
+  float local_58;
+  float local_54;
+  MethodInfo_49508D0 *local_50;
+  long local_48;
+  float local_40;
+  undefined8 *local_38;
   
-  if (g_data_184340d40 == '\0') {
-    auStack_100[0] = 0x181393f27;
+  if (g_data_0754162d == '\0') {
+    uStack_b0 = 0x4a508fc;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_ICollection);
-    auStack_100[0] = 0x181393f33;
+    uStack_b0 = 0x4a50908;
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IList);
-    g_data_184340d40 = '\x01';
+    g_data_0754162d = '\x01';
   }
-  uVar27 = (ulonglong)(method->klass->rgctx_data->_2_T->_2).stack_slot_size;
-  uVar21 = uVar27 + 0xf;
-  if (uVar21 <= uVar27) {
-    uVar21 = 0xffffffffffffff0;
-  }
-  auStack_100[0] = 0x181393f6e;
-  lVar12 = -(uVar21 & 0xfffffffffffffff0);
-  uVar21 = uVar27 + 0xf;
-  if (uVar21 <= uVar27) {
-    uVar21 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_100 + lVar12) = 0x181393f8b;
-  lVar13 = -(uVar21 & 0xfffffffffffffff0);
-  uVar21 = uVar27 + 0xf;
-  if (uVar21 <= uVar27) {
-    uVar21 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_100 + lVar13 + lVar12) = 0x181393fa8;
-  lVar14 = -(uVar21 & 0xfffffffffffffff0);
-  uVar21 = uVar27 + 0xf;
-  if (uVar21 <= uVar27) {
-    uVar21 = 0xffffffffffffff0;
-  }
-  *(undefined8 *)((longlong)auStack_100 + lVar14 + lVar13 + lVar12) = 0x181393fc5;
-  iVar20 = (__this->fields).__1__state;
-  lVar15 = -(uVar21 & 0xfffffffffffffff0);
-  local_res10 = (longlong)&local_b8 + lVar15 + lVar14 + lVar13 + lVar12;
-  if (iVar20 == 0) {
-    pIVar5 = (Il2CppObject *)(__this->fields).nodes;
+  uVar15 = (ulong)(method->klass->rgctx_data->_2_T->_2).stack_slot_size + 0xf & 0xfffffffffffffff0;
+  lVar27 = (long)local_a8 - uVar15;
+  lVar20 = (lVar27 - uVar15) - uVar15;
+  lVar26 = lVar20 - uVar15;
+  iVar14 = (__this->fields).__1__state;
+  local_50 = method;
+  if (iVar14 == 2) {
     (__this->fields).__1__state = -1;
-    if (pIVar5 != (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394485;
-      pvVar22 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar5);
-      if ((int)pvVar22 < 2) {
+    iVar14 = (__this->fields)._stepCount_5__8;
+    iVar23 = (__this->fields)._step_5__9 + 1;
+    (__this->fields)._step_5__9 = iVar23;
+    local_78 = lVar20;
+    goto label_04a50c65;
+  }
+  if (iVar14 == 1) {
+    (__this->fields).__1__state = -1;
+    pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+    local_78 = lVar20;
+    if (pIVar17 == (Il2CppObject *)0x0) goto label_04a510fd;
+    pIVar18 = pIVar17->klass;
+    uVar21 = (ulong)(pIVar18->_2).interface_offsets_count;
+    if (uVar21 != 0) {
+      pIVar1 = (pIVar18->_1).interfaceOffsets;
+      lVar25 = 0;
+      do {
+        if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar25) ==
+            TypeInfo_System_Collections_ICollection) {
+          pVVar16 = pIVar18->vtable + (*(int *)((long)&pIVar1->offset + lVar25) + 1);
+          goto label_04a50b05;
+        }
+        lVar25 = lVar25 + 0x10;
+      } while (uVar21 * 0x10 != lVar25);
+    }
+    *(undefined8 *)(lVar26 + -8) = 0x4a50a60;
+    pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_04a50b05:
+    pMVar2 = pVVar16->method;
+    pIVar3 = pVVar16->methodPtr;
+    *(undefined8 *)(lVar26 + -8) = 0x4a50b0e;
+    iVar13 = (*pIVar3)(pIVar17,pMVar2);
+    (__this->fields)._last_5__2 = iVar13 + -1;
+    (__this->fields)._current_5__3 = 0;
+    iVar23 = 0;
+    cVar12 = (__this->fields).loop;
+    iVar14 = (__this->fields)._last_5__2;
+    if ((bool)cVar12 != false) goto label_04a50bfa;
+label_04a50b2b:
+    if (iVar23 < iVar14) {
+      if (iVar23 != 0) goto label_04a50c13;
+      (__this->fields)._previous_5__4 = 0;
+      (__this->fields)._start_5__5 = 0;
+      iVar22 = 0;
+      if (iVar14 != 0) goto label_04a50c38;
+      do {
+        iVar14 = iVar22;
+        iVar23 = iVar14;
+        do {
+          if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_04a510fd;
+          while( true ) {
+            (__this->fields)._end_5__6 = iVar23;
+            iVar22 = 0;
+            if (cVar12 == '\0') {
+              iVar22 = iVar14;
+            }
+            if (iVar23 != iVar14) {
+              iVar22 = iVar23 + 1;
+            }
+            (__this->fields)._next_5__7 = iVar22;
+            iVar14 = (__this->fields).slices + 1;
+            (__this->fields)._stepCount_5__8 = iVar14;
+            (__this->fields)._step_5__9 = 1;
+            iVar23 = 1;
+label_04a50c65:
+            if (iVar23 <= iVar14) {
+              pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+              local_a8[2] = lVar27;
+              local_80 = lVar26;
+              if (pIVar17 == (Il2CppObject *)0x0) goto label_04a510fd;
+              pIVar4 = (__this->fields).toVector3;
+              iVar13 = (__this->fields)._previous_5__4;
+              pIVar18 = pIVar17->klass;
+              uVar21 = (ulong)(pIVar18->_2).interface_offsets_count;
+              if (uVar21 == 0) goto label_04a50cdf;
+              pIVar1 = (pIVar18->_1).interfaceOffsets;
+              lVar20 = 0;
+              goto label_04a50cd0;
+            }
+            iVar23 = (__this->fields)._current_5__3 + 1;
+            (__this->fields)._current_5__3 = iVar23;
+            cVar12 = (__this->fields).loop;
+            iVar14 = (__this->fields)._last_5__2;
+            if ((bool)cVar12 == false) goto label_04a50b2b;
+label_04a50bfa:
+            iVar24 = iVar14;
+            if (iVar14 < iVar23) {
+              (__this->fields)._current_5__3 = 0;
+              iVar22 = 0;
+            }
+            else {
+              iVar22 = 0;
+              if (iVar23 != 0) {
+label_04a50c13:
+                iVar24 = iVar23 + -1;
+                iVar22 = iVar23;
+              }
+            }
+            (__this->fields)._previous_5__4 = iVar24;
+            (__this->fields)._start_5__5 = iVar22;
+            if (iVar22 == iVar14) break;
+label_04a50c38:
+            iVar23 = iVar22 + 1;
+          }
+          iVar23 = 0;
+          iVar22 = iVar14;
+        } while (cVar12 != '\0');
+      } while( true );
+    }
+  }
+  else if (iVar14 == 0) {
+    (__this->fields).__1__state = -1;
+    pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar17 != (Il2CppObject *)0x0) {
+      pIVar18 = pIVar17->klass;
+      uVar15 = (ulong)(pIVar18->_2).interface_offsets_count;
+      if (uVar15 != 0) {
+        pIVar1 = (pIVar18->_1).interfaceOffsets;
+        lVar20 = 0;
+        do {
+          if (*(System_Collections_ICollection_c **)((long)&pIVar1->interfaceType + lVar20) ==
+              TypeInfo_System_Collections_ICollection) {
+            pVVar16 = pIVar18->vtable + (*(int *)((long)&pIVar1->offset + lVar20) + 1);
+            goto label_04a50a7f;
+          }
+          lVar20 = lVar20 + 0x10;
+        } while (uVar15 * 0x10 != lVar20);
+      }
+      *(undefined8 *)(lVar26 + -8) = 0x4a509d0;
+      pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_ICollection,1);
+label_04a50a7f:
+      pMVar2 = pVVar16->method;
+      pIVar3 = pVVar16->methodPtr;
+      *(undefined8 *)(lVar26 + -8) = 0x4a50a88;
+      iVar13 = (*pIVar3)(pIVar17,pMVar2);
+      if (iVar13 < 2) {
         return false;
       }
-      pSVar6 = (__this->fields).nodes;
-      if (pSVar6 != (System_Collections_IList_o *)0x0) {
-        pIVar7 = (__this->fields).toVector3;
-        *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813944b0;
-        uVar23 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar6,0);
-        pIVar24 = method->klass->rgctx_data->_2_T;
-        if (((pIVar24->_2).bitflags1 & 1) == 0) {
-          *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813944d3;
-          pIVar24 = il2cpp_codegen_class_init_checked(pIVar24);
+      pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+      if (pIVar17 != (Il2CppObject *)0x0) {
+        pIVar4 = (__this->fields).toVector3;
+        pIVar18 = pIVar17->klass;
+        uVar15 = (ulong)(pIVar18->_2).interface_offsets_count;
+        if (uVar15 != 0) {
+          pIVar1 = (pIVar18->_1).interfaceOffsets;
+          lVar20 = 0;
+          do {
+            if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar20) ==
+                TypeInfo_System_Collections_IList) {
+              pVVar16 = pIVar18->vtable + *(int *)((long)&pIVar1->offset + lVar20);
+              goto label_04a50b68;
+            }
+            lVar20 = lVar20 + 0x10;
+          } while (uVar15 * 0x10 != lVar20);
         }
-        *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813944e1;
-        puVar25 = (undefined8 *)il2cpp_runtime_helper_180416280(uVar23,pIVar24,(longlong)&local_b8 + lVar12);
-        if (pIVar7 != (Interpolate_ToVector3_T__o *)0x0) {
-          if (-1 < (int)(method->klass->rgctx_data->_2_T->_1).byval_arg.bits) {
-            puVar25 = (undefined8 *)*puVar25;
+        *(undefined8 *)(lVar26 + -8) = 0x4a50ae9;
+        pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50b68:
+        pMVar2 = pVVar16->method;
+        pIVar3 = pVVar16->methodPtr;
+        *(undefined8 *)(lVar26 + -8) = 0x4a50b73;
+        pIVar17 = (*pIVar3)(pIVar17,0,pMVar2);
+        pIVar18 = local_50->klass->rgctx_data->_2_T;
+        if (((pIVar18->_2).bitflags1 & 1) == 0) {
+          *(undefined8 *)(lVar26 + -8) = 0x4a50b9a;
+          pIVar18 = il2cpp_codegen_class_init_checked(pIVar18);
+        }
+        *(undefined8 *)(lVar26 + -8) = 0x4a50ba8;
+        puVar19 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar17,pIVar18,lVar27);
+        if (pIVar4 != (Interpolate_ToVector3_T__o *)0x0) {
+          pIVar5 = local_50->klass->rgctx_data;
+          pMVar2 = pIVar5->_3_Interpolate_ToVector3_T__Invoke;
+          pIVar3 = pMVar2->methodPointer;
+          if (-1 < (int)(pIVar5->_2_T->_1).byval_arg.bits) {
+            puVar19 = (undefined8 *)*puVar19;
           }
-          pIVar8 = method->klass->rgctx_data;
-          *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12) =
-               &local_88;
-          pMVar9 = pIVar8->_3_Interpolate_ToVector3_T__Invoke;
-          pIVar10 = pMVar9->methodPointer;
-          pIVar11 = pMVar9->invoker_method;
-          *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394538;
-          local_res8 = puVar25;
-          (*pIVar11)(pIVar10,pMVar9,pIVar7,&local_res8,
-                     *(void **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12));
-          (__this->fields).__2__current.fields.x = local_88.x;
-          (__this->fields).__2__current.fields.y = local_88.y;
-          (__this->fields).__2__current.fields.z = local_88.z;
-          (__this->fields).__1__state = 1;
+          pIVar6 = pMVar2->invoker_method;
+          local_38 = puVar19;
+          *(undefined8 *)(lVar26 + -8) = 0x4a50be6;
+          (*pIVar6)(pIVar3,pMVar2,pIVar4,&local_38,&local_48);
+          fVar28 = (float)local_48;
+          fVar29 = (float)((ulong)local_48 >> 0x20);
+          iVar13 = 1;
+label_04a510e0:
+          (__this->fields).__2__current.fields.x = fVar28;
+          (__this->fields).__2__current.fields.y = fVar29;
+          (__this->fields).__2__current.fields.z = local_40;
+          (__this->fields).__1__state = iVar13;
           return true;
         }
       }
     }
+    goto label_04a510fd;
   }
-  else if (iVar20 == 1) {
-    pIVar5 = (Il2CppObject *)(__this->fields).nodes;
-    (__this->fields).__1__state = -1;
-    if (pIVar5 != (Il2CppObject *)0x0) {
-      *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394026;
-      pvVar22 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_ICollection,pIVar5);
-      (__this->fields)._current_5__3 = 0;
-      (__this->fields)._last_5__2 = (int)pvVar22 + -1;
-      goto label_181394030;
+  return false;
+  while (lVar20 = lVar20 + 0x10, uVar21 * 0x10 != lVar20) {
+label_04a50cd0:
+    if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar20) ==
+        TypeInfo_System_Collections_IList) {
+      pVVar16 = pIVar18->vtable + *(int *)((long)&pIVar1->offset + lVar20);
+      goto label_04a50d01;
     }
   }
-  else {
-    if (iVar20 != 2) {
-      return false;
+label_04a50cdf:
+  *(undefined8 *)(lVar26 + -8) = 0x4a50ce9;
+  pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                      (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50d01:
+  pMVar2 = pVVar16->method;
+  pIVar3 = pVVar16->methodPtr;
+  *(undefined8 *)(lVar26 + -8) = 0x4a50d0d;
+  pIVar17 = (*pIVar3)(pIVar17,iVar13,pMVar2);
+  pIVar18 = local_50->klass->rgctx_data->_2_T;
+  if (((pIVar18->_2).bitflags1 & 1) == 0) {
+    *(undefined8 *)(lVar26 + -8) = 0x4a50d34;
+    pIVar18 = il2cpp_codegen_class_init_checked(pIVar18);
+  }
+  lVar20 = local_a8[2];
+  *(undefined8 *)(lVar26 + -8) = 0x4a50d46;
+  puVar19 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar17,pIVar18,lVar20);
+  if (pIVar4 != (Interpolate_ToVector3_T__o *)0x0) {
+    pIVar5 = local_50->klass->rgctx_data;
+    pMVar2 = pIVar5->_3_Interpolate_ToVector3_T__Invoke;
+    pIVar3 = pMVar2->methodPointer;
+    if (-1 < (int)(pIVar5->_2_T->_1).byval_arg.bits) {
+      puVar19 = (undefined8 *)*puVar19;
     }
-    piVar1 = &(__this->fields)._step_5__9;
-    *piVar1 = *piVar1 + 1;
-    (__this->fields).__1__state = -1;
-    while ((__this->fields)._stepCount_5__8 < (__this->fields)._step_5__9) {
-      piVar1 = &(__this->fields)._current_5__3;
-      *piVar1 = *piVar1 + 1;
-label_181394030:
-      if ((__this->fields).loop == false) {
-        if ((__this->fields)._last_5__2 <= (__this->fields)._current_5__3) {
-          return false;
-        }
-        if ((__this->fields).loop != false) goto label_181394044;
-      }
-      else {
-label_181394044:
-        if ((__this->fields)._last_5__2 < (__this->fields)._current_5__3) {
-          (__this->fields)._current_5__3 = 0;
-        }
-      }
-      if ((__this->fields)._current_5__3 == 0) {
-        if ((__this->fields).loop == false) {
-          iVar20 = (__this->fields)._current_5__3;
-        }
-        else {
-          iVar20 = (__this->fields)._last_5__2;
-        }
-      }
-      else {
-        iVar20 = (__this->fields)._current_5__3 + -1;
-      }
-      if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) goto label_181394554;
-      (__this->fields)._previous_5__4 = iVar20;
-      (__this->fields)._start_5__5 = (__this->fields)._current_5__3;
-      if ((__this->fields)._current_5__3 == (__this->fields)._last_5__2) {
-        if ((__this->fields).loop == false) {
-          iVar20 = (__this->fields)._current_5__3;
-        }
-        else {
-          iVar20 = 0;
-        }
-      }
-      else {
-        iVar20 = (__this->fields)._current_5__3 + 1;
-      }
-      (__this->fields)._end_5__6 = iVar20;
-      if ((__this->fields)._end_5__6 == (__this->fields)._last_5__2) {
-        if ((__this->fields).loop == false) {
-          iVar20 = (__this->fields)._end_5__6;
-        }
-        else {
-          iVar20 = 0;
-        }
-      }
-      else {
-        iVar20 = (__this->fields)._end_5__6 + 1;
-      }
-      (__this->fields)._next_5__7 = iVar20;
-      (__this->fields)._step_5__9 = 1;
-      (__this->fields)._stepCount_5__8 = (__this->fields).slices + 1;
-    }
-    pSVar6 = (__this->fields).nodes;
-    if (pSVar6 != (System_Collections_IList_o *)0x0) {
-      iVar2 = (__this->fields)._previous_5__4;
-      pIVar7 = (__this->fields).toVector3;
-      *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813940fb;
-      uVar23 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar6,iVar2);
-      pIVar24 = method->klass->rgctx_data->_2_T;
-      if (((pIVar24->_2).bitflags1 & 1) == 0) {
-        *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139411e;
-        pIVar24 = il2cpp_codegen_class_init_checked(pIVar24);
-      }
-      *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139412c;
-      puVar25 = (undefined8 *)il2cpp_runtime_helper_180416280(uVar23,pIVar24,(longlong)&local_b8 + lVar12);
-      if (pIVar7 != (Interpolate_ToVector3_T__o *)0x0) {
-        if (-1 < (int)(method->klass->rgctx_data->_2_T->_1).byval_arg.bits) {
-          puVar25 = (undefined8 *)*puVar25;
-        }
-        pIVar8 = method->klass->rgctx_data;
-        *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12) = &local_b8
-        ;
-        pMVar9 = pIVar8->_3_Interpolate_ToVector3_T__Invoke;
-        pIVar10 = pMVar9->methodPointer;
-        pIVar11 = pMVar9->invoker_method;
-        *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394187;
-        local_res8 = puVar25;
-        (*pIVar11)(pIVar10,pMVar9,pIVar7,&local_res8,
-                   *(void **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12));
-        pSVar6 = (__this->fields).nodes;
-        if (pSVar6 != (System_Collections_IList_o *)0x0) {
-          iVar2 = (__this->fields)._start_5__5;
-          pIVar7 = (__this->fields).toVector3;
-          *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813941aa;
-          uVar23 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar6,iVar2);
-          pIVar24 = method->klass->rgctx_data->_2_T;
-          if (((pIVar24->_2).bitflags1 & 1) == 0) {
-            *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813941cd;
-            pIVar24 = il2cpp_codegen_class_init_checked(pIVar24);
+    pIVar6 = pMVar2->invoker_method;
+    local_38 = puVar19;
+    *(undefined8 *)(lVar26 + -8) = 0x4a50d85;
+    (*pIVar6)(pIVar3,pMVar2,pIVar4,&local_38,&local_48);
+    pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+    if (pIVar17 != (Il2CppObject *)0x0) {
+      local_a8[2] = local_48;
+      uStack_90 = 0;
+      local_5c = local_40;
+      pIVar4 = (__this->fields).toVector3;
+      iVar13 = (__this->fields)._start_5__5;
+      pIVar18 = pIVar17->klass;
+      uVar21 = (ulong)(pIVar18->_2).interface_offsets_count;
+      if (uVar21 != 0) {
+        pIVar1 = (pIVar18->_1).interfaceOffsets;
+        lVar20 = 0;
+        do {
+          if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar20) ==
+              TypeInfo_System_Collections_IList) {
+            pVVar16 = pIVar18->vtable + *(int *)((long)&pIVar1->offset + lVar20);
+            goto label_04a50e11;
           }
-          *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813941db;
-          puVar25 = (undefined8 *)il2cpp_runtime_helper_180416280(uVar23,pIVar24,(longlong)&local_b8 + lVar13 + lVar12);
-          if (pIVar7 != (Interpolate_ToVector3_T__o *)0x0) {
-            if (-1 < (int)(method->klass->rgctx_data->_2_T->_1).byval_arg.bits) {
-              puVar25 = (undefined8 *)*puVar25;
-            }
-            pIVar8 = method->klass->rgctx_data;
-            *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12) =
-                 &local_a8;
-            pMVar9 = pIVar8->_3_Interpolate_ToVector3_T__Invoke;
-            pIVar10 = pMVar9->methodPointer;
-            pIVar11 = pMVar9->invoker_method;
-            *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394236;
-            local_res8 = puVar25;
-            (*pIVar11)(pIVar10,pMVar9,pIVar7,&local_res8,
-                       *(void **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12));
-            pSVar6 = (__this->fields).nodes;
-            if (pSVar6 != (System_Collections_IList_o *)0x0) {
-              iVar2 = (__this->fields)._end_5__6;
-              pIVar7 = (__this->fields).toVector3;
-              *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394259;
-              uVar23 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar6,iVar2);
-              pIVar24 = method->klass->rgctx_data->_2_T;
-              if (((pIVar24->_2).bitflags1 & 1) == 0) {
-                *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139427c;
-                pIVar24 = il2cpp_codegen_class_init_checked(pIVar24);
+          lVar20 = lVar20 + 0x10;
+        } while (uVar21 * 0x10 != lVar20);
+      }
+      *(undefined8 *)(lVar26 + -8) = 0x4a50df9;
+      pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                          (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50e11:
+      pMVar2 = pVVar16->method;
+      pIVar3 = pVVar16->methodPtr;
+      *(undefined8 *)(lVar26 + -8) = 0x4a50e1d;
+      pIVar17 = (*pIVar3)(pIVar17,iVar13,pMVar2);
+      pMVar11 = local_50;
+      pIVar18 = local_50->klass->rgctx_data->_2_T;
+      if (((pIVar18->_2).bitflags1 & 1) == 0) {
+        *(undefined8 *)(lVar26 + -8) = 0x4a50e44;
+        pIVar18 = il2cpp_codegen_class_init_checked(pIVar18);
+      }
+      *(undefined8 *)(lVar26 + -8) = 0x4a50e52;
+      puVar19 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar17,pIVar18,lVar27 - uVar15);
+      if (pIVar4 != (Interpolate_ToVector3_T__o *)0x0) {
+        pIVar5 = pMVar11->klass->rgctx_data;
+        pMVar2 = pIVar5->_3_Interpolate_ToVector3_T__Invoke;
+        pIVar3 = pMVar2->methodPointer;
+        if (-1 < (int)(pIVar5->_2_T->_1).byval_arg.bits) {
+          puVar19 = (undefined8 *)*puVar19;
+        }
+        pIVar6 = pMVar2->invoker_method;
+        local_38 = puVar19;
+        *(undefined8 *)(lVar26 + -8) = 0x4a50e8c;
+        (*pIVar6)(pIVar3,pMVar2,pIVar4,&local_38,&local_48);
+        pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+        if (pIVar17 != (Il2CppObject *)0x0) {
+          local_a8[0] = local_48;
+          local_a8[1] = 0;
+          local_58 = local_40;
+          pIVar4 = (__this->fields).toVector3;
+          iVar13 = (__this->fields)._end_5__6;
+          pIVar18 = pIVar17->klass;
+          uVar15 = (ulong)(pIVar18->_2).interface_offsets_count;
+          if (uVar15 != 0) {
+            pIVar1 = (pIVar18->_1).interfaceOffsets;
+            lVar20 = 0;
+            do {
+              if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar20) ==
+                  TypeInfo_System_Collections_IList) {
+                pVVar16 = pIVar18->vtable + *(int *)((long)&pIVar1->offset + lVar20);
+                goto label_04a50f11;
               }
-              *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139428a;
-              puVar25 = (undefined8 *)
-                        il2cpp_runtime_helper_180416280(uVar23,pIVar24,(longlong)&local_b8 + lVar14 + lVar13 + lVar12);
-              if (pIVar7 != (Interpolate_ToVector3_T__o *)0x0) {
-                if (-1 < (int)(method->klass->rgctx_data->_2_T->_1).byval_arg.bits) {
-                  puVar25 = (undefined8 *)*puVar25;
-                }
-                pIVar8 = method->klass->rgctx_data;
-                *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12) =
-                     &local_98;
-                pMVar9 = pIVar8->_3_Interpolate_ToVector3_T__Invoke;
-                pIVar10 = pMVar9->methodPointer;
-                pIVar11 = pMVar9->invoker_method;
-                *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813942e5;
-                local_res8 = puVar25;
-                (*pIVar11)(pIVar10,pMVar9,pIVar7,&local_res8,
-                           *(void **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12));
-                pSVar6 = (__this->fields).nodes;
-                if (pSVar6 != (System_Collections_IList_o *)0x0) {
-                  iVar2 = (__this->fields)._next_5__7;
-                  pIVar7 = (__this->fields).toVector3;
-                  *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394308;
-                  uVar23 = il2cpp_runtime_helper_180026600(0,TypeInfo_System_Collections_IList,pSVar6,iVar2);
-                  pIVar24 = method->klass->rgctx_data->_2_T;
-                  if (((pIVar24->_2).bitflags1 & 1) == 0) {
-                    *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139432b;
-                    pIVar24 = il2cpp_codegen_class_init_checked(pIVar24);
+              lVar20 = lVar20 + 0x10;
+            } while (uVar15 * 0x10 != lVar20);
+          }
+          *(undefined8 *)(lVar26 + -8) = 0x4a50ef9;
+          pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                              (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a50f11:
+          pMVar2 = pVVar16->method;
+          pIVar3 = pVVar16->methodPtr;
+          *(undefined8 *)(lVar26 + -8) = 0x4a50f1d;
+          pIVar17 = (*pIVar3)(pIVar17,iVar13,pMVar2);
+          pIVar18 = pMVar11->klass->rgctx_data->_2_T;
+          if (((pIVar18->_2).bitflags1 & 1) == 0) {
+            *(undefined8 *)(lVar26 + -8) = 0x4a50f40;
+            pIVar18 = il2cpp_codegen_class_init_checked(pIVar18);
+          }
+          lVar20 = local_78;
+          *(undefined8 *)(lVar26 + -8) = 0x4a50f4f;
+          puVar19 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar17,pIVar18,lVar20);
+          if (pIVar4 != (Interpolate_ToVector3_T__o *)0x0) {
+            pIVar5 = pMVar11->klass->rgctx_data;
+            pMVar2 = pIVar5->_3_Interpolate_ToVector3_T__Invoke;
+            pIVar3 = pMVar2->methodPointer;
+            if (-1 < (int)(pIVar5->_2_T->_1).byval_arg.bits) {
+              puVar19 = (undefined8 *)*puVar19;
+            }
+            pIVar6 = pMVar2->invoker_method;
+            local_38 = puVar19;
+            *(undefined8 *)(lVar26 + -8) = 0x4a50f89;
+            (*pIVar6)(pIVar3,pMVar2,pIVar4,&local_38,&local_48);
+            pIVar17 = (Il2CppObject *)(__this->fields).nodes;
+            if (pIVar17 != (Il2CppObject *)0x0) {
+              local_78 = local_48;
+              uStack_70 = 0;
+              local_54 = local_40;
+              pIVar4 = (__this->fields).toVector3;
+              iVar13 = (__this->fields)._next_5__7;
+              pIVar18 = pIVar17->klass;
+              uVar15 = (ulong)(pIVar18->_2).interface_offsets_count;
+              if (uVar15 != 0) {
+                pIVar1 = (pIVar18->_1).interfaceOffsets;
+                lVar20 = 0;
+                do {
+                  if (*(System_Collections_IList_c **)((long)&pIVar1->interfaceType + lVar20) ==
+                      TypeInfo_System_Collections_IList) {
+                    pVVar16 = pIVar18->vtable + *(int *)((long)&pIVar1->offset + lVar20);
+                    goto label_04a51011;
                   }
-                  *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x18139433d;
-                  puVar25 = (undefined8 *)il2cpp_runtime_helper_180416280(uVar23,pIVar24,local_res10);
-                  fVar16 = local_98.z;
-                  uVar18 = local_98._0_8_;
-                  fVar4 = local_a8.z;
-                  uVar17 = local_a8._0_8_;
-                  local_88.z = local_b8.z;
-                  uVar23 = local_b8._0_8_;
-                  if (pIVar7 != (Interpolate_ToVector3_T__o *)0x0) {
-                    if (-1 < (int)(method->klass->rgctx_data->_2_T->_1).byval_arg.bits) {
-                      puVar25 = (undefined8 *)*puVar25;
-                    }
-                    pIVar8 = method->klass->rgctx_data;
-                    *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12)
-                         = &local_98;
-                    pMVar9 = pIVar8->_3_Interpolate_ToVector3_T__Invoke;
-                    pIVar10 = pMVar9->methodPointer;
-                    pIVar11 = pMVar9->invoker_method;
-                    *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x1813943b3;
-                    local_res8 = puVar25;
-                    (*pIVar11)(pIVar10,pMVar9,pIVar7,&local_res8,
-                               *(void **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12));
-                    iVar20 = (__this->fields)._step_5__9;
-                    iVar3 = (__this->fields)._stepCount_5__8;
-                    *(undefined8 *)((longlong)&uStack_c0 + lVar15 + lVar14 + lVar13 + lVar12) = 0;
-                    local_a8.z = fVar16;
-                    local_b8.z = fVar4;
-                    *(float *)((longlong)afStack_d0 + lVar15 + lVar14 + lVar13 + lVar12 + 8) = (float)iVar3;
-                    *(float *)((longlong)afStack_d0 + lVar15 + lVar14 + lVar13 + lVar12) = (float)iVar20;
-                    *(UnityEngine_Vector3_Fields **)((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12)
-                         = &local_98;
-                    uVar19 = local_98._0_8_;
-                    local_98.x = (float)uVar18;
-                    local_98.y = SUB84(uVar18,4);
-                    local_a8.x = local_98.x;
-                    local_a8.y = local_98.y;
-                    uVar18 = local_a8._0_8_;
-                    local_a8.x = (float)uVar17;
-                    local_a8.y = SUB84(uVar17,4);
-                    local_b8.x = local_a8.x;
-                    local_b8.y = local_a8.y;
-                    uVar17 = local_b8._0_8_;
-                    local_b8.x = (float)uVar23;
-                    local_b8.y = SUB84(uVar23,4);
-                    local_88.x = local_b8.x;
-                    local_88.y = local_b8.y;
-                    local_b8._0_8_ = uVar17;
-                    local_a8._0_8_ = uVar18;
-                    local_98._0_8_ = uVar19;
-                    *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394421;
-                    pUVar26 = Interpolate__CatmullRom
-                                        (local_78,(UnityEngine_Vector3_o *)&local_88,
-                                         (UnityEngine_Vector3_o *)&local_b8,(UnityEngine_Vector3_o *)&local_a8
-                                         ,*(UnityEngine_Vector3_o **)
-                                           ((longlong)&lStack_d8 + lVar15 + lVar14 + lVar13 + lVar12),
-                                         *(float *)((longlong)afStack_d0 + lVar15 + lVar14 + lVar13 + lVar12),
-                                         *(float *)((longlong)afStack_d0 +
-                                                   lVar15 + lVar14 + lVar13 + lVar12 + 8),
-                                         *(MethodInfo **)
-                                          ((longlong)&uStack_c0 + lVar15 + lVar14 + lVar13 + lVar12));
-                    fVar16 = (pUVar26->fields).y;
-                    fVar4 = (pUVar26->fields).z;
-                    (__this->fields).__2__current.fields.x = (pUVar26->fields).x;
-                    (__this->fields).__2__current.fields.y = fVar16;
-                    (__this->fields).__2__current.fields.z = fVar4;
-                    (__this->fields).__1__state = 2;
-                    return true;
-                  }
+                  lVar20 = lVar20 + 0x10;
+                } while (uVar15 * 0x10 != lVar20);
+              }
+              *(undefined8 *)(lVar26 + -8) = 0x4a50ff9;
+              pVVar16 = GetInterfaceInvokeDataFromVTableSlowPath
+                                  (pIVar17,(Il2CppClass *)TypeInfo_System_Collections_IList,0);
+label_04a51011:
+              pMVar2 = pVVar16->method;
+              pIVar3 = pVVar16->methodPtr;
+              *(undefined8 *)(lVar26 + -8) = 0x4a5101d;
+              pIVar17 = (*pIVar3)(pIVar17,iVar13,pMVar2);
+              pIVar18 = pMVar11->klass->rgctx_data->_2_T;
+              if (((pIVar18->_2).bitflags1 & 1) == 0) {
+                *(undefined8 *)(lVar26 + -8) = 0x4a51040;
+                pIVar18 = il2cpp_codegen_class_init_checked(pIVar18);
+              }
+              lVar20 = local_80;
+              *(undefined8 *)(lVar26 + -8) = 0x4a5104f;
+              puVar19 = (undefined8 *)il2cpp_runtime_helper_030d6290(pIVar17,pIVar18,lVar20);
+              if (pIVar4 != (Interpolate_ToVector3_T__o *)0x0) {
+                pIVar5 = pMVar11->klass->rgctx_data;
+                pMVar2 = pIVar5->_3_Interpolate_ToVector3_T__Invoke;
+                pIVar3 = pMVar2->methodPointer;
+                if (-1 < (int)(pIVar5->_2_T->_1).byval_arg.bits) {
+                  puVar19 = (undefined8 *)*puVar19;
                 }
+                pIVar6 = pMVar2->invoker_method;
+                local_38 = puVar19;
+                *(undefined8 *)(lVar26 + -8) = 0x4a51089;
+                (*pIVar6)(pIVar3,pMVar2,pIVar4,&local_38,&local_48);
+                iVar14 = (__this->fields)._step_5__9;
+                UVar30.fields.z = local_40;
+                UVar30.fields.x = (float)(undefined4)local_48;
+                UVar30.fields.y = (float)local_48._4_4_;
+                *(float *)(lVar26 + -8) = (float)(__this->fields)._stepCount_5__8;
+                *(float *)(lVar26 + -0x10) = (float)iVar14;
+                fVar10 = local_54;
+                fVar29 = local_58;
+                fVar28 = local_5c;
+                lVar8 = local_78;
+                lVar25 = local_a8[2];
+                lVar20 = local_a8[0];
+                *(undefined8 *)(lVar26 + -0x18) = 0x4a510d7;
+                lVar9 = local_78;
+                lVar7 = local_a8[2];
+                lVar27 = local_a8[0];
+                previous.fields.z = fVar28;
+                local_a8[2]._0_4_ = (undefined4)lVar25;
+                local_a8[2]._4_4_ = SUB84(lVar25,4);
+                previous.fields.x = (float)(undefined4)local_a8[2];
+                previous.fields.y = (float)local_a8[2]._4_4_;
+                start.fields.z = fVar29;
+                local_a8[0]._0_4_ = (undefined4)lVar20;
+                local_a8[0]._4_4_ = SUB84(lVar20,4);
+                start.fields.x = (float)(undefined4)local_a8[0];
+                start.fields.y = (float)local_a8[0]._4_4_;
+                end.fields.z = fVar10;
+                local_78._0_4_ = (undefined4)lVar8;
+                local_78._4_4_ = SUB84(lVar8,4);
+                end.fields.x = (float)(undefined4)local_78;
+                end.fields.y = (float)local_78._4_4_;
+                local_a8[0] = lVar27;
+                local_a8[2] = lVar7;
+                local_78 = lVar9;
+                UVar30 = Interpolate__CatmullRom
+                                   (previous,start,end,UVar30,*(float *)(lVar26 + -0x10),
+                                    *(float *)(lVar26 + -8),(MethodInfo *)0x0);
+                local_40 = UVar30.fields.z;
+                fVar28 = UVar30.fields.x;
+                fVar29 = UVar30.fields.y;
+                iVar13 = 2;
+                goto label_04a510e0;
               }
             }
           }
@@ -2927,81 +3650,57 @@ label_181394044:
       }
     }
   }
-label_181394554:
-  *(undefined8 *)((longlong)auStack_100 + lVar15 + lVar14 + lVar13 + lVar12) = 0x181394559;
+label_04a510fd:
+  *(undefined8 *)(lVar26 + -8) = 0x4a51102;
   ThrowNullReferenceException();
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465ED50* method);
+// 0x475ed50
 
 UnityEngine_Vector3_o
-Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465ED50 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4950720* method);
+// 0x4a50720
 
 UnityEngine_Vector3_o
-Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4950720 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current
-// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_11673B0* method);
-// 0x1811673b0
+// il2cpp: UnityEngine_Vector3_o Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4951110* method);
+// 0x4a51110
 
 UnityEngine_Vector3_o
-Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_11673B0* method)
+Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerator_UnityEngine_Vector3__get_Current
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4951110 *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  
-  iVar2 = *(int32_t *)((longlong)&(__this->fields).nodes + 4);
-  uVar1 = *(undefined8 *)&(__this->fields).field_0x14;
-  (__return_storage_ptr__->fields).valid = (bool)(char)uVar1;
-  *(int3 *)&(__return_storage_ptr__->fields).field_0x1 = (int3)((ulonglong)uVar1 >> 8);
-  (__return_storage_ptr__->fields).lastUsedFrameIndex = (int)((ulonglong)uVar1 >> 0x20);
-  (__return_storage_ptr__->fields).viewInstanceID = iVar2;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)(__this->fields).__2__current.fields;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465ED60* method);
+// 0x475ed60
 
-void
-Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_Reset(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_Reset
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465ED60 *method)
 
 {
   Il2CppClass *klass;
@@ -3015,11 +3714,11 @@ Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_Reset(I
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4950730* method);
+// 0x4a50730
 
-void
-Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_Reset(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_Reset
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4950730 *method)
 
 {
   Il2CppClass *klass;
@@ -3033,11 +3732,11 @@ Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_Reset(
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerator.Reset
-// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_8E2830* method);
-// 0x1808e2830
+// il2cpp: void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4951120* method);
+// 0x4a51120
 
-void
-Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_8E2830* method)
+void Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_Reset
+               (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4951120 *method)
 
 {
   Il2CppClass *klass;
@@ -3051,102 +3750,101 @@ Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collect
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1167F40* method);
-// 0x181167f40
+// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465EDA0* method);
+// 0x475eda0
 
 Il2CppObject *
 Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1167F40 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465EDA0 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_184340820 == '\0') {
+  if (Il2CppMethodInitialized_07541076 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_184340820 = '\x01';
+    Il2CppMethodInitialized_07541076 = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1394C50* method);
-// 0x181394c50
+// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4950770* method);
+// 0x4a50770
 
 Il2CppObject *
 Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1394C50 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4950770 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_184340d3f == '\0') {
+  if (Il2CppMethodInitialized_0754162c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_184340d3f = '\x01';
+    Il2CppMethodInitialized_0754162c = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1394C00* method);
-// 0x181394c00
+// il2cpp: Il2CppObject* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4951160* method);
+// 0x4a51160
 
 Il2CppObject *
 Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerator_get_Current
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1394C00 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4951160 *method)
 
 {
   Il2CppObject *pIVar1;
   undefined8 local_18;
   float local_10;
   
-  if (Il2CppMethodInitialized_184340d41 == '\0') {
+  if (Il2CppMethodInitialized_0754162e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_184340d41 = '\x01';
+    Il2CppMethodInitialized_0754162e = '\x01';
   }
+  local_10 = (__this->fields).__2__current.fields.z;
   local_18._0_4_ = (__this->fields).__2__current.fields.x;
   local_18._4_4_ = (__this->fields).__2__current.fields.y;
-  local_10 = (__this->fields).__2__current.fields.z;
-  pIVar1 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
+  pIVar1 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_18);
   return pIVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1167D90* method);
-// 0x181167d90
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465EDF0* method);
+// 0x475edf0
 
-System_Collections_Generic_IEnumerator_Vector3__o*
-Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_1167D90* method)
+System_Collections_Generic_IEnumerator_Vector3__o *
+Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465EDF0 *method)
 
 {
   int iVar1;
-  System_Collections_IList_o *value;
-  Interpolate_ToVector3_T__o *value_00;
   int32_t iVar2;
   Il2CppClass *klass;
   Interpolate__NewCatmullRom_d__20_T__o *__this_00;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181167e0a;
+      goto label_0475ee5e;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
@@ -3154,50 +3852,42 @@ Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   __this_00 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181167e0a:
-  if (__this_00 != (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
-    value = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value);
-    value_00 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_00);
-    (__this_00->fields).slices = (__this->fields).__3__slices;
-    (__this_00->fields).loop = (__this->fields).__3__loop;
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0475ee5e:
+  (__this_00->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes);
+  (__this_00->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3);
+  (__this_00->fields).slices = (__this->fields).__3__slices;
+  (__this_00->fields).loop = (__this->fields).__3__loop;
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1167D90* method);
-// 0x181167d90
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_49507C0* method);
+// 0x4a507c0
 
 System_Collections_Generic_IEnumerator_Vector3__o *
 Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1167D90 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_49507C0 *method)
 
 {
   int iVar1;
-  System_Collections_IList_o *value;
-  Interpolate_ToVector3_T__o *value_00;
   int32_t iVar2;
   Il2CppClass *klass;
   Interpolate__NewCatmullRom_d__20_T__o *__this_00;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181167e0a;
+      goto label_04a5082e;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
@@ -3205,218 +3895,136 @@ Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerabl
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   __this_00 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181167e0a:
-  if (__this_00 != (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
-    value = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value);
-    value_00 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_00);
-    (__this_00->fields).slices = (__this->fields).__3__slices;
-    (__this_00->fields).loop = (__this->fields).__3__loop;
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_04a5082e:
+  (__this_00->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes);
+  (__this_00->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3);
+  (__this_00->fields).slices = (__this->fields).__3__slices;
+  (__this_00->fields).loop = (__this->fields).__3__loop;
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)__this_00;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
-// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1394B30* method);
-// 0x181394b30
+// il2cpp: System_Collections_Generic_IEnumerator_Vector3__o* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_49511B0* method);
+// 0x4a511b0
 
 System_Collections_Generic_IEnumerator_Vector3__o *
 Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1394B30 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_49511B0 *method)
 
 {
   int iVar1;
-  MethodInfo *pMVar2;
-  System_Collections_IList_o *value;
-  Interpolate_ToVector3_T__o *value_00;
-  int32_t iVar3;
+  int32_t iVar2;
   Il2CppClass *klass;
-  Interpolate__NewCatmullRom_d__20_T__o *pIVar4;
+  Interpolate__NewCatmullRom_d__20_T__o *pIVar3;
   
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+    if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
-      pIVar4 = __this;
-      goto label_181394ba8;
+      pIVar3 = __this;
+      goto label_04a5121f;
     }
   }
   klass = method->klass->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
   if (((klass->_2).bitflags1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  pIVar4 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
-  pMVar2 = method->klass->rgctx_data->_4_Interpolate__NewCatmullRom_d__20_T___ctor;
-  (*pMVar2->methodPointer)(pIVar4,0,pMVar2);
-label_181394ba8:
-  if (pIVar4 != (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
-    value = (__this->fields).__3__nodes;
-    (pIVar4->fields).nodes = value;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).nodes,value);
-    value_00 = (__this->fields).__3__toVector3;
-    (pIVar4->fields).toVector3 = value_00;
-    Il2CppCodeGenWriteBarrier(&(pIVar4->fields).toVector3,value_00);
-    (pIVar4->fields).slices = (__this->fields).__3__slices;
-    (pIVar4->fields).loop = (__this->fields).__3__loop;
-    return (System_Collections_Generic_IEnumerator_Vector3__o *)pIVar4;
+  pIVar3 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
+  (*method->klass->rgctx_data->_4_Interpolate__NewCatmullRom_d__20_T___ctor->methodPointer)(pIVar3,0);
+  if (pIVar3 == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+label_04a5121f:
+  (pIVar3->fields).nodes = (__this->fields).__3__nodes;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).nodes);
+  (pIVar3->fields).toVector3 = (__this->fields).__3__toVector3;
+  Il2CppCodeGenWriteBarrier(&(pIVar3->fields).toVector3);
+  (pIVar3->fields).slices = (__this->fields).__3__slices;
+  (pIVar3->fields).loop = (__this->fields).__3__loop;
+  return (System_Collections_Generic_IEnumerator_Vector3__o *)pIVar3;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<object>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1167E60* method);
-// 0x181167e60
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_465EEA0* method);
+// 0x475eea0
 
-System_Collections_IEnumerator_o*
-Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerable_GetEnumerator(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_1167E60* method)
+System_Collections_IEnumerator_o *
+Interpolate__NewCatmullRom_d__20_object___System_Collections_IEnumerable_GetEnumerator
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_465EEA0 *method)
 
 {
-  int iVar1;
-  MethodInfo *pMVar2;
-  System_Collections_IList_o *value;
-  Interpolate_ToVector3_T__o *value_00;
-  int32_t iVar3;
-  Il2CppClass *klass;
-  Interpolate__NewCatmullRom_d__20_T__o *__this_00;
+  System_Collections_Generic_IEnumerator_Vector3__o *pSVar1;
   
-  pMVar2 = method->klass->rgctx_data->
-           _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  if ((__this->fields).__1__state == -2) {
-    iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
-      (__this->fields).__1__state = 0;
-      __this_00 = __this;
-      goto label_181167ee6;
-    }
-  }
-  klass = pMVar2->klass->rgctx_data->klass;
-  if (((klass->_2).bitflags1 & 1) == 0) {
-    klass = il2cpp_codegen_class_init_checked(klass);
-  }
-  __this_00 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (__this_00->fields).__l__initialThreadId = iVar3;
-label_181167ee6:
-  if (__this_00 != (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
-    value = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value);
-    value_00 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_00);
-    (__this_00->fields).slices = (__this->fields).__3__slices;
-    (__this_00->fields).loop = (__this->fields).__3__loop;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+  pSVar1 = Interpolate__NewCatmullRom_d__20_object___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     (__this,(MethodInfo_465EDF0 *)
+                             method->klass->rgctx_data->
+                             _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     );
+  return (System_Collections_IEnumerator_o *)pSVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<Vector3>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_1167E60* method);
-// 0x181167e60
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4950870* method);
+// 0x4a50870
 
 System_Collections_IEnumerator_o *
 Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_IEnumerable_GetEnumerator
-          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_1167E60 *method)
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4950870 *method)
 
 {
-  int iVar1;
-  MethodInfo *pMVar2;
-  System_Collections_IList_o *value;
-  Interpolate_ToVector3_T__o *value_00;
-  int32_t iVar3;
-  Il2CppClass *klass;
-  Interpolate__NewCatmullRom_d__20_T__o *__this_00;
+  System_Collections_Generic_IEnumerator_Vector3__o *pSVar1;
   
-  pMVar2 = method->klass->rgctx_data->
-           _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  if ((__this->fields).__1__state == -2) {
-    iVar1 = (__this->fields).__l__initialThreadId;
-    iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-    if (iVar1 == iVar3) {
-      (__this->fields).__1__state = 0;
-      __this_00 = __this;
-      goto label_181167ee6;
-    }
-  }
-  klass = pMVar2->klass->rgctx_data->klass;
-  if (((klass->_2).bitflags1 & 1) == 0) {
-    klass = il2cpp_codegen_class_init_checked(klass);
-  }
-  __this_00 = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
-  System_Configuration_ConfigurationCollectionAttribute___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields).__1__state = 0;
-  iVar3 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (__this_00->fields).__l__initialThreadId = iVar3;
-label_181167ee6:
-  if (__this_00 != (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
-    value = (__this->fields).__3__nodes;
-    (__this_00->fields).nodes = value;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).nodes,value);
-    value_00 = (__this->fields).__3__toVector3;
-    (__this_00->fields).toVector3 = value_00;
-    Il2CppCodeGenWriteBarrier(&(__this_00->fields).toVector3,value_00);
-    (__this_00->fields).slices = (__this->fields).__3__slices;
-    (__this_00->fields).loop = (__this->fields).__3__loop;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+  pSVar1 = Interpolate__NewCatmullRom_d__20_Vector3___System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     (__this,(MethodInfo_49507C0 *)
+                             method->klass->rgctx_data->
+                             _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+                     );
+  return (System_Collections_IEnumerator_o *)pSVar1;
 }
 
 
 // Interpolate.<NewCatmullRom>d__20<__Il2CppFullySharedGenericType>$$System.Collections.IEnumerable.GetEnumerator
-// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_11616C0* method);
-// 0x1811616c0
+// il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCatmullRom_d__20_T__o* __this, const MethodInfo_4951260* method);
+// 0x4a51260
 
-System_Collections_IEnumerator_o*
-Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator(Interpolate__NewCatmullRom_d__20_T__o* __this, MethodInfo_11616C0* method)
+System_Collections_IEnumerator_o *
+Interpolate__NewCatmullRom_d__20___Il2CppFullySharedGenericType___System_Collections_IEnumerable_GetEnumerator
+          (Interpolate__NewCatmullRom_d__20_T__o *__this,MethodInfo_4951260 *method)
 
 {
-  MethodInfo *pMVar1;
-  System_Collections_IEnumerator_o *pSVar2;
+  System_Collections_IEnumerator_o *pSVar1;
   
-  pMVar1 = method->klass->rgctx_data->
-           _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
-  ;
-  pSVar2 = (System_Collections_IEnumerator_o *)(*pMVar1->methodPointer)(__this,pMVar1);
-  return pSVar2;
+  pSVar1 = (System_Collections_IEnumerator_o *)
+           (*method->klass->rgctx_data->
+             _5_Interpolate__NewCatmullRom_d__20_T__System_Collections_Generic_IEnumerable_UnityEngine_Vector3__GetEnumerator
+             ->methodPointer)();
+  return pSVar1;
 }
 
 
 // Interpolate.<NewCounter>d__6$$.ctor
 // il2cpp: void Interpolate__NewCounter_d__6___ctor (Interpolate__NewCounter_d__6_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x1808e81f0
+// 0x58495f0
 
-void
-Interpolate__NewCounter_d__6___ctor(Interpolate__NewCounter_d__6_o* __this, int32_t __1__state, MethodInfo* method)
+void Interpolate__NewCounter_d__6___ctor
+               (Interpolate__NewCounter_d__6_o *__this,int32_t __1__state,MethodInfo *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
@@ -3424,10 +4032,10 @@ Interpolate__NewCounter_d__6___ctor(Interpolate__NewCounter_d__6_o* __this, int3
 
 // Interpolate.<NewCounter>d__6$$System.IDisposable.Dispose
 // il2cpp: void Interpolate__NewCounter_d__6__System_IDisposable_Dispose (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x584af30
 
-void
-Interpolate__NewCounter_d__6__System_IDisposable_Dispose(Interpolate__NewCounter_d__6_o* __this, MethodInfo* method)
+void Interpolate__NewCounter_d__6__System_IDisposable_Dispose
+               (Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
 
 {
   return;
@@ -3436,7 +4044,7 @@ Interpolate__NewCounter_d__6__System_IDisposable_Dispose(Interpolate__NewCounter
 
 // Interpolate.<NewCounter>d__6$$MoveNext
 // il2cpp: bool Interpolate__NewCounter_d__6__MoveNext (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x181daffc0
+// 0x584af40
 
 bool Interpolate__NewCounter_d__6__MoveNext(Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
 
@@ -3444,32 +4052,33 @@ bool Interpolate__NewCounter_d__6__MoveNext(Interpolate__NewCounter_d__6_o *__th
   int iVar1;
   
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 0) {
-    iVar1 = (__this->fields).start;
-  }
-  else {
-    if (iVar1 != 1) {
-      return false;
+  if (iVar1 == 1) {
+    (__this->fields).__1__state = -1;
+    iVar1 = (__this->fields).step + (__this->fields)._i_5__2;
+    (__this->fields)._i_5__2 = iVar1;
+    if (iVar1 <= (__this->fields).end) {
+label_0584af5e:
+      (__this->fields).__2__current = (float)iVar1;
+      (__this->fields).__1__state = 1;
+      return true;
     }
-    iVar1 = (__this->fields)._i_5__2 + (__this->fields).step;
   }
-  (__this->fields)._i_5__2 = iVar1;
-  (__this->fields).__1__state = -1;
-  if ((__this->fields).end < (__this->fields)._i_5__2) {
-    return false;
+  else if (iVar1 == 0) {
+    (__this->fields).__1__state = -1;
+    iVar1 = (__this->fields).start;
+    (__this->fields)._i_5__2 = iVar1;
+    if (iVar1 <= (__this->fields).end) goto label_0584af5e;
   }
-  (__this->fields).__1__state = 1;
-  (__this->fields).__2__current = (float)(__this->fields)._i_5__2;
-  return true;
+  return false;
 }
 
 
 // Interpolate.<NewCounter>d__6$$System.Collections.Generic.IEnumerator<System.Single>.get_Current
 // il2cpp: float Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerator_System_Single__get_Current (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x1815477e0
+// 0x584af90
 
-float
-Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerator_System_Single__get_Current(Interpolate__NewCounter_d__6_o* __this, MethodInfo* method)
+float Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerator_System_Single__get_Current
+                (Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -3478,7 +4087,7 @@ Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerator_System_Sing
 
 // Interpolate.<NewCounter>d__6$$System.Collections.IEnumerator.Reset
 // il2cpp: void Interpolate__NewCounter_d__6__System_Collections_IEnumerator_Reset (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x181db00b0
+// 0x584afa0
 
 void Interpolate__NewCounter_d__6__System_Collections_IEnumerator_Reset
                (Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
@@ -3500,66 +4109,63 @@ void Interpolate__NewCounter_d__6__System_Collections_IEnumerator_Reset
 
 // Interpolate.<NewCounter>d__6$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Interpolate__NewCounter_d__6__System_Collections_IEnumerator_get_Current (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x181db00f0
+// 0x584afe0
 
-Il2CppObject*
-Interpolate__NewCounter_d__6__System_Collections_IEnumerator_get_Current(Interpolate__NewCounter_d__6_o* __this, MethodInfo* method)
+Il2CppObject *
+Interpolate__NewCounter_d__6__System_Collections_IEnumerator_get_Current
+          (Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  local_res8[0] = (__this->fields).__2__current;
-  pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
   return pIVar1;
 }
 
 
 // Interpolate.<NewCounter>d__6$$System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator
 // il2cpp: System_Collections_Generic_IEnumerator_float__o* Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x181db0010
+// 0x584b010
 
-System_Collections_Generic_IEnumerator_float__o*
-Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator(Interpolate__NewCounter_d__6_o* __this, MethodInfo* method)
+System_Collections_Generic_IEnumerator_float__o *
+Interpolate__NewCounter_d__6__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator
+          (Interpolate__NewCounter_d__6_o *__this,MethodInfo *method)
 
 {
   int iVar1;
   int32_t iVar2;
   Interpolate__NewCounter_d__6_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843448d3 == '\0') {
+  if (Il2CppMethodInitialized_07545024 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448d3 = '\x01';
+    Il2CppMethodInitialized_07545024 = '\x01';
   }
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181db0083;
+      goto label_0584b083;
     }
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181db0083:
-  if (__this_00 != (Interpolate__NewCounter_d__6_o *)0x0) {
-    (__this_00->fields).start = (__this->fields).__3__start;
-    (__this_00->fields).end = (__this->fields).__3__end;
-    (__this_00->fields).step = (__this->fields).__3__step;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0584b083:
+  (__this_00->fields).start = (__this->fields).__3__start;
+  (__this_00->fields).end = (__this->fields).__3__end;
+  (__this_00->fields).step = (__this->fields).__3__step;
+  return (System_Collections_Generic_IEnumerator_float__o *)__this_00;
 }
 
 
 // Interpolate.<NewCounter>d__6$$System.Collections.IEnumerable.GetEnumerator
 // il2cpp: System_Collections_IEnumerator_o* Interpolate__NewCounter_d__6__System_Collections_IEnumerable_GetEnumerator (Interpolate__NewCounter_d__6_o* __this, const MethodInfo* method);
-// 0x181db0010
+// 0x584b0b0
 
 System_Collections_IEnumerator_o *
 Interpolate__NewCounter_d__6__System_Collections_IEnumerable_GetEnumerator
@@ -3570,46 +4176,41 @@ Interpolate__NewCounter_d__6__System_Collections_IEnumerable_GetEnumerator
   int32_t iVar2;
   Interpolate__NewCounter_d__6_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843448d3 == '\0') {
+  if (Il2CppMethodInitialized_07545024 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448d3 = '\x01';
+    Il2CppMethodInitialized_07545024 = '\x01';
   }
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181db0083;
+      goto label_0584b123;
     }
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181db0083:
-  if (__this_00 != (Interpolate__NewCounter_d__6_o *)0x0) {
-    (__this_00->fields).start = (__this->fields).__3__start;
-    (__this_00->fields).end = (__this->fields).__3__end;
-    (__this_00->fields).step = (__this->fields).__3__step;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0584b123:
+  (__this_00->fields).start = (__this->fields).__3__start;
+  (__this_00->fields).end = (__this->fields).__3__end;
+  (__this_00->fields).step = (__this->fields).__3__step;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Interpolate.<NewEase>d__9$$.ctor
 // il2cpp: void Interpolate__NewEase_d__9___ctor (Interpolate__NewEase_d__9_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x180573ef0
+// 0x5849940
 
-void
-Interpolate__NewEase_d__9___ctor(Interpolate__NewEase_d__9_o* __this, int32_t __1__state, MethodInfo* method)
+void Interpolate__NewEase_d__9___ctor
+               (Interpolate__NewEase_d__9_o *__this,int32_t __1__state,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -3617,32 +4218,47 @@ Interpolate__NewEase_d__9___ctor(Interpolate__NewEase_d__9_o* __this, int32_t __
 
 // Interpolate.<NewEase>d__9$$System.IDisposable.Dispose
 // il2cpp: void Interpolate__NewEase_d__9__System_IDisposable_Dispose (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x181db0540
-// asm: 7 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db05ab: jmp 0x181db05c1
-// asm:   0x181db05ad: lea rcx, [rsp + 0x30]
-// asm:   0x181db05b2: call 0x181d9e190  ; il2cpp_runtime_helper_181d9e190()
-// asm:   0x181db05b7: mov rcx, qword ptr [rsp + 0x28]
-// asm:   0x181db05bc: test rcx, rcx
-// asm:   0x181db05bf: jne 0x181db05c7
-// asm:   0x181db05c7: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// 0x584b150
 
 void Interpolate__NewEase_d__9__System_IDisposable_Dispose
                (Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
 
 {
   int iVar1;
+  Il2CppObject *obj;
+  Il2CppClass *pIVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
+  VirtualInvokeData *pVVar4;
+  ulong uVar5;
+  long lVar6;
   
   iVar1 = (__this->fields).__1__state;
-  if ((iVar1 == -3) || (iVar1 == 1)) {
-    if (Il2CppMethodInitialized_1843448d5 == '\0') {
+  if ((iVar1 == 1) || (iVar1 == -3)) {
+    if (Il2CppMethodInitialized_07545026 == '\0') {
       il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_1843448d5 = '\x01';
+      Il2CppMethodInitialized_07545026 = '\x01';
     }
     (__this->fields).__1__state = -1;
-    if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+    obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar2 = obj->klass;
+      uVar5 = (ulong)(pIVar2->_2).interface_offsets_count;
+      if (uVar5 != 0) {
+        pIVar3 = (pIVar2->_1).interfaceOffsets;
+        lVar6 = 0;
+        do {
+          if (*(System_IDisposable_c **)((long)&pIVar3->interfaceType + lVar6) == TypeInfo_System_IDisposable)
+          {
+            pVVar4 = pIVar2->vtable + *(int *)((long)&pIVar3->offset + lVar6);
+            goto label_0584b1ef;
+          }
+          lVar6 = lVar6 + 0x10;
+        } while (uVar5 * 0x10 != lVar6);
+      }
+      pVVar4 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0584b1ef:
+      (*pVVar4->methodPtr)(obj,pVVar4->method);
+      return;
     }
   }
   return;
@@ -3651,162 +4267,233 @@ void Interpolate__NewEase_d__9__System_IDisposable_Dispose
 
 // Interpolate.<NewEase>d__9$$MoveNext
 // il2cpp: bool Interpolate__NewEase_d__9__MoveNext (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x181db0120
-// eh: try 0x181db01ae..0x181db04e5 -> pad 0x183315aa0 (+2 call sites) catch Il2CppExceptionWrapper
-// asm: 19 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181db048d: mov rbx, qword ptr [rsp + 0x48]
-// asm:   0x181db0492: test rbx, rbx
-// asm:   0x181db0495: jne 0x181db04e5
-// asm:   0x181db0497: movzx eax, byte ptr [rsp + 0xf0]
-// asm:   0x181db04e5: lea rcx, [rsp + 0x50]
-// asm:   0x181db04ea: call 0x181d9e1f0  ; il2cpp_runtime_helper_181d9e1f0()
-// asm:   0x181db04ef: mov rcx, rbx
-// asm:   0x181db04f2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
-// asm:   0x183315aa0: mov qword ptr [rsp + 0x10], rdx
-// asm:   0x183315aa5: push rbp
-// asm:   0x183315aa6: sub rsp, 0x30
-// asm:   0x183315aaa: mov rbp, rdx
-// asm:   0x183315aad: mov rax, qword ptr [rbp + 0x30]
-// asm:   0x183315ab1: mov rcx, qword ptr [rax]
-// asm:   0x183315ab4: mov qword ptr [rbp + 0x48], rcx
-// asm:   0x183315ab8: movabs rax, 0
-// asm:   0x183315ac2: add rsp, 0x30
-// asm:   0x183315ac6: pop rbp
-// asm:   0x183315ac7: ret 
+// 0x584b200
+// eh: try 0x584b2df..0x584b5f0 -> pad 0x584b5fc (+11 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
+// eh: try 0x584b618..0x584b61d -> pad 0x584b63e cleanup
+// eh: try 0x584b641..0x584b64b -> pad 0x584b653 catch (...) [compiler noexcept guard]
+// asm: 31 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x584b2ce: nop 
+// asm:   0x584b35e: nop 
+// asm:   0x584b5f0: jmp 0x584b600
+// asm:   0x584b5f2: jmp 0x584b600
+// asm:   0x584b5f4: jmp 0x584b600
+// asm:   0x584b5f6: jmp 0x584b600
+// asm:   0x584b5f8: jmp 0x584b600
+// asm:   0x584b5fa: jmp 0x584b600
+// asm:   0x584b5fc: jmp 0x584b600
+// asm:   0x584b5fe: jmp 0x584b600
+// asm:   0x584b600: mov rbx, rax
+// asm:   0x584b603: cmp edx, 1
+// asm:   0x584b606: jne 0x584b641
+// asm:   0x584b608: mov rdi, rbx
+// asm:   0x584b60b: call 0x6e25590  ; __cxa_begin_catch()
+// asm:   0x584b610: mov rbx, qword ptr [rax]
+// asm:   0x584b613: mov qword ptr [rsp + 0x40], rbx
+// asm:   0x584b618: call 0x6e255a0  ; __cxa_end_catch()
+// asm:   0x584b61d: test rbx, rbx
+// asm:   0x584b620: jne 0x584b62c
+// asm:   0x584b62c: mov rdi, qword ptr [rsp + 8]
+// asm:   0x584b631: call 0x2fce9f0  ; il2cpp_runtime_helper_02fce9f0()
+// asm:   0x584b636: mov rdi, rbx
+// asm:   0x584b639: call 0x311cca0  ; il2cpp_codegen_rethrow()
+// asm:   0x584b63e: mov rbx, rax
+// asm:   0x584b641: lea rdi, [rsp + 0x40]
+// asm:   0x584b646: call 0x2fce3c0  ; il2cpp_runtime_helper_02fce3c0()
+// asm:   0x584b64b: mov rdi, rbx
+// asm:   0x584b64e: call 0x6e25540  ; _Unwind_Resume()
+// asm:   0x584b653: mov rdi, rax
+// asm:   0x584b656: call 0x2ab61e0  ; __clang_call_terminate()
 
 bool Interpolate__NewEase_d__9__MoveNext(Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
 
 {
   float fVar1;
   float fVar2;
-  float fVar3;
-  float fVar4;
-  float fVar5;
-  ushort uVar6;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
   int iVar7;
   Il2CppClass *pIVar8;
   Il2CppRuntimeInterfaceOffsetPair *pIVar9;
   Interpolate_Function_o *pIVar10;
   Interpolate__NewEase_d__9_o *pIVar11;
   bool bVar12;
-  System_Collections_Generic_IEnumerator_float__o *value;
-  void *pvVar13;
-  VirtualInvokeData *pVVar14;
-  Il2CppObject *pIVar15;
-  ushort uVar16;
-  float fVar17;
-  undefined4 uVar18;
-  undefined4 uVar19;
-  Interpolate__NewEase_d__9_o *local_res8 [2];
-  undefined1 local_res18;
-  undefined4 local_a0;
-  undefined4 local_9c;
-  undefined4 local_98;
-  undefined8 local_90;
-  Interpolate__NewEase_d__9_o **local_88;
+  VirtualInvokeData *pVVar13;
+  Il2CppObject *pIVar14;
+  ulong uVar15;
+  long lVar16;
+  Interpolate__NewEase_d__9_o *local_70;
+  float local_68;
+  float local_64;
+  float local_60;
+  float local_5c;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined4 local_40;
+  undefined8 local_38;
+  Interpolate__NewEase_d__9_o **local_30;
+  undefined8 local_28;
+  undefined8 local_18;
+  undefined8 uStack_10;
   
-  local_res8[0] = __this;
-  if (Il2CppMethodInitialized_1843448d4 == '\0') {
+  local_70 = __this;
+  if (Il2CppMethodInitialized_07545025 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_float);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
-    Il2CppMethodInitialized_1843448d4 = '\x01';
+    Il2CppMethodInitialized_07545025 = '\x01';
   }
-  local_res18 = 0;
-  local_90 = 0;
-  local_88 = local_res8;
-  iVar7 = (local_res8[0]->fields).__1__state;
-  if (iVar7 == 0) {
-    (local_res8[0]->fields).__1__state = -1;
-    fVar17 = (local_res8[0]->fields).end.fields.y;
-    fVar1 = (local_res8[0]->fields).start.fields.y;
-    fVar2 = (local_res8[0]->fields).end.fields.z;
-    fVar3 = (local_res8[0]->fields).start.fields.z;
-    (local_res8[0]->fields)._distance_5__2.fields.x =
-         (local_res8[0]->fields).end.fields.x - (local_res8[0]->fields).start.fields.x;
-    (local_res8[0]->fields)._distance_5__2.fields.y = fVar17 - fVar1;
-    (local_res8[0]->fields)._distance_5__2.fields.z = fVar2 - fVar3;
-    pIVar15 = (Il2CppObject *)(local_res8[0]->fields).driver;
-    if (pIVar15 == (Il2CppObject *)0x0) {
+  local_38 = 0;
+  local_30 = &local_70;
+  iVar7 = (__this->fields).__1__state;
+  if (iVar7 != 1) {
+    if (iVar7 != 0) {
+      return false;
+    }
+    (__this->fields).__1__state = -1;
+    uVar3 = (__this->fields).end.fields.x;
+    uVar5 = (__this->fields).end.fields.y;
+    fVar1 = (__this->fields).end.fields.z;
+    uVar4 = (__this->fields).start.fields.x;
+    uVar6 = (__this->fields).start.fields.y;
+    fVar2 = (__this->fields).start.fields.z;
+    (__this->fields)._distance_5__2.fields.x = (float)uVar3 - (float)uVar4;
+    (__this->fields)._distance_5__2.fields.y = (float)uVar5 - (float)uVar6;
+    (__this->fields)._distance_5__2.fields.z = fVar1 - fVar2;
+    pIVar14 = (Il2CppObject *)(__this->fields).driver;
+    if (pIVar14 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    value = InterfaceInvoker0_Invoke
-                      (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,pIVar15);
-    (local_res8[0]->fields).__7__wrap2 = value;
-    Il2CppCodeGenWriteBarrier(&(local_res8[0]->fields).__7__wrap2,value);
+    pIVar8 = pIVar14->klass;
+    uVar15 = (ulong)(pIVar8->_2).interface_offsets_count;
+    if (uVar15 != 0) {
+      pIVar9 = (pIVar8->_1).interfaceOffsets;
+      lVar16 = 0;
+      do {
+        if (*(System_Collections_Generic_IEnumerable_float__c **)((long)&pIVar9->interfaceType + lVar16) ==
+            TypeInfo_System_Collections_Generic_IEnumerable_float) {
+          pVVar13 = pIVar8->vtable + *(int *)((long)&pIVar9->offset + lVar16);
+          goto label_0584b301;
+        }
+        lVar16 = lVar16 + 0x10;
+      } while (uVar15 * 0x10 != lVar16);
+    }
+    pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_float,0);
+label_0584b301:
+    pIVar14 = (*pVVar13->methodPtr)(pIVar14,pVVar13->method);
+    (local_70->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)pIVar14;
+    Il2CppCodeGenWriteBarrier(&(local_70->fields).__7__wrap2);
+    __this = local_70;
   }
-  else if (iVar7 != 1) {
-    return false;
-  }
-  (local_res8[0]->fields).__1__state = -3;
-  pIVar15 = (Il2CppObject *)(local_res8[0]->fields).__7__wrap2;
-  if (pIVar15 == (Il2CppObject *)0x0) {
+  (__this->fields).__1__state = -3;
+  pIVar14 = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (pIVar14 == (Il2CppObject *)0x0) {
     ThrowNullReferenceException();
   }
-  pvVar13 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar15);
-  pIVar11 = local_res8[0];
-  if ((char)pvVar13 == '\0') {
-    if (Il2CppMethodInitialized_1843448d5 == '\0') {
-      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-      Il2CppMethodInitialized_1843448d5 = '\x01';
-    }
-    (pIVar11->fields).__1__state = -1;
-    if ((pIVar11->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-      InterfaceInvoker0_Invoke
-                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(pIVar11->fields).__7__wrap2);
-    }
-    (local_res8[0]->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
-    Il2CppCodeGenWriteBarrier(&(local_res8[0]->fields).__7__wrap2,(void *)0x0);
-    bVar12 = false;
+  pIVar8 = pIVar14->klass;
+  uVar15 = (ulong)(pIVar8->_2).interface_offsets_count;
+  if (uVar15 != 0) {
+    pIVar9 = (pIVar8->_1).interfaceOffsets;
+    lVar16 = 0;
+    do {
+      if (*(System_Collections_IEnumerator_c **)((long)&pIVar9->interfaceType + lVar16) ==
+          TypeInfo_System_Collections_IEnumerator) {
+        pVVar13 = pIVar8->vtable + *(int *)((long)&pIVar9->offset + lVar16);
+        goto label_0584b391;
+      }
+      lVar16 = lVar16 + 0x10;
+    } while (uVar15 * 0x10 != lVar16);
   }
-  else {
-    pIVar15 = (Il2CppObject *)(local_res8[0]->fields).__7__wrap2;
-    if (pIVar15 == (Il2CppObject *)0x0) {
+  pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath
+                      (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_0584b391:
+  bVar12 = (*pVVar13->methodPtr)(pIVar14,pVVar13->method);
+  pIVar11 = local_70;
+  if (bVar12) {
+    pIVar14 = (Il2CppObject *)(local_70->fields).__7__wrap2;
+    if (pIVar14 == (Il2CppObject *)0x0) {
       ThrowNullReferenceException();
     }
-    pIVar8 = pIVar15->klass;
-    uVar6 = (pIVar8->_2).interface_offsets_count;
-    if (uVar6 != 0) {
-      uVar16 = 0;
+    pIVar8 = pIVar14->klass;
+    uVar15 = (ulong)(pIVar8->_2).interface_offsets_count;
+    if (uVar15 != 0) {
       pIVar9 = (pIVar8->_1).interfaceOffsets;
+      lVar16 = 0;
       do {
-        if (pIVar9[uVar16].interfaceType ==
-            (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float) {
-          pVVar14 = pIVar8->vtable + pIVar9[uVar16].offset;
-          goto label_181db02e6;
+        if (*(System_Collections_Generic_IEnumerator_float__c **)((long)&pIVar9->interfaceType + lVar16) ==
+            TypeInfo_System_Collections_Generic_IEnumerator_float) {
+          pVVar13 = pIVar8->vtable + *(int *)((long)&pIVar9->offset + lVar16);
+          goto label_0584b494;
         }
-        uVar16 = uVar16 + 1;
-      } while (uVar16 < uVar6);
+        lVar16 = lVar16 + 0x10;
+      } while (uVar15 * 0x10 != lVar16);
     }
-    pVVar14 = GetInterfaceInvokeDataFromVTableSlowPath
-                        (pIVar15,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,0);
-label_181db02e6:
-    fVar17 = (*pVVar14->methodPtr)(pIVar15,pVVar14->method);
-    pIVar10 = (local_res8[0]->fields).ease;
+    pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar14,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_float,0);
+label_0584b494:
+    local_68 = (*pVVar13->methodPtr)(pIVar14,pVVar13->method);
+    pIVar10 = (local_70->fields).ease;
     if (pIVar10 == (Interpolate_Function_o *)0x0) {
       ThrowNullReferenceException();
     }
-    fVar1 = (local_res8[0]->fields)._distance_5__2.fields.y;
-    fVar2 = (local_res8[0]->fields)._distance_5__2.fields.z;
-    fVar3 = (local_res8[0]->fields).start.fields.y;
-    fVar4 = (local_res8[0]->fields).start.fields.z;
-    fVar5 = (local_res8[0]->fields).total;
-    uVar18 = (*(code *)(pIVar10->fields).invoke_impl)
-                       ((pIVar10->fields).method_code,(local_res8[0]->fields).start.fields.x,
-                        (local_res8[0]->fields)._distance_5__2.fields.x,fVar17,fVar5,(pIVar10->fields).method)
-    ;
-    uVar19 = (*(code *)(pIVar10->fields).invoke_impl)
-                       ((pIVar10->fields).method_code,fVar3,fVar1,fVar17,fVar5,(pIVar10->fields).method);
-    local_98 = (*(code *)(pIVar10->fields).invoke_impl)
-                         ((pIVar10->fields).method_code,fVar4,fVar2,fVar17,fVar5,(pIVar10->fields).method);
-    local_a0 = uVar18;
-    local_9c = uVar19;
-    pIVar15 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_a0);
-    (local_res8[0]->fields).__2__current = pIVar15;
-    Il2CppCodeGenWriteBarrier(&(local_res8[0]->fields).__2__current,pIVar15);
-    (local_res8[0]->fields).__1__state = 1;
+    local_58._0_4_ = (local_70->fields).start.fields.x;
+    local_58._4_4_ = (local_70->fields).start.fields.y;
+    local_5c = (local_70->fields).start.fields.z;
+    local_18._0_4_ = (local_70->fields)._distance_5__2.fields.x;
+    local_18._4_4_ = (local_70->fields)._distance_5__2.fields.y;
+    local_60 = (local_70->fields)._distance_5__2.fields.z;
+    local_64 = (local_70->fields).total;
+    uStack_50 = 0;
+    uStack_10 = 0;
+    local_28 = (*(code *)(pIVar10->fields).invoke_impl)
+                         ((undefined4)local_58,(pIVar10->fields).method_code,(pIVar10->fields).method);
+    local_58 = (*(code *)(pIVar10->fields).invoke_impl)
+                         (local_58._4_4_,local_18._4_4_,local_68,local_64,(pIVar10->fields).method_code,
+                          (pIVar10->fields).method);
+    local_40 = (*(code *)(pIVar10->fields).invoke_impl)
+                         (local_5c,local_60,local_68,local_64,(pIVar10->fields).method_code,
+                          (pIVar10->fields).method);
+    local_48 = CONCAT44((undefined4)local_58,(undefined4)local_28);
+    pIVar14 = il2cpp_vm_Object_Box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_48);
+    (local_70->fields).__2__current = pIVar14;
+    Il2CppCodeGenWriteBarrier(&(local_70->fields).__2__current);
+    (local_70->fields).__1__state = 1;
     bVar12 = true;
+  }
+  else {
+    if (Il2CppMethodInitialized_07545026 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+      Il2CppMethodInitialized_07545026 = '\x01';
+    }
+    (pIVar11->fields).__1__state = -1;
+    pIVar14 = (Il2CppObject *)(pIVar11->fields).__7__wrap2;
+    if (pIVar14 != (Il2CppObject *)0x0) {
+      pIVar8 = pIVar14->klass;
+      uVar15 = (ulong)(pIVar8->_2).interface_offsets_count;
+      if (uVar15 != 0) {
+        pIVar9 = (pIVar8->_1).interfaceOffsets;
+        lVar16 = 0;
+        do {
+          if (*(System_IDisposable_c **)((long)&pIVar9->interfaceType + lVar16) == TypeInfo_System_IDisposable
+             ) {
+            pVVar13 = pIVar8->vtable + *(int *)((long)&pIVar9->offset + lVar16);
+            goto label_0584b5b7;
+          }
+          lVar16 = lVar16 + 0x10;
+        } while (uVar15 * 0x10 != lVar16);
+      }
+      pVVar13 = GetInterfaceInvokeDataFromVTableSlowPath(pIVar14,(Il2CppClass *)TypeInfo_System_IDisposable,0)
+      ;
+label_0584b5b7:
+      (*pVVar13->methodPtr)(pIVar14,pVVar13->method);
+    }
+    (local_70->fields).__7__wrap2 = (System_Collections_Generic_IEnumerator_float__o *)0x0;
+    bVar12 = false;
+    Il2CppCodeGenWriteBarrier(&(local_70->fields).__7__wrap2);
   }
   return bVar12;
 }
@@ -3814,31 +4501,54 @@ label_181db02e6:
 
 // Interpolate.<NewEase>d__9$$<>m__Finally1
 // il2cpp: void Interpolate__NewEase_d__9____m__Finally1 (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x181db05d0
+// 0x584b660
 
 void Interpolate__NewEase_d__9____m__Finally1(Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
 
 {
-  if (Il2CppMethodInitialized_1843448d5 == '\0') {
+  Il2CppObject *obj;
+  Il2CppClass *pIVar1;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar2;
+  VirtualInvokeData *pVVar3;
+  ulong uVar4;
+  long lVar5;
+  
+  if (Il2CppMethodInitialized_07545026 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
-    Il2CppMethodInitialized_1843448d5 = '\x01';
+    Il2CppMethodInitialized_07545026 = '\x01';
   }
   (__this->fields).__1__state = -1;
-  if ((__this->fields).__7__wrap2 != (System_Collections_Generic_IEnumerator_float__o *)0x0) {
-    InterfaceInvoker0_Invoke
-              (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields).__7__wrap2);
+  obj = (Il2CppObject *)(__this->fields).__7__wrap2;
+  if (obj == (Il2CppObject *)0x0) {
     return;
   }
+  pIVar1 = obj->klass;
+  uVar4 = (ulong)(pIVar1->_2).interface_offsets_count;
+  if (uVar4 != 0) {
+    pIVar2 = (pIVar1->_1).interfaceOffsets;
+    lVar5 = 0;
+    do {
+      if (*(System_IDisposable_c **)((long)&pIVar2->interfaceType + lVar5) == TypeInfo_System_IDisposable) {
+        pVVar3 = pIVar1->vtable + *(int *)((long)&pIVar2->offset + lVar5);
+        goto label_0584b6ef;
+      }
+      lVar5 = lVar5 + 0x10;
+    } while (uVar4 * 0x10 != lVar5);
+  }
+  pVVar3 = GetInterfaceInvokeDataFromVTableSlowPath(obj,(Il2CppClass *)TypeInfo_System_IDisposable,0);
+label_0584b6ef:
+  (*pVVar3->methodPtr)(obj,pVVar3->method);
   return;
 }
 
 
 // Interpolate.<NewEase>d__9$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Interpolate__NewEase_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x584b700
 
-Il2CppObject*
-Interpolate__NewEase_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current(Interpolate__NewEase_d__9_o* __this, MethodInfo* method)
+Il2CppObject *
+Interpolate__NewEase_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -3847,7 +4557,7 @@ Interpolate__NewEase_d__9__System_Collections_Generic_IEnumerator_System_Object_
 
 // Interpolate.<NewEase>d__9$$System.Collections.IEnumerator.Reset
 // il2cpp: void Interpolate__NewEase_d__9__System_Collections_IEnumerator_Reset (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x181db0500
+// 0x584b710
 
 void Interpolate__NewEase_d__9__System_Collections_IEnumerator_Reset
                (Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
@@ -3869,10 +4579,11 @@ void Interpolate__NewEase_d__9__System_Collections_IEnumerator_Reset
 
 // Interpolate.<NewEase>d__9$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Interpolate__NewEase_d__9__System_Collections_IEnumerator_get_Current (Interpolate__NewEase_d__9_o* __this, const MethodInfo* method);
-// 0x180573e90
+// 0x584b750
 
-Il2CppObject*
-Interpolate__NewEase_d__9__System_Collections_IEnumerator_get_Current(Interpolate__NewEase_d__9_o* __this, MethodInfo* method)
+Il2CppObject *
+Interpolate__NewEase_d__9__System_Collections_IEnumerator_get_Current
+          (Interpolate__NewEase_d__9_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -3881,18 +4592,17 @@ Interpolate__NewEase_d__9__System_Collections_IEnumerator_get_Current(Interpolat
 
 // Interpolate.<NewTimer>d__3$$.ctor
 // il2cpp: void Interpolate__NewTimer_d__3___ctor (Interpolate__NewTimer_d__3_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x1808e81f0
+// 0x5849540
 
-void
-Interpolate__NewTimer_d__3___ctor(Interpolate__NewTimer_d__3_o* __this, int32_t __1__state, MethodInfo* method)
+void Interpolate__NewTimer_d__3___ctor
+               (Interpolate__NewTimer_d__3_o *__this,int32_t __1__state,MethodInfo *method)
 
 {
   int32_t iVar1;
   
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   return;
 }
@@ -3900,10 +4610,10 @@ Interpolate__NewTimer_d__3___ctor(Interpolate__NewTimer_d__3_o* __this, int32_t 
 
 // Interpolate.<NewTimer>d__3$$System.IDisposable.Dispose
 // il2cpp: void Interpolate__NewTimer_d__3__System_IDisposable_Dispose (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x180547020
+// 0x584b760
 
-void
-Interpolate__NewTimer_d__3__System_IDisposable_Dispose(Interpolate__NewTimer_d__3_o* __this, MethodInfo* method)
+void Interpolate__NewTimer_d__3__System_IDisposable_Dispose
+               (Interpolate__NewTimer_d__3_o *__this,MethodInfo *method)
 
 {
   return;
@@ -3912,57 +4622,55 @@ Interpolate__NewTimer_d__3__System_IDisposable_Dispose(Interpolate__NewTimer_d__
 
 // Interpolate.<NewTimer>d__3$$MoveNext
 // il2cpp: bool Interpolate__NewTimer_d__3__MoveNext (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x181db0620
+// 0x584b770
 
 bool Interpolate__NewTimer_d__3__MoveNext(Interpolate__NewTimer_d__3_o *__this,MethodInfo *method)
 
 {
-  float *pfVar1;
-  float fVar2;
-  int iVar3;
+  float fVar1;
+  int iVar2;
+  int32_t iVar3;
   float fVar4;
   
-  iVar3 = (__this->fields).__1__state;
-  if (iVar3 == 0) {
-    (__this->fields)._elapsedTime_5__2 = 0.0;
+  iVar2 = (__this->fields).__1__state;
+  if (iVar2 == 2) {
+    (__this->fields).__1__state = -1;
+    fVar4 = (__this->fields)._elapsedTime_5__2;
+  }
+  else if (iVar2 == 1) {
+    (__this->fields).__1__state = -1;
+    fVar1 = (__this->fields)._elapsedTime_5__2;
+    fVar4 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+    fVar4 = fVar4 + fVar1;
+    (__this->fields)._elapsedTime_5__2 = fVar4;
+    iVar3 = 2;
+    if ((__this->fields).duration <= fVar4) goto label_0584b7e8;
   }
   else {
-    if (iVar3 == 1) {
-      fVar2 = (__this->fields)._elapsedTime_5__2;
-      (__this->fields).__1__state = -1;
-      fVar4 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-      fVar4 = fVar4 + fVar2;
-      (__this->fields)._elapsedTime_5__2 = fVar4;
-      if ((__this->fields).duration <= fVar4) {
-        (__this->fields).__2__current = fVar4;
-        (__this->fields).__1__state = 2;
-        return true;
-      }
-      goto label_181db0690;
-    }
-    if (iVar3 != 2) {
+    if (iVar2 != 0) {
       return false;
     }
+    (__this->fields).__1__state = -1;
+    (__this->fields)._elapsedTime_5__2 = 0.0;
+    fVar4 = 0.0;
   }
-  (__this->fields).__1__state = -1;
-label_181db0690:
-  fVar2 = (__this->fields).duration;
-  pfVar1 = &(__this->fields)._elapsedTime_5__2;
-  if (fVar2 < *pfVar1 || fVar2 == *pfVar1) {
+  iVar3 = 1;
+  if ((__this->fields).duration <= fVar4) {
     return false;
   }
-  (__this->fields).__2__current = (__this->fields)._elapsedTime_5__2;
-  (__this->fields).__1__state = 1;
+label_0584b7e8:
+  (__this->fields).__2__current = fVar4;
+  (__this->fields).__1__state = iVar3;
   return true;
 }
 
 
 // Interpolate.<NewTimer>d__3$$System.Collections.Generic.IEnumerator<System.Single>.get_Current
 // il2cpp: float Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerator_System_Single__get_Current (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x1815477e0
+// 0x584b800
 
-float
-Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerator_System_Single__get_Current(Interpolate__NewTimer_d__3_o* __this, MethodInfo* method)
+float Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerator_System_Single__get_Current
+                (Interpolate__NewTimer_d__3_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -3971,7 +4679,7 @@ Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerator_System_Single
 
 // Interpolate.<NewTimer>d__3$$System.Collections.IEnumerator.Reset
 // il2cpp: void Interpolate__NewTimer_d__3__System_Collections_IEnumerator_Reset (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x181db0750
+// 0x584b810
 
 void Interpolate__NewTimer_d__3__System_Collections_IEnumerator_Reset
                (Interpolate__NewTimer_d__3_o *__this,MethodInfo *method)
@@ -3993,7 +4701,7 @@ void Interpolate__NewTimer_d__3__System_Collections_IEnumerator_Reset
 
 // Interpolate.<NewTimer>d__3$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Interpolate__NewTimer_d__3__System_Collections_IEnumerator_get_Current (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x181db00f0
+// 0x584b850
 
 Il2CppObject *
 Interpolate__NewTimer_d__3__System_Collections_IEnumerator_get_Current
@@ -4001,57 +4709,53 @@ Interpolate__NewTimer_d__3__System_Collections_IEnumerator_get_Current
 
 {
   Il2CppObject *pIVar1;
-  float local_res8 [8];
+  undefined1 auStack_4 [4];
   
-  local_res8[0] = (__this->fields).__2__current;
-  pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+  pIVar1 = il2cpp_vm_Object_Box(g_data_07556740,auStack_4);
   return pIVar1;
 }
 
 
 // Interpolate.<NewTimer>d__3$$System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator
 // il2cpp: System_Collections_Generic_IEnumerator_float__o* Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x181db06b0
+// 0x584b880
 
-System_Collections_Generic_IEnumerator_float__o*
-Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator(Interpolate__NewTimer_d__3_o* __this, MethodInfo* method)
+System_Collections_Generic_IEnumerator_float__o *
+Interpolate__NewTimer_d__3__System_Collections_Generic_IEnumerable_System_Single__GetEnumerator
+          (Interpolate__NewTimer_d__3_o *__this,MethodInfo *method)
 
 {
   int iVar1;
   int32_t iVar2;
   Interpolate__NewTimer_d__3_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843448d6 == '\0') {
+  if (Il2CppMethodInitialized_07545027 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448d6 = '\x01';
+    Il2CppMethodInitialized_07545027 = '\x01';
   }
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181db0723;
+      goto label_0584b8f3;
     }
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181db0723:
-  if (__this_00 != (Interpolate__NewTimer_d__3_o *)0x0) {
-    (__this_00->fields).duration = (__this->fields).__3__duration;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0584b8f3:
+  (__this_00->fields).duration = (__this->fields).__3__duration;
+  return (System_Collections_Generic_IEnumerator_float__o *)__this_00;
 }
 
 
 // Interpolate.<NewTimer>d__3$$System.Collections.IEnumerable.GetEnumerator
 // il2cpp: System_Collections_IEnumerator_o* Interpolate__NewTimer_d__3__System_Collections_IEnumerable_GetEnumerator (Interpolate__NewTimer_d__3_o* __this, const MethodInfo* method);
-// 0x181db06b0
+// 0x584b910
 
 System_Collections_IEnumerator_o *
 Interpolate__NewTimer_d__3__System_Collections_IEnumerable_GetEnumerator
@@ -4062,84 +4766,61 @@ Interpolate__NewTimer_d__3__System_Collections_IEnumerable_GetEnumerator
   int32_t iVar2;
   Interpolate__NewTimer_d__3_o *__this_00;
   
-  if (Il2CppMethodInitialized_1843448d6 == '\0') {
+  if (Il2CppMethodInitialized_07545027 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448d6 = '\x01';
+    Il2CppMethodInitialized_07545027 = '\x01';
   }
   if ((__this->fields).__1__state == -2) {
     iVar1 = (__this->fields).__l__initialThreadId;
-    iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+    iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
     if (iVar1 == iVar2) {
       (__this->fields).__1__state = 0;
       __this_00 = __this;
-      goto label_181db0723;
+      goto label_0584b983;
     }
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
-  iVar2 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar2 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this_00->fields).__l__initialThreadId = iVar2;
-label_181db0723:
-  if (__this_00 != (Interpolate__NewTimer_d__3_o *)0x0) {
-    (__this_00->fields).duration = (__this->fields).__3__duration;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  ThrowNullReferenceException();
+label_0584b983:
+  (__this_00->fields).duration = (__this->fields).__3__duration;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Interpolate$$Identity
 // il2cpp: UnityEngine_Vector3_o Interpolate__Identity (UnityEngine_Vector3_o v, const MethodInfo* method);
-// 0x18180f7a0
+// 0x58494a0
 
-UnityEngine_Vector3_o
-Interpolate__Identity(UnityEngine_Vector3_o v, MethodInfo* method)
+UnityEngine_Vector3_o Interpolate__Identity(UnityEngine_Vector3_o v,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  
-  fVar1 = (__this->fields).m_Position.fields.z;
-  fVar2 = (__this->fields).m_Position.fields.y;
-  (__return_storage_ptr__->fields).x = (__this->fields).m_Position.fields.x;
-  (__return_storage_ptr__->fields).y = fVar2;
-  (__return_storage_ptr__->fields).z = fVar1;
-  return __return_storage_ptr__;
+  return (UnityEngine_Vector3_o)v.fields;
 }
 
 
 // Interpolate$$TransformDotPosition
 // il2cpp: UnityEngine_Vector3_o Interpolate__TransformDotPosition (UnityEngine_Transform_o* t, const MethodInfo* method);
-// 0x181da2ba0
+// 0x58494b0
 
-UnityEngine_Vector3_o *
-Interpolate__TransformDotPosition
-          (UnityEngine_Vector3_o *__return_storage_ptr__,UnityEngine_Transform_o *t,MethodInfo *method)
+UnityEngine_Vector3_o Interpolate__TransformDotPosition(UnityEngine_Transform_o *t,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  UnityEngine_Vector3_o *pUVar3;
-  UnityEngine_Vector3_o local_18;
+  UnityEngine_Vector3_Fields UVar1;
   
-  if (t != (UnityEngine_Transform_o *)0x0) {
-    pUVar3 = UnityEngine_Transform__get_position(&local_18,t,(MethodInfo *)0x0);
-    fVar2 = (pUVar3->fields).y;
-    fVar1 = (pUVar3->fields).z;
-    (__return_storage_ptr__->fields).x = (pUVar3->fields).x;
-    (__return_storage_ptr__->fields).y = fVar2;
-    (__return_storage_ptr__->fields).z = fVar1;
-    return __return_storage_ptr__;
+  if (t == (UnityEngine_Transform_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UVar1 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_position(t,(MethodInfo *)0x0);
+  return (UnityEngine_Vector3_o)UVar1;
 }
 
 
 // Interpolate$$NewTimer
 // il2cpp: System_Collections_Generic_IEnumerable_float__o* Interpolate__NewTimer (float duration, const MethodInfo* method);
-// 0x181da2b30
+// 0x58494d0
 
 System_Collections_Generic_IEnumerable_float__o * Interpolate__NewTimer(float duration,MethodInfo *method)
 
@@ -4147,15 +4828,14 @@ System_Collections_Generic_IEnumerable_float__o * Interpolate__NewTimer(float du
   int32_t iVar1;
   Interpolate__NewTimer_d__3_o *__this;
   
-  if (Il2CppMethodInitialized_1843448c9 == '\0') {
+  if (Il2CppMethodInitialized_0754501a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448c9 = '\x01';
+    Il2CppMethodInitialized_0754501a = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   (__this->fields).__3__duration = duration;
   return (System_Collections_Generic_IEnumerable_float__o *)__this;
@@ -4164,7 +4844,7 @@ System_Collections_Generic_IEnumerable_float__o * Interpolate__NewTimer(float du
 
 // Interpolate$$NewCounter
 // il2cpp: System_Collections_Generic_IEnumerable_float__o* Interpolate__NewCounter (int32_t start, int32_t end, int32_t step, const MethodInfo* method);
-// 0x181da2800
+// 0x5849570
 
 System_Collections_Generic_IEnumerable_float__o *
 Interpolate__NewCounter(int32_t start,int32_t end,int32_t step,MethodInfo *method)
@@ -4173,15 +4853,14 @@ Interpolate__NewCounter(int32_t start,int32_t end,int32_t step,MethodInfo *metho
   int32_t iVar1;
   Interpolate__NewCounter_d__6_o *__this;
   
-  if (Il2CppMethodInitialized_1843448ca == '\0') {
+  if (Il2CppMethodInitialized_0754501b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448ca = '\x01';
+    Il2CppMethodInitialized_0754501b = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
   (__this->fields).__l__initialThreadId = iVar1;
   (__this->fields).__3__start = start;
   (__this->fields).__3__end = end;
@@ -4192,214 +4871,184 @@ Interpolate__NewCounter(int32_t start,int32_t end,int32_t step,MethodInfo *metho
 
 // Interpolate$$NewEase
 // il2cpp: System_Collections_IEnumerator_o* Interpolate__NewEase (Interpolate_Function_o* ease, UnityEngine_Vector3_o start, UnityEngine_Vector3_o end, float duration, const MethodInfo* method);
-// 0x181da2870
+// 0x5849620
 
 System_Collections_IEnumerator_o *
 Interpolate__NewEase
-          (Interpolate_Function_o *ease,UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *end,float duration
-          ,MethodInfo *method)
+          (Interpolate_Function_o *ease,UnityEngine_Vector3_o start,UnityEngine_Vector3_o end,float duration,
+          MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
-  int32_t iVar5;
+  int32_t iVar1;
   Interpolate__NewTimer_d__3_o *__this;
   Interpolate__NewEase_d__9_o *__this_00;
-  bool bVar6;
   
-  if (Il2CppMethodInitialized_1843448c9 == '\0') {
+  if (Il2CppMethodInitialized_0754501a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448c9 = '\x01';
+    Il2CppMethodInitialized_0754501a = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = -2;
-  iVar5 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  bVar6 = Il2CppMethodInitialized_1843448cb == '\0';
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
   (__this->fields).__3__duration = duration;
-  (__this->fields).__l__initialThreadId = iVar5;
-  if (bVar6) {
+  if (Il2CppMethodInitialized_0754501c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewEase_d__9);
-    Il2CppMethodInitialized_1843448cb = '\x01';
+    Il2CppMethodInitialized_0754501c = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewEase_d__9);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).ease = ease;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,ease);
-  fVar3 = (start->fields).y;
-  fVar1 = (start->fields).z;
-  fVar2 = (end->fields).z;
-  (__this_00->fields).start.fields.x = (start->fields).x;
-  (__this_00->fields).start.fields.y = fVar3;
-  fVar3 = (end->fields).x;
-  fVar4 = (end->fields).y;
-  (__this_00->fields).start.fields.z = fVar1;
-  (__this_00->fields).end.fields.x = fVar3;
-  (__this_00->fields).end.fields.y = fVar4;
-  (__this_00->fields).end.fields.z = fVar2;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease);
+  (__this_00->fields).start.fields.x = start.fields.x;
+  (__this_00->fields).start.fields.y = start.fields.y;
+  (__this_00->fields).start.fields.z = start.fields.z;
+  (__this_00->fields).end.fields.x = end.fields.x;
+  (__this_00->fields).end.fields.y = end.fields.y;
+  (__this_00->fields).end.fields.z = end.fields.z;
   (__this_00->fields).total = duration;
   (__this_00->fields).driver = (System_Collections_Generic_IEnumerable_float__o *)__this;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).driver,__this);
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).driver);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Interpolate$$NewEase
 // il2cpp: System_Collections_IEnumerator_o* Interpolate__NewEase (Interpolate_Function_o* ease, UnityEngine_Vector3_o start, UnityEngine_Vector3_o end, int32_t slices, const MethodInfo* method);
-// 0x181da2a20
+// 0x5849810
 
 System_Collections_IEnumerator_o *
-Interpolate__NewEase_1da2a20
-          (Interpolate_Function_o *ease,UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *end,int32_t slices
-          ,MethodInfo *method)
+Interpolate__NewEase_5749810
+          (Interpolate_Function_o *ease,UnityEngine_Vector3_o start,UnityEngine_Vector3_o end,int32_t slices,
+          MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  int32_t iVar4;
+  int32_t iVar1;
   Interpolate__NewCounter_d__6_o *__this;
   Interpolate__NewEase_d__9_o *__this_00;
-  bool bVar5;
   
-  if (Il2CppMethodInitialized_1843448ca == '\0') {
+  if (Il2CppMethodInitialized_0754501b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448ca = '\x01';
+    Il2CppMethodInitialized_0754501b = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = -2;
-  iVar4 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  bVar5 = Il2CppMethodInitialized_1843448cb == '\0';
-  (__this->fields).__3__end = slices + 1;
-  (__this->fields).__l__initialThreadId = iVar4;
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
   (__this->fields).__3__start = 0;
+  (__this->fields).__3__end = slices + 1;
   (__this->fields).__3__step = 1;
-  if (bVar5) {
+  if (Il2CppMethodInitialized_0754501c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewEase_d__9);
-    Il2CppMethodInitialized_1843448cb = '\x01';
+    Il2CppMethodInitialized_0754501c = '\x01';
   }
   __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewEase_d__9);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
   (__this_00->fields).__1__state = 0;
   (__this_00->fields).ease = ease;
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease,ease);
-  fVar3 = (start->fields).y;
-  fVar1 = (end->fields).z;
-  fVar2 = (start->fields).z;
-  (__this_00->fields).start.fields.x = (start->fields).x;
-  (__this_00->fields).start.fields.y = fVar3;
-  fVar3 = (end->fields).y;
-  (__this_00->fields).end.fields.x = (end->fields).x;
-  (__this_00->fields).end.fields.y = fVar3;
-  (__this_00->fields).end.fields.z = fVar1;
-  (__this_00->fields).start.fields.z = fVar2;
-  (__this_00->fields).driver = (System_Collections_Generic_IEnumerable_float__o *)__this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).ease);
+  (__this_00->fields).start.fields.x = start.fields.x;
+  (__this_00->fields).start.fields.y = start.fields.y;
+  (__this_00->fields).start.fields.z = start.fields.z;
+  (__this_00->fields).end.fields.x = end.fields.x;
+  (__this_00->fields).end.fields.y = end.fields.y;
+  (__this_00->fields).end.fields.z = end.fields.z;
   (__this_00->fields).total = (float)(slices + 1);
-  Il2CppCodeGenWriteBarrier(&(__this_00->fields).driver,__this);
+  (__this_00->fields).driver = (System_Collections_Generic_IEnumerable_float__o *)__this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).driver);
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Interpolate$$NewEase
 // il2cpp: System_Collections_IEnumerator_o* Interpolate__NewEase (Interpolate_Function_o* ease, UnityEngine_Vector3_o start, UnityEngine_Vector3_o end, float total, System_Collections_Generic_IEnumerable_float__o* driver, const MethodInfo* method);
-// 0x181da2970
+// 0x5849740
 
 System_Collections_IEnumerator_o *
-Interpolate__NewEase_1da2970
-          (Interpolate_Function_o *ease,UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *end,float total,
+Interpolate__NewEase_5749740
+          (Interpolate_Function_o *ease,UnityEngine_Vector3_o start,UnityEngine_Vector3_o end,float total,
           System_Collections_Generic_IEnumerable_float__o *driver,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  float fVar4;
   Interpolate__NewEase_d__9_o *__this;
   
-  if (Il2CppMethodInitialized_1843448cb == '\0') {
+  if (Il2CppMethodInitialized_0754501c == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewEase_d__9);
-    Il2CppMethodInitialized_1843448cb = '\x01';
+    Il2CppMethodInitialized_0754501c = '\x01';
   }
   __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewEase_d__9);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = 0;
   (__this->fields).ease = ease;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).ease,ease);
-  fVar3 = (start->fields).y;
-  fVar1 = (start->fields).z;
-  fVar2 = (end->fields).z;
-  (__this->fields).start.fields.x = (start->fields).x;
-  (__this->fields).start.fields.y = fVar3;
-  fVar3 = (end->fields).x;
-  fVar4 = (end->fields).y;
-  (__this->fields).start.fields.z = fVar1;
-  (__this->fields).end.fields.x = fVar3;
-  (__this->fields).end.fields.y = fVar4;
-  (__this->fields).end.fields.z = fVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ease);
+  (__this->fields).start.fields.x = start.fields.x;
+  (__this->fields).start.fields.y = start.fields.y;
+  (__this->fields).start.fields.z = start.fields.z;
+  (__this->fields).end.fields.x = end.fields.x;
+  (__this->fields).end.fields.y = end.fields.y;
+  (__this->fields).end.fields.z = end.fields.z;
   (__this->fields).total = total;
   (__this->fields).driver = driver;
-  Il2CppCodeGenWriteBarrier(&(__this->fields).driver,driver);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).driver);
   return (System_Collections_IEnumerator_o *)__this;
 }
 
 
 // Interpolate$$Ease
 // il2cpp: UnityEngine_Vector3_o Interpolate__Ease (Interpolate_Function_o* ease, UnityEngine_Vector3_o start, UnityEngine_Vector3_o distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1e00
+// 0x5849960
 
-UnityEngine_Vector3_o *
-Interpolate__Ease(UnityEngine_Vector3_o *__return_storage_ptr__,Interpolate_Function_o *ease,
-                 UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *distance,float elapsedTime,float duration
-                 ,MethodInfo *method)
+UnityEngine_Vector3_o
+Interpolate__Ease(Interpolate_Function_o *ease,UnityEngine_Vector3_o start,UnityEngine_Vector3_o distance,
+                 float elapsedTime,float duration,MethodInfo *method)
 
 {
   undefined4 uVar1;
-  undefined4 uVar2;
-  float fVar3;
+  float fVar2;
+  UnityEngine_Vector3_o UVar3;
+  float fStack_34;
+  float fStack_24;
   
-  if (ease != (Interpolate_Function_o *)0x0) {
-    uVar1 = (*(code *)(ease->fields).invoke_impl)
-                      ((ease->fields).method_code,(start->fields).x,(distance->fields).x,elapsedTime,duration,
-                       (ease->fields).method);
-    uVar2 = (*(code *)(ease->fields).invoke_impl)
-                      ((ease->fields).method_code,(start->fields).y,(distance->fields).y,elapsedTime,duration,
-                       (ease->fields).method);
-    fVar3 = (float)(*(code *)(ease->fields).invoke_impl)
-                             ((ease->fields).method_code,(start->fields).z,(distance->fields).z,elapsedTime,
-                              duration,(ease->fields).method);
-    (start->fields).z = fVar3;
-    (start->fields).x = (float)uVar1;
-    (start->fields).y = (float)uVar2;
-    fVar3 = (start->fields).z;
-    (__return_storage_ptr__->fields).x = (float)uVar1;
-    (__return_storage_ptr__->fields).y = (float)uVar2;
-    (__return_storage_ptr__->fields).z = fVar3;
-    return __return_storage_ptr__;
+  if (ease == (Interpolate_Function_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  UVar3.fields.x =
+       (*(code *)(ease->fields).invoke_impl)
+                 (start.fields.x,distance.fields.x,elapsedTime,duration,(ease->fields).method_code,
+                  (ease->fields).method);
+  fStack_24 = start.fields.y;
+  fStack_34 = distance.fields.y;
+  uVar1 = (*(code *)(ease->fields).invoke_impl)
+                    (fStack_24,fStack_34,elapsedTime,duration,(ease->fields).method_code,(ease->fields).method
+                    );
+  fVar2 = (float)(*(code *)(ease->fields).invoke_impl)
+                           (start.fields.z,distance.fields.z,elapsedTime,duration,(ease->fields).method_code,
+                            (ease->fields).method);
+  UVar3.fields.y = (float)uVar1;
+  UVar3.fields.z = fVar2;
+  return (UnityEngine_Vector3_o)UVar3.fields;
 }
 
 
 // Interpolate$$Ease
 // il2cpp: Interpolate_Function_o* Interpolate__Ease (int32_t type, const MethodInfo* method);
-// 0x181da1f10
+// 0x5849a20
 
-Interpolate_Function_o * Interpolate__Ease_1da1f10(int32_t type,MethodInfo *method)
+Interpolate_Function_o * Interpolate__Ease_5749a20(int32_t type,MethodInfo *method)
 
 {
-  DG_Tweening_EaseFunction_o *__this;
-  MethodInfo *method_00;
+  uint8_t uVar1;
+  MethodInfo *pMVar2;
+  char cVar3;
+  Interpolate_Function_o *pIVar4;
+  MethodInfo **ppMVar5;
+  undefined1 *puVar6;
+  Il2CppObject *ex;
   
-  if (Il2CppMethodInitialized_1843448cc == '\0') {
+  if (Il2CppMethodInitialized_0754501d == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_Function);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_EaseInCirc);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_EaseInCubic);
@@ -4423,132 +5072,129 @@ Interpolate_Function_o * Interpolate__Ease_1da1f10(int32_t type,MethodInfo *meth
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_EaseOutQuint);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_EaseOutSine);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_Linear);
-    Il2CppMethodInitialized_1843448cc = '\x01';
+    Il2CppMethodInitialized_0754501d = '\x01';
   }
-  __this = (DG_Tweening_EaseFunction_o *)0x0;
   switch(type) {
   case 0:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_Linear;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_Linear;
     break;
   case 1:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInQuad;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInQuad;
     break;
   case 2:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutQuad;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutQuad;
     break;
   case 3:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutQuad;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutQuad;
     break;
   case 4:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInCubic;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInCubic;
     break;
   case 5:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutCubic;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutCubic;
     break;
   case 6:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutCubic;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutCubic;
     break;
   case 7:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInQuart;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInQuart;
     break;
   case 8:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutQuart;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutQuart;
     break;
   case 9:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutQuart;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutQuart;
     break;
   case 10:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInQuint;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInQuint;
     break;
   case 0xb:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutQuint;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutQuint;
     break;
   case 0xc:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutQuint;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutQuint;
     break;
   case 0xd:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInSine;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInSine;
     break;
   case 0xe:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutSine;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutSine;
     break;
   case 0xf:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutSine;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutSine;
     break;
   case 0x10:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInExpo;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInExpo;
     break;
   case 0x11:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutExpo;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutExpo;
     break;
   case 0x12:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutExpo;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutExpo;
     break;
   case 0x13:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInCirc;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInCirc;
     break;
   case 0x14:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseOutCirc;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseOutCirc;
     break;
   case 0x15:
-    __this = (DG_Tweening_EaseFunction_o *)
-             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
-    method_00 = MethodInfo_Interpolate_EaseInOutCirc;
+    pIVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_Function);
+    ppMVar5 = &MethodInfo_Interpolate_EaseInOutCirc;
     break;
   default:
-    goto switchD_181da2061_default;
+    return (Interpolate_Function_o *)0x0;
   }
-  Interpolate_Function___ctor(__this,(Il2CppObject *)0x0,(intptr_t)method_00,(MethodInfo *)0x0);
-switchD_181da2061_default:
-  return (Interpolate_Function_o *)__this;
+  pMVar2 = *ppMVar5;
+  (pIVar4->fields).method_ptr = (intptr_t)pMVar2->virtualMethodPointer;
+  (pIVar4->fields).method = (intptr_t)pMVar2;
+  (pIVar4->fields).m_target = (Il2CppObject *)0x0;
+  Il2CppCodeGenWriteBarrier(&(pIVar4->fields).m_target);
+  uVar1 = pMVar2->parameters_count;
+  (pIVar4->fields).method_code = (intptr_t)pIVar4;
+  cVar3 = il2cpp_runtime_helper_030d61c0();
+  if (cVar3 == '\0') {
+    ex = il2cpp_codegen_get_argument_exception
+                   ((char *)0x0,"Delegate to an instance method cannot have null \'this\'.");
+    il2cpp_codegen_raise_exception(ex,(MethodInfo *)0x0);
+  }
+  if (uVar1 == 4) {
+    puVar6 = &label_02fce3a0;
+  }
+  else {
+    puVar6 = (undefined1 *)(pIVar4->fields).method_ptr;
+    (pIVar4->fields).method_code = (intptr_t)(pIVar4->fields).m_target;
+  }
+  (pIVar4->fields).invoke_impl = (intptr_t)puVar6;
+  (pIVar4->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_02fce310;
+  return pIVar4;
 }
 
 
 // Interpolate$$NewBezier
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier (Interpolate_Function_o* ease, UnityEngine_Transform_array* nodes, float duration, const MethodInfo* method);
-// 0x181da25f0
+// 0x5849f10
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewBezier
@@ -4556,582 +5202,660 @@ Interpolate__NewBezier
 
 {
   int32_t iVar1;
-  Interpolate__NewTimer_d__3_o *steps;
-  Interpolate_ToVector3_T__o *toVector3;
+  Interpolate__NewTimer_d__3_o *__this;
+  Interpolate_ToVector3_T__o *__this_00;
   System_Collections_Generic_IEnumerable_Vector3__o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843448cd == '\0') {
+  if (Il2CppMethodInitialized_0754501e == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewBezier_Transform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_TransformDotPosition);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Transform);
-    Il2CppMethodInitialized_1843448cd = '\x01';
+    Il2CppMethodInitialized_0754501e = '\x01';
   }
-  if (Il2CppMethodInitialized_1843448c9 == '\0') {
+  if (Il2CppMethodInitialized_0754501a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448c9 = '\x01';
+    Il2CppMethodInitialized_0754501a = '\x01';
   }
-  steps = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)steps,(MethodInfo *)0x0);
-  (steps->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (steps->fields).__l__initialThreadId = iVar1;
-  (steps->fields).__3__duration = duration;
-  toVector3 = (Interpolate_ToVector3_T__o *)
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = -2;
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
+  (__this->fields).__3__duration = duration;
+  __this_00 = (Interpolate_ToVector3_T__o *)
               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Transform);
-  System_Func_object__ValueTuple_bool__Vector2_____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_TransformDotPosition,(MethodInfo_E41220 *)0x0);
-  pSVar2 = Interpolate__NewBezier_Vector3_
-                     (ease,(System_Collections_IList_o *)nodes,toVector3,duration,
-                      (System_Collections_Generic_IEnumerable_float__o *)steps,
-                      (MethodInfo_7130B0 *)MethodInfo_Interpolate_NewBezier_Transform);
+  Interpolate_ToVector3_object____ctor
+            (__this_00,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Interpolate_TransformDotPosition,
+             (MethodInfo_4266310 *)0x0);
+  pSVar2 = Interpolate__NewBezier_object_
+                     (ease,(System_Collections_IList_o *)nodes,__this_00,duration,
+                      (System_Collections_Generic_IEnumerable_float__o *)__this,
+                      (MethodInfo_356A500 *)MethodInfo_Interpolate_NewBezier_Transform);
   return pSVar2;
 }
 
 
 // Interpolate$$NewBezier
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier (Interpolate_Function_o* ease, UnityEngine_Transform_array* nodes, int32_t slices, const MethodInfo* method);
-// 0x181da24f0
+// 0x584a000
 
 System_Collections_Generic_IEnumerable_Vector3__o *
-Interpolate__NewBezier_1da24f0
+Interpolate__NewBezier_574a000
           (Interpolate_Function_o *ease,UnityEngine_Transform_array *nodes,int32_t slices,MethodInfo *method)
 
 {
   int32_t iVar1;
-  Interpolate__NewCounter_d__6_o *steps;
-  Interpolate_ToVector3_T__o *toVector3;
+  Interpolate__NewCounter_d__6_o *__this;
+  Interpolate_ToVector3_T__o *__this_00;
   System_Collections_Generic_IEnumerable_Vector3__o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843448ce == '\0') {
+  if (Il2CppMethodInitialized_0754501f == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewBezier_Transform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_TransformDotPosition);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Transform);
-    Il2CppMethodInitialized_1843448ce = '\x01';
+    Il2CppMethodInitialized_0754501f = '\x01';
   }
-  if (Il2CppMethodInitialized_1843448ca == '\0') {
+  if (Il2CppMethodInitialized_0754501b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448ca = '\x01';
+    Il2CppMethodInitialized_0754501b = '\x01';
   }
-  steps = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)steps,(MethodInfo *)0x0);
-  (steps->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (steps->fields).__l__initialThreadId = iVar1;
-  (steps->fields).__3__end = slices + 1;
-  (steps->fields).__3__start = 0;
-  (steps->fields).__3__step = 1;
-  toVector3 = (Interpolate_ToVector3_T__o *)
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = -2;
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
+  (__this->fields).__3__start = 0;
+  (__this->fields).__3__end = slices + 1;
+  (__this->fields).__3__step = 1;
+  __this_00 = (Interpolate_ToVector3_T__o *)
               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Transform);
-  System_Func_object__ValueTuple_bool__Vector2_____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_TransformDotPosition,(MethodInfo_E41220 *)0x0);
-  pSVar2 = Interpolate__NewBezier_Vector3_
-                     (ease,(System_Collections_IList_o *)nodes,toVector3,(float)(slices + 1),
-                      (System_Collections_Generic_IEnumerable_float__o *)steps,
-                      (MethodInfo_7130B0 *)MethodInfo_Interpolate_NewBezier_Transform);
+  Interpolate_ToVector3_object____ctor
+            (__this_00,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Interpolate_TransformDotPosition,
+             (MethodInfo_4266310 *)0x0);
+  pSVar2 = Interpolate__NewBezier_object_
+                     (ease,(System_Collections_IList_o *)nodes,__this_00,(float)(slices + 1),
+                      (System_Collections_Generic_IEnumerable_float__o *)__this,
+                      (MethodInfo_356A500 *)MethodInfo_Interpolate_NewBezier_Transform);
   return pSVar2;
 }
 
 
 // Interpolate$$NewBezier
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier (Interpolate_Function_o* ease, UnityEngine_Vector3_array* points, float duration, const MethodInfo* method);
-// 0x181da2400
+// 0x584a100
 
 System_Collections_Generic_IEnumerable_Vector3__o *
-Interpolate__NewBezier_1da2400
+Interpolate__NewBezier_574a100
           (Interpolate_Function_o *ease,UnityEngine_Vector3_array *points,float duration,MethodInfo *method)
 
 {
   int32_t iVar1;
-  Interpolate__NewTimer_d__3_o *steps;
+  Interpolate__NewTimer_d__3_o *__this;
   Interpolate_ToVector3_T__o *toVector3;
   System_Collections_Generic_IEnumerable_Vector3__o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843448cf == '\0') {
+  if (Il2CppMethodInitialized_07545020 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_Identity);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewBezier_Vector3);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Vector3);
-    Il2CppMethodInitialized_1843448cf = '\x01';
+    Il2CppMethodInitialized_07545020 = '\x01';
   }
-  if (Il2CppMethodInitialized_1843448c9 == '\0') {
+  if (Il2CppMethodInitialized_0754501a == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewTimer_d__3);
-    Il2CppMethodInitialized_1843448c9 = '\x01';
+    Il2CppMethodInitialized_0754501a = '\x01';
   }
-  steps = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)steps,(MethodInfo *)0x0);
-  (steps->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (steps->fields).__l__initialThreadId = iVar1;
-  (steps->fields).__3__duration = duration;
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewTimer_d__3);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = -2;
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
+  (__this->fields).__3__duration = duration;
   toVector3 = (Interpolate_ToVector3_T__o *)
               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Vector3);
   Interpolate_ToVector3_Vector3____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_E41310 *)0x0);
+            ((Interpolate_ToVector3_Vector3__o *)toVector3,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_4266490 *)0x0);
   pSVar2 = Interpolate__NewBezier_Vector3_
                      (ease,(System_Collections_IList_o *)points,toVector3,duration,
-                      (System_Collections_Generic_IEnumerable_float__o *)steps,
-                      (MethodInfo_7130B0 *)MethodInfo_Interpolate_NewBezier_Vector3);
+                      (System_Collections_Generic_IEnumerable_float__o *)__this,
+                      (MethodInfo_356A5F0 *)MethodInfo_Interpolate_NewBezier_Vector3);
   return pSVar2;
 }
 
 
 // Interpolate$$NewBezier
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier (Interpolate_Function_o* ease, UnityEngine_Vector3_array* points, int32_t slices, const MethodInfo* method);
-// 0x181da2300
+// 0x584a1f0
 
 System_Collections_Generic_IEnumerable_Vector3__o *
-Interpolate__NewBezier_1da2300
+Interpolate__NewBezier_574a1f0
           (Interpolate_Function_o *ease,UnityEngine_Vector3_array *points,int32_t slices,MethodInfo *method)
 
 {
   int32_t iVar1;
-  Interpolate__NewCounter_d__6_o *steps;
+  Interpolate__NewCounter_d__6_o *__this;
   Interpolate_ToVector3_T__o *toVector3;
   System_Collections_Generic_IEnumerable_Vector3__o *pSVar2;
   
-  if (Il2CppMethodInitialized_1843448d0 == '\0') {
+  if (Il2CppMethodInitialized_07545021 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_Identity);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewBezier_Vector3);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Vector3);
-    Il2CppMethodInitialized_1843448d0 = '\x01';
+    Il2CppMethodInitialized_07545021 = '\x01';
   }
-  if (Il2CppMethodInitialized_1843448ca == '\0') {
+  if (Il2CppMethodInitialized_0754501b == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_NewCounter_d__6);
-    Il2CppMethodInitialized_1843448ca = '\x01';
+    Il2CppMethodInitialized_0754501b = '\x01';
   }
-  steps = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)steps,(MethodInfo *)0x0);
-  (steps->fields).__1__state = -2;
-  iVar1 = System_Diagnostics_TraceEventCache__GetThreadId((MethodInfo *)0x0);
-  (steps->fields).__l__initialThreadId = iVar1;
-  (steps->fields).__3__end = slices + 1;
-  (steps->fields).__3__start = 0;
-  (steps->fields).__3__step = 1;
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_NewCounter_d__6);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = -2;
+  iVar1 = System_Environment__get_CurrentManagedThreadId((MethodInfo *)0x0);
+  (__this->fields).__l__initialThreadId = iVar1;
+  (__this->fields).__3__start = 0;
+  (__this->fields).__3__end = slices + 1;
+  (__this->fields).__3__step = 1;
   toVector3 = (Interpolate_ToVector3_T__o *)
               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Vector3);
   Interpolate_ToVector3_Vector3____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_E41310 *)0x0);
+            ((Interpolate_ToVector3_Vector3__o *)toVector3,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_4266490 *)0x0);
   pSVar2 = Interpolate__NewBezier_Vector3_
                      (ease,(System_Collections_IList_o *)points,toVector3,(float)(slices + 1),
-                      (System_Collections_Generic_IEnumerable_float__o *)steps,
-                      (MethodInfo_7130B0 *)MethodInfo_Interpolate_NewBezier_Vector3);
+                      (System_Collections_Generic_IEnumerable_float__o *)__this,
+                      (MethodInfo_356A5F0 *)MethodInfo_Interpolate_NewBezier_Vector3);
   return pSVar2;
 }
 
 
 // Interpolate$$NewBezier<object>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier_object_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_7130B0* method);
-// 0x1807130b0
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier_object_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_356A500* method);
+// 0x366a500
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a5e3: jmp 0x366a541
 
-System_Collections_Generic_IEnumerable_Vector3__o*
-Interpolate__NewBezier_object_(Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, MethodInfo_7130B0* method)
+System_Collections_Generic_IEnumerable_Vector3__o *
+Interpolate__NewBezier_object_
+          (Interpolate_Function_o *ease,System_Collections_IList_o *nodes,
+          Interpolate_ToVector3_T__o *toVector3,float maxStep,
+          System_Collections_Generic_IEnumerable_float__o *steps,MethodInfo_356A500 *method)
 
 {
+  byte bVar1;
   Il2CppClass *klass;
-  System_Xml_Linq_XElement__GetAttributes_d__116_o *__this;
+  Interpolate__NewBezier_d__16_T__o *__this;
   
-  if (method->rgctx_data == (MethodInfo_7130B0_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A500_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  __this = (System_Xml_Linq_XElement__GetAttributes_d__116_o *)il2cpp_codegen_object_new(klass);
-  System_Xml_Linq_XElement__GetAttributes_d__116___ctor
-            (__this,-2,method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor);
-  if (__this != (System_Xml_Linq_XElement__GetAttributes_d__116_o *)0x0) {
-    (*(uint64_t *)((char *)__this + 0x60)) = (System_Xml_Linq_XAttribute_o *)ease;
-    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x60)),ease);
-    (__this->fields).name = (System_Xml_Linq_XName_o *)nodes;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).name,nodes);
-    (*(uint64_t *)((char *)__this + 0x50)) = toVector3;
-    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x50)),toVector3);
-    (__this->fields)._a_5__2 = (System_Xml_Linq_XAttribute_o *)steps;
-    *(float *)&__this[1].fields.field_0x14 = maxStep;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._a_5__2,steps);
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
+  __this = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
+  Interpolate__NewBezier_d__16_object____ctor
+            (__this,-2,(MethodInfo_465C8C0 *)method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor);
+  if (__this == (Interpolate__NewBezier_d__16_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields).__3__ease = ease;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__ease);
+  (__this->fields).__3__nodes = nodes;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__nodes);
+  (__this->fields).__3__toVector3 = toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__toVector3);
+  (__this->fields).__3__maxStep = maxStep;
+  (__this->fields).__3__steps = steps;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__steps);
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
 }
 
 
 // Interpolate$$NewBezier<Vector3>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier_Vector3_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_7130B0* method);
-// 0x1807130b0
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier_Vector3_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_356A5F0* method);
+// 0x366a5f0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a6d3: jmp 0x366a631
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewBezier_Vector3_
           (Interpolate_Function_o *ease,System_Collections_IList_o *nodes,
           Interpolate_ToVector3_T__o *toVector3,float maxStep,
-          System_Collections_Generic_IEnumerable_float__o *steps,MethodInfo_7130B0 *method)
+          System_Collections_Generic_IEnumerable_float__o *steps,MethodInfo_356A5F0 *method)
 
 {
+  byte bVar1;
   Il2CppClass *klass;
-  System_Xml_Linq_XElement__GetAttributes_d__116_o *__this;
+  Interpolate__NewBezier_d__16_T__o *__this;
   
-  if (method->rgctx_data == (MethodInfo_7130B0_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A5F0_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  __this = (System_Xml_Linq_XElement__GetAttributes_d__116_o *)il2cpp_codegen_object_new(klass);
-  System_Xml_Linq_XElement__GetAttributes_d__116___ctor
-            (__this,-2,method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor);
-  if (__this != (System_Xml_Linq_XElement__GetAttributes_d__116_o *)0x0) {
-    (*(uint64_t *)((char *)__this + 0x60)) = (System_Xml_Linq_XAttribute_o *)ease;
-    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x60)),ease);
-    (__this->fields).name = (System_Xml_Linq_XName_o *)nodes;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).name,nodes);
-    (*(uint64_t *)((char *)__this + 0x50)) = toVector3;
-    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x50)),toVector3);
-    (__this->fields)._a_5__2 = (System_Xml_Linq_XAttribute_o *)steps;
-    *(float *)&__this[1].fields.field_0x14 = maxStep;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._a_5__2,steps);
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
+  __this = (Interpolate__NewBezier_d__16_T__o *)il2cpp_codegen_object_new(klass);
+  Interpolate__NewBezier_d__16_Vector3____ctor
+            (__this,-2,(MethodInfo_465D2B0 *)method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor);
+  if (__this == (Interpolate__NewBezier_d__16_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields).__3__ease = ease;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__ease);
+  (__this->fields).__3__nodes = nodes;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__nodes);
+  (__this->fields).__3__toVector3 = toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__toVector3);
+  (__this->fields).__3__maxStep = maxStep;
+  (__this->fields).__3__steps = steps;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__steps);
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
 }
 
 
 // Interpolate$$NewBezier<__Il2CppFullySharedGenericType>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier___Il2CppFullySharedGenericType_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_712FD0* method);
-// 0x180712fd0
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewBezier___Il2CppFullySharedGenericType_ (Interpolate_Function_o* ease, System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, float maxStep, System_Collections_Generic_IEnumerable_float__o* steps, const MethodInfo_356A6E0* method);
+// 0x366a6e0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a7c0: jmp 0x366a721
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewBezier___Il2CppFullySharedGenericType_
           (Interpolate_Function_o *ease,System_Collections_IList_o *nodes,
           Interpolate_ToVector3_T__o *toVector3,float maxStep,
-          System_Collections_Generic_IEnumerable_float__o *steps,MethodInfo_712FD0 *method)
+          System_Collections_Generic_IEnumerable_float__o *steps,MethodInfo_356A6E0 *method)
 
 {
-  MethodInfo *pMVar1;
+  byte bVar1;
   Il2CppClass *klass;
   Il2CppObject *pIVar2;
   
-  if (method->rgctx_data == (MethodInfo_712FD0_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A6E0_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewBezier_d__16_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   pIVar2 = il2cpp_codegen_object_new(klass);
-  pMVar1 = method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor;
-  (*pMVar1->methodPointer)(pIVar2,0xfffffffe,pMVar1);
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    pIVar2[6].klass = (Il2CppClass *)ease;
-    Il2CppCodeGenWriteBarrier(&pIVar2[6].klass,ease);
-    pIVar2[3].klass = (Il2CppClass *)nodes;
-    Il2CppCodeGenWriteBarrier(&pIVar2[3].klass,nodes);
-    pIVar2[5].klass = (Il2CppClass *)toVector3;
-    Il2CppCodeGenWriteBarrier(&pIVar2[5].klass,toVector3);
-    pIVar2[4].klass = (Il2CppClass *)steps;
-    *(float *)((longlong)&pIVar2[6].monitor + 4) = maxStep;
-    Il2CppCodeGenWriteBarrier(&pIVar2[4].klass,steps);
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)pIVar2;
+  (*method->rgctx_data->_1_Interpolate__NewBezier_d__16_T___ctor->methodPointer)(pIVar2,0xfffffffe);
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar2[6].klass = (Il2CppClass *)ease;
+  Il2CppCodeGenWriteBarrier(&pIVar2[6].klass);
+  pIVar2[3].klass = (Il2CppClass *)nodes;
+  Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+  pIVar2[5].klass = (Il2CppClass *)toVector3;
+  Il2CppCodeGenWriteBarrier(&pIVar2[5].klass);
+  *(float *)((long)&pIVar2[6].monitor + 4) = maxStep;
+  pIVar2[4].klass = (Il2CppClass *)steps;
+  Il2CppCodeGenWriteBarrier(&pIVar2[4].klass);
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)pIVar2;
 }
 
 
 // Interpolate$$Bezier
 // il2cpp: UnityEngine_Vector3_o Interpolate__Bezier (Interpolate_Function_o* ease, UnityEngine_Vector3_array* points, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da12a0
-// asm: 4 instructions the C leaves out (exception handlers, dead branches):
-// asm:   0x181da12d8: movss xmm6, dword ptr [rsp + 0xa0]
-// asm:   0x181da1418: dec ebp
-// asm:   0x181da141a: test ebp, ebp
-// asm:   0x181da141c: jg 0x181da12e1
+// 0x584a2f0
 
-UnityEngine_Vector3_o *
-Interpolate__Bezier(UnityEngine_Vector3_o *__return_storage_ptr__,Interpolate_Function_o *ease,
-                   UnityEngine_Vector3_array *points,float elapsedTime,float duration,MethodInfo *method)
+UnityEngine_Vector3_o
+Interpolate__Bezier(Interpolate_Function_o *ease,UnityEngine_Vector3_array *points,float elapsedTime,
+                   float duration,MethodInfo *method)
 
 {
-  int iVar1;
-  float fVar2;
-  uint uVar3;
-  float fVar5;
-  ulonglong uVar4;
+  ulong uVar1;
+  uint uVar2;
+  MethodInfo *extraout_RDX;
+  UnityEngine_Vector3_o *pUVar3;
+  ulong uVar4;
+  ulong uVar5;
+  ulong uVar6;
+  float fVar7;
   
   if (points == (UnityEngine_Vector3_array *)0x0) {
-label_181da1451:
+label_0584a460:
     ThrowNullReferenceException();
   }
-  iVar1 = (int)points->max_length;
-  while (iVar1 = iVar1 + -1, 0 < iVar1) {
-    uVar4 = 0;
+  uVar1 = points->max_length & 0xffffffff;
+  uVar2 = (int)points->max_length - 1;
+  if (0 < (int)uVar2) {
+    if (ease == (Interpolate_Function_o *)0x0) goto label_0584a460;
+    uVar6 = (ulong)uVar2;
     do {
-      uVar3 = (uint)uVar4;
-      if (((uint)points->max_length <= uVar3) || ((uint)points->max_length <= uVar3 + 1)) goto label_181da1457;
-      if (ease == (Interpolate_Function_o *)0x0) goto label_181da1451;
-      fVar5 = (float)(*(code *)(ease->fields).invoke_impl)
-                               ((ease->fields).method_code,points->m_Items[uVar4].fields.x,
-                                points->m_Items[uVar4 + 1].fields.x - points->m_Items[uVar4].fields.x,
-                                elapsedTime,duration,(ease->fields).method);
-      if (((((uint)points->max_length <= uVar3) ||
-           (points->m_Items[uVar4].fields.x = fVar5, (uint)points->max_length <= uVar3)) ||
-          ((uint)points->max_length <= uVar3 + 1)) ||
-         (((fVar5 = (float)(*(code *)(ease->fields).invoke_impl)
-                                     ((ease->fields).method_code,points->m_Items[uVar4].fields.y,
-                                      points->m_Items[uVar4 + 1].fields.y - points->m_Items[uVar4].fields.y,
-                                      elapsedTime,duration,(ease->fields).method),
-           (uint)points->max_length <= uVar3 ||
-           (points->m_Items[uVar4].fields.y = fVar5, (uint)points->max_length <= uVar3)) ||
-          (((uint)points->max_length <= uVar3 + 1 ||
-           (fVar5 = (float)(*(code *)(ease->fields).invoke_impl)
-                                     ((ease->fields).method_code,points->m_Items[uVar4].fields.z,
-                                      points->m_Items[uVar4 + 1].fields.z - points->m_Items[uVar4].fields.z,
-                                      elapsedTime,duration,(ease->fields).method),
-           (uint)points->max_length <= uVar3)))))) goto label_181da1457;
-      points->m_Items[uVar4].fields.z = fVar5;
-      uVar4 = (ulonglong)(uVar3 + 1);
-    } while ((int)(uVar3 + 1) < iVar1);
+      pUVar3 = points->m_Items;
+      uVar4 = 0;
+      do {
+        if ((uVar1 <= uVar4) || (uVar5 = uVar4 + 1, uVar1 <= uVar5)) goto label_0584a45b;
+        fVar7 = (pUVar3->fields).x;
+        fVar7 = (float)(*(code *)(ease->fields).invoke_impl)
+                                 (fVar7,(*(uint32_t *)((char *)pUVar3 + 0x2c)) - fVar7,elapsedTime,duration,
+                                  (ease->fields).method_code,(ease->fields).method,method);
+        uVar1 = (ulong)(uint)points->max_length;
+        if ((uVar1 <= uVar4) || ((pUVar3->fields).x = fVar7, uVar1 <= uVar5)) goto label_0584a45b;
+        fVar7 = (pUVar3->fields).y;
+        fVar7 = (float)(*(code *)(ease->fields).invoke_impl)
+                                 (fVar7,(*(uint32_t *)((char *)pUVar3 + 0x30)) - fVar7,elapsedTime,duration,
+                                  (ease->fields).method_code,(ease->fields).method);
+        uVar1 = (ulong)(uint)points->max_length;
+        if ((uVar1 <= uVar4) || ((pUVar3->fields).y = fVar7, uVar1 <= uVar5)) goto label_0584a45b;
+        fVar7 = (pUVar3->fields).z;
+        fVar7 = (float)(*(code *)(ease->fields).invoke_impl)
+                                 (fVar7,(*(uint32_t *)((char *)pUVar3 + 0x34)) - fVar7,elapsedTime,duration,
+                                  (ease->fields).method_code,(ease->fields).method);
+        uVar1 = (ulong)(uint)points->max_length;
+        if (uVar1 <= uVar4) goto label_0584a45b;
+        (pUVar3->fields).z = fVar7;
+        pUVar3 = pUVar3 + 1;
+        method = extraout_RDX;
+        uVar4 = uVar5;
+      } while (uVar5 != uVar6);
+      uVar6 = uVar6 - 1;
+    } while (0 < (int)uVar6);
   }
-  if ((int)points->max_length != 0) {
-    fVar5 = points->m_Items[0].fields.z;
-    fVar2 = points->m_Items[0].fields.y;
-    (__return_storage_ptr__->fields).x = points->m_Items[0].fields.x;
-    (__return_storage_ptr__->fields).y = fVar2;
-    (__return_storage_ptr__->fields).z = fVar5;
-    return __return_storage_ptr__;
+  if (uVar1 != 0) {
+    return (UnityEngine_Vector3_o)points->m_Items[0].fields;
   }
-label_181da1457:
+label_0584a45b:
   ThrowIndexOutOfRangeException();
 }
 
 
 // Interpolate$$NewCatmullRom
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom (UnityEngine_Transform_array* nodes, int32_t slices, bool loop, const MethodInfo* method);
-// 0x181da2770
+// 0x584a470
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewCatmullRom(UnityEngine_Transform_array *nodes,int32_t slices,bool loop,MethodInfo *method)
 
 {
-  Interpolate_ToVector3_T__o *toVector3;
+  Interpolate_ToVector3_T__o *__this;
   System_Collections_Generic_IEnumerable_Vector3__o *pSVar1;
   
-  if (Il2CppMethodInitialized_1843448d1 == '\0') {
+  if (Il2CppMethodInitialized_07545022 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewCatmullRom_Transform);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_TransformDotPosition);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Transform);
-    Il2CppMethodInitialized_1843448d1 = '\x01';
+    Il2CppMethodInitialized_07545022 = '\x01';
   }
-  toVector3 = (Interpolate_ToVector3_T__o *)
-              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Transform);
-  System_Func_object__ValueTuple_bool__Vector2_____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_TransformDotPosition,(MethodInfo_E41220 *)0x0);
-  pSVar1 = Interpolate__NewCatmullRom_Vector3_
-                     ((System_Collections_IList_o *)nodes,toVector3,slices,loop,
-                      (MethodInfo_713240 *)MethodInfo_Interpolate_NewCatmullRom_Transform);
+  __this = (Interpolate_ToVector3_T__o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Transform);
+  Interpolate_ToVector3_object____ctor
+            (__this,(Il2CppObject *)0x0,(intptr_t)MethodInfo_Interpolate_TransformDotPosition,
+             (MethodInfo_4266310 *)0x0);
+  pSVar1 = Interpolate__NewCatmullRom_object_
+                     ((System_Collections_IList_o *)nodes,__this,slices,loop,
+                      (MethodInfo_356A7D0 *)MethodInfo_Interpolate_NewCatmullRom_Transform);
   return pSVar1;
 }
 
 
 // Interpolate$$NewCatmullRom
 // il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom (UnityEngine_Vector3_array* points, int32_t slices, bool loop, const MethodInfo* method);
-// 0x181da26e0
+// 0x584a510
+// asm: 22 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x584a554: lea rax, [rip + 0x1a2902d]  ; TypeInfo_Interpolate_ToVector3_Vector3
+// asm:   0x584a55b: mov rdi, qword ptr [rax]
+// asm:   0x584a55e: call 0x30d6370  ; il2cpp_runtime_helper_030d6370()
+// asm:   0x584a563: mov rbp, rax
+// asm:   0x584a566: lea rax, [rip + 0x1a624b3]  ; MethodInfo_Interpolate_Identity
+// asm:   0x584a56d: mov rdx, qword ptr [rax]
+// asm:   0x584a570: mov rdi, rbp
+// asm:   0x584a573: xor esi, esi
+// asm:   0x584a575: xor ecx, ecx
+// asm:   0x584a577: call 0x4366490  ; Interpolate_ToVector3_Vector3____ctor()
+// asm:   0x584a57c: lea rax, [rip + 0x1a623ed]  ; MethodInfo_Interpolate_NewCatmullRom_Vector3
+// asm:   0x584a583: mov r8, qword ptr [rax]
+// asm:   0x584a586: movzx ecx, r15b
+// asm:   0x584a58a: mov rdi, rbx
+// asm:   0x584a58d: mov rsi, rbp
+// asm:   0x584a590: mov edx, r14d
+// asm:   0x584a593: add rsp, 8
+// asm:   0x584a597: pop rbx
+// asm:   0x584a598: pop r14
+// asm:   0x584a59a: pop r15
+// asm:   0x584a59c: pop rbp
+// asm:   0x584a59d: jmp 0x366a890  ; Interpolate__NewCatmullRom_Vector3_()
 
 System_Collections_Generic_IEnumerable_Vector3__o *
-Interpolate__NewCatmullRom_1da26e0
+Interpolate__NewCatmullRom_574a510
           (UnityEngine_Vector3_array *points,int32_t slices,bool loop,MethodInfo *method)
 
 {
-  Interpolate_ToVector3_T__o *toVector3;
-  System_Collections_Generic_IEnumerable_Vector3__o *pSVar1;
+  byte bVar1;
+  MethodInfo *pMVar2;
+  Il2CppClass *klass;
+  Interpolate__NewCatmullRom_d__20_T__o *__this;
+  Interpolate_ToVector3_T__o *__this_00;
   
-  if (Il2CppMethodInitialized_1843448d2 == '\0') {
+  if (Il2CppMethodInitialized_07545023 == '\0') {
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_Identity);
     il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Interpolate_NewCatmullRom_Vector3);
     il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Interpolate_ToVector3_Vector3);
-    Il2CppMethodInitialized_1843448d2 = '\x01';
+    Il2CppMethodInitialized_07545023 = '\x01';
   }
-  toVector3 = (Interpolate_ToVector3_T__o *)
+  __this_00 = (Interpolate_ToVector3_T__o *)
               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Interpolate_ToVector3_Vector3);
   Interpolate_ToVector3_Vector3____ctor
-            ((System_Func_T__TResult__o *)toVector3,(Il2CppObject *)0x0,
-             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_E41310 *)0x0);
-  pSVar1 = Interpolate__NewCatmullRom_Vector3_
-                     ((System_Collections_IList_o *)points,toVector3,slices,loop,
-                      (MethodInfo_713240 *)MethodInfo_Interpolate_NewCatmullRom_Vector3);
-  return pSVar1;
+            ((Interpolate_ToVector3_Vector3__o *)__this_00,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_Interpolate_Identity,(MethodInfo_4266490 *)0x0);
+  pMVar2 = MethodInfo_Interpolate_NewCatmullRom_Vector3;
+  if ((MethodInfo_Interpolate_NewCatmullRom_Vector3->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+    il2cpp_codegen_rgctx_method_init(MethodInfo_Interpolate_NewCatmullRom_Vector3);
+    klass = ((pMVar2->field7_0x38).rgctx_data)->klass;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  else {
+    klass = ((MethodInfo_Interpolate_NewCatmullRom_Vector3->field7_0x38).rgctx_data)->klass;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
+    klass = il2cpp_codegen_class_init_checked(klass);
+  }
+  __this = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
+  Interpolate__NewCatmullRom_d__20_Vector3____ctor
+            (__this,-2,(MethodInfo_494FFA0 *)(pMVar2->field7_0x38).rgctx_data[1].method);
+  if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  (__this->fields).__3__nodes = (System_Collections_IList_o *)points;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__nodes);
+  (__this->fields).__3__toVector3 = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__toVector3);
+  (__this->fields).__3__slices = slices;
+  (__this->fields).__3__loop = loop;
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
 }
 
 
 // Interpolate$$NewCatmullRom<object>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom_object_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_713240* method);
-// 0x180713240
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom_object_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_356A7D0* method);
+// 0x366a7d0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a87e: jmp 0x366a807
 
-System_Collections_Generic_IEnumerable_Vector3__o*
-Interpolate__NewCatmullRom_object_(System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, MethodInfo_713240* method)
+System_Collections_Generic_IEnumerable_Vector3__o *
+Interpolate__NewCatmullRom_object_
+          (System_Collections_IList_o *nodes,Interpolate_ToVector3_T__o *toVector3,int32_t slices,bool loop,
+          MethodInfo_356A7D0 *method)
 
 {
+  byte bVar1;
   Il2CppClass *klass;
-  System_Xml_Linq_XElement__GetAttributes_d__116_o *__this;
+  Interpolate__NewCatmullRom_d__20_T__o *__this;
   
-  if (method->rgctx_data == (MethodInfo_713240_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A7D0_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  __this = (System_Xml_Linq_XElement__GetAttributes_d__116_o *)il2cpp_codegen_object_new(klass);
-  System_Xml_Linq_XElement__GetAttributes_d__116___ctor
-            (__this,-2,method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor);
-  if (__this != (System_Xml_Linq_XElement__GetAttributes_d__116_o *)0x0) {
-    (__this->fields).name = (System_Xml_Linq_XName_o *)nodes;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).name,nodes);
-    (__this->fields)._a_5__2 = (System_Xml_Linq_XAttribute_o *)toVector3;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._a_5__2,toVector3);
-    *(int32_t *)&(*(uint64_t *)((char *)__this + 0x50)) = slices;
-    *(bool *)((longlong)&(*(uint64_t *)((char *)__this + 0x48)) + 1) = loop;
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
+  __this = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
+  Interpolate__NewCatmullRom_d__20_object____ctor
+            (__this,-2,(MethodInfo_465E5F0 *)method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor)
+  ;
+  if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields).__3__nodes = nodes;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__nodes);
+  (__this->fields).__3__toVector3 = toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__toVector3);
+  (__this->fields).__3__slices = slices;
+  (__this->fields).__3__loop = loop;
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
 }
 
 
 // Interpolate$$NewCatmullRom<Vector3>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom_Vector3_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_713240* method);
-// 0x180713240
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom_Vector3_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_356A890* method);
+// 0x366a890
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a93e: jmp 0x366a8c7
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewCatmullRom_Vector3_
           (System_Collections_IList_o *nodes,Interpolate_ToVector3_T__o *toVector3,int32_t slices,bool loop,
-          MethodInfo_713240 *method)
+          MethodInfo_356A890 *method)
 
 {
+  byte bVar1;
   Il2CppClass *klass;
-  System_Xml_Linq_XElement__GetAttributes_d__116_o *__this;
+  Interpolate__NewCatmullRom_d__20_T__o *__this;
   
-  if (method->rgctx_data == (MethodInfo_713240_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A890_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
-  __this = (System_Xml_Linq_XElement__GetAttributes_d__116_o *)il2cpp_codegen_object_new(klass);
-  System_Xml_Linq_XElement__GetAttributes_d__116___ctor
-            (__this,-2,method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor);
-  if (__this != (System_Xml_Linq_XElement__GetAttributes_d__116_o *)0x0) {
-    (__this->fields).name = (System_Xml_Linq_XName_o *)nodes;
-    Il2CppCodeGenWriteBarrier(&(__this->fields).name,nodes);
-    (__this->fields)._a_5__2 = (System_Xml_Linq_XAttribute_o *)toVector3;
-    Il2CppCodeGenWriteBarrier(&(__this->fields)._a_5__2,toVector3);
-    *(int32_t *)&(*(uint64_t *)((char *)__this + 0x50)) = slices;
-    *(bool *)((longlong)&(*(uint64_t *)((char *)__this + 0x48)) + 1) = loop;
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
+  __this = (Interpolate__NewCatmullRom_d__20_T__o *)il2cpp_codegen_object_new(klass);
+  Interpolate__NewCatmullRom_d__20_Vector3____ctor
+            (__this,-2,(MethodInfo_494FFA0 *)method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor)
+  ;
+  if (__this == (Interpolate__NewCatmullRom_d__20_T__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  (__this->fields).__3__nodes = nodes;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__nodes);
+  (__this->fields).__3__toVector3 = toVector3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).__3__toVector3);
+  (__this->fields).__3__slices = slices;
+  (__this->fields).__3__loop = loop;
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)__this;
 }
 
 
 // Interpolate$$NewCatmullRom<__Il2CppFullySharedGenericType>
-// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom___Il2CppFullySharedGenericType_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_713190* method);
-// 0x180713190
+// il2cpp: System_Collections_Generic_IEnumerable_Vector3__o* Interpolate__NewCatmullRom___Il2CppFullySharedGenericType_ (System_Collections_IList_o* nodes, Interpolate_ToVector3_T__o* toVector3, int32_t slices, bool loop, const MethodInfo_356A950* method);
+// 0x366a950
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x366a9fb: jmp 0x366a987
 
 System_Collections_Generic_IEnumerable_Vector3__o *
 Interpolate__NewCatmullRom___Il2CppFullySharedGenericType_
           (System_Collections_IList_o *nodes,Interpolate_ToVector3_T__o *toVector3,int32_t slices,bool loop,
-          MethodInfo_713190 *method)
+          MethodInfo_356A950 *method)
 
 {
-  MethodInfo *pMVar1;
+  byte bVar1;
   Il2CppClass *klass;
   Il2CppObject *pIVar2;
   
-  if (method->rgctx_data == (MethodInfo_713190_RGCTXs *)0x0) {
+  if (method->rgctx_data == (MethodInfo_356A950_RGCTXs *)0x0) {
     il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
   }
-  klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
-  if (((klass->_2).bitflags1 & 1) == 0) {
+  else {
+    klass = method->rgctx_data->_0_Interpolate__NewCatmullRom_d__20_T_;
+    bVar1 = (klass->_2).bitflags1;
+  }
+  if ((bVar1 & 1) == 0) {
     klass = il2cpp_codegen_class_init_checked(klass);
   }
   pIVar2 = il2cpp_codegen_object_new(klass);
-  pMVar1 = method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor;
-  (*pMVar1->methodPointer)(pIVar2,0xfffffffe,pMVar1);
-  if (pIVar2 != (Il2CppObject *)0x0) {
-    pIVar2[3].klass = (Il2CppClass *)nodes;
-    Il2CppCodeGenWriteBarrier(&pIVar2[3].klass,nodes);
-    pIVar2[4].klass = (Il2CppClass *)toVector3;
-    Il2CppCodeGenWriteBarrier(&pIVar2[4].klass,toVector3);
-    *(int32_t *)&pIVar2[5].klass = slices;
-    *(bool *)((longlong)&pIVar2[4].monitor + 1) = loop;
-    return (System_Collections_Generic_IEnumerable_Vector3__o *)pIVar2;
+  (*method->rgctx_data->_1_Interpolate__NewCatmullRom_d__20_T___ctor->methodPointer)(pIVar2,0xfffffffe);
+  if (pIVar2 == (Il2CppObject *)0x0) {
+    ThrowNullReferenceException();
   }
-  ThrowNullReferenceException();
+  pIVar2[3].klass = (Il2CppClass *)nodes;
+  Il2CppCodeGenWriteBarrier(&pIVar2[3].klass);
+  pIVar2[4].klass = (Il2CppClass *)toVector3;
+  Il2CppCodeGenWriteBarrier(&pIVar2[4].klass);
+  *(int32_t *)&pIVar2[5].klass = slices;
+  *(bool *)((long)&pIVar2[4].monitor + 1) = loop;
+  return (System_Collections_Generic_IEnumerable_Vector3__o *)pIVar2;
 }
 
 
 // Interpolate$$CatmullRom
 // il2cpp: UnityEngine_Vector3_o Interpolate__CatmullRom (UnityEngine_Vector3_o previous, UnityEngine_Vector3_o start, UnityEngine_Vector3_o end, UnityEngine_Vector3_o next, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1460
+// 0x584a5b0
 
-UnityEngine_Vector3_o *
+UnityEngine_Vector3_o
 Interpolate__CatmullRom
-          (UnityEngine_Vector3_o *__return_storage_ptr__,UnityEngine_Vector3_o *previous,
-          UnityEngine_Vector3_o *start,UnityEngine_Vector3_o *end,UnityEngine_Vector3_o *next,
-          float elapsedTime,float duration,MethodInfo *method)
+          (UnityEngine_Vector3_o previous,UnityEngine_Vector3_o start,UnityEngine_Vector3_o end,
+          UnityEngine_Vector3_o next,float elapsedTime,float duration,MethodInfo *method)
 
 {
-  undefined4 uVar1;
-  undefined4 uVar2;
-  undefined4 uVar3;
-  undefined4 uVar4;
-  undefined4 uVar5;
-  undefined4 uVar6;
-  undefined4 uVar7;
-  undefined4 uVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  float fVar4;
+  float fVar5;
+  float fVar6;
+  UnityEngine_Vector3_o UVar7;
   
-  fVar9 = elapsedTime / duration;
-  fVar10 = fVar9 * fVar9;
-  fVar13 = fVar10 * fVar9;
-  fVar12 = (fVar13 * -0.5 + fVar10) - fVar9 * 0.5;
-  fVar11 = fVar13 * 1.5 + fVar10 * -2.5 + 1.0;
-  fVar14 = fVar13 * 0.5 - fVar10 * 0.5;
-  fVar9 = fVar10 + fVar10 + fVar13 * -1.5 + fVar9 * 0.5;
-  uVar1 = (end->fields).y;
-  uVar5 = (end->fields).z;
-  uVar2 = (next->fields).y;
-  uVar6 = (next->fields).z;
-  uVar3 = (start->fields).y;
-  uVar7 = (start->fields).z;
-  (__return_storage_ptr__->fields).x =
-       fVar14 * (next->fields).x +
-       fVar9 * (end->fields).x + fVar11 * (start->fields).x + fVar12 * (previous->fields).x;
-  uVar4 = (previous->fields).y;
-  uVar8 = (previous->fields).z;
-  (__return_storage_ptr__->fields).y =
-       (float)uVar2 * fVar14 + (float)uVar1 * fVar9 + (float)uVar3 * fVar11 + (float)uVar4 * fVar12;
-  (__return_storage_ptr__->fields).z =
-       (float)uVar6 * fVar14 + (float)uVar5 * fVar9 + (float)uVar7 * fVar11 + (float)uVar8 * fVar12;
-  return __return_storage_ptr__;
+  fVar5 = elapsedTime / duration;
+  fVar3 = fVar5 * fVar5;
+  fVar1 = fVar5 * fVar3 * 0.5;
+  fVar2 = (fVar3 - fVar1) - fVar5 * 0.5;
+  fVar6 = fVar5 * fVar3 * 1.5;
+  fVar4 = fVar3 * -2.5 + fVar6 + 1.0;
+  fVar5 = ((fVar3 + fVar3) - fVar6) + fVar5 * 0.5;
+  fVar1 = fVar1 - fVar3 * 0.5;
+  UVar7.fields.z =
+       previous.fields.z * fVar2 + start.fields.z * fVar4 + end.fields.z * fVar5 + next.fields.z * fVar1;
+  UVar7.fields.x =
+       previous.fields.x * fVar2 + fVar4 * start.fields.x + fVar5 * end.fields.x + fVar1 * next.fields.x;
+  UVar7.fields.y =
+       previous.fields.y * fVar2 + fVar4 * start.fields.y + fVar5 * end.fields.y + fVar1 * next.fields.y;
+  return (UnityEngine_Vector3_o)UVar7.fields;
 }
 
 
 // Interpolate$$Linear
 // il2cpp: float Interpolate__Linear (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da22e0
+// 0x584a690
 
 float Interpolate__Linear(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5142,27 +5866,32 @@ float Interpolate__Linear(float start,float distance,float elapsedTime,float dur
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  return (fVar1 / duration) * distance + start;
+  return start + (fVar1 / duration) * distance;
 }
 
 
 // Interpolate$$EaseInQuad
 // il2cpp: float Interpolate__EaseInQuad (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1ad0
+// 0x584a6b0
 
 float Interpolate__EaseInQuad(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
 {
-  if (duration < elapsedTime) {
-    return distance * 1.0 * 1.0 + start;
+  float fVar1;
+  
+  if (elapsedTime <= duration) {
+    fVar1 = elapsedTime / duration;
   }
-  return (elapsedTime / duration) * distance * (elapsedTime / duration) + start;
+  else {
+    fVar1 = 1.0;
+  }
+  return distance * fVar1 * fVar1 + start;
 }
 
 
 // Interpolate$$EaseOutQuad
 // il2cpp: float Interpolate__EaseOutQuad (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1cf0
+// 0x584a6e0
 
 float Interpolate__EaseOutQuad(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5175,13 +5904,13 @@ float Interpolate__EaseOutQuad(float start,float distance,float elapsedTime,floa
   else {
     fVar1 = 1.0;
   }
-  return -distance * fVar1 * (fVar1 - 2.0) + start;
+  return start - (fVar1 + -2.0) * distance * fVar1;
 }
 
 
 // Interpolate$$EaseInOutQuad
 // il2cpp: float Interpolate__EaseInOutQuad (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1890
+// 0x584a710
 
 float Interpolate__EaseInOutQuad
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5198,33 +5927,15 @@ float Interpolate__EaseInOutQuad
   else {
     fVar1 = 2.0;
   }
-  return (((fVar1 - 1.0) - 2.0) * (fVar1 - 1.0) - 1.0) * -distance * 0.5 + start;
+  return ((fVar1 + -1.0 + -2.0) * (fVar1 + -1.0) + -1.0) * distance * -0.5 + start;
 }
 
 
 // Interpolate$$EaseInCubic
 // il2cpp: float Interpolate__EaseInCubic (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1610
+// 0x584a790
 
 float Interpolate__EaseInCubic(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
-
-{
-  float fVar1;
-  
-  if (duration < elapsedTime) {
-    return distance * 1.0 * 1.0 * 1.0 + start;
-  }
-  fVar1 = elapsedTime / duration;
-  return fVar1 * distance * fVar1 * fVar1 + start;
-}
-
-
-// Interpolate$$EaseOutCubic
-// il2cpp: float Interpolate__EaseOutCubic (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1c50
-
-float Interpolate__EaseOutCubic
-                (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
 {
   float fVar1;
@@ -5235,14 +5946,28 @@ float Interpolate__EaseOutCubic
   else {
     fVar1 = 1.0;
   }
-  fVar1 = fVar1 - 1.0;
-  return (fVar1 * fVar1 * fVar1 + 1.0) * distance + start;
+  return distance * fVar1 * fVar1 * fVar1 + start;
+}
+
+
+// Interpolate$$EaseOutCubic
+// il2cpp: float Interpolate__EaseOutCubic (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
+// 0x584a7c0
+
+float Interpolate__EaseOutCubic
+                (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
+
+{
+  float fVar1;
+  
+  fVar1 = (float)(~-(uint)(duration < elapsedTime) & (uint)(elapsedTime / duration + -1.0));
+  return start + (fVar1 * fVar1 * fVar1 + 1.0) * distance;
 }
 
 
 // Interpolate$$EaseInOutCubic
 // il2cpp: float Interpolate__EaseInOutCubic (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1780
+// 0x584a800
 
 float Interpolate__EaseInOutCubic
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5259,14 +5984,14 @@ float Interpolate__EaseInOutCubic
   else {
     fVar1 = 2.0;
   }
-  fVar1 = fVar1 - 2.0;
+  fVar1 = fVar1 + -2.0;
   return (fVar1 * fVar1 * fVar1 + 2.0) * distance * 0.5 + start;
 }
 
 
 // Interpolate$$EaseInQuart
 // il2cpp: float Interpolate__EaseInQuart (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1b10
+// 0x584a880
 
 float Interpolate__EaseInQuart(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5279,13 +6004,13 @@ float Interpolate__EaseInQuart(float start,float distance,float elapsedTime,floa
   else {
     fVar1 = 1.0;
   }
-  return fVar1 * distance * fVar1 * fVar1 * fVar1 + start;
+  return distance * fVar1 * fVar1 * fVar1 * fVar1 + start;
 }
 
 
 // Interpolate$$EaseOutQuart
 // il2cpp: float Interpolate__EaseOutQuart (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1d30
+// 0x584a8b0
 
 float Interpolate__EaseOutQuart
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5293,20 +6018,14 @@ float Interpolate__EaseOutQuart
 {
   float fVar1;
   
-  if (elapsedTime <= duration) {
-    fVar1 = elapsedTime / duration;
-  }
-  else {
-    fVar1 = 1.0;
-  }
-  fVar1 = fVar1 - 1.0;
-  return (fVar1 * fVar1 * fVar1 * fVar1 - 1.0) * -distance + start;
+  fVar1 = (float)(~-(uint)(duration < elapsedTime) & (uint)(elapsedTime / duration + -1.0));
+  return start - (fVar1 * fVar1 * fVar1 * fVar1 + -1.0) * distance;
 }
 
 
 // Interpolate$$EaseInOutQuart
 // il2cpp: float Interpolate__EaseInOutQuart (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1930
+// 0x584a8f0
 
 float Interpolate__EaseInOutQuart
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5323,14 +6042,14 @@ float Interpolate__EaseInOutQuart
   else {
     fVar1 = 2.0;
   }
-  fVar1 = fVar1 - 2.0;
-  return (fVar1 * fVar1 * fVar1 * fVar1 - 2.0) * -distance * 0.5 + start;
+  fVar1 = fVar1 + -2.0;
+  return (fVar1 * fVar1 * fVar1 * fVar1 + -2.0) * distance * -0.5 + start;
 }
 
 
 // Interpolate$$EaseInQuint
 // il2cpp: float Interpolate__EaseInQuint (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1b40
+// 0x584a970
 
 float Interpolate__EaseInQuint(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5343,13 +6062,13 @@ float Interpolate__EaseInQuint(float start,float distance,float elapsedTime,floa
   else {
     fVar1 = 1.0;
   }
-  return fVar1 * distance * fVar1 * fVar1 * fVar1 * fVar1 + start;
+  return distance * fVar1 * fVar1 * fVar1 * fVar1 * fVar1 + start;
 }
 
 
 // Interpolate$$EaseOutQuint
 // il2cpp: float Interpolate__EaseOutQuint (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1d70
+// 0x584a9a0
 
 float Interpolate__EaseOutQuint
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5357,20 +6076,14 @@ float Interpolate__EaseOutQuint
 {
   float fVar1;
   
-  if (elapsedTime <= duration) {
-    fVar1 = elapsedTime / duration;
-  }
-  else {
-    fVar1 = 1.0;
-  }
-  fVar1 = fVar1 - 1.0;
-  return (fVar1 * fVar1 * fVar1 * fVar1 * fVar1 + 1.0) * distance + start;
+  fVar1 = (float)(~-(uint)(duration < elapsedTime) & (uint)(elapsedTime / duration + -1.0));
+  return start + (fVar1 * fVar1 * fVar1 * fVar1 * fVar1 + 1.0) * distance;
 }
 
 
 // Interpolate$$EaseInOutQuint
 // il2cpp: float Interpolate__EaseInOutQuint (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da19d0
+// 0x584a9e0
 
 float Interpolate__EaseInOutQuint
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5387,14 +6100,14 @@ float Interpolate__EaseInOutQuint
   else {
     fVar1 = 2.0;
   }
-  fVar1 = fVar1 - 2.0;
+  fVar1 = fVar1 + -2.0;
   return (fVar1 * fVar1 * fVar1 * fVar1 * fVar1 + 2.0) * distance * 0.5 + start;
 }
 
 
 // Interpolate$$EaseInSine
 // il2cpp: float Interpolate__EaseInSine (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1b80
+// 0x584aa70
 
 float Interpolate__EaseInSine(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5405,14 +6118,14 @@ float Interpolate__EaseInSine(float start,float distance,float elapsedTime,float
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f54c0((fVar1 / duration) * 1.5707964);
-  return fVar1 * -distance + distance + start;
+  fVar1 = cosf((fVar1 / duration) * 1.5707964);
+  return (distance - fVar1 * distance) + start;
 }
 
 
 // Interpolate$$EaseOutSine
 // il2cpp: float Interpolate__EaseOutSine (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1db0
+// 0x584aab0
 
 float Interpolate__EaseOutSine(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5423,14 +6136,14 @@ float Interpolate__EaseOutSine(float start,float distance,float elapsedTime,floa
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f5fc0((fVar1 / duration) * 1.5707964);
+  fVar1 = sinf((fVar1 / duration) * 1.5707964);
   return fVar1 * distance + start;
 }
 
 
 // Interpolate$$EaseInOutSine
 // il2cpp: float Interpolate__EaseInOutSine (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1a70
+// 0x584aaf0
 
 float Interpolate__EaseInOutSine
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5442,14 +6155,14 @@ float Interpolate__EaseInOutSine
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f54c0((fVar1 * 3.1415927) / duration);
-  return (fVar1 - 1.0) * -distance * 0.5 + start;
+  fVar1 = cosf((fVar1 * 3.1415927) / duration);
+  return (fVar1 + -1.0) * distance * -0.5 + start;
 }
 
 
 // Interpolate$$EaseInExpo
 // il2cpp: float Interpolate__EaseInExpo (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1650
+// 0x584ab40
 
 float Interpolate__EaseInExpo(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5460,14 +6173,14 @@ float Interpolate__EaseInExpo(float start,float distance,float elapsedTime,float
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f6b50(0x40000000,(fVar1 / duration - 1.0) * 10.0);
+  fVar1 = exp2f((fVar1 / duration + -1.0) * 10.0);
   return fVar1 * distance + start;
 }
 
 
 // Interpolate$$EaseOutExpo
 // il2cpp: float Interpolate__EaseOutExpo (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1c90
+// 0x584ab80
 
 float Interpolate__EaseOutExpo(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
@@ -5478,14 +6191,16 @@ float Interpolate__EaseOutExpo(float start,float distance,float elapsedTime,floa
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime;
   }
-  fVar1 = (float)il2cpp_runtime_helper_1804f6b50(0x40000000,(fVar1 * -10.0) / duration);
-  return (-fVar1 + 1.0) * distance + start;
+  fVar1 = exp2f((fVar1 * -10.0) / duration);
+  return (1.0 - fVar1) * distance + start;
 }
 
 
 // Interpolate$$EaseInOutExpo
 // il2cpp: float Interpolate__EaseInOutExpo (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da17f0
+// 0x584abc0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x584ac26: movaps xmm0, xmm2
 
 float Interpolate__EaseInOutExpo
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
@@ -5493,126 +6208,106 @@ float Interpolate__EaseInOutExpo
 {
   float fVar1;
   
-  if (elapsedTime <= duration) {
-    fVar1 = elapsedTime / (duration * 0.5);
+  fVar1 = 2.0;
+  if ((elapsedTime <= duration) && (fVar1 = elapsedTime / (duration * 0.5), fVar1 < 1.0)) {
+    fVar1 = exp2f((fVar1 + -1.0) * 10.0);
+    return distance * 0.5 * fVar1 + start;
   }
-  else {
-    fVar1 = 2.0;
-  }
-  if (fVar1 < 1.0) {
-    fVar1 = (float)il2cpp_runtime_helper_1804f6b50(0x40000000,(fVar1 - 1.0) * 10.0);
-  }
-  else {
-    fVar1 = (float)il2cpp_runtime_helper_1804f6b50(0x40000000,(fVar1 - 1.0) * -10.0);
-    fVar1 = -fVar1 + 2.0;
-  }
-  return fVar1 * distance * 0.5 + start;
+  fVar1 = exp2f((fVar1 + -1.0) * -10.0);
+  return (2.0 - fVar1) * distance * 0.5 + start;
 }
 
 
 // Interpolate$$EaseInCirc
 // il2cpp: float Interpolate__EaseInCirc (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1590
+// 0x584ac70
 
 float Interpolate__EaseInCirc(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
 {
   float fVar1;
   
+  fVar1 = 1.0;
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime / duration;
   }
-  else {
-    fVar1 = 1.0;
-  }
   fVar1 = 1.0 - fVar1 * fVar1;
   if (fVar1 < 0.0) {
-    fVar1 = (float)il2cpp_runtime_helper_1804fa7a0(fVar1);
+    fVar1 = sqrtf(fVar1);
   }
   else {
     fVar1 = SQRT(fVar1);
   }
-  return (fVar1 - 1.0) * -distance + start;
+  return start - (fVar1 + -1.0) * distance;
 }
 
 
 // Interpolate$$EaseOutCirc
 // il2cpp: float Interpolate__EaseOutCirc (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da1be0
+// 0x584ace0
 
 float Interpolate__EaseOutCirc(float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
 {
   float fVar1;
   
-  if (elapsedTime <= duration) {
-    fVar1 = elapsedTime / duration;
+  fVar1 = (float)(~-(uint)(duration < elapsedTime) & (uint)(elapsedTime / duration + -1.0));
+  fVar1 = 1.0 - fVar1 * fVar1;
+  if (0.0 <= fVar1) {
+    return SQRT(fVar1) * distance + start;
   }
-  else {
-    fVar1 = 1.0;
-  }
-  fVar1 = 1.0 - (fVar1 - 1.0) * (fVar1 - 1.0);
-  if (fVar1 < 0.0) {
-    fVar1 = (float)il2cpp_runtime_helper_1804fa7a0(fVar1);
-  }
-  else {
-    fVar1 = SQRT(fVar1);
-  }
+  fVar1 = sqrtf(fVar1);
   return fVar1 * distance + start;
 }
 
 
 // Interpolate$$EaseInOutCirc
 // il2cpp: float Interpolate__EaseInOutCirc (float start, float distance, float elapsedTime, float duration, const MethodInfo* method);
-// 0x181da16b0
+// 0x584ad50
 
 float Interpolate__EaseInOutCirc
                 (float start,float distance,float elapsedTime,float duration,MethodInfo *method)
 
 {
   float fVar1;
+  float fVar2;
+  float fVar3;
   
   if (elapsedTime <= duration) {
     fVar1 = elapsedTime / (duration * 0.5);
     if (fVar1 < 1.0) {
-      fVar1 = 1.0 - fVar1 * fVar1;
-      if (fVar1 < 0.0) {
-        fVar1 = (float)il2cpp_runtime_helper_1804fa7a0(fVar1);
-      }
-      else {
-        fVar1 = SQRT(fVar1);
-      }
-      distance = -distance;
-      fVar1 = fVar1 - 1.0;
-      goto label_181da1757;
+      fVar1 = fVar1 * fVar1;
+      fVar3 = -1.0;
+      fVar2 = -0.5;
+      goto label_0584adb1;
     }
   }
   else {
     fVar1 = 2.0;
   }
-  fVar1 = 1.0 - (fVar1 - 2.0) * (fVar1 - 2.0);
+  fVar1 = (fVar1 + -2.0) * (fVar1 + -2.0);
+  fVar3 = 1.0;
+  fVar2 = 0.5;
+label_0584adb1:
+  fVar1 = 1.0 - fVar1;
   if (fVar1 < 0.0) {
-    fVar1 = (float)il2cpp_runtime_helper_1804fa7a0(fVar1);
-    fVar1 = fVar1 + 1.0;
+    fVar1 = sqrtf(fVar1);
   }
   else {
-    fVar1 = SQRT(fVar1) + 1.0;
+    fVar1 = SQRT(fVar1);
   }
-label_181da1757:
-  return fVar1 * distance * 0.5 + start;
+  return fVar2 * distance * (fVar1 + fVar3) + start;
 }
 
 
 // Interpolate$$.ctor
 // il2cpp: void Interpolate___ctor (Interpolate_o* __this, const MethodInfo* method);
-// 0x18054c890
+// 0x584ae20
 
-void
-Interpolate___ctor(Interpolate_o* __this, MethodInfo* method)
+void Interpolate___ctor(Interpolate_o *__this,MethodInfo *method)
 
 {
-  System_Object___ctor
-            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   return;
 }
 

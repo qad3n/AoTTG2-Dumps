@@ -10,68 +10,68 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200018C")]
+[Token(Token = "0x200014D")]
 public class DecimalConverter : BaseNumberConverter
 {
-	[Token(Token = "0x170001EE")]
+	[Token(Token = "0x170001BF")]
 	internal override bool AllowHex
 	{
-		[Token(Token = "0x6000A01")]
-		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "16")]
+		[Token(Token = "0x6000841")]
+		[Address(RVA = "0x622F3E0", Offset = "0x622E3E0", VA = "0x622F3E0", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001EF")]
+	[Token(Token = "0x170001C0")]
 	internal override Type TargetType
 	{
-		[Token(Token = "0x6000A02")]
-		[Address(RVA = "0x289B240", Offset = "0x2899840", VA = "0x18289B240", Slot = "17")]
+		[Token(Token = "0x6000842")]
+		[Address(RVA = "0x622F3F0", Offset = "0x622E3F0", VA = "0x622F3F0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A03")]
-	[Address(RVA = "0x289AC40", Offset = "0x2899240", VA = "0x18289AC40", Slot = "5")]
+	[Token(Token = "0x6000843")]
+	[Address(RVA = "0x622F450", Offset = "0x622E450", VA = "0x622F450", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A04")]
-	[Address(RVA = "0x289ACF0", Offset = "0x28992F0", VA = "0x18289ACF0", Slot = "7")]
+	[Token(Token = "0x6000844")]
+	[Address(RVA = "0x622F500", Offset = "0x622E500", VA = "0x622F500", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A05")]
-	[Address(RVA = "0x289B0E0", Offset = "0x28996E0", VA = "0x18289B0E0", Slot = "18")]
+	[Token(Token = "0x6000845")]
+	[Address(RVA = "0x622F830", Offset = "0x622E830", VA = "0x622F830", Slot = "18")]
 	internal override object FromString(string value, int radix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x289B050", Offset = "0x2899650", VA = "0x18289B050", Slot = "19")]
+	[Token(Token = "0x6000846")]
+	[Address(RVA = "0x622F8E0", Offset = "0x622E8E0", VA = "0x622F8E0", Slot = "19")]
 	internal override object FromString(string value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A07")]
-	[Address(RVA = "0x289B190", Offset = "0x2899790", VA = "0x18289B190", Slot = "20")]
+	[Token(Token = "0x6000847")]
+	[Address(RVA = "0x622F960", Offset = "0x622E960", VA = "0x622F960", Slot = "20")]
 	internal override string ToString(object value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6000848")]
+	[Address(RVA = "0x622FA10", Offset = "0x622EA10", VA = "0x622FA10")]
 	public DecimalConverter()
 	{
 	}

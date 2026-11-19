@@ -15,7 +15,7 @@ namespace Unity.VisualScripting;
 public sealed class InspectorToggleLeftAttribute : Attribute
 {
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Address(RVA = "0x6793230", Offset = "0x6792230", VA = "0x6793230")]
 	public InspectorToggleLeftAttribute()
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000109")]
+[Token(Token = "0x200010A")]
 public enum FilterMode
 {
-	[Token(Token = "0x40002E5")]
+	[Token(Token = "0x40002EA")]
 	Point,
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x40002EB")]
 	Bilinear,
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x40002EC")]
 	Trilinear
 }

@@ -41,7 +41,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	public DataView DataView
 	{
 		[Token(Token = "0x60004B0")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Address(RVA = "0x5EA0CE0", Offset = "0x5E9FCE0", VA = "0x5EA0CE0")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	// Its 'property:' attributes below are ignored by the compiler (CS0657).
 	[property: Token(Token = "0x170000C7")]
 	[Token(Token = "0x60004B1")]
-	[Address(RVA = "0x24F5610", Offset = "0x24F3C10", VA = "0x1824F5610", Slot = "19")]
+	[Address(RVA = "0x5EA0CF0", Offset = "0x5E9FCF0", VA = "0x5EA0CF0", Slot = "19")]
 	private string System_002EComponentModel_002EIDataErrorInfo_002Eget_Item(string colName)
 	{
 		return null;
@@ -62,7 +62,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	private string System_002EComponentModel_002EIDataErrorInfo_002EError
 	{
 		[Token(Token = "0x60004B2")]
-		[Address(RVA = "0x24F55D0", Offset = "0x24F3BD0", VA = "0x1824F55D0", Slot = "20")]
+		[Address(RVA = "0x5EA0D10", Offset = "0x5E9FD10", VA = "0x5EA0D10", Slot = "20")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	private DataRowVersion RowVersionDefault
 	{
 		[Token(Token = "0x60004B3")]
-		[Address(RVA = "0x24F57A0", Offset = "0x24F3DA0", VA = "0x1824F57A0")]
+		[Address(RVA = "0x5EA0D50", Offset = "0x5E9FD50", VA = "0x5EA0D50")]
 		get
 		{
 			return default(DataRowVersion);
@@ -84,7 +84,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	public DataRow Row
 	{
 		[Token(Token = "0x60004BA")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Address(RVA = "0x5EA1030", Offset = "0x5EA0030", VA = "0x5EA1030")]
 		get
 		{
 			return null;
@@ -95,7 +95,7 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	public bool IsNew
 	{
 		[Token(Token = "0x60004BE")]
-		[Address(RVA = "0x24F5770", Offset = "0x24F3D70", VA = "0x1824F5770")]
+		[Address(RVA = "0x5EA10F0", Offset = "0x5EA00F0", VA = "0x5EA10F0")]
 		get
 		{
 			return default(bool);
@@ -106,13 +106,13 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	public event PropertyChangedEventHandler PropertyChanged
 	{
 		[Token(Token = "0x60004BF")]
-		[Address(RVA = "0x24F56D0", Offset = "0x24F3CD0", VA = "0x1824F56D0", Slot = "21")]
+		[Address(RVA = "0x5EA1160", Offset = "0x5EA0160", VA = "0x5EA1160", Slot = "21")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60004C0")]
-		[Address(RVA = "0x24F5800", Offset = "0x24F3E00", VA = "0x1824F5800", Slot = "22")]
+		[Address(RVA = "0x5EA11F0", Offset = "0x5EA01F0", VA = "0x5EA11F0", Slot = "22")]
 		[CompilerGenerated]
 		remove
 		{
@@ -120,169 +120,169 @@ public class DataRowView : ICustomTypeDescriptor, IEditableObject, IDataErrorInf
 	}
 
 	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Address(RVA = "0x5EA0C60", Offset = "0x5E9FC60", VA = "0x5EA0C60")]
 	internal DataRowView(DataView dataView, DataRow row)
 	{
 	}
 
 	[Token(Token = "0x60004AE")]
-	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20", Slot = "0")]
+	[Address(RVA = "0x5EA0CA0", Offset = "0x5E9FCA0", VA = "0x5EA0CA0", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004AF")]
-	[Address(RVA = "0x24F5110", Offset = "0x24F3710", VA = "0x1824F5110", Slot = "2")]
+	[Address(RVA = "0x5EA0CB0", Offset = "0x5E9FCB0", VA = "0x5EA0CB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004B4")]
-	[Address(RVA = "0x24F5140", Offset = "0x24F3740", VA = "0x1824F5140")]
+	[Address(RVA = "0x5EA0DA0", Offset = "0x5E9FDA0", VA = "0x5EA0DA0")]
 	internal int GetRecord()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004B5")]
-	[Address(RVA = "0x24F51C0", Offset = "0x24F37C0", VA = "0x1824F51C0")]
+	[Address(RVA = "0x5EA0E00", Offset = "0x5E9FE00", VA = "0x5EA0E00")]
 	internal bool HasRecord()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004B6")]
-	[Address(RVA = "0x24F4FE0", Offset = "0x24F35E0", VA = "0x1824F4FE0")]
+	[Address(RVA = "0x5E93820", Offset = "0x5E92820", VA = "0x5E93820")]
 	internal object GetColumnValue(DataColumn column)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004B7")]
-	[Address(RVA = "0x24F52D0", Offset = "0x24F38D0", VA = "0x1824F52D0")]
+	[Address(RVA = "0x5E939D0", Offset = "0x5E929D0", VA = "0x5E939D0")]
 	internal void SetColumnValue(DataColumn column, object value)
 	{
 	}
 
 	[Token(Token = "0x60004B8")]
-	[Address(RVA = "0x24F4D50", Offset = "0x24F3350", VA = "0x1824F4D50")]
+	[Address(RVA = "0x5EA0E50", Offset = "0x5E9FE50", VA = "0x5EA0E50")]
 	public DataView CreateChildView(DataRelation relation, bool followParent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004B9")]
-	[Address(RVA = "0x24F4F70", Offset = "0x24F3570", VA = "0x1824F4F70")]
+	[Address(RVA = "0x5E9C2E0", Offset = "0x5E9B2E0", VA = "0x5E9C2E0")]
 	public DataView CreateChildView(DataRelation relation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004BB")]
-	[Address(RVA = "0x24F4CE0", Offset = "0x24F32E0", VA = "0x1824F4CE0", Slot = "16")]
+	[Address(RVA = "0x5EA1040", Offset = "0x5EA0040", VA = "0x5EA1040", Slot = "16")]
 	public void BeginEdit()
 	{
 	}
 
 	[Token(Token = "0x60004BC")]
-	[Address(RVA = "0x24F4CF0", Offset = "0x24F32F0", VA = "0x1824F4CF0", Slot = "18")]
+	[Address(RVA = "0x5EA1050", Offset = "0x5EA0050", VA = "0x5EA1050", Slot = "18")]
 	public void CancelEdit()
 	{
 	}
 
 	[Token(Token = "0x60004BD")]
-	[Address(RVA = "0x24F4F80", Offset = "0x24F3580", VA = "0x1824F4F80", Slot = "17")]
+	[Address(RVA = "0x5EA1110", Offset = "0x5EA0110", VA = "0x5EA1110", Slot = "17")]
 	public void EndEdit()
 	{
 	}
 
 	[Token(Token = "0x60004C1")]
-	[Address(RVA = "0x24F5240", Offset = "0x24F3840", VA = "0x1824F5240")]
+	[Address(RVA = "0x5EA1280", Offset = "0x5EA0280", VA = "0x5EA1280")]
 	internal void RaisePropertyChangedEvent(string propName)
 	{
 	}
 
 	[Token(Token = "0x60004C2")]
-	[Address(RVA = "0x24F5390", Offset = "0x24F3990", VA = "0x1824F5390", Slot = "4")]
+	[Address(RVA = "0x5EA1300", Offset = "0x5EA0300", VA = "0x5EA1300", Slot = "4")]
 	private AttributeCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetAttributes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
+	[Address(RVA = "0x5EA1340", Offset = "0x5EA0340", VA = "0x5EA1340", Slot = "5")]
 	private string System_002EComponentModel_002EICustomTypeDescriptor_002EGetClassName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C4")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
+	[Address(RVA = "0x5EA1350", Offset = "0x5EA0350", VA = "0x5EA1350", Slot = "6")]
 	private string System_002EComponentModel_002EICustomTypeDescriptor_002EGetComponentName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C5")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
+	[Address(RVA = "0x5EA1360", Offset = "0x5EA0360", VA = "0x5EA1360", Slot = "7")]
 	private TypeConverter System_002EComponentModel_002EICustomTypeDescriptor_002EGetConverter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
+	[Address(RVA = "0x5EA1370", Offset = "0x5EA0370", VA = "0x5EA1370", Slot = "8")]
 	private EventDescriptor System_002EComponentModel_002EICustomTypeDescriptor_002EGetDefaultEvent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
+	[Address(RVA = "0x5EA1380", Offset = "0x5EA0380", VA = "0x5EA1380", Slot = "9")]
 	private PropertyDescriptor System_002EComponentModel_002EICustomTypeDescriptor_002EGetDefaultProperty()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
+	[Address(RVA = "0x5EA1390", Offset = "0x5EA0390", VA = "0x5EA1390", Slot = "10")]
 	private object System_002EComponentModel_002EICustomTypeDescriptor_002EGetEditor(Type editorBaseType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C9")]
-	[Address(RVA = "0x24F53E0", Offset = "0x24F39E0", VA = "0x1824F53E0", Slot = "11")]
+	[Address(RVA = "0x5EA13A0", Offset = "0x5EA03A0", VA = "0x5EA13A0", Slot = "11")]
 	private EventDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetEvents()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004CA")]
-	[Address(RVA = "0x24F5430", Offset = "0x24F3A30", VA = "0x1824F5430", Slot = "12")]
+	[Address(RVA = "0x5EA13E0", Offset = "0x5EA03E0", VA = "0x5EA13E0", Slot = "12")]
 	private EventDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetEvents(Attribute[] attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x24F5510", Offset = "0x24F3B10", VA = "0x1824F5510", Slot = "13")]
+	[Address(RVA = "0x5EA1420", Offset = "0x5EA0420", VA = "0x5EA1420", Slot = "13")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetProperties()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004CC")]
-	[Address(RVA = "0x24F5480", Offset = "0x24F3A80", VA = "0x1824F5480", Slot = "14")]
+	[Address(RVA = "0x5EA14C0", Offset = "0x5EA04C0", VA = "0x5EA14C0", Slot = "14")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EICustomTypeDescriptor_002EGetProperties(Attribute[] attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004CD")]
-	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "15")]
+	[Address(RVA = "0x5EA1540", Offset = "0x5EA0540", VA = "0x5EA1540", Slot = "15")]
 	private object System_002EComponentModel_002EICustomTypeDescriptor_002EGetPropertyOwner(PropertyDescriptor pd)
 	{
 		return null;

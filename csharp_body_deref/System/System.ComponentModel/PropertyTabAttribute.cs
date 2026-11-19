@@ -10,123 +10,123 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000193")]
+[Token(Token = "0x2000154")]
 [AttributeUsage(AttributeTargets.All)]
 public class PropertyTabAttribute : Attribute
 {
-	[Token(Token = "0x4000689")]
+	[Token(Token = "0x40005BA")]
 	[FieldOffset(Offset = "0x10")]
 	private Type[] _tabClasses;
 
-	[Token(Token = "0x400068A")]
+	[Token(Token = "0x40005BB")]
 	[FieldOffset(Offset = "0x18")]
 	private string[] _tabClassNames;
 
-	[Token(Token = "0x170001F5")]
+	[Token(Token = "0x170001C6")]
 	public Type[] TabClasses
 	{
-		[Token(Token = "0x6000A31")]
-		[Address(RVA = "0x28ACC00", Offset = "0x28AB200", VA = "0x1828ACC00")]
+		[Token(Token = "0x6000871")]
+		[Address(RVA = "0x6230AE0", Offset = "0x622FAE0", VA = "0x6230AE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001F6")]
+	[Token(Token = "0x170001C7")]
 	protected string[] TabClassNames
 	{
-		[Token(Token = "0x6000A32")]
-		[Address(RVA = "0x28ACB80", Offset = "0x28AB180", VA = "0x1828ACB80")]
+		[Token(Token = "0x6000872")]
+		[Address(RVA = "0x6230E60", Offset = "0x622FE60", VA = "0x6230E60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001F7")]
+	[Token(Token = "0x170001C8")]
 	public PropertyTabScope[] TabScopes
 	{
-		[Token(Token = "0x6000A33")]
-		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[Token(Token = "0x6000873")]
+		[Address(RVA = "0x6230ED0", Offset = "0x622FED0", VA = "0x6230ED0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000A34")]
-		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		[Token(Token = "0x6000874")]
+		[Address(RVA = "0x6230EE0", Offset = "0x622FEE0", VA = "0x6230EE0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000A2C")]
-	[Address(RVA = "0x28AC5D0", Offset = "0x28AABD0", VA = "0x1828AC5D0")]
+	[Token(Token = "0x600086C")]
+	[Address(RVA = "0x6230620", Offset = "0x622F620", VA = "0x6230620")]
 	public PropertyTabAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000A2D")]
-	[Address(RVA = "0x28ACA70", Offset = "0x28AB070", VA = "0x1828ACA70")]
+	[Token(Token = "0x600086D")]
+	[Address(RVA = "0x62307D0", Offset = "0x622F7D0", VA = "0x62307D0")]
 	public PropertyTabAttribute(Type tabClass)
 	{
 	}
 
-	[Token(Token = "0x6000A2E")]
-	[Address(RVA = "0x28AC990", Offset = "0x28AAF90", VA = "0x1828AC990")]
+	[Token(Token = "0x600086E")]
+	[Address(RVA = "0x6230970", Offset = "0x622F970", VA = "0x6230970")]
 	public PropertyTabAttribute(string tabClassName)
 	{
 	}
 
-	[Token(Token = "0x6000A2F")]
-	[Address(RVA = "0x28AC810", Offset = "0x28AAE10", VA = "0x1828AC810")]
+	[Token(Token = "0x600086F")]
+	[Address(RVA = "0x62307E0", Offset = "0x622F7E0", VA = "0x62307E0")]
 	public PropertyTabAttribute(Type tabClass, PropertyTabScope tabScope)
 	{
 	}
 
-	[Token(Token = "0x6000A30")]
-	[Address(RVA = "0x28AC6B0", Offset = "0x28AACB0", VA = "0x1828AC6B0")]
+	[Token(Token = "0x6000870")]
+	[Address(RVA = "0x6230980", Offset = "0x622F980", VA = "0x6230980")]
 	public PropertyTabAttribute(string tabClassName, PropertyTabScope tabScope)
 	{
 	}
 
-	[Token(Token = "0x6000A35")]
-	[Address(RVA = "0x28ABE30", Offset = "0x28AA430", VA = "0x1828ABE30", Slot = "0")]
+	[Token(Token = "0x6000875")]
+	[Address(RVA = "0x6230EF0", Offset = "0x622FEF0", VA = "0x6230EF0", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A36")]
-	[Address(RVA = "0x28AC050", Offset = "0x28AA650", VA = "0x1828AC050")]
+	[Token(Token = "0x6000876")]
+	[Address(RVA = "0x6230F70", Offset = "0x622FF70", VA = "0x6230F70")]
 	public bool Equals(PropertyTabAttribute other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A37")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x6000877")]
+	[Address(RVA = "0x62310E0", Offset = "0x62300E0", VA = "0x62310E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A38")]
-	[Address(RVA = "0x28AC5B0", Offset = "0x28AABB0", VA = "0x1828AC5B0")]
+	[Token(Token = "0x6000878")]
+	[Address(RVA = "0x62310F0", Offset = "0x62300F0", VA = "0x62310F0")]
 	protected void InitializeArrays(string[] tabClassNames, PropertyTabScope[] tabScopes)
 	{
 	}
 
-	[Token(Token = "0x6000A39")]
-	[Address(RVA = "0x28AC1D0", Offset = "0x28AA7D0", VA = "0x1828AC1D0")]
+	[Token(Token = "0x6000879")]
+	[Address(RVA = "0x6231470", Offset = "0x6230470", VA = "0x6231470")]
 	protected void InitializeArrays(Type[] tabClasses, PropertyTabScope[] tabScopes)
 	{
 	}
 
-	[Token(Token = "0x6000A3A")]
-	[Address(RVA = "0x28AC1F0", Offset = "0x28AA7F0", VA = "0x1828AC1F0")]
+	[Token(Token = "0x600087A")]
+	[Address(RVA = "0x6231100", Offset = "0x6230100", VA = "0x6231100")]
 	private void InitializeArrays(string[] tabClassNames, Type[] tabClasses, PropertyTabScope[] tabScopes)
 	{
 	}

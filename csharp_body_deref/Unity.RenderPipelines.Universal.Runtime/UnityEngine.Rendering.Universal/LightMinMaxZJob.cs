@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.LightMinMaxZJob
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -31,7 +31,7 @@ internal struct LightMinMaxZJob : IJobFor
 	public NativeArray<float2> minMaxZs;
 
 	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x2C91BC0", Offset = "0x2C901C0", VA = "0x182C91BC0", Slot = "4")]
+	[Address(RVA = "0x6692DD0", Offset = "0x6691DD0", VA = "0x6692DD0", Slot = "4")]
 	public void Execute(int index)
 	{
 	}

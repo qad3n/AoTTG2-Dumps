@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x200057D")]
+[Token(Token = "0x2000556")]
 [Flags]
 public enum NumberStyles
 {
-	[Token(Token = "0x400169B")]
+	[Token(Token = "0x40015FB")]
 	None = 0,
-	[Token(Token = "0x400169C")]
+	[Token(Token = "0x40015FC")]
 	AllowLeadingWhite = 1,
-	[Token(Token = "0x400169D")]
+	[Token(Token = "0x40015FD")]
 	AllowTrailingWhite = 2,
-	[Token(Token = "0x400169E")]
+	[Token(Token = "0x40015FE")]
 	AllowLeadingSign = 4,
-	[Token(Token = "0x400169F")]
+	[Token(Token = "0x40015FF")]
 	AllowTrailingSign = 8,
-	[Token(Token = "0x40016A0")]
+	[Token(Token = "0x4001600")]
 	AllowParentheses = 0x10,
-	[Token(Token = "0x40016A1")]
+	[Token(Token = "0x4001601")]
 	AllowDecimalPoint = 0x20,
-	[Token(Token = "0x40016A2")]
+	[Token(Token = "0x4001602")]
 	AllowThousands = 0x40,
-	[Token(Token = "0x40016A3")]
+	[Token(Token = "0x4001603")]
 	AllowExponent = 0x80,
-	[Token(Token = "0x40016A4")]
+	[Token(Token = "0x4001604")]
 	AllowCurrencySymbol = 0x100,
-	[Token(Token = "0x40016A5")]
+	[Token(Token = "0x4001605")]
 	AllowHexSpecifier = 0x200,
-	[Token(Token = "0x40016A6")]
+	[Token(Token = "0x4001606")]
 	Integer = AllowLeadingWhite | AllowTrailingWhite | AllowLeadingSign,
-	[Token(Token = "0x40016A7")]
+	[Token(Token = "0x4001607")]
 	HexNumber = AllowLeadingWhite | AllowTrailingWhite | AllowHexSpecifier,
-	[Token(Token = "0x40016A8")]
+	[Token(Token = "0x4001608")]
 	Number = Integer | AllowTrailingSign | AllowDecimalPoint | AllowThousands,
-	[Token(Token = "0x40016A9")]
+	[Token(Token = "0x4001609")]
 	Float = Integer | AllowDecimalPoint | AllowExponent,
-	[Token(Token = "0x40016AA")]
+	[Token(Token = "0x400160A")]
 	Currency = Number | AllowParentheses | AllowCurrencySymbol,
-	[Token(Token = "0x40016AB")]
+	[Token(Token = "0x400160B")]
 	Any = Currency | AllowExponent
 }

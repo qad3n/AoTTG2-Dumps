@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Experimental.Rendering.XRSystem
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -65,7 +65,7 @@ public static class XRSystem
 	public static bool displayActive
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x2AD1A40", Offset = "0x2AD0040", VA = "0x182AD1A40")]
+		[Address(RVA = "0x64A8E60", Offset = "0x64A7E60", VA = "0x64A8E60")]
 		get
 		{
 			return default(bool);
@@ -76,7 +76,7 @@ public static class XRSystem
 	public static bool isHDRDisplayOutputActive
 	{
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x2AD1B70", Offset = "0x2AD0170", VA = "0x182AD1B70")]
+		[Address(RVA = "0x64AF7A0", Offset = "0x64AE7A0", VA = "0x64AF7A0")]
 		get
 		{
 			return default(bool);
@@ -87,14 +87,14 @@ public static class XRSystem
 	public static bool singlePassAllowed
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x2AD1C30", Offset = "0x2AD0230", VA = "0x182AD1C30")]
+		[Address(RVA = "0x64AF850", Offset = "0x64AE850", VA = "0x64AF850")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x2AD1D40", Offset = "0x2AD0340", VA = "0x182AD1D40")]
+		[Address(RVA = "0x64AF8C0", Offset = "0x64AE8C0", VA = "0x64AF8C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -105,14 +105,14 @@ public static class XRSystem
 	public static FoveatedRenderingCaps foveatedRenderingCaps
 	{
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x2AD1B20", Offset = "0x2AD0120", VA = "0x182AD1B20")]
+		[Address(RVA = "0x64AF910", Offset = "0x64AE910", VA = "0x64AF910")]
 		[CompilerGenerated]
 		get
 		{
 			return default(FoveatedRenderingCaps);
 		}
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x2AD1CE0", Offset = "0x2AD02E0", VA = "0x182AD1CE0")]
+		[Address(RVA = "0x64AF980", Offset = "0x64AE980", VA = "0x64AF980")]
 		[CompilerGenerated]
 		set
 		{
@@ -123,14 +123,14 @@ public static class XRSystem
 	public static bool dumpDebugInfo
 	{
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x2AD1AD0", Offset = "0x2AD00D0", VA = "0x182AD1AD0")]
+		[Address(RVA = "0x64AF9D0", Offset = "0x64AE9D0", VA = "0x64AF9D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x2AD1C80", Offset = "0x2AD0280", VA = "0x182AD1C80")]
+		[Address(RVA = "0x64AFA40", Offset = "0x64AEA40", VA = "0x64AFA40")]
 		[CompilerGenerated]
 		set
 		{
@@ -138,189 +138,189 @@ public static class XRSystem
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x2ACF670", Offset = "0x2ACDC70", VA = "0x182ACF670")]
+	[Address(RVA = "0x64AF730", Offset = "0x64AE730", VA = "0x64AF730")]
 	public static XRDisplaySubsystem GetActiveDisplay()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x2ACF900", Offset = "0x2ACDF00", VA = "0x182ACF900")]
+	[Address(RVA = "0x64AFA90", Offset = "0x64AEA90", VA = "0x64AFA90")]
 	public static void Initialize(Func<XRPassCreateInfo, XRPass> passAllocator, Shader occlusionMeshPS, Shader mirrorViewPS)
 	{
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x2AD0B60", Offset = "0x2ACF160", VA = "0x182AD0B60")]
+	[Address(RVA = "0x64B0260", Offset = "0x64AF260", VA = "0x64B0260")]
 	public static void SetDisplayMSAASamples(MSAASamples msaaSamples)
 	{
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x2ACF6C0", Offset = "0x2ACDCC0", VA = "0x182ACF6C0")]
+	[Address(RVA = "0x64B0480", Offset = "0x64AF480", VA = "0x64B0480")]
 	public static MSAASamples GetDisplayMSAASamples()
 	{
 		return default(MSAASamples);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x2AD0F30", Offset = "0x2ACF530", VA = "0x182AD0F30")]
+	[Address(RVA = "0x64B04F0", Offset = "0x64AF4F0", VA = "0x64B04F0")]
 	internal static void SetOcclusionMeshScale(float occlusionMeshScale)
 	{
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x2ACF800", Offset = "0x2ACDE00", VA = "0x182ACF800")]
+	[Address(RVA = "0x64B0560", Offset = "0x64AF560", VA = "0x64B0560")]
 	internal static float GetOcclusionMeshScale()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x2AD1130", Offset = "0x2ACF730", VA = "0x182AD1130")]
+	[Address(RVA = "0x64B05D0", Offset = "0x64AF5D0", VA = "0x64B05D0")]
 	internal static void SetUseVisibilityMesh(bool useVisibilityMesh)
 	{
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x2ACF8B0", Offset = "0x2ACDEB0", VA = "0x182ACF8B0")]
+	[Address(RVA = "0x64B0620", Offset = "0x64AF620", VA = "0x64B0620")]
 	internal static bool GetUseVisibilityMesh()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x2AD0EA0", Offset = "0x2ACF4A0", VA = "0x182AD0EA0")]
+	[Address(RVA = "0x64B0690", Offset = "0x64AF690", VA = "0x64B0690")]
 	internal static void SetMirrorViewMode(int mirrorBlitMode)
 	{
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x2ACF770", Offset = "0x2ACDD70", VA = "0x182ACF770")]
+	[Address(RVA = "0x64B0740", Offset = "0x64AF740", VA = "0x64B0740")]
 	internal static int GetMirrorViewMode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x2AD0F90", Offset = "0x2ACF590", VA = "0x182AD0F90")]
+	[Address(RVA = "0x64B07F0", Offset = "0x64AF7F0", VA = "0x64B07F0")]
 	public static void SetRenderScale(float renderScale)
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x2ACF850", Offset = "0x2ACDE50", VA = "0x182ACF850")]
+	[Address(RVA = "0x64B09C0", Offset = "0x64AF9C0", VA = "0x64B09C0")]
 	public static float GetRenderViewportScale()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x2ACF710", Offset = "0x2ACDD10", VA = "0x182ACF710")]
+	[Address(RVA = "0x64B0A40", Offset = "0x64AFA40", VA = "0x64B0A40")]
 	public static float GetDynamicResolutionScale()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x2AD0AF0", Offset = "0x2ACF0F0", VA = "0x182AD0AF0")]
+	[Address(RVA = "0x64B0AC0", Offset = "0x64AFAC0", VA = "0x64B0AC0")]
 	public static int ScaleTextureWidthForXR(RenderTexture texture)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x2AD0A80", Offset = "0x2ACF080", VA = "0x182AD0A80")]
+	[Address(RVA = "0x64B0B50", Offset = "0x64AFB50", VA = "0x64B0B50")]
 	public static int ScaleTextureHeightForXR(RenderTexture texture)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x2ACFD80", Offset = "0x2ACE380", VA = "0x182ACFD80")]
+	[Address(RVA = "0x64B0BE0", Offset = "0x64AFBE0", VA = "0x64B0BE0")]
 	public static XRLayout NewLayout()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x2ACF540", Offset = "0x2ACDB40", VA = "0x182ACF540")]
+	[Address(RVA = "0x64B0C40", Offset = "0x64AFC40", VA = "0x64B0C40")]
 	public static void EndLayout()
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x2AD09E0", Offset = "0x2ACEFE0", VA = "0x182AD09E0")]
+	[Address(RVA = "0x64B0DC0", Offset = "0x64AFDC0", VA = "0x64B0DC0")]
 	public static void RenderMirrorView(CommandBuffer cmd, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x2ACF360", Offset = "0x2ACD960", VA = "0x182ACF360")]
+	[Address(RVA = "0x64B0E60", Offset = "0x64AFE60", VA = "0x64B0E60")]
 	public static void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x2AD0D60", Offset = "0x2ACF360", VA = "0x182AD0D60")]
+	[Address(RVA = "0x64A8F00", Offset = "0x64A7F00", VA = "0x64A8F00")]
 	internal static void SetDisplayZRange(float zNear, float zFar)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x2AD0E30", Offset = "0x2ACF430", VA = "0x182AD0E30")]
+	[Address(RVA = "0x64B0FF0", Offset = "0x64AFFF0", VA = "0x64B0FF0")]
 	private static void SetLayoutOverride(Action<XRLayout, Camera> action)
 	{
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x2AD15C0", Offset = "0x2ACFBC0", VA = "0x182AD15C0")]
+	[Address(RVA = "0x64B1050", Offset = "0x64B0050", VA = "0x64B1050")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
 	private static void XRSystemInit()
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x2AD0690", Offset = "0x2ACEC90", VA = "0x182AD0690")]
+	[Address(RVA = "0x64AFF00", Offset = "0x64AEF00", VA = "0x64AFF00")]
 	private static void RefreshDeviceInfo()
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x2ACE7F0", Offset = "0x2ACCDF0", VA = "0x182ACE7F0")]
+	[Address(RVA = "0x64A9000", Offset = "0x64A8000", VA = "0x64A9000")]
 	internal static void CreateDefaultLayout(Camera camera, XRLayout layout)
 	{
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x2ACFE80", Offset = "0x2ACE480", VA = "0x182ACFE80")]
+	[Address(RVA = "0x64A9A90", Offset = "0x64A8A90", VA = "0x64A9A90")]
 	internal static void ReconfigurePass(XRPass xrPass, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x2ACE5C0", Offset = "0x2ACCBC0", VA = "0x182ACE5C0")]
+	[Address(RVA = "0x64B1100", Offset = "0x64B0100", VA = "0x64B1100")]
 	private static bool CanUseSinglePass(Camera camera, XRDisplaySubsystem.XRRenderPass renderPass)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x2ACE110", Offset = "0x2ACC710", VA = "0x182ACE110")]
+	[Address(RVA = "0x64B1A40", Offset = "0x64B0A40", VA = "0x64B1A40")]
 	private static XRView BuildView(XRDisplaySubsystem.XRRenderPass renderPass, XRDisplaySubsystem.XRRenderParameter renderParameter)
 	{
 		return default(XRView);
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x2AD1670", Offset = "0x2ACFC70", VA = "0x182AD1670")]
+	[Address(RVA = "0x64B1F70", Offset = "0x64B0F70", VA = "0x64B1F70")]
 	private static RenderTextureDescriptor XrRenderTextureDescToUnityRenderTextureDesc(RenderTextureDescriptor xrDesc)
 	{
 		return default(RenderTextureDescriptor);
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x2ACDBC0", Offset = "0x2ACC1C0", VA = "0x182ACDBC0")]
+	[Address(RVA = "0x64B13A0", Offset = "0x64B03A0", VA = "0x64B13A0")]
 	private static XRPassCreateInfo BuildPass(XRDisplaySubsystem.XRRenderPass xrRenderPass, ScriptableCullingParameters cullingParameters, XRLayout layout, bool isLastPass)
 	{
 		return default(XRPassCreateInfo);

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Networking.CertificateHandler
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -23,7 +23,7 @@ public class CertificateHandler
 	internal static class BindingsMarshaller
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Address(RVA = "0x6D1B060", Offset = "0x6D1A060", VA = "0x6D1B060")]
 		public static IntPtr ConvertToNative(CertificateHandler handler)
 		{
 			return default(IntPtr);
@@ -36,21 +36,21 @@ public class CertificateHandler
 	internal IntPtr m_Ptr;
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x33090D0", Offset = "0x33076D0", VA = "0x1833090D0")]
+	[Address(RVA = "0x6D1AF50", Offset = "0x6D19F50", VA = "0x6D1AF50")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private void ReleaseFromScripting()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0", Slot = "4")]
+	[Address(RVA = "0x6D1AFE0", Offset = "0x6D19FE0", VA = "0x6D1AFE0", Slot = "4")]
 	protected virtual bool ValidateCertificate(byte[] certificateData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x3309130", Offset = "0x3307730", VA = "0x183309130")]
+	[Address(RVA = "0x6D1AFF0", Offset = "0x6D19FF0", VA = "0x6D1AFF0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal bool ValidateCertificateNative(byte[] certificateData)
 	{
@@ -58,13 +58,13 @@ public class CertificateHandler
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x3309040", Offset = "0x3307640", VA = "0x183309040", Slot = "5")]
+	[Address(RVA = "0x6D1B010", Offset = "0x6D1A010", VA = "0x6D1B010", Slot = "5")]
 	public void Dispose()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x3309090", Offset = "0x3307690", VA = "0x183309090")]
+	[Address(RVA = "0x6D1AFB0", Offset = "0x6D19FB0", VA = "0x6D1AFB0")]
 	private static extern void ReleaseFromScripting_Injected(IntPtr _unity_self);
 }

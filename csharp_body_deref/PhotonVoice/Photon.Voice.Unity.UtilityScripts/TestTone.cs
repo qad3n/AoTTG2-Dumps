@@ -15,13 +15,13 @@ namespace Photon.Voice.Unity.UtilityScripts;
 public class TestTone : MonoBehaviour
 {
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x1D94660", Offset = "0x1D92C60", VA = "0x181D94660")]
+	[Address(RVA = "0x573F1C0", Offset = "0x573E1C0", VA = "0x573F1C0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x573F310", Offset = "0x573E310", VA = "0x573F310")]
 	public TestTone()
 	{
 	}

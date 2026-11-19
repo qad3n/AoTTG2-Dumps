@@ -18,7 +18,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	public override AttributeCollection Attributes
 	{
 		[Token(Token = "0x60003C5")]
-		[Address(RVA = "0x24EDA40", Offset = "0x24EC040", VA = "0x1824EDA40", Slot = "6")]
+		[Address(RVA = "0x5E933F0", Offset = "0x5E923F0", VA = "0x5E933F0", Slot = "6")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	internal DataColumn Column
 	{
 		[Token(Token = "0x60003C6")]
-		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
+		[Address(RVA = "0x5E935C0", Offset = "0x5E925C0", VA = "0x5E935C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +41,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	public override Type ComponentType
 	{
 		[Token(Token = "0x60003C7")]
-		[Address(RVA = "0x24EDC10", Offset = "0x24EC210", VA = "0x1824EDC10", Slot = "17")]
+		[Address(RVA = "0x5E935D0", Offset = "0x5E925D0", VA = "0x5E935D0", Slot = "17")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	public override bool IsReadOnly
 	{
 		[Token(Token = "0x60003C8")]
-		[Address(RVA = "0x24EDCB0", Offset = "0x24EC2B0", VA = "0x1824EDCB0", Slot = "20")]
+		[Address(RVA = "0x5E93630", Offset = "0x5E92630", VA = "0x5E93630", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -63,7 +63,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	public override Type PropertyType
 	{
 		[Token(Token = "0x60003C9")]
-		[Address(RVA = "0x24EDCD0", Offset = "0x24EC2D0", VA = "0x1824EDCD0", Slot = "21")]
+		[Address(RVA = "0x5E93650", Offset = "0x5E92650", VA = "0x5E93650", Slot = "21")]
 		get
 		{
 			return null;
@@ -74,7 +74,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	public override bool IsBrowsable
 	{
 		[Token(Token = "0x60003D1")]
-		[Address(RVA = "0x24EDC60", Offset = "0x24EC260", VA = "0x1824EDC60", Slot = "9")]
+		[Address(RVA = "0x5E93B50", Offset = "0x5E92B50", VA = "0x5E93B50", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -82,53 +82,53 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x24ED9F0", Offset = "0x24EBFF0", VA = "0x1824ED9F0")]
+	[Address(RVA = "0x5E933A0", Offset = "0x5E923A0", VA = "0x5E933A0")]
 	internal DataColumnPropertyDescriptor(DataColumn dataColumn)
 	{
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x24ED6F0", Offset = "0x24EBCF0", VA = "0x1824ED6F0", Slot = "0")]
+	[Address(RVA = "0x5E93670", Offset = "0x5E92670", VA = "0x5E93670", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x24ED780", Offset = "0x24EBD80", VA = "0x1824ED780", Slot = "2")]
+	[Address(RVA = "0x5E936D0", Offset = "0x5E926D0", VA = "0x5E936D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x24ED5C0", Offset = "0x24EBBC0", VA = "0x1824ED5C0", Slot = "23")]
+	[Address(RVA = "0x5E93700", Offset = "0x5E92700", VA = "0x5E93700", Slot = "23")]
 	public override bool CanResetValue(object component)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x24ED7B0", Offset = "0x24EBDB0", VA = "0x1824ED7B0", Slot = "26")]
+	[Address(RVA = "0x5E938A0", Offset = "0x5E928A0", VA = "0x5E938A0", Slot = "26")]
 	public override object GetValue(object component)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x24ED840", Offset = "0x24EBE40", VA = "0x1824ED840", Slot = "29")]
+	[Address(RVA = "0x5E93920", Offset = "0x5E92920", VA = "0x5E93920", Slot = "29")]
 	public override void ResetValue(object component)
 	{
 	}
 
 	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x24ED900", Offset = "0x24EBF00", VA = "0x1824ED900", Slot = "30")]
+	[Address(RVA = "0x5E93A70", Offset = "0x5E92A70", VA = "0x5E93A70", Slot = "30")]
 	public override void SetValue(object component, object value)
 	{
 	}
 
 	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "31")]
+	[Address(RVA = "0x5E93B40", Offset = "0x5E92B40", VA = "0x5E93B40", Slot = "31")]
 	public override bool ShouldSerializeValue(object component)
 	{
 		return default(bool);

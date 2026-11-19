@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.ShaderBitArray
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -29,7 +29,7 @@ internal struct ShaderBitArray
 	public int elemLength
 	{
 		[Token(Token = "0x6000906")]
-		[Address(RVA = "0x2C92C20", Offset = "0x2C91220", VA = "0x182C92C20")]
+		[Address(RVA = "0x6689810", Offset = "0x6688810", VA = "0x6689810")]
 		get
 		{
 			return default(int);
@@ -40,7 +40,7 @@ internal struct ShaderBitArray
 	public int bitCapacity
 	{
 		[Token(Token = "0x6000907")]
-		[Address(RVA = "0x2C92C00", Offset = "0x2C91200", VA = "0x182C92C00")]
+		[Address(RVA = "0x6689820", Offset = "0x6688820", VA = "0x6689820")]
 		get
 		{
 			return default(int);
@@ -51,7 +51,7 @@ internal struct ShaderBitArray
 	public float[] data
 	{
 		[Token(Token = "0x6000908")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x6689840", Offset = "0x6688840", VA = "0x6689840")]
 		get
 		{
 			return null;
@@ -62,38 +62,38 @@ internal struct ShaderBitArray
 	public bool this[int index]
 	{
 		[Token(Token = "0x600090C")]
-		[Address(RVA = "0x2C92BB0", Offset = "0x2C911B0", VA = "0x182C92BB0")]
+		[Address(RVA = "0x6689A50", Offset = "0x6688A50", VA = "0x6689A50")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600090D")]
-		[Address(RVA = "0x2C92C30", Offset = "0x2C91230", VA = "0x182C92C30")]
+		[Address(RVA = "0x6689A80", Offset = "0x6688A80", VA = "0x6689A80")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x2C92950", Offset = "0x2C90F50", VA = "0x182C92950")]
+	[Address(RVA = "0x6689850", Offset = "0x6688850", VA = "0x6689850")]
 	public void Resize(int bitCount)
 	{
 	}
 
 	[Token(Token = "0x600090A")]
-	[Address(RVA = "0x2C928F0", Offset = "0x2C90EF0", VA = "0x182C928F0")]
+	[Address(RVA = "0x66899D0", Offset = "0x66889D0", VA = "0x66899D0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x2C92940", Offset = "0x2C90F40", VA = "0x182C92940")]
+	[Address(RVA = "0x6689A40", Offset = "0x6688A40", VA = "0x6689A40")]
 	private void GetElementIndexAndBitOffset(int index, out int elemIndex, out int bitOffset)
 	{
 	}
 
 	[Token(Token = "0x600090E")]
-	[Address(RVA = "0x2C92A80", Offset = "0x2C91080", VA = "0x182C92A80", Slot = "3")]
+	[Address(RVA = "0x6689AC0", Offset = "0x6688AC0", VA = "0x6689AC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

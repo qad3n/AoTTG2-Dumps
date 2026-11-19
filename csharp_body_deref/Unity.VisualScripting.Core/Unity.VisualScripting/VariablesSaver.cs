@@ -21,7 +21,7 @@ public class VariablesSaver : MonoBehaviour, ISingleton
 	public static VariablesSaver instance
 	{
 		[Token(Token = "0x600116F")]
-		[Address(RVA = "0x2E5B790", Offset = "0x2E59D90", VA = "0x182E5B790")]
+		[Address(RVA = "0x68503C0", Offset = "0x684F3C0", VA = "0x68503C0")]
 		get
 		{
 			return null;
@@ -29,37 +29,37 @@ public class VariablesSaver : MonoBehaviour, ISingleton
 	}
 
 	[Token(Token = "0x600116B")]
-	[Address(RVA = "0x2E5B620", Offset = "0x2E59C20", VA = "0x182E5B620")]
+	[Address(RVA = "0x68527C0", Offset = "0x68517C0", VA = "0x68527C0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x600116C")]
-	[Address(RVA = "0x2E5B730", Offset = "0x2E59D30", VA = "0x182E5B730")]
+	[Address(RVA = "0x6852820", Offset = "0x6851820", VA = "0x6852820")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600116D")]
-	[Address(RVA = "0x2E56730", Offset = "0x2E54D30", VA = "0x182E56730")]
+	[Address(RVA = "0x6852880", Offset = "0x6851880", VA = "0x6852880")]
 	private void OnApplicationQuit()
 	{
 	}
 
 	[Token(Token = "0x600116E")]
-	[Address(RVA = "0x2E5B6E0", Offset = "0x2E59CE0", VA = "0x182E5B6E0")]
+	[Address(RVA = "0x68528C0", Offset = "0x68518C0", VA = "0x68528C0")]
 	private void OnApplicationPause(bool isPaused)
 	{
 	}
 
 	[Token(Token = "0x6001170")]
-	[Address(RVA = "0x2E5B680", Offset = "0x2E59C80", VA = "0x182E5B680")]
+	[Address(RVA = "0x6850440", Offset = "0x684F440", VA = "0x6850440")]
 	public static void Instantiate()
 	{
 	}
 
 	[Token(Token = "0x6001171")]
-	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	[Address(RVA = "0x6852900", Offset = "0x6851900", VA = "0x6852900")]
 	public VariablesSaver()
 	{
 	}

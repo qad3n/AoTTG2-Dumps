@@ -12,79 +12,79 @@ namespace UnityEngine.Experimental.GlobalIllumination;
 [Token(Token = "0x20003E3")]
 public struct LinearColor
 {
-	[Token(Token = "0x4000CDB")]
+	[Token(Token = "0x4000CD9")]
 	[FieldOffset(Offset = "0x0")]
 	private float m_red;
 
-	[Token(Token = "0x4000CDC")]
+	[Token(Token = "0x4000CDA")]
 	[FieldOffset(Offset = "0x4")]
 	private float m_green;
 
-	[Token(Token = "0x4000CDD")]
+	[Token(Token = "0x4000CDB")]
 	[FieldOffset(Offset = "0x8")]
 	private float m_blue;
 
-	[Token(Token = "0x4000CDE")]
+	[Token(Token = "0x4000CDC")]
 	[FieldOffset(Offset = "0xC")]
 	private float m_intensity;
 
-	[Token(Token = "0x170003CF")]
+	[Token(Token = "0x170003D4")]
 	public float red
 	{
-		[Token(Token = "0x60017AC")]
-		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
+		[Token(Token = "0x60017C0")]
+		[Address(RVA = "0x696AA40", Offset = "0x6969A40", VA = "0x696AA40")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60017AD")]
-		[Address(RVA = "0x2F679C0", Offset = "0x2F65FC0", VA = "0x182F679C0")]
+		[Token(Token = "0x60017C1")]
+		[Address(RVA = "0x696AA50", Offset = "0x6969A50", VA = "0x696AA50")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003D0")]
+	[Token(Token = "0x170003D5")]
 	public float green
 	{
-		[Token(Token = "0x60017AE")]
-		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
+		[Token(Token = "0x60017C2")]
+		[Address(RVA = "0x696AAF0", Offset = "0x6969AF0", VA = "0x696AAF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60017AF")]
-		[Address(RVA = "0x2F67900", Offset = "0x2F65F00", VA = "0x182F67900")]
+		[Token(Token = "0x60017C3")]
+		[Address(RVA = "0x696AB00", Offset = "0x6969B00", VA = "0x696AB00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170003D1")]
+	[Token(Token = "0x170003D6")]
 	public float blue
 	{
-		[Token(Token = "0x60017B0")]
-		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
+		[Token(Token = "0x60017C4")]
+		[Address(RVA = "0x696ABA0", Offset = "0x6969BA0", VA = "0x696ABA0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60017B1")]
-		[Address(RVA = "0x2F67840", Offset = "0x2F65E40", VA = "0x182F67840")]
+		[Token(Token = "0x60017C5")]
+		[Address(RVA = "0x696ABB0", Offset = "0x6969BB0", VA = "0x696ABB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60017B2")]
-	[Address(RVA = "0x2F674F0", Offset = "0x2F65AF0", VA = "0x182F674F0")]
+	[Token(Token = "0x60017C6")]
+	[Address(RVA = "0x696AC50", Offset = "0x6969C50", VA = "0x696AC50")]
 	public static LinearColor Convert(Color color, float intensity)
 	{
 		return default(LinearColor);
 	}
 
-	[Token(Token = "0x60017B3")]
-	[Address(RVA = "0x2F025C0", Offset = "0x2F00BC0", VA = "0x182F025C0")]
+	[Token(Token = "0x60017C7")]
+	[Address(RVA = "0x696AF40", Offset = "0x6969F40", VA = "0x696AF40")]
 	public static LinearColor Black()
 	{
 		return default(LinearColor);

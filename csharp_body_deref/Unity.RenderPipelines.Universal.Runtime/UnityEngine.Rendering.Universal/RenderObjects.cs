@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.Universal.RenderObjects
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -85,7 +85,7 @@ public class RenderObjects : ScriptableRendererFeature
 		public CustomCameraSettings cameraSettings;
 
 		[Token(Token = "0x6000887")]
-		[Address(RVA = "0x2C775A0", Offset = "0x2C75BA0", VA = "0x182C775A0")]
+		[Address(RVA = "0x667F670", Offset = "0x667E670", VA = "0x667F670")]
 		public RenderObjectsSettings()
 		{
 		}
@@ -108,7 +108,7 @@ public class RenderObjects : ScriptableRendererFeature
 		public string[] PassNames;
 
 		[Token(Token = "0x6000888")]
-		[Address(RVA = "0x2C704C0", Offset = "0x2C6EAC0", VA = "0x182C704C0")]
+		[Address(RVA = "0x667F7A0", Offset = "0x667E7A0", VA = "0x667F7A0")]
 		public FilterSettings()
 		{
 		}
@@ -135,7 +135,7 @@ public class RenderObjects : ScriptableRendererFeature
 		public float cameraFieldOfView;
 
 		[Token(Token = "0x6000889")]
-		[Address(RVA = "0x2C70430", Offset = "0x2C6EA30", VA = "0x182C70430")]
+		[Address(RVA = "0x667F7C0", Offset = "0x667E7C0", VA = "0x667F7C0")]
 		public CustomCameraSettings()
 		{
 		}
@@ -150,19 +150,19 @@ public class RenderObjects : ScriptableRendererFeature
 	private RenderObjectsPass renderObjectsPass;
 
 	[Token(Token = "0x6000884")]
-	[Address(RVA = "0x2C77770", Offset = "0x2C75D70", VA = "0x182C77770", Slot = "7")]
+	[Address(RVA = "0x667F2F0", Offset = "0x667E2F0", VA = "0x667F2F0", Slot = "7")]
 	public override void Create()
 	{
 	}
 
 	[Token(Token = "0x6000885")]
-	[Address(RVA = "0x2C776D0", Offset = "0x2C75CD0", VA = "0x182C776D0", Slot = "9")]
+	[Address(RVA = "0x667F580", Offset = "0x667E580", VA = "0x667F580", Slot = "9")]
 	public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
 	{
 	}
 
 	[Token(Token = "0x6000886")]
-	[Address(RVA = "0x2C77A70", Offset = "0x2C76070", VA = "0x182C77A70")]
+	[Address(RVA = "0x667F610", Offset = "0x667E610", VA = "0x667F610")]
 	public RenderObjects()
 	{
 	}

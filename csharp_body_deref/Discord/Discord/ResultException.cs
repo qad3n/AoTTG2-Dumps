@@ -14,11 +14,11 @@ namespace Discord;
 public class ResultException : Exception
 {
 	[Token(Token = "0x40000FC")]
-	[FieldOffset(Offset = "0x90")]
+	[FieldOffset(Offset = "0x8C")]
 	public readonly Result Result;
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x53A890", Offset = "0x538E90", VA = "0x18053A890")]
+	[Address(RVA = "0x313D6B0", Offset = "0x313C6B0", VA = "0x313D6B0")]
 	public ResultException(Result result)
 	{
 	}

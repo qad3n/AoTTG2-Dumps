@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Net.Cache;
 
-[Token(Token = "0x2000371")]
+[Token(Token = "0x200032D")]
 internal class RequestCacheBinding
 {
-	[Token(Token = "0x4000E12")]
+	[Token(Token = "0x4000D2A")]
 	[FieldOffset(Offset = "0x10")]
 	private RequestCache m_RequestCache;
 
-	[Token(Token = "0x4000E13")]
+	[Token(Token = "0x4000D2B")]
 	[FieldOffset(Offset = "0x18")]
 	private RequestCacheValidator m_CacheValidator;
 
-	[Token(Token = "0x1700051A")]
+	[Token(Token = "0x170004ED")]
 	internal RequestCache Cache
 	{
-		[Token(Token = "0x600177C")]
-		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
+		[Token(Token = "0x60015C3")]
+		[Address(RVA = "0x61A51C0", Offset = "0x61A41C0", VA = "0x61A51C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700051B")]
+	[Token(Token = "0x170004EE")]
 	internal RequestCacheValidator Validator
 	{
-		[Token(Token = "0x600177D")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		[Token(Token = "0x60015C4")]
+		[Address(RVA = "0x61A51D0", Offset = "0x61A41D0", VA = "0x61A51D0")]
 		get
 		{
 			return null;

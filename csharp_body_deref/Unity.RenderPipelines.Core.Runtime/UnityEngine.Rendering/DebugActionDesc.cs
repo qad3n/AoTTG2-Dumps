@@ -34,7 +34,7 @@ internal class DebugActionDesc
 	public float repeatDelay;
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x2AD3D80", Offset = "0x2AD2380", VA = "0x182AD3D80")]
+	[Address(RVA = "0x64CC470", Offset = "0x64CB470", VA = "0x64CC470")]
 	public DebugActionDesc()
 	{
 	}

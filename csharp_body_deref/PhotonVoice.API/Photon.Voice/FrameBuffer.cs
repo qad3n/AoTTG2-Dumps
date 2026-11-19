@@ -71,7 +71,7 @@ public struct FrameBuffer
 	public IntPtr Ptr
 	{
 		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x1D6A650", Offset = "0x1D68C50", VA = "0x181D6A650")]
+		[Address(RVA = "0x5702F60", Offset = "0x5701F60", VA = "0x5702F60")]
 		get
 		{
 			return default(IntPtr);
@@ -82,7 +82,7 @@ public struct FrameBuffer
 	public byte[] Array
 	{
 		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+		[Address(RVA = "0x57051C0", Offset = "0x57041C0", VA = "0x57051C0")]
 		get
 		{
 			return null;
@@ -93,7 +93,7 @@ public struct FrameBuffer
 	public int Length
 	{
 		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x57051D0", Offset = "0x57041D0", VA = "0x57051D0")]
 		get
 		{
 			return default(int);
@@ -104,7 +104,7 @@ public struct FrameBuffer
 	public int Offset
 	{
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		[Address(RVA = "0x57051E0", Offset = "0x57041E0", VA = "0x57051E0")]
 		get
 		{
 			return default(int);
@@ -115,7 +115,7 @@ public struct FrameBuffer
 	public readonly FrameFlags Flags
 	{
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x1D6A540", Offset = "0x1D68B40", VA = "0x181D6A540")]
+		[Address(RVA = "0x57051F0", Offset = "0x57041F0", VA = "0x57051F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -127,7 +127,7 @@ public struct FrameBuffer
 	public readonly byte FrameNum
 	{
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x1D6A550", Offset = "0x1D68B50", VA = "0x181D6A550")]
+		[Address(RVA = "0x5705200", Offset = "0x5704200", VA = "0x5705200")]
 		[CompilerGenerated]
 		get
 		{
@@ -139,7 +139,7 @@ public struct FrameBuffer
 	public bool IsFEC
 	{
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x1D6A5B0", Offset = "0x1D68BB0", VA = "0x181D6A5B0")]
+		[Address(RVA = "0x5705210", Offset = "0x5704210", VA = "0x5705210")]
 		get
 		{
 			return default(bool);
@@ -150,7 +150,7 @@ public struct FrameBuffer
 	public bool IsConfig
 	{
 		[Token(Token = "0x600013D")]
-		[Address(RVA = "0x1D6A560", Offset = "0x1D68B60", VA = "0x181D6A560")]
+		[Address(RVA = "0x5705260", Offset = "0x5704260", VA = "0x5705260")]
 		get
 		{
 			return default(bool);
@@ -161,7 +161,7 @@ public struct FrameBuffer
 	public bool IsKeyframe
 	{
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x1D6A600", Offset = "0x1D68C00", VA = "0x181D6A600")]
+		[Address(RVA = "0x57052C0", Offset = "0x57042C0", VA = "0x57052C0")]
 		get
 		{
 			return default(bool);
@@ -169,43 +169,43 @@ public struct FrameBuffer
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x1D6A3E0", Offset = "0x1D689E0", VA = "0x181D6A3E0")]
+	[Address(RVA = "0x5704F40", Offset = "0x5703F40", VA = "0x5704F40")]
 	public FrameBuffer(byte[] array, int offset, int count, FrameFlags flags, byte frameNum, IDisposable disposer)
 	{
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x1D6A4C0", Offset = "0x1D68AC0", VA = "0x181D6A4C0")]
+	[Address(RVA = "0x5704FB0", Offset = "0x5703FB0", VA = "0x5704FB0")]
 	public FrameBuffer(byte[] array, FrameFlags flags, byte frameNum)
 	{
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x1D6A450", Offset = "0x1D68A50", VA = "0x181D6A450")]
+	[Address(RVA = "0x5705020", Offset = "0x5704020", VA = "0x5705020")]
 	public FrameBuffer(FrameBuffer from, int offset, int count, FrameFlags flags, byte frameNum)
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x1D6A060", Offset = "0x1D68660", VA = "0x181D6A060")]
+	[Address(RVA = "0x5705080", Offset = "0x5704080", VA = "0x5705080")]
 	public void Retain()
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x1D69FC0", Offset = "0x1D685C0", VA = "0x181D69FC0")]
+	[Address(RVA = "0x5705090", Offset = "0x5704090", VA = "0x5705090")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x1D69F50", Offset = "0x1D68550", VA = "0x181D69F50")]
+	[Address(RVA = "0x57050F0", Offset = "0x57040F0", VA = "0x57050F0")]
 	private void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x1D6A070", Offset = "0x1D68670", VA = "0x181D6A070", Slot = "3")]
+	[Address(RVA = "0x5705310", Offset = "0x5704310", VA = "0x5705310", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

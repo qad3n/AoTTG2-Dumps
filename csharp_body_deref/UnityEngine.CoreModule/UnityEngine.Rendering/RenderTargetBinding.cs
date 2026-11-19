@@ -12,105 +12,105 @@ namespace UnityEngine.Rendering;
 [Token(Token = "0x2000335")]
 public struct RenderTargetBinding
 {
-	[Token(Token = "0x40008DA")]
+	[Token(Token = "0x40008D8")]
 	[FieldOffset(Offset = "0x0")]
 	private RenderTargetIdentifier[] m_ColorRenderTargets;
 
-	[Token(Token = "0x40008DB")]
+	[Token(Token = "0x40008D9")]
 	[FieldOffset(Offset = "0x8")]
 	private RenderTargetIdentifier m_DepthRenderTarget;
 
-	[Token(Token = "0x40008DC")]
+	[Token(Token = "0x40008DA")]
 	[FieldOffset(Offset = "0x30")]
 	private RenderBufferLoadAction[] m_ColorLoadActions;
 
-	[Token(Token = "0x40008DD")]
+	[Token(Token = "0x40008DB")]
 	[FieldOffset(Offset = "0x38")]
 	private RenderBufferStoreAction[] m_ColorStoreActions;
 
-	[Token(Token = "0x40008DE")]
+	[Token(Token = "0x40008DC")]
 	[FieldOffset(Offset = "0x40")]
 	private RenderBufferLoadAction m_DepthLoadAction;
 
-	[Token(Token = "0x40008DF")]
+	[Token(Token = "0x40008DD")]
 	[FieldOffset(Offset = "0x44")]
 	private RenderBufferStoreAction m_DepthStoreAction;
 
-	[Token(Token = "0x40008E0")]
+	[Token(Token = "0x40008DE")]
 	[FieldOffset(Offset = "0x48")]
 	private RenderTargetFlags m_Flags;
 
-	[Token(Token = "0x170002FB")]
+	[Token(Token = "0x17000300")]
 	public RenderTargetIdentifier[] colorRenderTargets
 	{
-		[Token(Token = "0x60012B4")]
-		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
+		[Token(Token = "0x60012C8")]
+		[Address(RVA = "0x693E0C0", Offset = "0x693D0C0", VA = "0x693E0C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FC")]
+	[Token(Token = "0x17000301")]
 	public RenderTargetIdentifier depthRenderTarget
 	{
-		[Token(Token = "0x60012B5")]
-		[Address(RVA = "0x2F54E70", Offset = "0x2F53470", VA = "0x182F54E70")]
+		[Token(Token = "0x60012C9")]
+		[Address(RVA = "0x693E0D0", Offset = "0x693D0D0", VA = "0x693E0D0")]
 		get
 		{
 			return default(RenderTargetIdentifier);
 		}
 	}
 
-	[Token(Token = "0x170002FD")]
+	[Token(Token = "0x17000302")]
 	public RenderBufferLoadAction[] colorLoadActions
 	{
-		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
+		[Token(Token = "0x60012CA")]
+		[Address(RVA = "0x693E0F0", Offset = "0x693D0F0", VA = "0x693E0F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FE")]
+	[Token(Token = "0x17000303")]
 	public RenderBufferStoreAction[] colorStoreActions
 	{
-		[Token(Token = "0x60012B7")]
-		[Address(RVA = "0xAD2BE0", Offset = "0xAD11E0", VA = "0x180AD2BE0")]
+		[Token(Token = "0x60012CB")]
+		[Address(RVA = "0x693E100", Offset = "0x693D100", VA = "0x693E100")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002FF")]
+	[Token(Token = "0x17000304")]
 	public RenderBufferLoadAction depthLoadAction
 	{
-		[Token(Token = "0x60012B8")]
-		[Address(RVA = "0x2F54E60", Offset = "0x2F53460", VA = "0x182F54E60")]
+		[Token(Token = "0x60012CC")]
+		[Address(RVA = "0x693E110", Offset = "0x693D110", VA = "0x693E110")]
 		get
 		{
 			return default(RenderBufferLoadAction);
 		}
 	}
 
-	[Token(Token = "0x17000300")]
+	[Token(Token = "0x17000305")]
 	public RenderBufferStoreAction depthStoreAction
 	{
-		[Token(Token = "0x60012B9")]
-		[Address(RVA = "0x2F54E90", Offset = "0x2F53490", VA = "0x182F54E90")]
+		[Token(Token = "0x60012CD")]
+		[Address(RVA = "0x693E120", Offset = "0x693D120", VA = "0x693E120")]
 		get
 		{
 			return default(RenderBufferStoreAction);
 		}
 	}
 
-	[Token(Token = "0x17000301")]
+	[Token(Token = "0x17000306")]
 	public RenderTargetFlags flags
 	{
-		[Token(Token = "0x60012BA")]
-		[Address(RVA = "0x2E926C0", Offset = "0x2E90CC0", VA = "0x182E926C0")]
+		[Token(Token = "0x60012CE")]
+		[Address(RVA = "0x693E130", Offset = "0x693D130", VA = "0x693E130")]
 		get
 		{
 			return default(RenderTargetFlags);

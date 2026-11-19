@@ -21,13 +21,13 @@ internal struct LineInfo
 	internal int linePos;
 
 	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x60E84F0", Offset = "0x60E74F0", VA = "0x60E84F0")]
 	public LineInfo(int lineNo, int linePos)
 	{
 	}
 
 	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
+	[Address(RVA = "0x60E8500", Offset = "0x60E7500", VA = "0x60E8500")]
 	public void Set(int lineNo, int linePos)
 	{
 	}

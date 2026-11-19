@@ -9,46 +9,46 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20001B1")]
+[Token(Token = "0x2000172")]
 [AttributeUsage(AttributeTargets.Class)]
 public class InstallerTypeAttribute : Attribute
 {
-	[Token(Token = "0x40006AD")]
+	[Token(Token = "0x40005DE")]
 	[FieldOffset(Offset = "0x10")]
 	private string _typeName;
 
-	[Token(Token = "0x1700022D")]
+	[Token(Token = "0x170001FE")]
 	public virtual Type InstallerType
 	{
-		[Token(Token = "0x6000AFD")]
-		[Address(RVA = "0x289EEC0", Offset = "0x289D4C0", VA = "0x18289EEC0", Slot = "7")]
+		[Token(Token = "0x600093D")]
+		[Address(RVA = "0x6234990", Offset = "0x6233990", VA = "0x6234990", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AFB")]
-	[Address(RVA = "0x289EE70", Offset = "0x289D470", VA = "0x18289EE70")]
+	[Token(Token = "0x600093B")]
+	[Address(RVA = "0x6234910", Offset = "0x6233910", VA = "0x6234910")]
 	public InstallerTypeAttribute(Type installerType)
 	{
 	}
 
-	[Token(Token = "0x6000AFC")]
-	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
+	[Token(Token = "0x600093C")]
+	[Address(RVA = "0x6234960", Offset = "0x6233960", VA = "0x6234960")]
 	public InstallerTypeAttribute(string typeName)
 	{
 	}
 
-	[Token(Token = "0x6000AFE")]
-	[Address(RVA = "0x289EDD0", Offset = "0x289D3D0", VA = "0x18289EDD0", Slot = "0")]
+	[Token(Token = "0x600093E")]
+	[Address(RVA = "0x6234A00", Offset = "0x6233A00", VA = "0x6234A00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000AFF")]
-	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
+	[Token(Token = "0x600093F")]
+	[Address(RVA = "0x6234A90", Offset = "0x6233A90", VA = "0x6234A90", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

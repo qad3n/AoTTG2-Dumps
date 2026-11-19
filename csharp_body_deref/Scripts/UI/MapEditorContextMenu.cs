@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.MapEditorContextMenu
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/UI/MapEditorContextMenu.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,121 +14,128 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000820")]
+[Token(Token = "0x200089E")]
 internal class MapEditorContextMenu
 {
-	[Token(Token = "0x2000821")]
+	[Token(Token = "0x200089F")]
 	internal struct Item
 	{
-		[Token(Token = "0x40028C7")]
+		[Token(Token = "0x4002B80")]
 		[FieldOffset(Offset = "0x0")]
 		public string Label;
 
-		[Token(Token = "0x40028C8")]
+		[Token(Token = "0x4002B81")]
 		[FieldOffset(Offset = "0x8")]
 		public Action Action;
 
-		[Token(Token = "0x40028C9")]
+		[Token(Token = "0x4002B82")]
 		[FieldOffset(Offset = "0x10")]
 		public bool Enabled;
 
-		[Token(Token = "0x40028CA")]
+		[Token(Token = "0x4002B83")]
 		[FieldOffset(Offset = "0x11")]
 		public bool SeparatorBefore;
 
-		[Token(Token = "0x6004E8A")]
-		[Address(RVA = "0x229D6A0", Offset = "0x229BCA0", VA = "0x18229D6A0")]
+		[Token(Token = "0x6005227")]
+		[Address(RVA = "0x5C6EA30", Offset = "0x5C6DA30", VA = "0x5C6EA30")]
 		public Item(string label, Action action, bool enabled = true, bool separatorBefore = false)
 		{
 		}
 	}
 
-	[Token(Token = "0x40028C2")]
+	[Token(Token = "0x4002B7B")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Transform _parent;
 
-	[Token(Token = "0x40028C3")]
+	[Token(Token = "0x4002B7C")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _themePanel;
 
-	[Token(Token = "0x40028C4")]
+	[Token(Token = "0x4002B7D")]
 	[FieldOffset(Offset = "0x20")]
 	private GameObject _root;
 
-	[Token(Token = "0x40028C5")]
+	[Token(Token = "0x4002B7E")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform _menuRect;
 
-	[Token(Token = "0x40028C6")]
+	[Token(Token = "0x4002B7F")]
 	[FieldOffset(Offset = "0x30")]
 	private VerticalLayoutGroup _layout;
 
-	[Token(Token = "0x17000E71")]
+	[Token(Token = "0x17000E72")]
 	public bool IsOpen
 	{
-		[Token(Token = "0x6004E80")]
-		[Address(RVA = "0x22AAF80", Offset = "0x22A9580", VA = "0x1822AAF80")]
+		[Token(Token = "0x600521C")]
+		[Address(RVA = "0x5C6CE80", Offset = "0x5C6BE80", VA = "0x5C6CE80")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000E72")]
+	[Token(Token = "0x17000E73")]
 	public RectTransform MenuRect
 	{
-		[Token(Token = "0x6004E81")]
-		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[Token(Token = "0x600521D")]
+		[Address(RVA = "0x5C6CF00", Offset = "0x5C6BF00", VA = "0x5C6CF00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004E82")]
-	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
+	[Token(Token = "0x600521E")]
+	[Address(RVA = "0x5C6CF10", Offset = "0x5C6BF10", VA = "0x5C6CF10")]
 	public MapEditorContextMenu(Transform parent, string themePanel)
 	{
 	}
 
-	[Token(Token = "0x6004E83")]
-	[Address(RVA = "0x22AA960", Offset = "0x22A8F60", VA = "0x1822AA960")]
+	[Token(Token = "0x600521F")]
+	[Address(RVA = "0x5C6CF50", Offset = "0x5C6BF50", VA = "0x5C6CF50")]
 	public void Show(PointerEventData eventData, IList<Item> items)
 	{
 	}
 
-	[Token(Token = "0x6004E84")]
-	[Address(RVA = "0x22AA8E0", Offset = "0x22A8EE0", VA = "0x1822AA8E0")]
+	[Token(Token = "0x6005220")]
+	[Address(RVA = "0x5C6E910", Offset = "0x5C6D910", VA = "0x5C6E910")]
 	public void Hide()
 	{
 	}
 
-	[Token(Token = "0x6004E85")]
-	[Address(RVA = "0x22A9F50", Offset = "0x22A8550", VA = "0x1822A9F50")]
+	[Token(Token = "0x6005221")]
+	[Address(RVA = "0x5C6E990", Offset = "0x5C6D990", VA = "0x5C6E990")]
 	public void Destroy()
 	{
 	}
 
-	[Token(Token = "0x6004E86")]
-	[Address(RVA = "0x22A9FE0", Offset = "0x22A85E0", VA = "0x1822A9FE0")]
+	[Token(Token = "0x6005222")]
+	[Address(RVA = "0x5C6D620", Offset = "0x5C6C620", VA = "0x5C6D620")]
 	private void EnsureCreated()
 	{
 	}
 
-	[Token(Token = "0x6004E87")]
-	[Address(RVA = "0x22A9670", Offset = "0x22A7C70", VA = "0x1822A9670")]
+	[Token(Token = "0x6005223")]
+	[Address(RVA = "0x5C6DF80", Offset = "0x5C6CF80", VA = "0x5C6DF80")]
 	private void ClearItems()
 	{
 	}
 
-	[Token(Token = "0x6004E88")]
-	[Address(RVA = "0x22A9730", Offset = "0x22A7D30", VA = "0x1822A9730")]
+	[Token(Token = "0x6005224")]
+	[Address(RVA = "0x5C6E480", Offset = "0x5C6D480", VA = "0x5C6E480")]
 	private void CreateButton(Item item)
 	{
 	}
 
-	[Token(Token = "0x6004E89")]
-	[Address(RVA = "0x22A9B20", Offset = "0x22A8120", VA = "0x1822A9B20")]
+	[Token(Token = "0x6005225")]
+	[Address(RVA = "0x5C6EA20", Offset = "0x5C6DA20", VA = "0x5C6EA20")]
+	private static Color WithAlpha(Color color, float alpha)
+	{
+		return default(Color);
+	}
+
+	[Token(Token = "0x6005226")]
+	[Address(RVA = "0x5C6E040", Offset = "0x5C6D040", VA = "0x5C6E040")]
 	private void CreateSeparator()
 	{
 	}

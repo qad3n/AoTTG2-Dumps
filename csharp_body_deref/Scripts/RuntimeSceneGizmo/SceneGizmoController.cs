@@ -11,177 +11,177 @@ using UnityEngine;
 
 namespace RuntimeSceneGizmo;
 
-[Token(Token = "0x200005C")]
+[Token(Token = "0x200005B")]
 public class SceneGizmoController : MonoBehaviour
 {
-	[Token(Token = "0x40001E0")]
+	[Token(Token = "0x40001EF")]
 	private const int GIZMOS_LAYER = 24;
 
-	[Token(Token = "0x40001E1")]
+	[Token(Token = "0x40001F0")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private Camera gizmoCamera;
 
-	[Token(Token = "0x40001E2")]
+	[Token(Token = "0x40001F1")]
 	[FieldOffset(Offset = "0x28")]
 	private Transform gizmoCamParent;
 
-	[Token(Token = "0x40001E3")]
+	[Token(Token = "0x40001F2")]
 	[FieldOffset(Offset = "0x30")]
 	[SerializeField]
 	private Renderer[] gizmoComponents;
 
-	[Token(Token = "0x40001E4")]
+	[Token(Token = "0x40001F3")]
 	[FieldOffset(Offset = "0x38")]
 	[SerializeField]
 	private TextMesh[] labels;
 
-	[Token(Token = "0x40001E5")]
+	[Token(Token = "0x40001F4")]
 	[FieldOffset(Offset = "0x40")]
 	private Transform[] labelsTR;
 
-	[Token(Token = "0x40001E6")]
+	[Token(Token = "0x40001F5")]
 	[FieldOffset(Offset = "0x48")]
 	private Transform m_referenceTransform;
 
-	[Token(Token = "0x40001E7")]
+	[Token(Token = "0x40001F6")]
 	[FieldOffset(Offset = "0x50")]
 	private Vector3 prevForward;
 
-	[Token(Token = "0x40001E8")]
+	[Token(Token = "0x40001F7")]
 	[FieldOffset(Offset = "0x60")]
 	private Material gizmoNormalMaterial;
 
-	[Token(Token = "0x40001E9")]
+	[Token(Token = "0x40001F8")]
 	[FieldOffset(Offset = "0x68")]
 	private Material gizmoFadeMaterial;
 
-	[Token(Token = "0x40001EA")]
+	[Token(Token = "0x40001F9")]
 	[FieldOffset(Offset = "0x70")]
 	private Material gizmoHighlightMaterial;
 
-	[Token(Token = "0x40001EB")]
+	[Token(Token = "0x40001FA")]
 	[FieldOffset(Offset = "0x78")]
 	private int gizmoMaterialFadeProperty;
 
-	[Token(Token = "0x40001EC")]
+	[Token(Token = "0x40001FB")]
 	[FieldOffset(Offset = "0x7C")]
 	private GizmoComponent highlightedComponent;
 
-	[Token(Token = "0x40001ED")]
+	[Token(Token = "0x40001FC")]
 	[FieldOffset(Offset = "0x80")]
 	private GizmoComponent fadingComponent;
 
-	[Token(Token = "0x40001EE")]
+	[Token(Token = "0x40001FD")]
 	[FieldOffset(Offset = "0x84")]
 	private bool isFadingToZero;
 
-	[Token(Token = "0x40001EF")]
+	[Token(Token = "0x40001FE")]
 	[FieldOffset(Offset = "0x88")]
 	private float fadeT;
 
-	[Token(Token = "0x40001F0")]
+	[Token(Token = "0x40001FF")]
 	[FieldOffset(Offset = "0x8C")]
 	private bool updateTargetTexture;
 
-	[Token(Token = "0x17000082")]
+	[Token(Token = "0x1700007B")]
 	public Transform ReferenceTransform
 	{
-		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
+		[Token(Token = "0x60002EB")]
+		[Address(RVA = "0x576C1E0", Offset = "0x576B1E0", VA = "0x576C1E0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60002E3")]
-		[Address(RVA = "0x1DCE680", Offset = "0x1DCCC80", VA = "0x181DCE680")]
+		[Token(Token = "0x60002EC")]
+		[Address(RVA = "0x576C1F0", Offset = "0x576B1F0", VA = "0x576C1F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000083")]
+	[Token(Token = "0x1700007C")]
 	public RenderTexture TargetTexture
 	{
-		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
+		[Token(Token = "0x60002ED")]
+		[Address(RVA = "0x576C380", Offset = "0x576B380", VA = "0x576C380")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0xA4D750", Offset = "0xA4BD50", VA = "0x180A4D750")]
+		[Token(Token = "0x60002EE")]
+		[Address(RVA = "0x576C390", Offset = "0x576B390", VA = "0x576C390")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x1DCD2E0", Offset = "0x1DCB8E0", VA = "0x181DCD2E0")]
+	[Token(Token = "0x60002EF")]
+	[Address(RVA = "0x576C3B0", Offset = "0x576B3B0", VA = "0x576C3B0")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x1DCDF30", Offset = "0x1DCC530", VA = "0x181DCDF30")]
+	[Token(Token = "0x60002F0")]
+	[Address(RVA = "0x576C7E0", Offset = "0x576B7E0", VA = "0x576C7E0")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x1DCDE90", Offset = "0x1DCC490", VA = "0x181DCDE90")]
+	[Token(Token = "0x60002F1")]
+	[Address(RVA = "0x576CA30", Offset = "0x576BA30", VA = "0x576CA30")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x1DCD760", Offset = "0x1DCBD60", VA = "0x181DCD760")]
+	[Token(Token = "0x60002F2")]
+	[Address(RVA = "0x576CAD0", Offset = "0x576BAD0", VA = "0x576CAD0")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x1DCE0B0", Offset = "0x1DCC6B0", VA = "0x181DCE0B0")]
+	[Token(Token = "0x60002F3")]
+	[Address(RVA = "0x576D230", Offset = "0x576C230", VA = "0x576D230")]
 	public GizmoComponent Raycast(Vector3 normalizedPosition)
 	{
 		return default(GizmoComponent);
 	}
 
-	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x1DCDFA0", Offset = "0x1DCC5A0", VA = "0x181DCDFA0")]
+	[Token(Token = "0x60002F4")]
+	[Address(RVA = "0x576D3D0", Offset = "0x576C3D0", VA = "0x576D3D0")]
 	public void OnPointerHover(Vector3 normalizedPosition)
 	{
 	}
 
-	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x1DCE3B0", Offset = "0x1DCC9B0", VA = "0x181DCE3B0")]
+	[Token(Token = "0x60002F5")]
+	[Address(RVA = "0x576C840", Offset = "0x576B840", VA = "0x576C840")]
 	private void SetHiddenComponent(GizmoComponent component)
 	{
 	}
 
-	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x1DCE2D0", Offset = "0x1DCC8D0", VA = "0x181DCE2D0")]
+	[Token(Token = "0x60002F6")]
+	[Address(RVA = "0x576D0D0", Offset = "0x576C0D0", VA = "0x576D0D0")]
 	private void SetAlphaOf(GizmoComponent component, float alpha)
 	{
 	}
 
-	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x1DCE5B0", Offset = "0x1DCCBB0", VA = "0x181DCE5B0")]
+	[Token(Token = "0x60002F7")]
+	[Address(RVA = "0x576D190", Offset = "0x576C190", VA = "0x576D190")]
 	private void SetMaterialOf(GizmoComponent component, Material material)
 	{
 	}
 
-	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x1DCD740", Offset = "0x1DCBD40", VA = "0x181DCD740")]
+	[Token(Token = "0x60002F8")]
+	[Address(RVA = "0x576D0B0", Offset = "0x576C0B0", VA = "0x576D0B0")]
 	private GizmoComponent GetOppositeComponent(GizmoComponent component)
 	{
 		return default(GizmoComponent);
 	}
 
-	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x1DCE660", Offset = "0x1DCCC60", VA = "0x181DCE660")]
+	[Token(Token = "0x60002F9")]
+	[Address(RVA = "0x576D4A0", Offset = "0x576C4A0", VA = "0x576D4A0")]
 	public SceneGizmoController()
 	{
 	}

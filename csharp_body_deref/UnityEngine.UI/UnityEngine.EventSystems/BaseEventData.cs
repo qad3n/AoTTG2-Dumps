@@ -20,7 +20,7 @@ public class BaseEventData : AbstractEventData
 	public BaseInputModule currentInputModule
 	{
 		[Token(Token = "0x6000638")]
-		[Address(RVA = "0x1CB0D40", Offset = "0x1CAF340", VA = "0x181CB0D40")]
+		[Address(RVA = "0x6D052B0", Offset = "0x6D042B0", VA = "0x6D052B0")]
 		get
 		{
 			return null;
@@ -31,20 +31,20 @@ public class BaseEventData : AbstractEventData
 	public GameObject selectedObject
 	{
 		[Token(Token = "0x6000639")]
-		[Address(RVA = "0x1CB0CF0", Offset = "0x1CAF2F0", VA = "0x181CB0CF0")]
+		[Address(RVA = "0x6D07A40", Offset = "0x6D06A40", VA = "0x6D07A40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x32F0930", Offset = "0x32EEF30", VA = "0x1832F0930")]
+		[Address(RVA = "0x6D07A60", Offset = "0x6D06A60", VA = "0x6D07A60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x19FFAE0", Offset = "0x19FE0E0", VA = "0x1819FFAE0")]
+	[Address(RVA = "0x6D079D0", Offset = "0x6D069D0", VA = "0x6D079D0")]
 	public BaseEventData(EventSystem eventSystem)
 	{
 	}

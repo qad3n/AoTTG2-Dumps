@@ -38,8 +38,8 @@ public struct AsyncReadManagerRequestMetric
 
 	[Token(Token = "0x40000D1")]
 	[FieldOffset(Offset = "0x18")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly ulong _003CSizeBytes_003Ek__BackingField;
 
 	[Token(Token = "0x40000D2")]
@@ -56,8 +56,8 @@ public struct AsyncReadManagerRequestMetric
 
 	[Token(Token = "0x40000D4")]
 	[FieldOffset(Offset = "0x30")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly uint _003CBatchReadCount_003Ek__BackingField;
 
 	[Token(Token = "0x40000D5")]
@@ -68,14 +68,14 @@ public struct AsyncReadManagerRequestMetric
 
 	[Token(Token = "0x40000D6")]
 	[FieldOffset(Offset = "0x38")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly ProcessingState _003CState_003Ek__BackingField;
 
 	[Token(Token = "0x40000D7")]
 	[FieldOffset(Offset = "0x3C")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly FileReadType _003CReadType_003Ek__BackingField;
 
 	[Token(Token = "0x40000D8")]
@@ -86,14 +86,14 @@ public struct AsyncReadManagerRequestMetric
 
 	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x44")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly AssetLoadingSubsystem _003CSubsystem_003Ek__BackingField;
 
 	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x48")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly double _003CRequestTimeMicroseconds_003Ek__BackingField;
 
 	[Token(Token = "0x40000DB")]
@@ -104,7 +104,7 @@ public struct AsyncReadManagerRequestMetric
 
 	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x58")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly double _003CTotalTimeMicroseconds_003Ek__BackingField;
 }

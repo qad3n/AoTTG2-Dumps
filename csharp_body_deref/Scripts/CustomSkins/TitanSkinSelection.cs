@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomSkins.TitanSkinSelection
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/CustomSkins/TitanSkinSelection.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,45 +11,45 @@ using Settings;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000379")]
+[Token(Token = "0x20003D4")]
 internal class TitanSkinSelection
 {
-	[Token(Token = "0x4001206")]
+	[Token(Token = "0x4001397")]
 	[FieldOffset(Offset = "0x10")]
 	public int Body;
 
-	[Token(Token = "0x4001207")]
+	[Token(Token = "0x4001398")]
 	[FieldOffset(Offset = "0x14")]
 	public int Head;
 
-	[Token(Token = "0x4001208")]
+	[Token(Token = "0x4001399")]
 	[FieldOffset(Offset = "0x18")]
 	public int Eye;
 
-	[Token(Token = "0x4001209")]
+	[Token(Token = "0x400139A")]
 	[FieldOffset(Offset = "0x20")]
 	public string Hair;
 
-	[Token(Token = "0x400120A")]
+	[Token(Token = "0x400139B")]
 	[FieldOffset(Offset = "0x28")]
 	public int SkinSlot;
 
-	[Token(Token = "0x60015F0")]
-	[Address(RVA = "0x1E97920", Offset = "0x1E95F20", VA = "0x181E97920")]
+	[Token(Token = "0x6001853")]
+	[Address(RVA = "0x5867450", Offset = "0x5866450", VA = "0x5867450")]
 	public TitanCustomSet CreateSet(BasicTitanSetup setup)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60015F1")]
-	[Address(RVA = "0x1E97790", Offset = "0x1E95D90", VA = "0x181E97790")]
+	[Token(Token = "0x6001854")]
+	[Address(RVA = "0x5867500", Offset = "0x5866500", VA = "0x5867500")]
 	public TitanCustomSet ApplyTo(TitanCustomSet set)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60015F2")]
-	[Address(RVA = "0x1E979D0", Offset = "0x1E95FD0", VA = "0x181E979D0")]
+	[Token(Token = "0x6001855")]
+	[Address(RVA = "0x5867680", Offset = "0x5866680", VA = "0x5867680")]
 	public TitanSkinSelection()
 	{
 	}

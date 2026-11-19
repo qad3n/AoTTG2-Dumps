@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: TMPro.MarkToBaseAdjustmentRecord
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -39,13 +39,13 @@ public struct MarkToBaseAdjustmentRecord
 	public uint baseGlyphID
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		[Address(RVA = "0x66DAC40", Offset = "0x66D9C40", VA = "0x66DAC40")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
+		[Address(RVA = "0x66DAC50", Offset = "0x66D9C50", VA = "0x66DAC50")]
 		set
 		{
 		}
@@ -55,13 +55,13 @@ public struct MarkToBaseAdjustmentRecord
 	public GlyphAnchorPoint baseGlyphAnchorPoint
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0xADC3B0", Offset = "0xADA9B0", VA = "0x180ADC3B0")]
+		[Address(RVA = "0x66DAC60", Offset = "0x66D9C60", VA = "0x66DAC60")]
 		get
 		{
 			return default(GlyphAnchorPoint);
 		}
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x1B943B0", Offset = "0x1B929B0", VA = "0x181B943B0")]
+		[Address(RVA = "0x66DAC70", Offset = "0x66D9C70", VA = "0x66DAC70")]
 		set
 		{
 		}
@@ -71,13 +71,13 @@ public struct MarkToBaseAdjustmentRecord
 	public uint markGlyphID
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		[Address(RVA = "0x66DAC80", Offset = "0x66D9C80", VA = "0x66DAC80")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
+		[Address(RVA = "0x66DAC90", Offset = "0x66D9C90", VA = "0x66DAC90")]
 		set
 		{
 		}
@@ -87,13 +87,13 @@ public struct MarkToBaseAdjustmentRecord
 	public MarkPositionAdjustment markPositionAdjustment
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x560EA0", Offset = "0x55F4A0", VA = "0x180560EA0")]
+		[Address(RVA = "0x66DACA0", Offset = "0x66D9CA0", VA = "0x66DACA0")]
 		get
 		{
 			return default(MarkPositionAdjustment);
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x560EC0", Offset = "0x55F4C0", VA = "0x180560EC0")]
+		[Address(RVA = "0x66DACB0", Offset = "0x66D9CB0", VA = "0x66DACB0")]
 		set
 		{
 		}

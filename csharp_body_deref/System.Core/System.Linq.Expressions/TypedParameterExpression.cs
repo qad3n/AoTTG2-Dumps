@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
 
-[Token(Token = "0x20000BA")]
+[Token(Token = "0x20000BB")]
 internal class TypedParameterExpression : ParameterExpression
 {
-	[Token(Token = "0x170000E4")]
+	[Token(Token = "0x170000E6")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60004D6")]
-		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
+		[Token(Token = "0x60004E1")]
+		[Address(RVA = "0x5DD5F00", Offset = "0x5DD4F00", VA = "0x5DD5F00", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal class TypedParameterExpression : ParameterExpression
 		}
 	}
 
-	[Token(Token = "0x60004D5")]
-	[Address(RVA = "0x2441A70", Offset = "0x2440070", VA = "0x182441A70")]
+	[Token(Token = "0x60004E0")]
+	[Address(RVA = "0x5DD5DE0", Offset = "0x5DD4DE0", VA = "0x5DD5DE0")]
 	internal TypedParameterExpression(Type type, string name)
 	{
 	}

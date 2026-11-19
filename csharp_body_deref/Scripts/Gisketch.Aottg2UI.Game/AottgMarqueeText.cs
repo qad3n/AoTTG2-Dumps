@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgMarqueeText
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgMarqueeText.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,50 +13,50 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001F5")]
+[Token(Token = "0x200020F")]
 internal sealed class AottgMarqueeText : AottgComponent
 {
-	[Token(Token = "0x4000A6F")]
+	[Token(Token = "0x4000AE7")]
 	private const string NodeType = "AottgMarqueeText";
 
-	[Token(Token = "0x4000A70")]
+	[Token(Token = "0x4000AE8")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000A71")]
+	[Token(Token = "0x4000AE9")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _stateKey;
 
-	[Token(Token = "0x4000A72")]
+	[Token(Token = "0x4000AEA")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly string _fallback;
 
-	[Token(Token = "0x6000B7F")]
-	[Address(RVA = "0x23B5B00", Offset = "0x23B4100", VA = "0x1823B5B00")]
+	[Token(Token = "0x6000C43")]
+	[Address(RVA = "0x5D867A0", Offset = "0x5D857A0", VA = "0x5D867A0")]
 	static AottgMarqueeText()
 	{
 	}
 
-	[Token(Token = "0x6000B80")]
-	[Address(RVA = "0x23B5BC0", Offset = "0x23B41C0", VA = "0x1823B5BC0")]
+	[Token(Token = "0x6000C44")]
+	[Address(RVA = "0x5D856C0", Offset = "0x5D846C0", VA = "0x5D856C0")]
 	public AottgMarqueeText(string id, string stateKey)
 	{
 	}
 
-	[Token(Token = "0x6000B81")]
-	[Address(RVA = "0x23B5C40", Offset = "0x23B4240", VA = "0x1823B5C40")]
+	[Token(Token = "0x6000C45")]
+	[Address(RVA = "0x5D86860", Offset = "0x5D85860", VA = "0x5D86860")]
 	public AottgMarqueeText(string id, string stateKey, string fallback)
 	{
 	}
 
-	[Token(Token = "0x6000B82")]
-	[Address(RVA = "0x23B5910", Offset = "0x23B3F10", VA = "0x1823B5910", Slot = "4")]
+	[Token(Token = "0x6000C46")]
+	[Address(RVA = "0x5D868E0", Offset = "0x5D858E0", VA = "0x5D868E0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000B83")]
-	[Address(RVA = "0x23B5750", Offset = "0x23B3D50", VA = "0x1823B5750")]
+	[Token(Token = "0x6000C47")]
+	[Address(RVA = "0x5D86A90", Offset = "0x5D85A90", VA = "0x5D86A90")]
 	private static bool BuildRuntime(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

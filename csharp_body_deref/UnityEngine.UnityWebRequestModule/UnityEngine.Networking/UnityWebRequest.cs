@@ -140,8 +140,8 @@ public class UnityWebRequest : IDisposable
 	[Token(Token = "0x2000012")]
 	internal static class BindingsMarshaller
 	{
-		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		[Token(Token = "0x600008F")]
+		[Address(RVA = "0x6D1F240", Offset = "0x6D1E240", VA = "0x6D1F240")]
 		public static IntPtr ConvertToNative(UnityWebRequest unityWebRequest)
 		{
 			return default(IntPtr);
@@ -173,18 +173,36 @@ public class UnityWebRequest : IDisposable
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	internal Uri m_Uri;
 
-	[Token(Token = "0x17000006")]
+	[Token(Token = "0x17000005")]
 	public bool disposeCertificateHandlerOnDispose
 	{
-		[Token(Token = "0x6000046")]
-		[Address(RVA = "0xF1D190", Offset = "0xF1B790", VA = "0x180F1D190")]
+		[Token(Token = "0x6000042")]
+		[Address(RVA = "0x6D1C1F0", Offset = "0x6D1B1F0", VA = "0x6D1C1F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000047")]
-		[Address(RVA = "0xF1D640", Offset = "0xF1BC40", VA = "0x180F1D640")]
+		[Token(Token = "0x6000043")]
+		[Address(RVA = "0x6D1C200", Offset = "0x6D1B200", VA = "0x6D1C200")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000006")]
+	public bool disposeDownloadHandlerOnDispose
+	{
+		[Token(Token = "0x6000044")]
+		[Address(RVA = "0x6D1C210", Offset = "0x6D1B210", VA = "0x6D1C210")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000045")]
+		[Address(RVA = "0x6D1C220", Offset = "0x6D1B220", VA = "0x6D1C220")]
 		[CompilerGenerated]
 		set
 		{
@@ -192,17 +210,17 @@ public class UnityWebRequest : IDisposable
 	}
 
 	[Token(Token = "0x17000007")]
-	public bool disposeDownloadHandlerOnDispose
+	public bool disposeUploadHandlerOnDispose
 	{
-		[Token(Token = "0x6000048")]
-		[Address(RVA = "0xF1D4C0", Offset = "0xF1BAC0", VA = "0x180F1D4C0")]
+		[Token(Token = "0x6000046")]
+		[Address(RVA = "0x6D1C230", Offset = "0x6D1B230", VA = "0x6D1C230")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000049")]
-		[Address(RVA = "0xF1DA30", Offset = "0xF1C030", VA = "0x180F1DA30")]
+		[Token(Token = "0x6000047")]
+		[Address(RVA = "0x6D1C240", Offset = "0x6D1B240", VA = "0x6D1C240")]
 		[CompilerGenerated]
 		set
 		{
@@ -210,76 +228,52 @@ public class UnityWebRequest : IDisposable
 	}
 
 	[Token(Token = "0x17000008")]
-	public bool disposeUploadHandlerOnDispose
+	public string method
 	{
-		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x19EDC10", Offset = "0x19EC210", VA = "0x1819EDC10")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x19EDC20", Offset = "0x19EC220", VA = "0x1819EDC20")]
-		[CompilerGenerated]
+		[Token(Token = "0x6000059")]
+		[Address(RVA = "0x6D1C5F0", Offset = "0x6D1B5F0", VA = "0x6D1C5F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000009")]
-	public string method
+	public string error
 	{
-		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x330CE30", Offset = "0x330B430", VA = "0x18330CE30")]
-		set
+		[Token(Token = "0x600005B")]
+		[Address(RVA = "0x6D1D650", Offset = "0x6D1C650", VA = "0x6D1D650")]
+		get
 		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x1700000A")]
-	public string error
-	{
-		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x330C8E0", Offset = "0x330AEE0", VA = "0x18330C8E0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700000B")]
 	public string url
 	{
-		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x330CCB0", Offset = "0x330B2B0", VA = "0x18330CCB0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x330D390", Offset = "0x330B990", VA = "0x18330D390")]
+		[Token(Token = "0x600005C")]
+		[Address(RVA = "0x6D1C4C0", Offset = "0x6D1B4C0", VA = "0x6D1C4C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700000C")]
+	[Token(Token = "0x1700000B")]
 	public long responseCode
 	{
-		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x330CBB0", Offset = "0x330B1B0", VA = "0x18330CBB0")]
+		[Token(Token = "0x600005F")]
+		[Address(RVA = "0x6D1D8C0", Offset = "0x6D1C8C0", VA = "0x6D1D8C0")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x1700000D")]
+	[Token(Token = "0x1700000C")]
 	public bool isModifiable
 	{
-		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x330CB10", Offset = "0x330B110", VA = "0x18330CB10")]
+		[Token(Token = "0x6000060")]
+		[Address(RVA = "0x6D1D280", Offset = "0x6D1C280", VA = "0x6D1D280")]
 		[UnityEngine.Bindings.NativeMethod("IsModifiable")]
 		get
 		{
@@ -287,22 +281,22 @@ public class UnityWebRequest : IDisposable
 		}
 	}
 
-	[Token(Token = "0x1700000E")]
+	[Token(Token = "0x1700000D")]
 	public bool isDone
 	{
-		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x330CA70", Offset = "0x330B070", VA = "0x18330CA70")]
+		[Token(Token = "0x6000061")]
+		[Address(RVA = "0x6D1DC60", Offset = "0x6D1CC60", VA = "0x6D1DC60")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700000F")]
+	[Token(Token = "0x1700000E")]
 	public Result result
 	{
-		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x330CC50", Offset = "0x330B250", VA = "0x18330CC50")]
+		[Token(Token = "0x6000062")]
+		[Address(RVA = "0x6D1D860", Offset = "0x6D1C860", VA = "0x6D1D860")]
 		[UnityEngine.Bindings.NativeMethod("GetResult")]
 		get
 		{
@@ -310,82 +304,82 @@ public class UnityWebRequest : IDisposable
 		}
 	}
 
-	[Token(Token = "0x17000010")]
+	[Token(Token = "0x1700000F")]
 	public ulong downloadedBytes
 	{
-		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x330C880", Offset = "0x330AE80", VA = "0x18330C880")]
+		[Token(Token = "0x6000063")]
+		[Address(RVA = "0x6D1DCF0", Offset = "0x6D1CCF0", VA = "0x6D1DCF0")]
 		get
 		{
 			return default(ulong);
 		}
 	}
 
-	[Token(Token = "0x17000011")]
+	[Token(Token = "0x17000010")]
 	public int redirectLimit
 	{
-		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x330BFE0", Offset = "0x330A5E0", VA = "0x18330BFE0")]
+		[Token(Token = "0x6000065")]
+		[Address(RVA = "0x6D1DE20", Offset = "0x6D1CE20", VA = "0x6D1DE20")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000011")]
+	public UploadHandler uploadHandler
+	{
+		[Token(Token = "0x600006C")]
+		[Address(RVA = "0x6D1CF00", Offset = "0x6D1BF00", VA = "0x6D1CF00")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600006D")]
+		[Address(RVA = "0x6D1C9F0", Offset = "0x6D1B9F0", VA = "0x6D1C9F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000012")]
-	public UploadHandler uploadHandler
+	public DownloadHandler downloadHandler
 	{
-		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
+		[Token(Token = "0x600006F")]
+		[Address(RVA = "0x6D1CEF0", Offset = "0x6D1BEF0", VA = "0x6D1CEF0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x330D220", Offset = "0x330B820", VA = "0x18330D220")]
+		[Token(Token = "0x6000070")]
+		[Address(RVA = "0x6D1C860", Offset = "0x6D1B860", VA = "0x6D1C860")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000013")]
-	public DownloadHandler downloadHandler
+	public CertificateHandler certificateHandler
 	{
-		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
+		[Token(Token = "0x6000071")]
+		[Address(RVA = "0x6D1CF10", Offset = "0x6D1BF10", VA = "0x6D1CF10")]
 		get
 		{
 			return null;
-		}
-		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x330CCC0", Offset = "0x330B2C0", VA = "0x18330CCC0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000014")]
-	public CertificateHandler certificateHandler
-	{
-		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x2E8E8B0", Offset = "0x2E8CEB0", VA = "0x182E8E8B0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000015")]
 	public int timeout
 	{
-		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x330D090", Offset = "0x330B690", VA = "0x18330D090")]
+		[Token(Token = "0x6000073")]
+		[Address(RVA = "0x6D1E9B0", Offset = "0x6D1D9B0", VA = "0x6D1E9B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x330AF20", Offset = "0x3309520", VA = "0x18330AF20")]
+	[Token(Token = "0x6000040")]
+	[Address(RVA = "0x6D1BFD0", Offset = "0x6D1AFD0", VA = "0x6D1BFD0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	[UnityEngine.Bindings.NativeConditional("ENABLE_UNITYWEBREQUEST")]
 	private static string GetWebErrorString(UnityWebRequestError err)
@@ -393,8 +387,8 @@ public class UnityWebRequest : IDisposable
 		return null;
 	}
 
-	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x330A860", Offset = "0x3308E60", VA = "0x18330A860")]
+	[Token(Token = "0x6000041")]
+	[Address(RVA = "0x6D1C0E0", Offset = "0x6D1B0E0", VA = "0x6D1C0E0")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal static string GetHTTPStatusString(long responseCode)
 	{
@@ -402,354 +396,342 @@ public class UnityWebRequest : IDisposable
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x330A2C0", Offset = "0x33088C0", VA = "0x18330A2C0")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x6D1C250", Offset = "0x6D1B250", VA = "0x6D1C250")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal static extern IntPtr Create();
 
-	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x330BAF0", Offset = "0x330A0F0", VA = "0x18330BAF0")]
+	[Token(Token = "0x6000049")]
+	[Address(RVA = "0x6D1C280", Offset = "0x6D1B280", VA = "0x6D1C280")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private void Release()
 	{
 	}
 
-	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x330B0A0", Offset = "0x33096A0", VA = "0x18330B0A0")]
+	[Token(Token = "0x600004A")]
+	[Address(RVA = "0x6D1C310", Offset = "0x6D1B310", VA = "0x6D1C310")]
 	internal void InternalDestroy()
 	{
 	}
 
-	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x330B240", Offset = "0x3309840", VA = "0x18330B240")]
+	[Token(Token = "0x600004B")]
+	[Address(RVA = "0x6D1C400", Offset = "0x6D1B400", VA = "0x6D1C400")]
 	private void InternalSetDefaults()
 	{
 	}
 
-	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x330C760", Offset = "0x330AD60", VA = "0x18330C760")]
+	[Token(Token = "0x600004C")]
+	[Address(RVA = "0x6D1C410", Offset = "0x6D1B410", VA = "0x6D1C410")]
 	public UnityWebRequest(string url)
 	{
 	}
 
-	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x330C7C0", Offset = "0x330ADC0", VA = "0x18330C7C0")]
+	[Token(Token = "0x600004D")]
+	[Address(RVA = "0x6D1C530", Offset = "0x6D1B530", VA = "0x6D1C530")]
 	public UnityWebRequest(string url, string method)
 	{
 	}
 
-	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x330C6D0", Offset = "0x330ACD0", VA = "0x18330C6D0")]
+	[Token(Token = "0x600004E")]
+	[Address(RVA = "0x6D1C770", Offset = "0x6D1B770", VA = "0x6D1C770")]
 	public UnityWebRequest(string url, string method, DownloadHandler downloadHandler, UploadHandler uploadHandler)
 	{
 	}
 
-	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x330A700", Offset = "0x3308D00", VA = "0x18330A700", Slot = "1")]
+	[Token(Token = "0x600004F")]
+	[Address(RVA = "0x6D1CB80", Offset = "0x6D1BB80", VA = "0x6D1CB80", Slot = "1")]
 	~UnityWebRequest()
 	{
 	}
 
-	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x330A400", Offset = "0x3308A00", VA = "0x18330A400", Slot = "4")]
+	[Token(Token = "0x6000050")]
+	[Address(RVA = "0x6D1CDA0", Offset = "0x6D1BDA0", VA = "0x6D1CDA0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x330A360", Offset = "0x3308960", VA = "0x18330A360")]
+	[Token(Token = "0x6000051")]
+	[Address(RVA = "0x6D1CD00", Offset = "0x6D1BD00", VA = "0x6D1CD00")]
 	private void DisposeHandlers()
 	{
 	}
 
-	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x330A200", Offset = "0x3308800", VA = "0x18330A200")]
+	[Token(Token = "0x6000052")]
+	[Address(RVA = "0x6D1CF20", Offset = "0x6D1BF20", VA = "0x6D1CF20")]
 	[UnityEngine.Bindings.NativeThrows]
 	internal UnityWebRequestAsyncOperation BeginWebRequest()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x330BB50", Offset = "0x330A150", VA = "0x18330BB50")]
+	[Token(Token = "0x6000053")]
+	[Address(RVA = "0x6D1D010", Offset = "0x6D1C010", VA = "0x6D1D010")]
 	public UnityWebRequestAsyncOperation SendWebRequest()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x330A160", Offset = "0x3308760", VA = "0x18330A160")]
+	[Token(Token = "0x6000054")]
+	[Address(RVA = "0x6D1C3A0", Offset = "0x6D1B3A0", VA = "0x6D1C3A0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	public void Abort()
 	{
 	}
 
-	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x330BF40", Offset = "0x330A540", VA = "0x18330BF40")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x6D1D080", Offset = "0x6D1C080", VA = "0x6D1D080")]
 	private UnityWebRequestError SetMethod(UnityWebRequestMethod methodType)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x330B250", Offset = "0x3309850", VA = "0x18330B250")]
+	[Token(Token = "0x6000056")]
+	[Address(RVA = "0x6D1D120", Offset = "0x6D1C120", VA = "0x6D1D120")]
 	internal void InternalSetMethod(UnityWebRequestMethod methodType)
 	{
 	}
 
-	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x330BC80", Offset = "0x330A280", VA = "0x18330BC80")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x6D1D2E0", Offset = "0x6D1C2E0", VA = "0x6D1D2E0")]
 	private UnityWebRequestError SetCustomMethod(string customMethodName)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x330B130", Offset = "0x3309730", VA = "0x18330B130")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x6D1D4C0", Offset = "0x6D1C4C0", VA = "0x6D1D4C0")]
 	internal void InternalSetCustomMethod(string customMethodName)
 	{
 	}
 
-	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x330A7B0", Offset = "0x3308DB0", VA = "0x18330A7B0")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x6D1D5C0", Offset = "0x6D1C5C0", VA = "0x6D1D5C0")]
 	private UnityWebRequestError GetError()
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x330AE10", Offset = "0x3309410", VA = "0x18330AE10")]
-	private string GetUrl()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x330C3C0", Offset = "0x330A9C0", VA = "0x18330C3C0")]
+	[Token(Token = "0x600005D")]
+	[Address(RVA = "0x6D1DA20", Offset = "0x6D1CA20", VA = "0x6D1DA20")]
 	private UnityWebRequestError SetUrl(string url)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x330B6C0", Offset = "0x3309CC0", VA = "0x18330B6C0")]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x6D1D920", Offset = "0x6D1C920", VA = "0x6D1D920")]
 	private void InternalSetUrl(string url)
 	{
 	}
 
-	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x330BFE0", Offset = "0x330A5E0", VA = "0x18330BFE0")]
+	[Token(Token = "0x6000064")]
+	[Address(RVA = "0x6D1DD80", Offset = "0x6D1CD80", VA = "0x6D1DD80")]
 	[UnityEngine.Bindings.NativeThrows]
 	private void SetRedirectLimitFromScripting(int limit)
 	{
 	}
 
-	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x330B3F0", Offset = "0x33099F0", VA = "0x18330B3F0")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x6D1DE80", Offset = "0x6D1CE80", VA = "0x6D1DE80")]
 	[UnityEngine.Bindings.NativeMethod("SetRequestHeader")]
 	internal UnityWebRequestError InternalSetRequestHeader(string name, string value)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x330C040", Offset = "0x330A640", VA = "0x18330C040")]
+	[Token(Token = "0x6000067")]
+	[Address(RVA = "0x6D1E140", Offset = "0x6D1D140", VA = "0x6D1E140")]
 	public void SetRequestHeader(string name, string value)
 	{
 	}
 
-	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x330AA10", Offset = "0x3309010", VA = "0x18330AA10")]
+	[Token(Token = "0x6000068")]
+	[Address(RVA = "0x6D1E2C0", Offset = "0x6D1D2C0", VA = "0x6D1E2C0")]
 	public string GetResponseHeader(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x330A950", Offset = "0x3308F50", VA = "0x18330A950")]
+	[Token(Token = "0x6000069")]
+	[Address(RVA = "0x6D1E510", Offset = "0x6D1D510", VA = "0x6D1E510")]
 	internal string[] GetResponseHeaderKeys()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x330AC20", Offset = "0x3309220", VA = "0x18330AC20")]
+	[Token(Token = "0x600006A")]
+	[Address(RVA = "0x6D1E5A0", Offset = "0x6D1D5A0", VA = "0x6D1E5A0")]
 	public Dictionary<string, string> GetResponseHeaders()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x330C300", Offset = "0x330A900", VA = "0x18330C300")]
+	[Token(Token = "0x600006B")]
+	[Address(RVA = "0x6D1E7B0", Offset = "0x6D1D7B0", VA = "0x6D1E7B0")]
 	private UnityWebRequestError SetUploadHandler(UploadHandler uh)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x330BE90", Offset = "0x330A490", VA = "0x18330BE90")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x6D1E860", Offset = "0x6D1D860", VA = "0x6D1E860")]
 	private UnityWebRequestError SetDownloadHandler(DownloadHandler dh)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x330C250", Offset = "0x330A850", VA = "0x18330C250")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x6D1E910", Offset = "0x6D1D910", VA = "0x6D1E910")]
 	private UnityWebRequestError SetTimeoutMsec(int timeout)
 	{
 		return default(UnityWebRequestError);
 	}
 
-	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x330AFD0", Offset = "0x33095D0", VA = "0x18330AFD0")]
+	[Token(Token = "0x6000074")]
+	[Address(RVA = "0x6D1EB80", Offset = "0x6D1DB80", VA = "0x6D1EB80")]
 	public static UnityWebRequest Get(string uri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x330A2F0", Offset = "0x33088F0", VA = "0x18330A2F0")]
+	[Token(Token = "0x6000075")]
+	[Address(RVA = "0x6D1EC40", Offset = "0x6D1DC40", VA = "0x6D1EC40")]
 	public static UnityWebRequest Delete(string uri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x330B970", Offset = "0x3309F70", VA = "0x18330B970")]
+	[Token(Token = "0x6000076")]
+	[Address(RVA = "0x6D1ECB0", Offset = "0x6D1DCB0", VA = "0x6D1ECB0")]
 	public static UnityWebRequest Put(string uri, string bodyData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x330B7D0", Offset = "0x3309DD0", VA = "0x18330B7D0")]
+	[Token(Token = "0x6000077")]
+	[Address(RVA = "0x6D1EEB0", Offset = "0x6D1DEB0", VA = "0x6D1EEB0")]
 	public static UnityWebRequest Post(string uri, string postData, string contentType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x330C580", Offset = "0x330AB80", VA = "0x18330C580")]
+	[Token(Token = "0x6000078")]
+	[Address(RVA = "0x6D1EF30", Offset = "0x6D1DF30", VA = "0x6D1EF30")]
 	private static void SetupPost(UnityWebRequest request, string postData, string contentType)
 	{
 	}
 
-	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x330A460", Offset = "0x3308A60", VA = "0x18330A460")]
+	[Token(Token = "0x6000079")]
+	[Address(RVA = "0x6D1F100", Offset = "0x6D1E100", VA = "0x6D1F100")]
 	public static string EscapeURL(string s)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x330A5B0", Offset = "0x3308BB0", VA = "0x18330A5B0")]
+	[Token(Token = "0x600007A")]
+	[Address(RVA = "0x6D1F120", Offset = "0x6D1E120", VA = "0x6D1F120")]
 	public static string EscapeURL(string s, Encoding e)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x330AEE0", Offset = "0x33094E0", VA = "0x18330AEE0")]
+	[Token(Token = "0x600007B")]
+	[Address(RVA = "0x6D1C0A0", Offset = "0x6D1B0A0", VA = "0x6D1C0A0")]
 	private static extern void GetWebErrorString_Injected(UnityWebRequestError err, out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x330A810", Offset = "0x3308E10", VA = "0x18330A810")]
+	[Token(Token = "0x600007C")]
+	[Address(RVA = "0x6D1C1B0", Offset = "0x6D1B1B0", VA = "0x6D1C1B0")]
 	private static extern void GetHTTPStatusString_Injected(long responseCode, out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x330BAB0", Offset = "0x330A0B0", VA = "0x18330BAB0")]
+	[Token(Token = "0x600007D")]
+	[Address(RVA = "0x6D1C2E0", Offset = "0x6D1B2E0", VA = "0x6D1C2E0")]
 	private static extern void Release_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x330A1C0", Offset = "0x33087C0", VA = "0x18330A1C0")]
+	[Token(Token = "0x600007E")]
+	[Address(RVA = "0x6D1CFE0", Offset = "0x6D1BFE0", VA = "0x6D1CFE0")]
 	private static extern IntPtr BeginWebRequest_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x330A120", Offset = "0x3308720", VA = "0x18330A120")]
+	[Token(Token = "0x600007F")]
+	[Address(RVA = "0x6D1D050", Offset = "0x6D1C050", VA = "0x6D1D050")]
 	private static extern void Abort_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x330BF00", Offset = "0x330A500", VA = "0x18330BF00")]
+	[Token(Token = "0x6000080")]
+	[Address(RVA = "0x6D1D0E0", Offset = "0x6D1C0E0", VA = "0x6D1D0E0")]
 	private static extern UnityWebRequestError SetMethod_Injected(IntPtr _unity_self, UnityWebRequestMethod methodType);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x330BC30", Offset = "0x330A230", VA = "0x18330BC30")]
+	[Token(Token = "0x6000081")]
+	[Address(RVA = "0x6D1D480", Offset = "0x6D1C480", VA = "0x6D1D480")]
 	private static extern UnityWebRequestError SetCustomMethod_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper customMethodName);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x330A770", Offset = "0x3308D70", VA = "0x18330A770")]
+	[Token(Token = "0x6000082")]
+	[Address(RVA = "0x6D1D620", Offset = "0x6D1C620", VA = "0x6D1D620")]
 	private static extern UnityWebRequestError GetError_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x330ADC0", Offset = "0x33093C0", VA = "0x18330ADC0")]
-	private static extern void GetUrl_Injected(IntPtr _unity_self, out UnityEngine.Bindings.ManagedSpanWrapper ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x330C370", Offset = "0x330A970", VA = "0x18330C370")]
+	[Token(Token = "0x6000083")]
+	[Address(RVA = "0x6D1DBC0", Offset = "0x6D1CBC0", VA = "0x6D1DBC0")]
 	private static extern UnityWebRequestError SetUrl_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper url);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x330CB70", Offset = "0x330B170", VA = "0x18330CB70")]
+	[Token(Token = "0x6000084")]
+	[Address(RVA = "0x6D1DC00", Offset = "0x6D1CC00", VA = "0x6D1DC00")]
 	private static extern long get_responseCode_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x330CAD0", Offset = "0x330B0D0", VA = "0x18330CAD0")]
+	[Token(Token = "0x6000085")]
+	[Address(RVA = "0x6D1DC30", Offset = "0x6D1CC30", VA = "0x6D1DC30")]
 	private static extern bool get_isModifiable_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x330CC10", Offset = "0x330B210", VA = "0x18330CC10")]
+	[Token(Token = "0x6000086")]
+	[Address(RVA = "0x6D1DCC0", Offset = "0x6D1CCC0", VA = "0x6D1DCC0")]
 	private static extern Result get_result_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x330C840", Offset = "0x330AE40", VA = "0x18330C840")]
+	[Token(Token = "0x6000087")]
+	[Address(RVA = "0x6D1DD50", Offset = "0x6D1CD50", VA = "0x6D1DD50")]
 	private static extern ulong get_downloadedBytes_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x330BFA0", Offset = "0x330A5A0", VA = "0x18330BFA0")]
+	[Token(Token = "0x6000088")]
+	[Address(RVA = "0x6D1DDE0", Offset = "0x6D1CDE0", VA = "0x6D1DDE0")]
 	private static extern void SetRedirectLimitFromScripting_Injected(IntPtr _unity_self, int limit);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x330B390", Offset = "0x3309990", VA = "0x18330B390")]
+	[Token(Token = "0x6000089")]
+	[Address(RVA = "0x6D1E100", Offset = "0x6D1D100", VA = "0x6D1E100")]
 	private static extern UnityWebRequestError InternalSetRequestHeader_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, ref UnityEngine.Bindings.ManagedSpanWrapper value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x330A9B0", Offset = "0x3308FB0", VA = "0x18330A9B0")]
+	[Token(Token = "0x600008A")]
+	[Address(RVA = "0x6D1E4D0", Offset = "0x6D1D4D0", VA = "0x6D1E4D0")]
 	private static extern void GetResponseHeader_Injected(IntPtr _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper name, out UnityEngine.Bindings.ManagedSpanWrapper ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x330A910", Offset = "0x3308F10", VA = "0x18330A910")]
+	[Token(Token = "0x600008B")]
+	[Address(RVA = "0x6D1E570", Offset = "0x6D1D570", VA = "0x6D1E570")]
 	private static extern string[] GetResponseHeaderKeys_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x330C2B0", Offset = "0x330A8B0", VA = "0x18330C2B0")]
+	[Token(Token = "0x600008C")]
+	[Address(RVA = "0x6D1E820", Offset = "0x6D1D820", VA = "0x6D1E820")]
 	private static extern UnityWebRequestError SetUploadHandler_Injected(IntPtr _unity_self, IntPtr uh);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x330BE40", Offset = "0x330A440", VA = "0x18330BE40")]
+	[Token(Token = "0x600008D")]
+	[Address(RVA = "0x6D1E8D0", Offset = "0x6D1D8D0", VA = "0x6D1E8D0")]
 	private static extern UnityWebRequestError SetDownloadHandler_Injected(IntPtr _unity_self, IntPtr dh);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x330C210", Offset = "0x330A810", VA = "0x18330C210")]
+	[Token(Token = "0x600008E")]
+	[Address(RVA = "0x6D1E970", Offset = "0x6D1D970", VA = "0x6D1E970")]
 	private static extern UnityWebRequestError SetTimeoutMsec_Injected(IntPtr _unity_self, int timeout);
 }

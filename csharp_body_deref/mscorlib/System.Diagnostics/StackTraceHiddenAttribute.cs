@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005AD")]
+[Token(Token = "0x2000588")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method, Inherited = false)]
 internal sealed class StackTraceHiddenAttribute : Attribute
 {
-	[Token(Token = "0x6002B66")]
-	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
+	[Token(Token = "0x6002B45")]
+	[Address(RVA = "0x544D5A0", Offset = "0x544C5A0", VA = "0x544D5A0")]
 	public StackTraceHiddenAttribute()
 	{
 	}

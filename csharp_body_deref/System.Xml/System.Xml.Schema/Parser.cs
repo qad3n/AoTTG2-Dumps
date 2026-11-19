@@ -96,7 +96,7 @@ internal sealed class Parser
 	public XmlSchema XmlSchema
 	{
 		[Token(Token = "0x6001296")]
-		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		[Address(RVA = "0x5FCCE70", Offset = "0x5FCBE70", VA = "0x5FCCE70")]
 		get
 		{
 			return null;
@@ -107,7 +107,7 @@ internal sealed class Parser
 	internal XmlResolver XmlResolver
 	{
 		[Token(Token = "0x6001297")]
-		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
+		[Address(RVA = "0x5FCCE80", Offset = "0x5FCBE80", VA = "0x5FCCE80")]
 		set
 		{
 		}
@@ -117,7 +117,7 @@ internal sealed class Parser
 	public SchemaInfo XdrSchema
 	{
 		[Token(Token = "0x6001298")]
-		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
+		[Address(RVA = "0x5FCCE90", Offset = "0x5FCBE90", VA = "0x5FCCE90")]
 		get
 		{
 			return null;
@@ -125,74 +125,74 @@ internal sealed class Parser
 	}
 
 	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x2607500", Offset = "0x2605B00", VA = "0x182607500")]
+	[Address(RVA = "0x5FCBF40", Offset = "0x5FCAF40", VA = "0x5FCBF40")]
 	public Parser(SchemaType schemaType, XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventHandler)
 	{
 	}
 
 	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x2606C10", Offset = "0x2605210", VA = "0x182606C10")]
+	[Address(RVA = "0x5FCC020", Offset = "0x5FCB020", VA = "0x5FCC020")]
 	public SchemaType Parse(XmlReader reader, string targetNamespace)
 	{
 		return default(SchemaType);
 	}
 
 	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x2606FA0", Offset = "0x26055A0", VA = "0x182606FA0")]
+	[Address(RVA = "0x5FCC090", Offset = "0x5FCB090", VA = "0x5FCC090")]
 	public void StartParsing(XmlReader reader, string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x6001294")]
-	[Address(RVA = "0x26057C0", Offset = "0x2603DC0", VA = "0x1826057C0")]
+	[Address(RVA = "0x5FCCD70", Offset = "0x5FCBD70", VA = "0x5FCCD70")]
 	private bool CheckSchemaRoot(SchemaType rootType, out string code)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001295")]
-	[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
+	[Address(RVA = "0x5FCCE60", Offset = "0x5FCBE60", VA = "0x5FCCE60")]
 	public SchemaType FinishParsing()
 	{
 		return default(SchemaType);
 	}
 
 	[Token(Token = "0x6001299")]
-	[Address(RVA = "0x2606390", Offset = "0x2604990", VA = "0x182606390")]
+	[Address(RVA = "0x5FCC500", Offset = "0x5FCB500", VA = "0x5FCC500")]
 	public bool ParseReaderNode()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600129A")]
-	[Address(RVA = "0x2606C70", Offset = "0x2605270", VA = "0x182606C70")]
+	[Address(RVA = "0x5FCCEA0", Offset = "0x5FCBEA0", VA = "0x5FCCEA0")]
 	private void ProcessAppInfoDocMarkup(bool root)
 	{
 	}
 
 	[Token(Token = "0x600129B")]
-	[Address(RVA = "0x2605B80", Offset = "0x2604180", VA = "0x182605B80")]
+	[Address(RVA = "0x5FCD170", Offset = "0x5FCC170", VA = "0x5FCD170")]
 	private XmlElement LoadElementNode(bool root)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600129C")]
-	[Address(RVA = "0x26058E0", Offset = "0x2603EE0", VA = "0x1826058E0")]
+	[Address(RVA = "0x5FCD7F0", Offset = "0x5FCC7F0", VA = "0x5FCD7F0")]
 	private XmlAttribute CreateXmlNsAttribute(string prefix, string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600129D")]
-	[Address(RVA = "0x2605A00", Offset = "0x2604000", VA = "0x182605A00")]
+	[Address(RVA = "0x5FCD5E0", Offset = "0x5FCC5E0", VA = "0x5FCD5E0")]
 	private XmlAttribute LoadAttributeNode()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600129E")]
-	[Address(RVA = "0x2606140", Offset = "0x2604740", VA = "0x182606140")]
+	[Address(RVA = "0x5FCD920", Offset = "0x5FCC920", VA = "0x5FCD920")]
 	private XmlEntityReference LoadEntityReferenceInAttribute()
 	{
 		return null;
